@@ -36,6 +36,7 @@ export default defineConfig({
     resolve: {
       alias: {
         '@components': new URL('./src/components', import.meta.url).pathname,
+        '@': new URL('./src', import.meta.url).pathname,
       },
     },
   },
