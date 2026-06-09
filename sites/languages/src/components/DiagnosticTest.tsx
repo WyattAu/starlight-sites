@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { createSignal, createEffect, createMemo, onCleanup, For, Show } from 'solid-js';
 import { sanitizeHtml } from '../utils/sanitize';
 
 export interface DiagnosticQuestion {
@@ -109,29 +109,28 @@ function formatTime(ms: number): string {
   return mins > 0 ? `${mins}:${String(rem).padStart(2, '0')}` : `${rem}s`;
 }
 
-export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTestProps) {
-  const maxQuestions = Math.min(questions.length, 15);
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [askedIds, setAskedIds] = useState<Set<string>>(new Set());
-  const [answers, setAnswers] = useState<Map<string, number>>(new Map());
-  const [selected, setSelected] = useState<number | null>(null);
-  const [submitted, setSubmitted] = useState(false);
-  const [showResults, setShowResults] = useState(false);
-  const [topicScores, setTopicScores] = useState<Map<string, { correct: number; total: number }>>(
-    new Map(),
+export function DiagnosticTest(props: DiagnosticTestProps) {
+  const [getCurrentIndex, setCurrentIndex] = createSignal(0);
+  const [getAskedIds, setAskedIds] = createSignal(new Set<string>());
+  const [getAnswers, setAnswers] = createSignal(new Map<string, number>());
+  const [getSelected, setSelected] = createSignal<number | null>(null);
+  const [getSubmitted, setSubmitted] = createSignal(false);
+  const [getShowResults, setShowResults] = createSignal(false);
+  const [getTopicScores, setTopicScores] = createSignal(
+    new Map<string, { correct: number; total: number }>(),
   );
-  const [startTime] = useState(Date.now());
-  const [elapsed, setElapsed] = useState(0);
+  const [getStartTime] = createSignal(Date.now());
+  const [getElapsed, setElapsed] = createSignal(0);
   const showTimer = true;
 
-  const questionOrder = useMemo(() => {
+  const questionOrder = createMemo(() => {
+    const maxQ = Math.min(props.questions.length, 15);
     const order: string[] = [];
     const asked = new Set<string>();
     const scores = new Map<string, { correct: number; total: number }>();
 
-    for (let i = 0; i < maxQuestions; i++) {
-      const next = pickNextQuestion(questions, asked, scores);
+    for (let i = 0; i < maxQ; i++) {
+      const next = pickNextQuestion(props.questions, asked, scores);
 
       if (!next) {
         break;
@@ -144,73 +143,77 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
     }
 
     return order;
-  }, [questions, maxQuestions]);
+  });
 
-  const currentQuestionId = questionOrder[currentIndex] ?? null;
-  const currentQuestion = currentQuestionId
-    ? (questions.find((q) => q.id === currentQuestionId) ?? null)
-    : null;
+  const currentQuestionId = createMemo(() => questionOrder()[getCurrentIndex()] ?? null);
+  const currentQuestion = createMemo(() => {
+    const id = currentQuestionId();
+    if (!id) return null;
+    return props.questions.find((q) => q.id === id) ?? null;
+  });
 
-  useEffect(() => {
-    if (!showTimer || showResults) {
+  createEffect(() => {
+    if (!showTimer || getShowResults()) {
       return;
     }
-    const interval = setInterval(() => setElapsed(Date.now() - startTime), 1000);
+    const start = getStartTime();
+    const interval = setInterval(() => setElapsed(Date.now() - start), 1000);
+    onCleanup(() => clearInterval(interval));
+  });
 
-    return () => clearInterval(interval);
-  }, [showTimer, showResults, startTime]);
+  const handleSelect = (index: number) => {
+    if (!getSubmitted()) {
+      setSelected(index);
+    }
+  };
 
-  const handleSelect = useCallback(
-    (index: number) => {
-      if (!submitted) {
-        setSelected(index);
-      }
-    },
-    [submitted],
-  );
-
-  const handleSubmit = useCallback(() => {
-    if (selected === null || !currentQuestion) {
+  const handleSubmit = () => {
+    const sel = getSelected();
+    const q = currentQuestion();
+    if (sel === null || !q) {
       return;
     }
     setSubmitted(true);
-    const newAnswers = new Map(answers);
+    const newAnswers = new Map(getAnswers());
 
-    newAnswers.set(currentQuestion.id, selected);
+    newAnswers.set(q.id, sel);
     setAnswers(newAnswers);
-    const newAsked = new Set(askedIds);
+    const newAsked = new Set(getAskedIds());
 
-    newAsked.add(currentQuestion.id);
+    newAsked.add(q.id);
     setAskedIds(newAsked);
-    const prev = topicScores.get(currentQuestion.topic) ?? { correct: 0, total: 0 };
+    const prev = getTopicScores().get(q.topic) ?? { correct: 0, total: 0 };
 
     setTopicScores(
-      new Map(topicScores).set(currentQuestion.topic, {
-        correct: prev.correct + (selected === currentQuestion.correctIndex ? 1 : 0),
+      new Map(getTopicScores()).set(q.topic, {
+        correct: prev.correct + (sel === q.correctIndex ? 1 : 0),
         total: prev.total + 1,
       }),
     );
-  }, [selected, currentQuestion, answers, askedIds, topicScores]);
+  };
 
-  const handleNext = useCallback(() => {
-    if (currentIndex + 1 >= questionOrder.length) {
+  const handleNext = () => {
+    const ci = getCurrentIndex();
+    if (ci + 1 >= questionOrder().length) {
       setShowResults(true);
 
       return;
     }
-    setCurrentIndex((i) => i + 1);
+    setCurrentIndex(ci + 1);
     setSelected(null);
     setSubmitted(false);
-  }, [currentIndex, questionOrder.length]);
+  };
 
-  useEffect(() => {
-    if (!showResults) {
+  createEffect(() => {
+    if (!getShowResults()) {
       return;
     }
+    const ans = getAnswers();
+    const qs = props.questions;
     const topicMap = new Map<string, { correct: number; total: number }>();
 
-    for (const [qid, ans] of answers) {
-      const q = questions.find((qq) => qq.id === qid);
+    for (const [qid, a] of ans) {
+      const q = qs.find((qq) => qq.id === qid);
 
       if (!q) {
         continue;
@@ -218,7 +221,7 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
       const prev = topicMap.get(q.topic) ?? { correct: 0, total: 0 };
 
       topicMap.set(q.topic, {
-        correct: prev.correct + (ans === q.correctIndex ? 1 : 0),
+        correct: prev.correct + (a === q.correctIndex ? 1 : 0),
         total: prev.total + 1,
       });
     }
@@ -234,15 +237,15 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
     const strengths = topicResults.filter((t) => t.level === 'strong').map((t) => t.topic);
     const weaknesses = topicResults.filter((t) => t.level === 'weak').map((t) => t.topic);
     const recommendedTopics = topicResults.filter((t) => t.level !== 'strong').map((t) => t.topic);
-    const totalCorrect = Array.from(answers.values()).filter((a, i) => {
-      const q = questions.find((qq) => qq.id === Array.from(answers.keys())[i]);
+    const totalCorrect = Array.from(ans.values()).filter((a, i) => {
+      const q = qs.find((qq) => qq.id === Array.from(ans.keys())[i]);
 
       return q && a === q.correctIndex;
     }).length;
-    const totalQuestions = answers.size;
+    const totalQuestions = ans.size;
 
-    onComplete({
-      subject,
+    props.onComplete({
+      subject: props.subject,
       totalQuestions,
       totalCorrect,
       overallScore: totalQuestions > 0 ? totalCorrect / totalQuestions : 0,
@@ -250,18 +253,20 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
       strengths,
       weaknesses,
       recommendedTopics,
-      timeSpentMs: elapsed,
+      timeSpentMs: getElapsed(),
     });
-  }, [showResults]);
+  });
 
-  const result: DiagnosticResult | null = useMemo(() => {
-    if (!showResults || answers.size === 0) {
+  const result: () => DiagnosticResult | null = createMemo(() => {
+    if (!getShowResults() || getAnswers().size === 0) {
       return null;
     }
+    const ans = getAnswers();
+    const qs = props.questions;
     const topicMap = new Map<string, { correct: number; total: number }>();
 
-    for (const [qid, ans] of answers) {
-      const q = questions.find((qq) => qq.id === qid);
+    for (const [qid, a] of ans) {
+      const q = qs.find((qq) => qq.id === qid);
 
       if (!q) {
         continue;
@@ -269,7 +274,7 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
       const prev = topicMap.get(q.topic) ?? { correct: 0, total: 0 };
 
       topicMap.set(q.topic, {
-        correct: prev.correct + (ans === q.correctIndex ? 1 : 0),
+        correct: prev.correct + (a === q.correctIndex ? 1 : 0),
         total: prev.total + 1,
       });
     }
@@ -287,132 +292,59 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
     const recommended = topicResults.filter((t) => t.level !== 'strong').map((t) => t.topic);
     let totalCorrect = 0;
 
-    for (const [qid, ans] of answers) {
-      const q = questions.find((qq) => qq.id === qid);
+    for (const [qid, a] of ans) {
+      const q = qs.find((qq) => qq.id === qid);
 
-      if (q && ans === q.correctIndex) {
+      if (q && a === q.correctIndex) {
         totalCorrect++;
       }
     }
 
     return {
-      subject,
-      totalQuestions: answers.size,
+      subject: props.subject,
+      totalQuestions: ans.size,
       totalCorrect,
-      overallScore: answers.size > 0 ? totalCorrect / answers.size : 0,
+      overallScore: ans.size > 0 ? totalCorrect / ans.size : 0,
       topicResults,
       strengths,
       weaknesses,
       recommendedTopics: recommended,
-      timeSpentMs: elapsed,
+      timeSpentMs: getElapsed(),
     };
-  }, [showResults, answers, questions, subject, elapsed]);
+  });
 
-  const containerStyle: React.CSSProperties = {
-    maxWidth: 700,
+  const containerStyle: Record<string, string> = {
+    maxWidth: '700px',
     margin: '1.5rem auto',
-    padding: 24,
+    padding: '24px',
     border: '2px solid var(--ifm-color-emphasis-300)',
-    borderRadius: 12,
+    borderRadius: '12px',
     background: 'var(--ifm-background-surface-color)',
     fontFamily: 'var(--ifm-font-family-base)',
   };
 
-  const progressBarBg: React.CSSProperties = {
+  const progressBarBg: Record<string, string> = {
     width: '100%',
-    height: 8,
-    borderRadius: 4,
+    height: '8px',
+    borderRadius: '4px',
     background: 'var(--ifm-color-emphasis-200)',
-    marginBottom: 16,
+    marginBottom: '16px',
   };
 
-  const progressBarFill: React.CSSProperties = {
+  const progressBarFill = createMemo(() => ({
     height: '100%',
-    borderRadius: 4,
+    borderRadius: '4px',
     background: 'var(--ifm-color-primary)',
     transition: 'width 0.3s',
-    width: `${((currentIndex + (submitted ? 1 : 0)) / questionOrder.length) * 100}%`,
-  };
+    width: `${((getCurrentIndex() + (getSubmitted() ? 1 : 0)) / questionOrder().length) * 100}%`,
+  }));
 
-  if (showResults && result) {
-    const pct = (s: number) => `${Math.round(s * 100)}%`;
+  const isCorrect = createMemo(
+    () => getSubmitted() && getSelected() === currentQuestion()?.correctIndex,
+  );
 
-    return (
-      <div style={containerStyle}>
-        <h3 style={{ marginBottom: 4 }}>{subject} — Diagnostic Results</h3>
-        <p style={{ color: 'var(--ifm-color-emphasis-700)', marginBottom: 16 }}>
-          {result.totalCorrect}/{result.totalQuestions} correct ({pct(result.overallScore)})
-          {showTimer && ` in ${formatTime(elapsed)}`}
-        </p>
-        <h4 style={{ marginBottom: 8 }}>Topic Breakdown</h4>
-        {result.topicResults.map((t) => (
-          <div key={t.topic} style={{ marginBottom: 10 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 2 }}>
-              <span
-                style={{
-                  fontWeight: 600,
-                  color: getLevelColor(t.level),
-                }}
-              >
-                {t.topic}
-              </span>
-              <span style={{ fontSize: '0.85rem', color: 'var(--ifm-font-color-base)' }}>
-                {t.correct}/{t.total} — {pct(t.score)}
-              </span>
-            </div>
-            <div style={progressBarBg}>
-              <div
-                style={{
-                  ...progressBarFill,
-                  width: `${t.score * 100}%`,
-                  background: getLevelColor(t.level),
-                }}
-              />
-            </div>
-          </div>
-        ))}
-        {result.strengths.length > 0 && (
-          <div style={{ marginTop: 16 }}>
-            <h4 style={{ color: '#2ecc71', marginBottom: 4 }}>Strengths</h4>
-            <ul style={{ paddingLeft: 20, margin: 0 }}>
-              {result.strengths.map((t) => (
-                <li key={t}>{t}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-        {result.weaknesses.length > 0 && (
-          <div style={{ marginTop: 12 }}>
-            <h4 style={{ color: '#e74c3c', marginBottom: 4 }}>Needs Improvement</h4>
-            <ul style={{ paddingLeft: 20, margin: 0 }}>
-              {result.weaknesses.map((t) => (
-                <li key={t}>{t}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-        {result.recommendedTopics.length > 0 && (
-          <div style={{ marginTop: 12 }}>
-            <h4 style={{ color: '#f39c12', marginBottom: 4 }}>Recommended Study Topics</h4>
-            <ul style={{ paddingLeft: 20, margin: 0 }}>
-              {result.recommendedTopics.map((t) => (
-                <li key={t}>{t}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  if (!currentQuestion) {
-    return null;
-  }
-
-  const isCorrect = submitted && selected === currentQuestion.correctIndex;
-
-  const optionStyle = (index: number): React.CSSProperties => {
-    const base: React.CSSProperties = {
+  const optionStyle = (index: number): Record<string, string> => {
+    const base: Record<string, string> = {
       display: 'block',
       width: '100%',
       padding: '12px 16px',
@@ -423,20 +355,21 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
       color: 'var(--ifm-font-color-base)',
       fontSize: '1rem',
       textAlign: 'left',
-      cursor: submitted ? 'default' : 'pointer',
+      cursor: getSubmitted() ? 'default' : 'pointer',
       transition: 'border-color 0.15s, background 0.15s',
       fontFamily: 'inherit',
     };
 
-    if (!submitted && selected === index) {
+    if (!getSubmitted() && getSelected() === index) {
       base.borderColor = 'var(--ifm-color-primary)';
       base.background = 'var(--ifm-color-primary-soft)';
     }
-    if (submitted) {
-      if (index === currentQuestion.correctIndex) {
+    if (getSubmitted()) {
+      const q = currentQuestion()!;
+      if (index === q.correctIndex) {
         base.borderColor = '#2ecc71';
         base.background = 'rgba(46,204,113,0.12)';
-      } else if (index === selected && index !== currentQuestion.correctIndex) {
+      } else if (index === getSelected() && index !== q.correctIndex) {
         base.borderColor = '#e74c3c';
         base.background = 'rgba(231,76,60,0.12)';
       }
@@ -445,132 +378,225 @@ export function DiagnosticTest({ subject, questions, onComplete }: DiagnosticTes
     return base;
   };
 
+  const pct = (s: number) => `${Math.round(s * 100)}%`;
+
   return (
-    <div style={containerStyle}>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          marginBottom: 4,
-        }}
-      >
-        <h3 style={{ margin: 0 }}>{subject}</h3>
-        {showTimer && (
-          <span style={{ fontSize: '0.85rem', color: 'var(--ifm-color-emphasis-700)' }}>
-            {formatTime(elapsed)}
-          </span>
-        )}
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
-        <span
-          style={{
-            display: 'inline-block',
-            padding: '2px 10px',
-            borderRadius: 4,
-            fontSize: '0.75rem',
-            fontWeight: 600,
-            background: 'var(--ifm-color-primary)',
-            color: '#fff',
-          }}
-        >
-          {currentQuestion.topic}
-        </span>
-        <span style={{ fontSize: '0.75rem', color: 'var(--ifm-color-emphasis-700)' }}>
-          Difficulty {currentQuestion.difficulty}/5
-        </span>
-      </div>
-      <div style={progressBarBg}>
-        <div style={progressBarFill} />
-      </div>
-      <p style={{ fontSize: '0.8rem', color: 'var(--ifm-color-emphasis-700)', marginBottom: 12 }}>
-        Question {currentIndex + 1} of {questionOrder.length}
-      </p>
-      <div
-        style={{
-          fontSize: '1.15rem',
-          fontWeight: 600,
-          marginBottom: 16,
-          color: 'var(--ifm-font-color-base)',
-        }}
-        dangerouslySetInnerHTML={{ __html: sanitizeHtml(currentQuestion.question) }}
-      />
-      <div role="group" aria-label="Answer options">
-        {currentQuestion.options.map((opt, i) => (
-          <button
-            key={i}
-            type="button"
-            disabled={submitted}
-            onClick={() => handleSelect(i)}
-            aria-label={`Option ${LABELS[i]}: ${opt}`}
-            style={optionStyle(i)}
-          >
-            <span style={{ fontWeight: 600, marginRight: 8 }}>{LABELS[i]}.</span>
-            {opt}
-          </button>
-        ))}
-      </div>
-      {!submitted && (
-        <button
-          type="button"
-          disabled={selected === null}
-          onClick={handleSubmit}
-          style={{
-            marginTop: 12,
-            padding: '10px 24px',
-            border: 'none',
-            borderRadius: 8,
-            background:
-              selected === null ? 'var(--ifm-color-emphasis-300)' : 'var(--ifm-color-primary)',
-            color: '#fff',
-            fontWeight: 600,
-            fontSize: '1rem',
-            cursor: selected === null ? 'not-allowed' : 'pointer',
-            opacity: selected === null ? 0.6 : 1,
-          }}
-        >
-          Submit
-        </button>
-      )}
-      {submitted && (
-        <>
-          <div
-            style={{
-              marginTop: 16,
-              padding: 16,
-              borderRadius: 8,
-              background: isCorrect ? 'rgba(46,204,113,0.1)' : 'rgba(231,76,60,0.1)',
-              border: `1px solid ${isCorrect ? '#2ecc71' : '#e74c3c'}`,
-            }}
-          >
-            <strong style={{ color: isCorrect ? '#2ecc71' : '#e74c3c' }}>
-              {isCorrect ? 'Correct!' : 'Incorrect.'}
-            </strong>
-            <div
-              style={{ marginTop: 8, lineHeight: 1.6, color: 'var(--ifm-font-color-base)' }}
-              dangerouslySetInnerHTML={{ __html: sanitizeHtml(currentQuestion.explanation) }}
-            />
+    <>
+      <Show when={result()} keyed>
+        {(r) => (
+          <div style={containerStyle}>
+            <h3 style={{ marginBottom: '4px' }}>{props.subject} — Diagnostic Results</h3>
+            <p style={{ color: 'var(--ifm-color-emphasis-700)', marginBottom: '16px' }}>
+              {r.totalCorrect}/{r.totalQuestions} correct ({pct(r.overallScore)})
+              {showTimer && ` in ${formatTime(getElapsed())}`}
+            </p>
+            <h4 style={{ marginBottom: '8px' }}>Topic Breakdown</h4>
+            <For each={r.topicResults}>
+              {(t) => (
+                <div style={{ marginBottom: '10px' }}>
+                  <div
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      marginBottom: '2px',
+                    }}
+                  >
+                    <span
+                      style={{
+                        fontWeight: 600,
+                        color: getLevelColor(t.level),
+                      }}
+                    >
+                      {t.topic}
+                    </span>
+                    <span style={{ fontSize: '0.85rem', color: 'var(--ifm-font-color-base)' }}>
+                      {t.correct}/{t.total} — {pct(t.score)}
+                    </span>
+                  </div>
+                  <div style={progressBarBg}>
+                    <div
+                      style={{
+                        height: '100%',
+                        borderRadius: '4px',
+                        width: `${t.score * 100}%`,
+                        background: getLevelColor(t.level),
+                        transition: 'width 0.3s',
+                      }}
+                    />
+                  </div>
+                </div>
+              )}
+            </For>
+            <Show when={r.strengths.length > 0}>
+              <div style={{ marginTop: '16px' }}>
+                <h4 style={{ color: '#2ecc71', marginBottom: '4px' }}>Strengths</h4>
+                <ul style={{ paddingLeft: '20px', margin: 0 }}>
+                  <For each={r.strengths}>{(t) => <li>{t}</li>}</For>
+                </ul>
+              </div>
+            </Show>
+            <Show when={r.weaknesses.length > 0}>
+              <div style={{ marginTop: '12px' }}>
+                <h4 style={{ color: '#e74c3c', marginBottom: '4px' }}>Needs Improvement</h4>
+                <ul style={{ paddingLeft: '20px', margin: 0 }}>
+                  <For each={r.weaknesses}>{(t) => <li>{t}</li>}</For>
+                </ul>
+              </div>
+            </Show>
+            <Show when={r.recommendedTopics.length > 0}>
+              <div style={{ marginTop: '12px' }}>
+                <h4 style={{ color: '#f39c12', marginBottom: '4px' }}>Recommended Study Topics</h4>
+                <ul style={{ paddingLeft: '20px', margin: 0 }}>
+                  <For each={r.recommendedTopics}>{(t) => <li>{t}</li>}</For>
+                </ul>
+              </div>
+            </Show>
           </div>
-          <button
-            type="button"
-            onClick={handleNext}
-            style={{
-              marginTop: 12,
-              padding: '10px 24px',
-              border: 'none',
-              borderRadius: 8,
-              background: 'var(--ifm-color-primary)',
-              color: '#fff',
-              fontWeight: 600,
-              fontSize: '1rem',
-              cursor: 'pointer',
-            }}
-          >
-            {currentIndex + 1 >= questionOrder.length ? 'View Results' : 'Next Question'}
-          </button>
-        </>
-      )}
-    </div>
+        )}
+      </Show>
+      <Show when={!getShowResults() && currentQuestion()} keyed>
+        {(q) => (
+          <div style={containerStyle}>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '4px',
+              }}
+            >
+              <h3 style={{ margin: 0 }}>{props.subject}</h3>
+              <Show when={showTimer}>
+                <span style={{ fontSize: '0.85rem', color: 'var(--ifm-color-emphasis-700)' }}>
+                  {formatTime(getElapsed())}
+                </span>
+              </Show>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '2px 10px',
+                  borderRadius: '4px',
+                  fontSize: '0.75rem',
+                  fontWeight: 600,
+                  background: 'var(--ifm-color-primary)',
+                  color: '#fff',
+                }}
+              >
+                {q.topic}
+              </span>
+              <span style={{ fontSize: '0.75rem', color: 'var(--ifm-color-emphasis-700)' }}>
+                Difficulty {q.difficulty}/5
+              </span>
+            </div>
+            <div style={progressBarBg}>
+              <div style={progressBarFill()} />
+            </div>
+            <p
+              style={{
+                fontSize: '0.8rem',
+                color: 'var(--ifm-color-emphasis-700)',
+                marginBottom: '12px',
+              }}
+            >
+              Question {getCurrentIndex() + 1} of {questionOrder().length}
+            </p>
+            <div
+              style={{
+                fontSize: '1.15rem',
+                fontWeight: 600,
+                marginBottom: '16px',
+                color: 'var(--ifm-font-color-base)',
+              }}
+              innerHTML={sanitizeHtml(q.question)}
+            />
+            <div role="group" aria-label="Answer options">
+              <For each={q.options}>
+                {(opt, i) => (
+                  <button
+                    type="button"
+                    disabled={getSubmitted()}
+                    onClick={() => handleSelect(i())}
+                    aria-label={`Option ${LABELS[i()]}: ${opt}`}
+                    style={optionStyle(i())}
+                  >
+                    <span style={{ fontWeight: 600, marginRight: '8px' }}>{LABELS[i()]}.</span>
+                    {opt}
+                  </button>
+                )}
+              </For>
+            </div>
+            <Show when={!getSubmitted()}>
+              <button
+                type="button"
+                disabled={getSelected() === null}
+                onClick={handleSubmit}
+                style={{
+                  marginTop: '12px',
+                  padding: '10px 24px',
+                  border: 'none',
+                  borderRadius: '8px',
+                  background:
+                    getSelected() === null
+                      ? 'var(--ifm-color-emphasis-300)'
+                      : 'var(--ifm-color-primary)',
+                  color: '#fff',
+                  fontWeight: 600,
+                  fontSize: '1rem',
+                  cursor: getSelected() === null ? 'not-allowed' : 'pointer',
+                  opacity: getSelected() === null ? 0.6 : 1,
+                }}
+              >
+                Submit
+              </button>
+            </Show>
+            <Show when={getSubmitted()}>
+              <>
+                <div
+                  style={{
+                    marginTop: '16px',
+                    padding: '16px',
+                    borderRadius: '8px',
+                    background: isCorrect() ? 'rgba(46,204,113,0.1)' : 'rgba(231,76,60,0.1)',
+                    border: `1px solid ${isCorrect() ? '#2ecc71' : '#e74c3c'}`,
+                  }}
+                >
+                  <strong style={{ color: isCorrect() ? '#2ecc71' : '#e74c3c' }}>
+                    {isCorrect() ? 'Correct!' : 'Incorrect.'}
+                  </strong>
+                  <div
+                    style={{
+                      marginTop: '8px',
+                      lineHeight: 1.6,
+                      color: 'var(--ifm-font-color-base)',
+                    }}
+                    innerHTML={sanitizeHtml(q.explanation)}
+                  />
+                </div>
+                <button
+                  type="button"
+                  onClick={handleNext}
+                  style={{
+                    marginTop: '12px',
+                    padding: '10px 24px',
+                    border: 'none',
+                    borderRadius: '8px',
+                    background: 'var(--ifm-color-primary)',
+                    color: '#fff',
+                    fontWeight: 600,
+                    fontSize: '1rem',
+                    cursor: 'pointer',
+                  }}
+                >
+                  {getCurrentIndex() + 1 >= questionOrder().length ? 'View Results' : 'Next Question'}
+                </button>
+              </>
+            </Show>
+          </div>
+        )}
+      </Show>
+    </>
   );
 }
 

@@ -1,36 +1,36 @@
-import React, { useEffect, useRef } from 'react';
+import { createEffect, onCleanup } from 'solid-js';
 
-const embedContainer: React.CSSProperties = {
+const embedContainer: Record<string, string> = {
   width: '100%',
   margin: '1.5rem 0',
   overflow: 'hidden',
   border: '2px solid var(--ifm-color-emphasis-300)',
 };
 
-const embedTitle: React.CSSProperties = {
+const embedTitle: Record<string, string> = {
   fontFamily: 'monospace',
   fontSize: '0.65rem',
-  fontWeight: 600,
+  fontWeight: '600',
   letterSpacing: '0.1em',
   textTransform: 'uppercase',
   color: 'var(--ifm-color-primary)',
   padding: '0.5rem 0.75rem',
   borderBottom: '2px solid var(--ifm-color-emphasis-300)',
   backgroundColor: 'var(--ifm-background-surface-color)',
-  margin: 0,
+  margin: '0',
 };
 
-const embedResponsive: React.CSSProperties = {
+const embedResponsive: Record<string, string> = {
   position: 'relative',
   width: '100%',
-  height: 0,
+  height: '0',
   overflow: 'hidden',
 };
 
-const embedIframe: React.CSSProperties = {
+const embedIframe: Record<string, string> = {
   position: 'absolute',
-  top: 0,
-  left: 0,
+  top: '0',
+  left: '0',
   width: '100%',
   height: '100%',
   border: 'none',
@@ -88,37 +88,22 @@ const DESMOS_COLORS = [
   '#666666',
 ];
 
-export const DesmosGraph: React.FC<DesmosGraphProps> = ({
-  expressions = [],
-  calculatorUrl,
-  title = 'Desmos Graph',
-  width = 800,
-  height = 500,
-}) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const calculatorRef = useRef<unknown>(null);
-  const aspectPadding = (height / width) * 100;
+export function DesmosGraph(props: DesmosGraphProps) {
+  let containerRef: HTMLDivElement | undefined;
+  let calculatorRef: unknown;
 
-  if (calculatorUrl) {
-    return (
-      <div style={embedContainer}>
-        <p style={embedTitle}>{title}</p>
-        <div style={{ ...embedResponsive, paddingBottom: `${aspectPadding}%` }}>
-          <iframe
-            style={embedIframe}
-            src={calculatorUrl}
-            title={title}
-            sandbox="allow-scripts allow-same-origin"
-            loading="lazy"
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
-        </div>
-      </div>
-    );
-  }
+  const expressions = () => props.expressions ?? [];
+  const calculatorUrl = () => props.calculatorUrl;
+  const title = () => props.title ?? 'Desmos Graph';
+  const width = () => props.width ?? 800;
+  const height = () => props.height ?? 500;
+  const aspectPadding = () => (height() / width()) * 100;
 
-  useEffect(() => {
-    if (!containerRef.current || expressions.length === 0) {
+  createEffect(() => {
+    const exprs = expressions();
+    const el = containerRef;
+
+    if (!el || exprs.length === 0) {
       return;
     }
 
@@ -131,7 +116,7 @@ export const DesmosGraph: React.FC<DesmosGraphProps> = ({
     script.async = true;
 
     script.onload = () => {
-      if (destroyed || !containerRef.current) {
+      if (destroyed || !containerRef) {
         return;
       }
 
@@ -142,7 +127,7 @@ export const DesmosGraph: React.FC<DesmosGraphProps> = ({
         return;
       }
 
-      const calculator = Desmos.GraphingCalculator(containerRef.current, {
+      const calculator = Desmos.GraphingCalculator(containerRef, {
         keypad: false,
         expressions: false,
         settingsMenu: false,
@@ -152,9 +137,9 @@ export const DesmosGraph: React.FC<DesmosGraphProps> = ({
         trace: true,
       });
 
-      calculatorRef.current = calculator;
+      calculatorRef = calculator;
 
-      const parsedExpressions = expressions.map((expr) =>
+      const parsedExpressions = exprs.map((expr) =>
         typeof expr === 'string' ? parseExpression(expr) : expr,
       );
 
@@ -178,7 +163,7 @@ export const DesmosGraph: React.FC<DesmosGraphProps> = ({
       const paramRegex = /\b([a-df-wz])\b/g;
       const addedParams = new Set<string>();
 
-      expressions.forEach((expr) => {
+      exprs.forEach((expr) => {
         const input = typeof expr === 'string' ? expr : expr.latex || '';
         let paramMatch;
 
@@ -196,38 +181,56 @@ export const DesmosGraph: React.FC<DesmosGraphProps> = ({
       });
     };
 
-    containerRef.current.appendChild(script);
+    el.appendChild(script);
 
-    return () => {
+    onCleanup(() => {
       destroyed = true;
-      if (calculatorRef.current) {
+      if (calculatorRef) {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (calculatorRef.current as any).destroy();
-        calculatorRef.current = null;
+        (calculatorRef as any).destroy();
+        calculatorRef = undefined;
       }
       if (script.parentNode) {
         script.parentNode.removeChild(script);
       }
-    };
-  }, [expressions]);
+    });
+  });
 
-  if (expressions.length === 0 && !calculatorUrl) {
+  if (calculatorUrl()) {
+    return (
+      <div style={embedContainer}>
+        <p style={embedTitle}>{title()}</p>
+        <div style={{ ...embedResponsive, paddingBottom: `${aspectPadding()}%` }}>
+          <iframe
+            style={embedIframe}
+            src={calculatorUrl()}
+            title={title()}
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
+      </div>
+    );
+  }
+
+  if (expressions().length === 0 && !calculatorUrl()) {
     return null;
   }
 
   return (
     <div style={embedContainer}>
-      <p style={embedTitle}>{title}</p>
+      <p style={embedTitle}>{title()}</p>
       <div
-        ref={containerRef}
+        ref={el => { containerRef = el }}
         style={{
           ...embedResponsive,
-          paddingBottom: `${aspectPadding}%`,
+          paddingBottom: `${aspectPadding()}%`,
           position: 'relative',
         }}
         role="img"
-        aria-label={title}
+        aria-label={title()}
       />
     </div>
   );
-};
+}

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { createSignal, createEffect, onCleanup, createMemo } from 'solid-js';
 import { sanitizeHtml } from '../utils/sanitize';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
@@ -39,10 +39,9 @@ function escapeHtml(text: string): string {
 export function PracticeProblem(props: PracticeProblemProps) {
   if (props.questions && props.questions.length > 0) {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+      <div style={{ display: 'flex', 'flex-direction': 'column', gap: '1.5rem' }}>
         {props.questions.map((q, idx) => (
           <PracticeProblemItem
-            key={idx}
             question={q.question}
             options={q.options}
             correctAnswer={q.correctAnswer ?? q.correct ?? 0}
@@ -65,86 +64,76 @@ export function PracticeProblem(props: PracticeProblemProps) {
   );
 }
 
-function PracticeProblemItem({
-  question,
-  options,
-  correctAnswer,
-  explanation,
-  difficulty,
-}: {
+function PracticeProblemItem(props: {
   question: string;
   options: string[];
   correctAnswer: number;
   explanation: string;
   difficulty: Difficulty;
-  key?: number;
 }) {
-  const [selected, setSelected] = useState<number | null>(null);
-  const [submitted, setSubmitted] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const buttonRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  const [selected, setSelected] = createSignal<number | null>(null);
+  const [submitted, setSubmitted] = createSignal(false);
+  const buttonRefs: (HTMLButtonElement | null)[] = [];
 
-  const focusedIndex = selected ?? -1;
-  const isCorrect = submitted && selected === correctAnswer;
+  const focusedIndex = () => selected() ?? -1;
+  const isCorrect = () => submitted() && selected() === props.correctAnswer;
 
-  useEffect(() => {
-    if (focusedIndex >= 0 && buttonRefs.current[focusedIndex]) {
-      buttonRefs.current[focusedIndex]?.focus();
+  createEffect(() => {
+    const idx = focusedIndex();
+    if (idx >= 0 && buttonRefs[idx]) {
+      buttonRefs[idx]?.focus();
     }
-  }, [focusedIndex]);
+  });
 
-  const handleKeyDown = useCallback(
-    (e: React.KeyboardEvent) => {
-      if (submitted) {
-        return;
-      }
-      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-        e.preventDefault();
-        setSelected((prev) => (prev === null ? 0 : Math.min(prev + 1, options.length - 1)));
-      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-        e.preventDefault();
-        setSelected((prev) => (prev === null ? options.length - 1 : Math.max(prev - 1, 0)));
-      } else if (e.key === 'Enter' && selected !== null) {
-        e.preventDefault();
-        setSubmitted(true);
-      }
-    },
-    [submitted, selected, options.length],
-  );
-
-  const handleSubmit = () => {
-    if (selected !== null) {
+  const handleKeyDown = (e: KeyboardEvent) => {
+    if (submitted()) {
+      return;
+    }
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      setSelected((prev) => (prev === null ? 0 : Math.min(prev + 1, props.options.length - 1)));
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      setSelected((prev) => (prev === null ? props.options.length - 1 : Math.max(prev - 1, 0)));
+    } else if (e.key === 'Enter' && selected() !== null) {
+      e.preventDefault();
       setSubmitted(true);
     }
   };
 
-  const getOptionStyle = (index: number): React.CSSProperties => {
-    const base: React.CSSProperties = {
+  const handleSubmit = () => {
+    if (selected() !== null) {
+      setSubmitted(true);
+    }
+  };
+
+  const getOptionStyle = (index: number): Record<string, string> => {
+    const base: Record<string, string> = {
       display: 'block',
       width: '100%',
       padding: '12px 16px',
       margin: '6px 0',
       border: '2px solid var(--ifm-color-emphasis-300)',
-      borderRadius: '8px',
+      'border-radius': '8px',
       background: 'var(--ifm-background-surface-color)',
       color: 'var(--ifm-font-color-base)',
-      fontSize: '1rem',
-      textAlign: 'left',
-      cursor: submitted ? 'default' : 'pointer',
+      'font-size': '1rem',
+      'text-align': 'left',
+      cursor: submitted() ? 'default' : 'pointer',
       transition: 'border-color 0.15s, background 0.15s',
-      fontFamily: 'inherit',
+      'font-family': 'inherit',
     };
 
-    if (!submitted && selected === index) {
-      base.borderColor = 'var(--ifm-color-primary)';
+    if (!submitted() && selected() === index) {
+      base['border-color'] = 'var(--ifm-color-primary)';
       base.background = 'var(--ifm-color-primary-soft)';
     }
-    if (submitted) {
-      if (index === correctAnswer) {
-        base.borderColor = DIFFICULTY_COLORS.easy;
+    if (submitted()) {
+      if (index === props.correctAnswer) {
+        base['border-color'] = DIFFICULTY_COLORS.easy;
         base.background = 'rgba(46,204,113,0.12)';
-      } else if (index === selected && index !== correctAnswer) {
-        base.borderColor = DIFFICULTY_COLORS.hard;
+      } else if (index === selected() && index !== props.correctAnswer) {
+        base['border-color'] = DIFFICULTY_COLORS.hard;
         base.background = 'rgba(231,76,60,0.12)';
       }
     }
@@ -154,110 +143,108 @@ function PracticeProblemItem({
 
   return (
     <div
-      ref={containerRef}
       onKeyDown={handleKeyDown}
       role="radiogroup"
       aria-label="Practice problem options"
       style={{
-        maxWidth: 700,
+        'max-width': '700px',
         margin: '1.5rem auto',
-        padding: 24,
+        padding: '24px',
         border: '2px solid var(--ifm-color-emphasis-300)',
-        borderRadius: 12,
+        'border-radius': '12px',
         background: 'var(--ifm-background-surface-color)',
-        fontFamily: 'var(--ifm-font-family-base)',
+        'font-family': 'var(--ifm-font-family-base)',
       }}
     >
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+      <div style={{ display: 'flex', 'align-items': 'center', gap: '8px', 'margin-bottom': '12px' }}>
         <span
           style={{
             display: 'inline-block',
             padding: '2px 10px',
-            borderRadius: 4,
-            fontSize: '0.75rem',
-            fontWeight: 600,
-            textTransform: 'uppercase',
-            letterSpacing: '0.05em',
-            background: DIFFICULTY_COLORS[difficulty],
+            'border-radius': '4px',
+            'font-size': '0.75rem',
+            'font-weight': 600,
+            'text-transform': 'uppercase',
+            'letter-spacing': '0.05em',
+            background: DIFFICULTY_COLORS[props.difficulty],
             color: '#fff',
           }}
         >
-          {difficulty}
+          {props.difficulty}
         </span>
       </div>
 
       <p
         style={{
-          fontSize: '1.15rem',
-          fontWeight: 600,
-          marginBottom: 16,
+          'font-size': '1.15rem',
+          'font-weight': 600,
+          'margin-bottom': '16px',
           color: 'var(--ifm-font-color-base)',
         }}
       >
-        {escapeHtml(question)}
+        {escapeHtml(props.question)}
       </p>
 
       <div role="group" aria-label="Answer options">
-        {options.map((opt, i) => (
+        {props.options.map((opt, i) => (
           <button
-            key={i}
             ref={(el) => {
-              buttonRefs.current[i] = el;
+              buttonRefs[i] = el;
             }}
             type="button"
             role="radio"
-            aria-checked={selected === i}
+            aria-checked={selected() === i}
             aria-label={`Option ${String.fromCharCode(65 + i)}: ${escapeHtml(String(opt))}`}
-            tabIndex={selected === i ? 0 : -1}
-            disabled={submitted}
-            onClick={() => !submitted && setSelected(i)}
+            tabIndex={selected() === i ? 0 : -1}
+            disabled={submitted()}
+            onClick={() => !submitted() && setSelected(i)}
             style={getOptionStyle(i)}
           >
-            <span style={{ fontWeight: 600, marginRight: 8 }}>{String.fromCharCode(65 + i)}.</span>
+            <span style={{ 'font-weight': 600, 'margin-right': '8px' }}>{String.fromCharCode(65 + i)}.</span>
             {typeof opt === 'string' ? opt : ''}
           </button>
         ))}
       </div>
 
-      {!submitted && (
+      {!submitted() && (
         <button
           type="button"
-          disabled={selected === null}
+          disabled={selected() === null}
           onClick={handleSubmit}
           style={{
-            marginTop: 12,
+            'margin-top': '12px',
             padding: '10px 24px',
             border: 'none',
-            borderRadius: 8,
+            'border-radius': '8px',
             background:
-              selected === null ? 'var(--ifm-color-emphasis-300)' : 'var(--ifm-color-primary)',
+              selected() === null ? 'var(--ifm-color-emphasis-300)' : 'var(--ifm-color-primary)',
             color: '#fff',
-            fontWeight: 600,
-            fontSize: '1rem',
-            cursor: selected === null ? 'not-allowed' : 'pointer',
-            opacity: selected === null ? 0.6 : 1,
+            'font-weight': 600,
+            'font-size': '1rem',
+            cursor: selected() === null ? 'not-allowed' : 'pointer',
+            opacity: selected() === null ? '0.6' : '1',
           }}
         >
           Submit
         </button>
       )}
 
-      {submitted && (
+      {submitted() && (
         <div
           style={{
-            marginTop: 16,
-            padding: 16,
-            borderRadius: 8,
-            background: isCorrect ? 'rgba(46,204,113,0.1)' : 'rgba(231,76,60,0.1)',
-            border: `1px solid ${isCorrect ? DIFFICULTY_COLORS.easy : DIFFICULTY_COLORS.hard}`,
+            'margin-top': '16px',
+            padding: '16px',
+            'border-radius': '8px',
+            background: isCorrect() ? 'rgba(46,204,113,0.1)' : 'rgba(231,76,60,0.1)',
+            border: `1px solid ${isCorrect() ? DIFFICULTY_COLORS.easy : DIFFICULTY_COLORS.hard}`,
           }}
         >
-          <strong style={{ color: isCorrect ? DIFFICULTY_COLORS.easy : DIFFICULTY_COLORS.hard }}>
-            {isCorrect ? 'Correct!' : 'Incorrect.'}
+          <strong style={{ color: isCorrect() ? DIFFICULTY_COLORS.easy : DIFFICULTY_COLORS.hard }}>
+            {isCorrect() ? 'Correct!' : 'Incorrect.'}
           </strong>
           <div
-            style={{ marginTop: 8, lineHeight: 1.6, color: 'var(--ifm-font-color-base)' }}
-            dangerouslySetInnerHTML={{ __html: sanitizeHtml(explanation) }}
+            style={{ 'margin-top': '8px', 'line-height': '1.6', color: 'var(--ifm-font-color-base)' }}
+            innerHTML={sanitizeHtml(props.explanation)}
           />
         </div>
       )}
