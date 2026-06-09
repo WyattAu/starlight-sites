@@ -251,4 +251,3 @@ function PracticeProblemItem(props: {
     </div>
   );
 }
-export default PracticeProblem;

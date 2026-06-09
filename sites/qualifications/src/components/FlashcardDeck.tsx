@@ -834,4 +834,3 @@ function ActionButton(props: {
   );
 }
 
-export default FlashcardDeck;

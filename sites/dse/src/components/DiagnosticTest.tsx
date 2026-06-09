@@ -600,4 +600,3 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   );
 }
 
-export default DiagnosticTest;
