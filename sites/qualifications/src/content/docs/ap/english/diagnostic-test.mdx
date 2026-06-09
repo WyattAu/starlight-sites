@@ -1,43 +1,43 @@
----
-title: 'AP English Language Diagnostic Test'
-description:
-  'AP English Language diagnostic test covering rhetorical analysis, argument, synthesis, and close
-  reading for exam preparation.'
-tags:
-  - ap
-  - ap-english
----
-
-import DiagnosticTest from '@components/DiagnosticTest';
-import { questions } from './diagnostic-test-data';
-
-
-## AP English Language Diagnostic Test
-
-This diagnostic test covers the full AP English Language and Composition syllabus. There are 20
-questions spanning 4 core topics. The test uses adaptive difficulty, selecting questions based on
-your performance to target areas of weakness.
-
-**Recommended time:** 30 minutes. The test presents up to 15 questions drawn from the pool,
-adaptively ordered by your answers.
-
----
-
-## How the Diagnostic Scoring Works
-
-After completing the test, you receive a results breakdown:
-
-- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber
-  (moderate, 50-79%), or red (weak, below 50%).
-- **Strengths** -- topics where you scored 80% or above.
-- **Needs Improvement** -- topics where you scored below 50%.
-- **Recommended Study Topics** -- all topics where you did not score in the strong range.
-
-The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use
-the results to prioritise which topic pages to revise.
-
----
-
-export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };
-
-<DiagnosticTest subject="AP English Language" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic               | Questions | Revision Guide                                                                | | ------------------- | --------- | ----------------------------------------------------------------------------- | | Rhetorical Analysis | 5         | [Rhetorical Analysis](/docs/qualifications/ap/english/1-rhetorical-analysis/) | | Argument            | 4         | [Argument](/docs/qualifications/ap/english/2-argument/)                       | | Synthesis           | 4         | [Synthesis](/docs/qualifications/ap/english/3-synthesis/)                     | | Close Reading       | 5         | [Close Reading](/docs/qualifications/ap/english/4-close-reading/)             |
+---''
+title: 'AP English Language Diagnostic Test'''
+description:''
+  'AP English Language diagnostic test covering rhetorical analysis, argument, synthesis, and close''
+  reading for exam preparation.'''
+tags:''
+  - ap''
+  - ap-english''
+---''
+''
+import DiagnosticTest from '@components/DiagnosticTest';''
+import { questions } from './diagnostic-test-data';''
+''
+''
+## AP English Language Diagnostic Test''
+''
+This diagnostic test covers the full AP English Language and Composition syllabus. There are 20''
+questions spanning 4 core topics. The test uses adaptive difficulty, selecting questions based on''
+your performance to target areas of weakness.''
+''
+**Recommended time:** 30 minutes. The test presents up to 15 questions drawn from the pool,''
+adaptively ordered by your answers.''
+''
+---''
+''
+## How the Diagnostic Scoring Works''
+''
+After completing the test, you receive a results breakdown:''
+''
+- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber''
+  (moderate, 50-79%), or red (weak, below 50%).''
+- **Strengths** -- topics where you scored 80% or above.''
+- **Needs Improvement** -- topics where you scored below 50%.''
+- **Recommended Study Topics** -- all topics where you did not score in the strong range.''
+''
+The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use''
+the results to prioritise which topic pages to revise.''
+''
+---''
+''
+export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };''
+''
+<DiagnosticTest subject="AP English Language" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic               | Questions | Revision Guide                                                                | | ------------------- | --------- | ----------------------------------------------------------------------------- | | Rhetorical Analysis | 5         | [Rhetorical Analysis](/docs/qualifications/ap/english/1-rhetorical-analysis/) | | Argument            | 4         | [Argument](/docs/qualifications/ap/english/2-argument/)                       | | Synthesis           | 4         | [Synthesis](/docs/qualifications/ap/english/3-synthesis/)                     | | Close Reading       | 5         | [Close Reading](/docs/qualifications/ap/english/4-close-reading/)             |''
