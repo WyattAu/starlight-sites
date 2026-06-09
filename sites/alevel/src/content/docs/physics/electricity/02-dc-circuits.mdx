@@ -20,11 +20,11 @@ categories:
 
 Explore the simulation above to develop intuition for this topic.
 
-## 1. Kirchhoff's Laws
+## 1. Kirchhoff\'s Laws
 
-### Kirchhoff's First Law (Current Law)
+### Kirchhoff\'s First Law (Current Law)
 
-**Definition.** Kirchhoff's first law states that the algebraic sum of currents entering any
+**Definition.** Kirchhoff\'s first law states that the algebraic sum of currents entering any
 Junction in an electrical circuit is zero, reflecting the conservation of electric charge:
 $\sum I = 0$.
 
@@ -39,9 +39,9 @@ $$\frac◆LB◆dQ_{\mathrm{in}}◆RB◆◆LB◆dt◆RB◆ = \frac◆LB◆dQ_{\ma
 
 $\square$
 
-### Kirchhoff's Second Law (Voltage Law)
+### Kirchhoff\'s Second Law (Voltage Law)
 
-**Definition.** Kirchhoff's second law states that the algebraic sum of potential differences around
+**Definition.** Kirchhoff\'s second law states that the algebraic sum of potential differences around
 Any closed loop in an electrical circuit is zero, reflecting the conservation of energy:
 $\sum \mathcal{E} = \sum V$.
 
@@ -57,7 +57,7 @@ $$\frac◆LB◆W_{\mathrm{gained}}◆RB◆◆LB◆Q◆RB◆ = \frac◆LB◆W_{\m
 
 $\square$
 
-:::tip Exam Technique When applying Kirchhoff's second law, choose a direction around the loop and
+:::tip Exam Technique When applying Kirchhoff\'s second law, choose a direction around the loop and
 Stick to it. E.m.f.s are positive if they drive current in your chosen direction; p.d.s are positive
 If current flows through the resistor in your chosen direction.
 :::
@@ -68,7 +68,7 @@ If current flows through the resistor in your chosen direction.
 
 For resistors $R_1, R_2, \ldots, R_n$ in series, the same current $I$ flows through each.
 
-By Kirchhoff's second law:
+By Kirchhoff\'s second law:
 
 $$V = V_1 + V_2 + \cdots + V_n = IR_1 + IR_2 + \cdots + IR_n$$
 
@@ -82,7 +82,7 @@ $$\boxed{R_{\mathrm{series}} = R_1 + R_2 + \cdots + R_n}$$
 
 For resistors in parallel, the same p.d. $V$ is across each.
 
-By Kirchhoff's first law:
+By Kirchhoff\'s first law:
 
 $$I = I_1 + I_2 + \cdots + I_n = \frac{V}{R_1} + \frac{V}{R_2} + \cdots + \frac{V}{R_n}$$
 
@@ -165,7 +165,7 @@ The terminal p.d. (voltage across the external circuit) is:
 
 $$V = IR = \frac◆LB◆\mathcal{E}R◆RB◆◆LB◆R + r◆RB◆ = \mathcal{E}\left(\frac{R}{R+r}\right)$$
 
-Alternatively, by Kirchhoff's second law around the full circuit:
+Alternatively, by Kirchhoff\'s second law around the full circuit:
 
 $$\mathcal{E} = V + Ir \implies \boxed{V = \mathcal{E} - Ir}$$
 
@@ -191,9 +191,9 @@ This is a straight line with gradient $= -r$ and $y$-intercept $= \mathcal{E}$.
 
 $$r = \frac{V_1 - V_2}{I_2 - I_1}$$
 
-## 5. Thevenin's Theorem
+## 5. Thevenin\'s Theorem
 
-**Thevenin's Theorem.** Any linear circuit with two terminals can be replaced by an equivalent
+**Thevenin\'s Theorem.** Any linear circuit with two terminals can be replaced by an equivalent
 Circuit consisting of:
 
 - A single voltage source $V_{\mathrm{Th}}$ (the Thevenin voltage)
@@ -209,7 +209,7 @@ Nothing is connected across them).
 The Thevenin resistance is the resistance between the two terminals when all independent voltage
 Sources are replaced by short circuits (and current sources by open circuits).
 
-**Intuition.** Thevenin's theorem is powerful because it lets you simplify any complex circuit into
+**Intuition.** Thevenin\'s theorem is powerful because it lets you simplify any complex circuit into
 A simple source-resistor pair. Once you know $V_{\mathrm{Th}}$ and $R_{\mathrm{Th}}$You can Predict
 the behaviour of the circuit for any load.
 
@@ -288,13 +288,13 @@ balance.
 
 </details>
 
-:::warning Warning Current is exactly zero. If the bridge is unbalanced, you must use Kirchhoff's
+:::warning Warning Current is exactly zero. If the bridge is unbalanced, you must use Kirchhoff\'s
 laws (or Thevenin Analysis) to find the galvanometer current.
 :::
 
-## 7. Norton's Theorem
+## 7. Norton\'s Theorem
 
-**Norton's Theorem.** Any linear two-terminal circuit can be replaced by an equivalent circuit
+**Norton\'s Theorem.** Any linear two-terminal circuit can be replaced by an equivalent circuit
 Consisting of a current source $I_N$ in parallel with a resistance $R_N$.
 
 ### Finding $I_N$
@@ -482,7 +482,7 @@ $I = \frac◆LB◆\mathcal{E}◆RB◆◆LB◆R + r◆RB◆ = \frac{12}{5.5 + 0.5
 
 <details>
 <summary>Problem 4</summary>
-Using Kirchhoff's laws, find the current in each branch of a circuit where a 12 V battery and a 6 V
+Using Kirchhoff\'s laws, find the current in each branch of a circuit where a 12 V battery and a 6 V
 Battery (opposing) are connected with resistors of 2 $\Omega$ and 4 $\Omega$ as follows: 12 V
 Battery in series with 2 $\Omega$ (branch 1), 6 V battery in series with 4 $\Omega$ (branch 2), both
 Branches sharing common nodes.
@@ -499,7 +499,7 @@ Let me use a clearer setup. Both branches meet at nodes A and B. Branch 1: 12 V 
 
 By KVL around the outer loop (travelling through branch 1 then back through branch 2):
 $12 - 2I_1 - 4I_2 + 6 = 0$ (assuming 6 V opposes in the return path). Actually, the sign depends on
-Orientation. Let's say both batteries have their positive terminals facing the same direction
+Orientation. Let\'s say both batteries have their positive terminals facing the same direction
 (towards node A):
 
 Loop: $12 - 2I_1 + 6 - 4I_2 = 0$ ... Wait, this depends on the circuit topology.
@@ -517,7 +517,7 @@ Direction in branch 2).
 
 This means the 12 V battery is driving current through the 6 V battery (charging it).
 
-<b>If you get this wrong, revise:</b> [Kirchhoff's Laws](#1-kirchhoffs-laws)
+<b>If you get this wrong, revise:</b> [Kirchhoff\'s Laws](#1-kirchhoffs-laws)
 
 </details>
 
@@ -547,7 +547,7 @@ Across a 24 V supply, with terminals across $R_2$.
 
 $R_{\mathrm{Th}} = R_1 \| R_2 = \frac◆LB◆8 \times 4◆RB◆◆LB◆8+4◆RB◆ = \frac{32}{12} = 2.67\,\Omega$.
 
-<b>If you get this wrong, revise:</b> [Thevenin's Theorem](#5-thevenins-theorem)
+<b>If you get this wrong, revise:</b> [Thevenin\'s Theorem](#5-thevenins-theorem)
 
 </details>
 
@@ -615,7 +615,7 @@ Current and altering the circuit, its resistance should be very high (ideally in
 Is connected in series with a component. To avoid dropping significant voltage and altering the
 Circuit, its resistance should be very low (ideally zero).
 
-<b>If you get this wrong, revise:</b> [Kirchhoff's Laws](#1-kirchhoffs-laws)
+<b>If you get this wrong, revise:</b> [Kirchhoff\'s Laws](#1-kirchhoffs-laws)
 
 </details>
 
@@ -676,7 +676,7 @@ $R_N = R_{\mathrm{Th}} = 5\,\Omega$.
 
 The Norton equivalent is a 4.0 A current source in parallel with $5\,\Omega$.
 
-<b>If you get this wrong, revise:</b> [Norton's Theorem](#7-nortons-theorem)
+<b>If you get this wrong, revise:</b> [Norton\'s Theorem](#7-nortons-theorem)
 
 </details>
 
@@ -759,7 +759,7 @@ self-marking and building a personal test matrix.
 
 :::danger Danger
 
-- **Applying Kirchhoff's second law incorrectly to parallel circuits:** The sum of p.d.s around ANY
+- **Applying Kirchhoff\'s second law incorrectly to parallel circuits:** The sum of p.d.s around ANY
   closed loop equals the sum of e.m.f.s. In a parallel circuit, each branch is a separate loop. The
   p.d. Across each parallel branch equals the e.m.f. Of the supply, not a fraction of it.
 
@@ -783,7 +783,7 @@ self-marking and building a personal test matrix.
 
 2. Forgetting that ammeters are connected in series and voltmeters in parallel.
 
-3. Incorrectly applying Kirchhoff's second law by missing components in a loop.
+3. Incorrectly applying Kirchhoff\'s second law by missing components in a loop.
 
 4. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.

@@ -474,7 +474,7 @@ Common notations for derivatives include:
 
 - $f'(x)$$f''(x)$$f'''(x)$ (prime notation)
 - $\frac{df}{dx}$$\frac{d^2f}{dx^2}$ (Leibniz notation)
-- $\dot{x}$$\ddot{x}$ (Newton's dot notation for time derivatives)
+- $\dot{x}$$\ddot{x}$ (Newton\'s dot notation for time derivatives)
 
 ## Applications of Derivatives (CED Unit 5)
 
@@ -611,18 +611,18 @@ Point.
 Secant line joining $(a, f(a))$ and $(b, f(b))$.
 
 **Proof of the MVT.** Let $g(x) = f(x) - \frac{f(b) - f(a)}{b-a}(x - a) - f(a)$. Then
-$g(a) = g(b) = 0$. By Rolle's Theorem, there exists $c \in (a, b)$ with $g'(c) = 0$Which gives
+$g(a) = g(b) = 0$. By Rolle\'s Theorem, there exists $c \in (a, b)$ with $g'(c) = 0$Which gives
 $f'(c) = \frac{f(b) - f(a)}{b-a}$. $\blacksquare$
 
-### Rolle's Theorem
+### Rolle\'s Theorem
 
 If $f$ is continuous on $[a, b]$Differentiable on $(a, b)$And $f(a) = f(b)$Then there exists At
 least one $c \in (a, b)$ such that $f'(c) = 0$.
 
-Rolle's Theorem is a special case of the MVT where $f(a) = f(b)$.
+Rolle\'s Theorem is a special case of the MVT where $f(a) = f(b)$.
 
-**Application of Rolle's Theorem.** Rolle's Theorem is used to prove that a differentiable function
-Has at most one root in an interval. If it had two roots, Rolle's Theorem would give a point where
+**Application of Rolle\'s Theorem.** Rolle\'s Theorem is used to prove that a differentiable function
+Has at most one root in an interval. If it had two roots, Rolle\'s Theorem would give a point where
 The derivative is zero, leading to a contradiction.
 
 :::info[Example]
@@ -632,17 +632,17 @@ Show that $f(x) = x^3 - 3x + 1$ has exactly one real root.
 Note that $f(0) = 1$ and $f(-2) = -8 + 6 + 1 = -1$. By the IVT, there is at least one root in
 $(-2, 0)$.
 
-Suppose there are two distinct roots $a \lt b$. Then $f(a) = f(b) = 0$And by Rolle's Theorem, There
+Suppose there are two distinct roots $a \lt b$. Then $f(a) = f(b) = 0$And by Rolle\'s Theorem, There
 exists $c \in (a, b)$ with $f'(c) = 0$. But $f'(x) = 3x^2 - 3 = 3(x+1)(x-1)$Which is zero Only at
 $x = \pm 1$. This does not lead to a contradiction on its own, so we must examine further.
 
 In fact, $f(-2) = -1$$f(0) = 1$$f(1) = -1$$f(2) = 3$. So $f$ has at least one root in $(-2, 0)$At
-least one in $(0, 1)$And possibly one in $(1, 2)$. Rolle's Theorem applied to Consecutive roots
+least one in $(0, 1)$And possibly one in $(1, 2)$. Rolle\'s Theorem applied to Consecutive roots
 shows that each pair of roots must bracket either $x = -1$ or $x = 1$.
 
 Testing: $f(-1) = -1 + 3 + 1 = 3 \gt 0$. So the root in $(-2, 0)$ is in $(-2, -1)$And the root in
 $(0, 1)$ is in $(0, 1)$. These bracket different critical points. In fact, $f$ has three real roots,
-And Rolle's Theorem confirms this is consistent since the critical points at $x = \pm 1$ bracket the
+And Rolle\'s Theorem confirms this is consistent since the critical points at $x = \pm 1$ bracket the
 Three roots.
 
 :::
@@ -788,7 +788,7 @@ Absolute minimum: $0$ at $x = -1$ and $x = 2$. Absolute maximum: $20$ at $x = 4$
 ## Common Pitfalls
 
 1. **Forgetting the chain rule.** When differentiating a composition, always account for the inner
-   function's derivative. For example, $\frac{d}{dx}[\sin(x^2)] \ne \cos(x^2)$.
+   function\'s derivative. For example, $\frac{d}{dx}[\sin(x^2)] \ne \cos(x^2)$.
 2. **Incorrect sign in the quotient rule.** Remember: "Low d-High minus High d-Low, draw a line and
    square below."
 3. **Confusing $\frac{d}{dx}[e^x]$ with $\frac{d}{dx}[x^e]$.** The former is $e^x$; the latter is
@@ -894,7 +894,7 @@ $\frac{dr}{dt} = \frac{100}{400\pi} = \frac{1}{4\pi} \approx 0.080 \mathrm{ cm/s
 </details>
 
 <details>
-<summary>Question 3: L'Hopital's rule</summary>
+<summary>Question 3: L'Hopital\'s rule</summary>
 
 Evaluate $\displaystyle\lim_{x \to 0} \frac{e^x - 1 - x}{x^2}$.
 
@@ -903,7 +903,7 @@ Evaluate $\displaystyle\lim_{x \to 0} \frac{e^x - 1 - x}{x^2}$.
 <details>
 <summary>Answer</summary>
 
-This is $0/0$. Apply L'Hopital's rule:
+This is $0/0$. Apply L'Hopital\'s rule:
 
 $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{2x}$.
 

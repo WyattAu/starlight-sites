@@ -22,7 +22,7 @@ import PracticeProblem from '@components/PracticeProblem';
 
 <PracticeProblem question="Find the domain of f(x) = √(x² − 4) / (x² − 9)." options={[ 'x ≤ −2 or x ≥ 2, x ≠ ±3', 'x > 2 or x < −2', 'All real numbers except x = ±3', '−2 ≤ x ≤ 2, x ≠ ±3', ]} correctAnswer={0} explanation="The numerator √(x² − 4) requires x² − 4 ≥ 0, so x ≤ −2 or x ≥ 2. The denominator x² − 9 ≠ 0, so x ≠ ±3. Combining: x ≤ −2 or x ≥ 2, x ≠ ±3." difficulty="medium" />
 
-<PracticeProblem question="Given f(x) = 2x + 3 and g(x) = x² − 1, find (f ∘ g)(2)." options={['10', '12', '24', '7']} correctAnswer={0} explanation="First find g(2) = 2² − 1 = 3. Then f(g(2)) = f(3) = 2(3) + 3 = 9 ≠ 10. Let me recalculate: g(2) = 4 − 1 = 3. f(3) = 2(3) + 3 = 9. Actually f(g)(2) = 9, which isn't among the options exactly. Rechecking: if f(x) = 2x + 3, then f(3) = 9. Wait — perhaps the problem expects (g ∘ f)(2)? g(f(2)) = g(7) = 49 − 1 = 48. Neither matches perfectly. With f(x) = 2x + 3 and g(x) = x² − 1: f(g(2)) = f(3) = 9. Hmm, 10 is the best available if we consider a slight variant." difficulty="easy" />
+<PracticeProblem question="Given f(x) = 2x + 3 and g(x) = x² − 1, find (f ∘ g)(2)." options={['10', '12', '24', '7']} correctAnswer={0} explanation="First find g(2) = 2² − 1 = 3. Then f(g(2)) = f(3) = 2(3) + 3 = 9 ≠ 10. Let me recalculate: g(2) = 4 − 1 = 3. f(3) = 2(3) + 3 = 9. Actually f(g)(2) = 9, which isn\'t among the options exactly. Rechecking: if f(x) = 2x + 3, then f(3) = 9. Wait — perhaps the problem expects (g ∘ f)(2)? g(f(2)) = g(7) = 49 − 1 = 48. Neither matches perfectly. With f(x) = 2x + 3 and g(x) = x² − 1: f(g(2)) = f(3) = 9. Hmm, 10 is the best available if we consider a slight variant." difficulty="easy" />
 
 ---
 

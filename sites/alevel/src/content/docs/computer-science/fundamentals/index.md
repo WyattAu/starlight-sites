@@ -1,6 +1,7 @@
 ---
 title: Fundamentals
-description: 'A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'---
+description: 'A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+---
 
 # Fundamentals
 

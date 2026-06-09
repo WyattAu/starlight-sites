@@ -1,6 +1,7 @@
 ---
 title: Programming
-description: 'A-Level Computer Science Programming notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'---
+description: 'A-Level Computer Science Programming notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'
+---
 
 # Programming
 

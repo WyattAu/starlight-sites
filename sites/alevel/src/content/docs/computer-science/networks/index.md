@@ -1,6 +1,7 @@
 ---
 title: Networks
-description: 'A-Level Computer Science Networks notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'---
+description: 'A-Level Computer Science Networks notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+---
 
 # Networks
 

@@ -12,7 +12,7 @@ import PracticeProblem from '@components/PracticeProblem';
 # Complexity Theory -- Practice Problems
 
 10 MCQ questions covering Big-O notation, complexity classes (P, NP, NP-complete), polynomial-time
-reductions, Cook's theorem, and approximation algorithms. Select an option to check your answer.
+reductions, Cook\'s theorem, and approximation algorithms. Select an option to check your answer.
 
 ---
 
@@ -32,7 +32,7 @@ reductions, Cook's theorem, and approximation algorithms. Select an option to ch
 
 <PracticeProblem question="What approximation ratio does the greedy algorithm achieve for the Vertex Cover problem?" options={[ '2-approximation: $|C| \\leq 2 \\cdot |OPT|$', '$\\ln(n)$-approximation', '3/2-approximation', 'No constant approximation ratio is possible unless P = NP', ]} correctAnswer={0} explanation="The greedy algorithm picks an arbitrary edge, adds both endpoints to the cover, and removes all incident edges. Since each selected edge has at least one endpoint in any valid vertex cover, the greedy cover is at most twice the optimal. Time complexity is $O(V + E)$. This is a classic 2-approximation." difficulty="easy" />
 
-<PracticeProblem question="Cook's theorem establishes which problem as the first known NP-complete problem?" options={['SAT (Boolean Satisfiability)', '3-SAT', 'Hamiltonian Cycle', 'Subset Sum']} correctAnswer={0} explanation="Cook (1971) proved that SAT is NP-complete: (1) SAT $\\in$ NP because a truth assignment can be verified in $O(|\\phi|)$ time, and (2) SAT is NP-hard because any NP computation can be encoded as a Boolean formula in CNF whose satisfiability corresponds to acceptance. Levin proved the same independently in 1973." difficulty="medium" />
+<PracticeProblem question="Cook\'s theorem establishes which problem as the first known NP-complete problem?" options={['SAT (Boolean Satisfiability)', '3-SAT', 'Hamiltonian Cycle', 'Subset Sum']} correctAnswer={0} explanation="Cook (1971) proved that SAT is NP-complete: (1) SAT $\\in$ NP because a truth assignment can be verified in $O(|\\phi|)$ time, and (2) SAT is NP-hard because any NP computation can be encoded as a Boolean formula in CNF whose satisfiability corresponds to acceptance. Levin proved the same independently in 1973." difficulty="medium" />
 
 <PracticeProblem question="What is the key consequence of the PCP Theorem (1992) for the Max-3SAT problem?" options={[ 'Max-3SAT cannot be approximated beyond $7/8 + \\epsilon$ unless P = NP', 'Max-3SAT can be solved exactly in polynomial time', 'Max-3SAT has a PTAS (polynomial-time approximation scheme)', 'Max-3SAT cannot be approximated within any constant factor', ]} correctAnswer={0} explanation="The PCP Theorem states that every problem in NP has a probabilistically checkable proof verifiable by reading a constant number of bits. A consequence is hardness of approximation: Max-3SAT cannot be approximated beyond $7/8 + \\epsilon$ for any $\\epsilon > 0$ unless P = NP. The simple random assignment algorithm achieves $7/8$." difficulty="hard" />
 

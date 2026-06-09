@@ -1,6 +1,7 @@
 ---
 title: Data Structures
-description: 'A-Level Computer Science Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'---
+description: 'A-Level Computer Science Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+---
 
 # Data Structures
 

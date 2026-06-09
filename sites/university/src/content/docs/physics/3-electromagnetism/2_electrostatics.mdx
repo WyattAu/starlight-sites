@@ -5,9 +5,9 @@ tags:
   - University
 ---
 
-### 2.1 Coulomb's Law and the Electric Field
+### 2.1 Coulomb\'s Law and the Electric Field
 
-**Coulomb's Law:** The force between two point charges $q_1$ and $q_2$ separated by distance $r$:
+**Coulomb\'s Law:** The force between two point charges $q_1$ and $q_2$ separated by distance $r$:
 
 $$\mathbf{F} = \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r^2} \hat{\mathbf{r}}$$
 
@@ -21,12 +21,12 @@ individual Fields.
 <DesmosGraph title="Electric Field: 1/r^2 Dependence" expressions={["\\frac{k}{(x-d)^2}",
 "\\frac{-k}{(x+d)^2}", "\\frac{k}{(x-d)^2}+\\frac{-k}{(x+d)^2}"]} width={800} height={500} />
 
-### 2.2 Gauss's Law Applications
+### 2.2 Gauss\'s Law Applications
 
 **Example: Infinite plane of charge** with surface charge density $\sigma$.
 
 Choose a Gaussian "pillbox" of area $A$ straddling the plane. By symmetry, $\mathbf{E}$ is
-Perpendicular to the plane. Gauss's law:
+Perpendicular to the plane. Gauss\'s law:
 
 $$2EA = \frac{\sigma A}{\varepsilon_0} \implies E = \frac{\sigma}{2\varepsilon_0}$$
 
@@ -51,21 +51,21 @@ $V(\infty) = 0$).
 Conservative, so the line integral $\int_A^B \mathbf{E} \cdot d\mathbf{l} = V(A) - V(B)$ is
 Path-independent.
 
-### 2.4 Poisson's and Laplace's Equations
+### 2.4 Poisson\'s and Laplace\'s Equations
 
-Substituting $\mathbf{E} = -\nabla V$ into Gauss's law:
+Substituting $\mathbf{E} = -\nabla V$ into Gauss\'s law:
 
 $$\nabla \cdot (-\nabla V) = -\nabla^2 V = \frac{\rho}{\varepsilon_0}$$
 
-This is **Poisson's equation**:
+This is **Poisson\'s equation**:
 
 $$\nabla^2 V = -\frac{\rho}{\varepsilon_0}$$
 
-In regions with $\rho = 0$This reduces to **Laplace's equation**:
+In regions with $\rho = 0$This reduces to **Laplace\'s equation**:
 
 $$\nabla^2 V = 0$$
 
-**Theorem 2.2 (Uniqueness --- statement).** The solution to Laplace's (or Poisson's) equation in a
+**Theorem 2.2 (Uniqueness --- statement).** The solution to Laplace\'s (or Poisson\'s) equation in a
 Region is unique given either Dirichlet boundary conditions ($V$ specified on the boundary) or
 Neumann boundary conditions ($\partial V / \partial n$ specified on the boundary).
 
@@ -84,7 +84,7 @@ $$V(x) = \frac{V_0}{d} x, \quad \mathbf{E} = -\frac{dV}{dx}\hat{\mathbf{x}} = -\
 
 $\blacksquare$
 
-### 2.6 Gauss's Law: Cylindrical Symmetry
+### 2.6 Gauss\'s Law: Cylindrical Symmetry
 
 **Example: Infinite line charge** with linear charge density $\lambda$.
 
@@ -110,14 +110,14 @@ $$V(a) - V(b) = -\int_a^b \mathbf{E} \cdot d\mathbf{l} = \frac{\lambda}{2\pi\var
 
 ### 2.7 The Uniqueness Theorem
 
-**Theorem 2.3 (Uniqueness for Dirichlet conditions).** The solution to Poisson's equation
+**Theorem 2.3 (Uniqueness for Dirichlet conditions).** The solution to Poisson\'s equation
 $\nabla^2 V = -\rho/\varepsilon_0$ in a volume $\mathcal{V}$ is unique if $V$ is specified on the
 Boundary $\mathcal{S}$.
 
-_Proof._ Suppose $V_1$ and $V_2$ both satisfy Poisson's equation with the same boundary Conditions.
+_Proof._ Suppose $V_1$ and $V_2$ both satisfy Poisson\'s equation with the same boundary Conditions.
 Define $U = V_1 - V_2$. Then $\nabla^2 U = 0$ in $\mathcal{V}$ and $U = 0$ on $\mathcal{S}$.
 
-Apply **Green's first identity** with $\phi = \psi = U$:
+Apply **Green\'s first identity** with $\phi = \psi = U$:
 
 $$\int_{\mathcal{V}} \left(U\,\nabla^2 U + \lvert\nabla U\rvert^2\right) dV = \oint_{\mathcal{S}} U\,\frac{\partial U}{\partial n}\, dA$$
 
@@ -133,7 +133,7 @@ $\blacksquare$
 Constant when $\partial V/\partial n$ is specified on $\mathcal{S}$.
 
 _Proof._ The same argument applies, but now $\partial U/\partial n = 0$ on $\mathcal{S}$ and the
-Right-hand side of Green's identity vanishes for a different reason. We again conclude
+Right-hand side of Green\'s identity vanishes for a different reason. We again conclude
 $\nabla U = \mathbf{0}$So $U$ is constant. $\blacksquare$
 
 ### 2.8 Method of Images
@@ -247,7 +247,7 @@ $$\rho_b = -\nabla \cdot \mathbf{P}, \quad \sigma_b = \mathbf{P} \cdot \hat{\mat
 
 $$\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$$
 
-Gauss's law in terms of $\mathbf{D}$:
+Gauss\'s law in terms of $\mathbf{D}$:
 
 $$\nabla \cdot \mathbf{D} = \rho_f$$
 
