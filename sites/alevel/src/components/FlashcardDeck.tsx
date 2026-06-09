@@ -208,7 +208,7 @@ const RatingButton = (props: {
   );
 };
 
-export function FlashcardDeck(props: FlashcardDeckProps) {
+export default function FlashcardDeck(props: FlashcardDeckProps) {
   const [getDeckData, setDeckData] = createSignal<DeckData | null>(loadDeck(props.deckId));
   const [getView, setView] = createSignal<View>('deck');
   const [getFlipped, setFlipped] = createSignal(false);

@@ -109,7 +109,7 @@ function formatTime(ms: number): string {
   return mins > 0 ? `${mins}:${String(rem).padStart(2, '0')}` : `${rem}s`;
 }
 
-export function DiagnosticTest(props: DiagnosticTestProps) {
+export default function DiagnosticTest(props: DiagnosticTestProps) {
   const [getCurrentIndex, setCurrentIndex] = createSignal(0);
   const [getAskedIds, setAskedIds] = createSignal(new Set<string>());
   const [getAnswers, setAnswers] = createSignal(new Map<string, number>());

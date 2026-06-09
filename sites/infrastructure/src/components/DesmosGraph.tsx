@@ -88,7 +88,7 @@ const DESMOS_COLORS = [
   '#666666',
 ];
 
-export function DesmosGraph(props: DesmosGraphProps) {
+export default function DesmosGraph(props: DesmosGraphProps) {
   let containerRef: HTMLDivElement | undefined;
   let calculatorRef: unknown;
 

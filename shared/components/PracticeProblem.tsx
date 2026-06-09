@@ -36,7 +36,7 @@ function escapeHtml(text: string): string {
     .replace(/'/g, '&#39;');
 }
 
-export function PracticeProblem(props: PracticeProblemProps) {
+export default function PracticeProblem(props: PracticeProblemProps) {
   if (props.questions && props.questions.length > 0) {
     return (
       <div style={{ display: 'flex', 'flex-direction': 'column', gap: '1.5rem' }}>

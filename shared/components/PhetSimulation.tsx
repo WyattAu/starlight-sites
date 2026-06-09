@@ -44,7 +44,7 @@ interface PhetSimulationProps {
   height?: number;
 }
 
-export function PhetSimulation(props: PhetSimulationProps) {
+export default function PhetSimulation(props: PhetSimulationProps) {
   const simulationId = () => props.simulationId;
   const title = () => props.title ?? 'PhET Simulation';
   const width = () => props.width ?? 800;
