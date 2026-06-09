@@ -1,43 +1,43 @@
----''
-title: 'A-Level Psychology Diagnostic Test'''
-description:''
-  'A-Level Psychology diagnostic test covering all 8 core topics: Research Methods, Social''
-  Influence, Memory, Attachment, Psychopathology, Approaches, Biopsychology, and Issues and Debates.'''
-tags:''
-  - Psychology''
-  - A-Level''
----''
-''
-import DiagnosticTest from '@components/DiagnosticTest';''
-import { questions } from './diagnostic-test-data';''
-''
-''
-## A-Level Psychology Diagnostic Test''
-''
-This diagnostic test covers the full A-Level Psychology syllabus. There are 20 questions spanning''
-all 8 core topics. The test uses adaptive difficulty, selecting questions based on your performance''
-to target areas of weakness.''
-''
-**Recommended time:** 25 minutes. The test presents up to 15 questions drawn from the pool,''
-adaptively ordered by your answers.''
-''
----''
-''
-## How the Diagnostic Scoring Works''
-''
-After completing the test, you receive a results breakdown:''
-''
-- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber''
-  (moderate, 50-79%), or red (weak, below 50%).''
-- **Strengths** -- topics where you scored 80% or above.''
-- **Needs Improvement** -- topics where you scored below 50%.''
-- **Recommended Study Topics** -- all topics where you did not score in the strong range.''
-''
-The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use''
-the results to prioritise which topic pages to revise.''
-''
----''
-''
-export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };''
-''
-<DiagnosticTest subject="A-Level Psychology" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic              | Questions | Revision Guide                                                      | | ------------------ | --------- | ------------------------------------------------------------------- | | Research Methods   | 3         | [Research Methods](/docs/alevel/psychology/1-research-methods/)     | | Social Influence   | 3         | [Social Influence](/docs/alevel/psychology/2-social-influence/)     | | Memory             | 3         | [Memory](/docs/alevel/psychology/3-memory/)                         | | Attachment         | 2         | [Attachment](/docs/alevel/psychology/4-attachment/)                 | | Psychopathology    | 2         | [Psychopathology](/docs/alevel/psychology/5-psychopathology/)       | | Approaches         | 3         | [Approaches](/docs/alevel/psychology/6-approaches/)                 | | Biopsychology      | 2         | [Biopsychology](/docs/alevel/psychology/7-biopsychology/)           | | Issues and Debates | 2         | [Issues and Debates](/docs/alevel/psychology/8-issues-and-debates/) |''
+---
+title: 'A-Level Psychology Diagnostic Test'
+description:
+  'A-Level Psychology diagnostic test covering all 8 core topics: Research Methods, Social
+  Influence, Memory, Attachment, Psychopathology, Approaches, Biopsychology, and Issues and Debates.'
+tags:
+  - Psychology
+  - A-Level
+---
+
+import DiagnosticTest from '@components/DiagnosticTest';
+import { questions } from './diagnostic-test-data';
+
+
+## A-Level Psychology Diagnostic Test
+
+This diagnostic test covers the full A-Level Psychology syllabus. There are 20 questions spanning
+all 8 core topics. The test uses adaptive difficulty, selecting questions based on your performance
+to target areas of weakness.
+
+**Recommended time:** 25 minutes. The test presents up to 15 questions drawn from the pool,
+adaptively ordered by your answers.
+
+---
+
+## How the Diagnostic Scoring Works
+
+After completing the test, you receive a results breakdown:
+
+- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber
+  (moderate, 50-79%), or red (weak, below 50%).
+- **Strengths** -- topics where you scored 80% or above.
+- **Needs Improvement** -- topics where you scored below 50%.
+- **Recommended Study Topics** -- all topics where you did not score in the strong range.
+
+The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use
+the results to prioritise which topic pages to revise.
+
+---
+
+export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };
+
+<DiagnosticTest subject="A-Level Psychology" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic              | Questions | Revision Guide                                                      | | ------------------ | --------- | ------------------------------------------------------------------- | | Research Methods   | 3         | [Research Methods](/docs/alevel/psychology/1-research-methods/)     | | Social Influence   | 3         | [Social Influence](/docs/alevel/psychology/2-social-influence/)     | | Memory             | 3         | [Memory](/docs/alevel/psychology/3-memory/)                         | | Attachment         | 2         | [Attachment](/docs/alevel/psychology/4-attachment/)                 | | Psychopathology    | 2         | [Psychopathology](/docs/alevel/psychology/5-psychopathology/)       | | Approaches         | 3         | [Approaches](/docs/alevel/psychology/6-approaches/)                 | | Biopsychology      | 2         | [Biopsychology](/docs/alevel/psychology/7-biopsychology/)           | | Issues and Debates | 2         | [Issues and Debates](/docs/alevel/psychology/8-issues-and-debates/) |

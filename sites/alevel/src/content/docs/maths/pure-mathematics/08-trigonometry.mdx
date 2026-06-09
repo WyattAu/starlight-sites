@@ -1,920 +1,920 @@
----''
-title: Trigonometry''
-description:''
-  'A-Level Maths Trigonometry notes covering key definitions, core concepts, worked examples, and''
-  practice questions for clear revision.'''
-date: 2025-06-02T16:25:28.480Z''
-tags:''
-  - Maths''
-  - ALevel''
-categories:''
-  - Maths''
-''
----''
-''
-## Board Coverage''
-''
-| Board      | Paper      | Notes                                                                    |''
-| ---------- | ---------- | ------------------------------------------------------------------------ |''
-| AQA        | Paper 1, 2 | Basic trig in P1; compound/double angle, trig equations in P2            |''
-| Edexcel    | P1, P2     | Similar split                                                            |''
-| OCR (A)    | Paper 1, 2 | Includes small angle approximations                                      |''
-| CIE (9709) | P1, P2, P3 | Trig functions in P1; identities and equations in P2; further trig in P3 |''
-''
-:::info All boards provide trigonometric identities in the formula booklet, but not their proofs.''
-You need to know _which_ identities exist and how to apply them.''
-:::''
-''
-<hr />''
-''
-## 1. The Unit Circle Definitions''
-''
-**Definition.** Consider the unit circle (radius 1, centre at the origin). For an angle $\theta$''
-Measured anticlockwise from the positive $x$-axis, the point on the circle is''
-$(\cos\theta, \sin\theta)$.''
-''
-**Definition.**''
-''
-$$\cos\theta = \mathrm{the } x\mathrm{-coordinate of the point on the unit circle at angle } \theta$$''
-''
-$$\sin\theta = \mathrm{the } y\mathrm{-coordinate of the point on the unit circle at angle } \theta$$''
-''
-$$\tan\theta = \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆ \quad (\cos\theta \neq 0)$$''
-''
-_Intuition._ These definitions extend the right-triangle definitions (SOH CAH TOA) to all angles,''
-Not just those between 0° and 90°. The unit circle makes clear why $\sin$ and $\cos$ are periodic''
-With period $2\pi$.''
-''
-### 1.1 Radian Measure''
-''
-**Definition.** One _radian_ is the angle subtended at the centre of a circle by an arc equal in''
-Length to the radius.''
-''
-$$\theta\mathrm{ (radians)} = \frac◆LB◆\mathrm{arc length}◆RB◆◆LB◆r◆RB◆$$''
-''
-The full circle: $2\pi$ radians $= 360^\circ$So $\pi$ radians $= 180^\circ$.''
-''
-**Theorem (Arc length and sector area).** For a sector of radius $r$ and angle $\theta$ (in''
-Radians):''
-''
-$$\mathrm{Arc length } s = r\theta$$''
-''
-$$\mathrm{Sector area } A = \frac{1}{2}r^2\theta$$''
-''
-_Proof._ By definition, $\theta = s/r$So $s = r\theta$. The sector is a fraction''
-$\frac◆LB◆\theta◆RB◆◆LB◆2\pi◆RB◆$ of the full circle (area $\pi r^2$), so''
-$A = \frac◆LB◆\theta◆RB◆◆LB◆2\pi◆RB◆ \cdot \pi r^2 = \frac{1}{2}r^2\theta$. $\blacksquare$''
-''
-<hr />''
-''
-## 2. Fundamental Identities''
-''
-### 2.1 Pythagorean Identity''
-''
-**Theorem.** For all $\theta \in \mathbb{R}$:''
-''
-$$\sin^2\theta + \cos^2\theta = 1$$''
-''
-_Proof._ The point $(\cos\theta, \sin\theta)$ lies on the unit circle $x^2 + y^2 = 1$.''
-''
-$$\cos^2\theta + \sin^2\theta = 1 \quad \blacksquare$$''
-''
-**Corollary.** Dividing by $\cos^2\theta$ (where $\cos\theta \neq 0$):''
-''
-$$1 + \tan^2\theta = \sec^2\theta$$''
-''
-Dividing by $\sin^2\theta$ (where $\sin\theta \neq 0$):''
-''
-$$\cot^2\theta + 1 = \cosec^2\theta$$''
-''
-<DesmosGraph title="sin, cos, and tan on the Unit Circle" expressions={["\\sin(x)", "\\cos(x)",''
-"\\tan(x)"]} width={800} height={500} />''
-''
-<hr />''
-''
-## 3. Compound Angle Formulas''
-''
-### 3.1 Sine of a Sum''
-''
-**Theorem.** For all $A, B \in \mathbb{R}$:''
-''
-$$\sin(A + B) = \sin A \cos B + \cos A \sin B$$''
-''
-_Proof (using rotation matrices)._ Consider the rotation of the plane by angle $A$ followed by''
-Rotation by angle $B$. The combined rotation is by angle $A + B$.''
-''
-The rotation matrix by angle $\theta$ is:''
-''
-$$R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$$''
-''
-Matrix multiplication gives: $R(A)R(B) = R(A + B)$.''
-''
-$$\begin{pmatrix} \cos A & -\sin A \\ \sin A & \cos A \end{pmatrix}\begin{pmatrix} \cos B & -\sin B \\ \sin B & \cos B \end{pmatrix} = \begin{pmatrix} \cos(A+B) & -\sin(A+B) \\ \sin(A+B) & \cos(A+B) \end{pmatrix}$$''
-''
-The $(2, 1)$ entry of the product is:''
-''
-$$\sin A \cos B + \cos A \sin B = \sin(A + B) \quad \blacksquare$$''
-''
-### 3.2 Cosine of a Sum''
-''
-**Theorem.**''
-''
-$$\cos(A + B) = \cos A \cos B - \sin A \sin B$$''
-''
-_Proof._ From the $(1, 1)$ entry of the matrix product above:''
-''
-$$\cos A \cos B - \sin A \sin B = \cos(A + B) \quad \blacksquare$$''
-''
-### 3.3 Tangent of a Sum''
-''
-**Theorem.**''
-''
-$$\tan(A + B) = \frac◆LB◆\tan A + \tan B◆RB◆◆LB◆1 - \tan A \tan B◆RB◆$$''
-''
-_Proof._''
-''
-$$''
-\begin{aligned}''
-\tan(A + B) &= \frac◆LB◆\sin(A + B)◆RB◆◆LB◆\cos(A + B)◆RB◆ \\''
-&= \frac◆LB◆\sin A \cos B + \cos A \sin B◆RB◆◆LB◆\cos A \cos B - \sin A \sin B◆RB◆''
-\end{aligned}''
-$$''
-''
-Divide numerator and denominator by $\cos A \cos B$:''
-''
-$$= \frac◆LB◆\tan A + \tan B◆RB◆◆LB◆1 - \tan A \tan B◆RB◆ \quad \blacksquare$$''
-''
-### 3.4 Difference Formulas''
-''
-**Theorem.**''
-''
-$$''
-\begin{aligned}''
-\sin(A - B) &= \sin A \cos B - \cos A \sin B \\''
-\cos(A - B) &= \cos A \cos B + \sin A \sin B \\''
-\tan(A - B) &= \frac◆LB◆\tan A - \tan B◆RB◆◆LB◆1 + \tan A \tan B◆RB◆''
-\end{aligned}''
-$$''
-''
-_Proof._ Replace $B$ with $-B$ in the sum formulas, using $\sin(-B) = -\sin B$ and''
-$\cos(-B) = \cos B$. $\blacksquare$''
-''
-<hr />''
-''
-## 4. Double Angle Formulas''
-''
-Setting $A = B$ in the compound angle formulas:''
-''
-$$''
-\begin{aligned}''
-\sin 2A &= 2\sin A \cos A \\''
-\cos 2A &= \cos^2 A - \sin^2 A \\''
-\tan 2A &= \frac◆LB◆2\tan A◆RB◆◆LB◆1 - \tan^2 A◆RB◆''
-\end{aligned}''
-$$''
-''
-**Theorem.** Three equivalent forms of $\cos 2A$:''
-''
-$$\cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A$$''
-''
-_Proof._ Using $\sin^2 A = 1 - \cos^2 A$:''
-''
-$\cos^2 A - \sin^2 A = \cos^2 A - (1 - \cos^2 A) = 2\cos^2 A - 1$''
-''
-Using $\cos^2 A = 1 - \sin^2 A$:''
-''
-$\cos^2 A - \sin^2 A = (1 - \sin^2 A) - \sin^2 A = 1 - 2\sin^2 A$ $\blacksquare$''
-''
-_Intuition._ The double angle formulas express functions of $2A$ purely in terms of functions of''
-$A$. They are the algebraic backbone of many trigonometric manipulations and are essential for''
-Integration.''
-''
-<hr />''
-''
-## 5. Solving Trigonometric Equations''
-''
-### 5.1 Basic Strategy''
-''
-1. Use identities to reduce to a single trigonometric function.''
-2. Solve the resulting equation.''
-3. Find all solutions in the required interval.''
-''
-### 5.2 Key Solutions''
-''
-$$''
-\begin{aligned}''
-\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm{ or } \pi - \arcsin(a) + 2n\pi \\''
-\cos\theta = a &\implies \theta = \pm\arccos(a) + 2n\pi \\''
-\tan\theta = a &\implies \theta = \arctan(a) + n\pi''
-\end{aligned}''
-$$''
-''
-<details>''
-<summary>Example</summary>''
-Solve $2\sin^2\theta + 3\cos\theta - 3 = 0$ for $0 \leq \theta < 2\pi$.''
-''
-Using $\sin^2\theta = 1 - \cos^2\theta$:''
-''
-$$2(1 - \cos^2\theta) + 3\cos\theta - 3 = 0$$''
-''
-$$-2\cos^2\theta + 3\cos\theta - 1 = 0$$''
-''
-$$2\cos^2\theta - 3\cos\theta + 1 = 0$$''
-''
-$$(2\cos\theta - 1)(\cos\theta - 1) = 0$$''
-''
-$\cos\theta = \frac{1}{2} \implies \theta = \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆$ or''
-$\frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.''
-''
-$\cos\theta = 1 \implies \theta = 0$.''
-''
-Solutions: $\theta = 0, \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆, \frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.''
-''
-</details>''
-''
-<hr />''
-''
-## 6. Small Angle Approximations''
-''
-**Theorem.** For small $\theta$ (in radians):''
-''
-$$''
-\begin{aligned}''
-\sin\theta &\approx \theta - \frac◆LB◆\theta^3◆RB◆◆LB◆6◆RB◆ \\''
-\cos\theta &\approx 1 - \frac◆LB◆\theta^2◆RB◆◆LB◆2◆RB◆ \\''
-\tan\theta &\approx \theta + \frac◆LB◆\theta^3◆RB◆◆LB◆3◆RB◆''
-\end{aligned}''
-$$''
-''
-These follow from the Maclaurin series expansions (see [Differentiation](./10-differentiation.md)).''
-''
-For the linear approximations (when $\theta$ is very small):''
-''
-$$\sin\theta \approx \theta, \quad \cos\theta \approx 1, \quad \tan\theta \approx \theta$$''
-''
-_Intuition._ Near the origin, the curves $y = \sin\theta$ and $y = \tan\theta$ are almost''
-Indistinguishable from the line $y = \theta$. The curve $y = \cos\theta$ is nearly flat at $y = 1$.''
-''
-:::warning The small angle approximations are only valid when $\theta$ is in **radians**, not''
-Degrees. This is a very common exam error.''
-:::''
-''
-<hr />''
-''
-## 7. Half-Angle Formulas''
-''
-**Theorem.** For all $\theta$:''
-''
-$$\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 - \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆$$''
-''
-$$\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 + \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆$$''
-''
-$$\tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆\sin\theta◆RB◆◆LB◆1 + \cos\theta◆RB◆ = \frac◆LB◆1 - \cos\theta◆RB◆◆LB◆\sin\theta◆RB◆$$''
-''
-### 7.1 Derivation''
-''
-Starting from $\cos 2A = 1 - 2\sin^2 A$ and substituting $A = \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$:''
-''
-$$\cos\theta = 1 - 2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$$''
-''
-$$2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = 1 - \cos\theta$$''
-''
-$$\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 - \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆ \quad \blacksquare$$''
-''
-Similarly, from $\cos 2A = 2\cos^2 A - 1$:''
-''
-$$\cos\theta = 2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ - 1$$''
-''
-$$2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = 1 + \cos\theta$$''
-''
-$$\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 + \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆ \quad \blacksquare$$''
-''
-### 7.2 Tangent Half-Angle Formulas''
-''
-The tangent half-angle formulas avoid the ambiguity of the $\pm$ sign:''
-''
-$$\tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆\sin\theta◆RB◆◆LB◆1 + \cos\theta◆RB◆$$''
-''
-_Proof._ Using the double angle formulas:''
-''
-$$\frac◆LB◆\sin\theta◆RB◆◆LB◆1 + \cos\theta◆RB◆ = \frac◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆1 + (2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ - 1)◆RB◆ = \frac◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \frac◆LB◆\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \quad \blacksquare$$''
-''
-Similarly:''
-''
-$$\tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆1 - \cos\theta◆RB◆◆LB◆\sin\theta◆RB◆$$''
-''
-_Proof._''
-$\frac◆LB◆1 - \cos\theta◆RB◆◆LB◆\sin\theta◆RB◆ = \frac◆LB◆1 - (1 - 2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆)◆RB◆◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \frac◆LB◆2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \frac◆LB◆\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \quad \blacksquare$''
-''
-### 7.3 Sign Determination''
-''
-The $\pm$ in the sine and cosine half-angle formulas depends on the quadrant of''
-$\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ Not the quadrant of $\theta$ itself. Always determine which quadrant''
-$\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ lies in Before choosing the sign.''
-''
-| Quadrant of $\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$                                 | $\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ | $\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ |''
-| -------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------- |''
-| I: $0 \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$      | $+$                                | $+$                                |''
-| II: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt \pi$   | $+$                                | $-$                                |''
-| III: $\pi \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆$ | $-$                                | $-$                                |''
-| IV: $\frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt 2\pi$ | $-$                                | $+$                                |''
-''
-<details>''
-<summary>Worked example</summary>''
-Find the exact value of $\sin\frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆$.''
-''
-Since $0 \lt \frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆ \lt \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ (first quadrant),''
-$\sin\frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆ > 0$So we Take the positive root.''
-''
-$$\sin\frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆ = \sqrt◆LB◆\frac◆LB◆1 - \cos\frac{\pi}{4}◆RB◆◆LB◆2◆RB◆◆RB◆ = \sqrt◆LB◆\frac◆LB◆1 - \frac{\sqrt{2}}{2}◆RB◆◆LB◆2◆RB◆◆RB◆ = \sqrt◆LB◆\frac◆LB◆2 - \sqrt{2}◆RB◆◆LB◆4◆RB◆◆RB◆ = \frac◆LB◆\sqrt◆LB◆2 - \sqrt{2}◆RB◆◆RB◆◆LB◆2◆RB◆$$''
-''
-</details>''
-''
-<hr />''
-''
-## 8. R-Addition Formula (Harmonic Form)''
-''
-**Theorem.** For real numbers $a$ and $b$:''
-''
-$$a\sin\theta + b\cos\theta = R\sin(\theta + \alpha)$$''
-''
-Where $R = \sqrt{a^2 + b^2}$ and $\tan\alpha = \dfrac{b}{a}$.''
-''
-### 8.1 Cosine Form''
-''
-Alternatively, the same expression can be written as:''
-''
-$$a\sin\theta + b\cos\theta = R\cos(\theta - \beta)$$''
-''
-Where $R = \sqrt{a^2 + b^2}$ and $\tan\beta = \dfrac{a}{b}$.''
-''
-Both forms are equivalent; the choice between them is a matter of convenience depending on whether a''
-Sine or cosine expansion is more natural for the problem at hand.''
-''
-### 8.2 Derivation''
-''
-Expand the right-hand side of the sine form:''
-''
-$$R\sin(\theta + \alpha) = R\sin\theta\cos\alpha + R\cos\theta\sin\alpha$$''
-''
-Equating coefficients with $a\sin\theta + b\cos\theta$:''
-''
-$$R\cos\alpha = a, \qquad R\sin\alpha = b$$''
-''
-Squaring and adding: $R^2\cos^2\alpha + R^2\sin^2\alpha = a^2 + b^2$So $R^2 = a^2 + b^2$ and''
-$R = \sqrt{a^2 + b^2}$.''
-''
-Dividing the second equation by the first: $\tan\alpha = \dfrac{b}{a}$. $\blacksquare$''
-''
-The cosine form is derived similarly by expanding''
-$R\cos(\theta - \beta) = R\cos\theta\cos\beta + R\sin\theta\sin\beta$ and equating coefficients.''
-''
-### 8.3 Applications: Maximum and Minimum''
-''
-Since $-1 \leq \sin(\theta + \alpha) \leq 1$:''
-''
-$$-R \leq a\sin\theta + b\cos\theta \leq R$$''
-''
-- **Maximum** $= R = \sqrt{a^2 + b^2}$Occurring when''
-  $\theta + \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$.''
-- **Minimum** $= -R$Occurring when $\theta + \alpha = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$.''
-''
-<details>''
-<summary>Example: Finding maximum and minimum</summary>''
-Find the maximum and minimum values of $3\sin\theta - 4\cos\theta$ and the values of $\theta$ at''
-Which they occur, for $0 \leq \theta \lt 2\pi$.''
-''
-$R = \sqrt{9 + 16} = 5$.''
-''
-Here $a = 3$ and $b = -4$. Writing $3\sin\theta - 4\cos\theta = 5\sin(\theta + \alpha)$ where''
-$\tan\alpha = \dfrac{-4}{3}$So $\alpha = -\arctan\dfrac{4}{3}$.''
-''
-Maximum $= 5$ when $\theta + \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$:''
-''
-$$\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + \arctan\frac{4}{3} \approx 2.214 \mathrm{ rad}$$''
-''
-Minimum $= -5$ when $\theta + \alpha = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆$:''
-''
-$$\theta = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ - \alpha = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ + \arctan\frac{4}{3} \approx 5.356 \mathrm{ rad}$$''
-''
-</details>''
-''
-### 8.4 Solving Equations''
-''
-The R-addition formula converts $a\sin\theta + b\cos\theta = k$ into $R\sin(\theta + \alpha) = k$A''
-Standard trigonometric equation.''
-''
-<details>''
-<summary>Example: Solving an equation</summary>''
-Solve $\sin\theta + \cos\theta = 1$ for $0 \leq \theta \lt 2\pi$.''
-''
-$R = \sqrt{1 + 1} = \sqrt{2}$, $\alpha = \arctan 1 = \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$.''
-''
-$$\sqrt{2}\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = 1$$''
-''
-$$\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = \frac◆LB◆1◆RB◆◆LB◆\sqrt{2}◆RB◆ = \sin\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$$''
-''
-$$\theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ = \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ + 2n\pi \quad \mathrm{or} \quad \theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ = \frac◆LB◆3\pi◆RB◆◆LB◆4◆RB◆ + 2n\pi$$''
-''
-$$\theta = 2n\pi \quad \mathrm{or} \quad \theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$$''
-''
-For $0 \leq \theta \lt 2\pi$: $\theta = 0$ or $\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.''
-''
-</details>''
-''
-<hr />''
-''
-## 9. Trigonometric Identities: Proof Strategies''
-''
-Proving trigonometric identities is a core exam skill. The following strategies cover the most''
-Common approaches.''
-''
-### 9.1 Strategy 1: Work with One Side''
-''
-Start from the more complicated side and simplify it until it matches the simpler side. This avoids''
-The logical error of assuming what you are trying to prove.''
-''
-### 9.2 Strategy 2: Express Everything in Sine and Cosine''
-''
-Replace $\tan$, $\sec$, $\csc$, $\cot$ with their definitions in terms of $\sin$ and $\cos$:''
-$\tan\theta = \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆$,''
-$\sec\theta = \frac◆LB◆1◆RB◆◆LB◆\cos\theta◆RB◆$Etc.''
-''
-### 9.3 Strategy 3: Use Known Identities''
-''
-Apply the Pythagorean identity, compound angle, or double angle formulas to create simplifications.''
-''
-### 9.4 Strategy 4: Multiply by the Conjugate''
-''
-When you see expressions of the form $a \pm b$ in a denominator or numerator, multiply top and''
-Bottom by the conjugate $a \mp b$ to produce a difference of squares.''
-''
-<details>''
-<summary>Example 1: Strategy 2 (express in sin and cos)</summary>''
-Prove that $\cot A + \tan A = \dfrac◆LB◆2◆RB◆◆LB◆\sin 2A◆RB◆$.''
-''
-$$''
-\begin{aligned}''
-\cot A + \tan A &= \frac◆LB◆\cos A◆RB◆◆LB◆\sin A◆RB◆ + \frac◆LB◆\sin A◆RB◆◆LB◆\cos A◆RB◆ \\''
-&= \frac◆LB◆\cos^2 A + \sin^2 A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\''
-&= \frac◆LB◆1◆RB◆◆LB◆\sin A \cos A◆RB◆ \\''
-&= \frac◆LB◆2◆RB◆◆LB◆2\sin A \cos A◆RB◆ = \frac◆LB◆2◆RB◆◆LB◆\sin 2A◆RB◆ \quad \blacksquare''
-\end{aligned}''
-$$''
-''
-</details>''
-''
-<details>''
-<summary>Example 2: Strategy 3 (use known identities)</summary>''
-Prove that $\sin 3A = 3\sin A - 4\sin^3 A$.''
-''
-$$''
-\begin{aligned}''
-\sin 3A &= \sin(2A + A) \\''
-&= \sin 2A \cos A + \cos 2A \sin A \\''
-&= 2\sin A \cos^2 A + (1 - 2\sin^2 A)\sin A \\''
-&= 2\sin A(1 - \sin^2 A) + \sin A - 2\sin^3 A \\''
-&= 2\sin A - 2\sin^3 A + \sin A - 2\sin^3 A \\''
-&= 3\sin A - 4\sin^3 A \quad \blacksquare''
-\end{aligned}''
-$$''
-''
-</details>''
-''
-<details>''
-<summary>Example 3: Strategy 4 (multiply by conjugate)</summary>''
-Prove that $\dfrac◆LB◆1◆RB◆◆LB◆\sec A + \tan A◆RB◆ = \sec A - \tan A$.''
-''
-Multiply numerator and denominator by $\sec A - \tan A$:''
-''
-$$''
-\begin{aligned}''
-\frac◆LB◆1◆RB◆◆LB◆\sec A + \tan A◆RB◆ \cdot \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆\sec A - \tan A◆RB◆''
-&= \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆\sec^2 A - \tan^2 A◆RB◆ \\''
-&= \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆1 + \tan^2 A - \tan^2 A◆RB◆ \\''
-&= \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆1◆RB◆ \\''
-&= \sec A - \tan A \quad \blacksquare''
-\end{aligned}''
-$$''
-''
-Where we used $\sec^2 A = 1 + \tan^2 A$ so that $\sec^2 A - \tan^2 A = 1$.''
-''
-</details>''
-''
-<details>''
-<summary>Example 4: Strategy 1 (work with one side)</summary>''
-Prove that $\dfrac◆LB◆\cos 2A◆RB◆◆LB◆1 + \sin 2A◆RB◆ = \dfrac◆LB◆\cos A - \sin A◆RB◆◆LB◆\cos A + \sin A◆RB◆$.''
-''
-Working from the LHS:''
-''
-$$''
-\begin{aligned}''
-\frac◆LB◆\cos 2A◆RB◆◆LB◆1 + \sin 2A◆RB◆''
-&= \frac◆LB◆\cos^2 A - \sin^2 A◆RB◆◆LB◆1 + 2\sin A \cos A◆RB◆ \\''
-&= \frac◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆◆LB◆\cos^2 A + 2\sin A\cos A + \sin^2 A◆RB◆ \\''
-&= \frac◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆◆LB◆(\cos A + \sin A)^2◆RB◆ \\''
-&= \frac◆LB◆\cos A - \sin A◆RB◆◆LB◆\cos A + \sin A◆RB◆ \quad \blacksquare''
-\end{aligned}''
-$$''
-''
-</details>''
-''
-<hr />''
-''
-## 10. Trigonometric Graphs''
-''
-### 10.1 Key Features''
-''
-| Function | Period | Amplitude | Domain                                    | Range        |''
-| -------- | ------ | --------- | ----------------------------------------- | ------------ |''
-| $\sin x$ | $2\pi$ | $1$       | $\mathbb{R}$                              | $[-1, 1]$    |''
-| $\cos x$ | $2\pi$ | $1$       | $\mathbb{R}$                              | $[-1, 1]$    |''
-| $\tan x$ | $\pi$  | undefined | $x \neq \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + n\pi$ | $\mathbb{R}$ |''
-''
-**Key values of $\sin$ and $\cos$:**''
-''
-| Angle  | $0$ | $\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$      | $\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$      | $\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆$      | $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ | $\pi$ | $\frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆$ | $2\pi$ |''
-| ------ | --- | -------------------------------- | -------------------------------- | -------------------------------- | --------------------------- | ----- | ---------------------------- | ------ |''
-| $\sin$ | $0$ | $\frac{1}{2}$                    | $\frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆$ | $\frac◆LB◆\sqrt{3}◆RB◆◆LB◆2◆RB◆$ | $1$                         | $0$   | $-1$                         | $0$    |''
-| $\cos$ | $1$ | $\frac◆LB◆\sqrt{3}◆RB◆◆LB◆2◆RB◆$ | $\frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆$ | $\frac{1}{2}$                    | $0$                         | $-1$  | $0$                          | $1$    |''
-''
-### 10.2 Transformations''
-''
-For the general form $y = A\sin(Bx + C) + D$ (and similarly for $\cos$):''
-''
-- $|A|$ is the **amplitude** (vertical stretch from the midline)''
-- The **period** is $\dfrac◆LB◆2\pi◆RB◆◆LB◆|B|◆RB◆$''
-- The **phase shift** is $-\dfrac{C}{B}$ (horizontal shift)''
-- $D$ is the **vertical shift** (midline is $y = D$)''
-''
-For $\tan$The period is $\dfrac◆LB◆\pi◆RB◆◆LB◆|B|◆RB◆$ and amplitude is not defined.''
-''
-<DesmosGraph title="y = A sin(Bx + C) + D" expressions={["A\sin(Bx+C)+D", "A\cos(Bx+C)+D"]}''
-width={800} height={500} /> Use the sliders to adjust the amplitude, period, phase shift, and''
-Vertical translation of the trigonometric functions. Observe how each parameter affects the graph of''
-$y = A\sin(Bx + C) + D$. <details> <summary>Worked example</summary> Describe the key features of''
-$y = 2\sin\!\left(2x - \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right)$ for $0 \leq x \leq 2\pi$. **Amplitude:**''
-$|A| = 2$So the range is $[-2, 2]$. **Period:**''
-$\dfrac◆LB◆2\pi◆RB◆◆LB◆|B|◆RB◆ = \dfrac◆LB◆2\pi◆RB◆◆LB◆2◆RB◆ = \pi$. **Phase shift:**''
-$-\dfrac{C}{B} = -\dfrac◆LB◆-\pi/3◆RB◆◆LB◆2◆RB◆ = \dfrac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$ (shift right by''
-$\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$). **Key points.** The first cycle begins at''
-$x = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$ (where the curve crosses the midline Upward). Subsequent key points''
-within $[0, 2\pi]$: - Maximum at $x = \frac◆LB◆5\pi◆RB◆◆LB◆12◆RB◆$ (value $2$) - Midline crossing''
-(down) at $x = \frac◆LB◆2\pi◆RB◆◆LB◆3◆RB◆$ - Minimum at $x = \frac◆LB◆11\pi◆RB◆◆LB◆12◆RB◆$ (value''
-$-2$) - Midline crossing (up) at $x = \frac◆LB◆7\pi◆RB◆◆LB◆6◆RB◆$ Since the period is $\pi$The''
-second cycle repeats with all $x$-values shifted by $\pi$: - Maximum at''
-$x = \frac◆LB◆17\pi◆RB◆◆LB◆12◆RB◆$ (value $2$) - Minimum at $x = \frac◆LB◆23\pi◆RB◆◆LB◆12◆RB◆$''
-(value $-2$) **$y$-intercept:**''
-$y = 2\sin\!\left(-\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) = -\sqrt{3} \approx -1.73$. </details> <hr />''
-''
-## 11. Problem Set''
-''
-**Problem 1.** Prove that $\frac◆LB◆\sin 2\theta◆RB◆◆LB◆1 + \cos 2\theta◆RB◆ = \tan\theta$.''
-''
-<details>''
-<summary>Solution</summary>''
-$$''
-\begin{aligned}''
-\frac◆LB◆\sin 2\theta◆RB◆◆LB◆1 + \cos 2\theta◆RB◆ &= \frac◆LB◆2\sin\theta\cos\theta◆RB◆◆LB◆1 + (2\cos^2\theta - 1)◆RB◆ \\''
-&= \frac◆LB◆2\sin\theta\cos\theta◆RB◆◆LB◆2\cos^2\theta◆RB◆ \\''
-&= \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆ = \tan\theta \quad \blacksquare''
-\end{aligned}''
-$$''
-</details>''
-<b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)''
-''
-<hr />''
-''
-**Problem 2.** Solve $\sin 2x = \sin x$ for $0 \leq x < 2\pi$.''
-''
-<details>''
-<summary>Solution</summary>''
-$$2\sin x\cos x = \sin x$$''
-''
-$$\sin x(2\cos x - 1) = 0$$''
-''
-$\sin x = 0 \implies x = 0, \pi$.''
-''
-$2\cos x - 1 = 0 \implies \cos x = \frac{1}{2} \implies x = \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆, \frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.''
-''
-Solutions: $x = 0, \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆, \pi, \frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Solving trig equations](#5-solving-trigonometric-equations)''
-''
-<hr />''
-''
-**Problem 3.** Express $4\sin\theta - 3\cos\theta$ in the form $R\sin(\theta - \alpha)$Where $R > 0$''
-and $0 < \alpha < \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.''
-''
-<details>''
-<summary>Solution</summary>''
-$R\sin(\theta - \alpha) = R(\sin\theta\cos\alpha - \cos\theta\sin\alpha) = R\cos\alpha\sin\theta - R\sin\alpha\cos\theta$.''
-''
-Comparing coefficients: $R\cos\alpha = 4$ and $R\sin\alpha = 3$.''
-''
-$$R^2 = 4^2 + 3^2 = 25 \implies R = 5$$''
-''
-$$\tan\alpha = \frac{3}{4} \implies \alpha = \arctan\left(\frac{3}{4}\right) \approx 0.6435 \mathrm{ rad}$$''
-''
-$$4\sin\theta - 3\cos\theta = 5\sin(\theta - 0.6435)$$''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)''
-''
-<hr />''
-''
-**Problem 4.** Find the exact value of $\sin 75^\circ$.''
-''
-<details>''
-<summary>Solution</summary>''
-$$\sin 75° = \sin(45° + 30°) = \sin 45°\cos 30° + \cos 45°\sin 30^\circ$$''
-''
-$$= \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆ \cdot \frac◆LB◆\sqrt{3}◆RB◆◆LB◆2◆RB◆ + \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆ \cdot \frac{1}{2} = \frac◆LB◆\sqrt{6} + \sqrt{2}◆RB◆◆LB◆4◆RB◆$$''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)''
-''
-<hr />''
-''
-**Problem 5.** Prove that $\frac◆LB◆1 - \cos 2\theta◆RB◆◆LB◆\sin 2\theta◆RB◆ = \tan\theta$.''
-''
-<details>''
-<summary>Solution</summary>''
-$$''
-\begin{aligned}''
-\frac◆LB◆1 - \cos 2\theta◆RB◆◆LB◆\sin 2\theta◆RB◆ &= \frac◆LB◆1 - (1 - 2\sin^2\theta)◆RB◆◆LB◆2\sin\theta\cos\theta◆RB◆ \\''
-&= \frac◆LB◆2\sin^2\theta◆RB◆◆LB◆2\sin\theta\cos\theta◆RB◆ \\''
-&= \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆ = \tan\theta \quad \blacksquare''
-\end{aligned}''
-$$''
-</details>''
-<b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)''
-''
-<hr />''
-''
-**Problem 6.** A sector of a circle of radius 8 cm has an angle of 1.2 radians. Find the arc length''
-And the area of the sector.''
-''
-<details>''
-<summary>Solution</summary>''
-Arc length: $s = r\theta = 8 \times 1.2 = 9.6$ cm.''
-''
-Area: $A = \frac{1}{2}r^2\theta = \frac{1}{2}(64)(1.2) = 38.4$ cm².''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Radian measure](#11-radian-measure)''
-''
-<hr />''
-''
-**Problem 7.** Solve $3\cos^2 x + 2\sin x - 2 = 0$ for $-\pi \leq x \leq \pi$.''
-''
-<details>''
-<summary>Solution</summary>''
-$3(1 - \sin^2 x) + 2\sin x - 2 = 0$''
-''
-$3 - 3\sin^2 x + 2\sin x - 2 = 0$''
-''
-$-3\sin^2 x + 2\sin x + 1 = 0$''
-''
-$3\sin^2 x - 2\sin x - 1 = 0$''
-''
-$(3\sin x + 1)(\sin x - 1) = 0$''
-''
-$\sin x = -\frac{1}{3} \implies x = \arcsin(-\frac{1}{3}) \approx -0.3398$ or''
-$x = -\pi - \arcsin(-\frac{1}{3}) = -\pi + 0.3398 \approx -2.802$ (since $3.481 > \pi$Subtract''
-$2\pi$ to stay in $[-\pi, \pi]$).''
-''
-$\sin x = 1 \implies x = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.''
-''
-Solutions: $x \approx -2.802, -0.340, \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Solving trig equations](#5-solving-trigonometric-equations)''
-''
-<hr />''
-''
-**Problem 8.** Use small angle approximations to estimate $\frac◆LB◆\sin 0.05◆RB◆◆LB◆\cos 0.05◆RB◆$.''
-''
-<details>''
-<summary>Solution</summary>''
-$\sin 0.05 \approx 0.05$''
-''
-$\cos 0.05 \approx 1 - \frac{0.05^2}{2} = 1 - 0.00125 = 0.99875$''
-''
-$$\frac◆LB◆\sin 0.05◆RB◆◆LB◆\cos 0.05◆RB◆ \approx \frac{0.05}{0.99875} \approx 0.05006$$''
-''
-(Alternatively, $\tan 0.05 \approx 0.05$ directly.)''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Small angle approximations](#6-small-angle-approximations)''
-''
-<hr />''
-''
-**Problem 9.** Prove that''
-$\dfrac◆LB◆1 + \sin 2A◆RB◆◆LB◆\cos 2A◆RB◆ = \tan\!\left(A + \dfrac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right)$.''
-''
-<details>''
-<summary>Solution</summary>''
-Working from the LHS:''
-''
-$$''
-\begin{aligned}''
-\frac◆LB◆1 + \sin 2A◆RB◆◆LB◆\cos 2A◆RB◆''
-&= \frac◆LB◆1 + 2\sin A \cos A◆RB◆◆LB◆\cos^2 A - \sin^2 A◆RB◆ \\''
-&= \frac◆LB◆\sin^2 A + 2\sin A \cos A + \cos^2 A◆RB◆◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆ \\''
-&= \frac◆LB◆(\sin A + \cos A)^2◆RB◆◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆ \\''
-&= \frac◆LB◆\sin A + \cos A◆RB◆◆LB◆\cos A - \sin A◆RB◆''
-\end{aligned}''
-$$''
-''
-Dividing numerator and denominator by $\cos A$:''
-''
-$$= \frac◆LB◆\tan A + 1◆RB◆◆LB◆1 - \tan A◆RB◆$$''
-''
-From the tangent compound angle formula:''
-''
-$$\tan\!\left(A + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = \frac◆LB◆\tan A + \tan\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆◆RB◆◆LB◆1 - \tan A \tan\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆◆RB◆ = \frac◆LB◆\tan A + 1◆RB◆◆LB◆1 - \tan A◆RB◆ \quad \blacksquare$$''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)''
-''
-<hr />''
-''
-**Problem 10.** The area of a sector is $20\mathrm{ cm}^2$ and the arc length is $10\mathrm{ cm}$.''
-Find the radius and the angle.''
-''
-<details>''
-<summary>Solution</summary>''
-$$s = r\theta = 10 \implies \theta = \frac{10}{r}$$''
-''
-$$A = \frac{1}{2}r^2\theta = \frac{1}{2}r^2 \cdot \frac{10}{r} = 5r = 20 \implies r = 4$$''
-''
-$$\theta = \frac{10}{4} = 2.5 \mathrm{ radians}$$''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Radian measure](#11-radian-measure)''
-''
-<hr />''
-''
-**Problem 11.** Find the exact value of $\cos\dfrac◆LB◆\pi◆RB◆◆LB◆12◆RB◆$ using a half-angle''
-formula.''
-''
-<details>''
-<summary>Solution</summary>''
-$\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ = \cos\frac◆LB◆\pi/6◆RB◆◆LB◆2◆RB◆$So we apply the half-angle formula with $\theta = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$.''
-''
-Since $0 \lt \frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ \lt \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ (first quadrant),''
-$\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ > 0$.''
-''
-$$''
-\begin{aligned}''
-\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ &= \sqrt◆LB◆\frac◆LB◆1 + \cos\frac{\pi}{6}◆RB◆◆LB◆2◆RB◆◆RB◆ \\''
-&= \sqrt◆LB◆\frac◆LB◆1 + \frac{\sqrt{3}}{2}◆RB◆◆LB◆2◆RB◆◆RB◆ \\''
-&= \sqrt◆LB◆\frac◆LB◆2 + \sqrt{3}◆RB◆◆LB◆4◆RB◆◆RB◆ \\''
-&= \frac◆LB◆\sqrt◆LB◆2 + \sqrt{3}◆RB◆◆RB◆◆LB◆2◆RB◆''
-\end{aligned}''
-$$''
-''
-This can also be verified using the compound angle formula:''
-$\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ = \cos\!\left(\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = \cos\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\cos\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ + \sin\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\sin\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ = \frac◆LB◆\sqrt{6} + \sqrt{2}◆RB◆◆LB◆4◆RB◆$''
-And one can check that''
-$\dfrac◆LB◆\sqrt◆LB◆2+\sqrt{3}◆RB◆◆RB◆◆LB◆2◆RB◆ = \dfrac◆LB◆\sqrt{6}+\sqrt{2}◆RB◆◆LB◆4◆RB◆$.''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Half-angle formulas](#7-half-angle-formulas)''
-''
-<hr />''
-''
-**Problem 12.** Find the maximum value of $2\sin\theta + 5\cos\theta$ and the smallest positive''
-Value of $\theta$ at which it occurs.''
-''
-<details>''
-<summary>Solution</summary>''
-$R = \sqrt{4 + 25} = \sqrt{29}$.''
-''
-The maximum value is $R = \sqrt{29}$.''
-''
-Writing $2\sin\theta + 5\cos\theta = \sqrt{29}\sin(\theta + \alpha)$ where''
-$\tan\alpha = \dfrac{5}{2}$.''
-''
-The maximum occurs when $\sin(\theta + \alpha) = 1$I.e.,''
-$\theta + \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.''
-''
-$$\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - \arctan\frac{5}{2} \approx 0.3805 \mathrm{ rad}$$''
-''
-Since $\arctan\frac{5}{2} \approx 1.1903 < \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$This $\theta$ is positive and''
-is the Smallest positive value.''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [R-addition formula](#8-r-addition-formula-harmonic-form)''
-''
-<hr />''
-''
-**Problem 13.** Prove that''
-$\dfrac◆LB◆\sin 3A◆RB◆◆LB◆\sin A◆RB◆ - \dfrac◆LB◆\cos 3A◆RB◆◆LB◆\cos A◆RB◆ = 2$.''
-''
-<details>''
-<summary>Solution</summary>''
-$$''
-\begin{aligned}''
-\frac◆LB◆\sin 3A◆RB◆◆LB◆\sin A◆RB◆ - \frac◆LB◆\cos 3A◆RB◆◆LB◆\cos A◆RB◆''
-&= \frac◆LB◆\sin 3A \cos A - \cos 3A \sin A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\''
-&= \frac◆LB◆\sin(3A - A)◆RB◆◆LB◆\sin A \cos A◆RB◆ \\''
-&= \frac◆LB◆\sin 2A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\''
-&= \frac◆LB◆2\sin A \cos A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\''
-&= 2 \quad \blacksquare''
-\end{aligned}''
-$$''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Proof strategies](#9-trigonometric-identities-proof-strategies)''
-''
-<hr />''
-''
-**Problem 14.** Solve $\sin\theta + \sqrt{3}\cos\theta = 1$ for $0 \leq \theta \lt 2\pi$.''
-''
-<details>''
-<summary>Solution</summary>''
-$R = \sqrt{1 + 3} = 2$, $\alpha = \arctan\sqrt{3} = \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆$.''
-''
-$$2\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) = 1$$''
-''
-$$\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) = \frac{1}{2}$$''
-''
-$$\theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ + 2n\pi \quad \mathrm{or} \quad \theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ = \frac◆LB◆5\pi◆RB◆◆LB◆6◆RB◆ + 2n\pi$$''
-''
-Case 1:''
-$\theta = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2n\pi = -\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ + 2n\pi$.''
-''
-For $n = 1$: $\theta = -\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ + 2\pi = \frac◆LB◆11\pi◆RB◆◆LB◆6◆RB◆$.''
-''
-Case 2:''
-$\theta = \frac◆LB◆5\pi◆RB◆◆LB◆6◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2n\pi = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$.''
-''
-For $n = 0$: $\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.''
-''
-Solutions: $\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ or $\theta = \frac◆LB◆11\pi◆RB◆◆LB◆6◆RB◆$.''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [R-addition formula](#8-r-addition-formula-harmonic-form)''
-''
-<hr />''
-''
-**Problem 15.** Prove that $\dfrac◆LB◆1 - \tan^2 A◆RB◆◆LB◆1 + \tan^2 A◆RB◆ = \cos 2A$.''
-''
-<details>''
-<summary>Solution</summary>''
-Using $\sec^2 A = 1 + \tan^2 A$:''
-''
-$$''
-\begin{aligned}''
-\frac◆LB◆1 - \tan^2 A◆RB◆◆LB◆1 + \tan^2 A◆RB◆''
-&= \frac◆LB◆1 - \tan^2 A◆RB◆◆LB◆\sec^2 A◆RB◆ \\''
-&= (1 - \tan^2 A)\cos^2 A \\''
-&= \cos^2 A - \tan^2 A \cos^2 A \\''
-&= \cos^2 A - \frac◆LB◆\sin^2 A◆RB◆◆LB◆\cos^2 A◆RB◆ \cdot \cos^2 A \\''
-&= \cos^2 A - \sin^2 A \\''
-&= \cos 2A \quad \blacksquare''
-\end{aligned}''
-$$''
-''
-</details>''
-<b>If you get this wrong, revise:</b> [Proof strategies](#9-trigonometric-identities-proof-strategies)''
-''
----''
-''
-:::tip Tip Ready to test your understanding of **Trigonometry**? The contains the hardest questions''
-within the A-Level specification for this topic, each with a full worked solution.''
-''
-**Unit tests** probe edge cases and common misconceptions. **Integration tests** combine''
-Trigonometry with other pure mathematics topics to test synthesis under exam conditions.''
-''
-See for instructions on self-marking and''
-building a personal test matrix.''
-''
-## Common Pitfalls''
-''
-1. Rounding too early in multi-step calculations — carry full precision through and round only the''
-   final answer.''
-''
-2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator''
-   cannot be zero).''
-''
-3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary''
-   conditions in definite integrals.''
-''
-4. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.''
-''
-## Summary''
-''
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding''
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of''
-each approach.''
-''
-## Worked Examples''
-''
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages''
-linked above.''
-''
-:::''
+---
+title: Trigonometry
+description:
+  'A-Level Maths Trigonometry notes covering key definitions, core concepts, worked examples, and
+  practice questions for clear revision.'
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper      | Notes                                                                    |
+| ---------- | ---------- | ------------------------------------------------------------------------ |
+| AQA        | Paper 1, 2 | Basic trig in P1; compound/double angle, trig equations in P2            |
+| Edexcel    | P1, P2     | Similar split                                                            |
+| OCR (A)    | Paper 1, 2 | Includes small angle approximations                                      |
+| CIE (9709) | P1, P2, P3 | Trig functions in P1; identities and equations in P2; further trig in P3 |
+
+:::info All boards provide trigonometric identities in the formula booklet, but not their proofs.
+You need to know _which_ identities exist and how to apply them.
+:::
+
+<hr />
+
+## 1. The Unit Circle Definitions
+
+**Definition.** Consider the unit circle (radius 1, centre at the origin). For an angle $\theta$
+Measured anticlockwise from the positive $x$-axis, the point on the circle is
+$(\cos\theta, \sin\theta)$.
+
+**Definition.**
+
+$$\cos\theta = \mathrm{the } x\mathrm{-coordinate of the point on the unit circle at angle } \theta$$
+
+$$\sin\theta = \mathrm{the } y\mathrm{-coordinate of the point on the unit circle at angle } \theta$$
+
+$$\tan\theta = \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆ \quad (\cos\theta \neq 0)$$
+
+_Intuition._ These definitions extend the right-triangle definitions (SOH CAH TOA) to all angles,
+Not just those between 0° and 90°. The unit circle makes clear why $\sin$ and $\cos$ are periodic
+With period $2\pi$.
+
+### 1.1 Radian Measure
+
+**Definition.** One _radian_ is the angle subtended at the centre of a circle by an arc equal in
+Length to the radius.
+
+$$\theta\mathrm{ (radians)} = \frac◆LB◆\mathrm{arc length}◆RB◆◆LB◆r◆RB◆$$
+
+The full circle: $2\pi$ radians $= 360^\circ$So $\pi$ radians $= 180^\circ$.
+
+**Theorem (Arc length and sector area).** For a sector of radius $r$ and angle $\theta$ (in
+Radians):
+
+$$\mathrm{Arc length } s = r\theta$$
+
+$$\mathrm{Sector area } A = \frac{1}{2}r^2\theta$$
+
+_Proof._ By definition, $\theta = s/r$So $s = r\theta$. The sector is a fraction
+$\frac◆LB◆\theta◆RB◆◆LB◆2\pi◆RB◆$ of the full circle (area $\pi r^2$), so
+$A = \frac◆LB◆\theta◆RB◆◆LB◆2\pi◆RB◆ \cdot \pi r^2 = \frac{1}{2}r^2\theta$. $\blacksquare$
+
+<hr />
+
+## 2. Fundamental Identities
+
+### 2.1 Pythagorean Identity
+
+**Theorem.** For all $\theta \in \mathbb{R}$:
+
+$$\sin^2\theta + \cos^2\theta = 1$$
+
+_Proof._ The point $(\cos\theta, \sin\theta)$ lies on the unit circle $x^2 + y^2 = 1$.
+
+$$\cos^2\theta + \sin^2\theta = 1 \quad \blacksquare$$
+
+**Corollary.** Dividing by $\cos^2\theta$ (where $\cos\theta \neq 0$):
+
+$$1 + \tan^2\theta = \sec^2\theta$$
+
+Dividing by $\sin^2\theta$ (where $\sin\theta \neq 0$):
+
+$$\cot^2\theta + 1 = \cosec^2\theta$$
+
+<DesmosGraph title="sin, cos, and tan on the Unit Circle" expressions={["\\sin(x)", "\\cos(x)",
+"\\tan(x)"]} width={800} height={500} />
+
+<hr />
+
+## 3. Compound Angle Formulas
+
+### 3.1 Sine of a Sum
+
+**Theorem.** For all $A, B \in \mathbb{R}$:
+
+$$\sin(A + B) = \sin A \cos B + \cos A \sin B$$
+
+_Proof (using rotation matrices)._ Consider the rotation of the plane by angle $A$ followed by
+Rotation by angle $B$. The combined rotation is by angle $A + B$.
+
+The rotation matrix by angle $\theta$ is:
+
+$$R(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$$
+
+Matrix multiplication gives: $R(A)R(B) = R(A + B)$.
+
+$$\begin{pmatrix} \cos A & -\sin A \\ \sin A & \cos A \end{pmatrix}\begin{pmatrix} \cos B & -\sin B \\ \sin B & \cos B \end{pmatrix} = \begin{pmatrix} \cos(A+B) & -\sin(A+B) \\ \sin(A+B) & \cos(A+B) \end{pmatrix}$$
+
+The $(2, 1)$ entry of the product is:
+
+$$\sin A \cos B + \cos A \sin B = \sin(A + B) \quad \blacksquare$$
+
+### 3.2 Cosine of a Sum
+
+**Theorem.**
+
+$$\cos(A + B) = \cos A \cos B - \sin A \sin B$$
+
+_Proof._ From the $(1, 1)$ entry of the matrix product above:
+
+$$\cos A \cos B - \sin A \sin B = \cos(A + B) \quad \blacksquare$$
+
+### 3.3 Tangent of a Sum
+
+**Theorem.**
+
+$$\tan(A + B) = \frac◆LB◆\tan A + \tan B◆RB◆◆LB◆1 - \tan A \tan B◆RB◆$$
+
+_Proof._
+
+$$
+\begin{aligned}
+\tan(A + B) &= \frac◆LB◆\sin(A + B)◆RB◆◆LB◆\cos(A + B)◆RB◆ \\
+&= \frac◆LB◆\sin A \cos B + \cos A \sin B◆RB◆◆LB◆\cos A \cos B - \sin A \sin B◆RB◆
+\end{aligned}
+$$
+
+Divide numerator and denominator by $\cos A \cos B$:
+
+$$= \frac◆LB◆\tan A + \tan B◆RB◆◆LB◆1 - \tan A \tan B◆RB◆ \quad \blacksquare$$
+
+### 3.4 Difference Formulas
+
+**Theorem.**
+
+$$
+\begin{aligned}
+\sin(A - B) &= \sin A \cos B - \cos A \sin B \\
+\cos(A - B) &= \cos A \cos B + \sin A \sin B \\
+\tan(A - B) &= \frac◆LB◆\tan A - \tan B◆RB◆◆LB◆1 + \tan A \tan B◆RB◆
+\end{aligned}
+$$
+
+_Proof._ Replace $B$ with $-B$ in the sum formulas, using $\sin(-B) = -\sin B$ and
+$\cos(-B) = \cos B$. $\blacksquare$
+
+<hr />
+
+## 4. Double Angle Formulas
+
+Setting $A = B$ in the compound angle formulas:
+
+$$
+\begin{aligned}
+\sin 2A &= 2\sin A \cos A \\
+\cos 2A &= \cos^2 A - \sin^2 A \\
+\tan 2A &= \frac◆LB◆2\tan A◆RB◆◆LB◆1 - \tan^2 A◆RB◆
+\end{aligned}
+$$
+
+**Theorem.** Three equivalent forms of $\cos 2A$:
+
+$$\cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A$$
+
+_Proof._ Using $\sin^2 A = 1 - \cos^2 A$:
+
+$\cos^2 A - \sin^2 A = \cos^2 A - (1 - \cos^2 A) = 2\cos^2 A - 1$
+
+Using $\cos^2 A = 1 - \sin^2 A$:
+
+$\cos^2 A - \sin^2 A = (1 - \sin^2 A) - \sin^2 A = 1 - 2\sin^2 A$ $\blacksquare$
+
+_Intuition._ The double angle formulas express functions of $2A$ purely in terms of functions of
+$A$. They are the algebraic backbone of many trigonometric manipulations and are essential for
+Integration.
+
+<hr />
+
+## 5. Solving Trigonometric Equations
+
+### 5.1 Basic Strategy
+
+1. Use identities to reduce to a single trigonometric function.
+2. Solve the resulting equation.
+3. Find all solutions in the required interval.
+
+### 5.2 Key Solutions
+
+$$
+\begin{aligned}
+\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm{ or } \pi - \arcsin(a) + 2n\pi \\
+\cos\theta = a &\implies \theta = \pm\arccos(a) + 2n\pi \\
+\tan\theta = a &\implies \theta = \arctan(a) + n\pi
+\end{aligned}
+$$
+
+<details>
+<summary>Example</summary>
+Solve $2\sin^2\theta + 3\cos\theta - 3 = 0$ for $0 \leq \theta < 2\pi$.
+
+Using $\sin^2\theta = 1 - \cos^2\theta$:
+
+$$2(1 - \cos^2\theta) + 3\cos\theta - 3 = 0$$
+
+$$-2\cos^2\theta + 3\cos\theta - 1 = 0$$
+
+$$2\cos^2\theta - 3\cos\theta + 1 = 0$$
+
+$$(2\cos\theta - 1)(\cos\theta - 1) = 0$$
+
+$\cos\theta = \frac{1}{2} \implies \theta = \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆$ or
+$\frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.
+
+$\cos\theta = 1 \implies \theta = 0$.
+
+Solutions: $\theta = 0, \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆, \frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.
+
+</details>
+
+<hr />
+
+## 6. Small Angle Approximations
+
+**Theorem.** For small $\theta$ (in radians):
+
+$$
+\begin{aligned}
+\sin\theta &\approx \theta - \frac◆LB◆\theta^3◆RB◆◆LB◆6◆RB◆ \\
+\cos\theta &\approx 1 - \frac◆LB◆\theta^2◆RB◆◆LB◆2◆RB◆ \\
+\tan\theta &\approx \theta + \frac◆LB◆\theta^3◆RB◆◆LB◆3◆RB◆
+\end{aligned}
+$$
+
+These follow from the Maclaurin series expansions (see [Differentiation](./10-differentiation.md)).
+
+For the linear approximations (when $\theta$ is very small):
+
+$$\sin\theta \approx \theta, \quad \cos\theta \approx 1, \quad \tan\theta \approx \theta$$
+
+_Intuition._ Near the origin, the curves $y = \sin\theta$ and $y = \tan\theta$ are almost
+Indistinguishable from the line $y = \theta$. The curve $y = \cos\theta$ is nearly flat at $y = 1$.
+
+:::warning The small angle approximations are only valid when $\theta$ is in **radians**, not
+Degrees. This is a very common exam error.
+:::
+
+<hr />
+
+## 7. Half-Angle Formulas
+
+**Theorem.** For all $\theta$:
+
+$$\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 - \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆$$
+
+$$\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 + \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆$$
+
+$$\tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆\sin\theta◆RB◆◆LB◆1 + \cos\theta◆RB◆ = \frac◆LB◆1 - \cos\theta◆RB◆◆LB◆\sin\theta◆RB◆$$
+
+### 7.1 Derivation
+
+Starting from $\cos 2A = 1 - 2\sin^2 A$ and substituting $A = \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$:
+
+$$\cos\theta = 1 - 2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$$
+
+$$2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = 1 - \cos\theta$$
+
+$$\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 - \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆ \quad \blacksquare$$
+
+Similarly, from $\cos 2A = 2\cos^2 A - 1$:
+
+$$\cos\theta = 2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ - 1$$
+
+$$2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = 1 + \cos\theta$$
+
+$$\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \pm\sqrt◆LB◆\frac◆LB◆1 + \cos\theta◆RB◆◆LB◆2◆RB◆◆RB◆ \quad \blacksquare$$
+
+### 7.2 Tangent Half-Angle Formulas
+
+The tangent half-angle formulas avoid the ambiguity of the $\pm$ sign:
+
+$$\tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆\sin\theta◆RB◆◆LB◆1 + \cos\theta◆RB◆$$
+
+_Proof._ Using the double angle formulas:
+
+$$\frac◆LB◆\sin\theta◆RB◆◆LB◆1 + \cos\theta◆RB◆ = \frac◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆1 + (2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ - 1)◆RB◆ = \frac◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆2\cos^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \frac◆LB◆\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \quad \blacksquare$$
+
+Similarly:
+
+$$\tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆1 - \cos\theta◆RB◆◆LB◆\sin\theta◆RB◆$$
+
+_Proof._
+$\frac◆LB◆1 - \cos\theta◆RB◆◆LB◆\sin\theta◆RB◆ = \frac◆LB◆1 - (1 - 2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆)◆RB◆◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \frac◆LB◆2\sin^2\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆2\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \frac◆LB◆\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆◆LB◆\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆◆RB◆ = \tan\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \quad \blacksquare$
+
+### 7.3 Sign Determination
+
+The $\pm$ in the sine and cosine half-angle formulas depends on the quadrant of
+$\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ Not the quadrant of $\theta$ itself. Always determine which quadrant
+$\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ lies in Before choosing the sign.
+
+| Quadrant of $\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$                                 | $\sin\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ | $\cos\frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆$ |
+| -------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------- |
+| I: $0 \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$      | $+$                                | $+$                                |
+| II: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt \pi$   | $+$                                | $-$                                |
+| III: $\pi \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆$ | $-$                                | $-$                                |
+| IV: $\frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ \lt \frac◆LB◆\theta◆RB◆◆LB◆2◆RB◆ \lt 2\pi$ | $-$                                | $+$                                |
+
+<details>
+<summary>Worked example</summary>
+Find the exact value of $\sin\frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆$.
+
+Since $0 \lt \frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆ \lt \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ (first quadrant),
+$\sin\frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆ > 0$So we Take the positive root.
+
+$$\sin\frac◆LB◆\pi◆RB◆◆LB◆8◆RB◆ = \sqrt◆LB◆\frac◆LB◆1 - \cos\frac{\pi}{4}◆RB◆◆LB◆2◆RB◆◆RB◆ = \sqrt◆LB◆\frac◆LB◆1 - \frac{\sqrt{2}}{2}◆RB◆◆LB◆2◆RB◆◆RB◆ = \sqrt◆LB◆\frac◆LB◆2 - \sqrt{2}◆RB◆◆LB◆4◆RB◆◆RB◆ = \frac◆LB◆\sqrt◆LB◆2 - \sqrt{2}◆RB◆◆RB◆◆LB◆2◆RB◆$$
+
+</details>
+
+<hr />
+
+## 8. R-Addition Formula (Harmonic Form)
+
+**Theorem.** For real numbers $a$ and $b$:
+
+$$a\sin\theta + b\cos\theta = R\sin(\theta + \alpha)$$
+
+Where $R = \sqrt{a^2 + b^2}$ and $\tan\alpha = \dfrac{b}{a}$.
+
+### 8.1 Cosine Form
+
+Alternatively, the same expression can be written as:
+
+$$a\sin\theta + b\cos\theta = R\cos(\theta - \beta)$$
+
+Where $R = \sqrt{a^2 + b^2}$ and $\tan\beta = \dfrac{a}{b}$.
+
+Both forms are equivalent; the choice between them is a matter of convenience depending on whether a
+Sine or cosine expansion is more natural for the problem at hand.
+
+### 8.2 Derivation
+
+Expand the right-hand side of the sine form:
+
+$$R\sin(\theta + \alpha) = R\sin\theta\cos\alpha + R\cos\theta\sin\alpha$$
+
+Equating coefficients with $a\sin\theta + b\cos\theta$:
+
+$$R\cos\alpha = a, \qquad R\sin\alpha = b$$
+
+Squaring and adding: $R^2\cos^2\alpha + R^2\sin^2\alpha = a^2 + b^2$So $R^2 = a^2 + b^2$ and
+$R = \sqrt{a^2 + b^2}$.
+
+Dividing the second equation by the first: $\tan\alpha = \dfrac{b}{a}$. $\blacksquare$
+
+The cosine form is derived similarly by expanding
+$R\cos(\theta - \beta) = R\cos\theta\cos\beta + R\sin\theta\sin\beta$ and equating coefficients.
+
+### 8.3 Applications: Maximum and Minimum
+
+Since $-1 \leq \sin(\theta + \alpha) \leq 1$:
+
+$$-R \leq a\sin\theta + b\cos\theta \leq R$$
+
+- **Maximum** $= R = \sqrt{a^2 + b^2}$Occurring when
+  $\theta + \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$.
+- **Minimum** $= -R$Occurring when $\theta + \alpha = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$.
+
+<details>
+<summary>Example: Finding maximum and minimum</summary>
+Find the maximum and minimum values of $3\sin\theta - 4\cos\theta$ and the values of $\theta$ at
+Which they occur, for $0 \leq \theta \lt 2\pi$.
+
+$R = \sqrt{9 + 16} = 5$.
+
+Here $a = 3$ and $b = -4$. Writing $3\sin\theta - 4\cos\theta = 5\sin(\theta + \alpha)$ where
+$\tan\alpha = \dfrac{-4}{3}$So $\alpha = -\arctan\dfrac{4}{3}$.
+
+Maximum $= 5$ when $\theta + \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$:
+
+$$\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + \arctan\frac{4}{3} \approx 2.214 \mathrm{ rad}$$
+
+Minimum $= -5$ when $\theta + \alpha = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆$:
+
+$$\theta = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ - \alpha = \frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆ + \arctan\frac{4}{3} \approx 5.356 \mathrm{ rad}$$
+
+</details>
+
+### 8.4 Solving Equations
+
+The R-addition formula converts $a\sin\theta + b\cos\theta = k$ into $R\sin(\theta + \alpha) = k$A
+Standard trigonometric equation.
+
+<details>
+<summary>Example: Solving an equation</summary>
+Solve $\sin\theta + \cos\theta = 1$ for $0 \leq \theta \lt 2\pi$.
+
+$R = \sqrt{1 + 1} = \sqrt{2}$, $\alpha = \arctan 1 = \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$.
+
+$$\sqrt{2}\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = 1$$
+
+$$\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = \frac◆LB◆1◆RB◆◆LB◆\sqrt{2}◆RB◆ = \sin\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$$
+
+$$\theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ = \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ + 2n\pi \quad \mathrm{or} \quad \theta + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ = \frac◆LB◆3\pi◆RB◆◆LB◆4◆RB◆ + 2n\pi$$
+
+$$\theta = 2n\pi \quad \mathrm{or} \quad \theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$$
+
+For $0 \leq \theta \lt 2\pi$: $\theta = 0$ or $\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+</details>
+
+<hr />
+
+## 9. Trigonometric Identities: Proof Strategies
+
+Proving trigonometric identities is a core exam skill. The following strategies cover the most
+Common approaches.
+
+### 9.1 Strategy 1: Work with One Side
+
+Start from the more complicated side and simplify it until it matches the simpler side. This avoids
+The logical error of assuming what you are trying to prove.
+
+### 9.2 Strategy 2: Express Everything in Sine and Cosine
+
+Replace $\tan$, $\sec$, $\csc$, $\cot$ with their definitions in terms of $\sin$ and $\cos$:
+$\tan\theta = \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆$,
+$\sec\theta = \frac◆LB◆1◆RB◆◆LB◆\cos\theta◆RB◆$Etc.
+
+### 9.3 Strategy 3: Use Known Identities
+
+Apply the Pythagorean identity, compound angle, or double angle formulas to create simplifications.
+
+### 9.4 Strategy 4: Multiply by the Conjugate
+
+When you see expressions of the form $a \pm b$ in a denominator or numerator, multiply top and
+Bottom by the conjugate $a \mp b$ to produce a difference of squares.
+
+<details>
+<summary>Example 1: Strategy 2 (express in sin and cos)</summary>
+Prove that $\cot A + \tan A = \dfrac◆LB◆2◆RB◆◆LB◆\sin 2A◆RB◆$.
+
+$$
+\begin{aligned}
+\cot A + \tan A &= \frac◆LB◆\cos A◆RB◆◆LB◆\sin A◆RB◆ + \frac◆LB◆\sin A◆RB◆◆LB◆\cos A◆RB◆ \\
+&= \frac◆LB◆\cos^2 A + \sin^2 A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\
+&= \frac◆LB◆1◆RB◆◆LB◆\sin A \cos A◆RB◆ \\
+&= \frac◆LB◆2◆RB◆◆LB◆2\sin A \cos A◆RB◆ = \frac◆LB◆2◆RB◆◆LB◆\sin 2A◆RB◆ \quad \blacksquare
+\end{aligned}
+$$
+
+</details>
+
+<details>
+<summary>Example 2: Strategy 3 (use known identities)</summary>
+Prove that $\sin 3A = 3\sin A - 4\sin^3 A$.
+
+$$
+\begin{aligned}
+\sin 3A &= \sin(2A + A) \\
+&= \sin 2A \cos A + \cos 2A \sin A \\
+&= 2\sin A \cos^2 A + (1 - 2\sin^2 A)\sin A \\
+&= 2\sin A(1 - \sin^2 A) + \sin A - 2\sin^3 A \\
+&= 2\sin A - 2\sin^3 A + \sin A - 2\sin^3 A \\
+&= 3\sin A - 4\sin^3 A \quad \blacksquare
+\end{aligned}
+$$
+
+</details>
+
+<details>
+<summary>Example 3: Strategy 4 (multiply by conjugate)</summary>
+Prove that $\dfrac◆LB◆1◆RB◆◆LB◆\sec A + \tan A◆RB◆ = \sec A - \tan A$.
+
+Multiply numerator and denominator by $\sec A - \tan A$:
+
+$$
+\begin{aligned}
+\frac◆LB◆1◆RB◆◆LB◆\sec A + \tan A◆RB◆ \cdot \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆\sec A - \tan A◆RB◆
+&= \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆\sec^2 A - \tan^2 A◆RB◆ \\
+&= \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆1 + \tan^2 A - \tan^2 A◆RB◆ \\
+&= \frac◆LB◆\sec A - \tan A◆RB◆◆LB◆1◆RB◆ \\
+&= \sec A - \tan A \quad \blacksquare
+\end{aligned}
+$$
+
+Where we used $\sec^2 A = 1 + \tan^2 A$ so that $\sec^2 A - \tan^2 A = 1$.
+
+</details>
+
+<details>
+<summary>Example 4: Strategy 1 (work with one side)</summary>
+Prove that $\dfrac◆LB◆\cos 2A◆RB◆◆LB◆1 + \sin 2A◆RB◆ = \dfrac◆LB◆\cos A - \sin A◆RB◆◆LB◆\cos A + \sin A◆RB◆$.
+
+Working from the LHS:
+
+$$
+\begin{aligned}
+\frac◆LB◆\cos 2A◆RB◆◆LB◆1 + \sin 2A◆RB◆
+&= \frac◆LB◆\cos^2 A - \sin^2 A◆RB◆◆LB◆1 + 2\sin A \cos A◆RB◆ \\
+&= \frac◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆◆LB◆\cos^2 A + 2\sin A\cos A + \sin^2 A◆RB◆ \\
+&= \frac◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆◆LB◆(\cos A + \sin A)^2◆RB◆ \\
+&= \frac◆LB◆\cos A - \sin A◆RB◆◆LB◆\cos A + \sin A◆RB◆ \quad \blacksquare
+\end{aligned}
+$$
+
+</details>
+
+<hr />
+
+## 10. Trigonometric Graphs
+
+### 10.1 Key Features
+
+| Function | Period | Amplitude | Domain                                    | Range        |
+| -------- | ------ | --------- | ----------------------------------------- | ------------ |
+| $\sin x$ | $2\pi$ | $1$       | $\mathbb{R}$                              | $[-1, 1]$    |
+| $\cos x$ | $2\pi$ | $1$       | $\mathbb{R}$                              | $[-1, 1]$    |
+| $\tan x$ | $\pi$  | undefined | $x \neq \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + n\pi$ | $\mathbb{R}$ |
+
+**Key values of $\sin$ and $\cos$:**
+
+| Angle  | $0$ | $\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$      | $\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$      | $\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆$      | $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ | $\pi$ | $\frac◆LB◆3\pi◆RB◆◆LB◆2◆RB◆$ | $2\pi$ |
+| ------ | --- | -------------------------------- | -------------------------------- | -------------------------------- | --------------------------- | ----- | ---------------------------- | ------ |
+| $\sin$ | $0$ | $\frac{1}{2}$                    | $\frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆$ | $\frac◆LB◆\sqrt{3}◆RB◆◆LB◆2◆RB◆$ | $1$                         | $0$   | $-1$                         | $0$    |
+| $\cos$ | $1$ | $\frac◆LB◆\sqrt{3}◆RB◆◆LB◆2◆RB◆$ | $\frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆$ | $\frac{1}{2}$                    | $0$                         | $-1$  | $0$                          | $1$    |
+
+### 10.2 Transformations
+
+For the general form $y = A\sin(Bx + C) + D$ (and similarly for $\cos$):
+
+- $|A|$ is the **amplitude** (vertical stretch from the midline)
+- The **period** is $\dfrac◆LB◆2\pi◆RB◆◆LB◆|B|◆RB◆$
+- The **phase shift** is $-\dfrac{C}{B}$ (horizontal shift)
+- $D$ is the **vertical shift** (midline is $y = D$)
+
+For $\tan$The period is $\dfrac◆LB◆\pi◆RB◆◆LB◆|B|◆RB◆$ and amplitude is not defined.
+
+<DesmosGraph title="y = A sin(Bx + C) + D" expressions={["A\sin(Bx+C)+D", "A\cos(Bx+C)+D"]}
+width={800} height={500} /> Use the sliders to adjust the amplitude, period, phase shift, and
+Vertical translation of the trigonometric functions. Observe how each parameter affects the graph of
+$y = A\sin(Bx + C) + D$. <details> <summary>Worked example</summary> Describe the key features of
+$y = 2\sin\!\left(2x - \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right)$ for $0 \leq x \leq 2\pi$. **Amplitude:**
+$|A| = 2$So the range is $[-2, 2]$. **Period:**
+$\dfrac◆LB◆2\pi◆RB◆◆LB◆|B|◆RB◆ = \dfrac◆LB◆2\pi◆RB◆◆LB◆2◆RB◆ = \pi$. **Phase shift:**
+$-\dfrac{C}{B} = -\dfrac◆LB◆-\pi/3◆RB◆◆LB◆2◆RB◆ = \dfrac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$ (shift right by
+$\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$). **Key points.** The first cycle begins at
+$x = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$ (where the curve crosses the midline Upward). Subsequent key points
+within $[0, 2\pi]$: - Maximum at $x = \frac◆LB◆5\pi◆RB◆◆LB◆12◆RB◆$ (value $2$) - Midline crossing
+(down) at $x = \frac◆LB◆2\pi◆RB◆◆LB◆3◆RB◆$ - Minimum at $x = \frac◆LB◆11\pi◆RB◆◆LB◆12◆RB◆$ (value
+$-2$) - Midline crossing (up) at $x = \frac◆LB◆7\pi◆RB◆◆LB◆6◆RB◆$ Since the period is $\pi$The
+second cycle repeats with all $x$-values shifted by $\pi$: - Maximum at
+$x = \frac◆LB◆17\pi◆RB◆◆LB◆12◆RB◆$ (value $2$) - Minimum at $x = \frac◆LB◆23\pi◆RB◆◆LB◆12◆RB◆$
+(value $-2$) **$y$-intercept:**
+$y = 2\sin\!\left(-\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) = -\sqrt{3} \approx -1.73$. </details> <hr />
+
+## 11. Problem Set
+
+**Problem 1.** Prove that $\frac◆LB◆\sin 2\theta◆RB◆◆LB◆1 + \cos 2\theta◆RB◆ = \tan\theta$.
+
+<details>
+<summary>Solution</summary>
+$$
+\begin{aligned}
+\frac◆LB◆\sin 2\theta◆RB◆◆LB◆1 + \cos 2\theta◆RB◆ &= \frac◆LB◆2\sin\theta\cos\theta◆RB◆◆LB◆1 + (2\cos^2\theta - 1)◆RB◆ \\
+&= \frac◆LB◆2\sin\theta\cos\theta◆RB◆◆LB◆2\cos^2\theta◆RB◆ \\
+&= \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆ = \tan\theta \quad \blacksquare
+\end{aligned}
+$$
+</details>
+<b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
+
+<hr />
+
+**Problem 2.** Solve $\sin 2x = \sin x$ for $0 \leq x < 2\pi$.
+
+<details>
+<summary>Solution</summary>
+$$2\sin x\cos x = \sin x$$
+
+$$\sin x(2\cos x - 1) = 0$$
+
+$\sin x = 0 \implies x = 0, \pi$.
+
+$2\cos x - 1 = 0 \implies \cos x = \frac{1}{2} \implies x = \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆, \frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.
+
+Solutions: $x = 0, \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆, \pi, \frac◆LB◆5\pi◆RB◆◆LB◆3◆RB◆$.
+
+</details>
+<b>If you get this wrong, revise:</b> [Solving trig equations](#5-solving-trigonometric-equations)
+
+<hr />
+
+**Problem 3.** Express $4\sin\theta - 3\cos\theta$ in the form $R\sin(\theta - \alpha)$Where $R > 0$
+and $0 < \alpha < \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+<details>
+<summary>Solution</summary>
+$R\sin(\theta - \alpha) = R(\sin\theta\cos\alpha - \cos\theta\sin\alpha) = R\cos\alpha\sin\theta - R\sin\alpha\cos\theta$.
+
+Comparing coefficients: $R\cos\alpha = 4$ and $R\sin\alpha = 3$.
+
+$$R^2 = 4^2 + 3^2 = 25 \implies R = 5$$
+
+$$\tan\alpha = \frac{3}{4} \implies \alpha = \arctan\left(\frac{3}{4}\right) \approx 0.6435 \mathrm{ rad}$$
+
+$$4\sin\theta - 3\cos\theta = 5\sin(\theta - 0.6435)$$
+
+</details>
+<b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)
+
+<hr />
+
+**Problem 4.** Find the exact value of $\sin 75^\circ$.
+
+<details>
+<summary>Solution</summary>
+$$\sin 75° = \sin(45° + 30°) = \sin 45°\cos 30° + \cos 45°\sin 30^\circ$$
+
+$$= \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆ \cdot \frac◆LB◆\sqrt{3}◆RB◆◆LB◆2◆RB◆ + \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆ \cdot \frac{1}{2} = \frac◆LB◆\sqrt{6} + \sqrt{2}◆RB◆◆LB◆4◆RB◆$$
+
+</details>
+<b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)
+
+<hr />
+
+**Problem 5.** Prove that $\frac◆LB◆1 - \cos 2\theta◆RB◆◆LB◆\sin 2\theta◆RB◆ = \tan\theta$.
+
+<details>
+<summary>Solution</summary>
+$$
+\begin{aligned}
+\frac◆LB◆1 - \cos 2\theta◆RB◆◆LB◆\sin 2\theta◆RB◆ &= \frac◆LB◆1 - (1 - 2\sin^2\theta)◆RB◆◆LB◆2\sin\theta\cos\theta◆RB◆ \\
+&= \frac◆LB◆2\sin^2\theta◆RB◆◆LB◆2\sin\theta\cos\theta◆RB◆ \\
+&= \frac◆LB◆\sin\theta◆RB◆◆LB◆\cos\theta◆RB◆ = \tan\theta \quad \blacksquare
+\end{aligned}
+$$
+</details>
+<b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
+
+<hr />
+
+**Problem 6.** A sector of a circle of radius 8 cm has an angle of 1.2 radians. Find the arc length
+And the area of the sector.
+
+<details>
+<summary>Solution</summary>
+Arc length: $s = r\theta = 8 \times 1.2 = 9.6$ cm.
+
+Area: $A = \frac{1}{2}r^2\theta = \frac{1}{2}(64)(1.2) = 38.4$ cm².
+
+</details>
+<b>If you get this wrong, revise:</b> [Radian measure](#11-radian-measure)
+
+<hr />
+
+**Problem 7.** Solve $3\cos^2 x + 2\sin x - 2 = 0$ for $-\pi \leq x \leq \pi$.
+
+<details>
+<summary>Solution</summary>
+$3(1 - \sin^2 x) + 2\sin x - 2 = 0$
+
+$3 - 3\sin^2 x + 2\sin x - 2 = 0$
+
+$-3\sin^2 x + 2\sin x + 1 = 0$
+
+$3\sin^2 x - 2\sin x - 1 = 0$
+
+$(3\sin x + 1)(\sin x - 1) = 0$
+
+$\sin x = -\frac{1}{3} \implies x = \arcsin(-\frac{1}{3}) \approx -0.3398$ or
+$x = -\pi - \arcsin(-\frac{1}{3}) = -\pi + 0.3398 \approx -2.802$ (since $3.481 > \pi$Subtract
+$2\pi$ to stay in $[-\pi, \pi]$).
+
+$\sin x = 1 \implies x = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+Solutions: $x \approx -2.802, -0.340, \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+</details>
+<b>If you get this wrong, revise:</b> [Solving trig equations](#5-solving-trigonometric-equations)
+
+<hr />
+
+**Problem 8.** Use small angle approximations to estimate $\frac◆LB◆\sin 0.05◆RB◆◆LB◆\cos 0.05◆RB◆$.
+
+<details>
+<summary>Solution</summary>
+$\sin 0.05 \approx 0.05$
+
+$\cos 0.05 \approx 1 - \frac{0.05^2}{2} = 1 - 0.00125 = 0.99875$
+
+$$\frac◆LB◆\sin 0.05◆RB◆◆LB◆\cos 0.05◆RB◆ \approx \frac{0.05}{0.99875} \approx 0.05006$$
+
+(Alternatively, $\tan 0.05 \approx 0.05$ directly.)
+
+</details>
+<b>If you get this wrong, revise:</b> [Small angle approximations](#6-small-angle-approximations)
+
+<hr />
+
+**Problem 9.** Prove that
+$\dfrac◆LB◆1 + \sin 2A◆RB◆◆LB◆\cos 2A◆RB◆ = \tan\!\left(A + \dfrac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right)$.
+
+<details>
+<summary>Solution</summary>
+Working from the LHS:
+
+$$
+\begin{aligned}
+\frac◆LB◆1 + \sin 2A◆RB◆◆LB◆\cos 2A◆RB◆
+&= \frac◆LB◆1 + 2\sin A \cos A◆RB◆◆LB◆\cos^2 A - \sin^2 A◆RB◆ \\
+&= \frac◆LB◆\sin^2 A + 2\sin A \cos A + \cos^2 A◆RB◆◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆ \\
+&= \frac◆LB◆(\sin A + \cos A)^2◆RB◆◆LB◆(\cos A - \sin A)(\cos A + \sin A)◆RB◆ \\
+&= \frac◆LB◆\sin A + \cos A◆RB◆◆LB◆\cos A - \sin A◆RB◆
+\end{aligned}
+$$
+
+Dividing numerator and denominator by $\cos A$:
+
+$$= \frac◆LB◆\tan A + 1◆RB◆◆LB◆1 - \tan A◆RB◆$$
+
+From the tangent compound angle formula:
+
+$$\tan\!\left(A + \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = \frac◆LB◆\tan A + \tan\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆◆RB◆◆LB◆1 - \tan A \tan\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆◆RB◆ = \frac◆LB◆\tan A + 1◆RB◆◆LB◆1 - \tan A◆RB◆ \quad \blacksquare$$
+
+</details>
+<b>If you get this wrong, revise:</b> [Compound angle formulas](#3-compound-angle-formulas)
+
+<hr />
+
+**Problem 10.** The area of a sector is $20\mathrm{ cm}^2$ and the arc length is $10\mathrm{ cm}$.
+Find the radius and the angle.
+
+<details>
+<summary>Solution</summary>
+$$s = r\theta = 10 \implies \theta = \frac{10}{r}$$
+
+$$A = \frac{1}{2}r^2\theta = \frac{1}{2}r^2 \cdot \frac{10}{r} = 5r = 20 \implies r = 4$$
+
+$$\theta = \frac{10}{4} = 2.5 \mathrm{ radians}$$
+
+</details>
+<b>If you get this wrong, revise:</b> [Radian measure](#11-radian-measure)
+
+<hr />
+
+**Problem 11.** Find the exact value of $\cos\dfrac◆LB◆\pi◆RB◆◆LB◆12◆RB◆$ using a half-angle
+formula.
+
+<details>
+<summary>Solution</summary>
+$\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ = \cos\frac◆LB◆\pi/6◆RB◆◆LB◆2◆RB◆$So we apply the half-angle formula with $\theta = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆$.
+
+Since $0 \lt \frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ \lt \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ (first quadrant),
+$\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ > 0$.
+
+$$
+\begin{aligned}
+\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ &= \sqrt◆LB◆\frac◆LB◆1 + \cos\frac{\pi}{6}◆RB◆◆LB◆2◆RB◆◆RB◆ \\
+&= \sqrt◆LB◆\frac◆LB◆1 + \frac{\sqrt{3}}{2}◆RB◆◆LB◆2◆RB◆◆RB◆ \\
+&= \sqrt◆LB◆\frac◆LB◆2 + \sqrt{3}◆RB◆◆LB◆4◆RB◆◆RB◆ \\
+&= \frac◆LB◆\sqrt◆LB◆2 + \sqrt{3}◆RB◆◆RB◆◆LB◆2◆RB◆
+\end{aligned}
+$$
+
+This can also be verified using the compound angle formula:
+$\cos\frac◆LB◆\pi◆RB◆◆LB◆12◆RB◆ = \cos\!\left(\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆\right) = \cos\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\cos\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ + \sin\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\sin\frac◆LB◆\pi◆RB◆◆LB◆4◆RB◆ = \frac◆LB◆\sqrt{6} + \sqrt{2}◆RB◆◆LB◆4◆RB◆$
+And one can check that
+$\dfrac◆LB◆\sqrt◆LB◆2+\sqrt{3}◆RB◆◆RB◆◆LB◆2◆RB◆ = \dfrac◆LB◆\sqrt{6}+\sqrt{2}◆RB◆◆LB◆4◆RB◆$.
+
+</details>
+<b>If you get this wrong, revise:</b> [Half-angle formulas](#7-half-angle-formulas)
+
+<hr />
+
+**Problem 12.** Find the maximum value of $2\sin\theta + 5\cos\theta$ and the smallest positive
+Value of $\theta$ at which it occurs.
+
+<details>
+<summary>Solution</summary>
+$R = \sqrt{4 + 25} = \sqrt{29}$.
+
+The maximum value is $R = \sqrt{29}$.
+
+Writing $2\sin\theta + 5\cos\theta = \sqrt{29}\sin(\theta + \alpha)$ where
+$\tan\alpha = \dfrac{5}{2}$.
+
+The maximum occurs when $\sin(\theta + \alpha) = 1$I.e.,
+$\theta + \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+$$\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - \alpha = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - \arctan\frac{5}{2} \approx 0.3805 \mathrm{ rad}$$
+
+Since $\arctan\frac{5}{2} \approx 1.1903 < \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$This $\theta$ is positive and
+is the Smallest positive value.
+
+</details>
+<b>If you get this wrong, revise:</b> [R-addition formula](#8-r-addition-formula-harmonic-form)
+
+<hr />
+
+**Problem 13.** Prove that
+$\dfrac◆LB◆\sin 3A◆RB◆◆LB◆\sin A◆RB◆ - \dfrac◆LB◆\cos 3A◆RB◆◆LB◆\cos A◆RB◆ = 2$.
+
+<details>
+<summary>Solution</summary>
+$$
+\begin{aligned}
+\frac◆LB◆\sin 3A◆RB◆◆LB◆\sin A◆RB◆ - \frac◆LB◆\cos 3A◆RB◆◆LB◆\cos A◆RB◆
+&= \frac◆LB◆\sin 3A \cos A - \cos 3A \sin A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\
+&= \frac◆LB◆\sin(3A - A)◆RB◆◆LB◆\sin A \cos A◆RB◆ \\
+&= \frac◆LB◆\sin 2A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\
+&= \frac◆LB◆2\sin A \cos A◆RB◆◆LB◆\sin A \cos A◆RB◆ \\
+&= 2 \quad \blacksquare
+\end{aligned}
+$$
+
+</details>
+<b>If you get this wrong, revise:</b> [Proof strategies](#9-trigonometric-identities-proof-strategies)
+
+<hr />
+
+**Problem 14.** Solve $\sin\theta + \sqrt{3}\cos\theta = 1$ for $0 \leq \theta \lt 2\pi$.
+
+<details>
+<summary>Solution</summary>
+$R = \sqrt{1 + 3} = 2$, $\alpha = \arctan\sqrt{3} = \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆$.
+
+$$2\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) = 1$$
+
+$$\sin\!\left(\theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) = \frac{1}{2}$$
+
+$$\theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ + 2n\pi \quad \mathrm{or} \quad \theta + \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ = \frac◆LB◆5\pi◆RB◆◆LB◆6◆RB◆ + 2n\pi$$
+
+Case 1:
+$\theta = \frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2n\pi = -\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ + 2n\pi$.
+
+For $n = 1$: $\theta = -\frac◆LB◆\pi◆RB◆◆LB◆6◆RB◆ + 2\pi = \frac◆LB◆11\pi◆RB◆◆LB◆6◆RB◆$.
+
+Case 2:
+$\theta = \frac◆LB◆5\pi◆RB◆◆LB◆6◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2n\pi = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 2n\pi$.
+
+For $n = 0$: $\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+Solutions: $\theta = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$ or $\theta = \frac◆LB◆11\pi◆RB◆◆LB◆6◆RB◆$.
+
+</details>
+<b>If you get this wrong, revise:</b> [R-addition formula](#8-r-addition-formula-harmonic-form)
+
+<hr />
+
+**Problem 15.** Prove that $\dfrac◆LB◆1 - \tan^2 A◆RB◆◆LB◆1 + \tan^2 A◆RB◆ = \cos 2A$.
+
+<details>
+<summary>Solution</summary>
+Using $\sec^2 A = 1 + \tan^2 A$:
+
+$$
+\begin{aligned}
+\frac◆LB◆1 - \tan^2 A◆RB◆◆LB◆1 + \tan^2 A◆RB◆
+&= \frac◆LB◆1 - \tan^2 A◆RB◆◆LB◆\sec^2 A◆RB◆ \\
+&= (1 - \tan^2 A)\cos^2 A \\
+&= \cos^2 A - \tan^2 A \cos^2 A \\
+&= \cos^2 A - \frac◆LB◆\sin^2 A◆RB◆◆LB◆\cos^2 A◆RB◆ \cdot \cos^2 A \\
+&= \cos^2 A - \sin^2 A \\
+&= \cos 2A \quad \blacksquare
+\end{aligned}
+$$
+
+</details>
+<b>If you get this wrong, revise:</b> [Proof strategies](#9-trigonometric-identities-proof-strategies)
+
+---
+
+:::tip Tip Ready to test your understanding of **Trigonometry**? The contains the hardest questions
+within the A-Level specification for this topic, each with a full worked solution.
+
+**Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
+Trigonometry with other pure mathematics topics to test synthesis under exam conditions.
+
+See for instructions on self-marking and
+building a personal test matrix.
+
+## Common Pitfalls
+
+1. Rounding too early in multi-step calculations — carry full precision through and round only the
+   final answer.
+
+2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
+   cannot be zero).
+
+3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
+   conditions in definite integrals.
+
+4. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+
+## Summary
+
+The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
+the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
+each approach.
+
+## Worked Examples
+
+Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
+linked above.
+
+:::

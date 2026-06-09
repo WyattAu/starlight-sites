@@ -1,43 +1,43 @@
----''
-title: 'AP Statistics Diagnostic Test'''
-description:''
-  'AP Statistics diagnostic test covering exploring data, probability, sampling, inference, and''
-  regression for exam preparation.'''
-tags:''
-  - ap''
-  - ap-statistics''
----''
-''
-import DiagnosticTest from '@components/DiagnosticTest';''
-import { questions } from './diagnostic-test-data';''
-''
-''
-## AP Statistics Diagnostic Test''
-''
-This diagnostic test covers the full AP Statistics syllabus. There are 20 questions spanning 4 core''
-topics. The test uses adaptive difficulty, selecting questions based on your performance to target''
-areas of weakness.''
-''
-**Recommended time:** 30 minutes. The test presents up to 15 questions drawn from the pool,''
-adaptively ordered by your answers.''
-''
----''
-''
-## How the Diagnostic Scoring Works''
-''
-After completing the test, you receive a results breakdown:''
-''
-- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber''
-  (moderate, 50-79%), or red (weak, below 50%).''
-- **Strengths** -- topics where you scored 80% or above.''
-- **Needs Improvement** -- topics where you scored below 50%.''
-- **Recommended Study Topics** -- all topics where you did not score in the strong range.''
-''
-The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use''
-the results to prioritise which topic pages to revise.''
-''
----''
-''
-export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };''
-''
-<DiagnosticTest subject="AP Statistics" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic                   | Questions | Revision Guide                                                             | | ----------------------- | --------- | -------------------------------------------------------------------------- | | Exploring Data          | 4         | [Exploring Data](/docs/qualifications/ap/statistics/1-exploring-data/)     | | Sampling and Experiment | 4         | [Sampling](/docs/qualifications/ap/statistics/2-sampling-experimentation/) | | Probability             | 4         | [Probability](/docs/qualifications/ap/statistics/3-probability/)           | | Statistical Inference   | 4         | [Inference](/docs/qualifications/ap/statistics/4-statistical-inference/)   | | Regression Analysis     | 4         | [Regression](/docs/qualifications/ap/statistics/5-regression/)             |''
+---
+title: 'AP Statistics Diagnostic Test'
+description:
+  'AP Statistics diagnostic test covering exploring data, probability, sampling, inference, and
+  regression for exam preparation.'
+tags:
+  - ap
+  - ap-statistics
+---
+
+import DiagnosticTest from '@components/DiagnosticTest';
+import { questions } from './diagnostic-test-data';
+
+
+## AP Statistics Diagnostic Test
+
+This diagnostic test covers the full AP Statistics syllabus. There are 20 questions spanning 4 core
+topics. The test uses adaptive difficulty, selecting questions based on your performance to target
+areas of weakness.
+
+**Recommended time:** 30 minutes. The test presents up to 15 questions drawn from the pool,
+adaptively ordered by your answers.
+
+---
+
+## How the Diagnostic Scoring Works
+
+After completing the test, you receive a results breakdown:
+
+- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber
+  (moderate, 50-79%), or red (weak, below 50%).
+- **Strengths** -- topics where you scored 80% or above.
+- **Needs Improvement** -- topics where you scored below 50%.
+- **Recommended Study Topics** -- all topics where you did not score in the strong range.
+
+The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use
+the results to prioritise which topic pages to revise.
+
+---
+
+export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };
+
+<DiagnosticTest subject="AP Statistics" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic                   | Questions | Revision Guide                                                             | | ----------------------- | --------- | -------------------------------------------------------------------------- | | Exploring Data          | 4         | [Exploring Data](/docs/qualifications/ap/statistics/1-exploring-data/)     | | Sampling and Experiment | 4         | [Sampling](/docs/qualifications/ap/statistics/2-sampling-experimentation/) | | Probability             | 4         | [Probability](/docs/qualifications/ap/statistics/3-probability/)           | | Statistical Inference   | 4         | [Inference](/docs/qualifications/ap/statistics/4-statistical-inference/)   | | Regression Analysis     | 4         | [Regression](/docs/qualifications/ap/statistics/5-regression/)             |

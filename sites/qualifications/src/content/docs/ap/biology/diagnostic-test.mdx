@@ -1,43 +1,43 @@
----''
-title: 'AP Biology Diagnostic Test'''
-description:''
-  'AP Biology diagnostic test covering chemistry of life, cell structure, cellular energetics,''
-  heredity, and natural selection.'''
-tags:''
-  - ap''
-  - ap-biology''
----''
-''
-import DiagnosticTest from '@components/DiagnosticTest';''
-import { questions } from './diagnostic-test-data';''
-''
-''
-## AP Biology Diagnostic Test''
-''
-This diagnostic test covers the full AP Biology syllabus. There are 20 questions spanning 5 core''
-topics. The test uses adaptive difficulty, selecting questions based on your performance to target''
-areas of weakness.''
-''
-**Recommended time:** 30 minutes. The test presents up to 15 questions drawn from the pool,''
-adaptively ordered by your answers.''
-''
----''
-''
-## How the Diagnostic Scoring Works''
-''
-After completing the test, you receive a results breakdown:''
-''
-- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber''
-  (moderate, 50-79%), or red (weak, below 50%).''
-- **Strengths** -- topics where you scored 80% or above.''
-- **Needs Improvement** -- topics where you scored below 50%.''
-- **Recommended Study Topics** -- all topics where you did not score in the strong range.''
-''
-The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use''
-the results to prioritise which topic pages to revise.''
-''
----''
-''
-export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };''
-''
-<DiagnosticTest subject="AP Biology" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic               | Questions | Revision Guide                                                                                | | ------------------- | --------- | --------------------------------------------------------------------------------------------- | | Chemistry of Life   | 4         | [Chemistry of Life](/docs/qualifications/ap/biology/1-chemistry-of-life/)                     | | Cell Structure      | 4         | [Cell Structure and Function](/docs/qualifications/ap/biology/2-cell-structure-and-function/) | | Cellular Energetics | 4         | [Cellular Energetics](/docs/qualifications/ap/biology/3-cellular-energetics/)                 | | Heredity            | 4         | [Heredity](/docs/qualifications/ap/biology/4-heredity/)                                       | | Natural Selection   | 4         | [Natural Selection](/docs/qualifications/ap/biology/5-natural-selection/)                     |''
+---
+title: 'AP Biology Diagnostic Test'
+description:
+  'AP Biology diagnostic test covering chemistry of life, cell structure, cellular energetics,
+  heredity, and natural selection.'
+tags:
+  - ap
+  - ap-biology
+---
+
+import DiagnosticTest from '@components/DiagnosticTest';
+import { questions } from './diagnostic-test-data';
+
+
+## AP Biology Diagnostic Test
+
+This diagnostic test covers the full AP Biology syllabus. There are 20 questions spanning 5 core
+topics. The test uses adaptive difficulty, selecting questions based on your performance to target
+areas of weakness.
+
+**Recommended time:** 30 minutes. The test presents up to 15 questions drawn from the pool,
+adaptively ordered by your answers.
+
+---
+
+## How the Diagnostic Scoring Works
+
+After completing the test, you receive a results breakdown:
+
+- **Topic Breakdown** -- each topic shows your score, colour-coded green (strong, 80%+), amber
+  (moderate, 50-79%), or red (weak, below 50%).
+- **Strengths** -- topics where you scored 80% or above.
+- **Needs Improvement** -- topics where you scored below 50%.
+- **Recommended Study Topics** -- all topics where you did not score in the strong range.
+
+The adaptive engine targets weak topics first, so your weakest areas are tested more thoroughly. Use
+the results to prioritise which topic pages to revise.
+
+---
+
+export const handleComplete = (results) => { console.log('Diagnostic test completed:', results); };
+
+<DiagnosticTest subject="AP Biology" questions={questions} onComplete={handleComplete} />  ---  ## Topic Coverage  | Topic               | Questions | Revision Guide                                                                                | | ------------------- | --------- | --------------------------------------------------------------------------------------------- | | Chemistry of Life   | 4         | [Chemistry of Life](/docs/qualifications/ap/biology/1-chemistry-of-life/)                     | | Cell Structure      | 4         | [Cell Structure and Function](/docs/qualifications/ap/biology/2-cell-structure-and-function/) | | Cellular Energetics | 4         | [Cellular Energetics](/docs/qualifications/ap/biology/3-cellular-energetics/)                 | | Heredity            | 4         | [Heredity](/docs/qualifications/ap/biology/4-heredity/)                                       | | Natural Selection   | 4         | [Natural Selection](/docs/qualifications/ap/biology/5-natural-selection/)                     |
