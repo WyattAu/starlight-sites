@@ -1,9 +1,6 @@
 ---
-sidebar_label: Programming
-description: 'A-Level Computer Science Programming notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'
-sidebar_custom_props:
-  some_prop: true
----
+title: Programming
+description: 'A-Level Computer Science Programming notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'---
 
 # Programming
 

@@ -1,9 +1,6 @@
 ---
-sidebar_label: Algorithms
-description: 'A-Level Computer Science Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
-sidebar_custom_props:
-  some_prop: true
----
+title: Algorithms
+description: 'A-Level Computer Science Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'---
 
 # Algorithms
 

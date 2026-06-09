@@ -1,5 +1,5 @@
 ---
-sidebar_label: Further Statistics
+title: Further Statistics
 description: 'A-Level Further Maths Further Statistics notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.'
 ---
 

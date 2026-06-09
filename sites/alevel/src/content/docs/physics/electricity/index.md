@@ -1,5 +1,5 @@
 ---
-sidebar_label: Electricity
+title: Electricity
 description: 'A-Level Physics Electricity notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.'
 ---
 

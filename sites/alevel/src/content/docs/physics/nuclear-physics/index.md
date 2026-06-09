@@ -1,5 +1,5 @@
 ---
-sidebar_label: Nuclear & Quantum Physics
+title: Nuclear & Quantum Physics
 description: 'A-Level Nuclear & Quantum Physics notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.'
 ---
 

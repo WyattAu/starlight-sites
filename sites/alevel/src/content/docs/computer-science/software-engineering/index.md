@@ -1,9 +1,6 @@
 ---
-sidebar_label: Software Engineering
-description: 'A-Level Computer Science Software Engineering notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
-sidebar_custom_props:
-  some_prop: true
----
+title: Software Engineering
+description: 'A-Level Computer Science Software Engineering notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'---
 
 # Software Engineering
 

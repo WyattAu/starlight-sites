@@ -1,5 +1,5 @@
 ---
-sidebar_label: Practical Skills
+title: Practical Skills
 description: 'A-Level Physics Practical Skills notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'
 ---
 

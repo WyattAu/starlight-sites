@@ -1,5 +1,5 @@
 ---
-sidebar_label: Thermal Physics
+title: Thermal Physics
 description: 'A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision.'
 ---
 

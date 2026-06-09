@@ -1,5 +1,5 @@
 ---
-sidebar_label: Macroeconomics
+title: Macroeconomics
 description: 'A-Level Macroeconomics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision and exam readiness.'
 ---
 

@@ -1,9 +1,6 @@
 ---
-sidebar_label: Theory of Computation
-description: 'A-Level Computer Science Theory of Computation notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
-sidebar_custom_props:
-  some_prop: true
----
+title: Theory of Computation
+description: 'A-Level Computer Science Theory of Computation notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'---
 
 # Theory of Computation
 

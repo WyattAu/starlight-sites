@@ -379,8 +379,7 @@ id: my-page # URL path segment (overrides filename)
 title: My Page Title # Display title and h1
 description: Page summary # Meta description for SEO and search
 slug: /custom/url/path # Full URL override
-sidebar_position: 1 # Ordering within sidebar (lower = higher)
-sidebar_label: Short Name # Override display name in sidebar
+title: Short Name # Override display name in sidebar
 date: 2025-05-15T22:45:51Z
 tags:
   - tag1

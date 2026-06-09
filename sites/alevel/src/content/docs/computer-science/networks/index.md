@@ -1,9 +1,6 @@
 ---
-sidebar_label: Networks
-description: 'A-Level Computer Science Networks notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
-sidebar_custom_props:
-  some_prop: true
----
+title: Networks
+description: 'A-Level Computer Science Networks notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'---
 
 # Networks
 

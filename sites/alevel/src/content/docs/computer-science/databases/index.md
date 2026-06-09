@@ -1,9 +1,6 @@
 ---
-sidebar_label: Databases
-description: 'A-Level Computer Science Databases notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'
-sidebar_custom_props:
-  some_prop: true
----
+title: Databases
+description: 'A-Level Computer Science Databases notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'---
 
 # Databases
 

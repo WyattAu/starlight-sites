@@ -1,5 +1,5 @@
 ---
-sidebar_label: Further Mechanics
+title: Further Mechanics
 description: 'A-Level Further Maths Further Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
 ---
 

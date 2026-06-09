@@ -1,5 +1,5 @@
 ---
-sidebar_label: Microeconomics
+title: Microeconomics
 description: 'A-Level Microeconomics notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and mastery.'
 ---
 
