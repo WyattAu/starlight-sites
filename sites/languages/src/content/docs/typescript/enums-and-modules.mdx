@@ -246,7 +246,7 @@ export const PI = Math.PI;
 ### Named Imports
 
 ```ts
-import { add, Vector, PI } from './math';
+import { add, Vector, PI } from '@/data/flashcards/typescript/math.js';
 ```
 
 ### Default Exports
@@ -266,9 +266,9 @@ import Calculator from './calculator';
 ### Renaming Exports and Imports
 
 ```ts
-export { add as sum } from './math';
+export { add as sum } from '@/data/flashcards/typescript/math.js';
 
-import { Vector as Vec2D } from './math';
+import { Vector as Vec2D } from '@/data/flashcards/typescript/math.js';
 ```
 
 ### Re-exports
@@ -276,7 +276,7 @@ import { Vector as Vec2D } from './math';
 Re-exports forward exports from another module:
 
 ```ts
-export { add, subtract } from './math';
+export { add, subtract } from '@/data/flashcards/typescript/math.js';
 
 export * from './utils';
 ```
@@ -284,7 +284,7 @@ export * from './utils';
 Re-exporting with renaming:
 
 ```ts
-export { add as plus, subtract as minus } from './math';
+export { add as plus, subtract as minus } from '@/data/flashcards/typescript/math.js';
 ```
 
 ### Type-Only Imports and Exports
@@ -292,7 +292,7 @@ export { add as plus, subtract as minus } from './math';
 TypeScript 3.8+ supports type-only imports and exports, which are erased during compilation:
 
 ```ts
-import type { Vector } from './math';
+import type { Vector } from '@/data/flashcards/typescript/math.js';
 
 export type { Vector };
 ```
@@ -549,7 +549,7 @@ Files.
 A barrel file (`index.ts`) re-exports from multiple modules:
 
 ```ts
-export { add, subtract, multiply } from './math';
+export { add, subtract, multiply } from '@/data/flashcards/typescript/math.js';
 export { formatDate, parseDate } from './date';
 export { log, warn, error } from './logger';
 ```
