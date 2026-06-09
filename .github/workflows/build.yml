@@ -40,7 +40,7 @@ jobs:
       - name: Build site
         working-directory: sites/${{ matrix.site }}
         env:
-          NODE_OPTIONS: "--max-old-space-size=4096"
+          NODE_OPTIONS: "--max-old-space-size=8192"
         run: bun run build
 
       - name: Verify output
