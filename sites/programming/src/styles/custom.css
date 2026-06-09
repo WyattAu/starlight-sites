@@ -1,0 +1,114 @@
+/* WyattsNotes DSE — Starlight Custom Styles */
+
+/* === Color Theme Override === */
+:root {
+  --sl-color-accent: #ff6b35;
+  --sl-color-accent-low: #ff6b3520;
+  --sl-color-accent-high: #ff8c4a;
+  --wn-font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --wn-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+[data-theme='dark'] {
+  --sl-color-accent: #ff8c4a;
+  --sl-color-accent-low: #ff8c4a20;
+  --sl-color-accent-high: #ff6b35;
+}
+
+/* === Docusaurus→Starlight CSS variable shims for interactive components === */
+:root {
+  --ifm-color-primary: var(--sl-color-accent);
+  --ifm-color-primary-soft: var(--sl-color-accent-low);
+  --ifm-color-emphasis-100: var(--sl-color-gray-3);
+  --ifm-color-emphasis-200: var(--sl-color-gray-4);
+  --ifm-color-emphasis-300: var(--sl-color-gray-5);
+  --ifm-color-emphasis-500: var(--sl-color-gray-5);
+  --ifm-color-emphasis-600: var(--sl-color-gray-4);
+  --ifm-color-emphasis-700: var(--sl-color-gray-3);
+  --ifm-background-surface-color: var(--sl-color-gray-2);
+  --ifm-font-color-base: var(--sl-color-text);
+  --ifm-font-family-base: var(--wn-font-body);
+}
+
+[data-theme='dark'] {
+  --ifm-background-surface-color: var(--sl-color-gray-7);
+  --ifm-font-color-base: var(--sl-color-white);
+}
+
+/* === Typography === */
+body {
+  font-family: var(--wn-font-body);
+}
+
+/* === KaTeX Dark Mode === */
+[data-theme='dark'] .katex {
+  color: var(--sl-color-white);
+}
+
+[data-theme='dark'] .katex .mord,
+[data-theme='dark'] .katex .mbin,
+[data-theme='dark'] .katex .mrel,
+[data-theme='dark'] .katex .mop,
+[data-theme='dark'] .katex .mopen,
+[data-theme='dark'] .katex .mclose,
+[data-theme='dark'] .katex .mpunct,
+[data-theme='dark'] .katex .minner {
+  color: inherit;
+}
+
+/* === Reading Progress Bar (for starlight-progress plugin) === */
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--sl-color-accent);
+  z-index: 9999;
+  transition: width 100ms linear;
+  pointer-events: none;
+}
+
+/* === FlashcardDeck Styles === */
+.flashcard-deck {
+  --flashcard-bg: var(--sl-color-gray-2);
+  --flashcard-border: var(--sl-color-gray-5);
+  border: 1px solid var(--flashcard-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+[data-theme='dark'] .flashcard-deck {
+  --flashcard-bg: var(--sl-color-gray-6);
+  --flashcard-border: var(--sl-color-gray-5);
+}
+
+/* === PracticeProblem Styles === */
+.practice-problem {
+  --problem-bg: var(--sl-color-gray-2);
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+[data-theme='dark'] .practice-problem {
+  --problem-bg: var(--sl-color-gray-6);
+}
+
+/* === Content Adjustments === */
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4 {
+  text-align: left;
+}
+
+.sl-markdown-content {
+  text-align: justify;
+}
+
+/* === Dark Mode Image Dimming === */
+[data-theme='dark'] .sl-markdown-content img:not([src*='.svg']) {
+  filter: brightness(0.85) contrast(1.1);
+}

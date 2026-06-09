@@ -1,0 +1,86 @@
+name: Build All Sites
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  BUN_VERSION: "1.2"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site:
+          - dse
+          - ib
+          - alevel
+          - university
+          - qualifications
+          - languages
+          - programming
+          - infrastructure
+          - tools
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Install dependencies
+        working-directory: sites/${{ matrix.site }}
+        run: bun install
+
+      - name: Build site
+        working-directory: sites/${{ matrix.site }}
+        run: bun run build
+
+      - name: Verify output
+        working-directory: sites/${{ matrix.site }}
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "::error::Build failed - no dist directory"
+            exit 1
+          fi
+          pages=$(find dist -name "*.html" | wc -l)
+          echo "Built $pages HTML pages"
+          if [ "$pages" -eq 0 ]; then
+            echo "::error::Build produced 0 HTML pages"
+            exit 1
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.site }}
+          path: sites/${{ matrix.site }}/dist/
+          retention-days: 7
+
+  summary:
+    needs: build
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: all-sites
+
+      - name: Build summary
+        run: |
+          echo "## Build Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Site | HTML Pages | Size |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-----------|------|" >> $GITHUB_STEP_SUMMARY
+          for site in all-sites/*/; do
+            name=$(basename "$site")
+            pages=$(find "$site" -name "*.html" | wc -l)
+            size=$(du -sh "$site" | cut -f1)
+            echo "| $name | $pages | $size |" >> $GITHUB_STEP_SUMMARY
+          done

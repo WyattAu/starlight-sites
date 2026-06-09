@@ -1,0 +1,14 @@
+{
+  "name": "starlight-sites",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wyatt's Notes — Starlight monorepo (9 sub-sites)",
+  "scripts": {
+    "install:all": "for d in sites/*/; do echo \"Installing $d\"; cd \"$d\" && bun install && cd ../..; done",
+    "build:all": "for d in sites/*/; do echo \"Building $d\"; cd \"$d\" && node node_modules/astro/astro.js build && cd ../..; done",
+    "build:site": "cd sites/$SITE && node node_modules/astro/astro.js build"
+  },
+  "workspaces": [
+    "sites/*"
+  ]
+}

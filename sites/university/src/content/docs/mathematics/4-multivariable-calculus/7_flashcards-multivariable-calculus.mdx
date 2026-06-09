@@ -1,0 +1,165 @@
+---
+title: 'University Maths Flashcards: Multivariable Calculus'
+description:
+  "20 interactive flashcards covering partial derivatives, gradient, Lagrange multipliers, multiple integrals, Stokes' and divergence theorems."
+tags: [University, Mathematics, Flashcards]
+---
+
+import FlashcardDeck from '@components/FlashcardDeck';
+import { flashcards1, flashcards2, flashcards3, flashcards4 } from './7_flashcards-multivariable-calculus-data';
+
+## Mathematics -- Multivariable Calculus Flashcards
+20 interactive flashcards for university-level Multivariable Calculus. Press Space to flip, rate 1-4.
+---
+
+  {
+    id: 'uni-maths-multivariable-calculus-001',
+    front: 'Define the partial derivative ∂f/∂x of f(x, y) at a point (a, b).',
+    back: "∂f/∂x(a, b) = lim(h→0) [f(a+h, b) − f(a, b)] / h, the rate of change of f with respect to x while holding y fixed at b. Geometrically, it is the slope of the tangent line to the curve z = f(x, b) in the plane y = b. Higher-order partials: fₓᵧ = ∂/∂y(∂f/∂x). Clairaut's theorem: if fₓᵧ and fᵧₓ are continuous, then fₓᵧ = fᵧₓ.",
+    tags: ['differential-calculus'],
+    difficulty: 'easy',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-002',
+    front: 'Define the gradient vector ∇f of a scalar field f: ℝⁿ → ℝ.',
+    back: '∇f = (∂f/∂x₁, ∂f/∂x₂, ..., ∂f/∂xₙ). ∇f points in the direction of steepest ascent of f, and its magnitude ||∇f|| is the maximum rate of increase. The directional derivative in direction û is Dûf = ∇f · û. At a critical point, ∇f = 0. The gradient is always perpendicular to level sets of f.',
+    tags: ['differential-calculus'],
+    difficulty: 'easy',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-003',
+    front: 'Define the directional derivative Dûf at a point and relate it to the gradient.',
+    back: 'Dûf(a) = lim(h→0) [f(a + hû) − f(a)] / h, the rate of change of f at a in the unit direction û. Formula: Dûf = ∇f · û = ||∇f|| cos θ, where θ is the angle between ∇f and û. Maximum at θ = 0 (along ∇f), zero when û is perpendicular to ∇f (along level curves).',
+    tags: ['differential-calculus'],
+    difficulty: 'easy',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-004',
+    front: 'State the multivariable chain rule for f(x, y) where x = g(t), y = h(t).',
+    back: 'df/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). In general, if z = f(x₁, ..., xₙ) and each xᵢ = xᵢ(t₁, ..., tₘ), then ∂z/∂tⱼ = Σ(i=1 to n) (∂f/∂xᵢ)(∂xᵢ/∂tⱼ). In matrix form: the Jacobian of the composition is the product of the Jacobians.',
+    tags: ['differential-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-005',
+    front: 'Define the total differential of a differentiable function f: ℝ² → ℝ.',
+    back: 'If f is differentiable at (a, b), then df = (∂f/∂x)dx + (∂f/∂y)dy. This gives the linear approximation: f(a+h, b+k) ≈ f(a,b) + fₓ(a,b)h + fᵧ(a,b)k for small h, k. The total differential represents the best linear approximation to the change in f near (a, b).',
+    tags: ['differential-calculus'],
+    difficulty: 'medium',
+  },
+];
+
+  {
+    id: 'uni-maths-multivariable-calculus-006',
+    front: 'Give the equation of the tangent plane to z = f(x, y) at the point (a, b, f(a, b)).',
+    back: 'z = f(a,b) + fₓ(a,b)(x − a) + fᵧ(a,b)(y − b). In normal form: fₓ(a,b)(x − a) + fᵧ(a,b)(y − b) − (z − f(a,b)) = 0. The normal vector to the tangent plane is ∇(z − f(x,y)) = (−fₓ, −fᵧ, 1) evaluated at (a, b). For a surface F(x,y,z) = 0, the tangent plane is Fₓ(a,b,c)(x−a) + Fᵧ(a,b,c)(y−b) + F_z(a,b,c)(z−c) = 0.',
+    tags: ['differential-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-007',
+    front: 'Classify critical points of f: ℝ² → ℝ using the Hessian (second derivative test).',
+    back: 'At a critical point (a,b) where ∇f(a,b) = 0, form D = fₓₓfᵧᵧ − (fₓᵧ)² (the determinant of the Hessian). If D > 0 and fₓₓ > 0: local minimum. If D > 0 and fₓₓ < 0: local maximum. If D < 0: saddle point. If D = 0: test is inconclusive (use higher-order tests).',
+    tags: ['differential-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-008',
+    front:
+      'State the method of Lagrange multipliers for optimising f(x, y) subject to g(x, y) = c.',
+    back: 'At a constrained extremum, ∇f = λ∇g for some scalar λ (the Lagrange multiplier). Solve the system: (1) ∂f/∂x = λ(∂g/∂x), (2) ∂f/∂y = λ(∂g/∂y), (3) g(x, y) = c. Geometrically, ∇f must be perpendicular to the constraint surface g = c, so it is parallel to ∇g. For multiple constraints, ∇f = λ₁∇g₁ + λ₂∇g₂ + ...',
+    tags: ['optimisation'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-009',
+    front:
+      "State Fubini's theorem for computing a double integral over a rectangle R = [a, b] × [c, d].",
+    back: 'If f is continuous on R, then ∫∫ᴿ f(x,y) dA = ∫ₐᵇ [∫cᵈ f(x,y) dy] dx = ∫cᵈ [∫ₐᵇ f(x,y) dx] dy. The order of integration can be swapped for continuous functions over rectangular regions. For general regions, use type I (vertically simple) or type II (horizontally simple) descriptions.',
+    tags: ['integration'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-010',
+    front: 'State the change of variables formula for double integrals using the Jacobian.',
+    back: 'Under the transformation x = x(u, v), y = y(u, v) with Jacobian J = ∂(x,y)/∂(u,v) = |xᵤ xᵥ; yᵤ yᵥ|: ∫∫ᵣ f(x,y) dxdy = ∫∫ₛ f(x(u,v), y(u,v)) |J| dudv. The Jacobian determinant accounts for how the transformation scales areas. For polar coordinates (r, θ): J = r.',
+    tags: ['integration'],
+    difficulty: 'hard',
+  },
+];
+
+  {
+    id: 'uni-maths-multivariable-calculus-011',
+    front: 'Describe how to set up a triple integral in Cartesian coordinates.',
+    back: '∫∫∫ᴱ f(x,y,z) dV = ∫∫∫ f(x,y,z) dxdydz. The limits of integration depend on the region E. Common orders: dzdydx, dydxdz, dxdzdy. For cylindrical coordinates: dV = r dr dθ dz. For spherical coordinates: dV = ρ² sin φ dρ dφ dθ. Fubini extends to triple integrals.',
+    tags: ['integration'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-012',
+    front: 'Distinguish between line integrals of scalar fields and vector fields.',
+    back: "Scalar: ∫c f ds = ∫ₐᵇ f(r(t)) ||r'(t)|| dt (arc-length integral, independent of parametrisation direction). Vector: ∫c F · dr = ∫ₐᵇ F(r(t)) · r'(t) dt (depends on orientation of curve). If C is closed, write ∮. The vector line integral represents work done by F along C.",
+    tags: ['vector-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-013',
+    front:
+      "State Green's theorem for a positively oriented simple closed curve C bounding region D.",
+    back: '∮c (P dx + Q dy) = ∫∫ᴅ (∂Q/∂x − ∂P/∂y) dA. Requires P, Q to have continuous partial derivatives on an open region containing D. The positive orientation is counter-clockwise. Corollary: area of D = ∮c x dy = −∮c y dx = ½∮c (x dy − y dx). Relates circulation to curl.',
+    tags: ['vector-calculus'],
+    difficulty: 'hard',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-014',
+    front: "State Stokes' theorem for a surface S with boundary curve ∂S.",
+    back: "∮∂ₛ F · dr = ∫∫ₛ (∇ × F) · dS. dS = n̂ dS where n̂ is the unit normal to S. The orientation of ∂S is consistent with n̂ by the right-hand rule. Special case in ℝ²: Stokes' reduces to Green’s theorem. Stokes' converts line integrals of vector fields to surface integrals of curl.",
+    tags: ['vector-calculus'],
+    difficulty: 'hard',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-015',
+    front: "State the Divergence Theorem (Gauss's theorem).",
+    back: '∫∫∫ₑ (∇ · F) dV = ∫∫ₛ F · dS, where E is a solid region with piecewise smooth boundary surface S oriented with outward normal. ∇ · F is the divergence of F. Converts a triple integral of divergence to a flux integral over the boundary. Generalises the fundamental theorem of calculus to 3D.',
+    tags: ['vector-calculus'],
+    difficulty: 'hard',
+  },
+];
+
+  {
+    id: 'uni-maths-multivariable-calculus-016',
+    front: 'Define the curl of a vector field F = (P, Q, R) and state its physical interpretation.',
+    back: 'curl F = ∇ × F = (∂R/∂y − ∂Q/∂z, ∂P/∂z − ∂R/∂x, ∂Q/∂x − ∂P/∂y). Physical interpretation: curl measures the tendency of F to induce rotation about a point (circulation density). A vector field with curl = 0 is called irrotational. Computationally, curl can be computed as a formal determinant with î, ĵ, k̂, ∂/∂x, ∂/∂y, ∂/∂z.',
+    tags: ['vector-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-017',
+    front: 'Define the divergence of a vector field F = (P, Q, R) and state its physical meaning.',
+    back: 'div F = ∇ · F = ∂P/∂x + ∂Q/∂y + ∂R/∂z. Physical meaning: divergence measures the net flux of F per unit volume at a point (source density). Positive divergence = source, negative = sink, zero = incompressible. div(curl F) = 0 always. F is solenoidal (divergence-free) if it equals curl of some other field.',
+    tags: ['vector-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-018',
+    front: 'Define a conservative vector field and state equivalent characterisations.',
+    back: 'F is conservative if F = ∇f for some scalar potential f. Equivalent conditions (for simply connected domains): (1) ∮c F · dr = 0 for every closed curve C. (2) F is path-independent: ∫c₁ F · dr = ∫c₂ F · dr for any two paths with the same endpoints. (3) curl F = 0. (4) ∂P/∂y = ∂Q/∂x. The potential f is found by integrating components.',
+    tags: ['vector-calculus'],
+    difficulty: 'medium',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-019',
+    front: 'Describe the parametric representation of a surface in ℝ³.',
+    back: 'A surface S can be parametrised by r(u, v) = (x(u,v), y(u,v), z(u,v)) for (u,v) ∈ D ⊆ ℝ². The tangent vectors are rᵤ = ∂r/∂u and rᵥ = ∂r/∂v. The normal vector is rᵤ × rᵥ. Surface area element: dS = ||rᵤ × rᵥ|| dudv. Examples: sphere r(θ,φ) = (ρ sinφ cosθ, ρ sinφ sinθ, ρ cosφ), cylinder r(θ,z) = (R cosθ, R sinθ, z).',
+    tags: ['parametric-surfaces'],
+    difficulty: 'hard',
+  },
+  {
+    id: 'uni-maths-multivariable-calculus-020',
+    front: 'Define the surface integral of a vector field F over an oriented surface S.',
+    back: "∫∫ₛ F · dS = ∫∫ₛ F · n̂ dS = ∫∫ᴅ F(r(u,v)) · (rᵤ × rᵥ) dudv. This measures the flux of F through S. If S is given by z = g(x,y), then dS = (−gₓ, −gᵧ, 1) dxdy. For a closed surface, outward normal orientation is standard. Applications: electric flux (Gauss's law), fluid flow.",
+    tags: ['integration'],
+    difficulty: 'hard',
+  },
+];
+<FlashcardDeck deckId="uni-maths-multivariable-calculus" title="University Maths -- Multivariable Calculus" description="Partial derivatives, gradient, Lagrange multipliers, multiple integrals, vector calculus" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]} />;
