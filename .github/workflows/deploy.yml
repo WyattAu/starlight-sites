@@ -1,0 +1,124 @@
+name: Deploy All Sites
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  BUN_VERSION: "1.2"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - site: dse
+            project: wyattsnotes-dse
+            url: https://dse.wyattau.com
+          - site: ib
+            project: wyattsnotes-ib
+            url: https://ib.wyattau.com
+          - site: alevel
+            project: wyattsnotes-alevel
+            url: https://alevel.wyattau.com
+          - site: university
+            project: wyattsnotes-university
+            url: https://university.wyattau.com
+          - site: qualifications
+            project: wyattsnotes-qualifications
+            url: https://qualifications.wyattau.com
+          - site: programming
+            project: wyattsnotes-programming
+            url: https://programming.wyattau.com
+          - site: infrastructure
+            project: wyattsnotes-infrastructure
+            url: https://infrastructure.wyattau.com
+          - site: languages
+            project: wyattsnotes-languages
+            url: https://languages.wyattau.com
+          - site: tools
+            project: wyattsnotes-tools
+            url: https://tools.wyattau.com
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Install dependencies
+        working-directory: sites/${{ matrix.site }}
+        run: bun install
+
+      - name: Build site
+        working-directory: sites/${{ matrix.site }}
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: bun run build
+
+      - name: Verify output
+        working-directory: sites/${{ matrix.site }}
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "::error::Build failed - no dist directory"
+            exit 1
+          fi
+          pages=$(find dist -name "*.html" | wc -l)
+          echo "Built $pages HTML pages"
+          if [ "$pages" -eq 0 ]; then
+            echo "::error::Build produced 0 HTML pages"
+            exit 1
+          fi
+
+      - name: Create Cloudflare Pages project
+        continue-on-error: true
+        run: |
+          npx wrangler@4 pages project create ${{ matrix.project }} --production-branch main 2>/dev/null || true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Deploy to Cloudflare Pages
+        working-directory: sites/${{ matrix.site }}
+        run: npx wrangler@4 pages deploy dist --project-name ${{ matrix.project }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## ${{ matrix.site }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL**: ${{ matrix.url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Project**: ${{ matrix.project }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+  summary:
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Deploy Summary
+        run: |
+          echo "## Deployment Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Site | URL | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-----|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| DSE | https://dse.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| IB | https://ib.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| A-Level | https://alevel.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| University | https://university.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Qualifications | https://qualifications.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Programming | https://programming.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Infrastructure | https://infrastructure.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Languages | https://languages.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Tools | https://tools.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
