@@ -1,7 +1,7 @@
 ---
 template: splash
 title: University Notes
-description: 
+description: 'University Notes notes and study materials'
 hero:
   tagline: Notes and study materials
   actions:
