@@ -2,7 +2,6 @@
 id: intro
 title: A Level Notes
 description: 'A-Level Intro.Md A Level notes covering key definitions, core concepts, worked examples, and practice questions for focused revision and exam readiness.'
-slug: intro
 date: 2025-06-02T16:25:28.480Z
 tags:
   - general
