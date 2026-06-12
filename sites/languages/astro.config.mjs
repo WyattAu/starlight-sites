@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 import mdx from '@astrojs/mdx';
 import solidJs from '@astrojs/solid-js';
 import sitemap from '@astrojs/sitemap';
+import mermaid from '@astrojs/mermaid';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
@@ -39,6 +40,7 @@ export default defineConfig({
     }),
     mdx(),
     solidJs(),
+    mermaid(),
     sitemap(),
   ],
   vite: {
