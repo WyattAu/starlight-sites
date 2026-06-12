@@ -496,4 +496,5 @@ $\blacksquare$
   holes.
 - Ladder problems: take moments about the foot to eliminate two unknown forces.
 - Choose the pivot wisely to simplify the moment equation by eliminating unknown forces.
+$
 

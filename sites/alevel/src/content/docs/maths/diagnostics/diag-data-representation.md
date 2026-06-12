@@ -532,4 +532,5 @@ $$\text{Estimated SD} \approx \sqrt{0.5586} \approx 0.747$$
 
 The true SD is 0.775, so the grouped estimate underestimates by about 3.6%. The grouped frequency
 approach loses precision because it replaces the continuous distribution with a discrete
+$
 approximation within each class.

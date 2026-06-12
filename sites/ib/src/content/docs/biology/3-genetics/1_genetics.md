@@ -1605,4 +1605,5 @@ evidence, and real-world applications.
 - genome projects
 
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
+$
 and evaluate experimental evidence critically.

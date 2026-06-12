@@ -486,4 +486,5 @@ $\blacksquare$
   (independent of speed).
 - Fleming's left-hand rule determines the direction of force on a current/charge in a field.
 - Magnetic flux: $\Phi = BA\cos\theta$; flux linkage for a coil: $N\Phi = BAN\cos\theta$.
+$
 

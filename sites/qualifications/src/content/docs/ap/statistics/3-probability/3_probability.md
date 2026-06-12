@@ -194,4 +194,5 @@ Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 - Confusing disjoint with independent
 - Forgetting to check the 10% condition for the binomial approximation
 - Misapplying the central limit theorem with small sample sizes
+$
 - Confusing the mean of a random variable with its most probable value
