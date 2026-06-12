@@ -6,7 +6,7 @@ hero:
   tagline: Notes and study materials
   actions:
     - text: Browse Notes
-      link: /databases/
+      link: /databases/intro/
       icon: right-arrow
       variant: primary
 ---

@@ -6,7 +6,7 @@ hero:
   tagline: Notes and study materials
   actions:
     - text: Browse Notes
-      link: /dart/
+      link: /dart/01-intro/
       icon: right-arrow
       variant: primary
 ---
