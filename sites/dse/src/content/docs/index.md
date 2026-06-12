@@ -6,7 +6,7 @@ hero:
   tagline: Comprehensive revision notes for the Hong Kong Diploma of Secondary Education (HKDSE). Covers the core examined subjects with worked examples, practice problems, and exam-style questions aligned to the HKEAA curriculum frameworks.
   actions:
     - text: Browse Notes
-      link: /docs/
+      link: /biology/
       icon: right-arrow
       variant: primary
 date: 2026-06-01T00:00:00.000Z

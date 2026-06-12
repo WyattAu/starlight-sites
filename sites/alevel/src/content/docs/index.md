@@ -6,7 +6,7 @@ hero:
   tagline: Notes and study materials
   actions:
     - text: Browse Notes
-      link: /docs/
+      link: /biology/
       icon: right-arrow
       variant: primary
 ---
