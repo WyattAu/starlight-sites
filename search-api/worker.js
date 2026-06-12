@@ -2,15 +2,15 @@
 // Merges Pagefind indexes from 9 sites into a unified search API
 
 const SITES = {
-  dse: { name: 'DSE', url: 'https://dse.wyattau.com', color: '#ff6b35' },
-  ib: { name: 'IB', url: 'https://ib.wyattau.com', color: '#0077b6' },
-  alevel: { name: 'A-Level', url: 'https://alevel.wyattau.com', color: '#2a9d8f' },
-  university: { name: 'University', url: 'https://university.wyattau.com', color: '#9b5de5' },
-  qualifications: { name: 'Qualifications', url: 'https://qualifications.wyattau.com', color: '#f4a261' },
-  programming: { name: 'Programming', url: 'https://programming.wyattau.com', color: '#06d6a0' },
-  infrastructure: { name: 'Infrastructure', url: 'https://infrastructure.wyattau.com', color: '#ef476f' },
-  languages: { name: 'Languages', url: 'https://languages.wyattau.com', color: '#118ab2' },
-  tools: { name: 'Tools', url: 'https://tools.wyattau.com', color: '#073b4c' },
+  dse: { name: 'DSE', url: 'https://dse.wyattau.com', color: '#ff6b35', lang: 'en' },
+  ib: { name: 'IB', url: 'https://ib.wyattau.com', color: '#0077b6', lang: 'en' },
+  alevel: { name: 'A-Level', url: 'https://alevel.wyattau.com', color: '#2a9d8f', lang: 'en' },
+  university: { name: 'University', url: 'https://university.wyattau.com', color: '#9b5de5', lang: 'en' },
+  qualifications: { name: 'Qualifications', url: 'https://qualifications.wyattau.com', color: '#f4a261', lang: 'en' },
+  programming: { name: 'Programming', url: 'https://programming.wyattau.com', color: '#06d6a0', lang: 'en' },
+  infrastructure: { name: 'Infrastructure', url: 'https://infrastructure.wyattau.com', color: '#ef476f', lang: 'en' },
+  languages: { name: 'Languages', url: 'https://languages.wyattau.com', color: '#118ab2', lang: 'en' },
+  tools: { name: 'Tools', url: 'https://tools.wyattau.com', color: '#073b4c', lang: 'en' },
 };
 
 // Site authority weights for ranking
@@ -24,6 +24,46 @@ const SITE_AUTHORITY = {
   alevel: 6,
   tools: 6,
   qualifications: 5,
+};
+
+// A/B test variants for ranking weights
+const RANKING_VARIANTS = {
+  control: {
+    titleExact: 100,
+    titleWord: 20,
+    contentExact: 50,
+    contentWord: 5,
+    urlMatch: 15,
+    authorityMultiplier: 2,
+    depthBonus: 10,
+  },
+  variant_a: {
+    titleExact: 120,
+    titleWord: 25,
+    contentExact: 60,
+    contentWord: 8,
+    urlMatch: 20,
+    authorityMultiplier: 3,
+    depthBonus: 15,
+  },
+  variant_b: {
+    titleExact: 80,
+    titleWord: 15,
+    contentExact: 40,
+    contentWord: 3,
+    urlMatch: 10,
+    authorityMultiplier: 1,
+    depthBonus: 5,
+  },
+};
+
+// Language detection patterns
+const LANG_PATTERNS = {
+  zh: /[\u4e00-\u9fff]/,
+  ja: /[\u3040-\u309f\u30a0-\u30ff]/,
+  ko: /[\uac00-\ud7af]/,
+  ar: /[\u0600-\u06ff]/,
+  ru: /[\u0400-\u04ff]/,
 };
 
 export default {
@@ -45,7 +85,7 @@ export default {
     // Route handling
     try {
       if (url.pathname === '/api/search') {
-        return await handleSearch(url, env, corsHeaders);
+        return await handleSearch(request, url, env, corsHeaders);
       }
       if (url.pathname === '/api/sites') {
         return handleSites(corsHeaders);
@@ -64,6 +104,9 @@ export default {
       }
       if (url.pathname === '/api/analytics') {
         return await handleAnalytics(env, corsHeaders);
+      }
+      if (url.pathname === '/api/ab-test') {
+        return await handleABTest(env, corsHeaders);
       }
       if (url.pathname === '/' || url.pathname === '/dashboard') {
         return await handleDashboard(corsHeaders);
@@ -88,10 +131,12 @@ export default {
   },
 };
 
-async function handleSearch(url, env, corsHeaders) {
+async function handleSearch(request, url, env, corsHeaders) {
   const query = url.searchParams.get('q')?.trim();
   const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 50);
   const site = url.searchParams.get('site'); // optional: filter by site
+  const variant = url.searchParams.get('variant'); // optional: A/B test variant
+  const lang = url.searchParams.get('lang'); // optional: language filter
 
   if (!query || query.length < 2) {
     return new Response(JSON.stringify({ error: 'Query must be at least 2 characters' }), {
@@ -100,13 +145,36 @@ async function handleSearch(url, env, corsHeaders) {
     });
   }
 
-  // Check KV cache first
-  const cacheKey = `search:${site || 'all'}:${query.toLowerCase()}`;
-  const cached = await env.SEARCH_KV.get(cacheKey, { type: 'json' });
+  // Detect language if not specified
+  const detectedLang = lang || detectLanguage(query);
+
+  // Determine A/B test variant (50/50 split)
+  const abVariant = variant || (hashString(query) % 2 === 0 ? 'control' : 'variant_a');
+  const weights = RANKING_VARIANTS[abVariant] || RANKING_VARIANTS.control;
+
+  // Check edge cache (Cloudflare Cache API)
+  const cacheUrl = new URL(url);
+  cacheUrl.searchParams.set('ab', abVariant);
+  const cache = caches.default;
+  const cacheRequest = new Request(cacheUrl.toString(), request);
+  const cachedResponse = await cache.match(cacheRequest);
+  if (cachedResponse) {
+    return cachedResponse;
+  }
+
+  // Check KV cache for hot queries
+  const kvCacheKey = `search:${site || 'all'}:${abVariant}:${query.toLowerCase()}`;
+  const cached = await env.SEARCH_KV.get(kvCacheKey, { type: 'json' });
   if (cached) {
-    return new Response(JSON.stringify(cached), {
+    const response = new Response(JSON.stringify(cached), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
     });
+    // Store in edge cache for 5 minutes
+    const edgeCacheResponse = new Response(JSON.stringify(cached), {
+      headers: { ...corsHeaders, 'Content-Type': 'application/json', 'Cache-Control': 'public, max-age=300' },
+    });
+    cache.put(cacheRequest, edgeCacheResponse);
+    return response;
   }
 
   // Fetch merged index from KV
@@ -118,8 +186,8 @@ async function handleSearch(url, env, corsHeaders) {
     });
   }
 
-  // Search and rank
-  let results = searchIndex(query, index, site);
+  // Search and rank with A/B weights
+  let results = searchIndex(query, index, site, weights, detectedLang);
 
   // Apply limit
   results = results.slice(0, limit);
@@ -127,6 +195,8 @@ async function handleSearch(url, env, corsHeaders) {
   const response = {
     query,
     total: results.length,
+    variant: abVariant,
+    lang: detectedLang,
     results: results.map(r => ({
       title: r.title,
       url: r.url,
@@ -140,20 +210,26 @@ async function handleSearch(url, env, corsHeaders) {
     })),
   };
 
-  // Cache hot queries (top 1000)
+  // Cache hot queries in KV (top 1000)
   if (results.length > 0) {
-    await env.SEARCH_KV.put(cacheKey, JSON.stringify(response), { expirationTtl: 300 });
+    await env.SEARCH_KV.put(kvCacheKey, JSON.stringify(response), { expirationTtl: 300 });
   }
 
   // Log search query for analytics
-  await logSearch(query, results.length, env);
+  await logSearch(query, results.length, abVariant, env);
+
+  // Cache in edge (Cloudflare Cache API)
+  const edgeResponse = new Response(JSON.stringify(response), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json', 'Cache-Control': 'public, max-age=300' },
+  });
+  cache.put(cacheRequest, edgeResponse);
 
   return new Response(JSON.stringify(response), {
     headers: { ...corsHeaders, 'Content-Type': 'application/json' },
   });
 }
 
-function searchIndex(query, index, siteFilter) {
+function searchIndex(query, index, siteFilter, weights = RANKING_VARIANTS.control, lang = null) {
   const queryLower = query.toLowerCase();
   const queryWords = queryLower.split(/\s+/);
   const results = [];
@@ -172,31 +248,31 @@ function searchIndex(query, index, siteFilter) {
 
     // 1. Exact phrase match in title (highest signal)
     if (titleLower.includes(queryLower)) {
-      score += 100;
+      score += weights.titleExact;
     }
 
     // 2. Individual word matches in title
     for (const word of queryWords) {
-      if (titleLower.includes(word)) score += 20;
+      if (titleLower.includes(word)) score += weights.titleWord;
     }
 
     // 3. Exact phrase match in content
     if (contentLower.includes(queryLower)) {
-      score += 50;
+      score += weights.contentExact;
     }
 
     // 4. Individual word matches in content
     for (const word of queryWords) {
-      if (contentLower.includes(word)) score += 5;
+      if (contentLower.includes(word)) score += weights.contentWord;
     }
 
     // 5. Match in URL slug
     for (const word of queryWords) {
-      if (urlLower.includes(word)) score += 15;
+      if (urlLower.includes(word)) score += weights.urlMatch;
     }
 
     // 6. Site authority bonus
-    score += (SITE_AUTHORITY[entry.site] || 0) * 2;
+    score += (SITE_AUTHORITY[entry.site] || 0) * weights.authorityMultiplier;
 
     // 7. Content length penalty (prefer focused pages)
     const contentLength = (entry.content || entry.description || '').length;
@@ -205,8 +281,8 @@ function searchIndex(query, index, siteFilter) {
 
     // 8. Shallow URL depth bonus (prefer top-level pages)
     const depth = entry.url.split('/').length - 3; // subtract protocol + domain
-    if (depth <= 1) score += 10;
-    if (depth <= 2) score += 5;
+    if (depth <= 1) score += weights.depthBonus;
+    if (depth <= 2) score += Math.floor(weights.depthBonus / 2);
 
     if (score > 0) {
       // Generate snippet
@@ -224,6 +300,24 @@ function searchIndex(query, index, siteFilter) {
   results.sort((a, b) => b.score - a.score);
 
   return results;
+}
+
+// Language detection
+function detectLanguage(text) {
+  for (const [lang, pattern] of Object.entries(LANG_PATTERNS)) {
+    if (pattern.test(text)) return lang;
+  }
+  return 'en';
+}
+
+// Simple hash for A/B testing
+function hashString(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i);
+    hash = hash & hash;
+  }
+  return Math.abs(hash);
 }
 
 function generateSnippet(content, queryWords) {
@@ -427,6 +521,36 @@ async function handleAnalytics(env, corsHeaders) {
   });
 }
 
+async function handleABTest(env, corsHeaders) {
+  // Get A/B test data for all variants
+  const variants = ['control', 'variant_a', 'variant_b'];
+  const results = {};
+
+  for (const variant of variants) {
+    const keys = await env.SEARCH_KV.list({ prefix: `ab:${variant}:` });
+    let totalSearches = 0;
+    let totalClicks = 0;
+
+    for (const key of keys.keys) {
+      const data = await env.SEARCH_KV.get(key.name, { type: 'json' });
+      if (data) {
+        totalSearches += data.searches || 0;
+        totalClicks += data.clicks || 0;
+      }
+    }
+
+    results[variant] = {
+      searches: totalSearches,
+      clicks: totalClicks,
+      ctr: totalSearches > 0 ? ((totalClicks / totalSearches) * 100).toFixed(1) : '0.0',
+    };
+  }
+
+  return new Response(JSON.stringify({ variants: results }), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}
+
 async function handleStaticAsset(filename, corsHeaders) {
   // In production, these would be stored in KV or fetched from a CDN
   // For now, return a redirect to the landing page's static files
@@ -578,7 +702,7 @@ async function handleDashboard(corsHeaders) {
   });
 }
 
-async function logSearch(query, resultCount, env) {
+async function logSearch(query, resultCount, variant, env) {
   // Get current trending
   let trending = await env.SEARCH_KV.get('trending', { type: 'json' }) || [];
 
@@ -600,4 +724,10 @@ async function logSearch(query, resultCount, env) {
   trending = trending.slice(0, 50);
 
   await env.SEARCH_KV.put('trending', JSON.stringify(trending), { expirationTtl: 86400 });
+
+  // Track A/B test results
+  const abKey = `ab:${variant}:${query}`;
+  let abData = await env.SEARCH_KV.get(abKey, { type: 'json' }) || { searches: 0, clicks: 0 };
+  abData.searches++;
+  await env.SEARCH_KV.put(abKey, JSON.stringify(abData), { expirationTtl: 86400 * 7 });
 }
