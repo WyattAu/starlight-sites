@@ -316,4 +316,5 @@ For circular orbit: $E' = -\frac{GMm}{2r'}$
 
 $$r' = -\frac{GMm}{2E'} = \frac◆LB◆6.67 \times 10^{-11} \times 5.97 \times 10^{24} \times 500◆RB◆◆LB◆2 \times 1.377 \times 10^{10}◆RB◆ = \frac◆LB◆1.991 \times 10^{17}◆RB◆◆LB◆2.754 \times 10^{10}◆RB◆ = 7.23 \times 10^6\,\text{m}$$
 
+$$
 The new orbital radius is $7.23 \times 10^6\,\text{m}$ (higher, as expected for a prograde burn).

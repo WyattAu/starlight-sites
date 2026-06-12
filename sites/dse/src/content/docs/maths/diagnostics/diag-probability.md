@@ -532,3 +532,4 @@ Since $P(A \cap B) = 0.24 \neq 0.30 = P(A) \times P(B)$The events are **not inde
 (c) $P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.5 + 0.6 - 0.24 = 0.86$.
 
 (d) By De Morgan's law: $P(A' \cap B') = P((A \cup B)') = 1 - P(A \cup B) = 1 - 0.86 = 0.14$.
+$$

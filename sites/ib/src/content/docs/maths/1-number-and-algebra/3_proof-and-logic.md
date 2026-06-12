@@ -1300,4 +1300,5 @@ $$x^2 - 1 = 9 \implies x^2 = 10 \implies x = \sqrt{10}$$ (since $x > 1$)
 | [Proof and Logic] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/13-proof) |
 | [Proof and Logic] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/1-number-and-algebra/3_proof-and-logic)          |
 
+$$
 :::

@@ -302,4 +302,5 @@ Since $14.01 \text{ m s}^{-1} \gt 8.86 \text{ m s}^{-1}$**the car completes the 
 
 **Key insight:** The minimum speed condition at the top of the loop requires the centripetal
 acceleration to be at least $g$ (so the normal force is just zero). Any higher speed means a
+$$
 positive normal force from the track.

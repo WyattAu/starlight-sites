@@ -417,4 +417,5 @@ have risen by 25% since the base year.
 - **GDP per capita (PPP)** allows cross-country comparisons but has significant limitations
 - **GDP as a welfare measure** fails to capture income distribution, non-market activity,
   environmental costs, and quality of life
+$$
 - Key calculations: nominal-to-real conversion, GDP deflator, per capita adjustments
