@@ -28,7 +28,7 @@ export default defineConfig({
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
         { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
         { tag: 'meta', attrs: { property: 'og:image', content: 'https://dse.wyattau.com/img/social-card.svg' } },
-        { tag: 'script', attrs: { src: '/cross-site-search.js", defer: true } },
+        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
       customCss: ['./src/styles/custom.css'],
