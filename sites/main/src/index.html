@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wyatt's Notes</title>
+  <meta name="description" content="Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.">
+  <meta property="og:title" content="Wyatt's Notes">
+  <meta property="og:description" content="Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.">
+  <meta property="og:image" content="https://wyattsnotes.wyattau.com/social-card.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0f172a;
+      --bg-card: #1e293b;
+      --bg-card-hover: #334155;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --accent: #ff6b35;
+      --accent-hover: #ff8c4a;
+      --border: #334155;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 5rem 0 3rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, var(--accent), #ff8c4a, #fbbf24);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    /* Principles */
+    .principles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 3rem;
+    }
+    .principle {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .principle .icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .principle h3 {
+      font-size: 1rem;
+      margin-bottom: 0.25rem;
+    }
+    .principle p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Section */
+    section { margin-bottom: 3rem; }
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    /* Site Grid */
+    .sites {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+    .site-card {
+      display: block;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s;
+    }
+    .site-card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .site-card h3 {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+    .site-card .url {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .site-card .desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .site-card .tags {
+      margin-top: 0.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+    .site-card .tag {
+      font-size: 0.7rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.15rem 0.5rem;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="hero">
+    <h1>Wyatt's Notes</h1>
+    <p>Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming. Written with undergraduate rigour, targeted at secondary and university students.</p>
+  </div>
+
+  <div class="principles">
+    <div class="principle">
+      <div class="icon">📐</div>
+      <h3>Rigorous &amp; Complete</h3>
+      <p>Every definition is precise, every theorem is proved, every formula derived from first principles.</p>
+    </div>
+    <div class="principle">
+      <div class="icon">🔓</div>
+      <h3>Free &amp; Open Source</h3>
+      <p>AGPLv3 licensed. No fees, no ads, no tracking. Source on GitHub.</p>
+    </div>
+    <div class="principle">
+      <div class="icon">🎯</div>
+      <h3>Syllabus-Aligned</h3>
+      <p>Written to exam specifications. Derivations included. No filler content.</p>
+    </div>
+    <div class="principle">
+      <div class="icon">🤝</div>
+      <h3>Community Driven</h3>
+      <p>Corrections and contributions welcome via GitHub Issues and Pull Requests.</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>Exam Board Notes</h2>
+    <div class="sites">
+      <a class="site-card" href="https://dse.wyattau.com/">
+        <h3>DSE</h3>
+        <div class="url">dse.wyattau.com</div>
+        <div class="desc">Hong Kong Diploma of Secondary Education notes.</div>
+        <div class="tags"><span class="tag">Maths</span><span class="tag">Physics</span><span class="tag">Chemistry</span><span class="tag">Biology</span><span class="tag">ICT</span><span class="tag">Economics</span></div>
+      </a>
+      <a class="site-card" href="https://ib.wyattau.com/">
+        <h3>IB</h3>
+        <div class="url">ib.wyattau.com</div>
+        <div class="desc">International Baccalaureate Diploma Programme notes.</div>
+        <div class="tags"><span class="tag">Maths AA/AI</span><span class="tag">Physics</span><span class="tag">Chemistry</span><span class="tag">Biology</span><span class="tag">CS</span><span class="tag">Economics</span></div>
+      </a>
+      <a class="site-card" href="https://alevel.wyattau.com/">
+        <h3>A-Levels</h3>
+        <div class="url">alevel.wyattau.com</div>
+        <div class="desc">UK A-Level revision notes for multiple exam boards.</div>
+        <div class="tags"><span class="tag">Maths</span><span class="tag">Further Maths</span><span class="tag">Physics</span><span class="tag">Chemistry</span><span class="tag">Biology</span><span class="tag">CS</span><span class="tag">Economics</span></div>
+      </a>
+      <a class="site-card" href="https://qualifications.wyattau.com/">
+        <h3>Qualifications</h3>
+        <div class="url">qualifications.wyattau.com</div>
+        <div class="desc">GCSE, AP, Scottish Highers, Irish LC, CBSE, and Gaokao notes.</div>
+        <div class="tags"><span class="tag">GCSE</span><span class="tag">AP</span><span class="tag">Highers</span><span class="tag">Irish LC</span><span class="tag">CBSE</span><span class="tag">Gaokao</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>University &amp; Programming</h2>
+    <div class="sites">
+      <a class="site-card" href="https://university.wyattau.com/">
+        <h3>University</h3>
+        <div class="url">university.wyattau.com</div>
+        <div class="desc">Rigorous, proof-based undergraduate STEM notes.</div>
+        <div class="tags"><span class="tag">Linear Algebra</span><span class="tag">ODEs</span><span class="tag">Classical Mechanics</span><span class="tag">Electromagnetism</span><span class="tag">Algorithms</span></div>
+      </a>
+      <a class="site-card" href="https://programming.wyattau.com/">
+        <h3>Programming</h3>
+        <div class="url">programming.wyattau.com</div>
+        <div class="desc">Deep C++ systems programming — ownership, templates, concurrency, build systems.</div>
+        <div class="tags"><span class="tag">C++</span><span class="tag">Ownership/RAII</span><span class="tag">Templates</span><span class="tag">Concurrency</span><span class="tag">Build Systems</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Reference &amp; Tools</h2>
+    <div class="sites">
+      <a class="site-card" href="https://infrastructure.wyattau.com/">
+        <h3>Infrastructure</h3>
+        <div class="url">infrastructure.wyattau.com</div>
+        <div class="desc">Server administration, databases, networking, and security.</div>
+        <div class="tags"><span class="tag">TrueNAS</span><span class="tag">Databases</span><span class="tag">Linux</span><span class="tag">Networking</span><span class="tag">Security</span></div>
+      </a>
+      <a class="site-card" href="https://languages.wyattau.com/">
+        <h3>Languages</h3>
+        <div class="url">languages.wyattau.com</div>
+        <div class="desc">Comparative programming language notes across 10+ languages.</div>
+        <div class="tags"><span class="tag">Dart</span><span class="tag">Elixir</span><span class="tag">Go</span><span class="tag">Haskell</span><span class="tag">Java</span><span class="tag">Kotlin</span><span class="tag">Python</span><span class="tag">Ruby</span><span class="tag">Rust</span><span class="tag">Swift</span></div>
+      </a>
+      <a class="site-card" href="https://tools.wyattau.com/">
+        <h3>Tools</h3>
+        <div class="url">tools.wyattau.com</div>
+        <div class="desc">Algorithms, data structures, licensing, and machine learning fundamentals.</div>
+        <div class="tags"><span class="tag">Algorithms</span><span class="tag">Git</span><span class="tag">Licensing</span><span class="tag">Probabilistic ML</span></div>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Wyatt Au &middot; <a href="https://github.com/WyattAu/starlight-sites">GitHub</a> &middot; AGPLv3</p>
+  </footer>
+</div>
+
+</body>
+</html>

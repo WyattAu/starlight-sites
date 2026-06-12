@@ -108,8 +108,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prepare landing page
+        run: |
+          mkdir -p dist
+          cp sites/main/src/index.html dist/index.html
+
       - name: Deploy landing page
-        working-directory: sites/main
         run: npx wrangler@4 pages deploy dist --project-name wyattsnotes
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
