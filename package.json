@@ -10,5 +10,8 @@
   },
   "workspaces": [
     "sites/*"
-  ]
+  ],
+  "dependencies": {
+    "astro-mermaid": "^2.0.2"
+  }
 }
