@@ -1,52 +1,121 @@
-# starlight-sites
+# Wyatt's Notes
 
-Wyatt's Notes — Starlight monorepo. 9 sub-sites migrated from Docusaurus to Astro Starlight.
+Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.
 
-## Sites
+## Overview
 
-| Site | URL | Files | Subjects |
-|------|-----|-------|----------|
-| DSE | dse.wyattau.com | 161 | Maths, Physics, Biology, Chemistry, Economics, ICT, Geography, History |
-| IB | ib.wyattau.com | 304 | Maths, Physics, Biology, Chemistry, Economics, English, CS, Geography, History, Psychology |
-| A-Level | alevel.wyattau.com | 366 | Maths, Further Maths, Physics, Biology, Chemistry, Economics, English, Geography, History, Psychology, CS |
-| University | university.wyattau.com | 444 | Mathematics, Physics, Chemistry, CS, Computing, Admissions |
-| Qualifications | qualifications.wyattau.com | 271 | GCSE, A-Level, AP, SAT, CBSE, Gaokao, Highers, HSC, ILC |
-| Languages | languages.wyattau.com | 189 | Python, Rust, Go, TypeScript, Java, Kotlin, Swift, Haskell, Elixir, Ruby, Dart |
-| Programming | programming.wyattau.com | 129 | C++ toolchain, types, OOP, templates, concurrency, STL |
-| Infrastructure | infrastructure.wyattau.com | 93 | Linux, networking, security, databases, ML, tuning |
-| Tools | tools.wyattau.com | 63 | Git, algorithms, licensing |
+Wyatt's Notes is a collection of 9 static documentation sites built with Astro Starlight, deployed to Cloudflare Pages. The sites cover:
 
-**Total: 2,020 files across 9 sites**
+- **DSE** (dse.wyattau.com) — Hong Kong Diploma of Secondary Education
+- **IB** (ib.wyattau.com) — International Baccalaureate Diploma Programme
+- **A-Level** (alevel.wyattau.com) — UK A-Level revision notes
+- **University** (university.wyattau.com) — Proof-based undergraduate STEM
+- **Qualifications** (qualifications.wyattau.com) — GCSE, AP, Scottish Highers, Irish LC
+- **Programming** (programming.wyattau.com) — C++ systems programming
+- **Infrastructure** (infrastructure.wyattau.com) — Server administration, databases
+- **Languages** (languages.wyattau.com) — Comparative programming languages
+- **Tools** (tools.wyattau.com) — Algorithms, data structures, developer tools
 
-## Tech Stack
+## Architecture
 
-- **Astro 5.x** + **Starlight 0.32.x**
-- **SolidJS** (interactive island components)
-- **Bun** (package manager + runtime)
-- **KaTeX** (math rendering via remark-math + rehype-katex)
-- **Pagefind** (built-in search)
-
-## Build
-
-```bash
-# Install all sites
-bun run install:all
-
-# Build a specific site
-cd sites/dse && bun install && bun run build
-
-# Build all sites
-bun run build:all
+```
+wyattsnotes/
+├── sites/                    # 9 Starlight sites
+│   ├── dse/
+│   ├── ib/
+│   ├── alevel/
+│   ├── university/
+│   ├── qualifications/
+│   ├── programming/
+│   ├── infrastructure/
+│   ├── languages/
+│   └── tools/
+├── shared/                   # Shared components
+├── search-api/               # Cloudflare Worker for cross-site search
+├── scripts/                  # Validation and linting scripts
+└── .github/workflows/        # CI/CD pipelines
 ```
 
-## Interactive Components
+## Development
 
-| Component | Lines | Used In |
-|-----------|-------|---------|
-| FlashcardDeck | 839 | 131 files |
-| PracticeProblem | 267 | 169 files |
-| DiagnosticTest | 577 | 12 files |
-| DesmosGraph | 233 | 33 files |
-| PhetSimulation | 73 | 57 files |
+### Prerequisites
 
-All components are SolidJS islands with `client:only="solid-js"`.
+- Node.js 18+
+- Bun 1.2+
+
+### Local Development
+
+```bash
+# Install dependencies
+bun install
+
+# Start dev server for a specific site
+cd sites/dse
+bun run dev
+
+# Run validation
+node scripts/lint-content.js
+node scripts/lint-config.js
+```
+
+### Building
+
+```bash
+# Build a specific site
+cd sites/dse
+bun run build
+
+# Build all sites
+for site in sites/*/; do
+  cd $site
+  bun install && bun run build
+  cd ..
+done
+```
+
+## Deployment
+
+Sites are automatically deployed to Cloudflare Pages on push to `main` via GitHub Actions.
+
+### Manual Deployment
+
+```bash
+# Deploy a specific site
+cd sites/dse
+npx wrangler pages deploy dist --project-name wyattsnotes-dse
+```
+
+## Search API
+
+Cross-site search is available at `search.wyattau.com`:
+
+```
+GET /api/search?q=physics&limit=20
+GET /api/sites
+GET /api/health
+GET /api/trending
+```
+
+## Content Guidelines
+
+### Writing Style
+
+- Precise and formal
+- Define terms before using them
+- Include worked examples
+- Use consistent notation
+
+### Mathematical Content
+
+- Use LaTeX notation: `$inline$` and `$$display$$`
+- Verify formulas render correctly
+
+### Code Examples
+
+- Include complete, runnable examples
+- Add comments explaining key lines
+- Test examples before submitting
+
+## License
+
+AGPLv3 — See [LICENSE.md](LICENSE.md)
