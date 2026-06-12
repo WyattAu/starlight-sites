@@ -8,27 +8,20 @@ tags:
   - CS
 categories:
   - CS
-
 ---
-
 ## Remark Common Plugins
-
 ### Remark Grid Table
-
 ~~Usage of
 [root remark-grid-table](https://github.com/zestedesavoir/zmarkdown/tree/HEAD/packages/remark-grid-tables#readme)
 Is discouraged with Docusaurus, use
 [Adobe remark-gridtables](https://github.com/adobe/remark-gridtables) instead.~~ Remark Grid tables
 Seems to be broken at the moment, the following does not seem to work:
-
 ````
 +----+----+
 | A  | B  |
 +----+----+
 | 1  | 2  |
 +----+----+
-
-
 +-------------------+------+
 | Table Headings    | Here |
 +--------+----------+------+
@@ -49,52 +42,34 @@ Seems to be broken at the moment, the following does not seem to work:
 | footer |    cells |      |
 +--------+----------+------+
 ````
-
 ### Code Snippets
-
 ```cpp file=../../../../static/code/eg_codeSnippet.cpp start=start_here end=end_here
-
 ```
-
 ### Math
-
 Using remark math with rehype Katex, equations written in LaTeX can be rendered, however LaTeX
 Packages cannot be included.
-
 $$
 \frac{\partial \rho}{\partial t} + \frac{\partial(\rho u_{i})}{\partial x_{i}} = 0
 $$
-
 ### Admonitions
-
 Docusaurus supports admonition callouts using triple-colon syntax:
-
 ```md
 :::note This is a note block. :::
-
 :::tip This is a tip block.
 :::
-
 :::caution This is a warning block.
 :::
-
 :::danger This is a danger block.
 ```
-
 Custom titles are supported: `:::info[Custom Title]`
-
 ### Tables
-
 Standard markdown tables use pipe-delimited rows with a header separator:
-
 | Feature   | Supported | Notes                                         |
 | --------- | --------- | --------------------------------------------- |
 | Basic     | Yes       | Pipe-delimited with `---` separator           |
 | Alignment | Yes       | `:---`, `:---:`, `---:` for left/center/right |
 | Colspan   | No        | Not supported in standard markdown; use HTML  |
-
 ### Nested Lists and Checklists
-
 ```md
 1. First item
    - Sub-item with a nested point
@@ -103,11 +78,8 @@ Standard markdown tables use pipe-delimited rows with a header separator:
    - [ ] Unfinished task
    - [x] Completed task
 ```
-
 ### Mermaid Diagrams
-
 Docusaurus renders Mermaid diagrams inside fenced code blocks tagged with `mermaid`:
-
 ````md
 ```mermaid
 graph TD
@@ -116,23 +88,17 @@ graph TD
     B -->|No| D[Action B]
 ```
 ````
-
 Supported diagram types include flowcharts, sequence diagrams, class diagrams, state diagrams, Gantt
 charts, pie charts, and git graphs.
-
 ### Details / Collapsible Sections
-
 ```md
 <details>
   <summary>Click to expand</summary>
   Hidden content here.
 </details>
 ```
-
 ### Tabs Component
-
 The tabs UI is provided via Docusaurus theme imports:
-
 ```md
 import { Tabs, TabItem } from '@astrojs/starlight/components';
 

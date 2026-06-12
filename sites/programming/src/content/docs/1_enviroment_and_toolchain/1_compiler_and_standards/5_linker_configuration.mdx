@@ -8,9 +8,7 @@ tags:
   - cpp
 categories:
   - cpp
-
 ---
-
 import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 The linker is the final stage of the translation pipeline. It accepts object files (`.o` or `.obj`)
@@ -63,9 +61,7 @@ Incremental link times by an order of magnitude.
   in Visual Studio.
 
 ---
-
 ## Linker Comparison Matrix
-
 | Feature                  | GNU ld.bfd     | GNU gold       | LLVM LLD              | Mold                 | MSVC link.exe  |
 | :----------------------- | :------------- | :------------- | :-------------------- | :------------------- | :------------- |
 | **ELF support**          | Yes            | Yes            | Yes                   | Yes                  | No (COFF only) |
@@ -81,37 +77,26 @@ Incremental link times by an order of magnitude.
 | **Memory usage**         | Low            | Medium         | Medium                | High                 | Medium         |
 | **Symbol versioning**    | Yes            | Yes            | Yes                   | Yes                  | N/A            |
 | **Cross-platform**       | No             | No             | Yes                   | No                   | No             |
-
 ## CMake Configuration Strategy
-
 Configuring the linker requires instructing the compiler driver (e.g., `clang++` or `g++`) to invoke
 A specific underlying binary.
-
 ### Modern CMake (Version 3.29+)
-
 CMake 3.29 introduced a generic abstraction for selecting linkers, removing the need for
 Compiler-specific flag handling.
-
 ```cmake
 cmake_minimum_required(VERSION 3.29)
 project(HighPerfCpp)
-
 add_executable(app main.cpp)
-
 # Select linker by type
 # Options: LLD, MOLD, APPLE_CLASSIC, MSVC, GNU, GOLD
 set_property(TARGET app PROPERTY LINKER_TYPE LLD)
 ```
-
 ### Legacy CMake (Pre-3.29)
-
 For older CMake versions, linker flags must be manually injected.
-
 ```cmake
 # Check if using Clang or GCC
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
     include(CheckCXXCompilerFlag)
-
     # Attempt to use Mold
     check_cxx_compiler_flag("-fuse-ld=mold" HAVE_MOLD)
     if (HAVE_MOLD)
@@ -125,61 +110,43 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
     endif()
 endif()
 ```
-
 ---
-
 ## Link Time Optimization (LTO)
-
 Link Time Optimization (also known as IPO - Interprocedural Optimization) allows the compiler to
 Perform optimizations across translation unit boundaries. Instead of generating machine code in the
 `.o` files, the compiler generates intermediate bitcode (IR). The linker then merges all IR and runs
 The optimizer on the entire program at once.
-
 ### Benefits
-
 - **Inlining:** Functions defined in `math.cpp` can be inlined into `main.cpp`.
 - **Dead Code Elimination:** Unused parts of libraries can be aggressively stripped.
-
 ### Costs
-
 - **Build Time:** Link time increases drastically (often becoming single-threaded).
 - **Memory:** High RAM usage during linking.
-
 ### Enabling LTO in CMake
-
 CMake provides a portable abstraction for enabling LTO.
-
 ```cmake
 include(CheckIPOSupported)
 check_ipo_supported(RESULT result OUTPUT output)
-
 if(result)
     set_property(TARGET app PROPERTY INTERPROCEDURAL_OPTIMIZATION TRUE)
 else()
     message(WARNING "IPO is not supported: ${output}")
 endif()
 ```
-
 ### ThinLTO (Clang/LLVM)
-
 Standard LTO is monolithic. Clang supports **ThinLTO**, which parallelizes the LTO process, offering
 Similar runtime performance with significantly faster build times.
-
 To force ThinLTO specifically when using Clang:
-
 ```cmake
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
     add_compile_options(-flto=thin)
     add_link_options(-flto=thin)
 endif()
 ```
-
 ### LTO and Symbol Visibility
-
 When using LTO with shared libraries, ensure that symbols intended for export are marked with
 Visible visibility. LTO can inline and eliminate symbols more aggressively, potentially removing
 Symbols that would otherwise be exported:
-
 ```cmake
 # Ensure public API symbols are preserved when building a shared library with LTO
 set_target_properties(MyLib PROPERTIES
@@ -187,131 +154,90 @@ set_target_properties(MyLib PROPERTIES
     VISIBILITY_INLINES_HIDDEN ON
 )
 ```
-
 ---
-
 ## Symbol Stripping
-
 For release builds, removing debug symbols reduces binary size significantly.
-
 ### Linux/macOS
-
 The `strip` utility removes symbols.
-
 ```cmake
 if (UNIX AND NOT APPLE)
     set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -s")
 endif()
 ```
-
 ### Windows (MSVC)
-
 Windows separates debug symbols into a `.pdb` file. The executable is stripped by default in Release
 Mode.
-
 ---
-
 ## Verification
-
 To verify which linker is being used, inspect the verbose output of the build system.
-
 1. **Configure CMake with Verbose Output:**
-
    ```bash
    cmake -S . -B build -DCMAKE_VERBOSE_MAKEFILE=ON
    ```
-
 2. **Build and Inspect:**
-
    ```bash
    cmake --build build
    ```
-
 3. **Analyze the Link Command:** Look for the final linking step in the log.
-
 - **LLD:** Will show `-fuse-ld=lld` or direct calls to `ld.lld`.
 - **Mold:** Will show `-fuse-ld=mold` or direct calls to `mold`.
 - **BFD:** invoked as just `ld` (check `ld --version` to confirm).
-
 ### ELF Verification (Linux)
-
 Use `readelf` to check the `.comment` section of the resulting binary, which often contains the
 Linker signature.
-
 ```bash
 readelf -p .comment build/app
 ```
-
 **Target Output (Example):**
-
 ```text
 String dump of section '.comment':
   [     0]  Linker: LLD 16.0.0
   [    1c]  clang version 16.0.0
 ```
-
 ---
-
 ## Linker Internals: How the Linker Works
-
 Understanding what the linker actually does at the binary level is critical for diagnosing obscure
 Build failures and optimizing binary output.
-
 ### Symbol Resolution
-
 The linker maintains a global symbol table with three categories:
-
 1. **Defined symbols:** Functions and variables that are defined (have a body) in one or more object
    files.
 2. **Undefined symbols:** Symbols that are referenced but not defined in the current object file.
    These must be resolved by finding a matching definition in another object file or library.
 3. **Common symbols:** Tentative definitions (e.g., `int x;` at file scope without `extern` or an
    initializer). The linker allocates space for the largest definition and merges them.
-
 The resolution algorithm processes object files in the order they appear on the command line. When
 The linker encounters an object file, it adds all defined symbols to its table and records all
 Undefined symbols. If a subsequent object file or library provides a definition for a
 Previously-undefined symbol, the reference is patched.
-
 This ordering dependency is the root cause of the classic "undefined reference" error when linking
 Against static libraries. If library `A` depends on library `B``A` must appear before `B` on the
 Command line.
-
 ```cmake
 # WRONG order -- linker processes B first, finds no undefined symbols,
 # discards B's object files, then processes A and fails on unresolved refs
 target_link_libraries(app PRIVATE B A)
-
 # CORRECT order -- A's undefined symbols are recorded, then resolved by B
 target_link_libraries(app PRIVATE A B)
 ```
-
 Modern CMake with `target_link_libraries` generally handles this correctly for targets within the
 Same build, but when consuming pre-built static libraries from external sources, the ordering still
 Matters because CMake respects the order you specify.
-
 ### Relocation
-
 Once all symbols are resolved, the linker performs **relocation**: patching placeholder addresses in
 Machine code with the final virtual addresses of symbols.
-
 Consider this C++ code compiled to x86_64:
-
 ```cpp
 // a.cpp
 extern int counter;
 int* get_counter() { return &counter; }
 ```
-
 The compiler emits a call to `get_counter` that returns a placeholder address. The linker must:
-
 1. Determine the final virtual address of `counter` (defined in some other object file).
 2. Patch the `lea` or `mov` instruction in `get_counter` with the actual address.
 3. If the relocation target is in a shared library loaded at a dynamic base address, generate a
    **PLT/GOT** entry so the loader can resolve it at runtime.
-
 Relocation types on x86_64 ELF include:
-
 | Relocation Type          | Description                                | Example Use                           |
 | :----------------------- | :----------------------------------------- | :------------------------------------ |
 | `R_X86_64_64`            | Absolute 64-bit address                    | Global variable access                |
@@ -319,77 +245,54 @@ Relocation types on x86_64 ELF include:
 | `R_X86_64_PLT32`         | 32-bit PC-relative through PLT             | External function call                |
 | `R_X86_64_GOTPCRELX`     | Optimized GOT access (lazy binding bypass) | Frequently called external function   |
 | `R_X86_64_REX_GOTPCRELX` | REX-prefixed GOT access                    | RIP-relative GOT access in large code |
-
 ### Static vs Dynamic Linking
-
 The choice between static and dynamic linking has profound implications for deployment, security,
 And startup performance.
-
 **Static Linking** embeds all library code into the final executable:
-
 ```cmake
 # Force static linking of specific libraries
 target_link_options(app PRIVATE -static-libgcc -static-libstdc++)
 ```
-
 Advantages:
-
 - No external dependencies at runtime (simplifies deployment).
 - The linker can perform whole-program optimization (dead code elimination across library
   boundaries).
 - Slightly faster startup (no dynamic loader work).
-
 Disadvantages:
-
 - Larger binary size (all library code is included, even unused portions of archive members).
 - No shared memory between processes using the same library.
 - Security patches require recompilation and redistribution.
-
 **Dynamic Linking** loads library code at runtime:
-
 ```cmake
 # Explicitly link shared library
 target_link_libraries(app PRIVATE /usr/lib/libssl.so)
 ```
-
 The linker records the library dependency (DT_NEEDED) in the ELF dynamic section. At runtime, the
 Dynamic loader (`ld.so`) maps the shared library into the process address space and resolves
 Symbols.
-
 ### Lazy Binding vs RELRO
-
 By default, ELF uses **lazy binding** (PLT stubs): function calls to shared libraries go through a
 Procedure Linkage Table (PLT). On first call, the dynamic loader resolves the actual address and
 Patches the GOT entry. Subsequent calls go directly through the GOT.
-
 This is a security risk: an attacker who overwrites the GOT before resolution can redirect
 Execution. **RELRO (RELocation Read-Only)** mitigates this:
-
 ```cmake
 # Full RELRO: makes the entire GOT read-only after resolution
 target_link_options(app PRIVATE -Wl,-z,relro,-z,now)
-
 # Partial RELRO (default on many distros): only .init_array is read-only
 target_link_options(app PRIVATE -Wl,-z,relro)
 ```
-
 - **Partial RELRO:** `.got.plt` remains writable. The PLT stubs can still be exploited.
 - **Full RELRO (`-z,now`):** All symbols are resolved at load time (no lazy binding), and the entire
   GOT is made read-only. This defeats GOT overwrite attacks at the cost of slightly slower startup.
-
 **Best practice:** Always use `-Wl,-z,relro,-z,now` for production builds.
-
 ## Linker Scripts
-
 The linker's behavior can be controlled programmatically via **linker scripts** (`.ld` files). These
 Define:
-
 - Memory regions for embedded targets.
 - Custom section ordering.
 - Symbol assignments at link time.
-
 ### Basic Linker Script Syntax
-
 ```ld
 /* minimal.ld -- Place .text at 0x10000, .data after it */
 ENTRY(_start)
@@ -402,45 +305,34 @@ SECTIONS
     .bss : { *(.bss*) *(COMMON) }
 }
 ```
-
 ```cmake
 # Use a custom linker script
 target_link_options(firmware PRIVATE -T${CMAKE_SOURCE_DIR}/minimal.ld)
 ```
-
 ### Section Merging: Proof of Ordering
-
 The linker processes input sections from all object files and merges them into output sections
 According to the linker script. The merging algorithm is deterministic:
-
 1. The linker reads each input object file in command-line order.
 2. For each object file, it extracts sections matching the patterns in the linker script.
 3. Sections are concatenated in the order they are encountered.
-
 **Theorem:** The order of input object files on the link command line determines the order of
 Functions in the `.text` section of the final binary.
-
 **Proof:** Consider two object files, `a.o` and `b.o`Each containing a `.text` section. The linker
 Script contains `.text : { *(.text*) }`. The `*(.text*)` pattern matches all `.text` sections from
 All input files. The linker iterates over input files in command-line order. For each file, it
 Appends the matched sections to the output `.text` section. Therefore, `a.o`'s `.text` precedes
 `b.o`'s `.text` in the output if and only if `a.o` precedes `b.o` on the command line.
 $\blacksquare$
-
 This ordering matters for cache locality: placing frequently-called functions adjacent to each other
 Improves instruction cache hit rates.
-
 ### Custom Section Markers
-
 Linker scripts can define symbols that mark the boundaries of custom sections. This enables
 Compile-time registration patterns:
-
 ```ld
 SECTIONS
 {
     . = 0x8000;
     .text : { *(.text*) }
-
     /* Custom section for init functions */
     .init_array : {
         __init_array_start = .;
@@ -449,24 +341,19 @@ SECTIONS
     }
 }
 ```
-
 ```cpp
 // Source code references the linker-defined symbols
 extern "C" {
     extern void (*__init_array_start[])();
     extern void (*__init_array_end[])();
 }
-
 // Call all init functions at startup
 for (auto* fn = __init_array_start; fn != __init_array_end; ++fn) {
     (*fn)();
 }
 ```
-
 ### Linker Script for Embedded (STM32)
-
 A realistic embedded linker script defines memory regions and places sections within them:
-
 ```ld
 /* stm32f407.ld */
 MEMORY
@@ -474,9 +361,7 @@ MEMORY
     FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 1024K
     RAM (rwx)  : ORIGIN = 0x20000000, LENGTH = 128K
 }
-
 ENTRY(Reset_Handler)
-
 SECTIONS
 {
     .isr_vector :
@@ -485,7 +370,6 @@ SECTIONS
         KEEP(*(.isr_vector))
         . = ALIGN(4);
     } > FLASH
-
     .text :
     {
         . = ALIGN(4);
@@ -494,9 +378,7 @@ SECTIONS
         . = ALIGN(4);
         _etext = .;
     } > FLASH
-
     _sidata = LOADADDR(.data);
-
     .data :
     {
         . = ALIGN(4);
@@ -505,7 +387,6 @@ SECTIONS
         . = ALIGN(4);
         _edata = .;
     } > RAM AT > FLASH
-
     .bss :
     {
         . = ALIGN(4);
@@ -517,80 +398,58 @@ SECTIONS
     } > RAM
 }
 ```
-
 Linker scripts are essential for bare-metal and embedded development where you control the entire
 Memory layout. On hosted platforms, they are occasionally used to:
-
 - Enforce specific section ordering for cache locality.
 - Define link-time symbols (e.g., `__start_custom_section` and `__stop_custom_section` markers).
 - Implement custom allocator regions.
-
 ## Symbol Versioning
-
 Symbol versioning is a mechanism that allows a shared library to expose multiple versions of the
 Same symbol. This is critical for backward compatibility when the implementation of a function
 Changes but its signature does not.
-
 ### GNU Symbol Versioning
-
 ```cpp
 // versioned.c
 #include <stdio.h>
-
 __asm__(".symver old_printf,printf@GLIBC_2.2.5");
 __asm__(".symver new_printf,printf@@GLIBC_2.17");
-
 void old_printf(const char* s) { puts("[legacy]"); puts(s); }
 void new_printf(const char* s) { puts("[modern]"); puts(s); }
 ```
-
 The `@@` (double at-sign) denotes the default version. The `@` (single at-sign) denotes a
 Non-default version. Binaries compiled against older glibc versions will resolve to the
 `@GLIBC_2.2.5` version, while newer binaries resolve to `@@GLIBC_2.17`.
-
 Symbol versioning is the mechanism that allows `libstdc++.so.6` to maintain backward compatibility
 Across GCC releases. The `.so` version number never changes (it stays at `.6`), but individual
 Symbols within the library are versioned:
-
 ```bash
 nm -D /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 # Contains entries like:
 # _ZNSt6vectorIiSaIiEE9push_backERKi@@GLIBCXX_3.4.21
 # _ZNSt6vectorIiSaIiEE9push_backERKi@GLIBCXX_3.4
 ```
-
 ### Inspecting Symbol Versions
-
 ```bash
 # Show symbol versions in a shared library
 objdump -T /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep -A1 GLIBCXX
-
 # Show which version a binary requires
 readelf -V /usr/bin/myapp
 ```
-
 ## The `-Wl,` Flag Mechanism
-
 The `-Wl,` prefix passes flags from the compiler driver to the linker. The comma separates
 Individual linker arguments. This is necessary because the compiler driver controls the linking
 Phase and does not pass unrecognized flags to the linker.
-
 ```bash
 # Pass -z relro and -z now to the linker
 clang++ main.cpp -Wl,-z,relro,-z,now
-
 # Pass a linker script and --gc-sections
 clang++ main.cpp -Wl,-T,memory.ld,--gc-sections
-
 # Pass a library search path
 clang++ main.cpp -Wl,-L,/custom/lib/path
-
 # Set the output format (ELF32 vs ELF64)
 clang++ main.cpp -Wl,-m,elf_x86_64
 ```
-
 In CMake, use `target_link_options` to pass these flags:
-
 ```cmake
 target_link_options(app PRIVATE
     "LINKER:-z,relro" "LINKER:-z,now"
@@ -598,51 +457,35 @@ target_link_options(app PRIVATE
     "LINKER:--gc-sections"
 )
 ```
-
 The `LINKER:` prefix in CMake 3.13+ automatically adds the `-Wl,` wrapper, improving portability.
-
 ---
-
 ## Common Linker Errors and Their Causes
-
 ### "undefined reference to `symbol`"
-
 The linker could not find a definition for the referenced symbol. Common causes:
-
 1. Missing source file in the build (forgot to add a `.cpp` to `CMakeLists.txt`).
 2. Wrong link order for static libraries.
 3. Conditional compilation excluded the definition (`#ifdef` guard not met).
 4. Name mangling mismatch (linking C++ code against a C library without `extern "C"`).
-
 ```cpp
 // Correct: tells the compiler to use C linkage (no mangling)
 extern "C" {
     void c_library_function(int arg);
 }
 ```
-
 ### "multiple definition of `symbol`"
-
 Two or more translation units define the same symbol with external linkage. Common causes:
-
 1. A function definition in a header file without `inline`.
 2. A global variable defined in a header file (not `inline` or `constexpr` in C++17+).
 3. The same source file compiled twice and linked.
-
 ### "relocation truncated to fit"
-
 A relocation requires more bits than the instruction encoding provides. Common on 32-bit x86 when
 The code model is `small` (default) but the binary exceeds 2GB.
-
 ```bash
 # Use the large code model if you have enormous binaries
 clang++ -mcmodel=large ...
 ```
-
 ---
-
 ## Common Pitfalls
-
 - **Forgetting `-Wl,-z,relro,-z,now` on production builds.** This leaves the GOT writable, exposing
   your binary to GOT overwrite attacks.
 - **Mixing static and dynamic C++ runtime libraries.** On Linux, if one library links `libstdc++`
@@ -664,21 +507,15 @@ clang++ -mcmodel=large ...
   on `A`The linker cannot resolve symbols in a single pass. Solutions: (1) merge the libraries, (2)
   use `--start-group` / `--end-group` to enable multiple passes, or (3) refactor to eliminate the
   circular dependency.
-
 ## See Also
-
 - [Installing a Compiler](1_installing_compiler.md) -- Compiler selection affects linker choice
 - [Cross-compilation Toolchains](4_crosscompilation_toolchains.md) -- Cross-linker considerations
 - [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.md) -- ABI
   constraints on linking
-
 ## Appendix: Linker Script Reference
-
 ### Memory Region Definitions
-
 Linker scripts can define memory regions with specific attributes. This is used in embedded systems
 Where different memory types (flash, RAM, registers) have different access permissions:
-
 ```ld
 MEMORY
 {
@@ -687,18 +524,13 @@ MEMORY
     CCM   (rw)  : ORIGIN = 0x10000000, LENGTH = 64K
 }
 ```
-
 The attributes in parentheses control what can be placed in each region:
-
 - `r` -- readable
 - `w` -- writable
 - `x` -- executable
-
 ### Section Placement with KEEP
-
 By default, the linker's garbage collector (`--gc-sections`) removes unreferenced sections. The
 `KEEP()` directive prevents specific sections from being collected:
-
 ```ld
 SECTIONS
 {
@@ -710,27 +542,19 @@ SECTIONS
     } > FLASH
 }
 ```
-
 ### PROVIDE and ASSERT
-
 `PROVIDE` defines a symbol only if it is not already defined by the application:
-
 ```ld
 PROVIDE(__stack_start = ORIGIN(RAM) + LENGTH(RAM));
 ```
-
 `ASSERT` evaluates an expression at link time and errors if it fails:
-
 ```ld
 ASSERT(. <= ORIGIN(FLASH) + LENGTH(FLASH), "Flash overflow")
 ASSERT(. <= ORIGIN(RAM) + LENGTH(RAM), "RAM overflow")
 ```
-
 ### PHDRS: Program Header Control
-
 For ELF binaries, the linker script can control which sections are mapped into which program
 Segments (PT_LOAD, PT_NOTE, etc.):
-
 ```ld
 PHDRS
 {
@@ -738,7 +562,6 @@ PHDRS
     rodata PT_LOAD FLAGS(4); /* Read only */
     data PT_LOAD FLAGS(6);   /* Read + Write */
 }
-
 SECTIONS
 {
     .text : { *(.text*) } :text
@@ -747,11 +570,8 @@ SECTIONS
     .bss : { *(.bss*) *(COMMON) } :data
 }
 ```
-
 ### Output Section Types
-
 The linker supports several output section types beyond the default loadable section:
-
 ```ld
 SECTIONS
 {
@@ -760,21 +580,16 @@ SECTIONS
         *(.note*)
         *(.eh_frame*)
     }
-
     .noinit (NOLOAD) : {
         *(.noinit)
     }
 }
 ```
-
 - `/DISCARD/`: Sections listed here are not included in the output binary.
 - `NOLOAD`: The section is allocated space but not loaded into memory at runtime. Useful for
   zero-initialized regions in embedded systems.
-
 ## Appendix: Linker Flag Quick Reference
-
 ### GNU/LLD Linker Flags
-
 | Flag                 | Purpose                                         |
 | :------------------- | :---------------------------------------------- |
 | `-z relro`           | Partial RELRO (read-only relocations)           |
@@ -792,9 +607,7 @@ SECTIONS
 | `--build-id=sha1`    | Embed a build ID for crash reporting            |
 | `-Map=output.map`    | Generate a linker map file                      |
 | `--print-map`        | Print the link map to stdout                    |
-
 ### In CMake
-
 ```cmake
 target_link_options(app PRIVATE
     "LINKER:-z,relro" "LINKER:-z,now"
@@ -804,24 +617,17 @@ target_link_options(app PRIVATE
     "LINKER:-Map,${CMAKE_BINARY_DIR}/app.map"
 )
 ```
-
 ## Summary
-
 This topic covers the core concepts of linker configuration, including underlying theory, practical
 implementation, and key applications.
-
 **Key concepts include:**
-
 - command-line fundamentals
 - file permissions and ownership
 - process management
 - shell scripting with bash
 - package management
-
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.

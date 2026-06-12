@@ -8,9 +8,7 @@ tags:
   - cpp
 categories:
   - cpp
-
 ---
-
 import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 In managed languages (Java, C#), types are abstract constraints enforced by a virtual machine. In
@@ -231,114 +229,82 @@ int safe_add(int a, int b) {
 ```
 
 ---
-
 ## Floating-Point Representation in Depth
-
 ### IEEE 754 Binary Layout
-
 An IEEE 754 floating-point number encodes a signed value using three fields:
-
 ```
 [sign (1 bit)] [exponent (e bits)] [mantissa/fraction (m bits)]
 ```
-
 The encoded value is:
-
 $$\mathrm{value = (-1)^{\mathrm{sign} \times 2^{(\mathrm{exponent - \mathrm{bias)} \times (1.\mathrm{mantissa)$$
-
 The implicit leading `1.` (the "hidden bit") is the key optimization of IEEE 754: since the mantissa
 Is normalized so the leading digit is always 1, it need not be stored.
-
 | Type     | Total Bits | Sign | Exponent | Mantissa | Bias | Exponent Range |
 | :------- | :--------- | :--- | :------- | :------- | :--- | :------------- |
 | `float`  | 32         | 1    | 8        | 23       | 127  | -126 to +127   |
 | `double` | 64         | 1    | 11       | 52       | 1023 | -1022 to +1023 |
-
 ### Special Values
-
 IEEE 754 reserves specific exponent values for special cases:
-
 | Exponent Field | Mantissa Field | Meaning                         |
 | :------------- | :------------- | :------------------------------ |
 | All zeros      | All zeros      | Signed zero (±0)                |
 | All zeros      | Non-zero       | Denormalized (subnormal) number |
 | All ones       | All zeros      | Infinity (±inf)                 |
 | All ones       | Non-zero       | NaN (Not a Number)              |
-
 **Denormalized numbers** allow gradual underflow: as values approach zero, precision decreases
 Linearly rather than dropping abruptly to zero. Without denormals, the gap between the smallest
 Normalized number and zero would be huge.
-
 ```cpp
 #include <iostream>
 #include <limits>
 #include <cmath>
-
 int main() {
     float smallest_normal = std::numeric_limits<float>::min();    // ~1.175e-38
     float smallest_denorm = std::numeric_limits<float>::denorm_min(); // ~1.401e-45
-
     std::cout << "Smallest normal:  " << smallest_normal << "\n";
     std::cout << "Smallest denorm:  " << smallest_denorm << "\n";
     std::cout << "Has denormals:    " << std::numeric_limits<float>::has_denorm << "\n";
-
     // Denormals can cause severe performance penalties on some architectures
     // (up to 100x slower than normal FP ops on some x86 CPUs)
     // Consider enabling FTZ (Flush-To-Zero) for performance-critical code
 }
 ```
-
 ### NaN Propagation
-
 NaN is the only floating-point value that does not compare equal to itself:
-
 ```cpp
 #include <cmath>
 #include <iostream>
-
 int main() {
     double nan_val = std::nan("");
     std::cout << "nan == nan: " << (nan_val == nan_val) << "\n";  // 0 (false)
     std::cout << "nan != nan: " << (nan_val != nan_val) << "\n";  // 1 (true)
-
     // This is the standard way to test for NaN:
     std::cout << "isnan: " << std::isnan(nan_val) << "\n";       // 1 (true)
-
     // NaN propagates through arithmetic:
     double result = nan_val + 1.0;  // result is NaN
     std::cout << "nan + 1.0 = " << result << "\n";  // nan
 }
 ```
-
 ### `-ffast-math` and Its Dangers
-
 Compilers offer a `-ffast-math` flag (GCC/Clang) that enables aggressive floating-point
 Optimizations. This flag relaxes IEEE 754 compliance:
-
 | Optimization                          | Effect                                                     |
 | :------------------------------------ | :--------------------------------------------------------- |
 | Associative FP (`-fassociative-math`) | Reorders `a + (b + c)` to `(a + b) + c` (changes rounding) |
 | Reciprocal math                       | Replaces `x / y` with `x * (1/y)`                          |
 | Finite math only                      | Assumes no NaN/Inf (removes NaN checks)                    |
 | No signed zeros                       | Assumes `+0 == -0`                                         |
-
 ```bash
 # WARNING: -ffast-math can change numerical results and break NaN/Inf handling
 clang++ -O3 -ffast-math app.cpp -o app
 ```
-
 **Never use `-ffast-math` for:** scientific computing, financial calculations, any code that relies
 On NaN propagation for error detection, or code that compares floating-point values for equality.
-
 ---
-
 ## Alignment and Padding
-
 ### Natural Alignment
-
 Every fundamental type has an **alignment requirement**: the address at which it must be stored must
 Be a multiple of a specific power of two. On x86_64:
-
 | Type        | Size (bytes) | Alignment (bytes) |
 | :---------- | :----------- | :---------------- |
 | `char`      | 1            | 1                 |
@@ -349,18 +315,13 @@ Be a multiple of a specific power of two. On x86_64:
 | `float`     | 4            | 4                 |
 | `double`    | 8            | 8                 |
 | `pointer`   | 8            | 8                 |
-
 Misaligned access on x86 works but is slower (splits into multiple memory transactions). On ARM and
 RISC-V, misaligned access can cause a hardware exception (SIGBUS).
-
 ### Struct Padding
-
 The compiler inserts padding bytes between struct members to satisfy alignment requirements:
-
 ```cpp
 #include <cstddef>
 #include <iostream>
-
 struct Natural {
     char a;     // offset 0, size 1
                  // 3 bytes padding
@@ -369,19 +330,16 @@ struct Natural {
                  // 2 bytes padding
     double d;   // offset 16, size 8 (aligned to 8)
 };  // Total size: 24 bytes
-
 struct Packed {
     char a;     // offset 0
     int b;      // offset 4
     short c;    // offset 8
     double d;   // offset 16
 };
-
 int main() {
     std::cout << "sizeof(Natural) = " << sizeof(Natural) << "\n";  // 24
     std::cout << "sizeof(Packed) = " << sizeof(Packed) << "\n";    // 24
     // Both have the same layout because padding is unavoidable for alignment
-
     // Offset demonstration
     std::cout << "offsetof a: " << offsetof(Natural, a) << "\n";  // 0
     std::cout << "offsetof b: " << offsetof(Natural, b) << "\n";  // 4
@@ -389,38 +347,27 @@ int main() {
     std::cout << "offsetof d: " << offsetof(Natural, d) << "\n";  // 16
 }
 ```
-
 ### Controlling Alignment: `alignas` and `alignof`
-
 C++11 introduced `alignas` to specify custom alignment and `alignof` to query it:
-
 ```cpp
 #include <iostream>
-
 struct alignas(64) CacheAligned {
     int data[16];
 };
-
 struct alignas(1) PackedStruct {
     double d;  // Potentially misaligned!
 };
-
 int main() {
     std::cout << "alignof(CacheAligned) = " << alignof(CacheAligned) << "\n";  // 64
     std::cout << "sizeof(CacheAligned) = " << sizeof(CacheAligned) << "\n";    // 64 (padded to alignment)
-
     // 64-byte alignment is useful for SIMD (AVX-512 vectors are 512 bits = 64 bytes)
     // and for avoiding false sharing in multi-threaded code
-
     alignas(16) int arr[4];  // Aligned to 16-byte boundary
     // Useful for SSE loads/stores (128-bit vectors require 16-byte alignment)
 }
 ```
-
 ### `#pragma pack` and `__attribute__((packed))`
-
 To eliminate padding (e.g., for network protocols or file formats), use packing:
-
 ```cpp
 #pragma pack(push, 1)  // Set alignment to 1 byte
 struct NetworkPacket {
@@ -429,10 +376,8 @@ struct NetworkPacket {
     uint16_t checksum;
 };
 #pragma pack(pop)
-
 static_assert(sizeof(NetworkPacket) == 7);  // No padding: 1 + 4 + 2 = 7
 ```
-
 ```cpp
 // GCC/Clang alternative:
 struct __attribute__((packed)) NetworkPacket {
@@ -441,36 +386,27 @@ struct __attribute__((packed)) NetworkPacket {
     uint16_t checksum;
 };
 ```
-
 **Warning:** Accessing a misaligned member on strict-alignment architectures (ARM, RISC-V) causes
 Undefined behavior or a hardware trap. Use `std::memcpy` to safely extract packed data:
-
 ```cpp
 #include <cstring>
 #include <cstdint>
-
 struct __attribute__((packed)) PackedU32 {
     uint8_t bytes[4];
 };
-
 uint32_t safe_read(const PackedU32& p) {
     uint32_t result;
     std::memcpy(&result, p.bytes, sizeof(result));  // Safe: compiler generates correct loads
     return result;
 }
 ```
-
 ---
-
 ## C++23 Extended Floating-Point Types
-
 The `<stdfloat>` header (C++23) introduces fixed-width floating-point types that map to hardware or
 Software implementations:
-
 ```cpp
 #include <stdfloat>
 #include <iostream>
-
 int main() {
     std::float16_t half = 3.14f16;     // IEEE 754 binary16 (half precision)
     std::bfloat16_t bfloat = 3.14bf16; // Brain Float 16 (8 exponent, 7 mantissa)
@@ -479,74 +415,55 @@ int main() {
     std::float128_t quad = 3.14f128;   // IEEE 754 binary128 (software on most platforms)
 }
 ```
-
 **Brain Float 16 (bfloat16)** is particularly important for machine learning inference. It has the
 Same exponent range as `float32` (8 bits) but only 7 bits of mantissa, providing 3 decimal digits of
 Precision. The reduced mantissa halves memory bandwidth compared to `float32` while maintaining the
 Same dynamic range, preventing overflow/underflow in deep learning workloads.
-
 ---
-
 ## Boolean Type and Integer Promotion
-
 ### `bool` and Integer Conversion
-
 In C++, `bool` is a fundamental type that can hold values `true` (1) or `false` (0). When a `bool`
 Participates in arithmetic, it is promoted to `int`:
-
 ```cpp
 #include <iostream>
-
 int main() {
     bool flag = true;
     int result = flag + 1;  // result == 2 (bool promoted to int(1))
     std::cout << result << "\n";
-
     // Dangerous: any non-zero value converts to true
     int x = 42;
     bool b = x;  // b == true
     std::cout << std::boolalpha << b << "\n";  // true
-
     // Integral to bool: 0 → false, anything else → true
     std::cout << std::boolalpha << static_cast<bool>(0) << "\n";     // false
     std::cout << std::boolalpha << static_cast<bool>(-1) << "\n";    // true
     std::cout << std::boolalpha << static_cast<bool>(INT_MAX) << "\n"; // true
 }
 ```
-
 ### Integer Promotion Rules
-
 The C++ standard defines specific **integral promotion** rules [N4950 §7.3.7]:
-
 - `bool` → `int`
 - `char``signed char``unsigned char``char8_t` → `int` (if `int` can represent all values)
 - `short` → `int` (if `int` can represent all values)
 - `wchar_t``char16_t``char32_t``char8_t` → the first of `int``unsigned int``long` `unsigned long`
   that can represent all values
-
 These promotions occur before arithmetic operations and can cause surprising results:
-
 ```cpp
 #include <iostream>
 #include <cstdint>
-
 int main() {
     uint16_t a = 65535;
     uint16_t b = 1;
     auto c = a + b;  // Both promoted to int (65535 + 1 = 65536)
     // c has type int, value 65536 — no overflow!
     std::cout << c << "\n";  // 65536
-
     // But if you store back to uint16_t:
     uint16_t d = a + b;  // 65536 truncated to uint16_t → 0
     std::cout << d << "\n";  // 0
 }
 ```
-
 ---
-
 ## Common Pitfalls
-
 - **Using `int` or `long` for binary protocol fields.** The size of `int` and `long` varies across
   platforms. Always use `<cstdint>` fixed-width types (`uint32_t``int64_t`Etc.) for network
   protocols, file formats, and shared memory structures.
@@ -568,24 +485,17 @@ int main() {
   CPUs. In performance-critical code (audio processing, game physics), consider enabling
   Flush-To-Zero (`_MM_DENORMALS_ZERO_ON`) via compiler flags (`-ffast-math` or `-fno-denormals`) if
   exact gradual underflow is not required.
-
 ## Summary
-
 This topic covers the essential concepts and techniques related to fundamental types, including key
 principles and practical applications.
-
 **Key concepts include:**
-
 - core concepts and definitions
 - key principles and frameworks
 - practical applications
 - common techniques and methods
 - evaluation and critical analysis
-
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
-
 ## Worked Examples
-
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
