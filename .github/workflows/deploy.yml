@@ -148,5 +148,3 @@ jobs:
           echo "| Infrastructure | https://infrastructure.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Languages | https://languages.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Tools | https://tools.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-
-# Uptime check: $(date -u +%Y-%m-%dT%H:%M:%SZ)
