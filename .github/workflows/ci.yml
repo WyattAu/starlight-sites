@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  BUN_VERSION: "1.2"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      
+      - name: Run content validation
+        run: node scripts/lint-content.js
+      
+      - name: Run config validation
+        run: node scripts/lint-config.js
+
+  build:
+    needs: lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        site:
+          - dse
+          - ib
+          - alevel
+          - university
+          - qualifications
+          - languages
+          - programming
+          - infrastructure
+          - tools
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      
+      - name: Install dependencies
+        working-directory: sites/${{ matrix.site }}
+        run: bun install
+      
+      - name: Build site
+        working-directory: sites/${{ matrix.site }}
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: bun run build
+      
+      - name: Verify output
+        working-directory: sites/${{ matrix.site }}
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "::error::Build failed - no dist directory"
+            exit 1
+          fi
+          pages=$(find dist -name "*.html" | wc -l)
+          echo "Built $pages HTML pages"
+          if [ "$pages" -eq 0 ]; then
+            echo "::error::Build produced 0 HTML pages"
+            exit 1
+          fi
+
+  summary:
+    needs: [lint, build]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Summary
+        run: |
+          echo "## CI Results" >> $GITHUB_STEP_SUMMARY
+          echo "- Lint: ${{ needs.lint.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Build: ${{ needs.build.result }}" >> $GITHUB_STEP_SUMMARY
