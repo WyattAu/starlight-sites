@@ -59,8 +59,21 @@ export default {
       if (url.pathname === '/api/suggest') {
         return await handleSuggest(url, env, corsHeaders);
       }
+      if (url.pathname === '/api/track' && request.method === 'POST') {
+        return await handleTrack(request, env, corsHeaders);
+      }
+      if (url.pathname === '/api/analytics') {
+        return await handleAnalytics(env, corsHeaders);
+      }
       if (url.pathname === '/' || url.pathname === '/dashboard') {
         return await handleDashboard(corsHeaders);
+      }
+      // CDN-cached static assets
+      if (url.pathname === '/page-search.js') {
+        return await handleStaticAsset('page-search.js', corsHeaders);
+      }
+      if (url.pathname === '/cross-site-search.js') {
+        return await handleStaticAsset('cross-site-search.js', corsHeaders);
       }
       return new Response(JSON.stringify({ error: 'Not found' }), {
         status: 404,
@@ -315,6 +328,121 @@ async function handleSuggest(url, env, corsHeaders) {
   });
 }
 
+async function handleTrack(request, env, corsHeaders) {
+  try {
+    const data = await request.json();
+    const { event, query, position, url, site, resultCount, timestamp, page } = data;
+
+    // Store tracking event
+    const trackingKey = `track:${Date.now()}`;
+    await env.SEARCH_KV.put(trackingKey, JSON.stringify(data), { expirationTtl: 86400 * 30 });
+
+    // Update analytics counters
+    let analytics = await env.SEARCH_KV.get('analytics', { type: 'json' }) || {
+      totalSearches: 0,
+      totalClicks: 0,
+      uniqueQueries: {},
+      siteClicks: {},
+      dailyVolume: {},
+    };
+
+    analytics.totalSearches++;
+    if (event === 'search_result_click' || event === 'search_enter') {
+      analytics.totalClicks++;
+    }
+
+    // Track unique queries
+    if (query) {
+      analytics.uniqueQueries[query] = (analytics.uniqueQueries[query] || 0) + 1;
+    }
+
+    // Track site clicks
+    if (site) {
+      analytics.siteClicks[site] = (analytics.siteClicks[site] || 0) + 1;
+    }
+
+    // Track daily volume
+    const day = timestamp ? timestamp.slice(0, 10) : new Date().toISOString().slice(0, 10);
+    analytics.dailyVolume[day] = (analytics.dailyVolume[day] || 0) + 1;
+
+    // Keep only last 30 days
+    const cutoff = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+    for (const key of Object.keys(analytics.dailyVolume)) {
+      if (key < cutoff) delete analytics.dailyVolume[key];
+    }
+
+    await env.SEARCH_KV.put('analytics', JSON.stringify(analytics), { expirationTtl: 86400 * 90 });
+
+    return new Response(JSON.stringify({ ok: true }), {
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ ok: false, error: err.message }), {
+      status: 400,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+}
+
+async function handleAnalytics(env, corsHeaders) {
+  const analytics = await env.SEARCH_KV.get('analytics', { type: 'json' }) || {
+    totalSearches: 0,
+    totalClicks: 0,
+    uniqueQueries: {},
+    siteClicks: {},
+    dailyVolume: {},
+  };
+
+  // Top queries
+  const topQueries = Object.entries(analytics.uniqueQueries)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20)
+    .map(([query, count]) => ({ query, count }));
+
+  // Click-through rate
+  const ctr = analytics.totalSearches > 0
+    ? ((analytics.totalClicks / analytics.totalSearches) * 100).toFixed(1)
+    : '0.0';
+
+  // Daily volume (last 30 days)
+  const dailyVolume = Object.entries(analytics.dailyVolume)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([date, count]) => ({ date, count }));
+
+  // Site distribution
+  const siteClicks = Object.entries(analytics.siteClicks)
+    .sort((a, b) => b[1] - a[1])
+    .map(([site, count]) => ({ site, count }));
+
+  return new Response(JSON.stringify({
+    totalSearches: analytics.totalSearches,
+    totalClicks: analytics.totalClicks,
+    clickThroughRate: ctr,
+    uniqueQueryCount: Object.keys(analytics.uniqueQueries).length,
+    topQueries,
+    dailyVolume,
+    siteClicks,
+  }), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}
+
+async function handleStaticAsset(filename, corsHeaders) {
+  // In production, these would be stored in KV or fetched from a CDN
+  // For now, return a redirect to the landing page's static files
+  const assetMap = {
+    'page-search.js': 'https://wyattsnotes.wyattau.com/page-search.js',
+    'cross-site-search.js': 'https://dse.wyattau.com/cross-site-search.js',
+  };
+
+  const url = assetMap[filename];
+  if (url) {
+    return Response.redirect(url, 302);
+  }
+
+  return new Response('Not found', { status: 404 });
+}
+
 async function handleDashboard(corsHeaders) {
   const dashboardHtml = `<!DOCTYPE html>
 <html lang="en">
@@ -326,45 +454,121 @@ async function handleDashboard(corsHeaders) {
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; padding: 2rem; }
-    h1 { font-size: 1.5rem; margin-bottom: 1.5rem; color: #ff6b35; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #ff6b35; }
+    .subtitle { color: #64748b; margin-bottom: 1.5rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
     .card { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1.25rem; }
-    .card h2 { font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.5rem; }
+    .card h2 { font-size: 0.8rem; color: #94a3b8; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.5px; }
     .stat { font-size: 2rem; font-weight: 800; color: #ff6b35; }
+    .stat.green { color: #06d6a0; }
+    .label { font-size: 0.8rem; color: #64748b; }
     table { width: 100%; border-collapse: collapse; }
     th, td { text-align: left; padding: 0.6rem; border-bottom: 1px solid #334155; font-size: 0.85rem; }
-    th { color: #94a3b8; }
+    th { color: #94a3b8; font-size: 0.75rem; text-transform: uppercase; }
     .badge { display: inline-block; font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; }
-    .refresh { background: #ff6b35; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+    .bar { height: 20px; background: #ff6b35; border-radius: 4px; min-width: 2px; }
+    .bar-container { display: flex; align-items: center; gap: 0.5rem; }
+    .refresh { background: #ff6b35; color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
     .refresh:hover { background: #ff8c4a; }
+    .section { margin-bottom: 1.5rem; }
+    .section h2 { font-size: 1rem; margin-bottom: 1rem; color: #94a3b8; border-bottom: 1px solid #334155; padding-bottom: 0.5rem; }
+    .chart { display: flex; align-items: flex-end; gap: 3px; height: 100px; padding: 0.5rem 0; }
+    .chart-bar { flex: 1; background: #ff6b35; border-radius: 3px 3px 0 0; min-height: 2px; transition: height 0.3s; }
+    .chart-labels { display: flex; justify-content: space-between; font-size: 0.65rem; color: #64748b; }
   </style>
 </head>
 <body>
   <h1>Search Analytics</h1>
-  <div class="grid">
+  <p class="subtitle">Real-time search metrics across all Wyatt's Notes sites</p>
+
+  <div class="grid" id="stats">
     <div class="card"><h2>Status</h2><div class="stat" id="status">—</div></div>
+    <div class="card"><h2>Total Searches</h2><div class="stat" id="totalSearches">—</div></div>
+    <div class="card"><h2>Click-through Rate</h2><div class="stat green" id="ctr">—</div></div>
+    <div class="card"><h2>Unique Queries</h2><div class="stat" id="uniqueQueries">—</div></div>
     <div class="card"><h2>Entries</h2><div class="stat" id="entries">—</div></div>
-    <div class="card"><h2>Sites</h2><div class="stat" id="sites">—</div></div>
-    <div class="card"><h2>Last Updated</h2><div class="stat" id="updated" style="font-size:1rem">—</div></div>
+    <div class="card"><h2>Indexed Sites</h2><div class="stat" id="sites">—</div></div>
   </div>
-  <div class="card" style="margin-bottom:1rem">
-    <h2>Trending</h2>
-    <table><thead><tr><th>#</th><th>Query</th><th>Count</th></tr></thead>
-    <tbody id="trend"><tr><td colspan="3" style="text-align:center;color:#64748b">Loading...</td></tr></tbody></table>
+
+  <div class="section">
+    <h2>Search Volume (Last 30 Days)</h2>
+    <div class="card">
+      <div class="chart" id="volumeChart"></div>
+      <div class="chart-labels" id="volumeLabels"></div>
+    </div>
   </div>
-  <div class="card">
-    <h2>Sites</h2>
-    <table><thead><tr><th>Site</th><th>URL</th><th>Authority</th></tr></thead>
-    <tbody id="siteList"><tr><td colspan="3" style="text-align:center;color:#64748b">Loading...</td></tr></tbody></table>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+    <div class="section">
+      <h2>Top Queries</h2>
+      <div class="card">
+        <table>
+          <thead><tr><th>#</th><th>Query</th><th>Count</th></tr></thead>
+          <tbody id="topQueries"><tr><td colspan="3" style="text-align:center;color:#64748b">Loading...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Site Distribution</h2>
+      <div class="card">
+        <table>
+          <thead><tr><th>Site</th><th>Clicks</th><th></th></tr></thead>
+          <tbody id="siteClicks"><tr><td colspan="3" style="text-align:center;color:#64748b">Loading...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
   </div>
-  <div style="text-align:center;margin-top:1rem"><button class="refresh" onclick="load()">Refresh</button></div>
+
+  <div style="text-align:center;margin-top:1.5rem">
+    <button class="refresh" onclick="loadAll()">Refresh</button>
+  </div>
+
   <script>
     const A='https://search.wyattau.com/api';
-    async function load(){await Promise.all([health(),trending(),sites()]);}
-    async function health(){try{const r=await fetch(A+'/health');const d=await r.json();document.getElementById('status').textContent=d.status==='ok'?'✅':'❌';document.getElementById('entries').textContent=d.totalEntries;document.getElementById('sites').textContent=d.siteCount;document.getElementById('updated').textContent=new Date(d.lastUpdated).toLocaleString();}catch{document.getElementById('status').textContent='❌';}}
-    async function trending(){try{const r=await fetch(A+'/trending');const d=await r.json();const t=document.getElementById('trend');if(!d.trending||!d.trending.length){t.innerHTML='<tr><td colspan="3" style="text-align:center;color:#64748b">None</td></tr>';return;}t.innerHTML=d.trending.sort((a,b)=>b.count-a.count).map((x,i)=>'<tr><td>'+(i+1)+'</td><td><b>'+x.query+'</b></td><td>'+x.count+'</td></tr>').join('');}catch{}}
-    async function sites(){try{const r=await fetch(A+'/sites');const d=await r.json();document.getElementById('siteList').innerHTML=d.sites.map(s=>'<tr><td><span class="badge" style="background:'+s.color+'20;color:'+s.color+'">'+s.name+'</span></td><td>'+s.url+'</td><td>'+s.authority+'</td></tr>').join('');}catch{}}
-    load();setInterval(load,60000);
+    const SITES={dse:'DSE',ib:'IB',alevel:'A-Level',university:'University',qualifications:'Qualifications',programming:'Programming',infrastructure:'Infrastructure',languages:'Languages',tools:'Tools'};
+    const COLORS={dse:'#ff6b35',ib:'#0077b6',alevel:'#2a9d8f',university:'#9b5de5',qualifications:'#f4a261',programming:'#06d6a0',infrastructure:'#ef476f',languages:'#118ab2',tools:'#073b4c'};
+
+    async function loadAll(){await Promise.all([loadHealth(),loadAnalytics()]);}
+
+    async function loadHealth(){
+      try{const r=await fetch(A+'/health');const d=await r.json();
+      document.getElementById('status').textContent=d.status==='ok'?'✅':'❌';
+      document.getElementById('entries').textContent=d.totalEntries;
+      document.getElementById('sites').textContent=d.siteCount;}catch{document.getElementById('status').textContent='❌';}
+    }
+
+    async function loadAnalytics(){
+      try{const r=await fetch(A+'/analytics');const d=await r.json();
+      document.getElementById('totalSearches').textContent=d.totalSearches;
+      document.getElementById('ctr').textContent=d.clickThroughRate+'%';
+      document.getElementById('uniqueQueries').textContent=d.uniqueQueryCount;
+
+      // Volume chart
+      const chart=document.getElementById('volumeChart');
+      const labels=document.getElementById('volumeLabels');
+      if(d.dailyVolume.length>0){
+        const max=Math.max(...d.dailyVolume.map(d=>d.count));
+        chart.innerHTML=d.dailyVolume.map(d=>'<div class="chart-bar" style="height:'+(d.count/max*100)+'%" title="'+d.date+': '+d.count+'"></div>').join('');
+        labels.innerHTML='<span>'+d.dailyVolume[0].date+'</span><span>'+d.dailyVolume[d.dailyVolume.length-1].date+'</span>';
+      }
+
+      // Top queries
+      const tq=document.getElementById('topQueries');
+      if(d.topQueries.length>0){
+        tq.innerHTML=d.topQueries.map((q,i)=>'<tr><td>'+(i+1)+'</td><td><b>'+q.query+'</b></td><td>'+q.count+'</td></tr>').join('');
+      }else{tq.innerHTML='<tr><td colspan="3" style="text-align:center;color:#64748b">No searches yet</td></tr>';}
+
+      // Site clicks
+      const sc=document.getElementById('siteClicks');
+      if(d.siteClicks.length>0){
+        const maxC=Math.max(...d.siteClicks.map(s=>s.count));
+        sc.innerHTML=d.siteClicks.map(s=>'<tr><td><span class="badge" style="background:'+(COLORS[s.site]||'#666')+'20;color:'+(COLORS[s.site]||'#666')+'">'+(SITES[s.site]||s.site)+'</span></td><td>'+s.count+'</td><td><div class="bar-container"><div class="bar" style="width:'+(s.count/maxC*100)+'%;background:'+(COLORS[s.site]||'#666')+'"></div></div></td></tr>').join('');
+      }else{sc.innerHTML='<tr><td colspan="3" style="text-align:center;color:#64748b">No clicks yet</td></tr>';}
+      }catch{console.error('Failed to load analytics');}
+    }
+
+    loadAll();
+    setInterval(loadAll,30000);
   </script>
 </body>
 </html>`;
