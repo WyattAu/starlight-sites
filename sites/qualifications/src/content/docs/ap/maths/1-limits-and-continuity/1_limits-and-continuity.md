@@ -553,7 +553,7 @@ At least one zero in $(a, b)$.
 If $f$ is continuous on a closed interval $[a, b]$Then $f$ attains both an absolute maximum and an
 Absolute minimum on $[a, b]$.
 
-:::warning The EVT requires continuity on a **closed** interval. The function $f(x) = \frac{1}{x}$
+:::caution The EVT requires continuity on a **closed** interval. The function $f(x) = \frac{1}{x}$
 On $(0, 1)$ has no maximum, despite being continuous.
 :::
 

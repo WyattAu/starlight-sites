@@ -48,7 +48,7 @@ $$\mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}$$
 Where $U(B)$ is the utility (or value) of alternative $B$. This is not the sum of all alternatives —
 Only the single best one that was rejected.
 
-:::warning Warning This is incorrect. It is the value of the _next-best_ alternative only. If you
+:::caution Warning This is incorrect. It is the value of the _next-best_ alternative only. If you
 spend £10 on a book When your next-best option is a film ticket costing £10, the opportunity cost is
 the film ticket — Not the book, not the £10 itself, and not the film ticket _plus_ a coffee.
 :::

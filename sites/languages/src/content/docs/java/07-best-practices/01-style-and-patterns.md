@@ -477,7 +477,7 @@ The `verify` API with `never()` ensures that when an operation fails partway thr
 Effects leak through. The `argThat` matcher enables assertions on the arguments passed to
 Collaborators without requiring an equality implementation that may not exist on the domain object.
 
-:::warning Over-Mocking If a test requires more than three mocks, the unit under test likely has too
+:::caution Over-Mocking If a test requires more than three mocks, the unit under test likely has too
 Many responsibilities. Restructure the code rather than adding more mocks. Tests that mock
 Extensively tend to be brittle: they break when implementation details change even when the
 Externally observable behavior is correct.
@@ -1348,7 +1348,7 @@ Total memory, which causes containers to be killed by the OOM killer:
 -XX:InitialRAMPercentage=50.0
 ```
 
-:::warning Production Advice Never set `-XX:+AlwaysPreTouch` without understanding its implications.
+:::caution Production Advice Never set `-XX:+AlwaysPreTouch` without understanding its implications.
 This flag touches every page in the heap at JVM startup, which forces the operating system to
 Allocate physical memory for the entire heap immediately. It eliminates page fault pauses during
 Runtime, but it delays startup and can cause the container to be killed if the memory limit is

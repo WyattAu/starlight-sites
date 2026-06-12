@@ -702,7 +702,7 @@ fn first<T, const N: usize>(arr: &[T; N]) -> Option<&T> {
 }
 ```
 
-:::warning
+:::caution
 
 Const generics with expressions (like `N > 0`) are evaluated at compile time but have limitations.
 Not all operations are supported in const contexts. Check the Rust reference for the current

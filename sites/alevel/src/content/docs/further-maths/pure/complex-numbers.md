@@ -305,7 +305,7 @@ Equating arguments: $y = \dfrac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2k\pi$ for
 
 $$z = \ln 2 + i\!\left(\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2k\pi\right), \quad k \in \mathbb{Z}$$
 
-:::warning Common Pitfall The complex exponential is periodic with period $2\pi i$So equations of
+:::caution Common Pitfall The complex exponential is periodic with period $2\pi i$So equations of
 The form $e^z = w$ have infinitely many solutions. Always include the general solution with $2k\pi$.
 :::
 
@@ -429,7 +429,7 @@ $\blacksquare$
 
 ## 7. Common Pitfalls
 
-:::warning warning
+:::caution warning
 
 1. **Argument range:** Always specify whether your argument is the principal value $(-\pi, \pi]$ or
    the general value. When multiplying or dividing complex numbers, the resulting argument may fall

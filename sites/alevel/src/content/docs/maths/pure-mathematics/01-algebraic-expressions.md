@@ -66,7 +66,7 @@ $$
 \end{aligned}
 $$
 
-:::warning A common error is to "rationalise" by splitting the fraction:
+:::caution A common error is to "rationalise" by splitting the fraction:
 $\frac◆LB◆a + b\sqrt{c}◆RB◆◆LB◆d◆RB◆ \neq \frac{a}{d} + b\sqrt◆LB◆\frac{c}{d}◆RB◆$ . Always
 distribute the Denominator correctly.
 :::
@@ -311,7 +311,7 @@ $$
 
 $$\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}$$
 
-:::warning You can only cancel _factors_, not terms. $\frac{x + 3}{x}$ is NOT equal to $3$. The $x$
+:::caution You can only cancel _factors_, not terms. $\frac{x + 3}{x}$ is NOT equal to $3$. The $x$
 In the denominator is a factor of the whole expression, but the $x$ in the numerator is only one
 Term.
 :::

@@ -224,7 +224,7 @@ sed -i 's/old/new/g' file.txt
 sed -i 's/192.168.1.100/10.0.0.1/g' /etc/hosts /etc/resolv.conf
 ```
 
-:::warning
+:::caution
 
 `sed -i` on symlinks will replace the symlink with a regular file containing the edited content. If
 The original file was a symlink, the link is destroyed. Always use `sed -i.bak` in production

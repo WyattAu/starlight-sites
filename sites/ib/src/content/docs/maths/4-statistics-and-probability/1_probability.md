@@ -92,7 +92,7 @@ $$
 P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)
 $$
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Independence is NOT the same as mutual exclusivity. In fact, if two events are both mutually
 Exclusive and both have non-zero probability, they CANNOT be independent (since
@@ -205,7 +205,7 @@ $$
 P(\mathrm{disease}|\mathrm{positive}) = \frac{0.01 \times 0.99}{0.0594} = \frac{0.0099}{0.0594} \approx 0.167
 $$
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 This result (approximately 16.7%) is counterintuitively low. Always work through Bayes' theorem
 Carefully rather than relying on intuition for conditional probability questions.
@@ -364,7 +364,7 @@ $$
 
 Most questions require using the cumulative binomial function on a GDC.
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 For binomial probability questions, always state the distribution : "$X \sim B(n, p)$ Where...". Use
 your GDC for calculations involving large $n$ or cumulative probabilities.

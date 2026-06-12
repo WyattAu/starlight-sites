@@ -154,7 +154,7 @@ A practical method uses conducting paper with electrodes painted on:
 3. Plot the equipotential lines by joining points of equal voltage.
 4. Draw field lines perpendicular to the equipotentials.
 
-:::warning Warning The field is zero on an equipotential. The field is non-zero and perpendicular;
+:::caution Warning The field is zero on an equipotential. The field is non-zero and perpendicular;
 only the component Tangent to the surface is zero.
 :::
 
@@ -244,7 +244,7 @@ $$S = \frac{y}{V_d} = \frac{eL^2}{2m_e v^2 d} = \frac◆LB◆L^2◆RB◆◆LB◆
 Where $L$ is the plate length and $d$ is the plate separation. Higher sensitivity requires longer
 Plates, closer spacing, and lower acceleration voltage.
 
-:::warning Common Pitfall A common error is to confuse the acceleration voltage $V_{\mathrm{acc}}$
+:::caution Common Pitfall A common error is to confuse the acceleration voltage $V_{\mathrm{acc}}$
 (which determines beam speed) with the deflection voltage $V_d$ (which determines deflection). The
 Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{acc}}$.
 :::

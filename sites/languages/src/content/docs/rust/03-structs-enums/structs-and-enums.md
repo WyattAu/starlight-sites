@@ -141,7 +141,7 @@ struct Aligned {
 }
 ```
 
-:::warning
+:::caution
 
 `#[repr(packed)]` makes every field reference potentially misaligned. Accessing a `packed` struct's
 Fields through references requires `unsafe` because the compiler cannot guarantee alignment for
@@ -665,7 +665,7 @@ struct User {
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
 
-:::warning
+:::caution
 
 Deriving `PartialOrd` compares fields in declaration order. If you change the order of fields in the
 Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` field will fail

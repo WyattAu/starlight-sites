@@ -125,7 +125,7 @@ Dramatically as data must be folded from SLC into the TLC/QLC area.
 | WD Black SN850X 2TB       | ~300 GB        | 6,600 MB/s      | 1,500 MB/s |
 | Crucial P3 Plus 2TB (QLC) | ~160 GB        | 5,000 MB/s      | 200 MB/s   |
 
-:::warning QLC SSDs with full SLC caches can experience catastrophic write speed drops — from 5,000
+:::caution QLC SSDs with full SLC caches can experience catastrophic write speed drops — from 5,000
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
 For write-heavy workloads (video editing, database, OS drive).
 :::
@@ -188,7 +188,7 @@ sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 ```
 
-:::warning On ZFS, do not use `fstrim`. ZFS handles discard internally and the `autotrim` pool
+:::caution On ZFS, do not use `fstrim`. ZFS handles discard internally and the `autotrim` pool
 Property controls TRIM behavior.
 :::
 
@@ -244,7 +244,7 @@ ZFS eliminates many traditional RAID problems:
 - Self-healing repairs corrupted data from parity/mirror copies
 - Scrubbing proactively verifies all data integrity
 
-:::warning Never use hardware RAID with ZFS. ZFS needs direct access to individual disks to manage
+:::caution Never use hardware RAID with ZFS. ZFS needs direct access to individual disks to manage
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
 From performing its error detection and correction.
 :::
@@ -554,7 +554,7 @@ sudo nvme fw-download /dev/nvme0n1 --fw=/path/to/firmware.bin --save
 - Before initial deployment of a new drive
 - When a security vulnerability is disclosed in the firmware
 
-:::warning Firmware updates are irreversible on most drives. A failed firmware update can brick the
+:::caution Firmware updates are irreversible on most drives. A failed firmware update can brick the
 Drive. Ensure the update process is not interrupted (connect the drive to a UPS, close all
 Applications accessing the drive).
 :::
@@ -887,7 +887,7 @@ hdparm -y /dev/sda     # Immediately enter standby
 hdparm -B 127 /dev/sda  # 1 (aggressive) to 255 (disabled)
 ```
 
-:::warning Frequent HDD spin-up/spin-down cycles increase wear. Set standby timeout to a reasonable
+:::caution Frequent HDD spin-up/spin-down cycles increase wear. Set standby timeout to a reasonable
 Value (15–30 minutes) rather than a short interval.
 
 ## Summary

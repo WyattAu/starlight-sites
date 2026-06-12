@@ -76,7 +76,7 @@ Before libpcap sees it.
 | Encrypted traffic analysis       | On the endpoint (before encryption / after decryption) |
 | Container networking             | On the host's veth interface or inside the container   |
 
-:::warning
+:::caution
 
 SPAN ports can drop packets under heavy load. The SPAN port's ASIC may not be able to mirror
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
@@ -578,7 +578,7 @@ sysctl -w net.netfilter.nf_conntrack_tcp_timeout_established=600
 cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 ```
 
-:::warning
+:::caution
 
 If the conntrack table fills up, new connections are dropped with
 `nf_conntrack: table full, dropping packet` messages in dmesg. This is a common cause of seemingly

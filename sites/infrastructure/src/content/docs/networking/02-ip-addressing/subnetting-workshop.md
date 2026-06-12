@@ -171,7 +171,7 @@ WAN 4:       172.16.1.118/31   (2 addresses, 2 usable)
 Every allocation must be verified against all others. The boundary addresses must align to the
 Subnet size.
 
-:::warning
+:::caution
 
 A common VLSM error is overlapping subnets. If you allocate `172.16.1.0/26` (`.0` through `.63`) and
 Then try to allocate `172.16.1.32/27`That overlaps because `.32` falls inside the `/26` range.
@@ -430,7 +430,7 @@ access-list 10 permit 172.16.4.0 0.0.3.255
 access-list 10 deny 192.168.0.0 0.0.254.255
 ```
 
-:::warning
+:::caution
 
 Wildcard masks are NOT the same as subnet masks, and the mental inversion is a constant source of
 Errors. Always double-check by verifying: `subnet_mask + wildcard_mask = 255.255.255.255` for each
@@ -650,7 +650,7 @@ This covers `10.0.0.0` through `10.7.255.255`. It includes more than the four sp
 Also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
 Routes or accept the over-summarization.
 
-:::warning
+:::caution
 
 This is a common trap in exam questions. The four networks `10.1-4.0/16` do NOT cleanly summarize to
 A single prefix without including `10.0``10.5``10.6`And `10.7`. If the question requires an Exact
@@ -844,7 +844,7 @@ VPC: 10.0.0.0/16 (65,536 addresses)
 AWS reserves 5 addresses per subnet (network, VPC router, DNS server, future use, broadcast). Plan
 Accordingly.
 
-:::warning
+:::caution
 
 AWS reserves the first 4 and the last IP address in each subnet. A `/24` gives 254 usable addresses
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.

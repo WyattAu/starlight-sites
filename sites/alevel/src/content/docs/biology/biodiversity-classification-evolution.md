@@ -81,7 +81,7 @@ Genetic diversity within a population can be measured by:
 Modern molecular techniques allow direct measurement: DNA sequencing, gel electrophoresis of
 Proteins, and PCR-based methods to quantify allele variation.
 
-:::warning Warning Only one component. Simpson's Index incorporates both richness and evenness,
+:::caution Warning Only one component. Simpson's Index incorporates both richness and evenness,
 giving a more accurate Measure of diversity. A community dominated by one species with many rare
 species has low diversity Despite high richness.
 :::
@@ -156,7 +156,7 @@ A **cladogram** is constructed by comparing homologous characteristics:
 The principle of **parsimony** is applied: the cladogram requiring the fewest evolutionary changes
 Is preferred.
 
-:::warning Common Pitfall Students often confuse analogous and homologous structures. **Homologous
+:::caution Common Pitfall Students often confuse analogous and homologous structures. **Homologous
 Structures** share a common evolutionary origin (e.g., the pentadactyl limb in mammals, birds,
 Reptiles, and amphibians). **Analogous structures** perform a similar function but have different
 Evolutionary origins (e.g., the wings of insects and birds). Only homologous structures are
@@ -296,7 +296,7 @@ $p = 1 - 0.2 = 0.8$. Expected under H-W: $p^2 = 0.64$ ($320$ individuals), $2pq 
 Individuals), $q^2 = 0.04$ ($20$ individuals). The observed frequencies match H-W predictions,
 Suggesting the population is approximately in equilibrium.
 
-:::warning Common Pitfall Students sometimes think Hardy-Weinberg equilibrium means no evolution is
+:::caution Common Pitfall Students sometimes think Hardy-Weinberg equilibrium means no evolution is
 Occurring. It describes the theoretical conditions under which allele frequencies remain constant.
 If a population deviates from H-W, this is evidence that evolutionary forces (selection, drift, gene
 Flow, mutation, non-random mating) are acting.
@@ -344,7 +344,7 @@ barrier), populations Diverge and may eventually become separate species.
 | Gene flow         | Homogenising (between populations) | Variable      | Prevents speciation         |
 | Mutation          | Random (new alleles)               | Very slow     | Source of new variation     |
 
-:::warning Common Pitfall Students often think that evolution always leads to "improvement" or
+:::caution Common Pitfall Students often think that evolution always leads to "improvement" or
 "progress." Natural Selection produces adaptations to the current environment, not to some absolute
 standard of fitness. What is advantageous in one environment may be disadvantageous in another.
 Genetic drift produces Changes without regard to fitness at all.
@@ -469,7 +469,7 @@ Since $\chi^2 = 22.84 \gg 3.84$We reject the null hypothesis. The population is 
 Hardy-Weinberg equilibrium. Possible explanations include non-random mating, selection against one
 Genotype, or population substructure (Wahlund effect).
 
-:::warning Common Pitfall When calculating degrees of freedom for the chi-squared test with
+:::caution Common Pitfall When calculating degrees of freedom for the chi-squared test with
 Hardy-Weinberg data, Students often incorrectly use $\mathrm{df} = n - 1$ (where $n$ is the number
 of genotypes). The Correct formula accounts for the fact that allele frequencies are estimated from
 the data, reducing the Degrees of freedom further. For a two-allele system, $\mathrm{df} = 1$.

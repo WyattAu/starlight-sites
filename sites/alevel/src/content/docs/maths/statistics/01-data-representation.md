@@ -73,7 +73,7 @@ Mode.
 - The median is robust to outliers but ignores the magnitude of extreme values.
 - The mode is useful for categorical data.
 
-:::warning Warning Mean. A few extreme values can pull the mean far from the centre of the data.
+:::caution Warning Mean. A few extreme values can pull the mean far from the centre of the data.
 :::
 <hr />
 
@@ -145,7 +145,7 @@ $$\mathrm{Upper fence} = Q_3 + 1.5 \times \mathrm{IQR}$$
 
 Values outside these fences are potential outliers.
 
-:::warning Warning Some use $1.5 \times$ IQR, others use different multipliers.
+:::caution Warning Some use $1.5 \times$ IQR, others use different multipliers.
 :::
 <hr />
 
@@ -289,7 +289,7 @@ To construct a box plot:
    the largest data value within the upper fence.
 5. Plot any values outside the fences as individual points (these are the outliers).
 
-:::warning Warning Fences themselves. If no values lie outside the fences, the whiskers extend to
+:::caution Warning Fences themselves. If no values lie outside the fences, the whiskers extend to
 the minimum and Maximum of the dataset.
 :::
 
@@ -312,7 +312,7 @@ When two or more box plots are drawn on the same scale, compare:
 - **Skewness**: do the distributions differ in shape?
 - **Outliers**: does one distribution have more extreme values?
 
-:::warning Warning Such as "distribution A has a higher median" is incomplete without also
+:::caution Warning Such as "distribution A has a higher median" is incomplete without also
 addressing how the spreads Compare.
 :::
 

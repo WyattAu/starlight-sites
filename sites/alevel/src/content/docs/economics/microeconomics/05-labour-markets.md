@@ -357,7 +357,7 @@ $w_{min} > w_m = MCL(L_m) = MRP_L(L_m)$). $\blacksquare$
 The optimal minimum wage under monopsony is $w_c$ (the competitive wage), which achieves the
 Competitive outcome: $L = L_c$, $w = w_c$.
 
-:::warning Common Pitfall The statement "minimum wages always cause unemployment" is only true in
+:::caution Common Pitfall The statement "minimum wages always cause unemployment" is only true in
 Perfectly competitive labour markets. Under monopsony (e.g., large employers in small towns, certain
 Professional sports leagues), a minimum wage can increase employment. Always state the market
 Structure.

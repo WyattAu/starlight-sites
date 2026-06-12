@@ -162,7 +162,7 @@ while True:
     print("Try again")
 ```
 
-:::warning Be careful with WHILE loops to avoid infinite loops. Always ensure the loop condition
+:::caution Be careful with WHILE loops to avoid infinite loops. Always ensure the loop condition
 Will eventually become False. A common mistake is forgetting to update the loop variable inside the
 Loop body.
 :::
@@ -685,7 +685,7 @@ DELETE FROM Student
 WHERE Score < 50;
 ```
 
-:::warning Be very careful with UPDATE and DELETE without a WHERE clause. They will modify or delete
+:::caution Be very careful with UPDATE and DELETE without a WHERE clause. They will modify or delete
 ALL records in the table. Always double-check your WHERE clause before executing.
 :::
 

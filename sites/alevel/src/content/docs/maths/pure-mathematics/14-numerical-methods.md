@@ -41,7 +41,7 @@ The sign change theorem tells us a root **exists** but says nothing about:
 - How many roots are in the interval (there could be 1, 3, 5, ...).
 - The exact location of the root.
 
-:::warning A sign change is **sufficient but not necessary** for a root. If $f(x) = x^2$Then
+:::caution A sign change is **sufficient but not necessary** for a root. If $f(x) = x^2$Then
 $f(-1) = f(1) = 1$ (no sign change), but there is a root at $x = 0$. Additionally, a sign change
 Could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
 $f(1) = 1$But no root.
@@ -171,7 +171,7 @@ Newton-Raphson fails when:
 - $f'(x_n)$ is close to zero (the next iterate jumps far away).
 - The starting point is not close enough to the root.
 
-:::warning Warning A different starting point.
+:::caution Warning A different starting point.
 :::
 ### 3.4 Horizontal tangent failure
 
@@ -191,7 +191,7 @@ The root is near $\alpha \approx -2.10$So the iterate has been sent in the wrong
 iterate $x_2$ will be pulled back, but convergence is erratic compared to a well-chosen Starting
 point.
 
-:::warning Warning Tangent is not close to horizontal near your starting point.
+:::caution Warning Tangent is not close to horizontal near your starting point.
 :::
 ### 3.5 Slow convergence near inflection points
 

@@ -237,7 +237,7 @@ REPEAT UNTIL (condition)
 }
 ```
 
-:::warning `REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition
+:::caution `REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition
 Is checked. This differs from a `WHILE` loop, which is a pre-test loop.
 :::
 
@@ -271,7 +271,7 @@ INSERT(list, 2, 99)
 LENGTH(list)
 ```
 
-:::warning AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not
+:::caution AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not
 `list[0]`. This differs from Java, Python, and most programming languages.
 :::
 

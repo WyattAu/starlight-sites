@@ -90,7 +90,7 @@ Status codes indicate the result of the request. They are grouped into five clas
 | 307  | Temporary Redirect | Temporary redirect (method preserved)              |
 | 308  | Permanent Redirect | Permanent redirect (method preserved)              |
 
-:::warning
+:::caution
 
 The distinction between 301/302 and 307/308 matters for methods. 301 and 302 allow the client to
 Change the method from POST to GET on redirect. 307 and 308 preserve the original method. If you
@@ -471,7 +471,7 @@ Values (e.g., one for gzip, one for br).
 Vary: Accept-Encoding, Origin
 ```
 
-:::warning
+:::caution
 
 Misconfigured `Vary` headers are a common source of caching bugs. If `Vary: *` is set, the response
 Is never cached. If `Vary` omits a header that affects the response (e.g., `Vary: Accept-Encoding`
@@ -503,7 +503,7 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 | `Max-Age=3600`        | Expires in 3600 seconds                           |
 | `Expires=...`         | Absolute expiration date                          |
 
-:::warning
+:::caution
 
 Always set `Secure``HttpOnly`And `SameSite` on session cookies. Failing to set `HttpOnly` allows XSS
 attacks to steal session tokens. Failing to set `SameSite` allows CSRF attacks.
@@ -859,7 +859,7 @@ WebSocket frames have a 2-14 byte header (depending on payload length) and suppo
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
 Over TLS).
 
-:::warning
+:::caution
 
 WebSocket connections bypass HTTP caching, CORS, and many security controls. Use WebSocket only when
 You need persistent, low-latency, bidirectional communication. For periodic updates, Server- Sent

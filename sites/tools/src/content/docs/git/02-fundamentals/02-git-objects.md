@@ -172,7 +172,7 @@ Each entry is encoded as `<mode> <name>\0<20-byte-sha1>` (binary SHA-1, not hex)
 **sorted** lexicographically by name, which is critical for canonical hashing — the same directory
 must always produce the same tree hash.
 
-:::warning
+:::caution
 
 Git sorts tree entries in a specific order: directories sort as if they have a trailing `/`. This
 means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters

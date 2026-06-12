@@ -44,7 +44,7 @@ Key directives:
     trust-ad       — trust AD flag in responses
 ```
 
-:::warning
+:::caution
 
 On modern systems, `/etc/resolv.conf` is often a symlink managed by `systemd-resolved` or
 `NetworkManager`. Manual edits will be overwritten. Check the symlink target:

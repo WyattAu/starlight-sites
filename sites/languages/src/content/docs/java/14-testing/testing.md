@@ -400,7 +400,7 @@ System.out.println(spyList.size()); // 100 (stubbed)
 System.out.println(spyList.get(0));   // "real" (real method called)
 ```
 
-:::warning When spying, use `doReturn().when(spy)` instead of `when(spy).thenReturn()`. The latter
+:::caution When spying, use `doReturn().when(spy)` instead of `when(spy).thenReturn()`. The latter
 Calls the real method to get the return value before stubbing, which can have side effects or throw
 Exceptions.
 :::
@@ -698,7 +698,7 @@ tasks.check {
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
-:::warning 100% coverage does not mean bug-free code. Coverage measures execution paths, not
+:::caution 100% coverage does not mean bug-free code. Coverage measures execution paths, not
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
 To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.

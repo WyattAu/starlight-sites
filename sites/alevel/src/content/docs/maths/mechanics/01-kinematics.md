@@ -163,7 +163,7 @@ Integrating, or equivalently add the magnitudes of the areas above and below the
 The **gradient** of the tangent to a $v$-$t$ curve gives the instantaneous acceleration. For a
 Straight-line $v$-$t$ graph, the acceleration is constant and equals the gradient of that line.
 
-:::warning Displacement $\neq$ distance. If a particle moves $10\,\mathrm{m}$ forwards and then
+:::caution Displacement $\neq$ distance. If a particle moves $10\,\mathrm{m}$ forwards and then
 $10\,\mathrm{m}$ backwards, its displacement is $0$ but its total distance is $20\,\mathrm{m}$. On a
 $v$-$t$ graph, the signed areas cancel (displacement), but the unsigned areas add (distance).
 :::

@@ -71,7 +71,7 @@ class DynamicArray:
         return value
 ```
 
-:::warning
+:::caution
 
 Python `list` uses a growth factor of approximately 1.125 (9/8) plus some overallocation. This is
 More conservative than the textbook factor of 2, trading slightly more frequent reallocations for
@@ -447,7 +447,7 @@ def murmurhash3_mix(key: int) -> int:
     return key
 ```
 
-:::warning
+:::caution
 
 Python's built-in `hash()` is not deterministic across process invocations (Python 3.3+ enables hash
 Randomisation by default via `PYTHONHASHSEED`). This is a security measure against HashDoS attacks.

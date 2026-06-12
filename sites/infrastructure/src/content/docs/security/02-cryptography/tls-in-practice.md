@@ -33,7 +33,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
   -addext "subjectAltName=DNS:localhost,IP:127.0.0.1"
 ```
 
-:::warning
+:::caution
 
 Self-signed certificates produce browser warnings and client errors unless the CA certificate is
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
@@ -290,7 +290,7 @@ chown root:root server.key
 openssl rsa -in server-encrypted.key -out server.key
 ```
 
-:::warning
+:::caution
 
 Never commit private keys to version control. Use a secrets manager (HashiCorp Vault, AWS Secrets
 Manager, Azure Key Vault) or a provisioning tool (Ansible Vault, SOPS) to manage private keys.
@@ -456,7 +456,7 @@ ssl_early_data on;
 # - Use a single-use token to detect replays
 ```
 
-:::warning
+:::caution
 
 0-RTT data can be replayed by an attacker who captures the client's initial message. Only enable
 0-RTT for idempotent, safe-to-replay requests (e.g., GET requests, non-critical analytics). Never

@@ -788,7 +788,7 @@ def boyer_moore_search(text, pattern):
     return matches
 ```
 
-:::warning
+:::caution
 
 Boyer-Moore's worst case is $O(nm)$Which is worse than KMP. In practice, Boyer-Moore is sublinear On
 average (it examines fewer than $n$ characters of the text). For guaranteed $O(n)$ worst case, Use

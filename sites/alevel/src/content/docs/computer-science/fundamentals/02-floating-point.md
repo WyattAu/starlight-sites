@@ -198,7 +198,7 @@ $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 3. **Cancellation error:** Subtracting nearly equal numbers loses significant digits
 4. **Accumulation error:** Errors compound over many operations
 
-:::warning Pitfall Never use `==` to compare floating-point numbers. Instead, check if
+:::caution Pitfall Never use `==` to compare floating-point numbers. Instead, check if
 $|a - b| \lt \epsilon$ for some tolerance.
 :::
 

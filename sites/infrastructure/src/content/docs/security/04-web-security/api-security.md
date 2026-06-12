@@ -42,7 +42,7 @@ def validate_api_key():
     g.api_key_info = API_KEYS[api_key]
 ```
 
-:::warning
+:::caution
 
 API keys provide weak authentication: they are long-lived shared secrets that cannot be scoped to a
 User or rotated. Use them only for server-to-server communication where OAuth 2.0 is Impractical.

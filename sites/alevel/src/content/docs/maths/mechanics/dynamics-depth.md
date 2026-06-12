@@ -69,7 +69,7 @@ $$R - mg = ma$$
 
 (c) Decelerating upward means $a = -3$: $R = 70(9.8 - 3) = 70 \times 6.8 = 476\;\mathrm{N}$
 
-:::warning Warning The normal reaction is **not always equal to $mg$**. It equals $mg$ only when
+:::caution Warning The normal reaction is **not always equal to $mg$**. It equals $mg$ only when
 there is no vertical Acceleration. In an accelerating lift, on an inclined plane, or in circular
 motion, $R$ differs From $mg$.
 :::
@@ -181,7 +181,7 @@ Since $a \gt 0$Our assumption was correct.
 
 $T = 5(g - a) = 5(9.8 - 0.754) = 45.23\;\mathrm{N}$
 
-:::warning Common Pitfall When a pulley problem involves an inclined plane, always state your
+:::caution Common Pitfall When a pulley problem involves an inclined plane, always state your
 assumption about which Direction the system moves. If the resulting acceleration is negative, your
 assumption was wrong And the system moves the other way.
 :::
@@ -347,7 +347,7 @@ $$2v_1 + 3(v_1 + 5) = 0 \implies 5v_1 = -15 \implies v_1 = -3\;\mathrm{m\,s^{-1}
 
 $$v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}$$
 
-:::warning Warning The restitution equation uses **relative velocities with the correct signs**. The
+:::caution Warning The restitution equation uses **relative velocities with the correct signs**. The
 speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$But the signs in the
 formula must Be consistent with your chosen positive direction.
 :::

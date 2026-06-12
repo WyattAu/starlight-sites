@@ -70,7 +70,7 @@ String s2 = "hello";
 System.out.println(s1 == s2); // true
 ```
 
-:::warning Do not intern user-controlled strings at scale. The pool is unbounded, and interning
+:::caution Do not intern user-controlled strings at scale. The pool is unbounded, and interning
 Billions of unique strings (e.g., every URL your crawler visits) will cause `OutOfMemoryError`.
 Intern only strings that appear frequently and have bounded cardinality.
 :::
@@ -319,7 +319,7 @@ emoji.codePoints().forEach(cp -> {
 // U+0048 U+0065 U+006C U+006C U+006F U+0020 U+1F30D
 ```
 
-:::warning Never use `charAt` or iterate `char`-by-`char` on strings that may contain surrogate
+:::caution Never use `charAt` or iterate `char`-by-`char` on strings that may contain surrogate
 Pairs. Use `codePoints()``codePointAt()`Or iterate with `Character.isHighSurrogate` checks.
 :::
 
@@ -464,7 +464,7 @@ CharsetEncoder strict = StandardCharsets.UTF_8.newEncoder()
     .onUnmappableCharacter(CodingErrorAction.REPORT);
 ```
 
-:::warning Never rely on the platform default charset. It varies by operating system and locale
+:::caution Never rely on the platform default charset. It varies by operating system and locale
 Setting. A program that works on Linux (UTF-8 default) will mangle data on Windows (Windows-1252
 Default) if you use `getBytes()` or `new String(byte[])` without an explicit charset. Always use
 `StandardCharsets.UTF_8` or a specific `Charset` constant.

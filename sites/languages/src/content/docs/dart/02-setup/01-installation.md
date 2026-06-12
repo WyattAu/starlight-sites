@@ -87,7 +87,7 @@ setx PATH "%PATH%;C:\development\flutter\bin"
 flutter doctor
 ```
 
-:::warning
+:::caution
 
 Do not install Flutter in directories that require elevated privileges (`C:\Program Files`
 `/usr/local`). The Flutter CLI needs write access to its own directory for SDK updates.

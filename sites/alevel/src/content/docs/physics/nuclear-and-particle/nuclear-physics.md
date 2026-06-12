@@ -47,7 +47,7 @@ $$d = \frac◆LB◆79 \times (1.60 \times 10^{-19})^2◆RB◆◆LB◆2\pi \times
 This gives an upper bound on the nuclear radius of gold ($\sim 10^{-14}$ m, compared to the atomic
 Radius of $\sim 10^{-10}$ m).
 
-:::warning Warning Not the radius itself. The alpha particle never actually touches the nucleus (the
+:::caution Warning Not the radius itself. The alpha particle never actually touches the nucleus (the
 strong nuclear force Has a very short range).
 :::
 
@@ -194,7 +194,7 @@ $$\prescript{A}{Z}\mathrm{X}^* \to \prescript{A}{Z}\mathrm{X} + \gamma$$
 
 No change in $A$ or $Z$. Weakly ionising, highly penetrating (requires thick lead or concrete).
 
-:::warning Warning Proton, so the total nucleon count is unchanged. Do not write $A - 1$ for beta
+:::caution Warning Proton, so the total nucleon count is unchanged. Do not write $A - 1$ for beta
 decay.
 :::
 

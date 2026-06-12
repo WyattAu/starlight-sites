@@ -51,7 +51,7 @@ For a charge moving perpendicular to the field ($\theta = 90^\circ$):
 
 $$\boxed{F = Bqv}$$
 
-:::warning Common Pitfall The magnetic force is always perpendicular to both $\mathbf{v}$ and
+:::caution Common Pitfall The magnetic force is always perpendicular to both $\mathbf{v}$ and
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
 Change the speed of a charged particle — only its direction.
 :::

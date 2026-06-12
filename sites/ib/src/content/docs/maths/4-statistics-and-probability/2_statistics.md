@@ -127,7 +127,7 @@ $$
 
 :::
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Know whether to use the population formula ($\div N$) or the sample formula ($\div (n-1)$). In IB
 Exams, when data is from a sample, use $s^2$ (dividing by $n-1$). Your GDC uses the sample Formula
@@ -289,7 +289,7 @@ $$
 R = \frac{n\sum x_iy_i - \sum x_i \sum y_i}{\sqrt{[n\sum x_i^2 - (\sum x_i)^2][n\sum y_i^2 - (\sum y_i)^2]}}
 $$
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Correlation does NOT imply causation. Two variables may be strongly correlated without one causing
 The other (they may both be influenced by a third variable).
@@ -380,7 +380,7 @@ Regression line: $y = 0.05 + 1.99x$.
 - **Interpolation**: predicting within the range of data (generally reliable).
 - **Extrapolation**: predicting outside the range of data (unreliable and potentially misleading).
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Never extrapolate beyond the data range without acknowledging the uncertainty. IB exam questions
 Often ask you to comment on the reliability of a prediction.
@@ -515,7 +515,7 @@ Since $13.33 \gt 5.99$We reject $H_0$. Gender and favourite subject are not inde
 
 :::
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 For the chi-squared test, always check that all expected frequencies are at least 5. If any
 $E_i \lt 5$Combine categories or note the limitation.

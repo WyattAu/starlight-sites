@@ -254,7 +254,7 @@ queue.addLast("tail");
 String head = queue.removeFirst();  // O(1)
 ```
 
-:::warning In practice, `ArrayList` is almost always the better choice. The O(1) random access and
+:::caution In practice, `ArrayList` is almost always the better choice. The O(1) random access and
 Cache-friendly contiguous memory layout make `ArrayList` faster for nearly all real-world workloads,
 Even those with frequent insertions. The O(n) cost of shifting elements in `ArrayList` is offset by
 The fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
@@ -519,7 +519,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
 }
 ```
 
-:::warning `treeifyBin()` does not immediately convert to a tree. It first checks whether the table
+:::caution `treeifyBin()` does not immediately convert to a tree. It first checks whether the table
 Has fewer than `MIN_TREEIFY_CAPACITY` (64) entries. If so, it prefers to resize the table instead,
 Because a larger table distributes keys across more buckets and may resolve the collision without
 The overhead of tree nodes. Only when the table already has at least 64 entries does it actually
@@ -681,7 +681,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 }
 ```
 
-:::warning `LinkedHashMap` with `accessOrder = true` is **not thread-safe**. Using it as an LRU
+:::caution `LinkedHashMap` with `accessOrder = true` is **not thread-safe**. Using it as an LRU
 Cache in a concurrent environment requires external synchronization or a wrapper like
 `Collections.synchronizedMap()`. For high-concurrency LRU caches, consider `Caffeine` or
 `Guava Cache` instead.
@@ -830,7 +830,7 @@ private class Itr implements Iterator<E> {
 }
 ```
 
-:::warning Fail-fast behavior is on a best-effort basis. It cannot be guaranteed because the check
+:::caution Fail-fast behavior is on a best-effort basis. It cannot be guaranteed because the check
 Happens in the iterator, not via synchronization. The exception is thrown when the inconsistency is
 Detected, not when it occurs. In a concurrent setting without external synchronization, a fail-fast
 Exception should be used to **detect bugs**, not as a correctness mechanism.
@@ -955,7 +955,7 @@ Both `compareTo()` and `compare()` must satisfy the same contract as `equals()`:
 4. **compare(x, y) == 0 implies sgn(compare(x, z)) == sgn(compare(y, z))** (consistency with equals
    is recommended but not required)
 
-:::warning The recommendation that `compare(x, y) == 0` should imply `x.equals(y)` is important for
+:::caution The recommendation that `compare(x, y) == 0` should imply `x.equals(y)` is important for
 Sorted collections. `TreeSet` and `TreeMap` use the comparator (or `compareTo`) to determine
 Equality, not `equals()`. If the comparator is inconsistent with `equals()`The set will violate The
 `Set` contract (it may contain elements that are equal according to `equals()` but have Different
@@ -1020,7 +1020,7 @@ synchronized (syncList) {
 }
 ```
 
-:::warning Synchronized wrappers are **not** a substitute for `ConcurrentHashMap` in
+:::caution Synchronized wrappers are **not** a substitute for `ConcurrentHashMap` in
 High-concurrency scenarios. Every method call acquires the monitor lock on the wrapper object, so
 Even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
 And fine-grained write locking provides far better throughput.

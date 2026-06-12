@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 
 ## Objective
@@ -67,15 +67,15 @@ discard water layer. Removes water-soluble impurities.
 ### Region-Specific Adjustments
 
 <Tabs groupId="region">
- <TabItem value="uk" label="UK">
+ <TabItem label="UK">
  1. Butter Selection: UK grass-fed butters (e.g., Kerrygold) have higher moisture than Indian makhan. Extend simmering by $2-3$ mins to evaporate water fully.
  2. Climate Adaptation: Ghee solidifies below $20\degree C$ - store in a dark cupboard (avg. UK home temp: $17-22\degree C$). If liquid preferred, keep jar in warm spot (e.g., near oven).
  3. Water Quality: Hard water can impede foam separation. Use filtered water if pre-washing butter.
  </TabItem>
- <TabItem value="us" label="US">
+ <TabItem label="US">
  Think of something.
  </TabItem>
- <TabItem value="de" label="DE">
+ <TabItem label="DE">
  Think of something.
  </TabItem>
 </Tabs>

@@ -451,7 +451,7 @@ async fn main() {
 }
 ```
 
-:::warning
+:::caution
 
 `select!` drops all non-selected futures. If you need to retry a branch, restructure your code to
 Loop and recreate the future.

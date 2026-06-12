@@ -44,7 +44,7 @@ False
 **Why:** $0.1$ cannot be represented exactly in binary floating point (like $1/3$ cannot be
 Represented exactly in decimal).
 
-:::warning Pitfall Never use `==` to compare floating-point numbers. Use `abs(a - b) < epsilon` with
+:::caution Pitfall Never use `==` to compare floating-point numbers. Use `abs(a - b) < epsilon` with
 A small tolerance (e.g., `1e-9`).
 
 ```python
@@ -125,7 +125,7 @@ Codes (e.g., UTF-8 or UTF-16).
 | Split            | `s.split(sep)` | $O(n)$                            |
 | Slice            | `s[a:b]`       | $O(b-a)$                          |
 
-:::warning Pitfall In Python, strings are **immutable** — you cannot modify individual characters.
+:::caution Pitfall In Python, strings are **immutable** — you cannot modify individual characters.
 `s[0] = 'x'` raises a `TypeError`. Use `s = 'x' + s[1:]` to create a new string.
 :::
 

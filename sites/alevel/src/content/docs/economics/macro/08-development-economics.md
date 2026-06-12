@@ -39,7 +39,7 @@ Developing if the gains accrue to a small elite.
 | **Focus**    | Quantity of output       | Quality of life                                   |
 | **Scope**    | Narrow (market output)   | Broad (well-being, institutions, freedoms)        |
 
-:::warning Common Pitfall Do not conflate growth with development. Equatorial Guinea has a high GDP
+:::caution Common Pitfall Do not conflate growth with development. Equatorial Guinea has a high GDP
 Per capita (driven by oil) but low HDI (0.59) due to extreme inequality. Conversely, Costa Rica has
 A moderate GDP per capita but high HDI (0.81) due to strong public services and political stability.
 Always use multiple indicators.
@@ -357,7 +357,7 @@ Social premium for community development projects (schools, healthcare, clean wa
 - **Economic Partnership Agreements (EPAs)**: trade agreements between the EU and developing
   countries.
 
-:::warning Warning Developing country liberalises trade while developed countries maintain subsidies
+:::caution Warning Developing country liberalises trade while developed countries maintain subsidies
 on agriculture (e.g., the EU's Common Agricultural Policy), developing-country farmers cannot
 compete. Trade Liberalisation must be reciprocal and sequenced appropriately.
 

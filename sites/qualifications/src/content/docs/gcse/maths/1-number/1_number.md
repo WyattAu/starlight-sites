@@ -71,7 +71,7 @@ $rs = q \in
 \mathbb{Q}$. Then $S = \frac{q}{r} \in \mathbb{Q}$ (since $R \neq 0$), a contradiction.
 $\blacksquare$
 
-:::warning The product of two irrational numbers can be rational. For example,
+:::caution The product of two irrational numbers can be rational. For example,
 $\sqrt{2} \times \sqrt{2} = 2$. The sum of two irrational numbers can also be rational:
 $(1 + \sqrt{2}) + (1 - \sqrt{2}) = 2$.
 :::
@@ -244,7 +244,7 @@ After the reduction: $120 \times 0.85 = 102$ pounds.
 
 After the increase: $102 \times 1.15 = 117.30$ pounds.
 
-:::warning A 15% decrease followed by a 15% increase does NOT return to the original value. The
+:::caution A 15% decrease followed by a 15% increase does NOT return to the original value. The
 Second percentage is applied to a smaller base.
 :::
 
@@ -434,7 +434,7 @@ Bounds for width: $5.15 \leq w \lt 5.20$
 - Upper bound of area: $8.45 \times 5.20 = 43.94 \mathrm{ cm^2$
 - Lower bound of area: $8.35 \times 5.15 = 43.0025 \mathrm{ cm^2$
 
-:::warning For division, the upper bound of the quotient is NOT upper/upper. It is upper/lower (for
+:::caution For division, the upper bound of the quotient is NOT upper/upper. It is upper/lower (for
 Positive quantities).
 :::
 
@@ -523,7 +523,7 @@ Places, all digits beyond that point are discarded (not rounded).
 
 **Example.** Truncate $\pi$ to 3 decimal places: $3.141$ (not $3.142$).
 
-:::warning Truncation and rounding give different results when the digit immediately after the
+:::caution Truncation and rounding give different results when the digit immediately after the
 Cutoff is 5 or greater. Be sure to read the question carefully.
 
 ## 6. Direct and Inverse Proportion

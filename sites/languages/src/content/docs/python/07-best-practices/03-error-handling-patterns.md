@@ -199,7 +199,7 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 | External API calls       | EAFP + retry                 | Network conditions change         |
 | Configuration validation | LBYL at boundary             | Fail fast, clear error messages   |
 
-:::warning LBYL with file operations has a TOCTOU (Time of Check to Time of Use) race condition:
+:::caution LBYL with file operations has a TOCTOU (Time of Check to Time of Use) race condition:
 
 ```python
 import os
@@ -507,7 +507,7 @@ def binary_search(arr, target):
     return -1
 ```
 
-:::warning Assertions are disabled with `python -O` (optimized mode) because they are controlled by
+:::caution Assertions are disabled with `python -O` (optimized mode) because they are controlled by
 The `__debug__` constant. **Never use assertions for data validation or runtime checks** — they are
 For debugging and documenting invariants:
 

@@ -140,7 +140,7 @@ GCM properties:
 - **Performance**: Hardware-accelerated AES-GCM is extremely fast (AES-NI instruction set).
 - **Tag length**: 128 bits (16 bytes). Shorter tags (96, 64 bits) reduce security margin.
 
-:::warning
+:::caution
 
 GCM has a critical nonce reuse vulnerability. If the same nonce is used twice with the same key, the
 Authentication tag can be forged and confidentiality of both messages is compromised. Use a 96-bit
@@ -436,7 +436,7 @@ mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 # Verify: hmac.compare_digest(mac, received_mac)
 ```
 
-:::warning
+:::caution
 
 Always use `hmac.compare_digest()` for MAC verification, not the `==` operator. The `==` operator is
 Vulnerable to timing attacks — it returns as soon as it finds a mismatch, leaking information about
@@ -554,7 +554,7 @@ key = hashlib.pbkdf2_hmac(
 )
 ```
 
-:::warning
+:::caution
 
 PBKDF2 is a CPU-hard KDF but not memory-hard. It is significantly weaker against GPU attacks than
 Argon2id or scrypt. Use PBKDF2 only for compatibility with existing systems. For new systems, use
@@ -705,7 +705,7 @@ Nonces, IVs, and salts.
 | RDRAND/RDSEED         | Moderate        | Intel/AMD    |
 | Hardware TRNG         | High            | HSMs, TPMs   |
 
-:::warning
+:::caution
 
 Do not use `Math.random()` or `random()` for security purposes. These are PRNGs seeded with
 Predictable values (often timestamps). Use platform CSPRNGs: `/dev/urandom` on Unix,

@@ -70,7 +70,7 @@ let len = w.len();  // calls Vec::len through deref coercion
 assert_eq!(len, 1);
 ```
 
-:::warning
+:::caution
 
 `Deref` coercion can silently bypass the type safety that the newtype provides. If you implement
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
@@ -451,7 +451,7 @@ let p2 = Point { y: 5.0, ..p1 };
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
 
-:::warning
+:::caution
 
 Struct update syntax moves non-`Copy` fields. If the struct contains `String``Vec`Or other
 Heap-allocated types, those are moved (not copied) into the new struct. After the spread, the

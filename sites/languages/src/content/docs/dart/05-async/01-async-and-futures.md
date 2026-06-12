@@ -341,7 +341,7 @@ Flutter provides `compute()` for running functions in isolates:
 final result = await compute(expensiveFunction, inputData);
 ```
 
-:::warning
+:::caution
 
 Isolates are **not threads**. They do not share memory. Data must be serialized (copied) when sent
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership

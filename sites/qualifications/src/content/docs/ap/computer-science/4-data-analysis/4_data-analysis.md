@@ -341,7 +341,7 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-:::warning Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)
+:::caution Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)
 During iteration. Use an Iterator or iterate backwards with an index.
 :::
 
@@ -467,7 +467,7 @@ int c = (int) 2.9;    // 2 (truncation)
 double d = (double) 5 / 2;  // 2.5
 ```
 
-:::warning Always cast to `double` before division when you need a decimal result.
+:::caution Always cast to `double` before division when you need a decimal result.
 :::
 ## Practice Questions
 
@@ -699,7 +699,7 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-:::warning Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)
+:::caution Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)
 During iteration. Use an Iterator or iterate backwards with an index.
 
 ```java

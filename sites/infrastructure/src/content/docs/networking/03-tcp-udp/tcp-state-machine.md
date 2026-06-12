@@ -189,7 +189,7 @@ sysctl net.ipv4.tcp_fin_timeout
 ss -tan state fin-wait-2 | wc -l
 ```
 
-:::warning
+:::caution
 
 If you see thousands of FIN_WAIT_2 connections on a server, the remote peers are not closing their
 Side of the connection. This is a client application bug (not calling `close()` or `shutdown()`) or
@@ -294,7 +294,7 @@ sysctl -w net.ipv4.tcp_tw_reuse=1
 sysctl -w net.ipv4.tcp_tw_recycle=1
 ```
 
-:::warning
+:::caution
 
 `tcp_tw_recycle=1` was removed in Linux 4.12 due to serious reliability problems. It caused packet
 Loss for clients behind NAT because it relied on timestamps to track per-host connection state, and
@@ -314,7 +314,7 @@ ling.l_linger = 0;
 setsockopt(fd, SOL_SOCKET, SO_LINGER, &ling, sizeof(ling));
 ```
 
-:::warning
+:::caution
 
 Sending RST instead of FIN means the peer never receives a graceful close indication. The peer sees
 "Connection reset by peer" instead of a clean EOF. Use this only for connections where you are

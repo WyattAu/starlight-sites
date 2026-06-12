@@ -240,7 +240,7 @@ The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ 
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
 
-:::warning
+:::caution
 
 If the load factor exceeds 1, the expected chain length grows linearly. In practice, keep
 $\alpha \le 0.75$ (the default for Java `HashMap` and Python `dict`). When $\alpha$ exceeds the
@@ -674,7 +674,7 @@ $$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
 
-:::warning
+:::caution
 
 Bloom filters cannot handle deletion. Once a bit is set, it cannot be cleared without potentially
 Affecting other elements. If you need deletion, use a counting bloom filter (each position stores a

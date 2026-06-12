@@ -901,7 +901,7 @@ Before adding a dependency, evaluate it:
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit` — known CVEs                                  |
 
-:::warning
+:::caution
 
 Every dependency is a liability. Dependencies can introduce bugs, security vulnerabilities, supply
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with

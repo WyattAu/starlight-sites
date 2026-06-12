@@ -123,7 +123,7 @@ public class SafePublisher {
 }
 ```
 
-:::warning Publication via a normal (non-volatile, non-final) field is never safe. Even if Thread A
+:::caution Publication via a normal (non-volatile, non-final) field is never safe. Even if Thread A
 writes the reference after constructing the object, the JIT compiler may reorder the write to
 `holder` before the writes to the object's fields during construction. This is not theoretical -- it
 has been observed in practice on x86, ARM, and every major architecture.
@@ -346,7 +346,7 @@ public class BoundedBuffer<V> {
 }
 ```
 
-:::warning Always use `wait()` inside a `while` loop, never an `if` statement. The JMM permits
+:::caution Always use `wait()` inside a `while` loop, never an `if` statement. The JMM permits
 **spurious wakeups** -- a thread may return from `wait()` without `notify()` or `notifyAll()` being
 called. The condition must be re-checked after every wakeup. This is not a theoretical concern; it
 is mandated by the POSIX specification and the JLS.
@@ -920,7 +920,7 @@ public class ThreadSafeCache<K, V> {
 }
 ```
 
-:::warning `ReentrantReadWriteLock` is not reentrant between read and write locks. A thread holding
+:::caution `ReentrantReadWriteLock` is not reentrant between read and write locks. A thread holding
 the read lock cannot acquire the write lock (it will deadlock). A thread holding the write lock can
 acquire the read lock (downgrade), but a thread holding the read lock cannot upgrade to the write
 lock.
@@ -1040,7 +1040,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-:::warning If a thread fails (throws an exception) while waiting at a `CyclicBarrier`The barrier is
+:::caution If a thread fails (throws an exception) while waiting at a `CyclicBarrier`The barrier is
 **broken** and all other waiting threads receive a `BrokenBarrierException`. The barrier must be
 explicitly reset via `barrier.reset()` before it can be used again.
 :::
@@ -1131,7 +1131,7 @@ try {
 }
 ```
 
-:::warning `synchronized` is the only common JDK primitive that causes pinning.
+:::caution `synchronized` is the only common JDK primitive that causes pinning.
 `ReentrantLock``Semaphore``CountDownLatch`And all other `java.util.concurrent` synchronizers do NOT
 cause pinning. The JDK team has been progressively replacing internal uses of `synchronized` with
 `ReentrantLock` to eliminate pinning in the JDK itself. In JDK 24+, pinning from `synchronized` is

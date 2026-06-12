@@ -449,7 +449,7 @@ Governments a "blank cheque" risks fiscal profligacy and loss of market confiden
 Apply to countries that borrow in foreign currency (emerging markets — most developing countries).
 (5) Assumes away the crowding out channel and Ricardian equivalence too casually.
 
-:::warning Common Pitfall MMT is often caricatured as "deficits don't matter." This is a
+:::caution Common Pitfall MMT is often caricatured as "deficits don't matter." This is a
 Misrepresentation. MMT argues that deficits should be used to achieve real objectives (full
 Employment) and that the only constraint is inflation. It does not claim that unlimited deficits are
 Harmless. However, the practical difficulty of knowing when inflation will emerge makes MMT's policy

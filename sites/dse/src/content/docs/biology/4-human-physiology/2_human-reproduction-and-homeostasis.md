@@ -355,7 +355,7 @@ Tissues. It is the interface for exchange of substances between maternal and foe
   umbilical vein (carries oxygenated blood from the placenta to the foetus)
 - Wrapped in Wharton's jelly (connective tissue that protects the blood vessels from compression)
 
-:::warning A critical point for DSE: the umbilical ARTERY carries deoxygenated blood (away from the
+:::caution A critical point for DSE: the umbilical ARTERY carries deoxygenated blood (away from the
 Foetus to the placenta) and the umbilical VEIN carries oxygenated blood (from the placenta to the
 Foetus). This is the OPPOSITE of the naming convention in the systemic circulation, where arteries
 Carry oxygenated blood. The naming is based on direction of flow relative to the heart: arteries
@@ -593,7 +593,7 @@ Concentration must be tightly regulated because:
 | Glycogenolysis  | Conversion of glycogen to glucose-6-phosphate (then to free glucose in the liver)      | Liver, muscles | Glucagon, adrenaline |
 | Gluconeogenesis | Synthesis of glucose from non-carbohydrate precursors (amino acids, lactate, glycerol) | Liver only     | Glucagon             |
 
-:::warning A critical distinction: glycogenolysis occurs in both liver and muscle, but only the
+:::caution A critical distinction: glycogenolysis occurs in both liver and muscle, but only the
 Liver can release free glucose into the blood. Muscle glycogenolysis produces glucose-6-phosphate,
 Which is used directly by the muscle for respiration. Muscle lacks the enzyme glucose-6-phosphatase,
 Which is required to convert glucose-6-phosphate to free glucose. The DSE often tests this

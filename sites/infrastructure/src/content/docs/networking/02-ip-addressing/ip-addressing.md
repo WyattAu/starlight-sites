@@ -195,7 +195,7 @@ Allocation:
   10.0.39.0/24     (10.0.39.0  - 10.0.39.255)    -- 200 hosts
 ```
 
-:::warning
+:::caution
 
 Always allocate from the largest subnet first. Allocating small subnets first can fragment the
 Address space and make it impossible to fit larger subnets later. This is the same principle as
@@ -275,7 +275,7 @@ Summary: 192.168.0.0/22
 The summarized route covers all four /24 networks. Traffic destined for any address in
 192.168.0.0/22 (192.168.0.0 - 192.168.3.255) matches this single route entry.
 
-:::warning
+:::caution
 
 Supernetting only works when the networks are contiguous and aligned on the summary boundary.
 192.168.0.0/24 and 192.168.1.0/24 can be summarized as 192.168.0.0/23, but 192.168.1.0/24 and

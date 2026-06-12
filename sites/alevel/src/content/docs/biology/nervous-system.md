@@ -60,7 +60,7 @@ Myelination has two critical effects:
 | Conduction         | Saltatory (jumping between nodes)    | Continuous wave of depolarisation               |
 | Energy consumption | Lower (fewer ions need to be pumped) | Higher (more $\mathrm{Na^+/K^+}$ pump activity) |
 
-:::warning Common Pitfall Students often write that "myelin speeds up the action potential." More
+:::caution Common Pitfall Students often write that "myelin speeds up the action potential." More
 precisely, myelin forces the action potential to jump between nodes of Ranvier (saltatory
 conduction), which is much faster than continuous propagation. The speed increase is because less
 membrane needs to be depolarised, and the local current flows further ahead to depolarise the next
@@ -242,7 +242,7 @@ multiple inputs:
 - **Temporal summation**: a single presynaptic neurone fires action potentials in rapid succession.
   The EPSPs overlap and add together before the first one decays, reaching threshold.
 
-:::warning Common Pitfall Students often write that "neurotransmitters cross the synaptic cleft by
+:::caution Common Pitfall Students often write that "neurotransmitters cross the synaptic cleft by
 diffusion" without specifying that they bind to receptors. The neurotransmitter diffuses across the
 cleft and binds to specific receptor proteins on the postsynaptic membrane. This binding opens ion
 channels, which is what causes the change in membrane potential. The specificity of
@@ -346,7 +346,7 @@ A **polysynaptic reflex** (involves at least one relay neurone):
 The brain is informed of the reflex action (by sensory neurones ascending to the brain), allowing
 conscious awareness and modification of the response, but the reflex itself is spinal.
 
-:::warning Common Pitfall Students often state that reflexes "do not involve the brain." Reflexes do
+:::caution Common Pitfall Students often state that reflexes "do not involve the brain." Reflexes do
 not require brain processing to occur, but the brain receives sensory information about the reflex
 via ascending tracts. This allows the brain to modify the response if necessary (e.g., suppressing
 the withdrawal reflex if you are carrying something hot).
@@ -1104,7 +1104,7 @@ If the summed depolarisation at the axon hillock reaches the threshold potential
 $-55\ \mathrm{mV}$), voltage-gated $\mathrm{Na^+}$ channels open, and an action potential is
 initiated.
 
-:::warning Common Pitfall Students often confuse the terms "threshold" and "resting potential." The
+:::caution Common Pitfall Students often confuse the terms "threshold" and "resting potential." The
 **resting potential** ($-70\ \mathrm{mV}$) is the membrane potential of an unstimulated neuron. The
 **threshold potential** ($-55\ \mathrm{mV}$) is the depolarisation level that must be reached to
 trigger an action potential. If the membrane depolarises to $-60\ \mathrm{mV}$ (above resting but

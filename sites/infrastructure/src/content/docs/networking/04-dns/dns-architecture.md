@@ -108,7 +108,7 @@ Serial number formats:
 - **Incremental:** Simple counter (1, 2, 3...). Easy to forget to increment.
 - **UNIX timestamp:** Seconds since epoch. Precise but hard to read.
 
-:::warning
+:::caution
 
 If you decrease the serial number, slaves will not transfer the new zone (their serial is already
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
@@ -641,7 +641,7 @@ Mitigations:
 - **0x20 encoding:** Randomize the case of the query name. The response must match the case, making
   forgery harder.
 
-:::warning
+:::caution
 
 DNS cache poisoning was dramatically demonstrated by the Kaminsky attack (2008). Before source port
 Randomization was widely deployed, an attacker could poison any resolver within seconds. All modern
@@ -738,7 +738,7 @@ kdig @https://dns.google example.com +https
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
 
-:::warning
+:::caution
 
 DoH is controversial in enterprise environments because it bypasses corporate DNS resolvers and
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
@@ -801,7 +801,7 @@ Client's location, not the resolver's location.
 dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 ```
 
-:::warning
+:::caution
 
 ECS trades privacy for performance. The authoritative server learns the client's subnet.
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If

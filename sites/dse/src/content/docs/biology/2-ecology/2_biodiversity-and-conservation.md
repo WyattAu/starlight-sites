@@ -658,7 +658,7 @@ Triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to 
 | Decomposition / ammonification | Decomposers break down dead organisms and urea/excreted waste, releasing ammonia ($\mathrm{NH}_3$)        | Decomposer bacteria and fungi                                                                                    |
 | Denitrification                | Nitrate ($\mathrm{NO}_3^-$) is converted back to $\mathrm{N}_2$ gas, returning it to the atmosphere       | Denitrifying bacteria (e.g., _Pseudomonas_, _Paracoccus_)                                                        |
 
-:::warning Warning Atmosphere. Plants cannot use atmospheric nitrogen directly. They can only absorb
+:::caution Warning Atmosphere. Plants cannot use atmospheric nitrogen directly. They can only absorb
 nitrogen in the Form of nitrate ($\mathrm{NO}_3^-$) or ammonium ($\mathrm{NH}_4^+$) ions through
 their roots. Atmospheric nitrogen must first be fixed by bacteria or lightning.
 :::

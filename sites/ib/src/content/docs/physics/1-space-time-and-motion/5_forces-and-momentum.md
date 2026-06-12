@@ -76,7 +76,7 @@ $$
 \end`\{aligned}`
 $$
 
-:::warning The IB only consider the magnitude of centripetal acceleration, therefore is shown in the
+:::caution The IB only consider the magnitude of centripetal acceleration, therefore is shown in the
 Equation booklet as:
 
 $$
@@ -98,7 +98,7 @@ $$
 \end`\{aligned}`
 $$
 
-:::warning As mentioned above, IB only consider the magnitude of centripetal force:
+:::caution As mentioned above, IB only consider the magnitude of centripetal force:
 
 $$
 \begin`\{aligned}`
@@ -153,7 +153,7 @@ $$
 
 The measure of a solid body's resistance to [angular acceleration](#angular-acceleration).
 
-:::warning The IB syllabus only consider the moment of inertia of rigid body with approximated
+:::caution The IB syllabus only consider the moment of inertia of rigid body with approximated
 Geometry as a system of discrete particles, as well as moment of inertia that is determined by
 Closed-form expressions.
 :::

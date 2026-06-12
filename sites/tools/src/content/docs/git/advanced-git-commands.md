@@ -175,7 +175,7 @@ git filter-branch --all -- --no-replace-objects
 git filter-repo --replace-refs delete-no-add
 ```
 
-:::warning
+:::caution
 
 Once you push `refs/replace/` to a shared repository, all collaborators will see the replaced
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
@@ -416,7 +416,7 @@ to O(n log n) by using a balanced BST. Benchmarked on 10M records:
 - BST: 0.3s" HEAD
 ```
 
-:::warning
+:::caution
 
 Notes are mutable and not cryptographically tied to the commit they annotate. Anyone with push
 Access to `refs/notes/commits` can modify notes. Do not rely on notes for security-critical
@@ -880,7 +880,7 @@ $ git check-attr binary -- image.png
 image.png: binary: set
 ```
 
-:::warning
+:::caution
 
 Changes to `.gitattributes` do not retroactively normalize files already committed with the wrong
 Line endings. After adding or modifying `.gitattributes`You must re-normalize existing files:
@@ -988,7 +988,7 @@ rm -rf .git/modules/libs/repo
 git commit -m "Remove libs/repo submodule"
 ```
 
-:::warning
+:::caution
 
 `rm -rf` the submodule directory without running `git submodule deinit` and `git rm` leaves Stale
 configuration in `.gitmodules` and `.git/modules/`. This causes errors for anyone cloning the
@@ -1141,7 +1141,7 @@ $ git bundle create build-$CI_BUILD_ID.bundle HEAD
 $ git bundle verify build-1234.bundle
 ```
 
-:::warning
+:::caution
 
 Bundles do not include refs that are not reachable from the specified refs. If you need all branches
 And tags, always use `--all`. If you need to include unreachable objects (e.g., dangling commits),
@@ -1319,7 +1319,7 @@ $ make -C ../build-v2.4 release
 | `core.bare` must be unset for main worktree         | Bare repos can only have linked worktrees, not a main worktree  |
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
 
-:::warning
+:::caution
 
 If you delete a worktree directory manually (e.g., `rm -rf ../hotfix-worktree`) instead of using
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
@@ -1450,7 +1450,7 @@ $ git reflog expire --expire=now --all
 $ git reflog expire --expire=2026-01-01 --all
 ```
 
-:::warning
+:::caution
 
 Setting `gc.reflogExpire` to `never` means reflog entries are never pruned. This prevents garbage
 Collection from reclaiming objects referenced only by the reflog. Over time, this can significantly
@@ -1595,7 +1595,7 @@ $ git fsck --full 2>&1 | grep "corrupt\|missing" | while read _ _ hash; do
 $ git update-ref -d refs/heads/broken-branch
 ```
 
-:::warning
+:::caution
 
 `git fsck` does not modify the repository. It only reports issues. Always fix corruption
 Methodically: identify, back up, then repair. If the `.git` directory itself is corrupted (e.g.,
@@ -1889,7 +1889,7 @@ $ git am --continue
 $ git am --abort
 ```
 
-:::warning
+:::caution
 
 `git am` creates new commits. The commit hashes will differ from the original because the committer
 Information (not author) will be different. If you need to preserve exact commit hashes, use
@@ -2032,7 +2032,7 @@ $ git send-email --to maintainer@project.org \
 | `sendemail.thread`         | Enable threading                         |
 | `sendemail.confirm`        | `auto``always``never``cc``compose`       |
 
-:::warning
+:::caution
 
 Always use `--dry-run` before actually sending patches, especially for public mailing lists. An
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
@@ -2070,7 +2070,7 @@ $ git diff main -- src/file.c   # Diff between branch "main" and file "src/file.
 $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous without context)
 ```
 
-:::warning
+:::caution
 
 If you have both a file and a branch with the same name, always use `git switch` for branches and
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
@@ -2121,7 +2121,7 @@ $ git add libs/json
 $ git commit -m "Update json submodule to latest"
 ```
 
-:::warning
+:::caution
 
 Running `git pull` in the parent repository does not automatically update submodules. You must
 Explicitly run `git submodule update --init --recursive` after pulling. Configure
@@ -2194,7 +2194,7 @@ $ git push --force-with-lease origin feature
 | `git push --force-with-lease`  | Only overwrites if the remote ref matches your tracking branch                        |
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
 
-:::warning
+:::caution
 
 `git push --force` is a destructive operation. It discards commits on the remote that are not in
 Your local history. Any collaborator who has based work on those commits will encounter conflicts.

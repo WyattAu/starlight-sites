@@ -211,7 +211,7 @@ Oxidation half-reaction (anode).
 **Definition.** A spontaneous redox reaction will occur when a species with a more positive
 Reduction potential is paired with a species with a more negative reduction potential.
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
 When calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
@@ -320,7 +320,7 @@ In a galvanic cell:
 | Sign in galvanic cell | Negative ($-$)        | Positive ($+$)         |
 | Ion migration         | Anions migrate toward | Cations migrate toward |
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In galvanic cells, the
 Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
@@ -645,7 +645,7 @@ $$
 
 If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$Then $E \lt E^\circ$ (less tendency to be reduced).
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 When applying the Nernst equation to a half-cell, ensure the reduced form is in the numerator and
 The oxidized form is in the denominator. Reversing this will give the wrong answer.
@@ -734,7 +734,7 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 | $E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{RT}{nF}\ln Q$ | Cell potential under non-standard conditions                              |
 | $\Delta G = -nFE_{\mathrm{cell}}$                                  | Gibbs free energy under non-standard conditions                           |
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
 Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as

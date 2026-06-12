@@ -307,7 +307,7 @@ cat /proc/sys/net/netfilter/nf_conntrack_max
 sysctl -w net.netfilter.nf_conntrack_max=262144
 ```
 
-:::warning
+:::caution
 
 The conntrack table has a fixed size (default varies, often 65536-262144). When the table is full,
 New connections are dropped with no error logged. This is a common cause of "mysterious" connection

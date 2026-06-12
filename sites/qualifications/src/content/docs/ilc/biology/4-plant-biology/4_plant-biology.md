@@ -465,7 +465,7 @@ A tropism is a growth response to a directional stimulus. The response can be to
   inhibits cell elongation in roots. The upper side elongates more, causing the root to bend
   downward.
 
-:::warning A common source of confusion: auxin stimulates elongation in shoots but inhibits
+:::caution A common source of confusion: auxin stimulates elongation in shoots but inhibits
 Elongation in roots. Roots are far more sensitive to auxin than shoots, so the same concentration
 That promotes growth in shoots inhibits growth in roots.
 

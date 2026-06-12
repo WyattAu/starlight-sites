@@ -446,7 +446,7 @@ Anion and water compete for oxidation at the anode.
 
 **At the cathode (from water):** $2\mathrm{H}_2\mathrm{O} + 2e^- \to \mathrm{H}_2 + 2\mathrm{OH}^-$
 
-:::warning[Exam Tip] The rules above are simplified. In reality, the product at an electrode depends
+:::caution[Exam Tip] The rules above are simplified. In reality, the product at an electrode depends
 On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
 The rules as stated.
 :::
@@ -603,7 +603,7 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 | **Alloying**                                | Adding Cr and/or Ni to Fe to make stainless steel | Chromium forms a passive oxide layer that protects the surface                                                        |
 | **Electrochemical protection**              | Applying a negative voltage to the iron structure | Makes the iron the cathode, preventing its oxidation                                                                  |
 
-:::warning[Exam Tip] The key distinction: **galvanising** (Zn coating) provides both barrier and
+:::caution[Exam Tip] The key distinction: **galvanising** (Zn coating) provides both barrier and
 Sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
 :::

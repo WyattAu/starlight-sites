@@ -195,7 +195,7 @@ Brute-force attacks on weak passphrases more expensive.
 | 500000     | ~200 ms                       | Good for sensitive data    |
 | 1000000    | ~400 ms                       | High-security environments |
 
-:::warning Higher `pbkdf2iters` values increase the time to load the encryption key at boot. If you
+:::caution Higher `pbkdf2iters` values increase the time to load the encryption key at boot. If you
 Set `pbkdf2iters=1000000`Every boot (or key load) will take an additional ~400 ms per dataset. This
 property only applies to `keyformat=passphrase`. It has no effect on `hex` or `raw` key Formats,
 which use the raw key material directly.
@@ -370,7 +370,7 @@ zfs change-key -o pbkdf2iters=500000 tank/secret
 zfs change-key -o encryption=chacha20-poly1305 tank/secret
 ```
 
-:::warning Changing the encryption algorithm with `zfs change-key` triggers a full re-encryption of
+:::caution Changing the encryption algorithm with `zfs change-key` triggers a full re-encryption of
 All data in the dataset. This is a long-running operation that consumes significant I/O bandwidth
 And CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
 Re-encryption.
@@ -391,7 +391,7 @@ zfs create -o encryption=on -o keyformat=raw \
 # Ensure the key file exists and is readable at boot time
 ```
 
-:::warning Storing the key file on the same pool that it decrypts defeats the purpose of encryption.
+:::caution Storing the key file on the same pool that it decrypts defeats the purpose of encryption.
 If the pool is stolen, the key file is stolen with it. Store key files on a separate, secure
 Location -- a USB drive, a separate small pool, or a remote key server.
 :::
@@ -570,7 +570,7 @@ If you forget the passphrase for an encrypted dataset, the data is **permanently
 There is no backdoor, no recovery mechanism, no workaround. The encryption is designed to be
 Computationally infeasible to break.
 
-:::warning There is no "forgot password" mechanism for ZFS encryption. If you lose the passphrase,
+:::caution There is no "forgot password" mechanism for ZFS encryption. If you lose the passphrase,
 The data is gone forever. Store passphrases in multiple secure locations: a password manager, a
 Physical safe deposit box, and a trusted family member's possession.
 :::
@@ -966,7 +966,7 @@ Lose the keys, the backups are worthless.
 4. **Key escrow:** A trusted person (attorney, family member) has access to a sealed envelope with
    the passphrase.
 
-:::warning Never store encryption keys in the same location as the encrypted data. If a fire
+:::caution Never store encryption keys in the same location as the encrypted data. If a fire
 Destroys both the NAS and the paper with the passphrase, the data is lost. Distribute keys across
 Multiple physical locations.
 :::
@@ -1106,7 +1106,7 @@ zfs unload-key tank/secret
 zfs destroy -r tank/secret
 ```
 
-:::warning Key rotation is a manual, time-consuming process that requires enough free space to hold
+:::caution Key rotation is a manual, time-consuming process that requires enough free space to hold
 A copy of the data. Plan key rotation during maintenance windows and verify data integrity before
 Destroying the old dataset.
 :::
@@ -1264,7 +1264,7 @@ zfs create tank/secret/public-data
 # (This is NOT supported by ZFS -- you cannot have unencrypted children inside an encrypted parent)
 ```
 
-:::warning You cannot create an unencrypted child dataset inside an encrypted parent. All children
+:::caution You cannot create an unencrypted child dataset inside an encrypted parent. All children
 Of an encrypted dataset are encrypted, period. If you need a mix of encrypted and unencrypted
 Datasets, create them as siblings (not parent-child) within an unencrypted pool.
 :::

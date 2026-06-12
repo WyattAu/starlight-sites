@@ -310,7 +310,7 @@ Actions that allow business to continue while the investigation proceeds:
 
 ### Evidence Preservation
 
-:::warning
+:::caution
 
 Before any containment action that may alter the system state, preserve volatile evidence. Once a
 System is rebooted or powered off, volatile data is permanently lost.
@@ -395,7 +395,7 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 6. **Update firewall rules**: Block any attacker infrastructure (C2 servers, exfil endpoints)
 7. **Verify integrity**: Compare critical files against known-good versions or checksums
 
-:::warning
+:::caution
 
 Do not trust the compromised system. The attacker may have installed rootkits, modified binaries, or
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
@@ -631,7 +631,7 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | CCPA       | "Expeditious"                             | California Attorney General         |
 | NIS2 (EU)  | 24 hours (early warning), 72 hours (full) | National CSIRT                      |
 
-:::warning
+:::caution
 
 Regulatory requirements vary by jurisdiction and data type. Engage legal counsel early. Failure to
 Notify within the required timeframe can result in significant fines on top of the incident's direct

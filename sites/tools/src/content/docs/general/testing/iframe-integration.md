@@ -60,7 +60,7 @@ Grants the embedded page the same privileges as the parent page.
 | `allow-downloads`      | Allows downloading files                                               |
 | `allow-top-navigation` | Allows the iframe to navigate the top-level page (avoid this)          |
 
-:::warning Never combine `allow-scripts` with `allow-same-origin` if the iframe source is
+:::caution Never combine `allow-scripts` with `allow-same-origin` if the iframe source is
 User-controlled or untrusted. Together they allow the embedded page to strip its own sandbox
 Restrictions via JavaScript.
 :::

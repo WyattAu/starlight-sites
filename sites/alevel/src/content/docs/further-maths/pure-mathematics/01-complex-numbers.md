@@ -73,7 +73,7 @@ $$
 
 Where $\overline{z_2} = c - di$ is the _complex conjugate_ of $z_2$.
 
-:::warning warning $\theta = \arctan(b/a)$ only gives the correct principal argument when $a > 0$.
+:::caution warning $\theta = \arctan(b/a)$ only gives the correct principal argument when $a > 0$.
 :::
 <details>
 <summary>Worked Example: Modulus, argument, and polar form</summary>
@@ -327,7 +327,7 @@ Exam questions often require describing a _region_ defined by combining loci, su
 
 - $|z - 3| \leq 2$ and $\arg(z) \geq \dfrac◆LB◆\pi◆RB◆◆LB◆4◆RB◆$: the part of a disc in a sector.
 
-:::warning A half-line $\arg(z - a) = \alpha$ does _not_ include the point $a$. When shading
+:::caution A half-line $\arg(z - a) = \alpha$ does _not_ include the point $a$. When shading
 Regions, be careful about whether boundaries are included (solid line) or excluded (dashed line).
 :::
 

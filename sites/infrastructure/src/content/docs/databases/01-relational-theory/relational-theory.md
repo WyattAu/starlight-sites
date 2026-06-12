@@ -199,7 +199,7 @@ Combines every tuple from one relation with every tuple from another. Denoted $R
 SELECT * FROM Employee CROSS JOIN Department;
 ```
 
-:::warning
+:::caution
 
 The Cartesian product of relations with $m$ and $n$ tuples produces $m \times n$ tuples. For tables
 With millions of rows, an accidental Cartesian product (missing JOIN condition) will produce
@@ -465,7 +465,7 @@ Fix: split into:
   StudentInstructor(student, instructor)
 ```
 
-:::warning
+:::caution
 
 Achieving BCNF may sometimes cause lossy decompositions (you cannot reconstruct the original
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is

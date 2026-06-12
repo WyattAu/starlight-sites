@@ -279,7 +279,7 @@ Before accessing the element.
 Without bounds checking, an out-of-bounds access reads or writes arbitrary memory — a **buffer
 Overflow** vulnerability.
 
-:::warning Pitfall In C and C++, array access is **not** bounds-checked by default. Accessing
+:::caution Pitfall In C and C++, array access is **not** bounds-checked by default. Accessing
 `A[-1]` or `A[n]` compiles but causes undefined behaviour. Python, Java, and C# perform automatic
 Bounds checking.
 :::

@@ -808,7 +808,7 @@ $$
 
 Where $\mathrm{Cov}(X, Y) = E(XY) - E(X)E(Y) = 0$ when $X$ and $Y$ are independent.
 
-:::warning[Important]
+:::caution[Important]
 
 Linearity of expectation always holds. The simple variance formula
 $\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ requires independence.

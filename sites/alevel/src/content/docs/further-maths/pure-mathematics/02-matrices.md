@@ -67,7 +67,7 @@ The $n \times n$ identity matrix $\mathbf{I}_n$ satisfies
 $\mathbf{A}\mathbf{I}_n = \mathbf{I}_n\mathbf{A} = \mathbf{A}$ for any
 $\mathbf{A} \in M_{m \times n}(\mathbb{R})$.
 
-:::warning warning "apply $\mathbf{B}$ first, then $\mathbf{A}$." When composing transformations,
+:::caution warning "apply $\mathbf{B}$ first, then $\mathbf{A}$." When composing transformations,
 The rightmost matrix is applied first.
 :::
 
@@ -291,7 +291,7 @@ Note: $\det = 1$ for shears, so area is preserved.
 If transformation $\mathbf{A}$ is followed by transformation $\mathbf{B}$The combined Transformation
 is represented by $\mathbf{BA}$ (rightmost applied first).
 
-:::warning Order matters. A rotation followed by a reflection generally produces a different result
+:::caution Order matters. A rotation followed by a reflection generally produces a different result
 From a reflection followed by a rotation. The combined matrix is $\mathbf{BA}$ (not $\mathbf{AB}$)
 When $\mathbf{A}$ is applied first.
 :::

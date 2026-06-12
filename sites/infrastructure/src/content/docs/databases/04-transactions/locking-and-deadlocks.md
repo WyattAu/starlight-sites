@@ -648,7 +648,7 @@ ROLLBACK TO SAVEPOINT sp1;
 COMMIT;
 ```
 
-:::warning
+:::caution
 
 `ROLLBACK TO SAVEPOINT` releases locks acquired after the savepoint, but it does NOT release
 Advisory locks. Advisory locks are always held until the transaction ends or explicitly released,

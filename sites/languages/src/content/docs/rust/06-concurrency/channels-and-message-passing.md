@@ -123,7 +123,7 @@ let (tx, rx) = mpsc::channel(32);       // bounded — capacity 32
 let (tx, rx) = mpsc::unbounded_channel(); // unbounded — grows as needed
 ```
 
-:::warning
+:::caution
 
 Unbounded channels can cause memory exhaustion if producers send faster than consumers process.
 Prefer bounded channels with an appropriate buffer size. If the buffer fills, backpressure Slows

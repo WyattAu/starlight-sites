@@ -571,7 +571,7 @@ $$I_{\mathrm{total} = 3I = 3 \times 10^8 \times I_0$$
 
 $$L_{\mathrm{total} = 10 \log_{10}(3 \times 10^8) = 10 \times (8 + \log_{10} 3) = 10 \times (8 + 0.477) = 84.8 \mathrm{ dB$$
 
-:::warning Doubling the number of identical sources only increases the sound level by
+:::caution Doubling the number of identical sources only increases the sound level by
 $3 \mathrm{ dB$ (since $10\log_{10} 2 \approx 3$). Ten times as many sources gives
 $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 :::

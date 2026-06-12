@@ -302,7 +302,7 @@ WHERE r.created_at >= '2024-01-01'
 GROUP BY u.name;
 ```
 
-:::warning
+:::caution
 
 FDW queries may fetch entire remote tables locally for joins, sorts, and aggregations that cannot be
 Pushed down. Use `EXPLAIN (VERBOSE)` to verify what is pushed down and what is executed locally. For
@@ -403,7 +403,7 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-07-01';
 -- Parameters from prepared statements may prevent pruning
 ```
 
-:::warning
+:::caution
 
 Unique constraints on partitioned tables must include the partition key. A `UNIQUE(order_id)`
 Constraint across all partitions is not supported. Instead, use `UNIQUE(order_id, created_at)` or
@@ -911,7 +911,7 @@ Each table gets its own topic.
 Events include: before/after images, operation type, transaction metadata.
 ```
 
-:::warning
+:::caution
 
 Logical replication slots retain WAL until the consumer acknowledges all changes. If the consumer
 Stops or falls behind, WAL accumulates on disk, potentially filling the storage. Monitor slot lag:

@@ -415,7 +415,7 @@ $$
 Subtracting the first equation from the second and third eliminates $F$Yielding a $2 \times 2$
 System in $D$ and $E$. Solve for $D$ and $E$Then substitute back to find $F$.
 
-:::warning Warning Three collinear points). You can check collinearity by verifying that the
+:::caution Warning Three collinear points). You can check collinearity by verifying that the
 gradient between the first Two points equals the gradient between the second two.
 :::
 

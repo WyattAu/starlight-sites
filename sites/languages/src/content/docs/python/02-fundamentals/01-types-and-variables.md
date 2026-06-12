@@ -223,7 +223,7 @@ b = 257
 print(a is b)   # False (not interned)
 ```
 
-:::warning
+:::caution
 
 Do not rely on integer interning behavior. Use `==` for equality comparison, never `is`. The
 Interning range is a CPython implementation detail, not a language guarantee.
@@ -359,7 +359,7 @@ print(s)             # "hello"
    characters are ASCII, avoiding per-character encoding overhead. This optimization is only safe
    because strings cannot change.
 
-:::warning
+:::caution
 
 String immutability means that concatenation in a loop is $O(n^2)$ because each concatenation copies
 The entire string. Use `''.join(iterable)` for linear-time concatenation.
@@ -625,7 +625,7 @@ print(add_item("a"))  # ["a"]
 print(add_item("b"))  # ["b"]  -- fresh list each time
 ```
 
-:::warning
+:::caution
 
 This is one of the most common bugs in Python code. Linters like `pylint` and `ruff` flag mutable
 Default arguments. The pattern `def f(arg=None): if arg is None: arg = ...` is the standard
@@ -962,7 +962,7 @@ def make_counter():
     return increment
 ```
 
-:::warning
+:::caution
 
 Overuse of `global` is a code smell. It creates hidden coupling between functions and makes code
 Difficult to test and reason about. Prefer passing state explicitly through function parameters or

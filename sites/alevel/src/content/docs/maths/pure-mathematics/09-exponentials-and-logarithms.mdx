@@ -101,7 +101,7 @@ $$\frac{d}{dx}a^x = \frac{d}{dx}e^{x\ln a} = (\ln a)\, e^{x\ln a} = a^x \ln a$$
 
 This follows immediately from the chain rule applied to $e^{x\ln a}$.
 
-:::warning Warning $\frac{d}{dx}x^n = nx^{n-1}$ applies when the variable is in the **base**, not
+:::caution Warning $\frac{d}{dx}x^n = nx^{n-1}$ applies when the variable is in the **base**, not
 the exponent.
 :::
 
@@ -170,7 +170,7 @@ $$x^n = (a^p)^n = a^{pn}$$
 
 Therefore $\log_a(x^n) = pn = n\log_a x$. $\blacksquare$
 
-:::warning Common errors:
+:::caution Common errors:
 
 - $\log_a(x+y) \neq \log_a x + \log_a y$ (you cannot split a log of a sum)
 - $\log_a x + \log_a y \neq \log_a(x+y)$ (same mistake, reversed)
@@ -272,7 +272,7 @@ Sometimes we can use a substitution. For example, $e^{2x} + 3e^x - 4 = 0$.
 Let $u = e^x$ (note $u \gt 0$). Then $u^2 + 3u - 4 = 0$Giving $(u+4)(u-1) = 0$So $u = 1$ (rejecting
 $u = -4$). Hence $e^x = 1$Giving $x = 0$.
 
-:::warning When substituting $u = a^x$ or $u = \ln x$Always check the domain. For $u = a^x$ we Have
+:::caution When substituting $u = a^x$ or $u = \ln x$Always check the domain. For $u = a^x$ we Have
 $u \gt 0$; for $u = \ln x$ we have $x \gt 0$. Always reject invalid solutions.
 :::
 
@@ -374,7 +374,7 @@ $$\frac{1}{y}\frac{dy}{dx} = g'(x)\ln f(x) + \frac{g(x) f'(x)}{f(x)}$$
 
 $$\frac{dy}{dx} = f(x)^{g(x)}\left[g'(x)\ln f(x) + \frac{g(x) f'(x)}{f(x)}\right]$$
 
-:::warning Warning Rule alone — it requires logarithmic differentiation or rewriting as
+:::caution Warning Rule alone — it requires logarithmic differentiation or rewriting as
 $e^{g(x)\ln f(x)}$.
 :::
 

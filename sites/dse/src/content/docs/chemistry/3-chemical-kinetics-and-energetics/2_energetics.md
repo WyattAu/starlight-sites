@@ -57,7 +57,7 @@ By definition, $\Delta H_f^\circ$ of any element in its standard state = 0.
 
 $$\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta H_f^\circ(\mathrm{H}_{2(g)}) = 0$$
 
-:::warning Warning Involves formation FROM elements, not the other way around.
+:::caution Warning Involves formation FROM elements, not the other way around.
 :::
 ### Standard Enthalpy of Combustion ($\Delta H_c^\circ$)
 
@@ -227,7 +227,7 @@ $$\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})$$
 | C--Cl      | 346                        | F--F       | 158               |
 | O--O       | 146                        | Cl--Cl     | 243               |
 
-:::warning Bond enthalpies give only **average** values. For reactions involving the gas phase, they
+:::caution Bond enthalpies give only **average** values. For reactions involving the gas phase, they
 Give good estimates. For reactions involving liquids or aqueous solutions, additional energy changes
 (vaporisation, dissolution) are not accounted for, so the estimate is less accurate.
 :::
@@ -499,7 +499,7 @@ Where:
 - $T$ = temperature (K)
 - $\Delta S$ = entropy change (kJ mol$^{-1}$ K$^{-1}$)
 
-:::warning Ensure units are consistent. If $\Delta H$ is in kJ/mol and $\Delta S$ is in J mol$^{-1}$
+:::caution Ensure units are consistent. If $\Delta H$ is in kJ/mol and $\Delta S$ is in J mol$^{-1}$
 K$^{-1}$Convert $\Delta S$ to kJ mol$^{-1}$ K$^{-1}$ by dividing by 1000.
 
 ### Feasibility of Reactions

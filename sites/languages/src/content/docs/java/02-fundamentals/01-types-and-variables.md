@@ -147,7 +147,7 @@ System.out.println(0.1 + 0.2);     // 0.30000000000000004
 System.out.println(0.1 + 0.2 == 0.3); // false
 ```
 
-:::warning Never use `==` or `!=` to compare floating-point values. Use `Math.abs(a - b) < epsilon`
+:::caution Never use `==` or `!=` to compare floating-point values. Use `Math.abs(a - b) < epsilon`
 Or `Double.compare(a, b)` instead. For monetary calculations, always use `BigDecimal`.
 :::
 
@@ -231,7 +231,7 @@ System.out.println(c.equals(d)); // true  (same value)
 // The cache boundary can be adjusted with -XX:AutoBoxCacheMax=<size>
 ```
 
-:::warning **Always use `.equals()` to compare wrapper types.** Using `==` compares object identity,
+:::caution **Always use `.equals()` to compare wrapper types.** Using `==` compares object identity,
 Not value. The cache makes `==` work for small values by coincidence, creating subtle bugs that only
 Appear in production with larger values.
 :::
@@ -412,7 +412,7 @@ String result = sb.toString();
 // (which is rare — typically you'd use a local variable)
 ```
 
-:::warning **Never use `StringBuffer` in new code** unless you have a specific requirement for
+:::caution **Never use `StringBuffer` in new code** unless you have a specific requirement for
 Thread-safe mutable string building (which is almost never). The synchronization overhead is
 Unnecessary in the vast majority of use cases, and `StringBuffer` is essentially a legacy class
 Retained for backward compatibility.
@@ -513,7 +513,7 @@ var boxed = (Integer) 42; // inferred: Integer
 // var is strictly for local variables with initializers
 ```
 
-:::warning Do not use `var` when the type is not obvious from the right-hand side. The goal is
+:::caution Do not use `var` when the type is not obvious from the right-hand side. The goal is
 Readability, not brevity. Prefer explicit types when the initializer is complex, when the type
 Carries important semantic information, or when the inferred type might be surprising.
 :::
@@ -553,7 +553,7 @@ char c = 'A';
 int code = c + 1;          // code = 66
 ```
 
-:::warning **Surprising widening**: `long` to `float` is a widening conversion per the JLS, but a
+:::caution **Surprising widening**: `long` to `float` is a widening conversion per the JLS, but a
 64-bit `long` has more precision than a 32-bit `float` (which has only 23 fraction bits). A large
 `long` value will lose low-order bits when converted to `float`. This is technically legal but often
 Surprising.
@@ -729,7 +729,7 @@ record NamedPoint(int x, int y, String name) implements Comparable<NamedPoint> {
 }
 ```
 
-:::warning Records cannot extend other classes (they implicitly extend `java.lang.Record`). Their
+:::caution Records cannot extend other classes (they implicitly extend `java.lang.Record`). Their
 Fields are always `final`. Records are best suited for data carriers where immutability and
 Structural equality are desired. They are not a replacement for mutable domain objects or entities.
 :::

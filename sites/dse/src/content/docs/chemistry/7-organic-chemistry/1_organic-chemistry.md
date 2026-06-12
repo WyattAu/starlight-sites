@@ -181,7 +181,7 @@ $$\mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6$$
 
 $$\mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}$$
 
-:::warning Warning $\mathrm{CH}_3\mathrm{Cl}$$\mathrm{CH}_2\mathrm{Cl}_2$$\mathrm{CHCl}_3$And
+:::caution Warning $\mathrm{CH}_3\mathrm{Cl}$$\mathrm{CH}_2\mathrm{Cl}_2$$\mathrm{CHCl}_3$And
 $\mathrm{CCl}_4$ Because the substitution can continue on the same carbon atom. Controlling the
 ratio of methane to Chlorine influences the proportion of products.
 :::

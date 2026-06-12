@@ -183,7 +183,7 @@ T1: UPDATE accounts SET balance = balance - 100 WHERE id = 1;
 -- PostgreSQL detects the conflict and aborts T1
 ```
 
-:::warning
+:::caution
 
 In PostgreSQL, a REPEATABLE READ transaction that modifies data that was concurrently modified by
 Another committed transaction will fail with a serialization error. Your application must catch this
@@ -469,7 +469,7 @@ COMMIT;
 -- The employee insert is committed, the wrong department update is rolled back
 ```
 
-:::warning
+:::caution
 
 Savepoints consume resources (transaction ID advancement, WAL records). Do not use savepoints in
 Tight loops (e.g., one savepoint per row in a batch). Instead, batch your operations and use a
@@ -852,7 +852,7 @@ SELECT * FROM documents;  -- Only sees tenant 42's documents
 COMMIT;
 ```
 
-:::warning
+:::caution
 
 RLS policies bypass `SELECT *` in a subtle way: the policy is applied after the query plan is
 Generated, so the planner does not know the effective row count. This can lead to suboptimal plans.

@@ -208,7 +208,7 @@ Key properties:
 
 ### SMS-based 2FA
 
-:::warning
+:::caution
 
 SMS-based 2FA is deprecated by NIST SP 800-63B. SMS is vulnerable to SIM swapping, SS7 protocol
 Attacks, and mobile network interception. Use TOTP or FIDO2 instead. If SMS must be used, implement
@@ -456,7 +456,7 @@ RSASHA256(
 6. Validate algorithm (reject `alg: none`Reject algorithm substitution)
 7. Check token revocation if applicable (blacklist, short expiry)
 
-:::warning
+:::caution
 
 **Critical vulnerability — Algorithm Confusion Attack**: An attacker can change the `alg` header
 From `RS256` to `HS256`. If the server uses the RSA public key as the HMAC secret (which some

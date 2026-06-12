@@ -26,7 +26,7 @@ stashes and pop them in LIFO order.
 - Running a quick test on a clean working directory.
 - Context-switching between tasks.
 
-:::warning
+:::caution
 
 Stash is **not a substitute for branches**. Stashes are stored as commits in the object database,
 but they are not visible in `git log` and can be accidentally dropped. If your changes are

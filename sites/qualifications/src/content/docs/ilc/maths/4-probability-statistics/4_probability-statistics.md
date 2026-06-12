@@ -478,7 +478,7 @@ Is longer.
 | Critical value  | $z_{1-\alpha}$         | $z_{1-\alpha/2}$        |
 | p-value         | One tail area          | Two tail areas combined |
 
-:::warning Choose one-tailed or two-tailed before collecting data. Never decide after seeing the
+:::caution Choose one-tailed or two-tailed before collecting data. Never decide after seeing the
 Results.
 :::
 

@@ -411,7 +411,7 @@ MaxFileSec=1week          # rotate weekly
 ForwardToSyslog=yes       # also forward to traditional syslog
 ```
 
-:::warning
+:::caution
 
 By default, `systemd-journald` stores logs in `/var/log/journal/` (persistent). If the directory
 Does not exist, logs are stored in `/run/log/journal/` (volatile — lost on reboot). Ensure

@@ -26,7 +26,7 @@ $$P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC$$
 This leads to a **deadweight welfare loss**: the total surplus (consumer + producer + third-party)
 Is not maximised.
 
-:::warning Warning Sense. It means the _outcome_ is suboptimal — there exists a reallocation that
+:::caution Warning Sense. It means the _outcome_ is suboptimal — there exists a reallocation that
 could make at least One person better off without making anyone worse off (Pareto improvement).
 :::
 
@@ -350,7 +350,7 @@ Education, healthcare, vaccinations.
 **Demerit goods**: goods that the government believes consumers _should_ consume less of. Examples:
 Alcohol, tobacco, illegal drugs.
 
-:::warning Warning Judgements about what is "good" or "bad" for people. This is different from
+:::caution Warning Judgements about what is "good" or "bad" for people. This is different from
 positive externalities (which are objective welfare effects on third parties). Many merit goods also
 generate positive Externalities, but the concepts are distinct.
 

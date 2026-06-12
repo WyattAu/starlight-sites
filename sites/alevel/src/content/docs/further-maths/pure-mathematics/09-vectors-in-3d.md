@@ -163,7 +163,7 @@ $\mathbf{b}$And its direction is given by the right-hand rule.
 - $\mathbf{i}\times\mathbf{j} = \mathbf{k}$, $\mathbf{j}\times\mathbf{k} = \mathbf{i}$
   $\mathbf{k}\times\mathbf{i} = \mathbf{j}$
 
-:::warning warning $\mathbf{a}\times\mathbf{b} = -\mathbf{b}\times\mathbf{a}$. The cross product is
+:::caution warning $\mathbf{a}\times\mathbf{b} = -\mathbf{b}\times\mathbf{a}$. The cross product is
 Only defined in 3D.
 :::
 

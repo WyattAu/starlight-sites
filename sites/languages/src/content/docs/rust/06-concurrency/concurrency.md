@@ -357,7 +357,7 @@ fn reader() {
 }
 ```
 
-:::warning
+:::caution
 
 `Relaxed` ordering is sufficient for simple counters but incorrect for producer-consumer patterns
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
@@ -661,7 +661,7 @@ async fn main() {
 }
 ```
 
-:::warning
+:::caution
 
 `select!` drops all non-selected futures. If you need to retry the other branches, you must
 Restructure your code to recreate the futures. This is a common source of confusion for developers
@@ -822,7 +822,7 @@ async fn main() {
 }
 ```
 
-:::warning
+:::caution
 
 Do NOT use `std::sync::Mutex` in async code. Holding a `std::sync::Mutex` across an `.await` point
 Blocks the entire OS thread, preventing other async tasks from running. Use `tokio::sync::Mutex` for

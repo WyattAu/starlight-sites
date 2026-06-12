@@ -299,7 +299,7 @@ $u = \operatorname{arsinh}\!\left(\dfrac{x}{2}\right)$.
 
 $$= 2\operatorname{arsinh}\!\left(\frac{x}{2}\right) + \frac◆LB◆x\sqrt{x^2 + 4}◆RB◆◆LB◆2◆RB◆ + C$$
 
-:::warning Common Pitfall The substitution $x = a\sinh u$ is a powerful technique for integrals
+:::caution Common Pitfall The substitution $x = a\sinh u$ is a powerful technique for integrals
 Involving $\sqrt{x^2 + a^2}$. Similarly, $x = a\cosh u$ handles $\sqrt{x^2 - a^2}$ and
 $x = a\tanh u$ handles expressions with $a^2 - x^2$. The choice of substitution mirrors the
 Trigonometric substitutions but is often simpler algebraically.
@@ -414,7 +414,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 
 ## 7. Common Pitfalls
 
-:::warning Common Pitfall
+:::caution Common Pitfall
 
 1. **Sign in the fundamental identity:** Unlike $\cos^2 x + \sin^2 x = 1$The hyperbolic identity is
    $\cosh^2 x - \sinh^2 x = 1$. The minus sign is crucial and is the source of many errors.
@@ -812,7 +812,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 
 ## 13. Further Common Pitfalls
 
-:::warning Common Pitfall
+:::caution Common Pitfall
 
 1. **Substitution domain errors:** When using $x = a\cosh u$The substitution requires $x \geq a$
    (since $\cosh u \geq 1$). Attempting to use $x = a\cosh u$ for $x < a$ leads to an error. Use

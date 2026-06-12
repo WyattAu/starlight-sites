@@ -165,7 +165,7 @@ myapp = "myapp.cli:main"
 where = ["src"]
 ```
 
-:::warning `setup.py` is not deprecated, but `pyproject.toml` is preferred for new projects. The
+:::caution `setup.py` is not deprecated, but `pyproject.toml` is preferred for new projects. The
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
 Most projects do not need it.
 :::
@@ -306,7 +306,7 @@ requests==2.31.0 \
     --hash=sha256:942c5a758f98d790eaed1a29cb6eefc7cb0f27a2e5e71b6ed7d0e640c265d3a5
 ```
 
-:::warning Always use `--generate-hashes` in production deployments. Hashes verify that the
+:::caution Always use `--generate-hashes` in production deployments. Hashes verify that the
 Installed package matches exactly what you tested. Without hashes, a compromised PyPI mirror could
 Serve malicious packages.
 :::
@@ -479,7 +479,7 @@ mylib/
     └── test_core.py
 ```
 
-:::warning The `src` layout is preferred because it prevents a subtle bug: when you run tests from
+:::caution The `src` layout is preferred because it prevents a subtle bug: when you run tests from
 The project root, Python may import the local package instead of the installed one. The `src` layout
 Forces you to install the package before testing, catching missing dependencies and incorrect
 Packaging.

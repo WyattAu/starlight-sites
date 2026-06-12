@@ -354,7 +354,7 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 | Write pattern | Inserts target specific partitions               | Inserts are spread uniformly      |
 | Index size    | Index maintenance is becoming expensive          | Indexes fit comfortably in memory |
 
-:::warning
+:::caution
 
 The partition key must be part of the primary key (or all unique indexes). You cannot have a PRIMARY
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
@@ -511,7 +511,7 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 - `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL` (metadata-only in PG 11+)
 - Use `pg_partman` for partitioning without downtime
 
-:::warning
+:::caution
 
 Never drop a column or table in a migration without verifying that no code references it. In
 Microservice architectures, check all services, not just the one you are deploying. A column used by
@@ -654,7 +654,7 @@ recovery_target_action = 'promote'
 - **Store backups offsite:** a backup on the same server is useless if the server fails.
 - **Encrypt backups:** database backups contain sensitive data.
 
-:::warning
+:::caution
 
 Never test your backup strategy for the first time during an outage. Schedule quarterly restore
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
@@ -747,7 +747,7 @@ ALTER SYSTEM SET primary_conninfo = 'host=new-primary port=5432';
 SELECT pg_reload_conf();
 ```
 
-:::warning
+:::caution
 
 Automatic failover can cause split-brain if the network partition is asymmetric (the primary thinks
 It is still the leader, but the replicas have already promoted one of their own). Always use a

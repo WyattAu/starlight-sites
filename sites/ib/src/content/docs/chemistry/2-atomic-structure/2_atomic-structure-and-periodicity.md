@@ -184,7 +184,7 @@ $$
 \mathrm{Fe}: [\mathrm{Ar}]\, 4s^2\, 3d^6
 $$
 
-:::warning
+:::caution
 
 Always write subshells in order of increasing $n$ first, then $l$ (i.e., $4s^2\, 3d^6$Not
 $3d^6\, 4s^2$). When writing configurations for ions, remove electrons from the highest $n$ value
@@ -735,7 +735,7 @@ Splitting are **weak-field ligands**.
 | $[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{2+}$                  | Pink            | Green           |
 | $[\mathrm{CoCl}_4]^{2-}$                                        | Blue            | Yellow/orange   |
 
-:::warning
+:::caution
 
 A substance is colourless if either: (a) it has no $d$-electrons (e.g., $\mathrm{Sc}^{3+}$
 $[\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{4+}$ has $d^0$), or (b) it has a full $d$-subshell (e.g.,
@@ -1316,7 +1316,7 @@ The trend statement AND the reasoning.
 
 :::
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 When writing electron configurations for transition metal ions, always remove electrons from the
 $ns$ orbital first (highest principal quantum number), NOT from the $(n-1)d$ orbital. So
@@ -1324,7 +1324,7 @@ $\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
 
 :::
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 Do not confuse atomic radius trends with ionic radius trends. When comparing ionic radii within an
 Isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,

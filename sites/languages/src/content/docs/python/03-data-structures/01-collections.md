@@ -371,7 +371,7 @@ for i in range(20):
 # Multiple keys may map to the same initial slot, resolved by linear probing
 ```
 
-:::warning
+:::caution
 
 If two objects have equal values (`a == b` is `True`), they **must** have the same hash
 (`hash(a) == hash(b)`). If you define `__eq__` on a class, you must also define `__hash__`Or set
@@ -652,7 +652,7 @@ nested["user1"]["clicks"] = 7
 The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 
-:::warning
+:::caution
 
 A common mistake is passing `dict` or `list` with parentheses as the factory: `defaultdict(dict())`.
 This calls `dict()` once and passes the resulting empty dict as the factory. The correct form is
@@ -955,7 +955,7 @@ heapq.heappush(tasks, (2, next(counter), "task B"))
 heapq.heappush(tasks, (1, next(counter), "task C"))
 ```
 
-:::warning
+:::caution
 
 When using tuples as heap elements, comparison proceeds element-by-element. If the first elements
 (priorities) are equal, Python compares the second elements. If the second elements are not

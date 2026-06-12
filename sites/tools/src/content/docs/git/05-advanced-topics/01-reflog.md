@@ -187,7 +187,7 @@ $ git gc --prune=now
 # WARNING: This permanently deletes unreachable objects
 ```
 
-:::warning
+:::caution
 
 `git gc --prune=now` is permanent. After running this, any commits that were only reachable via
 expired reflog entries are gone forever. Use with extreme caution.

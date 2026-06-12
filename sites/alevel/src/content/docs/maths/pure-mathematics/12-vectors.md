@@ -207,7 +207,7 @@ $$x = a_1 + tb_1, \quad y = a_2 + tb_2, \quad z = a_3 + tb_3$$
 
 In 2D, eliminating $t$: $\dfrac{x - a_1}{b_1} = \dfrac{y - a_2}{b_2}$.
 
-:::warning Warning $\mathbf{a}$And the direction vector $\mathbf{b}$ can be any non-zero scalar
+:::caution Warning $\mathbf{a}$And the direction vector $\mathbf{b}$ can be any non-zero scalar
 multiple of the Direction. Always check your answer gives a point and direction consistent with the
 question.
 :::

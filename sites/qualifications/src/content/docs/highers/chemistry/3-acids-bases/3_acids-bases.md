@@ -366,7 +366,7 @@ Point.
 | Strong acid + weak base   | pH < 7         | Methyl orange      |
 | Weak acid + strong base   | pH > 7         | Phenolphthalein    |
 
-:::warning The original question 8 in the practice section stated that "phenolphthalein is suitable
+:::caution The original question 8 in the practice section stated that "phenolphthalein is suitable
 For a strong acid-weak base titration" -- this is incorrect. Phenolphthalein (pH 8.3-10.0) is
 Suitable for weak acid-strong base titrations where the equivalence pH is above 7. For strong
 Acid-weak base titrations (equivalence pH below 7), methyl orange is the correct choice.

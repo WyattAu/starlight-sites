@@ -160,7 +160,7 @@ ping -c 1 -t 1 8.8.8.8  # Will fail with "Time to live exceeded"
 2. **Destination Host Unreachable:** The local router cannot reach the destination network.
 3. **Permission Denied:** Requires root for raw ICMP sockets, or the binary is not installed.
 
-:::warning
+:::caution
 
 Do not assume a host is down just because ping fails. Many networks block ICMP at firewalls. Use
 `nc -zv` or `curl` to test TCP connectivity as an alternative. ICMP blocking is common in cloud

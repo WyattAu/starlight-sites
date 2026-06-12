@@ -130,7 +130,7 @@ You can also specify the outbound interface instead of a next-hop:
 ip route 192.168.2.0 255.255.255.0 Ethernet0/1
 ```
 
-:::warning Specifying an outbound interface instead of a next-hop on a multi-access network (like
+:::caution Specifying an outbound interface instead of a next-hop on a multi-access network (like
 Ethernet) requires proxy ARP to function correctly, which can cause unexpected behavior. Prefer
 Next-hop addresses on multi-access links.
 :::
@@ -382,7 +382,7 @@ interface Ethernet0/0
   ip ospf priority 100
 ```
 
-:::warning DR/BDR election on NBMA networks (like Frame Relay or DMVPN) can cause unexpected
+:::caution DR/BDR election on NBMA networks (like Frame Relay or DMVPN) can cause unexpected
 Behavior. On hub-and-spoke topologies, ensure the hub has the highest priority and all spokes have
 Priority 0. Otherwise, a spoke might win the DR election, breaking routing.
 :::
@@ -766,7 +766,7 @@ Operators should follow:
 3. Coordinate and share contact information
 4. Publish routing policy (ROAs in RPKI)
 
-:::warning BGP hijacking is a real and ongoing threat. In 2008, Pakistan Telecom hijacked YouTube's
+:::caution BGP hijacking is a real and ongoing threat. In 2008, Pakistan Telecom hijacked YouTube's
 Prefix (208.65.153.0/24) by advertising a more specific route, redirecting global YouTube traffic to
 Pakistan. In 2018, attackers hijacked Amazon's NS1 prefix to intercept cryptocurrency DNS traffic.
 Implement RPKI validation and prefix filtering on all BGP sessions.
@@ -1181,7 +1181,7 @@ show logging | include OSPF|BGP
 
 ### Debug Commands
 
-:::warning Debug commands can generate massive output and impact router performance. Use them
+:::caution Debug commands can generate massive output and impact router performance. Use them
 Carefully, and always use `terminal monitor` and specific debug filters. Disable debug with
 `undebug all` as soon as you have the information you need.
 :::
@@ -1243,7 +1243,7 @@ router bgp 65001
   bgp dampening 5 750 2000 60    ! half-life, suppress, reuse, max-suppress (minutes)
 ```
 
-:::warning BGP dampening can cause more harm than good in some scenarios, particularly when a
+:::caution BGP dampening can cause more harm than good in some scenarios, particularly when a
 Flapping route carries important traffic. Many operators prefer to fix the root cause of the
 Flapping rather than suppress the route. Use dampening carefully.
 

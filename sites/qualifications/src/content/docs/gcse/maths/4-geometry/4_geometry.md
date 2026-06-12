@@ -520,7 +520,7 @@ Triangles are **congruent** if they are identical in shape and size. The conditi
 | Two angles and a corresponding side | AAS          |
 | Right angle, hypotenuse, one side   | RHS          |
 
-:::warning ASS (two sides and a non-included angle) is NOT a valid congruence condition. It can
+:::caution ASS (two sides and a non-included angle) is NOT a valid congruence condition. It can
 Produce two different triangles.
 
 ### 6.2 Similar Triangles

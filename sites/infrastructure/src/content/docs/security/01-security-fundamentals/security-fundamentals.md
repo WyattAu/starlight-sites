@@ -473,7 +473,7 @@ Uses three metric groups:
 | 7.0-8.9     | High     | Address within 7-30 days                   |
 | 9.0-10.0    | Critical | Address immediately (within 24-72 hours)   |
 
-:::warning
+:::caution
 
 CVSS base scores are often misused as the sole basis for prioritization. A CVSS 9.8 vulnerability in
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an

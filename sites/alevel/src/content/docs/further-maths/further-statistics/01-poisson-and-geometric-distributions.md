@@ -297,7 +297,7 @@ Before applying the Poisson distribution, verify:
 2. Events are independent
 3. At most one event can occur in a sufficiently small sub-interval
 
-:::warning warning not confuse this with the normal approximation to the binomial, which requires
+:::caution warning not confuse this with the normal approximation to the binomial, which requires
 $np > 5$ and $n(1-p) > 5$.
 :::
 

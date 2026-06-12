@@ -83,7 +83,7 @@ r.join()  # Wait for regular thread
 # Program exits here — daemon thread is terminated
 ```
 
-:::warning Daemon threads are abruptly terminated when the main thread exits. They may not release
+:::caution Daemon threads are abruptly terminated when the main thread exits. They may not release
 Locks, close files, or flush buffers. Use them only for non-critical background tasks.
 :::
 
@@ -145,7 +145,7 @@ outer()  # Works fine — RLock allows same thread to re-acquire
 | `acquire()` counting  | No             | Yes                      |
 | Overhead              | Lower          | Slightly higher          |
 
-:::warning With `Lock`If the same thread tries to acquire it twice, it deadlocks. With `RLock` The
+:::caution With `Lock`If the same thread tries to acquire it twice, it deadlocks. With `RLock` The
 thread must call `release()` the same number of times it called `acquire()`.
 :::
 
@@ -283,7 +283,7 @@ if __name__ == "__main__":
     print(results)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-:::warning On Linux/macOS, `multiprocessing` uses `fork()` by default, which copies the entire
+:::caution On Linux/macOS, `multiprocessing` uses `fork()` by default, which copies the entire
 Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
 :::

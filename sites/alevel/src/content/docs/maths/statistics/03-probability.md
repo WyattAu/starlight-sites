@@ -179,7 +179,7 @@ $P(A \cap B) = P(A)P(B)$. $\blacksquare$
 **Intuition.** Independence means knowing $B$ occurred gives you **no information** about $A$. The
 Probability of $A$ is the same whether or not $B$ has happened.
 
-:::warning Warning Mutually exclusive and both have positive probability, they are **not**
+:::caution Warning Mutually exclusive and both have positive probability, they are **not**
 independent (since $P(A \cap B) = 0 \neq P(A)P(B)$).
 :::
 
@@ -193,7 +193,7 @@ $$P(A_{i_1} \cap A_{i_2} \cap \cdots \cap A_{i_k}) = P(A_{i_1}) \cdot P(A_{i_2})
 **Definition.** Events $A_1, A_2, \ldots, A_n$ are **pairwise independent** if every pair
 $(A_i, A_j)$ with $i \neq j$ is independent.
 
-:::warning Mutual independence is a **stronger** condition than pairwise independence. Pairwise
+:::caution Mutual independence is a **stronger** condition than pairwise independence. Pairwise
 Independence does not imply mutual independence. For example, with two independent coin tosses, let
 $A$ = "first toss is heads", $B$ = "second toss is heads", $C$ = "both tosses are the same". Then
 $A$, $B$, $C$ are pairwise independent but not mutually independent since

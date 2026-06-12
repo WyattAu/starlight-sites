@@ -61,7 +61,7 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 | Session            | Consistency within a single client session                        | MongoDB (read preference)              |
 | Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
 
-:::warning
+:::caution
 
 "Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means
 That if you stop writing, the system will converge. In practice, convergence time depends on the
@@ -259,7 +259,7 @@ redis-cli --cluster create \
     --cluster-replicas 1
 ```
 
-:::warning
+:::caution
 
 Redis Cluster does **not** support multi-key operations across different hash slots. If you need to
 Atomically update `user:123:profile` and `user:123:settings`They must have the same hash tag Prefix
@@ -365,7 +365,7 @@ CREATE TABLE events (
 -- sorted by event_id (which includes a timestamp component)
 ```
 
-:::warning
+:::caution
 
 Cassandra's data model requires you to design around queries, not entities. Unlike relational
 Databases where you model entities and then write queries to access them, in Cassandra you model the
@@ -561,7 +561,7 @@ Service Architecture with Polyglot Persistence:
                Full-text search, log aggregation, analytics
 ```
 
-:::warning
+:::caution
 
 Polyglot persistence increases operational complexity. Each database has its own backup strategy,
 Replication configuration, monitoring, upgrade path, and failure modes. Before introducing a new
@@ -796,7 +796,7 @@ GET /products/_search
 }
 ```
 
-:::warning
+:::caution
 
 Elasticsearch is not ACID-compliant. Document updates are eventually consistent across shards. It is
 A search engine, not a primary data store. Use it as a secondary index alongside a relational

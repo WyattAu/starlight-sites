@@ -229,7 +229,7 @@ $ git branch -d hotfix/fix-crash
 - Projects where releases require significant preparation (version bumps, changelogs, release notes)
 - Regulated environments where release audit trails are required
 
-:::warning
+:::caution
 
 Git Flow is often overused. For most modern software projects, GitHub Flow or trunk-based
 Development is simpler and more effective. Only adopt Git Flow if you genuinely need release

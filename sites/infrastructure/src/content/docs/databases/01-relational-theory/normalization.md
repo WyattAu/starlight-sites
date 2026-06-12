@@ -335,7 +335,7 @@ Step 3: Remove redundant attributes:
   Final minimal cover: {A -> C, C -> B}
 ```
 
-:::warning
+:::caution
 
 The order in which you process FDs in step 3 can yield different (but equivalent) minimal covers.
 This is expected. Different minimal covers may lead to different decompositions, but all are
@@ -400,7 +400,7 @@ A **non-prime attribute** is an attribute that does not belong to any candidate 
 Dependency** exists when a non-prime attribute depends on only a proper subset of a candidate key
 (rather than the entire key).
 
-:::warning
+:::caution
 
 2NF is only relevant for relations with composite candidate keys (keys consisting of two or more
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
@@ -543,7 +543,7 @@ BCNF decomposition:
     This dependency cannot be checked on R1 or R2 alone without joining them.
 ```
 
-:::warning
+:::caution
 
 This example demonstrates the fundamental tension between BCNF and dependency preservation. The
 Decomposition is lossless (you can reconstruct the original data) but not dependency-preserving (the
@@ -1040,7 +1040,7 @@ With surrogate key:
   But you still need UNIQUE(order_id, product_id) to prevent duplicates.
 ```
 
-:::warning
+:::caution
 
 Surrogate keys do not eliminate the need for normalization. They make 2NF automatic, but 3NF
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
@@ -1171,7 +1171,7 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
 
-:::warning
+:::caution
 
 The most dangerous denormalization pattern is "silent duplication" -- copying data without any
 Mechanism to keep it consistent. If you denormalize, you must have a concrete strategy for

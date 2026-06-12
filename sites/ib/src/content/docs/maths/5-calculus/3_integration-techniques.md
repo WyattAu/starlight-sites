@@ -87,7 +87,7 @@ $$
 \int_{-a}^{a} f(x)\,dx = 0
 $$
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Always check if a function is odd or even before integrating over a symmetric interval. This can
 Save significant computation time.

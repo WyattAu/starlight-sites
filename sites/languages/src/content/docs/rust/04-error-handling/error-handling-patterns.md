@@ -347,7 +347,7 @@ where
 }
 ```
 
-:::warning
+:::caution
 
 Retry logic must be idempotent. If the operation has side effects (e.g., creating a database
 Record), retrying may create duplicates. Design your operations to be idempotent before adding retry

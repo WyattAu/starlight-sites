@@ -49,7 +49,7 @@ $$\mathrm{HA} + \mathrm{B} \rightleftharpoons \mathrm{A}^- + \mathrm{BH}^+$$
 | Conductivity               | Higher                                                    | Lower                                                                |
 | Reaction rate (same conc.) | Faster                                                    | Slower                                                               |
 
-:::warning Warning Ionisation; concentration refers to the amount dissolved per unit volume. A
+:::caution Warning Ionisation; concentration refers to the amount dissolved per unit volume. A
 dilute solution of a Strong acid can have a higher pH than a concentrated solution of a weak acid.
 :::
 
@@ -399,7 +399,7 @@ $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$)
 
 Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$): The halogen is discharged
 
-:::warning Warning At the anode instead of $\mathrm{OH}^-$. In dilute chloride solutions,
+:::caution Warning At the anode instead of $\mathrm{OH}^-$. In dilute chloride solutions,
 $\mathrm{OH}^-$ may be Preferentially discharged.
 :::
 

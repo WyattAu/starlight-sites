@@ -251,7 +251,7 @@ $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
 
-:::warning
+:::caution
 
 Always **back up** the `.git` directory before attempting recovery. Some operations
 (`git gc --prune=now`) are irreversible.

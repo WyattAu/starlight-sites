@@ -47,7 +47,7 @@ Probabilities are found by integration:
 
 $$P(a \leq X \leq b) = \int_a^b f(x)\,dx$$
 
-:::warning For a continuous random variable, $P(X = a) = 0$ for any single value $a$. This is why
+:::caution For a continuous random variable, $P(X = a) = 0$ for any single value $a$. This is why
 $P(a \leq X \leq b) = P(a < X < b)$ — the inequalities at individual points do not matter.
 :::
 

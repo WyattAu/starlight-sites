@@ -227,7 +227,7 @@ Admonitions are the preferred way to call out important information:
 :::danger This is dangerous.
 :::
 
-:::warning This is a warning.
+:::caution This is a warning.
 :::
 ```
 
@@ -250,8 +250,8 @@ They can also be collapsible (Docusaurus 3):
 Tabs require an MDX import:
 
 ````mdx
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import { Tabs } from '@astrojs/starlight/components';
+import { TabItem } from '@astrojs/starlight/components';
 
 &lt;Tabs&gt; &lt;TabItem value="python" label="Python"&gt;
 
@@ -334,7 +334,7 @@ Hidden content here.
 &lt;/details&gt;
 ```
 
-:::warning Do not nest `&lt;details&gt;` inside another `&lt;details&gt;`. This causes rendering
+:::caution Do not nest `&lt;details&gt;` inside another `&lt;details&gt;`. This causes rendering
 issues in Docusaurus.
 :::
 
@@ -344,8 +344,8 @@ Since Docusaurus processes `.md` files as MDX, you can import React components:
 
 ```mdx
 import CodeBlock from '@theme/CodeBlock';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import { Tabs } from '@astrojs/starlight/components';
+import { TabItem } from '@astrojs/starlight/components';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 ;

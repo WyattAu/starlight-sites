@@ -354,7 +354,7 @@ The codes $1010$ through $1111$ are **invalid** in BCD.
   bits in pure binary ($1111100111_2$)
 - BCD avoids rounding errors in decimal arithmetic — useful in financial systems
 
-:::warning Pitfall BCD is NOT the same as converting the entire number to binary. $12_{10}$ in BCD
+:::caution Pitfall BCD is NOT the same as converting the entire number to binary. $12_{10}$ in BCD
 Is $00010010_2$NOT $1100_2$.
 :::
 
@@ -439,7 +439,7 @@ Magnitude.
 - Range for $n$ bits: $[-(2^{n-1} - 1),\ 2^{n-1} - 1]$
 - Two representations of zero: $+0 = 000\ldots0$ and $-0 = 100\ldots0$
 
-:::warning Pitfall Sign and magnitude is rarely used in practice because:
+:::caution Pitfall Sign and magnitude is rarely used in practice because:
 
 1. It has two representations of zero
 2. Addition requires different logic depending on the signs

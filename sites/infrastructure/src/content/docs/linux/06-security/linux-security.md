@@ -58,7 +58,7 @@ chage -W 14 username      # warn 14 days before expiration
 chage -E 2025-12-31 username  # account expires
 ```
 
-:::warning
+:::caution
 
 Always use `usermod -aG group user` instead of `usermod -G group user`. Without `-a`The `-G` flag
 **replaces** all existing group memberships. This is one of the most common mistakes in Linux

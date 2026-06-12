@@ -433,7 +433,7 @@ $2\cos\theta - 1 = 0$: $\cos\theta = \frac{1}{2}$So $\theta = \frac{\pi}{3}, \fr
 
 Solutions: $0, \frac{\pi}{3}, \pi, \frac{5\pi}{3}$.
 
-:::warning When dividing by $\sin\theta$ or $\cos\theta$ to simplify, always check whether those
+:::caution When dividing by $\sin\theta$ or $\cos\theta$ to simplify, always check whether those
 Functions can be zero. If they can, you lose solutions. Instead, factorise.
 
 **Example (HL):** Solve $2\sin^2 x + 3\cos x - 3 = 0$ for $0 \le x \le 2\pi$.

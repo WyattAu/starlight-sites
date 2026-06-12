@@ -482,7 +482,7 @@ Maven supports version ranges, but they are a source of non-reproducible builds.
 <version>[3.14.0]</version>         <!-- exactly 3.14.0 -->
 ```
 
-:::warning Avoid version ranges in production. They make builds non-reproducible — a build that
+:::caution Avoid version ranges in production. They make builds non-reproducible — a build that
 Works today may break tomorrow when a new compatible version is published. Pin exact versions and
 Update them deliberately through dependency review.
 :::
@@ -975,7 +975,7 @@ gradle wrapper --gradle-version=8.5
 The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/dists/`. Check
 `gradlew``gradlew.bat`And `gradle/wrapper/gradle-wrapper.properties` into version control.
 
-:::warning Always use wrapper scripts. Never depend on a globally installed Maven or Gradle.
+:::caution Always use wrapper scripts. Never depend on a globally installed Maven or Gradle.
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 Through a PR.

@@ -302,7 +302,7 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 | Foreign data wrapper queries   | No              | FDW does not support parallel execution    |
 | Queries returning few rows     | No              | Gather overhead exceeds benefit            |
 
-:::warning
+:::caution
 
 Parallel query workers each consume `work_mem` independently. A parallel hash join with 4 workers
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
@@ -410,7 +410,7 @@ CREATE INDEX idx_orders_monthly ON orders (DATE_TRUNC('month', order_date));
 SELECT * FROM orders WHERE DATE_TRUNC('month', order_date) = '2024-01-01';
 ```
 
-:::warning
+:::caution
 
 The expression in the query must exactly match the expression in the index.
 `WHERE lower(email) = 'alice@example.com'` uses the index, but
@@ -518,7 +518,7 @@ server_idle_timeout = 600
 | `transaction` | Connection returned to pool after each transaction | Most web applications (default choice) |
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
 
-:::warning
+:::caution
 
 In `transaction` mode, session-level `SET` commands are lost between transactions. Use `SET LOCAL`
 For transaction-scoped settings, or use `search_path` in `pgbouncer.ini` with
@@ -937,7 +937,7 @@ WHERE o.created_at >= '2024-01-01';
 -- Look for: "Append" node containing "Join" nodes per partition pair
 ```
 
-:::warning
+:::caution
 
 Partition-wise joins require both sides to be partitioned on the same key with the same partition
 Bounds. If the partitioning schemes do not align, the optimizer falls back to joining the entire

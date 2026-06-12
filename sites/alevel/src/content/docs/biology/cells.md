@@ -64,7 +64,7 @@ $$\mathrm{Magnification} = \frac◆LB◆\mathrm{Image\ size}◆RB◆◆LB◆\mat
 Out-of-focus light, producing sharp optical sections through thick specimens. This allows 3D
 Reconstruction without the need for physical sectioning.
 
-:::warning Common Pitfall Students often confuse magnification with resolution. Magnification is how
+:::caution Common Pitfall Students often confuse magnification with resolution. Magnification is how
 Much larger the image appears; resolution is the ability to distinguish two closely spaced objects
 As separate. Increasing magnification without increasing resolution produces a larger but blurry
 Image -- no additional detail is revealed.
@@ -113,7 +113,7 @@ Animals, plants, fungi, and protists.
 | Reproduction              | Binary fission (asexual)                       | Mitosis, meiosis                               |
 | Flagella                  | Simple, rotating                               | Complex, $9 + 2$ microtubule arrangement       |
 
-:::warning Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which
+:::caution Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which
 Measure sedimentation rate during centrifugation -- not molecular weight. Svedberg units are not
 Additive: $50\mathrm{S} + 30\mathrm{S} = 70\mathrm{S}$ is a coincidence of sedimentation rates, not
 Molecular masses.
@@ -201,7 +201,7 @@ Enzymes (lipases, proteases, nucleases) optimised for pH $\approx 5$. They funct
 - **Autophagy**: breaking down worn-out organelles.
 - **Apoptosis**: programmed cell death.
 
-:::warning Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles
+:::caution Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles
 With hydrolytic activity. However, plant cells also have a large permanent vacuole, which is a
 Distinct structure with different functions (turgor, storage, waste isolation).
 :::
@@ -340,7 +340,7 @@ Reproduction.
 4. **Telophase**: chromosomes decondense; the nuclear envelope reforms; the nucleolus reappears.
    Cytokinesis (division of the cytoplasm) follows.
 
-:::warning Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By
+:::caution Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By
 the time mitosis Starts, each chromosome already consists of two identical sister chromatids.
 :::
 
@@ -420,7 +420,7 @@ Measurement is of a sub-component. If the full ribosome is being measured, the s
 recheck The image measurement. This highlights the importance of sanity-checking answers against
 known biological Dimensions.
 
-:::warning Common Pitfall Students frequently forget to convert units before applying the
+:::caution Common Pitfall Students frequently forget to convert units before applying the
 magnification formula. Always convert both image size and actual size to the same unit. A common
 error is to leave the answer In mm when the question asks for $\mu\mathrm{m}$. Write down the
 conversion explicitly to avoid losing Marks.
@@ -466,7 +466,7 @@ Their contents to the extracellular space. This requires:
 Exocytosis is essential for secretion of hormones, neurotransmitters, digestive enzymes, and mucus,
 as Well as for insertion of new membrane proteins and lipids into the plasma membrane.
 
-:::warning Common Pitfall Students often state that endocytosis and exocytosis are forms of
+:::caution Common Pitfall Students often state that endocytosis and exocytosis are forms of
 diffusion. They are Not. Both are active processes requiring ATP. They involve bulk transport of
 large quantities of Material in membrane-bound vesicles, which is fundamentally different from the
 passive movement of Individual molecules through the bilayer.
@@ -531,7 +531,7 @@ $\Psi_{\mathrm{cell}} = \Psi_s$.
 Plasmolysis is reversible if the cell is returned to a hypotonic solution before permanent damage
 occurs.
 
-:::warning Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They
+:::caution Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They
 do not -- The rigid cell wall exerts an inward pressure (wall pressure) that opposes further water
 entry once Turgidity is reached. Only animal cells (which lack cell walls) burst in hypotonic
 solutions.
@@ -589,7 +589,7 @@ Found in approximately 50% of all human cancers.
 Cancer requires mutations in multiple genes: activation of one or more oncogenes plus Inactivation
 of two or more tumour suppressor genes (Knudson's two-hit hypothesis).
 
-:::warning Common Pitfall Students often state that "one mutation causes cancer." Cancer is a
+:::caution Common Pitfall Students often state that "one mutation causes cancer." Cancer is a
 multistep Process requiring the accumulation of several mutations in genes regulating the cell
 cycle, DNA repair, And apoptosis. A single mutation in a proto-oncogene or tumour suppressor gene is
 necessary but not Sufficient for malignancy.
@@ -661,7 +661,7 @@ to Repopulate the blood cell lineages after chemotherapy. Induced pluripotent st
 adult Cells reprogrammed to a pluripotent state by introducing transcription factors (Oct4, Sox2,
 Klf4, c-Myc), Offering an ethically uncontroversial alternative to embryonic stem cells.
 
-:::warning Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent
+:::caution Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent
 cells can Form a complete organism including placenta and umbilical cord; pluripotent cells can form
 all body cell Types but not extra-embryonic tissues. Only the zygote and very early embryonic cells
 are totipotent.
@@ -1045,7 +1045,7 @@ pink/red with safranin.
   methicillin-resistant _S. Aureus_).
 - Reduced permeability of the outer membrane (in Gram-negative bacteria).
 
-:::warning Common Pitfall Students often state that "penicillin kills bacteria by breaking down the
+:::caution Common Pitfall Students often state that "penicillin kills bacteria by breaking down the
 cell wall." Penicillin does not break down existing peptidoglycan. It prevents the formation of new
 cross-links during cell wall synthesis. The cell wall weakens because it cannot be repaired or
 expanded, and the bacterium lyses due to the inward osmotic pressure (water entering by osmosis).

@@ -150,7 +150,7 @@ Buy the same quantity of imports as in 2020.
 | Inflation differentials                 | If domestic inflation > trading partners' inflation → ToT deteriorates |
 | Technological progress in export sector | Unit costs fall → export prices may fall → ToT deteriorates            |
 
-:::warning Warning Deterioration is caused by cheaper imports (e.g., due to technological progress
+:::caution Warning Deterioration is caused by cheaper imports (e.g., due to technological progress
 abroad), consumers Benefit from lower prices. Conversely, an improvement caused by a fall in export
 volumes (due to Declining competitiveness) may actually reflect economic weakness.
 :::
@@ -365,7 +365,7 @@ War, reshoring) reflects these tensions.
 - **Genuine Progress Indicator (GPI)**: adjusts GDP for environmental costs, inequality, and unpaid
   work
 
-:::warning Warning Ignores income distribution, (2) it doesn't capture health, education, or
+:::caution Warning Ignores income distribution, (2) it doesn't capture health, education, or
 political freedom, (3) it Is biased toward market activity (excludes subsistence farming, unpaid
 work). Always use multiple Indicators.
 :::

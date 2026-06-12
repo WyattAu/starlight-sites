@@ -66,7 +66,7 @@ let result = panic::catch_unwind(may_panic);
 assert!(result.is_err());
 ```
 
-:::warning
+:::caution
 
 `catch_unwind` only works if the panicked code was compiled with unwinding support. It does not work
 Across FFI boundaries (panics through C callbacks are undefined behavior). It is also not a

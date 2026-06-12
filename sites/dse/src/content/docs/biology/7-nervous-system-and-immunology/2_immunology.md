@@ -523,7 +523,7 @@ quantify specific antigens (or antibodies) in a sample.
 | Duration        | Long-lasting (years to lifetime)   | Short-lived (weeks to months)             |
 | Boosters        | Booster doses extend immunity      | Cannot be boosted (no memory cells)       |
 
-:::warning A common DSE question asks students to distinguish between active and passive immunity
+:::caution A common DSE question asks students to distinguish between active and passive immunity
 and between natural and artificial immunity. Remember: "active" means the body MAKES its own
 antibodies; "passive" means the body RECEIVES pre-made antibodies. "Natural" means the exposure
 occurred (infection or maternal transfer); "artificial" means the exposure was deliberate

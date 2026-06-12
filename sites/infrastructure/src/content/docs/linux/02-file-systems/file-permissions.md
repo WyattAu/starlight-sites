@@ -200,7 +200,7 @@ umask 0077     # owner only (private)
 echo 'umask 0027' >> ~/.profile
 ```
 
-:::warning
+:::caution
 
 `umask` only affects permissions at creation time. It does not modify existing files. If you need to
 Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits — it
@@ -561,7 +561,7 @@ chattr -R +A /srv/data/
 lsattr -R /srv/data/
 ```
 
-:::warning
+:::caution
 
 `chattr +i` is a powerful security measure but can cause problems during automated configuration
 Management. Ansible, Puppet, and similar tools may fail silently when trying to modify immutable

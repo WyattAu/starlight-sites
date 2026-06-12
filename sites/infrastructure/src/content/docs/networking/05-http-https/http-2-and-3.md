@@ -141,7 +141,7 @@ Client                                          Server
   |<-- DATA [stream 4]: JS body -------------------|
 ```
 
-:::warning
+:::caution
 
 Server push has been deprecated in practice. Chrome removed support in 2022, and Firefox followed.
 The rationale: caching is more effective (the client can predict what it needs based on the HTML),
@@ -169,7 +169,7 @@ weight:12  weight:20
 In this example, stream 1 gets twice the bandwidth of stream 3 (weight 32 vs 16). Within stream 1's
 Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 
-:::warning
+:::caution
 
 In practice, stream priority implementation varies between servers and clients, and the results are
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
@@ -695,7 +695,7 @@ effective_window = min(connection_window, stream_window)
 The default initial window size is 65,535 bytes (65535 = 2^16 - 1). This can be changed via the
 SETTINGS frame's INITIAL_WINDOW_SIZE parameter.
 
-:::warning
+:::caution
 
 Changing INITIAL_WINDOW_SIZE affects only new streams, not existing ones. Existing streams continue
 With their current window size. This can lead to confusion during the transition period.

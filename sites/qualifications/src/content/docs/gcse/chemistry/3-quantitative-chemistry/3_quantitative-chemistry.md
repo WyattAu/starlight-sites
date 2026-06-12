@@ -31,7 +31,7 @@ $$M_r(\mathrm{CaCO_3) = 40.1 + 12.0 + (3 \times 16.0) = 100.1$$
 
 $$M_r = (2 \times 14.0) + (8 \times 1.0) + 32.1 + (4 \times 16.0) = 28 + 8 + 32.1 + 64 = 132.1$$
 
-:::warning Remember to multiply the relative atomic mass of each atom by the number of that atom in
+:::caution Remember to multiply the relative atomic mass of each atom by the number of that atom in
 The formula, including atoms inside brackets. The subscript outside the bracket applies to every
 Atom inside.
 

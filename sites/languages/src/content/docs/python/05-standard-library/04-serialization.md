@@ -262,7 +262,7 @@ print(data["database"]["host"])  # localhost
 
 ### safe_load vs load
 
-:::warning Always use `yaml.safe_load()` instead of `yaml.load()`. The latter can deserialize
+:::caution Always use `yaml.safe_load()` instead of `yaml.load()`. The latter can deserialize
 Arbitrary Python objects, including calls to `subprocess.Popen` or `os.system`:
 
 ```yaml
@@ -435,7 +435,7 @@ with open("quoted.csv", "w", newline="") as f:
 # csv.QUOTE_NONE — never quote (raises error if quoting needed)
 ```
 
-:::warning Always open CSV files with `newline=""` as specified in the `csv` module documentation.
+:::caution Always open CSV files with `newline=""` as specified in the `csv` module documentation.
 On Python 3, failing to do so can cause extra blank lines in the output on some platforms.
 
 ## Protocol Buffers

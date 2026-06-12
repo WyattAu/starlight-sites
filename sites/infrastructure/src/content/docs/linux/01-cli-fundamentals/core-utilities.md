@@ -91,7 +91,7 @@ grep --color=always "pattern" file
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
 
-:::warning
+:::caution
 
 In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\` to get Their
 special meaning. In ERE, the reverse is true — they are special by default and must be escaped To be
@@ -388,7 +388,7 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
 
-:::warning
+:::caution
 
 Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
@@ -671,7 +671,7 @@ chmod +t /tmp
 chmod 4755 /usr/local/bin/custom_tool
 ```
 
-:::warning
+:::caution
 
 SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users
 Can be used for privilege escalation. Audit SUID files regularly:

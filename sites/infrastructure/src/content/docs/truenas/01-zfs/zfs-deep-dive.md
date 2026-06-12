@@ -132,7 +132,7 @@ Set at pool creation time and cannot be changed afterward.
 | 13     | 8 KB        | Some modern SSDs with 8 KB physical sectors |
 | 14     | 16 KB       | Advanced-format SMR drives                  |
 
-:::warning Always set `ashift=12` (4 KB) at minimum for modern drives. Setting `ashift=9` on a drive
+:::caution Always set `ashift=12` (4 KB) at minimum for modern drives. Setting `ashift=9` on a drive
 With 4 KB physical sectors causes read-modify-write amplification, devastating performance. On
 TrueNAS, the default `ashift` is 12, which is correct for virtually all modern drives.
 :::
@@ -201,7 +201,7 @@ Variable-size blocks up to this maximum. The optimal recordsize depends on the w
 | General file storage               | 128K                   | Good balance for mixed workloads                 |
 | NFS home directories               | 128K                   | Mixed workload, default is fine                  |
 
-:::warning Changing `recordsize` on an existing dataset only affects new writes. Existing files
+:::caution Changing `recordsize` on an existing dataset only affects new writes. Existing files
 Retain their original block sizes. To benefit from a recordsize change, you must rewrite the data
 (e.g., copy files to a new dataset with the desired recordsize).
 :::
@@ -317,7 +317,7 @@ A dedicated SLOG device ( a low-latency NVMe SSD or Intel Optane) absorbs synchr
 speed, then asynchronously flushes them to the pool. This dramatically improves NFS And database
 write performance on HDD-based pools.
 
-:::warning The SLOG must have power-loss protection (PLP). Without PLP, a power loss during a
+:::caution The SLOG must have power-loss protection (PLP). Without PLP, a power loss during a
 Synchronous write can lose acknowledged data, violating the sync guarantee. Intel Optane DC
 Persistent memory is the gold standard for SLOG devices. Enterprise NVMe SSDs with PLP are also
 Acceptable. Consumer NVMe SSDs without PLP should not be used as SLOG devices.
@@ -367,7 +367,7 @@ zpool replace tank /dev/sda /dev/sdb
 zpool status tank
 ```
 
-:::warning During a resilver, the pool is vulnerable. If a second drive fails during resilver of a
+:::caution During a resilver, the pool is vulnerable. If a second drive fails during resilver of a
 RAIDZ1 pool, all data is lost. For RAIDZ2, you can tolerate a second failure. Always monitor
 Resilver progress and ensure the pool is healthy before and after.
 :::
@@ -701,7 +701,7 @@ zfs rollback tank/data@daily-2024-01-10
 zfs rollback -rf tank/data@daily-2024-01-10
 ```
 
-:::warning `zfs rollback` destroys all intermediate snapshots between the current state and the
+:::caution `zfs rollback` destroys all intermediate snapshots between the current state and the
 Target snapshot. Use `zfs clone` instead if you want to preserve the current state.
 :::
 
@@ -781,7 +781,7 @@ zpool import <guid>
 zpool import -f tank
 ```
 
-:::warning Always export a pool before disconnecting drives. If a pool is not exported, ZFS may mark
+:::caution Always export a pool before disconnecting drives. If a pool is not exported, ZFS may mark
 It as active on the original system, preventing import on the new system. Use `zpool export -f` to
 Force export if necessary.
 

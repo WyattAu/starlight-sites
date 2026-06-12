@@ -75,7 +75,7 @@ The trade-off is sensitivity to whitespace. Mixing tabs and spaces, or inconsist
 Causes `IndentationError`. Python 3 disallows mixing tabs and spaces entirely within the same file.
 PEP 8 mandates 4 spaces per indentation level.
 
-:::warning
+:::caution
 
 Python 3 raises `TabError: inconsistent use of tabs and spaces in indentation` if a file mixes tabs
 And spaces. Configure your editor to insert 4 spaces on Tab. Most linters and formatters (`ruff`
@@ -446,7 +446,7 @@ def converge_pi(target_error: float = 1e-5) -> float:
         estimate = new_estimate
 ```
 
-:::warning
+:::caution
 
 A `while True` loop with no `break` condition is an infinite loop. While occasionally intentional
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
@@ -543,7 +543,7 @@ flat = [element for row in matrix for element in row]
 The execution order of nested comprehensions follows the same left-to-right reading order as nested
 `for` loops. The first `for` is the outer loop, the second `for` is the inner loop.
 
-:::warning
+:::caution
 
 List comprehensions create the entire list in memory. For large datasets, prefer generator
 Expressions. A comprehension over a billion-element range would consume all available memory.
@@ -664,7 +664,7 @@ if (match := pattern.search(text)) and match.group(1).isdigit():
 The walrus operator has lower precedence than most operators but higher than commas. Parentheses are
 Required in comprehensions and `if`/`while` conditions.
 
-:::warning
+:::caution
 
 The walrus operator should be used sparingly. It improves clarity when it avoids redundant
 Computation or awkward workarounds. It harms clarity when it makes a single line do too much. The
@@ -755,7 +755,7 @@ flowchart TD
     VE --> JE["JSONDecodeError"]
 ```
 
-:::warning
+:::caution
 
 Never use a bare `except:` (which catches everything including `SystemExit` and `KeyboardInterrupt`)
 Or `except Exception` without careful consideration. Catching too broadly masks real errors and
@@ -872,7 +872,7 @@ def binary_search(arr: list[int], target: int) -> int:
     return -1
 ```
 
-:::warning
+:::caution
 
 Assertions are stripped when Python runs with the `-O` (optimize) flag. Never use assertions for
 Input validation or security checks. Use explicit `if/raise` for conditions that must be checked in

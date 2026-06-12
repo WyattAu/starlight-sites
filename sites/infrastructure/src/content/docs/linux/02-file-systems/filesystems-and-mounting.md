@@ -317,7 +317,7 @@ xfs_freeze -u /mount/point
 xfs_fsr /mount/point/path/to/file
 ```
 
-:::warning
+:::caution
 
 XFS **cannot be shrunk**. If you need to reduce an XFS volume, you must back up, recreate with a
 Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
@@ -423,7 +423,7 @@ btrfs scrub start /mnt/btrfs
 btrfs scrub status /mnt/btrfs
 ```
 
-:::warning
+:::caution
 
 Btrfs RAID 5/6 has known write-hole issues that can cause data loss during a power failure. The
 Btrfs documentation recommends against using RAID 5/6 in production. Use RAID 1 or RAID 10 instead.

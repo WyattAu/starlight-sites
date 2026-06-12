@@ -125,7 +125,7 @@ $ git gc
 $ git gc --prune=now
 ```
 
-:::warning
+:::caution
 
 `git gc --prune=now` is **permanent**. After pruning, unreachable objects cannot be recovered.
 Always verify with `git fsck --unreachable` first, and ensure you don't need the objects (e.g.,

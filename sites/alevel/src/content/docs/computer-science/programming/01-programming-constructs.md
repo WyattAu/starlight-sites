@@ -47,7 +47,7 @@ y = float(5)       # y = 5.0
 z = str(42)        # z = "42"
 ```
 
-:::warning Pitfall In Python, `int(3.9)` truncates toward zero (gives 3), not rounds. Use
+:::caution Pitfall In Python, `int(3.9)` truncates toward zero (gives 3), not rounds. Use
 `round(3.9)` for rounding.
 :::
 
@@ -217,7 +217,7 @@ $\phi = \frac◆LB◆1+\sqrt{5}◆RB◆◆LB◆2◆RB◆ \approx 1.618$ (the gol
 $\psi = \frac◆LB◆1-\sqrt{5}◆RB◆◆LB◆2◆RB◆$. The solution is $T(n) = A\phi^n + B\psi^n$. Since
 $|\psi| \lt 1$ $T(n) = \Theta(\phi^n)$. $\square$
 
-:::warning Warning Iteration for $O(n)$ time:
+:::caution Warning Iteration for $O(n)$ time:
 
 ```python
 def fib_iter(n):

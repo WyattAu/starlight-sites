@@ -101,7 +101,7 @@ The shell performs the following steps before executing a command:
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
 
-:::warning
+:::caution
 
 The order of these expansions matters enormously. Parameter expansion happens before globbing, which
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
@@ -273,7 +273,7 @@ shopt -s nocaseglob
 ls *.TXT  # matches file.txt, FILE.TXT, etc.
 ```
 
-:::warning
+:::caution
 
 By default, `*` does not match files starting with a dot. This is a security feature inherited from
 The original Unix glob behavior — you must explicitly use `.*` or enable `dotglob` with
@@ -664,7 +664,7 @@ set -euo pipefail
 #     (without this, only the last command's exit status matters)
 ```
 
-:::warning
+:::caution
 
 `set -e` has subtle interactions with commands in `if` conditions, `&&`/`||` chains, and subshells.
 It does not fire for commands whose exit status is tested (e.g., `if ! command; then`). If you need

@@ -220,7 +220,7 @@ AIO coolers have finite lifespans. Common failure modes:
    Tilt the case to move bubbles to the radiator.
 4. **Fan failure:** Individual fans can fail. Replaceable in most AIOs.
 
-:::warning Always monitor pump RPM. Set an alarm in your monitoring software if pump RPM drops below
+:::caution Always monitor pump RPM. Set an alarm in your monitoring software if pump RPM drops below
 A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes under Load.
 :::
 

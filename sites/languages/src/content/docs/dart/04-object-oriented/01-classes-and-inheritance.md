@@ -335,7 +335,7 @@ print(a == b);     // false
 print(a.dot(b));   // 11.0
 ```
 
-:::warning
+:::caution
 
 When overriding `==`You **must** also override `hashCode`. Two objects that are equal must have The
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.

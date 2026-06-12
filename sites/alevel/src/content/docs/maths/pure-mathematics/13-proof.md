@@ -149,7 +149,7 @@ So not all primes less than 10 are odd. The claim is **false**. The counterexamp
 
 All five cases confirmed. $\blacksquare$
 
-:::warning Warning Manageable. You cannot use exhaustion for "all integers" or "all real numbers."
+:::caution Warning Manageable. You cannot use exhaustion for "all integers" or "all real numbers."
 :::
 <hr />
 

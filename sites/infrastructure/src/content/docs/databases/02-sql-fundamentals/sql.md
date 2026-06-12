@@ -97,7 +97,7 @@ DROP CONSTRAINT:
 ALTER TABLE employees DROP CONSTRAINT chk_salary_range;
 ```
 
-:::warning
+:::caution
 
 `ALTER TABLE` acquires an `ACCESS EXCLUSIVE` lock in PostgreSQL, which blocks all reads and writes
 To the table for the duration of the operation. On large tables, adding a column with a default
@@ -176,7 +176,7 @@ SET salary = (
 WHERE e.emp_id = 42;
 ```
 
-:::warning
+:::caution
 
 An `UPDATE` without a `WHERE` clause modifies every row in the table. Always run a `SELECT` with the
 Same `WHERE` clause first to verify which rows will be affected. Consider wrapping destructive
@@ -276,7 +276,7 @@ Logical operators:
 WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 ```
 
-:::warning
+:::caution
 
 `NULL` comparisons behave unexpectedly. `NULL = NULL` evaluates to `NULL` (not `TRUE`), so
 `WHERE column = NULL` never matches any rows. Use `IS NULL` and `IS NOT NULL`. Similarly,
@@ -428,7 +428,7 @@ WHERE e.salary > (
 );
 ```
 
-:::warning
+:::caution
 
 Correlated subqueries execute the inner query once for each row in the outer query. For large
 Tables, this is $O(n)$ subquery executions. Rewrite as a join or a window function when possible:
@@ -483,7 +483,7 @@ WHERE department_id NOT IN (SELECT dept_id FROM departments);
 -- Use NOT EXISTS instead when NULLs are possible.
 ```
 
-:::warning
+:::caution
 
 `NOT IN` with a subquery that can return NULL yields zero rows, because `x NOT IN (1, 2, NULL)`
 Evaluates to `x != 1 AND x != 2 AND x != NULL`And `x != NULL` is `NULL` (not `TRUE`). Always use
@@ -683,7 +683,7 @@ SELECT emp_id, department_id, hire_date,
 FROM employees;
 ```
 
-:::warning
+:::caution
 
 The default frame clause for aggregate window functions with `ORDER BY` is
 `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
@@ -763,7 +763,7 @@ graph TD
     M2 --> E3["Frank (90)<br/>depth: 3"]
 ```
 
-:::warning
+:::caution
 
 Recursive CTEs without a termination condition loop infinitely (until the database kills the query
 Or the process runs out of memory). Always include a depth counter or a visited set. MySQL limits

@@ -155,7 +155,7 @@ www.example.com.    300    IN    CNAME    example.com.
 cdn.example.com.    300    IN    CNAME    cdn.cloudflare.com.
 ```
 
-:::warning
+:::caution
 
 The CNAME restriction means you cannot have a CNAME at the zone apex (e.g., `example.com` CNAME to
 `www.example.com`) because the apex also needs SOA and NS records. DNS providers solve this with
@@ -318,7 +318,7 @@ When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists b
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
 Non-existent names from hammering authoritative servers.
 
-:::warning
+:::caution
 
 Negative caching with long SOA minimum TTLs can cause problems during DNS migrations. If you set the
 SOA minimum to 86400 (1 day) and delete a subdomain, resolvers will cache the `NXDOMAIN` for up to 1
@@ -525,7 +525,7 @@ resolvectl status
 resolvectl query example.com
 ```
 
-:::warning
+:::caution
 
 `systemd-resolved` modifies `/etc/resolv.conf` to point to its local stub resolver (127.0.0.53). If
 You configure DNS manually in `/etc/resolv.conf`Your changes may be overwritten. To use custom DNS

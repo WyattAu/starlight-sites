@@ -196,7 +196,7 @@ public class Point {
 `long` stamp that must be used to unlock. This is a deliberate design choice — the lack of
 Reentrancy prevents certain deadlock patterns and allows the optimistic read mechanism.
 
-:::warning `StampedLock` does not implement the `Lock` or `ReadWriteLock` interface. It cannot be
+:::caution `StampedLock` does not implement the `Lock` or `ReadWriteLock` interface. It cannot be
 Used with `Condition` or in `synchronized`-style patterns. Convert to a `ReadWriteLock` view via
 `asReadLock()` / `asWriteLock()` if needed.
 :::
@@ -479,7 +479,7 @@ for (EventListener listener : listeners) {
 listeners.add(newListener);
 ```
 
-:::warning `CopyOnWriteArrayList` does NOT support `Iterator.remove()` or `ListIterator.set()`. The
+:::caution `CopyOnWriteArrayList` does NOT support `Iterator.remove()` or `ListIterator.set()`. The
 Iterator operates on a snapshot and does not reflect modifications made during iteration.
 :::
 
@@ -671,7 +671,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse resp) {
 }
 ```
 
-:::warning In thread pools (web servers, `ExecutorService`), always call `ThreadLocal.remove()` in a
+:::caution In thread pools (web servers, `ExecutorService`), always call `ThreadLocal.remove()` in a
 `finally` block. Threads are reused; stale values from a previous task will leak into the next task.
 :::
 
@@ -866,7 +866,7 @@ pool.submit(() -&gt; {
 });
 ```
 
-:::warning Never submit a task to a pool that waits for the result of another task submitted to the
+:::caution Never submit a task to a pool that waits for the result of another task submitted to the
 Same pool. If the pool is fully utilized, all threads will be blocked waiting, and no thread will be
 Available to execute the inner tasks. This is called thread pool deadlock or starvation.
 :::

@@ -104,7 +104,7 @@ let s: &'static str = "hello";
 let s: &str = "hello";  // &'static is inferred for literals
 ```
 
-:::warning
+:::caution
 
 Do not annotate function parameters with `'static` unless the function truly requires a `'static`
 Reference. Adding `'static` constraints reduces the function's flexibility — callers can no longer

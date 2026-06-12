@@ -1952,7 +1952,7 @@ Input sizes.
 **$O(n!)$ -- Factorial time:** Even faster growth than exponential. Examples: brute-force
 Permutation generation, the naive traveling salesman solution.
 
-:::warning Warning $n \log n$ is significantly larger than $n$. For example, when $n = 1000000$
+:::caution Warning $n \log n$ is significantly larger than $n$. For example, when $n = 1000000$
 $n \log_2 n \approx 20000000$Which is 20 times larger than $n$.
 :::
 

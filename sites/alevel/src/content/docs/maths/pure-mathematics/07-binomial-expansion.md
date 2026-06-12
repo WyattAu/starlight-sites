@@ -411,7 +411,7 @@ The expansion is valid when:
 
 $$\left|\frac{bx}{a}\right| \lt 1 \quad \mathrm{i.e.,} \quad |x| \lt \left|\frac{a}{b}\right|$$
 
-:::warning Always state the range of validity when working with non-integer powers. Marks are
+:::caution Always state the range of validity when working with non-integer powers. Marks are
 Routinely deducted for omitting this.
 :::
 

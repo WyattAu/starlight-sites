@@ -75,7 +75,7 @@ Docusaurus supports admonition callouts using triple-colon syntax:
 :::tip This is a tip block.
 :::
 
-:::warning This is a warning block.
+:::caution This is a warning block.
 :::
 
 :::danger This is a danger block.
@@ -134,11 +134,11 @@ charts, pie charts, and git graphs.
 The tabs UI is provided via Docusaurus theme imports:
 
 ```md
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 <Tabs>
-  <TabItem value="option-a" label="Option A">Content for A</TabItem>
-  <TabItem value="option-b" label="Option B">Content for B</TabItem>
+  <TabItem label="Option A">Content for A</TabItem>
+  <TabItem label="Option B">Content for B</TabItem>
 </Tabs>
 ```
 

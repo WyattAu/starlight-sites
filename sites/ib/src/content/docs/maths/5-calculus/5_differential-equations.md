@@ -375,7 +375,7 @@ $$k_1 = f(x_n, y_n)$$ $$k_2 = f(x_n + h, y_n + hk_1)$$ $$y_{n+1} = y_n + \frac{h
 This is a **second order** method with global error proportional to $h^2$Offering significantly
 Better accuracy than the basic Euler method for the same step size.
 
-:::warning Warning
+:::caution Warning
 
 Euler's method can produce wildly inaccurate results for stiff equations or when the step size is
 too Large. Always check whether the approximation is reasonable by comparing with qualitative

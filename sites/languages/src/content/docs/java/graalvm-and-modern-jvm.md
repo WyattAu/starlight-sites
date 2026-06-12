@@ -271,7 +271,7 @@ Native image classifies every class into one of two initialization times:
 By default, most JDK classes are initialized at build time. Application classes are initialized at
 Runtime unless they are reachable from build-time-initialized classes.
 
-:::warning Build-time initialization of application classes can cause subtle bugs. If a class's
+:::caution Build-time initialization of application classes can cause subtle bugs. If a class's
 Static initializer opens a file, creates a thread, or accesses environment variables, these actions
 Execute on the build machine, not the deployment target. Use `--initialize-at-build-time` and
 `--initialize-at-run-time` flags explicitly to control this:
@@ -602,7 +602,7 @@ public class LibCurlExample {
 | Performance        | Good (direct call after linking) | Comparable (downcall stubs are fast)    |
 | Safety             | Undefined behavior on misuse     | Bounds-checked, null-checked            |
 
-:::warning The FFM API uses `restricted` methods (marked with `@Restricted`) that can crash the JVM
+:::caution The FFM API uses `restricted` methods (marked with `@Restricted`) that can crash the JVM
 If misused. These methods perform bounds checks and null checks, but cannot prevent all undefined
 Behavior (e.g., passing a freed segment to a native function). The `@Restricted` annotation serves
 As a warning: you are leaving the safety guarantees of the Java platform.
@@ -799,7 +799,7 @@ public class OffHeapRingBuffer {
 }
 ```
 
-:::warning The off-heap ring buffer above has a bug: the `Arena` used to allocate the buffer is
+:::caution The off-heap ring buffer above has a bug: the `Arena` used to allocate the buffer is
 Closed in the constructor, making the segment inaccessible. In practice, the arena must outlive the
 Data structure. Use a shared arena or hold a reference to the arena as a field.
 :::
@@ -1238,7 +1238,7 @@ mvn -Pnative native:compile
 ./target/myapp --test
 ```
 
-:::warning Do not attempt to unit test the native image binary itself during development. The build
+:::caution Do not attempt to unit test the native image binary itself during development. The build
 Takes 30-120 seconds, which makes the test cycle too slow. Test business logic in JVM mode, and use
 The native image binary only for integration tests and final validation.
 

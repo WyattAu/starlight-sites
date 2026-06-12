@@ -376,7 +376,7 @@ def dijkstra(n, graph, source):
     return dist
 ```
 
-:::warning
+:::caution
 
 Dijkstra's greedy choice fails with negative edge weights because a shorter path through an
 Unprocessed vertex may exist. Use Bellman-Ford ($O(VE)$) for graphs with negative weights but no

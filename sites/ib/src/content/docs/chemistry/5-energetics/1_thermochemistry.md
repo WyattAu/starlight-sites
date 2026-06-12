@@ -40,7 +40,7 @@ Standard enthalpy changes are measured under standard conditions:
 | Standard enthalpy of neutralisation | $\Delta H_{\mathrm{neut}}^\circ$ | Enthalpy change when 1 mol of water forms from acid-base reaction                 |
 | Standard enthalpy of atomisation    | $\Delta H_{\mathrm{at}}^\circ$   | Enthalpy change to form 1 mol of gaseous atoms from element in standard state     |
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 $\Delta H_f^\circ$ for an element in its standard state is always zero (by definition). For example,
 $\Delta H_f^\circ$ of O$_2$(g) = 0, $\Delta H_f^\circ$ of C(graphite) = 0.
@@ -230,7 +230,7 @@ $$
 
 :::
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Bond enthalpy calculations give approximate values because average bond enthalpies are used. Values
 From Hess's law with formation data are more accurate. Bond enthalpy calculations only apply to

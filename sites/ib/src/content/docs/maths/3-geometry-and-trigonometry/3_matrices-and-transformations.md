@@ -78,7 +78,7 @@ $m \times n$ matrix.
 - The existence of $AB$ does not imply the existence of $BA$.
 - $AB = O$ does NOT imply $A = O$ or $B = O$ (there are non-trivial zero divisors).
 
-:::warning
+:::caution
 
 A common error is assuming $AB = BA$. Always check the order of multiplication. In geometric
 Transformations, applying $A$ then $B$ corresponds to the product $BA$ (right-to-left reading).
@@ -898,7 +898,7 @@ $$
 
 Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}$.
 
-:::warning
+:::caution
 
 Cramer's rule is computationally expensive for large systems ($O(n!)$ for the determinant
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and

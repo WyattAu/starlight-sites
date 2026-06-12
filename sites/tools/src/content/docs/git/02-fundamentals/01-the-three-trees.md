@@ -76,7 +76,7 @@ Git classifies files in the working directory into two categories:
 Files listed in `.gitignore` are **ignored** — they are not tracked and `git status` will not
 mention them.
 
-:::warning
+:::caution
 
 `.gitignore` only affects **untracked** files. If a file is already tracked (committed), adding it
 to `.gitignore` will have no effect. You must first untrack it with `git rm --cached <file>`.
@@ -213,7 +213,7 @@ flowchart TB
     C1 -.-> C4
 ```
 
-:::warning
+:::caution
 
 `git reset --hard` is **destructive** — it discards all uncommitted changes. Before using it, verify
 with `git status` and `git stash` if you want to preserve your work.

@@ -68,7 +68,7 @@ A sample is **biased** if it does not fairly represent the population. Sources o
 - Non-response (voluntary response bias)
 - Using convenience sampling
 
-:::warning A large sample size does not fix a biased sampling method. A sample of 10000 taken from
+:::caution A large sample size does not fix a biased sampling method. A sample of 10000 taken from
 Only one school is still biased if you want to draw conclusions about all schools in the country.
 :::
 
@@ -286,7 +286,7 @@ From the ogive, the median falls in the $25 \leq d \lt 40$ class.
 It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
 On each side.
 
-:::warning Correlation does not imply causation. Two variables may be correlated due to a third
+:::caution Correlation does not imply causation. Two variables may be correlated due to a third
 Factor, or by coincidence.
 :::
 
@@ -615,7 +615,7 @@ Roughly equal numbers of points on each side. It can be used to make predictions
 - **Interpolation:** Predicting within the range of the data (reliable).
 - **Extrapolation:** Predicting outside the range of the data (unreliable).
 
-:::warning Never extrapolate far beyond the data range. The relationship may not hold outside the
+:::caution Never extrapolate far beyond the data range. The relationship may not hold outside the
 Observed values.
 :::
 

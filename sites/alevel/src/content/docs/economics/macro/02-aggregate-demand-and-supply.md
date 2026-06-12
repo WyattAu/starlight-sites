@@ -464,7 +464,7 @@ The most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students
 With alternative models such as the Phillips Curve.
 :::
 
-:::warning Common Pitfall Students often confuse _shifts_ of AD/SRAS with _movements along_ the
+:::caution Common Pitfall Students often confuse _shifts_ of AD/SRAS with _movements along_ the
 Curves. "An increase in the price level reduces AD" is WRONG — it causes a movement along the AD
 Curve. "An increase in consumer confidence increases AD" is CORRECT — it shifts the AD curve.
 :::

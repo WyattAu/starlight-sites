@@ -384,7 +384,7 @@ Fit. This lowers the activation energy of the reaction.
 
 - Increasing enzyme concentration increases the rate (provided substrate is not limiting)
 
-:::warning Denaturation is **irreversible**. Once an enzyme is denatured by heat or extreme pH, it
+:::caution Denaturation is **irreversible**. Once an enzyme is denatured by heat or extreme pH, it
 Cannot regain its function. This is different from a temporary decrease in activity at sub-optimal
 Conditions.
 :::

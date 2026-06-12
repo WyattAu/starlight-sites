@@ -215,7 +215,7 @@ Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which declines as
 To disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
 Exists some $t^* \in (0, 1)$ that maximises revenue.
 
-:::warning Common Pitfall The Laffer curve is a theoretical concept — there is no consensus on where
+:::caution Common Pitfall The Laffer curve is a theoretical concept — there is no consensus on where
 $t^*$ lies. Most empirical estimates for developed economies suggest that income tax rates are below
 The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 :::

@@ -86,7 +86,7 @@ At each price, we add up the quantities demanded by all consumers.
 | Expectations of future price ($\uparrow$) | $\uparrow$ (current demand)                            | Consumers stockpile before expected price rise         |
 | Population ($\uparrow$)                   | $\uparrow$                                             | UK population growth increases housing demand          |
 
-:::warning Common Pitfall "A rise in demand" means the _curve shifts right_. "A rise in quantity
+:::caution Common Pitfall "A rise in demand" means the _curve shifts right_. "A rise in quantity
 Demanded" means a _movement along the curve_ due to a price change. These are fundamentally
 Different. Examiners penalise imprecise language.
 :::

@@ -63,7 +63,7 @@ test statistic exceeds $c$Reject $H_0$.
 - "Do not reject $H_0$": there is **insufficient** evidence to reject $H_0$. This does **not** mean
   $H_0$ is true.
 
-:::warning Common Pitfall "Accepting $H_0$" is not the same as "not rejecting $H_0$." We never prove
+:::caution Common Pitfall "Accepting $H_0$" is not the same as "not rejecting $H_0$." We never prove
 $H_0$; we merely fail To find sufficient evidence against it. The conclusion should always be stated
 carefully.
 :::
@@ -216,7 +216,7 @@ $$\alpha_{\mathrm{actual}} = P(X \leq 5) + P(X \geq 15) = 2(0.0207) = 0.0414$$
 
 This is approximately 4.14%, which is the closest we can get to 5% with a discrete distribution.
 
-:::warning Warning For discrete distributions, the actual significance level may differ from the
+:::caution Warning For discrete distributions, the actual significance level may differ from the
 nominal level. The Critical region is chosen so that $P(\mathrm{critical\ region} \mid H_0)$ does
 not exceed $\alpha$ And is as close as possible to $\alpha$.
 

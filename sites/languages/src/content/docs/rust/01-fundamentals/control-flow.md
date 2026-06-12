@@ -707,7 +707,7 @@ match config.max_connections {
 }
 ```
 
-:::warning
+:::caution
 
 Match guards can introduce subtle bugs. A guard that references a variable from the enclosing scope
 That has the same name as a pattern binding will shadow the pattern binding:

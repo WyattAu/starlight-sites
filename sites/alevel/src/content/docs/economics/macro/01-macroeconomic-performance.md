@@ -50,7 +50,7 @@ $\mathrm{output} \equiv \mathrm{income} \equiv \mathrm{expenditure}$ holds by ac
 Inventories are treated as investment (if produced but unsold, counted as $I$), and taxes/subsidies
 Adjust market prices to factor costs. $\blacksquare$
 
-:::warning Warning Work) is excluded. Illegal activities are also excluded (though some countries
+:::caution Warning Work) is excluded. Illegal activities are also excluded (though some countries
 now include estimates Of the shadow economy). This means GDP underestimates total economic activity,
 particularly in Countries with large informal sectors.
 :::

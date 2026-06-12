@@ -116,7 +116,7 @@ Endemic, the heterozygote has a selective advantage -- this is **heterozygote ad
 Polymorphism). The allele is maintained in the population at higher frequency than would be expected
 If it were purely deleterious.
 
-:::warning A common misconception is that antibiotic resistance develops because bacteria "need" to
+:::caution A common misconception is that antibiotic resistance develops because bacteria "need" to
 Survive. Resistance arises from random pre-existing mutations; the antibiotic selects for Resistant
 individuals. The mutation occurs regardless of the antibiotic's presence.
 :::
@@ -528,7 +528,7 @@ Three idealised types:
   good chance of long life (e.g., many fish, marine invertebrates, annual plants, most insects).
   associated with r-selection.
 
-:::warning Real survivorship curves rarely match idealised types exactly. Many species show
+:::caution Real survivorship curves rarely match idealised types exactly. Many species show
 Intermediate patterns. When interpreting DSE exam questions, look for the general shape rather than
 Trying to force a perfect classification.
 :::
@@ -887,7 +887,7 @@ Major causes (often remembered by the acronym HIPPO):
   sustainable use, fair sharing of benefits from genetic resources
 - **Ramsar Convention:** Protection of wetlands of international importance
 
-:::warning Warning Bioaccumulation is within an individual; biomagnification is across trophic
+:::caution Warning Bioaccumulation is within an individual; biomagnification is across trophic
 levels. Both terms can Appear in the same question.
 :::
 

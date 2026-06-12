@@ -507,7 +507,7 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 | PSK only      | No              |
 | PSK + (EC)DHE | Yes             |
 
-:::warning
+:::caution
 
 TLS 1.3 mandates forward secrecy for all handshakes. Every TLS 1.3 connection uses (EC)DHE, either
 Alone or in combination with PSK. Static RSA key exchange is not available in TLS 1.3.
@@ -719,7 +719,7 @@ For repeat connections where latency is critical.
 openssl s_client -connect example.com:443 -tls1_3 -early_data /tmp/request.txt
 ```
 
-:::warning
+:::caution
 
 0-RTT data is vulnerable to replay attacks. The server must not accept 0-RTT data for non-idempotent
 Operations. Common safe uses: GET requests, database reads, cache lookups. Unsafe: POST, PUT,

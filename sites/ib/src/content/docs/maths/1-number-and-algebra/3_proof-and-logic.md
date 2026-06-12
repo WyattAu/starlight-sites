@@ -210,7 +210,7 @@ $$\neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon
 The existential becomes universal and the universal becomes existential. This is the logical
 Backbone of epsilon-delta definitions in analysis.
 
-:::warning Warning Negate the predicate. The order of quantifiers does NOT change — it remains the
+:::caution Warning Negate the predicate. The order of quantifiers does NOT change — it remains the
 same sequence but With each quantifier flipped.
 :::
 
@@ -488,7 +488,7 @@ Not just $P(k)$.
 **When to use strong induction:** When proving $P(k+1)$ requires not just $P(k)$ but some earlier
 Case $P(j)$ where $j \lt k$.
 
-:::warning Weak and strong induction are logically equivalent — anything provable by one is provable
+:::caution Weak and strong induction are logically equivalent — anything provable by one is provable
 By the other. But strong induction can make certain .../1-number-and-algebra/3_proof-and-logics much
 more natural. Use it when the Inductive step needs to reference cases earlier than just $k$.
 :::
@@ -851,7 +851,7 @@ $ac = (b + kn)(d + ln) = bd + bln + dkn + kln^2 = bd + n(bl + dk + kln)$.
 
 Therefore $n \mid (ac - bd)$So $ac \equiv bd \pmod{n}$. $\blacksquare$
 
-:::warning Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only
+:::caution Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only
 conclude $a \equiv b \pmod{n}$ if $\gcd(c, n) = 1$. For example, $6 \equiv 0 \pmod{3}$ and
 $3 \equiv 0 \pmod{3}$But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
 :::
@@ -1093,7 +1093,7 @@ Fails.)
 Incorrect negation: "If it rains, the ground does not get wet." (This is a different implication
 Entirely.)
 
-:::warning This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies
+:::caution This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies
 $Q$" is "$P$ AND not $Q$."
 :::
 

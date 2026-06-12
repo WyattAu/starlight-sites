@@ -195,7 +195,7 @@ macro_rules! find_min {
 assert_eq!(find_min!(3, 1, 4, 1, 5), 1);
 ```
 
-:::warning
+:::caution
 
 Recursive macros have a recursion limit (default 128 in `macro_rules!`). A deeply recursive macro
 Will produce the error "recursion limit reached while expanding ...". Use
@@ -1078,7 +1078,7 @@ pub fn sql(input: TokenStream) -> TokenStream {
 let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", user_id, name);
 ```
 
-:::warning
+:::caution
 
 This SQL macro is a simplified illustration. A production SQL macro would parse the query string,
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with

@@ -55,7 +55,7 @@ if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
 fi
 ```
 
-:::warning
+:::caution
 
 The regex in `[[ =~ ]]` is unquoted on the right side. If you quote it, it becomes a literal string.
 Always store regex in a variable if it contains spaces or special characters:
@@ -307,7 +307,7 @@ calculate() {
 }
 ```
 
-:::warning
+:::caution
 
 Variables in bash functions are global by default. Always use `local` to avoid polluting the calling
 Scope. This is one of the most common sources of bash script bugs.
@@ -763,7 +763,7 @@ trap 'echo "ERROR: line $LINENO, command: $BASH_COMMAND, exit: $?"' ERR
 false
 ```
 
-:::warning
+:::caution
 
 The `ERR` trap fires on every non-zero exit status when `set -e` is active. In pipelines with
 `pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on

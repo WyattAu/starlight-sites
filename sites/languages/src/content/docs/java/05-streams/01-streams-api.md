@@ -348,7 +348,7 @@ List<Integer> unique = Stream.of(1, 2, 2, 3, 1, 4, 3)
 // [1, 2, 3, 4]
 ```
 
-:::warning `distinct()` internally uses a `HashSet`-like structure to track seen elements. For large
+:::caution `distinct()` internally uses a `HashSet`-like structure to track seen elements. For large
 streams with expensive `equals()`/`hashCode()` implementations, this can be costly. Consider whether
 `distinct()` is necessary or whether you can eliminate duplicates at the source.
 :::
@@ -394,7 +394,7 @@ List<String> result = Stream.of("Alice", "Bob", "Charlie")
 // Mapped: CHARLIE
 ```
 
-:::warning `peek()` should be used only for debugging. Using it for side effects violates the stream
+:::caution `peek()` should be used only for debugging. Using it for side effects violates the stream
 contract, which states that intermediate operations should be free of side effects. The behavior of
 `peek()` is undefined if it modifies the stream source or interferes with the pipeline. Furthermore,
 in parallel streams, `peek()` may be called from multiple threads simultaneously, making any side
@@ -510,7 +510,7 @@ String concatenated = Stream.of("a", "b", "c")
 // "abc"
 ```
 
-:::warning The accumulator function passed to `reduce` must be **associative**:
+:::caution The accumulator function passed to `reduce` must be **associative**:
 `(a op b) op c == a op (b op c)`. If it is not associative, the result will be incorrect in parallel
 streams, because partial results may be combined in any order. The identity value must also satisfy
 `identity op x == x` for all x.
@@ -1025,7 +1025,7 @@ opt.ifPresent(value -> System.out.println("Value: " + value));
 ```
 
 :::
-:::warning Avoid the `isPresent()` + `get()` pattern. It is functionally equivalent to a null check
+:::caution Avoid the `isPresent()` + `get()` pattern. It is functionally equivalent to a null check
 (`if (x != null) { x.foo() }`) and negates the purpose of `Optional`. Prefer
 `ifPresent()``map()``flatMap()``filter()`Or the `orElse*` family.
 

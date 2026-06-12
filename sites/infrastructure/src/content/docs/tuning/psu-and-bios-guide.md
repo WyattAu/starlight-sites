@@ -172,7 +172,7 @@ Isolation are critical. The quality of the PSU matters far more than the rail co
 | 4-pin Molex  | 4         | Legacy drives, fans, accessories                | 11 A per connector        |
 | 4-pin Berg   | 4         | Floppy drive (obsolete)                         | 2 A                       |
 
-:::warning Never use Molex-to-SATA adapters. SATA connectors are rated for 4.5 A, but the contact
+:::caution Never use Molex-to-SATA adapters. SATA connectors are rated for 4.5 A, but the contact
 Resistance of cheap adapters can cause excessive voltage drop and heating at the SATA end. This is a
 Documented fire hazard. Use native SATA connectors or replace the PSU.
 :::
@@ -366,7 +366,7 @@ Circuit. Voltage on one rail is affected by the load on the other rail. If you d
 +3.3 V and lightly from +5 V, the +5 V voltage rises. This is a fundamental limitation that makes
 Group-regulated PSUs unsuitable for modern systems where the load is almost entirely on +12 V.
 
-:::warning Avoid any PSU that uses group regulation. Nearly all modern PC power draw is on the +12 V
+:::caution Avoid any PSU that uses group regulation. Nearly all modern PC power draw is on the +12 V
 Rail (CPU, GPU, fans, pumps). With group regulation, the lightly-loaded +3.3 V and +5 V rails will
 Have their voltages pushed out of specification, potentially damaging connected devices.
 :::
@@ -460,7 +460,7 @@ SCP is the fastest-acting protection mechanism. It must trigger before the short
 Melt wires, damage connectors, or harm the motherboard. Modern PSUs use dedicated comparator ICs
 That monitor each rail for sudden current surges characteristic of short circuits.
 
-:::warning If your PSU repeatedly trips SCP or OCP, do not disable these protections or bypass them.
+:::caution If your PSU repeatedly trips SCP or OCP, do not disable these protections or bypass them.
 This indicates a genuine fault — either a short circuit in a component, a damaged cable, or a
 Failing PSU. Continued operation risks fire and total system destruction.
 :::
@@ -604,7 +604,7 @@ Changing BCLK affects multiple subsystems simultaneously:
 - PCIe frequency = BCLK x PCIe ratio (often 100 MHz)
 - DMI / UPI interconnect frequency
 
-:::warning Increasing BCLK is a blunt instrument that affects every clock-derived frequency in the
+:::caution Increasing BCLK is a blunt instrument that affects every clock-derived frequency in the
 System. On Intel platforms, BCLK overclocking above 103--105 MHz is rarely stable because the PCIe
 And DMI buses diverge from their specifications. Use the multiplier for CPU overclocking and the
 Memory ratio for RAM overclocking. Reserve BCLK adjustments for fine-tuning when the multiplier
@@ -794,7 +794,7 @@ Memory is commonly advertised as "CL16-18-18-38" meaning CL=16, tRCD=18, tRP=18,
 | DDR5 JEDEC    | 1.10 V         | --                      |
 | DDR5 XMP/EXPO | 1.25 -- 1.35 V | 1.35 -- 1.45 V          |
 
-:::warning Exceeding 1.45 V VDIMM on DDR5 carries a risk of memory degradation over time. DDR5 runs
+:::caution Exceeding 1.45 V VDIMM on DDR5 carries a risk of memory degradation over time. DDR5 runs
 Significantly hotter than DDR4 due to higher density and the on-die PMIC (Power Management IC). Some
 Kits specify 1.40--1.45 V in their XMP profiles. For daily use, keep VDIMM at or below the kit's
 Rated XMP voltage. The absolute maximum recommended by most memory manufacturers is 1.50 V, but
@@ -916,7 +916,7 @@ NVMe RAID configured in BIOS is hardware/firmware RAID, not true hardware RAID. 
 On the CPU via the chipset. It offers no performance advantage over software RAID (Linux mdadm,
 Windows Storage Spaces) and ties the array to the specific platform.
 
-:::warning NVMe RAID 0 provides no redundancy. If any drive fails, all data is lost. The performance
+:::caution NVMe RAID 0 provides no redundancy. If any drive fails, all data is lost. The performance
 Gain over a single NVMe SSD is marginal in most consumer workloads. Use RAID 0 only for scratch
 Space or workloads where the data is disposable and rebuildable.
 :::
@@ -930,7 +930,7 @@ Space or workloads where the data is disposable and rebuildable.
 - **IDE/Legacy:** Emulates legacy IDE behavior. Disables NCQ and hot-swapping. Only use this for
   legacy operating systems (Windows XP and earlier).
 
-:::warning Switching SATA mode after installing an OS will cause a boot failure. The OS storage
+:::caution Switching SATA mode after installing an OS will cause a boot failure. The OS storage
 Driver is tied to the SATA mode selected during installation. If you need to change SATA mode,
 Reinstall the OS or pre-load the appropriate driver before switching.
 :::
@@ -1181,7 +1181,7 @@ Clearing CMOS resets all BIOS settings to factory defaults. Methods, in order of
 4. **Battery removal:** Power off, unplug, remove the CR2032 battery for 60 seconds, reinstall. This
    is the universal method but requires case access and may reset the RTC (Real Time Clock).
 
-:::warning Clearing CMOS erases all BIOS settings including boot order, fan curves, overclocking
+:::caution Clearing CMOS erases all BIOS settings including boot order, fan curves, overclocking
 Profiles, and RAID configurations. RAID arrays configured through the chipset are not destroyed (the
 Data remains), but the RAID metadata may need to be re-imported. Document your settings before
 Clearing CMOS.
@@ -1299,7 +1299,7 @@ BIOS versions are not universally forward or backward compatible:
 - **Beta BIOS:** Beta firmware can introduce new features and fixes but may also introduce new bugs.
   Only install beta BIOS if you need a specific feature or fix it provides.
 
-:::warning Never interrupt a BIOS flash. If the flash is interrupted (power loss, accidental reset),
+:::caution Never interrupt a BIOS flash. If the flash is interrupted (power loss, accidental reset),
 The SPI flash will be corrupted and the board will not POST. Recovery requires BIOS flashback (if
 Available) or an external SPI programmer. Always use a UPS when flashing BIOS.
 

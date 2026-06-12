@@ -45,7 +45,7 @@ $$h(k) = k \bmod m$$
 **Choosing $m$.** Avoid powers of 2 (patterns in keys align with binary structure). Choose $m$ to be
 A **prime** not close to a power of 2.
 
-:::warning Warning The hash function will map many keys to the same bucket.
+:::caution Warning The hash function will map many keys to the same bucket.
 :::
 #### Multiplication Method
 

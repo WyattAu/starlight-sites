@@ -137,7 +137,7 @@ Core). In reality:
 - I/O dominates for large datasets: $O(n)$ with 10 GB of random reads from disk is far slower than
   $O(n \log n)$ with sequential reads.
 
-:::warning
+:::caution
 
 Asymptotic analysis tells you how an algorithm scales, not how fast it is for a specific input size.
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
@@ -837,7 +837,7 @@ def benchmark_sorts():
     print(f"TimSort (100 elements, 1000 runs): {msort_time:.3f}s")
 ```
 
-:::warning
+:::caution
 
 Microbenchmarks are misleading. A sort that benchmarks 10% faster on random data may be 50% slower
 On the actual production workload due to access patterns, data distribution, and interaction with

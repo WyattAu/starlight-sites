@@ -135,7 +135,7 @@ Pressures of reacting gases are unchanged).
 | Increase temperature | Shift in endothermic direction | $K$ changes   |
 | Decrease temperature | Shift in exothermic direction  | $K$ changes   |
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Le Chatelier's principle does NOT apply to the equilibrium constant. The equilibrium constant only
 Changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change

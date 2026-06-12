@@ -52,7 +52,7 @@ An **outlier** is a data point that lies far from the general pattern. Outliers 
 - Result from measurement errors.
 - Significantly affect the correlation coefficient and regression line.
 
-:::warning Common Pitfall A single outlier can dramatically change the value of the correlation
+:::caution Common Pitfall A single outlier can dramatically change the value of the correlation
 coefficient. Always examine Your scatter diagram before relying on numerical measures.
 :::
 
@@ -255,7 +255,7 @@ Minimises vertical residuals; the line of $x$ on $y$ minimises horizontal residu
 4. The model assumes the residuals are independent and normally distributed with constant variance
    (homoscedasticity).
 
-:::warning Warning Do not use the regression line of $y$ on $x$ to predict $x$ from a given $y$Or
+:::caution Warning Do not use the regression line of $y$ on $x$ to predict $x$ from a given $y$Or
 vice versa. Use the appropriate regression line for the direction of prediction.
 
 <hr />

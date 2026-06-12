@@ -317,7 +317,7 @@ GROUP BY to_node
 ORDER BY shortest_path;
 ```
 
-:::warning
+:::caution
 
 Recursive CTEs can produce exponential result sets on dense graphs. Always include a depth limit
 (`hops &lt; N`) and a visited set to prevent infinite loops. For very large graphs, consider
@@ -527,7 +527,7 @@ REFRESH MATERIALIZED VIEW mv_daily_sales_summary;
 REFRESH MATERIALIZED VIEW CONCURRENTLY mv_daily_sales_summary;
 ```
 
-:::warning
+:::caution
 
 `REFRESH MATERIALIZED VIEW CONCURRENTLY` requires the materialized view to have at least one
 `UNIQUE` index. Without a unique index, only non-concurrent refresh is available, which acquires an
@@ -952,7 +952,7 @@ SELECT * FROM orders WHERE order_date >= '2024-01-01';
 SELECT * FROM large_table GROUP BY category;
 ```
 
-:::warning
+:::caution
 
 Planner hints are a last resort. Fix the root cause first: update statistics (`ANALYZE`), create
 Appropriate indexes, or rewrite the query. Hints become stale when data distributions change and can
@@ -1139,7 +1139,7 @@ CREATE TABLE orders (
 SELECT * FROM orders WHERE status >= 'shipped';
 ```
 
-:::warning
+:::caution
 
 ENUM types in PostgreSQL are difficult to modify. Adding a value requires
 `ALTER TYPE ... ADD VALUE`Which cannot run inside a transaction in PostgreSQL 12+. Renaming or

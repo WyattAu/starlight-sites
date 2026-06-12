@@ -507,7 +507,7 @@ echo 0 | sudo tee /sys/devices/system/cpu/smt/active
 echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 ```
 
-:::warning Disabling SMT halves your logical core count. Ensure your workload can run within the
+:::caution Disabling SMT halves your logical core count. Ensure your workload can run within the
 Physical core limit before disabling it. Some applications are licensed per logical core and will
 Not work correctly with SMT disabled.
 :::
@@ -659,7 +659,7 @@ Microcode updates can change CPU behavior in ways that affect performance measur
   frequencies to address stability issues (e.g., the Ice Lake PL1/PL2 fixes).
 - **Cache behavior changes:** Some updates modify L3 cache allocation or prefetcher behavior.
 
-:::warning Never benchmark a CPU before verifying the microcode version. A BIOS update that includes
+:::caution Never benchmark a CPU before verifying the microcode version. A BIOS update that includes
 A new microcode revision can invalidate months of tuning work if it changes turbo behavior or adds
 Mitigation overhead.
 :::
@@ -795,7 +795,7 @@ for offset in 5 10 15 20 25 30; do
 done
 ```
 
-:::warning A negative offset that is too aggressive causes WHEA (Windows Hardware Error
+:::caution A negative offset that is too aggressive causes WHEA (Windows Hardware Error
 Architecture) errors on Windows or Machine Check Exceptions (MCE) on Linux. These can cause silent
 Data corruption. Always verify stability with both compute tests (Prime95, stress-ng) and memory
 Tests (memtester) when changing voltage offsets.

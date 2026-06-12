@@ -32,7 +32,7 @@ Dynamic equilibrium is established when:
 - The position of equilibrium describes the relative amounts of reactants and products.
 - Equilibrium can be approached from either direction.
 
-:::warning Warning (e.g., a gas leaving an open container), equilibrium will never be reached.
+:::caution Warning (e.g., a gas leaving an open container), equilibrium will never be reached.
 :::
 ---
 
@@ -93,7 +93,7 @@ Pressure.
 
 </details>
 
-:::warning Warning The partial pressures (and therefore concentrations) of the reacting gases remain
+:::caution Warning The partial pressures (and therefore concentrations) of the reacting gases remain
 unchanged. Adding An inert gas at constant total pressure does shift equilibrium towards the side
 with more moles of Gas, because the partial pressures of the reacting gases decrease.
 :::

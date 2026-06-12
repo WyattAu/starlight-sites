@@ -102,7 +102,7 @@ $R_{\mathrm{left}} = W + P - R_{\mathrm{right}} = \dfrac{W}{2} + \dfrac{P(L-a)}{
 Notice that as the vehicle moves right ($a$ increases), $R_{\mathrm{right}}$ increases and
 $R_{\mathrm{left}}$ decreases — the bridge load redistributes continuously.
 
-:::warning The principle of moments applies about **any** point — not just the pivot. Choosing a
+:::caution The principle of moments applies about **any** point — not just the pivot. Choosing a
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
 Unknown from the moment equation.
 :::
@@ -216,7 +216,7 @@ $$R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_
 The minimum coefficient of friction depends only on the angle $\theta$. As the ladder becomes
 Steeper ($\theta$ increases), $\cot\theta$ decreases and less friction is needed.
 
-:::warning If the wall is **rough**, there is an additional vertical friction force $F_w$ acting up
+:::caution If the wall is **rough**, there is an additional vertical friction force $F_w$ acting up
 The wall. This changes the vertical equilibrium to $R_g + F_w = W$ and adds complexity to the moment
 Equation. Always read the question carefully to determine whether the wall is smooth or rough.
 :::

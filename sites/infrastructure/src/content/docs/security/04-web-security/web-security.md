@@ -358,7 +358,7 @@ const nonce = crypto.randomBytes(16).toString('base64');
 // </script>
 ```
 
-:::warning
+:::caution
 
 Never use `'unsafe-inline'` in `script-src` if you can avoid it — it completely defeats XSS
 Protection. Use nonces or hashes for inline scripts, and move JavaScript to external files.
@@ -486,7 +486,7 @@ def is_safe_url(url):
     return parsed.hostname in ALLOWED_HOSTS
 ```
 
-:::warning
+:::caution
 
 URL parsing is tricky. Attackers bypass filters using URL encoding
 (`http://%31%32%37%2e%30%2e%30%2e%31/`), DNS rebinding (resolves to internal IP on second lookup),

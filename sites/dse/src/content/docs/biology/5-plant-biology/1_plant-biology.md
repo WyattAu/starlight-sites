@@ -366,7 +366,7 @@ Water moves up the xylem against gravity through three contributing mechanisms:
 - The narrow diameter of xylem vessels causes water to rise by capillarity
 - This contributes minimally to water transport in tall plants but is significant in small plants
 
-:::warning A common DSE pitfall is writing that root pressure is the main mechanism for water
+:::caution A common DSE pitfall is writing that root pressure is the main mechanism for water
 Transport in tall trees. Root pressure alone can only push water a few metres. The cohesion-tension
 Theory is the dominant mechanism in tall plants. Root pressure is supplementary and is only
 Significant in small plants or under conditions of low transpiration.
@@ -705,7 +705,7 @@ Growth can be towards (positive tropism) or away from (negative tropism) the sti
 4. The upper side (lower auxin) elongates more than the lower side (higher auxin), causing the root
    to bend downwards
 
-:::warning The critical distinction for DSE is that auxin has opposite effects on cell elongation in
+:::caution The critical distinction for DSE is that auxin has opposite effects on cell elongation in
 Shoots versus roots. In shoots, auxin promotes elongation (high concentration side grows more). In
 Roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
 Towards light but roots bend away from it when auxin redistributes.
@@ -1169,7 +1169,7 @@ use photoperiod to determine the appropriate time to flower.
 | Short-day plants   | Long nights (> critical period)  | Flower when the NIGHT length exceeds a critical value; require LESS than a certain number of hours of light per day  | Chrysanthemum, poinsettia, strawberry, rice |
 | Day-neutral plants | No critical photoperiod          | Flower regardless of day length; other factors (temperature, plant age) trigger flowering                            | Tomato, cucumber, maize, cotton             |
 
-:::warning A common pitfall is to describe long-day and short-day plants in terms of DAY length
+:::caution A common pitfall is to describe long-day and short-day plants in terms of DAY length
 rather than NIGHT length. The critical factor is actually the length of the DARK period. Long-day
 plants are really "short-night plants," and short-day plants are really "long-night plants." This
 was demonstrated by interrupting the dark period with a brief flash of light, which prevents

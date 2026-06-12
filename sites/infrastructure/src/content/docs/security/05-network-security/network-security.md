@@ -421,7 +421,7 @@ Both encrypt DNS queries between the client and the resolver, preventing eavesdr
 Manipulation of DNS responses in transit. They do not encrypt queries between the resolver and the
 Authoritative name server.
 
-:::warning
+:::caution
 
 DoH/DoT protect against network-level DNS interception but do not prevent the resolver itself from
 Logging, filtering, or manipulating queries. Choose a resolver you trust (e.g., your own), and

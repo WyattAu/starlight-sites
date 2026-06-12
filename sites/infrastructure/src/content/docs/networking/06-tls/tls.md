@@ -133,7 +133,7 @@ Client                              Server
   |==== Encrypted Application Data ===|
 ```
 
-:::warning
+:::caution
 
 0-RTT data is not protected against replay attacks. An attacker who captures a 0-RTT message can
 Replay it to the server. Do not use 0-RTT for non-idempotent requests (POST, PUT, DELETE). The
@@ -328,7 +328,7 @@ The client must have the Root CA in its trust store. The server must send the fu
 Intermediate) during the TLS handshake. If intermediate certificates are missing, clients that do
 Not already have them cached will fail to validate the chain.
 
-:::warning
+:::caution
 
 The most common TLS configuration error is failing to include intermediate certificates in the
 Server's certificate chain. The server must send the complete chain (excluding the root). Test with:
@@ -514,7 +514,7 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 | ECDHE + P-256  | Yes             | Good balance                     |
 | ECDHE + X25519 | Yes             | Best performance                 |
 
-:::warning
+:::caution
 
 TLS 1.3 mandates forward secrecy for all connections. There is no way to configure TLS 1.3 without
 Forward secrecy. If you are still using TLS 1.2, ensure you use ECDHE cipher suites (`TLS_ECDHE_*`).

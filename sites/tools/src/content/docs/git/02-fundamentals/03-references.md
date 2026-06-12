@@ -122,7 +122,7 @@ In the graph above, after checking out commit `C` (detached HEAD), commits `E` a
 $ git branch recover-feature  # Creates a branch pointing to F
 ```
 
-:::warning
+:::caution
 
 Detached HEAD is not an error state. It is useful for:
 
@@ -231,7 +231,7 @@ $ git push origin :feature-login
 $ git push origin +main:main
 ```
 
-:::warning
+:::caution
 
 Force pushing (`git push --force`) rewrites the remote branch's history. If other developers have
 Based work on the old commits, they will encounter conflicts. Only force push to branches that you

@@ -110,7 +110,7 @@ Where $P(I)$ is the probability of input $I$.
 | Average | $O(n \log n)$ | Random inputs (expected)      |
 | Worst   | $O(n^2)$      | Already sorted, min/max pivot |
 
-:::warning Pitfall Average case assumes a **uniform distribution** of inputs. Real-world data may
+:::caution Pitfall Average case assumes a **uniform distribution** of inputs. Real-world data may
 Not be uniformly distributed. Always state the distribution assumption when discussing average case.
 :::
 

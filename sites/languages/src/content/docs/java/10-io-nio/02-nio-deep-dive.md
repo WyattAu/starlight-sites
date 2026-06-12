@@ -248,7 +248,7 @@ FileLock sharedLock = channel.tryLock(0L, Long.MAX_VALUE, true); // true = share
 FileLock exclusiveLock = channel.tryLock(0L, Long.MAX_VALUE, false); // false = exclusive
 ```
 
-:::warning File locks are JVM-scoped, not thread-scoped. If two threads in the same JVM try to
+:::caution File locks are JVM-scoped, not thread-scoped. If two threads in the same JVM try to
 Acquire overlapping exclusive locks on the same file, the second `lock()` call throws
 `OverlappingFileLockException`. Use `tryLock()` for non-blocking acquisition. Locks are
 Automatically released when the channel is closed or the JVM exits.
@@ -428,7 +428,7 @@ while (buf.hasRemaining()) {
 }
 ```
 
-:::warning When using non-blocking I/O, you must handle partial reads and writes. A single `read()`
+:::caution When using non-blocking I/O, you must handle partial reads and writes. A single `read()`
 May return fewer bytes than requested, and a single `write()` may accept fewer bytes than provided.
 Always check the return value and manage the buffer position accordingly.
 :::
@@ -614,7 +614,7 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
   through the mapped buffer.
 - **Large file processing** — process terabyte-scale files without loading them into JVM heap.
 
-:::warning `MappedByteBuffer` uses native memory, not the Java heap. It is not subject to GC heap
+:::caution `MappedByteBuffer` uses native memory, not the Java heap. It is not subject to GC heap
 Limits, but it does consume address space. On 32-bit JVMs, you are limited to ~2 GB of mapped
 Memory. On 64-bit JVMs, the limit is the available virtual address space. Closing the `FileChannel`
 Does not immediately unmap the buffer — the mapped memory is released when the `MappedByteBuffer`

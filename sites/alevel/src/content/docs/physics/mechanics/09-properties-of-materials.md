@@ -40,7 +40,7 @@ Proportional to extension — the straight-line region of the force-extension gr
 Material returns to its original length when the force is removed. Beyond this point, the material
 Undergoes **permanent (plastic) deformation**.
 
-:::warning Warning For many materials (especially metals), the elastic limit lies slightly beyond
+:::caution Warning For many materials (especially metals), the elastic limit lies slightly beyond
 the limit of Proportionality. Between these two points the material still returns to its original
 shape, but $F$ And $\Delta x$ are no longer linearly related.
 :::
@@ -117,7 +117,7 @@ Under tensile loading. It has units of Pa (same as stress, since strain is dimen
 | Steel        | 200                   | Metal           |
 | Diamond      | 1200                  | Ceramic/Crystal |
 
-:::warning Common Pitfall A high Young's modulus means the material is **stiff**, not necessarily
+:::caution Common Pitfall A high Young's modulus means the material is **stiff**, not necessarily
 **strong**. Glass is stiffer than rubber ($E \approx 70$ GPa vs $0.01$ GPa) but rubber is
 **tougher** (absorbs more energy before breaking) because it can undergo much larger strains.
 Stiffness and strength are different properties.
@@ -268,7 +268,7 @@ $$E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V$$
 
 $\square$
 
-:::warning Warning (Hookean)\*\* region. If the material has been loaded beyond the limit of
+:::caution Warning (Hookean)\*\* region. If the material has been loaded beyond the limit of
 proportionality, the energy Stored is the area under the actual (non-linear) force-extension curve,
 which must be found by Integration or by counting squares.
 :::

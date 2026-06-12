@@ -136,7 +136,7 @@ $$n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omeg
 
 $\square$
 
-:::warning Pitfall Binary search **only works on sorted arrays**. Applying it to an unsorted array
+:::caution Pitfall Binary search **only works on sorted arrays**. Applying it to an unsorted array
 Gives incorrect results. Also, beware of integer overflow when computing `mid = (low + high) // 2` —
 Use `mid = low + (high - low) // 2` for safety.
 :::

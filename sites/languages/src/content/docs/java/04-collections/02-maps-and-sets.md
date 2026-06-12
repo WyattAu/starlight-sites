@@ -68,7 +68,7 @@ Table is resized (doubled). The initial capacity defaults to 16.
 Map<String, Integer> map = new HashMap<>((int) (1000 / 0.75f) + 1);
 ```
 
-:::warning `HashMap` allows one `null` key and multiple `null` values. It is not thread-safe. Use
+:::caution `HashMap` allows one `null` key and multiple `null` values. It is not thread-safe. Use
 `ConcurrentHashMap` for concurrent access.
 :::
 
@@ -379,7 +379,7 @@ public class Person {
 }
 ```
 
-:::warning Never use `Map&lt;List&lt;String&gt;, ...&gt;` or `Set&lt;List&lt;String&gt;&gt;` —
+:::caution Never use `Map&lt;List&lt;String&gt;, ...&gt;` or `Set&lt;List&lt;String&gt;&gt;` —
 `List.equals` compares element-by-element and `List.hashCode` depends on all elements. If you modify
 A list after using it as a key, the map will no longer find it. Use immutable collections as keys.
 :::
@@ -488,7 +488,7 @@ List<String> immutableCopy = List.copyOf(mutableList);
 Set<String> immutableSet = Set.copyOf(mutableSet);
 ```
 
-:::warning Immutable collections do not allow `null` elements or keys. `List.of(1, null)` throws
+:::caution Immutable collections do not allow `null` elements or keys. `List.of(1, null)` throws
 `NullPointerException`. This is by design — nulls in collections are a common source of bugs, and
 The immutable factories enforce non-null.
 :::
@@ -834,7 +834,7 @@ System.gc(); // suggest GC — the entry may be removed
 System.out.println(metadata.size()); // possibly 0
 ```
 
-:::warning `WeakHashMap` is not suitable for caching . Entries are collected aggressively — as soon
+:::caution `WeakHashMap` is not suitable for caching . Entries are collected aggressively — as soon
 as the GC discovers that a key is weakly reachable. If you need size-bounded caching, use
 `LinkedHashMap` with `removeEldestEntry` or a dedicated cache library like Caffeine.
 :::

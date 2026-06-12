@@ -232,7 +232,7 @@ parted /dev/sdb --script set 1 boot on
 parted /dev/sdb --script align-check optimal 1
 ```
 
-:::warning
+:::caution
 
 `parted` does not reload the partition table automatically after scripting. Use `partprobe` or
 `blockdev --rereadpt` after running parted scripts, or reboot.
@@ -455,7 +455,7 @@ tune2fs -c 0 /dev/sda1       # ext4: set max mount count to 0 (disable)
 tune2fs -i 0 /dev/sda1       # ext4: set interval to 0 (disable)
 ```
 
-:::warning
+:::caution
 
 Never run `fsck` on a mounted filesystem. Unmount first, or run from a live system. Running fsck on
 A live mounted filesystem will cause corruption. The only exception is `/` (root), which can be
@@ -778,7 +778,7 @@ lvextend --resizefs -L +50G /dev/vg_data/lv_mysql    # ext4 only
 lvextend -r -L +50G /dev/vg_data/lv_mysql             # -r = --resizefs
 ```
 
-:::warning
+:::caution
 
 For XFS, `xfs_growfs` takes the **mount point** as the argument, not the device path. This is a
 Common source of errors. The `lvextend -r` shortcut does not work with XFS.
@@ -811,7 +811,7 @@ lvreduce --resizefs -L 50G /dev/vg_data/lv_logs  # does both steps (checks first
 mount /dev/vg_data/lv_logs /mnt/logs
 ```
 
-:::warning
+:::caution
 
 Shrinking is destructive if done incorrectly. The filesystem must be checked with `e2fsck -f` before
 Shrinking. XFS and Btrfs **cannot** be shrunk at all. Always have a backup before shrinking any
@@ -885,7 +885,7 @@ lvs -o name,lv_attr,snap_percent,origin
 # The snapshot is dropped automatically, and the CoW LV becomes a regular LV
 ```
 
-:::warning
+:::caution
 
 If the CoW area fills up completely, the snapshot is **dropped** and you lose the ability to roll
 Back. Monitor `snap_percent` closely. Overestimate the CoW size — unused CoW space is wasted but
@@ -926,7 +926,7 @@ lvconvert --merge /dev/vg_data/lv_mysql_snap
 lvs -a -o+origin,merge_failed
 ```
 
-:::warning
+:::caution
 
 Merging a snapshot is irreversible. The origin LV is restored to the state at the time the snapshot
 Was created. All changes since the snapshot are lost. The snapshot itself is deleted after a
@@ -1092,7 +1092,7 @@ systemctl enable --now lvm2-monitor
 lvextend -L +50G /dev/vg_data/thinpool
 ```
 
-:::warning
+:::caution
 
 If a thin pool runs out of space, the consequences are severe: filesystems on thin volumes may
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
@@ -1296,7 +1296,7 @@ swapon /swapfile
 swapon --show
 ```
 
-:::warning
+:::caution
 
 On Btrfs, swap files require specific handling. The swap file must reside on a non-CoW subvolume,
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
@@ -1783,7 +1783,7 @@ WRONG ORDER (will corrupt data):
   2. resize2fs /dev/vg/lv 50G        (too late — filesystem metadata may be beyond LV boundary)
 ```
 
-:::warning
+:::caution
 
 Always use `lvreduce --resizefs` which performs the filesystem check and resize automatically in the
 Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly what you are doing.

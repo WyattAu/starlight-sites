@@ -47,7 +47,7 @@ _Context in Probability:_ $L^p$ is the quotient space of $\mathcal◆LB◆◆LB�
 (the space of measurable functions with finite $p$-**semi-norm**) under the equivalence relation
 $f \sim g \iff f=g$ $\mu$-a.e. Formally, $L^p = \mathcal◆LB◆◆LB◆'◆RB◆L◆LB◆◆RB◆'◆RB◆^p / \sim$.
 
-:::warning **Semi-norm vs. Norm:** The functional $\lVert \cdot \rVert_p$ is only a **semi-norm** on
+:::caution **Semi-norm vs. Norm:** The functional $\lVert \cdot \rVert_p$ is only a **semi-norm** on
 $\mathcal◆LB◆◆LB◆'◆RB◆L◆LB◆◆RB◆'◆RB◆^p$ because $\lVert f \rVert_p = 0 \implies f = 0$ almost
 everywhere, not everywhere. It becomes a true **norm** only after quotienting by the equivalence
 relation to obtain $L^p$. This distinction ensures $L^p$ is a Banach space by identifying functions
@@ -298,7 +298,7 @@ $$
 
 Assuming the set $\{x \in \Omega : f(x) \neq g(x)\}$ is measurable.
 
-:::warning **Rigor Note:** In pure measure theory, the set $\{x \in \Omega : f(x) \neq g(x)\}$ need
+:::caution **Rigor Note:** In pure measure theory, the set $\{x \in \Omega : f(x) \neq g(x)\}$ need
 not be measurable if the measure space is not complete. The fully rigorous formulation is: There
 exists a measurable null set $N \in \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆$ such that $\mu(N) = 0$ and
 $\{x \in \Omega : f(x) \neq g(x)\} \subseteq N$. This bypasses the need to assume the inner set is
@@ -757,7 +757,7 @@ This is an integral constructed from $3$ steps:
    \int f d \mu = \int f^+ d\mu - \int f^- d\mu
    $$
 
-:::warning **Edge Cases:**
+:::caution **Edge Cases:**
 
 - If $\int f^+ < \infty$ and $\int f^- < \infty$: $f$ is **Lebesgue Integrable** ($f \in L^1$).
 - If only one of $\int f^+$ or $\int f^-$ is infinite: The integral **exists** (evaluates to
@@ -1122,7 +1122,7 @@ $$
 \lim_◆LB◆n\rightarrow \infty◆RB◆ P\left(d(X_n(\omega), X(\omega)) > \epsilon \right) = 0
 $$
 
-:::warning **Crucial Distinction from Weak Convergence:** Convergence in probability requires $X_n$
+:::caution **Crucial Distinction from Weak Convergence:** Convergence in probability requires $X_n$
 and $X$ to be defined on the **same** probability space. In contrast, weak convergence (convergence
 in distribution) allows random variables to exist on entirely different probability spaces as long
 as they map to the same target metric space.
@@ -1233,7 +1233,7 @@ Let $X_1, X_2, \dots$ be i.i.d. Random variables with $\mathbb◆LB◆◆LB◆'�
 **Strong Law of Large Numbers (SLLN):**
 $\bar◆LB◆X◆RB◆_n = \frac◆LB◆1◆RB◆◆LB◆n◆RB◆\sum_◆LB◆i=1◆RB◆^n X_i \xrightarrow◆LB◆a.s.◆RB◆ \mu$
 
-:::warning **Important Distinction for ERM:** The standard LLN only guarantees that the empirical
+:::caution **Important Distinction for ERM:** The standard LLN only guarantees that the empirical
 risk of a _single, fixed_ hypothesis converges to its true risk. To justify Empirical Risk
 Minimization (ERM) where we search for the _minimum_ across a hypothesis class
 $\mathcal◆LB◆◆LB◆'◆RB◆H◆LB◆◆RB◆'◆RB◆$We need the **Uniform Law of Large Numbers (ULLN)** to prevent overfitting.
@@ -1610,7 +1610,7 @@ $$
 
 $$
 
-:::warning **Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of
+:::caution **Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of
 conditional expectation (and for the Fréchet mean to be well-defined via Bochner integration), $S$
 cannot be an arbitrary metric space. It must be a subset of a vector space (specifically, a Banach
 space) where addition and scalar multiplication are defined, enabling the Bochner integral. For
@@ -1820,7 +1820,7 @@ $$
 
 If $P \not\ll Q$Then $D_◆LB◆KL◆RB◆(P \| Q) = +\infty$.
 
-:::warning **KL Divergence is NOT a Metric:**
+:::caution **KL Divergence is NOT a Metric:**
 
 Despite its widespread use, KL divergence fails to satisfy the axioms of a metric:
 
@@ -1906,7 +1906,7 @@ _Intuition:_ $D_◆LB◆KL◆RB◆$ measures the "extra" bits needed to encode d
 optimized for $Q$While Cross-Entropy $H(P, Q)$ measures the "total" bits. Minimizing cross-entropy
 is equivalent to minimizing KL divergence since $H(P)$ is constant with respect to $Q$.
 
-:::warning **Caveats for Continuous Distributions:**
+:::caution **Caveats for Continuous Distributions:**
 
 1. This decomposition requires $P \ll Q$ (absolute continuity) and the integrals to be absolutely
    convergent.

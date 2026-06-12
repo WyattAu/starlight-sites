@@ -293,7 +293,7 @@ $$A^n = PD^n P^{-1}$$
 
 Since $D^n$ is the diagonal matrix with each eigenvalue raised to the power $n$.
 
-:::warning warning Not all matrices are diagonalisable. A matrix is diagonalisable if and only if it
+:::caution warning Not all matrices are diagonalisable. A matrix is diagonalisable if and only if it
 Has a full set of linearly independent eigenvectors. A matrix with repeated eigenvalues may or may
 Not be diagonalisable.
 :::
@@ -437,7 +437,7 @@ $\blacksquare$
 
 ## 8. Common Pitfalls
 
-:::warning Common Pitfall
+:::caution Common Pitfall
 
 1. **Matrix multiplication order:** $AB$ means "apply $B$ first, then $A$." When combining
    transformations, the second transformation is written on the left. Always read right-to-left.

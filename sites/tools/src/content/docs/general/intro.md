@@ -76,7 +76,7 @@ docs_general-notes/
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | No inline comments         | Code blocks are self-documenting; comments added only when the intent is non-obvious |
 | Frontmatter required       | Every page must have at least `title` and `date`                                     |
-| Admonitions over bold      | Use Docusaurus `:::note` / `:::warning` instead of **Note:**                         |
+| Admonitions over bold      | Use Docusaurus `:::note` / `:::caution` instead of **Note:**                         |
 | Tables for structured data | Prefer tables over bulleted lists when comparing attributes                          |
 | KaTeX for math             | Inline with `$...$`, block with `$$...$$`                                            |
 

@@ -212,7 +212,7 @@ Application:
 - **Binary:** Efficient for binary protocols (Protocol Buffers, MessagePack, custom binary formats).
   No base64 encoding overhead.
 
-:::warning
+:::caution
 
 A common mistake is sending JSON in binary frames. While this works, it defeats the purpose of
 Binary frames (which are for non-text data). If you are sending JSON, use text frames.
@@ -264,7 +264,7 @@ Client                              Server
 If the sender does not receive a pong within a reasonable timeout, the connection is considered dead
 And should be closed.
 
-:::warning
+:::caution
 
 Do not send pings too frequently. A ping every 30-60 seconds is sufficient for keepalive. More
 Frequent pings add overhead without meaningful benefit. Some servers limit the rate of control
@@ -326,7 +326,7 @@ Parameters:
 - **client_no_context_takeover:** Client does not reuse LZ77 context between messages
 - **server_no_context_takeover:** Server does not reuse LZ77 context between messages
 
-:::warning
+:::caution
 
 `permessage-deflate` can introduce latency due to compression overhead. For small messages (under
 100 bytes), the compression overhead may exceed the savings. Benchmark with your actual message
@@ -494,7 +494,7 @@ const wss = new WebSocketServer({
 });
 ```
 
-:::warning
+:::caution
 
 Origin checking is the primary CSRF defense for WebSocket connections. Cookies are sent
 Automatically by the browser during the HTTP upgrade request, so cookie-based authentication alone

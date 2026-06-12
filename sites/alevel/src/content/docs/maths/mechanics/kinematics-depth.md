@@ -94,7 +94,7 @@ $$s_2 = \frac{1}{2}(u + v)t_2 = \frac{1}{2}(12 + 0)(4) = 24\;\mathrm{m}$$
 
 $$s_{\mathrm{total}} = 36 + 24 = 60\;\mathrm{m}$$
 
-:::warning Common Pitfall When a problem has multiple stages, the **final velocity of one stage
+:::caution Common Pitfall When a problem has multiple stages, the **final velocity of one stage
 becomes the initial velocity Of the next**. Forgetting this connection is the most frequent error in
 multi-stage kinematics Problems.
 :::
@@ -234,7 +234,7 @@ $$x = 20.48 \times 3.025 \approx 61.95\;\mathrm{m}$$
 
 The ball travels approximately $62.0\;\mathrm{m}$ horizontally.
 
-:::warning Warning When a projectile is launched from a height above the landing level, the
+:::caution Warning When a projectile is launched from a height above the landing level, the
 trajectory is **not** Symmetric. The time of ascent is less than the time of descent, and the
 landing angle is steeper Than the launch angle.
 :::
@@ -353,7 +353,7 @@ $$\frac{1}{v} = 0.1t + 0.1 = 0.1(t + 1)$$
 
 $$v = \frac{10}{t + 1}\;\mathrm{m\,s^{-1}}$$
 
-:::warning Warning For variable acceleration problems, **always include the constant of
+:::caution Warning For variable acceleration problems, **always include the constant of
 integration** and use the Initial conditions to find it. Also check whether the particle changes
 direction by finding when $v = 0$ -- the total distance is not the same as the displacement if there
 is a change of Direction.

@@ -103,7 +103,7 @@ $$\chi^2_{\mathrm{Yates}} = \sum\frac◆LB◆(|O_i - E_i| - 0.5)^2◆RB◆◆LB�
 
 This correction makes the test more conservative (less likely to reject $H_0$).
 
-:::warning warning categories if expected frequencies are too small.
+:::caution warning categories if expected frequencies are too small.
 :::
 ### 2.6 Worked example: Poisson goodness of fit
 
@@ -239,7 +239,7 @@ There is strong evidence that age group and preferred news source are not indepe
 6. Compare with the critical value at the given significance level
 7. Conclude in context
 
-:::warning Never use percentages or proportions in the chi-squared test — always use raw
+:::caution Never use percentages or proportions in the chi-squared test — always use raw
 Frequencies. The test relies on the multinomial distribution, which requires count data.
 :::
 

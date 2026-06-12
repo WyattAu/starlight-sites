@@ -647,7 +647,7 @@ For user home directories:
 | Authenticated     | User accounts required | High     | Production environments  |
 | Guest (anonymous) | No credentials needed  | Low      | Public file sharing only |
 
-:::warning Never enable guest access on shares containing sensitive data. Guest access bypasses all
+:::caution Never enable guest access on shares containing sensitive data. Guest access bypasses all
 Authentication and authorization checks. Use it only for public read-only shares (e.g., a shared
 Software repository).
 :::
@@ -811,7 +811,7 @@ nfsstat -m | grep -E "rsize|wsize"
 mount -t nfs4 -o minorversion=2,pnfs truenas.local:/mnt/tank/data /mnt/nfs
 ```
 
-:::warning Large `rsize` and `wsize` values improve throughput for large sequential reads/writes but
+:::caution Large `rsize` and `wsize` values improve throughput for large sequential reads/writes but
 Can increase latency for small random I/O. For mixed workloads, 1MB is a reasonable default. For
 Metadata-heavy workloads (mail servers, source code repositories), consider 128K or 256K.
 :::
@@ -894,7 +894,7 @@ midclt call iscsi.initiatorgroup.update 1 '{
 }'
 ```
 
-:::warning CHAP secrets are transmitted in plain text in the TrueNAS API. Use the web UI for CHAP
+:::caution CHAP secrets are transmitted in plain text in the TrueNAS API. Use the web UI for CHAP
 Configuration when possible, as it masks the secret. Never expose CHAP credentials in scripts
 Checked into version control.
 :::
@@ -983,7 +983,7 @@ Accessing the same ZFS dataset simultaneously via NFS and SMB causes locking and
 Inconsistencies. NFS uses advisory locks while SMB uses mandatory locks. Files created via NFS may
 Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
 
-:::warning If you must share data between NFS and SMB clients, use separate datasets with a
+:::caution If you must share data between NFS and SMB clients, use separate datasets with a
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with
 Windows ACL support enabled.
 :::

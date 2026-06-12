@@ -60,7 +60,7 @@ if (a > 0) {
 }
 ```
 
-:::warning Always use braces for `if`/`else` blocks, even when the body is a single statement. This
+:::caution Always use braces for `if`/`else` blocks, even when the body is a single statement. This
 Eliminates the dangling else ambiguity entirely and prevents bugs when statements are added later.
 :::
 
@@ -302,7 +302,7 @@ for (Iterator<String> it = names.iterator(); it.hasNext(); ) {
 }
 ```
 
-:::warning The enhanced for loop does not provide access to the index. If you need the index, use
+:::caution The enhanced for loop does not provide access to the index. If you need the index, use
 The traditional for loop. Additionally, the enhanced for loop does not allow modification of the
 Collection during iteration (any structural modification throws `ConcurrentModificationException`).
 :::
@@ -791,7 +791,7 @@ class SafeDataSource implements DataSource {
 // }
 ```
 
-:::warning The overriding rule: a method that overrides or implements another method cannot declare
+:::caution The overriding rule: a method that overrides or implements another method cannot declare
 Checked exceptions that are broader than those declared in the supertype method. It can declare the
 Same exceptions, narrower exceptions (subtypes), or no checked exceptions at all.
 :::
@@ -923,7 +923,7 @@ The compiler prefers the more specific overload (exact parameter count match) ov
 Overload. When no exact match exists, the compiler performs varargs invocation by wrapping the
 Arguments in an array.
 
-:::warning Be cautious with varargs when the parameter type is generic. A varargs parameter of type
+:::caution Be cautious with varargs when the parameter type is generic. A varargs parameter of type
 `T...` can cause heap pollution because the compiler creates a generic array, which is not
 Type-safe. Use `@SafeVarargs` on methods that do not store the varargs array or pass it to untrusted
 Code.

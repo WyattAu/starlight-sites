@@ -441,7 +441,7 @@ find . -name "*.log" -print0 | while IFS= read -r -d '' file; do
 done
 ```
 
-:::warning
+:::caution
 
 `xargs` without `-0` or `-d` splits on whitespace and newlines, which breaks on filenames with
 Spaces. Always use `find ... -print0 | xargs -0` when processing filenames.

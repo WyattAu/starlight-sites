@@ -57,7 +57,7 @@ Independent variable.
 | Control     | Immersion depth    | Thermistor fully submerged at fixed depth |
 | Control     | Heating rate       | Heat slowly, allow thermal equilibrium    |
 
-:::warning Common Pitfall Students often confuse the independent and dependent variables. A reliable
+:::caution Common Pitfall Students often confuse the independent and dependent variables. A reliable
 Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependent variable."
 :::
 
@@ -197,7 +197,7 @@ Include:
 
 $$\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}$$
 
-:::warning Common Pitfall Do not confuse these three terms. An experiment can be reliable
+:::caution Common Pitfall Do not confuse these three terms. An experiment can be reliable
 (consistent) but invalid (measuring the wrong thing), or valid but inaccurate (systematic error).
 :::
 
@@ -372,7 +372,7 @@ When asked to write a risk assessment, structure your answer as follows:
 
 :::
 
-:::warning Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious
+:::caution Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious
 Hazards exist. Examiners award marks for identifying the _most significant_ hazards and providing
 Specific, practical control measures. "Be careful" is never an acceptable control measure.
 :::

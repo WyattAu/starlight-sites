@@ -77,7 +77,7 @@ Electrons fill orbitals in order of increasing energy:
 
 $$1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p$$
 
-:::warning Warning Cations. This is because the $4s$ orbital is at a higher energy than $3d$ once
+:::caution Warning Cations. This is because the $4s$ orbital is at a higher energy than $3d$ once
 electrons are in the $3d$ subshell.
 :::
 
@@ -566,7 +566,7 @@ Bonds formed:
 
 $$\Delta H = (1652 + 996) - (1490 + 1852) = 2648 - 3342 = -694 \mathrm{ kJ/mol}$$
 
-:::warning Warning Formation data instead. Bond enthalpy calculations are less accurate for
+:::caution Warning Formation data instead. Bond enthalpy calculations are less accurate for
 reactions involving liquids Or solids because they only account for gaseous state bonds.
 :::
 

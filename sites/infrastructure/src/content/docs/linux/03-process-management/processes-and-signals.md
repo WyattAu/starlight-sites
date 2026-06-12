@@ -178,7 +178,7 @@ ps -eo pid,stat,comm
 # l  multi-threaded
 ```
 
-:::warning
+:::caution
 
 A process in the **D state** (uninterruptible sleep) cannot be killed with `SIGKILL`. This Means it
 is waiting for disk I/O that will never complete (e.g., NFS server down, failed disk). The Only way
@@ -477,7 +477,7 @@ chrt -r 80 command             # SCHED_RR, priority 80
 chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 ```
 
-:::warning
+:::caution
 
 Real-time scheduling policies can starve the system. A `SCHED_FIFO` process that never blocks will
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
@@ -598,7 +598,7 @@ ulimit -u 4096     # increase max processes
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
 
-:::warning
+:::caution
 
 `ulimit` settings in `/etc/security/limits.conf` apply to PAM sessions (login, `su``sudo`). They Do
 NOT apply to services started by systemd. For systemd services, configure limits in the unit file Or

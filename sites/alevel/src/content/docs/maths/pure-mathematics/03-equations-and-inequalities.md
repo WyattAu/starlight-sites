@@ -152,7 +152,7 @@ positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
 **Corollary.** Multiplying or dividing both sides of an inequality by a negative number reverses the
 Inequality.
 
-:::warning Warning Multiplying/dividing by a negative number. Always check the sign of the
+:::caution Warning Multiplying/dividing by a negative number. Always check the sign of the
 multiplier before Proceeding.
 :::
 
@@ -491,7 +491,7 @@ No real solution from this case.
 
 </details>
 
-:::warning Warning Inequality $|f(x)| \lt g(x)$ only makes sense when $g(x) \gt 0$And squaring
+:::caution Warning Inequality $|f(x)| \lt g(x)$ only makes sense when $g(x) \gt 0$And squaring
 preserves the Direction since $a \lt b$ implies $a^2 \lt b^2$ for $a, b \geq 0$.
 :::
 

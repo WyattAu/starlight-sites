@@ -105,7 +105,7 @@ assert!(nan != nan);           // true
 assert!(!nan.is_nan());        // false — use is_nan() for the check
 ```
 
-:::warning
+:::caution
 
 Floating-point types do not implement `Eq` or `Ord` because IEEE 754 semantics make total ordering
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
@@ -582,7 +582,7 @@ fn increment() {
 }
 ```
 
-:::warning
+:::caution
 
 Do not use `static mut`. It is the source of undefined behavior in multi-threaded contexts and
 Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
@@ -736,7 +736,7 @@ let y: u32 = x as u32;          // 4294967295 (two's complement reinterpretation
 let z: i8 = 128i32 as i8;       // -128 (wraps)
 ```
 
-:::warning
+:::caution
 
 `as` for integer-to-integer casts is well-defined (wrapping/truncation semantics). `as` for
 Float-to-integer casts saturates: NaN and out-of-range values become 0 (for unsigned) or the minimum

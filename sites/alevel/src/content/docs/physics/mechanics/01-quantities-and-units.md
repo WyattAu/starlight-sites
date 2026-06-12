@@ -170,7 +170,7 @@ $$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
   resolution or environmental factors. It affects precision but not accuracy. Random errors are
   reduced by taking repeated measurements.
 
-:::warning Common Pitfall Do not confuse precision with accuracy. A precise measurement is
+:::caution Common Pitfall Do not confuse precision with accuracy. A precise measurement is
 Repeatable; an accurate measurement is close to the true value. You can have one without the other.
 :::
 

@@ -252,7 +252,7 @@ With each chlorine, and retains one lone pair. The structure is analogous to amm
 | Do NOT conduct electricity           | No free ions or electrons                                             |
 | gases or liquids at room temperature | Weak forces between molecules                                         |
 
-:::warning It is the **intermolecular forces** that are overcome when a simple covalent substance
+:::caution It is the **intermolecular forces** that are overcome when a simple covalent substance
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
 Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
 Atoms -- this does not happen during melting or boiling.

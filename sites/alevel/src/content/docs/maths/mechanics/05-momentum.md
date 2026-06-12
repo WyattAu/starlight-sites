@@ -180,7 +180,7 @@ $$1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1$$
 
 Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
-:::warning Warning Energy cannot increase during a collision.
+:::caution Warning Energy cannot increase during a collision.
 :::
 <hr />
 

@@ -272,7 +272,7 @@ $$
 -1 < x < 4
 $$
 
-:::warning Always check the inequality sign carefully. For $x^2 - 3x - 4 \gt 0$The solution would Be
+:::caution Always check the inequality sign carefully. For $x^2 - 3x - 4 \gt 0$The solution would Be
 $x \lt -1$ or $x \gt 4$ (outside the roots).
 
 **Example (HL):** Solve $\frac{x - 1}{x + 2} \le 0$.

@@ -75,7 +75,7 @@ $f \circ g \neq g \circ f$.
 
 </details>
 
-:::warning Warning Right to left: $(f \circ g)(x) = f(g(x))$.
+:::caution Warning Right to left: $(f \circ g)(x) = f(g(x))$.
 :::
 <hr />
 
@@ -244,7 +244,7 @@ $y = f(ax)$The same $y$-value occurs when $ax = x_0$I.e., $x = \frac{x_0}{a}$. S
 $(\frac{x_0}{a}, y_0)$ is on the new graph — a horizontal stretch by factor $\frac{1}{a}$.
 $\blacksquare$
 
-:::warning Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and
+:::caution Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and
 $f(ax)$ stretches by $\frac{1}{a}$ (not $a$). This is the single most common error in this topic.
 :::
 
@@ -421,7 +421,7 @@ Vertical transformations interact differently.
 2. Apply vertical transformations **second**: vertical stretch by $|a|$Reflection if $a < 0$Then
    vertical shift $d$.
 
-:::warning Common Pitfall The horizontal shift in $f(bx + c)$ is $-c/b$NOT $-c$. The stretch
+:::caution Common Pitfall The horizontal shift in $f(bx + c)$ is $-c/b$NOT $-c$. The stretch
 "absorbs" part of the shift. This is the single most common error in transformation problems.
 :::
 

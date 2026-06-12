@@ -370,7 +370,7 @@ cd package
 makepkg -si               # build and install
 ```
 
-:::warning
+:::caution
 
 AUR packages are not vetted by Arch developers. Always review PKGBUILD scripts before installing,
 Especially packages that modify system files or run install hooks. Use a helper that supports

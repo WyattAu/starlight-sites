@@ -68,7 +68,7 @@ Measurement or environmental variability.
 
 **Reduction:** Take multiple readings and calculate the mean. Use more precise instruments.
 
-:::warning Common Pitfall Do not confuse accuracy and precision. A measurement can be precise (small
+:::caution Common Pitfall Do not confuse accuracy and precision. A measurement can be precise (small
 Scatter) but inaccurate (systematic error), or accurate (close to true value) but imprecise (large
 Scatter). Neither is sufficient alone.
 :::
@@ -491,7 +491,7 @@ All the error bars. The uncertainty in the gradient is:
 
 $$\Delta m = \frac◆LB◆|m_{\mathrm{best}} - m_{\mathrm{worst}}|◆RB◆◆LB◆2◆RB◆$$
 
-:::warning Warning Uncertainty is $\pm$ half the smallest scale division of the measuring instrument
+:::caution Warning Uncertainty is $\pm$ half the smallest scale division of the measuring instrument
 used to obtain Each data point. State this assumption explicitly.
 
 ## 8. Common Pitfalls

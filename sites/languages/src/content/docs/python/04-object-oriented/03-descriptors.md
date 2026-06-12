@@ -192,7 +192,7 @@ t2 = time.time()
 print(f"First: {t1-t0:.3f}s, Second: {t2-t1:.3f}s")
 ```
 
-:::warning `cached_property` is a non-data descriptor. This means instance attributes override it:
+:::caution `cached_property` is a non-data descriptor. This means instance attributes override it:
 
 ```python
 e = ExpensiveComputation(range(100))
@@ -371,7 +371,7 @@ f.x = 1
 f.dynamic = "allowed"  # Stored in __dict__
 ```
 
-:::warning `__slots__` prevents `__dict__` by default, which means `pickle` with protocol 0 may not
+:::caution `__slots__` prevents `__dict__` by default, which means `pickle` with protocol 0 may not
 Work correctly. Always test serialization with your chosen protocol when using `__slots__`.
 :::
 
@@ -468,7 +468,7 @@ pa.version = "1.0"
 # del pa.version  # AttributeError: Cannot delete protected attribute 'version'
 ```
 
-:::warning Same recursion rule applies: always use `object.__setattr__(self, name, value)` and
+:::caution Same recursion rule applies: always use `object.__setattr__(self, name, value)` and
 `object.__delattr__(self, name)` within these methods.
 :::
 
@@ -530,7 +530,7 @@ print(v1 > v2)   # False (generated)
 print(v1 >= v2)  # False (generated)
 ```
 
-:::warning `@total_ordering` adds overhead because each generated method calls the others. For
+:::caution `@total_ordering` adds overhead because each generated method calls the others. For
 Performance-critical code, implement all six comparison methods explicitly.
 :::
 

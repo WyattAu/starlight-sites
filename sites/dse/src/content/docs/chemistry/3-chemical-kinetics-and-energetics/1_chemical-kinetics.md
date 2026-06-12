@@ -54,7 +54,7 @@ Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit ti
 2. **Inverted burette over water:** Useful for insoluble gases. Volume read from burette.
 3. **Mass loss method:** The flask is placed on a balance; the mass decreases as gas escapes.
 
-:::warning The mass loss method only works if the gas escapes the flask. If the flask is sealed, no
+:::caution The mass loss method only works if the gas escapes the flask. If the flask is sealed, no
 Mass change occurs. Also, ensure the reaction does not produce heat that would affect the balance
 Reading.
 :::
@@ -320,7 +320,7 @@ Where:
 - $n$ = order of reaction with respect to B
 - Overall order = $m + n$
 
-:::warning Warning The stoichiometric coefficients $a$ and $b$.
+:::caution Warning The stoichiometric coefficients $a$ and $b$.
 :::
 ### Order of Reaction
 

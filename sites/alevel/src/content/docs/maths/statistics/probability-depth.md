@@ -112,7 +112,7 @@ $$= \frac◆LB◆0.95 \times 0.01◆RB◆◆LB◆0.95 \times 0.01 + 0.10 \times 
 
 So even with a positive test, there is only about an 8.8% chance of having the disease.
 
-:::warning Warning This counterintuitive result arises because the disease is rare. The number of
+:::caution Warning This counterintuitive result arises because the disease is rare. The number of
 false positives far Exceeds the number of true positives. This is the **base rate fallacy** --
 ignoring the prior Probability of the condition.
 :::
@@ -273,7 +273,7 @@ $$P(A' \cap B') = P((A \cup B)') = 1 - P(A \cup B) = 1 - P(A) - P(B) + P(A)P(B)$
 
 $$= (1 - P(A))(1 - P(B)) = P(A') \cdot P(B') \quad \blacksquare$$
 
-:::warning Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$
+:::caution Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$
 and $B$ are both Non-trivial (positive probability) and mutually exclusive, they **cannot** be
 independent: $P(A \cap B) = 0 \neq P(A)P(B)$.
 

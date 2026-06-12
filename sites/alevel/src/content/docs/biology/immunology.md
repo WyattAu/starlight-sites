@@ -141,7 +141,7 @@ characterised by the classic signs: **rubor** (redness), **calor** (heat), **tum
 6. **Resolution**: once the infection is cleared, dead cells and debris are removed by phagocytes.
    Tissue repair begins.
 
-:::warning Common Pitfall Students often confuse the roles of histamine and antibodies in the
+:::caution Common Pitfall Students often confuse the roles of histamine and antibodies in the
 inflammatory response. Histamine is released by mast cells immediately upon tissue damage and causes
 the vasodilation and increased permeability characteristic of inflammation. Antibodies are produced
 later by B cells as part of the adaptive immune response and are not involved in the initial
@@ -235,7 +235,7 @@ After the infection is cleared, most effector T cells die by apoptosis. A small 
 differentiates into **memory T cells** that persist for years, providing rapid secondary response on
 re-exposure to the same antigen.
 
-:::warning Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens.
+:::caution Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens.
 They do not. T killer cells induce apoptosis in infected host cells. Phagocytosis is carried out by
 phagocytes (neutrophils and macrophages), not by T killer cells.
 :::
@@ -359,7 +359,7 @@ The secondary (anamnestic) response occurs on subsequent exposure to the same an
 | Memory cells produced | Yes                        | Yes (additional)             |
 | Cell type involved    | Naive B cells              | Memory B cells               |
 
-:::warning Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not
+:::caution Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not
 kill pathogens directly. They mark pathogens for destruction by other mechanisms (phagocytosis,
 complement lysis, neutralisation of toxins). The antibody itself is a signalling molecule that tags
 the pathogen and triggers other components of the immune system.
@@ -454,7 +454,7 @@ For comparison:
 - **Ethical considerations**: mandatory vaccination policies must balance individual autonomy with
   public health benefits.
 
-:::warning Common Pitfall Students sometimes state that vaccination provides "artificial passive
+:::caution Common Pitfall Students sometimes state that vaccination provides "artificial passive
 immunity." Vaccination provides **artificial active immunity** because it stimulates the body's own
 immune system to produce antibodies and memory cells. Passive immunity (e.g., maternal antibodies
 crossing the placenta, or injection of pre-made antibodies) provides temporary protection but does
@@ -510,7 +510,7 @@ $$\text{Concentration} = 20 + (40 - 20) \times \frac{0.55 - 0.42}{0.78 - 0.42} =
 
 The patient sample contains approximately $27.2\ \mathrm{ng\ cm^{-3}}$ of antigen.
 
-:::warning Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the
+:::caution Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the
 antibody, not by the antigen itself. Students sometimes write that "the antigen changes colour." The
 enzyme on the secondary antibody converts the substrate to a coloured product; the intensity of
 colour indicates how much antigen-antibody complex is present.
@@ -1245,7 +1245,7 @@ Immunotherapy is effective for insect venom allergies, allergic rhinitis (hay fe
 allergies, but it carries a risk of triggering anaphylaxis and must be carried out under medical
 supervision.
 
-:::warning Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma
+:::caution Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma
 cells) with antigens (molecules that trigger an immune response). Remember: **Antibody** is produced
 by the immune system in response to an **Antigen**. Antibodies are Y-shaped proteins; antigens can
 be proteins, polysaccharides, or other molecules on the surface of pathogens.
@@ -1454,7 +1454,7 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | Diphtheria         | 4--6   | 75--83%                 |
 
 :::
-:::warning Common Pitfall Students often think herd immunity means no one can get the disease. Herd
+:::caution Common Pitfall Students often think herd immunity means no one can get the disease. Herd
 immunity reduces the probability of transmission but does not eliminate risk entirely. Non-immune
 individuals (too young for vaccination, immunocompromised, vaccine contraindications) can still be
 infected if exposed. Additionally, immunity can wane over time, and new variants may partially
@@ -1892,7 +1892,7 @@ the body's own tissues:
 | Polyclonal B cell activation                       | Some pathogens (e.g., EBV) activate many B cells non-specifically, including self-reactive clones                                                                       |
 
 :::
-:::warning Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type
+:::caution Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type
 2 diabetes is metabolic (insulin resistance). Do not confuse them. Also, coeliac disease is an
 autoimmune condition triggered by gluten, not a food allergy.
 :::

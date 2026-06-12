@@ -328,7 +328,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 let s: &'static str = "hello";  // embedded in the binary
 ```
 
-:::warning
+:::caution
 
 Do not annotate everything with `'static` as a shortcut. The compiler will suggest `'static` when it
 Cannot infer a shorter lifetime, but adding `'static` constraints reduces the function's
@@ -395,7 +395,7 @@ let borrow3 = data.borrow_mut();  // OK — all previous borrows dropped
 borrow3.push(4);
 ```
 
-:::warning
+:::caution
 
 `RefCell` enforces the borrow rules at **runtime**, not compile time. A `borrow_mut()` while an
 Immutable borrow is active will panic. This trades compile-time safety for runtime flexibility. Use

@@ -175,7 +175,7 @@ Should be avoided.
 
 ### Built-in Data Types
 
-:::warning
+:::caution
 
 Dart does not have primitive data types as all types are interfaces inherited from `Object` class
 :::
@@ -399,7 +399,7 @@ numbers.indexOf(3);                 // 2
 numbers.sublist(1, 3);             // [2, 3]
 ```
 
-:::warning
+:::caution
 
 `List.map()``List.where()`And similar methods return `Iterable`Not `List`. If you need a `List`Wrap
 with `.toList()`:

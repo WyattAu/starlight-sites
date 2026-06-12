@@ -214,7 +214,7 @@ gitGraph
     commit id: "E'"
 ```
 
-:::warning
+:::caution
 
 `git pull --rebase` rewrites your local commit hashes. This is safe as long as you have not pushed
 those commits to a shared branch. If you have, see the
@@ -290,7 +290,7 @@ flowchart LR
     style D1 fill:#ffcdd2
 ```
 
-:::warning
+:::caution
 
 - **`--force`**: Unconditionally overwrites the remote. Use only on branches you exclusively own.
 - **`--force-with-lease`**: Only overwrites if the remote has not changed since your last fetch.

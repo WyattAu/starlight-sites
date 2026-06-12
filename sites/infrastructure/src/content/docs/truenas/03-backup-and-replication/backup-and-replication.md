@@ -22,7 +22,7 @@ ZFS makes this rule easy to implement:
 3. **Tertiary copy (offsite):** Cloud storage via TrueNAS Cloud Sync or a remote NAS via ZFS
    replication.
 
-:::warning The 3-2-1 rule is a minimum, not a maximum. For critical data, consider extending to
+:::caution The 3-2-1 rule is a minimum, not a maximum. For critical data, consider extending to
 3-2-1-1-0: 3 copies, 2 media, 1 offsite, 1 air-gapped (disconnected), 0 errors (verified restores).
 :::
 
@@ -985,7 +985,7 @@ midclt call cloudsync.update 1 '{
 }'
 ```
 
-:::warning If you lose the encryption key, all cloud backups become permanently unrecoverable. Store
+:::caution If you lose the encryption key, all cloud backups become permanently unrecoverable. Store
 Encryption keys in multiple secure locations: a password manager, a hardware security key, and a
 Printed copy in a physical safe. Never store encryption keys alongside the backups themselves.
 :::

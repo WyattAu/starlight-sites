@@ -371,7 +371,7 @@ DNA concentration is: $A_{260} = 1.0$ for $50\ \mu\mathrm{g\ mL^{-1}}$ dsDNA.
 
 Concentration $= \frac{0.40}{1.0} \times 50 = 20\ \mu\mathrm{g\ mL^{-1}}$.
 
-:::warning Common Pitfall Students often confuse Southern, Northern, and Western blotting. Southern
+:::caution Common Pitfall Students often confuse Southern, Northern, and Western blotting. Southern
 = DNA, Northern = RNA, Western = protein. The mnemonic "SNOW Drop" (Southern, Northern, Western --
 DNA, RNA, protein) may help. Students also frequently forget that PCR does not require living
 organisms or bacterial cells -- it is an entirely in vitro technique.
@@ -837,7 +837,7 @@ selectively stimulate the growth and activity of beneficial gut bacteria.
 
 **Synbiotics** combine probiotics and prebiotics.
 
-:::warning Common Pitfall Students often confuse antibiotics (which kill bacteria) with probiotics
+:::caution Common Pitfall Students often confuse antibiotics (which kill bacteria) with probiotics
 (which add beneficial bacteria). Antibiotics can disrupt the microbiome and cause side effects
 (diarrhoea, thrush). Probiotics may help restore the microbiome after antibiotic treatment, but they
 should not be taken simultaneously with antibiotics (the antibiotic would kill the probiotic
@@ -1063,7 +1063,7 @@ Applications:
 - **Nutritional science**: understanding how diet affects metabolism.
 - **Environmental toxicology**: detecting metabolic changes caused by exposure to pollutants.
 
-:::warning Common Pitfall Students often use the terms "genome," "transcriptome," "proteome," and
+:::caution Common Pitfall Students often use the terms "genome," "transcriptome," "proteome," and
 "metabolome" interchangeably. Remember the hierarchy: the genome is the set of all genes (DNA); the
 transcriptome is the set of all mRNA molecules produced; the proteome is the set of all proteins;
 the metabolome is the set of all small molecule metabolites. Each level is more dynamic and complex

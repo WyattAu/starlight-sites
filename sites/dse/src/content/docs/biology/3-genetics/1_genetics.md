@@ -245,7 +245,7 @@ Three alleles exist at the I locus:
 | I^A I^B  | AB        | A and B  | None           |
 | ii       | O         | None     | Anti-A, Anti-B |
 
-:::warning A common error is writing "three alleles" when the question asks about an individual's
+:::caution A common error is writing "three alleles" when the question asks about an individual's
 Genotype. An individual always carries exactly two alleles. The phrase "multiple alleles" refers to
 The gene pool of the entire population, not to a single organism.
 :::

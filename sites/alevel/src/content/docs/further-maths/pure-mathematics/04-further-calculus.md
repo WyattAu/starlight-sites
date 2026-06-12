@@ -136,7 +136,7 @@ $I_1 = \displaystyle\int_0^{\pi/2}\sin x\,dx = 1$.
 **Example.** Using the reduction formula,
 $I_4 = \dfrac{3}{4}I_2 = \dfrac{3}{4}\cdot\dfrac{1}{2}I_0 = \dfrac{3}{4}\cdot\dfrac{1}{2}\cdot\dfrac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ = \dfrac◆LB◆3\pi◆RB◆◆LB◆16◆RB◆$.
 
-:::warning warning $0$ and $\pi/2$. For general limits, the boundary term must be evaluated.
+:::caution warning $0$ and $\pi/2$. For general limits, the boundary term must be evaluated.
 :::
 **Example.** Find a reduction formula for $I_n = \displaystyle\int x^n e^x\,dx$.
 
@@ -243,7 +243,7 @@ $$\int \frac◆LB◆1◆RB◆◆LB◆\sqrt{a^2 - (x+b)^2}◆RB◆\,dx = \arcsin\
 
 These follow directly from the standard forms via the substitution $u = x + b$.
 
-:::warning warning $\dfrac◆LB◆1◆RB◆◆LB◆\sqrt{a^2-x^2}◆RB◆$ (gives $\arcsin$), and
+:::caution warning $\dfrac◆LB◆1◆RB◆◆LB◆\sqrt{a^2-x^2}◆RB◆$ (gives $\arcsin$), and
 $\dfrac{1}{a^2-x^2}$ (gives a logarithmic form). The square root makes the difference.
 :::
 
@@ -314,7 +314,7 @@ When a curve is given parametrically by $x = x(t)$, $y = y(t)$:
 - Rotation about the $x$-axis: $V = \pi\displaystyle\int_{t_1}^{t_2} y^2\,\frac{dx}{dt}\,dt$
 - Rotation about the $y$-axis: $V = \pi\displaystyle\int_{t_1}^{t_2} x^2\,\frac{dy}{dt}\,dt$
 
-:::warning The parametric volume formula uses $\dfrac{dx}{dt}$ or $\dfrac{dy}{dt}$ as appropriate.
+:::caution The parametric volume formula uses $\dfrac{dx}{dt}$ or $\dfrac{dy}{dt}$ as appropriate.
 Do not forget this factor — it is a very common error.
 :::
 

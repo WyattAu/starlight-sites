@@ -115,7 +115,7 @@ List<String?> external = fetchFromNetwork();
 String first = external.first!;  // Crashes if first element is null
 ```
 
-:::warning
+:::caution
 
 Every use of `!` is a claim that you know more than the type checker. If the type checker can
 Promote the type via flow analysis, remove the `!`. If it cannot, prefer a guard or default value.
@@ -189,7 +189,7 @@ class Service {
 }
 ```
 
-:::warning
+:::caution
 
 Common pitfall: `late` without `final` allows reassignment. If you intend immutable deferred
 Initialization, always use `late final`. A bare `late` field is mutable and can be reassigned
@@ -197,7 +197,7 @@ Arbitrarily after its first initialization.
 
 :::
 
-:::warning
+:::caution
 
 Common pitfall: `late` fields are not initialized in the constructor. If your class has multiple
 Initialization paths and one path forgets to initialize the `late` field, you get a
@@ -401,7 +401,7 @@ String? getName() => 'Dart';
 // even if the implementation always returns non-null
 ```
 
-:::warning
+:::caution
 
 Flow analysis does not track mutations through closures or across async boundaries. If a nullable
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
@@ -595,7 +595,7 @@ print(ptr.elementAt(2).value);  // 30
 final bytePtr = ptr.cast<Uint8>();  // reinterpret as byte array
 ```
 
-:::warning
+:::caution
 
 `malloc` and `calloc` allocate native heap memory. This memory is **not** managed by Dart's garbage
 Collector. Every `malloc` must have a corresponding `malloc.free`Or you leak native memory. Unlike
@@ -727,7 +727,7 @@ callback.close();
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
 
-:::warning
+:::caution
 
 `NativeCallable` objects must be closed with `.close()` when no longer needed. Failure to close
 Leaks native resources. The callable is valid only while the `NativeCallable` object is alive.
@@ -748,7 +748,7 @@ final callbackPointer = Pointer.fromFunction<DartCallbackFn>(
 nativeSetCallback(callbackPointer);
 ```
 
-:::warning
+:::caution
 
 `Pointer.fromFunction` callbacks can only be invoked from the same isolate that created them. If C
 Code calls the callback from a different thread, the behavior is undefined and may crash. Use
@@ -809,7 +809,7 @@ final dartResult = result.toDartString();
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
 
-:::warning
+:::caution
 
 Always free native strings allocated via `toNativeUtf8()` or `toNativeUtf16()`. The `toDartString()`
 Method allocates a new Dart `String` object — it does not take ownership of the C memory. If C
@@ -914,7 +914,7 @@ void main() async {
 }
 ```
 
-:::warning
+:::caution
 
 Never call blocking FFI functions on the main isolate in a Flutter application. The UI thread must
 Remain responsive. Always offload potentially long-running native calls to a compute isolate via
@@ -1084,7 +1084,7 @@ class _Request {
 }
 ```
 
-:::warning
+:::caution
 
 Isolate messages are ordered per port. If isolate A sends messages M1, M2, M3 to isolate B, B will
 Receive them in that order. However, messages sent from different isolates to the same port may be

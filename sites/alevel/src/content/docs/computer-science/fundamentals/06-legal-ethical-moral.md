@@ -46,7 +46,7 @@ Cultures, whereas laws aim for consistency within a jurisdiction.
 | Change speed | Slow (parliamentary process)      | Moderate (reviewed periodically)             | Rapid (shifts with attitudes)     |
 | Example      | The Data Protection Act 2018      | BCS Code of Conduct                          | Belief that surveillance is wrong |
 
-:::warning Exam questions often ask you to "evaluate the legal and ethical implications" of a
+:::caution Exam questions often ask you to "evaluate the legal and ethical implications" of a
 Scenario. "Legal" means identify the specific Act and explain how it applies. "Ethical" means apply
 An ethical framework or professional code. Do not confuse the two.
 :::
@@ -106,7 +106,7 @@ Act 2015.
   s.3 of the CMA. Established that sending a high volume of emails to cause disruption constitutes
   an impairment offence even if each individual email is legitimate.
 
-:::warning Common exam pitfall: s.1 requires only that access is unauthorised. The defendant does
+:::caution Common exam pitfall: s.1 requires only that access is unauthorised. The defendant does
 Not need to have damaged or stolen anything. Merely guessing a password and gaining entry is
 Sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
 :::
@@ -197,7 +197,7 @@ The ICO can impose:
   facial recognition database. The ICO found that Clearview AI had collected images from the web
   without consent, violating UK GDPR principles.
 
-:::warning A common exam question asks about the difference between a data controller and a data
+:::caution A common exam question asks about the difference between a data controller and a data
 Processor. The controller decides _why_ and _how_ data is processed; the processor carries out the
 Processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
 Primary responsibility.
@@ -550,7 +550,7 @@ The key virtues include: honesty, justice, courage, temperance, prudence, compas
 | Deontology     | Rules/duties           | Does this conform to a moral rule?     | Clear principles; respects individual rights | Inflexible; duties may conflict                              |
 | Virtue Ethics  | Character of the agent | What would a virtuous person do?       | Flexible; considers context and motivation   | Vague; no clear decision procedure                           |
 
-:::warning Exam questions often ask you to "apply an ethical framework" to a scenario. You must name
+:::caution Exam questions often ask you to "apply an ethical framework" to a scenario. You must name
 The framework, explain its core principle, and then apply it to the specific case. Stating "it is
 wrong" without grounding your answer in a framework will not score well.
 :::
@@ -712,7 +712,7 @@ Profiling raises concerns about:
 | Individual fairness | Similar individuals should receive similar outcomes. Two applicants with identical qualifications should receive the same credit score.               |
 | Calibration         | Predicted probabilities should be equally accurate across groups. A predicted 80% probability of repayment should mean the same thing for all groups. |
 
-:::warning There is a mathematical result known as **impossibility of simultaneous fairness:** it is
+:::caution There is a mathematical result known as **impossibility of simultaneous fairness:** it is
 Generally impossible to satisfy multiple fairness definitions simultaneously when base rates differ
 Between groups. This means that choosing a fairness definition is itself an ethical decision, not a
 Purely technical one.

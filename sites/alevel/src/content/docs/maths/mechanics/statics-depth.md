@@ -65,7 +65,7 @@ Resolving vertically: $R_A + R_C = 20g + 50$
 
 $$R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}$$
 
-:::warning Common Pitfall When taking moments, always measure the **perpendicular distance** from
+:::caution Common Pitfall When taking moments, always measure the **perpendicular distance** from
 the line of action of the Force to the pivot point, not just the distance along the beam.
 :::
 
@@ -200,7 +200,7 @@ $$\bar{y} = \frac◆LB◆48 \times 3 - 8\pi\!\left(6 - \frac{16}{3\pi}\right)◆
 
 $$\bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \approx 1.57\;\mathrm{cm}$$
 
-:::warning Common Pitfall When a shape has a hole or a section removed, use the **negative mass**
+:::caution Common Pitfall When a shape has a hole or a section removed, use the **negative mass**
 method: treat the removed Section as having negative area. The formula remains the same but with
 negative contributions from The removed part.
 :::
@@ -265,7 +265,7 @@ $$\alpha = \arctan(1.25) \approx 51.3^\circ$$
 
 The minimum angle is approximately $51.3^\circ$.
 
-:::warning Warning In ladder problems, always take moments about the **foot** of the ladder (or the
+:::caution Warning In ladder problems, always take moments about the **foot** of the ladder (or the
 point where two Unknown forces act) to eliminate as many unknowns as possible from the moment
 equation.
 :::

@@ -133,7 +133,7 @@ def coin_change_combinations(coins, amount):
     return dp[amount]
 ```
 
-:::warning
+:::caution
 
 The order of loops matters for counting combinations vs permutations. If you iterate amount first
 And coins second, you count permutations (different orderings of the same coins are counted

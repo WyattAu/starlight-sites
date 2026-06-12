@@ -80,7 +80,7 @@ Examples:
 Positive feedback loops require an external event or separate mechanism to terminate them (e.g., the
 birth of the baby terminates the oxytocin loop).
 
-:::warning Common Pitfall Students often confuse negative and positive feedback. Negative feedback
+:::caution Common Pitfall Students often confuse negative and positive feedback. Negative feedback
 opposes changes and maintains stability (the most common mechanism in homeostasis). Positive
 feedback amplifies changes and destabilises the system. In examination answers, always specify which
 type of feedback is operating and explain why.
@@ -197,7 +197,7 @@ gluconeogenesis.
 
 For more on the immune system and autoimmunity, see [Immunology](/docs/alevel/biology/immunology).
 
-:::warning Common Pitfall Students often write that "insulin converts glucose to glycogen." Insulin
+:::caution Common Pitfall Students often write that "insulin converts glucose to glycogen." Insulin
 does not perform this conversion itself -- it is a signalling molecule that stimulates liver and
 muscle cells to perform glycogenesis via enzyme activation. The insulin binds to receptors on the
 cell surface and triggers a signalling cascade that activates the relevant enzymes.
@@ -854,7 +854,7 @@ Chronic hyperglycaemia damages blood vessels through several mechanisms:
 - **Atherosclerosis**: accelerated formation of fatty plaques in arteries, increasing risk of heart
   attack and stroke.
 
-:::warning Common Pitfall Students often state that "insulin converts glucose to glycogen." This is
+:::caution Common Pitfall Students often state that "insulin converts glucose to glycogen." This is
 imprecise. Insulin stimulates the enzyme glycogen synthase (via dephosphorylation) and promotes
 GLUT4 translocation, which increases glucose uptake into cells. Glycogen synthase catalyses the
 conversion. Always specify the enzyme or the cellular mechanism, not just the hormone.
@@ -1070,7 +1070,7 @@ Types of rejection:
 - **Chronic rejection**: months to years; gradual loss of function due to chronic inflammation and
   fibrosis.
 
-:::warning Common Pitfall In questions about dialysis, students often state that "urea is actively
+:::caution Common Pitfall In questions about dialysis, students often state that "urea is actively
 transported out of the blood." In haemodialysis, urea removal occurs by **diffusion** down a
 concentration gradient (dialysis fluid has no urea). No active transport is involved. The patient's
 own kidneys use both diffusion and active transport; the dialysis machine relies solely on diffusion
@@ -1513,7 +1513,7 @@ temperature):
 
 :::
 :::
-:::warning Common Pitfall Students often think insulin lowers blood glucose by converting glucose to
+:::caution Common Pitfall Students often think insulin lowers blood glucose by converting glucose to
 glycogen in all cells. Insulin promotes glucose uptake primarily in muscle and adipose tissue (via
 GLUT4). The liver does not require insulin for glucose uptake (it uses GLUT2, which is
 insulin-independent). Insulin acts on the liver primarily to stimulate glycogenesis and inhibit
@@ -1584,7 +1584,7 @@ Ultrafiltration occurs at the renal corpuscle (glomerulus + Bowman's capsule):
 7. Blood volume and pressure increase; blood osmolarity decreases (negative feedback).
 
 :::
-:::warning Common Pitfall Students often think that ADH makes the kidneys produce "more urine." In
+:::caution Common Pitfall Students often think that ADH makes the kidneys produce "more urine." In
 fact, ADH makes the kidneys produce less, more concentrated urine by increasing water reabsorption
 in the collecting ducts. Without ADH (e.g., in diabetes insipidus), large volumes of dilute urine
 are produced.

@@ -61,7 +61,7 @@ Only $G$ in the AD equation ($AD = C + I + G + (X - M)$) represents spending on 
 Transfer payments are not directly part of $G$ — they affect $AD$ indirectly through their effect on
 Disposable income and hence consumption ($C$).
 
-:::warning Warning Formula. They are a government outlay but not a purchase of goods and services.
+:::caution Warning Formula. They are a government outlay but not a purchase of goods and services.
 They affect $C$Not $G$ directly. However, exam questions sometimes use "government spending" loosely
 — always clarify What is meant.
 :::
@@ -195,7 +195,7 @@ $$\frac{D}{Y} = \frac{D_t}{Y_t}$$
 This is the preferred measure of debt sustainability, since a large absolute debt is manageable if
 GDP is also large.
 
-:::warning Warning Small (or zero) deficit if it is running a balanced budget. The deficit is a
+:::caution Warning Small (or zero) deficit if it is running a balanced budget. The deficit is a
 _flow_ (per year), While the debt is a _stock_ (accumulated). Reducing the deficit does _not_ reduce
 the debt — it Merely slows the rate at which debt grows. Only a surplus reduces the debt.
 :::

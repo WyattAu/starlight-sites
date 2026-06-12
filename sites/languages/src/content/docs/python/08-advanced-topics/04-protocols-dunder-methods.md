@@ -121,7 +121,7 @@ versions = {v1: "stable"}
 print(versions[v2])  # "stable"
 ```
 
-:::warning If you define `__eq__` without `__hash__`Python sets `__hash__ = None`Making the Object
+:::caution If you define `__eq__` without `__hash__`Python sets `__hash__ = None`Making the Object
 unhashable. If you define `__hash__` without `__eq__`Objects may compare equal but hash Differently,
 breaking dict and set invariants.
 :::
@@ -521,7 +521,7 @@ c += 5        # Counter with value 15 (same object)
 c += Counter(5)  # Counter with value 20
 ```
 
-:::warning If `__iadd__` is not defined, Python falls back to `__add__` and assigns the result:
+:::caution If `__iadd__` is not defined, Python falls back to `__add__` and assigns the result:
 `c = c + other`. This creates a new object. Define `__iadd__` when you want in-place mutation for
 Performance.
 :::

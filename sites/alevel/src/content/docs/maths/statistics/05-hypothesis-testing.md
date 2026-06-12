@@ -44,7 +44,7 @@ Statistic, critical value/region, comparison, and conclusion in context.
 The choice depends on the research question. Use a one-tailed test only when you have a specific
 Directional prediction **before** seeing the data.
 
-:::warning Choosing a one-tailed test after seeing the data (because the results happen to go in one
+:::caution Choosing a one-tailed test after seeing the data (because the results happen to go in one
 Direction) is a form of $p$-hacking and is statistically invalid. The tail direction must be decided
 Before the experiment.
 :::
@@ -180,7 +180,7 @@ Test statistic: $z = \dfrac◆LB◆\hat{p} - p_0◆RB◆◆LB◆\sqrt{p_0(1-p_0)
 
 ## 7. Interpreting Results
 
-:::warning "Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the
+:::caution "Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the
 Data does not provide sufficient evidence against $H_0$. The test may lack power (sample too small,
 Effect too weak).
 :::
@@ -260,7 +260,7 @@ Equivalently, for the sample proportion $\hat{p} = X/n$:
 
 $$\hat{p} \approx N\!\left(p, \dfrac{p(1-p)}{n}\right)$$
 
-:::warning Warning $H_0$), not the observed sample proportion $\hat{p}$.
+:::caution Warning $H_0$), not the observed sample proportion $\hat{p}$.
 :::
 ### 9.2 Continuity correction
 
@@ -304,7 +304,7 @@ With a specified level of confidence.
 $(L, U)$ constructed from sample data such that, in repeated sampling, $100(1 - \alpha)\%$ of such
 Intervals would contain the true value of $\theta$.
 
-:::warning A 95% confidence interval does **not** mean there is a 95% probability that $\theta$ lies
+:::caution A 95% confidence interval does **not** mean there is a 95% probability that $\theta$ lies
 In the interval. The parameter $\theta$ is fixed; it either is or is not in the interval. The 95%
 Refers to the long-run proportion of intervals (across many repeated samples) that capture $\theta$.
 :::
@@ -374,7 +374,7 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 
 ### 11.4 Common misinterpretations
 
-:::warning
+:::caution
 
 - The $p$-value is **not** the probability that $H_0$ is true.
 - The $p$-value is **not** the probability that the observed result occurred by chance.

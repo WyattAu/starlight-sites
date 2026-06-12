@@ -89,7 +89,7 @@ Than at the previous level, explaining why food chains are limited to 3--5 troph
 - **Pyramid of energy**: always upright, because energy is lost at each transfer and cannot be
   created.
 
-:::warning Common Pitfall Students often state that "90% of energy is lost" at each trophic level.
+:::caution Common Pitfall Students often state that "90% of energy is lost" at each trophic level.
 The precise figure varies ( 80%--90% is lost, 10%--20% is transferred). The key point is That the
 loss is substantial and cumulative, which is why food chains are short. The lost energy is Not
 "wasted" -- it is dissipated as heat according to the second law of thermodynamics.
@@ -394,7 +394,7 @@ To withstand and recover from disturbances.
 - **Rio Convention (1992)**: three linked conventions on biodiversity, climate change, and
   desertification.
 
-:::warning Warning They are complementary strategies. In situ is generally preferred because it
+:::caution Warning They are complementary strategies. In situ is generally preferred because it
 conserves the entire Ecosystem and evolutionary processes, but ex situ is essential as a backup for
 species whose habitat Has been destroyed or whose population is too small to survive in the wild.
 :::
@@ -476,7 +476,7 @@ Ecological deficit. It is meeting the shortfall by importing resources, depletin
 Capital, or emitting waste that cannot be absorbed (e.g., $\mathrm{CO_2}$ exceeding absorption
 capacity).
 
-:::warning Common Pitfall Students sometimes calculate ecological efficiency as the fraction of
+:::caution Common Pitfall Students sometimes calculate ecological efficiency as the fraction of
 solar energy That reaches producers, rather than the fraction transferred between trophic levels.
 The ecological Efficiency between trophic levels is the fraction of energy at one level that is
 incorporated into Biomass at the next level ( 10--20%), not the fraction of total solar radiation
@@ -594,7 +594,7 @@ Estimated population size $= 400$ woodlice.
 - Marks are not lost.
 - Samples are random.
 
-:::warning Common Pitfall The Lincoln index assumes a closed population between the two sampling
+:::caution Common Pitfall The Lincoln index assumes a closed population between the two sampling
 events. If Organisms are born, die, migrate in, or migrate out between samples, the estimate will be
 inaccurate. If no marked individuals are recaptured ($n_3 = 0$), the method fails entirely.
 :::

@@ -407,7 +407,7 @@ print(f"Change: {change}")
 # Output: Change: {50: 1, 20: 1, 10: 1, 5: 1, 2: 1}
 ```
 
-:::warning Greedy algorithms do not always produce the optimal solution. For example, with coin
+:::caution Greedy algorithms do not always produce the optimal solution. For example, with coin
 Denominations {1, 3, 4} and amount 6, the greedy approach gives 4 + 1 + 1 (3 coins), but the optimal
 Is 3 + 3 (2 coins).
 

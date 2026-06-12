@@ -49,7 +49,7 @@ $$S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
 - $r = 0$: no linear correlation (but there may be non-linear relationship)
 - $r$ measures the strength of **linear** relationship only
 
-:::warning Correlation does not imply causation. Two variables may be strongly correlated because
+:::caution Correlation does not imply causation. Two variables may be strongly correlated because
 They are both influenced by a third (confounding) variable, or by coincidence.
 :::
 
@@ -177,7 +177,7 @@ Properties:
 
 ### 5.2 Extrapolation
 
-:::warning The regression line should only be used for **interpolation** (predicting within the
+:::caution The regression line should only be used for **interpolation** (predicting within the
 Range of the data). **Extrapolation** (predicting outside the data range) is unreliable because the
 Linear relationship may not hold.
 :::

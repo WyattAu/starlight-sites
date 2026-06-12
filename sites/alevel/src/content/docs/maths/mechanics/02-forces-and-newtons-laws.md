@@ -54,7 +54,7 @@ A.
 **Implication.** Forces always come in pairs: action and reaction. They act on **different** bodies
 And are the same type of force.
 
-:::warning Newton's Third Law pairs act on different bodies. The weight of a book on a table and the
+:::caution Newton's Third Law pairs act on different bodies. The weight of a book on a table and the
 Normal reaction from the table are **not** a Third Law pair (both act on the book). The Third Law
 Pair of the weight is the gravitational pull of the book on the Earth.
 :::
@@ -131,7 +131,7 @@ $$F_{\max} = \mu R$$
 
 In A Level, we assume $\mu_s = \mu_k = \mu$.
 
-:::warning Warning Maximum $\mu R$. Only use $F = \mu R$ when the body is sliding or about to slide.
+:::caution Warning Maximum $\mu R$. Only use $F = \mu R$ when the body is sliding or about to slide.
 :::
 ### 4.3 Angle of friction
 
@@ -207,7 +207,7 @@ A valid Third Law pair must satisfy **all** of the following criteria:
 
 ### 7.3 Common misconceptions
 
-:::warning The following are **not** Newton's Third Law pairs:
+:::caution The following are **not** Newton's Third Law pairs:
 :::
 | Situation             | Incorrect Pair (NOT Third Law)                | Why It Fails                                            | Correct Third Law Pair                               |
 | --------------------- | --------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
@@ -270,7 +270,7 @@ $$P\cos\theta + \mu P\sin\theta = \mu mg$$
 
 $$P = \frac◆LB◆\mu mg◆RB◆◆LB◆\cos\theta + \mu\sin\theta◆RB◆$$
 
-:::warning Applying a force at an angle **upward** reduces $R$ and therefore reduces the maximum
+:::caution Applying a force at an angle **upward** reduces $R$ and therefore reduces the maximum
 Friction. Applying a force at an angle **downward** increases $R$ and increases the maximum
 Friction.
 :::
@@ -361,7 +361,7 @@ Combined with $m_2 g - T = m_2 a$:
 
 $$a = \frac◆LB◆(m_2 - \mu m_1)g◆RB◆◆LB◆m_1 + m_2◆RB◆$$
 
-:::warning If $m_2 \lt \mu m_1$Then $a \lt 0$Meaning the system does not move. The friction Force is
+:::caution If $m_2 \lt \mu m_1$Then $a \lt 0$Meaning the system does not move. The friction Force is
 not at its maximum; instead $F = m_2 g$ (friction balances the hanging weight) and $T = m_2 g$.
 :::
 
@@ -460,7 +460,7 @@ $$P\cos\alpha - \mu P\sin\alpha = mg\sin\alpha + \mu mg\cos\alpha$$
 
 $$P = \frac◆LB◆mg(\sin\alpha + \mu\cos\alpha)◆RB◆◆LB◆\cos\alpha - \mu\sin\alpha◆RB◆$$
 
-:::warning Warning Horizontal force can move the block up the slope (pushing horizontally jams the
+:::caution Warning Horizontal force can move the block up the slope (pushing horizontally jams the
 block into the Surface).
 :::
 

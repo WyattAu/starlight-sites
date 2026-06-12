@@ -84,7 +84,7 @@ $$n = \frac{V}{V_m}$$
 
 Where $V_m$ = 22.4 dm$^3$/mol (STP) or 24.0 dm$^3$/mol (RTP).
 
-:::warning Pay close attention to whether the question specifies STP or RTP. Using the wrong molar
+:::caution Pay close attention to whether the question specifies STP or RTP. Using the wrong molar
 Volume is one of the most common errors in DSE stoichiometry questions.
 :::
 

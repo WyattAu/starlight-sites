@@ -763,7 +763,7 @@ EXECUTE get_orders_by_customer(42, 'completed');
 DEALLOCATE get_orders_by_customer;
 ```
 
-:::warning
+:::caution
 
 In PostgreSQL, the planner generates a **generic plan** after 5 executions of a prepared statement.
 The generic plan does not use the specific parameter values for planning, which can lead to

@@ -154,7 +154,7 @@ $ git switch -f main
 # Discards all uncommitted changes in the working directory and index
 ```
 
-:::warning
+:::caution
 
 `git switch -f` is **destructive** — it discards all uncommitted changes. Use `git stash` first if
 you want to preserve them.

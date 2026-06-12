@@ -64,7 +64,7 @@ Strand and one newly synthesised strand. This was demonstrated by the Meselson-S
 Incorrectly paired nucleotides immediately after they are added, reducing the error rate to
 Approximately $10^{-9}$ per base per replication.
 
-:::warning Common Pitfall DNA polymerase can only add nucleotides to the $3'$ end of a growing
+:::caution Common Pitfall DNA polymerase can only add nucleotides to the $3'$ end of a growing
 Strand. It cannot initiate synthesis de novo -- it requires a pre-existing $3'-\mathrm{OH}$ group,
 Which is provided by the RNA primer. Students often forget to mention primase and primers when
 Describing replication.
@@ -162,7 +162,7 @@ completely non-functional protein.
   pyrimidine dimers (thymine dimers); chemical mutagens (base analogues, alkylating agents,
   intercalating agents like ethidium bromide) distort DNA structure.
 
-:::warning Common Pitfall Students often state that "mutations are always harmful." Most mutations
+:::caution Common Pitfall Students often state that "mutations are always harmful." Most mutations
 Are neutral (silent mutations, mutations in non-coding DNA). Some are harmful (cause genetic
 Disorders), and a few are beneficial (provide the variation upon which natural selection acts). The
 Harmful mutations are eliminated by selection; beneficial ones may increase in frequency.
@@ -285,7 +285,7 @@ Genotype $I^AI^B$ produces blood group AB, expressing both A and B antigens.
 -- $RR$ (red) $\times$ $WW$ (white) gives $RW$ (pink). The pink phenotype is not a blend of pigments
 But reduced production of red pigment.
 
-:::warning Common Pitfall Students often confuse co-dominance and incomplete dominance. In
+:::caution Common Pitfall Students often confuse co-dominance and incomplete dominance. In
 Co-dominance, both alleles produce their full product (both A and B antigens are present). In
 Incomplete dominance, the heterozygote produces less of the dominant product (an intermediate
 Phenotype). The genetic ratios for both are 1:2:1, but the phenotypic expression differs.
@@ -343,7 +343,7 @@ Can have long-term effects on gene expression without altering the DNA sequence.
 $\mathrm{B_{12}}$) increases DNA methylation at the agouti gene, silencing it and producing
 Offspring with brown coats and normal weight. A methyl-poor diet produces yellow, obese offspring.
 
-:::warning Common Pitfall Students often confuse epigenetic changes with genetic mutations.
+:::caution Common Pitfall Students often confuse epigenetic changes with genetic mutations.
 Epigenetic changes are reversible modifications to gene expression that do not alter the DNA
 Sequence itself. Mutations are permanent changes to the nucleotide sequence. Epigenetic marks can be
 Passed to daughter cells during mitosis (and meiosis), but they can also be removed by Environmental
@@ -427,7 +427,7 @@ In **recombinant DNA technology**:
 5. Bacteria carrying the recombinant plasmid are selected using **antibiotic resistance markers** on
    the plasmid.
 
-:::warning Common Pitfall Students often write that "bacteria are genetically modified" in PCR. PCR
+:::caution Common Pitfall Students often write that "bacteria are genetically modified" in PCR. PCR
 does not Involve bacteria or modification of living organisms -- it is an in vitro technique. PCR,
 gel Electrophoresis, and DNA sequencing are analytical techniques, while recombinant DNA technology
 involves The creation of genetically modified organisms (GMOs).
@@ -488,7 +488,7 @@ If the recombination frequency were 50%, the genes would assort independently (u
 maximum Observable recombination frequency is 50% (since greater distances lead to multiple
 cross-overs that Cancel out).
 
-:::warning Common Pitfall Students often assume that a 9:3:3:1 ratio always results from a dihybrid
+:::caution Common Pitfall Students often assume that a 9:3:3:1 ratio always results from a dihybrid
 cross. If the genes are linked, the observed ratio will deviate from 9:3:3:1, with an excess of
 parental Phenotypes and a deficit of recombinant phenotypes. Always check whether the genes are on
 the same Chromosome before applying Mendel's second law.
@@ -1248,7 +1248,7 @@ reprogramming:
   from animal studies (e.g., Agouti mouse model, where maternal diet affects offspring coat colour
   and disease risk via methylation of the Agouti gene).
 
-:::warning Common Pitfall Students often confuse epigenetic changes with genetic mutations.
+:::caution Common Pitfall Students often confuse epigenetic changes with genetic mutations.
 Epigenetic changes alter gene expression without changing the DNA sequence. They are potentially
 reversible (unlike mutations). However, epigenetic changes can be inherited through cell division
 (mitosis) and, in rare cases, across generations (transgenerational epigenetic inheritance). Genetic

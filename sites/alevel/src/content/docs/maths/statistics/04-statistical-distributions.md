@@ -176,7 +176,7 @@ $$B(n, p) \approx N(np, np(1-p))$$
 With **continuity correction**:
 $P(X \leq k) \approx P\!\left(Z \lt \frac◆LB◆k + 0.5 - np◆RB◆◆LB◆\sqrt{np(1-p)}◆RB◆\right)$.
 
-:::warning Warning (Binomial) with a continuous one (Normal). Add or subtract 0.5 depending on the
+:::caution Warning (Binomial) with a continuous one (Normal). Add or subtract 0.5 depending on the
 inequality Direction.
 :::
 
@@ -283,7 +283,7 @@ Conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
 
 The approximation improves as $n$ increases and $p$ decreases while $\lambda = np$ remains fixed.
 
-:::warning Warning And $n$ is large, use the normal approximation (Section 3.6) instead. The two
+:::caution Warning And $n$ is large, use the normal approximation (Section 3.6) instead. The two
 approximations are Complementary: Poisson handles the case of many trials with rare success, while
 normal handles the Case of many trials with moderate success probability.
 :::

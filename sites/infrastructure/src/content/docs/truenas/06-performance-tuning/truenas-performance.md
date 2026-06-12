@@ -92,7 +92,7 @@ Write time and cannot be changed afterward.
 | Photo libraries (many small files)  | 128K           | Large enough for most image files                    |
 | Source code repositories            | 128K           | Many small reads, metadata caching is more important |
 
-:::warning Changing `recordsize` on an existing dataset only affects new writes. Existing files keep
+:::caution Changing `recordsize` on an existing dataset only affects new writes. Existing files keep
 Their original block size. To benefit from a recordsize change, rewrite the data by copying files to
 A new dataset.
 :::
@@ -178,7 +178,7 @@ $$
 | Backup storage                     | No         | Most data is unique                   |
 | Database storage                   | No         | Low dedup ratio, performance impact   |
 
-:::warning In most NAS deployments, deduplication is a net negative. The memory cost of the DDT far
+:::caution In most NAS deployments, deduplication is a net negative. The memory cost of the DDT far
 Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead — it provides
 Meaningful space savings with no memory cost.
 :::
@@ -286,7 +286,7 @@ ifconfig igb0 mtu 9000
 ifconfig igb0 | grep mtu
 ```
 
-:::warning Jumbo frames must be configured on every device in the network path — NAS, switch, and
+:::caution Jumbo frames must be configured on every device in the network path — NAS, switch, and
 Clients. A single device with MTU 1500 in the path will cause fragmentation, which is worse than
 Standard frames. Only enable jumbo frames if you control the entire network path.
 :::
@@ -370,7 +370,7 @@ L2ARC extends the ARC to SSD storage:
 | Cost                | Low                       | High                         |
 | Boot support        | Sometimes                 |                              |
 
-:::warning Always use an HBA in IT (Initiator Target) mode for ZFS. RAID controllers hide disk
+:::caution Always use an HBA in IT (Initiator Target) mode for ZFS. RAID controllers hide disk
 Identity and prevent ZFS from performing its error detection, self-healing, and direct disk
 Management. Flash RAID controllers to IT mode (LSI 9211-8i, LSI 9300-8i) or buy pre-flashed HBAs.
 :::
@@ -822,7 +822,7 @@ zpool list -v tank
 zdb -bb tank 2>/dev/null | head -30
 ```
 
-:::warning Special vdevs cannot be removed after creation. If a special vdev fails, the entire pool
+:::caution Special vdevs cannot be removed after creation. If a special vdev fails, the entire pool
 Is at risk. Always mirror special vdevs and use high-endurance NVMe drives rated for sustained write
 Workloads. Check the DWPD (Drive Writes Per Day) rating and ensure it meets your projected metadata
 Write volume.
@@ -912,7 +912,7 @@ echo $(echo '128 * 1024 * 1024 * 1024 * 90 / 100' | bc) > /sys/module/zfs/parame
 echo "options zfs zfs_arc_max=123480309760" > /etc/modprobe.d/zfs.conf
 ```
 
-:::warning Setting `zfs_arc_max` too high leaves insufficient memory for the kernel, applications,
+:::caution Setting `zfs_arc_max` too high leaves insufficient memory for the kernel, applications,
 And the ZFS prefetch cache. Never set it above 90% of physical RAM, and monitor swap usage after
 Changes. If the system begins swapping, reduce `zfs_arc_max` immediately.
 :::

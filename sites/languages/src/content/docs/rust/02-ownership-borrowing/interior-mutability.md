@@ -797,7 +797,7 @@ c2.set(c2.get() + 1);
 assert_eq!(counter.get(), 2);
 ```
 
-:::warning
+:::caution
 
 `Cell<T>` is `Send` when `T: Send`And `Sync` when `T: Copy`. This means `Arc<Cell<T>>` can be Shared
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses

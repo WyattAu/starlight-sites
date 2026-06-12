@@ -287,7 +287,7 @@ def is_valid_bst(root):
     return validate(root, float('-inf'), float('inf'))
 ```
 
-:::warning
+:::caution
 
 A common mistake is checking only that `node.left.val \lt node.val \lt node.right.val`. This is
 Insufficient — the BST property requires that **all** values in the left subtree are less than

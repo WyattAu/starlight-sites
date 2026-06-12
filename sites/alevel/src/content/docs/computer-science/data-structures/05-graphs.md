@@ -244,7 +244,7 @@ before $u$ — contradiction. Therefore $\mathrm{dist}[u] = d(s, u)$. $\square$
 **Complexity:** With a binary heap: $O((V + E) \log V)$. Each vertex is extracted once ($O(\log V)$
 Each), and each edge causes at most one decrease-key ($O(\log V)$ each).
 
-:::warning Warning Bellman-Ford algorithm instead for graphs that may contain negative weights.
+:::caution Warning Bellman-Ford algorithm instead for graphs that may contain negative weights.
 :::
 <hr />
 

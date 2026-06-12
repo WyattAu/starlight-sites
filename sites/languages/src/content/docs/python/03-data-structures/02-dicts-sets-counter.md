@@ -134,7 +134,7 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 | Equality checks order     | No (Python 3.7+) | Yes           |
 | Reversible                | Yes (3.8+)       | Yes           |
 
-:::warning `OrderedDict` equality is **order-sensitive**:
+:::caution `OrderedDict` equality is **order-sensitive**:
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
 Consider order — only `OrderedDict` equality is order-sensitive.
 :::
@@ -213,7 +213,7 @@ tree["servers"]["db1"]["port"] = 5432
 print(tree["servers"]["web1"]["ip"])  # 10.0.0.1
 ```
 
-:::warning `nested_dict()` above creates an infinite recursion if you try to convert it to a regular
+:::caution `nested_dict()` above creates an infinite recursion if you try to convert it to a regular
 `dict` naively. Use a recursive conversion function:
 
 ```python
@@ -368,7 +368,7 @@ print(config["timeout"])  # 30
 ChainMap is ideal for layered configuration systems: defaults, environment variables, CLI args, and
 Per-request overrides.
 
-:::warning Writes to a ChainMap affect **only the first mapping**. If you need to modify a specific
+:::caution Writes to a ChainMap affect **only the first mapping**. If you need to modify a specific
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
 :::
 
@@ -518,7 +518,7 @@ d["port"] = 8080          # Setting 'port' = 8080
 del d["port"]             # Deleting 'port'
 ```
 
-:::warning Prefer `UserDict` over subclassing `dict` directly. When you subclass `dict`Some C-level
+:::caution Prefer `UserDict` over subclassing `dict` directly. When you subclass `dict`Some C-level
 methods bypass your Python-level overrides. `UserDict` stores data in an internal `dict` Attribute
 (`self.data`), so all access goes through your Python methods.
 :::
@@ -734,7 +734,7 @@ print(pq.pop())  # normal task
 print(pq.pop())  # low priority task
 ```
 
-:::warning Never store mutable objects directly in a heap and then modify them externally — the heap
+:::caution Never store mutable objects directly in a heap and then modify them externally — the heap
 Invariant may be violated. Either use immutable data or call `heapq.heapify()` after modifications.
 :::
 

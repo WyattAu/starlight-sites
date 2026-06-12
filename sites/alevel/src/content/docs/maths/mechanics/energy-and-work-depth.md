@@ -227,7 +227,7 @@ $$500g(30) = 500gh + 200d$$
 Without more information about the track profile, we cannot determine the exact stopping point. This
 illustrates the importance of knowing the track geometry.
 
-:::warning Common Pitfall The work-energy principle gives the change in kinetic energy, not the
+:::caution Common Pitfall The work-energy principle gives the change in kinetic energy, not the
 velocity directly. Remember To take the square root to find speed, and always check that the result
 is physically meaningful (i.e., the quantity under the square root must be non-negative).
 :::
@@ -387,7 +387,7 @@ $$T_A = 3g \implies 50(d - 0.8) = 29.4 \implies d = 1.388\;\mathrm{m}$$
 But $1.388 \lt 2$Contradiction. This problem needs a 2D treatment with the particle hanging below
 The line, with both strings at angles.
 
-:::warning Warning Elastic potential energy problems often require careful consideration of whether
+:::caution Warning Elastic potential energy problems often require careful consideration of whether
 strings are taut or Slack at different points in the motion. Always check the assumptions about
 extensions at each stage.
 

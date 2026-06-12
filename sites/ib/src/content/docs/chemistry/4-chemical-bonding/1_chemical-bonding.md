@@ -159,7 +159,7 @@ Rules for drawing Lewis structures:
 6. If the central atom lacks an octet, form double or triple bonds by converting lone pairs on
    terminal atoms into bonding pairs.
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 Hydrogen only needs 2 electrons (duet rule). Beryllium can be stable with 4 electrons, and boron
 With 6. Do not force an octet on these atoms.
@@ -455,7 +455,7 @@ The base geometries depend on the total number of electron domains ($n + m$):
 | AX$_3$   | Trigonal planar | 120$\degree$     | BF$_3$AlCl$_3$ |
 | AX$_2$E  | Bent/V-shaped   | $\lt 120\degree$ | SO$_2$O$_3$    |
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 Students often forget that lone pairs repel more strongly, so AX$_2$E has a bond angle less than
 120$\degree$Not exactly 120$\degree$. SO$_2$ has a bond angle of approximately 119.5$\degree$.
@@ -796,7 +796,7 @@ Temperature as more electrons are promoted across the band gap.
 | n-type      | Group 15 (P) | Extra electron enters conduction band   | Electron        |
 | p-type      | Group 13 (B) | Electron vacancy (hole) in valence band | Hole (positive) |
 
-:::warning[Common Mistake]
+:::caution[Common Mistake]
 
 The "n" in n-type stands for "negative" (electron carriers), not the element nitrogen. The "p" in
 P-type stands for "positive" (hole carriers). Doping does not make the material charged -- the

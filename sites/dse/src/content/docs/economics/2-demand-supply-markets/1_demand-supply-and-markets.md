@@ -103,7 +103,7 @@ Incentivising producers to supply more.
 | Adverse weather (agricultural goods)       | Supply shifts left                  |
 | Expectation of future price increase       | Supply shifts left (withhold stock) |
 
-:::warning Warning "increase in supply" (shift). Be precise with terminology.
+:::caution Warning "increase in supply" (shift). Be precise with terminology.
 :::
 ### Market Supply
 
@@ -672,7 +672,7 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 | Deadweight loss  | None                           | Present            |
 | Innovation       | May lack incentive             | May have incentive |
 
-:::warning Warning Where MR = MC. Setting the highest price would reduce quantity sold too much and
+:::caution Warning Where MR = MC. Setting the highest price would reduce quantity sold too much and
 lower total Revenue.
 :::
 

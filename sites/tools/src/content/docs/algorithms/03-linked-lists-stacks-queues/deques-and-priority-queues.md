@@ -695,7 +695,7 @@ Times relative to `extract_min`. In practice:
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 
-:::warning
+:::caution
 
 Fibonacci heaps are primarily of theoretical interest. The constant factors are so large that binary
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative

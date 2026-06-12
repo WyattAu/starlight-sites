@@ -77,7 +77,7 @@ Always directed toward the centre of the circular path (radially inward).
   by Newton's first law.
 - The word "centripetal" means "centre-seeking."
 
-:::warning[Exam Tip]
+:::caution[Exam Tip]
 
 Centripetal force is NOT a new force — it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a

@@ -240,7 +240,7 @@ class SubclassDemo extends AccessDemo {
 }
 ```
 
-:::warning `protected` access is narrower than most developers expect. A subclass in a different
+:::caution `protected` access is narrower than most developers expect. A subclass in a different
 Package can access a `protected` member only through `this` or a reference of the subclass's own
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
 The actual object is an instance of the subclass.
@@ -736,7 +736,7 @@ public Iterator<E> filteredIterator(final Predicate<? super E> predicate) {
 | Anonymous     |         Yes          |          All members          |            Yes            |        No        |
 | Local         |         Yes          |          All members          |            Yes            |        No        |
 
-:::warning Prefer static nested classes over member inner classes. A member inner class holds an
+:::caution Prefer static nested classes over member inner classes. A member inner class holds an
 Implicit reference to its enclosing instance, which can prevent garbage collection of the enclosing
 Object and creates a coupling that makes testing harder. Use a member inner class only when it
 Genuinely needs to access the enclosing instance's state.
@@ -1032,7 +1032,7 @@ public int hashCode() {
 }
 ```
 
-:::warning If you use an object as a key in a `HashMap` or add it to a `HashSet`And then mutate Its
+:::caution If you use an object as a key in a `HashMap` or add it to a `HashSet`And then mutate Its
 state in a way that changes `equals()` or `hashCode()`The collection will behave incorrectly. The
 object may become "lost" in the wrong bucket. Always use immutable objects as hash keys, or Ensure
 that fields used in `equals()`/`hashCode()` are never modified after insertion.

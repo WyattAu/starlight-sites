@@ -160,7 +160,7 @@ sendto(sockfd, "hello", 5, 0,
     (struct sockaddr *)&server_addr, sizeof(server_addr));
 ```
 
-:::warning
+:::caution
 
 UDP traffic is often blocked by firewalls because there is no connection handshake to track state.
 Many NAT devices have difficulty forwarding UDP traffic correctly. UDP-based protocols often

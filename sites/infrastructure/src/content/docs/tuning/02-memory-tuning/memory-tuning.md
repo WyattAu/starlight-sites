@@ -436,7 +436,7 @@ echo madvise | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 echo always | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 ```
 
-:::warning For database workloads (PostgreSQL, Redis, MongoDB), THP can cause latency spikes due to
+:::caution For database workloads (PostgreSQL, Redis, MongoDB), THP can cause latency spikes due to
 The kernel's khugepaged daemon defragmenting memory in the background. Database vendors recommend
 Setting THP to `madvise` or `never`.
 :::
@@ -710,7 +710,7 @@ swapon --show
 free -h
 ```
 
-:::warning Do not create a swap file on a ZFS dataset. ZFS does not support swap files due to its
+:::caution Do not create a swap file on a ZFS dataset. ZFS does not support swap files due to its
 Copy-on-write nature. Use a swap file on ext4/xfs or a dedicated swap partition instead.
 
 ### NUMA Memory Policy Deep Dive

@@ -243,7 +243,7 @@ ping -b 192.168.1.255
 Every subnet has a broadcast address: the last address in the subnet (all host bits set to 1). For
 `10.0.0.0/24`The broadcast is `10.0.0.255`. For `10.0.0.0/23`The broadcast is `10.0.1.255`.
 
-:::warning
+:::caution
 
 Many modern operating systems do not respond to broadcast pings by default. Linux sets
 `net.ipv4.icmp_echo_ignore_broadcasts=1`. Do not rely on ping to test broadcast reachability.
@@ -418,7 +418,7 @@ ping -M do -s 1472 example.com    # Maximum for standard Ethernet (1500 - 20 IP 
 ip route get 8.8.8.8
 ```
 
-:::warning
+:::caution
 
 ICMP "Fragmentation Needed" messages are frequently filtered by firewalls, breaking PMTUD. If PMTUD
 Fails, the sender never learns the correct MTU and silently drops packets. This is one of the most
@@ -498,7 +498,7 @@ On repeat connections, QUIC can send application data in the first flight (0-RTT
 Cached session ticket from a previous connection to derive the encryption keys immediately, without
 Waiting for the server's handshake response.
 
-:::warning
+:::caution
 
 0-RTT data is vulnerable to replay attacks. An attacker who captures the 0-RTT data can replay it to
 The server. Applications must not use 0-RTT for non-idempotent operations (POST requests, financial
