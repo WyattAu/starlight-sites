@@ -36,19 +36,7 @@ https://tools.wyattau.com/sitemap-index.xml
 
 **Decision:** Keep Cloudflare-managed robots.txt (good AI blocking). No custom robots.txt needed.
 
-## 4. Legacy Subdomain Cleanup
-
-**Already done:**
-- Worker `redirect-legacy` deployed
-- Routes: `alevel-maths-physics.wyattau.com/*`, `alevel-sciences.wyattau.com/*`, `academics.wyattau.com/*`
-- All redirect 301 to appropriate new subdomain
-
-**Optional cleanup:** Delete old CF Pages projects:
-- `wyattsnotes-alevel-maths-physics`
-- `wyattsnotes-alevel-sciences`
-- `wyattsnotes-academics`
-
-## 5. Old Docusaurus Repository
+## 4. Old Docusaurus Repository
 
 **Status:** Deploy workflows disabled (renamed to `.disabled`)
 
