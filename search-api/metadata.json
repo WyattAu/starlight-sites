@@ -1,0 +1,53 @@
+{
+  "version": "v1781282857794",
+  "lastUpdated": "2026-06-12T16:47:37.794Z",
+  "siteCount": 9,
+  "totalEntries": 1406,
+  "sites": [
+    {
+      "id": "dse",
+      "name": "DSE",
+      "url": "https://dse.wyattau.com"
+    },
+    {
+      "id": "ib",
+      "name": "IB",
+      "url": "https://ib.wyattau.com"
+    },
+    {
+      "id": "alevel",
+      "name": "A-Level",
+      "url": "https://alevel.wyattau.com"
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "url": "https://university.wyattau.com"
+    },
+    {
+      "id": "qualifications",
+      "name": "Qualifications",
+      "url": "https://qualifications.wyattau.com"
+    },
+    {
+      "id": "programming",
+      "name": "Programming",
+      "url": "https://programming.wyattau.com"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "url": "https://infrastructure.wyattau.com"
+    },
+    {
+      "id": "languages",
+      "name": "Languages",
+      "url": "https://languages.wyattau.com"
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "url": "https://tools.wyattau.com"
+    }
+  ]
+}
