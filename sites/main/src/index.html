@@ -476,8 +476,25 @@ async function performSearch(query) {
     renderResults(data);
   } catch (err) {
     if (err.name !== 'AbortError') {
-      searchResults.innerHTML = '<div class="search-footer">Search unavailable</div>';
-      searchResults.classList.add('active');
+      // Try autocomplete suggestions on error
+      try {
+        const suggestResp = await fetch(`${SEARCH_API}/suggest?q=${encodeURIComponent(query)}`);
+        const suggestData = await suggestResp.json();
+        if (suggestData.suggestions && suggestData.suggestions.length > 0) {
+          searchResults.innerHTML = `
+            <div class="search-footer">Try: ${suggestData.suggestions.map(s => 
+              `<a href="#" onclick="searchInput.value='${escapeHtml(s.query)}';performSearch('${escapeHtml(s.query)}');return false" style="color:var(--accent);text-decoration:none;margin:0 0.25rem">${escapeHtml(s.query)}</a>`
+            ).join('')}</div>
+          `;
+          searchResults.classList.add('active');
+        } else {
+          searchResults.innerHTML = '<div class="search-footer">Search unavailable</div>';
+          searchResults.classList.add('active');
+        }
+      } catch {
+        searchResults.innerHTML = '<div class="search-footer">Search unavailable</div>';
+        searchResults.classList.add('active');
+      }
     }
   }
 }
