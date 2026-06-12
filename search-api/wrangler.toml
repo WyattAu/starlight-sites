@@ -1,0 +1,12 @@
+name = "wyattsnotes-search"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# KV namespace binding
+[[kv_namespaces]]
+binding = "SEARCH_KV"
+id = "b1c8e9c031cd404da7e8688c332d4374"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"

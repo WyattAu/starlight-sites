@@ -127,8 +127,46 @@ jobs:
           echo "- **Project**: wyattsnotes" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
+  update-search-index:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: success()
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Build merged search index
+        working-directory: search-api
+        run: node build-search-index.js
+
+      - name: Upload index to KV
+        working-directory: search-api
+        run: node upload-index.js
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Deploy search Worker
+        working-directory: search-api
+        run: npx wrangler@4 deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Search Index" >> $GITHUB_STEP_SUMMARY
+          echo "- **Worker**: wyattsnotes-search" >> $GITHUB_STEP_SUMMARY
+          echo "- **KV Namespace**: WYATTSNOTES-SEARCH" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
   summary:
-    needs: [deploy, deploy-landing]
+    needs: [deploy, deploy-landing, update-search-index]
     runs-on: ubuntu-latest
     if: always()
     steps:
@@ -136,15 +174,23 @@ jobs:
         run: |
           echo "## Deployment Results" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| Site | URL | Status |" >> $GITHUB_STEP_SUMMARY
-          echo "|------|-----|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Landing | https://wyattsnotes.wyattau.com | ${{ needs.deploy-landing.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| DSE | https://dse.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| IB | https://ib.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| A-Level | https://alevel.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| University | https://university.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Qualifications | https://qualifications.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Programming | https://programming.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Infrastructure | https://infrastructure.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Languages | https://languages.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Tools | https://tools.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Component | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Sites (9) | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Landing | ${{ needs.deploy-landing.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Search Index | ${{ needs.update-search-index.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### URLs" >> $GITHUB_STEP_SUMMARY
+          echo "| Site | URL |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
+          echo "| Landing | https://wyattsnotes.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| Search API | https://wyattsnotes-search.{subdomain}.workers.dev/api/search |" >> $GITHUB_STEP_SUMMARY
+          echo "| DSE | https://dse.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| IB | https://ib.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| A-Level | https://alevel.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| University | https://university.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| Qualifications | https://qualifications.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| Programming | https://programming.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| Infrastructure | https://infrastructure.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| Languages | https://languages.wyattau.com |" >> $GITHUB_STEP_SUMMARY
+          echo "| Tools | https://tools.wyattau.com |" >> $GITHUB_STEP_SUMMARY

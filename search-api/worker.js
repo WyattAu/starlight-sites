@@ -1,0 +1,298 @@
+// Search API Worker for Wyatt's Notes
+// Merges Pagefind indexes from 9 sites into a unified search API
+
+const SITES = {
+  dse: { name: 'DSE', url: 'https://dse.wyattau.com', color: '#ff6b35' },
+  ib: { name: 'IB', url: 'https://ib.wyattau.com', color: '#0077b6' },
+  alevel: { name: 'A-Level', url: 'https://alevel.wyattau.com', color: '#2a9d8f' },
+  university: { name: 'University', url: 'https://university.wyattau.com', color: '#9b5de5' },
+  qualifications: { name: 'Qualifications', url: 'https://qualifications.wyattau.com', color: '#f4a261' },
+  programming: { name: 'Programming', url: 'https://programming.wyattau.com', color: '#06d6a0' },
+  infrastructure: { name: 'Infrastructure', url: 'https://infrastructure.wyattau.com', color: '#ef476f' },
+  languages: { name: 'Languages', url: 'https://languages.wyattau.com', color: '#118ab2' },
+  tools: { name: 'Tools', url: 'https://tools.wyattau.com', color: '#073b4c' },
+};
+
+// Site authority weights for ranking
+const SITE_AUTHORITY = {
+  university: 10,
+  programming: 8,
+  infrastructure: 7,
+  languages: 7,
+  dse: 6,
+  ib: 6,
+  alevel: 6,
+  tools: 6,
+  qualifications: 5,
+};
+
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+
+    // CORS headers
+    const corsHeaders = {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Cache-Control': 'public, max-age=300, s-maxage=300',
+    };
+
+    if (request.method === 'OPTIONS') {
+      return new Response(null, { headers: corsHeaders });
+    }
+
+    // Route handling
+    try {
+      if (url.pathname === '/api/search') {
+        return await handleSearch(url, env, corsHeaders);
+      }
+      if (url.pathname === '/api/sites') {
+        return handleSites(corsHeaders);
+      }
+      if (url.pathname === '/api/health') {
+        return await handleHealth(env, corsHeaders);
+      }
+      if (url.pathname === '/api/trending') {
+        return await handleTrending(env, corsHeaders);
+      }
+      return new Response(JSON.stringify({ error: 'Not found' }), {
+        status: 404,
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+      });
+    } catch (err) {
+      return new Response(JSON.stringify({ error: err.message }), {
+        status: 500,
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+      });
+    }
+  },
+};
+
+async function handleSearch(url, env, corsHeaders) {
+  const query = url.searchParams.get('q')?.trim();
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 50);
+  const site = url.searchParams.get('site'); // optional: filter by site
+
+  if (!query || query.length < 2) {
+    return new Response(JSON.stringify({ error: 'Query must be at least 2 characters' }), {
+      status: 400,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Check KV cache first
+  const cacheKey = `search:${site || 'all'}:${query.toLowerCase()}`;
+  const cached = await env.SEARCH_KV.get(cacheKey, { type: 'json' });
+  if (cached) {
+    return new Response(JSON.stringify(cached), {
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Fetch merged index from KV
+  const index = await env.SEARCH_KV.get('merged-index', { type: 'json' });
+  if (!index) {
+    return new Response(JSON.stringify({ error: 'Search index not available' }), {
+      status: 503,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Search and rank
+  let results = searchIndex(query, index, site);
+
+  // Apply limit
+  results = results.slice(0, limit);
+
+  const response = {
+    query,
+    total: results.length,
+    results: results.map(r => ({
+      title: r.title,
+      url: r.url,
+      site: r.site,
+      siteName: SITES[r.site]?.name || r.site,
+      siteColor: SITES[r.site]?.color || '#666',
+      siteUrl: SITES[r.site]?.url || '',
+      snippet: r.snippet,
+      score: r.score,
+      breadcrumbs: r.url.split('/').filter(Boolean).slice(0, -1),
+    })),
+  };
+
+  // Cache hot queries (top 1000)
+  if (results.length > 0) {
+    await env.SEARCH_KV.put(cacheKey, JSON.stringify(response), { expirationTtl: 300 });
+  }
+
+  // Log search query for analytics
+  await logSearch(query, results.length, env);
+
+  return new Response(JSON.stringify(response), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}
+
+function searchIndex(query, index, siteFilter) {
+  const queryLower = query.toLowerCase();
+  const queryWords = queryLower.split(/\s+/);
+  const results = [];
+
+  for (const entry of index.entries) {
+    // Filter by site if specified
+    if (siteFilter && entry.site !== siteFilter) continue;
+
+    // Skip entries with missing data
+    if (!entry.title || !entry.url) continue;
+
+    let score = 0;
+    const titleLower = (entry.title || '').toLowerCase();
+    const contentLower = (entry.content || entry.description || '').toLowerCase();
+    const urlLower = (entry.url || '').toLowerCase();
+
+    // 1. Exact phrase match in title (highest signal)
+    if (titleLower.includes(queryLower)) {
+      score += 100;
+    }
+
+    // 2. Individual word matches in title
+    for (const word of queryWords) {
+      if (titleLower.includes(word)) score += 20;
+    }
+
+    // 3. Exact phrase match in content
+    if (contentLower.includes(queryLower)) {
+      score += 50;
+    }
+
+    // 4. Individual word matches in content
+    for (const word of queryWords) {
+      if (contentLower.includes(word)) score += 5;
+    }
+
+    // 5. Match in URL slug
+    for (const word of queryWords) {
+      if (urlLower.includes(word)) score += 15;
+    }
+
+    // 6. Site authority bonus
+    score += (SITE_AUTHORITY[entry.site] || 0) * 2;
+
+    // 7. Content length penalty (prefer focused pages)
+    const contentLength = (entry.content || entry.description || '').length;
+    if (contentLength > 5000) score -= 5;
+    if (contentLength > 10000) score -= 10;
+
+    // 8. Shallow URL depth bonus (prefer top-level pages)
+    const depth = entry.url.split('/').length - 3; // subtract protocol + domain
+    if (depth <= 1) score += 10;
+    if (depth <= 2) score += 5;
+
+    if (score > 0) {
+      // Generate snippet
+      const snippet = generateSnippet(contentLower, queryWords);
+
+      results.push({
+        ...entry,
+        score,
+        snippet,
+      });
+    }
+  }
+
+  // Sort by score descending
+  results.sort((a, b) => b.score - a.score);
+
+  return results;
+}
+
+function generateSnippet(content, queryWords) {
+  // Handle undefined/null content
+  if (!content) return '';
+
+  // Find the first occurrence of any query word
+  let bestPos = -1;
+  for (const word of queryWords) {
+    const pos = content.indexOf(word);
+    if (pos !== -1 && (bestPos === -1 || pos < bestPos)) {
+      bestPos = pos;
+    }
+  }
+
+  if (bestPos === -1) {
+    // No match in content, return beginning
+    return content.slice(0, 200).trim() + '...';
+  }
+
+  // Extract snippet around the match
+  const start = Math.max(0, bestPos - 80);
+  const end = Math.min(content.length, bestPos + 120);
+  let snippet = content.slice(start, end).trim();
+
+  if (start > 0) snippet = '...' + snippet;
+  if (end < content.length) snippet = snippet + '...';
+
+  return snippet;
+}
+
+function handleSites(corsHeaders) {
+  const sites = Object.entries(SITES).map(([id, info]) => ({
+    id,
+    ...info,
+    authority: SITE_AUTHORITY[id] || 0,
+  }));
+
+  return new Response(JSON.stringify({ sites }), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}
+
+async function handleHealth(env, corsHeaders) {
+  const metadata = await env.SEARCH_KV.get('metadata', { type: 'json' });
+
+  return new Response(
+    JSON.stringify({
+      status: 'ok',
+      indexVersion: metadata?.version || 'unknown',
+      lastUpdated: metadata?.lastUpdated || 'unknown',
+      siteCount: metadata?.siteCount || 0,
+      totalEntries: metadata?.totalEntries || 0,
+    }),
+    {
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    }
+  );
+}
+
+async function handleTrending(env, corsHeaders) {
+  const trending = await env.SEARCH_KV.get('trending', { type: 'json' });
+
+  return new Response(JSON.stringify({ trending: trending || [] }), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}
+
+async function logSearch(query, resultCount, env) {
+  // Get current trending
+  let trending = await env.SEARCH_KV.get('trending', { type: 'json' }) || [];
+
+  // Find or create entry
+  const existing = trending.find(t => t.query === query);
+  if (existing) {
+    existing.count++;
+    existing.lastSearched = new Date().toISOString();
+  } else {
+    trending.push({
+      query,
+      count: 1,
+      lastSearched: new Date().toISOString(),
+    });
+  }
+
+  // Keep top 50 trending
+  trending.sort((a, b) => b.count - a.count);
+  trending = trending.slice(0, 50);
+
+  await env.SEARCH_KV.put('trending', JSON.stringify(trending), { expirationTtl: 86400 });
+}
