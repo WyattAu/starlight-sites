@@ -5,7 +5,7 @@ description:
   concepts, worked examples, and practice questions for revision.'
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Understanding the translation stages are critical for debugging compilation errors, optimizing build
 Times, and understanding.
@@ -34,7 +34,7 @@ Only knows tokens.
 To debug macro expansion or header inclusion issues, you can stop the pipeline after preprocessing.
 
 <Tabs>
- <TabItem value="gcc_clang" label="GCC / Clang" default>
+ <TabItem label="GCC / Clang">
 
 ```bash
 # -E: Run preprocessor only
@@ -43,7 +43,7 @@ clang++ -E -P main.cpp -o main.i
 ```
 
  </TabItem>
- <TabItem value="msvc" label="MSVC">
+ <TabItem label="MSVC">
 
 ```cmd
 :: /P: Preprocess to a file (.i)
@@ -111,7 +111,7 @@ LLVM IR is a Static Single Assignment (SSA) based language. It models an infinit
 ### Inspection
 
 <Tabs>
- <TabItem value="clang" label="Clang (LLVM IR)" default>
+ <TabItem label="Clang (LLVM IR)">
 
 ```bash
 # -emit-llvm: Generate LLVM bitcode/text
@@ -121,7 +121,7 @@ clang++ -S -emit-llvm -O3 main.cpp -o main.ll
 ```
 
  </TabItem>
- <TabItem value="gcc" label="GCC (GIMPLE)">
+ <TabItem label="GCC (GIMPLE)">
 
 ```bash
 # -fdump-tree-all: Dumps internal tree representations
@@ -185,7 +185,7 @@ Programming and embedded work.
 Analyze the contents of object files to debug linking errors or binary size bloat.
 
 <Tabs>
- <TabItem value="linux" label="Linux (ELF)" default>
+ <TabItem label="Linux (ELF)">
 
 ```bash
 # Headers and Sections
@@ -200,7 +200,7 @@ objdump -d -C -M intel main.o
 ```
 
  </TabItem>
- <TabItem value="macos" label="macOS (Mach-O)">
+ <TabItem label="macOS (Mach-O)">
 
 ```bash
 # Sections
@@ -211,7 +211,7 @@ nm -m main.o
 ```
 
  </TabItem>
- <TabItem value="windows" label="Windows (COFF)">
+ <TabItem label="Windows (COFF)">
 
 ```cmd
 # Headers and Sections

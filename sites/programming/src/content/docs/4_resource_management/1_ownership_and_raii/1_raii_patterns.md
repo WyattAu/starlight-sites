@@ -86,7 +86,7 @@ void process_file(const char* path) {
 }
 ```
 
-:::info Relevance RAII is why C++ programs do not need `try`/`finally` blocks. The destructor **is**
+:::note Relevance RAII is why C++ programs do not need `try`/`finally` blocks. The destructor **is**
 The `finally`. This is the mechanism that enables exception-safe code without manual cleanup.
 :::
 
@@ -258,7 +258,7 @@ private:
 };
 ```
 
-:::info The move constructor and move assignment operator transfer ownership of the file descriptor.
+:::note The move constructor and move assignment operator transfer ownership of the file descriptor.
 The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
 For move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
 :::
@@ -421,7 +421,7 @@ RAII is strictly more general than GC. GC only manages memory; RAII manages **an
 Deterministic cleanup. A GC language like Java still needs `try`-with-resources or `using` blocks
 For non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
 
-:::info The C++ destructor model is what makes RAII possible. Objects with automatic storage
+:::note The C++ destructor model is what makes RAII possible. Objects with automatic storage
 Duration are destroyed in reverse order of construction when the scope exits, whether by normal flow
 Of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
 Convention.

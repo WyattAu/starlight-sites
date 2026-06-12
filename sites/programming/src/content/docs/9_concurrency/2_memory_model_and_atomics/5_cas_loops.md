@@ -183,7 +183,7 @@ int main() {
 }
 ```
 
-:::info This reference counting example uses `fetch_sub` with `memory_order_acq_rel` for the release
+:::note This reference counting example uses `fetch_sub` with `memory_order_acq_rel` for the release
 Operation. The acquire semantics ensure that all accesses to the object (sequenced-before the
 Release) are visible to the thread that performs the destruction. The release semantics ensure that
 The destruction itself is visible to other threads. The `fetch_sub` return value is checked against

@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Installing a compiler is insufficient for C++23 development. By default, compilers often default to
 Older standards (C++14 or C++17) to maintain backward compatibility. This module details the
@@ -87,7 +87,7 @@ clang++ -std=c++23 -stdlib=libc++ main.cpp
 clang++ -std=c++23 -stdlib=libstdc++ main.cpp
 ```
 
-:::warning Library Availability On Linux, using `-stdlib=libc++` requires the installation of
+:::caution Library Availability On Linux, using `-stdlib=libc++` requires the installation of
 Specific library packages (e.g., `libc++-dev` and `libc++abi-dev` on Debian/Ubuntu). If these are
 Missing, the linker will fail to find symbols.
 :::
@@ -457,7 +457,7 @@ Stability since GCC 5.1.
 | GCC Linux $\leftrightarrow$ Clang Linux (`libstdc++`)      |             | Same `libstdc++.so` must be used at runtime          |
 | MSVC 2019 $\leftrightarrow$ MSVC 2022                      |             | MSVC STL aims for ABI stability, but not guaranteed  |
 
-:::warning Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same
+:::caution Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same
 C++ standard version. However, some ABI-affecting flags (like `-D_GLIBCXX_USE_CXX11_ABI`) must be
 Consistent across all object files in the final binary.
 :::

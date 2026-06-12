@@ -633,7 +633,7 @@ int main() {
 }
 ```
 
-:::warning This thread pool executor is a simplified educational example. A production executor must
+:::caution This thread pool executor is a simplified educational example. A production executor must
 Handle: work stealing, priority queues, thread affinity, shutdown semantics, exception aggregation
 Across `when_all`And proper cancellation propagation. Libraries like
 [libunifex](https://github.com/facebookexperimental/libunifex) (now `std::execution` proposal,

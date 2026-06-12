@@ -520,7 +520,7 @@ int main() {
 }
 ```
 
-:::warning The C++ standard's range machinery includes **borrowed range** detection [N4950 §26.5.2].
+:::caution The C++ standard's range machinery includes **borrowed range** detection [N4950 §26.5.2].
 Some views (like `std::views::filter`) are not borrowing views --- they cannot outlive their source.
 Always ensure the source outlives the view when materializing.
 :::

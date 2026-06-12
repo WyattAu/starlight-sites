@@ -12,7 +12,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 # Type Punning and the Strict Aliasing Rule
 

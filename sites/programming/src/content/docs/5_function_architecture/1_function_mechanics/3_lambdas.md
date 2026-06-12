@@ -337,7 +337,7 @@ int main() {
 }
 ```
 
-:::info Relevance Generic lambdas are the backbone of STL algorithms. `std::sort``std::transform`
+:::note Relevance Generic lambdas are the backbone of STL algorithms. `std::sort``std::transform`
 `std::find_if` all accept callable objects, and generic lambdas provide the most ergonomic way to
 Pass custom comparators and predicates.
 :::

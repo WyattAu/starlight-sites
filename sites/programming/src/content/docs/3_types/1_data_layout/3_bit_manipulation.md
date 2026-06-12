@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Systems programming frequently requires bypassing the C++ type system to manipulate the raw binary
 Representation of data. This includes parsing network protocols, inspecting floating-point

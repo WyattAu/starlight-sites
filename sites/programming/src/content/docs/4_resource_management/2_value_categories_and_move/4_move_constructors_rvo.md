@@ -378,7 +378,7 @@ void container_demo() {
 }
 ```
 
-:::warning Always mark move constructors and move assignment operators `noexcept` unless they
+:::caution Always mark move constructors and move assignment operators `noexcept` unless they
 Genuinely can throw (which is rare — moving should only perform pointer swaps and assignments). The
 `std::is_nothrow_move_constructible_v<T>` type trait is used by standard containers to select
 Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
@@ -867,7 +867,7 @@ The `this != &other` guard is essential. Without it, `a = std::move(a)` would:
 After self-move, the object holds a dangling pointer and a zero size. Any subsequent access or
 Destruction triggers use-after-free.
 
-:::warning Self-move assignment (`a = std::move(a)`) is **not undefined behavior** in the general
+:::caution Self-move assignment (`a = std::move(a)`) is **not undefined behavior** in the general
 Case [N4950 S11.4.5.3], but the Standard requires the object to be in a "valid but unspecified
 State" afterward. For resource-owning types that do not guard against self-assignment, this means a
 use-after-free. Always include the self-assignment check in move assignment Operators, or

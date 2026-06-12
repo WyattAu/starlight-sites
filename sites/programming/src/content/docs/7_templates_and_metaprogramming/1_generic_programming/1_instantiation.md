@@ -103,7 +103,7 @@ int main() {
 }
 ```
 
-:::warning A non-dependent call like `g(42)` inside a template is bound at definition time [N4950
+:::caution A non-dependent call like `g(42)` inside a template is bound at definition time [N4950
 S13.8.3]. If a better overload of `g` is declared _after_ the template definition, it will **not**
 Be found. This is the single most surprising aspect of two-phase lookup and a frequent source of
 Bugs.
@@ -235,7 +235,7 @@ int main() {
 }
 ```
 
-:::warning Defining a specialization after its POI is **ill-formed, no diagnostic required** [N4950
+:::caution Defining a specialization after its POI is **ill-formed, no diagnostic required** [N4950
 S13.8.2/6]. The compiler may silently use the primary template instead. This is one of the most
 Insidious bugs in template code: the program compiles, links, and runs, but produces wrong results.
 Always define specializations before any potential point of use.
@@ -781,7 +781,7 @@ int main() {
 }
 ```
 
-:::warning `__attribute__((always_inline))` overrides the compiler's inlining heuristics. Use it
+:::caution `__attribute__((always_inline))` overrides the compiler's inlining heuristics. Use it
 Only when profiling confirms the overhead, for tiny leaf functions in hot loops. Overusing It
 increases code size and can degrade instruction cache performance.
 

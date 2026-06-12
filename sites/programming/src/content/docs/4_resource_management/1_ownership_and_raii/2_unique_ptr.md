@@ -86,7 +86,7 @@ void transfer_demo() {
 }
 ```
 
-:::info Relevance Move-only semantics are the foundation of C++ ownership discipline. If a function
+:::note Relevance Move-only semantics are the foundation of C++ ownership discipline. If a function
 Takes a `unique_ptr` by value, the caller **must** explicitly transfer ownership with `std::move`.
 This makes the ownership transfer visible at the call site.
 :::
@@ -156,7 +156,7 @@ void array_demo() {
 }
 ```
 
-:::warning `std::make_unique` with arrays initializes elements to value-initialization (zero for
+:::caution `std::make_unique` with arrays initializes elements to value-initialization (zero for
 Built-in types). If you need non-zero initialization, use `std::vector` or construct manually.
 :::
 
@@ -218,7 +218,7 @@ int main() {
 }
 ```
 
-:::warning If the base class lacks a virtual destructor, `delete base_ptr` where `base_ptr` actually
+:::caution If the base class lacks a virtual destructor, `delete base_ptr` where `base_ptr` actually
 Points to a derived object is undefined behavior [N4950 §11.7.3]. The derived destructor does not
 Run, leaking resources. Always use `virtual ~Base() = default;` in polymorphic base classes.
 :::
@@ -355,7 +355,7 @@ int main() {
 }
 ```
 
-:::info `std::vector<std::unique_ptr<T>>` provides stable pointers and references to elements (no
+:::note `std::vector<std::unique_ptr<T>>` provides stable pointers and references to elements (no
 Iterator invalidation on push_back amortized, only on reallocation). This makes it safe to hold raw
 Pointers to elements as long as no insertion triggers a reallocation.
 :::
@@ -444,7 +444,7 @@ int main() {
 }
 ```
 
-:::warning If you write `~Widget() = default;` in the header (where `Impl` is incomplete), the
+:::caution If you write `~Widget() = default;` in the header (where `Impl` is incomplete), the
 Compiler generates the destructor body at each call site. The `delete impl_` call requires `Impl` to
 Be complete. This causes a compilation error. Always declare `~Widget();` in the header and define
 It (as `= default` or manually) in the `.cpp` file.
@@ -585,7 +585,7 @@ int main() {
 }
 ```
 
-:::warning `release()` does not delete the managed object. It returns the raw pointer and sets the
+:::caution `release()` does not delete the managed object. It returns the raw pointer and sets the
 `unique_ptr` to null. The caller assumes responsibility for cleanup. Use `release()` only when you
 Are transferring ownership to another mechanism (e.g., a C API that takes ownership).
 :::

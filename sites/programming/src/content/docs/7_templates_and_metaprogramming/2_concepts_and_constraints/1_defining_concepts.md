@@ -143,7 +143,7 @@ static_assert(!Numeric<std::string>, "string must not be numeric");
 Zero overhead on the generated binary. The concept is "compiled away" after constraint checking
 Succeeds or fails.
 
-:::info Semantic Difference from `constexpr bool` A `constexpr bool` variable template and a
+:::note Semantic Difference from `constexpr bool` A `constexpr bool` variable template and a
 `concept` are both compile-time boolean predicates, but a concept participates in **partial
 Ordering** (subsumption) during overload resolution, while a `constexpr bool` variable template does
 Not. Concepts are also required to be `true` for all substitutions --- a concept that is `false` for
@@ -353,7 +353,7 @@ int main() {
 }
 ```
 
-:::warning Negation with `!` The negation operator `!` is defined for constraints but **does not
+:::caution Negation with `!` The negation operator `!` is defined for constraints but **does not
 Participate in subsumption ordering**. A concept `!C` does not subsume or is not subsumed by `C` ---
 They are incomparable. This means `!C` cannot be used to establish a partial ordering between
 Overloads, which limits its usefulness in overload resolution. Prefer using a positive constraint on

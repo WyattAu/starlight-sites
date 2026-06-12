@@ -163,7 +163,7 @@ int main() {
 
 ### Data Races in Parallel Algorithms
 
-:::warning The most common pitfall with parallel algorithms is **data races**. When an algorithm
+:::caution The most common pitfall with parallel algorithms is **data races**. When an algorithm
 Uses `std::execution::par`The user-provided function objects may be called concurrently from
 Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
 
@@ -300,7 +300,7 @@ int main() {
 }
 ```
 
-:::warning **Never use `std::reduce` with floating-point arithmetic if you need bit-exact
+:::caution **Never use `std::reduce` with floating-point arithmetic if you need bit-exact
 Reproducibility.** Floating-point addition is not associative (e.g.,
 `(0.1 + 0.2) + 0.3 != 0.1 + (0.2 + 0.3)` in IEEE 754). Use `std::accumulate` for deterministic
 Floating-point results, or use compensated summation (Kahan summation) for accuracy.
@@ -745,7 +745,7 @@ int main() {
 }
 ```
 
-:::info Not all algorithms have parallel overloads. The following algorithms do **not** support
+:::note Not all algorithms have parallel overloads. The following algorithms do **not** support
 Execution policies: `std::stable_sort` (until C++20), `std::nth_element` (until C++20), and
 `std::inplace_merge`. Check the standard or your compiler's documentation for the full list of
 Parallel-capable algorithms.

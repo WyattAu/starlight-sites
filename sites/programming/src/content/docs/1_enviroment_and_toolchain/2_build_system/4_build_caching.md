@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Compiling C++ is computationally expensive. Each Translation Unit (TU) must be preprocessed, parsed
 Into an Abstract Syntax Tree (AST), optimized, and assembled into machine code. In a typical
@@ -74,7 +74,7 @@ Compilation** for unchanged units.
 ### CCache
 
 <Tabs>
- <TabItem value="linux" label="Linux" default>
+ <TabItem label="Linux">
 
 ```bash
 # Debian/Ubuntu
@@ -88,14 +88,14 @@ sudo dnf install ccache
 ```
 
  </TabItem>
- <TabItem value="macos" label="macOS">
+ <TabItem label="macOS">
 
 ```bash
 brew install ccache
 ```
 
  </TabItem>
- <TabItem value="windows" label="Windows (MSYS2)">
+ <TabItem label="Windows (MSYS2)">
 
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-ccache
@@ -109,7 +109,7 @@ pacman -S mingw-w64-ucrt-x86_64-ccache
 Sccache is recommended for Windows (MSVC) users or distributed CI pipelines.
 
 <Tabs>
- <TabItem value="windows" label="Windows">
+ <TabItem label="Windows">
 
 ```powershell
 # Via Scoop
@@ -120,7 +120,7 @@ cargo install sccache
 ```
 
  </TabItem>
- <TabItem value="linux" label="Linux/macOS">
+ <TabItem label="Linux/macOS">
 
 ```bash
 # Via Brew

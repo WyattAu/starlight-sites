@@ -124,7 +124,7 @@ int main() {
 }
 ```
 
-:::warning `std::enable_if` SFINAE is effective but produces terrible error messages and makes
+:::caution `std::enable_if` SFINAE is effective but produces terrible error messages and makes
 Function signatures hard to read. In C++17 and later, prefer `if constexpr` for compile-time
 Branching inside function bodies. In C++20, prefer **concepts** and **constraints** [N4950 §13.7.7]
 For the clearest syntax.
@@ -576,7 +576,7 @@ for_each output: [1] [2.5] [hello]
 transformed: [2] [5] [hello!]
 ```
 
-:::info Fold Expressions and index_sequence The pattern `(f(std::get<Is>(t)), ...)` is a **fold
+:::note Fold Expressions and index_sequence The pattern `(f(std::get<Is>(t)), ...)` is a **fold
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
 The idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
 To iterate over a tuple's elements in a generic function, because tuples do not have a
@@ -765,7 +765,7 @@ The key operations include:
   a class type.
 - `std::meta::name_of(info)` --- returns the name of the reflected entity as a `std::string_view`.
 
-:::warning C++26 Status Static reflection is approved for C++26 but the exact API is still being
+:::caution C++26 Status Static reflection is approved for C++26 but the exact API is still being
 Finalized. The examples below follow the direction of P2996R9, which is the leading proposal.
 Compiler support may vary. Check the latest compiler documentation for current support.
 :::

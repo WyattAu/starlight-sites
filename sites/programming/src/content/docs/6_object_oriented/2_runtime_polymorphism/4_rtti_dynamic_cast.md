@@ -56,7 +56,7 @@ The `type_info` object stores:
 This structure enables `dynamic_cast` to walk the base class chain and compute pointer adjustments
 At runtime.
 
-:::warning RTTI Overhead Disabling RTTI (`-fno-rtti`) reduces binary size (by removing type_info
+:::caution RTTI Overhead Disabling RTTI (`-fno-rtti`) reduces binary size (by removing type_info
 Metadata) and may enable further optimizations. However, it also makes `dynamic_cast` and `typeid`
 Unavailable for polymorphic types. Disabling RTTI does **not** eliminate the vtable or vptr --
 Virtual dispatch still works.
@@ -185,7 +185,7 @@ Cast succeeded
 Cast failed: std::bad_cast
 ```
 
-:::info `dynamic_cast<T&>` cannot return `nullptr` because references cannot be null. Throwing an
+:::note `dynamic_cast<T&>` cannot return `nullptr` because references cannot be null. Throwing an
 Exception is the only way to signal failure. This is why `dynamic_cast` on pointers is generally
 Preferred -- it allows the caller to check for failure without exception overhead.
 :::
@@ -245,7 +245,7 @@ Key points:
 - `std::type_index` (from `<typeindex>`) is a wrapper around `std::type_info` that provides value
   semantics and can be used as a key in associative containers.
 
-:::warning The `name()` member of `std::type_info` returns an implementation-defined string. It is
+:::caution The `name()` member of `std::type_info` returns an implementation-defined string. It is
 Useful for debugging but should not be parsed or compared. Use `std::type_index` for type
 Comparisons.
 :::

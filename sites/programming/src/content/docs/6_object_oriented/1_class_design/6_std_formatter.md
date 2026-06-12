@@ -186,7 +186,7 @@ int main() {
 }
 ```
 
-:::info C++23 Extension C++23 adds `std::formatter` specializations for `std::optional<T>`
+:::note C++23 Extension C++23 adds `std::formatter` specializations for `std::optional<T>`
 `std::variant<Ts...>`And other standard library types, reducing the need for custom Specializations
 .
 :::

@@ -196,7 +196,7 @@ $$\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
 On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.
 
-:::info Info Specified. This ensures maximum safety but may not be necessary in all cases. For
+:::note Info Specified. This ensures maximum safety but may not be necessary in all cases. For
 Performance-critical code, consider using weaker orderings where appropriate.
 :::
 
@@ -426,7 +426,7 @@ A release fence `F` synchronizes-with an acquire fence `G` if:
 This is more complex than direct acquire/release on atomic operations and is why fences are
 Discouraged in favor of direct memory ordering on atomic loads and stores.
 
-:::info Info Stores directly, as they are more readable and equally efficient. Fences are primarily
+:::note Info Stores directly, as they are more readable and equally efficient. Fences are primarily
 useful when Interfacing with hardware or when the atomic operation itself is performed by
 non-standard means.
 :::

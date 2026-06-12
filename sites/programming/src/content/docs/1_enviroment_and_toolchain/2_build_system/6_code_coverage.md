@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Code coverage is a metric used to calculate the percentage of source code executed during the
 Testing phase. In high-reliability C++ systems, coverage analysis is essential for identifying
@@ -30,7 +30,7 @@ When the program runs, these counters increment. Upon process termination, the r
 Counter data to raw profile files on the disk, which are then mapped back to the source code by
 Analysis tools.
 
-:::warning Performance Overhead Instrumentation significantly increases binary size and execution
+:::caution Performance Overhead Instrumentation significantly increases binary size and execution
 Time. Coverage builds should never be used for performance benchmarking or production release
 Artifacts.
 :::

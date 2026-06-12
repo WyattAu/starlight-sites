@@ -579,7 +579,7 @@ int main() {
 //   caught: other error
 ```
 
-:::warning Swallowing exceptions in destructors is a **last resort**. If cleanup truly cannot fail,
+:::caution Swallowing exceptions in destructors is a **last resort**. If cleanup truly cannot fail,
 Make the destructor `noexcept` and ensure cleanup operations are themselves `noexcept`. Use RAII
 Wrappers that handle errors internally rather than propagating them from destructors.
 :::

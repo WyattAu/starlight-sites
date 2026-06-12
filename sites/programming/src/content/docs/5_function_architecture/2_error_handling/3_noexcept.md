@@ -189,7 +189,7 @@ int main() {
 //   caught: oops
 ```
 
-:::warning If a `noexcept(false)` destructor actually throws during stack unwinding,
+:::caution If a `noexcept(false)` destructor actually throws during stack unwinding,
 `std::terminate()` is called [N4950 §14.7]. Marking a destructor `noexcept(false)` does not make it
 Safe to throw from a destructor during unwinding.
 :::

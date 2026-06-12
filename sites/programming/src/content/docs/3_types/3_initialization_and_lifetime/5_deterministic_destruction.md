@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 C++ guarantees that destructors run at well-defined points in program execution. Unlike Java
 Finalizers or C# `IDisposable`C++ destruction is deterministic, automatic, and intimately tied to

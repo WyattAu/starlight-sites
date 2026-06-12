@@ -34,7 +34,7 @@ the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
 | **LSDA** (Language-Specific Data Area) | Describes which PC ranges map to which `try`/`catch` blocks.                                                                            |
 | **Unwind table**                       | Lists every call site in the function so the unwinder can determine whether the function has a cleanup (destructor call) at each point. |
 
-:::info On platforms using the Itanium ABI, **no runtime cost** is incurred for `try` blocks when no
+:::note On platforms using the Itanium ABI, **no runtime cost** is incurred for `try` blocks when no
 Exception is thrown. The tables are consulted only during unwinding.
 :::
 
@@ -397,7 +397,7 @@ int main() {
 //   caught NetworkError: connection refused
 ```
 
-:::warning Never write `throw e;` in a catch clause — this creates a **new copy** of `e` using its
+:::caution Never write `throw e;` in a catch clause — this creates a **new copy** of `e` using its
 Static type, slicing the dynamic type. Always use `throw;` to re-throw the original exception.
 
 ## 1.7 Cross-Thread Exception Propagation with `std::exception_ptr`

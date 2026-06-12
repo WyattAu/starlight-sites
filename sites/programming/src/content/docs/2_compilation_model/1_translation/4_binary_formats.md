@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 When the linker completes its work, it produces a binary file. This file is not merely a linear
 Sequence of machine code; it is a structured database containing instructions, static data, symbol
@@ -136,7 +136,7 @@ To analyze how your C++ code is being distributed across these sections, utilize
 Binary analysis tools.
 
 <Tabs>
- <TabItem value="linux" label="Linux (ELF)" default>
+ <TabItem label="Linux (ELF)">
 
 **Tool:** `readelf` or `size`
 
@@ -170,7 +170,7 @@ text    data     bss     dec     hex filename
 _This shows `LOAD` segments, which map sections to memory pages._
 
  </TabItem>
- <TabItem value="windows" label="Windows (PE)">
+ <TabItem label="Windows (PE)">
 
 **Tool:** `dumpbin` (Developer Command Prompt)
 
@@ -185,7 +185,7 @@ _This shows `LOAD` segments, which map sections to memory pages._
 - Note: `.bss` data will have a Virtual Size &gt; 0 but a Raw Data Size of 0.
 
  </TabItem>
- <TabItem value="macos" label="macOS (Mach-O)">
+ <TabItem label="macOS (Mach-O)">
 
 **Tool:** `otool` or `size`
 

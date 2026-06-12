@@ -82,7 +82,7 @@ void collapsing_demo() {
 }
 ```
 
-:::info Relevance Reference collapsing is the mechanism that enables **forwarding references**
+:::note Relevance Reference collapsing is the mechanism that enables **forwarding references**
 (Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues — the deduction would
 Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
@@ -155,7 +155,7 @@ void not_forwarding() {
 }
 ```
 
-:::warning If you add a constraint like `requires` that depends on `T`The parameter `T&&` is **not**
+:::caution If you add a constraint like `requires` that depends on `T`The parameter `T&&` is **not**
 a forwarding reference — it becomes a plain rvalue reference. The forwarding reference Deduction
 requires that `T` be a freshly deduced, unconstrained type parameter.
 :::
@@ -272,7 +272,7 @@ int main() {
 }
 ```
 
-:::info Relevance Perfect forwarding is the mechanism behind `std::make_unique``std::make_shared`
+:::note Relevance Perfect forwarding is the mechanism behind `std::make_unique``std::make_shared`
 `std::vector::emplace_back`And virtually every factory or emplacement function in the standard
 Library. Without forwarding references and `std::forward`These functions would be forced to copy
 Their arguments or require separate overloads for every combination of lvalue/rvalue parameters — a
@@ -537,7 +537,7 @@ void variadic_demo() {
 }
 ```
 
-:::warning The `capture` function above is **unsafe** — it stores references to temporaries (the
+:::caution The `capture` function above is **unsafe** — it stores references to temporaries (the
 Literal `42` produces a `const int&` in the tuple, which dangles if the tuple outlives the full
 Expression). `std::make_tuple` decays its arguments, so rvalues are copied/moved, but lvalues are
 Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Args>(args)...)` to

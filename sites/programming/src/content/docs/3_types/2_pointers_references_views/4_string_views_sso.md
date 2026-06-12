@@ -12,7 +12,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 # String Views and Small String Optimization
 
@@ -104,19 +104,19 @@ Aligned to at least 16 bytes, so the LSB of a valid pointer is always 0.
 | MSVC STL        | 32 bytes             | 15 chars      | Capacity bit in union    |
 
 <Tabs>
-<TabItem value="libstdcxx" label="libstdc++ (GCC)" default>
+<TabItem label="libstdc++ (GCC)">
 
 **Threshold:** 15 characters on 64-bit systems. **Total object size:** 32 bytes. **Detection:** The
 Least significant bit of the first byte is set for short strings.
 
 </TabItem>
-<TabItem value="libcxx" label="libc++ (Clang)">
+<TabItem label="libc++ (Clang)">
 
 **Threshold:** 22 characters on 64-bit systems. **Total object size:** 24 bytes. Libc++ uses a more
 Compact representation with the size stored in the last byte of the object.
 
 </TabItem>
-<TabItem value="msvc" label="MSVC STL">
+<TabItem label="MSVC STL">
 
 **Threshold:** 15 characters on 64-bit systems. **Total object size:** 32 bytes. MSVC stores the
 Capacity and length in separate fields when in long mode, similar to libstdc++.

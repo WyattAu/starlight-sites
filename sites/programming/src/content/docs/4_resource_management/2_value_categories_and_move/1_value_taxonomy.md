@@ -69,7 +69,7 @@ C++11 introduced move semantics, requiring the xvalue category to represent "thi
 Identity but are about to expire." C++17 refined the model by making prvalues non-objects until they
 Are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
 
-:::info Relevance The value category of an expression determines which overloaded function is called
+:::note Relevance The value category of an expression determines which overloaded function is called
 (via reference binding rules), whether a move constructor or copy constructor is invoked, and
 Whether temporary lifetime extension applies. Understanding value categories is essential to
 Understanding why move semantics work.
@@ -175,7 +175,7 @@ int main() {
 | xvalue   | Yes           | Yes            | `std::move(x)``std::forward<T>(x)``return std::move(local);` (member access) |
 | prvalue  | No            | Yes            | `42``3.14``f()` (by-value return), `int{7}``a + b`                           |
 
-:::info Relevance The parenthesized expression `decltype((e))` yields the **declared type of `e`**
+:::note Relevance The parenthesized expression `decltype((e))` yields the **declared type of `e`**
 With reference qualifiers preserved, which is how the `static_assert` tests above work. Without the
 Extra parentheses, `decltype(e)` strips references. This distinction is critical when writing type
 Traits or SFINAE constraints.
@@ -749,7 +749,7 @@ int main() {
 }
 ```
 
-:::warning Using `decltype(auto)` with `return (local_variable);` returns a dangling reference. The
+:::caution Using `decltype(auto)` with `return (local_variable);` returns a dangling reference. The
 Parentheses around `local_variable` make it an lvalue expression, so `decltype((local_variable))` is
 `T&`. But the local variable is destroyed at the end of the function, leaving a dangling reference.
 Always use `return local_variable;` (without parentheses) when you intend to return by value.

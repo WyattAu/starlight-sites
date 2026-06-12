@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 The Linker (`ld``lld``link.exe`) is the final architect of the binary. While the compiler works In
 isolation on Translation Units (TUs), generating "relocatable object files," the linker is
@@ -297,7 +297,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
 endif()
 ```
 
-:::warning ICF can break programs that compare function pointers for identity. If `f()` and `g()`
+:::caution ICF can break programs that compare function pointers for identity. If `f()` and `g()`
 Are folded into the same address, `&f == &g` becomes `true` even though they are distinct functions.
 This is rare but possible. Use `-Wl,--icf=safe` to fold only functions with identical relocations.
 :::
@@ -741,7 +741,7 @@ The linker rewrites every call to `malloc` to call `__wrap_malloc` instead. The 
 Symbol is provided by the original library and can be called from within the wrapper. This mechanism
 Does not require modifying the original source code.
 
-:::warning `--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by
+:::caution `--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by
 The compiler, the wrapper will not intercept the inlined call. Use `-fno-inline` on the wrapping TU
 Or compile the wrapped TU separately without LTO.
 

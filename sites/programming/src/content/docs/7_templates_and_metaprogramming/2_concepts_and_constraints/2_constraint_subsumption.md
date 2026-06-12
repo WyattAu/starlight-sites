@@ -366,7 +366,7 @@ int main() {
 }
 ```
 
-:::warning Subsumption is Structural, Not Semantic The compiler checks subsumption by comparing the
+:::caution Subsumption is Structural, Not Semantic The compiler checks subsumption by comparing the
 **structure** of the constraint expressions (the expression trees), not by evaluating them. Two
 Constraints that are logically equivalent but structurally different (e.g., `std::integral<T>` and
 `requires(T t) { t + 1; } requires std::integral<T>`) are **incomparable** for subsumption purposes.

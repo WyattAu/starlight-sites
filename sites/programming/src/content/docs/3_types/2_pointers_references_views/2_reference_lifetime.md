@@ -10,7 +10,7 @@ categories:
   - cpp
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 A C++ Reference (`T&`) is an alias for an existing object. Unlike pointers, references are not
 Objects themselves in the abstract machine; they imply a direct binding.

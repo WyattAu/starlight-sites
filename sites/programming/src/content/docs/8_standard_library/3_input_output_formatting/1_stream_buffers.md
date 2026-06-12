@@ -167,7 +167,7 @@ void locale_facet_demo() {
 }
 ```
 
-:::info The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The
+:::note The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The
 `""` locale (empty string) selects the user's preferred locale from environment variables (`LC_ALL`
 `LC_NUMERIC``LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
@@ -260,7 +260,7 @@ Each character written to the stream. Buffering the line and flushing on `\n` gi
 The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 :::
 
-:::warning Always override `sync()` in addition to `overflow()`. The `sync()` method is called by
+:::caution Always override `sync()` in addition to `overflow()`. The `sync()` method is called by
 `std::flush` and `std::endl`. If you only override `overflow()`Manually flushed output (via
 `std::flush`) will not reach your sink.
 :::
@@ -408,7 +408,7 @@ void buffer_mode_demo() {
 }
 ```
 
-:::warning Flushing `std::cout` on every write (unitbuf mode) can severely degrade performance in
+:::caution Flushing `std::cout` on every write (unitbuf mode) can severely degrade performance in
 I/O-heavy code. Each flush results in a `write()` system call, which is orders of magnitude slower
 Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
@@ -444,7 +444,7 @@ void sync_demo() {
 }
 ```
 
-:::warning Once `sync_with_stdio(false)` is called, it cannot be reversed (the standard says the
+:::caution Once `sync_with_stdio(false)` is called, it cannot be reversed (the standard says the
 Effect is irreversible once any standard stream has been used). This is a common pattern in
 Competitive programming for fast I/O, but it is dangerous in library code because it affects the
 Entire process. Never call it in a library.
@@ -537,7 +537,7 @@ void seek_demo() {
 }
 ```
 
-:::warning `seekg` and `seekp` use the same position in a `std::fstream` (on POSIX), but the
+:::caution `seekg` and `seekp` use the same position in a `std::fstream` (on POSIX), but the
 Standard permits them to use separate positions. For maximum portability, always call `clear()`
 Before seeking after a failed read, and avoid mixing reads and writes without an intervening seek.
 :::

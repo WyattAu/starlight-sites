@@ -173,7 +173,7 @@ int main() {
 }
 ```
 
-:::warning Performance Note The above implementation allocates temporary strings for each
+:::caution Performance Note The above implementation allocates temporary strings for each
 Comparison. For performance-critical code, implement a locale-aware character-by-character
 Comparison that avoids allocation.
 :::

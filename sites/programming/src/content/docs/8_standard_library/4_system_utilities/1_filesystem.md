@@ -29,7 +29,7 @@ The library abstracts away platform differences between POSIX and Windows file s
 Separators (`/` vs `\`), permissions models, and file metadata are normalized into a common
 Interface.
 
-:::info On POSIX systems, `std::filesystem` is implemented on top of POSIX system calls (`stat`
+:::note On POSIX systems, `std::filesystem` is implemented on top of POSIX system calls (`stat`
 `opendir``readdir``unlink`Etc.). On Windows, it uses the Win32 API (`CreateFileW`
 `FindFirstFileW`Etc.). The interface is the same on both platforms, but some features are only
 Available on one (e.g., file permissions are more expressive on POSIX).
@@ -152,7 +152,7 @@ void list_directory(const fs::path& dir) {
 }
 ```
 
-:::warning `fs::directory_iterator` does **not** follow symlinks by default. A symlink to a
+:::caution `fs::directory_iterator` does **not** follow symlinks by default. A symlink to a
 Directory returns `is_symlink() == true` but also `is_directory() == true` (since `is_directory()`
 Follows symlinks by default). Use `fs::directory_options::follow_directory_symlink` to follow
 Symlinks into directories, but be careful of symlink cycles.
@@ -212,7 +212,7 @@ void recursive_list(const fs::path& root, int max_depth = 3) {
 }
 ```
 
-:::info `fs::directory_options::skip_permission_denied` causes the iterator to silently skip
+:::note `fs::directory_options::skip_permission_denied` causes the iterator to silently skip
 Directories that the current process lacks permission to read. Without this option, a
 `fs::filesystem_error` exception is thrown. This is essential for recursively scanning directories
 Like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
@@ -282,7 +282,7 @@ void file_operations_demo(const fs::path& work_dir) {
 }
 ```
 
-:::warning `fs::remove_all()` is dangerous — it recursively deletes an entire directory tree without
+:::caution `fs::remove_all()` is dangerous — it recursively deletes an entire directory tree without
 Confirmation. Never call it with a path derived from untrusted user input without validation. Unlike
 `rm -rf`There is no "trash" or "undo" mechanism.
 :::
@@ -324,7 +324,7 @@ void file_time_demo(const fs::path& file) {
 }
 ```
 
-:::warning On Windows with MSVC, `fs::file_time_type` historically used a resolution of 100
+:::caution On Windows with MSVC, `fs::file_time_type` historically used a resolution of 100
 Nanoseconds (Windows FILETIME), while on POSIX it used 1-second resolution (`stat` `st_mtime`).
 C++20 improves this, but portability issues remain for sub-second precision. Always test on your
 Target platforms.
@@ -377,7 +377,7 @@ void permissions_demo(const fs::path& file) {
 | `remove`           | Remove the given permission bits from the current set |
 | `nofollow`         | Do not follow symlinks (applicable on POSIX)          |
 
-:::warning On Windows, `fs::permissions` can only control the read-only attribute. Group and other
+:::caution On Windows, `fs::permissions` can only control the read-only attribute. Group and other
 Permissions are not supported. The `owner_exec` permission is not meaningful on Windows.
 :::
 

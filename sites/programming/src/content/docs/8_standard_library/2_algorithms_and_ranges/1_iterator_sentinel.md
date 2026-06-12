@@ -200,7 +200,7 @@ int main() {
 }
 ```
 
-:::info The iterator-sentinel model eliminates the need to compute `end` iterators for bounded
+:::note The iterator-sentinel model eliminates the need to compute `end` iterators for bounded
 Sequences. For null-terminated strings, this avoids computing `strlen` before iteration. For counted
 Ranges, it avoids computing the end pointer from a base + count.
 :::

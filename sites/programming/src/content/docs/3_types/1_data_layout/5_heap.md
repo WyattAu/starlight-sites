@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 When a C++ program executes `new int` or `std::vector::push_back`It requests "Dynamic Storage
 Duration." Unlike the stack, which is managed by a simple pointer increment/decrement instruction,
@@ -469,7 +469,7 @@ int main() {
 ```
 
 <Tabs>
- <TabItem value="linux" label="Linux (strace)" default>
+ <TabItem label="Linux (strace)">
 
 Run `strace` to intercept system calls related to memory management (`-e trace=memory`).
 
@@ -486,7 +486,7 @@ strace -e trace=memory ./heap_test
 4. `munmap(...)`: Releases the 128MB block upon vector destruction.
 
  </TabItem>
- <TabItem value="windows" label="Windows (VMMap)" default>
+ <TabItem label="Windows (VMMap)">
 
 On Windows, `strace` does not exist. Use **VMMap** from Sysinternals.
 

@@ -217,7 +217,7 @@ Variables without modifying RSP, avoiding the overhead of stack pointer manipula
 │  ...                 │
 ```
 
-:::warning Non-leaf functions (functions that call other functions) must NOT use the red zone.
+:::caution Non-leaf functions (functions that call other functions) must NOT use the red zone.
 Signal handlers and interrupt contexts may clobber the red zone. Compiler flags like `-mno-red-zone`
 (used in OS kernels and JIT compilers) disable this optimization.
 :::
@@ -509,7 +509,7 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 3. The prologue must adjust RSP by at least 8 bytes to restore 16-byte alignment: `sub rsp, 8` (or
    `push rbp`Which subtracts 8). QED.
 
-:::warning Alignment violations cause crashes on SIMD instructions (e.g., `movaps` requires 16-byte
+:::caution Alignment violations cause crashes on SIMD instructions (e.g., `movaps` requires 16-byte
 Alignment). If you see a `SIGSEGV` inside a function that uses SIMD, check for stack misalignment.
 Compiler flags like `-mstackrealign` (MSVC) or `-mno-sse` (GCC) can help diagnose these issues.
 :::

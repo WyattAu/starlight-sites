@@ -420,7 +420,7 @@ int main() {
 | Memory usage (per element) | $\mathcal{O}(1)$ — no accumulation               |
 | Cache behavior             | Poor if frame is large and accessed infrequently |
 
-:::warning Heap allocation. Every `std::generator` coroutine frame is heap-allocated. For
+:::caution Heap allocation. Every `std::generator` coroutine frame is heap-allocated. For
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with
 Allocator support to allow custom allocation strategies.
 :::

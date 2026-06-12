@@ -181,7 +181,7 @@ Prior access:
 
 $$\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}$$
 
-:::warning Control dependencies do **not** prevent reordering on all architectures. On x86, control
+:::caution Control dependencies do **not** prevent reordering on all architectures. On x86, control
 Dependencies provide ordering, but on ARM and POWER, the processor may speculatively execute the
 Dependent load before the controlling branch is resolved. Always use explicit memory ordering
 (acquire/release) rather than relying on control dependencies.
@@ -304,7 +304,7 @@ Relationships.
 
 ## Concrete Example: Reordering Bug
 
-:::warning Warning Unexpected results. It contains intentional data races and is for educational
+:::caution Warning Unexpected results. It contains intentional data races and is for educational
 purposes only. Do not Write code like this in production.
 :::
 
@@ -337,7 +337,7 @@ int main() {
 }
 ```
 
-:::warning Warning Compiler may reorder `data = 42` after `ready = true`Or the hardware may reorder
+:::caution Warning Compiler may reorder `data = 42` after `ready = true`Or the hardware may reorder
 the stores due to Store buffering. On x86, stores are not reordered with other stores (TSO), so this
 particular Example would likely work on x86 but fail on ARM. This is a common source of subtle
 cross-platform Bugs.

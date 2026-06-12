@@ -166,7 +166,7 @@ int main() {
 }
 ```
 
-:::info The C++ standard guarantees amortized $O(1)$ `push_back` [N4950 §22.3.11.5 Table 80], but
+:::note The C++ standard guarantees amortized $O(1)$ `push_back` [N4950 §22.3.11.5 Table 80], but
 The exact growth factor is implementation-defined. A factor of 2 is common, and some implementations
 (e.g., Facebook's folly) use 1.5 to reduce peak memory usage.
 :::
@@ -233,7 +233,7 @@ int main() {
 }
 ```
 
-:::warning After any operation that may cause reallocation (e.g., `push_back` when
+:::caution After any operation that may cause reallocation (e.g., `push_back` when
 `size() == capacity()`), **all** iterators, pointers, and references into the vector are
 Invalidated. Dereferencing them is undefined behavior. Use `reserve()` proactively if you need
 Stable iterators.
@@ -382,7 +382,7 @@ int main() {
 }
 ```
 
-:::info `std::list::splice` is the only standard container operation that transfers ownership of
+:::note `std::list::splice` is the only standard container operation that transfers ownership of
 Nodes between containers. The spliced elements' iterators, pointers, and references remain valid and
 Now refer to the same elements within the destination container [N4950 §22.3.9.5].
 :::
@@ -514,7 +514,7 @@ The proxy reference (`std::vector&lt;bool>::reference`) is a library-defined cla
 semantics from `operator[]` [N4950 §22.3.11.2]. Specifically, `std::vector&lt;bool>` does not
 Satisfy the container requirements in [N4950 §22.2] because its elements are not addressable.
 
-:::warning `std::vector&lt;bool>` is widely regarded as a design mistake. Scott Meyers' "Effective
+:::caution `std::vector&lt;bool>` is widely regarded as a design mistake. Scott Meyers' "Effective
 STL" (Item 18) recommends using `std::deque&lt;bool>` or `boost::dynamic_bitset` instead. For new
 Code, consider `std::vector&lt;uint8_t>` if you need addressable elements, or a dedicated bitset
 Library if you need compact storage.

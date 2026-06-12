@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 In C++, "Automatic Storage Duration" (variables declared locally) is implemented via the **Call
 Stack**. Unlike the Heap, which requires complex allocator logic to manage free blocks, the Stack is
@@ -208,7 +208,7 @@ Function). Using uninitialized values is Undefined Behavior.
 To inspect if your binary has Stack Canaries enabled:
 
 <Tabs>
- <TabItem value="linux" label="Linux (readelf)" default>
+ <TabItem label="Linux (readelf)">
 
 ```bash
 readelf -s ./app | grep stack_chk
@@ -225,7 +225,7 @@ checksec --file=./app
 Look for **Canary: found**.
 
  </TabItem>
- <TabItem value="windows" label="Windows (dumpbin)" default>
+ <TabItem label="Windows (dumpbin)">
 
 ```cmd
 dumpbin /LOADCONFIG app.exe

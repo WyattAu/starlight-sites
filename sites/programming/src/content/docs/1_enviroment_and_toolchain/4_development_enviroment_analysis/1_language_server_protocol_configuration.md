@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 **Language Server Protocol (LSP)** decouples the specific IDE (VS Code, Neovim, Emacs) from the
 Language intelligence logic.
@@ -129,7 +129,7 @@ Do not rely on the default version installed by the OS package manager if it is 
 Features require **clangd 16+**.
 
 <Tabs>
- <TabItem value="windows" label="Windows">
+ <TabItem label="Windows">
 
 **Via MSYS2 (Recommended):** The `mingw-w64-ucrt-x86_64-clang-tools-extra` package contains clangd.
 
@@ -141,7 +141,7 @@ pacman -S mingw-w64-ucrt-x86_64-clang-tools-extra
 PATH.
 
  </TabItem>
- <TabItem value="linux" label="Linux">
+ <TabItem label="Linux">
 
 **Debian/Ubuntu:** Use the LLVM apt repositories to get the latest version, as the default
 Repository often lags years behind.
@@ -160,7 +160,7 @@ sudo pacman -S clang
 ```
 
  </TabItem>
- <TabItem value="macos" label="macOS">
+ <TabItem label="macOS">
 
 **Via Homebrew:** The default Apple Clang does not ship with `clangd`.
 

@@ -356,7 +356,7 @@ When returning a local variable from a function, the compiler tries each strateg
 4. **Copy:** If no move constructor exists (or it is deleted), the copy constructor is called. If
    neither exists, compilation fails.
 
-:::warning Do not write `return std::move(local);` in a function that returns by value. This
+:::caution Do not write `return std::move(local);` in a function that returns by value. This
 Prevents NRVO from applying (because `std::move(local)` is an xvalue, not a named local variable)
 And forces a move. Let the compiler apply NRVO or implicit move automatically. The only correct use
 Of `std::move` in a return statement is when returning a member variable or a function parameter.
@@ -492,7 +492,7 @@ std::string wrapped_return() {
 }
 ```
 
-:::info Relevance The interaction between value categories, move semantics, and copy elision is one
+:::note Relevance The interaction between value categories, move semantics, and copy elision is one
 Of the most performance-critical aspects of C++. In a well-written C++ program, objects are
 Constructed in place (RVO), moved between scopes (move constructors), and swapped (swap idiom).
 Copies are the exception, not the rule. Understanding the fallback chain (RVO → NRVO → implicit move

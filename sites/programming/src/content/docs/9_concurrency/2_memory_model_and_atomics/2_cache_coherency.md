@@ -430,7 +430,7 @@ Parameters:
 - **RW:** 0 for read, 1 for write.
 - **Locality:** 0-3 (3 = keep in cache as long as possible).
 
-:::warning Warning Performance by evicting useful cache lines. Always benchmark with and without
+:::caution Warning Performance by evicting useful cache lines. Always benchmark with and without
 prefetching. The Hardware prefetcher is often better than manual prefetching for simple patterns.
 :::
 

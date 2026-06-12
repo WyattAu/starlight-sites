@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 In C++, `sizeof(T)` is rarely equal to the sum of the sizes of its members. The compiler inserts
 Invisible bytes known as **Padding** between members to satisfy **Alignment Requirements**.
@@ -216,7 +216,7 @@ Standard C++ does not provide a mechanism to pack structures, as it generates co
 Non-x86 architectures. However, compiler extensions are universally supported.
 
 <Tabs>
- <TabItem value="gcc_clang" label="GCC / Clang" default>
+ <TabItem label="GCC / Clang">
 
 ```cpp
 struct __attribute__((packed)) NetworkHeader {
@@ -226,7 +226,7 @@ struct __attribute__((packed)) NetworkHeader {
 ```
 
  </TabItem>
- <TabItem value="msvc" label="MSVC">
+ <TabItem label="MSVC">
 
 ```cpp
 #pragma pack(push, 1)
@@ -364,7 +364,7 @@ int main() {
 }
 ```
 
-:::warning Reading from a union member other than the one most recently written to is **undefined
+:::caution Reading from a union member other than the one most recently written to is **undefined
 Behavior** in C++ (unlike C, where it is implementation-defined). Use `std::memcpy` for type
 Punning, which is well-defined by the standard.
 :::

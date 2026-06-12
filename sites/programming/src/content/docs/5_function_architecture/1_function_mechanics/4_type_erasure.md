@@ -176,7 +176,7 @@ int main() {
 }
 ```
 
-:::warning The SBO threshold varies between standard library implementations. Libstdc++ (GCC) uses
+:::caution The SBO threshold varies between standard library implementations. Libstdc++ (GCC) uses
 16 bytes. Libc++ (Clang) uses 24 bytes (on 64-bit). If avoiding heap allocation is critical, prefer
 Passing lambdas as template parameters or using auto.
 :::
@@ -269,7 +269,7 @@ int main() {
 }
 ```
 
-:::info Relevance `std::move_only_function` is critical for callback-based APIs where the callback
+:::note Relevance `std::move_only_function` is critical for callback-based APIs where the callback
 Owns exclusive resources (file handles, network connections, GPU buffers). It enables zero-overhead
 Move semantics where `std::function` would force a costly shared_ptr wrapping.
 :::

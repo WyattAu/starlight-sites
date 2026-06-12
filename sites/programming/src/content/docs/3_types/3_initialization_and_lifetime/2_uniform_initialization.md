@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 C++98 had three initialization syntaxes: `T()``T = x`And `T x`. Each had subtly different rules, And
 none could initialize containers or arrays uniformly. C++11 introduced brace initialization (`{}`)

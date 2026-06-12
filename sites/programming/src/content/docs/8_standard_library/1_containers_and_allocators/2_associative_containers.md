@@ -385,7 +385,7 @@ int main() {
 | Range queries         | Supported (lower_bound, upper_bound) | Not supported                     |
 | Iterator invalidation | Only on erase                        | On rehash                         |
 
-:::warning `std::unordered_map` lookup is $O(1)$ on average but $O(n)$ in the worst case (all keys
+:::caution `std::unordered_map` lookup is $O(1)$ on average but $O(n)$ in the worst case (all keys
 Hash to the same bucket). If adversarial inputs are a concern, consider hash functions resistant to
 Collision attacks, or use `std::map` for guaranteed $O(\log n)$ worst-case.
 :::

@@ -67,7 +67,7 @@ int main() {
 }
 ```
 
-:::info With multiple inheritance, `pa` and `pb` point to **different addresses** within the same
+:::note With multiple inheritance, `pa` and `pb` point to **different addresses** within the same
 `C` object -- they point to the respective base subobjects. The compiler generates **thunks** (small
 Adjustment stubs) to correct the `this` pointer when dispatching virtual calls through non-primary
 Bases.
@@ -154,7 +154,7 @@ When `d` is passed by value to `process_by_value`Only the `Animal` subobject is 
 set to `Animal`'s vtable, so `a.speak()` dispatches to `Animal::speak`. The `Dog`-specific data
 (`breed`) and the `Dog::speak` override are lost.
 
-:::warning Never pass polymorphic objects by value. Always use pointers (`Animal*`) or references
+:::caution Never pass polymorphic objects by value. Always use pointers (`Animal*`) or references
 (`Animal&` / `const Animal&`) to preserve the dynamic type.
 :::
 
@@ -439,7 +439,7 @@ private:
 };
 ```
 
-:::info Convention Prefixing interface names with `I` (e.g., `ISerializable`) is a common C++
+:::note Convention Prefixing interface names with `I` (e.g., `ISerializable`) is a common C++
 Convention borrowed from COM and C#. It is not mandated by the Standard. Alternatives include
 Suffixes like `-able` (e.g., `Serializable`).
 :::
@@ -513,7 +513,7 @@ Pointer (stored in the vtable or as a separate vptr) to locate the shared `Devic
 Runtime. This adds one level of indirection to every access of a virtual base member [N4950
 S11.7.1].
 
-:::warning Virtual inheritance adds runtime cost: accessing members of a virtual base requires an
+:::caution Virtual inheritance adds runtime cost: accessing members of a virtual base requires an
 Extra indirection through the vbase offset table. Construction order is also affected -- virtual
 Bases are constructed by the most-derived class, before any non-virtual base classes [N4950
 S11.9.3]. Avoid virtual inheritance unless the diamond pattern is genuinely needed.
@@ -685,7 +685,7 @@ int main() {
 }
 ```
 
-:::warning Always catch exceptions by reference (`const std::exception& e`). Catching by value
+:::caution Always catch exceptions by reference (`const std::exception& e`). Catching by value
 Slices the exception object, losing derived-class information and potentially invoking slicing in
 The exception handler itself.
 

@@ -322,7 +322,7 @@ extern "C" {
 }
 ```
 
-:::warning The `reinterpret_cast` approach works on platforms where C and C++ share the same ABI
+:::caution The `reinterpret_cast` approach works on platforms where C and C++ share the same ABI
 (pointer size, struct layout, calling convention). This is true for x86-64 Linux/macOS (both use the
 System V ABI). On platforms with divergent C/C++ ABIs, use `void*` handles and pass data through
 C-compatible types only.
@@ -494,7 +494,7 @@ struct NetworkHeader {
 static_assert(sizeof(NetworkHeader) == 7);  // 1 + 4 + 2 = 7, no padding
 ```
 
-:::warning `#pragma pack` changes the alignment of all members in the struct, which can cause
+:::caution `#pragma pack` changes the alignment of all members in the struct, which can cause
 Misaligned access on strict-alignment architectures (ARM, SPARC). Use with caution and document the
 Rationale.
 :::
@@ -579,7 +579,7 @@ int main() {
 }
 ```
 
-:::warning The `RTLD_NOW` flag resolves all symbols at load time, surfacing missing symbol errors
+:::caution The `RTLD_NOW` flag resolves all symbols at load time, surfacing missing symbol errors
 Immediately. `RTLD_LAZY` defers resolution to first use, which can mask errors and cause crashes at
 Unpredictable points. For plugin loading, prefer `RTLD_NOW`.
 

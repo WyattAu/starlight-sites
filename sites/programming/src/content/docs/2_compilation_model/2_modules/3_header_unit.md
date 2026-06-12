@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 The transition from a text-based inclusion model (`#include`) to a semantic module model (`import`)
 Cannot happen instantaneously. The C++ ecosystem relies on millions of lines of headers (POSIX,
@@ -279,7 +279,7 @@ cl.exe /std:c++23 /headerUnit:angle utils\helpers.h=utils\helpers.h.ifc main.cpp
 ## 5. GCC vs. Clang vs. MSVC Implementation Differences
 
 <Tabs>
- <TabItem value="clang" label="Clang" default>
+ <TabItem label="Clang">
 
 Clang treats header units as a distinct BMI type. The `--precompile` flag with a header file
 Generates a header-unit BMI. Clang tracks whether a BMI is a named module or a header unit
@@ -296,7 +296,7 @@ For system headers) when precompiling header units. The `-fmodule-file` flag map
 BMI files for consumers.
 
  </TabItem>
- <TabItem value="gcc" label="GCC">
+ <TabItem label="GCC">
 
 GCC uses the `-fmodule-header` flag to indicate that an input file should be compiled as a header
 Unit rather than a module interface. GCC's header unit support is less mature than Clang's.
@@ -311,7 +311,7 @@ GCC relies on the module mapper to resolve header unit imports at compile time. 
 Associates header paths with their corresponding BMI files.
 
  </TabItem>
- <TabItem value="msvc" label="MSVC">
+ <TabItem label="MSVC">
 
 MSVC uses `/exportHeader` to compile a header as a header unit, producing a `.ifc` file. The
 `/headerUnit` flag specifies the mapping from header names to `.ifc` files for consumers.

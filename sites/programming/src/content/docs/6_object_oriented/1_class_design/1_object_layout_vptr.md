@@ -173,7 +173,7 @@ struct Derived : Empty {
 static_assert(sizeof(Derived) == sizeof(int));
 ```
 
-:::info Practical Importance EBO is exploited heavily by standard library implementations.
+:::note Practical Importance EBO is exploited heavily by standard library implementations.
 `std::allocator&lt;T&gt;` is an empty class, and `std::vector&lt;T, std::allocator&lt;T&gt;&gt;`
 inherits from it privately so that the allocator Storage costs nothing.
 :::

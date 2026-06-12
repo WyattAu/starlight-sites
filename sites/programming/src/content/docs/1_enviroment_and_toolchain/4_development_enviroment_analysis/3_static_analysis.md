@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Static Analysis involves examining source code without executing it. Unlike the compiler, which
 Focuses on grammar and binary generation, static analyzers focus on correctness, readability.
@@ -613,7 +613,7 @@ clang-tidy -p build/ --checks='modernize-*' --fix-errors src/
 clang-format -i src/**/*.cpp src/**/*.hpp src/**/*.h
 ```
 
-:::warning Always run clang-tidy fixes in a separate commit. Review the diff carefully before
+:::caution Always run clang-tidy fixes in a separate commit. Review the diff carefully before
 Merging. Some fixes (e.g., `modernize-use-auto`) can change semantics if the deduced type is not
 What you expected.
 

@@ -384,7 +384,7 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 | Binary size      | Normal      | Often smaller (dead code elimination) |
 | Debugging        | Easy        | Harder (optimized code at link time)  |
 
-:::warning LTO can increase link time significantly for large projects (minutes to tens of minutes).
+:::caution LTO can increase link time significantly for large projects (minutes to tens of minutes).
 For CI builds, consider using ThinLTO (`-flto=thin` on Clang), which performs parallel LTO with
 Lower memory usage at the cost of slightly less aggressive optimization.
 :::

@@ -97,7 +97,7 @@ A `std::thread` object is in one of two states relative to an OS thread [N4950 �
 | `detach()`            | Separates the thread from the `std::thread` object; the thread runs independently | Not joinable       |
 | Destructor (joinable) | Calls `std::terminate()`                                                          | Program terminates |
 
-:::warning Warning `std::system_error`. Destroying a joinable `std::thread` calls `std::terminate()`
+:::caution Warning `std::system_error`. Destroying a joinable `std::thread` calls `std::terminate()`
 [N4950 §31.4.4.1.3]. Always ensure a thread is either joined or detached before destruction.
 :::
 
@@ -186,7 +186,7 @@ int main() {
 }
 ```
 
-:::info Info Of the callable if the callable accepts a `std::stop_token` as its first parameter
+:::note Info Of the callable if the callable accepts a `std::stop_token` as its first parameter
 [N4950 §31.4.4.4.2].
 :::
 
@@ -330,7 +330,7 @@ void native_handle_demo() {
 }
 ```
 
-:::warning Warning The implementation does not support native handles. Always check the
+:::caution Warning The implementation does not support native handles. Always check the
 documentation for your standard Library implementation. Code using `native_handle()` is inherently
 non-portable.
 :::
@@ -371,7 +371,7 @@ void race_condition_demo() {
 }
 ```
 
-:::warning Warning Executing. This means even if the original variable is destroyed before the
+:::caution Warning Executing. This means even if the original variable is destroyed before the
 thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`You
 bypass this protection And must ensure the referenced object outlives the thread.
 :::
@@ -417,7 +417,7 @@ void promise_future_demo() {
 }
 ```
 
-:::info Info `std::shared_ptr` to captured data) keeps the necessary state alive until the thread
+:::note Info `std::shared_ptr` to captured data) keeps the necessary state alive until the thread
 completes. However, detached threads are hard to reason about — you cannot join them, and they may
 outlive `main()`Causing undefined behavior. Prefer joining whenever possible.
 :::
@@ -455,7 +455,7 @@ void stop_callback_demo() {
 }
 ```
 
-:::warning Warning Is destroyed before the stop is requested, the callback will never fire. Ensure
+:::caution Warning Is destroyed before the stop is requested, the callback will never fire. Ensure
 the `stop_callback` Object outlives the expected stop request. The callback itself is invoked
 synchronously from the Thread that calls `request_stop()`Not from the worker thread.
 :::
@@ -492,7 +492,7 @@ void stack_size_info() {
 }
 ```
 
-:::warning Warning `SIGSEGV` on POSIX or an access violation on Windows. This is especially common
+:::caution Warning `SIGSEGV` on POSIX or an access violation on Windows. This is especially common
 with deep recursion Or large local variables in thread functions. Use heap allocation for large
 buffers, not stack Allocation.
 :::

@@ -121,7 +121,7 @@ int main() {
 }
 ```
 
-:::warning Discarded Statements and ODR A discarded statement is not instantiated, which means it
+:::caution Discarded Statements and ODR A discarded statement is not instantiated, which means it
 Does not participate in the One Definition Rule (ODR) for the discarded path. However, the
 Non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
 `if constexpr` branches --- a discarded branch that would have had a side effect does not execute,
@@ -396,7 +396,7 @@ Output:
 http
 ```
 
-:::info `consteval` vs `constexpr` Use `constexpr` when the function should be usable at both
+:::note `consteval` vs `constexpr` Use `constexpr` when the function should be usable at both
 Compile time and runtime. Use `consteval` when the function is intended only for compile-time
 Computation and should never appear in the generated binary. `consteval` functions can call other
 `consteval` and `constexpr` functions, but a `constexpr` function cannot call a `consteval` function
@@ -535,7 +535,7 @@ Primes up to 50: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
 HELLO CONSTEXPR WORLD
 ```
 
-:::warning Transient Allocations C++20 permits dynamic allocation in `constexpr` evaluation, but all
+:::caution Transient Allocations C++20 permits dynamic allocation in `constexpr` evaluation, but all
 Allocations must be **transient** --- they must be deallocated before the end of the constant
 Evaluation. The result of a `constexpr` function must not contain heap allocations
 (pointers/references to the heap). This is why `constexpr std::vector<int> v{1, 2, 3};` is valid as

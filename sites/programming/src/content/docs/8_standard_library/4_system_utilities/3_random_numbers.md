@@ -60,7 +60,7 @@ Cryptographically secure [N4950 §29.6.3.4].
 **`std::random_device`** is a non-deterministic uniform random bit generator that obtains entropy
 From the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
 
-:::warning On some older MinGW implementations, `std::random_device` was implemented with a
+:::caution On some older MinGW implementations, `std::random_device` was implemented with a
 Fixed-seed PRNG, producing the same sequence on every run. This was a well-known bug. Modern
 MinGW-w64 (with GCC 9+) uses the proper OS entropy source. If you need guaranteed non-deterministic
 Seeds on all platforms, read from `/dev/urandom` (POSIX) or `BCryptGenRandom` (Windows) directly.
@@ -275,7 +275,7 @@ Expected stdd: 1
   3.75 |                                      1
 ```
 
-:::info `std::normal_distribution` uses the Marsaglia polar method internally to transform pairs of
+:::note `std::normal_distribution` uses the Marsaglia polar method internally to transform pairs of
 Uniform random numbers into normally distributed values [N4950 §29.6.4.4]. This method produces
 Values in pairs, so the distribution object may cache one value internally for efficiency.
 :::
@@ -324,7 +324,7 @@ This serialization is essential for:
 - **Networked games:** Synchronize the RNG state across clients for deterministic behavior.
 - **Fuzz testing:** Record the RNG state that triggered a crash and replay it.
 
-:::warning The `operator<<`/`operator>>` format is **not** portable across compilers or standard
+:::caution The `operator<<`/`operator>>` format is **not** portable across compilers or standard
 Library implementations. GCC libstdc++ and Clang libc++ may produce different binary formats. Use
 Only the same implementation for save/restore.
 :::
@@ -357,7 +357,7 @@ void random_device_props() {
 }
 ```
 
-:::warning `std::random_device::entropy()` returns 0.0 on many implementations even when the device
+:::caution `std::random_device::entropy()` returns 0.0 on many implementations even when the device
 Is truly non-deterministic. A return of 0.0 means "entropy estimate not available," NOT "no
 Entropy." Do not use this value to decide whether the device is secure.
 :::
@@ -460,7 +460,7 @@ void discrete_distribution_demo() {
 }
 ```
 
-:::info Info Sampling time after an $O(n)$ setup phase. This is optimal for distributions that are
+:::note Info Sampling time after an $O(n)$ setup phase. This is optimal for distributions that are
 sampled many Times with the same weights [N4950 §29.6.4.5].
 :::
 

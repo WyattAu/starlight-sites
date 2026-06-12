@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 The introduction of Modules alters the C++ compilation model. In the header-based model, source
 Files are compiled in parallel because `#include` is handled locally by the preprocessor.
@@ -69,7 +69,7 @@ To version and configuration.
 ### BMI Generation with GCC and Clang
 
 <Tabs>
- <TabItem value="clang" label="Clang" default>
+ <TabItem label="Clang">
 
 Clang generates BMIs (`.pcm` files) using the `--precompile` flag or as a side effect of compiling a
 Module interface unit.
@@ -93,7 +93,7 @@ clang++ -std=c++23 -c math_utils.cppm -o math_utils.o
 ```
 
  </TabItem>
- <TabItem value="gcc" label="GCC">
+ <TabItem label="GCC">
 
 GCC uses a socket-based module mapper for BMI management. The workflow is more involved:
 

@@ -42,7 +42,7 @@ Returns a `std::string` by value. The format string is checked at compile time f
 Mismatch between the format specification and the argument type is a compile-time error [N4950
 §22.14.6.2].
 
-:::info The format string is a **constant expression** --- it must be known at compile time. This
+:::note The format string is a **constant expression** --- it must be known at compile time. This
 Enables the compiler to parse it and verify that every `{}` field has a corresponding argument of
 The correct type. Runtime-computed format strings are not supported by `std::format` (use
 `std::vformat` for runtime format strings, at the cost of losing compile-time checking).
@@ -157,7 +157,7 @@ void width_precision_demo() {
 }
 ```
 
-:::warning Dynamic width and precision use the next argument in the argument list. Mixing manual
+:::caution Dynamic width and precision use the next argument in the argument list. Mixing manual
 Argument IDs with dynamic width/precision can lead to confusing index errors. When using dynamic
 Width/precision, keep the argument ordering simple.
 :::
@@ -292,14 +292,14 @@ int main() {
 }
 ```
 
-:::info `std::print` is declared in `<print>` [N4950 §22.14.1]. It writes directly to the C `FILE*`
+:::note `std::print` is declared in `<print>` [N4950 §22.14.1]. It writes directly to the C `FILE*`
 Stream, bypassing `std::cout` and its stream buffer. This makes it faster for simple console output
 But means it does not synchronize with `std::cout` by default. Avoid mixing
 `std::print(stdout, ...)` and `std::cout` in the same program without calling
 `std::ios_base::sync_with_stdio(true)` first.
 :::
 
-:::warning `std::print` to stdout does **not** lock the stdout mutex by default. Concurrent calls to
+:::caution `std::print` to stdout does **not** lock the stdout mutex by default. Concurrent calls to
 `std::print` from multiple threads can produce interleaved output. Use `std::print(stderr, ...)` for
 Error messages (stderr is unbuffered) or protect stdout with a mutex.
 :::
@@ -445,7 +445,7 @@ Standard specification set (width, fill, alignment), parse the standard spec fir
 Class's `parse()`Then check for your custom specifiers.
 :::
 
-:::warning The specialization of `std::formatter` must be in namespace `std` for `std::format` to
+:::caution The specialization of `std::formatter` must be in namespace `std` for `std::format` to
 Find it. However, adding declarations to namespace `std` is technically undefined behavior unless it
 Is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
 `std::formatter` is explicitly permitted.

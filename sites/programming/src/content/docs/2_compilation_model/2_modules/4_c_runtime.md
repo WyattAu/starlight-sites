@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 A common misconception is that the execution of a C++ program begins at `main()`. In reality,
 `main()` is merely a callback function invoked by the **C Runtime (CRT)** after a complex
@@ -139,7 +139,7 @@ The compiler generates a list of function pointers for every global or static ob
 Constructor. These pointers are stored in specific binary sections.
 
 <Tabs>
- <TabItem value="linux" label="Linux (ELF)" default>
+ <TabItem label="Linux (ELF)">
 
 **Sections:**
 
@@ -154,7 +154,7 @@ readelf -x .init_array ./app
 ```
 
  </TabItem>
- <TabItem value="windows" label="Windows (PE)">
+ <TabItem label="Windows (PE)">
 
 **Sections:**
 
@@ -277,7 +277,7 @@ int main() {
 ## CRT on Different Platforms
 
 <Tabs>
- <TabItem value="glibc" label="glibc (Linux)" default>
+ <TabItem label="glibc (Linux)">
 
 Glibc is the most common CRT on Linux. Key characteristics:
 
@@ -293,7 +293,7 @@ readelf -d ./app | grep NEEDED
 ```
 
  </TabItem>
- <TabItem value="musl" label="musl (Alpine, embedded)">
+ <TabItem label="musl (Alpine, embedded)">
 
 Musl is a lightweight, BSD-licensed CRT. Key differences from glibc:
 
@@ -308,7 +308,7 @@ docker run --rm alpine sh -c "ldd /bin/ls"
 ```
 
  </TabItem>
- <TabItem value="msvc" label="MSVC (Windows)">
+ <TabItem label="MSVC (Windows)">
 
 MSVC provides two CRT variants with significantly different behavior:
 
@@ -443,7 +443,7 @@ End immediately; the CRT must unwind the environment.
 5. **OS Exit:** The CRT invokes the `exit` syscall (Linux) or `ExitProcess` API (Windows), returning
    control to the kernel.
 
-:::warning `std::terminate` vs `std::exit` If an exception escapes `main`Or an unjoinable
+:::caution `std::terminate` vs `std::exit` If an exception escapes `main`Or an unjoinable
 `std::thread` is destroyed, the CRT calls `std::terminate`. This calls `std::abort`Which kills the
 Process **without** running static destructors or file buffer flushing. This often results in
 Truncated logs or corrupted data files.
@@ -568,7 +568,7 @@ Analogous to how `atexit` works for the main thread. If the main thread accesses
 Destructors run during the normal termination sequence. On Windows, the mechanism is `DllMain` with
 `DLL_THREAD_DETACH`.
 
-:::warning Dynamic TLS has a significant first-access penalty (guard variable check, potential
+:::caution Dynamic TLS has a significant first-access penalty (guard variable check, potential
 Initialization, destructor registration). On hot paths, prefer static TLS (constant initialization)
 Or pass data explicitly via function parameters.
 :::
@@ -595,7 +595,7 @@ Another DSO -- if the DSO ordering is wrong, the dependency may not yet be const
 "construct on first use" pattern (magic statics) mitigates this by deferring initialization to first
 Access rather than load time.
 
-:::warning `LD_PRELOAD` interposes symbols but does not change `.init_array` ordering. A preloaded
+:::caution `LD_PRELOAD` interposes symbols but does not change `.init_array` ordering. A preloaded
 Library's constructors still run in dependency order relative to other DSOs. If the preloaded
 Library depends on symbols from the main executable, those symbols may not yet be initialized.
 :::
@@ -655,7 +655,7 @@ CRT:
 The heap is initialized during `__libc_start_main` (glibc) or `mainCRTStartup` (MSVC) before the
 `.init_array` processing. This ensures that global constructors can safely use `new`/`malloc`.
 
-:::warning The heap is **not** thread-safe at initialization time. If a global constructor spawns a
+:::caution The heap is **not** thread-safe at initialization time. If a global constructor spawns a
 Thread that allocates memory, the thread may encounter a partially-initialized heap. In practice,
 This is safe on glibc and MSVC because the heap is fully initialized before `.init_array`
 Processing, but it is a theoretical concern on custom CRTs.
@@ -721,7 +721,7 @@ On Linux, the environment variables are located on the stack above `argv` (see t
 Diagram in the startup sequence section). The CRT constructs `envp` from this data and passes it to
 `main` on platforms that support it.
 
-:::info Per [N4950 S6.6.1], the `main` function signature with `char* envp[]` as a third parameter
+:::note Per [N4950 S6.6.1], the `main` function signature with `char* envp[]` as a third parameter
 Is a common extension but not standard C++. Portable code should use `std::getenv()` instead.
 
 ## See Also

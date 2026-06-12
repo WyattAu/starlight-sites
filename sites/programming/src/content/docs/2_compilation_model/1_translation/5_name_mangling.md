@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Linkers were originally designed for C and Fortran, languages where function names are unique
 Identifiers. C++, however, introduces features that break this assumption:
@@ -192,7 +192,7 @@ Can exceed 1000 characters.
 nm -C ./app | awk '{ print length, $0 }' | sort -rn | head -20
 ```
 
-:::info Return Types The Itanium ABI generally does **not** encode the return type of a function, as
+:::note Return Types The Itanium ABI generally does **not** encode the return type of a function, as
 C++ does not support overloading based solely on return type. Exception: Template functions and
 `auto` return type deduction may trigger return type encoding.
 :::
@@ -304,7 +304,7 @@ extern "C" void my_callback(int value) {
 c_library_register_callback(my_callback);
 ```
 
-:::warning Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A
+:::caution Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A
 Function pointer of type `extern "C"` and one of type C++ linkage are different types, even if they
 Have the same parameter and return types. Passing one where the other is expected is UB.
 :::
@@ -314,7 +314,7 @@ Have the same parameter and return types. Passing one where the other is expecte
 You rarely decode mangled names manually. Use the toolchain utilities to translate them.
 
 <Tabs>
- <TabItem value="linux" label="Linux / macOS (Itanium)" default>
+ <TabItem label="Linux / macOS (Itanium)">
 
 ### Demangling with `c++filt`
 
@@ -348,7 +348,7 @@ $ nm -C ./app
 ```
 
  </TabItem>
- <TabItem value="windows" label="Windows (MSVC)">
+ <TabItem label="Windows (MSVC)">
 
 ### Demangling with `undname`
 
@@ -651,7 +651,7 @@ This can cause subtle linker errors when a function is declared `noexcept` in on
 Another. The mangled names differ, and the linker reports an undefined reference. The fix is to
 Ensure the `noexcept` specification is consistent across all declarations.
 
-:::warning In C++17, `noexcept` became part of the type system. This means function pointer types
+:::caution In C++17, `noexcept` became part of the type system. This means function pointer types
 Are different if their `noexcept` specification differs. A `void(*)(int)` and a
 `void(*)(int) noexcept` are different types and cannot be implicitly converted.
 

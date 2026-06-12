@@ -561,7 +561,7 @@ If `mylib.so` is loaded after threads have been created, those threads will trig
 Of `lib_tls` on their first access. The dynamic linker handles this by allocating TLS storage for
 The new module and running its initializers lazily.
 
-:::warning Warning Dangerous. If any thread still has references to the TLS storage (e.g., via a
+:::caution Warning Dangerous. If any thread still has references to the TLS storage (e.g., via a
 pointer obtained Before the unload), the behavior is undefined. The standard does not define safe
 unloading semantics For TLS [N4950 §6.7.3].
 :::

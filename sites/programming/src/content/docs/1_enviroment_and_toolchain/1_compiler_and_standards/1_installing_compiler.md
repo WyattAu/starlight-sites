@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 To develop in C++, a strictly compliant toolchain is required. The following details the
 Installation of the **LLVM/Clang** and **GCC** toolchains.
@@ -37,7 +37,7 @@ The reference environment for this course is **Clang 16+** and **CMake 3.25+**.
 Select your operating system to view specific installation instructions.
 
 <Tabs>
- <TabItem value="windows" label="Windows (MSYS2 UCRT64)" default>
+ <TabItem label="Windows (MSYS2 UCRT64)">
 
 ### Windows: MSYS2 UCRT64 Environment
 
@@ -111,7 +111,7 @@ clang++ --version
 **Target Output:** `Target: x86_64-w64-windows-gnu` (The version should be 16.0 or higher).
 
  </TabItem>
- <TabItem value="debian" label="Debian/Ubuntu">
+ <TabItem label="Debian/Ubuntu">
 
 ### Debian/Ubuntu Linux
 
@@ -142,7 +142,7 @@ To support C++23 features.
    `clang++` directly, though CMake handles versioned compilers automatically.
 
  </TabItem>
- <TabItem value="rhel" label="RHEL/Fedora">
+ <TabItem label="RHEL/Fedora">
 
 ### Red Hat / Fedora
 
@@ -169,7 +169,7 @@ Fedora generally provides very recent toolchains in its default repositories.
    ```
 
  </TabItem>
- <TabItem value="arch" label="Arch Linux">
+ <TabItem label="Arch Linux">
 
 ### Arch Linux
 
@@ -182,7 +182,7 @@ Arch Linux provides a rolling release model with the latest stable toolchains av
    ```
 
  </TabItem>
- <TabItem value="macos" label="macOS">
+ <TabItem label="macOS">
 
 ### macOS
 
@@ -257,7 +257,7 @@ clang++ -std=c++23 -O3 test.cpp -o infra_test
 ./infra_test
 ```
 
-:::warning If you are using MSVC, replace `clang++` with `cl.exe` and ensure you have the latest
+:::caution If you are using MSVC, replace `clang++` with `cl.exe` and ensure you have the latest
 Visual Studio 2022 installed.
 
 **Success Criteria:**

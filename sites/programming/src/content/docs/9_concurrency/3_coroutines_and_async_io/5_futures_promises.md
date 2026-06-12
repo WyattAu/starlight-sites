@@ -82,7 +82,7 @@ Policy controls execution:
 | `std::launch::deferred`                                 | Lazy — runs when `get()` is called on the calling thread       |
 | `std::launch::async \| std::launch::deferred` (default) | Implementation chooses (may be either)                         |
 
-:::warning With the default launch policy, the implementation is free to choose `deferred`
+:::caution With the default launch policy, the implementation is free to choose `deferred`
 Execution. This means the task might run synchronously on the calling thread when `get()` is called,
 Defeating the purpose of asynchronous execution. Always use `std::launch::async` explicitly if you
 Need guaranteed asynchronous execution.
@@ -366,7 +366,7 @@ Depends on context [N4950 §8.5.3]:
 - If the coroutine has not yet reached `final_suspend`The exception propagates out of `resume()`.
 - If the coroutine has no caller waiting (e.g., it was detached), `std::terminate()` is called.
 
-:::warning Always store exceptions in `unhandled_exception()` and rethrow them at an appropriate
+:::caution Always store exceptions in `unhandled_exception()` and rethrow them at an appropriate
 `await_resume()` point. Letting exceptions escape `resume()` makes the coroutine interface fragile
 And can lead to `std::terminate()` in detached scenarios.
 :::
@@ -542,7 +542,7 @@ int main() {
 }
 ```
 
-:::info The P2300 `std::execution` proposal (targeting a future C++ standard) integrates
+:::note The P2300 `std::execution` proposal (targeting a future C++ standard) integrates
 `std::stop_token` directly into the sender/receiver model, providing a unified cancellation
 Mechanism that propagates through entire async computation graphs. Until P2300 is standardized,
 Manual `stop_token` integration as shown above is the recommended approach.

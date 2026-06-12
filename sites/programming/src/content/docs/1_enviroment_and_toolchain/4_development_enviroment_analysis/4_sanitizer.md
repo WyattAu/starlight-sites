@@ -11,7 +11,7 @@ categories:
 
 ---
 
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 Static analysis predicts defects by parsing source code. **Runtime Sanitizers** detect defects by
 Monitoring the program during execution.

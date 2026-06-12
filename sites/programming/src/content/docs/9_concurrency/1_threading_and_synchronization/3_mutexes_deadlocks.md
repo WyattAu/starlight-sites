@@ -499,7 +499,7 @@ int main() {
 }
 ```
 
-:::info `std::scoped_lock` with multiple mutexes uses an algorithm that attempts to lock each mutex
+:::note `std::scoped_lock` with multiple mutexes uses an algorithm that attempts to lock each mutex
 In turn. If any lock attempt fails, it unlocks all previously acquired mutexes and retries. This
 Guarantees that all threads acquire the set of mutexes in the same order, preventing circular wait
 [N4950 §31.4.4.2.2].

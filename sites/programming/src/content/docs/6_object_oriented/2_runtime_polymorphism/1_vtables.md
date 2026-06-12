@@ -101,7 +101,7 @@ $$
 | **Slot**   | Each virtual function occupies a fixed index in the vtable  |
 | **Thunks** | Compiler-generated stubs that adjust `this` before dispatch |
 
-:::info ABI Note The Itanium C++ ABI (used by GCC and Clang on all platforms except Windows)
+:::note ABI Note The Itanium C++ ABI (used by GCC and Clang on all platforms except Windows)
 Mandates that the vptr is at offset 0 within the object (before any data members). MSVC uses a
 Similar but incompatible layout on Windows.
 :::
@@ -316,7 +316,7 @@ int main() {
 }
 ```
 
-:::warning The actual performance difference depends heavily on compiler optimization levels, CPU
+:::caution The actual performance difference depends heavily on compiler optimization levels, CPU
 Branch prediction accuracy, and whether the compiler can **devirtualize** the call (see
 [Devirtualization](./3_devirtualization.md)). With `-O2` or `-O3`Modern compilers may eliminate The
 virtual dispatch entirely if the dynamic type is provable.
@@ -467,7 +467,7 @@ The vptr transitions through three states during `Derived` object construction:
 3. During `Derived` destruction: vptr is reset to `Base::vtable` -> `do_work()` calls
    `Base::do_work`
 
-:::warning Calling a pure virtual function from a constructor or destructor is **undefined
+:::caution Calling a pure virtual function from a constructor or destructor is **undefined
 Behavior** [N4950 S11.9.3]. The pure virtual function has no definition to dispatch to (or the
 Definition is not called). Some implementations call the pure virtual handler and terminate the
 Program.
