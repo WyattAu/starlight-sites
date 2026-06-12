@@ -102,8 +102,29 @@ jobs:
           echo "- **Project**: ${{ matrix.project }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
+  deploy-landing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy landing page
+        working-directory: sites/main
+        run: npx wrangler@4 pages deploy dist --project-name wyattsnotes
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Landing Page" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL**: https://wyattsnotes.wyattau.com" >> $GITHUB_STEP_SUMMARY
+          echo "- **Project**: wyattsnotes" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
   summary:
-    needs: deploy
+    needs: [deploy, deploy-landing]
     runs-on: ubuntu-latest
     if: always()
     steps:
@@ -113,6 +134,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Site | URL | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Landing | https://wyattsnotes.wyattau.com | ${{ needs.deploy-landing.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| DSE | https://dse.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| IB | https://ib.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| A-Level | https://alevel.wyattau.com | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
