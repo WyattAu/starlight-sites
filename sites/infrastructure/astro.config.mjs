@@ -27,6 +27,7 @@ export default defineConfig({
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
         { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
+        { tag: 'meta', attrs: { property: 'og:image', content: 'https://infrastructure.wyattau.com/img/social-card.svg' } },
       ],
       customCss: ['./src/styles/custom.css'],
     }),

@@ -1,7 +1,7 @@
 ---
 template: splash
 title: Introduction to IB Notes
-description: 'IB Intro.Md Introduction to IB notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.'
+description: 'International Baccalaureate notes covering key definitions, core concepts, worked examples, and practice questions for thorough IB Diploma preparation.'
 hero:
   tagline: Notes and study materials
   actions:
