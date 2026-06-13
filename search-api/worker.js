@@ -200,6 +200,7 @@ async function handleSearch(request, url, env, corsHeaders) {
     variant: abVariant,
     lang: detectedLang,
     results: results.map(r => ({
+      ...(preview ? { preview: { url: r.url, title: r.title, site: r.site, siteName: SITES[r.site]?.name || r.site, siteColor: SITES[r.site]?.color || '#666', snippet: r.snippet, score: r.score } } : {}),
       title: r.title,
       url: r.url,
       site: r.site,
