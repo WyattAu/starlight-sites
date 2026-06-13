@@ -137,7 +137,8 @@ async function handleSearch(request, url, env, corsHeaders) {
   const site = url.searchParams.get('site'); // optional: filter by site
   const subject = url.searchParams.get('subject'); // optional: filter by subject (physics, chemistry, etc.)
   const variant = url.searchParams.get('variant'); // optional: A/B test variant
-  const lang = url.searchParams.get('lang'); // optional: language filter
+  const lang = url.searchParams.get('lang');
+  const preview = url.searchParams.get('preview') === 'true'; // optional: language filter
 
   if (!query || query.length < 2) {
     return new Response(JSON.stringify({ error: 'Query must be at least 2 characters' }), {
@@ -199,6 +200,7 @@ async function handleSearch(request, url, env, corsHeaders) {
     variant: abVariant,
     lang: detectedLang,
     results: results.map(r => ({
+      preview: preview ? { url: r.url, title: r.title, site: r.site, siteName: SITES[r.site]?.name || r.site, siteColor: SITES[r.site]?.color || '#666', snippet: r.snippet, score: r.score } : undefined,
       title: r.title,
       url: r.url,
       site: r.site,
