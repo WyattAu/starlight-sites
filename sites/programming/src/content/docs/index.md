@@ -1,9 +1,15 @@
 ---
+template: splash
 title: Programming Notes
 description: 'Deep systems programming notes covering C++ ownership, templates, concurrency, and build systems.'
+hero:
+  tagline: Deep systems programming notes covering ownership, templates, concurrency, and build systems. Written for developers who want to understand the language deeply.
+  actions:
+    - text: Browse C++ Notes
+      link: /1_enviroment_and_toolchain/intro/
+      icon: right-arrow
+      variant: primary
 ---
-
-Rigorous C++ systems programming notes covering ownership, templates, concurrency, and build systems. Written for developers who want to understand the language deeply.
 
 ## C++ Topics
 

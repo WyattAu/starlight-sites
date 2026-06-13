@@ -72,7 +72,8 @@ function checkConfig(siteId, configPath) {
 console.log('Running config validation...\n');
 
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && f !== 'node_modules';
+  // Exclude node_modules and main (static HTML landing page, not Astro)
+  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && f !== 'node_modules' && f !== 'main';
 });
 
 for (const site of sites) {

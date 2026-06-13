@@ -11,6 +11,7 @@ export default defineConfig({
   site: 'https://programming.wyattau.com',
   output: 'static',
   integrations: [
+    mermaid({ theme: "dark", autoTheme: true }),
     starlight({
       title: "Wyatt's Notes — Programming",
       defaultLocale: 'en',
@@ -49,12 +50,10 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": "Programming Notes", "description": "C++ systems programming notes", "url": "https://programming.wyattau.com", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
       ],
-      ,
       customCss: ['./src/styles/custom.css'],
     }),
     mdx(),
     solidJs(),
-    mermaid({ theme: "dark", autoTheme: true }),
     sitemap(),
   ],
   vite: {

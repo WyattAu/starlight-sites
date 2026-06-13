@@ -11,6 +11,7 @@ export default defineConfig({
   site: 'https://infrastructure.wyattau.com',
   output: 'static',
   integrations: [
+    mermaid({ theme: "dark", autoTheme: true }),
     starlight({
       title: "Wyatt's Notes — Infrastructure",
       defaultLocale: 'en',
@@ -33,12 +34,10 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": "Infrastructure Notes", "description": "Server administration notes", "url": "https://infrastructure.wyattau.com", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
       ],
-      ,
       customCss: ['./src/styles/custom.css'],
     }),
     mdx(),
     solidJs(),
-    mermaid({ theme: "dark", autoTheme: true }),
     sitemap(),
   ],
   vite: {
