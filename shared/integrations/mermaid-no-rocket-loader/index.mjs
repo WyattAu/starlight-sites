@@ -1,6 +1,6 @@
 /**
- * Custom Astro integration that wraps astro-mermaid and adds
- * data-cfasync="false" to the injected mermaid script tag.
+ * Custom Astro integration that adds data-cfasync="false" to
+ * Cloudflare-injected mermaid scripts after build.
  *
  * This prevents Cloudflare Rocket Loader from deferring the mermaid
  * initialization script, which would break dynamic import('mermaid').
@@ -18,11 +18,10 @@ export default function mermaidNoRocketLoader() {
   return {
     name: 'mermaid-no-rocket-loader',
     hooks: {
-      'astro:build:done': async ({ dir, pages }) => {
+      'astro:build:done': async ({ dir }) => {
         const fs = await import('node:fs');
         const path = await import('node:path');
 
-        // Recursively find all HTML files
         function findHtmlFiles(dir) {
           const files = [];
           const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -37,22 +36,46 @@ export default function mermaidNoRocketLoader() {
           return files;
         }
 
+        // Patterns that identify the mermaid initialization script
+        const MERMAID_PATTERNS = [
+          '[astro-mermaid]',
+          'pre.mermaid',
+          'import(\'mermaid\')',
+          "import('mermaid')",
+          'hasMermaidDiagrams',
+          'initMermaid',
+        ];
+
         const htmlFiles = findHtmlFiles(dir);
         let patched = 0;
 
         for (const htmlFile of htmlFiles) {
           let html = fs.readFileSync(htmlFile, 'utf-8');
+          let modified = false;
 
-          // Look for the astro-mermaid injected script (contains [astro-mermaid] log)
-          // and add data-cfasync="false" to it
-          const mermaidScriptRegex = /<script>([\s\S]*?\[astro-mermaid\][\s\S]*?)<\/script>/;
+          // Find all <script>...</script> tags and check if they contain mermaid code
+          const scriptRegex = /<script(?![^>]*data-cfasync)([^>]*)>([\s\S]*?)<\/script>/g;
+          let match;
 
-          if (mermaidScriptRegex.test(html)) {
-            // Replace the <script> tag with one that has data-cfasync="false"
-            html = html.replace(
-              /<script>([\s\S]*?\[astro-mermaid\][\s\S]*?)<\/script>/,
-              '<script data-cfasync="false">$1</script>'
-            );
+          while ((match = scriptRegex.exec(html)) !== null) {
+            const fullMatch = match[0];
+            const attrs = match[1];
+            const content = match[2];
+
+            // Skip scripts that already have data-cfasync
+            if (attrs.includes('data-cfasync')) continue;
+
+            // Check if this script contains mermaid-related code
+            const isMermaidScript = MERMAID_PATTERNS.some(p => content.includes(p));
+
+            if (isMermaidScript) {
+              const patchedScript = `<script data-cfasync="false"${attrs}>${content}</script>`;
+              html = html.replace(fullMatch, patchedScript);
+              modified = true;
+            }
+          }
+
+          if (modified) {
             fs.writeFileSync(htmlFile, html, 'utf-8');
             patched++;
           }
