@@ -35,7 +35,7 @@ export default defineConfig({
     }),
     mdx(),
     solidJs(),
-    mermaid(),
+    mermaid({ theme: "dark", autoTheme: true }),
     sitemap(),
   ],
   vite: {
