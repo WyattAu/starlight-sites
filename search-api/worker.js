@@ -135,6 +135,7 @@ async function handleSearch(request, url, env, corsHeaders) {
   const query = url.searchParams.get('q')?.trim();
   const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 50);
   const site = url.searchParams.get('site'); // optional: filter by site
+  const subject = url.searchParams.get('subject'); // optional: filter by subject (physics, chemistry, etc.)
   const variant = url.searchParams.get('variant'); // optional: A/B test variant
   const lang = url.searchParams.get('lang'); // optional: language filter
 
@@ -187,7 +188,7 @@ async function handleSearch(request, url, env, corsHeaders) {
   }
 
   // Search and rank with A/B weights
-  let results = searchIndex(query, index, site, weights, detectedLang);
+  let results = searchIndex(query, index, site, weights, detectedLang, subject);
 
   // Apply limit
   results = results.slice(0, limit);
@@ -229,7 +230,7 @@ async function handleSearch(request, url, env, corsHeaders) {
   });
 }
 
-function searchIndex(query, index, siteFilter, weights = RANKING_VARIANTS.control, lang = null) {
+function searchIndex(query, index, siteFilter, weights = RANKING_VARIANTS.control, lang = null, subjectFilter = null) {
   const queryLower = query.toLowerCase();
   const queryWords = queryLower.split(/\s+/);
   const results = [];
@@ -237,6 +238,23 @@ function searchIndex(query, index, siteFilter, weights = RANKING_VARIANTS.contro
   for (const entry of index.entries) {
     // Filter by site if specified
     if (siteFilter && entry.site !== siteFilter) continue;
+
+    // Filter by subject if specified (check URL path for subject keywords)
+    if (subjectFilter) {
+      const urlLower = (entry.url || '').toLowerCase();
+      const subjectKeywords = {
+        'physics': ['physics', 'mechanics', 'waves', 'electricity', 'magnetism', 'thermal', 'nuclear'],
+        'chemistry': ['chemistry', 'organic', 'inorganic', 'physical-chemistry'],
+        'biology': ['biology', 'cell', 'genetics', 'ecology', 'physiology'],
+        'mathematics': ['maths', 'mathematics', 'algebra', 'calculus', 'statistics'],
+        'computer-science': ['computer-science', 'programming', 'algorithms', 'data-structures'],
+        'economics': ['economics', 'microeconomics', 'macroeconomics'],
+      };
+      
+      const keywords = subjectKeywords[subjectFilter.toLowerCase()] || [subjectFilter.toLowerCase()];
+      const matchesSubject = keywords.some(kw => urlLower.includes(kw));
+      if (!matchesSubject) continue;
+    }
 
     // Skip entries with missing data
     if (!entry.title || !entry.url) continue;
