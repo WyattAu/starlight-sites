@@ -749,3 +749,50 @@ async function logSearch(query, resultCount, variant, env) {
   abData.searches++;
   await env.SEARCH_KV.put(abKey, JSON.stringify(abData), { expirationTtl: 86400 * 7 });
 }
+
+// Search with preview endpoint
+async function handleSearchWithPreview(url, env, corsHeaders) {
+  const query = url.searchParams.get('q')?.trim();
+  const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 50);
+  const site = url.searchParams.get('site');
+  const preview = url.searchParams.get('preview') === 'true';
+
+  if (!query || query.length < 2) {
+    return new Response(JSON.stringify({ error: 'Query must be at least 2 characters' }), {
+      status: 400,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+
+  const index = await env.SEARCH_KV.get('merged-index', { type: 'json' });
+  if (!index) {
+    return new Response(JSON.stringify({ error: 'Search index not available' }), {
+      status: 503,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
+  }
+
+  let results = searchIndex(query, index, site, RANKING_VARIANTS.control, null, null);
+  results = results.slice(0, limit);
+
+  // Add preview data if requested
+  if (preview) {
+    results = results.map(r => ({
+      ...r,
+      preview: {
+        url: r.url,
+        title: r.title,
+        site: r.site,
+        siteName: SITES[r.site]?.name || r.site,
+        siteColor: SITES[r.site]?.color || '#666',
+        siteUrl: SITES[r.site]?.url || '',
+        snippet: r.snippet,
+        score: r.score,
+      },
+    }));
+  }
+
+  return new Response(JSON.stringify({ query, total: results.length, results }), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}

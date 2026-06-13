@@ -35,6 +35,7 @@ export default defineConfig({
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": "A-Level Notes", "description": "UK A-Level revision notes", "url": "https://alevel.wyattau.com", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
       ],
+      ,
       customCss: ['./src/styles/custom.css'],
     }),
     mdx(),
