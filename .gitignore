@@ -6,5 +6,8 @@ dist/
 .env.*
 .DS_Store
 
+# Test output
+/tmp/gui-snapshots/
+
 # Keep landing page source tracked
 !sites/main/src/

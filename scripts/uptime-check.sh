@@ -1,5 +1,7 @@
 #!/bin/bash
 # Uptime check for all Wyatt's Notes sites
+# Called by .github/workflows/uptime.yml
+
 SITES=(
   "dse.wyattau.com"
   "ib.wyattau.com"
@@ -19,11 +21,11 @@ echo ""
 
 all_ok=true
 for site in "${SITES[@]}"; do
-  status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "https://$site/" 2>/dev/null)
+  status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "https://$site/" 2>/dev/null)
   if [ "$status" = "200" ]; then
-    echo "✅ $site → $status"
+    echo "OK  $site -> $status"
   else
-    echo "❌ $site → $status"
+    echo "FAIL $site -> $status"
     all_ok=false
   fi
 done

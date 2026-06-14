@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { question, options, correct, explanation } = Astro.props;
-const quizId = `quiz-${Math.random().toString(36).substr(2, 9)}`;
+const quizId = `quiz-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
 ---
 
 <div class="practice-quiz" data-correct={correct}>

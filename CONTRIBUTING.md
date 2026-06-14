@@ -1,55 +1,44 @@
 # Contributing to Wyatt's Notes
 
-Thank you for your interest in contributing to Wyatt's Notes. This document provides guidelines for contributing to this project.
+## Reporting Issues
 
-## How to Contribute
+Open an issue with:
 
-### Reporting Issues
+1. **Subject** -- Which subject/topic contains the error
+2. **Page URL** -- The specific page with the issue
+3. **Description** -- What is incorrect and what the correct information should be
+4. **Evidence** -- Reference to official syllabus or textbook if available
 
-If you find errors in the content, please open an issue with:
-
-1. **Subject** — Which subject/topic contains the error
-2. **Page URL** — The specific page with the issue
-3. **Description** — What is incorrect and what the correct information should be
-4. **Evidence** — Reference to official syllabus or textbook if available
-
-### Suggesting Improvements
-
-For content improvements:
-
-1. Open an issue describing the improvement
-2. Wait for approval before starting work
-3. Submit a pull request with the changes
-
-### Submitting Corrections
+## Submitting Changes
 
 1. Fork the repository
-2. Create a branch for your changes
-3. Make your changes
-4. Submit a pull request
+2. Create a branch: `git checkout -b fix/subject-topic`
+3. Make changes
+4. Run linters: `bun run lint`
+5. Run tests: `bun run test`
+6. Submit a pull request
 
 ## Content Guidelines
 
 ### Writing Style
 
-- Be precise and formal
+- Precise and formal
 - Define terms before using them
 - Include worked examples for complex concepts
 - Use consistent notation throughout
 
 ### Mathematical Content
 
-- Use LaTeX notation for formulas
-- Wrap inline math in `$...$`
-- Wrap display math in `$$...$$`
+- Inline math: `$...$`
+- Display math: `$$...$$`
 - Verify formulas render correctly
 
 ### Code Examples
 
-- Include complete, runnable examples
-- Add comments explaining key lines
+- Complete, runnable examples
+- Comments on key lines
 - Test examples before submitting
-- Use consistent formatting
+- Consistent formatting
 
 ### Structure
 
@@ -58,29 +47,14 @@ For content improvements:
 - Include practice problems
 - Cross-reference related topics
 
-## File Structure
-
-```
-sites/
-├── dse/              # Hong Kong DSE notes
-├── ib/               # IB Diploma notes
-├── alevel/           # UK A-Level notes
-├── university/       # University STEM notes
-├── programming/      # C++ systems programming
-├── infrastructure/   # Server administration
-├── languages/        # Programming languages
-├── tools/            # Algorithms and tools
-└── qualifications/   # GCSE, AP, etc.
-```
-
 ## Development Setup
 
-1. Clone the repository
-2. Install dependencies: `bun install`
-3. Start dev server: `bun run dev`
-4. Make changes
-5. Test locally
-6. Submit pull request
+```bash
+git clone https://github.com/WyattAu/starlight-sites.git
+cd starlight-sites
+bun install
+cd sites/dse && bun run dev
+```
 
 ## Code of Conduct
 
@@ -88,7 +62,3 @@ sites/
 - Focus on educational value
 - Cite sources when possible
 - Maintain academic integrity
-
-## Questions?
-
-Open an issue with the "question" label.

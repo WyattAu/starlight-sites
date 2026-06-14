@@ -7,7 +7,7 @@ const path = require('path');
 const SITES_DIR = path.join(__dirname, '..', 'sites');
 const ISSUES = [];
 
-function extractLinks(content, filePath) {
+function extractLinks(content) {
   const links = [];
   const regex = /href="([^"]*)"/g;
   let match;
@@ -27,7 +27,7 @@ function checkFile(filePath, siteId) {
   if (!fs.existsSync(filePath)) return;
   
   const content = fs.readFileSync(filePath, 'utf8');
-  const links = extractLinks(content, filePath);
+  const links = extractLinks(content);
   const relativePath = path.relative(SITES_DIR, filePath);
   
   for (const link of links) {

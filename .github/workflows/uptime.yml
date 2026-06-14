@@ -2,7 +2,7 @@ name: Uptime Monitor
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,39 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check all sites
+      - name: Run uptime check
         id: uptime
-        run: |
-          SITES=(
-            "dse.wyattau.com"
-            "ib.wyattau.com"
-            "alevel.wyattau.com"
-            "university.wyattau.com"
-            "qualifications.wyattau.com"
-            "programming.wyattau.com"
-            "infrastructure.wyattau.com"
-            "languages.wyattau.com"
-            "tools.wyattau.com"
-            "wyattsnotes.wyattau.com"
-          )
-
-          FAILED=""
-          for site in "${SITES[@]}"; do
-            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "https://$site/" 2>/dev/null)
-            if [ "$status" != "200" ]; then
-              FAILED="$FAILED\n❌ $site → $status"
-            else
-              echo "✅ $site → $status"
-            fi
-          done
-
-          if [ -n "$FAILED" ]; then
-            echo "failed=true" >> $GITHUB_OUTPUT
-            echo -e "$FAILED" >> $GITHUB_STEP_SUMMARY
-            exit 1
-          else
-            echo "All sites operational" >> $GITHUB_STEP_SUMMARY
-          fi
+        run: bash scripts/uptime-check.sh
 
       - name: Create issue on failure
         if: failure()
@@ -54,7 +24,6 @@ jobs:
             const title = `Uptime Alert: Site Down (${new Date().toISOString().split('T')[0]})`;
             const body = `## Uptime Check Failed\n\nOne or more sites returned non-200 status codes.\n\nSee workflow run for details: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
 
-            // Check if open issue already exists
             const issues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -71,7 +40,6 @@ jobs:
                 labels: ['alert', 'uptime']
               });
             } else {
-              // Comment on existing issue
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,

@@ -12,21 +12,38 @@ env:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: ${{ env.BUN_VERSION }}
-      
+
       - name: Run content validation
         run: node scripts/lint-content.js
-      
+
       - name: Run config validation
         run: node scripts/lint-config.js
 
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Run unit tests
+        run: node --test tests/unit/*.test.js
+
+      - name: Run integration tests
+        run: node --test tests/integration/*.test.js
+
   build:
-    needs: lint
+    needs: [lint, test]
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
@@ -45,20 +62,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: ${{ env.BUN_VERSION }}
-      
+
       - name: Install dependencies
         run: bun install
-      
+
       - name: Build site
         working-directory: sites/${{ matrix.site }}
         env:
           NODE_OPTIONS: "--max-old-space-size=8192"
         run: bun run build
-      
+
       - name: Verify output
         working-directory: sites/${{ matrix.site }}
         run: |
@@ -74,12 +91,16 @@ jobs:
           fi
 
   summary:
-    needs: [lint, build]
+    needs: [lint, test, build]
     runs-on: ubuntu-latest
     if: always()
     steps:
-      - name: Summary
+      - name: CI Summary
         run: |
           echo "## CI Results" >> $GITHUB_STEP_SUMMARY
-          echo "- Lint: ${{ needs.lint.result }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Build: ${{ needs.build.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Stage | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Lint | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Test | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Build (9 sites) | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY

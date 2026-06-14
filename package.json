@@ -2,11 +2,18 @@
   "name": "starlight-sites",
   "version": "1.0.0",
   "private": true,
-  "description": "Wyatt's Notes — Starlight monorepo (9 sub-sites)",
+  "description": "Wyatt's Notes -- Starlight monorepo (9 sub-sites)",
   "scripts": {
-    "install:all": "for d in sites/*/; do echo \"Installing $d\"; cd \"$d\" && bun install && cd ../..; done",
-    "build:all": "for d in sites/*/; do echo \"Building $d\"; cd \"$d\" && node node_modules/astro/astro.js build && cd ../..; done",
-    "build:site": "cd sites/$SITE && node node_modules/astro/astro.js build"
+    "lint": "node scripts/lint-content.js && node scripts/lint-config.js",
+    "lint:links": "node scripts/lint-links.js",
+    "lint:all": "node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-links.js",
+    "build:site": "bunx astro build",
+    "test": "node --test tests/unit/*.test.js tests/integration/*.test.js",
+    "test:unit": "node --test tests/unit/*.test.js",
+    "test:integration": "node --test tests/integration/*.test.js",
+    "test:gui": "node tests/e2e/gui-snapshot.js",
+    "test:all": "node --test tests/unit/*.test.js tests/integration/*.test.js && node tests/e2e/gui-snapshot.js --all",
+    "generate": "node scripts/generate-site.mjs"
   },
   "workspaces": [
     "sites/*"
@@ -15,5 +22,15 @@
     "@astrojs/mdx": "^6.0.3",
     "astro-mermaid": "^2.0.2",
     "mermaid": "^11.15.0"
-  }
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
+  },
+  "lint-staged": {
+    "*.md": "node scripts/lint-content.js",
+    "*.mdx": "node scripts/lint-content.js",
+    "sites/*/astro.config.mjs": "node scripts/lint-config.js"
+  },
+  "prepare": "husky"
 }

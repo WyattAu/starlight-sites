@@ -16,6 +16,23 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 1rem;
+      padding: 0.5rem 1rem;
+      background: var(--accent);
+      color: white;
+      border-radius: 0 0 8px 8px;
+      z-index: 200;
+      text-decoration: none;
+      font-weight: 600;
+      transition: top 0.2s;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+
     :root {
       --bg: #0f172a;
       --bg-card: #1e293b;
@@ -348,6 +365,17 @@
       color: var(--accent);
     }
 
+    /* Focus styles for keyboard navigation */
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .btn:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.2);
+    }
+
     @media (max-width: 768px) {
       .hero h1 { font-size: 2.5rem; }
       .stats { grid-template-columns: repeat(2, 1fr); }
@@ -358,18 +386,20 @@
 </head>
 <body>
 
-<nav>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<nav aria-label="Primary navigation">
   <div class="nav-inner">
     <a href="/" class="nav-brand">Wyatt's Notes</a>
     <ul class="nav-links">
-      <li><a href="https://dse.wyattau.com/">DSE</a></li>
-      <li><a href="https://ib.wyattau.com/">IB</a></li>
-      <li><a href="https://alevel.wyattau.com/">A-Level</a></li>
-      <li><a href="https://university.wyattau.com/">University</a></li>
-      <li><a href="https://programming.wyattau.com/">Programming</a></li>
+      <li><a href="https://dse.wyattau.com/" target="_blank" rel="noopener noreferrer">DSE</a></li>
+      <li><a href="https://ib.wyattau.com/" target="_blank" rel="noopener noreferrer">IB</a></li>
+      <li><a href="https://alevel.wyattau.com/" target="_blank" rel="noopener noreferrer">A-Level</a></li>
+      <li><a href="https://university.wyattau.com/" target="_blank" rel="noopener noreferrer">University</a></li>
+      <li><a href="https://programming.wyattau.com/" target="_blank" rel="noopener noreferrer">Programming</a></li>
     </ul>
-    <button class="nav-search" onclick="window.openSearchModal && window.openSearchModal()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <button class="nav-search" aria-label="Open search" onclick="window.openSearchModal && window.openSearchModal()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <circle cx="11" cy="11" r="8"></circle>
         <path d="m21 21-4.35-4.35"></path>
       </svg>
@@ -380,6 +410,7 @@
 </nav>
 
 <div class="container">
+  <main id="main-content">
   <div class="hero">
     <div class="hero-badge">Free &amp; Open Source</div>
     <h1>Rigorous Study Notes<br><span>Without the Paywall</span></h1>
@@ -431,7 +462,7 @@
       <h2>Exam Board Notes</h2>
     </div>
     <div class="site-grid">
-      <a href="https://dse.wyattau.com/" class="site-card">
+      <a href="https://dse.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>DSE</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -450,7 +481,7 @@
         </div>
       </a>
 
-      <a href="https://ib.wyattau.com/" class="site-card">
+      <a href="https://ib.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>IB</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -469,7 +500,7 @@
         </div>
       </a>
 
-      <a href="https://alevel.wyattau.com/" class="site-card">
+      <a href="https://alevel.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>A-Level</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -488,7 +519,7 @@
         </div>
       </a>
 
-      <a href="https://qualifications.wyattau.com/" class="site-card">
+      <a href="https://qualifications.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Qualifications</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -520,7 +551,7 @@
       <h2>University &amp; Programming</h2>
     </div>
     <div class="site-grid">
-      <a href="https://university.wyattau.com/" class="site-card">
+      <a href="https://university.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>University</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -538,7 +569,7 @@
         </div>
       </a>
 
-      <a href="https://programming.wyattau.com/" class="site-card">
+      <a href="https://programming.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Programming</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -569,7 +600,7 @@
       <h2>Reference &amp; Tools</h2>
     </div>
     <div class="site-grid">
-      <a href="https://infrastructure.wyattau.com/" class="site-card">
+      <a href="https://infrastructure.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Infrastructure</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -587,7 +618,7 @@
         </div>
       </a>
 
-      <a href="https://languages.wyattau.com/" class="site-card">
+      <a href="https://languages.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Languages</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -607,7 +638,7 @@
         </div>
       </a>
 
-      <a href="https://tools.wyattau.com/" class="site-card">
+      <a href="https://tools.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Tools</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -655,14 +686,15 @@
       </div>
     </div>
   </section>
+  </main>
 
   <footer>
     <div class="footer-inner">
       <div class="footer-text">2026 Wyatt Au. Licensed under AGPLv3.</div>
       <div class="footer-links">
-        <a href="https://github.com/WyattAu/starlight-sites">GitHub</a>
-        <a href="https://search.wyattau.com/">Search</a>
-        <a href="https://github.com/WyattAu/starlight-sites/blob/main/LICENSE.md">License</a>
+        <a href="https://github.com/WyattAu/starlight-sites" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://search.wyattau.com/" target="_blank" rel="noopener noreferrer">Search</a>
+        <a href="https://github.com/WyattAu/starlight-sites/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">License</a>
       </div>
     </div>
   </footer>

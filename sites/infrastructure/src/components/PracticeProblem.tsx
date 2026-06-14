@@ -1,4 +1,4 @@
-import { createSignal, createEffect, onCleanup, createMemo } from 'solid-js';
+import { createSignal, createEffect, For } from 'solid-js';
 import { sanitizeHtml } from '../utils/sanitize';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';

@@ -1,121 +1,102 @@
 # Wyatt's Notes
 
-Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.
+Monorepo of 9 static documentation sites built with Astro Starlight, deployed to Cloudflare Pages.
 
-## Overview
+## Sites
 
-Wyatt's Notes is a collection of 9 static documentation sites built with Astro Starlight, deployed to Cloudflare Pages. The sites cover:
-
-- **DSE** (dse.wyattau.com) — Hong Kong Diploma of Secondary Education
-- **IB** (ib.wyattau.com) — International Baccalaureate Diploma Programme
-- **A-Level** (alevel.wyattau.com) — UK A-Level revision notes
-- **University** (university.wyattau.com) — Proof-based undergraduate STEM
-- **Qualifications** (qualifications.wyattau.com) — GCSE, AP, Scottish Highers, Irish LC
-- **Programming** (programming.wyattau.com) — C++ systems programming
-- **Infrastructure** (infrastructure.wyattau.com) — Server administration, databases
-- **Languages** (languages.wyattau.com) — Comparative programming languages
-- **Tools** (tools.wyattau.com) — Algorithms, data structures, developer tools
+| Site | Domain | Scope |
+|------|--------|-------|
+| DSE | dse.wyattau.com | Hong Kong Diploma of Secondary Education |
+| IB | ib.wyattau.com | International Baccalaureate Diploma Programme |
+| A-Level | alevel.wyattau.com | UK A-Level revision notes |
+| University | university.wyattau.com | Proof-based undergraduate STEM |
+| Qualifications | qualifications.wyattau.com | GCSE, AP, Scottish Highers, Irish LC |
+| Programming | programming.wyattau.com | C++ systems programming |
+| Infrastructure | infrastructure.wyattau.com | Server administration, databases |
+| Languages | languages.wyattau.com | Comparative programming languages |
+| Tools | tools.wyattau.com | Algorithms, data structures |
 
 ## Architecture
 
 ```
-wyattsnotes/
-├── sites/                    # 9 Starlight sites
-│   ├── dse/
-│   ├── ib/
-│   ├── alevel/
-│   ├── university/
-│   ├── qualifications/
-│   ├── programming/
-│   ├── infrastructure/
-│   ├── languages/
-│   └── tools/
-├── shared/                   # Shared components
-├── search-api/               # Cloudflare Worker for cross-site search
-├── scripts/                  # Validation and linting scripts
-└── .github/workflows/        # CI/CD pipelines
+starlight-sites/
+  sites/                    9 Starlight sub-sites
+  shared/                   Shared components, styles, integrations
+  search-api/               Cloudflare Worker for cross-site search
+  scripts/                  Validation and linting scripts
+  tests/                    Unit, integration, and E2E tests
+  .github/workflows/        CI/CD pipelines (ci.yml, deploy.yml, uptime.yml)
 ```
 
-## Development
-
-### Prerequisites
+## Prerequisites
 
 - Node.js 18+
 - Bun 1.2+
 
-### Local Development
+## Development
 
 ```bash
-# Install dependencies
+# Install all dependencies
 bun install
 
 # Start dev server for a specific site
-cd sites/dse
-bun run dev
+cd sites/dse && bun run dev
 
-# Run validation
-node scripts/lint-content.js
-node scripts/lint-config.js
-```
+# Run all linters
+bun run lint
 
-### Building
+# Run all tests
+bun run test
 
-```bash
 # Build a specific site
-cd sites/dse
-bun run build
-
-# Build all sites
-for site in sites/*/; do
-  cd $site
-  bun install && bun run build
-  cd ..
-done
+cd sites/dse && bun run build
 ```
 
-## Deployment
-
-Sites are automatically deployed to Cloudflare Pages on push to `main` via GitHub Actions.
-
-### Manual Deployment
+## Testing
 
 ```bash
-# Deploy a specific site
-cd sites/dse
-npx wrangler pages deploy dist --project-name wyattsnotes-dse
+# Unit tests (lint scripts, search API logic)
+bun run test:unit
+
+# Integration tests (repo structure, CI/CD config)
+bun run test:integration
+
+# GUI traversal and accessibility snapshots
+bun run test:gui dse
+bun run test:gui --all
+
+# All tests
+bun run test:all
 ```
+
+## CI/CD
+
+Two GitHub Actions workflows:
+
+- **ci.yml** -- Runs on push/PR to main. Lints content, runs tests, builds all 9 sites.
+- **deploy.yml** -- Runs on push to main. Builds, deploys to Cloudflare Pages, updates search index.
+
+Pre-commit hooks (Husky + lint-staged) enforce linting before every commit.
 
 ## Search API
 
-Cross-site search is available at `search.wyattau.com`:
+Cross-site search at search.wyattau.com:
 
 ```
 GET /api/search?q=physics&limit=20
 GET /api/sites
 GET /api/health
 GET /api/trending
+GET /api/suggest?q=phys
 ```
 
-## Content Guidelines
+## Content Conventions
 
-### Writing Style
-
-- Precise and formal
-- Define terms before using them
-- Include worked examples
-- Use consistent notation
-
-### Mathematical Content
-
-- Use LaTeX notation: `$inline$` and `$$display$$`
-- Verify formulas render correctly
-
-### Code Examples
-
-- Include complete, runnable examples
-- Add comments explaining key lines
-- Test examples before submitting
+- Precise, formal prose. Define terms before use.
+- LaTeX notation: `$inline$` and `$$display$$`
+- Code examples: complete, runnable, commented.
+- No emojis in technical documentation.
 
 ## License
 
-AGPLv3 — See [LICENSE.md](LICENSE.md)
+AGPLv3 -- See LICENSE.md

@@ -7,9 +7,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const KV_NAMESPACE_ID = process.env.KV_NAMESPACE_ID || 'b1c8e9c031cd404da7e8688c332d4374';
+const KV_NAMESPACE_ID = process.env.KV_NAMESPACE_ID;
 const CF_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
-const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID || '26966ba2f4b3a12cb750cd615c8d0bcf';
+const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
+
+if (!KV_NAMESPACE_ID || !CF_API_TOKEN || !CF_ACCOUNT_ID) {
+  console.error('Missing required environment variables: KV_NAMESPACE_ID, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID');
+  process.exit(1);
+}
 
 async function uploadToKV() {
   console.log('Uploading search index to KV...\n');

@@ -18,8 +18,17 @@ function checkFile(filePath) {
     ISSUES.push({ file: relativePath, type: 'ERROR', message: 'Old Docusaurus Tabs import' });
   }
   
-  if (content.includes(":::warning") && !content.includes("```")) {
-    ISSUES.push({ file: relativePath, type: 'WARNING', message: 'Unconverted :::warning' });
+  // Check for unconverted :::warning admonitions (only flag if no code block on the same line or nearby)
+  const lines = content.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].includes(':::warning') && !lines[i].includes(':::warning{')) {
+      // Check if this is a bare :::warning without proper Starlight syntax
+      const hasCodeBlock = lines.slice(Math.max(0, i - 3), i + 4).some(l => l.includes('```'));
+      if (!hasCodeBlock) {
+        ISSUES.push({ file: relativePath, type: 'WARNING', message: `Unconverted :::warning at line ${i + 1}` });
+        break; // Only report once per file
+      }
+    }
   }
   
   if (!content.trim().startsWith('---')) {

@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "Running pre-commit checks..."
+
+# Run lint-staged (staged file checks)
+npx lint-staged
+
+# Run content validation
+node scripts/lint-content.js
+if [ $? -ne 0 ]; then
+  echo "Pre-commit failed: content validation errors"
+  exit 1
+fi
+
+# Run config validation
+node scripts/lint-config.js
+if [ $? -ne 0 ]; then
+  echo "Pre-commit failed: config validation errors"
+  exit 1
+fi
+
+echo "Pre-commit checks passed"

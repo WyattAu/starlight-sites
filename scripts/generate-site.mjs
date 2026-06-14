@@ -2,11 +2,11 @@
 /**
  * Generate a Starlight site from template.
  * Each site gets a complete, standalone astro.config.mjs (no shared imports).
- * 
+ *
  * Usage: node generate-site.mjs <site-name> <title> <site-url> <content-source-dir>
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync, cpSync, readdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, existsSync, cpSync, readdirSync } from 'node:fs';
 import { join, dirname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -25,35 +25,32 @@ const siteDir = join(rootDir, 'sites', name);
 console.log(`Generating site: ${name}`);
 
 // Create directory structure
-for (const dir of ['src/components', 'src/utils', 'src/styles']) {
+for (const dir of ['src/components', 'src/components/starlight', 'src/utils', 'src/styles', 'src/data']) {
   mkdirSync(join(siteDir, dir), { recursive: true });
 }
 
-// Generate package.json
+// Generate package.json (SolidJS, not React -- matches existing sites)
 const packageJson = {
   name: `starlight-${name}`,
   version: '0.1.0',
   type: 'module',
   scripts: {
     dev: 'astro dev',
-    build: 'node node_modules/astro/astro.js build',
+    build: 'bunx astro build',
     preview: 'astro preview',
   },
   dependencies: {
     '@astrojs/mdx': '^4.3.14',
-    '@astrojs/react': '^5.0.7',
     '@astrojs/sitemap': '^3.7.3',
+    '@astrojs/solid-js': '^5.0.1',
     '@astrojs/starlight': '^0.32.2',
     'astro': '^5.5.4',
     'dompurify': '^3.2.4',
-    'react': '^19.1.0',
-    'react-dom': '^19.1.0',
     'rehype-katex': '^7.0.1',
     'remark-math': '^6.0.0',
+    'solid-js': '^1.9.7',
   },
   devDependencies: {
-    '@types/react': '^19.1.0',
-    '@types/react-dom': '^19.1.0',
     'typescript': '^5.8.2',
   },
 };
@@ -63,11 +60,14 @@ writeFileSync(join(siteDir, 'package.json'), JSON.stringify(packageJson, null, 2
 const sidebar = generateSidebarFromContent(contentDir);
 const sidebarLines = formatSidebar(sidebar);
 
-// Generate complete, standalone astro.config.mjs
+// Escape title for safe embedding
+const safeTitle = JSON.stringify(title);
+
+// Generate complete, standalone astro.config.mjs (SolidJS, not React)
 const astroConfig = `import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mdx from '@astrojs/mdx';
-import react from '@astrojs/react';
+import solidJs from '@astrojs/solid-js';
 import sitemap from '@astrojs/sitemap';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
@@ -77,7 +77,11 @@ export default defineConfig({
   output: 'static',
   integrations: [
     starlight({
-      title: ${JSON.stringify(title)},
+      title: ${safeTitle},
+      components: {
+        PageTitle: './src/components/starlight/PageTitle.astro',
+        MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+      },
       defaultLocale: 'en',
       sidebar: [
 ${sidebarLines}
@@ -85,18 +89,23 @@ ${sidebarLines}
       head: [
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
-        { tag: 'link', attrs: { rel: 'preload', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css', as: 'style' } },
+        { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
+        { tag: 'meta', attrs: { property: 'og:image', content: '${url}/img/social-card.svg' } },
+        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
+        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
+        { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": ${safeTitle}, "url": "${url}", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
       ],
       customCss: ['./src/styles/custom.css'],
     }),
     mdx(),
-    react(),
+    solidJs(),
     sitemap(),
   ],
   vite: {
     resolve: {
       alias: {
         '@components': new URL('./src/components', import.meta.url).pathname,
+        '@': new URL('./src', import.meta.url).pathname,
       },
     },
   },
@@ -108,7 +117,7 @@ ${sidebarLines}
 `;
 writeFileSync(join(siteDir, 'astro.config.mjs'), astroConfig);
 
-// Copy shared files
+// Copy shared files (components, utils, styles, integrations)
 const sharedDir = join(rootDir, 'shared');
 for (const item of ['components', 'utils', 'styles']) {
   const src = join(sharedDir, item);
@@ -130,21 +139,24 @@ export const collections = {
 `;
 writeFileSync(join(siteDir, 'src', 'content', 'config.ts'), contentConfig);
 
-// Generate tsconfig.json
+// Generate tsconfig.json (SolidJS JSX, not React)
 const tsconfig = {
   extends: 'astro/tsconfigs/strict',
   compilerOptions: {
     baseUrl: '.',
-    paths: { '@components/*': ['src/components/*'] },
-    jsx: 'react-jsx',
-    jsxImportSource: 'react',
+    paths: {
+      '@components/*': ['src/components/*'],
+      '@/*': ['src/*'],
+    },
+    jsx: 'preserve',
+    jsxImportSource: 'solid-js',
   },
 };
 writeFileSync(join(siteDir, 'tsconfig.json'), JSON.stringify(tsconfig, null, 2));
 
-console.log(`  ✓ ${basename(contentDir)} → ${siteDir}`);
-console.log(`  ✓ Sidebar: ${sidebar.length} entries, ${countFiles(contentDir)} files`);
-console.log(`  Run: cd ${siteDir} && npm install && npm run build\n`);
+console.log(`  ${basename(contentDir)} -> ${siteDir}`);
+console.log(`  Sidebar: ${sidebar.length} entries, ${countFiles(contentDir)} files`);
+console.log(`  Run: cd ${siteDir} && bun install && bun run build\n`);
 
 function countFiles(dir) {
   let count = 0;
@@ -172,7 +184,8 @@ function generateSidebarFromContent(dir) {
 }
 
 function formatSidebar(sidebar) {
-  return sidebar.map(e =>
-    `        { label: '${e.label}', autogenerate: { directory: '${e.directory}' } },`
-  ).join('\n');
+  return sidebar.map(e => {
+    const escapedLabel = e.label.replace(/'/g, "\\'");
+    return `        { label: '${escapedLabel}', autogenerate: { directory: '${e.directory}' } },`;
+  }).join('\n');
 }
