@@ -50,7 +50,10 @@ jobs:
         with:
           bun-version: ${{ env.BUN_VERSION }}
       
-      - name: Install dependencies
+      - name: Install dependencies (root workspace)
+        run: bun install
+      
+      - name: Install dependencies (site)
         working-directory: sites/${{ matrix.site }}
         run: bun install
       
