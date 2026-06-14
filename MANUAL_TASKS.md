@@ -1,43 +1,62 @@
-# Manual Tasks Required
+# Google Search Console & Cloudflare Analytics Setup
 
-These tasks cannot be automated via API and require Cloudflare Dashboard or Google Search Console access.
+## Google Search Console Sitemap Submission
 
-## 1. Google Search Console — Submit Sitemaps
+Submit these sitemap URLs to Google Search Console for each site:
 
-**Already verified:** Domain property `wyattau.com` (DNS TXT record exists)
+| Site | Sitemap URL |
+|------|-------------|
+| DSE | https://dse.wyattau.com/sitemap-index.xml |
+| IB | https://ib.wyattau.com/sitemap-index.xml |
+| A-Level | https://alevel.wyattau.com/sitemap-index.xml |
+| University | https://university.wyattau.com/sitemap-index.xml |
+| Qualifications | https://qualifications.wyattau.com/sitemap-index.xml |
+| Programming | https://programming.wyattau.com/sitemap-index.xml |
+| Infrastructure | https://infrastructure.wyattauau.com/sitemap-index.xml |
+| Languages | https://languages.wyattau.com/sitemap-index.xml |
+| Tools | https://tools.wyattau.com/sitemap-index.xml |
+| Landing | https://wyattsnotes.wyattau.com/sitemap-index.xml (if applicable) |
 
-**Sitemap URLs to submit** (in Search Console → Sitemaps):
-```
-https://dse.wyattau.com/sitemap-index.xml
-https://ib.wyattau.com/sitemap-index.xml
-https://alevel.wyattau.com/sitemap-index.xml
-https://university.wyattau.com/sitemap-index.xml
-https://qualifications.wyattau.com/sitemap-index.xml
-https://programming.wyattau.com/sitemap-index.xml
-https://infrastructure.wyattau.com/sitemap-index.xml
-https://languages.wyattau.com/sitemap-index.xml
-https://tools.wyattau.com/sitemap-index.xml
-```
+### Steps:
+1. Go to https://search.google.com/search-console
+2. Add each property (URL prefix method)
+3. Verify ownership via DNS TXT record or HTML file
+4. Go to Sitemaps → Add sitemap URL → Submit
+5. Wait for Google to crawl (typically 1-7 days)
 
-**Also:** Request indexing for key landing pages via URL Inspection tool.
+## Cloudflare Web Analytics Setup
 
-## 2. Cloudflare Web Analytics
+### Steps:
+1. Go to https://dash.cloudflare.com → Select account
+2. Go to Analytics & Logs → Web Analytics
+3. Enable Web Analytics for each domain:
+   - dse.wyattau.com
+   - ib.wyattau.com
+   - alevel.wyattau.com
+   - university.wyattau.com
+   - qualifications.wyattau.com
+   - programming.wyattau.com
+   - infrastructure.wyattau.com
+   - languages.wyattau.com
+   - tools.wyattau.com
+   - wyattsnotes.wyattau.com
+4. The beacon script will be automatically injected by Cloudflare
+5. No code changes needed — Cloudflare handles injection
 
-**Location:** Cloudflare Dashboard → wyattau.com → Analytics & Logs → Web Analytics
+### Alternative: Cloudflare Workers Analytics
+If Web Analytics is not available, use the Workers Analytics dashboard:
+- Go to Analytics & Logs → Workers Analytics
+- View request counts, response times, error rates per worker
 
-**Action:** Enable Web Analytics for the zone. This is automatic (no code needed) — uses CF edge data.
+## robots.txt Verification
 
-## 3. Cloudflare AI Audit (robots.txt)
-
-**Current state:** Cloudflare auto-generates robots.txt with:
-- `User-agent: * → Allow: /` (search allowed)
-- Blocks AI scrapers (GPTBot, ClaudeBot, etc.)
-- `Content-Signal: search=yes, ai-train=no`
-
-**Decision:** Keep Cloudflare-managed robots.txt (good AI blocking). No custom robots.txt needed.
-
-## 4. Old Docusaurus Repository
-
-**Status:** Deploy workflows disabled (renamed to `.disabled`)
-
-**Optional:** Add deprecation notice to old repo README pointing to new sites.
+All sites already have robots.txt with sitemap references:
+- https://dse.wyattau.com/robots.txt
+- https://ib.wyattau.com/robots.txt
+- https://alevel.wyattau.com/robots.txt
+- https://university.wyattau.com/robots.txt
+- https://qualifications.wyattau.com/robots.txt
+- https://programming.wyattau.com/robots.txt
+- https://infrastructure.wyattau.com/robots.txt
+- https://languages.wyattau.com/robots.txt
+- https://tools.wyattau.com/robots.txt
