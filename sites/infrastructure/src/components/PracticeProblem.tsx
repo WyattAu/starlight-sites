@@ -1,7 +1,7 @@
 import { createSignal, createEffect, For } from 'solid-js';
 import { sanitizeHtml } from '../utils/sanitize';
-
-export type Difficulty = 'easy' | 'medium' | 'hard';
+import { COLORS, DIFFICULTY_COLORS } from '../utils/colors';
+import type { Difficulty } from '../utils/colors';
 
 export interface PracticeQuestionData {
   question: string;
@@ -20,12 +20,6 @@ export interface PracticeProblemProps {
   difficulty?: Difficulty;
   questions?: PracticeQuestionData[];
 }
-
-const DIFFICULTY_COLORS: Record<Difficulty, string> = {
-  easy: '#2ecc71',
-  medium: '#f39c12',
-  hard: '#e74c3c',
-};
 
 function escapeHtml(text: string): string {
   return text

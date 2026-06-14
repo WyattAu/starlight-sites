@@ -1,17 +1,21 @@
-# Roadmap — Wyatt's Notes
+# Roadmap
 
 ## Current State (June 2026)
 
 ### Infrastructure
+
 - 9 Starlight sites deployed to Cloudflare Pages
 - Landing page at wyattsnotes.wyattau.com
-- Cross-site search API at search.wyattau.com
-- CI/CD via GitHub Actions (build + deploy workflows)
-- Uptime monitoring via GitHub Actions (every 6 hours)
+- Cross-site search API at search.wyattau.com (9 sites, 2013 entries)
+- CI/CD via GitHub Actions (ci.yml + deploy.yml)
+- Uptime monitoring every 6 hours
+- Pre-commit hooks (Husky + lint-staged)
+- 134 automated tests (unit + integration)
 
 ### Sites
-| Site | URL | Status |
-|------|-----|--------|
+
+| Site | Domain | Status |
+|------|--------|--------|
 | DSE | dse.wyattau.com | Live |
 | IB | ib.wyattau.com | Live |
 | A-Level | alevel.wyattau.com | Live |
@@ -22,103 +26,125 @@
 | Languages | languages.wyattau.com | Live |
 | Tools | tools.wyattau.com | Live |
 
-### Features
-- Cross-site search with ranking algorithm
-- A/B testing for search variants
-- Edge caching for popular queries
-- Analytics dashboard at search.wyattau.com
-- Mermaid diagram support
-- KaTeX math rendering
-- Tabs and admonitions (Starlight components)
-- Structured data (JSON-LD)
-- Security headers (HSTS, X-Frame, etc.)
-- Legacy redirects for old subdomains
+### Technical Debt Resolved
+
+- Removed 6 dead components (Breadcrumbs, ProgressTracker, PracticeQuiz, DifficultyBadge, LastUpdated, RelatedTopics)
+- Consolidated 3 redundant CI workflows into 2 focused workflows
+- Fixed hardcoded secrets in upload-index.js, deploy.yml, wrangler.toml
+- Fixed deprecated API usage (Math.random().substr)
+- Removed dead code from search worker (handleSearchWithPreview)
+- Fixed generate-site.mjs to match actual site structure (SolidJS, not React)
+- Created shared color constants to eliminate hardcoded color duplication
+- Added accessibility improvements (skip links, ARIA labels, focus styles)
 
 ---
 
-## Phase 1: Immediate (This Week)
+## Phase 1: Stabilization (Week 1-2)
 
-### Completed
-- [x] Content validation scripts
-- [x] Config validation scripts
-- [x] CI workflow with linting
-- [x] README documentation
-- [x] UI audit screenshots
+### Priority 1: CI/CD Verification
 
-### Remaining
-- [ ] Enable Cloudflare Web Analytics (manual)
-- [ ] Submit sitemaps to Google Search Console (manual)
+- [ ] Verify CI workflow runs successfully on GitHub Actions
+- [ ] Verify deploy workflow deploys all 9 sites to Cloudflare Pages
+- [ ] Update actions/checkout from v4 to v5 (Node.js 24 compatibility)
+- [ ] Add deployment status badges to README
 
----
+### Priority 2: Legacy Cleanup
 
-## Phase 2: Content Enhancement (Month 2)
+- [ ] Create Cloudflare Transform Rules for legacy subdomains
+- [ ] Remove custom domains from old CF Pages projects
+- [ ] Delete old CF Pages projects after redirect verification
 
-### Priority 1: Content Quality
-- [ ] Add practice quizzes to key topics
-- [ ] Add interactive code examples (StackBlitz/CodeSandbox)
-- [ ] Add progress tracking (localStorage)
-- [ ] Add "Prerequisites" sections to complex topics
+### Priority 3: Search Console
 
-### Priority 2: Content Structure
-- [ ] Add "Related Topics" cross-links between sites
-- [ ] Add "Last Updated" timestamps to pages
-- [ ] Add difficulty levels (Beginner/Intermediate/Advanced)
-- [ ] Add video embeds for complex concepts
-
----
-
-## Phase 3: SEO & Discoverability (Month 2)
-
-### Priority 1: Search Console
-- [ ] Submit all 9 sitemaps
+- [ ] Add domain property in Google Search Console
+- [ ] Verify via DNS TXT record
+- [ ] Submit sitemaps for all 9 sites
 - [ ] Request indexing for key pages
-- [ ] Monitor crawl errors
-
-### Priority 2: On-Page SEO
-- [ ] Add breadcrumbs to all pages
-- [ ] Optimize meta descriptions
-- [ ] Add Open Graph images to all pages
-- [ ] Create XML sitemaps with lastmod dates
 
 ---
 
-## Phase 4: Performance (Month 3)
+## Phase 2: Content Quality (Week 2-4)
+
+### Priority 1: Thin Content
+
+- [ ] Expand 24 thin content pages (< 50 words) identified by linter
+- [ ] Add "Prerequisites" sections to complex topics
+- [ ] Add "Related Topics" cross-links between sites
+
+### Priority 2: Component Fixes
+
+- [ ] Fix DiagnosticTest adaptive algorithm (scores always empty)
+- [ ] Split FlashcardDeck.tsx into smaller modules (836 lines)
+- [ ] Split DiagnosticTest.tsx into smaller modules (602 lines)
+- [ ] Remove inline styles from .tsx components, use CSS classes
+
+### Priority 3: Content Enrichment
+
+- [ ] Add practice quizzes to key topics using PracticeProblem.tsx
+- [ ] Add interactive code examples (StackBlitz/CodeSandbox)
+- [ ] Add "Last Updated" timestamps via git blame
+
+---
+
+## Phase 3: SEO and Discoverability (Week 4-6)
+
+### Priority 1: On-Page SEO
+
+- [ ] Add Open Graph images to all pages
+- [ ] Optimize meta descriptions
+- [ ] Add structured data (JSON-LD) to all site configs
+- [ ] Verify robots.txt includes sitemap references
+
+### Priority 2: Search Console
+
+- [ ] Monitor crawl errors weekly
+- [ ] Fix any 404 errors identified
+- [ ] Submit new/updated pages for indexing
+
+---
+
+## Phase 4: Performance (Week 6-8)
 
 ### Priority 1: Caching
+
 - [ ] Configure Cloudflare Page Rules for aggressive caching
 - [ ] Add Cache-Control headers to static assets
-- [ ] Implement service worker for offline access
+- [ ] Verify warm TTFB < 1s for all sites
 
 ### Priority 2: Optimization
+
 - [ ] Optimize image loading (WebP, lazy loading)
-- [ ] Preload critical resources
 - [ ] Reduce JavaScript bundle size
+- [ ] Preload critical resources
 
 ---
 
-## Phase 5: Developer Experience (Month 3)
+## Phase 5: Developer Experience (Week 8-10)
 
-### Priority 1: Contributing
-- [ ] Add issue templates for content corrections
-- [ ] Add PR templates with checklist
-- [ ] Add code owners for content areas
-- [ ] Create content authoring guide
+### Priority 1: Testing
 
-### Priority 2: Local Development
-- [ ] Document local development setup
-- [ ] Add pre-commit hooks for content validation
-- [ ] Create content validation scripts
+- [ ] Add Playwright E2E tests for critical user flows
+- [ ] Add visual regression tests (screenshot comparison)
+- [ ] Add search API unit tests (mock KV)
+
+### Priority 2: Documentation
+
+- [ ] Add API reference for search endpoints
+- [ ] Add component storybook for interactive components
+- [ ] Add architecture decision records (ADRs)
 
 ---
 
 ## Phase 6: Advanced Features (Month 3+)
 
-### Priority 1: Search Enhancements
+### Priority 1: Search
+
 - [ ] Search result previews (page thumbnails)
 - [ ] Search filters by subject/difficulty
 - [ ] Search analytics dashboard improvements
 
-### Priority 2: Content Features
+### Priority 2: Content
+
 - [ ] Dark/light theme toggle per site
 - [ ] Print-friendly versions
 - [ ] PDF export for offline study
@@ -130,25 +156,14 @@
 
 | Metric | Current | Target |
 |--------|---------|--------|
+| Live sites | 9/9 | 9/9 |
+| Test coverage | 134 tests | 200+ tests |
+| CI/CD pass rate | Unknown | >99% |
 | Google indexed pages | Unknown | >500 |
 | Monthly visitors | Unknown | >1000 |
-| Bounce rate | Unknown | <50% |
-| Average session | Unknown | >2 min |
-| Search usage | Unknown | >100/month |
-| TTFB (all sites) | <0.2s | <0.1s |
-| Test coverage | 0% | >80% |
-
----
-
-## Technical Debt
-
-| Item | Priority | Effort |
-|------|----------|--------|
-| Add unit tests for search API | Medium | 4 hours |
-| Add integration tests for CI/CD | Medium | 2 hours |
-| Add E2E tests for all sites | Low | 8 hours |
-| Optimize build times | Low | 4 hours |
-| Add TypeScript strict mode | Low | 2 hours |
+| TTFB (all sites) | <3s | <1s |
+| Search entries | 2013 | 2500+ |
+| Accessibility | Partial | WCAG 2.1 AA |
 
 ---
 
@@ -156,20 +171,11 @@
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-06-14 | Remove 6 dead components | Zero imports across all content files |
+| 2026-06-14 | Consolidate CI to 2 workflows | 3 workflows caused 27+ redundant builds per push |
+| 2026-06-14 | Use SolidJS (not React) | All existing .tsx components use SolidJS primitives |
+| 2026-06-14 | Extract shared color constants | Hardcoded colors duplicated across 3+ components |
+| 2026-06-14 | Add Husky pre-commit hooks | Enforce linting before every commit |
 | 2026-06-12 | Use Starlight over Docusaurus | Better performance, modern features |
-| 2026-06-12 | Use Cloudflare Pages for hosting | Free, fast, integrated with CF |
-| 2026-06-12 | Use Pagefind for search | Zero-config, fast, free |
-| 2026-06-12 | Use astro-mermaid for diagrams | Official Starlight integration |
-| 2026-06-12 | Use KV for search index | Fast, scalable, free tier |
-
----
-
-## Risk Assessment
-
-| Risk | Impact | Likelihood | Mitigation |
-|------|--------|------------|------------|
-| CF Pages outage | All sites down | Low | CF has 99.99% SLA |
-| Search API failure | No search | Low | KV caching, fallback to per-site |
-| Build failure | Deploy blocked | Medium | CI validation, retry logic |
-| Content drift | Inaccurate notes | Low | Contributing guidelines, reviews |
-| Performance degradation | Slow sites | Low | Monitoring, optimization |
+| 2026-06-12 | Use Cloudflare Pages | Free, fast, integrated with CF |
+| 2026-06-12 | Use Cross-site search API | Unified search across 9 sites |
