@@ -1,6 +1,5 @@
-import { createSignal, createEffect, For } from 'solid-js';
+import { createSignal, createEffect } from 'solid-js';
 import { sanitizeHtml } from '../utils/sanitize';
-import { COLORS, DIFFICULTY_COLORS } from '../utils/colors';
 import type { Difficulty } from '../utils/colors';
 
 export interface PracticeQuestionData {
@@ -33,8 +32,8 @@ function escapeHtml(text: string): string {
 export default function PracticeProblem(props: PracticeProblemProps) {
   if (props.questions && props.questions.length > 0) {
     return (
-      <div style={{ display: 'flex', 'flex-direction': 'column', gap: '1.5rem' }}>
-        {props.questions.map((q, idx) => (
+      <div class="practice-problem-list">
+        {props.questions.map((q) => (
           <PracticeProblemItem
             question={q.question}
             options={q.options}
@@ -56,6 +55,16 @@ export default function PracticeProblem(props: PracticeProblemProps) {
       difficulty={props.difficulty ?? 'medium'}
     />
   );
+}
+
+function optionClass(index: number, selected: number | null, submitted: boolean, correctAnswer: number): string {
+  let cls = 'practice-problem-option';
+  if (!submitted && selected === index) cls += ' practice-problem-option--selected';
+  if (submitted) {
+    if (index === correctAnswer) cls += ' practice-problem-option--correct';
+    else if (index === selected) cls += ' practice-problem-option--wrong';
+  }
+  return cls;
 }
 
 function PracticeProblemItem(props: {
@@ -101,83 +110,20 @@ function PracticeProblemItem(props: {
     }
   };
 
-  const getOptionStyle = (index: number): Record<string, string> => {
-    const base: Record<string, string> = {
-      display: 'block',
-      width: '100%',
-      padding: '12px 16px',
-      margin: '6px 0',
-      border: '2px solid var(--ifm-color-emphasis-300)',
-      'border-radius': '8px',
-      background: 'var(--ifm-background-surface-color)',
-      color: 'var(--ifm-font-color-base)',
-      'font-size': '1rem',
-      'text-align': 'left',
-      cursor: submitted() ? 'default' : 'pointer',
-      transition: 'border-color 0.15s, background 0.15s',
-      'font-family': 'inherit',
-    };
-
-    if (!submitted() && selected() === index) {
-      base['border-color'] = 'var(--ifm-color-primary)';
-      base.background = 'var(--ifm-color-primary-soft)';
-    }
-    if (submitted()) {
-      if (index === props.correctAnswer) {
-        base['border-color'] = DIFFICULTY_COLORS.easy;
-        base.background = 'rgba(46,204,113,0.12)';
-      } else if (index === selected() && index !== props.correctAnswer) {
-        base['border-color'] = DIFFICULTY_COLORS.hard;
-        base.background = 'rgba(231,76,60,0.12)';
-      }
-    }
-
-    return base;
-  };
-
   return (
     <div
+      class="practice-problem"
       onKeyDown={handleKeyDown}
       role="radiogroup"
       aria-label="Practice problem options"
-      style={{
-        'max-width': '700px',
-        margin: '1.5rem auto',
-        padding: '24px',
-        border: '2px solid var(--ifm-color-emphasis-300)',
-        'border-radius': '12px',
-        background: 'var(--ifm-background-surface-color)',
-        'font-family': 'var(--ifm-font-family-base)',
-      }}
     >
-      <div style={{ display: 'flex', 'align-items': 'center', gap: '8px', 'margin-bottom': '12px' }}>
-        <span
-          style={{
-            display: 'inline-block',
-            padding: '2px 10px',
-            'border-radius': '4px',
-            'font-size': '0.75rem',
-            'font-weight': 600,
-            'text-transform': 'uppercase',
-            'letter-spacing': '0.05em',
-            background: DIFFICULTY_COLORS[props.difficulty],
-            color: '#fff',
-          }}
-        >
+      <div class="practice-problem-header">
+        <span class="practice-problem-difficulty" data-difficulty={props.difficulty}>
           {props.difficulty}
         </span>
       </div>
 
-      <p
-        style={{
-          'font-size': '1.15rem',
-          'font-weight': 600,
-          'margin-bottom': '16px',
-          color: 'var(--ifm-font-color-base)',
-        }}
-      >
-        {escapeHtml(props.question)}
-      </p>
+      <p class="practice-problem-question">{escapeHtml(props.question)}</p>
 
       <div role="group" aria-label="Answer options">
         {props.options.map((opt, i) => (
@@ -192,9 +138,9 @@ function PracticeProblemItem(props: {
             tabIndex={selected() === i ? 0 : -1}
             disabled={submitted()}
             onClick={() => !submitted() && setSelected(i)}
-            style={getOptionStyle(i)}
+            class={optionClass(i, selected(), submitted(), props.correctAnswer)}
           >
-            <span style={{ 'font-weight': 600, 'margin-right': '8px' }}>{String.fromCharCode(65 + i)}.</span>
+            <span class="practice-problem-option-letter">{String.fromCharCode(65 + i)}.</span>
             {typeof opt === 'string' ? opt : ''}
           </button>
         ))}
@@ -203,21 +149,9 @@ function PracticeProblemItem(props: {
       {!submitted() && (
         <button
           type="button"
+          class="practice-problem-submit"
           disabled={selected() === null}
           onClick={handleSubmit}
-          style={{
-            'margin-top': '12px',
-            padding: '10px 24px',
-            border: 'none',
-            'border-radius': '8px',
-            background:
-              selected() === null ? 'var(--ifm-color-emphasis-300)' : 'var(--ifm-color-primary)',
-            color: '#fff',
-            'font-weight': 600,
-            'font-size': '1rem',
-            cursor: selected() === null ? 'not-allowed' : 'pointer',
-            opacity: selected() === null ? '0.6' : '1',
-          }}
         >
           Submit
         </button>
@@ -225,19 +159,23 @@ function PracticeProblemItem(props: {
 
       {submitted() && (
         <div
-          style={{
-            'margin-top': '16px',
-            padding: '16px',
-            'border-radius': '8px',
-            background: isCorrect() ? 'rgba(46,204,113,0.1)' : 'rgba(231,76,60,0.1)',
-            border: `1px solid ${isCorrect() ? DIFFICULTY_COLORS.easy : DIFFICULTY_COLORS.hard}`,
-          }}
+          class={
+            'practice-problem-feedback ' +
+            (isCorrect() ? 'practice-problem-feedback--correct' : 'practice-problem-feedback--wrong')
+          }
         >
-          <strong style={{ color: isCorrect() ? DIFFICULTY_COLORS.easy : DIFFICULTY_COLORS.hard }}>
+          <strong
+            class={
+              'practice-problem-feedback-title ' +
+              (isCorrect()
+                ? 'practice-problem-feedback-title--correct'
+                : 'practice-problem-feedback-title--wrong')
+            }
+          >
             {isCorrect() ? 'Correct!' : 'Incorrect.'}
           </strong>
           <div
-            style={{ 'margin-top': '8px', 'line-height': '1.6', color: 'var(--ifm-font-color-base)' }}
+            class="practice-problem-feedback-text"
             innerHTML={sanitizeHtml(props.explanation)}
           />
         </div>

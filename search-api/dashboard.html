@@ -99,13 +99,13 @@
       try {
         const resp = await fetch(`${API}/health`);
         const data = await resp.json();
-        document.getElementById('status').textContent = data.status === 'ok' ? '✅' : '❌';
+        document.getElementById('status').textContent = data.status === 'ok' ? 'OK' : 'FAIL';
         document.getElementById('entries').textContent = data.totalEntries.toLocaleString();
         document.getElementById('sites').textContent = data.siteCount;
         const updated = new Date(data.lastUpdated);
         document.getElementById('updated').textContent = updated.toLocaleDateString() + ' ' + updated.toLocaleTimeString();
       } catch {
-        document.getElementById('status').textContent = '❌';
+        document.getElementById('status').textContent = 'FAIL';
       }
     }
 

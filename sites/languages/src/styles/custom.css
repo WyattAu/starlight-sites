@@ -7,6 +7,13 @@
   --sl-color-accent-high: #ff8c4a;
   --wn-font-body: 'Inter', system-ui, -apple-system, sans-serif;
   --wn-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Semantic status colors (single source of truth; mirrors shared/utils/colors.ts). */
+  --wn-success: #2ecc71;
+  --wn-warning: #f39c12;
+  --wn-error: #e74c3c;
+  --wn-info: #3498db;
+  --wn-neutral: #95a5a6;
 }
 
 [data-theme='dark'] {
@@ -113,8 +120,8 @@ body {
 }
 
 .flashcard-stat--highlight {
-  background: rgba(231, 76, 60, 0.1);
-  border-color: #e74c3c;
+  background: color-mix(in srgb, var(--wn-error) 10%, transparent);
+  border-color: var(--wn-error);
 }
 
 .flashcard-stat-value {
@@ -206,8 +213,8 @@ body {
 }
 
 .flashcard-action-btn--danger {
-  background: rgba(231, 76, 60, 0.1);
-  color: #e74c3c;
+  background: color-mix(in srgb, var(--wn-error) 10%, transparent);
+  color: var(--wn-error);
 }
 
 /* Flashcard Review Mode */
@@ -421,13 +428,13 @@ body {
 }
 
 .diagnostic-option--correct {
-  border-color: #2ecc71 !important;
-  background: rgba(46, 204, 113, 0.1);
+  border-color: var(--wn-success) !important;
+  background: color-mix(in srgb, var(--wn-success) 10%, transparent);
 }
 
 .diagnostic-option--wrong {
-  border-color: #e74c3c !important;
-  background: rgba(231, 76, 60, 0.1);
+  border-color: var(--wn-error) !important;
+  background: color-mix(in srgb, var(--wn-error) 10%, transparent);
 }
 
 .diagnostic-option-label {
@@ -565,234 +572,151 @@ body {
 }
 
 .diagnostic-tag--strong {
-  background: rgba(46, 204, 113, 0.15);
-  color: #2ecc71;
+  background: color-mix(in srgb, var(--wn-success) 15%, transparent);
+  color: var(--wn-success);
 }
 
 .diagnostic-tag--weak {
-  background: rgba(231, 76, 60, 0.15);
-  color: #e74c3c;
+  background: color-mix(in srgb, var(--wn-error) 15%, transparent);
+  color: var(--wn-error);
 }
 
 .diagnostic-tag--review {
-  background: rgba(243, 156, 18, 0.15);
-  color: #f39c12;
+  background: color-mix(in srgb, var(--wn-warning) 15%, transparent);
+  color: var(--wn-warning);
 }
 
-/* === BookmarkManager Styles === */
-.bookmark-manager {
+/* === PracticeProblem Styles === */
+.practice-problem-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.practice-problem {
+  --problem-bg: var(--sl-color-gray-2);
   max-width: 700px;
   margin: 1.5rem auto;
   padding: 24px;
   border: 2px solid var(--ifm-color-emphasis-300);
   border-radius: 12px;
   background: var(--ifm-background-surface-color);
-  color: var(--ifm-font-color-base);
   font-family: var(--ifm-font-family-base);
-}
-
-.bookmark-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.bookmark-title {
-  margin: 0;
-}
-
-.bookmark-actions {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.bookmark-btn {
-  padding: 6px 14px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 6px;
-  background: transparent;
-  color: var(--ifm-font-color-base);
-  font-size: 0.85rem;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.bookmark-btn--primary {
-  border: none;
-  background: var(--ifm-color-primary);
-  color: #fff;
-}
-
-.bookmark-add-form {
-  padding: 16px;
-  border-radius: 8px;
-  background: var(--ifm-color-emphasis-100);
-  margin-bottom: 16px;
-}
-
-.bookmark-form-row {
-  margin-bottom: 12px;
-}
-
-.bookmark-label {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-bottom: 4px;
-  color: var(--ifm-color-emphasis-700);
-}
-
-.bookmark-input,
-.bookmark-textarea {
-  width: 100%;
-  padding: 8px 12px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 6px;
-  background: var(--ifm-background-surface-color);
-  color: var(--ifm-font-color-base);
-  font-size: 0.9rem;
-  font-family: inherit;
-}
-
-.bookmark-textarea {
-  min-height: 60px;
-  resize: vertical;
-}
-
-.bookmark-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 12px;
-}
-
-.bookmark-filter-btn {
-  padding: 4px 10px;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 12px;
-  background: transparent;
-  color: var(--ifm-color-emphasis-700);
-  font-size: 0.75rem;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.bookmark-filter-btn--active {
-  border-color: var(--ifm-color-primary);
-  background: rgba(255, 107, 53, 0.1);
-  color: var(--ifm-color-primary);
-}
-
-.bookmark-search {
-  margin-bottom: 16px;
-}
-
-.bookmark-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.bookmark-empty {
-  text-align: center;
-  padding: 24px;
-  color: var(--ifm-color-emphasis-500);
-  font-size: 0.9rem;
-}
-
-.bookmark-item {
-  padding: 12px 16px;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 8px;
-  background: var(--ifm-background-surface-color);
-}
-
-.bookmark-item-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 8px;
-}
-
-.bookmark-item-title {
-  font-weight: 600;
-  color: var(--ifm-color-primary);
-  text-decoration: none;
-}
-
-.bookmark-item-title:hover {
-  text-decoration: underline;
-}
-
-.bookmark-remove-btn {
-  border: none;
-  background: none;
-  color: var(--ifm-color-emphasis-500);
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 0;
-  line-height: 1;
-}
-
-.bookmark-remove-btn:hover {
-  color: #e74c3c;
-}
-
-.bookmark-item-meta {
-  display: flex;
-  gap: 8px;
-  margin-top: 4px;
-  font-size: 0.75rem;
-  color: var(--ifm-color-emphasis-500);
-}
-
-.bookmark-item-site {
-  font-weight: 600;
-  color: var(--sl-color-accent);
-}
-
-.bookmark-item-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  margin-top: 8px;
-}
-
-.bookmark-tag {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 0.7rem;
-  font-weight: 500;
-  background: var(--ifm-color-emphasis-100);
-  color: var(--ifm-color-emphasis-700);
-}
-
-.bookmark-item-notes {
-  margin-top: 8px;
-  padding: 8px 12px;
-  border-radius: 6px;
-  background: var(--ifm-color-emphasis-100);
-  font-size: 0.85rem;
-  color: var(--ifm-color-emphasis-700);
-  line-height: 1.5;
-}
-
-/* === PracticeProblem Styles === */
-.practice-problem {
-  --problem-bg: var(--sl-color-gray-2);
-  border: 1px solid var(--sl-color-gray-5);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1rem 0;
 }
 
 [data-theme='dark'] .practice-problem {
   --problem-bg: var(--sl-color-gray-6);
+}
+
+.practice-problem-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.practice-problem-difficulty {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.practice-problem-difficulty[data-difficulty='easy'] { background: var(--wn-success); }
+.practice-problem-difficulty[data-difficulty='medium'] { background: var(--wn-warning); }
+.practice-problem-difficulty[data-difficulty='hard'] { background: var(--wn-error); }
+
+.practice-problem-question {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--ifm-font-color-base);
+}
+
+.practice-problem-option {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  margin: 6px 0;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  font-size: 1rem;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.practice-problem-option:hover:not(:disabled) {
+  border-color: var(--ifm-color-primary);
+}
+.practice-problem-option--selected {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-soft);
+}
+.practice-problem-option--correct {
+  border-color: var(--wn-success) !important;
+  background: color-mix(in srgb, var(--wn-success) 12%, transparent);
+}
+.practice-problem-option--wrong {
+  border-color: var(--wn-error) !important;
+  background: color-mix(in srgb, var(--wn-error) 12%, transparent);
+}
+.practice-problem-option:disabled {
+  cursor: default;
+}
+
+.practice-problem-option-letter {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.practice-problem-submit {
+  margin-top: 12px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.practice-problem-submit:disabled {
+  background: var(--ifm-color-emphasis-300);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.practice-problem-feedback {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+}
+.practice-problem-feedback--correct {
+  background: color-mix(in srgb, var(--wn-success) 10%, transparent);
+  border-color: var(--wn-success);
+}
+.practice-problem-feedback--wrong {
+  background: color-mix(in srgb, var(--wn-error) 10%, transparent);
+  border-color: var(--wn-error);
+}
+.practice-problem-feedback-title {
+  display: block;
+}
+.practice-problem-feedback-title--correct { color: var(--wn-success); }
+.practice-problem-feedback-title--wrong { color: var(--wn-error); }
+
+.practice-problem-feedback-text {
+  margin-top: 8px;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
 }
 
 /* === Content Adjustments === */

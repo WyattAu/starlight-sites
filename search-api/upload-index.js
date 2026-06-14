@@ -22,7 +22,7 @@ async function uploadToKV() {
   // Read the merged index
   const indexPath = path.join(__dirname, 'merged-index.json');
   if (!fs.existsSync(indexPath)) {
-    console.error('❌ merged-index.json not found. Run build-search-index.js first.');
+    console.error('[FAIL] merged-index.json not found. Run build-search-index.js first.');
     process.exit(1);
   }
 
@@ -47,10 +47,10 @@ async function uploadToKV() {
 
   if (!indexResp.ok) {
     const err = await indexResp.json();
-    console.error('❌ Failed to upload index:', JSON.stringify(err.errors));
+    console.error('[FAIL] Failed to upload index:', JSON.stringify(err.errors));
     process.exit(1);
   }
-  console.log('✅ Index uploaded');
+  console.log('[OK] Index uploaded');
 
   // Upload metadata
   console.log('Uploading metadata...');
@@ -67,10 +67,10 @@ async function uploadToKV() {
 
   if (!metadataResp.ok) {
     const err = await metadataResp.json();
-    console.error('❌ Failed to upload metadata:', JSON.stringify(err.errors));
+    console.error('[FAIL] Failed to upload metadata:', JSON.stringify(err.errors));
     process.exit(1);
   }
-  console.log('✅ Metadata uploaded');
+  console.log('[OK] Metadata uploaded');
 
   console.log('\nDone! Search index is now live.');
 }

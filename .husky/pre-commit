@@ -1,23 +1,52 @@
 #!/usr/bin/env sh
+# Pre-commit gate: enforces lint + test suite before a commit is allowed.
+# Runs lint-staged (changed-file checks), the repo-wide no-emoji lint,
+# content/config validation, the shared-asset sync integrity check, and the
+# fast unit + integration test suite. Any failure aborts the commit.
+
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "Running pre-commit checks..."
 
-# Run lint-staged (staged file checks)
+# 1. Per-file checks on staged files only (fast, targeted).
 npx lint-staged
+if [ $? -ne 0 ]; then
+  echo "Pre-commit FAILED: lint-staged reported violations."
+  exit 1
+fi
 
-# Run content validation
+# 2. Repo-wide no-emoji lint (code, docs, config -- not content pages).
+node scripts/lint-no-emoji.js
+if [ $? -ne 0 ]; then
+  echo "Pre-commit FAILED: emoji/pictograph symbols are prohibited in code and docs."
+  exit 1
+fi
+
+# 3. Content + config validation.
 node scripts/lint-content.js
 if [ $? -ne 0 ]; then
-  echo "Pre-commit failed: content validation errors"
+  echo "Pre-commit FAILED: content validation errors."
   exit 1
 fi
 
-# Run config validation
 node scripts/lint-config.js
 if [ $? -ne 0 ]; then
-  echo "Pre-commit failed: config validation errors"
+  echo "Pre-commit FAILED: config validation errors."
   exit 1
 fi
 
-echo "Pre-commit checks passed"
+# 4. Shared-asset integrity: every site must match the canonical shared/ source.
+node scripts/sync-shared.mjs --check
+if [ $? -ne 0 ]; then
+  echo "Pre-commit FAILED: shared assets drifted from canonical source. Run 'bun run sync' and re-stage."
+  exit 1
+fi
+
+# 5. Fast test suite (unit + integration). These are pure-Node and complete in seconds.
+node --test tests/unit/*.test.js tests/integration/*.test.js
+if [ $? -ne 0 ]; then
+  echo "Pre-commit FAILED: unit/integration tests failed."
+  exit 1
+fi
+
+echo "Pre-commit checks passed."

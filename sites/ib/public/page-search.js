@@ -332,9 +332,11 @@ function initPageSearch() {
         <div style="padding:0.5rem 1rem;font-size:0.75rem;color:#64748b;text-transform:uppercase">Recent</div>
         ${recent.map(r => `
           <div class="recent-item" data-query="${escapeAttr(r)}">
-            <span class="recent-icon">🕐</span>
+            <span class="recent-icon" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </span>
             <span class="recent-text">${escapeHtml(r)}</span>
-            <span class="recent-remove" data-remove="${escapeAttr(r)}">✕</span>
+            <span class="recent-remove" data-remove="${escapeAttr(r)}" role="button" aria-label="Remove ${escapeHtml(r)} from recent searches">&times;</span>
           </div>
         `).join('')}
       `;

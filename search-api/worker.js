@@ -676,9 +676,9 @@ async function handleDashboard(corsHeaders) {
 
     async function loadHealth(){
       try{const r=await fetch(A+'/health');const d=await r.json();
-      document.getElementById('status').textContent=d.status==='ok'?'✅':'❌';
+      document.getElementById('status').textContent=d.status==='ok'?'OK':'FAIL';
       document.getElementById('entries').textContent=d.totalEntries;
-      document.getElementById('sites').textContent=d.siteCount;}catch{document.getElementById('status').textContent='❌';}
+      document.getElementById('sites').textContent=d.siteCount;}catch{document.getElementById('status').textContent='FAIL';}
     }
 
     async function loadAnalytics(){

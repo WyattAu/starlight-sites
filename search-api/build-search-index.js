@@ -38,7 +38,7 @@ async function fetchSiteIndex(site) {
   try {
     const sitemapResp = await fetchWithTimeout(`${site.url}/sitemap-0.xml`);
     if (!sitemapResp.ok) {
-      console.error(`    ❌ Sitemap failed: ${sitemapResp.status}`);
+      console.error(`    [FAIL] Sitemap failed: ${sitemapResp.status}`);
       return [];
     }
 
@@ -112,10 +112,10 @@ async function fetchSiteIndex(site) {
       entries.push(...results.filter(Boolean));
     }
 
-    console.log(`    ✅ ${site.id}: ${entries.length} entries`);
+    console.log(`    [OK] ${site.id}: ${entries.length} entries`);
     return entries;
   } catch (err) {
-    console.error(`    ❌ ${site.id}: ${err.message}`);
+    console.error(`    [FAIL] ${site.id}: ${err.message}`);
     return [];
   }
 }
