@@ -1,11 +1,18 @@
 ---
 title: Operating Systems
+description: 'Topics in operating systems including process management, synchronisation, memory management, file systems, and virtualization.'
 tags:
   - Computing
   - University
 ---
 
 # Operating Systems
+
+An operating system (OS) is system software that manages computer hardware and software resources and provides services for application programs. It acts as an intermediary between users and the computer hardware, allocating resources such as CPU time, memory, and I/O devices efficiently and fairly among competing processes.
+
+## Key Concepts
+
+Process management involves scheduling algorithms that determine which process executes on the CPU at any given time, using metrics such as turnaround time and response time to evaluate performance. Synchronisation mechanisms, including semaphores and monitors, prevent race conditions when concurrent processes access shared resources. Memory management techniques such as paging and virtual memory enable programs to operate with addresses that exceed physical memory capacity.
 
 ## Contents
 

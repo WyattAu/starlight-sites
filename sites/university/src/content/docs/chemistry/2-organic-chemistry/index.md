@@ -1,6 +1,20 @@
 ---
 title: Organic Chemistry
+description: 'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'
 ---
 
 # Organic Chemistry
 
+Organic chemistry is the study of carbon-containing compounds and their reactions. It encompasses the identification, synthesis, and mechanistic analysis of molecules that form the basis of pharmaceuticals, polymers, natural products, and biological systems. Understanding organic chemistry requires fluency in reaction mechanisms, stereochemistry, and functional group interconversions.
+
+## Key Concepts
+
+Organic reactions proceed through well-defined mechanisms involving the movement of electron pairs, conventionally represented by curved arrows. The major reaction types include nucleophilic substitution ($S_N1$ and $S_N2$), electrophilic addition, elimination (E1 and E2), and nucleophilic acyl substitution. Each mechanism is governed by factors such as substrate structure, solvent polarity, and the nature of the nucleophile or base.
+
+## Worked Example: The $S_N2$ Mechanism
+
+In an $S_N2$ reaction, a nucleophile attacks the electrophilic carbon from the side opposite to the leaving group in a single concerted step. For the reaction of bromomethane with hydroxide:
+
+$$\text{HO}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{OH} + \text{Br}^-$$
+
+The nucleophile ($\text{HO}^-$) approaches the carbon from the back, displacing $\text{Br}^-$. This results in inversion of configuration at the carbon centre, a hallmark of the $S_N2$ pathway.

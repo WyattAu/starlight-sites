@@ -811,3 +811,105 @@ body {
 [data-theme='dark'] .sl-markdown-content img:not([src*='.svg']) {
   filter: brightness(0.85) contrast(1.1);
 }
+
+/* === Print-Friendly Styles === */
+@media print {
+  /* Hide non-essential UI elements */
+  nav, .sidebar-container, .toc-container, .top-nav,
+  .search-button, .theme-toggle, .edit-this-page,
+  .last-updated, .progress-tracker, .breadcrumb,
+  footer, .pagination-nav, .sl-markdown-content .feedback-section {
+    display: none !important;
+  }
+
+  /* Reset colors for print */
+  :root {
+    --sl-color-accent: #000;
+    --sl-color-bg: #fff;
+    --sl-color-text: #000;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Full-width content */
+  .sl-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Ensure content is visible */
+  .sl-markdown-content {
+    text-align: left !important;
+  }
+
+  .sl-markdown-content h1,
+  .sl-markdown-content h2,
+  .sl-markdown-content h3,
+  .sl-markdown-content h4 {
+    page-break-after: avoid;
+    text-align: left !important;
+  }
+
+  /* Prevent page breaks inside code blocks */
+  pre, code, .sl-markdown-content pre {
+    page-break-inside: avoid;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Ensure links show URL */
+  .sl-markdown-content a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  .sl-markdown-content a[href^="#"]:after,
+  .sl-markdown-content a[href^="javascript"]:after {
+    content: "";
+  }
+
+  /* Tables print nicely */
+  table {
+    page-break-inside: avoid;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+  }
+
+  /* Images scale appropriately */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* KaTeX math renders properly */
+  .katex {
+    font-size: 1em;
+  }
+}
+
+/* === Performance: Reduced Motion === */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* === Performance: Content Loading === */
+.sl-markdown-content img {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}
