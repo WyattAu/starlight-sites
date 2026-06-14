@@ -1,10 +1,8 @@
 #!/usr/bin/env sh
-# Pre-commit gate: enforces lint + test suite before a commit is allowed.
-# Runs lint-staged (changed-file checks), the repo-wide no-emoji lint,
+# Pre-commit gate (husky v9): enforces lint + test suite before a commit is
+# allowed. Runs lint-staged (changed-file checks), the repo-wide no-emoji lint,
 # content/config validation, the shared-asset sync integrity check, and the
-# fast unit + integration test suite. Any failure aborts the commit.
-
-. "$(dirname -- "$0")/_/husky.sh"
+# unit + integration test suite. Any failure aborts the commit.
 
 echo "Running pre-commit checks..."
 
