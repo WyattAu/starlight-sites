@@ -1,8 +1,9 @@
 ---
-import { PAGE_TITLE_ID } from '@astrojs/starlight/constants';
-
 const { starlightRoute } = Astro.locals;
 const { entry, slug } = starlightRoute;
+
+// PAGE_TITLE_ID is '_top' — hardcoded to avoid import resolution issues in overrides
+const PAGE_TITLE_ID = '_top';
 
 // Build breadcrumb trail from slug
 // e.g. "physics/1-mechanics/1_forces-and-motion" → [{label: "Physics", href: "/physics/"}, {label: "Forces and Motion"}]
