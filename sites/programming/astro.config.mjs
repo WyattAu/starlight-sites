@@ -4,6 +4,7 @@ import mdx from '@astrojs/mdx';
 import solidJs from '@astrojs/solid-js';
 import sitemap from '@astrojs/sitemap';
 import mermaid from 'astro-mermaid';
+import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
@@ -12,6 +13,7 @@ export default defineConfig({
   output: 'static',
   integrations: [
     mermaid({ theme: "dark", autoTheme: true }),
+    mermaidNoRocketLoader(),
     starlight({
       title: "Wyatt's Notes — Programming",
       
