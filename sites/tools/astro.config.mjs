@@ -14,6 +14,11 @@ export default defineConfig({
     mermaid({ theme: "dark", autoTheme: true }),
     starlight({
       title: "Wyatt's Notes — Tools",
+      
+      components: {
+        PageTitle: './src/components/starlight/PageTitle.astro',
+        MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+      },
       defaultLocale: 'en',
       sidebar: [
         { label: 'Algorithms', autogenerate: { directory: 'algorithms' } },

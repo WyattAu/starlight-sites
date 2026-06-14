@@ -12,6 +12,11 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Wyatt's Notes — Qualifications",
+      
+      components: {
+        PageTitle: './src/components/starlight/PageTitle.astro',
+        MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+      },
       defaultLocale: 'en',
       sidebar: [
         { label: 'Ap', autogenerate: { directory: 'ap' } },

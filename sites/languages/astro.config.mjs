@@ -14,6 +14,11 @@ export default defineConfig({
     mermaid({ theme: "dark", autoTheme: true }),
     starlight({
       title: "Wyatt's Notes — Languages",
+      
+      components: {
+        PageTitle: './src/components/starlight/PageTitle.astro',
+        MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+      },
       defaultLocale: 'en',
       sidebar: [
         { label: 'Dart', autogenerate: { directory: 'dart' } },

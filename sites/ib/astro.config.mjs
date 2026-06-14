@@ -16,6 +16,11 @@ export default defineConfig({
     mermaid({ theme: "dark", autoTheme: true }),
     starlight({
       title: "Wyatt's Notes — IB",
+      
+      components: {
+        PageTitle: './src/components/starlight/PageTitle.astro',
+        MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+      },
       defaultLocale: 'en',
       sidebar: [
         { label: 'Biology', autogenerate: { directory: 'biology' } },
