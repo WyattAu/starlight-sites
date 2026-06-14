@@ -12,6 +12,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Wyatt's Notes — University",
+      description: "Rigorous, proof-based undergraduate STEM notes covering Linear Algebra, Calculus, Classical Mechanics, and Electromagnetism.",
       
       components: {
         PageTitle: './src/components/starlight/PageTitle.astro',
@@ -27,6 +28,8 @@ export default defineConfig({
         { label: 'Physics', autogenerate: { directory: 'physics' } },
       ],
       head: [
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' } },
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
         { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },

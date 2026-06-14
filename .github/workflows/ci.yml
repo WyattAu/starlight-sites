@@ -90,6 +90,15 @@ jobs:
             exit 1
           fi
 
+      - name: Check for large assets
+        working-directory: sites/${{ matrix.site }}
+        run: |
+          large=$(find dist -size +500k -type f 2>/dev/null | head -5)
+          if [ -n "$large" ]; then
+            echo "::warning::Large assets detected (>500KB):"
+            echo "$large"
+          fi
+
   summary:
     needs: [lint, test, build]
     runs-on: ubuntu-latest

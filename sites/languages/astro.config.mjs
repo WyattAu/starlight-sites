@@ -16,6 +16,7 @@ export default defineConfig({
     mermaidNoRocketLoader(),
     starlight({
       title: "Wyatt's Notes — Languages",
+      description: "Comparative programming language notes covering syntax, paradigms, type systems, and concurrency models.",
       
       components: {
         PageTitle: './src/components/starlight/PageTitle.astro',
@@ -36,6 +37,8 @@ export default defineConfig({
         { label: 'Typescript', autogenerate: { directory: 'typescript' } },
       ],
       head: [
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' } },
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
         { tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
         { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
