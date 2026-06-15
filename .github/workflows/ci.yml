@@ -9,6 +9,11 @@ on:
 env:
   BUN_VERSION: "1.2"
 
+# Cancel superseded runs on the same ref to save runner minutes.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -20,11 +25,17 @@ jobs:
         with:
           bun-version: ${{ env.BUN_VERSION }}
 
-      - name: Run content validation
+      - name: No-emoji lint (code, docs, config)
+        run: node scripts/lint-no-emoji.js
+
+      - name: Content validation
         run: node scripts/lint-content.js
 
-      - name: Run config validation
+      - name: Config validation
         run: node scripts/lint-config.js
+
+      - name: Shared-asset integrity (sites must match canonical shared/ source)
+        run: node scripts/sync-shared.mjs --check
 
   test:
     runs-on: ubuntu-latest
@@ -35,6 +46,9 @@ jobs:
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
 
       - name: Run unit tests
         run: node --test tests/unit/*.test.js
@@ -68,7 +82,7 @@ jobs:
           bun-version: ${{ env.BUN_VERSION }}
 
       - name: Install dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Build site
         working-directory: sites/${{ matrix.site }}
@@ -110,6 +124,6 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Stage | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Lint | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Test | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Lint (content + config + no-emoji + sync) | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Test (unit + integration) | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Build (9 sites) | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY

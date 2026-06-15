@@ -1,48 +1,36 @@
 #!/usr/bin/env sh
-# Pre-commit gate (husky v9): enforces lint + test suite before a commit is
-# allowed. Runs lint-staged (changed-file checks), the repo-wide no-emoji lint,
-# content/config validation, the shared-asset sync integrity check, and the
-# unit + integration test suite. Any failure aborts the commit.
+# Pre-commit gate (husky v9).
+#
+# Strict, fast: runs targeted per-file checks via lint-staged (no-emoji,
+# content, config on staged files) plus two tree-wide gates that lint-staged
+# cannot cover -- shared-asset sync integrity and the unit + integration test
+# suite. The full repo-wide content/no-emoji walk additionally runs in CI on
+# every push/PR, so enforcement is layered: changed files here, whole tree CI.
+#
+# Any failure aborts the commit.
 
 echo "Running pre-commit checks..."
 
-# 1. Per-file checks on staged files only (fast, targeted).
+# 1. Per-file checks on staged files only (no-emoji, content, config).
 npx lint-staged
-if [ $? -ne 0 ]; then
+status=$?
+if [ "$status" -ne 0 ]; then
   echo "Pre-commit FAILED: lint-staged reported violations."
   exit 1
 fi
 
-# 2. Repo-wide no-emoji lint (code, docs, config -- not content pages).
-node scripts/lint-no-emoji.js
-if [ $? -ne 0 ]; then
-  echo "Pre-commit FAILED: emoji/pictograph symbols are prohibited in code and docs."
-  exit 1
-fi
-
-# 3. Content + config validation.
-node scripts/lint-content.js
-if [ $? -ne 0 ]; then
-  echo "Pre-commit FAILED: content validation errors."
-  exit 1
-fi
-
-node scripts/lint-config.js
-if [ $? -ne 0 ]; then
-  echo "Pre-commit FAILED: config validation errors."
-  exit 1
-fi
-
-# 4. Shared-asset integrity: every site must match the canonical shared/ source.
+# 2. Shared-asset integrity: every site must match the canonical shared/ source.
 node scripts/sync-shared.mjs --check
-if [ $? -ne 0 ]; then
-  echo "Pre-commit FAILED: shared assets drifted from canonical source. Run 'bun run sync' and re-stage."
+status=$?
+if [ "$status" -ne 0 ]; then
+  echo "Pre-commit FAILED: shared assets drifted. Run 'bun run sync' and re-stage."
   exit 1
 fi
 
-# 5. Fast test suite (unit + integration). These are pure-Node and complete in seconds.
+# 3. Unit + integration tests (pure-Node; the canonical correctness gate).
 node --test tests/unit/*.test.js tests/integration/*.test.js
-if [ $? -ne 0 ]; then
+status=$?
+if [ "$status" -ne 0 ]; then
   echo "Pre-commit FAILED: unit/integration tests failed."
   exit 1
 fi
