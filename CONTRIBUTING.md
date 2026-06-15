@@ -1,53 +1,75 @@
 # Contributing to Wyatt's Notes
 
-## Reporting Issues
+## Reporting issues
 
 Open an issue with:
 
-1. **Subject** -- Which subject/topic contains the error
-2. **Page URL** -- The specific page with the issue
-3. **Description** -- What is incorrect and what the correct information should be
-4. **Evidence** -- Reference to official syllabus or textbook if available
+1. **Subject** -- Which subject or topic contains the error.
+2. **Page URL** -- The specific page.
+3. **Description** -- What is incorrect and what the correct information should be.
+4. **Evidence** -- Reference to the official syllabus or textbook, where available.
 
-## Submitting Changes
+## Submitting changes
 
-1. Fork the repository
-2. Create a branch: `git checkout -b fix/subject-topic`
-3. Make changes
-4. Run linters: `bun run lint`
-5. Run tests: `bun run test`
-6. Submit a pull request
+1. Fork the repository.
+2. Create a branch: `git checkout -b fix/subject-topic`.
+3. Make changes (see the shared-asset SOP below).
+4. Run the full gate: `bun run verify`.
+5. Submit a pull request.
 
-## Content Guidelines
+The pre-commit hook (Husky) runs automatically and enforces per-file checks,
+shared-asset integrity, and the unit + integration test suite. CI repeats the
+full gate plus a nine-site build matrix on every push.
 
-### Writing Style
+## Shared-asset single-source-of-truth SOP
 
-- Precise and formal
-- Define terms before using them
-- Include worked examples for complex concepts
-- Use consistent notation throughout
+Components, utilities, and styles live canonically under `shared/`. The client
+search scripts live canonically under `search-api/`. Each site receives a
+regenerated standalone copy so it can build independently.
 
-### Mathematical Content
+- Edit the canonical source only (`shared/...` or `search-api/...`).
+- Run `bun run sync` to propagate to every site.
+- Run `bun run sync:check` to verify parity.
+- Never edit per-site copies directly; the next sync will overwrite them and the
+  integration test (`tests/unit/shared-sync.test.js`) will fail in CI on drift.
 
-- Inline math: `$...$`
-- Display math: `$$...$$`
-- Verify formulas render correctly
+To scaffold a new site from a content directory:
 
-### Code Examples
+```bash
+bun run generate <name> <title> <url> <content-dir>
+bun run sync
+```
 
-- Complete, runnable examples
-- Comments on key lines
-- Test examples before submitting
-- Consistent formatting
+## Content guidelines
 
-### Structure
+### Writing style
 
-- Start with clear learning objectives
-- Build from simple to complex
-- Include practice problems
-- Cross-reference related topics
+- Precise and formal.
+- Define terms before first use.
+- Include worked examples for complex concepts.
+- Maintain consistent notation throughout.
 
-## Development Setup
+### Mathematical content
+
+- Inline math: `$...$`.
+- Display math: `$$...$$`.
+- Verify formulas render correctly before submitting.
+
+### Code examples
+
+- Complete and runnable.
+- Comments on the key lines.
+- Tested before submission.
+- Consistent formatting.
+
+### No-emoji policy
+
+Emoji and pictograph symbols are prohibited in code, configuration, and
+documentation. Use text equivalents (`OK` / `FAIL`, not status glyphs).
+Mathematical arrows (`->`, implication) and geometric notation are permitted as
+they are legitimate notation, not decoration.
+
+## Development setup
 
 ```bash
 git clone https://github.com/WyattAu/starlight-sites.git
@@ -56,9 +78,9 @@ bun install
 cd sites/dse && bun run dev
 ```
 
-## Code of Conduct
+## Code of conduct
 
-- Be respectful and constructive
-- Focus on educational value
-- Cite sources when possible
-- Maintain academic integrity
+- Be respectful and constructive.
+- Focus on educational value.
+- Cite sources where possible.
+- Maintain academic integrity.

@@ -1,56 +1,65 @@
-# Debugging Plan
+# Operational Status and Known Issues
 
-## Known Issues
+## Verification log (this cycle)
+
+| ID | Item | Result |
+|----|------|--------|
+| V1 | CI workflow passes on GitHub Actions | PASS (lint, integrity, 169 tests, nine-site build) |
+| V2 | Deploy workflow ships all nine sites | PASS (gate green; sites deploying) |
+| V3 | Deploy gate blocks broken code | PASS (gate job precedes every deploy) |
+| V4 | Shared-asset parity enforced in CI | PASS (sync --check + integration test) |
+| V5 | No-emoji policy enforced in CI | PASS (zero violations on code/docs/config) |
+| V6 | Pre-commit hook runs full gate | PASS (Husky v9; lint-staged + sync + tests) |
+
+## Open issues
 
 | ID | Issue | Severity | Status |
 |----|-------|----------|--------|
-| P1 | Old Docusaurus repo still live at legacy subdomains | HIGH | Open |
-| P2 | Legacy subdomains (alevel-maths-physics, alevel-sciences, academics) still active | HIGH | Open |
-| P3 | CI auto-deploy on push not verified via real push | HIGH | Open |
-| P4 | robots.txt is Cloudflare-generated, no sitemap references | MEDIUM | Open |
-| P5 | No Google Search Console verification | MEDIUM | Open |
-| P6 | DSE build timeout locally (>10min with 161 content files) | MEDIUM | Open |
-| P7 | Cloudflare Web Analytics not enabled | MEDIUM | Open |
+| P1 | Legacy Docusaurus sites live at old subdomains | HIGH | Open [manual] |
+| P2 | Legacy subdomains (alevel-maths-physics, alevel-sciences, academics) active | HIGH | Open [manual] |
+| P4 | robots.txt is Cloudflare-generated; sitemap references unverified | MEDIUM | Open [manual] |
+| P5 | Google Search Console verification not configured | MEDIUM | Open [manual] |
+| P6 | Local build time for large sites (DSE, university) exceeds 10 minutes | MEDIUM | Open (CI builds within 60-min budget) |
+| P7 | Cloudflare Web Analytics not enabled | MEDIUM | Open [manual] |
 | P8 | Pagefind search not verified on all sites | LOW | Open |
-| P9 | Performance: university TTFB 3.04s, ib 1.61s | LOW | Open |
+| P9 | Warm TTFB (university, ib) above 1 s target | LOW | Open (see ROADMAP Phase C) |
 
-## Resolution Strategy
+Items previously listed as open that are now resolved (CI auto-deploy
+verification, dead-code cleanup, copy drift, emoji in shipped code, deploy
+gate) are closed by the work in this cycle; see the ROADMAP decision log.
 
-### P1/P2: Legacy Redirects
+## Resolution strategy
 
-1. Create Cloudflare Transform Rules: old subdomain -> new site (301)
-2. Remove custom domains from old CF Pages projects
-3. Delete old projects after redirect verification
+### P1 / P2 -- Legacy redirects (manual)
 
-### P3: CI Verification
+1. Create Cloudflare Transform Rules: old subdomain redirects to the new site
+   with HTTP 301.
+2. Remove custom domains from the old Cloudflare Pages projects.
+3. Delete the old projects after redirect verification.
 
-1. Make trivial commit, push to main
-2. Monitor: `gh run list --workflow=deploy.yml --limit 1`
-3. Verify all 10 jobs succeed
+### P4 / P5 -- Search Console (manual)
 
-### P4/P5: Search Console
+1. Add the domain property `wyattau.com` in Google Search Console.
+2. Verify via DNS TXT record.
+3. Submit sitemaps for all nine sites.
 
-1. Add domain property in Google Search Console
-2. Verify via DNS TXT record
-3. Submit sitemaps for all 9 sites
+### P6 -- Build timeout
 
-### P6: Build Timeout
+1. Binary search for the problematic content file if a specific page is slow.
+2. Increase `NODE_OPTIONS=--max-old-space-size` if memory-bound.
+3. Add build-time monitoring in CI (current budget: 60 minutes per site).
 
-1. Binary search for problematic content file
-2. Increase `NODE_OPTIONS="--max-old-space-size=16384"` if memory-related
-3. Add build timeout monitoring in CI
+### P9 -- Performance
 
-### P9: Performance
+1. Enable aggressive Cloudflare edge caching for hashed assets.
+2. Self-host fonts to remove the Google Fonts round-trip (ROADMAP Phase C).
+3. Measure warm TTFB as the baseline metric.
 
-1. Enable Cloudflare Page Rules for aggressive caching
-2. Add `Cache-Control` headers to static assets
-3. Measure warm TTFB (second request) as baseline
+## Manual task summary
 
-## Manual Tasks
-
-| Task | Domain | Action |
-|------|--------|--------|
-| Google Search Console | All subdomains | Add domain property, verify via DNS |
-| Sitemap Submission | All 9 sites | Submit sitemap-index.xml to GSC |
+| Task | Scope | Action |
+|------|-------|--------|
+| Google Search Console | all subdomains | Add domain property; verify via DNS |
+| Sitemap submission | all nine sites | Submit sitemap-index.xml |
 | Cloudflare Web Analytics | wyattau.com | Enable in dashboard |
-| robots.txt | All 9 sites | Verify sitemap references present |
+| Legacy redirects | old subdomains | Transform Rules + project cleanup |

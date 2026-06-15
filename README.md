@@ -4,106 +4,144 @@
 [![Deploy](https://github.com/WyattAu/starlight-sites/actions/workflows/deploy.yml/badge.svg)](https://github.com/WyattAu/starlight-sites/actions/workflows/deploy.yml)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Monorepo of 9 static documentation sites built with Astro Starlight, deployed to Cloudflare Pages.
+Monorepo of nine static documentation sites, a landing page, and a cross-site
+search API. Each site is built with [Astro](https://astro.build) +
+[Starlight](https://starlight.astro.build), uses SolidJS for interactive
+components, and is deployed to Cloudflare Pages.
 
 ## Sites
 
-| Site | Domain | Status | Scope |
-|------|--------|--------|-------|
-| DSE | [dse.wyattau.com](https://dse.wyattau.com) | Live | Hong Kong Diploma of Secondary Education |
-| IB | [ib.wyattau.com](https://ib.wyattau.com) | Live | International Baccalaureate Diploma Programme |
-| A-Level | [alevel.wyattau.com](https://alevel.wyattau.com) | Live | UK A-Level revision notes |
-| University | [university.wyattau.com](https://university.wyattau.com) | Live | Proof-based undergraduate STEM |
-| Qualifications | [qualifications.wyattau.com](https://qualifications.wyattau.com) | Live | GCSE, AP, Scottish Highers, Irish LC |
-| Programming | [programming.wyattau.com](https://programming.wyattau.com) | Live | C++ systems programming |
-| Infrastructure | [infrastructure.wyattau.com](https://infrastructure.wyattau.com) | Live | Server administration, databases |
-| Languages | [languages.wyattau.com](https://languages.wyattau.com) | Live | Comparative programming languages |
-| Tools | [tools.wyattau.com](https://tools.wyattau.com) | Live | Algorithms, data structures |
-| Landing | [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) | Live | Hub page |
-| Search | [search.wyattau.com](https://search.wyattau.com) | Live | Cross-site search API |
+| Site | Domain | Scope |
+|------|--------|-------|
+| DSE | [dse.wyattau.com](https://dse.wyattau.com) | Hong Kong Diploma of Secondary Education |
+| IB | [ib.wyattau.com](https://ib.wyattau.com) | International Baccalaureate Diploma Programme |
+| A-Level | [alevel.wyattau.com](https://alevel.wyattau.com) | UK A-Level revision notes |
+| University | [university.wyattau.com](https://university.wyattau.com) | Proof-based undergraduate STEM |
+| Qualifications | [qualifications.wyattau.com](https://qualifications.wyattau.com) | GCSE, AP, Scottish Highers, Irish LC |
+| Programming | [programming.wyattau.com](https://programming.wyattau.com) | C++ systems programming |
+| Infrastructure | [infrastructure.wyattau.com](https://infrastructure.wyattau.com) | Server administration, databases |
+| Languages | [languages.wyattau.com](https://languages.wyattau.com) | Comparative programming languages |
+| Tools | [tools.wyattau.com](https://tools.wyattau.com) | Algorithms, data structures |
+| Landing | [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) | Hub page |
+| Search | [search.wyattau.com](https://search.wyattau.com) | Cross-site search API |
 
 ## Architecture
 
 ```
 starlight-sites/
-  sites/                    9 Starlight sub-sites + landing page
-  shared/                   Shared components, styles, integrations, utils
-  search-api/               Cloudflare Worker for cross-site search
-  scripts/                  Validation and linting scripts
-  tests/                    Unit, integration, and E2E tests
-  .github/workflows/        CI/CD pipelines (ci.yml, deploy.yml, uptime.yml)
+  sites/          9 Starlight sub-sites + landing page (main/)
+  shared/         Canonical source for components, utils, styles, integrations
+  search-api/     Cloudflare Worker (search) + canonical client search scripts
+  scripts/        Linters, sync tool, site generator
+  tests/          unit, integration, e2e (GUI snapshot traversal)
+  .github/        ci.yml, deploy.yml, uptime.yml
 ```
 
-### Component Inventory
+### Single-source-of-truth model
+
+`shared/` holds the canonical components, utilities, and styles. Each site
+receives a standalone copy so it builds independently. The tool
+`scripts/sync-shared.mjs` propagates the canonical sources to every site and
+detects drift (`bun run sync:check`). The same model applies to the client
+search scripts canonicalised under `search-api/`. An integration test
+(`tests/unit/shared-sync.test.js`) enforces byte-for-byte parity in CI.
+
+### Component inventory
 
 | Component | Type | Purpose |
 |-----------|------|---------|
-| PageTitle.astro | Starlight override | Breadcrumbs + h1 title from slug |
-| MarkdownContent.astro | Starlight override | Content wrapper + progress tracking |
-| PracticeProblem.tsx | SolidJS | Adaptive quiz with difficulty levels |
-| FlashcardDeck.tsx | SolidJS | SM-2 spaced repetition flashcards |
+| PageTitle.astro | Starlight override | Breadcrumbs and h1 derived from slug |
+| MarkdownContent.astro | Starlight override | Content wrapper and progress tracking |
+| PracticeProblem.tsx | SolidJS | Adaptive multiple-choice practice with keyboard nav |
+| FlashcardDeck.tsx | SolidJS | SM-2 spaced-repetition flashcards |
 | DiagnosticTest.tsx | SolidJS | Adaptive diagnostic assessment |
-| DesmosGraph.tsx | SolidJS | Desmos graphing calculator embed |
+| DesmosGraph.tsx | SolidJS | Desmos graphing-calculator embed |
 | PhetSimulation.tsx | SolidJS | PhET interactive simulation embed |
 
 ## Prerequisites
 
-- Node.js 18+
+- Node.js 20+
 - Bun 1.2+
 
 ## Development
 
 ```bash
-# Install all dependencies
+# Install dependencies (also initialises Husky hooks)
 bun install
 
-# Start dev server for a specific site
+# Develop a specific site
 cd sites/dse && bun run dev
 
-# Run all linters
-bun run lint
-
-# Run all tests
-bun run test
-
-# Build a specific site
-cd sites/dse && bun run build
-
-# Generate a new site from template
-bun run generate <name> <title> <url> <content-dir>
+# Run the full quality gate (linters + tests)
+bun run verify
 ```
+
+### Editing shared assets
+
+Modify the canonical source under `shared/` (components, utils, styles) or
+`search-api/` (client search scripts), then synchronise every site:
+
+```bash
+bun run sync          # propagate canonical sources to all sites
+bun run sync:check    # CI mode: exit non-zero on drift
+```
+
+Never edit per-site copies directly; they are regenerated.
 
 ## Testing
 
 ```bash
-# Unit tests (lint scripts, search API logic)
-bun run test:unit
-
-# Integration tests (repo structure, CI/CD config)
-bun run test:integration
-
-# GUI traversal and accessibility snapshots
-bun run test:gui dse
-bun run test:gui --all
-
-# All tests
-bun run test:all
+bun run test:unit         # unit tests (linters, search API logic, sync integrity)
+bun run test:integration  # integration tests (repo structure, CI/CD config)
+bun run test:gui dse      # GUI DOM + accessibility snapshot for one site
+bun run test:gui --all    # all sites (optional PNG screenshots if Playwright present)
+bun run test              # unit + integration (169 tests)
 ```
+
+The GUI traversal script captures DOM structural snapshots, runs a WCAG-oriented
+accessibility audit, detects drift against committed baselines
+(`tests/e2e/baseline/`), and captures PNG screenshots when a Playwright chromium
+installation is available (graceful DOM-only fallback otherwise).
+
+## Linting
+
+```bash
+bun run lint              # content + config + no-emoji
+bun run lint:links        # internal link integrity
+bun run lint:no-emoji     # pictograph prohibition (code, docs, config)
+bun run lint:all          # everything
+```
+
+### No-emoji policy
+
+Emoji and pictograph symbols are prohibited in code, configuration, and
+repository documentation. Content pages (`.md`/`.mdx` under `sites/*/src/content`)
+are exempt where Unicode code examples and typographic answer markers are
+pedagogically required. The linter flags the dedicated pictograph planes
+(U+2600-U+27BF, U+1F000-U+1FAFF); mathematical arrows and geometric shapes are
+out of scope as legitimate notation.
 
 ## CI/CD
 
-Two GitHub Actions workflows:
+Three GitHub Actions workflows:
 
-- **ci.yml** -- Runs on push/PR to main. Lints content, runs tests (134 tests), builds all 9 sites.
-- **deploy.yml** -- Runs on push to main. Builds, deploys to Cloudflare Pages, updates search index.
+- **ci.yml** -- On push/PR to main: no-emoji lint, content/config validation,
+  shared-asset integrity, unit + integration tests (169), and a build matrix
+  across all nine sites.
+- **deploy.yml** -- On push to main: a gate job (the full quality suite) must
+  pass before any site, the landing page, or the search index is deployed to
+  Cloudflare Pages.
+- **uptime.yml** -- Scheduled every six hours: probes every site and opens an
+  issue on non-200 responses.
 
-Pre-commit hooks (Husky + lint-staged) enforce linting before every commit.
+Pre-commit (Husky v9 + lint-staged) enforces per-file checks, shared-asset
+integrity, and the unit + integration suite before each commit.
 
-### Required Secrets
+### Required secrets
 
 | Secret | Purpose |
 |--------|---------|
-| `CLOUDFLARE_API_TOKEN` | Cloudflare Pages deployment |
+| `CLOUDFLARE_API_TOKEN` | Cloudflare Pages + Worker deployment |
 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare account identifier |
 | `CLOUDFLARE_KV_NAMESPACE_ID` | Search index KV namespace |
 
@@ -120,13 +158,13 @@ Cross-site search at search.wyattau.com:
 | `/api/suggest` | GET | `q` | Query autocomplete suggestions |
 | `/api/analytics` | GET | -- | Search analytics dashboard data |
 
-## Content Conventions
+## Content conventions
 
 - Precise, formal prose. Define terms before use.
-- LaTeX notation: `$inline$` and `$$display$$`
+- LaTeX notation: `$inline$` and `$$display$$`.
 - Code examples: complete, runnable, commented.
 - No emojis in technical documentation.
 
 ## License
 
-AGPLv3 -- See LICENSE.md
+AGPLv3. See [LICENSE.md](LICENSE.md).

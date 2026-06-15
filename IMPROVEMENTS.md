@@ -1,14 +1,14 @@
 # Improvement Plan
 
-## Component Integration (Completed)
+## Component Integration
 
 | Component | Status | Notes |
 |-----------|--------|-------|
 | Breadcrumbs | Integrated | Via PageTitle.astro Starlight override |
 | Progress Tracking | Integrated | Via MarkdownContent.astro Starlight override |
-| Practice Quizzes | Available | PracticeQuiz.astro, PracticeProblem.tsx |
-| Flashcard Deck | Available | FlashcardDeck.tsx with SM-2 algorithm |
-| Diagnostic Tests | Available | DiagnosticTest.tsx |
+| Practice Quizzes | Integrated | PracticeProblem.tsx (CSS-class based, keyboard navigable) |
+| Flashcard Deck | Integrated | FlashcardDeck.tsx with SM-2 algorithm |
+| Diagnostic Tests | Integrated | DiagnosticTest.tsx |
 
 ## Design System
 
@@ -36,4 +36,7 @@
 - Video embeds for complex concepts
 - Dark/light theme toggle per site
 - PDF export for offline study
-- Bookmarking system
+
+Note: BookmarkManager was prototyped but never integrated (zero usages) and has
+been removed. Reintroduce via the shared-asset SOP only when there is a concrete
+integration plan.

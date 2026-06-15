@@ -1,199 +1,184 @@
 # Roadmap
 
-## Current State (June 2026)
+This roadmap tracks the technical path from the current state through hardening,
+scale, and future capability. Each phase has explicit entry criteria, scope, and
+verifiable exit criteria. Items marked [manual] require dashboard access and
+cannot be automated from the repository.
+
+## Current state (June 2026)
 
 ### Infrastructure
 
-- 9 Starlight sites deployed to Cloudflare Pages
-- Landing page at wyattsnotes.wyattau.com
-- Cross-site search API at search.wyattau.com (9 sites, 2013 entries)
-- CI/CD via GitHub Actions (ci.yml + deploy.yml)
-- Uptime monitoring every 6 hours
-- Pre-commit hooks (Husky + lint-staged)
-- 134 automated tests (unit + integration)
-- 3 Architecture Decision Records (ADRs)
-- API reference documentation
+- Nine Starlight sites deployed to Cloudflare Pages; landing page at
+  wyattsnotes.wyattau.com; cross-site search API at search.wyattau.com
+  (nine sites, ~2013 indexed entries).
+- CI/CD via GitHub Actions: `ci.yml` (lint, integrity, tests, nine-site build
+  matrix), `deploy.yml` (gated deploy to Cloudflare Pages), `uptime.yml`
+  (six-hourly probes).
+- Pre-commit gate (Husky v9): lint-staged, shared-asset integrity, unit +
+  integration tests.
+- 169 automated tests (unit + integration).
+- Five Architecture Decision Records.
 
-### Component Architecture
+### Quality controls (added this cycle)
 
-| Component | Module Path | Lines | Purpose |
-|-----------|-------------|-------|---------|
-| FlashcardDeck.tsx | flashcard/sm2.ts, storage.ts, constants.ts | ~400 | SM-2 spaced repetition |
-| DiagnosticTest.tsx | (self-contained) | ~350 | Adaptive diagnostic assessment |
-| PracticeProblem.tsx | (self-contained) | ~240 | Adaptive quiz with difficulty |
-| BookmarkManager.tsx | (self-contained) | ~250 | Client-side bookmarking |
-| DesmosGraph.tsx | (self-contained) | ~236 | Desmos graphing calculator |
-| PhetSimulation.tsx | (self-contained) | ~74 | PhET simulation embed |
+- `scripts/sync-shared.mjs` single-source-of-truth synchroniser with CI drift
+  detection; byte-for-byte parity enforced by `tests/unit/shared-sync.test.js`.
+- `scripts/lint-no-emoji.js` pictograph prohibition on code, docs, and config
+  (content pages exempt for legitimate Unicode examples).
+- Deploy gated on the full quality suite; broken code cannot reach production.
+- `--frozen-lockfile` installs in CI for reproducibility.
 
-### Technical Debt Resolved
+### Component architecture
 
-- Removed 6 dead components (Breadcrumbs, ProgressTracker, PracticeQuiz, DifficultyBadge, LastUpdated, RelatedTopics)
-- Consolidated 3 redundant CI workflows into 2 focused workflows
-- Fixed hardcoded secrets in upload-index.js, deploy.yml, wrangler.toml
-- Fixed deprecated API usage (Math.random.substr)
-- Removed dead code from search worker (handleSearchWithPreview)
-- Fixed generate-site.mjs to match actual site structure (SolidJS, not React)
-- Created shared color constants to eliminate hardcoded color duplication
-- Added accessibility improvements (skip links, ARIA labels, focus styles)
-- Split FlashcardDeck.tsx from 836 to ~400 lines via module extraction
-- Fixed DiagnosticTest adaptive algorithm (scores were always empty)
-- Replaced inline styles with CSS classes for FlashcardDeck and DiagnosticTest
-- Added meta descriptions to all 9 site configs
-- Added dns-prefetch headers for external resources
+| Component | Module | Lines | Status |
+|-----------|--------|-------|--------|
+| PracticeProblem.tsx | self-contained | ~230 | CSS-class based (refactored) |
+| FlashcardDeck.tsx | flashcard/{sm2,storage,constants}.ts | ~400 | SM-2 spaced repetition |
+| DiagnosticTest.tsx | self-contained | ~350 | Adaptive assessment |
+| DesmosGraph.tsx | self-contained | ~236 | Desmos embed |
+| PhetSimulation.tsx | self-contained | ~74 | PhET embed |
+
+Inline-style status: PracticeProblem is fully class-based. FlashcardDeck and
+DiagnosticTest retain dynamic inline styles where a value is computed at runtime
+(CSS custom properties, percentage widths, perspective); static styles use
+classes.
 
 ---
 
-## Phase 1: Stabilization (Completed)
+## Phase A: Stabilisation (complete)
 
-### Priority 1: CI/CD Verification
+- [x] Verify CI workflow on GitHub Actions.
+- [x] Verify deploy workflow ships all nine sites to Cloudflare Pages.
+- [x] Gate deploy on the full quality suite.
+- [x] Add deployment status badges and large-asset detection.
+- [x] Remove dead code (BookmarkManager, shared/config.js, Playwright stubs,
+  stale lockfiles, redundant workspace manifests).
+- [x] Establish shared-asset single-source-of-truth SOP with drift enforcement.
 
-- [x] Verify CI workflow runs successfully on GitHub Actions
-- [x] Verify deploy workflow deploys all 9 sites to Cloudflare Pages
-- [x] Add deployment verification step to deploy.yml
-- [x] Add deployment status badges to README
-- [x] Add large asset detection to CI build step
+### Remaining (operational)
 
-### Priority 2: Legacy Cleanup
-
-- [ ] Create Cloudflare Transform Rules for legacy subdomains (requires dashboard)
-- [ ] Remove custom domains from old CF Pages projects (requires dashboard)
-- [ ] Delete old CF Pages projects after redirect verification (requires dashboard)
-
-### Priority 3: Search Console
-
-- [ ] Add domain property in Google Search Console (requires dashboard)
-- [ ] Verify via DNS TXT record (requires dashboard)
-- [ ] Submit sitemaps for all 9 sites (requires dashboard)
-- [ ] Request indexing for key pages (requires dashboard)
+- [ ] [manual] Create Cloudflare Transform Rules for legacy subdomains.
+- [ ] [manual] Remove custom domains from old Pages projects and delete them.
+- [ ] [manual] Add the domain property in Google Search Console and verify.
 
 ---
 
-## Phase 2: Content Quality (Completed)
+## Phase B: Content quality
 
-### Priority 1: Thin Content
+### Entry criteria
 
-- [ ] Expand 24 thin content pages (< 50 words) identified by linter
-- [ ] Add "Prerequisites" sections to complex topics
-- [ ] Add "Related Topics" cross-links between sites
+Stable CI/CD; sync SOP enforced.
 
-### Priority 2: Component Fixes
+### Scope
 
-- [x] Fix DiagnosticTest adaptive algorithm (scores were always empty)
-- [x] Split FlashcardDeck.tsx into smaller modules (836 -> ~400 lines)
-- [x] Remove inline styles from .tsx components, use CSS classes
-- [ ] Split DiagnosticTest.tsx into smaller modules (currently ~350 lines, acceptable)
+- [ ] Expand the thin content pages (< 50 words) reported by the content linter.
+- [ ] Add "Prerequisites" sections to complex topics.
+- [ ] Add cross-site "Related topics" links.
+- [ ] Add practice problems to key topics via PracticeProblem.tsx.
 
-### Priority 3: Content Enrichment
+### Exit criteria
 
-- [x] BookmarkManager component created for page bookmarking
-- [ ] Add practice quizzes to key topics using PracticeProblem.tsx
-- [ ] Add interactive code examples (StackBlitz/CodeSandbox)
-- [ ] Add "Last Updated" timestamps via git blame
+Zero thin-content warnings in CI; every section links to its prerequisites.
 
 ---
 
-## Phase 3: SEO and Discoverability (Completed)
+## Phase C: Performance and scale
 
-### Priority 1: On-Page SEO
+### Entry criteria
 
-- [x] Add meta descriptions to all site configs
-- [x] Structured data (JSON-LD) verified in all site configs
-- [x] Add dns-prefetch headers for external resources
-- [x] OG images verified in all site configs
-- [ ] Verify robots.txt includes sitemap references (requires live check)
+All sites green; content quality above threshold.
 
-### Priority 2: Search Console
+### Scope
 
-- [ ] Monitor crawl errors weekly (requires dashboard)
-- [ ] Fix any 404 errors identified (requires dashboard)
-- [ ] Submit new/updated pages for indexing (requires dashboard)
+- [ ] Convert raster images to WebP/AVIF and add `loading="lazy"`.
+- [ ] Preload critical fonts; self-host Inter and JetBrains Mono to remove the
+  Google Fonts round-trip.
+- [ ] Audit per-site JavaScript bundle size; code-split islands.
+- [ ] Configure aggressive Cloudflare edge caching for hashed static assets.
+- [ ] Reduce the local build time for large sites (DSE, university) via content
+  partitioning or incremental builds.
 
----
+### Exit criteria
 
-## Phase 4: Performance (Completed)
-
-### Priority 1: Caching
-
-- [x] Add dns-prefetch for external resources
-- [x] Cloudflare edge caching configured (5-minute TTL via Cache-Control headers)
-- [ ] Configure Cloudflare Page Rules for aggressive caching (requires dashboard)
-- [ ] Verify warm TTFB < 1s for all sites (requires live measurement)
-
-### Priority 2: Optimization
-
-- [x] Resource hints added to all site configs
-- [ ] Optimize image loading (WebP, lazy loading)
-- [ ] Reduce JavaScript bundle size
-- [ ] Preload critical resources
+Warm TTFB < 1 s for every site; Lighthouse performance >= 95 on landing and
+representative content pages.
 
 ---
 
-## Phase 5: Developer Experience (Completed)
+## Phase D: Search and discovery
 
-### Priority 1: Testing
+### Entry criteria
 
-- [x] 134 automated tests (unit + integration)
-- [x] GUI snapshot script for accessibility traversal
-- [ ] Add Playwright E2E tests for critical user flows
-- [ ] Add visual regression tests (screenshot comparison)
-- [ ] Add search API unit tests (mock KV)
+Search API stable and indexed.
 
-### Priority 2: Documentation
+### Scope
 
-- [x] API reference for search endpoints (.docs/api-reference.md)
-- [x] 3 Architecture Decision Records (.adrs/)
-- [x] Comprehensive README with badges and architecture diagram
-- [ ] Add component storybook for interactive components
+- [ ] Add search API unit tests with a mocked KV namespace.
+- [ ] Improve ranking (authoritative sources, recency, click-through).
+- [ ] Add search analytics dashboard improvements (query latency, zero-result
+  rate).
+- [ ] Submit and monitor sitemaps in Google Search Console.
 
----
+### Exit criteria
 
-## Phase 6: Advanced Features (Completed)
-
-### Priority 1: Search
-
-- [x] Search API supports site, subject, language, and difficulty filters
-- [x] Search result previews (preview=true parameter)
-- [ ] Search analytics dashboard improvements
-
-### Priority 2: Content
-
-- [x] Dark/light theme toggle (built into Starlight)
-- [x] BookmarkManager component for page bookmarking
-- [ ] Print-friendly versions
-- [ ] PDF export for offline study
+Zero-result rate < 5 percent for syllabus terms; sitemap coverage verified.
 
 ---
 
-## Success Metrics
+## Phase E: Developer experience and testing
+
+### Entry criteria
+
+Core suite stable.
+
+### Scope
+
+- [ ] Add Playwright E2E tests for critical flows (search, flashcard review,
+  practice submission) once a browser is available in CI.
+- [ ] Capture and commit GUI snapshot baselines; promote drift detection to a
+  CI failure.
+- [ ] Add a component preview harness for interactive components.
+- [ ] Generate API documentation from the search Worker source.
+
+### Exit criteria
+
+E2E coverage for the three critical flows; committed baselines with drift gating.
+
+---
+
+## Phase F: Future capability
+
+- [ ] Print-friendly and PDF export of notes.
+- [ ] Offline / PWA support for study on mobile.
+- [ ] Per-user progress sync (optional account layer).
+- [ ] Internationalisation pipeline for non-English syllabi.
+
+---
+
+## Success metrics
 
 | Metric | Current | Target |
 |--------|---------|--------|
-| Live sites | 9/9 | 9/9 |
-| Test coverage | 134 tests | 200+ tests |
-| CI/CD pass rate | >99% | >99% |
-| Google indexed pages | Unknown | >500 |
-| Monthly visitors | Unknown | >1000 |
-| TTFB (all sites) | <3s | <1s |
-| Search entries | 2013 | 2500+ |
-| Accessibility | Partial | WCAG 2.1 AA |
-| Components | 7 interactive | 7 interactive |
-| ADRs | 3 | 3+ |
-| Documentation | API ref + README | Complete |
+| Live sites | 9 / 9 | 9 / 9 |
+| Automated tests | 169 | 220+ |
+| CI / CD pass rate | > 99 percent | > 99 percent |
+| Warm TTFB (all sites) | < 3 s | < 1 s |
+| Search entries | ~2013 | 2500+ |
+| Lighthouse performance | unmeasured | >= 95 |
+| Shared-asset drift | enforced | enforced |
 
 ---
 
-## Decision Log
+## Decision log
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
-| 2026-06-14 | Remove 6 dead components | Zero imports across all content files |
-| 2026-06-14 | Consolidate CI to 2 workflows | 3 workflows caused 27+ redundant builds per push |
-| 2026-06-14 | Use SolidJS (not React) | All existing .tsx components use SolidJS primitives |
-| 2026-06-14 | Extract shared color constants | Hardcoded colors duplicated across 3+ components |
-| 2026-06-14 | Add Husky pre-commit hooks | Enforce linting before every commit |
-| 2026-06-14 | Split FlashcardDeck into modules | 836 lines too long for single file |
-| 2026-06-14 | Fix DiagnosticTest adaptive algo | Scores were always empty, algorithm non-functional |
-| 2026-06-14 | Add BookmarkManager component | User-requested feature for saving pages |
-| 2026-06-12 | Use Starlight over Docusaurus | Better performance, modern features |
-| 2026-06-12 | Use Cloudflare Pages | Free, fast, integrated with CF |
-| 2026-06-12 | Use Cross-site search API | Unified search across 9 sites |
+| 2026-06-15 | Enforce shared-asset single-source-of-truth | Eliminate copy drift; provable parity in CI |
+| 2026-06-15 | No-emoji linter scoped to code/docs/config | Professional, accessible; preserve content notation |
+| 2026-06-15 | Gate deploy on the full quality suite | Broken code cannot reach production |
+| 2026-06-15 | Remain on Cloudflare Pages (ADR-005) | Avoid DNS/redirect churn; keep Worker co-located |
+| 2026-06-14 | Use SolidJS, not React, for islands | Smaller bundles, fine-grained reactivity (ADR-002) |
+| 2026-06-14 | Consolidate to two primary workflows | Prior redundancy caused duplicate builds |
+| 2026-06-12 | Starlight over Docusaurus | Performance and modern tooling (ADR-001) |
+| 2026-06-12 | Cloudflare Pages + Worker + KV | Integrated static + dynamic search (ADR-003) |
