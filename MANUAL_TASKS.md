@@ -1,6 +1,22 @@
 # Manual Tasks
 
-Tasks requiring human intervention (dashboard access, DNS configuration).
+Tasks requiring human intervention (dashboard access, DNS configuration, secrets).
+
+## GitHub Repository Secrets (required)
+
+The `update-search-index` deploy job skips with a warning when
+`CLOUDFLARE_KV_NAMESPACE_ID` is unset. To enable cross-site search index
+refresh, add the following repository secrets under Settings -> Secrets and
+variables -> Actions:
+
+| Secret | Source |
+|--------|--------|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare -> My Profile -> API Tokens |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare dashboard (right sidebar) |
+| `CLOUDFLARE_KV_NAMESPACE_ID` | Workers & Pages -> KV -> namespace ID for `WYATTSNOTES-SEARCH` |
+
+Until `CLOUDFLARE_KV_NAMESPACE_ID` is set, the nine sites and landing page
+deploy normally; only the search index does not refresh.
 
 ## Google Search Console
 

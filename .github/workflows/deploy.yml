@@ -180,11 +180,28 @@ jobs:
         with:
           bun-version: ${{ env.BUN_VERSION }}
 
+      # Guard: the search-index update requires the KV namespace secret. When it
+      # is absent the sites have already deployed successfully; skip the index
+      # steps with a warning instead of marking the whole workflow failed.
+      - name: Check KV secret present
+        id: kvcheck
+        env:
+          KV_NS: ${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}
+        run: |
+          if [ -z "$KV_NS" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::CLOUDFLARE_KV_NAMESPACE_ID secret is not set; skipping search-index update. Add it to enable cross-site search index refresh."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build merged search index
+        if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
         run: node build-search-index.js
 
       - name: Upload index to KV
+        if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
         run: node upload-index.js
         env:
@@ -193,6 +210,7 @@ jobs:
           KV_NAMESPACE_ID: ${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}
 
       - name: Deploy search Worker
+        if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
         run: |
           KV_NS="${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}"
