@@ -194,11 +194,21 @@ async function handleSearch(request, url, env, corsHeaders) {
   // Apply limit
   results = results.slice(0, limit);
 
+  // Zero-result recovery: surface alternative queries so the user is not
+  // presented with a dead end. Suggestions are derived from trending queries
+  // and a curated common-query list (see generateSuggestions).
+  let suggestions = [];
+  if (results.length === 0) {
+    const trending = await env.SEARCH_KV.get('trending', { type: 'json' }) || [];
+    suggestions = generateSuggestions(query, trending).slice(0, 5);
+  }
+
   const response = {
     query,
     total: results.length,
     variant: abVariant,
     lang: detectedLang,
+    ...(results.length === 0 ? { suggestions } : {}),
     results: results.map(r => ({
       ...(preview ? { preview: { url: r.url, title: r.title, site: r.site, siteName: SITES[r.site]?.name || r.site, siteColor: SITES[r.site]?.color || '#666', snippet: r.snippet, score: r.score } } : {}),
       title: r.title,
@@ -291,7 +301,15 @@ function searchIndex(query, index, siteFilter, weights = RANKING_VARIANTS.contro
       if (urlLower.includes(word)) score += weights.urlMatch;
     }
 
-    // 6. Site authority bonus
+    // Relevance gate: authority and depth are BOOSTS applied only to entries
+    // that actually match the query. Without this gate, every entry would
+    // receive a positive authority-only score and pollute the results,
+    // defeating zero-result recovery and ranking quality.
+    if (score <= 0) {
+      continue;
+    }
+
+    // 6. Site authority bonus (boost on matching entries)
     score += (SITE_AUTHORITY[entry.site] || 0) * weights.authorityMultiplier;
 
     // 7. Content length penalty (prefer focused pages)
@@ -304,7 +322,7 @@ function searchIndex(query, index, siteFilter, weights = RANKING_VARIANTS.contro
     if (depth <= 1) score += weights.depthBonus;
     if (depth <= 2) score += Math.floor(weights.depthBonus / 2);
 
-    if (score > 0) {
+    {
       // Generate snippet
       const snippet = generateSnippet(contentLower, queryWords);
 
@@ -414,32 +432,44 @@ async function handleSuggest(url, env, corsHeaders) {
     });
   }
 
-  // Get trending searches and filter by prefix
   const trending = await env.SEARCH_KV.get('trending', { type: 'json' }) || [];
+  const suggestions = generateSuggestions(query, trending).slice(0, 8);
+
+  return new Response(JSON.stringify({ suggestions }), {
+    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+  });
+}
+
+// Curated common queries used for autocomplete and zero-result recovery.
+const COMMON_QUERIES = [
+  'physics', 'chemistry', 'biology', 'mathematics', 'calculus',
+  'linear algebra', 'thermodynamics', 'quantum', 'organic chemistry',
+  'c++', 'python', 'rust', 'java', 'javascript',
+  'dse', 'ib', 'a-level', 'gcse', 'ap',
+  'algorithms', 'data structures', 'databases', 'networking',
+];
+
+/**
+ * Generate query suggestions for a prefix query.
+ * Combines trending queries (by recency-weighted count) and curated common
+ * queries that contain the query substring.
+ * @param {string} query - lowercased prefix
+ * @param {Array<{query:string,count:number}>} trending - trending queries
+ * @returns {Array<{query:string,count:number}>}
+ */
+function generateSuggestions(query, trending) {
   const suggestions = trending
     .filter(t => t.query.toLowerCase().includes(query))
     .sort((a, b) => b.count - a.count)
     .slice(0, 5)
     .map(t => ({ query: t.query, count: t.count }));
 
-  // Also add common query completions
-  const commonQueries = [
-    'physics', 'chemistry', 'biology', 'mathematics', 'calculus',
-    'linear algebra', 'thermodynamics', 'quantum', 'organic chemistry',
-    'c++', 'python', 'rust', 'java', 'javascript',
-    'dse', 'ib', 'a-level', 'gcse', 'ap',
-    'algorithms', 'data structures', 'databases', 'networking',
-  ];
-
-  for (const q of commonQueries) {
+  for (const q of COMMON_QUERIES) {
     if (q.includes(query) && !suggestions.find(s => s.query === q)) {
       suggestions.push({ query: q, count: 0 });
     }
   }
-
-  return new Response(JSON.stringify({ suggestions: suggestions.slice(0, 8) }), {
-    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-  });
+  return suggestions;
 }
 
 async function handleTrack(request, env, corsHeaders) {
@@ -751,5 +781,21 @@ async function logSearch(query, resultCount, variant, env) {
   abData.searches++;
   await env.SEARCH_KV.put(abKey, JSON.stringify(abData), { expirationTtl: 86400 * 7 });
 }
+
+// Named exports of pure functions and constants for unit testing.
+// These do not affect the Worker runtime (which uses the default export) but
+// let the test suite import the real implementation instead of duplicating it.
+export {
+  SITES,
+  SITE_AUTHORITY,
+  RANKING_VARIANTS,
+  LANG_PATTERNS,
+  COMMON_QUERIES,
+  searchIndex,
+  detectLanguage,
+  hashString,
+  generateSnippet,
+  generateSuggestions,
+};
 
 

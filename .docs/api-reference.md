@@ -193,6 +193,36 @@ Track search events (analytics).
 }
 ```
 
+## Ranking algorithm
+
+Each indexed entry is scored against the query. Only entries with a positive
+score are returned, sorted by score descending. The scoring weights are
+A/B-test variants (`control` default; `variant_a`, `variant_b`):
+
+| Signal | control | variant_a | variant_b | Effect |
+|--------|---------|-----------|-----------|--------|
+| Exact phrase in title | 100 | 120 | 80 | Highest signal |
+| Per query word in title | 20 | 25 | 15 | |
+| Exact phrase in content | 50 | 60 | 40 | |
+| Per query word in content | 5 | 8 | 3 | |
+| Per query word in URL slug | 15 | 20 | 10 | |
+| Authority multiplier | x2 | x3 | x1 | Multiplied by site authority (0--10) |
+| Shallow URL depth bonus | 10 | 15 | 5 | Top-level pages boosted |
+
+Penalties: content longer than 5000 chars subtracts 5; longer than 10000 chars
+subtracts a further 10 (focused pages preferred).
+
+Site authority weights: `university` 10, `programming` 8, `infrastructure` 7,
+`languages` 7, `dse`/`ib`/`alevel`/`tools` 6, `qualifications` 5.
+
+## Static assets
+
+| Path | Description |
+|------|-------------|
+| `GET /page-search.js` | Client search-modal script (CDN-cached) |
+| `GET /cross-site-search.js` | Client inline-nav search script (CDN-cached) |
+| `GET /` , `GET /dashboard` | Analytics dashboard HTML |
+
 ## Error Responses
 
 All errors follow the format:
