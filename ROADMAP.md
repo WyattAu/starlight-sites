@@ -73,8 +73,8 @@ Stable CI/CD; sync SOP enforced.
 ### Scope
 
 - [x] Expand the thin content pages (< 50 words) reported by the content linter.
-- [ ] Add "Prerequisites" sections to complex topics.
-- [ ] Add cross-site "Related topics" links.
+- [x] Add "Prerequisites" sections to complex topics.
+- [x] Add cross-site "Related topics" links.
 - [ ] Add practice problems to key topics via PracticeProblem.tsx.
 
 ### Exit criteria
@@ -116,8 +116,8 @@ Search API stable and indexed.
 
 - [x] Add search API unit tests with a mocked KV namespace.
 - [x] Improve ranking (relevance gate, zero-result recovery, suggestions).
-- [ ] Add search analytics dashboard improvements (query latency, zero-result
-  rate).
+- [x] Add search analytics dashboard improvements (query latency, zero-result
+  rate, top zero-result queries).
 - [ ] Submit and monitor sitemaps in Google Search Console.
 
 ### Exit criteria
@@ -161,14 +161,16 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Metric | Current | Target |
 |--------|---------|--------|
 | Live sites | 9 / 9 | 9 / 9 |
-| Automated tests | 175 (unit + integration) | 220+ |
+| Automated tests | 177 (unit + integration) | 220+ |
 | CI / CD pass rate | > 99 percent | > 99 percent |
-| Warm TTFB (all sites) | < 3 s | < 1 s |
+| Warm TTFB (all sites) | < 3 s (improving with self-hosted fonts) | < 1 s |
 | Search entries | ~2013 | 2500+ |
-| Search zero-result rate | improved (relevance gate) | < 5 percent |
+| Search zero-result rate | tracked + improved | < 5 percent |
 | Lighthouse performance | unmeasured | >= 95 |
 | Shared-asset drift | enforced | enforced |
 | Content thin pages | 0 | 0 |
+| Google Fonts dependency | eliminated | eliminated |
+| Cross-site links | 3 examples added | pattern established |
 
 ---
 
@@ -177,6 +179,9 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Date | Decision | Rationale |
 |------|----------|-----------|
 | 2026-06-16 | Search ranking relevance gate | Unconditional authority score included non-matching entries; gate ensures only relevant entries appear |
+| 2026-06-16 | Self-host fonts (Inter + JetBrains Mono) | Remove Google Fonts CDN round-trip; GDPR compliance; faster FOUT |
+| 2026-06-16 | Search quality metrics tracking | Zero-result rate + latency monitoring for data-driven improvement |
+| 2026-06-16 | Prerequisites and cross-site links | Educational scaffolding; connect topics across sites and levels |
 | 2026-06-16 | Zero-result recovery suggestions | Present curated alternatives when no results; measurable zero-result-rate improvement |
 | 2026-06-16 | Image lazy loading via rehype plugin | Defers off-screen image fetches; first image left eager for above-the-fold performance |
 | 2026-06-15 | Export worker pure functions for testability | Eliminates duplicated logic in test files; tests run against production code |
