@@ -22,6 +22,7 @@ import {
   type Rating,
 } from './flashcard/sm2'
 import { calculateStreak, type DeckData, loadDeck, saveDeck } from './flashcard/storage'
+import { account } from '../utils/account'
 import SettingsDialog from './SettingsDialog'
 
 export interface Flashcard {
@@ -189,6 +190,15 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const persistData = (next: DeckData) => {
     saveDeck(props.deckId, next)
     setDeckData(next)
+    // Optional cloud sync when user is logged in
+    if (account.isLoggedIn) {
+      account.saveFlashcards(props.deckId, {
+        cardStates: next.cardStates,
+        reviewHistory: next.reviewHistory,
+        lastStudyDate: next.lastStudyDate,
+        streak: next.streak,
+      }).catch(() => { /* silent fail for sync */ })
+    }
   }
 
   const startReview = () => {

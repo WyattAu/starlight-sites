@@ -217,6 +217,53 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           KV_NAMESPACE_ID: ${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}
 
+  deploy-account-api:
+    needs: gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Check D1 secret present
+        id: d1check
+        env:
+          D1_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+        run: |
+          if [ -z "$D1_ID" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::CLOUDFLARE_D1_DATABASE_ID secret is not set; skipping account API deployment."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy account API worker
+        if: steps.d1check.outputs.skip != 'true'
+        working-directory: account-api
+        run: npx wrangler@4 deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Run D1 migrations
+        if: steps.d1check.outputs.skip != 'true'
+        working-directory: account-api
+        run: npx wrangler@4 d1 migrations apply wyattsnotes-account
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Account API" >> $GITHUB_STEP_SUMMARY
+          echo "- **Worker**: wyattsnotes-account" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL**: https://wyattsnotes-account.wyattau.com" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
       - name: Deploy search Worker
         if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
@@ -247,7 +294,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
   summary:
-    needs: [deploy, deploy-landing, update-search-index]
+    needs: [deploy, deploy-landing, update-search-index, deploy-account-api]
     runs-on: ubuntu-latest
     if: always()
     steps:
@@ -260,12 +307,14 @@ jobs:
           echo "| Sites (9) | ${{ needs.deploy.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Landing | ${{ needs.deploy-landing.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Search Index | ${{ needs.update-search-index.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Account API | ${{ needs.deploy-account-api.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### URLs" >> $GITHUB_STEP_SUMMARY
           echo "| Site | URL |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
           echo "| Landing | https://wyattsnotes.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| Search API | https://wyattsnotes-search.workers.dev/api/search |" >> $GITHUB_STEP_SUMMARY
+          echo "| Account API | https://wyattsnotes-account.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| DSE | https://dse.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| IB | https://ib.wyattau.com |" >> $GITHUB_STEP_SUMMARY
           echo "| A-Level | https://alevel.wyattau.com |" >> $GITHUB_STEP_SUMMARY

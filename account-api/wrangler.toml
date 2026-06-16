@@ -1,0 +1,22 @@
+name = "wyattsnotes-account"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# D1 database binding for user data
+# ID must be set via CLOUDFLARE_D1_DATABASE_ID secret in CI
+[[d1_databases]]
+binding = "DB"
+database_name = "wyattsnotes-account"
+database_id = ""
+
+# KV namespace for session tokens
+# ID must be set via CLOUDFLARE_ACCOUNT_KV_NAMESPACE_ID secret in CI
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = ""
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+TOKEN_EXPIRY_HOURS = "720"
+CORS_ORIGIN = "https://wyattsnotes.wyattau.com"

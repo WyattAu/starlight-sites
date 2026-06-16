@@ -164,6 +164,27 @@ Cross-site search at search.wyattau.com:
 | `/api/suggest` | GET | `q` | Query autocomplete suggestions |
 | `/api/analytics` | GET | -- | Search analytics dashboard data |
 
+## Account API
+
+User accounts and progress sync at wyattsnotes-account.wyattau.com:
+
+| Endpoint | Method | Auth | Description |
+|----------|--------|------|-------------|
+| `/api/auth/register` | POST | No | Create account |
+| `/api/auth/login` | POST | No | Login |
+| `/api/auth/logout` | POST | Yes | Logout |
+| `/api/auth/me` | GET | Yes | Get current user |
+| `/api/progress/flashcards` | GET | Yes | Get all flashcard progress |
+| `/api/progress/flashcards/:deckId` | PUT | Yes | Save flashcard deck progress |
+| `/api/progress/diagnostics` | GET | Yes | Get diagnostic results |
+| `/api/progress/diagnostics` | POST | Yes | Save diagnostic result |
+| `/api/progress/practice/:setId` | GET | Yes | Get practice attempts |
+| `/api/progress/practice` | POST | Yes | Save practice attempt |
+
+**Required secrets:**
+- `CLOUDFLARE_D1_DATABASE_ID` -- D1 database for user data
+- `CLOUDFLARE_ACCOUNT_KV_NAMESPACE_ID` -- KV namespace for session tokens
+
 ## Content conventions
 
 - Precise, formal prose. Define terms before use.
