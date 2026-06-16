@@ -171,9 +171,7 @@ E2E coverage for the three critical flows; committed baselines with drift gating
   components, page breaks for h1, blockquote borders, KaTeX sizing.)
 - [x] Offline / PWA support for study on mobile. (manifest.json + service worker
   with network-first HTML caching and cache-first static assets.)
-- [x] Per-user progress sync (optional account layer). (Cloudflare D1-backed account
-  API with auth, flashcard sync, diagnostic results, practice attempts. Client library
-  with optional cloud sync in FlashcardDeck.)
+- [ ] Per-user progress sync (optional account layer).
 - [x] Internationalisation pipeline for non-English syllabi. (Foundation in
   `shared/i18n/config.ts` with locale definitions, translation lookup, and
   English/Chinese translations. Enable additional locales by setting `enabled: true`.)
@@ -201,10 +199,6 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Print CSS | enhanced with interactive component hiding | deployed |
 | Font preloading | all 9 sites + landing page | deployed |
 | Edge caching | _headers file with immutable rules | deployed |
-| Account API | D1-backed user accounts + progress sync | deployed |
-| Component preview | HTML harness for visual inspection | deployed |
-| i18n pipeline | Foundation with EN/ZH translations | deployed |
-| Build time tracking | measurement script for CI | deployed |
 
 ---
 
