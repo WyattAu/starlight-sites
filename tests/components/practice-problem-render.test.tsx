@@ -28,11 +28,11 @@ describe('PracticeProblem Component', () => {
     expect(screen.getByText('easy')).toBeTruthy()
   })
 
-  it('should have radio group', () => {
+  it('should have dialog', () => {
     render(() => (
       <PracticeProblem question="What is 2 + 2?" options={['3', '4', '5', '6']} correctAnswer={1} explanation="2 + 2 = 4" difficulty="easy" />
     ))
-    expect(screen.getByRole('radiogroup', { name: 'Practice problem options' })).toBeTruthy()
+    expect(screen.getByRole('dialog')).toBeTruthy()
   })
 
   it('should have Submit button', () => {

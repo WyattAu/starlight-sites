@@ -2,6 +2,7 @@ import { createEffect, createSignal } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { sanitizeHtml } from '../utils/sanitize'
 import ResultsDialog from './ResultsDialog'
+import QuestionDialog from './QuestionDialog'
 
 export interface PracticeQuestionData {
   question: string
@@ -126,13 +127,12 @@ function PracticeProblemItem(props: {
   }
 
   return (
-    <div
-      class="max-w-[700px] mx-auto my-6 p-6 border-2 border-emphasis-300 rounded-xl bg-surface font-sans"
-      onKeyDown={handleKeyDown}
-      role="radiogroup"
-      aria-label="Practice problem options"
+    <QuestionDialog
+      open={true}
+      onOpenChange={() => {}}
+      title={`Practice Problem - ${props.difficulty}`}
     >
-      <div class="flex items-center gap-2 mb-3">
+      <div class="mb-3">
         <span class={`inline-block py-0.5 px-2.5 rounded text-xs font-semibold uppercase tracking-wider text-white ${difficultyColor()}`} data-difficulty={props.difficulty}>
           {props.difficulty}
         </span>
@@ -140,7 +140,7 @@ function PracticeProblemItem(props: {
 
       <p class="text-lg font-semibold mb-4">{escapeHtml(props.question)}</p>
 
-      <div role="group" aria-label="Answer options">
+      <div role="radiogroup" aria-label="Answer options" class="flex flex-col gap-2">
         {props.options.map((opt, i) => (
           <button
             ref={el => {
@@ -161,16 +161,18 @@ function PracticeProblemItem(props: {
         ))}
       </div>
 
-      {!submitted() && (
-        <button
-          type="button"
-          class="mt-3 py-2.5 px-6 rounded-lg bg-primary text-white font-semibold text-base cursor-pointer border-none disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60"
-          disabled={selected() === null}
-          onClick={handleSubmit}
-        >
-          Submit
-        </button>
-      )}
+      <div class="mt-4 flex justify-center">
+        {!submitted() && (
+          <button
+            type="button"
+            class="py-2.5 px-6 rounded-lg bg-primary text-white font-semibold text-base cursor-pointer border-none disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60"
+            disabled={selected() === null}
+            onClick={handleSubmit}
+          >
+            Submit
+          </button>
+        )}
+      </div>
 
       {submitted() && (
         <ResultsDialog
@@ -201,6 +203,6 @@ function PracticeProblemItem(props: {
           </div>
         </ResultsDialog>
       )}
-    </div>
+    </QuestionDialog>
   )
 }
