@@ -21,7 +21,7 @@
  *   const progress = await account.getFlashcards()
  */
 
-const API_BASE = 'https://wyattsnotes-account.wyattau.com'
+const API_BASE = 'https://wyattsnotes-account.wyatt-au.workers.dev'
 const TOKEN_KEY = 'wyattsnotes-auth-token'
 const USER_KEY = 'wyattsnotes-user'
 

@@ -3,17 +3,15 @@ main = "worker.js"
 compatibility_date = "2024-01-01"
 
 # D1 database binding for user data
-# ID must be set via CLOUDFLARE_D1_DATABASE_ID secret in CI
 [[d1_databases]]
 binding = "DB"
 database_name = "wyattsnotes-account"
-database_id = ""
+database_id = "b7ce0806-df4b-4ab1-a473-c4cb8f4bef93"
 
 # KV namespace for session tokens
-# ID must be set via CLOUDFLARE_ACCOUNT_KV_NAMESPACE_ID secret in CI
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = ""
+id = "72b264a42f1b49aea7c66c3abd77a822"
 
 # Environment variables
 [vars]
