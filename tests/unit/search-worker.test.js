@@ -322,9 +322,32 @@ describe('Search Worker (mocked KV)', () => {
 
   describe('Language detection', () => {
     it('detects CJK queries as non-English', async () => {
-      // The response echoes the detected language. Chinese characters -> 'zh'.
       const { body } = await callWorker(worker, '/api/search', { search: '?q=' + encodeURIComponent('向量'), env: freshEnv() });
       assert.ok(['zh', 'en'].includes(body.lang));
+    });
+  });
+
+  describe('Search quality metrics', () => {
+    it('records latency and zero-result rate in search-metrics KV', async () => {
+      const env = freshEnv();
+      // A zero-result search.
+      await callWorker(worker, '/api/search', { search: '?q=calculus', env });
+      // A successful search.
+      await callWorker(worker, '/api/search', { search: '?q=quadratic', env });
+      const metrics = await env.SEARCH_KV.get('search-metrics', { type: 'json' });
+      assert.ok(metrics, 'search-metrics should exist');
+      assert.ok(metrics.totalSearches >= 2, 'both searches should be tracked');
+      assert.ok(metrics.zeroResults >= 1, 'calculus is a zero-result query');
+      assert.ok(metrics.latencyCount >= 2, 'both searches should contribute to latency');
+    });
+
+    it('analytics endpoint includes searchQuality block', async () => {
+      const env = freshEnv();
+      await callWorker(worker, '/api/search', { search: '?q=calculus', env });
+      const { body } = await callWorker(worker, '/api/analytics', { env });
+      assert.ok(body.searchQuality, 'analytics must include searchQuality');
+      assert.ok(typeof body.searchQuality.zeroResultRate === 'string');
+      assert.ok(typeof body.searchQuality.avgLatencyMs === 'number');
     });
   });
 });

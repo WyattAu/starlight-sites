@@ -132,6 +132,7 @@ export default {
 };
 
 async function handleSearch(request, url, env, corsHeaders) {
+  const startTime = Date.now();
   const query = url.searchParams.get('q')?.trim();
   const limit = Math.min(parseInt(url.searchParams.get('limit') || '20'), 50);
   const site = url.searchParams.get('site'); // optional: filter by site
@@ -229,7 +230,9 @@ async function handleSearch(request, url, env, corsHeaders) {
   }
 
   // Log search query for analytics
+  const latencyMs = Date.now() - startTime;
   await logSearch(query, results.length, abVariant, env);
+  await trackSearchMetrics(query, results.length, latencyMs, env);
 
   // Cache in edge (Cloudflare Cache API)
   const edgeResponse = new Response(JSON.stringify(response), {
@@ -558,6 +561,22 @@ async function handleAnalytics(env, corsHeaders) {
     .sort((a, b) => b[1] - a[1])
     .map(([site, count]) => ({ site, count }));
 
+  // Search quality metrics (latency, zero-result rate)
+  const searchMetrics = await env.SEARCH_KV.get('search-metrics', { type: 'json' }) || {
+    totalSearches: 0, zeroResults: 0, zeroResultQueries: {},
+    latencySum: 0, latencyCount: 0, latencyMax: 0,
+  };
+  const zeroResultRate = searchMetrics.totalSearches > 0
+    ? ((searchMetrics.zeroResults / searchMetrics.totalSearches) * 100).toFixed(1)
+    : '0.0';
+  const avgLatencyMs = searchMetrics.latencyCount > 0
+    ? Math.round(searchMetrics.latencySum / searchMetrics.latencyCount)
+    : 0;
+  const topZeroResultQueries = Object.entries(searchMetrics.zeroResultQueries)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([query, count]) => ({ query, count }));
+
   return new Response(JSON.stringify({
     totalSearches: analytics.totalSearches,
     totalClicks: analytics.totalClicks,
@@ -566,6 +585,13 @@ async function handleAnalytics(env, corsHeaders) {
     topQueries,
     dailyVolume,
     siteClicks,
+    searchQuality: {
+      zeroResultRate: zeroResultRate + '%',
+      zeroResultCount: searchMetrics.zeroResults,
+      topZeroResultQueries,
+      avgLatencyMs,
+      maxLatencyMs: searchMetrics.latencyMax,
+    },
   }), {
     headers: { ...corsHeaders, 'Content-Type': 'application/json' },
   });
@@ -780,6 +806,42 @@ async function logSearch(query, resultCount, variant, env) {
   let abData = await env.SEARCH_KV.get(abKey, { type: 'json' }) || { searches: 0, clicks: 0 };
   abData.searches++;
   await env.SEARCH_KV.put(abKey, JSON.stringify(abData), { expirationTtl: 86400 * 7 });
+}
+
+/**
+ * Track search quality metrics: latency and zero-result rate.
+ * Stored under a separate key to avoid bloating the main analytics object.
+ * @param {string} query - the search query
+ * @param {number} resultCount - number of results returned
+ * @param {number} latencyMs - wall-clock time of the search
+ * @param {object} env - worker env with SEARCH_KV
+ */
+async function trackSearchMetrics(query, resultCount, latencyMs, env) {
+  const metrics = await env.SEARCH_KV.get('search-metrics', { type: 'json' }) || {
+    totalSearches: 0,
+    zeroResults: 0,
+    zeroResultQueries: {},
+    latencySum: 0,
+    latencyCount: 0,
+    latencyMax: 0,
+  };
+
+  metrics.totalSearches++;
+  metrics.latencySum += latencyMs;
+  metrics.latencyCount++;
+  if (latencyMs > metrics.latencyMax) metrics.latencyMax = latencyMs;
+
+  if (resultCount === 0) {
+    metrics.zeroResults++;
+    metrics.zeroResultQueries[query] = (metrics.zeroResultQueries[query] || 0) + 1;
+    // Keep only the top 50 zero-result queries to bound storage.
+    const sorted = Object.entries(metrics.zeroResultQueries)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 50);
+    metrics.zeroResultQueries = Object.fromEntries(sorted);
+  }
+
+  await env.SEARCH_KV.put('search-metrics', JSON.stringify(metrics), { expirationTtl: 86400 * 90 });
 }
 
 // Named exports of pure functions and constants for unit testing.
