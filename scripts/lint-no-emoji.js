@@ -33,18 +33,16 @@
  * Exit code: 1 if any ERROR-range violation is found, 0 otherwise.
  */
 
-'use strict';
+const fs = require('node:fs')
+const path = require('node:path')
 
-const fs = require('node:fs');
-const path = require('node:path');
-
-const ROOT = path.join(__dirname, '..');
+const ROOT = path.join(__dirname, '..')
 
 // Files exempted entirely (relative to ROOT) because they intentionally
 // document or test emoji handling.
 const EXEMPT_FILES = new Set([
   'scripts/lint-no-emoji.js', // this file literally contains emoji ranges as data
-]);
+])
 
 const SKIP_DIRS = new Set([
   'node_modules',
@@ -54,102 +52,105 @@ const SKIP_DIRS = new Set([
   '.wrangler',
   '.husky',
   'built',
-]);
+])
 
 const INCLUDE_EXT = new Set([
-  '.js', '.mjs', '.cjs', '.ts', '.tsx', '.astro',
-  '.yml', '.yaml', '.json', '.toml',
-  '.html', '.md', '.mdx',
-]);
+  '.js',
+  '.mjs',
+  '.cjs',
+  '.ts',
+  '.tsx',
+  '.astro',
+  '.yml',
+  '.yaml',
+  '.json',
+  '.toml',
+  '.html',
+  '.md',
+  '.mdx',
+])
 
 // A file is in ERROR scope if it is NOT a content page. Content pages live
 // under sites/<site>/src/content/. Anything else with an included extension
 // is enforced.
 function isErrorScope(absPath) {
-  const rel = path.relative(ROOT, absPath);
-  const normalized = rel.split(path.sep).join('/');
+  const rel = path.relative(ROOT, absPath)
+  const normalized = rel.split(path.sep).join('/')
   // Content pages: excluded regardless of extension.
-  if (/\/src\/content\//.test('/' + normalized + '/')) return false;
-  return true;
+  if (/\/src\/content\//.test(`/${normalized}/`)) return false
+  return true
 }
 
 // Single emoji-detection regex. The `u` flag enables code-point semantics so
 // that astral-plane ranges (U+1F000+) are matched as surrogate pairs rather
 // than as malformed 4-digit \u escapes. Ranges cover the symbol/emoji planes
 // listed in the header.
-const EMOJI_RE = /[\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F000}-\u{1F1FF}\u{1F300}-\u{1FAFF}]/u;
+const EMOJI_RE = /[\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F000}-\u{1F1FF}\u{1F300}-\u{1FAFF}]/u
 
-const violations = [];
+const violations = []
 
 function walk(dir) {
-  let entries;
+  let entries
   try {
-    entries = fs.readdirSync(dir, { withFileTypes: true });
+    entries = fs.readdirSync(dir, { withFileTypes: true })
   } catch {
-    return;
+    return
   }
   for (const entry of entries) {
-    if (SKIP_DIRS.has(entry.name)) continue;
-    const full = path.join(dir, entry.name);
-    const rel = path.relative(ROOT, full);
+    if (SKIP_DIRS.has(entry.name)) continue
+    const full = path.join(dir, entry.name)
+    const rel = path.relative(ROOT, full)
     if (entry.isDirectory()) {
-      walk(full);
+      walk(full)
     } else if (entry.isFile()) {
-      const ext = path.extname(entry.name);
-      if (!INCLUDE_EXT.has(ext)) continue;
-      if (EXEMPT_FILES.has(rel.split(path.sep).join('/'))) continue;
-      if (!isErrorScope(full)) continue;
-      scanFile(full, rel);
+      const ext = path.extname(entry.name)
+      if (!INCLUDE_EXT.has(ext)) continue
+      if (EXEMPT_FILES.has(rel.split(path.sep).join('/'))) continue
+      if (!isErrorScope(full)) continue
+      scanFile(full, rel)
     }
   }
 }
 
 function scanFile(absPath, rel) {
-  let content;
+  let content
   try {
-    content = fs.readFileSync(absPath, 'utf8');
+    content = fs.readFileSync(absPath, 'utf8')
   } catch {
-    return;
+    return
   }
-  const lines = content.split('\n');
+  const lines = content.split('\n')
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const m = EMOJI_RE.exec(line);
+    const line = lines[i]
+    const m = EMOJI_RE.exec(line)
     if (m) {
-      const codePoint = m[0].codePointAt(0);
+      const codePoint = m[0].codePointAt(0)
       violations.push({
         file: rel,
         line: i + 1,
         column: m.index + 1,
         char: m[0],
-        codePoint: 'U+' + codePoint.toString(16).toUpperCase().padStart(4, '0'),
-      });
+        codePoint: `U+${codePoint.toString(16).toUpperCase().padStart(4, '0')}`,
+      })
     }
   }
 }
 
 function main() {
-  walk(ROOT);
+  walk(ROOT)
 
   if (violations.length === 0) {
-    console.log('No-emoji lint: PASS (0 violations)');
-    return 0;
+    return 0
   }
 
-  console.error('No-emoji lint: FAIL (' + violations.length + ' violations)\n');
-  for (const v of violations) {
-    console.error(
-      '  ' + v.file + ':' + v.line + ':' + v.column +
-      '  ' + v.char + ' (' + v.codePoint + ')'
-    );
+  for (const _v of violations) {
   }
-  console.error('\nEmoji and pictographic symbols are prohibited in code and documentation.');
-  console.error('Replace with text equivalents (e.g. "OK"/"FAIL" instead of status glyphs).');
-  return 1;
+
+  return 1
 }
 
 if (require.main === module) {
-  process.exit(main());
+  process.exit(main())
 }
 
-module.exports = { EMOJI_RE, isErrorScope, main };
+module.exports = { EMOJI_RE, isErrorScope, main }

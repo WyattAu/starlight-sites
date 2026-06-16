@@ -1,20 +1,20 @@
 // Page-level search component for Wyatt's Notes
 // Adds a floating search button + modal search experience
 
-const SEARCH_API = 'https://search.wyattau.com/api';
+const SEARCH_API = 'https://search.wyattau.com/api'
 
 function initPageSearch() {
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initPageSearch);
-    return;
+    document.addEventListener('DOMContentLoaded', initPageSearch)
+    return
   }
 
   // Don't double-init
-  if (document.getElementById('page-search-modal')) return;
+  if (document.getElementById('page-search-modal')) return
 
   // Create modal HTML
-  const modal = document.createElement('div');
-  modal.id = 'page-search-modal';
+  const modal = document.createElement('div')
+  modal.id = 'page-search-modal'
   modal.innerHTML = `
     <style>
       #page-search-modal {
@@ -223,114 +223,116 @@ function initPageSearch() {
         <span>Search powered by <a href="https://search.wyattau.com" style="color:#ff6b35;text-decoration:none">Wyatt's Notes</a></span>
       </div>
     </div>
-  `;
+  `
 
-  document.body.appendChild(modal);
+  document.body.appendChild(modal)
 
-  const input = document.getElementById('modal-search-input');
-  const body = document.getElementById('modal-search-body');
-  const backdrop = document.getElementById('search-backdrop');
-  const suggestions = document.getElementById('modal-suggestions');
-  const recentDiv = document.getElementById('modal-recent');
+  const input = document.getElementById('modal-search-input')
+  const _body = document.getElementById('modal-search-body')
+  const backdrop = document.getElementById('search-backdrop')
+  const suggestions = document.getElementById('modal-suggestions')
+  const recentDiv = document.getElementById('modal-recent')
 
-  let debounceTimer = null;
-  let focusIndex = -1;
-  let results = [];
+  let debounceTimer = null
+  let focusIndex = -1
+  let results = []
 
   // Open/close modal
   function openModal() {
-    modal.classList.add('active');
-    input.value = '';
-    input.focus();
-    showDefault();
-    document.body.style.overflow = 'hidden';
-    trackEvent('search_modal_open');
+    modal.classList.add('active')
+    input.value = ''
+    input.focus()
+    showDefault()
+    document.body.style.overflow = 'hidden'
+    trackEvent('search_modal_open')
   }
 
   function closeModal() {
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-    trackEvent('search_modal_close');
+    modal.classList.remove('active')
+    document.body.style.overflow = ''
+    trackEvent('search_modal_close')
   }
 
   // Keyboard shortcuts
-  document.addEventListener('keydown', (e) => {
+  document.addEventListener('keydown', e => {
     // Cmd/Ctrl + K to open
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-      e.preventDefault();
-      openModal();
+      e.preventDefault()
+      openModal()
     }
     // Escape to close
     if (e.key === 'Escape' && modal.classList.contains('active')) {
-      closeModal();
+      closeModal()
     }
-  });
+  })
 
-  backdrop.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', closeModal)
 
   // Suggestion chips
-  suggestions.addEventListener('click', (e) => {
-    const chip = e.target.closest('.chip');
+  suggestions.addEventListener('click', e => {
+    const chip = e.target.closest('.chip')
     if (chip) {
-      input.value = chip.dataset.query;
-      performSearch(chip.dataset.query);
-      trackEvent('search_suggestion_click', { query: chip.dataset.query });
+      input.value = chip.dataset.query
+      performSearch(chip.dataset.query)
+      trackEvent('search_suggestion_click', { query: chip.dataset.query })
     }
-  });
+  })
 
   // Input handling
   input.addEventListener('input', () => {
-    clearTimeout(debounceTimer);
-    const query = input.value.trim();
-    focusIndex = -1;
+    clearTimeout(debounceTimer)
+    const query = input.value.trim()
+    focusIndex = -1
 
     if (query.length < 2) {
-      showDefault();
-      return;
+      showDefault()
+      return
     }
 
-    debounceTimer = setTimeout(() => performSearch(query), 250);
-  });
+    debounceTimer = setTimeout(() => performSearch(query), 250)
+  })
 
   // Keyboard navigation
-  input.addEventListener('keydown', (e) => {
-    if (!results.length) return;
+  input.addEventListener('keydown', e => {
+    if (!results.length) return
 
     if (e.key === 'ArrowDown') {
-      e.preventDefault();
-      focusIndex = Math.min(focusIndex + 1, results.length - 1);
-      updateFocus();
+      e.preventDefault()
+      focusIndex = Math.min(focusIndex + 1, results.length - 1)
+      updateFocus()
     } else if (e.key === 'ArrowUp') {
-      e.preventDefault();
-      focusIndex = Math.max(focusIndex - 1, -1);
-      updateFocus();
+      e.preventDefault()
+      focusIndex = Math.max(focusIndex - 1, -1)
+      updateFocus()
     } else if (e.key === 'Enter') {
-      e.preventDefault();
+      e.preventDefault()
       if (focusIndex >= 0 && results[focusIndex]) {
         trackEvent('search_result_click', {
           query: input.value,
           position: focusIndex,
           url: results[focusIndex].url,
           site: results[focusIndex].site,
-        });
-        window.open(results[focusIndex].url, '_blank');
-        addRecent(input.value);
-        closeModal();
+        })
+        window.open(results[focusIndex].url, '_blank')
+        addRecent(input.value)
+        closeModal()
       } else if (input.value.trim()) {
-        trackEvent('search_enter', { query: input.value });
-        addRecent(input.value);
+        trackEvent('search_enter', { query: input.value })
+        addRecent(input.value)
       }
     }
-  });
+  })
 
   function showDefault() {
-    results = [];
+    results = []
     // Show recent searches
-    const recent = getRecent();
+    const recent = getRecent()
     if (recent.length > 0) {
       recentDiv.innerHTML = `
         <div style="padding:0.5rem 1rem;font-size:0.75rem;color:#64748b;text-transform:uppercase">Recent</div>
-        ${recent.map(r => `
+        ${recent
+          .map(
+            r => `
           <div class="recent-item" data-query="${escapeAttr(r)}">
             <span class="recent-icon" aria-hidden="true">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
@@ -338,111 +340,115 @@ function initPageSearch() {
             <span class="recent-text">${escapeHtml(r)}</span>
             <span class="recent-remove" data-remove="${escapeAttr(r)}" role="button" aria-label="Remove ${escapeHtml(r)} from recent searches">&times;</span>
           </div>
-        `).join('')}
-      `;
+        `,
+          )
+          .join('')}
+      `
     } else {
-      recentDiv.innerHTML = '';
+      recentDiv.innerHTML = ''
     }
 
-    suggestions.style.display = '';
+    suggestions.style.display = ''
   }
 
   async function performSearch(query) {
-    suggestions.style.display = 'none';
-    recentDiv.innerHTML = '<div class="empty-state">Searching...</div>';
+    suggestions.style.display = 'none'
+    recentDiv.innerHTML = '<div class="empty-state">Searching...</div>'
 
     try {
-      const resp = await fetch(`${SEARCH_API}/search?q=${encodeURIComponent(query)}&limit=15`);
-      const data = await resp.json();
-      results = data.results || [];
-      renderResults(results, query);
-      addRecent(query);
-      trackEvent('search_query', { query, resultCount: results.length });
+      const resp = await fetch(`${SEARCH_API}/search?q=${encodeURIComponent(query)}&limit=15`)
+      const data = await resp.json()
+      results = data.results || []
+      renderResults(results, query)
+      addRecent(query)
+      trackEvent('search_query', { query, resultCount: results.length })
     } catch {
-      recentDiv.innerHTML = '<div class="empty-state">Search unavailable</div>';
+      recentDiv.innerHTML = '<div class="empty-state">Search unavailable</div>'
     }
   }
 
   function renderResults(items, query) {
     if (items.length === 0) {
-      recentDiv.innerHTML = `<div class="empty-state">No results for "${escapeHtml(query)}"</div>`;
-      return;
+      recentDiv.innerHTML = `<div class="empty-state">No results for "${escapeHtml(query)}"</div>`
+      return
     }
 
-    recentDiv.innerHTML = items.map((r, i) => {
-      const url = new URL(r.url);
-      const path = url.pathname.replace(/\/$/, '') || '/';
-      const snippet = r.snippet ? highlight(r.snippet, query) : '';
+    recentDiv.innerHTML = items
+      .map((r, i) => {
+        const url = new URL(r.url)
+        const path = url.pathname.replace(/\/$/, '') || '/'
+        const snippet = r.snippet ? highlight(r.snippet, query) : ''
 
-      return `
+        return `
         <a class="result-item" href="${escapeAttr(r.url)}" target="_blank" rel="noopener" data-index="${i}">
           <span class="result-site" style="background:${r.siteColor}20;color:${r.siteColor}">${escapeHtml(r.siteName)}</span>
           <div class="result-title">${escapeHtml(r.title)}</div>
           <div class="result-url">${escapeHtml(url.hostname)}${escapeHtml(path)}</div>
           ${snippet ? `<div class="result-snippet">${snippet}</div>` : ''}
         </a>
-      `;
-    }).join('');
+      `
+      })
+      .join('')
 
     // Add click tracking to results
     recentDiv.querySelectorAll('.result-item').forEach(el => {
       el.addEventListener('click', () => {
-        const idx = parseInt(el.dataset.index);
+        const idx = parseInt(el.dataset.index, 10)
         trackEvent('search_result_click', {
           query,
           position: idx,
           url: items[idx].url,
           site: items[idx].site,
-        });
-      });
-    });
+        })
+      })
+    })
   }
 
   function updateFocus() {
-    const items = recentDiv.querySelectorAll('.result-item');
+    const items = recentDiv.querySelectorAll('.result-item')
     items.forEach((el, i) => {
-      el.classList.toggle('focused', i === focusIndex);
-    });
+      el.classList.toggle('focused', i === focusIndex)
+    })
   }
 
   function highlight(text, query) {
-    let result = escapeHtml(text);
+    let result = escapeHtml(text)
     for (const word of query.split(/\s+/).filter(w => w.length > 1)) {
-      result = result.replace(new RegExp(`(${escapeRegex(word)})`, 'gi'), '<mark>$1</mark>');
+      result = result.replace(new RegExp(`(${escapeRegex(word)})`, 'gi'), '<mark>$1</mark>')
     }
-    return result;
+    return result
   }
 
   function escapeHtml(str) {
-    if (!str) return '';
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    if (!str) return ''
+    const div = document.createElement('div')
+    div.textContent = str
+    return div.innerHTML
   }
 
   function escapeAttr(str) {
-    return escapeHtml(str).replace(/"/g, '&quot;');
+    return escapeHtml(str).replace(/"/g, '&quot;')
   }
 
   function escapeRegex(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   }
 
   // Recent searches (localStorage)
   function getRecent() {
     try {
-      return JSON.parse(localStorage.getItem('wn_recent_searches') || '[]');
+      return JSON.parse(localStorage.getItem('wn_recent_searches') || '[]')
     } catch {
-      return [];
+      return []
     }
   }
 
   function addRecent(query) {
-    let recent = getRecent();
-    recent = recent.filter(r => r !== query);
-    recent.unshift(query);
-    recent = recent.slice(0, 8);
-    localStorage.setItem('wn_recent_searches', JSON.stringify(recent));
+    let recent = getRecent()
+    recent = recent.filter(r => r !== query)
+    recent.unshift(query)
+    recent = recent.slice(0, 8)
+    localStorage.setItem('wn_recent_searches', JSON.stringify(recent))
   }
 
   // Analytics tracking
@@ -458,12 +464,12 @@ function initPageSearch() {
           page: window.location.href,
           referrer: document.referrer,
         }),
-      }).catch(() => {});
+      }).catch(() => {})
     } catch {}
   }
 
   // Make openModal globally accessible
-  window.openSearchModal = openModal;
+  window.openSearchModal = openModal
 }
 
-initPageSearch();
+initPageSearch()

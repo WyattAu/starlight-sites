@@ -1,23 +1,23 @@
-import { createSignal, createEffect } from 'solid-js';
-import { sanitizeHtml } from '../utils/sanitize';
-import type { Difficulty } from '../utils/colors';
+import { createEffect, createSignal } from 'solid-js'
+import type { Difficulty } from '../utils/colors'
+import { sanitizeHtml } from '../utils/sanitize'
 
 export interface PracticeQuestionData {
-  question: string;
-  options: string[];
-  correct?: number;
-  correctAnswer?: number;
-  explanation: string;
-  difficulty?: Difficulty;
+  question: string
+  options: string[]
+  correct?: number
+  correctAnswer?: number
+  explanation: string
+  difficulty?: Difficulty
 }
 
 export interface PracticeProblemProps {
-  question?: string;
-  options?: string[];
-  correctAnswer?: number;
-  explanation?: string;
-  difficulty?: Difficulty;
-  questions?: PracticeQuestionData[];
+  question?: string
+  options?: string[]
+  correctAnswer?: number
+  explanation?: string
+  difficulty?: Difficulty
+  questions?: PracticeQuestionData[]
 }
 
 function escapeHtml(text: string): string {
@@ -26,14 +26,14 @@ function escapeHtml(text: string): string {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
+    .replace(/'/g, '&#39;')
 }
 
 export default function PracticeProblem(props: PracticeProblemProps) {
   if (props.questions && props.questions.length > 0) {
     return (
-      <div class="practice-problem-list">
-        {props.questions.map((q) => (
+      <div class="flex flex-col gap-6">
+        {props.questions.map(q => (
           <PracticeProblemItem
             question={q.question}
             options={q.options}
@@ -43,7 +43,7 @@ export default function PracticeProblem(props: PracticeProblemProps) {
           />
         ))}
       </div>
-    );
+    )
   }
 
   return (
@@ -54,82 +54,96 @@ export default function PracticeProblem(props: PracticeProblemProps) {
       explanation={props.explanation ?? ''}
       difficulty={props.difficulty ?? 'medium'}
     />
-  );
+  )
 }
 
-function optionClass(index: number, selected: number | null, submitted: boolean, correctAnswer: number): string {
-  let cls = 'practice-problem-option';
-  if (!submitted && selected === index) cls += ' practice-problem-option--selected';
+function optionClass(
+  index: number,
+  selected: number | null,
+  submitted: boolean,
+  correctAnswer: number,
+): string {
+  const base = 'block w-full py-3 px-4 my-1.5 border-2 rounded-lg bg-surface text-base text-left font-sans cursor-pointer transition-all'
+  
   if (submitted) {
-    if (index === correctAnswer) cls += ' practice-problem-option--correct';
-    else if (index === selected) cls += ' practice-problem-option--wrong';
+    if (index === correctAnswer) return `${base} border-success bg-success/12 cursor-default`
+    if (index === selected) return `${base} border-error bg-error/12 cursor-default`
+    return `${base} border-emphasis-300 cursor-default`
   }
-  return cls;
+  
+  if (selected === index) return `${base} border-accent bg-primary-soft`
+  return `${base} border-emphasis-300 hover:border-accent`
 }
 
 function PracticeProblemItem(props: {
-  question: string;
-  options: string[];
-  correctAnswer: number;
-  explanation: string;
-  difficulty: Difficulty;
+  question: string
+  options: string[]
+  correctAnswer: number
+  explanation: string
+  difficulty: Difficulty
 }) {
-  const [selected, setSelected] = createSignal<number | null>(null);
-  const [submitted, setSubmitted] = createSignal(false);
-  const buttonRefs: (HTMLButtonElement | null)[] = [];
+  const [selected, setSelected] = createSignal<number | null>(null)
+  const [submitted, setSubmitted] = createSignal(false)
+  const buttonRefs: (HTMLButtonElement | null)[] = []
 
-  const focusedIndex = () => selected() ?? -1;
-  const isCorrect = () => submitted() && selected() === props.correctAnswer;
+  const focusedIndex = () => selected() ?? -1
+  const isCorrect = () => submitted() && selected() === props.correctAnswer
 
   createEffect(() => {
-    const idx = focusedIndex();
+    const idx = focusedIndex()
     if (idx >= 0 && buttonRefs[idx]) {
-      buttonRefs[idx]?.focus();
+      buttonRefs[idx]?.focus()
     }
-  });
+  })
 
   const handleKeyDown = (e: KeyboardEvent) => {
     if (submitted()) {
-      return;
+      return
     }
     if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-      e.preventDefault();
-      setSelected((prev) => (prev === null ? 0 : Math.min(prev + 1, props.options.length - 1)));
+      e.preventDefault()
+      setSelected(prev => (prev === null ? 0 : Math.min(prev + 1, props.options.length - 1)))
     } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-      e.preventDefault();
-      setSelected((prev) => (prev === null ? props.options.length - 1 : Math.max(prev - 1, 0)));
+      e.preventDefault()
+      setSelected(prev => (prev === null ? props.options.length - 1 : Math.max(prev - 1, 0)))
     } else if (e.key === 'Enter' && selected() !== null) {
-      e.preventDefault();
-      setSubmitted(true);
+      e.preventDefault()
+      setSubmitted(true)
     }
-  };
+  }
 
   const handleSubmit = () => {
     if (selected() !== null) {
-      setSubmitted(true);
+      setSubmitted(true)
     }
-  };
+  }
+
+  const difficultyColor = () => {
+    if (props.difficulty === 'easy') return 'bg-success'
+    if (props.difficulty === 'medium') return 'bg-warning'
+    return 'bg-error'
+  }
 
   return (
     <div
-      class="practice-problem"
+      class="max-w-[700px] mx-auto my-6 p-6 border-2 border-emphasis-300 rounded-xl bg-surface font-sans"
       onKeyDown={handleKeyDown}
       role="radiogroup"
       aria-label="Practice problem options"
     >
-      <div class="practice-problem-header">
-        <span class="practice-problem-difficulty" data-difficulty={props.difficulty}>
+      <div class="flex items-center gap-2 mb-3">
+        <span class={`inline-block py-0.5 px-2.5 rounded text-xs font-semibold uppercase tracking-wider text-white ${difficultyColor()}`} data-difficulty={props.difficulty}>
           {props.difficulty}
         </span>
       </div>
 
-      <p class="practice-problem-question">{escapeHtml(props.question)}</p>
+      <p class="text-lg font-semibold mb-4">{escapeHtml(props.question)}</p>
 
       <div role="group" aria-label="Answer options">
         {props.options.map((opt, i) => (
           <button
-            ref={(el) => {
-              buttonRefs[i] = el;
+            ref={el => {
+              buttonRefs[i] = el
             }}
             type="button"
             role="radio"
@@ -140,7 +154,7 @@ function PracticeProblemItem(props: {
             onClick={() => !submitted() && setSelected(i)}
             class={optionClass(i, selected(), submitted(), props.correctAnswer)}
           >
-            <span class="practice-problem-option-letter">{String.fromCharCode(65 + i)}.</span>
+            <span class="font-semibold mr-2">{String.fromCharCode(65 + i)}.</span>
             {typeof opt === 'string' ? opt : ''}
           </button>
         ))}
@@ -149,7 +163,7 @@ function PracticeProblemItem(props: {
       {!submitted() && (
         <button
           type="button"
-          class="practice-problem-submit"
+          class="mt-3 py-2.5 px-6 rounded-lg bg-primary text-white font-semibold text-base cursor-pointer border-none disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60"
           disabled={selected() === null}
           onClick={handleSubmit}
         >
@@ -159,27 +173,22 @@ function PracticeProblemItem(props: {
 
       {submitted() && (
         <div
-          class={
-            'practice-problem-feedback ' +
-            (isCorrect() ? 'practice-problem-feedback--correct' : 'practice-problem-feedback--wrong')
-          }
+          class={`mt-4 p-4 rounded-lg border ${
+            isCorrect()
+              ? 'bg-success/10 border-success'
+              : 'bg-error/10 border-error'
+          }`}
         >
           <strong
-            class={
-              'practice-problem-feedback-title ' +
-              (isCorrect()
-                ? 'practice-problem-feedback-title--correct'
-                : 'practice-problem-feedback-title--wrong')
-            }
+            class={`block ${
+              isCorrect() ? 'text-success' : 'text-error'
+            }`}
           >
             {isCorrect() ? 'Correct!' : 'Incorrect.'}
           </strong>
-          <div
-            class="practice-problem-feedback-text"
-            innerHTML={sanitizeHtml(props.explanation)}
-          />
+          <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />
         </div>
       )}
     </div>
-  );
+  )
 }

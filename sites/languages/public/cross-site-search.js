@@ -1,28 +1,29 @@
 // Cross-site search component for Wyatt's Notes
 // Injected into all Starlight site headers
 
-const SEARCH_API = 'https://search.wyattau.com/api';
+const SEARCH_API = 'https://search.wyattau.com/api'
 
 function initCrossSiteSearch() {
   // Wait for DOM
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initCrossSiteSearch);
-    return;
+    document.addEventListener('DOMContentLoaded', initCrossSiteSearch)
+    return
   }
 
   // Find Starlight's search container or create our own
-  const searchContainer = document.querySelector('.site-search') || 
-                          document.querySelector('[class*="search"]') ||
-                          document.querySelector('nav');
+  const searchContainer =
+    document.querySelector('.site-search') ||
+    document.querySelector('[class*="search"]') ||
+    document.querySelector('nav')
 
-  if (!searchContainer) return;
+  if (!searchContainer) return
 
   // Check if search already exists
-  if (document.getElementById('cross-site-search')) return;
+  if (document.getElementById('cross-site-search')) return
 
   // Create search component
-  const wrapper = document.createElement('div');
-  wrapper.id = 'cross-site-search';
+  const wrapper = document.createElement('div')
+  wrapper.id = 'cross-site-search'
   wrapper.innerHTML = `
     <style>
       #cross-site-search {
@@ -131,83 +132,88 @@ function initCrossSiteSearch() {
     </svg>
     <input type="text" placeholder="Search all sites..." id="cross-site-search-input" autocomplete="off" spellcheck="false">
     <div class="search-results" id="cross-site-results"></div>
-  `;
+  `
 
-  searchContainer.appendChild(wrapper);
+  searchContainer.appendChild(wrapper)
 
-  const input = document.getElementById('cross-site-search-input');
-  const results = document.getElementById('cross-site-results');
-  let debounceTimer = null;
+  const input = document.getElementById('cross-site-search-input')
+  const results = document.getElementById('cross-site-results')
+  let debounceTimer = null
 
   input.addEventListener('input', () => {
-    clearTimeout(debounceTimer);
-    const query = input.value.trim();
+    clearTimeout(debounceTimer)
+    const query = input.value.trim()
     if (query.length < 2) {
-      results.classList.remove('active');
-      return;
+      results.classList.remove('active')
+      return
     }
-    debounceTimer = setTimeout(() => search(query), 300);
-  });
+    debounceTimer = setTimeout(() => search(query), 300)
+  })
 
   input.addEventListener('focus', () => {
     if (input.value.trim().length >= 2) {
-      results.classList.add('active');
+      results.classList.add('active')
     }
-  });
+  })
 
-  document.addEventListener('click', (e) => {
+  document.addEventListener('click', e => {
     if (!e.target.closest('#cross-site-search')) {
-      results.classList.remove('active');
+      results.classList.remove('active')
     }
-  });
+  })
 
   async function search(query) {
-    results.innerHTML = '<div class="search-footer">Searching...</div>';
-    results.classList.add('active');
+    results.innerHTML = '<div class="search-footer">Searching...</div>'
+    results.classList.add('active')
 
     try {
-      const resp = await fetch(`${SEARCH_API}/search?q=${encodeURIComponent(query)}&limit=10`);
-      const data = await resp.json();
-      renderResults(data);
+      const resp = await fetch(`${SEARCH_API}/search?q=${encodeURIComponent(query)}&limit=10`)
+      const data = await resp.json()
+      renderResults(data)
     } catch {
-      results.innerHTML = '<div class="search-footer">Search unavailable</div>';
+      results.innerHTML = '<div class="search-footer">Search unavailable</div>'
     }
   }
 
   function renderResults(data) {
     if (!data.results || data.results.length === 0) {
-      results.innerHTML = `<div class="search-footer">No results for "${data.query}"</div>`;
-      return;
+      results.innerHTML = `<div class="search-footer">No results for "${data.query}"</div>`
+      return
     }
 
-    results.innerHTML = data.results.map(r => {
-      const url = new URL(r.url);
-      const path = url.pathname.replace(/\/$/, '') || '/';
-      const snippet = r.snippet ? highlight(r.snippet, data.query) : '';
-      return `
+    results.innerHTML = data.results
+      .map(r => {
+        const url = new URL(r.url)
+        const path = url.pathname.replace(/\/$/, '') || '/'
+        const _snippet = r.snippet ? highlight(r.snippet, data.query) : ''
+        return `
         <a class="search-result" href="${r.url}" target="_blank" rel="noopener">
           <span class="result-site" style="background:${r.siteColor}20;color:${r.siteColor}">${r.siteName}</span>
           <div class="result-title">${escapeHtml(r.title)}</div>
           <div class="result-url">${url.hostname}${path}</div>
         </a>
-      `;
-    }).join('');
+      `
+      })
+      .join('')
   }
 
   function highlight(text, query) {
-    let result = escapeHtml(text);
+    let result = escapeHtml(text)
     for (const word of query.split(/\s+/).filter(w => w.length > 1)) {
-      result = result.replace(new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<mark>$1</mark>');
+      result = result.replace(
+        new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'),
+        '<mark>$1</mark>',
+      )
     }
-    return result;
+    return result
   }
 
   function escapeHtml(str) {
-    if (!str) return '';
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    if (!str) return ''
+    const div = document.createElement('div')
+    div.textContent = str
+    return div.innerHTML
   }
 }
 
-initCrossSiteSearch();
+initCrossSiteSearch()

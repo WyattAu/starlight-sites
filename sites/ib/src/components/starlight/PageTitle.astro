@@ -13,7 +13,7 @@ function buildBreadcrumbs(slug: string) {
 
   let path = '';
   for (let i = 0; i < parts.length; i++) {
-    path += '/' + parts[i];
+    path += `/${parts[i]}`;
     const isLast = i === parts.length - 1;
     // Convert slug to readable label: "1_forces-and-motion" → "Forces and Motion"
     const label = parts[i]
@@ -25,7 +25,7 @@ function buildBreadcrumbs(slug: string) {
     if (isLast) {
       crumbs.push({ label });
     } else {
-      crumbs.push({ label, href: path + '/' });
+      crumbs.push({ label, href: `${path}/` });
     }
   }
   return crumbs;

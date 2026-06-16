@@ -13,27 +13,27 @@
  * @returns {function} rehype transformer
  */
 export default function rehypeLazyImages() {
-  return (tree) => {
-    let seen = 0;
-    visit(tree, (node) => {
-      if (node.type !== 'element' || node.tagName !== 'img') return;
-      seen += 1;
-      if (!node.properties) node.properties = {};
+  return tree => {
+    let seen = 0
+    visit(tree, node => {
+      if (node.type !== 'element' || node.tagName !== 'img') return
+      seen += 1
+      if (!node.properties) node.properties = {}
       // Leave the first image eager (likely above the fold).
       if (seen > 1 && node.properties.loading === undefined) {
-        node.properties.loading = 'lazy';
+        node.properties.loading = 'lazy'
       }
       if (node.properties.decoding === undefined) {
-        node.properties.decoding = 'async';
+        node.properties.decoding = 'async'
       }
-    });
-  };
+    })
+  }
 }
 
 /** Minimal depth-first visitor over a hast tree. */
 function visit(node, fn) {
-  fn(node);
+  fn(node)
   if (node.children && Array.isArray(node.children)) {
-    for (const child of node.children) visit(child, fn);
+    for (const child of node.children) visit(child, fn)
   }
 }

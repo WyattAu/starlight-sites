@@ -92,7 +92,7 @@
 
     async function loadAll() {
       await Promise.all([loadHealth(), loadTrending(), loadSites()]);
-      document.getElementById('timestamp').textContent = 'Updated: ' + new Date().toLocaleTimeString();
+      document.getElementById('timestamp').textContent = `Updated: ${new Date().toLocaleTimeString()}`;
     }
 
     async function loadHealth() {
@@ -103,7 +103,7 @@
         document.getElementById('entries').textContent = data.totalEntries.toLocaleString();
         document.getElementById('sites').textContent = data.siteCount;
         const updated = new Date(data.lastUpdated);
-        document.getElementById('updated').textContent = updated.toLocaleDateString() + ' ' + updated.toLocaleTimeString();
+        document.getElementById('updated').textContent = `${updated.toLocaleDateString()} ${updated.toLocaleTimeString()}`;
       } catch {
         document.getElementById('status').textContent = 'FAIL';
       }

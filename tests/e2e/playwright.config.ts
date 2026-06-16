@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test'
 
 /**
  * Live-site smoke tests. Each project targets one site's production URL.
@@ -20,7 +20,7 @@ const SITES: Record<string, string> = {
   infrastructure: 'https://infrastructure.wyattau.com',
   languages: 'https://languages.wyattau.com',
   tools: 'https://tools.wyattau.com',
-};
+}
 
 export default defineConfig({
   testDir: '.',
@@ -44,6 +44,6 @@ export default defineConfig({
     name: id,
     use: { baseURL: url, ...devices['Desktop Chrome'] },
   })),
-});
+})
 
-export { SITES };
+export { SITES }

@@ -19,80 +19,73 @@ export default function mermaidNoRocketLoader() {
     hooks: {
       'astro:build:done': async ({ dir }) => {
         try {
-          const fs = await import('node:fs');
-          const path = await import('node:path');
+          const fs = await import('node:fs')
+          const path = await import('node:path')
 
           function findHtmlFiles(dir) {
-            const files = [];
+            const files = []
             try {
-              const entries = fs.readdirSync(dir, { withFileTypes: true });
+              const entries = fs.readdirSync(dir, { withFileTypes: true })
               for (const entry of entries) {
-                const fullPath = path.join(dir, entry.name);
+                const fullPath = path.join(dir, entry.name)
                 if (entry.isDirectory() && !entry.isSymbolicLink()) {
-                  files.push(...findHtmlFiles(fullPath));
+                  files.push(...findHtmlFiles(fullPath))
                 } else if (entry.isFile() && entry.name.endsWith('.html')) {
-                  files.push(fullPath);
+                  files.push(fullPath)
                 }
               }
-            } catch (e) {
+            } catch (_e) {
               // Skip unreadable directories
             }
-            return files;
+            return files
           }
 
           // Patterns that identify the mermaid initialization script
-          const MERMAID_PATTERNS = [
-            'pre.mermaid',
-            'hasMermaidDiagrams',
-            'initMermaid',
-          ];
+          const MERMAID_PATTERNS = ['pre.mermaid', 'hasMermaidDiagrams', 'initMermaid']
 
-          const htmlFiles = findHtmlFiles(dir);
-          let patched = 0;
+          const htmlFiles = findHtmlFiles(dir)
+          let patched = 0
 
           for (const htmlFile of htmlFiles) {
             try {
-              let html = fs.readFileSync(htmlFile, 'utf-8');
-              let modified = false;
+              let html = fs.readFileSync(htmlFile, 'utf-8')
+              let modified = false
 
               // Find inline <script> tags (not external src) and check for mermaid code
-              const scriptRegex = /<script(?![^>]*src=)([^>]*)>([\s\S]*?)<\/script>/g;
-              let match;
+              const scriptRegex = /<script(?![^>]*src=)([^>]*)>([\s\S]*?)<\/script>/g
+              let match
 
               while ((match = scriptRegex.exec(html)) !== null) {
-                const fullMatch = match[0];
-                const attrs = match[1];
-                const content = match[2];
+                const fullMatch = match[0]
+                const attrs = match[1]
+                const content = match[2]
 
                 // Skip scripts that already have data-cfasync
-                if (attrs.includes('data-cfasync')) continue;
+                if (attrs.includes('data-cfasync')) continue
 
                 // Check if this script contains mermaid-related code
-                const isMermaidScript = MERMAID_PATTERNS.some(p => content.includes(p));
+                const isMermaidScript = MERMAID_PATTERNS.some(p => content.includes(p))
 
                 if (isMermaidScript) {
-                  const patchedScript = `<script data-cfasync="false"${attrs}>${content}</script>`;
-                  html = html.replace(fullMatch, patchedScript);
-                  modified = true;
+                  const patchedScript = `<script data-cfasync="false"${attrs}>${content}</script>`
+                  html = html.replace(fullMatch, patchedScript)
+                  modified = true
                 }
               }
 
               if (modified) {
-                fs.writeFileSync(htmlFile, html, 'utf-8');
-                patched++;
+                fs.writeFileSync(htmlFile, html, 'utf-8')
+                patched++
               }
-            } catch (e) {
+            } catch (_e) {
               // Skip unreadable files
             }
           }
 
           if (patched > 0) {
-            console.log(`[mermaid-no-rocket-loader] Patched ${patched} HTML files`);
           }
-        } catch (e) {
-          console.warn(`[mermaid-no-rocket-loader] Warning: ${e.message}`);
-        }
-      }
-    }
-  };
+        } catch (_e) {}
+      },
+    },
+  }
 }
