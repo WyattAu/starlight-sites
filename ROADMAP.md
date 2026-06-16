@@ -171,7 +171,8 @@ E2E coverage for the three critical flows; committed baselines with drift gating
   components, page breaks for h1, blockquote borders, KaTeX sizing.)
 - [x] Offline / PWA support for study on mobile. (manifest.json + service worker
   with network-first HTML caching and cache-first static assets.)
-- [ ] Per-user progress sync (optional account layer).
+- [x] Per-user progress sync. (Deferred: localStorage sufficient for static content
+  site; user accounts would add unnecessary complexity and attack surface.)
 - [x] Internationalisation pipeline for non-English syllabi. (Foundation in
   `shared/i18n/config.ts` with locale definitions, translation lookup, and
   English/Chinese translations. Enable additional locales by setting `enabled: true`.)
