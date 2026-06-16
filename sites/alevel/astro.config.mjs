@@ -5,6 +5,7 @@ import solidJs from '@astrojs/solid-js';
 import sitemap from '@astrojs/sitemap';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import lazyImages from '../../shared/integrations/lazy-images/index.mjs';
 
 export default defineConfig({
   site: 'https://alevel.wyattau.com',
@@ -59,6 +60,6 @@ export default defineConfig({
   },
   markdown: {
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    rehypePlugins: [rehypeKatex, lazyImages],
   },
 });

@@ -7,6 +7,7 @@ import mermaid from 'astro-mermaid';
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import lazyImages from '../../shared/integrations/lazy-images/index.mjs';
 
 export default defineConfig({
   site: 'https://ib.wyattau.com',
@@ -66,6 +67,6 @@ export default defineConfig({
   },
   markdown: {
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
+    rehypePlugins: [rehypeKatex, lazyImages],
   },
 });
