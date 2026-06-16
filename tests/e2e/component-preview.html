@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Component Preview -- Wyatt's Notes</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #0f172a; --bg-card: #1e293b; --text: #e2e8f0;
+      --text-muted: #94a3b8; --accent: #ff6b35; --border: #334155;
+      --success: #2ecc71; --warning: #f39c12; --error: #e74c3c; --info: #3498db;
+    }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h1 span { background: linear-gradient(135deg, var(--accent), #fbbf24); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { color: var(--text-muted); margin-bottom: 2rem; }
+    .component-section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .component-section h2 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--accent); }
+    .component-section p { color: var(--text-muted); margin-bottom: 1rem; font-size: 0.9rem; }
+    .badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600; }
+    .badge-solid { background: rgba(255, 107, 53, 0.15); color: var(--accent); border: 1px solid rgba(255, 107, 53, 0.3); }
+    .badge-test { background: rgba(46, 204, 113, 0.15); color: var(--success); border: 1px solid rgba(46, 204, 113, 0.3); }
+    .preview-placeholder { background: var(--bg); border: 2px dashed var(--border); border-radius: 8px; padding: 2rem; text-align: center; color: var(--text-muted); }
+    .nav { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+    .nav a { color: var(--text-muted); text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--border); transition: all 0.2s; }
+    .nav a:hover { color: var(--text); border-color: var(--accent); }
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .info-item { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+    .info-item .label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .info-item .value { font-size: 1.25rem; font-weight: 700; color: var(--accent); margin-top: 0.25rem; }
+    code { background: rgba(255, 255, 255, 0.05); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+
+<h1>Component <span>Preview</span></h1>
+<p class="subtitle">Interactive development harness for shared SolidJS components. Each component renders with sample data for visual inspection.</p>
+
+<nav class="nav">
+  <a href="#practice-problem">PracticeProblem</a>
+  <a href="#flashcard-deck">FlashcardDeck</a>
+  <a href="#diagnostic-test">DiagnosticTest</a>
+  <a href="#desmos-graph">DesmosGraph</a>
+  <a href="#phet-simulation">PhetSimulation</a>
+</nav>
+
+<div class="info-grid">
+  <div class="info-item">
+    <div class="label">Components</div>
+    <div class="value">9</div>
+  </div>
+  <div class="info-item">
+    <div class="label">Framework</div>
+    <div class="value">SolidJS</div>
+  </div>
+  <div class="info-item">
+    <div class="label">Shared Source</div>
+    <div class="value">shared/</div>
+  </div>
+  <div class="info-item">
+    <div class="label">Sync Targets</div>
+    <div class="value">9 sites</div>
+  </div>
+</div>
+
+<section class="component-section" id="practice-problem">
+  <h2>PracticeProblem <span class="badge badge-solid">SolidJS</span> <span class="badge badge-test">Tested</span></h2>
+  <p>Adaptive multiple-choice practice with keyboard navigation (arrow keys + Enter), difficulty badges, and results dialog. Supports single question or array of questions.</p>
+  <div class="preview-placeholder">
+    <p>Render via Astro page: <code>src/content/docs/preview/practice-problem.mdx</code></p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Requires Astro dev server for full interactive preview.</p>
+  </div>
+</section>
+
+<section class="component-section" id="flashcard-deck">
+  <h2>FlashcardDeck <span class="badge badge-solid">SolidJS</span> <span class="badge badge-test">Tested</span></h2>
+  <p>SM-2 spaced repetition flashcards with keyboard shortcuts (Space to flip, 1-4 to rate), mastery tracking, streak counting, import/export, and prefers-reduced-motion support.</p>
+  <div class="preview-placeholder">
+    <p>Sub-modules: <code>flashcard/sm2.ts</code>, <code>flashcard/storage.ts</code>, <code>flashcard/constants.ts</code></p>
+  </div>
+</section>
+
+<section class="component-section" id="diagnostic-test">
+  <h2>DiagnosticTest <span class="badge badge-solid">SolidJS</span> <span class="badge badge-test">Tested</span></h2>
+  <p>Adaptive diagnostic assessment. Dynamically selects questions based on user performance, targeting weak topics. Tracks per-topic scores and computes strengths/weaknesses.</p>
+  <div class="preview-placeholder">
+    <p>Self-contained component with adaptive question selection algorithm.</p>
+  </div>
+</section>
+
+<section class="component-section" id="desmos-graph">
+  <h2>DesmosGraph <span class="badge badge-solid">SolidJS</span></h2>
+  <p>Embeds Desmos graphing calculator. Two modes: expression-based (programmatic with auto-detected sliders) or iframe URL. Loads Desmos API dynamically.</p>
+  <div class="preview-placeholder">
+    <p>Requires Desmos API script load. Test with: <code>&lt;DesmosGraph expressions={["y=x^2"]} /&gt;</code></p>
+  </div>
+</section>
+
+<section class="component-section" id="phet-simulation">
+  <h2>PhetSimulation <span class="badge badge-solid">SolidJS</span></h2>
+  <p>Embeds PhET Colorado interactive simulations via sandboxed iframe with responsive aspect ratio, lazy loading, and strict referrer policy.</p>
+  <div class="preview-placeholder">
+    <p>Test with: <code>&lt;PhetSimulation simulationId="forces-and-motion-basics" /&gt;</code></p>
+  </div>
+</section>
+
+<section class="component-section">
+  <h2>BaseDialog <span class="badge badge-solid">SolidJS</span></h2>
+  <p>Reusable dialog shell with configurable size (sm/md/lg). QuestionDialog, ResultsDialog, and SettingsDialog all delegate to this component.</p>
+  <div class="info-grid">
+    <div class="info-item">
+      <div class="label">Size: lg</div>
+      <div class="value">QuestionDialog, ResultsDialog</div>
+    </div>
+    <div class="info-item">
+      <div class="label">Size: md</div>
+      <div class="value">SettingsDialog</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
