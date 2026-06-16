@@ -52,6 +52,8 @@ const SKIP_DIRS = new Set([
   '.wrangler',
   '.husky',
   'built',
+  'playwright-report',
+  'test-results',
 ])
 
 const INCLUDE_EXT = new Set([
@@ -143,8 +145,11 @@ function main() {
     return 0
   }
 
-  for (const _v of violations) {
+  for (const v of violations) {
+    console.log(`  ${v.file}:${v.line}:${v.column}  ${v.codePoint} (${v.char})`)
   }
+
+  console.log(`\n  ${violations.length} emoji violation(s) found.`)
 
   return 1
 }

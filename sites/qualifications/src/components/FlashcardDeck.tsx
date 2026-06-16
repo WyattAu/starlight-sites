@@ -55,11 +55,16 @@ const RatingButton = (props: {
       disabled={props.disabled}
       onClick={() => props.onClick(props.config.key)}
       aria-label={`${props.config.label} (${props.config.shortcut})`}
-      class="flex-1 py-2.5 px-2 rounded-lg text-white font-semibold text-sm cursor-pointer transition-opacity hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
-      style={{ '--rating-color': props.config.color, background: props.config.color } as Record<string, string>}
+      class="flex-1 cursor-pointer rounded-lg px-2 py-2.5 font-semibold text-sm text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+      style={
+        { '--rating-color': props.config.color, background: props.config.color } as Record<
+          string,
+          string
+        >
+      }
     >
       {props.config.label}
-      <span class="block text-xs opacity-80 mt-0.5">{props.config.shortcut}</span>
+      <span class="mt-0.5 block text-xs opacity-80">{props.config.shortcut}</span>
     </button>
   )
 }
@@ -67,14 +72,12 @@ const RatingButton = (props: {
 function StatBox(props: { label: string; value: string | number; highlight?: boolean }) {
   return (
     <div
-      class={`py-3 px-4 rounded-lg text-center min-w-[90px] border ${
-        props.highlight
-          ? 'border-error bg-error/10'
-          : 'bg-emphasis-100 border-emphasis-200'
+      class={`min-w-[90px] rounded-lg border px-4 py-3 text-center ${
+        props.highlight ? 'border-error bg-error/10' : 'border-emphasis-200 bg-emphasis-100'
       }`}
     >
-      <div class="text-xl font-bold">{props.value}</div>
-      <div class="text-xs text-emphasis-700">{props.label}</div>
+      <div class="font-bold text-xl">{props.value}</div>
+      <div class="text-emphasis-700 text-xs">{props.label}</div>
     </div>
   )
 }
@@ -88,8 +91,10 @@ function ActionButton(props: {
 }) {
   const cls = () => {
     const base = 'py-2.5 px-6 rounded-lg font-semibold text-base cursor-pointer transition-all'
-    if (props.primary) return `${base} border-none bg-primary text-white hover:opacity-90 disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60`
-    if (props.danger) return `${base} bg-error/10 text-error border border-emphasis-300 hover:bg-error/20`
+    if (props.primary)
+      return `${base} border-none bg-primary text-white hover:opacity-90 disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60`
+    if (props.danger)
+      return `${base} bg-error/10 text-error border border-emphasis-300 hover:bg-error/20`
     return `${base} bg-surface border border-emphasis-300 text-base hover:bg-emphasis-100 disabled:opacity-50 disabled:cursor-not-allowed`
   }
 
@@ -144,7 +149,6 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const [getFlipped, setFlipped] = createSignal(false)
   const [getCurrentIndex, setCurrentIndex] = createSignal(0)
   const [getDueQueue, setDueQueue] = createSignal<string[]>([])
-  let _containerRef: HTMLDivElement | undefined
   let cardRef: HTMLDivElement | undefined
 
   const now = Date.now()
@@ -294,7 +298,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       <div
         role="region"
         aria-label="Flashcard deck empty"
-        class="max-w-[600px] mx-auto my-6 p-6 border-2 border-emphasis-300 rounded-xl bg-surface text-base text-center font-sans"
+        class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 text-center font-sans text-base"
       >
         No cards in this deck.
       </div>
@@ -303,19 +307,18 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   return (
     <div
-      ref={el => {
-        _containerRef = el
-      }}
       role="region"
       aria-label={props.title ? `Flashcard deck: ${props.title}` : 'Flashcard deck'}
-      class="max-w-[600px] mx-auto my-6 p-6 border-2 border-emphasis-300 rounded-xl bg-surface text-base font-sans"
+      class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
     >
       {getView() === 'deck' && (
         <div class="text-center">
-          {props.title && <h3 class="mt-0 mb-1 text-base font-semibold">{props.title}</h3>}
-          {props.description && <p class="mt-0 mb-4 text-sm text-emphasis-700">{props.description}</p>}
+          {props.title && <h3 class="mt-0 mb-1 font-semibold text-base">{props.title}</h3>}
+          {props.description && (
+            <p class="mt-0 mb-4 text-emphasis-700 text-sm">{props.description}</p>
+          )}
 
-          <div class="flex flex-wrap gap-3 justify-center mb-4">
+          <div class="mb-4 flex flex-wrap justify-center gap-3">
             <StatBox label="Total Cards" value={props.cards.length} />
             <StatBox
               label="Due Today"
@@ -326,27 +329,33 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
             <StatBox label="Streak" value={`${streak()}d`} />
           </div>
 
-          <div class="flex flex-wrap gap-2 justify-center mb-5">
+          <div class="mb-5 flex flex-wrap justify-center gap-2">
             <For each={Object.entries(masteryBreakdown())}>
               {([level, count]) => (
-                <span class="inline-block py-1 px-3 rounded-full text-xs font-semibold text-white" style={{ background: MASTERY_COLORS[level] }}>
+                <span
+                  class="inline-block rounded-full px-3 py-1 font-semibold text-white text-xs"
+                  style={{ background: MASTERY_COLORS[level] }}
+                >
                   {MASTERY_LABELS[level]}: {count}
                 </span>
               )}
             </For>
           </div>
 
-          <div class="w-full max-w-[520px] mt-3 mx-auto">
-            <div class="flex justify-between text-xs mb-1">
+          <div class="mx-auto mt-3 w-full max-w-[520px]">
+            <div class="mb-1 flex justify-between text-xs">
               <span>Mastery</span>
               <span>{masteryPercent()}%</span>
             </div>
             <div class="h-2 rounded bg-emphasis-200">
-              <div class="h-full rounded bg-primary transition-[width]" style={{ width: `${masteryPercent()}%` }} />
+              <div
+                class="h-full rounded bg-primary transition-[width]"
+                style={{ width: `${masteryPercent()}%` }}
+              />
             </div>
           </div>
 
-          <div class="mt-5 flex gap-2.5 justify-center flex-wrap">
+          <div class="mt-5 flex flex-wrap justify-center gap-2.5">
             <ActionButton
               label="Study Now"
               disabled={dueCards().length === 0}
@@ -361,11 +370,11 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
       {getView() === 'review' && (
         <div>
-          <div class="text-center mb-3 text-sm text-emphasis-700">
+          <div class="mb-3 text-center text-emphasis-700 text-sm">
             Card {getCurrentIndex() + 1} of {getDueQueue().length}
           </div>
 
-          <div class="w-full max-w-[520px] mx-auto" style={{ perspective: '1000px' }}>
+          <div class="mx-auto w-full max-w-[520px]" style={{ perspective: '1000px' }}>
             <div
               ref={el => {
                 cardRef = el
@@ -384,26 +393,33 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
                   setFlipped(!getFlipped())
                 }
               }}
-              class="relative w-full min-h-[220px] cursor-pointer"
+              class="relative min-h-[220px] w-full cursor-pointer"
               style={{
                 'transform-style': 'preserve-3d',
                 transform: getFlipped() ? 'rotateY(180deg)' : 'rotateY(0)',
                 transition: prefersReducedMotion() ? 'none' : 'transform 0.6s',
               }}
             >
-              <div class="absolute inset-0 min-h-[220px] backface-hidden flex flex-col items-center justify-center p-7 px-6 rounded-xl border-2 border-emphasis-300 bg-surface box-border">
-                <div class="text-xs text-emphasis-500 mb-2">QUESTION</div>
-                <div class="text-lg font-semibold text-center leading-relaxed">{currentCard()?.front}</div>
+              <div class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6">
+                <div class="mb-2 text-emphasis-500 text-xs">QUESTION</div>
+                <div class="text-center font-semibold text-lg leading-relaxed">
+                  {currentCard()?.front}
+                </div>
               </div>
-              <div class="absolute inset-0 min-h-[220px] backface-hidden flex flex-col items-center justify-center p-7 px-6 rounded-xl border-2 border-emphasis-300 bg-surface box-border" style={{ transform: 'rotateY(180deg)' }}>
-                <div class="text-xs text-emphasis-500 mb-2">ANSWER</div>
-                <div class="text-lg font-semibold text-center leading-relaxed">{currentCard()?.back}</div>
+              <div
+                class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6"
+                style={{ transform: 'rotateY(180deg)' }}
+              >
+                <div class="mb-2 text-emphasis-500 text-xs">ANSWER</div>
+                <div class="text-center font-semibold text-lg leading-relaxed">
+                  {currentCard()?.back}
+                </div>
               </div>
             </div>
           </div>
 
           <div
-            class="flex gap-2 mt-5 max-w-[520px] mx-auto transition-[opacity]"
+            class="mx-auto mt-5 flex max-w-[520px] gap-2 transition-[opacity]"
             style={{
               opacity: getFlipped() ? 1 : 0.3,
               'pointer-events': getFlipped() ? 'auto' : 'none',
@@ -414,10 +430,10 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
             </For>
           </div>
 
-          <div class="text-center mt-4">
+          <div class="mt-4 text-center">
             <button
               type="button"
-              class="py-2 px-5 border border-emphasis-300 rounded-lg bg-transparent cursor-pointer text-sm"
+              class="cursor-pointer rounded-lg border border-emphasis-300 bg-transparent px-5 py-2 text-sm"
               onClick={() => {
                 setView('deck')
                 setDueQueue([])
@@ -431,8 +447,8 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
       {getView() === 'stats' && (
         <div class="text-center">
-          <h3 class="mt-0 mb-4 text-base font-semibold">Statistics</h3>
-          <div class="flex flex-wrap gap-3 justify-center mb-6">
+          <h3 class="mt-0 mb-4 font-semibold text-base">Statistics</h3>
+          <div class="mb-6 flex flex-wrap justify-center gap-3">
             <StatBox label="Cards Mastered" value={masteredCount()} />
             <StatBox
               label="Cards Learning"
@@ -443,10 +459,13 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
             <StatBox label="Total Reviews" value={totalReviews()} />
             <StatBox label="Avg Ease Factor" value={avgEase().toFixed(2)} />
           </div>
-          <div class="flex flex-wrap gap-2 justify-center mb-6">
+          <div class="mb-6 flex flex-wrap justify-center gap-2">
             <For each={Object.entries(masteryBreakdown())}>
               {([level, count]) => (
-                <span class="inline-block py-1 px-3 rounded-full text-xs font-semibold text-white" style={{ background: MASTERY_COLORS[level] }}>
+                <span
+                  class="inline-block rounded-full px-3 py-1 font-semibold text-white text-xs"
+                  style={{ background: MASTERY_COLORS[level] }}
+                >
                   {MASTERY_LABELS[level]}: {count}
                 </span>
               )}
@@ -459,7 +478,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       {getView() === 'settings' && (
         <SettingsDialog
           open={getView() === 'settings'}
-          onOpenChange={(open) => {
+          onOpenChange={open => {
             if (!open) setView('deck')
           }}
           title="Settings"

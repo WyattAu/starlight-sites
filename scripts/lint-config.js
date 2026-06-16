@@ -83,12 +83,14 @@ const errors = ISSUES.filter(i => i.type === 'ERROR')
 const warnings = ISSUES.filter(i => i.type === 'WARNING')
 
 if (errors.length > 0) {
-  for (const _issue of errors) {
+  for (const issue of errors) {
+    console.log(`  [ERROR] ${issue.site}: ${issue.message}`)
   }
 }
 
 if (warnings.length > 0) {
-  for (const _issue of warnings) {
+  for (const issue of warnings) {
+    console.log(`  [WARN]  ${issue.site}: ${issue.message}`)
   }
 }
 

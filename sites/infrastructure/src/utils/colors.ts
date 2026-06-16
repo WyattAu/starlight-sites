@@ -19,9 +19,9 @@ export const DIFFICULTY_COLORS = {
 export const MASTERY_COLORS = {
   new: '#95a5a6',
   learning: COLORS.info,
-  familiar: COLORS.warning,
+  review: COLORS.warning,
   mastered: COLORS.success,
 } as const
 
 export type Difficulty = 'easy' | 'medium' | 'hard'
-export type MasteryLevel = 'new' | 'learning' | 'familiar' | 'mastered'
+export type MasteryLevel = 'new' | 'learning' | 'review' | 'mastered'

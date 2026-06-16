@@ -56,7 +56,7 @@ export default function PhetSimulation(props: PhetSimulationProps) {
   const aspectPadding = () => (height() / width()) * 100
 
   return (
-    <div style={embedContainer}>
+    <div style={embedContainer} role="region" aria-label={title()}>
       <p style={embedTitle}>{title()}</p>
       <div style={{ ...embedResponsive, 'padding-bottom': `${aspectPadding()}%` }}>
         <iframe

@@ -92,10 +92,13 @@ for (const site of sites) {
 }
 
 if (ISSUES.length > 0) {
-  for (const _issue of ISSUES.slice(0, 20)) {
+  for (const issue of ISSUES.slice(0, 20)) {
+    console.log(`  [${issue.type}] ${issue.file}: ${issue.message}`)
   }
   if (ISSUES.length > 20) {
+    console.log(`  ... and ${ISSUES.length - 20} more issues`)
   }
+  console.log(`\n  ${ISSUES.length} link issue(s) found.`)
 }
 
 process.exit(ISSUES.length > 0 ? 1 : 0)

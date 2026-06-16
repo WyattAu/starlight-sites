@@ -85,13 +85,18 @@ const errors = ISSUES.filter(i => i.type === 'ERROR')
 const warnings = ISSUES.filter(i => i.type === 'WARNING')
 
 if (errors.length > 0) {
-  errors.forEach(_i => {})
+  for (const i of errors) {
+    console.log(`  [ERROR] ${i.file}: ${i.message}`)
+  }
 }
 if (warnings.length > 0) {
-  warnings.slice(0, 20).forEach(_i => {})
+  for (const i of warnings.slice(0, 20)) {
+    console.log(`  [WARN]  ${i.file}: ${i.message}`)
+  }
   if (warnings.length > 20) {
     console.log(`  ... and ${warnings.length - 20} more warnings`)
   }
+  console.log(`\n  ${warnings.length} warning(s) found.`)
 }
 
 process.exit(errors.length > 0 ? 1 : 0)
