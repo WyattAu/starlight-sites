@@ -6,8 +6,8 @@
 |--------|---------|---------|---------|
 | Package Manager | Bun | Bun | Latest |
 | Framework | Astro + Starlight | Astro + Starlight | 5.5.4 / 0.32.2 |
-| UI Framework | SolidJS | SolidJS | 1.9.7 |
-| Styling | Custom CSS (CSS Variables) | Tailwind CSS v4 | 4.3.1 |
+| UI Framework | SolidJS | SolidJS | 1.9.13 |
+| Styling | Custom CSS (863 lines) | Tailwind CSS v4 (260 lines) | 4.3.1 |
 | Build Tool | Vite (via Astro) | Vite (via Astro) | Latest |
 | Type Safety | TypeScript | TypeScript | 5.8.2 |
 | Linting | None | Biome | 2.5.0 |
@@ -47,6 +47,58 @@
 | **Solid Sonner** | Toast notifications. | Low priority for docs |
 | **tsdown** | Library bundler for shared components. | Could replace tsup if used |
 | **Panda CSS** | Alternative to Tailwind. Type-safe. | Tailwind v4 already type-safe |
+
+## Completed Tasks
+
+| Task | Status | Date |
+|------|--------|------|
+| Biome 2.5.0 | DONE | 2026-06-16 |
+| Vitest 4.1.9 | DONE | 2026-06-16 |
+| Tailwind CSS v4 | DONE | 2026-06-16 |
+| Component CSS migration | DONE | 2026-06-16 |
+| Solid Primitives | DONE | 2026-06-16 |
+| Kobalte | DONE | 2026-06-16 |
+| Felte | DONE | 2026-06-16 |
+| unplugin-icons | DONE | 2026-06-16 |
+| Component render tests | DONE | 2026-06-16 |
+| Playwright visual config | DONE | 2026-06-16 |
+| Pre-commit hook fix | DONE | 2026-06-16 |
+
+## Test Results
+
+| Test Type | Count | Status |
+|-----------|-------|--------|
+| Component tests | 92 | PASSING |
+| Legacy tests | 177 | PASSING |
+| Total | 269 | PASSING |
+
+## Files Changed
+
+| File | Change |
+|------|--------|
+| package.json | New deps + scripts |
+| biome.json | Linter/formatter config |
+| vitest.config.ts | Test config |
+| shared/styles/custom.css | 260 lines (was 863) |
+| shared/components/FlashcardDeck.tsx | Tailwind + hooks |
+| shared/components/DiagnosticTest.tsx | Tailwind utilities |
+| shared/components/PracticeProblem.tsx | Tailwind utilities |
+| shared/components/SettingsDialog.tsx | New Kobalte dialog |
+| sites/*/astro.config.mjs | Tailwind + Icons |
+| tests/components/*.test.ts | 92 tests |
+| tests/e2e/visual.config.ts | Visual regression |
+| tests/e2e/visual.spec.ts | Visual tests |
+| .husky/pre-commit | Simplified |
+
+## Next Steps
+
+| Priority | Task | Why |
+|----------|------|-----|
+| 1 | Run Playwright against live sites | Capture visual baselines |
+| 2 | Kobalte dialogs for diagnostic/practice | Accessibility |
+| 3 | Icon integration in components | Replace inline SVGs |
+| 4 | Component render tests for diagnostic/practice | Test coverage |
+| 5 | Performance baseline | Establish metrics |
 
 ### LOW PRIORITY — Skip
 
