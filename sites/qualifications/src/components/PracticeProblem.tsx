@@ -1,6 +1,8 @@
 import { createEffect, createSignal } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { sanitizeHtml } from '../utils/sanitize'
+import QuestionDialog from './QuestionDialog'
+import ResultsDialog from './ResultsDialog'
 
 export interface PracticeQuestionData {
   question: string
@@ -63,14 +65,15 @@ function optionClass(
   submitted: boolean,
   correctAnswer: number,
 ): string {
-  const base = 'block w-full py-3 px-4 my-1.5 border-2 rounded-lg bg-surface text-base text-left font-sans cursor-pointer transition-all'
-  
+  const base =
+    'block w-full py-3 px-4 my-1.5 border-2 rounded-lg bg-surface text-base text-left font-sans cursor-pointer transition-all'
+
   if (submitted) {
     if (index === correctAnswer) return `${base} border-success bg-success/12 cursor-default`
     if (index === selected) return `${base} border-error bg-error/12 cursor-default`
     return `${base} border-emphasis-300 cursor-default`
   }
-  
+
   if (selected === index) return `${base} border-accent bg-primary-soft`
   return `${base} border-emphasis-300 hover:border-accent`
 }
@@ -96,7 +99,7 @@ function PracticeProblemItem(props: {
     }
   })
 
-  const handleKeyDown = (e: KeyboardEvent) => {
+  const _handleKeyDown = (e: KeyboardEvent) => {
     if (submitted()) {
       return
     }
@@ -125,21 +128,23 @@ function PracticeProblemItem(props: {
   }
 
   return (
-    <div
-      class="max-w-[700px] mx-auto my-6 p-6 border-2 border-emphasis-300 rounded-xl bg-surface font-sans"
-      onKeyDown={handleKeyDown}
-      role="radiogroup"
-      aria-label="Practice problem options"
+    <QuestionDialog
+      open={true}
+      onOpenChange={() => {}}
+      title={`Practice Problem - ${props.difficulty}`}
     >
-      <div class="flex items-center gap-2 mb-3">
-        <span class={`inline-block py-0.5 px-2.5 rounded text-xs font-semibold uppercase tracking-wider text-white ${difficultyColor()}`} data-difficulty={props.difficulty}>
+      <div class="mb-3">
+        <span
+          class={`inline-block rounded px-2.5 py-0.5 font-semibold text-white text-xs uppercase tracking-wider ${difficultyColor()}`}
+          data-difficulty={props.difficulty}
+        >
           {props.difficulty}
         </span>
       </div>
 
-      <p class="text-lg font-semibold mb-4">{escapeHtml(props.question)}</p>
+      <p class="mb-4 font-semibold text-lg">{escapeHtml(props.question)}</p>
 
-      <div role="group" aria-label="Answer options">
+      <div role="radiogroup" aria-label="Answer options" class="flex flex-col gap-2">
         {props.options.map((opt, i) => (
           <button
             ref={el => {
@@ -154,41 +159,48 @@ function PracticeProblemItem(props: {
             onClick={() => !submitted() && setSelected(i)}
             class={optionClass(i, selected(), submitted(), props.correctAnswer)}
           >
-            <span class="font-semibold mr-2">{String.fromCharCode(65 + i)}.</span>
+            <span class="mr-2 font-semibold">{String.fromCharCode(65 + i)}.</span>
             {typeof opt === 'string' ? opt : ''}
           </button>
         ))}
       </div>
 
-      {!submitted() && (
-        <button
-          type="button"
-          class="mt-3 py-2.5 px-6 rounded-lg bg-primary text-white font-semibold text-base cursor-pointer border-none disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60"
-          disabled={selected() === null}
-          onClick={handleSubmit}
-        >
-          Submit
-        </button>
-      )}
+      <div class="mt-4 flex justify-center">
+        {!submitted() && (
+          <button
+            type="button"
+            class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white disabled:cursor-not-allowed disabled:bg-emphasis-300 disabled:opacity-60"
+            disabled={selected() === null}
+            onClick={handleSubmit}
+          >
+            Submit
+          </button>
+        )}
+      </div>
 
       {submitted() && (
-        <div
-          class={`mt-4 p-4 rounded-lg border ${
-            isCorrect()
-              ? 'bg-success/10 border-success'
-              : 'bg-error/10 border-error'
-          }`}
+        <ResultsDialog
+          open={submitted()}
+          onOpenChange={open => {
+            if (!open) {
+              setSelected(null)
+              setSubmitted(false)
+            }
+          }}
+          title={isCorrect() ? 'Correct!' : 'Incorrect.'}
         >
-          <strong
-            class={`block ${
-              isCorrect() ? 'text-success' : 'text-error'
+          <div
+            class={`rounded-lg border p-4 ${
+              isCorrect() ? 'border-success bg-success/10' : 'border-error bg-error/10'
             }`}
           >
-            {isCorrect() ? 'Correct!' : 'Incorrect.'}
-          </strong>
-          <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />
-        </div>
+            <strong class={`block ${isCorrect() ? 'text-success' : 'text-error'}`}>
+              {isCorrect() ? 'Well done!' : 'Not quite right.'}
+            </strong>
+            <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />
+          </div>
+        </ResultsDialog>
       )}
-    </div>
+    </QuestionDialog>
   )
 }

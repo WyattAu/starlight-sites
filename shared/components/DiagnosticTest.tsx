@@ -7,8 +7,8 @@
 
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { sanitizeHtml } from '../utils/sanitize'
-import ResultsDialog from './ResultsDialog'
 import QuestionDialog from './QuestionDialog'
+import ResultsDialog from './ResultsDialog'
 
 export interface DiagnosticQuestion {
   id: string
@@ -267,7 +267,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
     return (
       <ResultsDialog
         open={getShowResults()}
-        onOpenChange={(open) => {
+        onOpenChange={open => {
           if (!open) {
             setShowResults(false)
             setSelected(null)
@@ -375,10 +375,10 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
       title={`Question ${progress() + 1} of ${maxQ}`}
     >
       <div class="mb-4 flex items-center justify-between text-emphasis-700 text-sm">
-        <span>
-          {formatTime(getElapsed())}
+        <span>{formatTime(getElapsed())}</span>
+        <span class="font-variant-numeric:tabular-nums">
+          {q.topic} - Difficulty {q.difficulty}
         </span>
-        <span class="font-variant-numeric:tabular-nums">{q.topic} - Difficulty {q.difficulty}</span>
       </div>
 
       <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
@@ -432,7 +432,11 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
           </button>
         </Show>
         <Show when={getSubmitted()}>
-          <button type="button" class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white" onClick={handleNext}>
+          <button
+            type="button"
+            class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white"
+            onClick={handleNext}
+          >
             {isComplete() ? 'View Results' : 'Next Question'}
           </button>
         </Show>

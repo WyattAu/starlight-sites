@@ -3,10 +3,10 @@ import sitemap from '@astrojs/sitemap'
 import solidJs from '@astrojs/solid-js'
 import starlight from '@astrojs/starlight'
 import tailwindcss from '@tailwindcss/vite'
-import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'astro/config'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
+import Icons from 'unplugin-icons/vite'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 
 export default defineConfig({

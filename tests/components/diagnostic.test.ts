@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import type { DiagnosticQuestion } from '../../shared/components/DiagnosticTest'
 
 // Test the pure functions extracted from DiagnosticTest
@@ -186,7 +186,13 @@ describe('DiagnosticTest Logic', () => {
           correct: s.correct,
           total: s.total,
           score: s.total > 0 ? s.correct / s.total : 0,
-          level: (s.total > 0 ? (s.correct / s.total >= 0.8 ? 'strong' : s.correct / s.total >= 0.5 ? 'moderate' : 'weak') : 'weak') as 'strong' | 'moderate' | 'weak',
+          level: (s.total > 0
+            ? s.correct / s.total >= 0.8
+              ? 'strong'
+              : s.correct / s.total >= 0.5
+                ? 'moderate'
+                : 'weak'
+            : 'weak') as 'strong' | 'moderate' | 'weak',
         }))
 
         let totalCorrect = 0

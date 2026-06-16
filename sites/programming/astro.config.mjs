@@ -1,9 +1,8 @@
-import tailwindcss from '@tailwindcss/vite'
-import Icons from 'unplugin-icons/vite'
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import solidJs from '@astrojs/solid-js'
 import starlight from '@astrojs/starlight'
+import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'astro/config'
 import mermaid from 'astro-mermaid'
 import rehypeKatex from 'rehype-katex'
@@ -69,6 +68,28 @@ export default defineConfig({
         },
       ],
       head: [
+        { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'preload',
+            href: '/fonts/Inter-latin.woff2',
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: true,
+          },
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'preload',
+            href: '/fonts/JetBrainsMono-latin.woff2',
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: true,
+          },
+        },
         { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
         {
           tag: 'link',

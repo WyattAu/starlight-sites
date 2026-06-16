@@ -1,6 +1,6 @@
 {
-  "name": "Wyatt's Notes — Infrastructure",
-  "short_name": "WyattsNotes",
+  "name": "Wyatt's Notes",
+  "short_name": "Wyatt's Notes",
   "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
   "start_url": "/",
   "display": "standalone",
@@ -10,7 +10,11 @@
     {
       "src": "/favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
-  ]
+  ],
+  "categories": ["education", "reference"],
+  "lang": "en",
+  "dir": "ltr"
 }

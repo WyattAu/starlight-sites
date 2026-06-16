@@ -7,6 +7,8 @@
 
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { sanitizeHtml } from '../utils/sanitize'
+import QuestionDialog from './QuestionDialog'
+import ResultsDialog from './ResultsDialog'
 
 export interface DiagnosticQuestion {
   id: string
@@ -263,12 +265,21 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   if (getShowResults() && result()) {
     const r = result()!
     return (
-      <div
-        class="mx-auto my-6 max-w-[700px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
-        role="region"
-        aria-label="Diagnostic test results"
+      <ResultsDialog
+        open={getShowResults()}
+        onOpenChange={open => {
+          if (!open) {
+            setShowResults(false)
+            setSelected(null)
+            setSubmitted(false)
+            setAskedIds(new Set())
+            setAnswers(new Map())
+            setTopicScores(new Map())
+            setElapsed(0)
+          }
+        }}
+        title={`Results: ${r.subject}`}
       >
-        <h3 class="mt-0 mb-4 text-center">Results: {r.subject}</h3>
         <div class="mb-6 flex flex-wrap justify-center gap-3">
           <div class="min-w-[100px] rounded-lg border border-emphasis-200 bg-emphasis-100 px-6 py-4 text-center">
             <div class="font-bold text-2xl text-accent">{Math.round(r.overallScore * 100)}%</div>
@@ -350,7 +361,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
             </div>
           </div>
         </Show>
-      </div>
+      </ResultsDialog>
     )
   }
 
@@ -358,27 +369,19 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   if (!q) return null
 
   return (
-    <div
-      class="mx-auto my-6 max-w-[700px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
-      role="region"
-      aria-label={`Diagnostic test: ${props.subject}`}
+    <QuestionDialog
+      open={true}
+      onOpenChange={() => {}}
+      title={`Question ${progress() + 1} of ${maxQ}`}
     >
       <div class="mb-4 flex items-center justify-between text-emphasis-700 text-sm">
-        <span>
-          Question {progress() + 1} of {maxQ}
+        <span>{formatTime(getElapsed())}</span>
+        <span class="font-variant-numeric:tabular-nums">
+          {q.topic} - Difficulty {q.difficulty}
         </span>
-        <span class="font-variant-numeric:tabular-nums">{formatTime(getElapsed())}</span>
       </div>
 
-      <div class="mb-5">
-        <span class="mr-2 mb-2 inline-block rounded-full bg-accent/10 px-2.5 py-0.5 font-semibold text-accent text-xs">
-          {q.topic}
-        </span>
-        <span class="mr-2 mb-2 inline-block rounded-full bg-emphasis-100 px-2.5 py-0.5 font-semibold text-emphasis-700 text-xs">
-          Difficulty {q.difficulty}
-        </span>
-        <p class="mt-2 mb-0 text-lg leading-relaxed">{q.question}</p>
-      </div>
+      <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
 
       <div class="mb-5 flex flex-col gap-2" role="radiogroup" aria-label="Answer options">
         <For each={q.options}>
@@ -438,6 +441,6 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
           </button>
         </Show>
       </div>
-    </div>
+    </QuestionDialog>
   )
 }

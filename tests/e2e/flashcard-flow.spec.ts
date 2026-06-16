@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test'
+import { expect, test } from '@playwright/test'
 
 /**
  * E2E tests for flashcard review flow.
@@ -67,7 +67,7 @@ test.describe('Flashcard Review Flow', () => {
     await page.waitForLoadState('networkidle')
 
     const studyBtn = page.locator('button:has-text("Study Now")')
-    if (await studyBtn.isVisible() && await studyBtn.isEnabled()) {
+    if ((await studyBtn.isVisible()) && (await studyBtn.isEnabled())) {
       await studyBtn.click()
       await page.waitForTimeout(500)
 
@@ -84,7 +84,7 @@ test.describe('Flashcard Review Flow', () => {
     await page.waitForLoadState('networkidle')
 
     const studyBtn = page.locator('button:has-text("Study Now")')
-    if (await studyBtn.isVisible() && await studyBtn.isEnabled()) {
+    if ((await studyBtn.isVisible()) && (await studyBtn.isEnabled())) {
       await studyBtn.click()
       await page.waitForTimeout(500)
 

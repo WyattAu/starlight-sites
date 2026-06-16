@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test'
+import { expect, test } from '@playwright/test'
 
 /**
  * E2E tests for diagnostic test flow.
@@ -74,12 +74,14 @@ test.describe('Diagnostic Test Flow', () => {
 
       // Click submit
       const submitBtn = page.locator('button:has-text("Submit")')
-      if (await submitBtn.isVisible() && await submitBtn.isEnabled()) {
+      if ((await submitBtn.isVisible()) && (await submitBtn.isEnabled())) {
         await submitBtn.click()
         await page.waitForTimeout(500)
 
         // Should show next button or results
-        const nextBtn = page.locator('button:has-text("Next Question"), button:has-text("View Results")')
+        const nextBtn = page.locator(
+          'button:has-text("Next Question"), button:has-text("View Results")',
+        )
         if (await nextBtn.isVisible()) {
           expect(nextBtn).toBeTruthy()
         }
@@ -100,7 +102,7 @@ test.describe('Diagnostic Test Flow', () => {
 
       // Click submit
       const submitBtn = page.locator('button:has-text("Submit")')
-      if (await submitBtn.isVisible() && await submitBtn.isEnabled()) {
+      if ((await submitBtn.isVisible()) && (await submitBtn.isEnabled())) {
         await submitBtn.click()
         await page.waitForTimeout(500)
 

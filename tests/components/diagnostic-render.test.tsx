@@ -1,25 +1,48 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { render, fireEvent, screen } from '@solidjs/testing-library'
-import DiagnosticTest from '../../shared/components/DiagnosticTest'
+import { fireEvent, render, screen } from '@solidjs/testing-library'
+import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { DiagnosticQuestion } from '../../shared/components/DiagnosticTest'
+import DiagnosticTest from '../../shared/components/DiagnosticTest'
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
   value: vi.fn().mockImplementation(query => ({
-    matches: false, media: query, onchange: null,
-    addListener: vi.fn(), removeListener: vi.fn(),
-    addEventListener: vi.fn(), removeEventListener: vi.fn(), dispatchEvent: vi.fn(),
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: vi.fn(),
+    removeListener: vi.fn(),
+    addEventListener: vi.fn(),
+    removeEventListener: vi.fn(),
+    dispatchEvent: vi.fn(),
   })),
 })
 
 describe('DiagnosticTest Component', () => {
   const mockQuestions: DiagnosticQuestion[] = [
-    { id: 'q1', topic: 'Algebra', difficulty: 2, question: 'What is 2 + 2?', options: ['3', '4', '5', '6'], correctIndex: 1, explanation: '2 + 2 = 4' },
-    { id: 'q2', topic: 'Geometry', difficulty: 3, question: 'Area of circle?', options: ['pi*r', 'pi*r^2', '2*pi*r', 'pi*d^2'], correctIndex: 1, explanation: 'A = pi*r^2' },
+    {
+      id: 'q1',
+      topic: 'Algebra',
+      difficulty: 2,
+      question: 'What is 2 + 2?',
+      options: ['3', '4', '5', '6'],
+      correctIndex: 1,
+      explanation: '2 + 2 = 4',
+    },
+    {
+      id: 'q2',
+      topic: 'Geometry',
+      difficulty: 3,
+      question: 'Area of circle?',
+      options: ['pi*r', 'pi*r^2', '2*pi*r', 'pi*d^2'],
+      correctIndex: 1,
+      explanation: 'A = pi*r^2',
+    },
   ]
   const mockOnComplete = vi.fn()
 
-  beforeEach(() => { vi.clearAllMocks() })
+  beforeEach(() => {
+    vi.clearAllMocks()
+  })
 
   it('should render empty state', () => {
     render(() => <DiagnosticTest subject="Math" questions={[]} onComplete={mockOnComplete} />)
@@ -27,22 +50,30 @@ describe('DiagnosticTest Component', () => {
   })
 
   it('should render with questions', () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
+    render(() => (
+      <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
+    ))
     expect(screen.getByRole('dialog')).toBeTruthy()
   })
 
   it('should show radio group', () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
+    render(() => (
+      <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
+    ))
     expect(screen.getByRole('radiogroup', { name: 'Answer options' })).toBeTruthy()
   })
 
   it('should have Submit button', () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
+    render(() => (
+      <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
+    ))
     expect(screen.getByText('Submit')).toBeTruthy()
   })
 
   it('should have accessible dialog', () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
+    render(() => (
+      <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
+    ))
     expect(screen.getByRole('dialog')).toBeTruthy()
   })
 
@@ -52,7 +83,9 @@ describe('DiagnosticTest Component', () => {
   })
 
   it('should select option via radio button', async () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
+    render(() => (
+      <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
+    ))
     const radios = screen.getAllByRole('radio')
     expect(radios.length).toBeGreaterThanOrEqual(4)
     await fireEvent.click(radios[0])
@@ -60,7 +93,9 @@ describe('DiagnosticTest Component', () => {
   })
 
   it('should enable Submit after selecting option', async () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
+    render(() => (
+      <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
+    ))
     const radios = screen.getAllByRole('radio')
     await fireEvent.click(radios[0])
     const submitBtn = screen.getByText('Submit')
@@ -68,7 +103,14 @@ describe('DiagnosticTest Component', () => {
   })
 
   it('should show results after completing test', async () => {
-    render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} maxQuestions={1} />)
+    render(() => (
+      <DiagnosticTest
+        subject="Math"
+        questions={mockQuestions}
+        onComplete={mockOnComplete}
+        maxQuestions={1}
+      />
+    ))
     const radios = screen.getAllByRole('radio')
     await fireEvent.click(radios[1])
     await fireEvent.click(screen.getByText('Submit'))

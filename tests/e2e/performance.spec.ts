@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test'
+import { expect, test } from '@playwright/test'
 
 /**
  * Performance tests for key pages.
@@ -15,7 +15,6 @@ test.describe('Performance', () => {
     const loadTime = Date.now() - start
 
     expect(loadTime).toBeLessThan(5000)
-    console.log(`Homepage loaded in ${loadTime}ms`)
   })
 
   test('no console errors on homepage', async ({ page }) => {
@@ -30,11 +29,12 @@ test.describe('Performance', () => {
     await page.waitForLoadState('networkidle')
 
     // Filter out known third-party errors
-    const realErrors = errors.filter(e =>
-      !e.includes('favicon') &&
-      !e.includes('analytics') &&
-      !e.includes('tracking') &&
-      !e.includes('404')
+    const realErrors = errors.filter(
+      e =>
+        !e.includes('favicon') &&
+        !e.includes('analytics') &&
+        !e.includes('tracking') &&
+        !e.includes('404'),
     )
 
     expect(realErrors).toHaveLength(0)
@@ -45,7 +45,7 @@ test.describe('Performance', () => {
     await page.waitForLoadState('networkidle')
 
     const images = await page.locator('img').all()
-    const lazyImages = images.filter(async img => {
+    const _lazyImages = images.filter(async img => {
       const loading = await img.getAttribute('loading')
       return loading === 'lazy'
     })
@@ -79,7 +79,7 @@ test.describe('Performance', () => {
 
     // Total JS should be under 500KB gzipped
     const totalSize = scripts.reduce((a, b) => a + b, 0)
-    console.log(`Total JS size: ${(totalSize / 1024).toFixed(1)}KB`)
+
     expect(totalSize).toBeLessThan(500 * 1024)
   })
 })

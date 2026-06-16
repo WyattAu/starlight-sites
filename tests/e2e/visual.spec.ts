@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test'
+import { expect, test } from '@playwright/test'
 
 /**
  * Visual regression tests for key pages.
@@ -29,7 +29,9 @@ test.describe('Visual Regression', () => {
     await page.waitForLoadState('networkidle')
 
     // Try to find and click dark mode toggle
-    const themeToggle = page.locator('[data-theme-toggle], .theme-toggle, button[aria-label*="theme"]')
+    const themeToggle = page.locator(
+      '[data-theme-toggle], .theme-toggle, button[aria-label*="theme"]',
+    )
     if (await themeToggle.isVisible()) {
       await themeToggle.click()
       await page.waitForTimeout(500)

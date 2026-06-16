@@ -1,8 +1,8 @@
 import { createEffect, createSignal } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { sanitizeHtml } from '../utils/sanitize'
-import ResultsDialog from './ResultsDialog'
 import QuestionDialog from './QuestionDialog'
+import ResultsDialog from './ResultsDialog'
 
 export interface PracticeQuestionData {
   question: string
@@ -65,14 +65,15 @@ function optionClass(
   submitted: boolean,
   correctAnswer: number,
 ): string {
-  const base = 'block w-full py-3 px-4 my-1.5 border-2 rounded-lg bg-surface text-base text-left font-sans cursor-pointer transition-all'
-  
+  const base =
+    'block w-full py-3 px-4 my-1.5 border-2 rounded-lg bg-surface text-base text-left font-sans cursor-pointer transition-all'
+
   if (submitted) {
     if (index === correctAnswer) return `${base} border-success bg-success/12 cursor-default`
     if (index === selected) return `${base} border-error bg-error/12 cursor-default`
     return `${base} border-emphasis-300 cursor-default`
   }
-  
+
   if (selected === index) return `${base} border-accent bg-primary-soft`
   return `${base} border-emphasis-300 hover:border-accent`
 }
@@ -98,7 +99,7 @@ function PracticeProblemItem(props: {
     }
   })
 
-  const handleKeyDown = (e: KeyboardEvent) => {
+  const _handleKeyDown = (e: KeyboardEvent) => {
     if (submitted()) {
       return
     }
@@ -133,12 +134,15 @@ function PracticeProblemItem(props: {
       title={`Practice Problem - ${props.difficulty}`}
     >
       <div class="mb-3">
-        <span class={`inline-block py-0.5 px-2.5 rounded text-xs font-semibold uppercase tracking-wider text-white ${difficultyColor()}`} data-difficulty={props.difficulty}>
+        <span
+          class={`inline-block rounded px-2.5 py-0.5 font-semibold text-white text-xs uppercase tracking-wider ${difficultyColor()}`}
+          data-difficulty={props.difficulty}
+        >
           {props.difficulty}
         </span>
       </div>
 
-      <p class="text-lg font-semibold mb-4">{escapeHtml(props.question)}</p>
+      <p class="mb-4 font-semibold text-lg">{escapeHtml(props.question)}</p>
 
       <div role="radiogroup" aria-label="Answer options" class="flex flex-col gap-2">
         {props.options.map((opt, i) => (
@@ -155,7 +159,7 @@ function PracticeProblemItem(props: {
             onClick={() => !submitted() && setSelected(i)}
             class={optionClass(i, selected(), submitted(), props.correctAnswer)}
           >
-            <span class="font-semibold mr-2">{String.fromCharCode(65 + i)}.</span>
+            <span class="mr-2 font-semibold">{String.fromCharCode(65 + i)}.</span>
             {typeof opt === 'string' ? opt : ''}
           </button>
         ))}
@@ -165,7 +169,7 @@ function PracticeProblemItem(props: {
         {!submitted() && (
           <button
             type="button"
-            class="py-2.5 px-6 rounded-lg bg-primary text-white font-semibold text-base cursor-pointer border-none disabled:bg-emphasis-300 disabled:cursor-not-allowed disabled:opacity-60"
+            class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white disabled:cursor-not-allowed disabled:bg-emphasis-300 disabled:opacity-60"
             disabled={selected() === null}
             onClick={handleSubmit}
           >
@@ -177,7 +181,7 @@ function PracticeProblemItem(props: {
       {submitted() && (
         <ResultsDialog
           open={submitted()}
-          onOpenChange={(open) => {
+          onOpenChange={open => {
             if (!open) {
               setSelected(null)
               setSubmitted(false)
@@ -186,17 +190,11 @@ function PracticeProblemItem(props: {
           title={isCorrect() ? 'Correct!' : 'Incorrect.'}
         >
           <div
-            class={`p-4 rounded-lg border ${
-              isCorrect()
-                ? 'bg-success/10 border-success'
-                : 'bg-error/10 border-error'
+            class={`rounded-lg border p-4 ${
+              isCorrect() ? 'border-success bg-success/10' : 'border-error bg-error/10'
             }`}
           >
-            <strong
-              class={`block ${
-                isCorrect() ? 'text-success' : 'text-error'
-              }`}
-            >
+            <strong class={`block ${isCorrect() ? 'text-success' : 'text-error'}`}>
               {isCorrect() ? 'Well done!' : 'Not quite right.'}
             </strong>
             <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />

@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import type { PracticeQuestionData } from '../../shared/components/PracticeProblem'
 
 describe('PracticeProblem Logic', () => {
@@ -16,7 +16,7 @@ describe('PracticeProblem Logic', () => {
       expect(escapeHtml('Hello & World')).toBe('Hello &amp; World')
       expect(escapeHtml('<script>')).toBe('&lt;script&gt;')
       expect(escapeHtml('"quote"')).toBe('&quot;quote&quot;')
-      expect(escapeHtml("it's")).toBe("it&#39;s")
+      expect(escapeHtml("it's")).toBe('it&#39;s')
       expect(escapeHtml('a & b < c > d')).toBe('a &amp; b &lt; c &gt; d')
     })
 
@@ -85,8 +85,12 @@ describe('PracticeProblem Logic', () => {
         return cls
       }
 
-      expect(optionClass(0, 0, false, 1)).toBe('practice-problem-option practice-problem-option--selected')
-      expect(optionClass(1, 1, false, 1)).toBe('practice-problem-option practice-problem-option--selected')
+      expect(optionClass(0, 0, false, 1)).toBe(
+        'practice-problem-option practice-problem-option--selected',
+      )
+      expect(optionClass(1, 1, false, 1)).toBe(
+        'practice-problem-option practice-problem-option--selected',
+      )
     })
 
     it('should add correct class when submitted and correct', () => {
@@ -105,7 +109,9 @@ describe('PracticeProblem Logic', () => {
         return cls
       }
 
-      expect(optionClass(1, 1, true, 1)).toBe('practice-problem-option practice-problem-option--correct')
+      expect(optionClass(1, 1, true, 1)).toBe(
+        'practice-problem-option practice-problem-option--correct',
+      )
     })
 
     it('should add wrong class when submitted and wrong', () => {
@@ -124,7 +130,9 @@ describe('PracticeProblem Logic', () => {
         return cls
       }
 
-      expect(optionClass(0, 0, true, 1)).toBe('practice-problem-option practice-problem-option--wrong')
+      expect(optionClass(0, 0, true, 1)).toBe(
+        'practice-problem-option practice-problem-option--wrong',
+      )
     })
   })
 

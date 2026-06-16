@@ -1,5 +1,35 @@
-/*
-  Cache-Control: public, max-age=3600, s-maxage=86400
-  X-Content-Type-Options: nosniff
-  X-Frame-Options: SAMEORIGIN
-  Referrer-Policy: strict-origin-when-cross-origin
+# Static assets with content hashes -- immutable caching.
+# Astro emits hashed filenames for JS/CSS bundles, so these can be cached
+# aggressively. Non-hashed assets (HTML, JSON) use shorter TTLs.
+#
+# See: https://developers.cloudflare.com/pages/configuration/headers/
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+*.avif
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML pages -- short cache with revalidation.
+*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Search index and API JSON -- short cache.
+*.json
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Service worker -- never cache.
+/sw.js
+  Cache-Control: no-store, no-cache, must-revalidate
