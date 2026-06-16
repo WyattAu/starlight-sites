@@ -46,6 +46,7 @@ const SHARED_DIRS = [
   ['shared/components', 'src/components'],
   ['shared/utils', 'src/utils'],
   ['shared/styles', 'src/styles'],
+  ['shared/fonts', 'public/fonts'],
 ];
 
 // (sourceFile, destFile) pairs of public/ client scripts synced to ALL sites.
@@ -136,6 +137,9 @@ function main() {
       syncDir(join(ROOT, srcRel), join(ROOT, 'sites', site, destRel), report);
     }
   }
+
+  // Shared fonts -> landing page (main has no src/components but needs public/fonts).
+  syncDir(join(ROOT, 'shared/fonts'), join(ROOT, 'sites', 'main', 'public', 'fonts'), report);
 
   // Public client scripts -> all sites.
   for (const site of ALL_SITES) {
