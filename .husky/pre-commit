@@ -11,7 +11,16 @@
 
 echo "Running pre-commit checks..."
 
-# 1. Shared-asset integrity: every site must match the canonical shared/ source.
+# 1. Per-file checks on staged files only (no-emoji, content, config).
+# Use timeout to prevent hanging (30 seconds max).
+timeout 30 npx lint-staged
+status=$?
+if [ "$status" -ne 0 ]; then
+  echo "Pre-commit FAILED: lint-staged reported violations or timed out."
+  exit 1
+fi
+
+# 2. Shared-asset integrity: every site must match the canonical shared/ source.
 node scripts/sync-shared.mjs --check
 status=$?
 if [ "$status" -ne 0 ]; then
@@ -19,7 +28,7 @@ if [ "$status" -ne 0 ]; then
   exit 1
 fi
 
-# 2. Unit + integration tests (pure-Node; the canonical correctness gate).
+# 3. Unit + integration tests (pure-Node; the canonical correctness gate).
 node --test tests/unit/*.test.js tests/integration/*.test.js
 status=$?
 if [ "$status" -ne 0 ]; then
