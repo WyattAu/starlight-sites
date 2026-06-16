@@ -70,12 +70,12 @@ classes.
 
 ### Remaining (operational)
 
-- [ ] [manual] Create Cloudflare Transform Rules for legacy subdomains.
-  (Script: `scripts/setup-legacy-redirects.js`)
+- [x] [manual] Create Cloudflare Transform Rules for legacy subdomains.
+  (Verified: already configured. alevel-maths-physics -> alevel, alevel-sciences -> alevel, academics -> ib)
 - [ ] [manual] Remove custom domains from old Pages projects and delete them.
-  (Script: `scripts/cleanup-old-pages.js`)
+  (No legacy projects found. All 10 Pages projects are active.)
 - [ ] [manual] Add the domain property in Google Search Console and verify.
-  (Script: `scripts/google-search-console-setup.js`)
+  (Run: `node scripts/google-search-console-setup.js` for instructions)
 
 ---
 
