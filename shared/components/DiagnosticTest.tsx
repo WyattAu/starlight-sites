@@ -8,6 +8,7 @@
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { sanitizeHtml } from '../utils/sanitize'
 import ResultsDialog from './ResultsDialog'
+import QuestionDialog from './QuestionDialog'
 
 export interface DiagnosticQuestion {
   id: string
@@ -368,27 +369,19 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   if (!q) return null
 
   return (
-    <div
-      class="mx-auto my-6 max-w-[700px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
-      role="region"
-      aria-label={`Diagnostic test: ${props.subject}`}
+    <QuestionDialog
+      open={true}
+      onOpenChange={() => {}}
+      title={`Question ${progress() + 1} of ${maxQ}`}
     >
       <div class="mb-4 flex items-center justify-between text-emphasis-700 text-sm">
         <span>
-          Question {progress() + 1} of {maxQ}
+          {formatTime(getElapsed())}
         </span>
-        <span class="font-variant-numeric:tabular-nums">{formatTime(getElapsed())}</span>
+        <span class="font-variant-numeric:tabular-nums">{q.topic} - Difficulty {q.difficulty}</span>
       </div>
 
-      <div class="mb-5">
-        <span class="mr-2 mb-2 inline-block rounded-full bg-accent/10 px-2.5 py-0.5 font-semibold text-accent text-xs">
-          {q.topic}
-        </span>
-        <span class="mr-2 mb-2 inline-block rounded-full bg-emphasis-100 px-2.5 py-0.5 font-semibold text-emphasis-700 text-xs">
-          Difficulty {q.difficulty}
-        </span>
-        <p class="mt-2 mb-0 text-lg leading-relaxed">{q.question}</p>
-      </div>
+      <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
 
       <div class="mb-5 flex flex-col gap-2" role="radiogroup" aria-label="Answer options">
         <For each={q.options}>
@@ -439,15 +432,11 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
           </button>
         </Show>
         <Show when={getSubmitted()}>
-          <button
-            type="button"
-            class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white"
-            onClick={handleNext}
-          >
+          <button type="button" class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white" onClick={handleNext}>
             {isComplete() ? 'View Results' : 'Next Question'}
           </button>
         </Show>
       </div>
-    </div>
+    </QuestionDialog>
   )
 }

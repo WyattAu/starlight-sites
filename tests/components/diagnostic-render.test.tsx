@@ -28,7 +28,7 @@ describe('DiagnosticTest Component', () => {
 
   it('should render with questions', () => {
     render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
-    expect(screen.getByText(/Question/)).toBeTruthy()
+    expect(screen.getByRole('dialog')).toBeTruthy()
   })
 
   it('should show radio group', () => {
@@ -41,9 +41,9 @@ describe('DiagnosticTest Component', () => {
     expect(screen.getByText('Submit')).toBeTruthy()
   })
 
-  it('should have accessible region', () => {
+  it('should have accessible dialog', () => {
     render(() => <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />)
-    expect(screen.getByRole('region', { name: 'Diagnostic test: Math' })).toBeTruthy()
+    expect(screen.getByRole('dialog')).toBeTruthy()
   })
 
   it('should have accessible empty state', () => {
