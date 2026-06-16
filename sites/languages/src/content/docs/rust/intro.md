@@ -141,3 +141,8 @@ Key changes in Rust 2024:
   fix every warning before shipping.
 - **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`You are likely
   working against the language. Re-examine your data structure design.
+
+## Related Topics
+
+- [Resource Management in C++](https://programming.wyattau.com/resource-management/) — C++ ownership and RAII compared to Rust's borrow checker.
+- [C++ Basics](https://programming.wyattau.com/1_enviroment_and_toolchain/1_cpp_basics/) — Fundamentals of C++ for readers transitioning from systems programming.

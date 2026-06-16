@@ -5,6 +5,17 @@ tags:
   - University
 ---
 
+## Prerequisites
+
+This chapter assumes the reader is comfortable with:
+
+- **Proof techniques**: direct proof, proof by contradiction, mathematical induction.
+- **Basic set theory**: sets, subsets, unions, intersections, the power set.
+- **Functions**: domain, range, injectivity, surjectivity, composition.
+- **Informal calculus**: limits, continuity, differentiation, and integration as studied at A-Level or IB Mathematics.
+
+The axioms stated below are taken as given; the purpose of this chapter is to derive their consequences, not to justify the axioms themselves. Readers without a proof-writing background should consult an introductory discrete mathematics text first.
+
 ### 1.1 Field Axioms
 
 The real numbers $\mathbb{R}$ form a **complete ordered field**. The field axioms guarantee closure

@@ -13,6 +13,16 @@ categories:
 
 ---
 
+## Prerequisites
+
+This note assumes the reader is already familiar with:
+
+- **Basic functions**: notation, domain, range, evaluation, and graphing.
+- **Linear and quadratic functions**: slopes, intercepts, vertex form, factorisation.
+- **Simple graph transformations**: translation, reflection, and scaling of $y = f(x)$.
+
+These topics are covered in the introductory [Functions](/maths/functions/) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
+
 This note extends the treatment of functions covered in [functions.md](functions)), focusing on
 Domain restrictions, composite and inverse functions with non-trivial domains, and graphical
 Transformations.
@@ -878,3 +888,8 @@ $\blacksquare$
 - Use sign charts for rational inequalities; include or exclude endpoints based on strictness.
 
 :::
+
+## Related Topics
+
+- [Linear Algebra: Vector Spaces](https://university.wyattau.com/mathematics/linear-algebra/) — Generalisation of functions to vector-space morphisms.
+- [Real Analysis: Continuity](https://university.wyattau.com/mathematics/3-real-analysis/4_continuity/) — Rigorous epsilon-delta definition of the continuity studied informally here.

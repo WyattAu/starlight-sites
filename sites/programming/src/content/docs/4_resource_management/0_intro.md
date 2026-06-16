@@ -160,3 +160,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 :::
+
+## Related Topics
+
+- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust's compile-time ownership model as an alternative to C++ manual resource management.
+- [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/) — When Rust's safety guarantees are deliberately bypassed.

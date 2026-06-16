@@ -12,6 +12,17 @@ categories:
 
 ---
 
+## Prerequisites
+
+Before studying linear algebra, the reader should be familiar with:
+
+- **Basic set theory**: sets, subsets, functions, injectivity, surjectivity.
+- **Complex numbers**: arithmetic, polar form, Euler's formula.
+- **Mathematical proof techniques**: direct proof, proof by contradiction, mathematical induction.
+- **Single-variable calculus**: limits, continuity, differentiation (for the matrix calculus later in the course).
+
+Students who have completed an introductory proof-writing course (e.g. a Discrete Mathematics module) will have the necessary background. The definitions and proofs below are self-contained; the prerequisites are listed only to indicate the level of mathematical maturity expected.
+
 ## 1. Vectors and Vector Spaces
 
 ### 1.1 Definition of a Vector Space
