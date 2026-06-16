@@ -1,6 +1,7 @@
 import { createEffect, createSignal } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { sanitizeHtml } from '../utils/sanitize'
+import ResultsDialog from './ResultsDialog'
 
 export interface PracticeQuestionData {
   question: string
@@ -172,22 +173,33 @@ function PracticeProblemItem(props: {
       )}
 
       {submitted() && (
-        <div
-          class={`mt-4 p-4 rounded-lg border ${
-            isCorrect()
-              ? 'bg-success/10 border-success'
-              : 'bg-error/10 border-error'
-          }`}
+        <ResultsDialog
+          open={submitted()}
+          onOpenChange={(open) => {
+            if (!open) {
+              setSelected(null)
+              setSubmitted(false)
+            }
+          }}
+          title={isCorrect() ? 'Correct!' : 'Incorrect.'}
         >
-          <strong
-            class={`block ${
-              isCorrect() ? 'text-success' : 'text-error'
+          <div
+            class={`p-4 rounded-lg border ${
+              isCorrect()
+                ? 'bg-success/10 border-success'
+                : 'bg-error/10 border-error'
             }`}
           >
-            {isCorrect() ? 'Correct!' : 'Incorrect.'}
-          </strong>
-          <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />
-        </div>
+            <strong
+              class={`block ${
+                isCorrect() ? 'text-success' : 'text-error'
+              }`}
+            >
+              {isCorrect() ? 'Well done!' : 'Not quite right.'}
+            </strong>
+            <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />
+          </div>
+        </ResultsDialog>
       )}
     </div>
   )
