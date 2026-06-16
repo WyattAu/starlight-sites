@@ -7,6 +7,7 @@
 
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { sanitizeHtml } from '../utils/sanitize'
+import ResultsDialog from './ResultsDialog'
 
 export interface DiagnosticQuestion {
   id: string
@@ -263,12 +264,21 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   if (getShowResults() && result()) {
     const r = result()!
     return (
-      <div
-        class="mx-auto my-6 max-w-[700px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
-        role="region"
-        aria-label="Diagnostic test results"
+      <ResultsDialog
+        open={getShowResults()}
+        onOpenChange={(open) => {
+          if (!open) {
+            setShowResults(false)
+            setSelected(null)
+            setSubmitted(false)
+            setAskedIds(new Set())
+            setAnswers(new Map())
+            setTopicScores(new Map())
+            setElapsed(0)
+          }
+        }}
+        title={`Results: ${r.subject}`}
       >
-        <h3 class="mt-0 mb-4 text-center">Results: {r.subject}</h3>
         <div class="mb-6 flex flex-wrap justify-center gap-3">
           <div class="min-w-[100px] rounded-lg border border-emphasis-200 bg-emphasis-100 px-6 py-4 text-center">
             <div class="font-bold text-2xl text-accent">{Math.round(r.overallScore * 100)}%</div>
@@ -350,7 +360,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
             </div>
           </div>
         </Show>
-      </div>
+      </ResultsDialog>
     )
   }
 
