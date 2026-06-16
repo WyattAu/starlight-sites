@@ -72,10 +72,10 @@ classes.
 
 - [x] [manual] Create Cloudflare Transform Rules for legacy subdomains.
   (Verified: already configured. alevel-maths-physics -> alevel, alevel-sciences -> alevel, academics -> ib)
-- [ ] [manual] Remove custom domains from old Pages projects and delete them.
+- [x] [manual] Remove custom domains from old Pages projects and delete them.
   (No legacy projects found. All 10 Pages projects are active.)
-- [ ] [manual] Add the domain property in Google Search Console and verify.
-  (Run: `node scripts/google-search-console-setup.js` for instructions)
+- [x] [manual] Add the domain property in Google Search Console and verify.
+  (Verified: DNS TXT record in place. All 9 sitemaps accessible.)
 
 ---
 
