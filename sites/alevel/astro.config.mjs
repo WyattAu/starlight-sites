@@ -1,11 +1,13 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
-import mdx from '@astrojs/mdx';
-import solidJs from '@astrojs/solid-js';
-import sitemap from '@astrojs/sitemap';
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
-import lazyImages from '../../shared/integrations/lazy-images/index.mjs';
+import mdx from '@astrojs/mdx'
+import sitemap from '@astrojs/sitemap'
+import solidJs from '@astrojs/solid-js'
+import starlight from '@astrojs/starlight'
+import tailwindcss from '@tailwindcss/vite'
+import Icons from 'unplugin-icons/vite'
+import { defineConfig } from 'astro/config'
+import rehypeKatex from 'rehype-katex'
+import remarkMath from 'remark-math'
+import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 
 export default defineConfig({
   site: 'https://alevel.wyattau.com',
@@ -13,8 +15,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Wyatt's Notes — A-Level",
-      description: "UK A-Level revision notes covering AQA, OCR, and Edexcel exam boards with detailed derivations and worked examples.",
-      
+      description:
+        'UK A-Level revision notes covering AQA, OCR, and Edexcel exam boards with detailed derivations and worked examples.',
+
       components: {
         PageTitle: './src/components/starlight/PageTitle.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
@@ -33,11 +36,40 @@ export default defineConfig({
         { label: 'Physics', autogenerate: { directory: 'physics' } },
         { label: 'Psychology', autogenerate: { directory: 'psychology' } },
       ],
-      head: [        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },        { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
-        { tag: 'meta', attrs: { property: 'og:image', content: 'https://alevel.wyattau.com/img/social-card.svg' } },
+      head: [
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'stylesheet',
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image',
+            content: 'https://alevel.wyattau.com/img/social-card.svg',
+          },
+        },
         { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
-        { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": "A-Level Notes", "description": "UK A-Level revision notes", "url": "https://alevel.wyattau.com", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
+        {
+          tag: 'script',
+          attrs: { type: 'application/ld+json' },
+          content: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'A-Level Notes',
+            description: 'UK A-Level revision notes',
+            url: 'https://alevel.wyattau.com',
+            publisher: {
+              '@type': 'Organization',
+              name: "Wyatt's Notes",
+              url: 'https://wyattsnotes.wyattau.com',
+            },
+          }),
+        },
       ],
       customCss: ['./src/styles/custom.css'],
     }),
@@ -46,6 +78,7 @@ export default defineConfig({
     sitemap(),
   ],
   vite: {
+    plugins: [tailwindcss(), Icons({ compiler: 'solid' })],
     resolve: {
       alias: {
         '@components': new URL('./src/components', import.meta.url).pathname,
@@ -57,4 +90,4 @@ export default defineConfig({
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
-});
+})

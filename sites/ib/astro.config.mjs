@@ -1,13 +1,15 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
-import mdx from '@astrojs/mdx';
-import solidJs from '@astrojs/solid-js';
-import sitemap from '@astrojs/sitemap';
-import mermaid from 'astro-mermaid';
-import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs';
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
-import lazyImages from '../../shared/integrations/lazy-images/index.mjs';
+import tailwindcss from '@tailwindcss/vite'
+import Icons from 'unplugin-icons/vite'
+import mdx from '@astrojs/mdx'
+import sitemap from '@astrojs/sitemap'
+import solidJs from '@astrojs/solid-js'
+import starlight from '@astrojs/starlight'
+import { defineConfig } from 'astro/config'
+import mermaid from 'astro-mermaid'
+import rehypeKatex from 'rehype-katex'
+import remarkMath from 'remark-math'
+import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
 
 export default defineConfig({
   site: 'https://ib.wyattau.com',
@@ -15,12 +17,13 @@ export default defineConfig({
   integrations: [
     // mermaid MUST come before starlight so its remark plugin processes
     // mermaid code blocks before Starlight's Expressive Code intercepts them
-    mermaid({ theme: "dark", autoTheme: true }),
+    mermaid({ theme: 'dark', autoTheme: true }),
     mermaidNoRocketLoader(),
     starlight({
       title: "Wyatt's Notes — IB",
-      description: "International Baccalaureate Diploma Programme notes aligned to the IB curriculum framework for Mathematics, Sciences, and Humanities.",
-      
+      description:
+        'International Baccalaureate Diploma Programme notes aligned to the IB curriculum framework for Mathematics, Sciences, and Humanities.',
+
       components: {
         PageTitle: './src/components/starlight/PageTitle.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
@@ -40,11 +43,37 @@ export default defineConfig({
         { label: 'Physics', autogenerate: { directory: 'physics' } },
         { label: 'Psychology', autogenerate: { directory: 'psychology' } },
       ],
-      head: [        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },        { tag: 'link', attrs: { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css' } },
-        { tag: 'meta', attrs: { property: 'og:image', content: 'https://ib.wyattau.com/img/social-card.svg' } },
+      head: [
+        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'stylesheet',
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: { property: 'og:image', content: 'https://ib.wyattau.com/img/social-card.svg' },
+        },
         { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
-        { tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify({ "@context": "https://schema.org", "@type": "WebSite", "name": "IB Notes", "description": "International Baccalaureate notes", "url": "https://ib.wyattau.com", "publisher": { "@type": "Organization", "name": "Wyatt's Notes", "url": "https://wyattsnotes.wyattau.com" } }) },
+        {
+          tag: 'script',
+          attrs: { type: 'application/ld+json' },
+          content: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'IB Notes',
+            description: 'International Baccalaureate notes',
+            url: 'https://ib.wyattau.com',
+            publisher: {
+              '@type': 'Organization',
+              name: "Wyatt's Notes",
+              url: 'https://wyattsnotes.wyattau.com',
+            },
+          }),
+        },
       ],
       customCss: ['./src/styles/custom.css'],
     }),
@@ -53,6 +82,7 @@ export default defineConfig({
     sitemap(),
   ],
   vite: {
+    plugins: [tailwindcss()],
     resolve: {
       alias: {
         '@components': new URL('./src/components', import.meta.url).pathname,
@@ -64,4 +94,4 @@ export default defineConfig({
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
-});
+})
