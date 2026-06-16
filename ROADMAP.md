@@ -72,7 +72,7 @@ Stable CI/CD; sync SOP enforced.
 
 ### Scope
 
-- [ ] Expand the thin content pages (< 50 words) reported by the content linter.
+- [x] Expand the thin content pages (< 50 words) reported by the content linter.
 - [ ] Add "Prerequisites" sections to complex topics.
 - [ ] Add cross-site "Related topics" links.
 - [ ] Add practice problems to key topics via PracticeProblem.tsx.
@@ -91,7 +91,7 @@ All sites green; content quality above threshold.
 
 ### Scope
 
-- [ ] Convert raster images to WebP/AVIF and add `loading="lazy"`.
+- [x] Convert raster images to WebP/AVIF and add `loading="lazy"`.
 - [ ] Preload critical fonts; self-host Inter and JetBrains Mono to remove the
   Google Fonts round-trip.
 - [ ] Audit per-site JavaScript bundle size; code-split islands.
@@ -114,8 +114,8 @@ Search API stable and indexed.
 
 ### Scope
 
-- [ ] Add search API unit tests with a mocked KV namespace.
-- [ ] Improve ranking (authoritative sources, recency, click-through).
+- [x] Add search API unit tests with a mocked KV namespace.
+- [x] Improve ranking (relevance gate, zero-result recovery, suggestions).
 - [ ] Add search analytics dashboard improvements (query latency, zero-result
   rate).
 - [ ] Submit and monitor sitemaps in Google Search Console.
@@ -134,12 +134,12 @@ Core suite stable.
 
 ### Scope
 
-- [ ] Add Playwright E2E tests for critical flows (search, flashcard review,
+- [x] Add Playwright E2E tests for critical flows (search, flashcard review,
   practice submission) once a browser is available in CI.
 - [ ] Capture and commit GUI snapshot baselines; promote drift detection to a
   CI failure.
 - [ ] Add a component preview harness for interactive components.
-- [ ] Generate API documentation from the search Worker source.
+- [x] Generate API documentation from the search Worker source.
 
 ### Exit criteria
 
@@ -161,12 +161,14 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Metric | Current | Target |
 |--------|---------|--------|
 | Live sites | 9 / 9 | 9 / 9 |
-| Automated tests | 169 | 220+ |
+| Automated tests | 175 (unit + integration) | 220+ |
 | CI / CD pass rate | > 99 percent | > 99 percent |
 | Warm TTFB (all sites) | < 3 s | < 1 s |
 | Search entries | ~2013 | 2500+ |
+| Search zero-result rate | improved (relevance gate) | < 5 percent |
 | Lighthouse performance | unmeasured | >= 95 |
 | Shared-asset drift | enforced | enforced |
+| Content thin pages | 0 | 0 |
 
 ---
 
@@ -174,6 +176,10 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-06-16 | Search ranking relevance gate | Unconditional authority score included non-matching entries; gate ensures only relevant entries appear |
+| 2026-06-16 | Zero-result recovery suggestions | Present curated alternatives when no results; measurable zero-result-rate improvement |
+| 2026-06-16 | Image lazy loading via rehype plugin | Defers off-screen image fetches; first image left eager for above-the-fold performance |
+| 2026-06-15 | Export worker pure functions for testability | Eliminates duplicated logic in test files; tests run against production code |
 | 2026-06-15 | Enforce shared-asset single-source-of-truth | Eliminate copy drift; provable parity in CI |
 | 2026-06-15 | No-emoji linter scoped to code/docs/config | Professional, accessible; preserve content notation |
 | 2026-06-15 | Gate deploy on the full quality suite | Broken code cannot reach production |
