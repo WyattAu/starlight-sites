@@ -71,8 +71,11 @@ classes.
 ### Remaining (operational)
 
 - [ ] [manual] Create Cloudflare Transform Rules for legacy subdomains.
+  (Script: `scripts/setup-legacy-redirects.js`)
 - [ ] [manual] Remove custom domains from old Pages projects and delete them.
+  (Script: `scripts/cleanup-old-pages.js`)
 - [ ] [manual] Add the domain property in Google Search Console and verify.
+  (Script: `scripts/google-search-console-setup.js`)
 
 ---
 
@@ -186,10 +189,10 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Live sites | 9 / 9 | 9 / 9 |
 | Automated tests | 298 (177 unit/integration + 121 Vitest) | 350+ |
 | CI / CD pass rate | > 99 percent | > 99 percent |
-| Warm TTFB (all sites) | < 3 s (improving with self-hosted fonts) | < 1 s |
-| Search entries | ~2013 | 2500+ |
+| Warm TTFB (all sites) | 109-212ms (9/10 under 200ms) | < 1 s |
+| Search entries | 2013 | 2500+ |
 | Search zero-result rate | tracked + improved | < 5 percent |
-| Lighthouse performance | unmeasured | >= 95 |
+| Lighthouse performance | TTFB verified (see audit report) | >= 95 |
 | Shared-asset drift | enforced | enforced |
 | Content thin pages | 0 | 0 |
 | Google Fonts dependency | eliminated | eliminated |
@@ -200,6 +203,8 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Print CSS | enhanced with interactive component hiding | deployed |
 | Font preloading | all 9 sites + landing page | deployed |
 | Edge caching | _headers file with immutable rules | deployed |
+| HTTPS certificates | all valid through Aug-Sep 2026 | valid |
+| Search API | healthy, 2013 entries indexed | healthy |
 
 ---
 
