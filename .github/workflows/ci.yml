@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 env:
   BUN_VERSION: "1.2"
 
@@ -55,6 +58,9 @@ jobs:
 
       - name: Run integration tests
         run: node --test tests/integration/*.test.js
+
+      - name: Run Vitest component tests
+        run: npx vitest run
 
   build:
     needs: [lint, test]
@@ -125,5 +131,5 @@ jobs:
           echo "| Stage | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
           echo "| Lint (content + config + no-emoji + sync) | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| Test (unit + integration) | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Test (unit + integration + Vitest) | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Build (9 sites) | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY

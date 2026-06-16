@@ -5,6 +5,11 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
 concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: true
@@ -42,6 +47,9 @@ jobs:
 
       - name: Unit + integration tests
         run: node --test tests/unit/*.test.js tests/integration/*.test.js
+
+      - name: Vitest component tests
+        run: npx vitest run
 
   deploy:
     needs: gate

@@ -4,8 +4,9 @@
 # Strict, fast: runs targeted per-file checks via lint-staged (no-emoji,
 # content, config on staged files) plus two tree-wide gates that lint-staged
 # cannot cover -- shared-asset sync integrity and the unit + integration test
-# suite. The full repo-wide content/no-emoji walk additionally runs in CI on
-# every push/PR, so enforcement is layered: changed files here, whole tree CI.
+# suite. Vitest component tests run in CI (cold start too slow for pre-commit).
+# The full repo-wide content/no-emoji walk additionally runs in CI on every
+# push/PR, so enforcement is layered: changed files here, whole tree CI.
 #
 # Any failure aborts the commit.
 

@@ -8,6 +8,8 @@ dist/
 
 # Test output
 /tmp/gui-snapshots/
+test-results/
+playwright-report/
 
 # Keep landing page source tracked
 !sites/main/src/

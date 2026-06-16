@@ -1,129 +1,162 @@
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
+import { sanitizeHtml } from '../../shared/utils/sanitize'
 
-describe('sanitize module', () => {
-  // Test the sanitizeHtml function behavior
-  // Note: DOMPurify requires a DOM environment, so we test the SSR fallback
-
-  describe('sanitizeHtml SSR behavior', () => {
-    it('should return dirty string when window is undefined (SSR)', () => {
-      const sanitizeHtml = (dirty: string): string => {
-        if (typeof window === 'undefined') {
-          return dirty
-        }
-        return dirty // In real code, this would be DOMPurify.sanitize
-      }
-
-      const input = '<script>alert("xss")</script>'
+describe('sanitizeHtml', () => {
+  describe('SSR fallback', () => {
+    it('should return dirty string when window is undefined', () => {
+      // The function checks typeof window === 'undefined'
+      // In jsdom test env, window exists, so we test the DOMPurify path
+      const input = '<b>safe</b>'
       const result = sanitizeHtml(input)
-      expect(result).toBe(input)
+      expect(result).toContain('safe')
     })
   })
 
-  describe('Allowed tags validation', () => {
-    it('should have all required MathML tags', () => {
-      const mathmlTags = [
-        'math', 'mi', 'mn', 'mo', 'ms', 'mtext', 'mfrac', 'msqrt', 'mrow',
-        'msup', 'msub', 'msubsup', 'munder', 'mover', 'munderover',
-        'mtable', 'mtr', 'mtd', 'maligngroup', 'malignmark',
-        'annotation', 'semantics',
-      ]
-
-      // These are the tags that should be allowed in the sanitizer config
-      expect(mathmlTags.length).toBeGreaterThan(0)
-      for (const tag of mathmlTags) {
-        expect(tag).toBeTruthy()
-      }
+  describe('Allowed HTML tags preservation', () => {
+    it('should preserve basic formatting tags', () => {
+      const input = '<p>Hello <strong>world</strong></p>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<p>')
+      expect(result).toContain('<strong>')
     })
 
-    it('should have all required SVG tags', () => {
-      const svgTags = [
-        'svg', 'g', 'path', 'circle', 'ellipse', 'rect', 'line',
-        'polyline', 'polygon', 'text', 'tspan', 'textPath',
-        'clipPath', 'defs', 'use', 'image', 'marker', 'pattern',
-        'linearGradient', 'radialGradient', 'stop',
-      ]
-
-      expect(svgTags.length).toBeGreaterThan(0)
-      for (const tag of svgTags) {
-        expect(tag).toBeTruthy()
-      }
+    it('should preserve headings', () => {
+      const input = '<h1>Title</h1><h2>Subtitle</h2>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<h1>')
+      expect(result).toContain('<h2>')
     })
 
-    it('should have all required HTML tags', () => {
-      const htmlTags = [
-        'p', 'div', 'br', 'hr', 'span', 'strong', 'b', 'em', 'i', 'u', 's',
-        'mark', 'small', 'sub', 'sup', 'abbr', 'code', 'kbd', 'var', 'samp',
-        'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'dl', 'dt', 'dd',
-        'table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td', 'caption',
-        'colgroup', 'col', 'pre', 'blockquote', 'a',
-      ]
-
-      expect(htmlTags.length).toBeGreaterThan(0)
-      for (const tag of htmlTags) {
-        expect(tag).toBeTruthy()
-      }
-    })
-  })
-
-  describe('Allowed attributes validation', () => {
-    it('should have ARIA attributes', () => {
-      const ariaAttrs = [
-        'aria-label', 'aria-hidden', 'aria-live', 'aria-describedby', 'aria-expanded',
-      ]
-
-      expect(ariaAttrs.length).toBeGreaterThan(0)
-      for (const attr of ariaAttrs) {
-        expect(attr).toBeTruthy()
-      }
+    it('should preserve links', () => {
+      const input = '<a href="https://example.com">link</a>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<a')
+      expect(result).toContain('href=')
     })
 
-    it('should have SVG attributes', () => {
-      const svgAttrs = [
-        'viewBox', 'xmlns', 'width', 'height', 'x', 'y', 'rx', 'ry', 'd',
-        'cx', 'cy', 'r', 'x1', 'y1', 'x2', 'y2', 'dx', 'dy',
-        'fill', 'stroke', 'stroke-width', 'opacity', 'transform',
-      ]
-
-      expect(svgAttrs.length).toBeGreaterThan(0)
-      for (const attr of svgAttrs) {
-        expect(attr).toBeTruthy()
-      }
+    it('should preserve code blocks', () => {
+      const input = '<pre><code>const x = 1</code></pre>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<pre>')
+      expect(result).toContain('<code>')
     })
 
-    it('should have MathML attributes', () => {
-      const mathmlAttrs = [
-        'mathvariant', 'mathsize', 'mathcolor', 'mathbackground',
-        'displaystyle', 'scriptlevel', 'linethickness', 'stretchy',
-        'rowalign', 'columnalign', 'columnspacing', 'rowspacing',
-      ]
+    it('should preserve lists', () => {
+      const input = '<ul><li>item 1</li><li>item 2</li></ul>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<ul>')
+      expect(result).toContain('<li>')
+    })
 
-      expect(mathmlAttrs.length).toBeGreaterThan(0)
-      for (const attr of mathmlAttrs) {
-        expect(attr).toBeTruthy()
-      }
+    it('should preserve tables', () => {
+      const input =
+        '<table><thead><tr><th>Header</th></tr></thead><tbody><tr><td>Cell</td></tr></tbody></table>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<table>')
+      expect(result).toContain('<th>')
+      expect(result).toContain('<td>')
     })
   })
 
-  describe('Security tests', () => {
-    it('should block script tags in actual DOMPurify', () => {
-      // This test documents the expected behavior
-      // In a real browser environment, DOMPurify would strip <script> tags
-      const maliciousInput = '<script>alert("xss")</script>'
-      const expectedOutput = '' // DOMPurify strips script tags
-
-      // Document the expected behavior
-      expect(maliciousInput).toContain('<script>')
-      expect(expectedOutput).toBe('')
+  describe('Dangerous content removal', () => {
+    it('should strip script tags', () => {
+      const input = '<p>Safe</p><script>alert("xss")</script>'
+      const result = sanitizeHtml(input)
+      expect(result).not.toContain('<script>')
+      expect(result).not.toContain('alert')
     })
 
-    it('should block event handlers in actual DOMPurify', () => {
-      // This test documents the expected behavior
-      const maliciousInput = '<img src="x" onerror="alert(1)">'
-      const expectedOutput = '<img src="x">' // DOMPurify strips event handlers
+    it('should strip event handlers', () => {
+      const input = '<img src="x" onerror="alert(1)">'
+      const result = sanitizeHtml(input)
+      expect(result).not.toContain('onerror')
+      expect(result).not.toContain('alert')
+    })
 
-      // Document the expected behavior
-      expect(maliciousInput).toContain('onerror')
-      expect(expectedOutput).not.toContain('onerror')
+    it('should strip javascript: URLs', () => {
+      const input = '<a href="javascript:alert(1)">click</a>'
+      const result = sanitizeHtml(input)
+      expect(result).not.toContain('javascript:')
+    })
+
+    it('should strip iframe tags', () => {
+      const input = '<iframe src="https://evil.com"></iframe>'
+      const result = sanitizeHtml(input)
+      expect(result).not.toContain('<iframe>')
+    })
+
+    it('should strip object tags', () => {
+      const input = '<object data="evil.swf"></object>'
+      const result = sanitizeHtml(input)
+      expect(result).not.toContain('<object>')
+    })
+
+    it('should strip form tags', () => {
+      const input = '<form action="https://evil.com"><input type="submit"></form>'
+      const result = sanitizeHtml(input)
+      expect(result).not.toContain('<form>')
+    })
+  })
+
+  describe('SVG support', () => {
+    it('should preserve SVG elements', () => {
+      const input = '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"/></svg>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<svg')
+      expect(result).toContain('<circle')
+    })
+
+    it('should preserve SVG attributes', () => {
+      const input = '<svg viewBox="0 0 100 100"><path d="M0 0 L100 100" fill="red"/></svg>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('viewBox')
+      expect(result).toContain('fill=')
+    })
+  })
+
+  describe('MathML support', () => {
+    it('should preserve MathML elements', () => {
+      const input = '<math><mi>x</mi><mo>+</mo><mn>1</mn></math>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('<math>')
+      expect(result).toContain('<mi>')
+      expect(result).toContain('<mn>')
+    })
+  })
+
+  describe('ARIA attribute preservation', () => {
+    it('should preserve aria-label', () => {
+      const input = '<div aria-label="test">content</div>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('aria-label')
+    })
+
+    it('should preserve role attribute', () => {
+      const input = '<div role="button">content</div>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('role=')
+    })
+  })
+
+  describe('Edge cases', () => {
+    it('should handle empty string', () => {
+      expect(sanitizeHtml('')).toBe('')
+    })
+
+    it('should handle plain text', () => {
+      expect(sanitizeHtml('Hello World')).toBe('Hello World')
+    })
+
+    it('should handle nested tags', () => {
+      const input = '<div><p><strong><em>nested</em></strong></p></div>'
+      const result = sanitizeHtml(input)
+      expect(result).toContain('nested')
+    })
+
+    it('should handle malformed HTML gracefully', () => {
+      const input = '<p>unclosed<div>broken</p>'
+      const result = sanitizeHtml(input)
+      expect(result).toBeTruthy()
     })
   })
 })

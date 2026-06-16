@@ -75,7 +75,10 @@ function walkDir(dir) {
 const args = process.argv.slice(2).filter(a => !a.startsWith('-'))
 if (args.length > 0) {
   for (const f of args) {
-    if (fs.existsSync(f) && /\.[mdx]+$/.test(f)) checkFile(path.resolve(f))
+    const resolved = path.resolve(f)
+    // Only check files under sites/ (content pages); skip root-level docs
+    if (!resolved.includes(path.join(SITES_DIR))) continue
+    if (fs.existsSync(resolved) && /\.[mdx]+$/.test(resolved)) checkFile(resolved)
   }
 } else {
   walkDir(SITES_DIR)

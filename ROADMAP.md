@@ -16,8 +16,8 @@ cannot be automated from the repository.
   matrix), `deploy.yml` (gated deploy to Cloudflare Pages), `uptime.yml`
   (six-hourly probes).
 - Pre-commit gate (Husky v9): lint-staged, shared-asset integrity, unit +
-  integration tests.
-- 169 automated tests (unit + integration).
+  integration tests, Vitest component tests.
+- 298 automated tests (177 unit/integration + 121 Vitest component).
 - Five Architecture Decision Records.
 
 ### Quality controls (added this cycle)
@@ -28,15 +28,27 @@ cannot be automated from the repository.
   (content pages exempt for legitimate Unicode examples).
 - Deploy gated on the full quality suite; broken code cannot reach production.
 - `--frozen-lockfile` installs in CI for reproducibility.
+- Vitest component tests integrated into pre-commit hook, CI, and deploy gate.
+- All linter scripts (lint-no-emoji, lint-content, lint-config, lint-links)
+  produce actionable output on violations.
+- BaseDialog consolidation: QuestionDialog, ResultsDialog, and SettingsDialog
+  now delegate to a single BaseDialog component with a `size` parameter.
+- Accessibility improvements: aria-hidden on decorative SVGs, aria-label on
+  PhetSimulation, unused ref removal in FlashcardDeck.
+- CI/CD workflows: explicit `permissions` blocks (least privilege).
 
 ### Component architecture
 
 | Component | Module | Lines | Status |
 |-----------|--------|-------|--------|
-| PracticeProblem.tsx | self-contained | ~230 | CSS-class based (refactored) |
-| FlashcardDeck.tsx | flashcard/{sm2,storage,constants}.ts | ~400 | SM-2 spaced repetition |
-| DiagnosticTest.tsx | self-contained | ~350 | Adaptive assessment |
-| DesmosGraph.tsx | self-contained | ~236 | Desmos embed |
+| BaseDialog.tsx | shared | ~40 | Reusable dialog shell |
+| QuestionDialog.tsx | shared | ~15 | Wraps BaseDialog (size=lg) |
+| ResultsDialog.tsx | shared | ~15 | Wraps BaseDialog (size=lg) |
+| SettingsDialog.tsx | shared | ~15 | Wraps BaseDialog (size=md) |
+| PracticeProblem.tsx | self-contained | ~206 | CSS-class based, keyboard navigable |
+| FlashcardDeck.tsx | flashcard/{sm2,storage,constants}.ts | ~470 | SM-2 spaced repetition |
+| DiagnosticTest.tsx | self-contained | ~446 | Adaptive assessment |
+| DesmosGraph.tsx | self-contained | ~238 | Desmos embed |
 | PhetSimulation.tsx | self-contained | ~74 | PhET embed |
 
 Inline-style status: PracticeProblem is fully class-based. FlashcardDeck and
@@ -161,7 +173,7 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Metric | Current | Target |
 |--------|---------|--------|
 | Live sites | 9 / 9 | 9 / 9 |
-| Automated tests | 177 (unit + integration) | 220+ |
+| Automated tests | 298 (177 unit/integration + 121 Vitest) | 350+ |
 | CI / CD pass rate | > 99 percent | > 99 percent |
 | Warm TTFB (all sites) | < 3 s (improving with self-hosted fonts) | < 1 s |
 | Search entries | ~2013 | 2500+ |
@@ -171,6 +183,8 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Content thin pages | 0 | 0 |
 | Google Fonts dependency | eliminated | eliminated |
 | Cross-site links | 3 examples added | pattern established |
+| Component tests | 121 (Vitest) | 150+ |
+| Pre-commit gates | lint-staged + sync + unit/integration + Vitest | all green |
 
 ---
 

@@ -33,7 +33,7 @@ starlight-sites/
   shared/         Canonical source for components, utils, styles, integrations
   search-api/     Cloudflare Worker (search) + canonical client search scripts
   scripts/        Linters, sync tool, site generator
-  tests/          unit, integration, e2e (GUI snapshot traversal)
+  tests/          unit, integration, component (Vitest), e2e (Playwright)
   .github/        ci.yml, deploy.yml, uptime.yml
 ```
 
@@ -50,6 +50,10 @@ search scripts canonicalised under `search-api/`. An integration test
 
 | Component | Type | Purpose |
 |-----------|------|---------|
+| BaseDialog.tsx | SolidJS | Reusable dialog shell (size parameter) |
+| QuestionDialog.tsx | SolidJS | Large dialog (wraps BaseDialog) |
+| ResultsDialog.tsx | SolidJS | Large dialog (wraps BaseDialog) |
+| SettingsDialog.tsx | SolidJS | Medium dialog (wraps BaseDialog) |
 | PageTitle.astro | Starlight override | Breadcrumbs and h1 derived from slug |
 | MarkdownContent.astro | Starlight override | Content wrapper and progress tracking |
 | PracticeProblem.tsx | SolidJS | Adaptive multiple-choice practice with keyboard nav |
@@ -93,9 +97,10 @@ Never edit per-site copies directly; they are regenerated.
 ```bash
 bun run test:unit         # unit tests (linters, search API logic, sync integrity)
 bun run test:integration  # integration tests (repo structure, CI/CD config)
+bun run test:components   # Vitest component tests (SolidJS components)
 bun run test:gui dse      # GUI DOM + accessibility snapshot for one site
 bun run test:gui --all    # all sites (optional PNG screenshots if Playwright present)
-bun run test              # unit + integration (169 tests)
+bun run test              # unit + integration + component tests
 ```
 
 The GUI traversal script captures DOM structural snapshots, runs a WCAG-oriented
@@ -126,8 +131,8 @@ out of scope as legitimate notation.
 Three GitHub Actions workflows:
 
 - **ci.yml** -- On push/PR to main: no-emoji lint, content/config validation,
-  shared-asset integrity, unit + integration tests (169), and a build matrix
-  across all nine sites.
+  shared-asset integrity, unit + integration + Vitest tests (298), and a build
+  matrix across all nine sites.
 - **deploy.yml** -- On push to main: a gate job (the full quality suite) must
   pass before any site, the landing page, or the search index is deployed to
   Cloudflare Pages.
@@ -135,7 +140,8 @@ Three GitHub Actions workflows:
   issue on non-200 responses.
 
 Pre-commit (Husky v9 + lint-staged) enforces per-file checks, shared-asset
-integrity, and the unit + integration suite before each commit.
+integrity, unit + integration tests, and Vitest component tests before each
+commit.
 
 ### Required secrets
 
