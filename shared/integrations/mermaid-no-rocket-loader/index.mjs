@@ -53,9 +53,9 @@ export default function mermaidNoRocketLoader() {
 
               // Find inline <script> tags (not external src) and check for mermaid code
               const scriptRegex = /<script(?![^>]*src=)([^>]*)>([\s\S]*?)<\/script>/g
-              let match
+              let match = scriptRegex.exec(html)
 
-              while ((match = scriptRegex.exec(html)) !== null) {
+              while (match !== null) {
                 const fullMatch = match[0]
                 const attrs = match[1]
                 const content = match[2]
@@ -71,6 +71,7 @@ export default function mermaidNoRocketLoader() {
                   html = html.replace(fullMatch, patchedScript)
                   modified = true
                 }
+                match = scriptRegex.exec(html)
               }
 
               if (modified) {

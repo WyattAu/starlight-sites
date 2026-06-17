@@ -11,7 +11,10 @@
       "!**/*.min.js",
       "!**/*.min.css",
       "!**/bun.lock",
-      "!**/.astro"
+      "!**/.astro",
+      "!**/playwright-report",
+      "!**/test-results",
+      "!**/.wrangler"
     ]
   },
   "formatter": {
@@ -78,6 +81,15 @@
       "trailingCommas": "none"
     }
   },
+  "css": {
+    "parser": {
+      "cssModules": false,
+      "tailwindDirectives": true
+    },
+    "linter": {
+      "enabled": true
+    }
+  },
   "overrides": [
     {
       "includes": ["**/*.astro"],
@@ -112,12 +124,28 @@
         "rules": {
           "suspicious": {
             "noExplicitAny": "off"
+          },
+          "style": {
+            "noNonNullAssertion": "off"
           }
         }
       }
     },
     {
-      "includes": ["**/scripts/**", "**/search-api/**"],
+      "includes": ["**/tests/**/*.js"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedVariables": "off"
+          },
+          "suspicious": {
+            "noConsole": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/scripts/**", "**/search-api/**", "**/public/**"],
       "linter": {
         "rules": {
           "suspicious": {
@@ -126,6 +154,16 @@
           },
           "correctness": {
             "noUnusedVariables": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/custom.css"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noDescendingSpecificity": "off"
           }
         }
       }

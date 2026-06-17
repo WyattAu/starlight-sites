@@ -1,11 +1,14 @@
 import { describe, expect, it } from 'vitest'
 import {
   applySM2,
+  assertInvariant,
   createDefaultState,
   DEFAULT_EASE,
   getMasteryLevel,
   isDue,
   MIN_EASE,
+  type Rating,
+  validateState,
 } from '../../shared/components/flashcard/sm2'
 
 describe('SM-2 Algorithm', () => {
@@ -219,6 +222,124 @@ describe('SM-2 Algorithm', () => {
       state.repetitions = 5
       state.interval = 100
       expect(getMasteryLevel(state)).toBe('mastered')
+    })
+  })
+
+  describe('invariant verification', () => {
+    it('should satisfy INV-SM2-001: easeFactor >= MIN_EASE for all ratings', () => {
+      const ratings: Rating[] = [1, 2, 3, 4]
+      const now = Date.now()
+
+      for (const rating of ratings) {
+        const state = createDefaultState()
+        const result = applySM2(state, rating, now)
+        expect(result.easeFactor).toBeGreaterThanOrEqual(MIN_EASE)
+      }
+    })
+
+    it('should satisfy INV-SM2-002: interval >= 0 for all ratings', () => {
+      const ratings: Rating[] = [1, 2, 3, 4]
+      const now = Date.now()
+
+      for (const rating of ratings) {
+        const state = createDefaultState()
+        const result = applySM2(state, rating, now)
+        expect(result.interval).toBeGreaterThanOrEqual(0)
+      }
+    })
+
+    it('should satisfy INV-SM2-003: repetitions >= 0 for all ratings', () => {
+      const ratings: Rating[] = [1, 2, 3, 4]
+      const now = Date.now()
+
+      for (const rating of ratings) {
+        const state = createDefaultState()
+        const result = applySM2(state, rating, now)
+        expect(result.repetitions).toBeGreaterThanOrEqual(0)
+      }
+    })
+
+    it('should satisfy INV-SM2-004: nextReview >= lastReview for all ratings', () => {
+      const ratings: Rating[] = [1, 2, 3, 4]
+      const now = Date.now()
+
+      for (const rating of ratings) {
+        const state = createDefaultState()
+        const result = applySM2(state, rating, now)
+        expect(result.nextReview).toBeGreaterThanOrEqual(result.lastReview)
+      }
+    })
+
+    it('should satisfy INV-SM2-005: lastReview == now for all ratings', () => {
+      const ratings: Rating[] = [1, 2, 3, 4]
+      const now = Date.now()
+
+      for (const rating of ratings) {
+        const state = createDefaultState()
+        const result = applySM2(state, rating, now)
+        expect(result.lastReview).toBe(now)
+      }
+    })
+
+    it('should maintain invariants through 10 successive reviews', () => {
+      let state = createDefaultState()
+      const now = Date.now()
+
+      for (let i = 0; i < 10; i++) {
+        const rating = ((i % 4) + 1) as Rating
+        state = applySM2(state, rating, now + i * 1000)
+        validateState(state)
+      }
+    })
+
+    it('should validate default state', () => {
+      const state = createDefaultState()
+      expect(() => validateState(state)).not.toThrow()
+    })
+  })
+
+  describe('property-based tests', () => {
+    it('should never decrease easeFactor below MIN_EASE across 50 random reviews', () => {
+      let state = createDefaultState()
+      const now = Date.now()
+
+      for (let i = 0; i < 50; i++) {
+        const rating = (Math.floor(Math.random() * 4) + 1) as Rating
+        state = applySM2(state, rating, now + i * 60000)
+        expect(state.easeFactor).toBeGreaterThanOrEqual(MIN_EASE)
+      }
+    })
+
+    it('should produce monotonically increasing nextReview across good ratings', () => {
+      let state = createDefaultState()
+      const now = Date.now()
+
+      for (let i = 0; i < 10; i++) {
+        const prevNextReview = state.nextReview
+        state = applySM2(state, 3, now + i * 60000)
+        expect(state.nextReview).toBeGreaterThanOrEqual(prevNextReview)
+      }
+    })
+
+    it('should keep interval positive after easy/good ratings', () => {
+      let state = createDefaultState()
+      const now = Date.now()
+
+      for (let i = 0; i < 20; i++) {
+        const rating = (i % 2 === 0 ? 3 : 4) as Rating
+        state = applySM2(state, rating, now + i * 60000)
+        expect(state.interval).toBeGreaterThanOrEqual(1)
+      }
+    })
+  })
+
+  describe('assertInvariant', () => {
+    it('should not throw when condition is true', () => {
+      expect(() => assertInvariant(true, 'test')).not.toThrow()
+    })
+
+    it('should throw when condition is false', () => {
+      expect(() => assertInvariant(false, 'test error')).toThrow('Invariant violated: test error')
     })
   })
 })

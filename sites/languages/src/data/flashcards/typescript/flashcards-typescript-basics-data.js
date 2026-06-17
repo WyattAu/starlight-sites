@@ -86,6 +86,7 @@ export const flashcardData = [
   {
     id: 'typescript-advanced-patterns-013',
     front: 'What are template literal types?',
+    // biome-ignore lint/suspicious/noTemplateCurlyInString: backtick examples in educational content
     back: "Template literal types allow you to create string types by combining literal strings using template syntax: `type EventName = `on${Capitalize<string>}``. They support interpolation with unions for combinatorial string types: `type Direction = 'top' | 'bottom'; type Padding = `${Direction}-padding``produces`'top-padding' | 'bottom-padding'`. They are powerful for type-safe string APIs like CSS units and event names.",
     tags: ['typescript', 'advanced-patterns'],
     difficulty: 'medium',

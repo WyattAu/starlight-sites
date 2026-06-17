@@ -6,6 +6,7 @@
  */
 
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
+import { t } from '../i18n/config'
 import { sanitizeHtml } from '../utils/sanitize'
 import QuestionDialog from './QuestionDialog'
 import ResultsDialog from './ResultsDialog'
@@ -257,13 +258,13 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
         role="region"
         aria-label="Diagnostic test"
       >
-        No questions available.
+        {t('diagnostic.no_questions')}
       </div>
     )
   }
 
   if (getShowResults() && result()) {
-    const r = result()!
+    const r = result() as NonNullable<ReturnType<typeof result>>
     return (
       <ResultsDialog
         open={getShowResults()}
@@ -283,22 +284,22 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
         <div class="mb-6 flex flex-wrap justify-center gap-3">
           <div class="min-w-[100px] rounded-lg border border-emphasis-200 bg-emphasis-100 px-6 py-4 text-center">
             <div class="font-bold text-2xl text-accent">{Math.round(r.overallScore * 100)}%</div>
-            <div class="mt-1 text-emphasis-700 text-sm">Overall Score</div>
+            <div class="mt-1 text-emphasis-700 text-sm">{t('diagnostic.overall_score')}</div>
           </div>
           <div class="min-w-[100px] rounded-lg border border-emphasis-200 bg-emphasis-100 px-6 py-4 text-center">
             <div class="font-bold text-2xl text-accent">
               {r.totalCorrect}/{r.totalQuestions}
             </div>
-            <div class="mt-1 text-emphasis-700 text-sm">Correct</div>
+            <div class="mt-1 text-emphasis-700 text-sm">{t('diagnostic.correct')}</div>
           </div>
           <div class="min-w-[100px] rounded-lg border border-emphasis-200 bg-emphasis-100 px-6 py-4 text-center">
             <div class="font-bold text-2xl text-accent">{formatTime(r.timeSpentMs)}</div>
-            <div class="mt-1 text-emphasis-700 text-sm">Time</div>
+            <div class="mt-1 text-emphasis-700 text-sm">{t('diagnostic.time')}</div>
           </div>
         </div>
 
-        <h4>Topic Breakdown</h4>
-        <div class="mb-5 flex flex-col gap-2">
+        <h4>{t('diagnostic.topic_breakdown')}</h4>
+        <div class="mb-5 flex flex-col gap-2" use:animate>
           <For each={r.topicResults}>
             {t => (
               <div class="flex items-center gap-3 rounded-md bg-emphasis-100 px-3 py-2 text-sm">
@@ -319,8 +320,8 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
 
         <Show when={r.strengths.length > 0}>
           <div class="mb-4">
-            <h4 class="mt-0 mb-2">Strengths</h4>
-            <div class="flex flex-wrap gap-2">
+            <h4 class="mt-0 mb-2">{t('diagnostic.strengths')}</h4>
+            <div class="flex flex-wrap gap-2" use:animate>
               <For each={r.strengths}>
                 {s => (
                   <span class="inline-block rounded-full bg-success/15 px-3 py-1 font-semibold text-sm text-success">
@@ -334,8 +335,8 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
 
         <Show when={r.weaknesses.length > 0}>
           <div class="mb-4">
-            <h4 class="mt-0 mb-2">Weaknesses</h4>
-            <div class="flex flex-wrap gap-2">
+            <h4 class="mt-0 mb-2">{t('diagnostic.weaknesses')}</h4>
+            <div class="flex flex-wrap gap-2" use:animate>
               <For each={r.weaknesses}>
                 {w => (
                   <span class="inline-block rounded-full bg-error/15 px-3 py-1 font-semibold text-error text-sm">
@@ -349,8 +350,8 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
 
         <Show when={r.recommendedTopics.length > 0}>
           <div class="mb-4">
-            <h4 class="mt-0 mb-2">Recommended Review</h4>
-            <div class="flex flex-wrap gap-2">
+            <h4 class="mt-0 mb-2">{t('diagnostic.recommended')}</h4>
+            <div class="flex flex-wrap gap-2" use:animate>
               <For each={r.recommendedTopics}>
                 {t => (
                   <span class="inline-block rounded-full bg-warning/15 px-3 py-1 font-semibold text-sm text-warning">
@@ -428,7 +429,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
             disabled={getSelected() === null}
             onClick={handleSubmit}
           >
-            Submit
+            {t('diagnostic.submit')}
           </button>
         </Show>
         <Show when={getSubmitted()}>
@@ -437,7 +438,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
             class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white"
             onClick={handleNext}
           >
-            {isComplete() ? 'View Results' : 'Next Question'}
+            {isComplete() ? t('diagnostic.view_results') : t('diagnostic.next')}
           </button>
         </Show>
       </div>

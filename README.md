@@ -34,7 +34,8 @@ starlight-sites/
   search-api/     Cloudflare Worker (search) + canonical client search scripts
   scripts/        Linters, sync tool, site generator
   tests/          unit, integration, component (Vitest), e2e (Playwright)
-  .github/        ci.yml, deploy.yml, uptime.yml
+  .github/        ci.yml, deploy.yml, preview.yml, uptime.yml
+  .adrs/          Architecture Decision Records
 ```
 
 ### Single-source-of-truth model
@@ -56,11 +57,14 @@ search scripts canonicalised under `search-api/`. An integration test
 | SettingsDialog.tsx | SolidJS | Medium dialog (wraps BaseDialog) |
 | PageTitle.astro | Starlight override | Breadcrumbs and h1 derived from slug |
 | MarkdownContent.astro | Starlight override | Content wrapper and progress tracking |
+| Head.astro | Starlight override | JSON-LD structured data injection |
 | PracticeProblem.tsx | SolidJS | Adaptive multiple-choice practice with keyboard nav |
 | FlashcardDeck.tsx | SolidJS | SM-2 spaced-repetition flashcards |
 | DiagnosticTest.tsx | SolidJS | Adaptive diagnostic assessment |
 | DesmosGraph.tsx | SolidJS | Desmos graphing-calculator embed |
 | PhetSimulation.tsx | SolidJS | PhET interactive simulation embed |
+| LocaleSwitcher.tsx | SolidJS | Language switching dropdown |
+| ToastProvider.tsx | SolidJS | Toast notification wrapper (solid-sonner) |
 
 ## Prerequisites
 
@@ -95,12 +99,14 @@ Never edit per-site copies directly; they are regenerated.
 ## Testing
 
 ```bash
-bun run test:unit         # unit tests (linters, search API logic, sync integrity)
+bun run test:unit         # Vitest component tests (SolidJS components)
+bun run test:legacy       # Node built-in unit + integration tests
 bun run test:integration  # integration tests (repo structure, CI/CD config)
-bun run test:components   # Vitest component tests (SolidJS components)
 bun run test:gui dse      # GUI DOM + accessibility snapshot for one site
 bun run test:gui --all    # all sites (optional PNG screenshots if Playwright present)
-bun run test              # unit + integration + component tests
+bun run test:e2e          # Playwright end-to-end tests
+bun run test              # unit + legacy tests (177 tests)
+bun run test:coverage     # Vitest with V8 coverage report
 ```
 
 The GUI traversal script captures DOM structural snapshots, runs a WCAG-oriented
@@ -111,10 +117,15 @@ installation is available (graceful DOM-only fallback otherwise).
 ## Linting
 
 ```bash
-bun run lint              # content + config + no-emoji
-bun run lint:links        # internal link integrity
-bun run lint:no-emoji     # pictograph prohibition (code, docs, config)
-bun run lint:all          # everything
+bun run lint              # Biome lint + format check
+bun run lint:fix          # Biome auto-fix
+bun run lint:content      # Markdown/MDX content validation
+bun run lint:config       # Astro config validation
+bun run lint:no-emoji     # Pictograph prohibition (code, docs, config)
+bun run lint:links        # Internal link integrity
+bun run lint:all          # Everything (biome + content + config + no-emoji + links)
+bun run format            # Biome format (write)
+bun run format:check      # Biome format (check only)
 ```
 
 ### No-emoji policy
@@ -128,20 +139,21 @@ out of scope as legitimate notation.
 
 ## CI/CD
 
-Three GitHub Actions workflows:
+Four GitHub Actions workflows:
 
-- **ci.yml** -- On push/PR to main: no-emoji lint, content/config validation,
-  shared-asset integrity, unit + integration + Vitest tests (298), and a build
-  matrix across all nine sites.
+- **ci.yml** -- On push/PR to main: Biome lint, no-emoji lint, content/config
+  validation, shared-asset integrity, unit + integration + Vitest tests, and a
+  build matrix across all nine sites.
 - **deploy.yml** -- On push to main: a gate job (the full quality suite) must
   pass before any site, the landing page, or the search index is deployed to
   Cloudflare Pages.
+- **preview.yml** -- On PR to main: builds and deploys preview versions of all
+  sites to Cloudflare Pages, posts preview URL as PR comment.
 - **uptime.yml** -- Scheduled every six hours: probes every site and opens an
   issue on non-200 responses.
 
 Pre-commit (Husky v9 + lint-staged) enforces per-file checks, shared-asset
-integrity, unit + integration tests, and Vitest component tests before each
-commit.
+integrity, and unit + integration tests before each commit.
 
 ### Required secrets
 

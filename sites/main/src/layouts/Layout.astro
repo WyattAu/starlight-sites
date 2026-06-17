@@ -1,0 +1,88 @@
+---
+import '../styles/custom.css'
+
+interface Props {
+  title: string
+  description: string
+}
+
+const { title, description } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content="https://wyattsnotes.wyattau.com/img/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preload" href="/fonts/Inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/JetBrainsMono-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ff6b35">
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: "Wyatt's Notes",
+    description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
+    url: 'https://wyattsnotes.wyattau.com',
+    publisher: {
+      '@type': 'Organization',
+      name: "Wyatt's Notes",
+      url: 'https://wyattsnotes.wyattau.com',
+    },
+  })} />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">Wyatt's Notes</a>
+      <ul class="nav-links">
+        <li><a href="https://dse.wyattau.com/" target="_blank" rel="noopener noreferrer">DSE</a></li>
+        <li><a href="https://ib.wyattau.com/" target="_blank" rel="noopener noreferrer">IB</a></li>
+        <li><a href="https://alevel.wyattau.com/" target="_blank" rel="noopener noreferrer">A-Level</a></li>
+        <li><a href="https://university.wyattau.com/" target="_blank" rel="noopener noreferrer">University</a></li>
+        <li><a href="https://programming.wyattau.com/" target="_blank" rel="noopener noreferrer">Programming</a></li>
+      </ul>
+      <button class="nav-search" aria-label="Open search" onclick="window.openSearchModal && window.openSearchModal()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        Search
+        <kbd>/</kbd>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-text">2026 Wyatt Au. Licensed under AGPLv3.</div>
+        <div class="footer-links">
+          <a href="https://github.com/WyattAu/starlight-sites" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://search.wyattau.com/" target="_blank" rel="noopener noreferrer">Search</a>
+          <a href="https://github.com/WyattAu/starlight-sites/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">License</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(() => {})
+    }
+  </script>
+</body>
+</html>

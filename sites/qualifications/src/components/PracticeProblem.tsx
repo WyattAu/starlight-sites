@@ -99,7 +99,7 @@ function PracticeProblemItem(props: {
     }
   })
 
-  const _handleKeyDown = (e: KeyboardEvent) => {
+  const handleKeyDown = (e: KeyboardEvent) => {
     if (submitted()) {
       return
     }
@@ -144,7 +144,12 @@ function PracticeProblemItem(props: {
 
       <p class="mb-4 font-semibold text-lg">{escapeHtml(props.question)}</p>
 
-      <div role="radiogroup" aria-label="Answer options" class="flex flex-col gap-2">
+      <div
+        role="radiogroup"
+        aria-label="Answer options"
+        class="flex flex-col gap-2"
+        onKeyDown={handleKeyDown}
+      >
         {props.options.map((opt, i) => (
           <button
             ref={el => {

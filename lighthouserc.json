@@ -1,0 +1,47 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "https://dse.wyattau.com/",
+        "https://ib.wyattau.com/",
+        "https://alevel.wyattau.com/",
+        "https://university.wyattau.com/",
+        "https://qualifications.wyattau.com/",
+        "https://programming.wyattau.com/",
+        "https://infrastructure.wyattau.com/",
+        "https://languages.wyattau.com/",
+        "https://tools.wyattau.com/"
+      ],
+      "numberOfRuns": 1,
+      "settings": {
+        "preset": "desktop"
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", { "minScore": 0.9 }],
+        "categories:accessibility": ["error", { "minScore": 0.9 }],
+        "categories:best-practices": ["error", { "minScore": 0.9 }],
+        "categories:seo": ["error", { "minScore": 0.9 }],
+        "first-contentful-paint": ["error", { "maxNumericValue": 2000 }],
+        "largest-contentful-paint": ["error", { "maxNumericValue": 2500 }],
+        "cumulative-layout-shift": ["error", { "maxNumericValue": 0.1 }],
+        "total-blocking-time": ["error", { "maxNumericValue": 300 }],
+        "interactive": ["error", { "maxNumericValue": 3500 }]
+      }
+    },
+    "upload": {
+      "target": "lhci",
+      "serverBaseUrl": "https://lhci.wyattau.com"
+    },
+    "server": {
+      "port": 9001,
+      "storage": {
+        "storageMethod": "sql",
+        "sqlConnection": {
+          "databasePath": "./lighthouse-results.sql"
+        }
+      }
+    }
+  }
+}

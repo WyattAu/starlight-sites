@@ -1,0 +1,76 @@
+{
+  "budgets": [
+    {
+      "path": "/*",
+      "timings": [
+        {
+          "metric": "first-contentful-paint",
+          "budget": 2000,
+          "tolerance": 100
+        },
+        {
+          "metric": "largest-contentful-paint",
+          "budget": 2500,
+          "tolerance": 100
+        },
+        {
+          "metric": "cumulative-layout-shift",
+          "budget": 0.1,
+          "tolerance": 0.01
+        },
+        {
+          "metric": "total-blocking-time",
+          "budget": 300,
+          "tolerance": 50
+        },
+        {
+          "metric": "time-to-interactive",
+          "budget": 3500,
+          "tolerance": 100
+        }
+      ]
+    },
+    {
+      "path": "/**/*.html",
+      "timings": [
+        {
+          "metric": "document-size",
+          "budget": 50000,
+          "tolerance": 5000
+        },
+        {
+          "metric": "dom-size",
+          "budget": 1500,
+          "tolerance": 100
+        }
+      ]
+    },
+    {
+      "path": "/**/*.js",
+      "timings": [
+        {
+          "metric": "javascript-size",
+          "budget": 200000,
+          "tolerance": 20000
+        }
+      ]
+    },
+    {
+      "path": "/**/*.css",
+      "timings": [
+        {
+          "metric": "css-size",
+          "budget": 50000,
+          "tolerance": 5000
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "maxFileSize": 500000,
+    "maxJsSize": 300000,
+    "maxCssSize": 100000,
+    "maxImageSize": 200000,
+    "maxFontSize": 100000
+  }
+}

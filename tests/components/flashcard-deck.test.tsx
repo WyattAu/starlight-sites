@@ -97,8 +97,8 @@ describe('FlashcardDeck Component', () => {
   it('should navigate to stats view', async () => {
     render(() => <FlashcardDeck cards={mockCards} deckId="test" />)
     await fireEvent.click(screen.getByText('Stats'))
-    expect(screen.getByText('Statistics')).toBeTruthy()
-    expect(screen.getByText('Cards Mastered')).toBeTruthy()
+    expect(screen.getByText('Mastered')).toBeTruthy()
+    expect(screen.getByText('Streak')).toBeTruthy()
   })
 
   it('should navigate to settings view', async () => {

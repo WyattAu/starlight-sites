@@ -40,13 +40,13 @@
   --color-accent: #ff6b35;
   --color-accent-low: #ff6b3520;
   --color-accent-high: #ff8c4a;
-  
+
   --color-success: #2ecc71;
   --color-warning: #f39c12;
   --color-error: #e74c3c;
   --color-info: #3498db;
   --color-neutral: #95a5a6;
-  
+
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", "Fira Code", monospace;
 }

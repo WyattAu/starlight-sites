@@ -16,8 +16,15 @@ const ROOT = path.join(__dirname, '..')
 const SITES_DIR = path.join(ROOT, 'sites')
 
 const SITES = [
-  'dse', 'ib', 'alevel', 'university', 'qualifications',
-  'programming', 'infrastructure', 'languages', 'tools',
+  'dse',
+  'ib',
+  'alevel',
+  'university',
+  'qualifications',
+  'programming',
+  'infrastructure',
+  'languages',
+  'tools',
 ]
 
 const args = process.argv.slice(2)
@@ -59,7 +66,9 @@ console.log(`${'Site'.padEnd(20)} ${'Time'.padEnd(12)} ${'Pages'.padEnd(8)} Stat
 console.log('-'.repeat(60))
 for (const r of results) {
   const time = `${(r.elapsed / 1000).toFixed(1)}s`
-  console.log(`${r.site.padEnd(20)} ${time.padEnd(12)} ${String(r.pageCount).padEnd(8)} ${r.status}`)
+  console.log(
+    `${r.site.padEnd(20)} ${time.padEnd(12)} ${String(r.pageCount).padEnd(8)} ${r.status}`,
+  )
 }
 console.log('-'.repeat(60))
 const totalTime = results.reduce((s, r) => s + r.elapsed, 0)
@@ -68,4 +77,7 @@ console.log(`Total: ${(totalTime / 1000).toFixed(1)}s`)
 // Write results for CI tracking
 const reportPath = path.join(ROOT, '.reports', 'build-times.json')
 fs.mkdirSync(path.dirname(reportPath), { recursive: true })
-fs.writeFileSync(reportPath, JSON.stringify({ timestamp: new Date().toISOString(), results }, null, 2))
+fs.writeFileSync(
+  reportPath,
+  JSON.stringify({ timestamp: new Date().toISOString(), results }, null, 2),
+)

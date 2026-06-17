@@ -25,7 +25,7 @@
  * captured). Install once with: npx playwright install --with-deps chromium
  */
 
-const { execSync, spawn } = require('node:child_process')
+const { execSync } = require('node:child_process')
 const fs = require('node:fs')
 const path = require('node:path')
 const http = require('node:http')
@@ -315,16 +315,13 @@ async function main() {
 
   fs.writeFileSync(path.join(OUTPUT_DIR, 'report.json'), JSON.stringify(aggregate, null, 2))
 
-  if (aggregate.a11yIssues.length === 0) {
-  } else {
-    for (const { site, page, issue } of aggregate.a11yIssues) {
-    }
+  // Report summary
+  if (aggregate.a11yIssues.length > 0) {
+    console.log(`Found ${aggregate.a11yIssues.length} accessibility issues`)
   }
 
-  if (aggregate.drift.length === 0) {
-  } else {
-    for (const { site, page, diffs } of aggregate.drift) {
-    }
+  if (aggregate.drift.length > 0) {
+    console.log(`Found ${aggregate.drift.length} visual drift issues`)
   }
 
   if (browser) await browser.close()

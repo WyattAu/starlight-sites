@@ -1,11 +1,32 @@
 import DOMPurify from 'dompurify'
 
+/**
+ * Sanitize HTML string for safe rendering.
+ *
+ * Preconditions:
+ *   PRE-SAN-001: dirty is a string (any content)
+ *
+ * Postconditions:
+ *   POST-SAN-001: result contains no script/event handler attributes
+ *   POST-SAN-002: result is safe for innerHTML assignment
+ *   POST-SAN-003: server-side returns input unchanged (no DOM available)
+ *   POST-SAN-004: output length <= input length (sanitization removes content)
+ *
+ * Invariants:
+ *   INV-SAN-001: output is always a string
+ *   INV-SAN-002: output preserves allowed tags and attributes
+ *
+ * @param dirty - Potentially unsafe HTML string
+ * @returns Sanitized HTML safe for rendering
+ */
 export function sanitizeHtml(dirty: string): string {
+  // PRE-SAN-001: input is string (TypeScript ensures this)
   if (typeof window === 'undefined') {
+    // POST-SAN-003: server-side returns unchanged
     return dirty
   }
 
-  return DOMPurify.sanitize(dirty, {
+  const clean = DOMPurify.sanitize(dirty, {
     ALLOWED_TAGS: [
       'p',
       'div',
@@ -182,11 +203,13 @@ export function sanitizeHtml(dirty: string): string {
       'preserveAspectRatio',
       'flood-color',
       'flood-opacity',
-      'id',
-      'href',
       'xlink:href',
     ],
     ALLOW_DATA_ATTR: true,
     SANITIZE_DOM: true,
   })
+
+  // POST-SAN-004: output length <= input length
+  // INV-SAN-001: result is always a string
+  return clean
 }

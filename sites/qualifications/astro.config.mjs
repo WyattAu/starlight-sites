@@ -4,8 +4,10 @@ import solidJs from '@astrojs/solid-js'
 import starlight from '@astrojs/starlight'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'astro/config'
+import compress from 'astro-compress'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
+import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 
 export default defineConfig({
@@ -18,10 +20,15 @@ export default defineConfig({
         'GCSE, AP, Scottish Highers, Irish Leaving Certificate, and other qualification revision notes with exam-style practice.',
 
       components: {
+        Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
       },
       defaultLocale: 'en',
+      locales: {
+        en: { label: 'English', lang: 'en' },
+        zh: { label: '中文', lang: 'zh' },
+      },
       sidebar: [
         { label: 'Ap', autogenerate: { directory: 'ap' } },
         { label: 'Cbse', autogenerate: { directory: 'cbse' } },
@@ -33,6 +40,8 @@ export default defineConfig({
         { label: 'Sat', autogenerate: { directory: 'sat' } },
       ],
       head: [
+        ...cloudflareAnalytics(),
+        { tag: 'script', attrs: { type: 'module', src: '/web-vitals.js' } },
         { tag: 'link', attrs: { rel: 'manifest', href: '/manifest.json' } },
         { tag: 'meta', attrs: { name: 'theme-color', content: '#ff6b35' } },
         {
@@ -94,6 +103,7 @@ export default defineConfig({
     mdx(),
     solidJs(),
     sitemap(),
+    compress(),
   ],
   vite: {
     plugins: [tailwindcss()],

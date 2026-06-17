@@ -8,7 +8,8 @@ export const practiceQuestions = [
     question: 'What is the size of a bool in C++?',
     options: ['1 byte', '4 bytes', 'Platform-dependent', 'Undefined'],
     correctAnswer: 0,
-    explanation: 'The C++ standard guarantees that sizeof(bool) is at least 1. In practice, it is 1 byte on virtually all platforms.',
+    explanation:
+      'The C++ standard guarantees that sizeof(bool) is at least 1. In practice, it is 1 byte on virtually all platforms.',
     difficulty: 'easy',
   },
   {
@@ -20,7 +21,8 @@ export const practiceQuestions = [
       'Reference Assignment Is Inheritance',
     ],
     correctAnswer: 0,
-    explanation: 'RAII (Resource Acquisition Is Initialization) ties resource lifecycle to object lifetime. Resources are acquired in constructors and released in destructors, ensuring no leaks.',
+    explanation:
+      'RAII (Resource Acquisition Is Initialization) ties resource lifecycle to object lifetime. Resources are acquired in constructors and released in destructors, ensuring no leaks.',
     difficulty: 'easy',
   },
   {
@@ -32,7 +34,8 @@ export const practiceQuestions = [
       'References are faster',
     ],
     correctAnswer: 1,
-    explanation: 'A reference must be initialized to a valid object and cannot be rebound. A pointer can be null, reassigned, and used for arithmetic. References are generally safer.',
+    explanation:
+      'A reference must be initialized to a valid object and cannot be rebound. A pointer can be null, reassigned, and used for arithmetic. References are generally safer.',
     difficulty: 'easy',
   },
   {
@@ -44,19 +47,16 @@ export const practiceQuestions = [
       'The object is swapped',
     ],
     correctAnswer: 2,
-    explanation: 'std::move does not move anything. It casts its argument to an rvalue reference (T&&), enabling move constructors and move assignment operators to be called.',
+    explanation:
+      'std::move does not move anything. It casts its argument to an rvalue reference (T&&), enabling move constructors and move assignment operators to be called.',
     difficulty: 'medium',
   },
   {
     question: 'Which smart pointer should you use when you want shared ownership?',
-    options: [
-      'std::unique_ptr',
-      'std::shared_ptr',
-      'std::weak_ptr',
-      'std::auto_ptr',
-    ],
+    options: ['std::unique_ptr', 'std::shared_ptr', 'std::weak_ptr', 'std::auto_ptr'],
     correctAnswer: 1,
-    explanation: 'std::shared_ptr uses reference counting to manage shared ownership. Multiple shared_ptr instances can own the same resource. Use std::weak_ptr to break cycles.',
+    explanation:
+      'std::shared_ptr uses reference counting to manage shared ownership. Multiple shared_ptr instances can own the same resource. Use std::weak_ptr to break cycles.',
     difficulty: 'easy',
   },
   {
@@ -68,7 +68,8 @@ export const practiceQuestions = [
       'A pointer to a constant',
     ],
     correctAnswer: 1,
-    explanation: 'A dangling pointer refers to memory that has been deallocated or is no longer in scope. Dereferencing it is undefined behavior. RAII prevents this.',
+    explanation:
+      'A dangling pointer refers to memory that has been deallocated or is no longer in scope. Dereferencing it is undefined behavior. RAII prevents this.',
     difficulty: 'easy',
   },
   {
@@ -80,7 +81,8 @@ export const practiceQuestions = [
       'Classes should have three member variables',
     ],
     correctAnswer: 1,
-    explanation: 'The Rule of Three states that if a class needs a custom destructor, copy constructor, or copy assignment operator, it likely needs all three. This ensures proper resource management.',
+    explanation:
+      'The Rule of Three states that if a class needs a custom destructor, copy constructor, or copy assignment operator, it likely needs all three. This ensures proper resource management.',
     difficulty: 'medium',
   },
   {
@@ -92,7 +94,8 @@ export const practiceQuestions = [
       'array is faster for all operations',
     ],
     correctAnswer: 1,
-    explanation: 'std::vector uses heap allocation and can grow/shrink. std::array uses stack allocation with a compile-time fixed size. array has no overhead but cannot resize.',
+    explanation:
+      'std::vector uses heap allocation and can grow/shrink. std::array uses stack allocation with a compile-time fixed size. array has no overhead but cannot resize.',
     difficulty: 'easy',
   },
   {
@@ -104,7 +107,8 @@ export const practiceQuestions = [
       'Creating thread-safe code',
     ],
     correctAnswer: 1,
-    explanation: 'Move semantics allow transferring resource ownership (e.g., heap memory) from one object to another without expensive deep copies. The source object is left in a valid but unspecified state.',
+    explanation:
+      'Move semantics allow transferring resource ownership (e.g., heap memory) from one object to another without expensive deep copies. The source object is left in a valid but unspecified state.',
     difficulty: 'medium',
   },
   {
@@ -116,7 +120,8 @@ export const practiceQuestions = [
       'Behavior that is platform-specific',
     ],
     correctAnswer: 1,
-    explanation: 'Undefined behavior (UB) is behavior for which the standard imposes no requirements. The compiler may optimize unpredictably, and the program may crash, produce wrong results, or appear to work.',
+    explanation:
+      'Undefined behavior (UB) is behavior for which the standard imposes no requirements. The compiler may optimize unpredictably, and the program may crash, produce wrong results, or appear to work.',
     difficulty: 'medium',
   },
   {
@@ -128,7 +133,8 @@ export const practiceQuestions = [
       'When performance does not matter',
     ],
     correctAnswer: 1,
-    explanation: 'Use std::unique_ptr when there is a single clear owner. It has zero overhead compared to a raw pointer. Use shared_ptr only when ownership must be shared.',
+    explanation:
+      'Use std::unique_ptr when there is a single clear owner. It has zero overhead compared to a raw pointer. Use shared_ptr only when ownership must be shared.',
     difficulty: 'medium',
   },
   {
@@ -140,7 +146,8 @@ export const practiceQuestions = [
       'To convert between pointer types',
     ],
     correctAnswer: 1,
-    explanation: 'make_unique and make_shared construct objects directly in the smart pointer, avoiding the need for new. They provide strong exception safety guarantee.',
+    explanation:
+      'make_unique and make_shared construct objects directly in the smart pointer, avoiding the need for new. They provide strong exception safety guarantee.',
     difficulty: 'medium',
   },
 ]

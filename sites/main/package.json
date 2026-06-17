@@ -1,0 +1,20 @@
+{
+  "name": "main",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.5.4",
+    "@astrojs/solid-js": "^5.0.1",
+    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/mdx": "^4.3.14",
+    "solid-js": "^1.9.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

@@ -36,7 +36,7 @@ async function listProjects() {
   const response = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/pages/projects`,
     {
-      headers: { 'Authorization': `Bearer ${API_TOKEN}` },
+      headers: { Authorization: `Bearer ${API_TOKEN}` },
     },
   )
   const data = await response.json()
@@ -48,7 +48,7 @@ async function deleteProject(name) {
     `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/pages/projects/${name}`,
     {
       method: 'DELETE',
-      headers: { 'Authorization': `Bearer ${API_TOKEN}` },
+      headers: { Authorization: `Bearer ${API_TOKEN}` },
     },
   )
   return response.ok

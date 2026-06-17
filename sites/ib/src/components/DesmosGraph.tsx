@@ -58,10 +58,11 @@ function parseExpression(input: string): DesmosExpression {
 
   const paramRegex = /\b([a-df-wz])\b/g
   const params = new Set<string>()
-  let match
+  let match: RegExpExecArray | null = paramRegex.exec(input)
 
-  while ((match = paramRegex.exec(input)) !== null) {
+  while (match !== null) {
     params.add(match[1])
+    match = paramRegex.exec(input)
   }
   params.delete('e')
   params.delete('i')
@@ -120,8 +121,7 @@ export default function DesmosGraph(props: DesmosGraphProps) {
         return
       }
 
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const Desmos = (window as any).Desmos
+      const Desmos = (window as unknown as { Desmos?: typeof DesmosGraph }).Desmos
 
       if (!Desmos) {
         return
@@ -165,9 +165,9 @@ export default function DesmosGraph(props: DesmosGraphProps) {
 
       exprs.forEach(expr => {
         const input = typeof expr === 'string' ? expr : expr.latex || ''
-        let paramMatch
+        let paramMatch: RegExpExecArray | null = paramRegex.exec(input)
 
-        while ((paramMatch = paramRegex.exec(input)) !== null) {
+        while (paramMatch !== null) {
           const param = paramMatch[1]
 
           if (!addedParams.has(param) && param !== 'e' && param !== 'i') {
@@ -177,6 +177,7 @@ export default function DesmosGraph(props: DesmosGraphProps) {
               sliderBounds: { min: -10, max: 10, step: 0.1 },
             })
           }
+          paramMatch = paramRegex.exec(input)
         }
       })
     }
@@ -186,8 +187,7 @@ export default function DesmosGraph(props: DesmosGraphProps) {
     onCleanup(() => {
       destroyed = true
       if (calculatorRef) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        ;(calculatorRef as any).destroy()
+        ;(calculatorRef as unknown as { destroy: () => void }).destroy()
         calculatorRef = undefined
       }
       if (script.parentNode) {

@@ -1,287 +1,360 @@
-# Frontend Refactor Analysis & Roadmap
+# Frontend & GUI Refactor Analysis
 
-## Current State Summary
+> **Date:** 2026-06-17
+> **Status:** Analysis Complete — Awaiting Decision
+> **Scope:** Full GUI and frontend architecture review for the starlight-sites monorepo
 
-| Aspect | Before | After | Version |
-|--------|---------|---------|---------|
-| Package Manager | Bun | Bun | Latest |
-| Framework | Astro + Starlight | Astro + Starlight | 5.5.4 / 0.32.2 |
-| UI Framework | SolidJS | SolidJS | 1.9.13 |
-| Styling | Custom CSS (863 lines) | Tailwind CSS v4 (260 lines) | 4.3.1 |
-| Build Tool | Vite (via Astro) | Vite (via Astro) | Latest |
-| Type Safety | TypeScript | TypeScript | 5.8.2 |
-| Linting | None | Biome | 2.5.0 |
-| Testing | Playwright (E2E only) | Vitest + Playwright | 4.1.9 / 1.61.0 |
-| Deployment | Static (Cloudflare Pages) | Static (Cloudflare Pages) | - |
+---
 
-## Key Observations
+## 1. Current Stack Assessment
 
-1. **No utility CSS framework** — 863-line custom CSS with design tokens via CSS custom properties
-2. **File-copy sharing** — Components duplicated across 9 sites via sync script
-3. **No component library** — All SolidJS components hand-rolled (FlashcardDeck, DiagnosticTest, PracticeProblem)
-4. **No form library** — Forms likely basic or non-existent
-5. **No animation library** — Only CSS transitions in flashcard flip
-6. **No icon system** — Inline SVGs or no icons
+| Layer | Current | Version | Verdict |
+|-------|---------|---------|---------|
+| **Meta-Framework** | Astro + Starlight | 5.5.4 / 0.32.2 | Solid — keep |
+| **UI Framework** | SolidJS (island hydration) | 1.9.13 | Solid — keep |
+| **Styling** | Tailwind CSS v4 | 4.3.1 | Current — keep |
+| **Headless UI** | Kobalte | 0.13.11 | Active — evaluate corvu |
+| **Forms** | Felte | 1.4.4 | Active — evaluate Modular Forms |
+| **Primitives** | solid-primitives (keyboard, media, utils) | 1.3.5 / 2.3.5 / 6.4.0 | Current — expand |
+| **Icons** | unplugin-icons + Lucide | 23.0.1 | Good — keep |
+| **Package Mgr** | Bun | 1.2+ | Current — keep |
+| **Linter** | Biome | 2.5.0 | Current — keep |
+| **Testing** | Vitest + Playwright + Node test runner | 4.1.9 / 1.61.0 | Good — keep |
+| **Deployment** | Cloudflare Pages | — | Good — keep |
+| **Landing Page** | Plain static HTML | — | **Migrate to Astro** |
 
-## Package Analysis
+### Strengths
 
-### HIGH PRIORITY — Should Adopt
+- SolidJS choice is excellent (ADR-002): ~1.5KB gzipped vs ~42KB React
+- Tailwind v4 CSS-first config is the modern approach
+- Biome over ESLint+Prettier is the right call for 2026
+- Island hydration means zero JS shipped for static content
+- Shared component sync pattern is well-tested
 
-| Package | Why | Impact | Status |
-|---------|-----|--------|--------|
-| **Tailwind CSS v4** | Eliminate 863-line custom CSS. CSS-first config. Rust engine = fast builds. Design tokens → Tailwind config. | DX++, Maintainability++ | ADOPTED |
-| **Biome** | Replace ESLint + Prettier. Single tool. 10x faster. | DX+, CI speed++ | ADOPTED |
-| **Vitest** | Replace Playwright-only testing. Unit tests for SolidJS components. Co-located with source. | Quality++ | ADOPTED |
-| **Solid Primitives** | Mature reactive primitives (media queries, gestures, etc). Replaces hand-rolled utils. | Code quality++ | ADOPTED |
-| **Felte** | Form handling for any future forms (contact, feedback, etc). | DX+ | ADOPTED |
-| **unplugin-icons** | Auto-import icons. No manual SVG management. | DX+, Bundle size-- | ADOPTED |
-| **Kobalte** | Accessible headless UI (dialogs, dropdowns, tabs). | May not need for doc sites | ADOPTED |
+### Weaknesses
 
-### MEDIUM PRIORITY — Evaluate
+1. **Landing page (`main`)** is plain HTML with inline CSS — no framework, no reuse, no type safety
+2. **No animation library** — only basic CSS transitions
+3. **No toast/notification system** — user feedback is ad-hoc
+4. **No structured state management** — flashcards use raw localStorage
+5. **Component primitives are thin** — only Kobalte Dialog, no other headless components
+6. **No SEO meta management** — missing structured data, Open Graph, JSON-LD
+7. **No form validation library** on the Felte core (only `@felte/core`, not the validator plugin)
+8. **Content Layer API not utilized** — still using older markdown glob patterns
 
-| Package | Why | Concern |
-|---------|-----|---------|
-| **Kobalte** | Accessible headless UI (dialogs, dropdowns, tabs). | May not need for doc sites |
-| **corvu** | Alternative to Kobalte. Newer, smaller. | Less mature |
-| **TanStack Table** | If any site needs data tables. | Niche use case |
-| **Solid Sonner** | Toast notifications. | Low priority for docs |
-| **tsdown** | Library bundler for shared components. | Could replace tsup if used |
-| **Panda CSS** | Alternative to Tailwind. Type-safe. | Tailwind v4 already type-safe |
+---
 
-## Completed Tasks
+## 2. Package Evaluation
 
-| Task | Status | Date |
-|------|--------|------|
-| Biome 2.5.0 | DONE | 2026-06-16 |
-| Vitest 4.1.9 | DONE | 2026-06-16 |
-| Tailwind CSS v4 | DONE | 2026-06-16 |
-| Component CSS migration | DONE | 2026-06-16 |
-| Solid Primitives | DONE | 2026-06-16 |
-| Kobalte | DONE | 2026-06-16 |
-| Felte | DONE | 2026-06-16 |
-| unplugin-icons | DONE | 2026-06-16 |
-| Component render tests | DONE | 2026-06-16 |
-| Playwright visual config | DONE | 2026-06-16 |
-| Pre-commit hook fix | DONE | 2026-06-16 |
+### 2.1 Meta-Framework: Stay on Astro + Starlight
 
-## Test Results
+**Recommendation: NO MIGRATION**
 
-| Test Type | Count | Status |
-|-----------|-------|--------|
-| Component tests | 92 | PASSING |
-| Legacy tests | 177 | PASSING |
-| Total | 269 | PASSING |
+| Option | Pros | Cons | Verdict |
+|--------|------|------|---------|
+| **Astro + Starlight** (current) | Content-focused, zero-JS default, Starlight is best-in-class docs theme, official Solid integration | Multi-framework overhead (unused) | **Keep** |
+| SolidStart | Native Solid, full-stack | No Starlight equivalent, would rebuild docs theme from scratch, ecosystem smaller | Rejected |
+| Next.js | RSC, large ecosystem | React overhead, not content-first, no Starlight | Rejected |
+| SvelteKit | Compile-time, fast | Would require rewriting all Solid components | Rejected |
+| TanStack Start | Type-safe, streaming | Too new, no docs framework, React-based | Rejected |
 
-## Files Changed
+**Rationale:** Starlight is the single best documentation framework available. The SolidJS island integration means we get fine-grained reactivity where needed without sacrificing the content-first architecture. Migrating to SolidStart would mean losing Starlight and rebuilding the entire documentation layer.
 
-| File | Change |
-|------|--------|
-| package.json | New deps + scripts |
-| biome.json | Linter/formatter config |
-| vitest.config.ts | Test config |
-| shared/styles/custom.css | 260 lines (was 863) |
-| shared/components/FlashcardDeck.tsx | Tailwind + hooks |
-| shared/components/DiagnosticTest.tsx | Tailwind utilities |
-| shared/components/PracticeProblem.tsx | Tailwind utilities |
-| shared/components/SettingsDialog.tsx | New Kobalte dialog |
-| sites/*/astro.config.mjs | Tailwind + Icons |
-| tests/components/*.test.ts | 92 tests |
-| tests/e2e/visual.config.ts | Visual regression |
-| tests/e2e/visual.spec.ts | Visual tests |
-| .husky/pre-commit | Simplified |
+### 2.2 Headless UI: Kobalte → Evaluate corvu
 
-## Next Steps
+**Recommendation: SELECTIVE MIGRATION to corvu**
 
-| Priority | Task | Why |
-|----------|------|-----|
-| 1 | Run Playwright against live sites | Capture visual baselines |
-| 2 | Kobalte dialogs for diagnostic/practice | Accessibility |
-| 3 | Icon integration in components | Replace inline SVGs |
-| 4 | Component render tests for diagnostic/practice | Test coverage |
-| 5 | Performance baseline | Establish metrics |
+| Option | Bundle Size | Components | Accessibility | Active | Solid-native |
+|--------|------------|------------|---------------|--------|--------------|
+| **Kobalte** (current) | ~8KB | Dialog, Popover, Select, etc. | WCAG 2.1 | Yes | Yes |
+| **corvu** | ~3KB tree-shaken | Dialog, Popover, Select, Tooltip, etc. | WCAG 2.1 | Highly active | Yes |
+| Ark UI (Solid) | ~12KB | Full suite | WCAG 2.1 | Yes | Via Zag.js |
+| Suid (MUI port) | ~40KB+ | Material Design | Varies | Yes | Yes |
 
-### LOW PRIORITY — Skip
+**Rationale:** corvu is built natively for Solid (not a wrapper), has smaller bundle size, and is more actively maintained in 2026. However, Kobalte is stable and working. **Migration is optional — do it incrementally when adding new components, not as a big-bang rewrite.**
 
-| Package | Why Skip |
+### 2.3 Forms: Felte → Evaluate Modular Forms
+
+**Recommendation: KEEP Felte, add validator plugin**
+
+| Option | Type Safety | Bundle Size | Solid-native | Validation |
+|--------|------------|-------------|--------------|------------|
+| **Felte** (current) | Good | ~3KB | Yes | Needs `@felte/validator-zod` |
+| **Modular Forms** | Excellent | ~4KB | Yes | Built-in |
+| Solid Form Handler | Basic | ~2KB | Yes | Basic |
+
+**Rationale:** Felte is the community standard. Add `@felte/validator-zod` with Zod schemas for proper validation. Modular Forms is excellent but switching provides marginal benefit for the migration cost.
+
+### 2.4 Animation: ADD Solid Motion + AutoAnimate
+
+**Recommendation: ADD both**
+
+| Option | Use Case | Bundle Size | Performance |
+|--------|----------|-------------|-------------|
+| **AutoAnimate** | List/layout transitions (zero-config) | ~2KB | Excellent |
+| **Solid Motion** | Complex choreographed animations | ~15KB | Excellent (Web Animations API) |
+| Solid Transition Group | Basic enter/exit | ~1KB | Good |
+| StyleX | CSS-only animations | 0KB runtime | Excellent |
+
+**Rationale:** AutoAnimate for zero-config list animations (flashcard deck, question lists). Solid Motion for complex interactions (dialog transitions, results reveals). Both use the Web Animations API, no runtime overhead.
+
+### 2.5 Toast/Notifications: ADD Solid Sonner
+
+**Recommendation: ADD**
+
+| Option | Style | Bundle Size | Active |
+|--------|-------|-------------|--------|
+| **Solid Sonner** | Modern, clean | ~3KB | Highly active |
+| Solid Toast | Basic | ~2KB | Stable |
+| Hope UI Toast | Styled | ~5KB | Active |
+
+**Rationale:** Solid Sonner is the community standard for toast notifications. Clean API, modern design, non-intrusive. Essential for user feedback on flashcard saves, settings changes, and error states.
+
+### 2.6 State Management: ADD Solid Primitives Store
+
+**Recommendation: ADD for flashcard state**
+
+| Option | Use Case | Bundle Size | Complexity |
+|--------|----------|-------------|------------|
+| **solid-primitives/store** | Structured reactive state | ~2KB (already included) | Low |
+| solid-zustand | External store integration | ~4KB | Medium |
+| Nanostores (Solid) | Cross-framework state | ~1KB | Low |
+| Jotai (Solid) | Atomic state | ~3KB | Medium |
+
+**Rationale:** The flashcard system currently uses raw `localStorage` reads. Using `@solid-primitives/store` (already a dependency) with a structured store pattern would provide proper reactivity, persistence, and cleaner code. No need for Zustand/Jotai — this is local component state, not global state.
+
+### 2.7 SEO: ADD astro-seo + astro-seo-graph
+
+**Recommendation: ADD**
+
+| Option | Features | Maintenance |
+|--------|----------|-------------|
+| **astro-seo** | OG tags, canonical, basic structured data | Active |
+| **astro-seo-graph** | JSON-LD, by Joast de Valk (Yoast creator) | Active |
+| Astro built-in `<Head>` | Basic meta | Built-in |
+
+**Rationale:** Critical for discoverability. JSON-LD structured data helps search engines understand educational content. Open Graph tags improve social sharing. Both are lightweight additions.
+
+### 2.8 Content Layer: Migrate to Content Layer API
+
+**Recommendation: MIGRATE (Astro 5+ feature)**
+
+The project uses Astro 5.5.4 which supports the Content Layer API. Currently, content is queried via older glob patterns. Migrating to Content Layer loaders provides:
+- Type-safe content queries
+- Better performance (caching, incremental builds)
+- Remote content source support
+- Standardized content schemas
+
+### 2.9 Landing Page: Migrate `main` to Astro
+
+**Recommendation: MIGRATE**
+
+The `main` site is plain static HTML with inline CSS. This should be an Astro site like the others. Benefits:
+- Reuse shared components (breadcrumbs, progress tracking)
+- Tailwind CSS instead of inline styles
+- Type safety
+- Consistent build pipeline
+- SEO meta management
+
+### 2.10 Utilities: Radash over Lodash-es
+
+**Recommendation: ADD Radash, DROP Lodash**
+
+| Option | Bundle Size | Type Safety | Tree-shakeable |
+|--------|-------------|-------------|----------------|
+| **Radash** | ~2KB | Excellent | Yes |
+| Lodash-es | ~15KB | Poor | Partial |
+| Native JS | 0KB | Varies | N/A |
+
+**Rationale:** Radash is a modern, type-safe Lodash alternative. For the few utility functions used (if any), Radash is smaller and fully typed.
+
+---
+
+## 3. What NOT to Migrate
+
+| Package | Why Keep |
 |---------|----------|
-| **Next.js / Nuxt / SvelteKit** | Already on Astro. Wrong direction. |
-| **SolidStart** | Astro already handles SSG/SSR. No need for meta-framework switch. |
-| **Redux / Zustand / Jotai** | Doc sites don't need complex state management. |
-| **TanStack Query** | Static sites don't fetch client-side data. |
-| **tRPC** | No backend to call from frontend. |
-| **XState** | Overkill for doc site workflows. |
-| **Apollo / urql** | No GraphQL. |
-| **Rspack / Rsbuild / Turbopack** | Astro handles builds. No need for raw bundlers. |
-| **Styled Components / Vanilla Extract** | Tailwind v4 preferred. |
-| **Moment.js / Day.js** | No date manipulation needed. |
-| **Radash / Lodash-es** | Minimal utility needs. |
+| **Astro + Starlight** | Best docs framework, no equivalent in Solid ecosystem |
+| **SolidJS** | Already optimal (ADR-002) |
+| **Tailwind CSS v4** | Current, CSS-first config is the standard |
+| **Biome** | Fastest linter, replaces ESLint+Prettier |
+| **Vitest** | Vite-native, fast, good Solid support |
+| **Playwright** | Industry standard E2E |
+| **Bun** | Fast package manager |
+| **unplugin-icons** | Best icon solution |
+| **Kobalte** | Stable, accessible — migrate to corvu incrementally |
+| **Felte** | Community standard — add validator plugin |
+| **Cloudflare Pages** | Good deployment target |
 
-## Migration Decisions
+---
 
-### Decision 1: Keep Astro + SolidJS [ADOPTED]
+## 4. Migration Roadmap
 
-**Rationale:** Astro is ideal for content-heavy static sites. SolidJS handles interactivity perfectly. No reason to switch.
+### Phase 1: Foundation (Low Risk, High Value)
 
-**Alternatives considered:**
-- SolidStart: Would abandon Starlight. Massive rewrite for no gain.
-- Pure Astro (no SolidJS): FlashcardDeck and DiagnosticTest need fine-grained reactivity.
+**Duration:** 1-2 days
+**Risk:** Low
 
-### Decision 2: Adopt Tailwind CSS v4 [ADOPTED]
+| Task | Effort | Impact |
+|------|--------|--------|
+| Add `@felte/validator-zod` + Zod for form validation | Low | High |
+| Add `solid-sonner` for toast notifications | Low | High |
+| Add `@formkit/auto-animate` for list animations | Low | Medium |
+| Add `astro-seo` + `astro-seo-graph` for SEO | Low | High |
 
-**Rationale:** Replace 863-line custom CSS. CSS-first config. Design tokens migrate to `tailwind.config`. Rust engine = negligible build impact.
+**Verification:**
+- Flashcard settings form validates inputs
+- Toast appears on save/error
+- Flashcard list animates on reorder
+- SEO meta tags present on all pages
 
-**Migration path:**
-1. Install Tailwind v4
-2. Migrate CSS custom properties → Tailwind theme
-3. Replace custom component classes → utility classes
-4. Keep Starlight theme customization via CSS variables
+### Phase 2: Landing Page Migration (Medium Risk)
 
-### Decision 3: Adopt Biome [ADOPTED]
+**Duration:** 1-2 days
+**Risk:** Medium
 
-**Rationale:** Replace ESLint + Prettier. Single tool, 10x faster, zero config.
+| Task | Effort | Impact |
+|------|--------|--------|
+| Create `sites/main/` as Astro project | Medium | High |
+| Migrate HTML content to Astro components | Medium | High |
+| Replace inline CSS with Tailwind | Medium | High |
+| Add SEO meta tags | Low | High |
+| Update deploy workflow | Low | Medium |
 
-### Decision 4: Adopt Vitest [ADOPTED]
+**Verification:**
+- Landing page renders identically
+- Build succeeds
+- Deploy to Cloudflare Pages works
+- Lighthouse score maintained or improved
 
-**Rationale:** Unit tests for SolidJS components. Vitest works natively with Vite/Astro. Add component tests for FlashcardDeck, DiagnosticTest, PracticeProblem.
+### Phase 3: Component Library Expansion (Low Risk)
 
-### Decision 5: Adopt Solid Primitives [ADOPTED]
+**Duration:** 2-3 days
+**Risk:** Low
 
-**Rationale:** Mature, well-tested reactive utilities. Replace any hand-rolled hooks.
+| Task | Effort | Impact |
+|------|--------|--------|
+| Add corvu Dialog (replace Kobalte Dialog incrementally) | Low | Medium |
+| Add Solid Motion for dialog transitions | Low | Medium |
+| Add `solid-primitives/store` for flashcard state | Medium | High |
+| Refactor FlashcardDeck to use structured store | Medium | High |
 
-### Decision 6: Adopt Kobalte for Accessible UI [ADOPTED]
+**Verification:**
+- All existing component tests pass
+- New store-based flashcard persistence works
+- Dialog transitions are smooth
+- Bundle size impact measured
 
-**Rationale:** If adding interactive elements (modals, dropdowns), Kobalte provides accessible primitives. Avoid building from scratch.
+### Phase 4: Content Layer Migration (Medium Risk)
 
-### Decision 7: Adopt unplugin-icons [ADOPTED]
+**Duration:** 2-3 days
+**Risk:** Medium
 
-**Rationale:** Auto-import any icon set. Clean up inline SVGs.
+| Task | Effort | Impact |
+|------|--------|--------|
+| Create Content Layer loaders for each site | Medium | Medium |
+| Migrate content schemas to Content Layer API | Medium | Medium |
+| Update content queries | Medium | Medium |
+| Test all content renders correctly | Medium | High |
 
-### Decision 8: Adopt Felte for Forms [ADOPTED]
+**Verification:**
+- All content pages render
+- Type safety improved
+- Build times measured (should not regress)
+- Content hot-reload works
 
-**Rationale:** When forms are needed (contact, feedback), Felte is the SolidJS-native choice.
+### Phase 5: Advanced Interactions (Low Risk)
 
-## Migration Roadmap
+**Duration:** 1-2 days
+**Risk:** Low
 
-### Phase 1: Foundation (Week 1-2)
+| Task | Effort | Impact |
+|------|--------|--------|
+| Add `@tanstack/solid-virtual` for large flashcard lists | Low | Medium |
+| Add `solid-markdown` for dynamic content rendering | Low | Low |
+| Add `@solid-primitives/i18n` for i18n (replace current config) | Medium | Medium |
+| Standardize icon usage across all components | Low | Low |
 
-**Goal:** Modernize toolchain without changing functionality.
+**Verification:**
+- Large flashcard lists virtualize correctly
+- Markdown renders properly
+- i18n works for enabled locales
+- Icons consistent across all components
 
-| Task | Details | Effort |
-|------|---------|--------|
-| 1.1 Install Biome | Replace ESLint + Prettier. Configure in `biome.json`. | 1 day |
-| 1.2 Remove ESLint | Delete `.eslintrc`, `eslint.config.*`, related deps. | 0.5 day |
-| 1.3 Remove Prettier | Delete `.prettierrc`, related deps. | 0.5 day |
-| 1.4 Update CI/CD | Replace lint/format steps with Biome. | 0.5 day |
-| 1.5 Install Vitest | Add to root. Configure for SolidJS. | 0.5 day |
-| 1.6 Add Vitest config | `vitest.config.ts` with SolidJS transform. | 0.5 day |
-| 1.7 Write first component test | FlashcardDeck unit tests. | 1 day |
-| 1.8 Update pre-commit hooks | Husky → Biome format + Vitest. | 0.5 day |
+### Phase 6: Testing & Quality (Low Risk)
 
-**Deliverable:** Biome + Vitest operational. First component tests passing.
+**Duration:** 1 day
+**Risk:** Low
 
-### Phase 2: Styling Migration (Week 3-4)
+| Task | Effort | Impact |
+|------|--------|--------|
+| Add component tests for new components | Medium | High |
+| Update Playwright tests for landing page | Low | Medium |
+| Add visual regression tests for new UI | Low | Medium |
+| Update CI pipeline if needed | Low | Low |
 
-**Goal:** Migrate from custom CSS to Tailwind CSS v4.
+**Verification:**
+- All tests pass
+- Coverage maintained or improved
+- CI pipeline runs successfully
 
-| Task | Details | Effort |
-|------|---------|--------|
-| 2.1 Install Tailwind v4 | Add `@tailwindcss/vite` plugin. | 0.5 day |
-| 2.2 Create Tailwind config | Migrate design tokens (colors, fonts, spacing). | 1 day |
-| 2.3 Migrate Starlight theme | Keep `--sl-*` variables. Add Tailwind layer. | 1 day |
-| 2.4 Migrate flashcard CSS | Replace custom classes with Tailwind utilities. | 1 day |
-| 2.5 Migrate diagnostic test CSS | Replace custom classes with Tailwind utilities. | 1 day |
-| 2.6 Migrate practice problem CSS | Replace custom classes with Tailwind utilities. | 0.5 day |
-| 2.7 Migrate shared styles | `custom.css` → Tailwind `@layer` components. | 1 day |
-| 2.8 Update sync script | Ensure Tailwind config syncs to all sites. | 0.5 day |
-| 2.9 Verify dark mode | Test `[data-theme='dark']` with Tailwind. | 0.5 day |
-| 2.10 Verify print styles | Ensure print CSS still works. | 0.5 day |
-| 2.11 Verify reduced motion | Ensure `prefers-reduced-motion` works. | 0.5 day |
-| 2.12 Visual regression tests | Playwright screenshots for all components. | 1 day |
+---
 
-**Deliverable:** Tailwind v4 fully integrated. Custom CSS eliminated.
+## 5. Dependency Impact Summary
 
-### Phase 3: Component Enhancement (Week 5-6)
+### New Dependencies (Root)
 
-**Goal:** Upgrade components with modern libraries.
+```json
+{
+  "@felte/validator-zod": "^1.1.3",
+  "zod": "^3.24.0",
+  "solid-sonner": "^0.5.0",
+  "@formkit/auto-animate": "^0.8.2",
+  "astro-seo": "^0.2.0",
+  "@jdevalk/astro-seo-graph": "^0.1.0",
+  "@solid-primitives/store": "^3.0.0",
+  "corvu": "^0.5.0",
+  "solid-motion": "^0.1.0"
+}
+```
 
-| Task | Details | Effort |
-|------|---------|--------|
-| 3.1 Install Solid Primitives | Add `@solid-primitives/*` packages. | 0.5 day |
-| 3.2 Install Kobalte | Add `@kobalte/core` for accessible UI. | 0.5 day |
-| 3.3 Install unplugin-icons | Configure auto-import. | 0.5 day |
-| 3.4 Install Felte | Add form handling library. | 0.5 day |
-| 3.5 Refactor FlashcardDeck | Use Solid Primitives where applicable. | 1 day |
-| 3.6 Refactor DiagnosticTest | Use Solid Primitives where applicable. | 1 day |
-| 3.7 Add accessible dialogs | Kobalte modals for flashcard settings. | 1 day |
-| 3.8 Add icon system | Replace inline SVGs with unplugin-icons. | 1 day |
-| 3.9 Add form components | Contact/feedback forms with Felte. | 1 day |
-| 3.10 Add animations | Solid Motion or AutoAnimate for transitions. | 1 day |
+### New Dependencies (Per-site)
 
-**Deliverable:** Enhanced components with accessibility, icons, animations.
+```json
+{
+  "astro-seo": "^0.2.0",
+  "@jdevalk/astro-seo-graph": "^0.1.0"
+}
+```
 
-### Phase 4: Testing & Quality (Week 7-8)
+### Dependencies to Eventually Remove
 
-**Goal:** Comprehensive test coverage.
+- `@kobalte/core` — replaced by corvu (incremental)
+- `@felte/core` — replaced by full Felte with validator (upgrade, not remove)
 
-| Task | Details | Effort |
-|------|---------|--------|
-| 4.1 FlashcardDeck tests | Unit + integration tests. | 1 day |
-| 4.2 DiagnosticTest tests | Unit + integration tests. | 1 day |
-| 4.3 PracticeProblem tests | Unit + integration tests. | 1 day |
-| 4.4 SM-2 algorithm tests | Edge cases, state transitions. | 1 day |
-| 4.5 Storage module tests | localStorage mock, persistence. | 0.5 day |
-| 4.6 Sanitize module tests | XSS prevention, allowed tags. | 0.5 day |
-| 4.7 E2E test suite | Playwright for all interactive flows. | 2 days |
-| 4.8 Visual regression baseline | Screenshot comparison tests. | 1 day |
-| 4.9 CI integration | All tests in CI pipeline. | 0.5 day |
+---
 
-**Deliverable:** >90% component test coverage. E2E tests for all flows.
+## 6. Risk Assessment
 
-### Phase 5: Documentation & Cleanup (Week 9)
+| Phase | Risk Level | Mitigation |
+|-------|-----------|------------|
+| Phase 1 | Low | Additive changes only, no refactoring |
+| Phase 2 | Medium | Test landing page thoroughly, keep old version as fallback |
+| Phase 3 | Low | Incremental migration, keep Kobalte as fallback |
+| Phase 4 | Medium | Content Layer API is stable but migration touches all sites |
+| Phase 5 | Low | Additive changes, no breaking changes |
+| Phase 6 | Low | Tests are additive |
 
-**Goal:** Update docs, clean up legacy.
+---
 
-| Task | Details | Effort |
-|------|---------|--------|
-| 5.1 Update component docs | Document new APIs, props. | 1 day |
-| 5.2 Remove dead CSS | Delete unused custom CSS. | 0.5 day |
-| 5.3 Remove dead deps | Clean package.json across all sites. | 0.5 day |
-| 5.4 Update CONTRIBUTING.md | Reflect new toolchain. | 0.5 day |
-| 5.5 Performance audit | Lighthouse scores for all sites. | 1 day |
-| 5.6 Bundle analysis | Verify no size regression. | 0.5 day |
+## 7. Decision Required
 
-**Deliverable:** Clean codebase. Updated documentation. Performance baseline.
+**Primary Question:** Should we proceed with the full roadmap, or prioritize specific phases?
 
-## Risk Assessment
+**Recommended Approach:** Phased execution — start with Phase 1 (immediate value, zero risk), then assess before proceeding.
 
-| Risk | Mitigation | Impact |
-|------|------------|--------|
-| Tailwind conflicts with Starlight | Use `@layer` to isolate. Test early. | Medium |
-| Biome incompatibility | Biome covers 90%+ ESLint rules. Edge cases: keep ESLint for those. | Low |
-| Vitest + SolidJS JSX issues | Use `solid-js/vite` transform. | Low |
-| Kobalte bundle size | Tree-shake. Only import used components. | Low |
-| Sync script breaks | Test sync after each change. Add CI check. | Medium |
+**Alternative:** Skip Phases 3-5 if the current stack is "good enough" and focus only on Phase 1 (toasts, validation, SEO) and Phase 2 (landing page migration).
 
-## Success Metrics
+---
 
-| Metric | Before | Target |
-|--------|--------|--------|
-| CSS lines | 863 | <200 (Tailwind utilities) |
-| Linting speed | ~30s (ESLint) | ~2s (Biome) |
-| Test coverage | 0% (unit) | >90% (unit) |
-| Build time | Baseline | <10% increase |
-| Lighthouse score | Baseline | No regression |
-| Component accessibility | Manual | Automated (Kobalte) |
-
-## Appendix: Package Versions
-
-| Package | Version | Install Command |
-|---------|---------|-----------------|
-| tailwindcss | v4.x | `bun add -D tailwindcss @tailwindcss/vite` |
-| @biomejs/biome | Latest | `bun add -D @biomejs/biome` |
-| vitest | Latest | `bun add -D vitest` |
-| @solid-primitives/* | Latest | `bun add @solid-primitives/utils @solid-primitives/media` |
-| @kobalte/core | Latest | `bun add @kobalte/core` |
-| unplugin-icons | Latest | `bun add -D unplugin-icons` |
-| @felte/core | Latest | `bun add @felte/core` |
-| @formkit/auto-animate | Latest | `bun add @formkit/auto-animate` |
+*Analysis generated by Nexus — Principal Systems Architect*

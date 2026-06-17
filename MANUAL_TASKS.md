@@ -42,8 +42,11 @@ deploy normally; only the search index does not refresh.
 2. Enable for `wyattau.com` zone
 3. No code changes required (automatic injection)
 
-## Legacy Redirects
+## Legacy Redirects (resolved)
 
-1. Create Cloudflare Transform Rules for old subdomains
-2. Remove custom domains from old CF Pages projects
-3. Delete old projects after verification
+Legacy subdomain redirects are configured and verified:
+- alevel-maths-physics -> alevel.wyattau.com
+- alevel-sciences -> alevel.wyattau.com
+- academics -> university.wyattau.com
+
+Transform Rules are in place. No further action required.

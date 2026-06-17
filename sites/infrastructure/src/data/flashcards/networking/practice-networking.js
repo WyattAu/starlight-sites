@@ -8,21 +8,24 @@ export const practiceQuestions = [
     question: 'How many layers are in the OSI model?',
     options: ['4', '5', '7', '9'],
     correctAnswer: 2,
-    explanation: 'The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. Each layer provides services to the layer above.',
+    explanation:
+      'The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. Each layer provides services to the layer above.',
     difficulty: 'easy',
   },
   {
     question: 'Which protocol is used for reliable, ordered data delivery?',
     options: ['UDP', 'TCP', 'ICMP', 'ARP'],
     correctAnswer: 1,
-    explanation: 'TCP (Transmission Control Protocol) provides reliable, ordered, error-checked delivery. UDP is connectionless and does not guarantee delivery or ordering.',
+    explanation:
+      'TCP (Transmission Control Protocol) provides reliable, ordered, error-checked delivery. UDP is connectionless and does not guarantee delivery or ordering.',
     difficulty: 'easy',
   },
   {
     question: 'What is the default port for HTTPS?',
     options: ['80', '443', '8080', '22'],
     correctAnswer: 1,
-    explanation: 'HTTPS uses port 443 by default. HTTP uses port 80. Port 8080 is commonly used for development servers, and port 22 is for SSH.',
+    explanation:
+      'HTTPS uses port 443 by default. HTTP uses port 80. Port 8080 is commonly used for development servers, and port 22 is for SSH.',
     difficulty: 'easy',
   },
   {
@@ -34,14 +37,16 @@ export const practiceQuestions = [
       'Ports to services',
     ],
     correctAnswer: 1,
-    explanation: 'DNS (Domain Name System) translates human-readable domain names (like example.com) to IP addresses (like 93.184.216.34) that computers use to communicate.',
+    explanation:
+      'DNS (Domain Name System) translates human-readable domain names (like example.com) to IP addresses (like 93.184.216.34) that computers use to communicate.',
     difficulty: 'easy',
   },
   {
     question: 'How many usable IP addresses are in a /24 subnet?',
     options: ['254', '255', '256', '252'],
     correctAnswer: 0,
-    explanation: 'A /24 subnet has 256 total addresses. The first (network address) and last (broadcast address) are reserved, leaving 254 usable host addresses.',
+    explanation:
+      'A /24 subnet has 256 total addresses. The first (network address) and last (broadcast address) are reserved, leaving 254 usable host addresses.',
     difficulty: 'easy',
   },
   {
@@ -53,7 +58,8 @@ export const practiceQuestions = [
       'To assign IP addresses',
     ],
     correctAnswer: 1,
-    explanation: 'A firewall monitors and filters network traffic based on security rules. It can block unauthorized access while allowing legitimate communications.',
+    explanation:
+      'A firewall monitors and filters network traffic based on security rules. It can block unauthorized access while allowing legitimate communications.',
     difficulty: 'easy',
   },
   {
@@ -65,7 +71,8 @@ export const practiceQuestions = [
       'TCP is for audio, UDP is for text',
     ],
     correctAnswer: 1,
-    explanation: 'TCP provides reliable, ordered delivery with flow control and congestion control, but has higher overhead. UDP is connectionless, faster, but does not guarantee delivery.',
+    explanation:
+      'TCP provides reliable, ordered delivery with flow control and congestion control, but has higher overhead. UDP is connectionless, faster, but does not guarantee delivery.',
     difficulty: 'easy',
   },
   {
@@ -77,7 +84,8 @@ export const practiceQuestions = [
       'A wireless LAN adapter',
     ],
     correctAnswer: 0,
-    explanation: 'A VLAN (Virtual Local Area Network) logically segments a physical network into separate broadcast domains, improving security and performance without physical rewiring.',
+    explanation:
+      'A VLAN (Virtual Local Area Network) logically segments a physical network into separate broadcast domains, improving security and performance without physical rewiring.',
     difficulty: 'medium',
   },
   {
@@ -89,26 +97,24 @@ export const practiceQuestions = [
       'Network Alarm Trigger - sends alerts',
     ],
     correctAnswer: 0,
-    explanation: 'NAT (Network Address Translation) translates private IP addresses to public IP addresses, allowing multiple devices on a private network to share a single public IP.',
+    explanation:
+      'NAT (Network Address Translation) translates private IP addresses to public IP addresses, allowing multiple devices on a private network to share a single public IP.',
     difficulty: 'medium',
   },
   {
     question: 'What HTTP status code means "Not Found"?',
     options: ['200', '301', '404', '500'],
     correctAnswer: 2,
-    explanation: 'HTTP 404 indicates the requested resource could not be found. 200 is OK, 301 is Moved Permanently (redirect), and 500 is Internal Server Error.',
+    explanation:
+      'HTTP 404 indicates the requested resource could not be found. 200 is OK, 301 is Moved Permanently (redirect), and 500 is Internal Server Error.',
     difficulty: 'easy',
   },
   {
     question: 'What is the three-way handshake in TCP?',
-    options: [
-      'SYN, ACK, FIN',
-      'SYN, SYN-ACK, ACK',
-      'ACK, DATA, FIN',
-      'SYN, DATA, ACK',
-    ],
+    options: ['SYN, ACK, FIN', 'SYN, SYN-ACK, ACK', 'ACK, DATA, FIN', 'SYN, DATA, ACK'],
     correctAnswer: 1,
-    explanation: 'TCP connection establishment uses SYN (client initiates), SYN-ACK (server acknowledges), ACK (client confirms). This establishes a reliable connection.',
+    explanation:
+      'TCP connection establishment uses SYN (client initiates), SYN-ACK (server acknowledges), ACK (client confirms). This establishes a reliable connection.',
     difficulty: 'medium',
   },
   {
@@ -120,7 +126,8 @@ export const practiceQuestions = [
       'A proxy that blocks all traffic',
     ],
     correctAnswer: 0,
-    explanation: 'A reverse proxy sits in front of backend servers, forwarding client requests. It provides load balancing, SSL termination, caching, and security.',
+    explanation:
+      'A reverse proxy sits in front of backend servers, forwarding client requests. It provides load balancing, SSL termination, caching, and security.',
     difficulty: 'medium',
   },
 ]

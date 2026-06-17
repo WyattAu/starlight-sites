@@ -11,6 +11,10 @@
  */
 
 import { createEffect, createMemo, createSignal, For, onCleanup } from 'solid-js'
+import { toast } from 'solid-sonner'
+import { t } from '../i18n/config'
+// biome-ignore lint/correctness/noUnusedImports: used via use:animate directive
+import { animate } from '../utils/animate'
 import { MASTERY_COLORS, MASTERY_LABELS, RATING_CONFIG, type View } from './flashcard/constants'
 import {
   applySM2,
@@ -183,7 +187,10 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     return sum / props.cards.length
   })
 
-  const streak = createMemo(() => (getDeckData() ? calculateStreak(getDeckData()!) : 0))
+  const streak = createMemo(() => {
+    const data = getDeckData()
+    return data ? calculateStreak(data) : 0
+  })
   const totalReviews = createMemo(() => getDeckData()?.reviewHistory.length ?? 0)
 
   const persistData = (next: DeckData) => {
@@ -208,7 +215,8 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     const newState = applySM2(prevState, rating, Date.now())
     const entry = { cardId, rating, timestamp: Date.now() }
     const lastStudyDate = Date.now()
-    const prevStreak = getDeckData() ? calculateStreak(getDeckData()!) : 0
+    const data = getDeckData()
+    const prevStreak = data ? calculateStreak(data) : 0
     const lastDate = getDeckData()?.lastStudyDate
       ? new Date(getDeckData()?.lastStudyDate).toDateString()
       : ''
@@ -236,6 +244,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const handleReset = () => {
     persistData({ cardStates: {}, reviewHistory: [], lastStudyDate: null, streak: 0 })
     setView('deck')
+    toast.success('Deck reset')
   }
 
   const handleExport = () => {
@@ -252,6 +261,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     a.download = `${props.deckId}-progress.json`
     a.click()
     URL.revokeObjectURL(url)
+    toast.success('Progress exported')
   }
 
   const handleImport = () => {
@@ -265,9 +275,14 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       reader.onload = () => {
         try {
           const data = JSON.parse(reader.result as string) as DeckData
-          if (data.cardStates) persistData(data)
+          if (data.cardStates) {
+            persistData(data)
+            toast.success('Progress imported')
+          } else {
+            toast.error('Invalid progress file')
+          }
         } catch {
-          /* invalid JSON */
+          toast.error('Failed to parse file')
         }
       }
       reader.readAsText(file)
@@ -300,7 +315,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
         aria-label="Flashcard deck empty"
         class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 text-center font-sans text-base"
       >
-        No cards in this deck.
+        {t('flashcard.empty')}
       </div>
     )
   }
@@ -319,17 +334,17 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           )}
 
           <div class="mb-4 flex flex-wrap justify-center gap-3">
-            <StatBox label="Total Cards" value={props.cards.length} />
+            <StatBox label={t('flashcard.total_cards')} value={props.cards.length} />
             <StatBox
-              label="Due Today"
+              label={t('flashcard.due_today')}
               value={dueCards().length}
               highlight={dueCards().length > 0}
             />
-            <StatBox label="Mastered" value={masteredCount()} />
-            <StatBox label="Streak" value={`${streak()}d`} />
+            <StatBox label={t('flashcard.mastered')} value={masteredCount()} />
+            <StatBox label={t('flashcard.streak')} value={`${streak()}d`} />
           </div>
 
-          <div class="mb-5 flex flex-wrap justify-center gap-2">
+          <div class="mb-5 flex flex-wrap justify-center gap-2" use:animate>
             <For each={Object.entries(masteryBreakdown())}>
               {([level, count]) => (
                 <span
@@ -344,7 +359,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
           <div class="mx-auto mt-3 w-full max-w-[520px]">
             <div class="mb-1 flex justify-between text-xs">
-              <span>Mastery</span>
+              <span>{t('flashcard.mastery')}</span>
               <span>{masteryPercent()}%</span>
             </div>
             <div class="h-2 rounded bg-emphasis-200">
@@ -357,13 +372,13 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
           <div class="mt-5 flex flex-wrap justify-center gap-2.5">
             <ActionButton
-              label="Study Now"
+              label={t('flashcard.study_now')}
               disabled={dueCards().length === 0}
               onClick={startReview}
               primary
             />
-            <ActionButton label="Stats" onClick={() => setView('stats')} />
-            <ActionButton label="Settings" onClick={() => setView('settings')} />
+            <ActionButton label={t('flashcard.stats')} onClick={() => setView('stats')} />
+            <ActionButton label={t('flashcard.settings')} onClick={() => setView('settings')} />
           </div>
         </div>
       )}
@@ -371,7 +386,10 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       {getView() === 'review' && (
         <div>
           <div class="mb-3 text-center text-emphasis-700 text-sm">
-            Card {getCurrentIndex() + 1} of {getDueQueue().length}
+            {t('flashcard.card_of', {
+              current: String(getCurrentIndex() + 1),
+              total: String(getDueQueue().length),
+            })}
           </div>
 
           <div class="mx-auto w-full max-w-[520px]" style={{ perspective: '1000px' }}>
@@ -401,7 +419,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
               }}
             >
               <div class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6">
-                <div class="mb-2 text-emphasis-500 text-xs">QUESTION</div>
+                <div class="mb-2 text-emphasis-500 text-xs">{t('flashcard.question')}</div>
                 <div class="text-center font-semibold text-lg leading-relaxed">
                   {currentCard()?.front}
                 </div>
@@ -410,7 +428,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
                 class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6"
                 style={{ transform: 'rotateY(180deg)' }}
               >
-                <div class="mb-2 text-emphasis-500 text-xs">ANSWER</div>
+                <div class="mb-2 text-emphasis-500 text-xs">{t('flashcard.answer')}</div>
                 <div class="text-center font-semibold text-lg leading-relaxed">
                   {currentCard()?.back}
                 </div>
@@ -439,7 +457,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
                 setDueQueue([])
               }}
             >
-              Exit Review
+              {t('flashcard.exit_review')}
             </button>
           </div>
         </div>
@@ -447,19 +465,19 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
       {getView() === 'stats' && (
         <div class="text-center">
-          <h3 class="mt-0 mb-4 font-semibold text-base">Statistics</h3>
+          <h3 class="mt-0 mb-4 font-semibold text-base">{t('flashcard.stats')}</h3>
           <div class="mb-6 flex flex-wrap justify-center gap-3">
-            <StatBox label="Cards Mastered" value={masteredCount()} />
+            <StatBox label={t('flashcard.mastered')} value={masteredCount()} />
             <StatBox
-              label="Cards Learning"
+              label="Learning"
               value={masteryBreakdown().learning + masteryBreakdown().review}
             />
-            <StatBox label="Cards New" value={masteryBreakdown().new} />
-            <StatBox label="Review Streak" value={`${streak()} days`} />
+            <StatBox label="New" value={masteryBreakdown().new} />
+            <StatBox label={t('flashcard.streak')} value={`${streak()} days`} />
             <StatBox label="Total Reviews" value={totalReviews()} />
             <StatBox label="Avg Ease Factor" value={avgEase().toFixed(2)} />
           </div>
-          <div class="mb-6 flex flex-wrap justify-center gap-2">
+          <div class="mb-6 flex flex-wrap justify-center gap-2" use:animate>
             <For each={Object.entries(masteryBreakdown())}>
               {([level, count]) => (
                 <span
@@ -481,15 +499,15 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           onOpenChange={open => {
             if (!open) setView('deck')
           }}
-          title="Settings"
+          title={t('settings.title')}
         >
           <div class="flex flex-col gap-3">
-            <ActionButton label="Export Progress" onClick={handleExport} />
-            <ActionButton label="Import Progress" onClick={handleImport} />
-            <ActionButton label="Reset Deck" onClick={handleReset} danger />
+            <ActionButton label={t('flashcard.export')} onClick={handleExport} />
+            <ActionButton label={t('flashcard.import')} onClick={handleImport} />
+            <ActionButton label={t('flashcard.reset')} onClick={handleReset} danger />
           </div>
           <div class="mt-5">
-            <ActionButton label="Close" onClick={() => setView('deck')} />
+            <ActionButton label={t('flashcard.close')} onClick={() => setView('deck')} />
           </div>
         </SettingsDialog>
       )}

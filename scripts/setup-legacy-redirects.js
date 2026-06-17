@@ -30,18 +30,20 @@ async function createRedirect(from, to) {
     {
       method: 'PUT',
       headers: {
-        'Authorization': `Bearer ${API_TOKEN}`,
+        Authorization: `Bearer ${API_TOKEN}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        rules: [{
-          expression: `(http.host eq "${from}")`,
-          action: 'rewrite',
-          action_parameters: {
-            uri: { value: to },
+        rules: [
+          {
+            expression: `(http.host eq "${from}")`,
+            action: 'rewrite',
+            action_parameters: {
+              uri: { value: to },
+            },
+            description: `Redirect ${from} to ${to}`,
           },
-          description: `Redirect ${from} to ${to}`,
-        }],
+        ],
       }),
     },
   )
