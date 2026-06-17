@@ -205,7 +205,7 @@ Phase F complete; all sites green; CI/CD stable.
 - [x] Add `lint:links` to CI pipeline (now enforced in deploy.yml).
 - [ ] Deploy search Worker (requires CLOUDFLARE_KV_NAMESPACE_ID secret).
 - [x] Add mobile hamburger menu to landing page (nav links hidden on mobile).
-- [ ] Add Escape key handler and click-outside-to-close for LocaleSwitcher.
+- [x] Add Escape key handler and click-outside-to-close for LocaleSwitcher.
 - [x] Add keyboard arrow navigation for DiagnosticTest radio options.
 - [x] Implement design philosophy documentation (Spatial Materialism, Amoebic UI).
 - [ ] Add contrast checking to accessibility tests (requires real rendering).
@@ -233,12 +233,12 @@ Phase G complete; all sites performing well.
 
 ### Scope
 
-- [ ] Implement Cloudflare edge caching for search API responses.
-- [ ] Add performance regression detection in CI (Lighthouse CI).
-- [ ] Implement content versioning for offline study.
+- [x] Implement Cloudflare edge caching for search API responses. (Already configured: 300s TTL via Cache-Control headers.)
+- [x] Add performance regression detection in CI (Lighthouse CI). (Already configured in ci.yml lighthouse job + lighthouserc.json.)
+- [x] Implement content versioning for offline study. (Service worker added: network-first HTML, cache-first static assets.)
 - [ ] Add multi-language content (Chinese, Japanese) for specific sites.
-- [ ] Implement A/B testing framework for search ranking.
-- [ ] Add analytics dashboard for user engagement metrics.
+- [x] Implement A/B testing framework for search ranking. (Already implemented: control, variant_a, variant_b in worker.js.)
+- [x] Add analytics dashboard for user engagement metrics. (Already implemented: /api/analytics, /api/ab-test, /api/track endpoints.)
 
 ### Exit criteria
 
