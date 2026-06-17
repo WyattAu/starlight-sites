@@ -15,24 +15,73 @@ export interface LocaleSwitcherProps {
 
 export default function LocaleSwitcher(props: LocaleSwitcherProps) {
   const [isOpen, setIsOpen] = createSignal(false)
+  const [focusedIndex, setFocusedIndex] = createSignal(-1)
   const enabledLocales = () => locales.filter(l => l.enabled)
   const currentLocale = () =>
     enabledLocales().find(l => l.code === (props.currentLocale ?? 'en')) ?? enabledLocales()[0]
 
   let containerRef: HTMLDivElement | undefined
+  let triggerRef: HTMLButtonElement | undefined
+  const optionRefs: HTMLButtonElement[] = []
 
   function handleSelect(locale: Locale) {
     props.onLocaleChange?.(locale.code)
     setIsOpen(false)
+    setFocusedIndex(-1)
+    triggerRef?.focus()
   }
 
-  // Escape key closes dropdown
+  // Keyboard navigation: Escape, ArrowUp, ArrowDown, Enter
   function handleKeyDown(e: KeyboardEvent) {
-    if (e.key === 'Escape' && isOpen()) {
-      e.preventDefault()
-      setIsOpen(false)
+    if (!isOpen()) {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault()
+        setIsOpen(true)
+        setFocusedIndex(0)
+      }
+      return
+    }
+
+    const count = enabledLocales().length
+
+    switch (e.key) {
+      case 'Escape':
+        e.preventDefault()
+        setIsOpen(false)
+        setFocusedIndex(-1)
+        triggerRef?.focus()
+        break
+      case 'ArrowDown':
+        e.preventDefault()
+        setFocusedIndex(prev => (prev + 1) % count)
+        break
+      case 'ArrowUp':
+        e.preventDefault()
+        setFocusedIndex(prev => (prev - 1 + count) % count)
+        break
+      case 'Enter':
+      case ' ':
+        e.preventDefault()
+        if (focusedIndex() >= 0) {
+          handleSelect(enabledLocales()[focusedIndex()])
+        }
+        break
+      case 'Tab':
+        setIsOpen(false)
+        setFocusedIndex(-1)
+        break
+      default:
+        break
     }
   }
+
+  // Focus the option when focusedIndex changes
+  createEffect(() => {
+    const idx = focusedIndex()
+    if (idx >= 0 && optionRefs[idx]) {
+      optionRefs[idx]?.focus()
+    }
+  })
 
   // Click outside closes dropdown
   createEffect(() => {
@@ -61,6 +110,9 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
     >
       <button
         type="button"
+        ref={el => {
+          triggerRef = el
+        }}
         onClick={() => setIsOpen(!isOpen())}
         class="flex items-center gap-1.5 rounded-lg border border-emphasis-300 bg-surface px-3 py-1.5 font-medium text-emphasis-700 text-sm transition-colors hover:bg-emphasis-100"
         aria-label="Select language"
@@ -100,12 +152,27 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
           aria-label="Available languages"
         >
           <For each={enabledLocales()}>
-            {locale => (
+            {(locale, i) => (
               <button
                 type="button"
+                ref={el => {
+                  optionRefs[i()] = el
+                }}
                 role="option"
                 aria-selected={locale.code === currentLocale().code}
+                tabIndex={focusedIndex() === i() ? 0 : -1}
                 onClick={() => handleSelect(locale)}
+                onKeyDown={e => {
+                  if (e.key === 'ArrowDown') {
+                    e.preventDefault()
+                    setFocusedIndex(prev => (prev + 1) % enabledLocales().length)
+                  } else if (e.key === 'ArrowUp') {
+                    e.preventDefault()
+                    setFocusedIndex(
+                      prev => (prev - 1 + enabledLocales().length) % enabledLocales().length,
+                    )
+                  }
+                }}
                 class={`flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-emphasis-100 ${
                   locale.code === currentLocale().code
                     ? 'bg-accent/10 text-accent'

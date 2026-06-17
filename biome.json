@@ -155,6 +155,9 @@
           },
           "correctness": {
             "noUnusedVariables": "off"
+          },
+          "style": {
+            "useDefaultSwitchClause": "off"
           }
         }
       }
