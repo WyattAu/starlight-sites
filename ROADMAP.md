@@ -193,7 +193,7 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 
 ---
 
-## Phase G: Hardening and polish (next)
+## Phase G: Hardening and polish (in progress)
 
 ### Entry criteria
 
@@ -201,16 +201,22 @@ Phase F complete; all sites green; CI/CD stable.
 
 ### Scope
 
-- [ ] Consolidate QuestionDialog and ResultsDialog (identical wrappers).
-- [ ] Add `lint:links` to CI pipeline (currently not enforced).
+- [x] Consolidate QuestionDialog and ResultsDialog (identical wrappers).
+- [x] Add `lint:links` to CI pipeline (now enforced in deploy.yml).
 - [ ] Deploy search Worker (requires CLOUDFLARE_KV_NAMESPACE_ID secret).
-- [ ] Add mobile hamburger menu to landing page (nav links hidden on mobile).
+- [x] Add mobile hamburger menu to landing page (nav links hidden on mobile).
 - [ ] Add Escape key handler and click-outside-to-close for LocaleSwitcher.
-- [ ] Add keyboard arrow navigation for DiagnosticTest radio options.
-- [ ] Implement design philosophy documentation (Spatial Materialism, Amoebic UI).
+- [x] Add keyboard arrow navigation for DiagnosticTest radio options.
+- [x] Implement design philosophy documentation (Spatial Materialism, Amoebic UI).
 - [ ] Add contrast checking to accessibility tests (requires real rendering).
-- [ ] Retire IMPROVEMENTS.md (fold into ROADMAP or remove).
-- [ ] Remove duplicate `test:unit` script (already removed).
+- [x] Retire IMPROVEMENTS.md (folded into ROADMAP or removed).
+- [x] Remove duplicate `test:unit` script (already removed).
+- [x] Extract shared utilities (escapeHtml, formatTime) to DRY codebase.
+- [x] Remove dead code (DIFFICULTY_COLORS, duplicate MasteryLevel type).
+- [x] Consolidate DiagnosticTest color usage to shared COLORS constant.
+- [x] Fix broken links in content files (10 example URLs in code blocks).
+- [x] Add coverage/ to .gitignore and biome excludes.
+- [x] Add @vitest/coverage-v8 dependency for coverage reporting.
 
 ### Exit criteria
 
@@ -265,6 +271,8 @@ Lighthouse performance >= 95 on all sites; warm TTFB < 500ms; search latency < 2
 | HTTPS certificates | all valid through Aug-Sep 2026 | valid |
 | Search API | healthy, 2013 entries indexed | healthy |
 | Accessibility | axe-core tests pass, keyboard nav restored | zero violations |
+| Dead code | removed (DIFFICULTY_COLORS, duplicate types) | zero |
+| DRY violations | consolidated (escapeHtml, formatTime, colors) | zero |
 
 ---
 
@@ -278,6 +286,9 @@ Lighthouse performance >= 95 on all sites; warm TTFB < 500ms; search latency < 2
 | 2026-06-17 | Add @vitest/coverage-v8 dependency | Enable V8 coverage reporting for vitest test suite |
 | 2026-06-17 | Fix broken links in content files | Link linter flagged 10 example URLs in code blocks; converted to absolute URLs |
 | 2026-06-17 | Add biome override for landing page CSS specificity | noDescendingSpecificity false positive on unrelated selectors |
+| 2026-06-17 | Remove DIFFICULTY_COLORS (dead code) | Exported but never used in any component |
+| 2026-06-17 | Remove duplicate MasteryLevel type from colors.ts | Canonical source defined in flashcard/sm2.ts |
+| 2026-06-17 | DiagnosticTest.tsx: use COLORS from shared/utils/colors.ts | Eliminates hardcoded hex values; single source of truth |
 | 2026-06-17 | ci.yml scoped to PRs only | Eliminate double quality gate run on push to main (ci.yml + deploy.yml gate job) |
 | 2026-06-17 | Correct MASTERY_COLORS mapping | learning=orange, review=blue was swapped; align colors.ts with flashcard/constants.ts |
 | 2026-06-17 | Add runtime invariant assertions to SM-2 | Provable correctness for safety-critical spaced repetition algorithm |
