@@ -52,6 +52,9 @@ jobs:
       - name: Shared-asset integrity
         run: node scripts/sync-shared.mjs --check
 
+      - name: Link validation
+        run: node scripts/lint-links.js
+
       - name: Unit + integration tests
         run: node --test tests/unit/*.test.js tests/integration/*.test.js
 

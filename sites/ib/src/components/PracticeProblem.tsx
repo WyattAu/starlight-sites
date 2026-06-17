@@ -2,7 +2,6 @@ import { createEffect, createSignal } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { sanitizeHtml } from '../utils/sanitize'
 import QuestionDialog from './QuestionDialog'
-import ResultsDialog from './ResultsDialog'
 
 export interface PracticeQuestionData {
   question: string
@@ -184,7 +183,7 @@ function PracticeProblemItem(props: {
       </div>
 
       {submitted() && (
-        <ResultsDialog
+        <QuestionDialog
           open={submitted()}
           onOpenChange={open => {
             if (!open) {
@@ -204,7 +203,7 @@ function PracticeProblemItem(props: {
             </strong>
             <div class="mt-2 leading-relaxed" innerHTML={sanitizeHtml(props.explanation)} />
           </div>
-        </ResultsDialog>
+        </QuestionDialog>
       )}
     </QuestionDialog>
   )

@@ -51,6 +51,9 @@ jobs:
       - name: Shared-asset integrity (sites must match canonical shared/ source)
         run: node scripts/sync-shared.mjs --check
 
+      - name: Link validation
+        run: node scripts/lint-links.js
+
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -144,8 +147,22 @@ jobs:
             echo "$large"
           fi
 
+  lighthouse:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: ./lighthouserc.json
+          uploadArtifacts: true
+
   summary:
-    needs: [lint, test, build]
+    needs: [lint, test, build, lighthouse]
     runs-on: ubuntu-latest
     if: always()
     steps:
@@ -155,6 +172,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Stage | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
-          echo "| Lint (content + config + no-emoji + sync) | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Lint (content + config + no-emoji + sync + links) | ${{ needs.lint.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Test (unit + integration + Vitest) | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Build (9 sites) | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Lighthouse (performance) | ${{ needs.lighthouse.result }} |" >> $GITHUB_STEP_SUMMARY

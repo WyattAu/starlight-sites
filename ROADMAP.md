@@ -48,14 +48,15 @@ cannot be automated from the repository.
 | Component | Module | Lines | Status |
 |-----------|--------|-------|--------|
 | BaseDialog.tsx | shared | ~40 | Reusable dialog shell |
-| QuestionDialog.tsx | shared | ~15 | Wraps BaseDialog (size=lg) |
-| ResultsDialog.tsx | shared | ~15 | Wraps BaseDialog (size=lg) |
-| SettingsDialog.tsx | shared | ~15 | Wraps BaseDialog (size=md) |
+| QuestionDialog.tsx | shared | ~13 | Wraps BaseDialog (size=lg); also used for results |
+| SettingsDialog.tsx | shared | ~13 | Wraps BaseDialog (size=md) |
 | PracticeProblem.tsx | self-contained | ~206 | CSS-class based, keyboard navigable |
 | FlashcardDeck.tsx | flashcard/{sm2,storage,constants}.ts | ~470 | SM-2 spaced repetition |
 | DiagnosticTest.tsx | self-contained | ~446 | Adaptive assessment |
 | DesmosGraph.tsx | self-contained | ~238 | Desmos embed |
 | PhetSimulation.tsx | self-contained | ~74 | PhET embed |
+| LocaleSwitcher.tsx | self-contained | ~94 | Language switching with keyboard nav |
+| ToastProvider.tsx | self-contained | ~20 | Toast notification wrapper |
 
 Inline-style status: PracticeProblem is fully class-based. FlashcardDeck and
 DiagnosticTest retain dynamic inline styles where a value is computed at runtime

@@ -5,7 +5,7 @@
  * Uses the i18n config to determine available locales.
  */
 
-import { createSignal, For, Show } from 'solid-js'
+import { createEffect, createSignal, For, onCleanup, Show } from 'solid-js'
 import { type Locale, locales } from '../i18n/config'
 
 export interface LocaleSwitcherProps {
@@ -19,16 +19,46 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
   const currentLocale = () =>
     enabledLocales().find(l => l.code === (props.currentLocale ?? 'en')) ?? enabledLocales()[0]
 
+  let containerRef: HTMLDivElement | undefined
+
   function handleSelect(locale: Locale) {
     props.onLocaleChange?.(locale.code)
     setIsOpen(false)
   }
 
+  // Escape key closes dropdown
+  function handleKeyDown(e: KeyboardEvent) {
+    if (e.key === 'Escape' && isOpen()) {
+      e.preventDefault()
+      setIsOpen(false)
+    }
+  }
+
+  // Click outside closes dropdown
+  createEffect(() => {
+    if (!isOpen()) return
+    const handleClickOutside = (e: MouseEvent) => {
+      if (containerRef && !containerRef.contains(e.target as Node)) {
+        setIsOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    onCleanup(() => document.removeEventListener('mousedown', handleClickOutside))
+  })
+
   // Don't render if only one locale is enabled
   if (enabledLocales().length <= 1) return null
 
   return (
-    <div class="relative">
+    <div
+      class="relative"
+      ref={el => {
+        containerRef = el
+      }}
+      onKeyDown={handleKeyDown}
+      role="region"
+      aria-label="Language selection"
+    >
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen())}

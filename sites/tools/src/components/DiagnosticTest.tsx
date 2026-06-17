@@ -9,7 +9,6 @@ import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'so
 import { t } from '../i18n/config'
 import { sanitizeHtml } from '../utils/sanitize'
 import QuestionDialog from './QuestionDialog'
-import ResultsDialog from './ResultsDialog'
 
 export interface DiagnosticQuestion {
   id: string
@@ -210,6 +209,23 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
     if (!getSubmitted()) setSelected(index)
   }
 
+  const handleRadioKeyDown = (e: KeyboardEvent) => {
+    if (getSubmitted()) return
+    const q = currentQuestion()
+    if (!q) return
+    const options = q.options
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+      e.preventDefault()
+      setSelected(prev => (prev === null ? 0 : Math.min(prev + 1, options.length - 1)))
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault()
+      setSelected(prev => (prev === null ? options.length - 1 : Math.max(prev - 1, 0)))
+    } else if (e.key === 'Enter' && getSelected() !== null) {
+      e.preventDefault()
+      handleSubmit()
+    }
+  }
+
   const handleSubmit = () => {
     const sel = getSelected()
     const q = currentQuestion()
@@ -266,7 +282,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   if (getShowResults() && result()) {
     const r = result() as NonNullable<ReturnType<typeof result>>
     return (
-      <ResultsDialog
+      <QuestionDialog
         open={getShowResults()}
         onOpenChange={open => {
           if (!open) {
@@ -362,7 +378,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
             </div>
           </div>
         </Show>
-      </ResultsDialog>
+      </QuestionDialog>
     )
   }
 
@@ -384,7 +400,12 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
 
       <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
 
-      <div class="mb-5 flex flex-col gap-2" role="radiogroup" aria-label="Answer options">
+      <div
+        class="mb-5 flex flex-col gap-2"
+        role="radiogroup"
+        aria-label="Answer options"
+        onKeyDown={handleRadioKeyDown}
+      >
         <For each={q.options}>
           {(opt, i) => (
             <button
