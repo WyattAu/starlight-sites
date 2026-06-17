@@ -99,13 +99,13 @@ Never edit per-site copies directly; they are regenerated.
 ## Testing
 
 ```bash
-bun run test:unit         # Vitest component tests (SolidJS components)
+bun run test:components   # Vitest component tests (SolidJS components)
 bun run test:legacy       # Node built-in unit + integration tests
 bun run test:integration  # integration tests (repo structure, CI/CD config)
 bun run test:gui dse      # GUI DOM + accessibility snapshot for one site
 bun run test:gui --all    # all sites (optional PNG screenshots if Playwright present)
 bun run test:e2e          # Playwright end-to-end tests
-bun run test              # unit + legacy tests (177 tests)
+bun run test              # component + legacy tests (177 tests)
 bun run test:coverage     # Vitest with V8 coverage report
 ```
 
@@ -141,12 +141,11 @@ out of scope as legitimate notation.
 
 Four GitHub Actions workflows:
 
-- **ci.yml** -- On push/PR to main: Biome lint, no-emoji lint, content/config
+- **ci.yml** -- On PR to main: Biome lint, no-emoji lint, content/config
   validation, shared-asset integrity, unit + integration + Vitest tests, and a
   build matrix across all nine sites.
-- **deploy.yml** -- On push to main: a gate job (the full quality suite) must
-  pass before any site, the landing page, or the search index is deployed to
-  Cloudflare Pages.
+- **deploy.yml** -- On push to main: full quality gate (lint + tests) followed
+  by deployment of all sites, the landing page, and search index to Cloudflare Pages.
 - **preview.yml** -- On PR to main: builds and deploys preview versions of all
   sites to Cloudflare Pages, posts preview URL as PR comment.
 - **uptime.yml** -- Scheduled every six hours: probes every site and opens an

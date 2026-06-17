@@ -16,10 +16,14 @@ export const DIFFICULTY_COLORS = {
   hard: COLORS.error,
 } as const
 
+/**
+ * MASTERY_COLORS -- Canonical definitions.
+ * Note: learning=orange, review=blue (matches flashcard/constants.ts).
+ */
 export const MASTERY_COLORS = {
   new: '#95a5a6',
-  learning: COLORS.info,
-  review: COLORS.warning,
+  learning: COLORS.warning,
+  review: COLORS.info,
   mastered: COLORS.success,
 } as const
 

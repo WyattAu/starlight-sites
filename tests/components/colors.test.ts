@@ -37,8 +37,8 @@ describe('colors module', () => {
   describe('MASTERY_COLORS', () => {
     it('should map mastery levels to colors', () => {
       expect(MASTERY_COLORS.new).toBe('#95a5a6')
-      expect(MASTERY_COLORS.learning).toBe(COLORS.info)
-      expect(MASTERY_COLORS.review).toBe(COLORS.warning)
+      expect(MASTERY_COLORS.learning).toBe(COLORS.warning)
+      expect(MASTERY_COLORS.review).toBe(COLORS.info)
       expect(MASTERY_COLORS.mastered).toBe(COLORS.success)
     })
 
@@ -81,10 +81,10 @@ describe('colors module', () => {
     it('should have progressive mastery colors', () => {
       // New is gray (neutral)
       expect(MASTERY_COLORS.new).toBe('#95a5a6')
-      // Learning is blue (info)
-      expect(MASTERY_COLORS.learning).toBe(COLORS.info)
-      // Review is orange (warning)
-      expect(MASTERY_COLORS.review).toBe(COLORS.warning)
+      // Learning is orange (warning)
+      expect(MASTERY_COLORS.learning).toBe(COLORS.warning)
+      // Review is blue (info)
+      expect(MASTERY_COLORS.review).toBe(COLORS.info)
       // Mastered is green (success)
       expect(MASTERY_COLORS.mastered).toBe(COLORS.success)
     })

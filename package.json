@@ -17,7 +17,6 @@
     "sync:check": "node scripts/sync-shared.mjs --check",
     "build:site": "bunx astro build",
     "test": "vitest run && node --test tests/unit/*.test.js tests/integration/*.test.js",
-    "test:unit": "vitest run tests/components",
     "test:components": "vitest run tests/components",
     "test:legacy": "node --test tests/unit/*.test.js tests/integration/*.test.js",
     "test:integration": "node --test tests/integration/*.test.js",

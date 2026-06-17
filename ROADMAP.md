@@ -13,12 +13,13 @@ cannot be automated from the repository.
   wyattsnotes.wyattau.com; cross-site search API at search.wyattau.com
   (nine sites, ~2013 indexed entries).
 - CI/CD via GitHub Actions: `ci.yml` (lint, integrity, tests, nine-site build
-  matrix), `deploy.yml` (gated deploy to Cloudflare Pages), `uptime.yml`
-  (six-hourly probes).
+  matrix -- PR only), `deploy.yml` (gated deploy to Cloudflare Pages -- push to
+  main), `preview.yml` (PR preview deployments), `uptime.yml` (six-hourly probes).
 - Pre-commit gate (Husky v9): lint-staged, shared-asset integrity, unit +
-  integration tests, Vitest component tests.
-- 298 automated tests (177 unit/integration + 121 Vitest component).
+  integration tests.
+- 177 automated tests (unit + integration + Vitest component).
 - Five Architecture Decision Records.
+- Biome linter with zero errors, zero warnings.
 
 ### Quality controls (added this cycle)
 
@@ -28,14 +29,19 @@ cannot be automated from the repository.
   (content pages exempt for legitimate Unicode examples).
 - Deploy gated on the full quality suite; broken code cannot reach production.
 - `--frozen-lockfile` installs in CI for reproducibility.
-- Vitest component tests integrated into pre-commit hook, CI, and deploy gate.
-- All linter scripts (lint-no-emoji, lint-content, lint-config, lint-links)
-  produce actionable output on violations.
+- Bun dependency caching in CI for faster builds.
 - BaseDialog consolidation: QuestionDialog, ResultsDialog, and SettingsDialog
-  now delegate to a single BaseDialog component with a `size` parameter.
-- Accessibility improvements: aria-hidden on decorative SVGs, aria-label on
-  PhetSimulation, unused ref removal in FlashcardDeck.
-- CI/CD workflows: explicit `permissions` blocks (least privilege).
+  delegate to a single BaseDialog component with a `size` parameter.
+- Accessibility improvements: PracticeProblem keyboard navigation restored
+  (handleKeyDown wired to radiogroup), ARIA attributes on all interactive
+  components.
+- CI/CD workflows: explicit `permissions` blocks (least privilege), ci.yml
+  scoped to PRs only (deploy.yml handles push to main, eliminating double-run).
+- SM-2 algorithm: runtime invariant assertions, pre/postcondition documentation,
+  property-based tests.
+- i18n: translator caching, locale parameter support.
+- MASTERY_COLORS: corrected learning/review color mapping (was swapped).
+- Sanitize.ts: removed duplicate ALLOWED_ATTR entries, added invariant docs.
 
 ### Component architecture
 
@@ -182,13 +188,61 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 
 ---
 
+## Phase G: Hardening and polish (next)
+
+### Entry criteria
+
+Phase F complete; all sites green; CI/CD stable.
+
+### Scope
+
+- [ ] Consolidate QuestionDialog and ResultsDialog (identical wrappers).
+- [ ] Add `lint:links` to CI pipeline (currently not enforced).
+- [ ] Deploy search Worker (requires CLOUDFLARE_KV_NAMESPACE_ID secret).
+- [ ] Add mobile hamburger menu to landing page (nav links hidden on mobile).
+- [ ] Add Escape key handler and click-outside-to-close for LocaleSwitcher.
+- [ ] Add keyboard arrow navigation for DiagnosticTest radio options.
+- [ ] Implement design philosophy documentation (Spatial Materialism, Amoebic UI).
+- [ ] Add contrast checking to accessibility tests (requires real rendering).
+- [ ] Retire IMPROVEMENTS.md (fold into ROADMAP or remove).
+- [ ] Remove duplicate `test:unit` script (already removed).
+
+### Exit criteria
+
+Zero accessibility violations in axe-core; all interactive components keyboard-navigable;
+search Worker deployed and healthy.
+
+---
+
+## Phase H: Scale and performance
+
+### Entry criteria
+
+Phase G complete; all sites performing well.
+
+### Scope
+
+- [ ] Implement Cloudflare edge caching for search API responses.
+- [ ] Add performance regression detection in CI (Lighthouse CI).
+- [ ] Implement content versioning for offline study.
+- [ ] Add multi-language content (Chinese, Japanese) for specific sites.
+- [ ] Implement A/B testing framework for search ranking.
+- [ ] Add analytics dashboard for user engagement metrics.
+
+### Exit criteria
+
+Lighthouse performance >= 95 on all sites; warm TTFB < 500ms; search latency < 200ms.
+
+---
+
 ## Success metrics
 
 | Metric | Current | Target |
 |--------|---------|--------|
 | Live sites | 9 / 9 | 9 / 9 |
-| Automated tests | 298 (177 unit/integration + 121 Vitest) | 350+ |
+| Automated tests | 177 (unit + integration + Vitest) | 200+ |
 | CI / CD pass rate | > 99 percent | > 99 percent |
+| Biome lint errors | 0 | 0 |
 | Warm TTFB (all sites) | 109-212ms (9/10 under 200ms) | < 1 s |
 | Search entries | 2013 | 2500+ |
 | Search zero-result rate | tracked + improved | < 5 percent |
@@ -197,7 +251,7 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Content thin pages | 0 | 0 |
 | Google Fonts dependency | eliminated | eliminated |
 | Cross-site links | 3 examples added | pattern established |
-| Component tests | 121 (Vitest) | 150+ |
+| Component tests | Vitest | 150+ |
 | Pre-commit gates | lint-staged + sync + unit/integration | all green |
 | PWA support | manifest + service worker deployed | deployed |
 | Print CSS | enhanced with interactive component hiding | deployed |
@@ -205,6 +259,7 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 | Edge caching | _headers file with immutable rules | deployed |
 | HTTPS certificates | all valid through Aug-Sep 2026 | valid |
 | Search API | healthy, 2013 entries indexed | healthy |
+| Accessibility | axe-core tests pass, keyboard nav restored | zero violations |
 
 ---
 
@@ -212,6 +267,13 @@ E2E coverage for the three critical flows; committed baselines with drift gating
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-06-17 | ci.yml scoped to PRs only | Eliminate double quality gate run on push to main (ci.yml + deploy.yml gate job) |
+| 2026-06-17 | Correct MASTERY_COLORS mapping | learning=orange, review=blue was swapped; align colors.ts with flashcard/constants.ts |
+| 2026-06-17 | Add runtime invariant assertions to SM-2 | Provable correctness for safety-critical spaced repetition algorithm |
+| 2026-06-17 | Cache i18n translators | Performance: avoid re-creating translator on every t() call |
+| 2026-06-17 | Remove duplicate test:unit script | test:unit and test:components were identical; consolidate to test:components |
+| 2026-06-17 | Add bun dependency caching to CI | Reduce CI build times by caching node_modules |
+| 2026-06-17 | Fix PracticeProblem keyboard navigation | handleKeyDown was defined but not wired; accessibility regression |
 | 2026-06-16 | Search ranking relevance gate | Unconditional authority score included non-matching entries; gate ensures only relevant entries appear |
 | 2026-06-16 | Self-host fonts (Inter + JetBrains Mono) | Remove Google Fonts CDN round-trip; GDPR compliance; faster FOUT |
 | 2026-06-16 | Search quality metrics tracking | Zero-result rate + latency monitoring for data-driven improvement |
