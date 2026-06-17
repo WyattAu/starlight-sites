@@ -7,6 +7,7 @@
 
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { t } from '../i18n/config'
+import { formatTime } from '../utils/format'
 import { sanitizeHtml } from '../utils/sanitize'
 import QuestionDialog from './QuestionDialog'
 
@@ -167,13 +168,6 @@ function computeResults(
     recommendedTopics,
     timeSpentMs: elapsed,
   }
-}
-
-function formatTime(ms: number): string {
-  const secs = Math.floor(ms / 1000)
-  const mins = Math.floor(secs / 60)
-  const rem = secs % 60
-  return mins > 0 ? `${mins}:${String(rem).padStart(2, '0')}` : `${rem}s`
 }
 
 export default function DiagnosticTest(props: DiagnosticTestProps) {

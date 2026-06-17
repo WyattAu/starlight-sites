@@ -1,5 +1,6 @@
 import { createEffect, createSignal } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
+import { escapeHtml } from '../utils/escape'
 import { sanitizeHtml } from '../utils/sanitize'
 import QuestionDialog from './QuestionDialog'
 
@@ -19,15 +20,6 @@ export interface PracticeProblemProps {
   explanation?: string
   difficulty?: Difficulty
   questions?: PracticeQuestionData[]
-}
-
-function escapeHtml(text: string): string {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
 }
 
 export default function PracticeProblem(props: PracticeProblemProps) {

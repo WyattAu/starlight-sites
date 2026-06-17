@@ -42,6 +42,10 @@ cannot be automated from the repository.
 - i18n: translator caching, locale parameter support.
 - MASTERY_COLORS: corrected learning/review color mapping (was swapped).
 - Sanitize.ts: removed duplicate ALLOWED_ATTR entries, added invariant docs.
+- Shared utilities: extracted `escapeHtml` to `utils/escape.ts`, `formatTime` to
+  `utils/format.ts`, consolidated duplicate color definitions in
+  `flashcard/constants.ts` to import from `utils/colors.ts`.
+- Added `@vitest/coverage-v8` dependency for coverage reporting.
 
 ### Component architecture
 
@@ -268,6 +272,12 @@ Lighthouse performance >= 95 on all sites; warm TTFB < 500ms; search latency < 2
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-06-17 | Extract escapeHtml to shared/utils/escape.ts | DRY: PracticeProblem had inline copy; shared utility ensures consistency |
+| 2026-06-17 | Extract formatTime to shared/utils/format.ts | DRY: DiagnosticTest had inline copy; shared utility for time formatting |
+| 2026-06-17 | Consolidate flashcard/constants.ts colors to import from utils/colors.ts | Single source of truth for color definitions; eliminates duplication |
+| 2026-06-17 | Add @vitest/coverage-v8 dependency | Enable V8 coverage reporting for vitest test suite |
+| 2026-06-17 | Fix broken links in content files | Link linter flagged 10 example URLs in code blocks; converted to absolute URLs |
+| 2026-06-17 | Add biome override for landing page CSS specificity | noDescendingSpecificity false positive on unrelated selectors |
 | 2026-06-17 | ci.yml scoped to PRs only | Eliminate double quality gate run on push to main (ci.yml + deploy.yml gate job) |
 | 2026-06-17 | Correct MASTERY_COLORS mapping | learning=orange, review=blue was swapped; align colors.ts with flashcard/constants.ts |
 | 2026-06-17 | Add runtime invariant assertions to SM-2 | Provable correctness for safety-critical spaced repetition algorithm |

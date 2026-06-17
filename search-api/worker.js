@@ -1,5 +1,6 @@
 // Search API Worker for Wyatt's Notes
 // Merges Pagefind indexes from 9 sites into a unified search API
+// @ts-check
 
 const SITES = {
   dse: { name: 'DSE', url: 'https://dse.wyattau.com', color: '#ff6b35', lang: 'en' },

@@ -67,9 +67,9 @@ HTML defines the structure and content of web pages using **elements** (tags).
     <header>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://example.com/index.html">Home</a></li>
+          <li><a href="https://example.com/about.html">About</a></li>
+          <li><a href="https://example.com/contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>

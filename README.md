@@ -66,6 +66,21 @@ search scripts canonicalised under `search-api/`. An integration test
 | LocaleSwitcher.tsx | SolidJS | Language switching dropdown |
 | ToastProvider.tsx | SolidJS | Toast notification wrapper (solid-sonner) |
 
+### Shared utilities
+
+| Module | Purpose |
+|--------|---------|
+| utils/colors.ts | Shared color constants (success, warning, error, info, difficulty, mastery) |
+| utils/sanitize.ts | HTML sanitization via DOMPurify |
+| utils/jsonld.ts | JSON-LD structured data generation (Course, Article, Breadcrumb, WebSite, FAQ) |
+| utils/animate.ts | SolidJS auto-animate directive |
+| utils/escape.ts | HTML entity escaping for safe text rendering |
+| utils/format.ts | Display formatting utilities (time formatting) |
+| flashcard/sm2.ts | SM-2 spaced repetition algorithm with runtime invariant assertions |
+| flashcard/storage.ts | localStorage persistence for flashcard progress |
+| flashcard/constants.ts | Flashcard UI constants (mastery labels, colors, rating config) |
+| i18n/config.ts | Internationalisation configuration with translator caching |
+
 ## Prerequisites
 
 - Node.js 20+

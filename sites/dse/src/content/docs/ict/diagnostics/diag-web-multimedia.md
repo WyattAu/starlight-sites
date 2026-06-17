@@ -32,9 +32,9 @@ each.
     <h1>Student Portal</h1>
     <nav>
       <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="grades.html">Grades</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="https://example.com/home.html">Home</a></li>
+        <li><a href="https://example.com/grades.html">Grades</a></li>
+        <li><a href="https://example.com/schedule.html">Schedule</a></li>
       </ul>
     </nav>
     <p>Welcome to the online student portal. Check your grades and schedule here.</p>

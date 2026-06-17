@@ -746,7 +746,7 @@ function Example() {
     <div>
       <Text as="h1">Heading</Text>
       <Text as="p">Paragraph</Text>
-      <Text as="a" href="/home">
+      <Text as="a" href="https://example.com/home">
         Link
       </Text>
       <Text>Default span</Text>

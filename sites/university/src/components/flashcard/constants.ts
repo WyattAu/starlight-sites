@@ -1,7 +1,10 @@
 /**
  * Flashcard deck UI constants and configuration.
+ *
+ * Colors reference shared/utils/colors.ts for single-source-of-truth.
  */
 
+import { COLORS } from '../../utils/colors'
 import type { Rating } from './sm2'
 
 export const MASTERY_LABELS: Record<string, string> = {
@@ -13,9 +16,9 @@ export const MASTERY_LABELS: Record<string, string> = {
 
 export const MASTERY_COLORS: Record<string, string> = {
   new: 'var(--ifm-color-emphasis-300)',
-  learning: '#f39c12',
-  review: '#3498db',
-  mastered: '#2ecc71',
+  learning: COLORS.warning,
+  review: COLORS.info,
+  mastered: COLORS.success,
 }
 
 export interface RatingConfig {

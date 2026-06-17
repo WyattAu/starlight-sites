@@ -664,13 +664,13 @@ Batching, Microsoft Graph batch). It reduces the number of HTTP round trips.
 <!-- Preload critical resources -->
 <link rel="preload" href="/css/style.css" as="style" />
 <link rel="preload" href="/js/app.js" as="script" />
-<link rel="preload" href="/fonts/main.woff2" as="font" crossorigin />
+<link rel="preload" href="https://example.com/fonts/main.woff2" as="font" crossorigin />
 
 <!-- Prefetch resources for the next navigation -->
 <link rel="prefetch" href="/next-page.js" />
 
 <!-- DNS prefetch for third-party origins -->
-<link rel="dns-prefetch" href="//cdn.example.com" />
+<link rel="dns-prefetch" href="https://cdn.example.com" />
 
 <!-- Preconnect (DNS + TCP + TLS handshake) -->
 <link rel="preconnect" href="https://api.example.com" crossorigin />

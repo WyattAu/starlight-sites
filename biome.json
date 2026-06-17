@@ -5,6 +5,7 @@
       "**",
       "!**/node_modules",
       "!**/dist",
+      "!**/coverage",
       "!**/.nuxt",
       "!**/.output",
       "!**/.turbo",
@@ -160,6 +161,16 @@
     },
     {
       "includes": ["**/custom.css"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noDescendingSpecificity": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/sites/main/src/index.html"],
       "linter": {
         "rules": {
           "style": {

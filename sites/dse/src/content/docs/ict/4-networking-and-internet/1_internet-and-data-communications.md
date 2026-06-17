@@ -182,7 +182,7 @@ Key HTML tags:
 | `<body>`                     | Visible page content                    |
 | `<h1>` -- `<h6>`             | Headings (h1 is largest)                |
 | ``                           | Paragraph                               |
-| `<a href="URL">`             | Hyperlink                               |
+| `<a href="https://example.com">` | Hyperlink                          |
 | `<img src="URL" alt="text">` | Image                                   |
 | `<ul>``<ol>``<li>`           | Unordered list, ordered list, list item |
 | `<table>``<tr>``<th>``<td>`  | Table, row, header cell, data cell      |
