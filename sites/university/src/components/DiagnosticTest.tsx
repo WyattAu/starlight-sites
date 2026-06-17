@@ -7,6 +7,7 @@
 
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { t } from '../i18n/config'
+import { COLORS } from '../utils/colors'
 import { formatTime } from '../utils/format'
 import { sanitizeHtml } from '../utils/sanitize'
 import QuestionDialog from './QuestionDialog'
@@ -57,9 +58,9 @@ function getLevel(score: number): 'strong' | 'moderate' | 'weak' {
 }
 
 function getLevelColor(level: 'strong' | 'moderate' | 'weak'): string {
-  if (level === 'strong') return '#2ecc71'
-  if (level === 'moderate') return '#f39c12'
-  return '#e74c3c'
+  if (level === 'strong') return COLORS.success
+  if (level === 'moderate') return COLORS.warning
+  return COLORS.error
 }
 
 /**

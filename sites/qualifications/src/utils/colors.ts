@@ -10,12 +10,6 @@ export const COLORS = {
   info: '#3498db',
 } as const
 
-export const DIFFICULTY_COLORS = {
-  easy: COLORS.success,
-  medium: COLORS.warning,
-  hard: COLORS.error,
-} as const
-
 /**
  * MASTERY_COLORS -- Canonical definitions.
  * Note: learning=orange, review=blue (matches flashcard/constants.ts).
@@ -28,4 +22,3 @@ export const MASTERY_COLORS = {
 } as const
 
 export type Difficulty = 'easy' | 'medium' | 'hard'
-export type MasteryLevel = 'new' | 'learning' | 'review' | 'mastered'

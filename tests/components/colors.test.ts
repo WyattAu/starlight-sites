@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import type { Difficulty, MasteryLevel } from '../../shared/utils/colors'
-import { COLORS, DIFFICULTY_COLORS, MASTERY_COLORS } from '../../shared/utils/colors'
+import type { Difficulty } from '../../shared/utils/colors'
+import { COLORS, MASTERY_COLORS } from '../../shared/utils/colors'
 
 describe('colors module', () => {
   describe('COLORS', () => {
@@ -17,20 +17,6 @@ describe('colors module', () => {
       expect(COLORS.warning).toMatch(hexColorRegex)
       expect(COLORS.error).toMatch(hexColorRegex)
       expect(COLORS.info).toMatch(hexColorRegex)
-    })
-  })
-
-  describe('DIFFICULTY_COLORS', () => {
-    it('should map difficulty levels to colors', () => {
-      expect(DIFFICULTY_COLORS.easy).toBe(COLORS.success)
-      expect(DIFFICULTY_COLORS.medium).toBe(COLORS.warning)
-      expect(DIFFICULTY_COLORS.hard).toBe(COLORS.error)
-    })
-
-    it('should have all difficulty levels', () => {
-      expect(DIFFICULTY_COLORS.easy).toBeTruthy()
-      expect(DIFFICULTY_COLORS.medium).toBeTruthy()
-      expect(DIFFICULTY_COLORS.hard).toBeTruthy()
     })
   })
 
@@ -58,26 +44,9 @@ describe('colors module', () => {
         expect(['easy', 'medium', 'hard']).toContain(d)
       }
     })
-
-    it('should accept valid mastery level types', () => {
-      const masteryLevels: MasteryLevel[] = ['new', 'learning', 'review', 'mastered']
-      expect(masteryLevels).toHaveLength(4)
-      for (const m of masteryLevels) {
-        expect(['new', 'learning', 'review', 'mastered']).toContain(m)
-      }
-    })
   })
 
   describe('Color relationships', () => {
-    it('should have consistent color mappings', () => {
-      // Easy maps to success (green)
-      expect(DIFFICULTY_COLORS.easy).toBe(COLORS.success)
-      // Medium maps to warning (orange)
-      expect(DIFFICULTY_COLORS.medium).toBe(COLORS.warning)
-      // Hard maps to error (red)
-      expect(DIFFICULTY_COLORS.hard).toBe(COLORS.error)
-    })
-
     it('should have progressive mastery colors', () => {
       // New is gray (neutral)
       expect(MASTERY_COLORS.new).toBe('#95a5a6')
