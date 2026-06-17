@@ -53,6 +53,7 @@ const SHARED_DIRS = [
   ['shared/utils', 'src/utils'],
   ['shared/styles', 'src/styles'],
   ['shared/fonts', 'public/fonts'],
+  ['shared/i18n', 'src/i18n'],
 ]
 
 // (sourceFile, destFile) pairs of public/ client scripts synced to ALL sites.
