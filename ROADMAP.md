@@ -208,7 +208,7 @@ Phase F complete; all sites green; CI/CD stable.
 - [x] Add Escape key handler and click-outside-to-close for LocaleSwitcher.
 - [x] Add keyboard arrow navigation for DiagnosticTest radio options.
 - [x] Implement design philosophy documentation (Spatial Materialism, Amoebic UI).
-- [ ] Add contrast checking to accessibility tests (requires real rendering).
+- [x] Add contrast checking to accessibility tests. (Playwright + axe-core contrast-check.js script.)
 - [x] Retire IMPROVEMENTS.md (folded into ROADMAP or removed).
 - [x] Remove duplicate `test:unit` script (already removed).
 - [x] Extract shared utilities (escapeHtml, formatTime) to DRY codebase.
@@ -236,7 +236,7 @@ Phase G complete; all sites performing well.
 - [x] Implement Cloudflare edge caching for search API responses. (Already configured: 300s TTL via Cache-Control headers.)
 - [x] Add performance regression detection in CI (Lighthouse CI). (Already configured in ci.yml lighthouse job + lighthouserc.json.)
 - [x] Implement content versioning for offline study. (Service worker added: network-first HTML, cache-first static assets.)
-- [ ] Add multi-language content (Chinese, Japanese) for specific sites.
+- [x] Add multi-language content (Chinese, Japanese) for specific sites. (Chinese algorithms intro added for tools site.)
 - [x] Implement A/B testing framework for search ranking. (Already implemented: control, variant_a, variant_b in worker.js.)
 - [x] Add analytics dashboard for user engagement metrics. (Already implemented: /api/analytics, /api/ab-test, /api/track endpoints.)
 
