@@ -3,34 +3,7 @@ title: Deadlocks
 tags:
   - Computing
   - University
-description: "A is a situation where a set of processes are all blocked, each waiting for a resource Held by another process in the set."
----
-
-### 4.1 Definition and Necessary Conditions
-
-A **deadlock** is a situation where a set of processes are all blocked, each waiting for a resource
-Held by another process in the set.
-
-**Coffman conditions** (all four must hold simultaneously):
-
-1. **Mutual exclusion:** At least one resource is non-sharable.
-2. **Hold and wait:** A process holds at least one resource and is waiting for others.
-3. **No preemption:** Resources cannot be forcibly taken.
-4. **Circular wait:** A circular chain of processes exists, each waiting for a resource held by the
-   next.
-
-### 4.2 Deadlock Prevention
-
-Eliminate one of the four Coffman conditions:
-
-| Condition        | Prevention strategy                                               |
-| ---------------- | ----------------------------------------------------------------- |
-| Mutual exclusion | Generally not feasible for non-sharable resources                 |
-| Hold and wait    | Require all resources upfront before execution                    |
-| No preemption    | Release held resources if a new request cannot be granted         |
-| Circular wait    | Impose a total ordering on resources; request in increasing order |
-
-### 4.3 Deadlock Avoidance: Banker"s Algorithm
+description: ""s Algorithm
 
 The **Banker's algorithm** avoids deadlock by checking whether granting a request leads to a safe
 State.

@@ -1,35 +1,6 @@
 ---
 title: Testing
-description: "is the process of evaluating a program to determine whether it meets specified R Comprehensive educational content coverage with definitions and practice proble"
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - ComputerScience
-  - ALevel
-categories:
-  - ComputerScience
-
----
-
-## 1. Introduction to Testing
-
-### Definition
-
-**Software testing** is the process of evaluating a program to determine whether it meets specified
-Requirements and to identify defects.
-
-### Why Test?
-
-1. **Correctness:** Verify the program produces expected outputs
-2. **Reliability:** Ensure consistent behaviour under various conditions
-3. **Security:** Identify vulnerabilities
-4. **Performance:** Verify the program meets efficiency requirements
-5. **Compliance:** Meet regulatory and safety standards
-
-### Verification vs Validation
-
-| Aspect   | Verification                         | Validation                           |
-| -------- | ------------------------------------ | ------------------------------------ |
-| Question | "Are we building the product right?" | "Are we building the right product?" |
+description: ""Are we building the product right?" | "Are we building the right product?" |
 | Focus    | Conformance to specification         | Meets user needs and expectations    |
 | Activity | Reviews, inspections, walkthroughs   | Testing with real-world scenarios    |
 

@@ -1,20 +1,6 @@
 ---
 title: "Number and Algebra -- Diagnostic Tests"
-description: "IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
-tableOfContents: false
----
-
-# Number and Algebra — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for number and algebra.
-
-### UT-1: Sigma Notation Index Shifting Error
-
-**Question:**
-
-A student writes the following "simplification":
+description: ""simplification":
 
 $$\sum_{n=1}^{5} n = \sum_{n=0}^{4} n$$
 

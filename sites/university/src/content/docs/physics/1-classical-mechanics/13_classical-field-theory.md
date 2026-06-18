@@ -3,31 +3,7 @@ title: Classical Field Theory
 tags:
   - Physics
   - University
-description: "For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems."
----
-
-### 12.1 Lagrangian Field Theory
-
-For a field $\phi(\mathbf{r}, t)$The Lagrangian density $\mathcal{L}$ replaces the discrete
-Lagrangian $L = \sum_i T_i - V_i$:
-
-$$S = \int \mathcal{L}(\phi, \partial_\mu\phi)\,d^4x, \quad \delta S = 0 \implies \frac{\partial\mathcal{L}}{\partial\phi} - \partial_\mu\frac{\partial\mathcal{L}}{\partial(\partial_\mu\phi)} = 0$$
-
-This is the **Euler--Lagrange equation for fields**.
-
-### 12.2 The Klein--Gordon Field
-
-A real scalar field of mass $m$:
-
-$$\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)(\partial^\mu\phi) - \frac{1}{2}m^2\phi^2$$
-
-The equation of motion: $(\Box^2 + m^2)\phi = 0$ where
-$\Box^2 = \partial_\mu\partial^\mu = \nabla^2 - \partial^2/\partial t^2$.
-
-Plane wave solutions: $\phi \propto e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}$ with
-$\omega^2 = k^2 + m^2$ (dispersion relation).
-
-### 12.3 Noether"s Theorem for Fields
+description: ""s Theorem for Fields
 
 Every continuous symmetry of the action yields a conserved current:
 

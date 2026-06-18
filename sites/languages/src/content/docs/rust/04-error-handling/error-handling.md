@@ -1,19 +1,6 @@
 ---
 title: Error Handling
-description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems."
-
----
-
-## Panic vs Result
-
-Rust divides errors into two categories: **unrecoverable** (bugs) and **recoverable** (expected
-Failures).
-
-### Panics
-
-Panics are for unrecoverable programming errors — the kind of bugs where the program cannot continue
-Correctly. When a panic occurs, the runtime unwinds the stack (by default), calling destructors for
-All live values, and then aborts the thread (or the process in `panic = "abort"` mode).
+description: ""abort"` mode).
 
 ```rust
 fn main() {

@@ -1,58 +1,6 @@
 ---
 title: File Permissions and ACLs
-description: "Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces..."
-
----
-
-## Unix Permission Model
-
-Every file and directory on a Linux system carries a set of permission bits that control which users
-Can read, write, or execute it. The kernel enforces these permissions during every file system
-Operation.
-
-### Permission Bits
-
-Each file has three categories of permissions, each with three bits:
-
-| Category      | Read (r)                                    | Write (w)                                     | Execute (x)                |
-| ------------- | ------------------------------------------- | --------------------------------------------- | -------------------------- |
-| **Owner (u)** | Read file contents / List directory entries | Modify file / Create/delete directory entries | Run file / Enter directory |
-| **Group (g)** | Same as owner for group members             | Same                                          | Same                       |
-| **Other (o)** | Same for everyone else                      | Same                                          | Same                       |
-
-### Octal Notation
-
-| Octal | Binary | Permission |
-| ----- | ------ | ---------- |
-| 0     | 000    | ---        |
-| 1     | 001    | --x        |
-| 2     | 010    | -w-        |
-| 3     | 011    | -wx        |
-| 4     | 100    | r--        |
-| 5     | 101    | r-x        |
-| 6     | 110    | rw-        |
-| 7     | 111    | rwx        |
-
-Common permission sets:
-
-| Octal | Meaning   | Use Case                                    |
-| ----- | --------- | ------------------------------------------- |
-| 755   | rwxr-xr-x | Executables, directories                    |
-| 644   | rw-r--r-- | Regular files                               |
-| 700   | rwx------ | Private scripts                             |
-| 600   | rw------- | SSH keys, config files                      |
-| 400   | r-------- | Read-only secrets                           |
-| 711   | rwx--x--x | Public directories (listable only by owner) |
-
-### Viewing Permissions
-
-```bash
-# Long listing shows permissions, owner, group
-ls -la /etc/passwd
-# -rw-r--r-- 1 root root 2847 Jan 15 10:30 /etc/passwd
-
-# Numeric view
-stat -c "%a %n' /etc/passwd
+description: ""%a %n' /etc/passwd
 # 644 /etc/passwd
 
 stat -c '%A %U:%G %n' /etc/passwd

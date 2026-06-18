@@ -1,27 +1,6 @@
 ---
 title: Conflict Resolution
-description: "A merge conflict occurs when Git''s three-way merge algorithm cannot automatically reconcile changes from two branches. This happens when in different ways."
-date: 2025-06-03T05:00:00.000Z
-tags:
-  - git
-  - merging
-  - conflicts
-categories:
-  - CS
-
----
-
-## Understanding Conflicts
-
-A merge conflict occurs when Git's three-way merge algorithm cannot automatically reconcile changes
-from two branches. This happens when **both branches modify the same region of the same file** in
-different ways.
-
-### When Conflicts Occur
-
-```mermaid
-flowchart TD
-    A["Both branches modify\ndifferent files"] --> B["Auto-merge: no conflict"]
+description: ""Both branches modify\ndifferent files"] --> B["Auto-merge: no conflict"]
     C["Both branches modify\ndifferent regions of the same file"] --> B
     D["One branch modifies,\nother deletes the same file"] --> E["Conflict"]
     F["Both branches modify\nthe same region of the same file"] --> E

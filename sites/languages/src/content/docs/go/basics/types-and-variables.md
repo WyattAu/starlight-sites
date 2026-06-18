@@ -1,38 +1,6 @@
 ---
 title: Types and Variables
-description: "Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems."
-date: 2026-04-18
-tags:
-  - Go
-categories:
-  - Go
----
-
-## Integer Types
-
-Go provides signed and unsigned integers at standard widths:
-
-| Type               | Size (bytes) | Range (signed)                                          | Range (unsigned)                |
-| ------------------ | ------------ | ------------------------------------------------------- | ------------------------------- |
-| `int8` / `uint8`   | 1            | -128 to 127                                             | 0 to 255                        |
-| `int16` / `uint16` | 2            | -32,768 to 32,767                                       | 0 to 65,535                     |
-| `int32` / `uint32` | 4            | -2,147,483,648 to 2,147,483,647                         | 0 to 4,294,967,295              |
-| `int64` / `uint64` | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 0 to 18,446,744,073,709,551,615 |
-| `int` / `uint`     | 4 or 8       | Same as `int32` or `int64` (platform-dependent)         | Same as `uint32` or `uint64`    |
-| `uintptr`          | 4 or 8       | Unsigned integer large enough to store a pointer value  |                                 |
-
-`int` and `uint` are the default integer types. Their size matches the native word size of the
-Platform: 32 bits on 32-bit systems, 64 bits on 64-bit systems. Use `int` unless you need a specific
-Size.
-
-```go
-var x int = 42
-var y int64 = 42
-```
-
-### Integer Overflow
-
-Go integers wrap around on overflow in the same manner as two"s complement arithmetic. The compiler
+description: ""s complement arithmetic. The compiler
 Does not insert runtime checks:
 
 ```go

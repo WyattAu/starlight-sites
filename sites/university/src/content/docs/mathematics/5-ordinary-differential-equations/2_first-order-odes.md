@@ -3,35 +3,7 @@ title: First-Order ODEs
 tags:
   - Mathematics
   - University
-description: "First-Order ODEs: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 2.1 Separable Equations
-
-A first-order ODE $\frac{dy}{dx} = f(x, y)$ is **separable** if $f(x, y) = g(x)h(y)$.
-
-$$\frac{dy}{dx} = g(x)h(y) \implies \frac{dy}{h(y)} = g(x)\, dx$$
-
-Integrating both sides: $\int \frac{dy}{h(y)} = \int g(x)\, dx + C$.
-
-**Example.** Solve $\frac{dy}{dx} = xy$.
-
-Separating: $\frac{dy}{y} = x\, dx$. Integrating: $\ln|y| = \frac{x^2}{2} + C$. Thus
-$y = Ce^{x^2/2}$ where $C \neq 0$Plus the trivial solution $y = 0$.
-
-### 2.2 Linear First-Order Equations
-
-A **linear first-order ODE** has the form
-
-$$\frac{dy}{dx} + P(x)y = Q(x)$$
-
-**Theorem 2.1 (Integrating Factor).** The solution is
-
-$$y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)$$
-
-_Proof._ Multiply both sides by $\mu(x) = e^{\int P(x)\, dx}$:
-
-$$\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
+description: "" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
 
 Integrating: $\mu y = \int \mu Q\, dx + C$. Solving for $y$ gives the result. $\blacksquare$
 

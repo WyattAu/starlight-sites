@@ -6,18 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Shakespeare notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
-
----
-
-# Shakespeare
-
-## Introduction
-
-Shakespeare is a compulsory component of most A-Level English Literature specifications. His plays
-are studied not merely as literary texts but as works that have shaped the English language,
-theatrical tradition, and cultural imagination. At A-Level, you are expected to engage with
-Shakespeare"s language in detail, situate his plays within their historical and theatrical contexts,
+description: ""s language in detail, situate his plays within their historical and theatrical contexts,
 and explore a range of critical interpretations.
 
 This section covers Shakespeare's language, major themes, historical and theatrical context, and

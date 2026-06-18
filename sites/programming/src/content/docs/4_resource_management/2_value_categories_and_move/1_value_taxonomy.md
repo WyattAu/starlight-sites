@@ -1,29 +1,6 @@
 ---
 title: Value Taxonomy
-description: "Every C++ expression has a — a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Value Taxonomy
-
-Every C++ expression has a **value category** — a property that determines which operations are
-Legal on it and how it interacts with overloaded functions. C++17 defines three primary categories
-(lvalue, xvalue, prvalue) and two composite categories (glvalue, rvalue). Understanding these
-Categories is essential to understanding move semantics, reference binding, and overload resolution.
-
-## 1.1 The Three-Valued System (C++17)
-
-Since C++17, every expression belongs to exactly one of three **primary value categories** [N4950
-S7.2.1]:
-
-- **lvalue:** an expression that designates a function or an object. It has an identity (address)
-  and, conceptually, a location in memory.
-- **prvalue ("pure" rvalue):** an expression that initializes an object or computes a value. It has
+description: ""pure" rvalue):** an expression that initializes an object or computes a value. It has
   no identity — it is a transient value.
 - **xvalue ("expiring" value):** an expression that designates an object whose resources can be
   reused ( because it is nearing the end of its lifetime). It has identity but can be moved from.

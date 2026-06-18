@@ -1,21 +1,6 @@
 ---
 title: Fundamentals
-description: "A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
----
-
-# Fundamentals
-
-The fundamentals section covers the foundational concepts that underpin all of computer science: how
-data is represented in binary, how processors execute instructions, how operating systems manage
-resources, and the ethical framework within which computing operates.
-
-## Topics Covered
-
-### Number Systems
-
-- **Binary, decimal, hexadecimal** — conversion between all bases
-- **Binary arithmetic** — addition, subtraction, shifts
-- **Two"s complement** — representing negative integers; range $-2^{n-1}$ to $2^{n-1}-1$ for $n$
+description: ""s complement** — representing negative integers; range $-2^{n-1}$ to $2^{n-1}-1$ for $n$
   bits
 - **Binary-coded decimal (BCD)** — when and why it is used
 

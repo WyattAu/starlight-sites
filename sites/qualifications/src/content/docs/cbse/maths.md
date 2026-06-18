@@ -1,49 +1,7 @@
 ---
 title: CBSE Mathematics Study Guide
 date: 2026-05-31
-description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
-tags:
-  - cbse
-  - maths
-categories:
-  - cbse
-
----
-
-## Overview
-
-This guide covers the **CBSE Class 11 and 12 Mathematics** syllabus (NCERT). It is structured by
-topic with definitions, key results, worked examples, and exam-focused advice.
-
-The CBSE Class 12 board exam carries **80 marks** (theory) + **20 marks** (internal assessment). The
-paper consists of objective questions (MCQs), short-answer questions (2-3 marks), and long-answer
-questions (5-6 marks).
-
----
-
-## 1. Sets and Functions
-
-### 1.1 Sets and Set Notation
-
-A **set** is a well-defined collection of distinct objects. Sets are denoted by capital letters
-($A, B, C$) and elements by lowercase letters ($a, b, c$).
-
-**Notation.**
-
-- $a \in A$: $a$ is an element of $A$
-- $a \notin A$: $a$ is not an element of $A$
-- $A \subseteq B$: $A$ is a subset of $B$ (every element of $A$ is also in $B$)
-- $A \subset B$: $A$ is a proper subset of $A \neq B$
-- $\emptyset$: the empty set
-- $|A|$ or $n(A)$: the cardinality (number of elements) of $A$
-
-**Set operations.**
-
-| Operation | Notation | Meaning |
-| --- | --- | --- |
-| Union | $A \cup B$ | All elements in $A$ or $B$ or both |
-| Intersection | $A \cap B$ | All elements in both $A$ and $B$ |
-| Complement | $A"$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
+description: ""$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
 | Difference | $A - B$ | Elements in $A$ but not in $B$ |
 
 **Laws.**

@@ -1,31 +1,6 @@
 ---
 title: Population Policies
-description: "Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target..."
-
----
-
-# Population Policies
-
-## Introduction
-
-Population policies are deliberate government interventions designed to influence the size, growth,
-Structure, or distribution of a population. They target one or more of the three demographic
-Variables: fertility, mortality, and migration. This page focuses on fertility-related policies
-(pro-natalist and anti-natalist), which are the most common and consequential form of population
-Policy.
-
-Population policies are shaped by the prevailing demographic theory and political ideology of their
-Time. In the mid-20th century, concerns about rapid population growth in developing countries
-(informed by Malthusian thinking) drove anti-natalist policies. In the early 21st century, concerns
-About population ageing and decline in developed countries drive pro-natalist policies.
-
-## Anti-Natalist Policies
-
-Anti-natalist policies aim to reduce fertility rates, in response to rapid population Growth that
-strains resources, infrastructure, and public services. They may employ a combination of
-Information, incentive, and coercion.
-
-### China"s One-Child Policy (1979--2015)
+description: ""s One-Child Policy (1979--2015)
 
 The one-child policy was the most extensive and controversial anti-natalist policy in history.
 

@@ -1,31 +1,6 @@
 ---
 title: Multivariable Calculus
-description: "Multivariable Calculus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-date: 2026-04-23T00:00:00.000Z
-tags:
-  - Mathematics
-  - University
-categories:
-  - Mathematics
-
----
-
-## 1. Partial Derivatives
-
-### 1.1 Definition
-
-Let $f : D \subseteq \mathbb{R}^n \to \mathbb{R}$. The **partial derivative** of $f$ with respect to
-$x_i$ at $\mathbf{a} = (a_1, \ldots, a_n)$ is
-
-$$\frac{\partial f}{\partial x_i}(\mathbf{a}) = \lim_{h \to 0} \frac{f(a_1, \ldots, a_i + h, \ldots, a_n) - f(a_1, \ldots, a_n)}{h}$$
-
-Provided the limit exists. This is the rate of change of $f$ in the direction of the $x_i$-axis,
-Holding all other variables fixed.
-
-**Notation.** Common notations for the partial derivative with respect to $x_i$ include $f_{x_i}$,
-$\partial_i f$And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
-
-### 1.2 Clairaut"s Theorem
+description: ""s Theorem
 
 **Theorem 1.1 (Clairaut's Theorem / Schwarz’s Theorem).** If $f_{xy}$ and $f_{yx}$ are continuous on
 an Open set containing $(a, b)$Then

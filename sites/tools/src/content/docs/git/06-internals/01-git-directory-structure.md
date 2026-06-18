@@ -1,27 +1,6 @@
 ---
 title: Git Directory Structure
-description: "The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential..."
-date: 2025-06-03T12:00:00.000Z
-tags:
-  - git
-  - internals
-categories:
-  - CS
-
----
-
-## The `.git` Directory
-
-The `.git` directory is the heart of a Git repository. It contains all metadata, object data,
-configuration, and hooks. Understanding its structure is essential for debugging, scripting, and
-recovering from corruption.
-
-```
-.git/
-├── HEAD                          # Current branch reference (symref)
-├── config                        # Repository-local configuration
-├── description                   # Description for GitWeb/GitLab
-├── index                         # Binary staging area (the "index")
+description: ""index")
 ├── hooks/                        # Hook scripts
 │   ├── pre-commit.sample
 │   ├── pre-push.sample

@@ -3,12 +3,7 @@ title: Approximation Methods
 tags:
   - Physics
   - University
-description: "Approximation Methods: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 8.1 Time-Independent Perturbation Theory
-
-For a Hamiltonian $\hat{H} = \hat{H}_0 + \lambda \hat{H}"$ where $\hat{H}'$ is "small" and
+description: ""$ where $\hat{H}'$ is "small" and
 $\hat{H}_0$ Has known eigenstates $|n^{(0)}\rangle$ and eigenvalues $E_n^{(0)}$.
 
 **First-order energy correction:**

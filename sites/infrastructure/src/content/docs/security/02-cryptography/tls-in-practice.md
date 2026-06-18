@@ -1,28 +1,6 @@
 ---
 title: TLS in Practice
-description: "| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let''s..."
-
----
-
-## Getting a Certificate
-
-### Certificate Authority (CA) Options
-
-| Source         | Cost | Validation          | Trust     | Best For                         |
-| -------------- | ---- | ------------------- | --------- | -------------------------------- |
-| Let's Encrypt  | Free | Automated (ACME)    | Universal | Public-facing services           |
-| DigiCert       | Paid | Organization, EV    | Universal | Enterprise, extended validation  |
-| Self-signed    | Free | None                | Internal  | Development, internal services   |
-| Internal CA    | Free | Internal            | Internal  | Corporate networks               |
-| Cloud provider | Paid | DNS/HTTP validation | Universal | Services hosted on that provider |
-
-### Self-Signed Certificates
-
-```bash
-# Generate a self-signed certificate (development only)
-openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
-  -days 365 -nodes \
-  -subj "/CN=localhost/O=Dev/C=US"
+description: ""/CN=localhost/O=Dev/C=US"
 
 # Generate with SAN (Subject Alternative Names)
 openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \

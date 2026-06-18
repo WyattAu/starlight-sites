@@ -1,34 +1,6 @@
 ---
 title: Return Value Optimization (RVO) and NRVO
-description: "Return value optimization is the compiler''s ability to construct a return value directly in the Caller"s storage, eliminating unnecessary copies and moves....'
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Return Value Optimization (RVO) and NRVO
-
-Return value optimization is the compiler's ability to construct a return value directly in the
-Caller's storage, eliminating unnecessary copies and moves. C++17 guarantees this for prvalue
-Returns (RVO), while named returns (NRVO) remain an optional but widely-implemented optimization.
-Understanding the fallback chain — RVO, NRVO, implicit move, copy — is essential for writing
-Efficient code.
-
-## 8.1 Guaranteed Copy Elision (C++17 RVO)
-
-C++17 mandates that a prvalue returned from a function initializes the destination object directly.
-No temporary is created, and no copy or move constructor is invoked [N4950 S8.4.4]. This applies
-Specifically to **prvalue returns** — returns of unnamed temporaries.
-
-```cpp
-#include <iostream>
-
-struct Widget {
-    int id;
-    Widget(int i) : id(i) { std::cout << "  Widget(" << id << ") ctor\n"; }
+description: ""  Widget(" << id << ") ctor\n"; }
     Widget(const Widget& o) : id(o.id) { std::cout << "  Widget(" << id << ") copy ctor\n"; }
     Widget(Widget&& o) noexcept : id(o.id) { std::cout << "  Widget(" << id << ") move ctor\n"; }
     ~Widget() { std::cout << "  ~Widget(" << id << ")\n"; }

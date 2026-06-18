@@ -1,38 +1,6 @@
 ---
 title: Genetics
-description: "Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the Single most common source of lost marks in DSE genetics..."
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - Biology
-categories:
-  - DSE
-  - Biology
-
----
-
-## Mendelian Genetics
-
-### Terminology
-
-Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the
-Single most common source of lost marks in DSE genetics questions.
-
-| Term             | Definition                                                                                  |
-| ---------------- | ------------------------------------------------------------------------------------------- |
-| Gene             | A specific sequence of DNA that codes for a specific polypeptide or functional RNA          |
-| Allele           | One of two or more alternative forms of a gene at the same locus on homologous chromosomes  |
-| Locus            | The fixed position of a gene on a chromosome                                                |
-| Genotype         | The genetic constitution of an organism with respect to a particular trait (e.g., Bb)       |
-| Phenotype        | The observable physical or biochemical characteristics of an organism (e.g., brown eyes)    |
-| Homozygous       | Having two identical alleles at a locus (e.g., BB or bb)                                    |
-| Heterozygous     | Having two different alleles at a locus (e.g., Bb)                                          |
-| Dominant allele  | An allele that is expressed in the phenotype even in the presence of a different allele     |
-| Recessive allele | An allele that is only expressed in the phenotype when two copies are present (homozygous)  |
-| Carrier          | A heterozygous individual who carries a recessive allele but does not express the phenotype |
-| Test cross       | Crossing an individual of unknown genotype with a homozygous recessive individual           |
-
-### Mendel"s Laws
+description: ""s Laws
 
 Mendel's work with pea plants (_Pisum sativum_) established three fundamental laws:
 

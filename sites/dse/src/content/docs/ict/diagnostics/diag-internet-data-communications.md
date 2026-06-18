@@ -1,48 +1,6 @@
 ---
 title: "Internet and Data Communications -- Diagnostic Tests"
-description: "DSE Ict Internet and Data Communications -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Internet and Data Communications — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: OSI Model and Protocols
-
-**Question:** (a) List all 7 layers of the OSI model with their primary functions. (b) For each of
-the following, identify the OSI layer: HTTP, TCP, IP, Ethernet, MAC address, Router, Switch,
-Encryption (TLS). (c) Explain the process of encapsulation as data moves from the application layer
-down to the physical layer.
-
-**Solution:**
-
-| (a) | Layer        | Name                                                               | Primary Function |
-| --- | ------------ | ------------------------------------------------------------------ | ---------------- |
-| 7   | Application  | Provides network services directly to user applications            |
-| 6   | Presentation | Data formatting, encryption, compression, character encoding       |
-| 5   | Session      | Establishes, manages, and terminates sessions between applications |
-| 4   | Transport    | End-to-end reliable (TCP) or unreliable (UDP) data delivery        |
-| 3   | Network      | Logical addressing (IP) and routing between networks               |
-| 2   | Data Link    | Framing, MAC addressing, error detection (node-to-node delivery)   |
-| 1   | Physical     | Physical transmission of raw bits over a medium                    |
-
-(b) HTTP: Layer 7 (Application). TCP: Layer 4 (Transport). IP: Layer 3 (Network). Ethernet: Layer 2
-(Data Link) and Layer 1 (Physical). MAC address: Layer 2 (Data Link). Router: Layer 3 (Network).
-Switch: Layer 2 (Data Link). Encryption (TLS): Layer 6 (Presentation).
-
-(c) Encapsulation: At the application layer, user data is generated. Each layer adds its own header
-(and possibly trailer) around the data:
-
-- **Application** creates the data payload.
-- **Transport** adds a header with port numbers and sequence numbers $\to$ **segment** (TCP) or
-  **datagram** (UDP).
-- **Network** adds an IP header with source/destination IP addresses $\to$ **packet**.
-- **Data Link** adds a frame header (MAC addresses) and trailer (error detection via CRC) $\to$
-  **frame**.
-- **Physical** converts the frame to signals (electrical, optical, radio) for transmission.
-
-At the receiving end, **de-encapsulation** strips each layer"s header in reverse order.
+description: ""s header in reverse order.
 
 ### UT-2: Network Topologies and Performance
 

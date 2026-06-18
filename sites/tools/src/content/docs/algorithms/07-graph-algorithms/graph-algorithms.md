@@ -1,23 +1,6 @@
 ---
 title: Graph Algorithms
-description: "Dijkstra''s algorithm finds the shortest path from a single source to all other vertices in a graph With non-negative edge weights. It uses a greedy..."
-
----
-
-## Shortest Paths
-
-### Dijkstra's Algorithm
-
-Dijkstra's algorithm finds the shortest path from a single source to all other vertices in a graph
-With non-negative edge weights. It uses a greedy strategy: always process the unvisited vertex with
-The smallest known distance.
-
-```python
-import heapq
-from collections import defaultdict, deque
-
-def dijkstra(graph, source):
-    """
+description: """"
     Dijkstra's shortest paths from source to all vertices.
     Requires: all edge weights >= 0
     Time: O((V + E) log V) with binary heap

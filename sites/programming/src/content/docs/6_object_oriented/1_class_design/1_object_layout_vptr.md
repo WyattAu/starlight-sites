@@ -1,50 +1,6 @@
 ---
 title: Object Layout, vptr, and the this Pointer
-description: "Understanding how the compiler lays out objects in memory is fundamental to writing correct and Efficient C++. This section covers the memory layout of..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Object Layout, vptr, and the `this` Pointer
-
-Understanding how the compiler lays out objects in memory is fundamental to writing correct and
-Efficient C++. This section covers the memory layout of simple and polymorphic classes, the `this`
-Pointer mechanism, and the Empty Base Optimization (EBO).
-
-## 1.1 Memory Layout of a Simple Class
-
-For a class with no virtual functions and no base classes, the memory layout is straightforward:
-Data members are laid out in declaration order with potential padding between them for alignment
-[N4950 §11.4.1]. Each non-static data member occupies
-$\lceil \mathrm{size / \mathrm{alignment \rceil \times \mathrm{alignment$ bytes.
-
-```cpp
-#include <cstddef>
-#include <cstdint>
-#include <cstdio>
-
-struct Simple {
-    std::int8_t  a;   // 1 byte at offset 0
-                     // 3 bytes padding (alignment of int32_t)
-    std::int32_t b;   // 4 bytes at offset 4
-    std::int8_t  c;   // 1 byte at offset 8
-                     // 3 bytes padding (alignment of double)
-    double       d;   // 8 bytes at offset 12 (aligned to 8)
-};
-
-static_assert(sizeof(Simple) == 24);
-static_assert(alignof(Simple) == 8);
-static_assert(offsetof(Simple, a) == 0);
-static_assert(offsetof(Simple, b) == 4);
-static_assert(offsetof(Simple, c) == 8);
-static_assert(offsetof(Simple, d) == 12);
-
-int main() {
-    std::printf("sizeof(Simple) = %zu\n", sizeof(Simple));
+description: ""sizeof(Simple) = %zu\n", sizeof(Simple));
     std::printf("offsetof a=%zu b=%zu c=%zu d=%zu\n",
         offsetof(Simple, a), offsetof(Simple, b),
         offsetof(Simple, c), offsetof(Simple, d));

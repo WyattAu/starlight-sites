@@ -1,30 +1,6 @@
 ---
 title: Thermal Physics
-description: "A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision."
----
-
-# Thermal Physics
-
-Thermal physics studies the behaviour of matter through the relationship between heat, work,
-temperature, and energy. It bridges the microscopic world of molecular motion with the macroscopic
-properties of gases, solids, and liquids.
-
-## Topics Covered
-
-### Thermal Properties
-
-- **Temperature scales** — Celsius, Kelvin; $T(\text{K}) = T(^{\circ}\text{C}) + 273.15$; absolute
-  zero as the theoretical minimum
-- **Specific heat capacity** — $Q = mc\Delta T$; energy required to raise the temperature of 1 kg by
-  1 K; continuous flow method for measurement
-- **Specific latent heat** — $Q = mL$; energy for change of state at constant temperature; fusion
-  (solid $\to$ liquid) and vaporisation (liquid $\to$ gas)
-- **Internal energy** — the sum of kinetic and potential energy of all molecules; increased by
-  heating or doing work
-
-### Ideal Gas Laws
-
-- **Boyle"s law** — $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
+description: ""s law** — $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
   volume
 - **Charles's law** — $V/T = \text{constant}$ at constant $p$; volume proportional to temperature
   (Kelvin)

@@ -1,39 +1,6 @@
 ---
 title: Synthesis
-description: "University Chemistry Synthesis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
-date: 2026-05-31T00:00:00.000Z
-tags:
-  - Chemistry
-  - University
-categories:
-  - Chemistry
----
-
-## 1. Retrosynthetic Analysis
-
-### 1.1 The Concept
-
-**Definition 1 (Retrosynthetic Analysis):** A problem-solving technique in which the target molecule
-(TM) is mentally disassembled into simpler precursors by applying known reactions in reverse. Each
-step is denoted by the retrosynthetic arrow $\Rightarrow$.
-
-$$\text{TM} \Rightarrow \text{Precursor}_1 \Rightarrow \text{Precursor}_2 \Rightarrow \ldots \Rightarrow \text{Starting Materials}$$
-
-Developed by E.J. Corey (Nobel Prize, 1990).
-
-### 1.2 Disconnections
-
-**Definition 2 (Disconnection):** The imagined breaking of a bond in the target molecule, corresponding
-to the reverse of a known synthetic reaction.
-
-**Definition 3 (Synthon):** The idealized fragment resulting from a disconnection, representing the
-reacting species. A synthon may or may not correspond to a real reagent.
-
-**Definition 4 (Synthetic Equivalent):** The actual reagent used to represent a synthon.
-
-**Example 1:** Disconnection of a secondary alcohol:
-
-$$\text{R}–\text{CH(OH)}–\text{R}" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}$$
+description: "" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}$$
 
 Synthons: $^+\text{R}'$ (electrophile, equivalent = R'Br) and $^-\text{OH}$ (nucleophile, equivalent
 = formaldehyde or a carbonyl).

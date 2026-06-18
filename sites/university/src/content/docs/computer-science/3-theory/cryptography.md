@@ -1,26 +1,6 @@
 ---
 title: Cryptography
-description: "University Computer Science Cryptography notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
-date: 2026-05-31T00:00:00.000Z
-tags:
-  - Computer Science
-  - University
-categories:
-  - Computer Science
----
-
-## 1. Fundamentals
-
-### 1.1 Cryptographic Goals
-
-| Goal              | Threat Addressed                      |
-| ----------------- | ------------------------------------- |
-| **Confidentiality** | Eavesdropping                      |
-| **Integrity**      | Tampering with messages             |
-| **Authentication** | Impersonation                       |
-| **Non-repudiation** | Denying having sent a message      |
-
-### 1.2 Kerckhoffs" Principle
+description: "" Principle
 
 A cryptosystem should be secure even if everything about the system (except the key) is known to the adversary.
 

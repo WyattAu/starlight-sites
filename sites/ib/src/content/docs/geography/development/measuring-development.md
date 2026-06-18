@@ -1,25 +1,6 @@
 ---
 title: Measuring Development
-description: "Development is a multidimensional concept encompassing economic progress, social well-being, Environmental sustainability, political freedom, and quality of..."
-
----
-
-# Measuring Development
-
-## The Challenge of Measurement
-
-Development is a multidimensional concept encompassing economic progress, social well-being,
-Environmental sustainability, political freedom, and quality of life. No single indicator captures
-All dimensions, and the choice of indicator shapes both our understanding of development and the
-Policy prescriptions that follow. Selecting appropriate indicators requires awareness of what each
-Measure captures, what it omits, and how it can be misinterpreted.
-
-## Single Economic Indicators
-
-### Gross Domestic Product (GDP) and Gross National Income (GNI)
-
-**GDP** measures the total monetary value of all final goods and services produced within a
-Country"s borders in a given year. **GNI** adjusts GDP by adding income earned by residents from
+description: ""s borders in a given year. **GNI** adjusts GDP by adding income earned by residents from
 Abroad and subtracting income earned by foreigners domestically.
 
 Per capita figures (GDP per capita, GNI per capita) are standardised by population and are the most

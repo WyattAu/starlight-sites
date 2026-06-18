@@ -1,20 +1,6 @@
 ---
 title: Lifetimes
-description: "Rust''s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference..."
-
----
-
-## Why Lifetimes Exist
-
-Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime
-Annotations, the compiler cannot prove that a reference outlives the scope in which it is used. This
-Prevents dangling references — references to memory that has been freed or invalidated.
-
-Consider the canonical dangling reference attempt:
-
-```rust
-fn dangle() -> &String {
-    let s = String::from("hello");
+description: ""hello");
     &s
 }
 ```

@@ -1,22 +1,7 @@
 ---
 title: Remove Commit History
 date: 2025-06-02T21:52:46.700Z
-description: "- Clone Git repository - Create orphan branch - - Stage all changes - - - Delete old branch - - Rename current temp branch to main - - Force-push current..."
-tags:
-  - git
-categories:
-  - CS
-
----
-
-## Proposed Solution
-
-- Clone Git repository
-- Create orphan branch
-- `git checkout --orphan temp`
-- Stage all changes
-- `git add -A`
-- `git commit -m "init commit (cleaned history)"`
+description: ""init commit (cleaned history)"`
 - Delete old branch
 - `git branch -D main`
 - Rename current temp branch to main

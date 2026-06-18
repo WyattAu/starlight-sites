@@ -1,22 +1,6 @@
 ---
 title: "Evolution and Ecology -- Diagnostic Tests"
-description: "DSE Biology Evolution and Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
-tableOfContents: false
----
-
-# DSE Biology Diagnostic: Evolution and Ecology
-
-## Unit Test 1: Natural Selection and Evidence for Evolution
-
-**Question**
-
-(a) Describe the process of **natural selection** as proposed by Darwin, using the development of
-antibiotic resistance in bacteria as an example. [5 marks]
-
-(b) Fossil evidence provides one line of evidence for evolution. Describe **two** other types of
-evidence that support the theory of evolution. [4 marks]
-
-(c) A student claims that evolution is "just a theory" and therefore not well-supported. Evaluate
+description: "" and therefore not well-supported. Evaluate
 this claim by distinguishing between the everyday use of "theory" and the scientific use of
 "theory." [2 marks]
 

@@ -1,48 +1,6 @@
 ---
 title: "DSE Chemistry Diagnostic Tests -- Guide"
-description: "These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate..."
-tableOfContents: false
----
-
-# DSE Chemistry Diagnostic Tests -- Guide
-
-## Purpose
-
-These diagnostic tests target the **hardest** questions within the HKDSE Chemistry specification.
-Each test is designed to expose deep misconceptions that separate top-tier candidates from the rest.
-
-## Structure
-
-Every diagnostic file contains:
-
-| Section           | Count | Description                                                  |
-| ----------------- | ----- | ------------------------------------------------------------ |
-| Unit Tests        | 3     | Single-concept questions probing specific misconceptions     |
-| Integration Tests | 3     | Multi-concept problems requiring synthesis of several topics |
-| Worked Solutions  | All   | Step-by-step solutions with explicit reasoning               |
-
-## How to Use
-
-1. Attempt each question under timed conditions (8--10 min per unit test, 15--20 min per integration
-   test).
-2. Check your answer against the worked solution.
-3. If your answer is wrong, identify which step you diverged from the solution -- this pinpoints
-   your misconception.
-4. Re-attempt after reviewing the relevant topic notes.
-
-## Difficulty Rating
-
-- **Unit Tests**: DSE Paper 1B standard (long structured questions at the end of the paper).
-- **Integration Tests**: DSE Paper 2 Section B standard (multi-part synthesis questions) or beyond.
-
-## Misconception Map
-
-| Topic             | Key Misconception                                                 |
-| ----------------- | ----------------------------------------------------------------- |
-| Atomic Structure  | Transition metal electron config; ionisation energy trend breaks  |
-| Bonding           | VSEPR for lone pairs; molecular polarity vs bond polarity         |
-| Stoichiometry     | Back-titration setup; RTP gas volume assumptions                  |
-| Energetics        | Hess"s cycle direction; average vs exact bond enthalpy            |
+description: ""s cycle direction; average vs exact bond enthalpy            |
 | Kinetics          | Rate vs rate constant confusion; order from non-initial-rate data |
 | Equilibrium       | Kc/Kp temperature dependence; inert gas at constant P             |
 | Acids/Bases       | Weak acid pH requires Ka; buffer mechanism; salt hydrolysis       |

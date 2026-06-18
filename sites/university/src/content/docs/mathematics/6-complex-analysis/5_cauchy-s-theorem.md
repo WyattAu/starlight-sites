@@ -3,12 +3,7 @@ title: Cauchy's Theorem
 tags:
   - Mathematics
   - University
-description: "If is analytic on a connected domain and Is a simple closed contour in Then Comprehensive educational content coverage with definitions and practice problems."
----
-
-### 5.1 Statement
-
-**Theorem 5.1 (Cauchy"s Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
+description: ""s Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
 simple closed contour in $D$Then
 
 $$\int_\gamma f(z)\, dz = 0$$

@@ -1,29 +1,6 @@
 ---
 title: Evolution in Depth
-description: "IB Biology -- evidence for evolution, natural selection types, speciation mechanisms, adaptive radiation, convergent evolution, gradualism vs punctuated"
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## 1. Evidence for Evolution
-
-### Fossil Evidence
-
-The **fossil record** provides direct evidence of organisms from past geological eras, preserved in
-Sedimentary rock.
-
-**Key observations:**
-
-- Fossils in deeper (older) rock layers are progressively simpler and differ more from modern
-  organisms than those in shallower (younger) layers.
-- **Transitional fossils** exhibit features intermediate between ancestral and descendant groups:
-
-| Transitional fossil                                | Significance                                                                                                                                  |
-| -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| **_Tiktaalik roseae_** (375 Mya)                   | Intermediate between lobe-finned fish and early tetrapods: fish-like scales and fins with limb-like bones and a functional neck.              |
-| **_Archaeopteryx lithographica_** (150 Mya)        | Dinosaur-like skeleton with teeth and long bony tail, but feathered wings and a furcula (wishbone). Links reptiles and birds.                 |
-| **_Australopithecus afarensis_** ("Lucy", 3.2 Mya) | Bipedal pelvis and femur with ape-like cranial capacity ($\approx 400\;\mathrm{cm}^3$). Ancestor of the genus _Homo_.                         |
+description: ""Lucy", 3.2 Mya) | Bipedal pelvis and femur with ape-like cranial capacity ($\approx 400\;\mathrm{cm}^3$). Ancestor of the genus _Homo_.                         |
 | **_Ambulocetus natans_** (49 Mya)                  | "Walking whale": amphibious predator with functional limbs linking terrestrial artiodactyls and fully aquatic cetaceans.                      |
 | **_Tetrapod tracks_** (395 Mya, Poland)            | Fossilised footprints pre-dating the earliest tetrapod body fossils, showing animals walked on land earlier than skeletal evidence suggested. |
 

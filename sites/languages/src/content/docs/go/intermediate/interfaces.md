@@ -1,30 +1,6 @@
 ---
 title: Interfaces
-description: "An interface in Go defines a set of method signatures. A type satisfies an interface by implementing All of its methods. There is no explicit declaration --..."
-date: 2026-04-18
-tags:
-  - Go
-categories:
-  - Go
----
-
-## Interface Basics
-
-An interface in Go defines a set of method signatures. A type satisfies an interface by implementing
-All of its methods. There is no explicit `implements` declaration -- satisfaction is implicit and
-Structural.
-
-```go
-type Speaker interface {
-    Speak() string
-}
-
-type Dog struct {
-    Name string
-}
-
-func (d Dog) Speak() string {
-    return "Woof"
+description: ""Woof"
 }
 
 func main() {

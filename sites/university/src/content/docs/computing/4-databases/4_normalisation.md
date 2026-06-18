@@ -3,15 +3,7 @@ title: Normalisation
 tags:
   - Computing
   - University
-description: "A holds on relation if for any two tuples in Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 4.1 Functional Dependencies
-
-A **functional dependency** $X \to Y$ holds on relation $R$ if for any two tuples $t_1, t_2$ in $R$
-$t_1[X] = t_2[X]$ implies $t_1[Y] = t_2[Y]$.
-
-**Armstrong"s axioms:**
+description: ""s axioms:**
 
 1. **Reflexivity:** If $Y \subseteq X$Then $X \to Y$.
 2. **Augmentation:** If $X \to Y$Then $XZ \to YZ$.

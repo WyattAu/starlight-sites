@@ -3,23 +3,7 @@ title: Complex Integration
 tags:
   - Mathematics
   - University
-description: "A (or piecewise smooth path) in is a continuous function Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 4.1 Contours
-
-A **contour** (or piecewise smooth path) in $\mathbb{C}$ is a continuous function
-$\gamma : [a, b] \to \mathbb{C}$ that is differentiable except at finitely many points, with a
-Continuous derivative everywhere it exists.
-
-A **simple closed contour** is a contour with $\gamma(a) = \gamma(b)$ and no other
-Self-intersections.
-
-### 4.2 The Complex Integral
-
-**Definition.** For a contour $\gamma$ and a continuous function $f$ on $\gamma$:
-
-$$\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma"(t)\, dt$$
+description: ""(t)\, dt$$
 
 ### 4.3 Basic Properties
 

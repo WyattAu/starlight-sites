@@ -1,24 +1,6 @@
 ---
 title: Stoichiometry and Formulae
-description: "ILC Chemistry Stoichiometry and Formulae notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
-date: 2026-04-14
-tags:
-  - ilc
-  - ilc-chemistry
-categories:
-  - ilc-chemistry
-
----
-
-# Stoichiometry and Formulae
-
-Stoichiometry is the quantitative study of chemical reactions, including mole calculations,
-Balancing equations, and determining empirical and molecular formulae. It also covers titration
-Calculations at Higher Level.
-
-## The Mole Concept (OL/HL)
-
-### Avogadro"s Number
+description: ""s Number
 
 $$
 N_A = 6.022 \times 10^{23}\mathrm{ mol^{-1}

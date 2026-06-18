@@ -1,30 +1,6 @@
 ---
 title: Stackless Coroutine Frames and Heap Allocation
-description: "This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off, Coroutine frame layout, heap allocation and elision,..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Stackless Coroutine Frames and Heap Allocation
-
-This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off,
-Coroutine frame layout, heap allocation and elision, `std::coroutine_handle<P>` for manual lifetime
-Management, and RAII wrappers for coroutine handles.
-
-## Coroutines as Suspendable Functions
-
-A **coroutine** is a function that can be suspended and resumed [N4950 §9.5.4]. Unlike ordinary
-Functions, which run to completion before returning to the caller, a coroutine may yield control
-Back to its caller at an arbitrary suspension point and later be resumed from that exact point. The
-C++20 coroutine mechanism is defined in terms of three keywords:
-
-- `co_await`: suspend execution until an awaitable completes [N4950 §9.5.4].
-- `co_yield`: suspend execution while producing a value (syntactic sugar for `co_await` on the
-  promise"s `yield_value`).
+description: ""s `yield_value`).
 - `co_return`: complete the coroutine and return a value.
 
 Any function body containing one of these keywords is a **coroutine** [N4950 §9.5.2]. The compiler

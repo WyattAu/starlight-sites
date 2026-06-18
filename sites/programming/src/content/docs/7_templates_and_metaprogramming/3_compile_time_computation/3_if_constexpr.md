@@ -1,58 +1,6 @@
 ---
 title: Compile-Time Branching and Constexpr Functions
-description: "C++ provides multiple mechanisms for compile-time computation: for type-based Dispatch within function bodies, functions that may be evaluated at compile..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Compile-Time Branching and Constexpr Functions
-
-C++ provides multiple mechanisms for compile-time computation: `if constexpr` for type-based
-Dispatch within function bodies, `constexpr` functions that may be evaluated at compile time, and
-`consteval`/`constinit` specifiers that guarantee compile-time evaluation or initialization.
-Together, these tools enable zero-overhead computation that is resolved before the program runs.
-
-## `if constexpr` --- The Compile-Time Conditional
-
-The `if constexpr` statement [N4950 §8.8.1] is a compile-time conditional that discards the false
-Branch entirely. Unlike a regular `if` statement, which evaluates its condition at runtime and
-Requires both branches to be well-formed, `if constexpr` evaluates its condition at compile time and
-**does not instantiate the discarded branch**.
-
-The syntax is [N4950 §8.8.1]:
-
-```
-if constexpr ( condition ) statement
-if constexpr ( condition ) statement else statement
-```
-
-The condition must be a **converted constant expression of type `bool`** [N4950 §7.7]. If the
-Condition is `true`The discarded statement (if present) is the `else` branch. If the condition is
-`false`The discarded statement is the `then` branch.
-
-The critical difference from `if`:
-
-$$
-\mathrm{`if (cond)` : \mathrm{both branches must be well-formed
-$$
-
-$$
-\mathrm{`if constexpr (cond)` : \mathrm{only the taken branch must be well-formed
-$$
-
-```cpp
-#include <iostream>
-#include <string>
-#include <type_traits>
-
-template<typename T>
-std::string type_name() {
-    if constexpr (std::is_integral_v<T>) {
-        return "integral";
+description: ""integral";
     } else if constexpr (std::is_floating_point_v<T>) {
         return "floating_point";
     } else if constexpr (std::is_pointer_v<T>) {

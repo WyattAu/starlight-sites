@@ -1,22 +1,6 @@
 ---
 title: Linux Firewalls
-description: "Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux..."
-
----
-
-## Netfilter Framework
-
-Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other
-Packet manipulation. It is the foundation for all Linux firewall tools — iptables, nftables,
-Firewalld, and ufw are all frontends to Netfilter.
-
-### Hooks
-
-Netfilter defines five hook points in the network stack where packets can be inspected and modified:
-
-```mermaid
-flowchart LR
-    IN["Incoming Packet"] --> PRE["PREROUTING"]
+description: ""Incoming Packet"] --> PRE["PREROUTING"]
     PRE --> DECIDE{"Routing<br />Decision"}
     DECIDE -->|Local| INPUT["INPUT"]
     DECIDE -->|Forward| FORWARD["FORWARD"]

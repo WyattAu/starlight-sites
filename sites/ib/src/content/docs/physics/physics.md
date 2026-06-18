@@ -1,44 +1,6 @@
 ---
 title: Physics
-description: "This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher..."
----
-
-## IB Physics -- Course Overview
-
-This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The
-Course is available at both Standard Level (SL) and Higher Level (HL), with HL students covering
-Additional material in greater depth.
-
----
-
-## Course Structure
-
-The syllabus is organised into five thematic areas, labelled A through E. Each theme contains core
-Material studied at both SL and HL, with additional AHL (Additional Higher Level) extension content
-For HL students. The course also includes a practical programme culminating in the Internal
-Assessment (IA).
-
-| Theme | Title                            | SL Sub-topics | AHL Sub-topics |
-| :---- | :------------------------------- | :------------ | :------------- |
-| A     | Space, Time and Motion           | A.1--A.3      | A.4--A.5       |
-| B     | The Particulate Nature of Matter | B.1--B.4      | B.5--B.7       |
-| C     | Wave Behaviour                   | C.1--C.4      | C.5            |
-| D     | Fields                           | D.1--D.4      | D.5            |
-| E     | Nuclear and Quantum Physics      | E.1--E.2      | E.3--E.4       |
-
----
-
-## Theme A: Space, Time and Motion
-
-This foundational theme covers the mechanics of motion, forces, energy, and the behaviour of rigid
-Bodies. It provides the kinematic and dynamic tools upon which much of the subsequent syllabus
-Depends.
-
-**SL content includes:**
-
-- **A.1 Kinematics:** Describing motion using displacement, velocity, and acceleration; the SUVAT
-  equations for uniformly accelerated motion; projectile motion.
-- **A.2 Forces and Momentum:** Newton"s laws of motion; free-body diagrams; linear momentum and
+description: ""s laws of motion; free-body diagrams; linear momentum and
   impulse; conservation of momentum; elastic and inelastic collisions; centripetal acceleration and
   force.
 - **A.3 Work, Energy and Power:** Work done by a force; kinetic and potential energy; conservation

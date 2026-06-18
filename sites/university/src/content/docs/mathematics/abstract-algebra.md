@@ -5,32 +5,7 @@ tags:
   - University Maths
 categories:
   - University Maths
-description: "is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,..."
----
-
-## 1. Introduction
-
-### 1.1 What is Abstract Algebra?
-
-**Abstract algebra** is the study of algebraic structures — sets equipped with operations satisfying
-certain axioms. Rather than studying specific objects (numbers, matrices, polynomials) in isolation,
-abstract algebra identifies the common structural patterns they share and studies these patterns in
-their full generality.
-
-The central objects of study are **groups**, **rings**, and **fields**. Each adds successive layers
-of algebraic structure:
-
-- **Groups:** A set with one binary operation satisfying closure, associativity, identity, and
-  inverses.
-- **Rings:** A set with two binary operations (addition and multiplication) where addition is
-  abelian, multiplication is associative, and the distributive laws hold.
-- **Fields:** A ring in which every nonzero element has a multiplicative inverse.
-
-### 1.2 Motivation
-
-Abstract algebra arises by definition from several directions:
-
-- **Number theory:** Fermat"s little theorem and Euler’s theorem are most by definition understood
+description: ""s little theorem and Euler’s theorem are most by definition understood
   through the lens of group theory. The structure of $\mathbb{Z}/n\mathbb{Z}$ and its units
   underpins modular arithmetic.
 - **Equation solving:** The question "which polynomial equations can be solved by radicals?"

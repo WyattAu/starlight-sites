@@ -1,34 +1,6 @@
 ---
 title: Astrophysics
-description: "The (AU) is the mean Earth--Sun distance, defined as exactly 149,597,870,700 m ( Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Physics
-  - ALevel
-categories:
-  - Physics
-
----
-
-## Astrophysics
-
-> **Info:** Board Coverage AQA Paper 2 (Option 9) | Edexcel CP5 (Option 9) | OCR (A) Paper 2 (Option D)
-## 1. Astronomical Distances and Measurements
-
-### Astronomical Units of Distance
-
-**Definition.** The **astronomical unit** (AU) is the mean Earth--Sun distance, defined as exactly
-149,597,870,700 m (approximately $1.50 \times 10^{11}$ m).
-
-**Definition.** The **light-year** (ly) is the distance travelled by light in a vacuum in one Julian
-Year:
-
-$$1\;\mathrm{ly} = c \times 1\;\mathrm{year} = 3.00 \times 10^8 \times 3.156 \times 10^7 = 9.46 \times 10^{15}\;\mathrm{m}$$
-
-**Definition.** The **parsec** (pc) is the distance at which one astronomical unit subtends an angle
-Of one arcsecond:
-
-$$1\;\mathrm{pc} = \frac◆LB◆1\;\mathrm{AU}◆RB◆◆LB◆\tan(1"')◆RB◆ \approx \frac◆LB◆1.50 \times 10^{11}◆RB◆◆LB◆4.848 \times 10^{-6}◆RB◆ = 3.09 \times 10^{16}\;\mathrm{m}$$
+description: "")◆RB◆ \approx \frac◆LB◆1.50 \times 10^{11}◆RB◆◆LB◆4.848 \times 10^{-6}◆RB◆ = 3.09 \times 10^{16}\;\mathrm{m}$$
 
 **Key conversions:**
 

@@ -1,33 +1,6 @@
 ---
 title: Period 7 (1890-Present)
-description: "Progressivism was a reform movement that sought to address the social, political, and economic problems caused by industrialisation, urbanisation, and..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - ap
-  - ap-history
-categories:
-  - ap-history
-
----
-
-## The Progressive Era (1890-1920)
-
-### Origins of Progressivism
-
-Progressivism was a reform movement that sought to address the social, political, and economic
-problems caused by industrialisation, urbanisation, and corruption. Progressives believed that
-government should take an active role in regulating business, protecting workers, and promoting
-social justice.
-
-### Key Progressive Reforms
-
-- **Muckrakers**: Journalists who exposed corruption and social problems -- Ida Tarbell (_History of
-  Standard Oil_), Upton Sinclair (_The Jungle_, led to the Meat Inspection Act and Pure Food and
-  Drug Act, 1906), Lincoln Steffens (_The Shame of the Cities_), Jacob Riis (_How the Other Half
-  Lives_)
-- **Political reforms**: Initiative, referendum, recall, direct election of senators (17th
-  Amendment, 1913), primary elections, commission and city manager forms of government
-- **Trust-busting**: Theodore Roosevelt"s "Square Deal"; Northern Securities Company case (1902);
+description: ""s "Square Deal"; Northern Securities Company case (1902);
   Elkins Act (1903) and Hepburn Act (1906) strengthened railroad regulation; William Howard Taft
   brought more antitrust suits than Roosevelt
 - **Conservation**: Roosevelt established national parks, forests, and monuments; Newlands

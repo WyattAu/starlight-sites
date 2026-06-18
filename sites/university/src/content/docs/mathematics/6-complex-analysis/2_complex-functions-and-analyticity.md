@@ -3,55 +3,7 @@ title: Complex Functions and Analyticity
 tags:
   - Mathematics
   - University
-description: "Complex Functions and Analyticity: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 2.1 Complex Functions
-
-A **complex function** is a function $f : D \subseteq \mathbb{C} \to \mathbb{C}$. We can write
-$f(z) = u(x, y) + iv(x, y)$ where $z = x + iy$ and $u, v$ are real-valued functions.
-
-**Example.** $f(z) = z^2 = (x + iy)^2 = (x^2 - y^2) + i(2xy)$. Here $u = x^2 - y^2$ and $v = 2xy$.
-
-**Example.** $f(z) = \bar{z} = x - iy$. Here $u = x$ and $v = -y$.
-
-**Example.** $f(z) = |z|^2 = x^2 + y^2$. Here $u = x^2 + y^2$ and $v = 0$.
-
-### 2.2 Limits and Continuity
-
-The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$There exists
-$\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
-
-Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
-More restrictive.
-
-**Proposition 2.1.** $\lim_{z \to z_0} f(z) = L$ if and only if
-$\lim_{(x,y) \to (x_0, y_0)} u(x, y) = a$ And $\lim_{(x,y) \to (x_0, y_0)} v(x, y) = b$ where
-$L = a + bi$.
-
-**Definition.** $f$ is **continuous** at $z_0$ if $\lim_{z \to z_0} f(z) = f(z_0)$.
-
-<details>
-<summary>Solution</summary>
-
-**Problem.** Show that $\lim_{z \to 0} \frac{\bar{z}}{z}$ does not exist.
-
-Let $z = re^{i\theta}$. Then $\frac{\bar{z}}{z} = e^{-2i\theta}$. As $z \to 0$ along different Rays
-($\theta = 0, \pi/2, \pi/4$Etc.), the ratio takes different values ($1, -1, -i$Etc.). Since the
-limit depends on the direction of approach, it does not exist.
-
-**Problem.** Determine whether $f(z) = \frac{z^2 - 1}{z - 1}$ is continuous at $z = 1$.
-
-For $z \neq 1$: $f(z) = z + 1$. The limit as $z \to 1$ is $2$But $f(1)$ is undefined (division by
-zero). If we define $f(1) = 2$Then $f$ becomes continuous at $z = 1$.
-
-</details>
-
-### 2.3 The Derivative
-
-**Definition.** $f$ is **differentiable** at $z_0$ if
-
-$$f"(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
+description: ""(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
 
 Exists (and is independent of how $h \to 0$ in $\mathbb{C}$).
 

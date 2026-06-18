@@ -1,31 +1,6 @@
 ---
 title: Further Calculus
-description: "This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
-date: 2026-04-14
-tags:
-  - highers
-  - highers-maths
-categories:
-  - highers-maths
-
----
-
-:::info
-
-This chapter covers **Advanced Higher** Mathematics content.
-
-## Further Differentiation
-
-### Implicit Differentiation
-
-When a function is defined implicitly (e.g., $x^2 + y^2 = 25$), differentiate both sides with
-Respect to $x$Treating $y$ as a function of $x$.
-
-$$
-\frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}
-$$
-
-This is the chain rule applied to $y(x)^n$: $\frac{d}{dx}[y^n] = ny^{n-1} \cdot y"(x)$.
+description: ""(x)$.
 
 **Example:** Find $\dfrac{dy}{dx}$ for $x^2 + y^2 = 25$.
 

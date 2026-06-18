@@ -1,52 +1,6 @@
 ---
 title: Functions
-description: "Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-18
-tags:
-  - Kotlin
-categories:
-  - Kotlin
----
-
-## Function Declarations
-
-Kotlin uses the `fun` keyword. The return type follows the parameter list, separated by a colon.
-
-```kotlin
-fun add(a: Int, b: Int): Int {
-    return a + b
-}
-
-// Single-expression body -- return type can be inferred
-fun add(a: Int, b: Int) = a + b
-
-// Unit return type (equivalent to void in Java)
-fun log(message: String) {
-    println(message)
-}
-// Unit is explicit here
-fun log(message: String): Unit { println(message) }
-```
-
-## Default Parameters
-
-Parameters can have default values, eliminating the need for method overloading in most cases.
-
-```kotlin
-fun connect(
-    host: String,
-    port: Int = 443,
-    timeout: Long = 30_000,
-    useTls: Boolean = true
-): Connection {
-    // ...
-}
-```
-
-Call with positional arguments or named arguments:
-
-```kotlin
-connect("example.com")                    // all defaults
+description: ""example.com")                    // all defaults
 connect("example.com", 8080)              // port=8080, rest default
 connect("example.com", timeout = 60_000)  // host + timeout, rest default
 connect(timeout = 60_000, host = "example.com")  // any order with named args

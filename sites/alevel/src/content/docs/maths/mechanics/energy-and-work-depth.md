@@ -1,18 +1,6 @@
 ---
 title: Energy and Work (Extended)
-description: "This document provides a thorough treatment of the work-energy principle, power, conservation of Energy, and elastic potential energy with proofs and..."
-date: 2026-04-23T00:00:00.000Z
-tags: [Mathematics, ALevel]
-categories: [Mathematics]
-
----
-
-## Energy and Work (Extended Treatment)
-
-This document provides a thorough treatment of the work-energy principle, power, conservation of
-Energy, and elastic potential energy with proofs and applications.
-
-:::info Energy methods often provide elegant shortcuts in mechanics problems. Where a Newton"s-law
+description: ""s-law
 approach Requires solving differential equations, an energy approach may give the answer in a single
 step.
 :::

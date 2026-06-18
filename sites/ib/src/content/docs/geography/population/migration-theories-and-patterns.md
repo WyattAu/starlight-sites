@@ -1,28 +1,6 @@
 ---
 title: Migration Theories and Patterns
-description: "Migration is the movement of people from one place to another with the intention of settling, Permanently or temporarily, in the new location. Migration can..."
-
----
-
-# Migration Theories and Patterns
-
-## Definitions and Classifications
-
-Migration is the movement of people from one place to another with the intention of settling,
-Permanently or temporarily, in the new location. Migration can be classified along several
-Dimensions:
-
-| Dimension         | Categories                                                                           | Notes                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
-| **Direction**     | Internal (within a country), international (crossing a national border)              | Internal migration includes rural-urban, urban-urban, and rural-rural        |
-| **Duration**      | Temporary (seasonal, circular), permanent                                            | Circular migration involves repeated movement between origin and destination |
-| **Voluntariness** | Voluntary (economic, social), forced (conflict, persecution, environmental disaster) | The distinction is often blurred in practice                                 |
-| **Distance**      | Short-distance, long-distance, intercontinental                                      | Ravenstein observed that most migration is over short distances              |
-| **Legal status**  | Regular (documented), irregular (undocumented)                                       | Irregular migrants lack legal authorisation to enter, stay, or work          |
-
-## Theoretical Frameworks
-
-### Ravenstein"s Laws of Migration (1885)
+description: ""s Laws of Migration (1885)
 
 Ernest Georg Ravenstein, based on an analysis of census data from the United Kingdom, formulated
 Several "laws" of migration that remain influential:

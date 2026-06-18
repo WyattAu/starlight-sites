@@ -1,46 +1,6 @@
 ---
 title: IB Chemistry
-description: "Complete IB Chemistry revision notes covering stoichiometry, atomic theory, bonding, thermodynamics, kinetics, equilibrium, acids and bases, redox, and organic"
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-# IB Chemistry
-
-Complete revision notes for IB Chemistry, covering the full syllabus with worked examples, common
-pitfalls, and exam-style problems.
-
-## Core Topics
-
-### Atomic Structure and Periodicity
-
-- **[Atomic Theory](./2-atomic-structure/1_atomic-theory)** — Atomic models from Dalton to quantum
-  mechanics, electron configuration, and orbital theory
-- **[Atomic Structure and Periodicity](./2-atomic-structure/2_atomic-structure-and-periodicity)** —
-  Electron configuration and periodic trends
-- **[Periodicity](./3-periodicity/1_periodicity)** — Periodic trends, group properties, period 3
-  elements, and transition metal chemistry
-
-### Stoichiometry and States of Matter
-
-- **[Stoichiometry](./1-stoichiometry/1_stoichiometric-relationships)** — Moles, molar mass,
-  empirical formulas, gas laws, and solution chemistry
-- **[States of Matter](./1-stoichiometry/2_states-of-matter)** — Kinetic molecular theory, ideal gas
-  law, real gases, intermolecular forces, and phase diagrams
-- **[Measurement and Data Processing](./11-measurement-and-data-processing/1_measurement-and-data-processing)**
-  — Uncertainty, significant figures, error propagation, graphical analysis, and spectroscopy
-
-### Chemical Bonding
-
-- **[Chemical Bonding and Structure](./4-chemical-bonding/1_chemical-bonding)** — Ionic, covalent,
-  and metallic bonding, and molecular geometry
-- **[Chemical Bonding (Advanced)](./4-chemical-bonding/2_chemical-bonding-advanced)** — VSEPR
-  theory, hybridization, molecular orbital theory, and band theory
-
-### Energetics and Kinetics
-
-- **[Thermochemistry](./5-energetics/1_thermochemistry)** — Enthalpy, Hess"s law, bond enthalpies,
+description: ""s law, bond enthalpies,
   calorimetry, and energy cycles
 - **[Chemical Kinetics](./6-kinetics/1_chemical-kinetics)** — Rate of reaction, rate equations,
   activation energy, and collision theory

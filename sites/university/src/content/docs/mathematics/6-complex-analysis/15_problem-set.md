@@ -3,45 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: "Express in polar form and find all values of . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### Problem 1
-
-Express $z = -\sqrt{3} + i$ in polar form and find all values of $z^{1/3}$.
-
-<details>
-<summary>Solution</summary>
-
-$|z| = \sqrt{3 + 1} = 2$. Since $\mathrm{Re}(z) \lt 0$ and $\mathrm{Im}(z) \gt 0$:
-$\arg(z) = \pi - \pi/6 = 5\pi/6$.
-
-$z = 2\,e^{5\pi i/6}$.
-
-$z^{1/3} = 2^{1/3}\, e^{(5\pi/6 + 2\pi k)/3}$ for $k = 0, 1, 2$.
-
-$z_0 = 2^{1/3}\, e^{5\pi i/18}$, $z_1 = 2^{1/3}\, e^{17\pi i/18}$, $z_2 = 2^{1/3}\, e^{29\pi i/18}$.
-
-_If you get this wrong, revise:_ Section 1.5 (Roots of Complex Numbers).
-
-</details>
-
-### Problem 2
-
-Let $f(z) = z^2 + \bar{z}^2$. Find where $f$ is differentiable and where it is analytic.
-
-<details>
-<summary>Solution</summary>
-
-$f(z) = (x + iy)^2 + (x - iy)^2 = 2(x^2 - y^2)$. So $u = 2(x^2 - y^2)$, $v = 0$.
-
-$u_x = 4x$, $u_y = -4y$, $v_x = 0$, $v_y = 0$.
-
-CR: $4x = 0 \Rightarrow x = 0$, $-4y = 0 \Rightarrow y = 0$.
-
-$f$ is differentiable only at $z = 0$ and analytic nowhere.
-
-$f"(0) = 0$ (verified by direct computation).
+description: ""(0) = 0$ (verified by direct computation).
 
 _If you get this wrong, revise:_ Sections 2.4 and 3.1 (Analyticity and Cauchy-Riemann).
 

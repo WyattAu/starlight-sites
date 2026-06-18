@@ -1,34 +1,6 @@
 ---
 title: Genetics
-description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification."
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## 1. Meiosis and Genetic Variation
-
-### Recombination
-
-During Prophase I of meiosis, homologous chromosomes undergo **crossing over** at points called
-**chiasmata**. Non-sister chromatids exchange segments of DNA, producing **recombinant chromatids**
-With new combinations of alleles.
-
-Crossing over is the only mechanism that produces new allele combinations **within** a single
-Chromosome (the others --- independent assortment and random fertilisation --- operate at the
-Chromosome or organism level).
-
-### Independent Assortment
-
-During Metaphase I, each bivalent (homologous pair) aligns independently at the metaphase plate. For
-An organism with haploid number $n$Independent assortment alone can produce $2^n$ different gamete
-Genotypes.
-
----
-
-## 2. Mendelian Genetics
-
-### Mendel"s Laws
+description: ""s Laws
 
 1. **Law of Segregation**: each organism carries two alleles for each trait, which segregate during
    gamete formation so each gamete carries one allele.

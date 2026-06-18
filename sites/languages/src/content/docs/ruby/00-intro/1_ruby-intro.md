@@ -1,19 +1,6 @@
 ---
 title: Introduction to Ruby
-description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Ruby
-categories:
-  - Ruby
-
----
-
-## What Is Ruby?
-
-Ruby is a **dynamic, open-source programming language** with a focus on simplicity and productivity.
-It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro
-Matsumoto ("Matz") in Japan in 1995 and has since grown into one of the most popular programming
+description: ""Matz") in Japan in 1995 and has since grown into one of the most popular programming
 languages in the world, powering frameworks like Ruby on Rails, Sinatra, and a vast ecosystem of
 gems.
 

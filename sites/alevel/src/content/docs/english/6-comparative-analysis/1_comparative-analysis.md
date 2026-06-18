@@ -6,40 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Comparative Analysis notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
-
----
-
-# Comparative Analysis
-
-## Introduction
-
-Comparative analysis is a skill that runs through every A-Level English specification. Whether you
-are comparing two poems from an anthology, two prose texts from different periods, or a play with
-its source material, you must demonstrate that you can identify meaningful connections and
-differences between texts and construct an argument about what those comparisons reveal.
-
-Comparison is not merely listing similarities and differences. It is using the relationship between
-texts to build a more sophisticated argument than either text could support alone. Good comparative
-analysis shows how meaning is produced _in the space between texts_.
-
-This section covers the principles of comparison, practical frameworks, and strategies for writing
-comparative essays.
-
-## Key Concepts
-
-### Why We Compare
-
-Comparison serves several analytical purposes:
-
-- **Illuminates individual texts** — Seeing a text alongside another reveals aspects that might
-  otherwise go unnoticed
-- **Reveals the effects of context** — Texts from different periods treating similar themes show how
-  cultural values change
-- **Highlights authorial choices** — When two writers approach the same subject differently, the
-  contrast is analytically rich
-- **Tests critical approaches** — A feminist reading might work differently on two texts, revealing
-  the approach"s strengths and limitations
+description: ""s strengths and limitations
 - **Develops argument** — Comparison forces you to make judgements about relative emphasis,
   significance, and effectiveness
 

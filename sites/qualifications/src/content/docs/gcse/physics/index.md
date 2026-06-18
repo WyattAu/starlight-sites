@@ -1,38 +1,6 @@
 ---
 title: GCSE Physics
-description: "Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-14
-tags:
-  - gcse
-  - gcse-physics
-categories:
-  - gcse-physics
-
----
-
-# GCSE Physics
-
-Comprehensive revision notes for GCSE Physics, covering all major exam boards (AQA, Edexcel, OCR,
-WJEC).
-
-These notes cover the full GCSE Physics specification, from energy and electricity through to
-forces, waves, and electromagnetism. Each topic page includes key definitions, worked calculations,
-and exam-style questions to test your understanding. The content is mapped to the national
-curriculum and organised by topic for easy navigation.
-
-## Topics
-
-- **[1. Energy](1-energy/1_energy)**
-- **[2. Electricity](2-electricity/2_electricity)**
-- **[5. Forces](5-forces/5_forces)**
-- **[6. Waves](6-waves/6_waves)**
-- **[7. Magnetism & Electromagnetism](7-magnetism/7_magnetism)**
-
-## Topics Covered
-
-- **Energy** — energy stores and transfers, conservation of energy, specific heat capacity, latent
-  heat, efficiency, renewable and non-renewable resources, national and global energy use
-- **Electricity** — circuit symbols, current, potential difference and resistance, Ohm"s law, series
+description: ""s law, series
   and parallel circuits, power and energy transfer, domestic electricity, the National Grid
 - **Forces** — scalar and vector quantities, Newton's laws, weight and mass, resultant forces, work
   done, momentum, stopping distances, elasticity, pressure in fluids

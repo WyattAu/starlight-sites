@@ -1,28 +1,6 @@
 ---
 title: Immunology
-description: "A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen."
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - Biology
-categories:
-  - DSE
-  - Biology
-
----
-
-## Pathogens
-
-### Types of Pathogens
-
-A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge
-of four main types of pathogen.
-
-| Pathogen Type | Structure                                                                                                                | Examples of Diseases                                       | Key Features                                                                                                                                 |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bacteria      | Prokaryotic cells; no nucleus; cell wall (peptidoglycan); single circular chromosome; 70S ribosomes; plasmids            | Cholera, tuberculosis, gonorrhoea, tetanus, syphilis       | Reproduce by binary fission (rapid, every 20 min); produce toxins (endotoxins and exotoxins); most are free-living; treated with antibiotics |
-| Viruses       | Non-cellular; protein coat (capsid) surrounding nucleic acid (DNA or RNA); no ribosomes; no metabolism; no cell membrane | Influenza, HIV/AIDS, COVID-19, measles, polio, HPV         | Obligate intracellular parasites; replicate inside host cells using host machinery; not affected by antibiotics                              |
-| Fungi         | Eukaryotic; chitin cell wall; true nucleus; 80S ribosomes; can be unicellular (yeasts) or multicellular (moulds)         | Athlete"s foot, ringworm, thrush (Candida)                 | Reproduce by spores; saprotrophic nutrition; treated with antifungal drugs                                                                   |
+description: ""s foot, ringworm, thrush (Candida)                 | Reproduce by spores; saprotrophic nutrition; treated with antifungal drugs                                                                   |
 | Protozoa      | Eukaryotic; unicellular; no cell wall; true nucleus; some have flagella or cilia                                         | Malaria (Plasmodium), amoebic dysentery, sleeping sickness | Often have complex life cycles involving multiple hosts; transmitted by vectors (e.g., mosquitoes for malaria)                               |
 
 ### How Pathogens Cause Disease

@@ -1,26 +1,6 @@
 ---
 title: "Quantum and Nuclear Physics"
-description: "IB Physics — photoelectric effect, photon model, de Broglie wavelength, energy levels, spectra, radioactive decay, nuclear reactions, and binding energy."
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## The Photoelectric Effect
-
-### Observations
-
-When light of sufficiently high frequency is incident on a metal surface, electrons are ejected. Key
-Experimental observations:
-
-1. **Threshold frequency:** Electrons are emitted only if $f \ge f_0$Regardless of intensity.
-2. **Instantaneous emission:** No detectable time delay between illumination and emission.
-3. **Maximum kinetic energy** of photoelectrons depends on frequency, not intensity.
-4. **More intensity** (at $f \ge f_0$) produces more photoelectrons, not faster ones.
-
-These observations cannot be explained by the classical wave model of light.
-
-### Einstein"s Explanation (1905)
+description: ""s Explanation (1905)
 
 Light consists of discrete packets of energy called **photons**. Each photon has energy:
 

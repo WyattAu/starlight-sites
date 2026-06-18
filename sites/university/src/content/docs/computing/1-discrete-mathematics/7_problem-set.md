@@ -3,43 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: "Prove that is a tautology using a truth table. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-**Problem 1.** Prove that $(p \implies q) \lor (q \implies p)$ is a tautology using a truth table.
-
-<details>
-<summary>Solution</summary>
-
-| $p$ | $q$ | $p \implies q$ | $q \implies p$ | disjunction |
-| --- | --- | -------------- | -------------- | ----------- |
-| T   | T   | T              | T              | T           |
-| T   | F   | F              | T              | T           |
-| F   | T   | T              | F              | T           |
-| F   | F   | T              | T              | T           |
-
-All rows give $T$So it is a tautology.
-
-If you get this wrong, revise: Section 1.1 and Section 1.4.
-
-</details>
-
-**Problem 2.** Convert $(\neg p \lor q) \land (r \lor \neg s)$ to DNF.
-
-<details>
-<summary>Solution</summary>
-
-The formula is a conjunction of two clauses. Distribute $\land$ over $\lor$:
-
-$(\neg p \lor q) \land (r \lor \neg s) = (\neg p \land r) \lor (\neg p \land \neg s) \lor (q \land r) \lor (q \land \neg s)$.
-
-This is in DNF (disjunction of four terms, each a conjunction of two literals).
-
-If you get this wrong, revise: Section 1.6.
-
-</details>
-
-**Problem 3.** Negate: "For every real number $x$There exists a real number $y$ such that $y \gt x$."
+description: ""For every real number $x$There exists a real number $y$ such that $y \gt x$."
 
 <details>
 <summary>Solution</summary>

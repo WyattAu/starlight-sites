@@ -1,39 +1,6 @@
 ---
 title: Systemd
-description: "Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,..."
-
----
-
-## Systemd Architecture
-
-Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing
-A suite of tools for managing services, devices, mounts, timers, and more. It replaced the
-Traditional SysV init system and is used by default on virtually every major Linux distribution.
-
-```mermaid
-graph TD
-    A[systemd PID 1] --> B[Service Manager]
-    A --> C[Device Manager]
-    A --> D[Mount Manager]
-    A --> E[Timer Manager]
-    A --> F[Socket Manager]
-    A --> G[Target Manager]
-    A --> H[Swap Manager]
-    A --> I[Journal Daemon - journald]
-    A --> J[Logind - User Session Manager]
-    A --> K[udevd - Device Manager]
-    A --> L[resolved - DNS Resolver]
-    A --> M[Networkd - Network Manager]
-    A --> N[timesyncd - NTP Client]
-```
-
-### Design Principles
-
-- **Socket activation**: Services are started on-demand when a connection arrives on their socket,
-  reducing boot time and resource usage.
-- **Parallel startup**: Dependencies are resolved, and services without dependencies start in
-  parallel.
-- **Unit-based configuration**: Everything managed by systemd is represented as a "unit" with a
+description: ""unit" with a
   declarative configuration file.
 - **Cgroup tracking**: Each service runs in its own cgroup, making resource management and cleanup
   reliable.

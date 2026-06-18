@@ -1,35 +1,6 @@
 ---
 title: Sociocultural Level of Analysis
-description: "This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour."
-
----
-
-# Sociocultural Level of Analysis
-
-This section covers the sociocultural level of analysis, investigating how the social environment
-and cultural context influence behaviour.
-
-## Pages
-
-- [Social Identity Theory](./social-identity-theory) -- social identity, in-groups and out-groups,
-  social comparison, and the consequences of social categorisation.
-- [Cultural Norms and Attitudes](./cultural-norms-and-attritudes) -- cultural dimensions,
-  individualism-collectivism, enculturation, and cultural norms.
-- [Prejudice and Discrimination](./prejudice-and-discrimination) -- origins of prejudice,
-  stereotyping, scapegoating theory, and strategies for reducing prejudice.
-
-## Overview
-
-The sociocultural level of analysis (SCLOA) investigates how the social environment and cultural
-context shape behaviour, cognition, and identity. Its guiding principle is that human behaviour
-cannot be fully understood in isolation from the social groups and cultural systems in which
-individuals are embedded. This level of analysis bridges psychology with sociology and anthropology,
-drawing on cross-cultural research, social psychology experiments, and ethnographic methods to
-demonstrate that many phenomena considered universal are in fact culturally variable.
-
-Social identity theory (Tajfel and Turner, 1979) provides the theoretical backbone of SCLOA. It
-explains intergroup behaviour through three processes: social categorisation (dividing the world
-into "us" and "them"), social identification (adopting the in-group"s norms as one's own), and
+description: ""us" and "them"), social identification (adopting the in-group"s norms as one's own), and
 social comparison (evaluating the in-group favourably relative to out-groups). The minimal group
 paradigm (Tajfel et al., 1971) demonstrates that mere categorisation is sufficient to produce
 in-group favouritism, while Sherif's (1966) Robbers Cave experiment shows how real competition over

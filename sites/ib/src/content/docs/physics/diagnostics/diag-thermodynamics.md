@@ -1,25 +1,6 @@
 ---
 title: "Thermodynamics -- Diagnostic Tests"
-description: "IB Physics Thermodynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
-tableOfContents: false
----
-
-# Thermodynamics — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Ideal Gas Law vs Real Gas Behaviour
-
-**Question:**
-
-(a) Calculate the volume occupied by $2.0\,\text{mol}$ of an ideal gas at $T = 300\,\text{K}$ and
-$P = 100\,\text{atm}$. Compare this with the actual volume using the van der Waals equation with
-$a = 0.137\,\text{Pa}\,\text{m}^6\,\text{mol}^{-2}$ and
-$b = 3.87 \times 10^{-5}\,\text{m}^3\,\text{mol}^{-1}$ (values for nitrogen).
-
-(b) Explain under what conditions a real gas behaves most like an ideal gas and why.
-
-(c) A student claims that "at very low temperatures, the ideal gas law still applies because it is a
+description: ""at very low temperatures, the ideal gas law still applies because it is a
 fundamental law of nature." Refute this claim.
 
 **Solution:**

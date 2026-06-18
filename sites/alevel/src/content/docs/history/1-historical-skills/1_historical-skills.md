@@ -7,51 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History Historical Skills notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
----
-
-# Historical Skills
-
-A-Level History rewards precise analytical thinking. You must evaluate sources, construct sustained
-arguments, and engage with competing historical interpretations. This section provides the core
-toolkit for every question type.
-
-## Historical Context and Chronology
-
-Historical skills are not tied to a single period but are applied across all topics. Understanding
-how historians construct narratives from evidence is fundamental to every essay and source question
-you will face.
-
-Chronological awareness underpins strong argumentation. When evaluating significance or causation,
-you must place events in sequence and identify turning points, continuities, and changes over time.
-
-## Key Concepts and Techniques
-
-### Source Analysis
-
-Every source must be evaluated using a systematic framework:
-
-**Provenance** — who produced the source, when, where, and for whom. Provenance shapes purpose and
-reliability.
-
-- **Origin**: Where and when was the source produced?
-- **Author**: Who created it? What was their position, background, and potential bias?
-- **Audience**: Who was the intended reader or viewer? Public, private, or official?
-- **Purpose**: Why was the source created? To inform, persuade, warn, record, or propagandise?
-
-**Content** — what the source actually says or shows. Extract specific details rather than
-summarising broadly.
-
-- Identify explicit claims and implicit suggestions
-- Note tone, language, and emphasis
-- Consider what is omitted — silences can be as revealing as statements
-
-**Context** — the historical circumstances in which the source was produced. Context determines how
-a source should be read.
-
-- What events were happening at the time?
-- What was the political or cultural climate?
-- How does context affect the source"s meaning or reliability?
+description: ""s meaning or reliability?
 
 **Cross-referencing** — comparing a source with other sources or contextual knowledge to corroborate
 or challenge its claims.

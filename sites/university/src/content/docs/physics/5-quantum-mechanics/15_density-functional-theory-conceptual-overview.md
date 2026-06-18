@@ -3,31 +3,7 @@ title: "Density Functional Theory: Conceptual Overview"
 tags:
   - Physics
   - University
-description: "The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all..."
----
-
-### 14.1 The Hohenberg--Kohn Theorems
-
-**Theorem 1:** The ground-state electron density $n(\mathbf{r})$ uniquely determines the external
-potential $V_{\text{ext}(\mathbf{r})}$ (up to an additive constant), and hence the full many-body
-Hamiltonian and all ground-state properties.
-
-**Theorem 2:** The ground-state energy is a functional of the density:
-$E[n] = F_{\text{HK}[n] + \int V_{\text{ext}(\mathbf{r})n(\mathbf{r})\,d^3r}}$And the variational
-principle applies: $E_0 \leq E[n]$ for any trial density $n(\mathbf{r})$.
-
-### 14.2 Kohn--Sham Equations
-
-The interacting system is mapped to a fictitious system of non-interacting electrons in an effective
-potential:
-
-$$\left[-\frac{\hbar^2}{2m}\nabla^2 + V_{\text{eff}[n](\mathbf{r})\right]\psi_i(\mathbf{r}) = \varepsilon_i\psi_i(\mathbf{r})}$$
-
-$$n(\mathbf{r}) = \sum_{i=1}^{N}|\psi_i(\mathbf{r})|^2 \quad \text{(summing over occupied states)}$$
-
-$$V_{\text{eff} = V_{\text{ext} + V_H[n] + V_{\text{xc}[n]}}}$$
-
-$$V_H[n](\mathbf{r}) = e^2\int\frac{n(\mathbf{r}")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
+description: "")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
 
 The exchange-correlation functional $V_{\text{xc}[n]}$ contains all many-body effects beyond the
 classical Hartree approximation.

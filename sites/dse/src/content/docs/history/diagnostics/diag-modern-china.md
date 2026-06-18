@@ -1,44 +1,6 @@
 ---
 title: "Modern China -- Diagnostic Tests"
-description: "Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-tableOfContents: false
----
-
-# DSE History Diagnostic: Modern China
-
-## Unit Test 1: The Republic of China (1912-1949)
-
-**Question**
-
-(a) Explain why the early Republic of China failed to establish a stable democratic government in
-the years following the 1911 Revolution. In your answer, refer to **two** specific factors. [4
-marks]
-
-(b) Compare and contrast the approaches of Sun Yat-sen and Mao Zedong to achieving political and
-social transformation in China. [4 marks]
-
-(c) To what extent was the victory of the Chinese Communist Party in 1949 due to the weaknesses of
-the Kuomintang rather than the strengths of the CCP? [8 marks]
-
----
-
-**Worked Solution**
-
-(a) Two factors explaining the failure of the early Republic:
-
-1. **Warlordism and political fragmentation**: After the death of Yuan Shikai in 1916, China
-   fragmented under competing warlords who controlled different regions with their own armies. The
-   central government in Beijing was powerless, and the country descended into chaos. This made
-   national governance, economic development, and democratic institutions impossible to sustain.
-
-2. **Foreign imperialism continued**: Despite the 1911 Revolution, foreign powers maintained their
-   unequal treaties, extraterritorial rights, and economic dominance. The Twenty-One Demands by
-   Japan (1915) and the Treaty of Versailles decision to transfer German concessions in Shandong to
-   Japan demonstrated that the Republic could not protect Chinese sovereignty, undermining its
-   legitimacy.
-
-(Alternative: deep-rooted poverty and illiteracy; lack of a strong middle class to support
-democracy; Sun Yat-sen"s premature death in 1925; the Beiyang government's corruption and weakness.)
+description: ""s premature death in 1925; the Beiyang government's corruption and weakness.)
 
 (b) Comparison of Sun Yat-sen and Mao Zedong:
 

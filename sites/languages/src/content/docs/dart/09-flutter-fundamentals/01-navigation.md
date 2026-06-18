@@ -1,30 +1,6 @@
 ---
 title: Navigation
-description: "Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way..."
-date: 2026-04-05T00:00:00.000Z
-tags:
-  - Dart
-categories:
-  - Dart
-
----
-
-# Navigation
-
-## Navigation Overview
-
-Navigation is the mechanism by which users move between different screens, pages, or views within a
-Flutter application. Every non-trivial app needs a way to transition the user from one logical
-Destination to another, whether that is moving from a home screen to a settings page, drilling into
-A detail view, or presenting a modal dialog.
-
-There are two dominant paradigms for navigation in Flutter: imperative navigation and declarative
-Navigation.
-
-### Imperative Navigation
-
-Imperative navigation is the model inherited from many traditional UI frameworks. The developer
-Explicitly tells the framework to "go to this screen now" by calling a function that mutates the
+description: ""go to this screen now" by calling a function that mutates the
 Navigation stack:
 
 ```dart

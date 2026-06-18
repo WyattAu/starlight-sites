@@ -1,32 +1,6 @@
 ---
 title: Programming
-description: "Programming: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-date: 2026-04-14
-tags:
-  - gcse
-  - gcse-computer-science
-categories:
-  - gcse-computer-science
-
----
-
-## Programming
-
-:::info Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR J277 Paper 1 & 2 | WJEC Unit 1 &
-2
-
-## 1. Programming Concepts
-
-### 1.1 Variables and Constants
-
-A **variable** is a named storage location whose value can change during program execution.
-
-A **constant** is a named value that does not change once assigned.
-
-```python
-# Variables
-age = 15
-name = "Alice"
+description: ""Alice"
 height = 1.65
 
 # Constants (convention: UPPER_CASE)

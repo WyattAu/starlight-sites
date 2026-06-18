@@ -1,39 +1,6 @@
 ---
 title: Classes and Inheritance
-description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces."
-date: 2025-07-20T10:00:00.000Z
-tags:
-  - dart
-categories:
-  - dart
-
----
-
-## Class Fundamentals
-
-Dart is an **object-oriented language with single inheritance**. Every class implicitly extends
-`Object`. Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as
-Interfaces.
-
-### Class Declaration
-
-```dart
-class User {
-  // Fields (instance variables)
-  final String name;
-  int _age;        // Private (by convention, prefix with _)
-  String email;
-
-  // Constructor
-  User({
-    required this.name,
-    required int age,
-    required this.email,
-  }) : _age = age;
-
-  // Named constructor
-  User.guest()
-      : name = "Guest',
+description: ""Guest',
         _age = 0,
         email = '';
 

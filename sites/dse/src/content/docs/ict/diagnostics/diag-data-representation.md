@@ -1,17 +1,6 @@
 ---
 title: "Data Representation -- Diagnostic Tests"
-description: "DSE Ict Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
-tableOfContents: false
----
-
-# Data Representation — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Number Systems Conversion
-
-**Question:** (a) Convert $(\text{FA3})_{16}$ to binary and decimal. (b) Convert $(-42)_{10}$ to
-8-bit two"s complement binary. (c) Perform binary subtraction $11010110 - 01101011$ using two's
+description: ""s complement binary. (c) Perform binary subtraction $11010110 - 01101011$ using two's
 complement. (d) Explain why two's complement is preferred over sign-and-magnitude for representing
 negative numbers.
 

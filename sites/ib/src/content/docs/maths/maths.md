@@ -2,33 +2,7 @@
 title: Maths
 tags:
   - maths
-description: "This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)...."
----
-
-## IB Mathematics -- Analysis and Approaches (AA) -- Course Overview
-
-This section contains notes and study materials for IB Mathematics: Analysis and Approaches,
-Available at both Standard Level (SL) and Higher Level (HL). The course emphasises mathematical
-Rigour, formal proof, and the development of strong analytical and problem-solving skills.
-
----
-
-## Course Structure
-
-The syllabus is organised into five broad topics. Each topic contains content common to both SL and
-HL, with additional material at HL level.
-
-### 1. Number and Algebra
-
-This foundational topic covers the properties of number systems, algebraic manipulation, sequences
-And series, and the binomial theorem. It provides the algebraic tools required across all other
-Topics.
-
-- **SL content:** Arithmetic and geometric sequences and series, sigma notation, the binomial
-  theorem for positive integer exponents, logarithms (laws and solving equations), and proof by
-  mathematical induction (simple cases).
-- **HL extension:** Counting principles and the binomial theorem for rational exponents. Partial
-  fractions, complex numbers (Cartesian, polar, and exponential forms, De Moivre"s theorem, roots of
+description: ""s theorem, roots of
   complex numbers), and proof by mathematical induction (extended cases including divisibility and
   inequalities).
 

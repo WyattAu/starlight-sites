@@ -5,38 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "This page contains five full practice passages modelled after the digital SAT Reading & Writing section. Each passage is followed by annotated answers that..."
----
-
-## Overview
-
-This page contains five full practice passages modelled after the digital SAT Reading & Writing
-section. Each passage is followed by annotated answers that explain why the correct choice is right
-and why each distractor is wrong. Together these passages cover all four content domains:
-Information and Ideas, Craft and Structure, Standard English Conventions, and Expression of Ideas.
-
----
-
-## Passage 1: Literature
-
-> The old house at the end of Maple Street had been empty for so long that the neighbours had begun
-> to think of it as part of the landscape, as permanent and unchanging as the oak tree in the front
-> yard. But when Clara stepped through the front door for the first time in twenty years, the house
-> did not greet her with silence. Instead, it offered a kind of whispered chorus: the creak of
-> floorboards underfoot, the tap of a branch against a window, the distant groan of a pipe in the
-> wall. These sounds were not hostile -- they were familiar, as though the house recognised her and
-> was, in its own way, welcoming her home. Clara placed her hand on the newel post at the base of
-> the staircase and felt the worn groove where generations of hands had rested. She climbed slowly,
-> each step releasing a small sigh from the wood, until she reached the second floor. There, in the
-> room that had once been hers, she found a single item left behind: a small porcelain bird, perched
-> on the windowsill where she had placed it the day before her family departed. It was dusty but
-> intact, and when she picked it up, the weight of it in her palm was heavier than she remembered,
-> though the bird itself had not changed at all.
-
-**Q1.** Which quotation from the passage most effectively supports the claim that the house has
-personality or agency?
-
-A) "the house did not greet her with silence" B) "the neighbours had begun to think of it as part of
+description: ""the house did not greet her with silence" B) "the neighbours had begun to think of it as part of
 the landscape" C) "as permanent and unchanging as the oak tree in the front yard" D) "the branch
 against a window, the distant groan of a pipe"
 

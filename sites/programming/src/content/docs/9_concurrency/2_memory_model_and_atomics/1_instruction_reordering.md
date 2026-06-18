@@ -1,27 +1,6 @@
 ---
 title: Instruction Reordering and Happens-Before
-description: "This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buffers, the happens-before and synchronizes-with..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Instruction Reordering and Happens-Before
-
-This section covers the as-if rule and compiler reordering, CPU-level store buffers and load
-Buffers, the happens-before and synchronizes-with relationships, sequential consistency vs relaxed
-Consistency, and a demonstration of reordering effects across architectures.
-
-## The As-If Rule and Compiler Reordering
-
-The **as-if rule** [N4950 §6.9.2.1] allows the compiler to reorder any operations whose reordering
-Does not change the observable behavior of a single-threaded program. In a multi-threaded context,
-This means:
-
-> "The implementation is free to reorder operations unless an ordering constraint is imposed by the
+description: ""The implementation is free to reorder operations unless an ordering constraint is imposed by the
 > memory model."
 
 Concretely, the compiler may reorder:

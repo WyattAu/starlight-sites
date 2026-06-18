@@ -1,42 +1,6 @@
 ---
 title: "Genetics and DNA -- Diagnostic Tests"
-description: "A-Level Biology Genetics and DNA -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Genetics and DNA — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: DNA Replication and the Meselson-Stahl Experiment
-
-**Question:**
-
-DNA replication is described as semi-conservative. The Meselson-Stahl experiment (1958) provided
-evidence for this mechanism.
-
-(a) Describe the process of DNA replication, including the roles of DNA helicase, DNA polymerase,
-and DNA ligase.
-
-(b) Describe the Meselson-Stahl experiment and explain how the results supported the
-semi-conservative model of replication.
-
-(c) Explain what results would have been expected if DNA replication were **conservative** or
-**dispersive**.
-
-(d) Explain the role of **DNA primase** and **RNA primers** in DNA replication, and explain why DNA
-polymerase cannot initiate synthesis without a primer.
-
-**Solution:**
-
-(a) **DNA replication** (semi-conservative):
-
-1. **DNA helicase** unwinds the double helix by breaking the hydrogen bonds between complementary
-   base pairs, separating the two parental strands and forming a replication fork.
-2. **Free nucleotides** (activated with three phosphate groups) are attracted to their exposed
-   complementary bases on each template strand, following the base-pairing rules (A-T, C-G).
-3. **DNA polymerase** catalyses the formation of phosphodiester bonds between adjacent nucleotides,
-   joining them into a new complementary strand. DNA polymerase can only add nucleotides in the **5"
+description: ""
    to 3' direction**.
 4. On the **leading strand**, DNA polymerase synthesises continuously in the 5' to 3' direction
    towards the replication fork.

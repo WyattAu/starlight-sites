@@ -3,19 +3,7 @@ title: Sets, Relations, and Functions
 tags:
   - Computing
   - University
-description: "Sets, Relations, and Functions: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 2.1 Sets
-
-**Basic operations:**
-
-- Union: $A \cup B = \\{x : x \in A \mathrm{ or}  x \in B\\}$
-- Intersection: $A \cap B = \\{x : x \in A \mathrm{ and}  x \in B\\}$
-- Difference: $A \setminus B = \\{x : x \in A \mathrm{ and}  x \notin B\\}$
-- Complement: $A^c = U \setminus A$ (where $U$ is the universal set)
-
-**De Morgan"s Laws:**
+description: ""s Laws:**
 
 $$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
 

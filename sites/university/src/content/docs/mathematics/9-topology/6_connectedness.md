@@ -2,41 +2,7 @@
 title: Connectedness
 tags:
   - University Maths
-description: "A topological space is if there exist nonempty disjoint open sets with . Such a  Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 6.1 Connected and Disconnected Spaces
-
-**Definition.** A topological space $X$ is **disconnected** if there exist nonempty disjoint open
-sets $U, V$ with $X = U \cup V$. Such a pair $\{U, V\}$ is called a **separation** of $X$.
-
-$X$ is **connected** if it is not disconnected.
-
-Equivalently, $X$ is connected if and only if the only clopen subsets of $X$ are $\emptyset$ and
-$X$.
-
-**Example 6.1.** $[0, 1]$ is connected. $[0, 1) \cup (2, 3]$ is disconnected (with the subspace
-topology from $\mathbb{R}$).
-
-**Example 6.2.** $\mathbb{Q}$ with the subspace topology from $\mathbb{R}$ is totally disconnected:
-the only connected subsets are singletons.
-
-### 6.2 Connected Subsets of $\mathbb{R}$
-
-**Theorem 6.1.** A subset of $\mathbb{R}$ (with the standard topology) is connected if and only if
-it is an interval.
-
-(Here an **interval** is any set $I \subseteq \mathbb{R}$ with the property: if $a, b \in I$ and
-$a < c < b$, then $c \in I$.)
-
-### 6.3 Path-Connectedness
-
-**Definition.** A space $X$ is **path-connected** if for any two points $x, y \in X$, there exists a
-continuous function $\gamma : [0, 1] \to X$ with $\gamma(0) = x$ and $\gamma(1) = y$.
-
-**Proposition 6.1.** Every path-connected space is connected. The converse is false.
-
-**Example 6.3 (Topologist"s sine curve).** Let
+description: ""s sine curve).** Let
 
 $$S = \{(x, \sin(1/x)) : 0 < x \leq 1\} \cup \{(0, y) : -1 \leq y \leq 1\} \subseteq \mathbb{R}^2.$$
 

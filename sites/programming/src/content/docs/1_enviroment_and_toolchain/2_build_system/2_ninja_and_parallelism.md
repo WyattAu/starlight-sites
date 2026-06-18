@@ -1,26 +1,6 @@
 ---
 title: Ninja Build System and Parrallelism
-description: "The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While..."
-date: 2025-12-10T06:02:22.685Z
-tags:
-  - cpp
-categories:
-  - cpp
-
----
-
-The build system is responsible for orchestrating the execution of compilers, linkers, and custom
-Commands to transform source code into artifacts. While CMake generates the build instructions, it
-Does not execute them.
-
-**Ninja** is a small build system with a specific focus on speed. It differs from the legacy **GNU
-Make** by lacking high-level language features (conditionals, loops). Instead, it relies on a build
-Generator (CMake) to produce a low-level dependency graph (the `build.ninja` file), which Ninja
-Executes with minimal overhead.
-
-## Architectural Advantages over Make
-
-Legacy build systems like Make perform "Recursive Make," where a Makefile invokes other Makefiles in
+description: ""Recursive Make," where a Makefile invokes other Makefiles in
 subdirectories. This creates fragmented dependency graphs, preventing the build system From seeing
 the global state of the build.
 

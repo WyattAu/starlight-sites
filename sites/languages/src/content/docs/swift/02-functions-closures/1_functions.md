@@ -1,25 +1,6 @@
 ---
 title: Functions
-description: "Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Swift
-categories:
-  - Swift
-
----
-
-## Functions
-
-Functions are self-contained blocks of code that perform a specific task. Swift functions are
-first-class citizens: they can be assigned to variables, passed as arguments, and returned from
-other functions.
-
-### Basic Syntax
-
-```swift
-func greet(name: String) -> String {
-    return "Hello, \(name)!"
+description: ""Hello, \(name)!"
 }
 print(greet(name: "Alice"))    // Hello, Alice!
 

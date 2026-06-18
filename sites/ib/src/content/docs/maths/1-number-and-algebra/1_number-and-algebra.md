@@ -1,36 +1,6 @@
 ---
 title: Number and Algebra
-description: "Rigorous IB mathematics notes covering Number and Algebra. Includes definitions, derivations, worked examples, and exam-style problems."
-date: 2024-01-01T00:00:00Z
-tags:
-  - maths
-categories:
-  - ib
----
-
-## Sets
-
-A set is a collection of distinct elements, written by listing its members inside curly braces or by
-Specifying a property that its members satisfy.
-
-### Notation
-
-- $\emptyset$ — the empty set (contains no elements)
-- $x \in X$ — the element $x$ belongs to the set $X$
-- $x \notin X$ — the element $x$ does not belong to $X$
-- $A \subseteq B$ — $A$ is a subset of $B$: every element of $A$ is also an element of $B$
-- $|A|$ — the cardinality (number of elements) of a finite set $A$
-- $\mathcal{P}(A)$ — the power set of $A$: the set of all subsets of $A$
-
-### Set-Builder Notation
-
-A set can be defined by a property:
-
-$$
-\{x \in \mathbb{R} \mid x^2 - 4 = 0\} = \{-2, 2\}
-$$
-
-The vertical bar is read "such that."
+description: ""such that."
 
 ### Set Operations
 

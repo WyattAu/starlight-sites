@@ -1,20 +1,6 @@
 ---
 title: "Forces and Motion -- Diagnostic Tests"
-description: "DSE Physics Forces and Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
-tableOfContents: false
----
-
-# Forces and Motion — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Action-Reaction Pair Identification on an Accelerating System
-
-**Question:**
-
-A book of mass $2$ kg rests on a table. The table is on the floor of a lift that is accelerating
-upward at $3 \text{ m s}^{-2}$. (a) Draw free-body diagrams for the book and the table separately.
-(b) Identify which forces form Newton"s third law pairs. (c) Calculate the normal force the table
+description: ""s third law pairs. (c) Calculate the normal force the table
 exerts on the book, and the normal force the floor exerts on the table (table mass $= 8$ kg).
 
 **Solution:**

@@ -1,34 +1,6 @@
 ---
 title: Alleviating Back Pain
-description: "This program is a training system designed for casuals, it is expected to be executed three times per week on non-consecutive days (e.g., Monday, Wednesday,"
-date: 2025-09-08T09:17:16.135Z
-
----
-
-## Objective
-
-This program is a training system designed for casuals, it is expected to be executed three times
-per week on non-consecutive days (e.g., Monday, Wednesday, Friday). Its primary objective is to
-build a functional physique that provides postural support, specifically to alleviate associated
-back pain.
-
-Basic principles:
-
-- Progressive Overload: To stimulate muscle growth and strength adaptation, the demand on the
-  muscles must systematically increase over time. This is achieved by first mastering form, then
-  increasing repetitions, and afterwards, increasing the weight.
-- Controlled Tempo: A deliberate pace for each phase of the lift (eccentric (lowering, 5 seconds),
-  pausing at bottom (0 seconds), concentric (lifting, 2 seconds), pause at top (0 seconds)) to
-  ensure stability and eliminating momentum.
-
-## The Complete Structure
-
-| Phase & Exercise                    | Sets | Repetitions / Duration | Rest      |
-| ----------------------------------- | :--: | :--------------------: | --------- |
-| Phase 1: Activation & Stability     |      |                        |           |
-| Side-Lying External Rotation        |  2   |       12-15/side       | 30 sec    |
-| Scapular Push-up                    |  2   |         12-15          | 30 sec    |
-| Prone "Y" Raise                     |  2   |         12-15          | 30 sec    |
+description: ""Y" Raise                     |  2   |         12-15          | 30 sec    |
 | Dumbbell Glute Bridge               |  2   |         15-20          | 45 sec    |
 | Phase 2: Primary Strength           |      |                        |           |
 | Bulgarian Split Squat               |  3   |       8-12/side        | 60-90 sec |

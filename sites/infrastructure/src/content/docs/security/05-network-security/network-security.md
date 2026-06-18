@@ -1,51 +1,6 @@
 ---
 title: Network Security
-description: "A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization''s security..."
-
----
-
-## Firewalls
-
-A firewall is a network security device or software that monitors and filters incoming and outgoing
-Network traffic based on an organization's security policies.
-
-### Firewall Types
-
-| Type                   | OSI Layer    | Inspection Depth                       | Example                              |
-| ---------------------- | ------------ | -------------------------------------- | ------------------------------------ |
-| Packet filtering       | L3 (Network) | Source/destination IP, port, protocol  | iptables, nftables, PF               |
-| Stateful inspection    | L3-L4        | Connection state tracking              | iptables with conntrack, PF          |
-| Application-layer      | L7           | Application protocol content           | ModSecurity, AWS WAF                 |
-| Next-generation (NGFW) | L3-L7        | All of the above + IPS, TLS inspection | Palo Alto, Fortinet, pfSense         |
-| Web Application (WAF)  | L7           | HTTP/HTTPS request/response            | Cloudflare WAF, AWS WAF, ModSecurity |
-
-### Stateful Inspection
-
-Stateful firewalls maintain a connection table that tracks the state of each connection. They
-Understand the difference between a new connection, an established connection, and a related
-Connection.
-
-```bash
-# nftables example: stateful firewall rules
-nft add table inet filter
-nft 'add chain inet filter input { type filter hook input priority 0; policy drop; }'
-nft 'add chain inet filter output { type filter hook output priority 0; policy accept; }'
-nft 'add chain inet filter forward { type filter hook forward priority 0; policy drop; }'
-
-# Allow established/related connections
-nft add rule inet filter input ct state established,related accept
-
-# Allow loopback
-nft add rule inet filter input iif lo accept
-
-# Allow SSH (rate limited)
-nft add rule inet filter input tcp dport 22 ct state new limit rate 10/minute accept
-
-# Allow HTTPS
-nft add rule inet filter input tcp dport 443 ct state new accept
-
-# Log and drop everything else
-nft add rule inet filter input log prefix "nft-drop: " drop
+description: ""nft-drop: " drop
 ```
 
 ### Web Application Firewall (WAF)

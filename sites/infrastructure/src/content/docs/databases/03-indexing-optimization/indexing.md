@@ -1,35 +1,6 @@
 ---
 title: Indexing and Optimization
-description: "Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one..."
-tags:
-  - Databases
-categories:
-  - Databases
----
-
-## Why Indexes Matter
-
-Without an index, finding a specific row in a table of $N$ rows requires a full sequential scan,
-Which is $O(N)$. A B-tree index reduces this to $O(\log N)$ -- for a table of one billion rows, that
-Is the difference between examining one billion rows and approximately 30.
-
-Indexes are the single most impactful performance tool available to a database user. The query
-Planner cannot use an index that does not exist, and adding the wrong index wastes storage and slows
-Down writes. Understanding how indexes work internally is the difference between a query that runs
-In milliseconds and one that takes minutes.
-
-## B-Tree Structure
-
-The B-tree (Bayer and McCreight, 1972) is the default index structure in PostgreSQL, MySQL (InnoDB),
-And most relational databases. Despite the name, modern implementations use B+ trees.
-
-### Node Anatomy
-
-A B-tree is a balanced, self-sorting tree with the following properties:
-
-- Every node stores an array of **keys** and **pointers**
-- Internal nodes store keys and pointers to child nodes
-- Leaf nodes store keys and pointers to the actual table rows (or to the row"s physical location)
+description: ""s physical location)
 - The tree is always **balanced**: all leaf nodes are at the same depth
 - Every node (except the root) is at least **half full** (this is the minimum fill factor)
 

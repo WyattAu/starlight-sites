@@ -1,51 +1,6 @@
 ---
 title: Respiration (In Depth)
-description: "Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that..."
-date: 2026-04-18T00:00:00.000Z
-tags:
-  - Biology
-  - ALevel
-categories:
-  - Biology
-
----
-
-## Respiration (In Depth)
-
-> **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 4
-## 1. Overview of Cellular Respiration
-
-### 1.1 Definition and Significance
-
-Cellular respiration is the controlled release of energy from organic molecules ( glucose) to
-produce ATP. It is an exergonic, enzyme-catalysed process that occurs in every living cell.
-
-The overall equation for aerobic respiration of glucose:
-
-$$\mathrm{C_6H_{12}O_6 + 6O_2 \to 6CO_2 + 6H_2O}$$
-
-$$\Delta G = -2870\ \mathrm{kJ\ mol^{-1}}$$
-
-However, not all of this energy is captured as ATP. Approximately 40% is captured (theoretical
-maximum approximately 38 ATP; actual yield approximately 30--32 ATP). The remainder is released as
-heat, which maintains body temperature in endotherms.
-
-### 1.2 The Four Stages of Aerobic Respiration
-
-| Stage                     | Location                     | Oxygen Required? | ATP Produced (Net)  | $\mathrm{CO_2}$ Produced | $\mathrm{NADH}$ Produced | $\mathrm{FADH_2}$ Produced |
-| ------------------------- | ---------------------------- | ---------------- | ------------------- | ------------------------ | ------------------------ | -------------------------- |
-| Glycolysis                | Cytoplasm                    | No               | 2 (substrate-level) | 0                        | 2                        | 0                          |
-| Link reaction             | Mitochondrial matrix         | No               | 0                   | 2                        | 2                        | 0                          |
-| Krebs cycle               | Mitochondrial matrix         | No               | 2 (substrate-level) | 4                        | 6                        | 2                          |
-| Oxidative phosphorylation | Inner mitochondrial membrane | Yes              | $\approx$ 26--28    | 0                        | --                       | --                         |
-
-**Total per glucose molecule**: approximately 30--32 ATP (varies between cell types and organisms).
-
-## 2. Glycolysis
-
-### 2.1 Overview
-
-Glycolysis ("sugar splitting") is the first stage of both aerobic and anaerobic respiration. It
+description: ""sugar splitting") is the first stage of both aerobic and anaerobic respiration. It
 occurs in the cytoplasm and does not require oxygen. One molecule of glucose
 ($\mathrm{C_6H_{12}O_6}$6-carbon) is converted into two molecules of pyruvate ($\mathrm{CH_3COCOO^-}$3-carbon).
 

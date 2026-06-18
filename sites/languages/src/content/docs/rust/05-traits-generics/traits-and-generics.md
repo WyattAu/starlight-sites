@@ -1,25 +1,6 @@
 ---
 title: Traits and Generics
-description: "Traits are Rust''s answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are..."
-
----
-
-## Trait Definition and Implementation
-
-Traits are Rust's answer to interfaces, type classes, and concepts. They define shared behavior that
-Types can implement. Unlike inheritance, traits are composable — a type can implement any number of
-Traits.
-
-### Defining a Trait
-
-```rust
-trait Summary {
-    fn summarize(&self) -> String;
-
-    fn preview(&self) -> String {
-        let full = self.summarize();
-        if full.len() > 50 {
-            format!("{}...", &full[..50])
+description: ""{}...", &full[..50])
         } else {
             full
         }

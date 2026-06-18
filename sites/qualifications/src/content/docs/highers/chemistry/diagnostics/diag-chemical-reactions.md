@@ -1,24 +1,6 @@
 ---
 title: "Chemical Reactions -- Diagnostic Tests"
-description: "Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
-tableOfContents: false
----
-
-# Chemical Reactions -- Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Chemical Bonding
-
-**Question:**
-
-(a) Describe the difference between ionic, covalent, and dative covalent bonds, giving an example of
-each.
-
-(b) Draw the dot-and-cross diagram for the ammonium ion, $\text{NH}_4^+$, identifying the dative
-covalent bond.
-
-(c) Explain the term "electronegativity" and describe the trend in electronegativity across
+description: ""electronegativity" and describe the trend in electronegativity across
 Period 2.
 
 (d) A molecule has a permanent dipole moment. Explain what this means and describe the type of

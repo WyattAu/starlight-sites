@@ -1,32 +1,6 @@
 ---
 title: Binary Search Trees and Balanced Trees
-description: "A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And..."
-
----
-
-## Binary Search Tree Fundamentals
-
-A binary search tree (BST) is a binary tree where every node satisfies the **BST property**: for any
-Node with key $k$All keys in its left subtree are strictly less than $k$And all keys in its Right
-subtree are strictly greater than $k$.
-
-### Node Definition
-
-```python
-class BSTNode:
-    def __init__(self, key, val=None):
-        self.key = key
-        self.val = val
-        self.left = None
-        self.right = None
-        self.parent = None
-```
-
-### Search
-
-```python
-def bst_search(root, key):
-    """
+description: """"
     Search for key in BST.
     Time: O(h) where h = tree height
     Best case (balanced): O(log n)

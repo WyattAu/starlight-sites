@@ -1,10 +1,6 @@
 ---
 title: "Forces and Newton's Laws -- Diagnostic Tests"
-description: "> Tests edge cases, boundary conditions, and common misconceptions for forces an Comprehensive educational content coverage with definitions and practice proble"
-tableOfContents: false
----
-
-# Forces and Newton"s Laws — Diagnostic Tests
+description: ""s Laws — Diagnostic Tests
 
 ## Unit Tests
 

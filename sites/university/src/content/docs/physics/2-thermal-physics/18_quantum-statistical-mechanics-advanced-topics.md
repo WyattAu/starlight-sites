@@ -3,39 +3,7 @@ title: "Quantum Statistical Mechanics: Advanced Topics"
 tags:
   - Physics
   - University
-description: "The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:"
----
-
-### 18.1 Density Matrix and Ensemble Averages
-
-The **density matrix** (or density operator) provides the most general description of a quantum
-system, encompassing both pure and mixed states:
-
-$$\hat{\rho} = \sum_i p_i\,|\psi_i\rangle\langle\psi_i|$$
-
-Where $p_i$ is the probability of being in state $|\psi_i\rangle$.
-
-**Properties:**
-
-- $\text{Tr}(\hat{\rho}) = 1$ (normalisation)
-- $\hat{\rho}^\dagger = \hat{\rho}$ (hermiticity)
-- $\hat{\rho}^2 = \hat{\rho}$ if and only if the state is pure
-- $\text{Tr}(\hat{\rho}^2) \leq 1$ with equality for pure states
-
-**Ensemble averages:** $\langle \hat{A} \rangle = \text{Tr}(\hat{\rho}\hat{A})$.
-
-**Canonical ensemble:** $\hat{\rho} = \frac{1}{Z}\exp(-\beta\hat{H})$ where
-$Z = \text{Tr}[\exp(-\beta\hat{H})]$.
-
-**Von Neumann entropy:** $S = -k_B\text{Tr}(\hat{\rho}\ln\hat{\rho})$.
-
-For a pure state: $S = 0$. For a thermal state: $S > 0$ (maximum for the maximally mixed state).
-
-**Time evolution.** The von Neumann equation governs the density matrix:
-
-$$i\hbar\frac{\partial\hat{\rho}}{\partial t} = [\hat{H}, \hat{\rho}]$$
-
-This is the quantum analogue of Liouville"s equation. For a closed system, the von Neumann
+description: ""s equation. For a closed system, the von Neumann
 entropy is constant (unitary evolution preserves eigenvalues of $\hat{\rho}$).
 
 ### 18.2 Quantum Ideal Gases: General Treatment

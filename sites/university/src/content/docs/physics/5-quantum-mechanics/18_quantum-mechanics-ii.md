@@ -5,15 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description: "The is the splitting of atomic energy levels by an external electric field Comprehensive educational content coverage with definitions and practice problems."
----
-
-## 1. Perturbation Theory: Advanced Applications
-
-### 1.1 The Stark Effect
-
-The **Stark effect** is the splitting of atomic energy levels by an external electric field
-$\mathcal{E}$. For hydrogen, the perturbation is $H" = e\mathcal{E}z$ (taking the field along $z$).
+description: "" = e\mathcal{E}z$ (taking the field along $z$).
 
 **Linear Stark effect (degenerate case).** For hydrogen, states with the same $n$ but different $l$
 are degenerate. Consider the $n = 2$ manifold

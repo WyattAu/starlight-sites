@@ -1,27 +1,6 @@
 ---
 title: "Mechanics -- Diagnostic Tests"
-description: "DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
-tableOfContents: false
----
-
-# Mechanics — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Two-Stage Braking Problem
-
-**Question:**
-
-A car of mass $1500$ kg is travelling at $25 \text{ m s}^{-1}$ on a horizontal road. The driver
-applies the brakes with a constant braking force of $7500$ N. After $3$ s, the road surface changes
-to ice, reducing the braking force to $1500$ N. Find the total distance the car travels before
-coming to rest.
-
-**Solution:**
-
-**Stage 1: Braking on normal road ($t = 0$ to $t = 3$ s)**
-
-Using Newton"s second law:
+description: ""s second law:
 
 $$a_1 = \frac{F}{m} = \frac{-7500}{1500} = -5 \text{ m s}^{-2}$$
 

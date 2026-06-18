@@ -3,23 +3,7 @@ title: The Laws of Thermodynamics
 tags:
   - Physics
   - University
-description: "If system is in thermal equilibrium with system And is in thermal equilibrium with system Then is in thermal equilibrium with ."
----
-
-### 1.1 Zeroth Law and Temperature
-
-**Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$And $B$ is in thermal
-equilibrium with system $C$Then $A$ is in thermal equilibrium with $C$.
-
-This establishes **temperature** as a transitive equivalence relation: two systems are in thermal
-equilibrium if and only if they have the same temperature.
-
-**Definition.** **Temperature** is the quantity that is equal for all systems in mutual thermal
-equilibrium. The **ideal gas scale** defines temperature via
-
-$$PV = Nk_BT$$
-
-Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
+description: ""s constant.
 
 ### 1.2 First Law
 

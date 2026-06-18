@@ -1,55 +1,6 @@
 ---
 title: Data Representation
-description: "| Board | Paper | Notes | | ---------- | ------- | --------------------------------------------- | | AQA | Paper 1 | Measures of location and spread, coding..."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - Maths
-  - ALevel
-categories:
-  - Maths
-
----
-
-## Board Coverage
-
-| Board      | Paper   | Notes                                         |
-| ---------- | ------- | --------------------------------------------- |
-| AQA        | Paper 1 | Measures of location and spread, coding       |
-| Edexcel    | P1      | Similar                                       |
-| OCR (A)    | Paper 1 | Includes outlier detection                    |
-| CIE (9709) | P1, P6  | Data handling in P1; further statistics in P6 |
-
-:::info You must know when to use the sample variance formula (dividing by $n-1$) versus the
-Population variance formula (dividing by $n$). Edexcel and OCR use $n-1$ for sample data.
-:::
-
-<hr />
-
-## 1. Measures of Central Tendency
-
-### 1.1 Mean
-
-**Definition.** The mean of $n$ values $x_1, x_2, \ldots, x_n$ is
-
-$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i$$
-
-### 1.2 The mean minimises the sum of squared deviations
-
-**Theorem.** The function $S(a) = \displaystyle\sum_{i=1}^{n}(x_i - a)^2$ is minimised when
-$a = \bar{x}$.
-
-**Proof.** Expand $S(a)$:
-
-$$S(a) = \sum(x_i^2 - 2ax_i + a^2) = \sum x_i^2 - 2a\sum x_i + na^2$$
-
-$$\frac{dS}{da} = -2\sum x_i + 2na$$
-
-Setting $\dfrac{dS}{da} = 0$:
-$2na = 2\sum x_i \implies a = \dfrac◆LB◆\sum x_i◆RB◆◆LB◆n◆RB◆ = \bar{x}$.
-
-Check: $\dfrac{d^2S}{da^2} = 2n \gt 0$So this is a minimum. $\blacksquare$
-
-**Intuition.** The mean is the "centre of mass" of the data. It is the single value that best
+description: ""centre of mass" of the data. It is the single value that best
 Represents all the data points in the sense of least squares — no other value produces a smaller
 Total squared error. This is why the mean is the foundation of regression and estimation theory.
 

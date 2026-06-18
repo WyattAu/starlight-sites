@@ -3,38 +3,7 @@ title: The Cold War
 tags:
   - IB
   - History
-description: "The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning..."
----
-
-## The Cold War: A Systems-Level Analysis (1945--1991)
-
-The Cold War was a sustained period of geopolitical tension between the United States and the Soviet
-Union (USSR) and their respective allies, spanning approximately 1945 to 1991. Unlike conventional
-Conflicts, the Cold War was characterised by ideological competition, proxy wars, an arms race of
-Unprecedented scale, and the perpetual threat of nuclear annihilation. It was, in essence, a bipolar
-International system in which two superpowers -- each possessing the capacity to destroy the other
-And much of civilisation -- engaged in a global struggle for dominance without ever directly
-Confronting each other in open conventional warfare.
-
-For IB History HL Paper 3, students must demonstrate a deep understanding of the causes, key events,
-And consequences of the Cold War, as well as the ability to evaluate competing historical
-Interpretations. This document provides a rigorous, thematic treatment of the major phases of Cold
-War history, integrating political, economic, military, and diplomatic analysis.
-
----
-
-## 1. Origins of the Cold War (1945--1953)
-
-### 1.1 Ideological Foundations
-
-The Cold War was rooted in fundamentally incompatible ideological systems. The United States
-Represented liberal democratic capitalism: a system predicated on private property, free markets,
-Individual liberties, and multi-party representative government. The Soviet Union represented
-Marxist-Leninist communism: a system predicated on state ownership of the means of production,
-Central economic planning, a one-party state, and the ideological commitment to the eventual global
-Triumph of communism over capitalism.
-
-These were not merely philosophical differences. Each side regarded the other"s system as
+description: ""s system as
 Existentially threatening. American policymakers feared the spread of communism as a direct threat
 To democratic institutions and free-market capitalism. Soviet leaders, operating from a
 Marxist-Leninist framework, viewed capitalist states as inherently imperialist and believed that

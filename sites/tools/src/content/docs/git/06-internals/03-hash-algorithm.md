@@ -1,36 +1,6 @@
 ---
 title: Hash Algorithm
-description: "Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character..."
-date: 2025-06-03T14:00:00.000Z
-tags:
-  - git
-  - internals
-  - security
-  - sha256
-categories:
-  - CS
-
----
-
-## SHA-1: The Original Hash
-
-Since its creation, Git has used **SHA-1** (Secure Hash Algorithm 1) to identify all objects. Every
-Blob, tree, commit, and tag is named by the 40-character hexadecimal representation of its SHA-1
-Hash, producing a $2^{160}$ address space.
-
-### SHA-1 Properties
-
-| Property             | Value                                       |
-| -------------------- | ------------------------------------------- |
-| Output size          | 160 bits (20 bytes, 40 hex characters)      |
-| Collision resistance | $2^{80}$ (theoretical) — broken in practice |
-| Preimage resistance  | $2^{160}$ (unbroken)                        |
-| Speed                | Fast (hardware-accelerated on modern CPUs)  |
-
-### The SHA-1 Collision Problem
-
-In 2017, researchers at Google and CWI Amsterdam demonstrated the first **SHA-1 collision** (the
-"SHAttered" attack). They produced two different PDF files with the same SHA-1 hash, requiring
+description: ""SHAttered" attack). They produced two different PDF files with the same SHA-1 hash, requiring
 Approximately $2^{63.1}$ computations (far below the theoretical $2^{80}$).
 
 **Does this affect Git?** Directly, not much. The attack required significant computational

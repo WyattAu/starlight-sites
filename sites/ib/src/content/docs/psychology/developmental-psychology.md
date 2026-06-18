@@ -1,19 +1,6 @@
 ---
 title: Developmental Psychology
-description: "Developmental psychology examines how behaviour and mental processes change across the lifespan. In the IB Psychology course, this is an applied option..."
-
----
-
-# Developmental Psychology
-
-Developmental psychology examines how behaviour and mental processes change across the lifespan. In
-the IB Psychology course, this is an applied option assessed on Paper 2. It focuses on three core
-areas: attachment, cognitive development, and adolescent development. Students must be able to
-explain and evaluate developmental theories using relevant research evidence and consider cultural
-variations in developmental processes.
-
-Developmental psychology is inherently integrative because developmental processes cannot be
-explained at a single level of analysis. Attachment, for example, has biological roots (Bowlby"s
+description: ""s
 evolutionary theory, oxytocin systems), cognitive components (internal working models that shape
 expectations about relationships), and sociocultural dimensions (culturally specific caregiving
 practices as documented by Van IJzendoorn and Kroonenberg). Similarly, cognitive development is

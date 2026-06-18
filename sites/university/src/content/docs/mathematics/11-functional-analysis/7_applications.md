@@ -3,13 +3,7 @@ title: Applications
 tags:
   - Mathematics
   - University
-description: "Applications: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 7.1 Differential Equations
-
-**Example (Spectral Theory and ODEs).** Consider the Sturm-Liouville problem
-$-u"' + q(x)u = \lambda u$ on $[a, b]$ with boundary conditions $u(a) = u(b) = 0$. The inverse
+description: "" + q(x)u = \lambda u$ on $[a, b]$ with boundary conditions $u(a) = u(b) = 0$. The inverse
 operator $T = (-d^2/dx^2 + q)^{-1}$ is a compact self-adjoint operator on $L^2[a, b]$. By the
 spectral theorem, the eigenfunctions form an orthonormal basis, and the eigenvalues
 $\lambda_n \to \infty$.

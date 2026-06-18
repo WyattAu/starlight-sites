@@ -1,54 +1,6 @@
 ---
 title: "Optics -- Diagnostic Tests"
-description: "DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Optics — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Compound Lens System with Sign Convention
-
-**Question:**
-
-A converging lens of focal length $10$ cm and a diverging lens of focal length $15$ cm are placed
-$30$ cm apart on the same principal axis. An object is placed $20$ cm to the left of the converging
-lens. Find the position, nature, and magnification of the final image.
-
-**Solution:**
-
-**Sign convention:** Distances are measured from the lens. Real is positive for images (right of
-lens), and real objects are positive (left of lens).
-
-**Lens 1 (converging, $f_1 = +10$ cm):**
-
-$$\frac{1}{v_1} = \frac{1}{f_1} - \frac{1}{u_1} = \frac{1}{10} - \frac{1}{20} = \frac{2 - 1}{20} = \frac{1}{20}$$
-
-$$v_1 = 20 \text{ cm} \text{ (real image, right of lens 1)}$$
-
-This image acts as the object for lens 2. Distance from lens 2:
-
-$$u_2 = 30 - 20 = 10 \text{ cm} \text{ (real object for lens 2)}$$
-
-**Lens 2 (diverging, $f_2 = -15$ cm):**
-
-$$\frac{1}{v_2} = \frac{1}{f_2} - \frac{1}{u_2} = \frac{1}{-15} - \frac{1}{10} = \frac{-2 - 3}{30} = \frac{-5}{30} = \frac{-1}{6}$$
-
-$$v_2 = -6 \text{ cm} \text{ (virtual image, 6 cm to the left of lens 2)}$$
-
-**Position:** $6$ cm to the left of the diverging lens (i.e., $24$ cm to the right of the converging
-lens).
-
-**Magnification:**
-
-$$m_1 = -\frac{v_1}{u_1} = -\frac{20}{20} = -1$$
-
-$$m_2 = -\frac{v_2}{u_2} = -\frac{-6}{10} = 0.6$$
-
-$$m_{\text{total}} = m_1 \times m_2 = -1 \times 0.6 = -0.6$$
-
-In the "real is positive" convention, $m = -0.6$ means the image is **inverted** and **diminished**
+description: ""real is positive" convention, $m = -0.6$ means the image is **inverted** and **diminished**
 To $0.6$ times the object size.
 
 **Key misconception:** Students often forget that the image from the first lens becomes the object

@@ -1,45 +1,6 @@
 ---
 title: Algebraic Error Handling — std::optional and std::variant
-description: "and are stack-allocated, type-safe alternatives to exceptions for Representing values that may be absent or that may hold one of several alternative types."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Algebraic Error Handling
-
-`std::optional` and `std::variant` are stack-allocated, type-safe alternatives to exceptions for
-Representing values that may be absent or that may hold one of several alternative types.
-
-## 4.1 `std::optional<T>`
-
-`std::optional<T>` models a value that may or may not be present [N4950 §20.6]. It is allocated on
-The stack, stores at most one `T`And requires no heap allocation.
-
-```cpp
-#include <iostream>
-#include <optional>
-#include <string>
-#include <fstream>
-#include <sstream>
-
-std::optional<std::string> read_first_line(const std::string& path) {
-    std::ifstream file{path};
-    if (!file.is_open()) {
-        return std::nullopt;
-    }
-    std::string line;
-    if (std::getline(file, line)) {
-        return line;
-    }
-    return std::nullopt;
-}
-
-int main() {
-    auto result = read_first_line("/nonexistent/file.txt");
+description: ""/nonexistent/file.txt");
 
     if (result.has_value()) {
         std::cout << "First line: " << result.value() << "\n";

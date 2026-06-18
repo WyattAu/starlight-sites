@@ -1,38 +1,6 @@
 ---
 title: Classes and Objects
-description: "Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-18
-tags:
-  - Kotlin
-categories:
-  - Kotlin
----
-
-## Classes
-
-Classes in Kotlin are declared with the `class` keyword. They are final by default -- use `open` to
-Allow inheritance.
-
-```kotlin
-class User(val name: String, var age: Int)
-```
-
-This single line declares a class with a primary constructor, two properties (`name` is read-only,
-`age` is mutable), and no body.
-
-### Primary Constructor
-
-The primary constructor is declared in the class header. Constructor parameters can also declare
-Properties.
-
-```kotlin
-class Person(
-    val firstName: String,
-    val lastName: String,
-    var email: String
-) {
-    val fullName: String
-        get() = "$firstName $lastName"
+description: ""$firstName $lastName"
 
     init {
         require(email.contains("@")) { "Invalid email: $email" }

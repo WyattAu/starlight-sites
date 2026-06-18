@@ -1,25 +1,6 @@
 ---
 title: "Atomic Structure -- Diagnostic Tests"
-description: "QUALIFICATIONS Ilc notes: Atomic Structure -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
-tableOfContents: false
----
-
-# Atomic Structure -- Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Atomic Structure and Electronic Configuration
-
-**Question:**
-
-(a) Describe the four quantum numbers ($n$, $l$, $m_l$, $m_s$) used to describe electrons in atoms.
-State what each quantum number defines and the possible values it can take.
-
-(b) Write the full electronic configuration (using the $1s^2\, 2s^2\, 2p^6$ notation) for the
-following atoms: potassium ($Z = 19$), iron ($Z = 26$), and copper ($Z = 29$). Note any exceptions
-to the expected filling order.
-
-(c) Explain the terms "first ionisation energy" and "electron affinity." Describe the general trend
+description: "" and "electron affinity." Describe the general trend
 in first ionisation energy across Period 3.
 
 (d) The first ionisation energies of sodium, magnesium, and aluminium are $496$, $738$, and

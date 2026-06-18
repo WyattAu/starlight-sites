@@ -1,24 +1,6 @@
 ---
 title: Motion in Electromagnetic Fields
-description: "Rigorous IB physics notes covering Motion in Electromagnetic Fields. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## Uniform Fields
-
-A uniform field ($\bm{F}$) is a field with spatial invariance, therefore, a zero gradient
-($\nabla \bm{F} = 0$).
-
-## Test Charge
-
-A test charge is an idealized particle where all other properties are assumed to be negligible
-Except for the charge.
-
-## Lorentz Force Law
-
-[Coulomb"s Law](./2_electric-and-magnetic-fields#coulombs-law) is only valid for electrostatics, as
+description: ""s Law](./2_electric-and-magnetic-fields#coulombs-law) is only valid for electrostatics, as
 Magnetic force is also induced by moving charge. The combined force ($\bm{F}$) on the test charge
 ($q$) can be governed by Lorentz force law:
 

@@ -1,22 +1,6 @@
 ---
 title: "Organic Chemistry -- Diagnostic Tests"
-description: "DSE Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
-tableOfContents: false
----
-
-# DSE Chemistry Diagnostic: Organic Chemistry
-
-## Unit Test 1: Functional Group Identification from Tests
-
-**Question**
-
-An unknown organic compound $X$ has the molecular formula $C_{3}H_{6}O_{2}$. The following test
-results were obtained:
-
-| Test                                                                       | Observation            |
-| -------------------------------------------------------------------------- | ---------------------- |
-| Add solid $Na_{2}CO_{3}$                                                   | Effervescence observed |
-| Add Fehling"s solution and heat                                            | No change              |
+description: ""s solution and heat                                            | No change              |
 | Add acidified $K_{2}Cr_{2}O_{7}$ and warm                                  | Orange to green        |
 | Sweet-smelling compound obtained on heating with ethanol and $H_{2}SO_{4}$ |
 

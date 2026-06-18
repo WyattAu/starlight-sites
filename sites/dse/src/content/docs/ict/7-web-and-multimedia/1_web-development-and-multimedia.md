@@ -1,32 +1,6 @@
 ---
 title: Web Development and Multimedia
-description: "This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia..."
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - ICT
-categories:
-  - DSE
-  - ICT
-
----
-
-This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting,
-Client-side vs server-side processing, multimedia applications, and user interface design. A brief
-Introduction to HTML, CSS, and JavaScript is available in
-[../4-networking-and-internet/1_internet-and-data-communications](../4-networking-and-internet/1_internet-and-data-communications).
-
----
-
-## HTML -- Structure and Semantics
-
-### Document Structure
-
-Every HTML document follows this fundamental structure:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
+description: ""en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

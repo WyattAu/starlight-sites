@@ -1,24 +1,6 @@
 ---
 title: The Financial Sector
-description: "Commercial banks perform four key functions: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - Economics
-  - ALevel
-categories:
-  - Economics
-
----
-
-## 1. The Role of Banks
-
-### 1.1 Commercial Banks
-
-Commercial banks perform four key functions:
-
-1. **Financial intermediation**: channel funds from savers (depositors) to borrowers (loans). This
-   converts small, liquid deposits into large, illiquid loans — overcoming the mismatch between
-   savers" and borrowers' needs.
+description: "" and borrowers' needs.
 
 2. **Maturity transformation**: borrow short-term (demand deposits) and lend long-term (mortgages,
    business loans). This creates liquidity for depositors while providing long-term finance for

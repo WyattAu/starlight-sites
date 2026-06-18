@@ -1,24 +1,6 @@
 ---
 title: "Programming -- Diagnostic Tests"
-description: "Programming -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-tableOfContents: false
----
-
-# Programming -- Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Variables, Data Types, and Constants
-
-**Question:**
-
-(a) Explain the difference between a variable and a constant. Give an example of when you would use
-each.
-
-(b) State the purpose of each of the following data types and give an example of suitable data:
-integer, real/float, string, Boolean, character.
-
-(c) A program needs to store a student"s name, their age, their exam score (which may include
+description: ""s name, their age, their exam score (which may include
 decimals), and whether they have passed. State the most appropriate data type for each piece of data
 and justify your choice.
 

@@ -1,39 +1,6 @@
 ---
 title: Git Objects
-description: "At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the..."
-date: 2025-06-03T00:00:00.000Z
-tags:
-  - git
-  - fundamentals
-  - internals
-categories:
-  - CS
-
----
-
-## The Content-Addressable Filesystem
-
-At its core, Git is a **content-addressable filesystem**. It stores data as objects, each identified
-by the SHA-1 hash of its content. This is not a version control feature — it is the fundamental
-storage mechanism. Version control is built on top of it.
-
-There are four types of Git objects:
-
-| Type       | Purpose           | Contains                                                               |
-| ---------- | ----------------- | ---------------------------------------------------------------------- |
-| **blob**   | File content      | Raw file bytes (no filename, no metadata)                              |
-| **tree**   | Directory listing | List of `(mode, name, SHA-1)` entries (blobs or subtrees)              |
-| **commit** | Snapshot metadata | Tree SHA-1, parent commit(s), author, committer, message, timestamp    |
-| **tag**    | Annotated tag     | Tag name, tagger, message, target commit SHA-1, optional GPG signature |
-
-Every object is stored as a compressed file under `.git/objects/`Named by its SHA-1 hash. For
-example, an object with hash `a3f2b1c...` is stored at `.git/objects/a3/f2b1c...`.
-
-## Object Lifecycle
-
-```mermaid
-flowchart LR
-    A["File content\nor tree structure"] --> B["git hash-object -w\nor git write-tree"]
+description: ""File content\nor tree structure"] --> B["git hash-object -w\nor git write-tree"]
     B --> C["Compressed object\n.git/objects/XX/YY..."]
     C --> D["SHA-1 hash returned"]
     D --> E["Referenced by\ntree or commit"]

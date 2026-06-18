@@ -1,31 +1,6 @@
 ---
 title: Nervous System
-description: "Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action..."
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - Biology
-categories:
-  - DSE
-  - Biology
-
----
-
-## Neuron Structure and Types
-
-### Structure of a Neuron
-
-Neurons (nerve cells) are the fundamental functional units of the nervous system. They are
-specialised for transmitting electrical impulses (action potentials) from one part of the body to
-another.
-
-| Component        | Structure                                                    | Function                                                                                             |
-| ---------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| Cell body (soma) | Contains the nucleus, cytoplasm, and organelles              | Controls metabolic activity of the neuron; synthesises neurotransmitters                             |
-| Dendrites        | Short, branched extensions from the cell body                | Receive impulses from other neurons or sensory receptors; transmit towards the cell body             |
-| Axon             | Long, single fibre extending from the cell body              | Carries impulses away from the cell body towards the axon terminal                                   |
-| Myelin sheath    | Fatty insulating layer around the axon                       | Insulates the axon; speeds up impulse transmission by saltatory conduction                           |
-| Nodes of Ranvier | Gaps in the myelin sheath at regular intervals (~1 mm apart) | Allow ions to flow in/out of the axon; action potential "jumps" between nodes (saltatory conduction) |
+description: ""jumps" between nodes (saltatory conduction) |
 | Axon terminal    | Branched endings of the axon                                 | Release neurotransmitters into the synaptic cleft to stimulate the next neuron or effector           |
 | Schwann cells    | Cells that form the myelin sheath (in the PNS)               | Wrap around the axon, depositing layers of lipid (myelin) that insulate it                           |
 

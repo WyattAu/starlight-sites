@@ -3,12 +3,7 @@ title: Series Solutions
 tags:
   - Mathematics
   - University
-description: "For an ODE where and are analytic near Substitute the Power series and solve for Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 6.1 Power Series Method
-
-For an ODE $y"' + p(x)y' + q(x)y = 0$ where $p$ and $q$ are analytic near $x_0$Substitute the Power
+description: "" + p(x)y' + q(x)y = 0$ where $p$ and $q$ are analytic near $x_0$Substitute the Power
 series $y = \sum_{n=0}^{\infty} a_n (x - x_0)^n$ and solve for the coefficients.
 
 ### 6.2 Ordinary and Regular Singular Points

@@ -3,22 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: "A particle of mass is placed on top of a smooth sphere of radius . It is given a tiny nudge so it begins to slide. At what angle does it leave the surface..."
----
-
-### Problem 1
-
-A particle of mass $m$ is placed on top of a smooth sphere of radius $R$. It is given a tiny nudge
-so it begins to slide. At what angle $\theta$ does it leave the surface of the sphere?
-
-<details>
-<summary>Solution</summary>
-
-Energy conservation (starting from rest at the top):
-
-$$mgR = mgR\cos\theta + \frac{1}{2}mR^2\dot{\theta}^2 \implies \dot{\theta}^2 = \frac{2g(1 - \cos\theta)}{R}$$
-
-Newton"s second law in the radial direction:
+description: ""s second law in the radial direction:
 
 $$mg\cos\theta - N = mR\dot{\theta}^2 = 2mg(1 - \cos\theta)$$
 

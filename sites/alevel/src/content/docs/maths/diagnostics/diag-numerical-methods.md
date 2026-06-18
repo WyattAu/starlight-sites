@@ -1,27 +1,6 @@
 ---
 title: "Numerical Methods -- Diagnostic Tests"
-description: "A-Level Maths Numerical Methods -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
-tableOfContents: false
----
-
-# Numerical Methods — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for numerical methods.
-
-### UT-1: Newton-Raphson Divergence Near a Turning Point
-
-**Question:**
-
-The function $f(x) = x^3 - 2x + 2$ has a root near $x = -1.77$.
-
-**(a)** Show that $f(x) = 0$ has exactly one real root.
-
-**(b)** Apply the Newton-Raphson formula with initial value $x_0 = 0$. Compute $x_1$, $x_2$And $x_3$.
-Describe the behaviour of the iteration.
-
-**(c)** Explain why the iteration fails to converge, referring to the value of $f"(x_0)$ and the
+description: ""(x_0)$ and the
 geometry of the Newton-Raphson method.
 
 **(d)** Find a value of $x_0$ for which the Newton-Raphson method does converge to the root.

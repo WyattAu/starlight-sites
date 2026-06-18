@@ -1,13 +1,6 @@
 ---
 title: Introduction to Algorithms
-description: "An algorithm is a finite sequence of well-defined instructions that takes an input and produces an Output. This definition is deceptively simple. In..."
-
----
-
-## What Algorithms Are
-
-An algorithm is a finite sequence of well-defined instructions that takes an input and produces an
-Output. This definition is deceptively simple. In practice, the gap between "an algorithm that
+description: ""an algorithm that
 Produces the correct answer" and "an algorithm that produces the correct answer fast enough to
 Matter" is where most of the engineering happens.
 

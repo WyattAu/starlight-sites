@@ -1,57 +1,6 @@
 ---
 title: Defining Concepts and Requires Clauses
-description: "C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Defining Concepts and Requires Clauses
-
-C++20 introduced **concepts** --- named requirements for template parameters that allow the compiler
-To check, at the point of instantiation, whether a type satisfies a set of constraints. Concepts
-Make template requirements **explicit**, **named**, and **composable**, transforming template
-Metaprogramming from an implicit contract into a readable interface.
-
-## The `concept` Keyword
-
-A **concept** is a named compile-time predicate that evaluates to `true` or `false` for a given set
-Of template arguments [N4950 §18.4]. The syntax is defined in [N4950 §13.9.3]:
-
-```cpp
-template <template-parameter-list>
-concept concept-name = constraint-expression;
-```
-
-A concept is declared with the `concept` keyword and must be defined at namespace scope. The
-Constraint-expression on the right-hand side is a **constant expression of type `bool`** [N4950
-§13.5.3]. The concept evaluates to `true` if the constraint-expression is satisfied for the given
-Template arguments.
-
-```cpp
-#include <concepts>
-#include <iostream>
-
-template<typename T>
-concept Addable = requires(T a, T b) {
-    { a + b } -> std::convertible_to<T>;
-};
-
-template<typename T>
-concept HasSize = requires(T t) {
-    { t.size() } -> std::convertible_to<std::size_t>;
-};
-
-template<Addable T>
-T add(T a, T b) {
-    return a + b;
-}
-
-int main() {
-    std::cout << add(3, 4) << "\n";        // OK: int is Addable
+description: ""\n";        // OK: int is Addable
     // std::cout << add("a", "b") << "\n"; // Error: const char* is not Addable
 }
 ```

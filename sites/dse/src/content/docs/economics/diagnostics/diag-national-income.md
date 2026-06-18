@@ -1,43 +1,6 @@
 ---
 title: "National Income and Macroeconomic Indicators -- Diagnostic Tests"
-description: "DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
-tableOfContents: false
----
-
-# National Income and Macroeconomic Indicators — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: GDP Calculation Methods
-
-**Question:** An economy has the following data (in billions of HKD): Consumption $= 800$Investment
-$= 300$Government spending $= 250$Exports $= 400$Imports $= 350$Subsidies $= 60$Indirect taxes
-$= 100$Depreciation $= 120$Net factor income from abroad $= -20$. Calculate: (a) GDP by expenditure
-method, (b) GNP, (c) NNP, (d) National Income.
-
-**Solution:**
-
-(a) GDP by expenditure method:
-$GDP = C + I + G + (X - M) = 800 + 300 + 250 + (400 - 350) = HK\$1400$ billion.
-
-(b) $GNP = GDP + Net factor income from abroad = 1400 + (-20) = HK\$1380$ billion.
-
-(c) $NNP = GNP - Depreciation = 1380 - 120 = HK\$1260$ billion.
-
-(d) $National Income = NNP - Indirect taxes + Subsidies = 1260 - 100 + 60 = HK\$1220$ billion.
-
-### UT-2: Real vs Nominal GDP and GDP Deflator
-
-**Question:** Country X has the following data:
-
-| Year | Nominal GDP (billion) | GDP Deflator (base year = 2015) |
-| ---- | --------------------- | ------------------------------- |
-| 2015 | 500                   | 100                             |
-| 2020 | 700                   | 125                             |
-| 2025 | 900                   | 150                             |
-
-(a) Calculate real GDP for each year. (b) Calculate the real GDP growth rate from 2020 to 2025. (c)
-A student claims "Nominal GDP rose 80% from 2015 to 2025, so the economy grew 80%." Explain why this
+description: ""Nominal GDP rose 80% from 2015 to 2025, so the economy grew 80%." Explain why this
 is incorrect. (d) If the population grew from 10 million (2015) to 12 million (2025), calculate real
 GDP per capita for 2015 and 2025.
 

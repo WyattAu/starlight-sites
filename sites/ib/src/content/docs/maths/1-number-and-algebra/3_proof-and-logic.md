@@ -1,26 +1,6 @@
 ---
 title: Proof and Logic
-description: "Rigorous IB mathematics notes covering Proof and Logic. Includes definitions, derivations, worked examples, and exam-style problems."
-date: 2024-01-01T00:00:00Z
-tags:
-  - IB
-categories:
-  - ib
----
-
-# Proof and Logic
-
-This note covers **IB Mathematics AA — Topic 1.4: Proof** in full depth. Everything here is
-Examinable at both Standard Level and Higher Level, with HL extensions marked where relevant.
-
-## 1. Logic Foundations
-
-### 1.1 Propositions and Truth Values
-
-A **proposition** is a declarative sentence that is either **true** or **false** — never both, never
-Neither.
-
-"7 is prime" is a proposition (true). "Solve for x" is not a proposition. "This sentence is false"
+description: ""7 is prime" is a proposition (true). "Solve for x" is not a proposition. "This sentence is false"
 Is not a proposition (it is paradoxical).
 
 The truth value of a proposition $P$ is denoted $\mathcal{T}(P) \in \{T, F\}$.

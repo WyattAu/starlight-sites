@@ -1,49 +1,6 @@
 ---
 title: "Differential Equations -- Diagnostic Tests"
-description: "> Tests edge cases, boundary conditions, and common misconceptions for different Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-14
-tags:
-  - ap
-  - ap-maths
-categories:
-  - ap-maths
-
----
-
-# Differential Equations — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for differential equations.
-
-### UT-1: Separable Equation with Hidden Singular Solutions
-
-**Question:**
-
-Solve the initial value problem $\dfrac{dy}{dx} = y^{2/3}$ with $y(0) = 0$.
-
-A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$Obtaining
-$3y^{1/3} = x + C$. Using $y(0) = 0$: $C = 0$So $y = \left(\dfrac{x}{3}\right)^3$.
-
-(a) Verify that $y(x) = 0$ (the constant zero function) is also a solution to the IVP. (b) Explain
-why the existence and uniqueness theorem for first-order ODEs does not apply here. (c) Find a third
-solution to the IVP (showing the solution is not unique).
-
-**Solution:**
-
-(a) If $y(x) = 0$ for all $x$Then $\dfrac{dy}{dx} = 0$ and $y^{2/3} = 0$So the ODE is satisfied.
-Also $y(0) = 0$. So $y = 0$ is a solution.
-
-(b) The existence and uniqueness theorem (Picard-Lindelof) requires $\dfrac{dy}{dx} = f(x, y)$ where
-$f$ and $\dfrac{\partial f}{\partial y}$ are continuous near $(0, 0)$. Here $f(x, y) = y^{2/3}$And
-$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$Which is **undefined** at $y = 0$. Therefore
-the theorem does not guarantee uniqueness.
-
-(c) A third solution can be constructed by patching:
-
-$$y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}$$
-
-For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
+description: ""(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
 is a valid $C^1$ solution. For $a = 0$This gives:
 

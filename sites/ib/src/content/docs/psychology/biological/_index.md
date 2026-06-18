@@ -1,37 +1,6 @@
 ---
 title: Biological Level of Analysis
-description: "This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and..."
-
----
-
-# Biological Level of Analysis
-
-This section covers the biological level of analysis, examining the physiological bases of behaviour
-including the brain, neurotransmitters, hormones, and genetics.
-
-## Pages
-
-- [Brain Imaging Techniques](./brain-imaging-techniques) -- fMRI, PET, EEG, TMS, and lesion studies,
-  including their strengths, limitations, and ethical considerations.
-- [Genetics and Behaviour](./genetics-and-behaviour) -- genetic inheritance, twin studies, adoption
-  studies, and the nature-nurture debate.
-- [Neuroplasticity and Neurotransmission](./neuroplasticity-and-neurotransmission) -- synaptic
-  transmission, neurotransmitters, neural plasticity, and their implications for behaviour.
-
-## Overview
-
-The biological level of analysis (BLOA) operates on the premise that behaviour can be explained in
-terms of physiological processes: neural activity, neurotransmitter systems, genetic inheritance,
-and brain structure. Within the IB Psychology course, BLOA provides the materialist counterpoint to
-the cognitive and sociocultural levels, grounding explanations of behaviour in measurable biological
-mechanisms rather than inferred mental states or social constructs.
-
-A central debate within BLOA is the nature-nurture question. Modern behaviour genetics has moved
-beyond this dichotomy toward gene-environment interaction (GxE) and epigenetics, recognising that
-genetic predispositions are expressed only in specific environmental contexts. Caspi et al. (2003)
-demonstrated that the short allele of the serotonin transporter gene (5-HTTLPR) increased depression
-risk only when combined with stressful life events, illustrating that neither genes nor environment
-alone determines outcomes. Epigenetic research (Meaney"s rat studies, McGowan et al. 2009) extends
+description: ""s rat studies, McGowan et al. 2009) extends
 this further by showing that environmental experiences can produce lasting changes in gene
 expression without altering the DNA sequence itself.
 

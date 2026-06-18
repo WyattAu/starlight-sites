@@ -1,45 +1,6 @@
 ---
 title: Apps and Services
-description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This..."
-
----
-
-## TrueNAS SCALE Apps
-
-### Kubernetes-Based App Architecture
-
-TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a
-Lightweight Kubernetes cluster managed by TrueNAS. This provides:
-
-- Container orchestration (restart policies, health checks)
-- Service discovery and networking
-- Persistent storage via iX volumes (backed by ZFS datasets)
-- Resource limits (CPU, memory)
-- Rollback capabilities
-
-### App Catalog
-
-TrueNAS SCALE provides two app catalogs:
-
-| Catalog   | Source                | Update Frequency | Trust Level                      |
-| --------- | --------------------- | ---------------- | -------------------------------- |
-| Official  | TrueNAS/iXsystems     | Regular          | High — tested by iXsystems       |
-| Community | Community-contributed | Variable         | Medium — review before deploying |
-| Custom    | Your own charts       | Manual           | Depends on source                |
-
-### Installing Apps
-
-1. Navigate to **Apps** → **Settings** → Ensure the app pool and configuration are set.
-2. Select the desired app from the catalog.
-3. Configure the app settings (storage, networking, environment variables).
-4. Deploy.
-
-### Custom Apps
-
-For applications not in the catalog, deploy custom Docker Compose or Helm charts:
-
-1. Navigate to **Apps** → **Launch** → **Custom App**.
-2. Choose "Docker Compose" or "Helm Chart."
+description: ""Docker Compose" or "Helm Chart."
 3. Paste the compose file or Helm values.
 4. Configure storage and network settings.
 5. Deploy.
@@ -795,9 +756,7 @@ custom-app/
 apiVersion: v2
 name: my-custom-app
 version: 0.1.0
-description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This..."
-type: application
-appVersion: "1.0.0'
+description: ""1.0.0'
 maintainers:
   - name: Your Name
 keywords:

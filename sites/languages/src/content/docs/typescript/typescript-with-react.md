@@ -1,49 +1,6 @@
 ---
 title: TypeScript with React
-description: "Function components are typed by annotating their props parameter. The return type is inferred by React''s type system and should not be annotated explicitly."
-date: 2026-04-22T00:00:00.000Z
-tags: [TypeScript]
-categories: [TypeScript]
----
-
-## Typing React Components
-
-### Function Components
-
-Function components are typed by annotating their props parameter. The return type is inferred by
-React's type system and should not be annotated explicitly.
-
-```tsx
-interface GreetingProps {
-  name: string;
-  age?: number;
-}
-
-function Greeting({ name, age }: GreetingProps) {
-  return (
-    <div>
-      <h1>Hello, {name}</h1>
-      {age !== undefined && <p>Age: {age}</p>}
-    </div>
-  );
-}
-```
-
-### `FC` Type
-
-The `FC` (FunctionComponent) type provides a default typing for function components, including an
-Implicit `children` prop:
-
-```tsx
-import type { FC } from 'react';
-
-interface CardProps {
-  title: string;
-}
-
-const Card: FC<CardProps> = ({ title, children }) => {
-  return (
-    <div className="card">
+description: ""card">
       <h2>{title}</h2>
       {children}
     </div>

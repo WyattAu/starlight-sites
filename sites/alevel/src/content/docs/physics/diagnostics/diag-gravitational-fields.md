@@ -1,58 +1,6 @@
 ---
 title: "Gravitational Fields -- Diagnostic Tests"
-description: "A-Level Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Gravitational Fields — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Gravitational Field Strength Above and Below the Surface
-
-**Question:**
-
-The Earth may be modelled as a uniform sphere of mass $M_E = 5.97 \times 10^{24}\,\text{kg}$ and
-radius $R_E = 6.37 \times 10^6\,\text{m}$.
-
-(a) Calculate the gravitational field strength at a height $h = 3R_E$ above the surface.
-
-(b) Calculate the gravitational field strength at a depth $d = R_E/2$ below the surface (assuming
-uniform density).
-
-(c) At what height above the surface is the gravitational field strength equal to the field strength
-at a depth $R_E/2$?
-
-Take $G = 6.67 \times 10^{-11}\,\text{N}\,\text{m}^2\,\text{kg}^{-2}$.
-
-**Solution:**
-
-(a) Distance from centre: $r = R_E + 3R_E = 4R_E$
-
-$$g = \frac{GM_E}{r^2} = \frac{GM_E}{16R_E^2} = \frac{g_0}{16}$$
-
-Where $g_0 = GM_E/R_E^2 = 9.81\,\text{m}\,\text{s}^{-2}$.
-
-$$g = \frac{9.81}{16} = 0.613\,\text{m}\,\text{s}^{-2}$$
-
-(b) At depth $d = R_E/2$The distance from the centre is $r = R_E/2$.
-
-By the shell theorem, only the mass within radius $r$ contributes:
-
-$$M_{\text{enclosed}} = M_E \left(\frac{r}{R_E}\right)^3 = M_E \left(\frac{1}{2}\right)^3 = \frac{M_E}{8}$$
-
-$$g = \frac{G M_E/8}{(R_E/2)^2} = \frac{GM_E}{8} \times \frac{4}{R_E^2} = \frac{g_0}{2} = \frac{9.81}{2} = 4.91\,\text{m}\,\text{s}^{-2}$$
-
-(c) We need $g$ at height $h$ to equal $g_0/2$:
-
-$$\frac{GM_E}{(R_E + h)^2} = \frac{g_0}{2} = \frac{GM_E}{2R_E^2}$$
-
-$$(R_E + h)^2 = 2R_E^2$$ $$R_E + h = \sqrt{2}R_E$$
-$$h = (\sqrt{2} - 1)R_E = 0.414 \times 6.37 \times 10^6 = 2.64 \times 10^6\,\text{m}$$
-
----
-
-### UT-2: Kepler"s Third Law Application
+description: ""s Third Law Application
 
 **Question:**
 

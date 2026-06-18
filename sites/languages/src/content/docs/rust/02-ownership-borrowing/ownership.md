@@ -1,25 +1,6 @@
 ---
 title: Ownership and Borrowing
-description: "Rust''s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems."
-
----
-
-## The Ownership Rules
-
-Rust's memory management rests on three rules enforced at compile time:
-
-1. Each value in Rust has a single **owner**.
-2. When the owner goes out of scope, the value is **dropped** (memory is freed).
-3. There can be **zero or more immutable references** (`&T`) OR **exactly one mutable reference**
-   (`&mut T`) to a value at any point in its lifetime.
-
-These rules are checked by the borrow checker, which operates on MIR (Mid-level Intermediate
-Representation). The borrow checker does not exist at runtime — there is zero overhead for ownership
-Tracking in the compiled binary.
-
-```rust
-fn main() {
-    let s1 = String::from("hello");
+description: ""hello");
     let s2 = s1;  // s1 is MOVED to s2 — s1 is no longer valid
     // println!("{}", s1);  // ERROR: value borrowed after move
     println!("{}", s2);     // OK — s2 owns the data

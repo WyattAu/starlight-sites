@@ -1,51 +1,6 @@
 ---
 title: Testing and Deployment
-description: "ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Elixir
-categories:
-  - Elixir
-
----
-
-## ExUnit Framework
-
-ExUnit is the built-in testing framework for Elixir. It ships with the language and provides
-everything needed for unit testing, integration testing, and doctests.
-
-### Test File Structure
-
-Test files live in the `test/` directory and follow naming conventions:
-
-```
-test/
-├── test_helper.exs          # Runs before all tests
-├── my_app_test.exs          # Test for the main module
-└── my_app/
-    ├── user_test.exs        # Test for MyApp.User
-    └── repo_test.exs        # Test for MyApp.Repo
-```
-
-The `test_helper.exs` file typically sets up the test environment:
-
-```elixir
-ExUnit.start()
-
-# Set test environment
-Application.ensure_all_started(:my_app)
-
-# Configure database
-Ecto.Adapters.SQL.Sandbox.mode(MyApp.Repo, :manual)
-```
-
-### Basic Tests
-
-```elixir
-defmodule MathTest do
-  use ExUnit.Case, async: true
-
-  test "addition works" do
+description: ""addition works" do
     assert 1 + 1 == 2
   end
 

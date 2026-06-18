@@ -1,44 +1,6 @@
 ---
 title: AP Statistics
-description: "Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-14
-tags:
-  - ap
-  - ap-statistics
-categories:
-  - ap-statistics
-
----
-
-# AP Statistics
-
-Comprehensive revision notes for AP Statistics, aligned with the College Board Course and Exam
-Description.
-
-These notes cover the full AP Statistics curriculum, from data exploration through probability to
-statistical inference. Each topic includes key definitions, detailed explanations, and worked
-examples to help you prepare for both the multiple-choice and free-response sections of the AP exam.
-The content is structured around the four major themes of the course.
-
-## Topics
-
-- **1. Exploring Data**
-- **2. Sampling and Experimentation**
-- **3. Probability and Simulation**
-- **4. Statistical Inference**
-- **5. Regression Analysis**
-
-## Topics Covered
-
-- **Exploring Data** -- representing data (dotplots, histograms, boxplots, stemplots), measures of
-  centre (mean, median), measures of spread (range, IQR, standard deviation), describing
-  distributions (shape, centre, spread, outliers), comparing distributions, normal distributions,
-  and the empirical rule (68-95-99.7).
-- **Sampling and Experimentation** -- simple random sampling, stratified sampling, cluster sampling,
-  systematic sampling, bias in sampling, observational studies vs experiments, randomised controlled
-  experiments, control groups, blinding, placebo effect, principles of experimental design.
-- **Probability** -- sample spaces, events, addition and multiplication rules, conditional
-  probability, independence, Bayes" theorem, discrete random variables (probability distributions,
+description: "" theorem, discrete random variables (probability distributions,
   expected value, variance), binomial and geometric distributions, continuous random variables,
   normal distributions and z-scores, the central limit theorem, sampling distributions of means and
   proportions.

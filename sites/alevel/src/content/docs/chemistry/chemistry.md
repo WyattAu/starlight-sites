@@ -1,30 +1,6 @@
 ---
 title: A-Level Chemistry
-description: "A-Level Chemistry is a rigorous, mathematically grounded treatment of the principles governing chemical systems. It builds on GCSE foundations and..."
-date: 2026-04-21T00:00:00.000Z
-tags:
-  - Chemistry
-  - ALevel
-categories:
-  - Chemistry
-
----
-
-# A-Level Chemistry
-
-A-Level Chemistry is a rigorous, mathematically grounded treatment of the principles governing
-chemical systems. It builds on GCSE foundations and introduces formal physical chemistry
-(thermodynamics, kinetics, equilibrium, electrochemistry), inorganic chemistry (periodicity,
-transition metals), and organic chemistry (mechanisms, synthesis, spectroscopy). The course demands
-fluency in algebraic manipulation, logarithmic reasoning, and proportional thinking.
-
-This module set covers all major specifications: AQA, Edexcel, OCR(A), and CIE (Cambridge
-International). Where board-specific content diverges, it is noted explicitly.
-
-## Board Coverage
-
-The four main examination boards divide the content differently across papers. The table below maps
-the ten core modules to each board"s paper structure.
+description: ""s paper structure.
 
 | Module                         | AQA         | Edexcel                | OCR(A)                | CIE                         |
 | ------------------------------ | ----------- | ---------------------- | --------------------- | --------------------------- |

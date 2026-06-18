@@ -1,34 +1,6 @@
 ---
 title: RTTI, dynamic_cast, and typeid
-description: "Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at Runtime. This section covers for safe downcasting, the..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# RTTI, dynamic_cast, and Typeid
-
-Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at
-Runtime. This section covers `dynamic_cast` for safe downcasting, the `typeid` operator for type
-Identification, and practical patterns for type-based dispatch.
-
-## 4.1 Run-Time Type Information (RTTI)
-
-RTTI is the mechanism by which the type of a polymorphic object can be queried at runtime [N4950
-S7.6]. It is enabled by default on most compilers and can be disabled with `-fno-rtti` (GCC/Clang)
-Or `/GR-` (MSVC).
-
-RTTI provides two primary operators:
-
-| Operator       | Purpose                                               |
-| -------------- | ----------------------------------------------------- |
-| `dynamic_cast` | Safe downcast with runtime type check                 |
-| `typeid`       | Returns a `const std::type_info&` describing the type |
-
-RTTI relies on the same vtable infrastructure used for virtual dispatch. Each polymorphic class"s
+description: ""s
 Vtable contains a pointer to its `std::type_info` object.
 
 ### RTTI Implementation in the Itanium ABI

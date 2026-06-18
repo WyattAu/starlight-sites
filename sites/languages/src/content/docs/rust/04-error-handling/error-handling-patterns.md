@@ -1,56 +1,6 @@
 ---
 title: Error Handling Patterns
-description: "Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across..."
-
----
-
-## Error Design Philosophy
-
-Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not
-Special control flow mechanisms that can jump across function boundaries. They are ordinary values
-That propagate through the type system via `Result<T, E>`. This makes error paths explicit and force
-The programmer to handle them.
-
-The core principle: **make error states unrepresentable where possible, and where they are
-Representable, make them unignorable.**
-
-### Errors as Values vs Exceptions
-
-In exception-based languages (Java, Python, C++), error handling is opt-in — you can ignore
-Exceptions and they propagate implicitly. In Rust, `Result` forces you to acknowledge errors at
-Every level of the call stack. The `?` operator makes propagation ergonomic, but the type system
-Still tracks the error type.
-
-```rust
-// Every error is visible in the type signature
-fn read_config(path: &str) -> Result<Config, io::Error> { ... }
-fn parse_config(content: &str) -> Result<Config, serde_json::Error> { ... }
-fn validate_config(config: &Config) -> Result<(), ValidationError> { ... }
-```
-
-## Defining Error Types
-
-### Enum-Based Error Types
-
-The most common approach is an enum with a variant for each error category:
-
-```rust
-use std::fmt;
-
-#[derive(Debug)]
-enum AppError {
-    Io(std::io::Error),
-    Parse(std::num::ParseIntError),
-    Validation(String),
-    NotFound(String),
-    PermissionDenied(String),
-    Internal(String),
-}
-
-impl fmt::Display for AppError {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        match self {
-            AppError::Io(e) => write!(f, "I/O error: {}", e),
+description: ""I/O error: {}", e),
             AppError::Parse(e) => write!(f, "parse error: {}", e),
             AppError::Validation(msg) => write!(f, "validation error: {}", msg),
             AppError::NotFound(msg) => write!(f, "not found: {}", msg),

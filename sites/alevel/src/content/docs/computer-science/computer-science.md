@@ -1,41 +1,6 @@
 ---
 title: Computer Science
-description: "A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It Teaches you to think precisely about computation — what..."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - ComputerScience
-  - ALevel
-categories:
-  - ComputerScience
-
----
-
-## A Level Computer Science — Course Overview
-
-A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It
-Teaches you to think precisely about computation — what can be computed, how efficiently, and how to
-Design systems that are correct, robust, and maintainable.
-
-### Board Coverage
-
-| Topic                                      | AQA     | Edexcel | OCR (A) | CIE (9618) |
-| ------------------------------------------ | ------- | ------- | ------- | ---------- |
-| Fundamentals of Data Representation        | Paper 1 | P1      | Paper 1 | Paper 1    |
-| Fundamentals of Computer Systems           | Paper 1 | P1      | Paper 1 | Paper 1    |
-| Fundamentals of Communication & Networking | Paper 1 | P1      | Paper 1 | Paper 2    |
-| Boolean Algebra & Logic Gates              | Paper 1 | P1      | Paper 1 | Paper 1    |
-| Data Structures                            | Paper 1 | P1      | Paper 1 | Paper 1    |
-| Algorithms                                 | Paper 1 | P1      | Paper 1 | Paper 1    |
-| Programming Constructs                     | Paper 2 | P2      | Paper 2 | Paper 2    |
-| Problem Solving & Programming              | Paper 2 | P2      | Paper 2 | Paper 2    |
-| Software Development                       | Paper 2 | P2      | Paper 2 | Paper 2    |
-| Theory of Computation                      | Paper 1 | P1      | Paper 1 | Paper 1    |
-| Databases                                  | Paper 1 | P1      | Paper 2 | Paper 1    |
-| Web Technologies                           | —       | P1      | —       | —          |
-
-### Course Structure
-
-1. **Fundamentals** — Data representation (binary, two"s complement, floating point), hardware
+description: ""s complement, floating point), hardware
    architecture, Boolean logic
 2. **Data Structures** — Arrays, linked lists, stacks, queues, trees, graphs, hash tables
 3. **Algorithms** — Sorting, searching, graph algorithms, complexity analysis (Big-O), algorithmic

@@ -1,27 +1,6 @@
 ---
 title: OSI and TCP/IP Models
-description: "Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help..."
-tags:
-  - Networking
-categories:
-  - Networking
----
-
-## Overview
-
-Network reference models provide a structured vocabulary for discussing protocol behavior. They are
-Not implementations -- they are abstractions that help engineers reason about where a particular
-Function belongs in the stack and which protocols interact with which others.
-
-Two models dominate: the **OSI 7-layer model** and the **TCP/IP 4-layer model**. The OSI model is
-The one taught in classrooms and used in documentation. The TCP/IP model is the one that actually
-Describes how the Internet works. Understanding both, and the gaps between them, is essential.
-
-### Why Reference Models Matter for Systems Engineers
-
-Reference models are not academic exercises. They provide:
-
-1. **A common vocabulary.** When you say "this is a layer-3 problem," every engineer understands
+description: ""this is a layer-3 problem," every engineer understands
    that you are talking about IP routing, not application logic. This precision accelerates
    troubleshooting.
 2. **A troubleshooting framework.** The layered approach provides a systematic methodology: verify

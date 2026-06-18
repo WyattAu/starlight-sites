@@ -3,10 +3,7 @@ title: Time-Dependent Perturbation Theory
 tags:
   - Physics
   - University
-description: "For a time-dependent perturbation applied to an initial state Comprehensive educational content coverage with definitions and practice problems."
----
-
-### 11.1 Fermi"s Golden Rule
+description: ""s Golden Rule
 
 For a time-dependent perturbation $\hat{V}(t) = \hat{V}\,e^{-i\omega t}$ applied to an initial state
 $|i\rangle$The transition rate to a continuum of final states $|f\rangle$ is:

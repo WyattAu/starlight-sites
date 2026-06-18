@@ -1,28 +1,6 @@
 ---
 title: Filter-Repo (History Rewriting)
-description: "is a Python-based tool for rewriting Git repository history. It is the modern, Recommended replacement for Which has been deprecated since Git 2.24..."
-
----
-
-## What filter-repo Is
-
-`git-filter-repo` is a Python-based tool for rewriting Git repository history. It is the modern,
-Recommended replacement for `git filter-branch`Which has been deprecated since Git 2.24 (December
-2019). `git-filter-repo` was written by Elijah Newren, a Git core contributor, and addresses the
-Fundamental design flaws of `filter-branch`.
-
-### Why filter-branch Was Problematic
-
-`git filter-branch` suffered from several architectural issues that made it dangerous in practice:
-
-- **Slow**: Rewrote every commit sequentially using shell commands, making it unusably slow on large
-  repositories.
-- **Did not clean up properly**: Left behind `.git/refs/original/` backup refs and failed to expire
-  reflogs, meaning rewritten objects persisted and `git gc` would not reclaim disk space.
-- **No safety checks**: Could operate on a repository with a dirty working tree, leading to data
-  loss.
-- **State leakage**: Used shell environment variables for inter-process communication, which was
-  fragile and could be poisoned by the user"s shell configuration.
+description: ""s shell configuration.
 - **No rename detection**: Could not track file renames, so rewriting a file's path would break
   history.
 

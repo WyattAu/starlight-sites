@@ -1,25 +1,6 @@
 ---
 title: "Cell Biology -- Diagnostic Tests"
-description: "Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-tableOfContents: false
----
-
-# Cell Biology -- Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Cell Structure and Ultrastructure
-
-**Question:**
-
-(a) Describe the structure and function of the following organelles: mitochondria, rough endoplasmic
-reticulum, Golgi apparatus, and lysosomes.
-
-(b) Explain the difference between a prokaryotic cell and a eukaryotic cell, giving at least four
-structural differences.
-
-(c) Describe the fluid mosaic model of cell membrane structure. Name the two main components of the
-membrane and explain how the term "fluid mosaic" reflects its structure.
+description: ""fluid mosaic" reflects its structure.
 
 (d) A cell has a high demand for protein synthesis. Explain how the endomembrane system (rough ER,
 Golgi apparatus, and vesicles) enables the production and secretion of proteins.

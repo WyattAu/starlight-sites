@@ -3,12 +3,7 @@ title: Conformal Mappings
 tags:
   - Mathematics
   - University
-description: "An analytic function is at if . A conformal Mapping preserves angles (both magni Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 10.1 Definition
-
-**Definition.** An analytic function $f$ is **conformal** at $z_0$ if $f"(z_0) \neq 0$. A conformal
+description: ""(z_0) \neq 0$. A conformal
 Mapping preserves angles (both magnitude and orientation) between curves.
 
 ### 10.2 Geometric Interpretation

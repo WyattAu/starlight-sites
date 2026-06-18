@@ -3,46 +3,7 @@ title: Many-Body Physics in Solids
 tags:
   - Physics
   - University
-description: "In a metal, the Coulomb interaction between electrons is screened by the other e Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 14.1 Electron--Electron Interactions: Screening
-
-In a metal, the Coulomb interaction between electrons is screened by the other electrons. The
-**Thomas--Fermi screening wavevector**:
-
-$$q_{\text{TF}^2 = \frac{e^2 g(\varepsilon_F)}{\varepsilon_0} = \frac{4k_F}{\pi a_0}}$$
-
-Where $a_0 = 4\pi\varepsilon_0\hbar^2/(m_e e^2)$ is the Bohr radius. The screened potential:
-
-$$V_{\text{scr}(r) = \frac{e^2}{4\pi\varepsilon_0 r}\,e^{-q_{\text{TF} r}}}$$
-
-The screening length $\lambda_{\text{TF} = 1/q_{\text{TF} \sim 0.5}}$ Å in metals (about one atomic
-spacing), meaning the Coulomb interaction is very short-ranged.
-
-### 14.2 The Hubbard Model
-
-The Hubbard model captures the competition between kinetic energy (delocalisation) and on-site
-Coulomb repulsion (localisation):
-
-$$\hat{H} = -t\sum_{\langle i,j\rangle,\sigma}\hat{c}_{i\sigma}^\dagger\hat{c}_{j\sigma} + U\sum_i \hat{n}_{i\uparrow}\hat{n}_{i\downarrow}$$
-
-Where $t$ is the hopping integral and $U$ is the on-site repulsion energy.
-
-**Limiting cases:**
-
-- $U \ll t$: Weakly correlated metal (well-described by band theory)
-- $U \gg t$: Mott insulator (each site has exactly one electron, localised by strong repulsion)
-- $U/t \sim 1$: Strongly correlated regime (intermediate coupling), relevant for transition metal
-  oxides
-
-The half-filled Hubbard model on a bipartite lattice has a metal--insulator transition at
-$U_c \sim W$ (bandwidth). For $U > U_c$The system is a Mott insulator even though band theory
-predicts a metal.
-
-### 14.3 Quasiparticles and Fermi Liquid Theory
-
-Landau"s **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
+description: ""s **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
 Fermi system can be described as **quasiparticles** --- weakly interacting fermions with
 renormalised parameters:
 

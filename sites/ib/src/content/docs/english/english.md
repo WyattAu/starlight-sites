@@ -2,25 +2,7 @@
 title: English
 tags:
   - english
-description: "IB English A: Language and Literature is a two-year course that develops critical literacy through The study of both literary and non-literary texts. The..."
----
-
-## IB English A: Language and Literature -- Course Overview
-
-IB English A: Language and Literature is a two-year course that develops critical literacy through
-The study of both literary and non-literary texts. The course cultivates skills in close reading,
-Textual analysis, and the construction of well-supported arguments about how language produces
-Meaning within cultural and contextual frameworks.
-
-## Course Structure
-
-The syllabus is organised into four parts, each with a distinct focus:
-
-### Part 1: Works in Translation
-
-This part examines works originally written in a language other than English and studied in
-Translation. The central concern is the relationship between culture, language, and meaning, and the
-Degree to which a text"s significance is altered or preserved through translation. Students consider
+description: ""s significance is altered or preserved through translation. Students consider
 How translation choices shape interpretation and what is gained or lost when a text crosses
 Linguistic boundaries.
 

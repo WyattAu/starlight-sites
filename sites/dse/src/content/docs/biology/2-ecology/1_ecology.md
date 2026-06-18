@@ -1,46 +1,6 @@
 ---
 title: Evolution and Ecology
-description: "Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural..."
-date: 2026-04-07T00:00:00.000Z
-tags:
-  - DSE
-  - Biology
-categories:
-  - DSE
-  - Biology
-
----
-
-## Evolution Overview
-
-### What is Evolution?
-
-**Definition.** Evolution is the cumulative change in the heritable characteristics of a population
-Over successive generations, driven by mechanisms such as natural selection, genetic drift, gene
-Flow, and mutation.
-
-Evolution operates on populations, not individuals. An individual organism does not evolve during
-Its lifetime; rather, the genetic composition of the population shifts across generations. The unit
-Of evolution is the population; the unit of selection is the individual (or, the Gene).
-
-### Evidence for Evolution
-
-| Type of Evidence    | Description                                                                                    | Example                                                                       |
-| ------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Fossil record       | Sequential appearance of organisms in rock layers; transitional forms show intermediate traits | Archaeopteryx (reptile-bird transition); Tiktaalik (fish-tetrapod transition) |
-| Comparative anatomy | Structural similarities across species indicating common ancestry                              | Pentadactyl limb in humans, bats, whales, cats                                |
-| Molecular biology   | DNA and protein sequence similarities reflect evolutionary relationships                       | Cytochrome c is nearly identical across all eukaryotes                        |
-| Biogeography        | Geographic distribution of species matches continental drift patterns                          | Marsupials in Australia vs placentals elsewhere                               |
-| Embryology          | Embryos of related species resemble each other in early developmental stages                   | Pharyngeal pouches in fish, chick, and human embryos                          |
-
-### Lamarckism vs Darwinism
-
-| Feature                         | Lamarckism (Inheritance of Acquired Characteristics)                    | Darwinism (Natural Selection)                                       |
-| ------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| Proposed by                     | Jean-Baptiste Lamarck (1809)                                            | Charles Darwin (1859)                                               |
-| Mechanism                       | Use and disuse of organs; traits acquired during lifetime are inherited | Variation exists ; favourable traits are selected for               |
-| Heritability of acquired traits | Yes -- traits gained during life are passed on                          | No -- only genetically determined traits are inherited              |
-| Direction of change             | Driven by organism"s needs and efforts                                  | Driven by environmental pressures selecting from existing variation |
+description: ""s needs and efforts                                  | Driven by environmental pressures selecting from existing variation |
 | Evidence                        | Discredited; no mechanism for inheritance of acquired traits            | Strongly supported by genetics, fossil record, molecular biology    |
 | Example                         | Giraffes stretch necks to reach leaves, longer necks inherited          | Giraffes with longer necks survive and reproduce more               |
 

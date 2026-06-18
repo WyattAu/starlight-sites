@@ -3,36 +3,7 @@ title: Fourier Series
 tags:
   - Mathematics
   - University
-description: "Fourier Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 7.1 Definition
-
-A **Fourier series** of a $2\pi$-periodic function $f$ is
-
-$$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos(nx) + b_n \sin(nx)\right)$$
-
-Where
-
-$$a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\, dx, \quad b_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\sin(nx)\, dx$$
-
-### 7.2 Derivation of Fourier Coefficients
-
-The Fourier coefficients are derived using the orthogonality relations on $[-\pi, \pi]$:
-
-$$\int_{-\pi}^{\pi} \cos(mx)\cos(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 2\pi & m = n = 0 \\ 0 & m \neq n \end{cases}$$
-
-$$\int_{-\pi}^{\pi} \sin(mx)\sin(nx)\, dx = \begin{cases} \pi & m = n \neq 0 \\ 0 & m \neq n \end{cases}$$
-
-$$\int_{-\pi}^{\pi} \cos(mx)\sin(nx)\, dx = 0 \quad \mathrm{for}\; all\; m, n$$
-
-To find $a_n$Multiply both sides of the Fourier expansion by $\cos(nx)$ and integrate over
-$[-\pi, \pi]$. By orthogonality, all terms vanish except the $\cos(nx)$ term, yielding
-$a_n \pi = \int_{-\pi}^{\pi} f(x)\cos(nx)\, dx$. Similarly for $b_n$.
-
-### 7.3 Convergence
-
-**Theorem 7.1 (Dirichlet"s Theorem).** If $f$ is $2\pi$-periodic and piecewise smooth, its Fourier
+description: ""s Theorem).** If $f$ is $2\pi$-periodic and piecewise smooth, its Fourier
 Series converges to:
 
 - $f(x)$ at points where $f$ is continuous.

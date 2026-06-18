@@ -1,40 +1,6 @@
 ---
 title: "Organic Chemistry -- Diagnostic Tests"
-description: "IB Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
-tableOfContents: false
----
-
-# Organic Chemistry — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: $S_N1$ vs $S_N2$ Mechanism Prediction
-
-**Question:** For each substrate, predict whether it will react faster via $S_N1$ or $S_N2$ with
-aqueous NaOH, and explain why: (a) $(\text{CH}_3)_3\text{CBr}$(b)
-$\text{CH}_3\text{CH}_2\text{Br}$(c) $\text{C}_6\text{H}_5\text{CH}_2\text{Br}$ (benzyl bromide).
-
-**Solution:**
-
-(a) $(\text{CH}_3)_3\text{CBr}$ (tertiary alkyl halide): $S_N1$ is favoured. The tertiary
-carbocation intermediate $(\text{CH}_3)_3\text{C}^+$ is stabilised by hyperconjugation from nine
-C--H bonds on the three methyl groups. Steric hindrance around the tertiary carbon makes the
-backside attack required for $S_N2$ extremely difficult.
-
-(b) $\text{CH}_3\text{CH}_2\text{Br}$ (primary alkyl halide): $S_N2$ is favoured. The primary carbon
-has minimal steric hindrance, allowing the nucleophile ($\text{OH}^-$) easy backside access. A
-primary carbocation would be too unstable to form (no hyperconjugation stabilisation), making $S_N1$
-unviable.
-
-(c) $\text{C}_6\text{H}_5\text{CH}_2\text{Br}$ (benzyl bromide): Both mechanisms are fast, but
-$S_N1$ is particularly favoured. The benzyl carbocation $\text{C}_6\text{H}_5\text{CH}_2^+$ is
-exceptionally stabilised by resonance delocalisation of the positive charge into the benzene ring
-(the positive charge is delocalised over the ortho and para positions). Despite being a primary
-halide, the stability of the carbocation makes $S_N1$ competitive with $S_N2$.
-
----
-
-### UT-2: E1 vs E2 Elimination and Zaitsev"s Rule
+description: ""s Rule
 
 **Question:** When 2-bromo-3-methylbutane is treated with a strong base (NaOEt in ethanol), two
 elimination products are possible. Draw both products, identify the major product using Zaitsev's

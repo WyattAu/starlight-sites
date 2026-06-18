@@ -1,35 +1,6 @@
 ---
 title: Types and Variables
-description: "Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus Platform-dependent and : "''
-
----
-
-## Integer Types
-
-Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus
-Platform-dependent `isize` and `usize`:
-
-| Type              | Size (bytes) | Range (signed)                                                                                              | Range (unsigned)                                         |
-| ----------------- | ------------ | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| `i8` / `u8`       | 1            | -128 to 127                                                                                                 | 0 to 255                                                 |
-| `i16` / `u16`     | 2            | -32,768 to 32,767                                                                                           | 0 to 65,535                                              |
-| `i32` / `u32`     | 4            | -2,147,483,648 to 2,147,483,647                                                                             | 0 to 4,294,967,295                                       |
-| `i64` / `u64`     | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807                                                     | 0 to 18,446,744,073,709,551,615                          |
-| `i128` / `u128`   | 16           | -170,141,183,460,469,231,731,687,303,715,884,105,728 to 170,141,183,460,469,231,731,687,303,715,884,105,727 | 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455 |
-| `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
-
-The default integer type is `i32`. This is not an arbitrary choice — on x86-64, `i32` operations are
-As fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
-Zero-extension overhead that `i8`/`u8` incur in many contexts.
-
-### Integer Literals
-
-```rust
-let decimal = 1_000_000;
-let hex = 0xFF_FF;
-let octal = 0o777;
-let binary = 0b1111_0000;
-let byte = b"A";        // u8 only
+description: ""A";        // u8 only
 ```
 
 The underscore separator is valid anywhere within a numeric literal for readability. It is ignored

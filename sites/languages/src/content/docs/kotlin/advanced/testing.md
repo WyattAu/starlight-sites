@@ -1,6 +1,6 @@
 ---
 title: Testing
-description: "dependencies { testImplementation("org.jetbrains.kotlin:kotlin-test") testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")...''
+description: "") testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")...''
 date: 2026-04-18
 tags:
   - Kotlin

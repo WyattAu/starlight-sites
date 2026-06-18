@@ -1,31 +1,6 @@
 ---
 title: Hashing and Hash Tables
-description: "A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble"
-
----
-
-## Hash Function Fundamentals
-
-A hash function maps an input from a large domain to a smaller, fixed-size range. Formally,
-$h: U \to \{0, 1, \ldots, m-1\}$ where $U$ is the universe of possible keys and $m$ is the table
-Size. The quality of a hash function determines the performance of every data structure built on top
-Of it.
-
-### Desirable Properties
-
-| Property          | Definition                                                                            | Why It Matters                                           |
-| ----------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **Deterministic** | Same input always produces same output                                                | Lookups must find the same bucket as inserts             |
-| **Uniform**       | Each output is equally likely: $P(h(x) = i) = 1/m$ for all $i$                        | Minimises collisions                                     |
-| **Avalanche**     | Flipping any input bit changes each output bit with probability $\approx 0.5$         | Small input changes produce unpredictable output changes |
-| **Efficient**     | Computable in $O(k)$ where $k$ is the key length                                      | Hash computation should not dominate lookup cost         |
-| **Reversible**    | (For non-cryptographic use) Given a hash value, finding a preimage should not be easy | Prevents intentional collision attacks                   |
-
-### Avalanche Criterion
-
-The strict avalanche criterion requires that for any single-bit change in the input, each output bit
-Flips with probability exactly 0.5. This is a necessary condition for the hash function to be
-"random-looking." A weaker but still useful property is that flipping any input bit changes the
+description: ""random-looking." A weaker but still useful property is that flipping any input bit changes the
 Output value significantly (not just one output bit).
 
 ### Uniformity

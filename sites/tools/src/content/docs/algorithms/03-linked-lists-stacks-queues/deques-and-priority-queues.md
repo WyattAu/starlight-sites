@@ -1,35 +1,6 @@
 ---
 title: Deques and Priority Queues
-description: "A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO)."
-
----
-
-## Deque ADT
-
-A deque (double-ended queue) is a linear collection that supports insertion and removal at both
-Ends. It generalises both stacks (LIFO) and queues (FIFO).
-
-### Operations
-
-| Operation       | Description          | Array-backed | Linked-list |
-| --------------- | -------------------- | ------------ | ----------- |
-| `push_front(x)` | Insert at front      | $O(1)$       | $O(1)$      |
-| `push_back(x)`  | Insert at back       | $O(1)$       | $O(1)$      |
-| `pop_front()`   | Remove from front    | $O(1)$       | $O(1)$      |
-| `pop_back()`    | Remove from back     | $O(1)$       | $O(1)$      |
-| `front()`       | Access front element | $O(1)$       | $O(1)$      |
-| `back()`        | Access back element  | $O(1)$       | $O(1)$      |
-| `is_empty()`    | Check if empty       | $O(1)$       | $O(1)$      |
-| `size()`        | Number of elements   | $O(1)$       | $O(1)$      |
-
-### Circular Buffer Implementation
-
-A circular buffer (ring buffer) implements a deque using a fixed-size array with two indices (head
-And tail) that wrap around.
-
-```python
-class CircularBufferDeque:
-    """
+description: """"
     Deque using a circular buffer (dynamic array).
     Time: O(1) amortised for all operations
     Space: O(n)

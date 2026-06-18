@@ -1,26 +1,6 @@
 ---
 title: AP Biology Study Guide
-description: "Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four..."
-date: 2026-05-31
-tags:
-  - ap
-  - ap-biology
-categories:
-  - ap-biology
-
----
-
-# AP Biology Study Guide
-
-Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam
-Description. Covers the full curriculum organised around the four Big Ideas: evolution, energetics,
-information transfer, and systems interactions.
-
-## 1. Chemistry of Life
-
-### Water Properties
-
-Water"s polarity gives it unique properties essential for life:
+description: ""s polarity gives it unique properties essential for life:
 
 1. **Cohesion and adhesion:** Hydrogen bonds between water molecules (cohesion) and between water
    and other surfaces (adhesion) enable capillary action and the transpiration stream in plants.

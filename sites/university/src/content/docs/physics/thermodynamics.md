@@ -5,29 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description: "is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides..."
----
-
-## 1. Introduction
-
-### 1.1 Scope of Thermodynamics
-
-**Thermodynamics** is the branch of physics that deals with heat, work, temperature, and their
-relation to energy, entropy, and the physical properties of matter. It provides a macroscopic
-description of systems without requiring detailed knowledge of microscopic constituents.
-
-Unlike classical mechanics, which describes individual particle trajectories, thermodynamics
-operates on aggregate quantities — pressure, volume, temperature, and internal energy — that
-characterise bulk matter.
-
-### 1.2 Macroscopic vs Microscopic Perspectives
-
-**Classical thermodynamics** is purely macroscopic: it relates observable quantities through
-empirical laws (the four laws of thermodynamics) without reference to atoms or molecules.
-
-**Statistical mechanics** provides the microscopic foundation: macroscopic thermodynamic quantities
-emerge as statistical averages over enormous numbers of microscopic states. The bridge between the
-two perspectives is given by Boltzmann"s entropy formula:
+description: ""s entropy formula:
 
 $$S = k_B \ln \Omega$$
 

@@ -1,45 +1,6 @@
 ---
 title: Inheritance, Variation, and Evolution
-description: "DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called ."
-date: 2026-04-14
-tags:
-  - gcse
-  - gcse-biology
-categories:
-  - gcse-biology
-
----
-
-## Inheritance, Variation, and Evolution
-
-> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway B3 | WJEC B3
-## 1. DNA and Genetics
-
-### 1.1 DNA Structure
-
-DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the
-Nucleus of cells and is organised into structures called **chromosomes**.
-
-**Structure of DNA:**
-
-- Two strands forming a **double helix** (discovered by Watson and Crick in 1953, based on X-ray
-  diffraction data from Rosalind Franklin)
-- Each strand is made of nucleotides
-- Each nucleotide contains: a sugar (deoxyribose), a phosphate group, and a base
-- Four bases: **adenine (A), thymine (T), cytosine (C), guanine (G)**
-- Base pairing: A always pairs with T (two hydrogen bonds); C always pairs with G (three hydrogen
-  bonds)
-- The two strands are **antiparallel** (they run in opposite directions)
-
-**Why base pairing is specific.** The sizes and shapes of the bases determine which pairs can form.
-A and T form two hydrogen bonds because they have complementary shapes. C and G form three hydrogen
-Bonds. This specificity is fundamental to the accuracy of DNA replication: each base can only pair
-With its complementary partner, ensuring that the genetic information is copied correctly.
-
-**Nucleotide structure in detail.** Each nucleotide consists of three parts:
-
-1. A pentose sugar (deoxyribose) -- a 5-carbon sugar.
-2. A phosphate group -- attached to the 5" carbon of the sugar.
+description: "" carbon of the sugar.
 3. A nitrogenous base -- attached to the 1' carbon of the sugar.
 
 Nucleotides are joined together by phosphodiester bonds between the phosphate group of one

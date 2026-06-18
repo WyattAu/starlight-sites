@@ -3,32 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: "UNIVERSITY Computing notes: Problem Set. Comprehensive study material with defin Comprehensive A-Level problem set revision notes with definitions and examples."
----
-
-**Problems 1--3:** Introduction and Data Models
-
-1. Explain the three levels of the ANSI-SPARC architecture with an example. Show how logical data
-   independence allows a new column to be added to the conceptual schema without modifying existing
-   external views.
-
-2. Compare the relational and graph data models. Give two concrete scenarios where a graph database
-   would be preferable to a relational database, explaining why.
-
-3. A university uses a relational database for student records and a document store for course
-   materials. Discuss the benefits and challenges of this polyglot persistence approach.
-
-**Problems 4--7:** Relational Model and Algebra
-
-4. Given relation `R(A, B, C, D, E)` with FDs $F = \\{AB \to C, C \to D, D \to E\\}$: (a) Find all
-   candidate keys. (b) Compute the attribute closure $\\{A, B\\}^+$. (c) Compute $\\{C\\}^+$ and
-   $\\{D\\}^+$.
-
-5. Given `R(A, B, C)` with tuples $\\{(1,2,3), (1,2,4), (1,3,5), (2,2,3), (2,3,4)\\}$ and `S(B, C)`
-   with tuples $\\{(2,3), (3,5)\\}$: (a) Compute $\sigma_{B=2}(R)$. (b) Compute $R \bowtie S$. (c)
-   Compute $R \div S$.
-
-6. Express the following query in relational algebra: "Find the names of students who have enrolled in at least two courses taught by the same instructor."
+description: ""Find the names of students who have enrolled in at least two courses taught by the same instructor."
 
 7. Prove that the cross product is commutative: $R \times S \equiv S \times R$. Prove that the cross
    product is associative: $(R \times S) \times T \equiv R \times (S \times T)$.

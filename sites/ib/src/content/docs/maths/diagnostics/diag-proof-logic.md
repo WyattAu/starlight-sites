@@ -1,23 +1,6 @@
 ---
 title: "Proof and Logic -- Diagnostic Tests"
-description: "IB Maths Proof and Logic -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Proof and Logic — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for proof and logic.
-
-### UT-1: Necessary vs Sufficient Conditions
-
-**Question:**
-
-For each of the following statements, state whether the condition $P$ is necessary, sufficient,
-both, or neither for $Q$:
-
-**(a)** $P$: "$n$ is divisible by $4$" and $Q$: "$n^2$ is divisible by $16$"
+description: ""$n$ is divisible by $4$" and $Q$: "$n^2$ is divisible by $16$"
 
 **(b)** $P$: "$f"'(x) \gt 0$ for all $x$" and $Q$: "$f$ is injective"
 

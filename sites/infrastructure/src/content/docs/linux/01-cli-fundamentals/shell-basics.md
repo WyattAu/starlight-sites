@@ -1,27 +1,6 @@
 ---
 title: Shell Basics
-description: "A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which..."
-
----
-
-## Shell Invocation
-
-A shell is both an **interactive command interpreter** and a **scripting language interpreter**.
-When you open a terminal emulator, it spawns a shell process — `bash``zsh`Or `dash`. When you run a
-script with `./script.sh`The shebang line determines which interpreter processes The file.
-
-### Interactive vs Non-Interactive
-
-| Aspect            | Interactive                           | Non-Interactive                        |
-| ----------------- | ------------------------------------- | -------------------------------------- |
-| **Startup files** | `.bashrc``.profile``/etc/bash.bashrc` | Only `BASH_ENV` variable if set        |
-| **Prompt**        | `PS1``PS2` displayed                  | No prompt                              |
-| **Job control**   | Enabled (`set -m`)                    | Disabled by default                    |
-| **Line editing**  | Readline active (`readline` library)  | Not active                             |
-| **Aliases**       | Expanded                              | Expanded (in bash) or not (POSIX mode) |
-| **Exit on error** | Does not exit on error                | Same unless `set -e`                   |
-
-The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
+description: ""s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
 
 - **Login shell**: Sourced on first login (SSH, `su -``login`). Reads `/etc/profile`Then

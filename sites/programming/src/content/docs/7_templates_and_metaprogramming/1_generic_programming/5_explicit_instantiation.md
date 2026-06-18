@@ -1,54 +1,6 @@
 ---
 title: Explicit Instantiation and Extern Templates
-description: "When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Explicit Instantiation and Extern Templates
-
-When templates are instantiated implicitly in every translation unit that uses them, compilation
-Time and binary size can grow significantly. C++ provides **explicit instantiation** and **extern
-Template** declarations to control exactly where instantiation happens, allowing you to centralize
-Common instantiations in a single translation unit.
-
-To control where instantiation happens, C++ provides **explicit instantiation** and **extern
-Template** declarations [N4950 §13.9.3]:
-
-- `template void foo<int>();` --- _forces_ instantiation in this translation unit.
-- `extern template void foo<int>();` --- _suppresses_ implicit instantiation in this translation
-  unit; the instantiation must exist elsewhere.
-
-```cpp
-// ---- utils.h ----
-#ifndef UTILS_H
-#define UTILS_H
-#include <vector>
-#include <string>
-
-template <typename T>
-std::vector<T> range(T start, T end) {
-    std::vector<T> result;
-    for (T i = start; i < end; ++i)
-        result.push_back(i);
-    return result;
-}
-
-// Explicit instantiation declarations [N4950 §13.9.3]
-extern template std::vector<int>    range(int, int);
-extern template std::vector<double> range(double, double);
-extern template std::vector<std::string> range(std::string, std::string);
-
-#endif // UTILS_H
-```
-
-```cpp
-// ---- utils.cpp ----
-#include "utils.h"
+description: ""utils.h"
 
 // Explicit instantiation definitions [N4950 §13.9.2]
 // These definitions live in ONE translation unit.

@@ -1,29 +1,6 @@
 ---
 title: Cell Biology
-description: "Rigorous IB biology notes covering Cell Biology. Includes definitions, derivations, worked examples, and exam-style problems."
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## 1. Cell Theory
-
-### Postulates of Cell Theory
-
-Cell theory, formulated by Schleiden and Schwann (1838--1839) and later refined by Virchow, rests on
-Three principles:
-
-1. All living organisms are composed of one or more cells.
-2. The cell is the smallest unit of life.
-3. All cells arise from pre-existing cells (biogenesis), refuting spontaneous generation.
-
-**Definition.** **Unicellular** organisms carry out all life functions within a single cell.
-**Multicellular** organisms have differentiated cells that specialise in specific functions.
-
-### Evidence for Cell Theory
-
-- **Microscopy**: light and electron microscopy confirm that all examined living tissue is cellular.
-- **Biogenesis experiments**: Pasteur"s swan-neck flask experiment (1859) demonstrated that
+description: ""s swan-neck flask experiment (1859) demonstrated that
   microorganisms arise only from existing microorganisms, not from non-living matter.
 - **Cell culture**: individual cells can be grown in vitro and give rise to colonies, confirming
   that single cells are viable living units.

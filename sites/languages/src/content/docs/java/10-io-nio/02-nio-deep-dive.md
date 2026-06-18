@@ -1,42 +1,6 @@
 ---
 title: NIO Deep Dive
-description: "(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O..."
-
----
-
-## NIO Overview
-
-`java.nio` (New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to
-The stream-based `java.io` API. NIO is designed for high-throughput I/O scenarios: network servers
-Handling thousands of connections, file operations on large files, and memory-mapped I/O.
-
-### Buffer vs Stream
-
-| Aspect          | Stream I/O (`java.io`)                    | NIO (`java.nio`)                            |
-| --------------- | ----------------------------------------- | ------------------------------------------- |
-| Data model      | Byte-by-byte or char-by-char              | Blocks of data (buffers)                    |
-| Direction       | Unidirectional (InputStream/OutputStream) | Bidirectional (channels)                    |
-| Blocking        | Always blocking                           | Blocking or non-blocking                    |
-| File operations | Sequential                                | Random access, memory-mapped                |
-| Threading model | One thread per connection                 | One thread for many connections (selectors) |
-
-## Buffers
-
-Buffers are the central data containers in NIO. A buffer is a fixed-capacity, in-memory container
-For data of a specific primitive type. All buffers extend `Buffer`.
-
-### `ByteBuffer`
-
-`ByteBuffer` is the most commonly used buffer. It holds bytes and provides methods for reading and
-Writing both primitive types and byte arrays.
-
-```java
-// Allocation
-ByteBuffer heapBuf = ByteBuffer.allocate(1024);        // heap-allocated
-ByteBuffer directBuf = ByteBuffer.allocateDirect(1024); // direct (native memory)
-
-// Wrapping an existing array
-byte[] data = "Hello, World!".getBytes(StandardCharsets.UTF_8);
+description: ""Hello, World!".getBytes(StandardCharsets.UTF_8);
 ByteBuffer wrapBuf = ByteBuffer.wrap(data);
 ```
 

@@ -1,22 +1,6 @@
 ---
 title: Electricity
-description: "A-Level Physics Electricity notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
----
-
-# Electricity
-
-Electricity is the study of electric charge, current, potential difference, and the behaviour of
-components in electrical circuits. This section covers the fundamental principles of DC circuits,
-resistance, and capacitance that form the basis of all electronic systems.
-
-## Topics Covered
-
-### Current and Resistance
-
-- **Electric current** — rate of flow of charge: $I = \frac{\Delta Q}{\Delta t}$; conventional
-  current vs. electron flow
-- **Potential difference** — energy per unit charge: $V = \frac{W}{Q}$; the volt
-- **Resistance** — $R = \frac{V}{I}$; Ohm"s law (for ohmic conductors); $I$-$V$ characteristic
+description: ""s law (for ohmic conductors); $I$-$V$ characteristic
   curves
 - **Resistivity** — $R = \frac{\rho L}{A}$; how material, length, and cross-sectional area affect
   resistance

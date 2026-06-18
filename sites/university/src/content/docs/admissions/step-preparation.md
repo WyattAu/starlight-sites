@@ -1,39 +1,6 @@
 ---
 title: STEP Preparation
-description: "University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
-date: 2026-05-05T00:00:00.000Z
-tags:
-  - Mathematics
-  - University
-  - Admissions
-categories:
-  - Mathematics
-
----
-
-## 1. Overview of STEP
-
-The Sixth Term Examination Paper (STEP) is a university admissions test used primarily by the
-University Of Cambridge for undergraduate mathematics courses. It is also accepted or required by
-several other UK Universities as part of their conditional offers.
-
-There are three papers:
-
-| Paper    | Content Scope                                        | Typical Use                                                  |
-| -------- | ---------------------------------------------------- | ------------------------------------------------------------ |
-| STEP I   | A-Level Mathematics syllabus                         | Historically the most accessible; now less commonly required |
-| STEP II  | A-Level Mathematics and AS-Level Further Mathematics | Most widely required paper                                   |
-| STEP III | A-Level Further Mathematics full syllabus            | Required for the most competitive Cambridge offers           |
-
-Each paper is 3 hours long. Candidates choose 6 questions from a total of 12 (8 pure, 2 mechanics, 2
-Probability/statistics). Each question is worth 20 marks. There is no penalty for incorrect working:
-Marks are awarded for correct progress towards the solution.
-
-### 1.1 Grading
-
-Grades are S (Outstanding), 1 (Very Good), 2 (Good), 3 (Satisfactory), and U (Unclassified). Typical
-Cambridge offers require Grade 1 in two STEP papers. The distribution is not linear: the gap between
-Grade 2 and Grade 1 is substantial, reflecting the exam"s emphasis on sustained, complete solutions
+description: ""s emphasis on sustained, complete solutions
 Rather than partial credit.
 
 ### 1.2 Key Differences from A-Level

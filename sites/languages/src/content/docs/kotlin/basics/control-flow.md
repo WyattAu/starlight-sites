@@ -1,23 +1,6 @@
 ---
 title: Control Flow
-description: "In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-18
-tags:
-  - Kotlin
-categories:
-  - Kotlin
----
-
-## if/else as Expression
-
-In Kotlin, `if` is an expression -- it returns a value. There is no ternary operator because
-`if/else` serves that role.
-
-```kotlin
-val max = if (a > b) a else b
-
-val result = if (x > 0) {
-    println("positive")
+description: ""positive")
     "positive"
 } else if (x < 0) {
     println("negative")

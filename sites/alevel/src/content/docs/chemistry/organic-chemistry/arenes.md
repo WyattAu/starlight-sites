@@ -1,20 +1,6 @@
 ---
 title: Arenes
-description: "Arenes are hydrocarbons containing one or more benzene rings. Benzene () Is the archetypal aromatic compound. Its structure and reactivity differ..."
-date: 2026-04-22T00:00:00.000Z
-tags:
-  - Chemistry
-  - ALevel
-categories:
-  - Chemistry
-
----
-
-# Arenes (Aromatic Compounds)
-
-Arenes are hydrocarbons containing one or more benzene rings. Benzene ($\mathrm{C}_6\mathrm{H}_6$)
-Is the archetypal aromatic compound. Its structure and reactivity differ fundamentally from those of
-Alkenes, despite both containing $\pi$ electrons. The key distinction is that benzene"s $\pi$
+description: ""s $\pi$
 Electrons are **delocalised** over the entire ring, forming an aromatic system with exceptional
 Thermodynamic stability.
 

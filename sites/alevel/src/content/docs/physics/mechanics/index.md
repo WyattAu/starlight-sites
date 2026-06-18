@@ -1,37 +1,6 @@
 ---
 title: Mechanics
-description: "A-Level Physics Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for in-depth review and exam preparation."
----
-
-# Mechanics
-
-Mechanics is the study of motion, forces, energy, and momentum — the foundational physics that
-describes how objects move and interact. This section covers everything from measurement techniques
-to gravitational fields and material properties.
-
-## Topics Covered
-
-### Quantities and Units
-
-- **SI base units** — kilogram, metre, second, ampere, kelvin, mole
-- **Derived units** — newton ($\text{kg}\,\text{m}\,\text{s}^{-2}$), joule
-  ($\text{kg}\,\text{m}^2\,\text{s}^{-2}$), watt ($\text{kg}\,\text{m}^2\,\text{s}^{-3}$)
-- **Prefixes** — nano ($10^{-9}$), micro ($10^{-6}$), milli ($10^{-3}$), kilo ($10^3$), mega
-  ($10^6$), giga ($10^9$)
-- **Scalars and vectors** — distinguishing quantities that have direction from those that do not;
-  vector addition and resolution
-
-### Kinematics
-
-- **Equations of motion** — $v = u + at$, $s = ut + \frac{1}{2}at^2$, $v^2 = u^2 + 2as$
-- **Free fall** — acceleration due to gravity $g = 9.81\,\text{m/s}^2$; projectile motion;
-  independence of horizontal and vertical components
-- **Motion graphs** — displacement-time (gradient = velocity), velocity-time (gradient =
-  acceleration, area = displacement)
-
-### Dynamics
-
-- **Newton"s laws of motion** — inertia, $F = ma$, action-reaction pairs
+description: ""s laws of motion** — inertia, $F = ma$, action-reaction pairs
 - **Weight and mass** — $W = mg$; the distinction between gravitational field strength and
   acceleration
 - **Drag and terminal velocity** — the balance of weight and drag; why objects reach a terminal

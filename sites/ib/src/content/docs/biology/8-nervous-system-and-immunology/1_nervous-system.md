@@ -1,39 +1,6 @@
 ---
 title: Nervous System
-description: "IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory"
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## 1. Neuron Structure and Function
-
-### Types of Neurons
-
-| Type                    | Structure                                                     | Function                                                   |
-| ----------------------- | ------------------------------------------------------------- | ---------------------------------------------------------- |
-| **Sensory (afferent)**  | Long dendrites, short axon; cell body in dorsal root ganglion | Transmit impulses from receptors to the CNS.               |
-| **Relay (interneuron)** | Short dendrites, short or no axon; within CNS                 | Process information; connect sensory and motor neurons.    |
-| **Motor (efferent)**    | Short dendrites, long axon; cell body in CNS                  | Transmit impulses from CNS to effectors (muscles, glands). |
-
-### Anatomy of a Neuron
-
-- **Cell body (soma)**: contains the nucleus, mitochondria, rough ER (Nissl bodies), and other
-  organelles. The metabolic centre of the neuron.
-- **Dendrites**: branched, highly branched projections extending from the cell body. Receive signals
-  (graded potentials) from other neurons via synapses. High surface area increases connectivity.
-- **Axon hillock**: the junction between the cell body and the axon. The integration zone where
-  graded potentials are summed. If the depolarisation reaches threshold, an action potential is
-  initiated here.
-- **Axon**: a long, thin cytoplasmic extension that transmits action potentials away from the cell
-  body. Diameter ranges from $1$ to $25\;\mathrm{\mu m}$; length from micrometres to over a metre
-  (e.g., sciatic nerve axons).
-- **Myelin sheath**: a lipid-rich insulating layer surrounding the axon. Formed by **Schwann cells**
-  in the peripheral nervous system (PNS) and **oligodendrocytes** in the central nervous system
-  (CNS). Myelin increases conduction velocity and reduces energy expenditure.
-- **Nodes of Ranvier**: gaps ($\approx 1$--$3\;\mathrm{\mu m}$) in the myelin sheath where the axon
-  membrane is exposed. Voltage-gated $\mathrm{Na}^+$ channels are concentrated here. Action
-  potentials "jump" between nodes (**saltatory conduction**).
+description: ""jump" between nodes (**saltatory conduction**).
 - **Axon terminals (synaptic knobs/boutons)**: bulbous endings of the axon branches that contain
   **synaptic vesicles** filled with neurotransmitter. Release neurotransmitter into the synaptic
   cleft upon arrival of an action potential.

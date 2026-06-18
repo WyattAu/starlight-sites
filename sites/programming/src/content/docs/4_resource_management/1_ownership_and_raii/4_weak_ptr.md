@@ -1,41 +1,6 @@
 ---
 title: Weak Pointers and Cyclic Reference Breaking
-description: "is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures — the most common source of memory..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Weak Pointers and Cyclic Reference Breaking
-
-`std::weak_ptr` is a non-owning observer of a `shared_ptr`-managed object. Its primary use case is
-Breaking reference cycles in graph structures — the most common source of memory leaks in
-`shared_ptr`-heavy codebases.
-
-## 4.1 Definition
-
-`std::weak_ptr<T>` is a non-owning observer of a `shared_ptr`-managed object. It does not
-Participate in the reference count that determines when the object is destroyed. It holds a **weak
-Count** in the control block [N4950 S20.11.3].
-
-## 4.2 The `lock()` Method
-
-To access the object through a `weak_ptr`You must call `lock()`Which returns a `shared_ptr`. If The
-object has already been destroyed, `lock()` returns an empty `shared_ptr`:
-
-```cpp
-#include <memory>
-#include <iostream>
-
-void weak_ptr_demo() {
-    auto sp = std::make_shared<int>(42);
-    std::weak_ptr<int> wp = sp;
-
-    if (auto locked = wp.lock()) {
-        std::cout << "value: " << *locked << "\n";  // 42
+description: ""value: " << *locked << "\n";  // 42
         std::cout << "use_count: " << locked.use_count() << "\n";  // 2
     }
     // locked destroyed, use_count back to 1

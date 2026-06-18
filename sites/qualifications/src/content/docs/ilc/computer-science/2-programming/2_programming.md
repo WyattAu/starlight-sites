@@ -1,52 +1,6 @@
 ---
 title: Algorithms and Programming
-description: "ILC Computer Science Algorithms and Programming notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
-date: 2026-04-14
-tags:
-  - ilc
-  - ilc-computer-science
-categories:
-  - ilc-computer-science
-
----
-
-# Algorithms and Programming
-
-This topic covers algorithm design, programming constructs, searching and sorting algorithms, and
-Computational problem solving.
-
-## What is an Algorithm? (OL/HL)
-
-An algorithm is a step-by-step procedure for solving a problem. It must:
-
-1. Be unambiguous.
-2. Have a defined input and output.
-3. Be finite (terminate).
-4. Be effective (each step is feasible).
-
-### Representing Algorithms
-
-- **Pseudocode:** structured English-like description.
-- **Flowcharts:** visual diagram using standard symbols (oval for start/end, rectangle for process,
-  diamond for decision, parallelogram for I/O).
-
-**Choosing a representation:**
-
-| Representation   | Precision | Readability | Executable |
-| ---------------- | --------- | ----------- | ---------- |
-| Natural language | Low       | High        | No         |
-| Pseudocode       | Medium    | Medium      | No         |
-| Flowchart        | Medium    | High        | No         |
-| Programming code | High      | Low         | Yes        |
-
-## Programming Constructs (OL/HL)
-
-### Sequence
-
-Statements executed in order.
-
-```python
-name = input("Enter your name: ")
+description: ""Enter your name: ")
 print("Hello, " + name)
 ```
 

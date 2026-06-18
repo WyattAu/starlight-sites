@@ -1,57 +1,6 @@
 ---
 title: Adolescent Development
-description: "Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary..."
-
----
-
-## Introduction
-
-Adolescence is the developmental period between childhood and adulthood, defined as Spanning from
-approximately age 10 to age 19 (though definitions vary across cultures and contexts). It is
-characterised by profound biological, cognitive, social, and emotional changes that have Significant
-implications for mental health, educational attainment, and long-term life outcomes.
-
-## Biological Changes
-
-### Puberty
-
-Puberty is the process of physical maturation that leads to sexual maturity. It is triggered by the
-Activation of the hypothalamic-pituitary-gonadal (HPG) axis, which begins producing increasing
-Levels of sex hormones (testosterone in males, oestrogen and progesterone in females).
-
-**The timing of puberty has significant psychological consequences:**
-
-- **Early maturation in boys** is generally associated with positive outcomes: early-maturing boys
-  tend to be taller, more athletic, and more popular, which enhances self-esteem and social status.
-- **Early maturation in girls** is associated with mixed outcomes. Early-maturing girls may
-  experience increased social attention from older peers, but they are also at increased risk for
-  depression, anxiety, eating disorders, substance use, and early sexual activity. The discrepancy
-  between their physical appearance and their emotional and cognitive maturity can create stress and
-  vulnerability.
-- **Late maturation** (in both sexes) is generally associated with short-term disadvantages (lower
-  social status, lower self-esteem) but these effects tend to diminish by early adulthood.
-
-### Brain Development
-
-As discussed in [Developmental Psychology](../developmental-psychology), the adolescent brain
-Undergoes significant remodelling. The two key processes are:
-
-1. **Synaptic pruning:** The elimination of unused synaptic connections, refining neural circuits
-   and improving processing efficiency. Synaptic pruning is particularly extensive in the prefrontal
-   cortex during adolescence.
-2. **Myelination:** The formation of myelin sheaths around axons, which increases the speed and
-   efficiency of neural transmission. Myelination of the prefrontal cortex continues into the
-   mid-20s.
-
-These processes have important implications for adolescent behaviour. The prefrontal cortex,
-Responsible for executive functions (planning, decision making, impulse control, and social
-Cognition), is the last brain region to fully mature. This creates a temporal gap between the
-Development of the limbic system (which matures early and is highly responsive to rewards and
-Emotional stimuli) and the prefrontal cortex (which matures later and provides regulatory control).
-
-## Identity Formation
-
-### Erikson"s Theory of Psychosocial Development (1968)
+description: ""s Theory of Psychosocial Development (1968)
 
 Erik Erikson proposed that personality develops through eight psychosocial stages, each
 Characterised by a central conflict that must be resolved. The fifth stage, **identity versus role

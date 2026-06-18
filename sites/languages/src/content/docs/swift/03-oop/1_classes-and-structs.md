@@ -1,58 +1,6 @@
 ---
 title: Classes and Structs
-description: "Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Swift
-categories:
-  - Swift
-
----
-
-## Classes vs Structs
-
-Swift provides both **classes** (reference types) and **structs** (value types). The choice between
-them is a fundamental design decision.
-
-| Feature         | Struct                      | Class                           |
-| --------------- | --------------------------- | ------------------------------- |
-| Type            | Value type                  | Reference type                  |
-| Assignment      | Copied                      | Shared reference                |
-| Inheritance     | No                          | Yes                             |
-| Deinitialiser   | No                          | Yes (`deinit`)                  |
-| Mutability      | Must use `var` + `mutating` | Properties always mutable       |
-| Memory          | Stack (usually)             | Heap (ARC)                      |
-| Identity        | No (`==` compares values)   | Yes (`===` compares references) |
-| Implicit `init` | Yes (memberwise)            | No                              |
-
-### Choosing Between Struct and Class
-
-Use **structs** by default. Switch to **classes** when you need:
-
-- Inheritance
-- Shared mutable state (identity semantics)
-- Objective-C interoperability
-- Deinitialisation (`deinit`)
-
-```swift
-// Struct -- value type
-struct Point {
-    var x: Double
-    var y: Double
-}
-
-var p1 = Point(x: 1.0, y: 2.0)
-var p2 = p1          // Copy
-p2.x = 10.0
-print(p1.x)          // 1.0 (unchanged)
-
-// Class -- reference type
-class Dog {
-    var name: String
-    init(name: String) { self.name = name }
-}
-
-var d1 = Dog(name: "Rex")
+description: ""Rex")
 var d2 = d1           // Same reference
 d2.name = "Buddy"
 print(d1.name)        // Buddy (changed)

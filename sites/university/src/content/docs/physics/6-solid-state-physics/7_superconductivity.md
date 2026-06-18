@@ -3,35 +3,7 @@ title: Superconductivity
 tags:
   - Physics
   - University
-description: "is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems."
----
-
-### 7.1 Basic Phenomenology
-
-**Superconductivity** is the complete loss of electrical resistance below a critical temperature
-$T_c$. Discovered by Onnes in 1911 (mercury, $T_c = 4.2$ K).
-
-Key experimental facts:
-
-1. **Zero resistance:** $\rho = 0$ for $T \lt T_c$.
-2. **Meissner effect:** Complete expulsion of magnetic flux from the interior: $\mathbf{B} = 0$
-   inside a superconductor (for $T \lt T_c$ and $B \lt B_c$).
-3. **Critical magnetic field:** Superconductivity is destroyed above
-   $B_c(T) = B_c(0)[1 - (T/T_c)^2]$.
-4. **Critical current density:** Superconductivity is destroyed above a critical current density
-   $J_c$.
-
-### 7.2 London Equations
-
-The **London equations** describe the electromagnetic response of a superconductor:
-
-$$\frac{\partial \mathbf{J}_s}{\partial t} = \frac{n_s e^2}{m_e}\mathbf{E}$$
-
-$$\nabla \times \mathbf{J}_s = -\frac{n_s e^2}{m_e}\mathbf{B}$$
-
-Where $n_s$ is the density of superconducting electrons.
-
-Combining with Maxwell"s equations:
+description: ""s equations:
 
 $$\nabla^2 \mathbf{B} = \frac{1}{\lambda_L^2}\mathbf{B}$$
 

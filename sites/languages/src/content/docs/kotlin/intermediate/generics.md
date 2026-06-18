@@ -1,23 +1,6 @@
 ---
 title: Generics
-description: "Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the JVM erases generic type parameters at runtime (type..."
-date: 2026-04-18
-tags:
-  - Kotlin
-categories:
-  - Kotlin
----
-
-## Generic Classes and Functions
-
-Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the
-JVM erases generic type parameters at runtime (type erasure).
-
-```kotlin
-class Box<T>(val value: T)
-
-val intBox: Box<Int> = Box(42)
-val strBox: Box<String> = Box("hello")
+description: ""hello")
 // val wrong: Box<Int> = Box("hello")  // compile error
 ```
 

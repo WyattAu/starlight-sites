@@ -1,35 +1,6 @@
 ---
 title: "Genetics -- Diagnostic Tests"
-description: "DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
-tableOfContents: false
----
-
-# DSE Biology Diagnostic: Genetics
-
-## Unit Test 1: DNA Structure and Replication
-
-**Question**
-
-DNA has a double helix structure described by Watson and Crick.
-
-(a) Describe the DNA double helix structure with reference to (i) the arrangement of the two
-polynucleotide strands, (ii) the types of bonds holding the two strands together, and (iii) the
-significance of complementary base pairing. [5 marks]
-
-(b) DNA replication is described as **semi-conservative**. Explain what this means and describe the
-role of **DNA helicase** and **DNA polymerase** in the replication process. [5 marks]
-
-(c) A sample of DNA contains $28\%$ adenine. Calculate the percentage of each of the other three
-bases (thymine, guanine, and cytosine) in this sample. [2 marks]
-
----
-
-**Worked Solution**
-
-(a) DNA double helix structure:
-
-(i) Two polynucleotide strands are coiled into a **double helix**. The two strands run in
-**antiparallel** directions -- one runs $5"$ to $3'$ and the other runs $3'$ to $5'$.
+description: ""$ to $3'$ and the other runs $3'$ to $5'$.
 
 (ii) The two strands are held together by **hydrogen bonds** between complementary base pairs:
 adenine (A) pairs with thymine (T) via **two** hydrogen bonds, and guanine (G) pairs with cytosine

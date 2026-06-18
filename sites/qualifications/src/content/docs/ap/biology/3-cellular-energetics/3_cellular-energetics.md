@@ -1,40 +1,6 @@
 ---
 title: Cellular Energetics
-description: "Qualifications Biology Cellular Energetics notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
-date: 2026-04-14
-tags:
-  - ap
-  - ap-biology
-categories:
-  - ap-biology
-
----
-
-## Cellular Respiration (CED Unit 3)
-
-### Overview
-
-Cellular respiration is the catabolic process by which cells harvest energy from organic molecules (
-glucose). The overall equation:
-
-$$
-\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O + \mathrm{ATP + \mathrm{heat
-$$
-
-$\Delta G^\circ \approx -686 \mathrm{ kcal/mol$ (highly exergonic).
-
-### Four Stages
-
-| Stage                     | Location                     | O$_2$ Required? | ATP Produced (Net)        |
-| ------------------------- | ---------------------------- | --------------- | ------------------------- |
-| Glycolysis                | Cytoplasm                    | No              | 2 ATP (substrate-level)   |
-| Pyruvate oxidation        | Mitochondrial matrix         | No              | 0                         |
-| Citric acid cycle         | Mitochondrial matrix         | No              | 2 ATP (substrate-level)   |
-| Oxidative phosphorylation | Inner mitochondrial membrane | Yes             | ~26-28 ATP (chemiosmosis) |
-
-### Glycolysis
-
-Glycolysis ("sugar splitting") breaks one glucose ($\mathrm{C_6$) into two pyruvate ($\mathrm{C_3$)
+description: ""sugar splitting") breaks one glucose ($\mathrm{C_6$) into two pyruvate ($\mathrm{C_3$)
 molecules.
 
 **Investment phase (requires 2 ATP):**

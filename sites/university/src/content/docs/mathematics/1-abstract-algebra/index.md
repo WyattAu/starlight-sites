@@ -3,16 +3,7 @@ title: Abstract Algebra
 tags:
   - Mathematics
   - University
-description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. Comprehensive educational content coverage with definitions and practice problems."
----
-
-# Abstract Algebra
-
-## Contents
-
-1. [Groups](1_groups.md)
-2. [Subgroups](2_subgroups.md)
-3. [Lagrange"s Theorem](3_lagrange-s-theorem.md)
+description: ""s Theorem](3_lagrange-s-theorem.md)
 4. [Normal Subgroups and Quotient Groups](4_normal-subgroups-and-quotient-groups.md)
 5. [Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)
 6. [Group Actions](6_group-actions.md)

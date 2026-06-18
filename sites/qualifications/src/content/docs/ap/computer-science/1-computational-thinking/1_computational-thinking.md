@@ -1,41 +1,6 @@
 ---
 title: Computational Thinking
-description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing..."
-date: 2026-04-14
-tags:
-  - ap
-  - ap-computer-science
-categories:
-  - ap-computer-science
-
----
-
-## What Is Computational Thinking? (CED Unit 1)
-
-Computational thinking is a problem-solving approach that involves breaking down complex problems,
-Finding patterns, abstracting details, and designing step-by-step solutions. It is not about
-Thinking like a computer -- it is about expressing problems in a way that a computer can solve.
-
-### Four Pillars
-
-1. **Decomposition:** Breaking a complex problem into smaller, manageable subproblems.
-2. **Pattern Recognition:** Finding similarities or trends within or between problems.
-3. **Abstraction:** Focusing on essential information while ignoring irrelevant details.
-4. **Algorithm Design:** Developing a step-by-step procedure to solve the problem.
-
-**Why these four matter together.** Decomposition tells you _what_ the subproblems are. Pattern
-Recognition tells you _which_ subproblems are instances of problems you already know how to solve.
-Abstraction tells you _which details matter_ for each subproblem. Algorithm design turns the
-Abstracted subproblems into _precise, executable steps_.
-
-**Worked Example.** Design a program to manage a school library.
-
-- **Decomposition:** Book cataloguing, user management, borrowing/returning, overdue tracking,
-  search functionality.
-- **Pattern Recognition:** Searching for a book and searching for a user follow the same pattern
-  (linear or binary search on a sorted list). Borrowing and returning both modify the same data
-  structure (a loan record).
-- **Abstraction:** A "book" is represented by its ISBN, title, author, and availability status. We
+description: ""book" is represented by its ISBN, title, author, and availability status. We
   do not need to model the physical book"s condition, shelf location, or cover colour.
 - **Algorithm Design:** Write pseudocode for each operation: add_book, search_book, borrow_book,
   return_book, calculate_fine.

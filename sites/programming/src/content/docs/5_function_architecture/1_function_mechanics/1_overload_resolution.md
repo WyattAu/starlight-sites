@@ -1,39 +1,6 @@
 ---
 title: Overload Resolution
-description: "C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Overload Resolution
-
-C++ function resolution is not a simple name match. The compiler performs a multi-phase search
-Through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
-Selects a single best viable function — or rejects the call as ambiguous.
-
-## 1.1 Name Lookup [N4950 §6.5.4]
-
-Name lookup determines which set of declarations are considered as candidates for a function call.
-There are three forms of lookup:
-
-1. **Unqualified lookup**: Searches enclosing scopes from innermost to outermost, stopping at the
-   first scope that contains a declaration of the name.
-2. **Qualified lookup**: When a name is prefixed with a namespace or class scope (e.g.,
-   `std::sort`), lookup searches only that scope and its inline namespaces.
-3. **Argument-dependent lookup (ADL)**: Also called Koenig lookup. For unqualified function calls,
-   the namespaces and classes associated with each argument type are additionally searched.
-
-```cpp
-#include <iostream>
-#include <string>
-
-namespace lib {
-    struct S {};
-    void print(const S&) { std::cout << "lib::S\n"; }
+description: ""lib::S\n"; }
 }
 
 void print(int) { std::cout << "int\n"; }

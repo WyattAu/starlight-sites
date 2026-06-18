@@ -1,19 +1,6 @@
 ---
 title: Packaging and Distribution
-description: "is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata)."
-
----
-
-## pyproject.toml
-
-`pyproject.toml` is the modern standard for Python project configuration, defined by PEP 518 (build
-System) and PEP 621 (project metadata).
-
-### Minimal pyproject.toml
-
-```toml
-[build-system]
-requires = ["setuptools>=68.0", "wheel"]
+description: ""setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]

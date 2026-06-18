@@ -1,18 +1,6 @@
 ---
 title: Attachment Theory
-description: "Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary Caregiver ( the mother). Attachment theory, originally..."
-
----
-
-## Introduction
-
-Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary
-Caregiver ( the mother). Attachment theory, originally developed by John Bowlby and later Expanded
-by Mary Ainsworth, has become one of the most influential and well-researched theories in
-Developmental psychology. It explains how early relationships shape emotional development, social
-Competence, and mental health across the lifespan.
-
-## Bowlby"s Evolutionary Theory of Attachment
+description: ""s Evolutionary Theory of Attachment
 
 ### Key Principles
 

@@ -1,52 +1,6 @@
 ---
 title: "Statistical Distributions -- Diagnostic Tests"
-description: "A-Level Maths Statistical Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Statistical Distributions — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for statistical distributions.
-
-### UT-1: Binomial Distribution — Identifying and Applying the Correct Model
-
-**Question:**
-
-For each of the following scenarios, determine whether the binomial distribution $B(n, p)$ is
-appropriate. If it is, state the values of $n$ and $p$. If it is not, identify which binomial
-condition is violated and name the correct distribution (if one has been covered).
-
-**(a)** A bag contains 5 red and 3 blue balls. Balls are drawn one at a time without replacement
-until a red ball is drawn. $X$ is the number of blue balls drawn before the first red ball.
-
-**(b)** A machine produces components, and 2% are defective. Components are packed in boxes of 50.
-$Y$ is the number of defective components in a randomly selected box.
-
-**(c)** A fair coin is tossed repeatedly until 3 heads have been obtained. $Z$ is the total number
-of tosses required.
-
-**(d)** A biased die is rolled 100 times. The probability of rolling a 6 is $p = 0.3$. $W$ is the
-number of times a 6 is rolled in the first 50 rolls.
-
-**(e)** A student answers 10 multiple choice questions, each with 4 options. For the first 5
-questions, she knows the answer. For the last 5, she guesses randomly. $V$ is the total number of
-correct answers.
-
-[Difficulty: hard. Tests precise identification of binomial conditions, which is the most common
-source of error in distribution questions.]
-
-**Solution:**
-
-**(a)** The binomial distribution is **NOT** appropriate. The condition violated is **independence
-of trials**: since balls are drawn without replacement, the probability of drawing a red ball
-changes after each draw. The probability of red on the first draw is $\frac{5}{8}$But if the first
-ball is blue, the probability of red on the second draw becomes $\frac{5}{7}$.
-
-The correct distribution is the **geometric distribution** (number of failures before the first
-success in sampling without replacement follows a negative hypergeometric distribution, but the
-scenario of "number of blue balls before the first red" without replacement is best modelled by a
+description: ""number of blue balls before the first red" without replacement is best modelled by a
 direct probability calculation for each value).
 
 **(b)** The binomial distribution **IS** appropriate.

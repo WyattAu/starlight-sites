@@ -1,50 +1,6 @@
 ---
 title: Circuits
-description: "Electric current is the rate of flow of charge: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
-date: 2026-05-05
-tags:
-  - ap
-  - ap-physics
-categories:
-  - ap-physics
-
----
-
-## Current
-
-Electric current is the rate of flow of charge:
-
-$$
-I = \frac{dq}{dt}
-$$
-
-Current is a scalar (conventional current flows in the direction of positive charge flow). The SI
-unit Is the ampere (A), where $1\,\text{A = 1\,\text{C/s$.
-
-### Current Density
-
-For a current distributed across a cross-sectional area $A$:
-
-$$
-J = \frac{I}{A}
-$$
-
-The current density is a vector: $\vec{J} = nq\vec{v}_d$Where $n$ is the charge carrier density and
-$\vec{v}_d$ is the drift velocity.
-
-### Microscopic View of Current
-
-In a conductor with $n$ charge carriers per unit volume, each with charge $q$Moving with drift
-velocity $v_d$:
-
-$$
-I = nqv_d A
-$$
-
-The drift velocity is very small (on the order of mm/s), even though the signal propagates at Nearly
-the speed of light.
-
-## Resistance and Ohm"s Law
+description: ""s Law
 
 Ohm's law (for ohmic materials):
 

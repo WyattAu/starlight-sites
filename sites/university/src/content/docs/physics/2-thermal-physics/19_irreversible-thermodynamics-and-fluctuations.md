@@ -3,47 +3,7 @@ title: Irreversible Thermodynamics and Fluctuations
 tags:
   - Physics
   - University
-description: "The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating variable to the linear response function: "''
----
-
-### 19.1 Fluctuation-Dissipation in the Time Domain
-
-The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating
-variable to the linear response function:
-
-$$\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle$$
-
-For example, the velocity autocorrelation function of a Brownian particle:
-
-$$\langle v(t)v(0)\rangle = \frac{k_BT}{m}e^{-t/\tau}$$
-
-Gives the mobility $\mu = e\tau/m$ (Einstein relation).
-
-### 19.2 Johnson--Nyquist Noise Spectrum
-
-The voltage noise spectrum across a resistor $R$ at temperature $T$:
-
-$$S_V(f) = 4k_BTR$$
-
-This is **white noise** (frequency-independent up to $f \sim k_BT/h$).
-
-The voltage fluctuation in bandwidth $\Delta f$:
-
-$$\langle V^2 \rangle = 4k_BTR\,\Delta f$$
-
-### 19.3 Jarzynski Equality
-
-The **Jarzynski equality** (1997) connects non-equilibrium work to equilibrium free energy
-differences:
-
-$$\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$$
-
-Where the average is over many realisations of a process that drives the system from equilibrium
-state $A$ to equilibrium state $B$ in time $\tau$.
-
-**Consequences:**
-
-- By Jensen"s inequality: $\langle W \rangle \geq \Delta F$ (the average work is never less than the
+description: ""s inequality: $\langle W \rangle \geq \Delta F$ (the average work is never less than the
   free energy change).
 - For quasi-static processes: $\langle W \rangle = \Delta F$ and the distribution of $W$ is a delta
   function.

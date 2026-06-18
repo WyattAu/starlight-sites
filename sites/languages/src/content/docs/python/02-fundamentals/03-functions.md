@@ -1,17 +1,6 @@
 ---
 title: Functions, Closures, and Decorators
-description: "In Python, means that functions are values on equal footing with every other kind Of value -- integers, strings, lists, class instances. There is no..."
-date: 2026-04-05T00:00:00.000Z
-tags:
-  - Python
-categories:
-  - Python
-
----
-
-## Functions as First-Class Objects
-
-In Python, **"first-class"** means that functions are values on equal footing with every other kind
+description: ""first-class"** means that functions are values on equal footing with every other kind
 Of value -- integers, strings, lists, class instances. There is no separate "function type
 Namespace" or restriction on where a function reference can appear. A function can be assigned to a
 Variable, stored in a data structure, passed as an argument, and returned from another function. The

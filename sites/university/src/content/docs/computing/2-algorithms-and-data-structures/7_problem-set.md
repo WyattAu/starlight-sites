@@ -3,17 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: "Problem Set: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 7.1 Analysis (Problems 1--3)
-
-**Problem 1.** Prove that $n^3 / 1000 - 100n^2 - 100n + 3 = \Theta(n^3)$.
-
-**Problem 2.** Use the Master Theorem to solve the recurrence $T(n) = 3T(n/4) + n \log n$. If the
-Master Theorem does not apply, explain why.
-
-**Problem 3.** Prove that $\log(n!) = \Theta(n \log n)$ using Stirling"s approximation:
+description: ""s approximation:
 $n! \approx \sqrt{2\pi n}(n/e)^n$.
 
 ### 7.2 Data Structures (Problems 4--8)

@@ -3,46 +3,7 @@ title: Distributed Databases
 tags:
   - Computing
   - University
-description: "A stores data across multiple nodes connected by a network. Motivations Include: Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 9.1 Architecture and Motivation
-
-A **distributed database** stores data across multiple nodes connected by a network. Motivations
-Include:
-
-- **Performance:** Data locality reduces latency; parallel query processing increases throughput.
-- **Availability:** Replication allows the system to survive node failures.
-- **Scalability:** Horizontal scaling by adding more nodes.
-
-**Shared-nothing architecture.** Each node has its own CPU, memory, and disk. Nodes communicate Only
-via the network. This is the dominant architecture for distributed databases.
-
-**Data fragmentation:**
-
-- **Horizontal fragmentation:** Each fragment is a subset of rows (tuples) defined by a selection
-  predicate. Example: partition `Student` by department.
-- **Vertical fragmentation:** Each fragment is a subset of columns. Example: store frequently
-  accessed columns on fast nodes.
-- **Hybrid fragmentation:** A combination of horizontal and vertical.
-
-### 9.2 Distributed Transactions
-
-A distributed transaction involves operations on multiple nodes. The challenge is ensuring atomicity
-Across nodes.
-
-**Two-Phase Commit (2PC).**
-
-- **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
-  participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
-  it sends `ABORT`. Participants apply the decision and acknowledge.
-
-**Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
-Permanently and the log is on stable storage.
-
-_Proof._ If the coordinator crashes after phase 1, participants that voted `YES` are blocked -- they
-Cannot decide without knowing the coordinator"s decision. Upon recovery, the coordinator reads its
+description: ""s decision. Upon recovery, the coordinator reads its
 Log to determine the decision and notifies participants. Since each participant wrote its vote to
 Stable storage before responding, no vote is lost. $\blacksquare$
 

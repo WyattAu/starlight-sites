@@ -1,26 +1,6 @@
 ---
 title: Generators and Iterators
-description: "Python''s iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython..."
-date: 2026-04-05T00:00:00.000Z
-tags:
-  - Python
-categories:
-  - Python
-
----
-
-## The Iterator Protocol
-
-### The Two Methods
-
-Python's iteration mechanism is built on a two-method protocol defined by the data model. Any object
-That implements `__iter__` and `__next__` is an iterator. The CPython implementation checks for
-These methods via `PyIter_Check()` and `tp_iternext` slots -- the interpreter itself does not care
-Whether the object is a built-in type or a user-defined class, only that it satisfies the protocol.
-
-```python
-class CountUp:
-    """An iterator that counts from 0 to a limit (exclusive)."""
+description: """"An iterator that counts from 0 to a limit (exclusive)."""
 
     def __init__(self, limit: int):
         self._current = 0

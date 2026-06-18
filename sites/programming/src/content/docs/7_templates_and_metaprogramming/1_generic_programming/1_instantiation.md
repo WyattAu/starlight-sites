@@ -1,53 +1,6 @@
 ---
 title: Template Instantiation, Monomorphization, and Code Bloat
-description: "Templates are blueprints the compiler uses to generate type-specific code on demand. This process — Called — produces optimized, type-specific functions and..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Template Instantiation, Monomorphization, and Code Bloat
-
-Templates are blueprints the compiler uses to generate type-specific code on demand. This process —
-Called **instantiation** — produces optimized, type-specific functions and classes through
-**monomorphization**, but can lead to significant code bloat if not managed carefully.
-
-## Function Templates and Class Templates
-
-A **function template** is a blueprint the compiler uses to generate type-specific functions on
-Demand [N4950 S13.7]. A **class template** similarly generates type-specific classes [N4950
-S13.7.3]. The process of generating concrete code from a template is called **instantiation**.
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <string>
-
-// Function template [N4950 S13.7]
-template <typename T>
-T max_of(T a, T b) {
-    return (a > b) ? a : b;
-}
-
-// Class template [N4950 S13.7.3]
-template <typename T, typename Allocator = std::allocator<T>>
-class Stack {
-public:
-    void push(const T& value) { data_.push_back(value); }
-    void pop() { data_.pop_back(); }
-    const T& top() const { return data_.back(); }
-    bool empty() const { return data_.empty(); }
-private:
-    std::vector<T, Allocator> data_;
-};
-
-int main() {
-    int x = max_of(3, 7);            // instantiates max_of<int>
-    double y = max_of(1.5, 2.3);     // instantiates max_of<double>
-    std::string s = max_of(std::string{"hello"}, std::string{"world"});
+description: ""hello"}, std::string{"world"});
 
     Stack<int> si;
     si.push(42);

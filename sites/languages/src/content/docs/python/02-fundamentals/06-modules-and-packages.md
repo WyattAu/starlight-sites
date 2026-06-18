@@ -1,37 +1,6 @@
 ---
 title: Modules and Packages
-description: "The import system is the mechanism by which Python locates, loads, and binds module objects into the Current namespace. It is one of the most critical..."
-date: 2026-04-05T00:00:00.000Z
-tags:
-  - Python
-categories:
-  - Python
-
----
-
-## The Import System
-
-The import system is the mechanism by which Python locates, loads, and binds module objects into the
-Current namespace. It is one of the most critical subsystems in the interpreter because every piece
-Of code you write depends on it, yet most developers treat it as magic. Understanding the import
-System is essential for debugging import errors, designing package layouts, and avoiding circular
-Dependency traps.
-
-### The `import` Statement
-
-Python provides three syntactic forms of the import statement:
-
-```python
-import os
-import os.path
-from os.path import join
-from os.path import join as path_join
-import json as json_module
-```
-
-Each form does something subtly different at the namespace level:
-
-1. `import os` binds the module object to the name `os` in the current namespace. The module"s
+description: ""s
    attributes are accessed as `os.path``os.environ`Etc. No names from inside `os` are injected into
    the current scope.
 

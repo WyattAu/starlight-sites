@@ -3,10 +3,7 @@ title: Diffraction
 tags:
   - Physics
   - University
-description: "X-ray diffraction from crystal planes produces constructive interference when: Comprehensive educational content coverage with definitions and practice problems"
----
-
-### 3.1 Bragg"s Law
+description: ""s Law
 
 X-ray diffraction from crystal planes produces constructive interference when:
 

@@ -1,18 +1,6 @@
 ---
 title: "Differential Equations -- Diagnostic Tests"
-description: "A-Level Further Maths Differential Equations -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Differential Equations — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: First Order Separable Equations
-
-**Question:** Solve $\frac{dy}{dx} = \frac{x}{y}$ given that $y = 2$ when $x = 1$. (b) Solve
-$\frac{dy}{dx} = xy$ given that $y = 1$ when $x = 0$. (c) Solve $\frac{dy}{dx} = \frac{y^2 + 1}{y}$
-given that $y = 0$ when $x = 0$. (d) Explain what is meant by a "particular solution" versus a
+description: ""particular solution" versus a
 "general solution".
 
 **Solution:**

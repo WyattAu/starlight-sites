@@ -1,23 +1,6 @@
 ---
 title: "Trigonometry -- Diagnostic Tests"
-description: "IB Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
-tableOfContents: false
----
-
-# Trigonometry — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for trigonometry.
-
-### UT-1: Solving Trigonometric Equations — Missing Solutions from Periodicity
-
-**Question:**
-
-Solve $\sin 2x = \cos x$ for $x \in [0, 2\pi]$.
-
-A student writes:
-"$\sin 2x = \cos x \implies 2\sin x \cos x = \cos x \implies \cos x(2\sin x - 1) = 0$. So
+description: ""$\sin 2x = \cos x \implies 2\sin x \cos x = \cos x \implies \cos x(2\sin x - 1) = 0$. So
 $\cos x = 0$ or $\sin x = \frac{1}{2}$."
 
 **(a)** Complete the student"s working and verify that all solutions are found.

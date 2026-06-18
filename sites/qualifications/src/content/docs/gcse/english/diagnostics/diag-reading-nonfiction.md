@@ -1,27 +1,6 @@
 ---
 title: "Reading Non-Fiction -- Diagnostic Tests"
-description: "Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
-tableOfContents: false
----
-
-# Reading Non-Fiction -- Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Comprehension and Inference
-
-**Question:**
-
-Read the following article extract about urban cycling:
-
-> When the city of Groningen in the Netherlands decided to redesign its centre in the 1970s,
-> planners divided the urban area into distinct sectors. Cars were permitted within each sector but
-> could not drive directly from one sector to another; instead, they had to use a ring road that
-> circled the outer edge of the city. The result was radical: car traffic in the city centre dropped
-> by over 70%, and cycling became the dominant mode of transport. Today, 61% of all journeys in
-> Groningen are made by bicycle, compared with just 2% in most British cities. Critics argue that
-> what worked in a flat Dutch city of 200,000 people cannot simply be transplanted to a congested
-> British metropolis of millions. They may be right. But the principle behind Groningen"s approach
+description: ""s approach
 > -- that infrastructure determines behaviour -- is applicable everywhere.
 
 (a) According to the text, what was the key change made to Groningen's city centre in the 1970s?

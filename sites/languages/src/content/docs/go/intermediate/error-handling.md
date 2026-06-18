@@ -1,40 +1,6 @@
 ---
 title: Error Handling
-description: "Go''s error handling is convention-based. The interface has a single method: Comprehensive educational content coverage with definitions and practice problems."
-date: 2026-04-18
-tags:
-  - Go
-categories:
-  - Go
----
-
-## The Error Interface
-
-Go's error handling is convention-based. The `error` interface has a single method:
-
-```go
-type error interface {
-    Error() string
-}
-```
-
-Any type implementing `Error() string` is an error. There is no exception mechanism -- errors are
-Values, returned like any other value.
-
-### Idiomatic Error Pattern
-
-Functions that can fail return an error as their last return value:
-
-```go
-func Open(name string) (*File, error)
-func Read(r io.Reader) ([]byte, error)
-func Parse(s string) (T, error)
-```
-
-The caller checks the error immediately:
-
-```go
-f, err := os.Open("file.txt")
+description: ""file.txt")
 if err != nil {
     return fmt.Errorf("failed to open file: %w", err)
 }

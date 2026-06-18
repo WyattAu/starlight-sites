@@ -5,22 +5,7 @@ tags:
   - TypeScript
 categories:
   - TypeScript
-description: "and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble"
----
-
-## Conditional Types: Internals and Advanced `infer`
-
-### `Extract` and `Exclude` Internals
-
-`Extract<T, U>` and `Exclude<T, U>` are built-in conditional types defined in `lib.es5.d.ts`. Their
-implementations reveal the core distribution mechanism:
-
-```ts
-type Exclude<T, U> = T extends U ? never : T;
-type Extract<T, U> = T extends U ? T : never;
-```
-
-Both rely on distributive conditional types. Given `Exclude<"a' | 'b' | 'c', 'a'>`, the naked type
+description: ""a' | 'b' | 'c', 'a'>`, the naked type
 parameter `T` distributes: `Exclude<'a', 'a'> | Exclude<'b', 'a'> | Exclude<'c', 'a'>`, yielding
 `never | 'b' | 'c'`, which simplifies to `'b' | 'c'`.
 

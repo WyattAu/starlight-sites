@@ -1,34 +1,6 @@
 ---
 title: Genetics and Evolution
-description: "ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
-date: 2026-04-14
-tags:
-  - ilc
-  - ilc-biology
-categories:
-  - ilc-biology
-
----
-
-# Genetics and Evolution
-
-This topic covers DNA structure, protein synthesis, inheritance, genetic crosses, genetic
-Engineering, the Hardy-Weinberg principle, and the theory of evolution by natural selection.
-
-## DNA Structure (OL/HL)
-
-### The Double Helix (OL/HL)
-
-DNA is a double-stranded helix composed of nucleotides.
-
-**Nucleotide structure:** phosphate group + deoxyribose sugar + nitrogenous base.
-
-**Bases:**
-
-- Adenine (A) pairs with Thymine (T) -- two hydrogen bonds.
-- Cytosine (C) pairs with Guanine (G) -- three hydrogen bonds.
-
-**Chargaff"s rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
+description: ""s rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
 
 ### DNA Replication (HL)
 

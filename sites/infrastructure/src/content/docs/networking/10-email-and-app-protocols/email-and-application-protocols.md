@@ -1,49 +1,6 @@
 ---
 title: Email and Application Protocols
-description: "Electronic mail and application-layer protocols form the backbone of human communication over the Internet. This document examines the architecture,..."
-date: 2026-04-09T00:00:00.000Z
-tags:
-  - Networking
-categories:
-  - Networking
-
----
-
-# Email and Application Protocols
-
-Electronic mail and application-layer protocols form the backbone of human communication over the
-Internet. This document examines the architecture, protocols, and security mechanisms that enable
-Reliable message delivery, file transfer, directory services, and time synchronization across
-Distributed systems.
-
-## Email Architecture
-
-### Core Components
-
-The email system is composed of three principal agent types, each operating at different stages of
-The message lifecycle.
-
-**MUA — Mail User Agent**
-
-The MUA is the software interface that end users interact with to compose, read, and manage email
-Messages. Examples include command-line tools like `mutt` and `mailx`Desktop clients such as Mozilla
-Thunderbird and Microsoft Outlook, and web-based interfaces like Gmail and Roundcube. The MUA
-handles message composition, MIME encoding, submission to an MTA via SMTP on port 587, and Retrieval
-from a message store via IMAP on port 993 or POP3 on port 995. The MUA is also responsible For local
-message rendering, attachment handling, and the application of local filtering rules.
-
-**MTA — Mail Transfer Agent**
-
-The MTA is responsible for routing and relaying messages between mail systems. MTAs implement the
-SMTP protocol (RFC 5321) and communicate with each other on port 25. Well-known MTAs include
-Postfix, Exim, Sendmail, and Microsoft Exchange. An MTA performs DNS MX record lookups to determine
-The destination mail server for a given domain, manages message queues for retry on transient
-Failures, and applies routing policies. The MTA-to-MTA path may involve multiple relay hops before
-The message reaches its final destination MTA.
-
-**MDA — Mail Delivery Agent**
-
-The MDA accepts messages from the MTA and writes them into the recipient"s mailbox store. This may
+description: ""s mailbox store. This may
 Involve writing to a local filesystem format such as mbox (all messages concatenated into one file)
 Or Maildir (one file per message in a directory hierarchy), or delivering to a specialized storage
 Backend via LMTP to a Dovecot or Cyrus IMAP server. Procmail and Sieve (RFC 5228) are commonly used

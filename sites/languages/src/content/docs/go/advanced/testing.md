@@ -1,22 +1,6 @@
 ---
 title: Testing
-description: "Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature ."
-date: 2026-05-31
-tags:
-  - Go
-categories:
-  - Go
----
-
-## Testing Fundamentals
-
-Go has a built-in testing framework. Test files are named `*_test.go` and the build system excludes
-them from production binaries. Test functions have the signature `func TestXxx(t *testing.T)`.
-
-```go
-package math
-
-import "testing"
+description: ""testing"
 
 func TestAdd(t *testing.T) {
     result := Add(2, 3)

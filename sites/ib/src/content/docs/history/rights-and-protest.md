@@ -5,45 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It examines Two major case studies -- the civil rights movement in..."
----
-
-# Rights and Protest
-
-This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It
-examines Two major case studies -- the civil rights movement in the United States (1954--1965) and
-apartheid South Africa -- alongside a brief comparative overview of Indigenous rights movements.
-Each case study is Analysed through the prescribed content areas: origins, methods of struggle, role
-of key Individuals and groups, and the achievements and limitations of resistance.
-
----
-
-## 1. Introduction to the Topic
-
-### Paper 2 Context
-
-Rights and Protest is one of five prescribed subjects available for Paper 2. Students answer two
-essay Questions on one prescribed subject. Each question is worth 15 marks and should be completed
-in approximately 45 minutes. The prescribed content requires you to demonstrate knowledge of two
-case Studies and the ability to make comparative judgements between them.
-
-### Prescribed Content Overview
-
-The IB syllabus for Rights and Protest requires knowledge and understanding of:
-
-- **Origins and causes of the grievances** that gave rise to protest movements
-- **Methods used to protest** and achieve civil and political rights
-- **The role and significance of key individuals and groups** in the struggle
-- **Achievements and limitations** of the movements
-
-These four prescribed content areas apply to both case studies and should frame your essay
-Preparation.
-
-### Question Types
-
-Paper 2 questions on Rights and Protest in most cases take the following forms:
-
-- **"To what extent..." questions** -- Require a balanced evaluation, weighing multiple factors
+description: ""To what extent..." questions** -- Require a balanced evaluation, weighing multiple factors
   before reaching a judgement.
 - **"Compare and contrast..." questions** -- Require identification of similarities and differences
   between the two case studies, with an explanation of why those similarities and differences exist.

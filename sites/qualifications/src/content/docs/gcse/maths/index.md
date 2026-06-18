@@ -1,43 +1,6 @@
 ---
 title: GCSE Maths
-description: "Comprehensive revision notes for GCSE Maths, covering all major exam boards (AQA Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-14
-tags:
-  - gcse
-  - gcse-maths
-categories:
-  - gcse-maths
-
----
-
-# GCSE Maths
-
-Comprehensive revision notes for GCSE Maths, covering all major exam boards (AQA, Edexcel, OCR,
-WJEC).
-
-These notes cover the full GCSE Mathematics specification, from number and algebra through to
-geometry, ratio, and statistics. Each topic page includes key methods, worked examples, and
-exam-style questions to test your understanding. The content is mapped to the national curriculum
-and organised by topic for easy navigation.
-
-## Topics
-
-- **[1. Number](1-number/1_number)**
-- **[2. Algebra](2-algebra/2_algebra)**
-- **[3. Ratio, Proportion & Rates of Change](3-ratio-proportion/3_ratio-proportion)**
-- **[4. Geometry](4-geometry/4_geometry)**
-- **[6. Statistics](6-statistics/6_statistics)**
-
-## Topics Covered
-
-- **Number** — arithmetic, fractions, decimals, percentages, indices and roots, standard form,
-  surds, financial maths, bounds and accuracy
-- **Algebra** — expressions and formulae, solving equations, inequalities, sequences, graphs of
-  linear and quadratic functions, simultaneous equations, rearranging formulae
-- **Ratio, Proportion & Rates of Change** — ratio, direct and inverse proportion, compound units
-  (speed, density, pressure), growth and decay, compound interest
-- **Geometry** — angles, triangles and polygons, circles (circumference, area, arcs, sectors), 3D
-  shapes, transformations, congruence and similarity, Pythagoras" theorem, trigonometry, vectors
+description: "" theorem, trigonometry, vectors
 - **Statistics** — data collection and sampling, representing data (charts, tables, histograms,
   cumulative frequency), measures of central tendency and spread, scatter graphs and correlation,
   probability

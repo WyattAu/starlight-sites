@@ -1,37 +1,6 @@
 ---
 title: Hypothesis Testing
-description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in..."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - Maths
-  - ALevel
-categories:
-  - Maths
-
----
-
-## Board Coverage
-
-| Board      | Paper      | Notes                                    |
-| ---------- | ---------- | ---------------------------------------- |
-| AQA        | Paper 1, 2 | Binomial tests in P1; normal tests in P2 |
-| Edexcel    | P1, P2     | Similar                                  |
-| OCR (A)    | Paper 1, 2 | Includes critical regions                |
-| CIE (9709) | P1, P6     | Basic hypothesis testing in P6           |
-
-:::info Hypothesis testing requires clear, structured answers. Always state your hypotheses, test
-Statistic, critical value/region, comparison, and conclusion in context.
-:::
-
-<hr />
-
-## 1. Hypotheses
-
-### 1.1 Null and alternative hypotheses
-
-**Definition.**
-
-- The **null hypothesis** $H_0$ is the default assumption ( "no effect" or "no change").
+description: ""no effect" or "no change").
 - The **alternative hypothesis** $H_1$ is what we are trying to find evidence for.
 
 ### 1.2 One-tailed and two-tailed tests

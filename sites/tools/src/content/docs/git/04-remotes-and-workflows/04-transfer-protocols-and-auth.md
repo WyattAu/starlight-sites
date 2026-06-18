@@ -1,54 +1,6 @@
 ---
 title: Transfer Protocols and Authentication
-description: "Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and..."
-
----
-
-## Protocol Overview
-
-Git communicates with remote repositories over two primary transport protocols: **HTTPS** and
-**SSH**. Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and self-hosted Git servers.
-Each protocol has distinct tradeoffs in security posture, authentication mechanism, network
-Compatibility, and performance characteristics.
-
-Git also supports a third protocol — the unauthenticated `git://` protocol — but it is disabled by
-Default on all major hosting platforms due to its lack of authentication (it was the vector for
-CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
-
-| Aspect                | HTTPS                                      | SSH                                       |
-| --------------------- | ------------------------------------------ | ----------------------------------------- |
-| Default port          | 443                                        | 22                                        |
-| Authentication        | Personal access token, password (legacy)   | Public/private key pair                   |
-| Transport encryption  | TLS (the entire connection is encrypted)   | SSH (the entire connection is encrypted)  |
-| Firewall friendliness | High (port 443 is almost always open)      | Low (port 22 is often blocked)            |
-| Initial setup         | Token creation on hosting platform         | Key generation, agent config, key upload  |
-| CI/CD suitability     | Excellent (token as env var)               | Good (deploy key)                         |
-| Enterprise proxy      | Works through HTTP(S) proxies              | Requires ProxyCommand or jump hosts       |
-| Performance           | Slightly slower (TLS overhead per request) | Slightly faster (persistent multiplexing) |
-
-Git does not enforce a single protocol for a repository. You can fetch over HTTPS and push over SSH,
-Or use different protocols for different remotes. The choice is per-remote URL, not per-repository.
-
-```bash
-# A repository can have remotes using different protocols
-$ git remote -v
-origin    https://github.com/user/repo.git (fetch)
-origin    git@github.com:user/repo.git (push)
-upstream  git@github.com:org/repo.git (fetch)
-upstream  git@github.com:org/repo.git (push)
-```
-
-## SSH Setup
-
-### Generating an SSH Key
-
-The modern standard is the **Ed25519** algorithm, which offers equivalent security to RSA-3072 with
-Smaller keys and faster operations. It is supported by OpenSSH 6.5+ (released January 2014) and all
-Major Git hosting platforms.
-
-```bash
-# Generate an Ed25519 key (recommended)
-$ ssh-keygen -t ed25519 -C "user@example.com"
+description: ""user@example.com"
 Generating public/private ed25519 key pair.
 Enter file in which to save the key (/home/user/.ssh/id_ed25519):
 Enter passphrase (empty for no passphrase):

@@ -1,29 +1,6 @@
 ---
 title: Channels and Message Passing
-description: "Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each..."
-
----
-
-## Channel Fundamentals
-
-Channels implement the actor model — concurrent tasks communicate by sending messages rather than
-Sharing memory. Rust provides several channel types, each optimized for different communication
-Patterns. The sender and receiver are separate endpoints; messages are moved from sender to
-Receiver, transferring ownership.
-
-### Channel Categories
-
-| Type                | Producers | Consumers | Buffering         | Use Case                 |
-| ------------------- | --------- | --------- | ----------------- | ------------------------ |
-| `std::sync::mpsc`   | Multiple  | Single    | Bounded/Unbounded | Simple work distribution |
-| `tokio::sync::mpsc` | Multiple  | Single    | Bounded/Unbounded | Async work distribution  |
-| `oneshot`           | Single    | Single    | None              | Single response          |
-| `broadcast`         | Single    | Multiple  | Bounded           | Pub/sub notifications    |
-| `watch`             | Single    | Multiple  | Single value      | Configuration updates    |
-
-## `std::sync::mpsc`
-
-The standard library"s channel is synchronous (blocking) and designed for OS threads:
+description: ""s channel is synchronous (blocking) and designed for OS threads:
 
 ### Basic Usage
 

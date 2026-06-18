@@ -1,20 +1,6 @@
 ---
 title: DSE Physics
-description: "DSE Physics notes covering key definitions, core concepts, worked examples, and practice questions for systematic study and examination practice."
-tableOfContents: false
----
-
-# DSE Physics
-
-Complete revision notes for HKDSE Physics, covering the full syllabus with worked examples, common
-pitfalls, and exam-style problems. Topics are aligned to the HKEAA curriculum and structured for
-efficient revision.
-
-## Mechanics
-
-- **[Mechanics](./1-mechanics/2_mechanics-depth)** -- Kinematics, dynamics, work and energy,
-  momentum, and circular motion
-- **[Forces and Motion](./1-mechanics/1_forces-and-motion)** -- Newton"s laws, friction, projectile
+description: ""s laws, friction, projectile
   motion, circular motion, momentum, and impulse
 - **[Energy and Work](./1-mechanics/3_energy-and-work)** -- Work done, kinetic energy, potential
   energy, conservation of energy, power, and efficiency

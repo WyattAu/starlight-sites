@@ -1,42 +1,6 @@
 ---
 title: Abnormal Psychology
-description: "This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from..."
-
----
-
-# Abnormal Psychology
-
-This section covers the HL extension unit on abnormal psychology, examining how psychological
-disorders are defined, classified, and explained from biological, cognitive, and sociocultural
-perspectives.
-
-## Pages
-
-- [Anxiety Disorders](./anxiety-disorders) -- phobias and OCD, with biological, behavioural, and
-  cognitive explanations and corresponding treatments.
-- [Depression](./depression) -- biological, cognitive, and sociocultural explanations of depressive
-  disorders and their treatments.
-- [Treatment Evaluation](./treatment-evaluation) -- evaluating effectiveness, appropriateness, and
-  ethical considerations of psychological treatments.
-
-## Overview
-
-Abnormal psychology is an HL extension unit that examines how psychological disorders are defined,
-classified, and explained. The IB approach requires students to evaluate biological, cognitive, and
-sociocultural explanations of specific disorders and to assess corresponding treatments on their
-effectiveness, appropriateness, and ethical grounds. The two disorders examined in this section are
-anxiety disorders (phobias and OCD) and depression.
-
-The biological approach explains disorders through genetic inheritance, neurotransmitter
-dysregulation, and neural circuit abnormalities. For OCD, the serotonin hypothesis (supported by
-SSRI efficacy) and the cortico-striato-thalamo-cortical circuit model (orbitofrontal cortex and
-caudate nucleus hyperactivity) provide the primary biological explanations. For depression, the
-monoamine hypothesis (serotonin and norepinephrine deficiency) and HPA axis dysregulation
-(hypercortisolism, hippocampal damage via excitotoxicity) are central. Caspi et al. (2003) bridges
-biological and sociocultural levels by demonstrating that the 5-HTTLPR short allele moderates the
-effect of stressful life events on depression, illustrating gene-environment interaction.
-
-The cognitive approach locates the cause of disorders in maladaptive thought patterns. Beck"s (1967)
+description: ""s (1967)
 cognitive triad (negative views of self, world, future) and cognitive distortions
 (overgeneralisation, dichotomous thinking, selective abstraction) explain the maintenance of
 depression. Salkovskis (1985) applies similar principles to OCD: intrusive thoughts are interpreted

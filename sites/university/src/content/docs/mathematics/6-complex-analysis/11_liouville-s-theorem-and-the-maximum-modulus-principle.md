@@ -3,10 +3,7 @@ title: Liouville's Theorem and the Maximum Modulus Principle
 tags:
   - Mathematics
   - University
-description: "Every bounded entire function is constant. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 11.1 Liouville"s Theorem
+description: ""s Theorem
 
 **Theorem 11.1 (Liouville's Theorem).** Every bounded entire function is constant.
 

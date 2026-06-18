@@ -3,19 +3,7 @@ title: Advanced Electrodynamics
 tags:
   - Physics
   - University
-description: "The scalar potential of a localised charge distribution at large distances (Wher Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 11.1 Multipole Expansion
-
-The scalar potential of a localised charge distribution at large distances ($r \gg d$Where $d$ is
-the size of the distribution):
-
-$$\phi(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\left[\frac{Q}{r} + \frac{\mathbf{p}\cdot\hat{\mathbf{r}}}{r^2} + \frac{1}{2}\sum_{ij}Q_{ij}\frac{\hat{r}_i\hat{r}_j}{r^3} + \cdots\right]$$
-
-**Monopole term:** $Q = \int \rho\, dV$ (total charge).
-
-**Dipole term:** $\mathbf{p} = \int \mathbf{r}"\,\rho(\mathbf{r}')\,dV'$ (electric dipole moment).
+description: ""\,\rho(\mathbf{r}')\,dV'$ (electric dipole moment).
 
 **Quadrupole term:** $Q_{ij} = \int (3r'_ir'_j - r'^2\delta_{ij})\,\rho(\mathbf{r}')\,dV'$
 (traceless quadrupole tensor).

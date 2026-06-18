@@ -1,34 +1,6 @@
 ---
 title: "Exponentials and Logarithms -- Diagnostic Tests"
-description: "A-Level Maths Exponentials and Logarithms -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Exponentials and Logarithms — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for exponentials and logarithms.
-
-### UT-1: $\ln(a^b) = b\ln a$ vs $(\ln a)^b$ Conflation
-
-**Question:**
-
-**(a)** Without using a calculator, determine which is larger: $\pi^e$ or $e^\pi$.
-
-**(b)** A student writes $\ln(x^2) = (\ln x)^2$ and uses this to solve $\ln(x^2) = 4$. Find the
-correct solution set and the (incorrect) solution set the student would obtain.
-
-**(c)** Solve the equation $2^x = x^2$ for real $x$Giving exact answers where possible.
-
-[Difficulty: hard. Tests the fundamental distinction between $\ln(a^b) = b\ln a$ and $(\ln a)^b$And
-requires analytical comparison of transcendental expressions.]
-
-**Solution:**
-
-**(a)** Consider $f(x) = \frac◆LB◆\ln x◆RB◆◆LB◆x◆RB◆$. Its derivative is:
-
-$$f"(x) = \frac◆LB◆1 \cdot x - \ln x \cdot 1◆RB◆◆LB◆x^2◆RB◆ = \frac◆LB◆1 - \ln x◆RB◆◆LB◆x^2◆RB◆$$
+description: ""(x) = \frac◆LB◆1 \cdot x - \ln x \cdot 1◆RB◆◆LB◆x^2◆RB◆ = \frac◆LB◆1 - \ln x◆RB◆◆LB◆x^2◆RB◆$$
 
 $f'(x) = 0$ when $\ln x = 1$I.e. $x = e$. For $x \lt e$: $f'(x) \gt 0$; for $x \gt e$:
 $f'(x) \lt 0$.

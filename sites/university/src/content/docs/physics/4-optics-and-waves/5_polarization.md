@@ -3,22 +3,7 @@ title: Polarization
 tags:
   - Physics
   - University
-description: "For a plane wave propagating in the -direction: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 5.1 States of Polarization
-
-For a plane wave propagating in the $z$-direction:
-
-$$\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \omega t + \delta)\,\hat{\mathbf{y}}$$
-
-- **Linear polarization:** $\delta = 0$ or $\delta = \pi$. The E-field oscillates along a fixed
-  line.
-- **Circular polarization:** $E_{0x} = E_{0y}$ and $\delta = \pm\pi/2$. Right-handed
-  ($\delta = -\pi/2$) or left-handed ($\delta = +\pi/2$).
-- **Elliptical polarization:** General case. The tip of $\mathbf{E}$ traces an ellipse.
-
-### 5.2 Malus"s Law
+description: ""s Law
 
 When linearly polarised light of intensity $I_0$ passes through a polariser at angle $\theta$ to the
 Polarisation direction:

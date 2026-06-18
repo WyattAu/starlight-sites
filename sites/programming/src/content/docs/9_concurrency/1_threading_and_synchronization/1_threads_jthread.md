@@ -1,33 +1,6 @@
 ---
 title: Thread Execution (std::jthread) and Hardware Mapping
-description: "This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Thread Execution (`std::jthread`) and Hardware Mapping
-
-This section covers thread creation with `std::thread` and `std::jthread`Hardware concurrency
-Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via
-`std::stop_token`And a thread-safe worker pool implementation.
-
-## `std::thread` and `std::jthread`
-
-`std::thread` [N4950 §31.4.4.1] represents an individual thread of execution. When a `std::thread`
-Object is constructed, it begins executing the provided callable. The thread callable can be a
-Function pointer, a lambda, a functor, or any movable callable object [N4950 §31.4.4.1.2].
-
-`std::jthread` [N4950 §31.4.4.4] was introduced in C++20 and provides the same functionality as
-`std::thread` with two critical enhancements:
-
-1. **Automatic joining**: The destructor calls `join()` if the thread is still joinable, preventing
-   accidental detachment or termination.
-2. **Cooperative cancellation**: A `std::stop_token` is automatically created and can be passed to
-   the thread"s callable, enabling request-based cancellation.
+description: ""s callable, enabling request-based cancellation.
 
 ```cpp
 #include <iostream>

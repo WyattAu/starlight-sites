@@ -1,19 +1,6 @@
 ---
 title: Advanced Data Structures
-description: "Algorithms Advanced Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
-
----
-
-## Segment Tree
-
-A segment tree is a binary tree data structure for storing information about intervals or segments.
-It allows efficient range queries and point updates.
-
-### Range Sum Query
-
-```python
-class SegmentTree:
-    """
+description: """"
     Segment tree for range sum queries with point updates.
     Build: O(n)
     Point update: O(log n)

@@ -1,51 +1,6 @@
 ---
 title: Layer 2 and Ethernet
-description: "The data link layer (OSI Layer 2) sits between the physical layer and the network layer. Its Responsibilities are concrete and well-defined: "''
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - Networking
-categories:
-  - Networking
----
-
-## Data Link Layer Functions
-
-The data link layer (OSI Layer 2) sits between the physical layer and the network layer. Its
-Responsibilities are concrete and well-defined:
-
-1. **Framing.** Encapsulate network-layer packets into a frame with header and trailer fields that
-   allow the receiver to identify where each frame begins and ends on the wire.
-2. **MAC addressing.** Provide a unique identifier for each interface on a LAN so that frames can be
-   delivered to the correct destination.
-3. **Error detection.** Detect (but not correct) bit errors introduced during transmission using a
-   Frame Check Sequence (FCS).
-4. **Flow control.** Prevent a fast sender from overwhelming a slow receiver (relevant in
-   half-duplex environments, less so in modern full-duplex switched LANs).
-5. **Media access control.** Determine which device may transmit on a shared medium and when
-   (CSMA/CD for classic Ethernet).
-
-Layer 2 does not provide routing. It provides node-to-node delivery within the same broadcast
-Domain. If the destination MAC is not on the local segment, the frame is sent to the default gateway
-(router), and Layer 3 handles inter-network delivery.
-
-### Relationship to Layer 1 and Layer 3
-
-Layer 2 builds on Layer 1 (physical layer) by adding structure to the raw bit stream. It receives
-Bits from the physical layer, groups them into frames, and passes the extracted payload up to
-Layer 3. Conversely, it takes Layer 3 packets, wraps them in a frame, and hands the resulting bit
-Pattern to Layer 1 for transmission.
-
-The Layer 2 header contains the destination and source MAC addresses. The Layer 3 header contains
-The destination and source IP addresses. Both are needed for a frame to traverse a LAN and for the
-Receiving host to process the packet correctly.
-
-## Ethernet History
-
-### DIX Ethernet (1980)
-
-The original Ethernet was developed at Xerox PARC by Robert Metcalfe, David Boggs, and others in the
-Mid-1970s. The first commercial specification was published in 1980 by a consortium of DEC, Intel,
-And Xerox -- hence "DIX Ethernet" or "Ethernet Blue Book." This is often called "Ethernet V1" or
+description: ""DIX Ethernet" or "Ethernet Blue Book." This is often called "Ethernet V1" or
 "DIX Ethernet."
 
 Key characteristics of DIX Ethernet:

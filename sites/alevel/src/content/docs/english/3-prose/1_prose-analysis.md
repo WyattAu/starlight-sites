@@ -6,33 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Prose Analysis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
-
----
-
-# Prose Analysis
-
-## Introduction
-
-Prose fiction — novels, novellas, and short stories — forms a major component of A-Level English
-Literature. Analysing prose requires you to examine how writers construct narrative worlds through
-choices about voice, character, setting, structure, and language. At A-Level, you are expected to
-move beyond merely understanding what happens in a text to exploring how meaning is shaped by
-narrative technique and how texts engage with their historical and cultural contexts.
-
-This section covers the essential elements of prose analysis with practical frameworks for
-constructing analytical responses.
-
-## Key Concepts
-
-### Narrative Voice
-
-Narrative voice is the perspective from which a story is told. It determines what the reader knows,
-how they feel about characters and events, and how reliably information is presented.
-
-| Type                    | Description                                                    | Effect                                                        |
-| ----------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
-| First person ("I")      | A character within the story narrates                          | Intimate but limited; reader sees only what the narrator sees |
+description: ""I")      | A character within the story narrates                          | Intimate but limited; reader sees only what the narrator sees |
 | Second person ("You")   | The narrator addresses the reader as "you"                     | Creates urgency, discomfort, or complicity                    |
 | Third person limited    | An external narrator focuses on one character"s thoughts       | Balances distance with interiority                            |
 | Third person omniscient | An external narrator knows all characters' thoughts            | Allows authorial commentary and dramatic irony                |

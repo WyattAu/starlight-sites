@@ -1,37 +1,6 @@
 ---
 title: Concurrency and OTP
-description: "Elixir''s concurrency is built on the , where concurrent computation is performed by lightweight, isolated processes that communicate through asynchronous..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Elixir
-categories:
-  - Elixir
-
----
-
-## Concurrency Fundamentals
-
-### The Actor Model
-
-Elixir's concurrency is built on the **actor model**, where concurrent computation is performed by
-lightweight, isolated processes that communicate through asynchronous message passing. Each process
-has its own heap, stack, and mailbox. There is no shared memory and no locks.
-
-Key properties of Elixir processes:
-
-- **Lightweight**: Each process uses approximately 2KB of memory initially
-- **Fast**: Process creation and message passing are measured in microseconds
-- **Scalable**: A single BEAM node can run millions of concurrent processes
-- **Isolated**: Processes share no memory; communication is only via messages
-- **Preemptive**: The scheduler can preempt any process (no runaway processes can starve others)
-
-### spawn
-
-The `spawn/1` function creates a new process:
-
-```elixir
-# spawn/1 - takes a zero-arity function
-pid = spawn(fn -> IO.puts("Hello from process") end)
+description: ""Hello from process") end)
 #PID<0.123.0>
 
 # spawn/3 - takes module, function name, and arguments list

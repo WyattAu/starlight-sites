@@ -1,42 +1,6 @@
 ---
 title: Atomic Operations and Lock-Free Programming
-description: "This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Atomic Operations and Lock-Free Programming
-
-This section covers `std::atomic<T>``std::atomic_ref<T>`The full set of atomic operations,
-`std::atomic_flag`The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a
-Lock-free stack implementation, and a spinlock using `std::atomic_flag`.
-
-## `std::atomic<T>`
-
-`std::atomic<T>` [N4950 §31.7] is a template class that provides atomic access to a value of type
-`T`. All operations on `std::atomic` are atomic: they are indivisible from the perspective of all
-Threads.
-
-The standard specifies which types `T` may be [N4950 §31.7.1]:
-
-- **Scalar types**: `bool``char``int``float``pointer types`Etc.
-- ** copyable types**: Any copyable type (C++17 and later), though not all operations may be
-  available.
-
-```cpp
-#include <iostream>
-#include <atomic>
-#include <thread>
-#include <vector>
-
-int main() {
-    std::atomic<int> counter{0};
-    constexpr int num_threads = 10;
-    constexpr int iterations = 100"000;
+description: ""000;
 
     std::vector<std::jthread> threads;
     for (int i = 0; i < num_threads; ++i) {

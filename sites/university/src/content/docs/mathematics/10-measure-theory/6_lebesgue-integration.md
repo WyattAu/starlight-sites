@@ -3,44 +3,7 @@ title: Lebesgue Integration
 tags:
   - Mathematics
   - University
-description: "For a non-negative measurable simple function with and disjoint, define: Comprehensive educational content coverage with definitions and practice problems."
----
-
-### 6.1 Integral of Non-Negative Functions
-
-For a non-negative measurable simple function $s = \sum_{i=1}^n a_i \chi_{A_i}$ with $a_i \geq 0$
-and $\{A_i\}$ disjoint, define:
-
-$$\int_X s\, d\mu = \sum_{i=1}^n a_i \mu(A_i)$$
-
-For a non-negative measurable function $f$, define:
-
-$$\int_X f\, d\mu = \sup\left\{\int_X s\, d\mu : 0 \leq s \leq f,\ s \text{ simple}\right\}$$
-
-This definition is consistent with Theorem 5.4: by monotone convergence, we also have
-
-$$\int_X f\, d\mu = \lim_{n \to \infty} \int_X s_n\, d\mu$$
-
-for any increasing sequence of simple functions $s_n \nearrow f$.
-
-### 6.2 Integral of General Functions
-
-For a measurable function $f : X \to \mathbb{R}$, define $f^+ = \max(f, 0)$ and $f^- = \max(-f, 0)$,
-so $f = f^+ - f^-$ and $|f| = f^+ + f^-$. If $\int f^+\, d\mu < \infty$ and
-$\int f^-\, d\mu < \infty$ (i.e., $\int |f|\, d\mu < \infty$), define:
-
-$$\int_X f\, d\mu = \int_X f^+\, d\mu - \int_X f^-\, d\mu$$
-
-The function $f$ is called **integrable** (or $f \in L^1(\mu)$) if $\int |f|\, d\mu < \infty$.
-
-### 6.3 Properties of the Integral
-
-**Proposition 6.1 (Linearity).** If $f, g \in L^1(\mu)$ and $a, b \in \mathbb{R}$, then
-$af + bg \in L^1(\mu)$ and $\int(af + bg)\, d\mu = a\int f\, d\mu + b\int g\, d\mu$.
-
-**Proposition 6.2 (Monotonicity).** If $f \leq g$ a.e., then $\int f\, d\mu \leq \int g\, d\mu$.
-
-**Proposition 6.3 (Markov"s Inequality).** If $f \geq 0$ is measurable, then for any $a > 0$:
+description: ""s Inequality).** If $f \geq 0$ is measurable, then for any $a > 0$:
 
 $$\mu(\{x : |f(x)| \geq a\}) \leq \frac{1}{a}\int |f|\, d\mu$$
 

@@ -3,32 +3,7 @@ title: Chronicle of a Death Foretold — Close Reading and Analysis
 tags:
   - IB
   - English
-description: "Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gr Comprehensive educational content coverage with definitions and practice proble"
----
-
-# Chronicle of a Death Foretold: Close Reading and Analysis
-
-Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gregory Rabassa
-
----
-
-## 1. Context: Magical Realism and the Latin American Boom
-
-### Garcia Marquez and the Latin American Boom
-
-The Latin American Boom of the 1960s and 1970s was an unprecedented flowering of literary production
-That placed Spanish-language fiction at the centre of world literature. Alongside Julio Cortazar,
-Carlos Fuentes, and Mario Vargas Llosa, Gabriel Garcia Marquez reshaped the possibilities of the
-Novel form. His 1967 masterpiece _One Hundred Years of Solitude_ consolidated the international
-Reputation of magical realism as the defining literary mode of the period, and his subsequent Nobel
-Prize in Literature (1982) confirmed his status as the most widely read and critically celebrated
-Latin American author of the twentieth century.
-
-_Chronicle of a Death Foretold_, published in 1981, occupies a distinctive position within the
-Garcia Marquez canon. Where _One Hundred Years of Solitude_ unfolds across seven generations of the
-Buendia family, and _Love in the Time of Cholera_ spans more than fifty years, _Chronicle_
-Compresses its entire narrative into a single day -- the day Santiago Nasar is murdered. Yet this
-Compression is deceptive. The novel"s temporal scope expands through memory, testimony, and
+description: ""s temporal scope expands through memory, testimony, and
 Retrospective reconstruction, revealing layers of causality that stretch backward and forward in
 Time. The work draws on a real event that Garcia Marquez witnessed in 1951: a man named Cayetano
 Gentile was murdered by two brothers avenging their sister's honour in the town of Sucre, Colombia.

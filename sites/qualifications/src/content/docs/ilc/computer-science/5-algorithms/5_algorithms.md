@@ -1,29 +1,6 @@
 ---
 title: Computational Thinking
-description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Identifying patterns, abstracting details, and designing..."
-date: 2026-04-14
-tags:
-  - ilc
-  - ilc-computer-science
-categories:
-  - ilc-computer-science
-
----
-
-# Computational Thinking
-
-Computational thinking is a problem-solving approach that involves breaking down complex problems,
-Identifying patterns, abstracting details, and designing algorithms. This topic covers
-Decomposition, pattern recognition, abstraction, algorithm design, finite state machines, and
-Regular expressions.
-
-## Four Pillars of Computational Thinking
-
-### Decomposition (OL/HL)
-
-Breaking a complex problem into smaller, more manageable sub-problems.
-
-**Example (OL):** "Build a calculator application."
+description: ""Build a calculator application."
 
 Decompose into:
 

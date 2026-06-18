@@ -1,40 +1,6 @@
 ---
 title: Sorting Algorithms
-description: "Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision."
-
----
-
-## Sorting Fundamentals
-
-### Properties
-
-| Property     | Definition                                              | Why It Matters                                               |
-| ------------ | ------------------------------------------------------- | ------------------------------------------------------------ |
-| **Stable**   | Equal elements retain their relative order              | Preserves secondary sort keys, needed for multi-key sorting  |
-| **In-place** | Uses $O(1)$ extra memory (or $O(\log n)$ for recursion) | Critical when memory is constrained                          |
-| **Adaptive** | Runs faster on partially sorted input                   | Common in practice — incremental updates, nearly-sorted logs |
-| **Online**   | Can sort elements as they arrive                        | Streaming scenarios where the full input is not available    |
-
-### Comparison Model
-
-A comparison-based sort can only determine the relative order of elements by comparing pairs. The
-Information-theoretic lower bound applies: sorting $n$ elements requires $\Omega(n \log n)$
-Comparisons because there are $n!$ possible orderings and each comparison provides at most 1 bit of
-Information.
-
-Non-comparison sorts bypass this bound by exploiting structure in the input (integer keys, bounded
-Ranges, known distributions).
-
-## Comparison-Based Sorting
-
-### Bubble Sort
-
-Repeatedly swap adjacent elements that are out of order. After $i$ passes, the last $i$ elements are
-In their final position.
-
-```python
-def bubble_sort(arr):
-    """
+description: """"
     Bubble sort — adjacent swap.
     Time: O(n^2) worst/average, O(n) best (already sorted with early termination)
     Space: O(1)

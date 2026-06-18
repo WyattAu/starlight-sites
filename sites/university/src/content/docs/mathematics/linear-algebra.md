@@ -1,21 +1,6 @@
 ---
 title: Linear Algebra
-description: "Before studying linear algebra, the reader should be familiar with: Comprehensive educational content coverage with definitions and practice problems."
-date: 2026-04-23T00:00:00.000Z
-tags:
-  - Mathematics
-  - University
-categories:
-  - Mathematics
-
----
-
-## Prerequisites
-
-Before studying linear algebra, the reader should be familiar with:
-
-- **Basic set theory**: sets, subsets, functions, injectivity, surjectivity.
-- **Complex numbers**: arithmetic, polar form, Euler"s formula.
+description: ""s formula.
 - **Mathematical proof techniques**: direct proof, proof by contradiction, mathematical induction.
 - **Single-variable calculus**: limits, continuity, differentiation (for the matrix calculus later in the course).
 

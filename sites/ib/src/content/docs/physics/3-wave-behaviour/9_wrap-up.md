@@ -1,29 +1,6 @@
 ---
 title: Wrap Up
-description: "Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, .../1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions."
-date: 2024-01-01T00:00:00Z
-tags:
-  - physics
-categories:
-  - ib
----
-
-## C.1 Simple Harmonic Motion, C.2 Wave Model & C.3 Wave Phenomena
-
-**Question 1 (C.1 & D.1 - HL Only):** A small satellite of mass _m_ is in a circular orbit of radius
-_R_ around a planet of mass _M_ ($M \gg m$). A slight external impulse causes it to oscillate
-Slightly in the radial direction around its stable circular path. By considering the effective
-Potential energy of the system (gravitational + rotational kinetic), show that for small radial
-Displacements _x_ from the stable orbit ($r = R+x$), the satellite undergoes simple harmonic motion.
-Determine the period of these small radial oscillations.
-
-<details>
-<summary>Answer</summary>
-
-- **Strategy:** This is a very advanced problem that connects SHM with orbital mechanics. We need to
-  find the total effective potential energy, find its minimum (the stable orbit), and show that the
-  second derivative of the potential energy function (which relates to the restoring force) is
-  positive, indicating a stable equilibrium. The "spring constant" of this effective potential well
+description: ""spring constant" of this effective potential well
   will give us the period.
 - **1. Effective Potential Energy ($U_{\mathrm{eff}}$):**
 - The system has gravitational potential energy ($U_g$) and rotational kinetic energy ($E_k$). For a

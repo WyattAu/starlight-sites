@@ -1,55 +1,6 @@
 ---
 title: Hosting With Gitea On TrueNAS
-description: "1. Since there is built in support for Gitea with TrueCharts, install Gitea using . Assign a dedicated dataset (eg, ) for persistent storage. 2. Set the..."
-date: 2025-06-13T18:10:33.853Z
-tags:
-  - git
-categories:
-  - CS
-
----
-
-## Procedure
-
-1. Since there is built in support for Gitea with TrueCharts, install Gitea using `Discover Apps`.
-   Assign a dedicated dataset (eg, `mnt/pool/gitea`) for persistent storage.
-2. Set the service type to `ClusterIP` using Ingress for external access, and exposing HTTPS ports
-
-## Setup Networking
-
-WireGuard is recommended.
-
-1. Enable WireGuard: `Network>WireGuard Peers`
-
-## Common Pitfalls
-
-1. Confusing `git reset` and `git revert` — reset moves the branch pointer; revert creates a new
-   commit that undoes changes.
-
-2. Forgetting to pull before pushing when working collaboratively, leading to merge conflicts.
-
-3. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
-
-4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
-   applications.
-
-5. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
-   implementation in code.
-
-6. Writing pseudocode that is too language-specific rather than using standard algorithmic
-   constructs.
-
-### Persistent Storage Configuration
-
-1. Create a dedicated dataset: `Storage > Pools > pool_name > Add Dataset` (e.g., `mnt/pool/gitea`).
-2. Mount this dataset into the Gitea container at `/data`. This ensures repositories, the database,
-   and configuration survive container restarts and updates.
-3. Set the dataset to use at least 50 GB (repositories grow quickly).
-
-### Ingress and HTTPS Setup
-
-1. In the Gitea app configuration, enable Ingress and set the host name (e.g., `git.example.com`).
-2. Use TrueNAS built-in Certificates or Traefik with Let"s Encrypt for automatic TLS certificate
+description: ""s Encrypt for automatic TLS certificate
    provisioning.
 3. Configure DNS to point the domain to the TrueNAS host IP.
 4. Verify HTTPS by navigating to `https://git.example.com` in a browser.

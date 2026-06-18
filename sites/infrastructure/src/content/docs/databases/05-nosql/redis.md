@@ -1,55 +1,6 @@
 ---
 title: Redis Deep Dive
-description: "Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a..."
-
----
-
-## Architecture Overview
-
-Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing
-(`epoll`/`kqueue`/`kqueue`) to handle thousands of concurrent connections on a single thread.
-
-### Single-Threaded Event Loop
-
-```text
-Main Thread Event Loop:
-  1. Accept new connections (accept())
-  2. Read commands from client sockets (read())
-  3. Parse and execute commands
-  4. Write responses to client sockets (write())
-  5. Handle background tasks (fsync, AOF rewrite, etc.)
-```
-
-Despite being single-threaded for command execution, Redis uses **background I/O threads** (Redis
-6+) for:
-
-- File descriptor read/write
-- Lazy freeing of large keys (`UNLINK` instead of `DEL`)
-
-```conf
-# redis.conf
-io-threads 4
-io-threads-do-reads yes
-```
-
-### Memory Model
-
-Redis stores all data in RAM. The maximum memory is controlled by `maxmemory`:
-
-```conf
-maxmemory 4gb
-maxmemory-policy allkeys-lru
-```
-
-## Data Structures
-
-### Strings
-
-Strings are the most fundamental Redis type. They can hold text, binary data (up to 512MB), and
-Integers (which support atomic increment/decrement):
-
-```bash
-SET user:1001:name "Alice"
+description: ""Alice"
 GET user:1001:name
 # "Alice"
 

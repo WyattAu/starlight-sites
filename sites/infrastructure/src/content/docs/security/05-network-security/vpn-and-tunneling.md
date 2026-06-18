@@ -1,39 +1,6 @@
 ---
 title: VPN and Tunneling
-description: "A VPN creates an encrypted tunnel between two endpoints over an untrusted network (the internet). The three core functions are: "''
-
----
-
-## VPN Fundamentals
-
-### Tunneling, Encryption, and Authentication
-
-A VPN creates an encrypted tunnel between two endpoints over an untrusted network (the internet).
-The three core functions are:
-
-```text
-1. Tunneling: Encapsulate private network packets inside public network packets
-2. Encryption: Scramble the encapsulated data so it cannot be read in transit
-3. Authentication: Verify the identity of both tunnel endpoints
-```
-
-### VPN Types
-
-| Type          | Layer    | Use Case                          | Example                  |
-| ------------- | -------- | --------------------------------- | ------------------------ |
-| Remote access | L3 (IP)  | Employees connecting to corporate | WireGuard, OpenVPN       |
-| Site-to-site  | L3 (IP)  | Connecting office networks        | IPsec, WireGuard         |
-| SSL/TLS VPN   | L7 (app) | Browser-based access              | OpenVPN (TLS mode)       |
-| SSH tunneling | L7 (app) | Ad-hoc port forwarding            | SSH local/remote/dynamic |
-
-## WireGuard
-
-WireGuard is a modern, minimalist VPN protocol that uses the Noise protocol framework for key
-Exchange and ChaCha20 for encryption.
-
-### Core Concepts
-
-WireGuard uses **cryptokey routing**: each peer has a public/private key pair, and each peer"s
+description: ""s
 Allowed IP addresses define which packets are routed through the tunnel.
 
 ```ini

@@ -1,34 +1,6 @@
 ---
 title: Memory Tuning
-description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error..."
-
----
-
-## DDR Memory Generations
-
-### DDR4 vs DDR5
-
-DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed
-— the power delivery model, signal integrity, and error correction mechanisms are all different.
-
-| Parameter                | DDR4                | DDR5                           |
-| ------------------------ | ------------------- | ------------------------------ |
-| Voltage                  | 1.2 V (standard)    | 1.1 V (standard)               |
-| Bank Groups              | 4 (16 banks)        | 8 (32 banks)                   |
-| Burst Length             | 8 (BL8)             | 16 (BL16)                      |
-| Prefetch                 | 8n                  | 16n                            |
-| VDDQ (I/O Voltage)       | 1.2 V (same as VDD) | 1.1 V (separate from VDD)      |
-| PMIC                     | On motherboard      | On DIMM (on-die)               |
-| ECC (base)               | Optional            | Optional (via ECC bits)        |
-| Pin Count (desktop)      | 288                 | 288 (notch position different) |
-| Max Standard Speed       | 3200 MT/s           | 4800 MT/s (JEDEC)              |
-| Typical Enthusiast Speed | 3600–4266 MT/s      | 6000–8400 MT/s                 |
-
-### Key Architectural Differences
-
-DDR5 moves the power management IC (PMIC) from the motherboard onto the DIMM itself. This means each
-DIMM manages its own power regulation, reducing the burden on the motherboard VRM. It also means you
-Cannot adjust VDDQ/VPP independently per DIMM from the motherboard — the DIMM"s PMIC handles this
+description: ""s PMIC handles this
 Internally.
 
 DDR5 doubles the bank group count (from 4 to 8) and doubles the burst length (from BL8 to BL16).

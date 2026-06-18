@@ -1,29 +1,7 @@
 ---
 title: Introduction to HSC/VCE Notes
 date: 2026-05-30
-description: "The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary..."
-tags:
-  - hsc
-  - vce
-categories:
-  - hsc
-
----
-
-## Overview
-
-The **Higher School Certificate (HSC)** and the **Victorian Certificate of Education (VCE)** are the
-two major school-leaving qualifications in Australia. They are awarded upon completion of senior
-secondary schooling and are the primary pathway to university admission.
-
-- **HSC** — administered by the **New South Wales Education Standards Authority (NESA)**, completed
-  by Year 12 students in NSW and the ACT.
-- **VCE** — administered by the **Victorian Curriculum and Assessment Authority (VCAA)**, completed
-  by Year 12 students in Victoria.
-
-Both qualifications are recognised nationally and internationally. University admission in Australia
-is primarily determined by an **Australian Tertiary Admission Rank (ATAR)**, which is derived from a
-student"s results in their HSC or VCE studies.
+description: ""s results in their HSC or VCE studies.
 
 ## HSC vs VCE
 

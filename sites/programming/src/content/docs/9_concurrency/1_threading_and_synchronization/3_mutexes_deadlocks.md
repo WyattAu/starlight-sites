@@ -1,39 +1,6 @@
 ---
 title: Mutexes, Shared Locks, and Deadlock Prevention
-description: "This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Mutexes, Shared Locks, and Deadlock Prevention
-
-This section covers `std::mutex``std::recursive_mutex``std::timed_mutex`RAII lock wrappers
-(`std::lock_guard``std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman
-Deadlock conditions, and deadlock prevention strategies.
-
-## `std::mutex`
-
-`std::mutex` [N4950 §31.4.3.3] provides exclusive ownership semantics. Only one thread can hold the
-Lock at any time. The basic operations are:
-
-| Operation    | Description                                       |
-| ------------ | ------------------------------------------------- |
-| `lock()`     | Blocks until the lock is acquired                 |
-| `try_lock()` | Attempts to acquire the lock; returns immediately |
-| `unlock()`   | Releases the lock                                 |
-
-Calling `lock()` on a mutex already held by the current thread results in **undefined behavior**
-[N4950 §31.4.3.3.2].
-
-### Implementation: POSIX `pthread_mutex_t`
-
-On Linux, `std::mutex` is implemented as a thin wrapper around `pthread_mutex_t`. The Default
-`pthread_mutex_t` uses the **Normal** type (not recursive, not error-checking), which means
-Re-locking without unlocking is UB — exactly matching the C++ standard"s requirement.
+description: ""s requirement.
 
 ```cpp
 #include <pthread.h>

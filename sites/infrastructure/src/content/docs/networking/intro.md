@@ -1,17 +1,6 @@
 ---
 title: Introduction to Networking
-description: "Every system you operate, deploy, or debug depends on networking. A container cannot reach its Database, a service returns 502 errors, DNS resolution stalls..."
-tags:
-  - Networking
-categories:
-  - Networking
----
-
-## Why Networking Matters
-
-Every system you operate, deploy, or debug depends on networking. A container cannot reach its
-Database, a service returns 502 errors, DNS resolution stalls for 5 seconds, or TLS handshakes fail
-With certificate errors -- these are all networking problems that land on the systems engineer"s
+description: ""s
 Desk.
 
 Understanding networking is not optional. It is the substrate on which every distributed system

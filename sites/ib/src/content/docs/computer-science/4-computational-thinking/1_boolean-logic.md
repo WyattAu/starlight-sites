@@ -1,56 +1,6 @@
 ---
 title: Boolean Logic
-description: "Rigorous IB computer science notes covering Boolean Logic. Includes definitions, derivations, worked examples, and exam-style problems."
-date: 2024-01-01T00:00:00Z
-tags:
-  - IB
-categories:
-  - ib
----
-
-## Boolean Algebra Fundamentals
-
-Boolean algebra is a branch of mathematics that operates on binary values: 1 (true) and 0 (false).
-It provides the formal foundation for digital circuit design. Every Boolean expression evaluates to
-Exactly one of these two values, and every Boolean function can be expressed, simplified, and
-Implemented using a finite set of operators.
-
-The three fundamental operators are AND, OR, and NOT. From these three, all other Boolean operators
-Can be derived. NAND and NOR are called universal gates because either one alone is sufficient to
-Construct any Boolean function. XOR and XNOR are useful for parity and comparison operations.
-
-### Basic Operators
-
-**AND (conjunction):** The output is 1 only when all inputs are 1.
-
-| `A` | `B` | `A` AND `B` |
-| --- | --- | ----------- |
-| 0   | 0   | 0           |
-| 0   | 1   | 0           |
-| 1   | 0   | 0           |
-| 1   | 1   | 1           |
-
-Notation: $A \cdot B$, $AB$, $A \wedge B$
-
-**OR (disjunction):** The output is 1 when at least one input is 1.
-
-| `A` | `B` | `A` OR `B` |
-| --- | --- | ---------- |
-| 0   | 0   | 0          |
-| 0   | 1   | 1          |
-| 1   | 0   | 1          |
-| 1   | 1   | 1          |
-
-Notation: $A + B$, $A \vee B$
-
-**NOT (negation):** The output is the complement of the input.
-
-| `A` | NOT `A` |
-| --- | ------- |
-| 0   | 1       |
-| 1   | 0       |
-
-Notation: $\overline{A}$, $A"$, $\lnot A$
+description: ""$, $\lnot A$
 
 **NAND:** The negation of AND. Output is 0 only when all inputs are 1.
 

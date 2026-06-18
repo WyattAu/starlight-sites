@@ -1,17 +1,6 @@
 ---
 title: Developmental Psychology
-description: "This section covers developmental psychology, examining how behaviour changes across the lifespan with a focus on attachment, cognitive development, and..."
-
----
-
-# Developmental Psychology
-
-This section covers developmental psychology, examining how behaviour changes across the lifespan
-with a focus on attachment, cognitive development, and adolescence.
-
-## Pages
-
-- [Attachment Theory](./attachment-theory) -- Bowlby"s theory, Ainsworth's Strange Situation, types
+description: ""s theory, Ainsworth's Strange Situation, types
   of attachment, and cross-cultural variations.
 - [Cognitive Development](./cognitive-development) -- Piaget's stages, Vygotsky's sociocultural
   theory, and their implications for education.

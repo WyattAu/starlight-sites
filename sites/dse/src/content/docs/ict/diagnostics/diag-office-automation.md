@@ -1,19 +1,6 @@
 ---
 title: "Office Automation and Productivity -- Diagnostic Tests"
-description: "DSE Ict Office Automation and Productivity -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Office Automation and Productivity — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Spreadsheet Formulas and Functions
-
-**Question:** A shop tracks daily sales in a spreadsheet. Column A has dates, Column B has product
-names, Column C has quantities sold, Column D has unit prices (HKD). (a) Write a formula to
-calculate the daily revenue in Column E. (b) Write a formula to find the total revenue for all sales
-of "Laptop" in January. (c) Write a formula using IF to categorise each sale: "High" if revenue
+description: ""Laptop" in January. (c) Write a formula using IF to categorise each sale: "High" if revenue
 $\ge$ 10,000, "Medium" if $\ge$ 5000, "Low" otherwise. (d) Explain the difference between relative
 and absolute cell references with an example.
 

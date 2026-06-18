@@ -1,23 +1,6 @@
 ---
 title: Dynamic Programming Patterns
-description: "Recognising which DP pattern applies to a problem is the key skill. This section Comprehensive educational content coverage with definitions and practice proble"
-
----
-
-## Pattern Classification
-
-Recognising which DP pattern applies to a problem is the key skill. This section provides a decision
-Framework.
-
-### Decision Tree
-
-| Signal                                | Pattern             | Example                      |
-| ------------------------------------- | ------------------- | ---------------------------- |
-| Choose items with capacity constraint | Knapsack            | 0/1 knapsack, subset sum     |
-| Optimise over intervals/substrings    | Interval DP         | Matrix chain, burst balloons |
-| Problem on a tree structure           | Tree DP             | Diameter, independent set    |
-| Small set of items (n &lt;= 20)       | Bitmask DP          | TSP, assignment              |
-| Count numbers with digit properties   | Digit DP            | Numbers with no "4' and '7'  |
+description: ""4' and '7'  |
 | Optimise over subsequences/strings    | String DP           | Edit distance, LCS           |
 | Two players taking turns              | Game theory DP      | Nim, coin game               |
 | Greedy seems to work                  | Greedy-reducible DP | Activity selection           |

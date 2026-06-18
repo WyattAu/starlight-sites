@@ -1,54 +1,6 @@
 ---
 title: "Biological Molecules -- Diagnostic Tests"
-description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Biological Molecules — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Alpha-Glucose vs Beta-Glucose and Polysaccharide Formation
-
-**Question:**
-
-Alpha-glucose and beta-glucose are both hexose monosaccharides with the molecular formula
-$\text{C}_6\text{H}_{12}\text{O}_6$Yet they form polysaccharides with very different properties.
-
-(a) Describe the precise structural difference between alpha-glucose and beta-glucose.
-
-(b) Starch is formed from alpha-glucose. Describe the formation of a glycosidic bond between two
-alpha-glucose molecules, naming the specific atoms involved and the molecule eliminated.
-
-(c) Cellulose is formed from beta-glucose. Explain why cellulose molecules are straight and form
-hydrogen-bonded fibres, whereas starch molecules are coiled.
-
-(d) Humans can digest starch but not cellulose. Explain this difference with reference to enzyme
-specificity.
-
-**Solution:**
-
-(a) The difference lies in the position of the hydroxyl ($-$OH) group on carbon 1. In alpha-glucose,
-the $-$OH group on C1 is below the plane of the ring; in beta-glucose, the $-$OH group on C1 is
-above the plane of the ring. All other $-$OH positions are identical.
-
-(b) A condensation reaction occurs between the hydroxyl group on C1 of one alpha-glucose molecule
-and the hydroxyl group on C4 of another alpha-glucose molecule. This forms a glycosidic bond
-(specifically a 1,4-glycosidic bond) and eliminates a molecule of water ($\text{H}_2\text{O}$). The
-oxygen atom in the glycosidic bond originates from C1 of the first glucose molecule.
-
-(c) In beta-glucose, the alternating orientation of $-$OH groups above and below the ring means that
-each successive beta-glucose molecule must rotate 180 degrees relative to its neighbour to form a
-1,4-glycosidic bond. This produces a straight, unbranched chain. The straight chains align parallel
-to each other, allowing extensive hydrogen bonding between the $-$OH groups of adjacent chains,
-forming strong, insoluble microfibrils. In alpha-glucose, the $-$OH groups all point in the same
-relative direction, so successive molecules do not need to rotate — the chain coils into a helix,
-which is compact and less accessible for hydrogen bonding between chains.
-
-(d) The enzyme amylase, produced in human saliva and the pancreas, has an active site complementary
-in shape to the alpha-glycosidic bond. Cellulase, the enzyme that hydrolyses beta-1,4-glycosidic
-bonds, is not produced by humans. The active site of amylase cannot bind to the beta-glycosidic bond
-because the spatial arrangement of atoms in the beta linkage does not match the active site"s
+description: ""s
 three-dimensional shape. This is an example of the lock-and-key model of enzyme action (though
 induced fit also applies more broadly — the key point is that the active site is specific to the
 alpha linkage).

@@ -1,26 +1,6 @@
 ---
 title: Nuclear Physics
-description: "In 1911, Geiger and Marsden (under Rutherford''s direction) fired alpha particles at a thin gold foil. Most passed straight through, some were deflected..."
-date: 2026-04-23T00:00:00.000Z
-tags: [Physics, ALevel]
-categories: [Physics]
-
----
-
-## Nuclear Physics
-
-> **Info:** Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
-## 1. Rutherford Scattering
-
-### The Experiment
-
-In 1911, Geiger and Marsden (under Rutherford's direction) fired alpha particles at a thin gold
-foil. Most passed straight through, some were deflected through small angles, and a few ($\sim 1$
-in 8000) Were deflected through angles greater than $90^\circ$.
-
-### Interpretation
-
-The results were incompatible with Thomson's "plum pudding" model (in which positive charge is
+description: ""plum pudding" model (in which positive charge is
 Diffusely spread through the atom). A diffuse charge distribution could not produce the large-angle
 Deflections observed.
 

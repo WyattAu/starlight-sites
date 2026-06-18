@@ -1,24 +1,6 @@
 ---
 title: AP Calculus
-description: "Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Boa Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-14
-tags:
-  - ap
-  - ap-maths
-categories:
-  - ap-maths
-
----
-
-# AP Calculus
-
-Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Board Course and Exam
-Description.
-
-These notes cover the full AP Calculus curriculum, from limits and continuity through to series and
-differential equations. Each topic page includes key theorems, worked examples, and step-by-step
-solutions to help you prepare for both the multiple-choice and free-response sections of the AP
-exam. The content follows the College Board"s course framework and mathematical practices.
+description: ""s course framework and mathematical practices.
 
 ## Topics
 

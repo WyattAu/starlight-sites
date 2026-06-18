@@ -3,43 +3,7 @@ title: Population and the Environment
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: "A-Level Geography Population and the Environment notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
----
-
-# Population and the Environment
-
-## Introduction
-
-The relationship between population and the environment is one of the most significant and contested
-themes in geography. This topic examines how populations change over time, the relationship between
-population growth and resource availability, and the environmental and health challenges that arise
-from this interaction. It also explores strategies for achieving food and energy security in a world
-of growing population and finite resources. Understanding these dynamics is essential for addressing
-global challenges such as climate change, food insecurity, and environmental degradation.
-
----
-
-## Key Concepts and Definitions
-
-| Term                                   | Definition                                                                                                                                           |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Demographic Transition Model (DTM)** | A model describing how population changes over time as a country develops, based on changes in birth and death rates                                 |
-| **Birth rate**                         | The number of live births per 1,000 population per year                                                                                              |
-| **Death rate**                         | The number of deaths per 1,000 population per year                                                                                                   |
-| **Natural increase**                   | The difference between birth rate and death rate (excluding migration)                                                                               |
-| **Total fertility rate (TFR)**         | The average number of children a woman would bear if she lived through her reproductive years                                                        |
-| **Infant mortality rate (IMR)**        | The number of deaths of children under one year per 1,000 live births                                                                                |
-| **Life expectancy**                    | The average number of years a person can expect to live from birth                                                                                   |
-| **Dependency ratio**                   | The ratio of dependents (under 15 and over 65) to the working-age population (15–64)                                                                 |
-| **Youthful population**                | A population with a high proportion of young people (under 15), typical of DTM stages 2–3                                                            |
-| **Ageing population**                  | A population with a high proportion of people over 65, typical of DTM stage 5                                                                        |
-| **Carrying capacity**                  | The maximum population size that an environment can sustain indefinitely without environmental degradation                                           |
-| **Overpopulation**                     | A situation where population exceeds the carrying capacity of the environment                                                                        |
-| **Underpopulation**                    | A situation where a region has fewer people than its resources could support                                                                         |
-| **Optimum population**                 | The population size that maximises the standard of living and quality of life given available resources and technology                               |
-| **Food security**                      | When all people, at all times, have physical and economic access to sufficient, safe, and nutritious food                                            |
-| **Energy security**                    | Uninterrupted availability of energy sources at an affordable price                                                                                  |
-| **Malthusian theory**                  | Thomas Malthus"s argument (1798) that population grows geometrically while food supply grows arithmetically, leading to inevitable famine and crisis |
+description: ""s argument (1798) that population grows geometrically while food supply grows arithmetically, leading to inevitable famine and crisis |
 | **Boserupian theory**                  | Ester Boserup's argument (1965) that population growth drives agricultural innovation and intensification — "necessity is the mother of invention"   |
 | **Epidemiological transition**         | The shift from infectious and parasitic diseases (pre-industrial) to degenerative and man-made diseases (industrial and post-industrial)             |
 

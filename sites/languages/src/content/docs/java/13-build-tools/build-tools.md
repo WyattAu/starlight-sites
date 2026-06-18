@@ -1,52 +1,6 @@
 ---
 title: Build Tools and Dependency Management
-description: "Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble"
-
----
-
-## Project Structure Conventions
-
-Java projects follow a standard directory layout established by Maven and adopted by Gradle and most
-IDEs:
-
-```
-my-project/
-├── pom.xml or build.gradle
-├── src/
-│   ├── main/
-│   │   ├── java/           # Production Java source files
-│   │   │   └── com/example/
-│   │   │       └── MyApp.java
-│   │   ├── resources/      # Production resources (properties, XML, configs)
-│   │   │   └── application.properties
-│   │   └── java9+          # Module-info.java for Java 9+ modules
-│   └── test/
-│       ├── java/           # Test Java source files
-│       │   └── com/example/
-│       │       └── MyAppTest.java
-│       └── resources/      # Test resources
-│           └── test.properties
-├── target/ or build/       # Build output (generated, in .gitignore)
-└── .gitignore
-```
-
-**Key conventions:**
-
-- Production code goes in `src/main/java`.
-- Test code goes in `src/test/java`.
-- Resources go alongside the Java source in `src/main/resources` and `src/test/resources`.
-- The default package for production code is `com.yourcompany.project`.
-- The output directory is `target/` (Maven) or `build/` (Gradle).
-
-## Maven
-
-### POM Structure
-
-The Project Object Model (POM) is an XML file (`pom.xml`) that describes the project, its
-Dependencies, plugins, and build configuration.
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
+description: ""1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0

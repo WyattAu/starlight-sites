@@ -1,20 +1,6 @@
 ---
 title: Traffic Analysis
-description: "Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize..."
-tags:
-  - Networking
-categories:
-  - Networking
----
-
-## Overview
-
-Network traffic analysis is the process of capturing, examining, and interpreting network traffic to
-Troubleshoot problems, detect anomalies, optimize performance, and investigate security incidents.
-This document covers packet capture methodology, advanced tcpdump and Wireshark usage, network flow
-Analysis (NetFlow/sFlow/IPFIX), bandwidth monitoring, and incident response workflows.
-
-The fundamental skill is being able to answer the question: "what is actually on the wire?" --
+description: ""what is actually on the wire?" --
 Independently of what you expect to be there.
 
 ## Packet Capture Methodology

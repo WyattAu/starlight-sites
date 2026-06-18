@@ -1,22 +1,6 @@
 ---
 title: Logic
-description: "Rigorous IB mathematics notes covering Logic. Includes definitions, derivations, worked examples, and exam-style problems."
-date: 2024-01-01T00:00:00Z
-tags:
-  - maths
-categories:
-  - ib
----
-
-# The Logic Of Arguments
-
-## Arg1: Simple Logic
-
-- In mathematics, statements must be true or false.
-- A statement is a sentence which is definitely true or definitely false. A statement can never be
-  both true and false.
-- Examples:
-- "If $x = 3$Then $x^2 = 9$." This is certainly true, so it is a statement.
+description: ""If $x = 3$Then $x^2 = 9$." This is certainly true, so it is a statement.
 - "If $x = 3$Then $x^2 = 4$." This is certainly false, so it is a statement.
 - "The sum of two odd numbers is an even number." This is certainly true, so it is a statement.
 

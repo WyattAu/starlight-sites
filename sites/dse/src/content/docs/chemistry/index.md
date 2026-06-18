@@ -1,33 +1,6 @@
 ---
 title: DSE Chemistry
-description: "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision."
-tableOfContents: false
----
-
-# DSE Chemistry
-
-Complete revision notes for HKDSE Chemistry, covering the full syllabus with worked examples,
-reaction mechanisms, and exam-style problems. Content is structured to build from fundamentals
-through to advanced topics.
-
-## Atomic Structure and Bonding
-
-- **[Atomic Structure and Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)**
-  -- Atomic structure, electron configurations, periodic trends, ionic bonding, covalent bonding,
-  and intermolecular forces
-- **[Atomic Structure and Periodic Table](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)**
-  -- Subatomic particles, electron configuration, periodic trends, and group properties
-- **[Atomic Structure](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)** --
-  Subatomic particles, atomic models, electron configuration, isotopes, and mass spectrometry
-- **[Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)** -- Ionic bonding,
-  covalent bonding, metallic bonding, intermolecular forces, and physical property predictions
-- **[Chemical Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)** -- Ionic
-  bonding, covalent bonding, giant covalent structures, metallic bonding, and intermolecular forces
-
-## Stoichiometry and the Mole
-
-- **[Mole Concept and Stoichiometry](./2-stoichiometry/1_mole-concept-and-stoichiometry)** --
-  Relative atomic/molecular masses, the mole, Avogadro"s number, molar volume, empirical and
+description: ""s number, molar volume, empirical and
   molecular formulae, and volumetric analysis
 - **[Stoichiometry and Mole Concept](./2-stoichiometry/1_mole-concept-and-stoichiometry)** --
   Relative atomic mass, molar calculations, empirical formulae, concentration, and limiting reagents

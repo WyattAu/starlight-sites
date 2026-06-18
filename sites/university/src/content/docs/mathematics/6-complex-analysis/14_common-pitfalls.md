@@ -3,16 +3,7 @@ title: Common Pitfalls
 tags:
   - Mathematics
   - University
-description: "Differentiability. The partial derivatives must also be continuous. For example, Comprehensive educational content coverage with definitions and practice proble"
----
-
-:::caution Common Pitfall The Cauchy-Riemann equations are necessary but not sufficient for
-Differentiability. The partial derivatives must also be continuous. For example,
-$f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
-But is not differentiable there.
-:::
-
-:::caution Common Pitfall Cauchy"s theorem requires a connected domain. On a multiply Connected
+description: ""s theorem requires a connected domain. On a multiply Connected
 domain, the integral of an analytic function around a closed contour may be non-zero. The Classic
 example is $\oint_{|z|=1} dz/z = 2\pi i$.
 :::

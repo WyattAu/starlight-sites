@@ -3,36 +3,7 @@ title: "Plasma Physics: Brief Overview"
 tags:
   - Physics
   - University
-description: "A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 13.1 Debye Shielding in Plasmas
-
-A plasma screens electric fields over the **Debye length**:
-
-$$\lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}}$$
-
-For $n_e = 10^{18}$ m$^{-3}$, $T = 10^4$ K: $\lambda_D = 7.4 \times 10^{-5}$ m $= 74\,\mu$M.
-
-The plasma frequency:
-
-$$\omega_p = \sqrt{\frac{n_e e^2}{m_e \varepsilon_0}}$$
-
-For $n_e = 10^{18}$ m$^{-3}$: $\omega_p = 5.64 \times 10^{10}$ rad/s, $f_p = 8.98$ GHz. EM waves
-with $\omega < \omega_p$ cannot propagate (evanescent).
-
-### 13.2 Plasma Oscillations
-
-Small displacements of the electron cloud create restoring forces, leading to **Langmuir waves**:
-
-$$\omega_{\text{Langmuir} = \omega_p\left(1 + \frac{3k_BT}{2m_e}\frac{k^2}{\omega_p^2}\right)^{-1/2}}$$
-
-At long wavelengths ($k \to 0$): $\omega \to \omega_p$ (undamped). With ion motion: the ion-acoustic
-wave has $\omega^2 = k^2 c_s^2/(1 + k^2\lambda_D^2)$ where $c_s = \sqrt{k_BT/m_i}$.
-
-## Worked Examples
-
-### Example 1: Gauss"s law
+description: ""s law
 
 **Problem.** A uniformly charged sphere of radius $R$ has total charge $Q$. Find $E$ inside and
 outside.

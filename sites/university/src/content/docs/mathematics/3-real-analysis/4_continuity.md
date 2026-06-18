@@ -3,25 +3,7 @@ title: Continuity
 tags:
   - Mathematics
   - University
-description: "Let where . We say if for Every There exists such that Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 4.1 Limits of Functions
-
-Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$There exists $\delta > 0$ such that
-
-$$0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon$$
-
-### 4.2 Continuity
-
-**Definition.** $f$ is **continuous at $a$** if $\lim_{x \to a} f(x) = f(a)$. In epsilon-delta form:
-For every $\varepsilon > 0$There exists $\delta > 0$ such that
-
-$$|x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon$$
-
-_Remark._ A function is continuous on a set $E$ if it is continuous at every point of $E$. A
-function is **globally continuous** (or "continuous") if it is continuous on its entire domain.
+description: ""continuous") if it is continuous on its entire domain.
 
 **Definition.** $f$ is **discontinuous at $a$** if it is not continuous at $a$. Discontinuities are
 Classified as:

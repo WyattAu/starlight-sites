@@ -3,29 +3,7 @@ title: Transport Properties
 tags:
   - Physics
   - University
-description: "The treats conduction electrons as a classical gas scattering off ions with a me Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 8.1 Electrical Conductivity: Drude Model
-
-The **Drude model** treats conduction electrons as a classical gas scattering off ions with a mean
-Free time $\tau$.
-
-Under an electric field $\mathbf{E}$The equation of motion:
-
-$$m_e\frac{d\mathbf{v}}{dt} = -e\mathbf{E} - \frac{m_e\mathbf{v}}{\tau}$$
-
-In steady state ($d\mathbf{v}/dt = 0$): $\mathbf{v}_d = -\frac{e\tau}{m_e}\mathbf{E}$.
-
-The current density: $\mathbf{J} = -ne\mathbf{v}_d = \frac{ne^2\tau}{m_e}\mathbf{E}$.
-
-The **Drude conductivity:**
-
-$$\sigma = \frac{ne^2\tau}{m_e}$$
-
-The **mean free path:** $\ell = v_F\tau$.
-
-**Successes:** Explains Ohm"s law ($\mathbf{J} = \sigma\mathbf{E}$) and the Wiedemann--Franz law
+description: ""s law ($\mathbf{J} = \sigma\mathbf{E}$) and the Wiedemann--Franz law
 ($\kappa/\sigma = LT$ with $L = \pi^2 k_B^2/(3e^2)$).
 
 **Failures:** Predicts the wrong temperature dependence ($\rho \propto T$But experiments show

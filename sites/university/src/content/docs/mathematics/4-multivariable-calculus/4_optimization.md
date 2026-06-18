@@ -3,34 +3,7 @@ title: Optimization
 tags:
   - Mathematics
   - University
-description: "If has a local extremum at an interior point Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 4.1 Local Extrema
-
-**Theorem 4.1 (First Derivative Test).** If $f$ has a local extremum at an interior point
-$\mathbf{a}$ And $\nabla f(\mathbf{a})$ exists, then $\nabla f(\mathbf{a}) = \mathbf{0}$.
-
-Points where $\nabla f = \mathbf{0}$ are called **critical points** (or stationary points).
-
-_Remark._ Not all critical points are extrema. A critical point can be a local minimum, local
-maximum, Or saddle point. The second derivative test (Section 4.2) distinguishes these cases.
-
-### 4.2 Second Derivative Test
-
-**Theorem 4.2 (Second Derivative Test).** Let $f$ have continuous second partial derivatives near a
-Critical point $(a,b)$ with $f_x(a,b) = f_y(a,b) = 0$. Let
-
-$$D = f_{xx}(a,b) f_{yy}(a,b) - [f_{xy}(a,b)]^2$$
-
-Be the **Hessian determinant**. Then:
-
-- If $D \gt 0$ and $f_{xx}(a,b) \gt 0$: local minimum.
-- If $D \gt 0$ and $f_{xx}(a,b) \lt 0$: local maximum.
-- If $D \lt 0$: saddle point.
-- If $D = 0$: the test is inconclusive.
-
-_Proof._ By Taylor"s theorem to second order, for small $h, k$:
+description: ""s theorem to second order, for small $h, k$:
 
 $$f(a+h, b+k) - f(a,b) = \frac{1}{2}\left[f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right] + R_2$$
 

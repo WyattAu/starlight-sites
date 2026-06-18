@@ -1,27 +1,6 @@
 ---
 title: Magnetic Fields
-description: "The magnetic flux density (also called the magnetic field strength in the context Of force calculations) is defined by the force on a current-carrying..."
-date: 2026-04-23T00:00:00.000Z
-tags: [Physics, ALevel]
-categories: [Physics]
-
----
-
-## Magnetic Fields
-
-> **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
-## 1. Magnetic Flux Density
-
-**Definition.** The magnetic flux density $B$ (also called the magnetic field strength in the
-context Of force calculations) is defined by the force on a current-carrying conductor:
-
-$$\boxed{B = \frac◆LB◆F◆RB◆◆LB◆IL\sin\theta◆RB◆}$$
-
-Where $F$ is the force on a wire of length $L$ carrying current $I$ at angle $\theta$ to the field.
-
-SI unit: tesla (T). $1\ \mathrm{T} = 1\ \mathrm{N\,A^{-1}\,m^{-1}}$.
-
-**Direction of force:** Given by Fleming"s Left-Hand Rule:
+description: ""s Left-Hand Rule:
 
 - First finger: Field ($B$)
 - Second finger: Current ($I$)

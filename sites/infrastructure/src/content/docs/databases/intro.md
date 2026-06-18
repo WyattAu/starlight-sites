@@ -1,41 +1,6 @@
 ---
 title: Introduction to Databases
-description: "Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts, sensor readings, audit logs -- all of it lands in a database."
-tags:
-  - Databases
-categories:
-  - Databases
----
-
-## Why Databases Matter
-
-Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens,
-User profiles, financial transactions, inventory counts, sensor readings, audit logs -- all of it
-Lands in a database. When the database is slow, the entire application is slow. When the database
-Loses data, the business loses money. When the database schema cannot evolve, the development team
-Grinds to a halt.
-
-Understanding databases is not optional for a systems engineer. You need to know how queries are
-Executed, why indexes matter, what transaction isolation levels actually guarantee, and when a NoSQL
-Store is the right tool versus a premature optimisation that will cause pain in production.
-
-## The CAP Theorem at a Glance
-
-The CAP theorem (Brewer, 2000; proved by Gilbert and Lynch, 2002) states that a distributed data
-Store can provide at most two of the following three guarantees simultaneously:
-
-- **Consistency (C)** -- every read returns the most recent write or an error
-- **Availability (A)** -- every request receives a non-error response (no guarantees about latency)
-- **Partition tolerance (P)** -- the system continues to operate despite network partitions
-
-In practice, network partitions are inevitable in distributed systems, so the real choice is between
-**CP** (sacrifice availability during a partition) and **AP** (sacrifice consistency during a
-Partition). The PACELC theorem (Abadi, 2012) extends this: when there is **no** partition, the
-System must choose between **L**atency and **C**onsistency.
-
-```mermaid
-graph TB
-    C["Consistency<br/>Every read sees latest write"]
+description: ""Consistency<br/>Every read sees latest write"]
     A["Availability<br/>Every request gets a response"]
     P["Partition Tolerance<br/>Survives network splits"]
 

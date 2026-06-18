@@ -1,38 +1,6 @@
 ---
 title: "Microorganisms and Biotechnology -- Diagnostic Tests"
-description: "DSE Biology Microorganisms and Biotechnology -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# DSE Biology Diagnostic: Microorganisms and Biotechnology
-
-## Unit Test 1: Bacterial and Viral Structure
-
-**Question**
-
-(a) Describe the structure of a **typical bacterial cell**, naming and stating the function of
-**five** structural features. [5 marks]
-
-(b) Explain why viruses are described as **obligate intracellular parasites** and why they are not
-considered living organisms. [3 marks]
-
-(c) A student claims that viruses can be killed by antibiotics. Evaluate this claim. [2 marks]
-
----
-
-**Worked Solution**
-
-(a) Five structural features of a typical bacterial cell:
-
-1. **Cell wall**: Made of **peptidoglycan** (murein). Provides mechanical strength and prevents the
-   cell from bursting by osmotic lysis. It is not made of cellulose (unlike plant cell walls).
-
-2. **Cell surface membrane**: A phospholipid bilayer (partially permeable) that controls the
-   movement of substances in and out of the cell. It also contains respiratory enzymes for aerobic
-   respiration.
-
-3. **Circular DNA (nucleoid)**: A single, circular DNA molecule found free in the cytoplasm (not
-   enclosed in a nucleus). It carries the genetic information needed for the cell"s basic functions.
+description: ""s basic functions.
 
 4. **Plasmid**: Small, additional circular rings of DNA separate from the main nucleoid. Plasmids
    often carry genes for antibiotic resistance and can be transferred between bacteria

@@ -1,33 +1,6 @@
 ---
 title: "Data Representation -- Diagnostic Tests"
-description: "A-Level Maths Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Data Representation — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for data representation.
-
-### UT-1: Outlier Effect on Measures of Central Tendency and Spread
-
-**Question:**
-
-A botanist records the heights (in cm) of 12 sunflower plants from a controlled growth experiment:
-
-$$42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 180$$
-
-**(a)** Calculate the mean, median, and mode of the full dataset.
-
-**(b)** The value 180 cm is identified as a measurement error (the actual height was 58 cm).
-Recalculate the mean, median, and mode after correcting this value.
-
-**(c)** The interquartile range and standard deviation are both measures of spread. Without
-calculating the standard deviation of the original (uncorrected) dataset, determine which measure of
-spread is more affected by the outlier. Justify your answer using the properties of each measure.
-
-**(d)** A student argues: "Since the median barely changed, we should always use the median instead
+description: ""Since the median barely changed, we should always use the median instead
 of the mean." Construct a counterexample with a small dataset where the median gives a misleading
 measure of central tendency.
 

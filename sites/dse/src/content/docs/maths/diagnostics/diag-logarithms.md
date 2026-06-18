@@ -351,7 +351,7 @@ $$\log_2 x + \log_2 y = 5$$ $$\log_2(x - y) = 1$$
 
 **Solution:**
 
-From equation 1: $\log_2(xy) = 5 \implies xy = 32$. ... (1)
+From equation 1: $\log_2(xy) = 5 \implies xy = 32$.  (1)
 
 From equation 2: $x - y = 2$. ... (2)
 

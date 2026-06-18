@@ -1,43 +1,6 @@
 ---
 title: Stash
-description: "temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism —..."
-date: 2025-06-03T09:00:00.000Z
-tags:
-  - git
-  - advanced
-  - stash
-categories:
-  - CS
-
----
-
-## What is Stash
-
-`git stash` temporarily shelves changes in your working directory and index, restoring your
-repository to a clean state (matching HEAD). It is a stack-based mechanism — you can push multiple
-stashes and pop them in LIFO order.
-
-### When to Use Stash
-
-- Switching branches with uncommitted work you cannot commit yet.
-- Pulling remote changes that conflict with your local work.
-- Running a quick test on a clean working directory.
-- Context-switching between tasks.
-
-:::caution
-
-Stash is **not a substitute for branches**. Stashes are stored as commits in the object database,
-but they are not visible in `git log` and can be accidentally dropped. If your changes are
-substantial, commit them on a branch instead.
-
-## How Stash Works Internally
-
-A stash is stored as a special commit with a **tree of your working directory + index changes**.
-Each stash entry is actually a merge commit with two (or three) parents:
-
-```mermaid
-gitGraph
-    commit id: "W (working tree changes)"
+description: ""W (working tree changes)"
     commit id: "I (index changes)"
     checkout W
     merge I id: "S (stash commit)"

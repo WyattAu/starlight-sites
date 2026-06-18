@@ -5,43 +5,7 @@ tags:
   - Licensing
 categories:
   - Licensing
-description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they..."
----
-
-## License Classification
-
-Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place
-minimal restrictions on how the code can be used — they require attribution but do not impose
-conditions on derivative works. Copyleft licenses require that derivative works carry the same
-license, ensuring that modifications remain open source.
-
-The Open Source Initiative (OSI) maintains the definitive list of OSI-approved licenses. Approval
-requires that the license comply with the Open Source Definition: free redistribution, access to
-source code, allowance for modifications, no discrimination against persons or fields of endeavor,
-and no restriction on other software distributed alongside the licensed code.
-
-| Category         | Mechanism                       | Examples                  |
-| ---------------- | ------------------------------- | ------------------------- |
-| Permissive       | Attribution only                | MIT, Apache 2.0, BSD, ISC |
-| Weak copyleft    | Same license for modified files | LGPL v3, MPL 2.0          |
-| Strong copyleft  | Same license for the whole work | GPL v3                    |
-| Network copyleft | Extends strong copyleft to SaaS | AGPL v3                   |
-
-The practical difference matters most when you combine code from multiple projects. Permissive code
-can be incorporated into proprietary software. Copyleft code forces openness. The wrong choice of
-license can make a project unshippable or expose a company to legal risk.
-
-## MIT License
-
-The MIT License is the most popular open source license. It is short — a single paragraph — and
-unambiguous. You can do almost anything with MIT-licensed code as long as you include the original
-copyright notice and license text.
-
-### Terms
-
-- Permission to use, copy, modify, merge, publish, distribute, sublicense, and sell
-- The license text and copyright notice must be included in all copies or substantial portions
-- No warranty — the software is provided "as is"
+description: ""as is"
 
 ### Requirements
 

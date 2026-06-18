@@ -1,54 +1,6 @@
 ---
 title: "Superposition and Interference -- Diagnostic Tests"
-description: "A-Level Physics Superposition and Interference -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Superposition and Interference — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Two-Source Interference with Microwaves
-
-**Question:**
-
-Two microwave sources $S_1$ and $S_2$ emit coherent waves of wavelength $28\,\text{mm}$ in phase. A
-detector is moved along a line parallel to the line joining the sources, at a perpendicular distance
-of $0.80\,\text{m}$. The sources are separated by $140\,\text{mm}$.
-
-(a) Calculate the positions of the first three maxima from the central maximum.
-
-(b) Calculate the fringe spacing.
-
-(c) The source separation is doubled to $280\,\text{mm}$. Calculate the new fringe spacing and
-comment on the effect on the interference pattern.
-
-**Solution:**
-
-(a) For a maximum: path difference $= n\lambda$Where $n = 0, 1, 2, \ldots$
-
-Using the approximation $d\sin\theta \approx n\lambda$ for small angles:
-
-For $n = 1$: $\sin\theta_1 = \lambda/d = 28/140 = 0.200$, $\theta_1 = 11.5^\circ$
-
-Position from centre:
-$y_1 = D\tan\theta_1 = 800\tan 11.5^\circ = 800 \times 0.2035 = 163\,\text{mm}$
-
-For $n = 2$: $\sin\theta_2 = 56/140 = 0.400$, $\theta_2 = 23.6^\circ$
-
-$y_2 = 800\tan 23.6^\circ = 800 \times 0.4368 = 349\,\text{mm}$
-
-For $n = 3$: $\sin\theta_3 = 84/140 = 0.600$, $\theta_3 = 36.9^\circ$
-
-$y_3 = 800\tan 36.9^\circ = 800 \times 0.7508 = 601\,\text{mm}$
-
-(b) Fringe spacing (using small angle approximation):
-$\Delta y \approx \lambda D/d = 28 \times 800/140 = 160\,\text{mm}$
-
-From exact calculation: $y_1 = 163\,\text{mm}$, $y_2 - y_1 = 349 - 163 = 186\,\text{mm}$. The
-approximation becomes less accurate at larger angles.
-
-(c) New fringe spacing: $\Delta y" = 28 \times 800/280 = 80\,\text{mm}$
+description: "" = 28 \times 800/280 = 80\,\text{mm}$
 
 Doubling the source separation halves the fringe spacing, making the fringes closer together. This
 provides finer resolution but makes the pattern harder to observe.

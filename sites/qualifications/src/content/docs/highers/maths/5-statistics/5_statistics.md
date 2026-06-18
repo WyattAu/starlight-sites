@@ -1,39 +1,6 @@
 ---
 title: Statistics and Probability
-description: "Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
-date: 2026-04-14
-tags:
-  - highers
-  - highers-maths
-categories:
-  - highers-maths
-
----
-
-# Statistics and Probability
-
-## Higher Statistics
-
-### Measures of Central Tendency and Spread
-
-**Mean:** $\bar{x} = \dfrac{\sum x_i}{n}$
-
-The mean is the balance point of the data. It is sensitive to outliers: a single extreme value can
-Shift the mean significantly.
-
-**Median:** The middle value when data is sorted. For $n$ data points, if $n$ is odd, the median is
-The $\frac{n+1}{2}$Th value. If $n$ is even, it is the average of the $\frac{n}{2}$Th and
-$\frac{n}{2}+1$Th values. The median is robust to outliers.
-
-**Mode:** The most frequently occurring value. A data set can be unimodal, bimodal, or multimodal.
-
-**Standard Deviation:**
-
-$$
-S = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
-$$
-
-The divisor $n-1$ (Bessel"s correction) gives an unbiased estimate of the population standard
+description: ""s correction) gives an unbiased estimate of the population standard
 Deviation. With $n$ in the denominator, the sample standard deviation systematically underestimates
 The population parameter.
 

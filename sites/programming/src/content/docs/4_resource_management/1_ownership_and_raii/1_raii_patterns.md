@@ -1,33 +1,6 @@
 ---
 title: RAII Patterns
-description: "RAII (Resource Acquisition Is Initialization) is the foundational C++ idiom that binds resource Lifetime to object lifetime. By acquiring resources in..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# RAII Patterns
-
-RAII (Resource Acquisition Is Initialization) is the foundational C++ idiom that binds resource
-Lifetime to object lifetime. By acquiring resources in constructors and releasing them in
-Destructors, RAII guarantees deterministic cleanup even when exceptions propagate through the call
-Stack.
-
-## 1.1 Formal Definition
-
-A class follows the RAII pattern when:
-
-1. Its **constructor** acquires a resource (opens a file, locks a mutex, allocates memory).
-2. Its **destructor** releases that same resource (closes the file, unlocks the mutex, deallocates
-   memory).
-3. The class maintains the **invariant**: if construction completes successfully, the resource is
-   held; destruction always releases it.
-
-This binding of resource lifetime to object lifetime is the single most important idiom in C++. It
-Is not a language feature — it is a convention that the language"s destructor semantics make natural
+description: ""s destructor semantics make natural
 And safe [N4950 §11.4.7].
 
 ## 1.2 Stack Unwinding Guarantee

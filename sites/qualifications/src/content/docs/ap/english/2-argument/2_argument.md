@@ -1,36 +1,6 @@
 ---
 title: Argument
-description: "An argument is a reasoned attempt to persuade an audience to accept a claim. A strong argument consists of three essential components: "''
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - ap
-  - ap-english
-categories:
-  - ap-english
-
----
-
-## What Is an Argument?
-
-An argument is a reasoned attempt to persuade an audience to accept a claim. A strong argument
-consists of three essential components:
-
-1. **Claim**: A clear, debatable assertion that the writer supports
-2. **Evidence**: Specific support for the claim (facts, statistics, examples, expert testimony)
-3. **Reasoning**: The logical connection between the evidence and the claim (warrants, analysis,
-   explanation)
-
-An argument without evidence is merely an opinion. An argument without reasoning is a list of facts
-with no interpretation.
-
-## Developing a Claim
-
-A claim must be **arguable** (reasonable people could disagree), **specific** (clear and focused),
-and **supportable** (sufficient evidence exists).
-
-### Weak vs Strong Claims
-
-- **Weak**: "Social media is bad." (Vague, absolute, no nuance)
+description: ""Social media is bad." (Vague, absolute, no nuance)
 - **Strong**: "Social media platforms should be required to implement verified identity systems
   because anonymous accounts facilitate the spread of misinformation and enable targeted
   harassment." (Specific, debatable, provides direction for evidence)

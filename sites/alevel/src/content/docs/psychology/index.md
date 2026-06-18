@@ -1,48 +1,6 @@
 ---
 title: A-Level Psychology
-description: "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
-date: 2026-05-12T00:00:00.000Z
-tags:
-  - Psychology
-  - ALevel
----
-
-# A-Level Psychology
-
-A-Level Psychology is the scientific study of mind and behaviour. It covers research methodology,
-cognitive processes, developmental psychology, social influence, biological bases of behaviour, and
-individual differences — all examined through empirical evidence and critical evaluation.
-
-## Topics Covered
-
-### Research Methods
-
-- **Experimental design** — laboratory, field, natural, and quasi-experiments; independent measures,
-  repeated measures, matched pairs designs
-- **Sampling methods** — random, systematic, stratified, opportunity, volunteer; strengths and
-  limitations
-- **Data analysis** — descriptive statistics (mean, median, mode, range, standard deviation);
-  inferential statistics (sign test, chi-squared, Mann-Whitney U, Wilcoxon); choosing the right test
-- **Ethics** — informed consent, deception, right to withdraw, confidentiality, debriefing; BPS code
-  of conduct
-- **Validity and reliability** — internal and external validity; improving reliability through
-  standardisation
-
-### Cognitive Psychology
-
-- **Memory models** — multi-store model (Atkinson & Shiffrin: sensory, short-term, long-term);
-  working memory model (Baddeley & Hitch: central executive, phonological loop, visuospatial
-  sketchpad, episodic buffer)
-- **Types of long-term memory** — episodic, semantic, procedural; evidence from case studies (e.g.,
-  HM, Clive Wearing)
-- **Forgetting** — interference theory (proactive and retroactive); retrieval failure
-  (context-dependent and state-dependent cues)
-- **Eyewitness testimony** — Loftus and Palmer; misleading information, anxiety, age; cognitive
-  interview
-
-### Developmental Psychology
-
-- **Attachment** — Bowlby"s evolutionary theory; types of attachment (secure, insecure-avoidant,
+description: ""s evolutionary theory; types of attachment (secure, insecure-avoidant,
   insecure-resistant); Ainsworth's Strange Situation
 - **Maternal deprivation** — Bowlby's 44 thieves study; the critical period; effects of
   institutionalisation (Romanian orphan studies)

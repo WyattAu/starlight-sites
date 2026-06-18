@@ -1,54 +1,6 @@
 ---
 title: DNS Architecture and Operations
-description: "DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive..."
-tags:
-  - Networking
-categories:
-  - Networking
----
-
-## Overview
-
-DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process
-Covered in the DNS fundamentals document, this deep dive covers the operational side: how zones are
-Managed, how delegation works, how DNSSEC provides authenticity, how anycast enables global scale,
-And how enterprise DNS is designed for reliability and security.
-
-Understanding DNS architecture is critical for systems engineers because virtually every service
-Depends on DNS. When DNS fails, everything fails -- websites, APIs, email, authentication, service
-Discovery, container orchestration.
-
-## DNS Infrastructure Components
-
-### Registrars
-
-Registrars are accredited businesses that sell domain names to registrants (organizations,
-Individuals). Examples: GoDaddy, Namecheap, Cloudflare Registrar, AWS Route 53. The registrar
-Interface is where you:
-
-- Register a domain name
-- Set name server records (delegation)
-- Manage WHOIS contact information
-- Configure DNSSEC signing (DS records at the parent)
-
-### Registries
-
-Registries operate the TLD (Top-Level Domain) zone. They maintain the authoritative name servers for
-The TLD and accept registrations from registrars. Examples:
-
-- Verisign operates `.com` and `.net`
-- PIR operates `.org`
-- Google Registry operates `.dev``.app``.page`
-- Nominet operates `.uk`
-
-The registry does not interact with end users. The registrar communicates with the registry on
-Behalf of the registrant.
-
-### TLD Operators
-
-TLD operators run the authoritative name servers for a TLD. For `.com`Verisign runs 13 logical Name
-server clusters (a through m.gtld-servers.net) deployed as anycast instances worldwide. These
-Servers respond to queries asking "where is the authoritative name server for example.com?"
+description: ""where is the authoritative name server for example.com?"
 
 ### Root Servers
 

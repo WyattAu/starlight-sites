@@ -3,21 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: "The following problems test understanding across all major topics. Full solutions are provided; Each problem includes a cross-reference to the relevant..."
----
-
-The following problems test understanding across all major topics. Full solutions are provided; Each
-problem includes a cross-reference to the relevant section for review.
-
-### Groups
-
-**Problem 1.** Let $G$ be a group and $g \in G$ an element of order $n$. Prove that
-$|g^k| = n / \gcd(n, k)$.
-
-<details>
-<summary>Solution</summary>
-
-_Solution._ Let $d = \gcd(n, k)$ and write $n = dn"$, $k = dk'$ with $\gcd(n', k') = 1$. We show
+description: ""$, $k = dk'$ with $\gcd(n', k') = 1$. We show
 $(g^k)^{n'} = e$ and that $n'$ is the smallest such positive exponent.
 
 $(g^k)^{n'} = g^{kn'} = g^{dk'n'} = g^{n'k}$. Since $n = dn'$We have

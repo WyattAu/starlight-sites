@@ -1,12 +1,6 @@
 ---
 title: Mechanics
-description: "A-Level Maths Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for systematic exam preparation and revision."
----
-
-# Mechanics
-
-Mechanics applies mathematical models to describe and predict the motion of objects under the
-influence of forces. A-Level Mechanics covers kinematics, Newton"s laws, moments, energy, and
+description: ""s laws, moments, energy, and
 momentum — the foundations of classical physics that also underpin engineering and applied
 mathematics.
 

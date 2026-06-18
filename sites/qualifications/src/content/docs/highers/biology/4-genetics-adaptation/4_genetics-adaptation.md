@@ -1,34 +1,6 @@
 ---
 title: Genetics and Adaptation
-description: "Scottish Highers Biology Genetics and Adaptation notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
-date: 2026-04-14
-tags:
-  - highers
-  - highers-biology
-categories:
-  - highers-biology
-
----
-
-# Genetics and Adaptation
-
-:::info
-
-This chapter covers **Advanced Higher** Biology content, extending beyond Higher level.
-
-## Molecular Genetics
-
-### DNA Structure
-
-DNA is a double-stranded polymer of nucleotides. Each nucleotide consists of:
-
-- A deoxyribose sugar
-- A phosphate group
-- A nitrogenous base: adenine (A), thymine (T), cytosine (C), or guanine (G)
-
-**Base pairing:** A pairs with T (2 hydrogen bonds); C pairs with G (3 hydrogen bonds).
-
-**Antiparallel strands:** The two strands run in opposite directions (5" to 3' and 3' to 5').
+description: "" to 3' and 3' to 5').
 
 **Double helix:** The two strands coil around each other, with bases on the inside and
 Sugar-phosphate backbones on the outside.

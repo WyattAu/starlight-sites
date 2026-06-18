@@ -3,36 +3,7 @@ title: Group Actions
 tags:
   - Mathematics
   - University
-description: "A of on a set is a map Written Satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 6.1 Definition
-
-A **group action** of $G$ on a set $X$ is a map $G \times X \to X$Written $(g, x) \mapsto g \cdot x$
-Satisfying:
-
-1. $e \cdot x = x$ for all $x \in X$.
-2. $g \cdot (h \cdot x) = (gh) \cdot x$ for all $g, h \in G$ and $x \in X$.
-
-### 6.2 Orbits and Stabilizers
-
-The **orbit** of $x \in X$ is $\mathrm{Orb}(x) = \{g \cdot x : g \in G\}$.
-
-The **stabilizer** of $x \in X$ is $\mathrm{Stab}(x) = \{g \in G : g \cdot x = x\}$.
-
-**Proposition 6.1.** $\mathrm{Stab}(x)$ is a subgroup of $G$.
-
-**Theorem 6.2 (Orbit-Stabilizer Theorem).** For any $x \in X$
-
-$$|\mathrm{Orb}(x)| = [G : \mathrm{Stab}(x)] = \frac{|G|}{|\mathrm{Stab}(x)|}$$
-
-_Proof._ Define $\phi : G \to \mathrm{Orb}(x)$ by $\phi(g) = g \cdot x$. Then $g$ and $h$ have the
-same Image iff $g \cdot x = h \cdot x$ iff $h^{-1}g \cdot x = x$ iff $h^{-1}g \in \mathrm{Stab}(x)$
-Iff $g \in h\,\mathrm{Stab}(x)$. So the fibers of $\phi$ are precisely the cosets of
-$\mathrm{Stab}(x)$ And there are $[G : \mathrm{Stab}(x)]$ of them, each mapping to a distinct
-element of $\mathrm{Orb}(x)$. $\blacksquare$
-
-### 6.3 Burnside"s Lemma
+description: ""s Lemma
 
 **Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$Then the number Of
 orbits is

@@ -3,17 +3,7 @@ title: Common Pitfalls
 tags:
   - Physics
   - University
-description: "- Fraunhofer (far-field) patterns are Fourier transforms; Fresnel (near-field) patterns involve Fresnel integrals. The transition occurs at"
----
-
-- **Confusing Fraunhofer and Fresnel diffraction.** Fraunhofer (far-field) patterns are Fourier
-  transforms; Fresnel (near-field) patterns involve Fresnel integrals. The transition occurs at
-  $R \sim a^2/\lambda$.
-
-- **Ignoring the phase in interference calculations.** Phase differences determine constructive and
-  destructive interference. Always track the optical path length carefully.
-
-- **Misidentifying Brewster"s angle.** Brewster’s angle is for the _reflected_ beam, not the
+description: ""s angle.** Brewster’s angle is for the _reflected_ beam, not the
   transmitted beam. At Brewster's angle, the reflected light is purely $s$-polarised.
 
 - **Neglecting the difference between intensity and amplitude.** Interference patterns depend on

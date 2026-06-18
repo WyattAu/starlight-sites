@@ -1,16 +1,6 @@
 ---
 title: Probability (Extended)
-description: "This document extends the core probability material with rigorous treatments of conditional Probability, independence, Venn diagrams, tree diagrams, and..."
-date: 2026-04-23T00:00:00.000Z
-tags: [Mathematics, ALevel]
-categories: [Mathematics]
-
----
-
-## Probability (Extended Treatment)
-
-This document extends the core probability material with rigorous treatments of conditional
-Probability, independence, Venn diagrams, tree diagrams, and Bayes" theorem.
+description: "" theorem.
 
 :::info Probability problems reward careful notation and clear event definitions. Always define your
 events Explicitly before writing any equations.

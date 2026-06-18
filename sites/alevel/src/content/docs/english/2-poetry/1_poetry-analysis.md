@@ -6,50 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Poetry Analysis notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
-
----
-
-# Poetry Analysis
-
-## Introduction
-
-Poetry is one of the most demanding areas of A-Level English because it requires simultaneous
-attention to meaning, form, language, and sound. Unlike prose, where meaning is often distributed
-across paragraphs, poetry compresses meaning into every word, line break, and syllable. At A-Level,
-you must demonstrate that you can read a poem closely, identify its formal features, and construct
-an argument about how those features create meaning.
-
-This section covers the formal elements of poetry, practical frameworks for analysis, and strategies
-for approaching anthology study.
-
-## Key Concepts
-
-### Form
-
-Form refers to the overall shape and structure of a poem. Recognising form helps you understand what
-conventions a poet is working within or against.
-
-| Form               | Description                                      | Typical Features                                                                             |
-| ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| Sonnet             | 14-line poem, in most cases in iambic pentameter | Shakespearean (ABAB CDCD EFEF GG) or Petrarchan (ABBAABBA CDECDE) rhyme scheme; volta (turn) |
-| Villanelle         | 19-line poem with repeating lines                | Five tercets and one quatrain; refrain repeats; rhyme scheme ABA ABA ABA ABA ABA ABAA        |
-| Ballad             | Narrative poem in short stanzas                  | Quatrains, alternating tetrameter and trimeter, ABCB or ABAB rhyme                           |
-| Ode                | A lyric poem addressing a subject                | Elevated tone, irregular stanza length, serious subject matter                               |
-| Elegy              | A poem of mourning                               | Reflective tone, movement from grief to consolation                                          |
-| Blank verse        | Unrhymed iambic pentameter                       | Common in dramatic and narrative poetry                                                      |
-| Free verse         | No regular meter or rhyme                        | Line breaks and enjambment create rhythm                                                     |
-| Haiku              | Three-line poem with 5-7-5 syllable pattern      | Emphasis on nature, season, and a single moment                                              |
-| Dramatic monologue | A poem spoken by a character                     | Reveals personality through voice, implication, and subtext                                  |
-
-### Meter and Rhythm
-
-Meter is the pattern of stressed and unstressed syllables in a line of poetry. Identifying meter
-helps you understand how a poem controls pace and emphasis.
-
-| Meter     | Pattern                                        | Example                                                   |
-| --------- | ---------------------------------------------- | --------------------------------------------------------- |
-| Iambic    | Unstressed / Stressed (da-DUM)                 | "Shall I compare thee to a summer"s day?"                 |
+description: ""Shall I compare thee to a summer"s day?"                 |
 | Trochaic  | Stressed / Unstressed (DUM-da)                 | "Tyger Tyger, burning bright"                             |
 | Anapestic | Unstressed / Unstressed / Stressed (da-da-DUM) | "And the sheen of their spears was like stars on the sea" |
 | Dactylic  | Stressed / Unstressed / Unstressed (DUM-da-da) | "Just for a handful of silver he left us"                 |

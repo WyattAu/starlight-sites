@@ -3,51 +3,7 @@ title: Dynamic Programming
 tags:
   - Computing
   - University
-description: "Dynamic programming (DP) solves problems by: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 5.1 Principles
-
-Dynamic programming (DP) solves problems by:
-
-1. **Overlapping subproblems:** The same subproblems are solved repeatedly.
-2. **Optimal substructure:** The optimal solution contains optimal solutions to subproblems.
-
-**Approaches:**
-
-- **Top-down (memoisation):** Recursive with caching.
-- **Bottom-up (tabulation):** Fill a table iteratively from small subproblems to large.
-
-### 5.2 Memoisation vs. Tabulation
-
-| Aspect      | Memoisation (Top-Down)          | Tabulation (Bottom-Up) |
-| ----------- | ------------------------------- | ---------------------- |
-| Approach    | Recursive with cache            | Iterative table fill   |
-| Order       | Natural recursion order         | Dependency order       |
-| Space       | $O(n)$ stack + $O(n)$ table     | $O(n)$ table only      |
-| Overhead    | Function call overhead          | Minimal                |
-| Subproblems | Computes only needed            | Computes all           |
-| Best for    | When not all subproblems needed | When all needed        |
-
-**When to use which:**
-
-- Use **memoisation** when the subproblem space is sparse (not all subproblems are needed).
-- Use **tabulation** when most subproblems are needed (avoids recursion overhead and stack
-  overflow).
-- Both achieve the same asymptotic time complexity.
-
-### 5.3 Optimal Substructure Proof Technique
-
-To prove that a problem has optimal substructure:
-
-1. Show that an optimal solution to the problem includes an optimal solution to a subproblem.
-2. Proved by contradiction: if the optimal solution contained a suboptimal sub-solution, replacing
-   it with an optimal one would improve the overall solution.
-
-**Example (Shortest Path).** If $p$ is a shortest path from $u$ to $v$ and $w$ is an intermediate
-vertex on $p$Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
-
-_Proof._ If not, there exists a shorter path $p"$ from $u$ to $w$. Then $p'$ concatenated with the
+description: ""$ from $u$ to $w$. Then $p'$ concatenated with the
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
 $\blacksquare$
 

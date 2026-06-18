@@ -1,17 +1,6 @@
 ---
 title: Abstraction and Data Management
-description: "Rigorous IB computer science notes covering Abstraction and Data Management. Includes definitions, derivations, worked examples, and exam-style problems."
-date: 2024-01-01T00:00:00Z
-tags:
-  - IB
-categories:
-  - ib
----
-
-## Conceptual Models vs Physical Models
-
-A **conceptual model** describes what a system does, what data it manages, and what relationships
-Exist, without specifying how these are implemented. It focuses on the problem domain and the user"s
+description: ""s
 Perspective. Conceptual models are independent of any particular technology, programming language,
 Or database system.
 
@@ -243,9 +232,7 @@ END PROCEDURE
 
 ```python
 PROCEDURE addTask(tasks)
-  OUTPUT "Enter task description: "
-  desc ← INPUT
-  OUTPUT "Enter priority (1-5): "
+  OUTPUT "Enter task description: ""
   priority ← INPUT
   newTask ← createTask(desc, priority)
   APPEND newTask TO tasks

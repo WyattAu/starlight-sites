@@ -1,40 +1,6 @@
 ---
 title: Energy and Matter
-description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
-date: 2026-04-14
-tags:
-  - highers
-  - highers-chemistry
-categories:
-  - highers-chemistry
-
----
-
-# Energy and Matter
-
-## Higher Energetics
-
-### Enthalpy Changes
-
-**Enthalpy ($H$):** The heat content of a system at constant pressure.
-
-**Standard enthalpy change of reaction ($\Delta H_r^\circ$):** The enthalpy change when molar
-Quantities of reactants as stated in the equation react under standard conditions (298 K, 100 kPa).
-
-**Exothermic:** $\Delta H < 0$ (energy released to surroundings).
-
-**Endothermic:** $\Delta H > 0$ (energy absorbed from surroundings).
-
-### Types of Enthalpy Change
-
-| Symbol                          | Name                                | Definition                                                                        |
-| ------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------- |
-| $\Delta H_f^\circ$              | Standard enthalpy of formation      | Enthalpy change when 1 mol of compound forms from its elements in standard states |
-| $\Delta H_c^\circ$              | Standard enthalpy of combustion     | Enthalpy change when 1 mol of substance burns completely in oxygen                |
-| $\Delta H_{\mathrm{neut}^\circ$ | Standard enthalpy of neutralisation | Enthalpy change when 1 mol of water forms from acid-base neutralisation           |
-| $\Delta H_{\mathrm{at}$         | Enthalpy of atomisation             | Enthalpy change to form 1 mol of gaseous atoms from an element                    |
-
-### Hess"s Law
+description: ""s Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
 The initial and final conditions are the same.

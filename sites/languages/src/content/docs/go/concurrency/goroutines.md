@@ -1,24 +1,6 @@
 ---
 title: Goroutines and Synchronization
-description: "A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to..."
-date: 2026-04-18
-tags:
-  - Go
-categories:
-  - Go
----
-
-## Goroutines
-
-A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a
-Small number of OS threads (default: GOMAXPROCS, equal to the number of CPU cores). The Initial
-stack size is small (2-8 KB) and grows/shrinks as needed.
-
-Starting a goroutine:
-
-```go
-go func() {
-    fmt.Println("running in a goroutine")
+description: ""running in a goroutine")
 }()
 ```
 

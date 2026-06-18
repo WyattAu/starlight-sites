@@ -3,33 +3,7 @@ title: Microcanonical Ensemble
 tags:
   - Physics
   - University
-description: "The describes an isolated system with fixed total energy Particle number And vol Comprehensive educational content coverage with definitions and practice proble"
----
-
-The **microcanonical ensemble** describes an isolated system with fixed total energy $E$Particle
-number $N$And volume $V$.
-
-### 14.1 Density of States
-
-The number of microstates with energy between $E$ and $E + \delta E$ is:
-
-$$\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} \frac{d^{3N}q\, d^{3N}p}{N!h^{3N}}$$
-
-The **entropy** (Boltzmann entropy):
-
-$$S(E, V, N) = k_B \ln \Omega(E, V, N)$$
-
-The **temperature** is defined via:
-
-$$\frac{1}{T} = \frac{\partial S}{\partial E}$$
-
-### 14.2 The Ideal Gas in the Microcanonical Ensemble
-
-For $N$ non-interacting particles in volume $V$ with total energy $E$:
-
-$$\Omega = \frac{V^N}{N!}\frac{(2\pi m E)^{3N/2}}{E\, \Gamma(3N/2)\, h^{3N}} \cdot \frac{\delta E}{E}$$
-
-Using Stirling"s approximation and the large-argument expansion of the Gamma function:
+description: ""s approximation and the large-argument expansion of the Gamma function:
 
 $$S = Nk_B\left[\ln\!\left(\frac{V}{N}\right) + \frac{3}{2}\ln\!\left(\frac{4\pi m E}{3Nh^2}\right) + \frac{5}{2}\right]$$
 

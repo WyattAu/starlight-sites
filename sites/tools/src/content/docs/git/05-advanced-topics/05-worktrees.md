@@ -1,30 +1,6 @@
 ---
 title: Worktrees
-description: "allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which..."
-date: 2025-06-03T17:00:00.000Z
-tags:
-  - git
-  - advanced
-  - worktrees
-categories:
-  - CS
-
----
-
-## What are Worktrees
-
-`git worktree` allows you to have **multiple working directories** from the same repository, each
-checked out to a different branch. Unlike `git stash` (which temporarily shelves changes) or
-switching branches (which requires a clean working directory), worktrees let you work on multiple
-branches simultaneously.
-
-### The Problem Worktrees Solve
-
-Without worktrees, switching branches requires a clean working directory:
-
-```bash
-$ git switch feature-auth
-# "error: Your local changes would be overwritten"
+description: ""error: Your local changes would be overwritten"
 $ git stash
 $ git switch feature-auth
 # ... work on feature ...

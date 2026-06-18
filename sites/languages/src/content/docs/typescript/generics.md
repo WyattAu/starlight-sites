@@ -1,26 +1,6 @@
 ---
 title: Generics
-description: "Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or..."
-date: 2026-04-22T00:00:00.000Z
-tags: [TypeScript]
-categories: [TypeScript]
----
-
-## Generic Functions
-
-### Syntax and Motivation
-
-Generics allow functions, interfaces, and type aliases to operate over a range of types rather than
-A single fixed type. A generic function declares one or more **type parameters** in angle brackets
-After the function name. These type parameters are placeholders for concrete types that are supplied
-At the call site.
-
-```ts
-function identity<T>(value: T): T {
-  return value;
-}
-
-const a = identity("hello');
+description: ""hello');
 const b = identity(42);
 const c = identity(true);
 ```
@@ -209,21 +189,7 @@ Implemented using mapped types and conditional types.
 ```ts
 interface Todo {
   title: string;
-description: "Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or..."
-}
-
-type PartialTodo = Partial<Todo>;
-type RequiredTodo = Required<Todo>;
-type ReadonlyTodo = Readonly<Todo>;
-```
-
-`Partial<T>` makes all properties optional. `Required<T>` makes all properties required.
-`Readonly<T>` makes all properties readonly.
-
-### Record, Pick, Omit
-
-```ts
-type PageInfo = Record<"url' | 'title' | 'description', string>;
+description: ""url' | 'title' | 'description', string>;
 type TodoTitle = Pick<Todo, 'title' | 'completed'>;
 type TodoWithoutDesc = Omit<Todo, 'description'>;
 ```

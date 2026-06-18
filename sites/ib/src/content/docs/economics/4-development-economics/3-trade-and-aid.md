@@ -1,18 +1,6 @@
 ---
 title: Trade and Aid
-description: "IB Economics Trade and Aid notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and examination practice."
-date: 2026-05-21
-tags: [ib, ib-economics]
-categories: [ib-economics]
----
-
-## Foreign Aid
-
-### Types of Aid
-
-- **Official Development Assistance (ODA)**: grants and concessional loans from governments and
-  multilateral institutions to developing countries
-- **Bilateral aid**: given directly from one government to another, often tied to the donor"s
+description: ""s
   commercial or political interests
 - **Multilateral aid**: channelled through international organisations (World Bank, IMF, UN
   agencies)

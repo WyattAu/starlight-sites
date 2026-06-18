@@ -1,18 +1,6 @@
 ---
 title: "A-Level Further Maths -- Diagnostic Guide"
-description: "| Diagnostic File | Topics Covered | Source File | | --------------------------------- | --------------------------------------------------------------------..."
-tableOfContents: false
----
-
-# A-Level Further Maths — Diagnostic Guide
-
-## Coverage Map
-
-### Pure Mathematics
-
-| Diagnostic File                   | Topics Covered                                                                                       | Source File                                          |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| `diag-complex-numbers.md`         | Argand diagrams, modulus-argument form, De Moivre"s theorem, roots of unity, complex transformations | `pure-mathematics/01-complex-numbers.md`             |
+description: ""s theorem, roots of unity, complex transformations | `pure-mathematics/01-complex-numbers.md`             |
 | `diag-matrices.md`                | Operations, 3x3 inverses, eigenvalues/eigenvectors, geometric transformations, systems               | `pure-mathematics/02-matrices.md`                    |
 | `diag-further-algebra.md`         | Roots of polynomials, partial fractions, series summation, mathematical induction                    | `pure-mathematics/03-further-algebra.md`             |
 | `diag-further-calculus.md`        | Improper integrals, volumes of revolution, parametric differentiation, arc length                    | `pure-mathematics/04-further-calculus.md`            |

@@ -1,47 +1,6 @@
 ---
 title: Biodiversity, Classification and Evolution
-description: "is the variety of life at every level of biological organisation: Genetic diversity within species, species diversity within communities, and ecosystem..."
-date: 2026-04-18T00:00:00.000Z
-tags:
-  - Biology
-  - ALevel
-categories:
-  - Biology
-
----
-
-## Biodiversity, Classification and Evolution
-
-> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
-## 1. Biodiversity
-
-### 1.1 Defining Biodiversity
-
-**Definition.** **Biodiversity** is the variety of life at every level of biological organisation:
-Genetic diversity within species, species diversity within communities, and ecosystem diversity
-Across landscapes.
-
-Biodiversity encompasses three hierarchical levels:
-
-1. **Genetic diversity**: the range of alleles within a population or species. High genetic
-   diversity increases the capacity of a population to adapt to environmental change through natural
-   selection.
-2. **Species diversity**: the number of different species and their relative abundances in a
-   community. This is the most commonly measured level.
-3. **Ecosystem diversity**: the range of different habitats and ecological processes within a
-   geographic area.
-
-### 1.2 Measuring Species Diversity
-
-Species diversity has two components:
-
-- **Species richness ($S$)**: the number of different species in a community.
-- **Species evenness**: how evenly individuals are distributed among species.
-
-A community with high richness and high evenness has higher diversity than one with high richness
-But low evenness (where one or a few species dominate).
-
-### 1.3 Simpson"s Index of Diversity
+description: ""s Index of Diversity
 
 Simpson's Diversity Index ($D$) quantifies species diversity by accounting for both richness and
 Evenness:

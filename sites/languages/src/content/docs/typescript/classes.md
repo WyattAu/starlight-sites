@@ -1,50 +1,6 @@
 ---
 title: Classes
-description: "A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be..."
-date: 2026-04-22T00:00:00.000Z
-tags: [TypeScript]
-categories: [TypeScript]
----
-
-## Class Declarations
-
-### Fields, Constructors, Methods
-
-A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript
-Requires that all fields accessed in the class body be declared explicitly (under
-`strictPropertyInitialization`).
-
-```ts
-class Point {
-  x: number;
-  y: number;
-
-  constructor(x: number, y: number) {
-    this.x = x;
-    this.y = y;
-  }
-
-  distanceTo(other: Point): number {
-    const dx = this.x - other.x;
-    const dy = this.y - other.y;
-    return Math.sqrt(dx * dx + dy * dy);
-  }
-
-  toString(): string {
-    return `(${this.x}, ${this.y})`;
-  }
-}
-```
-
-Under `strictPropertyInitialization`The compiler verifies that all declared fields are assigned in
-The constructor or have a definite assignment assertion (`!`):
-
-```ts
-class Example {
-  name: string;
-
-  constructor() {
-    this.name = "default';
+description: ""default';
   }
 }
 

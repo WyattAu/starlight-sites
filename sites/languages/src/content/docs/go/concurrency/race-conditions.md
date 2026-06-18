@@ -5,13 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description: "A data race occurs when two goroutines access the same variable concurrently, at least one of them writes, and there is no synchronization to order the..."
----
-
-## What is a Data Race?
-
-A data race occurs when two goroutines access the same variable concurrently, at least one of them
-writes, and there is no synchronization to order the accesses. Go"s memory model guarantees that a
+description: ""s memory model guarantees that a
 data race causes undefined behavior -- the program may crash, corrupt data, or appear to work
 correctly.
 

@@ -3,27 +3,7 @@ title: NoSQL Overview
 tags:
   - Computing
   - University
-description: "NoSQL databases address limitations of relational databases for certain workload Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 8.1 Motivation
-
-NoSQL databases address limitations of relational databases for certain workloads:
-
-- Horizontal scalability across commodity hardware.
-- Flexible schemas (semi-structured data).
-- High write throughput for simple access patterns.
-- Handling unstructured or polymorphic data.
-
-### 8.2 Document Stores
-
-Store data as JSON/BSON documents. Each document can have a different structure.
-
-**Example (MongoDB):**
-
-```json
-{
-  "_id": 1,
+description: ""_id": 1,
   "name": "Alice",
   "courses": ["CS101", "MATH201"],
   "address": { "city": "Cambridge", "zip": "02139" }

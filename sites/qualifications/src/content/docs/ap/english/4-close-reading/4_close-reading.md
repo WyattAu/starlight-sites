@@ -1,30 +1,6 @@
 ---
 title: Close Reading
-description: "Close reading is the careful, detailed analysis of a text to understand how the author uses language, structure, and rhetorical choices to create meaning..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - ap
-  - ap-english
-categories:
-  - ap-english
-
----
-
-## What Is Close Reading?
-
-Close reading is the careful, detailed analysis of a text to understand how the author uses
-language, structure, and rhetorical choices to create meaning and achieve a purpose. It goes beyond
-summarising what a text says to examining how the text works.
-
-Close reading involves multiple readings of a passage, each focused on a different aspect of the
-text. The goal is to move from surface-level comprehension to deep analytical understanding.
-
-## Annotation Strategies
-
-### First Reading: Comprehension
-
-- Read the entire passage without stopping to annotate
-- Identify the main idea, overall structure, and the author"s apparent purpose
+description: ""s apparent purpose
 - Note any initial reactions, questions, or confusions
 
 ### Second Reading: Structure and Organisation

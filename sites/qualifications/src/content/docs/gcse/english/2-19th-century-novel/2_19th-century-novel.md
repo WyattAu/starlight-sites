@@ -1,24 +1,6 @@
 ---
 title: The 19th-Century Novel
-description: "The 19th-Century Novel: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-date: 2026-04-22
-tags:
-  - gcse
-  - gcse-english
-categories:
-  - gcse-english
-
----
-
-## The 19th-Century Novel
-
-:::info Board Coverage AQA Paper 1 Section B | Edexcel Paper 2 Component 1 | OCR Paper 2 Section A |
-WJEC/Eduqas Paper 2 Section A
-
-## 1. The 19th-Century Novel as a Genre
-
-The nineteenth century is the great age of the English novel. Between the publication of Jane
-Austen"s _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
+description: ""s _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
 Dominant literary form in Britain, displacing poetry from the central position it had occupied since
 The Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
 The novel expanded from the comic realism of Austen to encompass social protest, psychological

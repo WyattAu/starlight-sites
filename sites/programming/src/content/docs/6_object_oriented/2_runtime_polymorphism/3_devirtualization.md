@@ -1,29 +1,6 @@
 ---
 title: Devirtualization and Final Specifiers
-description: "is a compiler optimization that replaces a virtual function call with a direct Call or inlines it entirely, eliminating the vtable lookup overhead. This..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Devirtualization and Final Specifiers
-
-**Devirtualization** is a compiler optimization that replaces a virtual function call with a direct
-Call or inlines it entirely, eliminating the vtable lookup overhead. This section covers the
-Conditions for devirtualization, the role of `final`Profile-guided optimization, and type-based
-Devirtualization.
-
-## 3.1 What is Devirtualization?
-
-**Devirtualization** is a compiler optimization that replaces a virtual function call with a
-**direct call** (or inlines it), eliminating the vtable lookup overhead. This is possible when the
-Compiler can prove the dynamic type of the object at compile time.
-
-The C++ Standard does not define devirtualization -- it is a pure optimization. However, the
-Standard"s type system and specifiers provide the information compilers need to perform it.
+description: ""s type system and specifiers provide the information compilers need to perform it.
 
 Devirtualization is important because virtual dispatch prevents several critical optimizations:
 

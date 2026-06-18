@@ -1,30 +1,6 @@
 ---
 title: Coroutines
-description: "Coroutines are Kotlin''s mechanism for asynchronous programming. They are lightweight -- a coroutine Suspends instead of blocking a thread, allowing a small..."
-date: 2026-04-18
-tags:
-  - Kotlin
-categories:
-  - Kotlin
----
-
-## Core Concepts
-
-Coroutines are Kotlin's mechanism for asynchronous programming. They are lightweight -- a coroutine
-Suspends instead of blocking a thread, allowing a small number of OS threads to handle many
-Concurrent operations.
-
-Key distinction: **coroutines are not threads**. A coroutine runs on a thread but can be suspended
-And resumed on a different thread. Thousands of coroutines can run concurrently on a handful of
-Threads.
-
-## Setup
-
-Add the coroutines dependency:
-
-```kotlin
-dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
+description: ""org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.9.0") // Reactor
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
 }

@@ -1,20 +1,6 @@
 ---
 title: Software Licensing
-description: "AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation In 2007. It is identical to GPLv3 with one critical..."
-date: 2025-07-07T23:37:45.807Z
-tags:
-  - CS
-categories:
-  - CS
-
----
-
-## Copyleft Licenses
-
-### AGPLv3 (Affero General Public License v3)
-
-AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation
-In 2007. It is identical to GPLv3 with one critical addition: **Section 13, the "Network
+description: ""Network
 Interaction" clause.**
 
 Section 13 states that if you modify the program and offer users the ability to interact with it

@@ -1,29 +1,6 @@
 ---
 title: Flood Management
-description: "Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,..."
-
----
-
-# Flood Management
-
-## Causes of Flooding
-
-Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are
-Produced by the interaction of meteorological, hydrological, and human factors.
-
-### Physical Causes
-
-**Prolonged or intense rainfall.** Sustained rainfall over days or weeks can saturate the soil
-Profile and raise water tables, reducing infiltration capacity and generating overland flow. Intense
-Convective storms (common in tropical regions and during summer in mid-latitudes) can produce
-Rainfall rates exceeding 50 mm per hour, rapidly generating surface runoff. The 2022 Pakistan floods
-Were caused by monsoonal rainfall that was approximately 190% above the 30-year average, displacing
-Approximately 33 million people and submerging approximately one-third of the country.
-
-**Snowmelt.** Rapid warming in spring can cause large volumes of snow to melt over a short period,
-Generating runoff that overwhelms river channels. The combination of snowmelt and rainfall is
-Particularly dangerous, as rain falling on snow accelerates melting. The Red River in North Dakota
-(USA) experiences severe spring flooding almost annually due to snowmelt, exacerbated by the river"s
+description: ""s
 Northward flow (the southern, upstream portion thaws first, sending meltwater into still-frozen
 Downstream reaches).
 

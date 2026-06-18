@@ -1,29 +1,6 @@
 ---
 title: Human Reproduction and Homeostasis
-description: "| Structure | Function | | ------------------------------------ | -------------------------------------------------------------------------------------------..."
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - Biology
-categories:
-  - DSE
-  - Biology
-
----
-
-## Human Reproductive System
-
-### Male Reproductive System
-
-| Structure                            | Function                                                                                                                    |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Testes                               | Produce sperm (in seminiferous tubules) and testosterone (in Leydig/interstitial cells)                                     |
-| Scrotum                              | Holds testes outside the body cavity at approximately 2-3 degrees C below core body temperature for viable sperm production |
-| Epididymis                           | Coiled tube on the surface of each testis; stores and matures sperm                                                         |
-| Vas deferens                         | Muscular tube that carries sperm from the epididymis to the urethra during ejaculation                                      |
-| Seminal vesicles                     | Produce seminal fluid rich in fructose (energy source for sperm) and prostaglandins                                         |
-| Prostate gland                       | Produces alkaline fluid that neutralises vaginal acidity; contains enzymes to liquefy semen                                 |
-| Bulbourethral gland (Cowper"s gland) | Produces mucus for lubrication and to neutralise residual urine in urethra                                                  |
+description: ""s gland) | Produces mucus for lubrication and to neutralise residual urine in urethra                                                  |
 | Urethra                              | Shared passageway for semen (during ejaculation) and urine (during urination)                                               |
 | Penis                                | Erectile organ that delivers semen into the vagina during intercourse                                                       |
 

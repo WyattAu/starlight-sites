@@ -1,16 +1,6 @@
 ---
 title: "Correlation and Regression -- Diagnostic Tests"
-description: "A-Level Maths Correlation and Regression -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Correlation and Regression — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for correlation and regression.
-
-### UT-1: PMCC vs Spearman"s Rank and Coding Invariance
+description: ""s Rank and Coding Invariance
 
 **Question:**
 

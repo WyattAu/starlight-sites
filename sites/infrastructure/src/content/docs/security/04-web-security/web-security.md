@@ -1,31 +1,6 @@
 ---
 title: Web Security
-description: "The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and..."
-
----
-
-## OWASP Top 10 (2021)
-
-The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition
-Reflects the shift toward cloud-native architectures and API-driven applications.
-
-| #   | Category                                   | Root Cause                                            |
-| --- | ------------------------------------------ | ----------------------------------------------------- |
-| A01 | Broken Access Control                      | Missing authorization checks, IDOR                    |
-| A02 | Cryptographic Failures                     | Weak or missing encryption, exposed sensitive data    |
-| A03 | Injection                                  | Unsanitized input in queries, commands, templates     |
-| A04 | Insecure Design                            | Missing threat modeling, abuse case analysis          |
-| A05 | Security Misconfiguration                  | Default configs, unnecessary features, verbose errors |
-| A06 | Vulnerable and Outdated Components         | Unaudited dependencies, known CVEs                    |
-| A07 | Identification and Authentication Failures | Weak passwords, broken session management             |
-| A08 | Software and Data Integrity Failures       | Insecure deserialization, unsigned updates            |
-| A09 | Security Logging and Monitoring Failures   | Insufficient logging, no alerting                     |
-| A10 | Server-Side Request Forgery (SSRF)         | Server coerced into making unauthorized requests      |
-
-## Cross-Site Scripting (XSS)
-
-XSS occurs when an application includes untrusted data in a web page without proper validation or
-Escaping, allowing an attacker to execute scripts in the victim"s browser.
+description: ""s browser.
 
 ### Types of XSS
 

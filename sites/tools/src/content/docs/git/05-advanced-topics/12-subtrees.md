@@ -1,13 +1,6 @@
 ---
 title: Git Subtrees
-description: "merges a repository into a subdirectory of another repository. Unlike submodules, Which maintain a reference to an external repository, subtrees embed the..."
-
----
-
-## What Subtrees Are
-
-`git subtree` merges a repository into a subdirectory of another repository. Unlike submodules,
-Which maintain a reference to an external repository, subtrees embed the external project"s files
+description: ""s files
 (and optionally its history) directly into the parent repository's object database.
 
 There are two key variants:

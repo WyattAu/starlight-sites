@@ -1,47 +1,6 @@
 ---
 title: Monads and Functors
-description: "A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Haskell
-categories:
-  - Haskell
-
----
-
-## The Monad Concept
-
-A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a
-computational context that defines how operations chain together. Each monad provides its own rules
-for sequencing and combining computations.
-
-Formally, a monad is any type that implements:
-
-```haskell
-class Applicative m => Monad m where
-  return :: a -> m a
-  (>>=)  :: m a -> (a -> m b) -> m b
-  (>>)   :: m a -> m b -> m b
-```
-
-The three monad laws ensure predictable behavior:
-
-1. **Left identity**: `return x >>= f` is the same as `f x`
-2. **Right identity**: `m >>= return` is the same as `m`
-3. **Associativity**: `(m >>= f) >>= g` is the same as `m >>= (\x -> f x >>= g)`
-
-## Maybe Monad
-
-The `Maybe` monad represents computations that might fail. `Nothing` represents failure, and
-`Just a` wraps a successful result. The bind operator `>>=` short-circuits on `Nothing`:
-
-```haskell
--- Database lookup style chain
-data User = User { userId :: Int, userName :: String }
-  deriving (Show)
-
-users :: [(Int, User)]
-users = [(1, User 1 "Alice"), (2, User 2 "Bob")]
+description: ""Alice"), (2, User 2 "Bob")]
 
 orders :: [(Int, String)]
 orders = [(1, "Book"), (2, "Laptop")]

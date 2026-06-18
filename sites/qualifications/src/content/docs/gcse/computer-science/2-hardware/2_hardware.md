@@ -1,37 +1,6 @@
 ---
 title: Computer Systems
-description: "The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems"
-date: 2026-04-14
-tags:
-  - gcse
-  - gcse-computer-science
-categories:
-  - gcse-computer-science
-
----
-
-## Computer Systems
-
-> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
-## 1. CPU Architecture
-
-### 1.1 Components of the CPU
-
-The **CPU (Central Processing Unit)** is the brain of the computer. It processes data and executes
-Instructions.
-
-| Component                   | Function                                                                           |
-| --------------------------- | ---------------------------------------------------------------------------------- |
-| Arithmetic Logic Unit (ALU) | Performs arithmetic (addition, subtraction) and logical (AND, OR, NOT) operations  |
-| Control Unit (CU)           | Coordinates the activities of the CPU; fetches, decodes, and executes instructions |
-| Cache                       | Small, fast memory inside the CPU that stores frequently used data                 |
-| Registers                   | Small, fast storage locations within the CPU                                       |
-| Buses                       | Pathways for data transfer between components                                      |
-
-**The ALU in detail.** The ALU is the part of the CPU that performs actual computation. Given two
-Binary inputs and an operation code (from the control unit), it produces a result and a set of
-Status flags (zero, negative, carry, overflow). For example, given inputs 0110 and 0011 with an
-"add" operation, the ALU outputs 1001 with a zero flag of 0 (result is non-zero).
+description: ""add" operation, the ALU outputs 1001 with a zero flag of 0 (result is non-zero).
 
 **The Control Unit in detail.** The CU does not perform computation itself. Instead, it sends
 Control signals to other components: it tells the memory which address to read or write, tells the

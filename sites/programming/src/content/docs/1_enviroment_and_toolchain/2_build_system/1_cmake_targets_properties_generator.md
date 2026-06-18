@@ -1,53 +1,6 @@
 ---
 title: CMake Targets Properties and Generator Expressions
-description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks..."
-date: 2025-12-10T05:41:36.284Z
-tags:
-  - cpp
-categories:
-  - cpp
-
----
-
-Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g.,
-`include_directories``add_definitions`). This approach prevents modularity and leaks compilation
-Flags across unrelated parts of a project.
-
-**Modern CMake** (3.0+) is strictly **Target-Centric**. It models the build process as a directed
-Acyclic graph (DAG) where nodes are **Targets** (executables, libraries) and edges are
-**Properties** (compiler flags, include paths) that propagate according to strict rules.
-
-## The Target-Centric Model
-
-A **Target** represents a build artifact or a logical grouping of dependencies.
-
-### 1. Defining Targets
-
-```cmake
-# 1. Executable: Compiles sources into a binary
-add_executable(App main.cpp)
-
-# 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
-add_library(MathStatic STATIC math.cpp)
-
-# 3. Shared Library: Compiles into .so (Linux), .dylib (macOS), or .dll (Windows)
-add_library(MathShared SHARED math.cpp)
-
-# 4. Interface Library: A collection of properties/headers (No source files)
-# Common for C++ template libraries or header-only libraries.
-add_library(MathHeaderOnly INTERFACE)
-```
-
-### 2. Transitive Usage Requirements (Scopes)
-
-The core mechanism of Modern CMake is the propagation of build requirements. When linking libraries,
-You must specify the scope of the dependency.
-
-| Scope         | Definition                                                                                | Use Case                                                                         |
-| :------------ | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
-| **PRIVATE**   | **Build Requirement.** Used internally to build the target, but not exposed to consumers. | Implementation details (e.g., a specific math algorithm used inside a function). |
-| **INTERFACE** | **Usage Requirement.** Not used to build the target itself, but required by consumers.    | Header-only libraries, or headers defining template interfaces.                  |
-| **PUBLIC**    | **Both.** Used to build the target AND required by consumers.                             | Public headers included in the library"s public headers.                         |
+description: ""s public headers.                         |
 
 #### Implementation Example
 

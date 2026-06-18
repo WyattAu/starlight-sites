@@ -1,26 +1,6 @@
 ---
 title: Control Flow
-description: "The statement evaluates a condition and executes the corresponding branch. The keyword handles additional conditions, and provides a fallback: "''
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Ruby
-categories:
-  - Ruby
-
----
-
-## Conditionals
-
-### if / elsif / else
-
-The `if` statement evaluates a condition and executes the corresponding branch. The `elsif` keyword
-handles additional conditions, and `else` provides a fallback:
-
-```ruby
-score = 85
-
-if score >= 90
-  puts "Grade: A"
+description: ""Grade: A"
 elsif score >= 80
   puts "Grade: B"
 elsif score >= 70

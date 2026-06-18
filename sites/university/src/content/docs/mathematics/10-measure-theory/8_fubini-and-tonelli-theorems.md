@@ -3,23 +3,7 @@ title: Fubini and Tonelli Theorems
 tags:
   - Mathematics
   - University
-description: "Let and be -finite measure spaces. The is Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 8.1 Product Measures
-
-Let $(X, \mathcal{F}, \mu)$ and $(Y, \mathcal{G}, \nu)$ be $\sigma$-finite measure spaces. The
-**product $\sigma$-algebra** is
-$\mathcal{F} \otimes \mathcal{G} = \sigma(\{A \times B : A \in \mathcal{F},\ B \in \mathcal{G}\})$.
-
-**Theorem 8.1 (Existence of Product Measure).** There exists a unique measure $\mu \times \nu$ on
-$\mathcal{F} \otimes \mathcal{G}$ such that
-
-$$(\mu \times \nu)(A \times B) = \mu(A) \cdot \nu(B)$$
-
-for all $A \in \mathcal{F}$ and $B \in \mathcal{G}$.
-
-### 8.2 Tonelli"s Theorem
+description: ""s Theorem
 
 **Theorem 8.2 (Tonelli).** If $f : X \times Y \to [0, \infty]$ is
 $\mathcal{F} \otimes \mathcal{G}$-measurable, then:

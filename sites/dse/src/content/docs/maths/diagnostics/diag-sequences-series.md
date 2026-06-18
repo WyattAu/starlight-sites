@@ -337,7 +337,7 @@ Since $a$$b$$c$ are in GP: $b^2 = ac$ and $b = ar$$c = ar^2$ for some ratio $r$.
 
 From the two equations:
 
-$a + ar + ar^2 = 26$ ... (1)
+$a + ar + ar^2 = 26$  (1)
 
 $a + 2ar - ar^2 = 10$ ... (2)
 

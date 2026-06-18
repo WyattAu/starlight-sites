@@ -1,33 +1,6 @@
 ---
 title: Setting Up Home Server
-description: "For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems."
-date: 2025-07-11T17:57:30.362Z
-tags:
-  - OS
-categories:
-  - OS
-
----
-
-## Hardware Selection
-
-### CPU
-
-For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload:
-
-- **Light NAS duties** (SMB/NFS, snapshots, periodic scrubbing): Intel Celeron J4125 or N5105, AMD
-  Ryzen 3 3200GE. These draw 10-25W TDP and are more than sufficient.
-- **Transcoding / media server**: Intel chips with Quick Sync Video (QSV) are strongly preferred. An
-  i3-12100 or i5-12400 gives you hardware transcoding for Plex/Jellyfin at negligible power cost.
-- **Virtualization heavy**: i5-12400 or Ryzen 5 5600G. More cores for VMs and containers.
-
-Avoid high-TDP desktop CPUs unless you are comfortable with power consumption and thermals. ECC
-Support is a nice-to-have but not required for ZFS; uncorrectable errors from non-ECC RAM are rare
-In homelab workloads.
-
-### RAM
-
-ZFS is a greedy consumer of RAM. The old rule of thumb "1 GB per TB of raw storage" is a starting
+description: ""1 GB per TB of raw storage" is a starting
 Point, but in practice:
 
 - **Minimum**: 16 GB for a 4-drive homelab NAS

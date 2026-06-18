@@ -1,31 +1,6 @@
 ---
 title: Period 5 (1844-1877)
-description: "The idea of -- the belief that the United States was divinely ordained to expand across the North American continent -- drove westward expansion in the..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - ap
-  - ap-history
-categories:
-  - ap-history
-
----
-
-## Manifest Destiny and Westward Expansion
-
-The idea of **Manifest Destiny** -- the belief that the United States was divinely ordained to
-expand across the North American continent -- drove westward expansion in the 1840s and intensified
-sectional conflict over the expansion of slavery.
-
-### Key Events
-
-- **Oregon Trail**: Over 350,000 settlers travelled west between 1840 and 1860, facing disease,
-  starvation, and harsh conditions
-- **Texas Annexation (1845)**: Congress admitted Texas as a slave state, angering Mexico (which
-  still claimed Texas) and Northerners who feared the expansion of slavery
-- **Oregon Boundary Dispute**: Settled by treaty in 1846, establishing the 49th parallel as the
-  boundary between the US and British North America
-- **Mexican-American War (1846-1848)**: Sparked by disputes over the Texas-Mexico border after
-  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk"s justification; US forces
+description: ""Spot Resolutions" by Abraham Lincoln challenged Polk"s justification; US forces
   captured Mexico City
 - **Treaty of Guadalupe Hidalgo (1848)**: Mexico ceded California, New Mexico, Arizona, Nevada,
   Utah, and parts of Colorado and Wyoming to the US for $15 million; Rio Grande established as the

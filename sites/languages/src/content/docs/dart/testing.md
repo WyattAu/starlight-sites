@@ -5,27 +5,7 @@ tags:
   - Dart
 categories:
   - Dart
-description: "Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most..."
----
-
-## Unit Testing
-
-Unit tests validate individual functions, methods, and classes in isolation. They are the fastest
-tests to run, the cheapest to maintain, and the most valuable for catching logic errors early. The
-standard test framework in Dart is the `test` package, which provides a lightweight API inspired by
-other xUnit frameworks.
-
-### The test Package
-
-```yaml
-dev_dependencies:
-  test: ^1.25.0
-```
-
-The core API consists of three functions: `test`, `group`, and `expect`.
-
-```dart
-import "package:test/test.dart';
+description: ""package:test/test.dart';
 
 void main() {
   test('adds two numbers', () {

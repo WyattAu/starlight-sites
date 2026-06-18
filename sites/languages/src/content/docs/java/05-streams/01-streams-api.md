@@ -1,8 +1,6 @@
 ---
 title: Streams API
-description: "A is an in-memory data structure that holds elements. A is a sequence of elements supporting sequential and parallel aggregate operations computed on demand..."
-date: 2025-06-05T14:00:00.000Z
-tags: ["java']
+description: ""java']
 categories: ['java']
 
 ---

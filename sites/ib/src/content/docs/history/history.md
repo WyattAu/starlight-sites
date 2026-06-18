@@ -2,27 +2,7 @@
 title: History
 tags:
   - history
-description: "This section contains notes, comparative analyses, and study materials for the IB History course. The course covers a range of twentieth-century topics..."
----
-
-## IB History -- Course Overview
-
-This section contains notes, comparative analyses, and study materials for the IB History course.
-The course covers a range of twentieth-century topics spanning multiple regions and employs
-Comparative methodology as a central analytical tool.
-
----
-
-## Course Structure
-
-The IB History assessment consists of the following components:
-
-| Component   | Description                                                                                                                                          | Weighting          |
-| :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
-| **Paper 1** | Prescribed Subjects -- source-based analysis of a specific case study. Students answer four structured questions using provided source material.     | 20% (SL), 20% (HL) |
-| **Paper 2** | World History Topics -- essay-based examination covering two topics studied during the course. Students write two essays from a choice of questions. | 25% (SL), 20% (HL) |
-| **Paper 3** | HL Depth Study -- extended essay paper (HL only) covering three sections of one HL regional option. Students write three essays.                     | N/A (SL), 35% (HL) |
-| **IA**      | Historical Investigation -- an independent research project of up to 2,200 words on a historical question of the student"s choosing.                 | 25% (SL), 20% (HL) |
+description: ""s choosing.                 | 25% (SL), 20% (HL) |
 
 ---
 

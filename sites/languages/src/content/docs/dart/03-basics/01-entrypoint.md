@@ -1,36 +1,6 @@
 ---
 title: Entry Point
-description: "When the project creates an executable, the entry point of the project is locate Comprehensive educational content coverage with definitions and practice proble"
-date: 2025-07-12T15:49:11.104Z
-tags:
-  - Dart
-categories:
-  - Dart
-
----
-
-## Program Entry
-
-When the project creates an executable, the entry point of the project is located in `main()`Where
-The default is given as:
-
-```dart
-void main(){
-  runApp(const MyApp());
-}
-```
-
-This can be find in `lib/main.dart` along with other source code.
-
-:::info
-
-Inside the `main()` function, there is the `runApp()` function which bootstrap the application by
-Initializing the framework and attaching the root widget the render tree. This is perform by:
-
-```dart
-void runApp(Widget app) {
-  final WidgetsBinding binding = WidgetsFlutterBinding.ensureInitialized();
-  _runWidget(binding.wrapWithDefaultView(app), binding, "runApp');
+description: ""runApp');
 }
 ```
 

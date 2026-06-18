@@ -1,44 +1,6 @@
 ---
 title: Linked Lists
-description: "A is a linear data structure where each element (called a ) contains data And a reference (pointer) to the next node. Unlike arrays, elements are stored..."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - ComputerScience
-  - ALevel
-categories:
-  - ComputerScience
-
----
-
-## 1. Introduction
-
-### Definition
-
-A **linked list** is a linear data structure where each element (called a **node**) contains data
-And a reference (pointer) to the next node. Unlike arrays, elements are **not** stored contiguously
-In memory.
-
-### Node Structure
-
-Each node contains:
-
-1. **Data field(s)** — the stored value
-2. **Pointer field(s)** — reference(s) to adjacent node(s)
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-```
-
-<hr />
-
-## 2. Singly Linked List
-
-### Structure
-
-Each node points to the next node. The list is accessed via a **head** pointer. The last node"s
+description: ""s
 `next` is `None`.
 
 ```

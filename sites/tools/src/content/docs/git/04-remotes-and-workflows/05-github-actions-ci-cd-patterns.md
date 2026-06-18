@@ -1,75 +1,6 @@
 ---
 title: GitHub Actions CI/CD Patterns
-description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows..."
-
----
-
-## What is GitHub Actions
-
-GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform
-Embedded directly into GitHub repositories. Workflows are defined as YAML files stored in
-`.github/workflows/` and are triggered by repository events such as pushes, pull requests, issue
-Comments, scheduled cron expressions, and manual dispatches.
-
-### Core Concepts
-
-| Concept      | Description                                                                                                          |
-| ------------ | -------------------------------------------------------------------------------------------------------------------- |
-| **Workflow** | An automated process defined in a YAML file under `.github/workflows/`                                               |
-| **Event**    | A specific activity that triggers a workflow run (e.g., `push``pull_request``schedule`)                              |
-| **Job**      | A set of steps executed on the same runner; jobs run in parallel unless linked with `needs`                          |
-| **Step**     | An individual task within a job — either a `run` (shell command) or `uses` (action reference)                        |
-| **Action**   | A reusable unit of code packaged for use in workflows, sourced from the Marketplace or custom                        |
-| **Runner**   | The server that executes the workflow — GitHub-hosted (`ubuntu-latest``windows-latest``macos-latest`) or self-hosted |
-| **Artifact** | A file or collection of files produced during a workflow run, persisted after the run completes                      |
-| **Secret**   | An encrypted environment variable accessible only within the workflow context                                        |
-
-### Runner Taxonomy
-
-GitHub-hosted runners are ephemeral virtual machines provisioned per job and destroyed after
-Completion. They come in three operating system families:
-
-| Runner identifier  | OS                  | Architecture | Notes                            |
-| ------------------ | ------------------- | ------------ | -------------------------------- |
-| `ubuntu-latest`    | Ubuntu 24.04 LTS    | x64          | Most common; fastest startup     |
-| `ubuntu-24.04-arm` | Ubuntu 24.04        | arm64        | For ARM-native workloads         |
-| `windows-latest`   | Windows Server 2022 | x64          | Uses PowerShell as default shell |
-| `macos-latest`     | macOS 14 (Sonoma)   | arm64 (M1)   | 10× billing multiplier vs ubuntu |
-| `macos-13`         | macOS Ventura       | x64          | Intel-based macOS                |
-
-Self-hosted runners allow execution on custom infrastructure and are not subject to the 6-hour job
-Timeout or IP egress restrictions, but require the operator to manage security, isolation, and
-Cleanup.
-
-### Actions Marketplace
-
-The [Actions Marketplace](https://github.com/marketplace?type=actions) provides community-maintained
-And official actions. First-party actions live under the `actions/` organization (e.g.,
-`actions/checkout@v4``actions/cache@v4``actions/upload-artifact@v4`). Third-party actions should Be
-audited for supply-chain security before adoption.
-
----
-
-## Basic Workflow Structure
-
-Every workflow file begins with `name` and `on` at the top level, followed by `jobs`. Each job has
-An identifier, runs on a `runs-on` runner, and contains an ordered list of `steps`.
-
-### Minimal Anatomy
-
-```yaml
-name: CI Pipeline
-on: push
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Run a shell command
-        run: echo "Hello from $GITHUB_SHA"
+description: ""Hello from $GITHUB_SHA"
 ```
 
 ### Step Anatomy
@@ -233,21 +164,13 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows..."
-        required: true
-        default: "staging'
+description: ""staging'
         type: choice
         options:
           - staging
           - production
       debug:
-        description: "Enable debug logging''
-        required: false
-        type: boolean
-        default: false
-```
-
-The `workflow_dispatch` event enables a "Run workflow" button in the GitHub Actions tab. Input
+        description: "" button in the GitHub Actions tab. Input
 Values are accessible via `${{ github.event.inputs.environment }}` (legacy) or
 `${{ inputs.environment }}` (preferred in newer API versions).
 
@@ -944,22 +867,9 @@ on:
   workflow_call:
     inputs:
       python-version:
-        description: "Python version to use"'
-        required: false
-        type: string
-        default: "3.13'
+        description: ""3.13'
       fail-on-error:
-        description: "Fail the workflow on lint errors''
-        required: false
-        type: boolean
-        default: true
-    outputs:
-      lint-result:
-        description: "Lint result status'
-        value: ${{ jobs.lint.outputs.result }}
-    secrets:
-      optional-secret:
-        description: "An optional secret''
+        description: ""An optional secret''
         required: false
 
 jobs:
@@ -1002,10 +912,7 @@ Single action defined by an `action.yml` file:
 
 ```yaml
 name: "Setup Python Environment''
-description: "Set up Python with caching"
-inputs:
-  python-version:
-    description: "Python version'
+description: ""Python version'
     required: true
 runs:
   using: "composite''

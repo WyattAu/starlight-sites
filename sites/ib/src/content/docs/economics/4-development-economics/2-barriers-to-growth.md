@@ -1,39 +1,6 @@
 ---
 title: Barriers to Growth
-description: "refers to a condition where individuals cannot afford basic necessities (food, Shelter, clean water). The World Bank''s international poverty line was per..."
-date: 2026-05-21
-tags: [ib, ib-economics]
-categories: [ib-economics]
----
-
-## Poverty
-
-### Absolute vs. Relative Poverty
-
-**Absolute poverty** refers to a condition where individuals cannot afford basic necessities (food,
-Shelter, clean water). The World Bank's international poverty line was `USD 2.15` per day (2017 PPP)
-For extreme poverty.
-
-**Relative poverty** defines poverty in relation to the economic status of other members of society.
-A common definition is living below $60\%$ of the median household income.
-
-### Causes of Poverty
-
-- **Low economic growth**: stagnant economies fail to generate employment and rising incomes
-- **Inequality**: unequal distribution of wealth and opportunity traps people in poverty
-- **Lack of human capital**: insufficient education and skills limit employability
-- **Geographical factors**: landlocked countries, tropical climates, and susceptibility to natural
-  disasters hinder development
-- **Institutional failure**: corruption, poor governance, and lack of property rights
-- **Demographic pressures**: high population growth can dilute per capita resources
-- **Conflict and political instability**: destroy infrastructure, displace populations, and deter
-  investment
-
-### The Poverty Trap
-
-A poverty trap is a self-reinforcing mechanism that perpetuates poverty. Low income leads to low
-Savings, which limits investment in human and physical capital, which in turn keeps productivity and
-Income low. Breaking the trap requires a "big push" — a large, coordinated investment in health,
+description: ""big push" — a large, coordinated investment in health,
 Education, and infrastructure.
 
 ## Debt

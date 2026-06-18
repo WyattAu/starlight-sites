@@ -1,57 +1,6 @@
 ---
 title: Amines
-description: "Amines are organic derivatives of ammonia () in which one or more hydrogen atoms have Been replaced by alkyl or aryl groups. They are classified as primary..."
-date: 2026-04-22T00:00:00.000Z
-tags:
-  - Chemistry
-  - ALevel
-categories:
-  - Chemistry
-
----
-
-# Amines
-
-Amines are organic derivatives of ammonia ($\mathrm{NH}_3$) in which one or more hydrogen atoms have
-Been replaced by alkyl or aryl groups. They are classified as primary ($1^\circ$), secondary
-($2^\circ$), or tertiary ($3^\circ$) based on the number of carbon groups attached to the nitrogen.
-Amines containing four organic groups (quaternary ammonium ions, $\mathrm{R}_4\mathrm{N}^+$) are
-Positively charged.
-
-## Classification and Nomenclature
-
-| Type      | Structure                 | Example                                                        |
-| --------- | ------------------------- | -------------------------------------------------------------- |
-| Primary   | $\mathrm{RNH}_2$          | Methylamine, $\mathrm{CH}_3\mathrm{NH}_2$                      |
-| Secondary | $\mathrm{R}_2\mathrm{NH}$ | Dimethylamine, $(\mathrm{CH}_3)_2\mathrm{NH}$                  |
-| Tertiary  | $\mathrm{R}_3\mathrm{N}$  | Trimethylamine, $(\mathrm{CH}_3)_3\mathrm{N}$                  |
-| Aromatic  | $\mathrm{ArNH}_2$         | Phenylamine (aniline), $\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2$ |
-
-## Preparation of Amines
-
-### Reduction of Nitriles
-
-Nitriles ($\mathrm{RCN}$) are reduced to primary amines using $\mathrm{LiAlH}_4$ in dry ether,
-Followed by aqueous work-up:
-
-$$
-\mathrm{RCN} + 4[\mathrm{H}] \xrightarrow{\mathrm{LiAlH}_4} \mathrm{RCH}_2\mathrm{NH}_2
-$$
-
-At A-Level, this is represented with $\mathrm{LiAlH}_4$ or with the notation $[\mathrm{H}]$.
-
-**Example:** Propionitrile ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CN}$) is reduced to propylamine
-($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2$). This adds one carbon to the chain.
-
-### Reduction of Amides
-
-Amides are reduced to amines using $\mathrm{LiAlH}_4$:
-
-$$
-\mathrm{RCONH}_2 + 4[\mathrm{H}] \xrightarrow{\mathrm{LiAlH}_4} \mathrm{RCH}_2\mathrm{NH}_2 + \mathrm{H}_2\mathrm{O}
-$$
-
-This is an alternative route to primary amines. Secondary amides ($\mathrm{RCONHR}"$) give secondary
+description: ""$) give secondary
 Amines, and tertiary amides ($\mathrm{RCONR}'_2$) give tertiary amines.
 
 ### Preparation of Phenylamine (Aniline)

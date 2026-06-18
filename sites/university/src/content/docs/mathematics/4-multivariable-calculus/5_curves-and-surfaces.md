@@ -3,17 +3,7 @@ title: Curves and Surfaces
 tags:
   - Mathematics
   - University
-description: "Curves and Surfaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
----
-
-### 5.1 Parametric Curves
-
-A **parametric curve** in $\mathbb{R}^3$ is a $C^1$ function $\mathbf{r} : [a, b] \to \mathbb{R}^3$
-Written $\mathbf{r}(t) = (x(t),\, y(t),\, z(t))$.
-
-**Definition.** The **arc length** of $\mathbf{r}$ over $[a, b]$ is
-
-$$L = \int_a^b \lVert \mathbf{r}"(t) \rVert\, dt = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2 + \left(\frac{dz}{dt}\right)^2}\, dt$$
+description: ""(t) \rVert\, dt = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2 + \left(\frac{dz}{dt}\right)^2}\, dt$$
 
 **Proposition 5.1.** The arc length function
 $s(t) = \int_a^t \lVert \mathbf{r}'(\tau) \rVert\, d\tau$ Satisfies

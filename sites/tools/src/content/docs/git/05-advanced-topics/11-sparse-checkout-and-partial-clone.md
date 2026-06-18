@@ -1,39 +1,6 @@
 ---
 title: Sparse Checkout and Partial Clone
-description: "As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full Clone becomes prohibitive. The problem manifests in three..."
-
----
-
-## The Problem
-
-As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full
-Clone becomes prohibitive. The problem manifests in three dimensions: **time**, **disk space**, and
-**bandwidth**.
-
-| Repository                 | Size (Full Clone) | Files | Build Time (Full Clone)             |
-| -------------------------- | ----------------- | ----- | ----------------------------------- |
-| Android (AOSP)             | 300+ GB           | 5M+   | N/A (not practical for individuals) |
-| Chromium                   | 40+ GB            | 400K+ | 30+ min                             |
-| Google (internal monorepo) | 80+ TB (shared)   | 1B+   | N/A                                 |
-| Meta (Buck2)               | 70+ GB            | 500K+ | 20+ min                             |
-| Microsoft (Windows)        | 300+ GB           | 4M+   | N/A                                 |
-
-A frontend developer working on the Chromium monorepo does not need the `chrome/browser/`
-`chrome/test/`Or `third_party/ffmpeg/` directories. A backend developer does not need `ui/` or
-`chrome/renderer/`. Yet a full `git clone` downloads every object in the repository regardless of
-What the developer intends to work on.
-
-This is where **sparse checkout** and **partial clone** come in. They are two complementary
-Mechanisms that solve different parts of the problem:
-
-- **Sparse checkout**: Controls which directories are checked out into the working tree.
-- **Partial clone**: Controls which objects are downloaded from the server.
-
-They can be used independently or combined for maximum efficiency.
-
-## Sparse Checkout
-
-Sparse checkout allows you to check out only a subset of the repository"s directories into your
+description: ""s directories into your
 Working tree. The repository still contains all objects (commits, trees, blobs) — the working tree
 Is a filtered view of the tree at HEAD.
 

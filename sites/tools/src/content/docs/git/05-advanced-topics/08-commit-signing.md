@@ -1,14 +1,6 @@
 ---
 title: Commit Signing
-description: "Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of..."
-
----
-
-## Why Sign Commits
-
-Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a
-Specific private key. The signature is stored as part of the commit object itself — it is not a
-Separate metadata layer, but an integral field in the commit"s header.
+description: ""s header.
 
 ### The Threat Model
 

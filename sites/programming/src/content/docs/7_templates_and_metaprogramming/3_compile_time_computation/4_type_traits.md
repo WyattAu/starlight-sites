@@ -1,44 +1,6 @@
 ---
 title: Type Traits and Static Reflection Patterns
-description: "Type traits provide compile-time type introspection and transformation, forming the foundation of Generic programming in C++. Combined with techniques like..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Type Traits and Static Reflection Patterns
-
-Type traits provide compile-time type introspection and transformation, forming the foundation of
-Generic programming in C++. Combined with techniques like SFINAE, tag dispatch, `if constexpr`And
-The upcoming C++26 static reflection, they enable type-safe compile-time polymorphism with zero
-Runtime overhead.
-
-## The `<type_traits>` Header
-
-The `<type_traits>` header [N4950 §20.15] provides a comprehensive set of compile-time type
-Introspection and transformation utilities. They fall into several categories:
-
-| Category                  | Examples                                                            |
-| ------------------------- | ------------------------------------------------------------------- |
-| Primary type categories   | `is_void``is_integral``is_floating_point``is_pointer``is_reference` |
-| Composite type categories | `is_arithmetic``is_compound``is_reference``is_fundamental`          |
-| Type properties           | `is_const``is_volatile``is_trivial``is_standard_layout``is_empty`   |
-| Type relationships        | `is_same``is_base_of``is_convertible``is_nothrow_convertible`       |
-| Type modifications        | `remove_cv``add_pointer``decay``enable_if``conditional`             |
-| Query properties          | `alignment_of``rank``extent``tuple_size`                            |
-
-```cpp
-#include <iostream>
-#include <type_traits>
-#include <vector>
-#include <string>
-
-template <typename T>
-void dump_type_info() {
-    std::cout << "Type analysis:\n";
+description: ""Type analysis:\n";
     std::cout << "  is_integral:       " << std::is_integral_v<T> << "\n";
     std::cout << "  is_floating_point: " << std::is_floating_point_v<T> << "\n";
     std::cout << "  is_pointer:        " << std::is_pointer_v<T> << "\n";

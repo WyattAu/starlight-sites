@@ -1,35 +1,6 @@
 ---
 title: Concurrency
-description: "Swift''s concurrency model provides -- asynchronous tasks are organised in a hierarchy where the lifetime of child tasks is bounded by their parent. This..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Swift
-categories:
-  - Swift
-
----
-
-## Overview of Swift Concurrency
-
-Swift's concurrency model provides **structured concurrency** -- asynchronous tasks are organised in
-a hierarchy where the lifetime of child tasks is bounded by their parent. This prevents common bugs
-like dangling callbacks, forgotten cleanup, and race conditions.
-
-Key components:
-
-- **async/await**: Asynchronous function syntax
-- **Task**: Unit of asynchronous work
-- **Actor**: Isolated, thread-safe reference type
-- **Sendable**: Protocol for safe data transfer across concurrency boundaries
-- **@MainActor**: Ensures code runs on the main thread (UI updates)
-
-## async and await
-
-### Defining Async Functions
-
-```swift
-func fetchUser(id: Int) async throws -> User {
-    let url = URL(string: "https://api.example.com/users/\(id)")!
+description: ""https://api.example.com/users/\(id)")!
     let (data, response) = try await URLSession.shared.data(from: url)
     return try JSONDecoder().decode(User.self, from: data)
 }

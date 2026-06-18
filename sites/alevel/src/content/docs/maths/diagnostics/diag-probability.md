@@ -1,27 +1,6 @@
 ---
 title: "Probability -- Diagnostic Tests"
-description: "A-Level Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Probability — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for probability.
-
-### UT-1: Mutually Exclusive vs Independent Events
-
-**Question:**
-
-Events $A$ and $B$ are such that $\mathrm{P}(A) = 0.4$, $\mathrm{P}(B) = 0.5$And
-$\mathrm{P}(A \cap B) = 0.1$.
-
-**(a)** Determine whether $A$ and $B$ are mutually exclusive. Justify your answer.
-
-**(b)** Determine whether $A$ and $B$ are independent. Justify your answer.
-
-**(c)** A student claims: "If two events are not mutually exclusive, then they must be independent."
+description: ""If two events are not mutually exclusive, then they must be independent."
 Construct a counterexample using numerical values to show this claim is false.
 
 **(d)** A second student claims: "If two events are independent, then they cannot be mutually

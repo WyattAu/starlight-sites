@@ -1,51 +1,6 @@
 ---
 title: I/O, NIO, and the Path API
-description: "Java I/O, NIO, and the Path API notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
-date: 2026-04-04T00:00:00.000Z
-tags:
-  - Java
-categories:
-  - Java
-
----
-
-## Classic I/O (java.io)
-
-The `java.io` package has been part of the platform since JDK 1.0. It is stream-oriented: open a
-Stream, read or write bytes or characters sequentially, and close it. Despite NIO (JDK 1.4) and
-NIO.2 (JDK 7), classic I/O remains the foundation for most Java programs.
-
-### InputStream and OutputStream Hierarchy
-
-All byte-oriented I/O in `java.io` derives from `InputStream` and `OutputStream`. The concrete
-Subclasses handle specific data sources and sinks.
-
-```
-InputStream (abstract)
-├── FileInputStream        — reads bytes from a file
-├── ByteArrayInputStream   — reads from a byte[] in memory
-├── BufferedInputStream    — wraps another InputStream with buffering
-├── DataInputStream        — reads primitive types (int, long, double, etc.)
-├── ObjectInputStream      — deserializes Java objects
-├── FilterInputStream      — base class for decorator streams
-└── PipedInputStream       — reads from a PipedOutputStream (inter-thread)
-
-OutputStream (abstract)
-├── FileOutputStream       — writes bytes to a file
-├── ByteArrayOutputStream  — writes to a byte[] in memory
-├── BufferedOutputStream   — wraps another OutputStream with buffering
-├── DataOutputStream       — writes primitive types
-├── ObjectOutputStream     — serializes Java objects
-├── FilterOutputStream     — base class for decorator streams
-└── PipedOutputStream      — writes to a PipedInputStream (inter-thread)
-```
-
-The core contract is minimal: `read()` (one byte), `read(byte[])``read(byte[], off, len)` for Input,
-and `write(int)``write(byte[])``write(byte[], off, len)` for output. The single-byte Methods are
-slow; use the bulk methods or wrap with a buffered stream.
-
-```java
-try (FileInputStream fis = new FileInputStream("data.bin")) {
+description: ""data.bin")) {
     byte[] buffer = new byte[8192];
     int bytesRead;
     while ((bytesRead = fis.read(buffer)) != -1) {

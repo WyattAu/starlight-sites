@@ -1,48 +1,6 @@
 ---
 title: OAuth 2.0 Deep Dive
-description: "OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user''s resources on a resource server..."
-
----
-
-## OAuth 2.0 Overview
-
-OAuth 2.0 is an **authorization** framework defined in RFC 6749. It allows a third-party application
-To obtain limited access to a user's resources on a resource server without sharing the user's
-Credentials. OAuth 2.0 is not an authentication protocol -- it delegates authorization.
-
-### Roles
-
-| Role                 | Description                                                              |
-| -------------------- | ------------------------------------------------------------------------ |
-| Resource Owner       | The user who owns the data (e.g., a Google account holder)               |
-| Client               | The application requesting access (e.g., a mobile app)                   |
-| Authorization Server | Issues access tokens after authenticating the user and obtaining consent |
-| Resource Server      | The API that holds the protected resources (e.g., Google API)            |
-
-```mermaid
-flowchart LR
-    A[Resource Owner<br/>User] --> B[Client<br/>App]
-    B --> C[Authorization Server]
-    C --> B
-    B --> D[Resource Server<br/>API]
-```
-
-## Grant Types
-
-### Authorization Code Grant (with PKCE)
-
-The most secure grant type. The client redirects the user to the authorization server, the user
-Authenticates and consents, and the authorization server redirects back with an authorization code.
-The client then exchanges the code for tokens via a back-channel request.
-
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant C as Client App
-    participant A as Auth Server
-    participant R as Resource Server
-
-    U->>C: Click "Login with Google"
+description: ""Login with Google"
     C->>A: Redirect to /authorize?response_type=code&amp;client_id=xxx&amp;redirect_uri=xxx&amp;scope=openid+profile&amp;code_challenge=xxx&amp;code_challenge_method=S256&amp;state=abc123
     A->>U: Show login/consent page
     U->>A: Authenticate and consent

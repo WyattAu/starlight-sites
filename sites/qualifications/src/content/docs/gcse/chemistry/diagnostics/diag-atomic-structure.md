@@ -1,27 +1,6 @@
 ---
 title: "Atomic Structure -- Diagnostic Tests"
-description: "Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
-tableOfContents: false
----
-
-# Atomic Structure -- Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Subatomic Particles and Atomic Models
-
-**Question:**
-
-(a) Describe the three subatomic particles found in an atom, stating their relative masses and
-charges.
-
-(b) An atom of sodium has an atomic number of 11 and a mass number of 23. How many protons,
-neutrons, and electrons does it contain?
-
-(c) Explain the difference between the plum pudding model and the nuclear model of the atom. What
-experiment led to the change in model?
-
-(d) Define the term "isotope" and give an example of two isotopes of the same element, explaining
+description: ""isotope" and give an example of two isotopes of the same element, explaining
 how they differ.
 
 **Solution:**

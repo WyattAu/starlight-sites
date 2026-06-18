@@ -1,6 +1,6 @@
 ---
 title: Branching Strategies
-description: "A branching strategy defines . There is no universal "best" strategy — the right choice depends on Team size, release cadence, deployment model, and risk...''
+description: "" strategy — the right choice depends on Team size, release cadence, deployment model, and risk...''
 date: 2025-06-03T07:00:00.000Z
 tags:
   - git

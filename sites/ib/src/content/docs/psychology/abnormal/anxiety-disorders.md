@@ -1,39 +1,6 @@
 ---
 title: Anxiety Disorders
-description: "Anxiety disorders are characterised by excessive, persistent fear and anxiety that are Disproportionate to the actual threat and that significantly impair"
-
----
-
-## Introduction
-
-Anxiety disorders are characterised by excessive, persistent fear and anxiety that are
-Disproportionate to the actual threat and that significantly impair daily functioning. They are
-Among the most common mental disorders, affecting approximately 15--20% of the population at some
-Point in their lives. This section focuses on two specific anxiety disorders: phobias and
-Obsessive-compulsive disorder (OCD).
-
-## Phobias
-
-A phobia is an irrational, persistent fear of a specific object, situation, or activity that leads
-To avoidance behaviour and significant distress or impairment. Phobias are classified into three
-Types:
-
-- **Specific phobias:** Fear of specific objects or situations (e.g., arachnophobia -- fear of
-  spiders; acrophobia -- fear of heights; claustrophobia -- fear of enclosed spaces).
-- **Social phobia (social anxiety disorder):** Fear of social situations in which the individual may
-  be scrutinised, judged, or humiliated by others (e.g., public speaking, eating in public, meeting
-  new people).
-- **Agoraphobia:** Fear of open spaces, crowds, or situations from which escape might be difficult
-  or embarrassing. Agoraphobia is frequently comorbid with panic disorder.
-
-### Biological Explanations of Phobias
-
-**Genetic factors:** Family and twin studies suggest a moderate heritability for specific phobias
-(approximately 0.30--0.40). The heritability of blood-injection-injury phobias is particularly high
-(approximately 0.60), suggesting a strong genetic component for this specific subtype.
-
-**The preparedness hypothesis (Seligman, 1971):** Seligman proposed that humans are biologically
-"prepared" to develop phobias of stimuli that were threats to survival during evolutionary history
+description: ""prepared" to develop phobias of stimuli that were threats to survival during evolutionary history
 (e.g., snakes, spiders, heights, darkness, enclosed spaces). Prepared fears are acquired more
 Readily, are more resistant to extinction, and are more specific (they do not generalise to Similar
 stimuli) than non-prepared fears. The preparedness hypothesis explains why phobias are not Randomly

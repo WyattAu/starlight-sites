@@ -1,34 +1,6 @@
 ---
 title: Introduction to Probabilistic ML
-description: "Inspired by Kevin P. Murphy's series of books on probabilistic machine learning, Marc Peter's book On Mathematics for Machine Learning and Evarist Gine's work on probability theory."
-date: 2026-01-07T07:50:21.312Z
-tags:
-  - ML
-categories:
-  - ML
----
-
-## Abstract
-
-Inspired by Kevin P. Murphy's series of books on probabilisitc machine learning, Marc Peter's book
-On Mathematics for Machine Learning and Evarist Gine's book on Mathematical Foundations of
-Infinite-Dimensional Statistical Models. With the ever growing field of machines learning, I will
-Only be able to cover a small portion of what is available, for more detail and up to date
-Appraoches, please refer to latest reports and publications.
-
-## Notes Format
-
-These notes will be written with a format consist of mathematics $\rightarrow$ Specification in
-Lean4 $\rightarrow$ Implementation in python with JAX.
-
-### Why Probabilistic Approaches
-
-Traditional machine learning produces point estimates: a single best prediction or parameter value.
-Probabilistic machine learning models uncertainty explicitly, producing distributions over
-predictions and parameters. This distinction has several practical consequences:
-
-1. **Calibrated uncertainty**: A model that outputs $p(y \mid x)$ instead of $\hat{y}$ expresses
-   confidence. A classification model that reports "70% cat, 30% dog" is more informative than one
+description: ""70% cat, 30% dog" is more informative than one
    that says "cat" with no certainty measure. In medical diagnosis, autonomous driving, and
    financial risk modeling, knowing _how confident_ a prediction is matters as much as the
    prediction itself.

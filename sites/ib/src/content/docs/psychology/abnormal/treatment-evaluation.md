@@ -1,29 +1,6 @@
 ---
 title: Treatment Evaluation
-description: "Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural..."
-
----
-
-## Introduction
-
-Evaluating psychological treatments requires careful consideration of multiple dimensions, including
-Effectiveness, ethical implications, cultural appropriateness, and the long-term consequences of
-Treatment choices. This section provides a framework for evaluating treatments and examines the
-Comparative merits of biological and psychological approaches.
-
-## Framework for Evaluating Treatments
-
-### 1. Effectiveness (Efficacy and Effectiveness)
-
-**Efficacy** refers to how well a treatment works under ideal, controlled conditions (randomised
-Controlled trials, or RCTs). **Effectiveness** refers to how well a treatment works in real-world
-Clinical settings, where patients may have comorbid conditions, variable adherence, and less
-Structured treatment delivery.
-
-**Evidence hierarchy:**
-
-1. **Meta-analyses and systematic reviews:** Syntheses of multiple RCTs, providing the highest level
-   of evidence by aggregating data across studies and reducing the influence of any single study"s
+description: ""s
    methodological limitations.
 2. **Randomised controlled trials:** Participants are randomly assigned to treatment or control
    conditions, minimising the influence of confounding variables. RCTs are the gold standard for

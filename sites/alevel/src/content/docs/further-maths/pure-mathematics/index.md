@@ -1,22 +1,6 @@
 ---
 title: Pure Mathematics
-description: "A-Level Further Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
----
-
-# Pure Mathematics
-
-The Further Pure Mathematics core extends A-Level Mathematics into the abstract and powerful
-territory required for university STEM study. These topics — complex numbers, matrices, advanced
-calculus, differential equations, and vector geometry — form the mathematical language of
-engineering, physics, and computer science.
-
-## Topics Covered
-
-### Complex Numbers
-
-- **Argand diagrams** — geometric representation of $z = a + bi$
-- **Modulus-argument form** — $z = r(\cos\theta + i\sin\theta) = re^{i\theta}$
-- **De Moivre"s theorem** — $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$; proof by
+description: ""s theorem** — $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$; proof by
   induction
 - **Roots of unity** — solving $z^n = 1$; geometric interpretation as regular polygons
 - **Euler's formula** — $e^{i\theta} = \cos\theta + i\sin\theta$; applications to trigonometric

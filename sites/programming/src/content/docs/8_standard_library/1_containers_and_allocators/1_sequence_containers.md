@@ -1,48 +1,6 @@
 ---
 title: Sequence Containers (Vector, Deque, List)
-description: "The C++ standard library provides three primary sequence containers: And . Each uses a different memory model with distinct trade-offs in terms of random..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-## Sequence Containers Memory Models
-
-The C++ standard library provides three primary sequence containers: `std::vector``std::deque` And
-`std::list`. Each uses a different memory model with distinct trade-offs in terms of random Access,
-insertion/deletion performance, cache locality, and iterator invalidation guarantees. This Section
-covers their internal structure, growth strategies, and practical usage patterns.
-
-### `std::vector`: Contiguous Memory, Capacity, and Reallocation
-
-`std::vector` is a sequence container that encapsulates dynamic-size arrays [N4950 §22.3.11].
-Elements are stored contiguously, meaning that a pointer to the first element can be used as a
-C-style array. This layout provides $O(1)$ random access via pointer arithmetic and excellent cache
-Locality, making `std::vector` the default choice for most use cases.
-
-```cpp
-#include <vector>
-#include <iostream>
-#include <cassert>
-
-int main() {
-    std::vector<int> v;
-    v.reserve(10);
-    v.push_back(1);
-    v.push_back(2);
-    v.push_back(3);
-
-    // Contiguous guarantee [N4950 §22.3.11.1 Table 79]
-    int* p = v.data();
-    assert(p[0] == 1);
-    assert(p[1] == 2);
-    assert(p[2] == 3);
-
-    // Random access is O(1) [N4950 §22.3.11.1 Table 79]
-    std::cout << "v[1] = " << v[1] << "\n";  // 2
+description: ""v[1] = " << v[1] << "\n";  // 2
 
     std::cout << "size=" << v.size() << " capacity=" << v.capacity() << "\n";
     // size=3 capacity=10 (reserved)

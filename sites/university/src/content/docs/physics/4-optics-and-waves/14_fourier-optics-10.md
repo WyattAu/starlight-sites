@@ -3,28 +3,7 @@ title: Fourier Optics
 tags:
   - Physics
   - University
-description: "The Fraunhofer diffraction pattern of an aperture with transmittance function illuminated by a plane wave is proportional to the 2D Fourier transform of the..."
----
-
-### 10.1 Fraunhofer Diffraction as a Fourier Transform
-
-The Fraunhofer diffraction pattern of an aperture with transmittance function $t(x, y)$ illuminated
-by a plane wave is proportional to the 2D Fourier transform of the aperture function:
-
-$$E(u, v) \propto \iint t(x,y)\, e^{-2\pi i(ux + vy)}\, dx\, dy = \mathcal{F}\{t(x,y)\}(u, v)$$
-
-Where $u = \sin\theta_x/\lambda$ and $v = \sin\theta_y/\lambda$ are the spatial frequencies.
-
-**Theorem 10.1.** The intensity in the Fraunhofer diffraction pattern is
-
-$$I(u,v) = I_0\,|\tilde{t}(u,v)|^2$$
-
-Where $\tilde{t}(u,v) = \mathcal{F}\{t(x,y)\}(u,v)$ is the Fourier transform of the aperture
-function.
-
-_Proof._ The Huygens-Fresnel principle in the far field gives:
-
-$$E(x",y') = \frac{e^{ikr}}{i\lambda r}\iint t(x,y)\, e^{-ik(xx' + yy')/r}\, dx\, dy$$
+description: "",y') = \frac{e^{ikr}}{i\lambda r}\iint t(x,y)\, e^{-ik(xx' + yy')/r}\, dx\, dy$$
 
 In the far field, $r \approx D$ and the phase factor $e^{-ik(xx' + yy')/r}$ is exactly the kernel of
 the Fourier transform. $\blacksquare$

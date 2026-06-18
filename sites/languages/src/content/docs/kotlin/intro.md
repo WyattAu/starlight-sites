@@ -1,17 +1,6 @@
 ---
 title: Introduction to Kotlin
-description: "Kotlin Introduction to Kotlin notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
-date: 2026-04-18
-tags:
-  - Kotlin
-categories:
-  - Kotlin
----
-
-## Overview
-
-Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
-Via LLVM. Developed by JetBrains, it was designed to address Java"s verbosity, null safety issues,
+description: ""s verbosity, null safety issues,
 And lack of modern language features while maintaining full interoperability.
 
 Key design goals:

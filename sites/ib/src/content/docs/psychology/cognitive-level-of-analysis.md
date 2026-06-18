@@ -1,25 +1,6 @@
 ---
 title: Cognitive Level of Analysis
-description: "The cognitive level of analysis (CLOA) focuses on mental processes such as perception, memory, language, and decision making. It operates on the principle..."
-
----
-
-# Cognitive Level of Analysis
-
-The cognitive level of analysis (CLOA) focuses on mental processes such as perception, memory,
-language, and decision making. It operates on the principle that the mind can be studied
-scientifically by inferring internal mental states from observable behaviour, and that cognitive
-processes are influenced by social and cultural factors. The CLOA is one of three core levels of
-analysis assessed on Paper 1 and provides essential background for understanding cognitive
-explanations of abnormality.
-
-Within the IB framework, the CLOA bridges the biological and sociocultural levels. Where the BLOA
-identifies the neural hardware (synapses, brain regions, neurotransmitters), the CLOA examines the
-software: how information is encoded, transformed, stored, and retrieved. For instance, while the
-BLOA might explain memory failure through hippocampal damage or acetylcholine deficiency, the CLOA
-explains it through interference, decay, or reconstructive processes shaped by schemas. The
-sociocultural level then contextualises these cognitive processes: memory accuracy, for example,
-varies with cultural framing (Loftus and Palmer"s leading questions) and social pressure (conformity
+description: ""s leading questions) and social pressure (conformity
 effects on recall). The CLOA thus occupies a mediating position in the three-level framework,
 translating biological inputs into behaviour that is further shaped by social context.
 

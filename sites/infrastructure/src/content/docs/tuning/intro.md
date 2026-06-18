@@ -1,21 +1,6 @@
 ---
 title: Introduction to Hardware Tuning
-description: "Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,..."
-
----
-
-## Abstract
-
-Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing
-Methodology, and platform-specific considerations for Intel, AMD, and Apple Silicon.
-
-## What Is Hardware Tuning
-
-Hardware tuning is the practice of adjusting system parameters beyond their factory defaults to
-Extract more performance, improve efficiency, or reduce noise. The three primary disciplines are:
-
-- **Undervolting** — reducing the supply voltage to a component (CPU, GPU, SoC) below the
-  manufacturer"s default while maintaining the same clock frequencies. Because power dissipation
+description: ""s default while maintaining the same clock frequencies. Because power dissipation
   scales with the square of voltage ($P \propto V^2$), even modest voltage reductions yield
   significant thermal and power savings. This is the single most impactful and lowest-risk tuning
   technique available on modern hardware.

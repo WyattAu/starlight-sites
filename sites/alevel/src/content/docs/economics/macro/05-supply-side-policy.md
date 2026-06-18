@@ -1,26 +1,6 @@
 ---
 title: Supply-Side Policy
-description: "We define as government policies designed to increase the productive Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the..."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - Economics
-  - ALevel
-categories:
-  - Economics
-
----
-
-## 1. Introduction
-
-### 1.1 Definition
-
-We define **supply-side policies** as government policies designed to increase the productive
-Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the right.
-
-$$\mathrm{LRAS shifts right: } Y^* \uparrow \Rightarrow P \downarrow, Y \uparrow$$
-
-Unlike demand-side policies (fiscal and monetary policy), which aim to manage AD to smooth the
-Business cycle, supply-side policies aim to raise the economy"s **potential output** — improving the
+description: ""s **potential output** — improving the
 Trade-off between inflation and unemployment in the long run.
 
 ### 1.2 Why Supply-Side Policy Matters

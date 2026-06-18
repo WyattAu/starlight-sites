@@ -7,17 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History Weimar and Nazi Germany 1918-1945 notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
----
-
-# Weimar and Nazi Germany 1918-1945
-
-The collapse of Imperial Germany, the turbulent Weimar Republic, and the rise and fall of the Nazi
-state represent one of the most studied and consequential periods in modern history.
-
-## Historical Context and Chronology
-
-Germany"s first democratic experiment, the Weimar Republic (1919-1933), was born in defeat and
+description: ""s first democratic experiment, the Weimar Republic (1919-1933), was born in defeat and
 revolution at the end of the First World War. It faced existential challenges from the outset: the
 stigma of the "stab-in-the-back" myth (Dolchstosslegende), punitive reparations, hyperinflation, and
 violent political extremism from both left and right.

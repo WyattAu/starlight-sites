@@ -1,29 +1,6 @@
 ---
 title: Metaclasses and Class Creation
-description: "The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is..."
-date: 2026-04-05T00:00:00.000Z
-tags:
-  - Python
-categories:
-  - Python
-
----
-
-## How Class Statements Work
-
-The `class` statement in Python is not a declarative construct. It is an executable statement that
-Runs at import time (or at function call time if the class is defined inside a function).
-Understanding this is the prerequisite for understanding metaclasses, because the class body is a
-Code block that gets executed, and the result of that execution is handed to a callable -- the
-Metaclass -- which produces the class object.
-
-The full sequence when Python encounters `class Foo(Base, metaclass=Meta):` is:
-
-1. The class name (`Foo`), base classes (`(Base,)`), and keyword arguments (including `metaclass=`)
-   are captured from the class header.
-2. If no `metaclass` keyword is given, the metaclass is determined by looking at the `__class__` of
-   the first base class (if any), or defaulting to `type`. This is the metaclass computation rule.
-3. The metaclass"s `__prepare__` method is called with the class name and base classes. It returns a
+description: ""s `__prepare__` method is called with the class name and base classes. It returns a
    namespace mapping (by default, an empty `dict`). This namespace is where all assignments and
    function definitions in the class body will be stored.
 4. The class body is executed as a code block, using the namespace from step 3 as the local

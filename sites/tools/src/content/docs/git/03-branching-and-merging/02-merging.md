@@ -1,34 +1,6 @@
 ---
 title: Merging
-description: "Merging is the process of combining the changes from one branch into another. Git''s merge algorithm Is one of its most sophisticated features — it can..."
-date: 2025-06-03T03:00:00.000Z
-tags:
-  - git
-  - merging
-categories:
-  - CS
-
----
-
-## The Merge Operation
-
-Merging is the process of combining the changes from one branch into another. Git's merge algorithm
-Is one of its most sophisticated features — it can automatically resolve many cases where both
-Branches have modified different files or different parts of the same file.
-
-### What `git merge` Actually Does
-
-A merge takes two (or more) commit pointers — branch tips — and produces a new **merge Commit** that
-has both as parents:
-
-```bash
-$ git switch main
-$ git merge feature-auth
-```
-
-```mermaid
-gitGraph
-    commit id: "C (base)"
+description: ""C (base)"
     checkout main
     commit id: "D (ours)"
     checkout feature-auth

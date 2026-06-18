@@ -1,48 +1,6 @@
 ---
 title: "Differential Equations -- Diagnostic Tests"
-description: "IB Maths Differential Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
-tableOfContents: false
----
-
-# Differential Equations — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for differential equations.
-
-### UT-1: Separable Equations — Lost Equilibrium Solutions
-
-**Question:**
-
-**(a)** Solve $\dfrac{dy}{dx} = y^2 - 1$ with the general solution.
-
-**(b)** A student separates variables and writes $\dfrac{dy}{y^2 - 1} = dx$Integrates, and arrives
-at the general solution $\dfrac{1}{2}\ln\!\left\lvert\dfrac{y - 1}{y + 1}\right\rvert = x + C$. They
-claim this covers all solutions. Is this correct?
-
-**(c)** Find the particular solution with $y(0) = 1$.
-
-[Difficulty: hard. Tests the common error of losing equilibrium solutions when dividing by $g(y)$.]
-
-**Solution:**
-
-**(a)** First check equilibrium solutions: $y^2 - 1 = 0 \implies y = 1$ or $y = -1$.
-
-For $y \neq \pm 1$Separate variables using partial fractions:
-
-$$\frac{1}{y^2 - 1} = \frac{1}{(y - 1)(y + 1)} = \frac{1}{2(y - 1)} - \frac{1}{2(y + 1)}$$
-
-$$\int \frac{1}{y^2 - 1}\,dy = \int dx$$
-
-$$\frac{1}{2}\ln\!\left\lvert\frac{y - 1}{y + 1}\right\rvert = x + C$$
-
-$$\left\lvert\frac{y - 1}{y + 1}\right\rvert = e^{2(x + C)} = Ae^{2x}$$
-
-Where $A = e^{2C} \gt 0$. Including the equilibrium solutions, the general solution is:
-
-$$y = 1, \quad y = -1, \quad \text{or} \quad \frac{y - 1}{y + 1} = \pm Ae^{2x}$$
-
-**(b)** The student"s solution is incomplete because they lost the equilibrium solutions $y = 1$ and
+description: ""s solution is incomplete because they lost the equilibrium solutions $y = 1$ and
 $y = -1$. By dividing by $y^2 - 1$The student implicitly assumed $y^2 - 1 \neq 0$. The equilibrium
 solutions must be stated separately and are not captured by the formula
 $\frac{1}{2}\ln\!\left\lvert\frac{y - 1}{y + 1}\right\rvert = x + C$.

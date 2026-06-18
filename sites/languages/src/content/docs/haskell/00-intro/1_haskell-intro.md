@@ -1,46 +1,6 @@
 ---
 title: Introduction to Haskell
-description: "Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional..."
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Haskell
-categories:
-  - Haskell
-
----
-
-## What Is Haskell?
-
-Haskell is a **purely functional, statically typed, lazily evaluated** programming language. It was
-designed by a committee of researchers in the late 1980s to serve as a common language for research
-in functional programming, and has evolved into a practical language used in industry for systems
-that demand correctness, concurrency, and abstraction.
-
-Unlike imperative languages where computation proceeds through mutable state and explicit
-sequencing, Haskell programs describe **what** to compute rather than **how** to compute it.
-Functions in Haskell are mathematical functions: given the same inputs, they always produce the same
-outputs and have no side effects.
-
-Key characteristics of Haskell:
-
-- **Purely functional**: No mutable variables, no side effects within function bodies
-- **Statically typed**: Types are checked at compile time with powerful type inference
-- **Lazily evaluated**: Expressions are evaluated only when their results are needed
-- **Type inference**: The compiler deduces most types automatically via the Hindley-Milner algorithm
-- **Strongly typed**: No implicit conversions; type safety is enforced at compile time
-- **Concurrent**: Excellent support for parallel and concurrent programming via lightweight threads
-
-## History and Evolution
-
-### The Origins (1987--1990)
-
-In 1987, a meeting was held at FPCA (Functional Programming Languages and Computer Architecture) in
-Portland, Oregon, to consolidate the proliferation of lazy functional languages. There were more
-than a dozen such languages at the time, including Miranda, Lazy ML, Orwell, and Id. The committee
-aimed to create a single, open standard that could serve as a basis for research and education.
-
-The resulting language was named after Haskell Curry, the mathematician who made foundational
-contributions to mathematical logic and combinatory logic (and the inspiration behind "currying").
+description: ""currying").
 The first version of the Haskell report was published in 1990.
 
 ### Haskell 98 (1998)

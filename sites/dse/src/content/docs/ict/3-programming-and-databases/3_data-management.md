@@ -1,33 +1,6 @@
 ---
 title: Data Management
-description: "This document covers data management topics for the DSE ICT examination, including data structures, Database models, data integrity, security, privacy..."
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - ICT
-categories:
-  - DSE
-  - ICT
-
----
-
-This document covers data management topics for the DSE ICT examination, including data structures,
-Database models, data integrity, security, privacy legislation, backup strategies, big data, and
-data Ethics. Database design and SQL are covered in
-[../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
-
----
-
-## Data Types and Structures
-
-### Primitive Data Types
-
-| Data Type  | Description                   | Size (typical) | Example Values       |
-| ---------- | ----------------------------- | -------------- | -------------------- |
-| Integer    | Whole numbers                 | 2--8 bytes     | -32768, 0, 42, 32767 |
-| Float/Real | Numbers with fractional parts | 4--8 bytes     | 3.14, -0.5, 2.718    |
-| Boolean    | Logical values                | 1 byte         | True, False          |
-| Character  | A single symbol               | 1--4 bytes     | "A', '7', '$'        |
+description: ""A', '7', '$'        |
 | String     | Sequence of characters        | Variable       | "Hello World"        |
 | Date       | Calendar date                 | 4--8 bytes     | 2026-01-15           |
 

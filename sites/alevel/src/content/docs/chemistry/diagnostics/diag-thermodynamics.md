@@ -1,51 +1,6 @@
 ---
 title: "Thermodynamics and Energetics -- Diagnostic Tests"
-description: "A-Level Chemistry Thermodynamics and Energetics -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Thermodynamics and Energetics — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Born-Haber Cycle for an Ionic Compound
-
-**Question:**
-
-Construct a Born-Haber cycle for magnesium oxide ($\text{MgO}$) and calculate the lattice energy.
-Use the following data:
-
-| Quantity                                               | Value / $\text{kJ mol}^{-1}$ |
-| ------------------------------------------------------ | ---------------------------- |
-| Enthalpy of atomisation of Mg                          | $+148$                       |
-| Enthalpy of atomisation of O ($\frac{1}{2}\text{O}_2$) | $+249$                       |
-| First ionisation energy of Mg                          | $+738$                       |
-| Second ionisation energy of Mg                         | $+1451$                      |
-| First electron affinity of O                           | $-141$                       |
-| Second electron affinity of O                          | $+798$                       |
-| Standard enthalpy of formation of MgO                  | $-602$                       |
-
-**Solution:**
-
-Born-Haber cycle (all values in $\text{kJ mol}^{-1}$):
-
-$$\text{Mg}(s) + \tfrac{1}{2}\text{O}_2(g) \xrightarrow{\Delta H_f = -602} \text{Mg}^{2+}\text{O}^{2-}(s)$$
-
-Two routes from elements to ionic solid:
-
-**Route 1 (direct):** $\Delta H_f = -602$
-
-**Route 2 (indirect via gaseous ions):**
-
-1. Atomisation of Mg: $+148$
-2. Atomisation of $\frac{1}{2}\text{O}_2$: $+249$
-3. First ionisation of Mg: $+738$
-4. Second ionisation of Mg: $+1451$
-5. First electron affinity of O: $-141$
-6. Second electron affinity of O: $+798$
-7. Lattice energy (LE): $\Delta H_{\text{latt}}$
-
-By Hess"s law: Route 1 = Route 2
+description: ""s law: Route 1 = Route 2
 
 $$-602 = 148 + 249 + 738 + 1451 - 141 + 798 + \Delta H_{\text{latt}}$$
 

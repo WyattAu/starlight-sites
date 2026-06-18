@@ -2,37 +2,7 @@
 title: Chronicle of a Death Foretold
 tags:
   - english
-description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work..."
----
-
-## Author Context
-
-Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for
-Social justice and progressive change. Most of his work align with socialist ideology, emphasizing
-On dismantling of oppressive structures (e.g., patriarchy, class hierarchies), as well as the need
-For collective accountability.
-
-## Core Concepts
-
-### Fragmented Narrative
-
-Chronicle was written in non-linear structure, a blend of interviews and narrator memories. Marquez
-Attempt to highlight the unreliability of narrative and to an extent a postmodernism stance,
-Rejecting universal grand narratives (e.g., absolute truth, objectivity).
-
-### Magical Realism
-
-With prophetic dreams and the fantastical atmosphere, magical realism reflect the regulation of the
-Mundane by human believe.
-
-### Critique of Patriarchy and honor
-
-Marquez dissect the machismo and societal obsession with honor, through a post structuralist stance
-To examine how rigid social hierarchies enforce destructive behaviors.
-
-### Determinism
-
-The inevitability of Santiago"s death, shows a determinist worldview, where individual agency are
+description: ""s death, shows a determinist worldview, where individual agency are
 Constrained, expressing concerns on the lack of power against systemic forces (here being societal
 Norms and honor).
 

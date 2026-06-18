@@ -1,27 +1,6 @@
 ---
 title: Linked Lists, Stacks, and Queues
-description: "A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;..."
-
----
-
-## Singly Linked Lists
-
-A singly linked list is a sequence of nodes where each node contains a value and a reference to the
-Next node. The list is accessed through a head pointer; traversal requires following pointers from
-The head.
-
-```python
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-```
-
-### Insertion and Deletion
-
-```python
-def insert_at_head(head, val):
-    """Insert at the head of the list. O(1)."""
+description: """"Insert at the head of the list. O(1)."""
     return ListNode(val, head)
 
 def insert_at_tail(head, val):

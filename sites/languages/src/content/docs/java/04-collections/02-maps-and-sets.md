@@ -1,50 +1,6 @@
 ---
 title: Maps and Sets
-description: "maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can..."
-
----
-
-## The `Map` Interface
-
-`Map<K,V>` maps keys to values. It is not part of the `Collection` hierarchy — it models a
-Fundamentally different abstraction. Each key maps to at most one value, and each key can appear
-Only once.
-
-```java
-public interface Map<K, V> {
-    V put(K key, V value);
-    V get(Object key);
-    V remove(Object key);
-    boolean containsKey(Object key);
-    boolean containsValue(Object value);
-    int size();
-    boolean isEmpty();
-    Set<K> keySet();
-    Collection<V> values();
-    Set<Map.Entry<K, V>> entrySet();
-    void forEach(BiConsumer<? super K, ? super V> action);
-    V getOrDefault(Object key, V defaultValue);
-    V putIfAbsent(K key, V value);
-    boolean replace(K key, V oldValue, V newValue);
-    V replace(K key, V value);
-    V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction);
-    V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction);
-    V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction);
-    V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction);
-}
-```
-
-## Map Implementations
-
-### `HashMap`
-
-The default general-purpose map. Uses an array of buckets (linked lists, converted to balanced trees
-When a bucket exceeds 8 entries — JDK 8+). Provides O(1) average-case for `put``get``remove` And
-`containsKey`.
-
-```java
-Map<String, Integer> scores = new HashMap<>();
-scores.put("Alice", 95);
+description: ""Alice", 95);
 scores.put("Bob", 87);
 scores.put("Charlie", 92);
 

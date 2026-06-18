@@ -1,45 +1,6 @@
 ---
 title: "Atomic Structure -- Diagnostic Tests"
-description: "DSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
-tableOfContents: false
----
-
-# DSE Chemistry Diagnostic: Atomic Structure
-
-## Unit Test 1: Transition Metal Electron Configuration
-
-**Question**
-
-The element chromium (atomic number 24) has the electron configuration $[Ar]\,3d^{5}4s^{1}$ rather
-than $[Ar]\,3d^{4}4s^{2}$.
-
-(a) Explain why chromium adopts this configuration. [3 marks]
-
-(b) Write the electron configuration of $Cr^{3+}$. [1 mark]
-
-(c) A student claims that $Cr^{3+}$ has the same electron configuration as the scandium atom
-($Sc$, $Z = 21$). Determine whether this claim is correct, and explain your reasoning. [2 marks]
-
----
-
-**Worked Solution**
-
-(a) The half-filled $3d$ subshell ($3d^{5}$) and the singly-occupied $4s$ orbital provide extra
-stability due to **symmetrical electron distribution** and **exchange energy** (the energy lowering
-from parallel spins in degenerate orbitals). The energy gained from having five unpaired electrons
-with parallel spins in the $3d$ subshell outweighs the small energy difference between $3d$ and $4s$
-orbitals.
-
-(b) When forming $Cr^{3+}$Electrons are removed from the **$4s$ orbital first** (since $4s$ is at a
-higher energy than $3d$ once the atom is ionised), then from $3d$:
-
-$$Cr^{3+}: [Ar]\,3d^{3}$$
-
-(c) Scandium atom: $Sc = [Ar]\,3d^{1}4s^{2}$ (atomic number 21).
-
-$Cr^{3+} = [Ar]\,3d^{3}$.
-
-These are **not the same**. The student"s claim is incorrect. While both are $3d$ transition metal
+description: ""s claim is incorrect. While both are $3d$ transition metal
 species, $Cr^{3+}$ has three $3d$ electrons whereas $Sc$ has one $3d$ electron and two $4s$
 electrons.
 

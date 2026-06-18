@@ -3,57 +3,7 @@ title: Historical Investigation and Methodology
 tags:
   - IB
   - History
-description: "This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical..."
----
-
-# Historical Investigation and Methodology
-
-This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the
-Methodological foundations underlying all historical inquiry. It covers the structure and
-Requirements of the IA, source evaluation techniques (OPVL), research methods, historiographical
-Approaches, essay writing, and citation practices.
-
-For an overview of the IA structure within the broader IB History course, see [History](history.md).
-
----
-
-## 1. Nature of the Historical Investigation
-
-### 1.1 Overview
-
-The Historical Investigation is an independent research project worth 20% of the IB History grade at
-Both Standard Level (SL) and Higher Level (HL). It requires students to formulate a research
-Question, identify and evaluate sources, conduct a substantive investigation, and reflect on the
-Process. The total word limit is 2,200 words, distributed across three sections.
-
-### 1.2 Structure and Word Limits
-
-| Section                                  | Word Limit         | Content                                                                                              |
-| :--------------------------------------- | :----------------- | :--------------------------------------------------------------------------------------------------- |
-| Identification and Evaluation of Sources | Up to 500 words    | State the research question. Identify and evaluate two sources in detail using OPVL analysis.        |
-| Investigation                            | 1,300--1,600 words | The body of the essay. Present a well-argued, evidence-based investigation of the research question. |
-| Reflection                               | Up to 400 words    | Reflect on the methods used, challenges faced, and what you learned about the historical process.    |
-| Bibliography                             | Not counted        | List all sources used, formatted consistently (Chicago or MLA style).                                |
-
-### 1.3 Assessment Criteria
-
-The IA is assessed against four criteria, each worth a maximum of 6 marks (total 24 marks):
-
-| Criterion                                | Description                                                                                                  | Marks |
-| :--------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :---- |
-| Identification and Evaluation of Sources | The selection and critical evaluation of sources, demonstrating understanding of their value and limitations | 0--6  |
-| Investigation                            | The investigation, analysis, and use of sources to address the research question                             | 0--6  |
-| Reflection                               | A critical reflection on the process and what was learned                                                    | 0--6  |
-| Formal Requirements                      | Adherence to word limits, formatting, and bibliographic requirements                                         | 0--6  |
-
-A score of 15--16 out of 24 is a strong performance; 20+ is exceptional.
-
-### Common Pitfalls: IA Structure
-
-- **Exceeding the word limit.** The 2,200-word total is a maximum, not a target. Examiners are
-  instructed to read only up to the word limit and to disregard anything beyond it. If your
-  investigation section is 1,800 words, the examiner will read only the first 1,600.
-- **Confusing the sections.** The "Identification and Evaluation of Sources" section should evaluate
+description: ""Identification and Evaluation of Sources" section should evaluate
   two specific sources, not provide a general discussion of source types. The "Investigation"
   section should address the research question, not merely summarise sources. The "Reflection"
   should reflect on methodology, not restate conclusions.

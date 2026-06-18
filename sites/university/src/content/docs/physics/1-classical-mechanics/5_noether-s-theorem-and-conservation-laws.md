@@ -3,10 +3,7 @@ title: Noether's Theorem and Conservation Laws
 tags:
   - Physics
   - University
-description: "For every continuous symmetry of the action, there is a Corresponding conserved  Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 5.1 Statement of Noether"s Theorem
+description: ""s Theorem
 
 **Theorem 5.1 (Noether's Theorem).** For every continuous symmetry of the action, there is a
 Corresponding conserved quantity.

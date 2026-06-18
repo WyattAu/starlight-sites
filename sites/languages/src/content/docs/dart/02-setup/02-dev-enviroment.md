@@ -1,44 +1,6 @@
 ---
 title: Development Enviroment
-description: "Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is..."
-date: 2025-07-13T19:11:38.762Z
-tags:
-  - dart
-categories:
-  - dart
-
----
-
-## Virtual Devices
-
-Virtual devices can be created by opening the command-palette and selecting
-`Flutter: Select Device`And selecting `create android emulator`. However, the performance is not
-Accurate and convenience is limited, therefore I recommend using a
-[physical device](#physical-devices).
-
-## Physical Devices
-
-Android devices can be use for running builds by enabling `USB debugging` from
-`Android developer settings`This is done by:
-
-1. Open settings and navigate to About Phone
-2. Tab on the build number 7 times until a confirmation message appear
-3. Then enter Developer Options and enable `USB debugging`
-4. Plug the phone into the computer with USB connection
-
-Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
-Appear.
-
-:::caution
-
-If running `Flutter: Select Device` does not show your physical device, try revoking the USB
-Debugging and disconnect the device. Then reconnect the device and check remember device when
-Verifying.
-
-## Compiling and Running
-
-With everything setup and a `Flutter: new project` created, the code can now be compiled and ran
-With the device selected. Now clicking `F5` (VSCode"s debug mode) will run the command of
+description: ""s debug mode) will run the command of
 `flutter run --debug` and a counter app will be visible on your device. This is JIT compiled, and
 Can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
 Is a bit more complex, refer to
@@ -54,9 +16,7 @@ Truth for dependencies, metadata, and build configuration — similar to `packag
 
 ```yaml
 name: my_app
-description: "Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is..."
-version: 1.0.0
-publish_to: "none' # prevent accidental publish to pub.dev
+description: ""none' # prevent accidental publish to pub.dev
 
 environment:
   sdk: ">=3.0.0 <4.0.0'' # SDK version constraint

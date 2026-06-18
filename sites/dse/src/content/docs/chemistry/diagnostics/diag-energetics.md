@@ -1,12 +1,6 @@
 ---
 title: "Energetics / Thermochemistry -- Diagnostic Tests"
-description: "DSE Energetics / Thermochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# DSE Chemistry Diagnostic: Energetics / Thermochemistry
-
-## Unit Test 1: Hess"s Law Cycle Construction
+description: ""s Law Cycle Construction
 
 **Question**
 

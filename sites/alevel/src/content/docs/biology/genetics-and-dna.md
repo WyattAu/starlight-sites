@@ -1,26 +1,6 @@
 ---
 title: Genetics and DNA
-description: "Deoxyribonucleic acid (DNA) is a double-stranded polymer whose monomers are . Ea Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-04-18T00:00:00.000Z
-tags:
-  - Biology
-  - ALevel
-categories:
-  - Biology
-
----
-
-## Genetics and DNA
-
-> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
-## 1. DNA Structure and Replication
-
-### 1.1 The Structure of DNA
-
-Deoxyribonucleic acid (DNA) is a double-stranded polymer whose monomers are **nucleotides**. Each
-Nucleotide consists of:
-
-1. **Deoxyribose**: a pentose sugar with hydrogen at the $2"$ position (distinguishing it from
+description: ""$ position (distinguishing it from
    ribose, which has a hydroxyl group at $2'$).
 2. **Phosphate group**: linked to the $5'$ carbon of the sugar.
 3. **Nitrogenous base**: adenine (A), thymine (T), cytosine (C), or guanine (G).

@@ -1,40 +1,6 @@
 ---
 title: Particles and Waves
-description: "This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems."
-date: 2026-04-14
-tags:
-  - highers
-  - highers-physics
-categories:
-  - highers-physics
-
----
-
-# Particles and Waves
-
-:::info
-
-This chapter covers **Advanced Higher** Physics content, extending beyond Higher level.
-## Quantum Physics
-
-### Wave-Particle Duality
-
-Light and matter exhibit both wave-like and particle-like properties.
-
-**Photoelectric Effect:** When light of sufficient frequency shines on a metal surface, electrons
-Are emitted.
-
-- Electrons are emitted **instantaneously**, not after a delay
-- No electrons are emitted if the frequency is below the threshold frequency $f_0$Regardless of
-  intensity
-- The maximum kinetic energy of emitted electrons depends on frequency, not intensity
-- More intense light produces more electrons, not more energetic ones
-
-### Why the Photoelectric Effect Disproves the Wave Theory of Light
-
-Classical wave theory predicts that the energy of a light wave depends on its intensity (amplitude),
-Not its frequency. A sufficiently intense low-frequency light should eventually eject electrons.
-This does not happen. Einstein"s explanation -- that light consists of discrete photons with energy
+description: ""s explanation -- that light consists of discrete photons with energy
 $E = hf$ -- correctly predicts that the kinetic energy of emitted electrons depends on frequency,
 And that there is a threshold frequency below which no electrons are emitted regardless of
 Intensity. This was one of the key experiments that led to quantum mechanics.

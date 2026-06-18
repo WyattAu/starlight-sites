@@ -1,40 +1,6 @@
 ---
 title: Thread-Local Storage (TLS)
-description: "This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical..."
-date: 2026-04-03T00:00:00.000Z
-tags:
-  - Cpp
-categories:
-  - Cpp
-
----
-
-# Thread-Local Storage (TLS)
-
-This section covers the `thread_local` keyword, TLS implementation mechanisms, performance
-Characteristics, initialization guarantees, TLS in thread pools, and practical patterns such as
-Thread-local random number generators.
-
-## `thread_local` Keyword and Storage Duration
-
-The `thread_local` keyword [N4950 §6.7.3] specifies that a variable has **thread storage duration**:
-A new instance of the variable is created for each thread, and it is destroyed when the thread
-Exits. The variable is initialized before its first use in each thread.
-
-$$\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t$$
-
-Thread-local variables can be declared at namespace scope, at block scope, or as `static` class
-Members [N4950 §6.7.3]:
-
-```cpp
-#include <iostream>
-#include <thread>
-
-thread_local int thread_id_value = 0;
-
-void print_id() {
-    thread_id_value = 42;
-    std::cout << "thread_id_value = " << thread_id_value
+description: ""thread_id_value = " << thread_id_value
               << " (thread " << std::this_thread::get_id() << ")\n";
 }
 

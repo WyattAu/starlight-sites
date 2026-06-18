@@ -1,53 +1,6 @@
 ---
 title: "Market Failure -- Diagnostic Tests"
-description: "A-Level Economics Market Failure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Market Failure — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Negative Externality Diagram and Analysis
-
-**Question:** The market for steel has demand $P = 100 - Q$ and private supply $P = 20 + Q$. Steel
-production causes pollution with a marginal external cost of $\text{MEC} = 10 + 0.5Q$. Calculate:
-(a) the market equilibrium quantity and price, (b) the socially optimal quantity and price, (c) the
-deadweight loss of the externality. Explain how a Pigouvian tax could correct this market failure.
-
-**Solution:**
-
-(a) Market equilibrium (private costs only):
-$100 - Q = 20 + Q$$80 = 2Q$$Q_m = 40$$P_m = \pounds 60$.
-
-(b) Social optimum: Marginal Social Cost
-$= \text{MPC} + \text{MEC} = (20 + Q) + (10 + 0.5Q) = 30 + 1.5Q$.
-
-Set MSC $=$ MSB (demand):
-$30 + 1.5Q = 100 - Q$$70 = 2.5Q$$Q_{\text{opt}} = 28$$P_{\text{opt}} = 100 - 28 = \pounds 72$.
-
-(c) Deadweight loss:
-$\text{DWL} = \frac{1}{2} \times (Q_m - Q_{\text{opt}}) \times (\text{MSC at } Q_m - \text{MSB at } Q_m)$.
-
-MSC at $Q_m = 40$: $30 + 1.5(40) = 90$. MSB at $Q_m = 40$: $100 - 40 = 60$.
-
-$\text{DWL} = \frac{1}{2} \times (40 - 28) \times (90 - 60) = \frac{1}{2} \times 12 \times 30 = \pounds 180$.
-
-A Pigouvian tax equal to the MEC at the socially optimal output would internalise the externality:
-
-$\text{MEC at } Q_{\text{opt}} = 28$: $10 + 0.5(28) = \pounds 24$.
-
-A per-unit tax of $\pounds 24$ would shift the private supply curve up to:
-$P = (20 + 24) + Q = 44 + Q$.
-
-New equilibrium: $100 - Q = 44 + Q$$56 = 2Q$$Q = 28$$P = \pounds 72$. This matches the social
-optimum.
-
----
-
-### UT-2: Public Goods and Free-Rider Problem
-
-**Question:** A town of 1000 residents is considering building a public park. Each resident"s
+description: ""s
 individual demand for the park is $P = 10 - 0.01Q$Where $Q$ is the park size in hectares. The
 marginal cost of providing the park is $\text{MC} = 200 + 20Q$. Calculate the socially optimal park
 size. Explain why the private market would underprovide this good.

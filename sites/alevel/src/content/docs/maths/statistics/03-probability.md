@@ -1,31 +1,6 @@
 ---
 title: Probability
-description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------- | | AQA | Paper 1, 2 | Basic probability in P1;..."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - Maths
-  - ALevel
-categories:
-  - Maths
-
----
-
-## Board Coverage
-
-| Board      | Paper      | Notes                                             |
-| ---------- | ---------- | ------------------------------------------------- |
-| AQA        | Paper 1, 2 | Basic probability in P1; conditional, Bayes in P2 |
-| Edexcel    | P1, P2     | Similar                                           |
-| OCR (A)    | Paper 1, 2 | Includes Venn diagrams and tree diagrams          |
-| CIE (9709) | P1, P6     | Probability in P1; conditional in P6              |
-
-:::info Probability questions test logical reasoning as much as formula recall. Always define events
-and draw a diagram before calculating.
-:::
-
-<hr />
-
-## 1. Kolmogorov"s Axioms
+description: ""s Axioms
 
 **Definition.** A probability function $P$ on a sample space $\Omega$ satisfies:
 

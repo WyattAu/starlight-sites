@@ -1,18 +1,6 @@
 ---
 title: Natural Selection
-description: "1. Individuals in a population exhibit heritable variation. 2. Populations produce more offspring than the environment can support. 3. Individuals compete..."
-date: 2026-04-14
-tags:
-  - ap
-  - ap-biology
-categories:
-  - ap-biology
-
----
-
-## Evolution and Natural Selection (CED Units 6-8)
-
-### Darwin"s Theory of Natural Selection
+description: ""s Theory of Natural Selection
 
 1. **Variation:** Individuals in a population exhibit heritable variation.
 2. **Overproduction:** Populations produce more offspring than the environment can support.

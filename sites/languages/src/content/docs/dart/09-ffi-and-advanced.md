@@ -1,30 +1,6 @@
 ---
 title: FFI and Advanced Topics
-description: "Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
-date: 2026-04-07T00:00:00.000Z
-tags:
-  - Dart
-categories:
-  - Dart
-
----
-
-## Null Safety Deep Dive
-
-Dart 2.12 introduced sound null safety. This is not a nullable annotation system bolted onto an
-Existing type system. It is a fundamental rewrite of the type hierarchy: `Null` is a subtype of
-Every type, but only of nullable types. The compiler and runtime together guarantee that a
-Non-nullable variable never holds `null` at runtime. This guarantee is **sound** — it holds across
-Function boundaries, class hierarchies, generic instantiations, and asynchronous code paths.
-
-### Sound vs Unsounded Null Safety
-
-**Definition.** Soundness (in the type-theoretic sense) means: if the type checker accepts a
-Program, no runtime type error related to null dereference can occur. The guarantee is global — it
-Does not depend on the programmer annotating every variable correctly, because the type checker
-Enforces consistency at all boundaries.
-
-Unsound null safety (e.g., TypeScript"s `strictNullChecks`Kotlin's platform types at interop
+description: ""s `strictNullChecks`Kotlin's platform types at interop
 Boundaries) means the compiler can miss cases. A variable declared non-nullable might still be
 `null` at runtime due to unchecked casts, interop boundaries, or generics erasure. Dart's null
 Safety is sound because:

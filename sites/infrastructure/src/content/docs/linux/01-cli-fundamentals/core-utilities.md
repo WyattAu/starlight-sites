@@ -1,40 +1,6 @@
 ---
 title: Core Utilities
-description: "GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These..."
-
----
-
-## GNU Coreutils Overview
-
-GNU coreutils is the package that provides the fundamental file, shell, and text manipulation
-Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
-And extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
-
-- **File utilities**: `ls``cp``mv``rm``ln``chmod``chown``touch``mkdir``rmdir` `stat``du``df``sync`
-- **Text utilities**: `cat``head``tail``sort``uniq``tr``cut``paste``join``wc` `nl``fmt``fold``pr`
-- **Shell utilities**: `echo``printf``date``tee``basename``dirname``sleep``true`
-  `false``test``expr``yes``timeout`
-
-## Text Processing Pipeline Patterns
-
-The Unix philosophy of composing small, single-purpose tools into pipelines is the foundation of
-Linux systems administration. Understanding how to chain these tools effectively is a core
-Competency.
-
-### `grep` — Pattern Matching
-
-`grep` searches input lines for patterns matching a regular expression and prints matching lines.
-Three main variants exist:
-
-| Variant   | Regex Flavor | Description                         |
-| --------- | ------------ | ----------------------------------- |
-| `grep`    | BRE          | Basic Regular Expressions (default) |
-| `grep -E` | ERE          | Extended Regular Expressions        |
-| `grep -P` | PCRE         | Perl-Compatible Regular Expressions |
-
-```bash
-# Basic pattern matching
-grep "error" /var/log/syslog
+description: ""error" /var/log/syslog
 
 # Case-insensitive
 grep -i "warning" /var/log/syslog

@@ -1,27 +1,6 @@
 ---
 title: "Properties of Materials -- Diagnostic Tests"
-description: "A-Level Physics Properties of Materials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
-tableOfContents: false
----
-
-# Properties of Materials — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Stress-Strain Curve Analysis
-
-**Question:**
-
-A metal wire of length $2.00\,\text{m}$ and cross-sectional area $1.5 \times 10^{-6}\,\text{m}^2$ is
-tested under tension. The following data are obtained:
-
-| Stress / MPa       | 0   | 100  | 200  | 300  | 350  | 400  | 420  | 430  |
-| ------------------ | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| Strain / $10^{-3}$ | 0   | 0.50 | 1.00 | 1.50 | 1.80 | 2.30 | 3.00 | 4.50 |
-
-The wire breaks at a stress of $430\,\text{MPa}$.
-
-(a) Calculate Young"s modulus from the linear region of the graph.
+description: ""s modulus from the linear region of the graph.
 
 (b) Calculate the elastic potential energy stored in the wire at a stress of $300\,\text{MPa}$ using
 the stress-strain graph.

@@ -1,30 +1,6 @@
 ---
 title: Data and Databases
-description: "ILC Computer Science Data and Databases notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
-date: 2026-04-14
-tags:
-  - ilc
-  - ilc-computer-science
-categories:
-  - ilc-computer-science
-
----
-
-# Data and Databases
-
-This topic covers data representation, data types, database concepts, SQL, normalisation, and data
-Integrity.
-
-## Data Representation
-
-### Text Encoding (OL/HL)
-
-**ASCII:** 7-bit code, 128 characters (uppercase, lowercase, digits, symbols).
-
-**Unicode:** supports all world languages. UTF-8 is variable-length (1--4 bytes), backward
-Compatible with ASCII.
-
-**Example (OL):** The letter "A' in ASCII is $65_{10} = 01000001_2$.
+description: ""A' in ASCII is $65_{10} = 01000001_2$.
 
 **Worked Example (OL).** What is stored in binary for the word "Cat"?
 

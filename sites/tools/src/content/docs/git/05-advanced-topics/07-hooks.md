@@ -1,14 +1,6 @@
 ---
 title: Git Hooks
-description: "Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and..."
-
----
-
-## Hook Lifecycle
-
-Git hooks are scripts that Git executes automatically before or after specific events in the
-Repository lifecycle — commits, pushes, rebases, checkouts, and so on. They live at the boundary
-Between your workflow and Git"s internal state machine, and they are the primary mechanism for
+description: ""s internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
 ### When Hooks Run

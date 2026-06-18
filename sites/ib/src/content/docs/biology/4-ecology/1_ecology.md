@@ -1,56 +1,6 @@
 ---
 title: Ecology
-description: "IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification."
-date: 2024-01-01T00:00:00Z
-tags:
-  - ib
----
-
-## 1. Species, Communities, and Ecosystems
-
-### Species and Populations
-
-**Definition.** A **species** is a group of organisms that can interbreed and produce fertile
-Offspring under natural conditions (biological species concept).
-
-**Definition.** A **population** is a group of organisms of the same species living in the same area
-At the same time.
-
-**Definition.** A **community** is all the populations of different species living and interacting
-In a particular area.
-
-**Definition.** An **ecosystem** is a community of living organisms (biotic factors) interacting
-With the non-living environment (abiotic factors: temperature, water, light, soil pH, mineral
-Availability).
-
-### Autotrophs and Heterotrophs
-
-- **Autotrophs** (producers): organisms that synthesise organic compounds from inorganic sources.
-  Photoautotrophs (plants, algae, cyanobacteria) use light energy; chemoautotrophs (some bacteria)
-  use chemical energy.
-- **Heterotrophs** (consumers): organisms that obtain organic molecules by consuming other
-  organisms. Includes herbivores, carnivores, omnivores, and decomposers.
-- **Decomposers** (saprotrophs): bacteria and fungi that break down dead organic matter, releasing
-  inorganic nutrients back into the environment (mineralisation).
-
-### Trophic Levels and Food Chains
-
-A **food chain** represents the linear transfer of energy from producers through consumers.
-
-$$
-\mathrm{Producer} \to \mathrm{Primary Consumer} \to \mathrm{Secondary Consumer} \to \mathrm{Tertiary Consumer}
-$$
-
-A **food web** is a network of interconnected food chains, representing the complex feeding
-Relationships in an ecosystem.
-
-### Ecological Niches
-
-**Definition.** A **niche** is the role and position a species has in its environment: how it meets
-Its needs for food and shelter, how it survives, and how it reproduces. It includes all biotic and
-Abiotic interactions.
-
-The **competitive exclusion principle** (Gause"s principle) states that two species cannot coexist
+description: ""s principle) states that two species cannot coexist
 Permanently in the same niche: one will outcompete the other. Species that coexist must occupy
 Different niches (**resource partitioning**).
 

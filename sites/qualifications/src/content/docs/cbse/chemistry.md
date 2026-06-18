@@ -1,43 +1,7 @@
 ---
 title: CBSE Chemistry Study Guide
 date: 2026-05-31
-description: "Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
-tags:
-  - cbse
-  - chemistry
-categories:
-  - cbse
-
----
-
-## Overview
-
-This guide covers the **CBSE Class 11 and 12 Chemistry** syllabus (NCERT). It is divided into three
-branches — Physical, Inorganic, and Organic Chemistry — with key concepts, reactions, and
-exam-focused advice.
-
-The CBSE Class 12 Chemistry board exam carries **70 marks** (theory) + **30 marks** (practical). The
-theory paper is divided roughly into Physical Chemistry (23 marks), Inorganic Chemistry (19 marks),
-and Organic Chemistry (28 marks).
-
----
-
-## 1. Physical Chemistry
-
-### 1.1 Atomic Structure
-
-**Bohr model:** Electrons orbit in fixed energy levels. $E_n = -13.6/n^2\;\text{eV}$ (hydrogen).
-
-**Quantum numbers:**
-
-| Quantum number | Symbol | Values | Describes |
-| --- | --- | --- | --- |
-| Principal | $n$ | $1, 2, 3, \ldots$ | Energy level / shell |
-| Azimuthal | $l$ | $0, 1, \ldots, n-1$ | Subshell (s, p, d, f) |
-| Magnetic | $m_l$ | $-l, \ldots, 0, \ldots, l$ | Orbital orientation |
-| Spin | $m_s$ | $+1/2, -1/2$ | Electron spin |
-
-**Electronic configurations** follow the Aufbau principle, Hund"s rule, and Pauli exclusion principle.
+description: ""s rule, and Pauli exclusion principle.
 
 **Exceptions:** $\text{Cr} = [\text{Ar}]\,3d^5\,4s^1$; $\text{Cu} = [\text{Ar}]\,3d^{10}\,4s^1$ (half-filled and
 fully-filled $d$-subshells are more stable).

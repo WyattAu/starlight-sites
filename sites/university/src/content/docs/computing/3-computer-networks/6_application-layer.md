@@ -3,38 +3,7 @@ title: Application Layer
 tags:
   - Computing
   - University
-description: "DNS translates domain names to IP addresses. Hierarchical, distributed database. Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 6.1 DNS
-
-DNS translates domain names to IP addresses. Hierarchical, distributed database.
-
-**Domain hierarchy:** Root (`.`) $\to$ TLD (`com``org``net`) $\to$ second-level (`example.com`)
-$\to$ subdomain (`www.example.com`).
-
-**Record types:**
-
-| Type  | Name  | Purpose                                  |
-| ----- | ----- | ---------------------------------------- |
-| A     | IPv4  | IPv4 address                             |
-| AAAA  | IPv6  | IPv6 address                             |
-| CNAME | Alias | Alias to another name                    |
-| MX    | Mail  | Mail server for the domain               |
-| NS    | Name  | Authoritative name server                |
-| SOA   | Start | Zone administration info                 |
-| TXT   | Text  | Arbitrary text (SPF, DKIM, verification) |
-
-**Resolution process:**
-
-1. Client queries the **recursive resolver** (e.g., `8.8.8.8`).
-2. Resolver queries a **root server** for the TLD server.
-3. Root refers to the **TLD server** (e.g., for `.com`).
-4. TLD server refers to the **authoritative server** for the domain.
-5. Authoritative server returns the answer.
-6. Resolver caches the result with a TTL.
-
-**Iterative vs recursive resolution.** The client"s query to its configured resolver is
+description: ""s query to its configured resolver is
 **recursive** (the resolver does all the work). The resolver's queries to root, TLD, and
 authoritative servers Are **iterative** (each server refers the resolver to the next, or answers
 directly). This Distinction is important: the root and TLD servers are not burdened with recursion.

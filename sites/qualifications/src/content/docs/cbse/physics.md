@@ -1,31 +1,7 @@
 ---
 title: CBSE Physics Study Guide
 date: 2026-05-31
-description: "This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble"
-tags:
-  - cbse
-  - physics
-categories:
-  - cbse
-
----
-
-## Overview
-
-This guide covers the **CBSE Class 11 and 12 Physics** syllabus (NCERT). It is organised by topic
-with key concepts, equations, and exam-focused advice.
-
-The CBSE Class 12 Physics board exam carries **70 marks** (theory) + **30 marks** (practical). The
-theory paper includes MCQs, very-short-answer (1-mark), short-answer (2-3 marks), and long-answer
-(5-mark) questions. Numerical problems carry approximately 15--20 marks.
-
----
-
-## 1. Mechanics
-
-### 1.1 Laws of Motion
-
-**Newton"s Laws:**
+description: ""s Laws:**
 
 1. An object remains at rest or in uniform motion unless acted upon by a net external force.
 2. $\vec{F}_{\text{net}} = m\vec{a}$

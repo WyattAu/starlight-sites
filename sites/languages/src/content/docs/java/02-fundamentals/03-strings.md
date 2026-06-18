@@ -1,19 +1,6 @@
 ---
 title: Strings and Text Processing
-description: "is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in..."
-
----
-
-## The `String` Class
-
-`String` is the most used class in the Java platform. It is `final`Implements `Serializable`
-`Comparable<String>`And `CharSequence`And its instances are **immutable**. Every character in a
-`String` is stored internally as UTF-16 code units in a `byte[]` (since JDK 9, compact strings use
-`byte[]` with a coder flag for LATIN1 vs UTF-16).
-
-### Immutability
-
-Once constructed, a `String` object cannot be modified. Every "mutating" operation — `substring`
+description: ""mutating" operation — `substring`
 `concat``replace``toUpperCase``trim` — returns a **new** `String` object. The original remains
 Unchanged. This is not a suggestion; the `String` class has no public mutating methods, and the
 Backing `byte[]` (the `value` field) is private.

@@ -1,34 +1,6 @@
 ---
 title: Sorting Algorithms
-description: "Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems."
-date: 2025-06-02T16:25:28.480Z
-tags:
-  - ComputerScience
-  - ALevel
-categories:
-  - ComputerScience
-
----
-
-## 1. Introduction
-
-**The Sorting Problem:** Given an array $A[0..n-1]$Rearrange the elements into non-decreasing Order:
-$A[0] \leq A[1] \leq \cdots \leq A[n-1]$.
-
-**Stability:** A sort is **stable** if elements with equal keys maintain their relative order from
-The input. Stability matters when sorting by multiple keys (e.g., sort by surname, then by first
-Name).
-
-**In-place:** A sort is **in-place** if it uses $O(1)$ extra memory (excluding the input array).
-
-<hr />
-
-## 2. Bubble Sort
-
-### Algorithm
-
-Repeatedly step through the array, comparing adjacent pairs and swapping if they are in the wrong
-Order. After each pass, the largest unsorted element "bubbles up" to its correct position.
+description: ""bubbles up" to its correct position.
 
 ```python
 def bubble_sort(A):

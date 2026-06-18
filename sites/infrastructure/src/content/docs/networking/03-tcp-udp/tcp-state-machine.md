@@ -1,37 +1,6 @@
 ---
 title: TCP State Machine
-description: "The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of..."
-tags:
-  - Networking
-categories:
-  - Networking
----
-
-## Overview
-
-The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most
-Precisely specified protocol behaviors in all of networking. Every TCP endpoint transitions through
-Defined states as connections are established, used, and torn down. Understanding these states is
-Essential for troubleshooting connection issues, writing robust network software, and operating
-High-performance servers.
-
-This document maps every state, every transition, every edge case (simultaneous open, simultaneous
-Close, half-open connections), and provides practical guidance for diagnosing TCP state problems in
-Production.
-
-## The 11 TCP States
-
-TCP defines 11 states. An endpoint is always in exactly one of these states:
-
-| State       | Description                                          |
-| ----------- | ---------------------------------------------------- |
-| CLOSED      | No connection. Initial state.                        |
-| LISTEN      | Waiting for connection requests.                     |
-| SYN_SENT    | Sent SYN, waiting for response.                      |
-| SYN_RCVD    | Received SYN, sent SYN+ACK, waiting for ACK.         |
-| ESTABLISHED | Connection open. Data transfer in progress.          |
-| FIN_WAIT_1  | Initiated close, sent FIN, waiting for ACK or FIN.   |
-| FIN_WAIT_2  | Received ACK for our FIN, waiting for peer"s FIN.    |
+description: ""s FIN.    |
 | CLOSE_WAIT  | Received peer's FIN, waiting for local close.        |
 | LAST_ACK    | Sent our FIN after peer closed, waiting for ACK.     |
 | TIME_WAIT   | Waited for peer's ACK after our close. 2\*MSL timer. |

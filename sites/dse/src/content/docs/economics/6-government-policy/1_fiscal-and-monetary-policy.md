@@ -1,54 +1,6 @@
 ---
 title: Fiscal and Monetary Policy
-description: "Macroeconomic policy refers to government actions designed to influence the overall performance of The economy. The primary objectives are: "''
-date: 2026-04-08T00:00:00.000Z
-tags:
-  - DSE
-  - Economics
-categories:
-  - DSE
-  - Economics
-
----
-
-## Overview of Macroeconomic Policy
-
-Macroeconomic policy refers to government actions designed to influence the overall performance of
-The economy. The primary objectives are:
-
-1. **Economic growth:** Sustained increase in real GDP and living standards
-2. **Full employment:** Minimising cyclical unemployment (achieving the natural rate of
-   unemployment)
-3. **Price stability:** Keeping inflation low and stable ( targeting 2-3%)
-4. **Balance of payments stability:** Avoiding persistent, unsustainable current account deficits
-5. **Equitable income distribution:** Reducing excessive inequality
-
-The three main categories of macroeconomic policy are **fiscal policy** (government spending and
-Taxation), **monetary policy** (money supply and interest rates), and **supply-side policy**
-(improving the productive capacity of the economy).
-
-This file assumes familiarity with the monetary policy tools covered in
-[../8-money-and-banking/1_money-and-banking](../8-money-and-banking/1_money-and-banking) and the
-national income concepts covered in
-[../5-macroeconomic-indicators/1_national-income](../5-macroeconomic-indicators/1_national-income).
-
----
-
-## Fiscal Policy
-
-### Definition
-
-Fiscal policy is the use of government spending, taxation, and borrowing to influence the level of
-Aggregate demand, economic activity, and employment in the economy.
-
-### Government Spending
-
-Government spending falls into two categories:
-
-| Category            | Description                                                                                                                                       |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Current expenditure | Day-to-day spending on goods and services: public sector wages, healthcare, education, defence, welfare. Recurrent and predictable.               |
-| Capital expenditure | Investment in physical infrastructure: roads, bridges, public housing, airports, hospitals, schools. Increases the economy"s productive capacity. |
+description: ""s productive capacity. |
 
 Current expenditure directly affects aggregate demand in the short run. Capital expenditure affects
 Both aggregate demand (in the short run, through construction spending) and aggregate supply (in the

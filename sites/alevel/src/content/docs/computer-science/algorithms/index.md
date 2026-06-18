@@ -1,33 +1,6 @@
 ---
 title: Algorithms
-description: "A-Level Computer Science Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
----
-
-# Algorithms
-
-Algorithms are the core of computer science: well-defined, finite procedures that transform inputs
-into outputs. This section covers the design, analysis, and implementation of the algorithms you
-must understand for A-Level, including their time and space complexity.
-
-## Topics Covered
-
-### Searching Algorithms
-
-- **Linear search** — $O(n)$ sequential scan; when to use it (unsorted data, small datasets)
-- **Binary search** — $O(\log n)$ on sorted data; the divide-and-conquer paradigm
-- **Trace tables** — stepping through algorithm execution to verify correctness
-
-### Sorting Algorithms
-
-- **Bubble sort**, **insertion sort**, **merge sort**, **quick sort** — their mechanisms,
-  complexity, and stability
-- **Best-case, average-case, and worst-case** analysis using Big-O notation
-- **Comparison of sorting algorithms** — when each is appropriate
-
-### Graph Algorithms
-
-- **Depth-first search (DFS)** and **breadth-first search (BFS)** — traversal strategies
-- **Dijkstra"s shortest path** — weighted graph optimisation
+description: ""s shortest path** — weighted graph optimisation
 - **Representations** — adjacency matrix vs. adjacency list trade-offs
 
 ### Complexity Analysis

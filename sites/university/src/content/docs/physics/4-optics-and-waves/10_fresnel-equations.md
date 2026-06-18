@@ -3,31 +3,7 @@ title: Fresnel Equations
 tags:
   - Physics
   - University
-description: "When light strikes a planar interface between media with refractive indices and The Amplitudes of the reflected and transmitted waves depend on the..."
----
-
-### 10.1 Derivation at a Dielectric Interface
-
-When light strikes a planar interface between media with refractive indices $n_1$ and $n_2$The
-Amplitudes of the reflected and transmitted waves depend on the polarisation.
-
-For an incident wave with amplitude $E_i$The **reflection and transmission coefficients** are:
-
-**s-polarisation** (perpendicular to the plane of incidence):
-
-$$r_s = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta_t}, \quad t_s = \frac{2n_1\cos\theta_i}{n_1\cos\theta_i + n_2\cos\theta_t}$$
-
-**p-polarisation** (parallel to the plane of incidence):
-
-$$r_p = \frac{n_2\cos\theta_i - n_1\cos\theta_t}{n_2\cos\theta_i + n_1\cos\theta_t}, \quad t_p = \frac{2n_1\cos\theta_i}{n_2\cos\theta_i + n_1\cos\theta_t}$$
-
-**Reflectance and transmittance** (energy fractions):
-
-$$R = |r|^2, \quad T = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t|^2$$
-
-With $R + T = 1$ (energy conservation).
-
-### 10.2 Brewster"s Angle
+description: ""s Angle
 
 At the **Brewster angle** $\theta_B$The reflected beam for p-polarised light has zero amplitude:
 $r_p = 0$:

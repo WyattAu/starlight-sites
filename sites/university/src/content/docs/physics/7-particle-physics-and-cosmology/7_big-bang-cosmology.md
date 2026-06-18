@@ -3,19 +3,7 @@ title: Big Bang Cosmology
 tags:
   - Physics
   - University
-description: "The dynamics of a homogeneous, isotropic universe are described by the : Comprehensive educational content coverage with definitions and practice problems."
----
-
-### 7.1 The Friedmann Equations
-
-The dynamics of a homogeneous, isotropic universe are described by the
-**Friedmann-Lemaitre-Robertson-Walker (FLRW) metric**:
-
-$$ds^2 = -c^2 dt^2 + a(t)^2\left[\frac{dr^2}{1 - kr^2} + r^2(d\theta^2 + \sin^2\theta\,d\phi^2)\right]$$
-
-Where $a(t)$ is the scale factor and $k \in \{-1, 0, +1\}$ is the curvature parameter.
-
-The **Friedmann equation** (from Einstein"s equations with the FLRW metric):
+description: ""s equations with the FLRW metric):
 
 $$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}$$
 

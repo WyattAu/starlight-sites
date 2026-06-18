@@ -1,33 +1,6 @@
 ---
 title: Organisation
-description: "The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single..."
-date: 2026-04-14
-tags:
-  - gcse
-  - gcse-biology
-categories:
-  - gcse-biology
-
----
-
-## Organisation
-
-> **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway B2 | WJEC B2
-## 1. The Digestive System
-
-### 1.1 Overview
-
-The digestive system breaks down large, insoluble food molecules into small, soluble molecules that
-Can be absorbed into the blood. This is not a single process but a coordinated sequence of
-Mechanical and chemical events, each occurring in a specific region of the gut where conditions are
-Optimised for that step.
-
-**Organs of the digestive system:**
-
-Mouth $\to$ Oesophagus $\to$ Stomach $\to$ Small intestine $\to$ Large intestine $\to$ Rectum $\to$
-Anus
-
-Accessory organs: Liver, pancreas, salivary glands. These are called "accessory" because food does
+description: ""accessory" because food does
 Not pass through them directly; instead, they produce substances (bile, enzymes) that are delivered
 To the digestive tract via ducts.
 

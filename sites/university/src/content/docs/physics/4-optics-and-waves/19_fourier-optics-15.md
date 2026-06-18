@@ -3,15 +3,7 @@ title: Fourier Optics
 tags:
   - Physics
   - University
-description: "In the Fraunhofer (far-field) limit, the diffraction pattern of an aperture with transmission function is the Fourier transform: "''
----
-
-### 15.1 Fraunhofer Diffraction as a Fourier Transform
-
-In the Fraunhofer (far-field) limit, the diffraction pattern of an aperture with transmission
-function $t(x, y)$ is the Fourier transform:
-
-$$U(x", y") = \frac{e^{ikz}}{i\lambda z}\,e^{ik(x'^2 + y'^2)/(2z)}\iint t(x, y)\,e^{-ik(xx' + yy')/z}\,dx\,dy$$
+description: "", y") = \frac{e^{ikz}}{i\lambda z}\,e^{ik(x'^2 + y'^2)/(2z)}\iint t(x, y)\,e^{-ik(xx' + yy')/z}\,dx\,dy$$
 
 Where $(x', y')$ are coordinates in the observation plane at distance $z$ from the aperture.
 

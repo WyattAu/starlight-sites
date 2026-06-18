@@ -1,16 +1,6 @@
 ---
 title: "Complex Numbers -- Diagnostic Tests"
-description: "IB Maths Complex Numbers -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
-tableOfContents: false
----
-
-# Complex Numbers — Diagnostic Tests
-
-## Unit Tests
-
-> Tests edge cases, boundary conditions, and common misconceptions for complex numbers.
-
-### UT-1: De Moivre"s Theorem and Argument Branch Cuts
+description: ""s Theorem and Argument Branch Cuts
 
 **Question:**
 

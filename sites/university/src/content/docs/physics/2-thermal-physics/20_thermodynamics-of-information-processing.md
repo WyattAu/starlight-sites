@@ -3,24 +3,7 @@ title: Thermodynamics of Information Processing
 tags:
   - Physics
   - University
-description: "The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble"
----
-
-### 20.1 Landauer Bound in Practice
-
-The minimum energy dissipation per irreversible bit operation depends on the physical
-implementation:
-
-- **CMOS transistor** (2000s-era): $\sim 10^4\,k_BT$ per switch (vastly above the Landauer limit)
-- **Modern CMOS** (7 nm node): $\sim 10^2$--$10^3\,k_BT$ per switch
-- **Adiabatic / reversible logic proposals**: $\sim 1$--$10\,k_BT$ per operation (approaching the
-  limit)
-
-The gap between theory ($k_BT\ln 2 \approx 0.018$ eV at 300 K) and practice ($\sim 1$--$10$ fJ per
-switch) spans 5--6 orders of magnitude. Closing this gap requires fundamentally different computing
-paradigms.
-
-### 20.2 Bennett"s Clock and Reversible Computing
+description: ""s Clock and Reversible Computing
 
 Bennett (1982) showed that a computer can be made logically reversible at every step if it never
 erases information. Such a computer dissipates energy only during the initialisation of bits and

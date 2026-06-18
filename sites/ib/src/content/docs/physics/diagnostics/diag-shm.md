@@ -1,32 +1,6 @@
 ---
 title: "Simple Harmonic Motion -- Diagnostic Tests"
-description: "IB Physics Simple Harmonic Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
-tableOfContents: false
----
-
-# Simple Harmonic Motion — Diagnostic Tests
-
-## Unit Tests
-
-### UT-1: Verifying the SHM Condition
-
-**Question:**
-
-A particle of mass $m$ moves in one dimension. In each of the following cases, determine whether the
-motion is simple harmonic and justify your answer using the condition $a = -\omega^2 x$.
-
-(a) The restoring force is $F = -kx + bx^3$ where $k, b \gt 0$ and $b$ is small.
-
-(b) A simple pendulum of length $L$ oscillates with maximum angular displacement $\theta_{\max}$.
-
-(c) A U-tube manometer contains a liquid of total mass $m$ and density $\rho$. The liquid is
-displaced by $x$ from equilibrium in one arm. The cross-sectional area of each arm is $A$.
-
-**Solution:**
-
-(a) The restoring force is $F = -kx + bx^3$.
-
-Newton"s second law: $ma = -kx + bx^3$So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
+description: ""s second law: $ma = -kx + bx^3$So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
 
 This is **not** SHM because the acceleration is not proportional to displacement. The $bx^3$ term
 makes it anharmonic. The motion is approximately SHM only when $bx^3 \ll kx$I.e. $x \ll \sqrt{k/b}$

@@ -5,34 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History Cold War topic for Paper 2. It traces the development, escalation, and resolution of superpower rivalry between the..."
----
-
-# The Cold War (1945--1991)
-
-This document covers the IB History Cold War topic for Paper 2. It traces the development,
-escalation, and resolution of superpower rivalry between the United States and the Soviet Union,
-examining the major crises, periods of detente, and the eventual collapse of the Soviet bloc.
-Historiographical perspectives are integrated throughout to support high-scoring essay responses.
-
----
-
-## 1. Origins of the Cold War
-
-### 1.1 Yalta and Potsdam Conferences
-
-The wartime alliance between the USA, UK, and USSR began to fracture even before the defeat of Nazi
-Germany. The conferences at Yalta (February 1945) and Potsdam (July--August 1945) exposed
-fundamental differences between the Allies over the post-war settlement of Europe.
-
-**Yalta Conference (4--11 February 1945)**
-
-- Declaration on Liberated Europe: promised free elections in Eastern Europe
-- Division of Germany into four occupation zones (US, UK, France, USSR)
-- Soviet commitment to join the war against Japan within three months
-- Formation of the United Nations agreed
-- Stalin promised to allow free elections in Poland — a promise he later reneged on
-- The "percentages agreement" (Churchill--Stalin) divided spheres of influence in the Balkans
+description: ""percentages agreement" (Churchill--Stalin) divided spheres of influence in the Balkans
 
 **Potsdam Conference (17 July -- 2 August 1945)**
 

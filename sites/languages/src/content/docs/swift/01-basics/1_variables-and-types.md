@@ -1,25 +1,6 @@
 ---
 title: Variables and Types
-description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble"
-date: 2026-06-04T10:00:00.000Z
-tags:
-  - Swift
-categories:
-  - Swift
-
----
-
-## Variables and Constants
-
-Swift distinguishes between **variables** (mutable) and **constants** (immutable). Prefer `let` over
-`var` whenever the value does not need to change.
-
-```swift
-let maximumAttempts = 3        // Constant -- cannot be changed
-var currentAttempt = 0          // Variable -- can be modified
-currentAttempt += 1             // OK
-
-// maximumAttempts = 4           // Error: Cannot assign to "let' constant
+description: ""let' constant
 ```
 
 ### Naming Conventions

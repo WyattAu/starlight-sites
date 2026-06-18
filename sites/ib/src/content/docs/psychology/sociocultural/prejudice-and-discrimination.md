@@ -1,38 +1,6 @@
 ---
 title: Prejudice and Discrimination
-description: "Prejudice and discrimination are among the most consequential social phenomena studied by Psychologists. Prejudice refers to a negative attitude toward a..."
-
----
-
-## Introduction
-
-Prejudice and discrimination are among the most consequential social phenomena studied by
-Psychologists. Prejudice refers to a negative attitude toward a social group or its members, while
-Discrimination refers to negative behaviour directed toward a social group or its members.
-Understanding the origins, maintenance, and reduction of prejudice and discrimination is central to
-The sociocultural level of analysis.
-
-### Distinguishing Prejudice, Stereotyping, and Discrimination
-
-- **Stereotyping:** Cognitive component -- the belief that all members of a social group share
-  certain characteristics. Stereotypes are cognitive schemas that simplify social information
-  processing but can lead to inaccurate and unfair generalisations.
-- **Prejudice:** Affective component -- a negative emotional attitude toward a social group or its
-  members. Prejudice may be conscious (explicit) or unconscious (implicit).
-- **Discrimination:** Behavioural component -- unequal treatment of individuals based on their group
-  membership. Discrimination can range from subtle (microaggressions) to overt (violence, exclusion
-  from employment or housing).
-
-These three components are related but distinct. A person may hold stereotypes without feeling
-Prejudice (believing a stereotype but not endorsing it emotionally), feel prejudice without acting
-On it (holding negative attitudes but not discriminating), or discriminate without being consciously
-Prejudiced (acting on implicit biases).
-
-## Origins of Prejudice
-
-### Social Identity Theory
-
-As discussed in [Social Identity Theory](./social-identity-theory), Tajfel and Turner"s theory
+description: ""s theory
 Explains prejudice as a consequence of the need for positive social identity. People derive
 Self-esteem from their group memberships and maintain positive social identity by positively
 Differentiating their in-group from out-groups. This process leads to in-group favouritism and, in

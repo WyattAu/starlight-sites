@@ -1,31 +1,6 @@
 ---
 title: Number Theory
-description: "For any integers and with There exist unique Integers and such that with . Comprehensive educational content coverage with definitions and practice problems."
-date: 2026-04-24T00:00:00.000Z
-tags:
-  - Mathematics
-  - University
-categories:
-  - Mathematics
----
-
-## 1. Divisibility
-
-### 1.1 The Division Algorithm
-
-**Theorem 1.1 (Division Algorithm).** For any integers $a$ and $b$ with $b > 0$There exist unique
-Integers $q$ and $r$ such that $a = bq + r$ with $0 \leq r \lt b$.
-
-_Proof._ Consider the set $S = \\{a - bk : k \in \mathbb{Z},\ a - bk \geq 0\\}$. This set is
-non-empty (by the Archimedean property, choosing $k$ sufficiently negative). By the well-ordering
-principle, $S$ has a least element $r = a - bq$. If $r \geq b$Then $r - b = a - (q+1)b \in S$ with
-$r - b \lt r$Contradicting minimality. So $0 \leq r \lt b$. For uniqueness, if
-$a = bq_1 + r_1 = bq_2 + r_2$Then $b(q_1 - q_2) = r_2 - r_1$. Since $|r_2 - r_1| \lt b$We must Have
-$q_1 = q_2$ and $r_1 = r_2$. $\blacksquare$
-
-### 1.2 Divisibility
-
-We write $d \mid a$ (read "$d$ divides $a$") if there exists $k \in \mathbb{Z}$ with $a = dk$.
+description: ""$d$ divides $a$") if there exists $k \in \mathbb{Z}$ with $a = dk$.
 
 **Proposition 1.2.** For all $a, b, c \in \mathbb{Z}$:
 

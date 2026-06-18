@@ -3,26 +3,7 @@ title: Conservation Laws and Symmetries
 tags:
   - Physics
   - University
-description: "The following are conserved in all known interactions: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
----
-
-### 2.1 Exactly Conserved Quantities
-
-The following are conserved in all known interactions:
-
-- Energy $E$
-- Momentum $\mathbf{p}$
-- Angular momentum $\mathbf{L}$
-- Electric charge $Q$
-- Colour charge
-- Baryon number $B$ (each quark has $B = 1/3$)
-- Lepton family numbers $L_e$, $L_\mu$, $L_\tau$ (each lepton has $L = +1$Each antilepton $L = -1$)
-
-### 2.2 Approximate or Partially Conserved Quantities
-
-- **Isospin $I$:** Conserved in strong interactions, violated by electromagnetic and weak. $I_3$
-  determines the electric charge via the Gell-Mann--Nishijima formula.
-- **Strangeness $S$:** Conserved in strong and electromagnetic, violated by weak (hence "strange"
+description: ""strange"
   particles are produced in pairs but decay via weak interaction).
 - **Parity $P$:** Conserved in strong and electromagnetic, maximally violated in weak interactions.
 - **Charge conjugation $C$:** Conserved in strong and electromagnetic, violated in weak.
