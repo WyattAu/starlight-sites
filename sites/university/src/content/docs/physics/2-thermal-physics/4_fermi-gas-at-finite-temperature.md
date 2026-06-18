@@ -3,7 +3,7 @@ title: Fermi Gas at Finite Temperature
 tags:
   - Physics
   - University
-description: "the step functi Comprehensive educational content coverage with definitions and practice proble''
+description: "Fermi gas at finite temperature and the Sommerfeld expansion."
 ---
 
 ### 4.1 Sommerfeld Expansion

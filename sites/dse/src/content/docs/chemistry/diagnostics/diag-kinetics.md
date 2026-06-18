@@ -1,6 +1,6 @@
 ---
 title: "Chemical Kinetics -- Diagnostic Tests"
-description: "DSE Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+description: "DSE Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
 
