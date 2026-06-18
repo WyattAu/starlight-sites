@@ -1,6 +1,6 @@
 ---
 title: Trade and Aid
-description: "Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is Characterised by several patterns: "         '
+description: "Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is Characterised by several patterns: "          '
 
 ---
 
