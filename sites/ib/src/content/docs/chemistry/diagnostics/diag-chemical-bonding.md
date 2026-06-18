@@ -1,6 +1,6 @@
 ---
 title: "Chemical Bonding -- Diagnostic Tests"
-description: "IB Chemistry Chemical Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+description: "IB Chemistry Chemical Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
 

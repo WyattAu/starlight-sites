@@ -1,6 +1,6 @@
 ---
 title: Relational Theory
-description: "The model provides a mathematically''
+description: "The relational model provides a mathematically rigorous foundation for data management."
 tags:
   - Databases
 categories:

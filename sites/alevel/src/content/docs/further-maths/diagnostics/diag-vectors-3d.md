@@ -1,6 +1,6 @@
 ---
 title: "Vectors in 3D -- Diagnostic Tests"
-description: "A-Level Further Maths Vectors in 3D -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "A-Level Further Maths Vectors in 3D -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 
