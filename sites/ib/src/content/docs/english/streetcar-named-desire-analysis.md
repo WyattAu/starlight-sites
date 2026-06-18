@@ -3,7 +3,7 @@ title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
-description: "Tennessee Williams (1911--1983) stands alongside Eugene O"" Neill and Arthur Miller as one of the Three foundational figures of twentieth-century American"
+description: "Analysis of A Streetcar Named Desire by Tennessee Williams."
 ---
 
 # A Streetcar Named Desire: Close Reading and Analysis

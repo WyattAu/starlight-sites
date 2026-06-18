@@ -1,12 +1,11 @@
 ---
 title: Conan
-description: "is a decentralized, open-source package manager designed specifically for C++"" s complex Binary compatibility requirements. Unlike vcpkg, which defaults to a"
+description: "Conan C++ package manager for binary compatibility."
 date: 2025-12-11T05:01:52.356Z
 tags:
   - cpp
 categories:
   - cpp
-
 ---
 
 **Conan** is a decentralized, open-source package manager designed specifically for C++'s complex

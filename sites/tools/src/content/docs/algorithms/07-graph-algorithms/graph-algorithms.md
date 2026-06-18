@@ -1,7 +1,6 @@
 ---
 title: Graph Algorithms
-description: "Dijkstra"" s algorithm finds the shortest path from a single source to all other vertices in a graph With non-negative edge weights. It uses a greedy"
-
+description: "Graph algorithms including shortest paths and minimum spanning trees."
 ---
 
 ## Shortest Paths
