@@ -1,6 +1,6 @@
 ---
 title: Correlation and Regression (Extended)
-description: "This document covers scatter diagrams, the product moment correlation coefficient, Spearman''s rank Correlation, least squares regression, and residual analy"
+description: "This document covers scatter diagrams, the product moment correlation coefficient, Spearman'" s rank Correlation, least squares regression, and residual analy"
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

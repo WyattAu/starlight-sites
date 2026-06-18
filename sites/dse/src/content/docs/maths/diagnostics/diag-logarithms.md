@@ -1,6 +1,6 @@
 ---
 title: "Logarithms -- Diagnostic Tests"
-description: "DSE Maths Logarithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
+description: "DSE Maths Logarithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false
 ---
 

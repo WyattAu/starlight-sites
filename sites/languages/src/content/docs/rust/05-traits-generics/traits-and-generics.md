@@ -1,6 +1,6 @@
 ---
 title: Traits and Generics
-description: "Traits are Rust''s answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are"
+description: "Traits are Rust'" s answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Nuclear Physics -- Diagnostic Tests"
-description: "DSE Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+description: "DSE Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---
 

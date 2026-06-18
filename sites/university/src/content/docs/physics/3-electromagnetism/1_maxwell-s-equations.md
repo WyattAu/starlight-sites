@@ -3,7 +3,7 @@ title: Maxwell's Equations
 tags:
   - Physics
   - University
-description: "Maxwell''s equations are the foundation of classical electromagnetism. In SI unit Comprehensive educational content coverage with definitions and practice pr"
+description: "Maxwell'" s equations are the foundation of classical electromagnetism. In SI unit Comprehensive educational content coverage with definitions and practice pr"
 ---
 
 ### 1.1 The Four Equations

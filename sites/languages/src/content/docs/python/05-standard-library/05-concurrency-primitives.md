@@ -1,6 +1,6 @@
 ---
 title: Concurrency Primitives
-description: "The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform''s native threading implementation (pthreads on"
+description: "The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform'" s native threading implementation (pthreads on"
 
 ---
 

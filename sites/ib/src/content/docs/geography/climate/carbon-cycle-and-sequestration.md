@@ -1,6 +1,6 @@
 ---
 title: Carbon Cycle and Sequestration
-description: "The carbon cycle describes the continuous exchange of carbon between Earth''s atmosphere, biosphere, Hydrosphere, lithosphere, and anthroposphere. Carbon"
+description: "The carbon cycle describes the continuous exchange of carbon between Earth'" s atmosphere, biosphere, Hydrosphere, lithosphere, and anthroposphere. Carbon"
 
 ---
 

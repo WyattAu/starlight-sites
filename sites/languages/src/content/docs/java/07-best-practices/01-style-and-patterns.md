@@ -1,7 +1,7 @@
 ---
 title: Style and Patterns
 description: "java']
-categories: ['java']
+categories: ['java" ]
 
 ---
 

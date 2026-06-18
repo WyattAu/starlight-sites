@@ -1,6 +1,6 @@
 ---
 title: Fiscal and Monetary Policy
-description: "Macroeconomic policy refers to government actions designed to influence the overall performance of The economy. The primary objectives are: "      '
+description: "Macroeconomic policy refers to government actions designed to influence the overall performance of The economy. The primary objectives are: "       '
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

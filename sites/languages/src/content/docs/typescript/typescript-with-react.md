@@ -1,6 +1,6 @@
 ---
 title: TypeScript with React
-description: "Function components are typed by annotating their props parameter. The return type is inferred by React''s type system and should not be annotated explicitly."
+description: "Function components are typed by annotating their props parameter. The return type is inferred by React'" s type system and should not be annotated explicitly."
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

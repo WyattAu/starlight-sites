@@ -1,7 +1,7 @@
 ---
 title: Virtual Threads and Structured Concurrency
 description: "java']
-categories: ['java']
+categories: ['java" ]
 
 ---
 

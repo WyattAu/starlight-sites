@@ -1,6 +1,6 @@
 ---
 title: Standard Library I/O
-description: "The package defines the fundamental I/O interfaces that permeate Go''s standard l Comprehensive educational content coverage with definitions and practice pr"
+description: "The package defines the fundamental I/O interfaces that permeate Go'" s standard l Comprehensive educational content coverage with definitions and practice pr"
 date: 2026-04-18
 tags:
   - Go

@@ -1,6 +1,6 @@
 ---
 title: Barriers to Growth
-description: "refers to a condition where individuals cannot afford basic necessities (food, Shelter, clean water). The World Bank''s international poverty line was per"
+description: "refers to a condition where individuals cannot afford basic necessities (food, Shelter, clean water). The World Bank'" s international poverty line was per"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: "Go''s error handling is convention-based. The interface has a single method: Comprehensive educational content coverage with definitions and practice problems."
+description: "Go'" s error handling is convention-based. The interface has a single method: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18
 tags:
   - Go
