@@ -3,7 +3,7 @@ title: Precision Tests of the Standard Model
 tags:
   - Physics
   - University
-description: "The anomalous magnetic moment of the electron and muon: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "The anomalous magnetic moment of the electron and muon: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 13.1 The $g$-2 Anomaly

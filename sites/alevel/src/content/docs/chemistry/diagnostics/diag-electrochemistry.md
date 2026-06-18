@@ -1,5 +1,5 @@
 ---
-title: "Electrochemistry -- Diagnostic Tests''
+title: "Electrochemistry -- Diagnostic Tests"
 description: "A-Level Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---

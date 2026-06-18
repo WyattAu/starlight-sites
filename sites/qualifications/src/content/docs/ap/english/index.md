@@ -1,6 +1,6 @@
 ---
 title: AP English Language
-description: "Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description.''
+description: "Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description."
 date: 2026-04-14
 tags:
   - ap

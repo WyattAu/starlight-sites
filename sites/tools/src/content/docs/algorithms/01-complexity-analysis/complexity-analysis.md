@@ -1,6 +1,6 @@
 ---
 title: Complexity Analysis
-description: "A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per...''
+description: "A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per..."
 
 ---
 

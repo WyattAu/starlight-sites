@@ -1,5 +1,5 @@
 ---
-title: "Market Structure and Theory of the Firm -- Diagnostic Tests''
+title: "Market Structure and Theory of the Firm -- Diagnostic Tests"
 description: "DSE Economics Market Structure and Theory of the Firm -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

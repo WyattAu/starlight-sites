@@ -3,7 +3,7 @@ title: Contemporary Urban Environments
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: "A-Level Geography Contemporary Urban Environments notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.''
+description: "A-Level Geography Contemporary Urban Environments notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 ---
 
 # Contemporary Urban Environments

@@ -1,6 +1,6 @@
 ---
 title: Advanced SQL
-description: "Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision.''
+description: "Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision."
 
 ---
 

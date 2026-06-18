@@ -1,6 +1,6 @@
 ---
 title: Cargo and Ecosystem
-description: "is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble''
+description: "is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

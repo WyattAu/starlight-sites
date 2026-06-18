@@ -1,5 +1,5 @@
 ---
-title: "Refraction and Total Internal Reflection -- Diagnostic Tests''
+title: "Refraction and Total Internal Reflection -- Diagnostic Tests"
 description: "A-Level Physics Refraction and Total Internal Reflection -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

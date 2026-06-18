@@ -1,6 +1,6 @@
 ---
 title: Classes and Structs
-description: "Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble''
+description: "Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift

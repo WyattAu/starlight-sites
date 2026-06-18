@@ -1,6 +1,6 @@
 ---
 title: Arrays and Strings
-description: "An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This...''
+description: "An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This..."
 
 ---
 

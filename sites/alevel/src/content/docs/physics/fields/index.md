@@ -1,6 +1,6 @@
 ---
 title: Fields
-description: "A-Level Physics Fields notes covering key definitions, core concepts, worked examples, and practice questions for detailed learning and effective revision.''
+description: "A-Level Physics Fields notes covering key definitions, core concepts, worked examples, and practice questions for detailed learning and effective revision."
 ---
 
 # Fields

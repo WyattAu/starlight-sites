@@ -1,6 +1,6 @@
 ---
 title: Cherry-Pick
-description: "applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That...''
+description: "applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That..."
 
 ---
 

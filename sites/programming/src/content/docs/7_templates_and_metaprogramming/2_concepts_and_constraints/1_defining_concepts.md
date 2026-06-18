@@ -1,6 +1,6 @@
 ---
 title: Defining Concepts and Requires Clauses
-description: "C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a...''
+description: "C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

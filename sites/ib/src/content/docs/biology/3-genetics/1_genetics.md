@@ -1,6 +1,6 @@
 ---
 title: Genetics
-description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification.''
+description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

@@ -1,6 +1,6 @@
 ---
 title: Thermodynamics and Statistical Mechanics
-description: "If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with .''
+description: "If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with ."
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Physics

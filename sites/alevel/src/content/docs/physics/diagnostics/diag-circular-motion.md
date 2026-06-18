@@ -1,5 +1,5 @@
 ---
-title: "Circular Motion -- Diagnostic Tests''
+title: "Circular Motion -- Diagnostic Tests"
 description: "A-Level Physics Circular Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---

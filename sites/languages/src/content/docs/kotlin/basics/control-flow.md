@@ -1,6 +1,6 @@
 ---
 title: Control Flow
-description: "In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble''
+description: "In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
 tags:
   - Kotlin

@@ -1,5 +1,5 @@
 ---
-title: "Hypothesis Testing -- Diagnostic Tests''
+title: "Hypothesis Testing -- Diagnostic Tests"
 description: "A-Level Maths Hypothesis Testing -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "DC Circuits -- Diagnostic Tests''
+title: "DC Circuits -- Diagnostic Tests"
 description: "A-Level Physics DC Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---

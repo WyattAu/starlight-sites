@@ -1,6 +1,6 @@
 ---
 title: DSE Economics
-description: "DSE Economics notes covering key definitions, core concepts, worked examples, and practice questions for in-depth study and examination practice.''
+description: "DSE Economics notes covering key definitions, core concepts, worked examples, and practice questions for in-depth study and examination practice."
 tableOfContents: false
 ---
 

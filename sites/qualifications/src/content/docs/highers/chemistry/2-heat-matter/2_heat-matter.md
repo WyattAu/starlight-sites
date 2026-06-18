@@ -1,6 +1,6 @@
 ---
 title: Energy and Matter
-description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
+description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-14
 tags:
   - highers

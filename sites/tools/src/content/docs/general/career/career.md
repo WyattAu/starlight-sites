@@ -1,6 +1,6 @@
 ---
 title: Systems Engineering Career
-description: "General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.''
+description: "General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 
 ---
 

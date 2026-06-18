@@ -3,7 +3,7 @@ title: Defects in Crystals
 tags:
   - Physics
   - University
-description: '- Missing atom at a lattice site. - Extra atom between lattice sites. - Foreign atom replacing a host atom. - Vacancy-interstitial pair (atom moves to...'
+description: "- Missing atom at a lattice site. - Extra atom between lattice sites. - Foreign atom replacing a host atom. - Vacancy-interstitial pair (atom moves to"
 ---
 
 ### 9.1 Point Defects

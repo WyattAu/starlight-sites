@@ -1,6 +1,6 @@
 ---
 title: Stream Buffers and Locale Facets
-description: "The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform formatting and parsing, then delegate actual character transfer...''
+description: "The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform formatting and parsing, then delegate actual character transfer..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -1,5 +1,5 @@
 ---
-title: "Paper 2 -- Statistics -- Full Diagnostic Exam''
+title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
 description: "Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---

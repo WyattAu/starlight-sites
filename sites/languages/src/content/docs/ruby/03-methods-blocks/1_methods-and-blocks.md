@@ -1,6 +1,6 @@
 ---
 title: Methods and Blocks
-description: "Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

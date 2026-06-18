@@ -1,5 +1,5 @@
 ---
-title: "Mechanics -- Diagnostic Tests''
+title: "Mechanics -- Diagnostic Tests"
 description: "Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---

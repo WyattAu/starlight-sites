@@ -1,6 +1,6 @@
 ---
 title: Admissions Tests
-description: 'Many competitive university programmes require applicants to sit specialised admissions tests as part of the selection process. These examinations assess...'
+description: "Many competitive university programmes require applicants to sit specialised admissions tests as part of the selection process. These examinations assess"
 ---
 
 # Admissions Tests

@@ -1,5 +1,5 @@
 ---
-title: "Statistics -- Diagnostic Tests''
+title: "Statistics -- Diagnostic Tests"
 description: "The grouped frequency table shows the marks of 60 students in a maths test: Comprehensive educational content coverage with definitions and practice problems.'
 tableOfContents: false
 ---

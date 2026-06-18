@@ -1,6 +1,6 @@
 ---
 title: Linear Algebra
-description: "Before studying linear algebra, the reader should be familiar with: Comprehensive educational content coverage with definitions and practice problems.''
+description: "Before studying linear algebra, the reader should be familiar with: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

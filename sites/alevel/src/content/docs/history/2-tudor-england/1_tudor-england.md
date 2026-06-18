@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History Tudor England 1485-1603 notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.''
+description: "A-Level History Tudor England 1485-1603 notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 ---
 
 # Tudor England 1485-1603

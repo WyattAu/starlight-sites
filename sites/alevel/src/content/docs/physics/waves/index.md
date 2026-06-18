@@ -1,6 +1,6 @@
 ---
 title: Waves
-description: "A-Level Physics Waves notes covering key definitions, core concepts, worked examples, and practice questions for complete exam preparation and revision.''
+description: "A-Level Physics Waves notes covering key definitions, core concepts, worked examples, and practice questions for complete exam preparation and revision."
 ---
 
 # Waves

@@ -1,6 +1,6 @@
 ---
 title: Human Body Systems
-description: "ILC Biology Human Body Systems notes covering key definitions, core concepts, worked examples, and practice questions for thorough review and exam preparation.''
+description: "ILC Biology Human Body Systems notes covering key definitions, core concepts, worked examples, and practice questions for thorough review and exam preparation."
 date: 2026-04-14
 tags:
   - ilc

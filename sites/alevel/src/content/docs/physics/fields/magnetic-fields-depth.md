@@ -1,6 +1,6 @@
 ---
 title: Magnetic Fields
-description: "The magnetic flux density (also called the magnetic field strength in the context Of force calculations) is defined by the force on a current-carrying...''
+description: "The magnetic flux density (also called the magnetic field strength in the context Of force calculations) is defined by the force on a current-carrying..."
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]

@@ -1,6 +1,6 @@
 ---
 title: Coordinate Geometry
-description: "Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-18T00:00:00.000Z
 tags:
   - DSE

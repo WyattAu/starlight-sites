@@ -1,5 +1,5 @@
 ---
-title: "Bonding -- Diagnostic Tests''
+title: "Bonding -- Diagnostic Tests"
 description: "DSE Chemistry Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
 tableOfContents: false
 ---

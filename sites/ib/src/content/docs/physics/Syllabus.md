@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-description: "Syllabus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Syllabus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### IB Physics HL Syllabus Overview

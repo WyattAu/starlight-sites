@@ -1,6 +1,6 @@
 ---
 title: Climate Adaptation and Mitigation
-description: "refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation...''
+description: "refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation..."
 
 ---
 

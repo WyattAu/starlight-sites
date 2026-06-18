@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: "(Photoelectric effect) A sodium surface has work function eV. When illuminated With light of wavelength nm, find (a) the maximum kinetic energy of emitted...''
+description: "(Photoelectric effect) A sodium surface has work function eV. When illuminated With light of wavelength nm, find (a) the maximum kinetic energy of emitted..."
 ---
 
 ### Problems

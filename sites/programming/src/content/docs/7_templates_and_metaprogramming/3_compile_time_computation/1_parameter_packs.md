@@ -1,6 +1,6 @@
 ---
 title: Parameter Packs and Variadic Templates
-description: "A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter...''
+description: "A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

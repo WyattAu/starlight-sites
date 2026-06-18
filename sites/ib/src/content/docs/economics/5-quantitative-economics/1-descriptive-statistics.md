@@ -1,6 +1,6 @@
 ---
 title: Descriptive Statistics
-description: "are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes.''
+description: "are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

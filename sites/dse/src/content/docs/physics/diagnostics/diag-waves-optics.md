@@ -1,5 +1,5 @@
 ---
-title: "Waves and Optics -- Diagnostic Tests''
+title: "Waves and Optics -- Diagnostic Tests"
 description: "DSE Physics Waves and Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

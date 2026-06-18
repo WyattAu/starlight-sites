@@ -1,6 +1,6 @@
 ---
 title: Security Fundamentals
-description: "The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three...''
+description: "The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three..."
 
 ---
 

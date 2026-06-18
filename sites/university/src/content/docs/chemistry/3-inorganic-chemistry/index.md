@@ -1,6 +1,6 @@
 ---
 title: Inorganic Chemistry
-description: 'Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that...'
+description: "Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that"
 ---
 
 # Inorganic Chemistry

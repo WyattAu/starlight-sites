@@ -1,6 +1,6 @@
 ---
 title: Iterator Categories, Traversal, and Invalidation
-description: "Iterators are the glue between containers and algorithms in the C++ standard library. Understanding Iterator categories is essential for knowing which...''
+description: "Iterators are the glue between containers and algorithms in the C++ standard library. Understanding Iterator categories is essential for knowing which..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

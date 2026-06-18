@@ -1,6 +1,6 @@
 ---
 title: Thermal Physics
-description: "A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision.''
+description: "A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision."
 ---
 
 # Thermal Physics

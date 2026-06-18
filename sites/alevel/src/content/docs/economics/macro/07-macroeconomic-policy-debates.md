@@ -1,6 +1,6 @@
 ---
 title: Macroeconomic Policy Debates
-description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring...''
+description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

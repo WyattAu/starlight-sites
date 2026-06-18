@@ -1,5 +1,5 @@
 ---
-title: "Kinematics -- Diagnostic Tests''
+title: "Kinematics -- Diagnostic Tests"
 description: "IB Physics Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---

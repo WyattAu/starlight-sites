@@ -1,6 +1,6 @@
 ---
 title: Aggregate Demand and Aggregate Supply
-description: "We define as the total planned expenditure on goods and services in an Economy a Comprehensive educational content coverage with definitions and practice proble''
+description: "We define as the total planned expenditure on goods and services in an Economy a Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

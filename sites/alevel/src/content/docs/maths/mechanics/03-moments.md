@@ -1,6 +1,6 @@
 ---
 title: Moments
-description: "| Board | Paper | Notes | | ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |...''
+description: "| Board | Paper | Notes | | ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

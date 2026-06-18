@@ -3,7 +3,7 @@ title: Inner Product Spaces and Hilbert Spaces
 tags:
   - Mathematics
   - University
-description: "An is a vector space with an inner product Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "An is a vector space with an inner product Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 2.1 Inner Product Spaces

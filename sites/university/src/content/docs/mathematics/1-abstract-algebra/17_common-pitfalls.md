@@ -3,7 +3,7 @@ title: Common Pitfalls
 tags:
   - Mathematics
   - University
-description: "only ideal containing ). This is a common source of confusion when checking whet Comprehensive educational content coverage with definitions and practice proble''
+description: "only ideal containing ). This is a common source of confusion when checking whet Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 :::caution Common Pitfall Not every subgroup is normal. For example,

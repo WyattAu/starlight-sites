@@ -1,6 +1,6 @@
 ---
 title: Differential Geometry
-description: "Topics in differential geometry including manifolds, tangent spaces, differential forms, Riemannian geometry, and curvature.''
+description: "Topics in differential geometry including manifolds, tangent spaces, differential forms, Riemannian geometry, and curvature."
 tags:
   - Mathematics
   - University

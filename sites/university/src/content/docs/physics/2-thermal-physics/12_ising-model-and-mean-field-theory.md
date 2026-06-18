@@ -3,7 +3,7 @@ title: Ising Model and Mean-Field Theory
 tags:
   - Physics
   - University
-description: "The Ising model is the simplest model of interacting spins on a lattice. Each si Comprehensive educational content coverage with definitions and practice proble''
+description: "The Ising model is the simplest model of interacting spins on a lattice. Each si Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 12.1 The Ising Model

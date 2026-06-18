@@ -1,6 +1,6 @@
 ---
 title: AP US History
-description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description.''
+description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description."
 date: 2026-04-14
 tags:
   - ap

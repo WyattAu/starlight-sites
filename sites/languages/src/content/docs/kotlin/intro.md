@@ -1,6 +1,6 @@
 ---
 title: Introduction to Kotlin
-description: "Kotlin Introduction to Kotlin notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.''
+description: "Kotlin Introduction to Kotlin notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-04-18
 tags:
   - Kotlin

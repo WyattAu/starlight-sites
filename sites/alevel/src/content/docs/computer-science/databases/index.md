@@ -1,6 +1,6 @@
 ---
 title: Databases
-description: "A-Level Computer Science Databases notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.''
+description: "A-Level Computer Science Databases notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 ---
 
 # Databases

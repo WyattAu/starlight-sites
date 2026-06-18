@@ -1,5 +1,5 @@
 ---
-title: "Quadratics -- Diagnostic Tests''
+title: "Quadratics -- Diagnostic Tests"
 description: "A-Level Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tableOfContents: false
 ---

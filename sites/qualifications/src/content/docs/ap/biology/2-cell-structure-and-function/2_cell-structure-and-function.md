@@ -1,6 +1,6 @@
 ---
 title: Cell Structure and Function
-description: "Qualifications Biology Cell Structure and Function notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
+description: "Qualifications Biology Cell Structure and Function notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14
 tags:
   - ap

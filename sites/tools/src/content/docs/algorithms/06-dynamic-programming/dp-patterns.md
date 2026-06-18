@@ -1,6 +1,6 @@
 ---
 title: Dynamic Programming Patterns
-description: "Recognising which DP pattern applies to a problem is the key skill. This section Comprehensive educational content coverage with definitions and practice proble''
+description: "Recognising which DP pattern applies to a problem is the key skill. This section Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

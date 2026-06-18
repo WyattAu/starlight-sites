@@ -1,6 +1,6 @@
 ---
 title: Developmental Psychology
-description: "This section covers developmental psychology, examining how behaviour changes across the lifespan with a focus on attachment, cognitive development, and...''
+description: "This section covers developmental psychology, examining how behaviour changes across the lifespan with a focus on attachment, cognitive development, and..."
 
 ---
 

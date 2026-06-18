@@ -1,6 +1,6 @@
 ---
 title: Chemical Reactions and Bonding
-description: "Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
+description: "Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
 tags:
   - highers

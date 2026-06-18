@@ -1,6 +1,6 @@
 ---
 title: Introduction to Haskell
-description: "Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional...''
+description: "Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional..."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

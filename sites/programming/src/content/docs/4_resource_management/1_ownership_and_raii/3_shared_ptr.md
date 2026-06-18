@@ -1,6 +1,6 @@
 ---
 title: Shared Ownership (std::shared_ptr) and Control Block
-description: "enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —...''
+description: "enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

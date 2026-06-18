@@ -1,6 +1,6 @@
 ---
 title: Linked Lists
-description: "A is a linear data structure where each element (called a ) contains data And a reference (pointer) to the next node. Unlike arrays, elements are stored...''
+description: "A is a linear data structure where each element (called a ) contains data And a reference (pointer) to the next node. Unlike arrays, elements are stored..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

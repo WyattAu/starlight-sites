@@ -1,6 +1,6 @@
 ---
 title: Acids, Bases and Salt Preparation
-description: 'This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods Of salt preparation. It is essential for both Ordinary...'
+description: "This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods Of salt preparation. It is essential for both Ordinary"
 date: 2026-04-14
 tags:
   - ilc

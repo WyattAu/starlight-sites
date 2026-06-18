@@ -3,7 +3,7 @@ title: Phase Transitions
 tags:
   - Physics
   - University
-description: 'A is a discontinuity in a thermodynamic quantity or its derivative as a function of a state variable. Phase transitions are classified by Ehrenfest...'
+description: "A is a discontinuity in a thermodynamic quantity or its derivative as a function of a state variable. Phase transitions are classified by Ehrenfest"
 ---
 
 A **phase transition** is a discontinuity in a thermodynamic quantity or its derivative as a

@@ -1,6 +1,6 @@
 ---
 title: Cell Biology
-description: "All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow...''
+description: "All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow..."
 date: 2026-04-14
 tags:
   - gcse

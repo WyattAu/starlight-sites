@@ -1,6 +1,6 @@
 ---
 title: Database Systems (Advanced)
-description: "Beyond the basic operations (selection, projection, join, etc.), extended relati Comprehensive educational content coverage with definitions and practice proble''
+description: "Beyond the basic operations (selection, projection, join, etc.), extended relati Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing

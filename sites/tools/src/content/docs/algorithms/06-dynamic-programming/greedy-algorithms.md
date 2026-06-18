@@ -1,6 +1,6 @@
 ---
 title: Greedy Algorithms
-description: "A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy...''
+description: "A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy..."
 
 ---
 

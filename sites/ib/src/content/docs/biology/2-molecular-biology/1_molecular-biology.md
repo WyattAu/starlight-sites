@@ -1,6 +1,6 @@
 ---
 title: Molecular Biology
-description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation.''
+description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

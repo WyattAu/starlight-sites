@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: "Problem Set: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Problem Set: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 7.1 Analysis (Problems 1--3)

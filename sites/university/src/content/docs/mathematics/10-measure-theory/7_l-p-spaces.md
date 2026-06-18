@@ -3,7 +3,7 @@ title: $L^p$ Spaces
 tags:
   - Mathematics
   - University
-description: "$L^p$ Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "$L^p$ Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 7.1 Definition

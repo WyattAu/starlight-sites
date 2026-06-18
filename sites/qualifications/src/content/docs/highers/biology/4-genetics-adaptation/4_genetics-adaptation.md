@@ -1,6 +1,6 @@
 ---
 title: Genetics and Adaptation
-description: "Scottish Highers Biology Genetics and Adaptation notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
+description: "Scottish Highers Biology Genetics and Adaptation notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14
 tags:
   - highers

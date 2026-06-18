@@ -3,7 +3,7 @@ title: Real Analysis
 tags:
   - Mathematics
   - University
-description: 'Real analysis reconstructs the calculus on a rigorous foundation. Where the introductory calculus takes the real numbers, limits, and continuity as informal...'
+description: "Real analysis reconstructs the calculus on a rigorous foundation. Where the introductory calculus takes the real numbers, limits, and continuity as informal"
 ---
 
 # Real Analysis

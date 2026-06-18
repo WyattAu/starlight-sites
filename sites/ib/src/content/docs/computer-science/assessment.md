@@ -1,6 +1,6 @@
 ---
 title: Assessment
-description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |...''
+description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |..."
 ---
 
 # Assessment objective

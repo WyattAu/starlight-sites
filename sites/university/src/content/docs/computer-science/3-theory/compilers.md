@@ -1,6 +1,6 @@
 ---
 title: Compilers
-description: "Source Code → Lexical Analysis (tokens) → Syntax Analysis (parse tree) → Semantic Analysis (annotated tree) → Intermediate Representation (IR) → Code...''
+description: "Source Code → Lexical Analysis (tokens) → Syntax Analysis (parse tree) → Semantic Analysis (annotated tree) → Intermediate Representation (IR) → Code..."
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

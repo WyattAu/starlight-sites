@@ -1,5 +1,5 @@
 ---
-title: "Algebraic Expressions -- Diagnostic Tests''
+title: "Algebraic Expressions -- Diagnostic Tests"
 description: "A-Level Maths Algebraic Expressions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

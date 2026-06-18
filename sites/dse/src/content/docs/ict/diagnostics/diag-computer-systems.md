@@ -1,5 +1,5 @@
 ---
-title: "Computer Systems -- Diagnostic Tests''
+title: "Computer Systems -- Diagnostic Tests"
 description: "DSE Ict Computer Systems -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 tableOfContents: false
 ---

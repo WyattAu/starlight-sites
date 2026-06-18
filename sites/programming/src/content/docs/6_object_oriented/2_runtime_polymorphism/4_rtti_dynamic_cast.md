@@ -1,6 +1,6 @@
 ---
 title: RTTI, dynamic_cast, and typeid
-description: "Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at Runtime. This section covers for safe downcasting, the...''
+description: "Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at Runtime. This section covers for safe downcasting, the..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

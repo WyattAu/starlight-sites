@@ -3,7 +3,7 @@ title: Classical Field Theory
 tags:
   - Physics
   - University
-description: "For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems.''
+description: "For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 12.1 Lagrangian Field Theory

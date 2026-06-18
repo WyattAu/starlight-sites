@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.''
+description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems."
 
 ---
 

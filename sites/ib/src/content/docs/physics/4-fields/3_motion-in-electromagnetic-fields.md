@@ -1,6 +1,6 @@
 ---
 title: Motion in Electromagnetic Fields
-description: "Rigorous IB physics notes covering Motion in Electromagnetic Fields. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.''
+description: "Rigorous IB physics notes covering Motion in Electromagnetic Fields. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

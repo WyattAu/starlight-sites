@@ -1,5 +1,5 @@
 ---
-title: "Open Source Licenses''
+title: "Open Source Licenses"
 date: 2026-05-30
 tags:
   - Licensing

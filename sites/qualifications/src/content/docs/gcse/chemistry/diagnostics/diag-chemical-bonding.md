@@ -1,5 +1,5 @@
 ---
-title: "Chemical Bonding -- Diagnostic Tests''
+title: "Chemical Bonding -- Diagnostic Tests"
 description: "Chemical Bonding -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---

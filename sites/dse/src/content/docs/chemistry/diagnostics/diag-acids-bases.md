@@ -1,5 +1,5 @@
 ---
-title: "Acids, Bases and Salts -- Diagnostic Tests''
+title: "Acids, Bases and Salts -- Diagnostic Tests"
 description: "DSE Chemistry Acids, Bases and Salts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

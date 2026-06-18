@@ -1,6 +1,6 @@
 ---
 title: DSE Chemistry
-description: "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision.''
+description: "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision."
 tableOfContents: false
 ---
 

@@ -3,7 +3,7 @@ title: Application Layer
 tags:
   - Computing
   - University
-description: "DNS translates domain names to IP addresses. Hierarchical, distributed database. Comprehensive educational content coverage with definitions and practice proble''
+description: "DNS translates domain names to IP addresses. Hierarchical, distributed database. Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 6.1 DNS

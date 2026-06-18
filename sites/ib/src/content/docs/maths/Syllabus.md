@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-description: "This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass Comprehensive educational content coverage with definitions and practice proble''
+description: "This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### IB Mathematics AA HL/SL Syllabus Overview

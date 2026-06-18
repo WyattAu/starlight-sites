@@ -3,7 +3,7 @@ title: Differential Forms
 tags:
   - Mathematics
   - University
-description: "The space of -covectors at is , the space of alternating -linear maps Comprehensive educational content coverage with definitions and practice problems.''
+description: "The space of -covectors at is , the space of alternating -linear maps Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 4.1 Alternating Tensors

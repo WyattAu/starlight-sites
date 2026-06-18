@@ -1,6 +1,6 @@
 ---
 title: Plant Biology
-description: 'This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to Stimuli. Plant biology is a core area of the Irish...'
+description: "This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to Stimuli. Plant biology is a core area of the Irish"
 date: 2026-04-14
 tags:
   - ilc

@@ -1,6 +1,6 @@
 ---
-title: "GCSE Biology -- Diagnostic Guide''
-description: "| Diagnostic File | Topics Covered | Source File | | ----------------------------------------- | ------------------------------------------------------------...'
+title: "GCSE Biology -- Diagnostic Guide"
+description: "| Diagnostic File | Topics Covered | Source File | | ----------------------------------------- | ------------------------------------------------------------"
 tableOfContents: false
 ---
 

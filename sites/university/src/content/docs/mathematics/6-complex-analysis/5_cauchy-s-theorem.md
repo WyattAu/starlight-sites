@@ -3,7 +3,7 @@ title: Cauchy's Theorem
 tags:
   - Mathematics
   - University
-description: "If is analytic on a connected domain and Is a simple closed contour in Then Comprehensive educational content coverage with definitions and practice problems.''
+description: "If is analytic on a connected domain and Is a simple closed contour in Then Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 5.1 Statement

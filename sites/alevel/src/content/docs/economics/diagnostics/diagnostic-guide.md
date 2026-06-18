@@ -1,5 +1,5 @@
 ---
-title: "A-Level Economics -- Diagnostic Guide''
+title: "A-Level Economics -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------..."
 tableOfContents: false
 ---

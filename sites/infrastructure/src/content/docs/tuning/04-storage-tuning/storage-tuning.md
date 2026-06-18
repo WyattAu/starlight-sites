@@ -1,6 +1,6 @@
 ---
 title: Storage Tuning
-description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |...''
+description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |..."
 
 ---
 

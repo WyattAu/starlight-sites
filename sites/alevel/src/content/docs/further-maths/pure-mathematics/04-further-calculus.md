@@ -1,6 +1,6 @@
 ---
 title: Further Calculus
-description: "This topic extends the calculus of A Level Mathematics to more powerful integration techniques, Inverse trigonometric functions, volumes of revolution, arc...''
+description: "This topic extends the calculus of A Level Mathematics to more powerful integration techniques, Inverse trigonometric functions, volumes of revolution, arc..."
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

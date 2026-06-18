@@ -1,5 +1,5 @@
 ---
-title: "Inequalities -- Diagnostic Tests''
+title: "Inequalities -- Diagnostic Tests"
 description: "DSE Maths Inequalities -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'
 tableOfContents: false
 ---

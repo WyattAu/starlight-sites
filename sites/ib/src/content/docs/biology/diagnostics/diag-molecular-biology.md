@@ -1,5 +1,5 @@
 ---
-title: "Molecular Biology -- Diagnostic Tests''
+title: "Molecular Biology -- Diagnostic Tests"
 description: "IB Molecular Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---

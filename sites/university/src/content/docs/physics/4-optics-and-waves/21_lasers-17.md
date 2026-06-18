@@ -3,7 +3,7 @@ title: Lasers
 tags:
   - Physics
   - University
-description: "Lasers: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Lasers: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 17.1 Conditions for Lasing

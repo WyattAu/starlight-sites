@@ -1,6 +1,6 @@
 ---
 title: Ecology
-description: "An is a self-sustaining system formed by the interactions of all Living organisms (the component) with their non-living physical and chemical environment...''
+description: "An is a self-sustaining system formed by the interactions of all Living organisms (the component) with their non-living physical and chemical environment..."
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology

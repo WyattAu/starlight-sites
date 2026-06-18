@@ -1,6 +1,6 @@
 ---
 title: Market Failure
-description: "We define as the condition in which the free market allocation of resources is _allocatively inefficient_ — that is, the market fails to produce the...''
+description: "We define as the condition in which the free market allocation of resources is _allocatively inefficient_ — that is, the market fails to produce the..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

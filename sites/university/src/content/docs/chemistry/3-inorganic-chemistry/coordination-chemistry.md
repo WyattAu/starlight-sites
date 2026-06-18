@@ -1,6 +1,6 @@
 ---
 title: Coordination Chemistry
-description: "A model in which ligands are treated as point charges (or point dipoles) that interact electrostatically with the orbitals of the central metal ion.''
+description: "A model in which ligands are treated as point charges (or point dipoles) that interact electrostatically with the orbitals of the central metal ion."
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry

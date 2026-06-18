@@ -1,6 +1,6 @@
 ---
 title: Classes and Inheritance
-description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces.''
+description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces."
 date: 2025-07-20T10:00:00.000Z
 tags:
   - dart

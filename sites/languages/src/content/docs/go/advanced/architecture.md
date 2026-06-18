@@ -5,7 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description: "Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble''
+description: "Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ## Standard Go Project Layout

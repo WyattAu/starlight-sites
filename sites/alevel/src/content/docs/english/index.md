@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision and examination preparation.''
+description: "A-Level English notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision and examination preparation."
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Internet and Data Communications
-description: "| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |...''
+description: "| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |..."
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]

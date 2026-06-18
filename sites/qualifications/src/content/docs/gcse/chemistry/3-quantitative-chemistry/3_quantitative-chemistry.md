@@ -1,6 +1,6 @@
 ---
 title: Quantitative Chemistry
-description: "The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass.''
+description: "The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass."
 date: 2026-04-14
 tags:
   - gcse

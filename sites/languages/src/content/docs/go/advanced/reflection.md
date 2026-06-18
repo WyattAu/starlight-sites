@@ -1,6 +1,6 @@
 ---
 title: Reflection
-description: 'The package provides runtime type introspection and manipulation. It allows programs to Examine types, inspect struct fields, call methods by name, and...'
+description: "The package provides runtime type introspection and manipulation. It allows programs to Examine types, inspect struct fields, call methods by name, and"
 date: 2026-04-18
 tags:
   - Go

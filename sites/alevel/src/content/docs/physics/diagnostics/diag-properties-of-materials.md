@@ -1,5 +1,5 @@
 ---
-title: "Properties of Materials -- Diagnostic Tests''
+title: "Properties of Materials -- Diagnostic Tests"
 description: "A-Level Physics Properties of Materials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

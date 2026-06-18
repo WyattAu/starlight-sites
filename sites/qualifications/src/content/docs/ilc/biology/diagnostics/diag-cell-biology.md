@@ -1,5 +1,5 @@
 ---
-title: "Cell Biology -- Diagnostic Tests''
+title: "Cell Biology -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false
 ---

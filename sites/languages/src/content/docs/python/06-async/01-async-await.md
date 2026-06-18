@@ -1,6 +1,6 @@
 ---
 title: Async and Await
-description: "Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision.''
+description: "Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision."
 date: 2025-06-04T15:00:00.000Z
 tags:
   - Python

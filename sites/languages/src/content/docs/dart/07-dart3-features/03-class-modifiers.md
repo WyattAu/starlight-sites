@@ -1,6 +1,6 @@
 ---
 title: Class Modifiers
-description: "Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,...''
+description: "Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,..."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

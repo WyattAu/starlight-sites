@@ -3,7 +3,7 @@ title: Subgroups
 tags:
   - Mathematics
   - University
-description: "A of is a subset that is itself a group under the operation of Comprehensive educational content coverage with definitions and practice problems.''
+description: "A of is a subset that is itself a group under the operation of Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 2.1 Definition and Criterion

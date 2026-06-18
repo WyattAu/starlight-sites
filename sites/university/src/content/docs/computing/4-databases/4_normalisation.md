@@ -3,7 +3,7 @@ title: Normalisation
 tags:
   - Computing
   - University
-description: "A holds on relation if for any two tuples in Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "A holds on relation if for any two tuples in Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 4.1 Functional Dependencies

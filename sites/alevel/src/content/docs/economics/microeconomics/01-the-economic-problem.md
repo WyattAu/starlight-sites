@@ -1,6 +1,6 @@
 ---
 title: The Economic Problem
-description: "We define as the condition in which human wants exceed the resources available to Satisfy them. Formally, if we denote the set of all desired goods and...''
+description: "We define as the condition in which human wants exceed the resources available to Satisfy them. Formally, if we denote the set of all desired goods and..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

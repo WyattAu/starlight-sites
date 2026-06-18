@@ -1,5 +1,5 @@
 ---
-title: "Integration -- Diagnostic Tests''
+title: "Integration -- Diagnostic Tests"
 description: "IB Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---

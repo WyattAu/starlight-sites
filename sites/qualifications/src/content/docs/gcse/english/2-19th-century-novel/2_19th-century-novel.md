@@ -1,6 +1,6 @@
 ---
 title: The 19th-Century Novel
-description: "The 19th-Century Novel: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "The 19th-Century Novel: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-22
 tags:
   - gcse

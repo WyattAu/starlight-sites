@@ -1,6 +1,6 @@
 ---
 title: Computer Science
-description: "- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the...''
+description: "- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the..."
 
 ---
 

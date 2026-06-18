@@ -1,6 +1,6 @@
 ---
 title: Number Sets and Sequences
-description: "This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the...''
+description: "This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the..."
 date: 2026-04-14
 tags:
   - ilc

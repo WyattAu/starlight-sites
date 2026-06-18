@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: "A string of length m is fixed at both ends and has wave speed m/s. Find the fundamental frequency and the frequencies of the first three harmonics.''
+description: "A string of length m is fixed at both ends and has wave speed m/s. Find the fundamental frequency and the frequencies of the first three harmonics."
 ---
 
 **1.** A string of length $L = 1.20$ m is fixed at both ends and has wave speed $v = 240$ m/s. Find

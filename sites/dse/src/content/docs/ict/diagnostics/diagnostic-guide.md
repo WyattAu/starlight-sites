@@ -1,5 +1,5 @@
 ---
-title: "DSE ICT -- Diagnostic Guide''
+title: "DSE ICT -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | ---------------------------------------------- | -------------------------------------------------------..."
 tableOfContents: false
 ---

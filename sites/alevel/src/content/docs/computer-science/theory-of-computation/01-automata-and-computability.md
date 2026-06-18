@@ -1,6 +1,6 @@
 ---
 title: Automata and Computability
-description: "Automata and Computability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Automata and Computability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

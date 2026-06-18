@@ -1,6 +1,6 @@
 ---
 title: Complex Numbers
-description: "Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble''
+description: "Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

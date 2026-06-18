@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: "A-Level Psychology Research Methods notes covering key definitions, core concepts, worked examples, and practice questions for structured revision.''
+description: "A-Level Psychology Research Methods notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 
 ---
 

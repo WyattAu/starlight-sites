@@ -1,5 +1,5 @@
 ---
-title: "Sequences and Series -- Diagnostic Tests [BC Only]''
+title: "Sequences and Series -- Diagnostic Tests [BC Only]"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for sequences Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:

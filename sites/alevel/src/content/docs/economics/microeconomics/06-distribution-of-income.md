@@ -1,6 +1,6 @@
 ---
 title: Distribution of Income
-description: "The plots the cumulative proportion of total income received by the cumulative Proportion of the population, ordered from poorest to richest.''
+description: "The plots the cumulative proportion of total income received by the cumulative Proportion of the population, ordered from poorest to richest."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

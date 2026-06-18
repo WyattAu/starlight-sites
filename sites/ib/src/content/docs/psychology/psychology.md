@@ -1,6 +1,6 @@
 ---
 title: IB Psychology (SL/HL)
-description: 'IB Psychology is a Group 3 subject (Individuals and Societies) that examines how biological, cognitive, and sociocultural factors interact to shape human...'
+description: "IB Psychology is a Group 3 subject (Individuals and Societies) that examines how biological, cognitive, and sociocultural factors interact to shape human"
 
 ---
 

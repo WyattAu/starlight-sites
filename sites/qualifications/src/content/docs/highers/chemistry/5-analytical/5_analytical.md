@@ -1,6 +1,6 @@
 ---
 title: Analytical Chemistry
-description: "Scottish Highers Analytical Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
+description: "Scottish Highers Analytical Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14
 tags:
   - highers

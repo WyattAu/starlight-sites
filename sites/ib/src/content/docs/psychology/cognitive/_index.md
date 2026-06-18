@@ -1,6 +1,6 @@
 ---
 title: Cognitive Level of Analysis
-description: "This section covers the cognitive level of analysis, focusing on mental processes such as memory, thinking, language, and decision making.''
+description: "This section covers the cognitive level of analysis, focusing on mental processes such as memory, thinking, language, and decision making."
 
 ---
 

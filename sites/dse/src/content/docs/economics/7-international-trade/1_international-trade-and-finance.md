@@ -1,6 +1,6 @@
 ---
 title: International Trade and Finance
-description: "A country has an in producing a good if it can produce more of that good with The same amount of resources, or use fewer resources to produce the same...''
+description: "A country has an in producing a good if it can produce more of that good with The same amount of resources, or use fewer resources to produce the same..."
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Economics]
 categories: [DSE, Economics]

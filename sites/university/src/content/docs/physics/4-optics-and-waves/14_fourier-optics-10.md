@@ -3,7 +3,7 @@ title: Fourier Optics
 tags:
   - Physics
   - University
-description: "The Fraunhofer diffraction pattern of an aperture with transmittance function illuminated by a plane wave is proportional to the 2D Fourier transform of the...''
+description: "The Fraunhofer diffraction pattern of an aperture with transmittance function illuminated by a plane wave is proportional to the 2D Fourier transform of the..."
 ---
 
 ### 10.1 Fraunhofer Diffraction as a Fourier Transform

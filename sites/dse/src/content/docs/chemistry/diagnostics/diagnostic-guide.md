@@ -1,5 +1,5 @@
 ---
-title: "DSE Chemistry Diagnostic Tests -- Guide''
+title: "DSE Chemistry Diagnostic Tests -- Guide"
 description: "These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate..."
 tableOfContents: false
 ---

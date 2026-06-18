@@ -5,7 +5,7 @@ tags:
   - TypeScript
 categories:
   - TypeScript
-description: "and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble''
+description: "and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ## Conditional Types: Internals and Advanced `infer`

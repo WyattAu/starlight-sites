@@ -1,5 +1,5 @@
 ---
-title: "States of Matter -- Diagnostic Tests''
+title: "States of Matter -- Diagnostic Tests"
 description: "IB Chemistry States of Matter -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
 tableOfContents: false
 ---

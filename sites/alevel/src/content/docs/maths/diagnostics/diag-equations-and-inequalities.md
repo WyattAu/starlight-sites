@@ -1,5 +1,5 @@
 ---
-title: "Equations and Inequalities -- Diagnostic Tests''
+title: "Equations and Inequalities -- Diagnostic Tests"
 description: "A-Level Maths Equations and Inequalities -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "National Income and Macroeconomic Indicators -- Diagnostic Tests''
+title: "National Income and Macroeconomic Indicators -- Diagnostic Tests"
 description: "DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
 tableOfContents: false
 ---

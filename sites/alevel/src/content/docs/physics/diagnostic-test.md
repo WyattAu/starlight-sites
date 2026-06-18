@@ -1,6 +1,6 @@
 ---
 title: A Level Physics Diagnostic Test
-description: "Questions. Each question has an answer and a revision redirect. Time allowed: 90 Comprehensive educational content coverage with definitions and practice proble''
+description: "Questions. Each question has an answer and a revision redirect. Time allowed: 90 Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics

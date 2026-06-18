@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Data Structures
-description: 'Algorithms and data structures form the core of practical computer science. An algorithm is a step-by-step procedure for solving a problem, while a data...'
+description: "Algorithms and data structures form the core of practical computer science. An algorithm is a step-by-step procedure for solving a problem, while a data"
 tags:
   - Computing
   - University

@@ -2,7 +2,7 @@
 title: Chronicle and Streetcar Comparison
 tags:
   - english
-description: "- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although...''
+description: "- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although..."
 ---
 
 ## Ideologies

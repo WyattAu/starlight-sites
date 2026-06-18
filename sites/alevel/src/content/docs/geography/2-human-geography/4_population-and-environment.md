@@ -3,7 +3,7 @@ title: Population and the Environment
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: "A-Level Geography Population and the Environment notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
+description: "A-Level Geography Population and the Environment notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 ---
 
 # Population and the Environment

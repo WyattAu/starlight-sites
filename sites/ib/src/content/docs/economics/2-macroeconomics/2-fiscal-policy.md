@@ -1,6 +1,6 @@
 ---
 title: Fiscal Policy
-description: "Fiscal policy involves government decisions about taxation and spending to influ Comprehensive educational content coverage with definitions and practice proble''
+description: "Fiscal policy involves government decisions about taxation and spending to influ Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

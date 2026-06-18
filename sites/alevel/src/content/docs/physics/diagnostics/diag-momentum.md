@@ -1,5 +1,5 @@
 ---
-title: "Momentum -- Diagnostic Tests''
+title: "Momentum -- Diagnostic Tests"
 description: "A-Level Physics Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---

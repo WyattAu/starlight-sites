@@ -1,5 +1,5 @@
 ---
-title: "Exponentials and Logarithms -- Diagnostic Tests''
+title: "Exponentials and Logarithms -- Diagnostic Tests"
 description: "A-Level Maths Exponentials and Logarithms -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

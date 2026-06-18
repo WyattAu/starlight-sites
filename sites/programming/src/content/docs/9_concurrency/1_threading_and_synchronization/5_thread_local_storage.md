@@ -1,6 +1,6 @@
 ---
 title: Thread-Local Storage (TLS)
-description: "This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical...''
+description: "This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

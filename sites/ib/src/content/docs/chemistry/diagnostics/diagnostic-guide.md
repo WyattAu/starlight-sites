@@ -1,5 +1,5 @@
 ---
-title: "IB Chemistry -- Diagnostic Guide''
+title: "IB Chemistry -- Diagnostic Guide"
 description: "IB Chemistry diagnostic tests: IB Chemistry -- Diagnostic Guide. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---

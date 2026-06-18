@@ -1,6 +1,6 @@
 ---
 title: Metabolism and Survival
-description: "Scottish Highers Biology Metabolism and Survival notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
+description: "Scottish Highers Biology Metabolism and Survival notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14
 tags:
   - highers

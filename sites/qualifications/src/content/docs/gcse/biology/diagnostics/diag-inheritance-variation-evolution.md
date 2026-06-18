@@ -1,5 +1,5 @@
 ---
-title: "Inheritance, Variation and Evolution -- Diagnostic Tests''
+title: "Inheritance, Variation and Evolution -- Diagnostic Tests"
 description: "(a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two..."
 tableOfContents: false
 ---

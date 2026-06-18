@@ -3,7 +3,7 @@ title: Historical Motivation
 tags:
   - Physics
   - University
-description: "By the late 19th century, classical physics could not explain several phenomena: Comprehensive educational content coverage with definitions and practice proble''
+description: "By the late 19th century, classical physics could not explain several phenomena: Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 1.1 Failures of Classical Physics

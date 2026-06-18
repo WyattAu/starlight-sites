@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL Advanced
-description: "PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.''
+description: "PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision."
 
 ---
 

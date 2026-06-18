@@ -3,7 +3,7 @@ title: Fieldwork Methodology
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, fieldwork]
-description: "A-Level Geography Fieldwork Methodology notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.''
+description: "A-Level Geography Fieldwork Methodology notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 ---
 
 # Fieldwork Methodology

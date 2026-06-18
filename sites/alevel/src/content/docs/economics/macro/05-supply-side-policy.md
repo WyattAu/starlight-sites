@@ -1,6 +1,6 @@
 ---
 title: Supply-Side Policy
-description: "We define as government policies designed to increase the productive Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the...''
+description: "We define as government policies designed to increase the productive Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

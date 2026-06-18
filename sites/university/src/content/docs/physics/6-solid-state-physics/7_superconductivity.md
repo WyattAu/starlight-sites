@@ -3,7 +3,7 @@ title: Superconductivity
 tags:
   - Physics
   - University
-description: "is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems.''
+description: "is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 7.1 Basic Phenomenology

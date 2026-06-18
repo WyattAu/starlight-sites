@@ -3,7 +3,7 @@ title: Introduction to Operating Systems
 tags:
   - Computing
   - University
-description: 'An operating system (OS) is system software that manages hardware resources and provides services To application programs. It serves as an intermediary...'
+description: "An operating system (OS) is system software that manages hardware resources and provides services To application programs. It serves as an intermediary"
 ---
 
 ### 1.1 Role of the Operating System

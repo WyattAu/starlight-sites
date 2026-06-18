@@ -3,7 +3,7 @@ title: Transport Layer
 tags:
   - Computing
   - University
-description: "Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 5.1 UDP

@@ -1,6 +1,6 @@
 ---
 title: Collections Framework
-description: "The Java Collections Framework (JCF) is a unified architecture for representing and manipulating Collections. It was introduced in JDK 1.2 (1998) and has...''
+description: "The Java Collections Framework (JCF) is a unified architecture for representing and manipulating Collections. It was introduced in JDK 1.2 (1998) and has..."
 date: 2025-06-05T13:00:00.000Z
 tags: ["java']
 categories: ['java']

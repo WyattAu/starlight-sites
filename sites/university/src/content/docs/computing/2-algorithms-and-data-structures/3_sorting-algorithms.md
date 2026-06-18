@@ -3,7 +3,7 @@ title: Sorting Algorithms
 tags:
   - Computing
   - University
-description: "Divide the array in half, recursively sort each half, then merge. Comprehensive educational content coverage with definitions and practice problems.''
+description: "Divide the array in half, recursively sort each half, then merge. Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 3.1 Merge Sort

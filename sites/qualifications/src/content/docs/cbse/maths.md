@@ -1,7 +1,7 @@
 ---
 title: CBSE Mathematics Study Guide
 date: 2026-05-31
-description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.''
+description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tags:
   - cbse
   - maths

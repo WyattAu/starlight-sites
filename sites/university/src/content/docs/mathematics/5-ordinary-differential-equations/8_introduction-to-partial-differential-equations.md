@@ -3,7 +3,7 @@ title: Introduction to Partial Differential Equations
 tags:
   - Mathematics
   - University
-description: "The general second-order linear PDE in two variables is Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "The general second-order linear PDE in two variables is Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 8.1 Classification of Second-Order PDEs

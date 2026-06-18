@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History prescribed subject on Authoritarian States for Paper 2. It examines three case studies — Nazi Germany, Fascist Italy,...''
+description: "This document covers the IB History prescribed subject on Authoritarian States for Paper 2. It examines three case studies — Nazi Germany, Fascist Italy,..."
 ---
 
 # Authoritarian States (20th Century)

@@ -1,6 +1,6 @@
 ---
 title: Genetics and Evolution
-description: "ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
+description: "ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 date: 2026-04-14
 tags:
   - ilc

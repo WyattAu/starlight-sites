@@ -1,5 +1,5 @@
 ---
-title: "Further Calculus -- Diagnostic Tests''
+title: "Further Calculus -- Diagnostic Tests"
 description: "A-Level Further Maths Further Calculus -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

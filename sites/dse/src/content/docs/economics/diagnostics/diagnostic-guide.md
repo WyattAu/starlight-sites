@@ -1,5 +1,5 @@
 ---
-title: "DSE Economics -- Diagnostic Guide''
+title: "DSE Economics -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | ------------------------------------------------------------ | -----------------------------------------..."
 tableOfContents: false
 ---

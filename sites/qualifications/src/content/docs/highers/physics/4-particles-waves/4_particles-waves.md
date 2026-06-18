@@ -1,6 +1,6 @@
 ---
 title: Particles and Waves
-description: "This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems.''
+description: "This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14
 tags:
   - highers

@@ -3,7 +3,7 @@ title: Fourier Series
 tags:
   - Mathematics
   - University
-description: "Fourier Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Fourier Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 7.1 Definition

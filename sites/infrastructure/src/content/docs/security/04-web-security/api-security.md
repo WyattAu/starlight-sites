@@ -1,6 +1,6 @@
 ---
 title: API Security
-description: "REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain...''
+description: "REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain..."
 
 ---
 

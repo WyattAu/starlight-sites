@@ -1,6 +1,6 @@
 ---
 title: Limit Theorems
-description: "UNIVERSITY Mathematics notes: Limit Theorems. Comprehensive study material with definitions, examples, and assessment tools.''
+description: "UNIVERSITY Mathematics notes: Limit Theorems. Comprehensive study material with definitions, examples, and assessment tools."
 tags:
   - Mathematics
   - University

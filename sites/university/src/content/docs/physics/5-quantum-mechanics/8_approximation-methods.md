@@ -3,7 +3,7 @@ title: Approximation Methods
 tags:
   - Physics
   - University
-description: "Approximation Methods: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Approximation Methods: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 8.1 Time-Independent Perturbation Theory

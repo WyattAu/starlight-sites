@@ -1,6 +1,6 @@
 ---
 title: Properties of Materials
-description: "The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the...''
+description: "The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the..."
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Physics

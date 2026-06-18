@@ -1,6 +1,6 @@
 ---
 title: Hash Algorithm
-description: "Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character...''
+description: "Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character..."
 date: 2025-06-03T14:00:00.000Z
 tags:
   - git

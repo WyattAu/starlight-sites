@@ -3,7 +3,7 @@ title: Summary of Key Results
 tags:
   - Mathematics
   - University
-description: "| Theorem | Conditions | Conclusion | | ---------------------- | ----------------------------------------- | ---------------------------------------- |...''
+description: "| Theorem | Conditions | Conclusion | | ---------------------- | ----------------------------------------- | ---------------------------------------- |..."
 ---
 
 | Theorem                | Conditions                                | Conclusion                               |

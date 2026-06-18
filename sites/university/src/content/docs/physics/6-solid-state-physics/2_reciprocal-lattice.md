@@ -3,7 +3,7 @@ title: Reciprocal Lattice
 tags:
   - Physics
   - University
-description: "Reciprocal Lattice: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Reciprocal Lattice: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 2.1 Definition

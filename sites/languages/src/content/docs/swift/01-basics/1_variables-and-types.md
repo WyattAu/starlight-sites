@@ -1,6 +1,6 @@
 ---
 title: Variables and Types
-description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble''
+description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift

@@ -1,5 +1,5 @@
 ---
-title: "Measurement and Data Processing -- Diagnostic Tests''
+title: "Measurement and Data Processing -- Diagnostic Tests"
 description: "IB Chemistry Measurement and Data Processing -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
 tableOfContents: false
 ---

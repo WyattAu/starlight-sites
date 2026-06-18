@@ -1,6 +1,6 @@
 ---
 title: Immunology
-description: "A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen.''
+description: "A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

@@ -1,6 +1,6 @@
 ---
-title: "Number -- Diagnostic Tests''
-description: "(a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted...'
+title: "Number -- Diagnostic Tests"
+description: "(a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted"
 tableOfContents: false
 ---
 

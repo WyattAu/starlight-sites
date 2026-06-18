@@ -5,7 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description: "The is the splitting of atomic energy levels by an external electric field Comprehensive educational content coverage with definitions and practice problems.''
+description: "The is the splitting of atomic energy levels by an external electric field Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ## 1. Perturbation Theory: Advanced Applications

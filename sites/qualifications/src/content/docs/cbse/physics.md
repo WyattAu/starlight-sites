@@ -1,7 +1,7 @@
 ---
 title: CBSE Physics Study Guide
 date: 2026-05-31
-description: "This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble''
+description: "This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble"
 tags:
   - cbse
   - physics

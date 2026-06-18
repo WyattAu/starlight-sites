@@ -1,6 +1,6 @@
 ---
 title: Algorithms
-description: 'The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem....'
+description: "The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem."
 ---
 
 # Algorithms

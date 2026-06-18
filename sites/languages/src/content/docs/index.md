@@ -1,7 +1,7 @@
 ---
 template: splash
 title: Programming Languages
-description: "| Language | Paradigm | Typing | Concurrency Model | Best For | |----------|----------|--------|-------------------|----------| | | Object-oriented,...''
+description: "| Language | Paradigm | Typing | Concurrency Model | Best For | |----------|----------|--------|-------------------|----------| | | Object-oriented,..."
 hero:
   tagline: Comparative programming language notes. Covers syntax, paradigms, concurrency models, and best practices across 11 languages to help you choose the right tool for the job.
   actions:

@@ -1,6 +1,6 @@
 ---
 title: Wrap Up
-description: "This page provides a summary of key concepts across all five thematic areas of IB Physics and strategies for final revision.''
+description: "This page provides a summary of key concepts across all five thematic areas of IB Physics and strategies for final revision."
 ---
 
 # IB Physics -- Course Wrap-Up

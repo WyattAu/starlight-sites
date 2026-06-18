@@ -1,5 +1,5 @@
 ---
-title: "Cell Biology -- Diagnostic Tests''
+title: "Cell Biology -- Diagnostic Tests"
 description: "Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---

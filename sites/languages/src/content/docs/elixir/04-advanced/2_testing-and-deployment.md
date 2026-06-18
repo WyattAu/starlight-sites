@@ -1,6 +1,6 @@
 ---
 title: Testing and Deployment
-description: "ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and...''
+description: "ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and..."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

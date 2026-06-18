@@ -1,6 +1,6 @@
 ---
 title: Monads and Functors
-description: "A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain...''
+description: "A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain..."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

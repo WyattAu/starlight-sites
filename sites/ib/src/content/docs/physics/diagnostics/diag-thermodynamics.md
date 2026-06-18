@@ -1,5 +1,5 @@
 ---
-title: "Thermodynamics -- Diagnostic Tests''
+title: "Thermodynamics -- Diagnostic Tests"
 description: "IB Physics Thermodynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 tableOfContents: false
 ---

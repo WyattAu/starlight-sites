@@ -1,6 +1,6 @@
 ---
 title: Introduction to TrueNAS
-description: 'Reference for deploying and managing TrueNAS (CORE and SCALE), covering ZFS pool design, dataset Permissions, SMB/NFS sharing, snapshots, replication,...'
+description: "Reference for deploying and managing TrueNAS (CORE and SCALE), covering ZFS pool design, dataset Permissions, SMB/NFS sharing, snapshots, replication,"
 
 ---
 

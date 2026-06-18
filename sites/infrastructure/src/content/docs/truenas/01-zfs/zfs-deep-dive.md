@@ -1,6 +1,6 @@
 ---
 title: ZFS Deep Dive
-description: "ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble''
+description: "ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

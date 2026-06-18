@@ -1,6 +1,6 @@
 ---
 title: Binary Caching
-description: "The distinction between (Module 2.4) and is Critical. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "The distinction between (Module 2.4) and is Critical. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-12-11T05:47:27.269Z
 tags:
   - cpp

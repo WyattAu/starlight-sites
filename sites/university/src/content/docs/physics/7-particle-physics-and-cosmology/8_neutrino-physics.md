@@ -3,7 +3,7 @@ title: Neutrino Physics
 tags:
   - Physics
   - University
-description: "Neutrinos are produced and detected in flavour eigenstates But propagate As mass Comprehensive educational content coverage with definitions and practice proble''
+description: "Neutrinos are produced and detected in flavour eigenstates But propagate As mass Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 8.1 Neutrino Oscillations

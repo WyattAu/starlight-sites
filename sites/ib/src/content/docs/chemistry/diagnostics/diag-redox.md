@@ -1,5 +1,5 @@
 ---
-title: "Redox Reactions -- Diagnostic Tests''
+title: "Redox Reactions -- Diagnostic Tests"
 description: "IB Chemistry Redox Reactions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 tableOfContents: false
 ---

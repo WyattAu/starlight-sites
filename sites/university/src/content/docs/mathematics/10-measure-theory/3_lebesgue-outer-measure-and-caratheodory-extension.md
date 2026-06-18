@@ -3,7 +3,7 @@ title: Lebesgue Outer Measure and Caratheodory Extension
 tags:
   - Mathematics
   - University
-description: "Comprehensive educational content notes on lebesgue outer measure and caratheodory extension with precise definitions, worked examples, and common pitfalls.''
+description: "Comprehensive educational content notes on lebesgue outer measure and caratheodory extension with precise definitions, worked examples, and common pitfalls."
 ---
 
 ### 3.1 Outer Measures

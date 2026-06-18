@@ -3,7 +3,7 @@ title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
-description: "Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls.''
+description: "Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls."
 ---
 
 ### 5.1 Group Homomorphisms

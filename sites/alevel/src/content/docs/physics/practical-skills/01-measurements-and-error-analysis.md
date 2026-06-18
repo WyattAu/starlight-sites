@@ -1,6 +1,6 @@
 ---
 title: Measurements and Error Analysis
-description: "A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble''
+description: "A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics

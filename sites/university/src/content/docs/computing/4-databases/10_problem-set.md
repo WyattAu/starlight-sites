@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: "UNIVERSITY Computing notes: Problem Set. Comprehensive study material with defin Comprehensive A-Level problem set revision notes with definitions and examples.''
+description: "UNIVERSITY Computing notes: Problem Set. Comprehensive study material with defin Comprehensive A-Level problem set revision notes with definitions and examples."
 ---
 
 **Problems 1--3:** Introduction and Data Models

@@ -3,7 +3,7 @@ title: The Move to Global War
 tags:
   - IB
   - History
-description: "The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and Its perceived injustices became a central grievance...''
+description: "The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and Its perceived injustices became a central grievance..."
 ---
 
 # The Move to Global War

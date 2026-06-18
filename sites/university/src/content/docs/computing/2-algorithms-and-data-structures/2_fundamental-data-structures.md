@@ -3,7 +3,7 @@ title: Fundamental Data Structures
 tags:
   - Computing
   - University
-description: "Contiguous memory, access by index, insertion/deletion (shift required). Comprehensive educational content coverage with definitions and practice problems.''
+description: "Contiguous memory, access by index, insertion/deletion (shift required). Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 2.1 Arrays and Linked Lists

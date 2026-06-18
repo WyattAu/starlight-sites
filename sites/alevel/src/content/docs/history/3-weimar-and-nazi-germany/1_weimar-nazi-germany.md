@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History Weimar and Nazi Germany 1918-1945 notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
+description: "A-Level History Weimar and Nazi Germany 1918-1945 notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 ---
 
 # Weimar and Nazi Germany 1918-1945

@@ -1,6 +1,6 @@
 ---
 title: DSE Physics
-description: "DSE Physics notes covering key definitions, core concepts, worked examples, and practice questions for systematic study and examination practice.''
+description: "DSE Physics notes covering key definitions, core concepts, worked examples, and practice questions for systematic study and examination practice."
 tableOfContents: false
 ---
 

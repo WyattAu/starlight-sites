@@ -3,7 +3,7 @@ title: Electromagnetism
 tags:
   - Physics
   - University
-description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.''
+description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools."
 ---
 
 # Electromagnetism

@@ -1,6 +1,6 @@
 ---
 title: Brain Imaging Techniques
-description: "Brain imaging techniques allow researchers to observe the structure and function of the living human Brain without surgery. These techniques have...''
+description: "Brain imaging techniques allow researchers to observe the structure and function of the living human Brain without surgery. These techniques have..."
 
 ---
 

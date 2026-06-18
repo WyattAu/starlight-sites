@@ -1,5 +1,5 @@
 ---
-title: "Demand, Supply, and Equilibrium -- Diagnostic Tests''
+title: "Demand, Supply, and Equilibrium -- Diagnostic Tests"
 description: "A-Level Economics Demand, Supply, and Equilibrium -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

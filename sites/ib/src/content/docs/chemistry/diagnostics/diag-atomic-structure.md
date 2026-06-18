@@ -1,5 +1,5 @@
 ---
-title: "Atomic Structure and Atomic Theory -- Diagnostic Tests''
+title: "Atomic Structure and Atomic Theory -- Diagnostic Tests"
 description: "IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

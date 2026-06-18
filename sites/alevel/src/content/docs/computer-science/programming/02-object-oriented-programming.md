@@ -1,6 +1,6 @@
 ---
 title: Object-Oriented Programming
-description: "A is a blueprint (template) that defines the structure and behaviour of objects. An is an of a class — a concrete entity with specific values for the...''
+description: "A is a blueprint (template) that defines the structure and behaviour of objects. An is an of a class — a concrete entity with specific values for the..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

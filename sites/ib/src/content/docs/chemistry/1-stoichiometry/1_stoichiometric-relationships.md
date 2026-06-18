@@ -1,6 +1,6 @@
 ---
 title: Stoichiometry
-description: "Rigorous IB chemistry notes covering Stoichiometry. Includes definitions, derivations, worked examples, and exam-style problems. chemistry.''
+description: "Rigorous IB chemistry notes covering Stoichiometry. Includes definitions, derivations, worked examples, and exam-style problems. chemistry."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

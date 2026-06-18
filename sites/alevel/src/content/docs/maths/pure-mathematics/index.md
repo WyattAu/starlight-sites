@@ -1,6 +1,6 @@
 ---
 title: Pure Mathematics
-description: "A-Level Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.''
+description: "A-Level Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
 ---
 
 # Pure Mathematics

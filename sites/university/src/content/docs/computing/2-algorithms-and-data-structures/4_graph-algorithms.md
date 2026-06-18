@@ -3,7 +3,7 @@ title: Graph Algorithms
 tags:
   - Computing
   - University
-description: "BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 4.1 Breadth-First Search (BFS)

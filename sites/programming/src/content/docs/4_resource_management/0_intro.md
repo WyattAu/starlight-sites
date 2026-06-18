@@ -1,6 +1,6 @@
 ---
 title: Resource Management and Move Semantics
-description: "Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems.''
+description: "Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-03-31T00:00:00.000Z
 tags:
   - cpp

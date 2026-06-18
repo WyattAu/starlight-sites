@@ -1,6 +1,6 @@
 ---
 title: Matrices and Transformations (Extended)
-description: "This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors.''
+description: "This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors."
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

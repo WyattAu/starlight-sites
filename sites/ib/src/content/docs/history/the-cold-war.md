@@ -3,7 +3,7 @@ title: The Cold War
 tags:
   - IB
   - History
-description: "The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning...''
+description: "The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning..."
 ---
 
 ## The Cold War: A Systems-Level Analysis (1945--1991)

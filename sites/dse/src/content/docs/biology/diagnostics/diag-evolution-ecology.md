@@ -1,5 +1,5 @@
 ---
-title: "Evolution and Ecology -- Diagnostic Tests''
+title: "Evolution and Ecology -- Diagnostic Tests"
 description: "DSE Biology Evolution and Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
 tableOfContents: false
 ---

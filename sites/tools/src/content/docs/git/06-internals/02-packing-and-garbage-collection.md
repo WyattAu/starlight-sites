@@ -1,6 +1,6 @@
 ---
 title: Packing and Garbage Collection
-description: "Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2025-06-03T13:00:00.000Z
 tags:
   - git

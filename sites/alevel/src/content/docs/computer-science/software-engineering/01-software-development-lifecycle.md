@@ -1,6 +1,6 @@
 ---
 title: Software Development Lifecycle
-description: "The is a structured framework describing the phases Involved in developing software, from initial conception through to deployment and maintenance.''
+description: "The is a structured framework describing the phases Involved in developing software, from initial conception through to deployment and maintenance."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

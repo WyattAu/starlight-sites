@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry Introduction
-description: "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a...''
+description: "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a..."
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

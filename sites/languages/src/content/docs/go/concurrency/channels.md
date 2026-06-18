@@ -1,6 +1,6 @@
 ---
 title: Channels and Concurrency Patterns
-description: 'Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered Channels allow the sender to proceed up to the buffer...'
+description: "Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered Channels allow the sender to proceed up to the buffer"
 date: 2026-04-18
 tags:
   - Go

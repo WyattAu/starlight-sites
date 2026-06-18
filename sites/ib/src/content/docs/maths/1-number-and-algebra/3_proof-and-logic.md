@@ -1,6 +1,6 @@
 ---
 title: Proof and Logic
-description: "Rigorous IB mathematics notes covering Proof and Logic. Includes definitions, derivations, worked examples, and exam-style problems.''
+description: "Rigorous IB mathematics notes covering Proof and Logic. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - IB

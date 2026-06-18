@@ -1,6 +1,6 @@
 ---
 title: Thermodynamics
-description: "Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
+description: "Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14
 tags:
   - ap

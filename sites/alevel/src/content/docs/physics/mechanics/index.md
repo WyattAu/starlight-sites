@@ -1,6 +1,6 @@
 ---
 title: Mechanics
-description: "A-Level Physics Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for in-depth review and exam preparation.''
+description: "A-Level Physics Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for in-depth review and exam preparation."
 ---
 
 # Mechanics

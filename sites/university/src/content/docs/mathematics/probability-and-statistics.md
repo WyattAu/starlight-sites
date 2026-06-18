@@ -1,6 +1,6 @@
 ---
 title: Probability and Statistics
-description: "UNIVERSITY Mathematics notes: Probability and Statistics. Comprehensive study material with definitions, examples, and assessment tools.''
+description: "UNIVERSITY Mathematics notes: Probability and Statistics. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

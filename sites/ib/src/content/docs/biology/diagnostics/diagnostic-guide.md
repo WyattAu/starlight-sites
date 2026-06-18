@@ -1,6 +1,6 @@
 ---
-title: "IB Biology -- Diagnostic Guide''
-description: "| Diagnostic File | Topics Covered | Source Files | | --------------------------- | -------------------------------------------------------------------------...'
+title: "IB Biology -- Diagnostic Guide"
+description: "| Diagnostic File | Topics Covered | Source Files | | --------------------------- | -------------------------------------------------------------------------"
 tableOfContents: false
 ---
 

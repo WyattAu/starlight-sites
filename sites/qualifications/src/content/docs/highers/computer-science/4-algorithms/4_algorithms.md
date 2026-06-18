@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Data Structures
-description: "Scottish Highers Computer Science Algorithms and Data notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
+description: "Scottish Highers Computer Science Algorithms and Data notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
 tags:
   - highers

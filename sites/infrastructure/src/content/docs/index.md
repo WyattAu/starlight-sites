@@ -1,7 +1,7 @@
 ---
 template: splash
 title: Infrastructure Notes
-description: 'These notes provide practical guidance on designing, deploying, and maintaining IT infrastructure. Topics range from storage systems and database...'
+description: "These notes provide practical guidance on designing, deploying, and maintaining IT infrastructure. Topics range from storage systems and database"
 hero:
   tagline: Notes and study materials
   actions:

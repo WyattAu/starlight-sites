@@ -5,7 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your...''
+description: "These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your..."
 ---
 
 ## Advanced SAT Strategies

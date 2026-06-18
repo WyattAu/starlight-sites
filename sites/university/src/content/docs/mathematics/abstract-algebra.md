@@ -5,7 +5,7 @@ tags:
   - University Maths
 categories:
   - University Maths
-description: "is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,...''
+description: "is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,..."
 ---
 
 ## 1. Introduction

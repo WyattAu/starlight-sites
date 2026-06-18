@@ -3,7 +3,7 @@ title: Complex Analysis
 tags:
   - Mathematics
   - University
-description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 # Complex Analysis

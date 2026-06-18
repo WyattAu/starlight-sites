@@ -1,6 +1,6 @@
 ---
 title: Databases
-description: "A is a set of tuples over a relation schema where each is an attribute from doma Comprehensive educational content coverage with definitions and practice proble''
+description: "A is a set of tuples over a relation schema where each is an attribute from doma Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

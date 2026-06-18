@@ -1,6 +1,6 @@
 ---
 title: IB Chemistry
-description: "Complete IB Chemistry revision notes covering stoichiometry, atomic theory, bonding, thermodynamics, kinetics, equilibrium, acids and bases, redox, and organic''
+description: "Complete IB Chemistry revision notes covering stoichiometry, atomic theory, bonding, thermodynamics, kinetics, equilibrium, acids and bases, redox, and organic"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

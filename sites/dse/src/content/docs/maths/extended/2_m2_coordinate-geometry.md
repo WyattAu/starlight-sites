@@ -1,5 +1,5 @@
 ---
-title: "M2: Coordinate Geometry''
+title: "M2: Coordinate Geometry"
 description: "The gradient of a line passing through and is: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-06-04T10:00:00.000Z
 tags:

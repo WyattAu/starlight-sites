@@ -1,5 +1,5 @@
 ---
-title: "Population -- Diagnostic Tests''
+title: "Population -- Diagnostic Tests"
 description: "Population -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---

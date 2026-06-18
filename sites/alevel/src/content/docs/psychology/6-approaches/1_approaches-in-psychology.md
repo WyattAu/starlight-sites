@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: "A-Level Approaches in Psychology notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
+description: "A-Level Approaches in Psychology notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 
 ---
 

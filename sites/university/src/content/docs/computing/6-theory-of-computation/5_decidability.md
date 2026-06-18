@@ -3,7 +3,7 @@ title: Decidability
 tags:
   - Computing
   - University
-description: "Decidability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Decidability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 5.1 Decidable Languages

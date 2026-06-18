@@ -1,5 +1,5 @@
 ---
-title: "GCSE Physics -- Diagnostic Guide''
+title: "GCSE Physics -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | --------------------- | --------------------------------------------------------------------------------..."
 tableOfContents: false
 ---

@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Drama Analysis notes covering key definitions, core concepts, worked examples, and practice questions for solid exam preparation and mastery.''
+description: "A-Level English Drama Analysis notes covering key definitions, core concepts, worked examples, and practice questions for solid exam preparation and mastery."
 
 ---
 

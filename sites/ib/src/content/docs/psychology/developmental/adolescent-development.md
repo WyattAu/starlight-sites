@@ -1,6 +1,6 @@
 ---
 title: Adolescent Development
-description: "Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary...''
+description: "Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary..."
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Network Proxy
-description: "- Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause...''
+description: "- Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause..."
 date: 2025-07-25T20:52:26.185Z
 tags:
   - truenas

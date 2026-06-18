@@ -1,6 +1,6 @@
 ---
 title: Subnetting Workshop
-description: "Subnetting Workshop notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and revision.''
+description: "Subnetting Workshop notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and revision."
 tags:
   - Networking
 categories:

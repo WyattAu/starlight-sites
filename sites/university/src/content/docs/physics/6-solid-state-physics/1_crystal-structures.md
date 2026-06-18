@@ -3,7 +3,7 @@ title: Crystal Structures
 tags:
   - Physics
   - University
-description: "A crystal is defined by a (infinite array of points with translational symmetry) and a (the arrangement of atoms associated with each lattice point).''
+description: "A crystal is defined by a (infinite array of points with translational symmetry) and a (the arrangement of atoms associated with each lattice point)."
 ---
 
 ### 1.1 Lattices and Basis

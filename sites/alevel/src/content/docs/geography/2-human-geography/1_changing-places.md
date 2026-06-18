@@ -3,7 +3,7 @@ title: Changing Places
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: "A-Level Geography Changing Places notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.''
+description: "A-Level Geography Changing Places notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 ---
 
 # Changing Places

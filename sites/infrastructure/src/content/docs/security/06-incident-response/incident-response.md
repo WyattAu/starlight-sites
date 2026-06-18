@@ -1,6 +1,6 @@
 ---
 title: Incident Response
-description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...''
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and..."
 
 ---
 
@@ -209,7 +209,7 @@ Detection rules translate threat intelligence into automated alerts in your SIEM
 # Sigma rule: Detect suspicious PowerShell execution
 title: Suspicious PowerShell Encoded Command
 status: production
-description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and"
 logsource:
   category: process_creation
   product: windows
@@ -231,7 +231,7 @@ tags:
 # Sigma rule: Detect potential SSH brute force
 title: SSH Brute Force Attempt
 status: production
-description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...''
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and..."
 logsource:
   category: authentication
   product: linux

@@ -1,5 +1,5 @@
 ---
-title: "Matrices -- Diagnostic Tests''
+title: "Matrices -- Diagnostic Tests"
 description: "IB Maths Matrices -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---

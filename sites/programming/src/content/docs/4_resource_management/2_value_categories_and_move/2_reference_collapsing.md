@@ -1,6 +1,6 @@
 ---
 title: Reference Collapsing and Forwarding References
-description: "Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original...''
+description: "Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

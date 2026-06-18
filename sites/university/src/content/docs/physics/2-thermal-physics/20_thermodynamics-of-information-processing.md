@@ -3,7 +3,7 @@ title: Thermodynamics of Information Processing
 tags:
   - Physics
   - University
-description: "The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble''
+description: "The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 20.1 Landauer Bound in Practice

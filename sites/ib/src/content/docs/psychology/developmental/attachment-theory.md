@@ -1,6 +1,6 @@
 ---
 title: Attachment Theory
-description: "Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary Caregiver ( the mother). Attachment theory, originally...''
+description: "Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary Caregiver ( the mother). Attachment theory, originally..."
 
 ---
 

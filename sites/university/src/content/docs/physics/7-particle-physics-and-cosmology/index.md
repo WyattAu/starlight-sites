@@ -3,7 +3,7 @@ title: Particle Physics and Cosmology
 tags:
   - Physics
   - University
-description: "UNIVERSITY Physics notes: Particle Physics and Cosmology. Comprehensive study material with definitions, examples, and assessment tools.''
+description: "UNIVERSITY Physics notes: Particle Physics and Cosmology. Comprehensive study material with definitions, examples, and assessment tools."
 ---
 
 # Particle Physics and Cosmology

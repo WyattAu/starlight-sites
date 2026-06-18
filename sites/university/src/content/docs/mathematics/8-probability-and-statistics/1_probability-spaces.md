@@ -1,6 +1,6 @@
 ---
 title: Probability Spaces
-description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.''
+description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 tags:
   - Mathematics
   - University

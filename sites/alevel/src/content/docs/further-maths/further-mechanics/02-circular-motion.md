@@ -1,6 +1,6 @@
 ---
 title: Circular Motion
-description: "Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and...''
+description: "Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and..."
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

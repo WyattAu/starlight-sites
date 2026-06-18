@@ -1,5 +1,5 @@
 ---
-title: "Cells -- Diagnostic Tests''
+title: "Cells -- Diagnostic Tests"
 description: "A-Level Biology Cells -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---

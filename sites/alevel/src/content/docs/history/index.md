@@ -1,6 +1,6 @@
 ---
 title: A-Level History
-description: "A-Level History notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision and exam readiness.''
+description: "A-Level History notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision and exam readiness."
 date: 2026-05-12T00:00:00.000Z
 tags:
   - History

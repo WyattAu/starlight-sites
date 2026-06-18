@@ -1,5 +1,5 @@
 ---
-title: "Halogenoalkanes, Alcohols -- Diagnostic Tests''
+title: "Halogenoalkanes, Alcohols -- Diagnostic Tests"
 description: "A-Level Chemistry Halogenoalkanes, Alcohols -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

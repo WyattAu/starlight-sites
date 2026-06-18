@@ -1,6 +1,6 @@
 ---
 title: DNS and DHCP on Linux
-description: "The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 
 ---
 

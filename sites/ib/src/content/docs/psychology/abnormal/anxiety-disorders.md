@@ -1,6 +1,6 @@
 ---
 title: Anxiety Disorders
-description: 'Anxiety disorders are characterised by excessive, persistent fear and anxiety that are Disproportionate to the actual threat and that significantly impair...'
+description: "Anxiety disorders are characterised by excessive, persistent fear and anxiety that are Disproportionate to the actual threat and that significantly impair"
 
 ---
 

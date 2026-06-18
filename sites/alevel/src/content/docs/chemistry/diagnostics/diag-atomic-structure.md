@@ -1,5 +1,5 @@
 ---
-title: "Atomic Structure and Periodicity -- Diagnostic Tests''
+title: "Atomic Structure and Periodicity -- Diagnostic Tests"
 description: "A-Level Chemistry Atomic Structure and Periodicity -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

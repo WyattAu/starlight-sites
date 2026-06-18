@@ -1,6 +1,6 @@
 ---
 title: Database Design
-description: "Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping...''
+description: "Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping..."
 tags:
   - Databases
 categories:

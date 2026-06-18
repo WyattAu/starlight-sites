@@ -1,5 +1,5 @@
 ---
-title: "Human Reproduction and Homeostasis -- Diagnostic Tests''
+title: "Human Reproduction and Homeostasis -- Diagnostic Tests"
 description: "DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: A Level Mathematics Diagnostic Test
-description: "This diagnostic test contains spanning all A Level Mathematics topics. Each Question tests a specific concept and requires 2-5 steps. Attempt all questions...''
+description: "This diagnostic test contains spanning all A Level Mathematics topics. Each Question tests a specific concept and requires 2-5 steps. Attempt all questions..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

@@ -1,5 +1,5 @@
 ---
-title: "Sequences and Series -- Diagnostic Tests''
+title: "Sequences and Series -- Diagnostic Tests"
 description: "A-Level Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

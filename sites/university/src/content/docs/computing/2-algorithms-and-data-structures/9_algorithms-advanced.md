@@ -1,6 +1,6 @@
 ---
 title: Algorithms (Advanced)
-description: "Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing

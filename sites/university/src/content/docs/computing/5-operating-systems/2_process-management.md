@@ -3,7 +3,7 @@ title: Process Management
 tags:
   - Computing
   - University
-description: "A is an instance of a program in execution. The OS maintains a for each process: Comprehensive educational content coverage with definitions and practice proble''
+description: "A is an instance of a program in execution. The OS maintains a for each process: Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 2.1 Process Concept

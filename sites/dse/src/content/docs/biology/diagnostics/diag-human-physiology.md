@@ -1,5 +1,5 @@
 ---
-title: "Human Physiology -- Diagnostic Tests''
+title: "Human Physiology -- Diagnostic Tests"
 description: "DSE Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Core Utilities
-description: "GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These...''
+description: "GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These..."
 
 ---
 

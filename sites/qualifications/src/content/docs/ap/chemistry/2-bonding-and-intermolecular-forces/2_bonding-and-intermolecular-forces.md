@@ -1,6 +1,6 @@
 ---
 title: Bonding and Intermolecular Forces
-description: "Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
+description: "Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
 tags:
   - ap

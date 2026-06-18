@@ -1,6 +1,6 @@
 ---
 title: Physics - Kinematics
-description: "DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision.''
+description: "DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision."
 tags: [DSE, Physics]
 categories: [DSE, Physics]
 date: 2026-05-31T00:00:00.000Z

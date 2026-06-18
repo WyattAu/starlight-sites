@@ -1,6 +1,6 @@
 ---
 title: Computer Science
-description: 'Computer science is the study of computation, information, and abstraction. It encompasses the design and analysis of algorithms, the architecture of...'
+description: "Computer science is the study of computation, information, and abstraction. It encompasses the design and analysis of algorithms, the architecture of"
 ---
 
 # Computer Science

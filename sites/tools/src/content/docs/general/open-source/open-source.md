@@ -1,6 +1,6 @@
 ---
 title: Open Source Contribution Guide
-description: "General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.''
+description: "General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 
 ---
 

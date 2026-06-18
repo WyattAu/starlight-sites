@@ -1,6 +1,6 @@
 ---
 title: Astrophysics
-description: "The (AU) is the mean Earth--Sun distance, defined as exactly 149,597,870,700 m ( Comprehensive educational content coverage with definitions and practice proble''
+description: "The (AU) is the mean Earth--Sun distance, defined as exactly 149,597,870,700 m ( Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Physics

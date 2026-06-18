@@ -1,6 +1,6 @@
 ---
 title: Monitoring and Alerting
-description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.''
+description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
 

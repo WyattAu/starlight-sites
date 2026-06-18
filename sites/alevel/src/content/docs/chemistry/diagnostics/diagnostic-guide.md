@@ -1,6 +1,6 @@
 ---
 title: A-Level Chemistry Diagnostic Guide
-description: 'This diagnostic suite contains 13 topic-level tests for A-Level Chemistry. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3...'
+description: "This diagnostic suite contains 13 topic-level tests for A-Level Chemistry. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3"
 tableOfContents: false
 ---
 

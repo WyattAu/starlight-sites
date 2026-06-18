@@ -3,7 +3,7 @@ title: Scattering Theory
 tags:
   - Physics
   - University
-description: "For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble''
+description: "For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 12.1 Partial Wave Analysis

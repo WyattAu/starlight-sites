@@ -1,6 +1,6 @@
 ---
 title: Functions
-description: "Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble''
+description: "Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
 tags:
   - Kotlin

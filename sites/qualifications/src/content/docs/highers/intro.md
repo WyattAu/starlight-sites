@@ -1,7 +1,7 @@
 ---
 title: Scottish Highers
 date: 2026-04-14
-description: 'Scottish Highers and Advanced Highers are the main qualifications taken by students in Scotland, between the ages of 16 and 18. They are administered by the...'
+description: "Scottish Highers and Advanced Highers are the main qualifications taken by students in Scotland, between the ages of 16 and 18. They are administered by the"
 tags:
   - Highers
   - Advanced Highers

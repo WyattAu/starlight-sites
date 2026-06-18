@@ -1,6 +1,6 @@
 ---
 title: Fiscal Policy
-description: "We define as the use of government spending () and taxation () to influence The level of aggregate demand, economic activity, and the allocation of...''
+description: "We define as the use of government spending () and taxation () to influence The level of aggregate demand, economic activity, and the allocation of..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

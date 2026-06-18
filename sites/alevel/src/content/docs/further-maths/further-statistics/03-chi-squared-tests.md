@@ -1,6 +1,6 @@
 ---
 title: Chi-Squared Tests
-description: "The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two...''
+description: "The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two..."
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

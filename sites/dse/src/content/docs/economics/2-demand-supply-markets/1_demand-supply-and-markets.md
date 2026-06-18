@@ -1,6 +1,6 @@
 ---
 title: Economics - Demand, Supply, and Markets
-description: "Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being...''
+description: "Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being..."
 
 ---
 

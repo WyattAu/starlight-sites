@@ -1,5 +1,5 @@
 ---
-title: "Atomic and Nuclear Physics -- Diagnostic Tests''
+title: "Atomic and Nuclear Physics -- Diagnostic Tests"
 description: "IB Atomic and Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

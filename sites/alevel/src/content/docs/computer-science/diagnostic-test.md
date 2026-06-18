@@ -1,6 +1,6 @@
 ---
 title: A Level Computer Science — Diagnostic Test
-description: "This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each...''
+description: "This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

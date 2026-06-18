@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: "A-Level Biopsychology notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision and exam readiness.''
+description: "A-Level Biopsychology notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision and exam readiness."
 
 ---
 

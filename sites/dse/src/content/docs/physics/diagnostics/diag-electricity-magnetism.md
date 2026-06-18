@@ -1,5 +1,5 @@
 ---
-title: "Electricity and Magnetism -- Diagnostic Tests''
+title: "Electricity and Magnetism -- Diagnostic Tests"
 description: "DSE Physics Electricity and Magnetism -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

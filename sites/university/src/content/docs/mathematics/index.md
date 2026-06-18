@@ -1,6 +1,6 @@
 ---
 title: Mathematics
-description: 'This section presents proof-based undergraduate mathematics at the rigour expected of a university programme. The treatment emphasises precise definitions,...'
+description: "This section presents proof-based undergraduate mathematics at the rigour expected of a university programme. The treatment emphasises precise definitions,"
 ---
 
 # Mathematics

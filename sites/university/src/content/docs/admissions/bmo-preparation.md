@@ -1,6 +1,6 @@
 ---
 title: BMO Preparation
-description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.''
+description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-05-05T00:00:00.000Z
 tags:
   - Mathematics

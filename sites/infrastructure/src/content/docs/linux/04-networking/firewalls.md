@@ -1,6 +1,6 @@
 ---
 title: Linux Firewalls
-description: "Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux...''
+description: "Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux..."
 
 ---
 

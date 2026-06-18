@@ -1,6 +1,6 @@
 ---
 title: Irish LC Chemistry
-description: 'Leaving Certificate Chemistry covers atomic structure, bonding, stoichiometry, acids, bases, and organic chemistry. The course develops practical laboratory...'
+description: "Leaving Certificate Chemistry covers atomic structure, bonding, stoichiometry, acids, bases, and organic chemistry. The course develops practical laboratory"
 date: 2026-04-14
 tags:
   - ilc

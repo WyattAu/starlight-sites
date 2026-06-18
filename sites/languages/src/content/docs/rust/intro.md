@@ -1,6 +1,6 @@
 ---
 title: Introduction to Rust
-description: "Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery.''
+description: "Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery."
 
 ---
 

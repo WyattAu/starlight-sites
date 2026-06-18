@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: "A-Level Psychology Issues and Debates notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
+description: "A-Level Psychology Issues and Debates notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 
 ---
 

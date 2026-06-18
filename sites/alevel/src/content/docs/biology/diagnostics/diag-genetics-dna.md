@@ -1,5 +1,5 @@
 ---
-title: "Genetics and DNA -- Diagnostic Tests''
+title: "Genetics and DNA -- Diagnostic Tests"
 description: "A-Level Biology Genetics and DNA -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---

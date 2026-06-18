@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
+description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14
 tags:
   - highers

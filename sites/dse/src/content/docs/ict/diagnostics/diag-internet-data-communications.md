@@ -1,5 +1,5 @@
 ---
-title: "Internet and Data Communications -- Diagnostic Tests''
+title: "Internet and Data Communications -- Diagnostic Tests"
 description: "DSE Ict Internet and Data Communications -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

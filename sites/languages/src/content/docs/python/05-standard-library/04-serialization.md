@@ -1,6 +1,6 @@
 ---
 title: Serialization and Data Formats
-description: "The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance.''
+description: "The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance."
 
 ---
 

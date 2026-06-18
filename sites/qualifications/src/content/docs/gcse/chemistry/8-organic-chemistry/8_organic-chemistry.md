@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: 'is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains...'
+description: "is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains"
 date: 2026-04-14
 tags:
   - gcse

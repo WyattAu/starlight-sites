@@ -3,7 +3,7 @@ title: Hazards
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: "A-Level Geography Hazards notes covering key definitions, core concepts, worked examples, and practice questions for structured learning and effective revision.''
+description: "A-Level Geography Hazards notes covering key definitions, core concepts, worked examples, and practice questions for structured learning and effective revision."
 ---
 
 # Hazards

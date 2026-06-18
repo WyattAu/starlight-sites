@@ -1,6 +1,6 @@
 ---
 title: Light and Waves
-description: "This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major...''
+description: "This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major..."
 date: 2026-04-14
 tags:
   - ilc

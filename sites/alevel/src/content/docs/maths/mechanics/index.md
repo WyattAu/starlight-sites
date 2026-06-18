@@ -1,6 +1,6 @@
 ---
 title: Mechanics
-description: "A-Level Maths Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for systematic exam preparation and revision.''
+description: "A-Level Maths Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for systematic exam preparation and revision."
 ---
 
 # Mechanics

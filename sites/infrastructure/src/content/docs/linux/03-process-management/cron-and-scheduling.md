@@ -1,6 +1,6 @@
 ---
 title: Cron and Task Scheduling
-description: "The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for...''
+description: "The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for..."
 
 ---
 

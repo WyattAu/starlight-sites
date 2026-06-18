@@ -1,6 +1,6 @@
 ---
 title: Deques and Priority Queues
-description: "A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO).''
+description: "A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO)."
 
 ---
 

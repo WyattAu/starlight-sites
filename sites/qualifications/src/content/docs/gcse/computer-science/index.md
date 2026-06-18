@@ -1,6 +1,6 @@
 ---
 title: GCSE Computer Science
-description: "Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - gcse

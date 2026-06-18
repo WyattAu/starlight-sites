@@ -1,6 +1,6 @@
 ---
 title: Setting Up Home Server
-description: "For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems.''
+description: "For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-07-11T17:57:30.362Z
 tags:
   - OS

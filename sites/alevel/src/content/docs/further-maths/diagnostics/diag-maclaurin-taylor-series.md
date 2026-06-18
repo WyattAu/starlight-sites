@@ -1,5 +1,5 @@
 ---
-title: "Maclaurin and Taylor Series -- Diagnostic Tests''
+title: "Maclaurin and Taylor Series -- Diagnostic Tests"
 description: "A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

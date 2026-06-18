@@ -3,7 +3,7 @@ title: Hamiltonian Mechanics
 tags:
   - Physics
   - University
-description: "Hamiltonian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Hamiltonian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 4.1 Generalised Momentum

@@ -1,6 +1,6 @@
 ---
 title: A-Level Psychology
-description: "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.''
+description: "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
 date: 2026-05-12T00:00:00.000Z
 tags:
   - Psychology

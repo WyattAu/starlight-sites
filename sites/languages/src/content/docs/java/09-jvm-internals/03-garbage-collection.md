@@ -1,6 +1,6 @@
 ---
 title: Garbage Collection
-description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a...''
+description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a..."
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Virtual Threads and Structured Concurrency
-description: "A platform thread in Java maps 1:1 to an operating system thread. OS threads are expensive Resources: each consumes a stack (default 1 MB on 64-bit JVMs),...''
+description: "A platform thread in Java maps 1:1 to an operating system thread. OS threads are expensive Resources: each consumes a stack (default 1 MB on 64-bit JVMs),..."
 date: 2026-04-03T00:00:00.000Z
 tags: ["java']
 categories: ['java']

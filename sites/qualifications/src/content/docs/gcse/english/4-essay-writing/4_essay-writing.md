@@ -1,6 +1,6 @@
 ---
 title: Essay Writing for GCSE English Literature
-description: "GCSE Essay Writing for GCSE English Literature notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.''
+description: "GCSE Essay Writing for GCSE English Literature notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 date: 2026-04-22
 tags:
   - gcse

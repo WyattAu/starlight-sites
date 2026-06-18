@@ -1,6 +1,6 @@
 ---
 title: Unsafe Rust
-description: "The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem''
+description: "The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem"
 
 ---
 

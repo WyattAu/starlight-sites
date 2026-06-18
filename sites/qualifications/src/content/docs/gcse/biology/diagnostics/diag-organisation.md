@@ -1,5 +1,5 @@
 ---
-title: "Organisation -- Diagnostic Tests''
+title: "Organisation -- Diagnostic Tests"
 description: "(a) Label the main organs of the digestive system in order from mouth to anus. (b) Explain where and how starch, proteins, and lipids are digested, naming..."
 tableOfContents: false
 ---

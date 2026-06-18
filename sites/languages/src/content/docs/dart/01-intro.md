@@ -1,6 +1,6 @@
 ---
 title: Introduction to Dart & Flutter
-description: "This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble''
+description: "This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

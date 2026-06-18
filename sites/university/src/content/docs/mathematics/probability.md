@@ -1,6 +1,6 @@
 ---
 title: Probability Theory
-description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.''
+description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 date: 2026-04-26T00:00:00.000Z
 tags:
   - Mathematics

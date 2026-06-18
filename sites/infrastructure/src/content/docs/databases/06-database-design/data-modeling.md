@@ -1,6 +1,6 @@
 ---
 title: Data Modeling Patterns
-description: "Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your...''
+description: "Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your..."
 
 ---
 

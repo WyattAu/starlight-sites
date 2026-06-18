@@ -1,6 +1,6 @@
 ---
 title: Error Handling Patterns
-description: "Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers.''
+description: "Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers."
 
 ---
 

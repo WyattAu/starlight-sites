@@ -1,5 +1,5 @@
 ---
-title: "Polar Coordinates -- Diagnostic Tests''
+title: "Polar Coordinates -- Diagnostic Tests"
 description: "A-Level Further Maths Polar Coordinates -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

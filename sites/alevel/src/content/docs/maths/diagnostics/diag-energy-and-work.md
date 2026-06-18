@@ -1,5 +1,5 @@
 ---
-title: "Energy and Work -- Diagnostic Tests''
+title: "Energy and Work -- Diagnostic Tests"
 description: "A-Level Maths Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

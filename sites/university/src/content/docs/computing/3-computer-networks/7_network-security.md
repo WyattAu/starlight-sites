@@ -3,7 +3,7 @@ title: Network Security
 tags:
   - Computing
   - University
-description: "uses the same secret key for both encryption and decryption. Both parties Must share the key securely before communication.''
+description: "uses the same secret key for both encryption and decryption. Both parties Must share the key securely before communication."
 ---
 
 ### 7.1 Symmetric Encryption

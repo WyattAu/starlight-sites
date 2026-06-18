@@ -3,7 +3,7 @@ title: Stability and Phase Plane Analysis
 tags:
   - Mathematics
   - University
-description: "Stability and Phase Plane Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Stability and Phase Plane Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 9.1 Autonomous Systems

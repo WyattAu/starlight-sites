@@ -5,7 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description: "The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather...''
+description: "The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather..."
 ---
 
 ## strings Package

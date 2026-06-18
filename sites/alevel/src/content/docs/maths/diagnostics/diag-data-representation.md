@@ -1,5 +1,5 @@
 ---
-title: "Data Representation -- Diagnostic Tests''
+title: "Data Representation -- Diagnostic Tests"
 description: "A-Level Maths Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---

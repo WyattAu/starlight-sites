@@ -1,7 +1,7 @@
 ---
 template: splash
 title: Qualifications Notes
-description: 'These revision notes support students preparing for a variety of international secondary-level qualifications, including GCSE, AP, Scottish Highers, Irish...'
+description: "These revision notes support students preparing for a variety of international secondary-level qualifications, including GCSE, AP, Scottish Highers, Irish"
 hero:
   tagline: Notes and study materials
   actions:

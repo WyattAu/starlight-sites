@@ -1,5 +1,5 @@
 ---
-title: "Numerical Methods -- Diagnostic Tests''
+title: "Numerical Methods -- Diagnostic Tests"
 description: "A-Level Maths Numerical Methods -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

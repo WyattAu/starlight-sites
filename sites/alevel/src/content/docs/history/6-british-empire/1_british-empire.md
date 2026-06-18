@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History The British Empire c1688-1763 notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
+description: "A-Level History The British Empire c1688-1763 notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 ---
 
 # The British Empire c1688-1763

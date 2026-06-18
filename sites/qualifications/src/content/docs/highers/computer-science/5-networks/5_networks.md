@@ -1,6 +1,6 @@
 ---
 title: Web Design and Development
-description: "Scottish Highers Computer Science Web Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
+description: "Scottish Highers Computer Science Web Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
 tags:
   - highers

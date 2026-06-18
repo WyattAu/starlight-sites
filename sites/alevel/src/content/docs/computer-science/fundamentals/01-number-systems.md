@@ -1,6 +1,6 @@
 ---
 title: Number Systems
-description: "A represents a number as a sequence of digits Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "A represents a number as a sequence of digits Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

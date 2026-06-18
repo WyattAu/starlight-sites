@@ -1,6 +1,6 @@
 ---
 title: Advanced Type System
-description: "Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.''
+description: "Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

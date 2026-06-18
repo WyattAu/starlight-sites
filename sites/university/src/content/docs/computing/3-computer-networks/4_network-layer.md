@@ -3,7 +3,7 @@ title: Network Layer
 tags:
   - Computing
   - University
-description: "An IPv4 address is a 32-bit number in dotted-decimal: . Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "An IPv4 address is a 32-bit number in dotted-decimal: . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 4.1 IPv4 Addressing

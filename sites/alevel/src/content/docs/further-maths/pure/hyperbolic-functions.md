@@ -1,6 +1,6 @@
 ---
 title: Hyperbolic Functions (Extended)
-description: "This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble''
+description: "This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

@@ -3,7 +3,7 @@ title: Introduction and Classification
 tags:
   - Mathematics
   - University
-description: "A is an equation involving an unknown function and its derivatives. An involves a function of one variable and its ordinary Derivatives. A involves a...''
+description: "A is an equation involving an unknown function and its derivatives. An involves a function of one variable and its ordinary Derivatives. A involves a..."
 ---
 
 ### 1.1 Basic Definitions

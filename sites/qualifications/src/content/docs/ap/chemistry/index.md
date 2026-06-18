@@ -1,6 +1,6 @@
 ---
 title: AP Chemistry
-description: "Comprehensive revision notes for AP Chemistry, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for AP Chemistry, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

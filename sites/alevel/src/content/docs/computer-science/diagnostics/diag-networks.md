@@ -1,5 +1,5 @@
 ---
-title: "Computer Networks -- Diagnostic Tests''
+title: "Computer Networks -- Diagnostic Tests"
 description: "A-Level Computer Science Computer Networks -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

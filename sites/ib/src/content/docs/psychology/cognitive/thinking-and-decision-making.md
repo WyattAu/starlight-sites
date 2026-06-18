@@ -1,6 +1,6 @@
 ---
 title: Thinking and Decision Making
-description: "The study of thinking and decision making examines how people reason, judge, and choose. Research in This area has revealed that human thinking is subject...''
+description: "The study of thinking and decision making examines how people reason, judge, and choose. Research in This area has revealed that human thinking is subject..."
 
 ---
 

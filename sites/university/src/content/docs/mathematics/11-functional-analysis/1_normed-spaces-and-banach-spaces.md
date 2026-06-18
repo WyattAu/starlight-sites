@@ -3,7 +3,7 @@ title: Normed Spaces and Banach Spaces
 tags:
   - Mathematics
   - University
-description: "A is a vector space over or together with a Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "A is a vector space over or together with a Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 1.1 Normed Spaces

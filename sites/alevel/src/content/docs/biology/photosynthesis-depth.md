@@ -1,6 +1,6 @@
 ---
 title: Photosynthesis (In Depth)
-description: "Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for...''
+description: "Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for..."
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology

@@ -3,7 +3,7 @@ title: Fluctuation-Dissipation Theorem
 tags:
   - Physics
   - University
-description: "The (FDT) connects the response of a system to a small perturbation with the spontaneous fluctuations of the system at equilibrium.''
+description: "The (FDT) connects the response of a system to a small perturbation with the spontaneous fluctuations of the system at equilibrium."
 ---
 
 ### 13.1 Linear Response Theory

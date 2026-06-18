@@ -1,5 +1,5 @@
 ---
-title: "Modern China -- Diagnostic Tests''
+title: "Modern China -- Diagnostic Tests"
 description: "Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---

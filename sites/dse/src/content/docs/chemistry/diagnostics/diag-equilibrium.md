@@ -1,5 +1,5 @@
 ---
-title: "Chemical Equilibrium -- Diagnostic Tests''
+title: "Chemical Equilibrium -- Diagnostic Tests"
 description: "DSE Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: IB Geography
-description: "IB Geography is a two-year course that examines the relationships between individuals, societies, and the physical environment at a range of scales, from...''
+description: "IB Geography is a two-year course that examines the relationships between individuals, societies, and the physical environment at a range of scales, from..."
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Acids and Bases
-description: "Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,''
+description: "Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,"
 date: 2024-01-01T00:00:00Z
 tags:
   - IB

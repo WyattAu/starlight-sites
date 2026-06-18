@@ -1,6 +1,6 @@
 ---
 title: Wrap Up
-description: "Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, .../1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions.''
+description: "Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, .../1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions."
 date: 2024-01-01T00:00:00Z
 tags:
   - physics

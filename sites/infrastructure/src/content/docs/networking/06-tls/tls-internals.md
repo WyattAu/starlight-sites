@@ -1,6 +1,6 @@
 ---
 title: TLS Internals
-description: "This document goes deeper into TLS internals than the TLS fundamentals document, covering the record Layer architecture, detailed handshake message formats...''
+description: "This document goes deeper into TLS internals than the TLS fundamentals document, covering the record Layer architecture, detailed handshake message formats..."
 tags:
   - Networking
 categories:

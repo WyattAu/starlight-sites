@@ -1,6 +1,6 @@
 ---
 title: Irish LC Physics
-description: "Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills...''
+description: "Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills..."
 date: 2026-04-14
 tags:
   - ilc

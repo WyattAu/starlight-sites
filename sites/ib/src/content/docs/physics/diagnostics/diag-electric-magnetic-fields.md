@@ -1,5 +1,5 @@
 ---
-title: "Electric and Magnetic Fields -- Diagnostic Tests''
+title: "Electric and Magnetic Fields -- Diagnostic Tests"
 description: "IB Physics Electric and Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

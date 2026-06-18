@@ -1,6 +1,6 @@
 ---
 title: Discrete Mathematics
-description: "UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools.''
+description: "UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Computing

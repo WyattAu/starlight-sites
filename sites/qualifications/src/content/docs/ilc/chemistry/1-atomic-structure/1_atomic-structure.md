@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure
-description: "Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends.''
+description: "Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends."
 date: 2026-04-14
 tags:
   - ilc

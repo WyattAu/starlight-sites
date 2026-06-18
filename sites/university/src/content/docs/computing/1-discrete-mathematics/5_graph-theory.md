@@ -3,7 +3,7 @@ title: Graph Theory
 tags:
   - Computing
   - University
-description: "A consists of a set of vertices and a set of edges Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "A consists of a set of vertices and a set of edges Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 5.1 Definitions

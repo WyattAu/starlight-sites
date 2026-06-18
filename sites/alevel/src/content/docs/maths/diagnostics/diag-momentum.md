@@ -1,5 +1,5 @@
 ---
-title: "Momentum -- Diagnostic Tests''
+title: "Momentum -- Diagnostic Tests"
 description: "A-Level Maths Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 tableOfContents: false
 ---

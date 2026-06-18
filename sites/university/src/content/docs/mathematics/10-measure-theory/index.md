@@ -3,7 +3,7 @@ title: Measure Theory
 tags:
   - Mathematics
   - University
-description: "Measure Theory: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Measure Theory: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 # Measure Theory

@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —...''
+description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —..."
 ---
 
 # Democratic States: Challenges and Crises (1918--1939)

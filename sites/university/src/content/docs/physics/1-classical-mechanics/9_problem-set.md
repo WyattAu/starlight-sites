@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: "A particle of mass is placed on top of a smooth sphere of radius . It is given a tiny nudge so it begins to slide. At what angle does it leave the surface...''
+description: "A particle of mass is placed on top of a smooth sphere of radius . It is given a tiny nudge so it begins to slide. At what angle does it leave the surface..."
 ---
 
 ### Problem 1

@@ -3,7 +3,7 @@ title: Identical Particles and Exchange Symmetry
 tags:
   - Physics
   - University
-description: "For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems.''
+description: "For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 9.1 Symmetrisation Postulate

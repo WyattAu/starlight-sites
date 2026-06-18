@@ -1,6 +1,6 @@
 ---
 title: AP Biology
-description: "Comprehensive revision notes for AP Biology, aligned with the College Board Cour Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for AP Biology, aligned with the College Board Cour Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

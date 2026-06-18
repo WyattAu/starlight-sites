@@ -1,5 +1,5 @@
 ---
-title: "Limits and Continuity -- Diagnostic Tests''
+title: "Limits and Continuity -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for limits an Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:

@@ -3,7 +3,7 @@ title: Poetry Analysis Guide for IB English
 tags:
   - IB
   - English
-description: "Poetry is the most compressed and technically demanding literary form. Every word, every line break, Every sound pattern carries weight in a way that is not...''
+description: "Poetry is the most compressed and technically demanding literary form. Every word, every line break, Every sound pattern carries weight in a way that is not..."
 ---
 
 # Poetry Analysis Guide for IB English

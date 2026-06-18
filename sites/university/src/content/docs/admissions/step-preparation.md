@@ -1,6 +1,6 @@
 ---
 title: STEP Preparation
-description: "University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.''
+description: "University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-05-05T00:00:00.000Z
 tags:
   - Mathematics

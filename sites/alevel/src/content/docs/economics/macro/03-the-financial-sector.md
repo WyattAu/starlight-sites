@@ -1,6 +1,6 @@
 ---
 title: The Financial Sector
-description: "Commercial banks perform four key functions: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "Commercial banks perform four key functions: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

@@ -1,5 +1,5 @@
 ---
-title: "Hyperbolic Functions -- Diagnostic Tests''
+title: "Hyperbolic Functions -- Diagnostic Tests"
 description: "A-Level Further Maths Hyperbolic Functions -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

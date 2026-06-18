@@ -1,6 +1,6 @@
 ---
 title: Stoichiometry
-description: "Qualifications Chemistry Stoichiometry notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.''
+description: "Qualifications Chemistry Stoichiometry notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 date: 2026-04-14
 tags:
   - ap

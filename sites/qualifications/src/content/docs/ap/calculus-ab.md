@@ -1,6 +1,6 @@
 ---
 title: AP Calculus AB Study Guide
-description: "Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,...''
+description: "Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,..."
 date: 2026-05-31
 tags:
   - ap

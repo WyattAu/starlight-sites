@@ -1,5 +1,5 @@
 ---
-title: "Forces and Motion -- Diagnostic Tests''
+title: "Forces and Motion -- Diagnostic Tests"
 description: "DSE Physics Forces and Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

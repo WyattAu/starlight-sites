@@ -1,6 +1,6 @@
 ---
 title: Drainage Basins and Hydrology
-description: "A drainage basin (catchment or watershed) is the area of land from which all precipitation flows to A common outlet, where a river enters a lake, sea, or...''
+description: "A drainage basin (catchment or watershed) is the area of land from which all precipitation flows to A common outlet, where a river enters a lake, sea, or..."
 
 ---
 

@@ -3,7 +3,7 @@ title: Waveguides and Cavities
 tags:
   - Physics
   - University
-description: 'A rectangular waveguide with dimensions (width) and (height) supports electromagnetic waves propagating in the -direction. Two families of modes exist:...'
+description: "A rectangular waveguide with dimensions (width) and (height) supports electromagnetic waves propagating in the -direction. Two families of modes exist:"
 ---
 
 ### 9.1 Rectangular Waveguides

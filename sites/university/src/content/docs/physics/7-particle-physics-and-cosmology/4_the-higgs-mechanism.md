@@ -3,7 +3,7 @@ title: The Higgs Mechanism
 tags:
   - Physics
   - University
-description: "The Higgs mechanism gives mass to the and bosons while preserving gauge invariance. The Key idea: a scalar field acquires a non-zero , spontaneously...''
+description: "The Higgs mechanism gives mass to the and bosons while preserving gauge invariance. The Key idea: a scalar field acquires a non-zero , spontaneously..."
 ---
 
 ### 4.1 Spontaneous Symmetry Breaking

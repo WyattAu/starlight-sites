@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: "A-Level Psychology Memory notes covering key definitions, core concepts, worked examples, and practice questions for efficient exam preparation and revision.''
+description: "A-Level Psychology Memory notes covering key definitions, core concepts, worked examples, and practice questions for efficient exam preparation and revision."
 
 ---
 

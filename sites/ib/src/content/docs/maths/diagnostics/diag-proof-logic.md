@@ -1,5 +1,5 @@
 ---
-title: "Proof and Logic -- Diagnostic Tests''
+title: "Proof and Logic -- Diagnostic Tests"
 description: "IB Maths Proof and Logic -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---

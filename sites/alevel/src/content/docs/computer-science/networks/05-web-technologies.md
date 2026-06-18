@@ -1,6 +1,6 @@
 ---
 title: Web Technologies
-description: "Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - ComputerScience

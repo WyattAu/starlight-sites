@@ -1,5 +1,5 @@
 ---
-title: "A-Level Computer Science -- Diagnostic Guide''
+title: "A-Level Computer Science -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source Files | | ------------------------------- | ---------------------------------------------------------------------..."
 tableOfContents: false
 ---

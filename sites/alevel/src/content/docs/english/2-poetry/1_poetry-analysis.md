@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Poetry Analysis notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
+description: "A-Level English Poetry Analysis notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 
 ---
 

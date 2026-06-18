@@ -3,7 +3,7 @@ title: Generalised Coordinates and Constraints
 tags:
   - Physics
   - University
-description: "A system with degrees of freedom can be described by Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "A system with degrees of freedom can be described by Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 2.1 Generalised Coordinates

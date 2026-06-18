@@ -1,6 +1,6 @@
 ---
 title: AP Calculus
-description: "Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Boa Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Boa Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

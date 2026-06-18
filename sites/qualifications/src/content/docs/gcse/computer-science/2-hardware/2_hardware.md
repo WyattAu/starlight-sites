@@ -1,6 +1,6 @@
 ---
 title: Computer Systems
-description: "The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems''
+description: "The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems"
 date: 2026-04-14
 tags:
   - gcse

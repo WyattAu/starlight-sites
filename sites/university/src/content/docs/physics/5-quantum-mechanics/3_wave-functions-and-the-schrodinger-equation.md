@@ -3,7 +3,7 @@ title: Wave Functions and the Schrodinger Equation
 tags:
   - Physics
   - University
-description: "In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble''
+description: "In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 3.1 Wave Functions

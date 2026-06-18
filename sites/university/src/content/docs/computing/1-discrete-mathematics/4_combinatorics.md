@@ -3,7 +3,7 @@ title: Combinatorics
 tags:
   - Computing
   - University
-description: "If task can be done in ways and task in ways, and they cannot both be Done, then Comprehensive educational content coverage with definitions and practice proble''
+description: "If task can be done in ways and task in ways, and they cannot both be Done, then Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 4.1 Counting Principles

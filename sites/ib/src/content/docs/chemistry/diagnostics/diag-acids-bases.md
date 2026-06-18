@@ -1,5 +1,5 @@
 ---
-title: "Acids and Bases -- Diagnostic Tests''
+title: "Acids and Bases -- Diagnostic Tests"
 description: "IB Chemistry Acids and Bases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
 tableOfContents: false
 ---

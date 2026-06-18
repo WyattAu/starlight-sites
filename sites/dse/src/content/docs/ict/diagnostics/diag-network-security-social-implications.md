@@ -1,5 +1,5 @@
 ---
-title: "Network Security and Social Implications -- Diagnostic Tests''
+title: "Network Security and Social Implications -- Diagnostic Tests"
 description: "DSE Ict Network Security and Social Implications -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Kinematics -- Diagnostic Tests''
+title: "Kinematics -- Diagnostic Tests"
 description: "A-Level Physics Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 tableOfContents: false
 ---

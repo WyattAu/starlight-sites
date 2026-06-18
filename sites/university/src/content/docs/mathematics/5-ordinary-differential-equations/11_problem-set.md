@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: "Classify the ODE by order, linearity, and homogeneity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "Classify the ODE by order, linearity, and homogeneity. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### Problem 1 (Classification)

@@ -1,6 +1,6 @@
 ---
 title: Move Constructors, Assignment, Swap Idiom
-description: "Move semantics allow resources to be transferred between objects without copying. The move Constructor steals resources from a source object, leaving it in...''
+description: "Move semantics allow resources to be transferred between objects without copying. The move Constructor steals resources from a source object, leaving it in..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

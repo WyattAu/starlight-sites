@@ -1,6 +1,6 @@
 ---
 title: Stress Testing and Validation
-description: "Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems.''
+description: "Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
 

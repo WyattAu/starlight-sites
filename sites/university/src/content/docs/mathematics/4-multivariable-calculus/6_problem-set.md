@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: "UNIVERSITY Mathematics notes: Problem Set. Comprehensive study material with definitions, examples, and assessment tools.''
+description: "UNIVERSITY Mathematics notes: Problem Set. Comprehensive study material with definitions, examples, and assessment tools."
 ---
 
 ### Problem 1

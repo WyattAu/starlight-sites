@@ -3,7 +3,7 @@ title: Vector Calculus
 tags:
   - Mathematics
   - University
-description: "Vector Calculus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Vector Calculus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 3.1 Vector Fields

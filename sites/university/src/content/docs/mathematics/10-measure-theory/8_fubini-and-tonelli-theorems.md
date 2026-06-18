@@ -3,7 +3,7 @@ title: Fubini and Tonelli Theorems
 tags:
   - Mathematics
   - University
-description: "Let and be -finite measure spaces. The is Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "Let and be -finite measure spaces. The is Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 8.1 Product Measures

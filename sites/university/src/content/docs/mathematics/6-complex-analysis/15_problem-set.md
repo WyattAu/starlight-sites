@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: "Express in polar form and find all values of . Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "Express in polar form and find all values of . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### Problem 1

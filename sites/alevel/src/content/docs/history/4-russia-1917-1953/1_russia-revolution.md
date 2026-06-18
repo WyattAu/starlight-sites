@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History Russia 1917-1953 notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.''
+description: "A-Level History Russia 1917-1953 notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 ---
 
 # Russia 1917-1953

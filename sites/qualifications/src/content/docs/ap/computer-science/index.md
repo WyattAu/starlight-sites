@@ -1,6 +1,6 @@
 ---
 title: AP Computer Science
-description: "Comprehensive revision notes for AP Computer Science, aligned with the College B Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for AP Computer Science, aligned with the College B Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

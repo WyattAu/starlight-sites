@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: "A-Level Psychology Attachment notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation.''
+description: "A-Level Psychology Attachment notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation."
 
 ---
 

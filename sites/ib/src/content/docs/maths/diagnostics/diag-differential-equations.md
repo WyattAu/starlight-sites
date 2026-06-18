@@ -1,5 +1,5 @@
 ---
-title: "Differential Equations -- Diagnostic Tests''
+title: "Differential Equations -- Diagnostic Tests"
 description: "IB Maths Differential Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---

@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Literary Analysis notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.''
+description: "A-Level English Literary Analysis notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 
 ---
 

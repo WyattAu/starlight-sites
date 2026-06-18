@@ -3,7 +3,7 @@ title: Measurable Functions
 tags:
   - Mathematics
   - University
-description: "Let and be measurable spaces. A function is if for every . When , we equip with  Comprehensive educational content coverage with definitions and practice proble''
+description: "Let and be measurable spaces. A function is if for every . When , we equip with  Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 5.1 Definition

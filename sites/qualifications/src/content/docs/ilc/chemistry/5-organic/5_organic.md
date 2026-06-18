@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: "ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness.''
+description: "ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness."
 date: 2026-04-14
 tags:
   - ilc

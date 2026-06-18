@@ -3,7 +3,7 @@ title: Sets, Relations, and Functions
 tags:
   - Computing
   - University
-description: "Sets, Relations, and Functions: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Sets, Relations, and Functions: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 2.1 Sets

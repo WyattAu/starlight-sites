@@ -1,6 +1,6 @@
 ---
 title: Transfer Protocols and Authentication
-description: "Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and...''
+description: "Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and..."
 
 ---
 

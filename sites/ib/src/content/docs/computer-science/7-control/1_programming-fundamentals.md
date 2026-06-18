@@ -1,6 +1,6 @@
 ---
 title: Programming Fundamentals
-description: "Rigorous IB computer science notes covering Programming Fundamentals. Includes definitions, derivations, worked examples, and exam-style problems.''
+description: "Rigorous IB computer science notes covering Programming Fundamentals. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - IB

@@ -5,7 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description: "is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides...''
+description: "is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides..."
 ---
 
 ## 1. Introduction

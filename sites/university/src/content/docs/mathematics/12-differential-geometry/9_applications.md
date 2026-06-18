@@ -3,7 +3,7 @@ title: Applications
 tags:
   - Mathematics
   - University
-description: 'In general relativity, the metric on a 4-dimensional manifold encodes gravity. Geodesics of the metric describe the trajectories of freely falling...'
+description: "In general relativity, the metric on a 4-dimensional manifold encodes gravity. Geodesics of the metric describe the trajectories of freely falling"
 ---
 
 ### 9.1 General Relativity

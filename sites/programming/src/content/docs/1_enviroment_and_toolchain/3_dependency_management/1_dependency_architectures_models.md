@@ -1,6 +1,6 @@
 ---
 title: Dependency Resolution
-description: "Unlike languages with a unified ecosystem (Rust/Cargo, Node/NPM, Python/Pip), C++ does not utilize a Centralized registry or a standard package manager....''
+description: "Unlike languages with a unified ecosystem (Rust/Cargo, Node/NPM, Python/Pip), C++ does not utilize a Centralized registry or a standard package manager...."
 date: 2025-12-11T03:49:07.185Z
 tags:
   - cpp

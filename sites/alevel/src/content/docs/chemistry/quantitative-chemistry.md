@@ -1,6 +1,6 @@
 ---
 title: Quantitative Chemistry (Stoichiometry)
-description: "One mole of any substance contains exactly entities (atoms, molecules, ions, or  Comprehensive educational content coverage with definitions and practice proble''
+description: "One mole of any substance contains exactly entities (atoms, molecules, ions, or  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

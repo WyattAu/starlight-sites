@@ -1,6 +1,6 @@
 ---
 title: Further Pure Mathematics 1
-description: "| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,...''
+description: "| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,..."
 date: 2026-05-31
 tags:
   - Maths

@@ -1,5 +1,5 @@
 ---
-title: "Forces -- Diagnostic Tests''
+title: "Forces -- Diagnostic Tests"
 description: "(a) State Newton"'s three laws of motion. (b) A 5 kg object is acted on by two forces: 30 N to the right and 20 N to the left. Calculate the acceleration...."
 tableOfContents: false
 ---

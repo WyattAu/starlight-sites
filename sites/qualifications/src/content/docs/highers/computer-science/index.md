@@ -1,6 +1,6 @@
 ---
 title: Scottish Highers Computer Science
-description: 'Higher Computer Science covers hardware, software development, databases, algorithms, and web technologies. The course combines theoretical understanding...'
+description: "Higher Computer Science covers hardware, software development, databases, algorithms, and web technologies. The course combines theoretical understanding"
 date: 2026-04-14
 tags:
   - highers

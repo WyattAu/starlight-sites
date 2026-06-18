@@ -1,5 +1,5 @@
 ---
-title: "Programming and Databases -- Diagnostic Tests''
+title: "Programming and Databases -- Diagnostic Tests"
 description: "DSE Ict Programming and Databases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---

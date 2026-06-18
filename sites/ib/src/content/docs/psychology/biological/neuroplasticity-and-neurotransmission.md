@@ -1,6 +1,6 @@
 ---
 title: Neuroplasticity and Neurotransmission
-description: "Synaptic transmission is the process by which neurons communicate with one another. It is the Fundamental mechanism underlying all neural activity, from...''
+description: "Synaptic transmission is the process by which neurons communicate with one another. It is the Fundamental mechanism underlying all neural activity, from..."
 
 ---
 

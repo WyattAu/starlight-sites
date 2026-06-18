@@ -1,6 +1,6 @@
 ---
 title: Cooling Systems
-description: "Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems.''
+description: "Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
 

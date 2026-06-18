@@ -1,6 +1,6 @@
 ---
 title: Genetics and Behaviour
-description: "The question of how much behaviour is determined by genes versus environment is one of the oldest And most contentious in psychology. Behaviour genetics is...''
+description: "The question of how much behaviour is determined by genes versus environment is one of the oldest And most contentious in psychology. Behaviour genetics is..."
 
 ---
 

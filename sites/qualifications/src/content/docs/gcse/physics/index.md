@@ -1,6 +1,6 @@
 ---
 title: GCSE Physics
-description: "Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - gcse

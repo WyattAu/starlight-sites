@@ -1,6 +1,6 @@
 ---
 title: Testing in Java
-description: "JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble''
+description: "JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

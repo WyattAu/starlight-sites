@@ -1,5 +1,5 @@
 ---
-title: "Coordinate Geometry -- Diagnostic Tests''
+title: "Coordinate Geometry -- Diagnostic Tests"
 description: "DSE Maths Coordinate Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.'
 tableOfContents: false
 ---

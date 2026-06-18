@@ -1,6 +1,6 @@
 ---
 title: Introduction to Python
-description: "Python Introduction to Python notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision.''
+description: "Python Introduction to Python notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision."
 tags:
   - Python
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Abstraction and Data Management
-description: "Rigorous IB computer science notes covering Abstraction and Data Management. Includes definitions, derivations, worked examples, and exam-style problems.''
+description: "Rigorous IB computer science notes covering Abstraction and Data Management. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - IB

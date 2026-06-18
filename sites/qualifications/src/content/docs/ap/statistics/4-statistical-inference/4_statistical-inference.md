@@ -1,6 +1,6 @@
 ---
 title: Statistical Inference
-description: 'Statistical inference uses sample data to draw conclusions about a population. There are two main types: (estimating a parameter) and (testing a claim about...'
+description: "Statistical inference uses sample data to draw conclusions about a population. There are two main types: (estimating a parameter) and (testing a claim about"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

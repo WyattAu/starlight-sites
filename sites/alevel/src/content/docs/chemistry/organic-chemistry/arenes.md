@@ -1,6 +1,6 @@
 ---
 title: Arenes
-description: "Arenes are hydrocarbons containing one or more benzene rings. Benzene () Is the archetypal aromatic compound. Its structure and reactivity differ...''
+description: "Arenes are hydrocarbons containing one or more benzene rings. Benzene () Is the archetypal aromatic compound. Its structure and reactivity differ..."
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

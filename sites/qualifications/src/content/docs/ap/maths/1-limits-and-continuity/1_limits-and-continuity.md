@@ -1,6 +1,6 @@
 ---
 title: Limits and Continuity
-description: "The limit of a function as approaches is the value that approaches, regardless O Comprehensive educational content coverage with definitions and practice proble''
+description: "The limit of a function as approaches is the value that approaches, regardless O Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

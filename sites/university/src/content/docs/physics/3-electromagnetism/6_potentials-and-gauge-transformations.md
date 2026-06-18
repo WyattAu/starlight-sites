@@ -3,7 +3,7 @@ title: Potentials and Gauge Transformations
 tags:
   - Physics
   - University
-description: "We can express the fields in terms of potentials: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "We can express the fields in terms of potentials: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 6.1 Scalar and Vector Potentials

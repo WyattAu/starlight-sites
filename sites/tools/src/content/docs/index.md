@@ -1,7 +1,7 @@
 ---
 template: splash
 title: Developer Tools & Knowledge
-description: '| Topic | Key Concepts | |-------|--------------| | | Big-O, Master Theorem, amortised analysis | | | Two pointers, sliding window, hashing | | | Monotonic...'
+description: "| Topic | Key Concepts | |-------|--------------| | | Big-O, Master Theorem, amortised analysis | | | Two pointers, sliding window, hashing | | | Monotonic"
 hero:
   tagline: Developer tools and foundational knowledge notes. Covers algorithms, data structures, version control, licensing, and probabilistic ML — the engineering fundamentals that underpin every project.
   actions:

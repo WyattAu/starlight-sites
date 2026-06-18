@@ -2,7 +2,7 @@
 title: Connectedness
 tags:
   - University Maths
-description: "A topological space is if there exist nonempty disjoint open sets with . Such a  Comprehensive educational content coverage with definitions and practice proble''
+description: "A topological space is if there exist nonempty disjoint open sets with . Such a  Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 6.1 Connected and Disconnected Spaces

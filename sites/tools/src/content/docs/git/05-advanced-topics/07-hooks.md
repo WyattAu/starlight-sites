@@ -1,6 +1,6 @@
 ---
 title: Git Hooks
-description: "Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and...''
+description: "Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and..."
 
 ---
 

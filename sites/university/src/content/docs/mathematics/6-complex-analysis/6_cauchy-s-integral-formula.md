@@ -3,7 +3,7 @@ title: Cauchy's Integral Formula
 tags:
   - Mathematics
   - University
-description: "If is analytic on a connected domain Containing a simple closed positively orien Comprehensive educational content coverage with definitions and practice proble''
+description: "If is analytic on a connected domain Containing a simple closed positively orien Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 6.1 Statement

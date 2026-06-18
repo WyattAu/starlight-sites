@@ -1,6 +1,6 @@
 ---
 title: IB Physics Diagnostic Guide
-description: "This diagnostic suite contains 12 topic-level tests for IB Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3 integration...''
+description: "This diagnostic suite contains 12 topic-level tests for IB Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3 integration..."
 tableOfContents: false
 ---
 

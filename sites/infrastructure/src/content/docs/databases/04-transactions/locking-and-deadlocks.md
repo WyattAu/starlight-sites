@@ -1,6 +1,6 @@
 ---
 title: Locking and Deadlocks
-description: "PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance...''
+description: "PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance..."
 
 ---
 

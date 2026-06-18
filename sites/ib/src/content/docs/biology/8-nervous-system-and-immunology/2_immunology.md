@@ -1,6 +1,6 @@
 ---
 title: Immunology
-description: "IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,''
+description: "IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

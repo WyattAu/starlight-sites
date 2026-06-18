@@ -1,6 +1,6 @@
 ---
 title: Astrophysics
-description: "A-Level Astrophysics notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation.''
+description: "A-Level Astrophysics notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation."
 ---
 
 # Astrophysics

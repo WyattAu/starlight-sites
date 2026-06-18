@@ -1,6 +1,6 @@
 ---
 title: Nervous System
-description: "The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems.''
+description: "The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology

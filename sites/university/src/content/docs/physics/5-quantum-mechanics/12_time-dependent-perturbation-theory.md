@@ -3,7 +3,7 @@ title: Time-Dependent Perturbation Theory
 tags:
   - Physics
   - University
-description: "For a time-dependent perturbation applied to an initial state Comprehensive educational content coverage with definitions and practice problems.''
+description: "For a time-dependent perturbation applied to an initial state Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 11.1 Fermi"s Golden Rule

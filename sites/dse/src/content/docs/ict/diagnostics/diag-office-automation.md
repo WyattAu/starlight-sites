@@ -1,5 +1,5 @@
 ---
-title: "Office Automation and Productivity -- Diagnostic Tests''
+title: "Office Automation and Productivity -- Diagnostic Tests"
 description: "DSE Ict Office Automation and Productivity -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

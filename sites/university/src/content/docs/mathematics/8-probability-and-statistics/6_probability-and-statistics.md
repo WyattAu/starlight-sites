@@ -1,6 +1,6 @@
 ---
 title: Probability and Statistics
-description: "Probability and Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "Probability and Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

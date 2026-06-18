@@ -1,5 +1,5 @@
 ---
-title: "GCSE Maths -- Diagnostic Guide''
+title: "GCSE Maths -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | -------------------------- | ---------------------------------------------------------------------------..."
 tableOfContents: false
 ---

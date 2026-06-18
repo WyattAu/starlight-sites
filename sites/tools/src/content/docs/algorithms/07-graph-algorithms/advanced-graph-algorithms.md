@@ -1,6 +1,6 @@
 ---
 title: Advanced Graph Algorithms
-description: "Algorithms Advanced Graph Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
+description: "Algorithms Advanced Graph Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 
 ---
 

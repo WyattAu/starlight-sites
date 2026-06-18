@@ -1,6 +1,6 @@
 ---
 title: Inheritance, Variation, and Evolution
-description: "DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called .''
+description: "DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called ."
 date: 2026-04-14
 tags:
   - gcse

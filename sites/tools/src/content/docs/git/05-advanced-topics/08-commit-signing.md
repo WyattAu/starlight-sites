@@ -1,6 +1,6 @@
 ---
 title: Commit Signing
-description: "Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of...''
+description: "Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of..."
 
 ---
 

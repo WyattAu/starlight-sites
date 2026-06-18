@@ -1,6 +1,6 @@
 ---
 title: Urban Planning and Sustainability
-description: "Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their...''
+description: "Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their..."
 
 ---
 

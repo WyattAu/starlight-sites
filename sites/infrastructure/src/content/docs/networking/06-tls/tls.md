@@ -1,6 +1,6 @@
 ---
 title: TLS
-description: "Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure...''
+description: "Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure..."
 tags:
   - Networking
 categories:

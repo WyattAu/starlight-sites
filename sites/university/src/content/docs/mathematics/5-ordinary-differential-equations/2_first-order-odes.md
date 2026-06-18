@@ -3,7 +3,7 @@ title: First-Order ODEs
 tags:
   - Mathematics
   - University
-description: "First-Order ODEs: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
+description: "First-Order ODEs: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
 ### 2.1 Separable Equations

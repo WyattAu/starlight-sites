@@ -1,5 +1,5 @@
 ---
-title: "Capacitance -- Diagnostic Tests''
+title: "Capacitance -- Diagnostic Tests"
 description: "A-Level Physics Capacitance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 tableOfContents: false
 ---

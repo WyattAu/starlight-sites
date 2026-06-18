@@ -1,6 +1,6 @@
 ---
 title: DSE Geography
-description: "Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style...''
+description: "Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style..."
 tableOfContents: false
 tags:
   - geography

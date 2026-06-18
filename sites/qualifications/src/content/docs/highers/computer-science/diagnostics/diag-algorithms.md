@@ -1,5 +1,5 @@
 ---
-title: "Algorithms -- Diagnostic Tests''
+title: "Algorithms -- Diagnostic Tests"
 description: "QUALIFICATIONS Highers notes: Algorithms -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---

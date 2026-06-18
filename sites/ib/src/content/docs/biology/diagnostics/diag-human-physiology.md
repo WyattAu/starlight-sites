@@ -1,5 +1,5 @@
 ---
-title: "Human Physiology -- Diagnostic Tests''
+title: "Human Physiology -- Diagnostic Tests"
 description: "IB Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.'
 tableOfContents: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Statistics and Probability
-description: "Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
+description: "Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14
 tags:
   - highers

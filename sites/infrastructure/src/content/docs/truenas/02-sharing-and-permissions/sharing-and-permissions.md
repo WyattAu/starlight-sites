@@ -1,6 +1,6 @@
 ---
 title: Sharing and Permissions
-description: "Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support...''
+description: "Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support..."
 
 ---
 

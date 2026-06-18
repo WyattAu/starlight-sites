@@ -1,6 +1,6 @@
 ---
 title: Concurrency Deep Dive
-description: "provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition...''
+description: "provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition..."
 
 ---
 

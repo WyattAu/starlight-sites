@@ -1,6 +1,6 @@
 ---
 title: Boolean Algebra
-description: "We define the Boolean algebra over with operations: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "We define the Boolean algebra over with operations: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

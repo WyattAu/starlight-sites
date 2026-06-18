@@ -1,6 +1,6 @@
 ---
 title: AP Statistics
-description: "Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble''
+description: "Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

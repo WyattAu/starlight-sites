@@ -1,5 +1,5 @@
 ---
-title: "A-Level Maths -- Diagnostic Test Guide''
+title: "A-Level Maths -- Diagnostic Test Guide"
 description: "A-Level Maths -- Diagnostic Test notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---

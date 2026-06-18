@@ -3,7 +3,7 @@ title: Further Reading
 tags:
   - Computing
   - University
-description: '- Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th ed.). - Ramakrishnan, Gehrke: _Database Management Systems_ (3rd ed.). - Elmasri, Navathe:...'
+description: "- Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th ed.). - Ramakrishnan, Gehrke: _Database Management Systems_ (3rd ed.). - Elmasri, Navathe:"
 ---
 
 - Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th ed.).

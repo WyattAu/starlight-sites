@@ -1,5 +1,5 @@
 ---
-title: "Radioactivity -- Diagnostic Tests''
+title: "Radioactivity -- Diagnostic Tests"
 description: "A-Level Physics Radioactivity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
 tableOfContents: false
 ---

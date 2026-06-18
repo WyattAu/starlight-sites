@@ -3,7 +3,7 @@ title: Common Pitfalls
 tags:
   - Physics
   - University
-description: '- The microcanonical ensemble describes an isolated system with fixed . The canonical ensemble describes a system in contact with a heat bath at fixed . The...'
+description: "- The microcanonical ensemble describes an isolated system with fixed . The canonical ensemble describes a system in contact with a heat bath at fixed . The"
 ---
 
 - **Confusing the microcanonical, canonical, and grand canonical ensembles.** The microcanonical

@@ -3,7 +3,7 @@ title: Global Systems and Governance
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: "A-Level Geography Global Systems and Governance notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
+description: "A-Level Geography Global Systems and Governance notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 ---
 
 # Global Systems and Governance

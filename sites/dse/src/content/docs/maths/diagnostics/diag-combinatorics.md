@@ -1,5 +1,5 @@
 ---
-title: "Combinatorics -- Diagnostic Tests''
+title: "Combinatorics -- Diagnostic Tests"
 description: "DSE Maths Combinatorics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---

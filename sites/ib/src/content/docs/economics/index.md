@@ -1,6 +1,6 @@
 ---
 title: IB Economics
-description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness.''
+description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness."
 tags: [ib, ib-economics]
 categories: [ib-economics]
 date: 2026-05-21

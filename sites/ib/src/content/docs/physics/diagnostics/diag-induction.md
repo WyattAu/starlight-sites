@@ -1,5 +1,5 @@
 ---
-title: "Induction -- Diagnostic Tests''
+title: "Induction -- Diagnostic Tests"
 description: "IB Physics Induction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 tableOfContents: false
 ---

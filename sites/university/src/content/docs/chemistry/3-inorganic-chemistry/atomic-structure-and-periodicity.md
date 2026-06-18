@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure and Periodicity
-description: "Each atomic orbital is characterized by four quantum numbers: Comprehensive educational content coverage with definitions and practice problems.''
+description: "Each atomic orbital is characterized by four quantum numbers: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry

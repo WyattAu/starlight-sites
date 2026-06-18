@@ -1,5 +1,5 @@
 ---
-title: "Carbonyl Compounds, Arenes, Amines -- Diagnostic Tests''
+title: "Carbonyl Compounds, Arenes, Amines -- Diagnostic Tests"
 description: "A-Level Chemistry Carbonyl Compounds, Arenes, Amines -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---

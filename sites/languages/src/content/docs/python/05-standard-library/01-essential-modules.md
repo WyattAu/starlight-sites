@@ -1,6 +1,6 @@
 ---
 title: Essential Modules
-description: "The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths....''
+description: "The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths...."
 date: 2025-06-04T14:00:00.000Z
 tags:
   - Python

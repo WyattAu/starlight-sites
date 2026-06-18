@@ -1,6 +1,6 @@
 ---
 title: Acids, Bases & Buffers
-description: "An is a proton () donor. A is a proton acceptor. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "An is a proton () donor. A is a proton acceptor. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

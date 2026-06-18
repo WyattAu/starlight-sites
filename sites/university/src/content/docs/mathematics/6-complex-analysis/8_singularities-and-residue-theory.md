@@ -3,7 +3,7 @@ title: Singularities and Residue Theory
 tags:
   - Mathematics
   - University
-description: "Let be an isolated singularity of (i.e., is analytic in a punctured neighbourhoo Comprehensive educational content coverage with definitions and practice proble''
+description: "Let be an isolated singularity of (i.e., is analytic in a punctured neighbourhoo Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 8.1 Isolated Singularities

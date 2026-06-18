@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: "A-Level English Shakespeare notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.''
+description: "A-Level English Shakespeare notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 
 ---
 

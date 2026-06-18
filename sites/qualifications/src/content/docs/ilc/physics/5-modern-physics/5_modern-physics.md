@@ -1,6 +1,6 @@
 ---
 title: Modern Physics
-description: "Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast. Key topics include the photoelectric effect, atomic...''
+description: "Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast. Key topics include the photoelectric effect, atomic..."
 date: 2026-04-14
 tags:
   - ilc

@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: "A-Level History Historical Skills notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.''
+description: "A-Level History Historical Skills notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 ---
 
 # Historical Skills

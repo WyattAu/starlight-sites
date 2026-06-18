@@ -1,6 +1,6 @@
 ---
 title: I/O Redirection and Pipes
-description: "Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers...''
+description: "Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers..."
 
 ---
 

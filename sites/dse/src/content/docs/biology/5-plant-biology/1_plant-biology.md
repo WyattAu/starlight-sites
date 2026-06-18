@@ -1,6 +1,6 @@
 ---
 title: Plant Biology
-description: "Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules....''
+description: "Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules...."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

@@ -1,6 +1,6 @@
 ---
 title: Discrete Mathematics
-description: 'Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities...'
+description: "Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities"
 tags:
   - Computing
   - University

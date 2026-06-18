@@ -3,7 +3,7 @@ title: Landau Theory of Phase Transitions
 tags:
   - Physics
   - University
-description: "Landau theory provides a phenomenological framework for continuous (second-order) phase transitions by expanding the free energy in powers of an .''
+description: "Landau theory provides a phenomenological framework for continuous (second-order) phase transitions by expanding the free energy in powers of an ."
 ---
 
 Landau theory provides a phenomenological framework for continuous (second-order) phase transitions

@@ -1,6 +1,6 @@
 ---
 title: Human Physiology
-description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction.''
+description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

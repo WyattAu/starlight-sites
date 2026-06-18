@@ -2,7 +2,7 @@
 title: Chronicle of a Death Foretold
 tags:
   - english
-description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work...''
+description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work..."
 ---
 
 ## Author Context

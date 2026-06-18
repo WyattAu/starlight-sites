@@ -1,6 +1,6 @@
 ---
 title: Quantities and Units
-description: "We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics

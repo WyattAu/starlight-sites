@@ -1,6 +1,6 @@
 ---
 title: Measurement and Data Processing
-description: "Rigorous IB chemistry notes covering Measurement and Data Processing. Includes definitions, derivations, worked examples, and exam-style problems.''
+description: "Rigorous IB chemistry notes covering Measurement and Data Processing. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib

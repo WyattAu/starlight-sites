@@ -1,6 +1,6 @@
 ---
 title: Treatment Evaluation
-description: "Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural...''
+description: "Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural..."
 
 ---
 

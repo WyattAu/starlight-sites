@@ -1,6 +1,6 @@
 ---
 title: Sorting Algorithms
-description: "Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.''
+description: "Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision."
 
 ---
 

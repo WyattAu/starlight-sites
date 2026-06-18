@@ -1,6 +1,6 @@
 ---
 title: Bash Scripting
-description: "if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble''
+description: "if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

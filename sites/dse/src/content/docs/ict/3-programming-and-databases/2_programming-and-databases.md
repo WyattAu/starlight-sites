@@ -1,6 +1,6 @@
 ---
 title: ICT - Programming and Databases
-description: "A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble''
+description: "A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble"
 
 ---
 

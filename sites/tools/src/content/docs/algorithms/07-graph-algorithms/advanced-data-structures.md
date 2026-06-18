@@ -1,6 +1,6 @@
 ---
 title: Advanced Data Structures
-description: "Algorithms Advanced Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.''
+description: "Algorithms Advanced Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 
 ---
 

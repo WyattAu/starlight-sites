@@ -1,6 +1,6 @@
 ---
 title: Sorting Algorithms
-description: "Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems.''
+description: "Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

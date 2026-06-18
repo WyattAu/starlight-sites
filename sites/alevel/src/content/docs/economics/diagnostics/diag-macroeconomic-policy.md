@@ -1,5 +1,5 @@
 ---
-title: "Macroeconomic Policy -- Diagnostic Tests''
+title: "Macroeconomic Policy -- Diagnostic Tests"
 description: "A-Level Economics Macroeconomic Policy -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
 tableOfContents: false
 ---

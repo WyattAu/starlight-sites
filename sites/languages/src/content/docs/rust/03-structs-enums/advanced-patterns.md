@@ -1,6 +1,6 @@
 ---
 title: Advanced Struct and Enum Patterns
-description: "Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.''
+description: "Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: System In Organizations
-description: "Rigorous IB computer science notes covering System In Organizations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.''
+description: "Rigorous IB computer science notes covering System In Organizations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
 tags:
   - CS

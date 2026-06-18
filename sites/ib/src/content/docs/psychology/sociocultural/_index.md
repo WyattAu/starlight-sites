@@ -1,6 +1,6 @@
 ---
 title: Sociocultural Level of Analysis
-description: "This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour.''
+description: "This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour."
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Polynomials -- Diagnostic Tests''
+title: "Polynomials -- Diagnostic Tests"
 description: "DSE Maths Polynomials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 tableOfContents: false
 ---

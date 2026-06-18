@@ -3,7 +3,7 @@ title: One-Dimensional Problems
 tags:
   - Physics
   - University
-description: "A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 5.1 The Infinite Square Well

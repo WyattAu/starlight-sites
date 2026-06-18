@@ -1,6 +1,6 @@
 ---
 title: Relational Databases
-description: "A organises data into (tables), each consisting of (rows) with attributes (columns). The model was introduced by E.F. Codd in 1970.''
+description: "A organises data into (tables), each consisting of (rows) with attributes (columns). The model was introduced by E.F. Codd in 1970."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

@@ -1,6 +1,6 @@
 ---
 title: Networking and Security
-description: "ILC Computer Science Networking and Security notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.''
+description: "ILC Computer Science Networking and Security notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 date: 2026-04-14
 tags:
   - ilc
