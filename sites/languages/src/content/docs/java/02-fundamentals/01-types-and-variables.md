@@ -1,6 +1,6 @@
 ---
 title: Types and Variables
-description: ""   java']
+description: "java']
 categories: ['java']
 
 ---

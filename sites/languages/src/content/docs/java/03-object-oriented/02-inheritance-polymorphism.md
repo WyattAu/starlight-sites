@@ -1,6 +1,6 @@
 ---
 title: Inheritance and Polymorphism
-description: ""  ...''
+description: "...''
 
 ---
 

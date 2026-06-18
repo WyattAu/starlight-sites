@@ -1,6 +1,6 @@
 ---
 title: Relational Theory
-description: ""   The model provides a mathematically...''
+description: "The model provides a mathematically...''
 tags:
   - Databases
 categories:

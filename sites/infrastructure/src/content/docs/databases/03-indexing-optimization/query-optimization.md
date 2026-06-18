@@ -1,6 +1,6 @@
 ---
 title: Query Optimization
-description: ""   and "avoid full table scans."...''
+description: "and "avoid full table scans."...''
 
 ---
 

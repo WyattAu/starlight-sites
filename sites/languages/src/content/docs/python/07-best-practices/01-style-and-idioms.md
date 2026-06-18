@@ -1,6 +1,6 @@
 ---
 title: Style and Idioms
-description: ""   This is not merely aesthetic..."
+description: "This is not merely aesthetic..."
 date: 2025-06-04T16:00:00.000Z
 tags:
   - Python
