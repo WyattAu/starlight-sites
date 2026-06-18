@@ -1,6 +1,6 @@
 ---
 title: Introduction to Databases
-description: "Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts,...''
+description: "Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts, sensor readings, audit logs -- all of it lands in a database."
 tags:
   - Databases
 categories:
