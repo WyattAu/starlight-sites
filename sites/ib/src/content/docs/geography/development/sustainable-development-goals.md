@@ -1,6 +1,6 @@
 ---
 title: Sustainable Development Goals
-description: "were adopted by all 193...''
+description: "were adopted by all 193''
 
 ---
 

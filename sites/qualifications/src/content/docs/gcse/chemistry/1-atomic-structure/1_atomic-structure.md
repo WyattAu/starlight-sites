@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure
-description: "Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom Consists of three subatomic particles: "   '
+description: "Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom Consists of three subatomic particles: "    '
 date: 2026-04-14
 tags:
   - gcse

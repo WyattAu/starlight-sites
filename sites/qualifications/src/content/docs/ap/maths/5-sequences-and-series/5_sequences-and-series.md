@@ -1,6 +1,6 @@
 ---
 title: Sequences and Series
-description: "A is an ordered list of numbers: . Formally, a sequence is a Function from the positive integers (or a subset thereof) to the real numbers: "   '
+description: "A is an ordered list of numbers: . Formally, a sequence is a Function from the positive integers (or a subset thereof) to the real numbers: "    '
 date: 2026-04-14
 tags:
   - ap

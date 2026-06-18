@@ -3,7 +3,7 @@ title: Interference
 tags:
   - Physics
   - University
-description: "When two or more waves overlap, the resultant displacement is the sum of the individual displacements. For two coherent waves with amplitudes and : "   '
+description: "When two or more waves overlap, the resultant displacement is the sum of the individual displacements. For two coherent waves with amplitudes and : "    '
 ---
 
 ### 3.1 Superposition Principle

@@ -1,6 +1,6 @@
 ---
 title: vcpkg
-description: "), modern C++..."
+description: "), modern C++"
 date: 2025-12-11T04:55:37.164Z
 tags:
   - cpp
