@@ -1,7 +1,6 @@
 ---
 title: Development Environment Setup
-description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode Support, and fast image rendering: "     '
-
+description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling and proper Unicode support."
 ---
 
 ## Terminal Emulators
