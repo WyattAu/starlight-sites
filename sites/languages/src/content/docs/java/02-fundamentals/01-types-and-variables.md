@@ -1,8 +1,7 @@
 ---
 title: Types and Variables
-description: "java']
+description: "Java types and variables fundamentals."
 categories: ['java']
-
 ---
 
 ## JVM Architecture and Memory Model
