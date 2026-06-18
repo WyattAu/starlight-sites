@@ -1,6 +1,6 @@
 ---
 title: DNS
-description: "The Domain Name System (DNS) is the Internet"" s hierarchical, distributed database that maps Human-readable names to IP addresses and other resource data."
+description: "Domain Name System fundamentals and configuration."
 tags:
   - Networking
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Merging
-description: "Merging is the process of combining the changes from one branch into another. Git"" s merge algorithm Is one of its most sophisticated features — it can"
+description: "Git merging strategies and techniques."
 date: 2025-06-03T03:00:00.000Z
 tags:
   - git
