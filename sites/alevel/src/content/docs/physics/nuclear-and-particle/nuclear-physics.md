@@ -1,6 +1,6 @@
 ---
 title: Nuclear Physics
-description: "In 1911, Geiger and Marsden (under Rutherford'" s direction) fired alpha particles at a thin gold foil. Most passed straight through, some were deflected"
+description: "In 1911, Geiger and Marsden (under Rutherford"" s direction) fired alpha particles at a thin gold foil. Most passed straight through, some were deflected"
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]

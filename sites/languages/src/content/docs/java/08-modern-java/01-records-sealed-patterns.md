@@ -1,7 +1,7 @@
 ---
 title: Records, Sealed Classes, and Pattern Matching
 description: "java']
-categories: ['java" ]
+categories: [" java" ]
 
 ---
 

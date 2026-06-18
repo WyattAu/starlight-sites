@@ -1,6 +1,6 @@
 ---
 title: Conflict Resolution
-description: "A merge conflict occurs when Git'" s three-way merge algorithm cannot automatically reconcile changes from two branches. This happens when in different ways."
+description: "A merge conflict occurs when Git"" s three-way merge algorithm cannot automatically reconcile changes from two branches. This happens when in different ways."
 date: 2025-06-03T05:00:00.000Z
 tags:
   - git

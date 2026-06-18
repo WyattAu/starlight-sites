@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: "Starting from Maxwell'" s equations in differential form, derive the continuity Equation . Explain why this result Requires the displacement current term."
+description: "Starting from Maxwell"" s equations in differential form, derive the continuity Equation . Explain why this result Requires the displacement current term."
 ---
 
 **Problem 1.** Starting from Maxwell's equations in differential form, derive the continuity

@@ -5,7 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description: "Go'" s package provides everything needed to build HTTP servers and clients. It ships With the standard library -- no frameworks, no external dependencies."
+description: "Go"" s package provides everything needed to build HTTP servers and clients. It ships With the standard library -- no frameworks, no external dependencies."
 ---
 
 ## Introduction

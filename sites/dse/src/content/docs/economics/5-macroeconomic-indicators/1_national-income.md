@@ -1,6 +1,6 @@
 ---
 title: National Income and Macroeconomic Indicators
-description: "GDP is the total market value of all final goods and services produced within a country'" s borders During a given time period ( one year)."
+description: "GDP is the total market value of all final goods and services produced within a country"" s borders During a given time period ( one year)."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

@@ -1,7 +1,7 @@
 ---
 title: Class Loading and Memory Model
 description: "java']
-categories: ['java" ]
+categories: [" java" ]
 
 ---
 

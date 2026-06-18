@@ -1,7 +1,7 @@
 ---
 title: Concurrency
 description: "java']
-categories: ['java" ]
+categories: [" java" ]
 
 ---
 

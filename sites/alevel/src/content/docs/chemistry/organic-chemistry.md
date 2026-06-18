@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: "Organic chemistry is the study of carbon-containing compounds and their reactions. Carbon'" s ability to form four covalent bonds and catenate (form chains"
+description: "Organic chemistry is the study of carbon-containing compounds and their reactions. Carbon"" s ability to form four covalent bonds and catenate (form chains"
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

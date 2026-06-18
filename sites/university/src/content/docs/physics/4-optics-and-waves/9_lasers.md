@@ -3,7 +3,7 @@ title: Lasers
 tags:
   - Physics
   - University
-description: "Einstein'" s coefficients: (spontaneous emission), (stimulated emission), (absorpt Comprehensive educational content coverage with definitions and practice pr"
+description: "Einstein"" s coefficients: (spontaneous emission), (stimulated emission), (absorpt Comprehensive educational content coverage with definitions and practice pr"
 ---
 
 ### 9.1 Stimulated Emission

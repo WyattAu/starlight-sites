@@ -1,6 +1,6 @@
 ---
 title: Network Security
-description: "A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization'" s security"
+description: "A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization"" s security"
 
 ---
 

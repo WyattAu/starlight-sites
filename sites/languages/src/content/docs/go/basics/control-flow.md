@@ -1,6 +1,6 @@
 ---
 title: Control Flow
-description: "Go'" s statements do not require parentheses but do require braces. The condition can include an Initialization statement."
+description: "Go"" s statements do not require parentheses but do require braces. The condition can include an Initialization statement."
 date: 2026-04-18
 tags:
   - Go

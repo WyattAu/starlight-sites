@@ -1,6 +1,6 @@
 ---
 title: Concurrency
-description: "Rust'" s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating"
+description: "Rust"" s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating"
 
 ---
 

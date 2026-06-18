@@ -1,6 +1,6 @@
 ---
 title: Ownership and Borrowing
-description: "Rust'" s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems."
+description: "Rust"" s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
 

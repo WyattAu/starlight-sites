@@ -1,7 +1,7 @@
 ---
 title: JIT Compilation and Deoptimization
 description: "java']
-categories: ['java" ]
+categories: [" java" ]
 
 ---
 

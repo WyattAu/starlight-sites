@@ -1,6 +1,6 @@
 ---
 title: Introduction to Probabilistic ML
-description: "Inspired by Kevin P. Murphy's series of books on probabilistic machine learning, Marc Peter's book On Mathematics for Machine Learning and Evarist Gine" s wor"
+description: "Inspired by Kevin P. Murphy's series of books on probabilistic machine learning, Marc Peter" s book On Mathematics for Machine Learning and Evarist Gine" s wor"
 date: 2026-01-07T07:50:21.312Z
 tags:
   - ML
