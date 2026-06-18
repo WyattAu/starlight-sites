@@ -1,7 +1,6 @@
 ---
 title: Inheritance and Polymorphism
-description: "''
-
+description: "Java inheritance and polymorphism fundamentals."
 ---
 
 ## Inheritance
