@@ -1,6 +1,6 @@
 ---
 title: Types and Variables
-description: "Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus Platform-dependent and : "          '
+description: "Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus Platform-dependent and : "           '
 
 ---
 

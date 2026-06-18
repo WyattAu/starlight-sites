@@ -1,6 +1,6 @@
 ---
 title: Forces and Newton's Laws
-description: "Forces and Newton's Laws for A-Level Mathematics."
+description: "Forces and Newton" s Laws for A-Level Mathematics."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
