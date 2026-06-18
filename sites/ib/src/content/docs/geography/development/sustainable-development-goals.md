@@ -1,7 +1,6 @@
 ---
 title: Sustainable Development Goals
-description: "were adopted by all 193""
-
+description: "UN Sustainable Development Goals for IB Geography."
 ---
 
 # Sustainable Development Goals
