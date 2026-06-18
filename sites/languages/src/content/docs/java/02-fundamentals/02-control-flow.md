@@ -1,8 +1,7 @@
 ---
 title: Control Flow
-description: "java']
+description: "Java control flow fundamentals."
 categories: ['java']
-
 ---
 
 ## Conditional Statements
