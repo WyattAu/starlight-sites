@@ -1,6 +1,6 @@
 ---
 title: DSE Chemistry
-description: "The Hong Kong Diploma of Secondary Education (DSE) Chemistry examination assesses candidates' knowledge and understanding of chemical principles, their application, and practical skills."
+description: "The Hong Kong Diploma of Secondary Education (DSE) Chemistry examination assesses candidates' knowledge and understanding of chemical principles, their appli..."
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Chemistry

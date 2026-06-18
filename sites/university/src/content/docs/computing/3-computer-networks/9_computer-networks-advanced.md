@@ -1,6 +1,6 @@
 ---
 title: Computer Networks (Advanced)
-description: "is a link-state routing protocol using Dijkstra''s algorithm. It operates within  Comprehensive educational content coverage with definitions and practice proble"
+description: "is a link-state routing protocol using Dijkstra''s algorithm. It operates within  Comprehensive educational content coverage with definitions and practice pr..."
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing

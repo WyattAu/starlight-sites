@@ -3,7 +3,7 @@ title: "Hamiltonian Mechanics: Advanced Topics"
 tags:
   - Physics
   - University
-description: ""
+description: "Content notes."
 ---
 
 ### 10.1 Canonical Transformations
