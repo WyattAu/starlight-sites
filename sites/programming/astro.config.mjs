@@ -39,22 +39,22 @@ export default defineConfig({
           items: [
             {
               label: 'Environment & Toolchain',
-              autogenerate: { directory: '1_enviroment_and_toolchain' },
+              autogenerate: { directory: 'enviroment_and_toolchain' },
             },
-            { label: 'Compilation Model', autogenerate: { directory: '2_compilation_model' } },
-            { label: 'Types', autogenerate: { directory: '3_types' } },
-            { label: 'Resource Management', autogenerate: { directory: '4_resource_management' } },
+            { label: 'Compilation Model', autogenerate: { directory: 'compilation_model' } },
+            { label: 'Types', autogenerate: { directory: 'types' } },
+            { label: 'Resource Management', autogenerate: { directory: 'resource_management' } },
             {
               label: 'Function Architecture',
-              autogenerate: { directory: '5_function_architecture' },
+              autogenerate: { directory: 'function_architecture' },
             },
-            { label: 'Object Oriented', autogenerate: { directory: '6_object_oriented' } },
+            { label: 'Object Oriented', autogenerate: { directory: 'object_oriented' } },
             {
               label: 'Templates & Metaprogramming',
-              autogenerate: { directory: '7_templates_and_metaprogramming' },
+              autogenerate: { directory: 'templates_and_metaprogramming' },
             },
-            { label: 'Standard Library', autogenerate: { directory: '8_standard_library' } },
-            { label: 'Concurrency', autogenerate: { directory: '9_concurrency' } },
+            { label: 'Standard Library', autogenerate: { directory: 'standard_library' } },
+            { label: 'Concurrency', autogenerate: { directory: 'concurrency' } },
           ],
         },
         {
