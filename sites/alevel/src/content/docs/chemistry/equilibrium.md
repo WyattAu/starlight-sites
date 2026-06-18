@@ -1,6 +1,6 @@
 ---
 title: Chemical Equilibrium
-description: "A reversible reaction reaches when the rate of the forward reaction equals the rate of the reverse reaction. At equilibrium: "'
+description: "A reversible reaction reaches when the rate of the forward reaction equals the rate of the reverse reaction. At equilibrium: " '
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

@@ -1,6 +1,6 @@
 ---
 title: Layer 2 and Ethernet
-description: "The data link layer (OSI Layer 2) sits between the physical layer and the network layer. Its Responsibilities are concrete and well-defined: "'
+description: "The data link layer (OSI Layer 2) sits between the physical layer and the network layer. Its Responsibilities are concrete and well-defined: " '
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Networking

@@ -1,6 +1,6 @@
 ---
 title: Collections Framework
-description: ""java']
+description: "" java']
 categories: ['java']
 
 ---

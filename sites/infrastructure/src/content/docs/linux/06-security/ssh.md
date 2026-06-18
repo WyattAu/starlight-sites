@@ -1,6 +1,6 @@
 ---
 title: SSH
-description: "SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The Protocol operates in three layers: "'
+description: "SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The Protocol operates in three layers: " '
 
 ---
 
