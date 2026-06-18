@@ -1,12 +1,11 @@
 ---
 title: Property Propagation
-description: "and "Preprocessor Definitions" were often global...''
+description: "Understanding property propagation in C++ build systems."
 date: 2025-12-11T05:21:57.536Z
 tags:
   - cpp
 categories:
   - cpp
-
 ---
 
 In legacy C++ build systems (Makefiles, Visual Studio Solutions), build settings like "Include
