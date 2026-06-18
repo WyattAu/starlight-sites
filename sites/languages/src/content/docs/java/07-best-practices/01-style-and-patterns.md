@@ -1,8 +1,7 @@
 ---
 title: Style and Patterns
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java style guide and design patterns."
+categories: ["java"]
 ---
 
 ## Naming Conventions

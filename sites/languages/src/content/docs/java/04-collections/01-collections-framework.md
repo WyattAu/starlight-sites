@@ -1,8 +1,7 @@
 ---
 title: Collections Framework
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java Collections Framework fundamentals."
+categories: ["java"]
 ---
 
 ## Architecture Overview

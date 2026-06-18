@@ -1,8 +1,7 @@
 ---
 title: Records, Sealed Classes, and Pattern Matching
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java records, sealed classes, and pattern matching."
+categories: ["java"]
 ---
 
 ## Records (JEP 395, Java 16)

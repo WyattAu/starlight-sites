@@ -1,8 +1,7 @@
 ---
 title: Streams API
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java Streams API fundamentals."
+categories: ["java"]
 ---
 
 ## Stream vs Collection

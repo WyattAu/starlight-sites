@@ -1,12 +1,11 @@
 ---
 title: Setup Traefik
-description: "Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and Containerized environments. Key advantages over alternatives: "            '
+description: "Traefik reverse proxy and load balancer setup."
 date: 2025-07-21T18:30:46.381Z
 tags:
   - truenas
 categories:
   - truenas
-
 ---
 
 ## Why Traefik

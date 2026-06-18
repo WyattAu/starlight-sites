@@ -1,12 +1,11 @@
 ---
 title: Metaprogramming
-description: "Metaprogramming is writing code that writes, modifies, or inspects code at runtime. Ruby is exceptionally well-suited for metaprogramming because: "            '
+description: "Ruby metaprogramming techniques."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
 categories:
   - Ruby
-
 ---
 
 ## What Is Metaprogramming?

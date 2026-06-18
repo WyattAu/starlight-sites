@@ -1,12 +1,11 @@
 ---
 title: Control Flow
-description: "The statement evaluates a condition and executes the corresponding branch. The keyword handles additional conditions, and provides a fallback: "            '
+description: "Ruby control flow statements and syntax."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
 categories:
   - Ruby
-
 ---
 
 ## Conditionals

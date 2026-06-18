@@ -1,8 +1,7 @@
 ---
 title: Concurrency
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java concurrency fundamentals."
+categories: ["java"]
 ---
 
 ## Why Concurrency Is Hard

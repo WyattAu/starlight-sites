@@ -1,7 +1,6 @@
 ---
 title: VPN and Tunneling
-description: "A VPN creates an encrypted tunnel between two endpoints over an untrusted network (the internet). The three core functions are: "            '
-
+description: "VPN and network tunneling fundamentals."
 ---
 
 ## VPN Fundamentals

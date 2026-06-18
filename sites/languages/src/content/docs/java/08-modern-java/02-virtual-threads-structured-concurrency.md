@@ -1,8 +1,7 @@
 ---
 title: Virtual Threads and Structured Concurrency
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java virtual threads and structured concurrency."
+categories: ["java"]
 ---
 
 ## Project Loom and Virtual Threads (JEP 444, Java 21)

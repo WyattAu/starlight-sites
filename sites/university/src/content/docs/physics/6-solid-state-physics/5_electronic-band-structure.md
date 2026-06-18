@@ -3,7 +3,7 @@ title: Electronic Band Structure
 tags:
   - Physics
   - University
-description: "model). The allowed wave vectors are: "        ''
+description: "Electronic band structure in solid state physics."
 ---
 
 ### 5.1 Free Electron Model

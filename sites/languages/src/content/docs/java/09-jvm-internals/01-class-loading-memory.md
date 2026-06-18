@@ -1,8 +1,7 @@
 ---
 title: Class Loading and Memory Model
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java class loading and memory model."
+categories: ["java"]
 ---
 
 ## Class Loading

@@ -1,8 +1,7 @@
 ---
 title: JIT Compilation and Deoptimization
-description: "java"    ]
-categories: [" java" ]
-
+description: "Java JIT compilation and deoptimization."
+categories: ["java"]
 ---
 
 ## Interpreter vs JIT Compilation
