@@ -1,12 +1,11 @@
 ---
 title: Monadic Error Handling — std::expected
-description: "[N4950 §19.8], introduced in C++23, is a monadic type that holds either a Value of type or an error of type . It is the C++ equivalent of Rust"" s ."
+description: "C++23 std::expected for monadic error handling."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
 categories:
   - Cpp
-
 ---
 
 # Monadic Error Handling (`std::expected`)
