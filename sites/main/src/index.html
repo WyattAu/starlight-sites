@@ -448,7 +448,7 @@
       <li><a href="https://university.wyattau.com/" target="_blank" rel="noopener noreferrer">University</a></li>
       <li><a href="https://programming.wyattau.com/" target="_blank" rel="noopener noreferrer">Programming</a></li>
     </ul>
-    <button class="nav-search" aria-label="Open search" onclick="window.openSearchModal && window.openSearchModal()">
+    <button class="nav-search" aria-label="Open search" onclick="var i=document.getElementById('cross-site-search-input');if(i){i.focus();}else{window.openSearchModal&&window.openSearchModal();}">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <circle cx="11" cy="11" r="8"></circle>
         <path d="m21 21-4.35-4.35"></path>

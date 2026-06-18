@@ -187,6 +187,7 @@ jobs:
         run: |
           mkdir -p dist
           cp sites/main/src/index.html dist/index.html
+          cp search-api/cross-site-search.js dist/cross-site-search.js
 
       - name: Deploy landing page
         run: npx wrangler@4 pages deploy dist --project-name wyattsnotes

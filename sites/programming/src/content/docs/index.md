@@ -6,7 +6,7 @@ hero:
   tagline: Deep systems programming notes covering ownership, templates, concurrency, and build systems. Written for developers who want to understand the language deeply.
   actions:
     - text: Browse C++ Notes
-      link: /enviroment_and_toolchain/compiler_and_standards/installing_compiler/
+      link: /enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler/
       icon: right-arrow
       variant: primary
     - text: Browse All Languages
