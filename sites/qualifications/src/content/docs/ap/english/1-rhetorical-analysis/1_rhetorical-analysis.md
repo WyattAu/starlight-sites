@@ -1,6 +1,6 @@
 ---
 title: Rhetorical Analysis
-description: "Before analysing any text, identify the -- the context in which the text was produced. The SOAPStone framework provides a systematic approach: " '
+description: "Before analysing any text, identify the -- the context in which the text was produced. The SOAPStone framework provides a systematic approach: "  '
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
