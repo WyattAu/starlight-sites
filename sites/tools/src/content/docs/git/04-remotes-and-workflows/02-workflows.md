@@ -1,6 +1,6 @@
 ---
 title: Branching Strategies
-description: "strategy — the right choice depends on Team size, release cadence, deployment model, and risk''
+description: "Choosing the right branching strategy for your team."
 date: 2025-06-03T07:00:00.000Z
 tags:
   - git
@@ -8,7 +8,6 @@ tags:
   - branching-strategies
 categories:
   - CS
-
 ---
 
 ## Choosing a Branching Strategy
