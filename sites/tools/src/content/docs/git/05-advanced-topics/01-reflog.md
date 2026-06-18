@@ -1,6 +1,6 @@
 ---
 title: Reflog
-description: "The (reference log) is Git"" s built-in safety net. It records every change to the HEAD reference and to each branch reference, creating a chronological audit"
+description: "Git reflog and reference logging."
 date: 2025-06-03T08:00:00.000Z
 tags:
   - git
