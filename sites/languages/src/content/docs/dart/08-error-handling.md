@@ -1,12 +1,11 @@
 ---
 title: Error Handling
-description: "Dart draws a sharp line between two families of throwable objects: and . This is Not a stylistic preference — it is a semantic contract. means "something...''
+description: "Dart draws a sharp line between two families of throwable objects: and . This is not a stylistic preference -- it is a semantic contract. means something went wrong."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
 categories:
   - Dart
-
 ---
 
 ## Exception vs Error Hierarchy
