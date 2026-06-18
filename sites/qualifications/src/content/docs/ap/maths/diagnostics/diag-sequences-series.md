@@ -1,13 +1,12 @@
 ---
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
-description: "> Tests edge cases, boundary conditions, and common misconceptions for sequences Comprehensive educational content coverage with definitions and practice proble'
+description: "Tests edge cases, boundary conditions, and common misconceptions for sequences."
 date: 2026-04-14
 tags:
   - ap
   - ap-maths
 categories:
   - ap-maths
-
 ---
 
 # Sequences and Series — Diagnostic Tests [BC Only]
