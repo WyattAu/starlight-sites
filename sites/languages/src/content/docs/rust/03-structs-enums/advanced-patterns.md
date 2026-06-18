@@ -1,6 +1,23 @@
 ---
 title: Advanced Struct and Enum Patterns
-description: ""user_{}", id.0)
+description: "Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
+
+---
+
+## Newtype Pattern
+
+The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same
+Memory representation. This provides type safety without runtime overhead — the compiler eliminates
+The wrapper after optimization.
+
+### Type Safety Through Wrapping
+
+```rust
+struct UserId(u64);
+struct OrderId(u64);
+
+fn get_user(id: UserId) -> String {
+    format!("user_{}", id.0)
 }
 
 fn get_order(id: OrderId) -> String {

@@ -3,7 +3,10 @@ title: Electrodynamics
 tags:
   - Physics
   - University
-description: ""s Law of Induction
+description: "A changing magnetic field induces an electric field: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 4.1 Faraday"s Law of Induction
 
 A changing magnetic field induces an electric field:
 

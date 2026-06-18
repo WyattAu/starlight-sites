@@ -3,7 +3,55 @@ title: Landau Theory of Phase Transitions
 tags:
   - Physics
   - University
-description: "" = 1$.
+description: "Landau theory provides a phenomenological framework for continuous (second-order) phase transitions by expanding the free energy in powers of an ."
+---
+
+Landau theory provides a phenomenological framework for continuous (second-order) phase transitions
+by expanding the free energy in powers of an **order parameter** $\phi$.
+
+### 11.1 Landau Free Energy
+
+The Landau free energy density (in the absence of external fields) is:
+
+$$f(\phi, T) = f_0(T) + \frac{1}{2}a(T)\phi^2 + \frac{1}{4}b\phi^4 + \frac{1}{6}c\phi^6 + \cdots$$
+
+**Assumptions:**
+
+- $f$ is analytic in $\phi$ near the transition
+- Symmetry $\phi \to -\phi$ (e.g., Ising systems) eliminates odd powers
+- $b > 0$ for stability
+- $a(T) = a_0(T - T_c)$ changes sign at $T_c$
+
+With an external field $h$ conjugate to $\phi$Add $-h\phi$:
+
+$$f(\phi, T) = f_0 + \frac{1}{2}a(T)\phi^2 + \frac{1}{4}b\phi^4 - h\phi$$
+
+The equilibrium order parameter minimizes $f$:
+
+$$\frac{\partial f}{\partial \phi} = a\phi + b\phi^3 - h = 0$$
+
+### 11.2 Zero-Field Solutions
+
+For $h = 0$:
+
+- **$T > T_c$** ($a > 0$): minimum at $\phi = 0$ (disordered phase)
+- **$T < T_c$** ($a < 0$): minima at $\phi = \pm\sqrt{-a/b} = \pm\sqrt{a_0(T_c - T)/b}$
+
+The order parameter grows as:
+
+$$\phi = \begin{cases} 0 & T > T_c \\ \pm\sqrt{a_0(T_c - T)/b} & T < T_c \end{cases}$$
+
+This yields the mean-field critical exponent $\beta = 1/2$.
+
+### 11.3 Susceptibility
+
+The **susceptibility** $\chi = \partial\phi/\partial h|_{h=0}$ is obtained by expanding
+$\phi(h) = \phi_0 + \chi h + \cdots$:
+
+$$a\phi + b\phi^3 - h = 0 \implies (a + 3b\phi_0^2)\chi = 1$$
+
+- **$T > T_c$**: $\phi_0 = 0$So $\chi = 1/a = 1/[a_0(T - T_c)]$Giving $\gamma = 1$.
+- **$T < T_c$**: $\phi_0^2 = -a/b$So $\chi = 1/(-2a) = 1/[2a_0(T_c - T)]$Giving $\gamma" = 1$.
 
 ### 11.4 Specific Heat
 

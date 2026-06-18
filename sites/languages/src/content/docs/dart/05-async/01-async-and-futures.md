@@ -1,6 +1,23 @@
 ---
 title: Async and Futures
-description: ""s architecture: the UI must remain responsive (60 fps) while
+description: "Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses — the single thread processes Events from a queue,..."
+date: 2025-07-20T11:00:00.000Z
+tags:
+  - dart
+  - async
+  - futures
+categories:
+  - dart
+
+---
+
+## Why Async Matters in Dart
+
+Dart runs on a **single-threaded event loop** with an isolated memory model. Unlike languages with
+Threads (Java, C++, Rust), Dart uses **event-driven concurrency** — the single thread processes
+Events from a queue, interleaving async operations without blocking.
+
+This design is fundamental to Flutter"s architecture: the UI must remain responsive (60 fps) while
 Performing I/O (network requests, file reads, database queries). If any operation blocks the thread,
 The entire UI freezes.
 

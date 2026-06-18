@@ -1,6 +1,47 @@
 ---
 title: Basic Economic Concepts
-description: ""s preferences
+description: "Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources..."
+date: 2026-04-08T00:00:00.000Z
+tags: [DSE, Economics]
+categories: [DSE, Economics]
+
+---
+
+## Scarcity
+
+Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available
+To satisfy those wants are limited. Because resources are finite and wants are infinite, not all
+Wants can be satisfied. This forces society to make choices about how to allocate its scarce
+Resources.
+
+Scarcity exists for all goods that have a positive opportunity cost. If something is scarce, it has
+A price greater than zero.
+
+### Resources (Factors of Production)
+
+| Factor           | Description                                                                    | Reward   |
+| ---------------- | ------------------------------------------------------------------------------ | -------- |
+| Land             | All natural resources (e.g., soil, minerals, water, forests)                   | Rent     |
+| Labour           | Physical and mental effort contributed by people                               | Wages    |
+| Capital          | Man-made goods used to produce other goods (e.g., machinery, tools, factories) | Interest |
+| Entrepreneurship | The ability to organise the other factors of production and take risks         | Profit   |
+
+---
+
+## Choice and Opportunity Cost
+
+Because resources are scarce, society must choose which goods and services to produce and which to
+Forgo. Every choice involves a trade-off.
+
+### Opportunity Cost
+
+Opportunity cost is the **value of the next best alternative forgone** when a choice is made.
+
+Key points:
+
+- It is the NEXT BEST alternative, not all alternatives combined
+- It includes both explicit costs (money paid) and implicit costs (the value of what you gave up)
+- Opportunity cost is subjective -- on the decision-maker"s preferences
 
 ### Examples
 

@@ -3,7 +3,15 @@ title: Historical Motivation
 tags:
   - Physics
   - University
-description: ""ultraviolet catastrophe"). Experiment showed a peak that shifts with temperature.
+description: "By the late 19th century, classical physics could not explain several phenomena: Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 1.1 Failures of Classical Physics
+
+By the late 19th century, classical physics could not explain several phenomena:
+
+**Blackbody radiation.** The Rayleigh-Jeans law predicted infinite energy at short wavelengths (the
+"ultraviolet catastrophe"). Experiment showed a peak that shifts with temperature.
 
 **Photoelectric effect.** Classical theory predicted that the kinetic energy of emitted electrons
 Depends on the intensity of light. Experiment showed on the frequency.

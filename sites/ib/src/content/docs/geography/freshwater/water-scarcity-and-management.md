@@ -1,6 +1,115 @@
 ---
 title: Water Scarcity and Management
-description: ""s Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
+description: "Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to Distinguish between two fundamentally different types: "''
+
+---
+
+# Water Scarcity and Management
+
+## Defining Water Scarcity
+
+### Physical vs Economic Scarcity
+
+Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to
+Distinguish between two fundamentally different types:
+
+**Physical water scarcity** occurs when annual renewable freshwater resources fall below a defined
+Threshold relative to population. The most widely used threshold is the Falkenmark indicator:
+Regions with less than 1000 m$^3$ of renewable freshwater per person per year are classified as
+Water-scarce; those with 1000--1700 m$^3$ per person per year are water-stressed. Physical scarcity
+Reflects an absolute deficit between supply and demand that cannot be resolved by infrastructure
+Alone.
+
+**Economic water scarcity** occurs where freshwater resources are physically sufficient but are
+Inaccessible due to inadequate infrastructure (lack of dams, treatment plants, pipelines, wells),
+Financial constraints (communities cannot afford to develop or access water), institutional failures
+(weak governance, corruption, absence of property rights), or conflict. The International Water
+Management Institute (IWMI) estimated in 2007 that approximately 1.6 billion people live in areas of
+Economic water scarcity, predominantly in Sub-Saharan Africa and parts of South and Southeast Asia.
+
+### Water Stress Indices
+
+Several composite indices measure water stress at national and subnational scales:
+
+| Index                                       | Description                                                             | Key Variables                                                  |
+| ------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Falkenmark Water Stress Indicator**       | Annual renewable freshwater per capita                                  | Total renewable freshwater, population                         |
+| **Basin-level Water Stress (WRI Aqueduct)** | Ratio of total freshwater withdrawals to available renewable freshwater | Withdrawals, renewable supply, environmental flow requirements |
+| **Water Poverty Index (WPI)**               | Combines water availability with access, capacity, use, and environment | Five components: resources, access, capacity, use, environment |
+| **UN Water SDG 6 Indicator 6.4.2**          | Water-use efficiency (value added per unit of water withdrawn)          | GDP, total freshwater withdrawals                              |
+
+The WRI Aqueduct tool classifies water stress into five categories: extremely high ($\gt{80}\%$ of
+Available supply withdrawn), high (40--80%), medium to high (20--40%), low to medium (10--20%), and
+Low ($\lt{10}\%$). As of 2023, 17 countries extract more than 80% of their available renewable
+Freshwater annually, including Saudi Arabia, Egypt, United Arab Emirates, and Pakistan.
+
+## Scale of the Global Water Crisis
+
+The United Nations World Water Development Report (2023) documents the scale of the challenge:
+
+- Approximately 2 billion people worldwide lack access to safely managed drinking water services.
+- Approximately 3.6 billion people lack access to safely managed sanitation services.
+- Global freshwater demand has increased sixfold since 1900 and continues to rise at approximately
+  1% per year.
+- Agriculture accounts for approximately 70% of global freshwater withdrawals; industry for
+  approximately 19%; and municipal use for approximately 11%.
+- By 2050, global water demand is projected to increase by 20--30% above current levels, driven by
+  population growth, economic development, and changing consumption patterns.
+- Climate change is projected to reduce renewable water resources in regions that are already
+  water-stressed, particularly the Middle East, North Africa, and Central Asia.
+
+## Supply-Side Management Strategies
+
+Supply-side strategies increase the quantity of freshwater available for use. They are essential in
+Regions of physical water scarcity but often involve high capital costs, significant environmental
+Impacts, and long lead times.
+
+### Dams and Reservoirs
+
+Dams create reservoirs that store water during wet periods for release during dry periods, providing
+A more reliable and constant supply. The world has over 57 000 large dams (exceeding 15 m in
+Height).
+
+**Advantages:** reliable year-round supply, flood control downstream, hydroelectric power
+Generation, recreational amenities, irrigation for agriculture.
+
+**Disadvantages:** displacement of populations (the Three Gorges Dam displaced over 1.3 million
+People), fragmentation of river ecosystems (blocking fish migration, altering sediment transport,
+Reducing downstream fertility), greenhouse gas emissions from reservoirs (decomposing organic matter
+Releases methane, particularly in tropical reservoirs), high construction costs, sedimentation
+Reducing reservoir capacity over time, and the risk of catastrophic dam failure.
+
+### Desalination
+
+Desalination converts seawater or brackish water into freshwater. The two dominant technologies are:
+
+- **Reverse osmosis (RO):** water is forced through a semi-permeable membrane under high pressure (
+  55--80 bar), rejecting dissolved salts. RO accounts for approximately 69% of global desalination
+  capacity.
+- **Thermal distillation:** seawater is heated to produce steam, which is then condensed.
+  Multi-stage flash (MSF) distillation and multi-effect distillation (MED) are the main thermal
+  methods. These are dominant in the Middle East, where energy is cheap.
+
+**Global capacity:** approximately 100 million m$^3$ of desalinated water produced per day (2023).
+The largest desalination plant is the Sorek plant in Israel (capacity approximately 624 000
+M$^3$/day).
+
+**Costs and limitations:** energy-intensive (approximately 3--4 kWh per m$^3$ by RO, higher for
+Thermal methods); brine disposal contaminates marine environments (global brine production is
+Approximately 142 million m$^3$/day, with ecological impacts including increased salinity,
+Temperature, and heavy metal concentrations); high capital cost (approximately USD 0.5--1.5 per
+M$^3$ for RO, depending on scale and energy costs).
+
+### Inter-Basin Water Transfer
+
+Inter-basin transfers move water from basins with surplus to basins with deficit via canals,
+Tunnels, or pipelines.
+
+| Scheme                              | Location             | Scale                                                                                            | Issues                                                                                                                    |
+| ----------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| **South-to-North Water Transfer**   | China                | Three routes transferring up to 45 billion m$^3$/year from the Yangtze to the Yellow River basin | Cost approximately USD 62 billion; displacement of over 300 000 people; ecological impacts on source and receiving basins |
+| **California Aqueduct**             | USA                  | Transfers approximately 5 billion m$^3$/year from northern to southern California                | Energy-intensive (pumping water over the Tehachapi Mountains); ecological impacts on the Sacramento-San Joaquin Delta     |
+| **Lesotho Highlands Water Project** | Lesotho/South Africa | Transfers approximately 780 million m$^3$/year from Lesotho to South Africa"s Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
 
 ## Demand-Side Management Strategies
 

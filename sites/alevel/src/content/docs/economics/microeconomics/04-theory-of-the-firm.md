@@ -1,6 +1,160 @@
 ---
 title: Theory of the Firm
-description: ""s short-run supply curve** is the portion of the MC curve above AVC.
+description: "We define the following cost concepts for a firm producing quantity : Comprehensive educational content coverage with definitions and practice problems."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## 1. Costs of Production
+
+### 1.1 Definitions
+
+We define the following cost concepts for a firm producing quantity $Q$:
+
+- **Total cost (TC)**: $TC(Q) = TFC + TVC(Q)$Where TFC = total fixed cost, TVC = total variable cost
+- **Average total cost (ATC)**: $ATC = \frac{TC}{Q} = AFC + AVC$
+- **Average fixed cost (AFC)**: $AFC = \frac{TFC}{Q}$
+- **Average variable cost (AVC)**: $AVC = \frac{TVC}{Q}$
+- **Marginal cost (MC)**: $MC = \frac{dTC}{dQ} = \frac{dTVC}{dQ}$
+
+### 1.2 Deriving Costs from the Production Function
+
+In the **short run**, at least one factor of production is fixed ( capital $K = \bar{K}$). The
+production function is $Q = f(L, \bar{K})$.
+
+**Law of diminishing marginal returns**: as more of a variable factor (labour) is added to a fixed
+Factor (capital), the marginal product of labour eventually diminishes.
+
+$$MP_L = \frac{dQ}{dL}, \quad \frac{d^2 Q}{dL^2} < 0 \mathrm{ for } L > L^*$$
+
+Since $MC = \frac{dw}{dQ} = \frac{w}{MP_L}$ (where $w$ is the wage rate), diminishing marginal
+Returns ($MP_L$ falling) implies $MC$ is eventually rising.
+
+In the **long run**, all factors are variable. The firm chooses the cost-minimising combination of
+Inputs:
+
+$$
+\begin{aligned}
+\min_{L,K} \quad & wL + rK \\
+\mathrm{s.t.} \quad & Q = f(L, K)
+\end{aligned}
+$$
+
+The first-order condition gives the **expansion path**: $\frac{MP_L}{w} = \frac{MP_K}{r}$ (equating
+The marginal product per pound spent on each input).
+
+### 1.3 Economies of Scale
+
+We define **economies of scale** as the condition where long-run average cost (LRAC) falls as output
+Increases:
+
+$$\frac{d(LRAC)}{dQ} < 0$$
+
+**Internal economies of scale:**
+
+| Type         | Mechanism                                                |
+| ------------ | -------------------------------------------------------- |
+| Technical    | Indivisibilities, increased dimension, linking processes |
+| Purchasing   | Bulk-buying discounts                                    |
+| Financial    | Lower interest rates for larger firms                    |
+| Managerial   | Specialisation of management functions                   |
+| Risk-bearing | Diversification of product lines and markets             |
+
+**External economies of scale**: cost advantages arising from the growth of the _industry_ as a
+Whole (e.g., a skilled labour pool, specialised suppliers, knowledge spillovers in Silicon Valley).
+
+**Minimum efficient scale (MES)**: the lowest output at which LRAC is minimised. If MES is large
+Relative to market demand, the market can support only a few firms $\Rightarrow$ natural tendency
+Toward oligopoly or monopoly.
+
+**Diseconomies of scale**: LRAC rises as output increases due to coordination difficulties,
+Communication problems, and alienation in very large organisations.
+
+### 1.4 Relationship Between Short-Run and Long-Run Costs
+
+The **long-run average cost curve** is the envelope of all short-run average cost curves:
+
+$$LRAC(Q) = \min_{K} SRAC(Q; K)$$
+
+At each output level, the firm chooses the plant size (capital stock) that minimises average cost.
+The LRAC is U-shaped, reflecting economies of scale at low output and diseconomies at high Output.
+
+## 2. Revenue
+
+### 2.1 Definitions
+
+- **Total revenue**: $TR = P \times Q$
+- **Average revenue**: $AR = \frac{TR}{Q} = P$ (AR curve is the demand curve)
+- **Marginal revenue**: $MR = \frac{dTR}{dQ}$
+
+### 2.2 Deriving MR from Demand
+
+If demand is $P = a - bQ$Then:
+
+$$TR = P \times Q = aQ - bQ^2$$
+
+$$MR = \frac{dTR}{dQ} = a - 2bQ$$
+
+**Proposition: For a downward-sloping demand curve, $MR < AR$ (i.e., $MR < P$).**
+
+_Proof._ $MR = a - 2bQ < a - bQ = P$ for all $Q > 0$. The MR curve has the same intercept as the
+Demand curve but twice the slope. Intuition: to sell an additional unit, the firm must lower the
+Price on _all_ units sold, not just the marginal unit. The revenue loss on inframarginal units means
+$MR < P$. $\blacksquare$
+
+For a perfectly competitive firm (price taker), demand is perfectly elastic: $P$ is constant, so
+$MR = AR = P$.
+
+## 3. Profit Maximisation
+
+### 3.1 Proof Using Calculus
+
+The firm chooses output $Q$ to maximise economic profit:
+
+$$\pi(Q) = TR(Q) - TC(Q)$$
+
+First-order condition:
+
+$$\frac◆LB◆d\pi◆RB◆◆LB◆dQ◆RB◆ = MR - MC = 0 \implies MR = MC$$
+
+Second-order condition (for maximum):
+
+$$\frac◆LB◆d^2\pi◆RB◆◆LB◆dQ^2◆RB◆ = \frac{d(MR)}{dQ} - \frac{d(MC)}{dQ} < 0 \implies MC \mathrm{ cuts MR from below}$$
+
+**Normal profit** is the minimum profit necessary to keep a firm in the industry (included in total
+Cost as _opportunity cost_ of capital). **Economic profit** (supernormal profit) is profit above
+Normal profit.
+
+## 4. Market Structures
+
+### 4.1 Perfect Competition
+
+#### Assumptions
+
+1. Many buyers and sellers (price takers)
+2. Homogeneous (identical) product
+3. Free entry and exit
+4. Perfect information
+5. Perfect factor mobility
+
+#### Short-Run Equilibrium
+
+The firm is a price taker: $P = MR = AR$. Profit maximisation: $MR = MC$.
+
+$$P = MC(Q_{SR})$$
+
+- If $P > ATC$: the firm earns supernormal profit ($\pi > 0$)
+- If $P = ATC$: the firm earns normal profit ($\pi = 0$)
+- If $AVC < P < ATC$: the firm makes a loss but continues producing (covers variable costs and
+  contributes to fixed costs)
+- If $P < AVC$: the firm shuts down in the short run ($\pi = -TFC$)
+
+The **firm"s short-run supply curve** is the portion of the MC curve above AVC.
 
 #### Long-Run Equilibrium
 

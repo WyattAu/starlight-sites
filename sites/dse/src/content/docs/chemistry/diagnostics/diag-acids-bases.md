@@ -1,6 +1,61 @@
 ---
 title: "Acids, Bases and Salts -- Diagnostic Tests"
-description: ""s principle),
+description: "DSE Chemistry Acids, Bases and Salts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# DSE Chemistry Diagnostic: Acids, Bases and Salts
+
+## Unit Test 1: Weak Acid pH Calculation
+
+**Question**
+
+Ethanoic acid ($CH_{3}COOH$) is a weak acid with $K_{a} = 1.8 \times 10^{-5}$ mol/dm$^{3}$ at
+25$^{\circ}$C.
+
+(a) Calculate the pH of a 0.10 mol/dm$^{3}$ solution of ethanoic acid. [4 marks]
+
+(b) Calculate the pH of a 0.010 mol/dm$^{3}$ solution of ethanoic acid. [2 marks]
+
+(c) A student claims that diluting a weak acid by a factor of 10 will increase the pH by exactly 1.
+Evaluate this claim by comparing your answers to (a) and (b). [2 marks]
+
+---
+
+**Worked Solution**
+
+(a) $CH_{3}COOH \rightleftharpoons CH_{3}COO^{-} + H^{+}$
+
+$$K_{a} = \frac{[CH_{3}COO^{-}][H^{+}]}{[CH_{3}COOH]}$$
+
+At equilibrium, let $[H^{+}] = x$:
+
+$$1.8 \times 10^{-5} = \frac{x \cdot x}{0.10 - x}$$
+
+Assuming $x \ll 0.10$ (i.e., dissociation is small):
+
+$$1.8 \times 10^{-5} \approx \frac{x^{2}}{0.10}$$
+
+$$x^{2} = 1.8 \times 10^{-6}$$
+
+$$x = 1.34 \times 10^{-3} \text{ mol/dm}^{3}$$
+
+Check: $x/0.10 = 1.34\% \lt 5\%$ -- assumption valid.
+
+$$pH = -\log(1.34 \times 10^{-3}) = 2.87$$
+
+(b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}$$
+
+$$x^{2} = 1.8 \times 10^{-7}$$
+
+$$x = 4.24 \times 10^{-4} \text{ mol/dm}^{3}$$
+
+$$pH = -\log(4.24 \times 10^{-4}) = 3.37$$
+
+(c) The pH change: $3.37 - 2.87 = 0.50$.
+
+The claim is **incorrect** for weak acids. Diluting by a factor of 10 increases the pH by **less
+than 1**. This is because dilution shifts the equilibrium to the right (Le Chatelier"s principle),
 causing a greater fraction of the acid to dissociate. The $[H^{+}]$ does not decrease by a full
 factor of 10.
 

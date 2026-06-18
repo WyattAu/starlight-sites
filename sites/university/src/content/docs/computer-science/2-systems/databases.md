@@ -1,6 +1,102 @@
 ---
 title: Databases
-description: ""Alice', 3.9, 'CS', '2024-09-01');
+description: "A is a set of tuples over a relation schema where each is an attribute from doma Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Computer Science
+  - University
+categories:
+  - Computer Science
+---
+
+## 1. Relational Model
+
+### 1.1 Fundamentals
+
+A **relation** is a set of tuples over a relation schema $R(A_1, A_2, \ldots, A_n)$ where each $A_i$
+is an attribute from domain $D_i$.
+
+**Key terms:**
+
+- **Tuple:** A single row in a relation.
+- **Attribute:** A named column in a relation.
+- **Domain:** The set of allowed values for an attribute.
+- **Degree (arity):** Number of attributes.
+- **Cardinality:** Number of tuples.
+
+### 1.2 Keys
+
+| Key Type          | Definition                                           |
+| ----------------- | ---------------------------------------------------- |
+| **Superkey**      | A set of attributes that uniquely identifies a tuple |
+| **Candidate key** | A minimal superkey (no proper subset is a superkey)  |
+| **Primary key**   | A chosen candidate key                               |
+| **Foreign key**   | References the primary key of another relation       |
+| **Composite key** | A key consisting of multiple attributes              |
+
+### 1.3 Relational Algebra
+
+**Selection** ($\sigma$): Filter rows.
+
+$$\sigma_{\text{condition}}(R) = \{t \in R : t \text{ satisfies condition}\}$$
+
+**Projection** ($\pi$): Select columns.
+
+$$\pi_{A_1, A_2, \ldots}(R) = \{t[A_1, A_2, \ldots] : t \in R\}$$
+
+**Join** ($\bowtie$): Combine relations.
+
+$$R \bowtie_{\text{condition}} S = \sigma_{\text{condition}}(R \times S)$$
+
+**Natural join** ($\bowtie$): Join on all shared attributes, eliminating duplicates.
+
+**Outer joins:** Left ($\leftarrow \bowtie$), right ($\bowtie \rightarrow$), full
+($\leftarrow \bowtie \rightarrow$): include unmatched tuples with NULLs.
+
+**Other operations:**
+
+- **Union** ($R \cup S$): Tuples in $R$ or $S$ (same schema).
+- **Difference** ($R - S$): Tuples in $R$ but not $S$.
+- **Intersection** ($R \cap S$): Tuples in both.
+- **Cartesian product** ($R \times S$): All combinations.
+- **Rename** ($\rho_x(R)$): Rename relation to $x$.
+
+## 2. SQL
+
+### 2.1 DDL (Data Definition Language)
+
+```sql
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    gpa DECIMAL(3,2) CHECK (gpa >= 0.0 AND gpa <= 4.0),
+    major VARCHAR(50),
+    enrollment_date DATE DEFAULT CURRENT_DATE
+);
+
+CREATE TABLE Courses (
+    course_id INT PRIMARY KEY,
+    title VARCHAR(200) NOT NULL,
+    credits INT CHECK (credits > 0 AND credits <= 6),
+    department VARCHAR(50)
+);
+
+CREATE TABLE Enrollments (
+    student_id INT REFERENCES Students(student_id),
+    course_id INT REFERENCES Courses(course_id),
+    semester VARCHAR(20),
+    grade CHAR(2),
+    PRIMARY KEY (student_id, course_id, semester)
+);
+
+DROP TABLE Enrollments;
+ALTER TABLE Students ADD COLUMN email VARCHAR(255) UNIQUE;
+```
+
+### 2.2 DML (Data Manipulation Language)
+
+```sql
+INSERT INTO Students VALUES (1, "Alice', 3.9, 'CS', '2024-09-01');
 
 UPDATE Students SET gpa = 3.95 WHERE student_id = 1;
 

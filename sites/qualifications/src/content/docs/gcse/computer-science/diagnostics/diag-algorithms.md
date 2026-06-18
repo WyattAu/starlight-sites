@@ -1,6 +1,24 @@
 ---
 title: "Algorithms -- Diagnostic Tests"
-description: ""Start. Ask the user for a number.
+description: "Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# Algorithms -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Flowcharts and Pseudocode
+
+**Question:**
+
+(a) Describe the purpose of a flowchart and name five standard flowchart symbols, stating what each
+represents.
+
+(b) Write pseudocode for an algorithm that reads 10 numbers from a user and outputs the largest
+number entered.
+
+(c) Convert the following flowchart description into pseudocode: "Start. Ask the user for a number.
 If the number is greater than 0, output "Positive'. If the number is equal to 0, output 'Zero'.
 Otherwise, output 'Negative'. End."
 

@@ -1,6 +1,19 @@
 ---
 title: "DSE ICT -- Diagnostic Guide"
-description: ""s complement, character encoding, image/audio representation, compression | `data-representation.md`                                         |
+description: "| Diagnostic File | Topics Covered | Source File | | ---------------------------------------------- | -------------------------------------------------------..."
+tableOfContents: false
+---
+
+# DSE ICT — Diagnostic Guide
+
+## Coverage Map
+
+### Core Systems
+
+| Diagnostic File                                | Topics Covered                                                                                       | Source File                                                      |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `diag-./2-computer-systems/1_computer-systems` | CPU architecture, memory hierarchy, I/O devices, Von Neumann model, fetch-decode-execute cycle       | `./2-computer-systems/1_computer-systems`                        |
+| `diag-data-representation.md`                  | Binary/hex conversion, two"s complement, character encoding, image/audio representation, compression | `data-representation.md`                                         |
 | `diag-internet-data-communications.md`         | OSI model, TCP/IP, network topologies, protocols, bandwidth, error detection                         | `./4-networking-and-internet/1_internet-and-data-communications` |
 
 ### Applications and Security

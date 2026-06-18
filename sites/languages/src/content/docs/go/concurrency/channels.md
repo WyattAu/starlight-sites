@@ -1,6 +1,33 @@
 ---
 title: Channels and Concurrency Patterns
-description: ""from ch1" }()
+description: "Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered Channels allow the sender to proceed up to the buffer"
+date: 2026-04-18
+tags:
+  - Go
+categories:
+  - Go
+---
+
+## Channel Review
+
+Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered
+Channels allow the sender to proceed up to the buffer capacity without a receiver.
+
+```go
+unbuf := make(chan int)      // blocks until receiver ready
+buf := make(chan int, 10)    // sender can buffer up to 10
+```
+
+## Select
+
+`select` allows a goroutine to wait on multiple channel operations simultaneously. It blocks until
+One of its cases can proceed, then executes that case:
+
+```go
+ch1 := make(chan string)
+ch2 := make(chan string)
+
+go func() { ch1 <- "from ch1" }()
 go func() { ch2 <- "from ch2" }()
 
 select {

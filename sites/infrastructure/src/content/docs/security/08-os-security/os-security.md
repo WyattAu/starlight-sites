@@ -1,6 +1,24 @@
 ---
 title: OS Security
-description: ""admin@server" -f ~/.ssh/id_ed25519
+description: "SSH is the primary remote administration protocol on Linux. Default configuratio Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-08T00:00:00.000Z
+tags:
+  - Security
+categories:
+  - Security
+---
+
+## Linux Security Hardening
+
+### SSH Hardening
+
+SSH is the primary remote administration protocol on Linux. Default configurations are permissive
+And must be hardened.
+
+**Key-based authentication:**
+
+```bash
+ssh-keygen -t ed25519 -C "admin@server" -f ~/.ssh/id_ed25519
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@server
 ```
 

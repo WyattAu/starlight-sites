@@ -1,6 +1,93 @@
 ---
 title: Bonding
-description: ""sea" of delocalised electrons.
+description: "ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-chemistry
+categories:
+  - ilc-chemistry
+
+---
+
+# Bonding
+
+Chemical bonding explains how atoms combine to form compounds. This topic covers ionic, covalent,
+And metallic bonding, molecular geometry, intermolecular forces, and electronegativity.
+
+## Types of Bonding
+
+### Ionic Bonding (OL/HL)
+
+Ionic bonds form between metals and non-metals. Electrons are transferred from the metal to the
+Non-metal, producing oppositely charged ions that attract electrostatically.
+
+**Example (OL):** Formation of sodium chloride.
+
+$$
+\mathrm{Na \to \mathrm{Na^+ + e^- \quad (\mathrm{ionisation)
+$$
+
+$$
+\mathrm{Cl + e^- \to \mathrm{Cl^- \quad (\mathrm{electron gain)
+$$
+
+$$
+\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl
+$$
+
+**Properties of ionic compounds:**
+
+- High melting and boiling points.
+- Conduct electricity when molten or in solution (not when solid).
+- Brittle.
+- Form crystalline lattices.
+
+**Worked Example 1 (OL):** Explain why $\mathrm{NaCl$ has a high melting point.
+
+$\mathrm{NaCl$ has a giant ionic lattice with strong electrostatic forces between $\mathrm{Na^+$ and
+$\mathrm{Cl^-$ ions. A large amount of energy is required to overcome these forces, giving a high
+Melting point (801°C).
+
+### Covalent Bonding (OL/HL)
+
+Covalent bonds form when non-metal atoms share electrons to achieve a stable electron configuration.
+
+**Single bond:** one shared pair (e.g., H--H, Cl--Cl). **Double bond:** two shared pairs (e.g.,
+O=O). **Triple bond:** three shared pairs (e.g., N$\equiv$N).
+
+**Bond length and bond strength:**
+
+| Bond type | Bond length | Bond energy (kJ/mol) |
+| --------- | ----------- | -------------------- |
+| C-C       | 154 pm      | 348                  |
+| C=C       | 134 pm      | 612                  |
+| C≡C       | 120 pm      | 839                  |
+
+Triple bonds are shorter and stronger than double bonds, which are shorter and stronger than single
+Bonds.
+
+### Coordinate (Dative) Covalent Bond (HL)
+
+Both electrons in the bond come from one atom.
+
+**Example (HL):** Formation of the ammonium ion.
+
+$$
+\mathrm{NH_3 + \mathrm{H^+ \to \mathrm{NH_4^+
+$$
+
+The lone pair on nitrogen forms a dative bond with the hydrogen ion.
+
+**Example (HL):** Formation of the aluminium hexaaqua ion:
+
+$$\mathrm{Al^{3+} + 6\mathrm{H_2\mathrm{O \to [\mathrm{Al(\mathrm{H_2\mathrm{O)_6]^{3+}$$
+
+Each water molecule donates a lone pair from oxygen to form a dative bond with $\mathrm{Al^{3+}$.
+
+### Metallic Bonding (OL/HL)
+
+Metals consist of a lattice of positive ions in a "sea" of delocalised electrons.
 
 **Properties of metals:**
 

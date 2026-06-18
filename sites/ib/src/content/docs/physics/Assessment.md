@@ -1,6 +1,52 @@
 ---
 title: Assessment
-description: ""always", "never", "sometimes" in the stem.
+description: "IB Physics (first assessment 2025) is examined through a combination of external written papers and An Internal Assessment (IA). The external component"
+---
+
+## Assessment Overview
+
+IB Physics (first assessment 2025) is examined through a combination of external written papers and
+An Internal Assessment (IA). The external component accounts for 80% of the total mark at both SL
+And HL, while the IA accounts for the remaining 20%.
+
+| Component | SL Weighting | HL Weighting | Duration (SL) | Duration (HL) | Marks (SL) | Marks (HL) |
+| :-------- | :----------- | :----------- | :------------ | :------------ | :--------- | :--------- |
+| Paper 1   | 30%          | 20%          | 45 min        | 60 min        | 30         | 40         |
+| Paper 2   | 50%          | 40%          | 1 h 15 min    | 2 h 15 min    | 50         | 90         |
+| Paper 3   | --           | 20%          | --            | 1 h 15 min    | --         | 30         |
+| IA        | 20%          | 20%          | 10 hours      | 10 hours      | --         | --         |
+
+---
+
+## Paper 1 -- Multiple Choice
+
+Paper 1 consists entirely of multiple choice questions (MCQs). Each question presents four answer
+Options, only one of which is correct.
+
+| Aspect              | SL          | HL          |
+| :------------------ | :---------- | :---------- |
+| Duration            | 45 minutes  | 60 minutes  |
+| Marks               | 30          | 40          |
+| Number of questions | 30          | 40          |
+| Calculator          | Not allowed | Not allowed |
+| Data booklet        | Not allowed | Not allowed |
+
+**Key details:**
+
+- All questions carry equal weighting.
+- The paper covers all core topics (Themes A through E, SL content).
+- Since calculators are not permitted, questions focus on conceptual understanding, proportional
+  reasoning, and estimation rather than numerical computation.
+- No data booklet is provided, so you must recall or derive any formulae needed.
+- Common question types include identifying correct relationships, interpreting graphs, predicting
+  outcomes of experiments, and recognising valid physical reasoning.
+- HL Paper 1 includes additional questions on AHL material but follows the same format.
+
+**Strategy tips:**
+
+- Eliminate incorrect options before selecting your answer.
+- Use dimensional analysis and orders-of-magnitude estimates to check plausibility of options.
+- Pay close attention to qualifiers such as "always", "never", "sometimes" in the stem.
 - Manage your time: roughly 1.5 minutes per question at SL and 1.5 minutes per question at HL.
 
 ---

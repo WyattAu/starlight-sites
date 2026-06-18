@@ -3,7 +3,17 @@ title: Advanced Topics
 tags:
   - Computing
   - University
-description: ""yes" instances have polynomial-time verifiable certificates.
+description: "The class of decision problems solvable in polynomial time by a deterministic Tu Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 6.1 NP-Completeness
+
+#### 6.1.1 P, NP, and NP-Completeness
+
+**P:** The class of decision problems solvable in polynomial time by a deterministic Turing machine.
+
+**NP:** The class of decision problems solvable in polynomial time by a **non-deterministic** Turing
+Machine. Equivalently, problems whose "yes" instances have polynomial-time verifiable certificates.
 
 **NP-hard:** A problem $A$ is NP-hard if every problem in NP can be reduced to $A$ in polynomial
 Time.

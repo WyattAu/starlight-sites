@@ -1,6 +1,49 @@
 ---
 title: Transactions and Concurrency
-description: ""the database satisfies all defined constraints." CAP consistency means "every read returns the most
+description: "ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not..."
+tags:
+  - Databases
+categories:
+  - Databases
+---
+
+## ACID Properties
+
+ACID is the set of guarantees that a relational database transaction provides. Understanding what
+Each property actually guarantees -- and what it does not -- is critical for building correct
+Concurrent systems.
+
+### Atomicity
+
+A transaction is an all-or-nothing unit of work. Either all operations in the transaction commit, or
+None of them do. If the transaction fails at any point (constraint violation, system crash, network
+Failure), the database rolls back to the state before the transaction began.
+
+Implementation: the database writes changes to a **write-ahead log (WAL)** before applying them to
+The data files. On recovery, the WAL is replayed (committed transactions) or undone (uncommitted
+Transactions).
+
+```sql
+BEGIN;
+
+UPDATE accounts SET balance = balance - 500 WHERE account_id = 1;
+UPDATE accounts SET balance = balance + 500 WHERE account_id = 2;
+
+-- If either UPDATE fails (e.g., insufficient funds), both are rolled back
+COMMIT;
+```
+
+### Consistency
+
+A transaction transforms the database from one valid state to another. All defined constraints (NOT
+NULL, UNIQUE, CHECK, FOREIGN KEY) must hold at transaction commit. This property is partially the
+Responsibility of the database (enforcing constraints) and partially the responsibility of the
+Application (writing correct transaction logic).
+
+:::info
+
+Consistency in ACID is **not** the same as consistency in the CAP theorem. ACID consistency means
+"the database satisfies all defined constraints." CAP consistency means "every read returns the most
 Recent write." They are different guarantees.
 
 

@@ -1,6 +1,107 @@
 ---
 title: Chemistry - Energetics / Thermochemistry
-description: ""s Law
+description: "The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems."
+tags: [DSE, Chemistry]
+categories: [DSE, Chemistry]
+date: 2026-04-08T00:00:00.000Z
+---
+
+## Enthalpy Changes
+
+### Definitions
+
+**Enthalpy ($H$):** The heat content of a system at constant pressure. It is a state function.
+
+**Enthalpy change ($\Delta H$):** The heat exchanged with the surroundings during a process at
+Constant pressure.
+
+$$\Delta H = H_{\mathrm{products}} - H_{\mathrm{reactants}}$$
+
+### Exothermic and Endothermic Reactions
+
+**Exothermic:** $\Delta H \lt 0$. Heat is released to the surroundings. The products have less
+Enthalpy than the reactants.
+
+Examples: combustion, neutralisation, respiration.
+
+**Endothermic:** $\Delta H \gt 0$. Heat is absorbed from the surroundings. The products have more
+Enthalpy than the reactants.
+
+Examples: thermal decomposition, photosynthesis, dissolving $\mathrm{NH}_4\mathrm{NO}_3$ in water.
+
+### Standard Conditions
+
+Standard enthalpy changes are measured under standard conditions:
+
+- Pressure: $1 \mathrm{ atm}$ ($101.3 \mathrm{ kPa}$)
+- Concentration: $1 \mathrm{ mol/dm}^3$ for solutions
+- Temperature: $25^\circ\mathrm{C}$ ($298 \mathrm{ K}$)
+- All substances in their standard states
+
+The standard state is the pure substance at 1 atm and the specified temperature.
+
+---
+
+## Standard Enthalpy Changes
+
+### Standard Enthalpy of Formation ($\Delta H_f^\circ$)
+
+The enthalpy change when 1 mole of a compound is formed from its elements in their standard states
+Under standard conditions.
+
+$$\mathrm{C}_{(s)} + \mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} \quad \Delta H_f^\circ = -393.5 \mathrm{ kJ/mol}$$
+
+By definition, $\Delta H_f^\circ$ of any element in its standard state = 0.
+
+$$\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta H_f^\circ(\mathrm{H}_{2(g)}) = 0$$
+
+> **Caution:** Warning Involves formation FROM elements, not the other way around.
+### Standard Enthalpy of Combustion ($\Delta H_c^\circ$)
+
+The enthalpy change when 1 mole of a substance is completely burned in excess oxygen under standard
+Conditions.
+
+$$\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_c^\circ = -890.3 \mathrm{ kJ/mol}$$
+
+Combustion is always exothermic, so $\Delta H_c^\circ \lt 0$.
+
+### Standard Enthalpy of Neutralisation ($\Delta H_{\mathrm{neut}}^\circ$)
+
+The enthalpy change when 1 mole of water is formed from the reaction between an acid and an alkali
+Under standard conditions.
+
+$$\mathrm{H}^+_{(aq)} + \mathrm{OH}^-_{(aq)} \to \mathrm{H}_2\mathrm{O}_{(l)} \quad \Delta H_{\mathrm{neut}}^\circ = -57.3 \mathrm{ kJ/mol}$$
+
+For strong acid-strong base reactions, $\Delta H_{\mathrm{neut}}^\circ$ is approximately constant at
+$-57.3 \mathrm{ kJ/mol}$ because the net ionic equation is always the same.
+
+For weak acid-strong base reactions, $\Delta H_{\mathrm{neut}}^\circ$ is less exothermic (less
+Negative) because energy is absorbed to dissociate the weak acid.
+
+### Standard Enthalpy of Atomisation ($\Delta H_{\mathrm{at}}^\circ$)
+
+The enthalpy change to form 1 mole of gaseous atoms from the element in its standard state.
+
+$$\frac{1}{2}\mathrm{Cl}_{2(g)} \to \mathrm{Cl}_{(g)} \quad \Delta H_{\mathrm{at}}^\circ = +122 \mathrm{ kJ/mol}$$
+
+This is always endothermic (bonds must be broken).
+
+### Key Reference Values
+
+| Substance                                     | $\Delta H_f^\circ$ (kJ/mol) | $\Delta H_c^\circ$ (kJ/mol) |
+| --------------------------------------------- | --------------------------- | --------------------------- |
+| $\mathrm{CO}_{2(g)}$                          | $-393.5$                    | --                          |
+| $\mathrm{H}_2\mathrm{O}_{(l)}$                | $-285.8$                    | --                          |
+| $\mathrm{H}_2\mathrm{O}_{(g)}$                | $-241.8$                    | --                          |
+| $\mathrm{CH}_{4(g)}$                          | $-74.8$                     | $-890.3$                    |
+| $\mathrm{C}_2\mathrm{H}_{5}\mathrm{OH}_{(l)}$ | $-277.7$                    | $-1367$                     |
+| $\mathrm{C}_3\mathrm{H}_{8(g)}$               | $-103.8$                    | $-2220$                     |
+| $\mathrm{NH}_{3(g)}$                          | $-46.0$                     | $-383$                      |
+| $\mathrm{NaOH}_{(aq)}$                        | $-470.1$                    | --                          |
+
+---
+
+## Hess"s Law
 
 ### Statement
 

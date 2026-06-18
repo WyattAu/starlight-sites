@@ -1,6 +1,57 @@
 ---
 title: Unique Ownership (std::unique_ptr) and EBO
-description: ""sensor", 42);
+description: "is the default smart pointer for exclusive ownership of heap-allocated objects. It Is zero-overhead relative to a raw pointer, supports custom deleters with..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Unique Ownership (std::unique_ptr) and EBO
+
+`std::unique_ptr` is the default smart pointer for exclusive ownership of heap-allocated objects. It
+Is zero-overhead relative to a raw pointer, supports custom deleters with Empty Base Optimization,
+And enforces move-only semantics that make ownership transfers explicit at the call site.
+
+## 2.1 Definition
+
+`std::unique_ptr<T>` is a smart pointer that holds a heap-allocated object via exclusive ownership.
+Exactly one `unique_ptr` owns the pointed-to object at any time. When the `unique_ptr` is destroyed,
+The object is deleted [N4950 §20.11.1].
+
+```
+Layout (default deleter, no EBO savings):
+┌──────────────────┐
+│ T* ptr_          │  (1 pointer, 8 bytes on x86_64)
+└──────────────────┘
+sizeof(std::unique_ptr<T>) == sizeof(T*)
+```
+
+## 2.2 Construction: `std::make_unique`
+
+Always prefer `std::make_unique<T>(args...)` over `new T(args...)` [N4950 §20.11.3]. The reasons
+Are:
+
+1. **Exception safety:** `make_unique` performs a single allocation. Expressions like
+   `f(unique_ptr<T>(new T), may_throw())` can leak if evaluation order causes `new T` to succeed but
+   `may_throw()` throws before the `unique_ptr` is constructed.
+2. **No raw `new` exposure:** The `new` expression is hidden inside the factory, preventing
+   accidental raw pointer use.
+
+```cpp
+#include <memory>
+#include <string>
+
+struct Widget {
+    std::string name;
+    int value;
+    Widget(std::string n, int v) : name(std::move(n)), value(v) {}
+};
+
+std::unique_ptr<Widget> create_widget() {
+    return std::make_unique<Widget>("sensor", 42);
 }
 
 void use_widget() {

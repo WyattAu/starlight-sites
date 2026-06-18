@@ -3,7 +3,38 @@ title: Identical Particles and Exchange Symmetry
 tags:
   - Physics
   - University
-description: ""s first rule**: parallel spins are energetically favourable
+description: "For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems."
+---
+
+### 9.1 Symmetrisation Postulate
+
+For a system of $N$ identical particles, the wavefunction must satisfy:
+
+$$\psi(\ldots, \mathbf{r}_i, \ldots, \mathbf{r}_j, \ldots) = \pm\psi(\ldots, \mathbf{r}_j, \ldots, \mathbf{r}_i, \ldots)$$
+
+- **Bosons** (integer spin): symmetric ($+$ sign). Any number can occupy the same state.
+- **Fermions** (half-integer spin): antisymmetric ($-$ sign). Pauli exclusion: no two fermions can
+  occupy the same state.
+
+For two particles, the properly symmetrised states are:
+
+$$\psi_S = \frac{1}{\sqrt{2}}\left[\psi_a(1)\psi_b(2) + \psi_b(1)\psi_a(2)\right] \quad \text{(bosons)}$$
+
+$$\psi_A = \frac{1}{\sqrt{2}}\left[\psi_a(1)\psi_b(2) - \psi_b(1)\psi_a(2)\right] \quad \text{(fermions)}$$
+
+### 9.2 Exchange Interaction
+
+Even without an explicit interaction potential, the requirement of (anti)symmetry leads to an
+effective **exchange interaction**. For two electrons in a box, the probability of finding them
+close together differs between the triplet (spatially antisymmetric, spin symmetric) and singlet
+(spatially symmetric, spin antisymmetric) states:
+
+$$|\psi_{\text{triplet}|^2 = 0 \quad \text{when}  \mathbf{r}_1 = \mathbf{r}_2}$$
+
+$$|\psi_{\text{singlet}|^2 > 0 \quad \text{when}  \mathbf{r}_1 = \mathbf{r}_2}$$
+
+The triplet state keeps electrons apart (effective repulsion), while the singlet allows them to be
+close. This is the origin of the **Hund"s first rule**: parallel spins are energetically favourable
 for atoms because the exchange interaction lowers the Coulomb repulsion.
 
 ### 9.3 The Helium Atom

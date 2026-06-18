@@ -1,6 +1,36 @@
 ---
 title: Memory Models
-description: ""1984").
+description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models In cognitive psychology. It conceptualises memory as..."
+
+---
+
+## The Multi-Store Model of Memory
+
+### Atkinson and Shiffrin (1968)
+
+The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models
+In cognitive psychology. It conceptualises memory as consisting of three structural stores through
+Which information flows in a linear sequence.
+
+#### The Three Stores
+
+**Sensory memory** is the first store in the sequence. It holds incoming sensory information very
+Briefly, preserving a near-exact copy of the sensory input for a duration of approximately 200--500
+Milliseconds for visual information (iconic memory) and approximately 2--3 seconds for auditory
+Information (echoic memory). Sensory memory has a large capacity but extremely limited duration.
+
+Evidence for sensory memory comes from Sperling (1960), who demonstrated that participants shown a
+3-by-4 grid of letters for 50 milliseconds could report only 4--5 items in a full-report condition
+But could accurately report any specified row when cued by a tone immediately after the display.
+This partial-report advantage demonstrates that all 12 items were briefly available in sensory
+Memory but decayed before they could be reported.
+
+**Short-term memory (STM)** has a limited capacity of approximately $7 \pm 2$ items (Miller, 1956)
+And a limited duration of approximately 18--30 seconds without rehearsal (Peterson and Peterson,
+1959). Information is maintained in STM through maintenance rehearsal -- the passive repetition of
+Information without necessarily processing its meaning. The capacity of STM can be effectively
+Increased through chunking, the process of grouping individual items into larger meaningful units
+(e.g., the sequence 1-9-8-4 is more remembered as the single chunk "1984").
 
 **Long-term memory (LTM)** has a theoretically unlimited capacity and potentially unlimited
 Duration. Information enters LTM through elaborative rehearsal -- the active processing of meaning,

@@ -1,6 +1,33 @@
 ---
 title: Introduction to Security
-description: ""s advantage is understanding how layers interact. When you understand how TLS
+description: "Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated..."
+
+---
+
+## The Threat Landscape
+
+Information security is not a feature you bolt on after the fact. It is a property of a system that
+Must be designed in from the start, validated continuously, and treated as a first-class engineering
+Concern alongside reliability, performance, and correctness.
+
+The modern threat landscape is defined by scale and sophistication. Nation-state actors operate with
+Resources that rival the budgets of the organizations they target. Organized crime groups monetize
+Access through ransomware, data exfiltration, and credential resale. Insider threats — whether
+Malicious or negligent — account for a significant fraction of breaches. Supply chain attacks
+Compromise trusted software to reach thousands of downstream victims simultaneously.
+
+The cost of failure is material. The average data breach costs organizations millions of USD, and
+Regulatory penalties under GDPR, HIPAA, and PCI-DSS can dwarf the direct technical cost of an
+Incident.
+
+## Security as a Systems Engineering Discipline
+
+Security failures are almost always systems failures. A buffer overflow in a C library, a
+Misconfigured S3 bucket, an overly permissive IAM policy, a leaked JWT secret — these are not crypto
+Problems or network problems or application problems. They are systems problems that manifest at a
+Particular layer.
+
+The systems engineer"s advantage is understanding how layers interact. When you understand how TLS
 Termination works, how DNS resolution chains to load balancers, how container isolation maps to
 Kernel namespaces, you can reason about where trust boundaries exist and where they might be
 Violated.

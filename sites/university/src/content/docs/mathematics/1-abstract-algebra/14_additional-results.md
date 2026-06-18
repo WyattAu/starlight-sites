@@ -3,7 +3,10 @@ title: Additional Results
 tags:
   - Mathematics
   - University
-description: ""s Theorem
+description: "If is a prime dividing Then has an element of Order . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 14.1 Cauchy"s Theorem
 
 **Theorem 14.1 (Cauchy's Theorem).** If $p$ is a prime dividing $|G|$Then $G$ has an element of
 Order $p$.

@@ -1,6 +1,28 @@
 ---
 title: AP Calculus Diagnostic Guide
-description: ""tricky" cases that AP exams favor in their harder multiple-choice and
+description: "Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics..."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-maths
+categories:
+  - ap-maths
+tableOfContents: false
+---
+
+# AP Calculus Diagnostic Guide
+
+## Purpose
+
+Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding.
+Unlike practice exams that sample broadly, diagnostics focus on the specific misconceptions, edge
+cases, and synthesis skills that separate students who can follow procedures from those who
+understand the underlying mathematics.
+
+Each diagnostic file contains two categories of tests:
+
+- **Unit Tests (UT):** Test a single topic in isolation. They target common misconceptions, boundary
+  conditions, and the "tricky" cases that AP exams favor in their harder multiple-choice and
   free-response questions.
 - **Integration Tests (IT):** Require synthesizing two or more topics. These reflect the multi-step
   reasoning demanded by AP free-response questions, where a single problem might require a limit, a

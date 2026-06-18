@@ -1,6 +1,188 @@
 ---
 title: Centres of Mass and Elastic Collisions
-description: ""s law of restitution
+description: "A-Level Further Maths Centres of Mass and Elastic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+date: 2026-04-02T00:00:00.000Z
+tags:
+  - FurtherMaths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Centres of Mass and Elastic Collisions
+
+This topic covers two major areas of further mechanics: finding the centre of mass of laminas,
+Solids, and composite bodies, and analysing elastic and inelastic collisions between particles
+Including oblique impacts.
+
+### Board Coverage
+
+| Board      | Paper   | Notes                                                |
+| ---------- | ------- | ---------------------------------------------------- |
+| AQA        | Paper 2 | Centres of mass; elastic collisions in one dimension |
+| Edexcel    | M2      | Full coverage including oblique impacts              |
+| OCR (A)    | Paper 2 | Centres of mass; direct and oblique collisions       |
+| CIE (9231) | M2      | Centres of mass covered; collisions in M2            |
+
+<hr />
+
+## 1. Centre of Mass of a Uniform Lamina
+
+### 1.1 Centre of mass by integration
+
+**Definition.** The _centre of mass_ of a lamina bounded by $y = f(x)$, $x = a$, $x = b$And the $x$-axis
+is the point $(\bar{x}, \bar{y})$ where:
+
+$$\boxed{\bar{x} = \frac◆LB◆\displaystyle\int_a^b x \cdot f(x)\,dx◆RB◆◆LB◆\displaystyle\int_a^b f(x)\,dx◆RB◆}$$
+
+$$\boxed{\bar{y} = \frac◆LB◆\displaystyle\int_a^b \frac{1}{2}[f(x)]^2\,dx◆RB◆◆LB◆\displaystyle\int_a^b f(x)\,dx◆RB◆}$$
+
+The denominator is the total area of the lamina: $A = \displaystyle\int_a^b f(x)\,dx$.
+
+### Proof of the centre of mass of a uniform triangular lamina
+
+### Proof
+
+Consider a triangle with vertices at $(0, 0)$, $(b, 0)$And $(c, h)$.
+
+The line from $(0, 0)$ to $(c, h)$ is $y = \dfrac{h}{c}\,x$ and the line from $(b, 0)$ to $(c, h)$
+Is $y = \dfrac{h}{c - b}(x - b)$.
+
+For simplicity, take a right triangle with vertices $(0, 0)$$(b, 0)$$(0, h)$Where
+$f(x) = h - \dfrac{h}{b}x = h\!\left(1 - \dfrac{x}{b}\right)$.
+
+$$\bar{x} = \frac◆LB◆\displaystyle\int_0^b x \cdot h\!\left(1 - \frac{x}{b}\right)dx◆RB◆◆LB◆\displaystyle\int_0^b h\!\left(1 - \frac{x}{b}\right)dx◆RB◆$$
+
+Numerator:
+$\displaystyle h\int_0^b \left(x - \frac{x^2}{b}\right)dx = h\left[\frac{x^2}{2} - \frac{x^3}{3b}\right]_0^b = h\left(\frac{b^2}{2} - \frac{b^2}{3}\right) = \frac{hb^2}{6}$.
+
+Denominator:
+$\displaystyle h\int_0^b \left(1 - \frac{x}{b}\right)dx = h\left[x - \frac{x^2}{2b}\right]_0^b = \frac{hb}{2}$.
+
+$$\bar{x} = \frac{hb^2/6}{hb/2} = \frac{b}{3}$$
+
+$$\bar{y} = \frac◆LB◆\displaystyle\int_0^b \frac{1}{2}h^2\!\left(1 - \frac{x}{b}\right)^2 dx◆RB◆◆LB◆hb/2◆RB◆ = \frac◆LB◆\dfrac{h^2}{2}\displaystyle\int_0^b \left(1 - \frac{2x}{b} + \frac{x^2}{b^2}\right)dx◆RB◆◆LB◆hb/2◆RB◆$$
+
+$$= \frac◆LB◆\dfrac{h^2}{2}\!\left[b - b + \dfrac{b}{3}\right]◆RB◆◆LB◆hb/2◆RB◆ = \frac{h^2 b / 6}{hb/2} = \frac{h}{3}$$
+
+For a general triangle with vertices $(x_1, y_1), (x_2, y_2), (x_3, y_3)$:
+
+$$\boxed{\bar{x} = \frac{x_1 + x_2 + x_3}{3}, \qquad \bar{y} = \frac{y_1 + y_2 + y_3}{3}}$$
+
+$\square$
+
+<hr />
+
+## 2. Centre of Mass of Standard Shapes
+
+### 2.1 Uniform triangular lamina
+
+$$\boxed{\bar{x} = \frac{x_1 + x_2 + x_3}{3}, \qquad \bar{y} = \frac{y_1 + y_2 + y_3}{3}}$$
+
+For a triangle of base $b$ and height $h$ with base on the $x$-axis: $\bar{y} = \dfrac{h}{3}$.
+
+### 2.2 Semicircular lamina
+
+For a uniform semicircular lamina of radius $r$:
+
+$$\boxed{\bar{y} = \frac◆LB◆4r◆RB◆◆LB◆3\pi◆RB◆}$$
+
+The centre of mass lies on the axis of symmetry, a distance $\dfrac◆LB◆4r◆RB◆◆LB◆3\pi◆RB◆$ from the
+Diameter.
+
+### 2.3 Circular sector
+
+For a sector of a circle of radius $r$ with half-angle $\alpha$ (so the sector subtends $2\alpha$ at
+The centre):
+
+$$\boxed{\bar{x} = \frac◆LB◆2r\sin\alpha◆RB◆◆LB◆3\alpha◆RB◆}$$
+
+This lies on the axis of symmetry. For a semicircle ($\alpha = \pi/2$):
+$\bar{x} = \dfrac◆LB◆2r◆RB◆◆LB◆3(\pi/2)◆RB◆ = \dfrac◆LB◆4r◆RB◆◆LB◆3\pi◆RB◆$Consistent with Section
+2.2.
+
+### 2.4 Circular arc
+
+For a uniform circular arc of radius $r$ subtending angle $2\alpha$ at the centre:
+
+$$\boxed{\bar{x} = \frac◆LB◆r\sin\alpha◆RB◆◆LB◆\alpha◆RB◆}$$
+
+<hr />
+
+## 3. Centre of Mass of Composite Bodies
+
+**Definition.** For a body composed of $n$ parts with masses $m_1, m_2, \ldots, m_n$ and centres of
+Mass at $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)$:
+
+$$\boxed{\bar{x} = \frac◆LB◆\displaystyle\sum_{i=1}^{n} m_i x_i◆RB◆◆LB◆\displaystyle\sum_{i=1}^{n} m_i◆RB◆}$$
+
+$$\boxed{\bar{y} = \frac◆LB◆\displaystyle\sum_{i=1}^{n} m_i y_i◆RB◆◆LB◆\displaystyle\sum_{i=1}^{n} m_i◆RB◆}$$
+
+For a composite body, _negative masses_ can be used for holes or removed sections.
+
+<details>
+<summary>Worked Example: Composite lamina</summary>
+
+A uniform lamina consists of a square of side $4a$ with a semicircle of radius $2a$ removed from one
+Edge. Find the centre of mass of the remaining lamina.
+
+The square has area $(4a)^2 = 16a^2$ and centre of mass at $(2a, 2a)$.
+
+The semicircle has area $\dfrac{1}{2}\pi(2a)^2 = 2\pi a^2$ and centre of mass at
+$(2a, 2a + \dfrac◆LB◆4(2a)◆RB◆◆LB◆3\pi◆RB◆) = (2a, 2a + \dfrac◆LB◆8a◆RB◆◆LB◆3\pi◆RB◆)$Assuming the
+Semicircle is removed from the top edge.
+
+Using negative mass for the semicircle:
+
+$$\bar{y} = \frac◆LB◆16a^2 \times 2a - 2\pi a^2 \times (2a + 8a/(3\pi))◆RB◆◆LB◆16a^2 - 2\pi a^2◆RB◆$$
+
+$$= \frac◆LB◆32a^3 - 4\pi a^3 - 16a^3/3◆RB◆◆LB◆a^2(16 - 2\pi)◆RB◆ = \frac◆LB◆a(96 - 12\pi - 16)/3◆RB◆◆LB◆16 - 2\pi◆RB◆ = \frac◆LB◆a(80 - 12\pi)◆RB◆◆LB◆3(16 - 2\pi)◆RB◆$$
+
+$$= \frac◆LB◆a(80 - 12\pi)◆RB◆◆LB◆48 - 6\pi◆RB◆ = \frac◆LB◆a(40 - 6\pi)◆RB◆◆LB◆24 - 3\pi◆RB◆$$
+
+</details>
+
+<hr />
+
+## 4. Centre of Mass of Frameworks
+
+### 4.1 Uniform wire frameworks
+
+A framework is made of uniform wires (rods). Each rod has its centre of mass at its midpoint. The
+Total mass is proportional to the total length.
+
+$$\boxed{\bar{x} = \frac◆LB◆\displaystyle\sum m_i x_i◆RB◆◆LB◆\displaystyle\sum m_i◆RB◆ = \frac◆LB◆\displaystyle\sum \ell_i x_i◆RB◆◆LB◆\displaystyle\sum \ell_i◆RB◆}$$
+
+Where $\ell_i$ is the length of the $i$-th rod and $x_i$ is the $x$-coordinate of its midpoint.
+
+### 4.2 Hanging bodies
+
+When a lamina is freely suspended from a point, it hangs with its centre of mass directly below the
+Point of suspension. This means:
+
+- The line of action of the weight passes through the point of suspension.
+- The lamina is in equilibrium when the point of suspension is vertically above the centre of mass.
+
+### 4.3 Equilibrium of a suspended body
+
+For a body suspended from a point $P$ to hang in equilibrium, the centre of mass $G$ must be
+Directly below $P$. If suspended from a second point $Q$, $G$ must be directly below $Q$. The
+Intersection of the two vertical lines through $P$ and $Q$ gives $G$.
+
+<hr />
+
+## 5. Elastic Collisions
+
+### 5.1 Impulse and momentum
+
+**Definition.** The _impulse_ $J$ delivered by a force $F$ acting for a time $\Delta t$ is:
+
+$$\boxed{J = F \cdot \Delta t = \Delta p = m(v - u)}$$
+
+Where $u$ is the initial velocity and $v$ is the final velocity.
+
+### 5.2 Newton"s law of restitution
 
 **Definition.** The _coefficient of restitution_ $e$ for a collision between two bodies is:
 

@@ -1,6 +1,55 @@
 ---
 title: Constraint Subsumption and Overload Resolution
-description: ""s normalized set is
+description: "When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Constraint Subsumption and Overload Resolution
+
+When multiple constrained function templates are viable for a call, the compiler uses
+**subsumption** --- a partial ordering on constraints --- to select the most constrained candidate.
+This mechanism eliminates the ambiguity problems that plagued SFINAE-based overload sets and enables
+Clean, readable overloading based on concept constraints.
+
+## Partial Ordering of Constraints
+
+The C++ standard defines a **partial ordering** on constraints called **subsumption** [N4950
+§13.5.4]. Given two constraints $P$ and $Q$We say $P$ **subsumes** $Q$ (written $P \succeq Q$) if
+$P$ is at least as restrictive as $Q$ --- meaning that every set of template arguments satisfying
+$P$ also satisfies $Q$.
+
+Formally, for a constraint $P$ to subsume a constraint $Q$:
+
+$$
+\forall \mathrm{substitutions  S : P(S) \implies Q(S)
+$$
+
+This is a structural comparison performed by the compiler, not a runtime check. The rules for
+Determining subsumption between constraint conjunctions and disjunctions are [N4950 §13.5.4.1]:
+
+| $P$         | $Q$         | $P$ subsumes $Q$?                                         |
+| ----------- | ----------- | --------------------------------------------------------- |
+| $A \land B$ | $A$         | Yes (conjunction subsumes each conjunct)                  |
+| $A$         | $A \land B$ | No (the conjunct is less restrictive)                     |
+| $A$         | $A \lor B$  | Yes (disjunction is subsumed by each disjunct)            |
+| $A \lor B$  | $A$         | No (the disjunction is less restrictive)                  |
+| $A$         | $A$         | Yes (identical constraints subsume each other)            |
+| $A$         | $B$         | Indeterminate (incomparable unless one implies the other) |
+
+## Proof: Partially-Ordered Overloads Are Preferred
+
+**Claim:** When two viable function templates have constraints $P$ and $Q$And $P$ subsumes $Q$ but
+$Q$ does not subsume $P$The overload with constraint $P$ is unambiguously preferred.
+
+**Proof:**
+
+1. By [N4950 §13.5.4/1], a constraint $P$ _subsumes_ a constraint $Q$ if, after normalizing both
+   constraints into sets of atomic constraints, every atomic constraint in $P$"s normalized set is
    subsumed by at least one atomic constraint in $Q$'s normalized set, using the template parameter
    mapping.
 

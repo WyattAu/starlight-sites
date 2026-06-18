@@ -1,6 +1,48 @@
 ---
 title: Immunology
-description: ""s own cells that are normally
+description: "The immune system can be divided into two broad categories based on specificity  Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-18T00:00:00.000Z
+tags:
+  - Biology
+  - ALevel
+categories:
+  - Biology
+
+---
+
+## Immunology
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+## 1. Overview of the Immune System
+
+### 1.1 Types of Immunity
+
+The immune system can be divided into two broad categories based on specificity and memory:
+
+| Feature            | Innate (Non-Specific) Immunity                           | Adaptive (Specific) Immunity                              |
+| ------------------ | -------------------------------------------------------- | --------------------------------------------------------- |
+| Specificity        | Non-specific; responds to a range of pathogens           | Highly specific; targets particular antigens              |
+| Memory             | No immunological memory                                  | Memory cells enable faster secondary response             |
+| Speed of response  | Immediate (minutes to hours)                             | Slower initial response (days); faster on second exposure |
+| Cells involved     | Phagocytes, neutrophils, mast cells, NK cells            | T lymphocytes (T cells), B lymphocytes (B cells)          |
+| Molecules involved | Complement proteins, interferons, antimicrobial peptides | Antibodies, cytokines, perforin, granzymes                |
+| Physical barriers  | Skin, mucous membranes, stomach acid, lysozyme           | Not applicable                                            |
+
+The immune response proceeds in a coordinated sequence. **Innate immunity** provides the first line
+of defence, acting immediately to limit infection. **Adaptive immunity** is activated more slowly
+but provides targeted, long-lasting protection.
+
+### 1.2 Antigens and Pathogens
+
+A **pathogen** is any organism that causes disease: bacteria, viruses, fungi, protoctista, and
+helminths (parasitic worms).
+
+An **antigen** is a molecule ( a protein or glycoprotein) on the surface of a pathogen or on a
+transplanted cell that is recognised as foreign by the immune system, provoking an immune response.
+Each antigen has a specific **epitope** (the precise molecular region recognised by an antibody or
+T-cell receptor).
+
+**Self-antigens** are molecules on the surface of an individual"s own cells that are normally
 tolerated by the immune system. The ability to distinguish self from non-self is fundamental to
 immune function. Failure of this distinction leads to autoimmune diseases (see Section 6).
 

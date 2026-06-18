@@ -1,6 +1,72 @@
 ---
 title: WebSockets
-description: ""dGhlIHNhbXBsZSBub25jZQ=="
+description: "WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,..."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection.
+Unlike HTTP, which follows a request-response model, WebSocket allows either side to send data at
+Any time after the connection is established. This makes WebSockets the protocol of choice for
+Real-time applications: chat, collaboration, financial tickers, live dashboards, gaming, and IoT
+Device control.
+
+WebSockets start as an HTTP upgrade. The client sends a regular HTTP request with an
+`Upgrade: websocket` header. If the server agrees, it responds with `101 Switching Protocols`And The
+connection becomes a WebSocket from that point forward.
+
+## HTTP Upgrade Handshake
+
+### Client Request
+
+```text
+GET /chat HTTP/1.1
+Host: example.com:8080
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+Origin: https://example.com
+```
+
+Key headers:
+
+- **Upgrade: websocket** -- signals the protocol upgrade request
+- **Connection: Upgrade** -- required by HTTP/1.1 to indicate a connection-level upgrade
+- **Sec-WebSocket-Key** -- base64-encoded 16-byte random value (used in the handshake validation)
+- **Sec-WebSocket-Version** -- must be `13` (the current WebSocket protocol version)
+- **Sec-WebSocket-Protocol** -- optional; lists application-level subprotocols the client supports
+- **Sec-WebSocket-Extensions** -- optional; lists protocol-level extensions the client supports
+
+### Server Response
+
+```text
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
+Sec-WebSocket-Protocol: chat
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+```
+
+### Handshake Validation
+
+The `Sec-WebSocket-Accept` value is computed as follows:
+
+1. Take the value of `Sec-WebSocket-Key` from the client request: `dGhlIHNhbXBsZSBub25jZQ==`
+2. Concatenate the globally unique UUID `258EAFA5-E914-47DA-95CA-C5AB0DC85B11`
+3. Compute SHA-1 hash of the concatenated string
+4. Base64-encode the hash
+
+```bash
+# Verify the handshake computation
+KEY="dGhlIHNhbXBsZSBub25jZQ=="
 GUID="258EAFA5-E914-47DA-95CA-C5AB0DC85B11"
 ACCEPT=$(printf "%s%s" "$KEY" "$GUID" | openssl dgst -sha1 -binary | base64)
 echo "$ACCEPT"

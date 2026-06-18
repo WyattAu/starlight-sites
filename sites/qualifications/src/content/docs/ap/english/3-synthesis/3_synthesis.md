@@ -1,6 +1,40 @@
 ---
 title: Synthesis
-description: ""s position?
+description: "The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - ap
+  - ap-english
+categories:
+  - ap-english
+
+---
+
+## What Is the Synthesis Essay?
+
+The synthesis essay requires you to **combine information from multiple provided sources** to
+construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text,
+visual, data-based) and 15 minutes to read and analyse them, followed by 40 minutes to write the
+essay.
+
+The synthesis essay is not a summary of the sources. It is an argument that **synthesises**
+(combines and integrates) evidence from the sources into your own position.
+
+## Reading and Analysing Sources
+
+### Step 1: Preview the Prompt
+
+Before reading the sources, read the prompt carefully. Identify:
+
+- The topic or issue
+- The specific question you must address
+- The types of sources provided (articles, charts, images, editorials)
+
+### Step 2: Read and Annotate Each Source
+
+For each source, note:
+
+- **Main argument or claim**: What is the author"s position?
 - **Key evidence**: What facts, data, or examples support the argument?
 - **Source type and credibility**: Who wrote it? Is it an academic study, news article, personal
   narrative, government report, or editorial?

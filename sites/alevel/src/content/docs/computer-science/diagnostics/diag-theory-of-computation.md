@@ -1,6 +1,110 @@
 ---
 title: "Theory of Computation -- Diagnostic Tests"
-description: ""not containing aba" can be constructed by
+description: "A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Theory of Computation — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Finite State Machine Design
+
+**Question:** Design a finite state machine (FSM) that accepts binary strings containing an even
+number of 0s. (a) Draw the state transition diagram. (b) Write the state transition table. (c) Trace
+the FSM with the input `10110` and state whether it is accepted.
+
+**Solution:**
+
+(a) **State transition diagram:**
+
+States: S0 (start, even 0s -- accepting), S1 (odd 0s -- rejecting).
+
+Transitions:
+
+- From S0: on 0 $\to$ S1, on 1 $\to$ S0
+- From S1: on 0 $\to$ S0, on 1 $\to$ S1
+
+```
+     0           1
+  +------+      +------+
+  |      |      |      |
+  v      |1     v      |1
+ (S0)* ---1--> (S1) ---1--> (S1)
+  ^ 0          ^ 0
+  |            |
+  +------0-----+
+```
+
+More :
+
+```
+      1        0
+ (S0)* ---> (S0)*    [on 1, stay at S0]
+ (S0)* ---> (S1)     [on 0, go to S1]
+ (S1)  ---> (S1)     [on 1, stay at S1]
+ (S1)  ---> (S0)*    [on 0, go to S0]
+```
+
+(b) **State transition table:**
+
+| Current State  | Input 0 | Input 1 |
+| -------------- | ------- | ------- |
+| S0 (accepting) | S1      | S0      |
+| S1 (rejecting) | S0      | S1      |
+
+(c) **Trace with input `10110`:**
+
+| Step | Input | Current State | Next State |
+| ---- | ----- | ------------- | ---------- |
+| 0    | -     | S0 (start)    | -          |
+| 1    | 1     | S0            | S0         |
+| 2    | 0     | S0            | S1         |
+| 3    | 1     | S1            | S1         |
+| 4    | 1     | S1            | S1         |
+| 5    | 0     | S1            | S0         |
+
+Final state: S0 (accepting). The string `10110` is **accepted** because it contains two 0s (even
+number).
+
+---
+
+### UT-2: Regular Expressions
+
+**Question:** Write regular expressions for: (a) all binary strings that start with `01`(b) all
+binary strings of length exactly 3 that contain at least one `1`(c) all strings over $\{a, b\}$ that
+do NOT contain the substring `aba`. For (c), explain why this cannot be done with a standard regular
+expression without negation.
+
+**Solution:**
+
+(a) Strings starting with `01`: `01(0|1)*`
+
+This matches: `01``010``011``0101``0110`Etc. The `(0|1)*` allows any binary sequence (including
+empty) after the initial `01`.
+
+(b) Strings of length exactly 3 with at least one `1`:
+
+All length-3 binary strings: `(0|1)(0|1)(0|1)` = 8 strings.
+
+Strings with no 1s: `000`.
+
+Strings with at least one 1: all except `000`. Regular expression: `(0|1)(0|1)(0|1)` minus `000`.
+
+Direct approach: enumerate all valid strings: `001|010|011|100|101|110|111`
+
+Compact approach: `(0|1)(0|1)(1|(0(0|1)1))` -- this is getting complex. Simpler:
+
+`((0|1)(0|1)1) | ((0|1)1(0|1)) | (1(0|1)(0|1))` -- covers all positions where 1 appears.
+
+Even simpler: `1(0|1)(0|1) | 0 1(0|1) | 00 1` $= 1(0\|1)^2 \| 01(0\|1) \| 001$.
+
+(c) Strings over $\{a, b\}$ not containing `aba`:
+
+This requires specifying all allowed strings, which is possible but complex. The complement (strings
+containing `aba`) has the regular expression: `(a|b)*aba(a|b)*`.
+
+A standard regular expression (without negation) for "not containing aba" can be constructed by
 building a DFA for the language and converting to a regular expression. The DFA has states
 representing "how much of `aba` we have seen at the end of the string so far":
 

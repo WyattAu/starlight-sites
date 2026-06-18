@@ -1,6 +1,49 @@
 ---
 title: AP English Language
-description: ""s argument.
+description: "Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-english
+categories:
+  - ap-english
+
+---
+
+# AP English Language
+
+Comprehensive revision notes for AP English Language and Composition, aligned with the College Board
+Course and Exam Description.
+
+These notes cover the full AP English Language curriculum, from rhetorical strategies and close
+reading through argument construction and synthesis writing. Each topic includes key definitions,
+detailed explanations, and worked examples to help you prepare for both the multiple-choice and
+free-response sections of the AP exam.
+
+## Topics
+
+- **1. Rhetorical Analysis**
+- **2. Argument**
+- **3. Synthesis**
+- **4. Close Reading**
+
+## Topics Covered
+
+- **Rhetorical Analysis** -- identifying and analysing rhetorical strategies (ethos, pathos, logos),
+  appeals to credibility, emotion, and logic; understanding authorial purpose, audience, and tone;
+  analysing diction, syntax, imagery, figurative language, and structural choices; analysing visual
+  rhetoric and multimedia texts; understanding the rhetorical situation (SOAPStone: Speaker,
+  Occasion, Audience, Purpose, Subject, Tone).
+- **Argument** -- constructing effective arguments with clear claims, evidence, and reasoning;
+  understanding types of evidence (facts, statistics, examples, expert testimony, anecdotes);
+  logical fallacies and how to identify and avoid them; Toulmin model (claim, data, warrant,
+  backing, counterargument, qualification); refutation and concession techniques; developing a
+  thesis statement and supporting it with logical reasoning.
+- **Synthesis** -- evaluating multiple sources to construct a coherent argument; integrating
+  quotations, paraphrases, and summaries from diverse sources; comparing and contrasting source
+  perspectives; acknowledging source credibility and potential bias; developing a position that
+  synthesises rather than merely summarises sources; understanding the relationship between sources
+  and the student"s argument.
 - **Close Reading** -- annotating texts for meaning and rhetorical choices; understanding
   connotation vs denotation; identifying tone, mood, and voice; analysing paragraph structure and
   organisational patterns (narration, description, exposition, argumentation); understanding

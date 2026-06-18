@@ -1,6 +1,116 @@
 ---
 title: ZFS Deep Dive
-description: ""full stripe" writes with
+description: "ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble"
+
+---
+
+## ZFS Architecture
+
+### The Three Layers
+
+ZFS is not a traditional filesystem. It is a combined volume manager and filesystem built from three
+Distinct layers:
+
+```mermaid
+graph TD
+    A[Application / POSIX Interface] --> B[ZPL - ZFS POSIX Layer]
+    B --> C[DMU - Data Management Unit]
+    C --> D[SPA - Storage Pool Allocator]
+    D --> E[Physical Storage - vdevs]
+```
+
+1. **ZPL (ZFS POSIX Layer):** The filesystem layer that provides POSIX-compliant semantics — files,
+   directories, permissions, extended attributes, and ACLs. It translates file operations into block
+   operations.
+2. **DMU (Data Management Unit):** The transactional layer that manages objects, blocks, and
+   snapshots. All writes are handled as atomic transactions. The DMU also manages the ARC (Adaptive
+   Replacement Cache).
+3. **SPA (Storage Pool Allocator):** The lowest layer that manages physical storage. It handles vdev
+   topology, I/O scheduling, checksumming, compression, and self-healing.
+
+### Copy-on-Write Transaction Model
+
+ZFS never overwrites data in place. Every write creates a new copy of the data block, and only after
+The new block is written and its checksum verified does ZFS update the metadata to point to the new
+Block. This has several consequences:
+
+- **Snapshots are instantaneous and free** (initially). A snapshot is a marker in the transaction
+  history that prevents old blocks from being freed.
+- **No write hole.** Unlike hardware RAID, a power loss during a write cannot leave data and parity
+  in an inconsistent state. Either the old data or the new data is referenced, never a partial
+  update.
+- **Fragmentation is inevitable.** Over time, as blocks are updated and freed, the pool becomes
+  fragmented. This is the primary trade-off of copy-on-write.
+
+### Merkle Tree and Checksumming
+
+Every block in ZFS is identified by its content hash (SHA-256 by default), forming a Merkle tree.
+The root of the Merkle tree (the block pointer) stores the checksum of its child blocks, and so on
+Recursively.
+
+When ZFS reads a block, it:
+
+1. Reads the block and its checksum from disk.
+2. Recomputes the checksum of the read data.
+3. Compares the computed checksum with the stored checksum.
+4. If they match, the data is returned.
+5. If they do not match (silent corruption), ZFS uses redundancy (mirror or parity) to reconstruct
+   the correct data and repair the corrupted copy.
+
+### Checksum Algorithms
+
+| Algorithm | Speed     | Collision Resistance | Recommendation                     |
+| --------- | --------- | -------------------- | ---------------------------------- |
+| fletcher2 | Fast      | Low                  | Legacy only                        |
+| fletcher4 | Fast      | Low                  | Default on older pools             |
+| sha256    | Moderate  | High                 | Default and recommended            |
+| sha512    | Slow      | Very High            | Security-sensitive environments    |
+| edonr     | Very Fast | Very High            | Best for modern hardware (SSE4.2+) |
+| blake3    | Very Fast | Very High            | Available on newer ZFS versions    |
+
+:::info Set the checksum algorithm at pool creation time with `-O checksum=sha256`. It cannot be
+Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ support and provides
+Excellent collision resistance.
+:::
+
+---
+
+## Storage Pools
+
+### vdev Types
+
+A ZFS pool (zpool) is constructed from one or more vdevs (virtual devices). The vdev is the
+Fundamental unit of redundancy and performance. Data is striped across vdevs for performance.
+
+```mermaid
+graph TD
+    A[zpool] --> B[vdev 0: mirror-0]
+    A --> C[vdev 1: raidz2-0]
+    B --> D[disk1]
+    B --> E[disk2]
+    C --> F[disk3]
+    C --> G[disk4]
+    C --> H[disk5]
+    C --> I[disk6]
+```
+
+| vdev Type     | Min Drives | Fault Tolerance  | Capacity Efficiency | Write Performance | Read Performance |
+| ------------- | ---------- | ---------------- | ------------------- | ----------------- | ---------------- |
+| stripe (none) | 1          | None             | 100%                | N ×               | N ×              |
+| mirror        | 2          | N-1 drives       | 1/N ×               | 1 × (per mirror)  | N ×              |
+| raidz1        | 3          | 1 drive          | (N-1)/N ×           | Moderate          | Good             |
+| raidz2        | 4          | 2 drives         | (N-2)/N ×           | Moderate          | Good             |
+| raidz3        | 5          | 3 drives         | (N-3)/N ×           | Moderate          | Good             |
+| draid1        | 3          | 1 drive + spare  | Similar to raidz1   | Good              | Good             |
+| draid2        | 4          | 2 drives + spare | Similar to raidz2   | Good              | Good             |
+
+### RAIDZ Dynamic Striping
+
+RAIDZ uses dynamic stripe width. Unlike traditional RAID 5/6 where the stripe width is fixed (e.g.,
+4+1 for RAID 5 with 5 drives), RAIDZ varies the stripe width based on the size of the incoming
+Write:
+
+- Small writes (less than one sector per data disk) are written as "full stripe" writes with
   variable-width padding.
 - Large writes that fill the stripe exactly avoid any padding overhead.
 - Medium writes may leave some sectors unused (wasted space).

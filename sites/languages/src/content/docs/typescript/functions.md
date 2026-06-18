@@ -1,6 +1,24 @@
 ---
 title: Functions
-description: ""Ada');
+description: "Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the..."
+date: 2026-04-22T00:00:00.000Z
+tags: [TypeScript]
+categories: [TypeScript]
+---
+
+## Function Type Fundamentals
+
+### Parameter Annotations
+
+Every function parameter may carry a type annotation. When the annotation is present, the compiler
+Verifies that all call sites provide arguments of the correct type.
+
+```ts
+function greet(name: string): string {
+  return `Hello, ${name}`;
+}
+
+greet("Ada');
 greet(42);
 ```
 

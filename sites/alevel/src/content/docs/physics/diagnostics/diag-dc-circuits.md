@@ -1,6 +1,88 @@
 ---
 title: "DC Circuits -- Diagnostic Tests"
-description: ""loading effect" occurs because the load draws current, changing the effective resistance of the
+description: "A-Level Physics DC Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
+tableOfContents: false
+---
+
+# DC Circuits — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Internal Resistance and Maximum Power Transfer
+
+**Question:**
+
+A battery has EMF $\varepsilon = 12.0\,\text{V}$ and internal resistance $r = 2.0\,\Omega$. It is
+connected to a variable external resistance $R$.
+
+(a) Derive an expression for the power delivered to $R$ and find the value of $R$ that maximises
+this power.
+
+(b) Calculate the maximum power delivered to $R$ and the efficiency at this operating point.
+
+(c) Calculate the power delivered to $R$ and the efficiency when $R = 10\,\Omega$.
+
+**Solution:**
+
+(a) Current: $I = \varepsilon/(R + r)$
+
+Power to $R$: $P = I^2R = \frac◆LB◆\varepsilon^2 R◆RB◆◆LB◆(R + r)^2◆RB◆$
+
+To maximise:
+$\frac{dP}{dR} = \frac◆LB◆\varepsilon^2(R + r)^2 - \varepsilon^2 R \times 2(R + r)◆RB◆◆LB◆(R + r)^4◆RB◆ = 0$
+
+$$\varepsilon^2(R + r)[(R + r) - 2R] = 0$$ $$R + r - 2R = 0 \Rightarrow R = r = 2.0\,\Omega$$
+
+Maximum power transfer occurs when the load resistance equals the internal resistance.
+
+(b) At $R = r = 2.0\,\Omega$:
+
+$$I = 12.0/4.0 = 3.0\,\text{A}$$ $$P_{\max} = I^2R = 9.0 \times 2.0 = 18.0\,\text{W}$$
+
+Efficiency $= P_R/P_{\text{total}} = I^2R/(I^2(R + r)) = R/(R + r) = 2.0/4.0 = 50\%$
+
+Half the power is dissipated in the internal resistance.
+
+(c) At $R = 10\,\Omega$:
+
+$$I = 12.0/12.0 = 1.0\,\text{A}$$ $$P = 1.0 \times 10 = 10.0\,\text{W}$$
+
+Efficiency $= 10.0/12.0 = 83.3\%$
+
+Higher efficiency but lower power than the matched condition. This is the fundamental trade-off in
+power transfer.
+
+---
+
+### UT-2: Potential Divider with Load
+
+**Question:**
+
+A potential divider consists of two resistors $R_1 = 10\,\text{k}\Omega$ and
+$R_2 = 20\,\text{k}\Omega$ in series across a $15.0\,\text{V}$ supply with negligible internal
+resistance. The output is taken across $R_2$.
+
+(a) Calculate the output voltage with no load connected.
+
+(b) A load resistor $R_L = 10\,\text{k}\Omega$ is connected across $R_2$. Calculate the new output
+voltage.
+
+(c) What value of $R_L$ would reduce the output voltage to $50\%$ of the unloaded value? Comment on
+your answer.
+
+**Solution:**
+
+(a) Unloaded:
+$V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2} = 15.0 \times \frac{20}{30} = 10.0\,\text{V}$
+
+(b) With load, $R_2$ and $R_L$ are in parallel:
+
+$$R_{\text{parallel}} = \frac{R_2 R_L}{R_2 + R_L} = \frac◆LB◆20 \times 10◆RB◆◆LB◆30◆RB◆ = 6.667\,\text{k}\Omega$$
+
+$$V_{\text{out}} = 15.0 \times \frac{6.667}{10 + 6.667} = 15.0 \times \frac{6.667}{16.667} = 6.00\,\text{V}$$
+
+The output voltage drops from $10.0\,\text{V}$ to $6.0\,\text{V}$ -- a $40\%$ reduction. This
+"loading effect" occurs because the load draws current, changing the effective resistance of the
 divider.
 
 (c) We need $V_{\text{out}} = 5.0\,\text{V}$ (50% of $10.0\,\text{V}$):

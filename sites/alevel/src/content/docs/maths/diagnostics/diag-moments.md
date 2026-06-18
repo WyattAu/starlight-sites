@@ -1,6 +1,50 @@
 ---
 title: "Moments -- Diagnostic Tests"
-description: ""s answer} = 150 \text{ Nm}$$
+description: "A-Level Maths Moments -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
+tableOfContents: false
+---
+
+# Moments — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for moments.
+
+### UT-1: Perpendicular Distance — Not Just Distance to Pivot
+
+**Question:**
+
+A force of $50$ N acts at one end $B$ of a uniform rod $AB$ of length $3$ m. The rod is hinged at
+end $A$ and held at an angle of $40°$ to the horizontal. The force acts vertically downwards.
+
+**(a)** Find the moment of the $50$ N force about the hinge $A$.
+
+**(b)** A student calculates the moment as $50 \times 3 = 150$ Nm. Explain the error and calculate
+the percentage overestimate.
+
+**(c)** The force at $B$ is now replaced by a force of $50$ N acting perpendicular to the rod (not
+vertically). Find the new moment about $A$ and explain why it is larger than the answer in part (a).
+
+[Difficulty: hard. Tests the distinction between the distance to the pivot and the perpendicular
+distance from the pivot to the line of action of the force -- the most common mistake in moments
+problems.]
+
+**Solution:**
+
+**(a)** The moment of a force about a point equals the force multiplied by the **perpendicular
+distance** from the point to the line of action of the force.
+
+The force acts vertically downwards at $B$. The perpendicular distance from $A$ to the vertical line
+through $B$ is the horizontal distance from $A$ to $B$:
+
+$$d = AB \times \cos 40° = 3\cos 40° \approx 2.298 \text{ m}$$
+
+$$\text{Moment} = F \times d = 50 \times 3\cos 40° = 150\cos 40° \approx 114.9 \text{ Nm}$$
+
+**(b)** The student used the distance $AB = 3$ m instead of the perpendicular distance
+$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$Not $F \times d_{\text{along rod}}$.
+
+$$\text{Student"s answer} = 150 \text{ Nm}$$
 
 $$\text{Correct answer} = 150\cos 40° \approx 114.9 \text{ Nm}$$
 

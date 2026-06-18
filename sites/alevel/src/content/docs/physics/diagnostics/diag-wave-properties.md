@@ -1,6 +1,106 @@
 ---
 title: "Wave Properties -- Diagnostic Tests"
-description: ""s Law
+description: "A-Level Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Wave Properties — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Electromagnetic Wave Properties
+
+**Question:**
+
+A plane electromagnetic wave in vacuum has an electric field amplitude of
+$E_0 = 48\,\text{V}\,\text{m}^{-1}$ and frequency $f = 5.0 \times 10^{14}\,\text{Hz}$.
+
+(a) Calculate the wavelength, the magnetic field amplitude $B_0$And the intensity of the wave.
+
+(b) The wave is incident normally on a surface of area $0.010\,\text{m}^2$. Calculate the radiation
+pressure on the surface if it is (i) perfectly absorbing and (ii) perfectly reflecting.
+
+(c) Calculate the energy of a single photon of this radiation.
+
+Take
+$c = 3.00 \times 10^8\,\text{m}\,\text{s}^{-1}$$\varepsilon_0 = 8.85 \times 10^{-12}\,\text{F}\,\text{m}^{-1}$$\mu_0 = 4\pi \times 10^{-7}\,\text{H}\,\text{m}^{-1}$$h = 6.63 \times 10^{-34}\,\text{J}\,\text{s}$.
+
+**Solution:**
+
+(a) Wavelength:
+$\lambda = c/f = 3.00 \times 10^8/(5.0 \times 10^{14}) = 6.0 \times 10^{-7}\,\text{m} = 600\,\text{nm}$
+(visible light, orange)
+
+Magnetic field amplitude: $B_0 = E_0/c = 48/(3.00 \times 10^8) = 1.60 \times 10^{-7}\,\text{T}$
+
+Intensity:
+$I = \frac{1}{2}\varepsilon_0 c E_0^2 = 0.5 \times 8.85 \times 10^{-12} \times 3.00 \times 10^8 \times 2304 = 0.5 \times 8.85 \times 10^{-12} \times 6.912 \times 10^{11} = 3.06\,\text{W}\,\text{m}^{-2}$
+
+Alternatively:
+$I = E_0 B_0/(2\mu_0) = 48 \times 1.60 \times 10^{-7}/(2 \times 4\pi \times 10^{-7}) = 7.68 \times 10^{-6}/(2.513 \times 10^{-6}) = 3.06\,\text{W}\,\text{m}^{-2}$
+
+(b) Radiation pressure:
+
+(i) Perfectly absorbing: $P = I/c = 3.06/(3.00 \times 10^8) = 1.02 \times 10^{-8}\,\text{Pa}$
+
+Force on surface: $F = PA = 1.02 \times 10^{-8} \times 0.010 = 1.02 \times 10^{-10}\,\text{N}$
+
+(ii) Perfectly reflecting: $P = 2I/c = 2.04 \times 10^{-8}\,\text{Pa}$
+
+Force: $F = 2.04 \times 10^{-10}\,\text{N}$
+
+(c)
+$E_{\text{photon}} = hf = 6.63 \times 10^{-34} \times 5.0 \times 10^{14} = 3.32 \times 10^{-19}\,\text{J} = 2.07\,\text{eV}$
+
+---
+
+### UT-2: Intensity and Amplitude Relationship
+
+**Question:**
+
+Two coherent sources $S_1$ and $S_2$ emit waves of wavelength $\lambda = 0.50\,\text{m}$ in phase. A
+point $P$ is located $4.0\,\text{m}$ from $S_1$ and $5.0\,\text{m}$ from $S_2$.
+
+(a) Determine whether point $P$ is at a maximum, minimum, or neither, and calculate the ratio of the
+amplitude at $P$ to the amplitude from a single source.
+
+(b) If the amplitude from each source alone at $P$ is $A_0$Derive the general expression for the
+amplitude at $P$ in terms of the path difference $\Delta x$.
+
+(c) Calculate the ratio of the intensity at $P$ to the intensity from a single source alone.
+
+**Solution:**
+
+(a) Path difference: $\Delta x = 5.0 - 4.0 = 1.0\,\text{m}$
+
+$\Delta x/\lambda = 1.0/0.50 = 2.0$
+
+Since the path difference is an integer number of wavelengths ($n = 2$), $P$ is at a **maximum**
+(constructive interference).
+
+The amplitude at $P$ is $A = 2A_0$ (double slit maximum).
+
+(b) Phase difference: $\phi = \frac◆LB◆2\pi \Delta x◆RB◆◆LB◆\lambda◆RB◆$
+
+The resultant amplitude from two waves of amplitude $A_0$ with phase difference $\phi$:
+
+$$A = \sqrt◆LB◆A_0^2 + A_0^2 + 2A_0^2\cos\phi◆RB◆ = A_0\sqrt◆LB◆2(1 + \cos\phi)◆RB◆ = 2A_0\left|\cos\frac◆LB◆\phi◆RB◆◆LB◆2◆RB◆\right|$$
+
+In terms of path difference: $\phi = 2\pi\Delta x/\lambda$
+
+$$A = 2A_0\left|\cos\frac◆LB◆\pi\Delta x◆RB◆◆LB◆\lambda◆RB◆\right|$$
+
+(c) Intensity is proportional to amplitude squared: $I \propto A^2$
+
+$$\frac{I_P}{I_0} = \frac{(2A_0)^2}{A_0^2} = 4$$
+
+At a maximum, the intensity is four times the intensity from a single source.
+
+At a minimum ($\Delta x = (n + 0.5)\lambda$): $A = 0$ and $I = 0$.
+
+---
+
+### UT-3: Polarisation and Malus"s Law
 
 **Question:**
 

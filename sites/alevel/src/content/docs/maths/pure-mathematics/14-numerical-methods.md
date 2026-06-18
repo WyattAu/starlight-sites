@@ -1,6 +1,20 @@
 ---
 title: Numerical Methods
-description: ""s rule |
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------------------ | | AQA | Paper 2 | Sign change, iteration,..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                                                  |
+| ---------- | ------- | ------------------------------------------------------ |
+| AQA        | Paper 2 | Sign change, iteration, Newton-Raphson, Simpson"s rule |
 | Edexcel    | P2      | Similar                                                |
 | OCR (A)    | Paper 2 | Includes fixed-point iteration and convergence         |
 | CIE (9709) | P2, P3  | Numerical solutions of equations, integration in P2/P3 |

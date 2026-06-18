@@ -1,6 +1,185 @@
 ---
 title: "Cell Biology and Biochemistry -- Diagnostic Tests"
-description: ""s test on W | Brick-red precipitate after heating |
+description: "DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
+tableOfContents: false
+---
+
+# DSE Biology Diagnostic: Cell Biology and Biochemistry
+
+## Unit Test 1: Prokaryotic vs Eukaryotic Cell Features
+
+**Question**
+
+A student examines two cell types under an electron microscope and records the following
+observations:
+
+- **Cell A**: No membrane-bound nucleus visible; ribosomes approximately 20 nm in diameter; cell
+  wall present; circular DNA molecule visible in the cytoplasm; mesosomes present; capsule
+  surrounding the cell.
+- **Cell B**: Membrane-bound nucleus with nucleolus; ribosomes approximately 25 nm in diameter;
+  mitochondria present; rough endoplasmic reticulum with ribosomes attached; Golgi apparatus
+  visible.
+
+(a) Identify Cell A and Cell B as prokaryotic or eukaryotic. Justify your answer with **three**
+structural differences from the observations. [3 marks]
+
+(b) Cell A is placed in a hypertonic solution and undergoes plasmolysis. Explain why plasmolysis
+occurs, referring to the water potential of the cell and the external solution. [3 marks]
+
+(c) A student claims that Cell B must be an animal cell because it has no cell wall. Evaluate this
+claim. [2 marks]
+
+---
+
+**Worked Solution**
+
+(a) **Cell A is prokaryotic** and **Cell B is eukaryotic**.
+
+Three structural differences:
+
+1. Cell A has **no membrane-bound nucleus**; Cell B has a membrane-bound nucleus with a nucleolus.
+2. Cell A has **70S ribosomes** (approximately 20 nm); Cell B has **80S ribosomes** (approximately
+   25 nm).
+3. Cell A has **no membrane-bound organelles** (no mitochondria, ER, or Golgi); Cell B possesses
+   mitochondria, rough ER, and Golgi apparatus.
+
+(Alternative acceptable difference: Cell A has circular DNA; Cell B has linear chromosomes within
+the nucleus.)
+
+(b) In a hypertonic solution, the external water potential is **lower** (more negative) than the
+water potential inside Cell A. Water moves **out of the cell** by osmosis down the water potential
+gradient, through the selectively permeable cell surface membrane. The cytoplasm shrinks and pulls
+away from the cell wall, causing plasmolysis.
+
+(c) The claim is **not necessarily correct**. While animal cells lack cell walls, some eukaryotic
+cells such as **protozoa** (e.g. Amoeba, Paramecium) also lack cell walls. The absence of a cell
+wall and presence of organelles (mitochondria, ER, Golgi) could indicate either an animal cell or a
+protozoan. The observation of these organelles alone confirms only that the cell is eukaryotic, not
+specifically animal.
+
+---
+
+## Unit Test 2: Phospholipid Bilayer and Fluid Mosaic Model
+
+**Question**
+
+(a) Describe the arrangement of phospholipids in the cell surface membrane and explain how this
+arrangement makes the membrane **partially permeable**. [4 marks]
+
+(b) Cholesterol molecules are embedded in the phospholipid bilayer of animal cell membranes. Explain
+**two** roles of cholesterol in the cell surface membrane. [4 marks]
+
+(c) Glycolipids and glycoproteins are found on the outer surface of the cell surface membrane. State
+**two** functions of these molecules. [2 marks]
+
+---
+
+**Worked Solution**
+
+(a) Phospholipids form a **bilayer** in which the hydrophilic phosphate heads face outwards (towards
+the aqueous environment on both sides) and the hydrophobic fatty acid tails face inwards, away from
+water. This arrangement creates a hydrophobic core in the centre of the bilayer.
+
+The membrane is partially permeable because:
+
+- **Small non-polar molecules** (e.g. $O_{2}$, $CO_{2}$Lipid-soluble steroid hormones) can diffuse
+  directly through the hydrophobic core.
+- **Large polar molecules** (e.g. Glucose), **ions** (e.g. $Na^{+}$, $Cl^{-}$), and **charged
+  molecules** cannot pass through the hydrophobic region and require transport proteins or vesicles.
+
+(b) Two roles of cholesterol:
+
+1. Cholesterol molecules fit between phospholipids and **bind to the hydrophobic tails**,
+   restricting their movement. This **increases membrane stability** and reduces fluidity at high
+   temperatures, preventing the membrane from becoming too permeable.
+2. At low temperatures, cholesterol **prevents tight packing** of phospholipid fatty acid tails,
+   maintaining some membrane fluidity and preventing crystallisation.
+
+(c) Two functions of glycolipids/glycoproteins:
+
+1. **Cell recognition and cell signalling**: They act as chemical markers (antigens) that allow
+   cells to recognise one another, important in immune response and tissue organisation.
+2. **Receptor sites** for hormones and neurotransmitters: glycoproteins can bind specific signalling
+   molecules, triggering intracellular responses.
+
+(Alternative: forming mucus for protection; attachment sites for pathogens.)
+
+---
+
+## Unit Test 3: Enzyme Kinetics and Inhibition
+
+**Question**
+
+An experiment was conducted to investigate the effect of substrate concentration on the rate of an
+enzyme-catalysed reaction. The results are shown below:
+
+| Substrate concentration (mmol/dm$^{3}$) | Rate of reaction (arbitrary units) |
+| :-------------------------------------: | :--------------------------------: |
+|                    2                    |                 8                  |
+|                    4                    |                 15                 |
+|                    6                    |                 20                 |
+|                    8                    |                 23                 |
+|                   10                    |                 24                 |
+|                   12                    |                24.5                |
+|                   14                    |                24.8                |
+
+(a) Explain why the rate of reaction increases at low substrate concentrations but plateaus at high
+substrate concentrations. [3 marks]
+
+(b) A competitive inhibitor is added to the reaction mixture at a substrate concentration of 4
+mmol/dm$^{3}$. State the effect on the reaction rate and explain the mechanism of competitive
+inhibition. [3 marks]
+
+(c) Explain how a non-competitive inhibitor differs from a competitive inhibitor in terms of (i)
+where it binds to the enzyme, and (ii) its effect on Vmax and Km. [4 marks]
+
+---
+
+**Worked Solution**
+
+(a) At **low substrate concentrations**, not all active sites are occupied. Increasing substrate
+concentration increases the frequency of successful enzyme-substrate collisions, so the rate
+increases proportionally (first-order kinetics with respect to substrate).
+
+At **high substrate concentrations**, all active sites are **saturated** with substrate at any given
+time. The rate is now limited by the **turnover number** of the enzyme (the rate at which the enzyme
+can convert substrate to product and release it). Adding more substrate has no effect because there
+are no free active sites available. The maximum rate is **Vmax**.
+
+(b) Adding a competitive inhibitor **decreases the reaction rate** (from 15 to a lower value at 4
+mmol/dm$^{3}$).
+
+Mechanism: The competitive inhibitor has a **similar shape** to the substrate and binds to the
+**active site** of the enzyme, forming an enzyme-inhibitor complex. This blocks the substrate from
+binding. Since the inhibitor and substrate **compete** for the same active site, increasing
+substrate concentration can overcome competitive inhibition.
+
+(c) Differences between non-competitive and competitive inhibition:
+
+(i) **Binding site**: A non-competitive inhibitor binds to the **allosteric site** (a site other
+than the active site), whereas a competitive inhibitor binds to the **active site**.
+
+(ii) **Effect on Vmax and Km**:
+
+- Non-competitive inhibition **decreases Vmax** (because some enzyme molecules are permanently
+  inactivated regardless of substrate concentration) but **does not change Km** (the remaining
+  active enzymes still have the same affinity for the substrate).
+- Competitive inhibition **does not change Vmax** (at very high substrate concentration, the
+  substrate outcompetes the inhibitor) but **increases Km** (a higher substrate concentration is
+  needed to reach half Vmax, indicating reduced apparent affinity).
+
+---
+
+## Integration Test 1: Biological Molecules and Biochemical Tests
+
+**Question**
+
+A student is given four unknown solutions (W, X, Y, Z) and asked to identify the biological
+molecules they contain. The student performs the following tests:
+
+| Test                 | Result                              |
+| -------------------- | ----------------------------------- |
+| Benedict"s test on W | Brick-red precipitate after heating |
 | Biuret test on X     | Violet/purple colour                |
 | Emulsion test on Y   | White emulsion forms                |
 | Iodine test on Z     | Blue-black colour                   |

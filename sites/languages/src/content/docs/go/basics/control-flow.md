@@ -1,6 +1,21 @@
 ---
 title: Control Flow
-description: ""positive")
+description: "Go''s statements do not require parentheses but do require braces. The condition can include an Initialization statement."
+date: 2026-04-18
+tags:
+  - Go
+categories:
+  - Go
+---
+
+## If / Else
+
+Go's `if` statements do not require parentheses but do require braces. The condition can include an
+Initialization statement.
+
+```go
+if x > 0 {
+    fmt.Println("positive")
 } else if x < 0 {
     fmt.Println("negative")
 } else {

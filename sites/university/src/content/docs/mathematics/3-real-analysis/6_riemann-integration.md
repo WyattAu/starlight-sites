@@ -3,7 +3,80 @@ title: Riemann Integration
 tags:
   - Mathematics
   - University
-description: ""s Criterion for Riemann Integrability).** A bounded function
+description: "Riemann Integration: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 6.1 Definition
+
+Let $f : [a,b] \to \mathbb{R}$ be bounded. A **partition** of $[a,b]$ is a finite set
+$P = \{x_0, x_1, \ldots, x_n\}$ with $a = x_0 \lt x_1 \lt \cdots \lt x_n = b$.
+
+The **upper sum** and **lower sum** of $f$ with respect to $P$ are:
+
+$$U(f, P) = \sum_{i=1}^{n} M_i \Delta x_i, \quad L(f, P) = \sum_{i=1}^{n} m_i \Delta x_i$$
+
+Where $M_i = \sup\{f(x) : x \in [x_{i-1}, x_i]\}$, $m_i = \inf\{f(x) : x \in [x_{i-1}, x_i]\}$And
+$\Delta x_i = x_i - x_{i-1}$.
+
+The **mesh** of $P$ is $\|P\| = \max_{1 \leq i \leq n} \Delta x_i$.
+
+**Definition.** $f$ is **Riemann integrable** on $[a,b]$ if the upper and lower integrals are equal:
+
+$$\overline{\int_a^b} f(x)\, dx = \underline{\int_a^b} f(x)\, dx$$
+
+Where $\overline{\int_a^b} f = \inf\{U(f,P) : P \mathrm{\ is\ a\ partition}\}$ and
+$\underline{\int_a^b} f = \sup\{L(f,P) : P \mathrm{\ is\ a\ partition}\}$.
+
+The common value is denoted $\int_a^b f(x)\, dx$.
+
+### 6.2 Integrability Criteria
+
+**Theorem 6.1 (Riemann Integrability Criterion).** A bounded function $f : [a,b] \to \mathbb{R}$ is
+Riemann integrable if and only if for every $\varepsilon > 0$There exists a partition $P$ such that
+
+$$U(f,P) - L(f,P) \lt \varepsilon$$
+
+**Theorem 6.2.** Every continuous function on $[a,b]$ is Riemann integrable.
+
+_Proof._ Let $f$ be continuous on $[a,b]$. By the Heine-Cantor theorem, $f$ is uniformly continuous.
+Given $\varepsilon > 0$Choose $\delta > 0$ such that $|x - y| \lt \delta$ implies
+$|f(x) - f(y)| \lt \varepsilon/(b-a)$.
+
+Let $P$ be any partition with $\|P\| \lt \delta$. On each subinterval $[x_{i-1}, x_i]$By the Extreme
+Value Theorem, $f$ attains its maximum $M_i$ and minimum $m_i$. By uniform continuity:
+$M_i - m_i \lt \varepsilon/(b-a)$. Therefore:
+
+$$U(f,P) - L(f,P) = \sum_{i=1}^{n}(M_i - m_i)\Delta x_i \lt \frac{\varepsilon}{b-a} \sum_{i=1}^{n} \Delta x_i = \varepsilon$$
+
+By the Riemann integrability criterion, $f$ is integrable. $\blacksquare$
+
+**Theorem 6.3.** Every monotone function on $[a,b]$ is Riemann integrable.
+
+_Proof._ Assume $f$ is increasing (the decreasing case is analogous). Given $\varepsilon > 0$Let
+$P_n$ be the uniform partition with $n$ subintervals of length $(b-a)/n$. On $[x_{i-1}, x_i]$:
+$M_i = f(x_i)$ and $m_i = f(x_{i-1})$. Then:
+
+$$U(f, P_n) - L(f, P_n) = \sum_{i=1}^{n} [f(x_i) - f(x_{i-1})] \cdot \frac{b-a}{n} = [f(b) - f(a)] \cdot \frac{b-a}{n}$$
+
+Choose $n$ large enough that $[f(b) - f(a)](b-a)/n \lt \varepsilon$. $\blacksquare$
+
+**Theorem 6.4.** A bounded function with finitely many discontinuities on $[a,b]$ is Riemann
+integrable.
+
+_Proof (sketch)._ Let $f$ have discontinuities at $d_1, \ldots, d_m \in [a,b]$. Given
+$\varepsilon > 0$ Enclose each $d_j$ in a small interval $I_j$ of total length
+$\varepsilon/(2M)$Where $M = \sup_{[a,b]} |f|$. On the remaining set (a finite union of closed
+intervals), $f$ is continuous, Hence uniformly continuous. Choose a partition fine enough that the
+oscillation of $f$ on each Subinterval outside the $I_j$ is less than $\varepsilon/(2(b-a))$. Then:
+
+$$U(f, P) - L(f, P) \leq \frac{\varepsilon}{2(b-a)} \cdot (b - a) + 2M \cdot \frac{\varepsilon}{2M} = \varepsilon$$
+
+$\blacksquare$
+
+**Proposition 6.4a.** The set of Riemann integrable functions on $[a,b]$ forms a vector space, and
+If $f$ and $g$ are integrable, then so are $|f|$, $f^2$And $\max(f, g)$.
+
+**Theorem 6.4b (Lebesgue"s Criterion for Riemann Integrability).** A bounded function
 $f : [a,b] \to \mathbb{R}$ Is Riemann integrable if and only if the set of its discontinuities has
 (Lebesgue) measure zero.
 

@@ -1,6 +1,106 @@
 ---
 title: BGP and Routing Protocols
-description: ""
+description: "Routing is the process of selecting a path across a network for traffic to travel from a source to a Destination. Every packet your systems send -- whether..."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - Networking
+categories:
+  - Networking
+
+---
+
+## Overview
+
+Routing is the process of selecting a path across a network for traffic to travel from a source to a
+Destination. Every packet your systems send -- whether it is an API call to another data center, a
+DNS query to a resolver, or a user request to your load balancer -- relies on routing protocols to
+Determine where it goes.
+
+This section covers the full spectrum of routing, from static routes on a single router to BGP
+Sessions between autonomous systems that make the Internet function. The emphasis is on practical
+Understanding: what each protocol does, how it makes decisions, where it fails, and how to
+Troubleshoot it.
+
+## Routing Fundamentals
+
+### Routed Protocols vs Routing Protocols
+
+**Definition.** A **routed protocol** is a network-layer protocol that defines the packet format and
+Addressing used to deliver data from source to destination. IP (both IPv4 and IPv6) is a routed
+Protocol. A **routing protocol** is a protocol that routers use to dynamically share routing
+Information and build their routing tables. OSPF, BGP, and EIGRP are routing protocols.
+
+Routed protocols carry user traffic. Routing protocols carry control traffic between routers. Do not
+Confuse them.
+
+### The Routing Table
+
+Every IP router maintains a routing table (also called the Routing Information Base, or RIB). Each
+Entry contains:
+
+| Field       | Description                                                                       |
+| ----------- | --------------------------------------------------------------------------------- |
+| Destination | The network or host address being routed to (prefix)                              |
+| Mask        | The subnet mask defining the prefix length                                        |
+| Gateway     | The next-hop IP address                                                           |
+| Interface   | The outgoing interface to reach the next hop                                      |
+| Metric      | The cost of the route (lower is preferred unless administrative distance differs) |
+| Protocol    | How the route was learned (connected, static, OSPF, BGP, etc.)                    |
+
+On Cisco IOS, view the routing table with `show ip route`:
+
+```
+Router# show ip route
+Codes: C - connected, S - static, R - RIP, O - OSPF, B - BGP
+       D - EIGRP, N - NHRP, L - local
+
+Gateway of last resort is 10.0.0.1 to network 0.0.0.0
+
+S*   0.0.0.0/0 [1/0] via 10.0.0.1, Ethernet0/0
+C    10.0.0.0/24 is directly connected, Ethernet0/0
+O    192.168.1.0/24 [110/20] via 10.0.0.2, 00:03:12, Ethernet0/1
+B    172.16.0.0/16 [20/0] via 10.0.0.3, 00:01:45
+```
+
+The bracket notation `[administrative distance/metric]` is critical for understanding which route
+Wins when multiple protocols advertise the same prefix.
+
+### Route Sources
+
+Routes enter the routing table from three sources:
+
+1. **Directly connected routes.** Interfaces that are up and have an IP address configured.
+   Administrative distance: 0. These are always the most trusted.
+
+2. **Static routes.** Manually configured by an administrator. Administrative distance: 1 (default),
+   configurable. Used when the network topology is simple or you need explicit control.
+
+3. **Dynamic routes.** Learned through routing protocols (OSPF, BGP, EIGRP, RIP, IS-IS). Each
+   protocol has a default administrative distance.
+
+### Administrative Distance
+
+**Definition.** **Administrative distance** (AD) is a value from 0 to 255 that a router uses to rate
+The trustworthiness of a route source. When the same prefix is learned from multiple sources, the
+Route with the lowest AD is installed in the routing table. AD 0 is most trusted, 255 is
+Unreachable.
+
+| Source           | Administrative Distance |
+| ---------------- | ----------------------- |
+| Connected        | 0                       |
+| Static           | 1                       |
+| EIGRP (summary)  | 5                       |
+| EBGP             | 20                      |
+| EIGRP (internal) | 90                      |
+| IGRP             | 100                     |
+| OSPF             | 110                     |
+| IS-IS            | 115                     |
+| RIP              | 120                     |
+| EIGRP (external) | 170                     |
+| iBGP             | 200                     |
+| Unknown          | 255                     |
+
+:::info Administrative distance is a Cisco concept, but the principle exists in other vendors"
 Implementations under different names (route preference, distance, or trust value). The numeric
 Values may differ.
 :::

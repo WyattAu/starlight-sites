@@ -1,6 +1,94 @@
 ---
 title: Algorithms (Advanced)
-description: ""critical edge" (the bottleneck of an
+description: "Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2026-05-06T00:00:00.000Z
+tags:
+  - Computing
+  - University
+categories:
+  - Computing
+
+---
+
+## 1. Network Flow
+
+### 1.1 Flow Networks
+
+A **flow network** is a directed graph $G = (V, E)$ with:
+
+- A **source** $s \in V$ and a **sink** $t \in V$.
+- A **capacity function** $c : E \to \mathbb{R}_{\geq 0}$.
+- For every edge $(u, v) \in E$The reverse edge $(v, u) \notin E$ (we can add reverse edges with
+  capacity 0).
+
+A **flow** is a function $f : V \times V \to \mathbb{R}_{\geq 0}$ satisfying:
+
+1. **Capacity constraint:** $0 \leq f(u, v) \leq c(u, v)$ for all $(u, v) \in E$.
+2. **Flow conservation:** $\sum_{v \in V} f(v, u) = \sum_{v \in V} f(u, v)$ for all
+   $u \in V \setminus \{s, t\}$.
+
+The **value of a flow** is
+$|f| = \sum_{v \in V} f(s, v) - \sum_{v \in V} f(v, s) = \sum_{v \in V} f(v, t) - \sum_{v \in V} f(t, v)$.
+
+**Theorem 1.1 (Max-Flow Min-Cut).** The maximum value of a flow from $s$ to $t$ equals the minimum
+capacity of an $s$-$t$ cut.
+
+_Proof._ Let $f^*$ be a maximum flow. Let $S$ be the set of vertices reachable from $s$ in the
+residual graph $G_f$ (the graph with edges of positive residual capacity). Since $f^*$ is maximum,
+$t \notin S$. The cut $(S, V \setminus S)$ has capacity equal to $|f^*|$:
+
+1. Every edge from $S$ to $V \setminus S$ is saturated by $f^*$ (otherwise it would have residual
+   capacity and $V \setminus S$ would contain a vertex reachable from $s$).
+2. Every edge from $V \setminus S$ to $S$ carries zero flow (otherwise the reverse edge in the
+   residual graph would provide a path from $s$ into $S$).
+
+Therefore
+$|f^*| = \sum_{u \in S, v \in V \setminus S} f^*(u, v) - \sum_{u \in S, v \in V \setminus S} f^*(v, u) = \sum_{u \in S, v \in V \setminus S} c(u, v)$.
+
+Since any flow has value at most the capacity of any cut, and we have found a cut with capacity
+$|f^*|$The maximum flow equals the minimum cut. $\blacksquare$
+
+### 1.2 Ford-Fulkerson Method
+
+The Ford-Fulkerson method iteratively finds augmenting paths in the residual graph and pushes flow
+along them.
+
+**Residual capacity:** $c_f(u, v) = c(u, v) - f(u, v)$ (forward edge) or $c_f(u, v) = f(v, u)$
+(reverse edge).
+
+**Algorithm:**
+
+```
+Ford-Fulkerson(G, s, t, c):
+    initialize f(u, v) = 0 for all (u, v)
+    while there exists an augmenting path P from s to t in G_f:
+        c_f(P) = min{c_f(u, v) : (u, v) in P}
+        for each (u, v) in P:
+            f(u, v) += c_f(P)
+            f(v, u) -= c_f(P)
+    return f
+```
+
+**Theorem 1.2.** If all capacities are integers, the Ford-Fulkerson method terminates with a maximum
+flow after at most $|f^*|$ augmentations, where $|f^*|$ is the value of the maximum flow.
+
+_Proof._ Each augmentation increases the flow value by at least 1 (since capacities are integers,
+the residual capacity of any path is at least 1). The flow value cannot exceed $|f^*|$So at most
+$|f^*|$ augmentations occur. $\blacksquare$
+
+**Corollary.** With integer capacities, the running time is $O(E \cdot |f^*|)$.
+
+**Note on irrational capacities.** If capacities are irrational, Ford-Fulkerson may not terminate.
+It may converge to a value strictly less than the maximum.
+
+### 1.3 Edmonds-Karp Algorithm
+
+The **Edmonds-Karp algorithm** is Ford-Fulkerson where augmenting paths are found using BFS
+(shortest augmenting path in terms of number of edges).
+
+**Theorem 1.3.** Edmonds-Karp runs in $O(VE^2)$ time.
+
+_Proof._ The key insight is that each edge can become a "critical edge" (the bottleneck of an
 augmenting path) at most $O(V)$ times. Each time an edge $(u, v)$ becomes critical, the distance
 from $s$ to $u$ in the residual graph strictly increases. Since the distance from $s$ to any vertex
 is at most $V - 1$Each edge can become critical at most $V/2$ times (the distance increases by at

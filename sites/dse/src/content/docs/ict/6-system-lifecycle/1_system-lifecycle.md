@@ -1,6 +1,74 @@
 ---
 title: System Lifecycle
-description: ""The system shall calculate monthly payroll" |
+description: "This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information..."
+date: 2026-04-08T00:00:00.000Z
+tags:
+  - DSE
+  - ICT
+categories:
+  - DSE
+  - ICT
+
+---
+
+This document covers the system development lifecycle (SDLC) for the DSE ICT examination.
+Understanding The SDLC is essential for analysing how information systems are developed, from
+initial problem Identification through to ongoing maintenance.
+
+---
+
+## Overview of the System Development Lifecycle
+
+The system development lifecycle (SDLC) is a structured methodology for developing information
+systems. It consists of distinct phases, each with specific activities and deliverables.
+
+### Phases of the SDLC
+
+| Phase              | Purpose                                                  | Key Deliverables                              |
+| ------------------ | -------------------------------------------------------- | --------------------------------------------- |
+| **Analysis**       | Understand the problem and identify requirements         | Requirements specification, feasibility study |
+| **Design**         | Plan the solution (hardware, software, data, UI)         | System specifications, designs, diagrams      |
+| **Implementation** | Build the system according to the design                 | Working system, programs, database            |
+| **Testing**        | Verify the system works correctly and meets requirements | Test reports, bug fixes                       |
+| **Documentation**  | Produce user and technical documentation                 | User manual, technical guide, help files      |
+| **Evaluation**     | Assess whether the system meets its objectives           | Evaluation report                             |
+| **Maintenance**    | Keep the system running and up to date after deployment  | Updates, patches, enhancements                |
+
+---
+
+## Phase 1: Analysis
+
+### Phase 1: Analysis Purpose
+
+The analysis phase investigates the current system and the problem it needs to solve. The analyst
+Gathers information about what the new system must do (requirements) without specifying how it will
+Be built.
+
+### Activities
+
+| Activity                       | Description                                                     |
+| ------------------------------ | --------------------------------------------------------------- |
+| **Problem identification**     | Define the current problem and specifically                     |
+| **Fact finding**               | Collect information about the current system and requirements   |
+| **Requirements analysis**      | Determine what the new system must do (functional requirements) |
+| **Feasibility study**          | Assess whether the project is viable and worthwhile             |
+| **Requirements specification** | Produce a formal document listing all requirements              |
+
+### Fact-Finding Methods
+
+| Method                | Description                                             | Advantages                           | Disadvantages                            |
+| --------------------- | ------------------------------------------------------- | ------------------------------------ | ---------------------------------------- |
+| **Interviews**        | Face-to-face or structured interviews with stakeholders | In-depth, allows follow-up questions | Time-consuming, may be biased            |
+| **Questionnaires**    | Written surveys distributed to a large number of users  | Reaches many people, anonymous       | Low response rate, rigid questions       |
+| **Observation**       | Watch users performing their current tasks              | Reveals actual practices             | Users may change behaviour when observed |
+| **Document analysis** | Examine existing documents, forms, reports, manuals     | Provides existing data source        | May be outdated or incomplete            |
+| **Sampling**          | Examine a representative subset of data                 | Efficient for large datasets         | Sample may not be representative         |
+
+### Types of Requirements
+
+| Type                     | Description                                   | Example                                      |
+| ------------------------ | --------------------------------------------- | -------------------------------------------- |
+| **Functional**           | What the system must do                       | "The system shall calculate monthly payroll" |
 | **Non-functional**       | How the system should perform                 | "The system shall respond within 2 seconds"  |
 | **Input requirements**   | Data inputs the system must accept            | "Accept student name, class, and scores"     |
 | **Output requirements**  | Outputs the system must produce               | "Print a class list sorted by name"          |

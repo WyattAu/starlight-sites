@@ -1,6 +1,28 @@
 ---
 title: DSE History
-description: "" understanding of how past events have shaped the
+description: "Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises..."
+tableOfContents: false
+tags:
+  - history
+  - dse
+---
+
+# DSE History
+
+Complete revision notes for HKDSE History, covering major themes in modern world history and
+regional developments in Asia. The syllabus emphasises analytical thinking, source evaluation, and
+the ability to construct well-evidenced historical arguments aligned with the HKEAA curriculum.
+
+## Syllabus Overview
+
+The DSE History syllabus is structured around major themes in modern history, with a particular
+emphasis on developments in the 20th and early 21st centuries. Students study political, social, and
+economic transformations across different regions, with attention to both global events and
+developments specific to China, Japan, and Hong Kong. The examination tests both factual knowledge
+and the ability to analyse historical sources, assess competing interpretations, and present
+balanced arguments.
+
+The curriculum is designed to develop students" understanding of how past events have shaped the
 contemporary world, with a focus on causation, consequence, significance, and the diversity of
 historical perspectives. Source-based questions require critical evaluation of evidence, including
 bias, reliability, and utility.

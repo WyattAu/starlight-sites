@@ -1,6 +1,37 @@
 ---
 title: Economics Diagnostic Test
-description: ""The government should subsidise renewable energy." Classify this statement and explain your
+description: "This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a Specific concept, requires 2–5 steps, and includes a..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a
+Specific concept, requires 2–5 steps, and includes a revision redirect to the relevant topic.
+
+<hr />
+
+## Part A: Microeconomics (22 Questions)
+
+### Topic 1: The Economic Problem
+
+**Q1.** A student can spend 5 hours revising for Economics and Maths. Her expected marks are
+$E_E = 30\sqrt{h_E}$ and $E_M = 20\sqrt{h_M}$ where $h_E + h_M = 5$. What is the opportunity cost of
+Spending the third hour on Economics (increasing $h_E$ from 2 to 3)?
+
+<details>
+<summary>Answer</summary>
+At $h_E = 2$: $E_E = 30\sqrt{2} \approx 42.4$, $h_M = 3$: $E_M = 20\sqrt{3} \approx 34.6$. Total = 77.0.<br />
+At $h_E = 3$: $E_E = 30\sqrt{3} \approx 51.96$, $h_M = 2$: $E_M = 20\sqrt{2} \approx 28.3$. Total = 80.3.<br />
+The third hour on Economics raises total marks from 77.0 to 80.3. The opportunity cost is the Maths marks forgone: $34.6 - 28.3 = 6.3$ marks. (Note: the marginal gain in Economics is $51.96 - 42.4 = 9.6$Net gain = 3.3.)
+<i>Revision: [The Economic Problem](/docs/alevel/economics/microeconomics/the-economic-problem)</i>
+</details>
+
+**Q2.** "The government should subsidise renewable energy." Classify this statement and explain your
 Reasoning.
 
 <details>

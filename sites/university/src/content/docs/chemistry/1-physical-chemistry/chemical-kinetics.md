@@ -1,6 +1,89 @@
 ---
 title: Chemical Kinetics
-description: ""[A]$$
+description: "For the reaction , the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Chemistry
+  - University
+categories:
+  - Chemistry
+---
+
+## 1. Rate Laws and Reaction Order
+
+### 1.1 Rate of Reaction
+
+For the reaction $aA + bB \to cC + dD$, the rate of reaction is:
+
+$$v = -\frac{1}{a}\frac{d[A]}{dt} = -\frac{1}{b}\frac{d[B]}{dt} = \frac{1}{c}\frac{d[C]}{dt} = \frac{1}{d}\frac{d[D]}{dt}$$
+
+### 1.2 The Rate Law
+
+**Definition 1 (Rate Law):** For many reactions, the rate is proportional to the concentrations of
+reactants raised to powers:
+
+$$v = k[A]^m[B]^n$$
+
+where $k$ is the **rate constant**, $m$ is the order with respect to $A$, $n$ is the order with
+respect to $B$, and the overall order is $m + n$. The orders $m$ and $n$ are experimentally
+determined — they need not equal the stoichiometric coefficients.
+
+### 1.3 Elementary Reactions and molecularity
+
+For an **elementary reaction** (single molecular event), the order equals the molecularity:
+
+- **Unimolecular:** $A \to$ products, rate $= k[A]$ (first order)
+- **Bimolecular:** $A + B \to$ products, rate $= k[A][B]$ (second order)
+- **Termolecular:** $A + B + C \to$ products, rate $= k[A][B][C]$ (third order, rare)
+
+## 2. Integrated Rate Laws
+
+### 2.1 Zeroth-Order Reactions
+
+$$\frac{d[A]}{dt} = -k$$
+
+$$[A] = [A]_0 - kt$$
+
+**Half-life:** $t_{1/2} = \frac{[A]_0}{2k}$
+
+### 2.2 First-Order Reactions
+
+$$\frac{d[A]}{dt} = -k[A]$$
+
+$$\ln[A] = \ln[A]_0 - kt \quad \text{or} \quad [A] = [A]_0 e^{-kt}$$
+
+**Half-life:** $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$
+
+The half-life is **independent** of initial concentration.
+
+**Example 1:** Radioactive decay of ${}^{14}\text{C}$ has $t_{1/2} = 5730$ years. What fraction
+remains after 10000 years?
+
+$$k = \frac{0.693}{5730} = 1.21 \times 10^{-4} \text{ yr}^{-1}$$
+
+$$\frac{[A]}{[A]_0} = e^{-kt} = e^{-1.21 \times 10^{-4} \times 10000} = e^{-1.21} = 0.298$$
+
+About 29.8% remains.
+
+$\blacksquare$
+
+### 2.3 Second-Order Reactions
+
+Type I: $A + A \to$ products, rate $= k[A]^2$:
+
+$$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
+
+**Half-life:** $t_{1/2} = \frac{1}{k[A]_0}$
+
+Type II: $A + B \to$ products with $[A]_0 = [B]_0$:
+
+$$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
+
+### 2.4 Pseudo-First-Order Reactions
+
+When one reactant is in large excess ($[B]_0 \gg [A]_0$):
+
+$$v = k[A][B] \approx k"[A]$$
 
 where $k' = k[B]_0$ is the pseudo-first-order rate constant.
 

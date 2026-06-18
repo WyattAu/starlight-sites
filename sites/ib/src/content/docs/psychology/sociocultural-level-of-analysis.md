@@ -1,6 +1,24 @@
 ---
 title: Sociocultural Level of Analysis
-description: ""s dimensions,
+description: "The sociocultural level of analysis (SCLOA) investigates how the social environment and cultural context influence behaviour. It is based on the principle..."
+
+---
+
+# Sociocultural Level of Analysis
+
+The sociocultural level of analysis (SCLOA) investigates how the social environment and cultural
+context influence behaviour. It is based on the principle that human beings are social animals whose
+behaviour is shaped by the presence and actions of others, and that cultural norms and values shape
+behaviour. The SCLOA is one of three core levels of analysis assessed on Paper 1 and connects
+closely to topics in developmental psychology and abnormal psychology.
+
+The SCLOA completes the three-level framework by examining the external forces that contextualise
+biological and cognitive processes. While the BLOA might explain aggression through testosterone
+levels and the CLOA through hostile attribution bias, the SCLOA asks how cultural norms, social
+roles, and intergroup dynamics make aggression more or less likely in a given context. Social
+identity theory, for example, explains prejudice as a consequence of group categorisation -- a
+cognitive process (in-group/ out-group distinction) operating within a social structure (cultural
+narratives, power relations). Cross-cultural research in the SCLOA (e.g., Hofstede"s dimensions,
 Berry's acculturation studies) demonstrates that cognitive processes identified in Western, educated
 populations cannot be assumed to be universal, making this level essential for evaluating the
 generalisability of BLOA and CLOA findings.

@@ -1,6 +1,157 @@
 ---
 title: Market Structure and Theory of the Firm
-description: ""s time and capital. When `P = ATC`Total revenue equals total
+description: "A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of..."
+date: 2026-04-08T00:00:00.000Z
+tags:
+  - DSE
+  - Economics
+categories:
+  - DSE
+  - Economics
+
+---
+
+## Overview of Market Structures
+
+A market structure describes the organisational and competitive characteristics of a market. The
+Classification framework rests on four axes: the number of buyers and sellers, the degree of product
+Differentiation, the height of barriers to entry and exit, and the extent of information symmetry.
+These parameters determine how firms make output and pricing decisions, and they determine the
+Welfare outcomes for consumers and producers.
+
+The continuum of market structures runs from perfect competition (maximum competition) to monopoly
+(no competition). Between these poles lie monopolistic competition and oligopoly.
+
+| Characteristic    | Perfect Competition      | Monopolistic Competition | Oligopoly                       | Monopoly                      |
+| ----------------- | ------------------------ | ------------------------ | ------------------------------- | ----------------------------- |
+| Number of firms   | Very many                | Many                     | Few ( 3 to 12)                  | One                           |
+| Product type      | Homogeneous              | Differentiated           | Differentiated or homogeneous   | Unique (no close substitutes) |
+| Barriers to entry | None                     | Low                      | High                            | Very high                     |
+| Market power      | None (price taker)       | Low (some price setting) | Significant (mutual dependence) | Substantial (price maker)     |
+| Information       | Perfect                  | Good                     | Imperfect                       | Imperfect                     |
+| Examples          | Agricultural commodities | Restaurants, hair salons | Automobiles, smartphones        | CLP Power (HK electricity)    |
+
+This file assumes familiarity with cost curves (`TC``ATC``AVC``MC`) and revenue curves (`TR`
+`AR``MR`) from
+[../2-demand-supply-markets/1_demand-supply-and-markets](../2-demand-supply-markets/1_demand-supply-and-markets).
+
+---
+
+## Theory of Costs and Revenue: Prerequisite Review
+
+Before analysing market structures, the following cost and revenue relationships are foundational.
+
+### Short-Run Cost Curves
+
+In the short run, at least one factor of production is fixed. The key cost curves and their
+Interactions are:
+
+- `MC` is U-shaped: it initially falls (increasing marginal returns) then rises (diminishing
+  marginal returns).
+- `MC` intersects `AVC` at the minimum of `AVC`.
+- `MC` intersects `ATC` at the minimum of `ATC`.
+- When `MC \lt AVC``AVC` is falling. When `MC \gt AVC``AVC` is rising. The same logic holds for `MC`
+  relative to `ATC`.
+
+### Revenue Under Different Market Structures
+
+| Structure             | `AR` (Demand Curve)            | `MR` vs `AR`               |
+| --------------------- | ------------------------------ | -------------------------- |
+| Perfect competition   | Horizontal (perfectly elastic) | `MR = AR = P` (constant)   |
+| Imperfect competition | Downward-sloping               | `MR \lt AR` (falls faster) |
+
+For any firm facing a downward-sloping demand curve, `MR` lies below `AR`. This is the fundamental
+Reason why imperfectly competitive firms restrict output relative to the perfectly competitive
+Benchmark: producing an additional unit requires lowering the price on all units sold, not just the
+Marginal unit.
+
+### Profit Maximisation Condition
+
+Regardless of market structure, a profit-maximising firm produces where `MR = MC`Provided that Price
+at that output covers average variable cost (the shutdown condition in the short run).
+
+$$\mathrm{Profit} = \mathrm{TR} - \mathrm{TC} = Q(P - \mathrm{ATC})$$
+
+---
+
+## Perfect Competition
+
+### Characteristics
+
+Perfect competition is an idealised market structure defined by the following conditions:
+
+1. **Many buyers and sellers:** No single buyer or seller can influence the market price. Each firm
+   is a price taker.
+2. **Homogeneous (identical) product:** The output of every firm is a perfect substitute for the
+   output of every other firm. Consumers have no brand preference.
+3. **Perfect information:** All market participants have full knowledge of prices, costs, quality,
+   and technology.
+4. **Free entry and exit:** There are no barriers preventing new firms from entering the market or
+   existing firms from leaving. Resources are perfectly mobile.
+5. **Perfect factor mobility:** Factors of production (labour, capital) can move freely between
+   industries without cost or delay.
+
+### The Firm as a Price Taker
+
+Because the firm produces a homogeneous product and faces many competitors, it cannot charge a price
+Above the market price (consumers would buy from competitors instead). It has no incentive to charge
+Below the market price (it can sell any quantity it wants at the market price). Therefore, the firm
+Faces a perfectly elastic (horizontal) individual demand curve at the market price `P`.
+
+$$\mathrm{AR} = \mathrm{MR} = P$$
+
+### Short-Run Equilibrium
+
+In the short run, the number of firms is fixed. Each firm maximises profit by producing where
+`P = MR = MC`. Three outcomes are possible depending on the relationship between `P` and `ATC`:
+
+**Case 1: Supernormal (economic) profit** (`P \gt ATC` at the profit-maximising output)
+
+| Condition   | Result                                  |
+| ----------- | --------------------------------------- |
+| `P \gt ATC` | Supernormal profit per unit = `P - ATC` |
+| `P \gt AVC` | Firm continues producing                |
+
+Diagram description: The `MC` curve intersects the horizontal `P = MR = AR` line at output `Q*`. At
+`Q*`The `ATC` curve lies below the price line. The rectangular area between the `ATC` curve and The
+price line, from 0 to `Q*`Represents supernormal profit.
+
+<details>
+<summary>Worked Example: Supernormal Profit in Perfect Competition</summary>
+
+A perfectly competitive firm has `TC = 200 + 20Q + 2Q^2`. The market price is `P = 60`.
+
+`MC = dTC/dQ = 20 + 4Q`
+
+Set `P = MC`: `60 = 20 + 4Q`So `Q = 10`.
+
+`ATC = 200/10 + 20 + 2(10) = 20 + 20 + 20 = 60`.
+
+Since `P = ATC = 60`The firm earns **normal profit** only.
+
+Now suppose the market price rises to `P = 80`:
+
+Set `P = MC`: `80 = 20 + 4Q`So `Q = 15`.
+
+`ATC = 200/15 + 20 + 2(15) = 13.33 + 20 + 30 = 63.33`.
+
+Since `P = 80 \gt ATC = 63.33`The firm earns **supernormal profit**.
+
+Supernormal profit per unit = `80 - 63.33 = 16.67`
+
+Total supernormal profit = `15 \times 16.67 = 250`.
+
+</details>
+
+**Case 2: Normal profit** (`P = ATC` at the profit-maximising output)
+
+| Condition | Result                         |
+| --------- | ------------------------------ |
+| `P = ATC` | Zero economic profit           |
+| `P = MC`  | Allocative efficiency achieved |
+
+Normal profit is the minimum profit necessary to keep the firm in the industry. It is the
+Opportunity cost of the entrepreneur"s time and capital. When `P = ATC`Total revenue equals total
 Cost (including implicit costs), so economic profit is zero but accounting profit is positive.
 
 **Case 3: Subnormal profit (loss)** (`P \lt ATC` but `P \gt AVC`)

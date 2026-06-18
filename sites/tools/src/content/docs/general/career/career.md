@@ -1,6 +1,89 @@
 ---
 title: Systems Engineering Career
-description: ""Design a URL shortener") and expects you to work through
+description: "General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
+
+---
+
+## Systems Engineering Career Paths
+
+### SRE (Site Reliability Engineering)
+
+SRE sits at the intersection of software engineering and operations. The role was formalized by
+Google and has since become one of the most in-demand roles in tech.
+
+**Core competencies:**
+
+- Service Level Objectives (SLOs) and error budgets
+- Incident management and post-mortems
+- Capacity planning and performance engineering
+- Automation (Infrastructure as Code, CI/CD)
+- Monitoring, alerting, and observability
+- System design for reliability and scalability
+
+**Day-to-day work:**
+
+- Writing code to automate operational tasks
+- Designing and maintaining monitoring systems
+- Responding to incidents and performing root cause analysis
+- Reviewing system designs for reliability risks
+- Participating in on-call rotations
+
+### Platform Engineering
+
+Platform engineering builds internal developer platforms that abstract infrastructure complexity:
+
+- **Platform as a Product:** The platform team treats developers as customers.
+- **Self-service infrastructure:** Developers provision resources without filing tickets.
+- **Golden paths:** Opinionated, pre-configured stacks that are secure, compliant, and
+  production-ready.
+
+**Key skills:**
+
+- Kubernetes and container orchestration
+- Infrastructure as Code (Terraform, Pulumi)
+- Service mesh and API gateway design
+- Developer experience (DX) design
+- Cost optimization and FinOps
+
+### Infrastructure Engineering
+
+Infrastructure engineers design, build, and operate the physical and virtual infrastructure that
+Supports applications:
+
+- Network design (data center, WAN, cloud interconnects)
+- Storage systems (SAN, NAS, object storage, databases)
+- Compute platforms (bare metal, VMs, containers)
+- Security infrastructure (firewalls, WAF, IAM, PKI)
+- Data center operations (power, cooling, rack management)
+
+### Database Engineering
+
+Database engineers specialize in data storage, retrieval, and optimization:
+
+- Relational databases (PostgreSQL, MySQL, CockroachDB)
+- NoSQL databases (MongoDB, Cassandra, DynamoDB)
+- Time-series databases (InfluxDB, TimescaleDB, Prometheus)
+- Search engines (Elasticsearch, OpenSearch)
+- Data modeling, query optimization, and replication
+
+### Security Engineering
+
+Security engineers protect systems from threats:
+
+- Application security (code review, penetration testing)
+- Infrastructure security (network segmentation, hardening, compliance)
+- Cloud security (IAM policies, encryption, audit logging)
+- Incident response and forensics
+- Security architecture and threat modeling
+
+---
+
+## Interview Preparation
+
+### System Design Interviews
+
+System design interviews evaluate your ability to design scalable, reliable systems. The interviewer
+Gives you a high-level requirement (e.g., "Design a URL shortener") and expects you to work through
 The design from requirements to implementation.
 
 **Framework:**

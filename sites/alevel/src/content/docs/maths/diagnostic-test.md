@@ -1,6 +1,151 @@
 ---
 title: A Level Mathematics Diagnostic Test
-description: "" = e^x(x^2+2x)$$v' = \cos x$.
+description: "This diagnostic test contains spanning all A Level Mathematics topics. Each Question tests a specific concept and requires 2-5 steps. Attempt all questions..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Instructions
+
+This diagnostic test contains **45 questions** spanning all A Level Mathematics topics. Each
+Question tests a specific concept and requires 2-5 steps. Attempt all questions before checking
+Solutions.
+
+- **Time:** Allow approximately 90 minutes.
+- **Equipment:** Calculator permitted where indicated.
+- **Scoring:** Each question is worth 1 mark. Use your results to identify weak areas for revision.
+
+<hr />
+
+## Pure Mathematics
+
+### Algebra and Functions
+
+<details>
+<summary>Q1. Simplify $\dfrac{x^2 - 9}{x^2 - x - 6}$.</summary>
+$\dfrac{x^2-9}{x^2-x-6} = \dfrac{(x-3)(x+3)}{(x-3)(x+2)} = \dfrac{x+3}{x+2}$, $x \neq 3, -2$.
+
+**If you get this wrong, revise:**
+[Algebraic Expressions](/docs/alevel/maths/pure-mathematics/algebraic-expressions)
+
+</details>
+
+<details>
+<summary>Q2. Solve $x^2 - 5x + 6 \geq 0$.</summary>
+$(x-2)(x-3) \geq 0$. The quadratic opens upward, so $x \leq 2$ or $x \geq 3$.
+
+**If you get this wrong, revise:**
+[Equations and Inequalities](/docs/alevel/maths/pure-mathematics/equations-and-inequalities)
+
+</details>
+
+<details>
+<summary>Q3. Find the inverse of $f(x) = \dfrac{2x+1}{x-3}$, $x \neq 3$.</summary>
+$y = \dfrac{2x+1}{x-3} \implies y(x-3) = 2x+1 \implies yx - 3y = 2x + 1 \implies x(y-2) = 3y+1$.
+
+$f^{-1}(x) = \dfrac{3x+1}{x-2}$, $x \neq 2$.
+
+**If you get this wrong, revise:** [Functions](/docs/alevel/maths/pure-mathematics/functions)
+
+</details>
+
+<details>
+<summary>Q4. Express $\dfrac{3x+5}{(x-1)(x+2)}$ in partial fractions.</summary>
+$\dfrac{3x+5}{(x-1)(x+2)} = \dfrac{A}{x-1} + \dfrac{B}{x+2}$.
+
+$3x+5 = A(x+2) + B(x-1)$. $x=1$: $8 = 3A \implies A = 8/3$. $x=-2$: $-1 = -3B \implies B = 1/3$.
+
+$= \dfrac{8/3}{x-1} + \dfrac{1/3}{x+2} = \dfrac{8}{3(x-1)} + \dfrac{1}{3(x+2)}$.
+
+**If you get this wrong, revise:**
+[Algebraic Expressions](/docs/alevel/maths/pure-mathematics/algebraic-expressions)
+
+</details>
+
+### Sequences, Series, and Binomial Expansion
+
+<details>
+<summary>Q5. Find the sum of the first 50 terms of the arithmetic series $3 + 7 + 11 + \cdots$.</summary>
+$a = 3$, $d = 4$. $S_{50} = \dfrac{50}{2}[2(3) + 49(4)] = 25(6 + 196) = 25 \times 202 = 5050$.
+
+**If you get this wrong, revise:**
+[Sequences and Series](/docs/alevel/maths/pure-mathematics/sequences-and-series)
+
+</details>
+
+<details>
+<summary>Q6. Find the coefficient of $x^3$ in the expansion of $(2-3x)^5$.</summary>
+$\binom{5}{3}(2)^2(-3x)^3 = 10 \times 4 \times (-27x^3) = -1080x^3$. Coefficient $= -1080$.
+
+**If you get this wrong, revise:**
+[Binomial Expansion](/docs/alevel/maths/pure-mathematics/binomial-expansion)
+
+</details>
+
+<details>
+<summary>Q7. Find the sum to infinity of $0.5 + 0.1 + 0.02 + 0.004 + \cdots$.</summary>
+$a = 0.5$, $r = 0.2$. $|r| \lt 1$. $S_\infty = \dfrac{0.5}{1-0.2} = \dfrac{0.5}{0.8} = 0.625$.
+
+**If you get this wrong, revise:**
+[Sequences and Series](/docs/alevel/maths/pure-mathematics/sequences-and-series)
+
+</details>
+
+### Trigonometry
+
+<details>
+<summary>Q8. Solve $\sin 2x = \cos x$ for $0 \leq x \leq 2\pi$.</summary>
+$2\sin x\cos x = \cos x \implies \cos x(2\sin x - 1) = 0$.
+
+$\cos x = 0 \implies x = \pi/2, 3\pi/2$.
+$2\sin x - 1 = 0 \implies \sin x = 1/2 \implies x = \pi/6, 5\pi/6$.
+
+$x = \pi/6, \pi/2, 5\pi/6, 3\pi/2$.
+
+**If you get this wrong, revise:** [Trigonometry](/docs/alevel/maths/pure-mathematics/trigonometry)
+
+</details>
+
+<details>
+<summary>Q9. Prove that $\dfrac◆LB◆1-\cos 2x◆RB◆◆LB◆1+\cos 2x◆RB◆ = \tan^2 x$.</summary>
+$\dfrac◆LB◆1-\cos 2x◆RB◆◆LB◆1+\cos 2x◆RB◆ = \dfrac◆LB◆2\sin^2 x◆RB◆◆LB◆2\cos^2 x◆RB◆ = \tan^2 x$. $\blacksquare$
+
+**If you get this wrong, revise:** [Trigonometry](/docs/alevel/maths/pure-mathematics/trigonometry)
+
+</details>
+
+### Exponentials and Logarithms
+
+<details>
+<summary>Q10. Solve $3^{2x-1} = 7$.</summary>
+$(2x-1)\ln 3 = \ln 7 \implies x = \dfrac◆LB◆\ln 7 + \ln 3◆RB◆◆LB◆2\ln 3◆RB◆ = \dfrac◆LB◆\ln 21◆RB◆◆LB◆2\ln 3◆RB◆ \approx 1.771$.
+
+**If you get this wrong, revise:**
+[Exponentials and Logarithms](/docs/alevel/maths/pure-mathematics/exponentials-and-logarithms)
+
+</details>
+
+<details>
+<summary>Q11. A population grows from 500 to 2000 in 6 hours. Find the doubling time (assume exponential growth).</summary>
+$2000 = 500e^{6k} \implies e^{6k} = 4 \implies k = \dfrac◆LB◆\ln 4◆RB◆◆LB◆6◆RB◆ = \dfrac◆LB◆\ln 2◆RB◆◆LB◆3◆RB◆$.
+
+$T_d = \dfrac◆LB◆\ln 2◆RB◆◆LB◆k◆RB◆ = 3$ hours.
+
+**If you get this wrong, revise:**
+[Exponentials and Logarithms](/docs/alevel/maths/pure-mathematics/exponentials-and-logarithms)
+
+</details>
+
+### Differentiation
+
+<details>
+<summary>Q12. Find $\dfrac{dy}{dx}$ where $y = \dfrac◆LB◆x^2 e^x◆RB◆◆LB◆\sin x◆RB◆$.</summary>
+$u = x^2e^x$$v = \sin x$. $u" = e^x(x^2+2x)$$v' = \cos x$.
 
 $\dfrac{dy}{dx} = \dfrac◆LB◆e^x(x^2+2x)\sin x - x^2e^x\cos x◆RB◆◆LB◆\sin^2 x◆RB◆$.
 

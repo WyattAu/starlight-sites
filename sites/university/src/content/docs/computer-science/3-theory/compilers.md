@@ -1,6 +1,55 @@
 ---
 title: Compilers
-description: ""int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <DELIM, ";">
+description: "Source Code → Lexical Analysis (tokens) → Syntax Analysis (parse tree) → Semantic Analysis (annotated tree) → Intermediate Representation (IR) → Code..."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Computer Science
+  - University
+categories:
+  - Computer Science
+---
+
+## 1. Compiler Overview
+
+### 1.1 Phases
+
+```
+Source Code
+  → Lexical Analysis (tokens)
+  → Syntax Analysis (parse tree)
+  → Semantic Analysis (annotated tree)
+  → Intermediate Representation (IR)
+  → Code Optimization (optimized IR)
+  → Code Generation (target code)
+  → Target Program
+```
+
+### 1.2 Symbol Table
+
+A data structure maintained throughout compilation storing:
+
+| Entry      | Description                    |
+| ---------- | ------------------------------ |
+| Name       | Lexeme / identifier            |
+| Kind       | Variable, function, type, etc. |
+| Type       | Int, float, struct, array      |
+| Scope      | Block, function, file          |
+| Offset     | Memory location                |
+| Attributes | Array dimensions, parameters   |
+
+## 2. Lexical Analysis
+
+### 2.1 Tokens and Patterns
+
+A **token** is a pair $\langle \text{type}, \text{lexeme} \rangle$.
+
+**Token types:** Keywords, identifiers, literals, operators, delimiters, comments (discarded).
+
+**Example:**
+
+```
+Source:  int x = 42 + y;
+Tokens:  <TYPE, "int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <DELIM, ";">
 ```
 
 ### 2.2 Regular Expressions for Tokens

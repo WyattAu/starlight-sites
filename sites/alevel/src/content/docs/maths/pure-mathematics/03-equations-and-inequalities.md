@@ -1,6 +1,364 @@
 ---
 title: Equations and Inequalities
-description: ""s Rule for 3x3 Systems
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                                       |
+| ---------- | ------- | ------------------------------------------- |
+| AQA        | Paper 1 | Simultaneous equations, inequalities        |
+| Edexcel    | P1      | Linear and quadratic simultaneous equations |
+| OCR (A)    | Paper 1 | Set notation for solutions                  |
+| CIE (9709) | P1      | Simultaneous equations, inequalities        |
+
+## 1. Linear Simultaneous Equations
+
+We consider systems of two equations in two unknowns. The standard methods are substitution and
+Elimination.
+
+**Theorem.** The system
+
+$$
+\begin{aligned}
+A_1 x + b_1 y &= c_1 \\
+A_2 x + b_2 y &= c_2
+\end{aligned}
+$$
+
+Has:
+
+- A **unique solution** if $a_1 b_2 - a_2 b_1 \neq 0$ (the lines are not parallel);
+- **No solution** if $a_1 b_2 - a_2 b_1 = 0$ and the equations are inconsistent (parallel distinct
+  lines);
+- **Infinitely many solutions** if $a_1 b_2 - a_2 b_1 = 0$ and the equations are consistent
+  (coincident lines).
+
+_Proof._ By elimination. Multiply the first equation by $b_2$ and the second by $b_1$:
+
+$$
+\begin{aligned}
+A_1 b_2 x + b_1 b_2 y &= c_1 b_2 \\
+A_2 b_1 x + b_1 b_2 y &= c_2 b_1
+\end{aligned}
+$$
+
+Subtracting: $(a_1 b_2 - a_2 b_1)x = c_1 b_2 - c_2 b_1$.
+
+If $a_1 b_2 - a_2 b_1 \neq 0$We obtain a unique $x$. Similarly for $y$.
+
+If $a_1 b_2 - a_2 b_1 = 0$Then either $c_1 b_2 - c_2 b_1 = 0$ (infinitely many solutions) or
+$c_1 b_2 - c_2 b_1 \neq 0$ (no solution). $\blacksquare$
+
+_Intuition._ The quantity $a_1 b_2 - a_2 b_1$ is the _determinant_ of the coefficient matrix.
+Geometrically, two lines in the plane either intersect (unique solution), are parallel but distinct
+(no solution), or coincide (infinitely many solutions).
+
+<details>
+<summary>Example</summary>
+Solve:
+
+$$
+\begin{aligned}
+3x + 2y &= 12 \quad \mathrm{--- (1)} \\
+5x - 3y &= 1 \quad \mathrm{--- (2)}
+\end{aligned}
+$$
+
+Multiply (1) by 3 and (2) by 2:
+
+$$
+\begin{aligned}
+9x + 6y &= 36 \\
+10x - 6y &= 2
+\end{aligned}
+$$
+
+Add: $19x = 38$So $x = 2$.
+
+Substitute into (1): $6 + 2y = 12$So $y = 3$.
+
+Solution: $x = 2$, $y = 3$.
+
+</details>
+
+<hr />
+
+## 2. Linear-Quadratic Simultaneous Equations
+
+When one equation is linear and the other is quadratic (or of higher degree), we use
+**substitution**.
+
+**Method.**
+
+1. From the linear equation, express one variable in terms of the other.
+2. Substitute into the quadratic equation.
+3. Solve the resulting quadratic.
+4. Back-substitute to find both variables.
+
+The discriminant of the resulting quadratic determines the number of intersection points.
+
+<details>
+<summary>Example</summary>
+Solve:
+
+$$
+\begin{aligned}
+Y &= 2x - 1 \\
+X^2 + y^2 &= 25
+\end{aligned}
+$$
+
+Substitute $y = 2x - 1$ into $x^2 + y^2 = 25$:
+
+$$
+\begin{aligned}
+X^2 + (2x - 1)^2 &= 25 \\
+X^2 + 4x^2 - 4x + 1 &= 25 \\
+5x^2 - 4x - 24 &= 0
+\end{aligned}
+$$
+
+$$x = \frac◆LB◆4 \pm \sqrt{16 + 480}◆RB◆◆LB◆10◆RB◆ = \frac◆LB◆4 \pm \sqrt{496}◆RB◆◆LB◆10◆RB◆ = \frac◆LB◆4 \pm 4\sqrt{31}◆RB◆◆LB◆10◆RB◆ = \frac◆LB◆2 \pm 2\sqrt{31}◆RB◆◆LB◆5◆RB◆$$
+
+$\Delta = 496 > 0$So the line intersects the circle at two points.
+
+</details>
+
+> **Tip:** Tip Quadratic in both variables, which is harder to solve.
+<hr />
+
+## 3. Algebraic Inequalities
+
+### 3.1 Linear Inequalities
+
+The rules for manipulating inequalities are the same as for equations, with one crucial exception.
+
+**Theorem (Order-Reversing Property).** If $a < b$ and $c < 0$Then $ac > bc$.
+
+_Proof._ From $a < b$We have $b - a > 0$. Since $c < 0$ and $b - a > 0$: $c(b - a) < 0$ (product Of
+positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
+
+**Corollary.** Multiplying or dividing both sides of an inequality by a negative number reverses the
+Inequality.
+
+:::caution Warning Multiplying/dividing by a negative number. Always check the sign of the
+multiplier before Proceeding.
+:::
+
+### 3.2 Quadratic Inequalities
+
+See [Quadratics](02-quadratics.mdx), Section 6.
+
+### 3.3 Inequalities Involving Fractions
+
+When an inequality involves fractions, multiply through by the square of the denominator (which is
+Always non-negative, so the inequality direction is preserved) or use a sign chart.
+
+<details>
+<summary>Example</summary>
+Solve $\frac{2x - 1}{x + 3} \geq 1$.
+
+$$
+\begin{aligned}
+\frac{2x - 1}{x + 3} - 1 &\geq 0 \\
+\frac{2x - 1 - (x + 3)}{x + 3} &\geq 0 \\
+\frac{x - 4}{x + 3} &\geq 0
+\end{aligned}
+$$
+
+Critical values: $x = 4$ (zero of numerator) and $x = -3$ (zero of denominator, undefined).
+
+Sign chart:
+
+| Interval     | $x - 4$ | $x + 3$ | Quotient |
+| ------------ | ------- | ------- | -------- |
+| $x < -3$     | $-$     | $-$     | $+$      |
+| $-3 < x < 4$ | $-$     | $+$     | $-$      |
+| $x > 4$      | $+$     | $+$     | $+$      |
+
+The quotient is $\geq 0$ when $x < -3$ or $x \geq 4$.
+
+Solution: $x \in (-\infty, -3) \cup [4, \infty)$.
+
+</details>
+
+<hr />
+
+## 4. Graphical Inequalities
+
+### 4.1 Regions Defined by Inequalities
+
+To represent $ax + by + c \geq 0$ graphically:
+
+1. Draw the line $ax + by + c = 0$.
+2. Test a point not on the line ( the origin).
+3. If the point satisfies the inequality, shade the region containing it.
+4. If the point does not satisfy the inequality, shade the other region.
+5. Use a **solid line** for $\geq$ or $\leq$And a **dashed line** for $>$ or $<$.
+
+### 4.2 Systems of Inequalities
+
+When multiple inequalities define a region, the solution is the intersection of all individual
+Regions.
+
+<details>
+<summary>Example</summary>
+Shade the region defined by:
+
+$$
+\begin{aligned}
+X + y &\leq 6 \\
+X &\geq 0 \\
+Y &\geq 0 \\
+Y &\geq 2x
+\end{aligned}
+$$
+
+This defines a polygon bounded by the lines $x + y = 6$, $x = 0$, $y = 0$And $y = 2x$. The Vertices
+are $(0, 0)$$(0, 6)$And the intersection of $x + y = 6$ with $y = 2x$: $3x = 6$ $x = 2$$y = 4$. So
+the third vertex is $(2, 4)$.
+
+</details>
+
+<hr />
+
+## 5. Rigorous Treatment of Inequality Manipulation
+
+### 5.1 Transitive Property
+
+If $a < b$ and $b < c$Then $a < c$.
+
+_Proof._ $b - a > 0$ and $c - b > 0$. Adding: $(c - b) + (b - a) = c - a > 0$. So $a < c$.
+$\blacksquare$
+
+### 5.2 Addition Preserves Order
+
+If $a < b$ and $c < d$Then $a + c < b + d$.
+
+_Proof._ $b - a > 0$ and $d - c > 0$. Adding: $(b - a) + (d - c) = (b + d) - (a + c) > 0$. So
+$a + c < b + d$. $\blacksquare$
+
+### 5.3 Multiplication by Positive Preserves Order
+
+If $a < b$ and $c > 0$Then $ac < bc$.
+
+_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$So $cb - ca > 0$Giving $ac < bc$.
+$\blacksquare$
+
+### 5.4 Reciprocals Reverse Order (for Positive Numbers)
+
+If $0 < a < b$Then $\frac{1}{a} > \frac{1}{b}$.
+
+_Proof._ Since $a, b > 0$ and $a < b$: $\frac{1}{a} - \frac{1}{b} = \frac{b - a}{ab}$. Since
+$b - a > 0$ and $ab > 0$The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
+
+_Intuition._ Consider $a = 2$$b = 4$. Then $\frac{1}{2} > \frac{1}{4}$. The smaller the positive
+Number, the larger its reciprocal — like how slicing a cake into more pieces makes each piece
+Smaller.
+
+<hr />
+
+## 6. Polynomial Equations
+
+### 6.1 The Factor Theorem
+
+**Theorem (Factor Theorem).** If $f(a) = 0$Then $(x - a)$ is a factor of $f(x)$.
+
+_Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$There exist a quotient
+Polynomial $Q(x)$ and a constant remainder $R$ such that:
+
+$$f(x) = (x - a)Q(x) + R$$
+
+Setting $x = a$: $f(a) = (a - a)Q(a) + R = R$.
+
+If $f(a) = 0$Then $R = 0$So $f(x) = (x - a)Q(x)$. Hence $(x - a)$ divides $f(x)$ exactly.
+$\blacksquare$
+
+### 6.2 The Remainder Theorem
+
+**Theorem (Remainder Theorem).** When a polynomial $f(x)$ is divided by $(x - a)$The remainder
+Equals $f(a)$.
+
+_Proof._ From the division identity $f(x) = (x - a)Q(x) + R$Substituting $x = a$ gives $f(a) = R$.
+$\blacksquare$
+
+The remainder theorem provides a quick way to evaluate $f(a)$: perform polynomial division of $f(x)$
+By $(x - a)$ and read off the constant remainder, avoiding full expansion.
+
+### 6.3 Factorisation Using the Factor Theorem
+
+The systematic approach:
+
+1. Find a root $a$ by testing small integer values (try factors of the constant term).
+2. Confirm $(x - a)$ is a factor via $f(a) = 0$.
+3. Divide to obtain a quotient of lower degree.
+4. Repeat on the quotient until fully factorised.
+
+<details>
+<summary>Example</summary>
+Fully factorise $f(x) = x^3 - 6x^2 + 11x - 6$.
+
+Test integer values of $f(x)$:
+
+$f(1) = 1 - 6 + 11 - 6 = 0$. So $(x - 1)$ is a factor.
+
+Divide $x^3 - 6x^2 + 11x - 6$ by $(x - 1)$:
+
+$$x^3 - 6x^2 + 11x - 6 = (x - 1)(x^2 - 5x + 6) = (x - 1)(x - 2)(x - 3)$$
+
+</details>
+
+<details>
+<summary>Example</summary>
+Fully factorise $f(x) = 2x^3 + x^2 - 5x + 2$.
+
+By the rational root theorem, possible rational roots are factors of 2 divided by factors of 2:
+$\pm 1, \pm 2, \pm \frac{1}{2}$.
+
+$f(1) = 2 + 1 - 5 + 2 = 0$. So $(x - 1)$ is a factor.
+
+Divide by $(x - 1)$:
+
+$$2x^3 + x^2 - 5x + 2 = (x - 1)(2x^2 + 3x - 2)$$
+
+Factorise the quadratic: $2x^2 + 3x - 2 = (2x - 1)(x + 2)$.
+
+So $f(x) = (x - 1)(2x - 1)(x + 2)$.
+
+</details>
+
+:::tip When searching for roots, test the factors of the constant term first. For
+$f(x) = x^n + \cdots + c$The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
+:::
+
+<hr />
+
+## 7. Systems of Three Linear Equations
+
+### 7.1 Gaussian Elimination
+
+For a system of three equations in three unknowns, the elimination method extends :
+
+1. Use the first equation to eliminate one variable from equations 2 and 3.
+2. Use the resulting pair of equations (now in two variables) to eliminate a second variable.
+3. Back-substitute to recover all three variables.
+
+This process is known as **Gaussian elimination**. It can be systematised using augmented matrices
+And three elementary row operations: swapping rows, multiplying a row by a non-zero constant, and
+Adding a multiple of one row to another.
+
+A 3x3 system may have a unique solution, no solution, or infinitely many solutions, depending on the
+Determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
+
+### 7.2 Cramer"s Rule for 3x3 Systems
 
 For the system:
 

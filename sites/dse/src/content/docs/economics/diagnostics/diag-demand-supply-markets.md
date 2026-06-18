@@ -1,6 +1,48 @@
 ---
 title: "Demand, Supply, and Markets -- Diagnostic Tests"
-description: ""s audience may view it as more of a routine activity (less
+description: "DSE Economics Demand, Supply, and Markets -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Demand, Supply, and Markets — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Price Elasticity of Demand Calculation
+
+**Question:** When the price of cinema tickets rises from $\$80$ to $\$100$The quantity demanded
+Falls from 500 to 350 tickets per week. Calculate the PED using the midpoint method. Is demand
+Elastic or inelastic? A second cinema raises its price from $\$60$ to $\$66$ and quantity demanded
+Falls from 400 to 380. Compare the elasticities and explain the difference using determinants of
+PED.
+
+**Solution:**
+
+Midpoint method: $PED = \frac{\Delta Q / \bar{Q}}{\Delta P / \bar{P}}$
+
+**Cinema 1:** $\Delta Q = 350 - 500 = -150$, $\bar{Q} = (500 + 350)/2 = 425$.
+$\Delta P = 100 - 80 = 20$, $\bar{P} = (80 + 100)/2 = 90$.
+
+$PED = \frac{-150/425}{20/90} = \frac{-0.3529}{0.2222} = -1.59$
+
+$|PED| = 1.59 \gt 1$: Demand is **elastic**.
+
+**Cinema 2:** $\Delta Q = 380 - 400 = -20$, $\bar{Q} = (400 + 380)/2 = 390$.
+$\Delta P = 66 - 60 = 6$, $\bar{P} = (60 + 66)/2 = 63$.
+
+$PED = \frac{-20/390}{6/63} = \frac{-0.0513}{0.0952} = -0.54$
+
+$|PED| = 0.54 \lt 1$: Demand is **inelastic**.
+
+Cinema 1 has elastic demand while Cinema 2 has inelastic demand. Possible explanations using PED
+Determinants:
+
+- **Availability of substitutes**: Cinema 2 may face less competition (fewer entertainment
+  alternatives in the area), while Cinema 1 has many substitutes (streaming, other cinemas, other
+  activities).
+- **Proportion of income**: At $\$60$, cinema tickets represent a smaller proportion of income than
+  at $\$80$, making demand less elastic at lower price points.
+- **Necessity vs luxury**: Cinema 2"s audience may view it as more of a routine activity (less
   elastic), while Cinema 1's audience may see it as a luxury (more elastic).
 
 ### UT-2: Consumer and Producer Surplus with Price Control

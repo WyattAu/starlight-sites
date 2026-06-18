@@ -1,6 +1,39 @@
 ---
 title: Climate Change
-description: ""s operation at planetary scale, and the
+description: "This section covers the IB Geography core extension on global climate -- vulnerability and resilience. It examines the physical and human dimensions of..."
+
+---
+
+# Climate Change
+
+This section covers the IB Geography core extension on global climate -- vulnerability and
+resilience. It examines the physical and human dimensions of climate change, including the evidence
+for global warming, the role of greenhouse gases, the impacts on different regions and communities,
+and the strategies societies can employ to adapt to and mitigate its effects. Students must be able
+to evaluate competing explanations, use case studies from contrasting locations, and apply
+geographic skills to climate data.
+
+## Contents
+
+- [Atmospheric Systems](./climate/atmospheric-systems) -- global atmospheric circulation, energy
+  balance, and the enhanced greenhouse effect.
+- [Carbon Cycle and Sequestration](./climate/carbon-cycle-and-sequestration) -- the carbon cycle,
+  carbon sinks, and carbon sequestration techniques.
+- [Climate Adaptation and Mitigation](./climate/climate-adaptation-and-mitigation) -- strategies for
+  reducing vulnerability and managing the causes of climate change.
+
+## Overview
+
+Climate change sits at the intersection of physical and human geography, making it one of the most
+synoptic topics in the IB Geography course. It requires students to integrate understanding of
+atmospheric systems and biogeochemical cycles with analysis of policy responses, economic
+trade-offs, and social justice implications. This synoptic quality makes climate change a frequent
+choice for Paper 3 extended responses and for Extended Essay research -- students should recognise
+that a strong answer will draw on knowledge from multiple syllabus areas.
+
+The topic is structured around two fundamental questions. First, what are the physical processes
+driving climate change? Answering this requires understanding the global energy balance, the role of
+greenhouse gases in regulating temperature, the carbon cycle"s operation at planetary scale, and the
 feedback mechanisms (ice-albedo, permafrost thaw, cloud feedbacks, water vapour feedback) that can
 amplify or dampen warming trends. These feedback loops are particularly important in extended
 responses because they demonstrate the complexity of the climate system and the potential for

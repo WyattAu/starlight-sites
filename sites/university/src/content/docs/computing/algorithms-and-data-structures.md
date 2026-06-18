@@ -1,6 +1,84 @@
 ---
 title: Algorithms and Data Structures
-description: ""Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
+description: "Algorithms and Data Structures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2026-04-23T00:00:00.000Z
+tags:
+  - Computing
+  - University
+categories:
+  - Computing
+
+---
+
+## 1. Algorithm Analysis
+
+### 1.1 Asymptotic Notation
+
+**Definition.** $f(n) = O(g(n))$ if there exist constants $c > 0$ and $n_0$ such that
+$f(n) \leq c \cdot g(n)$ for all $n \geq n_0$.
+
+**Definition.** $f(n) = \Omega(g(n))$ if there exist constants $c > 0$ and $n_0$ such that
+$f(n) \geq c \cdot g(n)$ for all $n \geq n_0$.
+
+**Definition.** $f(n) = \Theta(g(n))$ if $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$.
+
+**Definition.** $f(n) = o(g(n))$ if $\lim_{n \to \infty} f(n)/g(n) = 0$.
+
+**Definition.** $f(n) = \omega(g(n))$ if $\lim_{n \to \infty} g(n)/f(n) = 0$.
+
+**Theorem 1.1.** $f(n) = O(g(n))$ if and only if $g(n) = \Omega(f(n))$.
+
+_Proof._ Suppose $f(n) = O(g(n))$. Then there exist $c, n_0$ such that $f(n) \leq c \cdot g(n)$ for
+all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$So $g(n) = \Omega(f(n))$. The
+converse follows by symmetry. $\blacksquare$
+
+**Theorem 1.2.** $f(n) = \Theta(g(n))$ if and only if there exist constants $c_1, c_2 > 0$ and $n_0$
+such that $c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)$ for all $n \geq n_0$.
+
+_Proof._ By definition, $f(n) = \Theta(g(n))$ means $f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$. The
+former gives $f(n) \leq c_2 \cdot g(n)$ for some $c_2 > 0$And the latter gives
+$f(n) \geq c_1 \cdot g(n)$ for some $c_1 > 0$. Combining yields the stated inequality.
+$\blacksquare$
+
+**Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$Then
+$f(n) = \Theta(g(n))$. If $c = 0$Then $f(n) = O(g(n))$. If $c = \infty$Then $g(n) = O(f(n))$.
+
+_Proof._ If $c = 0$Then for any $\varepsilon > 0$There exists $n_0$ such that
+$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$So $f(n) \leq \varepsilon \cdot g(n)$Establishing
+$f(n) = O(g(n))$. If $0 < c < \infty$Take $\varepsilon = c/2$; then
+$(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$Giving $\Theta$. The
+$c = \infty$ case is symmetric. $\blacksquare$
+
+**Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$Then $f = O(h)$.
+
+_Proof._ There exist $c_1, n_1$ with $f(n) \leq c_1 g(n)$ for $n \geq n_1$And $c_2, n_2$ with
+$g(n) \leq c_2 h(n)$ for $n \geq n_2$. Then $f(n) \leq c_1 c_2 h(n)$ for $n \geq \max(n_1, n_2)$.
+$\blacksquare$
+
+**Proposition 1.5.** $O$-notation is reflexive: $f = O(f)$ for all $f$.
+
+_Proof._ Take $c = 1$ and $n_0 = 1$. Then $f(n) \leq 1 \cdot f(n)$ for all $n \geq 1$.
+$\blacksquare$
+
+<details>
+<summary>Worked Example: Proving $n^2 + 3n + 1 = O(n^2)$</summary>
+
+We must find $c > 0$ and $n_0$ such that $n^2 + 3n + 1 \leq c \cdot n^2$ for all $n \geq n_0$.
+
+Note that $n^2 + 3n + 1 \leq n^2 + 3n^2 + n^2 = 5n^2$ for all $n \geq 1$ (since $n \geq 1$ implies
+$3n \leq 3n^2$ and $1 \leq n^2$).
+
+So take $c = 5$ and $n_0 = 1$.
+
+To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n + 1 = \Theta(n^2)$.
+
+</details>
+
+<details>
+<summary>Worked Example: Proving $2^n \neq O(n^k)$ for any constant $k$</summary>
+
+By the limit rule: $\lim_{n \to \infty} 2^n / n^k = \infty$ for any fixed $k$ (this follows from
+repeated application of L"Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
 than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$And in particular
 $2^n \neq O(n^k)$.
 

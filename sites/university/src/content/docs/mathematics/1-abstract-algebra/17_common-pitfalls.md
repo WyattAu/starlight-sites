@@ -3,7 +3,16 @@ title: Common Pitfalls
 tags:
   - Mathematics
   - University
-description: ""s theorem is false . For example, $A_4$ has order
+description: "only ideal containing ). This is a common source of confusion when checking whet Comprehensive educational content coverage with definitions and practice proble"
+---
+
+:::caution Common Pitfall Not every subgroup is normal. For example,
+$\langle (1\ 2) \rangle \leq S_3$ is not normal since
+$(1\ 3)(1\ 2)(1\ 3)^{-1} = (2\ 3) \notin \langle (1\ 2) \rangle$. Always verify the condition
+$gHg^{-1} = H$ for all $g \in G$.
+:::
+
+:::caution Common Pitfall The converse of Lagrange"s theorem is false . For example, $A_4$ has order
 $12$ but no Subgroup of order $6$. However, the converse does hold for Sylow subgroups.
 :::
 

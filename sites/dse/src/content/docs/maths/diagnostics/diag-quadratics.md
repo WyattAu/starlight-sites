@@ -1,6 +1,68 @@
 ---
 title: "Quadratics -- Diagnostic Tests"
-description: ""s Formulas Application
+description: "DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
+tableOfContents: false
+---
+
+# Quadratics — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for quadratics.
+
+### UT-1: Discriminant with Parameters
+
+**Question:**
+
+Find the range of values of $k$ for which the equation $(k - 1)x^2 - 2kx + k + 3 = 0$ has two
+distinct real roots.
+
+**Solution:**
+
+For two distinct real roots, we need $\Delta > 0$ AND $a \neq 0$.
+
+$a = k - 1$$b = -2k$$c = k + 3$.
+
+$$\Delta = (-2k)^2 - 4(k-1)(k+3) = 4k^2 - 4(k^2 + 2k - 3) = 4k^2 - 4k^2 - 8k + 12 = -8k + 12$$
+
+$\Delta > 0 \implies -8k + 12 > 0 \implies k < \dfrac{3}{2}$.
+
+$a \neq 0 \implies k \neq 1$.
+
+Therefore $k \in (-\infty,\; 1) \cup (1,\; \tfrac{3}{2})$.
+
+A common mistake is forgetting the $a \neq 0$ condition (i.e. $k \neq 1$), which would reduce the
+problem to a linear equation.
+
+---
+
+### UT-2: Hidden Quadratic in Exponent
+
+**Question:**
+
+Solve $4^{x+1} - 5 \cdot 2^x + 1 = 0$.
+
+**Solution:**
+
+Let $u = 2^x$ (so $u > 0$). Then $4^{x+1} = 4 \cdot 4^x = 4u^2$.
+
+$$4u^2 - 5u + 1 = 0$$
+
+$$(4u - 1)(u - 1) = 0$$
+
+$$u = \frac{1}{4} \quad \text{or} \quad u = 1$$
+
+Since $u > 0$Both are valid.
+
+$2^x = \dfrac{1}{4} = 2^{-2} \implies x = -2$.
+
+$2^x = 1 = 2^0 \implies x = 0$.
+
+Therefore $x = -2$ or $x = 0$.
+
+---
+
+### UT-3: Vieta"s Formulas Application
 
 **Question:**
 

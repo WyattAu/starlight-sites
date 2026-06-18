@@ -1,6 +1,95 @@
 ---
 title: "Ecology -- Diagnostic Tests"
-description: ""s surface, trapping heat
+description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
+tableOfContents: false
+---
+
+# Ecology — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Carbon and Nitrogen Cycles
+
+**Question:**
+
+The carbon and nitrogen cycles are essential biogeochemical cycles that recycle elements through
+ecosystems.
+
+(a) Describe the role of **decomposers** and **saprobionts** in the carbon cycle, including the
+process of **respiration** that returns carbon to the atmosphere.
+
+(b) Describe the processes of **nitrogen fixation**, **nitrification**, **ammonification**, and
+**denitrification** in the nitrogen cycle, naming the organisms involved in each process.
+
+(c) Explain why the application of nitrate fertiliser to agricultural land can lead to
+**eutrophication** in nearby waterways. Describe the sequence of events from fertiliser application
+to the death of fish.
+
+(d) Explain how the combustion of fossil fuels has altered the carbon cycle, and explain the
+consequences for global atmospheric CO$_2$ concentration and climate.
+
+**Solution:**
+
+(a) **Saprobionts** (saprotrophs, mainly fungi and bacteria) are organisms that feed on dead organic
+matter by extracellular digestion — they secrete enzymes onto dead material, breaking down complex
+organic molecules (proteins, lipids, carbohydrates) into simpler soluble molecules, which they
+absorb. In doing so, they release CO$_2$ as a waste product of their own **aerobic respiration**:
+organic carbon compounds are broken down to release energy, producing CO$_2$ and water.
+**Decomposers** (a broader term that includes saprobionts and detritivores) break down waste
+products and dead organisms, returning carbon to the atmosphere as CO$_2$ and mineral ions (e.g.,
+ammonium ions, nitrate ions) to the soil. This recycling of carbon is essential because without
+decomposers, carbon would remain locked in dead organic matter and would not be available for
+photosynthesis by producers.
+
+(b) **Nitrogen fixation**: atmospheric nitrogen gas (N$_2$), which is very unreactive due to its
+triple bond, is converted into ammonia (NH$_3$) or ammonium ions (NH$_4^+$). This is carried out by:
+(1) **nitrogen-fixing bacteria** (e.g., _Rhizobium_) living in root nodules of leguminous plants,
+which have a mutualistic relationship with the plant; (2) **free-living nitrogen-fixing bacteria**
+(e.g., _Azotobacter_) in the soil; (3) **lightning** — the energy of lightning breaks N$_2$ bonds,
+allowing nitrogen to react with oxygen to form nitrogen oxides, which dissolve in rain to form
+nitrates.
+
+**Nitrification**: the conversion of ammonium ions (NH$_4^+$) to nitrite ions (NO$_2^-$) and then to
+nitrate ions (NO$_3^-$). This is a two-step process carried out by **nitrifying bacteria**: (1)
+_Nitrosomonas_ (ammonia-oxidising bacteria) convert NH$_4^+$ to NO$_2^-$; (2) _Nitrobacter_
+(nitrite-oxidising bacteria) convert NO$_2^-$ to NO$_3^-$. Both steps are aerobic (require oxygen).
+Nitrates are the form of nitrogen most readily absorbed by plant roots.
+
+**Ammonification**: the conversion of nitrogen compounds in organic matter (proteins, nucleic acids,
+urea) into ammonium ions (NH$_4^+$). This is carried out by **saprobionts** (decomposers) in the
+soil. When organisms die or excrete waste, decomposers break down the organic nitrogen compounds and
+release NH$_4^+$.
+
+**Denitrification**: the conversion of nitrate ions (NO$_3^-$) in the soil back into nitrogen gas
+(N$_2$), which returns to the atmosphere. This is carried out by **denitrifying bacteria** (e.g.,
+_Pseudomonas_), which use nitrate as an alternative electron acceptor in anaerobic respiration (when
+oxygen is limited, e.g., in waterlogged soil). Denitrification reduces the amount of nitrogen
+available to plants.
+
+(c) **Eutrophication sequence**:
+
+1. Nitrate fertiliser is applied to agricultural land. Excess nitrate is not absorbed by crops and
+   leaches into the soil, eventually reaching waterways (rivers, lakes) through runoff or drainage.
+2. The increased nitrate concentration in the water acts as a nutrient for **algae** and aquatic
+   plants, causing rapid growth — an **algal bloom**.
+3. The dense algal bloom at the surface blocks sunlight from reaching deeper water, so aquatic
+   plants below cannot photosynthesise and die.
+4. The algae eventually die and are decomposed by aerobic bacteria.
+5. The population of aerobic bacteria increases dramatically as they feed on the dead organic
+   matter.
+6. These bacteria respire aerobically, consuming dissolved oxygen from the water at a rate faster
+   than it can be replenished (by diffusion from the air and photosynthesis).
+7. The dissolved oxygen concentration drops to very low levels (**hypoxia**).
+8. Fish and other aquatic organisms that require dissolved oxygen die (**asphyxiation**).
+9. Anaerobic bacteria then take over decomposition, producing toxic substances (e.g., hydrogen
+   sulphide, methane), making the water foul-smelling and further degrading the ecosystem.
+
+(d) The combustion of fossil fuels (coal, oil, natural gas) releases CO$_2$ that was previously
+locked away in geological deposits over millions of years. This CO$_2$ is released into the
+atmosphere much faster than natural processes (photosynthesis, dissolution in oceans) can remove it,
+creating an imbalance in the carbon cycle. The atmospheric CO$_2$ concentration has increased from
+approximately 280 ppm (pre-industrial) to over 420 ppm currently. CO$_2$ is a **greenhouse gas** —
+it absorbs and re-radiates infrared radiation (heat) emitted by the Earth"s surface, trapping heat
 in the atmosphere (the enhanced greenhouse effect). This leads to **global warming** (increased
 average global temperature) and **climate change**, with consequences including rising sea levels
 (thermal expansion of oceans and melting ice caps), more frequent extreme weather events (droughts,

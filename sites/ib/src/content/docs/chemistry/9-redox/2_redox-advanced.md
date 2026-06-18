@@ -1,6 +1,172 @@
 ---
 title: Redox Reactions (Advanced)
-description: ""s Laws
+description: "Rigorous IB chemistry notes covering Redox Reactions (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## 1. Electrochemical Cells
+
+### Galvanic (Voltaic) Cells
+
+A **galvanic cell** converts chemical energy from spontaneous redox reactions into electrical
+Energy.
+
+### Cell Components
+
+| Component        | Function                                             |
+| ---------------- | ---------------------------------------------------- |
+| Anode            | Site of oxidation; negative electrode                |
+| Cathode          | Site of reduction; positive electrode                |
+| Salt bridge      | Maintains electrical neutrality by allowing ion flow |
+| External circuit | Allows electron flow from anode to cathode           |
+| Electrolyte      | Provides ions for internal conduction                |
+
+### Half-Reactions and Cell Notation
+
+The cell is written with the anode on the left and cathode on the right:
+
+$$
+\mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(aq) \parallel \mathrm{Cu}^{2+}(aq) \mid \mathrm{Cu}(s)
+$$
+
+- Single vertical line ($\mid$): phase boundary
+- Double vertical line ($\parallel$): salt bridge
+- Anode (oxidation) is on the left; cathode (reduction) is on the right
+
+### Standard Electrode Potentials ($E^\circ$)
+
+Each half-reaction has a standard electrode potential measured relative to the **standard hydrogen
+Electrode** (SHE), assigned $E^\circ = 0.00\mathrm{ V}$.
+
+$$
+2\mathrm{H}^+(aq, 1\mathrm{ M}) + 2e^- \rightleftharpoons \mathrm{H}_2(g, 100\mathrm{ kPa}) \qquad E^\circ = 0.00\mathrm{ V}
+$$
+
+Standard conditions: $298\mathrm{ K}$, $1\mathrm{ M}$ solutions, $100\mathrm{ kPa}$ gas pressure.
+
+### Standard Reduction Potentials (Selected)
+
+| Half-reaction                                                                            | $E^\circ$ (V) |
+| ---------------------------------------------------------------------------------------- | ------------- |
+| $\mathrm{F}_2 + 2e^- \to 2\mathrm{F}^-$                                                  | $+2.87$       |
+| $\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \to \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$ | $+1.51$       |
+| $\mathrm{Cl}_2 + 2e^- \to 2\mathrm{Cl}^-$                                                | $+1.36$       |
+| $\mathrm{Ag}^+ + e^- \to \mathrm{Ag}$                                                    | $+0.80$       |
+| $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$                                                | $+0.34$       |
+| $2\mathrm{H}^+ + 2e^- \to \mathrm{H}_2$                                                  | $0.00$        |
+| $\mathrm{Fe}^{2+} + 2e^- \to \mathrm{Fe}$                                                | $-0.44$       |
+| $\mathrm{Zn}^{2+} + 2e^- \to \mathrm{Zn}$                                                | $-0.76$       |
+| $\mathrm{Na}^+ + e^- \to \mathrm{Na}$                                                    | $-2.71$       |
+
+### Calculating Standard Cell Potential
+
+$$
+E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ
+$$
+
+:::info[Example — Daniell Cell]
+
+$$
+\mathrm{Zn} \mid \mathrm{Zn}^{2+} \parallel \mathrm{Cu}^{2+} \mid \mathrm{Cu}
+$$
+
+Anode (oxidation): $\mathrm{Zn} \to \mathrm{Zn}^{2+} + 2e^- \qquad E^\circ = -0.76\mathrm{ V}$
+
+Cathode (reduction): $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu} \qquad E^\circ = +0.34\mathrm{ V}$
+
+$$
+E_{\mathrm{cell}}^\circ = 0.34 - (-0.76) = +1.10\mathrm{ V}
+$$
+
+
+### Predicting Spontaneity
+
+| Condition                       | Result                                       |
+| ------------------------------- | -------------------------------------------- |
+| $E_{\mathrm{cell}}^\circ \gt 0$ | Spontaneous (galvanic cell)                  |
+| $E_{\mathrm{cell}}^\circ = 0$   | At equilibrium                               |
+| $E_{\mathrm{cell}}^\circ \lt 0$ | Non-spontaneous (electrolytic cell required) |
+
+The more positive $E^\circ$ value, the stronger the oxidizing agent. The more negative $E^\circ$
+Value, the stronger the reducing agent.
+
+### Common Pitfalls
+
+- Always subtract $E_{\mathrm{anode}}^\circ$ from $E_{\mathrm{cathode}}^\circ$ — never reverse the
+  sign of a reduction potential.
+- $E^\circ$ values are intensive properties: they do not depend on the stoichiometric coefficients.
+- The SHE is the reference, not necessarily the actual anode or cathode.
+
+---
+
+## 2. The Nernst Equation
+
+For non-standard conditions, the cell potential is given by the Nernst equation:
+
+$$
+E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac`\{RT}``\{nF}`\ln Q
+$$
+
+At $298\mathrm{ K}$This simplifies to:
+
+$$
+E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q
+$$
+
+Where:
+
+- $n$ = number of moles of electrons transferred
+- $F = 96485\mathrm{ C/mol}$ (Faraday constant)
+- $Q$ = reaction quotient (activities of products / activities of reactants)
+
+### Relationship to Gibbs Free Energy
+
+$$
+\Delta G^\circ = -nFE_{\mathrm{cell}}^\circ
+$$
+
+$$
+\Delta G = -nFE_{\mathrm{cell}}
+$$
+
+At equilibrium, $E_{\mathrm{cell}} = 0$ and $\Delta G = 0$So:
+
+$$
+E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
+$$
+
+:::
+:::info[Example]
+
+For the Daniell cell: $E_{\mathrm{cell}}^\circ = 1.10\mathrm{ V}$, $n = 2$.
+
+$$
+\log K = \frac{nE^\circ}{0.0592} = \frac{2 \times 1.10}{0.0592} = 37.2
+$$
+
+$$
+K = 10^{37.2} = 1.6 \times 10^{37}
+$$
+
+The extremely large $K$ confirms that the reaction proceeds essentially to completion.
+
+
+---
+
+## 3. Electrolysis
+
+### Principles
+
+**Electrolysis** uses electrical energy to drive a non-spontaneous redox reaction. The electrolytic
+Cell has:
+
+- Anode: positive electrode (oxidation)
+- Cathode: negative electrode (reduction)
+- External power source drives electrons from anode to cathode
+
+### Faraday"s Laws
 
 **First law**: The amount of substance produced at an electrode is proportional to the charge
 Passed.

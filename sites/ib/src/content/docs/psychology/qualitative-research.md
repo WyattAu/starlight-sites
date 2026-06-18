@@ -1,6 +1,22 @@
 ---
 title: Qualitative Research (HL)
-description: ""s perspective                                                         |
+description: "Quantitative and qualitative research represent fundamentally different approaches to the study of human behaviour. They are rooted in different..."
+
+---
+
+## Qualitative vs. Quantitative Approaches
+
+### Paradigm Differences
+
+Quantitative and qualitative research represent fundamentally different approaches to the study of
+human behaviour. They are rooted in different epistemological assumptions about the nature of
+knowledge and how it can be obtained.
+
+| Dimension        | Quantitative Research                                                                                    | Qualitative Research                                                                                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Epistemology     | Positivism: knowledge is objective, measurable, and discovered through scientific method                 | Interpretivism / constructivism: knowledge is subjective, context-dependent, and co-constructed by researcher and participant                                       |
+| Ontology         | Objectivism: reality exists independently of the researcher and can be measured                          | Subjectivism / relativism: reality is multiple and constructed through individual experience                                                                        |
+| Purpose          | To test hypotheses, establish cause-and-effect relationships, and generalise findings to populations     | To explore meanings, experiences, and processes; to understand behaviour from the participant"s perspective                                                         |
 | Data             | Numerical data collected through standardised instruments (e.g., questionnaires, reaction time measures) | Textual data collected through open-ended methods (e.g., interviews, observations, diary entries)                                                                   |
 | Analysis         | Statistical analysis (descriptive and inferential statistics)                                            | Thematic analysis, discourse analysis, grounded theory, interpretative phenomenological analysis                                                                    |
 | Sampling         | Large, representative samples; random or stratified sampling                                             | Small, purposive samples; participants selected for their ability to provide rich, relevant data                                                                    |

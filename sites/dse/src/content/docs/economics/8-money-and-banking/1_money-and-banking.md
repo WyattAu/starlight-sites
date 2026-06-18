@@ -1,6 +1,110 @@
 ---
 title: Money and Banking
-description: ""s profit margin (net interest margin).
+description: "Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-08T00:00:00.000Z
+tags: [DSE, Economics]
+categories: [DSE, Economics]
+
+---
+
+## Functions of Money
+
+Money is anything that is generally accepted as a medium of exchange. It serves four key functions:
+
+### 1. Medium of Exchange
+
+Money eliminates the need for double coincidence of wants that exists in a barter system. In a
+Barter economy, for trade to occur, both parties must want what the other has. Money serves as an
+Intermediary that is universally accepted, making transactions far more efficient.
+
+Example: Instead of a baker needing to find a shoemaker who wants bread, the baker sells bread for
+Money and uses the money to buy shoes.
+
+### 2. Unit of Account (Measure of Value)
+
+Money provides a common measure of the value of all goods and services. It allows us to compare the
+Value of different goods and to keep financial records.
+
+Example: A laptop costs HKD 8,000 and a meal costs HKD 100. Money allows us to express both values
+In the same unit and compare them (the laptop is worth 80 meals).
+
+### 3. Store of Value
+
+Money allows people to save purchasing power for future use. Instead of consuming goods immediately,
+People can hold money and spend it later.
+
+However, money is not a perfect store of value during inflation, because its purchasing power
+Decreases as prices rise. Other stores of value include gold, property, stocks, and bonds.
+
+### 4. Standard of Deferred Payment
+
+Money allows debts to be contracted and repaid in the future. Borrowing and lending would be
+Extremely difficult in a barter system because the value of goods changes over time.
+
+Example: A bank lends HKD 500,000 to be repaid with interest over 20 years. Both parties agree on
+The value of the debt because it is denominated in money.
+
+---
+
+## Characteristics of Money
+
+For a substance to function effectively as money, it should possess the following characteristics:
+
+| Characteristic     | Description                                                                  | Example                                             |
+| ------------------ | ---------------------------------------------------------------------------- | --------------------------------------------------- |
+| Acceptability      | Generally accepted by all as a medium of exchange                            | Legal tender status, government backing             |
+| Durability         | Does not deteriorate ; can withstand repeated use                            | Coins, banknotes (vs perishable goods like bananas) |
+| Portability        | Easy to carry and transfer; convenient for transactions                      | Banknotes, electronic money                         |
+| Divisibility       | Can be divided into smaller units for transactions of different sizes        | HKD 1, HKD 10, HKD 100, HKD 1000                    |
+| Homogeneity        | Each unit is identical in value to every other unit of the same denomination | Each HKD 100 note is worth the same                 |
+| Scarcity           | Supply is limited relative to demand; maintains value                        | Limited money supply by central bank                |
+| Stability of value | Relatively stable purchasing power over time                                 | Low inflation preserves value                       |
+
+### Types of Money
+
+**Commodity money:** Money whose value comes from the commodity of which it is made (e.g., gold
+Coins, cowrie shells, salt). The money has intrinsic value.
+
+**Fiat money:** Money that has no intrinsic value but is declared legal tender by the government
+(e.g., modern banknotes and coins). Its value comes from government decree and public acceptance.
+
+**Representative money:** Paper money backed by a commodity (e.g., gold certificates that could be
+Exchanged for gold). The US dollar was backed by gold until 1971.
+
+**Electronic money (digital money):** Money stored electronically and transferred through digital
+Systems (e.g., bank transfers, credit cards, mobile payments like Octopus, Alipay, WeChat Pay).
+
+---
+
+## Evolution of Money
+
+The evolution of money reflects the increasing complexity of economies:
+
+1. **Barter:** Direct exchange of goods and services (limited by double coincidence of wants)
+2. **Commodity money:** Gold, silver, cowrie shells used as a medium of exchange
+3. **Metallic money:** Standardised coins made of precious metals
+4. **Paper money:** Originally backed by gold; later became fiat money
+5. **Bank deposits:** Cheques and bank transfers
+6. **Electronic money:** Credit cards, debit cards, digital wallets
+7. **Cryptocurrencies:** Decentralised digital currencies (e.g., Bitcoin) -- not widely accepted as
+   money in most economies
+
+---
+
+## Types of Banks
+
+### Commercial Banks
+
+Commercial banks are profit-making institutions that provide banking services to the public and
+Businesses.
+
+**Functions of commercial banks:**
+
+1. **Accepting deposits:** Current accounts (demand deposits, low/no interest, accessible) and
+   savings accounts (time deposits, higher interest, less accessible)
+2. **Making loans and advances:** Lending to individuals and businesses at interest rates higher
+   than the rates paid on deposits. The difference between the lending rate and deposit rate is the
+   bank"s profit margin (net interest margin).
 3. **Facilitating payments:** Cheques, electronic fund transfers, credit/debit card services
 4. **Foreign exchange services:** Buying and selling foreign currencies
 5. **Safe custody:** Providing safe deposit boxes for valuables

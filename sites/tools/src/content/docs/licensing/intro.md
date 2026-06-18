@@ -1,6 +1,17 @@
 ---
 title: Introduction to Licensing
-description: ""all rights reserved."
+description: "Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the..."
+
+---
+
+## What Software Licensing Is
+
+Every piece of software you write, compile, or deploy is subject to copyright law by default. Under
+The Berne Convention (implemented in the US via the Copyright Act of 1976), copyright attaches
+Automatically the moment an original work is fixed in a tangible medium of expression — no
+Registration required, no notice required. This means that without an explicit license, nobody else
+Has any legal right to copy, modify, distribute, or use your software. The default state of all
+Software is "all rights reserved."
 
 A software license is the legal instrument that grants specific permissions to others. It does not
 Transfer ownership of the copyright; it grants a limited set of rights (a license) under specific

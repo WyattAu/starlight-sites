@@ -1,6 +1,33 @@
 ---
 title: I/O Redirection and Pipes
-description: ""open files"
+description: "Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers..."
+
+---
+
+## File Descriptors
+
+Every Linux process starts with three standard file descriptors, and can open additional ones as
+Needed. File descriptors are non-negative integers maintained by the kernel per-process.
+
+### Standard File Descriptors
+
+| FD  | Name   | Default Destination | Description                          |
+| --- | ------ | ------------------- | ------------------------------------ |
+| 0   | stdin  | Keyboard (terminal) | Input stream                         |
+| 1   | stdout | Terminal            | Normal output                        |
+| 2   | stderr | Terminal            | Error and diagnostic output          |
+| 3+  | custom | (none)              | Application-defined file descriptors |
+
+```bash
+# View file descriptors for a process
+ls -la /proc/$$/fd/
+# 0 -> /dev/pts/0
+# 1 -> /dev/pts/0
+# 2 -> /dev/pts/0
+# 255 -> /dev/pts/0 (script file)
+
+# View limits
+cat /proc/$$/limits | grep "open files"
 ```
 
 ## Redirection Operators

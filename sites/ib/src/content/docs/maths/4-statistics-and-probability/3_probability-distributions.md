@@ -1,6 +1,147 @@
 ---
 title: Probability Distributions
-description: ""s outcome does not affect any other.
+description: "Rigorous IB mathematics notes covering Probability Distributions. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
+date: 2024-01-01T00:00:00Z
+tags:
+  - IB
+categories:
+  - ib
+---
+
+## Discrete Random Variables
+
+### Definition
+
+A **discrete random variable** $X$ is a function that assigns a numerical value to each outcome in a
+Countable sample space. The set of possible values is finite or countably infinite: for example,
+$\{0, 1, 2, \ldots, n\}$ or $\{0, 1, 2, \ldots\}$.
+
+### Probability Mass Function (PMF)
+
+The **probability mass function** of $X$ is $p(x) = P(X = x)$Assigning a probability to each
+Possible value. It must satisfy:
+
+1. $p(x) \ge 0$ for all $x$
+2. $\displaystyle\sum_{\mathrm{all } x} p(x) = 1$
+
+### Cumulative Distribution Function (CDF)
+
+$$
+F(x) = P(X \le x) = \sum_{t \le x} p(t)
+$$
+
+The CDF is non-decreasing and right-continuous, with $F(-\infty) = 0$ and $F(\infty) = 1$. For a
+Discrete variable it is a step function with jumps at each value in the range of $X$. The size of
+Each jump at $x = a$ equals $P(X = a)$.
+
+### Expected Value
+
+The **expected value** (mean) of $X$ is the probability-weighted average of all possible values:
+
+$$
+E(X) = \mu = \sum_{\mathrm{all } x} x \cdot p(x)
+$$
+
+This represents the long-run average if the experiment is repeated many times. For a function
+$g(X)$:
+
+$$
+E(g(X)) = \sum_{\mathrm{all } x} g(x) \cdot p(x)
+$$
+
+A critical special case is $E(X^2) = \sum x^2 p(x)$.
+
+### Variance and Standard Deviation
+
+$$
+\mathrm{Var}(X) = \sigma^2 = E\!\left[(X - \mu)^2\right] = \sum_{\mathrm{all } x} (x - \mu)^2 \cdot p(x)
+$$
+
+The **computational formula** is almost always more convenient:
+
+$$
+\mathrm{Var}(X) = E(X^2) - [E(X)]^2
+$$
+
+The **standard deviation** is $\sigma = \sqrt{\mathrm{Var}(X)}$. It has the same units as $X$ and
+Measures the typical distance of values from the mean.
+
+### Properties of Expectation and Variance
+
+For any constant $a$ and random variable $X$:
+
+$$
+E(a) = a, \quad E(aX) = aE(X), \quad E(X + a) = E(X) + a
+$$
+
+$$
+\mathrm{Var}(a) = 0, \quad \mathrm{Var}(aX) = a^2 \mathrm{Var}(X), \quad \mathrm{Var}(X + a) = \mathrm{Var}(X)
+$$
+
+Adding a constant shifts the distribution but does not change its spread. Multiplying by $a$ scales
+The spread by $|a|$.
+
+:::info[Example]
+
+A discrete random variable $X$ has PMF:
+
+| $x$        | 0   | 1   | 2   | 3   |
+| ---------- | --- | --- | --- | --- |
+| $P(X = x)$ | 0.1 | 0.4 | 0.3 | 0.2 |
+
+$$
+E(X) = 0(0.1) + 1(0.4) + 2(0.3) + 3(0.2) = 1.6
+$$
+
+$$
+E(X^2) = 0(0.1) + 1(0.4) + 4(0.3) + 9(0.2) = 3.4
+$$
+
+$$
+\mathrm{Var}(X) = 3.4 - 1.6^2 = 3.4 - 2.56 = 0.84, \quad \sigma = \sqrt{0.84} \approx 0.917
+$$
+
+
+:::
+:::info[Example: Finding an unknown parameter]
+
+$P(X = x) = kx$ for $x = 1, 2, 3, 4$. Find $k$ and $E(X)$.
+
+$k(1 + 2 + 3 + 4) = 1 \implies 10k = 1 \implies k = 0.1$
+
+$E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0$
+
+
+<details>
+<summary>Worked Example: E(X) and Var(X) from a Table</summary>
+
+A random variable $X$ has the following PMF:
+
+| $x$        | 1   | 2   | 3   | 4    | 5    |
+| ---------- | --- | --- | --- | ---- | ---- |
+| $P(X = x)$ | 0.1 | 0.2 | 0.3 | 0.25 | 0.15 |
+
+$$E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15) = 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15$$
+
+$$E(X^2) = 1(0.1) + 4(0.2) + 9(0.3) + 16(0.25) + 25(0.15) = 0.1 + 0.8 + 2.7 + 4.0 + 3.75 = 11.35$$
+
+$$\mathrm{Var}(X) = 11.35 - 3.15^2 = 11.35 - 9.9225 = 1.4275$$
+
+$$\sigma = \sqrt{1.4275} \approx 1.195$$
+
+</details>
+
+---
+
+## Binomial Distribution
+
+### Conditions
+
+A random variable $X$ follows a binomial distribution, $X \sim B(n, p)$When all four conditions
+Hold:
+
+1. **Fixed number of trials**: exactly $n$ identical trials.
+2. **Independent trials**: each trial"s outcome does not affect any other.
 3. **Two outcomes**: each trial yields success (probability $p$) or failure (probability $q = 1-p$).
 4. **Constant probability**: $p$ is the same for every trial.
 

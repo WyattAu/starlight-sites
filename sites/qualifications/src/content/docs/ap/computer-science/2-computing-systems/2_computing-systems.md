@@ -1,6 +1,49 @@
 ---
 title: Computing Systems
-description: ""ADD R1, R2" (add
+description: "| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM..."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-computer-science
+categories:
+  - ap-computer-science
+
+---
+
+## The Internet and Computing Systems (CED Unit 4)
+
+### Hardware Components
+
+| Component        | Function                                       |
+| ---------------- | ---------------------------------------------- |
+| CPU              | Executes instructions, performs calculations   |
+| RAM              | Volatile memory for currently running programs |
+| Hard drive / SSD | Non-volatile storage for persistent data       |
+| GPU              | Processes graphics and parallel computations   |
+| Motherboard      | Connects all components                        |
+| Power supply     | Provides electrical power                      |
+| Input devices    | Keyboard, mouse, microphone, camera            |
+| Output devices   | Monitor, speakers, printer                     |
+
+### The Fetch-Decode-Execute Cycle
+
+The CPU continuously:
+
+1. **Fetch:** Read the next instruction from memory (address in the program counter).
+2. **Decode:** Interpret the instruction.
+3. **Execute:** Perform the operation.
+4. **Store:** Write the result back to memory or a register.
+
+**Detailed step-by-step:**
+
+1. The address in the **Program Counter (PC)** is copied to the **Memory Address Register (MAR)**.
+2. The instruction at that address is fetched from memory into the **Memory Data Register (MDR)**.
+3. The PC is incremented to point to the next instruction.
+4. The instruction in the MDR is copied to the **Current Instruction Register (CIR)**.
+5. The **Control Unit (CU)** decodes the instruction in the CIR.
+6. The instruction is executed (ALU performs calculations, data is moved between registers).
+
+**Worked Example.** Trace the FDE cycle when PC = 200 and memory[200] contains "ADD R1, R2" (add
 Register R2 to register R1).
 
 1. Fetch: MAR $\leftarrow$ 200, MDR $\leftarrow$ "ADD R1, R2", PC $\leftarrow$ 201, CIR $\leftarrow$

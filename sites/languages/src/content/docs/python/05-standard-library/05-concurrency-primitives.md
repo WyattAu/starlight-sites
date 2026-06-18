@@ -1,6 +1,23 @@
 ---
 title: Concurrency Primitives
-description: ""Thread {thread_id} starting")
+description: "The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform''s native threading implementation (pthreads on..."
+
+---
+
+## threading Module
+
+The `threading` module provides low-level thread primitives. Python threads are OS-level threads
+Managed by the platform's native threading implementation (pthreads on Linux, Windows threads on
+Windows).
+
+### Creating Threads
+
+```python
+import threading
+import time
+
+def worker(thread_id, duration):
+    print(f"Thread {thread_id} starting")
     time.sleep(duration)
     print(f"Thread {thread_id} finished after {duration}s")
 

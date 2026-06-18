@@ -1,6 +1,32 @@
 ---
 title: Concurrency
-description: ""Hello from thread" }
+description: "Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Ruby
+categories:
+  - Ruby
+
+---
+
+## Concurrency in Ruby
+
+Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing
+multiple tasks simultaneously). The concurrency model has evolved significantly across Ruby
+versions:
+
+- **Ruby 1.8**: Green threads (managed by the interpreter, no true parallelism)
+- **Ruby 1.9--2.x**: Native threads with the GIL (Global Interpreter Lock) -- only one thread
+  executes Ruby code at a time, but I/O operations release the GIL
+- **Ruby 3.0+**: Ractor for true parallelism, Fiber Scheduler for non-blocking I/O
+
+## Threads
+
+### Creating Threads
+
+```ruby
+# Basic thread creation
+thread = Thread.new { puts "Hello from thread" }
 thread.join  # wait for completion
 
 # Thread with argument

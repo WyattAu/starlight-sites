@@ -1,6 +1,25 @@
 ---
 title: Control Flow
-description: ""freezing"
+description: "Python''s conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks."
+date: 2025-06-04T11:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## Conditional Branching
+
+### `if` / `elif` / `else`
+
+Python's conditional statements are the most basic form of control flow. Unlike many languages,
+Python uses **indentation** rather than braces or keywords to delimit blocks.
+
+```python
+def classify_temperature(temp_celsius: float) -> str:
+    if temp_celsius < 0:
+        return "freezing"
     elif temp_celsius < 15:
         return "cold"
     elif temp_celsius < 25:

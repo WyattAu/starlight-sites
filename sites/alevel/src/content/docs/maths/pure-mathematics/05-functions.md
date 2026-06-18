@@ -1,6 +1,106 @@
 ---
 title: Functions
-description: ""undoes" the original function. For this to work, the original
+description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper      | Notes                                            |
+| ---------- | ---------- | ------------------------------------------------ |
+| AQA        | Paper 1, 2 | Functions, composition, inverse, transformations |
+| Edexcel    | P1, P2     | Similar; modulus in P1                           |
+| OCR (A)    | Paper 1, 2 | Includes composite functions                     |
+| CIE (9709) | P1         | Functions, domain, range, inverse                |
+
+<hr />
+
+## 1. Definitions
+
+**Definition.** A _function_ $f$ from a set $A$ (the _domain_) to a set $B$ (the _codomain_) is a
+Rule that assigns to each element $a \in A$ exactly one element $f(a) \in B$. We write $f: A \to B$.
+
+**Definition.** The _range_ (or _image_) of $f$ is the set $\{f(a) : a \in A\} \subseteq B$ — the
+Set of all values actually attained.
+
+**Definition.** The _natural domain_ of a real-valued function defined by an algebraic expression is
+The largest subset of $\mathbb{R}$ for which the expression is defined. Common restrictions:
+
+- Denominators cannot be zero: $x \neq 0$ in $\frac{1}{x}$.
+- Square roots require non-negative arguments: $x \geq 0$ in $\sqrt{x}$.
+- Logarithms require positive arguments: $x > 0$ in $\ln x$.
+
+<details>
+<summary>Example</summary>
+Find the natural domain of $f(x) = \sqrt{x + 2} + \frac{1}{x - 1}$.
+
+We need: $x + 2 \geq 0$ (for the square root) AND $x - 1 \neq 0$ (for the denominator).
+
+So $x \geq -2$ and $x \neq 1$.
+
+Domain: $[-2, 1) \cup (1, \infty)$.
+
+</details>
+
+<hr />
+
+## 2. Composition of Functions
+
+**Definition.** Given functions $f: A \to B$ and $g: B \to C$The _composition_ $g \circ f: A \to C$
+is defined by:
+
+$$(g \circ f)(x) = g(f(x))$$
+
+**Theorem.** Function composition is associative: $(h \circ g) \circ f = h \circ (g \circ f)$.
+
+**Theorem.** Function composition is **not** commutative : $f \circ g \neq g \circ f$.
+
+<details>
+<summary>Example</summary>
+Given $f(x) = 2x + 1$ and $g(x) = x^2$Find $f \circ g$ and $g \circ f$.
+
+$(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
+
+$(g \circ f)(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 = 4x^2 + 4x + 1$.
+
+$f \circ g \neq g \circ f$.
+
+</details>
+
+> **Caution:** Warning Right to left: $(f \circ g)(x) = f(g(x))$.
+<hr />
+
+## 3. Inverse Functions
+
+**Definition.** A function $f: A \to B$ is _injective_ (one-to-one) if
+$f(a_1) = f(a_2) \implies a_1 = a_2$ for all $a_1, a_2 \in A$. Equivalently, distinct inputs give
+Distinct outputs.
+
+**Definition.** A function $f: A \to B$ is _surjective_ (onto) if for every $b \in B$There exists
+$a \in A$ such that $f(a) = b$.
+
+**Definition.** A function that is both injective and surjective is _bijective_.
+
+**Theorem.** A function $f: A \to B$ has an inverse function $f^{-1}: B \to A$ if and only if $f$ is
+Bijective.
+
+_Proof._
+
+($\Rightarrow$) If $f^{-1}$ exists, then $f$ must be injective (otherwise $f^{-1}$ would be
+Multiply-defined) and surjective (otherwise $f^{-1}$ would be undefined for elements not in the
+Range).
+
+($\Leftarrow$) If $f$ is bijective, then for each $b \in B$ there exists exactly one $a \in A$ with
+$f(a) = b$. Define $f^{-1}(b) = a$. This is well-defined and satisfies $f^{-1}(f(a)) = a$ and
+$f(f^{-1}(b)) = b$. $\blacksquare$
+
+_Intuition._ An inverse function "undoes" the original function. For this to work, the original
 Function must pair each input with a unique output (injectivity) and must cover every element of the
 Codomain (surjectivity).
 

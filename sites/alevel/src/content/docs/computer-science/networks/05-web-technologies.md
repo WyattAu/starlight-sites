@@ -1,6 +1,74 @@
 ---
 title: Web Technologies
-description: ""en">
+description: "Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+:::info Board-specific This topic is examined by Edexcel (P1, Topic 5) only. Other boards cover some
+Of these concepts within their networking modules.
+:::
+
+## 1. The Internet and the World Wide Web
+
+### The Internet vs the Web
+
+The **Internet** is the global physical infrastructure of interconnected networks — cables, routers,
+Switches, and servers — communicating via the TCP/IP protocol suite.
+
+The **World Wide Web** (WWW) is an application running on top of the Internet: a system of
+Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
+
+| Aspect    | Internet                              | World Wide Web                 |
+| --------- | ------------------------------------- | ------------------------------ |
+| Nature    | Physical infrastructure               | Application/service            |
+| Created   | 1969 (ARPANET)                        | 1989 (Tim Berners-Lee at CERN) |
+| Protocols | TCP/IP, BGP, OSPF                     | HTTP, HTML, URL                |
+| Scope     | All networked communication           | Document and resource sharing  |
+| Access    | Any application (email, gaming, VoIP) | Web browsers                   |
+
+### Historical Development
+
+- **1969 — ARPANET:** US Department of Defence created the first packet-switching network, linking
+  four universities. Precursor to the modern Internet.
+- **1973 — TCP/IP:** Vint Cerf and Bob Kahn developed the protocol suite for inter-network
+  communication.
+- **1983 — TCP/IP adopted:** ARPANET officially switched to TCP/IP on 1 January 1983.
+- **1989 — WWW invented:** Tim Berners-Lee proposed the Web at CERN, defining HTML, URLs, and HTTP.
+- **1991 — First website:** `info.cern.ch` went live at CERN.
+- **1993 — Mosaic browser:** First graphical web browser made the Web accessible to non-technical
+  users.
+
+### Key Internet Protocols
+
+| Protocol | Full Name                   | Port  | Purpose                      |
+| -------- | --------------------------- | ----- | ---------------------------- |
+| TCP      | Transmission Control Proto  | —     | Reliable, ordered delivery   |
+| IP       | Internet Protocol           | —     | Addressing and routing       |
+| HTTP     | HyperText Transfer Protocol | 80    | Requesting web pages         |
+| HTTPS    | HTTP Secure                 | 443   | Encrypted web communication  |
+| DNS      | Domain Name System          | 53    | Domain name to IP resolution |
+| FTP      | File Transfer Protocol      | 20/21 | Uploading and downloading    |
+| SMTP     | Simple Mail Transfer Proto  | 25    | Sending email                |
+| POP3     | Post Office Protocol v3     | 110   | Retrieving email (download)  |
+| IMAP     | Internet Message Access Pr  | 143   | Accessing email on server    |
+
+<hr />
+
+## 2. HTML and CSS
+
+### HTML Structure
+
+HTML (HyperText Markup Language) defines the structure and content of web pages:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

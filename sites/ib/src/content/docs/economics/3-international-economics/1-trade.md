@@ -1,6 +1,45 @@
 ---
 title: International Trade
-description: ""s cost of 0.5 and B's cost of 2).
+description: "A country has an in producing a good if it can produce more output per unit Of r Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Free Trade and Comparative Advantage
+
+### Absolute and Comparative Advantage
+
+A country has an **absolute advantage** in producing a good if it can produce more output per unit
+Of resources than another country.
+
+A country has a **comparative advantage** in producing a good if it can produce it at a lower
+Opportunity cost than another country. Comparative advantage is the basis for mutually beneficial
+Trade, even when one country has an absolute advantage in all goods.
+
+**Ricardian model example:**
+
+Consider two countries, A and B, producing two goods, wine and cloth. Output per worker per day:
+
+|           | Wine (bottles) | Cloth (metres) |
+| --------- | -------------- | -------------- |
+| Country A | 6              | 3              |
+| Country B | 2              | 4              |
+
+Opportunity costs:
+
+- Country A: 1 bottle of wine costs $3/6 = 0.5\;\mathrm{m}$ of cloth; 1 metre of cloth costs
+  $6/3 = 2$ bottles of wine
+- Country B: 1 bottle of wine costs $4/2 = 2\;\mathrm{m}$ of cloth; 1 metre of cloth costs
+  $2/4 = 0.5$ bottles of wine
+
+Country A has a comparative advantage in wine (lower opportunity cost: $0.5\;\mathrm{m}$ vs.
+$2\;\mathrm{m}$). Country B has a comparative advantage in cloth (lower opportunity cost: $0.5$
+Bottles vs. $2$ bottles).
+
+Both countries gain from specialising in the good in which they have a comparative advantage and
+Trading at a mutually beneficial terms of trade between the two opportunity cost ratios (e.g., 1
+wine for 0.75 cloth -- between A"s cost of 0.5 and B's cost of 2).
 
 **Gains from trade with numerical example:**
 

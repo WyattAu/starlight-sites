@@ -1,6 +1,33 @@
 ---
 title: Coordinates and Geometry
-description: "" theorem:
+description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------------- | | AQA | Paper 1 | Straight lines, circles | | Edexcel | P1 |..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                                    |
+| ---------- | ------- | ---------------------------------------- |
+| AQA        | Paper 1 | Straight lines, circles                  |
+| Edexcel    | P1      | Same; includes circle theorems           |
+| OCR (A)    | Paper 1 | Similar coverage                         |
+| CIE (9709) | P1      | Coordinate geometry of lines and circles |
+
+<hr />
+
+## 1. The Coordinate Plane
+
+**Definition.** The _Cartesian coordinate plane_ $\mathbb{R}^2$ is the set of all ordered pairs
+$(x, y)$ where $x, y \in \mathbb{R}$. The horizontal axis is the $x$-axis and the vertical axis is
+The $y$-axis.
+
+The _distance_ between two points $A(x_1, y_1)$ and $B(x_2, y_2)$ is given by Pythagoras" theorem:
 
 **Theorem (Distance Formula).**
 

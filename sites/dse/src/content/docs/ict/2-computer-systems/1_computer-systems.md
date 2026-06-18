@@ -1,6 +1,267 @@
 ---
 title: Fundamentals of Computer Systems
-description: ""s payroll system                  |
+description: "The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-08T00:00:00.000Z
+tags: [DSE, ICT]
+categories: [DSE, ICT]
+---
+
+## Hardware Components
+
+### Central Processing Unit (CPU)
+
+The CPU is the primary component that executes instructions. It consists of three main
+Sub-components:
+
+| Component                       | Function                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Arithmetic Logic Unit (ALU)** | Performs arithmetic (add, subtract, multiply, divide) and logical (AND, OR, NOT, XOR) operations        |
+| **Control Unit (CU)**           | Coordinates all activities: fetches instructions, decodes them, and signals other components to execute |
+| **Registers**                   | Small, extremely fast storage locations inside the CPU used for temporary data during processing        |
+
+### Registers
+
+| Register                          | Purpose                                                                  |
+| --------------------------------- | ------------------------------------------------------------------------ |
+| **Program Counter (PC)**          | Holds the memory address of the next instruction to be fetched           |
+| **Memory Address Register (MAR)** | Holds the address in memory to be read from or written to                |
+| **Memory Data Register (MDR)**    | Holds data that has been read from or is about to be written to memory   |
+| **Accumulator (ACC)**             | Stores the results of ALU operations                                     |
+| **Instruction Register (IR)**     | Holds the current instruction being decoded and executed                 |
+| **Status Register (Flags)**       | Stores flags such as Zero, Carry, Negative, Overflow from ALU operations |
+
+:::info Registers are the fastest memory in a computer system — orders of magnitude faster than RAM.
+A typical CPU has a small number of general-purpose registers (8--32 in most architectures).
+:::
+
+### Memory Types
+
+| Type    | Full Name            | Volatile? | Read/Write | Speed           | Typical Use                                |
+| ------- | -------------------- | --------- | ---------- | --------------- | ------------------------------------------ |
+| **RAM** | Random Access Memory | Yes       | Both       | Fast            | Main memory, running programs              |
+| **ROM** | Read Only Memory     | No        | Read only  | Slower than RAM | Boot-up instructions (BIOS/UEFI), firmware |
+
+**RAM types:**
+
+- **SRAM (Static RAM):** Uses flip-flop circuits. Faster, more expensive. Used for CPU cache (L1,
+  L2, L3).
+- **DRAM (Dynamic RAM):** Uses capacitors. Slower, cheaper, needs refreshing. Used as main memory.
+
+**ROM types:**
+
+- **PROM:** Programmable once by the user.
+- **EPROM:** Erasable using UV light, reprogrammable.
+- **EEPROM:** Electrically erasable and reprogrammable.
+
+### Secondary Storage
+
+| Storage Type     | Technology                                        | Speed                     | Capacity        | Cost        | Volatility   |
+| ---------------- | ------------------------------------------------- | ------------------------- | --------------- | ----------- | ------------ |
+| **HDD**          | Magnetic platters spinning at 5400/7200/10000 RPM | 80--160 MB/s              | 500 GB -- 20 TB | Low         | Non-volatile |
+| **SSD**          | NAND flash memory via SATA/NVMe                   | 500 MB/s -- 7 GB/s (NVMe) | 256 GB -- 4 TB  | Medium-High | Non-volatile |
+| **Flash Memory** | NAND flash (USB drives, SD cards)                 | 10--300 MB/s              | 1 GB -- 1 TB    | Medium      | Non-volatile |
+
+:::caution[Exam Tip] When comparing storage, consider all five criteria: speed, capacity, cost per
+GB, volatility, and durability. HDDs are cheaper per GB but slower and more fragile (moving parts).
+SSDs are faster with no moving parts but more expensive per GB.
+
+---
+
+## Input Devices
+
+| Device              | Input Type               | Common Use Case                                        |
+| ------------------- | ------------------------ | ------------------------------------------------------ |
+| **Keyboard**        | Text, commands           | Typing documents, entering data                        |
+| **Mouse**           | Pointing, clicking       | GUI navigation, selecting objects                      |
+| **Scanner**         | Image, document capture  | Digitising photos, OCR (Optical Character Recognition) |
+| **Microphone**      | Audio/sound input        | Voice recording, voice commands                        |
+| **Camera / Webcam** | Image, video capture     | Video conferencing, photography                        |
+| **Touchscreen**     | Touch gestures           | Mobile devices, kiosks, POS systems                    |
+| **Barcode Reader**  | Light reflection pattern | Retail checkout, inventory management                  |
+| **RFID Reader**     | Radio frequency signal   | Access control, toll collection, tracking              |
+
+**Barcode Reader vs RFID:**
+
+| Feature                | Barcode Reader            | RFID Reader          |
+| ---------------------- | ------------------------- | -------------------- |
+| Line of sight required | Yes                       | No                   |
+| Read range             | Short (contact to ~30 cm) | Up to several metres |
+| Data capacity          | Limited ( a number)       | Can store more data  |
+| Cost                   | Lower                     | Higher               |
+| Read multiple at once  | No                        | Yes                  |
+
+---
+
+## Output Devices
+
+| Device        | Output Type          | Common Use Case                                   |
+| ------------- | -------------------- | ------------------------------------------------- |
+| **Monitor**   | Visual display       | Primary output for desktops/laptops               |
+| **Printer**   | Hard copy (paper)    | Inkjet (photo quality), Laser (high volume, fast) |
+| **Speaker**   | Audio output         | Music, alerts, multimedia                         |
+| **Projector** | Large visual display | Presentations, classrooms, cinemas                |
+
+**Inkjet vs Laser Printer:**
+
+| Feature                | Inkjet            | Laser                   |
+| ---------------------- | ----------------- | ----------------------- |
+| Speed                  | Slower            | Faster                  |
+| Print quality (text)   | Good              | Excellent               |
+| Print quality (photos) | Better            | Good                    |
+| Cost per page          | Higher            | Lower                   |
+| Initial cost           | Lower             | Higher                  |
+| Mechanism              | Sprays liquid ink | Uses toner powder, heat |
+
+---
+
+## Von Neumann Architecture
+
+The Von Neumann architecture defines a computer system with:
+
+1. **Single shared memory** for both instructions and data (stored-program concept).
+2. **CPU** consisting of ALU, CU, and registers.
+3. **System bus** connecting CPU, memory, and I/O devices.
+
+```python
+          +---------+
+          |   CPU   |
+          | +-----+ |
+          | | CU  | |
+          | +-----+ |
+          | | ALU | |
+          | +-----+ |
+          | |Regs | |
+          | +-----+ |
+          +----+----+
+               |
+         System Bus
+               |
+          +----+----+
+          | Memory  |
+          | (RAM +  |
+          |  ROM)   |
+          +---------+
+               |
+         System Bus
+               |
+          +----+----+
+          |   I/O   |
+          | Devices |
+          +---------+
+```
+
+**Key principles:**
+
+- Instructions and data are stored in the same memory.
+- Memory is addressed linearly.
+- Instructions are executed sequentially unless a branch/jump instruction changes the flow.
+
+### Harvard Architecture (Comparison)
+
+| Feature          | Von Neumann               | Harvard                                     |
+| ---------------- | ------------------------- | ------------------------------------------- |
+| Memory bus       | Single shared bus         | Separate instruction and data buses         |
+| Memory           | One memory for both       | Separate memories for instructions and data |
+| Speed bottleneck | Yes (bus contention)      | No (parallel fetch)                         |
+| Complexity       | Simpler                   | More complex                                |
+| Modern usage     | Most general-purpose CPUs | DSPs, microcontrollers, CPU caches          |
+
+The Von Neumann **bottleneck** arises because the CPU and memory share a single bus. The CPU is
+Often much faster than memory, so it spends time waiting for instructions and data to be fetched.
+This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of the bottleneck.
+
+**Cache memory** is a small, fast memory between the CPU registers and main memory (RAM):
+
+| Cache Level | Location                            | Size           | Speed                  |
+| ----------- | ----------------------------------- | -------------- | ---------------------- |
+| L1          | Inside CPU core                     | 32--128 KB     | Fastest (~1 cycle)     |
+| L2          | Inside CPU (per core or shared)     | 256 KB -- 1 MB | Fast (~10 cycles)      |
+| L3          | Inside CPU (shared among all cores) | 2--64 MB       | Moderate (~40 cycles)  |
+| RAM         | Outside CPU on motherboard          | 4--128 GB      | Slowest (~100+ cycles) |
+
+When the CPU needs data, it checks L1 first, then L2, then L3, then RAM. If the data is found in
+Cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
+Memory.
+
+:::caution[Exam Tip] The DSE syllabus focuses on Von Neumann. Know why it has a bottleneck (CPU
+Waits for memory) and how Harvard architecture addresses this. Most modern CPUs use a modified
+Harvard architecture internally (separate L1 caches for instructions and data) while presenting a
+Von Neumann model externally.
+
+---
+
+## The Fetch-Decode-Execute Cycle
+
+This is the fundamental cycle by which the CPU processes every instruction.
+
+### Step-by-step
+
+1. **Fetch:**
+
+- PC holds the address of the next instruction.
+- Address is copied from PC to MAR.
+- Instruction is fetched from memory address in MAR into MDR.
+- PC is incremented to point to the next instruction.
+- Instruction in MDR is copied to IR.
+
+2. **Decode:**
+
+- CU decodes the instruction in IR.
+- The CU determines which operation to perform and which operands are needed.
+
+3. **Execute:**
+
+- The instruction is executed (ALU performs calculations, data is moved, etc.).
+- Results are stored in the accumulator or written back to memory.
+- Status flags are updated as needed.
+- Cycle repeats from step 1.
+
+### Example Trace
+
+Given memory starting at address 100:
+
+| Address | Instruction |
+| ------- | ----------- |
+| 100     | LOAD 5      |
+| 101     | ADD 3       |
+| 102     | STORE 6     |
+
+**Execution trace:**
+
+| Step    | Action                                               | PC  | MAR | MDR     | IR      | ACC       |
+| ------- | ---------------------------------------------------- | --- | --- | ------- | ------- | --------- |
+| Fetch   | PC(100) -> MAR; Mem[MAR] -> MDR; PC = 101; MDR -> IR | 101 | 100 | LOAD 5  | LOAD 5  | ?         |
+| Decode  | CU decodes LOAD 5                                    | 101 | 100 | LOAD 5  | LOAD 5  | ?         |
+| Execute | Mem[5] -> ACC                                        | 101 | 100 | LOAD 5  | LOAD 5  | M[5]      |
+| Fetch   | PC(101) -> MAR; Mem[MAR] -> MDR; PC = 102; MDR -> IR | 102 | 101 | ADD 3   | ADD 3   | M[5]      |
+| Decode  | CU decodes ADD 3                                     | 102 | 101 | ADD 3   | ADD 3   | M[5]      |
+| Execute | ACC = ACC + Mem[3]                                   | 102 | 101 | ADD 3   | ADD 3   | M[5]+M[3] |
+| Fetch   | PC(102) -> MAR; Mem[MAR] -> MDR; PC = 103; MDR -> IR | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
+| Decode  | CU decodes STORE 6                                   | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
+| Execute | ACC -> Mem[6]                                        | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
+
+---
+
+## Software Types
+
+### System Software
+
+Software that manages and controls hardware and provides a platform for application software.
+
+| Type                      | Description                                 | Examples                                                |
+| ------------------------- | ------------------------------------------- | ------------------------------------------------------- |
+| **Operating System (OS)** | Manages all hardware and software resources | Windows, macOS, Linux, Android, iOS                     |
+| **Utility Programs**      | Perform specific maintenance tasks          | Disk defragmenter, antivirus, file manager, backup tool |
+
+### Application Software
+
+Software designed for end-users to perform specific tasks.
+
+| Type                | Description                         | Examples                                    |
+| ------------------- | ----------------------------------- | ------------------------------------------- |
+| **General-purpose** | Widely used across many domains     | Word processors, spreadsheets, web browsers |
+| **Special-purpose** | Designed for a specific field       | Accounting software, CAD, medical imaging   |
+| **Custom/bespoke**  | Written for a specific organisation | A company"s payroll system                  |
 
 ### Operating System Functions
 

@@ -1,6 +1,42 @@
 ---
 title: Biological Molecules
-description: ""s unusual
+description: "Study guide covering the core biochemistry topics for A-Level Biology examinatio Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-18T00:00:00.000Z
+tags:
+  - Biology
+  - ALevel
+categories:
+  - Biology
+
+---
+
+# Biological Molecules
+
+Study guide covering the core biochemistry topics for A-Level Biology examinations.
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
+---
+
+## 1. Water
+
+### Structure and Properties
+
+Water ($\mathrm{H_2O}$) is a polar molecule. Oxygen is more electronegative than hydrogen, creating
+a dipole with $\delta^-$ on oxygen and $\delta^+$ on each hydrogen.
+
+| Property                         | Cause                                        | Biological Significance                                    |
+| -------------------------------- | -------------------------------------------- | ---------------------------------------------------------- |
+| Solvent                          | Polarity dissolves ionic/covalent substances | Medium for metabolic reactions; transport in blood and sap |
+| High specific heat capacity      | H-bonds absorb energy before breaking        | Temperature stability in organisms and environments        |
+| High latent heat of vaporisation | Many H-bonds to break                        | Effective cooling (sweat, transpiration)                   |
+| Cohesion                         | H-bonds between water molecules              | Water columns in xylem; surface tension                    |
+| Adhesion                         | H-bonds with other surfaces                  | Capillary action in xylem vessels                          |
+| Lower density as ice             | Open H-bonded lattice                        | Ice floats, insulating aquatic habitats                    |
+
+### Hydrogen Bonding in Water
+
+Each water molecule can form up to **4 hydrogen bonds**: two as donor (via its H atoms) and two as
+acceptor (via lone pairs on O). This extensive H-bonding network accounts for water"s unusual
 physical properties.
 
 ---

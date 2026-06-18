@@ -1,6 +1,16 @@
 ---
 title: "Web Development and Multimedia -- Diagnostic Tests"
-description: ""Student Portal", a navigation
+description: "DSE Ict Web Development and Multimedia -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Web Development and Multimedia — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: HTML and CSS Fundamentals
+
+**Question:** (a) Write HTML code for a simple webpage with a heading "Student Portal", a navigation
 bar with three links (Home, Grades, Schedule), and a paragraph of text. (b) Write CSS to: centre the
 heading, make the navigation bar horizontal with a dark background and white text, and set the
 paragraph font to 16px Arial. (c) Explain the CSS box model and the difference between margin and

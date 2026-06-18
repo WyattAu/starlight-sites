@@ -1,6 +1,28 @@
 ---
 title: "Limits and Continuity -- Diagnostic Tests"
-description: ""proof":
+description: "> Tests edge cases, boundary conditions, and common misconceptions for limits an Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-14
+tags:
+  - ap
+  - ap-maths
+categories:
+  - ap-maths
+
+---
+
+# Limits and Continuity — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for limits and continuity.
+
+### UT-1: Epsilon-Delta Proof with a Non-Polynomial Function
+
+**Question:**
+
+Prove using an epsilon-delta argument that $\displaystyle\lim_{x \to 2} x^3 = 8$.
+
+A student writes the following "proof":
 
 > For any $\varepsilon > 0$Choose $\delta = \varepsilon / 12$. Then
 > $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4|$. If $|x - 2| \lt \delta$Then

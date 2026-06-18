@@ -3,7 +3,39 @@ title: Turing Machines
 tags:
   - Computing
   - University
-description: "", b_1, \ldots, b_k, d_1, \ldots, d_k)$.
+description: "Turing Machines: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 4.1 Definition
+
+A **Turing machine (TM)** is a 7-tuple
+$M = (Q, \Sigma, \Gamma, \delta, q_0, q_{\mathrm{accept},
+Q_{\mathrm{reject})}}$ where:
+
+- $Q$ is a finite set of states.
+- $\Sigma$ is the input alphabet (does not contain the blank symbol $\sqcup$).
+- $\Gamma$ is the tape alphabet, $\sqcup \in \Gamma$, $\Sigma \subseteq \Gamma$.
+- $\delta : Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$ is the transition function.
+- $q_0 \in Q$ is the start state.
+- $q_{\mathrm{accept} \in Q$ is the accept state.
+- $q_{\mathrm{reject} \in Q$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}$).
+
+The TM has an infinite tape (initially containing the input followed by blanks), a read/write head
+That moves left or right, and a finite control. At each step, based on the current state and symbol
+Under the head, it writes a symbol, moves the head, and changes state.
+
+$M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}$. $M$ **rejects** $w$ if
+It halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
+
+The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}$.
+
+A language is **Turing-recognisable** (recursively enumerable) if some TM recognises it. A language
+Is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
+
+### 4.2 TM Variants
+
+**Multitape TMs.** Multiple tapes, each with its own head. The transition function maps
+$(q, a_1, \ldots, a_k)$ to $(q", b_1, \ldots, b_k, d_1, \ldots, d_k)$.
 
 **Theorem 4.1.** Every multitape TM has an equivalent single-tape TM.
 

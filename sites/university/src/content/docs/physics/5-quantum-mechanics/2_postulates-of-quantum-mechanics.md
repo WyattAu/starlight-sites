@@ -3,7 +3,47 @@ title: Postulates of Quantum Mechanics
 tags:
   - Physics
   - University
-description: ""s equations in classical mechanics.
+description: "The state of a quantum system is completely described by a normalised Vector in  Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 2.1 The Postulates
+
+**Postulate 1 (State Space).** The state of a quantum system is completely described by a normalised
+Vector $|\psi\rangle$ in a complex Hilbert space $\mathcal{H}$.
+
+_Physical motivation._ Superposition is observed in interference experiments (e.g., double-slit),
+Where a particle can traverse multiple paths simultaneously. The complex-valued nature of the state
+Is essential: relative phases between superposition components produce observable interference
+Patterns that cannot be replicated with real amplitudes alone.
+
+**Postulate 2 (Observables).** Every measurable quantity (observable) is represented by a Hermitian
+(self-adjoint) operator $\hat{A} = \hat{A}^\dagger$ acting on $\mathcal{H}$.
+
+_Physical motivation._ Hermitian operators have real eigenvalues, matching the fact that measurement
+Outcomes are real numbers. The spectral theorem guarantees a complete set of eigenstates, providing
+a Basis for expansion.
+
+**Postulate 3 (Measurement).** A measurement of observable $\hat{A}$ yields one of the eigenvalues
+$a_n$ of $\hat{A}$. The probability of measuring $a_n$ when the system is in state $|\psi\rangle$ is
+
+$$P(a_n) = |\langle a_n | \psi \rangle|^2$$
+
+Where $|a_n\rangle$ is the eigenstate corresponding to $a_n$. After measurement, the state collapses
+To $|a_n\rangle$.
+
+_Physical motivation._ The Born rule $P = |\langle a_n|\psi\rangle|^2$ was postulated by Born (1926)
+To connect wave functions to observable probabilities. It correctly predicts the intensity
+Distribution in diffraction experiments and the .../4-statistics-and-probability/2_statistics of
+particle detections.
+
+**Postulate 4 (Time Evolution).** The time evolution of the state is governed by the
+**time-dependent Schrodinger equation**:
+
+$$i\hbar \frac{\partial}{\partial t}|\psi(t)\rangle = \hat{H}|\psi(t)\rangle$$
+
+Where $\hat{H}$ is the Hamiltonian (energy operator).
+
+_Physical motivation._ This is the quantum analogue of Hamilton"s equations in classical mechanics.
 The Schrodinger equation is linear, guaranteeing superposition is preserved. Energy conservation is
 Built in: for a time-independent Hamiltonian, $\langle H \rangle$ is constant.
 

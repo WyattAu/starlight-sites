@@ -1,6 +1,66 @@
 ---
 title: Energy and Work
-description: ""s Second Law:
+description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                              |
+| ---------- | ------- | ---------------------------------- |
+| AQA        | Paper 1 | Work, energy, power                |
+| Edexcel    | P1      | Similar                            |
+| OCR (A)    | Paper 1 | Includes energy on inclined planes |
+| CIE (9709) | P1, P4  | Work-energy in P1; further in P4   |
+
+:::info Energy methods are often simpler than force methods for problems where only initial and
+Final states matter (no time information needed).
+:::
+
+<hr />
+
+## 1. Work Done
+
+### 1.1 Definition and derivation
+
+**Definition.** The work done by a constant force $\mathbf{F}$ moving a body through displacement
+$\mathbf{s}$ is
+
+$$W = \mathbf{F} \cdot \mathbf{s} = Fs\cos\theta$$
+
+Where $\theta$ is the angle between $\mathbf{F}$ and $\mathbf{s}$.
+
+**Derivation.** For a force $F$ in the direction of motion:
+
+$$W = \int_{s_1}^{s_2} F\,ds$$
+
+For constant force: $W = F(s_2 - s_1) = Fs$.
+
+If the force makes angle $\theta$ with the displacement, only the component $F\cos\theta$ in the
+Direction of motion does work: $W = Fs\cos\theta$. $\blacksquare$
+
+The SI unit of work is the joule (J) = newton-metre (Nm).
+
+**Intuition.** Work is energy transferred by a force. No work is done if the force is perpendicular
+To the motion (e.g., the normal reaction does no work on a body sliding on a horizontal surface).
+
+<hr />
+
+## 2. Kinetic Energy
+
+### 2.1 Derivation
+
+**Theorem.** The kinetic energy of a body of mass $m$ moving at speed $v$ is
+
+$$\mathrm{KE} = \frac{1}{2}mv^2$$
+
+**Proof.** Starting from Newton"s Second Law:
 
 $$F = ma = m\frac{dv}{dt} = m\frac{dv}{ds}\frac{ds}{dt} = mv\frac{dv}{ds}$$
 

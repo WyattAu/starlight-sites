@@ -1,6 +1,118 @@
 ---
 title: Computer Organizations
-description: ""s complement** is used to represent both positive and negative integers:
+description: "Rigorous IB computer science notes covering Computer Organizations. Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - CS
+categories:
+  - ib
+---
+
+## Computer Architecture
+
+### CPU architecture
+
+#### Control Unit (CU)
+
+#### Program Counter (PC)
+
+Stores the address of the next instruction
+
+#### Memory Address Register (MAR)
+
+Stores the current address
+
+#### Memory Data Register (MDR)
+
+Two way register that stores the instruction or data where MAR is pointing to.
+
+#### Current Instruction Register (CIR)
+
+Register that stores the current instruction
+
+#### Arithmetic Logic Unit (ALU)
+
+#### Cache
+
+### Primary Memory
+
+#### Static RAM (SRAM)
+
+SRAM are volatile semiconductor memory that uses flip flops to store each bit of data. This is
+Characterized by fast access times and used in cache memory.
+
+#### Dynamic RAM (DRAM)
+
+DRAM are volatile memory that store each bit as a electric charge in a capacitor within each memory
+Cell. This is characterized by denser and cheaper than SRAM, used in main system memory (RAM
+Modules).
+
+### Machine Instruction Cycle
+
+- Fetch
+- The next address in PC is copied to MAR
+- PC increment to point to the next instruction
+- Instruction at memory location stored in MAR is copied to MDR
+- Instruction in MDR copied to CIR
+- Decode
+- CU decodes the instruction in CIR
+- Execute
+- CU send the signal to relevant component of the CPU
+- Arithmetic or logical operations: ALU
+- Jump commands: Store the jump address to PC
+
+## Von Neumann Architecture
+
+The Von Neumann architecture is the dominant design for most general-purpose computers. It is
+Characterized by:
+
+1. **Single memory space**: Both data and instructions are stored in the same memory.
+2. **Single bus**: Data and instructions share the same pathway between memory and the CPU.
+3. **Sequential execution**: Instructions are processed one at a time in sequence.
+
+### Von Neumann vs Harvard Architecture
+
+| Feature    | Von Neumann                                     | Harvard                                                              |
+| ---------- | ----------------------------------------------- | -------------------------------------------------------------------- |
+| Memory     | Single unified memory for data and instructions | Separate memory spaces for data and instructions                     |
+| Bus        | Single bus (bottleneck for simultaneous access) | Separate buses for data and instructions                             |
+| Speed      | Slower due to bus contention                    | Faster — can fetch instruction and data simultaneously               |
+| Complexity | Simpler design, cheaper to manufacture          | More complex, more expensive                                         |
+| Usage      | Most general-purpose computers (PCs, laptops)   | Digital signal processors (DSPs), microcontrollers, embedded systems |
+
+> **Exam tip**: The IB may ask you to explain why the Von Neumann bottleneck exists. Answer: because
+> a single bus means the CPU cannot read an instruction and read/write data at the same time,
+> creating a performance limitation.
+
+## Binary and Number Systems
+
+### Representing Data in Binary
+
+All data in a computer is represented using binary digits (bits) — 0s and 1s.
+
+**Units of measurement:**
+
+| Unit          | Size                         |
+| ------------- | ---------------------------- |
+| Bit           | Single binary digit (0 or 1) |
+| Nibble        | 4 bits                       |
+| Byte          | 8 bits                       |
+| Kilobyte (KB) | 1024 bytes                   |
+| Megabyte (MB) | 1024 KB                      |
+| Gigabyte (GB) | 1024 MB                      |
+| Terabyte (TB) | 1024 GB                      |
+
+### Integer Representation
+
+**Unsigned integers** represent non-negative whole numbers:
+
+| Bits | Range              |
+| ---- | ------------------ |
+| 8    | 0 to 255           |
+| 16   | 0 to 65,535        |
+| 32   | 0 to 4,294,967,295 |
+
+**Two"s complement** is used to represent both positive and negative integers:
 
 | Bits | Range                           |
 | ---- | ------------------------------- |

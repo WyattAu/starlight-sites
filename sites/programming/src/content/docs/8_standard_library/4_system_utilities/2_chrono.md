@@ -1,6 +1,29 @@
 ---
 title: Chrono Library
-description: ""s epoch.
+description: "(C++11) provides types and functions for representing and manipulating time values. The library uses the type system to prevent accidental mixing of time..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+## The Chrono Library
+
+`std::chrono` (C++11) provides types and functions for representing and manipulating time values.
+The library uses the type system to prevent accidental mixing of time units. C++20 extended it with
+Calendar types (`year``month``day``year_month_day`) and timezone support (`zoned_time`). This
+Section covers clocks, durations, elapsed time measurement, calendar operations, and time point
+Formatting.
+
+### Overview
+
+`std::chrono` (C++11) provides types and functions for representing and manipulating time values
+[N4950 §29.5]. The library is organized around three core abstractions:
+
+1. **Clocks:** Sources of time (e.g., wall clock, monotonic clock).
+2. **Time points:** A specific moment in time relative to a clock"s epoch.
 3. **Durations:** A span of time (e.g., 500 milliseconds).
 
 The library uses the type system to prevent accidental mixing of units. `std::chrono::milliseconds`

@@ -1,6 +1,71 @@
 ---
 title: Human Physiology
-description: ""brush border"), further
+description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## 1. Digestion
+
+### Overview
+
+Digestion is the mechanical and chemical breakdown of food into small, soluble molecules that can be
+Absorbed across the intestinal wall into the blood or lymph.
+
+### Mechanical Digestion
+
+- **Mouth**: chewing (mastication) by teeth increases surface area; tongue mixes food with saliva.
+- **Stomach**: churning by muscular contractions mixes food with gastric juice.
+- **Small intestine**: peristalsis (rhythmic muscular contractions) propels and mixes chyme.
+
+### Chemical Digestion
+
+#### Mouth
+
+**Salivary amylase** (secreted by salivary glands, optimal pH $\approx 6.8$) hydrolyses starch into
+Maltose.
+
+#### Stomach
+
+**Gastric juice** contains:
+
+- **Hydrochloric acid** ($\mathrm{HCl}$PH $\approx 1.5$--$2.0$): denatures proteins, kills ingested
+  microorganisms, provides optimal pH for pepsin.
+- **Pepsin** (secreted as inactive **pepsinogen** by chief cells; activated by $\mathrm{HCl}$):
+  endopeptidase that hydrolyses peptide bonds, breaking proteins into polypeptides.
+- **Mucus** (secreted by goblet cells): forms a protective barrier against $\mathrm{HCl}$ and
+  pepsin.
+
+#### Small Intestine
+
+The majority of digestion occurs here. **Pancreatic juice** and **bile** are released into the
+Duodenum.
+
+| Enzyme             | Source                    | Substrate     | Products               | Optimal pH       |
+| ------------------ | ------------------------- | ------------- | ---------------------- | ---------------- |
+| Pancreatic amylase | Pancreas                  | Starch        | Maltose                | $\approx 7$--$8$ |
+| Trypsin            | Pancreas (as trypsinogen) | Polypeptides  | Smaller polypeptides   | $\approx 7$--$8$ |
+| Lipase             | Pancreas                  | Triglycerides | Fatty acids + glycerol | $\approx 7$--$8$ |
+| Maltase            | Intestinal wall           | Maltose       | Glucose                | $\approx 7$--$8$ |
+| Lactase            | Intestinal wall           | Lactose       | Glucose + galactose    | $\approx 7$--$8$ |
+| Sucrase            | Intestinal wall           | Sucrose       | Glucose + fructose     | $\approx 7$--$8$ |
+
+**Bile** (produced in the liver, stored in the gallbladder) emulsifies fats: bile salts break large
+Fat globules into smaller droplets, increasing the surface area for lipase action. Bile is not an
+Enzyme.
+
+#### Large Intestine
+
+Absorption of water and mineral ions. Undigested material forms faeces, eliminated via the rectum
+And anus.
+
+### Absorption
+
+The **small intestine** is the primary site of absorption. Adaptations for absorption:
+
+- **Villi**: finger-like projections of the intestinal wall, increasing surface area.
+- **Microvilli**: projections on the epithelial cells of villi (the "brush border"), further
   increasing surface area.
 - **Single layer of epithelial cells**: short diffusion distance.
 - **Dense capillary network**: maintains a steep concentration gradient.

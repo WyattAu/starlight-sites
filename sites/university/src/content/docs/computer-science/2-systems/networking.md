@@ -1,6 +1,75 @@
 ---
 title: Networking
-description: ""s theorem** (noisy channel):
+description: "| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User..."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Computer Science
+  - University
+categories:
+  - Computer Science
+---
+
+## 1. Network Models
+
+### 1.1 OSI Model (7 Layers)
+
+| Layer | Name         | Function                          | Examples                   |
+| ----- | ------------ | --------------------------------- | -------------------------- |
+| 7     | Application  | User interface, application logic | HTTP, DNS, SMTP, FTP       |
+| 6     | Presentation | Data formatting, encryption       | TLS/SSL, JPEG, ASCII       |
+| 5     | Session      | Dialog control, synchronization   | NetBIOS, RPC               |
+| 4     | Transport    | End-to-end reliability            | TCP, UDP                   |
+| 3     | Network      | Routing, logical addressing       | IP, ICMP, OSPF, BGP        |
+| 2     | Data Link    | Framing, error detection          | Ethernet, Wi-Fi, PPP       |
+| 1     | Physical     | Bit transmission over medium      | Cables, fiber, radio waves |
+
+### 1.2 TCP/IP Model (4 Layers)
+
+| TCP/IP Layer   | OSI Layers | Protocols                 |
+| -------------- | ---------- | ------------------------- |
+| Application    | 5, 6, 7    | HTTP, DNS, SMTP, FTP, TLS |
+| Transport      | 4          | TCP, UDP                  |
+| Internet       | 3          | IP, ICMP, ARP             |
+| Network Access | 1, 2       | Ethernet, Wi-Fi, MAC      |
+
+### 1.3 Encapsulation
+
+Each layer adds a header (and sometimes trailer) to the data from the layer above:
+
+```
+Application data
+→ [TCP header | Application data]
+→ [IP header | TCP header | Application data]
+→ [Ethernet header | IP header | TCP header | Application data | FCS]
+```
+
+## 2. Physical Layer
+
+### 2.1 Signals and Encoding
+
+**Analog signals:** Continuous, represented by sine waves. Parameters: amplitude, frequency, phase.
+
+**Digital signals:** Discrete (0s and 1s). Encoded as voltage levels.
+
+**Encoding schemes:**
+
+| Scheme                  | Description                                                |
+| ----------------------- | ---------------------------------------------------------- |
+| NRZ-L                   | High = 0, Low = 1 (or vice versa)                          |
+| NRZ-I                   | Transition at 1, no transition at 0                        |
+| Manchester              | Transition at midpoint: low→high = 1, high→low = 0         |
+| Differential Manchester | Transition at start of each bit; no mid-bit transition = 1 |
+| 4B/5B                   | 4 data bits encoded as 5 bits (80% efficiency)             |
+
+### 2.2 Bandwidth and Data Rate
+
+**Nyquist theorem** (noiseless channel):
+
+$$C = 2B \log_2 V$$
+
+where $B$ = bandwidth (Hz), $V$ = signal levels.
+
+**Shannon"s theorem** (noisy channel):
 
 $$C = B \log_2(1 + \text{SNR})$$
 

@@ -1,6 +1,108 @@
 ---
 title: Fold Expressions and Pack Expansion
-description: "" "), ...);
+description: "A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Fold Expressions and Pack Expansion
+
+A **fold expression** reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in
+C++17. Fold expressions come in four forms (unary left/right, binary left/right) and provide a
+Concise, readable way to perform operations across all elements of a parameter pack without manual
+Recursion.
+
+## Formal Grammar and Semantics [N4950 §7.6.1]
+
+The grammar for fold expressions is defined in [N4950 §7.6.1]:
+
+```
+fold-expression:
+    ( cast-expression fold-operator ... )
+    ( ... fold-operator cast-expression )
+    ( cast-expression fold-operator ... fold-operator cast-expression )
+```
+
+The three productions correspond to:
+
+1. **Unary right fold:** `(pack op ...)`
+2. **Unary left fold:** `(... op pack)`
+3. **Binary fold:** `(pack op ... op init)` or `(init op ... op pack)`
+
+A fold expression has the following semantics:
+
+1. The pack is expanded to produce $N$ operands (where $N$ is the pack size).
+2. The binary operator is applied to combine the operands according to the fold direction.
+3. If the pack is empty, the result depends on the operator (see Empty Pack Behavior).
+
+The expansion produces an expression tree whose shape is determined by the fold direction and the
+Associativity of the operator.
+
+## Fold Expressions
+
+A **fold expression** reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in
+C++17. Fold expressions come in four forms:
+
+$$
+\mathrm{unary right fold:  (pack \ op \ ...)
+$$
+
+$$
+\mathrm{unary left fold:  (\ldots \ op \ pack)
+$$
+
+$$
+\mathrm{binary right fold:  (pack \ op \ \ldots \ op \ init)
+$$
+
+$$
+\mathrm{binary left fold:  (init \ op \ \ldots \ op \ pack)
+$$
+
+```cpp
+#include <iostream>
+#include <concepts>
+#include <type_traits>
+
+// Sum all arguments: unary right fold
+template <typename... Args>
+auto sum(Args... args) {
+    return (args + ...);
+}
+
+// Product with initial value: binary left fold
+template <typename... Args>
+auto product(Args... args) {
+    return (1 * ... * args);  // binary left fold with init = 1
+}
+
+// All-true predicate using fold expression
+template <typename... Args>
+constexpr bool all_true(Args... args) {
+    return (args && ...);
+}
+
+// Any-true predicate
+template <typename... Args>
+constexpr bool any_true(Args... args) {
+    return (args || ...);
+}
+
+// Push all elements into a vector: fold over comma operator
+template <typename T, typename... Args>
+void push_all(std::vector<T>& vec, Args&&... args) {
+    (vec.push_back(std::forward<Args>(args)), ...);
+    // This is a unary right fold over the comma operator.
+}
+
+// Print all arguments
+template <typename... Args>
+void print_all(Args&&... args) {
+    ((std::cout << args << " "), ...);
     std::cout << "\n";
 }
 

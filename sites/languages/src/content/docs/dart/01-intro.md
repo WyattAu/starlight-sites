@@ -1,6 +1,20 @@
 ---
 title: Introduction to Dart & Flutter
-description: ""godbolt-container">
+description: "This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble"
+
+---
+
+## Abstract
+
+This resource is created as a aggregation of best practices in Dart and Flutter listed as a
+Tutorial.
+
+:::info
+
+Different from other languages, the Flutter aspect is important, and GUI presentation is important,
+Therefore when Dart code uses Flutter, compiler explorer cannot be used and Dartpad will be used.
+
+<div className="godbolt-container">
  <iframe
  width="100%"
  height="800"

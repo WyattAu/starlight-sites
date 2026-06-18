@@ -1,6 +1,153 @@
 ---
 title: Proof
-description: ""all integers" or "all real numbers."
+description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------------------- | | AQA | Paper 1 | Proof by deduction,..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper      | Notes                                                         |
+| ---------- | ---------- | ------------------------------------------------------------- |
+| AQA        | Paper 1    | Proof by deduction, contradiction, exhaustion, counterexample |
+| Edexcel    | P1, P2     | Similar; induction in P2                                      |
+| OCR (A)    | Paper 1, 2 | Proof is integrated throughout                                |
+| CIE (9709) | P1, P2, P3 | Various methods across papers                                 |
+
+:::info Proof questions appear on every paper. You must be able to identify the appropriate proof
+Method and execute it , with every step justified.
+:::
+
+<hr />
+
+## 1. Proof by Deduction
+
+### 1.1 Method
+
+Proof by deduction starts from known axioms, definitions, or previously proved results, and uses
+Logical steps to arrive at the desired conclusion.
+
+### 1.2 Example: the sum of an arithmetic series
+
+**Theorem.** $S_n = \dfrac{n}{2}(a + l) = \dfrac{n}{2}[2a + (n-1)d]$.
+
+**Proof.** Write out the sum forwards and backwards:
+
+$$
+\begin{aligned}
+S_n &= a + (a+d) + (a+2d) + \cdots + (a+(n-1)d) \\
+S_n &= (a+(n-1)d) + (a+(n-2)d) + \cdots + a
+\end{aligned}
+$$
+
+Adding the two rows term by term, each pair sums to $2a + (n-1)d$And there are $n$ such pairs:
+
+$$2S_n = n[2a + (n-1)d] \implies S_n = \frac{n}{2}[2a + (n-1)d] \quad \blacksquare$$
+
+### 1.3 Example: the difference of squares
+
+**Theorem.** $a^2 - b^2 = (a-b)(a+b)$ for all $a, b \in \mathbb{R}$.
+
+**Proof.** Expanding the right-hand side:
+
+$$(a-b)(a+b) = a^2 + ab - ab - b^2 = a^2 - b^2 \quad \blacksquare$$
+
+<hr />
+
+## 2. Proof by Contradiction
+
+### 2.1 Method
+
+To prove a statement $P$ by contradiction:
+
+1. Assume $\neg P$ (the negation of $P$).
+2. Derive a logical contradiction.
+3. Conclude that $P$ must be true.
+
+### 2.2 Infinitely many primes
+
+**Theorem (Euclid).** There are infinitely many prime numbers.
+
+**Proof.** Suppose, for contradiction, that there are only finitely many primes:
+$p_1, p_2, \ldots, p_n$.
+
+Consider $N = p_1 p_2 \cdots p_n + 1$.
+
+- $N$ is not divisible by any $p_i$: if $p_i \mid N$Then $p_i \mid (N - p_1 \cdots p_n) = 1$ which
+  is impossible since $p_i \geq 2$.
+
+So $N$ is either prime itself or divisible by a prime not in our list. Either way, there exists a
+Prime not among $p_1, \ldots, p_n$. This contradicts our assumption that the list was complete.
+$\blacksquare$
+
+### 2.3 $\sqrt{2}$ is irrational
+
+**Theorem.** $\sqrt{2}$ is irrational.
+
+**Proof.** Suppose $\sqrt{2} = \dfrac{a}{b}$ where $a, b \in \mathbb{Z}$, $b \neq 0$And
+$\gcd(a,b) = 1$ (the fraction is in lowest terms).
+
+$$2 = \frac{a^2}{b^2} \implies a^2 = 2b^2$$
+
+So $a^2$ is even, which means $a$ is even (since the square of an odd number is odd). Write
+$a = 2k$.
+
+$$(2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2$$
+
+So $b^2$ is even, meaning $b$ is even. But then $\gcd(a,b) \geq 2$Contradicting $\gcd(a,b) = 1$.
+$\blacksquare$
+
+### 2.4 $\log_2 3$ is irrational
+
+**Theorem.** $\log_2 3$ is irrational.
+
+**Proof.** Suppose $\log_2 3 = \dfrac{a}{b}$ where $a, b \in \mathbb{Z}^+$ and $\gcd(a,b) = 1$.
+
+$$2^{a/b} = 3 \implies 2^a = 3^b$$
+
+Since $2^a$ is even and $3^b$ is odd, this is a contradiction. $\blacksquare$
+
+<hr />
+
+## 3. Proof by Exhaustion
+
+### 3.1 Method
+
+When the number of cases is finite and small enough, prove each case individually.
+
+### 3.2 Example: primes less than 10
+
+**Claim.** All primes less than 10 are odd.
+
+**Proof.** The primes less than 10 are: 2, 3, 5, 7.
+
+- 2 is even (the only even prime).
+- 3, 5, 7 are odd.
+
+So not all primes less than 10 are odd. The claim is **false**. The counterexample is 2.
+
+### 3.3 Example: sum of two squares
+
+**Claim.** For all integers $n$ with $1 \leq n \leq 5$, $n^2 + (n+1)^2$ is odd.
+
+**Proof.** Check each case:
+
+| $n$ | $n^2 + (n+1)^2$ | Odd? |
+| --- | --------------- | ---- |
+| 1   | 1 + 4 = 5       | Yes  |
+| 2   | 4 + 9 = 13      | Yes  |
+| 3   | 9 + 16 = 25     | Yes  |
+| 4   | 16 + 25 = 41    | Yes  |
+| 5   | 25 + 36 = 61    | Yes  |
+
+All five cases confirmed. $\blacksquare$
+
+> **Caution:** Warning Manageable. You cannot use exhaustion for "all integers" or "all real numbers."
 <hr />
 
 ## 4. Disproof by Counterexample

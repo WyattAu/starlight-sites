@@ -1,6 +1,142 @@
 ---
 title: Atomic Structure & Periodicity
-description: ""s Rule
+description: "Atoms consist of three principal subatomic particles. Their properties are summa Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-21T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Atomic Structure & Periodicity
+
+## Subatomic Particles
+
+Atoms consist of three principal subatomic particles. Their properties are summarised below.
+
+| Property        | Proton                   | Neutron         | Electron                     |
+| --------------- | ------------------------ | --------------- | ---------------------------- |
+| Symbol          | $p$ or $p^+$             | $n$ or $n^0$    | $e^-$                        |
+| Relative charge | $+1$                     | $0$             | $-1$                         |
+| Charge (C)      | $+1.602 \times 10^{-19}$ | $0$             | $-1.602 \times 10^{-19}$     |
+| Relative mass   | $1.00728$                | $1.00867$       | $0.00055$ ($\approx 1/1836$) |
+| Location        | Nucleus                  | Nucleus         | Electron shells / orbitals   |
+| Spin            | $+\tfrac{1}{2}$          | $+\tfrac{1}{2}$ | $+\tfrac{1}{2}$              |
+
+The **atomic number** (proton number) $Z$ defines the element. The **mass number** $A = Z + N$Where
+$N$ is the neutron number. The notation is:
+
+$$
+^{A}_{Z}\mathrm{X}
+$$
+
+## Isotopes
+
+Isotopes are atoms of the same element (same $Z$) with different neutron numbers (different $A$).
+Chemical properties are virtually identical because they share the same electron configuration.
+Physical properties (melting point, density, reaction rate) differ slightly due to mass effects.
+
+### Relative Atomic Mass ($A_r$)
+
+The relative atomic mass is the weighted mean of the isotopic masses, weighted by their natural
+abundances:
+
+$$
+A_r(\mathrm{X}) = \frac◆LB◆\sum_i m_i \cdot a_i◆RB◆◆LB◆\sum_i a_i◆RB◆
+$$
+
+Where $m_i$ is the isotopic mass and $a_i$ is the relative abundance of isotope $i$.
+
+**Worked Example.** Chlorine has two stable isotopes: $^{35}\mathrm{Cl}$ (75.77%,
+$m = 34.969\,\mathrm{u}$) and $^{37}\mathrm{Cl}$ (24.23%, $m = 36.966\,\mathrm{u}$).
+
+$$
+A_r(\mathrm{Cl}) = \frac{(34.969)(75.77) + (36.966)(24.23)}{100} = \frac{2650.4 + 895.3}{100} = 35.45
+$$
+
+### Relative Molecular Mass ($M_r$)
+
+For a compound with formula $\mathrm{X}_a\mathrm{Y}_b$:
+
+$$
+M_r = a \cdot A_r(\mathrm{X}) + b \cdot A_r(\mathrm{Y})
+$$
+
+## Mass Spectrometry
+
+Mass spectrometry separates ions by their mass-to-charge ratio ($m/z$). The stages are:
+
+1. **Vaporisation** -- sample converted to gaseous state.
+2. **Ionisation** -- by electron impact (EI): a high-energy electron beam ejects an electron from
+   the sample molecule, producing a molecular ion $\mathrm{M}^{+\bullet}$.
+3. **Acceleration** -- ions accelerated through a potential difference $V$Gaining kinetic energy
+   $\tfrac{1}{2}mv^2 = zVe$.
+4. **Deflection** -- a magnetic field $B$ deflects ions into a curved path of radius $r$:
+
+$$
+R = \frac◆LB◆\sqrt{2mV/z}◆RB◆◆LB◆B◆RB◆
+$$
+
+Lighter ions (lower $m/z$) are deflected more. The detector records the abundance at each $m/z$.
+
+5. **Detection** -- ions strike the detector, generating a current proportional to their abundance.
+
+### Interpreting Mass Spectra
+
+- The **molecular ion peak** ($\mathrm{M}^{+\bullet}$) gives the relative molecular mass.
+- Fragmentation produces characteristic peaks. For example, $\mathrm{CH}_4^{+\bullet}$ at
+  $m/z = 16$; $\mathrm{CH}_3^+$ at $m/z = 15$.
+- The **base peak** is the most intense signal (assigned 100% relative abundance).
+
+**Worked Example.** A compound shows a molecular ion peak at $m/z = 78$ and a base peak at
+$m/z = 77$. The M+1 peak at $m/z = 79$ has 6.4% of the molecular ion intensity. This is consistent
+with benzene ($\mathrm{C}_6\mathrm{H}_6$, $M_r = 78$). The M+1 peak intensity
+($\approx 6 \times 1.1\% = 6.6\%$) confirms six carbon atoms.
+
+## Electron Configuration
+
+### Quantum Numbers
+
+Each electron in an atom is described by four quantum numbers:
+
+| Quantum Number | Symbol   | Values                          | Describes                                 |
+| -------------- | -------- | ------------------------------- | ----------------------------------------- |
+| Principal      | $n$      | $1, 2, 3, \ldots$               | Energy level / shell                      |
+| Azimuthal      | $\ell$   | $0, 1, \ldots, n-1$             | Subshell type ($0 = s$, $1 = p$, $2 = d$) |
+| Magnetic       | $m_\ell$ | $-\ell, -\ell+1, \ldots, +\ell$ | Orbital orientation                       |
+| Spin           | $m_s$    | $+\tfrac{1}{2}, -\tfrac{1}{2}$  | Electron spin direction                   |
+
+### Subshell Capacities
+
+| Subshell | $\ell$ | Orbitals | Max Electrons |
+| -------- | ------ | -------- | ------------- |
+| $s$      | $0$    | $1$      | $2$           |
+| $p$      | $1$    | $3$      | $6$           |
+| $d$      | $2$    | $5$      | $10$          |
+| $f$      | $3$    | $7$      | $14$          |
+
+The maximum number of electrons in shell $n$ is $2n^2$.
+
+### Aufbau Principle
+
+Electrons occupy the lowest energy subshells first. The filling order is:
+
+$$
+1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p \lt 7s
+$$
+
+The $4s$ subshell fills before $3d$ because its energy is lower for $Z \le 20$. For $Z \gt 20$The
+energies shift and $3d$ becomes lower -- this is important for transition metals (see
+[Transition Metals](./transition-metals)).
+
+### Pauli Exclusion Principle
+
+No two electrons in the same atom can have the same set of four quantum numbers. Consequently, each
+orbital holds at most two electrons, with opposite spins.
+
+### Hund"s Rule
 
 Within a given subshell, electrons occupy degenerate orbitals singly first, with parallel spins,
 before pairing. This minimises electron-electron repulsion and maximises total spin.

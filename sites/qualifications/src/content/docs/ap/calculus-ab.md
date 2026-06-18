@@ -1,6 +1,77 @@
 ---
 title: AP Calculus AB Study Guide
-description: ""Hopital's Rule
+description: "Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,..."
+date: 2026-05-31
+tags:
+  - ap
+  - ap-maths
+categories:
+  - ap-maths
+
+---
+
+# AP Calculus AB Study Guide
+
+Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam
+Description. Covers all AB-only topics: limits, derivatives, integrals, and differential equations.
+
+## 1. Limits and Continuity
+
+### Intuitive Definition of a Limit
+
+The limit of $f(x)$ as $x$ approaches $a$ is $L$ if $f(x)$ can be made arbitrarily close to $L$ by
+taking $x$ sufficiently close to $a$ (but not equal to $a$):
+
+$$
+\lim_{x \to a} f(x) = L
+$$
+
+A two-sided limit exists if and only if both one-sided limits exist and are equal:
+
+$$
+\lim_{x \to a} f(x) = L \iff \lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L
+$$
+
+### Limit Laws
+
+If $\lim_{x \to a} f(x)$ and $\lim_{x \to a} g(x)$ both exist, then:
+
+| Law               | Expression                                                        |
+| ----------------- | ----------------------------------------------------------------- |
+| Sum               | $\lim (f + g) = \lim f + \lim g$                                  |
+| Difference        | $\lim (f - g) = \lim f - \lim g$                                  |
+| Product           | $\lim (fg) = (\lim f)(\lim g)$                                    |
+| Quotient          | $\lim (f / g) = \dfrac{\lim f}{\lim g}$, provided $\lim g \neq 0$ |
+| Power             | $\lim f^n = (\lim f)^n$                                           |
+| Constant multiple | $\lim cf = c \lim f$                                              |
+
+### Squeeze Theorem
+
+If $g(x) \leq f(x) \leq h(x)$ for all $x$ near $a$ (except possibly at $a$), and
+$\lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L$, then $\lim_{x \to a} f(x) = L$.
+
+Commonly used to evaluate $\displaystyle\lim_{x \to 0} \frac{\sin x}{x} = 1$.
+
+### Continuity
+
+A function $f$ is **continuous** at $x = a$ if all three conditions are met:
+
+1. $f(a)$ is defined
+2. $\displaystyle\lim_{x \to a} f(x)$ exists
+3. $\displaystyle\lim_{x \to a} f(x) = f(a)$
+
+Types of discontinuity:
+
+- **Removable:** A hole in the graph (limit exists but function is undefined or unequal)
+- **Jump:** Left and right limits exist but are not equal
+- **Infinite (essential):** A vertical asymptote (function approaches $\pm\infty$)
+
+### Intermediate Value Theorem (IVT)
+
+If $f$ is continuous on $[a, b]$ and $N$ is any value between $f(a)$ and $f(b)$, then there exists
+at least one $c \in (a, b)$ such that $f(c) = N$.
+
+### L"Hopital's Rule
 
 If $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)}$ produces an indeterminate form $\frac{0}{0}$ or
 $\frac{\pm\infty}{\pm\infty}$, then:

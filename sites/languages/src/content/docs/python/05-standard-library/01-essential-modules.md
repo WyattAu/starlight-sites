@@ -1,6 +1,27 @@
 ---
 title: Essential Modules
-description: ""config.json')`. The equivalent `Path`
+description: "The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths...."
+date: 2025-06-04T14:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## `os` and `pathlib`: File System Operations
+
+### The Case for `pathlib` Over `os.path`
+
+The `os.path` module is a collection of free functions that operate on path strings. It was designed
+In an era before Python had a coherent object model for paths. `pathlib` (Python 3.4+) replaces this
+With an object-oriented API where a `Path` instance represents a single filesystem path.
+
+The argument for `pathlib` is not aesthetic preference. It is about **composability** and
+**correctness**:
+
+1. **Method chaining.** `os.path` requires you to thread a string through successive function calls:
+   `os.path.join(os.path.dirname(os.path.abspath(p)), "config.json')`. The equivalent `Path`
    expression is `Path(p).resolve().parent / 'config.json'`. The `/` operator is overloaded on
    `PurePosixPath` and `PureWindowsPath` to join path components, which reads as natural composition
    rather than nested function calls.

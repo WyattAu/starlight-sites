@@ -3,7 +3,48 @@ title: Graph Theory
 tags:
   - Computing
   - University
-description: ""s Formula.** The number of labelled trees on $n$ vertices is $n^{n-2}$.
+description: "A consists of a set of vertices and a set of edges Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 5.1 Definitions
+
+A **graph** $G = (V, E)$ consists of a set of vertices $V$ and a set of edges
+$E \subseteq V \times V$.
+
+- **Simple graph:** no loops, no multiple edges.
+- **Directed graph (digraph):** edges have direction.
+- **Weighted graph:** edges have weights.
+
+The **degree** of a vertex $v$, $\deg(v)$Is the number of edges incident to $v$.
+
+**Theorem 5.1 (Handshaking Lemma).** $\sum_{v \in V} \deg(v) = 2|E|$.
+
+_Proof._ Each edge contributes 1 to the degree of each of its two endpoints. $\blacksquare$
+
+**Corollary 5.2.** The number of vertices of odd degree is even.
+
+### 5.2 Paths, Cycles, and Connectivity
+
+A **walk** is a sequence of vertices where consecutive vertices are adjacent. A **path** is a walk
+With no repeated vertices. A **cycle** is a path that returns to its starting vertex.
+
+A graph is **connected** if there is a path between every pair of vertices. A **connected
+component** Is a maximal connected subgraph.
+
+**Theorem 5.3.** A graph with $n$ vertices and more than $(n-1)(n-2)/2$ edges is connected.
+
+### 5.3 Trees
+
+A **tree** is a connected acyclic graph. A **forest** is a disjoint union of trees.
+
+**Theorem 5.4.** For a graph $G$ with $n$ vertices, the following are equivalent:
+
+1. $G$ is a tree.
+2. $G$ is connected and has $n - 1$ edges.
+3. $G$ is acyclic and has $n - 1$ edges.
+4. Between any two vertices, there is exactly one path.
+
+**Cayley"s Formula.** The number of labelled trees on $n$ vertices is $n^{n-2}$.
 
 ### 5.4 Planarity
 

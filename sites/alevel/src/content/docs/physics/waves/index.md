@@ -1,6 +1,33 @@
 ---
 title: Waves
-description: ""s double slit: fringe spacing
+description: "A-Level Physics Waves notes covering key definitions, core concepts, worked examples, and practice questions for complete exam preparation and revision."
+---
+
+# Waves
+
+Waves transfer energy without transferring matter. Understanding wave behaviour — including
+reflection, refraction, diffraction, interference, and the wave-particle duality — is essential for
+explaining phenomena from sound to light to quantum mechanics.
+
+## Topics Covered
+
+### Wave Properties
+
+- **Progressive waves** — transverse (displacement perpendicular to propagation: light,
+  electromagnetic) vs. longitudinal (displacement parallel to propagation: sound)
+- **Wave terms** — amplitude, wavelength $\lambda$, frequency $f$, period $T = \frac{1}{f}$, wave
+  speed $v = f\lambda$
+- **Phase and phase difference** — in phase ($\Delta\phi = 0$ or $2\pi$), antiphase
+  ($\Delta\phi = \pi$); path difference $\Delta x = \frac{\lambda \Delta\phi}{2\pi}$
+- **Electromagnetic spectrum** — radio, microwave, infrared, visible, ultraviolet, X-ray, gamma; all
+  travel at $c = 3.0 \times 10^8\,\text{m/s}$ in a vacuum
+
+### Superposition and Interference
+
+- **Principle of superposition** — resultant displacement is the sum of individual displacements
+- **Constructive interference** — path difference $= n\lambda$; amplitudes add
+- **Destructive interference** — path difference $= (n + \frac{1}{2})\lambda$; amplitudes cancel
+- **Two-source interference** — Young"s double slit: fringe spacing
   $\Delta y = \frac{\lambda D}{s}$; coherent sources required
 - **Diffraction gratings** — $d\sin\theta = n\lambda$; calculating wavelength or grating spacing;
   resolving power

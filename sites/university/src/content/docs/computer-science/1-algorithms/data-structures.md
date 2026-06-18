@@ -1,6 +1,97 @@
 ---
 title: Data Structures
-description: ""underflow"
+description: "An is a contiguous block of memory storing elements of the same type, accessed b Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Computer Science
+  - University
+categories:
+  - Computer Science
+---
+
+## 1. Arrays and Linked Lists
+
+### 1.1 Arrays
+
+An **array** is a contiguous block of memory storing elements of the same type, accessed by index in
+$O(1)$ time.
+
+**Operations:**
+
+| Operation       | Time             |
+| --------------- | ---------------- |
+| Access by index | $O(1)$           |
+| Search          | $O(n)$           |
+| Insert at end   | $O(1)$ amortized |
+| Insert at front | $O(n)$           |
+| Delete at index | $O(n)$           |
+
+**Dynamic arrays** (e.g., Python `list`, C++ `vector`) double capacity when full:
+
+```
+INSERT(arr, x):
+    if arr.size == arr.capacity:
+        new_cap = 2 * arr.capacity
+        copy arr to new array of size new_cap
+        arr.capacity = new_cap
+    arr[arr.size] = x
+    arr.size += 1
+```
+
+### 1.2 Linked Lists
+
+A **linked list** stores elements in nodes, each containing data and a pointer to the next node.
+
+**Singly Linked List:**
+
+```
+NODE = { data, next }
+
+INSERT_HEAD(list, x):
+    node = NODE(x, list.head)
+    list.head = node
+
+DELETE(list, x):
+    prev = null
+    curr = list.head
+    while curr != null and curr.data != x:
+        prev = curr
+        curr = curr.next
+    if curr != null:
+        if prev == null:
+            list.head = curr.next
+        else:
+            prev.next = curr.next
+```
+
+**Doubly Linked List:**
+
+```
+NODE = { data, prev, next }
+```
+
+| Operation       | Array  | Singly LL | Doubly LL |
+| --------------- | ------ | --------- | --------- |
+| Access by index | $O(1)$ | $O(n)$    | $O(n)$    |
+| Insert at head  | $O(n)$ | $O(1)$    | $O(1)$    |
+| Delete at node  | $O(n)$ | $O(n)$\*  | $O(1)$    |
+| Search          | $O(n)$ | $O(n)$    | $O(n)$    |
+
+\*Requires pointer to predecessor unless node pointer given.
+
+## 2. Stacks and Queues
+
+### 2.1 Stacks
+
+A **stack** follows LIFO (Last In, First Out) order.
+
+```
+PUSH(stack, x):
+    stack.top += 1
+    stack[stack.top] = x
+
+POP(stack):
+    if stack.top == -1: error "underflow"
     x = stack[stack.top]
     stack.top -= 1
     return x

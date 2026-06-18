@@ -1,6 +1,127 @@
 ---
 title: "Integration -- Diagnostic Tests"
-description: ""s answer: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ \approx 1.5708$.
+description: "A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
+tableOfContents: false
+---
+
+# Integration — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for integration.
+
+### UT-1: Integration by Parts — Choosing $u$ and $\frac{dv}{dx}$ Correctly
+
+**Question:**
+
+**(a)** Find $\int x^3 \ln x\, dx$.
+
+**(b)** A student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$ for integration by parts. Explain
+why this choice is problematic, and show what happens if the student persists with it.
+
+**(c)** Using your result from part (a), evaluate $\int_1^e x^3 \ln x\, dx$ exactly.
+
+[Difficulty: hard. Tests the LIATE priority rule for integration by parts, and the consequences of
+choosing the wrong assignment.]
+
+**Solution:**
+
+**(a)** By LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential), $\ln x$ is
+prioritised for $u$.
+
+Set $u = \ln x$, $\frac{dv}{dx} = x^3$.
+
+$du = \frac{1}{x}\, dx$, $v = \frac{x^4}{4}$.
+
+$$\int x^3 \ln x\, dx = \frac{x^4}{4}\ln x - \int \frac{x^4}{4} \cdot \frac{1}{x}\, dx$$
+
+$$= \frac{x^4}{4}\ln x - \frac{1}{4}\int x^3\, dx$$
+
+$$= \frac{x^4}{4}\ln x - \frac{x^4}{16} + C$$
+
+$$= \frac{x^4}{16}(4\ln x - 1) + C$$
+
+**(b)** If the student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$:
+
+$du = 3x^2\, dx$But $v = \int \ln x\, dx = x\ln x - x$ (which itself requires integration by parts
+to find).
+
+Then:
+
+$$\int x^3 \ln x\, dx = x^3(x\ln x - x) - \int 3x^2(x\ln x - x)\, dx$$
+
+$$= x^4\ln x - x^4 - 3\int x^3\ln x\, dx + 3\int x^3\, dx$$
+
+$$= x^4\ln x - x^4 - 3\int x^3\ln x\, dx + \frac{3x^4}{4}$$
+
+This produces an equation involving the original integral:
+
+$$\int x^3\ln x\, dx = x^4\ln x - \frac{x^4}{4} - 3\int x^3\ln x\, dx$$
+
+$$4\int x^3\ln x\, dx = x^4\ln x - \frac{x^4}{4}$$
+
+$$\int x^3\ln x\, dx = \frac{x^4}{4}\ln x - \frac{x^4}{16}$$
+
+This eventually works but requires more steps and an additional integration by parts just to find
+$v$. The LIATE choice is more efficient.
+
+**(c)** $\int_1^e x^3\ln x\, dx = \left[\frac{x^4}{16}(4\ln x - 1)\right]_1^e$
+
+At $x = e$: $\frac{e^4}{16}(4 - 1) = \frac{3e^4}{16}$
+
+At $x = 1$: $\frac{1}{16}(0 - 1) = -\frac{1}{16}$
+
+$$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
+
+---
+
+### UT-2: Forgetting to Change Limits in Definite Integration by Substitution
+
+**Question:**
+
+**(a)** Evaluate $\int_0^1 x\sqrt{1 + x^2}\, dx$ using the substitution $u = 1 + x^2$.
+
+**(b)** A student uses the substitution $u = 1 + x^2$ but forgets to change the limits. The student
+computes the indefinite integral, then substitutes $x = 0$ and $x = 1$ back into the $x$-expression.
+Show that this approach gives the correct answer, and explain why this works in this particular
+case.
+
+**(c)** A second student evaluates $\int_0^{\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆} x\cos x\, dx$ by integration
+by parts and obtains $x\sin x + \cos x + C$. They then write
+$\int_0^{\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆} x\cos x\, dx = \left[\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆\sin\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + \cos\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆\right] - [0 + \cos 0] = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - 1$.
+A third student forgets to evaluate the lower limit and writes only
+$\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ + 0 = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$. What percentage error does the third
+student make?
+
+[Difficulty: hard. Tests the boundary between when forgetting to change limits produces errors
+versus when back-substitution rescues the answer, and lower-limit negligence.]
+
+**Solution:**
+
+**(a)** $u = 1 + x^2$, $du = 2x\, dx$So $x\, dx = \frac{1}{2}\, du$.
+
+When $x = 0$: $u = 1$. When $x = 1$: $u = 2$.
+
+$$\int_0^1 x\sqrt{1+x^2}\, dx = \int_1^2 \sqrt{u} \cdot \frac{1}{2}\, du = \frac{1}{2}\int_1^2 u^{1/2}\, du$$
+
+$$= \frac{1}{2}\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{1}{3}(2^{3/2} - 1) = \frac{1}{3}(2\sqrt{2} - 1)$$
+
+**(b)** The indefinite integral (back-substituted) is:
+
+$$\frac{1}{3}(1+x^2)^{3/2} + C$$
+
+Evaluating from $x = 0$ to $x = 1$:
+
+$$\frac{1}{3}(2^{3/2}) - \frac{1}{3}(1^{3/2}) = \frac◆LB◆2\sqrt{2} - 1◆RB◆◆LB◆3◆RB◆$$
+
+This gives the same answer as part (a). Back-substitution always works because it restores the
+original variable, and the Fundamental Theorem of Calculus applies regardless of which variable is
+used. The error of forgetting limits occurs only when the student evaluates in $u$-space with the
+original $x$-limits (e.g., evaluating $\frac{1}{3}u^{3/2}$ from $u = 0$ to $u = 1$Which is wrong).
+
+**(c)** Correct answer: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - 1 \approx 0.5708$.
+
+Third student"s answer: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ \approx 1.5708$.
 
 $$\text{Percentage error} = \frac◆LB◆\lvert\frac{\pi}{2} - (\frac{\pi}{2} - 1)\rvert◆RB◆◆LB◆\lvert\frac{\pi}{2} - 1\rvert◆RB◆ \times 100\% = \frac◆LB◆1◆RB◆◆LB◆\frac{\pi}{2} - 1◆RB◆ \times 100\% \approx 175.2\%$$
 

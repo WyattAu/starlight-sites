@@ -1,6 +1,57 @@
 ---
 title: Explicit and Partial Specialization
-description: ""\n";  // false
+description: "Specialization allows you to provide alternative implementations for specific sets of template Arguments. replaces the primary template entirely for a..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Explicit and Partial Specialization
+
+Specialization allows you to provide alternative implementations for specific sets of template
+Arguments. **Full specialization** replaces the primary template entirely for a specific type, while
+**partial specialization** provides a pattern-matched alternative that the compiler selects using
+Partial ordering rules.
+
+## Full Specialization
+
+**Full (explicit) specialization** provides a completely separate definition for a specific set of
+Template arguments [N4950 S13.7.5]. The general template is called the **primary template**.
+
+```cpp
+#include <iostream>
+#include <type_traits>
+#include <string>
+
+// Primary template [N4950 S13.7.5]
+template <typename T, typename U>
+struct is_same {
+    static constexpr bool value = false;
+};
+
+// Full specialization for T == U
+template <typename T>
+struct is_same<T, T> {
+    static constexpr bool value = true;
+};
+
+// The standard library version is std::is_same_v [N4950 S20.15.4.3].
+
+template <typename T, typename U>
+inline constexpr bool is_same_v = is_same<T, U>::value;
+
+int main() {
+    static_assert(!is_same_v<int, double>);
+    static_assert(is_same_v<int, int>);
+    static_assert(is_same_v<const int, const int>);
+    static_assert(!is_same_v<int, const int>);
+    static_assert(is_same_v<std::string, std::string>);
+
+    std::cout << std::boolalpha;
+    std::cout << is_same_v<int, double> << "\n";  // false
     std::cout << is_same_v<int, int> << "\n";     // true
 }
 ```

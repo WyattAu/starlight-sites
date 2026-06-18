@@ -1,6 +1,85 @@
 ---
 title: Atomic Structure and Periodicity
-description: ""s mass. Nuclear
+description: "Rigorous IB chemistry notes covering Atomic Structure and Periodicity. Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - Chemistry
+categories:
+  - ib
+---
+
+## 1. Atomic Structure
+
+### Subatomic Particles
+
+Atoms consist of three subatomic particles. Their properties define the behaviour of every element:
+
+| Property        | Proton    | Neutron   | Electron         |
+| --------------- | --------- | --------- | ---------------- |
+| Symbol          | $p^+$     | $n^0$     | $e^-$            |
+| Relative mass   | $1$       | $1$       | $\approx 1/1836$ |
+| Actual mass (u) | $1.00728$ | $1.00867$ | $0.00055$        |
+| Charge          | $+1$      | $0$       | $-1$             |
+| Location        | Nucleus   | Nucleus   | Electron shells  |
+
+**Definition.** The **atomic number** ($Z$) is the number of protons in the nucleus. It uniquely
+Identifies an element.
+
+**Definition.** The **mass number** ($A$) is the total number of protons and neutrons in the
+Nucleus:
+
+$$
+A = Z + N
+$$
+
+Where $N$ is the neutron number.
+
+**Definition.** A **nuclide** is a specific atom characterised by its atomic number, mass number,
+And energy state, denoted as $\prescript{A}{Z}\mathrm{X}$.
+
+### Isotopes
+
+**Definition.** **Isotopes** are atoms of the same element (same $Z$) with different numbers of
+Neutrons (different $A$).
+
+Isotopes have identical chemical properties (same electron configuration) but different physical
+Properties (different mass, different nuclear stability).
+
+| Element  | Isotope                  | $Z$  | $A$  | $N$  | Natural Abundance   |
+| -------- | ------------------------ | ---- | ---- | ---- | ------------------- |
+| Hydrogen | $\mathrm{H}$ (protium)   | $1$  | $1$  | $0$  | $99.985\%$          |
+| Hydrogen | $\mathrm{D}$ (deuterium) | $1$  | $2$  | $1$  | $0.015\%$           |
+| Hydrogen | $\mathrm{T}$ (tritium)   | $1$  | $3$  | $2$  | Trace (radioactive) |
+| Carbon   | $\mathrm{C}$-12          | $6$  | $12$ | $6$  | $98.89\%$           |
+| Carbon   | $\mathrm{C}$-13          | $6$  | $13$ | $7$  | $1.11\%$            |
+| Carbon   | $\mathrm{C}$-14          | $6$  | $14$ | $8$  | Trace (radioactive) |
+| Chlorine | $\mathrm{Cl}$-35         | $17$ | $35$ | $18$ | $75.77\%$           |
+| Chlorine | $\mathrm{Cl}$-37         | $17$ | $37$ | $20$ | $24.23\%$           |
+
+### Relative Atomic Mass
+
+**Definition.** The **relative atomic mass** ($A_r$) is the weighted average mass of an atom of an
+Element relative to $1/12$ the mass of a carbon-12 atom, taking into account the natural abundances
+Of all isotopes.
+
+$$
+A_r = \sum_{i} (\mathrm{isotope mass})_i \times (\mathrm{fractional abundance})_i
+$$
+
+:::info[Example — Chlorine]
+
+Chlorine has two occurring isotopes: $\mathrm{Cl}$-35 ($75.77\%$Mass $\approx 34.97\mathrm{ u}$) and
+$\mathrm{Cl}$-37 ($24.23\%$Mass $\approx 36.97\mathrm{ u}$).
+
+$$
+A_r = (34.97 \times 0.7577) + (36.97 \times 0.2423) = 26.50 + 8.96 = 35.46
+$$
+
+
+### The Nucleus
+
+The nucleus is extremely small relative to the atom ($\approx 10^{-15}\mathrm{ m}$ diameter vs
+$\approx 10^{-10}\mathrm{ m}$ for the atom). It contains over $99.9\%$ of the atom"s mass. Nuclear
 Stability depends on the neutron-to-proton ratio:
 
 - Light elements ($Z \lt 20$): stable when $N \approx Z$

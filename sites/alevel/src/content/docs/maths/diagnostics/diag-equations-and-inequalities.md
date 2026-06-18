@@ -1,6 +1,228 @@
 ---
 title: "Equations and Inequalities -- Diagnostic Tests"
-description: ""obius transformation, since $f$ is a strictly decreasing function on
+description: "A-Level Maths Equations and Inequalities -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Equations and Inequalities — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for equations and inequalities.
+
+### UT-1: Rational Inequality with Sign Flipping
+
+**Question:**
+
+Solve the inequality:
+
+$$\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0$$
+
+State your answer using set notation, identifying all excluded values.
+
+[Difficulty: hard. Tests the common error of cross-multiplying without considering sign changes of
+the denominator.]
+
+**Solution:**
+
+**Step 1: Factorise numerator and denominator.**
+
+Numerator: $x^2 - 3x + 2 = (x-1)(x-2)$.
+
+Denominator: $x^2 + x - 6 = (x+3)(x-2)$.
+
+**Step 2: Identify critical values and excluded points.**
+
+Critical values (where numerator or denominator is zero): $x = -3, 1, 2$.
+
+Excluded value: $x = 2$ (makes denominator zero). Also $x = -3$ is excluded.
+
+**Step 3: Determine the sign of the expression in each interval.**
+
+$$\frac{(x-1)(x-2)}{(x+3)(x-2)} = \frac{(x-1)(x-2)}{(x+3)(x-2)}$$
+
+For $x \neq 2$We can cancel $(x-2)$ but must remember the sign changes. Instead, analyse using a
+sign table:
+
+| Interval | $(x+3)$ | $(x-1)$ | $(x-2)$ | Expression                                                                       |
+| -------- | ------- | ------- | ------- | -------------------------------------------------------------------------------- |
+| $x < -3$ | $-$     | $-$     | $-$     | $(-)(-)/(-)(-) = +/+$ but $(x-2)$ appears twice: overall $(-)(-)/((-)(-)) = +/+$ |
+
+Let me be more careful. The expression is $\frac{(x-1)(x-2)}{(x+3)(x-2)}$.
+
+Sign analysis:
+
+| $x$          | $(x+3)$ | $(x-1)$ | $(x-2)$ | Numerator | Denominator | Ratio |
+| ------------ | ------- | ------- | ------- | --------- | ----------- | ----- |
+| $x < -3$     | $-$     | $-$     | $-$     | $+$       | $+$         | $+$   |
+| $-3 < x < 1$ | $+$     | $-$     | $-$     | $+$       | $-$         | $-$   |
+| $1 < x < 2$  | $+$     | $+$     | $-$     | $-$       | $-$         | $+$   |
+| $x > 2$      | $+$     | $+$     | $+$     | $+$       | $+$         | $+$   |
+
+**Step 4: Include or exclude endpoints.**
+
+- $x = -3$: excluded (denominator zero)
+- $x = 1$: included (numerator zero, expression equals zero, and $\geq 0$ is satisfied)
+- $x = 2$: excluded (denominator zero, and the expression is undefined here)
+
+**Step 5: Assemble the solution.**
+
+The expression is non-negative when $x < -3$, $1 \leq x < 2$Or $x > 2$.
+
+$$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
+
+---
+
+### UT-2: Modulus Function Equations with Multiple Cases
+
+**Question:**
+
+Solve the equation:
+
+$$|x^2 - 5x + 6| = |2x - 4|$$
+
+Giving all real solutions in exact form.
+
+[Difficulty: hard. Tests systematic case analysis for modulus equations with quadratics inside
+absolute values.]
+
+**Solution:**
+
+The equation $|A| = |B|$ is equivalent to $A = B$ or $A = -B$.
+
+**Case 1:** $x^2 - 5x + 6 = 2x - 4$
+
+$$x^2 - 7x + 10 = 0$$ $$(x-2)(x-5) = 0$$ $$x = 2 \quad \text{or} \quad x = 5$$
+
+**Case 2:** $x^2 - 5x + 6 = -(2x - 4)$
+
+$$x^2 - 5x + 6 = -2x + 4$$ $$x^2 - 3x + 2 = 0$$ $$(x-1)(x-2) = 0$$
+$$x = 1 \quad \text{or} \quad x = 2$$
+
+**Verification:**
+
+- $x = 1$: $|1-5+6| = |2| = 2$, $|2-4| = 2$. Valid.
+- $x = 2$: $|4-10+6| = 0$, $|4-4| = 0$. Valid.
+- $x = 5$: $|25-25+6| = 6$, $|10-4| = 6$. Valid.
+
+The solutions are $x = 1, 2, 5$.
+
+---
+
+### UT-3: System with No Real Solutions — Proof of Impossibility
+
+**Question:**
+
+Prove that the following system of equations has no real solutions:
+
+$$\begin{cases} x^2 + y^2 = 1 \\ x + y = 2 \end{cases}$$
+
+Then find the smallest positive value of $k$ such that the system:
+
+$$\begin{cases} x^2 + y^2 = 1 \\ x + y = k \end{cases}$$
+
+Has exactly one real solution, and state that solution.
+
+[Difficulty: hard. Tests algebraic proof of impossibility and understanding the geometric
+interpretation of constrained optimisation.]
+
+**Solution:**
+
+**Proof of no real solutions for $k = 2$:**
+
+From the second equation: $y = 2 - x$. Substitute into the first:
+
+$$x^2 + (2-x)^2 = 1$$ $$x^2 + 4 - 4x + x^2 = 1$$ $$2x^2 - 4x + 3 = 0$$
+
+Discriminant: $\Delta = 16 - 24 = -8 < 0$.
+
+Since $\Delta < 0$There are no real values of $x$Hence no real solutions to the system.
+
+**Finding the critical value of $k$:**
+
+Substituting $y = k - x$ into $x^2 + y^2 = 1$:
+
+$$x^2 + (k-x)^2 = 1$$ $$2x^2 - 2kx + k^2 - 1 = 0$$
+
+For exactly one real solution, we need $\Delta = 0$:
+
+$$4k^2 - 8(k^2 - 1) = 0$$ $$4k^2 - 8k^2 + 8 = 0$$ $$-4k^2 + 8 = 0$$ $$k^2 = 2$$ $$k = \sqrt{2}$$
+
+(Since we want the smallest positive $k$, $k = \sqrt{2}$.)
+
+**The solution:** When $\Delta = 0$:
+
+$$x = \frac{2k}{4} = \frac{k}{2} = \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆$$
+$$y = k - x = \sqrt{2} - \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆$$
+
+The single solution is
+$\left(\frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆, \frac◆LB◆\sqrt{2}◆RB◆◆LB◆2◆RB◆\right)$.
+
+**Geometric interpretation:** The first equation is the unit circle and the second is the line
+$x + y = k$. The line is tangent to the circle when its distance from the origin equals the radius:
+
+$$\frac◆LB◆|0 + 0 - k|◆RB◆◆LB◆\sqrt{1^2 + 1^2}◆RB◆ = 1 \implies \frac◆LB◆k◆RB◆◆LB◆\sqrt{2}◆RB◆ = 1 \implies k = \sqrt{2}$$
+
+This confirms our algebraic result.
+
+---
+
+## Integration Tests
+
+> Tests synthesis of equations and inequalities with other topics. Requires combining concepts from
+> multiple units.
+
+### IT-1: Solving $f(x) = f^{-1}(x)$ (with Functions)
+
+**Question:**
+
+The function $f$ is defined by $f(x) = \frac{2x+3}{x-1}$ for $x > 1$.
+
+**(a)** Find $f^{-1}(x)$Stating its domain and range.
+
+**(b)** Solve the equation $f(x) = f^{-1}(x)$Giving all solutions in the domain of $f$.
+
+**(c)** Without further calculation, explain why $f(x) = f^{-1}(x)$ is equivalent to $f(x) = x$ for
+this particular function.
+
+[Difficulty: hard. Combines inverse functions with equation solving and algebraic reasoning about
+symmetry.]
+
+**Solution:**
+
+**(a)** Let $y = \frac{2x+3}{x-1}$:
+
+$$y(x-1) = 2x + 3$$ $$xy - y = 2x + 3$$ $$x(y-2) = y + 3$$ $$x = \frac{y+3}{y-2}$$
+
+So $f^{-1}(x) = \frac{x+3}{x-2}$.
+
+Domain of $f^{-1}$: Since the range of $f$ (for $x > 1$) needs to be determined first. As
+$x \to 1^+$$f(x) \to +\infty$. As $x \to +\infty$$f(x) \to 2$. So range of $f$ is
+$(2, +\infty)$Meaning domain of $f^{-1}$ is $x > 2$.
+
+Range of $f^{-1}$: This equals the domain of $f$So $(1, +\infty)$.
+
+**(b)** Solve $\frac{2x+3}{x-1} = \frac{x+3}{x-2}$:
+
+$$(2x+3)(x-2) = (x+3)(x-1)$$ $$2x^2 - 4x + 3x - 6 = x^2 - x + 3x - 3$$
+$$2x^2 - x - 6 = x^2 + 2x - 3$$ $$x^2 - 3x - 3 = 0$$
+
+By the quadratic formula:
+
+$$x = \frac◆LB◆3 \pm \sqrt{9 + 12}◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆3 \pm \sqrt{21}◆RB◆◆LB◆2◆RB◆$$
+
+Now check the domain restriction $x > 1$:
+
+- $\frac◆LB◆3 + \sqrt{21}◆RB◆◆LB◆2◆RB◆ \approx \frac{3 + 4.58}{2} \approx 3.79 > 1$. Valid.
+- $\frac◆LB◆3 - \sqrt{21}◆RB◆◆LB◆2◆RB◆ \approx \frac{3 - 4.58}{2} \approx -0.79 < 1$. Not in domain.
+
+The solution is $x = \frac◆LB◆3 + \sqrt{21}◆RB◆◆LB◆2◆RB◆$.
+
+**(c)** For a function and its inverse, the solutions to $f(x) = f^{-1}(x)$ lie on the line $y = x$
+(the line of reflection). This is because $f(x) = f^{-1}(x)$ implies $f(f(x)) = x$And if $f(x) = c$
+then $f(c) = x$. When $f(x) = x$, $f^{-1}(x) = x = f(x)$.
+
+For this specific M\"obius transformation, since $f$ is a strictly decreasing function on
 $(1, \infty)$ (its derivative $f"(x) = \frac{-5}{(x-1)^2} < 0$), the graph of $f$ crosses $y = x$
 exactly once, and this crossing point is the unique solution to $f(x) = f^{-1}(x)$.
 

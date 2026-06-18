@@ -1,6 +1,115 @@
 ---
 title: Heat and Thermodynamics
-description: ""s High Specific Heat Capacity
+description: "ILC Physics Heat and Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-physics
+categories:
+  - ilc-physics
+
+---
+
+# Heat and Thermodynamics
+
+This topic covers temperature, heat transfer, specific heat capacity, latent heat, gas laws, and the
+Laws of thermodynamics. These concepts connect the microscopic behaviour of particles (kinetic
+Theory) to the macroscopic properties we can measure (pressure, volume, temperature), bridging
+Classical mechanics and statistical physics.
+
+## Temperature and Heat
+
+### Temperature Scales (OL/HL)
+
+Temperature is a measure of the average kinetic energy of the particles in a substance. Three scales
+Are commonly used:
+
+| Scale                          | Boiling point of water | Freezing point of water | Absolute zero |
+| ------------------------------ | ---------------------- | ----------------------- | ------------- |
+| Celsius ($^\circ\mathrm{C$)    | $100$                  | $0$                     | $-273.15$     |
+| Kelvin (K)                     | $373.15$               | $273.15$                | $0$           |
+| Fahrenheit ($^\circ\mathrm{F$) | $212$                  | $32$                    | $-459.67$     |
+
+Conversion between Celsius and Kelvin:
+
+$$
+T_K = T_{°\mathrm{C} + 273.15
+$$
+
+Conversion between Celsius and Fahrenheit:
+
+$$
+T_{°\mathrm{F} = \frac{9}{5}T_{°\mathrm{C} + 32
+$$
+
+### Why Kelvin Is the Natural Scale for Physics
+
+The Kelvin scale is an absolute thermodynamic temperature scale. Zero kelvin (absolute zero) is the
+Lowest possible temperature, at which all classical thermal motion ceases. This is not just a
+Convention -- it follows from the ideal gas law extrapolation and the third law of thermodynamics.
+
+All physical laws involving temperature (gas laws, kinetic theory, thermodynamic relations) require
+Temperature in kelvin. Using Celsius in the ideal gas law, for example, would give nonsensical
+Results because the zero point of the Celsius scale is arbitrary (the freezing point of water), not
+Fundamental.
+
+### Heat vs Temperature (OL/HL)
+
+- **Temperature** is a measure of the average kinetic energy of particles. It is an intensive
+  property: it does not depend on the amount of material.
+- **Heat** is the transfer of energy due to a temperature difference. It is an extensive property:
+  on the amount of material.
+
+A bath of water at $50^\circ\mathrm{C$ and a cup of water at $50^\circ\mathrm{C$ have the same
+temperature, but the bath Contains far more thermal energy. Heat flows from the bath to a colder
+object faster than the cup Would, not because the bath is at a higher temperature, but because it
+has more energy to give.
+
+### Thermal Equilibrium
+
+When two objects at different temperatures are placed in contact, heat flows from the hotter to the
+Colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
+No net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
+Equilibrium with B, and B with C, then A is in thermal equilibrium with C.
+
+## Specific Heat Capacity (OL/HL)
+
+The specific heat capacity $c$ is the energy required to raise the temperature of 1 kg of a
+Substance by 1 K (or $1^\circ\mathrm{C$ -- the size of the degree is the same on both scales):
+
+$$
+Q = mc\Delta T
+$$
+
+Where $Q$ is the heat energy transferred, $m$ is the mass, and $\Delta T$ is the temperature change.
+
+The unit of $c$ is $\mathrm{J/(kg K)$ or $\mathrm{J/(kg °C)$ -- these are numerically identical
+Because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
+
+| Substance | $c$ (J/kg K) |
+| --------- | ------------ |
+| Water     | 4180         |
+| Ice       | 2100         |
+| Copper    | 390          |
+| Aluminium | 900          |
+| Iron      | 450          |
+| Lead      | 128          |
+
+Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
+Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
+Of energy with relatively small temperature changes).
+
+### Why Different Substances Have Different Specific Heat Capacities
+
+Specific heat capacity depends on the number of degrees of freedom available to the particles. In a
+Monatomic ideal gas, energy is stored only as translational kinetic energy (3 degrees of freedom).
+In water, energy can be stored in translational, rotational, and vibrational modes, as well as in
+Hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
+
+For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$Where $M$ is the
+Molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
+
+### Water"s High Specific Heat Capacity
 
 Water has $c = 4180\mathrm{ J/(kg K)$Which is exceptionally high. This is because:
 

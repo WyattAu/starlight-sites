@@ -1,6 +1,51 @@
 ---
 title: Momentum
-description: ""s Laws
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | Momentum, impulse, collisions | | Edexcel | P1 |..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                          |
+| ---------- | ------- | ------------------------------ |
+| AQA        | Paper 1 | Momentum, impulse, collisions  |
+| Edexcel    | P1      | Similar                        |
+| OCR (A)    | Paper 1 | Includes 2D collisions         |
+| CIE (9709) | P4      | Momentum, impulse, restitution |
+
+:::info Momentum is a vector quantity. Always define a positive direction and be consistent with
+Signs.
+:::
+
+<hr />
+
+## 1. Linear Momentum
+
+### 1.1 Definition
+
+**Definition.** The momentum of a body of mass $m$ moving with velocity $\mathbf{v}$ is
+
+$$\mathbf{p} = m\mathbf{v}$$
+
+Momentum is a vector with SI units kg m/s.
+
+<hr />
+
+## 2. Conservation of Momentum
+
+### 2.1 Statement
+
+**Theorem.** In a closed system (no external forces), the total momentum is conserved:
+
+$$\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}$$
+
+### 2.2 Derivation from Newton"s Laws
 
 **Proof.** Newton's Third Law states that for any two interacting bodies $A$ and $B$:
 

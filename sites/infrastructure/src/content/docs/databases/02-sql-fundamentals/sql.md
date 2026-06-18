@@ -1,6 +1,94 @@
 ---
 title: SQL Fundamentals
-description: ""2000-01-01');
+description: "SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database..."
+tags:
+  - Databases
+categories:
+  - Databases
+---
+
+## SQL Standards and Dialects
+
+SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006,
+SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database implements the full standard.
+PostgreSQL has the broadest standards compliance among open-source databases. MySQL diverges
+Significantly. SQLite implements a large subset but omits many features (e.g., RIGHT JOIN, FULL
+OUTER JOIN were added in 3.39.0, 2022).
+
+When this document specifies behaviour, it defaults to PostgreSQL syntax unless otherwise noted.
+
+## Data Definition Language (DDL)
+
+DDL defines and modifies the database schema. These statements are transactional in PostgreSQL and
+SQLite but often auto-commit in MySQL.
+
+### CREATE TABLE
+
+```sql
+CREATE TABLE employees (
+    emp_id       SERIAL        PRIMARY KEY,
+    first_name   VARCHAR(100)  NOT NULL,
+    last_name    VARCHAR(100)  NOT NULL,
+    email        VARCHAR(255)  NOT NULL,
+    hire_date    DATE          NOT NULL DEFAULT CURRENT_DATE,
+    salary       NUMERIC(10,2) NOT NULL CHECK (salary > 0),
+    department_id INTEGER      REFERENCES departments(dept_id) ON DELETE SET NULL,
+    CONSTRAINT uq_email UNIQUE (email),
+    CONSTRAINT chk_salary_range CHECK (salary >= 30000 AND salary <= 1000000)
+);
+```
+
+Key elements:
+
+- `SERIAL` (PostgreSQL) / `AUTO_INCREMENT` (MySQL) / `INTEGER PRIMARY KEY` (SQLite) for
+  auto-generating keys
+- `NOT NULL` -- the column must have a value
+- `UNIQUE` -- no two rows can have the same value in this column
+- `CHECK` -- an arbitrary boolean expression evaluated on insert/update
+- `DEFAULT` -- value used when no explicit value is provided
+- `REFERENCES` -- foreign key constraint with referential action
+
+### Column Data Types
+
+| Type Category   | PostgreSQL Types                     | Notes                                                                           |
+| --------------- | ------------------------------------ | ------------------------------------------------------------------------------- |
+| Integers        | `SMALLINT``INTEGER``BIGINT`          | `INTEGER` is 4 bytes, `BIGINT` is 8 bytes                                       |
+| Fixed precision | `NUMERIC(p,s)``DECIMAL(p,s)`         | Exact arithmetic; `NUMERIC(10,2)` holds up to 99,999,999.99                     |
+| Floating point  | `REAL``DOUBLE PRECISION`             | Inexact; avoid for financial data                                               |
+| Variable string | `VARCHAR(n)``TEXT`                   | `VARCHAR` with length is a constraint, not a storage optimisation in PostgreSQL |
+| Fixed string    | `CHAR(n)`                            | Padded with spaces; rarely useful                                               |
+| Boolean         | `BOOLEAN`                            | `TRUE``FALSE``NULL`                                                             |
+| Date/Time       | `DATE``TIME``TIMESTAMP``TIMESTAMPTZ` | `TIMESTAMPTZ` stores UTC; always prefer it over `TIMESTAMP`                     |
+| Binary          | `BYTEA`                              | Variable-length binary data                                                     |
+| JSON            | `JSON``JSONB`                        | `JSONB` is stored in decomposed binary form; faster to query                    |
+| UUID            | `UUID`                               | Requires the `uuid-ossp` or `pgcrypto` extension                                |
+| Array           | `INTEGER[]``TEXT[]`                  | PostgreSQL-specific extension                                                   |
+| Network         | `INET``CIDR``MACADDR`                | PostgreSQL-specific; enforces valid IP/MAC formats                              |
+
+:::tip
+
+Always use `TIMESTAMPTZ` instead of `TIMESTAMP`. `TIMESTAMP` does not store timezone information, so
+You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
+And back to the session timezone on retrieval.
+
+
+### ALTER TABLE
+
+```sql
+ADD COLUMN:
+ALTER TABLE employees ADD COLUMN middle_name VARCHAR(100);
+
+DROP COLUMN:
+ALTER TABLE employees DROP COLUMN middle_name;
+
+RENAME COLUMN:
+ALTER TABLE employees RENAME COLUMN first_name TO given_name;
+
+ALTER COLUMN TYPE:
+ALTER TABLE employees ALTER COLUMN salary TYPE NUMERIC(12,2);
+
+ADD CONSTRAINT:
+ALTER TABLE employees ADD CONSTRAINT chk_hire_date CHECK (hire_date >= "2000-01-01');
 
 DROP CONSTRAINT:
 ALTER TABLE employees DROP CONSTRAINT chk_salary_range;

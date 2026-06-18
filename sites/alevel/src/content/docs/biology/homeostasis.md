@@ -1,6 +1,28 @@
 ---
 title: Homeostasis
-description: ""milieu interieur" (internal
+description: "is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal..."
+date: 2026-04-18T00:00:00.000Z
+tags:
+  - Biology
+  - ALevel
+categories:
+  - Biology
+
+---
+
+## Homeostasis
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+## 1. Principles of Homeostasis
+
+### 1.1 Definition
+
+**Homeostasis** is the maintenance of a constant internal environment within narrow limits, despite
+changes in the external environment. It is essential for the optimal functioning of enzymes and
+metabolic processes, which are sensitive to changes in temperature, pH, water potential, and the
+concentration of dissolved substances.
+
+Claude Bernard (19th century) first proposed the concept of the "milieu interieur" (internal
 environment), and Walter Cannon (1926) coined the term "homeostasis."
 
 ### 1.2 Key Components of Homeostatic Control

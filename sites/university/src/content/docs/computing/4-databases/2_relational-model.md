@@ -3,7 +3,49 @@ title: Relational Model
 tags:
   - Computing
   - University
-description: ""CS'}(\mathrm{Student})}$$
+description: "A over attributes is a set of tuples where Each is drawn from the domain of . A  Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 2.1 Relations, Tuples, Attributes
+
+A **relation** $R$ over attributes $A_1, \ldots, A_n$ is a set of tuples $(a_1, \ldots, a_n)$ where
+Each $a_i$ is drawn from the domain of $A_i$. A relation is a subset of
+$D_1 \times D_2 \times
+\cdots \times D_n$.
+
+**Properties of relations:**
+
+- Each relation has a unique name.
+- Each attribute has a unique name within a relation.
+- Tuples are unordered (a relation is a set).
+- All tuples are distinct (no duplicates in a mathematical relation, though SQL tables allow them).
+- Attributes are unordered.
+
+### 2.2 Keys
+
+Let $R$ be a relation schema.
+
+- **Superkey:** A set of attributes $K \subseteq R$ such that no two distinct tuples agree on all
+  attributes in $K$.
+- **Candidate key:** A minimal superkey (no proper subset is also a superkey).
+- **Primary key:** One of the candidate keys, chosen by the designer.
+- **Foreign key:** An attribute (or set) $FK$ in relation $R_1$ that references the primary key $PK$
+  of relation $R_2$. Enforces referential integrity: every value of $FK$ must appear as a value of
+  $PK$ in $R_2$Or be `NULL`.
+
+**Example.** `Student(ID, Name, Email)`. `ID` is a candidate key (unique). If `Email` is also
+unique, It is another candidate key. One is chosen as the primary key.
+
+**Theorem 2.1.** Every relation has at least one candidate key (possibly the entire set of
+attributes).
+
+### 2.3 Relational Algebra
+
+Relational algebra provides a formal query language based on operations on relations.
+
+**Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
+
+$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.

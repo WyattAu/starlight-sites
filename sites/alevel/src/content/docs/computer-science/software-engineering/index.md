@@ -1,6 +1,29 @@
 ---
 title: Software Engineering
-description: ""s perspective
+description: "A-Level Computer Science Software Engineering notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
+---
+
+# Software Engineering
+
+Software engineering is the disciplined approach to designing, developing, testing, and maintaining
+software systems. A-Level covers the lifecycle models, methodologies, and quality assurance
+processes that ensure software meets its requirements reliably and maintainably.
+
+## Topics Covered
+
+### Software Development Lifecycle
+
+- **Waterfall model** — sequential phases: requirements $\rightarrow$ design $\rightarrow$
+  implementation $\rightarrow$ testing $\rightarrow$ deployment $\rightarrow$ maintenance
+- **Agile methodologies** — iterative development, sprints, stand-ups, user stories
+- **Spiral model** — risk-driven, iterative with prototyping
+- **Rapid Application Development (RAD)** — quick prototyping and iterative feedback
+- **Comparison of models** — when each is appropriate; trade-offs between rigour and flexibility
+
+### Requirements and Design
+
+- **Functional and non-functional requirements** — what the system does vs. how well it does it
+- **User stories and use cases** — capturing requirements from the user"s perspective
 - **Structure charts** — top-down design, decomposition
 - **Data flow diagrams (DFDs)** — modelling how data moves through a system
 

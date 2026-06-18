@@ -1,6 +1,14 @@
 ---
 title: "Electromagnetism Unification -- Diagnostic Tests"
-description: ""s Law vs Lenz's Law — Conceptual Distinction
+description: "A-Level Physics Electromagnetism Unification -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Electromagnetism Unification — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Faraday"s Law vs Lenz's Law — Conceptual Distinction
 
 **Question:**
 

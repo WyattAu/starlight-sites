@@ -1,6 +1,23 @@
 ---
 title: Metaprogramming
-description: ""s reflective API provides deep introspection capabilities
+description: "Metaprogramming is writing code that writes, modifies, or inspects code at runtime. Ruby is exceptionally well-suited for metaprogramming because: "''
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Ruby
+categories:
+  - Ruby
+
+---
+
+## What Is Metaprogramming?
+
+Metaprogramming is writing code that writes, modifies, or inspects code at runtime. Ruby is
+exceptionally well-suited for metaprogramming because:
+
+- Classes and modules are open -- they can be modified at any time
+- Methods can be defined, removed, and aliased dynamically
+- Every operation (including method calls and class definitions) is expressed as a message send
+- Ruby"s reflective API provides deep introspection capabilities
 - Blocks, procs, and lambdas are first-class objects
 
 ## Open Classes

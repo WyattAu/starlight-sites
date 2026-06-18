@@ -1,6 +1,245 @@
 ---
 title: Poisson and Geometric Distributions
-description: ""forgets" its history.
+description: "The Poisson and geometric distributions model discrete random variables arising from counting Processes. The Poisson distribution counts the number of rare"
+date: 2026-04-02T00:00:00.000Z
+tags:
+  - FurtherMaths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Poisson and Geometric Distributions
+
+The Poisson and geometric distributions model discrete random variables arising from counting
+Processes. The Poisson distribution counts the number of rare events in a fixed interval, while the
+Geometric distribution counts the number of trials until the first success.
+
+### Board Coverage
+
+| Board      | Paper   | Notes                                   |
+| ---------- | ------- | --------------------------------------- |
+| AQA        | Paper 2 | Both Poisson and geometric in depth     |
+| Edexcel    | S2, S3  | Poisson in S2; geometric in S3          |
+| OCR (A)    | Paper 2 | Poisson and geometric                   |
+| CIE (9231) | S2      | Poisson covered; geometric not required |
+
+:::info The formula booklet provides the Poisson PMF. You must know when to apply each distribution
+And how to carry out hypothesis testing with discrete distributions. The geometric distribution has
+Two common conventions for the support: $r = 1, 2, 3, \ldots$ (number of trials) or
+$r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
+:::
+
+<hr />
+
+## 1. The Poisson Distribution
+
+### 1.1 Definition
+
+**Definition.** A discrete random variable $X$ follows a **Poisson distribution** with parameter
+$\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Po}(\lambda)$If
+
+$$P(X = r) = \frac◆LB◆e^{-\lambda}\lambda^r◆RB◆◆LB◆r!◆RB◆, \quad r = 0, 1, 2, \ldots$$
+
+The Poisson distribution models the number of events occurring in a fixed interval of time or space
+When:
+
+- Events occur independently
+- Events occur at a constant average rate $\lambda$
+- The probability of more than one event in a sufficiently small interval is negligible
+
+### 1.2 Derivation as a Limit of the Binomial
+
+**Theorem.** If $n \to \infty$ and $p \to 0$ such that $np = \lambda$ remains constant, then
+$B(n, p) \to \mathrm{Po}(\lambda)$.
+
+### Proof
+
+$$
+\begin{aligned}
+P(X = r) &= \binom{n}{r}p^r(1-p)^{n-r} \\
+&= \frac◆LB◆n(n-1)\cdots(n-r+1)◆RB◆◆LB◆r!◆RB◆\cdot\frac◆LB◆\lambda^r◆RB◆◆LB◆n^r◆RB◆\cdot\left(1-\frac◆LB◆\lambda◆RB◆◆LB◆n◆RB◆\right)^{n-r}
+\end{aligned}
+$$
+
+Consider each factor as $n \to \infty$:
+
+- $\dfrac◆LB◆n(n-1)\cdots(n-r+1)◆RB◆◆LB◆n^r◆RB◆ \to 1$ since each of the $r$ factors tends to 1
+- $\left(1-\dfrac◆LB◆\lambda◆RB◆◆LB◆n◆RB◆\right)^{n-r} = \left(1-\dfrac◆LB◆\lambda◆RB◆◆LB◆n◆RB◆\right)^n \cdot \left(1-\dfrac◆LB◆\lambda◆RB◆◆LB◆n◆RB◆\right)^{-r} \to e^{-\lambda} \cdot 1 = e^{-\lambda}$
+
+Therefore:
+
+$$P(X = r) \to \frac{1}{r!}\cdot\lambda^r \cdot e^{-\lambda} = \frac◆LB◆e^{-\lambda}\lambda^r◆RB◆◆LB◆r!◆RB◆ \quad \blacksquare$$
+
+### 1.3 Proof that $E(X) = \lambda$
+
+### Proof
+
+$$
+\begin{aligned}
+E(X) &= \sum_{r=0}^{\infty}r\cdot\frac◆LB◆e^{-\lambda}\lambda^r◆RB◆◆LB◆r!◆RB◆ = \sum_{r=1}^{\infty}\frac◆LB◆e^{-\lambda}\lambda^r◆RB◆◆LB◆(r-1)!◆RB◆ \\
+&= \lambda e^{-\lambda}\sum_{r=1}^{\infty}\frac◆LB◆\lambda^{r-1}◆RB◆◆LB◆(r-1)!◆RB◆ = \lambda e^{-\lambda}\sum_{k=0}^{\infty}\frac◆LB◆\lambda^k◆RB◆◆LB◆k!◆RB◆ \\
+&= \lambda e^{-\lambda}\cdot e^{\lambda} = \lambda \quad \blacksquare
+\end{aligned}
+$$
+
+### 1.4 Proof that $\mathrm{Var}(X) = \lambda$
+
+### Proof
+
+First compute $E(X(X-1))$:
+
+$$
+\begin{aligned}
+E(X(X-1)) &= \sum_{r=2}^{\infty}r(r-1)\frac◆LB◆e^{-\lambda}\lambda^r◆RB◆◆LB◆r!◆RB◆ = \sum_{r=2}^{\infty}\frac◆LB◆e^{-\lambda}\lambda^r◆RB◆◆LB◆(r-2)!◆RB◆ \\
+&= \lambda^2 e^{-\lambda}\sum_{k=0}^{\infty}\frac◆LB◆\lambda^k◆RB◆◆LB◆k!◆RB◆ = \lambda^2 e^{-\lambda}\cdot e^{\lambda} = \lambda^2
+\end{aligned}
+$$
+
+Since $E(X^2) = E(X(X-1)) + E(X) = \lambda^2 + \lambda$:
+
+$$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \lambda^2 + \lambda - \lambda^2 = \lambda \quad \blacksquare$$
+
+$$\boxed{E(X) = \mathrm{Var}(X) = \lambda}$$
+
+This is the defining property of the Poisson distribution: the mean equals the variance.
+
+### 1.5 Additivity of Poisson distributions
+
+If $X \sim \mathrm{Po}(\lambda)$ and $Y \sim \mathrm{Po}(\mu)$ are independent, then
+
+$$\boxed{X + Y \sim \mathrm{Po}(\lambda + \mu)}$$
+
+### 1.6 Cumulative probabilities
+
+Cumulative Poisson probabilities are found using:
+
+$$P(X \leq r) = \sum_{k=0}^{r}\frac◆LB◆e^{-\lambda}\lambda^k◆RB◆◆LB◆k!◆RB◆$$
+
+These are obtained from tables or a calculator. Key relationships:
+
+$$P(X > r) = 1 - P(X \leq r)$$ $$P(a \leq X \leq b) = P(X \leq b) - P(X \leq a-1)$$
+
+### 1.7 Poisson hypothesis testing
+
+The procedure mirrors binomial hypothesis testing:
+
+1. Define $X$ and state $X \sim \mathrm{Po}(\lambda_0)$ under $H_0$
+2. State $H_0: \lambda = \lambda_0$ and $H_1$
+3. State the significance level $\alpha$
+4. Find the critical region
+5. Compare the observed value
+6. Conclude in context
+
+**Example.** A call centre receives an average of 3.2 calls per minute. In a particular minute, 7
+Calls are received. Test at the 5% significance level whether the rate has increased.
+
+$X \sim \mathrm{Po}(3.2)$. $H_0: \lambda = 3.2$, $H_1: \lambda > 3.2$.
+
+$P(X \geq 7) = 1 - P(X \leq 6) = 1 - 0.9554 = 0.0446 < 0.05$.
+
+Reject $H_0$. There is sufficient evidence that the rate has increased.
+
+**Example.** Find the critical region for a two-tailed test at the 5% level with
+$X \sim \mathrm{Po}(5)$.
+
+Lower tail: $P(X \leq 0) = e^{-5} \approx 0.0067 \leq 0.025$. $P(X \leq 1) = 0.0404 > 0.025$. So
+$X \leq 0$.
+
+Upper tail: $P(X \geq 10) = 1 - 0.9682 = 0.0318 \leq 0.025$? No.
+$P(X \geq 11) = 1 - 0.9830 = 0.0170 \leq 0.025$. So $X \geq 11$.
+
+Critical region: $X \leq 0$ or $X \geq 11$.
+
+<hr />
+
+## 2. The Geometric Distribution
+
+### 2.1 Definition
+
+**Definition.** A discrete random variable $X$ follows a **geometric distribution** with parameter
+$p$ (where $0 < p \leq 1$), written $X \sim \mathrm{Geo}(p)$If $X$ is the number of the trial on
+Which the first success occurs:
+
+$$P(X = r) = (1-p)^{r-1}p, \quad r = 1, 2, 3, \ldots$$
+
+Each trial is independent with probability $p$ of success.
+
+### 2.2 Proof that $E(X) = \frac{1}{p}$
+
+### Proof
+
+$$
+\begin{aligned}
+E(X) &= \sum_{r=1}^{\infty}r\,q^{r-1}p \quad \mathrm{where } q = 1-p
+\end{aligned}
+$$
+
+Let $S = \sum_{r=1}^{\infty}r\,q^{r-1}$. Recall the geometric series
+$\sum_{r=0}^{\infty}q^r = \frac{1}{1-q}$ for $|q| < 1$.
+
+Differentiating both sides with respect to $q$:
+
+$$\sum_{r=1}^{\infty}rq^{r-1} = \frac{1}{(1-q)^2}$$
+
+Therefore:
+
+$$E(X) = p \cdot \frac{1}{(1-q)^2} = p \cdot \frac{1}{p^2} = \frac{1}{p} \quad \blacksquare$$
+
+### 2.3 Proof that $\mathrm{Var}(X) = \frac{1-p}{p^2}$
+
+### Proof
+
+First compute $E(X^2) = E(X(X-1)) + E(X)$.
+
+$$
+\begin{aligned}
+E(X(X-1)) &= \sum_{r=2}^{\infty}r(r-1)q^{r-1}p = p\,q\sum_{r=2}^{\infty}r(r-1)q^{r-2}
+\end{aligned}
+$$
+
+Starting from $\sum_{r=0}^{\infty}q^r = \frac{1}{1-q}$Differentiating twice:
+
+$$\sum_{r=2}^{\infty}r(r-1)q^{r-2} = \frac{2}{(1-q)^3}$$
+
+So $E(X(X-1)) = p\,q\cdot\frac{2}{(1-q)^3} = p\,q\cdot\frac{2}{p^3} = \frac{2q}{p^2}$.
+
+$$
+\begin{aligned}
+E(X^2) &= \frac{2q}{p^2} + \frac{1}{p} = \frac{2q + p}{p^2} = \frac{2(1-p) + p}{p^2} = \frac{2-p}{p^2} \\[4pt]
+\mathrm{Var}(X) &= E(X^2) - [E(X)]^2 = \frac{2-p}{p^2} - \frac{1}{p^2} = \frac{1-p}{p^2} \quad \blacksquare
+\end{aligned}
+$$
+
+$$\boxed{E(X) = \frac{1}{p}, \qquad \mathrm{Var}(X) = \frac{1-p}{p^2}}$$
+
+### 2.4 The memoryless property
+
+**Theorem.** The geometric distribution is the only discrete memoryless distribution:
+
+$$P(X > m + n \mid X > m) = P(X > n)$$
+
+### Proof
+
+$$
+\begin{aligned}
+P(X > m + n \mid X > m) &= \frac◆LB◆P(X > m+n \mathrm{ and } X > m)◆RB◆◆LB◆P(X > m)◆RB◆ \\
+&= \frac{P(X > m+n)}{P(X > m)} \quad \mathrm{(since } X > m+n \implies X > m\mathrm{)} \\
+&= \frac◆LB◆1 - P(X \leq m+n)◆RB◆◆LB◆1 - P(X \leq m)◆RB◆
+\end{aligned}
+$$
+
+Now $P(X \leq k) = \sum_{r=1}^{k}q^{r-1}p = p\cdot\frac{1-q^k}{1-q} = 1 - q^k$.
+
+Therefore:
+
+$$
+\frac{1 - (1-q^{m+n})}{1 - (1-q^m)} = \frac{q^{m+n}}{q^m} = q^n = 1 - (1-q^n) = P(X > n) \quad \blacksquare
+$$
+
+:::info info success, the probability of waiting at least $n$ more trials is exactly the same as if
+You were starting fresh. The process "forgets" its history.
 :::
 
 ### 2.5 Cumulative distribution function

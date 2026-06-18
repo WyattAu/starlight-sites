@@ -1,6 +1,23 @@
 ---
 title: Packing and Garbage Collection
-description: ""Loose Object\n(newly created)"] --> B["Packed Object\n(compressed in packfile)"]
+description: "Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2025-06-03T13:00:00.000Z
+tags:
+  - git
+  - internals
+  - performance
+categories:
+  - CS
+
+---
+
+## The Object Lifecycle
+
+Git objects go through three phases:
+
+```mermaid
+flowchart LR
+    A["Loose Object\n(newly created)"] --> B["Packed Object\n(compressed in packfile)"]
     B --> C["Unreachable Object\n(no ref points to it)"]
     C --> D["Pruned Object\n(deleted by gc)"]
 

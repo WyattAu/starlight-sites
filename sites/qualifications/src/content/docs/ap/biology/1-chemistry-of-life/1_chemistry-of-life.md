@@ -1,6 +1,247 @@
 ---
 title: Chemistry of Life
-description: "" \to 3'$ and $3' \to 5'$)
+description: "The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-biology
+categories:
+  - ap-biology
+
+---
+
+## Elements and Compounds (CED Unit 1)
+
+### Essential Elements
+
+The most common elements in living organisms:
+
+| Element    | Symbol | Role                                  |
+| ---------- | ------ | ------------------------------------- |
+| Carbon     | C      | Backbone of organic molecules         |
+| Hydrogen   | H      | Component of water, organic molecules |
+| Oxygen     | O      | Component of water, electron acceptor |
+| Nitrogen   | N      | Amino acids, nucleotides              |
+| Phosphorus | P      | ATP, nucleic acids, phospholipids     |
+| Sulfur     | S      | Amino acids (cysteine, methionine)    |
+
+Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
+
+**Worked Example: Why specific trace elements matter.** Iron (Fe) is a component of haemoglobin, the
+Oxygen-carrying protein in red blood cells. Without iron, haemoglobin cannot be synthesised, leading
+To iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
+Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
+
+### Bonding in Biological Molecules
+
+- **Covalent bonds:** Strong, stable bonds sharing electrons (C--C, C--H, C--O, C--N).
+- **Hydrogen bonds:** Weak, between H bonded to N/O/F and a lone pair on N/O/F. Critical for water
+  properties, protein secondary structure, and DNA base pairing.
+- **Ionic bonds:** Between charged groups (e.g., in salt bridges in proteins).
+- **Van der Waals forces:** Weak, transient attractions between molecules.
+
+**Comparison of bond strengths in biological systems:**
+
+| Bond Type     | Strength (kJ/mol) | Biological Role                                      |
+| ------------- | ----------------- | ---------------------------------------------------- |
+| Covalent      | 200--500          | Backbone of organic molecules                        |
+| Ionic         | 100--400          | Salt bridges in proteins, bone mineral structure     |
+| Hydrogen      | 5--40             | DNA base pairing, protein secondary structure, water |
+| Van der Waals | 0.5--5            | Protein folding, lipid interactions                  |
+
+### Water (CED Unit 1)
+
+Water is essential for life due to its unique properties:
+
+1. **Cohesion and adhesion:** H-bonds between water molecules (cohesion) and between water and other
+   surfaces (adhesion). Enables capillary action and transpiration in plants.
+2. **High specific heat:** $4.18 \mathrm{ J/(g\cdot^\circ\mathrm{C)$. Moderates temperature changes.
+3. **High heat of vaporization:** Requires significant energy to evaporate. Provides cooling through
+   sweating.
+4. **Lower density as a solid:** Ice floats, insulating aquatic environments.
+5. **Universal solvent:** Polar molecules and ions dissolve .
+6. **High surface tension:** Due to cohesion at the air-water interface.
+
+**Worked Example: How water properties support life.**
+
+- **Cohesion:** Water molecules stick together due to hydrogen bonding. This allows water to be
+  pulled up the xylem in plants (transpiration stream) as a continuous column.
+- **High specific heat:** Oceans absorb and release large amounts of heat with minimal temperature
+  change, creating stable climates near coastlines.
+- **Ice floats:** In winter, ice forms on the surface of lakes, insulating the water below and
+  allowing aquatic organisms to survive.
+- **Universal solvent:** Many biochemical reactions occur in aqueous solution because water
+  dissolves ions, sugars, amino acids, and other polar molecules.
+
+### pH and Buffers
+
+$$
+\mathrm{pH = -\log[\mathrm{H^+]
+$$
+
+| pH      | Classification |
+| ------- | -------------- |
+| $\lt 7$ | Acidic         |
+| $7$     | Neutral        |
+| $\gt 7$ | Basic          |
+
+**Buffers** resist pH changes. The carbonic acid/bicarbonate buffer system in blood:
+
+$$
+\mathrm{H_2\mathrm{CO_3 \rightleftharpoons \mathrm{H^+ + \mathrm{HCO_3^-
+$$
+
+When $[\mathrm{H^+]$ increases, the equilibrium shifts left, consuming excess $\mathrm{H^+$.
+
+**Worked Example: pH calculations.**
+
+A solution has $[\mathrm{H^+] = 1 \times 10^{-4}$ M.
+
+$$\mathrm{pH = -\log(1 \times 10^{-4}) = 4$$
+
+If the solution is diluted by a factor of 10, $[\mathrm{H^+] = 1 \times 10^{-5}$ M, and
+$\mathrm{pH = 5$.
+
+A one-unit increase in pH represents a tenfold decrease in $[\mathrm{H^+]$.
+
+**Worked Example: Buffer action.**
+
+During vigorous exercise, lactic acid is produced, releasing $\mathrm{H^+$ into the blood. Without
+The buffer system, blood pH would drop dangerously.
+
+The bicarbonate buffer system responds:
+
+$$\mathrm{H^+ + \mathrm{HCO_3^- \to \mathrm{H_2\mathrm{CO_3 \to \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+
+The excess $\mathrm{H^+$ is consumed by reacting with $\mathrm{HCO_3^-$. The resulting
+$\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained close to 7.4.
+
+## Macromolecules (CED Unit 1)
+
+### Carbohydrates
+
+**General formula:** $\mathrm{C_n(\mathrm{H_2\mathrm{O)_n$
+
+**Monomers:** Monosaccharides (glucose, fructose, galactose, ribose, deoxyribose).
+
+**Polymerization:** Dehydration synthesis (condensation) forms glycosidic bonds. Hydrolysis breaks
+Them.
+
+| Type           | Structure            | Function                           | Examples                    |
+| -------------- | -------------------- | ---------------------------------- | --------------------------- |
+| Monosaccharide | Single sugar ring    | Energy source, building block      | Glucose, fructose           |
+| Disaccharide   | Two monosaccharides  | Energy source                      | Sucrose, lactose, maltose   |
+| Polysaccharide | Long chain of sugars | Energy storage, structural support | Starch, glycogen, cellulose |
+
+**Key polysaccharides:**
+
+- **Starch:** Energy storage in plants. Amylose (unbranched) + amylopectin (branched).
+  $\alpha$-glycosidic linkages (digestible).
+- **Glycogen:** Energy storage in animals. Highly branched. $\alpha$-glycosidic linkages.
+- **Cellulose:** Structural in plant cell walls. Unbranched. $\beta$-glycosidic linkages
+  (indigestible by most animals).
+- **Chitin:** Structural in arthropod exoskeletons and fungal cell walls. Modified glucose with
+  nitrogen-containing groups.
+
+**Worked Example: Alpha vs. Beta linkages.**
+
+In starch, glucose monomers are joined by $\alpha$-1,4-glycosidic bonds. The glucose rings are in
+The $\alpha$ configuration (OH group below the ring at C1). This produces a helical structure that
+Can be coiled, making starch compact for storage. Human amylase can hydrolyse $\alpha$-glycosidic
+Bonds, so starch is digestible.
+
+In cellulose, glucose monomers are joined by $\beta$-1,4-glycosidic bonds. The glucose rings are in
+The $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
+Degrees, producing straight chains that form hydrogen bonds with neighbouring chains, creating
+Strong, rigid fibres. Human amylase cannot hydrolyse $\beta$-glycosidic bonds, so cellulose is
+Indigestible by humans.
+
+### Lipids
+
+Lipids are **not** true polymers but are hydrophobic organic molecules.
+
+| Type          | Structure                            | Function                   |
+| ------------- | ------------------------------------ | -------------------------- |
+| Triglycerides | Glycerol + 3 fatty acids             | Energy storage, insulation |
+| Phospholipids | Glycerol + 2 fatty acids + phosphate | Cell membrane structure    |
+| Steroids      | Four fused rings                     | Hormones, cholesterol      |
+| Waxes         | Long-chain alcohol + fatty acid      | Waterproof coatings        |
+
+**Saturated vs unsaturated fatty acids:**
+
+- **Saturated:** No double bonds, straight chains, solid at room temperature.
+- **Unsaturated:** One or more double bonds, kinked chains, liquid at room temperature.
+- **Trans fats:** Unsaturated fats with hydrogens on opposite sides of double bonds. Associated with
+  cardiovascular disease.
+
+**Phospholipids:** Amphipathic -- hydrophilic phosphate head and hydrophobic fatty acid tails. Form
+The bilayer of cell membranes.
+
+**Worked Example: Structure of a triglyceride.**
+
+A triglyceride consists of one glycerol molecule (a 3-carbon alcohol with three OH groups) joined to
+Three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
+Bonds. Each ester bond is formed by a condensation reaction, releasing one water molecule.
+
+$$\mathrm{Glycerol + 3 \mathrm{ Fatty acids \to \mathrm{Triglyceride + 3 \mathrm{ H_2\mathrm{O$$
+
+The long hydrocarbon tails are hydrophobic, making triglycerides insoluble in water. This makes them
+Ideal for energy storage because they do not affect the water potential of cells.
+
+### Proteins
+
+**Monomers:** Amino acids (20 common types).
+
+**Structure of an amino acid:** Central carbon ($\alpha$-carbon) bonded to:
+
+- Amino group ($\mathrm{NH_2$)
+- Carboxyl group ($\mathrm{COOH$)
+- Hydrogen atom
+- R group (side chain, varies)
+
+**Polymerization:** Peptide bonds (amide bonds) form by dehydration synthesis between the carboxyl
+Group of one amino acid and the amino group of another.
+
+**Four levels of protein structure:**
+
+1. **Primary:** Linear sequence of amino acids. Determined by the gene.
+2. **Secondary:** Local folding patterns stabilized by hydrogen bonds.
+
+- $\alpha$-helix: right-handed coiled structure.
+- $\beta$-pleated sheet: extended, zigzag structure.
+
+3. **Tertiary:** Overall 3D shape of a single polypeptide. Stabilized by hydrogen bonds, disulfide
+   bridges, ionic interactions, and hydrophobic interactions.
+4. **Quaternary:** Assembly of multiple polypeptide subunits (e.g., hemoglobin has 4 subunits).
+
+**Denaturation:** Loss of protein structure (secondary, tertiary, quaternary) due to heat, pH
+Change, or chemical disruption. The primary structure remains intact.
+
+**Worked Example: How disulfide bridges stabilize protein structure.**
+
+Disulfide bridges (also called disulfide bonds) form between the sulfur atoms of two cysteine
+Residues. These are covalent bonds, which are much stronger than hydrogen bonds or ionic
+Interactions. In proteins like antibodies, disulfide bridges hold the polypeptide chains together,
+Maintaining the Y-shaped structure even under stress. Reducing agents that break disulfide bridges
+Can cause the protein to unfold.
+
+### Nucleic Acids
+
+**Monomers:** Nucleotides, each consisting of:
+
+1. A 5-carbon sugar (ribose or deoxyribose)
+2. A phosphate group
+3. A nitrogenous base
+
+**Nitrogenous bases:**
+
+- **Purines:** Adenine (A), Guanine (G) -- double ring
+- **Pyrimidines:** Cytosine (C), Thymine (T, DNA only), Uracil (U, RNA only) -- single ring
+
+**DNA:**
+
+- Double helix (Watson and Crick, 1953)
+- Antiparallel strands ($5" \to 3'$ and $3' \to 5'$)
 - Sugar-phosphate backbone on the outside, bases on the inside
 - Base pairing: A--T (2 H-bonds), G--C (3 H-bonds)
 - Chargaff's rules: $[\mathrm{A] = [\mathrm{T]$, $[\mathrm{G] = [\mathrm{C]$

@@ -1,6 +1,30 @@
 ---
 title: Protocols and Dunder Methods
-description: ""initialized"):
+description: "Python''s data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not..."
+
+---
+
+## Data Model Protocols
+
+Python's data model defines a set of protocols that objects can implement to integrate with built-in
+Operations. These are invoked by the interpreter, not called directly.
+
+### \_\_init\_\_ and \_\_new\_\_
+
+`__new__` creates the instance (controls object creation). `__init__` initializes it (controls
+Object initialization):
+
+```python
+class Singleton:
+    _instance = None
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+
+    def __init__(self):
+        if not hasattr(self, "initialized"):
             self.initialized = True
             self.data = []
 

@@ -1,6 +1,23 @@
 ---
 title: Variables
-description: ""hello";
+description: "Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble"
+date: 2025-07-13T20:44:32.129Z
+tags:
+  - dart
+categories:
+  - dart
+
+---
+
+## Specifiers
+
+### Types
+
+Flutter is statically type, therefore, all types are evaluated at compile time, this can be
+Explicitly defined as:
+
+```dart
+String text = "hello";
 int number = 22;
 ```
 

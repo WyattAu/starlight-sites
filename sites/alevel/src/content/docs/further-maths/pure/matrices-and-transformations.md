@@ -1,6 +1,168 @@
 ---
 title: Matrices and Transformations (Extended)
-description: "" \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}$$
+description: "This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors."
+date: 2026-04-23T00:00:00.000Z
+tags: [Mathematics, ALevel]
+categories: [Mathematics]
+
+---
+
+## Matrices and Transformations (Extended Treatment)
+
+This document covers matrix operations, determinants, inverses, 3x3 matrices, linear
+Transformations, and an introduction to eigenvalues and eigenvectors.
+
+:::info Matrices provide a compact and powerful notation for systems of linear equations, geometric
+Transformations, and many applications in science and engineering.
+:::
+
+<hr />
+
+## 1. Matrix Operations
+
+### 1.1 Definitions
+
+An $m \times n$ **matrix** $A$ is a rectangular array of numbers with $m$ rows and $n$ columns. The
+Entry in row $i$Column $j$ is written $a_{ij}$.
+
+**Addition.** If $A$ and $B$ are both $m \times n$Then $(A + B)_{ij} = a_{ij} + b_{ij}$.
+
+**Scalar multiplication.** $(cA)_{ij} = ca_{ij}$.
+
+**Matrix multiplication.** If $A$ is $m \times n$ and $B$ is $n \times p$Then $C = AB$ is
+$m \times p$ with:
+
+$$c_{ij} = \sum_{k=1}^{n} a_{ik}\,b_{kj}$$
+
+### 1.2 Properties of matrix multiplication
+
+Matrix multiplication is:
+
+- **Associative:** $(AB)C = A(BC)$.
+- **Distributive over addition:** $A(B + C) = AB + AC$.
+- **NOT commutative:** , $AB \neq BA$.
+
+**Proof that matrix multiplication is not commutative.** Consider:
+
+$$A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \quad B = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$$
+
+$$AB = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}, \quad BA = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}$$
+
+$AB \neq BA$. $\blacksquare$
+
+### 1.3 The identity matrix
+
+The $n \times n$ **identity matrix** $I_n$ has $1$S on the main diagonal and $0$S elsewhere. For any
+$n \times n$ matrix $A$: $AI_n = I_n A = A$.
+
+### 1.4 Worked example
+
+**Problem.** Given $A = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}$ and
+$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$Find $AB$ and $BA$.
+
+$$AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 3(1) + 4(-2) & 3(5) + 4(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -5 & 15 \end{pmatrix}$$
+
+$$BA = \begin{pmatrix} 1(2) + 5(3) & 1(-1) + 5(4) \\ -2(2) + 0(3) & -2(-1) + 0(4) \end{pmatrix} = \begin{pmatrix} 17 & 19 \\ -4 & 2 \end{pmatrix}$$
+
+$AB \neq BA$Confirming non-commutativity.
+
+<hr />
+
+## 2. Determinants
+
+### 2.1 2x2 determinant
+
+$$\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$$
+
+### 2.2 3x3 determinant
+
+$$\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & k \end{pmatrix} = a\begin{vmatrix} e & f \\ h & k \end{vmatrix} - b\begin{vmatrix} d & f \\ g & k \end{vmatrix} + c\begin{vmatrix} d & e \\ g & h \end{vmatrix}$$
+
+$$= a(ek - fh) - b(dk - fg) + c(dh - eg)$$
+
+### 2.3 Properties of determinants
+
+1. $\det(AB) = \det(A)\det(B)$.
+2. $\det(A^T) = \det(A)$.
+3. Swapping two rows (or columns) changes the sign of the determinant.
+4. A matrix with a row (or column) of zeros has determinant zero.
+5. Adding a multiple of one row to another does not change the determinant.
+6. $\det(cA) = c^n\det(A)$ for an $n \times n$ matrix.
+
+### 2.4 Geometric interpretation
+
+For a $2 \times 2$ matrix, $|\det(A)|$ is the area scale factor of the transformation. If
+$\det(A) = 0$The transformation collapses the plane to a line or a point.
+
+For a $3 \times 3$ matrix, $|\det(A)|$ is the volume scale factor.
+
+### 2.5 Worked example
+
+**Problem.** Find the determinant of
+$A = \begin{pmatrix} 2 & 1 & 3 \\ 0 & -1 & 4 \\ 1 & 2 & 0 \end{pmatrix}$.
+
+Expanding along the first row:
+
+$$\det A = 2\begin{vmatrix} -1 & 4 \\ 2 & 0 \end{vmatrix} - 1\begin{vmatrix} 0 & 4 \\ 1 & 0 \end{vmatrix} + 3\begin{vmatrix} 0 & -1 \\ 1 & 2 \end{vmatrix}$$
+
+$$= 2(0 - 8) - 1(0 - 4) + 3(0 + 1) = -16 + 4 + 3 = -9$$
+
+<hr />
+
+## 3. Inverses
+
+### 3.1 Definition
+
+The **inverse** of a square matrix $A$ is a matrix $A^{-1}$ such that:
+
+$$AA^{-1} = A^{-1}A = I$$
+
+An inverse exists if and only if $\det(A) \neq 0$. A matrix with no inverse is **singular**.
+
+### 3.2 Inverse of a 2x2 matrix
+
+$$\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
+
+**Verification:**
+
+$$\frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}\begin{pmatrix} a & b \\ c & d \end{pmatrix} = \frac{1}{ad - bc}\begin{pmatrix} ad - bc & 0 \\ 0 & ad - bc \end{pmatrix} = I$$
+
+### 3.3 Inverse of a 3x3 matrix
+
+**Method 1: Adjugate matrix.** $A^{-1} = \dfrac◆LB◆1◆RB◆◆LB◆\det A◆RB◆\,\mathrm{adj}(A)$Where the
+Adjugate is the transpose of the cofactor matrix.
+
+**Method 2: Row reduction.** Form the augmented matrix $[A \mid I]$ and apply row operations to
+Obtain $[I \mid A^{-1}]$.
+
+### 3.4 Worked example: 3x3 inverse
+
+**Problem.** Find the inverse of
+$A = \begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix}$.
+
+$\det A = 1(1 - 0) - 2(0 - 3) + 0 = 1 + 6 = 7$.
+
+Cofactors: $C_{11} = 1$$C_{12} = 3$$C_{13} = -1$$C_{21} = -2$$C_{22} = 1$$C_{23} = 2$
+$C_{31} = 6$$C_{32} = -3$$C_{33} = 1$.
+
+$$A^{-1} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}$$
+
+### 3.5 Solving systems of linear equations
+
+A system $A\mathbf{x} = \mathbf{b}$ has a unique solution $\mathbf{x} = A^{-1}\mathbf{b}$ if and
+Only if $\det A \neq 0$.
+
+If $\det A = 0$: either no solution (inconsistent) or infinitely many solutions (dependent).
+
+<hr />
+
+## 4. Linear Transformations
+
+### 4.1 Matrices as transformations
+
+A $2 \times 2$ matrix represents a linear transformation of the plane:
+
+$$\begin{pmatrix} x" \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}$$
 
 Key property: the origin is always mapped to the origin.
 

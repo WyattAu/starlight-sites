@@ -1,6 +1,79 @@
 ---
 title: Rotational Motion
-description: ""s first law.
+description: "Rigorous IB physics notes covering Rotational Motion. Includes definitions, derivations, worked examples, and exam-style problems. momentum."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## Circular Motion Fundamentals
+
+### Angular Quantities
+
+| Quantity             | Symbol   | SI Unit   | Relation to Linear |
+| -------------------- | -------- | --------- | ------------------ |
+| Angular displacement | $\theta$ | rad       | $s = r\theta$      |
+| Angular velocity     | $\omega$ | rad/s     | $v = r\omega$      |
+| Angular acceleration | $\alpha$ | rad/s$^2$ | $a_t = r\alpha$    |
+
+### Angular Velocity
+
+$$
+\omega = \frac{\Delta\theta}{\Delta t}
+$$
+
+For uniform circular motion, $\omega$ is constant.
+
+### Period and Frequency
+
+$$
+T = \frac{2\pi}{\omega}, \quad f = \frac{1}{T} = \frac{\omega}{2\pi}
+$$
+
+Where $T$ is the period (time for one revolution) and $f$ is the frequency (revolutions per second).
+
+### Relation to Linear Speed
+
+$$
+V = r\omega = \frac{2\pi r}{T} = 2\pi rf
+$$
+
+:::info[Example]
+
+A CD rotates at $200\mathrm{ rpm}$. Find the angular velocity in rad/s and the linear speed of a
+Point $5\mathrm{ cm}$ from the centre.
+
+$$
+\omega = 200 \times \frac{2\pi}{60} = \frac{400\pi}{60} = 20.9\mathrm{ rad/s}
+$$
+
+$$
+V = r\omega = 0.05 \times 20.9 = 1.05\mathrm{ m/s}
+$$
+
+
+---
+
+## Centripetal Acceleration
+
+An object in uniform circular motion has a constantly changing velocity (direction changes), so it
+Is always accelerating toward the centre of the circle.
+
+### Magnitude
+
+$$
+A_c = \frac{v^2}{r} = \omega^2 r = \frac{4\pi^2 r}{T^2}
+$$
+
+### Direction
+
+Always directed toward the centre of the circular path (radially inward).
+
+### Key Points
+
+- Centripetal acceleration changes the **direction** of velocity, not its magnitude.
+- If the centripetal force is removed, the object moves in a straight line (tangent to the circle)
+  by Newton"s first law.
 - The word "centripetal" means "centre-seeking."
 
 :::

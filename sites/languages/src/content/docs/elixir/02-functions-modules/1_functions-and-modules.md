@@ -1,6 +1,51 @@
 ---
 title: Functions and Modules
-description: ""Hello") do
+description: "Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for )."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Elixir
+categories:
+  - Elixir
+
+---
+
+## Named Functions
+
+Named functions are defined inside modules using `def` and `defp`. They are compiled and can be
+called from other modules (for `def`) or only within the defining module (for `defp`).
+
+### def and defp
+
+```elixir
+defmodule Math do
+  # Public function
+  def add(a, b) do
+    a + b
+  end
+
+  # Public function with shorthand
+  def subtract(a, b), do: a - b
+
+  # Private function
+  defp double(x), do: x * 2
+
+  # Private helper used internally
+  def quadruple(x), do: double(double(x))
+end
+
+iex> Math.add(2, 3)
+5
+iex> Math.double(4)
+** (UndefinedFunctionError) function Math.double/1 is undefined (private)
+```
+
+### Default Arguments
+
+Functions can have default values for parameters. Default arguments are evaluated at compile time:
+
+```elixir
+defmodule Greeter do
+  def greet(name, greeting \\ "Hello") do
     "#{greeting}, #{name}!"
   end
 

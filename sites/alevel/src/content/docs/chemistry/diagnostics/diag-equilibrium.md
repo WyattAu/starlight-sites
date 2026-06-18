@@ -1,6 +1,68 @@
 ---
 title: "Chemical Equilibrium -- Diagnostic Tests"
-description: ""s principle) to restore the original $K_p$ value. Increasing
+description: "A-Level Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Chemical Equilibrium — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Kp Calculations with Unit Conversion
+
+**Question:**
+
+Nitrogen and hydrogen react to form ammonia:
+
+$$\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)$$
+
+$1.00\,\text{mol}$ of $\text{N}_2$ and $3.00\,\text{mol}$ of $\text{H}_2$ are mixed in a sealed
+container of volume $5.00\,\text{dm}^3$ and allowed to reach equilibrium at $500\,^\circ\text{C}$.
+At equilibrium, the total pressure is $200\,\text{atm}$ and there is $0.400\,\text{mol}$ of
+$\text{NH}_3$ present.
+
+(a) Calculate the mole fractions and partial pressures of all three gases at equilibrium.
+
+(b) Calculate $K_p$ at this temperature, stating its units.
+
+(c) Explain why changing the total pressure does not change the value of $K_p$ (provided temperature
+remains constant).
+
+**Solution:**
+
+(a) From the stoichiometry, $0.400\,\text{mol}$ of $\text{NH}_3$ requires $0.200\,\text{mol}$ of
+$\text{N}_2$ and $0.600\,\text{mol}$ of $\text{H}_2$ to react.
+
+Equilibrium moles:
+
+- $\text{N}_2$: $1.00 - 0.200 = 0.800\,\text{mol}$
+- $\text{H}_2$: $3.00 - 0.600 = 2.400\,\text{mol}$
+- $\text{NH}_3$: $0.400\,\text{mol}$
+
+Total moles at equilibrium: $0.800 + 2.400 + 0.400 = 3.600\,\text{mol}$
+
+Mole fractions:
+
+- $x(\text{N}_2) = 0.800/3.600 = 0.2222$
+- $x(\text{H}_2) = 2.400/3.600 = 0.6667$
+- $x(\text{NH}_3) = 0.400/3.600 = 0.1111$
+
+Partial pressures ($p_i = x_i \times p_{\text{total}}$):
+
+- $p(\text{N}_2) = 0.2222 \times 200 = 44.4\,\text{atm}$
+- $p(\text{H}_2) = 0.6667 \times 200 = 133.3\,\text{atm}$
+- $p(\text{NH}_3) = 0.1111 \times 200 = 22.2\,\text{atm}$
+
+(b)
+
+$$K_p = \frac◆LB◆p(\text{NH}_3)^2◆RB◆◆LB◆p(\text{N}_2) \times p(\text{H}_2)^3◆RB◆ = \frac◆LB◆22.2^2◆RB◆◆LB◆44.4 \times 133.3^3◆RB◆ = \frac◆LB◆492.8◆RB◆◆LB◆44.4 \times 2368593◆RB◆ = \frac◆LB◆492.8◆RB◆◆LB◆1.0517 \times 10^8◆RB◆ = 4.68 \times 10^{-6}$$
+
+Units: $\text{atm}^{-2}$
+
+$$K_p = 4.68 \times 10^{-6}\,\text{atm}^{-2}$$
+
+(c) $K_p$ is a constant at a given temperature. When the total pressure changes, the system adjusts
+the equilibrium position (Le Chatelier"s principle) to restore the original $K_p$ value. Increasing
 pressure shifts the equilibrium towards the side with fewer moles of gas (the $\text{NH}_3$ side in
 this case), increasing $p(\text{NH}_3)$ and changing the individual partial pressures. However, the
 ratio defining $K_p$ returns to its equilibrium value because $K_p$ depends only on temperature, not

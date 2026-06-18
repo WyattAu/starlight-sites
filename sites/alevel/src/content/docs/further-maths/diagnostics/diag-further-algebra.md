@@ -1,6 +1,30 @@
 ---
 title: "Further Algebra -- Diagnostic Tests"
-description: ""s:
+description: "A-Level Further Maths Further Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Further Algebra — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Roots of Polynomials
+
+**Question:** The cubic $f(x) = x^3 - 3x^2 + 4x - 2$ has roots $\alpha, \beta, \gamma$ where
+$\alpha = 1$ is a root. (a) Verify that $\alpha = 1$ is a root and factorise $f(x)$. (b) Find
+$\beta$ and $\gamma$. (c) Calculate $\alpha^2 + \beta^2 + \gamma^2$ without finding $\beta$ and
+$\gamma$ individually. (d) Find a cubic with roots $2\alpha, 2\beta, 2\gamma$.
+
+**Solution:**
+
+(a) $f(1) = 1 - 3 + 4 - 2 = 0 \checkmark$. $f(x) = (x-1)(x^2 - 2x + 2)$.
+
+(b) $x^2 - 2x + 2 = 0$. $x = \frac◆LB◆2 \pm \sqrt{4-8}◆RB◆◆LB◆2◆RB◆ = 1 \pm i$. So
+$\beta = 1+i$, $\gamma = 1-i$.
+
+(c)
+$\alpha^2 + \beta^2 + \gamma^2 = (\alpha+\beta+\gamma)^2 - 2(\alpha\beta+\alpha\gamma+\beta\gamma)$.
+By Vieta"s:
 $\alpha+\beta+\gamma = 3$$\alpha\beta+\alpha\gamma+\beta\gamma = 4$$\alpha\beta\gamma = 2$.
 $= 9 - 8 = 1$.
 

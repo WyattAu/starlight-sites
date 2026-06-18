@@ -1,6 +1,140 @@
 ---
 title: Chemical Bonding (Advanced)
-description: ""s orbitals, not the entire molecule.
+description: "Rigorous IB chemistry notes covering Chemical Bonding (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## 1. VSEPR Theory
+
+### Principle
+
+The **Valence Shell Electron Pair Repulsion** (VSEPR) theory predicts molecular geometry based on
+The repulsion between electron pairs (both bonding and lone pairs) around a central atom.
+
+**Postulates:**
+
+1. Electron pairs arrange themselves to minimise repulsion.
+2. Repulsion order: lone pair--lone pair $\gt$ lone pair--bonding pair $\gt$ bonding pair--bonding
+   pair.
+3. Lone pairs occupy more space than bonding pairs because they are held by one nucleus and spread
+   closer to the central atom.
+4. Multiple bonds are treated as a single region of electron density (but repel more strongly than
+   single bonds).
+
+### Electron Pair Geometries
+
+| Electron pairs | Geometry             | Bond angle              |
+| -------------- | -------------------- | ----------------------- |
+| $2$            | Linear               | $180\degree$            |
+| $3$            | Trigonal planar      | $120\degree$            |
+| $4$            | Tetrahedral          | $109.5\degree$          |
+| $5$            | Trigonal bipyramidal | $120\degree, 90\degree$ |
+| $6$            | Octahedral           | $90\degree$             |
+
+### Molecular Shapes from VSEPR
+
+| Steric number | Lone pairs | Shape                | Bond angle                      | Example                                          |
+| ------------- | ---------- | -------------------- | ------------------------------- | ------------------------------------------------ |
+| $2$           | $0$        | Linear               | $180\degree$                    | $\mathrm{BeCl}_2$, $\mathrm{CO}_2$                 |
+| $3$           | $0$        | Trigonal planar      | $120\degree$                    | $\mathrm{BF}_3$, $\mathrm{SO}_3$                   |
+| $3$           | $1$        | Bent (V-shaped)      | $\lt 120\degree$                | $\mathrm{SO}_2$, $\mathrm{O}_3$                    |
+| $4$           | $0$        | Tetrahedral          | $109.5\degree$                  | $\mathrm{CH}_4$, $\mathrm{NH}_4^+$                 |
+| $4$           | $1$        | Trigonal pyramidal   | $\lt 109.5\degree$              | $\mathrm{NH}_3$, $\mathrm{PH}_3$                   |
+| $4$           | $2$        | Bent                 | $\lt 109.5\degree$              | $\mathrm{H}_2\mathrm{O}$, $\mathrm{H}_2\mathrm{S}$ |
+| $5$           | $0$        | Trigonal bipyramidal | $120\degree, 90\degree$         | $\mathrm{PF}_5$, $\mathrm{PCl}_5$                  |
+| $5$           | $1$        | Seesaw               | $\lt 90\degree, \lt 120\degree$ | $\mathrm{SF}_4$                                  |
+| $5$           | $2$        | T-shaped             | $\lt 90\degree$                 | $\mathrm{ClF}_3$                                 |
+| $5$           | $3$        | Linear               | $180\degree$                    | $\mathrm{XeF}_2$, $\mathrm{I}_3^-$                 |
+| $6$           | $0$        | Octahedral           | $90\degree$                     | $\mathrm{SF}_6$, $\mathrm{PF}_6^-$                 |
+| $6$           | $1$        | Square pyramidal     | $\lt 90\degree$                 | $\mathrm{BrF}_5$, $\mathrm{IF}_5$                  |
+| $6$           | $2$        | Square planar        | $90\degree$                     | $\mathrm{XeF}_4$, $\mathrm{ICl}_4^-$               |
+
+### Bond Angle Distortions
+
+Lone pair repulsion compresses bond angles. The more lone pairs, the greater the compression:
+
+| Molecule                 | Expected       | Actual         | Reason                              |
+| ------------------------ | -------------- | -------------- | ----------------------------------- |
+| $\mathrm{NH}_3$          | $109.5\degree$ | $107\degree$   | One lone pair compresses angles     |
+| $\mathrm{H}_2\mathrm{O}$ | $109.5\degree$ | $104.5\degree$ | Two lone pairs compress angles more |
+
+Electronegativity effects also distort angles: more electronegative terminal atoms pull bonding
+Pairs away from the central atom, reducing repulsion and **decreasing** bond angles.
+
+### Common Pitfalls
+
+- Confusing steric number (total regions of electron density) with the number of atoms bonded.
+- Placing lone pairs in equatorial positions of trigonal bipyramidal arrangements (equatorial
+  positions minimise $90\degree$ repulsions).
+- Forgetting that double and triple bonds count as one region of electron density.
+
+---
+
+## 2. Hybridization
+
+### Definition
+
+**Hybridization** is a mathematical model that combines atomic orbitals on the central atom to form
+Equivalent hybrid orbitals that explain observed geometries.
+
+### Types of Hybridization
+
+| Hybridization | Geometry             | Orbitals combined | Angle                   |
+| ------------- | -------------------- | ----------------- | ----------------------- |
+| $sp$          | Linear               | $1s + 1p$         | $180\degree$            |
+| $sp^2$        | Trigonal planar      | $1s + 2p$         | $120\degree$            |
+| $sp^3$        | Tetrahedral          | $1s + 3p$         | $109.5\degree$          |
+| $sp^3d$       | Trigonal bipyramidal | $1s + 3p + 1d$    | $120\degree, 90\degree$ |
+| $sp^3d^2$     | Octahedral           | $1s + 3p + 2d$    | $90\degree$             |
+
+### Determining Hybridization
+
+Count the regions of electron density (steric number) around the central atom:
+
+$$
+\mathrm{Steric number} = \mathrm{bonded atoms} + \mathrm{lone pairs}
+$$
+
+| Steric number | Hybridization |
+| ------------- | ------------- |
+| $2$           | $sp$          |
+| $3$           | $sp^2$        |
+| $4$           | $sp^3$        |
+| $5$           | $sp^3d$       |
+| $6$           | $sp^3d^2$     |
+
+### Examples
+
+| Molecule                 | Central atom | Steric number | Hybridization | Shape                |
+| ------------------------ | ------------ | ------------- | ------------- | -------------------- |
+| $\mathrm{CH}_4$          | C            | $4$           | $sp^3$        | Tetrahedral          |
+| $\mathrm{NH}_3$          | N            | $4$           | $sp^3$        | Trigonal pyramidal   |
+| $\mathrm{H}_2\mathrm{O}$ | O            | $4$           | $sp^3$        | Bent                 |
+| $\mathrm{BF}_3$          | B            | $3$           | $sp^2$        | Trigonal planar      |
+| $\mathrm{CO}_2$          | C            | $2$           | $sp$          | Linear               |
+| $\mathrm{SF}_6$          | S            | $6$           | $sp^3d^2$     | Octahedral           |
+| $\mathrm{PCl}_5$         | P            | $5$           | $sp^3d$       | Trigonal bipyramidal |
+
+### Sigma and Pi Bonds
+
+- **Sigma ($\sigma$) bond**: formed by head-on overlap of orbitals along the internuclear axis.
+  Always the first bond between two atoms. Can be formed by $s$-$s$, $s$-$p$, $p$-$p$Or hybrid-hybrid
+  overlap.
+- **Pi ($\pi$) bond**: formed by sideways overlap of parallel $p$-orbitals. Always the second (or
+  third) bond in a multiple bond.
+
+A double bond consists of one $\sigma$ and one $\pi$ bond. A triple bond consists of one $\sigma$
+And two $\pi$ bonds.
+
+$$
+\mathrm{C=C}: 1\sigma + 1\pi, \qquad \mathrm{C\equiv C}: 1\sigma + 2\pi
+$$
+
+### Common Pitfalls
+
+- Hybridization describes the central atom"s orbitals, not the entire molecule.
 - Lone pairs are included in the steric number when determining hybridization.
 - Pi bonds do not participate in hybridization — they involve unhybridized $p$-orbitals.
 

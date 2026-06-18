@@ -1,6 +1,40 @@
 ---
 title: Multicellular Organisms
-description: ""s disease.**
+description: "Scottish Highers Biology Multicellular Organisms notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
+date: 2026-04-14
+tags:
+  - highers
+  - highers-biology
+categories:
+  - highers-biology
+
+---
+
+# Multicellular Organisms
+
+## Higher Multicellular Organisms
+
+### Stem Cells and Differentiation
+
+**Stem cells** are undifferentiated cells that can divide and differentiate into specialised cell
+Types.
+
+**Types:**
+
+| Type        | Source                            | Potential                                      |
+| ----------- | --------------------------------- | ---------------------------------------------- |
+| Totipotent  | Early embryo                      | Can become any cell type (including placental) |
+| Pluripotent | Blastocyst                        | Can become any cell type (not placental)       |
+| Multipotent | Adult tissues (e.g., bone marrow) | Can become limited range of cell types         |
+| Unipotent   | Adult tissues                     | Can become only one cell type                  |
+
+**Cell differentiation:** The process by which cells become specialised. All body cells have the
+Same genes, but different genes are switched on (expressed) or off in different cell types.
+
+**Transcription factors** and **epigenetic modifications** (e.g., DNA methylation, histone
+Modification) control which genes are expressed.
+
+**Worked Example: Stem cell therapy for Parkinson"s disease.**
 
 Parkinson's disease is caused by the death of dopamine-producing neurones in the brain. Stem cell
 Therapy involves:

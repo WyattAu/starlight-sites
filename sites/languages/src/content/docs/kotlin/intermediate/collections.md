@@ -1,6 +1,88 @@
 ---
 title: Collections
-description: ""a" to 1, "b" to 2, "c" to 3)
+description: "Kotlin''s collection types are split into two hierarchies: and . Comprehensive educational content coverage with definitions and practice problems."
+date: 2026-04-18
+tags:
+  - Kotlin
+categories:
+  - Kotlin
+---
+
+## Collection Hierarchy
+
+Kotlin's collection types are split into two hierarchies: **read-only** and **mutable**.
+
+```
+Collection (read-only)
+  |-- List
+  |-- Set
+  |-- Map
+MutableCollection extends Collection
+  |-- MutableList
+  |-- MutableSet
+  |-- MutableMap
+```
+
+Read-only interfaces do not guarantee immutability -- they expose no mutation methods. The
+Underlying collection may still be mutable through a different reference.
+
+## List
+
+```kotlin
+// Read-only
+val readOnly: List<Int> = listOf(1, 2, 3)
+
+// Mutable
+val mutable: MutableList<Int> = mutableListOf(1, 2, 3)
+mutable.add(4)
+mutable[0] = 10
+```
+
+`List` is an ordered collection with index-based access. `listOf()` returns an immutable list
+Implementation. `mutableListOf()` returns a `MutableList`.
+
+### List Operations
+
+```kotlin
+val list = listOf(3, 1, 4, 1, 5, 9)
+
+list[0]               // 3
+list.indexOf(1)       // 1 (first occurrence)
+list.lastIndexOf(1)   // 3
+list.subList(1, 4)    // [1, 4, 1]
+list.reversed()       // [9, 5, 1, 4, 1, 3]
+list.sorted()         // [1, 1, 3, 4, 5, 9]
+list.distinct()       // [3, 1, 4, 5, 9]
+list.contains(4)      // true
+```
+
+## Set
+
+```kotlin
+val readOnly: Set<Int> = setOf(1, 2, 3, 2, 1)  // {1, 2, 3}
+val mutable: MutableSet<Int> = mutableSetOf(1, 2, 3)
+
+val linked: LinkedHashSet<Int> = linkedSetOf(3, 1, 2)  // preserves insertion order
+val hashed: HashSet<Int> = hashSetOf(3, 1, 2)          // no order guarantee
+val sorted: TreeSet<Int> = sortedSetOf(3, 1, 2)        // natural ordering
+```
+
+### Set Operations
+
+```kotlin
+val a = setOf(1, 2, 3, 4)
+val b = setOf(3, 4, 5, 6)
+
+a union b           // {1, 2, 3, 4, 5, 6}
+a intersect b       // {3, 4}
+a subtract b        // {1, 2}
+a - b               // {1, 2}
+```
+
+## Map
+
+```kotlin
+val readOnly: Map<String, Int> = mapOf("a" to 1, "b" to 2, "c" to 3)
 val mutable: MutableMap<String, Int> = mutableMapOf("a" to 1, "b" to 2)
 ```
 

@@ -1,6 +1,25 @@
 ---
 title: Structs and Enums
-description: ""static str {
+description: "Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition..."
+
+---
+
+## Structs
+
+Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java,
+Structs in Rust do not support inheritance. Composition and trait-based polymorphism are the
+Idiomatic alternatives.
+
+### Unit Structs
+
+Unit structs have no fields. They are useful as marker types or phantom types:
+
+```rust
+struct Marker;
+struct Benchmark;
+
+impl Marker {
+    fn describe(&self) -> &"static str {
         "I am a marker type"
     }
 }

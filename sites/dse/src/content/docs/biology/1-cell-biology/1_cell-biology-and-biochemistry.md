@@ -1,6 +1,218 @@
 ---
 title: Biology - Cell Biology and Biochemistry
-description: ""Cell eating" — engulfing solid particles (e.g., white blood cells engulfing
+description: "1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise..."
+
+---
+
+## Cell Structure
+
+### Cell Theory
+
+1. All living organisms are composed of one or more cells
+2. The cell is the basic unit of structure and function in all living organisms
+3. All cells arise from pre-existing cells
+
+### Prokaryotic vs Eukaryotic Cells
+
+| Feature                   | Prokaryotic Cells                   | Eukaryotic Cells                                 |
+| ------------------------- | ----------------------------------- | ------------------------------------------------ |
+| Nucleus                   | No true nucleus (nucleoid region)   | True nucleus with nuclear envelope               |
+| Membrane-bound organelles | Absent                              | Present                                          |
+| DNA                       | Circular, naked                     | Linear, associated with histones                 |
+| Ribosomes                 | 70S (smaller)                       | 80S (larger)                                     |
+| Cell size                 | 1-5 micrometres                     | 10-100 micrometres                               |
+| Cell wall                 | Present (peptidoglycan in bacteria) | Present in plants (cellulose), absent in animals |
+| Examples                  | Bacteria, Archaea                   | Animals, Plants, Fungi, Protists                 |
+
+### Plant vs Animal Cells
+
+| Feature               | Plant Cells         | Animal Cells              |
+| --------------------- | ------------------- | ------------------------- |
+| Cell wall             | Present (cellulose) | Absent                    |
+| Chloroplasts          | Present             | Absent                    |
+| Large central vacuole | Present             | Small, temporary vacuoles |
+| Centrioles            | Absent              | Present                   |
+| Plasmodesmata         | Present             | Absent                    |
+| Shape                 | Fixed (rectangular) | Variable (irregular)      |
+| Stored carbohydrate   | Starch              | Glycogen                  |
+
+---
+
+## Cell Organelles
+
+### Nucleus
+
+The nucleus is the control centre of the cell. It contains:
+
+- **Nuclear envelope:** Double membrane with nuclear pores that control the movement of substances
+  in and out
+- **Nucleolus:** Dark-staining region where ribosomal RNA (rRNA) is synthesised
+- **Chromatin:** DNA wrapped around histone proteins; condenses into chromosomes during cell
+  division
+
+Functions:
+
+- Controls cell activities through gene expression
+- Stores genetic information (DNA)
+- Site of DNA replication and transcription
+
+### Mitochondria
+
+Mitochondria are the sites of aerobic respiration, producing ATP through the Krebs cycle and
+Oxidative phosphorylation.
+
+Structure:
+
+- **Outer membrane:** Permeable to small molecules
+- **Inner membrane:** Folded into cristae to increase surface area; site of the electron transport
+  chain
+- **Matrix:** Contains enzymes for the Krebs cycle, mitochondrial DNA, and ribosomes
+
+$$\mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2 \to 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} + \mathrm{ATP}$$
+
+### Endoplasmic Reticulum (ER)
+
+**Rough ER (RER):**
+
+- Studded with ribosomes
+- Involved in protein synthesis and transport
+- Proteins enter the ER lumen for folding and modification
+
+**Smooth ER (SER):**
+
+- No ribosomes
+- Involved in lipid synthesis, detoxification, and calcium storage
+
+### Golgi Apparatus
+
+A stack of flattened membrane-bound sacs (cisternae) that modifies, sorts, and packages proteins and
+Lipids.
+
+Functions:
+
+- Modifies proteins (e.g., adding carbohydrate groups to form glycoproteins)
+- Packages proteins into vesicles for transport
+- Forms lysosomes (in animal cells)
+
+### Ribosomes
+
+Ribosomes are the sites of protein synthesis (translation).
+
+- **Free ribosomes:** Float in the cytoplasm; synthesise proteins for use within the cell
+- **Bound ribosomes:** Attached to the RER; synthesise proteins for secretion or for the cell
+  membrane
+
+### Lysosomes
+
+Membrane-bound vesicles containing digestive enzymes (hydrolytic enzymes). Functions include:
+
+- Breaking down worn-out organelles (autophagy)
+- Digesting material engulfed by phagocytosis
+- Releasing enzymes outside the cell (extracellular digestion)
+
+### Chloroplasts (Plant Cells Only)
+
+The site of photosynthesis.
+
+Structure:
+
+- **Double membrane:** Outer and inner membrane
+- **Thylakoids:** Flattened sacs containing chlorophyll; site of the light-dependent reactions
+- **Grana:** Stacks of thylakoids
+- **Stroma:** Fluid-filled space; site of the light-independent reactions (Calvin cycle)
+
+$$6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{light}} \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2$$
+
+### Cell Membrane
+
+The cell membrane (plasma membrane) is a phospholipid bilayer with embedded proteins.
+
+**Fluid Mosaic Model:**
+
+- **Fluid:** Individual phospholipid molecules can move laterally within the layer
+- **Mosaic:** Various proteins are embedded in the bilayer, creating a pattern
+
+**Components:**
+
+- Phospholipids: form the basic bilayer structure
+- Intrinsic (integral) proteins: span the entire membrane; involved in transport and signalling
+- Extrinsic (peripheral) proteins: attached to the surface; involved in cell recognition and
+  enzymatic activity
+- Cholesterol: regulates membrane fluidity
+- Glycolipids and glycoproteins: involved in cell recognition
+
+:::info The cell membrane is selectively permeable: it allows some substances to pass through freely
+But restricts others. Small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$) diffuse
+Through , while large or charged molecules require transport proteins.
+:::
+
+---
+
+## Membrane Transport
+
+### Passive Transport (No Energy Required)
+
+#### Simple Diffusion
+
+Movement of molecules from a region of higher concentration to a region of lower concentration,
+Directly through the phospholipid bilayer.
+
+- Only for small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$Lipid-soluble
+  substances)
+- Net movement stops at equilibrium (dynamic equilibrium)
+- Rate depends on: concentration gradient, temperature, surface area, distance
+
+#### Facilitated Diffusion
+
+Movement of molecules down their concentration gradient through transport proteins.
+
+- **Channel proteins:** Form hydrophilic pores for specific ions (e.g., $\mathrm{Na}^+$
+  $\mathrm{K}^+$, $\mathrm{Ca}^{2+}$)
+- **Carrier proteins:** Bind to specific molecules, undergo conformational change, and release on
+  the other side
+- Used for larger or polar molecules (e.g., glucose, amino acids, ions)
+
+#### Osmosis
+
+The movement of water molecules from a region of higher water potential to a region of lower water
+Potential, through a selectively permeable membrane.
+
+**Water potential** ($\Psi$) is measured in kilopascals (kPa). Pure water has
+$\Psi = 0 \mathrm{ kPa}$. Adding solutes decreases water potential (makes it more negative).
+
+**Osmosis in animal cells:**
+
+| Solution   | Water Potential  | Effect on Cell                    |
+| ---------- | ---------------- | --------------------------------- |
+| Hypotonic  | Higher than cell | Cell swells and may burst (lysis) |
+| Isotonic   | Equal to cell    | No net movement                   |
+| Hypertonic | Lower than cell  | Cell shrinks (crenation)          |
+
+**Osmosis in plant cells:**
+
+| Solution   | Effect on Cell                                         |
+| ---------- | ------------------------------------------------------ |
+| Hypotonic  | Cell becomes turgid (firm); useful for plant support   |
+| Isotonic   | No net movement                                        |
+| Hypertonic | Cytoplasm and vacuole shrink; cell becomes plasmolysed |
+
+### Active Transport (Energy Required)
+
+Movement of molecules against their concentration gradient (from low to high concentration),
+Requiring ATP and carrier proteins.
+
+- Specific to certain molecules (e.g., $\mathrm{Na}^+/\mathrm{K}^+$ pump, absorption of minerals by
+  root hair cells)
+- Can become saturated at high concentrations (carrier proteins are limiting)
+- Inhibited by metabolic poisons (e.g., cyanide) that block ATP production
+
+### Bulk Transport
+
+#### Endocytosis
+
+The cell membrane engulfs material to bring it into the cell.
+
+- **Phagocytosis:** "Cell eating" — engulfing solid particles (e.g., white blood cells engulfing
   bacteria)
 - **Pinocytosis:** "Cell drinking" — engulfing liquid droplets
 

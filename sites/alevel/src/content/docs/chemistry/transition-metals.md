@@ -1,6 +1,131 @@
 ---
 title: Transition Metals & Analytical Chemistry
-description: ""s rule (maximise parallel spins) but must also
+description: "A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level..."
+date: 2026-04-21T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Transition Metals & Analytical Chemistry
+
+## The d-Block Elements
+
+### Definition of a Transition Metal
+
+A transition metal is defined as an element that forms at least one stable ion with a **partially
+filled d subshell**. This is the IUPAC definition and the one required by A-Level examinations.
+
+Under this definition:
+
+- **Scandium** ($\mathrm{Sc}$): forms $\mathrm{Sc}^{3+}$ with configuration $[\mathrm{Ar}]\,3d^0$ --
+  **not** a transition metal (empty $d$ subshell in its common ion).
+- **Zinc** ($\mathrm{Zn}$): forms $\mathrm{Zn}^{2+}$ with configuration $[\mathrm{Ar}]\,3d^{10}$ --
+  **not** a transition metal (full $d$ subshell in its common ion).
+- **Titanium** through **Copper** (excluding Sc and Zn) are transition metals.
+
+### Electronic Configurations
+
+The $3d$ and $4s$ subshells are close in energy. For neutral atoms, $4s$ fills before $3d$ (Aufbau
+principle). For cations, $4s$ electrons are removed before $3d$.
+
+| Element | $Z$ | Neutral atom                  | $\mathrm{M}^{2+}$     | $\mathrm{M}^{3+}$     |
+| ------- | --- | ----------------------------- | --------------------- | --------------------- |
+| Ti      | 22  | $[\mathrm{Ar}]\,4s^2 3d^2$    | $[\mathrm{Ar}]\,3d^2$ | $[\mathrm{Ar}]\,3d^1$ |
+| V       | 23  | $[\mathrm{Ar}]\,4s^2 3d^3$    | $[\mathrm{Ar}]\,3d^3$ | $[\mathrm{Ar}]\,3d^2$ |
+| Cr      | 24  | $[\mathrm{Ar}]\,4s^1 3d^5$    | $[\mathrm{Ar}]\,3d^4$ | $[\mathrm{Ar}]\,3d^3$ |
+| Mn      | 25  | $[\mathrm{Ar}]\,4s^2 3d^5$    | $[\mathrm{Ar}]\,3d^5$ | $[\mathrm{Ar}]\,3d^4$ |
+| Fe      | 26  | $[\mathrm{Ar}]\,4s^2 3d^6$    | $[\mathrm{Ar}]\,3d^6$ | $[\mathrm{Ar}]\,3d^5$ |
+| Co      | 27  | $[\mathrm{Ar}]\,4s^2 3d^7$    | $[\mathrm{Ar}]\,3d^7$ | $[\mathrm{Ar}]\,3d^6$ |
+| Ni      | 28  | $[\mathrm{Ar}]\,4s^2 3d^8$    | $[\mathrm{Ar}]\,3d^8$ | $[\mathrm{Ar}]\,3d^7$ |
+| Cu      | 29  | $[\mathrm{Ar}]\,4s^1 3d^{10}$ | $[\mathrm{Ar}]\,3d^9$ | $[\mathrm{Ar}]\,3d^8$ |
+
+## Variable Oxidation States
+
+Transition metals exhibit multiple oxidation states because the $3d$ and $4s$ electrons are close in
+energy and can be removed in varying numbers. The range of oxidation states and their stability
+depends on:
+
+1. **Ionisation energies** -- successive ionisation energies increase; very high states require very
+   high energy.
+2. **Lattice energies / hydration enthalpies** -- highly charged ions in stable lattices or strongly
+   hydrated ions can be stabilised.
+3. **Electronic configuration** -- half-filled ($d^5$) and fully-filled ($d^{10}$) configurations
+   are particularly stable.
+
+### Common Oxidation States
+
+| Element | Common oxidation states | Most stable                                  |
+| ------- | ----------------------- | -------------------------------------------- |
+| Ti      | $+2, +3, +4$            | $+4$                                         |
+| V       | $+2, +3, +4, +5$        | $+5$ (as vanadate)                           |
+| Cr      | $+2, +3, +6$            | $+3$                                         |
+| Mn      | $+2, +3, +4, +6, +7$    | $+2$ (aq), $+4$ (solid), $+7$ (oxoanion)     |
+| Fe      | $+2, +3$                | $+3$ (oxidising conditions), $+2$ (reducing) |
+| Co      | $+2, +3$                | $+2$                                         |
+| Ni      | $+2$                    | $+2$                                         |
+| Cu      | $+1, +2$                | $+2$                                         |
+
+Manganese exhibits the widest range ($+2$ to $+7$) of any first-row transition metal.
+
+## Complex Ion Formation
+
+### Definitions
+
+A **complex ion** consists of a central metal ion surrounded by ligands. A **ligand** is a molecule
+or ion that donates a lone pair of electrons to the central metal ion, forming a **coordinate
+(dative covalent) bond**.
+
+The **coordination number** is the total number of coordinate bonds to the central metal ion.
+
+### Types of Ligands
+
+| Type        | Description          | Examples                                                                                               | Denticity |
+| ----------- | -------------------- | ------------------------------------------------------------------------------------------------------ | --------- |
+| Monodentate | One lone pair donor  | $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$$\mathrm{Cl}^-$$\mathrm{CN}^-$                                  | 1         |
+| Bidentate   | Two lone pair donors | $\mathrm{NH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2$ (en), $\mathrm{C}_2\mathrm{O}_4^{2-}$ (oxalate) | 2         |
+| Hexadentate | Six lone pair donors | $\mathrm{EDTA}^{4-}$                                                                                   | 6         |
+
+The **chelate effect**: multidentate ligands form more stable complexes than an equivalent number of
+monodentate ligands. This is primarily an entropic effect -- one multidentate ligand replaces
+several monodentate ligands, increasing the number of free particles and hence the entropy of the
+system.
+
+### Geometry
+
+| Coordination number | Geometry      | Example                                                                                            |
+| ------------------- | ------------- | -------------------------------------------------------------------------------------------------- |
+| 4                   | Tetrahedral   | $[\mathrm{CoCl}_4]^{2-}$                                                                           |
+| 6                   | Octahedral    | $[\mathrm{Cu}(\mathrm{NH}_3)_4(\mathrm{H}_2\mathrm{O})_2]^{2+}$$[\mathrm{Fe}(\mathrm{CN})_6]^{4-}$ |
+| 4                   | Square planar | $[\mathrm{PtCl}_4]^{2-}$$[\mathrm{Ni(CN})_4]^{2-}$                                                 |
+
+Most first-row transition metal complexes are octahedral or tetrahedral. Square planar geometry is
+typical for $d^8$ configurations with strong-field ligands (e.g. $\mathrm{Ni}^{2+}$ with
+$\mathrm{CN}^-$).
+
+## Crystal Field Theory (Qualitative)
+
+### d-Orbital Splitting
+
+In a free ion, all five $d$ orbitals are degenerate (same energy). In an octahedral complex, the six
+ligands approach along the $x$$y$And $z$ axes. The $d$ orbitals that point along these axes
+($d_{z^2}$ and $d_{x^2-y^2}$Collectively the $e_g$ set) experience greater electrostatic repulsion
+from the ligand lone pairs than those that point between the axes
+($d_{xy}$$d_{xz}$$d_{yz}$Collectively the $t_{2g}$ set).
+
+This splits the $d$ orbitals into two energy levels:
+
+- **$e_g$ (higher energy):** $d_{z^2}$$d_{x^2-y^2}$ -- 2 orbitals
+- **$t_{2g}$ (lower energy):** $d_{xy}$$d_{xz}$$d_{yz}$ -- 3 orbitals
+
+The energy separation is the **crystal field splitting parameter** $\Delta_o$ (octahedral).
+
+### High-Spin vs Low-Spin
+
+Electrons occupy the $d$ orbitals according to Hund"s rule (maximise parallel spins) but must also
 respect the energy gap $\Delta_o$.
 
 - **Weak-field ligands** (e.g. $\mathrm{H}_2\mathrm{O}$$\mathrm{F}^-$): $\Delta_o$ is small.

@@ -3,7 +3,104 @@ title: Process Management
 tags:
   - Computing
   - University
-description: ""s burst is shorter, the net change reduces the average. $\blacksquare$
+description: "A is an instance of a program in execution. The OS maintains a for each process: Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 2.1 Process Concept
+
+A **process** is an instance of a program in execution. The OS maintains a **process control block
+(PCB)** for each process:
+
+| Field           | Description                                |
+| --------------- | ------------------------------------------ |
+| PID             | Unique process identifier                  |
+| Process state   | Running, ready, blocked, etc.              |
+| Program counter | Address of next instruction                |
+| Registers       | CPU register contents                      |
+| Memory limits   | Base/limit registers or page table pointer |
+| Open files      | List of open file descriptors              |
+| I/O status      | I/O devices allocated and their status     |
+| Scheduling info | Priority, scheduling queue, CPU usage      |
+
+**Process states.** Processes transition through states:
+
+$$\mathrm{New} \to \mathrm{Ready} \to \mathrm{Running} \to \mathrm{Terminated}$$
+
+$$\mathrm{Running} \to \mathrm{Blocked} \to \mathrm{Ready}$$
+
+The scheduler dispatches processes from **ready** to **running**. A running process may be
+**preempted** back to ready, or may **block** on I/O or a synchronisation event.
+
+### 2.2 Threads
+
+A **thread** is the fundamental unit of CPU execution. Multiple threads within a process share the
+Same address space, open files, and other resources, but each has its own program counter,
+Registers, and stack.
+
+**User-level threads.** Managed entirely by a user-space library (e.g., POSIX `pthread`). The OS is
+Unaware of them.
+
+- _Advantage:_ Fast creation and switching (no kernel involvement).
+- _Disadvantage:_ One blocking system call blocks all threads in the process.
+
+**Kernel-level threads.** Managed by the OS kernel (e.g., Linux `clone()`Windows threads).
+
+- _Advantage:_ True parallelism on multiprocessor systems; blocking one thread does not block
+  others.
+- _Disadvantage:_ Slower creation and context switch (kernel trap required).
+
+**Thread models:**
+
+| Model        | User:Kernel | Characteristics                              |
+| ------------ | ----------- | -------------------------------------------- |
+| Many-to-one  | $m:1$       | All user threads map to one kernel thread    |
+| One-to-one   | $1:1$       | Each user thread maps to a kernel thread     |
+| Many-to-many | $m:n$       | User threads multiplexed onto kernel threads |
+
+Linux uses a $1:1$ model by default.
+
+### 2.3 CPU Scheduling
+
+The CPU scheduler decides which process runs next from the set of ready processes.
+
+**Scheduling criteria:**
+
+- **CPU utilisation:** Keep the CPU busy ($\mathrm{utilisation} = 1 - p$ where $p$ is the I/O wait
+  probability).
+- **Throughput:** Number of processes completed per time unit.
+- **Turnaround time:** $T_{\mathrm{turnaround} = T_{\mathrm{completion} - T_{\mathrm{arrival}}}}$.
+- **Waiting time:** Time spent in the ready queue.
+- **Response time:** Time from submission to first response.
+
+### 2.4 Scheduling Algorithms
+
+**First-Come, First-Served (FCFS).** Non-preemptive. Processes scheduled in arrival order. Suffers
+From the **convoy effect**: short processes waiting behind a long process.
+
+**Shortest Job First (SJF).** Non-preemptive. Schedule the process with the shortest next CPU burst.
+Provably optimal for average waiting time. Requires burst length estimation via exponential
+Averaging: $\tau_{n+1} = \alpha t_n + (1 - \alpha) \tau_n$.
+
+**Shortest Remaining Time First (SRTF).** Preemptive SJF. If a new process arrives with a shorter
+Remaining burst, preempt the current process.
+
+**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$Preempted and
+Placed at the back of the ready queue. If $q$ is large, RR degenerates to FCFS. Typical $q$:
+$10\mathrm{--100}$ ms.
+
+**Priority Scheduling.** Highest-priority ready process runs. Can be preemptive or non-preemptive.
+Risk of **starvation**; solved by **aging** (gradually increase priority of waiting processes).
+
+**Multilevel Feedback Queue (MLFQ).** Partition the ready queue into multiple priority levels.
+Processes that use too much CPU are demoted; processes that wait are promoted. The most general and
+Widely used approach. Linux CFS uses a variant with red-black trees keyed on virtual runtime.
+
+**Theorem 2.1.** SJF gives the minimum average waiting time for a given set of processes.
+
+_Proof._ Consider any schedule that is not SJF. There exist consecutive processes $A$ and $B$ where
+$A$ has a longer burst than $B$ but is scheduled first. Swapping $A$ and $B$ reduces the waiting
+Time of $B$ by the burst time of $A$ and increases the waiting time of $A$ by the burst time of $B$.
+Since $B$"s burst is shorter, the net change reduces the average. $\blacksquare$
 
 **Worked Example 2.1 — FCFS vs SJF Comparison**
 

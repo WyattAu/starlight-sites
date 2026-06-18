@@ -1,6 +1,139 @@
 ---
 title: Constant Expressions
-description: ""immediate functions") **must** be evaluated at compile time. They cannot
+description: "Compile-time computation is one of C++''s most distinctive capabilities. Unlike C macros or Java C++ constant expressions are type-checked, support full..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+---
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+Compile-time computation is one of C++'s most distinctive capabilities. Unlike C macros or Java
+`static final`C++ constant expressions are type-checked, support full language features (loops,
+Conditionals, recursion), and can operate on user-defined types. The evolution from C++11
+`constexpr` through C++20 `consteval` and `constinit` gives programmers fine-grained control over
+Exactly when an expression is evaluated. For systems programmers, this means moving error detection
+From runtime to compile time -- a zero-cost correctness guarantee.
+
+## The Keyword Taxonomy
+
+| Keyword     | Storage             | Initialization           | Evaluation               | Can be modified? |
+| :---------- | :------------------ | :----------------------- | :----------------------- | :--------------- |
+| `const`     | Any                 | Runtime or compile-time  | Either                   | No (after init)  |
+| `constexpr` | Any                 | **Must be** compile-time | **Must be** compile-time | No (after init)  |
+| `consteval` | N/A (function only) | N/A                      | **Must be** compile-time | N/A              |
+| `constinit` | Static/Thread       | **Must be** compile-time | Runtime value OK         | Yes (after init) |
+
+## `const`: Immutability, Not Compile-Time
+
+`const` promises that a variable will not be modified after initialization. It does **not**
+Guarantee compile-time evaluation.
+
+```cpp
+void example(int n) {
+    const int size = n;          // const but runtime value
+    const int buffer_size = 256; // compiler may evaluate at compile time, but not required
+    int arr[buffer_size];        // ERROR: buffer_size is not a constant expression
+}
+```
+
+### `const` at Namespace Scope
+
+A `const` variable at namespace scope has internal linkage by default (unlike `constexpr`):
+
+```cpp
+const int kMaxSize = 1024;    // internal linkage
+constexpr int kMaxRetries = 3; // internal linkage
+
+// To share across translation units:
+extern const int kShared;
+// defined in one TU: const int kShared = 42;
+```
+
+### `const` vs `constexpr` for Integral Constants
+
+```cpp
+const int a = 42;          // usable as constant expression (compiler treats it as one)
+constexpr int b = 42;      // guaranteed constant expression
+
+template<int N>
+struct Array { int data[N]; };
+
+Array<a> x;  // OK: a is a constant expression (initialized with constant)
+Array<b> y;  // OK: b is a constant expression
+
+void f(int n) {
+    const int c = n;   // NOT a constant expression (value not known at compile time)
+    Array<c> z;        // ERROR: c is not a constant expression
+}
+```
+
+The rule: a `const` variable is a constant expression **only if** it is initialized with a constant
+Expression. A `constexpr` variable is **always** a constant expression [N4950 §7.7].
+
+## `constexpr`: Guaranteed Compile-Time Evaluation
+
+`constexpr` (C++11) declares that a variable **must** be initialized with a constant expression, or
+That a function **may** be evaluated at compile time [N4950 §7.7].
+
+### `constexpr` Variables
+
+```cpp
+constexpr int x = 42;                    // compile-time constant
+constexpr double pi = 3.14159265358979;   // compile-time constant
+constexpr int y = x + 1;                  // compile-time: 43
+
+void bad() {
+    int n = 10;
+    constexpr int z = n;  // ERROR: n is not a constant expression
+}
+```
+
+### `constexpr` Functions: Evolution
+
+#### C++11: Single-Statement `constexpr` Functions
+
+```cpp
+constexpr int factorial(int n) {
+    return n <= 1 ? 1 : n * factorial(n - 1);
+}
+
+constexpr int f5 = factorial(5);  // OK: 120, computed at compile time
+int n = 5;
+int f_runtime = factorial(n);     // OK: evaluated at runtime (C++11 allows this)
+```
+
+C++11 `constexpr` functions could only contain a single `return` statement (with conditional
+Expressions and recursion).
+
+#### C++14: Relaxed `constexpr` Functions
+
+C++14 removed the single-return restriction. `constexpr` functions can now contain:
+
+- Local variables
+- Loops (`for``while``do-while`)
+- Multiple statements
+- Mutations of local variables
+
+```cpp
+constexpr int fibonacci(int n) {
+    if (n <= 1) return n;
+    int a = 0, b = 1;
+    for (int i = 2; i <= n; ++i) {
+        int tmp = a + b;
+        a = b;
+        b = tmp;
+    }
+    return b;
+}
+
+constexpr int fib10 = fibonacci(10);  // 55, computed at compile time
+```
+
+#### C++20: Immediate Functions (`consteval`)
+
+`consteval` (also called "immediate functions") **must** be evaluated at compile time. They cannot
 Be called at runtime [N4950 §7.7.5].
 
 ```cpp

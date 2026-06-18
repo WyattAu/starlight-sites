@@ -1,6 +1,60 @@
 ---
 title: "Exchange and Transport -- Diagnostic Tests"
-description: ""s blood in the
+description: "A-Level Biology Exchange and Transport -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Exchange and Transport — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Haemoglobin and the Oxygen Dissociation Curve
+
+**Question:**
+
+The oxygen dissociation curve for adult haemoglobin is sigmoidal (S-shaped). Fetal haemoglobin has a
+dissociation curve that lies to the left of adult haemoglobin.
+
+(a) Explain why the oxygen dissociation curve for adult haemoglobin is sigmoidal rather than a
+straight line.
+
+(b) Describe and explain the **Bohr effect** and its significance for oxygen delivery to actively
+respiring tissues.
+
+(c) Explain why the fetal haemoglobin dissociation curve lies to the left of the adult curve, and
+explain why this is physiologically important.
+
+(d) At high altitude, the partial pressure of oxygen is lower. Over several weeks, the body
+increases its production of red blood cells. Explain the mechanism that triggers this increase and
+how it compensates for the lower oxygen partial pressure.
+
+**Solution:**
+
+(a) The curve is sigmoidal because of **cooperative binding**. Haemoglobin has four haem groups,
+each capable of binding one O$_2$ molecule. When the first O$_2$ molecule binds to one haem group,
+it induces a conformational change in the haemoglobin molecule (quaternary structure change) that
+increases the affinity of the remaining three haem groups for oxygen. This means the second O$_2$
+molecule binds more than the first, the third more than the second, and so on. This positive
+cooperativity produces the characteristic S-shape: a slow initial rise (first O$_2$ binding is
+difficult at low pO$_2$), followed by a steep rise as cooperativity takes effect, and a plateau as
+all four binding sites become occupied.
+
+(b) The **Bohr effect** describes the observation that an increase in CO$_2$ concentration (or a
+decrease in pH) causes the oxygen dissociation curve to shift to the right. In actively respiring
+tissues, CO$_2$ is produced as a waste product of respiration. CO$_2$ diffuses into red blood cells
+and is converted to $\text{HCO}_3^-$ and H$^+$ by carbonic anhydrase:
+$\text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 \rightleftharpoons \text{H}^+ + \text{HCO}_3^-$.
+The increased H$^+$ concentration (lower pH) causes haemoglobin to change shape, reducing its
+affinity for oxygen and promoting oxygen unloading. A rightward shift means that at any given
+pO$_2$Haemoglobin is less saturated with oxygen — it releases oxygen more readily. This ensures that
+tissues with high metabolic rates (high CO$_2$ production) receive more oxygen, precisely where it
+is most needed.
+
+(c) Fetal haemoglobin (HbF) has a higher affinity for oxygen than adult haemoglobin (HbA) at any
+given partial pressure of oxygen, so its dissociation curve lies to the left. This is because fetal
+haemoglobin has a different quaternary structure (it has two gamma chains instead of two beta
+chains), which reduces its sensitivity to the Bohr effect and increases its oxygen affinity. This is
+physiologically important because the fetus must extract oxygen from the mother"s blood in the
 placenta. In the placenta, the pO$_2$ in fetal blood is lower than in maternal blood. If fetal
 haemoglobin had the same affinity as adult haemoglobin, it would not be able to load oxygen
 effectively from maternal blood. The higher affinity of HbF ensures that oxygen diffuses from

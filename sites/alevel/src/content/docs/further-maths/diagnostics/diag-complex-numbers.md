@@ -1,6 +1,34 @@
 ---
 title: "Complex Numbers -- Diagnostic Tests"
-description: ""s Theorem
+description: "A-Level Further Maths Complex Numbers -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Complex Numbers — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Modulus, Argument, and Argand Diagrams
+
+**Question:** (a) Plot $z_1 = 3 + 4i$ and $z_2 = -2 + i$ on an Argand diagram. (b) Calculate
+$|z_1|$$\arg(z_1)$$|z_2|$And $\arg(z_2)$. (c) Express $z_1$ and $z_2$ in modulus-argument form
+$r(\cos\theta + i\sin\theta)$. (d) Calculate $z_1 z_2$ and $z_1/z_2$ using modulus-argument form.
+
+**Solution:**
+
+(b) $|z_1| = \sqrt{9 + 16} = 5$. $\arg(z_1) = \arctan(4/3) \approx 0.927$ rad $= 53.1^\circ$.
+$|z_2| = \sqrt{4 + 1} = \sqrt{5}$. $\arg(z_2) = \pi - \arctan(1/2) \approx \pi - 0.464 = 2.678$ rad
+$= 153.4^\circ$.
+
+(c) $z_1 = 5(\cos 0.927 + i\sin 0.927)$. $z_2 = \sqrt{5}(\cos 2.678 + i\sin 2.678)$.
+
+(d) $z_1 z_2$: $|z_1 z_2| = 5\sqrt{5}$. $\arg(z_1 z_2) = 0.927 + 2.678 = 3.605$ rad.
+$z_1 z_2 = 5\sqrt{5}(\cos 3.605 + i\sin 3.605)$.
+
+$z_1/z_2$: $|z_1/z_2| = 5/\sqrt{5} = \sqrt{5}$. $\arg(z_1/z_2) = 0.927 - 2.678 = -1.751$ rad.
+$z_1/z_2 = \sqrt{5}(\cos(-1.751) + i\sin(-1.751))$.
+
+### UT-2: De Moivre"s Theorem
 
 **Question:** (a) State De Moivre's theorem. (b) Use De Moivre's theorem to find $(1 + i)^8$. (c)
 Find the four fourth roots of $-16$. (d) Verify that the product of all four roots equals $-16$.

@@ -1,6 +1,45 @@
 ---
 title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
-description: ""the most common commuting time is between 35 and 60 minutes." Determine
+description: "Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
+tableOfContents: false
+---
+
+# Paper 2 — Statistics
+
+**Time allowed:** 75 minutes **Total marks:** 50 **Topics covered:** All 5 statistics topics
+
+---
+
+## Instructions
+
+Answer all questions. Calculators are permitted. Show all working — marks are awarded for method as
+well as final answer.
+
+---
+
+## Questions
+
+### Q1 [10 marks] — Data Representation
+
+The frequency distribution below shows the daily commuting times (in minutes) for 200 employees at a
+large company:
+
+| Commuting time $t$ (min) | Frequency |
+| ------------------------ | --------- |
+| $0 \lt t \leq 10$        | 12        |
+| $10 \lt t \leq 20$       | 38        |
+| $20 \lt t \leq 35$       | 56        |
+| $35 \lt t \leq 60$       | 65        |
+| $60 \lt t \leq 90$       | 29        |
+
+**(a)** A student draws a histogram using the frequency on the vertical axis and the commuting time
+on the horizontal axis, making all bars the same width. Explain why this histogram is misleading,
+and state the correct quantity to plot on the vertical axis. [3 marks]
+
+**(b)** Calculate the frequency density for each class and estimate the mean commuting time. [4
+marks]
+
+**(c)** An employee claims "the most common commuting time is between 35 and 60 minutes." Determine
 whether this claim is supported by the data, carefully distinguishing between the class with the
 highest frequency and the class with the highest frequency density. [3 marks]
 

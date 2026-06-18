@@ -1,6 +1,55 @@
 ---
 title: HTTP
-description: ""Content-Type: application/json" -d "{"name":"Alice"}' https://api.example.com/users
+description: "HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents..."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web.
+Originally designed for retrieving hypertext documents (RFC 1945, HTTP/1.0 in 1996), it has evolved
+Into a general-purpose application protocol used for APIs, streaming, IoT communication, and
+Virtually every client-server interaction on the Internet.
+
+This section covers HTTP/1.1 (RFC 9112), HTTP/2 (RFC 9113), HTTP/3 (RFC 9114), and the practical
+Aspects of deploying and debugging HTTP-based services.
+
+## HTTP/1.1
+
+HTTP/1.1 (originally RFC 2616, now obsoleted by RFC 9110-9114) is the foundational version of HTTP.
+Despite being over 25 years old, it remains the most widely deployed version and is still the
+Default for many client-server interactions.
+
+### Methods
+
+HTTP defines methods that indicate the desired action on a resource:
+
+| Method  | Idempotent | Safe | Cacheable   | Purpose                              |
+| ------- | ---------- | ---- | ----------- | ------------------------------------ |
+| GET     | Yes        | Yes  | Yes         | Retrieve a resource                  |
+| HEAD    | Yes        | Yes  | Yes         | Retrieve headers only                |
+| POST    | No         | No   | Conditional | Submit data for processing           |
+| PUT     | Yes        | No   | No          | Replace a resource entirely          |
+| DELETE  | Yes        | No   | No          | Remove a resource                    |
+| PATCH   | No         | No   | No          | Partial modification of a resource   |
+| OPTIONS | Yes        | Yes  | No          | Describe communication options       |
+| TRACE   | Yes        | Yes  | No          | Loop-back test (rarely used)         |
+| CONNECT | No         | No   | No          | Establish a tunnel (e.g., TLS proxy) |
+
+**Idempotent:** Repeating the request produces the same result. `PUT /users/1` with the same payload
+Creates or replaces user 1 -- calling it multiple times has the same effect. `POST /users` creates a
+New user each time.
+
+**Safe:** Does not modify server state. `GET` should never have side effects (though in practice,
+Many APIs violate this).
+
+```bash
+# HTTP methods with curl
+curl -X GET https://api.example.com/users/1
+curl -X POST -H "Content-Type: application/json" -d "{"name":"Alice"}' https://api.example.com/users
 curl -X PUT -H "Content-Type: application/json" -d '{"name":"Alice Updated"}' https://api.example.com/users/1
 curl -X DELETE https://api.example.com/users/1
 curl -X PATCH -H "Content-Type: application/json" -d '{"name":"Bob"}' https://api.example.com/users/1

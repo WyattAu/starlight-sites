@@ -1,6 +1,78 @@
 ---
 title: Data Representation
-description: ""500 GB" hard drive advertised by the
+description: "Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-computer-science
+categories:
+  - gcse-computer-science
+
+---
+
+## Data Representation
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
+## 1. Binary
+
+### 1.1 The Binary Number System
+
+Computers use **binary** (base 2), which has only two digits: 0 and 1. Each binary digit is called a
+**bit** (binary digit).
+
+A group of 8 bits is called a **byte**.
+
+| Bit position | 128   | 64    | 32    | 16    | 8     | 4     | 2     | 1     |
+| ------------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Power of 2   | $2^7$ | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
+
+**Why binary?** Digital circuits are built from transistors, which have two states: on (high
+Voltage) and off (low voltage). These two states map to 1 and 0. Binary arithmetic can be
+Implemented with simple logic gates (AND, OR, NOT), making hardware design tractable.
+
+### 1.2 Converting Between Binary and Denary
+
+**Binary to denary:** Add the values of the positions where there is a 1.
+
+**Worked Example.** Convert 11010110 to denary.
+
+$$128 + 64 + 16 + 4 + 2 = 214$$
+
+**Worked Example.** Convert 01011101 to denary.
+
+$$64 + 16 + 8 + 4 + 1 = 93$$
+
+**Denary to binary:** Find the largest power of 2 that fits, subtract, and repeat.
+
+**Worked Example.** Convert 105 to binary.
+
+$105 - 64 = 41$$41 - 32 = 9$$9 - 8 = 1$$1 - 1 = 0$.
+
+Binary: 1101001.
+
+In 8 bits: 01101001.
+
+**Alternative method: repeated division by 2.** Divide the number by 2 repeatedly and record the
+Remainders. Read the remainders from bottom to top.
+
+**Worked Example.** Convert 214 to binary.
+
+$214 / 2 = 107$ r 0 $107 / 2 = 53$ r 1 $53 / 2 = 26$ r 1 $26 / 2 = 13$ r 0 $13 / 2 = 6$ r 1
+$6 / 2 = 3$ r 0 $3 / 2 = 1$ r 1 $1 / 2 = 0$ r 1
+
+Reading bottom to top: 11010110.
+
+### 1.3 Units of Data
+
+| Unit            | Number of bytes          |
+| --------------- | ------------------------ |
+| 1 Kilobyte (KB) | $2^{10} = 1024$ bytes    |
+| 1 Megabyte (MB) | $2^{20} = 1048576$ bytes |
+| 1 Gigabyte (GB) | $2^{30}$ bytes           |
+| 1 Terabyte (TB) | $2^{40}$ bytes           |
+
+:::caution In computing, kilo means 1024 (not 1000) because computers use binary. However, storage
+Manufacturers often use 1000 for marketing purposes. A "500 GB" hard drive advertised by the
 Manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
 Specifically to powers of 1024.
 

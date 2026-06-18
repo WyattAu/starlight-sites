@@ -7,7 +7,24 @@ tags:
 categories:
   - alevel
   - history
-description: ""s system as an existential threat. This rivalry
+description: "A-Level History The Cold War 1945-1991 notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
+---
+
+# The Cold War 1945-1991
+
+The Cold War defined the second half of the twentieth century. Ideological rivalry between the
+United States and the Soviet Union shaped international relations, triggered proxy wars, and brought
+the world to the brink of nuclear destruction.
+
+## Historical Context and Chronology
+
+The Cold War emerged from the power vacuum created by the defeat of Nazi Germany and Imperial Japan
+in 1945. The wartime alliance between the USA, USSR, and Britain was always one of convenience
+against a common enemy. Once that enemy was defeated, fundamental ideological and geopolitical
+differences came to the fore.
+
+The United States represented liberal democracy and capitalism; the Soviet Union embodied communism
+and state-planned economics. Each viewed the other"s system as an existential threat. This rivalry
 was expressed through an arms race, espionage, proxy wars, propaganda, and a competition for
 influence across the globe — but crucially, the two superpowers never fought each other directly,
 hence the term "Cold" War.

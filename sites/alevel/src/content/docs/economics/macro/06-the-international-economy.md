@@ -1,6 +1,21 @@
 ---
 title: The International Economy
-description: ""s trade relationships. **OCR (A)** covers trade theory alongside
+description: "Numerical examples and covers the Ricardian and Heckscher-Ohlin models. focuses on the gains From trade and limitations of the comparative advantage model...."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## 1. International Trade: Comparative Advantage
+
+:::info Board-Specific Note **CIE (9708)** requires formal proof of comparative advantage using
+Numerical examples and covers the Ricardian and Heckscher-Ohlin models. **AQA** focuses on the gains
+From trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
+Analysis of trade flows and the UK"s trade relationships. **OCR (A)** covers trade theory alongside
 The impact of MNCs and requires evaluation of trade policies.
 :::
 

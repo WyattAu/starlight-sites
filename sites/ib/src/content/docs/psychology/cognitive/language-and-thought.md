@@ -1,6 +1,29 @@
 ---
 title: Language and Thought
-description: ""s language.
+description: "The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is..."
+
+---
+
+## Introduction
+
+The relationship between language and thought is one of the most fundamental questions in cognitive
+Psychology and linguistics. The central question is whether language shapes thought (the linguistic
+Relativity hypothesis) or whether thought is independent of language (the universalist position).
+This debate has implications for understanding cultural differences in cognition, the nature of
+Concepts, and the relationship between language and perception.
+
+## The Sapir-Whorf Hypothesis
+
+### Strong and Weak Versions
+
+The Sapir-Whorf hypothesis, named after the linguists Edward Sapir and Benjamin Lee Whorf, proposes
+That the structure of a language influences how its speakers perceive and think about the world. The
+Hypothesis exists in two versions:
+
+**Strong version (linguistic determinism):** Language determines thought. Speakers of different
+Languages necessarily perceive and think about the world in fundamentally different ways because the
+Categories available in their language constrain what they can think. According to this strong
+Version, it is impossible to think thoughts that cannot be expressed in one"s language.
 
 **Weak version (linguistic relativity):** Language influences thought. The structure and vocabulary
 Of a language affect habitual patterns of thinking, perception, and attention, but do not strictly

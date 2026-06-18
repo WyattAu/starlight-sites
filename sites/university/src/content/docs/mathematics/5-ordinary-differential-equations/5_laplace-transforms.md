@@ -3,7 +3,28 @@ title: Laplace Transforms
 tags:
   - Mathematics
   - University
-description: ""(t)\} = sF(s) - f(0)$.
+description: "Laplace Transforms: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 5.1 Definition
+
+The **Laplace transform** of $f(t)$ (defined for $t \geq 0$) is
+
+$$\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t)\, dt$$
+
+The transform exists when $f$ is piecewise continuous on $[0, \infty)$ and of **exponential order**:
+$|f(t)| \leq Me^{at}$ for some $M, a > 0$.
+
+### 5.2 Basic Properties
+
+**Theorem 5.1 (Linearity).** $\mathcal{L}\{af + bg\} = a\mathcal{L}\{f\} + b\mathcal{L}\{g\}$.
+
+**Theorem 5.2 (First Shifting).** $\mathcal{L}\{e^{at}f(t)\} = F(s - a)$.
+
+**Theorem 5.3 (Second Shifting).** $\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)$Where $u_c(t)$ is
+The unit step function.
+
+**Theorem 5.4 (Derivative).** $\mathcal{L}\{f"(t)\} = sF(s) - f(0)$.
 
 **Theorem 5.5 (n-th Derivative).**
 $\mathcal{L}\{f^{(n)}(t)\} = s^n F(s) - s^{n-1}f(0) - \cdots - f^{(n-1)}(0)$.

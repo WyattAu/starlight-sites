@@ -1,6 +1,23 @@
 ---
 title: Definitions
-description: ""◆RB◆P◆LB◆◆RB◆'◆RB◆(S)$ of set $S$ is the set of all subsets of $S$.
+description: "To understand the basis for probability theory, it is important to fully understand every term used. Here are the definitions for the terms we will be..."
+date: 2026-01-15T09:31:35.184Z
+tags:
+  - ML
+categories:
+  - ML
+
+---
+
+To understand the basis for probability theory, it is important to fully understand every term used.
+Here are the definitions for the terms we will be using, refer back to this page if there are any
+confusion on terminology.
+
+## Sets and Relations
+
+### Power Set
+
+A power set $\mathcal◆LB◆◆LB◆"◆RB◆P◆LB◆◆RB◆'◆RB◆(S)$ of set $S$ is the set of all subsets of $S$.
 For example, let $S = \{1,2,3\}$The power set of $S$ will be
 $\mathcal◆LB◆◆LB◆'◆RB◆P◆LB◆◆RB◆'◆RB◆(S) = \{\emptyset, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}$
 

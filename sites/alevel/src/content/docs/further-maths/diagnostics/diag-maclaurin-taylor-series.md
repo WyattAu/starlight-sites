@@ -1,6 +1,43 @@
 ---
 title: "Maclaurin and Taylor Series -- Diagnostic Tests"
-description: ""(x) = -\sin x$$f'(0) = 0$. $f''(x) = -\cos x$$f''(0) = -1$.
+description: "A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Maclaurin and Taylor Series — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Standard Maclaurin Expansions
+
+**Question:** Write the Maclaurin series up to the $x^4$ term for: (a) $e^x$(b) $\ln(1 + x)$(c)
+$\sin x$(d) $(1 + x)^n$.
+
+**Solution:**
+
+(a)
+$e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \cdots = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24} + \cdots$
+
+(b) $\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots$ (valid for
+$-1 \lt x \le 1$).
+
+(c)
+$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots = x - \frac{x^3}{6} + \frac{x^5}{120} - \cdots$
+(valid for all $x$).
+
+(d)
+$(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \frac{n(n-1)(n-2)(n-3)}{4!}x^4 + \cdots$
+(valid for $|x| \lt 1$).
+
+### UT-2: Maclaurin Series from First Principles
+
+**Question:** (a) Find the Maclaurin series of $\cos x$ up to $x^6$. (b) Find the Maclaurin series
+of $e^{2x}$ up to $x^4$. (c) Find the Maclaurin series of $\frac{1}{1-x}$ and state its radius of
+convergence. (d) Use the series for $\frac{1}{1-x}$ to find the series for $\frac{1}{1+x^2}$.
+
+**Solution:**
+
+(a) $f(x) = \cos x$$f(0) = 1$. $f"(x) = -\sin x$$f'(0) = 0$. $f''(x) = -\cos x$$f''(0) = -1$.
 $f'''(x) = \sin x$$f'''(0) = 0$. $f^{(4)}(x) = \cos x$$f^{(4)}(0) = 1$.
 $f^{(5)}(0) = 0$$f^{(6)}(0) = -1$.
 

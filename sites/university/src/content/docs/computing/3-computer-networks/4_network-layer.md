@@ -3,7 +3,23 @@ title: Network Layer
 tags:
   - Computing
   - University
-description: ""t Fragment), MF (More Fragments)      |
+description: "An IPv4 address is a 32-bit number in dotted-decimal: . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 4.1 IPv4 Addressing
+
+An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
+
+**IPv4 header format (20 bytes minimum):**
+
+| Field          | Size    | Description                                   |
+| -------------- | ------- | --------------------------------------------- |
+| Version        | 4 bits  | Always 4                                      |
+| IHL            | 4 bits  | Header length in 32-bit words (5 = 20 bytes)  |
+| DSCP/ECN       | 8 bits  | Differentiated services / Explicit congestion |
+| Total Length   | 16 bits | Entire packet size (header + data)            |
+| Identification | 16 bits | Unique ID for fragments of the same datagram  |
+| Flags          | 3 bits  | DF (Don"t Fragment), MF (More Fragments)      |
 | Fragment Off.  | 13 bits | Offset in 8-byte units                        |
 | TTL            | 8 bits  | Time to live; decremented by each router      |
 | Protocol       | 8 bits  | Upper-layer protocol (6=TCP, 17=UDP, 1=ICMP)  |

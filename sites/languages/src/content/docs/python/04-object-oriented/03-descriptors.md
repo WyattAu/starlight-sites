@@ -1,6 +1,23 @@
 ---
 title: Descriptors and Properties
-description: ""s attribute lookup.
+description: "Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or ."
+
+---
+
+## Descriptor Protocol
+
+Descriptors are the mechanism behind `property``classmethod``staticmethod`And the entire Attribute
+access system in Python. A descriptor is any object that implements at least one of
+`__get__``__set__`Or `__delete__`.
+
+### Data vs Non-Data Descriptors
+
+| Type                | Methods                               | Behavior                                       |
+| ------------------- | ------------------------------------- | ---------------------------------------------- |
+| Non-data descriptor | `__get__` only                        | Instance attribute takes precedence            |
+| Data descriptor     | `__get__` + `__set__` or `__delete__` | Descriptor always wins over instance attribute |
+
+This distinction is fundamental to understanding Python"s attribute lookup.
 
 ```python
 class NonDataDescriptor:

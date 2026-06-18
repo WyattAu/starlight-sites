@@ -1,6 +1,24 @@
 ---
 title: Generics and Type Erasure
-description: ""Alice");
+description: "Before generics (JDK 5, 2004), the Java collections API worked with . Every retrieval Required a cast, and the compiler could not verify that you were..."
+date: 2026-04-04T00:00:00.000Z
+tags:
+  - Java
+categories:
+  - Java
+
+---
+
+## Why Generics
+
+### Before Java 5: Raw Types and Casting
+
+Before generics (JDK 5, 2004), the Java collections API worked with `Object`. Every retrieval
+Required a cast, and the compiler could not verify that you were putting the right type in:
+
+```java
+List names = new ArrayList();
+names.add("Alice");
 names.add(42);                  // compiles fine, bug at runtime
 String name = (String) names.get(1); // ClassCastException at runtime
 ```

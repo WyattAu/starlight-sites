@@ -1,6 +1,38 @@
 ---
 title: Irish LC Physics
-description: ""s law, electromagnetism, and semiconductor devices.
+description: "Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills..."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-physics
+categories:
+  - ilc-physics
+
+---
+
+# Irish LC Physics
+
+Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The
+course develops analytical and problem-solving skills through mathematical modelling of physical
+phenomena.
+
+## Topics
+
+### Mechanics
+
+Kinematics, forces, momentum, energy, circular motion, and gravity.
+
+→ **[Full notes](1-mechanics/1_mechanics.mdx)**
+
+### Light & Waves
+
+Wave properties, refraction, diffraction, interference, sound, and the electromagnetic spectrum.
+
+→ **[Full notes](2-waves/2_waves.md)**
+
+### Electricity
+
+Static electricity, circuits, Ohm"s law, electromagnetism, and semiconductor devices.
 
 → **[Full notes](3-electricity/3_electricity.mdx)**
 

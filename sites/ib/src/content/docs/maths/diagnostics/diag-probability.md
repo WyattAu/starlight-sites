@@ -1,6 +1,26 @@
 ---
 title: "Probability -- Diagnostic Tests"
-description: ""the first ball is red" and $B$ be "the second ball is red." A student claims
+description: "IB Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
+tableOfContents: false
+---
+
+# Probability — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and misconceptions for probability.
+
+### UT-1: Conditional Probability vs Independence Confusion
+
+**Question:**
+
+A bag contains 5 red and 3 blue balls. Two balls are drawn without replacement.
+
+**(a)** Find the probability that both balls are red.
+
+**(b)** Find the probability that the second ball is red.
+
+**(c)** Let $A$ be "the first ball is red" and $B$ be "the second ball is red." A student claims
 that since $P(A) = \frac{5}{8}$ and $P(B) = \frac{5}{8}$The events are independent. Explain the
 error.
 

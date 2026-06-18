@@ -1,6 +1,28 @@
 ---
 title: "Current Electricity -- Diagnostic Tests"
-description: ""resistance" of the diode at $V = 6.0\,\text{V}$.
+description: "IB Physics Current Electricity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Current Electricity — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: I-V Characteristics and Non-Ohmic Components
+
+**Question:**
+
+A filament lamp and a semiconductor diode are connected in parallel across a variable power supply.
+The I-V characteristic of the lamp follows $I_L = 0.50V^{0.5}\,\text{A}$ (for $V \gt 0$) and the
+diode follows $I_D = 10^{-6}(e^{V/0.026} - 1)\,\text{A}$ ( Shockley equation with
+$I_0 = 1.0\,\mu\text{A}$).
+
+(a) Calculate the current through each component when the supply voltage is $6.0\,\text{V}$.
+
+(b) Calculate the total current from the supply and the effective resistance of the parallel
+combination at $V = 6.0\,\text{V}$.
+
+(c) A student uses $R = V/I$ to calculate the "resistance" of the diode at $V = 6.0\,\text{V}$.
 Explain why this is misleading and calculate the correct dynamic resistance.
 
 **Solution:**

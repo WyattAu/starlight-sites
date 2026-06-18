@@ -1,6 +1,30 @@
 ---
 title: "Vectors -- Diagnostic Tests"
-description: ""Since the direction vectors are not scalar multiples, the lines must
+description: "IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
+tableOfContents: false
+---
+
+# Vectors — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for vectors.
+
+### UT-1: Skew Lines — Classification and Shortest Distance
+
+**Question:**
+
+Two lines are given by:
+
+$$L_1: \mathbf{r} = \begin{pmatrix} 1 \\ 2 \\ 0 \end{pmatrix} + \lambda \begin{pmatrix} 2 \\ 1 \\ -1 \end{pmatrix}$$
+
+$$L_2: \mathbf{r} = \begin{pmatrix} 3 \\ 1 \\ 4 \end{pmatrix} + \mu \begin{pmatrix} 1 \\ -1 \\ 2 \end{pmatrix}$$
+
+**(a)** Determine whether $L_1$ and $L_2$ are parallel, intersecting, or skew.
+
+**(b)** If skew, find the shortest distance between them.
+
+**(c)** A student claims: "Since the direction vectors are not scalar multiples, the lines must
 intersect." Explain why this reasoning is wrong.
 
 [Difficulty: hard. Tests classification of lines in 3D and computation of shortest distance between

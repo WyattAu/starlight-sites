@@ -1,6 +1,72 @@
 ---
 title: Argument Deduction (Class and Function)
-description: ""T deduced as: ";
+description: "Template argument deduction allows the compiler to infer template parameters from the types of Arguments provided at call sites or construction sites. This..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Argument Deduction (Class and Function)
+
+Template argument deduction allows the compiler to infer template parameters from the types of
+Arguments provided at call sites or construction sites. This section covers function template
+Argument deduction, class template argument deduction (CTAD, C++17), and explicit deduction guides.
+
+## Function Template Argument Deduction
+
+The compiler deduces template arguments from the types of function call arguments [N4950 S13.8.2.1].
+The deduction rules follow pattern matching against the parameter types.
+
+```cpp
+#include <iostream>
+#include <type_traits>
+
+template <typename T>
+T add(T a, T b) {
+    return a + b;
+}
+
+template <typename T, typename U>
+auto multiply(T a, U b) -> decltype(a * b) {
+    return a * b;
+}
+
+int main() {
+    add(1, 2);           // T = int (both args are int)
+    add(1.0, 2.0);       // T = double
+    // add(1, 2.0);      // ERROR: T cannot be both int and double
+
+    multiply(3, 2.5);    // T = int, U = double; return type is double
+
+    // Explicit template arguments override deduction [N4950 S13.8.2.1]
+    add<double>(1, 2.0); // T explicitly set to double; OK
+}
+```
+
+Deduction can fail in several ways: contradictory deductions from different arguments, no viable
+Specialization, or ambiguous partial ordering.
+
+## Deduction Rules in Detail
+
+The deduction process treats each function parameter as a pattern and tries to match the argument
+Type against it. The rules are:
+
+1. **Top-level CV-qualifiers are stripped** from the argument before matching.
+2. **References are not deduced differently** from non-references at the top level -- `T&` and `T`
+   deduce the same `T`.
+3. **Array-to-pointer decay** and **function-to-pointer decay** apply to arguments.
+4. Each deduced template parameter must produce a **consistent type** across all deduction sites.
+
+```cpp
+#include <iostream>
+#include <type_traits>
+
+template <typename T>
+void f(T param) {
+    std::cout << "T deduced as: ";
     if constexpr (std::is_same_v<T, int>) std::cout << "int\n";
     else if constexpr (std::is_same_v<T, int*>) std::cout << "int*\n";
     else if constexpr (std::is_same_v<T, const int>) std::cout << "const int\n";

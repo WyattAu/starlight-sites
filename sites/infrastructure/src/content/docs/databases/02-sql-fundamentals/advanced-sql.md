@@ -1,6 +1,86 @@
 ---
 title: Advanced SQL
-description: ""1 PRECEDING" in RANGE means "ORDER BY value - 1"
+description: "Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision."
+
+---
+
+## Window Functions Deep Dive
+
+Window functions compute values across a set of rows related to the current row without collapsing
+The result set. This section covers the framing mechanics, exclusion clauses, window groups, and
+Window chains that give window functions their full power.
+
+### Window Function Anatomy
+
+```sql
+function_name([arguments]) OVER (
+    [window_name]
+    [PARTITION BY partition_expr, ...]
+    [ORDER BY sort_expr [ASC|DESC] [NULLS {FIRST|LAST}], ...]
+    [frame_clause]
+)
+```
+
+The three optional components -- partitioning, ordering, and framing -- work together to define the
+Set of rows visible to the function.
+
+### Framing Clauses
+
+The frame clause defines the subset of rows within the partition that the function sees. It is only
+Meaningful when `ORDER BY` is present (without `ORDER BY`The default frame is the entire Partition).
+
+```sql
+-- Frame boundaries
+ROWS BETWEEN start AND end
+RANGE BETWEEN start AND end
+GROUPS BETWEEN start AND end
+
+-- Start/end boundary options:
+-- UNBOUNDED PRECEDING  -- first row of partition
+-- UNBOUNDED FOLLOWING  -- last row of partition
+-- n PRECEDING          -- n rows before current row
+-- n FOLLOWING          -- n rows after current row
+-- CURRENT ROW          -- current row
+```
+
+**ROWS** counts physical rows. **RANGE** counts logical peers (rows with the same `ORDER BY` value).
+**GROUPS** counts distinct peer groups.
+
+```sql
+-- Running total (ROWS: 3-row moving sum)
+SELECT order_date, amount,
+    SUM(amount) OVER (
+        ORDER BY order_date
+        ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+    ) AS rolling_3day
+FROM daily_sales;
+
+-- Cumulative total (ROWS: all rows from start)
+SELECT order_date, amount,
+    SUM(amount) OVER (
+        ORDER BY order_date
+        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+    ) AS cumulative
+FROM daily_sales;
+```
+
+### ROWS vs RANGE vs GROUPS
+
+The distinction matters when there are ties in the `ORDER BY` column:
+
+```sql
+-- Given data with duplicate dates:
+-- 2024-01-01 | 100
+-- 2024-01-01 | 200
+-- 2024-01-02 | 150
+-- 2024-01-03 | 300
+
+-- ROWS BETWEEN 1 PRECEDING AND CURRENT ROW
+-- For row 2 (2024-01-01, 200): sees rows 1 and 2 → SUM = 300
+-- For row 3 (2024-01-02, 150): sees rows 2 and 3 → SUM = 350
+
+-- RANGE BETWEEN 1 PRECEDING AND CURRENT ROW
+-- "1 PRECEDING" in RANGE means "ORDER BY value - 1"
 -- For row 2 (date=Jan 1): sees all rows where date >= Jan 0 → sees rows 1, 2 → SUM = 300
 -- For row 3 (date=Jan 2): sees all rows where date >= Jan 1 → sees rows 1, 2, 3 → SUM = 650
 

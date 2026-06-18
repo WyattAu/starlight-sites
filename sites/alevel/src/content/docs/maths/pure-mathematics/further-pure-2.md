@@ -1,6 +1,33 @@
 ---
 title: Further Pure Mathematics 2
-description: ""s Relation
+description: "| Board | Paper | Notes | | ---------- | ----------- | ------------------------------------------------------ | | AQA | Paper 2 | Groups, further complex,..."
+date: 2026-05-31
+tags:
+  - Maths
+  - ALevel
+  - FurtherPure
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper       | Notes                                                  |
+| ---------- | ----------- | ------------------------------------------------------ |
+| AQA        | Paper 2     | Groups, further complex, Maclaurin series, further DEs |
+| Edexcel    | FP2         | Series, further complex, 1st/2nd order DEs, conics     |
+| OCR (A)    | Pure Core 2 | Groups, Maclaurin, polar area, vectors, conics         |
+| CIE (9709) | Paper 3     | Complex, vectors, further calculus, conics             |
+
+:::info This is advanced content in most cases appearing in the second year of Further Mathematics.
+Ensure full mastery of Further Pure 1 before proceeding.
+
+<hr />
+
+## 1. Further Complex Numbers
+
+### 1.1 Euler"s Relation
 
 Euler's relation connects the exponential and trigonometric functions:
 

@@ -2,7 +2,10 @@
 title: Common Pitfalls
 tags:
   - University Maths
-description: ""Arbitrary intersections of open sets are open."** False. Only finite intersections are
+description: "1. False. Only finite intersections are guaranteed. Counterexample: in , , which Comprehensive educational content coverage with definitions and practice proble"
+---
+
+1. **"Arbitrary intersections of open sets are open."** False. Only finite intersections are
    guaranteed. Counterexample: in $\mathbb{R}$, $\bigcap_{n=1}^\infty (-1/n, 1/n) = \{0\}$, which is
    not open.
 

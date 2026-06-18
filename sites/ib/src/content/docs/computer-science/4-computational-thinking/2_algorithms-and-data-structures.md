@@ -1,6 +1,64 @@
 ---
 title: Algorithms and Data Structures
-description: ""Hello, ", name
+description: "Rigorous IB computer science notes covering Algorithms and Data Structures. Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - IB
+categories:
+  - ib
+---
+
+## Algorithmic Thinking
+
+### The Four Pillars of Computational Thinking
+
+Computational thinking is the process of formulating problems and their solutions so that the
+Solutions are representable as information-processing steps that can be executed by an
+Information-processing agent. The IB syllabus identifies four foundational pillars: decomposition,
+Pattern recognition, abstraction, and algorithm design.
+
+**Decomposition** is the practice of breaking a complex problem into smaller, more manageable
+Sub-problems. Each sub-problem can be solved independently and the solutions composed back together.
+For instance, building a search engine requires decomposing the system into a web crawler, an
+Indexer, a ranking algorithm, and a query parser. Decomposition enables parallel development,
+Simplifies testing, and makes large problems tractable.
+
+**Pattern recognition** involves identifying similarities or recurring themes within or across
+Problems. Once a pattern is identified, the same solution strategy can be reused. In sorting, the
+Recurring sub-problem of placing one element in its correct position relative to already-sorted
+Elements appears in insertion sort; the same pattern of comparing adjacent elements appears in
+Bubble sort. Recognizing that two problems share a structural pattern allows the transfer of proven
+Techniques.
+
+**Abstraction** is the process of filtering out irrelevant details and focusing on the essential
+Characteristics of a problem. A map abstracts away individual buildings and trees to show roads and
+Boundaries; similarly, an algorithm abstracts away hardware specifics to describe logic. In
+Computational thinking, abstraction means defining what data is needed and how it transforms,
+Without specifying every low-level operation. This enables the creation of general-purpose
+Solutions.
+
+**Algorithm design** is the construction of a step-by-step procedure that solves a given problem. A
+Well-designed algorithm must be unambiguous, finite (terminating), and correct. Design techniques
+Include brute force, greedy strategies, divide and conquer, dynamic programming, and backtracking.
+The IB syllabus primarily examines the first three.
+
+### Pseudocode Conventions (IB Style)
+
+The IB uses a specific pseudocode standard that must be understood for examinations. The key
+Conventions are as follows.
+
+**Variable assignment** uses the left arrow:
+
+```python
+count ← 0
+total ← total + 1
+```
+
+**Input and output** use the keywords `INPUT` and `OUTPUT`:
+
+```python
+INPUT name
+OUTPUT "Hello, ", name
 ```
 
 **Selection** uses `IF ... THEN ... ELSE ... END IF`:

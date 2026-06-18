@@ -1,6 +1,42 @@
 ---
 title: "Organic Chemistry Introduction -- Diagnostic Tests"
-description: ""-diol" is used with locants separated by commas.
+description: "A-Level Organic Chemistry Introduction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Organic Chemistry Introduction — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: IUPAC Nomenclature with Complex Substituents
+
+**Question:**
+
+Give the IUPAC name for each of the following compounds:
+
+(a) $\text{CH}_3\text{CH}(\text{CH}_3)\text{CH}_2\text{CH}(\text{Cl})\text{CH}_2\text{CH}_3$
+
+(b) $\text{CH}_3\text{CH}=\text{C}(\text{CH}_3)\text{CH}_2\text{CH}_3$
+
+(c) $\text{HOCH}_2\text{CH}_2\text{CH}(\text{OH})\text{CH}_3$
+
+**Solution:**
+
+(a) **3-chloro-2-methylhexane**
+
+Working: The longest carbon chain is 6 carbons (hexane). Number from the end that gives the lowest
+locants to substituents. Numbering from the left: Cl at C-3, methyl at C-2. Alphabetical order:
+chloro before methyl.
+
+(b) **2-methylpent-2-ene**
+
+Working: The longest chain containing the double bond is 5 carbons (pent-2-ene). The methyl group is
+at C-2 (same carbon as the double bond). Alphabetical: methyl is the only substituent.
+
+(c) **pentane-1,3-diol**
+
+Working: The longest chain is 5 carbons (pentane). The two $-$OH groups are at C-1 and C-3. The
+suffix "-diol" is used with locants separated by commas.
 
 ---
 

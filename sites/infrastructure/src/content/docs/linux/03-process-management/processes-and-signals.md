@@ -1,6 +1,31 @@
 ---
 title: Processes and Signals
-description: ""/bin/program")
+description: "Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The..."
+
+---
+
+## Process Lifecycle
+
+Every running program in Linux is a **process** — an instance of an executing program with its own
+Virtual address space, file descriptors, and execution context. The kernel manages processes through
+A `task_struct` (in `include/linux/sched.h`), which tracks PID, state, scheduling priority, open
+Files, signal handlers, and more.
+
+### Creating Processes: `fork``exec``wait`
+
+The POSIX process creation model consists of three operations:
+
+```mermaid
+sequenceDiagram
+    participant Parent as Parent Process
+    participant Kernel as Kernel
+    participant Child as Child Process
+
+    Parent->>Kernel: fork()
+    Kernel-->>Parent: Returns child_pid
+    Kernel-->>Child: Returns 0
+    Note over Parent,Child: Both processes execute from here
+    Child->>Kernel: exec("/bin/program")
     Note over Child: Child"s memory replaced with new program
     Parent->>Kernel: waitpid(child_pid)
     Kernel-->>Parent: Returns child exit status

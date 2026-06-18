@@ -1,6 +1,93 @@
 ---
 title: Polynomials
-description: ""s Triangle
+description: "A polynomial in one variable is an expression of the form Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2025-06-03T13:29:40.310Z
+tags:
+  - Maths
+  - DSE
+categories:
+  - Maths
+
+---
+
+A polynomial in one variable $x$ is an expression of the form
+$a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0$Where $n \in \mathbb{N}_0$
+$a_n, a_{n-1}, \ldots, a_0 \in \mathbb{R}$And $a_n \neq 0$. Polynomials and their manipulation Form
+a core part of the DSE compulsory mathematics syllabus, with applications ranging from Algebraic
+identities to combinatorial coefficient extraction.
+
+## Polynomial Basics
+
+### Definition and Terminology
+
+A polynomial $f(x)$ of degree $n$ is written in **standard form** (descending powers of $x$):
+
+$$
+F(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0, \quad a_n \neq 0
+$$
+
+- $a_n$ is the **leading coefficient**.
+- $a_0$ is the **constant term**.
+- The **degree** of $f(x)$ is the highest power of $x$ with a non-zero coefficient.
+- A polynomial of degree 0 is a non-zero constant; the zero polynomial has undefined degree.
+
+### Polynomial Identities
+
+A polynomial identity is an equality that holds for all values of the variable. Two polynomials
+$f(x)$ and $g(x)$ are identical (written $f(x) \equiv g(x)$) if and only if the coefficients of
+Corresponding powers of $x$ are equal.
+
+<details>
+<summary>Key identities at DSE level</summary>
+- $(a+b)^2 = a^2 + 2ab + b^2$
+- $(a-b)^2 = a^2 - 2ab + b^2$
+- $(a+b)(a-b) = a^2 - b^2$
+- $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
+- $(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$
+- $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$
+- $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$
+- $a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2 + b^2 + c^2 - ab - bc - ca)$
+
+</details>
+<summary>Example: Using the method of undetermined coefficients</summary>
+Find constants $A$, $B$, $C$ such that $x^2 + 4x + 6 \equiv A(x-1)^2 + B(x-1) + C$.
+
+Expanding the right-hand side:
+
+$$
+A(x^2 - 2x + 1) + Bx - B + C = Ax^2 + (-2A + B)x + (A - B + C)
+$$
+
+Equating coefficients:
+
+- $x^2$: $A = 1$
+- $x$: $-2A + B = 4 \implies B = 6$
+- constant: $A - B + C = 6 \implies 1 - 6 + C = 6 \implies C = 11$
+
+Therefore $x^2 + 4x + 6 \equiv (x-1)^2 + 6(x-1) + 11$.
+
+---
+
+## Binomial Theorem
+
+### Statement
+
+For any positive integer $n$
+
+$$
+(a + b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k
+$$
+
+Where the **binomial coefficient** is
+
+$$
+\binom{n}{k} = _n C_k = \frac{n!}{k!(n-k)!}
+$$
+
+This is known as the **Binomial Theorem**. See also
+[combinatorial notation](../compulsory/13_permutations-and-combinations#combinations).
+
+### Pascal"s Triangle
 
 The binomial coefficients $\binom{n}{k}$ for successive values of $n$ form Pascal's triangle:
 

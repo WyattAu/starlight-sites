@@ -1,6 +1,31 @@
 ---
 title: Atomic Structure and Periodicity
-description: ""s model was
+description: "| Scientist | Contribution | | ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter..."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-chemistry
+categories:
+  - ap-chemistry
+
+---
+
+## Atomic Theory and Structure (CED Unit 1)
+
+### Key Historical Developments
+
+| Scientist   | Contribution                                                         |
+| ----------- | -------------------------------------------------------------------- |
+| Dalton      | Atomic theory: all matter composed of indivisible atoms              |
+| Thomson     | Cathode ray experiment; discovered the electron (plum pudding model) |
+| Rutherford  | Gold foil experiment; discovered the nucleus                         |
+| Bohr        | Quantized energy levels for hydrogen                                 |
+| de Broglie  | Wave-particle duality: $\lambda = \frac{h}{mv}$                      |
+| Heisenberg  | Uncertainty principle: $\Delta x \cdot \Delta p \ge \frac{h}{4\pi}$  |
+| Schrodinger | Wave equation for the electron (quantum mechanical model)            |
+
+Each model was superseded because it failed to explain new experimental observations. Dalton could
+Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford"s model was
 Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
 For electrons rather than definite orbits.

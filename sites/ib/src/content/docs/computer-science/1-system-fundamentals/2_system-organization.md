@@ -1,6 +1,26 @@
 ---
 title: System In Organizations
-description: ""flowchart": {"layout": "circular"}}}%%
+description: "Rigorous IB computer science notes covering System In Organizations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
+date: 2024-01-01T00:00:00Z
+tags:
+  - CS
+categories:
+  - ib
+---
+
+## Planning and System Installation
+
+### Computer System
+
+A computer system is a broad term given to a system including the hardware, software, users, and the
+Immediate environment.
+
+### System Life Cycle
+
+System life cycle is the stages carried out when developing a new system.
+
+```mermaid
+%%{init: {"flowchart": {"layout": "circular"}}}%%
 graph LR;
     Analysis-->Design-->Implementation-->Operation-->Maintenance-->Analysis
 

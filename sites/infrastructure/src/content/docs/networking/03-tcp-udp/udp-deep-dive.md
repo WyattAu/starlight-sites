@@ -1,6 +1,42 @@
 ---
 title: UDP Deep Dive
-description: ""not specified."                        |
+description: "UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees...."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite:
+An 8-byte header, no handshake, no state, no guarantees. Despite (or because of) this simplicity,
+UDP is the foundation for some of the most critical and high-performance protocols on the Internet.
+DNS, DHCP, NTP, SNMP, streaming media, gaming, VPNs, and QUIC all ride on UDP.
+
+This document dissects UDP internals, explains when and why UDP is the right choice, covers
+Broadcast and multicast, and examines the reliability patterns that UDP-based protocols implement at
+The application layer.
+
+## UDP Header Structure
+
+The UDP header is exactly 8 bytes -- the minimum of any transport protocol:
+
+```
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|          Source Port          |       Destination Port        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|            Length             |           Checksum            |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    data (variable length)                    |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```
+
+| Field            | Bits | Description                                                                         |
+| ---------------- | ---- | ----------------------------------------------------------------------------------- |
+| Source Port      | 16   | Optional. Identifies the sender. Zero means "not specified."                        |
 | Destination Port | 16   | Required. Identifies the intended receiver.                                         |
 | Length           | 16   | Total UDP datagram length: header (8) + data. Minimum 8. Maximum 65535.             |
 | Checksum         | 16   | Coverage includes pseudo-header + UDP header + data. Zero = "no check" (IPv4 only). |

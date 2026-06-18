@@ -1,6 +1,36 @@
 ---
 title: Programming Fundamentals
-description: ""Springfield High"
+description: "Rigorous IB computer science notes covering Programming Fundamentals. Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - IB
+categories:
+  - ib
+---
+
+## Variables, Constants, and Data Types
+
+### Variables
+
+A variable is a named storage location in memory whose value can change during program execution. A
+Variable has a name (identifier), a data type (which determines the kind of data it can hold and how
+Much memory it occupies), and a value (the data currently stored).
+
+**Declaration** allocates memory for the variable and associates a name with that location.
+**Initialization** assigns an initial value at the point of declaration. **Assignment** changes the
+Value stored in the variable after it has been declared.
+
+### Constants
+
+A constant is a named storage location whose value cannot change after initialization. Constants
+Make programs more readable and maintainable by replacing magic numbers with meaningful names. In IB
+Pseudocode, constants are declared with the `CONSTANTS` keyword.
+
+```python
+CONSTANTS
+  MAX_STUDENTS ← 30
+  TAX_RATE ← 0.15
+  SCHOOL_NAME ← "Springfield High"
 ```
 
 Attempting to reassign a constant is a logic error (or a compilation error in statically typed

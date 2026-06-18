@@ -1,6 +1,16 @@
 ---
 title: Graph Algorithms
-description: ""s Algorithm (Revisited)
+description: "See for the full treatment. Here we Provide additional detail on the priority qu Comprehensive educational content coverage with definitions and practice proble"
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Dijkstra"s Algorithm (Revisited)
 
 See [Graphs](/docs/alevel/computer-science/data-structures/graphs) for the full treatment. Here we
 Provide additional detail on the priority queue implementation and A\* extension.

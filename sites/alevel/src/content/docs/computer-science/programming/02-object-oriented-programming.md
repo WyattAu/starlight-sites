@@ -1,6 +1,105 @@
 ---
 title: Object-Oriented Programming
-description: ""is-a" relationship.
+description: "A is a blueprint (template) that defines the structure and behaviour of objects. An is an of a class — a concrete entity with specific values for the..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Classes and Objects
+
+### Definition
+
+A **class** is a blueprint (template) that defines the structure and behaviour of objects. An
+**object** is an **instance** of a class — a concrete entity with specific values for the attributes
+Defined by the class.
+
+### Python Implementation
+
+```python
+class BankAccount:
+    def __init__(self, account_number, owner, balance=0.0):
+        self._account_number = account_number
+        self._owner = owner
+        self._balance = balance
+
+    def deposit(self, amount):
+        if amount > 0:
+            self._balance += amount
+
+    def withdraw(self, amount):
+        if 0 < amount <= self._balance:
+            self._balance -= amount
+            return True
+        return False
+
+    def get_balance(self):
+        return self._balance
+```
+
+### Class vs Instance
+
+| Concept  | Class                 | Instance (Object)         |
+| -------- | --------------------- | ------------------------- |
+| Nature   | Template / Blueprint  | Concrete realisation      |
+| Number   | One class definition  | Many objects              |
+| Creation | Defined by programmer | Created at runtime        |
+| Memory   | One copy of methods   | Own copy of instance vars |
+
+<hr />
+
+## 2. Encapsulation
+
+### Definition
+
+**Encapsulation** is the bundling of data (attributes) and methods that operate on that data within
+A class, and restricting direct access to internal state.
+
+### Access Modifiers
+
+| Modifier  | Meaning                                | Python convention        |
+| --------- | -------------------------------------- | ------------------------ |
+| Public    | Accessible from anywhere               | `name`                   |
+| Protected | Accessible within class and subclasses | `_name` (convention)     |
+| Private   | Accessible only within the class       | `__name` (name mangling) |
+
+```python
+class Student:
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+
+    def get_name(self):
+        return self.__name
+
+    def set_age(self, age):
+        if age >= 0:
+            self.__age = age
+```
+
+**Benefits of encapsulation:**
+
+1. **Data hiding:** Prevents unauthorised access
+2. **Validation:** Input validation through setters
+3. **Flexibility:** Internal implementation can change without affecting users
+4. **Maintainability:** Reduces coupling between components
+
+:::tip Exam tip In exams, always justify why encapsulation is important. Focus on data integrity
+(preventing invalid states) and implementation flexibility.
+:::
+
+<hr />
+
+## 3. Inheritance
+
+### Definition
+
+**Inheritance** allows a class (subclass/child) to inherit attributes and methods from another class
+(superclass/parent), enabling code reuse and establishing an "is-a" relationship.
 
 ```python
 class Shape:

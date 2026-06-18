@@ -1,6 +1,54 @@
 ---
 title: Error Handling
-description: ""[\(code)] \(message)"
+description: "Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Swift
+categories:
+  - Swift
+
+---
+
+## Representing Errors
+
+Errors in Swift are represented by types conforming to the `Error` protocol, which is an empty
+protocol. Any type can be an error.
+
+### Enum-Based Errors
+
+```swift
+enum NetworkError: Error {
+    case invalidURL
+    case noConnection
+    case timeout
+    case serverError(statusCode: Int)
+    case decodingFailed
+}
+
+enum ValidationError: Error {
+    case emptyField(String)
+    case invalidEmail(String)
+    case passwordTooShort(minLength: Int)
+    case ageOutOfRange(min: Int, max: Int)
+}
+
+enum FileError: Error {
+    case notFound(path: String)
+    case permissionDenied(path: String)
+    case unreadable
+}
+```
+
+### Struct-Based Errors
+
+```swift
+struct AppError: Error {
+    let code: Int
+    let message: String
+    let underlyingError: Error?
+
+    var localizedDescription: String {
+        return "[\(code)] \(message)"
     }
 }
 ```

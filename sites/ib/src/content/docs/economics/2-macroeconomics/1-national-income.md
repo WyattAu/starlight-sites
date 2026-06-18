@@ -1,6 +1,16 @@
 ---
 title: National Income
-description: ""s
+description: "IB Economics — GDP, GNP, GNI, national income accounting, GDP deflator, PPP. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations."
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## National Income Accounting
+
+### Gross Domestic Product (GDP)
+
+GDP measures the total monetary value of all final goods and services produced within a country"s
 Borders in a given time period. Only final goods are counted to avoid double counting; intermediate
 Goods are excluded because their value is already embedded in the final product.
 

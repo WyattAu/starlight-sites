@@ -1,6 +1,33 @@
 ---
 title: Circular Motion
-description: ""centripetal force" on a free body diagram.
+description: "Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and..."
+date: 2026-04-02T00:00:00.000Z
+tags:
+  - FurtherMaths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Circular Motion
+
+Circular motion in further mathematics extends the basic treatment to include banked tracks, conical
+Pendulums, vertical circles with energy methods, and problems where the circular path constraints
+Determine unknown forces.
+
+### Board Coverage
+
+| Board      | Paper   | Notes                                       |
+| ---------- | ------- | ------------------------------------------- |
+| AQA        | Paper 2 | Limited coverage; horizontal circles mainly |
+| Edexcel    | M2      | Full coverage including vertical circles    |
+| OCR (A)    | Paper 2 | Horizontal and vertical circles             |
+| CIE (9231) | M2      | Full coverage including vertical circles    |
+
+:::info Centripetal force is not a separate force — it is the resultant of the physical forces
+(tension, friction, normal reaction, weight) directed towards the centre of the circle. Never
+Include "centripetal force" on a free body diagram.
 :::
 
 <hr />

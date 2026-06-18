@@ -1,6 +1,118 @@
 ---
 title: Data Structures (Advanced)
-description: ""s parent 7 is black -- no further violation.
+description: "A is a self-balancing BST satisfying five invariants: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2026-05-06T00:00:00.000Z
+tags:
+  - Computing
+  - University
+categories:
+  - Computing
+
+---
+
+## 1. Balanced Search Trees
+
+### 1.1 Red-Black Trees
+
+A **red-black tree** is a self-balancing BST satisfying five invariants:
+
+1. Every node is either red or black.
+2. The root is black.
+3. Every leaf (NIL sentinel) is black.
+4. If a node is red, both its children are black (no two consecutive reds on any path).
+5. For every node, all simple paths from the node to descendant leaves contain the same number of
+   black nodes. This number is the **black-height** of the node.
+
+**Theorem 1.1.** A red-black tree with $n$ internal nodes has height $h \leq 2 \log_2(n + 1)$.
+
+_Proof._ By invariant 4, on any path from root to leaf, at most half the nodes (rounded up) can be
+red. So the length of any root-to-leaf path is at most twice the black-height $bh$ of the root. We
+now bound $bh$ in terms of $n$.
+
+Consider the subtree rooted at any node $x$. If this subtree has height $h_x$Then it contains at
+least $2^{bh(x)} - 1$ internal nodes (.../1-number-and-algebra/3_proof-and-logic by induction on
+$h_x$: if $x$ is a leaf, it has $0 = 2^0 - 1$ internal nodes; otherwise, each child has black-height
+at least $bh(x) - 1$ if it is red, or $bh(x)$ if it is black, so each child has at least
+$2^{bh(x)-1} - 1$ internal nodes, giving at least $2(2^{bh(x)-1} - 1) + 1 = 2^{bh(x)} - 1$ for $x$).
+
+Therefore $n \geq 2^{bh(\mathrm{root})} - 1$Giving $bh(\mathrm{root}) \leq \log_2(n+1)$. Since
+$h \leq 2 \cdot bh(\mathrm{root})$We have $h \leq 2\log_2(n+1)$. $\blacksquare$
+
+**Corollary.** Search, insert, and delete in a red-black tree take $O(\log n)$ time.
+
+#### 1.1.1 Insertion
+
+Insertion follows the standard BST insert, then colours the new node red. This may violate invariant
+4 (two consecutive reds). Fix-up uses at most three rotations and recolouring.
+
+**Cases after insertion** (let $z$ be the newly inserted red node, $p$ its parent, $u$ its uncle,
+and $g$ its grandparent):
+
+| Case | Uncle colour | Configuration                                              | Fix                                                                   |
+| ---- | ------------ | ---------------------------------------------------------- | --------------------------------------------------------------------- |
+| 1    | Red          | Any                                                        | Recolour $p$ and $u$ black, $g$ red; push problem up to $g$           |
+| 2    | Black        | $z$ and $p$ same direction (left-left or right-right)      | Single rotation at $g$; recolour $p$ black, $g$ red                   |
+| 3    | Black        | $z$ and $p$ opposite directions (left-right or right-left) | Double rotation: first at $p$Then at $g$; recolour $z$ black, $g$ red |
+
+**Theorem 1.2.** Insertion into a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
+at most 2 rotations.
+
+_Proof._ The BST insert takes $O(\log n)$ time. The fix-up loop ascends the tree. Each iteration
+either terminates (cases 2 and 3 perform one or two rotations and terminate) or moves the problem
+two levels up (case 1 recolours and continues with $g$). Since the tree height is $O(\log n)$The
+loop runs $O(\log n)$ times, but only cases 2 and 3 involve rotations, and at most one of these is
+reached. $\blacksquare$
+
+<details>
+<summary>Worked Example: Red-Black Tree Insertion</summary>
+
+Insert keys 7, 3, 18, 10, 22, 8, 11, 26, 2, 6 into an initially empty red-black tree.
+
+_Insert 7:_ Tree is empty. 7 becomes the root, coloured black.
+
+```
+7(B)
+```
+
+_Insert 3:_ BST insert left of 7, colour red. Parent 7 is black -- no violation.
+
+```
+    7(B)
+   /
+  3(R)
+```
+
+_Insert 18:_ BST insert right of 7, colour red. Parent 7 is black -- no violation.
+
+```
+    7(B)
+   /    \
+  3(R)  18(R)
+```
+
+_Insert 10:_ BST insert left of 18, colour red. Parent 18 is red -- **violation**. Uncle 3 is red
+(case 1). Recolour: 3 and 18 become black, 7 becomes red. Now 7 is the root, so colour it black.
+
+```
+      7(B)
+    /      \
+   3(B)    18(B)
+          /
+        10(R)
+```
+
+_Insert 22:_ BST insert right of 18, colour red. Parent 18 is black -- no violation.
+
+```
+      7(B)
+    /      \
+   3(B)    18(B)
+          /    \
+        10(R)  22(R)
+```
+
+_Insert 8:_ BST insert left of 10, colour red. Parent 10 is red -- violation. Uncle 22 is red (case
+1). Recolour: 10 and 22 black, 18 red. Now 18"s parent 7 is black -- no further violation.
 
 ```
         7(B)

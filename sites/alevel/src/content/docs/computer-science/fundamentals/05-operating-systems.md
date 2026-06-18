@@ -1,6 +1,164 @@
 ---
 title: Operating Systems
-description: ""s state (registers, PC, stack pointer) into its PCB
+description: "An (OS) is a system software that manages hardware resources, Provides services for application software, and acts as an intermediary between the user and..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. What is an Operating System?
+
+> **Info:** Board-specific AQA Paper 1 | Edexcel P1 | OCR (A) Paper 1 | CIE Paper 1
+### Definition
+
+**Definition.** An **operating system** (OS) is a system software that manages hardware resources,
+Provides services for application software, and acts as an intermediary between the user and the
+Computer hardware.
+
+The OS abstracts away the complexity of hardware so that applications can run without needing to
+Know the details of specific devices. It provides:
+
+- A **user interface** (CLI or GUI) for human interaction
+- **Resource management** for CPU time, memory, storage, and I/O devices
+- **File management** for organising, storing, and retrieving data
+- **Security** through user authentication, access control, and permissions
+- **Process management** to schedule and coordinate running programs
+
+### Kernel Mode vs User Mode
+
+Modern processors support at least two privilege levels:
+
+- **Kernel mode:** The CPU can execute all instructions and access all hardware. The OS kernel runs
+  in this mode.
+- **User mode:** The CPU is restricted. Applications cannot directly access hardware or memory
+  belonging to other processes. Attempting a privileged operation triggers a trap to the kernel.
+
+This separation prevents buggy or malicious application code from corrupting the system.
+
+### System Calls
+
+A **system call** is the mechanism by which a user-mode program requests a service from the kernel.
+Examples include:
+
+| Category        | System Calls (examples)            |
+| --------------- | ---------------------------------- |
+| Process control | `fork()``exec()``wait()``exit()`   |
+| File management | `open()``read()``write()``close()` |
+| Device I/O      | `ioctl()``read()``write()`         |
+| Communication   | `pipe()``shmget()``mmap()`         |
+| Information     | `getpid()``stat()``time()`         |
+
+When an application makes a system call, execution transitions from user mode to kernel mode via a
+Software interrupt (trap). The kernel performs the requested operation and returns control to the
+Application.
+
+### Types of Operating Systems
+
+| Type            | Description                                                        | Example                 |
+| --------------- | ------------------------------------------------------------------ | ----------------------- |
+| **Batch**       | Jobs collected and processed sequentially without user interaction | Early mainframe systems |
+| **Real-time**   | Guarantees response within a strict time deadline                  | Flight control, ABS     |
+| **Distributed** | Multiple machines appear as a single system to the user            | Cluster computing       |
+| **Embedded**    | Designed for a specific device with limited resources              | Microwave, smartwatch   |
+| **Network**     | Provides services to other computers over a network                | File servers, NAS       |
+| **Desktop**     | General-purpose, multi-user with GUI                               | Windows, macOS, Linux   |
+| **Mobile**      | Optimised for touch, power efficiency, and connectivity            | Android, iOS            |
+
+:::info Board-specific **AQA** emphasises batch, real-time, and distributed systems. **Edexcel** and
+**OCR (A)** focus on batch, real-time, and desktop/mobile. **CIE** covers real-time and distributed
+Systems in particular depth.
+:::
+
+<hr />
+
+## 2. Process Management
+
+### Definition
+
+**Definition.** A **process** is an instance of a program in execution. A **program** is a passive
+Entity — a file on disk containing instructions — whereas a process is the active entity with its
+Own memory space, registers, and state.
+
+Each process has:
+
+- A **process control block** (PCB) storing its state, registers, memory map, and scheduling info
+- A unique **process ID** (PID)
+- Its own **virtual address space**
+- At least one **thread** of execution
+
+### The Five-State Process Model
+
+Processes move through five states during their lifetime:
+
+```
+    [New] ──admit──> [Ready] ──dispatch──> [Running]
+                        ^                      |   ^
+                        |                      |   |
+                   [Ready] <──timeout──       |   |
+                   [Queue]                    |   |
+                        |                 [Ready]  |
+                        |                  [Queue] |
+                        |                      |   |
+                        |                   exit   |
+                        v                      v   |
+                    [Ready] <───────────────────   |
+                    [Queue]                     |   |
+                        |                  event  |
+                        |                 occurs  |
+                        v                      v   |
+                    [Waiting] ──────────────> [Running]
+                        |                      |
+                        |                   exit  |
+                        v                      v
+                    [Terminated] <──────────────
+```
+
+| State          | Description                                              |
+| -------------- | -------------------------------------------------------- |
+| **New**        | Process is being created                                 |
+| **Ready**      | Process is in memory, waiting to be assigned a CPU core  |
+| **Running**    | Process instructions are being executed on a CPU core    |
+| **Waiting**    | Process is blocked, waiting for an I/O event or resource |
+| **Terminated** | Process has finished execution or been killed            |
+
+### Process Scheduling Algorithms
+
+The scheduler decides which ready process runs next on the CPU.
+
+#### First Come, First Served (FCFS)
+
+Processes are executed in arrival order. Simple but suffers from the **convoy effect**: short
+Processes wait behind a long process.
+
+#### Shortest Job First (SJF)
+
+Selects the process with the shortest expected CPU burst time. Minimises average waiting time but
+May cause **starvation** of long processes.
+
+#### Round Robin
+
+Each process gets a fixed **time quantum** (time slice). If a process does not finish within its
+Quantum, it is preempted and moved to the back of the ready queue.
+
+- **Advantage:** Fair; good for interactive systems
+- **Disadvantage:** Context switch overhead if quantum is too small
+
+#### Priority Scheduling
+
+Each process has a priority; the highest-priority ready process runs next.
+
+- **Problem:** Low-priority processes may starve. Solution: **aging** — gradually increase the
+  priority of waiting processes.
+
+### Context Switching
+
+When the OS switches from one process to another, it must:
+
+1. Save the current process"s state (registers, PC, stack pointer) into its PCB
 2. Load the next process's state from its PCB
 3. Update the scheduler data structures
 4. Switch to the new process's memory space (update page table base register)

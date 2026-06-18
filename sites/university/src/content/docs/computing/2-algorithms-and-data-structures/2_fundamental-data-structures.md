@@ -3,7 +3,137 @@ title: Fundamental Data Structures
 tags:
   - Computing
   - University
-description: ""s
+description: "Contiguous memory, access by index, insertion/deletion (shift required). Comprehensive educational content coverage with definitions and practice problems."
+---
+
+### 2.1 Arrays and Linked Lists
+
+**Array.** Contiguous memory, $O(1)$ access by index, $O(n)$ insertion/deletion (shift required).
+
+| Operation          | Array  | Singly Linked List | Doubly Linked List |
+| ------------------ | ------ | ------------------ | ------------------ |
+| Access by index    | $O(1)$ | $O(n)$             | $O(n)$             |
+| Search (by value)  | $O(n)$ | $O(n)$             | $O(n)$             |
+| Insert at head     | $O(n)$ | $O(1)$             | $O(1)$             |
+| Insert at tail     | $O(1)$ | $O(n)$             | $O(1)$\*           |
+| Delete at head     | $O(n)$ | $O(1)$             | $O(1)$             |
+| Delete at tail     | $O(n)$ | $O(n)$             | $O(1)$\*           |
+| Insert at position | $O(n)$ | $O(n)$             | $O(1)$\*           |
+| Space overhead     | $0$    | $O(n)$             | $O(n)$             |
+
+\*Given a pointer to the node or its predecessor.
+
+**Linked List.** Each node stores data and a pointer to the next node. $O(1)$ insertion/deletion at
+Head (given pointer), $O(n)$ access by position.
+
+**Doubly Linked List.** Each node has pointers to both next and previous nodes. $O(1)$ insertion And
+deletion at any position (given pointers to the node and its neighbours).
+
+<details>
+<summary>Worked Example: Reversing a Singly Linked List</summary>
+
+To reverse a singly linked list in $O(n)$ time and $O(1)$ space:
+
+```
+prev = null
+curr = head
+while curr != null:
+    next = curr.next
+    curr.next = prev
+    prev = curr
+    curr = next
+head = prev
+```
+
+At each iteration, we move one node to the front of the reversed list. After $n$ iterations, all $n$
+nodes are reversed.
+
+</details>
+
+### 2.2 Stacks and Queues
+
+**Stack.** Last-in, first-out (LIFO). Operations: push, pop, peek, all $O(1)$.
+
+**Queue.** First-in, first-out (FIFO). Operations: enqueue, dequeue, peek, all $O(1)$.
+
+**Implementation.** Both can be implemented with arrays (with circular buffer) or linked lists.
+
+<details>
+<summary>Worked Example: Implementing a Queue with Two Stacks</summary>
+
+A queue can be implemented using two stacks `in_stack` and `out_stack`.
+
+- `enqueue(x)`: push $x$ onto `in_stack`. $O(1)$.
+- `dequeue()`: if `out_stack` is empty, pop all elements from `in_stack` and push onto `out_stack`.
+  Then pop from `out_stack`.
+
+The `dequeue` operation is $O(1)$ amortised: each element is moved from `in_stack` to `out_stack` at
+most once across all operations. Over $n$ operations, the total number of element moves is at most
+$n$Giving $O(1)$ amortised per dequeue.
+
+</details>
+
+### 2.3 Hash Tables
+
+A **hash table** maps keys to values using a hash function $h : K \to \\{0, 1, \ldots, m - 1\\}$.
+
+**Collision resolution:**
+
+- **Chaining:** Each bucket is a linked list. Average case: $O(1 + \alpha)$ where $\alpha = n/m$ is
+  the load factor.
+- **Open addressing (linear probing):** Insert into the next available slot. Average case:
+  $O(1/(1-\alpha))$.
+
+**Theorem 2.1 (Uniform Hashing).** Under the assumption of simple uniform hashing, the expected
+Length of a chain in a hash table with chaining is $\alpha = n/m$.
+
+_Proof._ Under simple uniform hashing, each of the $n$ keys is equally likely to hash to any of the
+$m$ slots. For any given key $k$The expected number of other keys that hash to the same slot as $k$
+is $(n - 1)/m < \alpha$. Including $k$ itself, the expected chain length is
+$1 + (n-1)/m \leq 1 + \alpha$. $\blacksquare$
+
+**Theorem 2.2 (Successful Search with Chaining).** Under simple uniform hashing, the expected time
+for a successful search in a hash table with chaining is $O(1 + \alpha/2)$.
+
+_Proof._ The expected length of the list containing the searched element is $1 + (n - 1)/m$Since
+$n - 1$ other elements are distributed uniformly. On average, the searched element is halfway
+through its list, giving $(1 + (n-1)/m)/2 + 1/2$ comparisons (we examine elements before the target
+plus the target itself). This equals $1 + \alpha/2 - 1/(2m) = O(1 + \alpha)$. $\blacksquare$
+
+**Double Hashing.** Uses two hash functions: $h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$Where
+$h_2(k)$ is relatively prime to $m$. This avoids the clustering problems of linear probing.
+
+<details>
+<summary>Worked Example: Choosing a Good Hash Function</summary>
+
+For integer keys, a common choice is the multiplication method:
+$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$ where $A = (\sqrt{5} - 1)/2 \approx 0.618$ (the
+inverse golden ratio).
+
+For string keys, the polynomial rolling hash:
+$h(s) = \left(\sum_{i=0}^{k-1} s[i] \cdot p^{k-1-i}\right) \bmod m$ where $p$ is a prime (e.g., 31
+or 127).
+
+Both avoid clustering better than simple modulo hashing when the input distribution is adversarial.
+
+</details>
+
+### 2.4 Trees
+
+**Binary Search Tree (BST).** For each node: left subtree values $\lt$ node value, right subtree
+values $\gt$ node value.
+
+- Search, insert, delete: $O(h)$ where $h$ is the height.
+- For a balanced BST, $h = O(\log n)$.
+
+**Theorem 2.3.** The expected height of a randomly built BST with $n$ distinct keys is $O(\log n)$.
+
+_Proof._ Let $X_n$ be the height of a BST built from $n$ random keys. Let $Y_n = 2^{X_n}$. Then
+$\mathrm{E}[Y_n] \leq \frac{1}{4} \sum_{i=0}^{n-1} \binom{n}{i} \mathrm{E}[Y_i] \mathrm{E}[Y_{n-1-i}] / n$.
+Using the indicator random variable technique,
+$\mathrm{E}[Y_n] \leq \frac{c^{n+1}}{n^{3/2}} \sum_{i=0}^{n-1} \frac{i^{3/2}(n-1-i)^{3/2}}{c^i c^{n-1-i}} \leq c \cdot n^{3/2}$
+for some constant $c$. Taking logs gives
+$\mathrm{E}[X_n] = \mathrm{E}[\log Y_n] \leq \log \mathrm{E}[Y_n] = O(\log n)$ by Jensen"s
 inequality. $\blacksquare$
 
 #### 2.4.1 AVL Trees

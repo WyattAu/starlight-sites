@@ -1,7 +1,31 @@
 ---
 title: GCSE English Study Guide
 date: 2026-05-31
-description: ""s methods.
+description: "A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential..."
+tags:
+  - gcse
+  - english
+categories:
+  - gcse
+
+---
+
+# GCSE English Study Guide
+
+A complete single-page revision guide covering the full GCSE English Language specification. Each
+section contains key skills, methods, and essential advice. Use this alongside the
+[full topic pages](english/) for detailed practice and further reading.
+
+---
+
+## 1. Paper 1: Fiction and Creative Writing
+
+### 1.1 Reading Fiction
+
+**Section A: Comprehension and Analysis (45 minutes, 40 marks)**
+
+You will read an unseen literary fiction extract and answer questions that test your understanding,
+analysis, and evaluation of the writer"s methods.
 
 **Question types**:
 

@@ -1,6 +1,94 @@
 ---
 title: "Hyperbolic Functions -- Diagnostic Tests"
-description: ""s Rule and Trigonometry (with Complex Numbers)
+description: "A-Level Further Maths Hyperbolic Functions -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Hyperbolic Functions — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Definitions and Basic Identities
+
+**Question:** (a) Express $\sinh x$ and $\cosh x$ in terms of $e^x$ and $e^{-x}$. (b) Prove that
+$\cosh^2 x - \sinh^2 x = 1$ (the hyperbolic Pythagorean identity). (c) Prove that
+$\sinh 2x = 2\sinh x\cosh x$. (d) Express $\tanh x$ in terms of $e^x$ and simplify.
+
+**Solution:**
+
+(a) $\sinh x = \frac{e^x - e^{-x}}{2}$. $\cosh x = \frac{e^x + e^{-x}}{2}$.
+
+(b)
+$\cosh^2 x - \sinh^2 x = \left(\frac{e^x+e^{-x}}{2}\right)^2 - \left(\frac{e^x-e^{-x}}{2}\right)^2 = \frac{e^{2x} + 2 + e^{-2x} - (e^{2x} - 2 + e^{-2x})}{4} = \frac{4}{4} = 1$.
+
+(c) $\sinh 2x = \frac{e^{2x} - e^{-2x}}{2}$.
+$2\sinh x\cosh x = 2 \cdot \frac{e^x-e^{-x}}{2} \cdot \frac{e^x+e^{-x}}{2} = \frac{e^{2x} - e^{-2x}}{2}$.
+Equal. Proven.
+
+(d)
+$\tanh x = \frac◆LB◆\sinh x◆RB◆◆LB◆\cosh x◆RB◆ = \frac{e^x - e^{-x}}{e^x + e^{-x}} = \frac{e^{2x} - 1}{e^{2x} + 1}$.
+
+### UT-2: Inverse Hyperbolic Functions
+
+**Question:** (a) Find $\text{arcsinh}(1)$ in exact form. (b) Find $\text{arccosh}(3)$ in exact
+form. (c) Express $\text{arcsinh}\,x$ in terms of $\ln$. (d) Solve $\sinh x = 2$.
+
+**Solution:**
+
+(a) $\text{arcsinh}(1) = \ln(1 + \sqrt{1 + 1}) = \ln(1 + \sqrt{2})$.
+
+(b) $\text{arccosh}(3) = \ln(3 + \sqrt{9 - 1}) = \ln(3 + 2\sqrt{2})$.
+
+(c) $\text{arcsinh}\,x = \ln(x + \sqrt{x^2 + 1})$.
+
+(d) $\frac{e^x - e^{-x}}{2} = 2$. Let $u = e^x$: $u - 1/u = 4$. $u^2 - 4u - 1 = 0$.
+$u = \frac◆LB◆4 \pm \sqrt{20}◆RB◆◆LB◆2◆RB◆ = 2 \pm \sqrt{5}$. $e^x = 2 + \sqrt{5}$ (taking
+positive). $x = \ln(2 + \sqrt{5})$.
+
+### UT-3: Calculus of Hyperbolic Functions
+
+**Question:** (a) Find $\frac{d}{dx}\sinh x$ and $\frac{d}{dx}\cosh x$. (b) Find
+$\frac{d}{dx}\tanh x$. (c) Find $\int \cosh x\,dx$ and $\int \sinh x\,dx$. (d) Find
+$\int \tanh^2 x\,dx$.
+
+**Solution:**
+
+(a) $\frac{d}{dx}\sinh x = \frac{d}{dx}\frac{e^x - e^{-x}}{2} = \frac{e^x + e^{-x}}{2} = \cosh x$.
+$\frac{d}{dx}\cosh x = \frac{d}{dx}\frac{e^x + e^{-x}}{2} = \frac{e^x - e^{-x}}{2} = \sinh x$.
+
+(b)
+$\frac{d}{dx}\tanh x = \frac{d}{dx}\frac◆LB◆\sinh x◆RB◆◆LB◆\cosh x◆RB◆ = \frac◆LB◆\cosh^2 x - \sinh^2 x◆RB◆◆LB◆\cosh^2 x◆RB◆ = \frac◆LB◆1◆RB◆◆LB◆\cosh^2 x◆RB◆ = \text{sech}^2\,x$.
+
+(c) $\int \cosh x\,dx = \sinh x + C$. $\int \sinh x\,dx = \cosh x + C$.
+
+(d) $\tanh^2 x = 1 - \text{sech}^2\,x$.
+$\int \tanh^2 x\,dx = \int(1 - \text{sech}^2\,x)\,dx = x - \tanh x + C$.
+
+---
+
+## Integration Tests
+
+### IT-1: Hyperbolic Functions in Integration (with Calculus)
+
+**Question:** (a) Evaluate $\int_0^1 \cosh^2 x\,dx$. (b) Evaluate $\int \text{sech}^2 x\,dx$. (c)
+Use the substitution $x = 2\sinh u$ to evaluate $\int \frac◆LB◆1◆RB◆◆LB◆\sqrt{x^2 + 4}◆RB◆\,dx$. (d)
+Find the Maclaurin series of $\cosh x$ up to $x^6$.
+
+**Solution:**
+
+(a) $\cosh^2 x = \frac◆LB◆1 + \cosh 2x◆RB◆◆LB◆2◆RB◆$.
+$\int_0^1 \frac◆LB◆1 + \cosh 2x◆RB◆◆LB◆2◆RB◆\,dx = \frac{1}{2}\left[x + \frac◆LB◆\sinh 2x◆RB◆◆LB◆2◆RB◆\right]_0^1 = \frac{1}{2}\left(1 + \frac◆LB◆\sinh 2◆RB◆◆LB◆2◆RB◆\right) = \frac{1}{2} + \frac◆LB◆\sinh 2◆RB◆◆LB◆4◆RB◆$.
+
+(b) $\int \text{sech}^2 x\,dx = \tanh x + C$.
+
+(c) $x = 2\sinh u$, $dx = 2\cosh u\,du$. $\sqrt{x^2+4} = 2\cosh u$.
+$\int \frac◆LB◆2\cosh u◆RB◆◆LB◆2\cosh u◆RB◆\,du = \int 1\,du = u + C = \text{arcsinh}\frac{x}{2} + C = \ln\left(\frac{x}{2} + \sqrt◆LB◆\frac{x^2}{4}+1◆RB◆\right) + C$.
+
+(d)
+$\cosh x = \frac{e^x + e^{-x}}{2} = \frac{1}{2}\left(1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \frac{x^5}{5!} + \frac{x^6}{6!} + 1 - x + \frac{x^2}{2!} - \frac{x^3}{3!} + \frac{x^4}{4!} - \frac{x^5}{5!} + \frac{x^6}{6!}\right)$
+$= \frac{1}{2}\left(2 + \frac{2x^4}{4!} + \frac{2x^6}{6!}\right) = 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \frac{x^6}{6!} = 1 + \frac{x^2}{2} + \frac{x^4}{24} + \frac{x^6}{720}$.
+
+### IT-2: Osborn"s Rule and Trigonometry (with Complex Numbers)
 
 **Question:** (a) State Osborn's rule. (b) Use it to derive the identity for $\cosh 3x$. (c) Find
 $\frac{d}{dx}\text{cosech}\,x$. (d) Evaluate $\int_0^{\ln 2} \text{sech}\,x\,dx$.

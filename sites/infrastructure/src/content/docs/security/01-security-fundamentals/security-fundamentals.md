@@ -1,6 +1,88 @@
 ---
 title: Security Fundamentals
-description: ""Which STRIDE threats apply here?"
+description: "The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three..."
+
+---
+
+## The CIA Triad
+
+The CIA triad is the foundational model for information security. Every security control,
+Vulnerability, and threat maps to one or more of these three properties.
+
+### Confidentiality
+
+Confidentiality ensures that data is accessible only to authorized parties. It is enforced through
+Encryption, access controls, and data classification.
+
+Mechanisms that enforce confidentiality:
+
+| Mechanism             | Layer          | Example                           |
+| --------------------- | -------------- | --------------------------------- |
+| Encryption at rest    | Storage        | AES-256-GCM on disk, database TDE |
+| Encryption in transit | Network        | TLS 1.3, IPsec                    |
+| Access control lists  | Application    | File permissions, RBAC policies   |
+| Data masking          | Presentation   | Redacting PII in logs             |
+| Classification        | Organizational | Public, internal, confidential    |
+
+Confidentiality is not binary. A system that encrypts data at rest but logs the plaintext to an
+Unsecured file has failed confidentiality. A system that uses AES-256 but stores the key alongside
+The ciphertext has failed confidentiality. The entire data lifecycle must be considered.
+
+### Integrity
+
+Integrity ensures that data has not been altered by unauthorized parties. It covers both malicious
+Tampering and accidental corruption.
+
+| Mechanism             | Purpose                                | Example                     |
+| --------------------- | -------------------------------------- | --------------------------- |
+| Cryptographic hashes  | Detect modification                    | SHA-256 file checksums      |
+| Digital signatures    | Prove authenticity and non-tampering   | Signed firmware images      |
+| Version control       | Track authorized changes               | Git commits with signing    |
+| Write-once storage    | Prevent post-write modification        | WORM storage for audit logs |
+| Referential integrity | Database-level consistency enforcement | Foreign key constraints     |
+
+Integrity failures are often subtler than confidentiality failures. A single bit flip in a
+Configuration file can change a firewall rule. A modified dependency in a supply chain attack can
+Introduce a backdoor without changing any visible behavior. Integrity verification must be
+Continuous, not one-time.
+
+### Availability
+
+Availability ensures that authorized users can access systems and data when needed. It is defended
+Against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
+
+| Threat Vector       | Countermeasure                      | Standard       |
+| ------------------- | ----------------------------------- | -------------- |
+| DDoS flooding       | Rate limiting, anycast, scrubbing   | RFC 4732       |
+| Hardware failure    | Redundancy, failover, RAID          | N/A            |
+| Misconfiguration    | Infrastructure as code, peer review | N/A            |
+| Ransomware          | Backups, immutability, air-gapping  | NIST SP 800-34 |
+| Resource exhaustion | Quotas, auto-scaling, cgroups       | N/A            |
+
+Availability is the most operationally visible of the three triad elements. When confidentiality or
+Integrity fails silently, you may not know for months. When availability fails, everyone notices
+Immediately.
+
+## STRIDE Threat Model
+
+STRIDE is a threat classification framework developed by Microsoft (Shostack, 2014). It categorizes
+Threats against a system into six classes, each mapping to a specific security violation.
+
+### Threat Categories
+
+| Threat                      | STRIDE Category        | Security Impact | Example                                     |
+| --------------------------- | ---------------------- | --------------- | ------------------------------------------- |
+| Impersonating a user        | Spoofing               | Confidentiality | Stolen session token, forged certificate    |
+| Modifying data or code      | Tampering              | Integrity       | SQL injection, firmware modification        |
+| Denying an action           | Repudiation            | Non-repudiation | Deleting audit logs, anonymous transactions |
+| Exposing information        | Information Disclosure | Confidentiality | Directory traversal, verbose errors         |
+| Denying service             | Denial of Service      | Availability    | SYN flood, resource exhaustion              |
+| Gaining unauthorized access | Elevation of Privilege | All three       | Kernel exploit, privilege escalation        |
+
+### Applying STRIDE
+
+STRIDE is applied through **data flow diagrams (DFDs)**. For each component, element, and data flow
+In the diagram, you systematically ask: "Which STRIDE threats apply here?"
 
 ```mermaid
 graph TD

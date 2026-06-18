@@ -1,6 +1,79 @@
 ---
 title: Atomic Structure
-description: ""s
+description: "Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom Consists of three subatomic particles: "''
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-chemistry
+categories:
+  - gcse-chemistry
+
+---
+
+## Atomic Structure
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C1 | WJEC C1
+## 1. The Atom
+
+### 1.1 Subatomic Particles
+
+Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom
+Consists of three subatomic particles:
+
+| Particle | Relative Mass            | Relative Charge | Location        |
+| -------- | ------------------------ | --------------- | --------------- |
+| Proton   | 1                        | +1              | Nucleus         |
+| Neutron  | 1                        | 0               | Nucleus         |
+| Electron | $\approx \frac{1}{1836}$ | -1              | Electron shells |
+
+The mass of an atom is concentrated almost entirely in the nucleus. The nucleus occupies a tiny
+Fraction of the atomic volume -- roughly one part in $10^{12}$ to $10^{15}$ of the total volume.
+This means that atoms are overwhelmingly empty space, a fact with profound consequences for how we
+Understand scattering experiments and the behaviour of matter.
+
+**Key relationships:**
+
+$$\mathrm{Atomic number (Z) = \mathrm{number of protons$$
+$$\mathrm{Mass number (A) = \mathrm{number of protons + \mathrm{number of neutrons$$
+$$\mathrm{In a neutral atom: number of protons = \mathrm{number of electrons$$
+
+These three equations are foundational. The atomic number uniquely identifies an element: no two
+Elements share the same value of $Z$. The mass number, by contrast, can vary within a single element
+Because the number of neutrons is not fixed. This is the basis of isotopes.
+
+**Notation:** An atom of element X with mass number $A$ and atomic number $Z$ is written as
+$\prescript{A}{Z}\mathrm{X$.
+
+**Worked Example.** An atom of sodium has 11 protons and 12 neutrons. State its atomic number, mass
+Number, and electron configuration.
+
+$$Z = 11, \quad A = 11 + 12 = 23$$ $$\mathrm{Electron configuration:  2, 8, 1$$
+
+**Worked Example.** An atom has 9 protons, 10 neutrons, and 9 electrons. Identify the element and
+Write its full notation.
+
+The atomic number $Z = 9$Which is fluorine. The mass number $A = 9 + 10 = 19$. The notation is
+$\prescript{19}{9}\mathrm{F$. Since the number of protons equals the number of electrons, this is a
+Neutral fluorine atom.
+
+**Worked Example.** An ion has 8 protons, 8 neutrons, and 10 electrons. Identify the ion and give
+Its charge.
+
+The element with 8 protons is oxygen ($Z = 8$). There are 10 electrons but only 8 protons, so the
+Ion carries a charge of $10 - 8 = 2-$. This is the oxide ion, $\mathrm{O^{2-}$. The mass number is
+$A = 8 + 8 = 16$.
+
+### 1.2 History of the Atom
+
+| Scientist         | Model           | Key Discovery                                                        |
+| ----------------- | --------------- | -------------------------------------------------------------------- |
+| Dalton (1803)     | Solid sphere    | All matter is made of atoms; atoms of the same element are identical |
+| Thomson (1897)    | Plum pudding    | Discovered the electron; atoms contain smaller particles             |
+| Rutherford (1909) | Nuclear         | Gold foil experiment showed a small, dense, positive nucleus         |
+| Bohr (1913)       | Electron shells | Electrons orbit the nucleus in fixed energy levels                   |
+| Chadwick (1932)   | With neutrons   | Discovered the neutron, completing the modern picture                |
+
+Each model superseded its predecessor because new experimental evidence forced a revision. Dalton"s
 Model could not explain cathode rays (Thomson). Thomson"s plum pudding model could not explain the
 Gold foil results (Rutherford). Rutherford's model was unstable by classical electrodynamics -- a
 Charged electron orbiting a nucleus should radiate energy and spiral inward. Bohr resolved this by

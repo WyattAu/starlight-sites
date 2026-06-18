@@ -1,6 +1,29 @@
 ---
 title: "Kinematics -- Diagnostic Tests"
-description: ""s answer.
+description: "A-Level Maths Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
+tableOfContents: false
+---
+
+# Kinematics — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for kinematics.
+
+### UT-1: Displacement vs Distance — The Reversal Trap
+
+**Question:**
+
+A particle moves in a straight line so that its velocity $v$ m/s at time $t$ seconds ($t \geq 0$) is
+given by $v = 6t - t^2 - 5$.
+
+**(a)** Find the times at which the particle is instantaneously at rest.
+
+**(b)** Calculate the total distance travelled by the particle from $t = 0$ to $t = 7$.
+
+**(c)** A student calculates the displacement over $[0, 7]$ by evaluating $\int_0^7 v\,dt$ and
+obtains a positive answer. The student then claims this integral equals the total distance.
+Calculate the percentage error in the student"s answer.
 
 [Difficulty: hard. Tests whether the student identifies direction changes from $v = 0$Splits the
 integral accordingly, and takes absolute values of each segment to find total distance rather than

@@ -1,6 +1,40 @@
 ---
 title: Halogenoalkanes
-description: ""substitution, nucleophilic, bimolecular." It is a one-step, concerted
+description: "Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an Alkane have been replaced by a halogen atom. The general..."
+date: 2026-04-22T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Halogenoalkanes
+
+Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an
+Alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$Where $\mathrm{X}$
+is F, Cl, Br, or I. The C--X bond is polar (halogens are more electronegative than Carbon), making
+the carbon electrophilic and susceptible to attack by nucleophiles.
+
+## Classification
+
+Halogenoalkanes are classified by the carbon bearing the halogen:
+
+- **Primary ($1^\circ$):** The halogen-bearing carbon is attached to one other carbon (e.g.
+  $\mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}$).
+- **Secondary ($2^\circ$):** Attached to two other carbons (e.g. $(\mathrm{CH}_3)_2\mathrm{CHBr}$).
+- **Tertiary ($3^\circ$):** Attached to three other carbons (e.g. $(\mathrm{CH}_3)_3\mathrm{CBr}$).
+
+## Nucleophilic Substitution
+
+Nucleophilic substitution is the replacement of the halogen (the leaving group) by a nucleophile.
+Two distinct mechanisms operate depending on the substrate structure, nucleophile strength, and
+Solvent.
+
+### The SN2 Mechanism
+
+The subscript N2 stands for "substitution, nucleophilic, bimolecular." It is a one-step, concerted
 Mechanism in which bond-making and bond-breaking occur simultaneously.
 
 **Rate equation:** Rate $= k[\mathrm{R-X}][\mathrm{Nu}^-]$

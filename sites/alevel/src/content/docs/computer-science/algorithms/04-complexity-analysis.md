@@ -1,6 +1,64 @@
 ---
 title: Complexity Analysis
-description: ""Hôpital's rule)}$$
+description: "Complexity Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Formal Definitions
+
+### Asymptotic Notation
+
+Let $f, g: \mathbb{N} \to \mathbb{R}^+$ be functions.
+
+#### Big-O (Upper Bound)
+
+$$f(n) = O(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \leq c \cdot g(n)\ \forall\, n \geq n_0$$
+
+**Intuition:** $f$ is eventually bounded above by a constant multiple of $g$.
+
+#### Big-Omega (Lower Bound)
+
+$$f(n) = \Omega(g(n)) \iff \exists\, c > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } f(n) \geq c \cdot g(n)\ \forall\, n \geq n_0$$
+
+**Intuition:** $f$ is eventually bounded below by a constant multiple of $g$.
+
+#### Big-Theta (Tight Bound)
+
+$$f(n) = \Theta(g(n)) \iff f(n) = O(g(n)) \land f(n) = \Omega(g(n))$$
+
+$$\iff \exists\, c_1, c_2 > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)\ \forall\, n \geq n_0$$
+
+**Intuition:** $f$ grows at the same rate as $g$Up to constant factors.
+
+#### Little-o (Strict Upper Bound)
+
+$$f(n) = o(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
+
+#### Little-omega (Strict Lower Bound)
+
+$$f(n) = \omega(g(n)) \iff \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$$
+
+<hr />
+
+## 2. The Complexity Hierarchy
+
+**Theorem.** For polynomial-exponential functions, the following hierarchy holds:
+
+$$O(1) \subset o(\log n) \subset O(\log n) \subset o(\sqrt{n}) \subset O(\sqrt{n}) \subset o(n) \subset O(n) \subset o(n \log n) \subset O(n \log n) \subset o(n^2) \subset O(n^2) \subset \cdots \subset O(2^n) \subset o(n!)$$
+
+**Proof (selected).** We prove $n = o(n \log n)$:
+
+$$\lim_{n \to \infty} \frac◆LB◆n◆RB◆◆LB◆n \log n◆RB◆ = \lim_{n \to \infty} \frac◆LB◆1◆RB◆◆LB◆\log n◆RB◆ = 0$$
+
+Similarly, $\log n = o(n)$:
+
+$$\lim_{n \to \infty} \frac◆LB◆\log n◆RB◆◆LB◆n◆RB◆ = 0 \quad \mathrm{(by L"Hôpital's rule)}$$
 
 And $n^k = o(2^n)$ for any constant $k$:
 

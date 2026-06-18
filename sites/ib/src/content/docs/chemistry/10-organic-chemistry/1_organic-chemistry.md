@@ -1,6 +1,203 @@
 ---
 title: Organic Chemistry
-description: ""s Rule
+description: "Rigorous IB chemistry notes covering Organic Chemistry. Includes definitions, derivations, worked examples, and exam-style problems. and polymer chemistry."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## Homologous Series and Naming
+
+### IUPAC Nomenclature
+
+Organic compounds are named systematically using IUPAC rules:
+
+1. Identify the **longest carbon chain** (parent chain).
+2. Number the chain to give substituents the **lowest possible numbers**.
+3. Name and number **substituents** (alkyl groups, halogens, etc.).
+4. Identify and name the **principal functional group** (gets the lowest number).
+
+### Alkyl Groups
+
+| Name   | Formula      |
+| ------ | ------------ |
+| Methyl | --CH$_3$     |
+| Ethyl  | --C$_2$H$_5$ |
+| Propyl | --C$_3$H$_7$ |
+| Butyl  | --C$_4$H$_9$ |
+
+### Carbon Chain Prefixes
+
+| Carbons | Prefix |
+| ------- | ------ |
+| 1       | Meth-  |
+| 2       | Eth-   |
+| 3       | Prop-  |
+| 4       | But-   |
+| 5       | Pent-  |
+| 6       | Hex-   |
+| 7       | Hept-  |
+| 8       | Oct-   |
+| 9       | Non-   |
+| 10      | Dec-   |
+
+### Suffixes for Functional Groups
+
+| Functional Group | Suffix    | Example          |
+| ---------------- | --------- | ---------------- |
+| Alkane           | -ane      | Ethane           |
+| Alkene           | -ene      | Ethene           |
+| Alkyne           | -yne      | Ethyne           |
+| Alcohol          | -ol       | Ethanol          |
+| Aldehyde         | -al       | Ethanal          |
+| Ketone           | -one      | Propanone        |
+| Carboxylic acid  | -oic acid | Ethanoic acid    |
+| Ester            | -oate     | Methyl ethanoate |
+| Amine            | -amine    | Ethanamine       |
+| Amide            | -amide    | Ethanamide       |
+
+:::info[Example]
+
+Name: 2-methylbut-2-ene.
+
+- Parent chain: 4 carbons (butene).
+- Double bond starts at carbon 2.
+- Methyl substituent at carbon 2.
+
+
+### Structural Isomers
+
+**Chain isomers**: different arrangements of the carbon skeleton.
+
+**Position isomers**: same skeleton, different position of the functional group.
+
+**Functional group isomers**: same molecular formula, different functional groups.
+
+:::
+:::info[Example]
+
+C$_4$H$_8$O has multiple isomers: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, butanal, butanone,
+Methyl propanoate, ethyl ethanoate, etc.
+
+
+---
+
+## Alkanes
+
+### Structure
+
+- General formula: C$_n$H$_{2n+2}$
+- Single covalent bonds only (C--C and C--H).
+- sp$^3$ hybridisation, tetrahedral geometry (bond angles $\approx 109.5\degree$).
+- Saturated hydrocarbons (maximum number of hydrogens).
+
+### Physical Properties
+
+| Property                  | Trend                                                         |
+| ------------------------- | ------------------------------------------------------------- |
+| Boiling point             | Increases with chain length (more London forces)              |
+| Melting point             | Increases with chain length                                   |
+| State at room temperature | C$_1$--C$_4$: gas; C$_5$--C$_{17}$: liquid; C$_{18}^+$: solid |
+| Solubility                | Non-polar, insoluble in water                                 |
+
+### Reactions
+
+#### Combustion
+
+**Complete combustion** (excess oxygen):
+
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
+$$
+
+**Incomplete combustion** (limited oxygen):
+
+$$
+\mathrm{C}_n\mathrm{H}_{2n+2} + \frac{2n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O}
+$$
+
+Or: produces carbon (soot) and water.
+
+#### Halogenation (Free Radical Substitution)
+
+$$
+\mathrm{CH}_4 + \mathrm{Cl}_2 \xrightarrow{\mathrm{UV light}} \mathrm{CH}_3\mathrm{Cl} + \mathrm{HCl}
+$$
+
+**Mechanism** (free radical substitution):
+
+1. **Initiation**: Cl$_2 \xrightarrow{\mathrm{UV}} 2\mathrm{Cl}^\bullet$ (homolytic fission)
+
+2. **Propagation**:
+
+- $\mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet$
+- $\mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet$
+
+3. **Termination**: radicals combine in various ways:
+
+- $\mathrm{Cl}^\bullet + \mathrm{Cl}^\bullet \to \mathrm{Cl}_2$
+- $\mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6$
+- $\mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}$
+
+### Cracking
+
+Breaking large hydrocarbons into smaller, more useful molecules.
+
+**Thermal cracking**: high temperature, produces alkenes.
+
+**Catalytic cracking**: uses a zeolite catalyst, lower temperature, produces branched alkanes and
+Cycloalkanes.
+
+---
+
+## Alkenes
+
+### Structure
+
+- General formula: C$_n$H$_{2n}$
+- Contain at least one C=C double bond.
+- sp$^2$ hybridisation, trigonal planar geometry around the double bond (bond angle
+  $\approx 120\degree$).
+- Unsaturated hydrocarbons.
+- The double bond consists of one $\sigma$ bond and one $\pi$ bond.
+- Restricted rotation about the C=C bond leads to **cis-trans (E/Z) isomerism**.
+
+### Physical Properties
+
+Similar to alkanes of comparable molecular mass but with slightly higher boiling points due to the
+$\pi$ electron cloud.
+
+### Reactions
+
+#### Addition Reactions
+
+**Hydrogenation**:
+
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2 \xrightarrow{\mathrm{Ni catalyst}} \mathrm{CH}_3\mathrm{CH}_3
+$$
+
+**Halogenation**:
+
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
+$$
+
+The bromine water is decolourised — this is the test for unsaturation.
+
+**Hydration** (with acid catalyst):
+
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4} \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}
+$$
+
+**Hydrohalogenation**:
+
+$$
+\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}
+$$
+
+### Markovnikov"s Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon with the greater number of
 Hydrogen atoms (the more substituted carbon gets the halogen).

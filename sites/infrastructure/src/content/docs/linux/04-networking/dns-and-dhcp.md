@@ -1,6 +1,69 @@
 ---
 title: DNS and DHCP on Linux
-description: ""hosts' line determines name resolution order:
+description: "The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+
+---
+
+## DNS Resolution on Linux
+
+### /etc/resolv.conf
+
+The traditional DNS resolver configuration file:
+
+```ini
+# /etc/resolv.conf
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+nameserver 1.1.1.1
+
+# Search domains appended to unqualified names
+search example.com internal.example.com
+
+# Sortlist for address ordering (rarely used)
+sortlist 10.0.0.0/8
+
+# Options
+options timeout:2 attempts:3 rotate single-request-reopen
+```
+
+```text
+Key directives:
+  nameserver IP    — DNS server to query (up to 3, used in order)
+  search domain1 domain2 — append these to unqualified queries
+  domain name      — single search domain (deprecated in favor of search)
+  options          — resolver library options:
+    timeout:N      — initial timeout in seconds (default 5)
+    attempts:N     — number of retries (default 2)
+    rotate         — rotate through nameservers
+    ndots:N        — query as FQDN if name has at least N dots (default 1)
+    single-request — send A and AAAA queries sequentially
+    single-request-reopen — close socket between queries
+    edns0          — enable EDNS0 (large responses)
+    trust-ad       — trust AD flag in responses
+```
+
+:::caution
+
+On modern systems, `/etc/resolv.conf` is often a symlink managed by `systemd-resolved` or
+`NetworkManager`. Manual edits will be overwritten. Check the symlink target:
+
+```bash
+ls -la /etc/resolv.conf
+# /etc/resolv.conf -> /run/systemd/resolve/stub-resolv.conf
+```
+
+### nsswitch.conf
+
+The Name Service Switch determines the order of lookup mechanisms:
+
+```ini
+# /etc/nsswitch.conf
+hosts:      files dns myhostname
+networks:   files
+```
+
+```text
+The "hosts' line determines name resolution order:
   files     — /etc/hosts (checked first)
   dns       — DNS (resolv.conf nameservers)
   myhostname — systemd's nss-myhostname (returns 127.0.0.2 for local hostname)

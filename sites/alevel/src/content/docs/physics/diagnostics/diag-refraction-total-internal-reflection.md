@@ -1,6 +1,37 @@
 ---
 title: "Refraction and Total Internal Reflection -- Diagnostic Tests"
-description: ""s law: $\sin i_1 = n \sin r_1$
+description: "A-Level Physics Refraction and Total Internal Reflection -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Refraction and Total Internal Reflection — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Critical Angle and Dispersion in a Prism
+
+**Question:**
+
+An equilateral glass prism ($n = 1.52$ for red light, $n = 1.55$ for violet light) is placed in air
+($n = 1.00$).
+
+(a) Calculate the critical angle for the glass-air interface for red light.
+
+(b) Light enters one face of the prism at an angle of incidence of $40^\circ$. Calculate the angle
+of emergence for red light and state whether total internal reflection occurs at the second face.
+
+(c) Calculate the angular dispersion (the angle between the emergent red and violet rays) for the
+same angle of incidence.
+
+**Solution:**
+
+(a) Critical angle: $\sin\theta_c = 1/n = 1/1.52 = 0.6579$
+
+$$\theta_c = 41.1^\circ$$
+
+(b) At the first face (angle of incidence $i_1 = 40^\circ$):
+
+By Snell"s law: $\sin i_1 = n \sin r_1$
 
 $$\sin 40^\circ = 1.52 \sin r_1 \Rightarrow \sin r_1 = 0.6428/1.52 = 0.4229$$ $$r_1 = 25.03^\circ$$
 

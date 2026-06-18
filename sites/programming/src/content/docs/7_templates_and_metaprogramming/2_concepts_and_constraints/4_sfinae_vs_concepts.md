@@ -1,6 +1,77 @@
 ---
 title: SFINAE vs Concepts
-description: ""\n";    // 5
+description: "(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# SFINAE vs Concepts
+
+**SFINAE** (Substitution Failure Is Not An Error) was the primary mechanism for constraining
+Templates from C++98 through C++17. C++20 concepts provide a cleaner, more expressive alternative
+With better error messages, built-in overload ordering via subsumption, and first-class syntax. This
+Section compares the two approaches and shows how to migrate from SFINAE to concepts.
+
+## How SFINAE Works
+
+**SFINAE** (Substitution Failure Is Not An Error) is a C++98-era mechanism that allows template
+Argument deduction to discard overloads where substituting the deduced type would produce an invalid
+Type or expression [N4950 §13.10.3.6]. The key idea is:
+
+> If a type or expression used in the function type or template parameter declaration is invalid
+> after substitution, the program is not ill-formed --- instead, the overload is removed from the
+> candidate set.
+
+SFINAE applies strictly to the **immediate context** of template argument substitution [N4950
+§13.10.3.6]. Errors in the body of a template function, or in the definition of a nested type that
+Is not directly in the function signature, are **hard errors**, not substitution failures. This
+Distinction is critical and is the source of many subtle bugs.
+
+The two primary SFINAE techniques are:
+
+1. **SFINAE via the return type:** using `std::enable_if` in the return type.
+2. **SFINAE via a dummy template parameter:** using `std::enable_if` as a default template argument.
+
+A third technique, the **`void_t` idiom** (C++17), uses a detection pattern to check for the
+Validity of an expression:
+
+```cpp
+#include <iostream>
+#include <type_traits>
+
+// SFINAE via return type
+template<typename T>
+typename std::enable_if<std::is_integral<T>::value, T>::type
+safe_abs(T x) {
+    return x < 0 ? -x : x;
+}
+
+template<typename T>
+typename std::enable_if<std::is_floating_point<T>::value, T>::type
+safe_abs(T x) {
+    return x < 0 ? -x : x;
+}
+
+// SFINAE via dummy template parameter
+template<typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value>::type>
+T double_value(T x) {
+    return 2 * x;
+}
+
+// SFINAE via void_t idiom (C++17)
+// Detects whether T::value_type is a valid nested type
+template<typename T, typename = void>
+struct has_value_type : std::false_type {};
+
+template<typename T>
+struct has_value_type<T, std::void_t<typename T::value_type>> : std::true_type {};
+
+int main() {
+    std::cout << safe_abs(-5) << "\n";    // 5
     std::cout << safe_abs(-3.14) << "\n"; // 3.14
     std::cout << double_value(21) << "\n"; // 42
 

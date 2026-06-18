@@ -1,6 +1,25 @@
 ---
 title: Control Flow and Pattern Matching
-description: ""six" };
+description: "Rust''s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression — it..."
+
+---
+
+## `if` / `else`
+
+Rust's `if` expression does not require parentheses around the condition, but braces around the body
+Are mandatory. Unlike C or Java, `if` is an expression — it returns a value and can be used inline:
+
+```rust
+let condition = true;
+let number = if condition { 5 } else { 6 };
+assert_eq!(number, 5);
+```
+
+Both branches must produce the same type. The compiler enforces this:
+
+```rust
+// ERROR: if and else have incompatible types
+// let x = if true { 5 } else { "six" };
 ```
 
 ### `else if` Chains

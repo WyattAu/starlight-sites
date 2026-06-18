@@ -1,6 +1,96 @@
 ---
 title: "Electric and Magnetic Fields -- Diagnostic Tests"
-description: ""the electric field is zero wherever the potential is zero." Construct a
+description: "IB Physics Electric and Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Electric and Magnetic Fields — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Superposition of Electric Fields from Multiple Charges
+
+**Question:**
+
+Three point charges are placed on the $x$-axis: $q_1 = +4.0\,\mu\text{C}$ at
+$x = 0$, $q_2 = -3.0\,\mu\text{C}$ at $x = 0.10\,\text{m}$And $q_3 = +2.0\,\mu\text{C}$ at
+$x = 0.20\,\text{m}$. Take $k = 8.99 \times 10^9\,\text{N}\,\text{m}^2\,\text{C}^{-2}$.
+
+(a) Calculate the net electric field at $x = 0.15\,\text{m}$.
+
+(b) Calculate the force on a test charge $q_0 = -1.0\,\mu\text{C}$ placed at $x = 0.15\,\text{m}$.
+
+(c) Determine the approximate position (if any) where the net electric field is zero.
+
+**Solution:**
+
+(a) At $x = 0.15\,\text{m}$:
+
+**Field from $q_1$** ($+4.0\,\mu\text{C}$Distance $= 0.15\,\text{m}$Direction: away from $q_1$I.e.
+$+x$):
+
+$$E_1 = \frac{kq_1}{r_1^2} = \frac{8.99 \times 10^9 \times 4.0 \times 10^{-6}}{0.0225} = 1.598 \times 10^6\,\text{V}\,\text{m}^{-1}\text{ (in } +x \text{ direction)}$$
+
+**Field from $q_2$** ($-3.0\,\mu\text{C}$ at $x = 0.10$Distance $= 0.05\,\text{m}$Direction: towards
+$q_2$I.e. $-x$):
+
+$$E_2 = \frac{8.99 \times 10^9 \times 3.0 \times 10^{-6}}{0.0025} = 1.079 \times 10^7\,\text{V}\,\text{m}^{-1}\text{ (in } -x \text{ direction)}$$
+
+**Field from $q_3$** ($+2.0\,\mu\text{C}$ at $x = 0.20$Distance $= 0.05\,\text{m}$Direction: away
+from $q_3$I.e. $-x$):
+
+$$E_3 = \frac{8.99 \times 10^9 \times 2.0 \times 10^{-6}}{0.0025} = 7.19 \times 10^6\,\text{V}\,\text{m}^{-1}\text{ (in } -x \text{ direction)}$$
+
+Net field (taking $+x$ as positive):
+
+$$E_{\text{net}} = E_1 - E_2 - E_3 = 1.598 \times 10^6 - 1.079 \times 10^7 - 7.19 \times 10^6 = -1.638 \times 10^7\,\text{V}\,\text{m}^{-1}$$
+
+The field is $1.64 \times 10^7\,\text{V}\,\text{m}^{-1}$ in the $-x$ direction.
+
+(b) Force on $q_0 = -1.0\,\mu\text{C}$:
+
+$$F = q_0 E_{\text{net}} = (-1.0 \times 10^{-6}) \times (-1.638 \times 10^7) = 16.4\,\text{N}$$
+
+The force is in the $+x$ direction (the negative charge is attracted towards the region of stronger
+negative field contribution).
+
+(c) For $x \gt 0.20\,\text{m}$All positive charges push in the $+x$ direction and the negative
+charge pulls in the $+x$ direction. The net field cannot be zero.
+
+For $x \lt 0$, $q_1$ pushes in the $-x$ direction, $q_2$ attracts in the $+x$ direction, $q_3$
+attracts in the $+x$ direction. We need:
+
+$$\frac{k \times 4.0 \times 10^{-6}}{x^2} = \frac{k \times 3.0 \times 10^{-6}}{(x - 0.10)^2} + \frac{k \times 2.0 \times 10^{-6}}{(x - 0.20)^2}$$
+
+This requires numerical solution. Let $x = -a$ where $a \gt 0$:
+
+$$\frac{4.0}{a^2} = \frac{3.0}{(a + 0.10)^2} + \frac{2.0}{(a + 0.20)^2}$$
+
+By trial: for $a = 0.10$: LHS $= 400$RHS $= 75 + 22.2 = 97.2$ (LHS too large)
+
+For $a = 0.40$: LHS $= 25$RHS $= 12 + 5.56 = 17.6$ (LHS still too large)
+
+For $a = 0.80$: LHS $= 6.25$RHS $= 3.70 + 2.0 = 5.70$
+
+For $a = 1.0$: LHS $= 4.0$RHS $= 2.48 + 1.39 = 3.87$
+
+For $a = 1.2$: LHS $= 2.78$RHS $= 1.78 + 1.02 = 2.80$
+
+The solution is approximately $x = -1.2\,\text{m}$.
+
+---
+
+### UT-2: Field Lines and Equipotentials
+
+**Question:**
+
+(a) Explain why electric field lines can never cross, using the definition of the electric field.
+
+(b) A uniform electric field of strength $500\,\text{V}\,\text{m}^{-1}$ points in the $+x$
+direction. Calculate the potential difference between the points $(2, 0)$ and $(5, 3)$ (coordinates
+in metres).
+
+(c) A student claims that "the electric field is zero wherever the potential is zero." Construct a
 counterexample to show this is false.
 
 **Solution:**

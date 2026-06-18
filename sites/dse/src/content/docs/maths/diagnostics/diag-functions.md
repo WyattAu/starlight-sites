@@ -1,6 +1,104 @@
 ---
 title: "Functions -- Diagnostic Tests"
-description: ""$+3$ looks like moving in the positive direction." In
+description: "DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
+tableOfContents: false
+---
+
+# Functions — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for functions.
+
+### UT-1: Domain of Composite $f \circ g$
+
+**Question:**
+
+Let $f(x) = \sqrt{x - 1}$ and $g(x) = \dfrac{1}{x + 2}$.
+
+Find the domain of $f \circ g$.
+
+**Solution:**
+
+We need the range of $g$ to fall within the domain of $f$.
+
+$\mathrm{dom}(g) = \\{x \in \mathbb{R} : x \neq -2\\}$.
+
+$\mathrm{ran}(g) = \\{y \in \mathbb{R} : y \neq 0\\}$ since $g(x) = \dfrac{1}{x+2}$ can take any
+non-zero real value.
+
+$\mathrm{dom}(f) = \\{x \in \mathbb{R} : x \geq 1\\}$.
+
+For $f \circ g$ to be defined, we need $g(x) \geq 1$:
+
+$$\frac{1}{x+2} \geq 1$$
+
+**Case 1:** $x + 2 > 0$ (i.e. $x > -2$):
+
+$$1 \geq x + 2 \implies x \leq -1$$
+
+Combined with $x > -2$: $-2 < x \leq -1$.
+
+**Case 2:** $x + 2 < 0$ (i.e. $x < -2$):
+
+$$1 \leq x + 2 \implies x \geq -1$$
+
+This contradicts $x < -2$. No solutions in this case.
+
+Therefore $\mathrm{dom}(f \circ g) = (-2,\; -1]$.
+
+---
+
+### UT-2: Inverse is Not Reciprocal
+
+**Question:**
+
+Let $f(x) = \dfrac{2x + 3}{x - 1}$, $x \neq 1$. Which of the following equals $f^{-1}(5)$?
+
+$$\text{(A)}\; \frac{1}{f(5)} \qquad \text{(B)}\; f(5) \qquad \text{(C)}\; \text{Neither}$$
+
+Find the correct value.
+
+**Solution:**
+
+$f^{-1}(5)$ is the value of $x$ such that $f(x) = 5$:
+
+$$\frac{2x + 3}{x - 1} = 5$$
+
+$$2x + 3 = 5x - 5$$
+
+$$3x = 8$$
+
+$$x = \frac{8}{3}$$
+
+Check option (A): $\dfrac{1}{f(5)} = \dfrac{1}{\frac{13}{4}} = \dfrac{4}{13} \neq \dfrac{8}{3}$.
+
+Check option (B): $f(5) = \dfrac{13}{4} \neq \dfrac{8}{3}$.
+
+The answer is **(C) Neither**. The inverse function evaluated at a point is NOT the reciprocal of
+the function at that point, nor is it the function itself. $f^{-1}(5) = \dfrac{8}{3}$.
+
+---
+
+### UT-3: Horizontal Shift Direction
+
+**Question:**
+
+The graph of $y = f(x)$ passes through the point $(2, 7)$. Which transformation maps this point to
+$(5, 7)$?
+
+$$\text{(A)}\; y = f(x + 3) \qquad \text{(B)}\; y = f(x - 3)$$
+
+**Solution:**
+
+For $y = f(x - 3)$The graph shifts **right** by 3 units. The point $(2, 7)$ on $y = f(x)$ moves to
+$(5, 7)$.
+
+For $y = f(x + 3)$The graph shifts **left** by 3 units. The point $(2, 7)$ moves to $(-1, 7)$.
+
+The answer is **(B)**.
+
+A common mistake is choosing (A) because "$+3$ looks like moving in the positive direction." In
 fact, replacing $x$ with $x - h$ shifts the graph right by $h$Which is the **opposite** direction to
 the sign.
 

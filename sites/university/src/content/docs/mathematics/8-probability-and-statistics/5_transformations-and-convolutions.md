@@ -1,6 +1,59 @@
 ---
 title: Transformations and Convolutions
-description: ""(x) = f(x)$;
+description: "UNIVERSITY Mathematics notes: Transformations and Convolutions. Comprehensive study material with definitions, examples, and assessment tools."
+tags:
+  - Mathematics
+  - University
+---
+
+### 5.1 Distribution of a Function of a Random Variable
+
+**Theorem 5.1 (CDF Method).** If $Y = g(X)$ and $g$ is monotone, then
+
+$$F_Y(y) = P(g(X) \leq y) = \begin{cases} F_X(g^{-1}(y)) & \text{if}  g \text{ is} increasing \\ 1 - F_X(g^{-1}(y)) & \text{if}  g \text{ is} decreasing \end{cases}$$
+
+**Theorem 5.2 (Change of Variables).** If $Y = g(X)$ where $g$ is differentiable and strictly
+monotone, then
+
+$$f_Y(y) = f_X(g^{-1}(y)) \cdot \left|\frac{d}{dy} g^{-1}(y)\right|$$
+
+<details>
+<summary>Worked Example: Distribution of $X^2$ where $X \sim N(0, 1)$</summary>
+
+_Solution._ Let $Y = X^2$ where $X \sim N(0, 1)$. For $y \geq 0$:
+
+$$F_Y(y) = P(X^2 \leq y) = P(-\sqrt{y} \leq X \leq \sqrt{y}) = \Phi(\sqrt{y}) - \Phi(-\sqrt{y}) = 2\Phi(\sqrt{y}) - 1$$
+
+$$f_Y(y) = \frac{d}{dy}[2\Phi(\sqrt{y}) - 1] = 2\phi(\sqrt{y}) \cdot \frac{1}{2\sqrt{y}} = \frac{1}{\sqrt{2\pi y}}\, e^{-y/2}$$
+
+This is the PDF of the $\chi^2(1)$ distribution. $\blacksquare$
+
+</details>
+
+### 5.2 Convolution
+
+**Theorem 5.3.** If $X$ and $Y$ are independent continuous random variables, the PDF of $Z = X + Y$
+is
+
+$$f_Z(z) = (f_X * f_Y)(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx$$
+
+_Proof._
+$F_Z(z) = P(X + Y \leq z) = \iint_{x+y \leq z} f_{X,Y}(x, y)\, dx\, dy = \int_{-\infty}^{\infty} f_X(x)\left[\int_{-\infty}^{z-x} f_Y(y)\, dy\right] dx = \int_{-\infty}^{\infty} f_X(x)\, F_Y(z - x)\, dx$.
+
+Differentiating: $f_Z(z) = \int_{-\infty}^{\infty} f_X(x)\, f_Y(z - x)\, dx$. $\blacksquare$
+
+**Corollary 5.4.** The sum of independent normals is normal: if $X \sim N(\mu_1, \sigma_1^2)$ and
+$Y \sim N(\mu_2, \sigma_2^2)$ are independent, then
+$X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$.
+
+_Proof._ The convolution of two Gaussian PDFs is Gaussian. This follows from the MGF:
+$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$Which is the
+MGF of $N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. $\blacksquare$
+
+## Common Pitfalls
+
+- **Confusing PDF and CDF.** PDF $f(x)$: probability density; CDF
+  $F(x) = P(X \leq x) = \int_{-\infty}^x f(t)\, dt$. **Fix:** $F"(x) = f(x)$;
   $P(a < X < b) = F(b) - F(a)$.
 - **Wrong central limit theorem application.** The CLT applies to the sample mean, not individual
   observations, and requires sufficiently large $n$. **Fix:**

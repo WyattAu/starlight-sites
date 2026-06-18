@@ -3,7 +3,23 @@ title: Singularities and Residue Theory
 tags:
   - Mathematics
   - University
-description: ""s Removable Singularity Theorem).** If $f$ is bounded near $z_0$Then
+description: "Let be an isolated singularity of (i.e., is analytic in a punctured neighbourhoo Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 8.1 Isolated Singularities
+
+Let $z_0$ be an isolated singularity of $f$ (i.e., $f$ is analytic in a punctured neighbourhood of
+$z_0$).
+
+**Classification by Laurent series:**
+
+1. **Removable singularity**: $a_n = 0$ for all $n \lt 0$. Can be removed by redefining
+   $f(z_0) = a_0$.
+2. **Pole of order $m$**: $a_{-m} \neq 0$ and $a_n = 0$ for $n \lt -m$. The principal part is
+   finite.
+3. **Essential singularity**: infinitely many non-zero $a_n$ with $n \lt 0$.
+
+**Proposition 8.1 (Riemann"s Removable Singularity Theorem).** If $f$ is bounded near $z_0$Then
 $z_0$ is a removable singularity.
 
 **Proposition 8.2.** $z_0$ is a pole of order $m$ if and only if $\lim_{z \to z_0} (z - z_0)^m f(z)$

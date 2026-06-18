@@ -1,6 +1,77 @@
 ---
 title: "Trigonometry -- Diagnostic Tests"
-description: ""s working is shown below. Identify the error, state which solutions are lost, and
+description: "A-Level Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Trigonometry — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for trigonometry.
+
+### UT-1: Ambiguous Case of the Sine Rule
+
+**Question:**
+
+In triangle $ABC$, $a = 8$, $b = 10$And $A = 35°$.
+
+**(a)** Find the two possible values of angle $B$Giving your answers to 1 decimal place.
+
+**(b)** For each value of $B$Find the corresponding value of angle $C$ and the length of side $c$.
+
+**(c)** Explain why a student who applies the cosine rule to find $B$ directly (without first
+finding $c$) would fail to discover the ambiguous case.
+
+[Difficulty: hard. Tests the ambiguous case of the sine rule where two valid triangles exist, and
+why alternative methods miss the second solution.]
+
+**Solution:**
+
+**(a)** By the sine rule:
+
+$$\frac◆LB◆\sin B◆RB◆◆LB◆b◆RB◆ = \frac◆LB◆\sin A◆RB◆◆LB◆a◆RB◆$$
+
+$$\sin B = \frac◆LB◆b \sin A◆RB◆◆LB◆a◆RB◆ = \frac◆LB◆10 \sin 35°◆RB◆◆LB◆8◆RB◆ = \frac◆LB◆10 \times 0.5736◆RB◆◆LB◆8◆RB◆ = 0.7170$$
+
+Since $\sin B = 0.7170$ and $B$ is an angle in a triangle ($0° \lt B \lt 180°$), there are two
+solutions:
+
+$$B_1 = \arcsin(0.7170) = 45.8°$$
+
+$$B_2 = 180° - 45.8° = 134.2°$$
+
+Both are valid: $B_1 + A = 80.8° \lt 180°$ and $B_2 + A = 169.2° \lt 180°$.
+
+**(b)** For $B_1 = 45.8°$:
+
+$$C_1 = 180° - 35° - 45.8° = 99.2°$$
+
+$$c_1 = \frac◆LB◆a \sin C_1◆RB◆◆LB◆\sin A◆RB◆ = \frac◆LB◆8 \sin 99.2°◆RB◆◆LB◆\sin 35°◆RB◆ = \frac◆LB◆8 \times 0.9863◆RB◆◆LB◆0.5736◆RB◆ = 13.76$$
+
+For $B_2 = 134.2°$:
+
+$$C_2 = 180° - 35° - 134.2° = 10.8°$$
+
+$$c_2 = \frac◆LB◆8 \sin 10.8°◆RB◆◆LB◆\sin 35°◆RB◆ = \frac◆LB◆8 \times 0.1874◆RB◆◆LB◆0.5736◆RB◆ = 2.61$$
+
+**(c)** The cosine rule for finding $B$ is $\cos B = \frac{a^2 + c^2 - b^2}{2ac}$. This requires
+knowing $c$Which is not given. The cosine rule is not directly applicable with the SSA (two sides
+and a non-included angle) configuration.
+
+More fundamentally, $\cos$ is injective on $(0°, 180°)$ (it is strictly decreasing), so the cosine
+rule can only ever yield one value for $B$. The ambiguity is an inherent property of the sine rule,
+because $\sin$ is symmetric about $90°$ on $(0°, 180°)$: $\sin\theta = \sin(180° - \theta)$.
+
+---
+
+### UT-2: Cancelling $\sin\theta$ When $\sin\theta = 0$
+
+**Question:**
+
+**(a)** Solve the equation $\sin\theta = 2\sin\theta\cos\theta$ for $\theta \in [0°, 360°)$.
+
+**(b)** A student"s working is shown below. Identify the error, state which solutions are lost, and
 explain why.
 
 > $\sin\theta = 2\sin\theta\cos\theta$

@@ -1,6 +1,28 @@
 ---
 title: Research Methods in Psychology
-description: ""s razor).
+description: "Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology..."
+
+---
+
+## The Scientific Method in Psychology
+
+Psychology is a science because it uses empirical methods to investigate questions about behaviour
+And mental processes. The scientific method in psychology involves a systematic cycle of
+Observation, theory development, hypothesis formulation, data collection, analysis, and theory
+Revision.
+
+**Key characteristics of the scientific approach:**
+
+- **Empiricism:** Knowledge is derived from systematic observation and measurement, not from
+  intuition, authority, or tradition.
+- **Objectivity:** Researchers strive to minimise the influence of personal biases and expectations
+  on the collection and interpretation of data.
+- **Replicability:** Findings must be replicable by other researchers using the same methods.
+  Replication is the primary mechanism for establishing the reliability of findings.
+- **Falsifiability:** Scientific theories must generate testable predictions that could, in
+  principle, be disproven by empirical evidence (Popper, 1959).
+- **Parsimony:** When multiple explanations account for the same data, the simplest explanation is
+  preferred (Occam"s razor).
 
 ### The Research Cycle
 

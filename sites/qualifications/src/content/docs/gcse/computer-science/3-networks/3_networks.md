@@ -1,6 +1,202 @@
 ---
 title: Networks
-description: ""All People Seem To Need Data Processing" (Application, Presentation, Session,
+description: "| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------..."
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-computer-science
+categories:
+  - gcse-computer-science
+
+---
+
+## Networks
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR J277 Paper 2 | WJEC Unit 2
+## 1. Types of Networks
+
+### 1.1 LAN and WAN
+
+| Feature   | LAN (Local Area Network)            | WAN (Wide Area Network)                |
+| --------- | ----------------------------------- | -------------------------------------- |
+| Coverage  | Small area (building, school, home) | Large area (cities, countries, global) |
+| Ownership | Owned by the organisation           | Owned by multiple organisations/ISPs   |
+| Speed     | Fast (100 Mbps -- 10 Gbps)          | Slower than LAN                        |
+| Cost      | Low setup and maintenance           | High setup and maintenance             |
+
+**The Internet** is the largest WAN in the world, connecting billions of devices globally.
+
+**WLAN (Wireless LAN):** A LAN that uses wireless connections (Wi-Fi) instead of cables. Common in
+Homes and schools.
+
+**PAN (Personal Area Network):** Covers a very small area (a few metres). Bluetooth connections
+Between a phone and headphones are an example.
+
+### 1.2 Client-Server vs Peer-to-Peer
+
+**Client-Server:**
+
+- A central server provides resources and services to client computers
+- The server manages security, backups, and data
+- Advantages: centralised management, better security, easy backups
+- Disadvantages: server is a single point of failure, more expensive
+
+**Peer-to-Peer (P2P):**
+
+- All computers are equal; each can share resources directly with others
+- No central server
+- Advantages: cheaper, no single point of failure
+- Disadvantages: harder to manage, weaker security, no central backup
+
+**Client-server vs P2P comparison:**
+
+| Feature        | Client-Server              | Peer-to-Peer                 |
+| -------------- | -------------------------- | ---------------------------- |
+| Central device | Yes (server)               | No                           |
+| Cost           | Higher                     | Lower                        |
+| Security       | Centralised, stronger      | Decentralised, weaker        |
+| Backup         | Centralised                | Each user responsible        |
+| Scalability    | Easier to scale            | Difficult at large scale     |
+| Failure impact | Server failure affects all | Only affected peer goes down |
+| Best for       | Businesses, schools        | Small home networks          |
+
+### 1.3 Network Topologies
+
+A **network topology** describes the physical or logical arrangement of devices in a network.
+
+**Star topology:**
+
+- All devices connect to a central switch or hub
+- If the central device fails, the network fails
+- If one cable fails, only that device is affected
+- Easy to add or remove devices
+- Most common topology in modern networks
+
+**Mesh topology:**
+
+- Every device is connected to every other device (full mesh) or to multiple devices (partial mesh)
+- Very reliable (multiple paths for data)
+- Expensive (many cables)
+- Complex to set up
+- Used in critical systems where reliability is essential
+
+**Bus topology:**
+
+- All devices connected to a single backbone cable
+- Cheap and simple
+- If the backbone cable fails, the entire network fails
+- Performance degrades with many devices (collisions)
+- Rarely used in modern networks
+
+**Ring topology:**
+
+- Devices connected in a circular loop
+- Data travels in one direction
+- If one device or cable fails, the entire network fails
+- Rarely used (modern ring networks use dual rings for redundancy)
+
+### 1.4 Comparing Topologies
+
+| Feature         | Star           | Mesh             | Bus          | Ring     |
+| --------------- | -------------- | ---------------- | ------------ | -------- |
+| Cost            | Low            | High             | Very low     | Low      |
+| Reliability     | Medium         | Very high        | Low          | Low      |
+| Scalability     | Good           | Poor             | Poor         | Poor     |
+| Fault tolerance | Good           | Excellent        | Poor         | Poor     |
+| Cable required  | One per device | Many             | One backbone | One ring |
+| Common use      | LANs           | Critical systems | Legacy       | Legacy   |
+
+**Worked Example.** A school has 30 computers in a computer lab. Recommend a topology and justify
+Your answer.
+
+A star topology is most appropriate. Each computer connects to a central switch via its own cable.
+If one cable fails, only that computer is affected. It is easy to add or remove computers. The
+Switch manages traffic efficiently, avoiding collisions.
+
+### 1.5 Network Models in Practice
+
+**Worked Example.** A small office has 5 computers, a printer, and a router connected to the
+Internet. Draw and describe the network topology.
+
+All devices connect to a central switch (star topology). The switch connects to the router, which
+Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
+Through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
+
+## 2. Network Hardware
+
+### 2.1 Key Devices
+
+| Device                       | Function                                                                                                     |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Router                       | Connects different networks together; directs data packets to their destination; assigns IP addresses (DHCP) |
+| Switch                       | Connects devices within a LAN; directs data to the correct device using MAC addresses                        |
+| Hub                          | Connects devices in a LAN; broadcasts data to ALL connected devices (less efficient than a switch)           |
+| Network interface card (NIC) | Allows a device to connect to a network; has a unique MAC address                                            |
+| Wireless access point (WAP)  | Allows wireless devices to connect to a wired network                                                        |
+| Bridge                       | Connects two segments of a LAN, filtering traffic                                                            |
+| Repeater                     | Amplifies signals to extend the range of a network                                                           |
+
+### 2.2 Switch vs Hub
+
+A **hub** broadcasts incoming data to ALL ports. This is inefficient and causes collisions because
+Every device receives every message, even if it was not the intended recipient.
+
+A **switch** learns which device is connected to each port and directs data only to the intended
+Recipient. This is more efficient and reduces collisions.
+
+**Analogy.** A hub is like a person shouting a message in a crowded room -- everyone hears it. A
+Switch is like a person handing a sealed envelope directly to the intended recipient.
+
+**Worked Example.** Computer A sends a message to Computer B on a network with a hub. What happens?
+
+The hub receives the message and broadcasts it to ALL ports. Computers C, D, and E also receive the
+Message, even though it was only intended for Computer B. Each computer checks the destination MAC
+Address and discards the message if it does not match. This wastes bandwidth on all devices.
+
+### 2.3 Router vs Switch
+
+A **switch** connects devices within a single LAN and forwards frames based on MAC addresses.
+
+A **router** connects different networks (e.g., a LAN to the Internet) and forwards packets based on
+IP addresses. Routers can also perform NAT (Network Address Translation), allowing multiple devices
+On a LAN to share a single public IP address.
+
+**Device comparison by OSI layer:**
+
+| Device | OSI Layer     | Address Used | Connects             |
+| ------ | ------------- | ------------ | -------------------- |
+| Hub    | Physical (1)  | None         | Devices within a LAN |
+| Switch | Data Link (2) | MAC address  | Devices within a LAN |
+| Router | Network (3)   | IP address   | Different networks   |
+
+## 3. Network Models
+
+### 3.1 The TCP/IP Model
+
+The TCP/IP model has four layers:
+
+| Layer                 | Function                               | Examples                        |
+| --------------------- | -------------------------------------- | ------------------------------- |
+| Application           | Provides services to user applications | HTTP, FTP, SMTP, DNS            |
+| Transport             | Ensures reliable delivery of data      | TCP, UDP                        |
+| Internet (Network)    | Routes data packets across networks    | IP, routing protocols           |
+| Link (Network Access) | Handles physical transmission of data  | Ethernet, Wi-Fi, MAC addressing |
+
+### 3.2 The OSI Model (Higher Tier)
+
+The OSI (Open Systems Interconnection) model has seven layers:
+
+| Layer | Name         | Function                     | Examples             |
+| ----- | ------------ | ---------------------------- | -------------------- |
+| 7     | Application  | User interface, applications | HTTP, FTP, DNS       |
+| 6     | Presentation | Data formatting, encryption  | SSL/TLS, JPEG, ASCII |
+| 5     | Session      | Session management           | NetBIOS              |
+| 4     | Transport    | End-to-end delivery          | TCP, UDP             |
+| 3     | Network      | Routing and addressing       | IP, ICMP, ARP        |
+| 2     | Data Link    | Node-to-node delivery, MAC   | Ethernet, Wi-Fi      |
+| 1     | Physical     | Electrical signals, bits     | Cables, hubs         |
+
+**Mnemonic:** "All People Seem To Need Data Processing" (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
 
 **TCP/IP vs OSI:** The TCP/IP model is the practical model used on the Internet. The OSI model is a

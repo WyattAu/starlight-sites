@@ -1,6 +1,89 @@
 ---
 title: Thermodynamics
-description: ""s Law
+description: "Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-chemistry
+categories:
+  - ap-chemistry
+
+---
+
+## The First Law of Thermodynamics (CED Unit 6)
+
+Energy cannot be created or destroyed. The change in internal energy of a system is:
+
+$$
+\Delta U = q + w
+$$
+
+Where $q$ is heat and $w$ is work. The first law is a statement of energy conservation: any change
+In the internal energy of a system must be accounted for by heat flow and work done.
+
+### Sign Convention (Chemistry)
+
+- $q \gt 0$: heat absorbed by the system (endothermic)
+- $q \lt 0$: heat released by the system (exothermic)
+- $w \gt 0$: work done on the system (compression)
+- $w \lt 0$: work done by the system (expansion)
+
+This sign convention is used by chemists (IUPAC convention). Some physics texts use the opposite
+Sign for work.
+
+### Pressure-Volume Work
+
+For a gas expanding/contracting against constant external pressure:
+
+$$
+W = -P\Delta V
+$$
+
+The negative sign reflects the chemistry convention: when a gas expands ($\Delta V \gt 0$), it does
+Work on the surroundings ($w \lt 0$).
+
+### Work at Constant Pressure: Enthalpy
+
+At constant pressure, $w = -P\Delta V$So:
+
+$$
+\Delta U = q_P - P\Delta V \implies q_P = \Delta U + P\Delta V = \Delta H
+$$
+
+**Enthalpy** ($H$) is defined as $H = U + PV$. At constant pressure, $\Delta H = q_P$. Enthalpy is
+Convenient because most chemical reactions occur at constant (atmospheric) pressure.
+
+### Derivation: Why $\Delta H = q_P$
+
+Starting from the first law at constant pressure:
+
+$$\Delta U = q_P + w = q_P - P\Delta V$$
+
+$$q_P = \Delta U + P\Delta V$$
+
+$$q_P = (U_2 - U_1) + P(V_2 - V_1) = (U_2 + PV_2) - (U_1 + PV_1) = H_2 - H_1 = \Delta H$$
+
+This derivation shows that enthalpy change equals heat at constant pressure because the $P\Delta V$
+Work term is absorbed into the enthalpy definition.
+
+## Enthalpy of Reaction (CED Unit 6)
+
+### Standard Enthalpy of Formation ($\Delta H_f^\circ$)
+
+The enthalpy change when 1 mole of a compound forms from its elements in their standard states.
+
+$$
+\Delta H_{\mathrm{rxn}^\circ = \sum n\Delta H_f^\circ(\mathrm{products) - \sum m\Delta H_f^\circ(\mathrm{reactants)
+$$
+
+Standard conditions: $1 \mathrm{ atm$, $298 \mathrm{ K$ ($25^\circ\mathrm{C$), pure substances in
+Their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
+
+The standard state of an element is its most stable form at $1 \mathrm{ atm$ and
+$25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
+$\mathrm{C(graphite)$Not $\mathrm{C(diamond)$.
+
+### Hess"s Law
 
 The total enthalpy change for a reaction is the same regardless of the pathway. If a reaction can be
 Written as the sum of several steps:

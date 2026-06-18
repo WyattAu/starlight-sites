@@ -1,6 +1,125 @@
 ---
 title: Incident Response
-description: ""Do we know what data was accessed before encryption?"    |
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and..."
+
+---
+
+## The Incident Response Lifecycle
+
+NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection
+And Analysis, Containment Eradication and Recovery, and Post-Incident Activity.
+
+```mermaid
+graph TD
+    A[Preparation] --> B[Detection & Analysis]
+    B --> C[Containment]
+    C --> D[Eradication]
+    D --> E[Recovery]
+    E --> F[Post-Incident Activity]
+    F --> A
+
+    style A fill:#bfb,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style C fill:#fbb,stroke:#333
+    style D fill:#f9f,stroke:#333
+    style E fill:#fdb,stroke:#333
+    style F fill:#bdf,stroke:#333
+```
+
+The lifecycle is not strictly linear. Detection may happen during containment. Recovery may reveal
+The need for additional eradication. Post-incident analysis feeds back into preparation, improving
+Readiness for the next incident.
+
+## Preparation
+
+Preparation is the most important phase. An unprepared team will waste critical time during an
+Incident figuring out roles, tools, and processes — while the attacker continues to operate.
+
+### Incident Response Plan (IRP)
+
+An IRP is a documented, tested plan that defines how the organization will respond to security
+Incidents. It should be a living document that is reviewed and updated at least annually.
+
+**Essential IRP components:**
+
+| Component                  | Description                                               |
+| -------------------------- | --------------------------------------------------------- |
+| Scope and objectives       | What constitutes an incident, what the plan covers        |
+| Roles and responsibilities | Who does what during each phase (RACI matrix)             |
+| Severity classification    | How to categorize incidents by impact and urgency         |
+| Communication procedures   | Internal escalation, external notification, public comms  |
+| Technical procedures       | Step-by-step instructions for common incident types       |
+| Evidence handling          | Chain of custody, forensic imaging, log preservation      |
+| Tool inventory             | What tools are available and how to use them              |
+| Contact lists              | IR team, management, legal, law enforcement, regulators   |
+| Legal and regulatory       | Data breach notification requirements, retention policies |
+
+### Incident Response Team
+
+| Role               | Responsibility                                       |
+| ------------------ | ---------------------------------------------------- |
+| Incident Commander | Overall coordination, decision-making, communication |
+| Technical Lead     | Directs investigation, containment, and eradication  |
+| Forensic Analyst   | Evidence collection, preservation, and analysis      |
+| Communications     | Internal and external messaging, media relations     |
+| Legal Counsel      | Regulatory compliance, law enforcement liaison       |
+| Management Liaison | Executive communication, resource authorization      |
+| IT Operations      | Infrastructure support, isolation, recovery          |
+
+For small organizations, roles may overlap. The critical requirement is that **someone is explicitly
+Responsible for each function**.
+
+### Playbooks
+
+Playbooks are predefined procedures for specific incident types. They reduce decision-making under
+Pressure and ensure consistent, repeatable responses.
+
+| Incident Type         | Key Playbook Actions                                                                                |
+| --------------------- | --------------------------------------------------------------------------------------------------- |
+| Ransomware            | Isolate affected systems, identify ransomware variant, assess data exposure, do not pay immediately |
+| Data breach           | Identify scope, preserve evidence, notify affected parties, assess regulatory requirements          |
+| Credential compromise | Force password reset, revoke sessions, check for lateral movement                                   |
+| DDoS                  | Activate scrubbing, increase capacity, identify attack vector                                       |
+| Malware               | Isolate infected host, identify malware family, scan for propagation                                |
+| Insider threat        | Preserve evidence (legal hold), revoke access, coordinate with HR/legal                             |
+| Supply chain attack   | Identify affected software, assess blast radius, patch/revert, verify integrity                     |
+
+### Tools and Infrastructure
+
+| Category            | Tools                                          |
+| ------------------- | ---------------------------------------------- |
+| SIEM                | Splunk, Elastic Security, Microsoft Sentinel   |
+| EDR/XDR             | CrowdStrike, SentinelOne, Microsoft Defender   |
+| Forensic imaging    | FTK Imager, dd, dc3dd, ewf                     |
+| Memory forensics    | Volatility, Rekall                             |
+| Log aggregation     | Fluentd, Logstash, Vector                      |
+| Threat intelligence | MITRE ATT&CK, VirusTotal, Shodan, CIRCL        |
+| Communication       | Slack (dedicated channel), PagerDuty, Opsgenie |
+| Ticketing           | Jira, ServiceNow, RT                           |
+| Documentation       | Confluence, shared drive (access-controlled)   |
+
+### Tabletop Exercises
+
+Tabletop exercises are discussion-based simulations where the IR team walks through a hypothetical
+Incident scenario. They test the plan, identify gaps, and build muscle memory without the pressure
+Of a real incident.
+
+**Exercise structure:**
+
+1. **Scenario design**: Choose a realistic scenario (ransomware, data breach, insider threat)
+2. **Inject timeline**: Progress the scenario with new information at intervals
+3. **Discussion**: Team discusses what they would do at each step
+4. **Observation**: Facilitator notes gaps, confusion, and delays
+5. **Debrief**: Review findings, update playbooks and IRP
+
+**Example inject sequence for a ransomware exercise:**
+
+| Time     | Inject                                                                |
+| -------- | --------------------------------------------------------------------- |
+| T+0      | User reports files are encrypted and a ransom note is displayed       |
+| T+15min  | Second user reports the same. IT discovers network share is encrypted |
+| T+30min  | EDR alerts on lateral movement attempts from the first host           |
+| T+60min  | Legal asks: "Do we know what data was accessed before encryption?"    |
 | T+90min  | Media inquiry received. Board asks for status update                  |
 | T+120min | Threat intel: ransomware variant has known data exfiltration          |
 | T+180min | Executive demands: "Can we restore from backups?"                     |
@@ -90,7 +209,13 @@ Detection rules translate threat intelligence into automated alerts in your SIEM
 # Sigma rule: Detect suspicious PowerShell execution
 title: Suspicious PowerShell Encoded Command
 status: production
-description: ""\powershell.exe''
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and"
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    Image|endswith: "\powershell.exe''
     CommandLine|contains:
       - "-enc'
       - '-EncodedCommand'
@@ -106,7 +231,26 @@ tags:
 # Sigma rule: Detect potential SSH brute force
 title: SSH Brute Force Attempt
 status: production
-description: ""s goals and predict next steps.
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and..."
+logsource:
+  category: authentication
+  product: linux
+detection:
+  selection:
+    service: sshd
+    result: failure
+  timeframe: 5m
+  condition: selection | count() > 10
+level: high
+tags:
+  - attack.brute_force
+  - attack.t1110
+```
+
+### MITRE ATT&CK Mapping
+
+MITRE ATT&CK provides a framework of adversary tactics, techniques, and procedures (TTPs). Mapping
+Detected activity to ATT&CK techniques helps understand the attacker"s goals and predict next steps.
 
 ```mermaid
 graph LR

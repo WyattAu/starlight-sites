@@ -1,6 +1,68 @@
 ---
 title: JETS
-description: ""\u0000'` `'a'`
+description: "Rigorous IB computer science notes covering JETS. Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+draft: false
+tags:
+  - CS
+categories:
+  - ib
+---
+
+# Java Examination Tool Sebset (JETS)
+
+The IB does not expect a specific standard of Java to be taught but a subset of Java called JETS for
+Students to present OOP concepts
+
+## Conventions
+
+### Styles
+
+| Token               | Conventions        |
+| ------------------- | ------------------ |
+| Classes identifier  | `CapitalCamelCase` |
+| Variable identifier | `camelCase`        |
+| Method identifier   | `camelCase`        |
+| Constant identifier | `UPPER_CASE`       |
+
+### Ordering
+
+- Main class should be placed at the top
+- Constructors should be place as the first method
+
+## Operators Permitted
+
+- Arithmetic
+- `+`
+- `-`
+- `*`
+- `/`
+- `%`
+- Relational
+- `==`
+- `!=`
+- `>`
+- `<`
+- `$\ge$`
+- `$\le$`
+- Boolean
+- `!`
+- `&&`
+- `||`
+
+## Types
+
+### Primitive Data Types
+
+Primitive data types are data types other data types are constructed with, these are normally
+Built-in as standard data types of programming languages, in JETS, these are: | type declaration |
+Size | range | Standard | Default init value | | :---------------- |
+:---------------------------------------: | :--------------------------------------------------: |
+:------------------------------------------------------: | :------------------: | | `byte` | 8 bits
+| $-128\le n \le 127$ | signed | `0` | | `int` | 32 bits | $-2^{31}\le n \le 2^{31}-1$ | signed |
+`0` | | `long` | 64 bits | $-2^{63}\le n \le 2^{63}-1$ | signed | `0` | | `double` | 64 bits |
+$-1.8\times 10^{308} \le n \le 1.8\times 10^{308}$ | IEEE 754-1984 (double precision binary
+Floating-point) | `0.0d` | | `char` | 16 bits | $0 \le n \le 2^{16} -1$ | UTF-16 | `"\u0000'` `'a'`
 | | `boolean` | 1 bit (logical) 1 byte (in-practice) | `false` |
 
 ```java

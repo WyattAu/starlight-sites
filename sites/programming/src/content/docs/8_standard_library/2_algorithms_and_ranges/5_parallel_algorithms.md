@@ -1,6 +1,45 @@
 ---
 title: Parallel Algorithms
-description: ""s responsibility.
+description: "C++17 introduced execution policies that enable many standard algorithms to run in parallel across Multiple threads. This section covers the three standard..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+## Parallel Algorithms and Execution Policies
+
+C++17 introduced execution policies that enable many standard algorithms to run in parallel across
+Multiple threads. This section covers the three standard execution policies, which algorithms
+Support parallelism, data race pitfalls, the critical difference between `std::reduce` and
+`std::accumulate`And practical parallel pipeline patterns.
+
+### Execution Policies
+
+C++17 introduced **execution policies** as the first argument to many standard algorithms, enabling
+Parallel and vectorized execution [N4950 §25.5]. The three standard policies are defined in
+`<execution>`:
+
+| Policy                      | Type                  | Behavior [N4950 §25.5.2]                                     |
+| --------------------------- | --------------------- | ------------------------------------------------------------ |
+| `std::execution::seq`       | Sequenced             | Sequential execution (default if no policy specified)        |
+| `std::execution::par`       | Parallel              | May execute in multiple threads                              |
+| `std::execution::par_unseq` | Parallel + Vectorized | May execute in multiple threads AND vectorize within threads |
+
+#### Formal Semantics of Execution Policies
+
+The standard defines execution policies via the `is_execution_policy` type trait [N4950 §25.5.1] and
+Specifies constraints on element access functions:
+
+- **`seq`**: The element access function is invoked sequentially in the calling thread. The
+  invocation order is the same as the sequential overload. No concurrency, no vectorization.
+
+- **`par`**: The element access function may be invoked concurrently from multiple threads. The
+  standard imposes no ordering guarantee on invocations. The implementation may partition the input
+  range and process each partition in a separate thread. Data races in the user function are the
+  caller"s responsibility.
 
 - **`par_unseq`**: In addition to `par` semantics, the element access function may be vectorized ---
   that is, multiple elements may be processed within a single thread using SIMD instructions (e.g.,

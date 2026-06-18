@@ -1,6 +1,127 @@
 ---
 title: Economics
-description: ""s Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+description: "A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## A Level Economics — Course Overview
+
+A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous
+Analytical framework for understanding markets, firms, governments, and the global economy. The
+Course requires both mathematical fluency and the ability to construct clear, logical arguments.
+
+### Board Coverage
+
+| Topic                                        | AQA     | Edexcel | OCR (A) | CIE (9708) |
+| -------------------------------------------- | ------- | ------- | ------- | ---------- |
+| Markets & Market Failure                     | Paper 1 | P1      | Paper 1 | P1         |
+| The National Economy                         | Paper 2 | P1      | Paper 2 | P2         |
+| Individual & Market Behaviour (Micro)        | Paper 1 | P1      | Paper 1 | P1         |
+| The National & International Economy (Macro) | Paper 2 | P1      | Paper 2 | P2         |
+| Economic Principles & Issues                 | —       | P2      | —       | —          |
+| Labour Markets                               | Paper 1 | P1      | Paper 1 | P1         |
+| Distribution of Income & Wealth              | Paper 1 | —       | Paper 1 | P1         |
+| Financial Markets                            | —       | P1      | Paper 2 | —          |
+| Development Economics                        | —       | P1      | —       | P2         |
+| The Global Economy                           | Paper 2 | P1      | Paper 2 | P2         |
+
+### Course Structure
+
+#### Microeconomics
+
+The study of individual economic agents — consumers, firms, and markets:
+
+1. **Methodology & the Economic Problem** — Scarcity, choice, opportunity cost, positive vs
+   normative economics
+2. **Demand, Supply & Market Equilibrium** — The price mechanism, elasticity, and market adjustment
+3. **Market Failure & Government Intervention** — Externalities, public goods, information
+   asymmetry, and policy responses
+4. **Theory of the Firm** — Production, costs, market structures (perfect competition, monopoly,
+   oligopoly, monopolistic competition)
+5. **Labour Markets** — Demand for and supply of labour, wage determination, trade unions,
+   discrimination
+6. **Distribution of Income & Wealth** — Inequality measurement, poverty, tax/transfer policies
+
+#### Macroeconomics
+
+The study of the economy as a whole:
+
+1. **Macroeconomic Performance** — GDP, inflation, unemployment, the balance of payments
+2. **Aggregate Demand & Aggregate Supply** — The AD/AS model, multipliers, and the price level
+3. **The Financial Sector** — Banks, interest rates, monetary policy, the money supply
+4. **Fiscal Policy** — Government spending, taxation, budget deficits, and the national debt
+5. **Supply-Side Policy** — Productivity, labour market reforms, competition policy
+6. **The International Economy** — Trade theory, exchange rates, globalisation, economic development
+7. **Macroeconomic Policy Debates** — Monetarism vs Keynesianism, rules vs discretion
+
+### Assessment
+
+| Board   | Papers                                                                      | Format                                  |
+| ------- | --------------------------------------------------------------------------- | --------------------------------------- |
+| AQA     | Paper 1 (Micro), Paper 2 (Macro), Paper 3 (Synoptic)                        | Data response + essay                   |
+| Edexcel | P1 (Markets), P2 (UK Economy), P3 (Business)                                | Multiple choice + data response + essay |
+| OCR (A) | Paper 1 (Micro), Paper 2 (Macro), Paper 3 (Themes)                          | Data response + essay                   |
+| CIE     | Paper 1 (MCQ), Paper 2 (Data response), Paper 3 (Essay), Paper 4 (Synoptic) | Mixed                                   |
+
+### How to Use These Notes
+
+Each topic page contains:
+
+1. **Precise definitions** — every economic term defined rigorously
+2. **Theoretical models** — with graphical and mathematical derivations
+3. **Critical evaluation** — strengths, limitations, and real-world applicability
+4. **Worked examples** — applying models to exam-style data response questions
+5. **Multi-step problem set** — questions requiring chain reasoning and evaluation
+6. **Board-specific notes** — specification differences
+
+When finished, attempt the.
+
+---
+
+## Key Formulae Reference
+
+### Microeconomics
+
+**Elasticities:**
+$$PED = \frac◆LB◆\% \Delta Q_D◆RB◆◆LB◆\% \Delta P◆RB◆ = \frac◆LB◆\Delta Q◆RB◆◆LB◆\Delta P◆RB◆ \times \frac{P}{Q}$$
+$$PES = \frac◆LB◆\% \Delta Q_S◆RB◆◆LB◆\% \Delta P◆RB◆ = \frac◆LB◆\Delta Q◆RB◆◆LB◆\Delta P◆RB◆ \times \frac{P}{Q}$$
+$$XED = \frac◆LB◆\% \Delta Q_A◆RB◆◆LB◆\% \Delta P_B◆RB◆$$
+$$YED = \frac◆LB◆\% \Delta Q_D◆RB◆◆LB◆\% \Delta Y◆RB◆$$
+
+**Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*$$
+$$PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*$$
+$$DWL_{tax} = \frac{1}{2} \times t \times \Delta Q$$
+$$DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)$$
+
+**Tax incidence:** $$\text{Consumer burden} = \frac◆LB◆PES◆RB◆◆LB◆|PED| + PES◆RB◆ \times t$$
+$$\text{Producer burden} = \frac◆LB◆|PED|◆RB◆◆LB◆|PED| + PES◆RB◆ \times t$$
+
+**Firm behaviour:** $$\pi = TR - TC = P \times Q - TC(Q)$$ Profit max: $MR = MC$
+$$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
+
+**Monopsony:** $$MFCL = w + L \times \frac{dw}{dL}$$ Profit max: $MFCL = MRPL$
+
+### Macroeconomics
+
+**National income:** $$GDP = C + I + G + (X - M)$$
+$$\text{Real GDP} = \frac◆LB◆\text{Nominal GDP}◆RB◆◆LB◆\text{GDP Deflator}◆RB◆ \times 100$$
+$$g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100$$
+
+**Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100$$
+
+**Unemployment:** $$u = \frac{U}{LF} \times 100 = \frac{U}{U + E} \times 100$$
+
+**Multiplier:** $$k = \frac{1}{1 - MPC(1-t) + MPM}$$ $$k_T = \frac{-MPC}{1 - MPC(1-t) + MPM}$$
+
+**Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)$$
+
+**Okun"s Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
 
 **Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
 

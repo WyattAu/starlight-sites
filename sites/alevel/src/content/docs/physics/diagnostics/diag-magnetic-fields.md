@@ -1,6 +1,44 @@
 ---
 title: "Magnetic Fields -- Diagnostic Tests"
-description: ""s left-hand rule
+description: "A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Magnetic Fields — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Force on a Current-Carrying Wire in a Non-Uniform Field
+
+**Question:**
+
+A long straight wire carries a current $I_1 = 10\,\text{A}$ vertically upwards. A second straight
+wire of length $0.30\,\text{m}$ carrying current $I_2 = 5.0\,\text{A}$ is placed parallel to the
+first wire at a distance of $0.05\,\text{m}$.
+
+(a) Calculate the force per unit length between the wires and state whether it is attractive or
+repulsive.
+
+(b) Calculate the total force on the $0.30\,\text{m}$ wire.
+
+(c) If the second wire is now placed perpendicular to the first (still at $0.05\,\text{m}$
+distance), calculate the force on it and explain why it differs from part (b).
+
+Take $\mu_0 = 4\pi \times 10^{-7}\,\text{T}\,\text{m}\,\text{A}^{-1}$.
+
+**Solution:**
+
+(a) The magnetic field due to $I_1$ at the location of $I_2$:
+
+$$B = \frac◆LB◆\mu_0 I_1◆RB◆◆LB◆2\pi r◆RB◆ = \frac◆LB◆4\pi \times 10^{-7} \times 10◆RB◆◆LB◆2\pi \times 0.05◆RB◆ = \frac◆LB◆4\pi \times 10^{-6}◆RB◆◆LB◆0.1\pi◆RB◆ = 4.0 \times 10^{-5}\,\text{T}$$
+
+Force per unit length:
+$\frac{F}{L} = \frac◆LB◆\mu_0 I_1 I_2◆RB◆◆LB◆2\pi r◆RB◆ = \frac◆LB◆4\pi \times 10^{-7} \times 10 \times 5.0◆RB◆◆LB◆2\pi \times 0.05◆RB◆$
+
+$$= \frac◆LB◆2 \times 10^{-5}◆RB◆◆LB◆0.05◆RB◆ = 4.0 \times 10^{-4}\,\text{N}\,\text{m}^{-1}$$
+
+Using the right-hand grip rule: $I_1$ produces a field that points into the page at the location of
+$I_2$ (if $I_2$ is to the right of $I_1$ and both carry current upward). Fleming"s left-hand rule
 gives a force on $I_2$ directed toward $I_1$. The force is **attractive**.
 
 (b) Total force:

@@ -3,7 +3,37 @@ title: Hazards
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: ""s impacts                                                                                    |
+description: "A-Level Geography Hazards notes covering key definitions, core concepts, worked examples, and practice questions for structured learning and effective revision."
+---
+
+# Hazards
+
+## Introduction
+
+Natural hazards are extreme natural events that have the potential to cause loss of life, property
+damage, and social and environmental disruption. A hazard only becomes a **disaster** when it
+affects a vulnerable human population. This topic examines the physical processes behind tectonic
+and atmospheric hazards, the concept of vulnerability, and the strategies used to manage risk. The
+distinction between hazard (the physical event) and disaster (the human impact) is central to
+understanding why some events are catastrophic while others are manageable.
+
+---
+
+## Key Concepts and Definitions
+
+| Term                | Definition                                                                                                                                    |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Natural hazard**  | A natural process or event that has the potential to cause loss of life or property damage                                                    |
+| **Disaster**        | A hazard event that causes significant loss of life, property damage, or social and environmental disruption                                  |
+| **Risk**            | The probability of a hazard event occurring and its potential impact; expressed as Risk = Hazard × Vulnerability × Exposure                   |
+| **Vulnerability**   | The susceptibility of a population to the impacts of a hazard, determined by social, economic, and political factors                          |
+| **Exposure**        | The number of people, assets, or infrastructure located in a hazard zone                                                                      |
+| **Magnitude**       | The size or severity of a hazard event (e.g., Richter scale for earthquakes, Saffir-Simpson scale for hurricanes)                             |
+| **Frequency**       | How often a hazard event of a given magnitude occurs                                                                                          |
+| **Capacity**        | The ability of a community to anticipate, cope with, resist, and recover from a hazard                                                        |
+| **Resilience**      | The ability of a community to recover quickly from the impacts of a hazard                                                                    |
+| **Prediction**      | The ability to forecast when and where a hazard event will occur                                                                              |
+| **Mitigation**      | Actions taken to reduce the severity of a hazard"s impacts                                                                                    |
 | **Adaptation**      | Adjustments made to cope with the effects of a hazard or environmental change                                                                 |
 | **Plate tectonics** | The theory that the Earth's lithosphere is divided into plates that move relative to one another, driven by convection currents in the mantle |
 | **Response**        | The immediate and long-term actions taken following a hazard event to address its impacts                                                     |

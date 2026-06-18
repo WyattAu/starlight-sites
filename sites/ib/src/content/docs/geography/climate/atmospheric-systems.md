@@ -1,6 +1,105 @@
 ---
 title: Atmospheric Systems
-description: ""blocks" can cause prolonged extreme
+description: "The global atmospheric circulation is driven by differential heating of Earth''s surface. The equator Receives more solar radiation per unit area than the..."
+
+---
+
+# Atmospheric Systems
+
+## Global Atmospheric Circulation
+
+### The Three-Cell Model
+
+The global atmospheric circulation is driven by differential heating of Earth's surface. The equator
+Receives more solar radiation per unit area than the poles (because solar radiation strikes the
+Equator more directly, spreading over a smaller area). This energy imbalance drives a system of
+Atmospheric convection that redistributes heat from the equator toward the poles.
+
+The simplified three-cell model of atmospheric circulation identifies three circulation cells in
+Each hemisphere:
+
+**The Hadley Cell (0$^\circ$--30$^\circ$).** Intense solar heating at the equator causes air to
+Warm, expand, and rise (convection). The rising air cools adiabatically, producing condensation,
+Clouds, and heavy rainfall. At the tropopause (approximately 12--15 km altitude), the air diverges
+Poleward. Coriolis deflection causes this poleward-moving air to be deflected eastward, creating the
+Upper-level westerlies. By approximately 30$^\circ$ latitude, the air has cooled sufficiently to
+Descend, creating zones of subsidence and high atmospheric pressure. The descending air warms
+Adiabatically, suppressing cloud formation and producing the world's major desert belts (the Sahara,
+Arabian, Thar, Kalahari, and Australian deserts lie within these subtropical high-pressure belts).
+At the surface, air flows back toward the equator, completing the cell. Coriolis deflection turns
+This equatorward surface flow to the west, creating the north-east and south-east trade winds.
+
+**The Ferrel Cell (30$^\circ$--60$^\circ$).** The Ferrel cell is a thermally indirect cell (driven
+Not by local heating but by the motions of the Hadley and Polar cells that flank it). Surface winds
+At 30$^\circ$ flow poleward, deflected eastward by Coriolis to become the prevailing westerlies. At
+Approximately 60$^\circ$ latitude, the westerlies encounter cold polar air flowing equatorward,
+Creating the polar front zone of convergence, uplift, and cyclonic activity.
+
+**The Polar Cell (60$^\circ$--90$^\circ$).** Cold, dense air descends at the poles and flows
+Equatorward at the surface, deflected westward by Coriolis to become the polar easterlies. At
+Approximately 60$^\circ$ latitude, this cold equatorward-flowing air meets the warm poleward-flowing
+Air of the Ferrel cell, rising at the polar front.
+
+### Pressure and Wind Belts
+
+The three-cell model produces a characteristic pattern of pressure belts and wind systems:
+
+| Latitude               | Pressure System                                 | Surface Winds                    | Climate Characteristics                       |
+| ---------------------- | ----------------------------------------------- | -------------------------------- | --------------------------------------------- |
+| 0$^\circ$              | Equatorial low (ITCZ)                           | Variable, light (doldrums)       | Hot, wet, convective rainfall                 |
+| 0$^\circ$--30$^\circ$  | Subtropical high (descending air at 30$^\circ$) | Trade winds (NE in NH, SE in SH) | Dry at 30$^\circ$; wet at equatorward margins |
+| 30$^\circ$--60$^\circ$ | Variable (mid-latitude cyclones)                | Prevailing westerlies            | Variable; seasonal; cyclonic rainfall         |
+| 60$^\circ$             | Subpolar low (polar front)                      | Convergence zone                 | Cool, wet, stormy                             |
+| 60$^\circ$--90$^\circ$ | Polar high                                      | Polar easterlies                 | Cold, dry                                     |
+
+### Limitations of the Three-Cell Model
+
+1. **Seasonal variation.** The three-cell model is based on annual averages. In reality, the
+   circulation shifts seasonally: the ITCZ migrates northward in the northern summer (reaching
+   approximately 15$^\circ$--20$^\circ$N over South Asia, producing the monsoon) and southward in
+   the southern summer.
+2. **Continental effects.** Land surfaces heat and cool more rapidly than oceans, creating
+   continental pressure systems that modify the zonal pattern. In winter, large continents develop
+   high-pressure anticyclones (the Siberian High, which drives cold, dry air southward over East
+   Asia). In summer, continents develop low-pressure thermal lows (the Asian Low, which draws warm,
+   moist air northward from the Indian Ocean).
+3. **Ocean-continent contrasts.** The zonal pattern is significantly modified by the distribution of
+   land and sea, particularly in the Northern Hemisphere where continents are large.
+4. **It is a simplification.** The real atmosphere is turbulent, with complex wave patterns, jet
+   streams, and mesoscale systems that the three-cell model does not capture.
+
+## The Intertropical Convergence Zone (ITCZ)
+
+The ITCZ is a narrow band of low pressure near the equator where the north-east and south-east trade
+Winds converge. The convergence of warm, moist air masses produces vigorous convection, towering
+Cumulonimbus clouds, and heavy rainfall.
+
+**Seasonal migration.** The ITCZ migrates northward during the northern summer and southward during
+The southern summer, following the apparent movement of the sun. The migration is more pronounced
+Over land than over ocean, because continental heating amplifies the thermal low. Over South Asia,
+The ITCZ migrates to approximately 20$^\circ$--25$^\circ$N during July--August, drawing in the
+South-west monsoon and producing extremely heavy rainfall (Cherrapunji in Meghalaya, India, receives
+Approximately 11 000 mm of rain annually, most of it during the monsoon season).
+
+## Rossby Waves and Jet Streams
+
+### Rossby Waves
+
+Rossby waves are large-scale meanders in the mid-latitude westerly flow, caused by the latitudinal
+Variation of the Coriolis parameter (the beta effect). Rossby waves have wavelengths of 4000--8000
+km and propagate westward relative to the mean westerly flow.
+
+**Wave types.** Rossby waves can be classified by their amplitude:
+
+- **Low-amplitude (zonal) flow:** relatively straight west-to-east flow with weak meridional
+  (north-south) excursion. Associated with relatively stable, moderate weather.
+- **High-amplitude (meridional) flow:** large north-south meanders, with ridges (northward bulges of
+  warm air) and troughs (southward excursions of cold air). High-amplitude patterns can produce
+  extreme weather: ridges bring warm, dry conditions (heat waves); troughs bring cold, wet
+  conditions (cold spells, storms).
+
+**Blocking patterns.** Occasionally, Rossby waves become quasi-stationary, with large-amplitude
+Ridges and troughs that persist for days or weeks. These "blocks" can cause prolonged extreme
 Weather: the 2003 European heat wave was associated with a persistent blocking ridge over western
 Europe; the 2010 Russian heat wave was associated with a blocking anticyclone.
 

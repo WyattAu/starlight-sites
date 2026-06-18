@@ -3,7 +3,32 @@ title: Advanced Semiconductor Physics (Continued)
 tags:
   - Physics
   - University
-description: ""composite fermions" that see zero effective field. The FQHE of electrons maps to the IQHE of composite
+description: "When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature, the Hall resistance shows quantised plateaux:"
+---
+
+### 16.1 Quantum Hall Effect
+
+When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature,
+the Hall resistance shows quantised plateaux:
+
+$$R_{xy} = \frac{h}{\nu e^2} = \frac{R_K}{\nu}$$
+
+Where $\nu = 1, 2, 3, \ldots$ is an integer and $R_K = h/e^2 \approx 25812.8\,\Omega$ is the von
+Klitzing constant.
+
+**Integer Quantum Hall Effect (IQHE)** (von Klitzing, 1980):
+
+- Occurs when the filling factor $\nu = n_{2D}h/(eB)$ is an integer
+- At these plateaux, the longitudinal resistance $R_{xx} = 0$ (dissipationless transport)
+- The quantisation is exact to better than 1 part in $10^{10}$Providing the resistance standard
+
+**Fractional Quantum Hall Effect (FQHE)** (Tsui, Stormer, Gossard, 1982):
+
+- Plateaux at $\nu = 1/3, 2/3, 2/5, 3/7, \ldots$
+- Arises from electron--electron correlations (Laughlin wavefunction)
+- Described by Chern--Simons topological field theory
+
+**Composite fermions:** At $\nu = 1/2$The FQHE electrons bind two flux quanta to become "composite fermions" that see zero effective field. The FQHE of electrons maps to the IQHE of composite
 fermions, elegantly explaining the observed sequence of fractions.
 
 ### 16.2 Mesoscopic Physics

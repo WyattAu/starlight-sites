@@ -1,6 +1,32 @@
 ---
 title: Period 6 (1865-1898)
-description: ""s light bulb (1879) and power generation systems transformed
+description: "The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - ap
+  - ap-history
+categories:
+  - ap-history
+
+---
+
+## Industrialisation and the Rise of Big Business
+
+### The Second Industrial Revolution
+
+The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by
+technological innovation, the rise of large corporations, and the expansion of railroads.
+
+### Key Technologies
+
+- **Steel**: Bessemer process (1850s) made steel production cheaper and faster, enabling
+  skyscrapers, bridges, and railroads
+- **Railroads**: Transcontinental Railroad completed (1869) at Promontory Summit, Utah; by 1900
+  there were nearly 200,000 miles of track. Railroads created a national market, stimulated
+  settlement of the West, and standardised time zones (1883)
+- **Communication**: Telegraph (Morse, 1844) and telephone (Bell, 1876) revolutionised long-distance
+  communication
+- **Electricity**: Thomas Edison"s light bulb (1879) and power generation systems transformed
   industry and daily life
 
 ### Rise of Big Business

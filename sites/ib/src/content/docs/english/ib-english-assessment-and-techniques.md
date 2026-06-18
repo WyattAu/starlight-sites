@@ -3,7 +3,33 @@ title: IB English Assessment and Analytical Techniques
 tags:
   - IB
   - English
-description: ""How does the author use language to convey the speaker"s attitude?"                                  |
+description: "This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical..."
+---
+
+# IB English Assessment and Analytical Techniques
+
+This document provides a rigorous, technically precise guide to every assessed component of IB
+English A: Language and Literature, and to the analytical techniques that underpin success in each.
+It is written for students who want to understand not just _what_ the IB requires, but _why_ each
+Requirement exists and how to execute it with maximum precision.
+
+---
+
+## 1. Paper 1: Guided Literary Analysis
+
+### 1.1 Structure and Expectations
+
+Paper 1 is the only component of the IB English assessment that deals with unseen texts. Students
+Are presented with one or more passages they have not encountered before and must produce an
+Analytical essay in response to a guiding question. The passage may be literary (a poem, an excerpt
+From a novel or play) or non-literary (an advertisement, an editorial, a speech, a visual text).
+
+The guiding question directs attention to a specific feature of the text. Common guiding question
+Types include:
+
+| Guiding Question Type | Example Prompt                                                                                        |
+| --------------------- | ----------------------------------------------------------------------------------------------------- |
+| Authorial choices     | "How does the author use language to convey the speaker"s attitude?"                                  |
 | Structural analysis   | "Analyse the ways in which the structure of this passage shapes its meaning."                         |
 | Audience and purpose  | "Explore how this text positions its intended reader."                                                |
 | Comparative (HL only) | "Compare and contrast how the two texts present the relationship between the individual and society." |

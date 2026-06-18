@@ -1,6 +1,39 @@
 ---
 title: Bash Scripting
-description: ""$file" ] && echo "exists"
+description: "if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble"
+
+---
+
+## Conditional Expressions
+
+### if / elif / else / fi
+
+```bash
+if [[ condition ]]; then
+    commands
+elif [[ condition ]]; then
+    commands
+else
+    commands
+fi
+```
+
+### test / [ / [[
+
+Three test constructs exist, with important differences:
+
+| Feature             | `[ ]` (POSIX test) | `[[ ]]` (bash)      |
+| ------------------- | ------------------ | ------------------- |
+| Word splitting      | Yes (quote vars)   | No                  |
+| Glob expansion      | Yes                | No                  |
+| Pattern matching    | No                 | Yes (`==``!=`)      |
+| Regex matching      | No                 | Yes (`=~`)          |
+| Logical operators   | `-a``-o`           | `&&``\|\|`          |
+| Empty string safety | Requires quoting   | Safe without quotes |
+
+```bash
+# POSIX test — requires quoting
+[ -f "$file" ] && echo "exists"
 [ "$var" = "value" ]
 [ "$n" -eq 5 ]
 

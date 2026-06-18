@@ -3,7 +3,15 @@ title: Argument Principle and Rouché's Theorem
 tags:
   - Mathematics
   - University
-description: ""(z)}{f(z)}\, dz = N - P$$
+description: "If is meromorphic inside and on a simple closed contour Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 12.1 The Argument Principle
+
+**Theorem 12.1 (Argument Principle).** If $f$ is meromorphic inside and on a simple closed contour
+$\gamma$ with no zeros or poles on $\gamma$Then
+
+$$\frac{1}{2\pi i}\int_\gamma \frac{f"(z)}{f(z)}\, dz = N - P$$
 
 Where $N$ is the number of zeros and $P$ is the number of poles of $f$ inside $\gamma$ (counting
 Multiplicities).

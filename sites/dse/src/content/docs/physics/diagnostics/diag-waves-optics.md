@@ -1,6 +1,14 @@
 ---
 title: "Waves and Optics -- Diagnostic Tests"
-description: ""s Double Slit with Non-Axial Source
+description: "DSE Physics Waves and Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Waves and Optics — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Young"s Double Slit with Non-Axial Source
 
 **Question:**
 

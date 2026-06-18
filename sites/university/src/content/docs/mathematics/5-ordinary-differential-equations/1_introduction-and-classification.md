@@ -3,7 +3,36 @@ title: Introduction and Classification
 tags:
   - Mathematics
   - University
-description: ""s law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
+description: "A is an equation involving an unknown function and its derivatives. An involves a function of one variable and its ordinary Derivatives. A involves a..."
+---
+
+### 1.1 Basic Definitions
+
+A **differential equation (DE)** is an equation involving an unknown function and its derivatives.
+An **ordinary differential equation (ODE)** involves a function of one variable and its ordinary
+Derivatives. A **partial differential equation (PDE)** involves a function of several variables and
+Its partial derivatives.
+
+### 1.2 Classification of ODEs
+
+An ODE is:
+
+- **Ordinary** vs. **partial**: depends on whether partial derivatives appear.
+- **Order**: the highest derivative that appears.
+- **Linear** vs. **nonlinear**: linear if the unknown function and its derivatives appear linearly.
+- **Homogeneous** vs. **nonhomogeneous**: for linear ODEs, homogeneous if the forcing term is zero.
+
+### 1.3 Initial and Boundary Value Problems
+
+An **initial value problem (IVP)** specifies the value of the function (and possibly its
+Derivatives) at a single point. A **boundary value problem (BVP)** specifies conditions at two or
+More points.
+
+### 1.4 Examples from Physics and Biology
+
+Differential equations arise throughout the natural sciences. A few canonical examples:
+
+1. **Newton"s law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
    satisfies $\frac{dT}{dt} = -k(T - T_m)$A first-order linear ODE.
 
 2. **Harmonic oscillator.** A mass on a spring with damping obeys

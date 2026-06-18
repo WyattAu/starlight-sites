@@ -3,7 +3,49 @@ title: Field Theory
 tags:
   - Mathematics
   - University
-description: ""s Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
+description: "A is an inclusion of fields. We write and call an of . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 12.1 Field Extensions
+
+A **field extension** is an inclusion $F \subseteq E$ of fields. We write $E/F$ and call $E$ an
+**extension field** of $F$.
+
+The **degree** of the extension, denoted $[E : F]$Is the dimension of $E$ as a vector space over
+$F$.
+
+**Proposition 12.1.** If $F \subseteq E \subseteq K$ are field extensions, then
+$[K : F] = [K : E][E : F]$.
+
+_Proof._ If $\{\alpha_i\}$ is a basis for $E/F$ and $\{\beta_j\}$ is a basis for $K/E$Then
+$\{\alpha_i \beta_j\}$ is a basis for $K/F$. Count dimensions. $\blacksquare$
+
+### 12.2 Algebraic Extensions
+
+An element $\alpha \in E$ is **algebraic** over $F$ if there exists a non-zero polynomial
+$f \in F[x]$ With $f(\alpha) = 0$. Otherwise $\alpha$ is **transcendental** over $F$.
+
+The **minimal polynomial** of $\alpha$ over $F$ is the monic polynomial of smallest degree in $F[x]$
+Having $\alpha$ as a root.
+
+**Proposition 12.2.** The minimal polynomial of $\alpha$ over $F$ is irreducible in $F[x]$.
+
+_Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$Then $f(\alpha)g(\alpha) = 0$
+So either $f(\alpha) = 0$ or $g(\alpha) = 0$Contradicting the minimality of $\deg(m_\alpha)$.
+$\blacksquare$
+
+**Theorem 12.3.** $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] \lt \infty$. In
+this case, $[F(\alpha) : F] = \deg(m_\alpha)$.
+
+_Proof._ If $\alpha$ is algebraic with minimal polynomial $m_\alpha$ of degree $n$Then
+$\{1, \alpha, \alpha^2, \ldots, \alpha^{n-1}\}$ is a basis for $F(\alpha)/F$ (every element can be
+Reduced modulo $m_\alpha$), so $[F(\alpha) : F] = n$. Conversely, if
+$[F(\alpha) : F] = n \lt \infty$ Then $\{1, \alpha, \ldots, \alpha^n\}$ is linearly dependent,
+giving a polynomial relation $f(\alpha) = 0$. $\blacksquare$
+
+### 12.3 Constructing Extension Fields
+
+**Theorem 12.4 (Kronecker"s Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
 $E = F[x] / (f)$ is a field extension of $F$ containing a root of $f$.
 
 _Proof._ Since $f$ is irreducible and $F[x]$ is a PID, $(f)$ is a maximal ideal, so $E = F[x]/(f)$

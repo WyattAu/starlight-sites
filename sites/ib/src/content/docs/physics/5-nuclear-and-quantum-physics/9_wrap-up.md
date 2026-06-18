@@ -1,6 +1,27 @@
 ---
 title: Wrap Up
-description: ""s photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
+description: "Comprehensive IB physics notes on Wrap Up key concepts and principles. Covers key definitions, worked examples, and practice problems for revision."
+date: 2024-01-01T00:00:00Z
+tags:
+  - physics
+categories:
+  - ib
+---
+
+<details>
+<summary><strong>E.1 Structure of the Atom, E.2 Quantum Physics & E.3 Radioactive Decay</strong></summary>
+1. **Question (E.2 & D.3 - HL Only):** In a photoelectric effect experiment, light of wavelength 400
+ nm is incident on a metal surface with a work function of 2.28 eV. The emitted photoelectrons are
+ then directed into a region of uniform magnetic field B = 1.5 mT, with their velocity
+ perpendicular to the field. A) Calculate the maximum kinetic energy of the emitted
+ photoelectrons, in joules. B) What is the radius of the circular path of the most energetic
+ photoelectrons in the magnetic field? c) What is the minimum potential difference required to
+ _stop_ these photoelectrons (the stopping potential)?
+
+### Details
+
+<summary>Answer</summary>
+- **Strategy:** (a) Use Einstein"s photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
 - **a) Maximum Kinetic Energy ($E_{k, \mathrm{max}}$):**
  - Energy of incident photon: $E = hf = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{400 \times 10^{-9}} = 4.97 \times 10^{-19}$ J.
  - Convert photon energy to eV: $E = \frac{4.97 \times 10^{-19}}{1.60 \times 10^{-19}} = 3.11$ eV.

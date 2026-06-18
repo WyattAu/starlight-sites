@@ -1,6 +1,56 @@
 ---
 title: Further Pure Mathematics 1
-description: ""s Theorem
+description: "| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,..."
+date: 2026-05-31
+tags:
+  - Maths
+  - ALevel
+  - FurtherPure
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper       | Notes                                                       |
+| ---------- | ----------- | ----------------------------------------------------------- |
+| AQA        | Paper 2     | Complex numbers, matrices, series, proof                    |
+| Edexcel    | FP1         | Complex numbers, matrices, polar coords, proof by induction |
+| OCR (A)    | Pure Core 1 | Complex numbers, matrices, polar coords, hyperbolic         |
+| CIE (9709) | Paper 3     | Complex numbers, polars, further calculus, induction        |
+
+:::info This content sits at the transition between single A-Level Mathematics and Further
+Mathematics. You must be confident with all Core Pure topics before tackling these.
+
+<hr />
+
+## 1. Complex Numbers
+
+### 1.1 Argand Diagram
+
+A complex number $z = x + iy$ is represented as the point $(x, y)$ on the **Argand diagram** (a
+modified Cartesian plane where the horizontal axis is the real axis and the vertical axis is the
+imaginary axis).
+
+- The **modulus** $|z| = r = \sqrt{x^2 + y^2}$ is the distance from the origin to $(x, y)$.
+- The **argument** $\arg(z) = \theta$ is the angle from the positive real axis, measured
+  anticlockwise. Principal argument: $-\pi < \theta \leq \pi$.
+
+$$z = x + iy = r(\cos\theta + i\sin\theta) = re^{i\theta}$$
+
+### 1.2 Modulus-Argument Form
+
+**Multiplication:** $z_1 z_2 = r_1 r_2\,e^{i(\theta_1 + \theta_2)}$. Moduli multiply; arguments add.
+
+**Division:** $\dfrac{z_1}{z_2} = \dfrac{r_1}{r_2}\,e^{i(\theta_1 - \theta_2)}$. Moduli divide;
+arguments subtract.
+
+**Modulus properties:**
+
+$$|z_1 z_2| = |z_1|\,|z_2| \qquad |z_1 + z_2| \leq |z_1| + |z_2| \qquad |z^n| = |z|^n$$
+
+### 1.3 de Moivre"s Theorem
 
 For integer $n$:
 

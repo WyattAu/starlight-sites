@@ -1,6 +1,132 @@
 ---
 title: Atomic Structure
-description: ""s Rule (HL)
+description: "Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-chemistry
+categories:
+  - ilc-chemistry
+
+---
+
+# Atomic Structure
+
+Atomic structure is the foundation of chemistry, covering the composition of atoms, electron
+Configuration, atomic spectra, and periodic trends.
+
+## Subatomic Particles (OL/HL)
+
+| Particle | Symbol | Relative mass          | Relative charge | Location |
+| -------- | ------ | ---------------------- | --------------- | -------- |
+| Proton   | $p^+$  | 1                      | $+1$            | Nucleus  |
+| Neutron  | $n^0$  | 1                      | $0$             | Nucleus  |
+| Electron | $e^-$  | $\approx 0$ ($1/1836$) | $-1$            | Shells   |
+
+### Atomic Number and Mass Number
+
+- **Atomic number ($Z$):** number of protons.
+- **Mass number ($A$):** number of protons + neutrons.
+
+Notation: $^A_Z X$
+
+### Isotopes (OL/HL)
+
+Atoms of the same element with different numbers of neutrons (same $Z$Different $A$).
+
+**Example (OL):** Carbon has two common isotopes: $^{12}_6\mathrm{C$ (98.9%) and $^{13}_6\mathrm{C$
+(1.1%).
+
+### Relative Atomic Mass (OL/HL)
+
+$$
+A_r = \frac{\sum(\mathrm{isotope abundance \times \mathrm{isotope mass)}{100}
+$$
+
+**Example (OL):** Chlorine has two isotopes: $^{35}\mathrm{Cl$ (75%) and $^{37}\mathrm{Cl$ (25%).
+
+$$
+A_r = \frac{75 \times 35 + 25 \times 37}{100} = \frac{2625 + 925}{100} = 35.5
+$$
+
+**Worked Example 1 (HL):** The relative atomic mass of boron is 10.81. If boron has two isotopes,
+$^{10}\mathrm{B$ and $^{11}\mathrm{B$Calculate their percentage abundances.
+
+Let $x$ = percentage of $^{10}\mathrm{B$ and $(100 - x)$ = percentage of $^{11}\mathrm{B$.
+
+$$10x + 11(100 - x) = 10.81 \times 100$$
+
+$$10x + 1100 - 11x = 1081$$
+
+$$-x = -19 \implies x = 19\%$$
+
+$^{10}\mathrm{B = 19\%$, $^{11}\mathrm{B = 81\%$.
+
+**Worked Example 2 (OL):** Calculate the relative atomic mass of neon from its isotopes:
+$^{20}\mathrm{Ne$ (90.5%) and $^{22}\mathrm{Ne$ (9.5%).
+
+$$A_r = \frac{90.5 \times 20 + 9.5 \times 22}{100} = \frac{1810 + 209}{100} = \frac{2019}{100} = 20.19$$
+
+## The Bohr Model and Electron Shells (OL/HL)
+
+### Electron Shell Structure
+
+Electrons occupy shells (energy levels) around the nucleus:
+
+| Shell | $n$ | Maximum electrons |
+| ----- | --- | ----------------- |
+| K     | 1   | 2                 |
+| L     | 2   | 8                 |
+| M     | 3   | 18                |
+| N     | 4   | 32                |
+
+Maximum electrons in shell $n$: $2n^2$.
+
+**Derivation:** Each shell can hold a maximum of $2n^2$ electrons because there are $n^2$ orbitals
+In shell $n$ and each orbital holds 2 electrons.
+
+### Electron Configuration (OL/HL)
+
+Write the number of electrons in each shell from the nucleus outward.
+
+**Example (OL):** Sodium ($Z = 11$): 2, 8, 1.
+
+**Example (OL):** Calcium ($Z = 20$): 2, 8, 8, 2.
+
+**Worked Example 3 (OL):** Write the electron configuration for potassium ($Z = 19$).
+
+Potassium has 19 electrons. Filling shells: K (2), L (8), M (8), N (1). Configuration: 2, 8, 8, 1.
+
+### Subshells and Orbitals (HL)
+
+Shells are divided into subshells: $s$, $p$, $d$, $f$.
+
+| Subshell | Orbitals | Max electrons |
+| -------- | -------- | ------------- |
+| $s$      | 1        | 2             |
+| $p$      | 3        | 6             |
+| $d$      | 5        | 10            |
+| $f$      | 7        | 14            |
+
+### Aufbau Principle (HL)
+
+Electrons fill orbitals from lowest to highest energy. The order is:
+
+1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, ...
+
+**Example (HL):** Iron ($Z = 26$): $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6$ or
+$[\mathrm{Ar]\,4s^2 3d^6$.
+
+**Worked Example 4 (HL):** Write the full electron configuration and orbital diagram for chromium
+($Z = 24$). (Hint: chromium is an exception.)
+
+Expected: $[\mathrm{Ar]\,4s^2 3d^4$. However, chromium is an exception: $[\mathrm{Ar]\,4s^1 3d^5$.
+
+This is because a half-filled $d$ subshell ($3d^5$) is more stable than a partially filled one
+($3d^4$). Similarly, copper ($Z = 29$) is $[\mathrm{Ar]\,4s^1 3d^{10}$ rather than
+$[\mathrm{Ar]\,4s^2 3d^9$.
+
+### Hund"s Rule (HL)
 
 When filling degenerate orbitals (same energy), electrons occupy separate orbitals with parallel
 Spins before pairing.

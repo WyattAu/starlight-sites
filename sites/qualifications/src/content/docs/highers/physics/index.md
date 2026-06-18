@@ -1,6 +1,26 @@
 ---
 title: Scottish Highers Physics
-description: ""s laws of motion.
+description: "Higher Physics covers mechanics, dynamics, electricity, waves, and radiation. The course emphasises both theoretical understanding and practical..."
+date: 2026-04-14
+tags:
+  - highers
+  - highers-physics
+categories:
+  - highers-physics
+
+---
+
+# Scottish Highers Physics
+
+Higher Physics covers mechanics, dynamics, electricity, waves, and radiation. The course emphasises
+both theoretical understanding and practical applications, preparing students for engineering and
+science degrees.
+
+## Topics
+
+### Mechanics
+
+Kinematics, forces, energy, power, projectiles, and Newton"s laws of motion.
 
 → **[Full notes](../../ilc/physics/1-mechanics/1_mechanics.mdx)**
 

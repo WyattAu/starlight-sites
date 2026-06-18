@@ -1,6 +1,43 @@
 ---
 title: Range Materialization (std::ranges::to)
-description: ""Evens (vector): ";
+description: "Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or Independence from the source lifetime, you must the view..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+## Range Materialization (std::ranges::to)
+
+Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or
+Independence from the source lifetime, you must **materialize** the view into an eager container.
+C++23 introduced `std::ranges::to&lt;T>` as the standard bridge between the lazy world of views and
+The eager world of containers.
+
+### `std::ranges::to<T>` (C++23)
+
+C++23 introduced `std::ranges::to&lt;T>` [N4950 §26.5.8], which materializes a lazy view into an
+Eager container. This is the bridge between the lazy world of views and the eager world of
+Containers.
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <ranges>
+#include <string>
+#include <deque>
+
+int main() {
+    std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    // Materialize a filtered view into a vector [N4950 §26.5.8]
+    auto evens = v
+        | std::views::filter([](int x) { return x % 2 == 0; })
+        | std::ranges::to<std::vector>();
+
+    std::cout << "Evens (vector): ";
     for (int x : evens) std::cout << x << " ";
     // Output: Evens (vector): 2 4 6 8 10
     std::cout << "\n";

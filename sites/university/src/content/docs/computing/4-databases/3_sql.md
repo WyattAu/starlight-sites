@@ -3,7 +3,18 @@ title: SQL
 tags:
   - Computing
   - University
-description: ""Undeclared'
+description: "CREATE TABLE Student ( ID INT PRIMARY KEY, Name VARCHAR(100) NOT NULL, Email VARCHAR(255) UNIQUE, GPA DECIMAL(3,2) CHECK (GPA >= 0.0 AND GPA <= 4.0), Dept..."
+---
+
+### 3.1 Data Definition Language (DDL)
+
+```sql
+CREATE TABLE Student (
+    ID      INT PRIMARY KEY,
+    Name    VARCHAR(100) NOT NULL,
+    Email   VARCHAR(255) UNIQUE,
+    GPA     DECIMAL(3,2) CHECK (GPA >= 0.0 AND GPA <= 4.0),
+    Dept    VARCHAR(50) DEFAULT "Undeclared'
 );
 
 CREATE TABLE Enrolment (

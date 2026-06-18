@@ -1,6 +1,41 @@
 ---
 title: Move Constructors, Assignment, Swap Idiom
-description: ""  Buffer(" << n << ") allocated\n";
+description: "Move semantics allow resources to be transferred between objects without copying. The move Constructor steals resources from a source object, leaving it in..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Move Constructors, Assignment, Swap Idiom
+
+Move semantics allow resources to be transferred between objects without copying. The move
+Constructor steals resources from a source object, leaving it in a valid but unspecified state. The
+Swap idiom generalizes this pattern and serves as a building block for exception-safe assignment and
+Efficient algorithms.
+
+## 6.1 Move Constructor: `T(T&& other)`
+
+The move constructor transfers ownership of resources from `other` to the newly constructed object.
+After the move, `other` is left in a **valid but unspecified state** — it must be destructible and
+Assignable, but its value is not guaranteed [N4950 S11.4.5.3].
+
+```cpp
+#include <cstddef>
+#include <utility>
+#include <iostream>
+#include <algorithm>
+
+class Buffer {
+    int* data_;
+    std::size_t size_;
+
+public:
+    explicit Buffer(std::size_t n)
+        : data_(new int[n]()), size_(n) {
+        std::cout << "  Buffer(" << n << ") allocated\n";
     }
 
     // Move constructor: steals resources from other

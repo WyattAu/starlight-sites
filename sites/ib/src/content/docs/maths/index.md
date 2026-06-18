@@ -1,6 +1,24 @@
 ---
 title: IB Mathematics
-description: ""s theorem
+description: "Complete IB Mathematics revision notes covering algebra, functions, trigonometry, calculus, probability, statistics, vectors, and matrices. Worked examples,"
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+# IB Mathematics
+
+Complete revision notes for IB Mathematics, covering the full syllabus with worked examples, common
+pitfalls, and exam-style problems.
+
+## Core Topics
+
+### Number and Algebra
+
+- **[Number and Algebra](./1-number-and-algebra/1_number-and-algebra)** — Sequences, series,
+  binomial theorem, and proof by induction
+- **[Complex Numbers](1-number-and-algebra/2_complex-numbers)** — Complex arithmetic, polar form,
+  and De Moivre"s theorem
 - **[Complex Numbers (Overview)](1-number-and-algebra/2_complex-numbers)** — Complex arithmetic,
   polar form, De Moivre's theorem, and roots of unity
 

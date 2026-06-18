@@ -1,6 +1,31 @@
 ---
 title: DNS
-description: ""." (root)"]
+description: "The Domain Name System (DNS) is the Internet''s hierarchical, distributed database that maps Human-readable names to IP addresses and other resource data...."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+The Domain Name System (DNS) is the Internet's hierarchical, distributed database that maps
+Human-readable names to IP addresses and other resource data. DNS is arguably the most critical
+Infrastructure service on the Internet -- virtually every application depends on name resolution to
+Function. When DNS fails, everything fails.
+
+DNS was designed by Paul Mockapetris in 1983 (RFC 882 and RFC 883, now obsoleted by RFC 1034 and
+RFC 1035) to replace the original HOSTS.TXT file, which was a flat file maintained centrally and
+Distributed manually.
+
+## DNS Hierarchy
+
+DNS is organized as a tree structure with the root at the top. Each node in the tree is called a
+**domain** and can have zero or more **child domains**.
+
+```mermaid
+graph TD
+    ROOT["." (root)"]
     ROOT --> COM[".com"]
     ROOT --> ORG[".org"]
     ROOT --> NET[".net"]

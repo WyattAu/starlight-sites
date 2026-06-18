@@ -1,6 +1,73 @@
 ---
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
-description: "" Explain why this does not mean the error is zero for any
+description: "> Tests edge cases, boundary conditions, and common misconceptions for sequences Comprehensive educational content coverage with definitions and practice proble'
+date: 2026-04-14
+tags:
+  - ap
+  - ap-maths
+categories:
+  - ap-maths
+
+---
+
+# Sequences and Series — Diagnostic Tests [BC Only]
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for sequences and series.
+
+### UT-1: Choosing the Correct Convergence Test for a Tricky Series
+
+**Question:**
+
+Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{\sqrt{n} + (-1)^n}$ converges
+conditionally, converges absolutely, or diverges.
+
+A student applies the alternating series test and concludes it converges conditionally because
+$\dfrac{1}{\sqrt{n} + (-1)^n}$ decreases to $0$. Identify the flaw in this reasoning and determine
+the correct answer.
+
+**Solution:**
+
+The alternating series test requires that $b_n = \dfrac{1}{\sqrt{n} + (-1)^n}$ is **positive and
+decreasing**. Let us check if $b_n$ is decreasing.
+
+$b_1 = \dfrac{1}{1 - 1}$ is **undefined** (division by zero). So the series is not even well-defined
+starting from $n = 1$.
+
+Start from $n = 2$ instead:
+$b_2 = \dfrac{1}{\sqrt{2} + 1} \approx 0.414$$b_3 = \dfrac{1}{\sqrt{3} - 1} \approx 1.366$$b_4 = \dfrac{1}{2 + 1} \approx 0.333$.
+
+Since $b_3 > b_2$The sequence $\{b_n\}$ is **not decreasing**, so the alternating series test does
+not apply.
+
+To determine convergence, rewrite:
+
+$$\frac{(-1)^n}{\sqrt{n} + (-1)^n} = \frac{(-1)^n(\sqrt{n} - (-1)^n)}{n - 1} = \frac{(-1)^n\sqrt{n}}{n-1} - \frac{1}{n-1}$$
+
+$$= \frac{(-1)^n}{\sqrt{n}} \cdot \frac{n}{n-1} - \frac{1}{n-1}$$
+
+The first part $\dfrac{(-1)^n}{\sqrt{n}} \cdot \dfrac{n}{n-1}$ converges by the alternating series
+test (since $\dfrac{n}{\sqrt{n}(n-1)} = \dfrac{\sqrt{n}}{n-1} \to 0$ and is eventually decreasing).
+
+The second part
+$-\dfrac{1}{n-1} = -\displaystyle\sum_{n=2}^{\infty}\dfrac{1}{n-1} = -\displaystyle\sum_{k=1}^{\infty}\dfrac{1}{k}$
+is the negative harmonic series, which **diverges**.
+
+Since a convergent series minus a divergent series diverges, the original series **diverges**.
+
+---
+
+### UT-2: Taylor Series Remainder and Lagrange Error Bound
+
+**Question:**
+
+Use the Maclaurin series for $e^x$ to approximate $e^{0.3}$ using the first three nonzero terms.
+
+(a) Compute the approximation. (b) Use the Lagrange error bound to find an upper bound on the
+absolute error. (c) The actual value is $e^{0.3} \approx 1.3498588$. Compute the actual error and
+verify it is within the bound. (d) A student claims "since the Maclaurin series for $e^x$ converges
+for all $x$The error must go to zero." Explain why this does not mean the error is zero for any
 finite number of terms.
 
 **Solution:**

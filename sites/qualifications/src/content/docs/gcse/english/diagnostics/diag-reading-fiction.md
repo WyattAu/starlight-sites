@@ -1,6 +1,22 @@
 ---
 title: "Reading Fiction -- Diagnostic Tests"
-description: ""s tree, planted the year they married --
+description: "Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# Reading Fiction -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Language Analysis in Fiction
+
+**Question:**
+
+Read the following extract from a novel:
+
+> The wind clawed at the shutters, rattling them like bones in a sack. Old Mrs Pemberton sat hunched
+> in her chair, her knuckles white around the teacup, watching the shadows that pooled in the
+> corners of the room. Outside, the oak tree -- her husband"s tree, planted the year they married --
 > thrashed against the windowpanes with a frantic, almost human desperation. She had not moved from
 > that chair in three days. The house groaned around her, settling into its old bones, and she
 > wondered whether the walls remembered the sound of his laughter, or whether the silence had

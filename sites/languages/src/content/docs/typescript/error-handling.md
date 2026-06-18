@@ -1,6 +1,43 @@
 ---
 title: Error Handling
-description: ""unreachable');
+description: "The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a..."
+date: 2026-04-22T00:00:00.000Z
+tags: [TypeScript]
+categories: [TypeScript]
+---
+
+## The `never` Type
+
+### Definition and Semantics
+
+The `never` type is the **bottom type** of the TypeScript type system. It has no inhabitants: no
+Value of type `never` can exist at runtime. It is a subtype of every type, and no type is a subtype
+Of `never` (except `never` itself).
+
+`never` appears in two principal contexts:
+
+1. **Unreachable code paths** -- functions that never return.
+2. **Exhaustive checking** -- the residual case after all union members are handled.
+
+### Functions That Never Return
+
+```ts
+function fail(message: string): never {
+  throw new Error(message);
+}
+
+function infiniteLoop(): never {
+  while (true) {}
+}
+```
+
+A function whose return type is `never` must either throw an exception, enter an infinite loop, or
+Call another function of type `never`. If a `never`-returning function somehow returns (e.g., the
+`throw` is inside a `try` block), TypeScript considers the subsequent code unreachable:
+
+```ts
+function example(): number {
+  fail("unreachable');
   return 42;
 }
 ```

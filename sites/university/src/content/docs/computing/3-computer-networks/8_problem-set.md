@@ -3,7 +3,49 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: ""s algorithm.** Given the network topology below, find the shortest path tree from
+description: "1. A noiseless channel has bandwidth 8000 Hz. What is the maximum data rate with 16 signal levels? With 256 signal levels?"
+---
+
+1. **Nyquist theorem.** A noiseless channel has bandwidth 8000 Hz. What is the maximum data rate
+   with 16 signal levels? With 256 signal levels?
+
+2. **Shannon capacity.** A channel has bandwidth 4 MHz and SNR = 24 dB. Compute the maximum
+   error-free data rate. If 64 signal levels are used with a Nyquist-based scheme, is the channel
+   being used within its theoretical limit?
+
+3. **Nyquist vs Shannon.** A channel has $H = 3000$ Hz and $\mathrm{SNR} = 31$ (about 15 dB). What
+   is the maximum number of signal levels $V$ that can be used reliably?
+
+4. **Hamming code.** Encode the data bits $d_1 d_2 d_3 d_4 = 0110$ using Hamming(7,4). If bit 5 of
+   the transmitted codeword is flipped, show how the receiver detects and corrects the error.
+
+5. **CRC computation.** Compute the CRC for the message `10110010` using the generator polynomial
+   $G(x) = x^3 + x + 1$ (binary `1011`). Write the transmitted codeword.
+
+6. **CRC verification.** The receiver gets the codeword `101101110` and the generator is `1011`.
+   Perform modulo-2 division to determine whether the frame was received correctly.
+
+7. **ALOHA throughput.** A slotted ALOHA system has 4 stations, each transmitting with probability
+   $p = 0.2$ in each slot. Compute the throughput $S$ and compare it to the theoretical maximum.
+
+8. **CSMA/CD minimum frame.** A 1 Gbps Ethernet has a maximum segment length of 100 m and
+   propagation speed $2 \times 10^8$ m/s. What is the minimum frame size? How does it compare to the
+   standard Ethernet minimum of 64 bytes?
+
+9. **Switching latency.** A 1000-byte frame passes through 5 store-and-forward switches on 100 Mbps
+   links (ignore propagation delay). Compute the total latency. Repeat for cut-through switching.
+
+10. **Subnetting.** Given the network `172.16.0.0/16`Create subnets to support 100 hosts, 50 hosts,
+    25 hosts, and 10 hosts using VLSM. List the network address, usable range, and broadcast for
+    each.
+
+11. **Route aggregation.** Aggregate the following routes into the most specific supernet:
+    `198.51.100.0/24``198.51.101.0/24``198.51.102.0/24``198.51.103.0/24`.
+
+12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
+    /64 subnets does a /56 prefix provide? How many /128 addresses per /64?
+
+13. **Dijkstra"s algorithm.** Given the network topology below, find the shortest path tree from
     router S to all destinations:
 
     ```

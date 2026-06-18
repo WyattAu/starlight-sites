@@ -3,7 +3,105 @@ title: Sequences and Series of Functions
 tags:
   - Mathematics
   - University
-description: "")$ converges uniformly on $[a, b]$
+description: "Let be a sequence of functions defined on a set . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 7.1 Pointwise Convergence
+
+Let $(f_n)$ be a sequence of functions defined on a set $E \subseteq \mathbb{R}$.
+
+**Definition.** $(f_n)$ **converges pointwise** to $f$ on $E$ if for every $x \in E$ and every
+$\varepsilon > 0$There exists $N \in \mathbb{N}$ (depending on both $x$ and $\varepsilon$) such that
+$|f_n(x) - f(x)| \lt \varepsilon$ for all $n \geq N$.
+
+**Example.** Let $f_n(x) = x^n$ on $E = [0, 1]$. For each $x \in [0, 1)$, $f_n(x) = x^n \to 0$And
+$f_n(1) = 1$ for all $n$. So $f_n$ converges pointwise to
+
+$$f(x) = \begin{cases} 0 & \mathrm{if\ } 0 \leq x \lt 1 \\ 1 & \mathrm{if\ } x = 1 \end{cases}$$
+
+Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuous at $x = 1$.
+
+### 7.2 Uniform Convergence
+
+**Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$There
+Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$Not on $x$) such that for all $x \in E$:
+
+$$|f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N$$
+
+Equivalently, $\sup_{x \in E} |f_n(x) - f(x)| \to 0$ as $n \to \infty$.
+
+**Proposition 7.1.** Uniform convergence implies pointwise convergence. The converse is false.
+
+**Example (continued).** $f_n(x) = x^n$ on $[0, 1]$ converges pointwise but not uniformly. We have
+$\sup_{x \in [0,1]} |f_n(x) - f(x)| = \sup_{x \in [0,1)} x^n = 1$ for all $n$ (since the supremum is
+Approached as $x \to 1^-$). This does not tend to $0$.
+
+However, on $[0, r]$ for any $r \lt 1$: $\sup_{x \in [0,r]} |x^n| = r^n \to 0$So the convergence Is
+uniform on $[0, r]$.
+
+### 7.3 The Weierstrass M-Test
+
+**Theorem 7.1 (Weierstrass M-Test).** Let $(f_n)$ be a sequence of functions on $E$. If there exists
+a Sequence $(M_n)$ of non-negative real numbers such that $|f_n(x)| \leq M_n$ for all $x \in E$ and
+all $n$And $\sum_{n=1}^{\infty} M_n \lt \infty$Then $\sum_{n=1}^{\infty} f_n$ converges uniformly on
+$E$.
+
+_Proof._ Let $S_n(x) = \sum_{k=1}^{n} f_k(x)$ and $T_n = \sum_{k=1}^{n} M_k$. Since $\sum M_k$
+converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$There exists $N$ such that for
+$m > n \geq N$:
+
+$$T_m - T_n = \sum_{k=n+1}^{m} M_k \lt \varepsilon$$
+
+Then for all $x \in E$ and $m > n \geq N$:
+
+$$|S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon$$
+
+So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$Hence converge uniformly.
+$\blacksquare$
+
+### 7.4 Uniform Convergence and Continuity
+
+**Theorem 7.2.** If $(f_n)$ is a sequence of continuous functions on $E$ converging uniformly to $f$
+On $E$Then $f$ is continuous on $E$.
+
+_Proof._ Let $c \in E$ and $\varepsilon > 0$. Since $f_n \to f$ uniformly, choose $N$ such that
+$|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$Choose
+$\delta > 0$ such that $|x - c| \lt \delta$ implies $|f_N(x) - f_N(c)| \lt \varepsilon/3$. Then:
+
+$$|f(x) - f(c)| \leq |f(x) - f_N(x)| + |f_N(x) - f_N(c)| + |f_N(c) - f(c)| \lt \frac{\varepsilon}{3} + \frac{\varepsilon}{3} + \frac{\varepsilon}{3} = \varepsilon$$
+
+$\blacksquare$
+
+### 7.5 Uniform Convergence and Integration
+
+**Theorem 7.3.** If $(f_n)$ is a sequence of Riemann integrable functions on $[a, b]$ converging
+Uniformly to $f$ on $[a, b]$Then $f$ is Riemann integrable and
+
+$$\lim_{n \to \infty} \int_a^b f_n(x)\, dx = \int_a^b f(x)\, dx$$
+
+_Proof._ Since $(f_n)$ converges uniformly, $f$ is the uniform limit of integrable functions. Given
+$\varepsilon > 0$Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
+$x \in [a, b]$. Then $f_N - \varepsilon/(2(b-a)) \leq f(x) \leq f_N(x) + \varepsilon/(2(b-a))$ for
+all $x$And by Integrability of $f_N$:
+
+$$\int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}$$
+
+So $\overline{\int} f - \underline{\int} f \leq \varepsilon$Proving $f$ is integrable. For the
+limit:
+
+$$\left|\int_a^b f_n - \int_a^b f\right| \leq \int_a^b |f_n - f| \leq (b-a) \cdot \sup_{[a,b]} |f_n - f| \to 0$$
+
+$\blacksquare$
+
+### 7.6 Uniform Convergence and Differentiation
+
+Uniform convergence of functions does **not** guarantee convergence of derivatives. A stronger
+Hypothesis is needed.
+
+**Theorem 7.4.** Suppose $(f_n)$ is a sequence of differentiable functions on $[a, b]$ such that:
+
+1. $(f_n(c))$ converges for some $c \in [a, b]$
+2. $(f_n")$ converges uniformly on $[a, b]$
 
 Then $(f_n)$ converges uniformly to a differentiable function $f$ on $[a, b]$And
 $f'(x) = \lim_{n \to \infty} f_n'(x)$.

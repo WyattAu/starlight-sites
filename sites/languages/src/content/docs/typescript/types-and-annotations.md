@@ -1,6 +1,18 @@
 ---
 title: Types and Annotations
-description: ""hello"``"'``` `Template` `` |
+description: "TypeScript provides seven primitive types that correspond directly to JavaScript Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-22T00:00:00.000Z
+tags: [TypeScript]
+categories: [TypeScript]
+---
+
+## Primitive Types
+
+TypeScript provides seven primitive types that correspond directly to JavaScript runtime values:
+
+| Type        | Description                                               | Example Values                |
+| ----------- | --------------------------------------------------------- | ----------------------------- |
+| `string`    | UTF-16 character sequences                                | `"hello"``"'``` `Template` `` |
 | `number`    | IEEE 754 double-precision floats (all JavaScript numbers) | `0``-3.14``NaN``Infinity`     |
 | `boolean`   | Logical values                                            | `true``false`                 |
 | `null`      | Intentional absence of value                              | `null`                        |

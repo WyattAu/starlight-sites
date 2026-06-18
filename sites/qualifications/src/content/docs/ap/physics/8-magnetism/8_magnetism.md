@@ -1,6 +1,160 @@
 ---
 title: Magnetism
-description: ""s Law
+description: "A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems."
+date: 2026-05-05
+tags:
+  - ap
+  - ap-physics
+categories:
+  - ap-physics
+
+---
+
+## Magnetic Force on a Moving Charge
+
+A charge $q$ moving with velocity $\vec{v}$ in a magnetic field $\vec{B}$ experiences:
+
+$$
+\vec{F} = q\vec{v} \times \vec{B}
+$$
+
+The magnitude is $F = qvB\sin\theta$Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
+Direction is given by the right-hand rule.
+
+### Key Properties
+
+- The magnetic force is always perpendicular to both $\vec{v}$ and $\vec{B}$.
+- The magnetic force does no work ($\vec{F} \perp \vec{v}$So $W = \int \vec{F} \cdot d\vec{l} = 0$).
+- The magnetic force changes the direction of motion, not the speed.
+
+### Circular Motion in a Magnetic Field
+
+A charged particle moving perpendicular to a uniform magnetic field follows a circular path. Setting
+$F = ma$:
+
+$$
+QvB = \frac{mv^2}{r} \implies r = \frac{mv}{qB}
+$$
+
+The cyclotron frequency is:
+
+$$
+F = \frac{qB}{2\pi m}, \qquad \omega = \frac{qB}{m}
+$$
+
+### Motion at an Angle to the Field
+
+If $\vec{v}$ makes angle $\theta$ with $\vec{B}$The motion is helical. The parallel component
+$v_\parallel = v\cos\theta$ is unaffected. The perpendicular component $v_\perp = v\sin\theta$
+produces Circular motion with radius $r = mv_\perp/(qB)$ and pitch
+$p = v_\parallel \cdot T = 2\pi m v_\parallel/(qB)$.
+
+## Magnetic Force on a Current-Carrying Wire
+
+For a wire of length $L$ carrying current $I$ in a uniform field:
+
+$$
+\vec{F} = I\vec{L} \times \vec{B}
+$$
+
+For a non-uniform field or curved wire, use the differential form:
+
+$$
+D\vec{F} = I\, d\vec{l} \times \vec{B}
+$$
+
+:::info[Example: Force on a semicircular wire]
+
+A semicircular wire of radius $R$ carries current $I$ in a uniform magnetic field $\vec{B}$ directed
+Into the page. The straight ends of the wire are along the diameter.
+
+The force on the straight segment of length $2R$ is $F = I(2R)B$ (by the right-hand rule, directed
+Upward). For the curved part, consider a segment at angle $\theta$:
+
+$$
+DF = I(R\, d\theta)B
+$$
+
+Only the $y$-components survive: $dF_y = dF \sin\theta$. Integrating from $\theta = 0$ to $\pi$:
+
+$$
+F_y = \int_0^\pi IRB\sin\theta\, d\theta = IRB[-\cos\theta]_0^\pi = 2IRB
+$$
+
+The total force on the semicircular wire is $2IRB$The same as on a straight wire of length $2R$.
+
+
+## Torque on a Current Loop
+
+A rectangular loop of area $A$ carrying current $I$ in a uniform field $\vec{B}$ experiences torque:
+
+$$
+\vec{\tau} = \vec{\mu} \times \vec{B}
+$$
+
+Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$With $\vec{A}$ directed normal to the
+loop By the right-hand rule and $N$ is the number of turns.
+
+The magnitude is $\tau = NIAB\sin\alpha$Where $\alpha$ is the angle between $\vec{\mu}$ and
+$\vec{B}$.
+
+## Biot-Savart Law
+
+The magnetic field produced by a current element $I\, d\vec{l}$ at position $\vec{r}$ from the
+element:
+
+$$
+D\vec{B} = \frac{\mu_0}{4\pi} \frac{I\, d\vec{l} \times \hat{r}}{r^2}
+$$
+
+Where $\mu_0 = 4\pi \times 10^{-7}$ T$\cdot$M/A is the permeability of free space.
+
+### Field of a Long Straight Wire
+
+$$
+B = \frac{\mu_0 I}{2\pi r}
+$$
+
+**Derivation:** Place the wire along the $z$-axis. A current element $I\, dz$ at the origin
+produces:
+
+$$
+DB = \frac{\mu_0}{4\pi}\frac{I\, dz}{r^2}\sin\theta
+$$
+
+Where $\sin\theta = R/r$ and $r = \sqrt{z^2 + R^2}$. Let $z = R\tan\phi$,
+$dz = R\sec^2\phi\, d\phi$:
+
+$$
+DB = \frac{\mu_0 I}{4\pi} \frac{R\sec^2\phi\, d\phi}{R^2\sec^2\phi} \cdot \sin\phi = \frac{\mu_0 I}{4\pi R}\sin\phi\, d\phi
+$$
+
+Integrating from $\phi = 0$ to $\pi$ (infinite wire):
+
+$$
+B = \frac{\mu_0 I}{4\pi R}\int_0^\pi \sin\phi\, d\phi = \frac{\mu_0 I}{4\pi R}[-\cos\phi]_0^\pi = \frac{\mu_0 I}{2\pi R}
+$$
+
+### Field on the Axis of a Circular Loop
+
+$$
+B = \frac{\mu_0 I R^2}{2(R^2 + x^2)^{3/2}}
+$$
+
+At the center ($x = 0$): $B = \dfrac{\mu_0 I}{2R}$.
+
+**Derivation:** Each current element $I\, dl$ produces
+$dB = \frac{\mu_0}{4\pi}\frac{I\, dl}{r^2}\sin 90°$. By symmetry, only the axial component survives:
+
+$$
+DB_x = \frac{\mu_0 I}{4\pi r^2}\cdot\frac{R}{r}\, dl = \frac{\mu_0 IR}{4\pi(R^2+x^2)^{3/2}}\, dl
+$$
+
+$$
+B_x = \frac{\mu_0 IR}{4\pi(R^2+x^2)^{3/2}}\oint dl = \frac{\mu_0 I \cdot 2\pi R^2}{4\pi(R^2+x^2)^{3/2}} = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}
+$$
+
+## Ampere"s Law
 
 Ampere's law relates the line integral of $\vec{B}$ around a closed loop to the enclosed current:
 

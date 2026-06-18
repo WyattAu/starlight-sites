@@ -1,6 +1,35 @@
 ---
 title: Type-Safe Formatting (std::format, std::print)
-description: ""Hello, {}! You are {} years old.", "Alice", 30);
+description: "C++20 introduced A type-safe formatting function that checks argument types at Compile time using a concise format specification syntax. C++23 added and for..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+## Type-Safe Formatting (std::format, std::print)
+
+C++20 introduced `std::format`A type-safe formatting function that checks argument types at Compile
+time using a concise format specification syntax. C++23 added `std::print` and `std::println` for
+direct output to `FILE*` streams without intermediate string construction. This Section covers the
+format specification grammar, argument IDs, alignment, sign, width, precision, Type specifiers,
+`std::print`And custom type formatters.
+
+### `std::format` --- Overview
+
+`std::format` (C++20) is a type-safe formatting function that uses a format string to produce a
+`std::string` [N4950 §22.14.6]. Unlike `printf`It checks argument types at compile time. Unlike
+Iostreams, it uses a concise, composable format specification syntax.
+
+```cpp
+#include <format>
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string s = std::format("Hello, {}! You are {} years old.", "Alice", 30);
     std::cout << s << "\n";
     // Output: Hello, Alice! You are 30 years old.
 }

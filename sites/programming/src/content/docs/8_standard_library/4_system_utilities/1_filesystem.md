@@ -1,6 +1,51 @@
 ---
 title: Filesystem Library
-description: ""/usr/local/bin/cpp";
+description: "(C++17) provides a portable interface for manipulating paths, querying file Metadata, iterating directories, and performing file operations. It abstracts..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+## The Filesystem Library
+
+`std::filesystem` (C++17) provides a portable interface for manipulating paths, querying file
+Metadata, iterating directories, and performing file operations. It abstracts away platform
+Differences between POSIX and Windows file systems, normalizing path separators, permissions models,
+And file metadata into a common interface. This section covers `std::filesystem::path`Directory
+Iterators, recursive traversal, and common file operations.
+
+### Overview
+
+`std::filesystem` (C++17) provides a portable interface for manipulating paths, querying file
+Metadata, iterating directories, and performing file operations [N4950 §30.10]. It is declared in
+`<filesystem>` and lives in the `std::filesystem` namespace.
+
+The library abstracts away platform differences between POSIX and Windows file systems. Path
+Separators (`/` vs `\`), permissions models, and file metadata are normalized into a common
+Interface.
+
+:::note On POSIX systems, `std::filesystem` is implemented on top of POSIX system calls (`stat`
+`opendir``readdir``unlink`Etc.). On Windows, it uses the Win32 API (`CreateFileW`
+`FindFirstFileW`Etc.). The interface is the same on both platforms, but some features are only
+Available on one (e.g., file permissions are more expressive on POSIX).
+:::
+
+### `std::filesystem::path`
+
+`std::filesystem::path` is a portable path type that stores a sequence of path components and
+Provides methods for manipulation, decomposition, and composition [N4950 §30.10.7].
+
+```cpp
+#include <filesystem>
+#include <iostream>
+
+namespace fs = std::filesystem;
+
+void path_basics() {
+    fs::path p = "/usr/local/bin/cpp";
 
     std::cout << "Path:         " << p << "\n";
     std::cout << "Root name:    " << p.root_name() << "\n";       // "" (no drive on POSIX)

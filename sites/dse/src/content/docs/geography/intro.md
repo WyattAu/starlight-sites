@@ -1,6 +1,40 @@
 ---
 title: DSE Geography
-description: ""s one-child policy or Singapore's pro-natalist measures.
+description: "Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style..."
+tableOfContents: false
+tags:
+  - geography
+  - dse
+---
+
+# DSE Geography
+
+Complete revision notes for HKDSE Geography, covering both human and physical geography with worked
+examples, data-response practice, and exam-style problems. Content follows the HKEAA curriculum
+structure for the compulsory and elective parts.
+
+## Syllabus Overview
+
+The DSE Geography syllabus is divided into two main sections:
+
+- **Compulsory Part (7 topics)** -- covers core geographical themes spanning human and physical
+  geography, integrating fieldwork skills and data analysis techniques.
+- **Elective Part (3 out of 7)** -- allows students to study selected topics in greater depth,
+  including dynamic earth, climate change, transport, and regional studies.
+
+The examination emphasises both factual knowledge and analytical skills, requiring students to
+interpret maps, photographs, graphs, and fieldwork data. Questions frequently relate to real-world
+case studies, with a strong emphasis on Hong Kong and the Asia-Pacific region.
+
+## Core Topics
+
+### Population
+
+Population geography examines the distribution, density, and growth of human populations. Key
+concepts include population pyramids, demographic transition models, migration patterns (push and
+pull factors), and population policies. Students should understand how birth rates, death rates, and
+migration shape population structures, and be able to evaluate the effectiveness of population
+policies such as China"s one-child policy or Singapore's pro-natalist measures.
 
 Case studies often include comparisons between developed and developing countries, examining how
 differing levels of economic development affect population characteristics. The relationship between

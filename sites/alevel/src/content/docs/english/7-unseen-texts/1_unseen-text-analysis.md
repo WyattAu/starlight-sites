@@ -6,7 +6,35 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: ""s period, genre, and concerns
+description: "A-Level English Unseen Text Analysis notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
+
+---
+
+# Unseen Text Analysis
+
+## Introduction
+
+The unseen text component of A-Level English is often the most intimidating. You are presented with
+a passage or poem you have never seen before and asked to analyse it under timed conditions.
+However, unseen analysis is also the most transferable skill you will develop: it tests your ability
+to apply everything you have learned about literary analysis to any text, without the safety net of
+prepared notes.
+
+This section covers strategies for approaching unseen texts efficiently, annotation techniques,
+essay planning under pressure, and structuring high-quality responses in limited time.
+
+## Key Concepts
+
+### What Unseen Analysis Tests
+
+Unseen analysis assesses your ability to:
+
+- **Read closely** — Attend to language, form, and structure at the level of individual words and
+  phrases
+- **Think critically** — Construct an argument about how the text creates meaning
+- **Work under pressure** — Make efficient decisions about what to analyse and what to omit
+- **Apply knowledge** — Use literary terminology accurately and purposefully
+- **Engage with context** — Make reasonable inferences about the text"s period, genre, and concerns
 - **Write fluently** — Produce well-structured analytical prose in limited time
 
 ### Types of Unseen Texts

@@ -1,6 +1,26 @@
 ---
 title: Metabolism and Cell Biology
-description: ""s affinity for the substrate: a
+description: "IB Biology -- enzyme kinetics (Michaelis-Menten, inhibition types), cellular respiration (glycolysis, Krebs cycle, electron transport chain), photosynthesis"
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## 1. Enzyme Kinetics
+
+### Michaelis-Menten Kinetics
+
+The **Michaelis-Menten equation** describes the relationship between substrate concentration $[S]$
+And reaction velocity $v$:
+
+$$v = \frac{V_{\max} [S]}{K_m + [S]}$$
+
+Where:
+
+- $V_{\max}$: the maximum reaction velocity, achieved when all enzyme active sites are saturated
+  with substrate.
+- $K_m$ (Michaelis constant): the substrate concentration at which the reaction velocity is
+  $\frac{1}{2}V_{\max}$. $K_m$ is inversely related to the enzyme"s affinity for the substrate: a
   **low $K_m$** indicates **high affinity** (the enzyme reaches half-maximal velocity at low
   substrate concentration).
 

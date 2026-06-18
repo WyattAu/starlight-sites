@@ -1,6 +1,26 @@
 ---
 title: Annotations and Reflection
-description: ""Dog";
+description: "(JDK 5) marks a method as intending to override a method from a superclass or implement A method from an interface. The compiler verifies the declaration..."
+date: 2026-04-04T00:00:00.000Z
+tags:
+  - Java
+categories:
+  - Java
+
+---
+
+## Built-in Annotations
+
+### @Override
+
+`@Override` (JDK 5) marks a method as intending to override a method from a superclass or implement
+A method from an interface. The compiler verifies the declaration actually overrides something:
+
+```java
+public class Dog {
+    @Override
+    public String toString() { // compiles — Object.toString() exists
+        return "Dog";
     }
 
     @Override

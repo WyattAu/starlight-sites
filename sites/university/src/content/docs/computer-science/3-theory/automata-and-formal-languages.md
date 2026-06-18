@@ -1,6 +1,29 @@
 ---
 title: Automata and Formal Languages
-description: ""ab" over $\Sigma = \{a, b\}$:
+description: "University Computer Science Automata and Formal Languages notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Computer Science
+  - University
+categories:
+  - Computer Science
+---
+
+## 1. Finite Automata
+
+### 1.1 Deterministic Finite Automaton (DFA)
+
+A DFA is a 5-tuple $M = (Q, \Sigma, \delta, q_0, F)$ where:
+
+- $Q$ = finite set of states
+- $\Sigma$ = input alphabet
+- $\delta: Q \times \Sigma \to Q$ = transition function
+- $q_0 \in Q$ = start state
+- $F \subseteq Q$ = set of accepting states
+
+**Language of $M$:** $L(M) = \{w \in \Sigma^* : M \text{ accepts } w\}$
+
+**Example:** DFA for strings ending in "ab" over $\Sigma = \{a, b\}$:
 
 ```
 States: {q0, q1, q2}

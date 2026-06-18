@@ -1,6 +1,111 @@
 ---
 title: "Further Calculus -- Diagnostic Tests"
-description: ""$.
+description: "A-Level Further Maths Further Calculus -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Further Calculus — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Improper Integrals
+
+**Question:** (a) Evaluate $\int_1^{\infty} \frac{1}{x^2}\,dx$. (b) Determine whether
+$\int_1^{\infty} \frac{1}{x}\,dx$ converges or diverges. (c) Evaluate
+$\int_0^1 \frac◆LB◆1◆RB◆◆LB◆\sqrt{x}◆RB◆\,dx$. (d) Explain the difference between a convergent and
+divergent improper integral.
+
+**Solution:**
+
+(a)
+$\int_1^{\infty} \frac{1}{x^2}\,dx = \lim_{b \to \infty}\left[-\frac{1}{x}\right]_1^b = \lim_{b \to \infty}\left(-\frac{1}{b} + 1\right) = 0 + 1 = 1$.
+Converges to 1.
+
+(b)
+$\int_1^{\infty} \frac{1}{x}\,dx = \lim_{b \to \infty}[\ln x]_1^b = \lim_{b \to \infty}(\ln b - 0) = \infty$.
+**Diverges**.
+
+(c)
+$\int_0^1 \frac◆LB◆1◆RB◆◆LB◆\sqrt{x}◆RB◆\,dx = \lim_{a \to 0^+}[2\sqrt{x}]_a^1 = \lim_{a \to 0^+}(2 - 2\sqrt{a}) = 2 - 0 = 2$.
+Converges to 2.
+
+(d) A **convergent** improper integral has a finite value -- the limit exists and equals a real
+number. A **divergent** improper integral approaches infinity (or does not approach a limit),
+meaning the area under the curve is infinite.
+
+### UT-2: Volumes of Revolution
+
+**Question:** (a) Find the volume generated when the curve $y = \sqrt{x}$ is rotated $2\pi$ radians
+about the $x$-axis between $x = 0$ and $x = 4$. (b) Find the volume generated when $x = y^2$ (for
+$y \ge 0$) is rotated about the $y$-axis between $y = 0$ and $y = 2$. (c) The region bounded by
+$y = x^2$, $y = 0$And $x = 1$ is rotated about the $y$-axis. Calculate the volume using the shell
+method: $V = 2\pi\int_a^b xy\,dx$.
+
+**Solution:**
+
+(a)
+$V = \pi\int_0^4 y^2\,dx = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = \pi \times 8 = 8\pi$.
+
+(b)
+$V = \pi\int_0^2 x^2\,dy = \pi\int_0^2 y^4\,dy = \pi\left[\frac{y^5}{5}\right]_0^2 = \pi \times \frac{32}{5} = \frac◆LB◆32\pi◆RB◆◆LB◆5◆RB◆$.
+
+(c)
+$V = 2\pi\int_0^1 x \cdot x^2\,dx = 2\pi\int_0^1 x^3\,dx = 2\pi\left[\frac{x^4}{4}\right]_0^1 = 2\pi \times \frac{1}{4} = \frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆$.
+
+### UT-3: Parametric Differentiation
+
+**Question:** A curve is given parametrically by $x = t^2 + 1$, $y = t^3 - t$. (a) Find
+$\frac{dy}{dx}$ in terms of $t$. (b) Find the coordinates of the stationary points. (c) Find
+$\frac{d^2y}{dx^2}$ and determine the nature of each stationary point. (d) Find the equation of the
+normal to the curve at the point where $t = 2$.
+
+**Solution:**
+
+(a) $\frac{dx}{dt} = 2t$, $\frac{dy}{dt} = 3t^2 - 1$. $\frac{dy}{dx} = \frac{3t^2 - 1}{2t}$.
+
+(b) Stationary points: $\frac{dy}{dx} = 0$So $3t^2 - 1 = 0$, $t = \pm\frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆$.
+
+$t = \frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆$:
+$x = \frac{4}{3}$, $y = \frac◆LB◆1◆RB◆◆LB◆3\sqrt{3}◆RB◆ - \frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆ = -\frac◆LB◆2◆RB◆◆LB◆3\sqrt{3}◆RB◆$.
+$t = -\frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆$:
+$x = \frac{4}{3}$, $y = -\frac◆LB◆1◆RB◆◆LB◆3\sqrt{3}◆RB◆ + \frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆ = \frac◆LB◆2◆RB◆◆LB◆3\sqrt{3}◆RB◆$.
+
+(c)
+$\frac{d^2y}{dx^2} = \frac{d}{dt}\left(\frac{3t^2-1}{2t}\right) \Big/ \frac{dx}{dt} = \frac◆LB◆6t \cdot 2t - (3t^2-1) \cdot 2◆RB◆◆LB◆4t^2◆RB◆ \Big/ 2t = \frac{12t^2 - 6t^2 + 2}{4t^2} \cdot \frac{1}{2t} = \frac{6t^2 + 2}{8t^3}$.
+
+At $t = \frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆$:
+$\frac{d^2y}{dx^2} = \frac◆LB◆6/3 + 2◆RB◆◆LB◆8/(3\sqrt{3})◆RB◆ = \frac◆LB◆4◆RB◆◆LB◆8/(3\sqrt{3})◆RB◆ = \frac◆LB◆12\sqrt{3}◆RB◆◆LB◆8◆RB◆ = \frac◆LB◆3\sqrt{3}◆RB◆◆LB◆2◆RB◆ \gt 0$:
+**minimum**.
+
+At $t = -\frac◆LB◆1◆RB◆◆LB◆\sqrt{3}◆RB◆$:
+$\frac{d^2y}{dx^2} = \frac◆LB◆6/3 + 2◆RB◆◆LB◆8/(-3\sqrt{3})◆RB◆ = -\frac◆LB◆3\sqrt{3}◆RB◆◆LB◆2◆RB◆ \lt 0$:
+**maximum**.
+
+(d) At $t = 2$: $x = 5$, $y = 6$. $\frac{dy}{dx} = \frac{12-1}{4} = \frac{11}{4}$.
+
+Normal gradient $= -\frac{4}{11}$. Equation: $y - 6 = -\frac{4}{11}(x - 5)$I.e.,
+$11y - 66 = -4x + 20$So $4x + 11y = 86$.
+
+---
+
+## Integration Tests
+
+### IT-1: Calculus in Context (with Differential Equations)
+
+**Question:** A population grows according to $\frac{dP}{dt} = kP(1000 - P)$ where $P$ is the
+population and $k = 0.001$. Initial population $P(0) = 100$. (a) Identify the type of differential
+equation. (b) Solve by separating variables. (c) Find $P$ when $t = 5$. (d) Describe the long-term
+behaviour of the population.
+
+**Solution:**
+
+(a) This is a **separable first-order differential equation** and a **logistic growth equation**.
+
+(b) $\frac{dP}{P(1000-P)} = 0.001\,dt$. Using partial fractions:
+$\frac{1}{P(1000-P)} = \frac{1/1000}{P} + \frac{1/1000}{1000-P}$.
+
+$\frac{1}{1000}\ln\left|\frac{P}{1000-P}\right| = 0.001t + C$.
+$\ln\left|\frac{P}{1000-P}\right| = t + C"$.
 
 $\frac{P}{1000-P} = Ae^t$. At $t = 0$: $\frac{100}{900} = A$So $A = 1/9$.
 

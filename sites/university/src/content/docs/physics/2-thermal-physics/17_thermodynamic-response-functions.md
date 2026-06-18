@@ -3,7 +3,136 @@ title: Thermodynamic Response Functions
 tags:
   - Physics
   - University
-description: ""before" and "after" states are the same
+description: "Response functions measure how thermodynamic quantities change with state variab Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 17.1 General Relations
+
+Response functions measure how thermodynamic quantities change with state variables. The most
+important are:
+
+- Heat capacity: $C_X = T(\partial S/\partial T)_X$
+- Compressibility: $\kappa_T = -\frac{1}{V}(\partial V/\partial P)_T$
+- Thermal expansion: $\alpha = \frac{1}{V}(\partial V/\partial T)_P$
+
+These satisfy the identity:
+
+$$C_P - C_V = TV\frac{\alpha^2}{\kappa_T}$$
+
+For an ideal gas ($\alpha = 1/T$, $\kappa_T = 1/P$):
+
+$$C_P - C_V = TV \cdot \frac{1}{T^2} \cdot P = Nk_B$$
+
+### 17.2 Maxwell Relations
+
+From the exact differentials of thermodynamic potentials:
+
+| Potential         | Differential                                             | Maxwell Relation |
+| ----------------- | -------------------------------------------------------- | ---------------- |
+| $dU = TdS - PdV$  | $(\partial T/\partial V)_S = -(\partial P/\partial S)_V$ |
+| $dH = TdS + VdP$  | $(\partial T/\partial P)_S = (\partial V/\partial S)_P$  |
+| $dF = -SdT - PdV$ | $(\partial S/\partial V)_T = (\partial P/\partial T)_V$  |
+| $dG = -SdT + VdP$ | $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$ |
+
+### 17.3 Jacobian Formalism
+
+Thermodynamic derivatives can be systematically manipulated using the **Jacobian** notation:
+
+$$\frac{\partial(x, y)}{\partial(u, v)} = \begin{vmatrix} (\partial x/\partial u)_v & (\partial x/\partial v)_u \\ (\partial y/\partial u)_v & (\partial y/\partial v)_u \end{vmatrix}$$
+
+Properties:
+
+- $(\partial x/\partial y)_z = \frac{\partial(x,z)}{\partial(y,z)}$
+- Chain rule:
+  $\frac{\partial(x,y)}{\partial(u,v)} = \frac{\partial(x,y)}{\partial(w,z)}\cdot\frac{\partial(w,z)}{\partial(u,v)}$
+- Triple product:
+  $(\partial x/\partial y)_z (\partial y/\partial z)_x (\partial z/\partial x)_y = -1$
+
+<details>
+<summary>Worked Example 17.1: $C_P/C_V$ Ratio from Thermodynamic Derivatives</summary>
+
+Starting from $C_P - C_V = TV\alpha^2/\kappa_T$:
+
+$$\frac{C_P}{C_V} = 1 + \frac{TV\alpha^2}{\kappa_T C_V}$$
+
+For an ideal monatomic gas ($C_V = 3Nk_B/2$):
+
+$$\frac{C_P}{C_V} = 1 + \frac{Nk_B}{3Nk_B/2} = 1 + \frac{2}{3} = \frac{5}{3}$$
+
+For a diatomic gas at room temperature ($C_V = 5Nk_B/2$):
+
+$$\frac{C_P}{C_V} = 1 + \frac{Nk_B}{5Nk_B/2} = 1 + \frac{2}{5} = \frac{7}{5} = 1.4$$
+
+</details>
+
+## Common Pitfalls
+
+1. **Confusing ensembles**: The microcanonical ensemble describes isolated systems (fixed
+   $E, N, V$), the canonical ensemble systems in thermal contact with a heat bath (fixed $T, N, V$),
+   and the grand canonical ensemble systems exchanging both energy and particles (fixed
+   $T, \mu, V$). They give the same results in the thermodynamic limit, but differ for small
+   systems.
+
+2. **Negative temperatures**: These occur only for systems with a bounded energy spectrum (e.g.,
+   spin systems). A negative temperature is actually _hotter_ than any positive temperature
+   ($T = -\infty$ is the hottest positive temperature, and $T = 0^-$ is the coldest). They are not
+   applicable to systems like the ideal gas.
+
+3. **BEC critical density**: The critical density for BEC in a box is
+   $n_c = \zeta(3/2)(mk_BT/2\pi\hbar^2)^{3/2}$. This is extremely low ($\sim 10^{14}$ cm$^{-3}$ at 1
+   $\mu$K for Rb), but BEC in real experiments requires much lower temperatures because of the need
+   to reach quantum degeneracy in a finite trap.
+
+4. **Mean-field overestimates $T_c$**: The mean-field approximation $T_c^{\text{MF} = zJ/k_B}$
+   systematically overestimates the true critical temperature because it neglects fluctuations. The
+   error is largest in low dimensions (where fluctuations are strongest) and vanishes above the
+   upper critical dimension ($d = 4$ for short-range Ising).
+
+5. **Classical vs. Quantum .../4-statistics-and-probability/2_statistics**: At temperatures much
+   higher than the degeneracy temperature $T_F$ (fermions) or $T_c$ (bosons), both Fermi--Dirac and
+   Bose--Einstein distributions reduce to the Maxwell--Boltzmann distribution. The quantum
+   corrections are of order $n\lambda_{\text{dB}^3}$ where
+   $\lambda_{\text{dB} = h/\sqrt{2\pi mk_BT}}$ is the thermal de Broglie wavelength.
+
+## Problems
+
+<details>
+<summary>Problem 1: Entropy of Mixing</summary>
+
+Consider two ideal gases A and B, initially separated by a partition in a container of volume $V$.
+Gas A has $N_A$ particles in volume $V_A$; gas B has $N_B$ particles in volume $V_B$With
+$V_A + V_B = V$. The partition is removed and the gases mix isothermally at temperature $T$.
+
+(a) Show that the entropy of mixing is:
+
+$$\Delta S_{\text{mix} = -Nk_B\left[x\ln x + (1-x)\ln(1-x)\right] - Nk_B\left[y\ln y + (1-y)\ln(1-y)\right]}$$
+
+Where $x = N_A/N$, $y = V_A/V$.
+
+(b) Evaluate $\Delta S_{\text{mix}}$ for $N_A = N_B = N_0$, $V_A = V_B = V/2$ and show
+$\Delta S_{\text{mix} = 2N_0k_B\ln 2}$.
+
+(c) **Gibbs paradox**: If gases A and B are identical, the actual entropy change is zero. Explain
+how the factor of $1/N!$ in the partition function resolves this paradox.
+
+**Solution:**
+
+(a) For ideal gas A initially in $V_A$ and finally in $V$:
+
+$$\Delta S_A = N_Ak_B\ln\frac{V}{V_A} = N_Ak_B\ln\frac{1}{y} = -Nk_B x\ln y$$
+
+Similarly $\Delta S_B = -Nk_B(1-x)\ln(1-y)$. The total:
+
+$$\Delta S = -Nk_B[x\ln y + (1-x)\ln(1-y)]$$
+
+Note: The more general form includes contributions from the number of particles.
+
+(b) With $x = 1/2$, $y = 1/2$:
+
+$$\Delta S = -2N_0k_B\left(\frac{1}{2}\ln\frac{1}{2}\right) = -2N_0k_B\left(-\frac{1}{2}\ln 2\right) = 2N_0k_B\ln 2$$
+
+(c) The Sackur--Tetrode equation includes $-Nk_B\ln N + Nk_B = -k_B\ln N!$Which accounts for the
+indistinguishability of particles. For identical gases, the "before" and "after" states are the same
 (same $N$, $V$, $E$), so $\Delta S = 0$. Without the $1/N!$ factor, we would get the same non-zero
 result for mixing identical gases — Gibbs" paradox.
 

@@ -1,7 +1,23 @@
 ---
 template: splash
 title: University Notes
-description: "" theorem, PDEs |
+description: "Rigorous, proof-based university STEM notes covering linear algebra, calculus, classical mechanics, electromagnetism, chemistry, and algorithms."
+hero:
+  tagline: Rigorous, proof-based university STEM notes. Covers the foundational mathematics, physics, chemistry, and computer science courses that underpin engineering and science degrees.
+  actions:
+    - text: Browse Notes
+      link: /admissions/
+      icon: right-arrow
+      variant: primary
+---
+
+## Subjects Covered
+
+### Mathematics
+| Course | Topics |
+|--------|--------|
+| Linear Algebra | Vector spaces, eigenvalues, inner products, SVD |
+| Calculus | Multivariable integration, Stokes" theorem, PDEs |
 | Discrete Mathematics | Graph theory, combinatorics, number theory |
 | Probability & Statistics | Distributions, hypothesis testing, Bayesian inference |
 

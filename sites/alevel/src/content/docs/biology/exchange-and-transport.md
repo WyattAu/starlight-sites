@@ -1,6 +1,46 @@
 ---
 title: Exchange and Transport
-description: ""s law of diffusion**:
+description: "As an organism increases in size, its volume grows faster than its surface area. Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-18T00:00:00.000Z
+tags:
+  - Biology
+  - ALevel
+categories:
+  - Biology
+
+---
+
+## Exchange and Transport
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
+## 1. Surface Area to Volume Ratio
+
+### 1.1 The Fundamental Constraint
+
+As an organism increases in size, its volume grows faster than its surface area. For a cube of side
+Length $l$:
+
+$$\mathrm{Surface\ area} = 6l^2, \quad \mathrm{Volume} = l^3, \quad \frac◆LB◆\mathrm{SA}◆RB◆◆LB◆\mathrm{V}◆RB◆ = \frac{6}{l}$$
+
+The SA:V ratio therefore decreases as size increases. This has critical implications: the surface
+Area available for exchange of gases, nutrients, and heat becomes proportionally smaller relative to
+The metabolic demand (proportional to volume).
+
+For single-celled organisms, diffusion alone is sufficient because the SA:V ratio is large and
+Diffusion distances are short. Larger, multicellular organisms require specialised exchange surfaces
+And mass transport systems.
+
+### 1.2 Adaptations for Efficient Exchange
+
+All gas exchange surfaces share common features:
+
+1. **Large surface area** (folding, branching, alveoli) to maximise the rate of diffusion.
+2. **Thin barrier** (short diffusion pathway) to minimise diffusion distance.
+3. **Steep concentration gradient** maintained by ventilation (animals) or air flow (plants).
+4. **Moist surface** to dissolve gases for diffusion through the membrane.
+5. **Dense blood supply** (in animals) to carry away exchanged gases and maintain the gradient.
+
+These features all derive from **Fick"s law of diffusion**:
 
 $$J = -D \frac◆LB◆\Delta C◆RB◆◆LB◆\Delta x◆RB◆$$
 

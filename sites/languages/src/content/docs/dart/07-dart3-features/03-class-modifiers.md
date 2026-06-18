@@ -1,6 +1,56 @@
 ---
 title: Class Modifiers
-description: ""s library
+description: "Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+## Overview of Class Modifiers
+
+Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other
+Libraries. Before Dart 3, any class could be extended, implemented, or mixed in by any library. This
+Was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
+
+The problem: maximum flexibility is maximum liability. Library authors could not prevent misuse of
+Their APIs. A class designed for inheritance could be `implement`-ed (losing all behavior). A class
+Designed as a pure interface could be `extend`-ed (coupling to implementation details). A class
+Designed as a leaf could be subclassed (breaking invariants).
+
+Class modifiers solve this by giving library authors explicit control over the inheritance contract.
+They are compile-time constraints — the compiler enforces them, not runtime checks.
+
+### The Modifier Matrix
+
+| Modifier      | Can be extended (outside lib) | Can be implemented (outside lib) | Can be used as mixin (outside lib) | Can be constructed     |
+| ------------- | ----------------------------- | -------------------------------- | ---------------------------------- | ---------------------- |
+| (none)        | Yes                           | Yes                              | Yes                                | If not abstract        |
+| `sealed`      | No (same lib only)            | No (same lib only)               | No (same lib only)                 | No (implicit abstract) |
+| `base`        | Yes (only via `extends`)      | No                               | No                                 | If not abstract        |
+| `interface`   | No                            | Yes (only via `implements`)      | No                                 | If not abstract        |
+| `final`       | No                            | No                               | No                                 | If not abstract        |
+| `mixin class` | Via `extends` only            | Yes                              | Yes (with restrictions)            | If not abstract        |
+
+### Why They Exist
+
+Consider a real-world scenario. You write a library with a class `Listenable` that users should
+Implement, not extend:
+
+```dart
+// Your library
+class Listenable {
+  void addListener(VoidCallback listener) { /* ... */ }
+  void removeListener(VoidCallback listener) { /* ... */ }
+}
+```
+
+Before Dart 3, a user could do this:
+
+```dart
+// User"s library
 class MyListenable extends Listenable {
   @override
   void addListener(VoidCallback listener) {

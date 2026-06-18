@@ -1,6 +1,51 @@
 ---
 title: Setup Traefik
-description: ""s Encrypt) with automatic renewal
+description: "Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and Containerized environments. Key advantages over alternatives: "''
+date: 2025-07-21T18:30:46.381Z
+tags:
+  - truenas
+categories:
+  - truenas
+
+---
+
+## Why Traefik
+
+Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and
+Containerized environments. Key advantages over alternatives:
+
+| Feature                           | Traefik                            | Nginx Proxy Manager   | Caddy            |
+| --------------------------------- | ---------------------------------- | --------------------- | ---------------- |
+| Auto-discovery from Docker labels | Yes (native)                       | No (manual UI)        | Yes (via plugin) |
+| TLS certificate management        | Built-in ACME                      | Built-in (UI)         | Built-in         |
+| Configuration method              | Labels, file, CLI                  | Web UI                | Caddyfile        |
+| Dynamic routing                   | Automatic on container start       | Manual per proxy host | Automatic        |
+| Learning curve                    | Medium                             | Low                   | Low              |
+| Dashboard                         | Built-in                           | Built-in              | No               |
+| Docker Compose integration        | Excellent (labels on each service) | Separate container    | Good             |
+
+Traefik shines in a homelab because it eliminates manual proxy configuration. When you start a new
+Container with the right labels, Traefik picks it up and routes traffic immediately — no restart, no
+Config file editing, no UI clicking.
+
+## Prerequisites
+
+- TrueNAS SCALE with Apps/Docker support enabled
+- A DDNS domain pointing to your public IP (Cloudflare, DuckDNS, No-IP, etc.)
+- ISP ports 80 and 443 forwarded to your TrueNAS server (or the machine running Traefik)
+- A Docker runtime (TrueNAS SCALE Apps, or Docker Compose via Portainer/Dockge)
+
+## Traefik Concepts
+
+Before deploying, understand the core routing model:
+
+- **Routers**: Define how requests reach your services (host-based, path-based, etc.)
+- **Middlewares**: Modify requests before they reach services (authentication, headers, rate
+  limiting, compression)
+- **Services**: Define the backend (container IP + port)
+- **EntryPoints**: Listening ports (80 for HTTP, 443 for HTTPS, 8080 for dashboard)
+- **Providers**: Sources of configuration (Docker labels, file provider, etc.)
+- **TLS Stores/Certificates**: Managed by ACME (Let"s Encrypt) with automatic renewal
 
 ## Docker Compose Deployment
 

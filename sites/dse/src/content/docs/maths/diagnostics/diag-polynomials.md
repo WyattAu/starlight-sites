@@ -1,6 +1,100 @@
 ---
 title: "Polynomials -- Diagnostic Tests"
-description: ""s Formulas for Cubic
+description: "DSE Maths Polynomials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
+tableOfContents: false
+---
+
+# Polynomials — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for polynomials.
+
+### UT-1: Factor Theorem Sign Confusion
+
+**Question:**
+
+Determine whether $x + 2$ is a factor of $P(x) = x^3 + 3x^2 - 4x - 8$.
+
+**Solution:**
+
+By the factor theorem, $x + 2$ is a factor if and only if $P(-2) = 0$.
+
+$$P(-2) = (-2)^3 + 3(-2)^2 - 4(-2) - 8 = -8 + 12 + 8 - 8 = 4$$
+
+Since $P(-2) = 4 \neq 0$, $x + 2$ is **not** a factor.
+
+A common mistake is testing $P(2)$ instead of $P(-2)$. The factor theorem states that $(x - a)$ is a
+factor if $P(a) = 0$. Here the factor is $x + 2 = x - (-2)$So we test $a = -2$.
+
+---
+
+### UT-2: Remainder Theorem Application
+
+**Question:**
+
+When $P(x) = 2x^3 + ax^2 - 5x + 3$ is divided by $x - 2$The remainder is $11$. When $P(x)$ is
+divided by $x + 1$The remainder is $-4$. Find $a$ and $b$ (if $P(x)$ also has a constant term
+correction $b$ replacing $3$), or find $a$.
+
+**Solution:**
+
+By the remainder theorem:
+
+$P(2) = 2(8) + 4a - 10 + 3 = 16 + 4a - 7 = 4a + 9 = 11 \implies 4a = 2 \implies a = \dfrac{1}{2}$.
+
+Verify: $P(-1) = 2(-1) + \dfrac{1}{2}(1) - 5(-1) + 3 = -2 + \dfrac{1}{2} + 5 + 3 = 6.5 = -4$?
+
+Wait:
+$P(-1) = 2(-1)^3 + \dfrac{1}{2}(-1)^2 - 5(-1) + 3 = -2 + \dfrac{1}{2} + 5 + 3 = \dfrac{13}{2}$.
+
+But we need $P(-1) = -4$. There is no single value of $a$ satisfying both conditions simultaneously
+with the constant term fixed at $3$. The problem as stated is inconsistent. This highlights the
+importance of verifying all conditions.
+
+If instead the constant term is also a variable $b$:
+
+$P(2) = 4a + b + 9 = 11 \implies 4a + b = 2$.
+
+$P(-1) = -2 + a + 5 + b = a + b + 3 = -4 \implies a + b = -7$.
+
+Subtracting: $3a = 9 \implies a = 3$, $b = -10$.
+
+---
+
+### UT-3: Polynomial Division with Errors
+
+**Question:**
+
+Divide $2x^3 - 5x^2 + x - 6$ by $x^2 - 2x + 3$.
+
+**Solution:**
+
+$$
+\begin{array}{r|l}
+X^2 - 2x + 3 & 2x^3 - 5x^2 + \phantom{0}x - 6 \\
+\hline
+& 2x \\
+& 2x^3 - 4x^2 + 6x \\
+\hline
+& \phantom{2x^3} - x^2 - 5x - 6 \\
+& \phantom{2x^3} - x^2 + 2x - 3 \\
+\hline
+& \phantom{2x^3} \phantom{- x^2} - 7x - 3 \\
+\end{array}
+$$
+
+Quotient: $2x - 1$Remainder: $-7x - 3$.
+
+Verify: $(2x - 1)(x^2 - 2x + 3) + (-7x - 3)$
+
+$= 2x^3 - 4x^2 + 6x - x^2 + 2x - 3 - 7x - 3$
+
+$= 2x^3 - 5x^2 + x - 6$. Correct.
+
+---
+
+### UT-4: Vieta"s Formulas for Cubic
 
 **Question:**
 

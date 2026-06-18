@@ -1,6 +1,117 @@
 ---
 title: Urban Environmental Quality
-description: ""s 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
+description: "An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the..."
+
+---
+
+# Urban Environmental Quality
+
+## Urban Microclimates
+
+An urban microclimate refers to the distinctive climatic conditions within and immediately
+Surrounding an urban area, which differ from the climate of the surrounding rural landscape. These
+Differences arise from modifications to the surface energy balance, hydrological cycle, and
+Atmospheric composition caused by urbanisation.
+
+### The Urban Heat Island Effect
+
+The urban heat island (UHI) effect is the phenomenon whereby urban areas experience higher air and
+Surface temperatures than surrounding rural areas. The magnitude of the UHI varies with city size,
+Population density, building materials, vegetation cover, and weather conditions.
+
+**Causes of the UHI:**
+
+1. **Changed surface materials.** Urban surfaces (concrete, asphalt, brick, tile) have higher
+   thermal conductivity and lower albedo than natural vegetation, absorbing and storing more solar
+   radiation during the day and releasing it as heat at night. Urban surface temperatures can exceed
+   50$^\circ$C on summer afternoons.
+2. **Reduced evapotranspiration.** The replacement of vegetation with impermeable surfaces reduces
+   evapotranspiration, which is a major cooling mechanism in rural areas. Evapotranspiration in a
+   forest can account for 60--80% of net radiation, whereas in a city centre it may account for less
+   than 10%.
+3. **Anthropogenic heat.** Buildings, vehicles, industrial processes, and air conditioning systems
+   release waste heat into the urban atmosphere. In dense city centres, anthropogenic heat flux can
+   exceed 50--100 W/m$^2$Comparable to or exceeding net solar radiation in winter.
+4. **Urban canyon geometry.** Tall buildings arranged in street canyons reduce sky view factor (the
+   proportion of the sky visible from street level), trapping longwave radiation. Buildings also
+   reduce wind speed, limiting convective cooling.
+5. **Reduced latent heat flux.** Water is rapidly channelled into drains rather than being available
+   for evaporation, reducing the proportion of energy used for latent (evaporative) cooling and
+   increasing the proportion used for sensible (direct) heating.
+
+**Magnitude.** UHI intensity (the temperature difference between urban and rural areas) Ranges from
+1$^\circ$C to 3$^\circ$C on annual average, but can reach 7$^\circ$C to 12$^\circ$C Under calm,
+clear night-time conditions. The UHI is most pronounced at night because urban materials Release
+stored heat slowly, preventing the nocturnal cooling that occurs in rural areas.
+
+**Impacts of the UHI:**
+
+- **Health:** heat-related mortality increases during urban heat waves. The 2003 European heat wave
+  killed approximately 70 000 people, with mortality concentrated in urban areas. Heat also
+  exacerbates ground-level ozone formation, worsening air quality.
+- **Energy demand:** higher temperatures increase electricity demand for cooling (air conditioning),
+  which in turn generates more waste heat, creating a positive feedback loop.
+- **Water quality:** heated stormwater runoff entering rivers and streams can harm aquatic
+  ecosystems.
+- **Thermal comfort:** reduced outdoor comfort and liveability, particularly for vulnerable
+  populations (elderly, children, outdoor workers).
+
+### Pollution Domes and Precipitation Anomalies
+
+**Pollution domes.** Concentrations of pollutants (particulate matter, nitrogen oxides, sulphur
+Dioxide, volatile organic compounds) are higher in urban areas due to the density of Emission
+sources (vehicles, industry, heating). The urban canyon geometry and reduced wind speeds Within
+cities trap pollutants, creating a dome of polluted air over the urban area. Temperature Inversions
+(where a layer of warm air overlies cooler air near the surface, preventing vertical Mixing)
+exacerbate this effect. Inversions are common in cities located in valleys or basins (e.g., Los
+Angeles, Mexico City, Santiago, Tehran).
+
+**Precipitation anomalies.** Urban areas can modify local precipitation patterns. The UHI creates
+Thermal instability, enhancing convective uplift and potentially increasing rainfall downwind of the
+City. Aerosols and particulate matter released by urban activities can act as cloud condensation
+Nuclei, potentially increasing rainfall frequency. Research has shown that cities can receive
+10--30% more rainfall than surrounding rural areas, and that rainfall events may be more intense
+(with higher hourly rainfall rates). However, the overall evidence is mixed, and the effect varies
+With city size, geographic location, and prevailing weather patterns.
+
+## Air Quality Management
+
+### Sources of Urban Air Pollution
+
+| Source                           | Key Pollutants                                               | Characteristics                                                                     |
+| -------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| **Vehicle emissions**            | $\mathrm{NO_x}$$\mathrm{PM}_{2.5}$$\mathrm{PM}_{10}$CO, VOCs | Dominant source in most cities; concentrated along major roads and at intersections |
+| **Industrial activity**          | $\mathrm{SO_2}$$\mathrm{PM}_{10}$VOCs, heavy metals          | Point sources; often located in industrial zones or port areas                      |
+| **Construction and demolition**  | $\mathrm{PM}_{10}$$\mathrm{PM}_{2.5}$                        | Seasonal; concentrated at construction sites                                        |
+| **Domestic heating and cooking** | $\mathrm{PM}_{2.5}$CO, $\mathrm{NO_x}$                       | Significant in cities where solid fuels (coal, biomass) are used; seasonal (winter) |
+| **Power generation**             | $\mathrm{SO_2}$$\mathrm{NO_x}$$\mathrm{PM}_{10}$             | Point sources; depends on fuel mix                                                  |
+
+### Health Impacts
+
+The WHO estimates that outdoor air pollution causes approximately 4.2 million premature deaths
+Annually. Key health effects include:
+
+- **Respiratory diseases:** asthma, chronic obstructive pulmonary disease (COPD), lung cancer.
+  Long-term exposure to $\mathrm{PM}_{2.5}$ (particulate matter with diameter less than 2.5
+  micrometres) is associated with increased lung cancer mortality.
+- **Cardiovascular disease:** $\mathrm{PM}_{2.5}$ and $\mathrm{NO_2}$ are associated with increased
+  risk of heart attack, stroke, and arrhythmia.
+- **Neurological effects:** emerging evidence links air pollution to cognitive decline and
+  neurodegenerative diseases.
+
+Cities with the highest $\mathrm{PM}_{2.5}$ concentrations include Delhi (approximately 100
+Micrograms/m$^3$ annual mean, compared to the WHO guideline of 5 micrograms/m$^3$), Lahore, Dhaka,
+And Cairo.
+
+### Management Strategies
+
+| Strategy                        | Mechanism                                                                   | Example                                                                                                   |
+| ------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Emission standards**          | Regulate permissible pollutant levels from vehicles and industry            | Euro 6/VI standards (EU); Bharat Stage VI (India, implemented 2020)                                       |
+| **Low-emission zones**          | Restrict or charge high-polluting vehicles from entering designated areas   | London Ultra Low Emission Zone (ULEZ), introduced 2019; expanded 2023                                     |
+| **Public transport investment** | Reduce private vehicle use by providing efficient alternatives              | Bogota TransMilenio BRT; Shanghai metro (longest in the world, over 800 km)                               |
+| **Congestion charging**         | Charge vehicles for entering congested urban areas, reducing traffic volume | Singapore Electronic Road Pricing (ERP); London Congestion Charge                                         |
+| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan"s 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
 | **Clean energy transitions**    | Shift from fossil fuel vehicles and heating to electric                     | Oslo's target of zero-emission city centre by 2030; Beijing's conversion from coal to natural gas heating |
 
 ## Waste Management

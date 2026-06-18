@@ -1,6 +1,61 @@
 ---
 title: DSE Mathematics Diagnostic Guide
-description: ""s diagnostic before retrying.
+description: "Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure..."
+tableOfContents: false
+---
+
+# DSE Mathematics Diagnostic Guide
+
+## Purpose
+
+Diagnostic tests identify specific gaps in your mathematical understanding before they compound into
+larger problems. Unlike practice papers that measure overall performance, diagnostics isolate
+individual concepts and test them at their boundaries -- exactly where misconceptions live.
+
+Each diagnostic file targets one DSE Mathematics topic with carefully designed questions that
+expose:
+
+- **Conceptual errors** -- misunderstanding definitions or properties
+- **Procedural errors** -- applying correct methods with wrong steps
+- **Notational errors** -- confusing similar-looking expressions
+- **Boundary errors** -- failing to check domain restrictions or edge cases
+
+## How to Use
+
+### Step 1: Establish Your Baseline
+
+Before studying a topic, attempt its Unit Tests (UT-1 through UT-5) under timed conditions. Do not
+look at solutions until you have written a complete answer for every question.
+
+### Step 2: Grade Each Response
+
+Use the rubric below to classify each answer as PASS, PARTIAL, or FAIL.
+
+### Step 3: Analyse Failures
+
+For every PARTIAL or FAIL, read the worked solution and identify which of these caused the error:
+
+- Did not know the underlying concept
+- Knew the concept but applied it incorrectly
+- Made an arithmetic or algebraic slip
+- Missed a domain restriction or edge case
+- Ran out of time
+
+### Step 4: Build a Remediation Plan
+
+Map each failure back to the corresponding notes file in the compulsory section. Re-study that
+section, then re-attempt the diagnostic question from scratch (without looking at your previous
+attempt).
+
+### Step 5: Attempt Integration Tests
+
+Once all Unit Tests for a topic score PASS, attempt the Integration Tests (IT-1 through IT-3). These
+combine multiple topics and test whether you can synthesise knowledge under exam conditions.
+
+### Step 6: Cross-Topic Review
+
+If you fail an Integration Test, identify which prerequisite topic caused the failure and revisit
+that topic"s diagnostic before retrying.
 
 ## Grading Rubric
 

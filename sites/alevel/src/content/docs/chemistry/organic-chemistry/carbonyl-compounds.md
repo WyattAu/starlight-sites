@@ -1,6 +1,28 @@
 ---
 title: Carbonyl Compounds
-description: ""$                                                |
+description: "Carbonyl compounds contain the C=O functional group. The carbonyl carbon is hybridised with Trigonal planar geometry. The oxygen is more electronegative..."
+date: 2026-04-22T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Carbonyl Compounds
+
+Carbonyl compounds contain the C=O functional group. The carbonyl carbon is $sp^2$ hybridised with
+Trigonal planar geometry. The oxygen is more electronegative than carbon, creating a polar bond
+($\mathrm{C}^{\delta+}=\mathrm{O}^{\delta-}$). The $\delta^+$ carbon is electrophilic and
+Susceptible to nucleophilic attack, while the $\delta^-$ oxygen can act as a weak base or
+Nucleophile.
+
+## Aldehydes vs Ketones
+
+| Property              | Aldehyde                                                            | Ketone                                                          |
+| --------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
+| General formula       | $\mathrm{RCHO}$                                                     | $\mathrm{RCOR}"$                                                |
 | Terminal C=O          | Yes                                                                 | No                                                              |
 | Oxidation             | Yes (to carboxylic acid)                                            | No                                                              |
 | Tollens' test         | Silver mirror                                                       | No reaction                                                     |

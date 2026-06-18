@@ -1,6 +1,70 @@
 ---
 title: Algebraic Expressions
-description: ""rationalise" by splitting the fraction:
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                                       |
+| ---------- | ------- | ------------------------------------------- |
+| AQA        | Paper 1 | Surds, indices, polynomials, factor theorem |
+| Edexcel    | P1, P2  | Same core; P2 includes harder factorisation |
+| OCR (A)    | Paper 1 | Similar coverage                            |
+| CIE (9709) | P1      | Surds, quadratics, factor theorem           |
+
+<hr />
+
+## 1. Surds
+
+**Definition.** A _surd_ is an irrational number expressible as the root of a rational number — that
+Is, an expression of the form $\sqrt{n}$ where $n \in \mathbb{Q}^+$ and
+$\sqrt{n} \notin \mathbb{Q}$.
+
+The most familiar surds are $\sqrt{2}$$\sqrt{3}$$\sqrt{5}$And so on. The set of surds is a Subset of
+the algebraic numbers, and they arise whenever we solve equations of degree 2 or Higher.
+
+### 1.1 Laws of Surds
+
+For positive real numbers $a$ and $b$:
+
+$$
+\begin{aligned}
+\sqrt{a}\sqrt{b} &= \sqrt{ab} \\
+\frac◆LB◆\sqrt{a}◆RB◆◆LB◆\sqrt{b}◆RB◆ &= \sqrt◆LB◆\frac{a}{b}◆RB◆ \\
+(\sqrt{a})^n &= a^{n/2}
+\end{aligned}
+$$
+
+These follow directly from the laws of indices (which we prove in Section 2), since
+$\sqrt{a} = a^{1/2}$.
+
+**Rationalising the denominator.** If a fraction has a surd in the denominator, we multiply
+Numerator and denominator by the surd (or its conjugate) to eliminate it.
+
+For a denominator of the form $\sqrt{a}$Multiply by $\frac◆LB◆\sqrt{a}◆RB◆◆LB◆\sqrt{a}◆RB◆$:
+
+$$
+\begin{aligned}
+\frac◆LB◆1◆RB◆◆LB◆\sqrt{a}◆RB◆ &= \frac◆LB◆1◆RB◆◆LB◆\sqrt{a}◆RB◆ \cdot \frac◆LB◆\sqrt{a}◆RB◆◆LB◆\sqrt{a}◆RB◆ = \frac◆LB◆\sqrt{a}◆RB◆◆LB◆a◆RB◆
+\end{aligned}
+$$
+
+For a denominator of the form $a + b\sqrt{c}$Multiply by the _conjugate_ $a - b\sqrt{c}$:
+
+$$
+\begin{aligned}
+\frac◆LB◆1◆RB◆◆LB◆a + b\sqrt{c}◆RB◆ &= \frac◆LB◆a - b\sqrt{c}◆RB◆◆LB◆(a + b\sqrt{c})(a - b\sqrt{c})◆RB◆ = \frac◆LB◆a - b\sqrt{c}◆RB◆◆LB◆a^2 - b^2 c◆RB◆
+\end{aligned}
+$$
+
+:::caution A common error is to "rationalise" by splitting the fraction:
 $\frac◆LB◆a + b\sqrt{c}◆RB◆◆LB◆d◆RB◆ \neq \frac{a}{d} + b\sqrt◆LB◆\frac{c}{d}◆RB◆$ . Always
 distribute the Denominator correctly.
 :::

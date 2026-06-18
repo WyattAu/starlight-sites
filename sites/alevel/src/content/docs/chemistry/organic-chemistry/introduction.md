@@ -1,6 +1,48 @@
 ---
 title: Organic Chemistry Introduction
-description: ""first point of difference" rule).
+description: "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a..."
+date: 2026-04-22T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Organic Chemistry Introduction
+
+Organic chemistry is the study of the structure, properties, composition, reactions, and preparation
+Of carbon-containing compounds. Carbon occupies a unique position in the periodic table: its ability
+To form four covalent bonds, catenate (form chains and rings), and hybridise in multiple
+Configurations ($sp^3$, $sp^2$, $sp$) produces a combinatorial space of molecules that dwarfs all
+Other branches of chemistry combined.
+
+This module serves as the conceptual foundation for every subsequent organic topic. It defines the
+Systematic rules for naming, classifying, and reasoning about organic molecules.
+
+## IUPAC Nomenclature
+
+The International Union of Pure and Applied Chemistry (IUPAC) system provides a deterministic,
+Unambiguous naming convention. Every organic compound has exactly one correct IUPAC name (ignoring
+Stereochemical descriptors, which may be stated in any order).
+
+### Naming Algorithm
+
+The procedure is as follows:
+
+1. **Identify the principal functional group.** This determines the suffix. Priority order (highest
+   first): carboxylic acid $>$ ester $>$ amide $>$ nitrile $>$ aldehyde $>$ ketone $>$ alcohol $>$
+   amine $>$ alkene $>$ alkyne $>$ ether $>$ halogen $>$ alkyl. This priority is known as the
+   seniority order.
+
+2. **Identify the longest carbon chain containing the principal functional group.** This is the
+   parent chain. Its length determines the prefix (meth-, eth-, prop-, but-, pent-, hex-, hept-,
+   oct-, non-, dec-).
+
+3. **Number the parent chain.** Assign locants so that the principal functional group receives the
+   lowest possible number. If there is a tie, give the lowest set of locants to substituents (the
+   "first point of difference" rule).
 
 4. **Name substituents.** List substituents alphabetically (ignoring multiplying prefixes di-, tri-,
    tetra-) with their locants.

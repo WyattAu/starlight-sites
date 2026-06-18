@@ -1,6 +1,77 @@
 ---
 title: Exception Safety Guarantees
-description: ""swap is noexcept: true\n";
+description: "The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard Library requirements, classifies every operation into four..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Exception Safety Guarantees
+
+The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard
+Library requirements, classifies every operation into four levels [N4950 §16.4.6.3].
+
+## 2.1 No-Throw Guarantee (Strongest)
+
+The operation **never** throws an exception. If it cannot complete, it terminates or reports via
+Some non-throwing mechanism.
+
+All destructors, deallocation functions, and swap operations in the standard library provide the
+No-throw guarantee [N4950 §16.4.6.3 Table 30].
+
+```cpp
+#include <vector>
+#include <utility>
+#include <iostream>
+
+template <typename T>
+class SafeVector {
+public:
+    SafeVector() = default;
+
+    void push_back(const T& val) noexcept(std::is_nothrow_copy_constructible_v<T>) {
+        if (size_ == cap_) {
+            std::size_t new_cap = cap_ ? cap_ * 2 : 4;
+            T* buf = static_cast<T*>(::operator new(sizeof(T) * new_cap));
+            for (std::size_t i = 0; i < size_; ++i) {
+                new (buf + i) T(data_[i]);
+            }
+            for (std::size_t i = 0; i < size_; ++i) {
+                data_[i].~T();
+            }
+            ::operator delete(data_);
+            data_ = buf;
+            cap_ = new_cap;
+        }
+        new (data_ + size_) T(val);
+        ++size_;
+    }
+
+    ~SafeVector() {
+        for (std::size_t i = 0; i < size_; ++i) data_[i].~T();
+        ::operator delete(data_);
+    }
+
+    void swap(SafeVector& other) noexcept {
+        using std::swap;
+        swap(data_, other.data_);
+        swap(size_, other.size_);
+        swap(cap_, other.cap_);
+    }
+
+private:
+    T* data_ = nullptr;
+    std::size_t size_ = 0;
+    std::size_t cap_ = 0;
+};
+
+int main() {
+    static_assert(noexcept(std::declval<SafeVector<int>&>().swap(
+        std::declval<SafeVector<int>&>())));
+    std::cout << "swap is noexcept: true\n";
     return 0;
 }
 ```

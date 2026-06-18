@@ -1,6 +1,195 @@
 ---
 title: "Algebra -- Diagnostic Tests"
-description: ""s profits increase by $\pounds 5000$ each year. In the first year, profits are
+description: "Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# Algebra -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Equations and Inequalities
+
+**Question:**
+
+(a) Solve the following equations: (i) $3(2x - 1) + 4(x + 5) = 2(5x - 3)$ (ii)
+$\frac{x + 3}{2} - \frac{x - 1}{5} = \frac{2x + 1}{3}$
+
+(b) Solve the quadratic equation $2x^2 - 7x + 3 = 0$ by: (i) factorisation, (ii) the quadratic
+formula. Verify that both methods give the same solutions.
+
+(c) Solve the inequality $3x^2 - 11x - 4 \leq 0$.
+
+(d) Solve the simultaneous equations: $2x + 3y = 12$ and $5x - 2y = 11$.
+
+**Solution:**
+
+(a)
+
+(i) $3(2x - 1) + 4(x + 5) = 2(5x - 3)$
+
+$$6x - 3 + 4x + 20 = 10x - 6$$ $$10x + 17 = 10x - 6$$ $$17 = -6$$
+
+This is a contradiction, so there is **no solution**.
+
+(ii) $\frac{x + 3}{2} - \frac{x - 1}{5} = \frac{2x + 1}{3}$
+
+LCM of 2, 5, 3 = 30:
+
+$$15(x + 3) - 6(x - 1) = 10(2x + 1)$$ $$15x + 45 - 6x + 6 = 20x + 10$$ $$9x + 51 = 20x + 10$$
+$$41 = 11x$$ $$x = \frac{41}{11}$$
+
+(b)
+
+(i) Factorising $2x^2 - 7x + 3 = 0$: Looking for two numbers that multiply to $2 \times 3 = 6$ and
+add to $-7$: $-6$ and $-1$.
+
+$$2x^2 - 6x - x + 3 = 0$$ $$2x(x - 3) - 1(x - 3) = 0$$ $$(2x - 1)(x - 3) = 0$$
+
+$x = \frac{1}{2}$ or $x = 3$.
+
+(ii) Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ with $a = 2$, $b = -7$,
+$c = 3$:
+
+$$x = \frac{7 \pm \sqrt{49 - 24}}{4} = \frac{7 \pm \sqrt{25}}{4} = \frac{7 \pm 5}{4}$$
+
+$x = 3$ or $x = \frac{1}{2}$. Both methods agree.
+
+(c) $3x^2 - 11x - 4 \leq 0$. Factorising:
+$3x^2 - 12x + x - 4 = 3x(x - 4) + 1(x - 4) = (3x + 1)(x - 4) \leq 0$.
+
+Roots at $x = -\frac{1}{3}$ and $x = 4$. The quadratic opens upward ($a = 3 > 0$), so it is negative
+between the roots.
+
+Solution: $-\frac{1}{3} \leq x \leq 4$, or $x \in \left[-\frac{1}{3}, 4\right]$.
+
+(d) $2x + 3y = 12$ ... (1), $5x - 2y = 11$ ... (2)
+
+Multiply (1) by 2: $4x + 6y = 24$ ... (3) Multiply (2) by 3: $15x - 6y = 33$ ... (4)
+
+Add (3) and (4): $19x = 57$, so $x = 3$.
+
+Substitute into (1): $2(3) + 3y = 12$, $6 + 3y = 12$, $y = 2$.
+
+Solution: $x = 3$, $y = 2$.
+
+---
+
+### UT-2: Sequences and Series
+
+**Question:**
+
+(a) An arithmetic sequence has first term $a = 5$ and common difference $d = 3$. Find: (i) the 20th
+term, (ii) the sum of the first 20 terms.
+
+(b) A geometric sequence has first term $a = 2$ and common ratio $r = 0.5$. Find: (i) the 8th term,
+(ii) the sum to infinity.
+
+(c) The $n$th term of a sequence is given by $u_n = 3n^2 - n$. Find the first four terms and
+determine whether this is an arithmetic, geometric, or neither type of sequence.
+
+(d) A ball is dropped from a height of $2\,\text{m}$. Each time it bounces, it reaches $\frac{3}{4}$
+of its previous height. Calculate the total vertical distance travelled by the ball before it comes
+to rest.
+
+**Solution:**
+
+(a) $a = 5$, $d = 3$.
+
+(i) $u_n = a + (n - 1)d$. $u_{20} = 5 + 19 \times 3 = 5 + 57 = 62$.
+
+(ii) $S_n = \frac{n}{2}(2a + (n - 1)d) = \frac{20}{2}(10 + 57) = 10 \times 67 = 670$.
+
+(b) $a = 2$, $r = 0.5$.
+
+(i) $u_n = ar^{n-1}$.
+$u_8 = 2 \times (0.5)^7 = 2 \times \frac{1}{128} = \frac{2}{128} = \frac{1}{64}$.
+
+(ii) Since $|r| < 1$, the sum to infinity exists:
+$S_\infty = \frac{a}{1 - r} = \frac{2}{1 - 0.5} = \frac{2}{0.5} = 4$.
+
+(c) $u_n = 3n^2 - n$.
+
+$u_1 = 3 - 1 = 2$ $u_2 = 12 - 2 = 10$ $u_3 = 27 - 3 = 24$ $u_4 = 48 - 4 = 44$
+
+This is **neither** arithmetic nor geometric. The differences are $10 - 2 = 8$, $24 - 10 = 14$,
+$44 - 24 = 20$ (not constant, so not arithmetic). The ratios $10/2 = 5$, $24/10 = 2.4$,
+$44/24 \approx 1.83$ are not constant either, so not geometric. It is a quadratic sequence.
+
+(d) The ball drops $2\,\text{m}$ (down), bounces to $\frac{3}{4} \times 2 = 1.5\,\text{m}$ (up),
+drops $1.5\,\text{m}$ (down), bounces to $1.5 \times \frac{3}{4} = 1.125\,\text{m}$ (up), and so on.
+
+The total distance = initial drop + total of all up-and-down bounces.
+
+Total distance $= 2 + 2 \times \left(1.5 + 1.125 + 0.84375 + \ldots\right)$
+
+The bounce heights form a geometric series: $a = 1.5$, $r = \frac{3}{4}$.
+
+Sum to infinity of bounce heights: $S_\infty = \frac{1.5}{1 - 0.75} = \frac{1.5}{0.25} = 6$.
+
+Total distance $= 2 + 2 \times 6 = 14\,\text{m}$.
+
+---
+
+### UT-3: Algebraic Fractions and Proofs
+
+**Question:**
+
+(a) Simplify the algebraic fraction $\frac{x^2 - 9}{x^2 + 5x + 6} \div \frac{x + 3}{x + 2}$.
+
+(b) Solve the equation $\frac{2}{x - 1} + \frac{3}{x + 2} = 1$. Identify any values of $x$ that are
+excluded from the solution.
+
+(c) Prove that the sum of any three consecutive integers is always a multiple of 3.
+
+(d) Prove that for any even integer $n$, $n^2$ is always a multiple of 4.
+
+**Solution:**
+
+(a)
+$\frac{x^2 - 9}{x^2 + 5x + 6} \div \frac{x + 3}{x + 2} = \frac{x^2 - 9}{x^2 + 5x + 6} \times \frac{x + 2}{x + 3}$
+
+Factorising: $x^2 - 9 = (x - 3)(x + 3)$, $x^2 + 5x + 6 = (x + 2)(x + 3)$.
+
+$$= \frac{(x - 3)(x + 3)}{(x + 2)(x + 3)} \times \frac{x + 2}{x + 3} = \frac{(x - 3)(x + 2)}{(x + 3)^2}$$
+
+(b) $\frac{2}{x - 1} + \frac{3}{x + 2} = 1$
+
+Multiply through by $(x - 1)(x + 2)$:
+
+$$2(x + 2) + 3(x - 1) = (x - 1)(x + 2)$$ $$2x + 4 + 3x - 3 = x^2 + x - 2$$ $$5x + 1 = x^2 + x - 2$$
+$$x^2 - 4x - 3 = 0$$
+
+$$x = \frac{4 \pm \sqrt{16 + 12}}{2} = \frac{4 \pm \sqrt{28}}{2} = \frac{4 \pm 2\sqrt{7}}{2} = 2 \pm \sqrt{7}$$
+
+Excluded values: $x \neq 1$ and $x \neq -2$ (these make denominators zero). Since
+$2 + \sqrt{7} \approx 4.65$ and $2 - \sqrt{7} \approx -0.65$, neither is excluded.
+
+Solutions: $x = 2 + \sqrt{7}$ and $x = 2 - \sqrt{7}$.
+
+(c) Let three consecutive integers be $n$, $n + 1$, and $n + 2$.
+
+Sum $= n + (n + 1) + (n + 2) = 3n + 3 = 3(n + 1)$.
+
+Since $n + 1$ is an integer, $3(n + 1)$ is a multiple of 3. Therefore, the sum of any three
+consecutive integers is always a multiple of 3.
+
+(d) Let $n$ be any even integer. Then $n = 2k$ for some integer $k$.
+
+$$n^2 = (2k)^2 = 4k^2$$
+
+Since $k^2$ is an integer, $4k^2$ is a multiple of 4. Therefore, the square of any even integer is
+always a multiple of 4.
+
+---
+
+## Integration Tests
+
+### IT-1: Applied Sequences and Equations
+
+**Question:**
+
+(a) A company"s profits increase by $\pounds 5000$ each year. In the first year, profits are
 $\pounds 20000$. In which year will the profits first exceed $\pounds 100000$?
 
 (b) The half-life of a radioactive substance is 8 days. If a sample initially contains

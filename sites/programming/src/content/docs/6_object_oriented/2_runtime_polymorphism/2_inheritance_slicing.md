@@ -1,6 +1,37 @@
 ---
 title: Inheritance, Object Slicing, and Virtual Destructors
-description: ""A::fa\n"; }
+description: "Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value Causes -- the derived portion is discarded. This section..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Inheritance, Object Slicing, and Virtual Destructors
+
+Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value
+Causes **object slicing** -- the derived portion is discarded. This section covers single and
+Multiple inheritance, object slicing, virtual destructors, pure virtual functions, and interface
+Conventions.
+
+## 2.1 Single and Multiple Inheritance
+
+A derived class inherits from one or more base classes [N4950 S11.7]. Each base class subobject is
+Laid out in memory according to the inheritance graph.
+
+**Single inheritance:** The derived class extends the base by appending its own members after the
+Base subobject. Only one vptr is needed (shared with the base).
+
+**Multiple inheritance:** Each base class subobject retains its own vptr (if polymorphic). The
+Derived object contains multiple base subobjects, each at a distinct offset.
+
+```cpp
+#include <iostream>
+
+struct A {
+    virtual void fa() { std::cout << "A::fa\n"; }
     int a_val{};
     virtual ~A() = default;
 };

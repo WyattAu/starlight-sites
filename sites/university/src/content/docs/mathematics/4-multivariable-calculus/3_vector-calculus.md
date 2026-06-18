@@ -3,7 +3,21 @@ title: Vector Calculus
 tags:
   - Mathematics
   - University
-description: ""s theorem
+description: "Vector Calculus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 3.1 Vector Fields
+
+A **vector field** on $\mathbb{R}^n$ is a function
+$\mathbf{F} : D \subseteq \mathbb{R}^n \to \mathbb{R}^n$.
+
+A vector field $\mathbf{F} = (P, Q, R)$ on $\mathbb{R}^3$ is **conservative** if there exists a
+scalar Potential $\phi$ such that $\mathbf{F} = \nabla \phi$.
+
+**Theorem 3.1.** $\mathbf{F}$ is conservative (on a connected domain) if and only if
+$\nabla \times \mathbf{F} = \mathbf{0}$.
+
+_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$Then by Clairaut"s theorem
 $f_{xy} = f_{yx}$Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
 
 ($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$Then for any

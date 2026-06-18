@@ -1,6 +1,18 @@
 ---
 title: Sealed Classes
-description: ""s mechanism for
+description: "Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+## What Sealed Classes Are
+
+Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite
+Set of subtypes, all of which must be declared in the same library. They are Dart 3"s mechanism for
 Implementing **algebraic data types (ADTs)** — specifically, sum types.
 
 ### The Systems Engineering Motivation

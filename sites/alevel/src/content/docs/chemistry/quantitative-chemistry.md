@@ -1,6 +1,20 @@
 ---
 title: Quantitative Chemistry (Stoichiometry)
-description: ""s Constant
+description: "One mole of any substance contains exactly entities (atoms, molecules, ions, or  Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-21T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Quantitative Chemistry (Stoichiometry)
+
+## The Mole Concept
+
+### Avogadro"s Constant
 
 One mole of any substance contains exactly $N_A = 6.022 \times 10^{23}$ entities (atoms, molecules,
 ions, or formula units). This is the **Avogadro constant**.

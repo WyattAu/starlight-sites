@@ -3,7 +3,24 @@ title: Proof Techniques
 tags:
   - Computing
   - University
-description: ""}Z{}'}$ and $q, s \neq 0$. Then
+description: "To prove : assume Derive by a chain of logical deductions. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 3.1 Direct Proof
+
+To prove $P \implies Q$: assume $P$Derive $Q$ by a chain of logical deductions.
+
+**Example.** Prove: if $n$ is odd, then $n^2$ is odd.
+
+_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd.
+$\blacksquare$
+
+**Worked Example.** Prove: the sum of any two rational numbers is rational.
+
+<details>
+<summary>Solution</summary>
+
+Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{{"}Z{}'}$ and $q, s \neq 0$. Then
 
 $$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
 

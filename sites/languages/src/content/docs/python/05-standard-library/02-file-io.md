@@ -1,6 +1,36 @@
 ---
 title: File I/O
-description: ""rt'` (read, text) if no mode is specified.
+description: "is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## The `open()` Built-in
+
+`open()` is the primary interface for file I/O in Python. It returns a file object (an instance of
+`io.TextIOWrapper` for text mode or `io.BufferedReader`/`io.BufferedWriter` for binary mode) that
+Provides methods for reading, writing, and seeking.
+
+### Modes
+
+The mode string controls what operations are permitted and whether the file is interpreted as text
+Or binary data. Modes are composed from the following characters:
+
+| Character | Meaning                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------- |
+| `r`       | Read (default). File must exist; raises `FileNotFoundError` otherwise.                              |
+| `w`       | Write. Truncates the file to zero length if it exists; creates it otherwise. **Data loss on open.** |
+| `x`       | Exclusive creation. Creates the file; raises `FileExistsError` if it already exists.                |
+| `a`       | Append. Creates the file if it does not exist; writes always go to the end.                         |
+| `b`       | Binary mode. Data is `bytes`No encoding, no newline translation.                                    |
+| `t`       | Text mode (default). Data is `str`Encoding applied, newline translation.                            |
+| `+`       | Update. Allows both reading and writing (file is not truncated on open for `r+`).                   |
+
+The mode defaults to `"rt'` (read, text) if no mode is specified.
 
 Combination modes and their semantics:
 

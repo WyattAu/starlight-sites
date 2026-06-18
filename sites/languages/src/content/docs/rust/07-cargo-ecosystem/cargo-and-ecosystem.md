@@ -1,6 +1,17 @@
 ---
 title: Cargo and Ecosystem
-description: ""my_crate"
+description: "is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble"
+
+---
+
+## Cargo.toml Structure
+
+`Cargo.toml` is the manifest file that defines everything about your Rust project. It uses TOML
+Format:
+
+```toml
+[package]
+name = "my_crate"
 version = "0.1.0"
 edition = "2024"
 authors = ["Your Name <you@example.com>"]

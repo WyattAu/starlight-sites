@@ -1,6 +1,19 @@
 ---
 title: OWASP Top 10 (2021) Detailed
-description: ""/api/orders/<order_id>')
+description: "Broken access control is the most critical web application security risk. It occurs when users can Act outside their intended permissions."
+
+---
+
+## A01: Broken Access Control
+
+Broken access control is the most critical web application security risk. It occurs when users can
+Act outside their intended permissions.
+
+### IDOR (Insecure Direct Object Reference)
+
+```python
+# VULNERABLE: Any user can access any order by changing the ID
+@app.route("/api/orders/<order_id>')
 def get_order(order_id):
     order = db.query("SELECT * FROM orders WHERE id = %s", (order_id,))
     return jsonify(order)

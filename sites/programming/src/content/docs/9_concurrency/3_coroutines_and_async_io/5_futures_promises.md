@@ -1,6 +1,49 @@
 ---
 title: Futures, Promises, and Async Flows
-description: ""Ready immediately? "
+description: "This section covers launch policies, the Future/promise pair as a basic async primitive, composability limitations, async file reading, Parallel computation..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Futures, Promises, and Async Flows
+
+This section covers `std::future<T>``std::promise<T>``std::async` launch policies, the
+Future/promise pair as a basic async primitive, composability limitations, async file reading,
+Parallel computation with `std::async`Cancellation via `std::stop_token` integration, and Exception
+propagation through coroutines.
+
+## `std::future<T>` [N4950 §33.6.4]
+
+`std::future<T>` [N4950 §33.6.4] is a synchronization primitive that provides access to a result
+That will be available in the future. The caller can:
+
+- **Block** on the result with `get()`Which waits until the result is ready and then moves or copies
+  it.
+- **Wait** with `wait()`Which blocks until the result is ready.
+- **Poll** with `wait_for(duration)` or `wait_until(time_point)`Which return the readiness status
+  without blocking indefinitely.
+
+`std::future` is **move-only** — it cannot be copied. After `get()` is called, the future is
+Invalidated (subsequent calls to `get()` throw `std::future_error` with
+`std::future_errc::no_state`).
+
+```cpp
+#include <future>
+#include <iostream>
+#include <chrono>
+
+int main() {
+    std::future<int> f = std::async(std::launch::async, [] {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        return 42;
+    });
+
+    auto status = f.wait_for(std::chrono::milliseconds(0));
+    std::cout << "Ready immediately? "
               << (status == std::future_status::ready ? "yes" : "no") << "\n";
 
     int result = f.get();

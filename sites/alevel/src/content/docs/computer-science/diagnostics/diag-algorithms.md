@@ -1,6 +1,124 @@
 ---
 title: "Algorithms -- Diagnostic Tests"
-description: ""show all users with scores between X and Y"), which data structure would be most
+description: "A-Level Computer Science Algorithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Algorithms — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Big O Notation Analysis
+
+**Question:** Determine the time complexity (in Big O notation) of each code fragment:
+
+```python
+# Fragment A
+for i in range(n):
+    for j in range(n):
+        print(i, j)
+
+# Fragment B
+i = 1
+while i < n:
+    i = i * 2
+
+# Fragment C
+for i in range(n):
+    for j in range(i):
+        print(i, j)
+```
+
+**Solution:**
+
+Fragment A: The outer loop runs $n$ times. The inner loop runs $n$ times for each iteration of the
+outer loop. Total operations $= n \times n = n^2$. **Time complexity: $O(n^2)$.**
+
+Fragment B: $i$ starts at 1 and doubles each iteration: $1, 2, 4, 8, \ldots, 2^k$ where $2^k \lt n$.
+The loop runs $k$ times where $k = \lfloor \log_2 n \rfloor$. **Time complexity: $O(\log n)$.**
+
+Fragment C: The outer loop runs $n$ times ($i = 0, 1, \ldots, n-1$). The inner loop runs $i$ times
+for each value of $i$. Total iterations
+$= 0 + 1 + 2 + \ldots + (n-1) = \frac{n(n-1)}{2} = \frac{n^2}{2} - \frac{n}{2}$. Dropping constants
+and lower-order terms: **Time complexity: $O(n^2)$.**
+
+Note: Fragment C is approximately half the operations of Fragment A, but both are $O(n^2)$ -- Big O
+notation ignores constant factors.
+
+---
+
+### UT-2: Sorting Algorithm Comparison
+
+**Question:** An array contains the values: [38, 27, 43, 3, 9, 82, 10]. (a) Perform the first two
+passes of bubble sort (ascending), showing the array after each pass and each swap. (b) How many
+comparisons and swaps occur in the first pass? (c) State the best-case, average-case, and worst-case
+time complexity of bubble sort, merge sort, and quicksort.
+
+**Solution:**
+
+(a) **Bubble sort, pass 1:**
+
+Starting: [38, 27, 43, 3, 9, 82, 10]
+
+Compare 38, 27: swap $\to$ [27, 38, 43, 3, 9, 82, 10] Compare 38, 43: no swap $\to$ [27, 38, 43, 3,
+9, 82, 10] Compare 43, 3: swap $\to$ [27, 38, 3, 43, 9, 82, 10] Compare 43, 9: swap $\to$ [27, 38,
+3, 9, 43, 82, 10] Compare 43, 82: no swap $\to$ [27, 38, 3, 9, 43, 82, 10] Compare 82, 10: swap
+$\to$ [27, 38, 3, 9, 43, 10, 82]
+
+After pass 1: [27, 38, 3, 9, 43, 10, 82]. The largest element (82) has bubbled to the end.
+
+**Bubble sort, pass 2:**
+
+Compare 27, 38: no swap Compare 38, 3: swap $\to$ [27, 3, 38, 9, 43, 10, 82] Compare 38, 9: swap
+$\to$ [27, 3, 9, 38, 43, 10, 82] Compare 38, 43: no swap Compare 43, 10: swap $\to$ [27, 3, 9, 38,
+10, 43, 82]
+
+After pass 2: [27, 3, 9, 38, 10, 43, 82].
+
+(b) Pass 1: $n - 1 = 6$ comparisons. Swaps: 4 (38/27, 43/3, 43/9, 82/10).
+
+(c) Time complexity comparison:
+
+| Algorithm   | Best Case                                  | Average Case  | Worst Case           | Space       |
+| ----------- | ------------------------------------------ | ------------- | -------------------- | ----------- |
+| Bubble Sort | $O(n)$ (already sorted, with optimisation) | $O(n^2)$      | $O(n^2)$             | $O(1)$      |
+| Merge Sort  | $O(n \log n)$                              | $O(n \log n)$ | $O(n \log n)$        | $O(n)$      |
+| Quicksort   | $O(n \log n)$                              | $O(n \log n)$ | $O(n^2)$ (bad pivot) | $O(\log n)$ |
+
+---
+
+### UT-3: Binary Search Trace
+
+**Question:** The sorted array is: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Perform a binary search
+for the value 23. Show the values of `low``high``mid`And the comparison at each step. How many
+comparisons are needed? State the maximum number of comparisons for binary search on an array of
+size $n$.
+
+**Solution:**
+
+Array indices: 0 1 2 3 4 5 6 7 8 9 Values: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
+
+Step 1: low $= 0$High $= 9$. Mid $= (0 + 9) / 2 = 4$. A[4] $= 16$. $16 \lt 23$Search right half.
+
+Step 2: low $= 5$High $= 9$. Mid $= (5 + 9) / 2 = 7$. A[7] $= 56$. $56 \gt 23$Search left half.
+
+Step 3: low $= 5$High $= 6$. Mid $= (5 + 6) / 2 = 5$. A[5] $= 23$. $23 = 23$. Found!
+
+Total comparisons: 3.
+
+Maximum comparisons for binary search on array of size $n$: $\lceil \log_2 n \rceil + 1$ (or
+$\lfloor \log_2 n \rfloor + 1$ depending on the implementation). For $n = 10$:
+$\lceil \log_2 10 \rceil + 1 = 4 + 1 = 5$ maximum comparisons.
+
+## Integration Tests
+
+### IT-1: Algorithm Choice and Data Structure (with Data Structures)
+
+**Question:** A social media application needs to maintain a leaderboard of the top 100 scores from
+10 million users, updated in real-time. (a) Which sorting algorithm is most appropriate for
+maintaining this leaderboard? Justify your answer. (b) What data structure would you use to
+efficiently check if a given score is in the top 100? (c) If the application also needs to support
+range queries ("show all users with scores between X and Y"), which data structure would be most
 appropriate?
 
 **Solution:**

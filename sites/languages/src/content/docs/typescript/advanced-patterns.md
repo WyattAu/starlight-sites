@@ -1,6 +1,16 @@
 ---
 title: Advanced Patterns
-description: ""s checked type is a **naked type parameter** (a type parameter used
+description: "Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
+date: 2026-04-22T00:00:00.000Z
+tags: [TypeScript]
+categories: [TypeScript]
+---
+
+## Conditional Types: Deep Dive
+
+### Distributive Conditional Types
+
+When a conditional type"s checked type is a **naked type parameter** (a type parameter used
 Directly, not wrapped in another type), the conditional distributes over union members. This is the
 Most important rule governing conditional types.
 

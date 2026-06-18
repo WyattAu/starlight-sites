@@ -1,6 +1,32 @@
 ---
 title: Testing in Java
-description: ""Division by zero should throw ArithmeticException")
+description: "JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble"
+
+---
+
+## JUnit 5
+
+JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of three sub-projects:
+
+- **JUnit Platform** — the foundation for launching test frameworks on the JVM.
+- **JUnit Jupiter** — the programming model (annotations, assertions) and extension model.
+- **JUnit Vintage** — backward compatibility for running JUnit 3 and 4 tests.
+
+### Core Annotations
+
+```java
+import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+class CalculatorTest {
+
+    @Test
+    void addition() {
+        assertEquals(4, 2 + 2);
+    }
+
+    @Test
+    @DisplayName("Division by zero should throw ArithmeticException")
     void divisionByZero() {
         Exception exception = assertThrows(ArithmeticException.class, () -&gt; {
             int result = 1 / 0;

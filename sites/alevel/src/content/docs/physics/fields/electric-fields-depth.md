@@ -1,6 +1,16 @@
 ---
 title: Electric Fields
-description: ""s Law
+description: "The electrostatic force between two point charges and separated by Distance in v Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-23T00:00:00.000Z
+tags: [Physics, ALevel]
+categories: [Physics]
+
+---
+
+## Electric Fields
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
+## 1. Coulomb"s Law
 
 **Coulomb's Law.** The electrostatic force between two point charges $q_1$ and $q_2$ separated by
 Distance $r$ in vacuum is:

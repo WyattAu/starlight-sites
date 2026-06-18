@@ -1,6 +1,90 @@
 ---
 title: Chemical Bonding and Structure
-description: ""s law that links lattice energy to thermodynamic data
+description: "Rigorous IB chemistry notes covering Chemical Bonding and Structure. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
+date: 2024-01-01T00:00:00Z
+tags:
+  - Chemistry
+categories:
+  - ib
+---
+
+## Introduction
+
+### Why Atoms Bond
+
+Atoms interact to achieve lower potential energy. This is a stability argument. An isolated atom is
+A high-energy state; when atoms rearrange their electrons to form bonds, the resulting configuration
+Sits in an energy well. The depth of that well is the bond enthalpy.
+
+There are three broad categories of chemical bonding:
+
+| Bond Type | Mechanism                 | Typical Participants  | Directionality  |
+| --------- | ------------------------- | --------------------- | --------------- |
+| Ionic     | Electron transfer         | Metal + non-metal     | Non-directional |
+| Covalent  | Electron sharing          | Non-metal + non-metal | Directional     |
+| Metallic  | Delocalised electron pool | Metal atoms           | Non-directional |
+
+Beyond intramolecular bonds, **intermolecular forces** govern how molecules interact with each
+Other. These are weaker by one to two orders of magnitude but are critical for determining physical
+Properties such as melting point, boiling point, and solubility.
+
+**Definition.** The **bond enthalpy** is the average enthalpy change when one mole of a specified
+Type of bond is broken in the gaseous phase, measured in kJ/mol.
+
+---
+
+## Ionic Bonding
+
+### Mechanism
+
+Ionic bonding results from the electrostatic attraction between cations and anions formed by
+Complete electron transfer from a metal atom to a non-metal atom.
+
+The driving force is the attainment of noble gas electron configurations:
+
+$$
+\mathrm{Na}(s) \to \mathrm{Na}^+(g) + e^- \quad \Delta H_{\mathrm{at}}^\circ = +108\mathrm{ kJ/mol}
+$$
+
+$$
+\frac{1}{2}\mathrm{Cl}_2(g) \to \mathrm{Cl}(g) \quad \Delta H_{\mathrm{at}}^\circ = +122\mathrm{ kJ/mol}
+$$
+
+$$
+\mathrm{Cl}(g) + e^- \to \mathrm{Cl}^-(g) \quad \Delta H_{\mathrm{EA}} = -349\mathrm{ kJ/mol}
+$$
+
+$$
+\mathrm{Na}^+(g) + \mathrm{Cl}^-(g) \to \mathrm{NaCl}(s) \quad \Delta H_{\mathrm{LE}} = -787\mathrm{ kJ/mol}
+$$
+
+**Definition.** **Lattice energy** ($\Delta H_{\mathrm{LE}}$) is the enthalpy change when one mole
+Of an ionic solid is formed from its gaseous ions. It is always exothermic. A more negative lattice
+Energy indicates a stronger ionic bond.
+
+### Factors Affecting Lattice Energy
+
+The Born-Lande equation captures the key variables:
+
+$$
+\Delta H_{\mathrm{LE}} \propto -\frac{|z^+| \cdot |z^-|}{r_+ + r_-}
+$$
+
+| Factor            | Effect on Lattice Energy | Example                          |
+| ----------------- | ------------------------ | -------------------------------- |
+| Higher ion charge | More negative (stronger) | $\mathrm{MgO} \gt \mathrm{NaCl}$ |
+| Smaller ion radii | More negative (stronger) | $\mathrm{LiF} \gt \mathrm{NaF}$  |
+
+| Compound | z⁺  | z⁻  | r⁺ + r⁻ (pm) | Lattice Energy (kJ/mol) |
+| -------- | --- | --- | ------------ | ----------------------- |
+| NaCl     | +1  | -1  | 276          | -787                    |
+| MgO      | +2  | -2  | 210          | -3795                   |
+| LiF      | +1  | -1  | 201          | -1036                   |
+| CaO      | +2  | -2  | 241          | -3414                   |
+
+### The Born-Haber Cycle
+
+The Born-Haber cycle is an application of Hess"s law that links lattice energy to thermodynamic data
 You can measure experimentally.
 
 **Definition.** The **Born-Haber cycle** is a thermochemical cycle that decomposes the formation of

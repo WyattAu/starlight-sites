@@ -1,6 +1,84 @@
 ---
 title: Carbon Cycle and Sequestration
-description: ""Great Green Wall"), increasing
+description: "The carbon cycle describes the continuous exchange of carbon between Earth''s atmosphere, biosphere, Hydrosphere, lithosphere, and anthroposphere. Carbon..."
+
+---
+
+# Carbon Cycle and Sequestration
+
+## The Carbon Cycle
+
+### Overview
+
+The carbon cycle describes the continuous exchange of carbon between Earth's atmosphere, biosphere,
+Hydrosphere, lithosphere, and anthroposphere. Carbon exists in several forms: carbon dioxide
+($\mathrm{CO_2}$), methane ($\mathrm{CH_4}$), organic carbon (in living and dead organisms),
+Inorganic carbon (carbonate rocks, dissolved inorganic carbon in the ocean), and fossil carbon
+(coal, oil, natural gas).
+
+### Natural Carbon Fluxes
+
+| Flux                                            | Magnitude (GtC/year)             | Description                                                                                                                                                             |
+| ----------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Gross primary productivity (photosynthesis)** | Approximately 120                | Plants absorb $\mathrm{CO_2}$ from the atmosphere and convert it to organic carbon                                                                                      |
+| **Respiration and decomposition**               | Approximately 120                | Plants, animals, and decomposers release $\mathrm{CO_2}$ through cellular respiration and decomposition of organic matter                                               |
+| **Ocean-atmosphere exchange**                   | Net approximately 2 (absorption) | The ocean absorbs approximately 92 GtC/year and releases approximately 90 GtC/year; net absorption of approximately 2 GtC/year                                          |
+| **Volcanic outgassing**                         | Approximately 0.1                | Release of $\mathrm{CO_2}$ from volcanic activity and mid-ocean ridges                                                                                                  |
+| **Weathering**                                  | Approximately 0.3                | Chemical weathering of silicate rocks absorbs $\mathrm{CO_2}$Converting it to bicarbonate ions transported to the ocean and eventually deposited as carbonate sediments |
+
+### Anthropogenic Carbon Fluxes
+
+| Source                                              | Magnitude (GtC/year, 2023) | Proportion of Total |
+| --------------------------------------------------- | -------------------------- | ------------------- |
+| **Fossil fuel combustion and industrial processes** | Approximately 10.8         | Approximately 89%   |
+| **Land-use change (deforestation, agriculture)**    | Approximately 1.3          | Approximately 11%   |
+| **Total anthropogenic emissions**                   | Approximately 12.1         | 100%                |
+
+### Carbon Sinks
+
+Carbon sinks are reservoirs that absorb more carbon than they release. The three major natural
+Carbon sinks are:
+
+1. **The ocean.** The ocean absorbs approximately 26% of anthropogenic $\mathrm{CO_2}$ emissions,
+   through dissolution at the surface and subsequent transport to deep water via the thermohaline
+   circulation and the biological pump (phytoplankton fix carbon through photosynthesis; when they
+   die, organic carbon sinks to the deep ocean). However, ocean absorption causes acidification,
+   which impairs the ability of calcifying organisms to build shells and skeletons.
+
+2. **The terrestrial biosphere (land).** The terrestrial biosphere absorbs approximately 29% of
+   anthropogenic $\mathrm{CO_2}$ emissions, through increased plant growth (the $\mathrm{CO_2}$
+   fertilisation effect), forest regrowth on abandoned agricultural land, and afforestation.
+   However, this sink is vulnerable to climate change: warming increases respiration (releasing
+   $\mathrm{CO_2}$), drought reduces plant growth, and wildfires release stored carbon.
+
+3. **Geological storage.** Over geological timescales (millions of years), carbon is removed from
+   the active carbon cycle through the formation of carbonate sediments (limestone, chalk) and
+   fossil fuels (coal, oil, natural gas). This sink operates too slowly to be relevant to human
+   timescales.
+
+**The remaining approximately 45% of anthropogenic $\mathrm{CO_2}$** accumulates in the atmosphere,
+Increasing atmospheric $\mathrm{CO_2}$ concentration by approximately 2.5 ppm per year.
+
+## Carbon Sequestration
+
+Carbon sequestration is the process of removing $\mathrm{CO_2}$ from the atmosphere and storing it
+In a stable form. Sequestration methods are classified as natural or technological.
+
+### Natural Sequestration
+
+**Afforestation and reforestation.** Planting trees on previously non-forested land (afforestation)
+Or replanting trees on deforested land (reforestation) removes $\mathrm{CO_2}$ from the atmosphere
+Through photosynthesis and stores it as biomass and soil organic carbon.
+
+- **Capacity:** a hectare of tropical forest can sequester approximately 5--10 tonnes of carbon per
+  year during the growth phase. Global afforestation and reforestation could potentially sequester
+  approximately 5--10 GtC per year, though land availability, opportunity costs (agricultural land),
+  and climate impacts (warming may reduce forest carbon uptake) constrain the potential.
+- **Limitations:** carbon stored in forests is not permanent -- it can be released by wildfires,
+  pest outbreaks, drought, or future deforestation. The permanence of forest carbon sinks is
+  therefore uncertain over long timescales.
+- **Case study: China's afforestation programme.** China has planted approximately 80 billion trees
+  since 1978 under the Three-North Shelter Forest Programme (the "Great Green Wall"), increasing
   forest cover from approximately 12% to approximately 23% of land area. However, many planted
   forests are monocultures of fast-growing species (poplar, pine) with lower biodiversity and carbon
   storage capacity than natural forests, and survival rates are low in arid areas (approximately 15%

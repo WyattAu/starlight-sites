@@ -1,6 +1,23 @@
 ---
 title: Social Identity Theory
-description: ""s unique characteristics, traits, abilities, and personal
+description: "Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It..."
+
+---
+
+## Introduction
+
+Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the
+Most influential theories in social psychology. It explains how individuals derive part of their
+Self-concept from their membership in social groups, and how this social identity drives intergroup
+Behaviour, including prejudice, discrimination, and cooperation.
+
+## Core Concepts of Social Identity Theory
+
+### Personal Identity versus Social Identity
+
+Tajfel and Turner distinguished between two levels of identity:
+
+- **Personal identity:** The individual"s unique characteristics, traits, abilities, and personal
   attributes. This is the sense of self that distinguishes the individual from all other
   individuals.
 - **Social identity:** The individual's sense of who they are based on their group membership(s).

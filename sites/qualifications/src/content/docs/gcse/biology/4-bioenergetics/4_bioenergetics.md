@@ -1,6 +1,258 @@
 ---
 title: Bioenergetics
-description: ""breathing." Respiration is a
+description: "Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen."
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-biology
+categories:
+  - gcse-biology
+
+---
+
+## Bioenergetics
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B2 & B3 | WJEC B2
+## 1. Photosynthesis
+
+### 1.1 The Equation
+
+Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water
+Into glucose and oxygen.
+
+$$6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \xrightarrow{\mathrm{light energy} \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2$$
+
+Photosynthesis is an **endothermic** reaction -- it absorbs energy from the environment (in the form
+Of light). This energy is stored in the chemical bonds of glucose, which can later be released
+Through respiration.
+
+**Why this reaction matters.** Photosynthesis is the primary source of energy for nearly all life on
+Earth. It produces the oxygen in the atmosphere (essential for aerobic respiration) and fixes carbon
+From $\mathrm{CO_2$ into organic molecules that form the base of all food chains. Without
+Photosynthesis, there would be no food, no oxygen, and no complex life.
+
+**Balancing the equation.** To check that the equation is balanced, count the atoms on each side:
+
+| Atom         | Left side  | Right side |
+| ------------ | ---------- | ---------- |
+| Carbon (C)   | 6          | 6          |
+| Hydrogen (H) | 12         | 12         |
+| Oxygen (O)   | 6 + 6 = 12 | 6 + 6 = 12 |
+
+Both sides have the same number of each type of atom, so the equation is balanced.
+
+### 1.2 Where Photosynthesis Occurs
+
+Photosynthesis takes place in the **chloroplasts**, which contain the green pigment **chlorophyll**
+That absorbs light energy (mainly red and blue wavelengths; green light is reflected, which is why
+Plants appear green).
+
+**Adaptations of the leaf for photosynthesis:**
+
+| Adaptation                          | Function                                                 |
+| ----------------------------------- | -------------------------------------------------------- |
+| Large surface area                  | Maximises light absorption                               |
+| Thin                                | Short diffusion distance for gases                       |
+| Chlorophyll in chloroplasts         | Absorbs light energy                                     |
+| Stomata (pores on the underside)    | Allow $\mathrm{CO_2$ to enter and $\mathrm{O_2$ to leave |
+| Palisade mesophyll (near the top)   | Packed with chloroplasts for maximum light absorption    |
+| Spongy mesophyll (near the bottom)  | Air spaces allow gas circulation                         |
+| Waxy cuticle                        | Reduces water loss by evaporation                        |
+| Network of veins (xylem and phloem) | Xylem brings water; phloem removes products              |
+
+**Stomata and gas exchange.** Stomata are pores on the underside of the leaf, surrounded by guard
+Cells that can open and close them. When guard cells are turgid (full of water), the stomata are
+Open, allowing $\mathrm{CO_2$ to enter for photosynthesis. When guard cells are flaccid (water has
+Been lost), the stomata close, reducing water loss. This is a trade-off: open stomata allow
+Photosynthesis but also allow water to evaporate (transpiration).
+
+### 1.3 Factors Affecting the Rate of Photosynthesis
+
+| Factor                       | Effect                                       | Reason                                                           |
+| ---------------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
+| Light intensity              | Rate increases, then plateaus                | More light = more energy, but other factors become limiting      |
+| $\mathrm{CO_2$ concentration | Rate increases, then plateaus                | $\mathrm{CO_2$ is a raw material; limited supply limits the rate |
+| Temperature                  | Rate increases up to optimum, then decreases | Enzymes work faster; too hot and they denature                   |
+
+**Limiting factors:** The factor that is in shortest supply limits the rate of photosynthesis. At
+Any given time, only ONE factor is limiting. This is known as the **law of limiting factors**
+(Blackman, 1905).
+
+**Understanding the graphs.** A graph of photosynthesis rate against any single factor shows the
+Same characteristic shape: the rate increases linearly at first (because the factor being increased
+Is the limiting factor), then levels off (because a different factor has become limiting). This
+Plateau tells you that increasing the original factor further will have no effect until the new
+Limiting factor is also increased.
+
+**Worked Example: Interpreting a limiting factor graph.**
+
+A graph shows the effect of light intensity on the rate of photosynthesis at two different
+$\mathrm{CO_2$ concentrations (low and high). Both curves show the rate increasing with light
+Intensity and then levelling off. However, the high $\mathrm{CO_2$ curve levels off at a higher
+rate.
+
+Step-by-step interpretation:
+
+1. At low light intensity, both curves rise steeply. Light is the limiting factor. Increasing light
+   increases the rate.
+2. At moderate light intensity, the low $\mathrm{CO_2$ curve begins to level off while the high
+   $\mathrm{CO_2$ curve is still rising. This means that at this point, $\mathrm{CO_2$ is limiting
+   for the low $\mathrm{CO_2$ treatment, but light is still limiting for the high $\mathrm{CO_2$
+   treatment.
+3. At high light intensity, both curves have levelled off. Neither is limited by light anymore. The
+   low $\mathrm{CO_2$ curve is limited by $\mathrm{CO_2$ concentration; the high $\mathrm{CO_2$
+   curve may be limited by temperature.
+4. The high $\mathrm{CO_2$ curve reaches a higher maximum rate, showing that increasing
+   $\mathrm{CO_2$ concentration raises the maximum possible rate of photosynthesis.
+
+### 1.4 Required Practical: Investigating Photosynthesis
+
+**Using pondweed (Elodea):**
+
+1. Set up a lamp at a specific distance from a beaker containing pondweed in water.
+2. Ensure the pondweed is submerged and the cut end is facing upwards (so oxygen bubbles rise
+   straight up and can be counted).
+3. Leave the apparatus for 5 minutes to acclimatise.
+4. Count the number of oxygen bubbles produced per minute (or measure the volume of oxygen collected
+   using a gas syringe or inverted measuring cylinder).
+5. Repeat at different distances from the lamp (different light intensities).
+6. Plot a graph of rate of photosynthesis against light intensity.
+
+**Expected graph:**
+
+- At low light intensity: rate increases linearly (light is the limiting factor).
+- At higher light intensity: rate levels off ($\mathrm{CO_2$ or temperature is now the limiting
+  factor).
+
+**Controls:**
+
+- Use sodium hydrogencarbonate solution to ensure a constant $\mathrm{CO_2$ concentration (it
+  provides dissolved $\mathrm{CO_2$).
+- Keep temperature constant (use a water bath if necessary).
+- Use the same piece of pondweed and the same volume of water throughout.
+
+**Variables:**
+
+- **Independent variable:** light intensity (distance from lamp, or use a light meter to measure
+  lux).
+- **Dependent variable:** rate of oxygen production (bubbles per minute or volume per minute).
+- **Control variables:** temperature, $\mathrm{CO_2$ concentration, volume of water, piece of
+  pondweed.
+
+**Worked Example: Calculating light intensity.**
+
+Light intensity follows an inverse square law: intensity $\propto 1/d^2$Where $d$ is the distance
+From the lamp.
+
+If the lamp is 10 cm from the pondweed and produces 100 bubbles per minute, what rate would you
+Expect at 20 cm?
+
+At 20 cm, the distance is doubled, so the light intensity decreases by a factor of $2^2 = 4$. The
+Rate should decrease by a factor of 4: $100 / 4 = 25$ bubbles per minute (assuming light is still
+The limiting factor).
+
+### 1.5 Uses of Glucose from Photosynthesis
+
+Plants use the glucose produced by photosynthesis for:
+
+| Use                | Description                                                     |
+| ------------------ | --------------------------------------------------------------- |
+| Respiration        | Releases energy for cellular processes                          |
+| Making cellulose   | For cell walls (strengthens plant structure)                    |
+| Making amino acids | Combined with nitrate ions from the soil; used to make proteins |
+| Stored as starch   | Insoluble storage carbohydrate; does not affect water potential |
+| Stored as lipids   | In seeds; for energy storage (oils in seeds are energy-dense)   |
+
+**Why plants store starch rather than glucose.** Starch is insoluble, so it does not dissolve in the
+Cell sap and does not affect the water potential of the cell. If plants stored glucose (which is
+Soluble), water would enter the cells by osmosis, potentially causing them to swell and burst.
+Starch is also a more compact energy store than glucose because it is a polymer (many glucose
+Molecules joined together in a small space).
+
+**Worked Example: Why nitrate ions are needed.**
+
+A farmer notices that a crop of wheat has pale leaves and stunted growth. The soil is deficient in
+Nitrate ions.
+
+Without nitrate ions, the plant cannot make amino acids (amino acids contain nitrogen, which comes
+From nitrates). Without amino acids, the plant cannot make proteins. Proteins are needed for growth
+(new cells require proteins for their structure and enzymes), so the plant cannot grow properly. The
+Pale leaves are because the plant cannot make enough chlorophyll (chlorophyll contains nitrogen in
+Its structure), reducing the rate of photosynthesis.
+
+### 1.6 Higher Tier: Limiting Factors and Greenhouse Management
+
+Commercial greenhouse operators manipulate limiting factors to maximise crop yield:
+
+- **Light:** Artificial lighting extends the hours of photosynthesis during winter months.
+- **$\mathrm{CO_2$:** Burning propane heaters or adding $\mathrm{CO_2$ gas directly increases the
+  $\mathrm{CO_2$ concentration beyond atmospheric levels ( 0.04%). Greenhouse $\mathrm{CO_2$ levels
+  can be raised to 0.1% or higher.
+- **Temperature:** Heating systems maintain the optimum temperature year-round.
+
+**The economic argument.** The cost of providing additional light, $\mathrm{CO_2$And heat must be
+Weighed against the value of the increased crop yield. There is a point of diminishing returns where
+The cost of increasing a factor exceeds the value of the additional growth.
+
+**Worked Example: Evaluating greenhouse management decisions.**
+
+A tomato grower is considering adding $\mathrm{CO_2$ enrichment to their greenhouse. The current
+Yield is 10 kg per plant per year. Adding $\mathrm{CO_2$ enrichment is expected to increase the
+yield To 15 kg per plant per year (a 50% increase). The cost of the $\mathrm{CO_2$ enrichment system
+is 2000 pounds per year. The tomatoes sell for 2 pounds per kg.
+
+Current revenue per plant: $10 \times 2 = 20$ pounds.
+
+Revenue with $\mathrm{CO_2$ enrichment: $15 \times 2 = 30$ pounds.
+
+Additional revenue per plant: 10 pounds.
+
+If the greenhouse has 500 plants, the additional revenue is $500 \times 10 = 5000$ pounds per year.
+Since the cost is 2000 pounds per year, the net gain is $5000 - 2000 = 3000$ pounds per year. The
+Investment is worthwhile.
+
+### 1.7 Higher Tier: The Light-Dependent and Light-Independent Reactions
+
+Photosynthesis occurs in two stages:
+
+**Light-dependent reactions (in the thylakoid membranes):**
+
+- Chlorophyll absorbs light energy.
+- Water is split by photolysis: $2\mathrm{H_2\mathrm{O \to 4\mathrm{H^+ + 4e^- + \mathrm{O_2$.
+- Light energy is used to produce ATP and reduced NADP (NADPH).
+
+**Light-independent reactions (Calvin cycle, in the stroma):**
+
+- $\mathrm{CO_2$ is fixed by combining with a 5-carbon compound called RuBP.
+- ATP and NADPH from the light-dependent reactions provide energy to convert the products into
+  glucose.
+- RuBP is regenerated so the cycle can continue.
+
+The two stages are linked: the light-dependent reactions produce the ATP and NADPH that the Calvin
+Cycle needs. Without light, the light-dependent reactions stop, and the Calvin cycle gradually runs
+Out of ATP and NADPH.
+
+**Summary table: comparing the two stages of photosynthesis.**
+
+| Feature             | Light-Dependent Reactions | Light-Independent Reactions    |
+| ------------------- | ------------------------- | ------------------------------ |
+| Location            | Thylakoid membranes       | Stroma                         |
+| Does it need light? | Yes, directly             | No (but needs products of LDR) |
+| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ATP, NADPH       |
+| Outputs             | Oxygen, ATP, NADPH        | Glucose, ADP, NADP+            |
+| Key process         | Photolysis of water       | Carbon fixation by RuBisCO     |
+
+## 2. Respiration
+
+### 2.1 Aerobic Respiration
+
+Aerobic respiration uses oxygen to break down glucose, releasing a large amount of energy.
+
+$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O \quad \mathrm{(energy released)$$
+
+Aerobic respiration occurs in the **mitochondria**. It is an **exothermic** reaction.
+
+**A common misconception.** Many students think that respiration is "breathing." Respiration is a
 Chemical process that occurs inside cells; breathing (ventilation) is the physical process of moving
 Air in and out of the lungs. Breathing supplies the oxygen needed for respiration and removes the
 $\mathrm{CO_2$ produced, but it is not respiration itself.

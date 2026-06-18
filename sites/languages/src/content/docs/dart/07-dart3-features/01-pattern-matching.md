@@ -1,6 +1,36 @@
 ---
 title: Pattern Matching
-description: ""var x'
+description: "Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+## Pattern Matching Overview
+
+Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A
+Pattern is a syntactic construct that describes the **shape** of a value — its type, its structure,
+And the relationships between its parts. When a value is tested against a pattern, the compiler
+Either matches (the value conforms) or refutes (the value does not conform).
+
+This is not a new concept in language design. Rust has had irrefutable pattern matching since 1.0,
+Haskell has had pattern matching since its inception, and Scala has had extractors for over a
+Decade. What Dart 3 brings is a unified pattern system that works across switch statements, if-case
+Expressions, for-in loops, variable declarations, and catch clauses.
+
+### Refutable vs Irrefutable Patterns
+
+This distinction is foundational. Get this wrong and you will write code that crashes at runtime.
+
+**Irrefutable patterns** always match any value of the given type. The compiler enforces that the
+Value can never fail to match. These are allowed anywhere a pattern is accepted — variable
+Declarations, for-in loops, and function parameters.
+
+```dart
+// Irrefutable: any int matches "var x'
 var x = 42;
 
 // Irrefutable: any int matches 'int y'

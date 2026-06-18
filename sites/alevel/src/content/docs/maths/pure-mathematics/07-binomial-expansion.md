@@ -1,6 +1,31 @@
 ---
 title: Binomial Expansion
-description: ""s Triangle
+description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------------------------------- | | AQA | Paper 1, 2 | Binomial..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper      | Notes                                                            |
+| ---------- | ---------- | ---------------------------------------------------------------- |
+| AQA        | Paper 1, 2 | Binomial theorem for positive integer $n$; P2: general expansion |
+| Edexcel    | P1, P2     | P1: positive integer; P2: negative/fractional                    |
+| OCR (A)    | Paper 1, 2 | Similar split                                                    |
+| CIE (9709) | P1, P3     | P1: positive integer; P3: general                                |
+
+:::info AQA provides the binomial expansion formula in the formula booklet. Edexcel does not —
+Memorise it.
+:::
+
+<hr />
+
+## 1. Pascal"s Triangle
 
 Pascal's triangle displays the binomial coefficients for successive powers of $(a + b)^n$:
 

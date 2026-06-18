@@ -5,7 +5,50 @@ tags:
   - Go
 categories:
   - Go
-description: ""myproject/internal/database"
+description: "Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble"
+---
+
+## Standard Go Project Layout
+
+Go does not mandate a project layout, but community conventions have emerged. The most common
+structure:
+
+```
+myproject/
+  go.mod
+  go.sum
+  cmd/
+    myapp/
+      main.go
+  internal/
+    auth/
+      auth.go
+    database/
+      db.go
+  pkg/
+    middleware/
+      auth.go
+      logging.go
+  api/
+    openapi.yaml
+  configs/
+    config.yaml
+  scripts/
+    migrate.sh
+  go.mod
+  go.sum
+  README.md
+```
+
+### cmd/
+
+The `cmd/` directory contains executable entry points. Each subdirectory represents one binary:
+
+```go
+// cmd/myapp/main.go
+package main
+
+import "myproject/internal/database"
 
 func main() {
     db := database.New()

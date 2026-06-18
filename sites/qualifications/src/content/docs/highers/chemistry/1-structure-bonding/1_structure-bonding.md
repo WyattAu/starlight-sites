@@ -1,6 +1,69 @@
 ---
 title: Chemical Reactions and Bonding
-description: ""sea" of delocalised electrons.
+description: "Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+date: 2026-04-14
+tags:
+  - highers
+  - highers-chemistry
+categories:
+  - highers-chemistry
+
+---
+
+# Chemical Reactions and Bonding
+
+## Higher Chemical Bonding
+
+### Types of Bonding
+
+**Ionic Bonding:**
+
+The electrostatic attraction between oppositely charged ions formed by electron transfer. Occurs
+between metals (Groups 1, 2) and non-metals (Groups 6, 7).
+
+**Properties of ionic compounds:**
+
+- High melting and boiling points (strong electrostatic forces)
+- Conduct electricity when molten or dissolved (ions are free to move)
+- Brittle (repulsion between like charges when layers shift)
+- Soluble in polar solvents like water
+
+**Example:** Formation of magnesium oxide.
+
+$$\mathrm{Mg \to \mathrm{Mg^{2+} + 2e^-$$ $$\mathrm{O + 2e^- \to \mathrm{O^{2-}$$
+
+$$\mathrm{Mg(s) + \tfrac{1}{2}\mathrm{O_2\mathrm{(g) \to \mathrm{MgO(s)$$
+
+**Worked Example 1:** Draw a dot-and-cross diagram for calcium fluoride, $\mathrm{CaF_2$.
+
+Calcium ($Z = 20$) has electron configuration $2, 8, 8, 2$. It loses two electrons to form
+$\mathrm{Ca^{2+}$ ($2, 8, 8$). Each fluorine ($Z = 9$) has electron configuration $2, 7$ and gains
+One electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
+Transferred from calcium (crosses) to one electron each accepted by two fluorine atoms (dots). The
+Resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
+In a giant ionic lattice.
+
+**Covalent Bonding:**
+
+A shared pair of electrons between two atoms. Covalent bonds can be single, double, or triple.
+
+**Properties of covalent substances:**
+
+- Simple molecular: low melting points, do not conduct electricity (e.g., $\mathrm{H_2\mathrm{O$
+  $\mathrm{CO_2$)
+- Giant covalent (macromolecular): very high melting points (e.g., diamond, graphite, silicon
+  dioxide)
+
+**Worked Example 2:** Draw a dot-and-cross diagram for $\mathrm{H_2\mathrm{S$.
+
+Sulfur ($Z = 16$) has electron configuration $2, 8, 6$. It needs two electrons to complete its outer
+Shell. Each hydrogen ($Z = 1$) contributes one electron. Two single covalent bonds form, each
+Consisting of one shared pair. The shape predicted by VSEPR is bent (two bonding pairs and two lone
+Pairs on sulfur).
+
+**Metallic Bonding:**
+
+Positive metal ions in a "sea" of delocalised electrons.
 
 **Properties of metals:**
 

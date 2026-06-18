@@ -1,6 +1,42 @@
 ---
 title: Type Erasure — Function Pointers, std::function, std::move_only_function
-description: ""ops[%d](3, 4) = %d\n", i, ops[i](3, 4));
+description: "Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface. This section covers the progression from raw function..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Type Erasure: Function Pointers, std::function, std::move_only_function
+
+Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface.
+This section covers the progression from raw function pointers to `std::function` and the C++23
+`std::move_only_function`.
+
+## 4.1 Function Pointers
+
+A function pointer is the most primitive type-erased callable. It stores the address of a free
+Function or a `static` member function. It has zero overhead beyond the pointer indirection itself.
+
+```cpp
+#include <cstdio>
+#include <cstdint>
+
+int add(int a, int b) { return a + b; }
+int mul(int a, int b) { return a * b; }
+
+using BinOp = int(*)(int, int);
+
+int compute(BinOp op, int x, int y) {
+    return op(x, y);
+}
+
+int main() {
+    BinOp ops[2] = {add, mul};
+    for (int i = 0; i < 2; ++i) {
+        std::printf("ops[%d](3, 4) = %d\n", i, ops[i](3, 4));
     }
     // ops[0](3, 4) = 7
     // ops[1](3, 4) = 12

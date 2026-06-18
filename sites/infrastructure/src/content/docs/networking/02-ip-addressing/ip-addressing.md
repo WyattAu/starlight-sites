@@ -1,6 +1,34 @@
 ---
 title: IP Addressing
-description: ""s Internet, where every smartphone, server, VM, and
+description: "IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in..."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+IP addressing is the mechanism by which hosts are identified and located on an IP network. Every
+Networked device must have an IP address to participate in IP communication. This section covers
+IPv4 and IPv6 addressing, subnetting, NAT, DHCP, and ARP -- the foundational addressing
+Infrastructure of the Internet.
+
+## IPv4 Address Structure
+
+An IPv4 address is a **32-bit** number, represented in **dotted decimal notation** as four Octets
+separated by periods. Each octet represents 8 bits and ranges from 0 to 255.
+
+```
+192.168.1.100
+
+Binary:  11000000.10101000.00000001.01100100
+Octets:  [  192  ].[  168  ].[   1  ].[ 100  ]
+Bits:    [31    24][23    16][15     8][7      0]
+```
+
+The total IPv4 address space is $2^{32} = 4,294,967,296$ addresses. This was considered sufficient
+In the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
 Container needs an address.
 
 ### Binary Representation

@@ -1,6 +1,90 @@
 ---
 title: "Momentum -- Diagnostic Tests"
-description: "" = ev = 0.80 \times 6.264 = 5.012\,\text{m}\,\text{s}^{-1}$
+description: "A-Level Physics Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
+tableOfContents: false
+---
+
+# Momentum — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Two-Dimensional Collision
+
+**Question:**
+
+Particle $A$ of mass $2.0\,\text{kg}$ moves with velocity
+$(4.0\hat{i} + 3.0\hat{j})\,\text{m}\,\text{s}^{-1}$ on a smooth horizontal surface. It collides
+with stationary particle $B$ of mass $3.0\,\text{kg}$. After the collision, $A$ moves with velocity
+$(-1.0\hat{i} + 4.0\hat{j})\,\text{m}\,\text{s}^{-1}$.
+
+(a) Calculate the velocity of $B$ after the collision.
+
+(b) Determine whether the collision is elastic.
+
+(c) Calculate the impulse exerted on $A$ during the collision.
+
+**Solution:**
+
+(a) By conservation of momentum (vector form):
+
+$$m_A\mathbf{u}_A + m_B\mathbf{u}_B = m_A\mathbf{v}_A + m_B\mathbf{v}_B$$
+
+$$2.0(4.0\hat{i} + 3.0\hat{j}) + 0 = 2.0(-1.0\hat{i} + 4.0\hat{j}) + 3.0\mathbf{v}_B$$
+$$(8.0\hat{i} + 6.0\hat{j}) = (-2.0\hat{i} + 8.0\hat{j}) + 3.0\mathbf{v}_B$$
+$$3.0\mathbf{v}_B = 10.0\hat{i} - 2.0\hat{j}$$
+$$\mathbf{v}_B = (3.33\hat{i} - 0.667\hat{j})\,\text{m}\,\text{s}^{-1}$$
+
+(b) Check kinetic energy:
+
+Before: $E_k = \frac{1}{2}(2.0)(4^2 + 3^2) = 1.0 \times 25 = 25\,\text{J}$
+
+After:
+$E_k = \frac{1}{2}(2.0)(1 + 16) + \frac{1}{2}(3.0)(11.11 + 0.444) = 17 + \frac{1}{2}(3.0)(11.56) = 17 + 17.33 = 34.3\,\text{J}$
+
+Verifying the kinetic energies:
+
+$|\mathbf{v}_B|^2 = (10/3)^2 + (-2/3)^2 = 100/9 + 4/9 = 104/9 = 11.56$
+
+$E_{kA} = \frac{1}{2}(2.0)(1 + 16) = 17\,\text{J}$
+
+$E_{kB} = \frac{1}{2}(3.0)(11.56) = 17.33\,\text{J}$
+
+Total after $= 34.33\,\text{J}$Total before $= 25\,\text{J}$.
+
+Since $34.33 \ne 25$The collision is **not elastic** (kinetic energy is not conserved). KE has
+increased by $9.33\,\text{J}$Making this a **superelastic** collision -- energy was released from an
+internal store (e.g. An explosion).
+
+(c) Impulse on $A$ $= \Delta\mathbf{p}_A = m_A(\mathbf{v}_A - \mathbf{u}_A)$
+
+$$= 2.0[(-1 - 4)\hat{i} + (4 - 3)\hat{j}] = 2.0(-5\hat{i} + 1\hat{j}) = (-10\hat{i} + 2\hat{j})\,\text{N}\,\text{s}$$
+
+Magnitude $= \sqrt{100 + 4} = \sqrt{104} = 10.2\,\text{N}\,\text{s}$
+
+---
+
+### UT-2: Coefficient of Restitution and Multiple Collisions
+
+**Question:**
+
+A ball of mass $0.15\,\text{kg}$ is dropped from a height of $2.0\,\text{m}$ onto a horizontal
+floor. The coefficient of restitution between the ball and the floor is $e = 0.80$.
+
+(a) Calculate the height reached after the first bounce.
+
+(b) Calculate the total time from release until the ball comes to rest. (The ball undergoes
+infinitely many bounces.)
+
+(c) Calculate the total distance travelled by the ball.
+
+Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
+
+**Solution:**
+
+(a) Speed just before first impact:
+$v = \sqrt{2gh} = \sqrt◆LB◆2 \times 9.81 \times 2.0◆RB◆ = \sqrt{39.24} = 6.264\,\text{m}\,\text{s}^{-1}$
+
+Speed after first bounce: $v" = ev = 0.80 \times 6.264 = 5.012\,\text{m}\,\text{s}^{-1}$
 
 Height after first bounce: $h' = v'^2/(2g) = 25.12/19.62 = 1.280\,\text{m}$
 

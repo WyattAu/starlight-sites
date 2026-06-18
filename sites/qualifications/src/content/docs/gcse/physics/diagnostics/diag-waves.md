@@ -1,6 +1,114 @@
 ---
 title: "Waves -- Diagnostic Tests"
-description: ""s magnetic
+description: "(a) Define the terms: amplitude, wavelength, frequency, and period. State the relationship between frequency, wavelength, and wave speed. (b) A wave has a..."
+tableOfContents: false
+---
+
+# Waves — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Wave Properties and Calculations
+
+**Question:** (a) Define the terms: amplitude, wavelength, frequency, and period. State the
+relationship between frequency, wavelength, and wave speed. (b) A wave has a frequency of 250 Hz and
+a wavelength of 1.5 m. Calculate the wave speed. (c) A sound wave in air has a speed of 340 m/s and
+a frequency of 440 Hz. Calculate the wavelength. (d) Explain the difference between transverse and
+longitudinal waves, giving an example of each.
+
+**Solution:**
+
+(a) **Amplitude:** The maximum displacement from the equilibrium (rest) position. **Wavelength:**
+The distance between two consecutive identical points on a wave (e.g., crest to crest).
+**Frequency:** The number of complete waves passing a point per second, measured in hertz (Hz).
+**Period:** The time taken for one complete wave cycle, measured in seconds. $T = 1/f$.
+
+Relationship: $v = f\lambda$ (wave speed $=$ frequency $\times$ wavelength).
+
+(b) $v = f\lambda = 250 \times 1.5 = 375$ m/s.
+
+(c) $\lambda = v/f = 340/440 = 0.773$ m.
+
+(d) **Transverse waves:** The oscillations are perpendicular to the direction of wave propagation.
+Examples: light, water waves, electromagnetic waves.
+
+**Longitudinal waves:** The oscillations are parallel to the direction of wave propagation. They
+consist of compressions (high pressure) and rarefactions (low pressure). Example: sound waves.
+
+### UT-2: The Electromagnetic Spectrum
+
+**Question:** (a) List the parts of the electromagnetic spectrum in order of increasing wavelength.
+(b) Which type of electromagnetic radiation has: (i) the highest frequency, (ii) the most energy per
+photon, (iii) the longest wavelength? (c) Explain why ultraviolet radiation can cause sunburn but
+visible light cannot. (d) State one use and one hazard for: X-rays, microwaves, and infrared
+radiation.
+
+**Solution:**
+
+(a) In order of increasing wavelength (decreasing frequency): gamma rays, X-rays, ultraviolet,
+visible light, infrared, microwaves, radio waves.
+
+(b) (i) Gamma rays (highest frequency). (ii) Gamma rays (energy per photon $E = hf$). (iii) Radio
+waves (longest wavelength).
+
+(c) UV photons have higher frequency (shorter wavelength) than visible light, so each UV photon
+carries more energy ($E = hf$). UV photons have enough energy to damage DNA molecules in skin cells,
+causing mutations that can lead to sunburn and skin cancer. Visible light photons have insufficient
+energy to directly damage DNA.
+
+(d) **X-rays:** Use -- medical imaging (fractures, dental). Hazard -- ionising radiation, can cause
+cancer with prolonged exposure.
+
+**Microwaves:** Use -- cooking food, satellite communications. Hazard -- can heat body tissue
+(especially eyes and internal organs at high intensities).
+
+**Infrared:** Use -- thermal imaging, remote controls, cooking. Hazard -- burns at high intensity
+(skin absorbs IR, causing heating).
+
+### UT-3: Reflection and Refraction
+
+**Question:** (a) State the law of reflection. (b) A light ray strikes a plane mirror at an angle of
+incidence of $35^\circ$. Calculate the angle of reflection and the angle between the incident and
+reflected rays. (c) Explain why a pool of water appears shallower than it actually is, with
+reference to refraction. (d) Describe an experiment to demonstrate total internal reflection using a
+semicircular glass block.
+
+**Solution:**
+
+(a) The angle of incidence equals the angle of reflection. Both angles are measured from the normal
+(perpendicular) to the surface at the point of incidence.
+
+(b) Angle of reflection $= 35^\circ$. Angle between incident and reflected rays
+$= 35 + 35 = 70^\circ$.
+
+(c) Light from the bottom of the pool travels from water (denser medium, higher refractive index) to
+air (less dense). It refracts **away** from the normal as it exits. An observer above the water
+traces the refracted ray back in a straight line, which intersects at a point that is higher
+(shallower) than the actual position of the object. This is a virtual image, closer to the surface.
+
+(d) **Experiment:** Direct a ray of light at the curved surface of a semicircular glass block so
+that it enters without refraction (along the radius). The ray hits the flat surface at an angle of
+incidence. Gradually increase the angle of incidence. The refracted ray bends further away from the
+normal until, at the critical angle, it travels along the surface. Beyond the critical angle, total
+internal reflection occurs -- the ray is entirely reflected back into the glass, and no refracted
+ray exists. Measure the critical angle and compare with $\sin c = 1/n$.
+
+---
+
+## Integration Tests
+
+### IT-1: Sound Waves and Communication (with Electricity)
+
+**Question:** (a) Explain how sound waves are produced by a loudspeaker. (b) A sound wave has a
+frequency of 1000 Hz in air (speed 340 m/s). Calculate its wavelength. If the same sound enters
+water (speed 1500 m/s), calculate the new wavelength. Does the frequency change? (c) Explain why
+sound cannot travel through a vacuum. (d) A person stands 170 m from a cliff and claps. Calculate
+the time interval between the clap and hearing the echo. If the air temperature increases, explain
+how the time interval changes.
+
+**Solution:**
+
+(a) An alternating current from an amplifier flows through a coil in the loudspeaker"s magnetic
 field. The interaction between the current-carrying coil and the magnetic field creates a varying
 force on the cone. The cone vibrates at the same frequency as the AC signal, pushing and pulling the
 air molecules in front of it. These vibrations create compressions and rarefactions that propagate

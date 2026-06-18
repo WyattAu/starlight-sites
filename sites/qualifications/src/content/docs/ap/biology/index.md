@@ -1,6 +1,24 @@
 ---
 title: AP Biology
-description: ""s four Big Ideas to help you build connections between
+description: "Comprehensive revision notes for AP Biology, aligned with the College Board Cour Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-14
+tags:
+  - ap
+  - ap-biology
+categories:
+  - ap-biology
+
+---
+
+# AP Biology
+
+Comprehensive revision notes for AP Biology, aligned with the College Board Course and Exam
+Description.
+
+These notes cover the full AP Biology curriculum, from the molecular level through to ecosystems and
+evolution. Each topic page includes key definitions, detailed explanations, and worked examples to
+help you prepare for both the multiple-choice and free-response sections of the AP exam. The content
+is structured around the College Board"s four Big Ideas to help you build connections between
 topics.
 
 ## Topics

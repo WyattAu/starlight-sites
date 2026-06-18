@@ -1,6 +1,146 @@
 ---
 title: Monitoring and Alerting
-description: ""OK"
+description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
+
+---
+
+## TrueNAS Built-in Monitoring
+
+### Dashboard
+
+The TrueNAS dashboard provides a real-time overview of system health:
+
+| Widget             | Information                                  |
+| ------------------ | -------------------------------------------- |
+| CPU Usage          | Per-core utilization percentage              |
+| Memory Usage       | Used, free, cached, and wired memory         |
+| Pool Usage         | Per-pool capacity, used, and available space |
+| Network            | Interface throughput (Rx/Tx)                 |
+| Disk I/O           | Read/write throughput per pool or disk       |
+| System Temperature | CPU, disk, and enclosure temperatures        |
+| System Load        | 1, 5, and 15 minute load averages            |
+
+### System Information
+
+Navigate to **System** → **Advanced** for detailed system information:
+
+- **System:** Hostname, uptime, kernel version, platform
+- **Hardware:** CPU model, RAM amount, PCI devices
+- **Network:** Interface configuration, IP addresses, MAC addresses
+- **Storage:** Pool status, disk information, SLOG/L2ARC status
+
+---
+
+## SMART Tests
+
+### SMART Test Types
+
+| Test Type       | Duration    | What It Tests                               | Recommended Frequency |
+| --------------- | ----------- | ------------------------------------------- | --------------------- |
+| Short           | 2–5 minutes | Basic electrical and mechanical tests       | Daily                 |
+| Long (Extended) | 2–6 hours   | Full surface scan, complete mechanical test | Weekly                |
+| Conveyance      | 5 minutes   | Vendor-specific (transport damage check)    | After shipping        |
+
+### Configuring SMART Tests on TrueNAS
+
+1. Navigate to **Data Protection** → **S.M.A.R.T. Tests** → **Add**.
+2. Select the disk type (All, HDD, SSD, NVMe).
+3. Select the test type (Short or Long).
+4. Set the schedule (Daily, Weekly, Monthly).
+5. Save.
+
+### Interpreting SMART Results
+
+```bash
+# Check SMART health
+smartctl -H /dev/sda
+
+# Full SMART attributes
+smartctl -a /dev/sda
+
+# Check self-test log
+smartctl -l selftest /dev/sda
+```
+
+Critical attributes to monitor:
+
+| Attribute                | HDD | SSD | Warning Threshold                         |
+| ------------------------ | --- | --- | ----------------------------------------- |
+| Reallocated Sector Count | Yes | N/A | Any increase                              |
+| Current Pending Sector   | Yes | N/A | Any non-zero value                        |
+| Offline Uncorrectable    | Yes | N/A | Any non-zero value                        |
+| Media Wear Indicator     | N/A | Yes | &lt; 10% remaining                        |
+| Available Spare          | N/A | Yes | &lt; 10%                                  |
+| Temperature              | Yes | Yes | &gt; 55 °C (HDD), &gt; 70 °C (SSD)        |
+| Power-On Hours           | Yes | Yes | Compare against MTBF (HDD: ~50,000 hours) |
+| Command Timeout          | Yes | Yes | Any non-zero value                        |
+| UDMA CRC Error Count     | Yes | Yes | Any non-zero value (cable issue)          |
+
+---
+
+## ZFS Scrub Scheduling
+
+### Scrub Configuration
+
+1. Navigate to **Data Protection** → **Scrub Tasks** → **Add**.
+2. Select the pool to scrub.
+3. Set the schedule (Monthly is standard for HDD pools; Weekly for SSD pools).
+4. Set the threshold (minimum days between scrubs).
+5. Enable or disable scrub when resilvering is in progress.
+
+### Scrub Scheduling Best Practices
+
+| Pool Type                  | Scrub Frequency | Rationale                                    |
+| -------------------------- | --------------- | -------------------------------------------- |
+| All-HDD                    | Monthly         | HDD scrub is slow (1–3 days for large pools) |
+| All-SSD                    | Weekly          | SSD scrub is fast (1–4 hours)                |
+| Hybrid (SSD special + HDD) | Monthly         | Scrub the entire pool monthly                |
+| Critical data              | Bi-weekly       | Trade I/O impact for earlier detection       |
+
+### Monitoring Scrub Progress
+
+```bash
+# Check scrub status
+zpool status tank
+
+# Example output:
+# pool: tank
+# status: scrub in progress since ...
+# scan: scrub repaired 0 in 12h34m with 0 errors on ...
+```
+
+---
+
+## Email Alerting
+
+### Configuring Email on TrueNAS
+
+1. Navigate to **System** → **Alert Settings**.
+2. Configure the email settings:
+
+- SMTP server address and port
+- Encryption (TLS/SSL)
+- Authentication (username/password or app-specific password)
+- From address
+- To addresses (comma-separated)
+
+3. Send a test email to verify the configuration.
+
+### Alert Levels
+
+TrueNAS classifies alerts into severity levels:
+
+| Level       | Meaning                   | Example                               |
+| ----------- | ------------------------- | ------------------------------------- |
+| Critical    | Immediate action required | Pool degraded, disk failure           |
+| Warning     | Attention needed          | SMART predictive failure, temperature |
+| Information | Informational             | Scrub completed, snapshot created     |
+
+### Common Alert Triggers
+
+Configure alert rules for:
+
+- **Disk failures:** Any drive with SMART status not "OK"
 - **Temperature:** Disk or CPU temperature exceeding threshold
 - **Pool capacity:** Pool usage exceeding 80% or 90%
 - **Scrub errors:** Any errors found during scrub
@@ -702,7 +842,46 @@ groups:
           severity: warning
         annotations:
           summary: "ZFS pool {{ $labels.pool }} is above 85% capacity''
-description: ""/var/log/pool_capacity.log"
+description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
+```
+
+## Log Analysis Deep Dive
+
+### Centralized Log Aggregation
+
+For environments with multiple TrueNAS systems or other servers:
+
+**ELK Stack (Elasticsearch, Logstash, Kibana):**
+
+1. Install Filebeat on TrueNAS to forward logs to Logstash.
+2. Logstash parses and enriches the logs.
+3. Elasticsearch stores and indexes the logs.
+4. Kibana provides visualization and search.
+
+**Loki + Grafana (lightweight alternative):**
+
+1. Install Promtail on TrueNAS to forward logs to Loki.
+2. Loki stores logs in a compressed index.
+3. Grafana provides LogQL queries and visualization.
+4. Much lighter than ELK, suitable for smaller deployments.
+
+### Log Retention Policies
+
+```bash
+# Configure log rotation in TrueNAS
+# Navigate to System → Advanced → Syslog
+# Set maximum log file size (default: 10 MB)
+# Set maximum number of archived log files (default: 5)
+```
+
+## Capacity Planning Deep Dive
+
+### Growth Rate Calculation
+
+```bash
+# Track pool usage over time
+#!/bin/bash
+LOG="/var/log/pool_capacity.log"
 echo "$(date "+%Y-%m-%d'),$(zpool list -Hp -o capacity tank),$(zpool list -Hp -o used tank)" >> "$LOG"
 
 # Calculate growth rate (last 30 days)

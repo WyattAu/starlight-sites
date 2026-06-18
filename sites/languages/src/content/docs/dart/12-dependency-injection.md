@@ -1,6 +1,33 @@
 ---
 title: Dependency Injection
-description: ""/users/$id');
+description: "Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+# Dependency Injection
+
+## What is Dependency Injection
+
+Dependency Injection (DI) is a design pattern that implements **Inversion of Control (IoC)**:
+Instead of a class creating its own dependencies, they are provided from the outside. This decouples
+Consumers from concrete implementations and is fundamental to writing testable, maintainable Dart
+And Flutter code.
+
+### Core Principles
+
+```dart
+// WITHOUT DI — tight coupling, untestable
+class UserService {
+  final HttpClient client = HttpClient(); // creates its own dependency
+  final Database db = Database();           // hard-wired concrete type
+
+  Future<User> fetchUser(int id) async {
+    final response = await client.get("/users/$id');
     return User.fromJson(response.data);
   }
 }

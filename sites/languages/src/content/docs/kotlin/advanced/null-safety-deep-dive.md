@@ -1,6 +1,19 @@
 ---
 title: Null Safety Deep Dive
-description: ""Alice"       // non-null: cannot hold null
+description: "Kotlin''s type system distinguishes between nullable and non-null types at compil Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-05-31
+tags:
+  - Kotlin
+categories:
+  - Kotlin
+---
+
+## Nullable Types
+
+Kotlin's type system distinguishes between nullable and non-null types at compile time:
+
+```kotlin
+var name: String = "Alice"       // non-null: cannot hold null
 var nickname: String? = null    // nullable: can hold null or a String
 ```
 

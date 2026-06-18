@@ -3,7 +3,33 @@ title: Contemporary Urban Environments
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: ""s commuter belt                                             |
+description: "A-Level Geography Contemporary Urban Environments notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
+---
+
+# Contemporary Urban Environments
+
+## Introduction
+
+Urbanisation is one of the defining processes of the modern era. For the first time in history, more
+people live in urban areas than in rural ones — approximately 56% of the global population in 2023,
+projected to reach 68% by 2050 (UN). This topic examines the patterns and processes of urbanisation,
+the physical and social character of urban environments, and the challenges and strategies
+associated with making cities sustainable. Understanding urban environments is critical because the
+quality of life for the majority of humanity now depends on how cities are designed, managed, and
+governed.
+
+---
+
+## Key Concepts and Definitions
+
+| Term                              | Definition                                                                                                                         |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Urbanisation**                  | The increase in the proportion of a population living in urban areas, and the physical growth of urban areas                       |
+| **Urban sprawl**                  | The uncontrolled expansion of urban areas into the surrounding countryside                                                         |
+| **Megacity**                      | A city with a population exceeding 10 million (e.g., Tokyo, Delhi, Shanghai)                                                       |
+| **Meta-city**                     | A city with a population exceeding 20 million (e.g., Tokyo-Yokohama, Greater Jakarta)                                              |
+| **Suburbanisation**               | The movement of people, employment, and facilities from the inner city to suburban areas                                           |
+| **Counter-urbanisation**          | The movement of people from urban areas to rural areas beyond the city"s commuter belt                                             |
 | **Re-urbanisation**               | The movement of people back into inner urban areas, often associated with regeneration and gentrification                          |
 | **Social segregation**            | The separation of different social groups within a city, based on income, ethnicity, or other factors                              |
 | **Urban heat island (UHI)**       | The phenomenon where urban areas are significantly warmer than surrounding rural areas due to human activity and modified surfaces |

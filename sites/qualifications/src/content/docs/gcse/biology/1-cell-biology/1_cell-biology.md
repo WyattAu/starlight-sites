@@ -1,6 +1,46 @@
 ---
 title: Cell Biology
-description: ""s DNA, which carries the
+description: "All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow..."
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-biology
+categories:
+  - gcse-biology
+
+---
+
+## Cell Biology
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B1 | WJEC B1
+## 1. Cell Structure
+
+### 1.1 Plant and Animal Cells
+
+All living organisms are made of cells. This is the first principle of cell theory, proposed by
+Schleiden and Schwann in the 1830s and extended by Virchow in 1855. Animal and plant cells share
+Many structures but have key differences. Understanding these differences is fundamental: they
+Explain why plants can stand upright without a skeleton, why only plant cells can photosynthesise,
+And why plant cells have a fixed, rectangular shape while animal cells are flexible and irregular.
+
+| Structure         | Function                                                      | Plant/Animal            |
+| ----------------- | ------------------------------------------------------------- | ----------------------- |
+| Cell membrane     | Controls what enters and leaves the cell; partially permeable | Both                    |
+| Cytoplasm         | Gel-like substance where chemical reactions occur             | Both                    |
+| Nucleus           | Contains genetic material (DNA); controls cell activities     | Both                    |
+| Mitochondria      | Site of aerobic respiration; produces ATP (energy)            | Both                    |
+| Ribosomes         | Site of protein synthesis                                     | Both                    |
+| Cell wall         | Made of cellulose; provides structural support                | Plant only              |
+| Permanent vacuole | Contains cell sap; helps maintain cell shape                  | Plant only              |
+| Chloroplasts      | Site of photosynthesis; contain chlorophyll                   | Plant only (some cells) |
+
+**The cell membrane as a gatekeeper.** The cell membrane is not a solid barrier; it is a dynamic
+Structure composed of a phospholipid bilayer with embedded proteins. Small, non-polar molecules
+(such as $\mathrm{O_2$ and $\mathrm{CO_2$) can diffuse directly through the lipid bilayer. Larger Or
+polar molecules (such as glucose and ions) require transport proteins to cross. This selective
+Permeability is essential for maintaining the internal conditions of the cell (homeostasis).
+
+**The nucleus as the control centre.** The nucleus contains the cell"s DNA, which carries the
 Instructions for making every protein the cell needs. DNA is organised into structures called
 Chromosomes, which become visible as distinct threads during cell division. When a cell needs to
 Make a particular protein, the relevant section of DNA (the gene) is "read" and a copy is made in

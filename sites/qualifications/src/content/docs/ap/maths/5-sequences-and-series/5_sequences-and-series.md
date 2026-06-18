@@ -1,6 +1,278 @@
 ---
 title: Sequences and Series
-description: ""boundary case" that
+description: "A is an ordered list of numbers: . Formally, a sequence is a Function from the positive integers (or a subset thereof) to the real numbers: "''
+date: 2026-04-14
+tags:
+  - ap
+  - ap-maths
+categories:
+  - ap-maths
+
+---
+
+## Sequences (CED BC Unit 10)
+
+A **sequence** is an ordered list of numbers: $a_1, a_2, a_3, \ldots$. Formally, a sequence is a
+Function from the positive integers (or a subset thereof) to the real numbers:
+$a \colon \mathbb{N} \to \mathbb{R}$Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
+
+A sequence $\{a_n\}$ **converges** to a limit $L$ if:
+
+$$
+\lim_{n \to \infty} a_n = L
+$$
+
+This means: for every $\epsilon \gt 0$There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
+for all $n \ge N$. The terms eventually get and stay arbitrarily close to $L$.
+
+If no such limit exists, the sequence **diverges**.
+
+### Bounded and Monotone Sequences
+
+- **Bounded above:** $a_n \le M$ for all $n$ and some $M$.
+- **Bounded below:** $a_n \ge m$ for all $n$ and some $m$.
+- **Bounded:** bounded both above and below.
+- **Monotone increasing:** $a_{n+1} \ge a_n$ for all $n$.
+- **Monotone decreasing:** $a_{n+1} \le a_n$ for all $n$.
+- **Eventually monotone:** the monotonicity holds for all $n$ beyond some index $N$.
+
+**Monotone Convergence Theorem.** Every bounded monotone sequence converges. This is one of the most
+Powerful existence theorems in analysis: it guarantees convergence without requiring you to find the
+Limit explicitly.
+
+**Corollary:** A monotone increasing sequence that is not bounded above diverges to $+\infty$. A
+Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
+
+### Common Sequences
+
+| Sequence                               | Convergence | Limit   |
+| -------------------------------------- | ----------- | ------- | --------- | --- |
+| $a_n = \frac{1}{n}$                    | Converges   | $0$     |
+| $a_n = r^n$ ($                         | r           | \lt 1$) | Converges | $0$ |
+| $a_n = r^n$ ($                         | r           | \ge 1$) | Diverges  | --  |
+| $a_n = \left(1 + \frac{1}{n}\right)^n$ | Converges   | $e$     |
+| $a_n = \frac{n!}{n^n}$                 | Converges   | $0$     |
+| $a_n = (-1)^n$                         | Diverges    | --      |
+| $a_n = \sqrt{n+1} - \sqrt{n}$          | Converges   | $0$     |
+| $a_n = \frac{\ln n}{n}$                | Converges   | $0$     |
+
+### Proof: $\frac{n!}{n^n} \to 0$
+
+Write out the terms:
+
+$$
+0 \lt \frac{n!}{n^n} = \frac{1 \cdot 2 \cdot 3 \cdots n}{n \cdot n \cdot n \cdots n} = \frac{1}{n} \cdot \frac{2}{n} \cdot \frac{3}{n} \cdots \frac{n}{n}
+$$
+
+The first $\lfloor n/2 \rfloor$ factors are each at most $\frac{1}{2}$So:
+
+$$
+0 \lt \frac{n!}{n^n} \le \left(\frac{1}{2}\right)^{\lfloor n/2 \rfloor} \to 0
+$$
+
+By the squeeze theorem, $\frac{n!}{n^n} \to 0$.
+
+### Proof: $\frac{\ln n}{n} \to 0$
+
+Since $\ln n$ grows slower than any positive power of $n$We have $\ln n \lt \sqrt{n}$ for
+Sufficiently large $n$. Therefore
+$0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$And $\frac{1}{\sqrt{n}} \to 0$ So
+by the squeeze theorem, $\frac{\ln n}{n} \to 0$.
+
+## Series (CED BC Unit 10)
+
+An **infinite series** is the sum of the terms of an infinite sequence:
+
+$$
+\sum_{n=1}^{\infty} a_n = a_1 + a_2 + a_3 + \cdots
+$$
+
+### Partial Sums
+
+The $n$Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
+Sequence of partial sums $\{S_n\}$ converges:
+
+$$
+\sum_{n=1}^{\infty} a_n = L \iff \lim_{n \to \infty} S_n = L
+$$
+
+If $\{S_n\}$ diverges, the series diverges.
+
+### The $n$Th-Term Test (Divergence Test)
+
+If $\displaystyle\lim_{n \to \infty} a_n \ne 0$Then $\displaystyle\sum a_n$ diverges.
+
+**Proof (by contrapositive):** If $\sum a_n$ converges to $L$Then $S_n \to L$ and $S_{n-1} \to L$.
+Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
+
+**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
+Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
+
+:::info[Example]
+
+Does $\displaystyle\sum_{n=1}^{\infty} \frac{n}{n+1}$ converge?
+
+$$
+\lim_{n \to \infty} \frac{n}{n+1} = 1 \ne 0
+$$
+
+By the $n$Th-term test, the series diverges.
+
+
+### The Harmonic Series
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
+$$
+
+Even though $\frac{1}{n} \to 0$This series diverges. The proof groups terms:
+
+$$
+1 + \frac{1}{2} + \left(\frac{1}{3} + \frac{1}{4}\right) + \left(\frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8}\right) + \cdots
+$$
+
+Each group exceeds $\frac{1}{2}$:
+$\frac{1}{3} + \frac{1}{4} \gt \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$And so on. Since we can Form
+infinitely many groups each exceeding $\frac{1}{2}$The partial sums diverge to $+\infty$.
+
+## Geometric Series (CED BC Unit 10.2)
+
+$$
+\sum_{n=0}^{\infty} ar^n = \frac{a}{1 - r}, \quad |r| \lt 1
+$$
+
+The series diverges when $|r| \ge 1$.
+
+**Derivation.** The $n$Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
+
+$$
+RS_n = ar + ar^2 + \cdots + ar^n
+$$
+
+$$
+S_n - rS_n = a - ar^n \implies S_n(1 - r) = a(1 - r^n)
+$$
+
+$$
+S_n = \frac{a(1 - r^n)}{1 - r}
+$$
+
+When $|r| \lt 1$, $r^n \to 0$So $S_n \to \frac{a}{1 - r}$.
+
+:::
+:::info[Example]
+
+Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
+
+Rewrite as $\displaystyle\sum_{n=1}^{\infty} 3\left(\frac{1}{2}\right)^n$. Here $a = \frac{3}{2}$
+And $r = \frac{1}{2}$.
+
+$$
+\sum_{n=1}^{\infty} \frac{3}{2^n} = \frac{3/2}{1 - 1/2} = \frac{3/2}{1/2} = 3
+$$
+
+
+### Repeating Decimals as Geometric Series
+
+Every repeating decimal can be expressed as a rational number using geometric series.
+
+:::
+:::info[Example]
+
+Express $0.\overline{37}$ as a fraction.
+
+$$
+0.\overline{37} = \frac{37}{100} + \frac{37}{10000} + \frac{37}{1000000} + \cdots = \sum_{n=1}^{\infty} \frac{37}{100^n}
+$$
+
+This is a geometric series with $a = \frac{37}{100}$ and $r = \frac{1}{100}$.
+
+$$
+0.\overline{37} = \frac{37/100}{1 - 1/100} = \frac{37/100}{99/100} = \frac{37}{99}
+$$
+
+
+## Telescoping Series
+
+A telescoping series has terms that cancel in pairs when the partial sum is expanded.
+
+:::
+:::info[Example]
+
+Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.
+
+Use partial fractions: $\displaystyle\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$.
+
+$$
+S_n = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{n+1}
+$$
+
+$$
+\lim_{n \to \infty} S_n = 1
+$$
+
+
+### Worked Example: Telescoping with Partial Fractions
+
+Evaluate $\displaystyle\sum_{n=2}^{\infty} \frac{1}{n^2 - 1}$.
+
+Factor: $\frac{1}{n^2-1} = \frac{1}{(n-1)(n+1)}$. By partial fractions:
+$\frac{1}{(n-1)(n+1)} = \frac{1}{2}\!\left(\frac{1}{n-1} - \frac{1}{n+1}\right)$.
+
+$$
+S_N = \frac{1}{2}\left[\left(\frac{1}{1} - \frac{1}{3}\right) + \left(\frac{1}{2} - \frac{1}{4}\right) + \left(\frac{1}{3} - \frac{1}{5}\right) + \cdots + \left(\frac{1}{N-1} - \frac{1}{N+1}\right)\right]
+$$
+
+Most terms cancel, leaving:
+
+$$
+S_N = \frac{1}{2}\left(1 + \frac{1}{2} - \frac{1}{N} - \frac{1}{N+1}\right)
+$$
+
+$$
+\lim_{N \to \infty} S_N = \frac{1}{2}\left(\frac{3}{2}\right) = \frac{3}{4}
+$$
+
+## The Integral Test (CED BC Unit 10.3)
+
+If $f$ is continuous, positive, and decreasing on $[1, \infty)$And $a_n = f(n)$Then:
+
+$$
+\sum_{n=1}^{\infty} a_n \quad \mathrm{and \quad \int_1^{\infty} f(x)\, dx
+$$
+
+Either both converge or both diverge.
+
+**Why it works.** The sum $\sum_{n=2}^{\infty} f(n)$ can be bounded by the integral:
+
+$$
+\int_1^{\infty} f(x)\, dx \le \sum_{n=1}^{\infty} f(n) \le f(1) + \int_1^{\infty} f(x)\, dx
+$$
+
+So if the integral converges, the sum is bounded above and (since terms are positive) must converge.
+If the integral diverges, the sum exceeds any bound and must diverge.
+
+### Remainder Estimate for the Integral Test
+
+If $\sum a_n$ converges by the integral test and $R_n = S - S_n$ is the remainder after $n$ terms:
+
+$$
+\int_{n+1}^{\infty} f(x)\, dx \le R_n \le \int_n^{\infty} f(x)\, dx
+$$
+
+### $p$-Series
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^p}
+$$
+
+- Converges if $p \gt 1$
+- Diverges if $p \le 1$
+
+This follows directly from the integral test: $\int_1^{\infty} \frac{dx}{x^p}$ converges if and only
+If $p \gt 1$.
+
+The $p$-series with $p = 1$ is the harmonic series, which diverges. This is the "boundary case" that
 Separates convergence from divergence.
 
 ## Comparison Tests (CED BC Unit 10.5)

@@ -3,7 +3,131 @@ title: Group Theory in Particle Physics
 tags:
   - Physics
   - University
-description: ""eman organised hadrons using approximate SU(3) flavour symmetry:
+description: "The strong interaction is governed by the gauge group . The eight gluons correspond to the Eight generators of SU(3), the Gell-Mann matrices ()."
+---
+
+### 5.1 SU(3) Colour
+
+The strong interaction is governed by the gauge group **SU(3)**. The eight gluons correspond to the
+Eight generators of SU(3), the Gell-Mann matrices $\lambda^a$ ($a = 1, \ldots, 8$).
+
+**Colour confinement:** All observable particles are colour singlets (SU(3) invariant). This is why
+Free quarks and gluons are not observed.
+
+**Quark colour states:** $q \in \mathbf{3}$ (triplet), $\bar{q} \in \bar{\mathbf{3}}$ (antitriplet).
+
+**Meson colour wavefunction:**
+$q\bar{q} \in \mathbf{3} \otimes \bar{\mathbf{3}} = \mathbf{8} \oplus \mathbf{1}$. The singlet
+$\mathbf{1}$ is the colour-neutral meson.
+
+**Baryon colour wavefunction:**
+$qqq \in \mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}$.
+The completely antisymmetric singlet is the colour-neutral baryon.
+
+### 5.2 The Gell-Mann Matrices
+
+The eight Gell-Mann matrices $\lambda^a$ are the generators of SU(3) in the fundamental
+Representation. They satisfy:
+
+$$[\lambda^a, \lambda^b] = 2if^{abc}\lambda^c, \quad \mathrm{Tr}(\lambda^a\lambda^b) = 2\delta^{ab}$$
+
+Where $f^{abc}$ are the totally antisymmetric **structure constants** of SU(3).
+
+Explicitly:
+
+$$
+\lambda^1 = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad
+\lambda^2 = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad
+\lambda^3 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 0 \end{pmatrix}
+$$
+
+$$
+\lambda^4 = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ 1 & 0 & 0 \end{pmatrix}, \quad
+\lambda^5 = \begin{pmatrix} 0 & 0 & -i \\ 0 & 0 & 0 \\ i & 0 & 0 \end{pmatrix}
+$$
+
+$$
+\lambda^6 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \quad
+\lambda^7 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -i \\ 0 & i & 0 \end{pmatrix}
+$$
+
+$$\lambda^8 = \frac{1}{\sqrt{3}}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -2 \end{pmatrix}$$
+
+The normalised generators used in the QCD Lagrangian are $T^a = \lambda^a/2$Satisfying
+$[T^a, T^b] = if^{abc}T^c$ and $\mathrm{Tr}(T^a T^b) = \delta^{ab}/2$.
+
+### 5.3 SU(3) Decomposition: Worked Examples
+
+<details>
+<summary>Example 5.1: Decomposing $3 \otimes \bar{3}$ (mesons)</summary>
+
+The tensor product $\mathbf{3} \otimes \bar{\mathbf{3}}$ can be decomposed using the Clebsch--Gordan
+series for SU(3):
+
+$$\mathbf{3} \otimes \bar{\mathbf{3}} = \mathbf{8} \oplus \mathbf{1}$$
+
+The singlet $\mathbf{1}$ corresponds to the colour-neutral state:
+
+$$\frac{1}{\sqrt{3}}(r\bar{r} + g\bar{g} + b\bar{b})$$
+
+This is the unique SU(3)-invariant combination, analogous to the trace of a $3 \times 3$ Matrix. The
+remaining eight independent components form the adjoint representation $\mathbf{8}$.
+
+For mesons, the colour wavefunction must be the singlet, ensuring colour confinement. The flavour
+and spin wavefunctions are independent of this colour structure.
+
+</details>
+
+<details>
+<summary>Example 5.2: Decomposing $3 \otimes 3 \otimes 3$ (baryons)</summary>
+
+First decompose two triplets:
+
+$$\mathbf{3} \otimes \mathbf{3} = \mathbf{6}_S \oplus \mathbf{3}_A$$
+
+Where the subscript denotes symmetry ($S$) or antisymmetry ($A$) under exchange of the Two quarks.
+
+Then:
+
+$$\mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = (\mathbf{6}_S \oplus \mathbf{3}_A) \otimes \mathbf{3}$$
+
+$$= \mathbf{6}_S \otimes \mathbf{3} \oplus \mathbf{3}_A \otimes \mathbf{3}$$
+
+$$= (\mathbf{10}_S \oplus \mathbf{8}_M) \oplus (\mathbf{8}_M \oplus \mathbf{1}_A)$$
+
+$$= \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}$$
+
+The completely antisymmetric singlet $\mathbf{1}_A$ is the colour wavefunction of all Baryons. In
+the full baryon wavefunction, the colour part is antisymmetric, so the Combined flavour $\otimes$
+spin $\otimes$ space part must be symmetric (for ground-state Baryons, $L = 0$So the space part is
+symmetric).
+
+</details>
+
+### 5.4 SU(2)$\times$U(1) Electroweak Theory
+
+The electroweak interaction is governed by SU(2)$_L \times$ U(1)$_Y$:
+
+- SU(2)$_L$: weak isospin, acts on left-handed doublets only.
+- U(1)$_Y$: weak hypercharge, acts on all particles.
+
+Left-handed fermions form SU(2) doublets:
+$$L = \begin{pmatrix} \nu_e \\ e^- \end{pmatrix}_L, \quad Q = \begin{pmatrix} u \\ d \end{pmatrix}_L$$
+
+Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R$$
+
+The electric charge is: $Q = T_3 + Y/2$.
+
+After electroweak symmetry breaking, the $W^\pm$ and $Z^0$ bosons and the photon emerge as linear
+Combinations of the SU(2) and U(1) gauge fields:
+
+$$W^\pm = \frac{1}{\sqrt{2}}(W^1 \mp iW^2)$$
+
+$$\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}$$
+
+### 5.5 Flavour Symmetries and the Eightfold Way
+
+Before QCD, Gell-Mann and Ne"eman organised hadrons using approximate SU(3) flavour symmetry:
 
 - **Meson octet:** $\pi^+, \pi^0, \pi^-, K^+, K^0, \bar{K}^0, K^-, \eta$.
 - **Baryon octet:** $p, n, \Sigma^+, \Sigma^0, \Sigma^-, \Xi^0, \Xi^-, \Lambda$.

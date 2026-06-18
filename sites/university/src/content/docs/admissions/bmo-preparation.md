@@ -1,6 +1,45 @@
 ---
 title: BMO Preparation
-description: ""formula" questions. Every problem requires creative reasoning and proof.
+description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
+date: 2026-05-05T00:00:00.000Z
+tags:
+  - Mathematics
+  - University
+  - Admissions
+categories:
+  - Mathematics
+
+---
+
+## 1. Overview of the BMO
+
+The British Mathematical Olympiad (BMO) is the national olympiad competition in the United Kingdom,
+Organised by the United Kingdom Mathematics Trust (UKMT). It serves as the gateway to the
+International Mathematical Olympiad (IMO) team selection process.
+
+There are two rounds:
+
+| Round | Format                            | Duration  | Purpose                                       |
+| ----- | --------------------------------- | --------- | --------------------------------------------- |
+| BMO 1 | 6 questions (each worth 10 marks) | 3.5 hours | Qualification for BMO 2 and initial selection |
+| BMO 2 | 4 questions (each worth 10 marks) | 3.5 hours | IMO squad selection                           |
+
+### 1.1 Qualification
+
+Entry to BMO 1 is through qualification from the Senior Mathematical Challenge (SMC) or through
+Teacher nomination. Roughly the top 1000 SMC scorers are invited. The top roughly 100 candidates
+From BMO 1 qualify for BMO 2. Approximately 20--30 are invited to the IMO training camp.
+
+### 1.2 Format and Marking
+
+BMO problems require full written proofs. Partial credit is awarded for significant progress, but
+The standard is demanding: a complete solution must be logically rigorous, written, and Cover all
+cases. Each problem is worth 10 marks. On BMO 1, a score of 30+ out of 60 is strong; on BMO 2, 20+
+out of 40 is excellent.
+
+### 1.3 Key Differences from School Mathematics
+
+- There are no "formula" questions. Every problem requires creative reasoning and proof.
 - Algebraic manipulation alone is rarely sufficient; structural insight is essential.
 - Rigour matters: a correct idea with a logical gap may score significantly less than full marks.
 

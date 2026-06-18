@@ -1,6 +1,18 @@
 ---
 title: Periods 3-4 (1754-1800)
-description: "" War)
+description: "The French and Indian War (1754-1763) was a global conflict between Britain and France that was fought in North America primarily for control of the Ohio..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - ap
+  - ap-history
+categories:
+  - ap-history
+
+---
+
+## Period 3: 1754-1800
+
+### The French and Indian War (Seven Years" War)
 
 The French and Indian War (1754-1763) was a global conflict between Britain and France that was
 fought in North America primarily for control of the Ohio River Valley.

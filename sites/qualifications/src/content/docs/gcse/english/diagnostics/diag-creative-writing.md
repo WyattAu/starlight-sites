@@ -1,6 +1,24 @@
 ---
 title: "Creative Writing -- Diagnostic Tests"
-description: ""The market was busy and there was a lot of food."
+description: "Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# Creative Writing -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Descriptive Writing Techniques
+
+**Question:**
+
+(a) Explain the difference between simile, metaphor, and personification. Give an original example
+of each.
+
+(b) Rewrite the following sentence to make it more effective, using at least one of the following
+techniques: simile, metaphor, personification, or sensory detail.
+
+Original: "The market was busy and there was a lot of food."
 
 (c) Describe a storm at sea in one paragraph (approximately 100 words), using at least three
 different descriptive techniques. Aim to create a vivid, atmospheric scene.

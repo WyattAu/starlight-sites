@@ -1,6 +1,148 @@
 ---
 title: Theory of the Firm
-description: ""s actions affect, and are affected by, the actions of rivals
+description: "IB Economics Theory of the Firm notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision."
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Market Structures
+
+### Classification Criteria
+
+Market structures are classified along several dimensions:
+
+- **Number of firms**: from many (perfect competition) to one (monopoly)
+- **Nature of the product**: homogeneous (identical) or differentiated
+- **Barriers to entry**: low to high
+- **Degree of market power**: the ability of firms to influence price
+- **Information availability**: perfect or imperfect
+
+### Perfect Competition
+
+**Assumptions:**
+
+1. Many buyers and sellers, none of whom can influence the market price (price takers)
+2. Homogeneous (identical) products
+3. Perfect information
+4. Free entry and exit (no barriers)
+5. Perfect factor mobility
+
+**Short-run equilibrium:**
+
+- The firm faces a perfectly elastic (horizontal) demand curve at the market price $P^*$
+- Average Revenue (AR) $=$ Marginal Revenue (MR) $= P^*$
+- The firm maximises profit where $\mathrm{MR} = \mathrm{MC}$
+- In the short run, the firm may earn supernormal profit (if $P > \text{ATC}$), normal profit (if
+  $P = \text{ATC}$), or make a loss (if $P < \text{ATC}$)
+- The firm continues to produce in the short run as long as $P \geq \text{AVC}$ (the shutdown point)
+
+**Long-run equilibrium:**
+
+- Free entry and exit drive economic profit to zero ($P = \text{ATC} = \mathrm{MC}$)
+- The firm produces at the minimum point of the ATC curve (productive efficiency)
+- $P = \mathrm{MC}$ (allocative efficiency)
+- Zero economic profit, but normal profit is earned
+
+$$\text{Short-run: } P \geq \text{AVC}, \text{ produce where MR} = \text{MC}$$
+$$\text{Long-run: } P = \text{ATC}_{\min} = \text{MC}$$
+
+### Monopoly
+
+**Assumptions:**
+
+1. Single seller (or one dominant firm)
+2. No close substitutes
+3. High barriers to entry (legal barriers such as patents, natural monopoly due to economies of
+   scale, ownership of essential resources, predatory pricing)
+4. Price maker
+
+**Revenue curves:**
+
+- The monopoly faces the market demand curve (downward-sloping)
+- $\mathrm{AR} = P$ (the demand curve)
+- MR lies below AR because to sell an additional unit, the monopolist must lower the price on all
+  units sold
+- For a linear demand curve $P = a - bQ$: $\mathrm{MR} = a - 2bQ$
+
+**Profit maximisation:**
+
+The monopolist produces where $\mathrm{MR} = \mathrm{MC}$ and charges the price found on the demand
+Curve at that quantity.
+
+$$\text{Profit} = (P - \text{ATC}) \times Q$$
+
+In the long run, the monopolist can earn supernormal profit because barriers to entry prevent new
+Firms from entering the market.
+
+**Inefficiencies of monopoly:**
+
+- **Allocative inefficiency**: $P > \mathrm{MC}$Meaning the value consumers place on the last unit
+  exceeds the cost of producing it. Too little is produced relative to the social optimum
+- **Productive inefficiency**: the monopolist does not produce at the minimum of ATC
+- **Deadweight loss**: the loss of consumer and producer surplus due to reduced output and higher
+  prices compared to perfect competition
+- **X-inefficiency**: lack of competitive pressure may allow the monopolist to operate with higher
+  costs than necessary
+
+**Arguments in favour of monopoly:**
+
+- **Economies of scale**: a single large firm may produce at lower average cost than multiple small
+  firms (natural monopoly, e.g., water supply, electricity distribution)
+- **Research and development**: supernormal profits can fund R&D, leading to innovation and dynamic
+  efficiency
+- **International competitiveness**: large firms may be better able to compete in global markets
+
+**Price discrimination** occurs when a monopolist charges different prices to different consumers
+for The same good or service, not justified by differences in cost. Conditions for price
+discrimination:
+
+1. Market power (price maker)
+2. Ability to separate markets (prevent resale)
+3. Different price elasticities of demand in different markets
+
+**Degrees of price discrimination:**
+
+- **First-degree (perfect)**: charge each consumer their maximum willingness to pay. Captures all
+  consumer surplus
+- **Second-degree**: charge different prices based on the quantity purchased (bulk discounts)
+- **Third-degree**: charge different prices to different consumer groups (e.g., student discounts,
+  senior citizen discounts, peak/off-peak pricing)
+
+### Monopolistic Competition
+
+**Assumptions:**
+
+1. Many firms
+2. Differentiated products (branding, quality, location, service)
+3. Low barriers to entry and exit
+4. Some degree of market power (firms are price makers to a limited extent)
+
+**Short-run equilibrium:**
+
+- Each firm faces a downward-sloping demand curve (due to product differentiation)
+- Profit maximisation at $\mathrm{MR} = \mathrm{MC}$
+- Firms can earn supernormal profit, normal profit, or losses in the short run
+
+**Long-run equilibrium:**
+
+- Free entry and exit drives economic profit to zero ($P = \text{ATC}$)
+- Unlike perfect competition, the demand curve is downward-sloping, so the tangency with ATC occurs
+  to the left of the minimum ATC
+- **Excess capacity**: the firm produces at a lower output than the output that minimises ATC
+- **Allocative inefficiency**: $P > \mathrm{MC}$
+
+$$\text{Long-run: } P > \mathrm{MC} \text{ and } P = \text{ATC} > \text{ATC}_{\min}$$
+
+**Non-price competition**: firms compete through advertising, branding, product differentiation, and
+Customer service rather than solely through price.
+
+### Oligopoly
+
+**Assumptions:**
+
+1. A few large firms dominate the market
+2. Interdependence: each firm"s actions affect, and are affected by, the actions of rivals
 3. High barriers to entry (economies of scale, brand loyalty, patents, strategic barriers)
 4. Products may be homogeneous (e.g., oil) or differentiated (e.g., cars, smartphones)
 

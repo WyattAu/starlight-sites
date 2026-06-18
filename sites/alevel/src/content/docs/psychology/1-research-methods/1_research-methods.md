@@ -6,7 +6,118 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: ""s rho   | Correlation              | Ordinal    | —         |
+description: "A-Level Psychology Research Methods notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
+
+---
+
+# Research Methods
+
+## Introduction
+
+Research methods are the backbone of psychology. Understanding how data is collected, analysed, and
+evaluated is essential for every topic on the A-Level specification. This section covers
+experimental and non-experimental methods, sampling techniques, ethical considerations, descriptive
+and inferential statistics, correlations, observations, self-report techniques, case studies, and
+the role of peer review.
+
+## Key Concepts
+
+### Experimental Methods
+
+| Feature                | Laboratory | Field   | Natural | Quasi             |
+| ---------------------- | ---------- | ------- | ------- | ----------------- |
+| IV manipulated?        | Yes        | Yes     | No      | No (pre-existing) |
+| Setting                | Controlled | Natural | Natural | Any               |
+| Control                | High       | Low     | Low     | Variable          |
+| Ecological validity    | Low        | Higher  | Higher  | Variable          |
+| Demand characteristics | High risk  | Lower   | Low     | Variable          |
+
+**Laboratory experiments** take place in a controlled environment where the researcher manipulates
+the independent variable (IV) while controlling extraneous variables. They allow precise measurement
+and replication but may lack ecological validity.
+
+**Field experiments** take place in a natural setting where the IV is still manipulated.
+Participants are often unaware they are in a study, reducing demand characteristics, but extraneous
+variables are harder to control.
+
+**Natural experiments** exploit pre-existing differences in the IV (e.g., comparing areas with
+different crime rates). The researcher cannot manipulate the IV. Useful when manipulation would be
+unethical or impractical.
+
+**Quasi-experiments** involve pre-existing groups (e.g., gender, age) where random allocation is
+impossible. The IV is not manipulated by the researcher.
+
+### Experimental Designs
+
+- **Independent measures (between-groups):** Different participants in each condition. No order
+  effects, but participant variables are a confound and more participants are needed.
+- **Repeated measures:** Same participants in all conditions. Fewer participants needed and
+  participant variables controlled, but order effects are a problem (mitigated by counterbalancing).
+- **Matched pairs:** Participants are paired on relevant variables and each member of the pair is
+  assigned to a different condition. Controls participant variables without order effects, but
+  matching is time-consuming and perfect matching is impossible.
+
+### Sampling Methods
+
+| Method                    | Description                                                               | Strength                                   | Limitation                                                                    |
+| ------------------------- | ------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------- |
+| Random                    | Every member of the target population has an equal chance of selection    | Unbiased, representative                   | Difficult to obtain a full list; may still produce an unrepresentative sample |
+| Systematic                | Every nth member of the target population is selected                     | Simple, objective                          | The list may have a hidden pattern that introduces bias                       |
+| Stratified                | Population divided into subgroups; proportional random sampling from each | Highly representative                      | Time-consuming; must know population proportions                              |
+| Opportunity               | Selecting whoever is available at the time                                | Quick, convenient                          | Biased towards certain types of people (e.g., students)                       |
+| Volunteer (self-selected) | Participants put themselves forward (e.g., advert)                        | Willing participants; less ethical concern | Volunteer bias — certain personality types more likely to volunteer           |
+
+### Ethics
+
+The British Psychological Society (BPS) Code of Ethics and Conduct outlines key principles:
+
+- **Informed consent:** Participants must be told the true nature of the study before agreeing to
+  take part. Presumptive, prior general, or retrospective consent can be used when full informed
+  consent is not possible.
+- **Deception:** Deliberately misleading participants is acceptable only when it is justified by the
+  scientific value of the study and there is no alternative. Debriefing must occur afterwards.
+- **Right to withdraw:** Participants must be told they can leave at any time and have their data
+  removed. This is especially important when payment or course credit is offered.
+- **Confidentiality:** Personal data must be protected. Participants should be referred to by number
+  or pseudonym in published reports.
+- **Protection from harm:** Participants must not experience physical or psychological harm beyond
+  what they would encounter in daily life.
+- **Debriefing:** After the study, participants must be told the true aims, given the right to
+  withdraw their data, and provided with support if distressed.
+
+### Descriptive Statistics
+
+**Measures of central tendency:**
+
+- **Mean:** The arithmetic average. Uses all data points but is distorted by outliers.
+- **Median:** The middle value when data is ordered. Not affected by outliers but does not use all
+  data.
+- **Mode:** The most frequent value. Can be used with nominal data but may not be representative.
+
+**Measures of dispersion:**
+
+- **Range:** Highest minus lowest value. Easy to calculate but affected by outliers and ignores the
+  distribution of scores.
+- **Standard deviation:** Average distance of each score from the mean. Uses all data and is a
+  precise measure, but can be distorted by extreme values.
+
+### Inferential Statistics
+
+The choice of statistical test depends on three factors:
+
+1. **Type of test:** Difference (related or unrelated) vs. correlation
+2. **Level of data:** Nominal, ordinal, or interval/ratio
+3. **Design:** Related (repeated measures / matched pairs) or unrelated (independent groups)
+
+| Test             | Purpose                  | Data Level | Design    |
+| ---------------- | ------------------------ | ---------- | --------- |
+| Sign test        | Difference               | Nominal    | Related   |
+| Wilcoxon         | Difference               | Ordinal    | Related   |
+| Mann-Whitney U   | Difference               | Ordinal    | Unrelated |
+| Related t-test   | Difference               | Interval   | Related   |
+| Unrelated t-test | Difference               | Interval   | Unrelated |
+| Chi-squared      | Difference / association | Nominal    | Unrelated |
+| Spearman"s rho   | Correlation              | Ordinal    | —         |
 | Pearson's r      | Correlation              | Interval   | —         |
 
 **Significance:** If the calculated value is equal to or more extreme than the critical value (at p

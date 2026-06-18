@@ -3,7 +3,66 @@ title: Applications of Contour Integration
 tags:
   - Mathematics
   - University
-description: ""s Lemma
+description: "Contour integration is a powerful tool for evaluating definite integrals. Comprehensive educational content coverage with definitions and practice problems."
+---
+
+### 9.1 Evaluation of Real Integrals
+
+Contour integration is a powerful tool for evaluating definite integrals.
+
+### 9.2 Integrals of Rational Functions over the Real Line
+
+**Theorem 9.1.** If $f(x) = P(x)/Q(x)$ where $\deg(Q) \geq \deg(P) + 2$ and $Q$ has no real roots,
+Then
+
+$$\int_{-\infty}^{\infty} f(x)\, dx = 2\pi i \sum_{\mathrm{Im}(z_k) > 0} \mathrm{Res}(f, z_k)$$
+
+Where the sum is over poles in the upper half-plane.
+
+_Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
+Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$The integral over
+The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
+
+### 9.3 Worked Example
+
+**Problem.** Evaluate $\int_{-\infty}^{\infty} \frac{dx}{x^2 + 1}$.
+
+_Solution._ $f(z) = \frac{1}{z^2 + 1}$ has simple poles at $z = \pm i$.
+
+Only $z = i$ is in the upper half-plane.
+
+$\mathrm{Res}\left(\frac{1}{z^2 + 1}, i\right) = \frac{1}{2z}\Big|_{z = i} = \frac{1}{2i}$.
+
+$\int_{-\infty}^{\infty} \frac{dx}{x^2 + 1} = 2\pi i \cdot \frac{1}{2i} = \pi$. $\blacksquare$
+
+### 9.4 Integrals Involving Trigonometric Functions
+
+For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$Substitute
+$z = e^{i\theta}$So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
+$\sin\theta = \frac{z - z^{-1}}{2i}$.
+
+The integral becomes $\int_{|z|=1} f(z)\, dz$ where $f(z)$ is a rational function.
+
+### 9.5 Worked Example
+
+**Problem.** Evaluate $\int_0^{2\pi} \frac{d\theta}{2 + \cos\theta}$.
+
+_Solution._ Substitute $z = e^{i\theta}$: $d\theta = \frac{dz}{iz}$
+$\cos\theta = \frac{z + 1/z}{2}$.
+
+$\int_{|z|=1} \frac{dz}{iz\left(2 + \frac{z + 1/z}{2}\right)} = \int_{|z|=1} \frac{2\, dz}{i(z^2 + 4z + 1)}$
+
+Poles: $z^2 + 4z + 1 = 0 \Rightarrow z = -2 \pm \sqrt{3}$.
+
+$|z_1| = |-2 + \sqrt{3}| = 2 - \sqrt{3} \lt 1$ (inside).
+$|z_2| = |-2 - \sqrt{3}| = 2 + \sqrt{3} \gt 1$ (outside).
+
+$\mathrm{Res}\left(\frac{1}{z^2 + 4z + 1}, z_1\right) = \frac{1}{2\sqrt{3}}$.
+
+$\int_0^{2\pi} \frac{d\theta}{2 + \cos\theta} = \frac{2}{i} \cdot 2\pi i \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}$.
+$\blacksquare$
+
+### 9.6 Jordan"s Lemma
 
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
 Half-plane and $a \gt 0$Then

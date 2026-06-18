@@ -1,6 +1,41 @@
 ---
 title: "Market Failure and Government Intervention -- Diagnostic Tests"
-description: ""s individual demand for the lighthouse is $P_i = 10 - 0.1Q$Where $Q$ is the quality level
+description: "DSE Economics Market Failure and Government Intervention -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Market Failure and Government Intervention — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Negative Externalities and Pigouvian Tax
+
+**Question:** A factory producing chemicals generates pollution as a negative externality. Private
+Marginal cost: $MPC = 20 + 0.5Q$. Marginal external cost: $MEC = 0.3Q$. Demand (marginal private
+Benefit): $P = 100 - 0.8Q$. (a) Calculate the free market equilibrium quantity and price. (b)
+Calculate the socially optimal quantity and price. (c) Calculate the Pigouvian tax needed to achieve
+The social optimum. (d) Calculate the deadweight loss of the free market outcome.
+
+**Solution:**
+
+(a) Free market: $MPC = MPB$: $20 + 0.5Q = 100 - 0.8Q$$1.3Q = 80$$Q_m = 61.54$.
+$P_m = 100 - 0.8(61.54) = \$50.77$.
+
+(b) Social optimum: $MSC = MSB$. $MSC = MPC + MEC = 20 + 0.5Q + 0.3Q = 20 + 0.8Q$.
+$MSB = MPB = 100 - 0.8Q$ (assuming no external benefit).
+
+$20 + 0.8Q = 100 - 0.8Q$$1.6Q = 80$$Q^* = 50$. $P^* = 100 - 0.8(50) = \$60$.
+
+(c) Pigouvian tax $= MEC$ at $Q^* = 50$: $t = 0.3(50) = \$15$. The tax shifts the private supply up
+By $\$15$, so $MPC + t = 20 + 0.5Q + 15 = 35 + 0.5Q$. At $Q = 50$: $35 + 0.5(50) = 60 = P^*$.
+
+(d) DWL
+$= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(61.54) \times (61.54 - 50) = \frac{1}{2} \times 18.46 \times 11.54 = \$106.5$.
+
+### UT-2: Public Goods and Free Rider Problem
+
+**Question:** A coastal community of 100 residents is considering building a lighthouse. Each
+Resident"s individual demand for the lighthouse is $P_i = 10 - 0.1Q$Where $Q$ is the quality level
 (0 to 100). The total cost of providing quality level $Q$ is $TC = 200 + 5Q$. (a) Explain why a
 Lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
 Demand (marginal social benefit) curve. (c) Calculate the socially optimal quality level. (d)

@@ -1,6 +1,30 @@
 ---
 title: Network Tools
-description: ""Layer 1: Physical<br/>Is the link up? Cable connected?"] --> L2["Layer 2: Data Link<br/>ARP resolving? MAC correct?"]
+description: "Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section..."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+Network troubleshooting is a systematic process of isolating and identifying the root cause of
+Connectivity, performance, or security issues. This section covers the primary tools used for
+Network diagnostics on Linux systems and provides a methodology for approaching network problems.
+
+The key principle is **start simple and work from layer 1 upward.** Do not jump to Wireshark before
+Verifying that the cable is plugged in and the interface is up.
+
+## Diagnostic Methodology
+
+### The OSI-Layer Approach
+
+When faced with a network problem, work through the layers systematically:
+
+```mermaid
+graph TD
+    L1["Layer 1: Physical<br/>Is the link up? Cable connected?"] --> L2["Layer 2: Data Link<br/>ARP resolving? MAC correct?"]
     L2 --> L3["Layer 3: Network<br/>IP reachable? Routes correct?"]
     L3 --> L4["Layer 4: Transport<br/>Port open? Firewall blocking?"]
     L4 --> L5["Layer 7: Application<br/>Protocol correct? Data valid?"]

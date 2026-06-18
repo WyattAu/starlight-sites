@@ -1,6 +1,33 @@
 ---
 title: Population Distribution
-description: ""s age-sex structure. The shape
+description: "This section covers the IB Geography core extension on population distribution -- changing population. It examines the factors that influence where people..."
+
+---
+
+# Population Distribution
+
+This section covers the IB Geography core extension on population distribution -- changing
+population. It examines the factors that influence where people live, the dynamics of population
+change, the models used to explain demographic transition, patterns and causes of migration, and the
+policies governments use to influence population trends. Population geography is central to the IB
+course and connects closely to themes of development, resource management, and urbanisation.
+
+## Contents
+
+- [Demographic Transition Model](./population/demographic-transition-model) -- the DTM, its stages,
+  strengths, limitations, and applicability to different countries.
+- [Migration Theories and Patterns](./population/migration-theories-and-patterns) -- causes and
+  consequences of migration, push and pull factors, and migration models.
+- [Population Policies](./population/population-policies) -- pro-natalist and anti-natalist
+  policies, their effectiveness and case studies.
+
+## Key Concepts
+
+- **Demographic Transition Model (DTM)** -- a five-stage model describing how population growth
+  changes as a country develops economically, from high birth and death rates (Stage 1) to low birth
+  and death rates (Stage 5). Useful as a general framework but criticised for being Eurocentric and
+  oversimplifying diverse national experiences.
+- **Population pyramids** -- graphical representations of a country"s age-sex structure. The shape
   of a pyramid reveals information about birth rates, death rates, life expectancy, and migration
   patterns. Expanding pyramids indicate high growth; contracting pyramids indicate decline.
 - **Push and pull factors** -- Lee's (1966) migration model explains migration as a result of push

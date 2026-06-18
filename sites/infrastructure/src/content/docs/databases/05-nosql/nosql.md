@@ -1,6 +1,67 @@
 ---
 title: NoSQL Databases
-description: ""Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means
+description: "The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer''s 2000 conjecture, states That a distributed data store can provide at most two of..."
+tags:
+  - Databases
+categories:
+  - Databases
+---
+
+## The CAP Theorem
+
+The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer's 2000 conjecture, states
+That a distributed data store can provide at most two of three guarantees:
+
+- **Consistency (C):** every read receives the most recent write or an error
+- **Availability (A):** every request receives a non-error response (without guarantee about which
+  data version)
+- **Partition Tolerance (P):** the system continues to operate despite arbitrary message loss or
+  delay between nodes
+
+### Why P Is Non-Negotiable
+
+Network partitions are not theoretical -- they happen regularly in production. A switch fails, a DNS
+Update propagates slowly, a garbage collector pause causes a timeout, a cross-datacenter link
+Degrades. Any distributed system must tolerate partitions, which means the real choice is between
+**CP** and **AP**:
+
+| Category | Strategy                                                       | Example Systems                                             |
+| -------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
+| CP       | Preserve consistency, sacrifice availability during partitions | PostgreSQL (sync replicas), HBase, Redis (with replication) |
+| AP       | Preserve availability, sacrifice consistency during partitions | MongoDB (default, w:1), Cassandra, DynamoDB, CouchDB, Riak  |
+
+### The PACELC Theorem
+
+The PACELC theorem (Abadi, 2012) extends CAP: when there is **no** partition (the EL part), the
+System must choose between **L**atency and **C**onsistency:
+
+$$\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency$$
+
+$$\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency$$
+
+This captures a nuance that CAP misses: even during normal operation (no partition), systems make
+Consistency-latency trade-offs. DynamoDB defaults to eventual consistency for low latency but can be
+Configured for strong consistency (higher latency). Cassandra defaults to eventual consistency but
+Supports tunable consistency per operation.
+
+### Consistency Models: A Spectrum
+
+Consistency is not binary. There is a spectrum of consistency models, from strongest to weakest:
+
+| Model              | Guarantee                                                         | Examples                               |
+| ------------------ | ----------------------------------------------------------------- | -------------------------------------- |
+| Linearizable       | Operations appear to execute atomically and in real-time order    | Single-node databases, ZooKeeper       |
+| Sequential         | Operations appear in some total order consistent with real time   | Google Spanner (external consistency)  |
+| Serializable       | Equivalent to some serial execution of transactions               | PostgreSQL SERIALIZABLE                |
+| Snapshot Isolation | Each transaction reads from a consistent snapshot                 | PostgreSQL REPEATABLE READ             |
+| Causal             | Causally related operations are seen by all nodes in order        | DynamoDB (with consistent reads)       |
+| Read-your-writes   | A reader always sees its own writes                               | Most systems with sticky sessions      |
+| Session            | Consistency within a single client session                        | MongoDB (read preference)              |
+| Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
+
+:::caution
+
+"Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means
 That if you stop writing, the system will converge. In practice, convergence time depends on the
 System, the network, and the write volume. In a partition, convergence may be indefinite.
 

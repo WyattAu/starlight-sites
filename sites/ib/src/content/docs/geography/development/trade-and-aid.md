@@ -1,6 +1,19 @@
 ---
 title: Trade and Aid
-description: ""South") exported primary commodities
+description: "Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is Characterised by several patterns: "''
+
+---
+
+# Trade and Aid
+
+## Trade Patterns and Globalisation
+
+### The Structure of Global Trade
+
+Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is
+Characterised by several patterns:
+
+**North-South trade.** Historically, developing countries (the "South") exported primary commodities
 (agricultural products, minerals, fossil fuels) to developed countries (the "North") and imported
 Manufactured goods and services in return. This pattern reflects colonial trading relationships and
 Comparative advantage based on natural resource endowments.

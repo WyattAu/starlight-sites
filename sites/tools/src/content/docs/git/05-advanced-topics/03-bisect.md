@@ -1,6 +1,67 @@
 ---
 title: Bisect
-description: ""git bisect start"] --> B["git bisect bad HEAD"]
+description: "uses to find the specific commit that introduced a bug. Given a known-good commit and a known-bad commit, it checks out commits between them, narrowing the..."
+date: 2025-06-03T10:00:00.000Z
+tags:
+  - git
+  - advanced
+  - bisect
+  - debugging
+categories:
+  - CS
+
+---
+
+## Binary Search for Bugs
+
+`git bisect` uses **binary search** to find the specific commit that introduced a bug. Given a
+known-good commit and a known-bad commit, it checks out commits between them, narrowing the range by
+half each iteration until it identifies the exact culprit.
+
+### Why Manual Debugging Fails
+
+When a bug is discovered in production, you may need to search through hundreds or thousands of
+commits to find when it was introduced. Linear search (checking each commit one by one) has $O(n)$
+time complexity. Binary search reduces this to $O(\log_2 n)$:
+
+| Commits to search | Linear steps | Binary steps |
+| ----------------- | ------------ | ------------ |
+| 100               | 100          | 7            |
+| 1,000             | 1,000        | 10           |
+| 10,000            | 10,000       | 14           |
+| 100,000           | 100,000      | 17           |
+
+## Basic Usage
+
+```bash
+# Start a bisect session
+$ git bisect start
+
+# Mark the current commit as bad (bug is present)
+$ git bisect bad
+
+# Mark a known-good commit
+$ git bisect good v2.5.0
+
+# Git checks out a commit halfway between v2.5.0 and HEAD
+# Build and test the code...
+# If the bug is present:
+$ git bisect bad
+# If the bug is NOT present:
+$ git bisect good
+
+# Repeat until git identifies the culprit:
+# a3f2b1c0 is the first bad commit
+# commit a3f2b1c0
+# Author: Developer <dev@example.com>
+# Date:   Mon Jun 2 10:00:00 2025
+#
+#     Refactor authentication module
+```
+
+```mermaid
+flowchart TD
+    A["git bisect start"] --> B["git bisect bad HEAD"]
     B --> C["git bisect good v2.5.0"]
     C --> D["Git checks out\nmidpoint commit"]
     D --> E{"Test:\nis bug present?"}

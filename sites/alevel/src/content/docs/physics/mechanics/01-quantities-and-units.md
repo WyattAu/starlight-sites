@@ -1,6 +1,264 @@
 ---
 title: Quantities and Units
-description: ""s one significant figure). We do not write $12.30 \pm 0.4$ cm — the
+description: "We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Physics
+  - ALevel
+categories:
+  - Physics
+
+---
+
+## Quantities and Units
+
+> **Info:** Board Coverage AQA Paper 1 & 3 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
+## 1. Physical Quantities and the SI System
+
+We begin with the most fundamental question in physics: **how do we measure things?**
+
+A **physical quantity** is a property of a phenomenon that can be quantified — assigned a numerical
+Value and compared with other instances of the same quantity. Physical quantities come in two
+Varieties:
+
+- **Base quantities** are irreducible; they cannot be expressed in terms of other quantities. The SI
+  system defines seven base quantities.
+- **Derived quantities** are expressed as products and quotients of base quantities.
+
+### The Seven SI Base Units
+
+| Base Quantity       | Symbol | SI Unit  | Unit Symbol |
+| ------------------- | ------ | -------- | ----------- |
+| Length              | $l$    | metre    | m           |
+| Mass                | $m$    | kilogram | kg          |
+| Time                | $t$    | second   | s           |
+| Electric current    | $I$    | ampere   | A           |
+| Temperature         | $T$    | kelvin   | K           |
+| Amount of substance | $n$    | mole     | mol         |
+| Luminous intensity  | $I_v$  | candela  | cd          |
+
+> **Info:** Note The candela is rarely encountered in A Level Physics. Focus on the first six.
+### Derived Units
+
+A derived unit is obtained by combining base units according to the physical relationship. We denote
+The dimensions of a quantity using square brackets.
+
+**Definition.** The **dimension** of a physical quantity $Q$Written $[Q]$Is its expression in Terms
+of the base dimensions $\mathsf{M}$ (mass), $\mathsf{L}$ (length), $\mathsf{T}$ (time), $\mathsf{I}$
+(current), $\mathsf{\Theta}$ (temperature), $\mathsf{N}$ (amount of substance), $\mathsf{J}$
+(luminous intensity).
+
+**Examples.**
+
+- Velocity: $[v] = \frac{[s]}{[t]} = \mathsf{L}\mathsf{T}^{-1}$
+- Acceleration: $[a] = \frac{[v]}{[t]} = \mathsf{L}\mathsf{T}^{-2}$
+- Force (from $F = ma$): $[F] = \mathsf{M}\mathsf{L}\mathsf{T}^{-2}$
+- Pressure (from $P = F/A$): $[P] = \mathsf{M}\mathsf{L}^{-1}\mathsf{T}^{-2}$
+- Energy (from $W = Fd$): $[E] = \mathsf{M}\mathsf{L}^{2}\mathsf{T}^{-2}$
+
+Some derived units have special names:
+
+| Derived Quantity | Name    | Symbol   | In Base Units                                   |
+| ---------------- | ------- | -------- | ----------------------------------------------- |
+| Force            | newton  | N        | $\mathrm{kg m s}^{-2}$                          |
+| Energy           | joule   | J        | $\mathrm{kg m}^2\mathrm{s}^{-2}$                |
+| Power            | watt    | W        | $\mathrm{kg m}^2\mathrm{s}^{-3}$                |
+| Pressure         | pascal  | Pa       | $\mathrm{kg m}^{-1}\mathrm{s}^{-2}$             |
+| Charge           | coulomb | C        | $\mathrm{A s}$                                  |
+| Voltage          | volt    | V        | $\mathrm{kg m}^2\mathrm{s}^{-3}\mathrm{A}^{-1}$ |
+| Resistance       | ohm     | $\Omega$ | $\mathrm{kg m}^2\mathrm{s}^{-3}\mathrm{A}^{-2}$ |
+
+## 2. Dimensional Analysis
+
+**Definition.** An equation is **dimensionally homogeneous** (or **dimensionally consistent**) if
+Every term on each side has the same dimensions.
+
+This is a necessary condition for any physically meaningful equation. If the dimensions do not
+Balance, the equation is certainly wrong. If they do balance, the equation may still be wrong
+(dimensional analysis cannot reveal dimensionless constants), but it is at least plausible.
+
+### Checking the SUVAT Equation
+
+We prove that $v^2 = u^2 + 2as$ is dimensionally valid.
+
+- $[v^2] = (\mathsf{L}\mathsf{T}^{-1})^2 = \mathsf{L}^2\mathsf{T}^{-2}$
+- $[u^2] = (\mathsf{L}\mathsf{T}^{-1})^2 = \mathsf{L}^2\mathsf{T}^{-2}$
+- $[2as] = [\mathsf{L}\mathsf{T}^{-2}][\mathsf{L}] = \mathsf{L}^2\mathsf{T}^{-2}$
+
+Since $[v^2] = [u^2] = [2as] = \mathsf{L}^2\mathsf{T}^{-2}$The equation is dimensionally
+Homogeneous. $\square$
+
+### Determining the Form of an Equation
+
+Suppose we wish to find how the period $T$ of a simple pendulum depends on its length $l$ and the
+Gravitational field strength $g$. We assume:
+
+$$T = k \cdot l^a \cdot g^b$$
+
+Where $k$ is a dimensionless constant. By dimensional homogeneity:
+
+$$\mathsf{T} = \mathsf{L}^a \cdot (\mathsf{L}\mathsf{T}^{-2})^b = \mathsf{L}^{a+b} \cdot \mathsf{T}^{-2b}$$
+
+Equating powers:
+
+$$
+\begin{aligned}
+\mathsf{T}:&\quad 1 = -2b \implies b = -\frac{1}{2} \\[4pt]
+\mathsf{L}:&\quad 0 = a + b \implies a = \frac{1}{2}
+\end{aligned}
+$$
+
+Therefore $T = k\sqrt{l/g}$. Full analysis reveals $k = 2\pi$.
+
+:::tip Exam Technique Dimensional analysis is invaluable for checking your working. Get into the
+Habit of verifying dimensions for every formula you derive in an exam.
+:::
+
+## 3. SI Prefixes
+
+| Prefix | Symbol | Factor     |
+| ------ | ------ | ---------- |
+| tera   | T      | $10^{12}$  |
+| giga   | G      | $10^9$     |
+| mega   | M      | $10^6$     |
+| kilo   | k      | $10^3$     |
+| centi  | c      | $10^{-2}$  |
+| milli  | m      | $10^{-3}$  |
+| micro  | $\mu$  | $10^{-6}$  |
+| nano   | n      | $10^{-9}$  |
+| pico   | p      | $10^{-12}$ |
+| femto  | f      | $10^{-15}$ |
+
+## 4. Scalars and Vectors
+
+**Definition.** A **scalar** is a physical quantity that has magnitude only. A **vector** is a
+Physical quantity that has both magnitude and direction.
+
+| Scalar Examples                                  | Vector Examples                                               |
+| ------------------------------------------------ | ------------------------------------------------------------- |
+| Mass, temperature, speed, energy, time, distance | Displacement, velocity, acceleration, force, weight, momentum |
+
+### Vector Operations
+
+**Addition.** Vectors are added using the triangle rule or the parallelogram rule. Given vectors
+$\mathbf{a}$ and $\mathbf{b}$The resultant $\mathbf{R} = \mathbf{a} + \mathbf{b}$ is found by
+Placing the tail of $\mathbf{b}$ at the head of $\mathbf{a}$.
+
+**Resolving.** Any vector $\mathbf{F}$ can be resolved into perpendicular components. If
+$\mathbf{F}$ makes an angle $\theta$ with the horizontal:
+
+$$F_x = F\cos\theta, \qquad F_y = F\sin\theta$$
+
+**Magnitude.** Given components $F_x$ and $F_y$:
+
+$$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
+
+**Direction.** The angle with the horizontal is $\theta = \arctan\left(\frac{F_y}{F_x}\right)$.
+
+## 5. Uncertainty and Error Analysis
+
+### Types of Error
+
+- **Systematic error**: A consistent deviation from the true value, caused by a flaw in the
+  apparatus or method. It affects accuracy (closeness to true value) but not precision
+  (repeatability). Example: a zero error on a micrometer.
+- **Random error**: Unpredictable fluctuations in measured values, caused by limitations in
+  resolution or environmental factors. It affects precision but not accuracy. Random errors are
+  reduced by taking repeated measurements.
+
+:::caution Common Pitfall Do not confuse precision with accuracy. A precise measurement is
+Repeatable; an accurate measurement is close to the true value. You can have one without the other.
+:::
+
+### Absolute, Fractional, and Percentage Uncertainty
+
+**Definition.** If a quantity is measured as $x \pm \Delta x$Then:
+
+- **Absolute uncertainty**: $\Delta x$
+- **Fractional uncertainty**: $\frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆$
+- **Percentage uncertainty**: $\frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆ \times 100\%$
+
+### Combining Uncertainties
+
+We now derive the rules for propagating uncertainty through calculations. Consider a quantity
+$z = f(x, y)$ where $x$ and $y$ have uncertainties $\Delta x$ and $\Delta y$.
+
+#### Rule 1: Addition and Subtraction
+
+If $z = x + y$ or $z = x - y$Then:
+
+$$\Delta z = \Delta x + \Delta y$$
+
+**Derivation.** The worst-case scenario for $z = x + y$ is that both errors push $z$ in the same
+Direction. The maximum possible value is $z_{\max} = (x + \Delta x) + (y + \Delta y)$And the Minimum
+is $z_{\min} = (x - \Delta x) + (y - \Delta y)$. Hence:
+
+$$\Delta z = \frac◆LB◆z_{\max} - z_{\min}◆RB◆◆LB◆2◆RB◆ = \Delta x + \Delta y$$
+
+The same argument applies for subtraction. $\square$
+
+#### Rule 2: Multiplication and Division
+
+If $z = xy$ or $z = x/y$Then:
+
+$$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆ + \frac◆LB◆\Delta y◆RB◆◆LB◆y◆RB◆$$
+
+In words: when multiplying or dividing, add the **fractional** uncertainties.
+
+**Derivation for $z = xy$.** We have:
+
+$$
+\begin{aligned}
+Z_{\max} &= (x + \Delta x)(y + \Delta y) = xy + x\Delta y + y\Delta x + \Delta x \Delta y \\
+Z_{\min} &= (x - \Delta x)(y - \Delta y) = xy - x\Delta y - y\Delta x + \Delta x \Delta y
+\end{aligned}
+$$
+
+For small uncertainties, $\Delta x \Delta y$ is negligible:
+
+$$
+\begin{aligned}
+\Delta z &= \frac◆LB◆z_{\max} - z_{\min}◆RB◆◆LB◆2◆RB◆ \approx x\Delta y + y\Delta x \\[4pt]
+\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ &= \frac◆LB◆x\Delta y + y\Delta x◆RB◆◆LB◆xy◆RB◆ = \frac◆LB◆\Delta y◆RB◆◆LB◆y◆RB◆ + \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆
+\end{aligned}
+$$
+
+$\square$
+
+#### Rule 3: Powers
+
+If $z = x^n$Then:
+
+$$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = |n| \cdot \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆$$
+
+**Derivation.** Write $z = \underbrace◆LB◆x \cdot x \cdots x◆RB◆_{n \mathrm{ times}}$. Applying the
+Multiplication rule repeatedly:
+
+$$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = \underbrace◆LB◆\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}◆RB◆_{n \mathrm{ terms}} = n \cdot \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆$$
+
+For negative or fractional powers, the result generalises via logarithmic differentiation (see
+[01-wave-properties](../waves/01-wave-properties.mdx) for the general propagation of error formula).
+$\square$
+
+#### The General Propagation of Error Formula
+
+For any function $z = f(x_1, x_2, \ldots, x_n)$:
+
+$$\Delta z = \sqrt◆LB◆\sum_{i=1}^{n}\left(\frac{\partial f}{\partial x_i} \Delta x_i\right)^2◆RB◆$$
+
+This is the statistical (root-sum-square) combination, which gives the most probable uncertainty
+Rather than the worst case. For A Level exams, use the simpler worst-case rules above unless
+Instructed otherwise.
+
+### Significant Figures and Uncertainty
+
+The number of significant figures in a quoted result should be consistent with the uncertainty.
+
+**Rule.** A result should be quoted to the same number of significant figures as the uncertainty,
+And the uncertainty should be quoted to at most 2 significant figures.
+
+**Example.** If a length is measured as $12.3 \pm 0.4$ cm, we quote two significant figures
+(matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm — the
 Trailing zero implies precision we do not have.
 
 :::tip Exam Technique When you compute $g = 9.78 \pm 0.15 \mathrm{ m s}^{-2}$Write $9.8 \pm 0.2$ m

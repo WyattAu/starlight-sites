@@ -1,6 +1,72 @@
 ---
 title: The Itanium Exception ABI
-description: ""s type info chain.
+description: "The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the model specified informally by the Itanium C++ ABI and adopted as the..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# The Itanium Exception ABI
+
+The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the **zero-cost
+Table-based** model specified informally by the Itanium C++ ABI and adopted as the de-facto standard
+Mechanism [N4950 §14.2].
+
+## 1.1 Table-Based Unwinding Model
+
+When an exception is thrown, the runtime:
+
+1. Allocates the exception object (on a dedicated heap or in a pre-allocated buffer).
+2. Copies or moves the thrown expression into that object. The runtime uses a dedicated allocation
+   mechanism for exception objects.
+3. Walks the **call stack** using tables generated at compile time.
+
+Each function that may participate in exception handling has two tables embedded in the binary ( in
+the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
+
+| Table                                  | Purpose                                                                                                                                 |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **LSDA** (Language-Specific Data Area) | Describes which PC ranges map to which `try`/`catch` blocks.                                                                            |
+| **Unwind table**                       | Lists every call site in the function so the unwinder can determine whether the function has a cleanup (destructor call) at each point. |
+
+:::note On platforms using the Itanium ABI, **no runtime cost** is incurred for `try` blocks when no
+Exception is thrown. The tables are consulted only during unwinding.
+:::
+
+### Alternative Exception Models
+
+| Model                       | Description                                                         | Normal-Path Cost            | Platforms                 |
+| :-------------------------- | :------------------------------------------------------------------ | :-------------------------- | :------------------------ |
+| **Table-based (zero-cost)** | Static tables describe handlers; unwinder walks stack at throw time | ~0 instructions             | GCC, Clang, MSVC x64      |
+| **Setjmp/Longjmp (SJLJ)**   | `setjmp`/`longjmp` at each `try` entry/exit                         | ~10-20 instructions per try | Embedded, older compilers |
+| **DWARF CFI**               | DWARF Call Frame Information used for unwinding                     | ~0 instructions             | GCC/Clang (Linux, BSD)    |
+
+The SJLJ model incurs cost on every `try` entry (saving registers via `setjmp`) and every `try` exit
+(potentially restoring via `longjmp`). This is why modern compilers default to the table-based model
+— it has zero normal-path cost.
+
+## 1.2 Searching for Matching Catch Clauses
+
+The search algorithm [N4950 §14.2] proceeds as follows:
+
+1. The exception object is associated with a `std::type_info` structure describing its dynamic type.
+2. Starting from the throw site, the unwinder examines the LSDA of each frame on the call stack.
+3. For each `catch` clause, the runtime performs an **exception match**:
+
+- An exact type match.
+- A base-class match (standard derived-to-base conversion).
+- A pointer or reference conversion to `const`.
+- An ellipsis (`catch (...)`) matches everything.
+
+4. The **first** matching clause in the innermost scope wins.
+5. If no frame contains a matching handler, `std::terminate()` is called [N4950 §14.7].
+
+The match is performed using `std::type_info::operator==` or the RTTI comparison function. On
+Itanium ABI systems, the `__gxx_personality_v0` personality function performs this comparison by
+Walking the exception"s type info chain.
 
 ```cpp
 #include <iostream>

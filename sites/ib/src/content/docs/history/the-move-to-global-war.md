@@ -3,7 +3,37 @@ title: The Move to Global War
 tags:
   - IB
   - History
-description: ""war guilt clause,"
+description: "The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and Its perceived injustices became a central grievance..."
+---
+
+# The Move to Global War
+
+## Part I: Peacemaking and Collective Security (1918--1935)
+
+### The Treaty of Versailles (28 June 1919)
+
+The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and
+Its perceived injustices became a central grievance driving German revisionism throughout the
+Interwar period.
+
+#### Key Terms
+
+**Territorial losses:** Germany lost approximately 13% of its European territory and roughly 10% of
+Its population. Alsace-Lorraine was returned to France; the Eupen-Malmédy district went to Belgium;
+Northern Schleswig voted to join Denmark after a plebiscite; West Prussia and Posen were ceded to
+The newly reconstituted Poland, creating the Polish Corridor that separated East Prussia from the
+German heartland; the Saarland was placed under League of Nations administration for 15 years, with
+France controlling the coal mines; and all German colonies were transferred to League of Nations
+Mandates under British, French, Japanese, and South African administration.
+
+**Military restrictions:** The German army (the Reichswehr) was limited to 100,000 men, including no
+More than 4,000 officers. Conscription was abolished. The navy was restricted to 15,000 men, six
+Battleships, six light cruisers, twelve destroyers, and twelve torpedo boats. Submarines, military
+Aircraft, tanks, and heavy artillery were entirely prohibited. The Rhineland was to be permanently
+Demilitarised, and Allied forces were to occupy the left bank of the Rhine and bridgeheads for 15
+Years.
+
+**War guilt and reparations:** Article 231 of the Treaty, the so-called "war guilt clause,"
 Compelled Germany and its allies to accept "the responsibility of Germany and her allies for all the
 Loss and damage" suffered by the Allied powers. This clause provided the legal and moral basis for
 Reparations, the exact amount of which was not fixed at Versailles but was determined by the

@@ -1,6 +1,97 @@
 ---
 title: "Genetics -- Diagnostic Tests"
-description: ""s genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
+description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
+tableOfContents: false
+---
+
+# Genetics — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Dihybrid Cross and Independent Assortment
+
+**Question:** In pea plants, tall (T) is dominant over dwarf (t) and round seeds (R) are dominant
+over wrinkled (r). A heterozygous tall, round plant is crossed with a homozygous recessive plant.
+Calculate the expected phenotypic ratio and the probability of obtaining a tall, wrinkled plant.
+
+**Solution:**
+
+Parent 1: TtRr (heterozygous tall, round) Parent 2: ttrr (homozygous recessive)
+
+Gametes from Parent 1 (TtRr): TR, Tr, tR, tr (each with probability 1/4) Gametes from Parent 2
+(ttrr): tr (only one type)
+
+Punnett square (1 x 4):
+
+|     | TR   | Tr   | tR   | tr   |
+| --- | ---- | ---- | ---- | ---- |
+| tr  | TtRr | Ttrr | ttRr | ttrr |
+
+Phenotypes:
+
+- TtRr: Tall, Round (1/4)
+- Ttrr: Tall, Wrinkled (1/4)
+- ttRr: Dwarf, Round (1/4)
+- ttrr: Dwarf, Wrinkled (1/4)
+
+Expected phenotypic ratio: 1 tall round : 1 tall wrinkled : 1 dwarf round : 1 dwarf wrinkled
+(1:1:1:1).
+
+Probability of tall, wrinkled (Ttrr): $1/4 = 0.25 = 25\%$.
+
+This 1:1:1:1 ratio is characteristic of a test cross (crossing with homozygous recessive) and
+confirms independent assortment of the two genes.
+
+---
+
+### UT-2: Chi-Squared Test
+
+**Question:** A cross between two heterozygous pea plants (Tt x Tt) produces 732 tall and 268 dwarf
+offspring (total $n = 1000$). Perform a chi-squared test to determine whether the observed results
+fit the expected 3:1 Mendelian ratio. Use a significance level of $0.05$.
+
+**Solution:**
+
+Expected values (3:1 ratio, $n = 1000$):
+
+- Tall: $1000 \times 3/4 = 750$
+- Dwarf: $1000 \times 1/4 = 250$
+
+$$\chi^2 = \sum \frac{(O - E)^2}{E}$$
+
+Tall: $\frac{(732 - 750)^2}{750} = \frac{(-18)^2}{750} = \frac{324}{750} = 0.432$
+
+Dwarf: $\frac{(268 - 250)^2}{250} = \frac{(18)^2}{250} = \frac{324}{250} = 1.296$
+
+$\chi^2 = 0.432 + 1.296 = 1.728$
+
+Degrees of freedom: number of categories $- 1 = 2 - 1 = 1$.
+
+Critical value at $\alpha = 0.05$ with $df = 1$: $3.841$.
+
+Since $\chi^2_{\text{calc}} = 1.728 \lt 3.841 = \chi^2_{\text{crit}}$We **fail to reject** the null
+hypothesis.
+
+Conclusion: The observed data fits the expected 3:1 ratio at the 0.05 significance level. There is
+no statistically significant evidence that the inheritance pattern deviates from Mendelian
+expectations.
+
+The p-value for $\chi^2 = 1.728$ with $df = 1$ is approximately $0.19$Meaning there is a 19%
+probability of observing this much deviation (or more) by chance alone.
+
+---
+
+### UT-3: Sex-Linked Inheritance
+
+**Question:** Red-green colour blindness is an X-linked recessive trait. A woman with normal vision
+whose father was colour-blind marries a man with normal vision. They have a son. What is the
+probability that their son is colour-blind? What is the probability that a daughter is a carrier?
+
+**Solution:**
+
+Let $X^C$ = normal vision allele (dominant), $X^c$ = colour-blind allele (recessive).
+
+Woman"s genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
 have passed $X^C$ (since the woman has normal vision, she must have at least one $X^C$). Therefore,
 the woman is $X^CX^c$ (carrier).
 

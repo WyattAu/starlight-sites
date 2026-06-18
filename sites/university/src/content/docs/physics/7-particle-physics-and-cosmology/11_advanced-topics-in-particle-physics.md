@@ -3,7 +3,60 @@ title: Advanced Topics in Particle Physics
 tags:
   - Physics
   - University
-description: ""s momentum, despite being electrically neutral and invisible in
+description: "experiments (SLAC, 1968) scattered high-energy electrons off protons. The key observation: at large momentum transfer The proton behaves as if composed of..."
+---
+
+### 11.1 Deep Inelastic Scattering and Parton Model
+
+**Deep inelastic scattering (DIS)** experiments (SLAC, 1968) scattered high-energy electrons off
+protons. The key observation: at large momentum transfer $Q^2$The proton behaves as if composed of
+nearly free point-like constituents --- the **partons** (identified with quarks and gluons by
+Feynman and Bjorken).
+
+**Structure functions.** The inclusive cross section for $ep \to eX$ is parameterised by structure
+functions $F_1(x, Q^2)$ and $F_2(x, Q^2)$Where $x = Q^2/(2p \cdot q)$ is the **Bjorken scaling
+variable**.
+
+The **Callan--Gross relation** (for spin-1/2 partons):
+
+$$F_2(x) = 2xF_1(x)$$
+
+This relation was experimentally verified, confirming that the partons are fermions (quarks).
+
+**Bjorken scaling:** At large $Q^2$The structure functions depend only on $x$Not on $Q^2$
+separately. This is a consequence of the parton model (impulse approximation). In reality, QCD
+predicts logarithmic scaling violations from gluon radiation and quark-antiquark pair production.
+
+**PDFs.** The **parton distribution functions** $f_i(x, Q^2)$ give the probability of finding parton
+$i$ with momentum fraction $x$ at resolution scale $Q^2$. The structure function is:
+
+$$F_2(x, Q^2) = \sum_i e_i^2\, x\, f_i(x, Q^2)$$
+
+Where $e_i$ is the electric charge of parton $i$.
+
+The PDFs evolve with $Q^2$ according to the **DGLAP equations**:
+
+$$\frac{\partial f_i(x, Q^2)}{\partial \ln Q^2} = \frac{\alpha_s(Q^2)}{2\pi}\sum_j \int_x^1 \frac{dz}{z}\, P_{ij}(z)\, f_j\!\left(\frac{x}{z}, Q^2\right)$$
+
+Where $P_{ij}(z)$ are the splitting functions: $P_{qq}$ (quark emitting a gluon), $P_{qg}$ (gluon
+splitting into $q\bar{q}$), $P_{gq}$ (quark emitting a gluon), $P_{gg}$ (gluon splitting into two
+gluons).
+
+<details>
+<summary>Worked Example 11.1: Momentum Fraction Carried by Gluons</summary>
+
+At $Q^2 \sim 10$ GeV$^2$The momentum sum rule requires:
+
+$$\int_0^1 x\left[\sum_q f_q(x) + f_g(x)\right] dx = 1$$
+
+Experimental measurements give:
+
+$$\int_0^1 x \sum_q f_q(x)\, dx \approx 0.50$$
+
+$$\int_0^1 x f_g(x)\, dx \approx 0.45$$
+
+The remaining $\sim 5\%$ is carried by sea quarks ($q\bar{q}$ pairs). This means gluons carry
+roughly half the proton"s momentum, despite being electrically neutral and invisible in
 electromagnetic DIS.
 
 At higher $Q^2$The gluon momentum fraction increases further (gluon radiation shifts momentum from

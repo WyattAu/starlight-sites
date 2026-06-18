@@ -1,6 +1,24 @@
 ---
 title: AP Chemistry
-description: ""s six Big Ideas and their
+description: "Comprehensive revision notes for AP Chemistry, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-14
+tags:
+  - ap
+  - ap-chemistry
+categories:
+  - ap-chemistry
+
+---
+
+# AP Chemistry
+
+Comprehensive revision notes for AP Chemistry, aligned with the College Board Course and Exam
+Description.
+
+These notes cover the full AP Chemistry curriculum, from atomic structure and bonding through to
+kinetics, equilibrium, and thermodynamics. Each topic page includes key definitions, worked
+calculations, and visual explanations to support both the multiple-choice and free-response sections
+of the AP exam. The content is structured around the College Board"s six Big Ideas and their
 associated science practices.
 
 ## Topics

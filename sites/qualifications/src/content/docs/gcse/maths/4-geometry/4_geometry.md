@@ -1,6 +1,156 @@
 ---
 title: Geometry
-description: "" Theorem
+description: "| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |..."
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-maths
+categories:
+  - gcse-maths
+
+---
+
+## Geometry
+
+> **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR Paper 2 & 3 | WJEC Unit 2
+## 1. Angle Properties
+
+### 1.1 Basic Angle Facts
+
+| Property                   | Statement            |
+| -------------------------- | -------------------- |
+| Angles on a straight line  | Sum to $180^{\circ}$ |
+| Angles at a point          | Sum to $360^{\circ}$ |
+| Vertically opposite angles | Are equal            |
+| Angles in a triangle       | Sum to $180^{\circ}$ |
+| Angles in a quadrilateral  | Sum to $360^{\circ}$ |
+
+**Theorem (Angle sum of a triangle).** The interior angles of any triangle sum to $180^{\circ}$.
+
+**Proof.** Let triangle $\triangle ABC$ have vertices $A$, $B$, $C$. Draw a line through $C$
+Parallel to $AB$. Label the intersection points of this line with the exterior of the triangle as
+$D$ and $E$ (so $D$ is on the side of $B$ and $E$ is on the side of $A$).
+
+By alternate angles: $\angle B = \angle BCD$ and $\angle A = \angle ACE$.
+
+Since $D$, $C$, $E$ lie on a straight line: $\angle BCD + \angle ACB + \angle ACE = 180^{\circ}$.
+
+Therefore $\angle A + \angle B + \angle C = 180^{\circ}$. $\blacksquare$
+
+**Theorem (Angle sum of a quadrilateral).** The interior angles of any quadrilateral sum to
+$360^{\circ}$.
+
+**Proof.** Draw a diagonal, dividing the quadrilateral into two triangles. Each triangle has angles
+Summing to $180^{\circ}$So the total is $360^{\circ}$. $\blacksquare$
+
+**Corollary.** The interior angles of any $n$-sided polygon sum to $180(n - 2)^{\circ}$.
+
+**Proof by induction.** A triangle ($n = 3$) has sum $180^{\circ}$. Adding a vertex to an
+$(n-1)$-gon creates a triangle, adding $180^{\circ}$. So an $n$-gon has sum
+$180 + 180(n - 3) = 180(n - 2)^{\circ}$. $\blacksquare$
+
+### 1.2 Angles in Parallel Lines
+
+| Type                                   | Description          |
+| -------------------------------------- | -------------------- |
+| Corresponding angles (F-angles)        | Equal                |
+| Alternate angles (Z-angles)            | Equal                |
+| Co-interior (allied) angles (U-angles) | Sum to $180^{\circ}$ |
+
+**Worked Example.** In the diagram, line $AB$ is parallel to line $CD$. A transversal intersects
+$AB$ at $E$ and $CD$ at $F$. If $\angle AEF = 65^{\circ}$Find all the other angles at $E$ and $F$.
+
+$\angle AEF = \angle EFD = 65^{\circ}$ (alternate angles).
+
+$\angle BEF = 180^{\circ} - 65^{\circ} = 115^{\circ}$ (angles on a straight line).
+
+$\angle EFC = 115^{\circ}$ (corresponding to $\angle BEF$).
+
+$\angle CFD = 65^{\circ}$ (vertically opposite $\angle EFD$).
+
+$\angle EFB = \angle EFD = 65^{\circ}$ (vertically opposite).
+
+**Worked Example (Higher Tier).** Two parallel lines are cut by a transversal. One interior angle is
+$3x + 10^{\circ}$ and the co-interior angle is $2x + 20^{\circ}$. Find the value of $x$.
+
+Since co-interior angles sum to $180^{\circ}$:
+
+$$(3x + 10) + (2x + 20) = 180$$
+
+$$5x + 30 = 180$$
+
+$$5x = 150$$
+
+$$x = 30$$
+
+### 1.3 Angles in Polygons
+
+The **sum of interior angles** of an $n$-sided polygon:
+
+$$S = 180(n - 2)^{\circ}$$
+
+The **interior angle** of a regular $n$-sided polygon:
+
+$$\mathrm{Each interior angle = \frac{180(n - 2)}{n}^{\circ}$$
+
+The **exterior angle** of a regular polygon:
+
+$$\mathrm{Each exterior angle = \frac{360}{n}^{\circ}$$
+
+**Worked Example.** Find the interior angle of a regular pentagon.
+
+$$\mathrm{Interior angle = \frac{180(5 - 2)}{5} = \frac{540}{5} = 108^{\circ}$$
+
+**Worked Example (Higher Tier).** A regular polygon has an interior angle of $150^{\circ}$. How many
+Sides does it have?
+
+$$\frac{180(n - 2)}{n} = 150$$ $$180n - 360 = 150n$$ $$30n = 360$$ $$n = 12$$
+
+It is a regular dodecagon (12 sides).
+
+**Worked Example (Higher Tier).** Find the sum of the interior angles of a polygon with 15 sides.
+
+$$S = 180(15 - 2) = 180 \times 13 = 2340^{\circ}$$
+
+**Worked Example (Higher Tier).** Find the exterior angle of a regular decagon, and hence find the
+Interior angle.
+
+$$\mathrm{Exterior angle = \frac{360}{10} = 36^{\circ}$$
+
+$$\mathrm{Interior angle = 180 - 36 = 144^{\circ}$$
+
+### 1.4 Bearings
+
+A **bearing** is an angle measured clockwise from north, always given as a three-figure number (e.g.
+$045^{\circ}$Not $45^{\circ}$).
+
+**Worked Example.** A ship sails from port $A$ on a bearing of $070^{\circ}$ for 80 km to point $B$.
+It then sails on a bearing of $150^{\circ}$ for 60 km to point $C$. Find the bearing of $C$ from
+$A$.
+
+The angle $\angle NAB = 70^{\circ}$ and $\angle NBC = 150^{\circ}$.
+
+The angle between $AB$ and north at $B$ is $180^{\circ} - 70^{\circ} = 110^{\circ}$ (back bearing).
+
+The angle $\angle ABC = 110^{\circ} + 150^{\circ} = 260^{\circ}$... This is the external angle. The
+Internal angle is $360^{\circ} - 260^{\circ} = 100^{\circ}$.
+
+Using the cosine rule on $\triangle ABC$:
+
+$$AC^2 = 80^2 + 60^2 - 2 \times 80 \times 60 \times \cos(100^{\circ})$$
+$$AC^2 = 6400 + 3600 - 9600 \times (-0.1736\ldots)$$ $$AC^2 = 10000 + 1667.1\ldots = 11667.1\ldots$$
+$$AC \approx 108.0 \mathrm{ km$$
+
+Using the sine rule to find $\angle BAC$:
+
+$$\frac{\sin \angle BAC}{60} = \frac{\sin 100^{\circ}}{108.0}$$
+$$\sin \angle BAC = \frac{60 \times 0.9848}{108.0} = 0.5471\ldots$$ $$\angle BAC = 33.2^{\circ}$$
+
+Bearing of $C$ from $A = 70^{\circ} + 33.2^{\circ} = 103.2^{\circ} \approx 103^{\circ}$.
+
+## 2. Triangles and Trigonometry
+
+### 2.1 Pythagoras" Theorem
 
 **Theorem.** In a right-angled triangle with hypotenuse $c$ and legs $a$ and $b$:
 

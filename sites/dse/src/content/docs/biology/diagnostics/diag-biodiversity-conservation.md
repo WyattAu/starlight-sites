@@ -1,6 +1,12 @@
 ---
 title: "Biodiversity and Conservation -- Diagnostic Tests"
-description: ""s Diversity Index
+description: "DSE Biology Biodiversity and Conservation -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# DSE Biology Diagnostic: Biodiversity and Conservation
+
+## Unit Test 1: Species Richness, Species Evenness, and Simpson"s Diversity Index
 
 **Question**
 

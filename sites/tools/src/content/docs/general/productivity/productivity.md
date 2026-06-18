@@ -1,6 +1,49 @@
 ---
 title: Developer Productivity
-description: ""s concept of "Deep Work" — cognitively demanding tasks performed in a state of
+description: "The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-minute breaks, with a longer 15–30 minute break every 4..."
+
+---
+
+## Time Management
+
+### The Pomodoro Technique
+
+The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by
+5-minute breaks, with a longer 15–30 minute break every 4 pomodoros. This structure:
+
+1. Creates a sense of urgency — 25 minutes is short enough to maintain focus
+2. Prevents burnout — regular breaks maintain cognitive performance
+3. Makes work measurable — you can count pomodoros to estimate task size
+4. Reduces context switching — commit to one task per pomodoro
+
+**Implementation for developers:**
+
+- Use a terminal timer: `pomotodo``tomato`Or `tmux` timer plugin
+- During a pomodoro: code, debug, write tests, read documentation. One task.
+- During a break: stand up, stretch, look away from the screen. Do not context-switch to a different
+  task.
+- If interrupted, abandon the pomodoro and start a new one. A broken pomodoro does not count.
+
+### Time Blocking
+
+Time blocking assigns specific time slots to specific tasks. This prevents the reactive mode where
+You spend the entire day responding to Slack messages and pull request reviews.
+
+**Daily template for a systems engineer:**
+
+| Time Block  | Activity                              | Duration |
+| ----------- | ------------------------------------- | -------- |
+| 8:00–9:00   | Planning, email, Slack triage         | 60 min   |
+| 9:00–11:30  | Deep work (coding, debugging, design) | 150 min  |
+| 11:30–12:00 | Code review, team communication       | 30 min   |
+| 12:00–13:00 | Lunch                                 | 60 min   |
+| 13:00–15:00 | Deep work (continued)                 | 120 min  |
+| 15:00–15:30 | Break, walk                           | 30 min   |
+| 15:30–17:00 | Meetings, documentation, planning     | 90 min   |
+
+### Deep Work
+
+Cal Newport"s concept of "Deep Work" — cognitively demanding tasks performed in a state of
 Distraction-free concentration — is the most valuable skill for a knowledge worker.
 
 **Rules for deep work:**

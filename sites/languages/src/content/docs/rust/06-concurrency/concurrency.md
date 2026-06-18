@@ -1,6 +1,23 @@
 ---
 title: Concurrency
-description: ""spawned thread: {}", i);
+description: "Rust''s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating..."
+
+---
+
+## OS Threads
+
+Rust's `std::thread` module provides a 1:1 mapping to OS threads. Each thread gets its own stack
+(default 8 MB on Linux, configurable) and is scheduled by the operating system.
+
+### Spawning Threads
+
+```rust
+use std::thread;
+use std::time::Duration;
+
+let handle = thread::spawn(|| {
+    for i in 1..=5 {
+        println!("spawned thread: {}", i);
         thread::sleep(Duration::from_millis(1));
     }
 });

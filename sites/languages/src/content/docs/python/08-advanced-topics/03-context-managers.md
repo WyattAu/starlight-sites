@@ -1,6 +1,17 @@
 ---
 title: Context Managers and the with Statement
-description: ""data.txt") as f:
+description: "The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource..."
+
+---
+
+## The with Statement
+
+The `with` statement guarantees that setup and teardown code runs, even if an exception occurs in
+The block body. It is the primary mechanism for resource management in Python.
+
+```python
+# Basic form
+with open("data.txt") as f:
     content = f.read()
 
 # Equivalent to:

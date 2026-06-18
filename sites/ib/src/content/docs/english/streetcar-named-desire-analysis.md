@@ -3,7 +3,43 @@ title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
-description: ""Plastic Theater"
+description: "Tennessee Williams (1911--1983) stands alongside Eugene O''Neill and Arthur Miller as one of the Three foundational figures of twentieth-century American..."
+---
+
+# A Streetcar Named Desire: Close Reading and Analysis
+
+## 1. Context: American Drama and Tennessee Williams
+
+### Williams's Place in American Theater
+
+Tennessee Williams (1911--1983) stands alongside Eugene O'Neill and Arthur Miller as one of the
+Three foundational figures of twentieth-century American drama. While O'Neill established the
+Seriousness of American playwriting and Miller gave it a social-conscience dimension, Williams
+Brought to the American stage a lyrical intensity, psychological depth, and willingness to depict
+Desire, cruelty, and vulnerability that had no precedent in the American theatrical tradition. His
+Major works -- _The Glass Menagerie_ (1944), _A Streetcar Named Desire_ (1947), _Cat on a Hot Tin
+Roof_ (1955), and _Suddenly Last Summer_ (1958) -- collectively redefined what drama could
+Accomplish in English, pushing beyond the well-made play into something closer to operatic
+Expressionism.
+
+Williams was born Thomas Lanier Williams III in Columbus, Mississippi, and grew up in St. Louis,
+Missouri -- a displacement from the Deep South to the industrial Midwest that mirrors, in
+Biographical miniature, the cultural collision dramatized in _Streetcar_. His relationship with his
+Mother, Edwina, a Southern belle who clung to gentility amid genteel poverty, and his sister Rose,
+Who was institutionalised and subjected to a lobotomy, profoundly shaped his artistic vision.
+Blanche DuBois carries elements of both women: the fragile Southern refinement of Edwina and the
+Tragic institutionalisation of Rose. Williams himself was gay, and his experience of marginality,
+Secrecy, and the performance of social acceptability permeates his writing about characters who
+Conceal their true natures behind socially constructed facades.
+
+_Streetcar_ premiered on Broadway on 3 December 1947, directed by Elia Kazan, with Jessica Tandy as
+Blanche, Marlon Brando as Stanley, Kim Hunter as Stella, and Karl Malden as Mitch. It won the
+Pulitzer Prize for Drama and ran for 855 performances. The 1951 film adaptation, also directed by
+Kazan, brought the play to a global audience and cemented Brando's status as a generational icon.
+The play has since been revived repeatedly on stage and remains a staple of university syllabi and
+Professional repertoires worldwide.
+
+### The Concept of "Plastic Theater"
 
 Williams articulated his dramatic philosophy most in an essay titled "The Glass Menagerie" (1945),
 but the principles apply equally to _Streetcar_. He advocated for what he called "plastic Theater"

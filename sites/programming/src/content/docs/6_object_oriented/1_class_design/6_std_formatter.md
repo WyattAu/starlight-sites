@@ -1,6 +1,46 @@
 ---
 title: Custom Formatting with std::formatter
-description: ""}')
+description: "C++20 introduced Providing type-safe text formatting through . To enable Formatting for user-defined types, you specialize in namespace . This section..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Custom Formatting: Extending `std::formatter`
+
+C++20 introduced `<format>`Providing type-safe text formatting through `std::format`. To enable
+Formatting for user-defined types, you specialize `std::formatter<T, CharT>` in namespace `std`.
+This section covers the specialization API, custom format specifiers, and practical examples.
+
+## 6.1 `std::formatter<T, CharT>` Specialization [N4950 §22.14.4]
+
+To enable formatting for a user-defined type, you specialize `std::formatter<T, CharT>` in namespace
+`std`. The specialization must provide two member functions:
+
+1. **`constexpr auto parse(format_parse_context& ctx)`**: Parses format specifiers from the format
+   string. Returns an iterator pointing past the last character consumed.
+2. **`auto format(const T& obj, format_context& ctx) const`**: Formats the object and writes the
+   output. Returns an iterator past the last character written.
+
+## 6.2 Formatter for an Enum Class
+
+```cpp
+#include <format>
+#include <iostream>
+#include <string_view>
+#include <array>
+#include <stdexcept>
+
+enum class Color { Red, Green, Blue };
+
+template<>
+struct std::formatter<Color, char> {
+    constexpr auto parse(format_parse_context& ctx) {
+        auto it = ctx.begin();
+        if (it != ctx.end() && *it != "}')
             throw std::format_error("invalid format specifier for Color");
         return it;
     }

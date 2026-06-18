@@ -1,6 +1,63 @@
 ---
 title: Freshwater Issues
-description: ""good ecological status" for all water bodies. Exam
+description: "This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It examines the hydrological cycle, the characteristics and"
+
+---
+
+# Freshwater Issues
+
+This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It
+examines the hydrological cycle, the characteristics and functioning of drainage basins, the causes
+and consequences of water scarcity, and the strategies used to manage freshwater resources and flood
+risks. Water resources are unevenly distributed and increasingly under pressure from population
+growth, economic development, and climate change, making this a topic with significant real-world
+relevance.
+
+## Contents
+
+- [Drainage Basins and Hydrology](./freshwater/drainage-basins-and-hydrology) -- the hydrological
+  cycle, drainage basin systems, and river processes.
+- [Water Scarcity and Management](./freshwater/water-scarcity-and-management) -- causes of water
+  scarcity, supply and demand management strategies.
+- [Flood Management](./freshwater/flood-management) -- flood causes, impacts, and management
+  approaches including hard and soft engineering.
+
+## Key Definitions
+
+These terms form the foundation of freshwater geography and should be defined precisely in exam
+responses. Confusion between similar terms is a common source of lost marks on Paper 2 and Paper 3.
+
+- **Watershed (drainage basin boundary):** the line of highest ground separating one drainage basin
+  from another. Also called a divide. Watershed delineation is essential for understanding the scale
+  at which water management operates; many transboundary drainage basins (the Nile, the Mekong, the
+  Colorado) complicate management because multiple sovereign jurisdictions share a single basin.
+
+- **Throughflow:** water that moves laterally through the soil profile, downslope toward a river
+  channel. Throughflow is slower than surface runoff but faster than baseflow, and is a major
+  contributor to stream discharge between storm events. Changes in land use (deforestation,
+  urbanisation) significantly alter throughflow rates and are a key factor in modifying flood
+  hydrographs.
+
+- **Baseflow:** the sustained flow in a river channel fed by groundwater discharge. Baseflow
+  maintains river levels during dry periods and is critical for water supply in regions with
+  seasonal rainfall. Over-extraction of groundwater (as in the Ogallala Aquifer in the US High
+  Plains, or the North China Plain) reduces baseflow and can cause rivers to cease flowing in dry
+  seasons.
+
+- **Physical water scarcity:** occurs where annual renewable freshwater resources per capita fall
+  below 1,000 cubic metres. Arid and semi-arid regions (North Africa, the Middle East, Central Asia,
+  parts of Australia) face physical scarcity regardless of economic development. The UN projects
+  that by 2025, approximately 1.8 billion people will live in areas of absolute physical scarcity.
+
+- **Economic water scarcity:** occurs where renewable freshwater is available but infrastructure
+  (pipelines, treatment plants, wells, storage) is insufficient to deliver it reliably to users.
+  Sub-Saharan Africa is the most affected region: despite adequate rainfall in many areas, lack of
+  investment in water infrastructure leaves large populations without reliable access to safe water.
+
+- **Integrated drainage basin management (IDBM):** a holistic approach to managing all aspects of a
+  drainage basin -- water supply, quality, flood risk, and ecology -- in a coordinated way rather
+  than addressing each issue in isolation. The EU Water Framework Directive is a policy example of
+  IDBM, requiring member states to achieve "good ecological status" for all water bodies. Exam
   questions frequently ask students to evaluate whether management in a given case study is truly
   integrated.
 

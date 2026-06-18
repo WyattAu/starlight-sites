@@ -1,6 +1,23 @@
 ---
 title: Modern Texts and Poetry
-description: ""modern texts" component of GCSE English Literature encompasses fiction, drama, and occasionally
+description: "(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+date: 2026-04-22
+tags:
+  - gcse
+  - gcse-english
+categories:
+  - gcse-english
+
+---
+
+## Modern Texts and Poetry
+
+:::info Board Coverage AQA Paper 2 | Edexcel Paper 1 Component 2 (Modern Prose/Drama) and Paper 2
+(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2
+
+## 1. Modern Texts (Post-1914)
+
+The "modern texts" component of GCSE English Literature encompasses fiction, drama, and occasionally
 Non-fiction published after 1914. The choice of modern text varies by board and by centre. The
 Following are the most commonly set texts.
 

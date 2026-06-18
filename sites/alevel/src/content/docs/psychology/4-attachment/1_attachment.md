@@ -6,7 +6,46 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: ""mothers": one made of wire mesh that provided milk, and one covered in soft
+description: "A-Level Psychology Attachment notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation."
+
+---
+
+# Attachment
+
+## Introduction
+
+Attachment is the deep, enduring emotional bond that forms between a child and their primary
+caregiver, in most cases within the first year of life. This topic examines how attachments form,
+the different types of attachment, evolutionary explanations, the effects of deprivation and
+institutionalisation, and how early attachment experiences influence later relationships.
+
+## Key Concepts
+
+### Animal Studies
+
+**Lorenz (1935) — Imprinting in geese:**
+
+**Procedure:** Lorenz divided a clutch of greylag goose eggs into two groups. One group hatched
+under normal conditions with the mother goose; the other hatched in an incubator with Lorenz as the
+first moving object they saw.
+
+**Findings:** The incubator-hatched goslings followed Lorenz everywhere and showed no recognition of
+their natural mother. The goslings hatched by the mother followed her. This process, which Lorenz
+called **imprinting**, occurred within a brief, biologically determined **critical period**
+(approximately 13–16 hours after hatching).
+
+**Key principles:**
+
+- Imprinting is innate (genetically programmed).
+- It occurs during a critical period.
+- It is irreversible — once imprinted, the attachment cannot be reversed.
+- Imprinting affects later mate preference — Lorenz found that imprinted birds later directed sexual
+  behaviour towards humans.
+
+**Harlow (1958, 1962) — Contact comfort in rhesus monkeys:**
+
+**Procedure:** Harlow separated infant rhesus monkeys from their mothers at birth and raised them
+with two surrogate "mothers": one made of wire mesh that provided milk, and one covered in soft
 cloth that provided no food.
 
 **Findings:** The monkeys overwhelmingly preferred the cloth mother, spending most of their time

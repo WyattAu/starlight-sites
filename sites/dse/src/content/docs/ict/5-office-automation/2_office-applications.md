@@ -1,6 +1,73 @@
 ---
 title: Office Applications in Depth
-description: ""Product not found")
+description: "This document extends the spreadsheet, database, and office automation topics in with advanced Spreadsheet functions, deeper database operations, and..."
+date: 2026-04-08T00:00:00.000Z
+tags:
+  - DSE
+  - ICT
+categories:
+  - DSE
+  - ICT
+
+---
+
+This document extends the spreadsheet, database, and office automation topics in
+[../5-office-automation/1_office-automation](../5-office-automation/1_office-automation) with
+advanced Spreadsheet functions, deeper database operations, and detailed coverage of presentation
+software and Desktop publishing for the DSE ICT practical examination.
+
+---
+
+## Advanced Spreadsheet Functions
+
+### VLOOKUP -- Vertical Lookup
+
+`VLOOKUP` searches for a value in the first column of a table and returns a value from a specified
+Column in the same row.
+
+```
+VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+```
+
+| Parameter       | Description                                                               |
+| --------------- | ------------------------------------------------------------------------- |
+| `lookup_value`  | The value to search for in the first column                               |
+| `table_array`   | The range containing the lookup table (first column is the search column) |
+| `col_index_num` | The column number in the table from which to return the value (1-based)   |
+| `range_lookup`  | `TRUE` (or omitted) for approximate match; `FALSE` for exact match        |
+
+**Critical limitations of VLOOKUP:**
+
+1. Can only search the **leftmost** column of the table. Cannot look up values to the left of the
+   search column.
+2. `col_index_num` is a hardcoded number -- if columns are inserted or deleted, the formula breaks.
+3. Returns only the **first** matching value. If duplicates exist in the search column, only the
+   first is returned.
+4. The entire table array is fixed -- the search column must always be the first column.
+
+<details>
+<summary>Worked Example: VLOOKUP with Exact Match</summary>
+
+A product catalogue in `E1:H20` with columns: ProductCode (E), ProductName (F), Category (G), Price
+(H).
+
+In cell `A1`The user enters a product code. In `B1`Display the product name. In `C1`Display the
+Price.
+
+```python
+B1: =VLOOKUP(A1, $E$1:$H$20, 2, FALSE)
+C1: =VLOOKUP(A1, $E$1:$H$20, 4, FALSE)
+```
+
+If `A1` contains `P105`The formula searches column E for `P105`Finds it, and returns the value From
+column 2 (F) for the product name and column 4 (H) for the price.
+
+If the product code is not found, both formulas return `#N/A`.
+
+To handle the error gracefully:
+
+```python
+B1: =IFERROR(VLOOKUP(A1, $E$1:$H$20, 2, FALSE), "Product not found")
 ```
 
 </details>

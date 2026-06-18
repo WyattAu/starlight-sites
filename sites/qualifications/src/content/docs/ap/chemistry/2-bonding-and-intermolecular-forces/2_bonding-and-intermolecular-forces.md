@@ -1,6 +1,43 @@
 ---
 title: Bonding and Intermolecular Forces
-description: ""s law: the electrostatic attraction is proportional to the product of
+description: "Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-chemistry
+categories:
+  - ap-chemistry
+
+---
+
+## Chemical Bonds (CED Units 2-3)
+
+### Types of Bonds
+
+| Bond Type         | Description                             | Electronegativity Difference |
+| ----------------- | --------------------------------------- | ---------------------------- |
+| Ionic             | Transfer of electrons; metal + nonmetal | $\gt 1.7$                    |
+| Polar Covalent    | Unequal sharing of electrons            | $0.4$ -- $1.7$               |
+| Nonpolar Covalent | Equal sharing of electrons              | $\lt 0.4$                    |
+
+The distinction between ionic and covalent bonding is not always sharp. Bonds with electronegativity
+Differences near the boundary ($\approx 1.7$) have significant ionic and covalent character. Bonding
+Is better described as a continuum rather than a discrete set of categories.
+
+### Ionic Bonding
+
+Ionic compounds consist of cations and anions held together by electrostatic attraction in a
+Three-dimensional lattice.
+
+**Lattice energy** ($U$): the energy released when gaseous ions form one mole of solid ionic
+Compound:
+
+$$
+U \propto \frac{|z_+ \cdot z_-|}{r_+ + r_-}
+$$
+
+Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
+Direct consequence of Coulomb"s law: the electrostatic attraction is proportional to the product of
 The charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry

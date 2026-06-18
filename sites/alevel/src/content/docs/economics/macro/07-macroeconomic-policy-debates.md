@@ -1,6 +1,39 @@
 ---
 title: Macroeconomic Policy Debates
-description: ""Inflation is always and everywhere a monetary phenomenon"**: sustained inflation is caused by
+description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## 1. Monetarism vs Keynesianism
+
+### 1.1 The Keynesian Revolution
+
+Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central
+Insight: **aggregate demand determines output in the short run**, and there is no automatic
+Mechanism ensuring full employment.
+
+**Key propositions:**
+
+1. Prices and wages are **sticky downward** — they do not adjust quickly to clear markets
+2. The economy can be in **equilibrium with involuntary unemployment** (a persistent output gap)
+3. Active **fiscal policy** is needed to manage aggregate demand
+4. The **multiplier** amplifies the effects of spending changes
+5. **Liquidity preference** determines the interest rate: the demand for money is a stable function
+   of income and the interest rate
+
+$$IS-LM: \quad Y = C(Y - T) + I(r) + G, \quad \frac{M}{P} = L(Y, r)$$
+
+### 1.2 The Monetarist Counter-Revolution
+
+Friedman (1968, _The Role of Monetary Policy_) and the monetarists argued:
+
+1. **"Inflation is always and everywhere a monetary phenomenon"**: sustained inflation is caused by
    excessive growth of the money supply
 
 $$\pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y$$

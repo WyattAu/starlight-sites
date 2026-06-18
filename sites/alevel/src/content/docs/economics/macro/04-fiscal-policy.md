@@ -1,6 +1,26 @@
 ---
 title: Fiscal Policy
-description: ""s monetary policy.
+description: "We define as the use of government spending () and taxation () to influence The level of aggregate demand, economic activity, and the allocation of..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## 1. Introduction to Fiscal Policy
+
+### 1.1 Definition
+
+We define **fiscal policy** as the use of government spending ($G$) and taxation ($T$) to influence
+The level of aggregate demand, economic activity, and the allocation of resources in the economy.
+
+$$\mathrm{Fiscal policy tools: } G, T, \mathrm{ and } (G - T)$$
+
+Fiscal policy is conducted by the government (Chancellor of the Exchequer in the UK, Secretary of
+The Treasury in the US) alongside the central bank"s monetary policy.
 
 ### 1.2 The Government Budget
 

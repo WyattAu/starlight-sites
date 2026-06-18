@@ -1,6 +1,23 @@
 ---
 title: Geographic Skills
-description: ""1 cm represents 0.5 km."
+description: "Map scale expresses the relationship between distance on the map and distance on the ground. There are three representations: "''
+
+---
+
+# Geographic Skills
+
+## Map Skills
+
+### Scale
+
+Map scale expresses the relationship between distance on the map and distance on the ground. There
+are three representations:
+
+1. **Representative fraction (RF):** expressed as a ratio, e.g., 1:50 000 means 1 unit on the map
+   represents 50 000 units on the ground. RF is dimensionless.
+2. **Linear (graphic) scale:** a graduated line marked with ground distances. Useful because it
+   remains accurate when the map is enlarged or reduced.
+3. **Statement scale:** a verbal description, e.g., "1 cm represents 0.5 km."
 
 To convert between RF and statement scale: if RF = 1:50 000, then 1 cm on the map = 50 000 cm = 500
 m = 0.5 km on the ground.

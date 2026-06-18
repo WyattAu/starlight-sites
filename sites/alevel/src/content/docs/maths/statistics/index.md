@@ -1,6 +1,32 @@
 ---
 title: Statistics
-description: ""s product-moment correlation coefficient** — $r$ measures linear correlation;
+description: "A-Level Maths Statistics notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision and exam readiness."
+---
+
+# Statistics
+
+Statistics is the science of collecting, analysing, and drawing conclusions from data under
+uncertainty. A-Level Statistics covers data representation, probability theory, statistical
+distributions, and hypothesis testing — the foundations of data-driven decision making.
+
+## Topics Covered
+
+### Data Representation
+
+- **Types of data** — qualitative vs. quantitative, discrete vs. continuous, primary vs. secondary
+- **Measures of central tendency** — mean $\bar{x} = \frac{\sum x}{n}$, median, mode; when each is
+  appropriate
+- **Measures of spread** — range, interquartile range (IQR), variance
+  $\sigma^2 = \frac{\sum(x-\bar{x})^2}{n}$, standard deviation
+- **Visual representations** — histograms (with varying class widths), cumulative frequency curves,
+  box plots, stem-and-leaf diagrams
+- **Outliers** — identification using $1.5 \times \text{IQR}$ or mean $\pm 2\sigma$; deciding
+  whether to exclude
+
+### Correlation and Regression
+
+- **Scatter diagrams** — visual assessment of correlation (positive, negative, none)
+- **Pearson"s product-moment correlation coefficient** — $r$ measures linear correlation;
   $-1 \leq r \leq 1$
 - **Regression line** — $y = a + bx$; least squares; interpreting $a$ (intercept) and $b$ (gradient)
   in context

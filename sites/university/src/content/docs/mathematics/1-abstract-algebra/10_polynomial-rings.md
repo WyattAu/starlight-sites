@@ -3,7 +3,32 @@ title: Polynomial Rings
 tags:
   - Mathematics
   - University
-description: ""s Criterion).** Let
+description: "Polynomial Rings: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 10.1 Definition and Basic Properties
+
+The **polynomial ring** $R[x]$ consists of all formal sums $\sum_{i=0}^{n} a_i x^i$ with
+$a_i \in R$. It is a ring under the usual addition and multiplication of polynomials.
+
+**Theorem 10.1 (Division Algorithm).** If $F$ is a field and $f, g \in F[x]$ with $g \neq 0$Then
+There exist unique $q, r \in F[x]$ such that $f = qg + r$ with $\deg(r) \lt \deg(g)$ or $r = 0$.
+
+**Theorem 10.2 (Factor Theorem).** $a \in F$ is a root of $f \in F[x]$ if and only if $(x - a)$
+divides $f$.
+
+**Proposition 10.3.** A polynomial of degree $n$ over a field has at most $n$ roots (counting
+multiplicity).
+
+### 10.2 Irreducible Polynomials
+
+A non-constant polynomial $f \in F[x]$ is **irreducible** if it cannot be factored as $f = gh$ With
+both $g$ and $h$ of degree less than $\deg(f)$.
+
+**Proposition 10.4.** Every polynomial in $F[x]$ factors uniquely into irreducible polynomials (up
+to Reordering and multiplication by units).
+
+**Theorem 10.5 (Eisenstein"s Criterion).** Let
 $f(x) = a_n x^n + \cdots + a_1 x + a_0 \in \mathbb{Z}[x]$. If there exists a prime $p$ such that:
 
 1. $p$ divides $a_0, a_1, \ldots, a_{n-1}$.

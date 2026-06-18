@@ -5,7 +5,52 @@ tags:
   - IB History
 categories:
   - IB History
-description: ""war guilt clause" (Article 231), reparations, territorial
+description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —..."
+---
+
+# Democratic States: Challenges and Crises (1918--1939)
+
+This document covers the IB History topic on Democratic States for Paper 2. It examines three case
+studies of democratic states facing severe challenges — Weimar Germany, the United States during the
+Great Depression, and the Spanish Second Republic — and analyses the conditions that enabled
+democratic systems to survive or collapse. Comparative analysis and historiographical perspectives
+are integrated throughout.
+
+---
+
+## 1. Weimar Germany (1919--1933)
+
+### 1.1 The Weimar Constitution
+
+- Established in the town of Weimar (not Berlin) in August 1919, amid political instability
+- Key features:
+  - **President**: elected every seven years, with extensive emergency powers under Article 48 —
+    could rule by decree in times of crisis
+  - **Reichstag**: elected by proportional representation — ensured fair representation but produced
+    fragmented parliaments with many small parties
+  - **Chancellor**: appointed by the President, required the confidence of the Reichstag
+  - **Bill of Rights**: guaranteed civil liberties, freedom of speech, assembly, and religion
+  - **Article 48**: the most significant weakness — allowed the President to suspend civil liberties
+    and rule by decree, and was used increasingly from 1930 onwards
+- Strengths: democratic, progressive, included welfare provisions, gave women the vote
+- Weaknesses: proportional representation encouraged extremism; Article 48 undermined parliamentary
+  democracy; the constitution was associated with national humiliation
+
+### 1.2 Challenges
+
+**Political Violence and Extremism**
+
+- The new republic faced violent opposition from both left and right
+- **Left-wing threats**: Spartacist Uprising (January 1919) — communist revolt suppressed by the
+  Freikorps (paramilitary units); the Bavarian Soviet Republic (April 1919)
+- **Right-wing threats**: the Kapp Putsch (March 1920) — right-wing attempt to overthrow the
+  government; political assassinations (Matthias Erzberger, Walther Rathenau)
+- The judiciary was biased towards the right: left-wing offenders received harsh sentences,
+  right-wing offenders received lenient treatment
+
+**The Treaty of Versailles**
+
+- The treaty was deeply unpopular — the "war guilt clause" (Article 231), reparations, territorial
   losses, and military restrictions were seen as a national humiliation
 - The government was associated with the treaty — politicians were called the "November Criminals"
 - The stab-in-the-back myth (Dolchstosslegende) blamed the civilian government for Germany"s defeat,

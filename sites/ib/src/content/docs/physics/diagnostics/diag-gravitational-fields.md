@@ -1,6 +1,101 @@
 ---
 title: "Gravitational Fields -- Diagnostic Tests"
-description: ""bound" and would need energy input to escape.
+description: "IB Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Gravitational Fields — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Gravitational Field Strength Inside a Uniform Sphere
+
+**Question:**
+
+A planet of mass $M = 6.0 \times 10^{24}\,\text{kg}$ and radius $R = 6.4 \times 10^6\,\text{m}$ is
+modelled as a uniform sphere. Take $G = 6.67 \times 10^{-11}\,\text{N}\,\text{m}^2\,\text{kg}^{-2}$.
+
+(a) Derive the expression for the gravitational field strength at a distance $r$ from the centre
+where $r \lt R$.
+
+(b) Calculate the field strength at $r = R/2$ and at $r = R$.
+
+(c) A tunnel is drilled through the planet along a diameter. A small object is released from rest at
+the surface. Show that the object undergoes SHM and calculate the period.
+
+**Solution:**
+
+(a) For a uniform sphere of density $\rho$The mass enclosed within radius $r$ is:
+
+$$M_{\text{enc}} = \frac{4}{3}\pi r^3 \rho = M\frac{r^3}{R^3}$$
+
+By the shell theorem, only the enclosed mass contributes to the gravitational field at radius $r$:
+
+$$g(r) = \frac{GM_{\text{enc}}}{r^2} = \frac{GM}{R^3}r$$
+
+The field strength increases linearly with $r$ inside the sphere.
+
+(b) At $r = R/2$:
+
+$$g = \frac{GM}{R^3} \times \frac{R}{2} = \frac{GM}{2R^2} = \frac{g_{\text{surface}}}{2}$$
+
+Surface gravity:
+$g_s = \frac{GM}{R^2} = \frac{6.67 \times 10^{-11} \times 6.0 \times 10^{24}}{(6.4 \times 10^6)^2} = \frac{4.002 \times 10^{14}}{4.096 \times 10^{13}} = 9.77\,\text{m}\,\text{s}^{-2}$
+
+At $r = R/2$: $g = 9.77/2 = 4.89\,\text{m}\,\text{s}^{-2}$
+
+At $r = R$: $g = 9.77\,\text{m}\,\text{s}^{-2}$
+
+(c) Inside the tunnel, the gravitational force on the object at distance $x$ from the centre (along
+the tunnel) is:
+
+$$F = -\frac{GMm}{R^3}x$$
+
+$$a = -\frac{GM}{R^3}x$$
+
+This is SHM with $\omega^2 = GM/R^3$.
+
+Period: $T = 2\pi\sqrt{\frac{R^3}{GM}}$
+
+$$T = 2\pi\sqrt{\frac{(6.4 \times 10^6)^3}{6.67 \times 10^{-11} \times 6.0 \times 10^{24}}} = 2\pi\sqrt{\frac{2.621 \times 10^{20}}{4.002 \times 10^{14}}} = 2\pi\sqrt{6.551 \times 10^5}$$
+
+$$= 2\pi \times 809.4 = 5087\,\text{s} \approx 84.8\,\text{minutes}$$
+
+Note: this period is independent of the tunnel direction (it only depends on $R^3/GM$Not on the
+chord chosen). It equals the period of a low-altitude circular orbit.
+
+---
+
+### UT-2: Gravitational Potential is Always Negative
+
+**Question:**
+
+(a) Explain why gravitational potential is defined as negative and why it approaches zero at
+infinity.
+
+(b) Calculate the gravitational potential at the surface of the Earth and at a height of $3R_E$
+above the surface.
+
+(c) Calculate the minimum energy required to move a satellite of mass $500\,\text{kg}$ from a
+circular orbit of radius $r_1 = 2R_E$ to one of radius $r_2 = 5R_E$.
+
+Take
+$M_E = 6.0 \times 10^{24}\,\text{kg}$$R_E = 6.4 \times 10^6\,\text{m}$$G = 6.67 \times 10^{-11}\,\text{N}\,\text{m}^2\,\text{kg}^{-2}$.
+
+**Solution:**
+
+(a) Gravitational potential at distance $r$ from mass $M$ is:
+
+$$V = -\frac{GM}{r}$$
+
+The zero of potential is defined at infinity (where the gravitational field is zero). Since work
+must be done against gravity to move a mass from distance $r$ to infinity, the potential at $r$ must
+be lower than at infinity. Since $V(\infty) = 0$ and $V(r) \lt V(\infty)$The potential is negative
+at all finite distances.
+
+The potential is a scalar quantity (unlike field strength, which is a vector). It represents the
+gravitational PE per unit mass. A negative potential means a mass at that position has negative PE
+relative to infinity -- it is "bound" and would need energy input to escape.
 
 (b) At the surface ($r = R_E$):
 

@@ -1,7 +1,132 @@
 ---
 title: GCSE Physics Study Guide
 date: 2026-05-31
-description: ""s Laws
+description: "A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts...."
+tags:
+  - gcse
+  - physics
+categories:
+  - gcse
+
+---
+
+# GCSE Physics Study Guide
+
+A complete single-page revision guide covering the full GCSE Physics specification. Each section
+contains key concepts, definitions, and essential facts. Use this alongside the
+[full topic pages](physics/) for detailed derivations and further practice.
+
+---
+
+## 1. Energy
+
+### 1.1 Energy Stores and Transfers
+
+**Energy stores:** kinetic, gravitational potential, elastic potential, thermal, chemical, magnetic,
+electrostatic, nuclear.
+
+**Energy transfers:** heating (particles), electrical work, mechanical work (forces doing work),
+radiation (light and other EM waves).
+
+**Conservation of energy:** Energy cannot be created or destroyed — it can only be transferred from
+one store to another. The total energy in a closed system remains constant.
+
+### 1.2 Kinetic and Potential Energy
+
+**Kinetic energy:**
+
+$$E_k = \frac{1}{2}mv^2$$
+
+where $m$ is mass (kg) and $v$ is velocity (m/s).
+
+**Gravitational potential energy:**
+
+$$E_p = mgh$$
+
+where $g \approx 9.8 \text{ N/kg}$ and $h$ is height (m).
+
+**Elastic potential energy:**
+
+$$E_e = \frac{1}{2}ke^2$$
+
+where $k$ is the spring constant (N/m) and $e$ is extension (m).
+
+### 1.3 Efficiency
+
+$$\text{Efficiency} = \frac{\text{useful energy output}}{\text{total energy input}} \times 100$$
+
+Efficiency can also be expressed in terms of power:
+
+$$\text{Efficiency} = \frac{\text{useful power output}}{\text{total power input}} \times 100$$
+
+No device is 100% efficient. Wasted energy is in most cases dissipated as thermal energy to the
+surroundings.
+
+### 1.4 Power and Work Done
+
+**Work done:** When a force moves an object, work is done.
+
+$$W = Fs$$
+
+where $W$ is work done (J), $F$ is force (N), $s$ is distance moved in the direction of the force
+(m).
+
+1 joule = 1 newton-metre (1 J = 1 Nm).
+
+**Power:** The rate of doing work or transferring energy.
+
+$$P = \frac{W}{t} = \frac{E}{t}$$
+
+where $P$ is power (W), $W$ is work done (J), $E$ is energy transferred (J), $t$ is time (s).
+
+1 watt = 1 joule per second (1 W = 1 J/s).
+
+### 1.5 Specific Heat Capacity
+
+The energy needed to raise the temperature of 1 kg of a substance by 1°C.
+
+$$\Delta E = mc\Delta T$$
+
+where $m$ is mass (kg), $c$ is specific heat capacity (J/kg°C), and $\Delta T$ is the temperature
+change (°C).
+
+**Key values:** Water $c = 4200 \text{ J/kg°C}$, Aluminium $c = 900 \text{ J/kg°C}$, Copper
+$c = 390 \text{ J/kg°C}$.
+
+### 1.6 Specific Latent Heat
+
+The energy needed to change the state of 1 kg of a substance without changing its temperature.
+
+$$E = mL$$
+
+where $L$ is specific latent heat (J/kg).
+
+- **Specific latent heat of fusion:** Melting (solid to liquid).
+- **Specific latent heat of vaporisation:** Boiling (liquid to gas).
+
+**Key value:** Water — latent heat of fusion $\approx 334\,000 \text{ J/kg}$, latent heat of
+vaporisation $\approx 2\,260\,000 \text{ J/kg}$.
+
+---
+
+## 2. Forces and Motion
+
+### 2.1 Speed, Velocity and Acceleration
+
+**Speed** is a scalar; **velocity** is a vector (has direction).
+
+$$\text{Speed} = \frac{\text{distance}}{\text{time}} \qquad v = \frac{s}{t}$$
+
+**Acceleration:** The rate of change of velocity.
+
+$$a = \frac{\Delta v}{t} = \frac{v - u}{t}$$
+
+where $u$ is initial velocity, $v$ is final velocity, $t$ is time.
+
+**Typical speeds:** Walking 1.5 m/s, running 3 m/s, cycling 6 m/s, car on motorway 30 m/s, sound in
+air 330 m/s.
+
+### 2.2 Newton"s Laws
 
 **First law:** An object remains at rest or moves at constant velocity unless a resultant force acts
 on it.

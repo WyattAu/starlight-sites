@@ -1,6 +1,89 @@
 ---
 title: "Atomic Structure and Periodicity -- Diagnostic Tests"
-description: ""s claim is **partially correct but incomplete**. While increasing effective nuclear
+description: "A-Level Chemistry Atomic Structure and Periodicity -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Atomic Structure and Periodicity — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Electron Configuration Exceptions and Orbital Diagrams
+
+**Question:**
+
+(a) Write the full electron configuration of $\text{Cr}^{3+}$ and $\text{Cu}^+$Explaining any
+deviation from the expected $4s$-before-$3d$ filling order.
+
+(b) The third ionisation energy of chromium is $2987\,\text{kJ mol}^{-1}$While the fourth ionisation
+energy is $4743\,\text{kJ mol}^{-1}$. Explain why this jump occurs and identify which electron is
+being removed at the fourth ionisation.
+
+**Solution:**
+
+(a) $\text{Cr}$ has atomic number 24. Its ground state configuration is
+$1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^5\,4s^1$ (not $3d^4\,4s^2$). The half-filled $3d$ subshell and
+singly-occupied $4s$ orbital provide extra stability due to exchange energy and symmetrical charge
+distribution.
+
+$\text{Cr}^{3+}$: Remove the $4s^1$ electron first, then two $3d$ electrons:
+
+$$\text{Cr}^{3+}: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^3$$
+
+$\text{Cu}$ has atomic number 29. Its ground state configuration is
+$1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$). A fully-filled $3d$ subshell
+provides extra stability.
+
+$\text{Cu}^+$: Remove the $4s^1$ electron:
+
+$$\text{Cu}^+: 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}$$
+
+**Key point:** When forming cations, $4s$ electrons are removed before $3d$ electrons, despite $4s$
+filling before $3d$. This is because once the $3d$ subshell is occupied, the $3d$ orbital energy
+drops below $4s$.
+
+(b) The jump from third to fourth ionisation energy corresponds to breaking into a new shell. After
+removing three electrons ($4s^1$ and two $3d$ electrons), $\text{Cr}^{3+}$ has the configuration
+$1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^3$. The fourth electron removed comes from the $3p$ subshell
+(closer to the nucleus, experiencing greater effective nuclear charge and less shielding). This is a
+significant jump because the electron transitions from the $n = 3$ valence shell to being removed
+from a lower-energy subshell with significantly higher nuclear attraction.
+
+---
+
+### UT-2: Successive Ionisation Energy Pattern Interpretation
+
+**Question:**
+
+The first eight successive ionisation energies of an element $X$ are shown below:
+
+| Ionisation                | 1st | 2nd  | 3rd  | 4th  | 5th   | 6th   | 7th   | 8th   |
+| ------------------------- | --- | ---- | ---- | ---- | ----- | ----- | ----- | ----- |
+| $IE / \text{kJ mol}^{-1}$ | 789 | 1577 | 3232 | 4356 | 16092 | 17980 | 26722 | 31730 |
+
+(a) Identify the group of element $X$ in the periodic table, explaining your reasoning.
+
+(b) Explain why the increase from the 4th to 5th ionisation energy is so much larger than the
+increase from the 3rd to 4th.
+
+(c) A student claims that the general increasing trend across successive ionisation energies is
+solely due to increasing effective nuclear charge. Evaluate this claim.
+
+**Solution:**
+
+(a) The large jump occurs between the 4th and 5th ionisation energies (from $4356$ to
+$16092\,\text{kJ mol}^{-1}$). This indicates that the first four electrons are relatively easy to
+remove (from the outermost shell), while the fifth electron comes from a shell closer to the
+nucleus. Therefore, element $X$ is in **Group 4** of the periodic table.
+
+(b) The first four electrons are removed from the same principal energy level (valence shell, $n$).
+Although each successive removal is harder (because the remaining electrons experience greater
+effective nuclear charge with fewer electrons repelling each other), the differences are relatively
+modest. The 5th electron must be removed from the next inner shell, which is much closer to the
+nucleus and has significantly greater nuclear attraction. The large jump reflects the transition
+from removing valence electrons to removing core electrons.
+
+(c) The student"s claim is **partially correct but incomplete**. While increasing effective nuclear
 charge (more protons attracting fewer remaining electrons) does explain the general increasing trend
 within a given shell, there are additional factors:
 

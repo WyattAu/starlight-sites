@@ -1,6 +1,23 @@
 ---
 title: Macroeconomic Performance
-description: ""Final" goods and services are those purchased for final consumption or investment — intermediate
+description: "We define as the total monetary value of all final goods and Services produced within a country''s borders during a given time period."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## 1. Gross Domestic Product (GDP)
+
+### 1.1 Definition
+
+We define **Gross Domestic Product (GDP)** as the total monetary value of all final goods and
+Services produced within a country's borders during a given time period.
+
+"Final" goods and services are those purchased for final consumption or investment — intermediate
 Goods are excluded to avoid double counting.
 
 ### 1.2 Three Approaches to Measuring GDP

@@ -1,6 +1,638 @@
 ---
 title: Chemical Kinetics
-description: ""s affinity for the substrate (lower $K_M$ = higher affinity).
+description: "Rigorous IB chemistry notes covering Chemical Kinetics. Includes definitions, derivations, worked examples, and exam-style problems. collision theory."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## Rate of Reaction
+
+### Definition
+
+The rate of a reaction is the change in concentration of a reactant or product per unit time.
+
+$$
+\mathrm{Rate} = \frac{\Delta[\mathrm{product}]}{\Delta t} = -\frac{\Delta[\mathrm{reactant}]}{\Delta t}
+$$
+
+### Average Rate
+
+$$
+\mathrm{Average rate} = \frac{[\mathrm{A}]_2 - [\mathrm{A}]_1}{t_2 - t_1}
+$$
+
+### Instantaneous Rate
+
+The instantaneous rate is the gradient of the concentration-time graph at a specific point (the
+Tangent to the curve).
+
+### Stoichiometric Relationship
+
+For the reaction $a\mathrm{A} + b\mathrm{B} \to c\mathrm{C} + d\mathrm{D}$:
+
+$$
+\mathrm{Rate} = -\frac{1}{a}\frac{d[\mathrm{A}]}`\{dt}` = -\frac{1}{b}\frac{d[\mathrm{B}]}`\{dt}` = \frac{1}{c}\frac{d[\mathrm{C}]}`\{dt}` = \frac{1}{d}\frac{d[\mathrm{D}]}`\{dt}`
+$$
+
+### Experimental Determination
+
+Methods for measuring reaction rate:
+
+| Method         | Measured Quantity          | Example                        |
+| -------------- | -------------------------- | ------------------------------ |
+| Gas collection | Volume of gas vs time      | CaCO$_3$ + HCl $\to$ CO$_2$    |
+| Mass loss      | Mass vs time               | Gas-producing reactions        |
+| Titration      | Concentration vs time      | Quenching samples at intervals |
+| Colorimetry    | Absorbance vs time         | Coloured product formation     |
+| Conductivity   | Conductance vs time        | Ions produced/consumed         |
+| Clock reaction | Time for observable change | Iodine clock reaction          |
+
+---
+
+## Collision Theory
+
+### Fundamental Idea
+
+For a reaction to occur, reactant particles must:
+
+1. **Collide** with sufficient energy (equal to or greater than the activation energy $E_a$).
+2. Collide with the correct **orientation** (geometry).
+
+### Activation Energy ($E_a$)
+
+The minimum energy required for a successful collision. It is the energy barrier that must be
+Overcome for the reaction to proceed.
+
+### Maxwell-Boltzmann Distribution
+
+The Maxwell-Boltzmann distribution shows the distribution of molecular energies at a given
+Temperature:
+
+- Most molecules have energies around the average.
+- Few molecules have very low or very high energies.
+- The curve is asymmetric (skewed to the right).
+- The area under the curve represents the total number of molecules.
+
+### Effect of Temperature
+
+Increasing temperature:
+
+- Shifts the Maxwell-Boltzmann curve to the right (higher average energy).
+- Increases the proportion of molecules with energy $\ge E_a$.
+- Increases the collision frequency.
+- **Both effects** increase the rate, but the increase in the proportion of successful collisions is
+  the dominant effect.
+
+### Effect of Concentration/Pressure
+
+Increasing concentration (for solutions) or pressure (for gases):
+
+- Increases the number of particles per unit volume.
+- Increases the collision frequency.
+- Increases the rate of reaction.
+
+### Effect of Surface Area
+
+Increasing surface area (e.g., powder instead of a lump):
+
+- More particles are exposed.
+- More collisions per unit time.
+- Increases the rate.
+
+### Effect of Catalyst
+
+A catalyst:
+
+- Provides an alternative reaction pathway with a lower activation energy.
+- Increases the rate of both forward and reverse reactions equally.
+- Is NOT consumed in the reaction.
+- Does NOT change the equilibrium position or $\Delta H$.
+
+---
+
+## Rate Equations
+
+### Form of the Rate Equation
+
+For a reaction between A and B:
+
+$$
+\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
+$$
+
+Where:
+
+- $k$ is the **rate constant** (depends on temperature)
+- $m$ is the **order of reaction with respect to A**
+- $n$ is the **order of reaction with respect to B**
+- $m + n$ is the **overall order of reaction**
+
+### Orders of Reaction
+
+| Order  | Effect on Rate                           | Concentration-Time Graph |
+| ------ | ---------------------------------------- | ------------------------ |
+| Zero   | Rate is independent of concentration     | Linear decrease          |
+| First  | Rate is proportional to concentration    | Exponential decay        |
+| Second | Rate is proportional to $[\mathrm{A}]^2$ | Steeper initial decline  |
+
+### Units of the Rate Constant
+
+For a rate equation $\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$:
+
+$$
+\mathrm{Units of } k = \frac{\mathrm{mol/(L}\cdot\mathrm{s)}}{(\mathrm{mol/L})^{m+n}} = (\mathrm{mol/L})^{1-(m+n)}\cdot\mathrm{s}^{-1}
+$$
+
+| Overall Order | Units of $k$              |
+| ------------- | ------------------------- |
+| 0             | mol/(L$\cdot$S)           |
+| 1             | s$^{-1}$                  |
+| 2             | L/(mol$\cdot$S)           |
+| 3             | L$^2$/(mol$^2$, $\cdot$s) |
+
+### Zero-Order Reactions
+
+$$
+\mathrm{Rate} = k \quad (\mathrm{constant})
+$$
+
+$$
+[\mathrm{A}] = [\mathrm{A}]_0 - kt
+$$
+
+The concentration decreases linearly with time.
+
+### First-Order Reactions
+
+$$
+\mathrm{Rate} = k[\mathrm{A}]
+$$
+
+$$
+[\mathrm{A}] = [\mathrm{A}]_0 e^{-kt}
+$$
+
+$$
+\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt
+$$
+
+A plot of $\ln[\mathrm{A}]$ vs $t$ gives a straight line with gradient $= -k$.
+
+### Half-Life of First-Order Reactions
+
+The half-life $t_{1/2}$ is independent of initial concentration:
+
+$$
+T_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}
+$$
+
+### Second-Order Reactions
+
+$$
+\mathrm{Rate} = k[\mathrm{A}]^2
+$$
+
+$$
+\frac{1}{[\mathrm{A}]} = \frac{1}{[\mathrm{A}]_0} + kt
+$$
+
+A plot of $\dfrac{1}{[\mathrm{A}]}$ vs $t$ gives a straight line with gradient $= k$.
+
+---
+
+## Determining the Order of Reaction
+
+### Initial Rates Method
+
+1. Conduct experiments with different initial concentrations.
+2. Measure the initial rate for each experiment.
+3. Compare how the rate changes when one concentration changes while others are held constant.
+
+:::info[Example]
+
+For the reaction A + B $\to$ products, the following data was obtained:
+
+| Experiment | [A] (mol/L) | [B] (mol/L) | Initial Rate (mol/L/s) |
+| ---------- | ----------- | ----------- | ---------------------- |
+| 1          | 0.10        | 0.10        | 0.020                  |
+| 2          | 0.20        | 0.10        | 0.040                  |
+| 3          | 0.10        | 0.20        | 0.080                  |
+
+**Order with respect to A**: Doubling [A] (1 $\to$ 2) doubles the rate. Order $= 1$.
+
+**Order with respect to B**: Doubling [B] (1 $\to$ 3) quadruples the rate. Order $= 2$.
+
+Rate equation: $\mathrm{Rate} = k[\mathrm{A}][\mathrm{B}]^2$
+
+Overall order $= 3$.
+
+**Rate constant**: From experiment 1: $0.020 = k(0.10)(0.10)^2 = k(0.001)$.
+
+$$
+K = 20\mathrm{ L}^2/(\mathrm{mol}^2\cdot\mathrm{s})
+$$
+
+
+### Graphical Method
+
+| Plot                     | Straight Line Indicates |
+| ------------------------ | ----------------------- |
+| $[\mathrm{A}]$ vs $t$    | Zero order              |
+| $\ln[\mathrm{A}]$ vs $t$ | First order             |
+| $1/[\mathrm{A}]$ vs $t$  | Second order            |
+
+### Continuous Monitoring Method
+
+Monitor the concentration of a reactant or product throughout the reaction and plot concentration vs
+Time. The shape of the curve indicates the order.
+
+---
+
+## The Arrhenius Equation
+
+### Equation
+
+$$
+K = A e^{-E_a/RT}
+$$
+
+Where:
+
+- $k$ = rate constant
+- $A$ = pre-exponential factor (frequency factor)
+- $E_a$ = activation energy (J/mol)
+- $R$ = gas constant $= 8.314\mathrm{ J/(mol}\cdot\mathrm{K)}$
+- $T$ = temperature (K)
+
+### Logarithmic Form
+
+$$
+\ln k = \ln A - \frac{E_a}`\{RT}`
+$$
+
+### Graphical Determination of $E_a$
+
+A plot of $\ln k$ vs $\dfrac{1}{T}$ gives a straight line:
+
+- Gradient $= -\dfrac{E_a}{R}$
+- $y$-intercept $= \ln A$
+
+### Two-Point Form
+
+$$
+\ln\!\left(\frac{k_2}{k_1}\right) = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
+$$
+
+:::
+:::info[Example]
+
+The rate constant for a reaction is $3.2 \times 10^{-3}\mathrm{ s}^{-1}$ at $300\mathrm{ K}$ and
+$1.5 \times 10^{-2}\mathrm{ s}^{-1}$ at $350\mathrm{ K}$. Find the activation energy.
+
+$$
+\ln\!\left(\frac{1.5 \times 10^{-2}}{3.2 \times 10^{-3}}\right) = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{350}\right)
+$$
+
+$$
+\ln(4.688) = \frac{E_a}{8.314}(0.000476)
+$$
+
+$$
+1.545 = \frac{E_a}{8.314}(0.000476)
+$$
+
+$$
+E_a = \frac{1.545 \times 8.314}{0.000476} = 26965\mathrm{ J/mol} = 27.0\mathrm{ kJ/mol}
+$$
+
+
+### Temperature Rule of Thumb
+
+As an approximation, the rate of many reactions roughly doubles for every $10\degree\mathrm{C}$
+Increase in temperature (for reactions with typical activation energies near room temperature).
+
+---
+
+## Reaction Mechanisms
+
+### Elementary Steps
+
+A reaction mechanism is a sequence of elementary steps that together give the overall reaction.
+
+### Molecularity
+
+The molecularity of an elementary step is the number of molecules/ions that collide:
+
+| Molecularity | Description             | Rate Law                                                     |
+| ------------ | ----------------------- | ------------------------------------------------------------ |
+| Unimolecular | One molecule reacts     | Rate $= k[\mathrm{A}]$ (first order)                         |
+| Bimolecular  | Two molecules collide   | Rate $= k[\mathrm{A}][\mathrm{B}]$ (second order)            |
+| Termolecular | Three molecules collide | Rate $= k[\mathrm{A}][\mathrm{B}][\mathrm{C}]$ (third order) |
+
+### Rate-Determining Step
+
+The **slowest step** in the mechanism determines the overall rate of reaction. The rate equation is
+Determined by the rate-determining step.
+
+### Steady-State Approximation
+
+Intermediates (species produced and consumed in the mechanism) do not appear in the rate equation
+For the overall reaction.
+
+:::
+:::info[Example]
+
+The overall reaction is $2\mathrm{NO}_2 + \mathrm{F}_2 \to 2\mathrm{NO}_2\mathrm{F}$.
+
+Proposed mechanism:
+
+1. $\mathrm{NO}_2 + \mathrm{F}_2 \to \mathrm{NO}_2\mathrm{F} + \mathrm{F}$ (slow)
+2. $\mathrm{NO}_2 + \mathrm{F} \to \mathrm{NO}_2\mathrm{F}$ (fast)
+
+The rate-determining step is step 1 (bimolecular):
+
+$$
+\mathrm{Rate} = k[\mathrm{NO}_2][\mathrm{F}_2]
+$$
+
+The overall order is 2 (first order in NO$_2$First order in F$_2$).
+
+
+---
+
+## Catalysts
+
+### Types of Catalysts
+
+| Type          | Description                     | Examples                                                          |
+| ------------- | ------------------------------- | ----------------------------------------------------------------- |
+| Homogeneous   | Same phase as reactants         | Acid catalysis, transition metal ions in solution                 |
+| Heterogeneous | Different phase from reactants  | Solid catalysts (Fe in Haber process, Pt in catalytic converters) |
+| Enzymes       | Biological catalysts (proteins) | Amylase, catalase, DNA polymerase                                 |
+
+### How Catalysts Work
+
+Catalysts provide an alternative pathway with lower activation energy:
+
+- More molecules have sufficient energy to react.
+- The rate of successful collisions increases.
+- The catalyst is regenerated at the end.
+
+### Enzyme Catalysis
+
+- Highly specific (lock-and-key or induced-fit model).
+- Work optimally at specific temperature and pH.
+- Can be denatured by extreme conditions.
+- Have an active site where the substrate binds.
+
+### Activation Energy Profile Diagrams
+
+| Feature                | Uncatalysed   | Catalysed    |
+| ---------------------- | ------------- | ------------ |
+| $E_a$                  | Higher        | Lower        |
+| $\Delta H$             | Same          | Same         |
+| Transition state       | Higher energy | Lower energy |
+| Reactants and products | Same energy   | Same energy  |
+
+---
+
+## IB Exam-Style Questions
+
+### Question 1 (Paper 1 style)
+
+For the rate equation $\mathrm{Rate} = k[\mathrm{A}]^2[\mathrm{B}]$What are the units of $k$ when
+Concentrations are in mol/L and time in seconds?
+
+$$
+\mathrm{Units of } k = \frac{\mathrm{mol/(L}\cdot\mathrm{s)}}{(\mathrm{mol/L})^2 \times (\mathrm{mol/L})} = \frac{\mathrm{mol/(L}\cdot\mathrm{s)}}{\mathrm{mol}^3/\mathrm{L}^3} = \mathrm{L}^2/(\mathrm{mol}^2\cdot\mathrm{s})
+$$
+
+### Question 2 (Paper 2 style)
+
+The following data was obtained for the reaction A + B $\to$ C:
+
+| Experiment | [A] (mol/L) | [B] (mol/L) | Rate (mol/L/s)       |
+| ---------- | ----------- | ----------- | -------------------- |
+| 1          | 0.20        | 0.10        | $4.0 \times 10^{-3}$ |
+| 2          | 0.40        | 0.10        | $8.0 \times 10^{-3}$ |
+| 3          | 0.20        | 0.20        | $4.0 \times 10^{-3}$ |
+
+**(a)** Deduce the order with respect to A and B.
+
+Order in A: doubling [A] doubles rate $\implies$ first order.
+
+Order in B: doubling [B] has no effect on rate $\implies$ zero order.
+
+**(b)** Write the rate equation.
+
+$$
+\mathrm{Rate} = k[\mathrm{A}]
+$$
+
+**(c)** Calculate the rate constant.
+
+$$
+K = \frac{4.0 \times 10^{-3}}{0.20} = 0.020\mathrm{ s}^{-1}
+$$
+
+**(d)** Explain why changing [B] does not affect the rate.
+
+B may be involved in a fast step after the rate-determining step, or B does not appear in the
+Rate-determining step of the mechanism.
+
+### Question 3 (Paper 2 style)
+
+The rate constant of a reaction at $300\mathrm{ K}$ is $5.0 \times 10^{-4}\mathrm{ s}^{-1}$ and at
+$350\mathrm{ K}$ is $4.0 \times 10^{-3}\mathrm{ s}^{-1}$.
+
+**(a)** Calculate the activation energy.
+
+$$
+\ln\!\left(\frac{4.0 \times 10^{-3}}{5.0 \times 10^{-4}}\right) = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{350}\right)
+$$
+
+$$
+\ln(8) = \frac{E_a}{8.314}(0.000476)
+$$
+
+$$
+2.079 = \frac{E_a}{8.314}(0.000476)
+$$
+
+$$
+E_a = \frac{2.079 \times 8.314}{0.000476} = 36300\mathrm{ J/mol} = 36.3\mathrm{ kJ/mol}
+$$
+
+**(b)** Calculate the rate constant at $400\mathrm{ K}$.
+
+$$
+\ln\!\left(\frac{k_{400}}{5.0 \times 10^{-4}}\right) = \frac{36300}{8.314}\left(\frac{1}{300} - \frac{1}{400}\right)
+$$
+
+$$
+= 4367 \times 0.000833 = 3.638
+$$
+
+$$
+\frac{k_{400}}{5.0 \times 10^{-4}} = e^{3.638} = 38.0
+$$
+
+$$
+K_{400} = 1.90 \times 10^{-2}\mathrm{ s}^{-1}
+$$
+
+### Question 4 (Paper 1 style)
+
+Which statement about catalysts is correct?
+
+A. They increase the activation energy. B. They are consumed in the reaction. C. They provide an
+Alternative reaction pathway with lower activation energy. D. They change the equilibrium constant.
+
+**Answer: C.**
+
+---
+
+## Summary
+
+| Concept                | Key Formula                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| Rate equation          | $\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$                               |
+| Arrhenius equation     | $k = Ae^{-E_a/RT}$                                                            |
+| Arrhenius (log form)   | $\ln k = \ln A - \dfrac{E_a}{RT}$                                             |
+| Two-point Arrhenius    | $\ln(k_2/k_1) = \dfrac{E_a}{R}\!\left(\dfrac{1}{T_1} - \dfrac{1}{T_2}\right)$ |
+| First-order half-life  | $t_{1/2} = \dfrac{0.693}{k}$                                                  |
+| First-order integrated | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                                    |
+
+:::
+:::tip[Exam Strategy]
+
+For rate equation questions, always use the initial rates method systematically. For Arrhenius
+Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechanism questions, the
+Rate equation is determined by the slow step — check if intermediates need to be substituted using
+Equilibrium approximations.
+
+
+---
+
+## Chemical Kinetics: Extended
+
+### Concentration-Time Graphs for Different Orders
+
+| Order  | [A] vs t Graph                 | ln[A] vs t Graph | 1/[A] vs t Graph |
+| ------ | ------------------------------ | ---------------- | ---------------- |
+| Zero   | Straight line (negative slope) | Curve            | Curve            |
+| First  | Exponential decay              | Straight line    | Curve            |
+| Second | Steeper initial decline        | Curve            | Straight line    |
+
+### Integrated Rate Laws Summary
+
+| Order  | Rate Equation            | Integrated Form                                            | Half-Life                    |
+| ------ | ------------------------ | ---------------------------------------------------------- | ---------------------------- |
+| Zero   | Rate $= k$               | $[\mathrm{A}] = [\mathrm{A}]_0 - kt$                       | $\dfrac{[\mathrm{A}]_0}{2k}$ |
+| First  | Rate $= k[\mathrm{A}]$   | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                 | $\dfrac{\ln 2}{k}$           |
+| Second | Rate $= k[\mathrm{A}]^2$ | $\dfrac{1}{[\mathrm{A}]} = \dfrac{1}{[\mathrm{A}]_0} + kt$ | $\dfrac{1}{k[\mathrm{A}]_0}$ |
+
+:::
+:::info[Example]
+
+For a first-order reaction with $k = 0.025\mathrm{ min}^{-1}$ and
+$[\mathrm{A}]_0 = 0.50\mathrm{ M}$:
+
+(a) Find the concentration after $30\mathrm{ minutes}$.
+
+$$
+\ln[\mathrm{A}] = \ln(0.50) - 0.025(30) = -0.693 - 0.750 = -1.443
+$$
+
+$$
+[\mathrm{A}] = e^{-1.443} = 0.236\mathrm{ M}
+$$
+
+(b) Find the time for the concentration to reach $0.10\mathrm{ M}$.
+
+$$
+\ln(0.10) = \ln(0.50) - 0.025t
+$$
+
+$$
+-2.303 = -0.693 - 0.025t
+$$
+
+$$
+0.025t = 1.610 \implies t = 64.4\mathrm{ min}
+$$
+
+(c) Find the half-life.
+
+$$
+T_{1/2} = \frac{0.693}{0.025} = 27.7\mathrm{ min}
+$$
+
+
+### Experimental Techniques for Rate Determination
+
+| Technique    | Measurement                       | Suitable Reactions       |
+| ------------ | --------------------------------- | ------------------------ |
+| Gas syringe  | Volume of gas vs time             | Gas-producing reactions  |
+| Mass loss    | Mass vs time                      | Gas-producing reactions  |
+| Titration    | Concentration vs time (quenching) | Acid-base, redox         |
+| Colorimetry  | Absorbance vs time                | Coloured species         |
+| Conductivity | Conductance vs time               | Ions produced/consumed   |
+| Pressure     | Pressure vs time                  | Gas-phase reactions      |
+| Clock method | Time for visible change           | Iodine clock, persulfate |
+
+### The Iodine Clock Reaction
+
+The iodine clock is a classic kinetics experiment:
+
+$$
+\mathrm{S}_2\mathrm{O}_8^{2-} + 2\mathrm{I}^- \to 2\mathrm{SO}_4^{2-} + \mathrm{I}_2
+$$
+
+A fixed amount of thiosulfate (S$_2$O$_3^{2-}$) is added. It reacts with the I$_2$ produced:
+
+$$
+2\mathrm{S}_2\mathrm{O}_3^{2-} + \mathrm{I}_2 \to \mathrm{S}_4\mathrm{O}_6^{2-} + 2\mathrm{I}^-
+$$
+
+When all the thiosulfate is consumed, I$_2$ accumulates and reacts with starch to give a blue-black
+Colour. The time for the colour change is measured.
+
+### Effect of Surface Area: Quantitative
+
+For a reaction on a solid surface, the rate is proportional to the surface area:
+
+$$
+\mathrm{Rate} \propto \mathrm{surface area}
+$$
+
+Cutting a cube into 8 smaller cubes doubles the surface area, doubling the rate.
+
+---
+
+## Enzyme Kinetics
+
+### Michaelis-Menten Kinetics
+
+For enzyme-catalysed reactions:
+
+$$
+V = \frac{V_{\max}[S]}{K_M + [S]}
+$$
+
+Where:
+
+- $v$ = reaction rate
+- $V_{\max}$ = maximum rate (at saturation)
+- $[S]$ = substrate concentration
+- $K_M$ = Michaelis constant (substrate concentration at half $V_{\max}$)
+
+### Key Features
+
+- At low $[S]$: rate is approximately proportional to $[S]$ (first order).
+- At high $[S]$: rate approaches $V_{\max}$ (zero order with respect to $[S]$).
+- $K_M$ is a measure of the enzyme"s affinity for the substrate (lower $K_M$ = higher affinity).
 
 ### Factors Affecting Enzyme Activity
 

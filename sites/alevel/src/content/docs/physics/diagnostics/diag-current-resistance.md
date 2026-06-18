@@ -1,6 +1,36 @@
 ---
 title: "Current and Resistance -- Diagnostic Tests"
-description: ""s law is a property of the conductor at a specific operating point), but the resistance is not
+description: "A-Level Physics Current and Resistance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Current and Resistance — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: I-V Characteristics of a Filament Lamp
+
+**Question:**
+
+A filament lamp is connected to a variable power supply. The following I-V data are recorded:
+
+| $V\,/\,\text{V}$  | 0   | 1.0 | 2.0 | 4.0 | 6.0 | 8.0 | 10.0 | 12.0 |
+| ----------------- | --- | --- | --- | --- | --- | --- | ---- | ---- |
+| $I\,/\,\text{mA}$ | 0   | 80  | 120 | 180 | 230 | 270 | 300  | 330  |
+
+(a) Sketch the I-V characteristic and explain why the lamp is non-ohmic.
+
+(b) Calculate the resistance of the lamp at $V = 2.0\,\text{V}$ and at $V = 12.0\,\text{V}$.
+
+(c) Calculate the power dissipated at $V = 12.0\,\text{V}$ and explain why the resistance increases
+with voltage.
+
+**Solution:**
+
+(a) The I-V graph curves away from both axes (current increases more slowly as voltage increases).
+This is because the filament is a metal (tungsten) whose resistance increases with temperature. As
+current flows, the filament heats up, increasing its resistance. V=IR applies at every instant
+(Ohm"s law is a property of the conductor at a specific operating point), but the resistance is not
 constant -- on the applied voltage (through the resulting temperature).
 
 The graph is not a straight line through the origin, so the lamp is non-ohmic.

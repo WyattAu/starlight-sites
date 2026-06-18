@@ -1,6 +1,73 @@
 ---
 title: Types and Functions
-description: ""a'
+description: "Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Haskell
+categories:
+  - Haskell
+
+---
+
+## Basic Types
+
+Haskell has a relatively small set of built-in types, but they combine to express complex data
+structures. The `Prelude` module is automatically imported in every Haskell file and provides these
+foundational types.
+
+### Numeric Types
+
+```haskell
+-- Int: fixed-size integers (machine word, typically 64-bit)
+count :: Int
+count = 42
+
+-- Integer: arbitrary-precision integers (no overflow)
+bigNumber :: Integer
+bigNumber = 10^100
+
+-- Float: single-precision floating point
+piFloat :: Float
+piFloat = 3.14159
+
+-- Double: double-precision floating point
+piDouble :: Double
+piDouble = 3.141592653589793
+```
+
+The distinction between `Int` and `Integer` matters for correctness:
+
+```haskell
+-- Int can overflow on large computations
+sumInts :: Int -> Int
+sumInts n = sum [1..n]
+-- sumInts (10^9) may overflow
+
+-- Integer never overflows
+sumIntegers :: Integer -> Integer
+sumIntegers n = sum [1..n]
+-- sumIntegers (10^100) works correctly
+```
+
+### Boolean Type
+
+```haskell
+-- Bool has two values: True and False
+isEven :: Int -> Bool
+isEven n = n `mod` 2 == 0
+
+-- Boolean operators
+-- (&&) :: Bool -> Bool -> Bool  -- logical AND (short-circuits)
+-- (||) :: Bool -> Bool -> Bool  -- logical OR (short-circuits)
+-- not :: Bool -> Bool           -- logical NOT
+```
+
+### Character and String Types
+
+```haskell
+-- Char: single Unicode character
+letter :: Char
+letter = "a'
 
 -- String is a type synonym for [Char]
 -- String = [Char]

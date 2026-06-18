@@ -3,7 +3,62 @@ title: Feynman Diagrams
 tags:
   - Physics
   - University
-description: "")\gamma^\mu \frac{i(\slashed{p} + \slashed{k} + m)}{(p+k)^2 - m^2 + i\epsilon}\gamma^\nu u(p)\,\epsilon_\mu^*(k')\,\epsilon_\nu(k)$$
+description: "Feynman diagrams are a pictorial representation of perturbation theory in quantu Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 3.1 Rules
+
+Feynman diagrams are a pictorial representation of perturbation theory in quantum field theory. The
+Basic elements:
+
+- **External lines:** Incoming/outgoing particles (initial/final states).
+- **Internal lines (propagators):** Virtual particles mediating the interaction.
+- **Vertices:** Interaction points where particles meet. Each vertex has a coupling constant.
+- **Antiparticles:** Represented as particles moving backwards in time.
+
+### 3.2 Common Processes
+
+**QED vertex:** $e^- + \gamma \to e^-$ (or $e^+ + \gamma \to e^+$). Coupling:
+$e = \sqrt{4\pi\alpha}$.
+
+**Electron-positron annihilation:** $e^+ + e^- \to \mu^+ + \mu^-$ proceeds via a virtual photon
+($s$-channel).
+
+**Electron-muon scattering:** $e^- + \mu^- \to e^- + \mu^-$ via virtual photon ($t$-channel).
+
+**Weak decay (beta decay):** $n \to p + e^- + \bar{\nu}_e$. The neutron emits a virtual $W^-$ which
+Decays to $e^-\bar{\nu}_e$.
+
+**Gluon exchange:** $q + q \to q + q$ via gluon. Unlike QED, three-gluon and four-gluon vertices
+Exist due to the non-Abelian nature of SU(3).
+
+### 3.3 Calculating Amplitudes
+
+The Feynman rules assign a mathematical expression to each diagram element:
+
+- **Fermion propagator:** $\frac{i(\gamma^\mu p_\mu + m)}{p^2 - m^2 + i\epsilon}$
+- **Photon propagator:** $\frac{-ig_{\mu\nu}}{p^2 + i\epsilon}$
+- **Vertex factor (QED):** $-ie\gamma^\mu$
+- **Vertex factor (QCD):** $-ig_s T^a \gamma^\mu$ (where $T^a$ are Gell-Mann matrices)
+
+The total amplitude is the sum over all topologically distinct diagrams at the desired order.
+
+### 3.4 Worked Example: Compton Scattering Amplitude
+
+<details>
+<summary>Example 3.1: Tree-level Compton scattering $e^-\gamma \to e^-\gamma$</summary>
+
+Compton scattering has two tree-level diagrams in QED:
+
+**Diagram (a):** The incoming photon is absorbed, then the outgoing photon is emitted ($s$-channel
+Intermediate electron).
+
+**Diagram (b):** The outgoing photon is emitted first, then the incoming photon is absorbed
+($u$-channel intermediate electron).
+
+The amplitude for diagram (a) is:
+
+$$\mathcal{M}_a = (-ie)^2 \bar{u}(p")\gamma^\mu \frac{i(\slashed{p} + \slashed{k} + m)}{(p+k)^2 - m^2 + i\epsilon}\gamma^\nu u(p)\,\epsilon_\mu^*(k')\,\epsilon_\nu(k)$$
 
 Where $\slashed{p} \equiv \gamma^\mu p_\mu$ and $\epsilon_\mu$ are photon polarisation vectors.
 

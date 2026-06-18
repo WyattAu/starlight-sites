@@ -1,6 +1,39 @@
 ---
 title: A Level Computer Science — Diagnostic Test
-description: ""s complement.
+description: "This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## Instructions
+
+This diagnostic test covers the full A Level Computer Science syllabus. There are **45 questions**
+Across all topics. Attempt each question, then check your answers. Each question links to the
+Relevant revision page for further study.
+
+**Recommended time:** 90 minutes.
+
+<hr />
+
+## Fundamentals
+
+**Q1.** Convert $101101_2$ to denary.
+
+<details>
+<summary>Answer</summary>
+
+$1 \times 32 + 0 \times 16 + 1 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1 = 32 + 8 + 4 + 1 = 45_{10}$
+
+**Revision:** [Number Systems](/docs/alevel/computer-science/fundamentals/number-systems)
+
+</details>
+
+**Q2.** Represent $-37$ in 8-bit two"s complement.
 
 <details>
 <summary>Answer</summary>

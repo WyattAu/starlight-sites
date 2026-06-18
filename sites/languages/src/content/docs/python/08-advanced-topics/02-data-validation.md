@@ -1,6 +1,27 @@
 ---
 title: Data Validation
-description: ""s
+description: "Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## Why Data Validation
+
+Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed
+From JSON, rows read from CSV files, configuration loaded from environment variables, messages
+Pulled from a message queue. At the moment data crosses a system boundary, all assumptions you hold
+About its shape, type, and semantic validity are void. The remote caller may send a string where you
+Expect an integer, omit a required field entirely, or supply a negative value for a quantity that
+Must be positive. Without explicit validation at every boundary, corrupt data propagates inward,
+Corrupting internal state, triggering downstream errors that are difficult to trace back to their
+Origin, and in the worst case producing silent incorrect results -- the most dangerous category of
+Software failure.
+
+This is the garbage-in-garbage-out principle applied to software architecture: if your program"s
 Correctness depends on the shape of its inputs, and you do not verify that shape, your program's
 Correctness is not guaranteed. Period.
 

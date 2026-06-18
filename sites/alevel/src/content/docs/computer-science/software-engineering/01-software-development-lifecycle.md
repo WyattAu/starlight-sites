@@ -1,6 +1,358 @@
 ---
 title: Software Development Lifecycle
-description: ""s progress
+description: "The is a structured framework describing the phases Involved in developing software, from initial conception through to deployment and maintenance."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. The Software Development Lifecycle (SDLC)
+
+### Definition
+
+The **Software Development Lifecycle (SDLC)** is a structured framework describing the phases
+Involved in developing software, from initial conception through to deployment and maintenance.
+
+### Common Phases
+
+1. **Analysis** — Understand requirements, identify the problem
+2. **Design** — Plan the architecture, algorithms, and interfaces
+3. **Implementation** — Write the code
+4. **Testing** — Verify correctness and quality
+5. **Deployment** — Release to users
+6. **Maintenance** — Fix bugs, add features, adapt to changes
+
+<hr />
+
+## 2. Waterfall Model
+
+### Description
+
+A **sequential**, linear approach where each phase must be completed before the next begins.
+Developed by Winston Royce in 1970.
+
+```
+Analysis → Design → Implementation → Testing → Deployment → Maintenance
+```
+
+### Characteristics
+
+| Property             | Value                                |
+| -------------------- | ------------------------------------ |
+| Type                 | Plan-driven                          |
+| Flexibility          | Low — changes are expensive          |
+| Customer involvement | Minimal (mostly at start/end)        |
+| Documentation        | Extensive                            |
+| Risk                 | High — issues found late are costly  |
+| Best for             | Well-understood, stable requirements |
+
+### Advantages
+
+- Simple to understand and manage
+- Clear milestones and deliverables
+- Well-defined documentation at each stage
+
+### Disadvantages
+
+- No working software until late in the cycle
+- Difficult to accommodate requirement changes
+- Customer sees the product only at the end
+- Testing is a single phase — bugs found late are expensive to fix
+
+<hr />
+
+## 3. Agile Methodology
+
+### Description
+
+An **iterative, incremental** approach that emphasises flexibility, customer collaboration, and
+Delivering working software in short cycles.
+
+### The Agile Manifesto (2001)
+
+Individuals and interactions over processes and tools Working software over comprehensive
+Documentation Customer collaboration over contract negotiation Responding to change over following a
+Plan
+
+### Scrum Framework
+
+A specific Agile methodology with defined roles, events, and artefacts.
+
+**Roles:**
+
+- **Product Owner:** Defines the product vision and prioritises the backlog
+- **Scrum Master:** Facilitates the process, removes impediments
+- **Development Team:** Self-organising team that builds the product
+
+**Events (Sprint cycle, 2-4 weeks):**
+
+1. **Sprint Planning:** Select items from the product backlog for the sprint
+2. **Daily Standup:** 15-minute meeting: what did I do, what will I do, any blockers?
+3. **Sprint Review:** Demonstrate completed work to stakeholders
+4. **Sprint Retrospective:** Reflect on the process and improve
+
+**Artefacts:**
+
+- **Product Backlog:** Ordered list of all desired features
+- **Sprint Backlog:** Items selected for the current sprint
+- **Increment:** The sum of completed work at the end of a sprint
+
+### Characteristics
+
+| Property             | Value                                      |
+| -------------------- | ------------------------------------------ |
+| Type                 | Change-driven                              |
+| Flexibility          | High — embrace changing requirements       |
+| Customer involvement | Continuous throughout                      |
+| Documentation        | Minimal — working software is priority     |
+| Risk                 | Low — issues found early                   |
+| Best for             | Evolving requirements, innovative projects |
+
+<hr />
+
+## 4. Spiral Model
+
+### Description
+
+Combines elements of waterfall and iterative development. Each iteration (spiral) passes through
+Four quadrants:
+
+1. **Determine objectives** — Identify goals, constraints, alternatives
+2. **Identify and resolve risks** — Risk analysis and mitigation
+3. **Development and testing** — Build a prototype or increment
+4. **Review and plan** — Evaluate and plan the next spiral
+
+```
+        Risk Analysis
+       ↗              ↘
+Objectives          Development
+       ↖              ↙
+          Review
+```
+
+### Characteristics
+
+| Property    | Value                                           |
+| ----------- | ----------------------------------------------- |
+| Risk focus  | High — explicit risk analysis at each iteration |
+| Flexibility | Medium                                          |
+| Best for    | Large, complex, high-risk projects              |
+
+### Advantages
+
+- Risk is identified and addressed early
+- Accommodates changes
+- Customer feedback at each iteration
+
+### Disadvantages
+
+- Complex to manage
+- Requires risk assessment expertise
+- Expensive for small projects
+
+<hr />
+
+## 5. Rapid Application Development (RAD)
+
+### Description
+
+RAD emphasises **rapid prototyping** and iterative development, with minimal planning in favour of
+Speed. Uses workshops, focus groups, and iterative user testing.
+
+### Phases
+
+1. **Requirements planning** — Workshop with users and developers
+2. **User design** — Prototype development with user feedback
+3. **Construction** — Build the system using the prototype as a basis
+4. **Cutover** — Final testing, deployment, and handover
+
+### Best for
+
+- Projects with well-defined business requirements
+- Short timeframes
+- User interface-intensive applications
+
+<hr />
+
+## 6. Comparison of Methodologies
+
+| Feature          | Waterfall  | Agile     | Spiral    | RAD       |
+| ---------------- | ---------- | --------- | --------- | --------- |
+| Approach         | Linear     | Iterative | Iterative | Iterative |
+| Flexibility      | Low        | High      | Medium    | High      |
+| Customer involv. | Low        | High      | Medium    | High      |
+| Risk management  | Low        | Medium    | High      | Low       |
+| Documentation    | High       | Low       | High      | Low       |
+| Cost of change   | High       | Low       | Medium    | Low       |
+| Best for         | Stable req | Evolving  | High-risk | Fast dev  |
+
+:::info Board-specific
+
+- **AQA** requires understanding of waterfall, agile, spiral, and rapid application development
+  (RAD) methodologies; requires comparison of approaches
+- **CIE (9618)** covers waterfall and agile methodologies; may include iterative development
+- **OCR (A)** requires waterfall and agile methodologies with understanding of when each is
+  appropriate
+- **Edexcel** covers SDLC phases and development methodologies
+:::
+
+<hr />
+
+## 7. UML Diagrams
+
+### Class Diagrams
+
+Show classes, their attributes, methods, and relationships.
+
+```
++------------------+       +------------------+
+|    Animal        |       |     Owner        |
++------------------+       +------------------+
+| - name: String   |       | - name: String   |
+| - age: int       |       | - phone: String  |
++------------------+       +------------------+
+| + get_name()     |       | + adopt(animal)  |
+| + set_age(age)   |       | + get_pets()     |
++------------------+       +------------------+
+        | 1                       | 1
+        |                         |
+        | *                       | *
++------------------+
+|      Pet         |
++------------------+
+| - species: String|
++------------------+
+| + make_sound()   |
++------------------+
+```
+
+### Use Case Diagrams
+
+Show interactions between actors (users) and the system.
+
+- **Actor:** Stick figure representing a user role
+- **Use case:** Oval representing a system function
+- **Relationships:** Lines connecting actors to use cases
+
+### Other UML Diagrams
+
+| Diagram Type      | Purpose                                     |
+| ----------------- | ------------------------------------------- |
+| Sequence diagram  | Show message flow between objects over time |
+| Activity diagram  | Model workflow / business processes         |
+| State diagram     | Show states and transitions of an object    |
+| Component diagram | Show system components and dependencies     |
+
+<hr />
+
+## Problem Set
+
+**Problem 1.** A school wants to develop a new student management system. Requirements are well
+Understood and unlikely to change. Which SDLC model would you recommend? Justify your answer.
+
+<details>
+<summary>Answer</summary>
+
+**Waterfall model.** Justification:
+
+- Requirements are stable and well-understood → no need for iterative refinement
+- Clear phases provide good project management structure
+- Extensive documentation is valuable for a school system (long-term maintenance)
+- Lower complexity compared to Agile for a well-defined project
+- Budget and timeline can be estimated more accurately
+</details>
+
+**Problem 2.** A startup is building a social media app with rapidly changing features based on user
+Feedback. Which methodology is most appropriate and why?
+
+<details>
+<summary>Answer</summary>
+
+**Agile (Scrum).** Justification:
+
+- Requirements are evolving and not fully known upfront
+- Customer feedback drives development — Agile embraces change
+- Short sprints allow rapid iteration and frequent releases
+- Working software delivered early allows market validation
+- Low cost of changing direction based on user feedback
+</details>
+
+**Problem 3.** Draw a UML class diagram for a library system with classes `Library``Book`
+`Member`And `Loan`. Show appropriate relationships and key attributes/methods.
+
+<details>
+<summary>Answer</summary>
+
+```
++------------------+
+|     Library      |
++------------------+
+| - name: String   |
+| - books: List<Book> |
+| - members: List<Member> |
++------------------+
+| + add_book(b)    |
+| + register(m)    |
+| + find_book(isbn)|
++------------------+
+        | 1
+        |
+        | *
++------------------+
+|      Book        |
++------------------+
+| - isbn: String   |
+| - title: String  |
+| - author: String |
+| - available: bool|
++------------------+
+| + borrow()       |
+| + return()       |
++------------------+
+
++------------------+
+|     Member       |
++------------------+
+| - id: String     |
+| - name: String   |
++------------------+
+| + borrow_book(b) |
+| + return_book(b) |
++------------------+
+
++------------------+
+|      Loan        |
++------------------+
+| - book: Book     |
+| - member: Member |
+| - due_date: Date |
++------------------+
+| + is_overdue()   |
+| + extend(days)   |
++------------------+
+```
+
+Relationships:
+
+- Library 1 --- \* Book (composition: books belong to the library)
+- Library 1 --- \* Member (aggregation: members exist independently)
+- Member 1 --- \* Loan (composition: loans belong to a member)
+- Book 1 --- \* Loan (aggregation: a book can have many loans over time)
+</details>
+
+**Problem 4.** Explain the role of the Scrum Master. Why is this role important?
+
+<details>
+<summary>Answer</summary>
+
+The Scrum Master is a **facilitator** (not a manager) who:
+
+1. Ensures the team follows Scrum practices and principles
+2. Removes impediments that block the team"s progress
 3. Protects the team from external interruptions during sprints
 4. Facilitates Scrum events (daily standup, sprint planning, retrospective)
 5. Coaches the team on self-organisation and continuous improvement

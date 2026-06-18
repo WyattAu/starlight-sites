@@ -1,6 +1,549 @@
 ---
 title: Organic Chemistry
-description: ""volatile" and "flammable".** Volatile means evaporates; flammable means
+description: "is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains"
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-chemistry
+categories:
+  - gcse-chemistry
+
+---
+
+## Organic Chemistry
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway C5 & C6 | WJEC C4
+## 1. Introduction to Organic Chemistry
+
+### 1.1 What Is Organic Chemistry?
+
+**Organic chemistry** is the study of carbon compounds. Carbon is unique because each carbon atom
+Can form four covalent bonds and can bond with other carbon atoms to form chains and rings of
+Virtually unlimited length. This property, called **catenation**, gives rise to millions of known
+Organic compounds.
+
+Carbon forms four covalent bonds because it has four electrons in its outer shell and needs four
+More to achieve a stable configuration. The strength and versatility of the C-C bond (about 348
+KJ/mol) makes long chains stable, while the C-H bond (about 412 kJ/mol) provides a convenient way to
+Satisfy the remaining valences.
+
+### 1.2 Hydrocarbons
+
+**Hydrocarbons** are compounds containing only carbon and hydrogen atoms. They are the simplest
+Organic compounds and are the main components of crude oil and natural gas.
+
+Hydrocarbons are classified into two broad families: **alkanes** (saturated, single bonds only) and
+**alkenes** (unsaturated, containing at least one C=C double bond).
+
+### 1.3 Homologous Series
+
+A **homologous series** is a family of organic compounds with the same general formula, similar
+Chemical properties, and successive members differing by CH$_2$.
+
+**Properties of a homologous series:**
+
+- Same functional group
+- Similar chemical properties (the functional group determines the reactions)
+- Gradual change in physical properties (e.g. Boiling point increases with chain length)
+- Each successive member differs by CH$_2$ (relative molecular mass increases by 14)
+
+The regular change in physical properties is a consequence of increasing molecular size. Longer
+Chains have stronger London dispersion forces between molecules, leading to higher boiling points,
+Higher melting points, and lower volatility.
+
+### 1.4 Naming Organic Compounds
+
+The first four members of each homologous series have historical names:
+
+| Number of carbons | Prefix |
+| ----------------- | ------ |
+| 1                 | Meth-  |
+| 2                 | Eth-   |
+| 3                 | Prop-  |
+| 4                 | But-   |
+| 5                 | Pent-  |
+| 6                 | Hex-   |
+| 7                 | Hept-  |
+| 8                 | Oct-   |
+
+These prefixes are combined with the suffix that identifies the homologous series: -ane for alkanes,
+-ene for alkenes, -ol for alcohols, -oic acid for carboxylic acids.
+
+## 2. Alkanes
+
+### 2.1 General Properties
+
+Alkanes are **saturated hydrocarbons** -- all carbon-carbon bonds are single bonds. The general
+Formula is:
+
+$$\mathrm{C_n\mathrm{H_{2n+2}$$
+
+The formula is derived from the fact that each carbon atom forms four bonds. In a straight chain,
+The two end carbons are bonded to three hydrogens each, and the remaining $(n-2)$ carbons are bonded
+To two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
+
+| Name    | Formula       | Structure | Boiling Point ($^{\circ}$C) |
+| ------- | ------------- | --------- | --------------------------- |
+| Methane | CH$_4$        | 1 carbon  | -162                        |
+| Ethane  | C$_2$H$_6$    | 2 carbons | -89                         |
+| Propane | C$_3$H$_8$    | 3 carbons | -42                         |
+| Butane  | C$_4$H$_{10}$ | 4 carbons | -0.5                        |
+| Pentane | C$_5$H$_{12}$ | 5 carbons | 36                          |
+| Hexane  | C$_6$H$_{14}$ | 6 carbons | 69                          |
+| Heptane | C$_7$H$_{16}$ | 7 carbons | 98                          |
+| Octane  | C$_8$H$_{18}$ | 8 carbons | 126                         |
+
+**Trend:** Boiling point increases with chain length due to stronger London forces (more surface
+Area for intermolecular attraction, more electrons to polarise).
+
+### 2.2 Combustion of Alkanes
+
+**Complete combustion** (plenty of oxygen):
+
+$$\mathrm{C_n\mathrm{H_{2n+2} + \frac{3n+1}{2}\mathrm{O_2 \to n\mathrm{CO_2 + (n+1)\mathrm{H_2\mathrm{O$$
+
+**Example:** $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$
+
+**Example:** $2\mathrm{C_4\mathrm{H_{10} + 13\mathrm{O_2 \to 8\mathrm{CO_2 + 10\mathrm{H_2\mathrm{O$
+
+**Incomplete combustion** (limited oxygen) produces carbon monoxide (CO) and/or carbon (soot):
+
+$$2\mathrm{CH_4 + 3\mathrm{O_2 \to 2\mathrm{CO + 4\mathrm{H_2\mathrm{O$$
+$$\mathrm{CH_4 + \mathrm{O_2 \to \mathrm{C + 2\mathrm{H_2\mathrm{O$$
+
+:::caution Carbon monoxide is a toxic, colourless, odourless gas that binds to haemoglobin more
+Strongly than oxygen, preventing oxygen transport in the blood. Incomplete combustion is dangerous
+Because CO is produced without any visible or olfactory warning.
+
+Incomplete combustion occurs when the oxygen supply is insufficient. The extent of incompleteness
+Depends on the oxygen-to-fuel ratio. With very limited oxygen, solid carbon (soot) is produced; with
+Moderately limited oxygen, carbon monoxide is produced.
+
+### 2.3 Halogenation of Alkanes
+
+Alkanes react with halogens in the presence of UV light (substitution reaction):
+
+$$\mathrm{CH_4 + \mathrm{Cl_2 \xrightarrow{\mathrm{UV} \mathrm{CH_3\mathrm{Cl + \mathrm{HCl$$
+
+This is a **free radical substitution** reaction. The reaction can continue to produce
+Dichloromethane, trichloromethane, and tetrachloromethane.
+
+The mechanism involves three stages:
+
+1. **Initiation:** UV light provides enough energy to break the Cl-Cl bond homolytically (each atom
+   gets one electron), producing chlorine radicals.
+2. **Propagation:** A chlorine radical abstracts a hydrogen from methane, producing HCl and a methyl
+   radical. The methyl radical then reacts with Cl$_2$Producing chloromethane and another chlorine
+   radical. This is a chain reaction.
+3. **Termination:** Two radicals combine, ending the chain.
+
+### 2.4 Higher Tier: Free Radical Substitution Mechanism
+
+**Initiation:**
+
+$$\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$$
+
+**Propagation:**
+
+$$\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$$
+$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+
+**Termination:**
+
+$$\mathrm{Cl^\bullet + \mathrm{Cl^\bullet \to \mathrm{Cl_2$$
+$$\mathrm{CH_3^\bullet + \mathrm{Cl^\bullet \to \mathrm{CH_3\mathrm{Cl$$
+$$\mathrm{CH_3^\bullet + \mathrm{CH_3^\bullet \to \mathrm{C_2\mathrm{H_6$$
+
+The propagation step is self-sustaining: each time a chlorine radical is consumed, another is
+Produced. This is why UV light is needed only to start the reaction, not to sustain it.
+
+### 2.5 Worked Examples on Alkane Reactions
+
+**Worked Example.** Write the balanced equation for the complete combustion of pentane
+(C$_5$H$_{12}$).
+
+$$\mathrm{C_5\mathrm{H_{12} + 8\mathrm{O_2 \to 5\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$$
+
+Check: C: 5 = 5, H: 12 = 12, O: 16 = 10 + 6 = 16.
+
+**Worked Example.** Write the balanced equation for the incomplete combustion of propane producing
+Carbon monoxide.
+
+$$2\mathrm{C_3\mathrm{H_8 + 7\mathrm{O_2 \to 6\mathrm{CO + 8\mathrm{H_2\mathrm{O$$
+
+## 3. Alkenes
+
+### 3.1 General Properties
+
+Alkenes are **unsaturated hydrocarbons** -- they contain at least one carbon-carbon **double bond**
+(C=C). The general formula is:
+
+$$\mathrm{C_n\mathrm{H_{2n}$$
+
+| Name    | Formula    |
+| ------- | ---------- |
+| Ethene  | C$_2$H$_4$ |
+| Propene | C$_3$H$_6$ |
+| Butene  | C$_4$H$_8$ |
+
+The double bond consists of one sigma bond and one pi bond. The pi bond is formed by the sideways
+Overlap of p orbitals above and below the plane of the molecule. This pi bond is weaker than the
+Sigma bond and is what makes alkenes more reactive than alkanes.
+
+### 3.2 Test for Unsaturation
+
+Alkenes decolourise **bromine water** (orange to colourless). This is because the double bond opens
+And bromine adds across it:
+
+$$\mathrm{C_2\mathrm{H_4 + \mathrm{Br_2 \to \mathrm{C_2\mathrm{H_4\mathrm{Br_2$$
+
+Alkanes do NOT decolourise bromine water (no double bond to react with).
+
+### 3.3 Addition Reactions
+
+Alkenes undergo **addition reactions** because the double bond can open up, allowing new atoms to
+Bond to the carbon atoms.
+
+**Hydrogenation:** $\mathrm{C_2\mathrm{H_4 + \mathrm{H_2 \to \mathrm{C_2\mathrm{H_6$ (with nickel
+Catalyst)
+
+**Hydration:** $\mathrm{C_2\mathrm{H_4 + \mathrm{H_2\mathrm{O \to \mathrm{C_2\mathrm{H_5\mathrm{OH$
+(with Phosphoric acid catalyst)
+
+**Reaction with steam:** This is used industrially to make ethanol.
+
+**Reaction with hydrogen bromide:**
+$\mathrm{C_2\mathrm{H_4 + \mathrm{HBr \to \mathrm{C_2\mathrm{H_5\mathrm{Br$
+
+**Reaction with halogens:**
+$\mathrm{C_2\mathrm{H_4 + \mathrm{Br_2 \to \mathrm{C_2\mathrm{H_4\mathrm{Br_2$
+
+In all addition reactions, the pi bond breaks and two new sigma bonds form. The carbon atoms go from
+Sp$^2$ hybridised (trigonal planar) to sp$^3$ hybridised (tetrahedral).
+
+### 3.4 Addition Polymers
+
+Alkenes can undergo **addition polymerisation** to form long-chain molecules called **polymers**
+(plastics).
+
+The double bond in each alkene molecule (monomer) opens and links to form a polymer chain.
+
+**Example: Poly(ethene) from ethene**
+
+$$n\mathrm{C_2\mathrm{H_4 \to \mathrm{(-CH_2\mathrm{-CH_2\mathrm{-)_n$$
+
+**Example: Poly(propene) from propene**
+
+$$n\mathrm{C_3\mathrm{H_6 \to \mathrm{(-CH_2\mathrm{-CH(CH_3\mathrm{)-)_n$$
+
+**Example: Poly(chloroethene) / PVC from chloroethene**
+
+$$n\mathrm{C_2\mathrm{H_3\mathrm{Cl \to \mathrm{(-CH_2\mathrm{-CHCl-)_n$$
+
+### 3.5 Problems with Polymers
+
+Most polymers are not biodegradable. They persist in landfill sites and can cause environmental
+Problems. Disposal by incineration can release toxic gases if chlorine-containing polymers (like
+PVC) are burned.
+
+**Solutions:**
+
+- **Recycling:** Sorting and reprocessing waste plastics. Different polymers must be separated
+  because they cannot be recycled together.
+- **Biodegradable polymers:** Made from plant materials (e.g. Corn starch), which can be broken down
+  by microorganisms.
+- **Incineration:** Burning plastics for energy recovery (but releases CO$_2$ and potentially toxic
+  gases).
+
+### 3.6 Summary: Alkanes vs. Alkenes
+
+| Property           | Alkanes                 | Alkenes                  |
+| ------------------ | ----------------------- | ------------------------ |
+| General formula    | C$_n$H$_{2n+2}$         | C$_n$H$_{2n}$            |
+| Bond type          | Single bonds only       | Contains C=C double bond |
+| Reactivity         | Less reactive           | More reactive            |
+| Bromine water test | No reaction             | Decolourises             |
+| Combustion         | Complete and incomplete | Same                     |
+
+## 4. Alcohols
+
+### 4.1 General Properties
+
+Alcohols contain the **hydroxyl group** (-OH). The general formula is:
+
+$$\mathrm{C_n\mathrm{H_{2n+1}\mathrm{OH$$
+
+| Name     | Formula      | Boiling Point ($^{\circ}$C) |
+| -------- | ------------ | --------------------------- |
+| Methanol | CH$_3$OH     | 65                          |
+| Ethanol  | C$_2$H$_5$OH | 78                          |
+| Propanol | C$_3$H$_7$OH | 97                          |
+| Butanol  | C$_4$H$_9$OH | 118                         |
+
+**Physical properties:**
+
+- Soluble in water (the -OH group forms hydrogen bonds with water)
+- Boiling points higher than corresponding alkanes (hydrogen bonding between molecules)
+- Ethanol is miscible with water in all proportions
+
+### 4.2 Reactions of Alcohols
+
+**Combustion:**
+
+$$\mathrm{C_2\mathrm{H_5\mathrm{OH + 3\mathrm{O_2 \to 2\mathrm{CO_2 + 3\mathrm{H_2\mathrm{O$$
+
+**Oxidation:** Ethanol can be oxidised to ethanoic acid using an oxidising agent (e.g. Potassium
+Dichromate(VI) with dilute sulfuric acid).
+
+$$\mathrm{C_2\mathrm{H_5\mathrm{OH \to \mathrm{CH_3\mathrm{COOH$$
+
+The oxidation proceeds in two stages: ethanol is first oxidised to ethanal (an aldehyde), which is
+Then further oxidised to ethanoic acid (a carboxylic acid).
+
+**Dehydration:** Ethanol can be dehydrated to ethene using aluminium oxide catalyst at high
+Temperature.
+
+$$\mathrm{C_2\mathrm{H_5\mathrm{OH \to \mathrm{C_2\mathrm{H_4 + \mathrm{H_2\mathrm{O$$
+
+**Reaction with sodium:**
+
+$$2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{Na \to 2\mathrm{C_2\mathrm{H_5\mathrm{ONa + \mathrm{H_2$$
+
+This reaction is similar to the reaction of sodium with water but is less vigorous. It confirms that
+Alcohols contain the -OH group.
+
+### 4.3 Uses of Alcohols
+
+- **Ethanol:** Solvents, fuels, alcoholic drinks
+- **Methanol:** Industrial solvent, fuel (but toxic)
+- **Ethanol as a biofuel:** Produced by fermentation of sugars, can be used as a renewable fuel
+
+### 4.4 Fermentation
+
+**Fermentation** uses yeast to convert sugars into ethanol and carbon dioxide:
+
+$$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$$
+
+**Conditions:**
+
+- Temperature: 30--40$^{\circ}$C (optimal for yeast enzymes)
+- Anaerobic (absence of oxygen)
+- pH: slightly acidic
+
+The ethanol produced can be purified by **distillation**. Fermentation produces ethanol
+Concentrations of up to about 15%, beyond which the ethanol itself begins to inhibit the yeast.
+
+**Worked Example.** Calculate the maximum mass of ethanol that can be produced from 180 g of glucose
+By fermentation.
+
+$$M_r(\mathrm{glucose) = 180, \quad M_r(\mathrm{ethanol) = 46$$
+
+$$n(\mathrm{glucose) = \frac{180}{180} = 1 \mathrm{ mol$$
+
+From the equation, 1 mol glucose produces 2 mol ethanol.
+
+$$m(\mathrm{ethanol) = 2 \times 46 = 92 \mathrm{ g$$
+
+## 5. Carboxylic Acids
+
+### 5.1 General Properties
+
+Carboxylic acids contain the **carboxyl group** (-COOH). The general formula is:
+
+$$\mathrm{C_n\mathrm{H_{2n+1}\mathrm{COOH$$
+
+| Name           | Formula        |
+| -------------- | -------------- |
+| Methanoic acid | HCOOH          |
+| Ethanoic acid  | CH$_3$COOH     |
+| Propanoic acid | C$_2$H$_5$COOH |
+| Butanoic acid  | C$_3$H$_7$COOH |
+
+### 5.2 Properties
+
+- React with carbonates to produce a salt, water, and CO$_2$
+- React with metals to produce a salt and hydrogen
+- Form salts called carboxylates (e.g. Sodium ethanoate)
+- Weak acids (partially dissociate in solution)
+- Higher boiling points than alkanes and alcohols of similar size (form dimers via hydrogen bonding)
+
+Carboxylic acids are weak acids because the O-H bond in the -COOH group is only partially
+Dissociated. The equilibrium lies far to the left: most carboxylic acid molecules remain
+Undissociated in solution.
+
+### 5.3 Reactions
+
+**With sodium carbonate:**
+
+$$2\mathrm{CH_3\mathrm{COOH + \mathrm{Na_2\mathrm{CO_3 \to 2\mathrm{CH_3\mathrm{COONa + \mathrm{H_2\mathrm{O + \mathrm{CO_2$$
+
+**With metals:**
+
+$$2\mathrm{CH_3\mathrm{COOH + 2\mathrm{Na \to 2\mathrm{CH_3\mathrm{COONa + \mathrm{H_2$$
+
+**With alcohols (esterification):**
+
+$$\mathrm{CH_3\mathrm{COOH + \mathrm{C_2\mathrm{H_5\mathrm{OH \rightleftharpoons \mathrm{CH_3\mathrm{COOC_2\mathrm{H_5 + \mathrm{H_2\mathrm{O$$
+
+### 5.4 Esters
+
+Esters are formed when a carboxylic acid reacts with an alcohol (esterification). This is a
+**condensation reaction** (water is eliminated).
+
+The reaction is catalysed by a strong acid (e.g. Concentrated sulfuric acid). The reaction is
+Reversible, so the yield can be improved by using an excess of one reactant or by removing the water
+As it forms.
+
+Esters have distinctive sweet/fruity smells and are used in:
+
+- Flavourings and fragrances
+- Solvents
+- Plasticisers (added to plastics to make them flexible)
+
+## 6. Crude Oil and Fractional Distillation
+
+### 6.1 Formation of Crude Oil
+
+Crude oil is formed from the remains of microscopic marine organisms that died millions of years
+Ago. Under high pressure and temperature, these remains were converted into a mixture of
+Hydrocarbons. This process takes millions of years, making crude oil a non-renewable resource.
+
+### 6.2 Fractional Distillation
+
+Crude oil is a mixture of hydrocarbons with different chain lengths. These are separated by
+**fractional distillation** in a fractionating column.
+
+**Process:**
+
+1. Crude oil is heated to about $400^{\circ}\mathrm{C$ to vaporise it
+2. The vapour enters the fractionating column at the bottom
+3. The column is hotter at the bottom and cooler at the top
+4. Hydrocarbons condense at different heights depending on their boiling point
+5. Shorter chains (lower boiling points) condense near the top
+6. Longer chains (higher boiling points) condense near the bottom
+
+**Fractions and their uses:**
+
+| Fraction          | Carbon Chain   | Use                       |
+| ----------------- | -------------- | ------------------------- |
+| Refinery gas      | C$_1$--C$_4$   | Bottled gas, fuel         |
+| Gasoline (petrol) | C$_5$--C$_10$  | Car fuel                  |
+| Naphtha           | C$_6$--C$_12$  | Chemical feedstock        |
+| Kerosene          | C$_11$--C$_15$ | Jet fuel, paraffin        |
+| Diesel oil        | C$_15$--C$_19$ | Diesel engines            |
+| Fuel oil          | C$_20$--C$_30$ | Ship fuel, power stations |
+| Bitumen           | C$_{30+}$      | Road surfacing            |
+
+The trend in properties down the fractionating column: shorter chains are more volatile, have lower
+Boiling points, are less viscous, and burn more cleanly. Longer chains are less volatile, have
+Higher boiling points, are more viscous, and burn with more soot.
+
+### 6.3 Cracking
+
+Longer-chain hydrocarbons are in greater supply than demand, while shorter chains are in high
+Demand. **Cracking** breaks long-chain alkanes into shorter, more useful alkanes and alkenes.
+
+**Thermal cracking:** High temperature and pressure. Produces a mixture of shorter alkanes and
+Alkenes. Used to produce ethene for polymer manufacture.
+
+**Catalytic cracking:** Lower temperature, uses a zeolite catalyst. Produces more branched-chain
+Alkanes and aromatic compounds. Produces higher-quality petrol.
+
+**Example:**
+
+$$\mathrm{C_{10}\mathrm{H_{22} \to \mathrm{C_8\mathrm{H_{18} + \mathrm{C_2\mathrm{H_4$$
+
+(decane $\to$ octane + ethene)
+
+Cracking is a thermal decomposition reaction. The C-C bonds in long-chain alkanes break when heated,
+Producing shorter fragments. Some of these fragments contain a C=C double bond (alkenes), which is
+Why cracking is a useful source of alkenes for the chemical industry.
+
+**Worked Example.** A hydrocarbon with formula C$_{12}$H$_{26}$ undergoes cracking to produce
+C$_8$H$_{18}$ and another product. Identify the other product.
+
+The atoms must balance: 12 C and 26 H on the left. The known product has 8 C and 18 H, so the other
+Product has $12 - 8 = 4$ C and $26 - 18 = 8$ H. The formula is C$_4$H$_8$Which is butene (an
+Alkene).
+
+$$\mathrm{C_{12}\mathrm{H_{26} \to \mathrm{C_8\mathrm{H_{18} + \mathrm{C_4\mathrm{H_8$$
+
+## 7. Biodegradable Polymers and Natural Polymers
+
+### 7.1 Natural Polymers
+
+| Polymer   | Monomer     | Links                |
+| --------- | ----------- | -------------------- |
+| Starch    | Glucose     | Glycosidic bonds     |
+| Cellulose | Glucose     | Glycosidic bonds     |
+| Protein   | Amino acids | Peptide bonds        |
+| DNA       | Nucleotides | Phosphodiester bonds |
+
+Natural polymers are formed by condensation polymerisation, where monomers join with the elimination
+Of a small molecule ( water).
+
+### 7.2 Biodegradable Polymers
+
+Polymers made from renewable resources (e.g. Corn starch, sugar cane) that can be broken down by
+Microorganisms. Examples include PLA (polylactic acid) and PHA (polyhydroxyalkanoates).
+
+**Advantages:** Reduce landfill waste, made from renewable resources, lower carbon footprint.
+
+**Disadvantages:** More expensive than conventional plastics, may require specific composting
+Conditions, may contaminate recycling streams if mixed with conventional plastics.
+
+### 7.3 Addition vs. Condensation Polymerisation
+
+| Feature             | Addition Polymerisation | Condensation Polymerisation     |
+| ------------------- | ----------------------- | ------------------------------- |
+| Monomer type        | Alkene (C=C)            | Two different functional groups |
+| Small molecule lost | None                    | Water (or other)                |
+| Example             | Poly(ethene)            | Nylon, polyester                |
+| By-products         | None                    | Water                           |
+
+## 8. Alcohols vs. Carboxylic Acids vs. Esters: A Comparison
+
+| Property            | Alcohols               | Carboxylic Acids       | Esters                   |
+| ------------------- | ---------------------- | ---------------------- | ------------------------ |
+| Functional group    | -OH                    | -COOH                  | -COO-                    |
+| Boiling point trend | Higher than alkanes    | Higher than alcohols   | Lower than both          |
+| Acidity             | Very weak              | Weak                   | Not acidic               |
+| Hydrogen bonding    | Yes                    | Yes (stronger, dimers) | Accept but do not donate |
+| Typical reaction    | Oxidation, dehydration | Esterification         | Hydrolysis               |
+| Odour               | Characteristic         | Pungent                | Sweet/fruity             |
+
+## 9. Summary of Organic Reactions
+
+### 9.1 Reaction Types Summary
+
+| Reaction Type  | Description                          | Example                                                                                                |
+| -------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Combustion     | Burning in oxygen                    | $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$                                 |
+| Addition       | Atoms added across C=C double bond   | $\mathrm{C_2\mathrm{H_4 + \mathrm{Br_2 \to \mathrm{C_2\mathrm{H_4\mathrm{Br_2$                         |
+| Substitution   | Atom replaced by another atom        | $\mathrm{CH_4 + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{HCl$                                 |
+| Polymerisation | Monomers join to form long chains    | $n\mathrm{C_2\mathrm{H_4 \to \mathrm{poly(ethene)$                                                     |
+| Esterification | Acid + alcohol $\to$ ester + water   | $\mathrm{CH_3\mathrm{COOH + \mathrm{C_2\mathrm{H_5\mathrm{OH \to \mathrm{ester + \mathrm{H_2\mathrm{O$ |
+| Fermentation   | Sugar $\to$ ethanol + carbon dioxide | $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$           |
+
+## Common Pitfalls
+
+- **Confusing alkanes and alkenes.** Alkanes are saturated (single bonds only); alkenes are
+  unsaturated (contain C=C double bond).
+- **Writing the wrong general formula.** Alkanes: C$_n$H$_{2n+2}$; alkenes: C$_n$H$_{2n}$.
+- **Forgetting that incomplete combustion produces carbon monoxide** (toxic) or carbon (soot), not
+  just CO$_2$ and H$_2$O.
+- **Confusing the test for saturation with other tests.** Bromine water decolourises with alkenes
+  (addition) but not with alkanes.
+- **Writing polymer equations incorrectly.** Make sure the repeating unit is correct and show the
+  $n$ subscript.
+- **Confusing condensation polymerisation with addition polymerisation.** Addition: no small
+  molecule eliminated; condensation: water (or other small molecule) eliminated.
+- **Stating that ethanol is produced by hydration of ethene and fermentation under the same
+  conditions.** Hydration uses high temperature and a phosphoric acid catalyst; fermentation uses
+  yeast at 30--40$^{\circ}$C.
+- **Forgetting that carboxylic acids are weak acids.** They dissociate partially, not completely.
+  They still react with carbonates and metals.
+- **Confusing the terms "volatile" and "flammable".** Volatile means evaporates; flammable means
   catches fire . Shorter-chain hydrocarbons are more volatile.
 - **Not balancing combustion equations.** Remember to count both C and H atoms on both sides, and
   check that O atoms balance too.

@@ -1,6 +1,123 @@
 ---
 title: Climate Adaptation and Mitigation
-description: ""s elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
+description: "refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation..."
+
+---
+
+# Climate Adaptation and Mitigation
+
+## Distinguishing Adaptation and Mitigation
+
+**Mitigation** refers to actions that reduce the sources or enhance the sinks of greenhouse gases,
+Thereby reducing the magnitude of future climate change. Mitigation addresses the causes of climate
+Change.
+
+**Adaptation** refers to adjustments in ecological, social, or economic systems in response to
+Actual or expected climate stimuli and their effects. Adaptation addresses the consequences of
+Climate change.
+
+Both are necessary. Even under the most ambitious mitigation scenarios, some degree of additional
+Warming and its associated impacts are already locked in due to the thermal inertia of the climate
+System and the long atmospheric lifetime of $\mathrm{CO_2}$. Adaptation is therefore required
+Regardless of mitigation efforts.
+
+## Mitigation Strategies
+
+### Energy Sector
+
+The energy sector (electricity generation, heat, and transport) accounts for approximately 73% of
+Global greenhouse gas emissions. Mitigation in this sector involves:
+
+**Renewable energy deployment.** Replacing fossil fuel generation with renewable sources (solar,
+Wind, hydroelectric, geothermal, biomass).
+
+- **Solar photovoltaic (PV):** global installed capacity exceeded 1200 GW in 2023. The cost of solar
+  PV has declined by approximately 90% since 2010, reaching approximately USD 0.05 per kWh in
+  optimal locations, making it the cheapest source of new electricity in most of the world.
+- **Wind energy:** global installed capacity exceeded 1000 GW in 2023 (approximately 740 GW onshore,
+  260 GW offshore). Offshore wind is expanding rapidly, with the UK (approximately 14 GW), China
+  (approximately 38 GW), and Germany leading installation.
+- **Limitations:** intermittency (solar and wind generation vary with weather and time of day);
+  energy storage requirements; land-use conflicts; grid integration challenges; supply chain
+  constraints for critical minerals (lithium, cobalt, rare earth elements).
+
+**Nuclear energy.** Nuclear provides approximately 10% of global electricity from approximately 440
+Reactors. It is a low-carbon baseload source but faces challenges: high capital cost (approximately
+USD 5000--10 000 per kW), long construction times ( 8--12 years), radioactive waste Disposal, and
+public safety concerns following the Chernobyl (1986) and Fukushima (2011) accidents.
+
+**Energy efficiency.** Reducing energy consumption per unit of economic output or per unit of
+Service delivered. Key measures include: building energy codes (requiring improved insulation,
+Efficient windows, heat pumps); fuel efficiency standards for vehicles; industrial energy
+Management; efficient lighting (LED technology has reduced global lighting electricity consumption
+By approximately 15% since 2010).
+
+### Land Use, Forestry, and Agriculture
+
+This sector accounts for approximately 18--22% of global greenhouse gas emissions (including
+Deforestation and land-use change).
+
+**Reducing deforestation.** Halting tropical deforestation (which releases approximately 4.8 Gt
+$\mathrm{CO_2}$ per year) is among the most cost-effective mitigation strategies. Approaches
+Include: strengthening and enforcing forest protection laws; providing economic alternatives to
+Deforestation (sustainable agriculture, ecotourism, payment for ecosystem services); addressing the
+Demand-side drivers of deforestation (soy, palm oil, beef, timber); and REDD+ (see Carbon Cycle and
+Sequestration).
+
+**Afforestation and reforestation.** Establishing forests on previously non-forested land or
+Replanting degraded forests can sequester carbon while providing biodiversity, watershed protection,
+And livelihood co-benefits. The Bonn Challenge (2011) aims to restore 350 million hectares of
+Degraded and deforested land by 2030; approximately 200 million hectares have been pledged.
+
+**Sustainable agriculture.** Reducing agricultural emissions through improved nitrogen management
+(precision fertiliser application to reduce $\mathrm{N_2}\mathrm{O}$ emissions), improved livestock
+Management (feed additives, manure management to reduce $\mathrm{CH_4}$), reduced food waste
+(approximately 30% of food produced globally is wasted, representing approximately 8% of global
+Emissions), and dietary shifts (reducing meat consumption, particularly beef, which has a carbon
+Footprint approximately 50 times greater than plant-based protein per gram of protein).
+
+### Transport
+
+The transport sector accounts for approximately 16% of global emissions.
+
+**Electric vehicles (EVs).** EV sales exceeded 14 million globally in 2023, representing
+Approximately 18% of total car sales. Norway leads with approximately 90% of new car sales being
+Electric; China and the EU are rapidly expanding. EVs produce zero tailpipe emissions but the net
+Carbon benefit depends on the electricity grid mix (EVs charged on coal-generated electricity have a
+Higher lifecycle carbon footprint than those charged on renewable electricity).
+
+**Public transport and active travel.** Investing in efficient public transport (bus rapid transit,
+Metro, rail) and infrastructure for walking and cycling can reduce per-capita transport emissions by
+Reducing car dependence. The IPCC estimates that shifting urban trips from cars to public transport
+And active travel could reduce transport emissions by approximately 20--40% in cities.
+
+**Sustainable aviation fuels (SAF).** Aviation is one of the hardest sectors to decarbonise because
+Of its high energy density requirements. SAFs, produced from biomass or synthetic processes
+(power-to-liquid), can reduce aviation lifecycle emissions by approximately 50--80%, but are
+Currently expensive (2--4 times the cost of conventional jet fuel) and limited in supply.
+
+## Adaptation Strategies
+
+### Agricultural Adaptation
+
+Climate change poses severe risks to food security through altered precipitation patterns, increased
+Temperature stress, increased pest and disease pressure, and increased frequency of extreme events
+(droughts, floods, heat waves).
+
+| Strategy                                | Description                                                                                                  | Example                                                                                                                         |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Drought-resistant crop varieties**    | Breeding or genetic modification of crops to tolerate heat and water stress                                  | Drought-tolerant maize varieties developed by CGIAR centres for Sub-Saharan Africa; salt-tolerant rice varieties for Bangladesh |
+| **Conservation agriculture**            | Minimum tillage, crop residue retention, crop rotation to improve soil moisture retention and reduce erosion | Widely adopted in Brazil, Argentina, and Australia                                                                              |
+| **Irrigation expansion and efficiency** | Expanding irrigated area; shifting from flood to drip irrigation to reduce water use                         | Drip irrigation adoption in India has increased water-use efficiency by 40--60%                                                 |
+| **Adjusted planting dates**             | Shifting sowing and harvesting dates to match changing seasonal patterns                                     | Farmers in the Sahel shifting planting dates earlier to take advantage of changing onset of rains                               |
+| **Crop diversification**                | Reducing reliance on a single crop to spread climate risk                                                    | Promoting millet and sorghum alongside maize in southern Africa                                                                 |
+
+### Infrastructural Adaptation
+
+| Strategy                             | Description                                                                    | Example                                                                                                                                                                                                        |
+| ------------------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sea walls and coastal defences**   | Hard engineering structures to protect against sea level rise and storm surges | Netherlands Delta Programme (EUR 20+ billion); MOSE barrier in Venice (EUR 5.5 billion)                                                                                                                        |
+| **Flood-resistant infrastructure**   | Designing buildings, roads, and utilities to withstand flooding                | Bangladesh"s elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
 | **Improved drainage**                | Upgrading urban drainage systems to handle increased rainfall intensity        | Sustainable Urban Drainage Systems (SUDS) in UK cities; Tokyo's underground floodwater storage (the Metropolitan Area Outer Underground Discharge Channel, completed 2006, stores 670 000 m$^3$ of floodwater) |
 | **Climate-resilient building codes** | Updating construction standards to account for projected climate conditions    | Caribbean building codes for hurricane resistance; Japan's earthquake and tsunami-resistant standards                                                                                                          |
 

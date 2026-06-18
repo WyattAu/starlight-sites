@@ -1,6 +1,34 @@
 ---
 title: Reflection
-description: ""Type:", t)
+description: "The package provides runtime type introspection and manipulation. It allows programs to Examine types, inspect struct fields, call methods by name, and"
+date: 2026-04-18
+tags:
+  - Go
+categories:
+  - Go
+---
+
+## Overview
+
+The `reflect` package provides runtime type introspection and manipulation. It allows programs to
+Examine types, inspect struct fields, call methods by name, and modify values dynamically.
+
+Reflection is powerful but slow and type-unsafe. Use it only when static typing is insufficient:
+Serialization, ORMs, configuration parsing, testing frameworks.
+
+## reflect.Type and reflect.Value
+
+The two core types:
+
+- `reflect.Type` represents a Go type (int, string, struct, slice, etc.)
+- `reflect.Value` represents a value of any type
+
+```go
+func inspect(i any) {
+    t := reflect.TypeOf(i)
+    v := reflect.ValueOf(i)
+
+    fmt.Println("Type:", t)
     fmt.Println("Kind:", t.Kind())
     fmt.Println("Value:", v)
 }

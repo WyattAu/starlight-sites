@@ -1,6 +1,377 @@
 ---
 title: Algebra
-description: ""s Theorem (HL)
+description: "Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both Paper 1 and Paper 2. This topic covers algebraic..."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-maths
+categories:
+  - ilc-maths
+
+---
+
+# Algebra
+
+Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both
+Paper 1 and Paper 2. This topic covers algebraic expressions, equations, inequalities, complex
+Numbers, matrices, and sequences.
+
+## Algebraic Expressions
+
+### Expanding and Factorising
+
+**Expansion** is the process of removing brackets by multiplying each term inside by the expression
+Outside.
+
+**Example (OL/HL):** Expand $(2x + 3)(x - 5)$.
+
+$$
+(2x + 3)(x - 5) = 2x^2 - 10x + 3x - 15 = 2x^2 - 7x - 15
+$$
+
+**Example (HL):** Expand and simplify $(x + 2)^3$.
+
+$$
+(x + 2)^3 = (x + 2)(x + 2)^2 = (x + 2)(x^2 + 4x + 4) = x^3 + 4x^2 + 4x + 2x^2 + 8x + 8 = x^3 + 6x^2 + 12x + 8
+$$
+
+**Factorisation** is the reverse process. Common techniques include:
+
+1. **Common factor:** $6x^2 + 9x = 3x(2x + 3)$
+2. **Quadratic trinomial:** $x^2 + 5x + 6 = (x + 2)(x + 3)$
+3. **Difference of two squares:** $x^2 - 16 = (x - 4)(x + 4)$
+
+### Difference of Two Squares (HL)
+
+The identity $a^2 - b^2 = (a - b)(a + b)$ extends to factorisation:
+
+$$
+4x^2 - 25y^2 = (2x - 5y)(2x + 5y)
+$$
+
+**Proof.** $(a-b)(a+b) = a^2 + ab - ab - b^2 = a^2 - b^2$.
+
+This identity also leads to the sum and difference of two cubes:
+
+$$
+A^3 - b^3 = (a - b)(a^2 + ab + b^2)
+$$
+
+$$
+A^3 + b^3 = (a + b)(a^2 - ab + b^2)
+$$
+
+**Verification:** $(a - b)(a^2 + ab + b^2) = a^3 + a^2b + ab^2 - a^2b - ab^2 - b^3 = a^3 - b^3$.
+
+**Example (HL):** Factorise $x^4 - 16$ completely.
+
+$$
+X^4 - 16 = (x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4)
+$$
+
+**Example (HL):** Factorise $x^3 + 8$.
+
+$$
+X^3 + 8 = (x + 2)(x^2 - 2x + 4)
+$$
+
+### Perfect Square Trinomials (HL)
+
+$$
+A^2 + 2ab + b^2 = (a + b)^2
+$$
+
+$$
+A^2 - 2ab + b^2 = (a - b)^2
+$$
+
+**Example (HL):** Factorise $9x^2 - 30x + 25$.
+
+$$
+9x^2 - 30x + 25 = (3x - 5)^2
+$$
+
+## Solving Equations
+
+### Linear Equations (OL/HL)
+
+Solve for $x$: $3(2x - 1) = 4(x + 3) - 5$.
+
+$$
+6x - 3 = 4x + 12 - 5
+$$
+
+$$
+6x - 4x = 7 + 3
+$$
+
+$$
+2x = 10 \implies x = 5
+$$
+
+**Example (HL):** Solve $\frac{2x + 1}{3} - \frac{x - 2}{4} = \frac{1}{6}$.
+
+Multiply through by 12 (the LCM of 3, 4, 6):
+
+$$
+4(2x + 1) - 3(x - 2) = 2
+$$
+
+$$
+8x + 4 - 3x + 6 = 2
+$$
+
+$$
+5x + 10 = 2 \implies 5x = -8 \implies x = -\frac{8}{5}
+$$
+
+### Quadratic Equations (OL/HL)
+
+Quadratic equations take the form $ax^2 + bx + c = 0$. Methods of solution include:
+
+#### Method 1: Factorisation
+
+$$
+X^2 - 5x + 6 = 0 \implies (x - 2)(x - 3) = 0 \implies x = 2 \mathrm{ or  x = 3
+$$
+
+#### Method 2: Quadratic Formula (OL/HL)
+
+For $ax^2 + bx + c = 0$:
+
+$$
+X = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+**Derivation.** Complete the square for $ax^2 + bx + c = 0$:
+
+$a\!\left(x^2 + \frac{b}{a}x\right) = -c$
+
+$a\!\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a} = -c$
+
+$a\!\left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a}$
+
+$x + \frac{b}{2a} = \frac{\pm\sqrt{b^2 - 4ac}}{2a}$
+
+**Example:** Solve $2x^2 + 3x - 5 = 0$.
+
+Here $a = 2$, $b = 3$, $c = -5$.
+
+$$
+X = \frac{-3 \pm \sqrt{9 + 40}}{4} = \frac{-3 \pm 7}{4}
+$$
+
+$$
+X = 1 \mathrm{ or  x = -\frac{5}{2}
+$$
+
+#### Method 3: Completing the Square (HL)
+
+Write $ax^2 + bx + c$ in the form $a(x - h)^2 + k$.
+
+**Example:** Express $x^2 + 6x + 2$ in completed square form.
+
+$$
+X^2 + 6x + 2 = (x^2 + 6x + 9) - 9 + 2 = (x + 3)^2 - 7
+$$
+
+### The Discriminant (HL)
+
+The discriminant $\Delta = b^2 - 4ac$ determines the nature of the roots:
+
+| Condition    | Roots                             |
+| ------------ | --------------------------------- |
+| $\Delta > 0$ | Two distinct real roots           |
+| $\Delta = 0$ | One repeated real root            |
+| $\Delta < 0$ | No real roots (two complex roots) |
+
+**Example (HL):** Find the range of $k$ for which $x^2 + 4x + k = 0$ has real roots.
+
+$$
+\Delta = 16 - 4k \geq 0 \implies k \leq 4
+$$
+
+**Example (HL):** Find the range of $k$ for which $kx^2 + 4x + k = 0$ has real roots.
+
+$$
+\Delta = 16 - 4k^2 \geq 0 \implies k^2 \leq 4 \implies -2 \leq k \leq 2
+$$
+
+**Example (HL):** Find the value of $k$ for which $x^2 + 2kx + 9 = 0$ has equal roots.
+
+$$
+\Delta = 4k^2 - 36 = 0 \implies k^2 = 9 \implies k = \pm 3
+$$
+
+### Simultaneous Equations (OL/HL)
+
+**Example (OL):** Solve:
+
+$$
+\begin{cases}
+2x + y = 7 \\
+X - y = 2
+\end{cases}
+$$
+
+Adding: $3x = 9 \implies x = 3$. Substituting: $y = 1$.
+
+**Example (HL):** Solve:
+
+$$
+\begin{cases}
+X + y = 5 \\
+X^2 + y^2 = 13
+\end{cases}
+$$
+
+From the first equation $y = 5 - x$. Substituting:
+
+$$
+X^2 + (5 - x)^2 = 13
+$$
+
+$$
+X^2 + 25 - 10x + x^2 = 13
+$$
+
+$$
+2x^2 - 10x + 12 = 0 \implies x^2 - 5x + 6 = 0
+$$
+
+$$
+(x - 2)(x - 3) = 0 \implies x = 2 \mathrm{ or  x = 3
+$$
+
+Solutions: $(2, 3)$ and $(3, 2)$.
+
+## Inequalities (OL/HL)
+
+### Linear Inequalities
+
+When multiplying or dividing both sides by a negative number, reverse the inequality sign.
+
+**Example:** Solve $3 - 2x > 7$.
+
+$$
+-2x > 4 \implies x < -2
+$$
+
+### Quadratic Inequalities (HL)
+
+**Example:** Solve $x^2 - 3x - 4 < 0$.
+
+Factorise: $(x - 4)(x + 1) < 0$.
+
+The product is negative when one factor is positive and the other negative. Since the parabola opens
+Upward:
+
+$$
+-1 < x < 4
+$$
+
+:::caution Always check the inequality sign carefully. For $x^2 - 3x - 4 \gt 0$The solution would Be
+$x \lt -1$ or $x \gt 4$ (outside the roots).
+
+**Example (HL):** Solve $\frac{x - 1}{x + 2} \le 0$.
+
+Critical values: $x = 1$ (numerator zero) and $x = -2$ (denominator zero).
+
+Sign chart:
+
+| Interval | $x < -2$ | $-2 < x < 1$ | $x > 1$      |
+| -------- | -------- | ------------ | ------------ |
+| $x - 1$  | Negative | Negative     | Positive     |
+| $x + 2$  | Negative | Positive     | Positive     |
+| Quotient | Positive | Negative     | Non-negative |
+
+Solution: $x \in (-2, 1]$.
+
+### Modulus Inequalities (HL)
+
+$|x| \lt a \iff -a \lt x \lt a$
+
+$|x| > a \iff x \lt -a$ or $x > a$
+
+**Example:** Solve $|2x - 3| \lt 5$.
+
+$-5 \lt 2x - 3 \lt 5$
+
+$-2 \lt 2x \lt 8$
+
+$-1 \lt x \lt 4$
+
+## Complex Numbers (HL)
+
+### Definition
+
+A complex number is of the form $z = a + bi$ where $a, b \in \mathbb{R}$ and $i^2 = -1$.
+
+- $a$ is the **real part** ($\operatorname{Re}(z)$)
+- $b$ is the **imaginary part** ($\operatorname{Im}(z)$)
+
+### Operations
+
+**Addition:** $(a + bi) + (c + di) = (a + c) + (b + d)i$
+
+**Multiplication:** $(a + bi)(c + di) = (ac - bd) + (ad + bc)i$
+
+**Complex conjugate:** $\bar{z} = a - bi$
+
+$$
+Z \cdot \bar{z} = a^2 + b^2
+$$
+
+**Division:**
+$\dfrac{a + bi}{c + di} = \dfrac{(a + bi)(c - di)}{(c + di)(c - di)} = \dfrac{(ac + bd) + (bc - ad)i}{c^2 + d^2}$
+
+### Modulus and Argument
+
+The **modulus** (or absolute value) of $z = a + bi$:
+
+$$
+|z| = \sqrt{a^2 + b^2}
+$$
+
+The **argument** $\arg(z)$ is the angle $\theta$ measured from the positive real axis:
+
+$$
+\theta = \arctan\left(\frac{b}{a}\right), \quad a > 0
+$$
+
+For $a < 0$Add $\pi$ to get the correct quadrant.
+
+**Quadrant check for the argument:**
+
+| Quadrant | $a$   | $b$   | $\arg(z)$             |
+| -------- | ----- | ----- | --------------------- | --- | --- |
+| I        | $> 0$ | $> 0$ | $\arctan(b/a)$        |
+| II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     | a   | )$  |
+| III      | $< 0$ | $< 0$ | $-\pi + \arctan(b/a)$ |
+| IV       | $> 0$ | $< 0$ | $-\arctan(b/a)$       |
+
+### Polar Form (HL)
+
+$$
+Z = r(\cos\theta + i\sin\theta) = re^{i\theta}
+$$
+
+Where $r = |z|$ and $\theta = \arg(z)$.
+
+**Example (HL):** Express $z = -1 + i\sqrt{3}$ in polar form.
+
+$r = \sqrt{1 + 3} = 2$. Since $a = -1 < 0$ and $b = \sqrt{3} > 0$The point is in the second
+Quadrant.
+
+$$
+\theta = \pi - \arctan\!\left(\frac{\sqrt{3}}{1}\right) = \pi - \frac{\pi}{3} = \frac{2\pi}{3}
+$$
+
+$$
+Z = 2\left(\cos\frac{2\pi}{3} + i\sin\frac{2\pi}{3}\right) = 2e^{2\pi i/3}
+$$
+
+### De Moivre"s Theorem (HL)
 
 For $z = r(\cos\theta + i\sin\theta)$ and $n \in \mathbb{Z}$:
 

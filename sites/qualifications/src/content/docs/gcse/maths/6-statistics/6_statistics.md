@@ -1,6 +1,344 @@
 ---
 title: Statistics
-description: ""it rains" and "the student arrives late"
+description: "Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-maths
+categories:
+  - gcse-maths
+
+---
+
+## Statistics
+
+:::info Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR Paper 3 (Higher) / Paper 6 (Foundation) |
+WJEC Unit 2
+:::
+
+## 1. Data Collection
+
+### 1.1 Types of Data
+
+**Qualitative (categorical) data** describes qualities or characteristics (e.g. Colour, type of
+Car).
+
+**Quantitative data** is numerical:
+
+- **Discrete:** can only take specific values (e.g. Number of siblings: 0, 1, 2, ...).
+- **Continuous:** can take any value within a range (e.g. Height, temperature).
+
+### 1.2 Sampling Methods
+
+| Method        | Description                          | Advantage             | Disadvantage                 |
+| ------------- | ------------------------------------ | --------------------- | ---------------------------- |
+| Simple random | Every member has equal chance        | Unbiased              | May not represent subgroups  |
+| Systematic    | Every $k$-th member selected         | Easy to implement     | Can coincide with a pattern  |
+| Stratified    | Sample proportionally from subgroups | Represents all groups | Requires knowledge of groups |
+| Quota         | Interviewer fills quotas             | Quick                 | Not truly random             |
+| Opportunity   | Whoever is available                 | Convenient            | Highly biased                |
+
+**Stratified sampling formula.** If a population of size $N$ contains a subgroup of size $n$Then The
+sample from that subgroup should be:
+
+$$\mathrm{sample size = \frac{n}{N} \times \mathrm{total sample size$$
+
+**Worked Example.** A school has 600 boys and 400 girls. A sample of 50 students is needed. How many
+Boys and girls should be in the sample?
+
+$$\mathrm{Boys = \frac{600}{1000} \times 50 = 30, \qquad \mathrm{Girls = \frac{400}{1000} \times 50 = 20$$
+
+**Worked Example (Higher Tier).** A population of 1200 is divided into three age groups: Under 18
+(300), 18--40 (500), Over 40 (400). A stratified sample of 60 is required.
+
+Under 18: $\frac{300}{1200} \times 60 = 15$.
+
+18--40: $\frac{500}{1200} \times 60 = 25$.
+
+Over 40: $\frac{400}{1200} \times 60 = 20$.
+
+### 1.3 Bias in Data Collection
+
+A sample is **biased** if it does not fairly represent the population. Sources of bias include:
+
+- Sampling from a non-representative subset
+- Leading questions in surveys
+- Non-response (voluntary response bias)
+- Using convenience sampling
+
+:::caution A large sample size does not fix a biased sampling method. A sample of 10000 taken from
+Only one school is still biased if you want to draw conclusions about all schools in the country.
+:::
+
+## 2. Averages and Measures of Central Tendency
+
+### 2.1 Mean, Median, and Mode
+
+| Measure | Definition                        | When to use                         |
+| ------- | --------------------------------- | ----------------------------------- |
+| Mean    | $\bar{x} = \frac{\sum x}{n}$      | Uses all data; affected by outliers |
+| Median  | Middle value when data is ordered | Not affected by outliers            |
+| Mode    | Most frequent value               | Useful for categorical data         |
+
+**Worked Example.** Find the mean, median, and mode of: $3, 5, 2, 7, 5, 8, 5, 1, 9, 4$.
+
+Ordered: $1, 2, 3, 4, 5, 5, 5, 7, 8, 9$.
+
+$$\mathrm{Mean = \frac{1 + 2 + 3 + 4 + 5 + 5 + 5 + 7 + 8 + 9}{10} = \frac{49}{10} = 4.9$$
+
+$$\mathrm{Median = \frac{5 + 5}{2} = 5$$
+
+$$\mathrm{Mode = 5$$
+
+### 2.2 Mean from a Frequency Table
+
+$$\bar{x} = \frac{\sum (f \times x)}{\sum f}$$
+
+**Worked Example.**
+
+| Score $x$ | Frequency $f$ | $f \times x$ |
+| --------- | ------------- | ------------ |
+| 1         | 4             | 4            |
+| 2         | 7             | 14           |
+| 3         | 12            | 36           |
+| 4         | 9             | 36           |
+| 5         | 3             | 15           |
+| **Total** | **35**        | **105**      |
+
+$$\bar{x} = \frac{105}{35} = 3$$
+
+### 2.3 Estimated Mean from Grouped Data
+
+For grouped data, use the **midpoint** of each class as an estimate for $x$.
+
+**Worked Example.**
+
+| Height (cm)          | Frequency $f$ | Midpoint $x$ | $f \times x$ |
+| -------------------- | ------------- | ------------ | ------------ |
+| $140 \leq h \lt 150$ | 5             | 145          | 725          |
+| $150 \leq h \lt 160$ | 12            | 155          | 1860         |
+| $160 \leq h \lt 170$ | 18            | 165          | 2970         |
+| $170 \leq h \lt 180$ | 10            | 175          | 1750         |
+| $180 \leq h \lt 190$ | 5             | 185          | 925          |
+| **Total**            | **50**        |              | **8230**     |
+
+$$\mathrm{Estimated mean = \frac{8230}{50} = 164.6 \mathrm{ cm$$
+
+### 2.4 Estimated Median and Interquartile Range from Grouped Data
+
+To find the median class: find the position $\frac{n}{2}$ and locate it in the cumulative frequency.
+
+**Interquartile range (IQR):** $\mathrm{IQR = Q_3 - Q_1$.
+
+This is a **measure of spread** that is not affected by outliers.
+
+**Worked Example (Higher Tier).** Using the data above, estimate the median height.
+
+Cumulative frequencies: 5, 17, 35, 45, 50.
+
+Median position: $\frac{50}{2} = 25$. This falls in the $160 \leq h \lt 170$ class (between 17 and
+35).
+
+Using linear interpolation within the class:
+
+$$\mathrm{Median = 160 + \frac{25 - 17}{35 - 17} \times 10 = 160 + \frac{8}{18} \times 10 = 160 + 4.44 = 164.4 \mathrm{ cm$$
+
+### 2.5 Choosing the Right Average
+
+- Use the **mean** when data is roughly symmetric and there are no extreme outliers.
+- Use the **median** when data is skewed or has outliers (e.g., income data).
+- Use the **mode** for categorical data (e.g., favourite colour).
+
+**Worked Example (Higher Tier).** The salaries of five employees are: 18000, 22000, 25000, 28000,
+95000 (pounds). Compare the mean and median.
+
+Mean $= \frac{188000}{5} = 37600$. Median $= 25000$.
+
+The mean is heavily distorted by the outlier (95000). The median of 25000 is a much better
+Representation of the typical salary.
+
+## 3. Measures of Spread
+
+### 3.1 Range
+
+$$\mathrm{Range = \mathrm{maximum value - \mathrm{minimum value$$
+
+Simple but affected by outliers.
+
+### 3.2 Interquartile Range
+
+$$\mathrm{IQR = Q_3 - Q_1$$
+
+Where $Q_1$ is the lower quartile (25th percentile) and $Q_3$ is the upper quartile (75th
+Percentile).
+
+**Finding quartiles from raw data:**
+
+For $n$ data values in order:
+
+- $Q_1$ position: $\frac{n + 1}{4}$
+- $Q_3$ position: $\frac{3(n + 1)}{4}$
+
+### 3.3 Box Plots
+
+A **box plot** displays the minimum, $Q_1$Median, $Q_3$And maximum.
+
+**Worked Example.** Data set: $2, 5, 7, 8, 10, 12, 15, 18, 22, 25$.
+
+- Minimum: 2
+- $Q_1$ position: $\frac{11}{4} = 2.75$So $Q_1 = 7 + 0.75(8 - 7) = 7.75$
+- Median position: 5.5, so median $= \frac{10 + 12}{2} = 11$
+- $Q_3$ position: $\frac{33}{4} = 8.25$So $Q_3 = 18 + 0.25(22 - 18) = 19$
+- Maximum: 25
+- $\mathrm{IQR = 19 - 7.75 = 11.25$
+
+### 3.4 Outliers
+
+A common definition: a value is an **outlier** if it is more than $1.5 \times \mathrm{IQR$ below
+$Q_1$ or above $Q_3$.
+
+$$\mathrm{Lower fence = Q_1 - 1.5 \times \mathrm{IQR$$
+$$\mathrm{Upper fence = Q_3 + 1.5 \times \mathrm{IQR$$
+
+**Worked Example.** Using the data above, identify any outliers.
+
+Lower fence $= 7.75 - 1.5 \times 11.25 = 7.75 - 16.875 = -9.125$.
+
+Upper fence $= 19 + 16.875 = 35.875$.
+
+Since all values are between $-9.125$ and $35.875$There are no outliers.
+
+## 4. Representing Data
+
+### 4.1 Charts and Diagrams
+
+| Chart                | Best for                                  |
+| -------------------- | ----------------------------------------- |
+| Bar chart            | Comparing categories                      |
+| Pie chart            | Showing proportions                       |
+| Pictogram            | Simple visual comparison                  |
+| Scatter graph        | Relationship between two variables        |
+| Histogram            | Continuous data with unequal class widths |
+| Cumulative frequency | Finding medians and quartiles             |
+
+### 4.2 Histograms
+
+In a histogram, the **area** of each bar represents the frequency, not the height.
+
+$$\mathrm{Frequency density = \frac{\mathrm{frequency}{\mathrm{class width}$$
+
+**Worked Example.**
+
+| Distance (km)      | Frequency | Class width | Frequency density |
+| ------------------ | --------- | ----------- | ----------------- |
+| $0 \leq d \lt 10$  | 15        | 10          | 1.5               |
+| $10 \leq d \lt 25$ | 30        | 15          | 2.0               |
+| $25 \leq d \lt 40$ | 45        | 15          | 3.0               |
+| $40 \leq d \lt 60$ | 20        | 20          | 1.0               |
+
+The bar heights (frequency densities) are 1.5, 2.0, 3.0, and 1.0 respectively.
+
+**Worked Example (Higher Tier).** A histogram has a bar of width 5 and height 4. What frequency does
+This bar represent?
+
+$\mathrm{Frequency = \mathrm{frequency density \times \mathrm{class width = 4 \times 5 = 20$.
+
+**Worked Example (Higher Tier).** A histogram has bars with frequency densities 3, 5, 2, and 4 for
+Classes of width 4, 6, 8, and 3 respectively. Find the total frequency represented.
+
+$3 \times 4 + 5 \times 6 + 2 \times 8 + 4 \times 3 = 12 + 30 + 16 + 12 = 70$.
+
+### 4.3 Cumulative Frequency
+
+A **cumulative frequency** curve (ogive) is plotted by adding frequencies as you go. The $x$-axis
+Shows the upper boundary of each class.
+
+From the curve you can read:
+
+- Median (at $\frac{n}{2}$)
+- Lower quartile $Q_1$ (at $\frac{n}{4}$)
+- Upper quartile $Q_3$ (at $\frac{3n}{4}$)
+
+**Worked Example.** Using the distance data above, draw the cumulative frequency curve and estimate
+The median distance.
+
+Cumulative frequencies: 15, 45, 90, 110.
+
+Total $n = 110$. Median at position 55.
+
+$Q_1$ at position 27.5, $Q_3$ at position 82.5.
+
+From the ogive, the median falls in the $25 \leq d \lt 40$ class.
+
+### 4.4 Scatter Graphs and Correlation
+
+**Correlation** describes the relationship between two variables:
+
+| Type           | Description                             |
+| -------------- | --------------------------------------- |
+| Positive       | As $x$ increases, $y$ tends to increase |
+| Negative       | As $x$ increases, $y$ tends to decrease |
+| No correlation | No apparent relationship                |
+
+**Line of best fit:** A straight line drawn through the data that approximately follows the trend.
+It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
+On each side.
+
+:::caution Correlation does not imply causation. Two variables may be correlated due to a third
+Factor, or by coincidence.
+:::
+
+### 4.5 Interpolation and Extrapolation
+
+- **Interpolation:** Estimating values within the range of the data. Generally reliable.
+- **Extrapolation:** Estimating values outside the range of the data. Unreliable.
+
+**Worked Example (Higher Tier).** A scatter graph of exam score against hours of revision shows a
+Strong positive correlation. The line of best fit passes through $(2, 35)$ and $(10, 85)$. Estimate
+The exam score for a student who revised for 7 hours.
+
+Gradient: $m = \frac{85 - 35}{10 - 2} = \frac{50}{8} = 6.25$.
+
+Equation: $y - 35 = 6.25(x - 2)$So $y = 6.25x + 22.5$.
+
+At $x = 7$: $y = 6.25 \times 7 + 22.5 = 43.75 + 22.5 = 66.25$.
+
+The estimated exam score is approximately 66.
+
+## 5. Probability
+
+### 5.1 Basic Probability
+
+$$P(\mathrm{event) = \frac{\mathrm{number of favourable outcomes}{\mathrm{total number of outcomes}$$
+
+The probability of any event satisfies $0 \leq P(E) \leq 1$.
+
+**Complement rule:** $P(\mathrm{not  E) = 1 - P(E)$
+
+**Mutually exclusive events:** $P(A \mathrm{ or  B) = P(A) + P(B)$
+
+**Independent events:** $P(A \mathrm{ and  B) = P(A) \times P(B)$
+
+**Theorem.** For any events $A$ and $B$: $0 \leq P(A \cap B) \leq \min(P(A), P(B))$.
+
+**Proof.** $A \cap B \subseteq A$So $P(A \cap B) \leq P(A)$. Similarly $P(A \cap B) \leq P(B)$.
+Since probabilities are non-negative, $P(A \cap B) \geq 0$. $\blacksquare$
+
+### 5.2 Combined Events
+
+For two events $A$ and $B$:
+
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+
+This is the **addition rule** and holds for all events (not just mutually exclusive ones).
+
+**Worked Example.** The probability that it rains is 0.3. The probability that a student arrives
+Late is 0.1. The probability that it rains AND the student arrives late is 0.05. Find the
+Probability that it rains OR the student arrives late.
+
+$$P(R \cup L) = 0.3 + 0.1 - 0.05 = 0.35$$
+
+**Worked Example (Higher Tier).** Are the events "it rains" and "the student arrives late"
 Independent?
 
 $P(R) \times P(L) = 0.3 \times 0.1 = 0.03$.

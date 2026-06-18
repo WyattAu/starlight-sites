@@ -1,6 +1,80 @@
 ---
 title: Databases
-description: ""Alice").
+description: "Rigorous IB computer science notes covering Databases. Includes definitions, derivations, worked examples, and exam-style problems."
+date: 2024-01-01T00:00:00Z
+tags:
+  - IB
+categories:
+  - ib
+---
+
+## Database Fundamentals
+
+### Flat File vs Relational Database
+
+A **flat file** stores data in a single table (e.g., a spreadsheet or CSV file). Each row is a
+Record and each column is a field. Flat files are simple and suitable for small, single-user
+Applications, but they suffer from data redundancy, inconsistency, and limited querying capability.
+
+A **relational database** organizes data into multiple related tables. Each table has a fixed
+Structure (defined number of columns with specific data types), and relationships between tables are
+Maintained through primary keys and foreign keys. Relational databases enforce data integrity,
+Minimize redundancy, and support complex queries through SQL.
+
+| Aspect            | Flat File                        | Relational Database                       |
+| ----------------- | -------------------------------- | ----------------------------------------- |
+| Structure         | Single table                     | Multiple related tables                   |
+| Redundancy        | High (data repeated across rows) | Low (normalization eliminates redundancy) |
+| Data integrity    | Not enforced                     | Enforced by constraints                   |
+| Concurrent access | Poor (file locking issues)       | Built-in concurrency control              |
+| Query capability  | Limited (full table scan)        | SQL with indexing, joins, subqueries      |
+| Scalability       | Poor                             | Good (with proper design and indexing)    |
+| Security          | File-level only                  | Granular (table, column, row-level)       |
+
+### Why Use a Database?
+
+Data independence: the structure of data can be changed without modifying applications that use it.
+Data integrity: constraints prevent invalid data from being stored. Concurrent access: multiple
+Users can read and write simultaneously without corrupting data. Security: access can be controlled
+At a granular level. Backup and recovery: databases provide transaction logging and point-in-time
+Recovery.
+
+### Worked Example: Choosing Between a Flat File and a Database
+
+A small bakery tracks daily sales in a spreadsheet. They have one sheet with columns:
+`date, product, quantity, price, total`. They now want to: (1) track customer loyalty points, (2)
+Generate monthly revenue reports by product category, (3) allow two cashiers to enter data
+Simultaneously. Should they switch to a relational database?
+
+<details>
+<summary>Solution</summary>
+
+**Yes, a relational database is now appropriate.** Here is why each requirement justifies the
+switch:
+
+1. **Customer loyalty points:** This requires a Customer table linked to sales via a foreign key. A
+   flat file would duplicate customer data in every row (redundancy). A relational database stores
+   each customer once and references them by customerID.
+
+2. **Monthly revenue reports by category:** This requires joining sales with product categories and
+   using aggregate functions (SUM, GROUP BY). SQL handles this efficiently; a flat file would need
+   manual filtering and formula work for each report.
+
+3. **Concurrent access:** Two cashiers entering data simultaneously in a spreadsheet causes file
+   locking and potential data loss. Relational databases have built-in concurrency control (locking
+   and isolation) that handles simultaneous writes safely.
+
+</details>
+
+## Entity-Relationship Diagrams (ERDs)
+
+An ERD is a visual representation of the data model. It shows entities (things of interest), their
+Attributes, and the relationships between them.
+
+### Entities and Attributes
+
+An **entity** represents a real-world object or concept (e.g., Student, Course, Order). An entity
+Instance is a single occurrence (e.g., a specific student named "Alice").
 
 An **attribute** is a property of an entity (e.g., Student has studentID, name, dateOfBirth, email).
 

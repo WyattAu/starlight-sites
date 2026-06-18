@@ -1,6 +1,25 @@
 ---
 title: Widgets and Lifecycle
-description: ""render the string 'hello' with default typography." The
+description: "Flutter''s rendering model is declarative. You do not mutate a view object in place; you describe What the UI should look like for a given state, and the..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+# Widgets and Lifecycle
+
+## 1. What is a Widget
+
+Flutter's rendering model is declarative. You do not mutate a view object in place; you describe
+What the UI should look like for a given state, and the framework diffs that description against the
+Current tree and applies the minimal set of changes. A **widget** is the immutable data structure
+That carries that description.
+
+A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`You have
+Created a configuration object that says "render the string 'hello' with default typography." The
 Framework then instantiates an `Element` from that widget, and that Element may in turn create a
 `RenderObject` that actually performs layout, hit-testing, and painting.
 

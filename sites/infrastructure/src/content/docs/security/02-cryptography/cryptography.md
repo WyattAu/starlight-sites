@@ -1,6 +1,28 @@
 ---
 title: Cryptography
-description: ""s Principle
+description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly..."
+
+---
+
+## Foundations
+
+Cryptography is the mathematical science of securing communication and data. It is not a security
+Solution by itself — it is a tool that, when correctly applied within a secure system, provides
+Confidentiality, integrity, authentication, and non-repudiation.
+
+### Cryptographic Primitives
+
+| Primitive                | Purpose                            | Examples               |
+| ------------------------ | ---------------------------------- | ---------------------- |
+| Symmetric encryption     | Confidentiality (high-speed)       | AES, ChaCha20          |
+| Asymmetric encryption    | Confidentiality (key exchange)     | RSA, ECIES             |
+| Hash functions           | Integrity, password storage        | SHA-256, SHA-3, bcrypt |
+| Message authentication   | Integrity + authenticity           | HMAC, Poly1305         |
+| Digital signatures       | Non-repudiation, authenticity      | RSA-PSS, ECDSA, EdDSA  |
+| Key exchange             | Secure shared secret establishment | Diffie-Hellman, ECDH   |
+| Random number generation | Key material, nonces, salts        | `/dev/urandom`CSPRNG   |
+
+### Kerckhoffs"s Principle
 
 A cryptosystem should be secure even if everything about the system, except the key, is public
 Knowledge. This means:

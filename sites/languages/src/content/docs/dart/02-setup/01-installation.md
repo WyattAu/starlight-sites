@@ -1,6 +1,39 @@
 ---
 title: Installation
-description: ""$PATH:$HOME/development/dart-sdk/bin"
+description: "My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble"
+date: 2025-07-12T15:51:40.399Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+## IDE choice
+
+My recommended IDE for Dart is modifying the text editor VSCode with Dart and Flutter extensions:
+
+- `dart-code.dart-code`
+- `dart-code.flutter`
+- `alexisvt.flutter-snippets`
+
+## Standalone Dart SDK
+
+If you do not need Flutter (server-side Dart, CLI tools, scripts), install only the Dart SDK.
+
+### macOS
+
+```bash
+brew tap dart-lang/dart
+brew install dart
+```
+
+Or download the archive directly from https://dart.dev/get-dart
+
+```bash
+curl -O https://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-macos-x64-release.zip
+unzip dartsdk-macos-x64-release.zip -d ~/development
+export PATH="$PATH:$HOME/development/dart-sdk/bin"
 ```
 
 For Apple Silicon:

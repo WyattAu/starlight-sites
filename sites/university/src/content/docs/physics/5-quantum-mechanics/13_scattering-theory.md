@@ -3,7 +3,32 @@ title: Scattering Theory
 tags:
   - Physics
   - University
-description: ""\cdot\mathbf{r}'}V(\mathbf{r}')\,d^3r'$$
+description: "For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 12.1 Partial Wave Analysis
+
+For a spherically symmetric potential $V(r)$The scattering amplitude can be expanded in partial
+waves:
+
+$$f(\theta) = \frac{1}{2ik}\sum_{l=0}^{\infty}(2l + 1)(e^{2i\delta_l} - 1)P_l(\cos\theta) = \frac{1}{k}\sum_{l=0}^{\infty}(2l + 1)e^{i\delta_l}\sin\delta_l\,P_l(\cos\theta)$$
+
+Where $\delta_l$ is the phase shift for partial wave $l$.
+
+**Optical theorem:**
+
+$$\sigma_{\text{total} = \frac{4\pi}{k}\,\text{Im}\,f(0) = \frac{4\pi}{k^2}\sum_{l=0}^{\infty}(2l+1)\sin^2\delta_l}$$
+
+**Partial wave unitarity bound:** $\sin^2\delta_l \leq 1$So the maximum contribution of partial wave
+$l$ to the cross section is:
+
+$$\sigma_l^{\max} = \frac{4\pi}{k^2}(2l + 1)$$
+
+### 12.2 The Born Approximation
+
+For a weak potential, the scattering amplitude to first order is:
+
+$$f(\theta, \phi) \approx -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{k}"\cdot\mathbf{r}'}V(\mathbf{r}')\,d^3r'$$
 
 Where $\mathbf{k}'$ is the scattered wave vector and $\mathbf{q} = \mathbf{k}' - \mathbf{k}$ is the
 momentum transfer.

@@ -1,6 +1,45 @@
 ---
 title: "Magnetism and Electromagnetism -- Diagnostic Tests"
-description: ""s left-hand rule. (b) A wire carrying a current
+description: "(a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to magnetise a steel nail using a solenoid. (c) An electromagnet consists of a..."
+tableOfContents: false
+---
+
+# Magnetism and Electromagnetism — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Magnetic Fields and Electromagnets
+
+**Question:** (a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to
+magnetise a steel nail using a solenoid. (c) An electromagnet consists of a coil of 200 turns with a
+current of 3 A. Calculate the magnetic field strength (in ampere-turns) and describe two ways to
+increase the strength. (d) Explain the difference between permanent and temporary magnets.
+
+**Solution:**
+
+(a) Magnetic field lines emerge from the **north pole** and curve around to enter the **south
+pole**, forming closed loops. The field is strongest near the poles (lines closest together) and
+weakest far away. The field direction is from north to south outside the magnet. Field lines never
+cross.
+
+(b) Wrap an insulated wire around the nail many times to form a solenoid. Connect the coil to a DC
+power supply. The current creates a magnetic field that aligns the magnetic domains in the steel
+nail. After the current is removed, the domains remain aligned (steel retains magnetism). The nail
+is now a permanent magnet.
+
+(c) Magnetic field strength (ampere-turns) $= NI = 200 \times 3 = 600$ At.
+
+Two ways to increase strength: (1) Increase the current. (2) Increase the number of turns. (3) Use a
+soft iron core (which concentrates the magnetic field lines). (4) Reduce the air gap.
+
+(d) **Permanent magnets** (e.g., steel) retain their magnetism after the magnetising field is
+removed because their magnetic domains remain aligned. **Temporary (soft) magnets** (e.g., iron)
+lose their magnetism when the external field is removed because their domains return to random
+orientations. Electromagnets use soft iron cores because they can be switched on and off.
+
+### UT-2: The Motor Effect
+
+**Question:** (a) State the motor effect and Fleming"s left-hand rule. (b) A wire carrying a current
 of 5 A is placed in a magnetic field of flux density 0.3 T. The wire is 20 cm long and is at 90
 degrees to the field. Calculate the force on the wire. (c) Explain how a DC motor works, including
 the role of the commutator. (d) Calculate the force if the wire is at 30 degrees to the magnetic

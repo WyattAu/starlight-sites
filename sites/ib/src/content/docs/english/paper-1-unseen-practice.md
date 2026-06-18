@@ -1,6 +1,87 @@
 ---
 title: Paper 1 Unseen Practice
-description: ""The author uses [feature 1] and [feature 2] to [effect], suggesting that [interpretive claim]."
+description: "This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis..."
+---
+
+# Paper 1 Unseen Practice
+
+This document provides original practice passages and guided commentary for IB English Paper 1. Each
+extract is accompanied by a detailed annotated analysis demonstrating the close reading techniques,
+argumentative structure, and terminological precision expected in a top-band response. These
+extracts are original compositions written in the style of classic literary texts and are designed
+to foreground specific literary techniques for analysis practice.
+
+---
+
+## 1. Paper 1 Overview
+
+### 1.1 Format and Weighting
+
+Paper 1 is the only component of the IB English assessment that deals with unseen texts. Students
+are presented with one or more passages they have not studied and must produce a guided analytical
+essay in response.
+
+| Level | Duration    | Texts           | Weighting |
+| ----- | ----------- | --------------- | --------- |
+| SL    | 75 minutes  | 1               | 25%       |
+| HL    | 135 minutes | 2 (comparative) | 25%       |
+
+At SL, students write a single analytical essay on one passage. At HL, students analyse two passages
+and must produce a comparative essay that addresses similarities and differences between the texts.
+
+### 1.2 Text Types
+
+Paper 1 passages may be drawn from the following categories:
+
+| Category     | Examples                                              |
+| ------------ | ----------------------------------------------------- |
+| Literary     | Prose fiction, poetry, drama excerpts                 |
+| Non-literary | Advertisements, speeches, editorials, opinion columns |
+| Visual       | Photographs, posters, infographics, visual texts      |
+
+Students must be prepared to encounter any of these text types. The guiding question will direct
+attention to specific features of the text, and the essay must develop a coherent argument in
+response.
+
+### 1.3 What Examiners Assess
+
+The assessment criteria for Paper 1 evaluate four dimensions:
+
+1. **Knowledge and understanding** of the text and its conventions
+2. **Analysis and evaluation** of how formal features produce meaning and effect
+3. **Focus, organisation, and development** of a coherent argumentative structure
+4. **Language** -- precision, fluency, and appropriate use of literary terminology
+
+The single most important distinction in Paper 1 is between identification and analysis. Naming a
+literary device is a prerequisite for analysis, not analysis itself. Every identification must be
+accompanied by an explanation of its specific effect in context.
+
+---
+
+## 2. Approach to Unseen Texts
+
+### 2.1 The Read-Twice Method
+
+**First reading (2--3 minutes):** Read the passage without a pen in hand. Establish a preliminary
+sense of content, tone, genre, and overall effect. Note the source information if provided. Ask:
+What is this text doing? What is it about? What is the dominant impression it creates?
+
+**Second reading (5--8 minutes):** Re-read with a pen, annotating systematically. Work through the
+following categories in order:
+
+1. **Diction and register** -- unusual word choices, shifts in formality, connotative language
+2. **Imagery and figurative language** -- metaphors, similes, personification, sensory detail
+3. **Structure** -- paragraph breaks, stanza divisions, shifts in perspective or time
+4. **Narrative voice** -- who speaks, from what position, with what degree of reliability
+5. **Tone and mood** -- the emotional register and any shifts within the passage
+6. **Sound and rhythm (poetry)** -- alliteration, assonance, rhyme, metrical patterns
+
+### 2.2 Thesis-First Approach
+
+Before writing, formulate a thesis that directly answers the guiding question. A strong Paper 1
+thesis follows this structure:
+
+"The author uses [feature 1] and [feature 2] to [effect], suggesting that [interpretive claim]."
 
 The interpretive claim is the essential component. It must be arguable, specific, and comprehensive.
 A thesis that merely states "the author uses many literary devices to create an effect" is not a

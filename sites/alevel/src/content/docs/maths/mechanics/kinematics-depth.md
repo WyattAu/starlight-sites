@@ -1,6 +1,109 @@
 ---
 title: Kinematics (Extended)
-description: ""s surface, all objects in free fall (neglecting air resistance) experience the same
+description: "This document extends the core kinematics material with deeper derivations, multi-stage problems, Projectile motion in two dimensions, and the calculus..."
+date: 2026-04-23T00:00:00.000Z
+tags: [Mathematics, ALevel]
+categories: [Mathematics]
+
+---
+
+## Kinematics (Extended Treatment)
+
+This document extends the core kinematics material with deeper derivations, multi-stage problems,
+Projectile motion in two dimensions, and the calculus approach to variable acceleration.
+
+:::info This page complements the core kinematics notes. Readers should already be comfortable with
+the SUVAT equations and basic calculus definitions of velocity and acceleration.
+:::
+
+<hr />
+
+## 1. Equations of Motion (SUVAT) -- Rigorous Derivation
+
+### 1.1 Derivation from first principles
+
+Starting from the definition of constant acceleration:
+
+$$a = \frac{dv}{dt}$$
+
+Integrating with respect to $t$:
+
+$$\int_0^t a\,dt = \int_u^v dv \implies at = v - u \implies v = u + at$$
+
+This is **SUVAT equation 1**. We now derive the remaining four.
+
+**Equation 2: $s = ut + \tfrac{1}{2}at^2$**
+
+Since $v = \dfrac{ds}{dt} = u + at$Integrate:
+
+$$\int_0^s ds = \int_0^t (u + at)\,dt \implies s = ut + \frac{1}{2}at^2$$
+
+**Equation 3: $s = \dfrac{1}{2}(u + v)t$**
+
+Substitute $v = u + at$ into Equation 2:
+
+$$s = ut + \frac{1}{2}(v - u)t = \frac{1}{2}(2u + v - u)t = \frac{1}{2}(u + v)t$$
+
+**Equation 4: $v^2 = u^2 + 2as$**
+
+From $v = u + at$Square both sides:
+
+$$v^2 = (u + at)^2 = u^2 + 2uat + a^2t^2$$
+
+Factor $2a$ from the last two terms:
+
+$$v^2 = u^2 + 2a\!\left(ut + \frac{1}{2}at^2\right) = u^2 + 2as$$
+
+**Equation 5: $s = vt - \tfrac{1}{2}at^2$**
+
+Substitute $u = v - at$ into Equation 2:
+
+$$s = (v - at)t + \frac{1}{2}at^2 = vt - \frac{1}{2}at^2$$
+
+### 1.2 Selecting the correct equation
+
+The key skill is identifying which variable is **unknown** and which is **not needed**:
+
+| Unknown              | Do not use                  |
+| -------------------- | --------------------------- |
+| displacement $s$     | $v^2 = u^2 + 2as$           |
+| final velocity $v$   | $s = \tfrac{1}{2}(u+v)t$    |
+| time $t$             | $v^2 = u^2 + 2as$           |
+| acceleration $a$     | $s = \tfrac{1}{2}(u+v)t$    |
+| initial velocity $u$ | $s = vt - \tfrac{1}{2}at^2$ |
+
+### 1.3 Worked example: multi-stage motion
+
+**Problem.** A car accelerates uniformly from rest at $2\;\mathrm{m\,s^{-2}}$ for 6 seconds, then
+Decelerates uniformly at $3\;\mathrm{m\,s^{-2}}$ until it comes to rest. Find the total distance
+Travelled.
+
+**Stage 1: Acceleration.**
+
+$$v = u + at = 0 + 2 \times 6 = 12\;\mathrm{m\,s^{-1}}$$
+
+$$s_1 = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(2)(36) = 36\;\mathrm{m}$$
+
+**Stage 2: Deceleration.** Now $u = 12$, $v = 0$, $a = -3$.
+
+$$t_2 = \frac{v - u}{a} = \frac{0 - 12}{-3} = 4\;\mathrm{s}$$
+
+$$s_2 = \frac{1}{2}(u + v)t_2 = \frac{1}{2}(12 + 0)(4) = 24\;\mathrm{m}$$
+
+$$s_{\mathrm{total}} = 36 + 24 = 60\;\mathrm{m}$$
+
+:::caution Common Pitfall When a problem has multiple stages, the **final velocity of one stage
+becomes the initial velocity Of the next**. Forgetting this connection is the most frequent error in
+multi-stage kinematics Problems.
+:::
+
+<hr />
+
+## 2. Free Fall Under Gravity
+
+### 2.1 The acceleration due to gravity
+
+Near the Earth"s surface, all objects in free fall (neglecting air resistance) experience the same
 Acceleration $g$. The standard value is:
 
 $$g \approx 9.8\;\mathrm{m\,s^{-2}} \quad (\mathrm{or}\ 9.81\;\mathrm{m\,s^{-2}}\ \mathrm{for\ greater\ precision})$$

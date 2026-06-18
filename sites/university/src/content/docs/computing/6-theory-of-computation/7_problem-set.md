@@ -3,7 +3,48 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: ""s theorem to prove that
+description: "Construct a DFA over that accepts exactly those strings whose Length is a multip Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 7.1 Regular Languages
+
+**Problem 1.** Construct a DFA over $\Sigma = \{0, 1\}$ that accepts exactly those strings whose
+Length is a multiple of 3. Prove your DFA is correct.
+
+**Problem 2.** Let
+$L = \{w \in \{0,1\}^* : w \mathrm{ contains} an even number of  0\mathrm{s} and
+\mathrm{ ends} with  1\}$.
+Give a DFA with the minimum number of states for $L$.
+
+**Problem 3.** Use the Myhill-Nerode theorem to prove that $L = \{0^n 1^{2n} : n \geq 0\}$ is not
+regular.
+
+**Problem 4.** Prove or disprove: if $L_1 \cdot L_2$ is regular, then both $L_1$ and $L_2$ are
+regular.
+
+### 7.2 Context-Free Languages
+
+**Problem 5.** Give a CFG for $L = \{a^i b^j c^k : i + j = k\}$. Prove your grammar generates
+Exactly this language.
+
+**Problem 6.** Convert the following grammar to CNF: $S \to aSbS \mid \varepsilon$. Show all steps
+of the conversion.
+
+**Problem 7.** Use the CFL pumping lemma to prove that $L = \{a^i b^j a^i b^j : i, j \geq 1\}$ is
+not context-free.
+
+**Problem 8.** Construct a PDA for $L = \{a^n b^m : n \leq 2m\}$. Give the formal definition Of the
+PDA and explain why it is correct.
+
+### 7.3 Turing Machines and Decidability
+
+**Problem 9.** Design a TM that decides the language $L = \{0^{2^n} : n \geq 0\}$. Describe the
+algorithm and prove it always halts.
+
+**Problem 10.** Prove that the language
+$L = \{\langle M_1, M_2 \rangle : L(M_1) \cap L(M_2) \neq \emptyset\}$ is undecidable.
+
+**Problem 11.** Use Rice"s theorem to prove that
 $L = \{\langle M \rangle : L(M) \mathrm{ contains} at least two strings\}$ is undecidable. Explain
 why Rice's theorem applies.
 

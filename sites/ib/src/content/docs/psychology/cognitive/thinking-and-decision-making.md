@@ -1,6 +1,31 @@
 ---
 title: Thinking and Decision Making
-description: ""available" in memory and are therefore judged to be more
+description: "The study of thinking and decision making examines how people reason, judge, and choose. Research in This area has revealed that human thinking is subject..."
+
+---
+
+## Introduction
+
+The study of thinking and decision making examines how people reason, judge, and choose. Research in
+This area has revealed that human thinking is subject to systematic biases and heuristics -- mental
+Shortcuts that are often useful but can lead to predictable errors. This research has had
+Far-reaching implications for economics, law, medicine, and public policy, and was recognised by the
+Award of the Nobel Prize in Economics to Daniel Kahneman in 2002.
+
+## Heuristics and Biases
+
+### The Heuristics and Biases Programme
+
+The heuristics and biases programme, developed by Amos Tversky and Daniel Kahneman in the 1970s,
+Demonstrated that people rely on simple mental shortcuts (heuristics) to make judgments under
+Uncertainty. These heuristics reduce the cognitive effort required for complex judgments but
+Systematically bias the resulting decisions.
+
+### The Availability Heuristic
+
+The availability heuristic is the tendency to judge the frequency or probability of an event by the
+Ease with which instances come to mind. Events that are more vivid, recent, emotionally salient, or
+Extensively covered in the media are more "available" in memory and are therefore judged to be more
 Common.
 
 **Example:** After extensive media coverage of plane crashes, people may overestimate the

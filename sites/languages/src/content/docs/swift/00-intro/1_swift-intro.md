@@ -1,6 +1,64 @@
 ---
 title: Introduction to Swift
-description: ""..."#`
+description: "Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Swift
+categories:
+  - Swift
+
+---
+
+## What Is Swift?
+
+Swift is a **general-purpose, compiled programming language** developed by Apple for building
+applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was
+designed to be safe, fast, and expressive, replacing Objective-C as the primary language for Apple
+ecosystem development.
+
+Swift is **open source** (Apache 2.0 licence) and has an active community contributing to its
+development on platforms beyond Apple, including Linux and Windows.
+
+## History and Evolution
+
+### Swift 1.0 (2014)
+
+- Announced at WWDC 2014 by Chris Lattner
+- Introduced as a modern replacement for Objective-C
+- Key design goals: safety (memory management via ARC), speed (LLVM-based compiler), and
+  expressiveness (clean syntax)
+- Interoperable with Objective-C -- existing Cocoa frameworks were accessible
+
+### Swift 2.0 (2015)
+
+- `guard` statement for early exits
+- `error handling` with `throw`, `try`, `catch`
+- Protocol extensions with default implementations
+- `defer` statement for cleanup
+- Availability checking with `@available`
+
+### Swift 3.0 (2016)
+
+- Major syntax changes to improve consistency and readability
+- Renamed parameter labels became first-class citizens
+- `#keyPath` for type-safe key paths
+- Swift on Linux (open source release)
+- API Design Guidelines established
+
+### Swift 4.0 (2017)
+
+- `Codable` protocol for JSON and plist serialisation
+- `String` became a `Collection` of `Character`
+- Multi-line string literals
+- Improved `keypaths` with `\.` syntax
+
+### Swift 5.0 (2019)
+
+- **ABI stability** -- Swift standard library is embedded in the OS, binary compatibility across
+  Swift versions
+- `Result` type in the standard library
+- `@dynamicCallable` and `@dynamicMemberLookup`
+- Raw strings with `#"..."#`
 - `isMultiple(of:)` and other standard library additions
 
 ### Swift 5.1 through 5.10

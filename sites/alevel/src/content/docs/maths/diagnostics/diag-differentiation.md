@@ -1,6 +1,23 @@
 ---
 title: "Differentiation -- Diagnostic Tests"
-description: ""s working.
+description: "A-Level Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Differentiation — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for differentiation.
+
+### UT-1: Chain Rule with Multiple Compositions
+
+**Question:**
+
+**(a)** Find $\frac{dy}{dx}$ when $y = \sin^2(e^{3x})$.
+
+**(b)** A student writes $\frac{dy}{dx} = 2\sin(e^{3x}) \cdot 3e^{3x}$. Identify the errors in the
+student"s working.
 
 **(c)** Find the value of $\frac{d^2y}{dx^2}$ when $x = 0$Giving an exact answer.
 

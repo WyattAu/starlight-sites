@@ -1,6 +1,24 @@
 ---
 title: Java Interoperability
-description: ""hello".toByteArray())
+description: "Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language."
+date: 2026-04-18
+tags:
+  - Kotlin
+categories:
+  - Kotlin
+---
+
+## Calling Java from Kotlin
+
+Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a
+Fundamental design principle of the language.
+
+```kotlin
+import java.time.LocalDateTime
+import java.util.Base64
+
+val now = LocalDateTime.now()
+val encoded = Base64.getEncoder().encodeToString("hello".toByteArray())
 ```
 
 ### Getters and Setters

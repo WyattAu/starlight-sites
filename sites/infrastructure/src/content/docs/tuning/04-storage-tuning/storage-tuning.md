@@ -1,6 +1,113 @@
 ---
 title: Storage Tuning
-description: ""3D NAND" stacks memory cells vertically (64, 128, or 176 layers), increasing density without
+description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |..."
+
+---
+
+## Storage Hierarchy
+
+### Storage Technologies Compared
+
+| Technology          | Sequential Read    | Sequential Write  | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency       |
+| ------------------- | ------------------ | ----------------- | --------------------- | ---------------------- | ------------- |
+| HDD (7200 RPM)      | 150–250 MB/s       | 150–250 MB/s      | 100–200               | 100–200                | 5–10 ms       |
+| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$S |
+| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$S  |
+| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$S   |
+| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$S   |
+| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$S   |
+
+### Choosing the Right Storage
+
+The optimal storage strategy depends on your workload profile:
+
+- **OS and applications:** NVMe SSD (PCIe 4.0+). Fast random I/O makes the system feel responsive.
+- **Game library:** NVMe SSD for frequently played games; HDD for archival storage. Load times are
+  dominated by sequential read speed and random read IOPS.
+- **Media production (video editing):** NVMe SSD with high sustained write endurance. 4K/8K video
+  requires 500 MB/s–2 GB/s sustained write.
+- **Database workloads:** NVMe SSD with high random IOPS and low latency. Optane is ideal but
+  expensive.
+- **Backup and archival:** HDD or high-capacity SATA SSD (QLC). Sequential throughput matters more
+  than latency.
+- **ZFS SLOG (ZIL):** Enterprise NVMe SSD or Optane with power-loss protection (PLP).
+
+---
+
+## NVMe Protocol
+
+### NVMe Architecture
+
+NVMe (Non-Volatile Memory Express) is designed from the ground up for PCIe-attached flash storage,
+Replacing the legacy AHCI protocol that was designed for spinning disks.
+
+Key architectural advantages over AHCI/SATA:
+
+1. **Multiple queues:** NVMe supports up to 65,535 I/O queues, each with up to 65,535 entries. AHCI
+   has a single command queue with 32 entries. This eliminates the queue bottleneck in
+   multi-threaded workloads.
+2. **Direct CPU access:** NVMe uses MSI-X interrupts and can map completion queues directly into
+   user space, reducing interrupt overhead and enabling kernel bypass.
+3. **Deep queue depths:** The large number of queue entries allows the storage device to optimize
+   its internal command scheduling and garbage collection.
+4. **Lower latency:** NVMe eliminates the SATA protocol overhead (command encoding, FIS framing,
+   spread spectrum clocking), reducing command latency by 2–5 $\mu$S.
+
+### NVMe Namespaces
+
+A namespace is the NVMe equivalent of a partition — a logical address space exposed to the host.
+Most consumer NVMe SSDs expose a single namespace (NSID 1) spanning the entire device. Enterprise
+SSDs may support multiple namespaces for partitioning.
+
+```bash
+# List NVMe devices
+nvme list
+
+# List namespaces on device nvme0
+nvme list-ns /dev/nvme0
+
+# Get namespace details
+nvme id-ns /dev/nvme0n1
+```
+
+### NVMe Power States
+
+NVMe defines several power states (PS0–PS4) that trade off power consumption against latency:
+
+| Power State           | Power    | Exit Latency | Entry Latency |
+| --------------------- | -------- | ------------ | ------------- |
+| PS0 (Active)          | Highest  | 0            | N/A           |
+| PS1                   | Moderate | ~10 $\mu$S   | ~10 $\mu$S    |
+| PS2                   | Low      | ~100 $\mu$S  | ~100 $\mu$S   |
+| PS3 (Deep Sleep)      | Very Low | ~10 ms       | ~10 ms        |
+| PS4 (Deep Power Down) | Minimal  | ~20 ms       | ~20 ms        |
+
+APST (Autonomous Power State Transition) allows the SSD to transition between power states
+Automatically. On desktops, this is generally fine. On servers with latency-sensitive workloads, you
+May want to restrict APST to prevent the SSD from entering deep sleep states.
+
+```bash
+# Disable APST on Linux
+echo 0 | sudo tee /sys/module/nvme_core/parameters/default_ps_max_latency_us
+```
+
+---
+
+## SSD Internals
+
+### NAND Flash Types
+
+NAND flash stores data in cells, with each cell holding one or more bits. More bits per cell
+Increases density but reduces endurance and performance.
+
+| NAND Type | Bits per Cell | Write Endurance (P/E Cycles) | Relative Cost | Performance               |
+| --------- | ------------- | ---------------------------- | ------------- | ------------------------- |
+| SLC       | 1             | 100,000                      | Highest       | Best                      |
+| MLC       | 2             | 3,000–10,000                 | High          | Good                      |
+| TLC       | 3             | 1,000–3,000                  | Medium        | Moderate                  |
+| QLC       | 4             | 100–1,000                    | Lowest        | Worst (especially writes) |
+
+Modern "3D NAND" stacks memory cells vertically (64, 128, or 176 layers), increasing density without
 Shrinking the cell size. This improves endurance compared to planar NAND at the same technology
 Node.
 

@@ -1,6 +1,59 @@
 ---
 title: State Management
-description: ""Count: $_count'),
+description: "Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+## What State Management Is
+
+Flutter renders UI by calling `build()` on widgets. The `build()` method returns a widget tree based
+On the current state. When state changes, `build()` must be called again to produce an updated tree.
+The problem is: where does the state live, how does it change, and how does the framework know to
+Rebuild?
+
+Without a deliberate strategy, state ends up scattered across widget fields, callbacks, and global
+Variables. This works for a prototype but collapses under the weight of a real application:
+Propagating a change from a deep widget to an ancestor requires passing callbacks through every
+Intermediate widget (callback hell), shared state becomes uncontrollable without a single source of
+Truth, and rebuilds become unpredictable because the framework cannot determine which widgets depend
+On which state.
+
+State management is the discipline of controlling **where** state is stored, **how** it is modified,
+And **which** widgets rebuild when it changes. Every solution in this document addresses the same
+Fundamental problem — they differ in complexity, boilerplate, testability, and scalability.
+
+### Why setState Alone Does Not Scale
+
+`setState` marks a single `State` object as dirty, triggering a rebuild of that widget and its
+Descendants. This works for local UI state (a toggle, a text field, an animation progress) but fails
+For shared application state (user session, shopping cart, feature flags):
+
+```dart
+class CounterPage extends StatefulWidget {
+  @override
+  State<CounterPage> createState() => _CounterPageState();
+}
+
+class _CounterPageState extends State<CounterPage> {
+  int _count = 0;
+
+  void _increment() {
+    setState(() {
+      _count++;
+      // This rebuilds CounterPage and ALL its descendants
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text("Count: $_count'),
         ExpensiveWidget(), // Rebuilds even though it doesn't use _count
         AnotherExpensiveWidget(), // Also rebuilds
       ],

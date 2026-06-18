@@ -1,6 +1,28 @@
 ---
 title: "Data Structures -- Diagnostic Tests"
-description: ""s next pointer to current's next (pointing to 9).
+description: "A-Level Computer Science Data Structures -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Data Structures — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Linked List Operations
+
+**Question:** A singly linked list contains the values: 3 $\to$ 7 $\to$ 1 $\to$ 9 $\to$ 5. (a) Write
+the steps to insert the value 4 between 1 and 9. (b) Write the steps to delete the node
+containing 7. (c) What is the time complexity of inserting at the head vs inserting at position $k$?
+(d) Explain why a doubly linked list is preferred over a singly linked list for implementing a
+deque.
+
+**Solution:**
+
+(a) Insert 4 between 1 and 9:
+
+1. Create new node with value 4.
+2. Traverse the list to find the node containing 1 (current).
+3. Set new node"s next pointer to current's next (pointing to 9).
 4. Set current's next pointer to the new node.
 
 Result: 3 $\to$ 7 $\to$ 1 $\to$ 4 $\to$ 9 $\to$ 5.

@@ -1,6 +1,17 @@
 ---
 title: SSH
-description: ""Transport Layer<br />(TCP/IP, encryption, server auth)"] --> B["Authentication Layer<br />(password, key, keyboard-interactive)"]
+description: "SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The Protocol operates in three layers: "''
+
+---
+
+## SSH Protocol Overview
+
+SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The
+Protocol operates in three layers:
+
+```mermaid
+flowchart TD
+    A["Transport Layer<br />(TCP/IP, encryption, server auth)"] --> B["Authentication Layer<br />(password, key, keyboard-interactive)"]
     B --> C["Connection Layer<br />(channels, forwarding, X11, SFTP)"]
 ```
 

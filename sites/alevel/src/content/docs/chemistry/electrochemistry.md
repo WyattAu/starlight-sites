@@ -1,6 +1,388 @@
 ---
 title: Electrochemistry
-description: ""s Laws
+description: "The oxidation state is a formalism that assigns a charge to an atom in a compound based on electronegativity. The rules for assigning oxidation states: "''
+date: 2026-04-21T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Electrochemistry
+
+## Redox Reactions
+
+### Oxidation States (Oxidation Numbers)
+
+The oxidation state is a formalism that assigns a charge to an atom in a compound based on
+electronegativity. The rules for assigning oxidation states:
+
+1. The oxidation state of an uncombined element is zero.
+2. The sum of oxidation states in a neutral compound is zero; in a polyatomic ion, it equals the ion
+   charge.
+3. Group 1 metals: $+1$. Group 2 metals: $+2$. Al: $+3$.
+4. Hydrogen is $+1$ (except in metal hydrides, where it is $-1$).
+5. Oxygen is $-2$ (except in peroxides, where it is $-1$And in $\mathrm{OF}_2$Where it is $+2$).
+6. Fluorine is always $-1$ in compounds.
+7. Halogens are $-1$Except when bonded to more electronegative elements or in polyatomic ions.
+
+**Worked Example.** Determine the oxidation state of $\mathrm{Cr}$ in
+$\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$.
+
+$$
+2(+1) + 2x + 7(-2) = 0
+$$
+
+$$
+2 + 2x - 14 = 0
+$$
+
+$$
+2x = 12 \implies x = +6
+$$
+
+### Half-Equations
+
+Redox reactions are split into two half-equations:
+
+- **Oxidation:** loss of electrons (increase in oxidation state).
+- **Reduction:** gain of electrons (decrease in oxidation state).
+
+The mnemonic **OIL RIG**: Oxidation Is Loss, Reduction Is Gain.
+
+### Balancing Half-Equations (in Acidic Conditions)
+
+1. Balance all atoms except $\mathrm{O}$ and $\mathrm{H}$.
+2. Balance $\mathrm{O}$ by adding $\mathrm{H}_2\mathrm{O}$.
+3. Balance $\mathrm{H}$ by adding $\mathrm{H}^+$.
+4. Balance charge by adding electrons ($e^-$).
+
+**Example.** Balance $\mathrm{MnO}_4^- \to \mathrm{Mn}^{2+}$ in acidic solution.
+
+1. $\mathrm{Mn}$ already balanced.
+2. Add $\mathrm{H}_2\mathrm{O}$: $\mathrm{MnO}_4^- \to \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$.
+3. Add $\mathrm{H}^+$:
+   $\mathrm{MnO}_4^- + 8\mathrm{H}^+ \to \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$.
+4. Balance charge: LHS = $-1 + 8 = +7$; RHS = $+2$. Add $5e^-$ to LHS:
+   $\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \to \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$.
+
+### Combining Half-Equations
+
+Multiply each half-equation by an appropriate factor so that the electrons cancel, then add.
+
+**Example.** Combine the above with $\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-$:
+
+$$
+\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \to \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}
+$$
+
+$$
+5\mathrm{Fe}^{2+} \to 5\mathrm{Fe}^{3+} + 5e^-
+$$
+
+$$
+\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5\mathrm{Fe}^{2+} \to \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O} + 5\mathrm{Fe}^{3+}
+$$
+
+## Standard Electrode Potentials ($E^\circ$)
+
+### Definition
+
+The **standard electrode potential** $E^\circ$ is the potential difference (voltage) of a half-cell
+relative to the standard hydrogen electrode under standard conditions
+($298\,\mathrm{K}$$100\,\mathrm{kPa}$$1\,\mathrm{mol/dm}^3$ solutions).
+
+### The Standard Hydrogen Electrode (SHE)
+
+The SHE is the reference electrode:
+
+$$
+2\mathrm{H}^+(aq, 1\,\mathrm{mol/dm}^3) + 2e^- \rightleftharpoons \mathrm{H}_2(g, 100\,\mathrm{kPa})
+$$
+
+By definition, $E^\circ(\mathrm{H}^+/\mathrm{H}_2) = 0.00\,\mathrm{V}$.
+
+### Measuring Standard Electrode Potentials
+
+To measure the $E^\circ$ of a half-cell, it is connected to the SHE, and the cell EMF is measured. A
+salt bridge ( $\mathrm{KNO}_3$ solution) maintains electrical neutrality.
+
+### The Electrochemical Series
+
+| Half-equation                                                                                           | $E^\circ$ (V) |
+| ------------------------------------------------------------------------------------------------------- | ------------- |
+| $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | $+2.87$       |
+| $\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \rightleftharpoons \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$ | $+1.51$       |
+| $\mathrm{Cl}_2 + 2e^- \rightleftharpoons 2\mathrm{Cl}^-$                                                | $+1.36$       |
+| $\mathrm{Ag}^+ + e^- \rightleftharpoons \mathrm{Ag}$                                                    | $+0.80$       |
+| $\mathrm{Cu}^{2+} + 2e^- \rightleftharpoons \mathrm{Cu}$                                                | $+0.34$       |
+| $2\mathrm{H}^+ + 2e^- \rightleftharpoons \mathrm{H}_2$                                                  | $0.00$        |
+| $\mathrm{Fe}^{2+} + 2e^- \rightleftharpoons \mathrm{Fe}$                                                | $-0.44$       |
+| $\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn}$                                                | $-0.76$       |
+| $\mathrm{Na}^+ + e^- \rightleftharpoons \mathrm{Na}$                                                    | $-2.71$       |
+| $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | $-3.04$       |
+
+**Key observations:**
+
+- More positive $E^\circ$: species is a stronger oxidising agent (more readily reduced).
+- More negative $E^\circ$: species is a stronger reducing agent (more readily oxidised).
+- A species can oxidise any species below it in the series (with more negative $E^\circ$).
+
+## Cell EMF (Electromotive Force)
+
+For an electrochemical cell consisting of two half-cells:
+
+$$
+E^\circ_\mathrm{cell} = E^\circ_\mathrm{reduction} - E^\circ_\mathrm{oxidation}
+$$
+
+Or equivalently:
+
+$$
+E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}
+$$
+
+Where the cathode is the electrode where reduction occurs and the anode is where oxidation occurs.
+
+**Worked Example.** Calculate the standard cell EMF for a $\mathrm{Zn}/\mathrm{Cu}$ cell.
+
+$$
+\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn} \quad E^\circ = -0.76\,\mathrm{V}
+$$
+
+$$
+\mathrm{Cu}^{2+} + 2e^- \rightleftharpoons \mathrm{Cu} \quad E^\circ = +0.34\,\mathrm{V}
+$$
+
+$\mathrm{Zn}$ is oxidised (anode), $\mathrm{Cu}^{2+}$ is reduced (cathode).
+
+$$
+E^\circ_\mathrm{cell} = 0.34 - (-0.76) = +1.10\,\mathrm{V}
+$$
+
+### Feasibility of Reactions
+
+A redox reaction is thermodynamically feasible if $E^\circ_\mathrm{cell} \gt 0$. This is equivalent
+to $\Delta G^\circ \lt 0$:
+
+$$
+\Delta G^\circ = -nFE^\circ_\mathrm{cell}
+$$
+
+Where $n$ is the number of moles of electrons transferred and $F$ is the Faraday constant
+($96485\,\mathrm{C/mol}$).
+
+**Caveats:**
+
+- $E^\circ_\mathrm{cell} \gt 0$ indicates thermodynamic feasibility, not necessarily a fast reaction
+  (kinetic barriers may exist).
+- Non-standard conditions (concentrations other than $1\,\mathrm{mol/dm}^3$) change the actual cell
+  EMF via the Nernst equation (beyond A-Level but useful to note).
+
+### The Nernst Equation
+
+The Nernst equation relates the cell potential under non-standard conditions to the standard cell
+potential:
+
+$$
+E = E^\circ - \frac{RT}{nF}\ln Q
+$$
+
+Where $Q$ is the reaction quotient (same form as the equilibrium expression but with initial
+concentrations).
+
+At $298\,\mathrm{K}$Substituting $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ and
+$F = 96485\,\mathrm{C/mol}$:
+
+$$
+E = E^\circ - \frac{0.0257}{n}\ln Q = E^\circ - \frac{0.0592}{n}\log_{10} Q
+$$
+
+**Worked Example.** Calculate the cell EMF for a $\mathrm{Zn}/\mathrm{Cu}$ cell where
+$[\mathrm{Zn}^{2+}] = 0.010\,\mathrm{mol/dm}^3$ and $[\mathrm{Cu}^{2+}] = 2.0\,\mathrm{mol/dm}^3$ at
+$298\,\mathrm{K}$.
+
+$E^\circ_\mathrm{cell} = +1.10\,\mathrm{V}$ (from above). $n = 2$.
+
+$$
+Q = \frac◆LB◆[\mathrm{Zn}^{2+}]◆RB◆◆LB◆[\mathrm{Cu}^{2+}]◆RB◆ = \frac{0.010}{2.0} = 0.005
+$$
+
+$$
+E = 1.10 - \frac{0.0592}{2}\log_{10}(0.005) = 1.10 - 0.0296 \times (-2.30) = 1.10 + 0.068 = 1.17\,\mathrm{V}
+$$
+
+The non-standard cell EMF is higher than the standard value because the product ion
+($\mathrm{Zn}^{2+}$) concentration is lower and the reactant ion ($\mathrm{Cu}^{2+}$) concentration
+is higher than standard conditions, driving the reaction further to the right.
+
+### Concentration Cells
+
+A concentration cell consists of two half-cells with the same redox couple but different
+concentrations. The cell EMF arises purely from the concentration difference:
+
+$$
+E_\mathrm{cell} = -\frac{0.0592}{n}\log_{10}\frac◆LB◆[\mathrm{M}^{n+}]_\mathrm{dilute}◆RB◆◆LB◆[\mathrm{M}^{n+}]_\mathrm{concentrated}◆RB◆
+$$
+
+**Example:** A $\mathrm{Cu}/\mathrm{Cu}^{2+}$ concentration cell with
+$[\mathrm{Cu}^{2+}]_\mathrm{left} = 0.001\,\mathrm{mol/dm}^3$ and
+$[\mathrm{Cu}^{2+}]_\mathrm{right} = 1.0\,\mathrm{mol/dm}^3$:
+
+$$
+E = -\frac{0.0592}{2}\log_{10}\frac{0.001}{1.0} = -0.0296 \times (-3) = +0.089\,\mathrm{V}
+$$
+
+The dilute half-cell acts as the anode (oxidation), and the concentrated half-cell acts as the
+cathode (reduction). Equilibrium is reached when the concentrations equalise.
+
+## Conventional Cell Representation
+
+Cells are written as:
+
+$$
+\mathrm{Anode (oxidation)} \parallel \mathrm{Cathode (reduction)}
+$$
+
+Example:
+$\mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(aq) \parallel \mathrm{Cu}^{2+}(aq) \mid \mathrm{Cu}(s)$
+
+The single vertical line represents a phase boundary. The double vertical line represents the salt
+bridge. The anode (oxidation) is written on the left; the cathode (reduction) on the right.
+
+## Fuel Cells
+
+A fuel cell converts the chemical energy of a fuel ( $\mathrm{H}_2$) directly into electrical
+energy, continuously supplied from an external source.
+
+### Hydrogen-Oxygen Fuel Cell
+
+**Alkaline conditions:**
+
+Anode (oxidation): $2\mathrm{H}_2 + 4\mathrm{OH}^- \to 4\mathrm{H}_2\mathrm{O} + 4e^-$
+
+Cathode (reduction): $\mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4e^- \to 4\mathrm{OH}^-$
+
+Overall: $2\mathrm{H}_2 + \mathrm{O}_2 \to 2\mathrm{H}_2\mathrm{O}$
+
+**Acidic conditions:**
+
+Anode: $2\mathrm{H}_2 \to 4\mathrm{H}^+ + 4e^-$
+
+Cathode: $\mathrm{O}_2 + 4\mathrm{H}^+ + 4e^- \to 2\mathrm{H}_2\mathrm{O}$
+
+Overall: $2\mathrm{H}_2 + \mathrm{O}_2 \to 2\mathrm{H}_2\mathrm{O}$
+
+**Advantages:** Higher efficiency than combustion; no pollution (only water as product); quiet
+operation.
+
+**Disadvantages:** Hydrogen storage and transport challenges; expensive catalysts (platinum);
+limited infrastructure.
+
+**Efficiency calculation:** The maximum theoretical efficiency of a fuel cell is:
+
+$$
+\text{Efficiency} = \frac◆LB◆\Delta G^\circ◆RB◆◆LB◆\Delta H^\circ◆RB◆ \times 100
+$$
+
+For the $\mathrm{H}_2/\mathrm{O}_2$ fuel cell at $298\,\mathrm{K}$:
+
+$$
+\Delta G^\circ = -2 \times 237 = -474\,\mathrm{kJ/mol}, \quad \Delta H^\circ = -2 \times 286 = -572\,\mathrm{kJ/mol}
+$$
+
+$$
+\text{Efficiency} = \frac{474}{572} \times 100 = 83\%
+$$
+
+In practice, efficiencies of 40--60% are achieved due to overpotentials (additional voltage required
+beyond the theoretical value), internal resistance, and fuel crossover.
+
+**Overpotential:** The actual operating voltage of a fuel cell is less than the theoretical
+$E^\circ_\mathrm{cell} = 1.23\,\mathrm{V}$ for $\mathrm{H}_2/\mathrm{O}_2$. Typical operating
+voltages are $0.6$--$0.8\,\mathrm{V}$. The difference is the overpotential, caused by kinetic
+barriers at the electrodes (especially the oxygen reduction reaction at the cathode, which is
+inherently slow).
+
+### Other Fuel Cell Types
+
+| Type                           | Fuel                              | Electrolyte                                            | Operating temp     | Application    |
+| ------------------------------ | --------------------------------- | ------------------------------------------------------ | ------------------ | -------------- |
+| PEM (proton exchange membrane) | $\mathrm{H}_2$                    | Solid polymer                                          | 80$^\circ$C        | Vehicles       |
+| Alkaline (AFC)                 | $\mathrm{H}_2$                    | KOH solution                                           | 60--200$^\circ$C   | Space (Apollo) |
+| Solid oxide (SOFC)             | $\mathrm{H}_2$CO, $\mathrm{CH}_4$ | Yttria-stabilised zirconia                             | 500--1000$^\circ$C | Power stations |
+| Molten carbonate (MCFC)        | $\mathrm{H}_2$CO, $\mathrm{CH}_4$ | $\mathrm{Li}_2\mathrm{CO}_3/\mathrm{K}_2\mathrm{CO}_3$ | 650$^\circ$C       | Power stations |
+
+Solid oxide fuel cells can use carbon monoxide and methane directly as fuels (internal reforming),
+and their high operating temperature makes them suitable for combined heat and power systems.
+
+### Batteries
+
+**Lead-acid battery:**
+
+Anode: $\mathrm{Pb}(s) + \mathrm{SO}_4^{2-}(aq) \to \mathrm{PbSO}_4(s) + 2e^-$
+
+Cathode:
+$\mathrm{PbO}_2(s) + \mathrm{SO}_4^{2-}(aq) + 4\mathrm{H}^+(aq) + 2e^- \to \mathrm{PbSO}_4(s) + 2\mathrm{H}_2\mathrm{O}(l)$
+
+Overall:
+$\mathrm{Pb} + \mathrm{PbO}_2 + 2\mathrm{H}_2\mathrm{SO}_4 \to 2\mathrm{PbSO}_4 + 2\mathrm{H}_2\mathrm{O}$
+
+EMF $\approx 2\,\mathrm{V}$ per cell; six cells in series give $12\,\mathrm{V}$ car battery.
+
+**Lithium-ion battery:**
+
+Anode (oxidation): $\mathrm{LiCoO}_2 \to \mathrm{Li}_{1-x}\mathrm{CoO}_2 + x\mathrm{Li}^+ + xe^-$
+
+Cathode (reduction): $\mathrm{C}_6 + x\mathrm{Li}^+ + xe^- \to \mathrm{Li}_x\mathrm{C}_6$
+
+Lithium ions migrate between electrodes through an electrolyte. EMF $\approx 3.7\,\mathrm{V}$.
+
+## Electrolysis
+
+### Principles
+
+Electrolysis uses electrical energy to drive a non-spontaneous redox reaction. The electrolyte is an
+ionic compound, molten or in solution, that conducts electricity through the movement of ions.
+
+- **Anode (+):** oxidation occurs; anions are attracted.
+- **Cathode (-):** reduction occurs; cations are attracted.
+
+### Products at Electrodes (Aqueous Solutions)
+
+In aqueous solutions, both the cation and $\mathrm{H}^+$ (from water) can be reduced at the cathode,
+and both the anion and $\mathrm{OH}^-$ (from water) can be oxidised at the anion. The species that
+is more reduced/oxidised (higher/lower $E^\circ$) is preferentially discharged.
+
+**At the cathode (reduction):**
+
+If the metal is below hydrogen in the reactivity series (e.g.
+$\mathrm{Cu}$$\mathrm{Ag}$$\mathrm{Au}$), the metal is deposited. If the metal is more reactive
+(e.g. $\mathrm{Na}$$\mathrm{K}$$\mathrm{Mg}$), hydrogen is evolved:
+
+$$
+2\mathrm{H}_2\mathrm{O}(l) + 2e^- \to \mathrm{H}_2(g) + 2\mathrm{OH}^-(aq)
+$$
+
+**At the anode (oxidation):**
+
+If the anion is a halide ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$), the halogen is produced.
+For all other anions (including $\mathrm{SO}_4^{2-}$$\mathrm{NO}_3^-$), oxygen is evolved from
+water:
+
+$$
+4\mathrm{OH}^-(aq) \to \mathrm{O}_2(g) + 2\mathrm{H}_2\mathrm{O}(l) + 4e^-
+$$
+
+Or equivalently:
+
+$$
+2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{O}_2(g) + 4\mathrm{H}^+(aq) + 4e^-
+$$
+
+### Faraday"s Laws
 
 **First Law:** The mass of substance deposited or liberated at an electrode is directly proportional
 to the quantity of electricity passed.

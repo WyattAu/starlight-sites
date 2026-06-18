@@ -1,6 +1,40 @@
 ---
 title: "Atomic Structure and Atomic Theory -- Diagnostic Tests"
-description: ""s rule (maximum multiplicity first):
+description: "IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Atomic Structure and Atomic Theory — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Electron Configuration Exceptions
+
+**Question:** Write the ground-state electron configurations for chromium ($Z = 24$) and copper
+($Z = 29$). Explain why neither follows the expected aufbau filling order, referring to the relative
+stability of half-filled and fully filled $d$-subshells.
+
+**Solution:** Chromium: expected $[Ar]\, 4s^2\, 3d^4$Actual $[Ar]\, 4s^1\, 3d^5$. Copper: expected
+$[Ar]\, 4s^2\, 3d^9$Actual $[Ar]\, 4s^1\, 3d^{10}$.
+
+The $4s$ orbital is filled before $3d$ according to aufbau, but once electrons occupy the $3d$
+subshell, the $3d$ orbital drops in energy below $4s$. A half-filled $d$-subshell ($d^5$) has extra
+exchange energy (five unpaired electrons, each with parallel spin), which lowers the total energy. A
+fully filled $d^{10}$ subshell has a symmetric spherically averaged charge distribution that
+minimises electron-electron repulsion. In Cr, promoting one $4s$ electron to $3d$ gives $d^5$
+(half-filled) for a net energy gain. In Cu, promoting one $4s$ electron to $3d$ gives $d^{10}$
+(fully filled) for a net energy gain.
+
+---
+
+### UT-2: Quantum Numbers and Orbital Maximums
+
+**Question:** State the four quantum numbers ($n$, $\ell$$m_\ell$$m_s$) for each electron in a $2p^4$
+configuration. How many electrons maximum can occupy the $n = 3$ shell, and why?
+
+**Solution:** The $2p$ subshell has
+$n = 2$$\ell = 1$$m_\ell \in \{-1, 0, +1\}$$m_s = \pm \tfrac{1}{2}$. With four electrons, applying
+Hund"s rule (maximum multiplicity first):
 
 | Electron | $n$ | $\ell$ | $m_\ell$ | $m_s$           |
 | -------- | --- | ------ | -------- | --------------- |

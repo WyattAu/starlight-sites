@@ -1,6 +1,148 @@
 ---
 title: Advanced Types
-description: ""Z and 'S have kind Nat
+description: "Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Haskell
+categories:
+  - Haskell
+
+---
+
+## Algebraic Data Types Revisited
+
+Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine **sum
+types** (multiple constructors, one is chosen) and **product types** (a constructor holds multiple
+fields):
+
+```haskell
+-- Sum type: a Shape is one of these alternatives
+data Shape
+  = Circle Double Double Double
+  | Rectangle Double Double Double Double
+  | Triangle Double Double Double Double Double Double
+
+-- Product type: a Point has both x and y
+data Point = Point Double Double
+
+-- Recursive ADT: a tree contains trees
+data Tree a = Leaf a | Branch (Tree a) (Tree a)
+
+-- Polymorphic ADT: works for any element type
+data Either a b = Left a | Right b
+data Maybe a = Nothing | Just a
+```
+
+### The Algebra of Types
+
+Haskell types form an algebra where:
+
+- Types correspond to **sets** of values
+- `|` (sum) corresponds to **disjoint union** (cardinality $|A + B| = |A| + |B|$)
+- Fields in a constructor correspond to **cartesian product** (cardinality
+  $|A \times B| = |A| \times |B|$)
+- `a -> b` corresponds to $|B|^{|A|}$
+
+```haskell
+-- Bool = True | False: 2 values
+-- () = (): 1 value
+-- Maybe Bool = Nothing | Just True | Just False: 3 values
+-- Either Bool () = Left True | Left False | Right (): 3 values
+
+-- (Bool, Bool) = 4 values: (F,F), (F,T), (T,F), (T,T)
+-- Bool -> Bool = 4 functions
+-- () -> Bool = 2 functions (constant True, constant False)
+```
+
+## GADTs (Generalized Algebraic Data Types)
+
+GADTs extend ordinary data types by allowing explicit type signatures on constructors:
+
+```haskell
+{-# LANGUAGE GADTs #-}
+
+-- Regular ADT: result type is always the same
+data Expr a where
+  Lit :: Int -> Expr Int
+  Add :: Expr Int -> Expr Int -> Expr Int
+  Mul :: Expr Int -> Expr Int -> Expr Int
+  IsZero :: Expr Int -> Expr Bool
+  If :: Expr Bool -> Expr a -> Expr a -> Expr a
+  -- Each constructor can return a different type!
+```
+
+### Why GADTs?
+
+GADTs allow the type system to track information that regular ADTs cannot:
+
+```haskell
+-- Without GADTs: Expr a means we can put anything anywhere
+-- The type checker cannot prevent this:
+-- badExpr = If (Lit 42) (Lit 1) (Lit 2)  -- Bool where Int expected
+-- This compiles but makes no sense!
+
+-- With GADTs: each constructor constrains its result type
+-- This is caught by the type checker:
+eval :: Expr a -> a
+eval (Lit n)        = n
+eval (Add e1 e2)    = eval e1 + eval e2
+eval (Mul e1 e2)    = eval e1 * eval e2
+eval (IsZero e)     = eval e == 0
+eval (If cond t e)  = if eval cond then eval t else eval e
+
+-- The type of eval ensures safety:
+-- eval (If (Lit 42) (Lit 1) (Lit 2))
+-- Type error: expected Expr Bool, got Expr Int in If condition
+```
+
+### More GADT Examples
+
+```haskell
+-- Safe list operations
+data SafeList a b where
+  Nil  :: SafeList a Empty
+  Cons :: a -> SafeList a b -> SafeList a NonEmpty
+
+data Empty
+data NonEmpty
+
+safeHead :: SafeList a NonEmpty -> a
+safeHead (Cons x _) = x
+
+-- This is impossible to call with an empty list
+-- safeHead Nil  -- type error!
+```
+
+```haskell
+-- Typed JSON representation
+data JSON where
+  JNull   :: JSON
+  JBool   :: Bool -> JSON
+  JNumber :: Double -> JSON
+  JString :: String -> JSON
+  JArray  :: [JSON] -> JSON
+  JObject :: [(String, JSON)] -> JSON
+
+-- Safe accessor: compile-time guarantee of type
+getBool :: JSON -> Maybe Bool
+getBool (JBool b) = Just b
+getBool _          = Nothing
+
+getString :: JSON -> Maybe String
+getString (JString s) = Just s
+getString _            = Nothing
+```
+
+## DataKinds
+
+The `DataKinds` extension promotes data types to the **kind** level, allowing types to be used as
+type parameters:
+
+```haskell
+{-# LANGUAGE DataKinds #-}
+
+-- The promoted type Nat has kind *
+-- Its constructors "Z and 'S have kind Nat
 data Nat = Z | S Nat
 
 -- Type-level natural numbers

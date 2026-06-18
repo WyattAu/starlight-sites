@@ -1,6 +1,57 @@
 ---
 title: AP US History
-description: ""s movement, Watergate, economic transformations
+description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-history
+categories:
+  - ap-history
+
+---
+
+# AP US History
+
+Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board
+Course and Exam Description.
+
+These notes cover the full AP US History curriculum from pre-Columbian societies to the present,
+structured around the nine historical periods and seven course themes. Each topic includes key
+definitions, detailed explanations, and worked examples to help you prepare for both the
+multiple-choice and free-response sections of the AP exam.
+
+## Topics
+
+- **1. Periods 1-2 (1491-1754)** -- Pre-Columbian societies, European exploration, colonial
+  settlement, transatlantic trade
+- **2. Periods 3-4 (1754-1800)** -- Revolution, Constitution, early Republic, Federalist vs
+  Jeffersonian era
+- **3. Period 5 (1844-1877)** -- Manifest Destiny, Civil War, Reconstruction
+- **4. Period 6 (1865-1898)** -- Industrialisation, urbanisation, Gilded Age politics, westward
+  expansion
+- **5. Period 7 (1890-1945)** -- Progressivism, imperialism, WWI, Great Depression, New Deal, WWII
+
+## Topics Covered
+
+### Periodization
+
+- **Period 1 (1491-1607)** -- Native American societies, European contact, Columbian Exchange,
+  Spanish and Portuguese exploration
+- **Period 2 (1607-1754)** -- British colonial development, colonial society and culture,
+  transatlantic slavery, mercantilism, colonial wars
+- **Period 3 (1754-1800)** -- French and Indian War, imperial crisis, American Revolution,
+  Constitution and Bill of Rights, early national politics, Washington through Adams
+- **Period 4 (1800-1848)** -- Jeffersonian democracy, War of 1812, Market Revolution, Jacksonian
+  democracy, Second Great Awakening, reform movements, westward expansion, Mexican-American War
+- **Period 5 (1844-1877)** -- Manifest Destiny, sectional crisis, Compromise of 1850, Kansas-
+  Nebraska Act, Civil War (causes, military, home front), Reconstruction (Presidential and
+  Congressional)
+- **Period 6 (1865-1898)** -- Industrial growth, rise of big business (Rockefeller, Carnegie),
+  labour movements, urbanisation, immigration, Populism, Indian wars, Spanish-American War
+- **Period 7 (1890-1945)** -- Progressive Era reforms, US imperialism (Philippines, Puerto Rico),
+  WWI, 1920s cultural conflicts, Great Depression, New Deal, WWII home front and diplomacy
+- **Period 8 (1945-1980)** -- Cold War origins, McCarthyism, civil rights movement, Vietnam War,
+  Great Society, women"s movement, Watergate, economic transformations
 - **Period 9 (1980-Present)** -- Reagan Revolution, end of Cold War, globalisation, 9/11, political
   polarisation, demographic changes
 

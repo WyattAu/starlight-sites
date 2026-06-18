@@ -1,6 +1,481 @@
 ---
 title: Measurements and Error Analysis
-description: ""s error bar does not overlap with the line of best fit, either:
+description: "A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble"
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Physics
+  - ALevel
+categories:
+  - Physics
+
+---
+
+## Measurements and Error Analysis
+
+> **Info:** Board Coverage AQA Paper 3 | Edexcel CP1, CP6 | OCR (A) Paper 3 | CIE P5
+## 1. Systematic and Random Errors
+
+### Systematic Errors
+
+A **systematic error** is a consistent, repeatable deviation from the true value, caused by a flaw
+In the experimental setup or method.
+
+**Characteristics:**
+
+- Affect **accuracy** (closeness to true value)
+- Do **not** affect precision (repeatability)
+- Cannot be reduced by repeated measurements
+- Shift all readings in the same direction by the same amount
+
+**Definition.** A zero error is a systematic error in which an instrument does not read zero when
+The measured quantity is zero, causing all readings to be offset by a constant amount.
+
+**Definition.** A parallax error is a systematic error caused by reading a scale from an angle
+Rather than perpendicular to it, leading to consistently higher or lower readings.
+
+**Examples:**
+
+- A zero error on a micrometer (all readings too high or too low)
+- A stopwatch that runs consistently fast
+- Parallax error from always reading a scale at the wrong angle
+- A thermometer with an incorrect calibration
+
+**Detection:** Compare with an accepted value (if known), or use a different method to cross-check.
+
+**Correction:** Identify the source and either eliminate it or apply a correction factor.
+
+### Random Errors
+
+A **random error** is an unpredictable fluctuation in measured values, caused by limitations in
+Measurement or environmental variability.
+
+**Characteristics:**
+
+- Affect **precision** (repeatability)
+- Do **not** affect accuracy (on average)
+- Can be reduced by taking repeated measurements and averaging
+- Cause scatter in the data
+
+**Examples:**
+
+- Reaction time when using a stopwatch
+- Fluctuations in room temperature
+- Reading the last digit of an analogue scale
+- Vibration of the apparatus
+
+**Reduction:** Take multiple readings and calculate the mean. Use more precise instruments.
+
+:::caution Common Pitfall Do not confuse accuracy and precision. A measurement can be precise (small
+Scatter) but inaccurate (systematic error), or accurate (close to true value) but imprecise (large
+Scatter). Neither is sufficient alone.
+:::
+
+## 2. Uncertainty Analysis
+
+### Absolute, Fractional, and Percentage Uncertainty
+
+**Definition.** Absolute uncertainty is the estimated range within which the true value of a
+Measurement is expected to lie, expressed in the same units as the measured quantity and denoted
+$\pm \Delta x$.
+
+**Definition.** Percentage uncertainty is the absolute uncertainty expressed as a percentage of the
+Measured value: $(\Delta x / x) \times 100\%$.
+
+For a measurement $x \pm \Delta x$:
+
+- **Absolute uncertainty:** $\Delta x$
+- **Fractional uncertainty:** $\frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆$
+- **Percentage uncertainty:** $\frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆ \times 100\%$
+
+### Propagation of Uncertainty
+
+### Derivation of Uncertainty Propagation Rules
+
+#### For Addition/Subtraction: $z = x + y$
+
+The maximum value of $z$ occurs when both uncertainties add in the same direction:
+
+$$z_{\max} = (x + \Delta x) + (y + \Delta y)$$
+
+The minimum value:
+
+$$z_{\min} = (x - \Delta x) + (y - \Delta y)$$
+
+The absolute uncertainty is half the range:
+
+$$\Delta z = \frac◆LB◆z_{\max} - z_{\min}◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆2\Delta x + 2\Delta y◆RB◆◆LB◆2◆RB◆$$
+
+$$\boxed{\Delta z = \Delta x + \Delta y}$$
+
+$\square$
+
+#### For Multiplication/Division: $z = xy$
+
+Taking natural logarithms: $\ln z = \ln x + \ln y$. Differentiating: $dz/z = dx/x + dy/y$.
+Converting to finite uncertainties:
+
+$$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆ + \frac◆LB◆\Delta y◆RB◆◆LB◆y◆RB◆$$
+
+$$\boxed{\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆ + \frac◆LB◆\Delta y◆RB◆◆LB◆y◆RB◆}$$
+
+$\square$
+
+The same rule applies for division ($z = x/y$) since $\\ln z = \\ln x - \\ln y$ gives
+$\\Delta z/z = \\Delta x/x + \\Delta y/y$ (uncertainties always add).
+
+<hr />
+
+#### Addition/Subtraction: $z = x \pm y$
+
+$$\Delta z = \Delta x + \Delta y$$
+
+Add absolute uncertainties.
+
+#### Multiplication/Division: $z = xy$ or $z = x/y$
+
+$$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆ + \frac◆LB◆\Delta y◆RB◆◆LB◆y◆RB◆$$
+
+Add fractional uncertainties.
+
+#### Powers: $z = x^n$
+
+$$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = |n| \cdot \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆$$
+
+Multiply fractional uncertainty by the power.
+
+#### General formula (for reference):
+
+$$\Delta z = \sqrt◆LB◆\sum_{i}\left(\frac{\partial z}{\partial x_i}\Delta x_i\right)^2◆RB◆$$
+
+### Uncertainty from a Single Reading
+
+**Definition.** Resolution is the smallest change in the measured quantity that an instrument can
+Detect or display, equal to the smallest division on an analogue scale or the last digit on a
+Digital display.
+
+For a single reading with an instrument, the uncertainty is :
+
+- **Analogue instrument:** half the smallest division
+- **Digital instrument:** the smallest division (last digit)
+
+### Uncertainty from Repeated Measurements
+
+For $n$ repeated readings:
+
+$$\bar{x} = \frac{1}{n}\sum x_i$$
+
+$$\Delta x = \frac◆LB◆x_{\max} - x_{\min}◆RB◆◆LB◆2◆RB◆$$
+
+For large $n$The standard uncertainty of the mean is:
+
+$$\Delta x = \frac◆LB◆\sigma◆RB◆◆LB◆\sqrt{n}◆RB◆, \qquad \sigma = \sqrt◆LB◆\frac{1}{n-1}\sum(x_i - \bar{x})^2◆RB◆$$
+
+## 3. Graphical Analysis
+
+### Determining Uncertainty from a Line of Best Fit
+
+When determining a physical quantity from the gradient of a straight-line graph:
+
+1. Draw the **line of best fit** through the data points.
+2. Draw the **worst acceptable line** (the steepest/shallowest line consistent with the error bars).
+3. The uncertainty in the gradient is:
+
+$$\Delta m = \frac◆LB◆|m_{\mathrm{best}} - m_{\mathrm{worst}}|◆RB◆◆LB◆2◆RB◆$$
+
+### Error Bars
+
+**Vertical error bars** represent the uncertainty in the $y$-measurement. **Horizontal error bars**
+Represent the uncertainty in the $x$-measurement.
+
+When error bars are not shown, the uncertainty is assumed to be $\pm$ half the smallest Scale
+division.
+
+### Linearising Data
+
+Many physical relationships can be linearised by choosing appropriate variables:
+
+| Non-linear relation  | Linearised form                       | Plot                  | Gradient   | Intercept |
+| -------------------- | ------------------------------------- | --------------------- | ---------- | --------- |
+| $y = ax^2 + b$       | $y = aX + b$                          | $y$ vs $X = x^2$      | $a$        | $b$       |
+| $y = a\sqrt{x} + b$  | $y = aX + b$                          | $y$ vs $X = \sqrt{x}$ | $a$        | $b$       |
+| $y = a/x + b$        | $y = aX + b$                          | $y$ vs $X = 1/x$      | $a$        | $b$       |
+| $y = ae^{bx}$        | $\ln y = bx + \ln a$                  | $\ln y$ vs $x$        | $b$        | $\ln a$   |
+| $T = 2\pi\sqrt{L/g}$ | $T^2 = \frac◆LB◆4\pi^2◆RB◆◆LB◆g◆RB◆L$ | $T^2$ vs $L$          | $4\pi^2/g$ | $0$       |
+
+:::tip Exam Technique When asked to find the percentage uncertainty in a quantity determined from a
+Gradient, first find the gradient uncertainty using the worst line method, then divide by the
+Best-fit gradient and multiply by 100%.
+:::
+
+## Problem Set
+
+<details>
+<summary>Problem 1</summary>
+A student measures the length of a table five times: 1.52 m, 1.53 m, 1.51 m, 1.52 m, 1.54 m.
+Calculate the mean and the absolute uncertainty.
+
+**Answer.** $\bar{L} = (1.52 + 1.53 + 1.51 + 1.52 + 1.54)/5 = 7.62/5 = 1.524$ m.
+
+Range $= 1.54 - 1.51 = 0.03$ m. $\Delta L = 0.015$ m. Result: $L = 1.524 \pm 0.015$ m
+$\approx 1.52 \pm 0.02$ m.
+
+<b>If you get this wrong, revise:</b>
+[Uncertainty from Repeated Measurements](#uncertainty-from-repeated-measurements)
+
+</details>
+
+<details>
+<summary>Problem 2</summary>
+The density of a material is $\rho = m/V$. The mass is $25.0 \pm 0.3$ g and the volume is
+$10.0 \pm 0.5$ cm$^3$. Calculate $\rho$ and its percentage uncertainty.
+
+**Answer.** $\rho = 25.0/10.0 = 2.50$ g cm$^{-3}$. Fractional uncertainties: $0.3/25.0 = 0.012$ and
+$0.5/10.0 = 0.050$.
+
+Total fractional uncertainty $= 0.012 + 0.050 = 0.062 = 6.2\%$.
+$\Delta\rho = 2.50 \times 0.062 = 0.16$ g cm$^{-3}$.
+
+Result: $\rho = 2.50 \pm 0.16$ g cm$^{-3}$ (6.2%).
+
+<b>If you get this wrong, revise:</b> [Propagation of Uncertainty](#propagation-of-uncertainty)
+
+</details>
+
+<details>
+<summary>Problem 3</summary>
+A digital voltmeter reads 4.52 V. What is the absolute uncertainty?
+
+**Answer.** For a digital instrument, the uncertainty is the smallest division (last digit):
+$\pm 0.01$ V.
+
+<b>If you get this wrong, revise:</b>
+[Uncertainty from a Single Reading](#uncertainty-from-a-single-reading)
+
+</details>
+
+<details>
+<summary>Problem 4</summary>
+The period of a pendulum is given by $T = 2\pi\sqrt{L/g}$. A student plots $T^2$ against $L$ and
+Obtains a gradient of $4.05$ s$^2$ m$^{-1}$ with an uncertainty of $\pm 0.10$ s$^2$ m$^{-1}$.
+Calculate $g$ and its uncertainty.
+
+**Answer.** $g = 4\pi^2/\mathrm{gradient} = 39.48/4.05 = 9.75$ m s$^{-2}$.
+
+$\Delta g/g = \Delta(\mathrm{gradient})/\mathrm{gradient} = 0.10/4.05 = 0.0247 = 2.5\%$.
+$\Delta g = 9.75 \times 0.025 = 0.24$ m s$^{-2}$.
+
+Result: $g = 9.75 \pm 0.24$ m s$^{-2}$.
+
+<b>If you get this wrong, revise:</b> [Graphical Analysis](#3-graphical-analysis)
+
+</details>
+
+<details>
+<summary>Problem 5</summary>
+A quantity $y$ is calculated as $y = ax^3/b$ where $a = 4.0 \pm 0.2$, $b = 2.0 \pm 0.1$And
+$x = 3.0 \pm 0.1$. Calculate $y$ and its percentage uncertainty.
+
+**Answer.** $y = 4.0 \times 27 / 2.0 = 54.0$.
+
+Fractional uncertainties: $0.2/4.0 = 0.050$ (for $a$), $0.1/2.0 = 0.050$ (for $b$),
+$3(0.1/3.0) = 0.10$ (for $x^3$Power rule).
+
+Total $= 0.050 + 0.050 + 0.10 = 0.20 = 20\%$. $\Delta y = 54.0 \times 0.20 = 10.8$.
+
+Result: $y = 54 \pm 11$ (20%).
+
+<b>If you get this wrong, revise:</b> [Propagation of Uncertainty](#propagation-of-uncertainty)
+
+</details>
+
+<details>
+<summary>Problem 6</summary>
+Distinguish between systematic and random errors, giving one example of each from measuring the
+Acceleration of free fall using a simple pendulum.
+
+**Answer.** **Systematic error:** The string is not perfectly inextensible, so the effective length
+Is greater than measured, leading to a consistently overestimated $T$ and hence underestimated $g$.
+**Random error:** Human reaction time when timing oscillations causes scatter in the measured
+Periods.
+
+<b>If you get this wrong, revise:</b>
+[Systematic and Random Errors](#1-systematic-and-random-errors)
+
+</details>
+
+<details>
+<summary>Problem 7</summary>
+In an experiment to determine $g$ using $T = 2\pi\sqrt{L/g}$A student measures
+$L = 0.800 \pm 0.002$ m and $T = 1.80 \pm 0.05$ s. Calculate $g$ with its absolute uncertainty.
+
+**Answer.** $g = 4\pi^2 L / T^2 = 39.48 \times 0.800 / 3.24 = 31.58/3.24 = 9.75$ m s$^{-2}$.
+
+Fractional uncertainties: $\Delta L/L = 0.002/0.800 = 0.0025$.
+$\Delta T^2/T^2 = 2\Delta T/T = 2(0.05/1.80) = 0.0556$.
+
+Total fractional uncertainty $= 0.0025 + 0.0556 = 0.0581$. $\Delta g = 9.75 \times 0.058 = 0.57$ m
+S$^{-2}$.
+
+Result: $g = 9.8 \pm 0.6$ m s$^{-2}$.
+
+<b>If you get this wrong, revise:</b> [Propagation of Uncertainty](#propagation-of-uncertainty)
+
+</details>
+
+<details>
+<summary>Problem 8</summary>
+A student obtains the following data for a linear relationship $y = mx + c$:
+
+| $x$ (cm) | $y$ (cm) |
+| -------- | -------- |
+| 2.0      | 3.2      |
+| 4.0      | 5.8      |
+| 6.0      | 8.5      |
+| 8.0      | 11.0     |
+| 10.0     | 13.8     |
+
+Using a line of best fit, the gradient is $1.34$ cm/cm. The worst acceptable line gives a gradient
+Of $1.28$ cm/cm. Calculate the gradient and its uncertainty as a percentage.
+
+**Answer.** $m = 1.34 \pm \frac{1.34 - 1.28}{2} = 1.34 \pm 0.03$ cm/cm.
+
+Percentage uncertainty $= (0.03/1.34) \times 100 = 2.2\%$.
+
+<b>If you get this wrong, revise:</b>
+[Determining Uncertainty from a Line of Best Fit](#determining-uncertainty-from-a-line-of-best-fit)
+
+</details>
+
+## 4. Worked Example: Determining $g$ from a Simple Pendulum
+
+This example brings together multiple concepts: repeated measurements, propagation of uncertainty,
+And graphical analysis.
+
+### 4.1 The Experiment
+
+A student measures the period $T$ of a simple pendulum for five different lengths $L$. The
+Relationship is:
+
+$$T = 2\pi\sqrt◆LB◆\frac{L}{g}◆RB◆ \implies T^2 = \frac◆LB◆4\pi^2◆RB◆◆LB◆g◆RB◆L$$
+
+By plotting $T^2$ against $L$The gradient gives $4\pi^2/g$From which $g$ can be determined.
+
+### 4.2 Sample Data and Calculations
+
+| $L$ (m)           | $T$ (s)         | $T^2$ (s$^2$)   |
+| ----------------- | --------------- | --------------- |
+| $0.400 \pm 0.002$ | $1.26 \pm 0.03$ | $1.59 \pm 0.08$ |
+| $0.600 \pm 0.002$ | $1.55 \pm 0.03$ | $2.40 \pm 0.09$ |
+| $0.800 \pm 0.002$ | $1.80 \pm 0.03$ | $3.24 \pm 0.11$ |
+| $1.000 \pm 0.002$ | $2.01 \pm 0.03$ | $4.04 \pm 0.12$ |
+| $1.200 \pm 0.002$ | $2.20 \pm 0.03$ | $4.84 \pm 0.13$ |
+
+The uncertainty in $T^2$ is calculated using the power rule: $\Delta T^2/T^2 = 2\Delta T/T$.
+
+For the first row: $\Delta T^2 = 2 \times (0.03/1.26) \times 1.59 = 0.076 \approx 0.08$.
+
+### 4.3 Determining $g$ from the Gradient
+
+From a line of best fit through $(L, T^2)$The gradient is $m = 4.08$ s$^2$ m$^{-1}$. The worst
+Acceptable line gives $m = 3.95$ s$^2$ m$^{-1}$.
+
+$$g = \frac◆LB◆4\pi^2◆RB◆◆LB◆m◆RB◆ = \frac{39.48}{4.08} = 9.68 \mathrm{ m s}^{-2}$$
+
+Uncertainty in the gradient: $\Delta m = (4.08 - 3.95)/2 = 0.065$ s$^2$ m$^{-1}$.
+
+Since $g = 4\pi^2 / m$ and $g \propto 1/m$:
+
+$$\frac◆LB◆\Delta g◆RB◆◆LB◆g◆RB◆ = \frac◆LB◆\Delta m◆RB◆◆LB◆m◆RB◆ = \frac{0.065}{4.08} = 0.016 = 1.6\%$$
+
+$$\Delta g = 9.68 \times 0.016 = 0.15 \mathrm{ m s}^{-2}$$
+
+Result: $g = 9.68 \pm 0.15$ m s$^{-2}$Which is consistent with the accepted value of $9.81$ m
+S$^{-2}$.
+
+### 4.4 Identifying Errors in This Experiment
+
+**Systematic errors:**
+
+- The string is not perfectly inextensible, so the effective length is greater than measured,
+  leading to overestimated $T$ and underestimated $g$
+- Air resistance slightly increases the period, causing $g$ to be underestimated
+- The angle of swing may be too large (the formula assumes small angles)
+
+**Random errors:**
+
+- Human reaction time when starting and stopping the stopwatch
+- Reading the scale on the metre rule at an angle (parallax)
+- Variations in the release mechanism
+
+## 5. Precision vs Accuracy: A Deeper Analysis
+
+### 5.1 Definitions Revisited
+
+| Property      | Definition                                       | How to Assess                                      |
+| ------------- | ------------------------------------------------ | -------------------------------------------------- |
+| **Accuracy**  | Closeness of measurements to the true value      | Compare the mean with an accepted value            |
+| **Precision** | Closeness of repeated measurements to each other | Calculate the spread (range or standard deviation) |
+
+### 5.2 The Four Scenarios
+
+| Scenario | Accuracy | Precision | Interpretation                                                                              |
+| -------- | -------- | --------- | ------------------------------------------------------------------------------------------- |
+| A        | High     | High      | Measurements are clustered near the true value. Ideal.                                      |
+| B        | High     | Low       | Measurements are scattered but the mean is close to the true value. Random errors dominate. |
+| C        | Low      | High      | Measurements are tightly clustered but away from the true value. Systematic error present.  |
+| D        | Low      | Low       | Measurements are scattered and the mean is wrong. Both error types present.                 |
+
+### 5.3 Improving Both Accuracy and Precision
+
+To improve accuracy: calibrate instruments, correct for systematic errors, use a better experimental
+Method.
+
+To improve precision: take more repeated measurements, use instruments with finer resolution,
+Control environmental conditions (temperature, vibrations).
+
+## 6. Systematic Error Identification Techniques
+
+Identifying systematic errors is critical because they cannot be reduced by averaging. Several
+Techniques are available:
+
+1. **Comparison with an accepted value.** If the mean of repeated measurements differs significantly
+   from the accepted value (considering the random uncertainty), a systematic error is likely
+   present.
+
+2. **Using a different method.** If two independent methods give results that disagree beyond their
+   combined uncertainties, at least one method has a systematic error.
+
+3. **Varying the experimental conditions.** Change the range of measurements. If the discrepancy
+   from the accepted value varies with the measured quantity (e.g., always a fixed percentage too
+   high), this indicates a systematic error.
+
+4. **Checking for zero errors.** Measure a known zero before and after the experiment. Any non-zero
+   reading indicates a zero error.
+
+5. **Analysing the graph.** If a straight-line graph does not pass through the expected intercept
+   (e.g., $T^2$ vs $L$ should pass through the origin), the non-zero intercept indicates a
+   systematic error.
+
+<details>
+<summary>Example: Identifying Systematic Error from a Graph</summary>
+A student plots $T^2$ against $L$ for a pendulum. The line of best fit has a $y$-intercept of $0.15$ s$^2$ instead of $0$. This suggests a systematic error: the effective pendulum length is $L + \delta$ where $\delta = 0.15g/(4\pi^2) \approx 0.037$ m. Possible causes: measuring from the wrong point on the bob, or the string not being clamped at the measured point.
+</details>
+
+## 7. Error Bars on Graphs
+
+### 7.1 Drawing Error Bars
+
+Error bars represent the uncertainty in each measurement point:
+
+- **Vertical error bars** show the uncertainty in the $y$-variable. Draw a vertical line of length
+  $2\Delta y$ centred on each data point, with small horizontal caps at each end.
+- **Horizontal error bars** show the uncertainty in the $x$-variable. Draw a horizontal line of
+  length $2\Delta x$ centred on each data point, with small vertical caps at each end.
+
+### 7.2 Interpreting Error Bars
+
+The line of best fit should pass through or near the error bars of each data point. If a data
+Point"s error bar does not overlap with the line of best fit, either:
 
 - The point is an outlier (consider whether to exclude it with justification)
 - There is an unaccounted systematic error

@@ -1,6 +1,91 @@
 ---
 title: Cron and Task Scheduling
-description: ""15th OR Monday", use two separate lines:
+description: "The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for..."
+
+---
+
+## cron Daemon
+
+The cron daemon (`crond`) is a time-based job scheduler that runs commands at specified times and
+Intervals. It wakes up every minute, checks all crontab files for matching time specifications, and
+Executes due commands.
+
+```bash
+# Check if cron is running
+systemctl status cron        # Debian/Ubuntu
+systemctl status crond       # Fedora/RHEL
+
+# Start/enable cron
+systemctl enable --now cron
+systemctl enable --now crond
+```
+
+## Crontab Format
+
+### Time Fields
+
+```text
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12)
+# |  |  |  |  .---- day of week (0 - 6, 0 = Sunday)
+# |  |  |  |  |
+# *  *  *  *  *  command
+```
+
+```bash
+# Examples
+* * * * *      /usr/bin/command       # every minute
+*/5 * * * *    /usr/bin/command       # every 5 minutes
+0 * * * *      /usr/bin/command       # every hour (at minute 0)
+0 2 * * *      /usr/bin/command       # every day at 2:00 AM
+0 0 * * 0      /usr/bin/command       # every Sunday at midnight
+0 0 1 * *      /usr/bin/command       # first of every month at midnight
+0 0 1 1 *      /usr/bin/command       # January 1 at midnight
+30 4 1,15 * *  /usr/bin/command       # 1st and 15th at 4:30 AM
+0 9-17 * * 1-5 /usr/bin/command       # every hour 9-17 on weekdays
+0 */2 * * *    /usr/bin/command       # every 2 hours
+15 6 * * 2-6   /usr/bin/command       # 6:15 AM, Tuesday through Saturday
+```
+
+### Special Strings
+
+| String      | Equivalent  | Description                     |
+| ----------- | ----------- | ------------------------------- |
+| `@yearly`   | `0 0 1 1 *` | Once per year                   |
+| `@annually` | `0 0 1 1 *` | Same as @yearly                 |
+| `@monthly`  | `0 0 1 * *` | Once per month                  |
+| `@weekly`   | `0 0 * * 0` | Once per week                   |
+| `@daily`    | `0 0 * * *` | Once per day                    |
+| `@midnight` | `0 0 * * *` | Same as @daily                  |
+| `@hourly`   | `0 * * * *` | Once per hour                   |
+| `@reboot`   | (special)   | Run once at cron daemon startup |
+
+```bash
+# System backup every day at midnight
+@daily /usr/local/bin/backup.sh
+
+# Weekly report every Monday at 6 AM
+@weekly /usr/local/bin/generate-report.sh
+
+# Cleanup on reboot
+@reboot /usr/local/bin/cleanup.sh
+```
+
+### Advanced Time Specifications
+
+```bash
+# Step values
+*/15 * * * *      # every 15 minutes
+1-31/2 * * * *    # every other day of the month (1,3,5,...,31)
+
+# Range with step
+0 6-18/2 * * *   # every 2 hours from 6 AM to 6 PM (6,8,10,...,18)
+
+# Day of week with day of month (both must match)
+0 0 15 * 1       # 15th of the month AND Monday (not common)
+# To specify "15th OR Monday", use two separate lines:
 0 0 15 * *       # 15th of every month
 0 0 * * 1       # every Monday
 

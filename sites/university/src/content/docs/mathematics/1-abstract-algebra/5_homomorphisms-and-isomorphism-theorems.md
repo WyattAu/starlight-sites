@@ -3,7 +3,54 @@ title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
-description: "" \ker(\phi)$Then $g'^{-1}g \in \ker(\phi)$ So
+description: "Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls."
+---
+
+### 5.1 Group Homomorphisms
+
+A **homomorphism** $\phi : G \to H$ is a function satisfying $\phi(ab) = \phi(a)\phi(b)$ for all
+$a, b \in G$.
+
+**Proposition 5.1.** If $\phi : G \to H$ is a homomorphism, then:
+
+1. $\phi(e_G) = e_H$.
+2. $\phi(a^{-1}) = \phi(a)^{-1}$ for all $a \in G$.
+3. $\phi(a^n) = \phi(a)^n$ for all $n \in \mathbb{Z}$.
+
+_Proof._ (1) $\phi(e_G) = \phi(e_G \cdot e_G) = \phi(e_G)\phi(e_G)$So by cancellation in $H$
+$\phi(e_G) = e_H$. (2) $e_H = \phi(e_G) = \phi(aa^{-1}) = \phi(a)\phi(a^{-1})$So
+$\phi(a^{-1}) = \phi(a)^{-1}$. $\blacksquare$
+
+### 5.2 Kernel and Image
+
+The **kernel** of $\phi$ is $\ker(\phi) = \{g \in G : \phi(g) = e_H\}$.
+
+The **image** of $\phi$ is $\mathrm{im}(\phi) = \{\phi(g) : g \in G\}$.
+
+**Theorem 5.2.** $\ker(\phi) \trianglelefteq G$ and $\mathrm{im}(\phi) \leq H$.
+
+_Proof._ We show $\ker(\phi)$ is a normal subgroup.
+
+- $\phi(e) = e_H$So $e \in \ker(\phi)$.
+- If $a, b \in \ker(\phi)$Then $\phi(ab^{-1}) = \phi(a)\phi(b)^{-1} = e_H e_H = e_H$So
+  $ab^{-1} \in \ker(\phi)$.
+- If $a \in \ker(\phi)$ and $g \in G$Then
+  $\phi(gag^{-1}) = \phi(g)\phi(a)\phi(g)^{-1} = \phi(g)e_H\phi(g)^{-1} = e_H$ so
+  $gag^{-1} \in \ker(\phi)$.
+
+Thus $\ker(\phi) \trianglelefteq G$. The .../1-number-and-algebra/3_proof-and-logic that
+$\mathrm{im}(\phi) \leq H$ is straightforward. $\blacksquare$
+
+### 5.3 The First Isomorphism Theorem
+
+**Theorem 5.3 (First Isomorphism Theorem).** If $\phi : G \to H$ is a surjective homomorphism, then
+
+$$G / \ker(\phi) \cong H$$
+
+More generally (even if $\phi$ is not surjective), $G / \ker(\phi) \cong \mathrm{im}(\phi)$.
+
+_Proof._ Define $\overline{\phi} : G/\ker(\phi) \to H$ by $\overline{\phi}(g \ker(\phi)) = \phi(g)$.
+This is well-defined: if $g \ker(\phi) = g" \ker(\phi)$Then $g'^{-1}g \in \ker(\phi)$ So
 $\phi(g'^{-1}g) = e_H$Giving $\phi(g) = \phi(g')$. It is a homomorphism:
 $\overline{\phi}((a\ker(\phi))(b\ker(\phi))) = \overline{\phi}(ab\ker(\phi)) = \phi(ab) = \phi(a)\phi(b) = \overline{\phi}(a\ker(\phi))\overline{\phi}(b\ker(\phi))$.
 It is injective:

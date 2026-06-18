@@ -1,6 +1,19 @@
 ---
 title: Internet and Data Communications
-description: ""s offices across cities   |
+description: "| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |..."
+date: 2026-04-08T00:00:00.000Z
+tags: [DSE, ICT]
+categories: [DSE, ICT]
+---
+
+## Network Fundamentals
+
+### Types of Networks
+
+| Type    | Full Name             | Range                     | Example                                           |
+| ------- | --------------------- | ------------------------- | ------------------------------------------------- |
+| **LAN** | Local Area Network    | A building or campus      | School computer lab, office network               |
+| **WAN** | Wide Area Network     | Cities, countries, global | The Internet, a company"s offices across cities   |
 | **PAN** | Personal Area Network | Within ~10 m              | Bluetooth connection between phone and headphones |
 
 ### Network Topologies

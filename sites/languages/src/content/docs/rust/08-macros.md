@@ -1,6 +1,26 @@
 ---
 title: Macros
-description: ""zero or more arguments, each implementing `Display`" with a single signature.
+description: "Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,..."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - Rust
+categories:
+  - Rust
+
+---
+
+## Introduction
+
+Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST)
+Rather than on values. They expand at compile time, transforming token sequences into new token
+Sequences that the compiler then processes as ordinary Rust code.
+
+### Why Macros Exist
+
+Rust macros solve problems that the type system and generics cannot:
+
+- **Variadic functions**: `println!` accepts any number of arguments of any type. A generic function
+  cannot express "zero or more arguments, each implementing `Display`" with a single signature.
 - **Syntax extension**: Macros can introduce new syntactic forms (pattern matching on token trees)
   that are not representable as function calls. `vec![1, 2, 3]` is syntactic sugar that would be
   impossible as a plain function.

@@ -1,6 +1,169 @@
 ---
 title: Database Design and Development
-description: ""2026-04-14'     |
+description: "Scottish Highers Computer Science Database Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+date: 2026-04-14
+tags:
+  - highers
+  - highers-computer-science
+categories:
+  - highers-computer-science
+
+---
+
+# Database Design and Development
+
+## Higher Database Design
+
+### Flat Files vs. Relational Databases
+
+**Flat files:**
+
+- Single table, simple structure
+- Suitable for small amounts of data
+- Problems: data redundancy, data inconsistency, data dependency, difficulty of sharing, security
+  issues
+
+**Relational databases:**
+
+- Multiple related tables
+- Minimise redundancy through normalisation
+- Support concurrent access, security, integrity
+- Query using SQL (Structured Query Language)
+
+| Feature           | Flat File           | Relational Database         |
+| ----------------- | ------------------- | --------------------------- |
+| Tables            | Single              | Multiple, related           |
+| Redundancy        | High                | Minimised by normalisation  |
+| Data integrity    | Not enforced        | Enforced by constraints     |
+| Concurrent access | Not supported       | Supported with locking      |
+| Querying          | Manual (sequential) | SQL (declarative, powerful) |
+| Scalability       | Poor                | Good                        |
+| Security          | Limited             | User accounts, permissions  |
+
+### Relational Database Concepts
+
+**Entity:** A thing of interest (e.g., Student, Course).
+
+**Attribute:** A property of an entity (e.g., student name, course code).
+
+**Relation (Table):** A set of tuples (rows) with the same attributes (columns).
+
+**Tuple (Record):** A single row in a table.
+
+**Domain:** The set of allowable values for an attribute.
+
+**Primary Key:** A column (or set of columns) that uniquely identifies each row in a table. Must be
+Unique and not null.
+
+**Foreign Key:** A column in one table that references the primary key of another table. Establishes
+Relationships.
+
+**Composite key:** A primary key made up of two or more columns.
+
+**Candidate key:** Any column or set of columns that could serve as a primary key.
+
+**Worked Example.** In a table of Students, which of the following could be a candidate key:
+StudentID, Name, Email?
+
+StudentID is a candidate key (unique, not null). Name is not (two students can have the same name).
+Email could be a candidate key if the system requires unique emails.
+
+### Entity-Relationship Modelling
+
+**Step 1: Identify entities and attributes**
+
+For a school system:
+
+- Student (StudentID, Name, DateOfBirth, Address)
+- Course (CourseCode, CourseName, Credits)
+- Enrolment (StudentID, CourseCode, Grade)
+
+**Step 2: Identify relationships**
+
+- A Student can enrol in many Courses
+- A Course can have many Students
+- This is a many-to-many (M:N) relationship, which requires a junction table (Enrolment)
+
+**Step 3: Draw the ER diagram**
+
+```
+Student (1) ----< Enrolment >---- (1) Course
+```
+
+### Normalisation
+
+Normalisation is the process of organising data to minimise redundancy and dependency.
+
+**Unnormalised Form (UNF):** Raw data with repeating groups.
+
+**First Normal Form (1NF):** No repeating groups. Every cell contains a single value. Each row is
+Unique (has a primary key).
+
+**Second Normal Form (2NF):** In 1NF and no partial dependencies (every non-key attribute depends on
+The entire primary key, not just part of it). Only applies to tables with composite keys.
+
+**Third Normal Form (3NF):** In 2NF and no transitive dependencies (no non-key attribute depends on
+Another non-key attribute).
+
+**Example of normalisation:**
+
+**UNF:**
+
+| OrderID | CustomerName | CustomerCity | ProductCode | ProductName | Quantity |
+| ------- | ------------ | ------------ | ----------- | ----------- | -------- |
+| 001     | J. Smith     | Edinburgh    | P01         | Widget      | 5        |
+| 001     | J. Smith     | Edinburgh    | P02         | Gadget      | 3        |
+| 002     | A. Jones     | Glasgow      | P01         | Widget      | 2        |
+
+**1NF (remove repeating groups):** Already in 1NF (each cell has a single value).
+
+**2NF (remove partial dependencies):**
+
+The composite key is (OrderID, ProductCode). CustomerName and CustomerCity depend only on OrderID
+(partial dependency). ProductName depends only on ProductCode (partial dependency).
+
+Split into:
+
+- Order (OrderID, CustomerName, CustomerCity)
+- Product (ProductCode, ProductName)
+- OrderLine (OrderID, ProductCode, Quantity)
+
+**3NF (remove transitive dependencies):**
+
+In Order, CustomerCity depends on CustomerName (transitive dependency). Split into:
+
+- Customer (CustomerID, CustomerName, CustomerCity)
+- Order (OrderID, CustomerID)
+- Product (ProductCode, ProductName)
+- OrderLine (OrderID, ProductCode, Quantity)
+
+**Why normalisation matters.** Without normalisation:
+
+- **Update anomaly:** If J. Smith moves city, we must update every row with their name.
+- **Insertion anomaly:** We cannot add a new customer until they place an order.
+- **Deletion anomaly:** If order 002 is deleted, we lose the information that Widget is a product.
+
+### Referential Integrity
+
+Referential integrity ensures that relationships between tables remain consistent.
+
+- A foreign key value must either be null or match a value in the referenced primary key
+- Cannot delete a record that is referenced by a foreign key in another table (without cascading)
+
+**Worked Example.** If we try to delete StudentID = 1 from the Student table, but there are
+Enrolment records with StudentID = 1, the DBMS should reject the deletion (or cascade it to also
+Delete the enrolments).
+
+### Data Types in SQL
+
+| SQL Data Type | Description            | Example          |
+| ------------- | ---------------------- | ---------------- |
+| INT / INTEGER | Whole number           | 42               |
+| REAL / FLOAT  | Decimal number         | 3.14             |
+| DECIMAL(p, s) | Fixed-point decimal    | DECIMAL(10, 2)   |
+| CHAR(n)       | Fixed-length string    | CHAR(10)         |
+| VARCHAR(n)    | Variable-length string | VARCHAR(255)     |
+| DATE          | Date (YYYY-MM-DD)      | "2026-04-14'     |
 | BOOLEAN       | True/False             | TRUE             |
 | TEXT          | Long text              | 'Description...' |
 

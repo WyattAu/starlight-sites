@@ -1,6 +1,56 @@
 ---
 title: "Capacitance -- Diagnostic Tests"
-description: "" = \frac◆LB◆\varepsilon_0 A◆RB◆◆LB◆d◆RB◆ = \frac◆LB◆8.85 \times 10^{-12} \times 0.010◆RB◆◆LB◆2.0 \times 10^{-3}◆RB◆ = 4.425 \times 10^{-11}\,\text{F} = 44.3\,\text{pF}$$
+description: "A-Level Physics Capacitance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
+tableOfContents: false
+---
+
+# Capacitance — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Parallel Plate Capacitor with Dielectric
+
+**Question:**
+
+A parallel plate capacitor consists of two square plates of side $0.10\,\text{m}$ separated by
+$2.0\,\text{mm}$ in vacuum. A dielectric of relative permittivity $\varepsilon_r = 4.5$ and
+thickness $1.0\,\text{mm}$ is inserted between the plates, leaving a $0.5\,\text{mm}$ air gap on
+each side.
+
+(a) Calculate the capacitance.
+
+(b) The capacitor is charged to $200\,\text{V}$ with the dielectric in place. The dielectric is then
+carefully removed without discharging the capacitor. Calculate the new voltage across the capacitor.
+
+(c) Calculate the energy stored before and after removing the dielectric. Account for any
+difference.
+
+Take $\varepsilon_0 = 8.85 \times 10^{-12}\,\text{F}\,\text{m}^{-1}$.
+
+**Solution:**
+
+(a) The system consists of three capacitors in series: air ($0.5\,\text{mm}$), dielectric
+($1.0\,\text{mm}$), air ($0.5\,\text{mm}$).
+
+Plate area: $A = (0.10)^2 = 0.010\,\text{m}^2$
+
+$C_{\text{air}} = \frac◆LB◆\varepsilon_0 A◆RB◆◆LB◆d_{\text{air}}◆RB◆ = \frac◆LB◆8.85 \times 10^{-12} \times 0.010◆RB◆◆LB◆0.5 \times 10^{-3}◆RB◆ = 1.77 \times 10^{-10}\,\text{F} = 177\,\text{pF}$
+
+$C_{\text{dielectric}} = \frac◆LB◆\varepsilon_0 \varepsilon_r A◆RB◆◆LB◆d_{\text{diel}}◆RB◆ = \frac◆LB◆8.85 \times 10^{-12} \times 4.5 \times 0.010◆RB◆◆LB◆1.0 \times 10^{-3}◆RB◆ = 3.983 \times 10^{-10}\,\text{F} = 398\,\text{pF}$
+
+For two air gaps in series:
+$\frac◆LB◆1◆RB◆◆LB◆C_{\text{air,total}}◆RB◆ = \frac{1}{177} + \frac{1}{177} = \frac{2}{177} \Rightarrow C_{\text{air,total}} = 88.5\,\text{pF}$
+
+Total capacitance:
+$\frac{1}{C} = \frac{1}{88.5} + \frac{1}{398} = 0.01130 + 0.002513 = 0.01381\,\text{pF}^{-1}$
+
+$$C = 72.4\,\text{pF}$$
+
+(b) Charge is conserved: $Q = CV = 72.4 \times 10^{-12} \times 200 = 1.448 \times 10^{-8}\,\text{C}$
+
+After removing the dielectric, the capacitor is entirely air-filled:
+
+$$C" = \frac◆LB◆\varepsilon_0 A◆RB◆◆LB◆d◆RB◆ = \frac◆LB◆8.85 \times 10^{-12} \times 0.010◆RB◆◆LB◆2.0 \times 10^{-3}◆RB◆ = 4.425 \times 10^{-11}\,\text{F} = 44.3\,\text{pF}$$
 
 New voltage: $V' = Q/C' = 1.448 \times 10^{-8}/(4.425 \times 10^{-11}) = 327\,\text{V}$
 

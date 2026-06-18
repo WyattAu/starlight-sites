@@ -3,7 +3,64 @@ title: Physical Layer
 tags:
   - Computing
   - University
-description: ""s formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
+description: "Twisted pair (UTP, STP), coaxial cable, fibre optic. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 2.1 Transmission Media
+
+**Guided media:** Twisted pair (UTP, STP), coaxial cable, fibre optic.
+
+- **Twisted pair:** Category 5e/6/6a for Ethernet. Bandwidth up to 10 Gbps (Cat 6a, 100 m).
+- **Fibre optic:** Single-mode (long distance, laser) and multi-mode (shorter distance, LED).
+  Bandwidth up to 100+ Gbps.
+
+**Unguided media:** Radio waves, microwaves, infrared. Subject to attenuation, interference, and
+Line-of-sight constraints.
+
+### 2.2 Signaling
+
+**Analog vs. Digital.** Analog signals vary continuously; digital signals are discrete.
+
+- **Bandwidth:** Range of frequencies a channel can carry, measured in Hz.
+- **Bit rate:** Number of bits transmitted per second (bps).
+- **Nyquist theorem:** For a noiseless channel of bandwidth $H$ Hz with $V$ discrete signal levels:
+
+$$C = 2H \log_2 V \;\mathrm{bps}$$
+
+**Theorem 2.1 (Nyquist--Shannon Sampling Theorem).** A bandlimited signal of bandwidth $H$ Hz can Be
+perfectly reconstructed from samples taken at a rate of at least $2H$ samples per second.
+
+_Proof._ Let $x(t)$ be a signal with Fourier transform $X(f)$ such that $X(f) = 0$ for
+$\lvert f \rvert \gt H$. Sampling at rate $f_s$ produces
+$x_s(t) = x(t) \cdot \sum_{n=-\infty}^{\infty} \delta(t - nT_s)$ Where $T_s = 1/f_s$. In the
+frequency domain, $X_s(f) = f_s \sum_{k=-\infty}^{\infty} X(f - kf_s)$. When $f_s \geq 2H$The
+spectral copies do not overlap, and $x(t)$ can be recovered by an ideal Lowpass filter with cutoff
+$H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blacksquare$
+
+- **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
+
+$$C = H \log_2(1 + \mathrm{SNR}) \;\mathrm{bps}$$
+
+**Theorem 2.2 (Shannon--Hartley Theorem).** The channel capacity $C$ is the maximum error-free data
+Rate achievable on a channel of bandwidth $H$ with signal-to-noise ratio $\mathrm{SNR}$.
+
+_Proof._ For a bandlimited AWGN channel, the number of distinguishable signal levels is constrained
+By the noise power. Let $\mathrm{SNR} = S/N$ where $S$ is signal power and $N = N_0 H$ is noise
+Power. The number of distinguishable amplitude levels is proportional to $\sqrt{1 + \mathrm{SNR}}$.
+With $\log_2$ levels per signal element and $2H$ signal elements per second (Nyquist), the maximum
+Error-free rate is $C = 2H \cdot \tfrac{1}{2}\log_2(1 + \mathrm{SNR}) = H \log_2(1 + \mathrm{SNR})$.
+$\blacksquare$
+
+**Example.** A telephone line has $H = 3100$ Hz and $\mathrm{SNR} = 3162$ (35 dB). Shannon limit:
+$C = 3100 \times \log_2(3163) \approx 34860$ bps.
+
+<details>
+<summary>Worked Example: Nyquist Bit Rate</summary>
+
+A noiseless channel has a bandwidth of 4000 Hz. How many signal levels are needed to achieve a data
+Rate of 56000 bps?
+
+Using Nyquist"s formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
 $$\log_2 V = \frac{56000}{8000} = 7$$ $$V = 2^7 = 128$$
 
 **Answer:** 128 signal levels are required.

@@ -1,6 +1,118 @@
 ---
 title: Advanced Git Commands
-description: ""s contents.
+description: "Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - Git
+categories:
+  - Git
+
+---
+
+This document covers Git commands and features that are powerful but less frequently used in
+Day-to-day workflows. These tools solve specific problems around metadata, history manipulation,
+Repository integrity, and multi-tree management.
+
+## git replace
+
+### Overview
+
+`git replace` allows you to tell Git to use one object in place of another without rewriting the
+Object database. When Git encounters the original object, it transparently substitutes the
+Replacement. This is a non-destructive mechanism for altering how history appears.
+
+**Definition.** A replacement ref is a reference stored under `refs/replace/` that maps an original
+Object hash to a replacement object hash. Git resolves these references during object lookups,
+Presenting the replacement as if it were the original.
+
+### Basic Syntax
+
+```bash
+# Replace one object with another
+git replace <original-object> <replacement-object>
+
+# Replace using an edited version of the original
+git replace --edit <object>
+
+# Graft: make a commit appear to have a different parent
+git replace --graft <commit> [<parent>...]
+
+# List all replacements
+git replace -l
+
+# Delete a specific replacement
+git replace -d <object>
+
+# Delete all replacements
+git replace -d $(git replace -l)
+```
+
+### How It Works
+
+When you run `git replace A B`Git creates a ref at `refs/replace/A` pointing to `B`. During any
+Object lookup, Git checks whether the requested object has an entry under `refs/replace/`. If it
+Does, Git returns the replacement instead.
+
+```
+refs/replace/
+  a3f2b1c0...  ->  d4e5f6a7...   (commit replacement)
+  b7c8d9e0...  ->  e1f2a3b4...   (blob replacement)
+```
+
+This means:
+
+- The original object still exists in the object store, unchanged.
+- The replacement object must already exist in the object store.
+- The replacement is local by default; it is not pushed unless you explicitly push `refs/replace/`.
+
+### Viewing Replacements
+
+```bash
+# List all replacement refs
+$ git replace -l
+
+# Show what an object is replaced with
+$ git cat-file -p $(git replace -l | head -1)
+
+# Show a replaced commit as it appears after replacement
+$ git log --no-replace-objects -1 <original-commit>
+# vs.
+$ git log -1 <original-commit>
+```
+
+The `--no-replace-objects` flag disables replacement resolution, letting you see the raw original
+Object.
+
+### Grafting History with `--graft`
+
+Grafting re-parents a commit, making it appear as if it has different parents. This is useful for
+Stitching together unrelated histories.
+
+```bash
+# Make commit C appear as if root-commit is its parent (joining two histories)
+git replace --graft <commit-C> <root-commit>
+
+# Make a commit appear as a root commit (no parents)
+git replace --graft <commit>
+
+# Make a commit appear to have two parents (octopus merge)
+git replace --graft <commit> <parent1> <parent2>
+```
+
+:::info
+
+Grafts created with `git replace --graft` are stored as replacement commit objects under
+`refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
+And could not be pushed or shared.
+
+
+### Editing an Object for Replacement
+
+```bash
+# Create an edited replacement for a commit
+git replace --edit <commit>
+
+# This opens your editor with the commit"s contents.
 # You can modify the commit message, author, committer, or parent list.
 # Git creates a new commit object and registers it as the replacement.
 ```

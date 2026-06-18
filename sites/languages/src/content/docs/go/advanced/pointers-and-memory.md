@@ -1,6 +1,77 @@
 ---
 title: Pointers and Memory
-description: ""Alice", Age: 30}
+description: "Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-18
+tags:
+  - Go
+categories:
+  - Go
+---
+
+## Pointer Basics
+
+Go has pointers, but no pointer arithmetic (except via `unsafe`). Pointers hold the memory address
+Of a value.
+
+```go
+x := 42
+p := &x   // p is a *int, pointing to x
+fmt.Println(*p) // 42
+*p = 100
+fmt.Println(x)  // 100
+```
+
+### Zero Value
+
+The zero value of a pointer is `nil`. Dereferencing a nil pointer panics:
+
+```go
+var p *int
+fmt.Println(p == nil) // true
+// fmt.Println(*p)    // panic: runtime error: invalid memory address
+```
+
+### Pointer Semantics
+
+Go passes everything by value, including pointers. When you pass a pointer, the pointer itself is
+Copied (the address value), but it still points to the same underlying data:
+
+```go
+func increment(p *int) {
+    *p++ // modifies the value at the address p points to
+}
+
+x := 42
+increment(&x)
+fmt.Println(x) // 43
+```
+
+### Returning Pointers to Local Variables
+
+Go allows returning pointers to local variables. The compiler performs escape analysis and allocates
+The variable on the heap if it escapes:
+
+```go
+func newInt() *int {
+    x := 42
+    return &x // OK -- x is allocated on the heap
+}
+```
+
+This is safe and idiomatic. The garbage collector handles the lifetime of the heap-allocated
+Variable.
+
+## Struct Pointers
+
+Pointer to a struct field:
+
+```go
+type Person struct {
+    Name string
+    Age  int
+}
+
+p := &Person{Name: "Alice", Age: 30}
 fmt.Println(p.Name)  // "Alice" -- auto-dereference
 fmt.Println((*p).Name) // "Alice" -- explicit dereference (rare)
 ```

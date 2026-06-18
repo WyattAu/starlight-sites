@@ -3,7 +3,21 @@ title: Rigid Body Dynamics
 tags:
   - Physics
   - University
-description: ""$-$z''$ convention)
+description: "A is a system of particles in which the distance between every pair of particles Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 8.1 Rigid Body Kinematics
+
+**Definition.** A **rigid body** is a system of particles in which the distance between every pair
+of particles is fixed.
+
+A rigid body has 6 degrees of freedom: 3 translational (centre of mass position) and 3 rotational
+(orientation). The orientation is specified by three angles, most commonly the **Euler angles**
+$(\phi, \theta, \psi)$.
+
+### 8.2 Angular Velocity and Euler Angles
+
+The angular velocity $\boldsymbol{\omega}$ in terms of the Euler angles ($z$-$x"$-$z''$ convention)
 expressed in the body frame:
 
 $$\omega_1 = \dot{\phi}\sin\theta\sin\psi + \dot{\theta}\cos\psi$$

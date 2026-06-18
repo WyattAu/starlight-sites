@@ -3,7 +3,59 @@ title: Transaction Management
 tags:
   - Computing
   - University
-description: ""$. View equivalence requires:
+description: "A is a logical unit of work that must satisfy: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 6.1 ACID Properties
+
+A **transaction** is a logical unit of work that must satisfy:
+
+| Property    | Meaning                                                      |
+| ----------- | ------------------------------------------------------------ |
+| Atomicity   | All or nothing: either all operations commit or none         |
+| Consistency | Transforms the database from one consistent state to another |
+| Isolation   | Concurrent transactions do not interfere with each other     |
+| Durability  | Once committed, the effects survive failures                 |
+
+### 6.2 Isolation Levels
+
+SQL defines four isolation levels with increasing strictness:
+
+| Level            | Dirty Read | Non-repeatable Read | Phantom Read |
+| ---------------- | ---------- | ------------------- | ------------ |
+| Read Uncommitted | Possible   | Possible            | Possible     |
+| Read Committed   | Prevented  | Possible            | Possible     |
+| Repeatable Read  | Prevented  | Prevented           | Possible     |
+| Serializable     | Prevented  | Prevented           | Prevented    |
+
+- **Dirty read:** Reading uncommitted data from another transaction.
+- **Non-repeatable read:** Same query returns different results within the same transaction due to
+  updates by another transaction.
+- **Phantom read:** Same range query returns new rows due to inserts by another transaction.
+
+**Default levels:** PostgreSQL: Read Committed. MySQL InnoDB: Repeatable Read. SQL Server: Read
+Committed. Oracle: Read Committed.
+
+### 6.3 Serialisability
+
+A schedule is **serialisable** if its effect is equivalent to some serial schedule (where
+Transactions execute one after another).
+
+**Conflict serialisability.** Two operations **conflict** if they belong to different transactions,
+Access the same data item, and at least one is a write. A schedule is conflict-serialisable if its
+**precedence graph** (also called serialisation graph) is acyclic.
+
+- **Precedence graph:** Nodes are transactions. Draw a directed edge $T_i \to T_j$ if an operation
+  of $T_i$ conflicts with and precedes an operation of $T_j$.
+
+**Theorem 6.1.** A schedule is conflict-serialisable if and only if its precedence graph is acyclic.
+
+_Proof sketch._ If the precedence graph has a cycle, no serial ordering can respect all the
+Precedence constraints, so the schedule is not conflict-serialisable. Conversely, a topological sort
+Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
+
+**View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
+Serial schedule $S"$. View equivalence requires:
 
 1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$It does so in $S'$.
 2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$It does so in $S'$.

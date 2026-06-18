@@ -1,6 +1,50 @@
 ---
 title: Legal, Ethical, and Moral Issues
-description: ""evaluate the legal and ethical implications" of a
+description: "Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions Requiring you to apply legislation to scenarios. CIE and..."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Legal, Ethical, and Moral Frameworks
+
+:::info Board-specific AQA Paper 2 | Edexcel P2 | OCR (A) Paper 2 | CIE Paper 2 This topic is
+Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions
+Requiring you to apply legislation to scenarios. CIE and Edexcel favour longer-essay style responses
+Evaluating the impact of technology on society.
+:::
+
+### Definition
+
+**Definition.** **Law** is a system of rules enforced by a sovereign state through institutions such
+As courts and police. Breach of law attracts sanctions (fines, imprisonment, civil liability). Laws
+Are codified, publicly available, and apply universally within a jurisdiction.
+
+**Definition.** **Ethics** is the branch of philosophy concerned with systematising, defending, and
+Recommending concepts of right and wrong conduct. Ethical frameworks provide structured approaches
+To evaluating the moral dimensions of actions. Professional bodies publish codes of ethics that
+Members are expected to follow.
+
+**Definition.** **Morals** are personal or cultural beliefs about right and wrong. They are not
+Necessarily codified or enforced by any institution. Morals may differ between individuals and
+Cultures, whereas laws aim for consistency within a jurisdiction.
+
+### Key Distinctions
+
+| Dimension    | Law                               | Ethics                                       | Morals                            |
+| ------------ | --------------------------------- | -------------------------------------------- | --------------------------------- |
+| Source       | Legislation, case law, common law | Philosophical frameworks, professional codes | Personal beliefs, cultural norms  |
+| Enforcement  | Courts, police, regulators        | Professional bodies, social pressure         | Self-regulation, social censure   |
+| Scope        | Universal within a jurisdiction   | Context-dependent (profession, society)      | Individual or community-specific  |
+| Breach       | Crime or civil wrong              | Professional misconduct, reputational harm   | Guilt, social stigma              |
+| Change speed | Slow (parliamentary process)      | Moderate (reviewed periodically)             | Rapid (shifts with attitudes)     |
+| Example      | The Data Protection Act 2018      | BCS Code of Conduct                          | Belief that surveillance is wrong |
+
+:::caution Exam questions often ask you to "evaluate the legal and ethical implications" of a
 Scenario. "Legal" means identify the specific Act and explain how it applies. "Ethical" means apply
 An ethical framework or professional code. Do not confuse the two.
 :::

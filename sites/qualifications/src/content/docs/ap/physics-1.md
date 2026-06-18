@@ -1,6 +1,93 @@
 ---
 title: AP Physics 1 Study Guide
-description: ""s surface, regardless of mass.
+description: "Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational..."
+date: 2026-05-31
+tags:
+  - ap
+  - ap-physics
+categories:
+  - ap-physics
+
+---
+
+# AP Physics 1 Study Guide
+
+Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course
+and Exam Description. Covers mechanics and rotational motion with emphasis on conceptual
+understanding and problem-solving.
+
+## 1. Kinematics
+
+### Displacement, Velocity, and Acceleration
+
+| Quantity     | Type   | Definition                           | SI Unit |
+| ------------ | ------ | ------------------------------------ | ------- |
+| Displacement | Vector | Change in position, $\Delta \vec{r}$ | m       |
+| Distance     | Scalar | Total path length                    | m       |
+| Velocity     | Vector | Rate of change of displacement       | m/s     |
+| Speed        | Scalar | Rate of change of distance           | m/s     |
+| Acceleration | Vector | Rate of change of velocity           | m/s$^2$ |
+
+### One-Dimensional Kinematics
+
+**Constant acceleration equations:**
+
+$$
+v = v_0 + at
+$$
+
+$$
+x = x_0 + v_0 t + \frac{1}{2}at^2
+$$
+
+$$
+v^2 = v_0^2 + 2a(x - x_0)
+$$
+
+$$
+x = x_0 + \frac{1}{2}(v_0 + v)t
+$$
+
+### Two-Dimensional Motion
+
+In 2D, resolve all vectors into perpendicular components. The $x$ and $y$ components of motion are
+independent of each other (superposition principle).
+
+### Projectile Motion
+
+For a projectile launched with initial speed $v_0$ at angle $\theta$ above the horizontal (ignoring
+air resistance):
+
+$$
+v_{0x} = v_0 \cos\theta, \quad v_{0y} = v_0 \sin\theta
+$$
+
+**Horizontal (constant velocity):**
+
+$$
+x(t) = v_{0x}\, t
+$$
+
+**Vertical (constant acceleration $a_y = -g$):**
+
+$$
+y(t) = v_{0y}\, t - \frac{1}{2}gt^2
+$$
+
+$$
+v_y(t) = v_{0y} - gt
+$$
+
+**Time of flight:** $t = \dfrac{2v_{0y}}{g}$
+
+**Maximum height:** $H = \dfrac{v_{0y}^2}{2g}$
+
+**Range:** $R = \dfrac{v_0^2 \sin 2\theta}{g}$
+
+### Free Fall
+
+An object in free fall experiences only the force of gravity. All objects in free fall have the same
+acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth"s surface, regardless of mass.
 
 ### Graphical Analysis
 

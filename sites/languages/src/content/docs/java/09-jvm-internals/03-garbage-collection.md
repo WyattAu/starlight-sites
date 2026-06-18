@@ -1,6 +1,33 @@
 ---
 title: Garbage Collection
-description: ""this' is reachable
+description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a..."
+
+---
+
+## GC Fundamentals
+
+### What Is Garbage?
+
+An object is garbage when it is no longer reachable from any live thread through any chain of
+References. The JVM determines this through **reachability analysis**, starting from a set of root
+Objects and tracing all objects transitively reachable from those roots.
+
+### GC Roots
+
+GC roots are the starting points for reachability analysis. An object is reachable if there is a
+Path from at least one GC root. The primary categories of GC roots:
+
+1. **Stack-local variables and method parameters** — references on the call stack of each thread.
+2. **Static fields** — references stored in class metadata (loaded by any class loader).
+3. **JNI references** — references held by native code through the Java Native Interface.
+4. **JNI global references** — explicitly created global references in native code.
+5. **Thread objects** — every live thread is a GC root (its stack contains references).
+6. **`final` fields** in objects reachable from roots (finalizers also contribute).
+
+```java
+public class GCDemo {
+    private static Object staticRoot;       // GC root (static field)
+    private Object instanceField;           // reachable if "this' is reachable
 
     public void method() {
         Object localVar = new Object();     // GC root (stack-local) while in scope

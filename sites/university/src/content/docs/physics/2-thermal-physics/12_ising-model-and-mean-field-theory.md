@@ -3,7 +3,65 @@ title: Ising Model and Mean-Field Theory
 tags:
   - Physics
   - University
-description: ""s exact solution for the square lattice gives:
+description: "The Ising model is the simplest model of interacting spins on a lattice. Each si Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 12.1 The Ising Model
+
+The Ising model is the simplest model of interacting spins on a lattice. Each site $i$ has a spin
+variable $\sigma_i \in \{-1, +1\}$.
+
+$$\mathcal{H} = -J\sum_{\langle i,j \rangle}\sigma_i\sigma_j - h\sum_i \sigma_i$$
+
+Where $J > 0$ is the ferromagnetic coupling, $\langle i,j \rangle$ denotes nearest-neighbor pairs,
+and $h$ is the external magnetic field.
+
+**Partition function** (in 1D with periodic boundary conditions, $N$ spins):
+
+$$Z = \sum_{\{\sigma\}} \exp\!\left(\beta J \sum_i \sigma_i \sigma_{i+1} + \beta h \sum_i \sigma_i\right)$$
+
+This can be evaluated using the **transfer matrix** method. Define:
+
+$$\mathbf{T} = \begin{pmatrix} e^{\beta J + \beta h} & e^{-\beta J} \\ e^{-\beta J} & e^{\beta J - \beta h} \end{pmatrix}$$
+
+Then $Z = \text{Tr}(\mathbf{T}^N) = \lambda_+^N + \lambda_-^N$ where $\lambda_\pm$ are the
+eigenvalues of $\mathbf{T}$.
+
+In the thermodynamic limit ($N \to \infty$), $Z = \lambda_+^N$ where:
+
+$$\lambda_+ = e^{\beta J}\cosh(\beta h) + \sqrt{e^{2\beta J}\sinh^2(\beta h) + e^{-2\beta J}}$$
+
+**Key result:** The 1D Ising model has **no** phase transition at $T > 0$. The magnetization
+$m = \langle\sigma\rangle \to 0$ as $h \to 0$ for all finite $T$.
+
+### 12.2 Mean-Field Approximation
+
+The mean-field (Weiss) approximation replaces each neighboring spin by its thermal average:
+
+$$\sigma_i\sigma_j \approx \sigma_i\langle\sigma_j\rangle + \langle\sigma_i\rangle\sigma_j - \langle\sigma_i\rangle\langle\sigma_j\rangle$$
+
+The effective Hamiltonian becomes:
+
+$$\mathcal{H}_{\text{MF} = -\sum_i \left(zJm + h\right)\sigma_i + \frac{1}{2}N zJ m^2}$$
+
+Where $z$ is the coordination number and $m = \langle\sigma\rangle$.
+
+Each spin is independent, so:
+
+$$m = \tanh\!\left[\beta(zJm + h)\right]$$
+
+This is a **self-consistency equation** for $m$. For $h = 0$:
+
+$$m = \tanh(\beta zJm)$$
+
+Expanding for small $m$: $m \approx \beta zJ m - \frac{1}{3}(\beta zJ)^3 m^3$. Nonzero $m$ exists
+when:
+
+$$\beta zJ > 1 \implies T_c^{\text{MF} = \frac{zJ}{k_B}}$$
+
+### 12.3 Exact Solution: 2D Ising Model (Onsager, 1944)
+
+Onsager"s exact solution for the square lattice gives:
 
 $$T_c = \frac{2J}{k_B \ln(1 + \sqrt{2})} \approx \frac{2.269J}{k_B}$$
 

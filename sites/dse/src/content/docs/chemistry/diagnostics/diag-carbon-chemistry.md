@@ -1,6 +1,105 @@
 ---
 title: "Carbon Chemistry -- Diagnostic Tests"
-description: ""s claim is **incorrect**. In addition polymerisation, the pi bond of the $C=C$
+description: "DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
+tableOfContents: false
+---
+
+# DSE Chemistry Diagnostic: Carbon Chemistry
+
+## Unit Test 1: Alkanes vs Alkenes Reactivity
+
+**Question**
+
+(a) State the type of reaction that occurs when bromine water reacts with (i) ethane and (ii)
+ethene. Write equations for both. [4 marks]
+
+(b) Explain why ethene reacts with bromine water but ethane does not, under normal conditions. [2
+marks]
+
+(c) A hydrocarbon $C$ decolourises bromine water and has the molecular formula $C_{4}H_{8}$. Draw
+and name **all** possible structural isomers of $C$. [4 marks]
+
+---
+
+**Worked Solution**
+
+(a) (i) Ethane + bromine: **substitution** reaction (requires UV light or heat).
+
+$$C_{2}H_{6} + Br_{2} \xrightarrow{UV} C_{2}H_{5}Br + HBr$$
+
+(ii) Ethene + bromine water: **addition** reaction (occurs at room temperature).
+
+$$C_{2}H_{4} + Br_{2} \rightarrow C_{2}H_{4}Br_{2}$$
+
+(1,2-dibromoethane)
+
+(b) Ethane is an **alkane** containing only $C-C$ single bonds (sigma bonds). These are strong and
+do not break. Ethene is an **alkene** containing a $C=C$ double bond (one sigma + one pi bond). The
+pi bond is relatively weak and electron-rich, making it susceptible to attack by electrophiles like
+$Br_{2}$. The pi electrons are attracted to the electrophilic bromine molecule, initiating the
+addition reaction.
+
+(c) $C_{4}H_{8}$ with a $C=C$ double bond (alkene isomers):
+
+1. **But-1-ene**: $CH_{2}=CH-CH_{2}-CH_{3}$
+
+2. **But-2-ene** (cis/trans isomers possible):
+
+- $CH_{3}-CH=CH-CH_{3}$ (cis-but-2-ene)
+- $CH_{3}-CH=CH-CH_{3}$ (trans-but-2-ene)
+
+3. **2-Methylprop-1-ene**: $CH_{2}=C(CH_{3})_{2}$
+
+4. **Cyclobutane** (cyclic, not an alkene but satisfies $C_{4}H_{8}$ and does NOT decolourise
+   bromine water -- exclude if bromine water test is specified)
+
+5. **Methylcyclopropane** (cyclic, also does not decolourise bromine water -- exclude)
+
+Since the question states $C$ decolourises bromine water, only the **alkene** isomers count:
+
+1. But-1-ene
+2. Cis-But-2-ene
+3. Trans-But-2-ene
+4. 2-Methylprop-1-ene
+
+That is **4 structural isomers** (3 positional + 1 branched chain; noting that cis/trans are
+stereoisomers of the same structural isomer, so structural isomers = 3: but-1-ene, but-2-ene,
+2-methylprop-1-ene).
+
+---
+
+## Unit Test 2: Polymerisation of Alkenes
+
+**Question**
+
+(a) Draw the repeating unit of the polymer formed from propene ($CH_{2}=CHCH_{3}$) and name the
+polymer. [2 marks]
+
+(b) Poly(chloroethene) (PVC) is made by polymerising chloroethene ($CH_{2}=CHCl$). Draw the
+repeating unit of PVC. [1 mark]
+
+(c) A student claims that the polymerisation of propene produces a polymer with alternating single
+and double bonds. Explain why this is incorrect. [2 marks]
+
+---
+
+**Worked Solution**
+
+(a) Propene polymerises by **addition polymerisation**:
+
+$$n\ CH_{2}=CH-CH_{3} \rightarrow \left(-CH_{2}-CH(CH_{3})-\right)_{n}$$
+
+Repeating unit: $-CH_{2}-CH(CH_{3})-$
+
+Polymer name: **polypropene** (or polypropylene).
+
+(b) Chloroethene polymerises:
+
+$$n\ CH_{2}=CHCl \rightarrow \left(-CH_{2}-CHCl-\right)_{n}$$
+
+Repeating unit: $-CH_{2}-CHCl-$
+
+(c) The student"s claim is **incorrect**. In addition polymerisation, the pi bond of the $C=C$
 double bond **opens** and forms new sigma bonds with adjacent monomer units. The double bond is
 **consumed** in the process. The resulting polymer chain contains **only single bonds** between
 carbon atoms. There are no remaining double bonds in the main polymer chain (unlike condensation

@@ -1,6 +1,21 @@
 ---
 title: C-Interop and FFI
-description: ""C"` Linkage [N4950 §9.9]
+description: "C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names — each function has a single symbol matching its..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# C-Interop and FFI
+
+C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
+Does not mangle names — each function has a single symbol matching its source name. Interoperating
+Between C and C++ requires careful management of linkage, data layouts, and exception boundaries.
+
+## 5.1 `extern "C"` Linkage [N4950 §9.9]
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
 Does not mangle names — each function has a single symbol matching its source name. The `extern "C"`

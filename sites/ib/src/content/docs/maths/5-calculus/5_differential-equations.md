@@ -1,6 +1,163 @@
 ---
 title: "Differential Equations"
-description: "" - 5y' + 6y = 0$.
+description: "IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## First Order Differential Equations
+
+### Terminology
+
+A **differential equation** (DE) is an equation involving derivatives of an unknown function. A
+**first order** DE involves only the first derivative. A DE is **ordinary** (ODE) if all derivatives
+Are with respect to a single variable.
+
+The **order** of a DE is the highest derivative that appears. The **general solution** of an $n$-th
+order DE contains $n$ arbitrary constants. A **particular solution** is obtained by imposing Initial
+or boundary conditions.
+
+---
+
+## Separable First Order Equations
+
+### Form and Method
+
+A first order ODE is **separable** if it can be written in the form:
+
+$$\frac{dy}{dx} = f(x) \cdot g(y)$$
+
+Equivalently:
+
+$$\frac{dy}{g(y)} = f(x)\,dx$$
+
+Integrate both sides:
+
+$$\int \frac{1}{g(y)}\,dy = \int f(x)\,dx$$
+
+### Worked Examples
+
+**Example.** Solve $\dfrac{dy}{dx} = \dfrac{x}{y}$ with $y(0) = 2$.
+
+Separate: $y\,dy = x\,dx$.
+
+$$\int y\,dy = \int x\,dx \implies \frac{y^2}{2} = \frac{x^2}{2} + C$$
+
+Apply $y(0) = 2$: $\dfrac{4}{2} = 0 + C \implies C = 2$.
+
+$$y^2 = x^2 + 4 \implies y = \sqrt{x^2 + 4}$$
+
+(We take the positive root since $y(0) = 2 \gt 0$.)
+
+**Example.** Solve $\dfrac{dy}{dx} = xy$.
+
+$$\frac{dy}{y} = x\,dx \implies \ln|y| = \frac{x^2}{2} + C \implies y = Ae^{x^2/2}$$
+
+Where $A = \pm e^C$.
+
+**Example.** Solve $\dfrac{dy}{dx} = \dfrac{y + 1}{x}$, $x \gt 0$.
+
+$$\frac{dy}{y + 1} = \frac{dx}{x} \implies \ln|y + 1| = \ln x + C \implies |y + 1| = e^C \cdot x$$
+
+$$y + 1 = Ax \implies y = Ax - 1$$
+
+---
+
+## First Order Linear Equations and Integrating Factors
+
+### Standard Form
+
+A first order linear ODE has the form:
+
+$$\frac{dy}{dx} + P(x)\,y = Q(x)$$
+
+### The Integrating Factor
+
+Multiply through by the **integrating factor**:
+
+$$\mu(x) = \exp\!\left(\int P(x)\,dx\right)$$
+
+This transforms the equation into:
+
+$$\frac{d}{dx}\bigl[\mu(x) \cdot y\bigr] = \mu(x) \cdot Q(x)$$
+
+Integrate both sides:
+
+$$y = \frac{1}{\mu(x)} \int \mu(x) \cdot Q(x)\,dx$$
+
+**Derivation.** By the product rule:
+
+$$\frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y\frac{d\mu}{dx}$$
+
+We need $\dfrac{d\mu}{dx} = \mu P(x)$Which gives $\dfrac{1}{\mu}\dfrac{d\mu}{dx} = P(x)$Hence
+$\mu = \exp\!\left(\displaystyle\int P(x)\,dx\right)$.
+
+### Worked Examples
+
+**Example.** Solve $\dfrac{dy}{dx} + \dfrac{y}{x} = x^2$, $x \gt 0$.
+
+Here $P(x) = \dfrac{1}{x}$So:
+
+$$\mu(x) = \exp\!\left(\int \frac{1}{x}\,dx\right) = e^{\ln x} = x$$
+
+Multiply through: $x\dfrac{dy}{dx} + y = x^3$I.e. $\dfrac{d}{dx}(xy) = x^3$.
+
+$$xy = \int x^3\,dx = \frac{x^4}{4} + C \implies y = \frac{x^3}{4} + \frac{C}{x}$$
+
+**Example.** Solve $\dfrac{dy}{dx} + 2y = e^{-x}$.
+
+$\mu(x) = e^{2x}$.
+
+$$\frac{d}{dx}\bigl(e^{2x} y\bigr) = e^{2x} \cdot e^{-x} = e^x$$
+
+$$e^{2x} y = e^x + C \implies y = e^{-x} + Ce^{-2x}$$
+
+**Example.** Solve $\dfrac{dy}{dx} - 3y = 6$Given $y(0) = 1$.
+
+$\mu(x) = e^{-3x}$.
+
+$$\frac{d}{dx}\bigl(e^{-3x} y\bigr) = 6e^{-3x}$$
+
+$$e^{-3x} y = -2e^{-3x} + C \implies y = -2 + Ce^{3x}$$
+
+Using $y(0) = 1$: $1 = -2 + C \implies C = 3$. Hence $y = 3e^{3x} - 2$.
+
+---
+
+## Second Order Homogeneous Equations
+
+### Form
+
+$$a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = 0$$
+
+Where $a, b, c$ are constants and $a \ne 0$.
+
+### The Characteristic Equation
+
+Substitute $y = e^{\lambda x}$:
+
+$$a\lambda^2 + b\lambda + c = 0$$
+
+This quadratic in $\lambda$ is the **auxiliary** (or **characteristic**) equation.
+
+### Three Cases
+
+**Case 1: Two distinct real roots** $\lambda_1 \ne \lambda_2$.
+
+$$y = Ae^{\lambda_1 x} + Be^{\lambda_2 x}$$
+
+**Case 2: Repeated real root** $\lambda$.
+
+$$y = (A + Bx)e^{\lambda x}$$
+
+**Case 3: Complex conjugate roots** $\lambda = \alpha \pm i\beta$.
+
+$$y = e^{\alpha x}\bigl(A\cos\beta x + B\sin\beta x\bigr)$$
+
+### Worked Examples
+
+**Example.** Solve $y"' - 5y' + 6y = 0$.
 
 Characteristic equation: $\lambda^2 - 5\lambda + 6 = 0 \implies (\lambda - 2)(\lambda - 3) = 0$.
 

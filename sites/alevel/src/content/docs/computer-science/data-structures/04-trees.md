@@ -1,6 +1,87 @@
 ---
 title: Trees
-description: ""s key
+description: "A is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data Structure consisting of nodes, where each node has at most one and..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Tree Fundamentals
+
+### Definition
+
+A **tree** is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data
+Structure consisting of nodes, where each node has at most one **parent** and zero or more
+**children**.
+
+**Formal recursive definition:** A tree is either empty, or consists of a **root** node and zero or
+More subtrees, each of which is itself a tree.
+
+### Terminology
+
+| Term          | Definition                                          |
+| ------------- | --------------------------------------------------- |
+| Root          | The topmost node; has no parent                     |
+| Leaf          | A node with no children                             |
+| Internal node | A node with at least one child                      |
+| Edge          | Connection between parent and child                 |
+| Path          | Sequence of edges from one node to another          |
+| Depth         | Number of edges from root to a node (root: depth 0) |
+| Height        | Maximum depth of any node in the tree               |
+| Subtree       | A node and all its descendants                      |
+| Degree        | Number of children of a node                        |
+
+**Theorem.** A tree with $n$ nodes has exactly $n - 1$ edges.
+
+**Proof.** By induction on $n$. Base case: $n = 1$ (root only), 0 edges. Inductive step: adding a
+New node as a child of an existing node adds exactly one edge. So a tree with $n$ nodes has
+$(n-1) + 1 - 1 = n - 1$ edges. $\square$
+
+<hr />
+
+## 2. Binary Trees
+
+### Definition
+
+A **binary tree** is a tree where each node has at most two children, called the **left child** and
+**right child**.
+
+### Properties
+
+**Theorem.** A binary tree of height $h$ has at most $2^{h+1} - 1$ nodes.
+
+**Proof.** At depth $d$There are at most $2^d$ nodes. The total number of nodes is at most:
+
+$$\sum_{d=0}^{h} 2^d = 2^{h+1} - 1$$
+
+$\square$
+
+**Corollary.** The minimum height of a binary tree with $n$ nodes is $\lfloor \log_2 n \rfloor$.
+
+**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$So $h + 1 \gt \log_2 n$Giving
+$h \geq \lceil \log_2(n+1) \rceil - 1 = \lfloor \log_2 n \rfloor$. $\square$
+
+### Full, Complete, and Perfect Binary Trees
+
+| Type     | Definition                                                                                 |
+| -------- | ------------------------------------------------------------------------------------------ |
+| Full     | Every node has 0 or 2 children                                                             |
+| Complete | All levels except possibly the last are completely filled; last level filled left to right |
+| Perfect  | All internal nodes have 2 children; all leaves at the same depth                           |
+
+<hr />
+
+## 3. Binary Search Trees (BST)
+
+### Definition
+
+A **Binary Search Tree** is a binary tree with the **BST property**: for every node $N$:
+
+- All keys in the left subtree of $N$ are **less than** $N$"s key
 - All keys in the right subtree of $N$ are **greater than** $N$'s key
 
 ### Search

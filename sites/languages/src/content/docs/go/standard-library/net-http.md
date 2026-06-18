@@ -5,7 +5,18 @@ tags:
   - Go
 categories:
   - Go
-description: ""fmt"
+description: "Go''s package provides everything needed to build HTTP servers and clients. It ships With the standard library -- no frameworks, no external dependencies...."
+---
+
+## Introduction
+
+Go's `net/http` package provides everything needed to build HTTP servers and clients. It ships With
+the standard library -- no frameworks, no external dependencies. For most services, `net/http` Is
+sufficient on its own or with minimal layering.
+
+```go
+import (
+    "fmt"
     "log"
     "net/http"
 )

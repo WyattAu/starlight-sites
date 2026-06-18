@@ -1,6 +1,72 @@
 ---
 title: "Mechanics -- Diagnostic Tests"
-description: ""s Laws
+description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
+tableOfContents: false
+---
+
+# Mechanics -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Linear Motion
+
+**Question:**
+
+(a) Define the following terms: displacement, velocity, acceleration, and scalar quantity.
+
+(b) A car travelling at $30\,\text{m s}^{-1}$ decelerates uniformly at $5\,\text{m s}^{-2}$ until it
+comes to rest. Calculate the distance travelled during deceleration and the time taken.
+
+(c) A stone is dropped from a cliff $45\,\text{m}$ high. Calculate: (i) the time it takes to reach
+the ground, (ii) its velocity just before impact. Take $g = 9.8\,\text{m s}^{-2}$ and ignore air
+resistance.
+
+(d) Explain the difference between speed and velocity. Can an object have constant speed but
+changing velocity? If so, give an example.
+
+**Solution:**
+
+(a)
+
+- **Displacement**: the straight-line distance from a fixed reference point to the current position,
+  including direction. It is a vector quantity (has both magnitude and direction).
+- **Velocity**: the rate of change of displacement with respect to time. Vector quantity:
+  $\vec{v} = \frac{\Delta \vec{s}}{\Delta t}$.
+- **Acceleration**: the rate of change of velocity with respect to time. Vector quantity:
+  $\vec{a} = \frac{\Delta \vec{v}}{\Delta t}$.
+- **Scalar quantity**: a physical quantity that has magnitude only (no direction). Examples: speed,
+  distance, mass, temperature, energy.
+
+(b) $u = 30\,\text{m s}^{-1}$, $v = 0$, $a = -5\,\text{m s}^{-2}$.
+
+Using $v^2 = u^2 + 2as$:
+
+$$0 = 900 + 2(-5)s$$ $$10s = 900$$ $$s = 90\,\text{m}$$
+
+Using $v = u + at$:
+
+$$0 = 30 + (-5)t$$ $$t = 6\,\text{s}$$
+
+The car travels $90\,\text{m}$ in $6\,\text{s}$.
+
+(c) $u = 0$, $s = 45\,\text{m}$, $a = 9.8\,\text{m s}^{-2}$.
+
+(i) Using $s = ut + \frac{1}{2}at^2$:
+
+$$45 = 0 + \frac{1}{2}(9.8)t^2$$ $$t^2 = \frac{90}{9.8} = 9.184$$ $$t = 3.03\,\text{s}$$
+
+(ii) Using $v = u + at$:
+
+$$v = 0 + 9.8 \times 3.03 = 29.7\,\text{m s}^{-1}$$
+
+(d) **Speed** is the rate of change of distance (scalar), while **velocity** is the rate of change
+of displacement (vector). Yes, an object can have constant speed but changing velocity if its
+direction is changing. Example: a car travelling at constant speed around a circular roundabout has
+constant speed but changing velocity because its direction is continuously changing.
+
+---
+
+### UT-2: Forces and Newton"s Laws
 
 **Question:**
 

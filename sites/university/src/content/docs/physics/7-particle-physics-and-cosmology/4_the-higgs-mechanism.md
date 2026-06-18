@@ -3,7 +3,41 @@ title: The Higgs Mechanism
 tags:
   - Physics
   - University
-description: "" = \mu^2 \lt 0$.
+description: "The Higgs mechanism gives mass to the and bosons while preserving gauge invariance. The Key idea: a scalar field acquires a non-zero , spontaneously..."
+---
+
+### 4.1 Spontaneous Symmetry Breaking
+
+The Higgs mechanism gives mass to the $W^\pm$ and $Z^0$ bosons while preserving gauge invariance.
+The Key idea: a scalar field acquires a non-zero **vacuum expectation value (VEV)**, spontaneously
+Breaking the electroweak symmetry.
+
+**The Higgs potential:**
+
+$$V(\phi) = \mu^2 \phi^\dagger\phi + \lambda(\phi^\dagger\phi)^2$$
+
+With $\mu^2 \lt 0$ and $\lambda \gt 0$. This is the **Mexican hat** potential: the minimum is at
+$|\phi| = v/\sqrt{2}$ where $v = \sqrt{-\mu^2/\lambda}$.
+
+### 4.2 Worked Example: Mexican Hat Potential Analysis
+
+<details>
+<summary>Example 4.1: Detailed analysis of spontaneous symmetry breaking</summary>
+
+Consider the complex scalar field $\phi = (\phi_1 + i\phi_2)/\sqrt{2}$ with the potential:
+
+$$V(\phi) = \mu^2\lvert\phi\rvert^2 + \lambda\lvert\phi\rvert^4$$
+
+With $\mu^2 \lt 0$, $\lambda \gt 0$.
+
+**Step 1: Find the minimum.** Setting $\partial V/\partial\phi_i = 0$:
+
+$$\frac{\partial V}{\partial\phi_1} = \phi_1(\mu^2 + \lambda(\phi_1^2 + \phi_2^2)) = 0$$
+$$\frac{\partial V}{\partial\phi_2} = \phi_2(\mu^2 + \lambda(\phi_1^2 + \phi_2^2)) = 0$$
+
+The solutions are:
+
+- $\phi_1 = \phi_2 = 0$: This is a **local maximum** since $V"' = \mu^2 \lt 0$.
 - $\phi_1^2 + \phi_2^2 = -\mu^2/\lambda \equiv v^2$: This is the circle of minima.
 
 The VEV is $v = \sqrt{-\mu^2/\lambda}$. The symmetry is $\mathrm{U}(1)$ (phase rotations

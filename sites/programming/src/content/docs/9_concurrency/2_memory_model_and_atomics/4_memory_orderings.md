@@ -1,6 +1,58 @@
 ---
 title: Memory Orderings
-description: ""t matter.
+description: "This section covers the enum values, relaxed ordering, acquire/release Semantics, sequentially consistent ordering, a producer-consumer example with..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Memory Orderings: Relaxed, Acquire/Release, Sequentially Consistent
+
+This section covers the `std::memory_order` enum values, relaxed ordering, acquire/release
+Semantics, sequentially consistent ordering, a producer-consumer example with acquire/release, a
+Cross-architecture comparison table, and fence operations.
+
+## `memory_order` Enum
+
+The `std::memory_order` enum [N4950 §31.7.5] defines six values:
+
+| Value                  | Constant               | Ordering Guarantee                            |
+| ---------------------- | ---------------------- | --------------------------------------------- |
+| `memory_order_relaxed` | $\emptyset$            | No ordering                                   |
+| `memory_order_consume` | dependency-ordered     | Data dependency on loaded value               |
+| `memory_order_acquire` | acquire                | No reads/writes after can be reordered before |
+| `memory_order_release` | release                | No reads/writes before can be reordered after |
+| `memory_order_acq_rel` | acquire + release      | Both acquire and release                      |
+| `memory_order_seq_cst` | sequential consistency | Total order across all seq_cst operations     |
+
+### The Memory Model Hierarchy
+
+Memory orderings form a strict hierarchy from weakest to strongest:
+
+$$
+\mathrm{relaxed \subset \mathrm{consume \subset \mathrm{acquire \subset \mathrm{acq\_rel \subset \mathrm{seq\_cst
+$$
+
+$$
+\mathrm{relaxed \subset \mathrm{release \subset \mathrm{acq\_rel \subset \mathrm{seq\_cst
+$$
+
+Using a stronger ordering than necessary is always safe but may incur performance penalties. Using a
+Weaker ordering than required results in undefined behavior.
+
+## Relaxed Ordering
+
+Relaxed atomics guarantee **atomicity only**: the operation is indivisible, but there are no
+Ordering constraints with respect to other memory operations.
+
+$$\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering$$
+
+Use cases:
+
+- **Counters and statistics** where the exact order of increments doesn"t matter.
 - **Progress indicators** where approximate values are acceptable.
 
 ```cpp

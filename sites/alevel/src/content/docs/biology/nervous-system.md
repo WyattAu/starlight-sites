@@ -1,6 +1,63 @@
 ---
 title: Nervous System
-description: ""myelin speeds up the action potential." More
+description: "The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems."
+date: 2026-04-18T00:00:00.000Z
+tags:
+  - Biology
+  - ALevel
+categories:
+  - Biology
+
+---
+
+## Nervous System
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
+## 1. Neuron Structure
+
+### 1.1 Types of Neurone
+
+The nervous system contains three functional types of neurone:
+
+| Type                         | Structure                                 | Function                                                 |
+| ---------------------------- | ----------------------------------------- | -------------------------------------------------------- |
+| Sensory (afferent) neurone   | Long axon; cell body in ganglion near CNS | Carries impulses from receptors to the CNS               |
+| Motor (efferent) neurone     | Cell body in CNS; long axon to effector   | Carries impulses from CNS to effectors (muscles, glands) |
+| Relay (intermediate) neurone | Short axon; cell body entirely within CNS | Connects sensory and motor neurones within the CNS       |
+
+**Structural features common to all neurones:**
+
+- **Cell body (soma)**: contains the nucleus, mitochondria, ribosomes, and other organelles. Site of
+  protein synthesis.
+- **Dendrites**: branched extensions that receive impulses from other neurones and transmit them
+  towards the cell body.
+- **Axon**: a single, long cytoplasmic extension that transmits impulses away from the cell body.
+  Surrounded by a fatty insulating sheath (myelin).
+- **Axon terminals (synaptic knobs)**: branched endings that form synaptic junctions with the next
+  neurone or effector.
+
+### 1.2 Myelination
+
+Many axons are surrounded by a **myelin sheath**, a lipid-rich insulating layer formed by Schwann
+cells (in the peripheral nervous system) or oligodendrocytes (in the central nervous system). The
+myelin sheath is not continuous; gaps between Schwann cells are called **nodes of Ranvier**
+(approximately $1$--$3\ \mu\mathrm{m}$ apart).
+
+Myelination has two critical effects:
+
+1. **Electrical insulation**: the myelin sheath prevents ion leakage across the membrane,
+   maintaining the potential difference along the axon.
+2. **Saltatory conduction**: action potentials jump from node to node (the only places where the
+   axon membrane is exposed to the extracellular fluid), dramatically increasing the speed of
+   transmission.
+
+| Feature            | Myelinated Neurone                   | Non-Myelinated Neurone                          |
+| ------------------ | ------------------------------------ | ----------------------------------------------- |
+| Speed              | $15$--$120\ \mathrm{m\ s^{-1}}$      | $0.5$--$2\ \mathrm{m\ s^{-1}}$                  |
+| Conduction         | Saltatory (jumping between nodes)    | Continuous wave of depolarisation               |
+| Energy consumption | Lower (fewer ions need to be pumped) | Higher (more $\mathrm{Na^+/K^+}$ pump activity) |
+
+:::caution Common Pitfall Students often write that "myelin speeds up the action potential." More
 precisely, myelin forces the action potential to jump between nodes of Ranvier (saltatory
 conduction), which is much faster than continuous propagation. The speed increase is because less
 membrane needs to be depolarised, and the local current flows further ahead to depolarise the next

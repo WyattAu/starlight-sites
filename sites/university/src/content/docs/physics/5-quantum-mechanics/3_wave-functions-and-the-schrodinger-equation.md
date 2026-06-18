@@ -3,7 +3,116 @@ title: Wave Functions and the Schrodinger Equation
 tags:
   - Physics
   - University
-description: ""s time-ordered
+description: "In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 3.1 Wave Functions
+
+In the position representation, the state is described by a **wave function** $\psi(\mathbf{r}, t)$
+Where $|\psi(\mathbf{r}, t)|^2$ is the probability density:
+
+$$P(\mathbf{r} \in [\mathbf{r}, \mathbf{r} + d\mathbf{r}]) = |\psi(\mathbf{r}, t)|^2\, d^3\mathbf{r}$$
+
+**Normalisation:** $\int_{-\infty}^{\infty} |\psi(\mathbf{r}, t)|^2\, d^3\mathbf{r} = 1$.
+
+### 3.2 Time-Dependent Schrodinger Equation
+
+$$i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi = \left(-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r}, t)\right)\psi$$
+
+### 3.3 Time-Independent Schrodinger Equation
+
+For time-independent potentials $V(\mathbf{r})$Separate variables:
+$\psi(\mathbf{r}, t) = \phi(\mathbf{r}) e^{-iEt/\hbar}$:
+
+$$\hat{H}\phi = E\phi \quad \mathrm{i}.e., \quad -\frac{\hbar^2}{2m}\nabla^2\phi + V\phi = E\phi$$
+
+This is an eigenvalue problem: $E$ is the energy eigenvalue, $\phi$ is the energy eigenstate.
+
+**Properties of energy eigenstates:**
+
+1. **Orthogonality.** If $\hat{H}\phi_n = E_n\phi_n$ and $\hat{H}\phi_m = E_m\phi_m$ with
+   $E_n \neq E_m$ then $\int \phi_n^*\phi_m\,dx = 0$ (since $\hat{H}$ is Hermitian).
+
+2. **Completeness.** The energy eigenstates form a complete basis: any state can be expanded as
+   $\psi(x,0) = \sum_n c_n\phi_n(x)$ where $c_n = \int \phi_n^*(x)\psi(x,0)\,dx$.
+
+3. **Stationary states.** If $\psi(x,0) = \phi_n(x)$Then $\psi(x,t) = \phi_n(x)e^{-iE_nt/\hbar}$.
+   The probability density $|\psi|^2 = |\phi_n|^2$ is time-independent.
+
+4. **Reality of $\phi$.** If $V(x)$ is real and there is no magnetic field, $\phi_n(x)$ can be
+   chosen to be real. This is because if $\phi_n$ is a solution, so is $\phi_n^*$And degenerate
+   solutions can be combined into real linear combinations.
+
+### 3.4 Probability Current
+
+The **probability current density** is
+
+$$\mathbf{J} = \frac{\hbar}{2mi}(\psi^* \nabla\psi - \psi \nabla\psi^*)$$
+
+It satisfies the continuity equation:
+$\frac{\partial |\psi|^2}{\partial t} + \nabla \cdot \mathbf{J} = 0$ Expressing conservation of
+probability.
+
+_Derivation of the continuity equation._ Start with the Schrodinger equation and its complex
+conjugate:
+
+$$i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\psi + V\psi$$
+
+$$-i\hbar \frac{\partial \psi^*}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\psi^* + V\psi^*$$
+
+Multiply the first by $\psi^*$ and the second by $\psi$Then subtract:
+
+$$i\hbar\!\left(\psi^*\frac{\partial \psi}{\partial t} + \psi\frac{\partial \psi^*}{\partial t}\right) = -\frac{\hbar^2}{2m}\!\left(\psi^*\nabla^2\psi - \psi\nabla^2\psi^*\right)$$
+
+The left-hand side is $i\hbar\,\partial|\psi|^2/\partial t$. The right-hand side is a divergence:
+
+$$\nabla \cdot (\psi^*\nabla\psi - \psi\nabla\psi^*) = \psi^*\nabla^2\psi - \psi\nabla^2\psi^*$$
+
+Therefore:
+
+$$i\hbar\frac{\partial |\psi|^2}{\partial t} = -\frac{\hbar^2}{2m}\nabla \cdot (\psi^*\nabla\psi - \psi\nabla\psi^*)$$
+
+Dividing by $i\hbar$:
+
+$$\frac{\partial |\psi|^2}{\partial t} + \nabla \cdot \left[\frac{\hbar}{2mi}(\psi^*\nabla\psi - \psi\nabla\psi^*)\right] = 0$$
+
+$$\frac{\partial |\psi|^2}{\partial t} + \nabla \cdot \mathbf{J} = 0 \qquad \blacksquare$$
+
+### 3.5 Unitarity of Time Evolution
+
+**Theorem 3.1.** Time evolution governed by the Schrodinger equation with a Hermitian Hamiltonian Is
+unitary, and therefore preserves the norm of the state vector.
+
+_Proof._ The time evolution operator $\hat{U}(t, t_0)$ is defined by:
+
+$$|\psi(t)\rangle = \hat{U}(t, t_0)|\psi(t_0)\rangle$$
+
+For a time-independent Hamiltonian:
+
+$$\hat{U}(t, t_0) = \exp\!\left(-\frac{i\hat{H}(t - t_0)}{\hbar}\right)$$
+
+To prove unitarity, we show $\hat{U}^\dagger \hat{U} = \hat{I}$:
+
+$$\hat{U}^\dagger = \exp\!\left(\frac{i\hat{H}^\dagger(t - t_0)}{\hbar}\right) = \exp\!\left(\frac{i\hat{H}(t - t_0)}{\hbar}\right)$$
+
+Since $\hat{H} = \hat{H}^\dagger$ (Hermitian). Therefore:
+
+$$\hat{U}^\dagger \hat{U} = \exp\!\left(\frac{i\hat{H}(t - t_0)}{\hbar}\right)\exp\!\left(-\frac{i\hat{H}(t - t_0)}{\hbar}\right) = \hat{I}$$
+
+Since commuting operators satisfy $e^A e^{-A} = I$.
+
+**Consequence.** Norm preservation:
+
+$$\langle\psi(t)|\psi(t)\rangle = \langle\psi(t_0)|\hat{U}^\dagger\hat{U}|\psi(t_0)\rangle = \langle\psi(t_0)|\psi(t_0)\rangle$$
+
+Total probability is conserved under time evolution. $\blacksquare$
+
+**Composing evolutions.** For successive time intervals, the evolution operator composes as:
+
+$$\hat{U}(t_2, t_0) = \hat{U}(t_2, t_1)\,\hat{U}(t_1, t_0)$$
+
+This composition law, combined with unitarity, is the group structure underlying quantum dynamics.
+For a time-dependent Hamiltonian, the evolution operator is given by Dyson"s time-ordered
 exponential:
 
 $$\hat{U}(t, t_0) = \mathcal{T}\exp\!\left(-\frac{i}{\hbar}\int_{t_0}^{t}\hat{H}(t')\,dt'\right)$$

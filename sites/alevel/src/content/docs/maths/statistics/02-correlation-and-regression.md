@@ -1,6 +1,21 @@
 ---
 title: Correlation and Regression
-description: ""s rank            |
+description: "| Board | Paper | Notes | | ---------- | ------- | ----------------------------------- | | AQA | Paper 1 | PMCC, regression lines | | Edexcel | P1 |..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Board Coverage
+
+| Board      | Paper   | Notes                               |
+| ---------- | ------- | ----------------------------------- |
+| AQA        | Paper 1 | PMCC, regression lines              |
+| Edexcel    | P1      | Includes Spearman"s rank            |
 | OCR (A)    | Paper 1 | Similar                             |
 | CIE (9709) | P1, P6  | Correlation and regression in P1/P6 |
 

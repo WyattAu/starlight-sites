@@ -3,7 +3,22 @@ title: Potentials and Gauge Transformations
 tags:
   - Physics
   - University
-description: "" = V - \frac{\partial \chi}{\partial t}, \quad \mathbf{A}' = \mathbf{A} + \nabla \chi$$
+description: "We can express the fields in terms of potentials: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 6.1 Scalar and Vector Potentials
+
+We can express the fields in terms of potentials:
+
+$$\mathbf{E} = -\nabla V - \frac{\partial \mathbf{A}}{\partial t}, \quad \mathbf{B} = \nabla \times \mathbf{A}$$
+
+In electrostatics, $\mathbf{A} = \mathbf{0}$ and $\mathbf{E} = -\nabla V$.
+
+### 6.2 Gauge Transformations
+
+The potentials are not unique. The transformation
+
+$$V" = V - \frac{\partial \chi}{\partial t}, \quad \mathbf{A}' = \mathbf{A} + \nabla \chi$$
 
 For any scalar function $\chi(\mathbf{r}, t)$ leaves $\mathbf{E}$ and $\mathbf{B}$ unchanged. This
 is a **gauge transformation**.

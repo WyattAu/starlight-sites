@@ -1,6 +1,21 @@
 ---
 title: "Human Reproduction and Homeostasis -- Diagnostic Tests"
-description: ""LH surge" around day 14. [3
+description: "DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# DSE Biology Diagnostic: Human Reproduction and Homeostasis
+
+## Unit Test 1: Hormonal Control of the Menstrual Cycle
+
+**Question**
+
+The menstrual cycle is controlled by four main hormones: FSH, LH, oestrogen, and progesterone.
+
+(a) Describe the role of **FSH** in the menstrual cycle and explain how it is involved in follicle
+development. [2 marks]
+
+(b) Describe the role of **LH** and explain the significance of the "LH surge" around day 14. [3
 marks]
 
 (c) The graph below shows the blood concentration of oestrogen and progesterone during a typical

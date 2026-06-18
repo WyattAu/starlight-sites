@@ -1,6 +1,31 @@
 ---
 title: Introduction to Python
-description: ""__main__"`, package
+description: "Python Introduction to Python notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision."
+tags:
+  - Python
+categories:
+  - Python
+---
+
+## Abstract
+
+This resource is created as an aggregation of best practices in Python. It covers idiomatic Python
+patterns, the standard library, and common patterns used in data science, web development, and
+systems programming.
+
+## Topics Covered
+
+### Core Language
+
+- **Data types and structures** — `int`, `float`, `str`, `bool`, `list`, `tuple`, `dict`, `set`;
+  mutability and immutability
+- **Control flow** — `if`/`elif`/`else`, `for` loops (iterable-based), `while`, `break`/`continue`,
+  comprehensions (list, dict, set, generator)
+- **Functions** — positional and keyword arguments, `*args`/`**kwargs`, default arguments, lambdas,
+  decorators, closures
+- **Classes and OOP** — classes, instances, `__init__`, methods, class methods, static methods,
+  inheritance, `super()`, dunder methods, dataclasses
+- **Modules and packages** — `import`, `from ... import`, `__name__ == "__main__"`, package
   structure, `pyproject.toml`
 
 ### Standard Library

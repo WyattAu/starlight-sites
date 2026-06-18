@@ -1,6 +1,44 @@
 ---
 title: Stacks and Queues
-description: ""Stack overflow")
+description: "A is a linear data structure that follows the principle: the Most recently added Comprehensive educational content coverage with definitions and practice proble"
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Stacks (LIFO)
+
+### Definition
+
+A **stack** is a linear data structure that follows the **Last In, First Out (LIFO)** principle: the
+Most recently added element is the first to be removed.
+
+### Abstract Data Type
+
+| Operation   | Description                             | Time   |
+| ----------- | --------------------------------------- | ------ |
+| `push(x)`   | Add element $x$ to the top              | $O(1)$ |
+| `pop()`     | Remove and return the top element       | $O(1)$ |
+| `peek()`    | Return the top element without removing | $O(1)$ |
+| `isEmpty()` | Check if the stack is empty             | $O(1)$ |
+| `size()`    | Return the number of elements           | $O(1)$ |
+
+### Array-Based Implementation
+
+```python
+class ArrayStack:
+    def __init__(self, capacity=100):
+        self._data = [None] * capacity
+        self._top = -1
+        self._capacity = capacity
+
+    def push(self, value):
+        if self._top == self._capacity - 1:
+            raise Exception("Stack overflow")
         self._top += 1
         self._data[self._top] = value
 

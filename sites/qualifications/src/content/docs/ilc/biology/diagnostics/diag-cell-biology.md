@@ -1,6 +1,35 @@
 ---
 title: "Cell Biology -- Diagnostic Tests"
-description: ""s genetic material (DNA)
+description: "QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
+tableOfContents: false
+---
+
+# Cell Biology -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Cell Structure and Microscopy
+
+**Question:**
+
+(a) Describe the structure and function of the following organelles: nucleus, mitochondrion,
+ribosome, and cell membrane.
+
+(b) Explain the differences between light microscopy and electron microscopy, including resolution,
+magnification, specimen preparation, and the type of image produced.
+
+(c) Calculate the actual size of a cell from a microscope image given the following information: the
+image of the cell measures $4.2\,\text{cm}$ on a printed micrograph, and the magnification is
+$\times 5000$. Give your answer in micrometres ($\mu\text{m}$).
+
+(d) Describe the key features of a prokaryotic cell that distinguish it from a eukaryotic cell. Give
+at least four differences.
+
+**Solution:**
+
+(a)
+
+- **Nucleus**: A large, membrane-bound organelle containing the cell"s genetic material (DNA)
   organised into chromosomes. It is surrounded by a double membrane (nuclear envelope) with nuclear
   pores that control the movement of substances in and out. The nucleolus within the nucleus is the
   site of ribosomal RNA synthesis. Function: controls cell activities by regulating gene expression

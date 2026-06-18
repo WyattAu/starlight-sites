@@ -1,6 +1,220 @@
 ---
 title: "Algorithms -- Diagnostic Tests"
-description: "", booking.customerName
+description: "QUALIFICATIONS Highers notes: Algorithms -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
+tableOfContents: false
+---
+
+# Algorithms -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Computational Thinking and Problem Solving
+
+**Question:**
+
+(a) Define the four pillars of computational thinking: decomposition, pattern recognition,
+abstraction, and algorithmic thinking. Give an example of each in the context of developing a
+program to manage a school library system.
+
+(b) A program needs to determine whether a year is a leap year. The rules are: a year is a leap year
+if it is divisible by 4, except if it is divisible by 100, unless it is also divisible by 400. Write
+pseudocode for this algorithm.
+
+(c) Explain the difference between an algorithmic approach and a heuristic approach to problem
+solving. Give an example of each.
+
+(d) Using the library system scenario, explain how abstraction might be used to simplify the design.
+What details would be abstracted away and what would be kept?
+
+**Solution:**
+
+(a)
+
+- **Decomposition**: Breaking a complex problem into smaller, manageable sub-problems. Example: the
+  library system can be broken down into sub-problems: managing book records, managing user
+  accounts, tracking loans, and handling reservations.
+- **Pattern recognition**: Identifying similarities or patterns in problems. Example: the process of
+  adding a new book and adding a new user both follow the same pattern: validate input, check for
+  duplicates, create record, store in database.
+- **Abstraction**: Removing unnecessary details to focus on essential features. Example: when
+  designing the book record, the system stores title, author, ISBN, and availability, but not the
+  colour of the book cover or the shelf position.
+- **Algorithmic thinking**: Developing a step-by-step sequence of instructions to solve a problem.
+  Example: writing the logic for the loan process: check book availability, check user has no
+  overdue books, record the loan, update book status.
+
+(b)
+
+```
+FUNCTION isLeapYear(year) RETURNS Boolean
+    IF year % 400 == 0 THEN
+        RETURN True
+    ELSE IF year % 100 == 0 THEN
+        RETURN False
+    ELSE IF year % 4 == 0 THEN
+        RETURN True
+    ELSE
+        RETURN False
+    ENDIF
+ENDFUNCTION
+```
+
+Note: the order of checks matters. Divisible by 400 is checked first, then divisible by 100, then
+divisible by 4.
+
+(c) An **algorithmic approach** follows a defined, step-by-step procedure that guarantees a correct
+solution. Example: bubble sort will always correctly sort a list, given enough time. A **heuristic
+approach** uses a rule of thumb or shortcut that does not guarantee an optimal solution but finds a
+good solution quickly. Example: a chess-playing program using a heuristic to evaluate board
+positions rather than exhaustively calculating every possible move sequence.
+
+(d) Abstraction in the library system involves creating models of the key entities (Book, User,
+Loan) that capture only the essential data and behaviour. Details that would be abstracted away
+include: the physical appearance of books, the specific names of librarians, the brand of computer
+hardware, and the physical layout of the library. Details that would be kept include: book metadata
+(title, author, ISBN, genre), user data (name, ID, membership status), and loan logic (borrow date,
+return date, overdue status). This simplification allows the programmer to focus on the logic of the
+system without being overwhelmed by irrelevant details.
+
+---
+
+### UT-2: Data Structures
+
+**Question:**
+
+(a) Describe the following data structures and give one use case for each: array, linked list,
+stack, queue.
+
+(b) Explain the difference between a static array and a dynamic array. State one advantage and one
+disadvantage of each.
+
+(c) Draw a diagram showing a stack containing the values 3, 7, and 1 (with 1 being the most recently
+pushed). Show the effect of a PUSH(5) operation followed by a POP operation.
+
+(d) Explain why a queue is described as a FIFO data structure. Describe a real-world system that
+uses a queue and explain how it maps to the enqueue and dequeue operations.
+
+**Solution:**
+
+(a)
+
+- **Array**: a collection of elements stored in contiguous memory locations, accessed by index. Use
+  case: storing a fixed list of student exam scores where random access by index is needed.
+- **Linked list**: a collection of nodes where each node contains data and a pointer (reference) to
+  the next node. Use case: implementing a playlist where songs can be easily inserted or removed
+  without shifting other elements.
+- **Stack**: a last-in, first-out (LIFO) data structure where elements are added and removed from
+  the same end (the top). Use case: implementing the undo feature in a text editor -- each action is
+  pushed onto a stack, and undoing pops the most recent action.
+- **Queue**: a first-in, first-out (FIFO) data structure where elements are added at the rear and
+  removed from the front. Use case: a print queue where print jobs wait in order of submission.
+
+(b) A **static array** has a fixed size determined at creation and cannot be resized. Advantage:
+memory is allocated once and access is fast ($O(1)$). Disadvantage: if the array is too small, it
+cannot accommodate more elements; if too large, memory is wasted. A **dynamic array** can resize
+itself automatically when more space is needed (typically by allocating a larger array and copying
+elements). Advantage: flexible size. Disadvantage: resizing has a time cost ($O(n)$ when resizing),
+and the underlying memory may need to be reallocated.
+
+(c) Stack (top on the right):
+
+```
+Before operations:  [3, 7, 1]  -- top is 1
+
+After PUSH(5):      [3, 7, 1, 5]  -- top is 5
+
+After POP:           [3, 7, 1]  -- top is 1 (5 is returned and removed)
+```
+
+(d) A queue is **FIFO** (first-in, first-out) because the first element added to the queue is the
+first element to be removed. This mirrors real-world queuing behaviour. A real-world system: a
+customer service call centre where callers are placed in a holding queue. The first caller to ring
+is the first to be connected to an agent. **Enqueue** maps to a caller joining the queue (added to
+the rear). **Dequeue** maps to a caller being connected to an agent (removed from the front).
+
+---
+
+### UT-3: Algorithm Complexity and Efficiency
+
+**Question:**
+
+(a) Define time complexity and space complexity. Explain the difference between worst-case,
+average-case, and best-case time complexity.
+
+(b) State the time complexity (in big-O notation) of the following operations: accessing an element
+in an array by index, inserting at the beginning of an unsorted linked list, searching for a value
+in a balanced binary search tree, and performing bubble sort on an array of $n$ elements.
+
+(c) Two algorithms solve the same problem. Algorithm A has time complexity $O(n^2)$ and Algorithm B
+has time complexity $O(n \log n)$. For $n = 1000$, approximately how many more operations does
+Algorithm A perform compared to Algorithm B?
+
+(d) Explain what is meant by a constant-time operation ($O(1)$). Give three examples of operations
+that run in constant time.
+
+**Solution:**
+
+(a) **Time complexity** is a measure of how the running time of an algorithm grows as the size of
+the input ($n$) increases. **Space complexity** is a measure of how much additional memory an
+algorithm uses as the input size grows.
+
+- **Best-case**: the minimum number of operations required (for the most favourable input).
+- **Worst-case**: the maximum number of operations required (for the least favourable input).
+- **Average-case**: the expected number of operations averaged over all possible inputs.
+
+Big-O notation typically describes the worst-case time complexity.
+
+(b)
+
+- Accessing an element in an array by index: $O(1)$
+- Inserting at the beginning of an unsorted linked list: $O(1)$ (update one pointer)
+- Searching for a value in a balanced binary search tree: $O(\log n)$
+- Bubble sort: $O(n^2)$
+
+(c) Algorithm A: $O(n^2) = 1000^2 = 1,000,000$ operations (approximately). Algorithm B:
+$O(n \log n) = 1000 \times 10 \approx 10,000$ operations. Algorithm A performs approximately
+$1,000,000 / 10,000 = 100$ times more operations than Algorithm B for $n = 1000$.
+
+(d) A **constant-time operation** ($O(1)$) takes the same amount of time regardless of the size of
+the input. The running time does not grow with $n$. Three examples: accessing an array element by
+index, pushing an element onto a stack, and checking whether a queue is empty.
+
+---
+
+## Integration Tests
+
+### IT-1: Designing a Software Solution
+
+**Question:**
+
+(a) A taxi company needs a program to manage bookings. The system must store customer details,
+record each booking, and assign taxis in the order bookings are received. Identify the most
+appropriate data structure for managing the queue of bookings and justify your choice.
+
+(b) Write pseudocode for a procedure that processes the booking queue: it should dequeue the next
+booking, check if a taxi is available, and if so assign the taxi and output a confirmation message.
+If no taxi is available, the booking should be re-enqueued.
+
+(c) The company also wants to store a list of all completed journeys for reporting purposes. Explain
+which data structure would be most suitable and why.
+
+(d) Evaluate whether a linked list or an array would be more appropriate for storing the customer
+details. Consider the operations that need to be performed: searching by customer ID, adding new
+customers, and removing customers who no longer use the service.
+
+**Solution:**
+
+(a) A **queue** is the most appropriate data structure for managing bookings because taxis should be
+assigned in the order bookings are received (FIFO). The first customer to book should be the first
+to get a taxi, ensuring fairness. Enqueue when a booking is received; dequeue when assigning a taxi.
+
+(b)
+
+```
+PROCEDURE processBookingQueue()
+    WHILE bookingQueue is not empty AND taxiAvailable = True
+        booking = DEQUEUE(bookingQueue)
+        OUTPUT "Taxi assigned to: ", booking.customerName
         OUTPUT "Pickup at: ", booking.pickupAddress
     ENDWHILE
     IF bookingQueue is not empty AND taxiAvailable = False

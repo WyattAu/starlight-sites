@@ -3,7 +3,69 @@ title: Network Security
 tags:
   - Computing
   - University
-description: ""s public key. Provides authentication, integrity, and non-repudiation.
+description: "uses the same secret key for both encryption and decryption. Both parties Must share the key securely before communication."
+---
+
+### 7.1 Symmetric Encryption
+
+**Symmetric encryption** uses the same secret key for both encryption and decryption. Both parties
+Must share the key securely before communication.
+
+| Algorithm | Key Size | Block Size | Status     |
+| --------- | -------- | ---------- | ---------- |
+| DES       | 56 bits  | 64 bits    | Insecure   |
+| 3DES      | 168 bits | 64 bits    | Deprecated |
+| AES-128   | 128 bits | 128 bits   | Secure     |
+| AES-256   | 256 bits | 128 bits   | Secure     |
+| ChaCha20  | 256 bits | Stream     | Secure     |
+
+**Block cipher modes of operation:**
+
+| Mode | Description                                   | Parallelisable  |
+| ---- | --------------------------------------------- | --------------- |
+| ECB  | Each block encrypted independently            | Yes             |
+| CBC  | Each block XORed with previous ciphertext     | Decryption only |
+| CTR  | Counter-based stream cipher from block cipher | Yes             |
+| GCM  | Authenticated encryption (CTR + MAC)          | Yes             |
+
+**Theorem 7.1.** ECB mode is insecure for messages longer than one block because identical plaintext
+Blocks produce identical ciphertext blocks, revealing patterns.
+
+_Proof._ If the plaintext contains repeated blocks $P_i = P_j$Then under ECB,
+$C_i = E_K(P_i) =
+E_K(P_j) = C_j$. An attacker observing identical ciphertext blocks knows the
+corresponding Plaintext blocks are identical, regardless of the key. $\blacksquare$
+
+**Key distribution problem.** Symmetric encryption requires a secure channel to exchange keys. For
+$n$ parties, $n(n-1)/2$ keys are needed. This motivates asymmetric encryption and key exchange
+Protocols.
+
+### 7.2 Asymmetric Encryption
+
+**Asymmetric encryption** uses a key pair: a public key (for encryption/verification) and a private
+Key (for decryption/signing). The public key can be freely distributed.
+
+**RSA.** Based on the difficulty of factoring large integers.
+
+1. Choose two large primes $p$ and $q$. Compute $n = pq$ and $\phi(n) = (p-1)(q-1)$.
+2. Choose $e$ such that $1 \lt e \lt \phi(n)$ and $\gcd(e, \phi(n)) = 1$.
+3. Compute $d$ such that $e \cdot d \equiv 1 \pmod{\phi(n)}$.
+4. Public key: $(n, e)$. Private key: $(n, d)$.
+5. Encrypt: $c = m^e \bmod n$. Decrypt: $m = c^d \bmod n$.
+
+**Diffie-Hellman key exchange.** Allows two parties to establish a shared secret over an insecure
+Channel without prior shared key.
+
+1. Public parameters: prime $p$ and generator $g$.
+2. Alice picks secret $a$Sends $A = g^a \bmod p$.
+3. Bob picks secret $b$Sends $B = g^b \bmod p$.
+4. Shared secret: $s = B^a \bmod p = g^{ab} \bmod p = A^b \bmod p$.
+
+An eavesdropper who sees $g$, $p$, $A$, $B$ cannot compute $g^{ab}$ without solving the discrete
+Logarithm problem.
+
+**Digital signatures.** The sender signs a message hash with their private key. Anyone can verify
+Using the sender"s public key. Provides authentication, integrity, and non-repudiation.
 
 ### 7.3 TLS in Depth
 

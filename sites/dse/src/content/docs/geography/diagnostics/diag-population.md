@@ -1,6 +1,101 @@
 ---
 title: "Population -- Diagnostic Tests"
-description: ""s One-Child Policy:
+description: "Population -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# DSE Geography Diagnostic: Population
+
+## Unit Test 1: Population Pyramids and Structure
+
+**Question**
+
+(a) Describe the key features of a population pyramid for a Stage 2 country in the Demographic
+Transition Model. Explain how the pyramid shape reflects the demographic characteristics of that
+stage. [4 marks]
+
+(b) The population pyramid of Country A (a developed country) shows a larger proportion of elderly
+people (aged 65+) compared to children (aged 0-14). State **two** consequences of an ageing
+population for the economy and society of Country A. [4 marks]
+
+(c) A population pyramid of Country B shows a bulge in the 25-40 age group with relatively few
+dependents at both ends. Suggest **two** possible causes for this unusual population structure. [2
+marks]
+
+---
+
+**Worked Solution**
+
+(a) A Stage 2 population pyramid has a **wide base** reflecting a **high birth rate** (many children
+aged 0-14), and a pyramid that **narrows rapidly** towards the apex, reflecting **higher mortality
+at older ages** (fewer people reach old age). The steep narrowing indicates that while infant and
+child mortality have decreased (many survive to adulthood), mortality at older ages remains
+relatively high compared to developed countries.
+
+This shape reflects the demographic characteristics of Stage 2: death rates have fallen sharply due
+to improvements in medicine, sanitation, and nutrition, while birth rates remain high because
+cultural norms, religious practices, and limited access to family planning have not yet changed. The
+result is **rapid population growth** with a **young population structure** (high youth dependency
+ratio).
+
+(b) Two consequences of an ageing population:
+
+1. **Increased dependency ratio**: A higher proportion of elderly dependents relative to the
+   working-age population places greater financial strain on the workforce through higher taxes and
+   social security contributions to fund pensions, healthcare, and elderly care services.
+
+2. **Labour shortage**: As large cohorts of older workers retire, the working-age population
+   shrinks, potentially leading to labour shortages in key sectors. This can reduce economic
+   productivity and growth unless offset by immigration, automation, or policies to extend working
+   lives.
+
+(Alternative: rising healthcare costs; increased government spending on pensions and aged care;
+increased burden on families caring for elderly relatives; potential intergenerational conflict over
+resource allocation.)
+
+(c) Two possible causes for a bulge in the 25-40 age group:
+
+1. **Past migration influx**: A large number of immigrants in this age group may have arrived over
+   the past 10-20 years, contributing to the bulge in this specific age range. Many immigrants are
+   young adults seeking work opportunities.
+
+2. **Past increase in birth rate (baby boom)**: An above-average birth rate 25-40 years ago would
+   produce a larger cohort reaching these ages now. This could result from post-war recovery,
+   government pro-natalist policies, or economic prosperity that encouraged larger families at that
+   time.
+
+---
+
+## Unit Test 2: Demographic Transition and Population Policies
+
+**Question**
+
+(a) Explain why many developing countries are currently experiencing rapid population growth, with
+reference to the Demographic Transition Model. [4 marks]
+
+(b) China implemented the One-Child Policy (1979-2015). Describe **two** social consequences of this
+policy. [4 marks]
+
+(c) Some countries (e.g., Singapore, Japan) have introduced pro-natalist policies. Explain **two**
+reasons why a government might wish to increase its birth rate. [4 marks]
+
+---
+
+**Worked Solution**
+
+(a) Developing countries are experiencing rapid population growth because they are in **Stage 2 or
+early Stage 3** of the DTM. In these stages, the **death rate has fallen sharply** due to
+improvements in healthcare, vaccination, sanitation, and food supply. However, the **birth rate
+remains high** because cultural and economic factors (value of large families for agricultural
+labour, limited education for women, limited access to contraception, religious and social norms
+favouring large families) have not changed as rapidly.
+
+The large gap between the high birth rate and the now-low death rate results in a high rate of
+natural increase and rapid population growth. As these countries develop further (urbanisation,
+female education, industrialisation), birth rates gradually decline, moving them towards Stage 3 and
+eventually Stage 4.
+
+(b) Two social consequences of China"s One-Child Policy:
 
 1. **Gender imbalance**: A traditional preference for sons led to selective abortion, female
    infanticide, and abandonment of female babies. This created a significantly skewed sex ratio,

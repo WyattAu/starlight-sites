@@ -1,6 +1,39 @@
 ---
 title: Assessment
-description: ""abstraction" as "hiding
+description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |..."
+---
+
+# Assessment objective
+
+## SL
+
+| Index | Objective                                           | Paper 1 | Paper 2 | IA    | Sum |
+| ----- | --------------------------------------------------- | ------- | ------- | ----- | --- |
+| 1     | Demonstration of knowledge and understanding        | 24      | 13      | 9     | 46  |
+| 2     | Application                                         | 13      | 7       | 8     | 28  |
+| 3     | Construction, analysis, evaluation, and formulation | 8       | 5       | 4     | 17  |
+| 4     | Skills usage                                        | n/a     | n/a     | 9     | 9   |
+| n/a   | Weighting                                           | $0.45$  | $0.25$  | $0.3$ | 1   |
+
+| 4 | Skills usage | n/a | n/a | 9 | 9 | | n/a | Weighting | $0.45$ | $0.25$ | $0.3$ | 1 |
+
+## Paper 1 — Written Response
+
+Paper 1 is a **2-hour** examination (SL) or **2 hours 15 minutes** (HL) that tests knowledge and
+Understanding of the core syllabus.
+
+### Structure
+
+| Component           | SL                          | HL                             |
+| ------------------- | --------------------------- | ------------------------------ |
+| Section A           | Short-answer questions      | Short-answer questions         |
+| Section B           | Extended-response questions | Extended-response questions    |
+| Section C (HL only) | n/a                         | Extended-response on HL topics |
+| Total marks         | 80                          | 100                            |
+
+### What examiners look for
+
+- **Definitions**: Always use the exact IB terminology. For example, define "abstraction" as "hiding
   unnecessary details to reduce complexity," not just "simplifying things."
 - **Command terms**: Pay close attention to the verb at the start of each question. "Describe"
   requires detail; "Explain" requires a reason; "Compare" requires similarities AND differences;

@@ -1,6 +1,88 @@
 ---
 title: Network Security
-description: ""s totient)
+description: "| Threat | Description | | ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Threats and Vulnerabilities
+
+### Types of Threats
+
+| Threat             | Description                                                          |
+| ------------------ | -------------------------------------------------------------------- |
+| Malware            | Malicious software (viruses, worms, trojans, ransomware)             |
+| Phishing           | Fraudulent emails/messages tricking users into revealing credentials |
+| DDoS attack        | Overwhelming a server with traffic from multiple sources             |
+| Man-in-the-middle  | Attacker intercepts communication between two parties                |
+| SQL injection      | Inserting malicious SQL into input fields to manipulate databases    |
+| Brute force attack | Systematically trying all possible passwords/keys                    |
+| Social engineering | Manipulating people into divulging confidential information          |
+
+### The CIA Triad
+
+The three core principles of information security:
+
+1. **Confidentiality:** Data is accessible only to authorised parties
+2. **Integrity:** Data is accurate and has not been tampered with
+3. **Availability:** Data and services are accessible when needed
+
+<hr />
+
+## 2. Symmetric Encryption
+
+### Definition
+
+**Symmetric encryption** uses the **same key** for both encryption and decryption.
+
+$$C = E_K(M), \quad M = D_K(C)$$
+
+Where $M$ is the plaintext, $C$ is the ciphertext, $E$ is the encryption function, $D$ is the
+Decryption function, and $K$ is the shared secret key.
+
+### AES (Advanced Encryption Standard)
+
+AES is the most widely used symmetric encryption algorithm.
+
+| Property   | Value                                    |
+| ---------- | ---------------------------------------- |
+| Key sizes  | 128, 192, 256 bits                       |
+| Block size | 128 bits                                 |
+| Rounds     | 10 (128-bit), 12 (192-bit), 14 (256-bit) |
+| Type       | Substitution-permutation network         |
+
+### Key Distribution Problem
+
+Symmetric encryption requires both parties to share the same secret key. Distributing this key
+Securely is a fundamental challenge — if the key is intercepted during exchange, the encryption is
+Compromised.
+
+<hr />
+
+## 3. Asymmetric Encryption
+
+### Definition
+
+**Asymmetric encryption** (public-key cryptography) uses a **pair of keys**: a **public key**
+(shared openly) and a **private key** (kept secret).
+
+$$C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)$$
+
+- Anyone can encrypt using the public key
+- Only the private key holder can decrypt
+
+### RSA Algorithm
+
+#### Key Generation
+
+1. Choose two large primes $p$ and $q$
+2. Compute $n = p \times q$
+3. Compute $\phi(n) = (p-1)(q-1)$ (Euler"s totient)
 4. Choose $e$ such that $1 \lt e \lt \phi(n)$ and $\gcd(e, \phi(n)) = 1$
 5. Compute $d$ such that $d \cdot e \equiv 1 \pmod{\phi(n)}$
 

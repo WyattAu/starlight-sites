@@ -1,6 +1,36 @@
 ---
 title: "Paper 3 -- Mechanics -- Full Diagnostic Exam"
-description: ""s answer. [2 marks]
+description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
+tableOfContents: false
+---
+
+# Paper 3 — Mechanics
+
+**Time allowed:** 75 minutes **Total marks:** 50 **Topics covered:** All 5 mechanics topics
+
+---
+
+## Instructions
+
+Answer all questions. Calculators are permitted. Take $g = 9.8$ m/s$^2$ unless otherwise stated.
+Show all working — marks are awarded for method as well as final answer.
+
+---
+
+## Questions
+
+### Q1 [10 marks] — Kinematics
+
+A particle moves in a straight line so that its velocity $v$ m/s at time $t$ seconds ($t \geq 0$) is
+given by $v = 6t - t^2 - 5$.
+
+**(a)** Find the times at which the particle is instantaneously at rest. [3 marks]
+
+**(b)** Calculate the total distance travelled by the particle from $t = 0$ to $t = 7$. [5 marks]
+
+**(c)** A student calculates the displacement over $[0, 7]$ by evaluating $\int_0^7 v\,dt$ and
+obtains a positive answer. The student then claims this integral equals the total distance.
+Calculate the percentage error in the student"s answer. [2 marks]
 
 ### Q2 [10 marks] — Forces and Newton's Laws
 

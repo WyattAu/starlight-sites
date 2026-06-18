@@ -1,6 +1,6 @@
 ---
 title: Query Optimization
-description: "" and "avoid full table scans."...''
+description: "Uses a fixed set of heuristics to transform queries. Access paths Are chosen based on rules like "use an index if available" and "avoid full table scans."...''
 
 ---
 

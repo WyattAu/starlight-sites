@@ -1,6 +1,18 @@
 ---
 title: Physics
-description: ""s equations, and thermodynamics.
+description: "This section develops university-level physics from first principles, with emphasis on mathematical derivation and the explicit statement of assumptions...."
+---
+
+# Physics
+
+This section develops university-level physics from first principles, with
+emphasis on mathematical derivation and the explicit statement of assumptions.
+Each topic begins from the governing equations and proceeds by derivation, so
+that results are consequences of the underlying theory rather than empirical
+facts to be memorised.
+
+The classical strand covers Newtonian mechanics, the Lagrangian and Hamiltonian
+formulations, electromagnetism from Maxwell"s equations, and thermodynamics.
 Where a phenomenon admits a quantitative model, the model is stated precisely,
 its domain of validity is identified, and its predictions are compared with the
 observed behaviour.

@@ -1,6 +1,62 @@
 ---
 title: GraalVM and Modern JVM
-description: ""s ideal graph.
+description: "GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image..."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - Java
+categories:
+  - Java
+
+---
+
+## Introduction
+
+GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an
+Advanced just-in-time compiler (Graal), a native image generator, and polyglot execution
+Capabilities. It compiles Java applications ahead-of-time into standalone native executables,
+Dramatically reducing startup time and memory footprint compared to the traditional JVM. The foreign
+Function and memory API (Project Panama) provides a modern, safe alternative to JNI for calling
+Native code and managing off-heap memory.
+
+These technologies matter because they address the three persistent complaints about Java: slow
+Startup, high memory consumption, and painful native interop. GraalVM native images bring Java into
+Territory previously reserved for Go and Rust -- sub-millisecond startup and single-digit MB RSS for
+Microservices and CLI tools. The Foreign Function and Memory API replaces the brittle, error-prone
+JNI mechanism with a type-safe, allocation-tracking API that is practically usable.
+
+### What GraalVM Provides
+
+| Component            | Purpose                                              | Status               |
+| -------------------- | ---------------------------------------------------- | -------------------- |
+| Graal JIT Compiler   | Replaces C2 as an advanced JIT compiler              | Production (JDK 17+) |
+| Native Image         | AOT compilation to standalone executables            | Production (JDK 22+) |
+| Polyglot Runtime     | Run JavaScript, Python, Ruby, R, LLVM alongside Java | Community Edition    |
+| Truffle Framework    | API for building high-performance language runtimes  | Production           |
+| VisualVM Integration | Profiling and diagnostics for Graal-compiled code    | Production           |
+
+:::info GraalVM has been folded into the OpenJDK project. Starting with JDK 22, `native-image` ships
+As a standard JDK component. You no longer need a separate GraalVM distribution to build native
+Images. The Graal JIT compiler has been available as an experimental tier-4 compiler in OpenJDK
+Since JDK 10.
+:::
+
+## The Graal Compiler
+
+### Graal JIT vs C2 JIT
+
+HotSpot has historically used two JIT compilers: C1 (client compiler, fast compilation, less
+Optimization) and C2 (server compiler, slower compilation, aggressive optimization). The tiered
+Compilation strategy starts with the interpreter, promotes hot methods through C1, and eventually
+Compiles with C2 for maximum throughput.
+
+Graal is a replacement for C2 written in Java. It is itself a Java program that compiles Java
+Bytecode to machine code. Being written in Java means Graal benefits from the same JVM optimizations
+It produces, and its codebase is far more approachable for contributors than C2 (which is written in
+C++).
+
+**Definition.** The Graal compiler is a graph-based JIT compiler implemented in Java that replaces
+C2 as the top-tier optimizing compiler. It operates on a sea-of-nodes intermediate representation
+(IR) that is more expressive than C2"s ideal graph.
 
 | Feature             | C2                         | Graal                               |
 | ------------------- | -------------------------- | ----------------------------------- |

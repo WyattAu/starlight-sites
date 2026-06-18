@@ -1,6 +1,29 @@
 ---
 title: DSE Physics Diagnostic Guide
-description: ""s laws, internal resistance, potentiometer, RC circuits              |
+description: "This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file contains 3 unit tests (single-topic, testing deep..."
+tableOfContents: false
+---
+
+# DSE Physics Diagnostic Guide
+
+## Overview
+
+This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file
+contains 3 unit tests (single-topic, testing deep understanding) and 3 integration tests
+(multi-topic, testing synthesis and application). All questions target the upper difficulty band of
+the DSE specification.
+
+## Topic Coverage Map
+
+| #   | File                            | Topic                     | Key Concepts Tested                                                            |
+| --- | ------------------------------- | ------------------------- | ------------------------------------------------------------------------------ |
+| 1   | `diag-mechanics.md`             | Mechanics                 | SUVAT selection, projectile independence, sign conventions, multi-stage motion |
+| 2   | `diag-forces-motion.md`         | Forces and Motion         | N3L pairs, inclined planes, connected objects, friction direction              |
+| 3   | `diag-energy-work.md`           | Energy and Work           | Work at angles, power-velocity, efficiency chains, non-conservative forces     |
+| 4   | `diag-waves-sound.md`           | Waves and Sound           | Standing waves, intensity/dB, beats, Doppler effect, pipe harmonics            |
+| 5   | `diag-optics.md`                | Optics                    | Thin lens sign convention, TIR, compound systems, apparent depth               |
+| 6   | `diag-waves-optics.md`          | Waves and Optics          | Diffraction, interference, polarization, EM spectrum, thin films               |
+| 7   | `diag-electrical-circuits.md`   | Electrical Circuits       | Kirchhoff"s laws, internal resistance, potentiometer, RC circuits              |
 | 8   | `diag-electricity-magnetism.md` | Electricity and Magnetism | Faraday/Lenz laws, transformers, back EMF, electromagnetic braking             |
 | 9   | `diag-heat-gases.md`            | Heat and Gases            | Latent heat, gas law units, kinetic theory, adiabatic processes                |
 | 10  | `diag-nuclear-physics.md`       | Nuclear Physics           | Half-life, binding energy, decay chains, mass-energy equivalence               |

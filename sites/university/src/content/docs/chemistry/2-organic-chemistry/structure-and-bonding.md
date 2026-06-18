@@ -1,6 +1,158 @@
 ---
 title: Structure and Bonding
-description: ""s Rule
+description: "One and three orbitals combine to form four equivalent sp hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Chemistry
+  - University
+categories:
+  - Chemistry
+---
+
+## 1. Hybridization
+
+### 1.1 sp$^3$ Hybridization
+
+**Definition 1 (sp$^3$ Hybridization):** One $s$ and three $p$ orbitals combine to form four
+equivalent sp$^3$ hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°.
+
+$$\psi_{sp^3} = \frac{1}{2}(\psi_s + \psi_{p_x} + \psi_{p_y} + \psi_{p_z})$$
+
+Each sp$^3$ orbital has 25% $s$ character and 75% $p$ character. Examples: methane (CH$_4$), ethane,
+water (bent due to lone pairs).
+
+### 1.2 sp$^2$ Hybridization
+
+**Definition 2 (sp$^2$ Hybridization):** One $s$ and two $p$ orbitals combine to form three
+equivalent sp$^2$ hybrid orbitals in a trigonal planar arrangement (120°). The remaining
+unhybridized $p_z$ orbital forms $\pi$ bonds.
+
+$$\psi_{sp^2} = \frac{1}{\sqrt{3}}\psi_s + \sqrt{\frac{2}{3}}\psi_p$$
+
+Each sp$^2$ orbital has 33.3% $s$ character. Examples: ethylene (C$_2$H$_4$), formaldehyde, benzene.
+
+### 1.3 sp Hybridization
+
+**Definition 3 (sp Hybridization):** One $s$ and one $p$ orbital combine to form two sp hybrid
+orbitals in a linear arrangement (180°). Two unhybridized $p$ orbitals form two perpendicular $\pi$
+bonds.
+
+$$\psi_{sp} = \frac{1}{\sqrt{2}}(\psi_s + \psi_p)$$
+
+Each sp orbital has 50% $s$ character. Examples: acetylene (C$_2$H$_2$), CO$_2$, HCN.
+
+### 1.4 Bond Strength and Hybridization
+
+More $s$ character $\implies$ shorter, stronger bonds:
+
+$$\text{Bond length: } \text{sp}^3 > \text{sp}^2 > \text{sp}$$
+
+$$\text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}$$
+
+| Hybridization | $s$ Character | C–C Bond Length (pm) | C–C Bond Energy (kJ/mol) |
+| ------------- | ------------- | -------------------- | ------------------------ |
+| sp$^3$        | 25%           | 154                  | 347                      |
+| sp$^2$        | 33.3%         | 133                  | 614                      |
+| sp            | 50%           | 120                  | 839                      |
+
+## 2. VSEPR Theory
+
+### 2.1 Electron Pair Repulsion
+
+**Theorem 1 (VSEPR Theory):** Electron pairs around a central atom arrange to minimize repulsion:
+lone pair–lone pair > lone pair–bond pair > bond pair–bond pair.
+
+### 2.2 Common Geometries
+
+| Steric Number | Geometry             | Bond Angle      | Example             |
+| ------------- | -------------------- | --------------- | ------------------- |
+| 2             | Linear               | 180°            | CO$_2$, BeCl$_2$    |
+| 3             | Trigonal planar      | 120°            | BF$_3$, CO$_3^{2-}$ |
+| 4             | Tetrahedral          | 109.5°          | CH$_4$              |
+| 4             | Trigonal pyramidal   | < 109.5°        | NH$_3$              |
+| 4             | Bent                 | < 109.5°        | H$_2$O              |
+| 5             | Trigonal bipyramidal | 90°, 120°, 180° | PCl$_5$             |
+| 6             | Octahedral           | 90°, 180°       | SF$_6$              |
+
+### 2.3 Effect of Lone Pairs and Multiple Bonds
+
+- Lone pairs occupy more space than bonding pairs, compressing bond angles.
+- Double and triple bonds repel more than single bonds.
+- In trigonal bipyramidal geometry, lone pairs preferentially occupy equatorial positions (less
+  crowding: 2 neighbors at 90° vs 3 for axial).
+
+## 3. Molecular Orbital Theory for Organics
+
+### 3.1 Sigma ($\sigma$) and Pi ($\pi$) Bonds
+
+**Definition 4 ($\sigma$ Bond):** A bond formed by head-on overlap of orbitals along the
+internuclear axis. Electron density is symmetric about the bond axis.
+
+**Definition 5 ($\pi$ Bond):** A bond formed by lateral overlap of parallel $p$ orbitals,
+perpendicular to the internuclear axis. Electron density is above and below (or around) the bond
+axis.
+
+### 3.2 Bonding in Ethylene
+
+The C=C double bond consists of:
+
+- One $\sigma$ bond (sp$^2$–sp$^2$ overlap).
+- One $\pi$ bond (p–p lateral overlap).
+
+Rotation about a $\pi$ bond requires breaking it ($\sim 270$ kJ/mol), explaining the planarity of
+alkenes.
+
+### 3.3 Bonding in Acetylene
+
+The C≡C triple bond:
+
+- One $\sigma$ bond (sp–sp overlap).
+- Two $\pi$ bonds (two perpendicular p–p overlaps).
+
+## 4. Conjugation and Resonance
+
+### 4.1 Conjugated Systems
+
+**Definition 6 (Conjugation):** Alternating single and double bonds allow $p$ orbitals to overlap
+across multiple atoms, creating a delocalized $\pi$ system.
+
+Examples: 1,3-butadiene, $\alpha,\beta$-unsaturated carbonyls, benzene.
+
+### 4.2 Resonance
+
+**Definition 7 (Resonance):** When a molecule or ion can be represented by two or more valid Lewis
+structures (resonance forms), the actual structure is a hybrid — a weighted average.
+
+**Theorem 2 (Resonance Rules):**
+
+1. Resonance forms differ only in electron placement; nuclei do not move.
+2. All resonance forms must have the same number of unpaired electrons.
+3. The resonance hybrid is more stable than any individual form.
+4. More stable resonance forms contribute more to the hybrid.
+
+**Stability ranking of resonance forms:**
+
+- Octet rule satisfied > octet rule violated
+- Fewer formal charges > more formal charges
+- Negative charge on electronegative atoms > on electropositive atoms
+- Charge separation minimized > charge separation maximized
+
+**Example 1:** The nitrate ion NO$_3^-$ has three equivalent resonance structures, each with one N=O
+and two N–O bonds. The actual N–O bond order is $4/3$.
+
+$\blacksquare$
+
+### 4.3 Resonance Energy
+
+**Definition 8 (Resonance Energy):** The extra stabilization of a conjugated system compared to a
+hypothetical system with localized bonds.
+
+Benzene: $\Delta H_{\text{hyd}}$ for 3 localized double bonds = $3 \times (-120) = -360$ kJ/mol.
+Experimental $\Delta H_{\text{hyd}}$ = $-208$ kJ/mol. Resonance energy = 152 kJ/mol.
+
+## 5. Aromaticity
+
+### 5.1 Huckel"s Rule
 
 **Theorem 3 (Huckel's Rule):** A planar, cyclic, fully conjugated system with $(4n + 2)$ $\pi$
 electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons are antiaromatic

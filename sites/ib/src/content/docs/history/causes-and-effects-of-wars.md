@@ -5,7 +5,38 @@ tags:
   - IB History
 categories:
   - IB History
-description: ""s decision to build a large fleet (Risk Theory) provoked a
+description: "This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for Paper 2. It examines the two World Wars in depth, comparing..."
+---
+
+# Causes and Effects of Wars
+
+This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for
+Paper 2. It examines the two World Wars in depth, comparing their origins, courses, and
+consequences, and explores the major historiographical debates. The focus is on developing the
+analytical skills needed for high-scoring essay responses.
+
+---
+
+## 1. World War I (1914--1918)
+
+### 1.1 Long-Term Causes
+
+**Alliances**
+
+- The alliance system created a rigid structure in which a local conflict could rapidly escalate
+  into a general European war
+- **Triple Alliance (1882)**: Germany, Austria-Hungary, Italy
+- **Triple Entente (1907)**: France, Russia, Britain
+- Alliances were intended to deter war by creating a balance of power, but in practice they created
+  a situation in which any conflict between two powers would draw in their allies
+- Italy switched sides in 1915, joining the Entente
+- The alliances were not automatic — all governments chose to mobilise — but the system created
+  tremendous pressure to act
+
+**Militarism**
+
+- The arms race between the major European powers created an atmosphere of tension and suspicion
+- Anglo-German naval rivalry: Germany"s decision to build a large fleet (Risk Theory) provoked a
   British response — the naval arms race was a significant factor in worsening Anglo-German
   relations
 - Conscription and large standing armies created the capacity for rapid mobilisation, which meant

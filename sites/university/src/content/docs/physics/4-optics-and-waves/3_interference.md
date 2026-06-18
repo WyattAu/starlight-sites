@@ -3,7 +3,23 @@ title: Interference
 tags:
   - Physics
   - University
-description: ""s Experiment)
+description: "When two or more waves overlap, the resultant displacement is the sum of the individual displacements. For two coherent waves with amplitudes and : "''
+---
+
+### 3.1 Superposition Principle
+
+When two or more waves overlap, the resultant displacement is the sum of the individual
+displacements. For two coherent waves with amplitudes $E_1$ and $E_2$:
+
+$$E = E_1 + E_2 = E_0 \cos(\mathbf{k}\cdot\mathbf{r} - \omega t + \phi_1) + E_0 \cos(\mathbf{k}\cdot\mathbf{r} - \omega t + \phi_2)$$
+
+The time-averaged intensity is:
+
+$$I = I_1 + I_2 + 2\sqrt{I_1 I_2}\cos\Delta\phi$$
+
+Where $\Delta\phi = \phi_2 - \phi_1$ is the phase difference.
+
+### 3.2 Double-Slit Interference (Young"s Experiment)
 
 Two slits separated by distance $d$ are illuminated by coherent light of wavelength $\lambda$. The
 Screen is at distance $L \gg d$.

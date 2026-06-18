@@ -1,6 +1,195 @@
 ---
 title: Particle Physics
-description: ""s Prediction
+description: "ALEVEL Physics notes: Particle Physics. Comprehensive study material with definitions, examples, and assessment tools. particle physics study guide."
+date: 2026-04-23T00:00:00.000Z
+tags: [Physics, ALevel]
+categories: [Physics]
+
+---
+
+## Particle Physics
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
+## 1. The Standard Model
+
+The Standard Model classifies all known fundamental particles and their interactions. It describes:
+
+- **12 fermions** (matter particles): 6 quarks and 6 leptons, each with an antiparticle.
+- **5 gauge bosons** (force carriers): photon, $W^+$, $W^-$, $Z^0$Gluon (8 types).
+- **1 scalar boson:** Higgs ($H^0$), responsible for giving mass to $W$, $Z$ bosons and fermions.
+
+### The Four Fundamental Interactions
+
+| Interaction     | Mediator                | Acts on           | Range             | Relative strength |
+| --------------- | ----------------------- | ----------------- | ----------------- | ----------------- |
+| Electromagnetic | Photon ($\gamma$)       | Charged particles | Infinite          | $\sim 10^{-2}$    |
+| Strong (colour) | Gluon ($g$)             | Quarks, gluons    | $\sim 10^{-15}$ m | $\sim 1$          |
+| Weak            | $W^\pm$, $Z^0$          | All fermions      | $\sim 10^{-18}$ m | $\sim 10^{-6}$    |
+| Gravitational   | Graviton (hypothetical) | All mass/energy   | Infinite          | $\sim 10^{-39}$   |
+
+## 2. Quarks
+
+Quarks are fundamental particles that experience the strong force. They carry fractional electric
+Charge and a colour charge (red, green, or blue).
+
+### The Six Flavours
+
+| Generation | Up-type     | Charge  | Down-type     | Charge |
+| ---------- | ----------- | ------- | ------------- | ------ |
+| 1          | Up ($u$)    | $+2e/3$ | Down ($d$)    | $-e/3$ |
+| 2          | Charm ($c$) | $+2e/3$ | Strange ($s$) | $-e/3$ |
+| 3          | Top ($t$)   | $+2e/3$ | Bottom ($b$)  | $-e/3$ |
+
+### Quark Confinement
+
+Quarks are never observed in isolation. They are always bound into colour-neutral combinations:
+
+- **Baryons:** Three quarks (one of each colour, or colour-anticolour combinations that cancel).
+  Examples: proton ($uud$), neutron ($udd$).
+- **Mesons:** A quark--antiquark pair. Examples: pion ($\pi^+ = u\bar{d}$), kaon ($K^+ = u\bar{s}$).
+
+The strong force increases with distance (unlike gravity and electromagnetism, which decrease).
+Pulling Quarks apart stores energy in the colour field until it is energetically favourable to
+create a new Quark--antiquark pair (quark--antiquark pair production).
+
+### Properties of Quarks
+
+Each quark possesses: electric charge, colour charge, baryon number ($+1/3$ each), and flavour
+quantum Numbers (strangeness, charm, etc.). Antiquarks have opposite signs for all these quantities.
+
+## 3. Leptons
+
+Leptons are fundamental particles that do **not** experience the strong force.
+
+### The Six Leptons
+
+| Generation | Charged lepton   | Neutrino                    |
+| ---------- | ---------------- | --------------------------- |
+| 1          | Electron ($e^-$) | Electron neutrino ($\nu_e$) |
+| 2          | Muon ($\mu^-$)   | Muon neutrino ($\nu_\mu$)   |
+| 3          | Tau ($\tau^-$)   | Tau neutrino ($\nu_\tau$)   |
+
+Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$Etc.).
+
+### Conservation of Lepton Number
+
+Lepton number $L_e$, $L_\mu$, $L_\tau$ are conserved separately in all interactions. For example, In
+beta-minus decay:
+
+$$n \to p + e^- + \bar{\nu}_e$$
+
+$L_e$: $0 \to 0 + 1 + (-1) = 0$. Conserved.
+
+## 4. Hadrons: Baryons and Mesons
+
+Hadrons are composite particles made of quarks that experience the strong force.
+
+### Baryons
+
+Baryons consist of three quarks. They have baryon number $B = +1$ (antibaryons: $B = -1$).
+
+| Particle      | Quark content | Charge | Strangeness |
+| ------------- | ------------- | ------ | ----------- |
+| Proton ($p$)  | $uud$         | $+e$   | $0$         |
+| Neutron ($n$) | $udd$         | $0$    | $0$         |
+| $\Sigma^+$    | $uus$         | $+e$   | $-1$        |
+| $\Xi^-$       | $dss$         | $-e$   | $-2$        |
+| $\Omega^-$    | $sss$         | $-e$   | $-3$        |
+
+### Mesons
+
+Mesons consist of a quark--antiquark pair. They have baryon number $B = 0$.
+
+| Particle | Quark content            | Charge | Strangeness |
+| -------- | ------------------------ | ------ | ----------- |
+| $\pi^+$  | $u\bar{d}$               | $+e$   | $0$         |
+| $\pi^-$  | $\bar{u}d$               | $-e$   | $0$         |
+| $\pi^0$  | $u\bar{u}$ or $d\bar{d}$ | $0$    | $0$         |
+| $K^+$    | $u\bar{s}$               | $+e$   | $+1$        |
+| $K^-$    | $\bar{u}s$               | $-e$   | $-1$        |
+
+### Verifying Quark Content
+
+**Proton charge:** $q_p = 2\!\left(\frac{+2e}{3}\right) + \frac{-e}{3} = \frac{4e - e}{3} = +e$.
+$\checkmark$
+
+**Neutron charge:** $q_n = \frac{+2e}{3} + 2\!\left(\frac{-e}{3}\right) = \frac{2e - 2e}{3} = 0$.
+$\checkmark$
+
+**Beta-minus decay of a neutron:**
+
+$$udd \to uud + e^- + \bar{\nu}_e$$
+
+A $d$ quark converts to a $u$ quark (via the weak interaction, mediated by a $W^-$ boson):
+
+$$d \to u + W^-, \qquad W^- \to e^- + \bar{\nu}_e$$
+
+Strangeness changes by $\Delta S = +1$ (a strange quark is destroyed), consistent with the weak
+Interaction (which does not conserve strangeness).
+
+## 5. Conservation Laws
+
+In all particle interactions, the following quantities are **always conserved**:
+
+| Quantity                                 | Conserved in all interactions? |
+| ---------------------------------------- | ------------------------------ |
+| Energy                                   | Yes                            |
+| Momentum                                 | Yes                            |
+| Electric charge                          | Yes                            |
+| Lepton number ($L_e$, $L_\mu$, $L_\tau$) | Yes                            |
+| Baryon number ($B$)                      | Yes                            |
+| Strangeness ($S$)                        | Strong and EM only (not weak)  |
+
+:::caution Warning **not** by the weak interaction. Strange particles are always produced in pairs
+(associated production) Via the strong interaction (conserving $S$) but decay individually via the
+weak interaction.
+
+<details>
+<summary>Worked Example: Conservation Check</summary>
+Verify conservation laws for: $K^- + p \to \pi^+ + \pi^-$.
+
+Quark content: $K^- = \bar{u}s$$p = uud$$\pi^+ = u\bar{d}$$\pi^- = \bar{u}d$.
+
+**Charge:** $-1 + 1 = 1 + (-1) = 0$. Conserved. **Baryon number:** $0 + 1 = 0 + 0 = 1$. NOT
+conserved ($1 \neq 0$).
+
+This reaction **cannot occur** because baryon number is not conserved.
+
+Corrected reaction: $K^- + p \to \Lambda^0 + \pi^0$ (or other baryon + meson combinations).
+
+$\Lambda^0 = uds$$\pi^0 = u\bar{u}$ or $d\bar{d}$.
+
+**Charge:** $-1 + 1 = 0 + 0 = 0$. Conserved. **Baryon number:** $0 + 1 = 1 + 0 = 1$. Conserved.
+**Strangeness:** $+1 + 0 = -1 + 0 = -1$. Conserved.
+
+</details>
+
+## 6. Antiparticles
+
+Every particle has a corresponding antiparticle with the same mass but opposite values of all
+quantum Numbers (charge, baryon number, lepton number, strangeness).
+
+| Particle           | Antiparticle                 | Key difference                    |
+| ------------------ | ---------------------------- | --------------------------------- |
+| Electron ($e^-$)   | Positron ($e^+$)             | Charge reversed                   |
+| Proton ($p$)       | Antiproton ($\bar{p}$)       | Charge and baryon number reversed |
+| Neutrino ($\nu_e$) | Antineutrino ($\bar{\nu}_e$) | Lepton number reversed            |
+
+### Pair Production and Annihilation
+
+**Pair production:** A photon with energy at least $2m_e c^2 = 1.022$ MeV can create an
+Electron--positron pair ( near a nucleus to conserve momentum):
+
+$$\gamma \to e^- + e^+$$
+
+**Annihilation:** When a particle meets its antiparticle, they annihilate, converting their combined
+Rest mass energy into photons:
+
+$$e^- + e^+ \to 2\gamma$$
+
+Two photons are required (not one) to conserve both energy and momentum.
+
+### Dirac"s Prediction
 
 Dirac (1928) combined quantum mechanics with special relativity, obtaining an equation that
 Predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray

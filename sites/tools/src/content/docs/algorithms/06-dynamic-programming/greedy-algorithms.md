@@ -1,6 +1,27 @@
 ---
 title: Greedy Algorithms
-description: ""try all possibilities" to verify correctness | Probably No       |
+description: "A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy..."
+
+---
+
+## The Greedy Paradigm
+
+A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally
+Optimal solution. Unlike dynamic programming, greedy algorithms do not consider all possible
+Subproblems — they commit to a choice and never reconsider.
+
+### When to Consider Greedy
+
+| Signal                                                         | Try Greedy First? |
+| -------------------------------------------------------------- | ----------------- |
+| Problem has a matroid structure                                | Yes               |
+| Activity/resource scheduling with ordering                     | Yes               |
+| Huffman-like optimal prefix coding                             | Yes               |
+| Fractional version of a knapsack problem                       | Yes               |
+| MST or shortest path on non-negative weights                   | Yes               |
+| 0/1 knapsack, partition, edit distance                         | No (use DP)       |
+| TSP                                                            | No (NP-hard)      |
+| Problem requires "try all possibilities" to verify correctness | Probably No       |
 
 ## The Exchange Argument
 

@@ -1,6 +1,126 @@
 ---
 title: "Nuclear Energy -- Diagnostic Tests"
-description: ""s luminosity is $3.85 \times 10^{26}\,\text{W}$. Estimate the mass of hydrogen consumed
+description: "A-Level Physics Nuclear Energy -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Nuclear Energy — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Mass Defect and Binding Energy
+
+**Question:**
+
+The nucleus of helium-4 ($^{4}_{2}\text{He}$) has the following data:
+
+- Mass of proton $= 1.00728\,\text{u}$
+- Mass of neutron $= 1.00867\,\text{u}$
+- Mass of $^{4}_{2}\text{He}$ nucleus $= 4.00150\,\text{u}$
+
+(a) Calculate the mass defect of $^{4}_{2}\text{He}$ in unified atomic mass units and in MeV/c$^2$.
+
+(b) Calculate the binding energy per nucleon.
+
+(c) Explain why the binding energy per nucleon of $^{4}_{2}\text{He}$ is relatively high for a light
+nucleus.
+
+Take $1\,\text{u} = 931.5\,\text{MeV}/c^2$.
+
+**Solution:**
+
+(a) Mass defect: $\Delta m = Zm_p + Nm_n - m_{\text{nucleus}}$
+
+$$\Delta m = 2(1.00728) + 2(1.00867) - 4.00150 = 2.01456 + 2.01734 - 4.00150 = 0.03040\,\text{u}$$
+
+In MeV/c$^2$: $\Delta m = 0.03040 \times 931.5 = 28.3\,\text{MeV}/c^2$
+
+(b) Binding energy $= \Delta m \times 931.5 = 28.3\,\text{MeV}$
+
+Binding energy per nucleon $= 28.3/4 = 7.08\,\text{MeV}$
+
+(c) The binding energy per nucleon of $^{4}_{2}\text{He}$ ($7.08\,\text{MeV}$) is high for a light
+nucleus because it has equal numbers of protons and neutrons (2 and 2), giving it enhanced stability
+due to the pairing effect. Nuclei with even numbers of both protons and neutrons (doubly magic) are
+particularly stable. The binding energy per nucleon curve shows a peak in the region of iron-56
+($8.8\,\text{MeV/nucleon}$), and $^{4}_{2}\text{He}$ is already approaching this value. The high
+binding energy per nucleon makes $^{4}_{2}\text{He}$ (alpha particles) very tightly bound, which is
+why alpha decay is a common mode of radioactive decay.
+
+---
+
+### UT-2: Nuclear Fission Energy Calculation
+
+**Question:**
+
+A typical fission reaction is:
+
+$$^{235}_{\ 92}\text{U} + ^1_0\text{n} \to ^{141}_{\ 56}\text{Ba} + ^{92}_{36}\text{Kr} + 3^1_0\text{n}$$
+
+Masses:
+
+- $^{235}\text{U}$: $235.0439\,\text{u}$
+- $^{1}\text{n}$: $1.0087\,\text{u}$
+- $^{141}\text{Ba}$: $140.9139\,\text{u}$
+- $^{92}\text{Kr}$: $91.8973\,\text{u}$
+
+(a) Calculate the energy released per fission event.
+
+(b) Calculate the total energy released when $1.0\,\text{kg}$ of $^{235}\text{U}$ undergoes fission.
+
+(c) Compare this energy with the energy released by burning $1.0\,\text{kg}$ of coal (approximately
+$3.0 \times 10^7\,\text{J}$).
+
+Take
+$1\,\text{u} = 931.5\,\text{MeV}/c^2 = 1.661 \times 10^{-27}\,\text{kg}$, $1\,\text{MeV} = 1.60 \times 10^{-13}\,\text{J}$.
+
+**Solution:**
+
+(a) Total mass before: $m_{\text{before}} = 235.0439 + 1.0087 = 236.0526\,\text{u}$
+
+Total mass after:
+$m_{\text{after}} = 140.9139 + 91.8973 + 3(1.0087) = 140.9139 + 91.8973 + 3.0261 = 235.8373\,\text{u}$
+
+Mass defect: $\Delta m = 236.0526 - 235.8373 = 0.2153\,\text{u}$
+
+Energy released: $E = 0.2153 \times 931.5 = 200.6\,\text{MeV}$
+
+(b) Number of $^{235}\text{U}$ atoms in $1.0\,\text{kg}$:
+
+$$N = \frac◆LB◆1.0◆RB◆◆LB◆235.0439 \times 1.661 \times 10^{-27}◆RB◆ = \frac◆LB◆1.0◆RB◆◆LB◆3.904 \times 10^{-25}◆RB◆ = 2.561 \times 10^{24}$$
+
+Total energy: $E = 2.561 \times 10^{24} \times 200.6 \times 1.60 \times 10^{-13}$
+
+$$= 2.561 \times 10^{24} \times 3.210 \times 10^{-11} = 8.22 \times 10^{13}\,\text{J}$$
+
+(c) Ratio: $\frac◆LB◆8.22 \times 10^{13}◆RB◆◆LB◆3.0 \times 10^7◆RB◆ = 2.74 \times 10^6$
+
+Nuclear fission releases about **2.7 million times** more energy per kilogram than burning coal.
+This enormous energy density is why nuclear power is so attractive, despite the challenges of waste
+management and safety.
+
+---
+
+### UT-3: Fusion Energy and the Proton-Proton Chain
+
+**Question:**
+
+The first step of the proton-proton chain in the Sun is:
+
+$$p + p \to ^2_1\text{H} + e^+ + \nu_e + 0.42\,\text{MeV}$$
+
+The dominant overall reaction in the Sun is:
+
+$$4p \to ^4_2\text{He} + 2e^+ + 2\nu_e + 26.7\,\text{MeV}$$
+
+Masses:
+$m_p = 1.00728\,\text{u}$$m_{^{4}\text{He}} = 4.00150\,\text{u}$$m_{e^+} = 0.00055\,\text{u}$.
+
+(a) Verify the Q-value of the overall reaction using mass data.
+
+(b) Calculate the energy released per kilogram of hydrogen consumed.
+
+(c) The Sun"s luminosity is $3.85 \times 10^{26}\,\text{W}$. Estimate the mass of hydrogen consumed
 per second.
 
 Take

@@ -1,6 +1,29 @@
 ---
 title: Linux Security
-description: ""s UID, GID, groups
+description: "Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and..."
+
+---
+
+## User and Group Model
+
+Linux security is fundamentally built on the user and group model. Every process runs under a
+Specific UID (user ID) and GID (group ID), and every file and resource is owned by a UID/GID with
+Associated permissions.
+
+### User and Group Files
+
+| File              | Purpose                                                         |
+| ----------------- | --------------------------------------------------------------- |
+| `/etc/passwd`     | User accounts (UID, home dir, shell — password in shadow)       |
+| `/etc/shadow`     | Password hashes and aging (readable by root only)               |
+| `/etc/group`      | Group definitions (GID, members)                                |
+| `/etc/gshadow`    | Group password hashes (readable by root only)                   |
+| `/etc/skel/`      | Template directory for new user home directories                |
+| `/etc/login.defs` | Default settings for user creation (UID range, password policy) |
+
+```bash
+# View user information
+id                    # current user"s UID, GID, groups
 id username           # specific user
 finger username       # detailed user info
 getent passwd username  # from NSS (includes LDAP, etc.)

@@ -1,6 +1,73 @@
 ---
 title: "Plant Biology -- Diagnostic Tests"
-description: ""s law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
+description: "IB Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
+tableOfContents: false
+---
+
+# Plant Biology — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Photosynthesis Light-Dependent Reactions
+
+**Question:** In the light-dependent reactions, photosystem II (PSII) absorbs light at
+$680\ \text{nm}$ and photosystem I (PSI) at $700\ \text{nm}$. Calculate the energy of one photon at
+each wavelength. If non-cyclic photophosphorylation produces approximately 3 ATP and 2 NADPH per
+pair of electrons, calculate the theoretical energy capture efficiency, given that the hydrolysis of
+one ATP yields approximately $30.5\ \text{kJ mol}^{-1}$ and the reduction of $\text{NADP}^+$ to
+NADPH has $\Delta G \approx 220\ \text{kJ mol}^{-1}$.
+
+**Solution:**
+
+$E = \frac{hc}{\lambda}$Where
+$h = 6.626 \times 10^{-34}\ \text{J s}$, $c = 2.998 \times 10^8\ \text{m s}^{-1}$.
+
+PSII ($680\ \text{nm}$):
+$E = \frac{(6.626 \times 10^{-34})(2.998 \times 10^8)}{680 \times 10^{-9}} = 2.92 \times 10^{-19}\ \text{J}$
+per photon.
+
+Per mole: $E = 2.92 \times 10^{-19} \times 6.022 \times 10^{23} = 176\ \text{kJ mol}^{-1}$.
+
+PSI ($700\ \text{nm}$):
+$E = \frac{(6.626 \times 10^{-34})(2.998 \times 10^8)}{700 \times 10^{-9}} = 2.84 \times 10^{-19}\ \text{J}$
+per photon.
+
+Per mole: $E = 2.84 \times 10^{-19} \times 6.022 \times 10^{23} = 171\ \text{kJ mol}^{-1}$.
+
+Energy captured per pair of electrons:
+$3 \times 30.5 + 2 \times 220 = 91.5 + 440 = 531.5\ \text{kJ mol}^{-1}$.
+
+Total energy absorbed (2 photons from PSII + 2 from PSI):
+$2 \times 176 + 2 \times 171 = 352 + 342 = 694\ \text{kJ mol}^{-1}$.
+
+Efficiency: $\frac{531.5}{694} \times 100 = 76.6\%$.
+
+This is the theoretical maximum efficiency of the light-dependent reactions. In practice, overall
+photosynthetic efficiency (including the Calvin cycle) is much lower, 3--6% of incident solar
+energy.
+
+---
+
+### UT-2: Transpiration and Water Potential
+
+**Question:** A leaf has a stomatal pore of dimensions $10\ \mu\text{m} \times 40\ \mu\text{m}$. The
+leaf has 200 stomata per $\text{mm}^2$ on the lower surface only. The water vapour concentration
+inside the leaf is $23\ \text{g m}^{-3}$ and outside is $10\ \text{g m}^{-3}$. The diffusion
+coefficient of water vapour in air is $2.4 \times 10^{-5}\ \text{m}^2\text{s}^{-1}$And the boundary
+layer thickness is $1\ \text{mm}$. Estimate the transpiration rate from $1\ \text{cm}^2$ of leaf
+surface in $\text{mg hr}^{-1}$.
+
+**Solution:**
+
+Stomatal pore area: $10 \times 40 = 400\ \mu\text{m}^2 = 400 \times 10^{-12}\ \text{m}^2$ per stoma.
+
+Total stomatal area per $\text{mm}^2$:
+$200 \times 400 \times 10^{-12} = 8 \times 10^{-8}\ \text{m}^2\text{ mm}^{-2}$.
+
+Per $\text{cm}^2$ ($= 100\ \text{mm}^2$): total pore area
+$= 100 \times 8 \times 10^{-8} = 8 \times 10^{-6}\ \text{m}^2$.
+
+Using Fick"s law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
 
 $J = (2.4 \times 10^{-5}) \times (8 \times 10^{-6}) \times \frac{23 - 10}{0.001}$
 

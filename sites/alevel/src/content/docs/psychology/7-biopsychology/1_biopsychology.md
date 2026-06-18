@@ -6,7 +6,43 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: ""fight or flight"). Increases
+description: "A-Level Biopsychology notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision and exam readiness."
+
+---
+
+# Biopsychology
+
+## Introduction
+
+Biopsychology (also called biological psychology or behavioural neuroscience) examines how
+biological structures and processes influence behaviour and mental processes. This section covers
+the structure and function of the nervous system, neurons and synaptic transmission, localisation of
+function in the brain, plasticity and functional recovery, methods of studying the brain, and
+biological rhythms.
+
+## Key Concepts
+
+### The Nervous System
+
+The nervous system is a complex network of cells that carries information throughout the body. It is
+divided into two main systems:
+
+**1. Central Nervous System (CNS):**
+
+- **Brain:** The centre of conscious awareness and higher cognitive functions. Composed of the
+  cerebral cortex (responsible for higher mental functions), cerebellum (motor coordination and
+  balance), and brainstem (vital functions: breathing, heart rate).
+- **Spinal cord:** A bundle of nerve fibres that connects the brain to the peripheral nervous
+  system. Responsible for simple reflexes (fast, involuntary responses that bypass the brain) and
+  relaying information between the brain and the body.
+
+**2. Peripheral Nervous System (PNS):**
+
+- **Somatic nervous system:** Controls voluntary movement of skeletal muscles and receives sensory
+  information from the external environment.
+- **Autonomic nervous system (ANS):** Controls involuntary functions (heart rate, digestion,
+  breathing). Divided into:
+  - **Sympathetic nervous system:** Activates the body for action ("fight or flight"). Increases
     heart rate, dilates pupils, inhibits digestion, releases adrenaline.
   - **Parasympathetic nervous system:** Returns the body to a calm, resting state ("rest and
     digest"). Decreases heart rate, constricts pupils, stimulates digestion.

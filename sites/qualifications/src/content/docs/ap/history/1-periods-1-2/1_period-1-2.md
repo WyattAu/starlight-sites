@@ -1,6 +1,57 @@
 ---
 title: Periods 1-2 (1491-1754)
-description: ""s Roanoke colony, 1585-1587, the "Lost
+description: "Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - ap
+  - ap-history
+categories:
+  - ap-history
+
+---
+
+## Period 1: 1491-1607
+
+### Native American Societies Before Contact
+
+Before European contact, the Americas were home to diverse and complex societies with populations
+estimated between 50 and 100 million. Key regional cultures included:
+
+- **North American Southwest**: Ancestral Pueblo (Anasazi) built adobe dwellings and developed
+  irrigation systems. The Mogollon and Hohokam cultures also thrived in the region.
+- **Mississippi Valley**: The Mississippian culture built large ceremonial centres at Cahokia (near
+  present-day St. Louis) with mound-building, stratified social hierarchies, and extensive trade
+  networks. Cahokia reached its peak around 1100 CE with a population estimated at 10,000-20,000.
+- **Great Plains and Great Basin**: Semi-nomadic societies relied on buffalo hunting and seasonal
+  migration. These groups would later adopt horses introduced by the Spanish.
+- **Northeast**: Iroquois (Haudenosaunee) Confederacy of five (later six) nations developed a
+  sophisticated political alliance governed by the Great Law of Peace. The Confederacy featured a
+  representative council system and collective decision-making.
+- **Pacific Northwest**: Societies such as the Chinook and Kwakiutl developed complex economies
+  based on fishing (especially salmon) and potlatch ceremonial exchange systems.
+- **Mesoamerica and South America**: The Aztec Empire (central Mexico) and Inca Empire (Andes)
+  controlled vast territories with advanced agricultural, architectural, and administrative systems.
+
+### European Exploration
+
+**Spanish Exploration**:
+
+- 1492: Christopher Columbus, sponsored by Spain, landed in the Bahamas, initiating sustained
+  European contact with the Americas
+- Hernan Cortes conquered the Aztec Empire (1519-1521) using military technology, alliances with
+  Aztec enemies, and disease
+- Francisco Pizarro conquered the Inca Empire (1532)
+- Spanish established encomienda system: granted Native Americans to Spanish colonists in exchange
+  for labour and Christianisation
+- Bartolome de Las Casas criticised Spanish treatment of Native Americans, leading to the New Laws
+  of 1542 (weakly enforced)
+
+**Other European Explorers**:
+
+- Portuguese established trading posts and plantations in Brazil (sugar cultivation)
+- French explored the St. Lawrence River and Great Lakes (Jacques Cartier, 1534; Samuel de
+  Champlain, 1608, founded Quebec)
+- English explorers (John Cabot, 1497; Sir Walter Raleigh"s Roanoke colony, 1585-1587, the "Lost
   Colony")
 - Dutch established trading networks in present-day New York (New Netherland, 1624)
 

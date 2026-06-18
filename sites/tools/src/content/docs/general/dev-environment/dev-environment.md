@@ -1,6 +1,33 @@
 ---
 title: Development Environment Setup
-description: ""none"
+description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode Support, and fast image rendering: "''
+
+---
+
+## Terminal Emulators
+
+### GPU-Accelerated Terminals
+
+Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode
+Support, and fast image rendering:
+
+| Terminal  | Renderer     | Platform              | Key Features                                             |
+| --------- | ------------ | --------------------- | -------------------------------------------------------- |
+| Alacritty | Vulkan/Metal | Linux, macOS, Windows | Fastest, minimal config (YAML), GPU-first                |
+| Kitty     | OpenGL       | Linux, macOS          | Image support, tabs, ligatures, layout management        |
+| WezTerm   | WebGL/Metal  | Linux, macOS, Windows | Built-in multiplexer, Lua config, image protocol         |
+| Ghostty   | Vulkan/Metal | Linux, macOS          | New, fast, system-native font rendering                  |
+| iTerm2    | Metal        | macOS                 | macOS-only, extensive features, splits, tmux integration |
+
+### Terminal Configuration
+
+Alacritty example configuration (`~/.config/alacritty/alacritty.toml`):
+
+```toml
+[window]
+opacity = 0.95
+padding = { x = 8, y = 8 }
+decorations = "none"
 
 [font]
 normal = { family = "JetBrains Mono", style = "Regular" }

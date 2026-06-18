@@ -1,6 +1,6 @@
 ---
 title: Relational Theory
-description: "" The model provides a mathematically...''
+description: "E.F. Codd introduced the relational model in his 1970 paper "A Relational Model of Data for Large Shared Data Banks." The model provides a mathematically...''
 tags:
   - Databases
 categories:

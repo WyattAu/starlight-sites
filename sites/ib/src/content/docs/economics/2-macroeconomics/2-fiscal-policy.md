@@ -1,6 +1,183 @@
 ---
 title: Fiscal Policy
-description: "" welfare through bequests)
+description: "Fiscal policy involves government decisions about taxation and spending to influ Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Fiscal Policy
+
+Fiscal policy involves government decisions about taxation and spending to influence the economy.
+
+### Expansionary Fiscal Policy
+
+Used during recessions to stimulate aggregate demand:
+
+- **Increase government spending** ($G \uparrow$) -- direct injection into the economy
+- **Decrease taxes** ($T \downarrow$) -- increases disposable income, boosting consumption ($C$) and
+  investment ($I$)
+- **Increase transfer payments** (unemployment benefits, welfare) -- supports household incomes
+
+### Contractionary Fiscal Policy
+
+Used to reduce inflationary pressures:
+
+- **Decrease government spending** ($G \downarrow$)
+- **Increase taxes** ($T \uparrow$)
+- **Decrease transfer payments**
+
+### The Multiplier Effect
+
+The fiscal multiplier captures the idea that an initial change in spending generates a larger total
+Change in national income through successive rounds of spending and re-spending.
+
+**Simple multiplier (no taxes, no imports):**
+
+$$k = \frac{1}{1 - \mathrm{MPC}} = \frac{1}{\mathrm{MPS}}$$
+
+Where MPC is the marginal propensity to consume and MPS is the marginal propensity to save
+($\mathrm{MPC} + \mathrm{MPS} = 1$).
+
+An initial government spending increase of $\Delta G$ leads to a total change in output of:
+
+$$\Delta Y = k \times \Delta G = \frac{\Delta G}{1 - \mathrm{MPC}}$$
+
+**The multiplier with proportional taxation:**
+
+$$k_T = \frac{1}{1 - \mathrm{MPC}(1 - t)}$$
+
+Where $t$ is the marginal tax rate. Higher taxes reduce the multiplier because they leak spending
+Power out of the circular flow at each round.
+
+**The multiplier with imports:**
+
+$$k_{T,M} = \frac{1}{\mathrm{MPS} + t \times \mathrm{MPC} + \mathrm{MPM}}$$
+
+Where MPM is the marginal propensity to import. Imports are a leakage from the circular flow.
+
+**Worked example:** if $\mathrm{MPC} = 0.75$, $t = 0.2$And $\mathrm{MPM} = 0.1$:
+
+$$k = \frac{1}{0.25 + 0.2 \times 0.75 + 0.1} = \frac{1}{0.25 + 0.15 + 0.1} = \frac{1}{0.50} = 2$$
+
+A `USD 100` billion increase in government spending would increase GDP by `USD 200` billion.
+
+### The Balanced Budget Multiplier
+
+If government spending and taxes increase by the same amount ($\Delta G = \Delta T$), the net effect
+On GDP is positive but smaller than the spending multiplier alone:
+
+$$k_B = \frac{\Delta Y}{\Delta G} = 1$$
+
+A `USD 100` billion increase in both $G$ and $T$ increases GDP by `USD 100` billion. The government
+Spending injection has a direct multiplier effect, while the tax increase reduces disposable income
+By only the amount of the tax, and the induced reduction in consumption is MPC times the tax.
+
+### Budget Position
+
+- **Budget deficit**: $G > T$ (government spending exceeds tax revenue)
+- **Budget surplus**: $T > G$
+- **Balanced budget**: $G = T$
+- **Public debt**: the accumulated total of past budget deficits, representing total government
+  borrowing obligations
+
+**Cyclical vs. Structural budget balance:**
+
+- The **cyclical deficit** is the portion of the deficit attributable to the business cycle (lower
+  tax revenues and higher transfer payments during recessions)
+- The **structural deficit** is the deficit that would exist even at full employment, reflecting the
+  underlying fiscal stance independent of the cycle
+
+### Limitations of Fiscal Policy
+
+- **Time lags**: recognition lag (identifying the problem), decision lag (political process of
+  approving spending or tax changes), implementation lag (projects take time to begin)
+- **Crowding out**: increased government borrowing to finance a deficit may raise interest rates,
+  reducing private investment. The extent of crowding out depends on the state of the economy (it is
+  less significant during deep recessions when resources are idle)
+- **Size of the multiplier**: if the multiplier is small (due to high MPS, high MPM, or high tax
+  rates), fiscal policy has limited impact
+- **Political constraints**: tax increases and spending cuts are politically unpopular; deficit
+  spending may face opposition
+- **Inefficiency**: government spending may not be directed to the most productive uses
+- **Ricardian equivalence**: the proposition that households anticipate future tax liabilities from
+  current deficit spending and therefore save rather than spend any tax cuts, neutralising the
+  fiscal stimulus. Empirical support is limited but the concept highlights the importance of
+  expectations
+
+## Fiscal Policy in Depth (HL Extension)
+
+### Automatic Stabilisers
+
+Automatic stabilisers are features of the tax and transfer system that automatically dampen Economic
+fluctuations without any deliberate policy action:
+
+- **Progressive income taxes**: as incomes rise during booms, taxpayers move into higher brackets,
+  paying a larger fraction of income in tax. During recessions, falling incomes reduce tax
+  liabilities, leaving more disposable income
+- **Unemployment benefits**: when unemployment rises during recessions, transfer payments
+  automatically increase, supporting household incomes and cushioning the fall in consumption
+- **Welfare benefits**: means-tested benefits automatically increase when incomes fall
+- **Corporate taxes**: profits fall during recessions, reducing corporate tax liabilities
+
+**Effect on the multiplier:** automatic stabilisers reduce the effective multiplier by increasing
+The cyclically-adjusted budget deficit during recessions (providing stimulus) and reducing it During
+booms (restraining demand).
+
+### Discretionary vs. Automatic Fiscal Policy
+
+| Feature              | Automatic                         | Discretionary                                             |
+| -------------------- | --------------------------------- | --------------------------------------------------------- |
+| Timing               | Immediate (built into the system) | Subject to recognition, decision, and implementation lags |
+| Political process    | No legislation required           | Requires legislative approval                             |
+| Cyclical sensitivity | Automatically counter-cyclical    | May be pro-cyclical if poorly timed                       |
+| Predictability       | Highly predictable                | Uncertain (depends on political negotiations)             |
+
+### Crowding Out
+
+**Full crowding out:** in a classical (full-employment) economy, increased government spending
+Raises demand for loanable funds, increasing the interest rate and reducing private investment by
+Exactly the amount of the fiscal expansion. $\Delta G$ is fully offset by $\Delta I$.
+
+$$\Delta Y = 0 \text{ (in the classical case)}$$
+
+**Partial crowding out:** in a Keynesian framework with idle resources, the interest rate rise
+Reduces some investment but not all. The net increase in output is positive but smaller than the
+Simple multiplier predicts.
+
+$$0 < \Delta Y < k \cdot \Delta G$$
+
+**No crowding out:** at the zero lower bound or in a deep recession (liquidity trap), increased
+Government spending does not raise interest rates because the central bank accommodates the fiscal
+Expansion. The full multiplier operates:
+
+$$\Delta Y = k \cdot \Delta G$$
+
+**Factors determining the degree of crowding out:**
+
+- State of the economy: more crowding out at full employment, less during recessions
+- Elasticity of investment demand for interest rates: more elastic investment $\implies$ more
+  crowding out
+- Central bank response: if the central bank accommodates (maintains interest rates), crowding out
+  is minimised
+- Openness of the economy: higher interest rates attract capital inflows, appreciating the exchange
+  rate and reducing net exports (further crowding out)
+
+### Ricardian Equivalence
+
+Proposed by Robert Barro (1974), Ricardian equivalence states that households are forward-looking
+And understand that current deficit spending must be financed by future taxes. Therefore:
+
+$$\text{Tax cut today} = \text{Tax increase tomorrow (with interest)}$$
+
+Households save the entire tax cut to pay future taxes, leaving consumption unchanged:
+
+$$\Delta C = 0, \quad \Delta S = \Delta T_{\text{cut}}$$
+
+**Conditions for Ricardian equivalence to hold:**
+
+1. Perfect capital markets (households can borrow and save freely)
+2. Infinite horizons (households care about their descendants" welfare through bequests)
 3. Lump-sum taxes (not distortionary)
 4. Full information about future government obligations
 

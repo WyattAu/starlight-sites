@@ -1,6 +1,46 @@
 ---
 title: Type Classes
-description: ""Red", show Green = "Green", show Blue = "Blue"
+description: "Type classes are Haskell''s mechanism for -- defining interfaces that types can implement. Unlike OOP interfaces, type classes are separate from data types..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Haskell
+categories:
+  - Haskell
+
+---
+
+## What Are Type Classes?
+
+Type classes are Haskell's mechanism for **ad hoc polymorphism** -- defining interfaces that types
+can implement. Unlike OOP interfaces, type classes are separate from data types and can be added
+after the type is defined (unlike in most OOP languages). A type class declares a set of functions
+(called **methods**) that implementing types must define.
+
+```haskell
+-- Define a type class
+class Eq a where
+  (==) :: a -> a -> Bool
+  (/=) :: a -> a -> Bool
+
+-- Make a type an instance of the class
+instance Eq Bool where
+  True  == True  = True
+  False == False = True
+  _     == _     = False
+
+  x /= y = not (x == y)
+```
+
+## The deriving Mechanism
+
+Haskell can automatically generate instances for many standard type classes:
+
+```haskell
+data Color = Red | Green | Blue
+  deriving (Show, Eq, Ord, Enum, Bounded)
+
+-- This automatically generates:
+-- show Red = "Red", show Green = "Green", show Blue = "Blue"
 -- Red == Red = True, Red == Green = False, etc.
 -- Red < Green = True, Green < Blue = True, etc.
 -- [Red .. Blue] = [Red, Green, Blue]

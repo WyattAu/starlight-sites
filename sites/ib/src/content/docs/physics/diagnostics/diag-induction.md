@@ -1,6 +1,14 @@
 ---
 title: "Induction -- Diagnostic Tests"
-description: ""s Law (Magnitude) vs Lenz's Law (Direction)
+description: "IB Physics Induction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
+tableOfContents: false
+---
+
+# Induction — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Faraday"s Law (Magnitude) vs Lenz's Law (Direction)
 
 **Question:**
 

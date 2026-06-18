@@ -1,6 +1,169 @@
 ---
 title: Entropy and Gibbs Free Energy
-description: ""Spontaneous" does not mean "fast" -- kinetics determines the rate; thermodynamics determines the
+description: "Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The Dissolution of ammonium nitrate in water is endothermic yet..."
+date: 2026-04-22T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Entropy and Gibbs Free Energy
+
+Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The
+Dissolution of ammonium nitrate in water is endothermic yet proceeds spontaneously. The
+Decomposition of calcium carbonate requires continuous heating. To resolve these cases, we need a
+Second state function: entropy, and its combination with enthalpy in the Gibbs free energy.
+
+## Entropy ($S$)
+
+### Statistical Definition
+
+Entropy is a measure of the number of microstates ($W$) accessible to a system -- that is, the
+Number of ways the energy of the system can be distributed among its particles:
+
+$$
+S = k_B \ln W
+$$
+
+Where $k_B = 1.381 \times 10^{-23}\,\mathrm{J/K}$ is the Boltzmann constant. A system with more
+Accessible microstates has higher entropy. This is the Boltzmann equation, engraved on his
+Tombstone.
+
+### Thermodynamic Definition
+
+The entropy change is defined as:
+
+$$
+\Delta S = \int \frac◆LB◆\delta q_\mathrm{rev}◆RB◆◆LB◆T◆RB◆
+$$
+
+For an isothermal process:
+
+$$
+\Delta S = \frac◆LB◆q_\mathrm{rev}◆RB◆◆LB◆T◆RB◆
+$$
+
+This shows that entropy is heat divided by temperature. Transferring a given amount of heat at a
+Lower temperature produces a larger entropy change than at a higher temperature.
+
+### Factors Affecting Entropy
+
+| Factor                                | Effect on $S$ | Rationale                                                        |
+| ------------------------------------- | ------------- | ---------------------------------------------------------------- |
+| More gas molecules produced           | Increase      | More ways to distribute energy among more particles              |
+| Change from solid to liquid to gas    | Increase      | Gases have the most microstates; solids the fewest               |
+| Higher temperature                    | Increase      | More energy available to distribute; more accessible microstates |
+| Dissolution of a solid ionic compound | Increase ()   | Ions dispersed in solution have more freedom than in the lattice |
+| Fewer moles of gas                    | Decrease      | Fewer particles, fewer microstates                               |
+| Increased pressure of a gas           | Decrease      | Reduced volume constrains the available positions                |
+
+### Standard Entropy Values ($S^\circ$)
+
+Standard entropies are **absolute values** (not relative to a reference, unlike enthalpy). At
+$0\,\mathrm{K}$A perfect crystal has $S = 0$ (third law of thermodynamics). Standard entropies are
+Always positive.
+
+Typical values ($\mathrm{J\,mol^{-1}\,K^{-1}}$):
+
+| Substance                       | $S^\circ$ |
+| ------------------------------- | --------- |
+| $\mathrm{C}(\mathrm{diamond})$  | 2.4       |
+| $\mathrm{C}(\mathrm{graphite})$ | 5.7       |
+| $\mathrm{Fe}(s)$                | 27.3      |
+| $\mathrm{NaCl}(s)$              | 72.1      |
+| $\mathrm{H}_2\mathrm{O}(l)$     | 69.9      |
+| $\mathrm{H}_2\mathrm{O}(g)$     | 188.8     |
+| $\mathrm{CO}_2(g)$              | 213.7     |
+| $\mathrm{N}_2(g)$               | 191.6     |
+
+Gases have much higher standard entropies than liquids and solids. Diamond has a lower entropy than
+Graphite due to its more rigid, ordered structure.
+
+### Standard Entropy Change
+
+$$
+\Delta S^\circ = \sum S^\circ(\mathrm{products}) - \sum S^\circ(\mathrm{reactants})
+$$
+
+**Worked Example.** Calculate $\Delta S^\circ$ for the thermal decomposition of calcium carbonate:
+
+$$
+\mathrm{CaCO}_3(s) \to \mathrm{CaO}(s) + \mathrm{CO}_2(g)
+$$
+
+$$
+\Delta S^\circ = S^\circ(\mathrm{CaO}) + S^\circ(\mathrm{CO}_2) - S^\circ(\mathrm{CaCO}_3) = 38.1 + 213.7 - 92.9 = +158.9\,\mathrm{J\,mol^{-1}\,K^{-1}}
+$$
+
+The entropy increases because a gas is produced from a solid, creating many more microstates.
+
+## The Second Law of Thermodynamics
+
+The total entropy of the universe increases in any spontaneous process:
+
+$$
+\Delta S_\mathrm{universe} = \Delta S_\mathrm{system} + \Delta S_\mathrm{surroundings} \gt 0
+$$
+
+At equilibrium: $\Delta S_\mathrm{universe} = 0$.
+
+### Entropy Change of the Surroundings
+
+The surroundings gain or lose heat as a result of the reaction. The entropy change of the
+Surroundings is:
+
+$$
+\Delta S_\mathrm{surroundings} = -\frac◆LB◆\Delta H_\mathrm{system}◆RB◆◆LB◆T◆RB◆
+$$
+
+The negative sign arises because when the system releases heat (exothermic, $\Delta H \lt 0$), the
+Surroundings gain that heat and their entropy increases. When the system absorbs heat (endothermic,
+$\Delta H \gt 0$), the surroundings lose heat and their entropy decreases.
+
+Combining with the second law:
+
+$$
+\Delta S_\mathrm{universe} = \Delta S_\mathrm{system} - \frac◆LB◆\Delta H_\mathrm{system}◆RB◆◆LB◆T◆RB◆ \gt 0
+$$
+
+Multiplying through by $T$ (which is always positive):
+
+$$
+T\Delta S_\mathrm{system} - \Delta H_\mathrm{system} \gt 0
+$$
+
+Rearranging:
+
+$$
+\Delta H_\mathrm{system} - T\Delta S_\mathrm{system} \lt 0
+$$
+
+## Gibbs Free Energy ($G$)
+
+### Derivation
+
+The inequality above defines the Gibbs free energy:
+
+$$
+\Delta G = \Delta H - T\Delta S
+$$
+
+This is the most important equation in chemical thermodynamics. It combines the enthalpy and entropy
+Contributions into a single quantity that determines spontaneity.
+
+### Spontaneity Criterion
+
+| $\Delta G$       | Process                                          |
+| ---------------- | ------------------------------------------------ |
+| $\Delta G \lt 0$ | Spontaneous (thermodynamically favourable)       |
+| $\Delta G = 0$   | At equilibrium                                   |
+| $\Delta G \gt 0$ | Non-spontaneous (thermodynamically unfavourable) |
+
+A spontaneous process is one that proceeds without external intervention once initiated.
+"Spontaneous" does not mean "fast" -- kinetics determines the rate; thermodynamics determines the
 Direction.
 
 ### Standard Gibbs Free Energy Change

@@ -1,6 +1,19 @@
 ---
 title: Classes and Inheritance
-description: ""s
+description: "In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when..."
+date: 2025-06-04T13:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## Class Definition
+
+In Python, a class is created with the `class` keyword. A class is itself an object -- an instance
+Of `type`. The body of a `class` statement executes at definition time (when the module is imported
+Or the function containing it is called), and the resulting namespace dictionary becomes the class"s
 `__dict__`.
 
 ```python

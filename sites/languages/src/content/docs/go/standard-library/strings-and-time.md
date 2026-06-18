@@ -5,7 +5,18 @@ tags:
   - Go
 categories:
   - Go
-description: ""hello world", "world")    // true
+description: "The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather..."
+---
+
+## strings Package
+
+The `strings` package provides functions for manipulating UTF-8 encoded strings. Strings in Go are
+immutable byte slices -- all operations return new strings rather than modifying in place.
+
+### Searching
+
+```go
+strings.Contains("hello world", "world")    // true
 strings.HasPrefix("hello", "hel")            // true
 strings.HasSuffix("hello", "llo")            // true
 strings.Index("hello", "ll")                 // 2

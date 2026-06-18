@@ -1,6 +1,52 @@
 ---
 title: Basics and Pattern Matching
-description: ""42")
+description: "Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Elixir
+categories:
+  - Elixir
+
+---
+
+## Data Types
+
+Elixir has a rich set of built-in data types. Understanding these types and their properties is
+fundamental to writing idiomatic Elixir code.
+
+### Integers
+
+Integers in Elixir have arbitrary precision. There is no fixed-size integer type; the VM
+automatically allocates memory as needed for large values.
+
+```elixir
+# Decimal notation
+42
+1_000_000
+0xFF       # hexadecimal
+0o777      # octal
+0b1010     # binary
+
+# Arithmetic
+iex> 2 + 3
+5
+iex> 10 - 4
+6
+iex> 3 * 7
+21
+iex> div(10, 3)
+3
+iex> rem(10, 3)
+1
+
+# Arbitrary precision
+iex> factorial(50)  # 64-digit number, no overflow
+30414093201713378043612608166064768844377641568960512000000000000
+
+# Integer functions
+iex> Integer.is_odd(5)
+true
+iex> Integer.parse("42")
 {42, ""}
 iex> Integer.to_string(255, 16)
 "FF"

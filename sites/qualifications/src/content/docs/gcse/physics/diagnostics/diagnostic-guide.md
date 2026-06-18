@@ -1,6 +1,17 @@
 ---
 title: "GCSE Physics -- Diagnostic Guide"
-description: ""s law, series/parallel circuits, power, domestic electricity  | `electricity.md`                    |
+description: "| Diagnostic File | Topics Covered | Source File | | --------------------- | --------------------------------------------------------------------------------..."
+tableOfContents: false
+---
+
+# GCSE Physics — Diagnostic Guide
+
+## Coverage Map
+
+| Diagnostic File       | Topics Covered                                                                                  | Source File                         |
+| --------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------- |
+| `diag-energy.md`      | Energy stores, transfers, conservation, efficiency, specific heat capacity, work and power      | `energy.md`                         |
+| `diag-electricity.md` | Current, voltage, resistance, Ohm"s law, series/parallel circuits, power, domestic electricity  | `electricity.md`                    |
 | `diag-forces.md`      | Newton's laws, weight/mass, Hooke's law, momentum, pressure, circular motion, terminal velocity | `forces.md`                         |
 | `diag-waves.md`       | Wave properties, EM spectrum, reflection, refraction, sound waves, interference                 | `waves.md`                          |
 | `diag-magnetism.md`   | Magnetic fields, electromagnets, motor effect, electromagnetic induction, transformers          | `magnetism-and-electromagnetism.md` |

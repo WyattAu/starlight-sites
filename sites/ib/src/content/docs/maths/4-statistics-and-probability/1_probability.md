@@ -1,6 +1,32 @@
 ---
 title: Probability
-description: "") = 1 - P(A)
+description: "Rigorous IB mathematics notes covering Probability. Includes definitions, derivations, worked examples, and exam-style problems. and distributions."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## Probability Fundamentals
+
+### Sample Space and Events
+
+The **sample space** $\Omega$ (or $S$) is the set of all possible outcomes of an experiment. An
+**event** $A$ is a subset of the sample space.
+
+### Probability Axioms (Kolmogorov)
+
+1. $P(A) \ge 0$ for every event $A$.
+2. $P(\Omega) = 1$.
+3. If $A_1, A_2, \ldots$ are mutually exclusive events, then:
+
+$$
+P\!\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)
+$$
+
+### Complementary Events
+
+$$
+P(A") = 1 - P(A)
 $$
 
 Where $A'$ (or $\bar{A}$) is the complement of $A$.

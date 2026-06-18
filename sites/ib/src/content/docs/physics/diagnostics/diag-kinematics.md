@@ -1,6 +1,230 @@
 ---
 title: "Kinematics -- Diagnostic Tests"
-description: ""s coordinates satisfy $y = x\tan\alpha$.
+description: "IB Physics Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
+tableOfContents: false
+---
+
+# Kinematics — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Projectile That Never Reaches Its Target
+
+**Question:**
+
+A ball is thrown from point $A$ at the base of a cliff with initial speed
+$28\,\text{m}\,\text{s}^{-1}$ at an angle of $65^\circ$ above the horizontal. Point $B$ is at the
+top of the cliff, a vertical height $h = 35\,\text{m}$ above $A$. The horizontal distance from $A$
+to the base of the cliff directly below $B$ is $d$.
+
+(a) Calculate the time at which the ball is at the same height as $B$.
+
+(b) Calculate the horizontal distance $d$ for the ball to land exactly at $B$.
+
+(c) Calculate the speed and direction of the ball at $B$.
+
+Take $g = 9.81\,\text{m}\,\text{s}^{-2}$. Ignore air resistance.
+
+**Solution:**
+
+Resolving the initial velocity:
+
+- Horizontal: $u_x = 28\cos 65^\circ = 28 \times 0.4226 = 11.83\,\text{m}\,\text{s}^{-1}$
+- Vertical: $u_y = 28\sin 65^\circ = 28 \times 0.9063 = 25.38\,\text{m}\,\text{s}^{-1}$
+
+(a) Using $s = ut + \frac{1}{2}at^2$ for the vertical motion, taking upward as positive:
+
+$$35 = 25.38t - \frac{1}{2}(9.81)t^2$$
+
+$$4.905t^2 - 25.38t + 35 = 0$$
+
+Using the quadratic formula:
+
+$$t = \frac{25.38 \pm \sqrt{25.38^2 - 4 \times 4.905 \times 35}}{2 \times 4.905}$$
+
+$$t = \frac{25.38 \pm \sqrt{644.1 - 686.7}}{9.81}$$
+
+The discriminant is $644.1 - 686.7 = -42.6 \lt 0$.
+
+Since the discriminant is negative, the ball **never reaches** the height of $B$. The maximum height
+is:
+
+$$h_{\max} = \frac{u_y^2}{2g} = \frac{25.38^2}{2 \times 9.81} = \frac{644.1}{19.62} = 32.83\,\text{m}$$
+
+Since $32.83\,\text{m} \lt 35\,\text{m}$The ball cannot reach $B$. The student must recognise when
+the mathematics reveals a physical impossibility rather than blindly computing.
+
+(b) Not applicable -- the ball does not reach $B$.
+
+(c) The maximum height is $32.83\,\text{m}$Reached at time
+$t = u_y/g = 25.38/9.81 = 2.586\,\text{s}$.
+
+At maximum height, $v_y = 0$ and $v_x = 11.83\,\text{m}\,\text{s}^{-1}$ (unchanged), so the speed is
+$11.83\,\text{m}\,\text{s}^{-1}$ horizontally.
+
+The question asks for the speed at height $B$Which is unattainable. This is the key challenge:
+recognising the physical constraint from the mathematics.
+
+---
+
+### UT-2: Displacement vs Distance on a Non-Standard Velocity-Time Graph
+
+**Question:**
+
+A car moves along a straight road. Its velocity-time graph consists of three regions:
+
+- Region I ($0 \le t \le 4\,\text{s}$): $v = 3t^2 - 4t\,\text{m}\,\text{s}^{-1}$
+- Region II ($4 \lt t \le 10\,\text{s}$): $v = 40 - 5t\,\text{m}\,\text{s}^{-1}$
+- Region III ($10 \lt t \le 14\,\text{s}$): $v = -10\,\text{m}\,\text{s}^{-1}$ (constant)
+
+(a) Calculate the displacement of the car at $t = 14\,\text{s}$ relative to its starting position.
+
+(b) Calculate the total distance travelled.
+
+(c) At what time(s) does the car return to its starting position?
+
+**Solution:**
+
+(a) **Displacement** = area under $v$-$t$ graph (signed area).
+
+**Region I** ($0 \le t \le 4$):
+$\displaystyle s_I = \int_0^4 (3t^2 - 4t)\,dt = \left[t^3 - 2t^2\right]_0^4 = (64 - 32) - 0 = 32\,\text{m}$
+
+At $t = 4$: $v = 3(16) - 16 = 32\,\text{m}\,\text{s}^{-1}$.
+
+**Region II** ($4 \lt t \le 10$):
+$\displaystyle s_{II} = \int_4^{10} (40 - 5t)\,dt = \left[40t - 2.5t^2\right]_4^{10}$
+
+$= (400 - 250) - (160 - 40) = 150 - 120 = 30\,\text{m}$
+
+At $t = 10$: $v = 40 - 50 = -10\,\text{m}\,\text{s}^{-1}$.
+
+**Region III** ($10 \lt t \le 14$): $v = -10$So $s_{III} = -10 \times 4 = -40\,\text{m}$
+
+**Total displacement:** $s = 32 + 30 - 40 = 22\,\text{m}$
+
+(b) **Total distance** requires finding when the velocity changes sign.
+
+In Region I: $v = 3t^2 - 4t = t(3t - 4) = 0$ at $t = 0$ and $t = 4/3 = 1.333\,\text{s}$.
+
+For $0 \lt t \lt 4/3$: $v \lt 0$ (e.g. $t = 1$: $v = 3 - 4 = -1$)
+
+For $4/3 \lt t \le 4$: $v \gt 0$
+
+So we must split Region I:
+
+$s_{I-} = \displaystyle\int_0^{4/3} (3t^2 - 4t)\,dt = \left[t^3 - 2t^2\right]_0^{4/3} = \frac{64}{27} - \frac{32}{9} = \frac{64 - 96}{27} = -\frac{32}{27}\,\text{m}$
+
+$s_{I+} = \displaystyle\int_{4/3}^{4} (3t^2 - 4t)\,dt = 32 - (-\frac{32}{27}) = 32 + \frac{32}{27} = \frac{896}{27}\,\text{m}$
+
+In Region II: $v = 40 - 5t = 0$ at $t = 8\,\text{s}$.
+
+For $4 \lt t \lt 8$: $v \gt 0$; for $8 \lt t \le 10$: $v \lt 0$.
+
+$s_{II+} = \displaystyle\int_4^{8} (40 - 5t)\,dt = [40t - 2.5t^2]_4^8 = (320 - 160) - (160 - 40) = 160 - 120 = 40\,\text{m}$
+
+$s_{II-} = \displaystyle\int_8^{10} (40 - 5t)\,dt = (400 - 250) - (320 - 160) = 150 - 160 = -10\,\text{m}$
+
+Region III: $v = -10$ throughout, so $s_{III} = -40\,\text{m}$.
+
+**Total distance** $= |s_{I-}| + s_{I+} + s_{II+} + |s_{II-}| + |s_{III}|$
+
+$= \frac{32}{27} + \frac{896}{27} + 40 + 10 + 40 = \frac{928}{27} + 90 = 34.37 + 90 = 124.4\,\text{m}$
+
+(c) The car returns to its starting position when the cumulative displacement is zero.
+
+Cumulative displacement at $t = 10$: $s = 32 + 30 = 62\,\text{m}$
+
+From $t = 10$ to $t = 14$: displacement decreases at $10\,\text{m}\,\text{s}^{-1}$.
+
+Time to return to origin from $t = 10$: $62/10 = 6.2\,\text{s}$I.e. At $t = 16.2\,\text{s}$.
+
+But the motion only continues to $t = 14\,\text{s}$At which point $s = 22\,\text{m}$.
+
+The car does **not** return to its starting position within the given time interval.
+
+We must also check during Region I. At $t = 4/3$: $s = -32/27 = -1.19\,\text{m}$ (not zero). At
+$t = 0$: $s = 0$. The car starts at the origin but moves backward first, then forward. Setting the
+integral to zero within Region I:
+
+$t^3 - 2t^2 = 0 \Rightarrow t^2(t - 2) = 0$Giving $t = 0$ or $t = 2\,\text{s}$.
+
+At $t = 2$: $v = 3(4) - 8 = 4\,\text{m}\,\text{s}^{-1}$ and $s = 8 - 8 = 0$.
+
+So the car returns to its starting position at **$t = 2.0\,\text{s}$** (the only time within the
+interval).
+
+---
+
+### UT-3: Two-Stage Vertical Motion with Coefficient of Restitution
+
+**Question:**
+
+A small ball is projected vertically upwards with speed $18.0\,\text{m}\,\text{s}^{-1}$ from a
+height of $2.0\,\text{m}$ above the ground. It reaches its maximum height, then falls and bounces
+off the ground. The coefficient of restitution is $e = 0.75$Meaning the speed immediately after
+bouncing is $0.75$ times the speed immediately before bouncing.
+
+(a) Calculate the maximum height above the ground reached on the first ascent.
+
+(b) Calculate the height above the ground reached on the second ascent.
+
+(c) Calculate the total time from projection until the ball hits the ground for the second time.
+
+Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
+
+**Solution:**
+
+(a) Using $v^2 = u^2 + 2as$ with $v = 0$$u = 18.0$$a = -9.81$:
+
+$$0 = 18.0^2 - 2(9.81)s \Rightarrow s = \frac{324}{19.62} = 16.52\,\text{m}$$
+
+Maximum height above ground $= 2.0 + 16.52 = 18.5\,\text{m}$ (3 s.f.)
+
+(b) Speed when the ball hits the ground on the first descent: it falls $18.5\,\text{m}$ from rest
+(at the top).
+
+$$v^2 = 0 + 2(9.81)(18.5) = 363.0 \Rightarrow v = 19.05\,\text{m}\,\text{s}^{-1}$$
+
+After bouncing, speed $= 0.75 \times 19.05 = 14.29\,\text{m}\,\text{s}^{-1}$.
+
+Height on second ascent:
+
+$$s = \frac{v^2}{2g} = \frac{14.29^2}{19.62} = \frac{204.2}{19.62} = 10.41\,\text{m}$$
+
+(c) **First ascent:** $t_1 = u/g = 18.0/9.81 = 1.835\,\text{s}$
+
+**First descent:** Falls $18.5\,\text{m}$ from rest:
+$t_2 = \sqrt{2h/g} = \sqrt{2 \times 18.5/9.81} = \sqrt{3.772} = 1.942\,\text{s}$
+
+**Second ascent:** $t_3 = 14.29/9.81 = 1.457\,\text{s}$
+
+**Second descent:** Falls $10.41\,\text{m}$ from rest:
+$t_4 = \sqrt{2 \times 10.41/9.81} = \sqrt{2.122} = 1.457\,\text{s}$
+
+**Total time** $= t_1 + t_2 + t_3 + t_4 = 1.835 + 1.942 + 1.457 + 1.457 = 6.69\,\text{s}$
+
+## Integration Tests
+
+### IT-1: Projectile onto an Inclined Plane (with Dynamics)
+
+**Question:**
+
+A particle is projected with speed $u = 25\,\text{m}\,\text{s}^{-1}$ at angle $\theta = 30^\circ$
+above the horizontal from a point $O$ at the foot of an inclined plane. The plane makes an angle
+$\alpha = 20^\circ$ with the horizontal. The particle lands on the plane at point $P$.
+
+(a) Show that the time of flight is given by $t = \frac{2u\sin(\theta - \alpha)}{g\cos\alpha}$.
+
+(b) Calculate the distance $OP$ along the plane.
+
+(c) Calculate the speed of the particle immediately before impact at $P$.
+
+Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
+
+**Solution:**
+
+(a) At point $P$ on the inclined plane, the particle"s coordinates satisfy $y = x\tan\alpha$.
 
 Horizontal: $x = u\cos\theta \cdot t$
 

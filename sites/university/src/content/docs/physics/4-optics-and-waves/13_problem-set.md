@@ -3,7 +3,31 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: ""s angle. At which Angle
+description: "A string of length m is fixed at both ends and has wave speed m/s. Find the fundamental frequency and the frequencies of the first three harmonics."
+---
+
+**1.** A string of length $L = 1.20$ m is fixed at both ends and has wave speed $v = 240$ m/s. Find
+the fundamental frequency and the frequencies of the first three harmonics.
+
+**2.** Show that $u(x,t) = A e^{i(kx-\omega t)} + B e^{-i(kx+\omega t)}$ satisfies the 1D wave
+Equation $\partial^2 u/\partial x^2 = (1/v^2)\partial^2 u/\partial t^2$. Identify the physical
+Meaning of each term and find the condition on $\omega$ and $k$.
+
+**3.** A wave packet in a dispersive medium has central angular frequency $\omega_0 = 10^{15}$ rad/s
+And bandwidth $\Delta\omega = 10^{12}$ rad/s. The group velocity dispersion is
+$\alpha = d^2\omega/dk^2 = 2.0 \times 10^6$ m$^2$/s. Estimate the time required for the packet To
+double in spatial width after travelling a distance of 1.0 m.
+
+**4.** The electric field of a plane wave is
+$\mathbf{E} = (20\hat{\mathbf{x}} - 15\hat{\mathbf{y}})\cos(kz - \omega t)$ V/m in vacuum. Find the
+amplitude, the polarisation state (including the angle and handedness), and the time-averaged
+Intensity.
+
+**5.** Show that for normal incidence on a dielectric interface, the amplitude reflection and
+Transmission coefficients satisfy $t = 1 + r$. Prove this from the boundary conditions.
+
+**6.** Unpolarised light is incident from water ($n = 1.33$) onto glass ($n = 1.50$). Calculate the
+Reflectance for (a) normal incidence, (b) $\theta_i = 45°$And (c) Brewster"s angle. At which Angle
 is the reflected light most strongly polarised?
 
 **7.** An optical fibre has core index $n_1 = 1.48$ and cladding index $n_2 = 1.46$. Find the

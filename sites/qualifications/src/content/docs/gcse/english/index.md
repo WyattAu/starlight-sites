@@ -1,6 +1,91 @@
 ---
 title: GCSE English Literature
-description: ""Power and Conflict"
+description: "GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires..."
+date: 2026-04-22
+tags:
+  - gcse
+  - gcse-english
+categories:
+  - gcse-english
+
+---
+
+## GCSE English Literature
+
+GCSE English Literature is a compulsory qualification across all major examination boards in
+England, Wales, and Northern Ireland. The course requires students to study a substantial body of
+Literary texts spanning from the late sixteenth century to the present day, and to demonstrate the
+Ability to read critically, analyse language and form, and construct sustained, well-evidenced
+Arguments in written prose.
+
+The subject is assessed entirely through terminal written examinations. There is no coursework
+Component on any of the four main boards, although some legacy specifications retain controlled
+Assessment in Wales. All examinations are closed-book on AQA and Edexcel, meaning students must
+Memorise quotations; OCR and WJEC/Eduqas permit the use of clean copies of the texts in the
+Examination hall.
+
+## Board Coverage
+
+| Board                      | Paper 1                                            | Paper 2                                                            | Open/Closed Book |
+| -------------------------- | -------------------------------------------------- | ------------------------------------------------------------------ | ---------------- |
+| **AQA** (8702)             | Shakespeare and the 19th-Century Novel             | Modern Texts and Poetry                                            | Closed           |
+| **Edexcel** (1ET0)         | Shakespeare and Post-1914 Play or Novel            | 19th-Century Novel and Poetry (Conflict & Power or Comedy & Genre) | Closed           |
+| **OCR** (J352)             | Shakespeare and Poetry Pre-1900                    | Modern Texts and 19th-Century Novel                                | Open             |
+| **WJEC/Eduqas** (9-1 7222) | Shakespeare (with Welsh Poetry anthology for WJEC) | Post-1914 Drama/Novel and Poetry Anthology                         | Open             |
+
+:::info The broad content -- Shakespeare, a 19th-century novel, modern drama or prose, and poetry --
+Is common to all boards. Differences lie in the arrangement of texts across papers, the presence or
+Absence of an anthology, and whether texts may be taken into the examination.
+
+## Assessment Objectives
+
+All four boards assess students against versions of the same four assessment objectives. These are
+The lens through which every essay is marked, and students must understand them before attempting
+Any examination response.
+
+**AO1 -- Read, understand, and respond to texts.** This objective rewards clear, accurate
+Comprehension of the text and the ability to maintain a coherent, relevant argument throughout a
+Response. It also assesses the quality of written expression: spelling, punctuation, grammar, and
+The use of appropriate literary terminology.
+
+**AO2 -- Analyse the language, form, and structure used by a writer to create meanings and
+Effects.** This is the core analytical objective. It requires students to engage with how a text is
+Constructed -- the specific word choices (diction), sentence structures (syntax), figurative
+Language, narrative perspective, dramatic devices, and structural patterns that produce meaning.
+
+**AO3 -- Show understanding of the relationships between texts and the contexts in which they were
+Written.** This objective demands that students situate texts within their historical, cultural,
+Social, and literary contexts. It is not enough to write about Victorian poverty in the abstract;
+The contextual point must be linked to a specific moment in the text.
+
+**AO4 -- Use a range of vocabulary and sentence structures for clarity, purpose, and effect, with
+Accurate spelling and punctuation.** On some boards this is integrated into AO1; on others it is
+Assessed separately. In all cases, the quality of written communication affects the overall mark.
+
+The weighting of these objectives varies by board and by question. For detailed breakdowns, consult
+The individual board specification documents.
+
+## Paper 1: Shakespeare and the 19th-Century Novel
+
+This paper (or its equivalent across boards) tests students on two literary heritage texts. The
+Shakespeare component requires an essay on either a whole play or a specified extract plus The play
+as a whole. The 19th-century novel component follows a similar pattern: an extract-based Question or
+a whole-text question, depending on the board.
+
+The skills assessed are close reading of literary language, sustained argument, and the integration
+Of contextual knowledge into literary analysis. See the dedicated guides on
+[Shakespeare](1-shakespeare/1_shakespeare) and the
+[19th-Century Novel](2-19th-century-novel/2_19th-century-novel) for detailed treatment Of these
+components.
+
+## Paper 2: Modern Texts and Poetry
+
+This paper covers post-1914 drama or prose, an examined poetry anthology (where applicable), and
+Unseen poetry. The unseen poetry component is a distinctive feature of GCSE English Literature: it
+Requires students to apply their analytical skills to a poem they have not studied, demonstrating
+That their critical abilities are transferable rather than rote-learned.
+
+The poetry anthology varies by board. AQA requires study of 15 poems from the "Power and Conflict"
 Or "Love and Relationships" clusters. Edexcel specifies a collection organised by theme. OCR
 Prescribes a pre-1900 poetry anthology studied alongside Shakespeare in Paper 1. WJEC/Eduqas has its
 Own anthology of Welsh and English-language poetry.

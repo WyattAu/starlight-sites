@@ -1,6 +1,48 @@
 ---
 title: The pre-commit Framework
-description: ""install the pre-commit framework as the Git hook." This is what makes the
+description: "is a Python-based framework for managing and executing Git hooks in a declarative, Reproducible way. It solves the fundamental problem with raw Git hooks:..."
+
+---
+
+## What pre-commit Is
+
+`pre-commit` is a Python-based framework for managing and executing Git hooks in a declarative,
+Reproducible way. It solves the fundamental problem with raw Git hooks: they are not tracked by Git,
+Not shared across contributors, and each developer must manually install and maintain them.
+
+The framework provides:
+
+- **A declarative configuration file** (`.pre-commit-config.yaml`) that defines which hooks run,
+  when they run, and what files they target. This file is committed to the repository and shared
+  with all contributors.
+- **Isolated execution environments** — each hook runs in its own virtual environment or container,
+  so hook dependencies never conflict with project dependencies or with each other.
+- **A caching layer** — hooks skip files that have not changed since the last successful run, making
+  incremental commits fast.
+- **Language-agnostic hook support** — hooks can be written in any language: Python, Bash, Node.js,
+  Go, Rust, or run inside Docker containers. The framework does not care what the hook is, only that
+  it follows the contract (exit code 0 = pass, non-zero = fail).
+
+The `pre-commit` framework is not the same as the `pre-commit` Git hook. The framework installs
+Itself as the `pre-commit` hook in `.git/hooks/` and then orchestrates all configured hooks from
+There. One hook file delegates to many.
+
+## Installation
+
+### Installing the Framework
+
+```bash
+# Install via pip
+$ pip install pre-commit
+
+# Verify
+$ pre-commit --version
+pre-commit 3.7.1
+```
+
+### Installing Hooks into a Repository
+
+Installation here means "install the pre-commit framework as the Git hook." This is what makes the
 Hooks actually fire on `git commit`:
 
 ```bash

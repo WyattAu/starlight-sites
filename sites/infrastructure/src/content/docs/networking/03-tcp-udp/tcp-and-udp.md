@@ -1,6 +1,22 @@
 ---
 title: TCP and UDP
-description: ""connection" exists (for TCP). The
+description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,..."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+The transport layer provides end-to-end communication services between processes on different hosts.
+Two protocols dominate: TCP (reliable, connection-oriented, byte-stream) and UDP (unreliable,
+Connectionless, datagram). Understanding the trade-offs between them, and how TCP achieves
+Reliability over an unreliable network, is fundamental to systems engineering.
+
+### The Transport Layer in Context
+
+The transport layer is the first layer where the concept of a "connection" exists (for TCP). The
 Network layer (IP) delivers individual packets with no guarantees. The transport layer builds on
 This unreliable foundation to provide the reliability that applications need.
 

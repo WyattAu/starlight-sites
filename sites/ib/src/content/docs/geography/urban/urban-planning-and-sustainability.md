@@ -1,6 +1,36 @@
 ---
 title: Urban Planning and Sustainability
-description: ""Make cities and human settlements inclusive, safe, resilient and sustainable") is the
+description: "Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their..."
+
+---
+
+# Urban Planning and Sustainability
+
+## Sustainable Urban Development
+
+### Defining Urban Sustainability
+
+Sustainable urban development seeks to meet the needs of the present urban population without
+Compromising the ability of future generations to meet their own needs. It integrates three
+Dimensions:
+
+- **Environmental sustainability:** minimising resource consumption, reducing pollution and waste,
+  preserving biodiversity and ecosystem services, mitigating and adapting to climate change.
+- **Social sustainability:** ensuring equitable access to housing, education, healthcare,
+  employment, green space, and cultural amenities; reducing poverty and inequality; fostering social
+  cohesion and inclusion.
+- **Economic sustainability:** promoting diverse, resilient local economies; creating employment;
+  ensuring fiscal viability; attracting investment while managing its social and environmental
+  consequences.
+
+The tension between these dimensions is inherent. For example, high-density development reduces land
+Consumption (environmental benefit) but may reduce living space and green space per person (social
+Cost). Economic growth may generate employment (social benefit) but increase pollution and resource
+Consumption (environmental cost). Effective urban planning navigates these trade-offs.
+
+### The Sustainable Development Goals and Cities
+
+SDG 11 ("Make cities and human settlements inclusive, safe, resilient and sustainable") is the
 Dedicated urban SDG, but cities are central to achieving many other goals:
 
 - **SDG 3** (Health): urban air quality, access to healthcare, active transport (walking, cycling).

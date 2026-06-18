@@ -1,6 +1,66 @@
 ---
 title: Data Races and Critical Sections
-description: ""s outcome depends on the relative timing of
+description: "This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Data Races and Critical Sections
+
+This section covers the formal definition of data races in the C++ memory model, their undefined
+Behavior consequences, critical sections, the distinction between data races and race conditions,
+Detection tools, synchronization costs, and practical fixes.
+
+## Data Race Definition
+
+A **data race** [N4950 §6.9.4.2] occurs when two or more threads access the same memory location
+Concurrently, at least one of them performs a write, and there is no happens-before relationship
+Between the accesses. Formally, a data race is present when all three conditions hold:
+
+$$\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)$$
+
+Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
+Is the order relation defined in [N4950 §6.9.4.1].
+
+:::caution Warning The compiler is free to assume no data races exist and may optimize accordingly,
+potentially Eliminating loads, stores, or reordering operations in ways that are surprising and
+Non-deterministic.
+:::
+
+## Undefined Behavior of Data Races
+
+The consequences of a data race include but are not limited to [N4950 §6.9.4.2]:
+
+1. **Torn reads/writes**: A read or write of a non-atomic variable may observe or produce a
+   partially updated value.
+2. **Reordering**: The compiler may reorder non-atomic accesses past synchronization points, since
+   data-race-free programs are the only programs the standard guarantees behavior for.
+3. **Optimization elimination**: The compiler may cache a value in a register and never re-read from
+   memory, or may elide a store entirely.
+
+## Critical Section
+
+A **critical section** is a region of code that accesses shared mutable state. Only one thread
+Should execute within a critical section at a time to prevent data races. The mutual exclusion of
+Critical sections is the fundamental goal of synchronization primitives such as mutexes.
+
+## Race Condition vs Data Race
+
+These terms are often confused but have distinct meanings:
+
+| Property                    | Data Race                    | Race Condition       |
+| --------------------------- | ---------------------------- | -------------------- |
+| Defined by the C++ standard | Yes [N4950 §6.9.4.2]         | No (informal)        |
+| Results in UB               | Always                       | Not necessarily      |
+| Related to memory model     | Yes                          | No                   |
+| Fix mechanism               | Atomic operations or mutexes | Depends on the logic |
+
+A **data race** is a formal term in the C++ memory model. A **race condition** is a broader,
+Informal term for any situation where the program"s outcome depends on the relative timing of
 Threads. A race condition can occur even with proper synchronization (e.g., two threads both check
 `if (queue.empty())` before either pushes an element).
 

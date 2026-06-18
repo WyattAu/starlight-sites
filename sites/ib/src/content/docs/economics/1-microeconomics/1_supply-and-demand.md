@@ -1,6 +1,49 @@
 ---
 title: Supply and Demand
-description: ""s time and capital. A firm may earn a
+description: "IB Economics — scarcity, PPF, supply and demand, consumer choice. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations. Aligned wi."
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Scarcity, Choice, and Opportunity Cost
+
+### The Fundamental Economic Problem
+
+Scarcity is the central problem of economics: human wants are infinite, but the resources available
+to Satisfy those wants are finite. Because resources are scarce, individuals, firms, and governments
+must Make choices about how to allocate them. Every choice involves a trade-off: choosing one
+alternative Means forgoing another.
+
+The four **factors of production** are:
+
+- **Land**: all natural resources (land, minerals, water, forests)
+- **Labour**: the physical and mental effort contributed by workers
+- **Capital**: manufactured goods used to produce other goods and services (machinery, tools,
+  factories). Capital is distinct from financial capital (money), which is not itself a factor of
+  production
+- **Entrepreneurship**: the ability to organise the other factors of production and take risks in
+  pursuit of profit
+
+### Opportunity Cost
+
+The **opportunity cost** of a decision is the value of the next best alternative foregone. It is not
+The sum of all alternatives, but only the single most valuable one that was rejected.
+
+Opportunity cost applies at every level:
+
+- **Individual**: a student choosing to attend university forgoes the full-time salary they could
+  have earned
+- **Firm**: a factory producing cars cannot simultaneously use the same factory floor to produce
+  buses
+- **Government**: spending on healthcare means less spending available for education or defence
+
+### Economic vs. Accounting Profit
+
+- **Accounting profit** $= \text{Total Revenue} - \text{Explicit Costs}$
+- **Economic profit** $= \text{Total Revenue} - \text{Explicit Costs} - \text{Implicit Costs}$
+
+Implicit costs include the opportunity cost of the owner"s time and capital. A firm may earn a
 Positive accounting profit but a negative economic profit if it could earn more by deploying its
 Resources elsewhere.
 

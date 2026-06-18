@@ -1,6 +1,80 @@
 ---
 title: "Chemical Equilibrium -- Diagnostic Tests"
-description: ""Increasing the pressure by adding an inert gas at constant volume will shift
+description: "DSE Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# DSE Chemistry Diagnostic: Chemical Equilibrium
+
+## Unit Test 1: Kc Calculation
+
+**Question**
+
+Nitrogen and hydrogen react to form ammonia:
+
+$$N_{2}(g) + 3H_{2}(g) \rightleftharpoons 2NH_{3}(g)$$
+
+1.00 mol of $N_{2}$ and 3.00 mol of $H_{2}$ were mixed in a sealed container of volume 2.0 dm$^{3}$
+and allowed to reach equilibrium at a certain temperature. At equilibrium, 0.40 mol of $NH_{3}$ was
+present.
+
+(a) Calculate the equilibrium concentrations of $N_{2}$, $H_{2}$And $NH_{3}$. [2 marks]
+
+(b) Calculate the equilibrium constant $K_{c}$ for this reaction at this temperature. [3 marks]
+
+(c) If the volume of the container is halved (by compressing the gas mixture) at constant
+temperature, what happens to the value of $K_{c}$? Explain. [2 marks]
+
+---
+
+**Worked Solution**
+
+(a) ICE table:
+
+| Species  | Initial (mol) | Change (mol) | Equilibrium (mol) |
+| -------- | ------------- | ------------ | ----------------- |
+| $N_{2}$  | 1.00          | $-0.20$      | 0.80              |
+| $H_{2}$  | 3.00          | $-0.60$      | 2.40              |
+| $NH_{3}$ | 0             | $+0.40$      | 0.40              |
+
+Change in $NH_{3}$ = $+0.40$ mol, so change in $N_{2}$ = $-0.40/2 = -0.20$ mol, change in $H_{2}$ =
+$-3 \times 0.20 = -0.60$ mol.
+
+Equilibrium concentrations (dividing by volume 2.0 dm$^{3}$):
+
+$$[N_{2}] = \frac{0.80}{2.0} = 0.40 \text{ mol/dm}^{3}$$
+
+$$[H_{2}] = \frac{2.40}{2.0} = 1.20 \text{ mol/dm}^{3}$$
+
+$$[NH_{3}] = \frac{0.40}{2.0} = 0.20 \text{ mol/dm}^{3}$$
+
+(b)
+$$K_{c} = \frac{[NH_{3}]^{2}}{[N_{2}][H_{2}]^{3}} = \frac{(0.20)^{2}}{(0.40)(1.20)^{3}} = \frac{0.040}{0.40 \times 1.728} = \frac{0.040}{0.6912} = 0.0579$$
+
+$K_{c}$ has units:
+$\frac{(\text{mol dm}^{-3})^{2}}{(\text{mol dm}^{-3})(\text{mol dm}^{-3})^{3}} = \text{mol}^{-2} \text{dm}^{6}$
+
+$$K_{c} = 0.0579 \text{ mol}^{-2} \text{dm}^{6}$$
+
+(c) The value of $K_{c}$ **remains unchanged**. $K_{c}$ is a constant at a given temperature and is
+not affected by changes in concentration or pressure. Changing the volume changes the equilibrium
+**position** (it shifts to the side with fewer gas moles, which is the product side), but the ratio
+$[NH_{3}]^{2}/([N_{2}][H_{2}]^{3})$ at the new equilibrium remains the same.
+
+---
+
+## Unit Test 2: Le Chatelier + Equilibrium Constant
+
+**Question**
+
+For the exothermic reaction:
+
+$$2SO_{2}(g) + O_{2}(g) \rightleftharpoons 2SO_{3}(g) \quad \Delta H = -197 \text{ kJ/mol}$$
+
+(a) State the effect of increasing temperature on: (i) the equilibrium position, and (ii) the value
+of $K_{c}$. [3 marks]
+
+(b) A student says: "Increasing the pressure by adding an inert gas at constant volume will shift
 the equilibrium to the right." Evaluate this statement. [2 marks]
 
 (c) At 700 K, $K_{c} = 300$ (in appropriate units). At 900 K, $K_{c} = 5.0$. Is the forward reaction

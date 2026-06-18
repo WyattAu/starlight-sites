@@ -1,6 +1,31 @@
 ---
 title: Chemistry - Chemical Equilibrium
-description: ""dynamic").
+description: "A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble"
+tags: [DSE, Chemistry]
+categories: [DSE, Chemistry]
+date: 2026-04-08T00:00:00.000Z
+---
+
+## Dynamic Equilibrium
+
+### Reversible Reactions
+
+A reversible reaction is one that can proceed in both the forward and reverse directions.
+
+$$\mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}$$
+
+### Conditions for Dynamic Equilibrium
+
+Dynamic equilibrium is established when:
+
+1. The reaction is reversible.
+2. The system is a **closed system** (no matter can enter or leave).
+3. The forward and reverse rates are equal.
+4. The concentrations of all species remain constant (but not necessarily equal).
+
+### Characteristics
+
+- At equilibrium, both forward and reverse reactions continue to occur (hence "dynamic").
 - Macroscopic properties (concentration, colour, pressure) are constant.
 - The position of equilibrium describes the relative amounts of reactants and products.
 - Equilibrium can be approached from either direction.

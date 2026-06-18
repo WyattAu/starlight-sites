@@ -1,6 +1,71 @@
 ---
 title: Matrices
-description: ""apply $\mathbf{B}$ first, then $\mathbf{A}$." When composing transformations,
+description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more..."
+date: 2026-04-02T00:00:00.000Z
+tags:
+  - FurtherMaths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Matrices
+
+Matrices provide a compact algebraic framework for representing and manipulating systems of linear
+Equations, geometric transformations, and — at a more advanced level — quantum mechanical states and
+Data structures. This topic develops the algebra of matrices and their interpretation as linear
+Transformations of the plane and space.
+
+### Board Coverage
+
+| Board   | Paper   | Notes                                                   |
+| ------- | ------- | ------------------------------------------------------- |
+| AQA     | Paper 1 | 3D transformations, eigenvalues and eigenvectors        |
+| Edexcel | FP1     | 2D transformations, $3\times3$ matrices, determinants   |
+| OCR (A) | Paper 1 | 2D transformations, $3\times3$ matrices                 |
+| CIE     | P1      | 2D and basic 3D transformations, inverses, determinants |
+
+<hr />
+
+## 1. Matrix Notation and Operations
+
+**Definition.** An $m \times n$ _matrix_ is a rectangular array of numbers arranged in $m$ rows and
+$n$ columns. We write $\mathbf{A} = (a_{ij})$ where $a_{ij}$ is the entry in row $i$Column $j$. The
+set of all $m \times n$ matrices with real entries is denoted $M_{m\times n}(\mathbb{R})$.
+
+A matrix with a single row is a _row vector_, and a matrix with a single column is a _column
+Vector_.
+
+### 1.1 Matrix Addition and Scalar Multiplication
+
+For matrices $\mathbf{A}, \mathbf{B} \in M_{m \times n}(\mathbb{R})$ and scalar $k \in \mathbb{R}$:
+
+$$
+\begin{aligned}
+(\mathbf{A} + \mathbf{B})_{ij} &= a_{ij} + b_{ij} \\
+(k\mathbf{A})_{ij} &= k \cdot a_{ij}
+\end{aligned}
+$$
+
+Matrix addition is commutative ($\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$) and
+Associative.
+
+### 1.2 Matrix Multiplication
+
+**Definition.** If $\mathbf{A} \in M_{m \times p}(\mathbb{R})$ and
+$\mathbf{B} \in M_{p \times n}(\mathbb{R})$The product $\mathbf{AB} \in M_{m \times n}(\mathbb{R})$
+is defined by:
+
+$$\boxed{(\mathbf{AB})_{ij} = \sum_{k=1}^{p} a_{ik}\, b_{kj}}$$
+
+Matrix multiplication is associative but **not commutative** : $\mathbf{AB} \neq \mathbf{BA}$.
+
+The $n \times n$ identity matrix $\mathbf{I}_n$ satisfies
+$\mathbf{A}\mathbf{I}_n = \mathbf{I}_n\mathbf{A} = \mathbf{A}$ for any
+$\mathbf{A} \in M_{m \times n}(\mathbb{R})$.
+
+:::caution warning "apply $\mathbf{B}$ first, then $\mathbf{A}$." When composing transformations,
 The rightmost matrix is applied first.
 :::
 

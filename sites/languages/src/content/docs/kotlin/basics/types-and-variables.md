@@ -1,6 +1,19 @@
 ---
 title: Types and Variables
-description: ""assigned once"
+description: "declares a read-only variable (assigned once). declares a mutable variable. Comprehensive educational content coverage with definitions and practice problems."
+date: 2026-04-18
+tags:
+  - Kotlin
+categories:
+  - Kotlin
+---
+
+## val and var
+
+`val` declares a read-only variable (assigned once). `var` declares a mutable variable.
+
+```kotlin
+val immutable: String = "assigned once"
 var mutable: String = "can be reassigned"
 mutable = "new value"
 // immutable = "error" // Val cannot be reassigned

@@ -3,7 +3,41 @@ title: Fieldwork Methodology
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, fieldwork]
-description: ""s rank correlation**           | A statistical test measuring the strength and direction of association between two ranked variables                  |
+description: "A-Level Geography Fieldwork Methodology notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
+---
+
+# Fieldwork Methodology
+
+## Introduction
+
+Fieldwork is an essential component of A-Level Geography, assessed through a Non-Examined Assessment
+(NEA) worth 20% of the A-Level. The NEA requires students to design and execute an independent
+geographical investigation (3,000–4,000 words) that demonstrates the full enquiry process from
+question formulation through data collection, analysis, and evaluation. This topic covers the key
+methodologies, techniques, and principles that underpin successful geographical fieldwork.
+
+---
+
+## Key Concepts and Definitions
+
+| Term                                      | Definition                                                                                                           |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Hypothesis**                            | A testable statement predicting the expected outcome of an investigation                                             |
+| **Research question**                     | An open question that guides the direction of an investigation                                                       |
+| **Primary data**                          | Data collected directly by the researcher through fieldwork (e.g., surveys, measurements)                            |
+| **Secondary data**                        | Data collected by someone else for a different purpose (e.g., census data, satellite imagery)                        |
+| **Quantitative data**                     | Numerical data that can be measured and statistically analysed (e.g., river velocity, temperature)                   |
+| **Qualitative data**                      | Non-numerical data describing qualities, perceptions, and experiences (e.g., interview responses, photographs)       |
+| **Sampling**                              | The process of selecting a subset of a population or area for investigation                                          |
+| **Representativeness**                    | The extent to which a sample accurately reflects the characteristics of the whole population or area                 |
+| **Reliability**                           | The consistency of results — would the same method produce the same results if repeated?                             |
+| **Validity**                              | The extent to which the method actually measures what it claims to measure                                           |
+| **Bias**                                  | Systematic error in data collection or sampling that skews results in a particular direction                         |
+| **Ethical considerations**                | Principles governing the treatment of human participants, the environment, and data in research                      |
+| **Risk assessment**                       | The identification and management of potential hazards before and during fieldwork                                   |
+| **Triangulation**                         | Using multiple methods or data sources to cross-check and strengthen findings                                        |
+| **Geographical information system (GIS)** | Software that captures, stores, analyses, and displays geographic data                                               |
+| **Spearman"s rank correlation**           | A statistical test measuring the strength and direction of association between two ranked variables                  |
 | **Chi-squared test**                      | A statistical test determining whether there is a significant association between observed and expected frequencies  |
 | **Mann-Whitney U test**                   | A statistical test comparing the medians of two independent samples to determine if they are significantly different |
 | **Standard deviation**                    | A measure of the spread or dispersion of data around the mean                                                        |

@@ -1,6 +1,23 @@
 ---
 title: IB Physics
-description: ""s Laws](./1-space-time-and-motion/2_dynamics)** — Newton's laws, friction,
+description: "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style"
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+# IB Physics
+
+Complete revision notes for IB Physics, covering the full syllabus with worked examples, common
+pitfalls, and exam-style problems.
+
+## Core Topics
+
+### Mechanics
+
+- **[Kinematics](./1-space-time-and-motion/1_kinematics)** — Motion, velocity, acceleration,
+  projectiles, and kinematics equations
+- **[Dynamics and Newton"s Laws](./1-space-time-and-motion/2_dynamics)** — Newton's laws, friction,
   momentum, impulse, and work-energy
 - **[Energy and Conservation](./1-space-time-and-motion/3_energy)** — Kinetic energy, potential
   energy, conservation of energy, and power

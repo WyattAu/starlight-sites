@@ -1,6 +1,154 @@
 ---
 title: Game Theory and Behavioural Economics
-description: ""chicken." Both swerving is
+description: "IB Economics — game theory, Nash equilibrium, prisoner's dilemma, behavioural economics, heuristics, biases, nudge theory, auctions."
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Game Theory Fundamentals
+
+### What Is Game Theory?
+
+Game theory is the study of strategic decision-making among interdependent agents. Each agent's
+Payoff depends not only on their own actions but also on the actions of others. The framework was
+Formalised by John von Neumann and Oskar Morgenstern (1944) and extended by John Nash.
+
+A **game** consists of:
+
+- **Players**: the decision-makers
+- **Strategies**: the set of actions available to each player
+- **Payoffs**: the outcomes (benefits or costs) each player receives for every combination of
+  strategies
+
+### Types of Games
+
+- **Simultaneous games**: players choose strategies simultaneously without knowing the other's
+  choice (e.g., prisoner's dilemma). Represented by a **payoff matrix**.
+- **Sequential games**: players make decisions in turn, observing previous moves (e.g., chess,
+  Stackelberg duopoly). Represented by a **game tree** (extensive form).
+- **Zero-sum games**: one player's gain is exactly the other's loss (e.g., poker). Total payoffs sum
+  to zero.
+- **Non-zero-sum games**: the total payoffs can be positive or negative, allowing for mutual benefit
+  or mutual harm (e.g., prisoner's dilemma).
+- **Cooperative games**: players can form binding agreements and coalitions.
+- **Non-cooperative games**: players make decisions independently; binding agreements are not
+  enforceable.
+
+### Dominant Strategies
+
+A **dominant strategy** is a strategy that yields a higher payoff for a player regardless of what
+The other players do. If every player has a dominant strategy, the game has a **dominant strategy
+Equilibrium**.
+
+A **strictly dominant strategy** is always strictly better than any other strategy. A **weakly
+Dominant strategy** is at least as good as any other strategy, and strictly better against at least
+One opponent strategy.
+
+### Nash Equilibrium
+
+A **Nash equilibrium** is a set of strategies where no player can improve their payoff by
+Unilaterally changing their strategy, given the strategies chosen by all other players. Formally,
+For each player $i$ with strategy $s_i^*$:
+
+$$u_i(s_i^*, s_{-i}^*) \geq u_i(s_i, s_{-i}^*) \quad \forall \; s_i$$
+
+Where $u_i$ is player $i$'s payoff function and $s_{-i}^*$ represents the strategies of all other
+Players.
+
+Key properties:
+
+- A Nash equilibrium is a self-enforcing prediction: no player has an incentive to deviate
+- A game may have zero, one, or multiple Nash equilibria
+- Every game with a finite number of strategies has at least one Nash equilibrium in mixed
+  strategies
+- A dominant strategy equilibrium is always a Nash equilibrium, but not vice versa
+
+### Mixed Strategies
+
+A **pure strategy** is a deterministic choice of one action. A **mixed strategy** assigns a
+Probability distribution over the available pure strategies.
+
+In a mixed strategy Nash equilibrium, each player randomises over their strategies such that no
+Player can gain by changing their probabilities. The equilibrium is reached when each player is
+**indifferent** between their pure strategies given the other player's mixed strategy.
+
+## The Prisoner's Dilemma
+
+### The Classic Form
+
+Two suspects are arrested and interrogated separately. Each can either **Cooperate** (stay silent)
+Or **Defect** (betray the other). The payoff matrix (years in prison, so lower is better):
+
+|                  | B Cooperates | B Defects   |
+| ---------------- | ------------ | ----------- |
+| **A Cooperates** | A: 1, B: 1   | A: 10, B: 0 |
+| **A Defects**    | A: 0, B: 10  | A: 5, B: 5  |
+
+**Analysis:**
+
+- For A: if B cooperates, A should defect ($0 < 1$). If B defects, A should defect ($5 < 10$).
+  Defect is A's dominant strategy.
+- For B: by symmetric reasoning, defect is B's dominant strategy.
+- The Nash equilibrium is (Defect, Defect) with payoffs $(5, 5)$.
+- The socially optimal outcome is (Cooperate, Cooperate) with payoffs $(1, 1)$Which is Pareto
+  superior.
+
+### The Core Insight
+
+The prisoner's dilemma demonstrates that individually rational behaviour can lead to collectively
+Suboptimal outcomes. The Nash equilibrium is not Pareto efficient — both players would be better off
+Cooperating, but neither has the incentive to do so unilaterally.
+
+### Applications in Economics
+
+- **Oligopoly pricing**: firms face a dilemma between maintaining high prices (cooperating) and
+  undercutting competitors (defecting). Cartels are inherently unstable because each member has an
+  incentive to cheat.
+- **Arms races**: nations invest in military build-up even when mutual disarmament would leave both
+  better off.
+- **Tragedy of the commons**: individuals overuse a shared resource even though collective restraint
+  would benefit all.
+- **Free riding**: individuals avoid contributing to a public good while benefiting from others'
+  contributions.
+
+### Repeated Games and the Evolution of Cooperation
+
+In a **one-shot** prisoner's dilemma, defection is the only rational strategy. In an **infinitely
+Repeated** (or indefinitely repeated) game, cooperation can be sustained as a Nash equilibrium
+Through strategies such as:
+
+- **Grim trigger**: cooperate until the other player defects, then defect forever. This makes the
+  threat of permanent punishment credible.
+- **Tit-for-tat**: begin by cooperating, then mirror the opponent's previous move. Simple,
+  retaliatory, and forgiving.
+- **Pavlov (win-stay, lose-shift)**: repeat the last action if it yielded a high payoff; switch if
+  it yielded a low payoff.
+
+The **Folk Theorem** states that in infinitely repeated games, any feasible and individually
+Rational payoff can be sustained as a Nash equilibrium, provided the discount factor (the weight
+Placed on future payoffs) is sufficiently high.
+
+In **finitely repeated** games with a known endpoint, backward induction leads to defection in every
+Round (the unraveling argument). However, if the number of rounds is uncertain or players use
+Bounded rationality, cooperation may still emerge.
+
+## Other Key Games
+
+### Battle of the Sexes
+
+Two players prefer to coordinate on the same activity but disagree on which activity. There are two
+Pure strategy Nash equilibria and one mixed strategy equilibrium. This game illustrates coordination
+Problems.
+
+|                 | B: Opera   | B: Football |
+| --------------- | ---------- | ----------- |
+| **A: Opera**    | A: 3, B: 2 | A: 0, B: 0  |
+| **A: Football** | A: 0, B: 0 | A: 2, B: 3  |
+
+### Chicken (Hawk-Dove)
+
+Two drivers speed toward each other. The player who swerves first is the "chicken." Both swerving is
 A compromise; neither swerving is catastrophic. This game models brinkmanship in international
 Relations and competitive business strategies.
 

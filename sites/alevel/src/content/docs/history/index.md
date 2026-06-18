@@ -1,6 +1,37 @@
 ---
 title: A-Level History
-description: ""s suffrage, welfare
+description: "A-Level History notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision and exam readiness."
+date: 2026-05-12T00:00:00.000Z
+tags:
+  - History
+  - ALevel
+---
+
+# A-Level History
+
+A-Level History develops your ability to analyse causes and consequences, evaluate historical
+interpretations, and construct sustained analytical arguments supported by evidence. This section
+covers the major themes, source analysis techniques, and coursework skills required for the exam.
+
+## Topics Covered
+
+### Modern European History
+
+- **Revolutions** — the French Revolution, 1848 revolutions; causes (political, social, economic),
+  key events, consequences
+- **Unification** — Germany (Bismarck) and Italy (Cavour, Garibaldi); the role of nationalism, war,
+  and diplomacy
+- **World Wars** — origins, key turning points, home fronts, total war, Treaty of Versailles and its
+  consequences
+- **Cold War** — origins (ideological differences, Yalta, Potsdam), key crises (Berlin, Cuba,
+  Korea), détente, collapse of the USSR
+
+### British History
+
+- **Political reform** — Reform Acts (1832, 1867, 1884), the Chartists, extension of the franchise
+- **Empire and decolonisation** — the British Empire at its height, independence movements, Suez
+  Crisis
+- **Social change** — industrialisation, public health, education reforms, women"s suffrage, welfare
   state
 
 ### Source Analysis

@@ -3,7 +3,51 @@ title: Complexity Theory
 tags:
   - Computing
   - University
-description: ""efficiently solvable."
+description: "The of a deterministic TM on input is the number of steps takes before Halting.  Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 6.1 Time Complexity
+
+The **running time** of a deterministic TM $M$ on input $w$ is the number of steps $M$ takes before
+Halting. If $M$ never halts, the running time is $\infty$.
+
+$M$ **runs in time $t(n)$** if for every input $w$ of length $n$, $M$ halts within $t(n)$ steps.
+
+**Theorem 6.1.** Let $t(n)$ be a function with $t(n) \geq n$. Every TM that runs in time $t(n)$ has
+An equivalent single-tape TM that runs in time $O(t^2(n))$.
+
+_Proof._ A $k$-tape TM running in time $t(n)$ uses at most $t(n)$ tape cells on each tape.
+Simulating One step of the $k$-tape machine requires scanning the single-tape simulation from left
+to right To read all $k$ heads, then left to right again to update them. This costs $O(t(n))$ per
+simulated Step. Over $t(n)$ steps, the total is $O(t(n)^2)$. $\blacksquare$
+
+**Theorem 6.1a (Time Hierarchy Theorem).** If $t_1, t_2$ are time-constructible functions with
+$t_1(n) \log t_1(n) = o(t_2(n))$Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
+
+_Proof (idea)._ Use diagonalisation. Construct a TM $D$ that on input $x$ of length $n$:
+
+1. Compute $t_2(n)$ (possible since $t_2$ is time-constructible).
+2. Simulate all TMs $M_1, M_2, \ldots$ in parallel for $t_1(n)$ steps on input $x$.
+3. If any $M_i$ accepts $x$ within $t_1(n)$ steps, $D$ does the opposite (reject).
+4. Otherwise, accept.
+
+$D$ runs in time $O(t_2(n))$ and differs from every TM that runs in time $O(t_1(n))$ on at least One
+input. $\blacksquare$
+
+**Corollary.** $\mathrm{P \subsetneq \mathrm{EXPTIME$.
+
+**Definition.**
+$\mathrm{TIME(t(n)) = \{L : L \mathrm{ is decided by a deterministic TM in  O(t(n))\}$.
+
+**Definition.**
+$\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  O(t(n))\}$.
+
+### 6.2 The Class P
+
+$$\mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)$$
+
+$\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
+Captures the notion of "efficiently solvable."
 
 **Examples of problems in P:**
 

@@ -1,6 +1,8 @@
 ---
 title: Classes and Inheritance
-description: ""java']
+description: "A Java class is a template that defines the structure and behavior of objects. Every class Declaration in Java ultimately inherits from Either explicitly or..."
+date: 2025-06-05T12:00:00.000Z
+tags: ["java']
 categories: ['java']
 
 ---

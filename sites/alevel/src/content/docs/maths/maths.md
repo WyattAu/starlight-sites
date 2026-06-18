@@ -1,6 +1,41 @@
 ---
 title: Mathematics
-description: ""s Laws | Paper 3    | M1      | Paper 3    | M1         |
+description: "A Level Mathematics is fundamentally a course in . The pure mathematics Syllabus develops the tools of calculus, algebra, and proof that underpin every..."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - Maths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## A Level Mathematics — Course Overview
+
+A Level Mathematics is fundamentally a course in **mathematical reasoning**. The pure mathematics
+Syllabus develops the tools of calculus, algebra, and proof that underpin every quantitative
+Discipline. Statistics teaches you to reason under uncertainty. Mechanics teaches you to model the
+Physical world with mathematics.
+
+### Board Coverage
+
+| Topic                             | AQA        | Edexcel | OCR (A)    | CIE (9709) |
+| --------------------------------- | ---------- | ------- | ---------- | ---------- |
+| Pure: Algebra & Functions         | Paper 1    | P1, P2  | Paper 1    | P1, P3     |
+| Pure: Coordinate Geometry         | Paper 1    | P1      | Paper 1    | P1         |
+| Pure: Sequences & Series          | Paper 1    | P1, P2  | Paper 1    | P1, P3     |
+| Pure: Trigonometry                | Paper 1    | P2      | Paper 1    | P1, P2, P3 |
+| Pure: Exponentials & Logarithms   | Paper 1    | P1      | Paper 1    | P1, P2     |
+| Pure: Calculus                    | Paper 1, 2 | P1, P2  | Paper 1, 2 | P1, P2, P3 |
+| Pure: Vectors                     | Paper 2    | P2      | Paper 2    | P3         |
+| Pure: Proof                       | Paper 1    | P1      | Paper 1    | P1, P3     |
+| Pure: Numerical Methods           | Paper 2    | P2      | Paper 2    | P3         |
+| Statistics: Data & Sampling       | Paper 3    | S1      | Paper 3    | S1 (9709)  |
+| Statistics: Probability           | Paper 3    | S1      | Paper 3    | S1         |
+| Statistics: Distributions         | Paper 3    | S1      | Paper 3    | S1, S2     |
+| Statistics: Hypothesis Testing    | Paper 3    | S1      | Paper 3    | S2         |
+| Mechanics: Kinematics             | Paper 3    | M1      | Paper 3    | M1         |
+| Mechanics: Forces & Newton"s Laws | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Moments                | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Energy & Work          | Paper 3    | M2      | Paper 3    | M2         |
 

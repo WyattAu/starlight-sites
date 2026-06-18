@@ -1,6 +1,25 @@
 ---
 title: Variables and Types
-description: ""Alice"
+description: "Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Ruby
+categories:
+  - Ruby
+
+---
+
+## Variables in Ruby
+
+Ruby has several types of variables, each with distinct scope and purpose. Variables do not need
+explicit type declarations -- Ruby is dynamically typed, meaning the interpreter determines types at
+runtime.
+
+### Variable Types and Scope
+
+```ruby
+# Local variable -- lowercase or underscore
+name = "Alice"
 count = 42
 _private = "convention for internal use"
 

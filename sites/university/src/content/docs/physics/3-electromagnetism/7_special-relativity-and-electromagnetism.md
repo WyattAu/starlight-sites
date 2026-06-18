@@ -3,7 +3,7 @@ title: Special Relativity and Electromagnetism
 tags:
   - Physics
   - University
-description: "The laws of electromagnetism are inherently relativistic. In fact, it was the inconsistency of Maxwell''s equations with Galilean relativity that motivated"
+description: "The laws of electromagnetism are inherently relativistic. In fact, it was the inconsistency of Maxwell''s equations with Galilean relativity that motivated..."
 ---
 
 ### 7.1 Covariant Formulation

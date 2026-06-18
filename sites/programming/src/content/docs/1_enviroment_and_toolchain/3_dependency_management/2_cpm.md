@@ -1,6 +1,35 @@
 ---
 title: CPM.cmake
-description: ""s CMake targets are added directly to the main project's build
+description: "(CMake Package Manager) provides a lightweight abstraction over the standard CMake module. It bridges the gap between manual vendoring (git submodules) and..."
+date: 2025-12-11T04:34:32.158Z
+tags:
+  - cpp
+categories:
+  - cpp
+
+---
+
+**CPM.cmake** (CMake Package Manager) provides a lightweight abstraction over the standard CMake
+`FetchContent` module. It bridges the gap between manual vendoring (git submodules) and full-scale
+Package managers (vcpkg/Conan).
+
+In the context of this course, CPM.cmake is the preferred distribution model for:
+
+1. **Small-to-Medium Projects:** Where the overhead of configuring vcpkg manifests is unjustified.
+2. **Library Development:** Where the library itself has dependencies and aims to be consumable by
+   other CMake projects.
+3. **Bleeding Edge Dependencies:** When a library update is required that has not yet propagated to
+   vcpkg or Conan registries.
+
+## Architectural Mechanism
+
+CPM.cmake operates strictly on the **Source-Based Model**.
+
+1. **Resolution:** It resolves dependencies via Git repositories (GitHub/GitLab) or URL archives.
+2. **Retrieval:** It checks a local cache directory. If the requested version is missing, it
+   downloads the source.
+3. **Integration:** It invokes `add_subdirectory()` on the downloaded source.
+4. **Graph Merger:** The dependency"s CMake targets are added directly to the main project's build
    graph.
 
 ### The ABI Guarantee

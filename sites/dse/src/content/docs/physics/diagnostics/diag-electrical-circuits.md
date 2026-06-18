@@ -1,6 +1,14 @@
 ---
 title: "Electrical Circuits -- Diagnostic Tests"
-description: ""s Laws with Three Loops
+description: "DSE Physics Electrical Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Electrical Circuits — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Kirchhoff"s Laws with Three Loops
 
 **Question:**
 

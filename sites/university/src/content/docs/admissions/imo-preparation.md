@@ -1,6 +1,65 @@
 ---
 title: IMO Preparation
-description: ""s Theorem and the Totient Function
+description: "University Admissions IMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
+date: 2026-05-05T00:00:00.000Z
+tags:
+  - Mathematics
+  - University
+  - Admissions
+categories:
+  - Mathematics
+
+---
+
+## 1. Overview of the IMO
+
+The International Mathematical Olympiad (IMO) is the premier mathematics competition for
+pre-university Students, held annually since 1959. Each participating country sends a team of up to
+six students.
+
+### 1.1 Format
+
+The competition spans two days, each with a 4.5-hour session containing 3 problems. The six problems
+Are divided by convention:
+
+| Problem | Typical Topic                                    | Difficulty  |
+| ------- | ------------------------------------------------ | ----------- |
+| 1       | Accessible; often combinatorics or number theory | Easiest     |
+| 2       | Medium; often algebra or geometry                | Medium      |
+| 3       | Hard; any topic                                  | Hard        |
+| 4       | Accessible; often geometry or number theory      | Easier      |
+| 5       | Medium; often combinatorics or algebra           | Medium-Hard |
+| 6       | Very hard; any topic                             | Hardest     |
+
+Each problem is worth 7 marks, for a maximum of 42. A gold medal requires approximately 29+, silver
+Approximately 22+, and bronze approximately 16+ (thresholds vary by year).
+
+### 1.2 UK Selection Process
+
+The UK team is selected through a multi-stage process:
+
+1. **Senior Mathematical Challenge (SMC):** Open entry, multiple choice.
+2. **BMO Round 1:** Top 1000 SMC scorers; 6 problems in 3.5 hours.
+3. **BMO Round 2:** Top 100 BMO 1 scorers; 4 problems in 3.5 hours.
+4. **IMO training camp:** Top 20--30 students attend a residential training camp with problem
+   sessions, lectures, and selection tests.
+5. **Team selection:** The team of 6 is chosen based on camp performance and prior results.
+
+### 1.3 Problem Characteristics
+
+IMO problems require complete, rigorous proofs. The standard of rigour expected is higher than at
+BMO level. Key features include:
+
+- Non-standard constructions that do not arise from routine application of formulas.
+- Multi-step arguments where each step is non-trivial.
+- Problems that resist standard approaches and require genuine insight.
+- Full generality is often required: a solution must handle all cases, including degenerate ones.
+
+---
+
+## 2. Advanced Number Theory
+
+### 2.1 Euler"s Theorem and the Totient Function
 
 Euler's totient function $\phi(n)$ counts the integers in $\{1, 2, \ldots, n\}$ that are coprime to
 $n$. For prime $p$: $\phi(p) = p - 1$. For $n = p_1^{a_1} \cdots p_k^{a_k}$:

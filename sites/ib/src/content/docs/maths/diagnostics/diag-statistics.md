@@ -1,6 +1,24 @@
 ---
 title: "Statistics -- Diagnostic Tests"
-description: ""Since $Q_2 - Q_1 = 13$ and $Q_3 - Q_2 = 15$The data is positively skewed
+description: "IB Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
+tableOfContents: false
+---
+
+# Statistics — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for statistics.
+
+### UT-1: Identifying Skew from Quartile Positions
+
+**Question:**
+
+For a dataset, the quartiles are $Q_1 = 42$, $Q_2 = 55$And $Q_3 = 70$.
+
+**(a)** Determine whether the data is positively skewed, negatively skewed, or symmetric.
+
+**(b)** A student argues: "Since $Q_2 - Q_1 = 13$ and $Q_3 - Q_2 = 15$The data is positively skewed
 because $Q_3 - Q_2 \gt Q_2 - Q_1$." Is this reasoning correct?
 
 **(c)** If the interquartile range is $IQR = 28$State the outlier boundaries using the

@@ -1,6 +1,39 @@
 ---
 title: Dependent Names and Two-Phase Lookup
-description: ""Base::foo\n"; }
+description: "In templates, the distinction between and names determines when name Lookup occurs. Dependent names (those that depend on a template parameter) are looked..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Dependent Names and Two-Phase Lookup
+
+In templates, the distinction between **dependent** and **non-dependent** names determines when name
+Lookup occurs. Dependent names (those that depend on a template parameter) are looked up at
+Instantiation time, while non-dependent names are resolved at definition time. Understanding this
+Distinction is essential for writing correct templates, especially when inheriting from dependent
+Base classes.
+
+## Dependent vs Non-Dependent Names
+
+A **dependent name** is a name whose meaning depends on one or more template parameters [N4950
+S13.8.3]. A **non-dependent name** does not. The distinction determines when lookup occurs:
+
+| Name kind       | Lookup time             | Scope                              |
+| --------------- | ----------------------- | ---------------------------------- |
+| Non-dependent   | Phase 1 (definition)    | Definition context only            |
+| Dependent       | Phase 2 (instantiation) | Definition + instantiation context |
+| Dependent + ADL | Phase 2 (instantiation) | Associated namespaces/classes      |
+
+```cpp
+#include <iostream>
+#include <string>
+
+struct Base {
+    void foo() const { std::cout << "Base::foo\n"; }
     int bar = 42;
 };
 

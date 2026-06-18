@@ -1,6 +1,32 @@
 ---
 title: "Molecular Biology -- Diagnostic Tests"
-description: "" to 3' direction. As the replication fork opens, the template
+description: "IB Molecular Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
+tableOfContents: false
+---
+
+# Molecular Biology — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: DNA Replication — Leading and Lagging Strand
+
+**Question:** A bacterial chromosome is a circular DNA molecule of $4600000\ \text{bp}$ with a
+single origin of replication. DNA polymerase III synthesises DNA at $1000\ \text{bp s}^{-1}$.
+Calculate the minimum time required for replication. Explain why the lagging strand is synthesised
+as Okazaki fragments and why this does not slow down the overall replication rate.
+
+**Solution:**
+
+With a single origin and bidirectional replication, two replication forks move in opposite
+directions. Each fork must travel half the chromosome: $4600000 / 2 = 2300000\ \text{bp}$.
+
+Time per fork: $2300000 / 1000 = 2300\ \text{s} \approx 38.3\ \text{min}$.
+
+Since both forks operate simultaneously, minimum replication time
+$= 2300\ \text{s} \approx 38\ \text{min}$.
+
+The lagging strand is synthesised in the opposite direction to fork movement because DNA polymerase
+can only add nucleotides in the 5" to 3' direction. As the replication fork opens, the template
 strand for the lagging strand is oriented 3' to 5' (reading 5' to 3'), meaning synthesis must occur
 away from the fork. Short Okazaki fragments ($1000$--$2000\ \text{bp}$ in bacteria,
 $100$--$200\ \text{bp}$ in eukaryotes) are initiated by RNA primers and extended by DNA pol III.

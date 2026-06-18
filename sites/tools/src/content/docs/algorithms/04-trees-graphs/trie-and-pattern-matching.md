@@ -1,6 +1,13 @@
 ---
 title: Tries and String Algorithms
-description: ""end of word" represent complete
+description: "A trie is a tree data structure where each node represents a character of a string. The path from The root to any node spells out a prefix, and nodes marked..."
+
+---
+
+## Trie (Prefix Tree)
+
+A trie is a tree data structure where each node represents a character of a string. The path from
+The root to any node spells out a prefix, and nodes marked as "end of word" represent complete
 Strings in the set.
 
 ### Node Definition

@@ -1,6 +1,26 @@
 ---
 title: Heredity
-description: ""s chromosomes.
+description: "Qualifications Biology Heredity notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-biology
+categories:
+  - ap-biology
+
+---
+
+## Meiosis and Sexual Life Cycles (CED Unit 5)
+
+### Chromosome Terminology
+
+- **Somatic cells:** Diploid ($2n$), containing two sets of chromosomes (one from each parent).
+- **Gametes:** Haploid ($n$), containing one set of chromosomes.
+- **Homologous chromosomes:** Pair of chromosomes (one maternal, one paternal) with the same genes
+  at the same loci.
+- **Sister chromatids:** Two identical copies of a chromosome joined at the centromere (produced by
+  DNA replication).
+- **Karyotype:** Organized display of an individual"s chromosomes.
 
 ### Meiosis Overview
 

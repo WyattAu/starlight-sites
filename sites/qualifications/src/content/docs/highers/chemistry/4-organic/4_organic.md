@@ -1,6 +1,177 @@
 ---
 title: Organic Chemistry
-description: ""s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
+description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
+date: 2026-04-14
+tags:
+  - highers
+  - highers-chemistry
+categories:
+  - highers-chemistry
+
+---
+
+# Organic Chemistry
+
+## Higher Organic Chemistry
+
+### Hydrocarbons
+
+**Alkanes:** Saturated hydrocarbons with the general formula $\mathrm{C_n\mathrm{H_{2n+2}$. All C-C
+Bonds are single. Names follow the IUPAC system.
+
+**Alkenes:** Unsaturated hydrocarbons with the general formula $\mathrm{C_n\mathrm{H_{2n}$. Contain
+at Least one C=C double bond.
+
+**Alkynes:** Unsaturated hydrocarbons with the general formula $\mathrm{C_n\mathrm{H_{2n-2}$.
+Contain At least one C=C triple bond.
+
+### Comparison of Hydrocarbons
+
+| Property        | Alkanes                       | Alkenes                           | Alkynes                       |
+| --------------- | ----------------------------- | --------------------------------- | ----------------------------- |
+| General formula | $\mathrm{C_n\mathrm{H_{2n+2}$ | $\mathrm{C_n\mathrm{H_{2n}$       | $\mathrm{C_n\mathrm{H_{2n-2}$ |
+| Bonding         | Single C-C only               | At least one C=C                  | At least one C=C              |
+| Reactivity      | Relatively unreactive         | Reactive (electrophilic addition) | Very reactive                 |
+| Test            | Burns with clean flame        | Decolourises bromine water        | Decolourises bromine water    |
+| Flammability    | Burns in air                  | Burns with smoky flame            | Burns with very smoky flame   |
+
+### IUPAC Nomenclature
+
+1. Identify the longest carbon chain (parent chain)
+2. Number the chain to give the lowest possible locants to substituents
+3. Name substituents alphabetically with their position numbers
+4. For multiple identical substituents, use prefixes di-, tri-, tetra-
+
+**Worked Example 1:** Name the compound
+$\mathrm{CH_3\mathrm{CH(\mathrm{CH_3)\mathrm{CH_2\mathrm{CH(\mathrm{C_2\mathrm{H_5)\mathrm{CH_2\mathrm{CH_3$.
+
+Longest chain: 6 carbons (hexane).
+
+Numbering from the end nearest a branch:
+
+$$\mathrm{CH_3-\mathrm{CH(\mathrm{CH_3)-\mathrm{CH_2-\mathrm{CH(\mathrm{C_2\mathrm{H_5)-\mathrm{CH_2-\mathrm{CH_3$$
+
+Position 2: methyl. Position 4: ethyl.
+
+Name: **4-ethyl-2-methylhexane**.
+
+**Worked Example 2:** Name
+$\mathrm{CH_3\mathrm{CH_2\mathrm{CH(\mathrm{CH_3)\mathrm{CH_2\mathrm{CH_2\mathrm{Cl$.
+
+Longest chain: 6 carbons. Chlorine on C-1, methyl on C-3.
+
+Name: **1-chloro-3-methylpentane**.
+
+**Worked Example 3:** Name $\mathrm{CH_3\mathrm{COCH_2\mathrm{CH_3$.
+
+Longest chain: 4 carbons. Carbonyl on C-2.
+
+Name: **butan-2-one**.
+
+### Isomerism
+
+**Structural isomers** have the same molecular formula but different structural arrangements.
+
+**Types of structural isomerism:**
+
+- **Chain isomers:** Different carbon skeleton (e.g., butane vs. 2-methylpropane)
+- **Positional isomers:** Same skeleton, different position of functional group (e.g., 1-propanol
+  vs. 2-propanol)
+- **Functional group isomers:** Different functional groups (e.g.,
+  $\mathrm{C_3\mathrm{H_6\mathrm{O$: propanal vs. Propanone)
+
+**Worked Example 4:** Draw the structural isomers of $\mathrm{C_4\mathrm{H_8\mathrm{O$ that are (a)
+Aldehydes, (b) ketones, (c) alcohols, (d) ethers.
+
+(a) Aldehydes: butanal ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CHO$), 2-methylpropanal
+($(\mathrm{CH_3)_2\mathrm{CHCHO$)
+
+(b) Ketones: butan-2-one ($\mathrm{CH_3\mathrm{COCH_2\mathrm{CH_3$)
+
+(c) Alcohols: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, 2-methylpropan-2-ol
+
+(d) Ethers: ethoxyethane ($\mathrm{CH_3\mathrm{CH_2\mathrm{OCH_2\mathrm{CH_3$), 1-methoxypropane,
+2-methoxypropane
+
+**Stereoisomers** have the same structural formula but different spatial arrangement.
+
+- **E/Z isomerism (geometric):** Restricted rotation around C=C bond. Priority rules
+  (Cahn-Ingold-Prelog) determine E (entgegen, opposite) or Z (zusammen, together).
+
+**Example:** For 1,2-dichloroethene:
+
+- Both Cl atoms on same side: Z (cis)
+- Cl atoms on opposite sides: E (trans)
+
+### Functional Groups
+
+| Class           | Functional Group           | Suffix    | Example          |
+| --------------- | -------------------------- | --------- | ---------------- |
+| Alcohol         | $-\mathrm{OH$              | -ol       | Ethanol          |
+| Aldehyde        | $-\mathrm{CHO$             | -al       | Ethanal          |
+| Ketone          | $>\mathrm{C=\mathrm{O$     | -one      | Propanone        |
+| Carboxylic acid | $-\mathrm{COOH$            | -oic acid | Ethanoic acid    |
+| Ester           | $-\mathrm{COO-$            | -oate     | Methyl ethanoate |
+| Amine           | $-\mathrm{NH_2$            | -amine    | Ethanamine       |
+| Halogenoalkane  | $-\mathrm{Cl, -\mathrm{Br$ | halogeno- | Chloroethane     |
+
+### Reactions of Alkanes
+
+**Combustion:**
+
+Complete:
+$\mathrm{C_n\mathrm{H_{2n+2} + \dfrac{3n+1}{2}\mathrm{O_2 \to n\mathrm{CO_2 + (n+1)\mathrm{H_2\mathrm{O$
+
+**Worked Example 5:** Write the balanced equation for the complete combustion of (a) propane and (b)
+Cyclohexane.
+
+(a) $\mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O$
+
+(b) $\mathrm{C_6\mathrm{H_{12} + 9\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O$
+
+Incomplete (limited oxygen): produces $\mathrm{CO$ and/or $\mathrm{C$ (soot).
+
+**Free radical substitution (with halogens):**
+
+Initiation: $\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$
+
+Propagation: $\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$
+
+$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+
+Termination: Various radical combinations.
+
+**Worked Example 6:** Describe the free radical substitution mechanism for the reaction of methane
+With chlorine, including all three stages.
+
+**Initiation:** UV light provides enough energy to break the Cl-Cl bond homolytically.
+
+$$\mathrm{Cl_2 \xrightarrow{\mathrm{UV} 2\mathrm{Cl^\bullet$$
+
+**Propagation:** A chlorine radical abstracts a hydrogen atom from methane, forming HCl and a methyl
+Radical. The methyl radical then reacts with another chlorine molecule.
+
+$$\mathrm{CH_4 + \mathrm{Cl^\bullet \to \mathrm{CH_3^\bullet + \mathrm{HCl$$
+$$\mathrm{CH_3^\bullet + \mathrm{Cl_2 \to \mathrm{CH_3\mathrm{Cl + \mathrm{Cl^\bullet$$
+
+**Termination:** Any two radicals combine:
+$$\mathrm{Cl^\bullet + \mathrm{Cl^\bullet \to \mathrm{Cl_2$$
+$$\mathrm{CH_3^\bullet + \mathrm{Cl^\bullet \to \mathrm{CH_3\mathrm{Cl$$
+$$\mathrm{CH_3^\bullet + \mathrm{CH_3^\bullet \to \mathrm{C_2\mathrm{H_6$$
+
+Further substitution can occur:
+$\mathrm{CH_3\mathrm{Cl \to \mathrm{CH_2\mathrm{Cl_2 \to \mathrm{CHCl_3 \to \mathrm{CCl_4$.
+
+### Reactions of Alkenes
+
+**Electrophilic addition:** The C=C double bond is an electron-rich site susceptible to attack by
+Electrophiles.
+
+**Addition of HBr:**
+
+$$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br$$
+
+**Markovnikov"s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
 With more hydrogens already attached.
 
 $$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3 \quad \mathrm{(major product)$$

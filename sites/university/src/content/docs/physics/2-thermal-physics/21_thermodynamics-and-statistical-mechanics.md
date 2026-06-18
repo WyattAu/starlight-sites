@@ -1,6 +1,57 @@
 ---
 title: Thermodynamics and Statistical Mechanics
-description: ""s Theorem).** No engine operating between two heat reservoirs is more
+description: "If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with ."
+date: 2026-04-24T00:00:00.000Z
+tags:
+  - Physics
+  - University
+categories:
+  - Physics
+
+---
+
+## 1. The Laws of Thermodynamics
+
+### 1.1 Zeroth Law
+
+**Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$And $B$ is in thermal
+Equilibrium with system $C$Then $A$ is in thermal equilibrium with $C$.
+
+This law establishes the existence of **temperature** as an equivalence relation. Two systems are in
+Thermal equilibrium if and only if they are at the same temperature.
+
+### 1.2 First Law
+
+**First Law (Conservation of Energy):** The change in internal energy of a system equals the heat
+Added to the system minus the work done by the system:
+
+$$dU = \delta Q - \delta W$$
+
+Where $\delta Q$ and $\delta W$ are **inexact differentials** (path-dependent), while $dU$ is an
+Exact differential (state function).
+
+For a quasi-static process with pressure-volume work:
+
+$$\delta W = P\,dV$$
+
+So the first law becomes:
+
+$$dU = \delta Q - P\,dV$$
+
+**Definition (Heat capacity).** The heat capacity at constant volume and constant pressure are:
+
+$$C_V = \left(\frac{\partial U}{\partial T}\right)_V, \quad C_P = \left(\frac{\partial H}{\partial T}\right)_P$$
+
+Where $H = U + PV$ is the enthalpy.
+
+### 1.3 Second Law
+
+**Second Law (Clausius Statement):** Heat cannot spontaneously flow from a colder body to a hotter
+Body without external work.
+
+**Second Law (Kelvin-Planck Statement):** No cyclic process can convert heat entirely into work.
+
+**Theorem 1.1 (Carnot"s Theorem).** No engine operating between two heat reservoirs is more
 Efficient than a Carnot engine. All reversible engines operating between the same two reservoirs
 Have the same efficiency.
 

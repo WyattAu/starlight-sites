@@ -1,6 +1,49 @@
 ---
 title: Advanced Type System
-description: ""Unsupported type: {type(data)}")
+description: "Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## `@overload` — Multiple Signatures for One Function
+
+Python is dynamically typed: a single function object can be called with any combination of
+Arguments. But type checkers need to know what types are acceptable and what the return type is for
+Each valid combination. `typing.overload` solves this by letting you declare multiple signatures for
+The same callable, followed by a single implementation that carries the actual runtime logic.
+
+### Mechanism
+
+The `@overload` decorator does **nothing at runtime**. It is a no-op that returns the decorated
+Function unchanged. Its sole purpose is to signal to static type checkers (mypy, pyright,
+Pyright-based editors) that the decorated function has multiple type signatures. At runtime, only
+The implementation function exists; the overload definitions are effectively erased.
+
+The pattern is always: one or more `@overload`-decorated stubs (with no body, using `...`), then a
+Single implementation:
+
+```python
+from typing import overload
+
+@overload
+def process(data: str) -> str: ...
+@overload
+def process(data: bytes) -> bytes: ...
+@overload
+def process(data: list[str]) -> list[str]: ...
+
+def process(data):
+    if isinstance(data, str):
+        return data.strip()
+    if isinstance(data, bytes):
+        return data.strip()
+    if isinstance(data, list):
+        return [item.strip() for item in data]
+    raise TypeError(f"Unsupported type: {type(data)}")
 ```
 
 Each overload stub must be consistent in the sense that a type checker can determine which overload

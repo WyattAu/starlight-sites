@@ -1,6 +1,124 @@
 ---
 title: "Statistics -- Diagnostic Tests"
-description: "" Is this claim justified? Calculate the percentage difference.
+description: "The grouped frequency table shows the marks of 60 students in a maths test: Comprehensive educational content coverage with definitions and practice problems.'
+tableOfContents: false
+---
+
+# Statistics — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Averages and Spread from Grouped Data
+
+**Question:** The grouped frequency table shows the marks of 60 students in a maths test:
+
+| Mark               | Frequency |
+| ------------------ | --------- |
+| $0 \le m \lt 20$   | 4         |
+| $20 \le m \lt 40$  | 11        |
+| $40 \le m \lt 60$  | 18        |
+| $60 \le m \lt 80$  | 20        |
+| $80 \le m \lt 100$ | 7         |
+
+(a) Calculate an estimate for the mean mark. (b) Identify the modal class. (c) Find the median class
+and estimate the median. (d) Explain why the mean is only an estimate.
+
+**Solution:**
+
+(a) Using midpoints: 10, 30, 50, 70, 90.
+
+$\text{Estimated mean = \frac{10 \times 4 + 30 \times 11 + 50 \times 18 + 70 \times 20 + 90 \times 7}{60}$
+
+$= \frac{40 + 330 + 900 + 1400 + 630}{60} = \frac{3300}{60} = 55$ marks.
+
+(b) Modal class: $60 \le m \lt 80$ (highest frequency: 20).
+
+(c) There are 60 students, so the median is the average of the 30th and 31st values. Cumulative
+frequencies: 4, 15, 33, 53, 60. The 30th and 31st values fall in the $40 \le m \lt 60$ class.
+
+Estimated median
+$= 40 + \frac{30 - 15}{18} \times 20 = 40 + \frac{15}{18} \times 20 = 40 + 16.67 = 56.67$ marks.
+
+(d) The mean is an estimate because we use the midpoint of each class as a representative value,
+assuming all values in a class are evenly distributed. In reality, values may be clustered at one
+end of the class interval, making the midpoint an approximation.
+
+### UT-2: Cumulative Frequency and Box Plots
+
+**Question:** The cumulative frequency table shows the heights of 80 students:
+
+| Height (cm) | Cumulative Frequency |
+| ----------- | -------------------- |
+| $\lt 150$   | 5                    |
+| $\lt 155$   | 12                   |
+| $\lt 160$   | 28                   |
+| $\lt 165$   | 52                   |
+| $\lt 170$   | 68                   |
+| $\lt 175$   | 76                   |
+| $\lt 180$   | 80                   |
+
+(a) Draw a cumulative frequency curve. (b) Find the median, lower quartile, and upper quartile. (c)
+Calculate the interquartile range. (d) A student is 182 cm tall. Is this an outlier? Justify.
+
+**Solution:**
+
+(b) Median (40th value): From the curve, approximately **163 cm**. Lower quartile (20th value):
+approximately **158 cm**. Upper quartile (60th value): approximately **169 cm**.
+
+(c) Interquartile range $= 169 - 158 = 11$ cm.
+
+(d) An outlier is defined as a value more than $1.5 \times \text{IQR$ below Q1 or above Q3.
+$1.5 \times 11 = 16.5$. Upper fence $= 169 + 16.5 = 185.5$ cm. $182 \lt 185.5$So 182 cm is **not**
+an outlier.
+
+### UT-3: Scatter Graphs and Correlation
+
+**Question:** A teacher records the number of hours of revision and the exam score for 10 students:
+
+| Hours | 2   | 3   | 5   | 1   | 4   | 6   | 3   | 7   | 5   | 8   |
+| ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Score | 35  | 45  | 55  | 25  | 50  | 70  | 40  | 75  | 60  | 85  |
+
+(a) Plot the data and describe the correlation. (b) Draw a line of best fit and use it to estimate
+the score for a student who revised for 4.5 hours. (c) Explain why extrapolation beyond 8 hours
+would be unreliable. (d) Calculate the mean hours and mean score, then estimate the gradient of the
+line of best fit.
+
+**Solution:**
+
+(a) The scatter graph shows **strong positive correlation** -- as revision hours increase, exam
+scores increase consistently.
+
+(b) The line of best fit passes approximately through (2, 35) and (8, 85). Gradient
+$= (85-35)/(8-2) = 50/6 \approx 8.33$ per hour. $y$-intercept $\approx 35 - 2(8.33) \approx 18.3$.
+
+For 4.5 hours: $y \approx 8.33(4.5) + 18.3 \approx 37.5 + 18.3 = 55.8$. Estimated score: **56**.
+
+(c) Extrapolation is unreliable because: (1) The linear trend may not continue beyond the observed
+data range. (2) There may be diminishing returns to revision (beyond a certain point, more hours may
+not improve scores proportionally). (3) Other factors may become dominant (fatigue, burnout). (4)
+There are no data points to validate the trend in that region.
+
+(d) Mean hours $= (2+3+5+1+4+6+3+7+5+8)/10 = 44/10 = 4.4$. Mean score
+$= (35+45+55+25+50+70+40+75+60+85)/10 = 540/10 = 54$.
+
+The line of best fit passes through $(4.4, 54)$. Using another point near the extremes, e.g.,
+$(2, 35)$: gradient $\approx (54 - 35)/(4.4 - 2) = 19/2.4 \approx 7.9$ per hour.
+
+---
+
+## Integration Tests
+
+### IT-1: Statistical Investigation (with Number)
+
+**Question:** A company tests the lifetime (in hours) of two brands of lightbulb:
+
+Brand A: 420, 480, 510, 390, 450, 520, 470, 440, 500, 460 Brand B: 380, 410, 360, 400, 430, 370,
+420, 390, 440, 350
+
+(a) Calculate the mean, median, and range for each brand. (b) Calculate the interquartile range for
+each brand. (c) Which brand would you recommend and why? (d) The company claims "Brand A bulbs last
+on average 50% longer than Brand B." Is this claim justified? Calculate the percentage difference.
 
 **Solution:**
 

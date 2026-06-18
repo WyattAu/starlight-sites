@@ -1,6 +1,65 @@
 ---
 title: "Quadratics -- Diagnostic Tests"
-description: ""s formulas, for both roots to be positive we need:
+description: "A-Level Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
+tableOfContents: false
+---
+
+# Quadratics — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for quadratics.
+
+### UT-1: Discriminant Analysis with Non-Integer Coefficients
+
+**Question:**
+
+The quadratic equation $px^2 + (p+1)x + p - 1 = 0$ has real roots. Find the complete range of values
+of $p$ for which the equation has:
+
+**(a)** two distinct real roots,
+
+**(b)** a repeated root,
+
+**(c)** no real roots.
+
+Also determine for which values of $p$ the roots are positive.
+
+[Difficulty: hard. Tests discriminant analysis when the discriminant itself is a quadratic in the
+parameter.]
+
+**Solution:**
+
+The discriminant is:
+
+$$\Delta = (p+1)^2 - 4p(p-1) = p^2 + 2p + 1 - 4p^2 + 4p = -3p^2 + 6p + 1$$
+
+**(a)** Two distinct real roots require $\Delta > 0$:
+
+$$-3p^2 + 6p + 1 > 0$$ $$3p^2 - 6p - 1 < 0$$
+
+The roots of $3p^2 - 6p - 1 = 0$ are:
+
+$$p = \frac◆LB◆6 \pm \sqrt{36 + 12}◆RB◆◆LB◆6◆RB◆ = \frac◆LB◆6 \pm \sqrt{48}◆RB◆◆LB◆6◆RB◆ = \frac◆LB◆6 \pm 4\sqrt{3}◆RB◆◆LB◆6◆RB◆ = \frac◆LB◆3 \pm 2\sqrt{3}◆RB◆◆LB◆3◆RB◆ = 1 \pm \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆$$
+
+Since $3p^2 - 6p - 1$ is a positive quadratic, it is negative between the roots:
+
+$$1 - \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆ < p < 1 + \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆$$
+
+Approximately: $-0.155 < p < 2.155$.
+
+Note: We also require $p \neq 0$ for this to be a genuine quadratic. If $p = 0$The equation becomes
+$x - 1 = 0$Which has one real root. So $p = 0$ is excluded from the quadratic case.
+
+**(b)** A repeated root requires $\Delta = 0$:
+
+$$p = 1 \pm \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆$$
+
+**(c)** No real roots require $\Delta < 0$:
+
+$$p < 1 - \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆ \quad \text{or} \quad p > 1 + \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆$$
+
+**Positive roots condition:** By Vieta"s formulas, for both roots to be positive we need:
 
 - Sum of roots $> 0$: $-\frac{p+1}{p} > 0$
 - Product of roots $> 0$: $\frac{p-1}{p} > 0$

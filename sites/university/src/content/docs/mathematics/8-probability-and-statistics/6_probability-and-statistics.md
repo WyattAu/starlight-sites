@@ -1,6 +1,37 @@
 ---
 title: Probability and Statistics
-description: ""s laws). The pair $(\Omega, \mathcal{F})$ is called a **measurable space**.
+description: "Probability and Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2026-04-23T00:00:00.000Z
+tags:
+  - Mathematics
+  - University
+categories:
+  - Mathematics
+
+---
+
+## 1. Probability Spaces
+
+### 1.1 Sample Spaces and Events
+
+A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
+
+- $\Omega$ is the **sample space** (set of all possible outcomes).
+- $\mathcal{F}$ is a **sigma-algebra** (collection of events) on $\Omega$.
+- $P : \mathcal{F} \to [0,1]$ is a **probability measure**.
+
+### 1.2 Sigma-Algebras
+
+**Definition.** A **sigma-algebra** (or $\sigma$-algebra) $\mathcal{F}$ on a set $\Omega$ is a
+collection of subsets Of $\Omega$ satisfying:
+
+1. $\Omega \in \mathcal{F}$.
+2. If $A \in \mathcal{F}$Then $A^c \in \mathcal{F}$ (closed under complementation).
+3. If $A_1, A_2, A_3, \ldots \in \mathcal{F}$Then $\bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$
+   (closed under countable unions).
+
+_Remark._ From (2) and (3), $\mathcal{F}$ is also closed under countable intersections (by De
+Morgan"s laws). The pair $(\Omega, \mathcal{F})$ is called a **measurable space**.
 
 **Example 1.1.** For any set $\Omega$The **trivial sigma-algebra** is `\\{\\emptyset, \\Omega\\}`
 and the **power Set** $\mathcal{P}(\Omega)$ is also a sigma-algebra.

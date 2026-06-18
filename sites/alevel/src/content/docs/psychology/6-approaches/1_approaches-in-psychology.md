@@ -6,7 +6,61 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: ""Skinner Box." Rats learned to press a lever to receive a food
+description: "A-Level Approaches in Psychology notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+
+---
+
+# Approaches in Psychology
+
+## Introduction
+
+Psychology is not a single, unified discipline but a collection of different perspectives, or
+approaches, each offering a distinct way of explaining human behaviour. This section covers the six
+major approaches in psychology: behaviourism, social learning theory, the cognitive approach, the
+biological approach, the psychodynamic approach, and the humanistic approach. Understanding these
+approaches and their relative strengths and limitations is essential for evaluating theories and
+research across all topics.
+
+## Key Concepts
+
+### The Behaviourist Approach
+
+Behaviourism emerged in the early 20th century as a reaction to the introspective methods of early
+psychology. Behaviourists argue that psychology should be a science based on observable, measurable
+behaviour, not unobservable mental processes.
+
+**Key assumptions:**
+
+- All behaviour is learned from the environment through conditioning.
+- Psychology should study only observable, measurable behaviour (not internal mental processes).
+- Animals and humans learn in the same way, so animal research can inform our understanding of human
+  behaviour.
+
+**Classical Conditioning (Pavlov, 1927):**
+
+Learning through association. A neutral stimulus is repeatedly paired with an unconditioned stimulus
+until it becomes a conditioned stimulus that produces a conditioned response.
+
+Pavlov demonstrated this with dogs. The unconditioned stimulus (food) inherently produced an
+unconditioned response (salivation). By repeatedly pairing a neutral stimulus (a bell) with food,
+the bell became a conditioned stimulus that produced salivation (conditioned response) even without
+food.
+
+**Key processes:**
+
+- **Acquisition:** The initial learning of the stimulus-response association.
+- **Extinction:** The gradual loss of the conditioned response when the conditioned stimulus is
+  presented without the unconditioned stimulus.
+- **Spontaneous recovery:** The reappearance of the conditioned response after a rest period.
+- **Stimulus generalisation:** Responding to stimuli similar to the conditioned stimulus.
+- **Stimulus discrimination:** Responding only to the specific conditioned stimulus.
+
+**Operant Conditioning (Skinner, 1938):**
+
+Learning through consequences. Behaviour is shaped by its outcomes — reinforced behaviour increases,
+punished behaviour decreases.
+
+Skinner demonstrated this using the "Skinner Box." Rats learned to press a lever to receive a food
 pellet (positive reinforcement) or to avoid an electric shock (negative reinforcement).
 
 **Types of reinforcement:**

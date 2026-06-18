@@ -1,6 +1,105 @@
 ---
 title: "Human Physiology -- Diagnostic Tests"
-description: ""s tissues). The higher
+description: "DSE Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# DSE Biology Diagnostic: Human Physiology
+
+## Unit Test 1: Digestion and Villi Adaptations
+
+**Question**
+
+(a) Describe the role of bile in the digestion of fats. Explain why bile is described as an
+**emulsifier** rather than an enzyme. [3 marks]
+
+(b) The small intestine has numerous finger-like projections called villi. Describe **three**
+structural features of villi that increase the efficiency of absorption, and explain how each
+feature aids absorption. [6 marks]
+
+(c) A person has a condition in which the villi of the small intestine are flattened and shortened
+(e.g. Coeliac disease). Explain the consequences of this condition on the absorption of (i) fatty
+acids and glycerol, and (ii) amino acids. [4 marks]
+
+---
+
+**Worked Solution**
+
+(a) Bile is produced in the liver and stored in the gall bladder. It contains **bile salts** that
+emulsify fats -- they break large fat globules into smaller droplets, increasing the **surface
+area** for the action of lipase. This speeds up fat digestion.
+
+Bile is **not an enzyme** because it does not catalyse a biochemical reaction; it does not break
+chemical bonds in fats. It physically breaks up fat droplets (a physical, not chemical, process).
+Enzymes are biological catalysts that lower activation energy of specific reactions; bile does not
+do this.
+
+(b) Three structural features of villi:
+
+1. **Large surface area**: Villi greatly increase the surface area of the small intestine for
+   absorption. More surface area means more space for transport proteins and a greater area over
+   which diffusion and active transport can occur.
+2. **Thin epithelial layer (one cell thick)**: The villus epithelium is only one cell thick,
+   creating a short diffusion distance. This increases the rate of diffusion of digested molecules
+   from the gut lumen into the blood and lacteals.
+3. **Dense capillary network**: Each villus contains a network of blood capillaries that carry
+   absorbed glucose and amino acids away from the villus. This maintains a **steep concentration
+   gradient** between the gut lumen and the blood, facilitating continuous diffusion.
+
+(Alternative acceptable feature: presence of microvilli on the epithelial cells further increasing
+surface area; presence of lacteals (lymphatic capillaries) for fat absorption; mitochondria in
+epithelial cells providing ATP for active transport.)
+
+(c) In coeliac disease, the flattened villi result in a **greatly reduced surface area** for
+absorption.
+
+(i) **Fatty acids and glycerol**: Absorption is reduced. Normally, fatty acids and glycerol diffuse
+into epithelial cells, are re-esterified into triglycerides, and enter lacteals as chylomicrons.
+With fewer and shorter villi, fewer lacteals are available, and the reduced surface area limits
+lipid absorption. This can lead to fatty stools (steatorrhoea) and weight loss.
+
+(ii) **Amino acids**: Absorption is also reduced. Amino acids are normally absorbed by active
+transport and facilitated diffusion across the villus epithelium into blood capillaries. With
+flattened villi, there are fewer epithelial cells and fewer transport proteins, reducing the
+capacity for amino acid uptake. This can lead to protein deficiency and malnutrition.
+
+---
+
+## Unit Test 2: Haemoglobin and Oxygen Transport
+
+**Question**
+
+The oxygen dissociation curve shows the relationship between the partial pressure of oxygen
+($pO_{2}$) and the percentage saturation of haemoglobin with oxygen.
+
+(a) Explain why the oxygen dissociation curve is **S-shaped (sigmoidal)** rather than a straight
+line. [3 marks]
+
+(b) Fetal haemoglobin (HbF) has a higher affinity for oxygen than adult haemoglobin (HbA). Explain
+the adaptive advantage of this difference. [3 marks]
+
+(c) During vigorous exercise, the oxygen dissociation curve of haemoglobin shifts to the **right**
+(the Bohr effect). Explain the mechanism causing this shift and its significance during exercise. [4
+marks]
+
+---
+
+**Worked Solution**
+
+(a) The S-shaped (sigmoidal) curve reflects **cooperative binding** of oxygen to haemoglobin:
+
+1. When the first oxygen molecule binds to one of the four haem groups, it induces a
+   **conformational change** in the haemoglobin molecule (from the tense/T state to the relaxed/R
+   state).
+2. This change **increases the affinity** of the remaining three haem groups for oxygen, making it
+   easier for subsequent oxygen molecules to bind.
+3. At low $pO_{2}$The curve rises slowly (binding of the first oxygen is difficult). In the middle
+   range, the curve rises steeply (cooperative binding makes additional oxygen uptake rapid). At
+   high $pO_{2}$The curve flattens as haemoglobin approaches full saturation.
+
+(b) Fetal haemoglobin has a higher affinity for oxygen, meaning it binds oxygen more readily at a
+given $pO_{2}$. This is essential because the $pO_{2}$ in the maternal blood in the placenta is
+relatively **low** (oxygen has already been partially used by the mother"s tissues). The higher
 affinity of HbF allows it to **effectively load oxygen** from the maternal blood even at this lower
 $pO_{2}$Ensuring the fetus receives an adequate oxygen supply. At the same $pO_{2}$HbF has a higher
 percentage saturation than HbA.

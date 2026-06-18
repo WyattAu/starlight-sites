@@ -1,6 +1,68 @@
 ---
 title: "Quantities and Units -- Diagnostic Tests"
-description: "" drag ($q = 1$): $n = 1$$m = 1$$p = 0$Giving $F_D = k r v \eta$.
+description: "A-Level Physics Quantities and Units -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Quantities and Units — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Dimensional Analysis of a Non-Standard Formula
+
+**Question:**
+
+A student proposes the following equation for the drag force $F_D$ on a sphere of radius $r$ moving
+at speed $v$ through a fluid of density $\rho$ and dynamic viscosity $\eta$:
+
+$$F_D = k \, r^n \, v^m \, \rho^p \, \eta^q$$
+
+Where $k$ is a dimensionless constant.
+
+Given that dynamic viscosity $\eta$ has dimensions $\text{M}\text{L}^{-1}\text{T}^{-1}$Use
+dimensional analysis to find the values of $n$, $m$, $p$And $q$ such that the equation is dimensionally
+consistent. Express the resulting formula with $n$ as the subject.
+
+**Solution:**
+
+The dimensions of each quantity:
+
+- $F_D$: $\text{M}\text{L}\text{T}^{-2}$
+- $r$: $\text{L}$
+- $v$: $\text{L}\text{T}^{-1}$
+- $\rho$: $\text{M}\text{L}^{-3}$
+- $\eta$: $\text{M}\text{L}^{-1}\text{T}^{-1}$
+
+Setting up the dimensional equation:
+
+$$\text{M}\text{L}\text{T}^{-2} = \text{L}^n \cdot (\text{L}\text{T}^{-1})^m \cdot (\text{M}\text{L}^{-3})^p \cdot (\text{M}\text{L}^{-1}\text{T}^{-1})^q$$
+
+Expanding:
+
+$$\text{M}\text{L}\text{T}^{-2} = \text{M}^{p+q} \cdot \text{L}^{n + m - 3p - q} \cdot \text{T}^{-m - q}$$
+
+Equating exponents for each dimension:
+
+**Mass:** $1 = p + q$
+
+**Length:** $1 = n + m - 3p - q$
+
+**Time:** $-2 = -m - q$So $m + q = 2$
+
+We have three equations with four unknowns, so we express in terms of one variable. Using $n$ as the
+subject:
+
+From the mass equation: $p = 1 - q$
+
+From the time equation: $m = 2 - q$
+
+Substituting into the length equation:
+
+$$1 = n + (2 - q) - 3(1 - q) - q$$ $$1 = n + 2 - q - 3 + 3q - q$$ $$1 = n - 1 + q$$ $$n = 2 - q$$
+
+So the exponents in terms of $q$ are: $n = 2 - q$$m = 2 - q$$p = 1 - q$.
+
+For the standard Stokes" drag ($q = 1$): $n = 1$$m = 1$$p = 0$Giving $F_D = k r v \eta$.
 
 For high Reynolds number drag ($q = 0$): $n = 2$$m = 2$$p = 1$Giving $F_D = k r^2 v^2 \rho$.
 

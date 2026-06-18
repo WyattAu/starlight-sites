@@ -1,6 +1,30 @@
 ---
 title: Development Economics
-description: ""s real GDP or real GDP per capita.
+description: "Development economics studies how nations transform from low-income, less-productive economies into High-income, modern economies. It is distinct from..."
+date: 2026-04-02T00:00:00.000Z
+tags:
+  - Economics
+  - ALevel
+categories:
+  - Economics
+
+---
+
+## Development Economics
+
+> **Info:** Board Coverage Edexcel P1, P3 | CIE P2, P4
+Development economics studies how nations transform from low-income, less-productive economies into
+High-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
+With institutional failure, poverty traps, and structural transformation — problems that are largely
+Absent in advanced economies.
+
+## 1. What is Development?
+
+**Definition.** **Economic development** is the process by which a nation improves the economic,
+Political, and social well-being of its people. It encompasses not just growth in income but also
+Improvements in health, education, living standards, and political freedom.
+
+**Definition.** **Economic growth** is an increase in a country"s real GDP or real GDP per capita.
 Growth is a **necessary but not sufficient** condition for development — a country can grow without
 Developing if the gains accrue to a small elite.
 

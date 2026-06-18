@@ -6,7 +6,39 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: ""adequate functioning" means? Some
+description: "A-Level Psychology Psychopathology notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
+
+---
+
+# Psychopathology
+
+## Introduction
+
+Psychopathology is the study of mental disorders, including their definitions, explanations, and
+treatments. This section covers the four definitions of abnormality, and three specific disorders —
+depression, phobias, and obsessive-compulsive disorder (OCD) — examining their behavioural,
+cognitive, and biological explanations alongside evidence-based treatments.
+
+## Key Concepts
+
+### Definitions of Abnormality
+
+1. **Deviation from Social Norms:** Behaviour that violates the unwritten rules of acceptable
+   behaviour in a particular society or culture. For example, hearing voices or wearing
+   inappropriate clothing for the weather may be considered abnormal.
+   - _Strength:_ Distinguishes desirable and undesirable behaviour; accounts for the effect that
+     abnormal behaviour has on others.
+   - _Limitation:_ Highly culturally relative — social norms vary between cultures and change over
+     time. Homosexuality was classified as a mental disorder until 1973. Risk of abuse (e.g.,
+     political dissidents diagnosed as mentally ill in the Soviet Union).
+
+2. **Failure to Function Adequately:** A person is considered abnormal if they are unable to cope
+   with the demands of everyday life. Rosenhan and Seligman (1989) proposed seven criteria:
+   suffering, maladaptiveness, vividness/unconventionality, unpredictability/loss of control,
+   irrationality, observer discomfort, and violation of moral/ideal standards.
+   - _Strength:_ Practical and measurable — includes a threshold for professional help; captures the
+     experience of the individual.
+   - _Limitation:_ Subjective judgement — who decides what "adequate functioning" means? Some
      behaviour (e.g., extreme sports, religious fasting) may appear dysfunctional but is chosen and
      adaptive. Adaptive or maladaptive depends on context.
 

@@ -1,6 +1,169 @@
 ---
 title: Bonding
-description: ""s law:
+description: "occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions..."
+date: 2026-04-14
+tags:
+  - gcse
+  - gcse-chemistry
+categories:
+  - gcse-chemistry
+
+---
+
+## Bonding
+
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C2 | WJEC C2
+## 1. Ionic Bonding
+
+### 1.1 Formation of Ions
+
+**Ionic bonding** occurs between metals and non-metals. Metal atoms lose electrons to form positive
+Ions (cations), and non-metal atoms gain electrons to form negative ions (anions). The oppositely
+Charged ions are attracted to each other by strong **electrostatic forces**.
+
+The driving force is the achievement of a full outer shell. A metal atom in Group 1 loses one
+Electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
+Gains one electron to attain the configuration of the next noble gas. Both species achieve a lower
+Energy state, and the energy released when the ions come together (the lattice energy) is what holds
+The ionic compound together.
+
+**Example: Sodium chloride (NaCl)**
+
+$$\mathrm{Na \to \mathrm{Na^+ + e^-$$ $$\mathrm{Cl + e^- \to \mathrm{Cl^-$$
+$$\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl$$
+
+Sodium (Group 1) loses one electron to achieve a full outer shell (like neon). Chlorine (Group 7)
+Gains one electron to achieve a full outer shell (like argon).
+
+### 1.2 Ionic Lattice Structure
+
+Ionic compounds form **giant ionic lattices** in which positive and negative ions are arranged in a
+Regular, repeating pattern. The electrostatic attraction between all the ions acts in all
+Directions, giving ionic compounds high melting and boiling points.
+
+In sodium chloride, each Na$^+$ ion is surrounded by six Cl$^-$ ions, and each Cl$^-$ ion is
+Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends in three dimensions
+-- it is not a collection of discrete NaCl molecules.
+
+**Properties of ionic compounds:**
+
+| Property                                     | Explanation                                                                         |
+| -------------------------------------------- | ----------------------------------------------------------------------------------- |
+| High melting/boiling point                   | Strong electrostatic forces between ions require a lot of energy to overcome        |
+| Conduct electricity when molten or dissolved | Ions are free to move and carry charge                                              |
+| Do NOT conduct when solid                    | Ions are fixed in position in the lattice                                           |
+| Brittle                                      | A force displaces layers of ions, bringing like charges together, causing repulsion |
+| soluble in water                             | Water molecules attract and separate the ions                                       |
+
+The brittleness of ionic compounds has a clear structural explanation. When a force is applied, one
+Layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
+The resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
+From the response of metals, where layers can slide past each other without breaking bonds.
+
+### 1.3 Dot and Cross Diagrams
+
+Dot and cross diagrams show the transfer of electrons in ionic bonding. The original electrons of
+Each atom are shown as dots or crosses, and transferred electrons are shown in the colour/symbol of
+The receiving atom.
+
+**Example: Magnesium oxide (MgO)**
+
+Magnesium ($2, 8, 2$) loses 2 electrons to form Mg$^{2+}$. Oxygen ($2, 6$) gains 2 electrons to form
+O$^{2-}$.
+
+$$\mathrm{Mg + \mathrm{O \to \mathrm{Mg^{2+} + \mathrm{O^{2-}$$
+
+**Example: Calcium chloride (CaCl$_2$)**
+
+Calcium ($2, 8, 8, 2$) loses 2 electrons. Each chlorine ($2, 8, 7$) gains 1 electron. Two chlorine
+Atoms are needed.
+
+$$\mathrm{Ca + 2\mathrm{Cl \to \mathrm{Ca^{2+} + 2\mathrm{Cl^-$$
+
+**Example: Sodium oxide (Na$_2$O)**
+
+Each sodium ($2, 8, 1$) loses 1 electron. Oxygen ($2, 6$) gains 2 electrons. Two sodium atoms are
+Needed.
+
+$$2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}$$
+
+**Example: Aluminium oxide (Al$_2$O$_3$)**
+
+Each aluminium ($2, 8, 3$) loses 3 electrons to form Al$^{3+}$. Each oxygen gains 2 electrons to
+Form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two aluminium atoms and three
+Oxygen atoms.
+
+$$2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}$$
+
+**Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
+
+Calcium ($2, 8, 8, 2$) loses 2 electrons to form Ca$^{2+}$. Each fluorine ($2, 7$) gains 1 electron
+To form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
+Ion achieves the configuration of argon; each F$^-$ achieves the configuration of neon.
+
+**Worked Example.** Draw the dot and cross diagram for lithium oxide (Li$_2$O).
+
+Each lithium ($2, 1$) loses 1 electron to form Li$^+$. Oxygen ($2, 6$) gains 2 electrons to form
+O$^{2-}$. Two lithium atoms are needed.
+
+**Worked Example.** Draw the dot and cross diagram for potassium sulfide (K$_2$S).
+
+Each potassium ($2, 8, 8, 1$) loses 1 electron to form K$^+$. Sulfur ($2, 8, 6$) gains 2 electrons
+To form S$^{2-}$. Two potassium atoms are needed. Each K$^+$ achieves the configuration of argon;
+S$^{2-}$ achieves the configuration of argon.
+
+### 1.4 Formulae of Ionic Compounds
+
+The formula of an ionic compound is determined by balancing the charges:
+
+| Cation    | Anion       | Formula      |
+| --------- | ----------- | ------------ |
+| Na$^+$    | Cl$^-$      | NaCl         |
+| Ca$^{2+}$ | Cl$^-$      | CaCl$_2$     |
+| Al$^{3+}$ | O$^{2-}$    | Al$_2$O$_3$  |
+| Mg$^{2+}$ | SO$_4^{2-}$ | MgSO$_4$     |
+| Na$^+$    | CO$_3^{2-}$ | Na$_2$CO$_3$ |
+
+The method is: write the ions with their charges, then find the smallest whole number ratio that
+Makes the total charge zero. For Al$_2$O$_3$: $2 \times (+3) + 3 \times (-2) = 0$.
+
+**Worked Example.** Determine the formula of the compound formed between magnesium ions and oxide
+Ions.
+
+Mg$^{2+}$ and O$^{2-}$. The charges are equal and opposite, so the ratio is 1:1. Formula: MgO.
+
+**Worked Example.** Determine the formula of the compound formed between aluminium ions and sulfate
+Ions.
+
+Al$^{3+}$ and SO$_4^{2-}$. The lowest common multiple of 3 and 2 is 6. We need 2 Al$^{3+}$ (total
+$+6$) and 3 SO$_4^{2-}$ (total $-6$). Formula: Al$_2$(SO$_4$)$_3$.
+
+**Worked Example.** Determine the formula of the compound formed between calcium ions and phosphate
+Ions.
+
+Ca$^{2+}$ and PO$_4^{3-}$. The lowest common multiple of 2 and 3 is 6. We need 3 Ca$^{2+}$ (total
+$+6$) and 2 PO$_4^{3-}$ (total $-6$). Formula: Ca$_3$(PO$_4$)$_2$.
+
+### 1.5 Polyatomic Ions
+
+Some ions consist of more than one atom bonded covalently but carrying an overall charge:
+
+| Ion               | Formula     | Charge |
+| ----------------- | ----------- | ------ |
+| Hydroxide         | OH$^-$      | $1-$   |
+| Nitrate           | NO$_3^-$    | $1-$   |
+| Carbonate         | CO$_3^{2-}$ | $2-$   |
+| Sulfate           | SO$_4^{2-}$ | $2-$   |
+| Ammonium          | NH$_4^+$    | $1+$   |
+| Hydrogencarbonate | HCO$_3^-$   | $1-$   |
+
+When writing formulae with polyatomic ions, use brackets if more than one of the polyatomic ion is
+Needed: Ca(NO$_3$)$_2$Not CaNO$\_3$2.
+
+### 1.6 Derivation: Why Ionic Compounds Have High Melting Points
+
+The melting point of an ionic compound depends on the strength of the electrostatic forces between
+Ions, given by Coulomb"s law:
 
 $$F \propto \frac{q_1 \cdot q_2}{r^2}$$
 

@@ -1,6 +1,33 @@
 ---
 title: Cognitive Level of Analysis
-description: ""s (1968)
+description: "This section covers the cognitive level of analysis, focusing on mental processes such as memory, thinking, language, and decision making."
+
+---
+
+# Cognitive Level of Analysis
+
+This section covers the cognitive level of analysis, focusing on mental processes such as memory,
+thinking, language, and decision making.
+
+## Pages
+
+- [Memory Models](./memory-models) -- the multi-store model, working memory model, reconstructive
+  memory, schema theory, and key supporting studies.
+- [Thinking and Decision Making](./thinking-and-decision-making) -- heuristics, biases, intuitive
+  and analytical thinking, and the rationality debate.
+- [Language and Thought](./language-and-thought) -- the Sapir-Whorf hypothesis, bilingualism, and
+  the relationship between language and cognition.
+
+## Overview
+
+The cognitive level of analysis (CLOA) examines how mental processes -- memory, thinking, language,
+and decision making -- shape behaviour. Unlike the biological level, which locates causation in
+physiology, CLOA posits that behaviour is mediated by information processing: encoding, storage,
+retrieval, and the systematic biases that distort these processes. The guiding assumption is that
+mental processes can be studied scientifically through controlled experiments, computational
+modelling, and, increasingly, neuroimaging.
+
+Memory research within CLOA has produced two foundational models. Atkinson and Shiffrin"s (1968)
 multi-store model provided the first structural account, distinguishing sensory memory, short-term
 memory, and long-term memory as separate stores with distinct capacities and durations. Baddeley and
 Hitch's (1974) working memory model replaced the unitary STM with a multi-component active

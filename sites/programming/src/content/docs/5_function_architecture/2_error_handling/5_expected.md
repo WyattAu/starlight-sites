@@ -1,6 +1,37 @@
 ---
 title: Monadic Error Handling — std::expected
-description: ""empty input";
+description: "[N4950 §19.8], introduced in C++23, is a monadic type that holds either a Value of type or an error of type . It is the C++ equivalent of Rust''s ."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Monadic Error Handling (`std::expected`)
+
+`std::expected<T, E>` [N4950 §19.8], introduced in C++23, is a monadic type that holds either a
+Value of type `T` or an error of type `E`. It is the C++ equivalent of Rust's `Result<T, E>`.
+
+## 5.1 `std::expected<T, E>` Overview
+
+```cpp
+#include <iostream>
+#include <expected>
+#include <string>
+#include <charconv>
+#include <system_error>
+
+enum class ParseErr {
+    Empty,
+    Invalid,
+    OutOfRange,
+};
+
+std::string describe(ParseErr e) {
+    switch (e) {
+        case ParseErr::Empty:     return "empty input";
         case ParseErr::Invalid:   return "invalid integer";
         case ParseErr::OutOfRange: return "out of range";
     }

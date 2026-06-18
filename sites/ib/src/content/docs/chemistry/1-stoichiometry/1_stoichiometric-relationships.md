@@ -1,6 +1,19 @@
 ---
 title: Stoichiometry
-description: ""s Constant
+description: "Rigorous IB chemistry notes covering Stoichiometry. Includes definitions, derivations, worked examples, and exam-style problems. chemistry."
+date: 2024-01-01T00:00:00Z
+tags:
+  - ib
+---
+
+## The Mole Concept
+
+### Definition
+
+The **mole** is the SI unit for amount of substance. One mole contains exactly
+$6.022 \times 10^{23}$ elementary entities (atoms, molecules, ions, etc.).
+
+### Avogadro"s Constant
 
 $$
 N_A = 6.022 \times 10^{23}\mathrm{ mol}^{-1}

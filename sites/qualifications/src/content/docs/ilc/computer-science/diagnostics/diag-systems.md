@@ -1,6 +1,33 @@
 ---
 title: "Computer Systems -- Diagnostic Tests"
-description: ""brain" of the computer that processes data and
+description: "Computer Systems -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# Computer Systems -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Hardware Components
+
+**Question:**
+
+(a) Describe the function of the following components in a computer system: CPU (Central Processing
+Unit), RAM (Random Access Memory), hard disk drive, and motherboard.
+
+(b) Explain the difference between RAM and ROM. State one use of each.
+
+(c) The CPU has three main components: the ALU, the control unit, and registers. Describe the
+function of each.
+
+(d) A computer has a clock speed of $3.2\,\text{GHz}$. Explain what this means and describe how
+clock speed affects processor performance.
+
+**Solution:**
+
+(a)
+
+- **CPU (Central Processing Unit)**: The "brain" of the computer that processes data and
   instructions. It fetches, decodes, and executes instructions from programs.
 - **RAM (Random Access Memory)**: Volatile memory used to store data and instructions that the CPU
   needs to access quickly. It loses its contents when power is turned off.

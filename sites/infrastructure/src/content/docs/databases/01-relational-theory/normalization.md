@@ -1,6 +1,34 @@
 ---
 title: Database Normalization
-description: ""s address |
+description: "Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and..."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - Databases
+categories:
+  - Databases
+
+---
+
+## Introduction
+
+Database normalization is the systematic process of structuring a relational schema to minimize data
+Redundancy and eliminate insertion, deletion, and update anomalies. The theory was introduced by
+E.F. Codd in 1970 and formalized through a series of normal forms, each defined in terms of
+Functional dependencies on the relation.
+
+The core idea is simple: every piece of data should live in exactly one place. If the same fact
+Appears in multiple rows, updating that fact requires updating every row that contains it. If you
+Miss one, your data is inconsistent. Normalization gives you a principled, mathematical framework
+For avoiding this class of problems.
+
+### Why Normalization Matters
+
+Unnormalized schemas suffer from three categories of anomalies:
+
+| Anomaly Type | Description                                            | Concrete Example                                                                 |
+| ------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| Insertion    | Cannot add a fact without adding unrelated facts       | Cannot record a new department until at least one employee is assigned to it     |
+| Deletion     | Deleting one fact unintentionally removes another      | Deleting the last employee in a department also removes the department"s address |
 | Update       | Updating a single fact requires touching multiple rows | Renaming a department requires updating every employee row in that department    |
 
 These are not theoretical concerns. In production systems with millions of rows, an update anomaly

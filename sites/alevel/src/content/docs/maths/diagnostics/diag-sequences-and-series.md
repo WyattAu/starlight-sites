@@ -1,6 +1,103 @@
 ---
 title: "Sequences and Series -- Diagnostic Tests"
-description: ""s error:** The student substitutes $r - 3$ for $r$ in the formula but forgets that the
+description: "A-Level Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Sequences and Series — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for sequences and series.
+
+### UT-1: Telescoping Series with Misidentified Cancellation
+
+**Question:**
+
+Evaluate the sum:
+
+$$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
+
+Express your answer in terms of $n$And hence find $\lim_{n \to \infty} S_n$.
+
+[Difficulty: hard. Tests partial fraction decomposition for a telescoping series with three factors
+in the denominator, where the cancellation pattern is commonly misidentified.]
+
+**Solution:**
+
+**Step 1: Partial fraction decomposition.**
+
+We seek constants $A$, $B$, $C$ such that:
+
+$$\frac{1}{r(r+1)(r+2)} = \frac{A}{r} + \frac{B}{r+1} + \frac{C}{r+2}$$
+
+Multiplying through by $r(r+1)(r+2)$:
+
+$$1 = A(r+1)(r+2) + Br(r+2) + Cr(r+1)$$
+
+Substituting $r = 0$: $1 = A(1)(2) \implies A = \frac{1}{2}$.
+
+Substituting $r = -1$: $1 = B(-1)(1) \implies B = -1$.
+
+Substituting $r = -2$: $1 = C(-2)(-1) \implies C = \frac{1}{2}$.
+
+**Step 2: Verify.**
+
+$$\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2} = \frac{(r+1)(r+2) - 2r(r+2) + r(r+1)}{2r(r+1)(r+2)}$$
+
+Numerator:
+$(r^2 + 3r + 2) + (-2r^2 - 4r) + (r^2 + r) = (r^2 - 2r^2 + r^2) + (3r - 4r + r) + 2 = 0 + 0 + 2 = 2$.
+
+So the fraction is $\frac{2}{2r(r+1)(r+2)} = \frac{1}{r(r+1)(r+2)}$. Confirmed.
+
+**Step 3: Write out the telescoping sum.**
+
+$$S_n = \sum_{r=1}^{n}\left(\frac{1/2}{r} - \frac{1}{r+1} + \frac{1/2}{r+2}\right)$$
+
+$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=1}^{n}\frac{1}{r+1} + \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r+2}$$
+
+Re-index the sums:
+
+$$= \frac{1}{2}\sum_{r=1}^{n}\frac{1}{r} - \sum_{r=2}^{n+1}\frac{1}{r} + \frac{1}{2}\sum_{r=3}^{n+2}\frac{1}{r}$$
+
+$$= \left(\frac{1}{2} \cdot 1 + \frac{1}{2} \cdot \frac{1}{2} + \frac{1}{2}\sum_{r=3}^{n}\frac{1}{r}\right) - \left(\frac{1}{2} + \sum_{r=3}^{n}\frac{1}{r} + \frac{1}{n+1}\right) + \left(\frac{1}{2}\sum_{r=3}^{n}\frac{1}{r} + \frac{1}{2}\cdot\frac{1}{n+1} + \frac{1}{2}\cdot\frac{1}{n+2}\right)$$
+
+Collecting terms involving $\sum_{r=3}^{n}\frac{1}{r}$: $\frac{1}{2} - 1 + \frac{1}{2} = 0$. The
+sums cancel (confirming the telescoping).
+
+Remaining terms:
+
+$$\frac{1}{2} + \frac{1}{4} - \frac{1}{2} - \frac{1}{n+1} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}$$
+
+$$= \frac{1}{4} - \frac{1}{2(n+1)} + \frac{1}{2(n+1)} + \frac{1}{2(n+2)}$$
+
+$$= \frac{1}{4} + \frac{1}{2(n+2)}$$
+
+**Step 4: Find the limit.**
+
+$$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
+
+---
+
+### UT-2: Sigma Notation Index Shifting Errors
+
+**Question:**
+
+Given that $\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$Find the value of:
+
+$$\sum_{r=4}^{n+3} (r-3)^2$$
+
+In terms of $n$.
+
+A common student error is to substitute $r - 3$ into the formula and write
+$\frac{(n+3)(n+4)(2n+7)}{6}$. Identify the mistake in this approach and give the correct answer.
+
+[Difficulty: hard. Tests the common error of not adjusting the summation limits when performing an
+index shift.]
+
+**Solution:**
+
+**The student"s error:** The student substitutes $r - 3$ for $r$ in the formula but forgets that the
 upper limit also changes. The formula $\sum_{r=1}^{m} r^2 = \frac{m(m+1)(2m+1)}{6}$ requires the sum
 to start at $r = 1$ and end at $r = m$.
 

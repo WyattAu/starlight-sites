@@ -1,6 +1,18 @@
 ---
 title: Async Deep Dive
-description: ""_>) -> Poll<Self::Output>;
+description: "The trait is the foundation of async programming in Rust. It represents a value that may Become available at some point in the future: "''
+
+---
+
+## The Future Trait
+
+The `Future` trait is the foundation of async programming in Rust. It represents a value that may
+Become available at some point in the future:
+
+```rust
+pub trait Future {
+    type Output;
+    fn poll(self: Pin<&mut Self>, cx: &mut Context<"_>) -> Poll<Self::Output>;
 }
 
 pub enum Poll<T> {

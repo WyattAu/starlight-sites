@@ -1,6 +1,20 @@
 ---
 title: Limit Theorems
-description: ""s inequality:
+description: "UNIVERSITY Mathematics notes: Limit Theorems. Comprehensive study material with definitions, examples, and assessment tools."
+tags:
+  - Mathematics
+  - University
+---
+
+### 4.1 The Law of Large Numbers
+
+**Theorem 4.1 (Weak Law of Large Numbers).** Let $X_1, X_2, \ldots$ be i.i.d. With $E[X_i] = \mu$
+and $\mathrm{Var}(X_i) = \sigma^2 < \infty$. Then for every $\varepsilon > 0$:
+
+$$\lim_{n \to \infty} P\left(\left|\frac{1}{n}\sum_{i=1}^{n} X_i - \mu\right| \geq \varepsilon\right) = 0$$
+
+_Proof._ Let $S_n = \frac{1}{n}\sum_{i=1}^{n} X_i$. Then $E[S_n] = \mu$ and
+$\mathrm{Var}(S_n) = \sigma^2/n$. By Chebyshev"s inequality:
 
 $$P(|S_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(S_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0 \quad \mathrm{as\ } n \to \infty$$
 

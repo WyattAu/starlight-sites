@@ -1,6 +1,32 @@
 ---
 title: Deducing This and CRTP
-description: ""s interface. Because `Derived`
+description: "C++23 introduces (deducing this), which eliminates the need for the Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Explicit Object Parameters (Deducing This) and CRTP Replacement
+
+C++23 introduces **explicit object parameters** (deducing this), which eliminates the need for the
+Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP pattern, the
+New `this` parameter syntax, value category preservation, and practical patterns for fluent APIs and
+Mixin classes.
+
+## 5.1 The CRTP Pattern
+
+The **Curiously Recurring Template Pattern (CRTP)** is a compile-time technique where a derived
+Class passes itself as a template parameter to its base class. It enables static polymorphism -- the
+Base class can call methods on the derived class without virtual dispatch [N4950 S13.3.3].
+
+### Formal Definition
+
+CRTP is defined as follows: given a class template `Base&lt;Derived&gt;`A derived class `Derived`
+Inherits from `Base&lt;Derived&gt;`. The base class template can
+`static_cast&lt;const Derived\&>(*this)` to access the derived class"s interface. Because `Derived`
 Is a template parameter, the cast is resolved at compile time, and the call to `Derived`'s method is
 A direct call (not a virtual dispatch).
 

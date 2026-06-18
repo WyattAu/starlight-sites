@@ -1,6 +1,22 @@
 ---
 title: "Proof -- Diagnostic Tests"
-description: ""s proof contains the following claim: "Since $p^2$ is even, $p$ must be even."
+description: "A-Level Maths Proof -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
+tableOfContents: false
+---
+
+# Proof — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for proof.
+
+### UT-1: Proof by Contradiction — $\sqrt{2}$ is Irrational
+
+**Question:**
+
+**(a)** Prove by contradiction that $\sqrt{2}$ is irrational.
+
+**(b)** A student"s proof contains the following claim: "Since $p^2$ is even, $p$ must be even."
 Justify this step rigorously by proving its contrapositive.
 
 **(c)** Adapt the method to prove that $\sqrt{3}$ is irrational.

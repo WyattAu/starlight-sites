@@ -1,6 +1,32 @@
 ---
 title: Automata and Computability
-description: ""01"
+description: "Automata and Computability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Finite State Machines (FSM)
+
+### Deterministic Finite Automaton (DFA)
+
+**Formal definition.** A DFA is a 5-tuple $M = (Q, \Sigma, \delta, q_0, F)$ where:
+
+- $Q$ is a finite set of **states**
+- $\Sigma$ is a finite **alphabet** (input symbols)
+- $\delta: Q \times \Sigma \to Q$ is the **transition function**
+- $q_0 \in Q$ is the **start state**
+- $F \subseteq Q$ is the set of **accepting (final) states**
+
+**Language accepted:** $L(M) = \{w \in \Sigma^* \mid \hat{\delta}(q_0, w) \in F\}$
+
+Where $\hat{\delta}$ is the extended transition function (processes entire string).
+
+### Example: DFA that accepts strings ending in "01"
 
 $M = (Q, \Sigma, \delta, q_0, F)$ where:
 

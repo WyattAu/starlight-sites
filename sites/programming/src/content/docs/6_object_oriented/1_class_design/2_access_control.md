@@ -1,6 +1,53 @@
 ---
 title: Access Control and Friendship
-description: ""[LOG] %s: balance=%.2f\n", msg, balance_);
+description: "C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Access Control and Friendship
+
+C++ provides fine-grained access control through `public``protected`And `private` specifiers, Plus
+the `friend` mechanism for granting selective access to non-members. Access control is enforced
+Entirely at compile time with zero runtime cost.
+
+## 2.1 Access Specifiers [N4950 S14.2]
+
+A class member can be declared with one of three access specifiers [N4950 S14.3.1]:
+
+| Specifier   | Class members | Derived class members | External code |
+| ----------- | :-----------: | :-------------------: | :-----------: |
+| `public`    |      Yes      |          Yes          |      Yes      |
+| `protected` |      Yes      |          Yes          |      No       |
+| `private`   |      Yes      |          No           |      No       |
+
+Access control is enforced at compile time only; it has zero runtime cost. The access specifier
+Applies to all members declared after it until another access specifier is encountered.
+
+**Formal definition.** A _member_ of a class is accessible from a particular point in the program if
+And only if the access rules in [N4950 S14.3] permit it. The three access specifiers define the
+Following accessibility sets:
+
+- `public`: the member is a member of the _access interface_ of the class and is accessible from
+  anywhere the class itself is accessible [N4950 S14.3.1.1].
+- `protected`: the member is accessible from member functions and friends of the class, and from
+  member functions and friends of derived classes [N4950 S14.3.1.2].
+- `private`: the member is accessible only from member functions and friends of the class that
+  declares it [N4950 S14.3.1.3].
+
+```cpp
+#include <cstdio>
+
+class Account {
+private:
+    double balance_ = 0.0;
+
+    void log(const char* msg) const {
+        std::printf("[LOG] %s: balance=%.2f\n", msg, balance_);
     }
 
 protected:

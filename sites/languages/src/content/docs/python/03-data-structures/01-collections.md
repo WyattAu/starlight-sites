@@ -1,6 +1,28 @@
 ---
 title: Collections
-description: ""list object on heap"
+description: "Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks."
+date: 2025-06-04T12:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+## Lists
+
+Python lists are **ordered, mutable sequences** of arbitrary objects. They are the most frequently
+Used built-in container and serve as the default sequence type for most tasks.
+
+### Internal Representation: Dynamic Arrays
+
+CPython implements `list` as a **contiguous array of pointers** (specifically, a C array of
+`PyObject*`). This is a critical design decision with direct consequences for performance
+Characteristics.
+
+```mermaid
+graph LR
+    subgraph "list object on heap"
         ob_refcnt["ob_refcnt"]
         ob_type["ob_type"]
         ob_size["ob_size (length)"]

@@ -1,6 +1,98 @@
 ---
 title: "Functions and Equations -- Diagnostic Tests"
-description: ""undoes"
+description: "IB Maths Functions and Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
+tableOfContents: false
+---
+
+# Functions and Equations — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for functions and equations.
+
+### UT-1: Domain of Composite Functions with Restrictions
+
+**Question:**
+
+Given $f(x) = \sqrt{x - 3}$ and $g(x) = \dfrac{1}{x - 1}$:
+
+**(a)** Find the domain of $f \circ g$.
+
+**(b)** Find the domain of $g \circ f$.
+
+**(c)** A student claims that $\mathrm{dom}(f \circ g) = \mathrm{dom}(g)$. Explain why this is
+incorrect.
+
+[Difficulty: hard. Tests the subtle but critical rule that the domain of $f \circ g$ excludes values
+where $g(x)$ falls outside the domain of $f$.]
+
+**Solution:**
+
+**(a)**
+$(f \circ g)(x) = f(g(x)) = \sqrt{\frac{1}{x-1} - 3} = \sqrt{\frac{1 - 3(x-1)}{x-1}} = \sqrt{\frac{4 - 3x}{x-1}}$.
+
+Domain restrictions:
+
+1. From $g$: $x \neq 1$ (denominator of $g$).
+2. From $f$: the argument of the square root must be non-negative: $\dfrac{4 - 3x}{x - 1} \geq 0$.
+
+Solve $\dfrac{4 - 3x}{x - 1} \geq 0$:
+
+Critical values: $x = \frac{4}{3}$ (numerator zero) and $x = 1$ (denominator zero).
+
+Sign chart:
+
+- $x \lt 1$: numerator $4 - 3x \gt 0$Denominator $x - 1 \lt 0$. Ratio $\lt 0$. Not valid.
+- $1 \lt x \leq \frac{4}{3}$: numerator $\geq 0$Denominator $\gt 0$. Ratio $\geq 0$. Valid.
+- $x \gt \frac{4}{3}$: numerator $\lt 0$Denominator $\gt 0$. Ratio $\lt 0$. Not valid.
+
+Domain of $f \circ g$: $\left(1, \frac{4}{3}\right]$.
+
+**(b)** $(g \circ f)(x) = g(f(x)) = \dfrac{1}{\sqrt{x-3} - 1}$.
+
+Domain restrictions:
+
+1. From $f$: $x - 3 \geq 0$So $x \geq 3$.
+2. From $g$: $\sqrt{x-3} \neq 1$So $x - 3 \neq 1$Giving $x \neq 4$.
+
+Domain of $g \circ f$: $[3, 4) \cup (4, \infty)$.
+
+**(c)** The student is incorrect. $\mathrm{dom}(f \circ g)$ is not $\mathrm{dom}(g)$. It is the
+subset of $\mathrm{dom}(g)$ for which $g(x)$ falls within $\mathrm{dom}(f)$. Here
+$\mathrm{dom}(g) = \mathbb{R} \setminus \{1\}$But
+$\mathrm{dom}(f \circ g) = \left(1, \frac{4}{3}\right]$Which is a proper subset.
+
+---
+
+### UT-2: Inverse Function Notation Confusion
+
+**Question:**
+
+Let $f(x) = \dfrac{2x + 3}{x - 1}$ for $x \neq 1$.
+
+**(a)** Find $f^{-1}(x)$ and state its domain.
+
+**(b)** A student writes $f^{-1}(x) = \dfrac{x - 1}{2x + 3}$. Identify the error.
+
+**(c)** Verify that $f(f^{-1}(x)) = x$ for all $x$ in the domain of $f^{-1}$.
+
+[Difficulty: hard. Tests the common misconception that $f^{-1}$ means reciprocal.]
+
+**Solution:**
+
+**(a)** Let $y = \dfrac{2x + 3}{x - 1}$.
+
+$$y(x - 1) = 2x + 3 \implies xy - y = 2x + 3 \implies xy - 2x = y + 3 \implies x(y - 2) = y + 3$$
+
+$$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
+
+The domain of $f^{-1}$ equals the range of $f$. Since
+$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$As $x \to \pm\infty$, $f(x) \to 2$But
+$f(x) \neq 2$. The horizontal asymptote at $y = 2$ is never reached. Domain:
+$\mathbb{R} \setminus \{2\}$.
+
+**(b)** The student computed $\dfrac{1}{f(x)} = \dfrac{x - 1}{2x + 3}$Confusing the inverse function
+$f^{-1}$ with the reciprocal $\dfrac{1}{f}$. The notation $f^{-1}$ means the function that "undoes"
 $f$Not $1/f$.
 
 **(c)** For $x \neq 2$:

@@ -3,7 +3,137 @@ title: Graph Algorithms
 tags:
   - Computing
   - University
-description: ""s Algorithm:**
+description: "BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 4.1 Breadth-First Search (BFS)
+
+BFS explores the graph level by level from a source vertex.
+
+```
+BFS(G, s):
+    for each v in V:
+        d[v] = INF
+        pi[v] = NIL
+    d[s] = 0
+    Q = {s}
+    while Q is not empty:
+        u = Q.dequeue()
+        for each v in G.adj[u]:
+            if d[v] == INF:
+                d[v] = d[u] + 1
+                pi[v] = u
+                Q.enqueue(v)
+```
+
+**Theorem 4.1.** BFS runs in $O(V + E)$ time and discovers shortest paths (in terms of number of
+Edges) from the source to all reachable vertices.
+
+_Proof._ **Time:** Each vertex is enqueued at most once and dequeued at most once: $O(V)$. Each edge
+is examined at most twice (once from each endpoint): $O(E)$. Total: $O(V + E)$.
+
+**Correctness:** We prove by induction on the length of shortest paths. Let $v$ be a vertex
+discovered via edge $(u, v)$. At the time $v$ is discovered, $d[u]$ equals the shortest-path
+distance from $s$ to $u$ (induction hypothesis). Since BFS processes vertices in non-decreasing
+order of distance, $d[v] = d[u] + 1$ is the shortest distance to $v$. Any path to $v$ must go
+through some vertex at distance at most $d[u]$ (the predecessor on the path), and all such vertices
+have already been processed. $\blacksquare$
+
+<details>
+<summary>Worked Example: BFS on a Weighted Path Problem</summary>
+
+Find the shortest path (fewest edges) from $A$ to all other vertices in the graph with edges:
+$(A,B), (A,C), (B,D), (C,D), (C,E), (D,F), (E,F)$.
+
+Starting from $A$:
+
+- Level 0: $A$ (distance 0)
+- Level 1: $B, C$ (distance 1)
+- Level 2: $D, E$ (distance 2)
+- Level 3: $F$ (distance 3)
+
+Shortest path from $A$ to $F$: $A \to C \to E \to F$ (or $A \to B \to D \to F$ or
+$A \to C \to D \to F$), all of length 3.
+
+</details>
+
+### 4.2 Depth-First Search (DFS)
+
+DFS explores as far as possible along each branch before backtracking.
+
+```
+DFS(G):
+    for each v in V:
+        colour[v] = WHITE
+        pi[v] = NIL
+    time = 0
+    for each v in V:
+        if colour[v] == WHITE:
+            DFS-Visit(G, v)
+
+DFS-Visit(G, u):
+    colour[u] = GREY
+    time += 1
+    d[u] = time
+    for each v in G.adj[u]:
+        if colour[v] == WHITE:
+            pi[v] = u
+            DFS-Visit(G, v)
+    colour[u] = BLACK
+    time += 1
+    f[u] = time
+```
+
+**Theorem 4.2.** DFS runs in $O(V + E)$ time and can be used to detect cycles, find connected
+Components, compute topological orderings, and identify strongly connected components.
+
+_Proof (time)._ Each vertex is coloured exactly once (from WHITE to GREY) and finished exactly once
+(from GREY to BLACK): $O(V)$. Each edge is examined at most twice (once in each direction for
+undirected, once for directed): $O(E)$. Total: $O(V + E)$. $\blacksquare$
+
+**Theorem 4.3 (Parenthesis Theorem).** In any DFS, for any two vertices $u$ and $v$Exactly one of
+the following holds: (1) $d[u] \lt d[v] \lt f[v] \lt f[u]$ (interval nesting), (2)
+$d[v] \lt d[u] \lt f[u] \lt f[v]$ (interval nesting), or (3) the intervals $[d[u], f[u]]$ and
+$[d[v], f[v]]$ are disjoint.
+
+_Proof._ The DFS call stack forms a nesting of intervals. When we start visiting $v$ from $u$We must
+finish $v$ before finishing $u$Giving nesting. If $u$ and $v$ are in different DFS trees, their
+intervals are disjoint. $\blacksquare$
+
+**Theorem 4.4 (White-Path Theorem).** $v$ is a descendant of $u$ in the DFS forest if and only if,
+at the time $d[u]$ is discovered, there is a path from $u$ to $v$ consisting entirely of white
+vertices.
+
+_Proof._ ($\Rightarrow$) By induction on the depth of $v$ in the DFS tree. If $v$ is a child of
+$u$Then $v$ was white when discovered from $u$. If $v$ is a deeper descendant, the path goes through
+intermediate white vertices.
+
+($\Leftarrow$) Suppose there is a white path from $u$ to $v$ at time $d[u]$. Let $w$ be the first
+vertex on this path discovered after $u$. All vertices before $w$ on the path are still white (they
+can only be discovered after $w$), so $w$ will be discovered from the path. By induction, $v$ is a
+descendant of $w$Hence of $u$. $\blacksquare$
+
+### 4.3 Topological Sort
+
+A **topological ordering** of a DAG is a linear ordering of vertices such that for every directed
+edge $(u, v)$, $u$ appears before $v$.
+
+**Algorithm:** Run DFS on the DAG. Output vertices in reverse order of finishing times.
+
+**Theorem 4.5.** The reverse post-order of a DFS on a DAG produces a valid topological ordering.
+
+_Proof._ Suppose there is an edge $(u, v)$ but $u$ appears after $v$ in the ordering (i.e.,
+$f[u] \lt f[v]$). Since $(u, v)$ is an edge, when $u$ is being explored (coloured GREY), if $v$ is
+WHITE, then $v$ is discovered as a descendant of $u$So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
+we have a back edge, implying a cycle, contradicting that the graph is acyclic. If $v$ is BLACK,
+then $f[v] \lt d[u] \lt f[u]$Contradicting $f[u] \lt f[v]$. $\blacksquare$
+
+### 4.4 Strongly Connected Components
+
+Two vertices $u$ and $v$ are **strongly connected** if there is a path from $u$ to $v$ and from $v$
+to $u$. A **strongly connected component (SCC)** is a maximal set of strongly connected vertices.
+
+**Kosaraju"s Algorithm:**
 
 1. Run DFS on $G$Recording finishing times.
 2. Compute $G^T$ (transpose of $G$: reverse all edges).

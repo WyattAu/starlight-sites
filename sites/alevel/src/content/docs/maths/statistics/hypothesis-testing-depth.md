@@ -1,6 +1,29 @@
 ---
 title: Hypothesis Testing (Extended)
-description: ""no effect" or "no
+description: "This document provides a rigorous treatment of hypothesis testing methodology, including null and Alternative hypotheses, significance levels, Type I and II..."
+date: 2026-04-23T00:00:00.000Z
+tags: [Mathematics, ALevel]
+categories: [Mathematics]
+
+---
+
+## Hypothesis Testing (Extended Treatment)
+
+This document provides a rigorous treatment of hypothesis testing methodology, including null and
+Alternative hypotheses, significance levels, Type I and II errors, one-tailed and two-tailed tests,
+And critical regions.
+
+:::info Hypothesis testing is a formal procedure for making decisions about population parameters
+based on Sample evidence. It provides a principled framework for quantifying uncertainty.
+:::
+
+<hr />
+
+## 1. The Hypothesis Testing Framework
+
+### 1.1 Null and alternative hypotheses
+
+The **null hypothesis** $H_0$ is the default assumption -- a statement of "no effect" or "no
 difference." It is assumed to be true unless the evidence is sufficiently compelling to reject It.
 
 The **alternative hypothesis** $H_1$ specifies what we believe might be true instead. It is only

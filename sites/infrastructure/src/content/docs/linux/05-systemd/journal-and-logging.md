@@ -1,6 +1,17 @@
 ---
 title: Journal and Logging
-description: ""Kernel<br />(dmesg)"] --> J["journald"]
+description: "is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format."
+
+---
+
+## systemd-journald Architecture
+
+`systemd-journald` is the central logging daemon in systemd-based systems. It collects log messages
+From multiple sources and stores them in a structured, indexed binary format.
+
+```mermaid
+flowchart LR
+    A["Kernel<br />(dmesg)"] --> J["journald"]
     B["Services<br />(stdout/stderr)"] --> J
     C["syslog()"] --> J
     D["Audit subsystem"] --> J

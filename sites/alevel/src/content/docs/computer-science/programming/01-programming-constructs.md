@@ -1,6 +1,48 @@
 ---
 title: Programming Constructs
-description: ""42"
+description: "A is a named storage location in memory that holds a value which can change duri Comprehensive educational content coverage with definitions and practice proble"
+date: 2025-06-02T16:25:28.480Z
+tags:
+  - ComputerScience
+  - ALevel
+categories:
+  - ComputerScience
+
+---
+
+## 1. Variables and Data Types
+
+### Variables
+
+A **variable** is a named storage location in memory that holds a value which can change during
+Program execution.
+
+### Primitive Data Types
+
+| Type      | Typical Size | Range                     | Python equivalent |
+| --------- | ------------ | ------------------------- | ----------------- |
+| Integer   | 4 bytes      | $[-2^{31}, 2^{31}-1]$     | `int` (unbounded) |
+| Float     | 8 bytes      | IEEE 754 double precision | `float`           |
+| Character | 1 byte       | ASCII/Unicode             | `str` (length 1)  |
+| Boolean   | 1 byte       | True / False              | `bool`            |
+
+### Constants
+
+A **constant** is a named value that cannot be changed after initialisation.
+
+```python
+MAX_SIZE = 100
+PI = 3.14159265
+```
+
+### Type Casting
+
+Converting a value from one type to another:
+
+```python
+x = int(3.7)       # x = 3 (truncation)
+y = float(5)       # y = 5.0
+z = str(42)        # z = "42"
 ```
 
 :::caution Pitfall In Python, `int(3.9)` truncates toward zero (gives 3), not rounds. Use

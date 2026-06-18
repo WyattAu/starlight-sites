@@ -3,7 +3,166 @@ title: One-Dimensional Problems
 tags:
   - Physics
   - University
-description: ""(x) \rangle$$
+description: "A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+---
+
+### 5.1 The Infinite Square Well
+
+A particle of mass $m$ in a potential $V(x) = 0$ for $0 \lt x \lt L$ and $V(x) = \infty$ otherwise.
+
+**Derivation.** Inside the well, the time-independent Schrodinger equation is:
+
+$$-\frac{\hbar^2}{2m}\frac{d^2\phi}{dx^2} = E\phi \implies \frac{d^2\phi}{dx^2} + k^2\phi = 0$$
+
+Where $k = \sqrt{2mE}/\hbar$. The general solution is:
+
+$$\phi(x) = A\sin(kx) + B\cos(kx)$$
+
+**Boundary conditions:** $\phi(0) = \phi(L) = 0$.
+
+From $\phi(0) = 0$: $B = 0$So $\phi(x) = A\sin(kx)$.
+
+From $\phi(L) = 0$: $\sin(kL) = 0$Which requires $kL = n\pi$ for $n = 1, 2, 3, \ldots$
+
+Therefore $k_n = n\pi/L$ and:
+
+$$E_n = \frac{\hbar^2 k_n^2}{2m} = \frac{n^2\pi^2\hbar^2}{2mL^2}$$
+
+**Normalisation.** $\int_0^L |A|^2\sin^2(n\pi x/L)\,dx = |A|^2 L/2 = 1$Giving $A = \sqrt{2/L}$.
+
+**Solutions:**
+
+$$\phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2}, \quad n = 1, 2, 3, \ldots$$
+
+**Properties:**
+
+- The ground state ($n = 1$) has the lowest energy $E_1 > 0$ (**zero-point energy**).
+- Energy levels are not equally spaced; $E_n \propto n^2$.
+- There are $(n - 1)$ nodes in the $n$-th eigenstate.
+
+:::caution Common Pitfall The ground state has $n = 1$Not $n = 0$. The solution $n = 0$ gives
+$\phi(x) = 0$ everywhere, Which is not normalisable. Furthermore, $E_1 > 0$ (zero-point energy) is a
+direct consequence of The uncertainty principle: confining the particle to a finite region requires
+kinetic energy.
+:::
+
+### 5.2 The Quantum Harmonic Oscillator
+
+$V(x) = \frac{1}{2}m\omega^2 x^2$.
+
+#### 5.2.1 Algebraic Method: Ladder Operators
+
+Define the **ladder operators** (creation and annihilation operators):
+
+$$\hat{a} = \sqrt{\frac{m\omega}{2\hbar}}\left(\hat{x} + \frac{i\hat{p}}{m\omega}\right), \quad \hat{a}^\dagger = \sqrt{\frac{m\omega}{2\hbar}}\left(\hat{x} - \frac{i\hat{p}}{m\omega}\right)$$
+
+**Commutation relation.** Using $[\hat{x}, \hat{p}] = i\hbar$:
+
+$$[\hat{a}, \hat{a}^\dagger] = \frac{m\omega}{2\hbar}\!\left[\hat{x} + \frac{i\hat{p}}{m\omega},\, \hat{x} - \frac{i\hat{p}}{m\omega}\right] = \frac{1}{2\hbar}(-i)(i\hbar) + \frac{1}{2\hbar}(i)(-i\hbar) = 1$$
+
+**Inversion.** From the definitions:
+
+$$\hat{x} = \sqrt{\frac{\hbar}{2m\omega}}(\hat{a} + \hat{a}^\dagger), \quad \hat{p} = -i\sqrt{\frac{m\omega\hbar}{2}}(\hat{a} - \hat{a}^\dagger)$$
+
+**Hamiltonian in terms of ladder operators.** Substituting into
+$\hat{H} = \hat{p}^2/(2m) + m\omega^2\hat{x}^2/2$:
+
+$$\hat{H} = \hbar\omega\!\left(\hat{a}^\dagger\hat{a} + \frac{1}{2}\right)$$
+
+Where we used
+$\hat{a}\hat{a}^\dagger = [\hat{a}, \hat{a}^\dagger] + \hat{a}^\dagger\hat{a} = 1 + \hat{a}^\dagger\hat{a}$.
+
+**Number operator.** $\hat{N} = \hat{a}^\dagger\hat{a}$So $\hat{H} = \hbar\omega(\hat{N} + 1/2)$.
+
+_Proof that $\hat{a}$ and $\hat{a}^\dagger$ lower and raise the energy._ Compute
+$[\hat{H}, \hat{a}]$:
+
+$$[\hat{H}, \hat{a}] = \hbar\omega[\hat{a}^\dagger\hat{a}, \hat{a}] = \hbar\omega(\hat{a}^\dagger[\hat{a}, \hat{a}] + [\hat{a}^\dagger, \hat{a}]\hat{a}) = -\hbar\omega\,\hat{a}$$
+
+So $\hat{H}\hat{a}|n\rangle = (E_n - \hbar\omega)\hat{a}|n\rangle$: $\hat{a}$ lowers energy by
+$\hbar\omega$. Similarly, $[\hat{H}, \hat{a}^\dagger] = +\hbar\omega\,\hat{a}^\dagger$.
+
+Let $|n\rangle$ be an eigenstate with $\hat{H}|n\rangle = E_n|n\rangle$. Then:
+
+$$\hat{a}|n\rangle = c_n|n-1\rangle, \quad \hat{a}^\dagger|n\rangle = c_{n+1}|n+1\rangle$$
+
+The constants follow from normalisation. Since $\hat{a}^\dagger\hat{a}|n\rangle = n|n\rangle$:
+
+$$\|c_n|n-1\rangle\|^2 = \langle n|\hat{a}^\dagger\hat{a}|n\rangle = n$$
+
+Therefore:
+
+$$\hat{a}|n\rangle = \sqrt{n}\,|n-1\rangle, \quad \hat{a}^\dagger|n\rangle = \sqrt{n+1}\,|n+1\rangle$$
+
+**Ground state.** The lowering process must terminate: $\hat{a}|0\rangle = 0$. This gives the
+Differential equation:
+
+$$\left(x + \frac{\hbar}{m\omega}\frac{d}{dx}\right)\phi_0(x) = 0 \implies \phi_0(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{1/4}\exp\!\left(-\frac{m\omega x^2}{2\hbar}\right)$$
+
+**Energy spectrum.** $E_n = \hbar\omega(n + 1/2)$ for $n = 0, 1, 2, \ldots$ The zero-point energy
+$E_0 = \hbar\omega/2 \gt 0$ is a direct consequence of $[\hat{x}, \hat{p}] = i\hbar$.
+
+#### 5.2.2 Analytic Solution
+
+The eigenfunctions involve Hermite polynomials $H_n$:
+
+$$\phi_n(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{1/4} \frac{1}{\sqrt{2^n n!}} H_n\!\left(\sqrt{\frac{m\omega}{\hbar}}\,x\right) e^{-m\omega x^2/(2\hbar)}$$
+
+The first few Hermite polynomials are $H_0(\xi) = 1$, $H_1(\xi) = 2\xi$, $H_2(\xi) = 4\xi^2 - 2$.
+
+**Example 5.1.** Using the ladder operators, find $\phi_1(x)$ from $\phi_0(x)$.
+
+<details>
+<summary>Solution</summary>
+
+$$\phi_1(x) \propto \hat{a}^\dagger\phi_0(x) = \sqrt{\frac{m\omega}{2\hbar}}\left(x - \frac{\hbar}{m\omega}\frac{d}{dx}\right)\phi_0(x)$$
+
+$$= \sqrt{\frac{m\omega}{2\hbar}}\!\left(x + \frac{\hbar}{m\omega}\cdot\frac{m\omega x}{\hbar}\right)\phi_0(x) = \sqrt{\frac{m\omega}{2\hbar}}\cdot 2x\,\phi_0(x)$$
+
+Normalising gives
+$\phi_1(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{1/4}\sqrt{\frac{2m\omega}{\hbar}}\,x\,e^{-m\omega x^2/(2\hbar)}$.
+
+</details>
+
+### 5.3 The Free Particle
+
+$V(x) = 0$ everywhere. The Schrodinger equation:
+
+$$-\frac{\hbar^2}{2m}\frac{d^2\phi}{dx^2} = E\phi$$
+
+Solutions: $\phi_k(x) = \frac{1}{\sqrt{2\pi}} e^{ikx}$ with $E = \frac{\hbar^2 k^2}{2m}$.
+
+The energy spectrum is **continuous** (all $E \geq 0$). The eigenfunctions are not normalisable
+(plane Waves); physical states are **wave packets** constructed by superposition.
+
+### 5.3.1 Parity
+
+The **parity operator** $\hat{\Pi}$ reflects the coordinate: $\hat{\Pi}\psi(x) = \psi(-x)$.
+
+**Properties:**
+
+- $\hat{\Pi}^2 = \hat{I}$So eigenvalues are $\pm 1$.
+- Even functions ($\psi(-x) = \psi(x)$) have parity $+1$.
+- Odd functions ($\psi(-x) = -\psi(x)$) have parity $-1$.
+- If $V(x) = V(-x)$ (symmetric potential), then $[\hat{H}, \hat{\Pi}] = 0$So energy eigenstates can
+  be chosen to have definite parity.
+
+**Theorem 5.1.** For a symmetric potential $V(x) = V(-x)$The energy eigenstates are either even Or
+odd.
+
+_Proof._ Since $[\hat{H}, \hat{\Pi}] = 0$There exists a simultaneous eigenbasis. Let
+$\hat{H}\phi = E\phi$ and $\hat{\Pi}\phi = \pi\phi$ where $\pi = \pm 1$. Then
+$\phi(-x) = \pi\phi(x)$ So $\phi$ is either even ($\pi = +1$) or odd ($\pi = -1$). $\blacksquare$
+
+This theorem explains why the infinite square well, harmonic oscillator, and finite square well
+Eigenstates all have definite parity: their potentials are all symmetric about the origin.
+
+### 5.3.2 The Virial Theorem
+
+**Theorem 5.2 (Virial Theorem).** For a stationary state of a Hamiltonian
+$\hat{H} = \hat{p}^2/(2m) + V(\hat{x})$:
+
+$$2\langle T \rangle = \langle x\,V"(x) \rangle$$
 
 Where $T$ is the kinetic energy.
 

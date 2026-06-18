@@ -1,6 +1,67 @@
 ---
 title: Computer Systems
-description: ""SUB 5".
+description: "ILC Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-computer-science
+categories:
+  - ilc-computer-science
+
+---
+
+# Computer Systems
+
+This topic covers the architecture and organisation of computer systems, including the CPU, memory
+Hierarchy, input/output systems, and operating systems.
+
+## The Von Neumann Architecture (OL/HL)
+
+The Von Neumann model describes a stored-program computer with:
+
+1. **Central Processing Unit (CPU):** processes data and instructions.
+2. **Memory (RAM):** stores both data and instructions.
+3. **Input devices:** allow data entry (keyboard, mouse).
+4. **Output devices:** display results (monitor, printer).
+5. **Bus system:** connects components (data bus, address bus, control bus).
+
+### The CPU (OL/HL)
+
+**Components:**
+
+- **Arithmetic Logic Unit (ALU):** performs arithmetic (add, subtract) and logical (AND, OR, NOT)
+  operations.
+- **Control Unit (CU):** coordinates the activities of the CPU; decodes instructions and sends
+  control signals.
+- **Registers:** small, fast storage locations within the CPU.
+- **Program Counter (PC):** holds the address of the next instruction.
+- **Memory Address Register (MAR):** holds the address to be accessed in memory.
+- **Memory Data Register (MDR):** holds data being transferred to/from memory.
+- **Accumulator (ACC):** stores the results of ALU operations.
+- **Instruction Register (IR):** holds the current instruction being executed.
+
+**Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
+**address** (where to read/write). The MDR holds the actual **data** (what was read or what to
+write). The CIR/IR holds the **instruction** (what to do).
+
+### The Fetch-Decode-Execute Cycle (OL/HL)
+
+1. **Fetch:**
+
+- The address in the PC is copied to the MAR.
+- The instruction at that address is fetched from memory into the MDR.
+- The PC is incremented to point to the next instruction.
+- The instruction is copied from the MDR to the IR.
+
+2. **Decode:**
+
+- The control unit decodes the instruction in the IR.
+
+3. **Execute:**
+
+- The instruction is executed (e.g., perform calculation, store result).
+
+**Worked Example (HL).** Trace the FDE cycle when PC = 100 and memory[100] = "SUB 5".
 
 Fetch: MAR $\leftarrow$ 100, MDR $\leftarrow$ "SUB 5", PC $\leftarrow$ 101, IR $\leftarrow$ "SUB 5".
 

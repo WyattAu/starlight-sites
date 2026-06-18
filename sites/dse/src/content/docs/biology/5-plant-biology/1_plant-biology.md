@@ -1,6 +1,288 @@
 ---
 title: Plant Biology
-description: ""water loss." It is a consequence of gas exchange -- stomata must be Open for
+description: "Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules...."
+date: 2026-04-08T00:00:00.000Z
+tags:
+  - DSE
+  - Biology
+categories:
+  - DSE
+  - Biology
+
+---
+
+## Plant Nutrition
+
+### Photosynthesis Overview
+
+Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light
+Energy into chemical energy stored in organic molecules. It is the primary source of organic carbon
+For nearly all life on Earth.
+
+**Overall equation:**
+
+$$6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{light, chlorophyll}} \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2$$
+
+This is a redox process: $\mathrm{CO}_2$ is reduced to glucose (gain of electrons), and
+$\mathrm{H}_2\mathrm{O}$ is oxidised to $\mathrm{O}_2$ (loss of electrons).
+
+### Leaf Structure and Adaptations
+
+The leaf is the primary photosynthetic organ. Its structure is optimised for maximising light
+Absorption, $\mathrm{CO}_2$ uptake, and water exchange.
+
+| Structure          | Adaptation for Photosynthesis                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------------------------ |
+| Large surface area | Maximises light absorption                                                                             |
+| Thin and flat      | Short diffusion distance for $\mathrm{CO}_2$ and light                                                 |
+| Waxy cuticle       | Reduces water loss by evaporation                                                                      |
+| Palisade mesophyll | Densely packed cells at the top of the leaf; rich in chloroplasts; main site of photosynthesis         |
+| Spongy mesophyll   | Loosely packed with air spaces; facilitates gas exchange ($\mathrm{CO}_2$ diffusion to palisade cells) |
+| Stomata            | Pores in the lower epidermis; allow $\mathrm{CO}_2$ to enter and $\mathrm{O}_2$ to exit                |
+| Veins (xylem)      | Supply water to mesophyll cells                                                                        |
+| Veins (phloem)     | Transport sugars (products of photosynthesis) away from the leaf                                       |
+| Chloroplasts       | Contain chlorophyll and other pigments; site of the light-dependent and light-independent reactions    |
+
+**Cross-section of a leaf (layers from top to bottom):**
+
+1. Upper epidermis (covered by waxy cuticle; transparent to allow light through)
+2. Palisade mesophyll (tall, columnar cells packed with chloroplasts)
+3. Spongy mesophyll (irregular cells with large intercellular air spaces)
+4. Lower epidermis (contains guard cells and stomata)
+5. Veins (vascular bundles: xylem on top, phloem on bottom)
+
+### Light-Dependent Reactions
+
+**Location:** Thylakoid membranes of the chloroplast.
+
+**Requirements:** Light energy, water ($\mathrm{H}_2\mathrm{O}$), $\mathrm{NADP}^+$ADP, inorganic
+Phosphate ($\mathrm{P}_i$).
+
+**Products:** ATP, NADPH, $\mathrm{O}_2$ (waste product).
+
+**Process:**
+
+1. **Photoexcitation of Photosystem II (PSII):** Light energy is absorbed by chlorophyll a (P680)
+   and accessory pigments in the light-harvesting complex. The energy is transferred to the reaction
+   centre chlorophyll, exciting an electron to a higher energy level.
+
+2. **Photolysis of water:** The excited electron leaves P680, creating a positive charge. Water
+   molecules are split by the enzyme water-splitting complex to replace the electron:
+
+$$2\mathrm{H}_2\mathrm{O} \to 4\mathrm{H}^+ + 4e^- + \mathrm{O}_2$$
+
+The $\mathrm{O}_2$ is released as a by-product. This is the source of atmospheric oxygen.
+
+3. **Electron transport chain (ETC):** The high-energy electron passes through a series of electron
+   carriers embedded in the thylakoid membrane (plastoquinone, cytochrome b6f complex,
+   plastocyanin). As electrons move through the chain, energy is released and used to pump
+   $\mathrm{H}^+$ ions from the stroma into the thylakoid lumen, creating a proton gradient.
+
+4. **Chemiosmosis:** $\mathrm{H}^+$ ions accumulate in the thylakoid lumen, creating a proton
+   gradient (electrochemical gradient). $\mathrm{H}^+$ ions flow back into the stroma through ATP
+   synthase, driving the synthesis of ATP from ADP and $\mathrm{P}_i$. This is called
+   **photophosphorylation**.
+
+5. **Photoexcitation of Photosystem I (PSI):** Light energy excites another electron in PSI (P700).
+   The electron from PSII replaces the electron lost by P700.
+
+6. **NADP$^+$ reduction:** The excited electron from PSI, along with a proton from the stroma,
+   reduces $\mathrm{NADP}^+$ to NADPH via the enzyme ferredoxin-NADP$^+$ reductase (FNR).
+
+**Summary equation for light-dependent reactions:**
+
+$$2\mathrm{H}_2\mathrm{O} + 2\mathrm{NADP}^+ + 3\mathrm{ADP} + 3\mathrm{P}_i \xrightarrow{\mathrm{light}} 2\mathrm{NADPH} + 3\mathrm{ATP} + \mathrm{O}_2$$
+
+### Light-Independent Reactions (Calvin Cycle)
+
+**Location:** Stroma of the chloroplast.
+
+**Requirements:** $\mathrm{CO}_2$ATP, NADPH (produced by the light-dependent reactions).
+
+**Products:** Triose phosphate (G3P, a 3-carbon sugar), which is used to make glucose and other
+Organic compounds.
+
+**Process:**
+
+1. **Carbon fixation:** $\mathrm{CO}_2$ diffuses into the leaf through stomata and enters the
+   chloroplast stroma. The enzyme **RuBisCO** (ribulose-1,5-bisphosphate carboxylase/oxygenase)
+   catalyses the reaction between $\mathrm{CO}_2$ and ribulose-1,5-bisphosphate (RuBP, a 5-carbon
+   compound):
+
+$$\mathrm{CO}_2 + \mathrm{RuBP (5C)} \to \mathrm{Unstable 6C intermediate} \to 2 \times \mathrm{GP (glycerate-3-phosphate, 3C)}$$
+
+2. **Reduction:** GP is reduced to triose phosphate (TP, also called G3P) using ATP and NADPH from
+   the light-dependent reactions:
+
+$$\mathrm{GP} + \mathrm{ATP} + \mathrm{NADPH} \to \mathrm{TP} + \mathrm{NADP}^+ + \mathrm{ADP} + \mathrm{P}_i$$
+
+3. **Regeneration of RuBP:** For every 6 $\mathrm{CO}_2$ molecules fixed, 12 molecules of TP are
+   produced. Of these, 10 molecules of TP (total 30 carbons) are used to regenerate 6 molecules of
+   RuBP (total 30 carbons), consuming 6 ATP. The remaining 2 molecules of TP (total 6 carbons) are
+   the net product and can be used to make one molecule of glucose (6C):
+
+$$2 \times \mathrm{TP (3C each)} \to \mathrm{Glucose (6C)}$$
+
+**Net equation for the Calvin cycle (per 3 turns):**
+
+$$3\mathrm{CO}_2 + 9\mathrm{ATP} + 6\mathrm{NADPH} \to \mathrm{TP} + 9\mathrm{ADP} + 8\mathrm{P}_i + 6\mathrm{NADP}^+$$
+
+**Per glucose (6 turns):**
+
+$$6\mathrm{CO}_2 + 18\mathrm{ATP} + 12\mathrm{NADPH} \to \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 18\mathrm{ADP} + 18\mathrm{P}_i + 12\mathrm{NADP}^+$$
+
+### Limiting Factors of Photosynthesis
+
+A limiting factor is the factor that is closest to its minimum and therefore limits the rate of the
+Process at any given time. The rate of photosynthesis is determined by the slowest of these factors.
+
+| Factor                        | Effect on Rate                                                                                                  |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Light intensity               | Increases rate up to a plateau (light saturation point); beyond this, another factor is limiting                |
+| $\mathrm{CO}_2$ concentration | Increases rate up to a plateau; low $\mathrm{CO}_2$ limits carbon fixation by RuBisCO                           |
+| Temperature                   | Increases rate up to the optimum (approximately 25-30 degrees C for most plants); beyond this, enzymes denature |
+| Water availability            | Severe water shortage closes stomata, reducing $\mathrm{CO}_2$ uptake; not limiting except in drought           |
+
+**Interpreting limiting factor graphs:**
+
+- On a graph of photosynthetic rate vs light intensity at two different $\mathrm{CO}_2$
+  concentrations, the curve with higher $\mathrm{CO}_2$ plateaus at a higher rate. At low light
+  intensity, both curves rise at the same rate (light is the limiting factor). At higher light
+  intensity, the curves diverge ($\mathrm{CO}_2$ becomes limiting for the lower curve).
+- On a graph of rate vs temperature, the rate increases to an optimum then drops sharply. The drop
+  is due to denaturation of RuBisCO and other Calvin cycle enzymes.
+
+:::info At very high light intensities, the rate may decrease due to **photorespiration**. RuBisCO
+Can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ (oxygenase activity), which does not produce
+Glucose and wastes energy. This is more significant at high temperatures and low $\mathrm{CO}_2$
+Concentrations. C4 and CAM plants have evolved mechanisms to minimise photorespiration.
+:::
+
+---
+
+## Gas Exchange in Plants
+
+### Stomata
+
+Stomata are microscopic pores found mainly on the lower surface of leaves (in most plants). Each
+Stoma is surrounded by two guard cells that control the opening and closing of the pore.
+
+**Structure of guard cells:**
+
+- Kidney-shaped (in dicots) or dumbbell-shaped (in monocots like grasses)
+- Contain chloroplasts (unlike most epidermal cells)
+- Cellulose microfibrils are arranged radially around the cell, so when the guard cells swell, they
+  bow outward, opening the stoma
+
+### Mechanism of Stomatal Opening and Closing
+
+Guard cells control stomatal aperture by changing their turgor (internal water pressure).
+
+**Opening:**
+
+1. Light stimulates guard cells to actively transport $\mathrm{K}^+$ ions into the cell
+2. This lowers the water potential inside the guard cell
+3. Water enters by osmosis from neighbouring epidermal cells
+4. The guard cell becomes turgid and swells
+5. The unevenly thickened cell wall causes the guard cells to bow apart, opening the stoma
+
+**Closing:**
+
+1. Abscisic acid (ABA) is produced in response to water stress
+2. $\mathrm{K}^+$ ions leave the guard cell; water follows by osmosis
+3. The guard cell becomes flaccid
+4. The guard cells collapse together, closing the stoma
+
+### Factors Affecting Stomatal Opening
+
+| Factor          | Effect                                                                        |
+| --------------- | ----------------------------------------------------------------------------- |
+| Light           | Opens stomata (blue light is particularly effective via blue-light receptors) |
+| $\mathrm{CO}_2$ | High $\mathrm{CO}_2$ closes stomata; low $\mathrm{CO}_2$ opens them           |
+| Temperature     | Moderate warmth opens stomata; extreme heat may close them (water stress)     |
+| Water supply    | Abundant water keeps stomata open; drought causes closure via ABA             |
+| Time of day     | Most plants open stomata during the day and close at night (circadian rhythm) |
+| Wind            | Strong wind may cause closure by increasing transpiration rate (water stress) |
+
+### Gas Exchange Through Stomata
+
+During the day, photosynthesis is occurring and $\mathrm{CO}_2$ is being consumed. The concentration
+Of $\mathrm{CO}_2$ inside the leaf is lower than in the atmosphere, so $\mathrm{CO}_2$ diffuses in
+Through the stomata. $\mathrm{O}_2$Produced as a by-product of photolysis, diffuses out through The
+stomata.
+
+$$\mathrm{CO}_2 \mathrm{ (atmosphere)} \to \mathrm{stomata} \to \mathrm{air spaces} \to \mathrm{mesophyll cells} \to \mathrm{chloroplasts}$$
+
+$$\mathrm{O}_2 \mathrm{ (chloroplasts)} \to \mathrm{mesophyll cells} \to \mathrm{air spaces} \to \mathrm{stomata} \to \mathrm{atmosphere}$$
+
+At night, when photosynthesis stops but respiration continues, the direction of gas exchange
+Reverses: the plant takes in $\mathrm{O}_2$ and releases $\mathrm{CO}_2$.
+
+---
+
+## Transport in Plants
+
+### Overview of Plant Vascular System
+
+Plants have two vascular tissues for transport:
+
+| Tissue | Function                      | Direction of Transport           | Structure                                             |
+| ------ | ----------------------------- | -------------------------------- | ----------------------------------------------------- |
+| Xylem  | Transports water and minerals | Upwards (roots to leaves)        | Dead, hollow tubes; thick lignified walls             |
+| Phloem | Transports organic solutes    | Both directions (source to sink) | Living cells; sieve tube elements and companion cells |
+
+### Xylem Structure and Function
+
+Xylem tissue consists of several cell types:
+
+| Cell Type       | Description                                                                                        |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| Vessel elements | Short, wide cells with perforated end walls; arranged end-to-end forming continuous vessels        |
+| Tracheids       | Long, narrow cells with tapered ends; water passes through pits (thin areas in the lignified wall) |
+| Fibres          | Provide structural support                                                                         |
+| Parenchyma      | Living cells for storage and lateral transport                                                     |
+
+**Key features of xylem vessels:**
+
+- Dead at maturity (no cytoplasm, no organelles)
+- Lignified cell walls (provides strength and water.../1-number-and-algebra/3_proof-and-logicing)
+- No cross-walls (end walls broken down) in vessel elements, forming continuous hollow tubes
+- Narrow diameter in some vessels (adhesion of water to walls helps support the water column)
+
+### Transpiration
+
+**Definition:** Transpiration is the loss of water vapour from the aerial parts of a plant,
+Primarily through the stomata of leaves.
+
+### Worked Example: Transpiration Rate Calculation
+
+A potometer was used to measure water uptake by a leafy shoot. The bubble moved 12 mm along the
+capillary tube in 5 minutes. The capillary tube has a diameter of 0.8 mm.
+
+(a) Calculate the volume of water taken up in 5 minutes.
+
+(b) Calculate the rate of water uptake in mm cubed/hour.
+
+(c) State two assumptions when using a potometer to estimate transpiration rate.
+
+<details>
+<summary>Solution</summary>
+
+(a) Radius of capillary tube = $0.8 / 2 = 0.4$ mm = $0.4 \times 10^{-3}$ m
+
+Cross-sectional area = $\pi r^2 = \pi \times (0.4)^2 = 0.503 \mathrm{ mm}^2$
+
+Volume = area $\times$ distance = $0.503 \times 12 = 6.03 \mathrm{ mm}^3$
+
+(b) Rate = $6.03 / 5 \times 60 = 72.4 \mathrm{ mm}^3\mathrm{/hour}$
+
+(c) 1. All water taken up is lost through transpiration (some is used in photosynthesis and
+growth). 2. The cutting of the shoot has not damaged xylem vessels. 3. Environmental conditions in
+the lab are similar to natural conditions.
+
+</details>
+
+Transpiration is NOT "water loss." It is a consequence of gas exchange -- stomata must be Open for
 $\mathrm{CO}_2$ uptake during photosynthesis, and water vapour inevitably diffuses out Through the
 same open stomata.
 

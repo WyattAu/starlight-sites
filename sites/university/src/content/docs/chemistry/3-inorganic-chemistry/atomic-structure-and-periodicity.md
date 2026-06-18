@@ -1,6 +1,61 @@
 ---
 title: Atomic Structure and Periodicity
-description: ""s Rules
+description: "Each atomic orbital is characterized by four quantum numbers: Comprehensive educational content coverage with definitions and practice problems."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Chemistry
+  - University
+categories:
+  - Chemistry
+---
+
+## 1. Atomic Orbitals
+
+### 1.1 Quantum Numbers and Orbital Designation
+
+Each atomic orbital is characterized by four quantum numbers:
+
+| Quantum Number | Symbol   | Allowed Values                   |
+| -------------- | -------- | -------------------------------- |
+| Principal      | $n$      | $1, 2, 3, \ldots$                |
+| Azimuthal      | $\ell$   | $0, 1, 2, \ldots, n - 1$         |
+| Magnetic       | $m_\ell$ | $-\ell, \ldots, 0, \ldots, \ell$ |
+| Spin           | $m_s$    | $+\frac{1}{2}, -\frac{1}{2}$     |
+
+Orbital types: $\ell = 0$ ($s$), $\ell = 1$ ($p$), $\ell = 2$ ($d$), $\ell = 3$ ($f$).
+
+### 1.2 Orbital Shapes and Nodes
+
+**Theorem 1 (Node Count):** Total nodes $= n - 1$.
+
+$$\text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell$$
+
+| Orbital | Radial Nodes | Angular Nodes | Shape                  |
+| ------- | ------------ | ------------- | ---------------------- |
+| 1s      | 0            | 0             | Sphere                 |
+| 2s      | 1            | 0             | Sphere + 1 radial node |
+| 2p      | 0            | 1             | Dumbbell               |
+| 3d      | 0            | 2             | Cloverleaf             |
+| 4f      | 0            | 3             | Complex multi-lobed    |
+
+### 1.3 The Radial Distribution Function
+
+**Definition 1 (Radial Distribution Function):** $P(r) = r^2|R_{n\ell}(r)|^2$, the probability of
+finding the electron between $r$ and $r + dr$ from the nucleus.
+
+For the hydrogen 1s orbital, the maximum occurs at $r = a_0 = 52.9$ pm (the Bohr radius).
+
+### 1.4 Penetration and Shielding
+
+**Definition 2 (Penetration):** The ability of an electron to get close to the nucleus, bypassing
+shielding by other electrons. Penetration follows $s > p > d > f$.
+
+**Definition 3 (Shielding):** The reduction in effective nuclear charge experienced by an electron
+due to repulsion by other electrons.
+
+## 2. Effective Nuclear Charge
+
+### 2.1 Slater"s Rules
 
 **Theorem 2 (Slater's Rules):** The effective nuclear charge $Z_{\text{eff}}$ experienced by an
 electron is:

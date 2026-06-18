@@ -1,6 +1,37 @@
 ---
 title: Concurrency
-description: ""s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
+description: "means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Haskell
+categories:
+  - Haskell
+
+---
+
+## Concurrency vs Parallelism
+
+**Concurrency** means dealing with many things at once -- structuring a program as multiple
+independent tasks that may interleave execution. **Parallelism** means doing many things at once --
+executing tasks simultaneously on multiple CPU cores.
+
+Haskell excels at both because of its pure functional nature: pure functions have no shared mutable
+state, so concurrent execution is inherently safe. The only shared mutable state in Haskell lives in
+monadic contexts (like `IORef` or `MVar`), and Haskell provides safe abstractions for managing it.
+
+```haskell
+-- Concurrency: interleaved execution
+-- Task A: [----]
+-- Task B:   [----]
+
+-- Parallelism: simultaneous execution
+-- Core 1: [----]
+-- Core 2: [----]
+```
+
+## forkIO: Lightweight Threads
+
+Haskell"s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
 threads):
 
 ```haskell

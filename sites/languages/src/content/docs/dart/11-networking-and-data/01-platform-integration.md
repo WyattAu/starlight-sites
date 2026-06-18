@@ -1,6 +1,202 @@
 ---
 title: Platform Integration
-description: ""com.example.myapp/battery"
+description: "Flutter provides a rich set of widgets and plugins, but some capabilities require direct interaction With the underlying operating system. The device''s..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Dart
+categories:
+  - Dart
+
+---
+
+# Platform Integration
+
+## Why Platform Integration
+
+Flutter provides a rich set of widgets and plugins, but some capabilities require direct interaction
+With the underlying operating system. The device's camera, GPS receiver, Bluetooth radio,
+Accelerometer, file system, biometric hardware, and notification system are all accessed through
+Native platform APIs (Android's Java/Kotlin APIs, iOS's Objective-C/Swift APIs). Flutter's sandbox
+Isolates Dart code from these native APIs, so a bridge mechanism is needed.
+
+**Platform channels** are the fundamental bridge between Dart and native code. They allow
+Bidirectional communication: Dart can invoke native methods and receive results, and native code can
+Send messages or streams of events back to Dart.
+
+The platform channel architecture uses a message-passing model. Data is serialized using a standard
+Codec ( the `StandardMethodCodec`Which supports null, booleans, numbers, strings, byte Buffers,
+lists, and maps), transmitted across the platform channel, and deserialized on the other Side. This
+serialization/deserialization is handled automatically for standard types.
+
+Most common use cases are covered by existing Flutter packages (`camera``geolocator`
+`shared_preferences``url_launcher`Etc.). Platform channels are needed when:
+
+- No suitable plugin exists for the native API you need.
+- You need to integrate with a proprietary native SDK.
+- You need fine-grained control over native behavior that a plugin abstracts away.
+- You are building a plugin yourself.
+
+---
+
+## Platform Checks
+
+Before invoking platform-specific behavior, you often need to determine which platform your app is
+Running on.
+
+### Platform Class
+
+The `dart:io` `Platform` class provides static boolean properties:
+
+```dart
+import 'dart:io';
+
+if (Platform.isAndroid) {
+  // Android-specific code
+} else if (Platform.isIOS) {
+  // iOS-specific code
+} else if (Platform.isMacOS) {
+  // macOS-specific code
+} else if (Platform.isLinux) {
+  // Linux-specific code
+} else if (Platform.isWindows) {
+  // Windows-specific code
+}
+```
+
+### defaultTargetPlatform
+
+`defaultTargetPlatform` from `package:flutter/foundation.dart` returns a `TargetPlatform` enum. This
+Is useful for choosing between Material and Cupertino widgets:
+
+```dart
+import 'package:flutter/foundation.dart';
+
+final isApple = defaultTargetPlatform == TargetPlatform.iOS ||
+    defaultTargetPlatform == TargetPlatform.macOS;
+
+if (isApple) {
+  return const CupertinoActivityIndicator();
+} else {
+  return const CircularProgressIndicator();
+}
+```
+
+### Theme.of(context).platform
+
+`Theme.of(context).platform` returns the platform that the current theme is targeting. This can
+Differ from the actual platform — for example, an Android user might prefer iOS-style UI. The
+Theme's platform value respects the user's preference:
+
+```dart
+final platform = Theme.of(context).platform;
+
+if (platform == TargetPlatform.iOS) {
+  return const CupertinoNavigationBar(...);
+} else {
+  return const AppBar(...);
+}
+```
+
+### Why Platform Checks Matter
+
+Platform checks are necessary for several reasons:
+
+- **UI conventions**: Material Design and Cupertino (iOS Human Interface Guidelines) have different
+  patterns for navigation bars, dialogs, date pickers, and scroll physics.
+- **Feature availability**: Some APIs are only available on certain platforms. The camera plugin,
+  for instance, does not work on desktop without a webcam. Biometric authentication works
+  differently (or not at all) across platforms.
+- **Permission models**: Android and iOS have different permission request flows. Android uses a
+  runtime permission model, while iOS requires `Info.plist` entries with usage descriptions.
+- **File system layout**: Android and iOS store app data in different directory structures. Android
+  uses `/data/data/<package>/`While iOS uses the sandbox's `Documents/` and `Library/` directories.
+
+### kIsWeb
+
+On the web platform, `dart:io` is not available. Use `kIsWeb` from `package:flutter/foundation.dart`
+To check for the web platform before importing `dart:io`:
+
+```dart
+import 'package:flutter/foundation.dart' show kIsWeb;
+
+if (kIsWeb) {
+  // Web-specific code
+} else {
+  import 'dart:io';
+  if (Platform.isAndroid) {
+    // Android-specific code
+  }
+}
+```
+
+A cleaner pattern is to isolate platform-specific code into separate files using conditional
+Imports:
+
+```dart
+// platform_info.dart
+export 'platform_info_mobile.dart' if (dart.library.html) 'platform_info_web.dart';
+```
+
+---
+
+## MethodChannel
+
+`MethodChannel` is the primary mechanism for invoking native methods from Dart and receiving
+Results. It follows a request-response model: Dart sends a method call with optional arguments, the
+Native side handles it and returns a result.
+
+### Setup
+
+Define a channel with a unique string name. By convention, use a reverse-domain format:
+
+```dart
+import 'package:flutter/services.dart';
+
+const channel = MethodChannel('com.example.myapp/battery');
+```
+
+### Invoking a Method from Dart
+
+```dart
+class BatteryService {
+  static const _channel = MethodChannel('com.example.myapp/battery');
+
+  static Future<int> getBatteryLevel() async {
+    try {
+      final int level = await _channel.invokeMethod('getBatteryLevel');
+      return level;
+    } on PlatformException catch (e) {
+      throw BatteryException('Failed to get battery level: ${e.message}');
+    }
+  }
+}
+```
+
+`invokeMethod` returns a `Future<T>`. The type parameter `T` is the expected return type. If the
+Native side returns a different type, a cast error occurs at runtime.
+
+### Passing Arguments
+
+Arguments are passed as a `Map<String, dynamic>`:
+
+```dart
+final result = await _channel.invokeMethod<Map<String, dynamic>>(
+  'getDeviceInfo',
+  {'includeSerial': true, 'timeout': 5000},
+);
+```
+
+### Native Handler (Android)
+
+In Kotlin, register the handler in your `MainActivity`:
+
+```kotlin
+class MainActivity : FlutterActivity() {
+    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+        super.configureFlutterEngine(flutterEngine)
+        MethodChannel(
+            flutterEngine.dartExecutor.binaryMessenger,
+            "com.example.myapp/battery"
         ).setMethodCallHandler { call, result ->
             when (call.method) {
                 "getBatteryLevel" -> {

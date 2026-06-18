@@ -1,6 +1,41 @@
 ---
 title: Condition Variables, Latches, and Barriers
-description: ""release mutex + block" is critical — without it, a notification sent between
+description: "This section covers and Spurious wakeups, Producer-consumer patterns, and the C++20 synchronization primitives and For one-shot and reusable phase..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Condition Variables, Latches, and Barriers
+
+This section covers `std::condition_variable` and `std::condition_variable_any`Spurious wakeups,
+Producer-consumer patterns, and the C++20 synchronization primitives `std::latch` and `std::barrier`
+For one-shot and reusable phase synchronization.
+
+## `std::condition_variable`
+
+`std::condition_variable` [N4950 §31.5.4] provides a mechanism for threads to wait until a shared
+Condition is met. It always works with a `std::unique_lock<std::mutex>`.
+
+Key operations:
+
+| Operation          | Description                                                          |
+| ------------------ | -------------------------------------------------------------------- |
+| `wait(lock)`       | Releases the lock, blocks the thread, re-acquires the lock on wakeup |
+| `wait(lock, pred)` | Equivalent to `while (!pred()) wait(lock);`                          |
+| `notify_one()`     | Wakes one waiting thread                                             |
+| `notify_all()`     | Wakes all waiting threads                                            |
+
+### How `wait()` Works Internally
+
+When a thread calls `wait(lock)`The following sequence occurs:
+
+1. The thread atomically releases the mutex and blocks.
+2. When notified (or spuriously woken), the thread re-acquires the mutex before returning.
+3. The atomicity of "release mutex + block" is critical — without it, a notification sent between
    the mutex release and the block would be lost.
 
 On Linux, `std::condition_variable` is implemented using `pthread_cond_t`Which uses the Futex system

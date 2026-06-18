@@ -1,6 +1,6 @@
 ---
 title: Authentication and Authorization
-description: "" — it verifies identity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
+description: "answers "who are you?" — it verifies identity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 
 ---
 

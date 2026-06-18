@@ -1,6 +1,42 @@
 ---
 title: Biological Level of Analysis
-description: ""s area for speech
+description: "The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and..."
+
+---
+
+# Biological Level of Analysis
+
+The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the
+role of the brain, neurotransmitters, hormones, and genetics. It is rooted in the principle that
+behaviour can be explained in terms of biological structures and processes, and that animal research
+can provide insight into human behaviour. The BLOA is one of three core levels of analysis assessed
+on Paper 1 and provides the foundation for understanding biomedical approaches to treatment in
+abnormal psychology.
+
+Within the IB Psychology framework, the three levels of analysis -- biological, cognitive, and
+sociocultural -- are designed to be complementary rather than competing. The BLOA explains the
+physiological substrate of behaviour: how neurons fire, which brain regions activate, and which
+genes predispose individuals to certain traits. The cognitive level of analysis explains how these
+biological processes give rise to mental operations such as memory encoding and decision making. The
+sociocultural level explains how external social and cultural forces shape the expression and
+interpretation of those cognitions and behaviours. For example, stress can be examined at all three
+levels: cortisol secretion and HPA axis activation (biological), cognitive appraisal of the stressor
+(cognitive), and cultural norms around emotional expression (sociocultural). A comprehensive answer
+to any IB Psychology question benefits from acknowledging this multilevel complementarity.
+
+## Contents
+
+- [Brain Imaging Techniques](./biological/brain-imaging-techniques) -- fMRI, PET, EEG, TMS, and
+  lesion studies, including their strengths, limitations, and ethical considerations.
+- [Genetics and Behaviour](./biological/genetics-and-behaviour) -- genetic inheritance, twin
+  studies, adoption studies, and the nature-nurture debate.
+- [Neuroplasticity and Neurotransmission](./biological/neuroplasticity-and-neurotransmission) --
+  synaptic transmission, neurotransmitters, neural plasticity, and their implications for behaviour.
+
+## Key Concepts
+
+- **Localisation of brain function** -- the idea that specific regions of the brain are responsible
+  for specific functions (e.g., the amygdala for fear processing, Broca"s area for speech
   production). Evidence comes from lesion studies and brain imaging.
 - **Neurotransmission** -- the process by which chemical signals are transmitted across synapses.
   Neurotransmitters (e.g., serotonin, dopamine, acetylcholine) influence mood, motivation, and

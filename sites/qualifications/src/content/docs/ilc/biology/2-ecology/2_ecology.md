@@ -1,6 +1,250 @@
 ---
 title: Ecology
-description: ""s Diversity Index:**
+description: "ILC Biology Ecology notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation."
+date: 2026-04-14
+tags:
+  - ilc
+  - ilc-biology
+categories:
+  - ilc-biology
+
+---
+
+# Ecology
+
+Ecology is the study of the relationships between living organisms and their environment. This topic
+Covers ecosystems, food chains, nutrient cycles, population dynamics, and human impact on the
+Environment.
+
+## Ecosystems
+
+### Definitions (OL/HL)
+
+- **Ecosystem:** a community of organisms interacting with each other and their physical
+  environment.
+- **Habitat:** the place where an organism lives.
+- **Niche:** the role and position of a species within its ecosystem.
+- **Population:** all organisms of the same species in a given area.
+- **Community:** all populations in a given area.
+- **Biosphere:** all ecosystems on Earth.
+
+### Biotic and Abiotic Factors (OL/HL)
+
+**Biotic factors:** living components -- predators, prey, competitors, parasites, disease.
+
+**Abiotic factors:** non-living components -- temperature, light, water, pH, soil type, wind,
+Mineral availability.
+
+## Feeding Relationships
+
+### Trophic Levels (OL/HL)
+
+| Level              | Organisms                      |
+| ------------------ | ------------------------------ |
+| Producer           | Plants, algae (autotrophs)     |
+| Primary consumer   | Herbivores                     |
+| Secondary consumer | Carnivores that eat herbivores |
+| Tertiary consumer  | Top carnivores                 |
+| Decomposer         | Bacteria, fungi                |
+
+### Food Chains and Food Webs (OL/HL)
+
+A **food chain** shows the flow of energy from producers through consumers.
+
+**Example (OL):** Grass $\to$ Rabbit $\to$ Fox $\to$ Hawk.
+
+A **food web** consists of many interconnected food chains, showing the complex feeding
+Relationships in an ecosystem.
+
+### Ecological Pyramids (OL/HL)
+
+**Pyramid of numbers:** number of organisms at each trophic level (may be inverted).
+
+**Pyramid of biomass:** total mass of organisms at each trophic level (rarely inverted).
+
+**Pyramid of energy:** energy at each trophic level (always upright; never inverted).
+
+### Energy Flow (OL/HL)
+
+- Only about 10% of energy is transferred from one trophic level to the next.
+- The rest is lost as heat through respiration, excretion, and uneaten parts.
+- This limits the number of trophic levels in a food chain ( 4-5).
+
+**Example (OL):** If producers have 10,000 kJ of energy, primary consumers have about 1,000 kJ,
+Secondary consumers about 100 kJ, and tertiary consumers about 10 kJ.
+
+**Worked Example: Calculating ecological efficiency.**
+
+A meadow contains 50,000 kJ of energy in grass. Rabbits (primary consumers) contain 5,000 kJ. Foxes
+(secondary consumers) contain 500 kJ.
+
+Efficiency from grass to rabbits: $(5000/50000) \times 100 = 10\%$.
+
+Efficiency from rabbits to foxes: $(500/5000) \times 100 = 10\%$.
+
+Overall efficiency from grass to foxes: $(500/50000) \times 100 = 1\%$.
+
+This demonstrates that most energy is lost at each trophic level.
+
+## Biogeochemical Cycles
+
+### Carbon Cycle (OL/HL)
+
+**Key processes:**
+
+1. **Photosynthesis:**
+   $\mathrm{CO_2 + \mathrm{H_2\mathrm{O \to \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + \mathrm{O_2$
+2. **Respiration:**
+   $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + \mathrm{O_2 \to \mathrm{CO_2 + \mathrm{H_2\mathrm{O + \mathrm{energy$
+3. **Combustion:** burning fossil fuels releases $\mathrm{CO_2$.
+4. **Decomposition:** decomposers break down organic matter, releasing $\mathrm{CO_2$.
+
+Carbon is stored in:
+
+- Atmosphere (as $\mathrm{CO_2$)
+- Oceans (dissolved $\mathrm{CO_2$Carbonate rocks)
+- Fossil fuels (coal, oil, natural gas)
+- Living organisms (biomass)
+
+### Nitrogen Cycle (OL/HL)
+
+**Key processes:**
+
+1. **Nitrogen fixation:** conversion of atmospheric $\mathrm{N_2$ to ammonia ($\mathrm{NH_3$).
+
+- By lightning (small amount).
+- By nitrogen-fixing bacteria (e.g., Rhizobium in root nodules of legumes).
+- By industrial process (Haber process).
+
+2. **Nitrification:** conversion of ammonia to nitrites ($\mathrm{NO_2^-$) and then nitrates
+   ($\mathrm{NO_3^-$).
+
+- By nitrifying bacteria (Nitrosomonas, Nitrobacter).
+
+3. **Absorption:** plants absorb nitrates through their roots.
+
+4. **Assimilation:** plants use nitrates to make amino acids and proteins.
+
+5. **Feeding:** animals obtain nitrogen by eating plants or other animals.
+
+6. **Decomposition:** decomposers break down dead organisms and waste, returning ammonia to the
+   soil.
+
+7. **Denitrification:** conversion of nitrates back to $\mathrm{N_2$ gas.
+
+- By denitrifying bacteria (in waterlogged, anaerobic soil).
+
+### Water Cycle (OL)
+
+**Key processes:** evaporation, transpiration, condensation, precipitation, percolation.
+
+## Population Dynamics
+
+### Population Growth (OL/HL)
+
+Populations grow when births + immigration exceed deaths + emigration.
+
+**Exponential growth:** $N = N_0 e^{rt}$ (unlimited resources).
+
+**Logistic growth:** population growth slows as it approaches the carrying capacity $K$.
+
+The carrying capacity is the maximum population size that the environment can sustain.
+
+**Worked Example: Exponential growth calculation.**
+
+A population of bacteria starts with 1000 cells and has a growth rate $r = 0.5$ per hour. What is
+The population after 10 hours?
+
+$N = N_0 e^{rt} = 1000 \times e^{0.5 \times 10} = 1000 \times e^5 \approx 1000 \times 148.4 = 148,413$
+Cells.
+
+This shows how rapidly populations can grow when resources are unlimited.
+
+### Factors Affecting Population Size
+
+**Density-dependent factors:** competition, predation, disease, parasitism (effects increase with
+Population density).
+
+**Density-independent factors:** natural disasters, temperature extremes (effects do not depend on
+Density).
+
+**Comparison of density-dependent and density-independent factors:**
+
+| Feature                 | Density-Dependent             | Density-Independent           |
+| ----------------------- | ----------------------------- | ----------------------------- |
+| Relationship to density | Effect increases with density | Effect independent of density |
+| Examples                | Disease, competition          | Natural disasters, fire       |
+| Regulation type         | Intrinsic (self-regulating)   | Extrinsic (external)          |
+| Predictability          | More predictable              | Less predictable              |
+
+## Human Impact on the Environment (OL/HL)
+
+### Pollution
+
+- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$Particulate matter.
+- **Water pollution:** sewage, fertilisers (eutrophication), heavy metals, oil spills.
+- **Soil pollution:** pesticides, herbicides, industrial waste.
+
+### Eutrophication (OL/HL)
+
+1. Excess nitrates/phosphates enter water bodies (from fertiliser runoff or sewage).
+2. Algal bloom occurs (rapid growth of algae).
+3. Algae die and decompose.
+4. Decomposers use up oxygen (BOD increases).
+5. Fish and other aquatic organisms die.
+
+**Worked Example: Biochemical Oxygen Demand (BOD).**
+
+A river has a BOD of 2 mg/L upstream of a sewage outfall. Downstream, the BOD rises to 8 mg/L.
+
+The increased BOD means that decomposers in the water are using more oxygen to break down organic
+Matter from the sewage. This reduces the dissolved oxygen available for fish and other aquatic
+Organisms. If the dissolved oxygen drops below about 5 mg/L, fish begin to die.
+
+### Deforestation (OL/HL)
+
+- Loss of biodiversity.
+- Increased $\mathrm{CO_2$ (fewer trees for photosynthesis).
+- Soil erosion.
+- Disruption of the water cycle.
+
+### Climate Change (HL)
+
+- Enhanced greenhouse effect due to increased atmospheric $\mathrm{CO_2$$\mathrm{CH_4$
+  $\mathrm{N_2\mathrm{O$.
+- Rising global temperatures, sea level rise, extreme weather events.
+- Impact on ecosystems, agriculture, and human health.
+
+### Conservation (OL/HL)
+
+Strategies for conservation include:
+
+- Establishing nature reserves and national parks.
+- Captive breeding programmes.
+- Sustainable resource management.
+- Legislation and international agreements (e.g., CITES, Kyoto Protocol).
+- Environmental impact assessments.
+
+## Ecological Field Studies (OL/HL)
+
+### Sampling Techniques
+
+**Quadrat sampling:** for plants and slow-moving animals in a uniform habitat.
+
+Place a quadrat ( $1\mathrm{ m \times 1\mathrm{ m$) randomly and count organisms. Repeat and
+Calculate mean density.
+
+**Transect sampling:** study changes along an environmental gradient (e.g., from sea shore inland).
+
+Place quadrats at regular intervals along a line.
+
+**Pitfall traps:** for ground-dwelling invertebrates.
+
+**Kick sampling:** for aquatic invertebrates in rivers.
+
+### Measuring Biodiversity (HL)
+
+**Simpson"s Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n_i(n_i - 1)}{N(N - 1)}

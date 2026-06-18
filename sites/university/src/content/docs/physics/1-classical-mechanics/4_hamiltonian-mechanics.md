@@ -3,7 +3,44 @@ title: Hamiltonian Mechanics
 tags:
   - Physics
   - University
-description: ""s equations give:
+description: "Hamiltonian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 4.1 Generalised Momentum
+
+The **generalised momentum** conjugate to $q_j$ is
+
+$$p_j = \frac{\partial L}{\partial \dot{q}_j}$$
+
+### 4.2 The Hamiltonian
+
+The **Hamiltonian** is defined by the **Legendre transform**:
+
+$$H(q_1, \ldots, q_n, p_1, \ldots, p_n, t) = \sum_{j=1}^n p_j \dot{q}_j - L$$
+
+When the transformation is regular (i.e., the Hessian
+$\partial^2 L / \partial \dot{q}_j \partial \dot{q}_k$ Is non-singular), this is well-defined.
+
+If $L$ does not depend explicitly on time and $V$ is velocity-independent, then $H = T + V$ (total
+Energy).
+
+### 4.3 Worked Example: Legendre Transform for the Harmonic Oscillator
+
+**Problem.** A one-dimensional harmonic oscillator has
+$L = \frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2$. Find the Hamiltonian.
+
+<details>
+<summary>Solution</summary>
+
+The conjugate momentum:
+
+$$p = \frac{\partial L}{\partial \dot{x}} = m\dot{x} \implies \dot{x} = \frac{p}{m}$$
+
+The Hamiltonian:
+
+$$H = p\dot{x} - L = p\frac{p}{m} - \frac{1}{2}m\frac{p^2}{m^2} + \frac{1}{2}kx^2 = \frac{p^2}{2m} + \frac{1}{2}kx^2$$
+
+This is $T + V$ as expected for a natural system. Hamilton"s equations give:
 
 $$\dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}, \quad \dot{p} = -\frac{\partial H}{\partial x} = -kx$$
 

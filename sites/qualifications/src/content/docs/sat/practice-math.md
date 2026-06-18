@@ -5,7 +5,446 @@ tags:
   - SAT
 categories:
   - SAT
-description: ""s fuel efficiency is 12 kilometres per litre. If petrol costs \$1.45 per litre, what is the
+description: "This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,..."
+---
+
+## Overview
+
+This page contains 25 practice problems organised by the four content domains of the SAT Mathematics
+section. Each problem includes a step-by-step solution, the key concept tested, and common mistakes
+to avoid. These problems span the difficulty range you will encounter on the digital SAT, from
+straightforward applications to multi-step problems requiring careful reasoning.
+
+---
+
+## Algebra
+
+### Problem 1: Linear Equations
+
+If $3(2x - 5) = 4(x + 3) - 7$, what is the value of $x$?
+
+**Solution:**
+
+$$3(2x - 5) = 4(x + 3) - 7$$
+
+$$6x - 15 = 4x + 12 - 7$$
+
+$$6x - 15 = 4x + 5$$
+
+$$6x - 4x = 5 + 15$$
+
+$$2x = 20$$
+
+$$x = 10$$
+
+**Key concept:** Solving a linear equation by distributing, combining like terms, and isolating the
+variable.
+
+**Common mistakes:**
+
+- Forgetting to distribute the 3 to both terms in $(2x - 5)$
+- Dropping the negative sign when moving $-15$ to the right side
+- Arithmetic errors in $12 - 7 = 5$
+
+---
+
+### Problem 2: Systems of Equations
+
+A store sells notebooks for \$3 each and pens for \$2 each. If a customer buys 14 items and spends
+\$34 in total, how many notebooks did the customer buy?
+
+**Solution:**
+
+Let $n$ = number of notebooks and $p$ = number of pens.
+
+$$n + p = 14 \quad \text{(total items)}$$
+
+$$3n + 2p = 34 \quad \text{(total cost)}$$
+
+From the first equation: $p = 14 - n$.
+
+Substitute into the second:
+
+$$3n + 2(14 - n) = 34$$
+
+$$3n + 28 - 2n = 34$$
+
+$$n + 28 = 34$$
+
+$$n = 6$$
+
+The customer bought 6 notebooks.
+
+**Key concept:** Solving a system of linear equations using substitution.
+
+**Common mistakes:**
+
+- Setting up the equations with incorrect coefficients (confusing which item costs \$3 and which
+  costs \$2)
+- Solving for $n$ but answering with $p$ instead
+- Forgetting to verify: $6 \times 3 + 8 \times 2 = 18 + 16 = 34$ ✓
+
+---
+
+### Problem 3: Linear Functions
+
+A line passes through the points $(-2, 5)$ and $(4, -7)$. What is the equation of this line in
+slope-intercept form?
+
+**Solution:**
+
+$$m = \frac{-7 - 5}{4 - (-2)} = \frac{-12}{6} = -2$$
+
+Using point-slope form with point $(4, -7)$:
+
+$$y - (-7) = -2(x - 4)$$
+
+$$y + 7 = -2x + 8$$
+
+$$y = -2x + 1$$
+
+The equation is $y = -2x + 1$.
+
+**Key concept:** Calculating slope from two points and writing the equation in slope-intercept form.
+
+**Common mistakes:**
+
+- Reversing the order of subtraction in the slope formula (getting $m = \frac{5-(-7)}{-2-4}$ gives
+  the same result, but inconsistent order can lead to sign errors)
+- Making arithmetic errors when substituting into point-slope form
+- Forgetting to simplify the final equation
+
+---
+
+### Problem 4: Inequalities
+
+Solve the inequality $-3(2x + 1) > 4x - 11$. Express the solution as an inequality.
+
+**Solution:**
+
+$$-3(2x + 1) > 4x - 11$$
+
+$$-6x - 3 > 4x - 11$$
+
+$$-6x - 4x > -11 + 3$$
+
+$$-10x > -8$$
+
+Dividing by $-10$ (reverse the inequality sign):
+
+$$x < \frac{4}{5}$$
+
+**Key concept:** Solving a linear inequality, remembering to reverse the inequality sign when
+dividing by a negative number.
+
+**Common mistakes:**
+
+- Forgetting to reverse the inequality sign when dividing by $-10$
+- Sign errors when distributing $-3$ to both terms
+- Writing $\frac{-8}{-10}$ incorrectly (it simplifies to $\frac{4}{5}$, not $-\frac{4}{5}$)
+
+---
+
+### Problem 5: Absolute Value
+
+What is the sum of all integer solutions to $|2x - 3| \leq 7$?
+
+**Solution:**
+
+$$|2x - 3| \leq 7 \implies -7 \leq 2x - 3 \leq 7$$
+
+Add 3:
+
+$$-4 \leq 2x \leq 10$$
+
+Divide by 2:
+
+$$-2 \leq x \leq 5$$
+
+The integer solutions are $-2, -1, 0, 1, 2, 3, 4, 5$.
+
+Sum: $-2 + (-1) + 0 + 1 + 2 + 3 + 4 + 5 = 12$
+
+**Key concept:** Solving an absolute value inequality by rewriting as a compound inequality.
+
+**Common mistakes:**
+
+- Writing $2x - 3 \leq 7$ only (forgetting the negative case)
+- Incorrectly dividing: dividing by a positive number (2) does not require reversing the inequality
+- Off-by-one errors when listing integer solutions (including 6 or excluding $-2$)
+
+---
+
+### Problem 6: Linear Word Problem
+
+A tank initially contains 200 litres of water. Water is added at a constant rate of 15 litres per
+minute. At the same time, water drains from a leak at a constant rate of 3 litres per minute. How
+many minutes will it take for the tank to contain 380 litres?
+
+**Solution:**
+
+Net rate of change: $15 - 3 = 12$ litres per minute.
+
+Amount needed: $380 - 200 = 180$ litres.
+
+$$12t = 180$$
+
+$$t = \frac{180}{12} = 15$$
+
+It takes 15 minutes.
+
+**Key concept:** Modelling a real-world scenario with a linear equation using rate of change.
+
+**Common mistakes:**
+
+- Forgetting to account for the leak (using 15 litres/min instead of the net 12 litres/min)
+- Using the initial amount instead of the difference ($380 - 200$)
+- Arithmetic errors in $180 \div 12$
+
+---
+
+## Advanced Math
+
+### Problem 7: Quadratic Equations
+
+What are the solutions to $2x^2 - 5x - 3 = 0$?
+
+**Solution:**
+
+Factor: find two numbers that multiply to $2 \times (-3) = -6$ and add to $-5$.
+
+The numbers are $-6$ and $1$.
+
+$$2x^2 - 6x + x - 3 = 0$$
+
+$$2x(x - 3) + 1(x - 3) = 0$$
+
+$$(2x + 1)(x - 3) = 0$$
+
+$$2x + 1 = 0 \implies x = -\frac{1}{2}$$
+
+$$x - 3 = 0 \implies x = 3$$
+
+The solutions are $x = -\frac{1}{2}$ and $x = 3$.
+
+**Key concept:** Factoring a quadratic by splitting the middle term (AC method).
+
+**Common mistakes:**
+
+- Incorrect factor pair (e.g., $-2$ and $3$ multiply to $-6$ but add to $1$, not $-5$)
+- Sign errors during grouping
+- Forgetting that $2x + 1 = 0$ gives $x = -1/2$, not $x = 1/2$
+
+---
+
+### Problem 8: Polynomial Operations
+
+If $f(x) = x^3 + 2x^2 - 5x + 1$ and $g(x) = x - 3$, what is the remainder when $f(x)$ is divided by
+$g(x)$?
+
+**Solution:**
+
+By the Remainder Theorem, the remainder is $f(3)$:
+
+$$f(3) = 3^3 + 2(3)^2 - 5(3) + 1$$
+
+$$f(3) = 27 + 2(9) - 15 + 1$$
+
+$$f(3) = 27 + 18 - 15 + 1$$
+
+$$f(3) = 31$$
+
+The remainder is 31.
+
+**Key concept:** The Remainder Theorem -- the remainder of $P(x) \div (x - c)$ equals $P(c)$.
+
+**Common mistakes:**
+
+- Evaluating $f(-3)$ instead of $f(3)$ (the theorem applies to $x - c$, so $c = 3$, not $-3$)
+- Arithmetic errors in computing $3^3$ or $2 \times 9$
+- Attempting full polynomial long division (correct but slower and more error-prone)
+
+---
+
+### Problem 9: Exponential Functions
+
+A population of bacteria doubles every 3 hours. If the initial population is 500, which expression
+gives the population after $t$ hours?
+
+A) $500 \cdot 2t$
+
+B) $500 \cdot 2^{3t}$
+
+C) $500 \cdot 2^{t/3}$
+
+D) $500 \cdot 3^{t/2}$
+
+**Solution:**
+
+The population doubles every 3 hours. After $t$ hours, the number of doubling periods is
+$\frac{t}{3}$.
+
+$$P(t) = 500 \cdot 2^{t/3}$$
+
+**Correct answer: C**
+
+**Key concept:** Writing exponential growth functions from a doubling time.
+
+**Common mistakes:**
+
+- Choosing A, which is linear growth, not exponential
+- Choosing B, which confuses the exponent (doubling 3 times per period instead of once every 3
+  hours)
+- Choosing D, which swaps the base and the exponent coefficient
+
+---
+
+### Problem 10: Function Composition
+
+If $f(x) = 2x + 1$ and $g(x) = x^2 - 3$, what is $f(g(4))$?
+
+**Solution:**
+
+First evaluate $g(4)$:
+
+$$g(4) = 4^2 - 3 = 16 - 3 = 13$$
+
+Then evaluate $f$ at this result:
+
+$$f(13) = 2(13) + 1 = 26 + 1 = 27$$
+
+$$f(g(4)) = 27$$
+
+**Key concept:** Function composition -- evaluating the inner function first, then using its output
+as the input to the outer function.
+
+**Common mistakes:**
+
+- Evaluating $f(4)$ first instead of $g(4)$ (computing $g(f(4))$ instead of $f(g(4))$)
+- Arithmetic errors: $4^2 = 16$, not $8$
+- Forgetting to apply $f$ to the result of $g(4)$
+
+---
+
+### Problem 11: Nonlinear Equations
+
+If $x^2 + y^2 = 25$ and $x + y = 7$, what is the value of $xy$?
+
+**Solution:**
+
+From $x + y = 7$, square both sides:
+
+$$(x + y)^2 = x^2 + 2xy + y^2 = 49$$
+
+Substitute $x^2 + y^2 = 25$:
+
+$$25 + 2xy = 49$$
+
+$$2xy = 24$$
+
+$$xy = 12$$
+
+**Key concept:** Using the identity $(x + y)^2 = x^2 + 2xy + y^2$ to solve a system of equations
+without finding $x$ and $y$ individually.
+
+**Common mistakes:**
+
+- Attempting to solve for $x$ and $y$ individually (possible but more time-consuming)
+- Forgetting the middle term $2xy$ when expanding $(x + y)^2$
+- Dividing 24 by 2 incorrectly
+
+---
+
+### Problem 12: Rational Equations
+
+If $\frac{x+1}{3} + \frac{x-2}{5} = 2$, what is the value of $x$?
+
+**Solution:**
+
+Multiply through by the common denominator, 15:
+
+$$15 \cdot \frac{x+1}{3} + 15 \cdot \frac{x-2}{5} = 15 \cdot 2$$
+
+$$5(x + 1) + 3(x - 2) = 30$$
+
+$$5x + 5 + 3x - 6 = 30$$
+
+$$8x - 1 = 30$$
+
+$$8x = 31$$
+
+$$x = \frac{31}{8}$$
+
+**Key concept:** Solving a rational equation by clearing denominators.
+
+**Common mistakes:**
+
+- Incorrect common denominator (the LCD of 3 and 5 is 15)
+- Sign errors when distributing: $3(x - 2) = 3x - 6$, not $3x + 6$
+- Arithmetic errors in $5 + (-6) = -1$
+
+---
+
+### Problem 13: Quadratic in Vertex Form
+
+The function $f(x) = x^2 - 8x + 3$ is rewritten in the form $f(x) = (x - h)^2 + k$. What is the
+value of $h + k$?
+
+**Solution:**
+
+Complete the square:
+
+$$f(x) = x^2 - 8x + 3 = (x^2 - 8x + 16) - 16 + 3 = (x - 4)^2 - 13$$
+
+So $h = 4$ and $k = -13$.
+
+$$h + k = 4 + (-13) = -9$$
+
+**Key concept:** Converting a quadratic from standard form to vertex form by completing the square.
+
+**Common mistakes:**
+
+- Incorrectly completing the square: $(x - 4)^2 = x^2 - 8x + 16$, so you must subtract 16 to keep
+  the expression equivalent
+- Finding $h$ and $k$ correctly but making a sign error in the sum
+- Using $h = 8$ instead of $h = 4$ (forgetting that the vertex form is $(x - h)^2$, so $h$ is half
+  of $8$)
+
+---
+
+## Problem Solving and Data Analysis
+
+### Problem 14: Ratios and Percentages
+
+A shirt originally priced at \$80 is discounted by 25%. An additional 10% discount is then applied
+to the sale price. What is the final price of the shirt?
+
+**Solution:**
+
+After the first discount:
+
+$$80 \times (1 - 0.25) = 80 \times 0.75 = 60$$
+
+After the second discount:
+
+$$60 \times (1 - 0.10) = 60 \times 0.90 = 54$$
+
+The final price is \$54.
+
+**Key concept:** Successive percentage changes multiply rather than add.
+
+**Common mistakes:**
+
+- Adding the percentages: $25\% + 10\% = 35\%$ and computing $80 \times 0.65 = 52$ (incorrect)
+- Applying the second discount to the original price: $80 \times 0.10 = 8$ and subtracting from \$60
+  to get \$52 (still wrong -- successive discounts multiply)
+- Correct approach: each discount applies to the current price, not the original
+
+---
+
+### Problem 15: Unit Conversions
+
+A car"s fuel efficiency is 12 kilometres per litre. If petrol costs \$1.45 per litre, what is the
 approximate cost per kilometre to drive this car? (Round to the nearest cent.)
 
 **Solution:**

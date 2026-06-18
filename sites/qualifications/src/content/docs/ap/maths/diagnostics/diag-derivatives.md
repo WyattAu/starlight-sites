@@ -1,6 +1,39 @@
 ---
 title: "Derivatives -- Diagnostic Tests"
-description: ""BC + AB'C + ABC'$$
+description: "> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-14
+tags:
+  - ap
+  - ap-maths
+categories:
+  - ap-maths
+
+---
+
+# Derivatives — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for derivatives.
+
+### UT-1: Chain Rule with Three Compositions and Implicit Terms
+
+**Question:**
+
+Let $y = \sin^2\!\left(e^{3x^2 + 1}\right)$. Find $\dfrac{d^2y}{dx^2}$ and evaluate it at $x = 0$.
+
+**Solution:**
+
+Let $u = e^{3x^2 + 1}$Then $y = \sin^2(u) = (\sin u)^2$.
+
+$$\frac{dy}{dx} = 2\sin(u) \cdot \cos(u) \cdot \frac{du}{dx} = \sin(2u) \cdot e^{3x^2+1} \cdot 6x$$
+
+$$\frac{dy}{dx} = 6x \, e^{3x^2+1} \sin\!\left(2e^{3x^2+1}\right)$$
+
+For $\dfrac{d^2y}{dx^2}$Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
+$A = 6x$$B = e^{3x^2+1}$$C = \sin(2e^{3x^2+1})$. Then:
+
+$$\frac{d^2y}{dx^2} = A"BC + AB'C + ABC'$$
 
 $A' = 6$
 

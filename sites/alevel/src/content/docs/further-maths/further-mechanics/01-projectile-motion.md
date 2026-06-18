@@ -1,6 +1,661 @@
 ---
 title: Projectile Motion
-description: ""free" height gained
+description: "Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into..."
+date: 2026-04-02T00:00:00.000Z
+tags:
+  - FurtherMaths
+  - ALevel
+categories:
+  - Maths
+
+---
+
+## Projectile Motion
+
+Projectile motion is the motion of a body launched into the air and subject only to the acceleration
+Due to gravity. By resolving the initial velocity into horizontal and vertical components and
+Applying the equations of motion independently in each direction, the complete trajectory can be
+Determined.
+
+### Board Coverage
+
+| Board      | Paper   | Notes                                          |
+| ---------- | ------- | ---------------------------------------------- |
+| AQA        | Paper 2 | Basic projectiles; limited inclined plane work |
+| Edexcel    | M2      | Full coverage including inclined planes        |
+| OCR (A)    | Paper 2 | Projectiles on inclined planes                 |
+| CIE (9231) | M2      | Full coverage including inclined planes        |
+
+:::info In projectile motion, air resistance is always neglected unless stated otherwise. The only
+Acceleration is $g = 9.8\,\mathrm{m s}^{-2}$ acting vertically downward. Take care with sign
+Conventions — define upward as positive at the start and be consistent.
+:::
+
+<hr />
+
+## 1. Equations of Motion
+
+### 1.1 Setting up the problem
+
+A projectile is launched with speed $V$ at angle $\theta$ to the horizontal from the origin.
+
+**Horizontal component:** $V_x = V\cos\theta$
+
+**Vertical component:** $V_y = V\sin\theta$
+
+Taking upward as positive, with horizontal axis $x$ and vertical axis $y$:
+
+### 1.2 Horizontal motion (constant velocity)
+
+Since there is no horizontal acceleration:
+
+$$\boxed{x = V\cos\theta \cdot t}$$
+
+$$\dot{x} = V\cos\theta$$
+
+### 1.3 Vertical motion (uniform acceleration)
+
+$$\boxed{y = V\sin\theta \cdot t - \frac{1}{2}gt^2}$$
+
+$$\dot{y} = V\sin\theta - gt$$
+
+$$\ddot{y} = -g$$
+
+<hr />
+
+## 2. The Trajectory Equation
+
+### Proof that the trajectory is a parabola
+
+### Proof
+
+From the horizontal equation: $t = \dfrac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆$.
+
+Substituting into the vertical equation:
+
+$$
+\begin{aligned}
+Y &= V\sin\theta \cdot \frac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆ - \frac{1}{2}g\left(\frac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆\right)^2 \\[4pt]
+&= x\tan\theta - \frac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆
+\end{aligned}
+$$
+
+$$\boxed{y = x\tan\theta - \frac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆}$$
+
+Since this has the form $y = ax - bx^2$ (with $a = \tan\theta$ and
+$b = \frac◆LB◆g◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$), the trajectory is a parabola opening downward.
+$\blacksquare$
+
+<hr />
+
+## 3. Key Results
+
+### 3.1 Time of flight
+
+The projectile returns to $y = 0$ when:
+
+$$V\sin\theta \cdot t - \frac{1}{2}gt^2 = 0 \implies t(V\sin\theta - \frac{1}{2}gt) = 0$$
+
+$$\boxed{T = \frac◆LB◆2V\sin\theta◆RB◆◆LB◆g◆RB◆}$$
+
+### 3.2 Maximum height
+
+At maximum height, $\dot{y} = 0$:
+
+$$V\sin\theta - gt_{\mathrm{max}} = 0 \implies t_{\mathrm{max}} = \frac◆LB◆V\sin\theta◆RB◆◆LB◆g◆RB◆$$
+
+### Proof of maximum height
+
+### Proof
+
+$$
+\begin{aligned}
+H &= V\sin\theta \cdot \frac◆LB◆V\sin\theta◆RB◆◆LB◆g◆RB◆ - \frac{1}{2}g\left(\frac◆LB◆V\sin\theta◆RB◆◆LB◆g◆RB◆\right)^2 \\
+&= \frac◆LB◆V^2\sin^2\theta◆RB◆◆LB◆g◆RB◆ - \frac◆LB◆V^2\sin^2\theta◆RB◆◆LB◆2g◆RB◆
+\end{aligned}
+$$
+
+$$\boxed{H = \frac◆LB◆V^2\sin^2\theta◆RB◆◆LB◆2g◆RB◆}$$
+
+This occurs at
+$x = V\cos\theta \cdot \dfrac◆LB◆V\sin\theta◆RB◆◆LB◆g◆RB◆ = \dfrac◆LB◆V^2\sin\theta\cos\theta◆RB◆◆LB◆g◆RB◆$.
+$\blacksquare$
+
+### 3.3 Range on horizontal ground
+
+### Proof of range formula
+
+### Proof
+
+$$R = V\cos\theta \cdot T = V\cos\theta \cdot \frac◆LB◆2V\sin\theta◆RB◆◆LB◆g◆RB◆$$
+
+$$\boxed{R = \frac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆}$$
+
+This is maximised when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$Giving
+$R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
+
+:::info For a given speed $V$Complementary angles give the same range: $\theta$ and $90° - \theta$
+Both produce $R = \dfrac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆$. However, the trajectories are different —
+The steeper angle gives a higher but shorter arc.
+:::
+
+<hr />
+
+## 4. Projection on Inclined Planes
+
+### 4.1 Up the plane
+
+A plane is inclined at angle $\alpha$ to the horizontal. A projectile is launched at angle $\theta$
+Above the horizontal from the bottom of the plane.
+
+The projectile lands on the plane when $y = x\tan\alpha$.
+
+Setting $x\tan\alpha = x\tan\theta - \dfrac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$:
+
+$$x\left(\tan\theta - \tan\alpha\right) = \frac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$$
+
+$$\boxed{x = \frac◆LB◆2V^2\cos^2\theta(\tan\theta - \tan\alpha)◆RB◆◆LB◆g◆RB◆}$$
+
+The **range on the plane** is $r = \dfrac◆LB◆x◆RB◆◆LB◆\cos\alpha◆RB◆$:
+
+$$\boxed{r = \frac◆LB◆2V^2\cos\theta\sin(\theta - \alpha)◆RB◆◆LB◆g\cos^2\alpha◆RB◆}$$
+
+### 4.2 Down the plane
+
+When a projectile is launched from the top of a plane inclined at angle $\alpha$ below the
+Horizontal at angle $\theta$ above the horizontal, the landing condition is $y = -x\tan\alpha$:
+
+$$-x\tan\alpha = x\tan\theta - \frac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$$
+
+$$\boxed{r = \frac◆LB◆2V^2\cos\theta\sin(\theta + \alpha)◆RB◆◆LB◆g\cos^2\alpha◆RB◆}$$
+
+### 4.3 Maximum range on an inclined plane
+
+### Proof for up the plane
+
+For maximum range up the plane, maximise
+$r = \dfrac◆LB◆2V^2\cos\theta\sin(\theta-\alpha)◆RB◆◆LB◆g\cos^2\alpha◆RB◆$.
+
+Using the product-to-sum identity:
+$\cos\theta\sin(\theta-\alpha) = \frac{1}{2}[\sin(2\theta-\alpha) - \sin\alpha]$.
+
+This is maximised when $\sin(2\theta - \alpha) = 1$Giving:
+
+$$2\theta - \alpha = 90° \implies \boxed{\theta = \frac◆LB◆90° + \alpha◆RB◆◆LB◆2◆RB◆ = 45° + \frac◆LB◆\alpha◆RB◆◆LB◆2◆RB◆}$$
+
+For down the plane: $\theta = 45° - \dfrac◆LB◆\alpha◆RB◆◆LB◆2◆RB◆$. $\blacksquare$
+
+### 4.4 Using rotated coordinates
+
+An alternative approach is to take axes parallel and perpendicular to the plane. With $s$ along the
+Plane and $n$ perpendicular:
+
+- Component of gravity along the plane: $g\sin\alpha$ (down the plane)
+- Component of gravity perpendicular to the plane: $g\cos\alpha$ (into the plane)
+
+The projectile lands on the plane when $n = 0$.
+
+<hr />
+
+## 5. Velocity at Any Point
+
+The velocity components at time $t$ are:
+
+$$v_x = V\cos\theta, \qquad v_y = V\sin\theta - gt$$
+
+The speed is $v = \sqrt{v_x^2 + v_y^2} = \sqrt◆LB◆V^2\cos^2\theta + (V\sin\theta - gt)^2◆RB◆$.
+
+The direction of motion is at angle $\phi$ to the horizontal where:
+
+$$\tan\phi = \frac{v_y}{v_x} = \frac◆LB◆V\sin\theta - gt◆RB◆◆LB◆V\cos\theta◆RB◆ = \tan\theta - \frac◆LB◆gt◆RB◆◆LB◆V\cos\theta◆RB◆$$
+
+<hr />
+
+## Problems
+
+<details>
+<summary>Problem 1</summary>
+A projectile is launched at $30\,\mathrm{m s}^{-1}$ at $50^\circ$ to the horizontal from ground level. Find the maximum height, time of flight, and range.
+</details>
+
+<details>
+<summary>Solution 1</summary>
+$V = 30$$\theta = 50^\circ$$g = 9.8$.
+
+$H = \dfrac◆LB◆V^2\sin^2\theta◆RB◆◆LB◆2g◆RB◆ = \dfrac◆LB◆900\sin^2 50°◆RB◆◆LB◆19.6◆RB◆ = \dfrac◆LB◆900 \times 0.5868◆RB◆◆LB◆19.6◆RB◆ \approx 26.94\,\mathrm{m}$.
+
+$T = \dfrac◆LB◆2V\sin\theta◆RB◆◆LB◆g◆RB◆ = \dfrac◆LB◆60\sin 50°◆RB◆◆LB◆9.8◆RB◆ = \dfrac{45.96}{9.8} \approx 4.69\,\mathrm{s}$.
+
+$R = \dfrac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆ = \dfrac◆LB◆900\sin 100°◆RB◆◆LB◆9.8◆RB◆ = \dfrac◆LB◆900 \times 0.9848◆RB◆◆LB◆9.8◆RB◆ \approx 90.44\,\mathrm{m}$.
+
+**If you get this wrong, revise:** [Key Results](#3-key-results) — Section 3.
+
+</details>
+
+<details>
+<summary>Problem 2</summary>
+Derive the trajectory equation $y = x\tan\theta - \dfrac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$ from the equations of motion.
+</details>
+
+<details>
+<summary>Solution 2</summary>
+Horizontal: $x = V\cos\theta \cdot t \implies t = \dfrac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆$.
+
+Vertical: $y = V\sin\theta \cdot t - \dfrac{1}{2}gt^2$.
+
+Substituting:
+$y = V\sin\theta \cdot \dfrac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆ - \dfrac{1}{2}g\left(\dfrac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆\right)^2 = x\tan\theta - \dfrac◆LB◆gx^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$.
+$\blacksquare$
+
+**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
+Section 2.
+
+</details>
+
+<details>
+<summary>Problem 3</summary>
+A projectile is launched from a cliff $80\,\mathrm{m}$ high at $20\,\mathrm{m s}^{-1}$ horizontally. Find the time to hit the ground and the horizontal distance travelled.
+</details>
+
+<details>
+<summary>Solution 3</summary>
+$\theta = 0^\circ$So $v_x = 20$$v_y = 0$.
+
+$y = -\dfrac{1}{2}gt^2 = -80 \implies t^2 = \dfrac{160}{9.8} \implies t \approx 4.04\,\mathrm{s}$.
+
+$x = 20 \times 4.04 \approx 80.8\,\mathrm{m}$.
+
+**If you get this wrong, revise:** [Equations of Motion](#1-equations-of-motion) — Section 1.
+
+</details>
+
+<details>
+<summary>Problem 4</summary>
+Find the angle of projection for maximum range on an inclined plane of angle $30^\circ$ when projecting up the plane.
+</details>
+
+<details>
+<summary>Solution 4</summary>
+For maximum range up the plane: $\theta = 45° + \dfrac◆LB◆\alpha◆RB◆◆LB◆2◆RB◆ = 45° + 15° = 60^\circ$.
+
+The projectile should be launched at $60^\circ$ to the horizontal.
+
+**If you get this wrong, revise:**
+[Maximum range on an inclined plane](#43-maximum-range-on-an-inclined-plane) — Section 4.3.
+
+</details>
+
+<details>
+<summary>Problem 5</summary>
+A ball is thrown at $15\,\mathrm{m s}^{-1}$ from a height of $2\,\mathrm{m}$ at $40^\circ$ above the horizontal. Find the speed and angle when it hits the ground.
+</details>
+
+<details>
+<summary>Solution 5</summary>
+$y = 2 + 15\sin 40°\cdot t - 4.9t^2 = 0$.
+
+$4.9t^2 - 9.642t - 2 = 0 \implies t = \dfrac◆LB◆9.642 + \sqrt{93.17 + 39.2}◆RB◆◆LB◆9.8◆RB◆ = \dfrac{9.642 + 11.47}{9.8} \approx 2.162\,\mathrm{s}$.
+
+$v_y = 15\sin 40° - 9.8(2.162) = 9.642 - 21.19 = -11.55\,\mathrm{m s}^{-1}$.
+
+$v_x = 15\cos 40° = 11.49\,\mathrm{m s}^{-1}$.
+
+Speed
+$= \sqrt{11.49^2 + 11.55^2} = \sqrt{132.0 + 133.4} = \sqrt{265.4} \approx 16.3\,\mathrm{m s}^{-1}$.
+
+Angle below horizontal: $\arctan(11.55/11.49) \approx 45.1^\circ$.
+
+**If you get this wrong, revise:** [Velocity at Any Point](#5-velocity-at-any-point) — Section 5.
+
+</details>
+
+<details>
+<summary>Problem 6</summary>
+A projectile is launched at $25\,\mathrm{m s}^{-1}$ at $35^\circ$ up a plane inclined at $20^\circ$ to the horizontal. Find the range on the plane.
+</details>
+
+<details>
+<summary>Solution 6</summary>
+$r = \dfrac◆LB◆2V^2\cos\theta\sin(\theta-\alpha)◆RB◆◆LB◆g\cos^2\alpha◆RB◆ = \dfrac◆LB◆2(625)\cos 35°\sin 15°◆RB◆◆LB◆9.8\cos^2 20°◆RB◆$
+
+$= \dfrac◆LB◆1250 \times 0.8192 \times 0.2588◆RB◆◆LB◆9.8 \times 0.8830◆RB◆ = \dfrac{265.1}{8.653} \approx 30.6\,\mathrm{m}$.
+
+**If you get this wrong, revise:** [Up the plane](#41-up-the-plane) — Section 4.1.
+
+</details>
+
+<details>
+<summary>Problem 7</summary>
+Show that for a given initial speed $V$The maximum range on horizontal ground is $\dfrac{V^2}{g}$ and occurs at $\theta = 45^\circ$.
+</details>
+
+<details>
+<summary>Solution 7</summary>
+$R = \dfrac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆$. The maximum value of $\sin 2\theta$ is 1, occurring when $2\theta = 90^\circ$So $\theta = 45^\circ$.
+
+$R_{\max} = \dfrac◆LB◆V^2 \times 1◆RB◆◆LB◆g◆RB◆ = \dfrac{V^2}{g}$. $\blacksquare$
+
+**If you get this wrong, revise:** [Range on horizontal ground](#33-range-on-horizontal-ground) —
+Section 3.3.
+
+</details>
+
+<details>
+<summary>Problem 8</summary>
+A cricketer hits a ball at $28\,\mathrm{m s}^{-1}$ at $35^\circ$ to the horizontal. A fielder stands $60\,\mathrm{m}$ away. Can the fielder catch the ball at the same height?
+</details>
+
+<details>
+<summary>Solution 8</summary>
+$R = \dfrac◆LB◆28^2\sin 70°◆RB◆◆LB◆9.8◆RB◆ = \dfrac◆LB◆784 \times 0.9397◆RB◆◆LB◆9.8◆RB◆ = \dfrac{736.7}{9.8} \approx 75.2\,\mathrm{m}$.
+
+Since $75.2 > 60\,\mathrm{m}$The ball travels beyond the fielder. Check height at $x = 60$:
+
+$y = 60\tan 35° - \dfrac◆LB◆9.8 \times 3600◆RB◆◆LB◆2 \times 784 \times \cos^2 35°◆RB◆ = 42.02 - \dfrac◆LB◆35280◆RB◆◆LB◆2 \times 784 \times 0.6710◆RB◆ = 42.02 - \dfrac{35280}{1051.9}$
+
+$= 42.02 - 33.54 = 8.48\,\mathrm{m}$.
+
+The ball is at height $8.48\,\mathrm{m}$ when it passes $x = 60\,\mathrm{m}$So the fielder cannot
+Catch it at the same height.
+
+**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
+Section 2.
+
+</details>
+
+<details>
+<summary>Problem 9</summary>
+A projectile is launched from the top of an incline of angle $25^\circ$ at $20\,\mathrm{m s}^{-1}$ at angle $30^\circ$ to the horizontal, directed down the plane. Find the range on the plane.
+</details>
+
+<details>
+<summary>Solution 9</summary>
+$r = \dfrac◆LB◆2V^2\cos\theta\sin(\theta+\alpha)◆RB◆◆LB◆g\cos^2\alpha◆RB◆ = \dfrac◆LB◆2(400)\cos 30°\sin 55°◆RB◆◆LB◆9.8\cos^2 25°◆RB◆$
+
+$= \dfrac◆LB◆800 \times 0.8660 \times 0.8192◆RB◆◆LB◆9.8 \times 0.8214◆RB◆ = \dfrac{567.5}{8.050} \approx 70.5\,\mathrm{m}$.
+
+**If you get this wrong, revise:** [Down the plane](#42-down-the-plane) — Section 4.2.
+
+</details>
+
+<details>
+<summary>Problem 10</summary>
+A projectile passes through two points at $(20, 5)$ and $(40, 5)$ (in metres). Find the angle of projection and the initial speed, given $g = 9.8\,\mathrm{m s}^{-2}$.
+</details>
+
+<details>
+<summary>Solution 10</summary>
+From the trajectory equation at both points:
+
+$5 = 20\tan\theta - \dfrac◆LB◆9.8 \times 400◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$ ... (i)
+
+$5 = 40\tan\theta - \dfrac◆LB◆9.8 \times 1600◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$ ... (ii)
+
+From (ii) $-$ (i): $0 = 20\tan\theta - \dfrac◆LB◆9.8 \times 1200◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$.
+
+$\tan\theta = \dfrac◆LB◆9.8 \times 1200◆RB◆◆LB◆2V^2\cos^2\theta \times 20◆RB◆ = \dfrac◆LB◆588◆RB◆◆LB◆V^2\cos^2\theta◆RB◆$.
+
+From (i):
+$5 = 20\tan\theta - \dfrac◆LB◆1960◆RB◆◆LB◆V^2\cos^2\theta◆RB◆ = 20\tan\theta - \dfrac{1960}{588}\tan\theta = \tan\theta\left(20 - \dfrac{10}{3}\right) = \dfrac{50}{3}\tan\theta$.
+
+$\tan\theta = \dfrac{15}{50} = 0.3$So $\theta \approx 16.7^\circ$.
+
+$V^2\cos^2\theta = \dfrac{588}{0.3} = 1960$.
+$V^2 = \dfrac◆LB◆1960◆RB◆◆LB◆\cos^2 16.7°◆RB◆ = \dfrac{1960}{0.9163} \approx 2139$.
+$V \approx 46.3\,\mathrm{m s}^{-1}$.
+
+**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
+Section 2.
+
+</details>
+
+<hr />
+
+## 6. Maximum Range: Rigorous Proof from the Trajectory Equation
+
+### Proof
+
+Starting from the trajectory equation, the projectile lands when $y = 0$:
+
+$$0 = R\tan\theta - \frac◆LB◆gR^2◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$$
+
+Either $R = 0$ (the launch point) or:
+
+$$\tan\theta = \frac◆LB◆gR◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆ = \frac◆LB◆gR\sec^2\theta◆RB◆◆LB◆2V^2◆RB◆ = \frac◆LB◆gR◆RB◆◆LB◆2V^2\cos^2\theta◆RB◆$$
+
+Solving for $R$:
+
+$$R = \frac◆LB◆2V^2\cos^2\theta\tan\theta◆RB◆◆LB◆g◆RB◆ = \frac◆LB◆2V^2\sin\theta\cos\theta◆RB◆◆LB◆g◆RB◆ = \frac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆$$
+
+To maximise, differentiate with respect to $\theta$ and set to zero:
+
+$$\frac◆LB◆dR◆RB◆◆LB◆d\theta◆RB◆ = \frac{V^2}{g}\cdot 2\cos 2\theta = 0 \implies \cos 2\theta = 0 \implies 2\theta = 90° \implies \theta = 45^\circ$$
+
+Second derivative check:
+
+$$\frac◆LB◆d^2R◆RB◆◆LB◆d\theta^2◆RB◆ = \frac{V^2}{g}\cdot(-4\sin 2\theta) \bigg|_{\theta = 45°} = \frac{V^2}{g}(-4) \lt 0 \quad \checkmark$$
+
+So the maximum is confirmed. Substituting $\theta = 45^\circ$:
+
+$$R_{\max} = \frac◆LB◆V^2\sin 90°◆RB◆◆LB◆g◆RB◆ = \frac{V^2}{g}$$
+
+<hr />
+
+## 7. Projectile from a Height: Full Trajectory Analysis
+
+### 7.1 Time of flight from height $h$
+
+A projectile is launched from height $h$ above ground level with speed $V$ at angle $\theta$ above
+The horizontal. Taking upward as positive with origin at the launch point:
+
+$$y = V\sin\theta \cdot t - \frac{1}{2}gt^2$$
+
+The projectile hits the ground when $y = -h$:
+
+$$V\sin\theta \cdot t - \frac{1}{2}gt^2 = -h$$
+
+$$\frac{1}{2}gt^2 - V\sin\theta \cdot t - h = 0$$
+
+Using the quadratic formula (taking the positive root):
+
+$$\boxed{T = \frac◆LB◆V\sin\theta + \sqrt{V^2\sin^2\theta + 2gh}◆RB◆◆LB◆g◆RB◆}$$
+
+### 7.2 Range from a height
+
+$$R = V\cos\theta \cdot T = \frac◆LB◆V\cos\theta\left(V\sin\theta + \sqrt{V^2\sin^2\theta + 2gh}\right)◆RB◆◆LB◆g◆RB◆$$
+
+### 7.3 Maximum height above launch point
+
+The maximum height above the launch point is unchanged from the ground-level case:
+
+$$H_{\mathrm{above launch}} = \frac◆LB◆V^2\sin^2\theta◆RB◆◆LB◆2g◆RB◆$$
+
+The maximum height above ground level is $h + \dfrac◆LB◆V^2\sin^2\theta◆RB◆◆LB◆2g◆RB◆$.
+
+### 7.4 Angle for maximum range from a height
+
+For maximum range from a height, the optimal angle is **less than** $45^\circ$. The exact value
+Satisfies:
+
+$$\theta = \arctan\!\left(\frac◆LB◆V◆RB◆◆LB◆\sqrt{V^2 + 2gh}◆RB◆\right)$$
+
+### Proof
+
+### Proof
+
+Maximise $R = V\cos\theta\cdot T$ where $T$ is given above. Equivalently, maximise:
+
+$$R(\theta) = \frac◆LB◆V^2\sin\theta\cos\theta + V\cos\theta\sqrt{V^2\sin^2\theta + 2gh}◆RB◆◆LB◆g◆RB◆$$
+
+Let $u = \sin\theta$. Then $\cos\theta = \sqrt{1 - u^2}$ and we maximise:
+
+$$R(u) \propto u\sqrt{1-u^2} + \sqrt{1-u^2}\sqrt{V^2 u^2 + 2gh}$$
+
+Differentiating and simplifying leads to the condition
+$\cos\theta = \dfrac◆LB◆V◆RB◆◆LB◆\sqrt{V^2 + 2gh}◆RB◆$I.e.:
+
+$$\tan\theta = \frac◆LB◆V\sin\theta◆RB◆◆LB◆V\cos\theta◆RB◆ = \frac◆LB◆V\sqrt{1 - \frac{V^2}{V^2 + 2gh}}◆RB◆◆LB◆\frac{V^2}{\sqrt{V^2 + 2gh}}◆RB◆ = \frac◆LB◆V◆RB◆◆LB◆\sqrt{V^2 + 2gh}◆RB◆$$
+
+When $h = 0$This reduces to $\tan\theta = 1$I.e., $\theta = 45^\circ$ as expected. $\blacksquare$
+
+### 7.5 Worked example: projectile from a cliff
+
+**Example.** A stone is thrown from a cliff $50\,\mathrm{m}$ high at $15\,\mathrm{m s}^{-1}$ at
+$30^\circ$ above the horizontal. Find the time of flight, the horizontal range, the maximum height
+Above ground, and the speed and direction of impact.
+
+**Time of flight:**
+
+$$T = \frac◆LB◆15\sin 30° + \sqrt{15^2\sin^2 30° + 2(9.8)(50)}◆RB◆◆LB◆9.8◆RB◆$$
+
+$$= \frac◆LB◆7.5 + \sqrt{56.25 + 980}◆RB◆◆LB◆9.8◆RB◆ = \frac◆LB◆7.5 + \sqrt{1036.25}◆RB◆◆LB◆9.8◆RB◆ = \frac{7.5 + 32.19}{9.8} \approx 4.05\,\mathrm{s}$$
+
+**Range:** $R = 15\cos 30° \times 4.05 \approx 12.99 \times 4.05 \approx 52.6\,\mathrm{m}$.
+
+**Maximum height above ground:**
+$50 + \dfrac◆LB◆15^2\sin^2 30°◆RB◆◆LB◆2(9.8)◆RB◆ = 50 + \dfrac{56.25}{19.6} \approx 50 + 2.87 = 52.87\,\mathrm{m}$.
+
+**Speed at impact:**
+
+$v_x = 15\cos 30° = 12.99\,\mathrm{m s}^{-1}$.
+
+$v_y = 15\sin 30° - 9.8(4.05) = 7.5 - 39.69 = -32.19\,\mathrm{m s}^{-1}$.
+
+Speed
+$= \sqrt{12.99^2 + 32.19^2} = \sqrt{168.7 + 1036.2} = \sqrt{1204.9} \approx 34.7\,\mathrm{m s}^{-1}$.
+
+**Angle below horizontal:** $\arctan(32.19/12.99) \approx 68.1^\circ$.
+
+<hr />
+
+## 8. Worked Example: Range on an Inclined Plane
+
+**Example.** A projectile is launched at $30\,\mathrm{m s}^{-1}$ at $55^\circ$ to the horizontal up
+A plane inclined at $20^\circ$. Find the range on the plane and the time of flight.
+
+Using the range formula:
+
+$$r = \frac◆LB◆2V^2\cos\theta\sin(\theta - \alpha)◆RB◆◆LB◆g\cos^2\alpha◆RB◆ = \frac◆LB◆2(900)\cos 55°\sin 35°◆RB◆◆LB◆9.8\cos^2 20°◆RB◆$$
+
+$$= \frac◆LB◆1800 \times 0.5736 \times 0.5736◆RB◆◆LB◆9.8 \times 0.8830◆RB◆ = \frac{592.4}{8.653} \approx 68.5\,\mathrm{m}$$
+
+Time of flight: the projectile lands when $y = x\tan 20^\circ$.
+
+From the trajectory equation:
+
+$$x = \frac◆LB◆2V^2\cos^2\theta(\tan\theta - \tan\alpha)◆RB◆◆LB◆g◆RB◆ = \frac◆LB◆2(900)\cos^2 55°(\tan 55° - \tan 20°)◆RB◆◆LB◆9.8◆RB◆$$
+
+$$= \frac◆LB◆1800 \times 0.3290 \times (1.4281 - 0.3640)◆RB◆◆LB◆9.8◆RB◆ = \frac◆LB◆1800 \times 0.3290 \times 1.0641◆RB◆◆LB◆9.8◆RB◆ \approx 64.3\,\mathrm{m}$$
+
+$$T = \frac◆LB◆x◆RB◆◆LB◆V\cos\theta◆RB◆ = \frac◆LB◆64.3◆RB◆◆LB◆30\cos 55°◆RB◆ = \frac{64.3}{17.21} \approx 3.74\,\mathrm{s}$$
+
+<hr />
+
+## 9. Time of Flight Derivation for Inclined Planes
+
+### 9.1 Up the plane
+
+The horizontal distance at landing is
+$x = \dfrac◆LB◆2V^2\cos^2\theta(\tan\theta - \tan\alpha)◆RB◆◆LB◆g◆RB◆$.
+
+Since $x = V\cos\theta \cdot T$:
+
+$$\boxed{T = \frac◆LB◆2V\cos\theta(\tan\theta - \tan\alpha)◆RB◆◆LB◆g◆RB◆ = \frac◆LB◆2V\sin(\theta - \alpha)◆RB◆◆LB◆g\cos\alpha◆RB◆}$$
+
+### 9.2 Down the plane
+
+Similarly:
+
+$$\boxed{T = \frac◆LB◆2V\cos\theta(\tan\theta + \tan\alpha)◆RB◆◆LB◆g◆RB◆ = \frac◆LB◆2V\sin(\theta + \alpha)◆RB◆◆LB◆g\cos\alpha◆RB◆}$$
+
+<hr />
+
+## 10. Common Pitfalls
+
+### Sign conventions
+
+The most common error in projectile motion is inconsistent sign conventions. If you define upward as
+Positive, then:
+
+- $g$ appears as $-g$ in the acceleration, giving $y = V\sin\theta\cdot t - \frac{1}{2}gt^2$
+- A projectile landing **below** the launch point has $y = -h$ at impact, **not** $y = h$
+- The final vertical velocity is **negative** when the projectile is moving downward
+
+If you define downward as positive, then $g$ is positive but $V\sin\theta$ becomes negative for
+Upward projection. Pick one convention and stick with it throughout the entire problem.
+
+### Inclined plane angle confusion
+
+When working with inclined planes, the angle $\alpha$ is the angle of the **plane** to the
+Horizontal, not the angle of projection. Common mistakes:
+
+- Confusing $\theta$ (projection angle) with $\alpha$ (plane angle)
+- Using $\theta - \alpha$ for the down-the-plane case (should be $\theta + \alpha$)
+- Forgetting that the range formula $r = x/\cos\alpha$ converts horizontal distance to distance
+  along the plane
+
+### Complementary angles trap
+
+Two angles $\theta$ and $90° - \theta$ give the **same range** but **different trajectories**. The
+Steeper angle:
+
+- Reaches a greater maximum height
+- Has a longer time of flight
+- Has a smaller horizontal component of velocity at every point
+
+If an exam question asks about the trajectory (height, time, speed at a specific point), the
+Complementary angle will give a different answer even though the range is the same.
+
+### Forgetting to check physical constraints
+
+Always check that your answer makes physical sense:
+
+- Range should be positive
+- Time of flight should be positive
+- The speed at impact from a height must exceed the launch speed (energy gained from gravity)
+- The angle of impact should be steeper than the angle of projection (for horizontal ground
+  launches)
+
+<hr />
+
+## 11. Problem Set
+
+<details>
+<summary>Q1. A projectile is launched from ground level at $25\,\mathrm{m s}^{-1}$. Find the two angles that give a range of $50\,\mathrm{m}$And for each angle find the maximum height and time of flight.</summary>
+
+$R = \dfrac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆ \implies 50 = \dfrac◆LB◆625\sin 2\theta◆RB◆◆LB◆9.8◆RB◆ \implies \sin 2\theta = \dfrac{490}{625} = 0.784$.
+
+$2\theta = 51.6^\circ$ or $128.4^\circ$So $\theta = 25.8^\circ$ or $64.2^\circ$.
+
+For $\theta = 25.8^\circ$: $H = \dfrac◆LB◆625\sin^2 25.8°◆RB◆◆LB◆19.6◆RB◆ \approx 5.83\,\mathrm{m}$
+$T = \dfrac◆LB◆50\sin 25.8°◆RB◆◆LB◆9.8◆RB◆ \approx 2.19\,\mathrm{s}$.
+
+For $\theta = 64.2^\circ$: $H = \dfrac◆LB◆625\sin^2 64.2°◆RB◆◆LB◆19.6◆RB◆ \approx 25.8\,\mathrm{m}$
+$T = \dfrac◆LB◆50\sin 64.2°◆RB◆◆LB◆9.8◆RB◆ \approx 4.61\,\mathrm{s}$.
+
+</details>
+
+<details>
+<summary>Q2. A ball is thrown from a window $12\,\mathrm{m}$ above the ground at $10\,\mathrm{m s}^{-1}$ at $45^\circ$ below the horizontal. Find the time to hit the ground and the horizontal distance from the window.</summary>
+
+Taking upward as positive, $V_y = -10\sin 45° = -7.071\,\mathrm{m s}^{-1}$.
+
+$y = 12 - 7.071t - 4.9t^2 = 0 \implies 4.9t^2 + 7.071t - 12 = 0$.
+
+$t = \dfrac◆LB◆-7.071 + \sqrt{50.0 + 235.2}◆RB◆◆LB◆9.8◆RB◆ = \dfrac{-7.071 + 16.89}{9.8} \approx 1.002\,\mathrm{s}$.
+
+$R = 10\cos 45° \times 1.002 \approx 7.09\,\mathrm{m}$.
+
+</details>
+
+<details>
+<summary>Q3. Prove that the maximum horizontal range from a height $h$ is achieved at an angle less than $45^\circ$And find the optimal angle when $V = 20\,\mathrm{m s}^{-1}$ and $h = 10\,\mathrm{m}$.</summary>
+
+From Section 7.4: $\theta = \arctan\!\left(\dfrac◆LB◆V◆RB◆◆LB◆\sqrt{V^2 + 2gh}◆RB◆\right)$.
+
+$\theta = \arctan\!\left(\dfrac◆LB◆20◆RB◆◆LB◆\sqrt{400 + 196}◆RB◆\right) = \arctan\!\left(\dfrac◆LB◆20◆RB◆◆LB◆\sqrt{596}◆RB◆\right) = \arctan\!\left(\dfrac{20}{24.41}\right) = \arctan(0.819) \approx 39.3^\circ$.
+
+This is less than $45^\circ$ because the projectile benefits from the extra "free" height gained
 From the elevated launch point, so a flatter trajectory maximises the horizontal component of
 Velocity.
 

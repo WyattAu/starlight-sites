@@ -1,6 +1,31 @@
 ---
 title: Probability
-description: ""$ or $\bar{A}$ | Complement of $A$: $A$ does not occur        |
+description: "Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability..."
+date: 2025-06-03T12:07:31.077Z
+tags:
+  - Maths
+  - DSE
+categories:
+  - Maths
+
+---
+
+Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the
+DSE compulsory syllabus, we focus on discrete probability spaces, combinatorial counting,
+Conditional probability, and independence. This page connects to
+[Permutations and Combinations](13_permutations-and-combinations.md)
+For counting techniques and [Dispersion](12_dispersion.md) for the statistical interpretation of
+Probability distributions.
+
+## Notations
+
+| Symbol            | Meaning                                      |
+| ----------------- | -------------------------------------------- |
+| $P(A)$            | Probability of event $A$                     |
+| $P(A \mid B)$     | Conditional probability of $A$ given $B$     |
+| $A \cap B$        | Intersection: both $A$ and $B$ occur         |
+| $A \cup B$        | Union: $A$ or $B$ or both occur              |
+| $A"$ or $\bar{A}$ | Complement of $A$: $A$ does not occur        |
 | $A \subseteq B$   | $A$ is a subset of $B$                       |
 | $\emptyset$       | Empty set (impossible event)                 |
 | $S$ or $\Omega$   | Sample space (universal set of all outcomes) |

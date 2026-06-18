@@ -1,6 +1,72 @@
 ---
 title: Bonding & Structure
-description: ""s Law to determine lattice enthalpies indirectly, since they cannot be
+description: "Chemical bonding is the consequence of electrostatic interactions between nuclei and electrons that result in a lower-energy arrangement than the separated..."
+date: 2026-04-21T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Bonding & Structure
+
+Chemical bonding is the consequence of electrostatic interactions between nuclei and electrons that
+result in a lower-energy arrangement than the separated atoms. This module classifies bonds by the
+mechanism of electron redistribution and examines the resulting structures and their physical
+properties.
+
+## Ionic Bonding
+
+### Formation
+
+Ionic bonds form between atoms with significantly different electronegativities (
+$\Delta\chi \gt 1.7$). A metal atom transfers one or more electrons to a non-metal atom, producing a
+cation and anion held together by **electrostatic attraction**. The process is:
+
+$$
+\mathrm{M}(s) \to \mathrm{M}^+(g) + e^- \quad (\mathrm{ionisation})
+$$
+
+$$
+\tfrac{1}{2}\mathrm{X}_2(g) + e^- \to \mathrm{X}^-(g) \quad (\mathrm{electron affinity})
+$$
+
+$$
+\mathrm{M}^+(g) + \mathrm{X}^-(g) \to \mathrm{MX}(s) \quad (\mathrm{lattice formation})
+$$
+
+### Structure of Ionic Compounds
+
+Ionic compounds form **giant ionic lattices** -- extended three-dimensional arrays of alternating
+cations and anions. The structure is determined by the relative sizes of the ions (radius ratio
+rule):
+
+| Radius ratio $r^+/r^-$ | Coordination number | Geometry    | Example         |
+| ---------------------- | ------------------- | ----------- | --------------- |
+| 0.225 -- 0.414         | 4                   | Tetrahedral | $\mathrm{ZnS}$  |
+| 0.414 -- 0.732         | 6                   | Octahedral  | $\mathrm{NaCl}$ |
+| 0.732 -- 1.000         | 8                   | Cubic       | $\mathrm{CsCl}$ |
+
+### Properties of Ionic Compounds
+
+- **High melting and boiling points** -- strong electrostatic forces throughout the lattice require
+  substantial energy to overcome.
+- **Brittle** -- displacement of one plane of ions relative to another brings like charges into
+  alignment, causing repulsion and fracture.
+- **Electrical conductors when molten or dissolved** -- ions are mobile and can carry charge; in the
+  solid state, ions are fixed.
+- **Soluble in polar solvents** -- polar solvent molecules can solvate individual ions, compensating
+  for the lattice energy.
+
+### Lattice Enthalpy and Born-Haber Cycles
+
+The **lattice enthalpy** $\Delta H_\mathrm{lat}$ is the enthalpy change when one mole of an ionic
+compound is formed from its gaseous ions under standard conditions. It is always exothermic
+(negative).
+
+Born-Haber cycles apply Hess"s Law to determine lattice enthalpies indirectly, since they cannot be
 measured directly. The cycle for $\mathrm{NaCl}$ is:
 
 $$

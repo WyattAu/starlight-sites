@@ -1,6 +1,47 @@
 ---
 title: Balance of Payments
-description: ""s official foreign exchange reserves held by the central
+description: "IB Economics Balance of Payments notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Balance of Payments
+
+The balance of payments is a record of all economic transactions between residents of a country and
+The rest of the world over a given period. It must balance in an accounting sense (total credits $=$
+total debits, with the balancing item being errors and omissions).
+
+### Current Account
+
+1. **Balance of trade in goods**: exports minus imports of physical goods (visible trade)
+2. **Balance of trade in services**: exports minus imports of services (invisible trade) -- tourism,
+   banking, insurance, transport, education, consulting
+3. **Primary income**: earnings from investments abroad minus payments to foreign investors
+   (dividends, interest, profits) plus compensation of employees working abroad
+4. **Secondary income (current transfers)**: unilateral transfers such as remittances, foreign aid,
+   and pensions
+
+### Capital Account
+
+Records transfers of capital that do not affect national income:
+
+- Debt forgiveness
+- Transfers of fixed assets (e.g., migration-related transfers of personal assets)
+- Capital transfers associated with the acquisition or disposal of fixed assets
+
+The capital account is small relative to the current and financial accounts.
+
+### Financial Account
+
+Records transactions in financial assets and liabilities:
+
+- **Direct investment**: cross-border investment in enterprises where the investor acquires a
+  lasting interest ( defined as $10\%$ or more of voting power). Includes both greenfield investment
+  (establishing new facilities) and mergers and acquisitions
+- **Portfolio investment**: cross-border purchases of shares and bonds without acquiring control
+- **Other investment**: bank deposits, trade credits, loans
+- **Reserve assets**: changes in a country"s official foreign exchange reserves held by the central
   bank (gold, foreign currency, SDRs, IMF reserve position)
 
 ### The Balance of Payments Identity

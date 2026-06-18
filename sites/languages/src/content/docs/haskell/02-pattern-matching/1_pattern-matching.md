@@ -1,6 +1,32 @@
 ---
 title: Pattern Matching
-description: ""zero"
+description: "Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in..."
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - Haskell
+categories:
+  - Haskell
+
+---
+
+## What Is Pattern Matching?
+
+Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its
+components. It is one of the most powerful features in Haskell, enabling concise and expressive code
+that directly reflects the structure of data types.
+
+When you write a function definition with multiple equations, each equation has a **pattern** on the
+left side. The compiler matches the argument against these patterns in order, executing the right
+side of the first matching equation.
+
+## Matching on Literals
+
+Literals are the simplest patterns -- they match specific constant values:
+
+```haskell
+-- Matching on integer literals
+isZero :: Int -> String
+isZero 0 = "zero"
 isZero _ = "not zero"
 
 -- Matching on character literals

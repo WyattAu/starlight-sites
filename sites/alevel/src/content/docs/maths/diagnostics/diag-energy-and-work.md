@@ -1,6 +1,30 @@
 ---
 title: "Energy and Work -- Diagnostic Tests"
-description: ""the work done against friction equals $\mu mgd$." Calculate what this
+description: "A-Level Maths Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Energy and Work — Diagnostic Tests
+
+## Unit Tests
+
+> Tests edge cases, boundary conditions, and common misconceptions for energy and work.
+
+### UT-1: Work Done Against Friction — Applied Force vs Frictional Force
+
+**Question:**
+
+A block of mass $10$ kg is pulled along a rough horizontal surface by a force of $80$ N applied at
+an angle of $20°$ above the horizontal. The coefficient of friction is $\mu = 0.5$. The block moves
+a total distance of $15$ m.
+
+**(a)** Find the work done by the applied force.
+
+**(b)** Find the work done against friction.
+
+**(c)** Find the net work done and hence the final speed, given the block starts from rest.
+
+**(d)** A student claims "the work done against friction equals $\mu mgd$." Calculate what this
 would give, and find the percentage error compared to the correct answer.
 
 [Difficulty: hard. Tests the distinction between the work done by the applied force and the work

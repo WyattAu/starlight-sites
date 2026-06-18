@@ -1,6 +1,88 @@
 ---
 title: Rotational Motion
-description: ""s resistance to
+description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |..."
+date: 2026-04-14
+tags:
+  - ap
+  - ap-physics
+categories:
+  - ap-physics
+
+---
+
+## Rotational Kinematics (CED Unit 7)
+
+### Angular Quantities
+
+| Linear Quantity  | Angular Quantity              | Relation        |
+| ---------------- | ----------------------------- | --------------- |
+| Displacement $x$ | Angle $\theta$                | $x = r\theta$   |
+| Velocity $v$     | Angular velocity $\omega$     | $v = r\omega$   |
+| Acceleration $a$ | Angular acceleration $\alpha$ | $a_t = r\alpha$ |
+
+### Angular Velocity and Acceleration
+
+$$
+\omega = \frac{d\theta}{dt}, \qquad \alpha = \frac{d\omega}{dt}
+$$
+
+### Constant Angular Acceleration Equations
+
+$$
+\omega = \omega_0 + \alpha t
+$$
+
+$$
+\theta = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2
+$$
+
+$$
+\omega^2 = \omega_0^2 + 2\alpha(\theta - \theta_0)
+$$
+
+### Tangential vs Centripetal Acceleration
+
+For circular motion, the total acceleration has two components:
+
+$$
+A_t = r\alpha \quad \mathrm{(tangential, changes speed)
+$$
+
+$$
+A_c = r\omega^2 = \frac{v^2}{r} \quad \mathrm{(centripetal, changes direction)
+$$
+
+$$
+A_{\mathrm{total} = \sqrt{a_t^2 + a_c^2}
+$$
+
+### The Analogy Between Linear and Rotational Kinematics
+
+Every linear kinematic equation has a direct rotational analogue. Replace $x$ with $\theta$, $v$
+With $\omega$And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
+a one-dimensional motion in the angular coordinate. The mathematics is identical.
+
+:::info[Example]
+
+A wheel starts from rest and accelerates at $2.0 \mathrm{ rad/s^2$ for $5.0 \mathrm{ s$. Find the
+Angular velocity, total angle rotated, and the tangential speed of a point 0.3 m from the center.
+
+$$
+\omega = 0 + (2.0)(5.0) = 10 \mathrm{ rad/s
+$$
+
+$$
+\theta = 0 + 0 + \frac{1}{2}(2.0)(5.0)^2 = 25 \mathrm{ rad
+$$
+
+$$
+V = r\omega = (0.3)(10) = 3.0 \mathrm{ m/s
+$$
+
+
+## Moment of Inertia (CED Unit 7)
+
+The moment of inertia is the rotational analog of mass. It measures an object"s resistance to
 Angular acceleration:
 
 $$

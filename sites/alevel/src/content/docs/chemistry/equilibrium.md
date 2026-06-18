@@ -1,6 +1,30 @@
 ---
 title: Chemical Equilibrium
-description: ""s Principle
+description: "A reversible reaction reaches when the rate of the forward reaction equals the rate of the reverse reaction. At equilibrium: "''
+date: 2026-04-21T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Chemical Equilibrium
+
+## Dynamic Equilibrium
+
+A reversible reaction reaches **dynamic equilibrium** when the rate of the forward reaction equals
+the rate of the reverse reaction. At equilibrium:
+
+- The macroscopic properties (concentration, pressure, colour) are constant.
+- Microscopically, both forward and reverse reactions continue to occur at equal rates.
+- The position of equilibrium describes the relative amounts of reactants and products.
+
+Dynamic equilibrium is only established in a **closed system** -- one in which no matter can enter
+or leave.
+
+## Le Chatelier"s Principle
 
 If a system at equilibrium is subjected to a change in conditions, the equilibrium position shifts
 to **counteract** the imposed change.

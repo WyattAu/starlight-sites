@@ -3,7 +3,18 @@ title: Lagrangian Mechanics
 tags:
   - Physics
   - University
-description: ""Alembert’s Principle
+description: "Lagrangian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 3.1 The Lagrangian
+
+The **Lagrangian** of a system is defined as
+
+$$L(q_1, \ldots, q_n, \dot{q}_1, \ldots, \dot{q}_n, t) = T - V$$
+
+Where $T$ is the kinetic energy and $V$ is the potential energy.
+
+### 3.2 Derivation of the Euler-Lagrange Equation from D"Alembert’s Principle
 
 **Theorem 3.1 (Euler-Lagrange from D'Alembert).** The equations of motion for a holonomic system
 with ideal constraints are:

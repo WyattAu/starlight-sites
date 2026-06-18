@@ -1,6 +1,42 @@
 ---
 title: Nuclear & Quantum Physics
-description: ""s energy source
+description: "A-Level Nuclear & Quantum Physics notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
+---
+
+# Nuclear & Quantum Physics
+
+Nuclear and quantum physics explores the behaviour of matter at the smallest scales — from the
+structure of the atom and radioactive decay to the wave-particle duality that challenges classical
+intuition. This section covers radioactivity, nuclear energy, quantum phenomena, and particle
+physics.
+
+## Topics Covered
+
+### Radioactivity
+
+- **Atomic structure** — the nucleus (protons, neutrons), electron shells; nuclide notation
+  ${}_Z^A X$
+- **Isotopes** — same atomic number, different mass number; stability and the N/Z ratio
+- **Radiation types** — alpha ($\alpha$: helium nucleus, highly ionising, stopped by paper), beta
+  ($\beta^-$: electron, moderate ionisation, stopped by aluminium), gamma ($\gamma$: electromagnetic
+  photon, weakly ionising, reduced by lead)
+- **Decay equations** — $\alpha$ decay: ${}_Z^A X \to {}_{Z-2}^{A-4} Y + {}_2^4 \alpha$; $\beta^-$
+  decay: ${}_Z^A X \to {}_{Z+1}^{A} Y + {}_{-1}^0 \beta + \bar{\nu}_e$
+- **Half-life** — $N = N_0 \left(\frac{1}{2}\right)^{t/t_{1/2}}$; activity $A = \lambda N$; decay
+  constant $\lambda = \frac{\ln 2}{t_{1/2}}$
+- **Background radiation** — sources (radon gas, cosmic rays, rocks, medical); measuring and
+  subtracting
+- **Detection** — Geiger-Müller tube, photographic film, cloud chambers
+
+### Nuclear Energy
+
+- **Mass-energy equivalence** — $E = mc^2$; mass defect and binding energy
+- **Binding energy per nucleon curve** — fission for heavy nuclei (A > 56), fusion for light nuclei
+  (A < 56); iron-56 is the most stable
+- **Nuclear fission** — splitting heavy nuclei (uranium-235, plutonium-239); chain reactions;
+  controlled (reactor) vs. uncontrolled (weapon)
+- **Nuclear fusion** — combining light nuclei (hydrogen isotopes); conditions required (high
+  temperature, high pressure); the Sun"s energy source
 - **Calculations** — determining energy released from mass difference:
   $\Delta E = \Delta m \times c^2$
 

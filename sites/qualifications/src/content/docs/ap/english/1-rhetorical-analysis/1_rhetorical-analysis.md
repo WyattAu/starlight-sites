@@ -1,6 +1,29 @@
 ---
 title: Rhetorical Analysis
-description: ""s attitude toward the subject and audience?
+description: "Before analysing any text, identify the -- the context in which the text was produced. The SOAPStone framework provides a systematic approach: "''
+date: 2026-06-04T10:00:00.000Z
+tags:
+  - ap
+  - ap-english
+categories:
+  - ap-english
+
+---
+
+## The Rhetorical Situation
+
+Before analysing any text, identify the **rhetorical situation** -- the context in which the text
+was produced. The SOAPStone framework provides a systematic approach:
+
+- **Speaker**: Who is the author? What is their background, expertise, and relationship to the
+  topic?
+- **Occasion**: What is the time, place, and context in which the text was written? What triggered
+  the need to write?
+- **Audience**: Who is the intended reader? What are their beliefs, values, and knowledge level?
+- **Purpose**: What is the author trying to accomplish? (To persuade, inform, entertain, inspire,
+  warn?)
+- **Subject**: What is the text about? What is the main topic and the specific claim?
+- **Tone**: What is the author"s attitude toward the subject and audience?
 
 Understanding the rhetorical situation is essential because the author"s choices -- every word,
 sentence structure, and device -- are shaped by these factors.

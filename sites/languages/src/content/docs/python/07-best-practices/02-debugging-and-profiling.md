@@ -1,6 +1,21 @@
 ---
 title: Debugging and Profiling
-description: ""s design.
+description: "Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does..."
+date: 2026-04-05T00:00:00.000Z
+tags:
+  - Python
+categories:
+  - Python
+
+---
+
+# Debugging and Profiling
+
+Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are
+First-class engineering disciplines. A systems engineer does not guess about correctness or
+Performance — they measure, instrument, and reason from evidence. This reference covers the full
+Debugging and profiling stack in CPython, from the interactive debugger down to kernel-level
+Sampling profilers, and explains the _why_ behind each tool"s design.
 
 ## pdb and breakpoint()
 

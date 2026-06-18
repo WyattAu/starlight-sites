@@ -1,6 +1,92 @@
 ---
 title: Standard Library Concepts
-description: ""is_base_of: " << std::is_base_of_v<Base, Derived> << "\n";
+description: "The header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve As building blocks for user-defined constraints. These concepts..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Standard Library Concepts
+
+The `<concepts>` header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve
+As building blocks for user-defined constraints. These concepts cover core language relationships,
+Comparisons, object properties, callable requirements, type categories, and iterator hierarchies.
+Using standard library concepts instead of ad-hoc constraints ensures interoperability and correct
+Subsumption ordering.
+
+## The `<concepts>` Header
+
+### Core Language Concepts
+
+| Concept                            | Description                                         |
+| ---------------------------------- | --------------------------------------------------- |
+| `std::same_as<T, U>`               | `T` and `U` are the same type [§18.4.2]             |
+| `std::derived_from<D, B>`          | `D` is derived from `B` [§18.4.2]                   |
+| `std::convertible_to<From, To>`    | `From` is implicitly convertible to `To` [§18.4.2]  |
+| `std::common_reference_with<T, U>` | `T` and `U` share a common reference type [§18.4.2] |
+| `std::common_with<T, U>`           | `T` and `U` share a common type [§18.4.2]           |
+
+### Comparison Concepts
+
+| Concept                        | Description                                      |
+| ------------------------------ | ------------------------------------------------ |
+| `std::equality_comparable<T>`  | `==` is an equivalence relation on `T` [§18.4.5] |
+| `std::totally_ordered<T>`      | `<` defines a total order on `T` [§18.4.5]       |
+| `std::three_way_comparable<T>` | `<=>` is defined for `T` (C++20) [§18.4.5]       |
+
+### Object Concepts
+
+| Concept               | Description                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| `std::copyable<T>`    | `T` is copyable (copy constructible + copy assignable + destructible) [§18.4.6]            |
+| `std::movable<T>`     | `T` is movable (move constructible + move assignable + destructible + swappable) [§18.4.6] |
+| `std::regular<T>`     | `T` is copyable, default-constructible, and equality-comparable [§18.4.6]                  |
+| `std::semiregular<T>` | `T` is copyable and default-constructible [§18.4.6]                                        |
+
+### Callable Concepts
+
+| Concept                      | Description                                                     |
+| ---------------------------- | --------------------------------------------------------------- |
+| `std::invocable<F, Args...>` | `F` can be invoked with `Args...` [§18.4.8]                     |
+| `std::predicate<F, Args...>` | `F` invoked with `Args...` returns `bool`-convertible [§18.4.8] |
+| `std::relation<R, T, U>`     | `R` defines an equivalence relation on `T` and `U` [§18.4.8]    |
+
+### Type Categories
+
+| Concept                     | Description                                |
+| --------------------------- | ------------------------------------------ |
+| `std::integral<T>`          | `T` is an integral type [§18.4.3]          |
+| `std::signed_integral<T>`   | `T` is a signed integral type [§18.4.3]    |
+| `std::unsigned_integral<T>` | `T` is an unsigned integral type [§18.4.3] |
+| `std::floating_point<T>`    | `T` is a floating-point type [§18.4.3]     |
+
+:::note `std::regular` and `std::semiregular` The concept `std::regular<T>` [N4950 §18.4.6] models
+Types that behave like built-in values: they can be copied, default-constructed, and compared for
+Equality. `int``double`And `std::string` are all `std::regular`. `std::unique_ptr` is `std::movable`
+but not `std::regular` (not copyable). `std::mutex` is neither `std::movable` nor `std::copyable`.
+These concepts are the vocabulary types of generic programming.
+:::
+
+## Understanding `std::derived_from` vs `std::is_base_of`
+
+`std::derived_from<D, B>` is stricter than `std::is_base_of_v<B, D>`:
+
+```cpp
+#include <iostream>
+#include <concepts>
+#include <type_traits>
+
+struct Base {};
+struct Derived : Base {};
+
+struct Unrelated {};
+
+int main() {
+    std::cout << std::boolalpha;
+    std::cout << "is_base_of: " << std::is_base_of_v<Base, Derived> << "\n";
     std::cout << "derived_from: " << std::derived_from<Derived, Base> << "\n";
 
     // The difference: derived_from requires implicit convertibility to const Base&

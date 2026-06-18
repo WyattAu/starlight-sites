@@ -1,6 +1,43 @@
 ---
 title: Dynamic Programming
-description: """"
+description: "Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two..."
+
+---
+
+## DP Fundamentals
+
+Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each
+Subproblem once, and storing the results. Two properties must hold for DP to apply:
+
+1. **Optimal substructure** — the optimal solution to the problem contains optimal solutions to its
+   subproblems
+2. **Overlapping subproblems** — the same subproblems are solved multiple times in a naive recursive
+   solution
+
+When both hold, DP reduces an exponential-time recursive solution to polynomial time.
+
+### Top-Down (Memoisation) vs Bottom-Up (Tabulation)
+
+| Aspect        | Top-Down (Memoisation)           | Bottom-Up (Tabulation)                      |
+| ------------- | -------------------------------- | ------------------------------------------- |
+| Approach      | Recursive with caching           | Iterative, fill table from base cases       |
+| Order         | Natural recursion order          | Must determine correct fill order           |
+| Stack space   | $O(n)$ recursion depth           | $O(1)$ (no recursion)                       |
+| Cache control | Only computes needed subproblems | Computes all subproblems                    |
+| Debugging     | Easier to reason about           | Harder to see the recurrence                |
+| Performance   | Slight overhead from recursion   | Slightly faster (no function call overhead) |
+
+## 1D DP
+
+### Climbing Stairs
+
+How many distinct ways to climb $n$ stairs, taking 1 or 2 steps at a time?
+
+$$dp[i] = dp[i-1] + dp[i-2]$$
+
+```python
+def climb_stairs(n):
+    """
     Number of ways to climb n stairs with 1 or 2 steps.
     Time: O(n), Space: O(1) with rolling variables
     """

@@ -1,6 +1,32 @@
 ---
 title: "Atomic and Nuclear Physics -- Diagnostic Tests"
-description: ""s quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
+description: "IB Atomic and Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
+tableOfContents: false
+---
+
+# Atomic and Nuclear Physics — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Bohr Model — Limitations and Quantisation
+
+**Question:**
+
+(a) Derive the expression for the radius of the $n$-th Bohr orbit for hydrogen.
+
+(b) Calculate the energy of a photon emitted when an electron transitions from $n = 4$ to $n = 2$ in
+a hydrogen atom.
+
+(c) Explain two limitations of the Bohr model that are addressed by quantum mechanics.
+
+**Solution:**
+
+(a) In the Bohr model, the electron orbits the proton under the Coulomb force, which provides the
+centripetal force:
+
+$$\frac{ke^2}{r_n^2} = \frac{m_e v_n^2}{r_n}$$
+
+Bohr"s quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
 
 From the quantisation condition: $v_n = n\hbar/(m_e r_n)$.
 

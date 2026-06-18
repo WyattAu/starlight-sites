@@ -3,7 +3,67 @@ title: Global Systems and Governance
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: ""McDonaldisation" of culture) or hybridisation (the blending of global and local cultures —
+description: "A-Level Geography Global Systems and Governance notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
+---
+
+# Global Systems and Governance
+
+## Introduction
+
+Globalisation has transformed the economic, political, and cultural relationships between nations.
+The increasing interconnectedness of the world through trade, investment, migration, and
+communication has created both opportunities and challenges. This topic examines the drivers and
+impacts of globalisation, the role of transnational corporations (TNCs), the frameworks of global
+governance, and the patterns of international migration. Understanding these systems is essential
+for explaining global inequalities, geopolitical tensions, and the governance of shared global
+challenges such as climate change.
+
+---
+
+## Key Concepts and Definitions
+
+| Term                                | Definition                                                                                                                                |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Globalisation**                   | The process by which the world is becoming increasingly interconnected through flows of goods, capital, people, information, and ideas    |
+| **Transnational corporation (TNC)** | A company that operates in more than one country, with headquarters commonly in a developed nation and production in lower-cost locations |
+| **Foreign direct investment (FDI)** | Investment by a company or individual in one country into business interests in another country                                           |
+| **Free trade**                      | International trade without tariffs, quotas, or other restrictions                                                                        |
+| **Trade bloc**                      | A group of countries that have agreed to reduce or eliminate trade barriers between themselves (e.g., EU, ASEAN, NAFTA/USMCA)             |
+| **Global governance**               | The system of institutions, rules, and processes through which international affairs are managed                                          |
+| **Geopolitics**                     | The study of how geographical factors (location, resources, territory) influence political relationships and power between nations        |
+| **Hegemony**                        | Dominance of one state over others, economically, militarily, or culturally                                                               |
+| **Glocalisation**                   | The adaptation of global products or services to local markets and preferences                                                            |
+| **Outsourcing**                     | Contracting out business processes to external firms, often in other countries                                                            |
+| **Offshoring**                      | Relocating business processes from one country to another, in most cases to reduce costs                                                  |
+| **Remittances**                     | Money sent by migrants working abroad back to their home country                                                                          |
+| **Brain drain**                     | The emigration of highly trained or qualified people from a particular country                                                            |
+| **Core countries**                  | Wealthy, developed nations that dominate global economic and political systems                                                            |
+| **Periphery countries**             | Less developed nations that are economically dependent on core countries                                                                  |
+| **Semi-periphery**                  | Countries that are between core and periphery — industrialising but not yet dominant                                                      |
+
+---
+
+## Globalisation
+
+### Dimensions of Globalisation
+
+Globalisation operates across multiple interconnected dimensions:
+
+**Economic globalisation**: The integration of national economies through trade, investment, and
+financial flows. Global trade as a share of world GDP has risen from approximately 25% in 1960 to
+over 50% by the 2020s. Key drivers include trade liberalisation (reduction of tariffs and quotas),
+containerisation (reducing shipping costs by approximately 90% since the 1960s), and advances in
+communications technology.
+
+**Political globalisation**: The growing power and influence of international institutions and
+agreements. Organisations such as the United Nations, World Trade Organization (WTO), International
+Monetary Fund (IMF), and World Bank shape national policies through conditionality, trade rules, and
+development lending. National sovereignty is increasingly constrained by international obligations.
+
+**Cultural globalisation**: The spread of ideas, values, media, and cultural practices across
+borders. Global media corporations (Disney, Netflix, social media platforms) disseminate
+predominantly Western cultural products. This can lead to cultural homogenisation (the
+"McDonaldisation" of culture) or hybridisation (the blending of global and local cultures —
 glocalisation).
 
 **Social globalisation**: The movement of people, ideas, and information. Migration, tourism,

@@ -1,6 +1,76 @@
 ---
 title: "Mechanics -- Diagnostic Tests"
-description: ""s Laws
+description: "Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+tableOfContents: false
+---
+
+# Mechanics -- Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Kinematics
+
+**Question:**
+
+(a) State the three equations of motion (SUVAT equations) and define each variable.
+
+(b) A car accelerates uniformly from rest at $2.5\,\text{m s}^{-2}$ for $8$ seconds. Calculate the
+distance travelled.
+
+(c) A ball is thrown vertically upwards with an initial velocity of $15\,\text{m s}^{-1}$.
+Calculate: (i) the maximum height reached, (ii) the time taken to reach the maximum height, (iii)
+the total time the ball is in the air before returning to its starting point.
+
+(d) Explain why the horizontal and vertical components of projectile motion can be treated
+independently.
+
+**Solution:**
+
+(a) The SUVAT equations (for constant acceleration):
+
+1. $v = u + at$
+2. $s = ut + \frac{1}{2}at^2$
+3. $v^2 = u^2 + 2as$
+4. $s = \frac{1}{2}(u + v)t$
+
+Where: $s$ = displacement, $u$ = initial velocity, $v$ = final velocity, $a$ = acceleration, $t$ =
+time.
+
+(b) Given: $u = 0$ (from rest), $a = 2.5\,\text{m s}^{-2}$, $t = 8\,\text{s}$.
+
+Using $s = ut + \frac{1}{2}at^2$:
+
+$$s = 0 + \frac{1}{2}(2.5)(64) = 80\,\text{m}$$
+
+The car travels $80\,\text{m}$.
+
+(c) Taking upwards as positive, $u = 15\,\text{m s}^{-1}$, $a = -g = -9.8\,\text{m s}^{-2}$.
+
+(i) At maximum height, $v = 0$:
+
+$$v^2 = u^2 + 2as$$ $$0 = 15^2 + 2(-9.8)s$$
+$$s = \frac{225}{19.6} = 11.48\,\text{m} \approx 11.5\,\text{m}$$
+
+(ii) Using $v = u + at$:
+
+$$0 = 15 + (-9.8)t$$ $$t = \frac{15}{9.8} = 1.53\,\text{s}$$
+
+(iii) By symmetry (or calculating the time for the downward journey), the total time is
+$2 \times 1.53 = 3.06\,\text{s}$.
+
+Alternatively, setting $s = 0$: $0 = 15t - \frac{1}{2}(9.8)t^2$, so
+$t = \frac{2 \times 15}{9.8} = 3.06\,\text{s}$.
+
+(d) The horizontal and vertical components of projectile motion can be treated independently because
+they are perpendicular to each other. Gravity acts only vertically (downwards), producing a constant
+vertical acceleration of $g = 9.8\,\text{m s}^{-2}$, but has no effect on the horizontal motion.
+Therefore, the horizontal component of velocity remains constant (assuming no air resistance), while
+the vertical component changes uniformly due to gravity. The two motions are independent and do not
+affect each other.
+
+---
+
+### UT-2: Forces and Newton"s Laws
 
 **Question:**
 

@@ -1,6 +1,314 @@
 ---
 title: Linux Networking
-description: ""mysterious" connection
+description: "The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,..."
+
+---
+
+## Network Interface Management (iproute2)
+
+The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig``route``netstat`) as the
+Standard Linux network management toolset. It provides a consistent interface for managing
+Interfaces, addresses, routes, tunnels, and policies.
+
+```mermaid
+graph TD
+    A[iproute2 Suite] --> B[ip — interfaces, addresses, routes]
+    A --> C[ss — socket statistics]
+    A --> D[bridge — layer 2 bridging]
+    A --> E[vlan — VLAN configuration]
+    A --> F[tuntap — TUN/TAP devices]
+    A --> G[rtmon — route monitoring]
+    A --> H[tc — traffic control / qdiscs]
+    A --> I[nstat — network statistics]
+    A --> J[rdisc — router discovery (legacy)]
+```
+
+### Interface Configuration
+
+```bash
+# List all network interfaces
+ip link show
+ip -br link show           # brief output
+
+# Bring interface up/down
+ip link set eth0 up
+ip link set eth0 down
+
+# Set interface properties
+ip link set eth0 mtu 9000          # jumbo frames
+ip link set eth0 promisc on        # promiscuous mode
+ip link set eth0 txqueuelen 1000   # TX queue length
+ip link set eth0 address 00:11:22:33:44:55  # change MAC
+
+# Add IP addresses
+ip addr add 192.168.1.10/24 dev eth0
+ip addr add 10.0.0.1/24 dev eth0
+
+# Remove IP address
+ip addr del 192.168.1.10/24 dev eth0
+
+# View IP addresses
+ip addr show
+ip -br addr show         # brief output
+
+# Show only specific interface
+ip addr show eth0
+```
+
+### Alternative Names for Interfaces
+
+Modern Linux uses **predictable network interface names** instead of `eth0`:
+
+| Naming Scheme | Format                             | Example           |
+| ------------- | ---------------------------------- | ----------------- |
+| `biosdevname` | BIOS-provided names                | `em1``p1p1`       |
+| `systemd`     | Based on bus/slot/location         | `enp3s0``ens3`    |
+| `slot`        | Physical slot number               | `enp3s0`          |
+| `path`        | Physical topology path             | `enx78e7d1ea46da` |
+| `mac`         | MAC address (for USB/dock devices) | `enx78e7d1ea46da` |
+
+To revert to classic names, add `net.ifnames=0 biosdevname=0` to the kernel command line.
+
+### Link Types
+
+```bash
+# Dummy interface (always up, drops packets)
+ip link add dummy0 type dummy
+
+# VLAN interface
+ip link add link eth0 name eth0.100 type vlan id 100
+
+# Bond interface (link aggregation)
+ip link add bond0 type bond mode 802.3ad miimon 100
+ip link set eth0 master bond0
+ip link set eth1 master bond0
+
+# Bridge (layer 2 switch)
+ip link add name br0 type bridge
+ip link set eth0 master br0
+ip link set br0 up
+
+# VETH pair (virtual ethernet — used by containers)
+ip link add veth0 type veth peer name veth1
+
+# TUN/TAP (layer 3 / layer 2 tunnel)
+ip tuntap add dev tun0 mode tun
+ip tuntap add dev tap0 mode tap
+```
+
+## Routing
+
+### Routing Tables
+
+```bash
+# View routing table
+ip route show
+ip route show table main
+ip route show table all       # all routing tables
+
+# Default route
+ip route add default via 192.168.1.1 dev eth0
+
+# Static route
+ip route add 10.0.0.0/24 via 192.168.1.254 dev eth0
+
+# Blackhole route (silently drop)
+ip route add blackhole 10.10.10.0/24
+
+# Prohibit route (reject with ICMP prohibited)
+ip route add prohibit 10.10.10.0/24
+
+# Throw route (delegate to another table)
+ip route add throw 10.10.10.0/24 table 100
+
+# Delete route
+ip route del 10.0.0.0/24 via 192.168.1.254
+
+# Flush routes
+ip route flush table cache    # flush routing cache
+```
+
+### Policy Routing
+
+Linux supports multiple routing tables and policy-based routing (PBR). The `ip rule` command selects
+Which routing table to use based on source address, destination address, TOS, firewall mark, etc.
+
+```bash
+# List routing rules
+ip rule show
+
+# Add rule: traffic from 10.0.0.0/24 uses table 100
+ip rule add from 10.0.0.0/24 table 100
+
+# Add rule: traffic marked with fwmark 0x1 uses table 200
+ip rule add fwmark 0x1 table 200
+
+# Add to custom table
+ip route add 10.10.10.0/24 via 192.168.2.1 dev eth1 table 100
+ip route add default via 192.168.2.1 dev eth1 table 100
+
+# Priority (lower = evaluated first)
+ip rule add priority 100 from 10.0.0.0/24 table 100
+ip rule add priority 200 from 172.16.0.0/16 table 200
+```
+
+### ARP
+
+```bash
+# View ARP table
+ip neigh show
+arp -an
+
+# Add static ARP entry
+ip neigh add 192.168.1.100 lladdr 00:11:22:33:44:55 dev eth0 nud permanent
+
+# Delete ARP entry
+ip neigh del 192.168.1.100 dev eth0
+
+# Flush ARP cache
+ip neigh flush all
+```
+
+## DNS Resolution
+
+### `/etc/resolv.conf`
+
+```bash
+# Traditional DNS configuration
+cat /etc/resolv.conf
+# nameserver 8.8.8.8
+# nameserver 8.8.4.4
+# search example.com internal.example.com
+# options timeout:2 attempts:3 rotate single-request-reopen
+```
+
+### `systemd-resolved`
+
+Modern distributions use `systemd-resolved` as a local DNS resolver and cache:
+
+```bash
+# Check if systemd-resolved is active
+systemctl status systemd-resolved
+
+# Status
+resolvectl status
+
+# Query specific server
+resolvectl query example.com
+
+# DNS-over-TLS
+resolvectl dns eth0 1.1.1.1#cloudflare-dns.com
+
+# Per-link DNS configuration
+resolvectl dns eth0 8.8.8.8 8.8.4.4
+resolvectl domain eth0 ~example.com
+```
+
+### `/etc/nsswitch.conf`
+
+Name Service Switch determines the order of lookup methods:
+
+```text
+hosts: files dns mdns4_minimal [NOTFOUND=return] dns
+```
+
+The lookup order: local files (`/etc/hosts`) first, then DNS. The `mdns4_minimal` entry handles
+Multicast DNS (`.local` domain) and returns NOTFOUND for non-`.local` names, which then falls
+Through to regular DNS.
+
+### `dig` and `nslookup`
+
+```bash
+# Query A record
+dig example.com
+
+# Query specific record type
+dig MX example.com
+dig TXT example.com
+dig CNAME www.example.com
+
+# Query from specific server
+dig @8.8.8.8 example.com
+
+# Reverse DNS lookup
+dig -x 8.8.8.8
+
+# Short output
+dig +short example.com
+
+# Trace DNS resolution path
+dig +trace example.com
+
+# DNSSEC validation
+dig +dnssec example.com
+```
+
+## Netfilter Framework
+
+Netfilter is the kernel-level packet filtering framework that provides hooks at five points in the
+Networking stack. It is the foundation for `iptables``nftables`And connection tracking.
+
+### Netfilter Hooks
+
+```mermaid
+graph LR
+    A[Incoming Packet] --> B[PREROUTING]
+    B --> C{Routing Decision}
+    C -->|Local| D[INPUT]
+    C -->|Forward| E[FORWARD]
+    D --> F[Local Process]
+    F --> G[OUTPUT]
+    E --> H[POSTROUTING]
+    G --> H
+    H --> I[Outgoing Packet]
+```
+
+| Hook                     | Chains (iptables) | Description                                 |
+| ------------------------ | ----------------- | ------------------------------------------- |
+| **NF_INET_PRE_ROUTING**  | `PREROUTING`      | Before routing decision — DNAT, mangling    |
+| **NF_INET_LOCAL_IN**     | `INPUT`           | Packets destined for local processes        |
+| **NF_INET_FORWARD**      | `FORWARD`         | Packets being forwarded (router)            |
+| **NF_INET_LOCAL_OUT**    | `OUTPUT`          | Packets originating from local processes    |
+| **NF_INET_POST_ROUTING** | `POSTROUTING`     | After routing decision — SNAT, masquerading |
+
+### Connection Tracking (conntrack)
+
+The `nf_conntrack` module tracks the state of network connections. It classifies packets into
+Connection states:
+
+| State         | Description                                                           |
+| ------------- | --------------------------------------------------------------------- |
+| `NEW`         | First packet of a connection (no matching entry yet)                  |
+| `ESTABLISHED` | Connection is established (both directions seen)                      |
+| `RELATED`     | Packet related to an existing connection (e.g., FTP data, ICMP error) |
+| `UNREPLIED`   | Connection entry exists but no response packet seen                   |
+| `INVALID`     | Packet does not match any known connection                            |
+
+```bash
+# View connection tracking table
+conntrack -L
+conntrack -L -s 192.168.1.0/24    # source filter
+conntrack -L -d 10.0.0.1          # destination filter
+
+# Count tracked connections
+conntrack -C
+
+# Delete all tracked connections
+conntrack -F
+
+# View connection tracking statistics
+cat /proc/net/nf_conntrack
+cat /proc/sys/net/netfilter/nf_conntrack_count
+cat /proc/sys/net/netfilter/nf_conntrack_max
+
+# Increase conntrack table size
+sysctl -w net.netfilter.nf_conntrack_max=262144
+```
+
+:::caution
+
+The conntrack table has a fixed size (default varies, often 65536-262144). When the table is full,
+New connections are dropped with no error logged. This is a common cause of "mysterious" connection
 Failures under high load. Monitor `net.netfilter.nf_conntrack_count` vs
 `net.netfilter.nf_conntrack_max`.
 

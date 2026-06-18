@@ -1,6 +1,220 @@
 ---
 title: Quantum Chemistry
-description: ""s Rules):** For degenerate orbitals:
+description: "University Quantum Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Chemistry
+  - University
+categories:
+  - Chemistry
+---
+
+## 1. Postulates of Quantum Mechanics
+
+### 1.1 The Postulates
+
+1. **State Function:** The state of a quantum system is described by a wavefunction $\Psi(\mathbf{r}, t)$
+   containing all information about the system.
+
+2. **Observable → Operator:** Every measurable observable corresponds to a linear Hermitian operator.
+
+3. **Measurement:** Measuring an observable $\hat{A}$ yields an eigenvalue $a_n$ of $\hat{A}$:
+
+   $$\hat{A}\psi_n = a_n\psi_n$$
+
+   The probability of measuring $a_n$ is $|c_n|^2$ where $\Psi = \sum_n c_n\psi_n$.
+
+4. **Expectation Value:** For a state $\Psi$:
+
+   $$\langle A \rangle = \frac{\int \Psi^*\hat{A}\Psi\,d\tau}{\int \Psi^*\Psi\,d\tau}$$
+
+5. **Time Evolution:** $\Psi$ evolves according to the time-dependent Schrödinger equation:
+
+   $$i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi$$
+
+### 1.2 The Time-Independent Schrödinger Equation
+
+For a system with time-independent Hamiltonian:
+
+$$\hat{H}\psi = E\psi$$
+
+$$\left[-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right]\psi = E\psi$$
+
+## 2. Particle in a Box
+
+### 2.1 One-Dimensional Box
+
+A particle of mass $m$ confined to $0 \leq x \leq L$ with $V = 0$ inside and $V = \infty$ outside:
+
+$$\hat{H}\psi = -\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi$$
+
+**Theorem 1 (Particle in a 1D Box):**
+
+$$\psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \frac{n^2h^2}{8mL^2}$$
+
+where $n = 1, 2, 3, \ldots$
+
+Key features:
+- Quantized energy levels; $E_n \propto n^2$.
+- Zero-point energy: $E_1 = h^2/(8mL^2) \neq 0$.
+- Number of nodes $= n - 1$.
+
+### 2.2 Three-Dimensional Box
+
+$$\psi_{n_x,n_y,n_z}(x,y,z) = \left(\frac{2}{L}\right)^{3/2}\sin\frac{n_x\pi x}{L}\sin\frac{n_y\pi y}{L}\sin\frac{n_z\pi z}{L}$$
+
+$$E_{n_x,n_y,n_z} = \frac{h^2}{8mL^2}(n_x^2 + n_y^2 + n_z^2)$$
+
+**Definition 1 (Degeneracy):** Different sets of quantum numbers that give the same energy are
+degenerate. For a cubic box, $(1,2,2)$, $(2,1,2)$, and $(2,2,1)$ are triply degenerate.
+
+### 2.3 Probability Density and Nodes
+
+The probability of finding the particle between $x = a$ and $x = b$:
+
+$$P(a \leq x \leq b) = \int_a^b |\psi_n(x)|^2\,dx = \frac{2}{L}\int_a^b \sin^2\frac{n\pi x}{L}\,dx$$
+
+**Example 1:** For a particle in a 1D box of length $L = 1$ nm, find the probability of finding it
+in the middle third for $n = 1$.
+
+$$P\left(\frac{L}{3} \leq x \leq \frac{2L}{3}\right) = \int_{L/3}^{2L/3} \frac{2}{L}\sin^2\frac{\pi x}{L}\,dx$$
+
+$$= \frac{1}{3} - \frac{\sin(4\pi/3) - \sin(2\pi/3)}{2\pi} = \frac{1}{3} - \frac{-\sqrt{3}/2 - \sqrt{3}/2}{2\pi} = \frac{1}{3} + \frac{\sqrt{3}}{2\pi} \approx 0.61$$
+
+$\blacksquare$
+
+## 3. Quantum Mechanical Operators
+
+### 3.1 Common Operators
+
+| Observable       | Operator                                |
+| --------------- | --------------------------------------- |
+| Position         | $\hat{x} = x$                           |
+| Momentum         | $\hat{p}_x = -i\hbar\frac{\partial}{\partial x}$ |
+| Kinetic energy   | $\hat{T} = -\frac{\hbar^2}{2m}\nabla^2$ |
+| Angular momentum | $\hat{L}_z = -i\hbar\frac{\partial}{\partial \phi}$ |
+| Hamiltonian      | $\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V$ |
+
+### 3.2 Commutators
+
+**Definition 2 (Commutator):** $[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$.
+
+If $[\hat{A}, \hat{B}] = 0$, the observables can be simultaneously measured with arbitrary precision.
+
+**Theorem 2 (Heisenberg Uncertainty Principle):**
+
+$$\Delta A \cdot \Delta B \geq \frac{1}{2}|\langle[\hat{A}, \hat{B}]\rangle|$$
+
+$$\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}$$
+
+## 4. The Hydrogen Atom
+
+### 4.1 The Schrödinger Equation in Spherical Coordinates
+
+For the hydrogen atom (reduced mass $\mu = m_e m_p/(m_e + m_p) \approx m_e$):
+
+$$\left[-\frac{\hbar^2}{2\mu}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}\right]\psi = E\psi$$
+
+In spherical coordinates $(r, \theta, \phi)$:
+
+$$\psi_{n,\ell,m_\ell}(r,\theta,\phi) = R_{n,\ell}(r)\,Y_\ell^{m_\ell}(\theta,\phi)$$
+
+### 4.2 Quantum Numbers
+
+| Quantum Number | Symbol     | Allowed Values                         |
+| -------------- | ---------- | -------------------------------------- |
+| Principal       | $n$        | $1, 2, 3, \ldots$                       |
+| Azimuthal       | $\ell$     | $0, 1, 2, \ldots, n-1$                  |
+| Magnetic        | $m_\ell$   | $-\ell, -\ell+1, \ldots, \ell-1, \ell$  |
+| Spin            | $m_s$      | $+\frac{1}{2}, -\frac{1}{2}$             |
+
+### 4.3 Energy Levels
+
+**Theorem 3 (Hydrogen Atom Energy):**
+
+$$E_n = -\frac{\mu e^4}{32\pi^2\varepsilon_0^2\hbar^2}\frac{1}{n^2} = -\frac{13.6 \text{ eV}}{n^2} = -\frac{R_H}{n^2}$$
+
+The Rydberg constant $R_H = 2.179 \times 10^{-18}$ J $= 13.6$ eV.
+
+Energy depends only on $n$; all states with the same $n$ are degenerate (for hydrogen).
+
+### 4.4 Radial Wavefunctions
+
+The first few radial wavefunctions:
+
+$$R_{1,0}(r) = 2\left(\frac{1}{a_0}\right)^{3/2}e^{-r/a_0}$$
+
+$$R_{2,0}(r) = \frac{1}{2\sqrt{2}}\left(\frac{1}{a_0}\right)^{3/2}\left(2 - \frac{r}{a_0}\right)e^{-r/(2a_0)}$$
+
+$$R_{2,1}(r) = \frac{1}{2\sqrt{6}}\left(\frac{1}{a_0}\right)^{3/2}\frac{r}{a_0}e^{-r/(2a_0)}$$
+
+where $a_0 = 5.292 \times 10^{-11}$ m is the Bohr radius.
+
+### 4.5 Angular Wavefunctions (Spherical Harmonics)
+
+**Theorem 4 (Spherical Harmonics):** The angular part $Y_\ell^{m_\ell}(\theta, \phi)$ are solutions
+to:
+
+$$\hat{L}^2\,Y_\ell^{m_\ell} = \ell(\ell+1)\hbar^2\,Y_\ell^{m_\ell}$$
+
+$$\hat{L}_z\,Y_\ell^{m_\ell} = m_\ell\hbar\,Y_\ell^{m_\ell}$$
+
+### 4.6 Orbital Shapes
+
+| Orbital Type | $\ell$ | Shape                         | Nodes (radial) |
+| ------------ | ------ | ----------------------------- | -------------- |
+| $s$          | 0      | Spherical, no angular nodes   | $n - 1$        |
+| $p$          | 1      | Dumbbell, 1 angular node      | $n - 2$        |
+| $d$          | 2      | Cloverleaf, 2 angular nodes   | $n - 3$        |
+| $f$          | 3      | Complex, 3 angular nodes      | $n - 4$        |
+
+Total nodes $= n - 1$ = radial nodes + angular nodes.
+
+## 5. Angular Momentum and Spin
+
+### 5.1 Orbital Angular Momentum
+
+**Theorem 5 (Angular Momentum Magnitude):**
+
+$$|\mathbf{L}| = \sqrt{\ell(\ell+1)}\,\hbar$$
+
+$$L_z = m_\ell\hbar, \quad m_\ell = -\ell, -\ell+1, \ldots, \ell$$
+
+The angular momentum vector can never be fully aligned with the $z$-axis (space quantization).
+
+### 5.2 Electron Spin
+
+Electrons have intrinsic angular momentum (spin) with $s = 1/2$:
+
+$$|S| = \sqrt{s(s+1)}\,\hbar = \frac{\sqrt{3}}{2}\hbar$$
+
+$$S_z = m_s\hbar, \quad m_s = \pm\frac{1}{2}$$
+
+### 5.3 Spin-Orbit Coupling
+
+**Theorem 6 (Spin-Orbit Coupling):** The total angular momentum $\mathbf{J} = \mathbf{L} + \mathbf{S}$:
+
+$$|\mathbf{J}| = \sqrt{j(j+1)}\,\hbar, \quad j = |\ell - s|, \ldots, \ell + s$$
+
+For an electron with $\ell = 1$, $s = 1/2$: $j = 1/2$ or $3/2$.
+
+Term symbols: ${}^{2S+1}L_J$, e.g., ${}^2P_{3/2}$ for $\ell = 1$, $s = 1/2$, $j = 3/2$.
+
+## 6. Pauli Exclusion Principle and Aufbau
+
+### 6.1 Pauli Exclusion Principle
+
+**Theorem 7 (Pauli Exclusion Principle):** No two electrons in an atom can have the same set of four
+quantum numbers $(n, \ell, m_\ell, m_s)$.
+
+Consequence: Each orbital can hold at most 2 electrons (one with $m_s = +1/2$, one with $m_s = -1/2$).
+
+### 6.2 Aufbau Principle
+
+**Definition 3 (Aufbau Principle):** Electrons fill orbitals in order of increasing energy:
+$1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, \ldots$
+
+**Definition 4 (Hund"s Rules):** For degenerate orbitals:
 1. Maximize total spin $S$ (parallel spins first).
 2. For a given $S$, maximize $L$.
 3. For atoms less than half-filled: minimize $J$; more than half-filled: maximize $J$.

@@ -5,7 +5,28 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description: ""API error at $i")
+description: "This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured..."
+---
+
+This document builds on the coroutine fundamentals covered in
+[coroutines](/docs/languages/kotlin/intermediate/coroutines). It assumes familiarity with suspend
+functions, coroutine builders, dispatchers, structured concurrency, and basic Flow usage.
+
+## Flow Error Handling
+
+Error handling in Flow differs from regular exception handling because Flow is cold and lazy. Errors
+propagate downstream through the operator chain and terminate the flow unless explicitly caught.
+
+### catch Operator
+
+The `catch` operator intercepts upstream exceptions. It must be placed **before** the terminal
+operator and catches exceptions from all upstream operators but not from downstream code.
+
+```kotlin
+fun numbersFromApi(): Flow<Int> = flow {
+    for (i in 1..5) {
+        delay(100)
+        if (i == 3) throw RuntimeException("API error at $i")
         emit(i)
     }
 }

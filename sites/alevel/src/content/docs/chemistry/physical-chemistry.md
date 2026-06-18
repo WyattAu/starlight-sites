@@ -1,6 +1,150 @@
 ---
 title: Physical Chemistry
-description: ""s Law
+description: "Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards."
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Physical Chemistry
+
+Comprehensive study guide covering the core physical chemistry topics for A-Level examinations
+across all major exam boards.
+
+:::info Board Coverage AQA Paper 1 & 2 | Edexcel A Paper 1 & 2 | OCR (A) Paper 1 & 2 | CIE Paper 2 &
+4
+
+---
+
+## 1. Atomic Structure
+
+### Subatomic Particles
+
+| Particle | Relative Mass    | Relative Charge | Location |
+| -------- | ---------------- | --------------- | -------- |
+| Proton   | 1                | +1              | Nucleus  |
+| Neutron  | 1                | 0               | Nucleus  |
+| Electron | $\frac{1}{1836}$ | $-1$            | Shells   |
+
+**Atomic number ($Z$)** = number of protons **Mass number ($A$)** = protons + neutrons **Isotopes**
+= same $Z$, different $A$ (different number of neutrons)
+
+### Electron Configuration
+
+Electrons fill shells in order: 1 → 2 → 3 → 4...
+
+| Shell | Maximum electrons | Elements filled |
+| ----- | ----------------- | --------------- |
+| 1     | 2                 | H, He           |
+| 2     | 8                 | Li – Ne         |
+| 3     | 18                | Na – Ar         |
+| 4     | 32                | K – Kr          |
+
+**Exceptions to remember:**
+
+- Chromium: $[\mathrm{Ar}]\,3d^5\,4s^1$ (not $3d^4\,4s^2$)
+- Copper: $[\mathrm{Ar}]\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$)
+
+### Ionisation Energy
+
+**First ionisation energy:** energy to remove one mole of electrons from one mole of gaseous atoms:
+
+$$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
+
+**Trends:**
+
+- **Across a period:** generally increases (greater nuclear charge, same shielding, smaller atomic
+  radius)
+- **Down a group:** decreases (increased shielding, larger atomic radius outweighs greater nuclear
+  charge)
+- **Dips** between Group 2 and 13 ($s \to p$ sub-shell, $p$ electrons are higher energy and slightly
+  shielded)
+- **Dips** between Group 15 and 16 (pairing repulsion in the $p$ orbital)
+
+### Mass Spectrometry
+
+1. **Ionisation** — electron impact removes an electron
+2. **Acceleration** — electric field accelerates ions
+3. **Deflection** — magnetic field bends lighter ions more
+4. **Detection** — measures mass-to-charge ratio ($m/z$)
+
+The **relative atomic mass** is calculated from the weighted average of isotopes:
+
+$$A_r = \frac{\sum(m_i \times a_i)}{\sum a_i}$$
+
+---
+
+## 2. Bonding
+
+### Ionic Bonding
+
+- Transfer of electrons from metal to non-metal
+- Electrostatic attraction between oppositely charged ions
+- Forms giant ionic lattices
+- High melting/boiling points; conduct electricity when molten or aqueous
+
+### Covalent Bonding
+
+- Sharing of electron pairs between non-metals
+- **Dot-cross diagrams** show shared and lone pairs
+- Can be single ($\sigma$), double ($\sigma + \pi$), or triple ($\sigma + 2\pi$)
+
+### Metallic Bonding
+
+- Delocalised sea of electrons around positive metal ions
+- Accounts for electrical conductivity, malleability, and high melting points
+
+### Electronegativity and Bond Polarity
+
+**Electronegativity** is the ability of an atom to attract the bonding pair of electrons.
+
+- Increases across a period (greater nuclear charge)
+- Decreases down a group (increased shielding)
+- F is the most electronegative element (Pauling scale: 4.0)
+
+A **polar bond** arises when there is an electronegativity difference between bonded atoms
+($\delta^+$ and $\delta^-$ charges). A **polar molecule** requires both polar bonds AND an
+asymmetrical shape (e.g. $\mathrm{H_2O}$ is polar; $\mathrm{CO_2}$ is non-polar despite polar
+bonds).
+
+### Intermolecular Forces
+
+| Force               | Strength  | Occurs Between                                | Example                                         |
+| ------------------- | --------- | --------------------------------------------- | ----------------------------------------------- |
+| London (dispersion) | Weakest   | All molecules                                 | All                                             |
+| Dipole-dipole       | Moderate  | Polar molecules                               | $\mathrm{HCl}$, $\mathrm{SO_2}$                 |
+| Hydrogen bonding    | Strongest | Molecules with $\mathrm{N, O, F}$ bonded to H | $\mathrm{H_2O}$, $\mathrm{NH_3}$, $\mathrm{HF}$ |
+
+**London forces** increase with: more electrons (larger $A_r$), larger surface area (chain length).
+
+**Hydrogen bonds** are the strongest intermolecular force and explain:
+
+- High boiling point of water
+- The anomalous density of ice (open lattice)
+- Solubility of polar molecules
+
+---
+
+## 3. Energetics
+
+### Enthalpy Changes
+
+$$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
+
+| Type                                                   | Definition                                                                    |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| Standard enthalpy of formation ($\Delta_f H^\ominus$)  | Enthalpy change when 1 mol of compound forms from elements in standard states |
+| Standard enthalpy of combustion ($\Delta_c H^\ominus$) | Enthalpy change when 1 mol of substance burns completely in $\mathrm{O_2}$    |
+| Standard enthalpy of neutralisation                    | Enthalpy change per mole of water formed from acid–base reaction              |
+
+**Exothermic:** $\Delta H < 0$ (energy released to surroundings) **Endothermic:** $\Delta H > 0$
+(energy absorbed from surroundings)
+
+### Hess"s Law
 
 The enthalpy change for a reaction is independent of the route taken — the answer varies by context
 only on initial and final states.

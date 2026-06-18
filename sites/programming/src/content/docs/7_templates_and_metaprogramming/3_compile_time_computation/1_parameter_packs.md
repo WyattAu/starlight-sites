@@ -1,6 +1,42 @@
 ---
 title: Parameter Packs and Variadic Templates
-description: ""\n";  // 4
+description: "A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# Parameter Packs and Variadic Templates
+
+A **variadic template** accepts a variable number of template arguments via a **parameter pack**
+[N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter
+Packs. Combined with **pack expansion** syntax and perfect forwarding, they enable type-safe
+Operations on arbitrary numbers of arguments.
+
+## Variadic Function Templates and Parameter Packs
+
+A **variadic template** accepts a variable number of template arguments via a **parameter pack**
+[N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter
+Packs.
+
+```cpp
+#include <iostream>
+#include <type_traits>
+
+// sizeof... returns the number of elements in a pack [N4950 §8.3.3]
+template <typename... Ts>
+constexpr std::size_t count_types() {
+    return sizeof...(Ts);
+}
+
+int main() {
+    static_assert(count_types<>() == 0);
+    static_assert(count_types<int>() == 1);
+    static_assert(count_types<int, double, char>() == 3);
+    std::cout << count_types<int, double, char, long>() << "\n";  // 4
 }
 ```
 

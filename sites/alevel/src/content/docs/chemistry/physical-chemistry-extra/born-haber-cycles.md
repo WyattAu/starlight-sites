@@ -1,6 +1,46 @@
 ---
 title: Born-Haber Cycles
-description: ""s Law calculations.
+description: "Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a Series of well-defined energetic steps. They allow the..."
+date: 2026-04-22T00:00:00.000Z
+tags:
+  - Chemistry
+  - ALevel
+categories:
+  - Chemistry
+
+---
+
+# Born-Haber Cycles
+
+Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a
+Series of well-defined energetic steps. They allow the calculation of lattice enthalpy from
+Experimental data and, by comparison with theoretical values, reveal the degree of covalent
+Character in nominally ionic bonds.
+
+## Lattice Enthalpy
+
+### Definitions
+
+**Lattice enthalpy of formation** ($\Delta H_\mathrm{lat}^\circ$): The enthalpy change when one mole
+Of an ionic solid is formed from its constituent gaseous ions under standard conditions. This is
+Always exothermic ($\Delta H_\mathrm{lat}^\circ \lt 0$) because the electrostatic attraction between
+Oppositely charged ions releases energy.
+
+**Lattice dissociation enthalpy:** The reverse process -- the enthalpy change when one mole of an
+Ionic solid is separated into its gaseous ions. This is always endothermic and equal in magnitude
+But opposite in sign to the lattice enthalpy of formation.
+
+### Terminology Convention
+
+There are two conventions in use:
+
+1. **IUPAC convention (used here):** Lattice enthalpy = lattice formation enthalpy (exothermic,
+   negative).
+2. **Older textbook convention:** Lattice enthalpy = lattice dissociation enthalpy (endothermic,
+   positive).
+
+Always check which convention is being used in a given context. The sign difference is critical for
+Hess"s Law calculations.
 
 ## Born-Haber Cycle Construction
 

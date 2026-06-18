@@ -1,6 +1,76 @@
 ---
 title: Monetary Policy
-description: ""inflation is always and everywhere a
+description: "Inflation is the sustained increase in the general price level over time. The primary measure is the , which tracks the price of a weighted basket of goods..."
+date: 2026-05-21
+tags: [ib, ib-economics]
+categories: [ib-economics]
+---
+
+## Inflation
+
+### Measuring Inflation
+
+Inflation is the sustained increase in the general price level over time. The primary measure is the
+**Consumer Price Index (CPI)**, which tracks the price of a weighted basket of goods and services
+Representative of household consumption.
+
+$$\mathrm{Inflation\ rate} = \frac{\mathrm{CPI}_t - \mathrm{CPI}_{t-1}}{\mathrm{CPI}_{t-1}} \times 100$$
+
+**Constructing the CPI:**
+
+1. Select a representative basket of goods and services based on household expenditure surveys
+2. Assign weights to each item based on its share of total household spending
+3. Collect price data for each item at regular intervals
+4. Calculate the weighted average price change relative to a base year
+
+**Limitations of CPI:**
+
+- **Substitution bias**: the basket is updated infrequently, so consumers who substitute away from
+  goods that have become relatively more expensive are not properly accounted for
+- **New product bias**: new goods and services (e.g., smartphones, streaming services) are not
+  immediately included
+- **Quality change bias**: improvements in quality that justify price increases are difficult to
+  measure
+- **Outlet bias**: consumers may switch to discount retailers, which is not captured
+- **Compositional bias**: the basket may not reflect the spending patterns of all demographic groups
+
+### Types of Inflation
+
+**Demand-pull inflation** occurs when aggregate demand exceeds aggregate supply at full employment,
+Creating an inflationary gap:
+
+$$\mathrm{AD} > \mathrm{LRAS} \implies \mathrm{Price\ level\ rises}$$
+
+Causes include excessive growth in the money supply, large budget deficits, rising consumer
+Confidence, or export booms.
+
+**Cost-push inflation** occurs when costs of production increase, shifting SRAS leftward and raising
+Prices while reducing output. Causes include:
+
+- Rising wages (wage-push inflation)
+- Higher raw material and energy prices (e.g., oil price shocks)
+- Depreciation of the exchange rate (making imports more expensive)
+- Indirect tax increases (e.g., VAT increases)
+
+**Built-in inflation** (wage-price spiral): workers demand higher wages to keep up with rising
+Prices, and firms pass these higher labour costs onto consumers as higher prices, creating a
+Self-reinforcing cycle.
+
+### The Quantity Theory of Money
+
+The Fisher equation of exchange:
+
+$$M \times V = P \times Y$$
+
+Where $M$ is the money supply, $V$ is the velocity of circulation (how many times each unit of Money
+is spent per period), $P$ is the price level, and $Y$ is real output.
+
+If $V$ and $Y$ are constant in the short run, then increases in $M$ lead to proportional increases
+In $P$:
+
+$$\%\Delta M + \%\Delta V = \%\Delta P + \%\Delta Y$$
+
+Monetarists, particularly Milton Friedman, argued that "inflation is always and everywhere a
 Monetary phenomenon" -- sustained inflation cannot occur without excessive growth in the money
 supply.
 

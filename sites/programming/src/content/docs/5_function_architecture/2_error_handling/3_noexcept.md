@@ -1,6 +1,39 @@
 ---
 title: The noexcept Specifier
-description: ""noexcept is part of the type: confirmed\n";
+description: "Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+# The `noexcept` Specifier
+
+Since C++17, `noexcept` is part of the **function type system** [N4950 §14.5.1]. This has
+Significant implications for overload resolution, optimization, and exception safety guarantees.
+
+## 3.1 `noexcept` as Part of the Function Type
+
+Since C++17, `noexcept` is part of the **function type system** [N4950 §14.5.1]. Two function
+Pointers that differ only in `noexcept` are different types:
+
+```cpp
+#include <type_traits>
+#include <iostream>
+
+void f() noexcept {}
+void g() {}
+
+static_assert(!std::is_same_v<decltype(f), decltype(g)>);
+static_assert(!std::is_same_v<void(*)() noexcept, void(*)()>);
+static_assert(std::is_same_v<void(*)() noexcept, decltype(&f)>);
+
+int main() {
+    void (*pf)() noexcept = &f;
+    void (*pg)() = &g;
+    std::cout << "noexcept is part of the type: confirmed\n";
     (void)pf; (void)pg;
     return 0;
 }

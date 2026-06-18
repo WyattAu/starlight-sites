@@ -1,6 +1,54 @@
 ---
 title: TLS
-description: ""s X.509 certificate chain
+description: "Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure..."
+tags:
+  - Networking
+categories:
+  - Networking
+---
+
+## Overview
+
+Transport Layer Security (TLS) provides encryption, authentication, and integrity for data
+Transmitted over a network. TLS is the successor to Secure Sockets Layer (SSL), which was developed
+By Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
+Its successor. All SSL versions are now considered insecure and deprecated.
+
+TLS operates between the transport layer and the application layer, encrypting application data
+(HTTP, SMTP, IMAP, etc.) before it is sent over the network.
+
+## TLS History and Versions
+
+| Version | RFC      | Year | Status                                    |
+| ------- | -------- | ---- | ----------------------------------------- |
+| SSL 3.0 | RFC 6101 | 1996 | Deprecated (POODLE attack, CVE-2014-3566) |
+| TLS 1.0 | RFC 2246 | 1999 | Deprecated (BEAST, RC4 attacks)           |
+| TLS 1.1 | RFC 4346 | 2006 | Deprecated                                |
+| TLS 1.2 | RFC 5246 | 2008 | Current (widespread support)              |
+| TLS 1.3 | RFC 8446 | 2018 | Current (recommended)                     |
+
+TLS 1.0 and 1.1 were officially deprecated by the IETF in June 2021 (RFC 8996). TLS 1.2 remains
+Widely supported and is the minimum acceptable version for any new deployment. TLS 1.3 is the
+Recommended version for all new deployments.
+
+:::info
+
+PCI DSS v4.0 (effective March 2025) requires TLS 1.2 or higher and deprecates TLS 1.0 and 1.1. Major
+Browsers and cloud providers have already removed support for TLS 1.0 and 1.1.
+
+
+## TLS 1.2 Handshake
+
+TLS 1.2 uses a two-round-trip (2-RTT) handshake:
+
+```
+Client                              Server
+  |                                   |
+  |--- ClientHello ------------------>|    Supported TLS versions, cipher suites,
+  |                                   |    extensions, random bytes
+  |<-- ServerHello -------------------|    Chosen version, cipher suite,
+  |                                   |    random bytes
+  |<-- Certificate -------------------|    Server"s X.509 certificate chain
   |<-- ServerKeyExchange ------------|    Key exchange parameters (for DH/ECDHE)
   |<-- ServerHelloDone --------------|    Server finished
   |                                   |

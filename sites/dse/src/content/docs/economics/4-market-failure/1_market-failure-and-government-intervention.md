@@ -1,6 +1,52 @@
 ---
 title: Market Failure and Government Intervention
-description: ""s private costs.
+description: "Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare...."
+date: 2026-04-08T00:00:00.000Z
+tags:
+  - DSE
+  - Economics
+categories:
+  - DSE
+  - Economics
+
+---
+
+## What Is Market Failure?
+
+Market failure occurs when the free market, operating without government intervention, fails to
+Allocate resources in a way that maximises economic welfare. The result is a loss of total surplus
+(deadweight loss): society could be made better off by reallocating resources.
+
+This file assumes familiarity with supply and demand analysis from
+[../2-demand-supply-markets/1_demand-supply-and-markets](../2-demand-supply-markets/1_demand-supply-and-markets)
+and the basic market failure overview in
+[../1-basic-economic-concepts/1_basic-economic-concepts](../1-basic-economic-concepts/1_basic-economic-concepts).
+
+### Types of Market Failure
+
+| Type                  | Description                                                                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Externalities         | Costs or benefits of production or consumption that spill over to third parties who are not part of the transaction.                              |
+| Public goods          | Goods that are non-excludable and non-rivalrous. The free-rider problem leads to under-provision or zero provision by the market.                 |
+| Information asymmetry | When one party to a transaction has more or better information than the other. Leads to adverse selection and moral hazard.                       |
+| Monopoly power        | A single seller (or a small number of sellers) can restrict output and raise prices above the competitive level, causing deadweight loss.         |
+| Factor immobility     | Factors of production (especially labour) cannot move between industries or regions, causing structural unemployment and persistent inefficiency. |
+| Inequality            | The market may produce an unacceptable distribution of income and wealth, even if it is allocatively efficient in a Pareto sense.                 |
+
+---
+
+## Negative Externalities
+
+### Definition
+
+A negative externality (external cost) exists when the social cost of an activity exceeds the
+Private cost borne by the decision-maker. The cost is imposed on third parties who did not consent
+To bear it.
+
+### Negative Externality of Production
+
+This occurs when the production of a good imposes costs on society that are not reflected in the
+Producer"s private costs.
 
 $$\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}$$
 

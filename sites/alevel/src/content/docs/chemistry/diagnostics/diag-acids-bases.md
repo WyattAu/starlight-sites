@@ -1,6 +1,163 @@
 ---
 title: "Acids, Bases and Buffers -- Diagnostic Tests"
-description: ""s statement is **incorrect**. At $50\,^\circ\text{C}$A neutral solution has pH
+description: "A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Acids, Bases and Buffers — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: Buffer pH Calculation with Dilution
+
+**Question:**
+
+A buffer solution is prepared by adding $0.100\,\text{mol}$ of ethanoic acid
+($\text{CH}_3\text{COOH}$, $K_a = 1.74 \times 10^{-5}\,\text{mol dm}^{-3}$) and $0.050\,\text{mol}$ of
+sodium ethanoate ($\text{CH}_3\text{COONa}$) to water and making up to $250\,\text{cm}^3$.
+
+(a) Calculate the pH of this buffer solution.
+
+(b) The buffer solution is diluted to $500\,\text{cm}^3$ with distilled water. Calculate the new pH
+and explain why the pH changes only very slightly.
+
+(c) $10.0\,\text{cm}^3$ of $0.100\,\text{mol dm}^{-3}$ HCl is added to $90.0\,\text{cm}^3$ of the
+original buffer solution. Calculate the new pH.
+
+**Solution:**
+
+(a) Using the Henderson-Hasselbalch equation:
+
+$$[\text{CH}_3\text{COOH}] = \frac{0.100}{0.250} = 0.400\,\text{mol dm}^{-3}$$
+$$[\text{CH}_3\text{COO}^-] = \frac{0.050}{0.250} = 0.200\,\text{mol dm}^{-3}$$
+
+$$\text{pH} = \text{p}K_a + \log\frac◆LB◆[\text{A}^-]◆RB◆◆LB◆[\text{HA}]◆RB◆ = -\log(1.74 \times 10^{-5}) + \log\frac{0.200}{0.400}$$
+
+$$\text{pH} = 4.759 + \log(0.500) = 4.759 - 0.301 = 4.458$$
+
+Alternatively, using the equilibrium expression:
+
+$$K_a = \frac◆LB◆[\text{H}^+][\text{CH}_3\text{COO}^-]◆RB◆◆LB◆[\text{CH}_3\text{COOH}]◆RB◆ = \frac◆LB◆[\text{H}^+] \times 0.200◆RB◆◆LB◆0.400◆RB◆$$
+
+$$[\text{H}^+] = \frac◆LB◆1.74 \times 10^{-5} \times 0.400◆RB◆◆LB◆0.200◆RB◆ = 3.48 \times 10^{-5}\,\text{mol dm}^{-3}$$
+
+$$\text{pH} = -\log(3.48 \times 10^{-5}) = 4.459$$
+
+(b) After dilution to $500\,\text{cm}^3$:
+
+$$[\text{CH}_3\text{COOH}] = \frac{0.100}{0.500} = 0.200\,\text{mol dm}^{-3}$$
+$$[\text{CH}_3\text{COO}^-] = \frac{0.050}{0.500} = 0.100\,\text{mol dm}^{-3}$$
+
+$$[\text{H}^+] = \frac◆LB◆1.74 \times 10^{-5} \times 0.200◆RB◆◆LB◆0.100◆RB◆ = 3.48 \times 10^{-5}\,\text{mol dm}^{-3}$$
+
+$$\text{pH} = 4.459$$
+
+The pH is **unchanged** because both the acid and conjugate base concentrations are halved by
+dilution, so their ratio remains the same. The Henderson-Hasselbalch equation shows pH depends only
+on the ratio $[\text{A}^-]/[\text{HA}]$Which is unaffected by dilution.
+
+(c) Moles in $90.0\,\text{cm}^3$ of buffer:
+
+$$n(\text{CH}_3\text{COOH}) = 0.400 \times 0.0900 = 0.0360\,\text{mol}$$
+$$n(\text{CH}_3\text{COO}^-) = 0.200 \times 0.0900 = 0.0180\,\text{mol}$$
+
+Moles of HCl added: $0.100 \times 0.0100 = 0.00100\,\text{mol}$
+
+HCl reacts with the conjugate base:
+$\text{CH}_3\text{COO}^- + \text{H}^+ \to \text{CH}_3\text{COOH}$
+
+New moles:
+
+- $n(\text{CH}_3\text{COOH}) = 0.0360 + 0.00100 = 0.0370\,\text{mol}$
+- $n(\text{CH}_3\text{COO}^-) = 0.0180 - 0.00100 = 0.0170\,\text{mol}$
+
+Total volume: $90.0 + 10.0 = 100.0\,\text{cm}^3 = 0.100\,\text{dm}^3$
+
+$$[\text{H}^+] = \frac◆LB◆1.74 \times 10^{-5} \times (0.0170/0.100)◆RB◆◆LB◆(0.0370/0.100)◆RB◆ = \frac◆LB◆1.74 \times 10^{-5} \times 0.170◆RB◆◆LB◆0.370◆RB◆ = 7.99 \times 10^{-6}\,\text{mol dm}^{-3}$$
+
+$$\text{pH} = -\log(7.99 \times 10^{-6}) = 5.10$$
+
+The pH changed from $4.46$ to $5.10$ (only 0.64 units) despite adding a strong acid. If the same
+amount of HCl were added to $90\,\text{cm}^3$ of pure water, the pH would be
+$-\log(0.00100/0.100) = 1.00$.
+
+---
+
+### UT-2: Ka from pH and Titration Curve Analysis
+
+**Question:**
+
+(a) A $0.150\,\text{mol dm}^{-3}$ solution of a weak acid HA has a pH of $2.85$. Calculate $K_a$ for
+this acid.
+
+(b) In a titration of $25.0\,\text{cm}^3$ of $0.100\,\text{mol dm}^{-3}$ HA with
+$0.100\,\text{mol dm}^{-3}$ NaOH, the pH at the half-equivalence point is $3.75$. Calculate $K_a$
+and explain why the half-equivalence point gives $K_a$ directly.
+
+(c) Choose a suitable indicator for this titration and explain your choice.
+
+**Solution:**
+
+(a)
+
+$$[\text{H}^+] = 10^{-2.85} = 1.413 \times 10^{-3}\,\text{mol dm}^{-3}$$
+
+$$K_a = \frac◆LB◆[\text{H}^+]^2◆RB◆◆LB◆[\text{HA}] - [\text{H}^+]◆RB◆ = \frac◆LB◆(1.413 \times 10^{-3})^2◆RB◆◆LB◆0.150 - 1.413 \times 10^{-3}◆RB◆ = \frac◆LB◆1.997 \times 10^{-6}◆RB◆◆LB◆0.1486◆RB◆ = 1.34 \times 10^{-5}\,\text{mol dm}^{-3}$$
+
+(b) At the half-equivalence point, exactly half the weak acid has been neutralised, so
+$[\text{HA}] = [\text{A}^-]$. The Henderson-Hasselbalch equation gives:
+
+$$\text{pH} = \text{p}K_a + \log\frac◆LB◆[\text{A}^-]◆RB◆◆LB◆[\text{HA}]◆RB◆ = \text{p}K_a + \log 1 = \text{p}K_a$$
+
+So $\text{p}K_a = 3.75$ and:
+
+$$K_a = 10^{-3.75} = 1.78 \times 10^{-4}\,\text{mol dm}^{-3}$$
+
+(c) For a weak acid-strong base titration, the pH at the equivalence point is alkaline (greater than
+7, because the salt of a weak acid and strong base hydrolyses to produce $\text{OH}^-$). A suitable
+indicator must change colour in the alkaline range. **Phenolphthalein** is suitable (colour change
+at pH 8.3--10.0), as its range falls within the steep portion of the titration curve at the
+equivalence point.
+
+Methyl orange would **not** be suitable (colour change at pH 3.1--4.4) because it would change
+colour well before the equivalence point.
+
+---
+
+### UT-3: Kw and pH at Different Temperatures
+
+**Question:**
+
+At $50\,^\circ\text{C}$, $K_w = 5.48 \times 10^{-14}\,\text{mol}^2\text{ dm}^{-6}$.
+
+(a) Calculate the pH of pure water at $50\,^\circ\text{C}$.
+
+(b) Calculate the pH of a $0.0100\,\text{mol dm}^{-3}$ solution of NaOH at $50\,^\circ\text{C}$.
+
+(c) A student states that a pH of 7 at $50\,^\circ\text{C}$ means the solution is neutral. Evaluate
+this statement.
+
+**Solution:**
+
+(a) For pure water, $[\text{H}^+] = [\text{OH}^-]$:
+
+$$[\text{H}^+] = \sqrt{K_w} = \sqrt◆LB◆5.48 \times 10^{-14}◆RB◆ = 2.341 \times 10^{-7}\,\text{mol dm}^{-3}$$
+
+$$\text{pH} = -\log(2.341 \times 10^{-7}) = 6.63$$
+
+Note: The pH of pure water is **less than 7** at $50\,^\circ\text{C}$ because $K_w$ increases with
+temperature (the autoionisation of water is endothermic). Despite pH being below 7, the solution is
+still neutral because $[\text{H}^+] = [\text{OH}^-]$.
+
+(b)
+
+$$[\text{OH}^-] = 0.0100\,\text{mol dm}^{-3}$$
+
+$$[\text{H}^+] = \frac◆LB◆K_w◆RB◆◆LB◆[\text{OH}^-]◆RB◆ = \frac◆LB◆5.48 \times 10^{-14}◆RB◆◆LB◆0.0100◆RB◆ = 5.48 \times 10^{-12}\,\text{mol dm}^{-3}$$
+
+$$\text{pH} = -\log(5.48 \times 10^{-12}) = 11.26$$
+
+(c) The student"s statement is **incorrect**. At $50\,^\circ\text{C}$A neutral solution has pH
 $6.63$ (as calculated in part a). The pH value of 7 is only neutral at $25\,^\circ\text{C}$ (where
 $K_w = 1.00 \times 10^{-14}$). Neutrality is defined by $[\text{H}^+] = [\text{OH}^-]$Not by pH
 $= 7$. At $50\,^\circ\text{C}$A pH of 7 actually represents a **slightly alkaline** solution because

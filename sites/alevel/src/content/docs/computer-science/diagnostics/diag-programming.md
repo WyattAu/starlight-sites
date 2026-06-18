@@ -1,6 +1,88 @@
 ---
 title: "Programming and OOP -- Diagnostic Tests"
-description: ""1984", "B001", "Orwell"),
+description: "A-Level Computer Science Programming and OOP -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
+tableOfContents: false
+---
+
+# Programming and OOP — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: OOP Principles and Encapsulation
+
+**Question:** Design a class hierarchy for a library system with a base class `Item` and derived
+classes `Book``DVD`And `Magazine`. The `Item` class should have private attributes
+`title``item_id`And `is_available`. Include: (a) a constructor, (b) getter and setter methods
+demonstrating encapsulation, (c) an abstract method `calculate_late_fee(days)` that each derived
+class implements differently. Show how polymorphism is used to process a list of mixed items.
+
+**Solution:**
+
+```python
+from abc import ABC, abstractmethod
+
+class Item(ABC):
+    def __init__(self, title, item_id):
+        self.__title = title
+        self.__item_id = item_id
+        self.__is_available = True
+
+    def get_title(self):
+        return self.__title
+
+    def set_title(self, title):
+        if isinstance(title, str) and len(title) > 0:
+            self.__title = title
+
+    def get_item_id(self):
+        return self.__item_id
+
+    def is_available(self):
+        return self.__is_available
+
+    def borrow(self):
+        if self.__is_available:
+            self.__is_available = False
+            return True
+        return False
+
+    def return_item(self):
+        self.__is_available = True
+
+    @abstractmethod
+    def calculate_late_fee(self, days):
+        pass
+
+
+class Book(Item):
+    def __init__(self, title, item_id, author):
+        super().__init__(title, item_id)
+        self.__author = author
+
+    def calculate_late_fee(self, days):
+        return days * 0.50
+
+
+class DVD(Item):
+    def __init__(self, title, item_id, duration):
+        super().__init__(title, item_id)
+        self.__duration = duration
+
+    def calculate_late_fee(self, days):
+        return days * 1.00
+
+
+class Magazine(Item):
+    def __init__(self, title, item_id, issue_number):
+        super().__init__(title, item_id)
+        self.__issue_number = issue_number
+
+    def calculate_late_fee(self, days):
+        return days * 0.25
+
+
+items = [
+    Book("1984", "B001", "Orwell"),
     DVD("Inception", "D001", 148),
     Magazine("Nature", "M001", 542)
 ]

@@ -1,6 +1,137 @@
 ---
 title: "Paper 1 -- Pure Mathematics -- Full Diagnostic Exam"
-description: ""$x \gt 2$" as a condition for "$x^2 \gt 4$".
+description: "120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+tableOfContents: false
+---
+
+# Paper 1 — Pure Mathematics
+
+**Time allowed:** 120 minutes **Total marks:** 100 **Topics covered:** All 14 pure mathematics
+topics
+
+---
+
+## Instructions
+
+Answer all questions. Calculators are permitted unless otherwise stated. Show all working — marks
+are awarded for method as well as final answer.
+
+---
+
+## Questions
+
+### Q1 [7 marks] — Algebraic Expressions
+
+Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$Find the exact value of:
+
+$$\frac◆LB◆a^{\frac{3}{2}} - a^{-\frac{3}{2}}◆RB◆◆LB◆a^{\frac{1}{2}} - a^{-\frac{1}{2}}◆RB◆$$
+
+### Q2 [7 marks] — Quadratics
+
+The roots of the equation $2x^2 - 5x + 1 = 0$ are $\alpha$ and $\beta$.
+
+Without finding the numerical values of $\alpha$ and $\beta$Find the value of:
+
+$$\frac◆LB◆1◆RB◆◆LB◆\alpha^2 + 1◆RB◆ + \frac◆LB◆1◆RB◆◆LB◆\beta^2 + 1◆RB◆$$
+
+### Q3 [7 marks] — Equations and Inequalities
+
+Solve the inequality:
+
+$$\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0$$
+
+State your answer using set notation, identifying all excluded values.
+
+### Q4 [7 marks] — Coordinates and Geometry
+
+Find the value of $k$ such that the line $y = kx + 5$ is tangent to the circle
+$x^2 + y^2 - 4x - 6y + 9 = 0$.
+
+Hence find the coordinates of the point of tangency.
+
+### Q5 [7 marks] — Functions
+
+Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
+
+**(a)** Find the domain of $f \circ g$I.e. $f(g(x))$.
+
+**(b)** Find the domain of $g \circ f$I.e. $g(f(x))$.
+
+**(c)** Explain why the domains of $f \circ g$ and $g \circ f$ are different.
+
+### Q6 [7 marks] — Sequences and Series
+
+Evaluate the sum:
+
+$$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
+
+Express your answer in terms of $n$And hence find $\lim_{n \to \infty} S_n$.
+
+### Q7 [7 marks] — Binomial Expansion
+
+Find the coefficient of $x^4$ in the expansion of:
+
+$$\frac{(1 + 2x)^5}{(1 - x)^3}$$
+
+### Q8 [8 marks] — Trigonometry
+
+**(a)** Solve $\cos(3x) = \frac{1}{2}$ for $x \in [0, 2\pi)$. Find all solutions.
+
+**(b)** The curve $y = \cos(3x)$ intersects the line $y = \frac{1}{2}$ at $N$ distinct points in the
+interval $[0, 2\pi)$. Find $N$ and the sum of all $x$-coordinates of the intersection points.
+
+### Q9 [8 marks] — Exponentials and Logarithms
+
+**(a)** Solve $e^{2x} - 5e^x + 6 = 0$Giving exact answers.
+
+**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$Giving exact answers.
+
+**(c)** Explain why, when using the substitution $u = e^x$ to solve an equation of the form
+$e^{2x} + pe^x + q = 0$You must check that $u \gt 0$ before taking natural logarithms.
+
+### Q10 [9 marks] — Differentiation
+
+A curve has equation $y = x^4 - 4x^3 + 6x^2 - 4x + 1$.
+
+**(a)** Find $\frac{dy}{dx}$ and $\frac{d^2y}{dx^2}$.
+
+**(b)** Find the coordinates of all stationary points.
+
+**(c)** Classify each stationary point. A student claims that since $\frac{d^2y}{dx^2} = 0$ at the
+stationary point, it is a point of inflection. Explain why this reasoning is incorrect, and
+determine the true nature of this point.
+
+**(d)** Express $y$ in a form that makes the nature of the stationary point immediately obvious.
+
+### Q11 [9 marks] — Integration
+
+**(a)** Find $\int x^3 \ln x\, dx$.
+
+**(b)** A student chooses $u = x^3$ and $\frac{dv}{dx} = \ln x$ for integration by parts. Explain
+why this choice is problematic.
+
+**(c)** Using your result from part (a), evaluate $\int_1^e x^3 \ln x\, dx$ exactly.
+
+### Q12 [7 marks] — Vectors
+
+Line $l_1$ passes through $A(1, 2, 3)$ with direction vector
+$\mathbf{d}_1 = \begin{pmatrix} 2 \\ -1 \\ 1 \end{pmatrix}$.
+
+Line $l_2$ passes through $B(4, 1, 0)$ with direction vector
+$\mathbf{d}_2 = \begin{pmatrix} 1 \\ a \\ 2 \end{pmatrix}$.
+
+**(a)** Find the value of $a$ for which $l_1$ and $l_2$ intersect.
+
+**(b)** For $a = 3$Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
+
+**(c)** For $a = -1$Find the shortest distance between $l_1$ and $l_2$.
+
+### Q13 [5 marks] — Proof
+
+For each of the following, state whether the condition is necessary, sufficient, both, or neither.
+Justify each answer.
+
+**(a)** "$x \gt 2$" as a condition for "$x^2 \gt 4$".
 
 **(b)** "$n$ is prime" as a condition for "$n$ is odd".
 

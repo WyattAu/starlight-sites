@@ -1,6 +1,120 @@
 ---
 title: ZFS Encryption
-description: ""s
+description: "ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It..."
+date: 2026-04-07T00:00:00.000Z
+tags:
+  - TrueNAS
+  - ZFS
+categories:
+  - TrueNAS
+  - ZFS
+
+---
+
+## ZFS Encryption Overview
+
+**Definition.** ZFS native encryption is a dataset-level encryption mechanism integrated into the
+ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It encrypts data and
+Metadata at the block level before it is written to the pool, transparently decrypting on read.
+Unlike dm-crypt/LUKS, which operates at the block device layer below ZFS, native ZFS encryption is
+Aware of ZFS data structures and operates within the DMU (Data Management Unit).
+
+### Why Native ZFS Encryption Over dm-crypt/LUKS
+
+| Feature                  | ZFS Native Encryption     | dm-crypt / LUKS          |
+| ------------------------ | ------------------------- | ------------------------ |
+| Encryption granularity   | Per-dataset               | Per-block device         |
+| Key management scope     | Dataset hierarchy aware   | Volume-level only        |
+| Send/receive integration | Raw mode preserves crypto | Not integrated           |
+| Snapshot encryption      | Inherited automatically   | Full volume encrypted    |
+| Deduplication support    | Per-dataset keys          | Single key per volume    |
+| Changing encryption      | Per-dataset rekey         | Requires full re-encrypt |
+| TrueNAS integration      | Full GUI support          | Manual setup             |
+| Boot from encrypted pool | Supported (with key load) | Supported                |
+| Multiple encryption keys | Different keys per child  | Single key per volume    |
+
+Native ZFS encryption provides the critical advantage of per-dataset key granularity. You can
+Encrypt one dataset with one passphrase and a sibling dataset with a different passphrase, all
+Within the same pool. With dm-crypt, the entire block device is encrypted with a single key, and
+There is no concept of per-directory or per-dataset keys.
+
+### Encryption in the ZFS Write Path
+
+When encryption is enabled on a dataset, the encryption step is inserted between the DMU and the SPA
+In the ZFS write path:
+
+```mermaid
+graph TD
+    A[Application Write] --> B[ZPL]
+    B --> C[DMU]
+    C --> D[Compress]
+    D --> E[Encrypt]
+    E --> F[Checksum]
+    F --> G[Write to Pool]
+```
+
+The order matters. Compression is applied before encryption because encrypted data is effectively
+Random and cannot be compressed. The checksum is computed on the encrypted data (not the plaintext),
+Which means scrubbing verifies the integrity of the encrypted ciphertext.
+
+### Encryption at Rest vs. Encryption in Transit
+
+ZFS native encryption is encryption at rest. It protects data on physical media -- if a drive is
+Removed from the pool, the data is unreadable without the key. It does not protect data in transit.
+For network protection, use SMB3 encryption, NFS with Kerberos (krb5p), or a VPN.
+
+---
+
+## Encryption Properties
+
+### Core Encryption Properties
+
+ZFS exposes encryption configuration through dataset properties. These properties control how
+Encryption operates, what keys are used, and where keys are stored.
+
+| Property         | Values                                                                         | Default | Set At                | Description                                 |
+| ---------------- | ------------------------------------------------------------------------------ | ------- | --------------------- | ------------------------------------------- |
+| `encryption`     | on, off, aes-256-gcm, aes-128-gcm, aes-256-ccm, chacha20-poly1305, aes-256-xts | off     | Dataset creation only | Encryption algorithm or on/off toggle       |
+| `keyformat`      | none, passphrase, hex, raw                                                     | none    | Dataset creation only | Format of the encryption key                |
+| `keylocation`    | prompt, file:///path, https://server/path                                      | prompt  | Dataset creation only | Where to read the encryption key from       |
+| `pbkdf2iters`    | Integer (iterations)                                                           | 350000  | Dataset creation only | PBKDF2 iterations for passphrase stretching |
+| `encryptionroot` | Read-only (dataset path)                                                       | -       | Inherited             | The root dataset that holds the master key  |
+| `keystatus`      | Read-only (available, unavailable, none)                                       | -       | Read-only             | Whether the encryption key is loaded        |
+
+### Setting Encryption Properties
+
+Encryption properties can only be set at dataset creation time. They cannot be changed on an
+Existing dataset (with one exception: `keylocation` can be changed after creation). To change the
+Encryption algorithm or key format on an existing dataset, you must create a new dataset and copy
+The data.
+
+```bash
+# Create an encrypted dataset with all properties set
+zfs create -o encryption=on \
+  -o keyformat=passphrase \
+  -o keylocation=prompt \
+  -o pbkdf2iters=350000 \
+  tank/secret
+
+# Check encryption properties
+zfs get encryption,keyformat,keylocation,pbkdf2iters,encryptionroot,keystatus tank/secret
+```
+
+Output:
+
+```
+NAME        PROPERTY        VALUE           SOURCE
+tank/secret encryption      on              local
+tank/secret keyformat       passphrase      local
+tank/secret keylocation     prompt          local
+tank/secret pbkdf2iters     350000          local
+tank/secret encryptionroot  tank/secret     -
+tank/secret keystatus       available       -
+```
+
+### Inherited Encryption
+
+When you create a child dataset inside an encrypted parent, the child inherits the parent"s
 Encryption settings by default. The `encryptionroot` of the child points to the topmost encrypted
 Ancestor.
 

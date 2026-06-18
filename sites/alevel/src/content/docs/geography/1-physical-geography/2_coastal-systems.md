@@ -3,7 +3,34 @@ title: Coastal Systems and Landscapes
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: ""s crust (e.g., post-glacial rebound)                 |
+description: "A-Level Geography Coastal Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
+---
+
+# Coastal Systems and Landscapes
+
+## Introduction
+
+Coastal environments are dynamic zones where land meets sea, shaped by the interaction of marine,
+terrestrial, and atmospheric processes. This topic examines the processes of erosion,
+transportation, and deposition that create distinctive coastal landforms, and evaluates the
+strategies used to manage coastal systems. Understanding coastal morphology is critical given that
+approximately 40% of the global population lives within 100 km of a coast.
+
+---
+
+## Key Concepts and Definitions
+
+| Term                     | Definition                                                                                                  |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **Littoral zone**        | The area between the high and low water marks on a coast                                                    |
+| **Backshore**            | The area above the high water mark, affected only by storm waves                                            |
+| **Nearshore**            | The shallow water zone from the low water mark to where waves begin to break                                |
+| **Offshore**             | The area beyond the nearshore, in deeper water                                                              |
+| **Swash**                | The upward rush of water up a beach after a wave breaks                                                     |
+| **Backwash**             | The return flow of water down a beach under gravity                                                         |
+| **Fetch**                | The maximum distance of open water over which wind can generate waves                                       |
+| **Wave refraction**      | The bending of wave crests as they approach shallower water at an angle to the coastline                    |
+| **Isostatic change**     | Vertical land movement due to adjustments in the Earth"s crust (e.g., post-glacial rebound)                 |
 | **Eustatic change**      | Global sea-level change caused by alterations in the volume of ocean water                                  |
 | **Lithology**            | The physical and chemical composition of rock, affecting its resistance to erosion                          |
 | **Concordant coastline** | A coastline where bands of rock run parallel to the shore (e.g., Dorset)                                    |

@@ -1,6 +1,21 @@
 ---
 title: Serialization and Data Formats
-description: ""host": "db-primary",
+description: "The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance."
+
+---
+
+## JSON
+
+The `json` module is the standard way to serialize Python objects to JSON and back. It ships with
+CPython and uses a C extension for performance.
+
+### Encoding and Decoding
+
+```python
+import json
+
+data = {
+    "host": "db-primary",
     "port": 5432,
     "replicas": ["db-replica-1", "db-replica-2"],
     "config": {"pool_size": 10, "timeout": 30.5},

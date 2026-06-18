@@ -1,6 +1,52 @@
 ---
 title: Hyperbolic Functions (Extended)
-description: ""s formula
+description: "This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-04-23T00:00:00.000Z
+tags: [Mathematics, ALevel]
+categories: [Mathematics]
+
+---
+
+## Hyperbolic Functions (Extended Treatment)
+
+This document provides a rigorous treatment of hyperbolic functions, their identities, inverses, and
+Calculus.
+
+:::info Hyperbolic functions are analogues of trigonometric functions defined using exponentials
+Rather than circles. They arise in many areas including differential equations, special Relativity,
+and catenary curves.
+:::
+
+<hr />
+
+## 1. Definitions
+
+### 1.1 The three fundamental hyperbolic functions
+
+$$\sinh x = \frac{e^x - e^{-x}}{2}$$
+
+$$\cosh x = \frac{e^x + e^{-x}}{2}$$
+
+$$\tanh x = \frac◆LB◆\sinh x◆RB◆◆LB◆\cosh x◆RB◆ = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
+
+### 1.2 Reciprocal functions
+
+$$\mathrm{cosech}\,x = \frac◆LB◆1◆RB◆◆LB◆\sinh x◆RB◆ = \frac{2}{e^x - e^{-x}}, \quad x \neq 0$$
+
+$$\mathrm{sech}\,x = \frac◆LB◆1◆RB◆◆LB◆\cosh x◆RB◆ = \frac{2}{e^x + e^{-x}}$$
+
+$$\coth x = \frac◆LB◆1◆RB◆◆LB◆\tanh x◆RB◆ = \frac{e^x + e^{-x}}{e^x - e^{-x}}, \quad x \neq 0$$
+
+### 1.3 Basic properties
+
+- $\sinh 0 = 0$$\cosh 0 = 1$$\tanh 0 = 0$.
+- $\sinh x$ is **odd**: $\sinh(-x) = -\sinh x$.
+- $\cosh x$ is **even**: $\cosh(-x) = \cosh x$.
+- $\tanh x$ is **odd**.
+- As $x \to +\infty$: $\sinh x \to +\infty$$\cosh x \to +\infty$$\tanh x \to 1$.
+- As $x \to -\infty$: $\sinh x \to -\infty$$\cosh x \to +\infty$$\tanh x \to -1$.
+
+### 1.4 Connection with Euler"s formula
 
 $$\cosh x = \cos(ix), \qquad \sinh x = -i\sin(ix)$$
 

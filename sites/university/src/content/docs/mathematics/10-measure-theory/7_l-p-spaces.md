@@ -3,7 +3,25 @@ title: $L^p$ Spaces
 tags:
   - Mathematics
   - University
-description: ""s Inequality
+description: "$L^p$ Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+---
+
+### 7.1 Definition
+
+For $1 \leq p < \infty$, define
+
+$$L^p(\mu) = \left\{f : X \to \mathbb{R} \text{ measurable} : \int_X |f|^p\, d\mu < \infty\right\}$$
+
+with the norm $\|f\|_p = \left(\int |f|^p\, d\mu\right)^{1/p}$.
+
+For $p = \infty$, define
+$L^\infty(\mu) = \{f : X \to \mathbb{R} \text{ measurable} : \text{ess sup}|f| < \infty\}$ where
+$\|f\|_\infty = \mathrm{ess\,sup}|f|$.
+
+**Remark.** Elements of $L^p$ are equivalence classes of functions equal a.e. The norm $\|\cdot\|_p$
+is well-defined on equivalence classes.
+
+### 7.2 Holder"s Inequality
 
 **Theorem 7.1 (Holder's Inequality).** Let $1 \leq p, q \leq \infty$ with $1/p + 1/q = 1$. If
 $f \in L^p(\mu)$ and $g \in L^q(\mu)$, then $fg \in L^1(\mu)$ and

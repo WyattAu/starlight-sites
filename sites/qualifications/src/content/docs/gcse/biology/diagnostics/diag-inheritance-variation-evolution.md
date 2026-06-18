@@ -1,6 +1,112 @@
 ---
 title: "Inheritance, Variation and Evolution -- Diagnostic Tests"
-description: ""s other genes or on the ecosystem if genetically modified organisms escape. (2) **Gene
+description: "(a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two..."
+tableOfContents: false
+---
+
+# Inheritance, Variation and Evolution — Diagnostic Tests
+
+## Unit Tests
+
+### UT-1: DNA and Genetics
+
+**Question:** (a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes,
+and chromosomes. (c) In humans, the gene for earlobe attachment has two alleles: free earlobes (F,
+dominant) and attached earlobes (f, recessive). A heterozygous man and a woman with attached
+earlobes have a child. Calculate the probability that the child has free earlobes using a genetic
+cross diagram. (d) Explain what is meant by genotype and phenotype.
+
+**Solution:**
+
+(a) DNA (deoxyribonucleic acid) is a double helix structure made of two complementary strands. Each
+strand is a polymer of nucleotides, where each nucleotide consists of: a deoxyribose sugar, a
+phosphate group, and one of four bases: adenine (A), thymine (T), cytosine (C), or guanine (G). The
+two strands are held together by hydrogen bonds between complementary base pairs: A--T (two bonds)
+and C--G (three bonds). The sugar-phosphate backbone forms the outside of the helix.
+
+(b) A **chromosome** is a long coiled molecule of DNA found in the nucleus. A **gene** is a short
+section of DNA on a chromosome that codes for a specific protein (and therefore a specific
+characteristic). Each gene exists in different forms called **alleles**, which produce variations of
+the same characteristic. Humans have 23 pairs of chromosomes (46 total), containing approximately
+20,000 genes.
+
+(c) Man: Ff (heterozygous). Woman: ff (attached earlobes, must be homozygous recessive).
+
+Punnett square:
+
+|       | F   | f   |
+| ----- | --- | --- |
+| **f** | Ff  | ff  |
+| **f** | Ff  | ff  |
+
+Genotypes: 50% Ff (free earlobes), 50% ff (attached earlobes). Probability of free earlobes
+$= 50\%$.
+
+(d) **Genotype:** The combination of alleles an organism has for a particular gene (e.g., FF, Ff, or
+ff). **Phenotype:** The observable physical characteristic resulting from the genotype and
+environment (e.g., free earlobes or attached earlobes). The phenotype depends on which alleles are
+dominant/recessive and whether the genotype is homozygous or heterozygous.
+
+### UT-2: Natural Selection and Evolution
+
+**Question:** (a) Describe the process of natural selection. (b) Peppered moths exist in two forms:
+light (dominant) and dark (recessive). In a polluted forest, 80% of moths are dark. After pollution
+controls, only 20% are dark. Explain this change using natural selection. (c) Explain the difference
+between natural selection and selective breeding. (d) Describe how antibiotic resistance in bacteria
+arises and why it is a concern.
+
+**Solution:**
+
+(a) **Natural selection:** (1) Genetic variation exists within a population due to mutations and
+sexual reproduction. (2) Individuals with characteristics better suited to the environment have a
+survival advantage. (3) These individuals are more likely to survive, reproduce, and pass on their
+advantageous alleles. (4) Over many generations, the frequency of advantageous alleles increases in
+the population. (5) This leads to evolution -- a gradual change in the inherited characteristics of
+a population over time.
+
+(b) In the polluted forest: trees were darkened by soot. Light moths were more visible to predators
+(birds), while dark moths were camouflaged. Dark moths survived and reproduced more, passing on the
+dark allele. The dark form became more common (80%).
+
+After pollution controls: trees became lighter again. Now dark moths were more visible and light
+moths were camouflaged. Light moths had a survival advantage, and the light form became more common
+(80% light, 20% dark). The selection pressure reversed.
+
+(c) **Natural selection** occurs in nature without human intervention -- the environment selects for
+advantageous traits. **Selective breeding** (artificial selection) is when humans deliberately
+choose organisms with desirable characteristics to breed, increasing the frequency of those
+characteristics in the population (e.g., breeding crops for higher yield, dogs for specific traits).
+
+(d) Antibiotic resistance arises because: (1) Random mutations in bacterial DNA can produce alleles
+for resistance. (2) When antibiotics are used, susceptible bacteria are killed, but resistant
+bacteria survive. (3) Resistant bacteria reproduce rapidly (binary fission), passing on resistance
+alleles. (4) The resistant population grows, making the antibiotic ineffective. This is concerning
+because: resistant infections are harder to treat, leading to longer illnesses, higher mortality,
+and increased healthcare costs. Overuse of antibiotics accelerates this process.
+
+### UT-3: Genetic Engineering
+
+**Question:** (a) Describe the steps involved in genetic engineering to produce human insulin using
+bacteria. (b) Explain three advantages of producing human insulin by genetic engineering compared to
+extracting it from animals. (c) Describe two potential risks of genetic engineering. (d) Explain the
+difference between genetic engineering and gene therapy.
+
+**Solution:**
+
+(a) Steps: (1) The human gene for insulin production is identified. (2) A restriction enzyme cuts
+the insulin gene from human DNA. (3) The same enzyme cuts a bacterial plasmid, creating
+complementary sticky ends. (4) The insulin gene is inserted into the plasmid and joined by ligase
+enzyme (recombinant DNA). (5) The recombinant plasmid is inserted into a bacterial cell
+(transformation). (6) The bacteria are grown in a fermenter, where they reproduce rapidly, producing
+human insulin. (7) The insulin is extracted and purified.
+
+(b) Three advantages: (1) **Exact match:** Genetically engineered insulin is identical to human
+insulin, reducing the risk of allergic reactions compared to pig or cow insulin. (2) **Quantity:**
+Bacteria reproduce rapidly in fermenters, producing large quantities quickly and cheaply. (3)
+**Ethical:** No animals need to be slaughtered for extraction, reducing ethical concerns and costs.
+
+(c) Two risks: (1) **Unintended consequences:** The inserted gene might have unexpected effects on
+the organism"s other genes or on the ecosystem if genetically modified organisms escape. (2) **Gene
 transfer:** Modified genes could spread to wild populations through crossbreeding (e.g., herbicide
 resistance spreading to weeds). (3) **Ethical concerns:** Some people object to modifying the
 genetic code of organisms on principle.

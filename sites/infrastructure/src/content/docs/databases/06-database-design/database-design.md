@@ -1,6 +1,30 @@
 ---
 title: Database Design
-description: ""what are the top 10 queries this system will execute?"
+description: "Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping..."
+tags:
+  - Databases
+categories:
+  - Databases
+---
+
+## The Design Process
+
+Database design is not a one-step activity. It is a disciplined process that moves from abstract
+Requirements to concrete physical implementation. Skipping steps leads to schemas that cannot
+Evolve, queries that cannot perform, and data that cannot be trusted.
+
+### Phase 1: Requirements Analysis
+
+Before writing a single CREATE TABLE, you must understand:
+
+1. **Data requirements:** what data will be stored, what are the entities and their attributes, what
+   are the relationships, what are the constraints
+2. **Functional requirements:** what queries will the application execute, how frequently, what is
+   the expected latency, what is the tolerance for stale data
+3. **Non-functional requirements:** expected data volume, growth rate, read/write ratio, RTO/RPO
+   (recovery time/recovery point objectives), compliance requirements
+4. **Access patterns:** who reads what, when, and how often. The most important question in database
+   design is: "what are the top 10 queries this system will execute?"
 
 ### Phase 2: Conceptual Design
 

@@ -1,6 +1,75 @@
 ---
 title: Distributed Systems
-description: ""eventually" takes.
+description: "A distributed system can guarantee at most of the following three properties sim Comprehensive educational content coverage with definitions and practice proble"
+date: 2026-05-31T00:00:00.000Z
+tags:
+  - Computer Science
+  - University
+categories:
+  - Computer Science
+---
+
+## 1. CAP Theorem
+
+### 1.1 Definition
+
+A distributed system can guarantee at most **two** of the following three properties simultaneously:
+
+| Property                | Definition                                  |
+| ----------------------- | ------------------------------------------- |
+| **Consistency**         | Every read receives the most recent write   |
+| **Availability**        | Every request receives a non-error response |
+| **Partition tolerance** | System operates despite network partitions  |
+
+**Since network partitions are inevitable in practice, the real choice is between C and A during a
+partition.**
+
+### 1.2 CP vs AP Systems
+
+| Type | Consistency   | Availability          | Partition | Examples                  |
+| ---- | ------------- | --------------------- | --------- | ------------------------- |
+| CP   | Yes           | No (during partition) | Yes       | HBase, MongoDB, ZooKeeper |
+| AP   | No (eventual) | Yes                   | Yes       | Cassandra, DynamoDB, Riak |
+
+### 1.3 PACELC Theorem
+
+An extension of CAP: If there is a **P**artition, choose **A**vailability or **C**onsistency;
+**E**lse, choose **L**atency or **C**onsistency.
+
+$$\text{PC/EC} \text{ (consistency first)} \quad \text{vs.} \quad \text{PA/EA} \text{ (availability/latency first)}$$
+
+## 2. Consistency Models
+
+### 2.1 Linearizability (Strong Consistency)
+
+Every operation appears to execute atomically at a single point in time. The result is equivalent to
+executing operations on a single copy in real-time order.
+
+$$\text{If } o_1 \text{ completes before } o_2 \text{ starts, then } o_1 \text{ appears before } o_2$$
+
+**Cost:** Requires coordination on every write → higher latency.
+
+### 2.2 Sequential Consistency
+
+All operations appear in some total order consistent with program order of each process. Less strict
+than linearizability (operations can appear to execute at non-real times).
+
+$$\text{Program order preserved per process; total order exists across processes}$$
+
+### 2.3 Causal Consistency
+
+Operations that are **causally related** must be seen by all processes in the same order. Concurrent
+(non-causal) operations may be seen in different orders.
+
+```
+Process A: write(x=1) → write(y=2)  // write(x) causally precedes write(y)
+Process B: read(x) must see x=1 before (or same time as) y=2
+```
+
+### 2.4 Eventual Consistency
+
+If no new updates are made, eventually all reads return the last written value. No guarantee on how
+long "eventually" takes.
 
 **Variants:**
 

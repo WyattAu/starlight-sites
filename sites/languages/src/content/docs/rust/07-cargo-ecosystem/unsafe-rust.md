@@ -1,6 +1,20 @@
 ---
 title: Unsafe Rust
-description: ""s safety guarantees — it
+description: "The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem"
+
+---
+
+## What `unsafe` Enables
+
+The `unsafe` keyword grants access to five capabilities that the compiler cannot verify:
+
+1. **Dereference raw pointers** — `*const T` and `*mut T`
+2. **Call unsafe functions** — `fn foo() { unsafe { ... } }`
+3. **Access mutable statics** — `static mut X: i32`
+4. **Implement unsafe traits** — `unsafe impl Send for T {}`
+5. **Access union fields** — unions require unsafe for field access
+
+`unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees — it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
 All invariants manually.
 

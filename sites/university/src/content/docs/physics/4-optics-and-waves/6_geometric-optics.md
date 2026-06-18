@@ -3,7 +3,15 @@ title: Geometric Optics
 tags:
   - Physics
   - University
-description: ""s Law:** $n_1 \sin\theta_1 = n_2 \sin\theta_2$.
+description: "The angle of incidence equals the angle of reflection: (both measured from the n Comprehensive educational content coverage with definitions and practice proble"
+---
+
+### 6.1 Reflection and Refraction
+
+**Law of Reflection:** The angle of incidence equals the angle of reflection: $\theta_i = \theta_r$
+(both measured from the normal).
+
+**Snell"s Law:** $n_1 \sin\theta_1 = n_2 \sin\theta_2$.
 
 **Derivation of Snell's law from Fermat’s principle.** The optical path length from point $A$ in
 Medium 1 to point $B$ in medium 2 via a point on the interface at $x$ is:

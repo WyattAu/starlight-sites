@@ -1,6 +1,49 @@
 ---
 title: Databases
-description: ""t just read it. Write queries against sample databases and verify
+description: "A-Level Computer Science Databases notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
+---
+
+# Databases
+
+Databases provide structured, persistent storage that enables efficient querying, updating, and
+management of data. A-Level focuses on the **relational model**, where data is organised into tables
+with defined relationships, and on **SQL** as the language for manipulating that data.
+
+## Topics Covered
+
+### Relational Databases
+
+- **Entities, attributes, and relationships** — the conceptual model
+- **Tables, rows (tuples), columns (attributes)** — the relational implementation
+- **Primary keys, foreign keys, and composite keys** — enforcing identity and relationships
+- **Referential integrity** — ensuring consistency across related tables
+
+### Normalisation
+
+- **1NF, 2NF, 3NF** — step-by-step normalisation process to eliminate redundancy
+- **Functional dependencies** — identifying which attributes determine others
+- **Anomalies** — insertion, update, and deletion anomalies caused by poor design
+- **Entity-Relationship diagrams** — modelling before implementation
+
+### SQL
+
+- **DDL (Data Definition Language)** — `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` with constraints
+  (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`)
+- **DML (Data Manipulation Language)** — `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- **Queries** — `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, aggregate functions (`COUNT`, `SUM`,
+  `AVG`, `MIN`, `MAX`)
+- **Joins** — `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`; understanding what rows each returns
+- **Subqueries** — nested `SELECT` statements
+
+### Transaction Processing
+
+- **ACID properties** — Atomicity, Consistency, Isolation, Durability
+- **Concurrency** — why simultaneous access causes problems (lost updates, dirty reads)
+- **Locking and serialisation** — preventing concurrency issues
+
+## Study Tips
+
+1. **Practise writing SQL** — don"t just read it. Write queries against sample databases and verify
    your results.
 2. **Normalise step by step** — exam questions often give an unnormalised table and ask you to
    normalise to 3NF. Work through 1NF $\rightarrow$ 2NF $\rightarrow$ 3NF explicitly.

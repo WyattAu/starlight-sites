@@ -1,6 +1,58 @@
 ---
 title: Iterator-Sentinel Model
-description: "" ";
+description: "C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A..."
+date: 2026-04-03T00:00:00.000Z
+tags:
+  - Cpp
+categories:
+  - Cpp
+
+---
+
+## The Iterator-Sentinel Model
+
+C++20 fundamentally restructured the standard library around **ranges and views**, introducing the
+Iterator-sentinel model as the primary abstraction for sequence traversal. A range is anything with
+`begin()` and `end()`And a sentinel is the endpoint of a range that is not necessarily an iterator
+Itself. This section covers the iterator-sentinel distinction, `std::ranges::begin`/`end`Standard
+Sentinel types, and custom sentinel implementations.
+
+### Iterators and Sentinels in C++20
+
+C++20 fundamentally restructured the standard library around **ranges and views**, introducing the
+Iterator-sentinel model as the primary abstraction for sequence traversal [N4950 §25.3]. A **range**
+Is anything you can call `begin()` and `end()` on [N4950 §25.3.5]. A **sentinel** is the endpoint of
+A range that is not necessarily an iterator.
+
+The key distinction from the traditional iterator-pair model:
+
+- **Traditional (C++17)**: A range is defined by a pair of iterators `[begin, end)`Both of the same
+  type `I`.
+- **C++20**: A range is defined by an iterator `begin` and a sentinel `end`Potentially of different
+  types `I` and `S` where `std::sentinel_for&lt;S, I>` holds [N4950 §25.3.5.2].
+
+The `std::sentinel_for` concept requires [N4950 §25.3.5.2]:
+
+$$
+\mathrm{sentinel\_for(S, I) \iff \mathrm{input\_iterator(I) \land \mathrm{semiregular(S) \land \mathrm{weakly\_equality\_comparable\_with(S, I)
+$$
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <ranges>
+#include <concepts>
+
+int main() {
+    std::vector<int> v = {1, 2, 3, 4, 5};
+
+    // std::ranges::begin / std::ranges::end [N4950 §25.3.6]
+    auto it = std::ranges::begin(v);
+    auto sent = std::ranges::end(v);
+
+    // Both iterators and sentinels support comparison
+    while (it != sent) {
+        std::cout << *it << " ";
         ++it;
     }
     std::cout << "\n";

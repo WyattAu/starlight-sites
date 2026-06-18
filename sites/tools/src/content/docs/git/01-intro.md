@@ -1,6 +1,21 @@
 ---
 title: Introduction to Git
-description: ""server" and a
+description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a..."
+date: 2025-06-02T21:50:00.000Z
+tags:
+  - git
+  - vcs
+categories:
+  - CS
+
+---
+
+## What is Git
+
+Git is a **distributed version control system** (DVCS) designed to track changes in source code
+During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a
+Single server holds the authoritative repository — Git treats every clone as a **fully-fledged
+Repository** with complete history. There is no intrinsic distinction between a "server" and a
 "client"; the difference is purely social (who pushes where).
 
 Git was created by Linus Torvalds in 2005 to manage the Linux kernel source tree after the

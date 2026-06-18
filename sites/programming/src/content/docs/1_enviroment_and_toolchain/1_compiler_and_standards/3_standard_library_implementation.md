@@ -1,6 +1,30 @@
 ---
 title: Standard Library Implementation
-description: ""Dual ABI" system to support legacy C++ standards alongside modern ones.
+description: "In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers Like ) are distinct entities. While the ISO C++..."
+date: 2025-12-10T04:57:07.543Z
+tags:
+  - cpp
+categories:
+  - cpp
+
+---
+
+In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers
+Like `<vector>``<iostream>`) are distinct entities. While the ISO C++ standard defines the
+_interface_ and _behavior_ of the library, the actual code is provided by a specific **Standard
+Library Implementation**.
+
+## The Major Implementations
+
+There are three primary implementations of the C++ Standard Library currently in production use.
+
+### 1. Libstdc++ (The GNU Standard C++ Library)
+
+- **Maintainer:** Free Software Foundation (GCC Project).
+- **Architecture:**
+- Historically prioritizes extreme ABI stability.
+- Tightly coupled with GCC but usable by Clang.
+- Implements a "Dual ABI" system to support legacy C++ standards alongside modern ones.
 - **License:** GPL v3 with runtime exception.
 
 ### 2. Libc++ ( The LLVM C++ Standard Library)
