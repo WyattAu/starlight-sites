@@ -5,9 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description:
-  Go's math package for numerical operations, sort package for sorting slices and custom
-  comparators, and log/slog for structured logging in Go 1.21+.
+description: 'The package provides basic constants and mathematical functions for floating-poi Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ## The math Package

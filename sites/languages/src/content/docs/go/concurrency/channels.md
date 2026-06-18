@@ -1,8 +1,6 @@
 ---
 title: Channels and Concurrency Patterns
-description:
-  'Go Channels and Concurrency Patterns notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused preparation.'
+description: 'Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered Channels allow the sender to proceed up to the buffer...'
 date: 2026-04-18
 tags:
   - Go

@@ -3,6 +3,7 @@ title: Transport Properties
 tags:
   - Physics
   - University
+description: 'The treats conduction electrons as a classical gas scattering off ions with a me Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 8.1 Electrical Conductivity: Drude Model

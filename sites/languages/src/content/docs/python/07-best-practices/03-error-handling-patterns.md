@@ -1,8 +1,6 @@
 ---
 title: Error Handling Patterns
-description:
-  'Python Error Handling Patterns notes covering key definitions, core concepts, worked examples,
-  and practice questions for structured preparation.'
+description: 'Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers.'
 
 ---
 

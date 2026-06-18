@@ -1,8 +1,6 @@
 ---
 title: Introduction to Algorithms
-description:
-  'Algorithms Introduction to Algorithms notes covering key definitions, core concepts, worked
-  examples, and practice questions for practical revision.'
+description: 'An algorithm is a finite sequence of well-defined instructions that takes an input and produces an Output. This definition is deceptively simple. In...'
 
 ---
 
@@ -111,3 +109,5 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
+
+:::

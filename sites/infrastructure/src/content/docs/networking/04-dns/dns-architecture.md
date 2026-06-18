@@ -1,8 +1,6 @@
 ---
 title: DNS Architecture and Operations
-description:
-  'DNS Architecture and Operations notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective preparation.'
+description: 'DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive...'
 tags:
   - Networking
 categories:
@@ -114,7 +112,6 @@ If you decrease the serial number, slaves will not transfer the new zone (their 
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
 Than the current value on all slaves.
 
-:::
 
 ### Zone Transfers
 
@@ -303,13 +300,13 @@ Entire zone by following NSEC chains). NSEC is simpler and more efficient.
 **NSEC3** uses hashed names instead of plaintext names. The resolver cannot enumerate the zone
 Because the names are hashed. NSEC3 is recommended for zones that want to prevent zone enumeration.
 
+:::
 :::info
 
 NSEC3 zone enumeration resistance is not absolute. An attacker with sufficient resources can
 Brute-force the hashes for common names. NSEC3 with opt-out (unsigned delegations are not covered)
 Provides weaker security but better performance for large zones.
 
-:::
 
 ## Anycast DNS
 
@@ -641,13 +638,13 @@ Mitigations:
 - **0x20 encoding:** Randomize the case of the query name. The response must match the case, making
   forgery harder.
 
+:::
 :::caution
 
 DNS cache poisoning was dramatically demonstrated by the Kaminsky attack (2008). Before source port
 Randomization was widely deployed, an attacker could poison any resolver within seconds. All modern
 Resolvers implement source port randomization and DNSSEC validation.
 
-:::
 
 ## Common Pitfalls
 
@@ -738,6 +735,7 @@ kdig @https://dns.google example.com +https
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
 
+:::
 :::caution
 
 DoH is controversial in enterprise environments because it bypasses corporate DNS resolvers and
@@ -745,7 +743,6 @@ Content filtering. Users can configure their browsers to use an external DoH res
 `dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
 Enterprises block DoH at the firewall to maintain control.
 
-:::
 
 ## DNS Performance Tuning
 
@@ -801,6 +798,7 @@ Client's location, not the resolver's location.
 dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 ```
 
+:::
 :::caution
 
 ECS trades privacy for performance. The authoritative server learns the client's subnet.
@@ -866,5 +864,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

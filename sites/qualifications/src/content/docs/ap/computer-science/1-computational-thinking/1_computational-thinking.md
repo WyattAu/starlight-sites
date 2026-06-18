@@ -1,8 +1,6 @@
 ---
 title: Computational Thinking
-description:
-  'Qualifications Computer Science Computational Thinking notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing...'
 date: 2026-04-14
 tags:
   - ap
@@ -149,7 +147,6 @@ The caller uses `getArea()` and `getPerimeter()` without knowing that `width` an
 Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
 Corners) without affecting any code that uses this class.
 
-:::
 
 ### Information Hiding
 
@@ -297,8 +294,8 @@ Examined so far." Initially, max = list[1], the largest of the first element. Wh
 compared, if it is larger, max is updated; otherwise, max remains the largest. By induction, After
 all elements are examined, max is the largest in the entire list. $\blacksquare$
 
-:::
 
+:::
 :::info[Example: Finding the Second Largest]
 
 ```
@@ -336,8 +333,8 @@ PROCEDURE findSecondLargest(list)
 
 **Time complexity:** $O(n)$ -- single pass through the list.
 
-:::
 
+:::
 :::info[Example: Linear Search (AP CSP)]
 
 ```
@@ -357,8 +354,8 @@ PROCEDURE linearSearch(list, target)
 Note: AP CSP pseudocode returns 0 (not -1) to indicate "not found", because index 0 is not a valid
 Position in 1-based indexing.
 
-:::
 
+:::
 :::info[Example: Binary Search (AP CSP)]
 
 ```
@@ -392,8 +389,8 @@ PROCEDURE binarySearch(list, target)
 **Complexity analysis.** Each iteration halves the search space, so the maximum number of iterations
 Is $\lceil \log_2 n \rceil$. Time complexity: $O(\log n)$.
 
-:::
 
+:::
 :::info[Example: Counting Occurrences]
 
 ```
@@ -413,8 +410,8 @@ PROCEDURE countOccurrences(list, value)
 
 **Time complexity:** $O(n)$ -- examines each element once.
 
-:::
 
+:::
 :::info[Example: Reversing a List]
 
 ```
@@ -1054,5 +1051,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

@@ -3,6 +3,7 @@ title: Series
 tags:
   - Mathematics
   - University
+description: 'A converges if the sequence of partial sums Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 3.1 Definitions and Convergence

@@ -1,8 +1,6 @@
 ---
 title: A Level Mathematics Diagnostic Test
-description:
-  'A-Level Maths A Level Mathematics Diagnostic Test notes covering key definitions, core concepts,
-  worked examples, and practice questions for study and revision.'
+description: 'This diagnostic test contains spanning all A Level Mathematics topics. Each Question tests a specific concept and requires 2-5 steps. Attempt all questions...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

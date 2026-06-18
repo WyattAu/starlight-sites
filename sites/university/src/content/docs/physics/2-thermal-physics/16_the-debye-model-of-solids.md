@@ -3,6 +3,7 @@ title: The Debye Model of Solids
 tags:
   - Physics
   - University
+description: 'The treats all atoms as independent quantum oscillators with the same frequency Comprehensive educational content coverage with definitions and practice problem'
 ---
 
 ### 16.1 From Einstein to Debye

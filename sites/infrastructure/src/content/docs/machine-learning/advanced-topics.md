@@ -5,9 +5,7 @@ tags:
   - Machine Learning
 categories:
   - Machine Learning
-description:
-  'Advanced machine learning topics: transformers and attention mechanisms, generative adversarial
-  networks, variational autoencoders, reinforcement learning,.'
+description: 'Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively...'
 ---
 
 ## Attention Mechanisms and Transformers

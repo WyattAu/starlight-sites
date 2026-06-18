@@ -3,6 +3,7 @@ title: Newtonian Mechanics Review
 tags:
   - Physics
   - University
+description: '1. A body remains at rest or in uniform motion unless acted upon by a net force. 2. where . 3. For every action, there is an equal and opposite reaction.'
 ---
 
 ### 1.1 Newton's Laws

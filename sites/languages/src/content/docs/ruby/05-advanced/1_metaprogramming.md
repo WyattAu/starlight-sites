@@ -1,8 +1,6 @@
 ---
 title: Metaprogramming
-description:
-  'Ruby metaprogramming with open classes, method_missing, define_method, eval, binding, send,
-  class_eval, instance_eval, refinements, method aliases, and method introspection.'
+description: 'Metaprogramming is writing code that writes, modifies, or inspects code at runtime. Ruby is exceptionally well-suited for metaprogramming because:'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

@@ -1,8 +1,6 @@
 ---
 title: Introduction to Licensing
-description:
-  'Licensing Introduction to Licensing notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the...'
 
 ---
 

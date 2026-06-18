@@ -1,8 +1,6 @@
 ---
 title: Energy and Work
-description:
-  'A-Level Maths Energy and Work notes covering key definitions, core concepts, worked examples, and
-  practice questions for efficient study and thorough revision.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -615,7 +613,6 @@ Section 5.4.
 
 </details>
 
-:::
 
 ---
 

@@ -65,7 +65,6 @@ $$
 Find $k$ from experiment 1:
 $0.0020 = k(0.10)(0.10)^2 \implies k = 2.0 \mathrm{ M^{-2}\mathrm{s^{-1}$.
 
-:::
 
 ### Worked Example: Rate Law Determination
 
@@ -130,6 +129,7 @@ $$
 | First  | $\ln[\mathrm{A]$ vs $t$ | $-k$  |
 | Second | $1/[\mathrm{A]$ vs $t$  | $k$   |
 
+:::
 :::info[Example]
 
 The decomposition of $\mathrm{N_2\mathrm{O_5$ is first order with
@@ -154,7 +154,6 @@ $$
 T = \frac{-1.610}{-5.0 \times 10^{-4}} = 3220 \mathrm{ s \approx 53.7 \mathrm{ min
 $$
 
-:::
 
 ### Worked Example: Half-Life Calculation
 
@@ -192,6 +191,7 @@ The slowest step in the mechanism determines the overall rate law.
 3. If a fast equilibrium precedes the slow step, use the equilibrium approximation to express
    intermediates in terms of reactants.
 
+:::
 :::info[Example]
 
 The reaction $2\mathrm{NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$ has the experimental rate Law
@@ -208,7 +208,6 @@ Experimental rate law, so the mechanism is plausible.
 
 Sum: $2\mathrm{NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$.
 
-:::
 
 ### Worked Example: Mechanism with Fast Equilibrium
 
@@ -260,6 +259,7 @@ Constant $k$ but is not consumed in the reaction.
 - **Homogeneous catalyst:** same phase as the reactants.
 - **Heterogeneous catalyst:** different phase ( a solid surface).
 
+:::
 :::info[Example]
 
 A reaction has $k = 3.0 \times 10^{-3} \mathrm{ s^{-1}$ at $300 \mathrm{ K$ and
@@ -281,7 +281,6 @@ $$
 E_a = \frac{2.079}{4.762 \times 10^{-4}} \times 8.314 = 36300 \mathrm{ J/mol = 36.3 \mathrm{ kJ/mol
 $$
 
-:::
 
 ### Worked Example: Effect of a Catalyst
 
@@ -328,6 +327,7 @@ Where $\Delta n = (\mathrm{moles gaseous products) - (\mathrm{moles gaseous reac
 Pure solids and pure liquids are not included in the equilibrium expression because their activities
 Are constant (equal to 1).
 
+:::
 :::info[Example]
 
 Write the equilibrium expression for:
@@ -342,7 +342,6 @@ $$
 
 Only $\mathrm{CO_2$ appears because solids are omitted.
 
-:::
 
 ## The Reaction Quotient ($Q$)
 
@@ -377,6 +376,7 @@ If a stress is applied to a system at equilibrium, the system shifts to countera
 
 **Key point:** Only temperature changes affect the value of $K$.
 
+:::
 :::info[Example]
 
 For the endothermic reaction $\mathrm{N_2\mathrm{O_4(g) \rightleftharpoons 2\mathrm{NO_2(g)$ Predict
@@ -386,12 +386,12 @@ the effect of:
 - Increasing pressure (decreasing volume): shifts left (fewer gas moles, 1 vs 2).
 - Adding a catalyst: no shift, but equilibrium is reached faster.
 
-:::
 
 ## ICE Tables (CED Unit 7)
 
 ICE (Initial, Change, Equilibrium) tables organize the calculation of equilibrium concentrations.
 
+:::
 :::info[Example]
 
 For $\mathrm{H_2(g) + \mathrm{I_2(g) \rightleftharpoons 2\mathrm{HI(g)$ with $K_c = 50.5$ at
@@ -422,7 +422,6 @@ $$
 [\mathrm{HI] = 2(0.781) = 1.56 \mathrm{ M
 $$
 
-:::
 
 ### Worked Example: ICE Table with Quadratic
 
@@ -483,6 +482,7 @@ Compare $Q_{sp}$ with $K_{sp}$:
 - $Q_{sp} = K_{sp}$: saturated, at equilibrium
 - $Q_{sp} \gt K_{sp}$: precipitate forms
 
+:::
 :::info[Example]
 
 Will a precipitate form when $50.0 \mathrm{ mL$ of $0.0010 \mathrm{ M  \mathrm{Pb(NO_3)_2$ is Mixed
@@ -499,7 +499,6 @@ $$
 
 Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$No precipitate forms.
 
-:::
 
 ### Worked Example: $K_{sp}$ Calculation from Solubility
 
@@ -893,3 +892,5 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
+
+:::

@@ -3,6 +3,7 @@ title: Fermi Gas at Finite Temperature
 tags:
   - Physics
   - University
+description: 'At finite temperature, the Fermi-Dirac distribution "smears out" the step functi Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 4.1 Sommerfeld Expansion

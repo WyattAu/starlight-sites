@@ -1,8 +1,6 @@
 ---
 title: Geometry
-description:
-  'GCSE Maths Geometry notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical study and thorough revision.'
+description: '| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Geometry
 
-:::info Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR Paper 2 & 3 | WJEC Unit 2
-:::
+> **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR Paper 2 & 3 | WJEC Unit 2
 ## 1. Angle Properties
 
 ### 1.1 Basic Angle Facts

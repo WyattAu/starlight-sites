@@ -1,8 +1,6 @@
 ---
 title: Classes
-description:
-  'Typescript Classes notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured study and examination practice.'
+description: 'A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be...'
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

@@ -1,8 +1,6 @@
 ---
 title: Streams API
-description:
-  'Java Streams API notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic exam preparation and revision.'
+description: 'A is an in-memory data structure that holds elements. A is a sequence of elements supporting sequential and parallel aggregate operations computed on demand...'
 date: 2025-06-05T14:00:00.000Z
 tags: ['java']
 categories: ['java']
@@ -1024,7 +1022,6 @@ if (opt.isPresent()) {
 opt.ifPresent(value -> System.out.println("Value: " + value));
 ```
 
-:::
 :::caution Avoid the `isPresent()` + `get()` pattern. It is functionally equivalent to a null check
 (`if (x != null) { x.foo() }`) and negates the purpose of `Optional`. Prefer
 `ifPresent()``map()``flatMap()``filter()`Or the `orElse*` family.

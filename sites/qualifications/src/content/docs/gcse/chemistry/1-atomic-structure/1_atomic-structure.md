@@ -1,8 +1,6 @@
 ---
 title: Atomic Structure
-description:
-  'GCSE Chemistry Atomic Structure notes covering key definitions, core concepts, worked examples,
-  and practice questions for solid review and exam preparation.'
+description: 'Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom Consists of three subatomic particles:'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Atomic Structure
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C1 | WJEC C1
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C1 | WJEC C1
 ## 1. The Atom
 
 ### 1.1 Subatomic Particles

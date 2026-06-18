@@ -1,8 +1,6 @@
 ---
 title: Access Control and Friendship
-description:
-  'C++ Programming Access Control and Friendship notes covering key definitions, core concepts,
-  worked examples, and practice questions for structured preparation.'
+description: 'C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

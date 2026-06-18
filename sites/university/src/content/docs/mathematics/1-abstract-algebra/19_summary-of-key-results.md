@@ -3,6 +3,7 @@ title: Summary of Key Results
 tags:
   - Mathematics
   - University
+description: 'The following table provides a quick reference for the major theorems and their  Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 The following table provides a quick reference for the major theorems and their locations in this

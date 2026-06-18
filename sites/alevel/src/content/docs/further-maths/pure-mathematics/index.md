@@ -97,3 +97,43 @@ engineering, physics, and computer science.
 Follow the sidebar order. Each page provides rigorous definitions, proofs, worked examples, and
 exam-style problems. Complex numbers and matrices are foundational — master them before moving to
 calculus and differential equations.
+
+## Overview
+
+This section provides comprehensive A-Level Further Maths content for Pure Mathematics, covering all specification points with detailed explanations, worked examples, and practice questions.
+
+## Content Structure
+
+Each page in this section includes:
+
+- **Definitions**: Clear, precise explanations of key concepts
+- **Worked Examples**: Step-by-step solutions with annotations
+- **Practice Questions**: Multiple-choice and structured questions with mark schemes
+- **Common Pitfalls**: Errors to avoid and how to fix them
+- **Exam Tips**: Strategies for maximising marks in this topic
+
+## How to Use These Notes
+
+1. Read the introductory page to understand the topic overview
+2. Work through each sub-topic in order
+3. Attempt the practice questions before checking solutions
+4. Use the flashcards to revise key terminology
+5. Complete the diagnostic test to identify remaining gaps
+
+## Key Topics
+
+- Core definitions and principles
+- Application to examination-style questions
+- Links to related topics across the specification
+- Assessment objective alignment (AO1, AO2, AO3)
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself regularly rather than re-reading notes
+- **Spaced Practice**: Revisit this topic at increasing intervals
+- **Interleaving**: Mix with other topics during revision sessions
+- **Elaboration**: Explain concepts in your own words
+
+## Exam Preparation
+
+Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.

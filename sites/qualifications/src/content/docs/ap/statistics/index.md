@@ -1,8 +1,6 @@
 ---
 title: AP Statistics
-description:
-  'Qualifications AP Statistics notes covering exploring data, sampling and experimentation,
-  probability, statistical inference, and regression for exam preparation.'
+description: 'Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap

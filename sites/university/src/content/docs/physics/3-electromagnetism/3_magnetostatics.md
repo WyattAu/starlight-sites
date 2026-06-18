@@ -3,6 +3,7 @@ title: Magnetostatics
 tags:
   - Physics
   - University
+description: 'The magnetic field due to a steady current in a wire element : Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 3.1 The Biot-Savart Law

@@ -1,8 +1,6 @@
 ---
 title: Sampling and Experimentation
-description:
-  'AP Statistics sampling and experimentation notes covering sampling methods, experimental design,
-  bias, and the distinction between observational studies and experiments.'
+description: '- : The entire group of individuals about which we want information - : A subset of the population that is actually studied - : A study that collects data...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

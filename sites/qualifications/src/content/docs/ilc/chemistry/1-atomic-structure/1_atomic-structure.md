@@ -1,8 +1,6 @@
 ---
 title: Atomic Structure
-description:
-  'ILC Chemistry Atomic Structure notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam readiness.'
+description: 'Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends.'
 date: 2026-04-14
 tags:
   - ilc

@@ -2,9 +2,7 @@
 title: English
 tags:
   - english
-description:
-  'IB English notes covering key definitions, core concepts, worked examples, and practice questions
-  for rigorous learning and effective revision.'
+description: 'IB English A: Language and Literature is a two-year course that develops critical literacy through The study of both literary and non-literary texts. The...'
 ---
 
 ## IB English A: Language and Literature -- Course Overview

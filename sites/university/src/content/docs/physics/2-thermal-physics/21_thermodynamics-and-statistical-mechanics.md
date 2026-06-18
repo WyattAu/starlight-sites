@@ -1,8 +1,6 @@
 ---
 title: Thermodynamics and Statistical Mechanics
-description:
-  'University Physics Thermodynamics and Statistical Mechanics notes covering key definitions, core
-  concepts, worked practice questions for practical revision.'
+description: 'If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with .'
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Physics

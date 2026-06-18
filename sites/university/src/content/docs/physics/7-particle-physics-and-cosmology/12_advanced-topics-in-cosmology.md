@@ -3,6 +3,7 @@ title: Advanced Topics in Cosmology
 tags:
   - Physics
   - University
+description: 'The describes the temperature anisotropy of the CMB caused by gravitational potential fluctuations at the surface of last scattering:'
 ---
 
 ### 12.1 The Sachs--Wolfe Effect

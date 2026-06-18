@@ -1,8 +1,6 @@
 ---
 title: Software Development Lifecycle
-description:
-  'A-Level Computer Science Software Development Lifecycle notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'The is a structured framework describing the phases Involved in developing software, from initial conception through to deployment and maintenance.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -704,7 +702,6 @@ Date.
 
 </details>
 
-:::
 
 ## Summary
 

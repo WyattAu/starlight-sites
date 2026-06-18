@@ -3,6 +3,7 @@ title: The Ising Model
 tags:
   - Physics
   - University
+description: 'The is the simplest model of a phase transition. On a lattice of sites, each site has a spin variable . The Hamiltonian is'
 ---
 
 ### 6.1 Definition

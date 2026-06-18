@@ -1,8 +1,6 @@
 ---
 title: Error Handling
-description:
-  'Typescript Error Handling notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision and exam readiness.'
+description: 'The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a...'
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

@@ -1,9 +1,7 @@
 ---
 title: Irish Leaving Certificate
 date: 2026-04-14
-description:
-  'ILC Intro.Md Irish Leaving Certificate notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed revision.'
+description: 'The (Leaving Cert or LC) is the final examination of the Irish Secondary school system, administered by the (SEC). It is taken by students aged 16 to 19...'
 tags:
   - ILC
   - Introduction

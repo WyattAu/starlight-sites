@@ -1,8 +1,6 @@
 ---
 title: Lambda Expressions — Capture Layouts and Closure Types
-description:
-  'C++ Programming Lambda Expressions — Capture Layouts and notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -668,7 +666,6 @@ struct Handler {
 };
 ```
 
-:::
 
 ## Summary
 

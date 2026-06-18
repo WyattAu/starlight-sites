@@ -1,8 +1,6 @@
 ---
 title: Web Security
-description:
-  'Web Security notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical exam preparation and mastery.'
+description: 'The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and...'
 
 ---
 
@@ -173,7 +171,6 @@ fetch('https://api.example.com/transfer', {
 If your API uses `Authorization: Bearer` headers (not cookies), it is inherently protected from CSRF
 Because the browser does not automatically attach custom headers to cross-origin requests.
 
-:::
 
 ## SQL Injection
 
@@ -358,13 +355,13 @@ const nonce = crypto.randomBytes(16).toString('base64');
 // </script>
 ```
 
+:::
 :::caution
 
 Never use `'unsafe-inline'` in `script-src` if you can avoid it — it completely defeats XSS
 Protection. Use nonces or hashes for inline scripts, and move JavaScript to external files.
 `'unsafe-eval'` is equally dangerous and should also be avoided.
 
-:::
 
 ## Clickjacking
 
@@ -486,13 +483,13 @@ def is_safe_url(url):
     return parsed.hostname in ALLOWED_HOSTS
 ```
 
+:::
 :::caution
 
 URL parsing is tricky. Attackers bypass filters using URL encoding
 (`http://%31%32%37%2e%30%2e%30%2e%31/`), DNS rebinding (resolves to internal IP on second lookup),
 And redirect chains. Validate after DNS resolution, not before.
 
-:::
 
 ## Prototype Pollution
 
@@ -797,13 +794,13 @@ curl -sI https://example.com | grep -iE \
   "strict-transport|content-security|x-frame|x-content-type|referrer-policy|permissions-policy"
 ```
 
+:::
 :::info
 
 **Reference Standards**: OWASP Top 10 (2021), OWASP Testing Guide v4, OWASP Cheat Sheet Series, CSP
 Level 3 (W3C Recommendation), CORS (W3C Recommendation), RFC 6265 (HTTP Cookies), RFC 7231 (HTTP/1.1
 Semantics), RFC 9110 (HTTP Semantics).
 
-:::
 
 ## Summary
 
@@ -826,3 +823,5 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

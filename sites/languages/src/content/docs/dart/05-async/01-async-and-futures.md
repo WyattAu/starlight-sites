@@ -1,8 +1,6 @@
 ---
 title: Async and Futures
-description:
-  'Dart Async and Futures notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted exam preparation and revision.'
+description: 'Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses — the single thread processes Events from a queue,...'
 date: 2025-07-20T11:00:00.000Z
 tags:
   - dart
@@ -178,7 +176,6 @@ Future<void> parallelNamed() async {
 Use `Future.wait` for independent async operations that can run concurrently. Use sequential `await`
 For dependent operations where the result of one is needed by the next.
 
-:::
 
 ## Streams
 
@@ -341,13 +338,13 @@ Flutter provides `compute()` for running functions in isolates:
 final result = await compute(expensiveFunction, inputData);
 ```
 
+:::
 :::caution
 
 Isolates are **not threads**. They do not share memory. Data must be serialized (copied) when sent
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership
 Instead of copying.
 
-:::
 
 ## Event Loop Priority
 
@@ -380,6 +377,7 @@ void main() {
 }
 ```
 
+:::
 :::info
 
 Microtasks run before the event loop processes the next event. All microtasks complete before any
@@ -462,5 +460,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

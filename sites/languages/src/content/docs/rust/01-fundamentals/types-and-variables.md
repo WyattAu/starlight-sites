@@ -1,8 +1,6 @@
 ---
 title: Types and Variables
-description:
-  'Rust Types and Variables notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive exam preparation and mastery.'
+description: 'Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus Platform-dependent and :'
 
 ---
 
@@ -111,7 +109,6 @@ Floating-point types do not implement `Eq` or `Ord` because IEEE 754 semantics m
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
 You need a total ordering for sorting.
 
-:::
 
 ```rust
 let values = [f64::NAN, 1.0, 2.0, f64::INFINITY];
@@ -146,6 +143,7 @@ let unicode: char = '\u{1F980}';
 assert_eq!(std::mem::size_of::<char>(), 4);
 ```
 
+:::
 :::info
 
 A `char` is not a "character" in the text-processing sense. A single user-perceived grapheme cluster
@@ -153,7 +151,6 @@ A `char` is not a "character" in the text-processing sense. A single user-percei
 Multiple `char` values. For text processing, work with `&str` slices and the `unicode-segmentation`
 Crate.
 
-:::
 
 ### `char` vs `u8`
 
@@ -582,12 +579,12 @@ fn increment() {
 }
 ```
 
+:::
 :::caution
 
 Do not use `static mut`. It is the source of undefined behavior in multi-threaded contexts and
 Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
 
-:::
 
 ## Type Aliases
 
@@ -736,13 +733,13 @@ let y: u32 = x as u32;          // 4294967295 (two's complement reinterpretation
 let z: i8 = 128i32 as i8;       // -128 (wraps)
 ```
 
+:::
 :::caution
 
 `as` for integer-to-integer casts is well-defined (wrapping/truncation semantics). `as` for
 Float-to-integer casts saturates: NaN and out-of-range values become 0 (for unsigned) or the minimum
 Value (for signed). This behavior is documented in the reference but surprises people coming from C.
 
-:::
 
 ### Safe Conversions with `TryFrom`/`TryInto`
 
@@ -848,3 +845,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

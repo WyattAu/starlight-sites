@@ -1,8 +1,6 @@
 ---
 title: Sociocultural Level of Analysis
-description:
-  'IB Psychology Sociocultural Level of Analysis notes covering key definitions, core concepts,
-  worked examples, and practice questions for practical revision.'
+description: 'The sociocultural level of analysis (SCLOA) investigates how the social environment and cultural context influence behaviour. It is based on the principle...'
 
 ---
 

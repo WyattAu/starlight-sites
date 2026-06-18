@@ -1,8 +1,6 @@
 ---
 title: Macroeconomic Performance
-description:
-  'A-Level Economics Macroeconomic Performance notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured revision.'
+description: 'We define as the total monetary value of all final goods and Services produced within a country's borders during a given time period.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

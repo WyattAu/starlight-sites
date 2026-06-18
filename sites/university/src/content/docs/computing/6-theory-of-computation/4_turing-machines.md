@@ -3,6 +3,7 @@ title: Turing Machines
 tags:
   - Computing
   - University
+description: 'Turing Machines: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 4.1 Definition

@@ -1,8 +1,6 @@
 ---
 title: Rotational Motion
-description:
-  'Qualifications Physics Rotational Motion notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured preparation.'
+description: '| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |...'
 date: 2026-04-14
 tags:
   - ap
@@ -81,7 +79,6 @@ $$
 V = r\omega = (0.3)(10) = 3.0 \mathrm{ m/s
 $$
 
-:::
 
 ## Moment of Inertia (CED Unit 7)
 
@@ -157,6 +154,7 @@ $$
 
 $\blacksquare$
 
+:::
 :::info[Example]
 
 Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about an axis tangent to its
@@ -166,7 +164,6 @@ $$
 I = I_{\mathrm{cm} + Md^2 = \frac{2}{5}MR^2 + MR^2 = \frac{7}{5}MR^2
 $$
 
-:::
 
 ## Torque (CED Unit 7)
 
@@ -198,6 +195,7 @@ $$
 
 This is the rotational analog of $\sum F = ma$.
 
+:::
 :::info[Example]
 
 A solid disk of mass $5.0 \mathrm{ kg$ and radius $0.3 \mathrm{ m$ is mounted on a frictionless
@@ -215,7 +213,6 @@ $$
 \alpha = \frac{\tau}{I} = \frac{6.0}{0.225} = 26.7 \mathrm{ rad/s^2
 $$
 
-:::
 
 ## Rotational Energy (CED Unit 7)
 
@@ -251,6 +248,7 @@ $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
 Solid cylinder moves faster.
 
+:::
 :::info[Example]
 
 A solid sphere of mass $M$ and radius $R$ rolls without slipping from rest down an incline of height
@@ -273,7 +271,6 @@ $$
 Note: the answer is independent of both the mass and the radius. For a hollow sphere, the factor
 Would be $\frac{5}{6}$ instead of $\frac{7}{10}$So the solid sphere is always faster.
 
-:::
 
 ## Angular Momentum (CED Unit 7)
 
@@ -303,6 +300,7 @@ $$
 \int \tau\, dt = \Delta L = I\omega_f - I\omega_i
 $$
 
+:::
 :::info[Example]
 
 A figure skater with moment of inertia $4.0 \mathrm{ kg \cdot \mathrm{m^2$ is spinning at
@@ -317,7 +315,6 @@ $$
 (4.0)(3.0) = (1.5)\omega_2 \implies \omega_2 = \frac{12.0}{1.5} = 8.0 \mathrm{ rad/s
 $$
 
-:::
 
 ### Why Angular Momentum Is a Vector
 
@@ -356,6 +353,7 @@ An object is in static equilibrium when:
 The choice of pivot point is arbitrary when the system is in equilibrium. Choosing the pivot at an
 Unknown force eliminates that force from the torque equation.
 
+:::
 :::info[Example]
 
 A uniform beam of mass $20 \mathrm{ kg$ and length $4.0 \mathrm{ m$ is supported at its left end By
@@ -378,7 +376,6 @@ $$
 2.0T - 392 - 1470 = 0 \implies T = \frac{1862}{2.0} = 931 \mathrm{ N
 $$
 
-:::
 
 ## Common Pitfalls
 

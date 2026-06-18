@@ -5,9 +5,7 @@ tags:
   - Dart
 categories:
   - Dart
-description:
-  'Dart testing: unit tests, widget tests, integration tests, mocking, test-driven development,
-  golden tests, code coverage, and Flutter testing patterns.'
+description: 'Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most...'
 ---
 
 ## Unit Testing

@@ -1,8 +1,6 @@
 ---
 title: Async Deep Dive
-description:
-  'Rust Async Deep Dive notes covering key definitions, core concepts, worked examples, and practice
-  questions for efficient exam preparation and mastery.'
+description: 'The trait is the foundation of async programming in Rust. It represents a value that may Become available at some point in the future:'
 
 ---
 
@@ -932,5 +930,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

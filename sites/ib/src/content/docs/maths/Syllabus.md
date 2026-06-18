@@ -1,8 +1,6 @@
 ---
 title: Syllabus
-description:
-  'IB Maths Syllabus notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and revision.'
+description: 'This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### IB Mathematics AA HL/SL Syllabus Overview
@@ -370,9 +368,9 @@ Manipulation.
 
 - [Number and Algebra](1-number-and-algebra/1_number-and-algebra.md) -- arithmetic and geometric
   sequences, sigma notation, binomial theorem
-- [Complex Numbers](1-number-and-algebra/2_complex-numbers.md) -- complex numbers in Cartesian,
+- [Complex Numbers](1-number-and-algebra/2_complex-numbers.mdx) -- complex numbers in Cartesian,
   polar, and Euler form; De Moivre's theorem; roots of polynomials
-- [Trigonometry](3-geometry-and-trigonometry/1_trigonometry.md) -- trigonometric functions,
+- [Trigonometry](3-geometry-and-trigonometry/1_trigonometry.mdx) -- trigonometric functions,
   identities, sine and cosine rules
 - [Vectors](3-geometry-and-trigonometry/2_vectors.md) -- vector operations, scalar and cross
   products, lines and planes

@@ -1,8 +1,6 @@
 ---
 title: Concurrency
-description:
-  'Swift concurrency notes covering async/await, Tasks, actors, Sendable, structured concurrency,
-  and @MainActor for safe parallel programming.'
+description: 'Swift's concurrency model provides -- asynchronous tasks are organised in a hierarchy where the lifetime of child tasks is bounded by their parent. This...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift

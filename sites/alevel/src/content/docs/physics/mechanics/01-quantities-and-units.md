@@ -1,8 +1,6 @@
 ---
 title: Quantities and Units
-description:
-  'A-Level Physics Quantities and Units notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam preparation.'
+description: 'We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -14,8 +12,7 @@ categories:
 
 ## Quantities and Units
 
-:::info Board Coverage AQA Paper 1 & 3 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
-:::
+> **Info:** Board Coverage AQA Paper 1 & 3 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
 ## 1. Physical Quantities and the SI System
 
 We begin with the most fundamental question in physics: **how do we measure things?**
@@ -40,8 +37,7 @@ Varieties:
 | Amount of substance | $n$    | mole     | mol         |
 | Luminous intensity  | $I_v$  | candela  | cd          |
 
-:::info Note The candela is rarely encountered in A Level Physics. Focus on the first six.
-:::
+> **Info:** Note The candela is rarely encountered in A Level Physics. Focus on the first six.
 ### Derived Units
 
 A derived unit is obtained by combining base units according to the physical relationship. We denote
@@ -241,7 +237,7 @@ Multiplication rule repeatedly:
 $$\frac◆LB◆\Delta z◆RB◆◆LB◆z◆RB◆ = \underbrace◆LB◆\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}◆RB◆_{n \mathrm{ terms}} = n \cdot \frac◆LB◆\Delta x◆RB◆◆LB◆x◆RB◆$$
 
 For negative or fractional powers, the result generalises via logarithmic differentiation (see
-[01-wave-properties](../waves/01-wave-properties.md) for the general propagation of error formula).
+[01-wave-properties](../waves/01-wave-properties.mdx) for the general propagation of error formula).
 $\square$
 
 #### The General Propagation of Error Formula

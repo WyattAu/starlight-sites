@@ -1,8 +1,6 @@
 ---
 title: Hosting With Gitea On TrueNAS
-description:
-  'Git Hosting With Gitea On TrueNAS notes covering key definitions, core concepts, worked examples,
-  and practice questions for systematic revision.'
+description: '1. Since there is built in support for Gitea with TrueCharts, install Gitea using . Assign a dedicated dataset (eg, ) for persistent storage. 2. Set the...'
 date: 2025-06-13T18:10:33.853Z
 tags:
   - git

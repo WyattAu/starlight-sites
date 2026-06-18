@@ -1,8 +1,6 @@
 ---
 title: Periods 3-4 (1754-1800)
-description:
-  'AP US History notes covering Periods 3-4 from 1754 to 1800, including the French and Indian War,
-  American Revolution, Constitution, and early national politics.'
+description: 'The French and Indian War (1754-1763) was a global conflict between Britain and France that was fought in North America primarily for control of the Ohio...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

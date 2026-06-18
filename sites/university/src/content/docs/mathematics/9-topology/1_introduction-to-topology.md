@@ -2,6 +2,7 @@
 title: Introduction to Topology
 tags:
   - University Maths
+description: 'is the branch of mathematics that studies properties of spaces that are preserved under continuous deformations. Two objects are considered topologically...'
 ---
 
 ### 1.1 What is Topology?

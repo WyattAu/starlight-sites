@@ -1,8 +1,6 @@
 ---
 title: Circular Motion
-description:
-  'A-Level Further Maths Circular Motion notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective revision.'
+description: 'Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -829,7 +827,6 @@ Banking the curve dramatically reduces the required friction coefficient from 0.
 
 </details>
 
-:::
 
 ---
 

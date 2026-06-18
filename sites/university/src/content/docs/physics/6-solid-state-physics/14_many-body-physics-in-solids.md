@@ -3,6 +3,7 @@ title: Many-Body Physics in Solids
 tags:
   - Physics
   - University
+description: 'In a metal, the Coulomb interaction between electrons is screened by the other e Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 14.1 Electron--Electron Interactions: Screening

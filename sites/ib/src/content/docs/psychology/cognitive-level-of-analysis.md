@@ -1,8 +1,6 @@
 ---
 title: Cognitive Level of Analysis
-description:
-  'IB Psychology Cognitive Level of Analysis notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'The cognitive level of analysis (CLOA) focuses on mental processes such as perception, memory, language, and decision making. It operates on the principle...'
 
 ---
 

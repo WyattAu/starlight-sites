@@ -1,8 +1,6 @@
 ---
 title: A-Level Chemistry
-description:
-  'A-Level Chemistry notes covering key definitions, core concepts, worked examples, and practice
-  questions for complete review and exam preparation.'
+description: 'A-Level Chemistry is a rigorous, mathematically grounded treatment of the principles governing chemical systems. It builds on GCSE foundations and...'
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -49,9 +47,9 @@ the ten core modules to each board's paper structure.
    intermolecular forces; VSEPR theory; giant covalent lattices; Born-Haber cycles.
 3. **[Quantitative Chemistry](./quantitative-chemistry)** -- The mole, stoichiometry, titrations,
    the ideal gas equation, thermochemical calculations.
-4. **[Chemical Kinetics](./chemical-kinetics)** -- Rate equations, the Arrhenius equation, collision
+4. **[Chemical Kinetics](../../../../../university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md)** -- Rate equations, the Arrhenius equation, collision
    theory, Maxwell-Boltzmann distributions, catalysis.
-5. **[Chemical Equilibrium](./chemical-equilibrium)** -- $K_c$, $K_p$Le Chatelier's principle,
+5. **[Chemical Equilibrium](../../../../../dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium.md)** -- $K_c$, $K_p$Le Chatelier's principle,
    solubility products, industrial processes.
 6. **[Acids, Bases & Buffers](./acids-bases)** -- pH, $K_a$, $K_b$, $K_w$Buffer solutions, titration
    curves, indicators.

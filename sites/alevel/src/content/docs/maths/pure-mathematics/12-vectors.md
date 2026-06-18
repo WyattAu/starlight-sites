@@ -1,8 +1,6 @@
 ---
 title: Vectors
-description:
-  'A-Level Maths Vectors notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive study and thorough revision.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------- | | AQA | Paper 1, 2 | 2D vectors in P1; 3D...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

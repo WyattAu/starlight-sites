@@ -1,8 +1,6 @@
 ---
 title: Data Races and Critical Sections
-description:
-  'C++ Programming Data Races and Critical Sections notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective revision.'
+description: 'This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -142,8 +140,7 @@ Even data races that appear harmless in practice can cause problems because:
 3. **Future-proofing.** Code that "works" today with benign data races may break when compiled with
    a different optimization level, a different compiler version, or a different CPU architecture.
 
-:::caution Warning Writes, use a mutex or `std::atomic` [N4950 §6.9.4.2].
-:::
+> **Caution:** Warning Writes, use a mutex or `std::atomic` [N4950 §6.9.4.2].
 ## Detecting Data Races with ThreadSanitizer
 
 **ThreadSanitizer** (TSan) is a compile-time instrumentation tool that detects data races at

@@ -2,9 +2,7 @@
 title: Spanish Civil War and Chinese Civil War
 tags:
   - history
-description:
-  'IB History Spanish Civil War and Chinese Civil War notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'After the collapse of Qing Dynasty (1912), there were a period of warlordism, during which Nationalist Kuomintang (KMT) under Chiang Kai-shek took control...'
 ---
 
 ## Brief

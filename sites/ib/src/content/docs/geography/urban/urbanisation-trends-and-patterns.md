@@ -1,8 +1,6 @@
 ---
 title: Urbanisation Trends and Patterns
-description:
-  'IB Geography Urbanisation Trends and Patterns notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused preparation.'
+description: 'Urbanisation is the increasing proportion of a national population living in urban areas. The global Urban population exceeded the rural population for the...'
 
 ---
 

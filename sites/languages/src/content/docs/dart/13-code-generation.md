@@ -1,8 +1,6 @@
 ---
 title: Code Generation
-description:
-  'Dart Code Generation notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted revision and exam readiness.'
+description: 'Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time. It reduces...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

@@ -1,8 +1,6 @@
 ---
 title: Data Representation
-description:
-  'GCSE Computer Science Data Representation notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: 'Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Data Representation
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
 ## 1. Binary
 
 ### 1.1 The Binary Number System

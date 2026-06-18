@@ -1,8 +1,6 @@
 ---
 title: Synthesis
-description:
-  'AP English Language synthesis notes covering source integration, source attribution, commentary,
-  thesis development, and strategies for the synthesis essay.'
+description: 'The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

@@ -1,8 +1,6 @@
 ---
 title: Atomic Structure and Periodicity
-description:
-  'Qualifications Chemistry Atomic Structure and Periodicity notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: '| Scientist | Contribution | | ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter...'
 date: 2026-04-14
 tags:
   - ap
@@ -210,7 +208,6 @@ $$
 
 The 4s electrons fill first but are written after 3d by convention.
 
-:::
 
 ### Electron Configuration of Ions
 
@@ -301,6 +298,7 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
 $n_f$Where the energy difference approaches a maximum value.
 
+:::
 :::info[Example]
 
 Calculate the wavelength of light emitted when an electron in hydrogen drops from $n = 4$ to
@@ -322,7 +320,6 @@ $$
 E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{4.86 \times 10^{-7}} = 4.09 \times 10^{-19} \mathrm{ J = 2.56 \mathrm{ eV
 $$
 
-:::
 
 ### Atomic Spectra as Evidence for Quantized Energy Levels
 
@@ -858,3 +855,5 @@ HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
 $$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
 
+
+:::

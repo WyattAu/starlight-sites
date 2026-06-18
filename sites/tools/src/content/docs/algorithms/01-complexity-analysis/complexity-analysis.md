@@ -1,8 +1,6 @@
 ---
 title: Complexity Analysis
-description:
-  'Algorithms Complexity Analysis notes covering key definitions, core concepts, worked examples,
-  and practice questions for thorough preparation.'
+description: 'A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per...'
 
 ---
 
@@ -65,7 +63,6 @@ In practice, most engineers use Big-O to mean Big-Theta. This is technically imp
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
 $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
-:::
 
 ### Little-o and Little-omega
 
@@ -137,13 +134,13 @@ Core). In reality:
 - I/O dominates for large datasets: $O(n)$ with 10 GB of random reads from disk is far slower than
   $O(n \log n)$ with sequential reads.
 
+:::
 :::caution
 
 Asymptotic analysis tells you how an algorithm scales, not how fast it is for a specific input size.
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
 With favourable cache behaviour. Always benchmark.
 
-:::
 
 ## Formal Manipulation Rules
 
@@ -276,13 +273,13 @@ In systems engineering, worst-case guarantees matter because:
 3. **Real-time constraints** — a system that responds in 1ms but occasionally takes 10s is often
    worse than one that always responds in 5ms
 
+:::
 :::info
 
 Hash table worst-case $O(n)$ operations are what made the HashDoS attack possible. An attacker sends
 Requests with keys that all hash to the same bucket, turning $O(1)$ lookups into $O(n)$ lookups and
 Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use hash randomisation.
 
-:::
 
 ## Amortised Analysis
 
@@ -689,13 +686,13 @@ Non-negative and is $O(n \log n)$ for an $n$-node tree.
 - Working set theorem: if an item is accessed $t$ times and there are $l$ distinct items accessed
   since its last access, the amortised cost is $O(\log l + \log t)$
 
+:::
 :::tip
 
 Splay trees are an excellent choice when access patterns are non-uniform. In file systems, web
 Caches, and database buffer pools, a small set of hot items dominates access. Splay trees
 Automatically adapt to this pattern without any tuning parameters.
 
-:::
 
 ## Solving Recurrences: A Systematic Approach
 
@@ -837,11 +834,13 @@ def benchmark_sorts():
     print(f"TimSort (100 elements, 1000 runs): {msort_time:.3f}s")
 ```
 
+:::
 :::caution
 
 Microbenchmarks are misleading. A sort that benchmarks 10% faster on random data may be 50% slower
 On the actual production workload due to access patterns, data distribution, and interaction with
 Other system components. Always benchmark with realistic data and in a realistic environment.
+
 
 ## Summary
 
@@ -864,3 +863,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

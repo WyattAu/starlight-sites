@@ -1,8 +1,6 @@
 ---
 title: Collections
-description:
-  'Python Collections notes covering key definitions, core concepts, worked examples, and practice
-  questions for detailed exam preparation and mastery.'
+description: 'Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks.'
 date: 2025-06-04T12:00:00.000Z
 tags:
   - Python
@@ -206,7 +204,6 @@ flat = [x for row in matrix for x in row]  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 Avoid using list comprehensions with side effects. They are for building lists, not for executing
 Actions. If the comprehension has no useful result, use a `for` loop instead.
 
-:::
 
 ## Tuples
 
@@ -371,6 +368,7 @@ for i in range(20):
 # Multiple keys may map to the same initial slot, resolved by linear probing
 ```
 
+:::
 :::caution
 
 If two objects have equal values (`a == b` is `True`), they **must** have the same hash
@@ -378,7 +376,6 @@ If two objects have equal values (`a == b` is `True`), they **must** have the sa
 `__hash__ = None` to make the object unhashable (the default when `__eq__` is defined without
 `__hash__` in Python 3).
 
-:::
 
 ### Hash Table Resizing
 
@@ -480,12 +477,12 @@ d2 = {"b": 2, "a": 1}
 print(d1 == d2)    # True (order does not matter)
 ```
 
+:::
 :::info
 
 Use plain `dict` unless you need `move_to_end` or `popitem(last=False)`. `dict` is slightly more
 Memory-efficient and faster for most operations.
 
-:::
 
 ## Sets
 
@@ -615,12 +612,12 @@ print(c1 | c2)   # Counter({'a': 3, 'b': 2}) -- max(c1[x], c2[x])
 print(list(Counter(a=3, b=0, c=-1).elements()))  # ['a', 'a', 'a']
 ```
 
+:::
 :::tip
 
 `Counter.most_common()` returns a list of `(element, count)` pairs sorted by count descending. Use
 `c.most_common(n)` to get only the top n, which is more efficient than sorting the entire counter.
 
-:::
 
 ### defaultdict
 
@@ -652,13 +649,13 @@ nested["user1"]["clicks"] = 7
 The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 
+:::
 :::caution
 
 A common mistake is passing `dict` or `list` with parentheses as the factory: `defaultdict(dict())`.
 This calls `dict()` once and passes the resulting empty dict as the factory. The correct form is
 `defaultdict(dict)` or `defaultdict(list)` -- without parentheses.
 
-:::
 
 ### deque
 
@@ -742,13 +739,13 @@ new_context = combined.new_child({"color": "green"})
 print(new_context["color"])  # "green"
 ```
 
+:::
 :::info
 
 `ChainMap` does not copy the underlying mappings -- it holds references to them. Changes to any
 Underlying dict are immediately visible through the `ChainMap`. Lookups are O(k) where k is the
 Number of mappings, since each mapping is checked in order.
 
-:::
 
 ### namedtuple (Recap)
 
@@ -955,6 +952,7 @@ heapq.heappush(tasks, (2, next(counter), "task B"))
 heapq.heappush(tasks, (1, next(counter), "task C"))
 ```
 
+:::
 :::caution
 
 When using tuples as heap elements, comparison proceeds element-by-element. If the first elements
@@ -1071,5 +1069,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

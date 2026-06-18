@@ -1,8 +1,6 @@
 ---
 title: Setting Up Home Server
-description:
-  'Setting Up Home Server notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete exam preparation and revision.'
+description: 'For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2025-07-11T17:57:30.362Z
 tags:
   - OS

@@ -1,8 +1,6 @@
 ---
 title: State Management
-description:
-  'Dart State Management notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision and exam readiness.'
+description: 'Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

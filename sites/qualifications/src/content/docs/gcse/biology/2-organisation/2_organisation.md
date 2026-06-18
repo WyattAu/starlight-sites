@@ -1,8 +1,6 @@
 ---
 title: Organisation
-description:
-  'GCSE Biology Organisation notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured learning and effective revision.'
+description: 'The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Organisation
 
-:::info Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway B2 | WJEC B2
-:::
+> **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway B2 | WJEC B2
 ## 1. The Digestive System
 
 ### 1.1 Overview

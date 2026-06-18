@@ -1,8 +1,6 @@
 ---
 title: Trade and Aid
-description:
-  'IB Geography Trade and Aid notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision.'
+description: 'Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is Characterised by several patterns:'
 
 ---
 

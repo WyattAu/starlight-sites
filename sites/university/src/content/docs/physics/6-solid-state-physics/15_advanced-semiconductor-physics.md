@@ -3,6 +3,7 @@ title: Advanced Semiconductor Physics
 tags:
   - Physics
   - University
+description: 'In an n-channel MOSFET, the gate voltage controls the channel charge: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 15.1 MOSFET Operation in Detail

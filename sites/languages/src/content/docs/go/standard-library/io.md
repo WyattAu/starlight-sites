@@ -1,8 +1,6 @@
 ---
 title: Standard Library I/O
-description:
-  'Go Standard Library I/O notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused revision and exam readiness.'
+description: 'The package defines the fundamental I/O interfaces that permeate Go's standard l Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18
 tags:
   - Go

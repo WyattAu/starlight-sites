@@ -3,6 +3,7 @@ title: Historical Context
 tags:
   - Mathematics
   - University
+description: 'Functional analysis emerged in the early twentieth century from the study of integral equations and the need for abstract frameworks that could unify...'
 ---
 
 Functional analysis emerged in the early twentieth century from the study of integral equations and

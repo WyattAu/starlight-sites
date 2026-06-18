@@ -1,8 +1,6 @@
 ---
 title: Developmental Psychology
-description:
-  'IB Developmental Psychology notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid exam preparation and revision.'
+description: 'Developmental psychology examines how behaviour and mental processes change across the lifespan. In the IB Psychology course, this is an applied option...'
 
 ---
 

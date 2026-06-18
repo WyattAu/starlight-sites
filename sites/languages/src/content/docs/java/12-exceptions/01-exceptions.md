@@ -1,8 +1,6 @@
 ---
 title: Exception Handling
-description:
-  'Java Exception Handling notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid study and thorough revision.'
+description: 'Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException...'
 date: 2026-04-04T00:00:00.000Z
 tags:
   - Java

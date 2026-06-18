@@ -3,6 +3,7 @@ title: Classical Limit and the Maxwell-Boltzmann Distribution
 tags:
   - Physics
   - University
+description: 'In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstein distributions reduce to the Maxwell-Boltzmann distribution. The condition for the...'
 ---
 
 ### 7.1 Derivation from Quantum Statistics

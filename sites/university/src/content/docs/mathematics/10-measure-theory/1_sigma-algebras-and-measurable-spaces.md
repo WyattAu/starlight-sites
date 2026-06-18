@@ -3,6 +3,7 @@ title: Sigma-Algebras and Measurable Spaces
 tags:
   - Mathematics
   - University
+description: 'Sigma-Algebras and Measurable Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 1.1 Algebras of Sets

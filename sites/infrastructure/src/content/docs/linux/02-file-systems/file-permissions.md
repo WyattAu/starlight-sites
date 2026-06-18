@@ -1,8 +1,6 @@
 ---
 title: File Permissions and ACLs
-description:
-  'File Permissions and ACLs notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted revision and exam readiness.'
+description: 'Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces...'
 
 ---
 
@@ -170,7 +168,6 @@ chown --reference=ref.txt target.txt
 Only root can change the owner of a file. The owner can change the group to any group they are a
 Member of. This is enforced by the kernel: the `chown(2)` system call checks `capable(CAP_CHOWN)`.
 
-:::
 
 ## umask
 
@@ -200,6 +197,7 @@ umask 0077     # owner only (private)
 echo 'umask 0027' >> ~/.profile
 ```
 
+:::
 :::caution
 
 `umask` only affects permissions at creation time. It does not modify existing files. If you need to
@@ -207,7 +205,6 @@ Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` onl
 Never adds execute permission to files, which is why `touch newfile` creates files with 0666 &
 ~umask (e.g., 0644), never with execute bits set.
 
-:::
 
 ## Special Bits
 
@@ -308,13 +305,13 @@ find / -perm -4000 -type f ! -user root -exec ls -la {} \; 2>/dev/null
 chmod u-s /path/to/binary
 ```
 
+:::
 :::danger
 
 Never set setuid on shell scripts. Shell scripts are interpreted by `/bin/bash` (or similar), which
 Itself would need setuid. Instead, use a compiled wrapper or sudo. A setuid shell script is a
 Privilege escalation vulnerability.
 
-:::
 
 ## Access Control Lists (ACLs)
 
@@ -561,6 +558,7 @@ chattr -R +A /srv/data/
 lsattr -R /srv/data/
 ```
 
+:::
 :::caution
 
 `chattr +i` is a powerful security measure but can cause problems during automated configuration
@@ -568,7 +566,6 @@ Management. Ansible, Puppet, and similar tools may fail silently when trying to 
 Files. Always ensure configuration management systems can remove the immutable bit before making
 Changes.
 
-:::
 
 ### Extended Attributes (xattr)
 
@@ -636,6 +633,7 @@ flowchart TD
     K -->|No| F
 ```
 
+:::
 :::info
 
 The kernel checks ACLs if they exist on the file. The check order is: owner, named users (most
@@ -643,7 +641,6 @@ Specific first), owning group or named groups, mask, other. The first matching e
 Denies the requested access determines the result. The mask limits the maximum effective permissions
 For all named users, named groups, and the owning group.
 
-:::
 
 ### Permission Check Summary
 
@@ -717,13 +714,13 @@ find / -perm -4000 ! -user root -type f 2>/dev/null
 find / -perm -4000 -type f ! -perm -u+s -writable 2>/dev/null
 ```
 
+:::
 :::danger
 
 A writable setuid binary is a critical vulnerability. An attacker can replace the binary with
 Malicious code, and it will execute with the file owner's privileges. Regularly audit setuid and
 Setgid binaries, and remove the setuid/setgid bit from any binary that does not strictly require it.
 
-:::
 
 ## Common Pitfalls
 
@@ -834,3 +831,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: Types and Functions
-description:
-  'Core Haskell types, type signatures, function definition syntax, guards, where clauses, list
-  comprehensions, currying, lambda expressions, and higher-order functions.'
+description: 'Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

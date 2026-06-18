@@ -1,8 +1,6 @@
 ---
 title: Futures, Promises, and Async Flows
-description:
-  'C++ Programming Futures, Promises, and Async Flows notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'This section covers launch policies, the Future/promise pair as a basic async primitive, composability limitations, async file reading, Parallel computation...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

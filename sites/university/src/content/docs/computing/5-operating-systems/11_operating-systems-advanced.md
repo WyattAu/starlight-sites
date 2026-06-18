@@ -1,8 +1,6 @@
 ---
 title: Operating Systems (Advanced)
-description:
-  'University Computing Operating Systems (Advanced) notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective revision.'
+description: 'The system call creates a new process by duplicating the calling process. The new process (child) is an exact copy of the parent, except for its PID, PPID,...'
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing

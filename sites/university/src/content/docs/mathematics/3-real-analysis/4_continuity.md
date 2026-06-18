@@ -3,6 +3,7 @@ title: Continuity
 tags:
   - Mathematics
   - University
+description: 'Let where . We say if for Every There exists such that Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 4.1 Limits of Functions

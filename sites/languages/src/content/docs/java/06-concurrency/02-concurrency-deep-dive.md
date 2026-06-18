@@ -1,8 +1,6 @@
 ---
 title: Concurrency Deep Dive
-description:
-  'Java Concurrency Deep Dive notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision.'
+description: 'provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition...'
 
 ---
 

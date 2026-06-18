@@ -3,6 +3,7 @@ title: The Gauss-Bonnet Theorem
 tags:
   - Mathematics
   - University
+description: 'Let be a compact, oriented Riemannian 2-manifold without boundary. Then: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 8.1 Statement for Surfaces

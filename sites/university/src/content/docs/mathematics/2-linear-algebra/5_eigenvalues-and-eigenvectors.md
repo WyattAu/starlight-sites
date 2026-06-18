@@ -3,6 +3,7 @@ title: Eigenvalues and Eigenvectors
 tags:
   - Mathematics
   - University
+description: 'Let . A scalar is an of if there Exists a non-zero vector such that Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 5.1 Definitions

@@ -1,8 +1,6 @@
 ---
 title: Economics
-description:
-  'A-Level Economics notes covering key definitions, core concepts, worked examples, and practice
-  questions for detailed study and thorough revision.'
+description: 'A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

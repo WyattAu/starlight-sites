@@ -1,8 +1,6 @@
 ---
 title: Statistical Distributions
-description:
-  'A-Level Maths Statistical Distributions notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial and normal in P1; Poisson in...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

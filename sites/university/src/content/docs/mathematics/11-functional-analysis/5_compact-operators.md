@@ -3,6 +3,7 @@ title: Compact Operators
 tags:
   - Mathematics
   - University
+description: 'A linear operator is if the image of the closed unit ball, , is relatively compa Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 5.1 Definition

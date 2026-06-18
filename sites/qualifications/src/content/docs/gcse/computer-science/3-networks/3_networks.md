@@ -1,8 +1,6 @@
 ---
 title: Networks
-description:
-  'GCSE Computer Science Networks notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective revision and exam readiness.'
+description: '| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Networks
 
-:::info Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR J277 Paper 2 | WJEC Unit 2
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR J277 Paper 2 | WJEC Unit 2
 ## 1. Types of Networks
 
 ### 1.1 LAN and WAN

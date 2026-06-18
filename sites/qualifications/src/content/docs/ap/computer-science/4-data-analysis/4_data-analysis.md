@@ -1,8 +1,6 @@
 ---
 title: Data Analysis
-description:
-  'Qualifications Computer Science Data Analysis notes covering key definitions, core concepts,
-  worked examples, and practice questions for complete revision.'
+description: 'A fixed-size, ordered collection of elements of the same type. Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-14
 tags:
   - ap
@@ -117,8 +115,8 @@ public static int[] rowSums(int[][] grid) {
 }
 ```
 
-:::
 
+:::
 :::info[Example: Transpose a Matrix]
 
 ```java
@@ -137,7 +135,6 @@ public static int[][] transpose(int[][] matrix) {
 
 Time complexity: $O(r \times c)$ where $r$ is rows and $c$ is columns.
 
-:::
 
 ## Lists in AP CSP
 
@@ -184,6 +181,7 @@ s = s.toUpperCase();
 **Why immutability matters.** Because strings are immutable, Java can share string literals. If two
 Variables hold the same string literal, they may point to the same object in memory.
 
+:::
 :::info[Example: Reversing a String]
 
 ```java
@@ -206,7 +204,6 @@ public static String reverseEfficient(String s) {
 }
 ```
 
-:::
 
 ## Data Analysis Concepts (CED Unit 3)
 
@@ -467,8 +464,7 @@ int c = (int) 2.9;    // 2 (truncation)
 double d = (double) 5 / 2;  // 2.5
 ```
 
-:::caution Always cast to `double` before division when you need a decimal result.
-:::
+> **Caution:** Always cast to `double` before division when you need a decimal result.
 ## Practice Questions
 
 1. Write a Java method that finds and returns the mode (most frequent element) in an array of

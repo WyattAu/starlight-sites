@@ -3,6 +3,7 @@ title: Complex Integration
 tags:
   - Mathematics
   - University
+description: 'A (or piecewise smooth path) in is a continuous function Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 4.1 Contours

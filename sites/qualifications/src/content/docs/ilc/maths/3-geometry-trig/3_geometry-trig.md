@@ -1,8 +1,6 @@
 ---
 title: Geometry and Trigonometry
-description:
-  'ILC Maths Geometry and Trigonometry notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'Geometry and trigonometry form a significant part of the Leaving Certificate syllabus, particularly Paper 2. This topic covers coordinate geometry,...'
 date: 2026-04-14
 tags:
   - ilc

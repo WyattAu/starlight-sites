@@ -3,6 +3,7 @@ title: Variational Methods
 tags:
   - Physics
   - University
+description: 'For any trial wavefunction (normalised), the expectation value of the Hamiltonian is an upper bound on the true ground state energy:'
 ---
 
 ### 10.1 The Variational Principle

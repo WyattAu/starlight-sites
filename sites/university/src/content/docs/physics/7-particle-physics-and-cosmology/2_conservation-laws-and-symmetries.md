@@ -3,6 +3,7 @@ title: Conservation Laws and Symmetries
 tags:
   - Physics
   - University
+description: 'The following are conserved in all known interactions: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 2.1 Exactly Conserved Quantities

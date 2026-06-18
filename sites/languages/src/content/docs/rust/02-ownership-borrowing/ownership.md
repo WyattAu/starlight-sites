@@ -1,8 +1,6 @@
 ---
 title: Ownership and Borrowing
-description:
-  'Rust Ownership and Borrowing notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic review and exam preparation.'
+description: 'Rust's memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems.'
 
 ---
 
@@ -335,7 +333,6 @@ Cannot infer a shorter lifetime, but adding `'static` constraints reduces the fu
 Flexibility. A function taking `&'static str` cannot accept locally-owned `String` references, only
 String literals and values explicitly annotated with `'static`.
 
-:::
 
 ### Lifetime Variance
 
@@ -395,13 +392,13 @@ let borrow3 = data.borrow_mut();  // OK — all previous borrows dropped
 borrow3.push(4);
 ```
 
+:::
 :::caution
 
 `RefCell` enforces the borrow rules at **runtime**, not compile time. A `borrow_mut()` while an
 Immutable borrow is active will panic. This trades compile-time safety for runtime flexibility. Use
 `try_borrow()` and `try_borrow_mut()` to get `Result` instead of panicking.
 
-:::
 
 ### `RefCell` Use Cases
 
@@ -454,6 +451,7 @@ impl Counter {
 }
 ```
 
+:::
 :::danger
 
 Implementing `Sync` for a type containing `UnsafeCell` without proper synchronization is undefined
@@ -992,5 +990,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

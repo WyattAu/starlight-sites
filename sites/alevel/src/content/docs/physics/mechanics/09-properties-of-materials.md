@@ -1,8 +1,6 @@
 ---
 title: Properties of Materials
-description:
-  'A-Level Physics Properties of Materials notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam preparation.'
+description: 'The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Physics
@@ -14,8 +12,7 @@ categories:
 
 ## Properties of Materials
 
-:::info Board Coverage AQA Paper 1 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
 The mechanical properties of materials — how they deform, stretch, compress, and break — are central
 To engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
 Level board.

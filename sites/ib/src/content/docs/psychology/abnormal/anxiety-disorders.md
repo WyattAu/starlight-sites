@@ -1,8 +1,6 @@
 ---
 title: Anxiety Disorders
-description:
-  'IB Psychology Anxiety Disorders notes covering key definitions, core concepts, worked examples,
-  and practice questions for rigorous revision.'
+description: 'Anxiety disorders are characterised by excessive, persistent fear and anxiety that are Disproportionate to the actual threat and that significantly impair...'
 
 ---
 

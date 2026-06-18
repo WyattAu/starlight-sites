@@ -3,6 +3,7 @@ title: The Fundamental Theorems
 tags:
   - Mathematics
   - University
+description: 'Let be a real vector space, a sublinear functional ( and for ), and Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 4.1 Hahn-Banach Theorem

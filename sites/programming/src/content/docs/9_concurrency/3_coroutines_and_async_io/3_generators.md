@@ -1,8 +1,6 @@
 ---
 title: Generators (std::generator)
-description:
-  'C++ Programming Generators (std::generator) notes covering key definitions, core concepts, worked
-  examples, and practice questions for practical revision.'
+description: 'This section covers C++23's as syntactic sugar, lazy evaluation Semantics, a comparison with Python generators, and a complete Fibonacci generator example...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

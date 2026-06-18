@@ -1,8 +1,6 @@
 ---
 title: Essential Modules
-description:
-  'Python Essential Modules notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive study and thorough revision.'
+description: 'The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths....'
 date: 2025-06-04T14:00:00.000Z
 tags:
   - Python
@@ -360,7 +358,6 @@ The `re.IGNORECASE` flag can change the meaning of `\w` and `\b` for non-ASCII c
 Unicode case folding is complex. If you are matching ASCII-only identifiers, use `re.ASCII` (or
 `re.A`) alongside `re.IGNORECASE` to constrain `\w``\b``\d`And `\s` to ASCII ranges.
 
-:::
 
 ### `re.sub()` with a Callable
 
@@ -835,13 +832,13 @@ print(Role.ADMIN == "admin")  # True
 - Use `StrEnum` (Python 3.11+) when members represent string constants that are also used in
   serialization or string comparisons.
 
+:::
 :::danger
 
 Never compare `Enum` members with `is`. Use `==`. While `Enum` members are singletons within a
 Single process, using `is` for comparison is a fragile pattern that does not work correctly across
 Pickling, multiprocess serialization, or when the enum is re-imported.
 
-:::
 
 ## `logging`: Structured Diagnostics
 
@@ -875,6 +872,7 @@ def process_item(item_id: int) -> None:
     logger.warning("Item %d has deprecated field", item_id)
 ```
 
+:::
 :::info
 
 Use `%s`-style formatting in log messages, not f-strings. The `logging` module defers string
@@ -883,7 +881,6 @@ Is always constructed even if the log level is filtered out.
 `logger.debug("Expensive: %r", compute_value())` does not call `compute_value()` if DEBUG is not
 Enabled. `logger.debug(f"Expensive: {compute_value()}")` always calls it.
 
-:::
 
 ### Configuration
 
@@ -1035,6 +1032,7 @@ eastern = timezone(timedelta(hours=-4))
 print(aware.astimezone(eastern))  # 2025-06-04 10:00:00-04:00
 ```
 
+:::
 :::danger
 
 Never compare naive and aware datetimes. Python raises `TypeError`. Never use naive datetimes for
@@ -1042,7 +1040,6 @@ Timestamps that will be stored, transmitted, or compared across systems. Naive d
 Acceptable only for purely local display or when the timezone context is obvious and unambiguous
 (e.g., "schedule this for 9 AM in the user's local time").
 
-:::
 
 ### Parsing and Formatting
 
@@ -1144,3 +1141,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

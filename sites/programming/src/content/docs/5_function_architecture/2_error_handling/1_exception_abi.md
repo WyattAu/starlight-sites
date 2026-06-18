@@ -1,8 +1,6 @@
 ---
 title: The Itanium Exception ABI
-description:
-  'C++ Programming The Itanium Exception ABI notes covering key definitions, core concepts, worked
-  examples, and practice questions for study and revision.'
+description: 'The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the model specified informally by the Itanium C++ ABI and adopted as the...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

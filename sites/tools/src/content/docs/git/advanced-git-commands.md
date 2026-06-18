@@ -105,7 +105,6 @@ Grafts created with `git replace --graft` are stored as replacement commit objec
 `refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
 And could not be pushed or shared.
 
-:::
 
 ### Editing an Object for Replacement
 
@@ -175,13 +174,13 @@ git filter-branch --all -- --no-replace-objects
 git filter-repo --replace-refs delete-no-add
 ```
 
+:::
 :::caution
 
 Once you push `refs/replace/` to a shared repository, all collaborators will see the replaced
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
 Your team before pushing replacement refs.
 
-:::
 
 ### Comparison Table
 
@@ -416,13 +415,13 @@ to O(n log n) by using a balanced BST. Benchmarked on 10M records:
 - BST: 0.3s" HEAD
 ```
 
+:::
 :::caution
 
 Notes are mutable and not cryptographically tied to the commit they annotate. Anyone with push
 Access to `refs/notes/commits` can modify notes. Do not rely on notes for security-critical
 Metadata.
 
-:::
 
 ---
 
@@ -583,6 +582,7 @@ $ git describe --exclude '*-rc*' --exclude '*-beta*'
 v2.3.1-5-ga3f2b1c
 ```
 
+:::
 :::info
 
 `git describe` only considers **annotated** tags by default. Lightweight tags (created with
@@ -590,7 +590,6 @@ v2.3.1-5-ga3f2b1c
 Design choice: annotated tags carry metadata (tagger, date, message) that makes them suitable for
 Release identification.
 
-:::
 
 ---
 
@@ -705,6 +704,7 @@ The `text` attribute controls CRLF/LF conversion:
 *.sh text eol=lf
 ```
 
+:::
 :::info
 
 The `text=auto` setting enables line ending normalization only if Git detects that the file is text
@@ -712,7 +712,6 @@ The `text=auto` setting enables line ending normalization only if Git detects th
 For cross-platform projects. It normalizes committed files to LF while letting Windows developers
 Check out with CRLF if their `core.autocrlf` is set.
 
-:::
 
 ### Binary Detection
 
@@ -880,6 +879,7 @@ $ git check-attr binary -- image.png
 image.png: binary: set
 ```
 
+:::
 :::caution
 
 Changes to `.gitattributes` do not retroactively normalize files already committed with the wrong
@@ -891,7 +891,6 @@ $ git add --renormalize .
 $ git commit -m "Normalize line endings per .gitattributes"
 ```
 
-:::
 
 ---
 
@@ -955,12 +954,12 @@ git config -f .gitmodules submodule.libs/repo.branch main
 git submodule update --remote libs/repo
 ```
 
+:::
 :::info
 
 Even with a tracking branch configured, the parent repository records a specific commit hash, not a
 Branch name. The tracking branch tells `git submodule update --remote` which branch to fetch From.
 
-:::
 
 ### Shallow Submodules
 
@@ -988,13 +987,13 @@ rm -rf .git/modules/libs/repo
 git commit -m "Remove libs/repo submodule"
 ```
 
+:::
 :::caution
 
 `rm -rf` the submodule directory without running `git submodule deinit` and `git rm` leaves Stale
 configuration in `.gitmodules` and `.git/modules/`. This causes errors for anyone cloning the
 Repository. Always follow the full removal procedure.
 
-:::
 
 ### Common Pitfalls
 
@@ -1141,13 +1140,13 @@ $ git bundle create build-$CI_BUILD_ID.bundle HEAD
 $ git bundle verify build-1234.bundle
 ```
 
+:::
 :::caution
 
 Bundles do not include refs that are not reachable from the specified refs. If you need all branches
 And tags, always use `--all`. If you need to include unreachable objects (e.g., dangling commits),
 Use `git bundle create repo.bundle --all --reflog`.
 
-:::
 
 ---
 
@@ -1319,13 +1318,13 @@ $ make -C ../build-v2.4 release
 | `core.bare` must be unset for main worktree         | Bare repos can only have linked worktrees, not a main worktree  |
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
 
+:::
 :::caution
 
 If you delete a worktree directory manually (e.g., `rm -rf ../hotfix-worktree`) instead of using
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
 Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
 
-:::
 
 ---
 
@@ -1450,6 +1449,7 @@ $ git reflog expire --expire=now --all
 $ git reflog expire --expire=2026-01-01 --all
 ```
 
+:::
 :::caution
 
 Setting `gc.reflogExpire` to `never` means reflog entries are never pruned. This prevents garbage
@@ -1457,7 +1457,6 @@ Collection from reclaiming objects referenced only by the reflog. Over time, thi
 Increase repository size. For large repositories, consider a reasonable expiry period (e.g., 365
 Days) instead.
 
-:::
 
 ### Reflog and `git gc`
 
@@ -1595,13 +1594,13 @@ $ git fsck --full 2>&1 | grep "corrupt\|missing" | while read _ _ hash; do
 $ git update-ref -d refs/heads/broken-branch
 ```
 
+:::
 :::caution
 
 `git fsck` does not modify the repository. It only reports issues. Always fix corruption
 Methodically: identify, back up, then repair. If the `.git` directory itself is corrupted (e.g.,
 From disk failure), restore from backup before attempting Git-level repairs.
 
-:::
 
 ---
 
@@ -1716,13 +1715,13 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 | `rerere.autoupdate` | `false` | Automatically stage the recorded resolution |
 | `rerere.autogc`     | `true`  | Run `git gc` on rr-cache when it gets large |
 
+:::
 :::info
 
 `rerere` works by hashing the conflict markers (the base, ours, and theirs sections). If the
 Conflict context changes even slightly, `rerere` will not match and you will need to resolve
 Manually. The resolution is then recorded for future use.
 
-:::
 
 ---
 
@@ -1889,13 +1888,13 @@ $ git am --continue
 $ git am --abort
 ```
 
+:::
 :::caution
 
 `git am` creates new commits. The commit hashes will differ from the original because the committer
 Information (not author) will be different. If you need to preserve exact commit hashes, use
 `git cherry-pick` or `git merge` instead.
 
-:::
 
 ---
 
@@ -1925,6 +1924,7 @@ $ git config sendemail.sendmailcmd /usr/sbin/sendmail
 $ git config sendemail.from "Your Name <your-email@example.com>"
 ```
 
+:::
 :::info
 
 Gmail requires an "App Password" rather than your account password. Generate one at Google Account
@@ -2038,7 +2038,6 @@ Always use `--dry-run` before actually sending patches, especially for public ma
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
 Patch content before sending.
 
-:::
 
 ---
 
@@ -2070,13 +2069,13 @@ $ git diff main -- src/file.c   # Diff between branch "main" and file "src/file.
 $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous without context)
 ```
 
+:::
 :::caution
 
 If you have both a file and a branch with the same name, always use `git switch` for branches and
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
 From.
 
-:::
 
 ### Ambiguous Argument Errors
 
@@ -2121,6 +2120,7 @@ $ git add libs/json
 $ git commit -m "Update json submodule to latest"
 ```
 
+:::
 :::caution
 
 Running `git pull` in the parent repository does not automatically update submodules. You must
@@ -2133,7 +2133,6 @@ $ git config submodule.recurse true
 
 This makes `git pull``git checkout`And `git switch` also update submodules recursively.
 
-:::
 
 ### Worktree and Branch Conflicts
 
@@ -2194,6 +2193,7 @@ $ git push --force-with-lease origin feature
 | `git push --force-with-lease`  | Only overwrites if the remote ref matches your tracking branch                        |
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
 
+:::
 :::caution
 
 `git push --force` is a destructive operation. It discards commits on the remote that are not in
@@ -2346,3 +2346,5 @@ $\blacksquare$
 - `git bisect` uses binary search to find the commit that introduced a bug; $O(\log n)$ steps.
 - `git stash` temporarily shelves working directory changes; `git stash pop` restores them.
 
+
+:::

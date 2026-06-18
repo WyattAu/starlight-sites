@@ -1,8 +1,6 @@
 ---
 title: AP Physics 1 Study Guide
-description:
-  'Qualifications Physics 1.Md AP Physics 1 Study notes covering key definitions, core concepts,
-  worked examples, and practice questions for methodical revision.'
+description: 'Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational...'
 date: 2026-05-31
 tags:
   - ap

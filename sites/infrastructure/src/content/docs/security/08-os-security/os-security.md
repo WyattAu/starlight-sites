@@ -1,8 +1,6 @@
 ---
 title: OS Security
-description:
-  'OS Security notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective review and exam preparation.'
+description: 'SSH is the primary remote administration protocol on Linux. Default configuratio Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Security

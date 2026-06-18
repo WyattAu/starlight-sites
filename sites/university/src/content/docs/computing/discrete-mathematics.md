@@ -1,8 +1,6 @@
 ---
 title: Discrete Mathematics
-description:
-  'University Computing Discrete Mathematics notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools.'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Computing
@@ -1464,7 +1462,6 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
   $T(n) = T(n-1) + n$ (not of the form $a\,T(n/b) + f(n)$). Also, if $f(n)$ falls between cases
   (e.g., $f(n) = n \log n$ with $c_{\mathrm{crit{}} = 1$), the Master Theorem does not apply and the
   Akra--Bazzi method should be used Instead.
-:::
 
 ## 7. Problem Set
 

@@ -5,9 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description:
-  SAT Reading and Writing practice passages with annotated answers. Includes literature,
-  history/social studies, and science passages covering all four content.
+description: 'This page contains five full practice passages modelled after the digital SAT Reading & Writing section. Each passage is followed by annotated answers that...'
 ---
 
 ## Overview

@@ -1,8 +1,6 @@
 ---
 title: Inheritance, Variation, and Evolution
-description:
-  'GCSE Biology Inheritance, Variation, and Evolution notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called .'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Inheritance, Variation, and Evolution
 
-:::info Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway B3 | WJEC B3
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway B3 | WJEC B3
 ## 1. DNA and Genetics
 
 ### 1.1 DNA Structure

@@ -1,8 +1,6 @@
 ---
 title: Network Proxy
-description:
-  'Network Proxy notes covering key definitions, core concepts, worked examples, and practice
-  questions for efficient revision and exam readiness.'
+description: '- Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause...'
 date: 2025-07-25T20:52:26.185Z
 tags:
   - truenas

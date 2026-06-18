@@ -1,8 +1,6 @@
 ---
 title: Concurrency
-description:
-  'Java Concurrency notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted exam preparation and mastery.'
+description: 'Concurrency is not parallelism. Concurrency is about _dealing with_ many things at once; parallelism is about _doing_ many things at once. A single-core...'
 date: 2025-06-05T15:00:00.000Z
 tags: ['java']
 categories: ['java']

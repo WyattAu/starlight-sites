@@ -1,8 +1,6 @@
 ---
 title: Correlation and Regression
-description:
-  'A-Level Maths Correlation and Regression notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed revision.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ----------------------------------- | | AQA | Paper 1 | PMCC, regression lines | | Edexcel | P1 |...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

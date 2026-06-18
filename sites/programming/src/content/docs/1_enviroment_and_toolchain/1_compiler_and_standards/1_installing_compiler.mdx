@@ -1,8 +1,6 @@
 ---
 title: Installing Compiler
-description:
-  'C++ Programming Installing Compiler notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'To develop in C++, a strictly compliant toolchain is required. The following details the Installation of the and toolchains.'
 date: 2025-12-10T03:49:29.438Z
 tags:
   - cpp
@@ -257,6 +255,7 @@ clang++ -std=c++23 -O3 test.cpp -o infra_test
 
 :::caution If you are using MSVC, replace `clang++` with `cl.exe` and ensure you have the latest
 Visual Studio 2022 installed.
+:::
 
 **Success Criteria:**
 
@@ -544,7 +543,7 @@ Behavior because the two libraries disagree on the layout of every standard type
 | Clang 18 (`libc++`) $\leftrightarrow$ GCC 14 (`libstdc++`) | Linux    | **No**          | Different standard library ABIs               |
 | MSVC 2022 $\leftrightarrow$ MinGW Clang                    | Windows  | **No**          | Different C++ ABI (MSVC vs Itanium)           |
 
-See [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.md) for a
+See [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.mdx) for a
 Deeper treatment of ABI breakage scenarios.
 
 ## Common Pitfalls
@@ -669,10 +668,10 @@ Before starting development, run through this checklist:
 
 ## See Also
 
-- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.md)
+- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.mdx)
 - [Standard Library Implementation](3_standard_library_implementation.md)
 - [Cross-compilation Toolchains](4_crosscompilation_toolchains.md)
-- [Linker Configuration](5_linker_configuration.md)
+- [Linker Configuration](5_linker_configuration.mdx)
 
 ## Appendix: Verifying Standard Library Linkage
 
@@ -811,6 +810,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-:::
 

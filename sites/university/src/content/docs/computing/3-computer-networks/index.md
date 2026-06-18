@@ -1,6 +1,6 @@
 ---
 title: Computer Networks
-description: 'Topics in computer networking including network models, protocol layers, routing, transport, and network security.'
+description: 'Computer networks enable the exchange of data between devices across local and wide areas. The study of networking is organised around layered models, such...'
 tags:
   - Computing
   - University
@@ -24,3 +24,45 @@ The TCP/IP model defines four layers: link, internet, transport, and application
 6. [Application Layer](6_application-layer.md)
 7. [Network Security](7_network-security.md)
 8. [Problem Set](8_problem-set.md)
+
+## Overview
+
+University-level computer networks notes covering protocols, architecture, and security.
+
+## Topics Covered
+
+- **Network Models**: OSI, TCP/IP, protocol stacks
+- **Physical and Data Link**: Transmission, framing, error detection
+- **Network Layer**: IP addressing, routing algorithms, DNS
+- **Transport Layer**: TCP, UDP, flow control, congestion control
+
+## Prerequisites
+
+- Basic programming experience
+- Understanding of binary representation
+- Familiarity with client-server architecture
+
+## How to Use These Notes
+
+Start with network models to understand the layered approach, then progress to each layer in detail. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of computer science
+
+## Study Tips
+
+1. **Master the layers**: Understand what each layer does and how they interact
+2. **Learn protocols**: Know the key protocols (TCP, UDP, IP, HTTP, DNS) and their purposes
+3. **Practise with tools**: Use Wireshark to capture and analyse network traffic
+4. **Understand trade-offs**: Reliability vs. speed, security vs. performance
+5. **Connect to applications**: Relate networking concepts to web, email, and streaming

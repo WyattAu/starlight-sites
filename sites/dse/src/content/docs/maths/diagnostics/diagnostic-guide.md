@@ -1,8 +1,6 @@
 ---
 title: DSE Mathematics Diagnostic Guide
-description:
-  'DSE Maths Mathematics Diagnostic notes covering key definitions, core concepts, worked examples,
-  and practice questions for rigorous revision.'
+description: 'Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure...'
 tableOfContents: false
 ---
 

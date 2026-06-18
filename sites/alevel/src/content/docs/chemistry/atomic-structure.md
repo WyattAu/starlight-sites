@@ -1,8 +1,6 @@
 ---
 title: Atomic Structure & Periodicity
-description:
-  'A-Level Chemistry Atomic Structure & Periodicity notes covering key definitions, core concepts,
-  worked examples, and practice questions for analytical revision.'
+description: 'Atoms consist of three principal subatomic particles. Their properties are summa Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

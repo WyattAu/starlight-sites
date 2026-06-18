@@ -1,8 +1,6 @@
 ---
 title: Concurrency
-description:
-  'Software Transactional Memory (STM), TVar, atomically, async library, MVar, Chan, forkIO,
-  threadDelay, parallel strategies, and async exception handling in Haskell.'
+description: 'means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

@@ -3,6 +3,7 @@ title: Group Actions
 tags:
   - Mathematics
   - University
+description: 'A of on a set is a map Written Satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 6.1 Definition

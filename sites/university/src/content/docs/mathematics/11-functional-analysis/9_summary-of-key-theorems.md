@@ -3,6 +3,7 @@ title: Summary of Key Theorems
 tags:
   - Mathematics
   - University
+description: '| Theorem | Statement | | -------------------- | --------------------------------------------------------------------------------------------------- | |...'
 ---
 
 | Theorem              | Statement                                                                                           |

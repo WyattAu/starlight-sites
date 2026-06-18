@@ -3,6 +3,7 @@ title: Optical Fibres
 tags:
   - Physics
   - University
+description: 'An optical fibre consists of a core (refractive index ) surrounded by a cladding (). Light is guided by total internal reflection.'
 ---
 
 ### 12.1 Total Internal Reflection in Fibres

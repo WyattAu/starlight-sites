@@ -2,6 +2,7 @@
 title: Summary
 tags:
   - University Maths
+description: '| Concept | Key Idea | | ----------------------------- | ----------------------------------------------------------------------------------------------------...'
 ---
 
 | Concept                       | Key Idea                                                                                             |

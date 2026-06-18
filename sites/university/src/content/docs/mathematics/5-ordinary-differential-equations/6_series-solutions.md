@@ -3,6 +3,7 @@ title: Series Solutions
 tags:
   - Mathematics
   - University
+description: 'For an ODE where and are analytic near Substitute the Power series and solve for Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 6.1 Power Series Method

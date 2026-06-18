@@ -3,9 +3,7 @@ title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
-description:
-  'IB English A Streetcar Named Desire — Close Reading and notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Tennessee Williams (1911--1983) stands alongside Eugene O'Neill and Arthur Miller as one of the Three foundational figures of twentieth-century American...'
 ---
 
 # A Streetcar Named Desire: Close Reading and Analysis

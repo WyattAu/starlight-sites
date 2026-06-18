@@ -1,8 +1,6 @@
 ---
 title: Sequences and Series
-description:
-  'Qualifications Maths Sequences and Series notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'A is an ordered list of numbers: . Formally, a sequence is a Function from the positive integers (or a subset thereof) to the real numbers:'
 date: 2026-04-14
 tags:
   - ap
@@ -120,7 +118,6 @@ $$
 
 By the $n$Th-term test, the series diverges.
 
-:::
 
 ### The Harmonic Series
 
@@ -162,6 +159,7 @@ $$
 
 When $|r| \lt 1$, $r^n \to 0$So $S_n \to \frac{a}{1 - r}$.
 
+:::
 :::info[Example]
 
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
@@ -173,12 +171,12 @@ $$
 \sum_{n=1}^{\infty} \frac{3}{2^n} = \frac{3/2}{1 - 1/2} = \frac{3/2}{1/2} = 3
 $$
 
-:::
 
 ### Repeating Decimals as Geometric Series
 
 Every repeating decimal can be expressed as a rational number using geometric series.
 
+:::
 :::info[Example]
 
 Express $0.\overline{37}$ as a fraction.
@@ -193,12 +191,12 @@ $$
 0.\overline{37} = \frac{37/100}{1 - 1/100} = \frac{37/100}{99/100} = \frac{37}{99}
 $$
 
-:::
 
 ## Telescoping Series
 
 A telescoping series has terms that cancel in pairs when the partial sum is expanded.
 
+:::
 :::info[Example]
 
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.
@@ -213,7 +211,6 @@ $$
 \lim_{n \to \infty} S_n = 1
 $$
 
-:::
 
 ### Worked Example: Telescoping with Partial Fractions
 
@@ -305,6 +302,7 @@ $$
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
 Of magnitude," so they share the same convergence behavior.
 
+:::
 :::info[Example]
 
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n^2 + 1}$ converges.
@@ -317,7 +315,6 @@ $$
 
 Since $0 \lt 1 \lt \infty$Both series converge by the limit comparison test.
 
-:::
 
 ### Worked Example: Choosing the Right Comparison
 
@@ -352,6 +349,7 @@ Ratio tends to simplify dramatically.
 Large $n$ the terms behave like a geometric series with ratio $L$And geometric series converge When
 the ratio is less than 1.
 
+:::
 :::info[Example]
 
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{n!}{10^n}$ converges.
@@ -362,8 +360,8 @@ $$
 
 Since $L = \infty \gt 1$The series diverges.
 
-:::
 
+:::
 :::info[Example]
 
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{2^n}{n!}$ converges.
@@ -374,7 +372,6 @@ $$
 
 Since $L = 0 \lt 1$The series converges absolutely.
 
-:::
 
 ## The Alternating Series Test (Leibniz Test)
 
@@ -403,6 +400,7 @@ $$
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
 The error by counting terms.
 
+:::
 :::info[Example]
 
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
@@ -414,7 +412,6 @@ We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$So $n + 1 \gt 1000$Meaning $n \ge 100
 
 At least 1000 terms are needed.
 
-:::
 
 ## Absolute and Conditional Convergence
 
@@ -432,6 +429,7 @@ $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two 
 To any real number, or to diverge. This is not true for absolutely convergent series, whose sum is
 Invariant under rearrangement.
 
+:::
 :::info[Example]
 
 Classify $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$.
@@ -443,7 +441,6 @@ Which diverges.
 
 Therefore, the series converges **conditionally**.
 
-:::
 
 ## Power Series (CED BC Unit 10.8)
 
@@ -470,6 +467,7 @@ Convergence**:
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
 
+:::
 :::info[Example]
 
 Find the interval of convergence for $\displaystyle\sum_{n=0}^{\infty} \frac{(x - 2)^n}{n!}$.
@@ -483,8 +481,8 @@ $$
 Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
 
-:::
 
+:::
 :::info[Example]
 
 Find the interval of convergence for $\displaystyle\sum_{n=1}^{\infty} \frac{(x-1)^n}{n}$.
@@ -502,7 +500,6 @@ Series).
 
 Interval of convergence: $[0, 2)$.
 
-:::
 
 ### Term-by-Term Differentiation and Integration
 
@@ -576,6 +573,7 @@ $$
 
 Where $M$ is an upper bound for $|f^{(n+1)}(z)|$ for $z$ between $a$ and $x$.
 
+:::
 :::info[Example]
 
 Use the Maclaurin series for $e^x$ to approximate $e^{0.1}$ with error less than $10^{-8}$.
@@ -602,13 +600,13 @@ $$
 E^{0.1} \approx 1 + 0.1 + \frac{0.01}{2} + \frac{0.001}{6} + \frac{10^{-4}}{24} + \frac{10^{-5}}{120} \approx 1.1051708
 $$
 
-:::
 
 ### Deriving Maclaurin Series by Substitution
 
 You do not need to compute derivatives from scratch every time. If you know the series for $e^u$ You
 can substitute $u = -x^2$ to get the series for $e^{-x^2}$.
 
+:::
 :::info[Example]
 
 Find the Maclaurin series for $\cos(x^2)$.
@@ -619,7 +617,6 @@ $$
 \cos(x^2) = \sum_{n=0}^{\infty} \frac{(-1)^n (x^2)^{2n}}{(2n)!} = \sum_{n=0}^{\infty} \frac{(-1)^n x^{4n}}{(2n)!} = 1 - \frac{x^4}{2!} + \frac{x^8}{4!} - \cdots
 $$
 
-:::
 
 ## Operations on Power Series
 
@@ -634,6 +631,7 @@ $$
 
 Where $c_n = \sum_{k=0}^{n} a_k b_{n-k}$.
 
+:::
 :::info[Example]
 
 Find the Maclaurin series for $e^x \sin x$ up to the $x^5$ term.
@@ -652,10 +650,10 @@ $$
 E^x \sin x = x + x^2 + \frac{x^3}{3} - \frac{x^5}{30} + \cdots
 $$
 
-:::
 
 ### Integration of Power Series
 
+:::
 :::info[Example]
 
 Find the Maclaurin series for $\ln(1 + x)$ by integrating the geometric series.
@@ -674,7 +672,6 @@ $$
 \ln(1 + x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{n+1}}{n+1} = \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n}, \quad |x| \lt 1
 $$
 
-:::
 
 ## Common Pitfalls
 

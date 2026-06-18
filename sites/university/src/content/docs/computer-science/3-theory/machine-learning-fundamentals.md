@@ -1,8 +1,6 @@
 ---
 title: Machine Learning Fundamentals
-description:
-  'University Computer Science Machine Learning Fundamentals notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Given features , predict a continuous target : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

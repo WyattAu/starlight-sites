@@ -2,9 +2,7 @@
 title: Chronicle of a Death Foretold
 tags:
   - english
-description:
-  'IB English Chronicle of a Death Foretold notes covering key definitions, core concepts, worked
-  examples, and practice questions for complete revision.'
+description: 'Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work...'
 ---
 
 ## Author Context

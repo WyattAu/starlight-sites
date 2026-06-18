@@ -1,8 +1,6 @@
 ---
 title: Ratio, Proportion, and Rates of Change
-description:
-  'GCSE Maths Ratio, Proportion, and Rates of Change notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective revision.'
+description: 'A compares quantities of the same kind. Ratios are written in their simplest form by Dividing all parts by their highest common factor.'
 date: 2026-04-14
 tags:
   - gcse

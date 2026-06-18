@@ -1,8 +1,6 @@
 ---
 title: Commit Signing
-description:
-  'Git Commit Signing notes covering key definitions, core concepts, worked examples, and practice
-  questions for rigorous revision and examination preparation.'
+description: 'Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of...'
 
 ---
 

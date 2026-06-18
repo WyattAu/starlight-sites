@@ -1,8 +1,6 @@
 ---
 title: 'Inheritance, Variation and Evolution -- Diagnostic Tests'
-description:
-  'GCSE Biology Inheritance, Variation and Evolution -- notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: '(a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two...'
 tableOfContents: false
 ---
 

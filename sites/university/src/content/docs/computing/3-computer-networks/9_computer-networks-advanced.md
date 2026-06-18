@@ -1,8 +1,6 @@
 ---
 title: Computer Networks (Advanced)
-description:
-  'University Computing Computer Networks (Advanced) notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'is a link-state routing protocol using Dijkstra's algorithm. It operates within  Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing

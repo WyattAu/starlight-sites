@@ -1,8 +1,6 @@
 ---
 title: Sealed Classes
-description:
-  'Dart Sealed Classes notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical learning and effective revision.'
+description: 'Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

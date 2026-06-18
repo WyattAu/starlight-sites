@@ -1,8 +1,6 @@
 ---
 title: 'Paper 3 -- Mechanics -- Full Diagnostic Exam'
-description:
-  'A-Level Maths Paper 3 -- Mechanics -- Full Diagnostic Exam notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls.'
 tableOfContents: false
 ---
 

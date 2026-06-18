@@ -1,8 +1,6 @@
 ---
 title: Indexing and Optimization
-description:
-  'Indexing and Optimization notes covering key definitions, core concepts, worked examples, and
-  practice questions for methodical exam preparation and mastery.'
+description: 'Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one...'
 tags:
   - Databases
 categories:
@@ -106,7 +104,6 @@ PostgreSQL does not immediately reclaim space from page splits. Empty space on B
 Reused by future inserts, but the pages themselves are not returned to the OS until `VACUUM FULL` or
 `pg_repack`. This is why B-tree indexes can become bloated after heavy UPDATE/DELETE workloads.
 
-:::
 
 ## Hash Indexes
 
@@ -225,6 +222,7 @@ CREATE INDEX idx_transactions_large ON transactions (account_id, created_at)
     WHERE amount >= 10000;
 ```
 
+:::
 :::tip
 
 Partial indexes are one of the most underused optimisation tools. If your queries consistently
@@ -232,7 +230,6 @@ Filter on a condition (e.g., `status = 'active'`), a partial index can be 10-100
 Full index while providing the same query performance. The key insight: **do not index data your
 Queries never look for.**
 
-:::
 
 ## Expression Indexes
 
@@ -596,6 +593,7 @@ Pool modes:
 | `transaction` | Server connection held only for the duration of a transaction (recommended)                   |
 | `statement`   | Server connection returned to pool after each statement (limited, breaks prepared statements) |
 
+:::
 :::tip
 
 Transaction-mode pooling with PgBouncer is the standard for web applications. It allows thousands of
@@ -603,7 +601,6 @@ Client connections to share a small pool of server connections ( 25-100). The ca
 statements that are scoped to a server connection may not work as expected, because a Subsequent
 transaction might use a different server connection.
 
-:::
 
 ## Common Pitfalls
 
@@ -686,13 +683,13 @@ REFRESH MATERIALIZED VIEW daily_revenue;
 REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 ```
 
+:::
 :::info
 
 `REFRESH MATERIALIZED VIEW CONCURRENTLY` requires a UNIQUE index on the materialized view. It
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
 But does not block concurrent reads.
 
-:::
 
 ### Subquery Flattening
 
@@ -763,6 +760,7 @@ EXECUTE get_orders_by_customer(42, 'completed');
 DEALLOCATE get_orders_by_customer;
 ```
 
+:::
 :::caution
 
 In PostgreSQL, the planner generates a **generic plan** after 5 executions of a prepared statement.
@@ -910,5 +908,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

@@ -1,8 +1,6 @@
 ---
 title: IB Geography
-description:
-  'IB Geography notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear review and exam preparation.'
+description: 'IB Geography is a two-year course that examines the relationships between individuals, societies, and the physical environment at a range of scales, from...'
 
 ---
 

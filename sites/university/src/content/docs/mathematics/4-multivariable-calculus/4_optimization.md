@@ -3,6 +3,7 @@ title: Optimization
 tags:
   - Mathematics
   - University
+description: 'If has a local extremum at an interior point Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 4.1 Local Extrema

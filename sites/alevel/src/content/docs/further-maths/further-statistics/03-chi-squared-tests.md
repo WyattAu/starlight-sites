@@ -1,8 +1,6 @@
 ---
 title: Chi-Squared Tests
-description:
-  'A-Level Further Maths Chi-Squared Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for rigorous revision.'
+description: 'The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -103,8 +101,7 @@ $$\chi^2_{\mathrm{Yates}} = \sum\frac◆LB◆(|O_i - E_i| - 0.5)^2◆RB◆◆LB�
 
 This correction makes the test more conservative (less likely to reject $H_0$).
 
-:::caution warning categories if expected frequencies are too small.
-:::
+> **Caution:** warning categories if expected frequencies are too small.
 ### 2.6 Worked example: Poisson goodness of fit
 
 **Example.** Over 100 days, the number of accidents per day at a factory was recorded:

@@ -1,8 +1,6 @@
 ---
 title: Context Managers and the with Statement
-description:
-  'Python Context Managers and the with Statement notes covering key definitions, core concepts,
-  worked examples, and practice questions for efficient revision.'
+description: 'The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource...'
 
 ---
 

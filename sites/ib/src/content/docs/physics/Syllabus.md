@@ -1,8 +1,6 @@
 ---
 title: Syllabus
-description:
-  'IB Physics Syllabus notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth exam preparation and revision.'
+description: 'Syllabus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### IB Physics HL Syllabus Overview

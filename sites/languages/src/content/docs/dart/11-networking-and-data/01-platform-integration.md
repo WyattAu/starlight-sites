@@ -1,8 +1,6 @@
 ---
 title: Platform Integration
-description:
-  'Dart Platform Integration notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive study and thorough revision.'
+description: 'Flutter provides a rich set of widgets and plugins, but some capabilities require direct interaction With the underlying operating system. The device's...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

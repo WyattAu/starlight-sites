@@ -1,8 +1,6 @@
 ---
 title: 'Atomic Structure -- Diagnostic Tests'
-description:
-  'GCSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core
-  concepts, worked examples, and practice questions for in-depth revision.'
+description: 'Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 tableOfContents: false
 ---
 

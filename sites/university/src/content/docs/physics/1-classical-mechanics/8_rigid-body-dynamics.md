@@ -3,6 +3,7 @@ title: Rigid Body Dynamics
 tags:
   - Physics
   - University
+description: 'A is a system of particles in which the distance between every pair of particles Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 8.1 Rigid Body Kinematics

@@ -1,8 +1,6 @@
 ---
 title: Distributed Systems
-description:
-  'University Computer Science Distributed Systems notes covering key definitions, core concepts,
-  worked examples, and practice questions for efficient revision.'
+description: 'A distributed system can guarantee at most of the following three properties sim Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

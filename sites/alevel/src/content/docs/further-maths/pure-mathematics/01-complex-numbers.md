@@ -1,8 +1,6 @@
 ---
 title: Complex Numbers
-description:
-  'A-Level Further Maths Complex Numbers notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -73,8 +71,7 @@ $$
 
 Where $\overline{z_2} = c - di$ is the _complex conjugate_ of $z_2$.
 
-:::caution warning $\theta = \arctan(b/a)$ only gives the correct principal argument when $a > 0$.
-:::
+> **Caution:** warning $\theta = \arctan(b/a)$ only gives the correct principal argument when $a > 0$.
 <details>
 <summary>Worked Example: Modulus, argument, and polar form</summary>
 
@@ -292,8 +289,7 @@ Z^n &= r^n e^{in\theta} & &\mathrm{(argument multiplies)}
 \end{aligned}
 $$
 
-:::info info with the $\cos\theta + i\sin\theta$ form. All boards require De Moivre's theorem.
-:::
+> **Info:** info with the $\cos\theta + i\sin\theta$ form. All boards require De Moivre's theorem.
 <hr />
 
 ## 5. Loci in the Argand Diagram

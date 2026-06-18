@@ -1,8 +1,6 @@
 ---
 title: PSU Selection and BIOS Configuration
-description:
-  'PSU Selection and BIOS Configuration notes covering key definitions, core concepts, worked
-  examples, and practice questions for systematic revision.'
+description: 'A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains...'
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Tuning

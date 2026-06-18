@@ -1,8 +1,6 @@
 ---
 title: Property Propagation
-description:
-  'C++ Programming Property Propagation notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured preparation.'
+description: 'In legacy C++ build systems (Makefiles, Visual Studio Solutions), build settings like "Include Directories" and "Preprocessor Definitions" were often global...'
 date: 2025-12-11T05:21:57.536Z
 tags:
   - cpp

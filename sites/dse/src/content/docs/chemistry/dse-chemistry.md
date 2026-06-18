@@ -1,8 +1,6 @@
 ---
 title: DSE Chemistry
-description:
-  'DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth exam preparation and revision.'
+description: 'The Hong Kong Diploma of Secondary Education (DSE) Chemistry examination assesses candidates' Knowledge and understanding of chemical principles, their...'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Chemistry

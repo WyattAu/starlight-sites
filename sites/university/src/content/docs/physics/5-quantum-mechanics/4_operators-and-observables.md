@@ -3,6 +3,7 @@ title: Operators and Observables
 tags:
   - Physics
   - University
+description: 'Operators and Observables: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 4.1 Position and Momentum Operators

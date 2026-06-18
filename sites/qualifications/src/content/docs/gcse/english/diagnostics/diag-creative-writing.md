@@ -1,8 +1,6 @@
 ---
 title: 'Creative Writing -- Diagnostic Tests'
-description:
-  'GCSE English Creative Writing -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 tableOfContents: false
 ---
 

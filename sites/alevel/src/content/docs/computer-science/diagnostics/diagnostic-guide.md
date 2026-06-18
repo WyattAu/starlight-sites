@@ -1,8 +1,6 @@
 ---
 title: 'A-Level Computer Science -- Diagnostic Guide'
-description:
-  'A-Level Computer Science -- Diagnostic notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: '| Diagnostic File | Topics Covered | Source Files | | ------------------------------- | ---------------------------------------------------------------------...'
 tableOfContents: false
 ---
 

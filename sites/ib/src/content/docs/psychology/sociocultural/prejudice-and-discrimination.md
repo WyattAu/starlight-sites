@@ -1,8 +1,6 @@
 ---
 title: Prejudice and Discrimination
-description:
-  'IB Psychology Prejudice and Discrimination notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: 'Prejudice and discrimination are among the most consequential social phenomena studied by Psychologists. Prejudice refers to a negative attitude toward a...'
 
 ---
 

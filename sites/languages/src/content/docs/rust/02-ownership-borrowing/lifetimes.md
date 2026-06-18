@@ -1,8 +1,6 @@
 ---
 title: Lifetimes
-description:
-  'Rust Lifetimes notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured study and thorough revision.'
+description: 'Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference...'
 
 ---
 
@@ -983,5 +981,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

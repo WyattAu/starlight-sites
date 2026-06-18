@@ -1,8 +1,6 @@
 ---
 title: A-Level Chemistry Diagnostic Guide
-description:
-  'A-Level Chemistry Diagnostic notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective preparation.'
+description: 'This diagnostic suite contains 13 topic-level tests for A-Level Chemistry. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3...'
 tableOfContents: false
 ---
 

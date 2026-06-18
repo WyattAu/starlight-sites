@@ -1,8 +1,6 @@
 ---
 title: Bioenergetics
-description:
-  'GCSE Biology Bioenergetics notes covering key definitions, core concepts, worked examples, and
-  practice questions for detailed review and exam preparation.'
+description: 'Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen.'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Bioenergetics
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B2 & B3 | WJEC B2
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B2 & B3 | WJEC B2
 ## 1. Photosynthesis
 
 ### 1.1 The Equation

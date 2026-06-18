@@ -1,8 +1,6 @@
 ---
 title: Data Representation
-description:
-  'DSE Ict Data Representation notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear exam preparation and revision.'
+description: 'This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

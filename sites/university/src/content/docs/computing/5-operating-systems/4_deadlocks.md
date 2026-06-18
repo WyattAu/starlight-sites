@@ -3,6 +3,7 @@ title: Deadlocks
 tags:
   - Computing
   - University
+description: 'A is a situation where a set of processes are all blocked, each waiting for a resource Held by another process in the set.'
 ---
 
 ### 4.1 Definition and Necessary Conditions

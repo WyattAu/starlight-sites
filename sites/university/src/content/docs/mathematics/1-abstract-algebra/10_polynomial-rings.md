@@ -3,6 +3,7 @@ title: Polynomial Rings
 tags:
   - Mathematics
   - University
+description: 'Polynomial Rings: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 10.1 Definition and Basic Properties

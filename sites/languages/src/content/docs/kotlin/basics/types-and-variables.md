@@ -1,8 +1,6 @@
 ---
 title: Types and Variables
-description:
-  'Kotlin Types and Variables notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted exam preparation and revision.'
+description: 'declares a read-only variable (assigned once). declares a mutable variable. Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-18
 tags:
   - Kotlin

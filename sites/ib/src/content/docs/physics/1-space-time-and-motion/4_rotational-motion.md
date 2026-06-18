@@ -51,7 +51,6 @@ $$
 V = r\omega = 0.05 \times 20.9 = 1.05\mathrm{ m/s}
 $$
 
-:::
 
 ---
 
@@ -77,13 +76,13 @@ Always directed toward the centre of the circular path (radially inward).
   by Newton's first law.
 - The word "centripetal" means "centre-seeking."
 
+:::
 :::caution[Exam Tip]
 
 Centripetal force is NOT a new force — it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
 Separate force on a free-body diagram.
 
-:::
 
 ---
 
@@ -139,6 +138,7 @@ The radius: $r = L\sin\theta$
 
 The period: $T_p = 2\pi\sqrt{\dfrac{L\cos\theta}{g}}$
 
+:::
 :::info[Example]
 
 A $0.5\mathrm{ kg}$ mass on a string of length $1\mathrm{ m}$ moves in a horizontal circle at
@@ -178,7 +178,6 @@ $$
 T = \frac`\{mg}`{\cos\theta} = \frac{0.5 \times 9.81}{0.642} = 7.64\mathrm{ N}
 $$
 
-:::
 
 ---
 
@@ -223,6 +222,7 @@ $$
 V_{\mathrm{bottom}} = \sqrt{5gr}
 $$
 
+:::
 :::info[Example]
 
 A $0.3\mathrm{ kg}$ ball on a string of length $0.8\mathrm{ m}$ is swung in a vertical circle. Find
@@ -232,7 +232,6 @@ $$
 V_{\mathrm{bottom}} = \sqrt{5gr} = \sqrt{5(9.81)(0.8)} = \sqrt{39.24} = 6.26\mathrm{ m/s}
 $$
 
-:::
 
 ---
 
@@ -302,6 +301,7 @@ For an object in **static equilibrium**:
 
 The second condition must hold about ANY axis.
 
+:::
 :::info[Example]
 
 A uniform beam of mass $10\mathrm{ kg}$ and length $4\mathrm{ m}$ is supported at its ends. A
@@ -331,7 +331,6 @@ $$
 R_{\mathrm{left}} = 294.3 - 98.1 = 196.2\mathrm{ N}
 $$
 
-:::
 
 ---
 
@@ -405,6 +404,7 @@ $$
 - **Diving**: Tucking reduces $I$Increasing angular velocity for flips.
 - **Figure skater**: Extending arms increases $I$Decreasing $\omega$ for a controlled landing.
 
+:::
 :::info[Example]
 
 A figure skater with arms extended has $I = 4.5\mathrm{ kg}\cdot\mathrm{m}^2$ and spins at
@@ -425,7 +425,6 @@ $$
 
 Her angular velocity triples.
 
-:::
 
 ### Angular Impulse
 
@@ -471,6 +470,7 @@ $$
 V = \sqrt{\frac{2gh}{1 + \frac{I}{Mr^2}}}
 $$
 
+:::
 :::info[Example]
 
 Compare the speeds of a solid sphere, a hollow sphere, and a solid cylinder rolling down the same
@@ -483,7 +483,6 @@ Incline from the same height.
 The solid sphere is fastest, followed by the solid cylinder, then the hollow sphere. Objects with
 More mass concentrated near the centre (smaller $I$) roll faster.
 
-:::
 
 ---
 
@@ -636,13 +635,13 @@ She can complete 1 full somersault and is partway through a second.
 | Rotational kinetic energy        | $E_k = \dfrac{1}{2}I\omega^2$             |
 | Conservation of angular momentum | $I_1\omega_1 = I_2\omega_2$               |
 
+:::
 :::tip[Exam Strategy]
 
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
 The centripetal force. For vertical circle problems, use energy conservation to relate speeds at
 Different points. For torque problems, identify the pivot and calculate the moment arm.
 
-:::
 
 ---
 
@@ -668,6 +667,7 @@ $$
 \theta = \frac{1}{2}(\omega_0 + \omega)t
 $$
 
+:::
 :::info[Example]
 
 A flywheel starts from rest and accelerates uniformly at $2\mathrm{ rad/s}^2$ for $5\mathrm{ s}$.
@@ -694,7 +694,6 @@ $$
 V = r\omega = 0.3 \times 10 = 3.0\mathrm{ m/s}
 $$
 
-:::
 
 ---
 

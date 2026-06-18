@@ -1,8 +1,6 @@
 ---
 title: Algebra
-description:
-  'ILC Maths Algebra notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured study and examination practice.'
+description: 'Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both Paper 1 and Paper 2. This topic covers algebraic...'
 date: 2026-04-14
 tags:
   - ilc

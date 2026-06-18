@@ -1,8 +1,6 @@
 ---
 title: HTTP
-description:
-  'HTTP notes covering key definitions, core concepts, worked examples, and practice questions for
-  detailed revision and exam readiness.'
+description: 'HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents...'
 tags:
   - Networking
 categories:
@@ -96,7 +94,6 @@ The distinction between 301/302 and 307/308 matters for methods. 301 and 302 all
 Change the method from POST to GET on redirect. 307 and 308 preserve the original method. If you
 Redirect a POST request, use 307/308 unless you explicitly want the method changed.
 
-:::
 
 **4xx -- Client Errors:**
 
@@ -471,13 +468,13 @@ Values (e.g., one for gzip, one for br).
 Vary: Accept-Encoding, Origin
 ```
 
+:::
 :::caution
 
 Misconfigured `Vary` headers are a common source of caching bugs. If `Vary: *` is set, the response
 Is never cached. If `Vary` omits a header that affects the response (e.g., `Vary: Accept-Encoding`
 But the response varies by `Origin`), the wrong content may be served to different users.
 
-:::
 
 ## Cookies and Sessions
 
@@ -503,12 +500,12 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 | `Max-Age=3600`        | Expires in 3600 seconds                           |
 | `Expires=...`         | Absolute expiration date                          |
 
+:::
 :::caution
 
 Always set `Secure``HttpOnly`And `SameSite` on session cookies. Failing to set `HttpOnly` allows XSS
 attacks to steal session tokens. Failing to set `SameSite` allows CSRF attacks.
 
-:::
 
 ## CORS (Cross-Origin Resource Sharing)
 
@@ -859,13 +856,13 @@ WebSocket frames have a 2-14 byte header (depending on payload length) and suppo
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
 Over TLS).
 
+:::
 :::caution
 
 WebSocket connections bypass HTTP caching, CORS, and many security controls. Use WebSocket only when
 You need persistent, low-latency, bidirectional communication. For periodic updates, Server- Sent
 Events (SSE) are simpler and work over standard HTTP.
 
-:::
 
 ## Server-Sent Events (SSE)
 
@@ -932,3 +929,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

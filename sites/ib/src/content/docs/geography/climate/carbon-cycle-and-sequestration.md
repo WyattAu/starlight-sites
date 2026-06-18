@@ -1,8 +1,6 @@
 ---
 title: Carbon Cycle and Sequestration
-description:
-  'IB Geography Carbon Cycle and Sequestration notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'The carbon cycle describes the continuous exchange of carbon between Earth's atmosphere, biosphere, Hydrosphere, lithosphere, and anthroposphere. Carbon...'
 
 ---
 

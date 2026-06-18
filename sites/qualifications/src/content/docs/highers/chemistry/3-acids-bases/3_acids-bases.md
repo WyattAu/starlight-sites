@@ -1,8 +1,6 @@
 ---
 title: Acids and Bases
-description:
-  'Scottish Highers Chemistry Acids and Bases notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'An acid produces ions in solution; a base produces ions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-14
 tags:
   - highers

@@ -1,8 +1,6 @@
 ---
 title: Functions and Modules
-description:
-  'Named functions, anonymous functions, module definitions, structs, protocols, behaviours,
-  typespecs, and module attributes in Elixir.'
+description: 'Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for ).'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

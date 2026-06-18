@@ -1,8 +1,6 @@
 ---
 title: Introduction to Elixir
-description:
-  'Elixir introduction covering language history, Erlang VM (BEAM) foundation, functional
-  programming paradigm, immutability, ecosystem overview, environment setup, and tooling.'
+description: 'Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

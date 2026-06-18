@@ -1,8 +1,6 @@
 ---
 title: TCP State Machine
-description:
-  'TCP State Machine notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid revision and exam readiness.'
+description: 'The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of...'
 tags:
   - Networking
 categories:
@@ -195,7 +193,6 @@ If you see thousands of FIN_WAIT_2 connections on a server, the remote peers are
 Side of the connection. This is a client application bug (not calling `close()` or `shutdown()`) or
 a firewall silently dropping the peer's FIN.
 
-:::
 
 ## Simultaneous Open
 
@@ -294,13 +291,13 @@ sysctl -w net.ipv4.tcp_tw_reuse=1
 sysctl -w net.ipv4.tcp_tw_recycle=1
 ```
 
+:::
 :::caution
 
 `tcp_tw_recycle=1` was removed in Linux 4.12 due to serious reliability problems. It caused packet
 Loss for clients behind NAT because it relied on timestamps to track per-host connection state, and
 NAT multiplexed many clients onto the same source IP. Do NOT use it.
 
-:::
 
 **Option 3: Use SO_LINGER with timeout 0.**
 
@@ -314,6 +311,7 @@ ling.l_linger = 0;
 setsockopt(fd, SOL_SOCKET, SO_LINGER, &ling, sizeof(ling));
 ```
 
+:::
 :::caution
 
 Sending RST instead of FIN means the peer never receives a graceful close indication. The peer sees
@@ -321,7 +319,6 @@ Sending RST instead of FIN means the peer never receives a graceful close indica
 Certain the peer handles RST correctly, and never for connections where data integrity matters
 (databases, file transfers).
 
-:::
 
 **Option 4: Connection pooling.**
 
@@ -535,13 +532,13 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 | Configurability | System-wide (sysctl)         | Per-connection (app code) |
 | Failure signal  | `ECONNRESET` or `ETIMEDOUT`  | Application-defined       |
 
+:::
 :::tip
 
 Use TCP keepalive as a safety net and application-level heartbeats for timely detection. TCP
 Keepalone alone is too slow for most server applications. A 2-hour dead connection detection is
 Unacceptable for a database connection pool.
 
-:::
 
 ## Connection Draining and Graceful Shutdown
 
@@ -803,6 +800,7 @@ sysctl -w net.ipv4.tcp_congestion_control=bbr
 sysctl -w net.core.default_qdisc=fq    # Fair Queuing recommended with BBR
 ```
 
+:::
 :::tip
 
 BBR v2 (2023) improves upon BBR v1 by being more fair to other flows sharing the same bottleneck. If
@@ -829,5 +827,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

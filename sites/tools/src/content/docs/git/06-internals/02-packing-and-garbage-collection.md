@@ -1,8 +1,6 @@
 ---
 title: Packing and Garbage Collection
-description:
-  'Git Packing and Garbage Collection notes covering key definitions, core concepts, worked
-  examples, and practice questions for analytical revision.'
+description: 'Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2025-06-03T13:00:00.000Z
 tags:
   - git
@@ -255,3 +253,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

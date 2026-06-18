@@ -1,8 +1,6 @@
 ---
 title: Backup and Replication
-description:
-  'Backup and Replication notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused study and examination practice.'
+description: 'The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 
 ---
 

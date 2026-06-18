@@ -1,8 +1,6 @@
 ---
 title: Floating Point Representation
-description:
-  'A-Level Computer Science Floating Point Representation notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Fixed-point representation allocates a fixed number of bits to the integer and fractional parts, Limiting both range and precision. decouples these: it uses...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

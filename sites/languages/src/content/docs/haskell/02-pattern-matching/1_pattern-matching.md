@@ -1,8 +1,6 @@
 ---
 title: Pattern Matching
-description:
-  'Haskell pattern matching on constructors, literals, variables, wildcards, tuples, lists,
-  as-patterns, case expressions, nested patterns, and algebraic data types.'
+description: 'Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

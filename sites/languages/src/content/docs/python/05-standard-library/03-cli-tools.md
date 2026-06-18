@@ -1,8 +1,6 @@
 ---
 title: CLI Tools
-description:
-  'Python CLI Tools notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical revision and exam readiness.'
+description: 'Building command-line interfaces in Python is not a "pick one and go" decision. The standard library Gives you (bare metal) and (batteries-included), while...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

@@ -101,8 +101,8 @@ $$
 \mathrm{Var}(X) = 3.4 - 1.6^2 = 3.4 - 2.56 = 0.84, \quad \sigma = \sqrt{0.84} \approx 0.917
 $$
 
-:::
 
+:::
 :::info[Example: Finding an unknown parameter]
 
 $P(X = x) = kx$ for $x = 1, 2, 3, 4$. Find $k$ and $E(X)$.
@@ -111,7 +111,6 @@ $k(1 + 2 + 3 + 4) = 1 \implies 10k = 1 \implies k = 0.1$
 
 $E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0$
 
-:::
 
 <details>
 <summary>Worked Example: E(X) and Var(X) from a Table</summary>
@@ -212,6 +211,7 @@ $$
 P(X = k) \approx P\!\left(\frac{k - 0.5 - np}{\sqrt{np(1-p)}} \lt Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)
 $$
 
+:::
 :::info[Example]
 
 A factory produces bulbs with 3% defect rate. $X \sim B(20, 0.03)$ is the number of defects in a
@@ -225,8 +225,8 @@ $P(X \ge 3) = 1 - P(X \le 2) \approx 1 - 0.8802 - 0.0988 = 0.0210$
 
 $E(X) = 20(0.03) = 0.6$, $\sigma = \sqrt{20(0.03)(0.97)} = \sqrt{0.582} \approx 0.763$
 
-:::
 
+:::
 :::info[Example: IB Paper 2 style]
 
 A multiple choice test has 15 questions with 5 options each. A student guesses all answers.
@@ -241,7 +241,6 @@ To set a pass mark so that guessing gives at most 1% chance of passing:
 
 $P(X \ge 7) \approx 0.0181$ and $P(X \ge 8) \approx 0.0042$So the minimum pass mark is 8 correct.
 
-:::
 
 <details>
 <summary>Worked Example: Binomial Probability with Normal Approximation</summary>
@@ -325,6 +324,7 @@ $$
 If the rate is $\lambda$ per unit interval, then over $t$ intervals the count is
 $\mathrm{Po}(t\lambda)$.
 
+:::
 :::info[Example]
 
 A helpdesk receives $\lambda = 3.5$ calls per hour. $X \sim \mathrm{Po}(3.5)$.
@@ -335,8 +335,8 @@ $P(X \le 2) = e^{-3.5}\!\left(1 + 3.5 + \dfrac{12.25}{2}\right) = 10.625 \, e^{-
 
 Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.4013$.
 
-:::
 
+:::
 :::info[Example: Poisson approximation to Binomial]
 
 A typesetter makes errors at a rate of 1 per 500 characters. In a passage of 2000 characters, find
@@ -353,7 +353,6 @@ $P(X \le 2) = (499/500)^{2000} + 2000(1/500)(499/500)^{1999} + \binom{2000}{2}(1
 
 This is computationally intensive but gives a result extremely close to 0.2381.
 
-:::
 
 <details>
 <summary>Worked Example: Poisson Distribution</summary>
@@ -452,6 +451,7 @@ When $\mu$ or $\sigma$ is unknown, use standardisation with a known probability 
 Simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
 Are needed.
 
+:::
 :::info[Example]
 
 Bags of flour: $X \sim N(1000, 225)$ (mean 1000 g, $\sigma = 15$ g).
@@ -462,8 +462,8 @@ $P(X \lt 970) = P(Z \lt -2) = 0.0228$So about 2.28% are rejected.
 
 For the mass exceeded by only 5%: $P(X \le x) = 0.95$, $x = 1000 + 1.645(15) = 1024.67$ g.
 
-:::
 
+:::
 :::info[Example: Unknown parameters]
 
 Test scores are normal. 15% score above 80, 10% score below 45. Find $\mu$ and $\sigma$.
@@ -472,8 +472,8 @@ $\dfrac{80 - \mu}{\sigma} = 1.036$ and $\dfrac{45 - \mu}{\sigma} = -1.282$.
 
 Subtracting: $35 = 2.318\sigma$So $\sigma \approx 15.1$ and $\mu = 80 - 1.036(15.1) \approx 64.4$.
 
-:::
 
+:::
 :::info[Example: Normal approximation to Binomial]
 
 $X \sim B(80, 0.4)$. Find $P(X \le 30)$ using a normal approximation.
@@ -487,7 +487,6 @@ $\approx 0.3665$
 
 Exact binomial: $P(X \le 30) \approx 0.3642$. The approximation is very close.
 
-:::
 
 <details>
 <summary>Worked Example: Normal Distribution with Unknown Parameters</summary>
@@ -549,6 +548,7 @@ $$
 
 For any $[c, d] \subseteq [a, b]$: $P(c \le X \le d) = \dfrac{d - c}{b - a}$.
 
+:::
 :::info[Example]
 
 A bus arrives every 15 minutes. $X \sim U(0, 15)$ is the waiting time.
@@ -560,7 +560,6 @@ $E(X) = 7.5$ minutes, $\sigma = \dfrac{15}{2\sqrt{3}} = \dfrac{5\sqrt{3}}{2} \ap
 Given 5 minutes already waited, the remaining wait is $U(0, 10)$:
 $P(\mathrm{wait} \ge 8) = 2/10 = 1/5$.
 
-:::
 
 ---
 
@@ -609,6 +608,7 @@ $$
 
 The first $n$ trials must all be failures. Similarly $P(X \ge n) = (1-p)^{n-1}$.
 
+:::
 :::info[Example]
 
 A basketball player has free-throw success rate 72%. $X \sim \mathrm{Geo}(0.72)$.
@@ -619,7 +619,6 @@ $P(X \gt 5) = (0.28)^5 \approx 0.00172$
 
 $E(X) = 1/0.72 \approx 1.389$ attempts.
 
-:::
 
 <details>
 <summary>Worked Example: Geometric Distribution</summary>
@@ -671,6 +670,7 @@ $$
 Note the parallel with geometric: multiplying $r$ by a factor scales both $E(X)$ and
 $\mathrm{Var}(X)$ by the same factor.
 
+:::
 :::info[Example]
 
 A coin has $P(\mathrm{heads}) = 0.4$. $X \sim \mathrm{NB}(3, 0.4)$ counts flips for 3 heads.
@@ -679,7 +679,6 @@ $P(X = 7) = \dbinom{6}{2}(0.4)^3(0.6)^4 = 15 \times 0.064 \times 0.1296 \approx 
 
 $E(X) = 3/0.4 = 7.5$, $\mathrm{Var}(X) = 3(0.6)/0.16 = 11.25$ $\sigma = \sqrt{11.25} \approx 3.354$.
 
-:::
 
 ---
 
@@ -709,14 +708,15 @@ $$
 As $n$ increases, the standard error decreases: larger samples give more precise estimates of the
 Population mean.
 
+:::
 :::info[Example]
 
 Apple masses: mean 150 g, $\sigma = 20$ g. Sample of 36. Find $P(\bar{X} \gt 155)$.
 
 $\bar{X} \sim N(150, 400/36)$. $P\!\left(Z \gt \dfrac{5}{20/6}\right) = P(Z \gt 1.5) = 0.0668$.
 
-:::
 
+:::
 :::info[Example: Sum of uniform variables]
 
 $X \sim U(2, 10)$. Sample of 50 observations. Find $P(\mathrm{sum} \gt 310)$.
@@ -725,7 +725,6 @@ $\mu = 6$, $\sigma^2 = 64/12 = 16/3$. Sum has mean $300$ and variance $50(16/3) 
 
 $P\!\left(Z \gt \dfrac{10}{\sqrt{800/3}}\right) = P(Z \gt 0.612) \approx 0.2704$.
 
-:::
 
 ---
 
@@ -762,6 +761,7 @@ Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$
 Required sample size for margin $E$: $n = \left(\dfrac{z_{\alpha/2} \cdot \sigma}{E}\right)^2$
 (round up to the next integer).
 
+:::
 :::info[Example]
 
 Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498$ ml.
@@ -770,7 +770,6 @@ Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498
 
 For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$Round up to 97.
 
-:::
 
 ---
 
@@ -808,12 +807,12 @@ $$
 
 Where $\mathrm{Cov}(X, Y) = E(XY) - E(X)E(Y) = 0$ when $X$ and $Y$ are independent.
 
+:::
 :::caution[Important]
 
 Linearity of expectation always holds. The simple variance formula
 $\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ requires independence.
 
-:::
 
 ### Independent Copies
 
@@ -837,6 +836,7 @@ $$
 
 This is exact (not an approximation) for normal variables, and requires no CLT.
 
+:::
 :::info[Example]
 
 $X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$Independent.
@@ -847,8 +847,8 @@ $\mathrm{Var}(X + Y) = 10(0.3)(0.7) + 15(0.4)(0.6) = 2.1 + 3.6 = 5.7$
 
 $\mathrm{Var}(2X - 3Y) = 4(2.1) + 9(3.6) = 8.4 + 32.4 = 40.8$
 
-:::
 
+:::
 :::info[Example: Normal combinations]
 
 Bus ride $X \sim N(25, 16)$Walk $Y \sim N(10, 9)$Independent.
@@ -860,7 +860,6 @@ Machine A produces rods: $X \sim N(50.0, 0.04)$. Machine B: $Y \sim N(50.2, 0.09
 $X - Y \sim N(-0.2, 0.13)$.
 $P(X - Y \gt 0) = P\!\left(Z \gt \dfrac{0.2}{\sqrt{0.13}}\right) = P(Z \gt 0.555) \approx 0.2894$.
 
-:::
 
 <details>
 <summary>Worked Example: Combining Random Variables</summary>
@@ -1011,13 +1010,13 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 
 9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$Not $3\mathrm{Var}(X)$.
 
+:::
 :::tip[Exam Strategy]
 
 Always define your random variable and state the distribution with parameters at the start. For
 Normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
 whether independence is assumed. For confidence intervals, state the level and Interpret in context.
 
-:::
 
 ---
 

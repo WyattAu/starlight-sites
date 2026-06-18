@@ -1,8 +1,6 @@
 ---
 title: GitHub Actions CI/CD Patterns
-description:
-  'Git Hub Actions CI/CD Patterns notes covering key definitions, core concepts, worked examples,
-  and practice questions for efficient revision and exam readiness.'
+description: 'GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows...'
 
 ---
 
@@ -235,7 +233,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Target environment'
+description: 'GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows...'
         required: true
         default: 'staging'
         type: choice

@@ -1,8 +1,6 @@
 ---
 title: Depression
-description:
-  'IB Psychology Depression notes covering key definitions, core concepts, worked examples, and
-  practice questions for efficient exam preparation and mastery.'
+description: 'Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),...'
 
 ---
 

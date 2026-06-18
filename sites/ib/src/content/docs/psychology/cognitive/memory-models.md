@@ -1,8 +1,6 @@
 ---
 title: Memory Models
-description:
-  'IB Psychology Memory Models notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective revision.'
+description: 'The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models In cognitive psychology. It conceptualises memory as...'
 
 ---
 

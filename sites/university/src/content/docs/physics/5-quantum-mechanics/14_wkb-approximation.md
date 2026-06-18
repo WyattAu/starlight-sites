@@ -3,6 +3,7 @@ title: WKB Approximation
 tags:
   - Physics
   - University
+description: 'The WKB (Wentzel--Kramers--Brillouin) method provides approximate solutions to the one-dimensional Schrodinger equation when the potential varies slowly...'
 ---
 
 ### 13.1 The WKB Method

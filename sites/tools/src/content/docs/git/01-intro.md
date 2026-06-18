@@ -1,8 +1,6 @@
 ---
 title: Introduction to Git
-description:
-  'Git Introduction to Git notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough preparation.'
+description: 'Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a...'
 date: 2025-06-02T21:50:00.000Z
 tags:
   - git
@@ -30,7 +28,6 @@ Shaped Git's architecture.
 This guide assumes Git $\geq 2.40$. Check your version with `git --version`. Many features described
 Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
 
-:::
 
 ## Design Philosophy
 
@@ -104,13 +101,13 @@ Contributors on dial-up connections needed to work efficiently.
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
 | Binary file handling | Poor (use Git LFS)                 | Poor (use Largefiles)         | Good                      | Good                      |
 
+:::
 :::tip
 
 If you are working with large binary assets (images, videos, compiled binaries), consider
 [Git LFS](https://git-lfs.github.com/) or [Git Annex](https://git-annex.branchable.com/). Vanilla
 Git is optimized for text files.
 
-:::
 
 ## Installation and Initial Configuration
 
@@ -240,3 +237,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

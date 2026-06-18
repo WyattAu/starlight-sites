@@ -3,6 +3,7 @@ title: The Sylow Theorems
 tags:
   - Mathematics
   - University
+description: 'Let be a finite group of order where is prime and . A **Sylow Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 7.1 Statement

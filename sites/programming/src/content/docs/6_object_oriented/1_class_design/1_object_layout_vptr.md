@@ -1,8 +1,6 @@
 ---
 title: Object Layout, vptr, and the this Pointer
-description:
-  'C++ Programming Object Layout, vptr, and the this Pointer notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Understanding how the compiler lays out objects in memory is fundamental to writing correct and Efficient C++. This section covers the memory layout of...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

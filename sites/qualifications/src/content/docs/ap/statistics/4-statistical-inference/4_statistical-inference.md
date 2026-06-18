@@ -1,8 +1,6 @@
 ---
 title: Statistical Inference
-description:
-  'AP Statistics inference notes covering confidence intervals, hypothesis testing, significance
-  levels, Type I and Type II errors, chi-square tests, and inference for regression.'
+description: 'Statistical inference uses sample data to draw conclusions about a population. There are two main types: (estimating a parameter) and (testing a claim about...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

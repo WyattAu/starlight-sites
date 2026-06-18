@@ -1,8 +1,6 @@
 ---
 title: Protocols and Dunder Methods
-description:
-  'Python Protocols and Dunder Methods notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'Python's data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not...'
 
 ---
 

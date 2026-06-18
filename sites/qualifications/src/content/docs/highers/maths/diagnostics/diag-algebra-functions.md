@@ -1,8 +1,6 @@
 ---
 title: 'Algebra and Functions -- Diagnostic Tests'
-description:
-  'Scottish Highers Maths Algebra and Functions -- Diagnostic Tests notes covering key definitions,
-  core concepts, worked examples, and practice questions for in-depth revision.'
+description: 'Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls.'
 tableOfContents: false
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Monitoring and Alerting
-description:
-  'Monitoring and Alerting notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete exam preparation and mastery.'
+description: 'The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.'
 
 ---
 
@@ -844,9 +842,7 @@ groups:
           severity: warning
         annotations:
           summary: 'ZFS pool {{ $labels.pool }} is above 85% capacity'
-description:
-  'Monitoring and Alerting notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete exam preparation and mastery.'
+description: 'The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.'
 ```
 
 ## Log Analysis Deep Dive

@@ -1,8 +1,6 @@
 ---
 title: Submodules
-description:
-  'Git Submodules notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough exam preparation and mastery.'
+description: 'Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository — not...'
 date: 2025-06-03T11:00:00.000Z
 tags:
   - git
@@ -236,3 +234,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

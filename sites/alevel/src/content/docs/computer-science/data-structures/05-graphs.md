@@ -1,8 +1,6 @@
 ---
 title: Graphs
-description:
-  'A-Level Computer Science Graphs notes covering key definitions, core concepts, worked examples,
-  and practice questions for study and revision.'
+description: 'A consists of a set of (nodes) and a set of Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -244,8 +242,7 @@ before $u$ — contradiction. Therefore $\mathrm{dist}[u] = d(s, u)$. $\square$
 **Complexity:** With a binary heap: $O((V + E) \log V)$. Each vertex is extracted once ($O(\log V)$
 Each), and each edge causes at most one decrease-key ($O(\log V)$ each).
 
-:::caution Warning Bellman-Ford algorithm instead for graphs that may contain negative weights.
-:::
+> **Caution:** Warning Bellman-Ford algorithm instead for graphs that may contain negative weights.
 <hr />
 
 ## 5. Minimum Spanning Tree (MST)
@@ -649,7 +646,6 @@ For undirected graphs, we additionally check that the back edge doesn't go to th
 For revision on algorithms, see
 [Graph Algorithms](/docs/alevel/computer-science/algorithms/graph-algorithms).
 
-:::
 
 ## Common Pitfalls
 

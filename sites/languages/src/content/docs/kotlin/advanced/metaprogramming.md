@@ -1,8 +1,6 @@
 ---
 title: Metaprogramming
-description:
-  'Kotlin Metaprogramming notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete study and thorough revision.'
+description: 'Reflection allows inspection of classes, functions, properties, and annotations at runtime. Kotlin Reflection requires an additional dependency.'
 date: 2026-04-18
 tags:
   - Kotlin

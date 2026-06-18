@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
+description: 'Prove that is a tautology using a truth table. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 **Problem 1.** Prove that $(p \implies q) \lor (q \implies p)$ is a tautology using a truth table.

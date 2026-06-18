@@ -1,8 +1,6 @@
 ---
 title: 'Reading Non-Fiction -- Diagnostic Tests'
-description:
-  'GCSE English Reading Non-Fiction -- Diagnostic Tests notes covering key definitions, core
-  concepts, worked examples, and practice questions for in-depth revision.'
+description: 'Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls.'
 tableOfContents: false
 ---
 

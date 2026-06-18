@@ -1,8 +1,6 @@
 ---
 title: Types and Variables
-description:
-  'Java Types and Variables notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid study and examination practice.'
+description: 'Before understanding types and variables, you must understand where they live at runtime. The JVM Divides its runtime data area into several regions, each...'
 date: 2025-06-05T10:00:00.000Z
 tags: ['java']
 categories: ['java']

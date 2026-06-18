@@ -3,6 +3,7 @@ title: Postulates of Quantum Mechanics
 tags:
   - Physics
   - University
+description: 'The state of a quantum system is completely described by a normalised Vector in  Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 2.1 The Postulates

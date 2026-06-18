@@ -1,8 +1,6 @@
 ---
 title: IB Psychology (SL/HL)
-description:
-  'IB Psychology (SL/HL) notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective review and exam preparation.'
+description: 'IB Psychology is a Group 3 subject (Individuals and Societies) that examines how biological, cognitive, and sociocultural factors interact to shape human...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Cherry-Pick
-description:
-  'Git Cherry-Pick notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic exam preparation and revision.'
+description: 'applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That...'
 
 ---
 

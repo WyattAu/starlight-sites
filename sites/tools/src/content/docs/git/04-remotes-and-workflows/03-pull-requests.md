@@ -1,8 +1,6 @@
 ---
 title: Pull Requests
-description:
-  'Git Pull Requests notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and mastery.'
+description: 'A pull request (PR) — called a in GitLab — is a proposal to merge a branch into another branch, accompanied by a code review discussion. While is a local...'
 date: 2025-06-03T15:00:00.000Z
 tags:
   - git
@@ -238,3 +236,5 @@ Single commit — straightforward revert.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

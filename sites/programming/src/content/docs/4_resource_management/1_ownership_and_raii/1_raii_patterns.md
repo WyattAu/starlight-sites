@@ -1,8 +1,6 @@
 ---
 title: RAII Patterns
-description:
-  'C++ Programming RAII Patterns notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete study and thorough revision.'
+description: 'RAII (Resource Acquisition Is Initialization) is the foundational C++ idiom that binds resource Lifetime to object lifetime. By acquiring resources in...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

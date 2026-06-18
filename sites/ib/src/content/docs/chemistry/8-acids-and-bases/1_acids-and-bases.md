@@ -1,6 +1,6 @@
 ---
 title: Acids and Bases
-description: 'Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations, and indicators.'
+description: 'Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,'
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -47,7 +47,6 @@ $$
 But the second dissociation is partial (weak):
 $\mathrm{HSO}_4^- \rightleftharpoons \mathrm{H}^+ + \mathrm{SO}_4^{2-}$ with
 $K_a \approx 1.0 \times 10^{-2}$.
-:::
 
 ---
 
@@ -1035,4 +1034,3 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::

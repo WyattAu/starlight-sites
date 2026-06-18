@@ -1,8 +1,6 @@
 ---
 title: Branching
-description:
-  'Git Branching notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused exam preparation and mastery.'
+description: 'Branching is the mechanism that enables — multiple developers (or a single developer working on multiple features) can modify the codebase independently,...'
 date: 2025-06-03T02:00:00.000Z
 tags:
   - git
@@ -159,7 +157,6 @@ $ git switch -f main
 `git switch -f` is **destructive** — it discards all uncommitted changes. Use `git stash` first if
 you want to preserve them.
 
-:::
 
 ## Deleting Branches
 
@@ -198,12 +195,12 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 | `release/<version>`              | Release preparation                                |
 | `experiment/<description>`       | Experimental work                                  |
 
+:::
 :::tip
 
 Configure `git config --global push.default current` to ensure `git push` always pushes the current
 branch to a remote branch with the same name. This prevents accidental pushes to the wrong branch.
 
-:::
 
 ## Tracking Branches
 
@@ -355,3 +352,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

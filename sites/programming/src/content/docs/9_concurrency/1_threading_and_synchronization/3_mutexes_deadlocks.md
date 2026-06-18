@@ -1,8 +1,6 @@
 ---
 title: Mutexes, Shared Locks, and Deadlock Prevention
-description:
-  'C++ Programming Mutexes, Shared Locks, and Deadlock notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies.'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

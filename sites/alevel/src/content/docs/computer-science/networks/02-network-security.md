@@ -1,8 +1,6 @@
 ---
 title: Network Security
-description:
-  'A-Level Computer Science Network Security notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: '| Threat | Description | | ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -673,7 +671,6 @@ Configuration is missing, the system should deny access rather than allow it. Ex
 Final rule should be "deny all" — anything not explicitly permitted is blocked.
 </details>
 
-:::
 
 ## Summary
 

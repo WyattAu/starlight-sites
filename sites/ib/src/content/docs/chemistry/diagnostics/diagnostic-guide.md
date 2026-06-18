@@ -1,8 +1,6 @@
 ---
 title: 'IB Chemistry -- Diagnostic Guide'
-description:
-  'IB Chemistry -- Diagnostic notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured study and examination practice.'
+description: 'IB Chemistry diagnostic tests: IB Chemistry -- Diagnostic Guide. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---
 

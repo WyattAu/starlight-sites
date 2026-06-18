@@ -1,8 +1,6 @@
 ---
 title: Treatment Evaluation
-description:
-  'IB Psychology Treatment Evaluation notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed revision.'
+description: 'Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural...'
 
 ---
 

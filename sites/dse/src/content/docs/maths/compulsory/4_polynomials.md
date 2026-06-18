@@ -1,8 +1,6 @@
 ---
 title: Polynomials
-description:
-  'DSE Maths Polynomials notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive review and exam preparation.'
+description: 'A polynomial in one variable is an expression of the form Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-06-03T13:29:40.310Z
 tags:
   - Maths

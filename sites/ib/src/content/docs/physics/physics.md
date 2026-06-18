@@ -1,8 +1,6 @@
 ---
 title: Physics
-description:
-  'IB Physics notes covering key definitions, core concepts, worked examples, and practice questions
-  for comprehensive revision and examination preparation.'
+description: 'This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher...'
 ---
 
 ## IB Physics -- Course Overview
@@ -210,7 +208,7 @@ Gases, and the structure of matter.
 - **B.7 Discrete Energy and Radioactivity:** Atomic spectra; the Bohr model; radioactive decay;
   half-life; nuclear reactions.
 
-> See [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics.md) for detailed notes.
+> See [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics.mdx) for detailed notes.
 
 ### Worked Example: Specific and Latent Heat (B.1)
 
@@ -340,7 +338,7 @@ Motion.
 - **C.5 Standing Waves and Resonance:** Standing wave patterns in strings and pipes; boundary
   conditions; resonance and harmonics.
 
-> See [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion.md) for detailed notes.
+> See [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion.mdx) for detailed notes.
 
 ### Worked Example: Double-Slit Interference (C.3)
 
@@ -491,10 +489,10 @@ Between charged particles and masses.
 - **D.5 RLC Circuits and Kirchhoff's Laws:** Kirchhoff's junction and loop rules; capacitance;
   inductance; impedance in AC circuits; resonance in series and parallel RLC circuits.
 
-> See [Gravitational Fields](4-fields/1_gravitational-fields.md),
-> [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields.md),
+> See [Gravitational Fields](4-fields/1_gravitational-fields.mdx),
+> [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields.mdx),
 > [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields.md), and
-> [Induction](4-fields/4_induction.md) for detailed notes.
+> [Induction](4-fields/4_induction.mdx) for detailed notes.
 
 ### Worked Example: Gravitational Field Strength (D.1)
 

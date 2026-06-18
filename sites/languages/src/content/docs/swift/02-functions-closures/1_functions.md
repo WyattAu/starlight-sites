@@ -1,8 +1,6 @@
 ---
 title: Functions
-description:
-  'Swift functions and closures notes covering parameters, return types, closures, escaping
-  closures, property wrappers, and higher-order functions.'
+description: 'Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift

@@ -1,8 +1,6 @@
 ---
 title: Labour Markets
-description:
-  'A-Level Economics Labour Markets notes covering key definitions, core concepts, worked examples,
-  and practice questions for solid exam preparation and revision.'
+description: 'A profit-maximising firm hires labour up to the point where the equals the wage  Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

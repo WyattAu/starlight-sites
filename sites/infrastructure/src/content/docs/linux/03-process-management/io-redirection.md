@@ -1,8 +1,6 @@
 ---
 title: I/O Redirection and Pipes
-description:
-  'I/O Redirection and Pipes notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth study and thorough revision.'
+description: 'Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers...'
 
 ---
 
@@ -866,5 +864,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

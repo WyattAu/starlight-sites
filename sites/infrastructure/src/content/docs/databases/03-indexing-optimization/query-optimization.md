@@ -1,8 +1,6 @@
 ---
 title: Query Optimization
-description:
-  'Query Optimization notes covering key definitions, core concepts, worked examples, and practice
-  questions for rigorous exam preparation and mastery.'
+description: 'Uses a fixed set of heuristics to transform queries. Access paths Are chosen based on rules like "use an index if available" and "avoid full table scans."...'
 
 ---
 
@@ -308,7 +306,6 @@ Parallel query workers each consume `work_mem` independently. A parallel hash jo
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
 You risk OOM.
 
-:::
 
 ## Covering Indexes
 
@@ -346,6 +343,7 @@ FROM orders
 GROUP BY region, order_date;
 ```
 
+:::
 :::info
 
 Index-only scans still access the heap if any column in the index has NULL values, because
@@ -353,7 +351,6 @@ PostgreSQL's visibility information is stored in the heap. To maximize index-onl
 Keep indexed columns NOT NULL where possible, or run `VACUUM` regularly to keep visibility map
 Accurate.
 
-:::
 
 ## Partial Indexes and Conditional Indexes
 
@@ -410,13 +407,13 @@ CREATE INDEX idx_orders_monthly ON orders (DATE_TRUNC('month', order_date));
 SELECT * FROM orders WHERE DATE_TRUNC('month', order_date) = '2024-01-01';
 ```
 
+:::
 :::caution
 
 The expression in the query must exactly match the expression in the index.
 `WHERE lower(email) = 'alice@example.com'` uses the index, but
 `WHERE email ILIKE 'alice@example.com'` does not. Use functional indexes consistently.
 
-:::
 
 ## BRIN Indexes for Append-Only Data
 
@@ -518,13 +515,13 @@ server_idle_timeout = 600
 | `transaction` | Connection returned to pool after each transaction | Most web applications (default choice) |
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
 
+:::
 :::caution
 
 In `transaction` mode, session-level `SET` commands are lost between transactions. Use `SET LOCAL`
 For transaction-scoped settings, or use `search_path` in `pgbouncer.ini` with
 `extra_float_digits = 3`.
 
-:::
 
 ### Connection overhead
 
@@ -563,12 +560,12 @@ SET plan_cache_mode = force_generic_plan;
 SET plan_cache_mode = auto;
 ```
 
+:::
 :::info
 
 With PgBouncer in transaction mode, server-side prepared statements do not persist across
 Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
 
-:::
 
 ## Auto-Vacuum Tuning
 
@@ -852,13 +849,13 @@ CLUSTER orders USING idx_orders_customer_date;
 -- Or use pg_repack for online reorganization
 ```
 
+:::
 :::info
 
 `CLUSTER` rewrites the entire table in the order of the specified index. It improves index scan
 Performance for that index but degrades it for other indexes. Use `CLUSTER` on the index that
 Corresponds to the most common access pattern.
 
-:::
 
 ## GiST vs GIN for Full-Text Search
 
@@ -937,6 +934,7 @@ WHERE o.created_at >= '2024-01-01';
 -- Look for: "Append" node containing "Join" nodes per partition pair
 ```
 
+:::
 :::caution
 
 Partition-wise joins require both sides to be partitioned on the same key with the same partition
@@ -990,5 +988,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

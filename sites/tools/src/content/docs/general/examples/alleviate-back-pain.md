@@ -1,8 +1,6 @@
 ---
 title: Alleviating Back Pain
-description:
-  'General Alleviating Back Pain notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth revision.'
+description: 'This program is a training system designed for casuals, it is expected to be executed three times per week on non-consecutive days (e.g., Monday, Wednesday,...'
 date: 2025-09-08T09:17:16.135Z
 
 ---

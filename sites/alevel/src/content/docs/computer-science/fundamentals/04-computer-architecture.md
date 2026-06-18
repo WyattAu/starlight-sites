@@ -1,8 +1,6 @@
 ---
 title: Computer Architecture
-description:
-  'A-Level Computer Science Computer Architecture notes covering key definitions, core concepts,
-  worked examples, and practice questions for thorough revision.'
+description: 'The , proposed by John Von Neumann in 1945, is characterised by a single Unified memory space that stores both data and instructions, a single set of buses...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

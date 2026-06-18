@@ -1,8 +1,6 @@
 ---
 title: Linked Lists, Stacks, and Queues
-description:
-  'Algorithms Linked Lists, Stacks, and Queues notes covering key definitions, core concepts, worked
-  examples, and practice questions for revision.'
+description: 'A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;...'
 
 ---
 
@@ -59,7 +57,6 @@ Position (given a pointer to the preceding node). The critical disadvantage is $
 And poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
 
-:::
 
 ### Reversal
 
@@ -282,6 +279,7 @@ class SkipList:
             update[i].forward[i] = new_node
 ```
 
+:::
 :::info
 
 Skip lists are used in Redis (as the underlying data structure for sorted sets) and in the Linux
@@ -289,7 +287,6 @@ Kernel (for process address space management). They are preferred over balanced 
 Contexts because they are simpler to implement correctly in concurrent settings — insertion and
 Deletion only need to lock the nodes being modified, not the entire structure.
 
-:::
 
 ## Stacks
 
@@ -460,6 +457,7 @@ class CircularQueue:
         return self.count
 ```
 
+:::
 :::info
 
 Circular buffers are used pervasively in systems programming: ring buffers for network packet
@@ -467,7 +465,6 @@ Queues, audio playback buffers, log rotation, producer-consumer patterns, and pi
 The key advantage is that enqueue and dequeue never require memory allocation or copying — they just
 Advance indices modulo the capacity.
 
-:::
 
 ## Deques
 
@@ -655,6 +652,7 @@ def sliding_window_maximum(arr, k):
     return result
 ```
 
+:::
 :::info
 
 The key insight is that elements smaller than the current element and to its left can never be the
@@ -662,7 +660,6 @@ Maximum of any future window that includes the current element. Removing them fr
 Maintains the invariant that the deque contains a decreasing sequence of values, and the maximum is
 Always at the front.
 
-:::
 
 ## Union-Find (Disjoint Set Union)
 
@@ -819,3 +816,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

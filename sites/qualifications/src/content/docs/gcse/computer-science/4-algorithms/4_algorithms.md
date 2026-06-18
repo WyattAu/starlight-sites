@@ -1,8 +1,6 @@
 ---
 title: Algorithms
-description:
-  'GCSE Computer Science Algorithms notes covering key definitions, core concepts, worked examples,
-  and practice questions for clear exam preparation and mastery.'
+description: 'An is a finite set of precise, step-by-step instructions for solving a problem.  Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Algorithms
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 2
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 2
 ## 1. What Is an Algorithm?
 
 An **algorithm** is a finite set of precise, step-by-step instructions for solving a problem. A good

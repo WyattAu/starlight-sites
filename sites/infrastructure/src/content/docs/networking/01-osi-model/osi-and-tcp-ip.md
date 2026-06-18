@@ -1,8 +1,6 @@
 ---
 title: OSI and TCP/IP Models
-description:
-  'OSI and TCP/IP Models notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear exam preparation and mastery.'
+description: 'Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help...'
 tags:
   - Networking
 categories:
@@ -841,5 +839,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

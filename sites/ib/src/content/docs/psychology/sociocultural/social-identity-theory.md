@@ -1,8 +1,6 @@
 ---
 title: Social Identity Theory
-description:
-  'IB Psychology Social Identity Theory notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It...'
 
 ---
 

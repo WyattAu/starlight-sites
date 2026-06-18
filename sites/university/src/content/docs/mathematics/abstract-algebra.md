@@ -5,9 +5,7 @@ tags:
   - University Maths
 categories:
   - University Maths
-description:
-  'University-level abstract algebra: groups, rings, fields, homomorphisms, quotient structures,
-  Sylow theorems, Galois theory, and applications to number theory.'
+description: 'is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,...'
 ---
 
 ## 1. Introduction

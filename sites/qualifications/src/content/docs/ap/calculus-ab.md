@@ -1,8 +1,6 @@
 ---
 title: AP Calculus AB Study Guide
-description:
-  'Qualifications Calculus Ab.Md AP Calculus AB Study notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,...'
 date: 2026-05-31
 tags:
   - ap

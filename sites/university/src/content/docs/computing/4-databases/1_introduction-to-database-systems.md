@@ -3,6 +3,7 @@ title: Introduction to Database Systems
 tags:
   - Computing
   - University
+description: 'A is an organised collection of structured data, managed by a . A DBMS provides: Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 1.1 What is a Database

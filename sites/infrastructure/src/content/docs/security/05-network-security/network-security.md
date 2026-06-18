@@ -1,8 +1,6 @@
 ---
 title: Network Security
-description:
-  'Network Security notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth exam preparation and revision.'
+description: 'A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization's security...'
 
 ---
 
@@ -427,7 +425,6 @@ DoH/DoT protect against network-level DNS interception but do not prevent the re
 Logging, filtering, or manipulating queries. Choose a resolver you trust (e.g., your own), and
 Understand the privacy policy of any third-party resolver.
 
-:::
 
 ## Email Security
 
@@ -808,6 +805,7 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 | Queries to TLDs not in use   | Malware C2, suspicious resolution         | TLD distribution analysis      |
 | Late-night DNS activity      | Compromised host beaconing                | Time-based query analysis      |
 
+:::
 :::info
 
 **Reference Standards**: NIST SP 800-41 (Firewall Guidelines), NIST SP 800-207 (Zero Trust
@@ -815,7 +813,6 @@ Architecture), RFC 6014 (DNSSEC Operational Practices), RFC 7208 (SPF), RFC 6376
 (DMARC), RFC 8446 (TLS 1.3), RFC 8484 (DNS over HTTPS), IEEE 802.1X (Port-Based Network Access
 Control), MITRE ATT&CK (Tactic: Lateral Movement).
 
-:::
 
 ## Summary
 
@@ -838,3 +835,5 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

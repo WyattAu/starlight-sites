@@ -30,7 +30,6 @@ $$
 \mathrm{pH} = -\log(0.100) = 1.00
 $$
 
-:::
 
 ### Weak Acids
 
@@ -67,6 +66,7 @@ $$
 X^2 + K_a x - K_a c_0 = 0
 $$
 
+:::
 :::info[Example]
 
 Calculate the $\mathrm{pH}$ of $0.010\mathrm{ M}$ ethanoic acid ($K_a = 1.8 \times 10^{-5}$).
@@ -84,7 +84,6 @@ $$
 \mathrm{pH} = -\log(4.24 \times 10^{-4}) = 3.37
 $$
 
-:::
 
 ### Polyprotic Acids
 
@@ -131,6 +130,7 @@ $\mathrm{pH} = \mathrm{p}K_a$. A buffer is effective within $\pm 1$ unit of its 
 
 ### Preparing a Buffer
 
+:::
 :::info[Example]
 
 Prepare an ethanoic acid/sodium ethanoate buffer with $\mathrm{pH} = 5.00$. Given
@@ -150,7 +150,6 @@ $$
 
 Mix ethanoic acid and sodium ethanoate in a molar ratio of $1 : 1.74$ (or approximately $1 : 1.7$).
 
-:::
 
 ### Calculating pH Changes in a Buffer
 
@@ -174,6 +173,7 @@ $$
 [\mathrm{A}^-]_{\mathrm{new}} = [\mathrm{A}^-]_{\mathrm{old}} + [\mathrm{OH}^-]_{\mathrm{added}}
 $$
 
+:::
 :::info[Example]
 
 A buffer contains $0.10\mathrm{ M}$ $\mathrm{CH}_3\mathrm{COOH}$ and $0.10\mathrm{ M}$
@@ -195,7 +195,6 @@ $$
 The $\mathrm{pH}$ changed by only $0.09$ units. Without the buffer, $0.01\mathrm{ M}$ $\mathrm{HCl}$
 Would give $\mathrm{pH} = 2.00$.
 
-:::
 
 ### Common Pitfalls
 
@@ -337,6 +336,7 @@ $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is tempe
 
 ### Solubility Calculations
 
+:::
 :::info[Example]
 
 Calculate the solubility of $\mathrm{AgCl}$ in $\mathrm{g/L}$.
@@ -357,12 +357,12 @@ $$
 \mathrm{Solubility} = 1.3 \times 10^{-5} \times 143.32 = 1.9 \times 10^{-3}\mathrm{ g/L}
 $$
 
-:::
 
 ### Common Ion Effect
 
 Adding a common ion **decreases** the solubility of a sparingly soluble salt.
 
+:::
 :::info[Example]
 
 Calculate the solubility of $\mathrm{AgCl}$ in $0.10\mathrm{ M}$ $\mathrm{NaCl}$.
@@ -378,7 +378,6 @@ $$
 Compared to pure water ($1.3 \times 10^{-5}\mathrm{ mol/L}$), the solubility decreased by a factor
 Of about $7000$.
 
-:::
 
 ### Precipitation
 
@@ -842,3 +841,5 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+
+:::

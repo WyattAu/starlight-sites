@@ -3,6 +3,7 @@ title: Transaction Management
 tags:
   - Computing
   - University
+description: 'A is a logical unit of work that must satisfy: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 6.1 ACID Properties

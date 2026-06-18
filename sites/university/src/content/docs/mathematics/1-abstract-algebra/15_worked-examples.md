@@ -3,6 +3,7 @@ title: Worked Examples
 tags:
   - Mathematics
   - University
+description: 'Show that has no normal subgroup of order 8. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 15.1 Group Theory Example

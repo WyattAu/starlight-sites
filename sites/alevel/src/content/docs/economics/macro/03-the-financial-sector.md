@@ -1,8 +1,6 @@
 ---
 title: The Financial Sector
-description:
-  'A-Level Economics The Financial Sector notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: 'Commercial banks perform four key functions: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

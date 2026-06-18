@@ -1,8 +1,6 @@
 ---
 title: Cargo and Ecosystem
-description:
-  'Rust Cargo and Ecosystem notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough exam preparation and mastery.'
+description: 'is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 
@@ -143,7 +141,6 @@ cargo metadata --format-version 1  # machine-readable workspace metadata
 Workspaces share a single `target/` directory and a single `Cargo.lock`. This means all crates use
 The same versions of shared dependencies, avoiding the diamond dependency problem.
 
-:::
 
 ## Feature Flags
 
@@ -901,13 +898,13 @@ Before adding a dependency, evaluate it:
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit` — known CVEs                                  |
 
+:::
 :::caution
 
 Every dependency is a liability. Dependencies can introduce bugs, security vulnerabilities, supply
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with
 `cargo audit`. For security-critical projects, consider `cargo-vet` (supply chain verification).
 
-:::
 
 ## Common Pitfalls
 
@@ -971,3 +968,5 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

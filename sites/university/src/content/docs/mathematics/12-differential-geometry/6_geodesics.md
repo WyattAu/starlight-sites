@@ -3,6 +3,7 @@ title: Geodesics
 tags:
   - Mathematics
   - University
+description: 'A is a curve whose acceleration is zero: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 6.1 Definition

@@ -3,6 +3,7 @@ title: Tangent Spaces and Tangent Bundles
 tags:
   - Mathematics
   - University
+description: 'There are several equivalent definitions of the tangent space at : Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 2.1 Tangent Vectors

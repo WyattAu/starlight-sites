@@ -1,8 +1,6 @@
 ---
 title: Period 7 (1890-Present)
-description:
-  'AP US History notes covering Periods 7-9 from 1890 to the present, including the Progressive Era,
-  World Wars, Cold War, civil rights, and modern American history.'
+description: 'Progressivism was a reform movement that sought to address the social, political, and economic problems caused by industrialisation, urbanisation, and...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

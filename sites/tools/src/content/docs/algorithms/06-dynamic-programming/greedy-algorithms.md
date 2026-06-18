@@ -1,8 +1,6 @@
 ---
 title: Greedy Algorithms
-description:
-  'Algorithms Greedy Algorithms notes covering key definitions, core concepts, worked examples, and
-  practice questions for exam preparation.'
+description: 'A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy...'
 
 ---
 
@@ -81,7 +79,6 @@ The earliest finish time is not the only valid greedy criterion for activity sel
 Start time and shortest duration do NOT work. The key insight is that picking the activity that
 Finishes earliest leaves the maximum remaining time for other activities.
 
-:::
 
 ## Huffman Coding
 
@@ -376,13 +373,13 @@ def dijkstra(n, graph, source):
     return dist
 ```
 
+:::
 :::caution
 
 Dijkstra's greedy choice fails with negative edge weights because a shorter path through an
 Unprocessed vertex may exist. Use Bellman-Ford ($O(VE)$) for graphs with negative weights but no
 Negative cycles.
 
-:::
 
 ## Matroid Theory
 
@@ -579,6 +576,7 @@ def greedy_set_cover(universe, subsets):
     return cover
 ```
 
+:::
 :::info
 
 The greedy set cover algorithm is essentially optimal in terms of approximation ratio for
@@ -969,3 +967,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

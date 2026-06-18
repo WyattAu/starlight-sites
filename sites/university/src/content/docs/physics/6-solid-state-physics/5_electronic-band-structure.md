@@ -3,6 +3,7 @@ title: Electronic Band Structure
 tags:
   - Physics
   - University
+description: 'In the simplest model, conduction electrons move freely in a box of volume (the "jellium" model). The allowed wave vectors are:'
 ---
 
 ### 5.1 Free Electron Model

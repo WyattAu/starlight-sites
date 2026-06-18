@@ -3,6 +3,7 @@ title: Complex Functions and Analyticity
 tags:
   - Mathematics
   - University
+description: 'Complex Functions and Analyticity: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 2.1 Complex Functions

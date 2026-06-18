@@ -1,8 +1,6 @@
 ---
 title: Shared Ownership (std::shared_ptr) and Control Block
-description:
-  'C++ Programming Shared Ownership (std::shared_ptr) and notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

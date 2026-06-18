@@ -55,6 +55,15 @@ jobs:
       - name: Link validation
         run: node scripts/lint-links.js
 
+      - name: Hand-wave detection
+        run: node scripts/lint-handwaves.js
+
+      - name: Description validation
+        run: node scripts/lint-descriptions.js
+
+      - name: Content depth validation
+        run: node scripts/lint-depth.js
+
       - name: Unit + integration tests
         run: node --test tests/unit/*.test.js tests/integration/*.test.js
 

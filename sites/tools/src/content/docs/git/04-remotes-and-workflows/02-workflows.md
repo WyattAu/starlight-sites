@@ -1,8 +1,6 @@
 ---
 title: Branching Strategies
-description:
-  'Git Branching Strategies notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted exam preparation and revision.'
+description: 'A branching strategy defines . There is no universal "best" strategy — the right choice depends on Team size, release cadence, deployment model, and risk...'
 date: 2025-06-03T07:00:00.000Z
 tags:
   - git
@@ -76,7 +74,6 @@ gitGraph
 Google, Meta, and many other large tech companies use trunk-based development internally. It scales
 Well with proper tooling (Bazel for builds, automated canary deployments).
 
-:::
 
 ## GitHub Flow
 
@@ -229,13 +226,13 @@ $ git branch -d hotfix/fix-crash
 - Projects where releases require significant preparation (version bumps, changelogs, release notes)
 - Regulated environments where release audit trails are required
 
+:::
 :::caution
 
 Git Flow is often overused. For most modern software projects, GitHub Flow or trunk-based
 Development is simpler and more effective. Only adopt Git Flow if you genuinely need release
 Branches and hotfix workflows.
 
-:::
 
 ## Forking Workflow
 
@@ -328,6 +325,7 @@ BREAKING CHANGE: The parser now returns an error instead of silently
 accepting empty input. Update callers to handle ParseError.
 ```
 
+:::
 :::tip
 
 Configure `commitlint` with `@commitlint/config-conventional` to enforce commit message conventions
@@ -361,3 +359,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: DSE History
-description:
-  'DSE History revision notes covering 20th century Asia, Cold War, decolonisation, China and Japan
-  modernisation, and Hong Kong history for HKDSE exam preparation.'
+description: 'Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises...'
 tableOfContents: false
 tags:
   - history

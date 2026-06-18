@@ -1,8 +1,6 @@
 ---
 title: Supervised Learning
-description:
-  'Probabilisticml Supervised Learning notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused revision.'
+description: 'Supervised learning is the field of training models to act as a mapping between a set of inputs to a Set of output. To conduct supervised learning, a...'
 date: 2026-01-07T08:38:26.907Z
 tags:
   - ML

@@ -1,8 +1,6 @@
 ---
 title: Range Adaptors, Views, and Composition
-description:
-  'C++ Programming Range Adaptors, Views, and Composition notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

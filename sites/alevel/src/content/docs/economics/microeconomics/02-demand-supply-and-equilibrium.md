@@ -1,8 +1,6 @@
 ---
 title: Demand, Supply and Equilibrium
-description:
-  'A-Level Economics Demand, Supply and Equilibrium notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused revision.'
+description: 'We define as the quantity of a good or service that consumers are _willing and able_ to Purchase at each possible price during a given time period, _ceteris...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

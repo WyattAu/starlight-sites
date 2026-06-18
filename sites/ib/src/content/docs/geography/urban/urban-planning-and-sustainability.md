@@ -1,8 +1,6 @@
 ---
 title: Urban Planning and Sustainability
-description:
-  'IB Geography Urban Planning and Sustainability notes covering key definitions, core concepts,
-  worked examples, and practice questions for analytical revision.'
+description: 'Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their...'
 
 ---
 

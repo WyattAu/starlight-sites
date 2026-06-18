@@ -1,8 +1,6 @@
 ---
 title: Control Flow
-description:
-  'Kotlin Control Flow notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic exam preparation and revision.'
+description: 'In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18
 tags:
   - Kotlin

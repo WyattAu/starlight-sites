@@ -1,8 +1,6 @@
 ---
 title: Style and Patterns
-description:
-  'Java Style and Patterns notes covering key definitions, core concepts, worked examples, and
-  practice questions for detailed study and thorough revision.'
+description: 'Naming is the single most visible signal of code quality. Java naming conventions are codified in The JLS and further elaborated in the Java Language Style...'
 date: 2025-06-05T16:00:00.000Z
 tags: ['java']
 categories: ['java']

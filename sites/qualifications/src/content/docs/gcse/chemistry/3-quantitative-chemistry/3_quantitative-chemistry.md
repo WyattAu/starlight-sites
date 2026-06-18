@@ -1,8 +1,6 @@
 ---
 title: Quantitative Chemistry
-description:
-  'GCSE Quantitative Chemistry notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured revision.'
+description: 'The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass.'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Quantitative Chemistry
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C3 | WJEC C3
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C3 | WJEC C3
 ## 1. Relative Formula Mass
 
 ### 1.1 Calculating Relative Formula Mass

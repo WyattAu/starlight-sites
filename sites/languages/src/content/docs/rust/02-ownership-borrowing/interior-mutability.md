@@ -1,8 +1,6 @@
 ---
 title: Interior Mutability
-description:
-  'Rust Interior Mutability notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused exam preparation and revision.'
+description: 'Rust's borrowing rules state that a shared reference () is immutable — you cannot modify the Data through it. This is a compile-time guarantee that prevents...'
 
 ---
 
@@ -57,7 +55,6 @@ Accessing `UnsafeCell` requires `unsafe` because the compiler cannot verify that
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
 The aliasing invariant. Violating this is undefined behavior.
 
-:::
 
 ### Why `UnsafeCell` Exists
 
@@ -797,13 +794,13 @@ c2.set(c2.get() + 1);
 assert_eq!(counter.get(), 2);
 ```
 
+:::
 :::caution
 
 `Cell<T>` is `Send` when `T: Send`And `Sync` when `T: Copy`. This means `Arc<Cell<T>>` can be Shared
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
 interior mutability — `get` copies the value out and `set` replaces it in a single Operation.
 
-:::
 
 ### `Arc<RefCell<T>>` — Not Thread-Safe
 
@@ -966,3 +963,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

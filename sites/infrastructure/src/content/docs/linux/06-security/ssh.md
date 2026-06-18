@@ -1,8 +1,6 @@
 ---
 title: SSH
-description:
-  'SSH notes covering key definitions, core concepts, worked examples, and practice questions for
-  clear study and thorough revision.'
+description: 'SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The Protocol operates in three layers:'
 
 ---
 
@@ -884,5 +882,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

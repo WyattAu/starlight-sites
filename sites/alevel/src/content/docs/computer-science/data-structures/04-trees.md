@@ -1,8 +1,6 @@
 ---
 title: Trees
-description:
-  'A-Level Computer Science Trees notes covering key definitions, core concepts, worked examples,
-  and practice questions for comprehensive revision.'
+description: 'A is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data Structure consisting of nodes, where each node has at most one and...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -994,7 +992,6 @@ Longest root-to-leaf path: 38 → 33 → 15 → 10 = 3 edges, OR 38 → 43 → 5
 
 Height of the tree = **3**.
 
-:::
 
 ## Common Pitfalls
 

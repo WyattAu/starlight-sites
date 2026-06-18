@@ -1,8 +1,6 @@
 ---
 title: Carbonyl Compounds
-description:
-  'A-Level Chemistry Carbonyl Compounds notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured revision.'
+description: 'Carbonyl compounds contain the C=O functional group. The carbonyl carbon is hybridised with Trigonal planar geometry. The oxygen is more electronegative...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

@@ -1,8 +1,6 @@
 ---
 title: A Level Physics Diagnostic Test
-description:
-  'A-Level A Level Physics Diagnostic Test notes covering key definitions, core concepts, worked
-  examples, and practice questions for solid revision.'
+description: 'Questions. Each question has an answer and a revision redirect. Time allowed: 90 Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -482,7 +480,6 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 | 20–27 | C     | Gaps exist. Prioritise weak sections.                   |
 | < 20  | D/U   | Significant revision required. Start with fundamentals. |
 
-:::
 
 ## Common Pitfalls
 

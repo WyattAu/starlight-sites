@@ -1,8 +1,6 @@
 ---
 title: Maps and Sets
-description:
-  'Java Maps and Sets notes covering key definitions, core concepts, worked examples, and practice
-  questions for comprehensive study and thorough revision.'
+description: 'maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can...'
 
 ---
 

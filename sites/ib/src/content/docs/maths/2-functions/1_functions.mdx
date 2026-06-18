@@ -54,8 +54,8 @@ We need $x - 2 \gt 0$ (strictly positive since it is in the denominator).
 
 Domain: $x \gt 2$Or $(2, \infty)$.
 
-:::
 
+:::
 :::info[Example]
 
 Find the domain of $\displaystyle f(x) = \ln(x+3) + \sqrt{5-x}$.
@@ -66,7 +66,6 @@ From $\sqrt{5-x}$: $5 - x \ge 0 \implies x \le 5$.
 
 Domain: $(-3, 5]$.
 
-:::
 
 ### Finding the Range
 
@@ -76,6 +75,7 @@ To find the range, consider the domain and the behaviour of the function:
 - Consider the graph: what $y$-values are achieved?
 - Check for horizontal asymptotes and extrema.
 
+:::
 :::info[Example]
 
 Find the range of $f(x) = x^2 - 4x + 3$.
@@ -86,7 +86,6 @@ Since $(x-2)^2 \ge 0$The minimum value is $-1$.
 
 Range: $[-1, \infty)$.
 
-:::
 
 ---
 
@@ -106,6 +105,7 @@ This means: first apply $g$ to $x$Then apply $f$ to the result.
 
 $f \circ g \neq g \circ f$.
 
+:::
 :::info[Example]
 
 Given $f(x) = 2x + 1$ and $g(x) = x^2$:
@@ -120,13 +120,13 @@ $$
 
 $f \circ g \neq g \circ f$.
 
-:::
 
 ### Domain of Composite Functions
 
 The domain of $f \circ g$ consists of all $x$ in the domain of $g$ such that $g(x)$ is in the domain
 Of $f$.
 
+:::
 :::info[Example]
 
 Given $f(x) = \sqrt{x}$ and $g(x) = x - 5$Find the domain of $f \circ g$.
@@ -139,7 +139,6 @@ We need $x - 5 \ge 0$So $x \ge 5$.
 
 Domain of $f \circ g$: $[5, \infty)$.
 
-:::
 
 ---
 
@@ -166,6 +165,7 @@ Intersects the graph more than once.
 3. Solve for $y$.
 4. Replace $y$ with $f^{-1}(x)$.
 
+:::
 :::info[Example]
 
 Find the inverse of $f(x) = \dfrac{2x + 3}{x - 1}$.
@@ -200,7 +200,6 @@ $$
 F^{-1}(x) = \frac{x + 3}{x - 2}
 $$
 
-:::
 
 ### Domain and Range of Inverses
 
@@ -215,12 +214,12 @@ The graph of $y = f^{-1}(x)$ is the reflection of $y = f(x)$ in the line $y = x$
 Functions that are not one-to-one on their natural domain can have inverses if their domain is
 Restricted.
 
+:::
 :::info[Example]
 
 $f(x) = x^2$ is not one-to-one on $\mathbb{R}$But $f: [0, \infty) \to [0, \infty)$ defined by
 $f(x) = x^2$ has inverse $f^{-1}(x) = \sqrt{x}$.
 
-:::
 
 ---
 
@@ -243,12 +242,12 @@ Given $y = f(x)$:
 | Reflection in $y$-axis              | Flips horizontally            | $y = f(-x)$                        |
 | Reflection in $y = x$               | Swaps $x$ and $y$             | $y = f^{-1}(x)$                    |
 
+:::
 :::caution[Exam Tip]
 
 Horizontal transformations are often counterintuitive. $f(x - 2)$ shifts the graph to the **right**
 By 2 (not left). $f(2x)$ compresses horizontally by a factor of $\dfrac{1}{2}$ (not stretches).
 
-:::
 
 ### Order of Transformations
 
@@ -260,6 +259,7 @@ When combining transformations, apply in this order:
 4. Vertical stretches/compressions
 5. Vertical translations (shifts up/down)
 
+:::
 :::info[Example]
 
 Describe the sequence of transformations that maps $f(x) = x^2$ to $g(x) = 2(x-3)^2 + 1$.
@@ -272,7 +272,6 @@ Starting from $f(x) = x^2$:
 
 The vertex moves from $(0, 0)$ to $(3, 1)$And the parabola is narrower.
 
-:::
 
 ### Effect on Key Points
 
@@ -307,6 +306,7 @@ For rational functions $\dfrac{P(x)}{Q(x)}$:
   $y = \dfrac{\mathrm{leading coefficient of } P}{\mathrm{leading coefficient of } Q}$.
 - If $\deg P = \deg Q + 1$: oblique asymptote (found by polynomial division).
 
+:::
 :::info[Example]
 
 Find the asymptotes of $\displaystyle f(x) = \frac{2x + 1}{x - 3}$.
@@ -315,7 +315,6 @@ Find the asymptotes of $\displaystyle f(x) = \frac{2x + 1}{x - 3}$.
 
 **Horizontal asymptote**: Same degree, so $y = \dfrac{2}{1} = 2$.
 
-:::
 
 <DesmosGraph title="Function Graphing: Domain, Range, Asymptotes" expressions={["\frac{1}{x}",
 "x^2", "2^x", "\ln(x)"]} width={800} height={500} />
@@ -335,6 +334,7 @@ $(x - a)$ is a factor of $P(x)$ if and only if $P(a) = 0$.
 
 When $P(x)$ is divided by $(x - a)$The remainder is $P(a)$.
 
+:::
 :::info[Example]
 
 Find the remainder when $P(x) = 2x^3 - 3x^2 + 5x - 7$ is divided by $(x + 2)$.
@@ -345,7 +345,6 @@ $$
 
 The remainder is $-45$.
 
-:::
 
 ### The Rational Root Theorem
 
@@ -355,6 +354,7 @@ If $P(x) = a_n x^n + \cdots + a_0$ has integer coefficients, then any rational r
 - $p$ divides $a_0$
 - $q$ divides $a_n$
 
+:::
 :::info[Example]
 
 Find all roots of $P(x) = 2x^3 - x^2 - 13x - 6$.
@@ -375,12 +375,12 @@ $$
 
 Roots: $x = 3$$x = -\dfrac{1}{2}$$x = -2$.
 
-:::
 
 ### Polynomial Division
 
 **Long division** and **synthetic division** are two methods for dividing polynomials.
 
+:::
 :::info[Example]
 
 Divide $x^3 + 2x^2 - 5x - 6$ by $(x + 1)$ using synthetic division.
@@ -396,7 +396,6 @@ Result: $x^2 + x - 6 = (x+3)(x-2)$.
 
 So $x^3 + 2x^2 - 5x - 6 = (x+1)(x+3)(x-2)$.
 
-:::
 
 ### Sum and Product of Roots
 
@@ -424,16 +423,17 @@ $$
 Ax + b \gt 0 \implies x \gt -\frac{b}{a} \quad (\mathrm{if } a \gt 0)
 $$
 
+:::
 :::caution[Exam Tip]
 
 When multiplying or dividing an inequality by a negative number, **reverse** the inequality sign.
 
-:::
 
 ### Quadratic Inequalities
 
 Factorise the quadratic and use a sign diagram (or test points in each interval).
 
+:::
 :::info[Example]
 
 Solve $x^2 - 5x + 6 \le 0$.
@@ -446,7 +446,6 @@ The product is non-positive when $2 \le x \le 3$.
 
 Solution: $[2, 3]$.
 
-:::
 
 ### Absolute Value Inequalities
 
@@ -458,6 +457,7 @@ $$
 |ax + b| \ge c \iff ax + b \le -c \quad \mathrm{or} \quad ax + b \ge c
 $$
 
+:::
 :::info[Example]
 
 Solve $|2x - 3| \lt 5$.
@@ -476,7 +476,6 @@ $$
 
 Solution: $(-1, 4)$.
 
-:::
 
 ### Polynomial Inequalities
 
@@ -499,6 +498,7 @@ Solution: $(-1, 4)$.
 
 A line and a parabola can intersect at 0, 1, or 2 points.
 
+:::
 :::info[Example]
 
 Solve simultaneously: $y = x^2 - 4x + 3$ and $y = 2x - 3$.
@@ -517,7 +517,6 @@ When $x = 3 + \sqrt{3}$: $y = 2(3 + \sqrt{3}) - 3 = 3 + 2\sqrt{3}$.
 
 When $x = 3 - \sqrt{3}$: $y = 2(3 - \sqrt{3}) - 3 = 3 - 2\sqrt{3}$.
 
-:::
 
 ---
 
@@ -537,6 +536,7 @@ The graph of $y = |x|$ is V-shaped, with the vertex at the origin.
 
 Square both sides or use the definition casewise.
 
+:::
 :::info[Example]
 
 Solve $|x - 2| = 3x - 1$.
@@ -553,7 +553,6 @@ Check: $|3/4 - 2| = 5/4$ and $3(3/4) - 1 = 5/4$. Valid.
 
 Solution: $x = \dfrac{3}{4}$.
 
-:::
 
 ---
 
@@ -691,13 +690,13 @@ From (2): $b = -10$.
 | Even function      | $f(-x) = f(x)$Symmetric about $y$-axis          |
 | Odd function       | $f(-x) = -f(x)$Rotational symmetry about origin |
 
+:::
 :::tip[Exam Strategy]
 
 For function questions, always check the domain. When finding inverses, state the domain of the
 Inverse explicitly. For transformation questions, identify each transformation step by step from the
 Inside out.
 
-:::
 
 ---
 
@@ -730,6 +729,7 @@ Asymptote at $y = 0$.
 
 ### Reciprocal of Quadratic Functions
 
+:::
 :::info[Example]
 
 Sketch the graph of $y = \dfrac{1}{x^2 - 4}$.
@@ -746,7 +746,6 @@ For $x \gt 2$: denominator positive, so $y \gt 0$.
 
 Local minimum at $x = 0$: $y = -\dfrac{1}{4}$.
 
-:::
 
 ---
 
@@ -772,6 +771,7 @@ $$
 When $\deg P = \deg Q + 1$Divide $P$ by $Q$ using polynomial division. The quotient (without
 Remainder) gives the oblique asymptote.
 
+:::
 :::info[Example]
 
 Find the asymptotes of $\displaystyle f(x) = \frac{x^2 + 1}{x - 1}$.
@@ -786,7 +786,6 @@ $$
 
 Oblique asymptote: $y = x + 1$.
 
-:::
 
 ---
 
@@ -800,6 +799,7 @@ A piecewise function is defined by different expressions over different interval
 
 Check that the function value equals the left-hand and right-hand limits at the boundary points.
 
+:::
 :::info[Example]
 
 Is the following function continuous at $x = 2$?
@@ -817,7 +817,6 @@ $\lim_{x \to 2^+} f(x) = 3(2) - 2 = 4$.
 Since the left-hand limit, right-hand limit, and function value all equal 4, the function is
 Continuous at $x = 2$.
 
-:::
 
 ---
 

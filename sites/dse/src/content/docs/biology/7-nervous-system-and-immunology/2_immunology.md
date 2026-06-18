@@ -1,8 +1,6 @@
 ---
 title: Immunology
-description:
-  'DSE Biology Immunology notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear review and exam preparation.'
+description: 'A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen.'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

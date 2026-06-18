@@ -1,8 +1,6 @@
 ---
 title: Chemistry - Chemical Equilibrium
-description:
-  'DSE Chemistry - Chemical Equilibrium notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
@@ -32,8 +30,7 @@ Dynamic equilibrium is established when:
 - The position of equilibrium describes the relative amounts of reactants and products.
 - Equilibrium can be approached from either direction.
 
-:::caution Warning (e.g., a gas leaving an open container), equilibrium will never be reached.
-:::
+> **Caution:** Warning (e.g., a gas leaving an open container), equilibrium will never be reached.
 ---
 
 ## Le Chatelier's Principle

@@ -3,6 +3,7 @@ title: Physical Layer
 tags:
   - Computing
   - University
+description: 'Twisted pair (UTP, STP), coaxial cable, fibre optic. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 2.1 Transmission Media

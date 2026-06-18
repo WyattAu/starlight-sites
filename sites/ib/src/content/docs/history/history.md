@@ -2,9 +2,7 @@
 title: History
 tags:
   - history
-description:
-  'IB History notes covering key definitions, core concepts, worked examples, and practice questions
-  for systematic review and exam preparation.'
+description: 'This section contains notes, comparative analyses, and study materials for the IB History course. The course covers a range of twentieth-century topics...'
 ---
 
 ## IB History -- Course Overview

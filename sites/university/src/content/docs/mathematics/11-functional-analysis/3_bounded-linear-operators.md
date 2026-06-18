@@ -3,6 +3,7 @@ title: Bounded Linear Operators
 tags:
   - Mathematics
   - University
+description: 'A linear operator between normed spaces is if there exists such that for all . T Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 3.1 Definitions

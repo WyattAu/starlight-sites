@@ -1,8 +1,6 @@
 ---
 title: Git Subtrees
-description:
-  'Git Subtrees notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough review and exam preparation.'
+description: 'merges a repository into a subdirectory of another repository. Unlike submodules, Which maintain a reference to an external repository, subtrees embed the...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: 'Mechanics -- Diagnostic Tests'
-description:
-  'ILC Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---
 

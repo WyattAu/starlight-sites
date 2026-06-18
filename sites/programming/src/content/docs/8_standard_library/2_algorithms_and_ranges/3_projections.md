@@ -1,8 +1,6 @@
 ---
 title: Projections and Callable Objects
-description:
-  'C++ Programming Projections and Callable Objects notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'A is a callable that transforms an element before it is passed to an algorithm's Predicate or comparison function. Projections are a C++20 ranges feature...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -562,7 +560,6 @@ int main() {
 - [Range Materialization](./4_range_materialization.md)
 - [Parallel Algorithms](./5_parallel_algorithms.md)
 
-:::
 
 ## Summary
 

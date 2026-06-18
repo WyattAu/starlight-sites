@@ -1,8 +1,6 @@
 ---
 title: Unsafe Rust
-description:
-  'Rust Unsafe Rust notes covering key definitions, core concepts, worked examples, and practice
-  questions for complete exam preparation and revision.'
+description: 'The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem'
 
 ---
 
@@ -120,7 +118,6 @@ Pointer arithmetic that goes out of bounds of the allocated object is undefined 
 The resulting pointer is not dereferenced. `ptr.add(len)` is UB if the pointer does not point to an
 Allocation of at least `len` elements.
 
-:::
 
 ## Unsafe Functions and Blocks
 
@@ -207,13 +204,13 @@ unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
 
+:::
 :::danger
 
 Manually implementing `Send` or `Sync` incorrectly causes data races, which are undefined behavior.
 Only do this when you can rigorously prove thread safety. This requires that the raw Pointer is only
 accessed through a synchronization mechanism (mutex, atomic, etc.) that the compiler Cannot see.
 
-:::
 
 ### Global Allocator
 
@@ -461,13 +458,13 @@ impl<'a> Interner<'a> {
 }
 ```
 
+:::
 :::danger
 
 The `intern` method uses `std::mem::forget` to leak memory intentionally. The returned `&'a str` has
 A lifetime tied to the arena, which is correct as long as the arena outlives all interned
 References. If the arena is dropped while interned references exist, they become dangling.
 
-:::
 
 ## Undefined Behavior in Rust
 
@@ -662,13 +659,13 @@ impl Buffer {
 }
 ```
 
+:::
 :::danger
 
 `assume_init()` is `unsafe` because reading uninitialized memory is UB. You must ensure that every
 Byte of the `MaybeUninit` has been written to before calling `assume_init()`. Use `write_bytes`
 Individual `write()` calls, or `ptr::copy_nonoverlapping` to initialize the memory.
 
-:::
 
 ### `MaybeUninit` for Arrays
 
@@ -948,3 +945,5 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

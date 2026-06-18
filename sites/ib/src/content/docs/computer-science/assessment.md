@@ -1,8 +1,6 @@
 ---
 title: Assessment
-description:
-  'IB Computer Science Assessment notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam preparation.'
+description: '| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |...'
 ---
 
 # Assessment objective

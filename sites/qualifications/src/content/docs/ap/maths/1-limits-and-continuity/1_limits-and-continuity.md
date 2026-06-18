@@ -1,8 +1,6 @@
 ---
 title: Limits and Continuity
-description:
-  'Qualifications Maths Limits and Continuity notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'The limit of a function as approaches is the value that approaches, regardless O Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap
@@ -45,8 +43,8 @@ $$
 
 Since the one-sided limits are not equal, the limit does not exist.
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 3} \frac{|x - 3|}{x - 3}$.
@@ -57,7 +55,6 @@ For $x \gt 3$: $\frac{|x-3|}{x-3} = \frac{x-3}{x-3} = 1$.
 
 Left limit $= -1$Right limit $= 1$. The limit does not exist.
 
-:::
 
 ### Common Limits
 
@@ -121,6 +118,7 @@ Then $\displaystyle\lim_{x \to a} f(x) = L$.
 Approach $L$. The squeeze theorem is particularly useful when $f$ oscillates or is otherwise hard to
 Evaluate directly.
 
+:::
 :::info[Example]
 
 Show that $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
@@ -132,8 +130,8 @@ Both $\displaystyle\lim_{x \to 0}(-x^2) = 0$ and $\displaystyle\lim_{x \to 0} x^
 
 By the squeeze theorem, $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
-:::
 
+:::
 :::info[Example]
 
 Show that $\displaystyle\lim_{x \to 0} x\cos\!\left(\frac{1}{x}\right) = 0$.
@@ -145,8 +143,8 @@ Both $\displaystyle\lim_{x \to 0}(-|x|) = 0$ and $\displaystyle\lim_{x \to 0}|x|
 
 By the squeeze theorem, the limit is $0$.
 
-:::
 
+:::
 :::info[Example]
 
 Show that $\displaystyle\lim_{x \to 0} x^2 e^{\sin(1/x)} = 0$.
@@ -163,7 +161,6 @@ Both $\displaystyle\lim_{x \to 0} e^{-1} x^2 = 0$ and $\displaystyle\lim_{x \to 
 
 By the squeeze theorem, the limit is $0$.
 
-:::
 
 ## Algebraic Limit Properties
 
@@ -214,6 +211,7 @@ For rational functions $\displaystyle\frac{P(x)}{Q(x)}$ where $P$ and $Q$ are po
 **Why this works.** For large $x$The leading term dominates. Dividing numerator and denominator by
 The highest power of $x$ in the denominator, all lower-order terms vanish.
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to \infty} \frac{3x^2 - 5x + 2}{7x^2 + x - 1}$.
@@ -224,16 +222,16 @@ $$
 \lim_{x \infty} \frac{3x^2 - 5x + 2}{7x^2 + x - 1} = \frac{3}{7}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to \infty} \frac{5x^3 - 2x + 1}{4x^2 + 3x}$.
 
 Since $\deg P = 3 \gt \deg Q = 2$The limit is $+\infty$.
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to -\infty} \frac{2x^3 + x^2 - 5}{5x^3 - 3x + 2}$.
@@ -246,12 +244,12 @@ $$
 
 This confirms that the same shortcut works for $x \to -\infty$ when the degrees are equal.
 
-:::
 
 ### Indeterminate Forms and Factoring
 
 When direct substitution yields $\frac{0}{0}$Algebraic manipulation is required.
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 2} \frac{x^2 - 4}{x - 2}$.
@@ -262,8 +260,8 @@ $$
 \lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x-2)(x+2)}{x-2} = \lim_{x \to 2}(x + 2) = 4
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 1} \frac{x^3 - 1}{x - 1}$.
@@ -274,8 +272,8 @@ $$
 \lim_{x \to 1} \frac{(x - 1)(x^2 + x + 1)}{x - 1} = \lim_{x \to 1}(x^2 + x + 1) = 3
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 1} \frac{x^4 - 1}{x^2 - 1}$.
@@ -290,12 +288,12 @@ $$
 \lim_{x \to 1} \frac{x^4 - 1}{x^2 - 1} = 1 + 1 = 2
 $$
 
-:::
 
 ### Rationalizing
 
 For expressions involving radicals, multiply by the conjugate.
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{\sqrt{x+4} - 2}{x}$.
@@ -306,8 +304,8 @@ $$
 \lim_{x \to 0} \frac{\sqrt{x+4} - 2}{x} \cdot \frac{\sqrt{x+4} + 2}{\sqrt{x+4} + 2} = \lim_{x \to 0} \frac{x + 4 - 4}{x(\sqrt{x+4} + 2)} = \lim_{x \to 0} \frac{x}{x(\sqrt{x+4} + 2)} = \frac{1}{4}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{\sqrt{1 + x} - \sqrt{1 - x}}{x}$.
@@ -318,8 +316,8 @@ $$
 = \lim_{x \to 0} \frac{(1 + x) - (1 - x)}{x(\sqrt{1+x} + \sqrt{1-x})} = \lim_{x \to 0} \frac{2x}{x(\sqrt{1+x} + \sqrt{1-x})} = \frac{2}{1 + 1} = 1
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 5} \frac{\sqrt{x+4} - 3}{x - 5}$.
@@ -330,10 +328,10 @@ $$
 = \lim_{x \to 5} \frac{x + 4 - 9}{(x-5)(\sqrt{x+4} + 3)} = \lim_{x \to 5} \frac{x - 5}{(x-5)(\sqrt{x+4} + 3)} = \frac{1}{\sqrt{9} + 3} = \frac{1}{6}
 $$
 
-:::
 
 ### Limits with Trigonometric Functions (CED BC)
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$.
@@ -344,8 +342,8 @@ $$
 \frac{1 - \cos x}{x^2} = \frac{2\sin^2(x/2)}{x^2} = \frac{2\sin^2(x/2)}{4(x/2)^2} = \frac{1}{2}\left(\frac{\sin(x/2)}{x/2}\right)^2 \to \frac{1}{2}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{\tan x}{x}$.
@@ -354,8 +352,8 @@ $$
 \frac{\tan x}{x} = \frac{\sin x}{x \cos x} = \frac{\sin x}{x} \cdot \frac{1}{\cos x} \to 1 \cdot 1 = 1
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{\sin 3x}{x}$.
@@ -366,13 +364,13 @@ $$
 \frac{\sin 3x}{x} = 3 \cdot \frac{\sin 3x}{3x} \to 3 \cdot 1 = 3
 $$
 
-:::
 
 ### Limits Involving Complex Fractions
 
 When the limit involves a fraction within a fraction, combine the numerator into a single fraction
 First.
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 2} \frac{\frac{1}{x} - \frac{1}{2}}{x - 2}$.
@@ -389,7 +387,6 @@ $$
 \lim_{x \to 2} \frac{\frac{1}{x} - \frac{1}{2}}{x - 2} = -\frac{1}{4}
 $$
 
-:::
 
 ## Formal Definition of a Limit (Epsilon-Delta)
 
@@ -406,6 +403,7 @@ Game, the limit exists.
 
 ### Proving a Limit with Epsilon-Delta
 
+:::
 :::info[Example]
 
 Prove that $\displaystyle\lim_{x \to 3} (2x - 1) = 5$.
@@ -425,8 +423,8 @@ $$
 
 Therefore, $\displaystyle\lim_{x \to 3} (2x - 1) = 5$. $\blacksquare$
 
-:::
 
+:::
 :::info[Example]
 
 Prove that $\displaystyle\lim_{x \to 2} x^2 = 4$.
@@ -450,8 +448,8 @@ $$
 
 Therefore, $\displaystyle\lim_{x \to 2} x^2 = 4$. $\blacksquare$
 
-:::
 
+:::
 :::info[Example]
 
 Prove that $\displaystyle\lim_{x \to a} \sqrt{x} = \sqrt{a}$ for $a \gt 0$.
@@ -475,7 +473,6 @@ $$
 
 Therefore, $\displaystyle\lim_{x \to a} \sqrt{x} = \sqrt{a}$. $\blacksquare$
 
-:::
 
 ### Strategy for Epsilon-Delta Proofs
 
@@ -519,6 +516,7 @@ $x^2 + 1 \ge 1 \gt 0$).
 If $f$ is continuous on $[a, b]$ and $k$ is any number between $f(a)$ and $f(b)$Then there exists At
 least one $c \in (a, b)$ such that $f(c) = k$.
 
+:::
 :::info[Example]
 
 Show that $f(x) = x^3 + x - 1$ has a root in $(0, 1)$.
@@ -528,12 +526,12 @@ $f(0) = -1 \lt 0$ and $f(1) = 1 \gt 0$.
 Since $f$ is continuous on $[0, 1]$ and $0$ is between $f(0)$ and $f(1)$By the IVT there exists
 $c \in (0, 1)$ such that $f(c) = 0$.
 
-:::
 
 **Application of IVT to bisection.** The IVT motivates the bisection method for root-finding: if
 $f(a)$ and $f(b)$ have opposite signs, a root exists in $(a, b)$. Halving the interval and checking
 Signs converges to the root.
 
+:::
 :::info[Example]
 
 Show that $f(x) = e^x - 3 - x$ has at least one root in $(1, 2)$.
@@ -543,7 +541,6 @@ $f(1) = e - 4 \approx -1.282 \lt 0$ and $f(2) = e^2 - 5 \approx 2.389 \gt 0$.
 Since $f$ is continuous (as a sum of continuous functions) on $[1, 2]$By the IVT there exists
 $c \in (1, 2)$ such that $f(c) = 0$. $\blacksquare$
 
-:::
 
 **Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$Then $f$ has
 At least one zero in $(a, b)$.
@@ -599,8 +596,8 @@ $$
 
 The slant asymptote is $y = 2x + 1$.
 
-:::
 
+:::
 :::info[Example]
 
 Find the horizontal asymptotes of $\displaystyle f(x) = \frac{3e^x}{e^x + 1}$.
@@ -619,7 +616,6 @@ $$
 
 Horizontal asymptotes: $y = 3$ (as $x \to \infty$) and $y = 0$ (as $x \to -\infty$).
 
-:::
 
 ## L'Hopital's Rule (CED BC and AB Unit 1.15)
 
@@ -640,6 +636,7 @@ Forms. Using it on a determinate form (e.g., $\frac{3}{5}$) is an error.
 Not exist, this does NOT mean the original limit does not exist. L'Hopital's Rule only gives a
 Conclusion when the right-hand limit exists (or is $\pm\infty$).
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$.
@@ -650,8 +647,8 @@ $$
 \lim_{x \to 0} \frac{e^x - 1}{x} = \lim_{x \to 0} \frac{e^x}{1} = 1
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$.
@@ -664,8 +661,8 @@ $$
 
 Note that we applied L'Hopital's Rule twice, since the second attempt still gave $\frac{0}{0}$.
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to \infty} \frac{\ln x}{\sqrt{x}}$.
@@ -676,8 +673,8 @@ $$
 \lim_{x \to \infty} \frac{1/x}{1/(2\sqrt{x})} = \lim_{x \to \infty} \frac{2\sqrt{x}}{x} = \lim_{x \to \infty} \frac{2}{\sqrt{x}} = 0
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0} \frac{x - \sin x}{x^3}$.
@@ -688,8 +685,8 @@ $$
 \lim_{x \to 0} \frac{x - \sin x}{x^3} = \lim_{x \to 0} \frac{1 - \cos x}{3x^2} = \lim_{x \to 0} \frac{\sin x}{6x} = \lim_{x \to 0} \frac{\cos x}{6} = \frac{1}{6}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\lim_{x \to 0^+} x \ln x$.
@@ -706,10 +703,10 @@ $$
 \lim_{x \to 0^+} \frac{\ln x}{1/x} = \lim_{x \to 0^+} \frac{1/x}{-1/x^2} = \lim_{x \to 0^+} (-x) = 0
 $$
 
-:::
 
 ## Limits of Piecewise Functions
 
+:::
 :::info[Example]
 
 Let $f(x) = \begin{cases} x^2 + 1 & x \lt 2 \\ 3x - 1 & x \ge 2 \end{cases}$.
@@ -726,8 +723,8 @@ Check continuity: $f(2) = 3(2) - 1 = 5 = \lim_{x \to 2} f(x)$.
 
 Therefore, $f$ is continuous at $x = 2$.
 
-:::
 
+:::
 :::info[Example]
 
 Let $g(x) = \begin{cases} \frac{x^2 - 4}{x - 2} & x \neq 2 \\ k & x = 2 \end{cases}$.
@@ -738,8 +735,8 @@ $\displaystyle\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x-2)(
 
 For continuity: $k = g(2) = 4$.
 
-:::
 
+:::
 :::info[Example]
 
 Let $h(x) = \begin{cases} x^2 + bx + 1 & x \le 0 \\ 2x + 3 & x \gt 0 \end{cases}$.
@@ -755,7 +752,6 @@ For continuity: $1 = 3$Which is impossible. No value of $b$ makes $h$ continuous
 This example demonstrates that continuity at a junction point of a piecewise function is not always
 Achievable -- on whether the one-sided limits can be made to agree.
 
-:::
 
 ## Common Pitfalls
 

@@ -3,6 +3,7 @@ title: Argument Principle and Rouché's Theorem
 tags:
   - Mathematics
   - University
+description: 'If is meromorphic inside and on a simple closed contour Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 12.1 The Argument Principle

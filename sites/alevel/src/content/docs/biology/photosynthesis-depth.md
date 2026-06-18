@@ -1,8 +1,6 @@
 ---
 title: Photosynthesis (In Depth)
-description:
-  'A-Level Biology Photosynthesis (In Depth) notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: 'Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for...'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -14,8 +12,7 @@ categories:
 
 ## Photosynthesis (In Depth)
 
-:::info Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 4
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 4
 ## 1. Overview
 
 ### 1.1 Definition
@@ -2314,7 +2311,6 @@ in shortest supply. At any given moment, only one factor limits the rate of phot
 ---
 
 :::
-:::
 :::tip Diagnostic Test
 
 ## Common Pitfalls
@@ -2377,6 +2373,4 @@ $\blacksquare$
 - Chloroplast structure (grana, thylakoids, stroma) is adapted to maximise light absorption and
   enzyme concentration.
 
-:::
-:::
 :::

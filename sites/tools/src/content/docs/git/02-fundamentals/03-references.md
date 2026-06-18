@@ -1,8 +1,6 @@
 ---
 title: References
-description:
-  'Git References notes covering key definitions, core concepts, worked examples, and practice
-  questions for rigorous review and exam preparation.'
+description: 'A reference (or "ref") is a named pointer to a Git object — almost always a commit. References are What make Git's object graph navigable. Without them,...'
 date: 2025-06-03T01:00:00.000Z
 tags:
   - git
@@ -133,7 +131,6 @@ Detached HEAD is not an error state. It is useful for:
 However, **new work done in detached HEAD is at risk of being lost** if you switch away without
 Saving the commit hash.
 
-:::
 
 ### Tags
 
@@ -231,13 +228,13 @@ $ git push origin :feature-login
 $ git push origin +main:main
 ```
 
+:::
 :::caution
 
 Force pushing (`git push --force`) rewrites the remote branch's history. If other developers have
 Based work on the old commits, they will encounter conflicts. Only force push to branches that you
 Exclusively own (feature branches, personal forks). Never force push `main` in a shared repository.
 
-:::
 
 ## The Reflog
 
@@ -364,3 +361,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

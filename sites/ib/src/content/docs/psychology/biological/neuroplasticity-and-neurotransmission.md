@@ -1,8 +1,6 @@
 ---
 title: Neuroplasticity and Neurotransmission
-description:
-  'IB Psychology Neuroplasticity and Neurotransmission notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam preparation.'
+description: 'Synaptic transmission is the process by which neurons communicate with one another. It is the Fundamental mechanism underlying all neural activity, from...'
 
 ---
 

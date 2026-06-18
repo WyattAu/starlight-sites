@@ -1,8 +1,6 @@
 ---
 title: ZFS Encryption
-description:
-  'ZFS Encryption notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid learning and effective revision.'
+description: 'ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It...'
 date: 2026-04-07T00:00:00.000Z
 tags:
   - TrueNAS

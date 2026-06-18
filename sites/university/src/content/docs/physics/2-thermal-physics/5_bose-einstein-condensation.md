@@ -3,6 +3,7 @@ title: Bose-Einstein Condensation
 tags:
   - Physics
   - University
+description: 'For bosons, the average occupation of a single-particle state of energy is Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 5.1 Ideal Bose Gas

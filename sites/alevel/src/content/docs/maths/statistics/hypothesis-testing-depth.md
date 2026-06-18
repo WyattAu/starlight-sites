@@ -1,8 +1,6 @@
 ---
 title: Hypothesis Testing (Extended)
-description:
-  'A-Level Maths Hypothesis Testing (Extended) notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'This document provides a rigorous treatment of hypothesis testing methodology, including null and Alternative hypotheses, significance levels, Type I and II...'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

@@ -1,8 +1,6 @@
 ---
 title: Records, Sealed Classes, and Pattern Matching
-description:
-  'Java Records, Sealed Classes, and Pattern Matching notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'A record is a transparent carrier for immutable data. The compiler generates the constructor, field Accessors, And from a single declaration. This...'
 date: 2026-04-03T00:00:00.000Z
 tags: ['java']
 categories: ['java']

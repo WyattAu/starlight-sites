@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
+description: 'Calculate the Fermi energy and Fermi temperature for sodium. Given: electron den Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### Problem 1

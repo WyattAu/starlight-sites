@@ -3,9 +3,7 @@ title: The Cold War
 tags:
   - IB
   - History
-description:
-  'IB History The Cold War notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid review and exam preparation.'
+description: 'The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning...'
 ---
 
 ## The Cold War: A Systems-Level Analysis (1945--1991)
@@ -1084,8 +1082,6 @@ each school argues but why it argues it -- and what evidence supports or undermi
   with their ARGUMENTS and METHODOLOGY does not score well. Explain WHY a historian reached their
   conclusion -- what evidence did they prioritise? What evidence did they dismiss? How does their
   perspective challenge or complement other interpretations?
-
-##
 
 :::
 

@@ -1,8 +1,6 @@
 ---
 title: Analytical Techniques
-description:
-  'A-Level Chemistry Analytical Techniques notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: 'Analytical techniques allow chemists to determine the structure, composition, and purity of organic Compounds. No single technique provides complete...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

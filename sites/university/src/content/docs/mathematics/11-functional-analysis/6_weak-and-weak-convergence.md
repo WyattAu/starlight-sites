@@ -3,6 +3,7 @@ title: Weak and Weak\* Convergence
 tags:
   - Mathematics
   - University
+description: 'A sequence in a normed space to (written Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 6.1 Weak Convergence

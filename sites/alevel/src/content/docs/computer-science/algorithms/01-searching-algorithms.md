@@ -1,8 +1,6 @@
 ---
 title: Searching Algorithms
-description:
-  'A-Level Computer Science Searching Algorithms notes covering key definitions, core concepts,
-  worked examples, and practice questions for structured revision.'
+description: 'Given an array and a target value Determine whether exists in And return its ind Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

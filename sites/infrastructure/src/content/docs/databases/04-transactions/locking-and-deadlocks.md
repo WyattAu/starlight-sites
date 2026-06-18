@@ -1,8 +1,6 @@
 ---
 title: Locking and Deadlocks
-description:
-  'Locking and Deadlocks notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused study and thorough revision.'
+description: 'PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance...'
 
 ---
 
@@ -284,7 +282,6 @@ Advisory locks do not conflict with regular row or table locks. They exist in a 
 Advisory locks on the same bigint value from different sessions conflict, regardless of which
 Application or connection acquired them.
 
-:::
 
 ## Lock Monitoring
 
@@ -648,13 +645,13 @@ ROLLBACK TO SAVEPOINT sp1;
 COMMIT;
 ```
 
+:::
 :::caution
 
 `ROLLBACK TO SAVEPOINT` releases locks acquired after the savepoint, but it does NOT release
 Advisory locks. Advisory locks are always held until the transaction ends or explicitly released,
 Regardless of savepoints.
 
-:::
 
 ### Implicit Locks from DDL
 
@@ -959,3 +956,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

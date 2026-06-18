@@ -1,8 +1,6 @@
 ---
 title: Chemical Equilibrium
-description:
-  'A-Level Chemistry Chemical Equilibrium notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'A reversible reaction reaches when the rate of the forward reaction equals the rate of the reverse reaction. At equilibrium:'
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -196,7 +194,7 @@ $$
 \ln\left(\frac{K_2}{K_1}\right) = -\frac◆LB◆\Delta H^\circ◆RB◆◆LB◆R◆RB◆\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
 $$
 
-This is analogous to the Arrhenius equation (see [Chemical Kinetics](./chemical-kinetics)).
+This is analogous to the Arrhenius equation (see [Chemical Kinetics](../../../../../university/src/content/docs/chemistry/1-physical-chemistry/chemical-kinetics.md)).
 
 **Worked Example.** For the reaction
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$$\Delta H^\circ = +58.0\,\mathrm{kJ/mol}$

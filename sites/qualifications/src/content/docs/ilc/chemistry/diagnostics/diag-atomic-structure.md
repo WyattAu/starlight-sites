@@ -1,8 +1,6 @@
 ---
 title: 'Atomic Structure -- Diagnostic Tests'
-description:
-  'ILC Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'QUALIFICATIONS Ilc notes: Atomic Structure -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Theory of the Firm
-description:
-  'A-Level Economics Theory of the Firm notes covering key definitions, core concepts, worked
-  examples, and practice questions for systematic revision.'
+description: 'We define the following cost concepts for a firm producing quantity : Comprehensive educational content coverage with definitions and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

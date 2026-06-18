@@ -1,8 +1,6 @@
 ---
 title: Calling Conventions and Stack Management
-description:
-  'C++ Programming Calling Conventions and Stack Management notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -3,6 +3,7 @@ title: Common Pitfalls
 tags:
   - Physics
   - University
+description: '- Fraunhofer (far-field) patterns are Fourier transforms; Fresnel (near-field) patterns involve Fresnel integrals. The transition occurs at'
 ---
 
 - **Confusing Fraunhofer and Fresnel diffraction.** Fraunhofer (far-field) patterns are Fourier

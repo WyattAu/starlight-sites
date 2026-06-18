@@ -1,8 +1,6 @@
 ---
 title: Reaction Mechanisms
-description:
-  'University Chemistry Reaction Mechanisms notes covering key definitions, core concepts, worked
-  examples, and practice questions for practical revision.'
+description: 'Bimolecular nucleophilic substitution — a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry

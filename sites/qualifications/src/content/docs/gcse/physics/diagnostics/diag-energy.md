@@ -1,8 +1,6 @@
 ---
 title: 'Energy -- Diagnostic Tests'
-description:
-  'GCSE Physics Energy -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: '(a) Describe the energy transfers when a ball is thrown upwards and then caught at the same height. (b) A 0.5 kg ball is thrown vertically upwards at 10...'
 tableOfContents: false
 ---
 

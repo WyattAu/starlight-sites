@@ -3,6 +3,7 @@ title: Polarisation in Detail
 tags:
   - Physics
   - University
+description: 'The represents the polarisation state of a monochromatic plane wave: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 13.1 Jones Calculus

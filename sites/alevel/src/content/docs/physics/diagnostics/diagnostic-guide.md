@@ -1,8 +1,6 @@
 ---
 title: A-Level Physics Diagnostic Guide
-description:
-  'A-Level Physics Diagnostic notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted exam preparation and mastery.'
+description: 'This diagnostic suite contains 20 topic-level tests for A-Level Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3...'
 tableOfContents: false
 ---
 

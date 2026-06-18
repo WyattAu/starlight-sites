@@ -1,8 +1,6 @@
 ---
 title: Binary Search Trees and Balanced Trees
-description:
-  'Algorithms Binary Search Trees and Balanced notes covering key definitions, core concepts, worked
-  examples, and practice questions for revision.'
+description: 'A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And...'
 
 ---
 
@@ -399,7 +397,6 @@ Insertion requires at most 1 rotation (single or double). Deletion may require u
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
 Along the path to the root.
 
-:::
 
 ## Red-Black Trees
 
@@ -558,13 +555,13 @@ class RBTree:
 | Delete performance   | Slower (more rotations) | Faster                     |
 | Standard library use | `std::map` (GCC)        | Java `TreeMap`Linux kernel |
 
+:::
 :::tip
 
 Use AVL trees when lookups dominate (databases, dictionaries). Use red-black trees when insertions
 And deletions are frequent (scheduler, event queues). In practice, the performance difference is
 Small for most workloads.
 
-:::
 
 ## B-Trees
 
@@ -742,13 +739,13 @@ def bplus_range_query(tree, low, high):
     return result
 ```
 
+:::
 :::info
 
 B+ trees are the standard index structure in relational databases (PostgreSQL, MySQL InnoDB,
 Oracle). PostgreSQL uses B+ trees as the default index type. MySQL InnoDB uses a variant where the
 Leaf pages form a doubly-linked list, enabling both forward and backward scans.
 
-:::
 
 ## Splay Trees
 
@@ -934,13 +931,13 @@ class Treap:
         return root
 ```
 
+:::
 :::info
 
 The expected height of a treap is $O(\log n)$ because the random priorities make the treap
 Equivalent to a randomly built BST. The expected depth of any node is at most
 $2 \ln n \approx 1.39 \log_2 n$. Treaps are simpler to implement than AVL or red-black trees.
 
-:::
 
 ## Skip Lists
 
@@ -1137,3 +1134,5 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

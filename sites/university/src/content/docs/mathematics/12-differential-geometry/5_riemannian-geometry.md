@@ -3,6 +3,7 @@ title: Riemannian Geometry
 tags:
   - Mathematics
   - University
+description: 'A on a smooth manifold is a smooth family of inner products Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 5.1 Riemannian Metrics

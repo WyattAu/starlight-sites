@@ -1,8 +1,6 @@
 ---
 title: Geographic Skills
-description:
-  'IB Geography Geographic Skills notes covering key definitions, core concepts, worked examples,
-  and practice questions for efficient review and exam preparation.'
+description: 'Map scale expresses the relationship between distance on the map and distance on the ground. There are three representations:'
 
 ---
 

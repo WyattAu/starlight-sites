@@ -3,6 +3,7 @@ title: Angular Momentum and the Hydrogen Atom
 tags:
   - Physics
   - University
+description: 'Comprehensive educational content notes on angular momentum and the hydrogen atom with precise definitions, worked examples, and common pitfalls.'
 ---
 
 ### 6.1 Angular Momentum Operators

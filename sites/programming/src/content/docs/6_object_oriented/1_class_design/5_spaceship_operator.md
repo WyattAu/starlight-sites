@@ -1,8 +1,6 @@
 ---
 title: The Spaceship Operator
-description:
-  'C++ Programming The Spaceship Operator notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured revision.'
+description: 'C++20 introduced the three-way comparison operator (the "spaceship operator") as a unified Mechanism for defining all relational comparisons in a single...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -529,7 +527,6 @@ int main() {
   `std::partial_ordering` are defined in `<compare>`. Forgetting to include it causes compilation
   errors.
 
-:::
 
 ## Summary
 

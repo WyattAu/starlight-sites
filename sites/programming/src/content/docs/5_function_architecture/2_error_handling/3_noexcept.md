@@ -1,8 +1,6 @@
 ---
 title: The noexcept Specifier
-description:
-  'C++ Programming The noexcept Specifier notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees.'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -547,7 +545,6 @@ int main() {
 - [Exception Safety Guarantees](2_exception_safety.md)
 - [The Itanium Exception ABI](1_exception_abi.md)
 
-:::
 
 ## Summary
 

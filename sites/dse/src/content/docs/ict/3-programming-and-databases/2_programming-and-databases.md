@@ -1,8 +1,6 @@
 ---
 title: ICT - Programming and Databases
-description:
-  'DSE ICT - Programming and Databases notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 

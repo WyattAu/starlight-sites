@@ -3,6 +3,7 @@ title: The Cauchy-Riemann Equations
 tags:
   - Mathematics
   - University
+description: 'The Cauchy-Riemann Equations: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 3.1 Statement

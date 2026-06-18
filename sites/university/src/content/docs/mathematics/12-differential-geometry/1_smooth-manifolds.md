@@ -3,6 +3,7 @@ title: Smooth Manifolds
 tags:
   - Mathematics
   - University
+description: 'An -dimensional is a topological space that is: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 1.1 Topological Manifolds

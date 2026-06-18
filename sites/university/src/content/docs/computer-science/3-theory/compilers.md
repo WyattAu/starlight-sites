@@ -1,8 +1,6 @@
 ---
 title: Compilers
-description:
-  'University Computer Science Compilers notes covering key definitions, core concepts, worked
-  examples, and practice questions for solid revision.'
+description: 'Source Code → Lexical Analysis (tokens) → Syntax Analysis (parse tree) → Semantic Analysis (annotated tree) → Intermediate Representation (IR) → Code...'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

@@ -1,8 +1,6 @@
 ---
 title: Serialization and Data Formats
-description:
-  'Python Serialization and Data Formats notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam preparation.'
+description: 'The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance.'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: 'Electricity -- Diagnostic Tests'
-description:
-  'GCSE Physics Electricity -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam readiness.'
+description: '(a) Define current, voltage, and resistance. (b) A circuit has a 12 V battery connected to a resistor of 4 . Calculate the current. (c) A bulb has a...'
 tableOfContents: false
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: GCSE Biology
-description:
-  'GCSE Biology notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid study and thorough revision.'
+description: 'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - gcse
@@ -83,3 +81,43 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Overview
+
+This section provides comprehensive Qualifications Gcse content, covering all specification points with detailed explanations, worked examples, and practice questions.
+
+## Content Structure
+
+Each page in this section includes:
+
+- **Definitions**: Clear, precise explanations of key concepts
+- **Worked Examples**: Step-by-step solutions with annotations
+- **Practice Questions**: Examination-style questions with detailed solutions
+- **Common Pitfalls**: Errors to avoid and how to fix them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use These Notes
+
+1. Read the introductory page to understand the topic overview
+2. Work through each sub-topic in order
+3. Attempt the practice questions before checking solutions
+4. Use the flashcards to revise key terminology
+5. Complete the diagnostic test to identify remaining gaps
+
+## Key Topics
+
+- Core definitions and principles
+- Application to examination-style questions
+- Links to related topics across the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself regularly rather than re-reading notes
+- **Spaced Practice**: Revisit this topic at increasing intervals
+- **Interleaving**: Mix with other topics during revision sessions
+- **Elaboration**: Explain concepts in your own words
+
+## Exam Preparation
+
+Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.

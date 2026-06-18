@@ -1,8 +1,6 @@
 ---
 title: Computer Science
-description:
-  'IB Computer Science notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear learning and effective revision.'
+description: '- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the...'
 
 ---
 

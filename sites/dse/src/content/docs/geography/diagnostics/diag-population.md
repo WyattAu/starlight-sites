@@ -1,8 +1,6 @@
 ---
 title: 'Population -- Diagnostic Tests'
-description:
-  'DSE Geography Population -- Diagnostic Tests covering population pyramids, demographic
-  transition, migration, and integration of population concepts.'
+description: 'Population -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 tableOfContents: false
 ---
 

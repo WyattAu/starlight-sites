@@ -1,8 +1,6 @@
 ---
 title: Git Hooks
-description:
-  'Git Hooks notes covering key definitions, core concepts, worked examples, and practice questions
-  for effective exam preparation and mastery.'
+description: 'Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and...'
 
 ---
 

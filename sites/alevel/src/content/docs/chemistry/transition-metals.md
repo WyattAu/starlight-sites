@@ -1,8 +1,6 @@
 ---
 title: Transition Metals & Analytical Chemistry
-description:
-  'A-Level Transition Metals & Analytical Chemistry notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level...'
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

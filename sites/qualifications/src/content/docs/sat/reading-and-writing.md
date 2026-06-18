@@ -1,9 +1,7 @@
 ---
 title: Reading and Writing
 date: 2026-05-30
-description:
-  'SAT Reading And Writing.Md Reading and Writing notes covering key definitions, core concepts,
-  worked examples, and practice questions for efficient revision.'
+description: 'The Reading & Writing section of the digital SAT consists of across , split into two adaptive modules of 27 questions each (32 minutes per module). All...'
 tags:
   - sat
   - reading

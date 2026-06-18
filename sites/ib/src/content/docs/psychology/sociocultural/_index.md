@@ -1,8 +1,6 @@
 ---
 title: Sociocultural Level of Analysis
-description:
-  'IB Psychology Sociocultural Level of Analysis notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective revision.'
+description: 'This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour.'
 
 ---
 

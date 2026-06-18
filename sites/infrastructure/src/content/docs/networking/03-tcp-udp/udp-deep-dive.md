@@ -1,8 +1,6 @@
 ---
 title: UDP Deep Dive
-description:
-  'UDP Deep Dive notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic learning and effective revision.'
+description: 'UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees....'
 tags:
   - Networking
 categories:
@@ -248,7 +246,6 @@ Every subnet has a broadcast address: the last address in the subnet (all host b
 Many modern operating systems do not respond to broadcast pings by default. Linux sets
 `net.ipv4.icmp_echo_ignore_broadcasts=1`. Do not rely on ping to test broadcast reachability.
 
-:::
 
 ## Multicast
 
@@ -418,6 +415,7 @@ ping -M do -s 1472 example.com    # Maximum for standard Ethernet (1500 - 20 IP 
 ip route get 8.8.8.8
 ```
 
+:::
 :::caution
 
 ICMP "Fragmentation Needed" messages are frequently filtered by firewalls, breaking PMTUD. If PMTUD
@@ -425,7 +423,6 @@ Fails, the sender never learns the correct MTU and silently drops packets. This 
 Insidious networking problems because the connection appears to work for small packets but fails for
 Large ones. Use TCP MSS clamping or UDP packet size limits as a workaround.
 
-:::
 
 ## UDP and NAT
 
@@ -498,6 +495,7 @@ On repeat connections, QUIC can send application data in the first flight (0-RTT
 Cached session ticket from a previous connection to derive the encryption keys immediately, without
 Waiting for the server's handshake response.
 
+:::
 :::caution
 
 0-RTT data is vulnerable to replay attacks. An attacker who captures the 0-RTT data can replay it to
@@ -844,5 +842,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

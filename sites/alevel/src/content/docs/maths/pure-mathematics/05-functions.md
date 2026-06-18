@@ -1,8 +1,6 @@
 ---
 title: Functions
-description:
-  'A-Level Maths Functions notes covering key definitions, core concepts, worked examples, and
-  practice questions for efficient review and exam preparation.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -75,8 +73,7 @@ $f \circ g \neq g \circ f$.
 
 </details>
 
-:::caution Warning Right to left: $(f \circ g)(x) = f(g(x))$.
-:::
+> **Caution:** Warning Right to left: $(f \circ g)(x) = f(g(x))$.
 <hr />
 
 ## 3. Inverse Functions
@@ -257,8 +254,7 @@ $$y = af(x - p) + q$$
 Represents: horizontal translation by $p$ (right), vertical stretch by factor $a$Vertical
 Translation by $q$ (up).
 
-:::tip Tip (outside). The order inside-out matters.
-:::
+> **Tip:** Tip (outside). The order inside-out matters.
 <hr />
 
 ## 6. Even and Odd Functions
@@ -561,7 +557,7 @@ The largest interval containing $0$ on which $f$ is strictly monotonic (hence in
 $[-1, 1]$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Injectivity](#3-inverse-functions) and [Differentiation](./10-differentiation.md)
+<b>If you get this wrong, revise:</b> [Injectivity](#3-inverse-functions) and [Differentiation](10-differentiation.mdx)
 
 <hr />
 

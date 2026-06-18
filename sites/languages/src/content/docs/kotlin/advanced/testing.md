@@ -1,8 +1,6 @@
 ---
 title: Testing
-description:
-  'Kotlin Testing notes covering key definitions, core concepts, worked examples, and practice
-  questions for complete revision and exam readiness.'
+description: 'dependencies { testImplementation("org.jetbrains.kotlin:kotlin-test") testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")...'
 date: 2026-04-18
 tags:
   - Kotlin

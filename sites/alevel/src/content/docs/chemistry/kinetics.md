@@ -1,8 +1,6 @@
 ---
 title: Chemical Kinetics
-description:
-  'A-Level Chemistry Chemical Kinetics notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed revision.'
+description: 'Kinetics is the study of reaction rates and the factors that influence them. Thermodynamics tells us whether a reaction is feasible; kinetics tells us...'
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

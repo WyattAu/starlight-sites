@@ -3,6 +3,7 @@ title: Lattice Vibrations and Phonons
 tags:
   - Physics
   - University
+description: 'Consider atoms of mass connected by springs of constant with equilibrium spacing Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 4.1 The One-Dimensional Monatomic Chain

@@ -3,6 +3,7 @@ title: Complex Numbers Review
 tags:
   - Mathematics
   - University
+description: 'Complex Numbers Review: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 1.1 Definition and Arithmetic

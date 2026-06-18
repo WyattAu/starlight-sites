@@ -1,8 +1,6 @@
 ---
 title: Biological Level of Analysis
-description:
-  'IB Psychology Biological Level of Analysis notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: 'The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and...'
 
 ---
 

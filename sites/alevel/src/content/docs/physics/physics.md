@@ -1,8 +1,6 @@
 ---
 title: Physics
-description:
-  'A-Level Physics notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical study and thorough revision.'
+description: 'A Level Physics is the study of the fundamental laws governing the universe, from the subatomic Scale to the cosmological. The course develops mathematical...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics

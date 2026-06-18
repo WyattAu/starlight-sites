@@ -26,3 +26,45 @@ Process management involves scheduling algorithms that determine which process e
 8. [Virtualization](8_virtualization.md)
 9. [Security](9_security.md)
 10. [Problem Set](10_problem-set.md)
+
+## Overview
+
+University-level operating systems notes covering processes, memory, file systems, and virtualisation.
+
+## Topics Covered
+
+- **Process Management**: Scheduling, threads, inter-process communication
+- **Synchronisation**: Semaphores, monitors, condition variables
+- **Memory Management**: Paging, segmentation, virtual memory
+- **File Systems**: Implementation, performance, reliability
+
+## Prerequisites
+
+- Basic programming experience
+- Computer architecture fundamentals
+- Understanding of binary representation
+
+## How to Use These Notes
+
+Start with process management to understand the foundational concepts, then progress to memory and file systems. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of computer science
+
+## Study Tips
+
+1. **Understand abstractions**: Focus on how the OS abstracts hardware complexity
+2. **Practice visualisation**: Draw process states, memory layouts, and scheduling diagrams
+3. **Learn synchronisation**: Master mutexes, semaphores, and condition variables
+4. **Analyse trade-offs**: OS design always involves trade-offs (performance vs. fairness)
+5. **Connect to real systems**: Study Linux/Unix internals to understand theoretical concepts

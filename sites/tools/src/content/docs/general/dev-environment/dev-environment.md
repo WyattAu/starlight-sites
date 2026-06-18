@@ -1,8 +1,6 @@
 ---
 title: Development Environment Setup
-description:
-  'General Development Environment Setup notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective revision.'
+description: 'Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode Support, and fast image rendering:'
 
 ---
 

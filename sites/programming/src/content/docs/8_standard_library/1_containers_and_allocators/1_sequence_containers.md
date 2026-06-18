@@ -1,8 +1,6 @@
 ---
 title: Sequence Containers (Vector, Deque, List)
-description:
-  'C++ Programming Sequence Containers (Vector, Deque, List) notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'The C++ standard library provides three primary sequence containers: And . Each uses a different memory model with distinct trade-offs in terms of random...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

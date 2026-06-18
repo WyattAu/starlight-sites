@@ -1,8 +1,6 @@
 ---
 title: Functions
-description:
-  'Go Functions notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and revision.'
+description: 'Go functions are first-class values. The basic syntax: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-18
 tags:
   - Go

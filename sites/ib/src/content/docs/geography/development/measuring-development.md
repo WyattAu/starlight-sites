@@ -1,8 +1,6 @@
 ---
 title: Measuring Development
-description:
-  'IB Geography Measuring Development notes covering key definitions, core concepts, worked
-  examples, and practice questions for comprehensive revision.'
+description: 'Development is a multidimensional concept encompassing economic progress, social well-being, Environmental sustainability, political freedom, and quality of...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Differential Equations
-description:
-  'Qualifications Maths Differential Equations notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed revision.'
+description: 'A (DE) is an equation that relates a function to one or more of its Derivatives. The of a DE is the highest derivative that appears. A first-order DE...'
 date: 2026-04-14
 tags:
   - ap
@@ -70,8 +68,8 @@ $$
 
 (We take the positive root since $y(0) = 2 \gt 0$.)
 
-:::
 
+:::
 :::info[Example]
 
 Solve $\displaystyle\frac{dy}{dx} = 2xy$ with $y(0) = 3$.
@@ -86,7 +84,6 @@ $$
 \ln|y| = x^2 + \ln 3 \implies |y| = e^{x^2 + \ln 3} = 3e^{x^2} \implies y = 3e^{x^2}
 $$
 
-:::
 
 ### Worked Example: Separation with Partial Fractions
 
@@ -181,6 +178,7 @@ Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$We get $k = -\frac{\ln 2
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
 Is always $T_{1/2}$. This is a direct consequence of the exponential's scale-invariance.
 
+:::
 :::info[Example]
 
 Carbon-14 has a half-life of approximately 5730 years. A bone fragment contains 25% of its original
@@ -200,7 +198,6 @@ $$
 
 (Equivalently, $25\% = \frac{1}{4} = 2^{-2}$So $t = 2 \times 5730 = 11460$ years.)
 
-:::
 
 ### Doubling Time
 
@@ -272,6 +269,7 @@ $$
 - The maximum growth rate occurs at the inflection point.
 - $\displaystyle\left.\frac{dy}{dt}\right|_{y = L/2} = \frac{kL}{4}$
 
+:::
 :::info[Example]
 
 A population of bacteria grows logistically with carrying capacity 1000. Initially, there are 100
@@ -296,7 +294,6 @@ $$
 
 So approximately 559 bacteria.
 
-:::
 
 ## Slope Fields
 
@@ -318,6 +315,7 @@ The density of the grid determines how accurately the field represents the DE.
 - The slope field is unique to the DE, but multiple solution curves pass through different points.
 - Solution curves cannot cross (by the uniqueness theorem).
 
+:::
 :::info[Example]
 
 For $\displaystyle\frac{dy}{dx} = x + y$:
@@ -329,8 +327,8 @@ For $\displaystyle\frac{dy}{dx} = x + y$:
 
 The slopes increase as you move to the upper-right and decrease as you move to the lower-left.
 
-:::
 
+:::
 :::info[Example]
 
 For $\displaystyle\frac{dy}{dx} = \frac{x}{y}$:
@@ -340,7 +338,6 @@ $x$. When $y = 0$: slopes are undefined (vertical line segments).
 
 The solution curves are hyperbolas $y^2 - x^2 = C$Consistent with our earlier analytic solution.
 
-:::
 
 ## Euler's Method (CED Unit 7.6)
 
@@ -373,6 +370,7 @@ Approximating the curve locally by its tangent line at each step.
 - Smaller step sizes produce more accurate approximations but require more computation.
 - The method can diverge if the step size is too large, especially for rapidly changing solutions.
 
+:::
 :::info[Example]
 
 Use Euler's method with $\Delta x = 0.5$ to approximate $y(2)$ for $\frac{dy}{dx} = x + y$
@@ -389,7 +387,6 @@ So $y(2) \approx 1.5$.
 (The exact solution is $y = e^{x-1} - x - 1$Giving $y(2) = e - 3 \approx -0.282$. The Approximation
 is poor due to the large step size. With $\Delta x = 0.1$The result is much closer.)
 
-:::
 
 ### Worked Example: More Steps
 
@@ -429,6 +426,7 @@ $$
 This is an exponential decay toward $T_s$. The object asymptotically approaches the surrounding
 Temperature but never quite reaches it.
 
+:::
 :::info[Example]
 
 A cup of coffee at $90^\circ\mathrm{C$ is placed in a room at $20^\circ\mathrm{C$. After 10 minutes,
@@ -451,7 +449,6 @@ $$
 T = \frac{\ln(14/3)}{k} = \frac{10\ln(14/3)}{\ln(7/4)} \approx \frac{10 \times 1.540}{0.5596} \approx 27.5 \mathrm{ minutes
 $$
 
-:::
 
 ### Mixing Problems
 
@@ -468,6 +465,7 @@ $$
 The term $\frac{Q}{V}$ is the current concentration in the tank, so $\frac{r_o}{V}Q$ is the rate at
 Which substance leaves.
 
+:::
 :::info[Example]
 
 A tank holds 100 L of pure water. Brine with 0.5 kg/L salt flows in at 5 L/min, and the mixture
@@ -495,7 +493,6 @@ $$
 Q(20) = 50(1 - e^{-1}) \approx 50(1 - 0.368) \approx 31.6 \mathrm{ kg
 $$
 
-:::
 
 ### Worked Example: Mixing with Variable Volume
 
@@ -579,6 +576,7 @@ $y$-axis with arrows indicating the direction of flow.
 - Draw rightward arrows where $f(y) \gt 0$ (increasing) and leftward arrows where $f(y) \lt 0$
   (decreasing).
 
+:::
 :::info[Example]
 
 Analyse $\displaystyle\frac{dy}{dt} = y(y - 2)(y - 5)$.
@@ -596,7 +594,6 @@ Equilibria: $y = 0$, $y = 2$, $y = 5$.
 - $y = 2$: arrows point inward -- **stable**
 - $y = 5$: arrows point away -- **unstable**
 
-:::
 
 ## Bifurcation Analysis (CED Unit 7.9)
 
@@ -660,6 +657,7 @@ RK4 is fourth-order accurate: the global error is $O(\Delta x^4)$. For most AP-l
 Euler's method with small step size suffices, but understanding that more sophisticated methods
 Exist provides useful context.
 
+:::
 :::info[RK4 Example]
 
 Use RK4 with $h = 0.5$ to approximate $y(1)$ for $\frac{dy}{dx} = x + y$, $y(0) = 1$.
@@ -692,7 +690,6 @@ So $y(1) \approx 4.3096$. The exact answer is $y = 2e^x - x - 1$So $y(1) = 2e - 
 Even RK4 with this large step size has significant error, but it is far more accurate than Euler's
 Method would be.
 
-:::
 
 ## Common Pitfalls
 

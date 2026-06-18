@@ -1,8 +1,6 @@
 ---
 title: Boolean Algebra
-description:
-  'A-Level Computer Science Boolean Algebra notes covering key definitions, core concepts, worked
-  examples, and practice questions for solid revision.'
+description: 'We define the Boolean algebra over with operations: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

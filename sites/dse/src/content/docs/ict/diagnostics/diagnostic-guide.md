@@ -1,8 +1,6 @@
 ---
 title: 'DSE ICT -- Diagnostic Guide'
-description:
-  'DSE ICT -- Diagnostic notes covering key definitions, core concepts, worked examples, and
-  practice questions for methodical review and exam preparation.'
+description: '| Diagnostic File | Topics Covered | Source File | | ---------------------------------------------- | -------------------------------------------------------...'
 tableOfContents: false
 ---
 

@@ -76,7 +76,6 @@ assert_eq!(len, 1);
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
 Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
-:::
 
 ### Unit Conversion with Newtypes
 
@@ -451,13 +450,13 @@ let p2 = Point { y: 5.0, ..p1 };
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
 
+:::
 :::caution
 
 Struct update syntax moves non-`Copy` fields. If the struct contains `String``Vec`Or other
 Heap-allocated types, those are moved (not copied) into the new struct. After the spread, the
 Original struct is no longer usable in its entirety.
 
-:::
 
 ## Destructuring
 
@@ -1095,3 +1094,5 @@ $\blacksquare$
   fields.
 - Type-state pattern moves validation to compile time by encoding state in generic type parameters.
 
+
+:::

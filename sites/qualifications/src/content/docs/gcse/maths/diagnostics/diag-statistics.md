@@ -1,8 +1,6 @@
 ---
 title: 'Statistics -- Diagnostic Tests'
-description:
-  'GCSE Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: 'The grouped frequency table shows the marks of 60 students in a maths test: Comprehensive educational content coverage with definitions and practice problems.'
 tableOfContents: false
 ---
 

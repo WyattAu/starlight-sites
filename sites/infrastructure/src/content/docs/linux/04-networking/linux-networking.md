@@ -1,8 +1,6 @@
 ---
 title: Linux Networking
-description:
-  'Linux Networking notes covering key definitions, core concepts, worked examples, and practice
-  questions for comprehensive exam preparation and revision.'
+description: 'The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,...'
 
 ---
 
@@ -878,5 +876,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

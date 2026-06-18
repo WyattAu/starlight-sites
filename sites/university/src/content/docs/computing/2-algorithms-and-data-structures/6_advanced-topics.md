@@ -3,6 +3,7 @@ title: Advanced Topics
 tags:
   - Computing
   - University
+description: 'The class of decision problems solvable in polynomial time by a deterministic Tu Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 6.1 NP-Completeness

@@ -1,9 +1,7 @@
 ---
 title: Introduction to Gaokao Notes
 date: 2026-05-30
-description:
-  'Qualifications Intro.Md Introduction to Gaokao notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'The (高考, formally the National College Entrance Examination) is the standardised examination used for university admission in China. It is widely regarded...'
 tags:
   - gaokao
 categories:

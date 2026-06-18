@@ -1,8 +1,6 @@
 ---
 title: Coordinate Geometry
-description:
-  'DSE Maths Coordinate Geometry notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth study and thorough revision.'
+description: 'Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - DSE
@@ -656,9 +654,9 @@ The equation of the common chord is $6x - 8y + 23 = 0$.
 ## Cross-References
 
 - **Quadratics:** The discriminant is used to determine the nature of circle-line intersections. See
-  [quadratics.md](quadratics)).
+  [Quadratics](3_quadratics.mdx).
 - **Functions:** Transformations of graphs apply equally to circles and lines. See
-  [functions-advanced.md](functions-advanced)).
+  [Functions Advanced](2_functions-advanced.md).
 - **Trigonometry:** The angle between two lines uses the tangent formula, which connects to
   trigonometric identities.
 

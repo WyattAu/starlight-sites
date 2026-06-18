@@ -3,6 +3,7 @@ title: Common Pitfalls
 tags:
   - Mathematics
   - University
+description: 'Overlaps with the homogeneous solution. For Guessing fails Because satisfies the homogeneous equation. You must use instead.'
 ---
 
 :::caution Common Pitfall When using undetermined coefficients, always check whether your guess

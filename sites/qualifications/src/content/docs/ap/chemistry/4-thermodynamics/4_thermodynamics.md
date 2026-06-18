@@ -177,7 +177,6 @@ $$
 = [-1180.5 - 1143.2] - [-103.8] = -2323.7 + 103.8 = -2219.9 \mathrm{ kJ
 $$
 
-:::
 
 ### Bond Enthalpies
 
@@ -190,6 +189,7 @@ $$
 This is an approximation because bond energies are average values that depend on the molecular
 Environment. The approximation is most accurate when all species are in the gas phase.
 
+:::
 :::info[Example]
 
 Estimate $\Delta H$ for
@@ -207,7 +207,6 @@ $$
 (The exact value using formation enthalpies is about $-802 \mathrm{ kJ/mol$ for the gaseous
 Products.)
 
-:::
 
 ## Calorimetry
 
@@ -282,6 +281,7 @@ $$\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol$$
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
 Solution rather than pure water.)
 
+:::
 :::info[Example]
 
 When $50.0 \mathrm{ mL$ of $1.00 \mathrm{ M  \mathrm{HCl$ is mixed with $50.0 \mathrm{ mL$ of
@@ -306,7 +306,6 @@ $$
 \Delta H = \frac{-2.76}{0.0500} = -55.2 \mathrm{ kJ/mol
 $$
 
-:::
 
 ## Entropy and the Second Law (CED Unit 9)
 
@@ -467,6 +466,7 @@ $$
 
 At this temperature, $\Delta G = 0$ and $K = 1$.
 
+:::
 :::info[Example]
 
 For the reaction $\mathrm{CaCO_3(s) \to \mathrm{CaO(s) + \mathrm{CO_2(g)$:
@@ -481,7 +481,6 @@ $$
 
 Above $1113 \mathrm{ K$, $\Delta G \lt 0$ and the decomposition is spontaneous.
 
-:::
 
 ### Worked Example: Gibbs Free Energy Calculation
 
@@ -870,3 +869,5 @@ Using conservation of energy: $mgh = \frac{1}{2}mv^2$
 $$
 $$v = \sqrt{2gh} = \sqrt{2 \times 9.81 \times 20} = \sqrt{392.4} \approx 19.8\,\text{m\,s}^{-1}$$
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: Differential Equations
-description:
-  'University Mathematics Differential Equations notes covering key definitions, core concepts,
-  worked examples, and practice questions for thorough preparation.'
+description: 'UNIVERSITY Mathematics notes: Differential Equations. Comprehensive study material with definitions, examples, and assessment tools.'
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Mathematics

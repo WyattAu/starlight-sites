@@ -1,8 +1,6 @@
 ---
 title: 'Cell Biology -- Diagnostic Tests'
-description:
-  'GCSE Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: '(a) Draw a labelled diagram of an animal cell and a plant cell, identifying at least 5 structures in each. (b) Create a comparison table of plant and animal...'
 tableOfContents: false
 ---
 

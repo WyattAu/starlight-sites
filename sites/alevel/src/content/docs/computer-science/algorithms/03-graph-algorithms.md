@@ -1,8 +1,6 @@
 ---
 title: Graph Algorithms
-description:
-  'A-Level Computer Science Graph Algorithms notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured preparation.'
+description: 'See for the full treatment. Here we Provide additional detail on the priority qu Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -886,7 +884,6 @@ which may differ from the MST. These are different optimisation problems with di
 
 </details>
 
-:::
 
 ## Common Pitfalls
 

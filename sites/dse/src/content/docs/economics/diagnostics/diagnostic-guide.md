@@ -1,8 +1,6 @@
 ---
 title: 'DSE Economics -- Diagnostic Guide'
-description:
-  'DSE Economics -- Diagnostic notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid study and examination practice.'
+description: '| Diagnostic File | Topics Covered | Source File | | ------------------------------------------------------------ | -----------------------------------------...'
 tableOfContents: false
 ---
 

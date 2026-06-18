@@ -1,8 +1,6 @@
 ---
 title: DSE Physics
-description:
-  'DSE Physics notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth revision and examination preparation.'
+description: 'The Hong Kong Diploma of Secondary Education (DSE) Physics examination assesses candidates' Understanding of fundamental physics principles and their...'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Physics

@@ -1,8 +1,6 @@
 ---
 title: Generators and Iterators
-description:
-  'Python Generators and Iterators notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam readiness.'
+description: 'Python's iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

@@ -3,6 +3,7 @@ title: Applications
 tags:
   - Mathematics
   - University
+description: 'Applications: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 7.1 Differential Equations

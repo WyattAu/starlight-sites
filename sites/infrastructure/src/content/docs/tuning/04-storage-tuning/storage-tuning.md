@@ -1,8 +1,6 @@
 ---
 title: Storage Tuning
-description:
-  'Storage Tuning notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused exam preparation and revision.'
+description: '| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Garbage Collection
-description:
-  'Java Garbage Collection notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid revision and exam readiness.'
+description: 'An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a...'
 
 ---
 

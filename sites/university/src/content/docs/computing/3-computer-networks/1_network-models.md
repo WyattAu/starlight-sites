@@ -3,6 +3,7 @@ title: Network Models
 tags:
   - Computing
   - University
+description: 'The model defines seven layers of abstraction for network Communication: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 1.1 The OSI Reference Model

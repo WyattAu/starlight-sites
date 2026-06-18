@@ -1,8 +1,6 @@
 ---
 title: Merging
-description:
-  'Git Merging notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and revision.'
+description: 'Merging is the process of combining the changes from one branch into another. Git's merge algorithm Is one of its most sophisticated features — it can...'
 date: 2025-06-03T03:00:00.000Z
 tags:
   - git
@@ -161,7 +159,6 @@ Use `--no-ff` when merging feature branches into `main` to preserve the branch t
 It easy to see when a feature was merged, revert the entire feature with one command
 (`git revert -m 1 <merge-commit>`), and understand the project history.
 
-:::
 
 ## Merge Strategies
 
@@ -273,6 +270,7 @@ $ git merge --abort
 | Rename conflicts (file renamed differently on each branch) | Manually resolve: pick one name, apply changes from both sides    |
 | Large-scale conflicts (hundreds of files)                  | Consider rebasing instead, or `git merge --abort` and re-evaluate |
 
+:::
 :::tip
 
 Configure a visual merge tool for easier conflict resolution:
@@ -285,7 +283,6 @@ $ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 Popular options: `meld` (Linux), `vscode` (cross-platform), `kdiff3` (cross-platform), `opendiff`
 (macOS).
 
-:::
 
 ## Merge vs Rebase
 
@@ -398,3 +395,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -3,6 +3,7 @@ title: Coherence Theory
 tags:
   - Physics
   - University
+description: 'describes the correlation of a wave with itself at different times. The is the time over which the phase relationship is maintained.'
 ---
 
 ### 16.1 Temporal Coherence

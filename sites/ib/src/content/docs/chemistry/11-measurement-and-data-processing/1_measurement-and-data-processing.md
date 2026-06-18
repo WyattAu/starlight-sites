@@ -46,7 +46,6 @@ $$
 \Delta V = 0.05\mathrm{ cm}^3, \quad \%u = \frac{0.05}{24.50} \times 100\% = 0.20\%
 $$
 
-:::
 
 ### Uncertainty in Addition and Subtraction
 
@@ -72,6 +71,7 @@ $$
 \%\mathrm{u}(a^n) = n \times \%\mathrm{u}(a)
 $$
 
+:::
 :::info[Example]
 
 The density of a sphere: $\rho = \dfrac{m}{\frac{4}{3}\pi r^3}$
@@ -90,7 +90,6 @@ $$
 \%\mathrm{u}(\rho) = \%\mathrm{u}(m) + 3 \times \%\mathrm{u}(r) = 0.20\% + 3.00\% = 3.20\%
 $$
 
-:::
 
 ### Common Pitfalls
 
@@ -129,6 +128,7 @@ $$
 | Logarithms              | Number of decimal places in result = sig figs in argument                |
 | Antilogarithms          | Number of sig figs in result = decimal places in argument                |
 
+:::
 :::info[Example]
 
 $$
@@ -143,7 +143,6 @@ $$
 \log(2.0 \times 10^3) = 3.30 \quad \mathrm{(two decimal places)}
 $$
 
-:::
 
 ---
 
@@ -240,13 +239,13 @@ Used to confirm identity by comparison with a reference spectrum.
 3. Check $1700$--$1750\mathrm{ cm}^{-1}$ for C=O.
 4. Use the fingerprint region to confirm.
 
+:::
 :::info[Example]
 
 An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$Sharp absorption at
 $1700\mathrm{ cm}^{-1}$And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
 Carboxylic acid.
 
-:::
 
 ---
 
@@ -394,6 +393,7 @@ Peaks appear at known positions:
 4. **$\mathrm{^{13}C}$ NMR**: Determine the number of carbon environments.
 5. Assemble the structural fragments and propose a structure consistent with all data.
 
+:::
 :::info[Example]
 
 A compound has molecular ion $\mathrm{M}^+ = 88$. IR shows a strong broad peak at
@@ -860,5 +860,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | --------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Measurement and Data Processing] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)                              |
 | [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing) |
+
 
 :::

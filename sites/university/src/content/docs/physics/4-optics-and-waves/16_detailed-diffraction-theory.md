@@ -3,6 +3,7 @@ title: Detailed Diffraction Theory
 tags:
   - Physics
   - University
+description: '(near-field): the observation screen is close enough that the curvature of the wavefronts matters. The Fresnel diffraction integral is:'
 ---
 
 ### 12.1 Fresnel and Fraunhofer Diffraction

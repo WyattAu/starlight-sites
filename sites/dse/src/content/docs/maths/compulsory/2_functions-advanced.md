@@ -1,8 +1,6 @@
 ---
 title: Functions (Advanced)
-description:
-  'DSE Maths Functions (Advanced) notes covering key definitions, core concepts, worked examples,
-  and practice questions for solid learning and effective revision.'
+description: 'This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - DSE
@@ -23,7 +21,7 @@ This note assumes the reader is already familiar with:
 
 These topics are covered in the introductory [Functions](/maths/functions/) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
 
-This note extends the treatment of functions covered in [functions.md](functions)), focusing on
+This note extends the treatment of functions covered in [Functions](1_functions.mdx), focusing on
 Domain restrictions, composite and inverse functions with non-trivial domains, and graphical
 Transformations.
 
@@ -622,13 +620,13 @@ Verification: $(f \circ h)(x) = 2\!\left(x + \dfrac{3}{2}\right) - 1 = 2x + 2$. 
 
 ## Cross-References
 
-- **Basic Functions:** Foundational definitions and notation are in [functions.md](functions)).
+- **Basic Functions:** Foundational definitions and notation are in [Functions](1_functions.mdx).
 - **Quadratics:** Quadratic functions feature heavily in inverse function problems. See
-  [quadratics.md](quadratics)).
+  [Quadratics](3_quadratics.mdx).
 - **Inequalities:** Domain restrictions often involve solving inequalities. See the inequalities
   notes.
 - **Coordinate Geometry:** Graphical interpretations of functions and transformations. See
-  [coordinate-geometry.md](coordinate-geometry)).
+  [Coordinate Geometry](9_coordinate-geometry.md).
 
 ---
 

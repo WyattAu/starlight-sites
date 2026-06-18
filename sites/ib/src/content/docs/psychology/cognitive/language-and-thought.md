@@ -1,8 +1,6 @@
 ---
 title: Language and Thought
-description:
-  'IB Psychology Language and Thought notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is...'
 
 ---
 

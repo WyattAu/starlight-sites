@@ -3,6 +3,7 @@ title: Coherence
 tags:
   - Physics
   - University
+description: ': the time over which the wave maintains a well-defined phase. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 8.1 Temporal Coherence

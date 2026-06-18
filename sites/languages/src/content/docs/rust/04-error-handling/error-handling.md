@@ -1,8 +1,6 @@
 ---
 title: Error Handling
-description:
-  'Rust Error Handling notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective revision and exam readiness.'
+description: 'Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.'
 
 ---
 
@@ -72,7 +70,6 @@ assert!(result.is_err());
 Across FFI boundaries (panics through C callbacks are undefined behavior). It is also not a
 Substitute for proper error handling — use it sparingly, for plugin systems or process Isolation.
 
-:::
 
 ## `unwrap` and `expect`
 
@@ -86,12 +83,12 @@ result.unwrap();        // 10 — panics on Err
 result.expect("parse should succeed"); // 10 — panics with message on Err
 ```
 
+:::
 :::tip
 
 Use `expect()` instead of `unwrap()` everywhere. The message serves as documentation about why the
 Value should exist and makes debugging easier when the panic occurs.
 
-:::
 
 ### When `unwrap` Is Acceptable
 
@@ -869,3 +866,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

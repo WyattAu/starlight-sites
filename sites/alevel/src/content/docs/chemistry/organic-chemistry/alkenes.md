@@ -1,8 +1,6 @@
 ---
 title: Alkenes
-description:
-  'A-Level Chemistry Alkenes notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic study and examination practice.'
+description: 'Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula For acyclic alkenes with one double bond is . The C=C bond...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -28,7 +26,7 @@ $120^\circ$. The C=C bond length ($134\,\mathrm{pm}$) is shorter than the C--C s
 ($154\,\mathrm{pm}$) because the $\pi$ bond draws the atoms closer together.
 
 The $\pi$ bond restricts rotation about the C=C axis, which has two critical consequences: E/Z
-Isomerism (discussed in the [introduction](./organic-chemistry-introduction)) and the existence of a
+Isomerism (discussed in the [introduction](../organic-chemistry.md)) and the existence of a
 Substantial barrier to rotation ($\approx 270\,\mathrm{kJ/mol}$ for ethene).
 
 ### Physical Properties

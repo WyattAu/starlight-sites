@@ -1,8 +1,6 @@
 ---
 title: Multivariable Calculus
-description:
-  'University Mathematics Multivariable Calculus notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective preparation.'
+description: 'Multivariable Calculus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

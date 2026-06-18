@@ -1,8 +1,6 @@
 ---
 title: Bash Scripting
-description:
-  'Bash Scripting notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective exam preparation and revision.'
+description: 'if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 
@@ -65,7 +63,6 @@ re='^user_[0-9]+$'
 if [[ $input =~ $re ]]; then echo "match"; fi
 ```
 
-:::
 
 ### File Test Operators
 
@@ -307,12 +304,12 @@ calculate() {
 }
 ```
 
+:::
 :::caution
 
 Variables in bash functions are global by default. Always use `local` to avoid polluting the calling
 Scope. This is one of the most common sources of bash script bugs.
 
-:::
 
 ### Return Codes
 
@@ -763,6 +760,7 @@ trap 'echo "ERROR: line $LINENO, command: $BASH_COMMAND, exit: $?"' ERR
 false
 ```
 
+:::
 :::caution
 
 The `ERR` trap fires on every non-zero exit status when `set -e` is active. In pipelines with
@@ -1193,5 +1191,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

@@ -1,8 +1,6 @@
 ---
 title: Undervolting and Overclocking
-description:
-  'Undervolting and Overclocking notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision.'
+description: 'Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) Supplied below the voltage level defined by the...'
 date: 2025-06-12T16:37:43.317Z
 categories:
   - general

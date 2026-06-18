@@ -1,8 +1,6 @@
 ---
 title: Modern Texts and Poetry
-description:
-  'GCSE English Modern Texts and Poetry notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: '(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-22
 tags:
   - gcse

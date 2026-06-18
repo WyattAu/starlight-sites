@@ -1,8 +1,6 @@
 ---
 title: Plant Biology
-description:
-  'ILC Plant Biology notes covering key definitions, core concepts, worked examples, and practice
-  questions for complete learning and effective revision.'
+description: 'This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to Stimuli. Plant biology is a core area of the Irish...'
 date: 2026-04-14
 tags:
   - ilc

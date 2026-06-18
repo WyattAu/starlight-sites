@@ -1,8 +1,6 @@
 ---
 title: Cooling Systems
-description:
-  'Cooling Systems notes covering key definitions, core concepts, worked examples, and practice
-  questions for rigorous revision and examination preparation.'
+description: 'Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems.'
 
 ---
 

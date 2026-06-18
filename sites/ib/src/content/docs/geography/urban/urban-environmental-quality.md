@@ -1,8 +1,6 @@
 ---
 title: Urban Environmental Quality
-description:
-  'IB Geography Urban Environmental Quality notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: 'An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the...'
 
 ---
 

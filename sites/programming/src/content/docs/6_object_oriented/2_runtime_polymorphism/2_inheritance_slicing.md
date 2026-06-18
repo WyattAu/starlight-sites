@@ -1,8 +1,6 @@
 ---
 title: Inheritance, Object Slicing, and Virtual Destructors
-description:
-  'C++ Programming Inheritance, Object Slicing, and Virtual notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value Causes -- the derived portion is discarded. This section...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

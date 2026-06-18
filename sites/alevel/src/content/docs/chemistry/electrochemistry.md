@@ -1,8 +1,6 @@
 ---
 title: Electrochemistry
-description:
-  'A-Level Electrochemistry notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid revision and examination preparation.'
+description: 'The oxidation state is a formalism that assigns a charge to an atom in a compound based on electronegativity. The rules for assigning oxidation states:'
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

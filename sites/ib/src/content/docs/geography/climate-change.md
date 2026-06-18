@@ -1,8 +1,6 @@
 ---
 title: Climate Change
-description:
-  'IB Geography Climate Change notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective exam preparation and revision.'
+description: 'This section covers the IB Geography core extension on global climate -- vulnerability and resilience. It examines the physical and human dimensions of...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Control Flow
-description:
-  'Python Control Flow notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth exam preparation and revision.'
+description: 'Python's conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks.'
 date: 2025-06-04T11:00:00.000Z
 tags:
   - Python
@@ -81,7 +79,6 @@ Python 3 raises `TabError: inconsistent use of tabs and spaces in indentation` i
 And spaces. Configure your editor to insert 4 spaces on Tab. Most linters and formatters (`ruff`
 `black`) enforce this automatically.
 
-:::
 
 ### Conditional Expressions (Ternary)
 
@@ -265,13 +262,13 @@ flowchart TD
     H --> I
 ```
 
+:::
 :::info
 
 Pattern matching is exhaustive only if you provide a wildcard `_` case. Without it, no match Means
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
 `match`Which requires exhaustiveness at compile time.
 
-:::
 
 ## Loops
 
@@ -446,13 +443,13 @@ def converge_pi(target_error: float = 1e-5) -> float:
         estimate = new_estimate
 ```
 
+:::
 :::caution
 
 A `while True` loop with no `break` condition is an infinite loop. While occasionally intentional
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
 There is a reachable termination condition.
 
-:::
 
 ### `break``continue`And Loop `else`
 
@@ -543,12 +540,12 @@ flat = [element for row in matrix for element in row]
 The execution order of nested comprehensions follows the same left-to-right reading order as nested
 `for` loops. The first `for` is the outer loop, the second `for` is the inner loop.
 
+:::
 :::caution
 
 List comprehensions create the entire list in memory. For large datasets, prefer generator
 Expressions. A comprehension over a billion-element range would consume all available memory.
 
-:::
 
 ### Dict Comprehensions
 
@@ -608,13 +605,13 @@ result = (x + 1 for x in result)
 print(list(result))  # [1, 5, 9, 13, ...]
 ```
 
+:::
 :::tip
 
 When a comprehension is the sole argument to a function, the enclosing parentheses can be omitted:
 `sum(x**2 for x in range(100))` is valid. The generator expression syntax
 `(x**2 for x in range(100))` is required in all other contexts.
 
-:::
 
 ### Comprehension Scope
 
@@ -664,13 +661,13 @@ if (match := pattern.search(text)) and match.group(1).isdigit():
 The walrus operator has lower precedence than most operators but higher than commas. Parentheses are
 Required in comprehensions and `if`/`while` conditions.
 
+:::
 :::caution
 
 The walrus operator should be used sparingly. It improves clarity when it avoids redundant
 Computation or awkward workarounds. It harms clarity when it makes a single line do too much. The
 Guiding principle: use it when it eliminates a clear redundancy, not just to save a line.
 
-:::
 
 ## Exception Handling
 
@@ -755,13 +752,13 @@ flowchart TD
     VE --> JE["JSONDecodeError"]
 ```
 
+:::
 :::caution
 
 Never use a bare `except:` (which catches everything including `SystemExit` and `KeyboardInterrupt`)
 Or `except Exception` without careful consideration. Catching too broadly masks real errors and
 Makes debugging extremely difficult. Catch the most specific exception possible.
 
-:::
 
 ### Custom Exceptions
 
@@ -872,13 +869,13 @@ def binary_search(arr: list[int], target: int) -> int:
     return -1
 ```
 
+:::
 :::caution
 
 Assertions are stripped when Python runs with the `-O` (optimize) flag. Never use assertions for
 Input validation or security checks. Use explicit `if/raise` for conditions that must be checked in
 Production.
 
-:::
 
 ## Context Managers
 
@@ -1038,6 +1035,7 @@ class ReliableCleanup:
         self.close()
 ```
 
+:::
 :::tip
 
 Always use `with` statements for file I/O, database connections, network sockets, locks, and any
@@ -1066,5 +1064,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

@@ -1,8 +1,6 @@
 ---
 title: Classes and Inheritance
-description:
-  'Dart Classes and Inheritance notes covering key definitions, core concepts, worked examples, and
-  practice questions for methodical exam preparation and mastery.'
+description: 'Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces.'
 date: 2025-07-20T10:00:00.000Z
 tags:
   - dart
@@ -138,7 +136,6 @@ Prefer initializer lists over constructor bodies for field initialization. Initi
 More efficient — they initialize fields directly, while the constructor body runs after all fields
 Have been initialized (to their default values first).
 
-:::
 
 ## Inheritance
 
@@ -298,13 +295,13 @@ mixin Persistable on Serializable {
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
 
+:::
 :::tip
 
 Use mixins for cross-cutting concerns (logging, serialization, validation) that don't fit in a
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
 
-:::
 
 ## Operator Overloading
 
@@ -335,12 +332,12 @@ print(a == b);     // false
 print(a.dot(b));   // 11.0
 ```
 
+:::
 :::caution
 
 When overriding `==`You **must** also override `hashCode`. Two objects that are equal must have The
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
 
-:::
 
 ## Extension Methods
 
@@ -371,13 +368,13 @@ extension ListX<T> on List<T> {
 }
 ```
 
+:::
 :::info
 
 Extensions are resolved **statically** at compile time. They are not true methods — they are
 Syntactic sugar for static function calls. This means they cannot be used polymorphically (a
 `dynamic` variable won't have access to extension methods).
 
-:::
 
 ## Common Pitfalls
 
@@ -403,3 +400,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

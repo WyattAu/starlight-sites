@@ -1,8 +1,6 @@
 ---
 title: 'Integrals -- Diagnostic Tests'
-description:
-  'Qualifications Maths Integrals -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for detailed revision.'
+description: '> Tests edge cases, boundary conditions, and common misconceptions for integrals Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap

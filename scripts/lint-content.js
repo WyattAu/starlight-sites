@@ -26,11 +26,11 @@ function checkFile(filePath) {
     ISSUES.push({ file: relativePath, type: 'ERROR', message: 'Old Docusaurus Tabs import' })
   }
 
-  // Check for unconverted :::warning admonitions (only flag if no code block on the same line or nearby)
   const lines = content.split('\n')
+
+  // Check for unconverted :::warning admonitions
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].includes(':::warning') && !lines[i].includes(':::warning{')) {
-      // Check if this is a bare :::warning without proper Starlight syntax
       const hasCodeBlock = lines.slice(Math.max(0, i - 3), i + 4).some(l => l.includes('```'))
       if (!hasCodeBlock) {
         ISSUES.push({
@@ -38,9 +38,77 @@ function checkFile(filePath) {
           type: 'WARNING',
           message: `Unconverted :::warning at line ${i + 1}`,
         })
-        break // Only report once per file
+        break
       }
     }
+  }
+
+  // Admonition validation: check for unclosed blocks and formatting issues
+  const admonitionStack = []
+  const validTypes = ['note', 'tip', 'info', 'caution', 'warning', 'danger']
+  let inCodeFence = false
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim()
+
+    // Track code fences
+    if (line.startsWith('```')) {
+      inCodeFence = !inCodeFence
+      continue
+    }
+    if (inCodeFence) continue
+
+    // Check for opening admonition (must be on its own line or with title in brackets)
+    const openMatch = line.match(/^:::([a-z]+)(?:\[.*?\])?\s*$/)
+    if (openMatch) {
+      const type = openMatch[1]
+      if (validTypes.includes(type)) {
+        admonitionStack.push({ type, line: i + 1 })
+      }
+      continue
+    }
+
+    // Check for single-line admonition (opens and closes on same line)
+    const singleLineMatch = line.match(/^:::([a-z]+)(?:\[.*?\])?\s+.*$/)
+    if (singleLineMatch && validTypes.includes(singleLineMatch[1])) {
+      // This is a single-line admonition with content - valid in Starlight
+      continue
+    }
+
+    // Check for content on same line as opening admonition (Starlight allows this for titles)
+    const openInlineMatch = line.match(/^:::([a-z]+)\s+(.+)/)
+    if (openInlineMatch && validTypes.includes(openInlineMatch[1])) {
+      const content = openInlineMatch[2].trim()
+      // Allow titles in brackets: :::info[Title]
+      // Allow single-line admonitions with content: :::note Some text
+      // Only flag if it looks like multi-line content that should be on next line
+      if (!content.startsWith('[') && content.length > 100) {
+        ISSUES.push({
+          file: relativePath,
+          type: 'WARNING',
+          message: `Long content on same line as :::${openInlineMatch[1]} at line ${i + 1} (consider moving to next line)`,
+        })
+      }
+    }
+
+    // Check for closing admonition
+    if (line === ':::') {
+      if (admonitionStack.length > 0) {
+        admonitionStack.pop()
+      } else {
+        // This might be a single-line admonition that was already processed
+        // Don't flag it as an error
+      }
+    }
+  }
+
+  // Report unclosed admonitions
+  for (const unclosed of admonitionStack) {
+    ISSUES.push({
+      file: relativePath,
+      type: 'ERROR',
+      message: `Unclosed :::${unclosed.type} opened at line ${unclosed.line}`,
+    })
   }
 
   if (!content.trim().startsWith('---')) {

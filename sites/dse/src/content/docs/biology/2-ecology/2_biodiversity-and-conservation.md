@@ -1,8 +1,6 @@
 ---
 title: Biodiversity and Conservation
-description:
-  'DSE Biology Biodiversity and Conservation notes covering key definitions, core concepts, worked
-  examples, and practice questions for analytical revision.'
+description: 'Classification (taxonomy) is the science of grouping organisms based on shared characteristics. The Purposes of classification include:'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

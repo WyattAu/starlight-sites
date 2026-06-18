@@ -3,6 +3,7 @@ title: Vectors and Vector Spaces
 tags:
   - Mathematics
   - University
+description: 'A over a field ( or ) is a set equipped With two operations: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 1.1 Definition of a Vector Space

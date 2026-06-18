@@ -1,8 +1,6 @@
 ---
 title: Type Traits and Static Reflection Patterns
-description:
-  'C++ Programming Type Traits and Static Reflection Patterns notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Type traits provide compile-time type introspection and transformation, forming the foundation of Generic programming in C++. Combined with techniques like...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -1,8 +1,6 @@
 ---
 title: Functions
-description:
-  'Kotlin Functions notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and mastery.'
+description: 'Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18
 tags:
   - Kotlin

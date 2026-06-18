@@ -1,8 +1,6 @@
 ---
 title: Data Modeling Patterns
-description:
-  'Data Modeling Patterns notes covering key definitions, core concepts, worked examples, and
-  practice questions for detailed review and exam preparation.'
+description: 'Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your...'
 
 ---
 
@@ -759,5 +757,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

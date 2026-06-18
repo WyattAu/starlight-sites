@@ -1,8 +1,6 @@
 ---
 title: 'Algebra -- Diagnostic Tests'
-description:
-  'GCSE Maths Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for practical revision.'
+description: '(a) Solve . (b) Solve by factorisation. (c) Solve using the quadratic formula. (d) Solve the inequality and represent the solution on a number line.'
 tableOfContents: false
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Vectors in 3D
-description:
-  'A-Level Further Maths Vectors in 3D notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam preparation.'
+description: 'This chapter extends the study of vectors from A Level Mathematics into three dimensions, Introducing the vector (cross) product, equations of planes, and...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

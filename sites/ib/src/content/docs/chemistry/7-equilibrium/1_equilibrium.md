@@ -1,6 +1,6 @@
 ---
 title: Chemical Equilibrium
-description: 'Rigorous IB chemistry notes covering Chemical Equilibrium. Includes definitions, derivations, worked examples, and exam-style problems. constants, and acid-base equilibrium.'
+description: 'Rigorous IB chemistry notes covering Chemical Equilibrium. Includes definitions, derivations, worked examples, and exam-style problems. constants, and acid-b...'
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -83,7 +83,6 @@ $$
 K_p = K_c(RT)^{-2} = \frac{K_c}{(RT)^2}
 $$
 
-:::
 
 ### The Reaction Quotient ($Q$)
 
@@ -135,13 +134,13 @@ Pressures of reacting gases are unchanged).
 | Increase temperature | Shift in endothermic direction | $K$ changes   |
 | Decrease temperature | Shift in exothermic direction  | $K$ changes   |
 
+:::
 :::caution[Exam Tip]
 
 Le Chatelier's principle does NOT apply to the equilibrium constant. The equilibrium constant only
 Changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
 $K$.
 
-:::
 
 ### Effect of a Catalyst
 
@@ -158,6 +157,7 @@ $K$.
 
 ICE (Initial, Change, Equilibrium) tables are used to organise equilibrium calculations.
 
+:::
 :::info[Example]
 
 For the reaction H$_2$(g) + I$_2$(g) $\rightleftharpoons$ 2HI(g), $K_c = 50.5$ at
@@ -190,7 +190,6 @@ $$
 
 Equilibrium concentrations: [H$_2$] = [I$_2$] = $0.219\mathrm{ mol/L}$[HI] = $1.562\mathrm{ mol/L}$.
 
-:::
 
 ### Calculating $K$ from Given Data
 
@@ -322,6 +321,7 @@ $$
 
 (approximation valid when $K_a$ is small: $[\mathrm{HA}]_{\mathrm{eq}} \approx c$)
 
+:::
 :::info[Example]
 
 Calculate the pH of $0.10\mathrm{ M}$ ethanoic acid ($K_a = 1.8 \times 10^{-5}$).
@@ -334,7 +334,6 @@ $$
 \mathrm{pH} = -\log(1.34 \times 10^{-3}) = 2.87
 $$
 
-:::
 
 ---
 
@@ -371,6 +370,7 @@ A buffer works best within $\pm 1$ pH unit of its $\mathrm{p}K_a$.
 2. **Adding base (OH$^-$)**: the weak acid (HA) reacts with the added OH$^-$ to form A$^-$ and
    H$_2$O, minimising pH change.
 
+:::
 :::info[Example]
 
 A buffer contains $0.20\mathrm{ M}$ CH$_3$COOH ($\mathrm{p}K_a = 4.76$) and $0.30\mathrm{ M}$
@@ -380,7 +380,6 @@ $$
 \mathrm{pH} = 4.76 + \log\!\left(\frac{0.30}{0.20}\right) = 4.76 + \log(1.5) = 4.76 + 0.18 = 4.94
 $$
 
-:::
 
 ---
 
@@ -456,6 +455,7 @@ Compare the **ion product** ($Q$) with $K_{sp}$:
 
 The solubility of a salt decreases when a common ion is present.
 
+:::
 :::info[Example]
 
 The $K_{sp}$ of AgCl is $1.8 \times 10^{-10}$. Calculate the solubility of AgCl in:
@@ -478,7 +478,6 @@ $$
 
 The solubility is much lower due to the common ion effect.
 
-:::
 
 ---
 
@@ -559,6 +558,7 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 | Henderson-Hasselbalch | $\mathrm{pH} = \mathrm{p}K_a + \log\dfrac{[\mathrm{A}^-]}{[\mathrm{HA}]}$  |
 | $K_{sp}$              | $K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b$                          |
 
+:::
 :::tip[Exam Strategy]
 
 For equilibrium calculations, always set up an ICE table. For Le Chatelier questions, be precise
@@ -566,7 +566,6 @@ About what changes and what stays the same (only $K$ changes with temperature). 
 Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$Check the
 Stoichiometry carefully.
 
-:::
 
 ---
 
@@ -582,6 +581,7 @@ $$
 
 This is analogous to the Arrhenius equation.
 
+:::
 :::info[Example]
 
 For the reaction N$_2$O$_4$(g) $\rightleftharpoons$ 2NO$_2$(g),
@@ -606,13 +606,13 @@ $$
 
 As expected for an endothermic reaction, $K$ increases with temperature.
 
-:::
 
 ### Quantitative Le Chatelier Calculations
 
 When a change is made to a system at equilibrium, a new equilibrium is established. The new
 Concentrations can be found by setting up a new ICE table.
 
+:::
 :::info[Example]
 
 For the reaction PCl$_5$(g) $\rightleftharpoons$ PCl$_3$(g) + Cl$_2$(g), $K_c = 0.0211$ at
@@ -664,7 +664,6 @@ Since $x \le 0.0650$: $x = 0.0294$.
 New equilibrium: [PCl$_5$] $= 0.229\mathrm{ M}$[PCl$_3$] $= 0.0356\mathrm{ M}$[Cl$_2$]
 $= 0.136\mathrm{ M}$.
 
-:::
 
 ### Acid-Base Extended: Polyprotic Acids
 
@@ -689,6 +688,7 @@ Note: $K_{a1} \gg K_{a2}$So the first dissociation dominates.
 - Salt of weak acid + strong base: basic (pH $\gt$ 7).
 - Salt of weak acid + weak base: depends on relative $K_a$ and $K_b$.
 
+:::
 :::info[Example]
 
 Calculate the pH of $0.10\mathrm{ M}$ sodium ethanoate (CH$_3$COONa). $K_a$(CH$_3$COOH)
@@ -708,7 +708,6 @@ $$
 
 The solution is basic, as expected for the salt of a weak acid and strong base.
 
-:::
 
 ---
 
@@ -985,3 +984,5 @@ $$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -3,6 +3,7 @@ title: Sequences and Limits
 tags:
   - Mathematics
   - University
+description: 'A sequence in to a limit if for Every There exists such that Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 2.1 Convergence

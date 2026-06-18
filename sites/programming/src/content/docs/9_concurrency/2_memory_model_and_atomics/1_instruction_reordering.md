@@ -1,8 +1,6 @@
 ---
 title: Instruction Reordering and Happens-Before
-description:
-  'C++ Programming Instruction Reordering and Happens-Before notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buffers, the happens-before and synchronizes-with...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

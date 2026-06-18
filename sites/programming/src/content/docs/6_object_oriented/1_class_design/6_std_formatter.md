@@ -1,8 +1,6 @@
 ---
 title: Custom Formatting with std::formatter
-description:
-  'C++ Programming Custom Formatting with std::formatter notes covering key definitions, core
-  concepts, worked examples, and practice questions for clear revision.'
+description: 'C++20 introduced Providing type-safe text formatting through . To enable Formatting for user-defined types, you specialize in namespace . This section...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -544,7 +542,6 @@ int main() {
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
 
-:::
 
 ## Summary
 

@@ -2,6 +2,7 @@
 title: Separation Axioms
 tags:
   - University Maths
+description: 'Separation axioms formalise how well points and closed sets can be "separated" b Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 8.1 Overview

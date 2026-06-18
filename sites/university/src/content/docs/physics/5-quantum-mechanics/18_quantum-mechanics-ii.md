@@ -5,9 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description:
-  'Advanced quantum mechanics: perturbation theory applications, angular momentum coupling,
-  identical particles, quantum scattering, relativistic QM, and.'
+description: 'The is the splitting of atomic energy levels by an external electric field Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ## 1. Perturbation Theory: Advanced Applications

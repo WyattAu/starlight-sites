@@ -1,8 +1,6 @@
 ---
 title: Arrays, Slices, and Maps
-description:
-  'Go Arrays, Slices, and Maps notes covering key definitions, core concepts, worked examples, and
-  practice questions for efficient review and exam preparation.'
+description: 'Arrays are fixed-length, homogeneous sequences. The length is part of the type - Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18
 tags:
   - Go

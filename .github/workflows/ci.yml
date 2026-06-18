@@ -54,6 +54,33 @@ jobs:
       - name: Link validation
         run: node scripts/lint-links.js
 
+      - name: Hand-wave detection
+        run: node scripts/lint-handwaves.js
+
+      - name: Description validation
+        run: node scripts/lint-descriptions.js
+
+      - name: Content depth validation
+        run: node scripts/lint-depth.js
+
+      - name: Forward reference detection
+        run: node scripts/lint-forward-refs.js
+
+      - name: Spell checking (cspell)
+        run: bun run lint:spelling
+        continue-on-error: true
+
+      - name: Markdown structure (markdownlint)
+        run: bun run lint:markdown
+        continue-on-error: true
+
+      - name: External link checking (lychee)
+        uses: lychee/lychee-action@v2
+        with:
+          args: "--exclude-path node_modules --exclude-file .lycheeignore --no-progress sites/*/src/content/docs/**/*.md sites/*/src/content/docs/**/*.mdx"
+          fail: false
+        continue-on-error: true
+
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 10

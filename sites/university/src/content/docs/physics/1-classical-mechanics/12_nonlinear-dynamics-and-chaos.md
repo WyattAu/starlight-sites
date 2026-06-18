@@ -3,6 +3,7 @@ title: Nonlinear Dynamics and Chaos
 tags:
   - Physics
   - University
+description: 'The logistic map is the simplest model of chaotic dynamics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 11.1 The Logistic Map

@@ -3,6 +3,7 @@ title: Laplace Transforms
 tags:
   - Mathematics
   - University
+description: 'Laplace Transforms: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 5.1 Definition

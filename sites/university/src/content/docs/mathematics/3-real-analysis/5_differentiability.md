@@ -3,6 +3,7 @@ title: Differentiability
 tags:
   - Mathematics
   - University
+description: 'Differentiability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 5.1 The Derivative

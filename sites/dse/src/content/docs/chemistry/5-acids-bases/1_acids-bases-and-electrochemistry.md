@@ -1,8 +1,6 @@
 ---
 title: Chemistry - Acids, Bases, and Electrochemistry
-description:
-  'DSE Chemistry - Acids, Bases, and Electrochemistry notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls.'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Pointers and Memory
-description:
-  'Go Pointers and Memory notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive study and examination practice.'
+description: 'Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18
 tags:
   - Go

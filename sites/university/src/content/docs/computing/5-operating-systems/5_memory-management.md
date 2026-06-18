@@ -3,6 +3,7 @@ title: Memory Management
 tags:
   - Computing
   - University
+description: 'Memory divided into fixed-size partitions at boot. Internal fragmentation. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 5.1 Contiguous Memory Allocation

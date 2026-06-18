@@ -1,8 +1,6 @@
 ---
 title: Graph Algorithms
-description:
-  'University Computer Science Graph Algorithms notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused revision.'
+description: 'Explores vertices in order of increasing distance from the source. Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

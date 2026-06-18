@@ -5,9 +5,7 @@ tags:
   - Licensing
 categories:
   - Licensing
-description:
-  'Open source licenses explained: MIT, Apache 2.0, LGPL, MPL 2.0, GPL v3, AGPL v3, BSD, ISC.
-  Compatibility, copyleft requirements, and choosing the right.'
+description: 'Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they...'
 ---
 
 ## License Classification

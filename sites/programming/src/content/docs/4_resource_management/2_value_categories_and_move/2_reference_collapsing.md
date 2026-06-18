@@ -1,8 +1,6 @@
 ---
 title: Reference Collapsing and Forwarding References
-description:
-  'C++ Programming Reference Collapsing and Forwarding notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

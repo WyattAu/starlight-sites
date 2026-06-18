@@ -1,8 +1,6 @@
 ---
 title: Number
-description:
-  'GCSE Maths Number notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective study and examination practice.'
+description: 'Number: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-14
 tags:
   - gcse

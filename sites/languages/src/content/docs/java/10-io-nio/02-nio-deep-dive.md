@@ -1,8 +1,6 @@
 ---
 title: NIO Deep Dive
-description:
-  'Java NIO Deep Dive notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough exam preparation and revision.'
+description: '(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O...'
 
 ---
 

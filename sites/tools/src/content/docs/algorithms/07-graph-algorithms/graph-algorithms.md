@@ -1,8 +1,6 @@
 ---
 title: Graph Algorithms
-description:
-  'Algorithms Graph Algorithms notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough preparation.'
+description: 'Dijkstra's algorithm finds the shortest path from a single source to all other vertices in a graph With non-negative edge weights. It uses a greedy...'
 
 ---
 
@@ -178,7 +176,6 @@ Floyd-Warshall is the algorithm of choice when:
 For sparse graphs with large $V$Run Dijkstra from each vertex: $O(V(V+E)\log V)$ which is
 $O(V^2 \log V)$ for sparse graphs, much better than $O(V^3)$.
 
-:::
 
 ### A\* Search
 
@@ -335,12 +332,12 @@ def prim(n, graph):
 | Prim                  | $O((V+E) \log V)$ | Dense graphs      | Priority queue |
 | Prim (Fibonacci heap) | $O(E + V \log V)$ | Very dense graphs | Fibonacci heap |
 
+:::
 :::info
 
 For dense graphs ($E \approx V^2$), Prim's algorithm with a Fibonacci heap is asymptotically optimal
 At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
 
-:::
 
 ## Strong Connectivity
 
@@ -1018,3 +1015,5 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

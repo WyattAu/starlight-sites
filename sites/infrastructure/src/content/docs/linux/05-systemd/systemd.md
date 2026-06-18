@@ -1,8 +1,6 @@
 ---
 title: Systemd
-description:
-  'Systemd notes covering key definitions, core concepts, worked examples, and practice questions
-  for systematic review and exam preparation.'
+description: 'Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,...'
 
 ---
 
@@ -849,5 +847,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

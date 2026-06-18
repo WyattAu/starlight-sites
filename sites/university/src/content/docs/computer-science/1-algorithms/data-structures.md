@@ -1,8 +1,6 @@
 ---
 title: Data Structures
-description:
-  'University Computer Science Data Structures notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective revision.'
+description: 'An is a contiguous block of memory storing elements of the same type, accessed b Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

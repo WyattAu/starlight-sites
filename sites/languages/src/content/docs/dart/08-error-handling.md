@@ -1,8 +1,6 @@
 ---
 title: Error Handling
-description:
-  'Dart Error Handling notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic review and exam preparation.'
+description: 'Dart draws a sharp line between two families of throwable objects: and . This is Not a stylistic preference — it is a semantic contract. means "something...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

@@ -1,8 +1,6 @@
 ---
 title: Biological Level of Analysis
-description:
-  'IB Psychology Biological Level of Analysis notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and...'
 
 ---
 

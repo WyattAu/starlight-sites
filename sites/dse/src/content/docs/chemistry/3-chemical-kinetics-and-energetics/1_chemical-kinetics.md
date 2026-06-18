@@ -1,8 +1,6 @@
 ---
 title: Chemistry - Chemical Kinetics
-description:
-  'DSE Chemistry - Chemical Kinetics notes covering key definitions, core concepts, worked examples,
-  and practice questions for clear exam preparation and mastery.'
+description: 'The rate of reaction measures how fast reactants are consumed or products are fo Comprehensive educational content coverage with definitions and practice proble'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
@@ -320,8 +318,7 @@ Where:
 - $n$ = order of reaction with respect to B
 - Overall order = $m + n$
 
-:::caution Warning The stoichiometric coefficients $a$ and $b$.
-:::
+> **Caution:** Warning The stoichiometric coefficients $a$ and $b$.
 ### Order of Reaction
 
 **Zero order:** Rate is independent of concentration.

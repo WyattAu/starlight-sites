@@ -1,8 +1,6 @@
 ---
 title: Amines
-description:
-  'A-Level Chemistry Amines notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete exam preparation and revision.'
+description: 'Amines are organic derivatives of ammonia () in which one or more hydrogen atoms have Been replaced by alkyl or aryl groups. They are classified as primary...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

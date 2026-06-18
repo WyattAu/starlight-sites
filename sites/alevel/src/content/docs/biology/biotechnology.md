@@ -1,8 +1,6 @@
 ---
 title: Biotechnology
-description:
-  'A-Level Biology Biotechnology notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective exam preparation and mastery.'
+description: 'Recombinant DNA technology involves combining DNA from different sources to create new, artificial DNA molecules that can be introduced into host organisms....'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -14,8 +12,7 @@ categories:
 
 ## Biotechnology
 
-:::info Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
 ## 1. Recombinant DNA Technology
 
 ### 1.1 Overview

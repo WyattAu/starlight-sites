@@ -1,8 +1,6 @@
 ---
 title: Individual Oral Commentary Guide
-description:
-  Complete guide to the IB English Individual Oral Commentary (IOC). Covers extract selection,
-  preparation strategies, 10-minute commentary structure, marking.
+description: 'The Individual Oral Commentary (IOC) is the only formally assessed oral component of IB English A. It tests the student's ability to perform a sustained,...'
 ---
 
 # Individual Oral Commentary Guide

@@ -1,8 +1,6 @@
 ---
 title: Conan
-description:
-  'C++ Programming Conan notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective learning and effective revision.'
+description: 'is a decentralized, open-source package manager designed specifically for C++'s complex Binary compatibility requirements. Unlike vcpkg, which defaults to a...'
 date: 2025-12-11T05:01:52.356Z
 tags:
   - cpp

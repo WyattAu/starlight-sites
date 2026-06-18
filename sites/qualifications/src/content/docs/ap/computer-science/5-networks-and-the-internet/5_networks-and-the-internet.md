@@ -1,8 +1,6 @@
 ---
 title: Networks and the Internet
-description:
-  'Qualifications Computer Science Networks and the Internet notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'The Internet is a global network of interconnected computer networks. Key concep Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap

@@ -1,8 +1,6 @@
 ---
 title: Error Handling Patterns
-description:
-  'Rust Error Handling Patterns notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic revision and exam readiness.'
+description: 'Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across...'
 
 ---
 
@@ -1000,5 +998,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

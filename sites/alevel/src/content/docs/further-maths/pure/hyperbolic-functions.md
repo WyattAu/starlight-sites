@@ -1,8 +1,6 @@
 ---
 title: Hyperbolic Functions (Extended)
-description:
-  'A-Level Further Maths Hyperbolic Functions (Extended) notes covering key definitions, core
-  concepts, worked examples, and practice questions for clear revision.'
+description: 'This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

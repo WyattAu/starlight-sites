@@ -1,8 +1,6 @@
 ---
 title: Derivatives
-description:
-  'Qualifications Maths Derivatives notes covering key definitions, core concepts, worked examples,
-  and practice questions for structured preparation.'
+description: 'Derivatives: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-14
 tags:
   - ap
@@ -60,8 +58,8 @@ $$
 = \lim_{h \to 0} \frac{4 + 4h + h^2 - 6 - 3h + 1 + 1}{h} = \lim_{h \to 0} \frac{h^2 + h}{h} = \lim_{h \to 0}(h + 1) = 1
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $f'(x)$ for $f(x) = \frac{1}{x}$ using the limit definition.
@@ -70,8 +68,8 @@ $$
 F'(x) = \lim_{h \to 0} \frac{\frac{1}{x+h} - \frac{1}{x}}{h} = \lim_{h \to 0} \frac{x - (x+h)}{h \cdot x(x+h)} = \lim_{h \to 0} \frac{-h}{h \cdot x(x+h)} = \lim_{h \to 0} \frac{-1}{x(x+h)} = -\frac{1}{x^2}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $f'(x)$ for $f(x) = \sqrt{x}$ using the limit definition.
@@ -89,7 +87,6 @@ $$
 This confirms the power rule for $n = \frac{1}{2}$:
 $\frac{d}{dx}[x^{1/2}] = \frac{1}{2}x^{-1/2} = \frac{1}{2\sqrt{x}}$. $\blacksquare$
 
-:::
 
 ## Differentiability and Continuity
 
@@ -221,6 +218,7 @@ $$
 
 $\blacksquare$
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{d}{dx}\left[(3x^2 + 1)^5\right]$.
@@ -231,8 +229,8 @@ $$
 \frac{dy}{dx} = 5u^4 \cdot \frac{du}{dx} = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{d}{dx}\left[\sin^3(2x)\right]$.
@@ -243,8 +241,8 @@ $$
 \frac{d}{dx}\left[\sin^3(2x)\right] = 3\sin^2(2x) \cdot \cos(2x) \cdot 2 = 6\sin^2(2x)\cos(2x)
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{d}{dx}\left[\ln(\sin x)\right]$.
@@ -255,8 +253,8 @@ $$
 \frac{dy}{dx} = \frac{1}{\sin x} \cdot \cos x = \cot x
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{d}{dx}\left[e^{\sqrt{3x+1}}\right]$.
@@ -267,7 +265,6 @@ $$
 \frac{d}{dx}\left[e^{\sqrt{3x+1}}\right] = e^{\sqrt{3x+1}} \cdot \frac{d}{dx}\!\left[(3x+1)^{1/2}\right] = e^{\sqrt{3x+1}} \cdot \frac{1}{2}(3x+1)^{-1/2} \cdot 3 = \frac{3e^{\sqrt{3x+1}}}{2\sqrt{3x+1}}
 $$
 
-:::
 
 ## Derivatives of Trigonometric Functions
 
@@ -361,6 +358,7 @@ $\frac{dy}{dx} = \frac{1}{1 + x^2}$. $\blacksquare$
 When $y$ is defined implicitly as a function of $x$Differentiate both sides with respect to $x$ And
 solve for $\frac{dy}{dx}$.
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{dy}{dx}$ for $x^2 + y^2 = 25$.
@@ -371,8 +369,8 @@ $$
 2x + 2y\frac{dy}{dx} = 0 \implies \frac{dy}{dx} = -\frac{x}{y}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find the equation of the tangent line to $x^2 + y^2 = 25$ at the point $(3, 4)$.
@@ -385,8 +383,8 @@ $$
 
 The tangent line is $y - 4 = -\frac{3}{4}(x - 3)$Or $3x + 4y = 25$.
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{dy}{dx}$ for $x^3 + y^3 = 6xy$.
@@ -409,8 +407,8 @@ $$
 \frac{dy}{dx} = \frac{6y - 3x^2}{3y^2 - 6x} = \frac{2y - x^2}{y^2 - 2x}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{d^2y}{dx^2}$ for $x^2 + y^2 = 25$.
@@ -423,8 +421,8 @@ $$
 \frac{d^2y}{dx^2} = \frac{d}{dx}\!\left(-\frac{x}{y}\right) = -\frac{y - x\frac{dy}{dx}}{y^2} = -\frac{y - x(-x/y)}{y^2} = -\frac{y^2 + x^2}{y^3} = -\frac{25}{y^3}
 $$
 
-:::
 
+:::
 :::info[Example]
 
 Find $\displaystyle\frac{dy}{dx}$ for $e^{xy} + y = x^2$.
@@ -447,7 +445,6 @@ $$
 \frac{dy}{dx} = \frac{2x - ye^{xy}}{xe^{xy} + 1}
 $$
 
-:::
 
 ## Higher-Order Derivatives
 
@@ -484,6 +481,7 @@ Common notations for derivatives include:
 
 When two or more quantities are related by an equation, their rates of change are also related.
 
+:::
 :::info[Example]
 
 A ladder 10 ft long rests against a vertical wall. If the bottom slides away at 1 ft/s, how fast is
@@ -505,8 +503,8 @@ $$
 
 The negative sign confirms the top is sliding down.
 
-:::
 
+:::
 :::info[Example]
 
 A spherical balloon is inflated at a rate of $10 \mathrm{ cm^3/\mathrm{s$. How fast is the radius
@@ -520,8 +518,8 @@ $$
 10 = 4\pi(25)\frac{dr}{dt} \implies \frac{dr}{dt} = \frac{10}{100\pi} = \frac{1}{10\pi} \mathrm{ cm/s
 $$
 
-:::
 
+:::
 :::info[Example]
 
 A 15 ft ladder leans against a wall. The bottom slides away at 2 ft/s. How fast is the angle between
@@ -548,7 +546,6 @@ $$
 
 The angle is decreasing at $\frac{1}{6}$ rad/s.
 
-:::
 
 ### Linear Approximation and Differentials
 
@@ -560,6 +557,7 @@ $$
 
 This is useful for estimating values of functions near known points.
 
+:::
 :::info[Example]
 
 Use linear approximation to estimate $\sqrt{4.1}$.
@@ -576,8 +574,8 @@ $$
 
 (The actual value is approximately 2.02485.)
 
-:::
 
+:::
 :::info[Example]
 
 Use linear approximation to estimate $(1.02)^{10}$.
@@ -595,7 +593,6 @@ $$
 (The actual value is approximately 1.21899, showing that linear approximation is less accurate when
 $x$ is farther from $a$.)
 
-:::
 
 ### Mean Value Theorem (MVT)
 
@@ -627,6 +624,7 @@ Rolle\'s Theorem is a special case of the MVT where $f(a) = f(b)$.
 Has at most one root in an interval. If it had two roots, Rolle\'s Theorem would give a point where
 The derivative is zero, leading to a contradiction.
 
+:::
 :::info[Example]
 
 Show that $f(x) = x^3 - 3x + 1$ has exactly one real root.
@@ -647,7 +645,6 @@ $(0, 1)$ is in $(0, 1)$. These bracket different critical points. In fact, $f$ h
 And Rolle\'s Theorem confirms this is consistent since the critical points at $x = \pm 1$ bracket the
 Three roots.
 
-:::
 
 ## Curve Sketching and Analysis
 
@@ -690,6 +687,7 @@ To solve optimization problems:
 4. Find critical points and apply the first or second derivative test.
 5. Verify the result answers the original question.
 
+:::
 :::info[Example]
 
 A farmer has 200 ft of fencing. Find the dimensions of the rectangular pen that maximizes the area.
@@ -710,8 +708,8 @@ $$
 
 So $x = 50$$y = 50$And the maximum area is $2500 \mathrm{ ft^2$.
 
-:::
 
+:::
 :::info[Example]
 
 Find the minimum value of $f(x) = x + \frac{4}{x}$ for $x \gt 0$.
@@ -730,8 +728,8 @@ $$
 
 The minimum value is $4$ at $x = 2$.
 
-:::
 
+:::
 :::info[Example]
 
 A rectangular box with a square base has volume $500 \mathrm{ cm^3$. The material for the base costs
@@ -760,7 +758,6 @@ $$
 The cost is minimised when the box is a cube. $\frac{d^2C}{dx^2} = 4c + \frac{4000c}{x^3} \gt 0$
 Confirming a minimum.
 
-:::
 
 ### Optimization on Closed Intervals
 
@@ -773,6 +770,7 @@ Points **or** at endpoints.
 2. Evaluate $f$ at all critical points and at both endpoints.
 3. The largest value is the absolute max; the smallest is the absolute min.
 
+:::
 :::info[Example]
 
 Find the absolute maximum and minimum of $f(x) = x^3 - 3x^2 + 4$ on $[-1, 4]$.
@@ -785,7 +783,6 @@ $f(-1) = -1 - 3 + 4 = 0$$f(0) = 4$$f(2) = 8 - 12 + 4 = 0$$f(4) = 64 - 48 + 4 = 2
 
 Absolute minimum: $0$ at $x = -1$ and $x = 2$. Absolute maximum: $20$ at $x = 4$.
 
-:::
 
 ## Common Pitfalls
 

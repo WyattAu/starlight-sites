@@ -5,10 +5,22 @@ description: 'International Baccalaureate notes covering key definitions, core c
 hero:
   tagline: Comprehensive notes for the IB Diploma Programme. Covers the core and HL/SL subjects with worked examples, practice problems, and exam-style questions aligned to the IBO curriculum frameworks.
   actions:
-    - text: Browse Notes
+    - text: Browse Biology
       link: /biology/
       icon: right-arrow
       variant: primary
+    - text: Browse Chemistry
+      link: /chemistry/
+      icon: right-arrow
+      variant: secondary
+    - text: Browse Physics
+      link: /physics/
+      icon: right-arrow
+      variant: secondary
+    - text: Browse Mathematics
+      link: /maths/
+      icon: right-arrow
+      variant: secondary
 ---
 
 ## Subjects Covered
@@ -84,3 +96,43 @@ The IB Diploma Programme consists of **six subject groups** plus three core requ
 - **Mathematics**: Focus on understanding concepts, not memorising procedures. The new curriculum emphasises modelling.
 - **Economics**: Use real-world examples in essays. IB rewards application of theory to current events.
 - **Computer Science**: Implement data structures from pseudocode. The exam tests tracing and debugging.
+
+## Overview
+
+This section provides comprehensive Ib Index.md content, covering all specification points with detailed explanations, worked examples, and practice questions.
+
+## Content Structure
+
+Each page in this section includes:
+
+- **Definitions**: Clear, precise explanations of key concepts
+- **Worked Examples**: Step-by-step solutions with annotations
+- **Practice Questions**: Examination-style questions with detailed solutions
+- **Common Pitfalls**: Errors to avoid and how to fix them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use These Notes
+
+1. Read the introductory page to understand the topic overview
+2. Work through each sub-topic in order
+3. Attempt the practice questions before checking solutions
+4. Use the flashcards to revise key terminology
+5. Complete the diagnostic test to identify remaining gaps
+
+## Key Topics
+
+- Core definitions and principles
+- Application to examination-style questions
+- Links to related topics across the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself regularly rather than re-reading notes
+- **Spaced Practice**: Revisit this topic at increasing intervals
+- **Interleaving**: Mix with other topics during revision sessions
+- **Elaboration**: Explain concepts in your own words
+
+## Exam Preparation
+
+Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.

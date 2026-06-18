@@ -1,8 +1,6 @@
 ---
 title: Channels and Message Passing
-description:
-  'Rust Channels and Message Passing notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam preparation.'
+description: 'Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each...'
 
 ---
 
@@ -992,5 +990,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

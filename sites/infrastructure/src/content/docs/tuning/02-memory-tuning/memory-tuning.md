@@ -1,8 +1,6 @@
 ---
 title: Memory Tuning
-description:
-  'Memory Tuning notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective learning and effective revision.'
+description: 'DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error...'
 
 ---
 

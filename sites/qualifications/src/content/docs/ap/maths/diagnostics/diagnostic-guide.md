@@ -1,8 +1,6 @@
 ---
 title: AP Calculus Diagnostic Guide
-description:
-  'Qualifications Maths AP Calculus Diagnostic notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics...'
 date: 2026-04-14
 tags:
   - ap

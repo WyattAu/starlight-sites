@@ -1,8 +1,6 @@
 ---
 title: Inequalities
-description:
-  'DSE Maths Inequalities notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision and examination preparation.'
+description: 'An inequality states that one expression is greater than or less than another. Inequalities arise when finding the and of functions, and are closely related...'
 date: 2025-06-03T16:21:00.000Z
 tags:
   - Maths
@@ -13,9 +11,9 @@ categories:
 ---
 
 An inequality states that one expression is greater than or less than another. Inequalities arise
-when finding the [domain](functions#definition-of-a-function) and
-[range](functions#definition-of-a-function) of functions, and are closely related to
-[quadratic functions](functions#quadratic-functions) through their graphical interpretation.
+when finding the [domain](1_functions.mdx#definition-of-a-function) and
+[range](1_functions.mdx#definition-of-a-function) of functions, and are closely related to
+[quadratic functions](1_functions.mdx#quadratic-functions) through their graphical interpretation.
 
 ## Inequality Rules
 
@@ -126,7 +124,7 @@ The solution set is $[7, \infty)$.
 
 A quadratic inequality has the form $ax^2 + bx + c > 0$, $ax^2 + bx + c < 0$Or their non-strict
 Variants, where $a \neq 0$. Solving quadratic inequalities relies on understanding the graph of the
-Corresponding [quadratic function](functions#quadratic-functions) $f(x) = ax^2 + bx + c$.
+Corresponding [quadratic function](1_functions.mdx#quadratic-functions) $f(x) = ax^2 + bx + c$.
 
 ### Graphical Interpretation
 
@@ -134,7 +132,7 @@ The graph of $f(x) = ax^2 + bx + c$ is a parabola. The solution of $f(x) > 0$ co
 $x$-values where the parabola lies **above** the $x$-axis, and $f(x) < 0$ corresponds to where the
 Parabola lies **below** the $x$-axis.
 
-The [discriminant](functions#discriminant) $\Delta = b^2 - 4ac$ determines the number of
+The [discriminant](1_functions.mdx#discriminant) $\Delta = b^2 - 4ac$ determines the number of
 Intersections with the $x$-axis:
 
 | Condition    | Parabola and $x$-axis                             | $ax^2 + bx + c > 0$ (for $a > 0$)              |
@@ -469,7 +467,7 @@ Solution: $[1 - \sqrt{2},\; 1 + \sqrt{2}]$.
 Distinct real roots?
 <details>
 <summary>Answer</summary>
-For two distinct real roots, the [discriminant](functions#discriminant) must satisfy $\Delta > 0$:
+For two distinct real roots, the [discriminant](1_functions.mdx#discriminant) must satisfy $\Delta > 0$:
 
 $$
 \Delta = (2k)^2 - 4(1)(k + 6) = 4k^2 - 4k - 24 > 0
@@ -872,5 +870,4 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-:::
 $$

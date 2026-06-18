@@ -3,6 +3,7 @@ title: Indexing
 tags:
   - Computing
   - University
+description: 'A balanced search tree where each internal node has between Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 5.1 B-Trees and B+ Trees

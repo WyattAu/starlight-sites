@@ -3,6 +3,7 @@ title: Small Oscillations and Normal Modes
 tags:
   - Physics
   - University
+description: 'At a stable equilibrium, has a local minimum. Expanding around equilibrium (): Comprehensive educational content coverage with definitions and practice problems'
 ---
 
 ### 7.1 Equilibrium and Small Oscillations

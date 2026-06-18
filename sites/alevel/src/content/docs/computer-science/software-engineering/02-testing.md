@@ -1,8 +1,6 @@
 ---
 title: Testing
-description:
-  'A-Level Computer Science Testing notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective revision.'
+description: 'is the process of evaluating a program to determine whether it meets specified R Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -824,7 +822,6 @@ Pull request, and run the full suite nightly.
 
 </details>
 
-:::
 
 ## Summary
 

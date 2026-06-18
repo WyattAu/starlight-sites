@@ -1,8 +1,6 @@
 ---
 title: Shell Basics
-description:
-  'Shell Basics notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough study and thorough revision.'
+description: 'A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which...'
 
 ---
 
@@ -53,7 +51,6 @@ In practice, most systems configure `~/.profile` to source `~/.bashrc`So both lo
 Interactive shells load the same configuration. However, scripts executed by cron or systemd do not
 Source `~/.bashrc` — this is a frequent source of bugs.
 
-:::
 
 ### POSIX Shell vs Bash
 
@@ -101,13 +98,13 @@ The shell performs the following steps before executing a command:
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
 
+:::
 :::caution
 
 The order of these expansions matters enormously. Parameter expansion happens before globbing, which
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
 Are no matching files, the shell behavior depends on the `nullglob` option.
 
-:::
 
 ## I/O Redirection
 
@@ -181,13 +178,13 @@ dmesg | grep -i error | sort | uniq -c | sort -rn | head -20
 command 2>&1 1>&3 | process_stderr 3>&1 1>&2 | process_stdout
 ```
 
+:::
 :::info
 
 **Pipe buffer size**: Linux pipes have a default buffer of 64 KiB (since kernel 2.6.11, configurable
 Via `/proc/sys/fs/pipe-max-size`). When the buffer is full, the writing process blocks until the
 Reader consumes data. For high-throughput pipelines, this can be a bottleneck.
 
-:::
 
 ### Process Substitution (Bash)
 
@@ -273,13 +270,13 @@ shopt -s nocaseglob
 ls *.TXT  # matches file.txt, FILE.TXT, etc.
 ```
 
+:::
 :::caution
 
 By default, `*` does not match files starting with a dot. This is a security feature inherited from
 The original Unix glob behavior — you must explicitly use `.*` or enable `dotglob` with
 `shopt -s dotglob`.
 
-:::
 
 ### Extended Globbing (Bash)
 
@@ -664,6 +661,7 @@ set -euo pipefail
 #     (without this, only the last command's exit status matters)
 ```
 
+:::
 :::caution
 
 `set -e` has subtle interactions with commands in `if` conditions, `&&`/`||` chains, and subshells.
@@ -877,5 +875,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

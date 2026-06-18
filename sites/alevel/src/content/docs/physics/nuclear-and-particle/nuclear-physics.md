@@ -1,8 +1,6 @@
 ---
 title: Nuclear Physics
-description:
-  'A-Level Nuclear Physics notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete study and thorough revision.'
+description: 'In 1911, Geiger and Marsden (under Rutherford's direction) fired alpha particles at a thin gold foil. Most passed straight through, some were deflected...'
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]
@@ -11,8 +9,7 @@ categories: [Physics]
 
 ## Nuclear Physics
 
-:::info Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
 ## 1. Rutherford Scattering
 
 ### The Experiment

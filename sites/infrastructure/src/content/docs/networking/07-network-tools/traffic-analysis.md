@@ -1,8 +1,6 @@
 ---
 title: Traffic Analysis
-description:
-  'Traffic Analysis notes covering key definitions, core concepts, worked examples, and practice
-  questions for comprehensive revision and examination preparation.'
+description: 'Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize...'
 tags:
   - Networking
 categories:
@@ -82,7 +80,6 @@ SPAN ports can drop packets under heavy load. The SPAN port's ASIC may not be ab
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
 Consider using a TAP or capturing on the endpoint.
 
-:::
 
 ## tcpdump Advanced
 
@@ -578,6 +575,7 @@ sysctl -w net.netfilter.nf_conntrack_tcp_timeout_established=600
 cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 ```
 
+:::
 :::caution
 
 If the conntrack table fills up, new connections are dropped with
@@ -585,7 +583,6 @@ If the conntrack table fills up, new connections are dropped with
 Random connection failures on firewalls and NAT gateways. Monitor `nf_conntrack_count` vs
 `nf_conntrack_max`.
 
-:::
 
 ## Performance Metrics
 
@@ -877,3 +874,5 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

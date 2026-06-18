@@ -2,6 +2,7 @@
 title: Closed Sets, Closure, Interior, and Boundary
 tags:
   - University Maths
+description: 'Comprehensive educational content notes on closed sets, closure, interior, and boundary with precise definitions, worked examples, and common pitfalls.'
 ---
 
 ### 3.1 Closed Sets

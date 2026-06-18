@@ -1,8 +1,6 @@
 ---
 title: Text Processing
-description:
-  'Text Processing notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid review and exam preparation.'
+description: 'Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax.'
 
 ---
 
@@ -230,7 +228,6 @@ sed -i 's/192.168.1.100/10.0.0.1/g' /etc/hosts /etc/resolv.conf
 The original file was a symlink, the link is destroyed. Always use `sed -i.bak` in production
 Scripts to preserve recoverability.
 
-:::
 
 ## awk — Pattern-Scanning Language
 
@@ -855,12 +852,12 @@ awk -F, '{print $1 "\t" $3}' data.csv
 awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
 ```
 
+:::
 :::info
 
 Prefer `cut` when you only need simple field extraction — it is significantly faster than `awk` for
 Large files. Use `awk` when you need conditional logic, field manipulation, or aggregation.
 
-:::
 
 ## paste and join
 
@@ -1060,3 +1057,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

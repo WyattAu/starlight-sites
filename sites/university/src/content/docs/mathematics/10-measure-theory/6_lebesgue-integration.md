@@ -3,6 +3,7 @@ title: Lebesgue Integration
 tags:
   - Mathematics
   - University
+description: 'For a non-negative measurable simple function with and disjoint, define: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 6.1 Integral of Non-Negative Functions

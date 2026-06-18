@@ -1,8 +1,6 @@
 ---
 title: Software Licensing
-description:
-  'Licensing Software Licensing notes covering key definitions, core concepts, worked examples, and
-  practice questions for methodical study and thorough revision.'
+description: 'AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation In 2007. It is identical to GPLv3 with one critical...'
 date: 2025-07-07T23:37:45.807Z
 tags:
   - CS

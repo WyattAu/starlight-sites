@@ -3,6 +3,7 @@ title: Applications of Contour Integration
 tags:
   - Mathematics
   - University
+description: 'Contour integration is a powerful tool for evaluating definite integrals. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 9.1 Evaluation of Real Integrals

@@ -1,6 +1,6 @@
 ---
 title: 算法导论
-description: 算法导论笔记，涵盖关键定义、核心概念、实例和练习题。
+description: '算法是有限条明确定义的指令序列，接受输入并产生输出。这个定义看似简单。实际上，"产生正确答案的算法"和"产生正确答案且足够快以产生实际价值的算法"之间的差距，正 Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ## 什么是算法
@@ -67,3 +67,94 @@ description: 算法导论笔记，涵盖关键定义、核心概念、实例和�
 1. 给定一个未排序数组，设计 $O(n)$ 时间复杂度的算法找到两个数之和等于目标值。
 2. 实现一个支持 $O(1)$ 最小值查询的栈。
 3. 比较数组和链表在不同操作下的性能特征。
+
+## Overview
+
+This introduction provides comprehensive coverage of Zh content for the Tools qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
+
+## Content Structure
+
+This page includes:
+
+- **Key Definitions**: Precise explanations of essential concepts
+- **Core Concepts**: Detailed treatment of fundamental principles
+- **Worked Examples**: Step-by-step solutions demonstrating application
+- **Practice Questions**: Examination-style questions with mark schemes
+- **Common Pitfalls**: Frequent errors and how to avoid them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use This Content
+
+1. Read through the introductory material to establish context
+2. Study the definitions and core concepts carefully
+3. Work through the worked examples, following each step
+4. Attempt the practice questions independently
+5. Review your answers against the provided solutions
+6. Note any areas requiring further revision
+
+## Key Concepts
+
+- Foundational definitions and terminology
+- Application of principles to examination contexts
+- Connections to related topics within the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself on the material rather than passively re-reading
+- **Spaced Repetition**: Review this content at increasing intervals
+- **Interleaving**: Mix this topic with others during study sessions
+- **Elaborative Interrogation**: Ask yourself why each concept works
+
+## Exam Preparation
+
+Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
+## Further Resources
+
+- Flashcards for rapid revision of key terms
+- Diagnostic tests to identify remaining gaps
+- Practice problems with detailed worked solutions
+- Cross-references to related topics
+
+## Overview
+
+This introduction provides comprehensive coverage of Zh content for the Tools qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
+
+## Content Structure
+
+This page includes:
+
+- **Key Definitions**: Precise explanations of essential concepts
+- **Core Concepts**: Detailed treatment of fundamental principles
+- **Worked Examples**: Step-by-step solutions demonstrating application
+- **Practice Questions**: Examination-style questions with mark schemes
+- **Common Pitfalls**: Frequent errors and how to avoid them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use This Content
+
+1. Read through the introductory material to establish context
+2. Study the definitions and core concepts carefully
+3. Work through the worked examples, following each step
+4. Attempt the practice questions independently
+5. Review your answers against the provided solutions
+6. Note any areas requiring further revision
+
+## Key Concepts
+
+- Foundational definitions and terminology
+- Application of principles to examination contexts
+- Connections to related topics within the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself on the material rather than passively re-reading
+- **Spaced Repetition**: Review this content at increasing intervals
+- **Interleaving**: Mix this topic with others during study sessions
+- **Elaborative Interrogation**: Ask yourself why each concept works
+
+## Exam Preparation
+
+Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.

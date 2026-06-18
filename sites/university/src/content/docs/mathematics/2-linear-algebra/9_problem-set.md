@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
+description: 'Let and . Show that is a subspace of and find its dimension. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 **Problem 1.** Let $V = \mathbb{R}^3$ and $W = \{(x, y, z) \in \mathbb{R}^3 : x - y + z = 0\}$. Show

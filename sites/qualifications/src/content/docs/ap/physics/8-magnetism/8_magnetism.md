@@ -1,8 +1,6 @@
 ---
 title: Magnetism
-description:
-  'Qualifications Physics Magnetism notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam readiness.'
+description: 'A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-05-05
 tags:
   - ap
@@ -85,7 +83,6 @@ $$
 
 The total force on the semicircular wire is $2IRB$The same as on a straight wire of length $2R$.
 
-:::
 
 ## Torque on a Current Loop
 
@@ -187,6 +184,7 @@ $$
 
 Valid for $a < r < b$.
 
+:::
 :::info[Example: Thick conductor with non-uniform current density]
 
 A long cylindrical conductor of radius $R$ carries current $I$ with current density $J(r) = J_0 r/R$
@@ -218,7 +216,6 @@ $$
 B = \frac{\mu_0 I}{2\pi r}
 $$
 
-:::
 
 ## Faraday's Law
 
@@ -257,6 +254,7 @@ $$
 \mathcal{E} = \int_0^L E\, dl = \int_0^L vB\, dl = BLv
 $$
 
+:::
 :::info[Example: Rotating loop in a magnetic field]
 
 A rectangular loop of area $A$ with $N$ turns rotates with angular velocity $\omega$ in a uniform
@@ -274,8 +272,8 @@ $$
 
 Where $\mathcal{E}_0 = NBA\omega$ is the peak EMF. This is the principle behind AC generators.
 
-:::
 
+:::
 :::info[Example: Induced EMF in a changing field]
 
 A circular loop of radius $r = 0.1$ m is in a region where the magnetic field increases as
@@ -296,7 +294,6 @@ $$
 By Lenz's law, the current flows counterclockwise (viewed along $\vec{B}$) to oppose the increasing
 flux.
 
-:::
 
 ## Inductance
 
@@ -411,6 +408,7 @@ $$
 U_{\text{total} = \frac{Q_0^2}{2C} = \frac{1}{2}LI_0^2
 $$
 
+:::
 :::info[Example: LC circuit energy analysis]
 
 An LC circuit has $L = 10$ mH and $C = 100\,\mu\text{F$. The capacitor is initially charged to
@@ -437,7 +435,6 @@ $$
 Q = \sqrt{2CU_C} = \sqrt{2(10^{-4})(9.375 \times 10^{-6})} = \sqrt{1.875 \times 10^{-9}} = 43.3\,\mu\text{C
 $$
 
-:::
 
 ## Maxwell's Equations (Integral Form)
 
@@ -460,6 +457,7 @@ $$
 I_d = \epsilon_0 \frac{d\Phi_E}{dt}
 $$
 
+:::
 :::info[Example: Displacement current in a charging capacitor]
 
 A parallel plate capacitor with plate area $A$ and separation $d$ is being charged by a current $I$.
@@ -492,7 +490,6 @@ $$
 
 This is the same as the field inside a wire of radius $R$ carrying current $I$.
 
-:::
 
 ## Common Pitfalls
 
@@ -711,3 +708,5 @@ and past paper questions, is essential for success in examinations.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

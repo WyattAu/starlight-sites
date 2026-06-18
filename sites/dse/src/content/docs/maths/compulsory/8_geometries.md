@@ -1,8 +1,6 @@
 ---
 title: Geometries
-description:
-  'DSE Maths Geometries notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic revision and exam readiness.'
+description: 'Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems...'
 date: 2025-06-03T16:20:00.000Z
 tags:
   - Maths
@@ -26,7 +24,7 @@ Divide the plane into four quadrants, numbered counterclockwise from the positiv
 ### Distance Formula
 
 The distance between two points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is derived from the
-[Pythagorean identity](trigonometry#pythagorean-identity) applied to the right triangle formed By
+[Pythagorean identity](../../../../../../qualifications/src/content/docs/highers/maths/2-trigonometry/2_trigonometry.md#pythagorean-identity) applied to the right triangle formed By
 the horizontal and vertical differences:
 
 $$
@@ -341,7 +339,7 @@ $$
 \end{aligned}
 $$
 
-Using the [Heron's formula](trigonometry)) for a triangle with side lengths $a$$b$$c$ and
+Using the [Heron's formula](../../../../../../qualifications/src/content/docs/highers/maths/2-trigonometry/2_trigonometry.md)) for a triangle with side lengths $a$$b$$c$ and
 Semi-perimeter $s = \frac{a+b+c}{2}$:
 
 $$

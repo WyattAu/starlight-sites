@@ -1,8 +1,6 @@
 ---
 title: IP Addressing
-description:
-  'IP Addressing notes covering key definitions, core concepts, worked examples, and practice
-  questions for complete revision and examination preparation.'
+description: 'IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in...'
 tags:
   - Networking
 categories:
@@ -98,7 +96,6 @@ Classful addressing is obsolete. Modern networks use CIDR notation exclusively. 
 Boundaries are still referenced in documentation and some legacy systems, so understanding them is
 Necessary.
 
-:::
 
 ## CIDR Notation
 
@@ -195,13 +192,13 @@ Allocation:
   10.0.39.0/24     (10.0.39.0  - 10.0.39.255)    -- 200 hosts
 ```
 
+:::
 :::caution
 
 Always allocate from the largest subnet first. Allocating small subnets first can fragment the
 Address space and make it impossible to fit larger subnets later. This is the same principle as
 Memory allocation -- first-fit with largest-first ordering.
 
-:::
 
 ### Quick Subnetting Reference
 
@@ -275,6 +272,7 @@ Summary: 192.168.0.0/22
 The summarized route covers all four /24 networks. Traffic destined for any address in
 192.168.0.0/22 (192.168.0.0 - 192.168.3.255) matches this single route entry.
 
+:::
 :::caution
 
 Supernetting only works when the networks are contiguous and aligned on the summary boundary.
@@ -925,5 +923,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

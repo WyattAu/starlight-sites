@@ -3,6 +3,7 @@ title: Rings
 tags:
   - Mathematics
   - University
+description: 'A is a set with two binary operations satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 8.1 Definition of a Ring

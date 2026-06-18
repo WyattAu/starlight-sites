@@ -1,8 +1,6 @@
 ---
 title: Annotations and Reflection
-description:
-  'Java Annotations and Reflection notes covering key definitions, core concepts, worked examples,
-  and practice questions for focused revision.'
+description: '(JDK 5) marks a method as intending to override a method from a superclass or implement A method from an interface. The compiler verifies the declaration...'
 date: 2026-04-04T00:00:00.000Z
 tags:
   - Java

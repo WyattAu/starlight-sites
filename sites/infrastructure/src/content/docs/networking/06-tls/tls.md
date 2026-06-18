@@ -1,8 +1,6 @@
 ---
 title: TLS
-description:
-  'TLS notes covering key definitions, core concepts, worked examples, and practice questions for
-  structured revision and exam readiness.'
+description: 'Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure...'
 tags:
   - Networking
 categories:
@@ -38,7 +36,6 @@ Recommended version for all new deployments.
 PCI DSS v4.0 (effective March 2025) requires TLS 1.2 or higher and deprecates TLS 1.0 and 1.1. Major
 Browsers and cloud providers have already removed support for TLS 1.0 and 1.1.
 
-:::
 
 ## TLS 1.2 Handshake
 
@@ -133,6 +130,7 @@ Client                              Server
   |==== Encrypted Application Data ===|
 ```
 
+:::
 :::caution
 
 0-RTT data is not protected against replay attacks. An attacker who captures a 0-RTT message can
@@ -140,7 +138,6 @@ Replay it to the server. Do not use 0-RTT for non-idempotent requests (POST, PUT
 Server should only accept 0-RTT data for idempotent operations (GET) and must implement replay
 Detection.
 
-:::
 
 3. **Removed insecure algorithms:** TLS 1.3 removes:
 
@@ -328,6 +325,7 @@ The client must have the Root CA in its trust store. The server must send the fu
 Intermediate) during the TLS handshake. If intermediate certificates are missing, clients that do
 Not already have them cached will fail to validate the chain.
 
+:::
 :::caution
 
 The most common TLS configuration error is failing to include intermediate certificates in the
@@ -339,7 +337,6 @@ openssl s_client -connect example.com:443 -servername example.com
 
 Look for `Verify return code: 0 (ok)`. Any other return code indicates a chain problem.
 
-:::
 
 ## Certificate Authorities (CAs)
 
@@ -514,12 +511,12 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 | ECDHE + P-256  | Yes             | Good balance                     |
 | ECDHE + X25519 | Yes             | Best performance                 |
 
+:::
 :::caution
 
 TLS 1.3 mandates forward secrecy for all connections. There is no way to configure TLS 1.3 without
 Forward secrecy. If you are still using TLS 1.2, ensure you use ECDHE cipher suites (`TLS_ECDHE_*`).
 
-:::
 
 ## Session Resumption
 
@@ -984,3 +981,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

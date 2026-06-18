@@ -1,8 +1,6 @@
 ---
 title: Introduction to Hardware Tuning
-description:
-  'Introduction to Hardware Tuning notes covering key definitions, core concepts, worked examples,
-  and practice questions for focused revision.'
+description: 'Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,...'
 
 ---
 

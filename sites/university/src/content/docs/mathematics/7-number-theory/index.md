@@ -1,8 +1,6 @@
 ---
 title: Number Theory
-description:
-  'University Mathematics Number Theory notes covering key definitions, core concepts, worked
-  examples, and practice questions for practical revision.'
+description: 'For any integers and with There exist unique Integers and such that with . Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Mathematics

@@ -3,6 +3,7 @@ title: Beyond the Standard Model
 tags:
   - Physics
   - University
+description: 'Supersymmetry relates fermions and bosons: every SM particle has a superpartner  Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 9.1 Supersymmetry (SUSY)

@@ -1,8 +1,6 @@
 ---
 title: DNS
-description:
-  'DNS notes covering key definitions, core concepts, worked examples, and practice questions for
-  focused exam preparation and mastery.'
+description: 'The Domain Name System (DNS) is the Internet's hierarchical, distributed database that maps Human-readable names to IP addresses and other resource data....'
 tags:
   - Networking
 categories:
@@ -161,7 +159,6 @@ The CNAME restriction means you cannot have a CNAME at the zone apex (e.g., `exa
 `www.example.com`) because the apex also needs SOA and NS records. DNS providers solve this with
 ALIAS or ANAME records (proprietary), or by using CNAME Flattening (Cloudflare).
 
-:::
 
 **MX (Mail Exchange, RFC 1035):** Identifies mail servers for the domain. The priority value
 Determines the order -- lower priority is preferred. If two servers have the same priority, the
@@ -318,13 +315,13 @@ When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists b
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
 Non-existent names from hammering authoritative servers.
 
+:::
 :::caution
 
 Negative caching with long SOA minimum TTLs can cause problems during DNS migrations. If you set the
 SOA minimum to 86400 (1 day) and delete a subdomain, resolvers will cache the `NXDOMAIN` for up to 1
 Day. Reduce the SOA minimum TTL before making changes, then increase it after propagation.
 
-:::
 
 ## DNS over HTTPS (DoH) and DNS over TLS (DoT)
 
@@ -525,6 +522,7 @@ resolvectl status
 resolvectl query example.com
 ```
 
+:::
 :::caution
 
 `systemd-resolved` modifies `/etc/resolv.conf` to point to its local stub resolver (127.0.0.53). If
@@ -840,5 +838,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

@@ -1,8 +1,6 @@
 ---
 title: Control Flow
-description:
-  'Ruby conditionals, loops, iterators, next/break/redo, exception handling with
-  begin/rescue/ensure, custom exceptions, and early exits with guard clauses.'
+description: 'The statement evaluates a condition and executes the corresponding branch. The keyword handles additional conditions, and provides a fallback:'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

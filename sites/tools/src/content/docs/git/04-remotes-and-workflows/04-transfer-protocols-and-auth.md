@@ -1,8 +1,6 @@
 ---
 title: Transfer Protocols and Authentication
-description:
-  'Git Transfer Protocols and Authentication notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured revision.'
+description: 'Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: vcpkg
-description:
-  'C++ Programming vcpkg notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured learning and effective revision.'
+description: 'is Microsoft's cross-platform package manager. While originally designed with an Imperative, global installation model ("Classic Mode"), modern C++...'
 date: 2025-12-11T04:55:37.164Z
 tags:
   - cpp

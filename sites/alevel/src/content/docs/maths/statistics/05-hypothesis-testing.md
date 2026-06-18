@@ -1,8 +1,6 @@
 ---
 title: Hypothesis Testing
-description:
-  'A-Level Maths Hypothesis Testing notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective revision.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -260,8 +258,7 @@ Equivalently, for the sample proportion $\hat{p} = X/n$:
 
 $$\hat{p} \approx N\!\left(p, \dfrac{p(1-p)}{n}\right)$$
 
-:::caution Warning $H_0$), not the observed sample proportion $\hat{p}$.
-:::
+> **Caution:** Warning $H_0$), not the observed sample proportion $\hat{p}$.
 ### 9.2 Continuity correction
 
 Since the binomial distribution is discrete and the normal distribution is continuous, a
@@ -383,7 +380,6 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 - Statistical significance does **not** imply practical or scientific importance.
 - The $p$-value depends on sample size: with a very large sample, even small effects can produce
   tiny $p$-values.
-:::
 
 ### 11.5 Worked example
 

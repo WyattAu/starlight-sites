@@ -1,8 +1,6 @@
 ---
 title: Ecology
-description:
-  'A-Level Biology Ecology notes covering key definitions, core concepts, worked examples, and
-  practice questions for methodical learning and effective revision.'
+description: 'An is a self-sustaining system formed by the interactions of all Living organisms (the component) with their non-living physical and chemical environment...'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -14,8 +12,7 @@ categories:
 
 ## Ecology
 
-:::info Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
 ## 1. Ecosystems
 
 ### 1.1 Definitions

@@ -1,8 +1,6 @@
 ---
 title: 'Algorithms -- Diagnostic Tests'
-description:
-  'Scottish Highers Computer Science Algorithms -- Diagnostic Tests notes covering key definitions,
-  core concepts, worked examples, and practice questions for in-depth revision.'
+description: 'QUALIFICATIONS Highers notes: Algorithms -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---
 

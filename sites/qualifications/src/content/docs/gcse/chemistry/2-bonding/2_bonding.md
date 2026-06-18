@@ -1,8 +1,6 @@
 ---
 title: Bonding
-description:
-  'GCSE Chemistry Bonding notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid revision and examination preparation.'
+description: 'occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Bonding
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C2 | WJEC C2
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C2 | WJEC C2
 ## 1. Ionic Bonding
 
 ### 1.1 Formation of Ions

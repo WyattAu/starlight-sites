@@ -1,8 +1,6 @@
 ---
 title: Descriptors and Properties
-description:
-  'Python Descriptors and Properties notes covering key definitions, core concepts, worked examples,
-  and practice questions for clear revision.'
+description: 'Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or .'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Probability and Statistics
-description:
-  'ILC Maths Probability and Statistics notes covering key definitions, core concepts, worked
-  examples, and practice questions for clear revision.'
+description: 'Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability...'
 date: 2026-04-14
 tags:
   - ilc

@@ -1,8 +1,6 @@
 ---
 title: Control Flow and Pattern Matching
-description:
-  'Rust Control Flow and Pattern Matching notes covering key definitions, core concepts, worked
-  examples, and practice questions for comprehensive revision.'
+description: 'Rust's expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression — it...'
 
 ---
 
@@ -1071,5 +1069,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

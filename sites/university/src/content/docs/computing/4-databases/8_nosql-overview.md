@@ -3,6 +3,7 @@ title: NoSQL Overview
 tags:
   - Computing
   - University
+description: 'NoSQL databases address limitations of relational databases for certain workload Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 8.1 Motivation

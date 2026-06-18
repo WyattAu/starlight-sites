@@ -1,8 +1,6 @@
 ---
 title: Economic Development
-description:
-  'IB Geography Economic Development notes covering key definitions, core concepts, worked examples,
-  and practice questions for practical revision.'
+description: 'This section covers the IB Geography optional theme on economic development. It examines the nature of economic development at a variety of scales, the ways...'
 
 ---
 

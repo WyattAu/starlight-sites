@@ -1,8 +1,6 @@
 ---
 title: Microorganisms and Biotechnology
-description:
-  'DSE Biology Microorganisms and Biotechnology notes covering key definitions, core concepts,
-  worked examples, and practice questions for comprehensive revision.'
+description: 'Microorganisms are organisms that are too small to be seen with the naked eye. They are Found in all three domains of life and include bacteria, fungi, and...'
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]
 categories: [DSE, Biology]

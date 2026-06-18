@@ -1,8 +1,6 @@
 ---
 title: Data Validation
-description:
-  'Python Data Validation notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective revision.'
+description: 'Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

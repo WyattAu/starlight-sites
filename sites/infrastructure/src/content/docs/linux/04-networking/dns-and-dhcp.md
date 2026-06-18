@@ -1,8 +1,6 @@
 ---
 title: DNS and DHCP on Linux
-description:
-  'DNS and DHCP on Linux notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid study and examination practice.'
+description: 'The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 
 ---
 
@@ -844,5 +842,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

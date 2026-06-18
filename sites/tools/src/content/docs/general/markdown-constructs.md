@@ -1,8 +1,6 @@
 ---
 title: Markdown & MDX Constructs
-description:
-  'General Markdown & MDX Constructs notes covering key definitions, core concepts, worked examples,
-  and practice questions for analytical revision.'
+description: 'Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .'
 date: 2025-05-15T22:45:51.828Z
 tags:
   - general
@@ -215,27 +213,21 @@ Admonitions are the preferred way to call out important information:
 ```md
 :::note This is a note. :::
 
-:::tip This is a tip.
-:::
+> **Tip:** This is a tip.
 
-:::info This is informational.
-:::
+> **Info:** This is informational.
 
-:::caution This is a caution.
-:::
+> **Caution:** This is a caution.
 
-:::danger This is dangerous.
-:::
+> **Danger:** This is dangerous.
 
-:::caution This is a warning.
-:::
+> **Caution:** This is a warning.
 ```
 
 Admonitions support optional titles:
 
 ```md
-:::tip Custom Title Content here.
-:::
+> **Tip:** Custom Title Content here.
 ```
 
 They can also be collapsible (Docusaurus 3):
@@ -377,7 +369,7 @@ Every page should have frontmatter. Here is the full set of commonly used fields
 ---
 id: my-page # URL path segment (overrides filename)
 title: My Page Title # Display title and h1
-description: Page summary # Meta description for SEO and search
+description: 'Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .'
 slug: /custom/url/path # Full URL override
 title: Short Name # Override display name in sidebar
 date: 2025-05-15T22:45:51Z

@@ -2,6 +2,7 @@
 title: Continuity and Homeomorphisms
 tags:
   - University Maths
+description: 'Let and be topological spaces. A function is if the preimage of every open set i Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 4.1 Continuous Functions

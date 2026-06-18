@@ -1,8 +1,6 @@
 ---
 title: Data Representation
-description:
-  'A-Level Maths Data Representation notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective preparation.'
+description: '| Board | Paper | Notes | | ---------- | ------- | --------------------------------------------- | | AQA | Paper 1 | Measures of location and spread, coding...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -73,8 +71,7 @@ Mode.
 - The median is robust to outliers but ignores the magnitude of extreme values.
 - The mode is useful for categorical data.
 
-:::caution Warning Mean. A few extreme values can pull the mean far from the centre of the data.
-:::
+> **Caution:** Warning Mean. A few extreme values can pull the mean far from the centre of the data.
 <hr />
 
 ## 2. Variance and Standard Deviation
@@ -145,8 +142,7 @@ $$\mathrm{Upper fence} = Q_3 + 1.5 \times \mathrm{IQR}$$
 
 Values outside these fences are potential outliers.
 
-:::caution Warning Some use $1.5 \times$ IQR, others use different multipliers.
-:::
+> **Caution:** Warning Some use $1.5 \times$ IQR, others use different multipliers.
 <hr />
 
 ## 4. Coding Data

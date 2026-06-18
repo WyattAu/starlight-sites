@@ -1,8 +1,6 @@
 ---
 title: Ninja Build System and Parrallelism
-description:
-  'C++ Programming Ninja Build System and Parrallelism notes covering key definitions, core
-  concepts, worked examples, and practice questions for focused revision.'
+description: 'The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While...'
 date: 2025-12-10T06:02:22.685Z
 tags:
   - cpp
@@ -721,8 +719,8 @@ Each CMake target to have its own set of rules and variables without polluting t
 
 - [CMake Targets, Properties, and Generators](./1_cmake_targets_properties_generator.md)
 - [CMake Presets and Toolchain Files](./3_cmake_presets_and_toolchain_files.md)
-- [Build Caching](./4_build_caching.md)
-- [Unit Tests](./5_unit_tests.md)
+- [Build Caching](4_build_caching.mdx)
+- [Unit Tests](5_unit_tests.mdx)
 
 ## Summary
 

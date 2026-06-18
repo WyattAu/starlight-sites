@@ -1,8 +1,6 @@
 ---
 title: Network Fundamentals
-description:
-  'A-Level Computer Science Network Fundamentals notes covering key definitions, core concepts,
-  worked examples, and practice questions for thorough preparation.'
+description: 'A network connecting computers within a limited geographical area (building, cam Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -748,7 +746,6 @@ And sends the frame there.
 
 </details>
 
-:::
 
 ## Summary
 

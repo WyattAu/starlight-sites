@@ -3,6 +3,7 @@ title: Dynamic Programming
 tags:
   - Computing
   - University
+description: 'Dynamic programming (DP) solves problems by: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 5.1 Principles

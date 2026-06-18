@@ -1,8 +1,6 @@
 ---
 title: Linux Firewalls
-description:
-  'Linux Firewalls notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused study and thorough revision.'
+description: 'Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux...'
 
 ---
 

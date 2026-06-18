@@ -5,9 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description:
-  Data races and race conditions in Go. Detecting races with go test -race, the sync/atomic package
-  for lock-free programming, sync.
+description: 'A data race occurs when two goroutines access the same variable concurrently, at least one of them writes, and there is no synchronization to order the...'
 ---
 
 ## What is a Data Race?

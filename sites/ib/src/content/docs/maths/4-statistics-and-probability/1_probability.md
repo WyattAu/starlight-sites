@@ -64,7 +64,6 @@ $$
 P(F \cup B) = P(F) + P(B) - P(F \cap B) = \frac{25}{40} + \frac{18}{40} - \frac{8}{40} = \frac{35}{40} = \frac{7}{8}
 $$
 
-:::
 
 ---
 
@@ -92,13 +91,13 @@ $$
 P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)
 $$
 
+:::
 :::caution[Exam Tip]
 
 Independence is NOT the same as mutual exclusivity. In fact, if two events are both mutually
 Exclusive and both have non-zero probability, they CANNOT be independent (since
 $P(A \cap B) = 0 \neq P(A) \cdot P(B)$).
 
-:::
 
 ---
 
@@ -120,6 +119,7 @@ $$
 P(A|B) = P(A)
 $$
 
+:::
 :::info[Example]
 
 A bag contains 5 red and 3 blue marbles. Two marbles are drawn without replacement. Find the
@@ -129,12 +129,12 @@ $$
 P(\mathrm{both red}) = P(\mathrm{first red}) \cdot P(\mathrm{second red} | \mathrm{first red}) = \frac{5}{8} \cdot \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
 $$
 
-:::
 
 ### Tree Diagrams
 
 Tree diagrams are useful for multi-stage experiments. Multiply along branches, add between branches.
 
+:::
 :::info[Example]
 
 A box contains 4 defective and 6 non-defective items. Two items are drawn without replacement. Find
@@ -149,7 +149,6 @@ $$
 P(\mathrm{exactly one defective}) = \frac{24}{90} + \frac{24}{90} = \frac{48}{90} = \frac{8}{15}
 $$
 
-:::
 
 ---
 
@@ -174,6 +173,7 @@ $$
 The denominator $P(B) = \displaystyle\sum_{i=1}^{n} P(B|A_i) \cdot P(A_i)$ is the **law of total
 Probability**.
 
+:::
 :::info[Example]
 
 A factory has three machines producing items. Machine `A` produces 50% of items with 2% defect rate.
@@ -188,7 +188,6 @@ $$
 P(B|\mathrm{defective}) = \frac{0.3 \times 0.03}{0.021} = \frac{0.009}{0.021} = \frac{3}{7}
 $$
 
-:::
 
 ### Medical Testing Example
 
@@ -205,12 +204,12 @@ $$
 P(\mathrm{disease}|\mathrm{positive}) = \frac{0.01 \times 0.99}{0.0594} = \frac{0.0099}{0.0594} \approx 0.167
 $$
 
+:::
 :::caution[Exam Tip]
 
 This result (approximately 16.7%) is counterintuitively low. Always work through Bayes' theorem
 Carefully rather than relying on intuition for conditional probability questions.
 
-:::
 
 ---
 
@@ -268,6 +267,7 @@ $$
 \mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)
 $$
 
+:::
 :::info[Example]
 
 A random variable $X$ has the following probability distribution:
@@ -292,7 +292,6 @@ $$
 \sigma = \sqrt{0.84} \approx 0.917
 $$
 
-:::
 
 ---
 
@@ -329,6 +328,7 @@ $$
 \sigma = \sqrt{np(1-p)}
 $$
 
+:::
 :::info[Example]
 
 A fair coin is tossed 10 times. Find the probability of getting exactly 6 heads.
@@ -339,8 +339,8 @@ $$
 P(X = 6) = \binom{10}{6}(0.5)^6(0.5)^4 = 210 \times (0.5)^{10} = \frac{210}{1024} \approx 0.205
 $$
 
-:::
 
+:::
 :::info[Example]
 
 A multiple-choice test has 20 questions, each with 5 options. A student guesses all answers. Find
@@ -354,7 +354,6 @@ $$
 
 This is best computed using a GDC (calculator). The result is approximately $0.00026$.
 
-:::
 
 ### Cumulative Binomial Probabilities
 
@@ -364,12 +363,12 @@ $$
 
 Most questions require using the cumulative binomial function on a GDC.
 
+:::
 :::caution[Exam Tip]
 
 For binomial probability questions, always state the distribution : "$X \sim B(n, p)$ Where...". Use
 your GDC for calculations involving large $n$ or cumulative probabilities.
 
-:::
 
 ---
 
@@ -397,6 +396,7 @@ $$
 P(X \lt a) = P\!\left(Z \lt \frac{a - \mu}{\sigma}\right)
 $$
 
+:::
 :::info[Example]
 
 Given $X \sim N(50, 16)$Find $P(45 \lt X \lt 55)$.
@@ -411,7 +411,6 @@ $$
 = \Phi(1.25) - \Phi(-1.25) = 0.8944 - 0.1056 = 0.7888
 $$
 
-:::
 
 ### Inverse Normal
 
@@ -423,6 +422,7 @@ $$
 
 Where $z_p$ is the $p$-th percentile of the standard normal.
 
+:::
 :::info[Example]
 
 Heights of a population follow $N(170, 64)$ (in cm). Find the height that is at the 90th percentile.
@@ -437,7 +437,6 @@ $$
 X = 170 + 1.282 \times 8 = 170 + 10.26 = 180.26 \mathrm{ cm}
 $$
 
-:::
 
 ### Combining Normal Variables
 
@@ -456,6 +455,7 @@ $$
 AX + b \sim N(a\mu_X + b, a^2\sigma_X^2)
 $$
 
+:::
 :::info[Example]
 
 The weight of a parcel is $X \sim N(2, 0.04)$ kg. The packaging adds $Y \sim N(0.3, 0.01)$ kg. Find
@@ -469,7 +469,6 @@ $$
 P(X + Y \gt 2.5) = P\!\left(Z \gt \frac{2.5 - 2.3}{\sqrt{0.05}}\right) = P(Z \gt 0.894) = 1 - 0.814 = 0.186
 $$
 
-:::
 
 ---
 
@@ -510,6 +509,7 @@ $$
 \int_{-\infty}^{m} f(x)\,dx = 0.5
 $$
 
+:::
 :::info[Example]
 
 A continuous random variable $X$ has PDF $f(x) = 2x$ for $0 \le x \le 1$.
@@ -538,7 +538,6 @@ $$
 \int_0^m 2x\,dx = 0.5 \implies m^2 = 0.5 \implies m = \frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}
 $$
 
-:::
 
 ---
 
@@ -663,13 +662,13 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
 | Bayes' theorem          | $P(A\|B) = \dfrac{P(B\|A) \cdot P(A)}{P(B)}$ |
 | Standardisation         | $Z = \dfrac{X - \mu}{\sigma}$                |
 
+:::
 :::tip[Exam Strategy]
 
 Always define your random variable at the start of probability questions. For normal Distribution
 problems, draw a sketch of the bell curve and shade the relevant area. For binomial Problems, verify
 the four conditions before applying the formula.
 
-:::
 
 ---
 
@@ -689,6 +688,7 @@ $$
 E(X) = \lambda, \quad \mathrm{Var}(X) = \lambda
 $$
 
+:::
 :::info[Example]
 
 A call centre receives an average of 4 calls per minute. Find the probability of receiving exactly 6
@@ -698,7 +698,6 @@ $$
 P(X = 6) = \frac{e^{-4} \cdot 4^6}{6!} = \frac{e^{-4} \cdot 4096}{720} = \frac{4096}{720 \times 54.60} \approx 0.104
 $$
 
-:::
 
 ### Geometric Distribution
 
@@ -714,6 +713,7 @@ $$
 E(X) = \frac{1}{p}, \quad \mathrm{Var}(X) = \frac{1-p}{p^2}
 $$
 
+:::
 :::info[Example]
 
 A die is rolled until a 6 appears. Find the probability that it takes exactly 4 rolls.
@@ -722,7 +722,6 @@ $$
 P(X = 4) = \left(\frac{5}{6}\right)^3 \times \frac{1}{6} = \frac{125}{1296} \approx 0.0965
 $$
 
-:::
 
 ---
 
@@ -750,6 +749,7 @@ $$
 ^nC_r = \binom{n}{r} = \frac{n!}{r!(n-r)!}
 $$
 
+:::
 :::info[Example]
 
 A committee of 4 is to be chosen from 7 men and 5 women. How many committees have at least 2 women?
@@ -762,7 +762,6 @@ Ways with 1 woman: $\dbinom{5}{1}\dbinom{7}{3} = 5 \times 35 = 175$.
 
 Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 
-:::
 
 ---
 

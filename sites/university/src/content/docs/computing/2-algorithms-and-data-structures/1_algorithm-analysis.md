@@ -3,6 +3,7 @@ title: Algorithm Analysis
 tags:
   - Computing
   - University
+description: 'Algorithm Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 1.1 Asymptotic Notation

@@ -1,8 +1,6 @@
 ---
 title: Fiscal Policy
-description:
-  'A-Level Economics Fiscal Policy notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam preparation.'
+description: 'We define as the use of government spending () and taxation () to influence The level of aggregate demand, economic activity, and the allocation of...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

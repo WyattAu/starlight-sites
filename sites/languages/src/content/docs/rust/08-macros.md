@@ -1,8 +1,6 @@
 ---
 title: Macros
-description:
-  'Rust Macros notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted study and examination practice.'
+description: 'Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,...'
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Rust
@@ -202,7 +200,6 @@ Will produce the error "recursion limit reached while expanding ...". Use
 `#![recursion_limit = "256"]` at the crate root to increase the limit if needed. For truly complex
 Processing, use a procedural macro instead.
 
-:::
 
 ### Token Pasting and `stringify!`
 
@@ -347,6 +344,7 @@ macro_rules! my_assert {
 }
 ```
 
+:::
 :::info
 
 `#[macro_export]` always exports the macro to the crate root, regardless of where the `macro_rules!`
@@ -354,7 +352,6 @@ Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
 That has no prospect of changing.
 
-:::
 
 ### Scoping Rules
 
@@ -1078,6 +1075,7 @@ pub fn sql(input: TokenStream) -> TokenStream {
 let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", user_id, name);
 ```
 
+:::
 :::caution
 
 This SQL macro is a simplified illustration. A production SQL macro would parse the query string,
@@ -1654,5 +1652,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

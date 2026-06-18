@@ -1,8 +1,6 @@
 ---
 title: Exchange and Transport
-description:
-  'A-Level Biology Exchange and Transport notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused preparation.'
+description: 'As an organism increases in size, its volume grows faster than its surface area. Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -14,8 +12,7 @@ categories:
 
 ## Exchange and Transport
 
-:::info Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
 ## 1. Surface Area to Volume Ratio
 
 ### 1.1 The Fundamental Constraint

@@ -1,8 +1,6 @@
 ---
 title: Development Enviroment
-description:
-  'Dart Development Enviroment notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete study and examination practice.'
+description: 'Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is...'
 date: 2025-07-13T19:11:38.762Z
 tags:
   - dart
@@ -56,7 +54,7 @@ Truth for dependencies, metadata, and build configuration — similar to `packag
 
 ```yaml
 name: my_app
-description: A sample Dart application
+description: 'Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is...'
 version: 1.0.0
 publish_to: 'none' # prevent accidental publish to pub.dev
 
@@ -363,5 +361,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

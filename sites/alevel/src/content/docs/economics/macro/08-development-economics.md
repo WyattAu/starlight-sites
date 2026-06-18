@@ -1,8 +1,6 @@
 ---
 title: Development Economics
-description:
-  'A-Level Development Economics notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough exam preparation and revision.'
+description: 'Development economics studies how nations transform from low-income, less-productive economies into High-income, modern economies. It is distinct from...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Economics
@@ -14,8 +12,7 @@ categories:
 
 ## Development Economics
 
-:::info Board Coverage Edexcel P1, P3 | CIE P2, P4
-:::
+> **Info:** Board Coverage Edexcel P1, P3 | CIE P2, P4
 Development economics studies how nations transform from low-income, less-productive economies into
 High-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
 With institutional failure, poverty traps, and structural transformation — problems that are largely

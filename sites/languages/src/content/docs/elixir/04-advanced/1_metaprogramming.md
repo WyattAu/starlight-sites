@@ -1,8 +1,6 @@
 ---
 title: Metaprogramming
-description:
-  'Macros, quote/unquote/splice, AST representation, compile-time vs runtime, hygiene, and the Macro
-  module in Elixir.'
+description: 'Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

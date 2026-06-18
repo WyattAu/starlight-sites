@@ -1,8 +1,6 @@
 ---
 title: Algorithms and Programming
-description:
-  'Qualifications Computer Science Algorithms and Programming notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Repeatedly find the minimum element from the unsorted portion and place it at th Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap
@@ -263,8 +261,8 @@ for (int i = 0; i < n; i++) {
 
 Total: $O(n) \times O(n) = O(n^2)$.
 
-:::
 
+:::
 :::info[Example 2]
 
 ```java
@@ -278,7 +276,6 @@ for (int j = 0; j < n; j++) {
 
 Total: $O(n) + O(n) = O(n)$.
 
-:::
 
 ## Recursion (AP CS A)
 
@@ -873,3 +870,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

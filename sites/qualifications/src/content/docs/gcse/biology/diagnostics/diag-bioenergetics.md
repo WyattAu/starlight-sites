@@ -1,8 +1,6 @@
 ---
 title: 'Bioenergetics -- Diagnostic Tests'
-description:
-  'GCSE Biology Bioenergetics -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for solid revision.'
+description: '(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface...'
 tableOfContents: false
 ---
 

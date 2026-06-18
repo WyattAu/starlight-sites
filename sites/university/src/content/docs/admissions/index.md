@@ -1,6 +1,6 @@
 ---
 title: Admissions Tests
-description: 'Preparation materials and strategies for university admissions tests including the TSA, MAT, STEP, and BMAT.'
+description: 'Many competitive university programmes require applicants to sit specialised admissions tests as part of the selection process. These examinations assess...'
 ---
 
 # Admissions Tests
@@ -14,3 +14,46 @@ Admissions tests are designed to distinguish between candidates of similar acade
 ## Preparation Strategy
 
 Effective preparation involves working through past papers under timed conditions, identifying recurring question patterns, and developing fluency in the underlying mathematical or analytical techniques. Begin preparation at least three months before the test date, and allocate regular study sessions to build confidence and speed incrementally.
+
+## Overview
+
+University admissions test preparation covering TSA, MAT, STEP, and other entrance examinations.
+
+## Tests Covered
+
+- **Thinking Skills Assessment (TSA)**: Logical reasoning and problem-solving
+- **Mathematics Admissions Test (MAT)**: Proof-based and multi-step problems
+- **Sixth Term Examination Papers (STEP)**: Advanced mathematics
+- **Physics Aptitude Test (PAT)**: Physics and mathematics
+
+## Preparation Materials
+
+- Past papers with worked solutions
+- Topic-specific practice sets
+- Timed mock examinations
+- Common pitfalls and how to avoid them
+
+## How to Use These Notes
+
+Start with the specific test you are preparing for, work through past papers under timed conditions, and review worked solutions to understand the marking criteria.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to university-level material
+
+## Study Tips
+
+1. **Start early**: Begin preparation at least three months before the test
+2. **Practise under conditions**: Work through past papers under timed conditions
+3. **Review marking criteria**: Understand how answers are assessed
+4. **Focus on fundamentals**: Admissions tests reward deep understanding, not memorisation
+5. **Seek feedback**: Discuss solutions with peers or tutors

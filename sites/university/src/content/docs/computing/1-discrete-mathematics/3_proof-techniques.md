@@ -3,6 +3,7 @@ title: Proof Techniques
 tags:
   - Computing
   - University
+description: 'To prove : assume Derive by a chain of logical deductions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 3.1 Direct Proof

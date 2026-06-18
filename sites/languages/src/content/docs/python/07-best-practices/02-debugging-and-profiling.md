@@ -1,8 +1,6 @@
 ---
 title: Debugging and Profiling
-description:
-  'Python Debugging and Profiling notes covering key definitions, core concepts, worked examples,
-  and practice questions for detailed revision and exam readiness.'
+description: 'Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

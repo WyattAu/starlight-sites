@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
+description: 'Let be non-empty and bounded above. Prove that Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 **Problem 1.** Let $A, B \subseteq \mathbb{R}$ be non-empty and bounded above. Prove that

@@ -1,8 +1,6 @@
 ---
 title: Iterator-Sentinel Model
-description:
-  'C++ Programming Iterator-Sentinel Model notes covering key definitions, core concepts, worked
-  examples, and practice questions for practical revision.'
+description: 'C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -600,7 +598,6 @@ Range is infinite (or at least large enough). If the range is shorter than the a
 You get buffer overread — and unlike with bounds-checked iterators, there is no diagnostic. Use this
 Only when you have proven the bounds at a higher level.
 
-:::
 
 ## Summary
 

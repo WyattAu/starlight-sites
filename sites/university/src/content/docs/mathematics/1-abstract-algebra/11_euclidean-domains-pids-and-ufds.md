@@ -3,6 +3,7 @@ title: Euclidean Domains, PIDs, and UFDs
 tags:
   - Mathematics
   - University
+description: 'An integral domain is a if there exists a function Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 11.1 Euclidean Domains

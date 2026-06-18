@@ -1,8 +1,6 @@
 ---
 title: Moments
-description:
-  'A-Level Maths Moments notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid exam preparation and revision.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -166,8 +164,7 @@ $$\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}$$
 The direction of $\boldsymbol{\tau}$ is given by the right-hand rule and is perpendicular to the
 Plane containing $\mathbf{r}$ and $\mathbf{F}$.
 
-:::info Info Anticlockwise are the only two directions you need to consider.
-:::
+> **Info:** Info Anticlockwise are the only two directions you need to consider.
 ### 3.1.5 Equilibrium of couples
 
 If a body is acted on by several couples, the body is in rotational equilibrium if and only if the

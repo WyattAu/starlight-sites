@@ -1,8 +1,6 @@
 ---
 title: Testing in Java
-description:
-  'Java Testing in Java notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic revision and examination preparation.'
+description: 'JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 

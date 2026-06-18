@@ -83,7 +83,6 @@ $m \times n$ matrix.
 A common error is assuming $AB = BA$. Always check the order of multiplication. In geometric
 Transformations, applying $A$ then $B$ corresponds to the product $BA$ (right-to-left reading).
 
-:::
 
 ### Special Matrices
 
@@ -356,6 +355,7 @@ $$
 \begin`\{pmatrix}` x \\ y \end`\{pmatrix}` = \frac{1}{ad - bc} \begin`\{pmatrix}` d & -b \\ -c & a \end`\{pmatrix}` \begin`\{pmatrix}` e \\ f \end`\{pmatrix}` = \frac{1}{ad - bc} \begin`\{pmatrix}` de - bf \\ -ce + af \end`\{pmatrix}`
 $$
 
+:::
 :::info[Examples]
 
 <details>
@@ -377,7 +377,6 @@ $\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 0.2 & 0.6 \\ 0.2 & -0.4 
 So $x = \frac{11}{5}$ and $y = \frac{6}{5}$.
 
 </details>
-:::
 
 ---
 
@@ -685,6 +684,7 @@ Can have three distinct real roots, one repeated and one distinct real root, or 
 Two complex conjugate roots. Since the IB course works over $\mathbb{R}$Only real eigenvalues and
 Eigenvectors are considered.
 
+:::
 :::info[Examples]
 
 <details>
@@ -725,7 +725,6 @@ The matrix is diagonalisable. The total number of linearly independent eigenvect
 $P = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 0 & -1 \end{pmatrix}, \quad D = \begin{pmatrix} 3 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 2 \end{pmatrix}$
 
 </details>
-:::
 
 **Characteristic equation:**
 
@@ -793,6 +792,7 @@ Case.
 This transforms the problem of computing $A^k$ (which would require $k-1$ matrix multiplications)
 Into computing three matrix products, which is dramatically more efficient.
 
+:::
 :::info[Examples]
 
 <details>
@@ -819,7 +819,6 @@ $= \begin{pmatrix} 3125 & 32 \\ 3125 & -64 \end{pmatrix} \begin{pmatrix} \frac{2
 $= \begin{pmatrix} \frac{6282}{3} & \frac{3093}{3} \\ \frac{6186}{3} & \frac{3189}{3} \end{pmatrix} = \begin{pmatrix} 2094 & 1031 \\ 2062 & 1063 \end{pmatrix}$
 
 </details>
-:::
 
 ---
 
@@ -848,6 +847,7 @@ Augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
 - If $\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}]) \lt n$: infinitely many solutions.
 - If $\mathrm{rank}(A) \lt \mathrm{rank}([A \mid \mathbf{b}])$: no solution (inconsistent system).
 
+:::
 :::info[Examples]
 
 <details>
@@ -874,7 +874,6 @@ Back-substitution: $z = 2$$y + z = 3 \Rightarrow y = 1$$x + 2(1) + 2 = 5 \Righta
 Solution: $(x, y, z) = (1, 1, 2)$.
 
 </details>
-:::
 
 ### Cramer's Rule
 
@@ -898,13 +897,13 @@ $$
 
 Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}$.
 
+:::
 :::caution
 
 Cramer's rule is computationally expensive for large systems ($O(n!)$ for the determinant
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and
 Frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
 
-:::
 
 ### Hill Cipher
 
@@ -927,6 +926,7 @@ $$
 The key matrix $K$ must be invertible modulo 26, which requires $\det(K)$ to be coprime to 26 (i.e.
 $\gcd(\det(K), 26) = 1$).
 
+:::
 :::info[Examples]
 
 <details>
@@ -954,7 +954,6 @@ is "EP".
 Ciphertext: "PPEP"
 
 </details>
-:::
 
 ### Computer Graphics
 
@@ -1009,6 +1008,7 @@ For a regular Markov chain (one where some power of $P$ has all positive entries
 Distribution exists, is unique, and is independent of the initial state. The eigenvalue $1$ is
 Always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
 
+:::
 :::info[Examples]
 
 <details>
@@ -1044,7 +1044,6 @@ $\lambda_1 = 1$$\lambda_2 = 0.3$. Since $|\lambda_2| \lt 1$As $k \to \infty$ the
 $\lambda_2^k \to 0$ and the system converges to the eigenvector for $\lambda_1 = 1$.
 
 </details>
-:::
 
 :::danger Common Pitfalls
 

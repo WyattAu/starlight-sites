@@ -1,8 +1,6 @@
 ---
 title: Build Tools and Dependency Management
-description:
-  'Java Build Tools and Dependency Management notes covering key definitions, core concepts, worked
-  examples, and practice questions for analytical revision.'
+description: 'Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 

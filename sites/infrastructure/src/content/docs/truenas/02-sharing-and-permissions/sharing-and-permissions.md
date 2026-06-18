@@ -1,8 +1,6 @@
 ---
 title: Sharing and Permissions
-description:
-  'Sharing and Permissions notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth exam preparation and revision.'
+description: 'Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: TLS Internals
-description:
-  'TLS Internals notes covering key definitions, core concepts, worked examples, and practice
-  questions for efficient exam preparation and mastery.'
+description: 'This document goes deeper into TLS internals than the TLS fundamentals document, covering the record Layer architecture, detailed handshake message formats...'
 tags:
   - Networking
 categories:
@@ -286,7 +284,6 @@ TLS 1.3 implementations should prefer `psk_dhe_ke` for session resumption. This 
 Secrecy even for resumed sessions. If the PSK is compromised, past traffic remains secure because
 The (EC)DHE exchange was ephemeral.
 
-:::
 
 ## Cipher Suites Breakdown
 
@@ -507,12 +504,12 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 | PSK only      | No              |
 | PSK + (EC)DHE | Yes             |
 
+:::
 :::caution
 
 TLS 1.3 mandates forward secrecy for all handshakes. Every TLS 1.3 connection uses (EC)DHE, either
 Alone or in combination with PSK. Static RSA key exchange is not available in TLS 1.3.
 
-:::
 
 ## Common Implementation Pitfalls
 
@@ -719,6 +716,7 @@ For repeat connections where latency is critical.
 openssl s_client -connect example.com:443 -tls1_3 -early_data /tmp/request.txt
 ```
 
+:::
 :::caution
 
 0-RTT data is vulnerable to replay attacks. The server must not accept 0-RTT data for non-idempotent
@@ -894,5 +892,6 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

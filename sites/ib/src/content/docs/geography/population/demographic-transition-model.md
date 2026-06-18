@@ -1,8 +1,6 @@
 ---
 title: Demographic Transition Model
-description:
-  'IB Geography Demographic Transition Model notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: 'The demographic transition model (DTM) describes the shift from high birth rates and high death Rates to low birth rates and low death rates as a country...'
 
 ---
 

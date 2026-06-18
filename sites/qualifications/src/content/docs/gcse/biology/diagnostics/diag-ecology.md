@@ -1,8 +1,6 @@
 ---
 title: 'Ecology -- Diagnostic Tests'
-description:
-  'GCSE Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for clear revision.'
+description: 'A food chain in a woodland ecosystem is: oak tree caterpillar blue tit Comprehensive educational content coverage with definitions and practice problems.'
 tableOfContents: false
 ---
 

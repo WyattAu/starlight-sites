@@ -1,8 +1,6 @@
 ---
 title: Dispersion
-description:
-  'DSE Maths Dispersion notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective exam preparation and revision.'
+description: 'Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,...'
 date: 2025-06-03T16:18:22.480Z
 tags:
   - Maths
@@ -17,7 +15,7 @@ Interpretation of data. In the DSE compulsory syllabus, we focus on **descriptiv
 ./4-statistics-and-probability/2_statistics** -- Summarising a dataset through measures of central
 tendency and measures of dispersion. This page Also covers grouped data techniques and graphical
 representations such as box-and-whisker plots. These tools are frequently combined with
-[probability](probability)) concepts in exam questions.
+[probability](11_probability.md) concepts in exam questions.
 
 ## Measures of Central Tendency
 

@@ -1,8 +1,6 @@
 ---
 title: AP US History
-description:
-  'Qualifications AP US History notes covering periodization from 1491 to present, thematic
-  analysis, and exam preparation for the APUSH exam.'
+description: 'Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description.'
 date: 2026-04-14
 tags:
   - ap

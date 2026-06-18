@@ -1,8 +1,6 @@
 ---
 title: DSE Geography
-description:
-  'DSE Geography revision notes covering population, urbanisation, agriculture, industry, energy,
-  and physical geography for HKDSE exam preparation.'
+description: 'Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style...'
 tableOfContents: false
 tags:
   - geography

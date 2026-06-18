@@ -1,0 +1,14 @@
+# URLs to ignore during link checking
+# Add known-flaky or rate-limited URLs here
+
+# Academic sites that may block crawlers
+https://scholar\.google\.com
+https://arxiv\.org/abs/
+https://doi\.org/
+
+# Cloudflare-protected sites
+https://.*\.workers\.dev/
+
+# Social media
+https://twitter\.com
+https://x\.com

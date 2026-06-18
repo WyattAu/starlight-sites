@@ -1,8 +1,6 @@
 ---
 title: 'A-Level Further Maths -- Diagnostic Guide'
-description:
-  'A-Level Further Maths -- Diagnostic notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: '| Diagnostic File | Topics Covered | Source File | | --------------------------------- | --------------------------------------------------------------------...'
 tableOfContents: false
 ---
 

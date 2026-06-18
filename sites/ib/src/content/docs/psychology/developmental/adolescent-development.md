@@ -1,8 +1,6 @@
 ---
 title: Adolescent Development
-description:
-  'IB Psychology Adolescent Development notes covering key definitions, core concepts, worked
-  examples, and practice questions for complete revision.'
+description: 'Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary...'
 
 ---
 

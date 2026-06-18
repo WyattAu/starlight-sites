@@ -3,6 +3,7 @@ title: Curves and Surfaces
 tags:
   - Mathematics
   - University
+description: 'Curves and Surfaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 5.1 Parametric Curves

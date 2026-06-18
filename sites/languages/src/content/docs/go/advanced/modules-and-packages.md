@@ -1,8 +1,6 @@
 ---
 title: Modules and Packages
-description:
-  'Go Modules and Packages notes covering key definitions, core concepts, worked examples, and
-  practice questions for detailed study and examination practice.'
+description: 'Every Go file belongs to a package, declared at the top of the file. A directory contains one Package. Executables use ; libraries use any other name.'
 date: 2026-04-18
 tags:
   - Go

@@ -1,8 +1,6 @@
 ---
 title: SFINAE vs Concepts
-description:
-  'C++ Programming SFINAE vs Concepts notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: '(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -555,7 +553,6 @@ int main() {
 - [Standard Library Concepts](./3_standard_concepts.md)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
 
-:::
 
 ## Summary
 

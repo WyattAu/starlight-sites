@@ -1,8 +1,6 @@
 ---
 title: Further Calculus
-description:
-  'Scottish Highers Maths Further Calculus notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-14
 tags:
   - highers
@@ -725,5 +723,6 @@ key theorems, methods, and problem-solving approaches.
 
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
+
 
 :::

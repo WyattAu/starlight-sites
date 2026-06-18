@@ -1,8 +1,6 @@
 ---
 title: GPU Tuning
-description:
-  'GPU Tuning notes covering key definitions, core concepts, worked examples, and practice questions
-  for thorough learning and effective revision.'
+description: 'NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units....'
 
 ---
 

@@ -18,3 +18,45 @@ In an $S_N2$ reaction, a nucleophile attacks the electrophilic carbon from the s
 $$\text{HO}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{OH} + \text{Br}^-$$
 
 The nucleophile ($\text{HO}^-$) approaches the carbon from the back, displacing $\text{Br}^-$. This results in inversion of configuration at the carbon centre, a hallmark of the $S_N2$ pathway.
+
+## Overview
+
+University-level organic chemistry notes covering reaction mechanisms, functional group chemistry, and synthesis.
+
+## Topics Covered
+
+- **Reaction Mechanisms**: Nucleophilic substitution, elimination, addition, rearrangement
+- **Functional Groups**: Alcohols, aldehydes, ketones, carboxylic acids, amines
+- **Stereochemistry**: Chirality, enantiomers, diastereomers, optical activity
+- **Spectroscopy**: NMR, IR, mass spectrometry for structure determination
+
+## Prerequisites
+
+- General chemistry (first-year university level)
+- Physical chemistry (thermodynamics, kinetics)
+- Basic spectroscopy principles
+
+## How to Use These Notes
+
+Start with the introductory sections to build foundational knowledge, then progress to more advanced topics. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of organic chemistry
+
+## Study Tips
+
+1. **Build a strong foundation**: Ensure you understand the basic concepts before moving to advanced topics
+2. **Practice regularly**: Organic chemistry requires active practice, not just reading
+3. **Draw mechanisms**: Practice drawing reaction mechanisms by hand
+4. **Use models**: Physical models help understand molecular geometry
+5. **Connect theory to practice**: Relate theoretical concepts to real-world applications

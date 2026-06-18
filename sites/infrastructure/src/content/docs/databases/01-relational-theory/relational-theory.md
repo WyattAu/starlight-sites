@@ -1,8 +1,6 @@
 ---
 title: Relational Theory
-description:
-  'Relational Theory notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid study and thorough revision.'
+description: 'E.F. Codd introduced the relational model in his 1970 paper "A Relational Model of Data for Large Shared Data Banks." The model provides a mathematically...'
 tags:
   - Databases
 categories:
@@ -43,7 +41,6 @@ Benchmark:
 In practice, Rule 6 (view updating) is the most commonly violated. Most SQL databases cannot update
 Through arbitrary views, especially those involving joins, aggregations, or DISTINCT.
 
-:::
 
 ## Relations, Tuples, Attributes, and Domains
 
@@ -83,13 +80,13 @@ CREATE DOMAIN email_domain AS VARCHAR(255)
   CHECK (VALUE ~ '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$');
 ```
 
+:::
 :::tip
 
 PostgreSQL supports `CREATE DOMAIN` with `CHECK` constraints. Most other databases require you to
 Attach `CHECK` constraints directly to columns. Using domains centralises validation logic and
 Prevents inconsistency across tables.
 
-:::
 
 ## Keys
 
@@ -199,13 +196,13 @@ Combines every tuple from one relation with every tuple from another. Denoted $R
 SELECT * FROM Employee CROSS JOIN Department;
 ```
 
+:::
 :::caution
 
 The Cartesian product of relations with $m$ and $n$ tuples produces $m \times n$ tuples. For tables
 With millions of rows, an accidental Cartesian product (missing JOIN condition) will produce
 Trillions of rows and exhaust memory.
 
-:::
 
 ### Join
 
@@ -395,13 +392,13 @@ Satisfies 1NF:
 | 1          | Chemistry  |
 ```
 
+:::
 :::info
 
 PostgreSQL arrays (`INTEGER[]`) technically violate 1NF but are a pragmatic extension. When you need
 To query individual elements or enforce referential integrity on array elements, model them as
 Separate rows.
 
-:::
 
 ### Second Normal Form (2NF)
 
@@ -465,13 +462,13 @@ Fix: split into:
   StudentInstructor(student, instructor)
 ```
 
+:::
 :::caution
 
 Achieving BCNF may sometimes cause lossy decompositions (you cannot reconstruct the original
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is
 The practical compromise.
 
-:::
 
 ### Fourth Normal Form (4NF)
 
@@ -540,13 +537,13 @@ Denormalised:
   - More storage consumed
 ```
 
+:::
 :::tip
 
 Denormalise from a position of knowledge. Start normalised, measure query performance, and
 Denormalise specific bottlenecks. Premature denormalisation creates maintenance burden that is far
 More expensive than the joins it eliminates.
 
-:::
 
 ## ER Diagrams
 
@@ -898,3 +895,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

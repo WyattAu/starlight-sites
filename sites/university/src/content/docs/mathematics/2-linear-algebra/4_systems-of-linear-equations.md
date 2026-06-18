@@ -3,6 +3,7 @@ title: Systems of Linear Equations
 tags:
   - Mathematics
   - University
+description: 'A system of linear equations in unknowns can be written as Where Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 4.1 Gaussian Elimination

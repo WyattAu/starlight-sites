@@ -1,8 +1,6 @@
 ---
 title: Dynamic Programming
-description:
-  'Algorithms Dynamic Programming notes covering key definitions, core concepts, worked examples,
-  and practice questions for detailed preparation.'
+description: 'Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two...'
 
 ---
 
@@ -140,7 +138,6 @@ And coins second, you count permutations (different orderings of the same coins 
 Separately). If you iterate coins first and amount second, you count combinations (each combination
 Is counted once). This is a common source of incorrect DP solutions.
 
-:::
 
 ## 2D DP
 
@@ -295,6 +292,7 @@ def unbounded_knapsack(weights, values, capacity):
     return dp[capacity]
 ```
 
+:::
 :::info
 
 The direction of iteration matters for space-optimised knapsack:
@@ -306,7 +304,6 @@ The direction of iteration matters for space-optimised knapsack:
 
 Getting this direction wrong is one of the most common DP bugs.
 
-:::
 
 ## String DP
 
@@ -962,3 +959,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

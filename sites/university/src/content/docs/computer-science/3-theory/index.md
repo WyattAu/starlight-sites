@@ -1,6 +1,6 @@
 ---
 title: Theory
-description: 'Topics in theoretical computer science including automata, computability, and computational complexity.'
+description: 'Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how...'
 ---
 
 # Theory
@@ -14,3 +14,45 @@ Automata theory studies abstract machines and the languages they recognise, prog
 ## Worked Example: The Halting Problem
 
 The Halting Problem asks whether a given program $P$ will halt on input $w$. Suppose, for contradiction, that a decider $H(P, w)$ exists. Construct a program $D$ that calls $H$ on its own source code: if $H$ reports that $D$ halts, then $D$ enters an infinite loop; if $H$ reports that $D$ does not halt, then $D$ halts. This creates a contradiction, proving that no such decider $H$ can exist.
+
+## Overview
+
+University-level theoretical computer science notes covering automata, computability, and complexity.
+
+## Topics Covered
+
+- **Automata Theory**: Finite automata, pushdown automata, Turing machines
+- **Computability Theory**: Decidability, reductions, the Halting Problem
+- **Complexity Theory**: P, NP, NP-completeness, space complexity
+- **Formal Languages**: Regular expressions, context-free grammars, Chomsky hierarchy
+
+## Prerequisites
+
+- Discrete mathematics and logic
+- Mathematical proofs and induction
+- Basic programming experience
+
+## How to Use These Notes
+
+Start with automata theory to build foundational knowledge, then progress to computability and complexity. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of computer science
+
+## Study Tips
+
+1. **Master formalism**: Theoretical CS requires precise mathematical language
+2. **Practice reductions**: Learn to reduce problems to prove hardness
+3. **Draw automata**: Visualise state machines and their transitions
+4. **Learn the hierarchy**: Understand the relationships between complexity classes
+5. **Connect to practice**: Relate theory to practical applications (compilers, cryptography)

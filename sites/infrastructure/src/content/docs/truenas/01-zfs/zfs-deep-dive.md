@@ -1,8 +1,6 @@
 ---
 title: ZFS Deep Dive
-description:
-  'ZFS Deep Dive notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear exam preparation and mastery.'
+description: 'ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 

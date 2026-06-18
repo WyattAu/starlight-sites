@@ -1,8 +1,6 @@
 ---
 title: Coordinates and Geometry
-description:
-  'A-Level Maths Coordinates and Geometry notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ---------------------------------------- | | AQA | Paper 1 | Straight lines, circles | | Edexcel | P1 |...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -171,8 +169,7 @@ $$\left(x + \frac{D}{2}\right)^2 + \left(y + \frac{E}{2}\right)^2 = \frac{D^2 + 
 This is a circle with centre $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius
 $\sqrt◆LB◆\frac{D^2 + E^2}{4} - F◆RB◆$Provided the right-hand side is positive. $\blacksquare$
 
-:::tip Tip $y$. This is faster and less error-prone than memorising the formula.
-:::
+> **Tip:** Tip $y$. This is faster and less error-prone than memorising the formula.
 <details>
 <summary>Example</summary>
 Find the centre and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$.

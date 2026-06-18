@@ -5,6 +5,7 @@ tags:
   - IB
 categories:
   - ib
+description: '1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na =...'
 ---
 
 ## Oxidation States
@@ -449,7 +450,6 @@ Anion and water compete for oxidation at the anode.
 :::caution[Exam Tip] The rules above are simplified. In reality, the product at an electrode depends
 On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
 The rules as stated.
-:::
 
 ### Faraday's Laws
 
@@ -606,7 +606,6 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 :::caution[Exam Tip] The key distinction: **galvanising** (Zn coating) provides both barrier and
 Sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
-:::
 
 ---
 

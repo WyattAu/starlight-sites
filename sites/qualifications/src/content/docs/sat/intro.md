@@ -1,9 +1,7 @@
 ---
 title: Introduction to SAT Notes
 date: 2026-05-30
-description:
-  'SAT Intro.Md Introduction to SAT notes covering key definitions, core concepts, worked examples,
-  and practice questions for solid revision.'
+description: 'The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has...'
 tags:
   - sat
 categories:
@@ -144,5 +142,6 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
 
 :::

@@ -3,6 +3,7 @@ title: Partial Derivatives
 tags:
   - Mathematics
   - University
+description: 'Partial Derivatives: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 1.1 Definition

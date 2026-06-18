@@ -1,8 +1,6 @@
 ---
 title: IB Physics Diagnostic Guide
-description:
-  'IB Physics Diagnostic notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth learning and effective revision.'
+description: 'This diagnostic suite contains 12 topic-level tests for IB Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3 integration...'
 tableOfContents: false
 ---
 

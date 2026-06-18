@@ -3,6 +3,7 @@ title: Feynman Diagrams
 tags:
   - Physics
   - University
+description: 'Feynman diagrams are a pictorial representation of perturbation theory in quantu Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 3.1 Rules

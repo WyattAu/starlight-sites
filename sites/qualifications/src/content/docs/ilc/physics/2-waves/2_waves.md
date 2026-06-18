@@ -1,8 +1,6 @@
 ---
 title: Light and Waves
-description:
-  'ILC Physics Light and Waves notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted study and examination practice.'
+description: 'This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major...'
 date: 2026-04-14
 tags:
   - ilc

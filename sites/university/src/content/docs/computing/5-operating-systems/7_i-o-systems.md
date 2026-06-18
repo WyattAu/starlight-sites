@@ -3,6 +3,7 @@ title: I/O Systems
 tags:
   - Computing
   - University
+description: '| Category | Examples | Data rate | | ---------------- | -------------------------- | -------------- | | Human-readable | Keyboard, screen, printer | Low |...'
 ---
 
 ### 7.1 I/O Hardware

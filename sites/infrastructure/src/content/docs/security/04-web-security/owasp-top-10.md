@@ -1,8 +1,6 @@
 ---
 title: OWASP Top 10 (2021) Detailed
-description:
-  'OWASP Top 10 (2021) Detailed notes covering key definitions, core concepts, worked examples, and
-  practice questions for rigorous review and exam preparation.'
+description: 'Broken access control is the most critical web application security risk. It occurs when users can Act outside their intended permissions.'
 
 ---
 
@@ -690,5 +688,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

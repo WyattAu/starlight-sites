@@ -1,8 +1,6 @@
 ---
 title: Style and Idioms
-description:
-  'Python Style and Idioms notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective exam preparation and revision.'
+description: 'Python's design philosophy famously states that "there should be one-- and preferably only one --obvious way to do it." This is not merely aesthetic...'
 date: 2025-06-04T16:00:00.000Z
 tags:
   - Python

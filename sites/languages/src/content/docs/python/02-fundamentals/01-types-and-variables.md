@@ -1,8 +1,6 @@
 ---
 title: Types and Variables
-description:
-  'Python Types and Variables notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured preparation.'
+description: 'Python is and . These two properties are frequently Confused, so it is worth bei Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-04T10:00:00.000Z
 tags:
   - Python
@@ -67,7 +65,6 @@ Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because 
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
 
-:::
 
 ## Type Hierarchy
 
@@ -223,12 +220,12 @@ b = 257
 print(a is b)   # False (not interned)
 ```
 
+:::
 :::caution
 
 Do not rely on integer interning behavior. Use `==` for equality comparison, never `is`. The
 Interning range is a CPython implementation detail, not a language guarantee.
 
-:::
 
 ### `float`: IEEE 754 Double-Precision
 
@@ -251,12 +248,12 @@ Decimals would require software emulation, making all numeric computation orders
 Slower. The pragmatic choice is to use hardware floats by default and provide `decimal` and
 `fractions` modules for cases that require exact arithmetic.
 
+:::
 :::tip
 
 For financial calculations, use `decimal.Decimal` (exact decimal arithmetic) or `fractions.Fraction`
 (exact rational arithmetic). Never use `float` for money.
 
-:::
 
 ### `complex`: Complex Numbers
 
@@ -359,6 +356,7 @@ print(s)             # "hello"
    characters are ASCII, avoiding per-character encoding overhead. This optimization is only safe
    because strings cannot change.
 
+:::
 :::caution
 
 String immutability means that concatenation in a loop is $O(n^2)$ because each concatenation copies
@@ -374,7 +372,6 @@ for word in words:
 result = ''.join(words)
 ```
 
-:::
 
 ### Encoding: UTF-8 Under the Hood
 
@@ -471,12 +468,12 @@ s.rstrip()     # "  Hello, World!"
 "HELLO".isupper()   # True
 ```
 
+:::
 :::tip
 
 Prefer `str.startswith()` and `str.endswith()` over `str[:n] == prefix`. They are more readable and
 Handle edge cases (empty strings, prefix longer than string) correctly.
 
-:::
 
 ## Booleans
 
@@ -625,13 +622,13 @@ print(add_item("a"))  # ["a"]
 print(add_item("b"))  # ["b"]  -- fresh list each time
 ```
 
+:::
 :::caution
 
 This is one of the most common bugs in Python code. Linters like `pylint` and `ruff` flag mutable
 Default arguments. The pattern `def f(arg=None): if arg is None: arg = ...` is the standard
 Solution.
 
-:::
 
 ## Type Hints (PEP 484)
 
@@ -962,6 +959,7 @@ def make_counter():
     return increment
 ```
 
+:::
 :::caution
 
 Overuse of `global` is a code smell. It creates hidden coupling between functions and makes code
@@ -991,5 +989,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

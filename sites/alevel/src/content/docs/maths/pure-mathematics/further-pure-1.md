@@ -1,8 +1,6 @@
 ---
 title: Further Pure Mathematics 1
-description:
-  'A-Level Maths Further Pure Mathematics 1 notes covering key definitions, core concepts, worked
-  examples, and practice questions for systematic revision.'
+description: '| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,...'
 date: 2026-05-31
 tags:
   - Maths

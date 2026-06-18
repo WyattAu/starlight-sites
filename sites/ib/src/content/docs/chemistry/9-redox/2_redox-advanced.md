@@ -80,7 +80,6 @@ $$
 E_{\mathrm{cell}}^\circ = 0.34 - (-0.76) = +1.10\mathrm{ V}
 $$
 
-:::
 
 ### Predicting Spontaneity
 
@@ -138,6 +137,7 @@ $$
 E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
 $$
 
+:::
 :::info[Example]
 
 For the Daniell cell: $E_{\mathrm{cell}}^\circ = 1.10\mathrm{ V}$, $n = 2$.
@@ -152,7 +152,6 @@ $$
 
 The extremely large $K$ confirms that the reaction proceeds essentially to completion.
 
-:::
 
 ---
 
@@ -186,6 +185,7 @@ Where:
 **Second law**: The masses of different substances produced by the same charge are proportional to
 Their equivalent masses ($M/n$).
 
+:::
 :::info[Example]
 
 Calculate the mass of copper deposited when a current of $2.00\mathrm{ A}$ is passed through
@@ -199,7 +199,6 @@ $$
 M = \frac{3600 \times 63.55}{2 \times 96485} = \frac{228780}{192970} = 1.19\mathrm{ g}
 $$
 
-:::
 
 ### Electrolysis of Aqueous Solutions
 
@@ -229,6 +228,7 @@ $$
 | Halogen (Cl$_2$Br$_2$I$_2$) | If halide ions present (except F$^-$) |
 | Oxygen                      | Otherwise (from water oxidation)      |
 
+:::
 :::info[Example — Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes]
 
 Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$More positive than
@@ -239,12 +239,12 @@ Water is oxidised instead)
 
 The solution becomes acidic as $\mathrm{H}^+$ accumulates at the anode.
 
-:::
 
 ### Electrolysis of Molten Salts
 
 No water present, so only the ions from the salt are discharged.
 
+:::
 :::info[Example — Molten $\mathrm{NaCl}$]
 
 Cathode: $\mathrm{Na}^+ + e^- \to \mathrm{Na}(l)$
@@ -253,7 +253,6 @@ Anode: $2\mathrm{Cl}^- \to \mathrm{Cl}_2(g) + 2e^-$
 
 This is the Downs process for industrial sodium production.
 
-:::
 
 ### Common Pitfalls
 
@@ -919,3 +918,5 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+
+:::

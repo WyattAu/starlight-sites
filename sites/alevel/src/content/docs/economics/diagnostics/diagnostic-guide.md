@@ -1,8 +1,6 @@
 ---
 title: 'A-Level Economics -- Diagnostic Guide'
-description:
-  'A-Level Economics -- Diagnostic notes covering key definitions, core concepts, worked examples,
-  and practice questions for complete revision.'
+description: '| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------...'
 tableOfContents: false
 ---
 

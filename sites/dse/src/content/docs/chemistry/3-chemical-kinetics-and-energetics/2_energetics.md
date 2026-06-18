@@ -1,8 +1,6 @@
 ---
 title: Chemistry - Energetics / Thermochemistry
-description:
-  'DSE Chemistry - Energetics / Thermochemistry notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused preparation.'
+description: 'The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems.'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
@@ -57,8 +55,7 @@ By definition, $\Delta H_f^\circ$ of any element in its standard state = 0.
 
 $$\Delta H_f^\circ(\mathrm{C}_{(s,\mathrm{ graphite})}) = 0 \quad ; \quad \Delta H_f^\circ(\mathrm{H}_{2(g)}) = 0$$
 
-:::caution Warning Involves formation FROM elements, not the other way around.
-:::
+> **Caution:** Warning Involves formation FROM elements, not the other way around.
 ### Standard Enthalpy of Combustion ($\Delta H_c^\circ$)
 
 The enthalpy change when 1 mole of a substance is completely burned in excess oxygen under standard

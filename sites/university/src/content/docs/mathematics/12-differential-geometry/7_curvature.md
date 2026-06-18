@@ -3,6 +3,7 @@ title: Curvature
 tags:
   - Mathematics
   - University
+description: 'Curvature: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 7.1 The Riemann Curvature Tensor

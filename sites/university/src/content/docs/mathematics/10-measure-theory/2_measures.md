@@ -3,6 +3,7 @@ title: Measures
 tags:
   - Mathematics
   - University
+description: 'Measures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 2.1 Definition and Properties

@@ -1,8 +1,6 @@
 ---
 title: The Three Trees
-description:
-  'Git The Three Trees notes covering key definitions, core concepts, worked examples, and practice
-  questions for rigorous revision and exam readiness.'
+description: 'Git manipulates three distinct data structures, conventionally called (though "tree" is overloaded in Git terminology — see ). These are:'
 date: 2025-06-02T22:00:00.000Z
 tags:
   - git
@@ -81,7 +79,6 @@ mention them.
 `.gitignore` only affects **untracked** files. If a file is already tracked (committed), adding it
 to `.gitignore` will have no effect. You must first untrack it with `git rm --cached <file>`.
 
-:::
 
 ## The Index
 
@@ -121,13 +118,13 @@ The staging area is a deliberate design decision that enables several workflows:
 3. **Merge machinery**: The three-way merge algorithm operates on three trees — the base commit,
    "ours," and "theirs." The index holds the merge result before it is committed.
 
+:::
 :::tip
 
 If you find the staging area cumbersome, you can bypass it entirely with `git commit -a` (stages all
 tracked modified files) or `git commit --amend --no-edit` (adds all staged changes to the previous
 commit). Some developers prefer `git add -A && git commit` as a single workflow step.
 
-:::
 
 ## The Repository
 
@@ -213,12 +210,12 @@ flowchart TB
     C1 -.-> C4
 ```
 
+:::
 :::caution
 
 `git reset --hard` is **destructive** — it discards all uncommitted changes. Before using it, verify
 with `git status` and `git stash` if you want to preserve your work.
 
-:::
 
 ## The "Dirty" State Space
 
@@ -290,13 +287,13 @@ COMMIT=$(git commit-tree $TREE -p HEAD -m "message")
 git update-ref refs/heads/main $COMMIT
 ```
 
+:::
 :::info
 
 Understanding plumbing commands is not necessary for daily use, but it demystifies Git's behavior
 and enables scripting. When a porcelain command does something unexpected, breaking it down into
 plumbing steps reveals exactly what happened.
 
-:::
 
 ## Common Pitfalls
 
@@ -321,3 +318,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -5,9 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description:
-  'Go net/http notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic learning and effective revision.'
+description: 'Go's package provides everything needed to build HTTP servers and clients. It ships With the standard library -- no frameworks, no external dependencies....'
 ---
 
 ## Introduction

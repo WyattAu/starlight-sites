@@ -1,8 +1,6 @@
 ---
 title: Developmental Psychology
-description:
-  'IB Developmental Psychology notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective revision.'
+description: 'This section covers developmental psychology, examining how behaviour changes across the lifespan with a focus on attachment, cognitive development, and...'
 
 ---
 

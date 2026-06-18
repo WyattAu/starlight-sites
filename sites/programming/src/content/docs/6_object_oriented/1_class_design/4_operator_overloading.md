@@ -1,8 +1,6 @@
 ---
 title: Operator Overloading
-description:
-  'C++ Programming Operator Overloading notes covering key definitions, core concepts, worked
-  examples, and practice questions for analytical revision.'
+description: 'C++ allows user-defined types to overload most operators, enabling natural syntax for custom types. This section covers the rules for overloading, member vs...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -380,8 +378,7 @@ int main() {
 }
 ```
 
-:::tip Tip Code, prefer `++it` over `it++` for iterators and counters.
-:::
+> **Tip:** Tip Code, prefer `++it` over `it++` for iterators and counters.
 ## 4.7 Stream Insertion and Extraction Operators
 
 The stream operators `operator&lt;&lt;` and `operator&gt;&gt;` must be implemented as **non-member

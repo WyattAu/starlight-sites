@@ -3,6 +3,7 @@ title: Group Theory in Particle Physics
 tags:
   - Physics
   - University
+description: 'The strong interaction is governed by the gauge group . The eight gluons correspond to the Eight generators of SU(3), the Gell-Mann matrices ().'
 ---
 
 ### 5.1 SU(3) Colour

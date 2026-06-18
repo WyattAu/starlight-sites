@@ -1,8 +1,6 @@
 ---
 title: Type-Safe Formatting (std::format, std::print)
-description:
-  'C++ Programming Type-Safe Formatting (std::format, notes covering key definitions, core concepts,
-  worked examples, and practice questions for revision.'
+description: 'C++20 introduced A type-safe formatting function that checks argument types at Compile time using a concise format specification syntax. C++23 added and for...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -3,9 +3,7 @@ title: Chronicle of a Death Foretold — Close Reading and Analysis
 tags:
   - IB
   - English
-description:
-  'IB English Chronicle of a Death Foretold — Close Reading notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gr Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 # Chronicle of a Death Foretold: Close Reading and Analysis

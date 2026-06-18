@@ -1,8 +1,6 @@
 ---
 title: Probability and Statistics
-description:
-  'University Mathematics Probability and Statistics notes covering key definitions, core concepts,
-  worked examples, and practice questions for complete revision.'
+description: 'Probability and Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

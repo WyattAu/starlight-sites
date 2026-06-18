@@ -1,8 +1,6 @@
 ---
 title: TLS in Practice
-description:
-  'TLS in Practice notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and revision.'
+description: '| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let's...'
 
 ---
 
@@ -39,7 +37,6 @@ Self-signed certificates produce browser warnings and client errors unless the C
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
 Them only for internal services where you control the trust store.
 
-:::
 
 ## ACME Protocol
 
@@ -290,6 +287,7 @@ chown root:root server.key
 openssl rsa -in server-encrypted.key -out server.key
 ```
 
+:::
 :::caution
 
 Never commit private keys to version control. Use a secrets manager (HashiCorp Vault, AWS Secrets
@@ -297,7 +295,6 @@ Manager, Azure Key Vault) or a provisioning tool (Ansible Vault, SOPS) to manage
 Automated certificate management with certbot or a cloud provider reduces the risk of manual key
 Handling errors.
 
-:::
 
 ## TLS Configuration
 
@@ -456,6 +453,7 @@ ssl_early_data on;
 # - Use a single-use token to detect replays
 ```
 
+:::
 :::caution
 
 0-RTT data can be replayed by an attacker who captures the client's initial message. Only enable
@@ -643,5 +641,6 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

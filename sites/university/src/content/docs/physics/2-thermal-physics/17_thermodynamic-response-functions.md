@@ -3,6 +3,7 @@ title: Thermodynamic Response Functions
 tags:
   - Physics
   - University
+description: 'Response functions measure how thermodynamic quantities change with state variab Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 17.1 General Relations

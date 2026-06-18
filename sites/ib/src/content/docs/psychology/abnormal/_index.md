@@ -1,8 +1,6 @@
 ---
 title: Abnormal Psychology
-description:
-  'IB Abnormal Psychology notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough preparation.'
+description: 'This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from...'
 
 ---
 

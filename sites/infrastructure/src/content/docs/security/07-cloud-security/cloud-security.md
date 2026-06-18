@@ -1,8 +1,6 @@
 ---
 title: Cloud Security
-description:
-  'Cloud Security notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted review and exam preparation.'
+description: 'Cloud security is governed by a shared responsibility model. The division of responsibility between The cloud provider and the customer depends on the...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Security

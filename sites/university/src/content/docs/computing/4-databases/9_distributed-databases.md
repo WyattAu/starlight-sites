@@ -3,6 +3,7 @@ title: Distributed Databases
 tags:
   - Computing
   - University
+description: 'A stores data across multiple nodes connected by a network. Motivations Include: Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 9.1 Architecture and Motivation

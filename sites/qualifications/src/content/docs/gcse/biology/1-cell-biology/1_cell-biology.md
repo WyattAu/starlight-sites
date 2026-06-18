@@ -1,8 +1,6 @@
 ---
 title: Cell Biology
-description:
-  'GCSE Cell Biology notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical study and thorough revision.'
+description: 'All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Cell Biology
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B1 | WJEC B1
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B1 | WJEC B1
 ## 1. Cell Structure
 
 ### 1.1 Plant and Animal Cells

@@ -3,6 +3,7 @@ title: Classification of Groups of Small Order
 tags:
   - Mathematics
   - University
+description: 'The following table summarizes the classification of groups of small order: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 The following table summarizes the classification of groups of small order:

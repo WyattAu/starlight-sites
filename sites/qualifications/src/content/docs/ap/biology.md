@@ -1,8 +1,6 @@
 ---
 title: AP Biology Study Guide
-description:
-  'Qualifications Biology.Md AP Biology Study notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four...'
 date: 2026-05-31
 tags:
   - ap

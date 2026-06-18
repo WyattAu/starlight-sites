@@ -1,8 +1,6 @@
 ---
 title: Ecology
-description:
-  'GCSE Biology Ecology notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted learning and effective revision.'
+description: '- A single organism. - All the organisms of one species in a habitat. The size of a population can change over time due to birth rate, death rate,...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Ecology
 
-:::info Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway B3 & B4 | WJEC B4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway B3 & B4 | WJEC B4
 ## 1. Ecosystems and Levels of Organisation
 
 ### 1.1 Levels of Organisation in an Ecosystem

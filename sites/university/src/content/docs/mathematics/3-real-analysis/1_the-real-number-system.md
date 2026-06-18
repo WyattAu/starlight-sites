@@ -3,6 +3,7 @@ title: The Real Number System
 tags:
   - Mathematics
   - University
+description: 'This chapter assumes the reader is comfortable with: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ## Prerequisites

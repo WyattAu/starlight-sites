@@ -1,8 +1,6 @@
 ---
 title: 'Paper 1 -- Pure Mathematics -- Full Diagnostic Exam'
-description:
-  'A-Level Maths Paper 1 -- Pure Mathematics -- Full notes covering key definitions, core concepts,
-  worked examples, and practice questions for revision.'
+description: '120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 tableOfContents: false
 ---
 

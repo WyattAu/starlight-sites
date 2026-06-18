@@ -1,8 +1,6 @@
 ---
 title: Proof
-description:
-  'A-Level Maths Proof notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted exam preparation and revision.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------------------- | | AQA | Paper 1 | Proof by deduction,...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -149,8 +147,7 @@ So not all primes less than 10 are odd. The claim is **false**. The counterexamp
 
 All five cases confirmed. $\blacksquare$
 
-:::caution Warning Manageable. You cannot use exhaustion for "all integers" or "all real numbers."
-:::
+> **Caution:** Warning Manageable. You cannot use exhaustion for "all integers" or "all real numbers."
 <hr />
 
 ## 4. Disproof by Counterexample

@@ -3,6 +3,7 @@ title: Statistical Mechanics
 tags:
   - Physics
   - University
+description: 'A is a complete specification of the state of a system (positions and momenta of all particles). A is specified by macroscopic variables (energy, volume,...'
 ---
 
 ### 2.1 Microstates and Macrostates

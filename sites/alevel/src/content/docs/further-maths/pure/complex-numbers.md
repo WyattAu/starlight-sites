@@ -1,8 +1,6 @@
 ---
 title: Complex Numbers (Extended)
-description:
-  'A-Level Further Maths Complex Numbers (Extended) notes covering key definitions, core concepts,
-  worked examples, and practice questions for structured revision.'
+description: 'This document provides a rigorous treatment of modulus-argument form, De Moivre's theorem, roots of Complex numbers, loci in the Argand diagram, and Euler's...'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

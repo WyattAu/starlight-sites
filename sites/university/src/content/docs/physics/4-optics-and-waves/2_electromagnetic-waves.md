@@ -3,6 +3,7 @@ title: Electromagnetic Waves
 tags:
   - Physics
   - University
+description: 'From Maxwell's equations, the following properties hold for plane EM waves: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 2.1 Properties of EM Waves

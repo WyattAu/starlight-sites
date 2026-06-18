@@ -1,8 +1,6 @@
 ---
 title: Economics - Demand, Supply, and Markets
-description:
-  'DSE Economics - Demand, Supply, and Markets notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being...'
 
 ---
 
@@ -103,8 +101,7 @@ Incentivising producers to supply more.
 | Adverse weather (agricultural goods)       | Supply shifts left                  |
 | Expectation of future price increase       | Supply shifts left (withhold stock) |
 
-:::caution Warning "increase in supply" (shift). Be precise with terminology.
-:::
+> **Caution:** Warning "increase in supply" (shift). Be precise with terminology.
 ### Market Supply
 
 Market supply is the horizontal sum of all individual firm supplies:
@@ -573,8 +570,7 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 - MC is U-shaped; it intersects AVC and ATC at their minimum points
 - MC passes below ATC when ATC is falling, and above ATC when ATC is rising
 
-:::info Info Because when MC \lt ATC, it pulls ATC down; when MC \gt ATC, it pulls ATC up.
-:::
+> **Info:** Info Because when MC \lt ATC, it pulls ATC down; when MC \gt ATC, it pulls ATC up.
 ### Revenue
 
 | Revenue               | Definition                         | Formula                         |
@@ -697,8 +693,6 @@ lower total Revenue.
   the supply curve LEFT (upward), increasing equilibrium price and decreasing quantity. A subsidy
   shifts supply RIGHT (downward), decreasing price and increasing quantity. The burden of a tax is
   shared between consumers and producers depending on the price elasticity of demand and supply.
-
-##
 
 :::
 

@@ -2,6 +2,7 @@
 title: Topological Spaces
 tags:
   - University Maths
+description: 'A is a pair where is a set and is a collection of subsets of called , satisfying Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 2.1 Definition

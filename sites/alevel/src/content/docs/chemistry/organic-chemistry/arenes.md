@@ -1,8 +1,6 @@
 ---
 title: Arenes
-description:
-  'A-Level Chemistry Arenes notes covering key definitions, core concepts, worked examples, and
-  practice questions for methodical exam preparation and mastery.'
+description: 'Arenes are hydrocarbons containing one or more benzene rings. Benzene () Is the archetypal aromatic compound. Its structure and reactivity differ...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

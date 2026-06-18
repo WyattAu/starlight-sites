@@ -3,6 +3,7 @@ title: Multiple Integrals
 tags:
   - Mathematics
   - University
+description: 'The of over a rectangle is defined as the limit of Riemann sums: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 2.1 Double Integrals

@@ -5,9 +5,7 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description:
-  'Advanced Kotlin coroutines: Flow error handling, sharing flows, flow lifecycle, coroutine context
-  elements, testing coroutines with TestDispatchers,.'
+description: 'This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured...'
 ---
 
 This document builds on the coroutine fundamentals covered in

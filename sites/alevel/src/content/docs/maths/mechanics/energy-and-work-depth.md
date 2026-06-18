@@ -1,8 +1,6 @@
 ---
 title: Energy and Work (Extended)
-description:
-  'A-Level Maths Energy and Work (Extended) notes covering key definitions, core concepts, worked
-  examples, and practice questions for analytical revision.'
+description: 'This document provides a thorough treatment of the work-energy principle, power, conservation of Energy, and elastic potential energy with proofs and...'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

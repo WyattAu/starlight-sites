@@ -3,9 +3,7 @@ title: IB English Assessment and Analytical Techniques
 tags:
   - IB
   - English
-description:
-  'IB English Assessment and Analytical Techniques notes covering key definitions, core concepts,
-  worked examples, and practice questions for study and revision.'
+description: 'This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical...'
 ---
 
 # IB English Assessment and Analytical Techniques

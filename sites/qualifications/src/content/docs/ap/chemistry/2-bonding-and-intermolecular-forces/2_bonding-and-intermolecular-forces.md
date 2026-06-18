@@ -128,7 +128,6 @@ Double-bonded O: $6 - 4 - 4/2 = 0$. For single-bonded O: $6 - 6 - 2/2 = -1$.
 
 Total: $0 + 0 + 0 + (-1) + (-1) = -2$. This is better because the formal charges are smaller.
 
-:::
 
 **Worked Example.** Draw the Lewis structure for $\mathrm{NO_3^-$.
 
@@ -151,6 +150,7 @@ Bond on a different oxygen.
 When multiple Lewis structures (resonance structures) are possible, the actual molecule is a hybrid
 Of all resonance forms. The actual bond order is the average.
 
+:::
 :::info[Example: Ozone]
 
 $\mathrm{O_3$ has two equivalent resonance structures:
@@ -162,7 +162,6 @@ $$
 The actual O--O bonds are identical, with bond order $1.5$. The bond length is intermediate between
 A single and a double bond, and the bond energy is also intermediate.
 
-:::
 
 Resonance stabilises a molecule: the more resonance structures, the lower the energy. Benzene
 ($\mathrm{C_6\mathrm{H_6$) is a classic example, with six equivalent resonance structures giving It
@@ -289,6 +288,7 @@ Like boiling point, melting point, and solubility.
 - **Hydrogen bonding** is responsible for anomalously high boiling points of water, ammonia, and
   hydrogen fluoride compared to other hydrides in their groups.
 
+:::
 :::info[Example]
 
 Explain the boiling point trend: $\mathrm{CH_4$ ($-161^\circ\mathrm{C$) $\lt$ $\mathrm{SiH_4$
@@ -297,8 +297,8 @@ Explain the boiling point trend: $\mathrm{CH_4$ ($-161^\circ\mathrm{C$) $\lt$ $\
 All are nonpolar (tetrahedral), so only LDFs are present. As molar mass increases, electron clouds
 Become more polarizable, LDFs strengthen, and boiling point increases.
 
-:::
 
+:::
 :::info[Example]
 
 Explain why $\mathrm{H_2\mathrm{O$ ($100^\circ\mathrm{C$) has a much higher boiling point than
@@ -308,7 +308,6 @@ $\mathrm{H_2\mathrm{O$ has hydrogen bonding (O is highly electronegative), while
 $\mathrm{H_2\mathrm{S$ has only dipole-dipole forces and LDFs (S is not electronegative enough for
 H-bonding). Hydrogen bonding is much stronger than the other IMFs.
 
-:::
 
 ### Worked Example: Comparing IMF Strengths
 
@@ -857,3 +856,5 @@ $$F_{\text{net}} = F_{\text{applied}} - F_{\text{friction}} = 15 - 5.0 = 10\,\te
 
 $$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
 
+
+:::

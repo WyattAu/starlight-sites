@@ -1,8 +1,6 @@
 ---
 title: Computer Systems
-description:
-  'GCSE Computer Science Computer Systems notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: 'The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Computer Systems
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1
 ## 1. CPU Architecture
 
 ### 1.1 Components of the CPU

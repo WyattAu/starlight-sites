@@ -1,8 +1,6 @@
 ---
 title: Filesystem Library
-description:
-  'C++ Programming Filesystem Library notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: '(C++17) provides a portable interface for manipulating paths, querying file Metadata, iterating directories, and performing file operations. It abstracts...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

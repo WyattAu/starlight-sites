@@ -3,6 +3,7 @@ title: Introduction
 tags:
   - Computing
   - University
+description: 'The theory of computation provides the mathematical foundations for computer science. It answers Fundamental questions: What can be computed? What cannot?...'
 ---
 
 ### 1.1 Why Theory Matters

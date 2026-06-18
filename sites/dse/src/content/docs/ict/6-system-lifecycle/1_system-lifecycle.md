@@ -1,8 +1,6 @@
 ---
 title: System Lifecycle
-description:
-  'DSE Ict System Lifecycle notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth exam preparation and mastery.'
+description: 'This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

@@ -3,6 +3,7 @@ title: Advanced Semiconductor Physics (Continued)
 tags:
   - Physics
   - University
+description: 'When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature, the Hall resistance shows quantised plateaux:'
 ---
 
 ### 16.1 Quantum Hall Effect

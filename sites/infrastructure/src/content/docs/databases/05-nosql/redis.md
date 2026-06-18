@@ -1,8 +1,6 @@
 ---
 title: Redis Deep Dive
-description:
-  'Redis Deep Dive notes covering key definitions, core concepts, worked examples, and practice
-  questions for complete revision and examination preparation.'
+description: 'Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a...'
 
 ---
 

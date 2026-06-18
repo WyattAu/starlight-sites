@@ -1,8 +1,6 @@
 ---
 title: Population Policies
-description:
-  'IB Geography Population Policies notes covering key definitions, core concepts, worked examples,
-  and practice questions for solid study and thorough revision.'
+description: 'Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target...'
 
 ---
 

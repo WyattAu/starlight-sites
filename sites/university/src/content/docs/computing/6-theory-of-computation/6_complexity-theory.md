@@ -3,6 +3,7 @@ title: Complexity Theory
 tags:
   - Computing
   - University
+description: 'The of a deterministic TM on input is the number of steps takes before Halting.  Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 6.1 Time Complexity

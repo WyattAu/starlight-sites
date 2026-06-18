@@ -1,8 +1,6 @@
 ---
 title: Cultural Norms and Attitudes
-description:
-  'IB Psychology Cultural Norms and Attitudes notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a Social group. Cultural norms are the unwritten rules that...'
 
 ---
 

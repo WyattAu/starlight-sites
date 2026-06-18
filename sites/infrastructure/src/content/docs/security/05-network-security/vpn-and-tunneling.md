@@ -1,8 +1,6 @@
 ---
 title: VPN and Tunneling
-description:
-  'VPN and Tunneling notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth revision and exam readiness.'
+description: 'A VPN creates an encrypted tunnel between two endpoints over an untrusted network (the internet). The three core functions are:'
 
 ---
 

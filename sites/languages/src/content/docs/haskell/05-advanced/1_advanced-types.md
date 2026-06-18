@@ -1,8 +1,6 @@
 ---
 title: Advanced Types
-description:
-  'GADTs, DataKinds, TypeFamilies, FunctionalDependencies, existential types, RankNTypes, phantom
-  types, associated types, kind system, and type-level programming.'
+description: 'Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

@@ -1,8 +1,6 @@
 ---
 title: Fold Expressions and Pack Expansion
-description:
-  'C++ Programming Fold Expressions and Pack Expansion notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam preparation.'
+description: 'A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

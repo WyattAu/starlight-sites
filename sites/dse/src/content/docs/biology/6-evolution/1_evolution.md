@@ -1,8 +1,6 @@
 ---
 title: Evolution
-description:
-  'DSE Biology Evolution notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete review and exam preparation.'
+description: 'The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

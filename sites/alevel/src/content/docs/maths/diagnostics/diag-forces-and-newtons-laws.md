@@ -1,8 +1,6 @@
 ---
 title: "Forces and Newton's Laws -- Diagnostic Tests"
-description:
-  "A-Level Maths Forces and Newton's Laws -- Diagnostic Tests notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision."
+description: '> Tests edge cases, boundary conditions, and common misconceptions for forces an Comprehensive educational content coverage with definitions and practice proble'
 tableOfContents: false
 ---
 

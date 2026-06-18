@@ -1,8 +1,6 @@
 ---
 title: Developer Productivity
-description:
-  'General Developer Productivity notes covering key definitions, core concepts, worked examples,
-  and practice questions for practical revision.'
+description: 'The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-minute breaks, with a longer 15–30 minute break every 4...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Template Instantiation, Monomorphization, and Code Bloat
-description:
-  'C++ Programming Template Instantiation, Monomorphization, notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Templates are blueprints the compiler uses to generate type-specific code on demand. This process — Called — produces optimized, type-specific functions and...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

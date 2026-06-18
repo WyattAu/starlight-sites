@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
+description: 'Using the Gell-Mann--Nishijima formula, determine the electric charge of the Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 **Problem 1.** Using the Gell-Mann--Nishijima formula, determine the electric charge of the

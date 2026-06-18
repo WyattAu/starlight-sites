@@ -1,8 +1,6 @@
 ---
 title: 'Chemical Reactions -- Diagnostic Tests'
-description:
-  'Scottish Highers Chemistry Chemical Reactions -- Diagnostic Tests notes covering key definitions,
-  core concepts, worked examples, and practice questions for in-depth revision.'
+description: 'Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls.'
 tableOfContents: false
 ---
 

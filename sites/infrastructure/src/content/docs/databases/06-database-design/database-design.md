@@ -1,8 +1,6 @@
 ---
 title: Database Design
-description:
-  'Database Design notes covering key definitions, core concepts, worked examples, and practice
-  questions for detailed revision and exam readiness.'
+description: 'Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping...'
 tags:
   - Databases
 categories:
@@ -361,7 +359,6 @@ KEY on `order_id` alone if the table is partitioned by `created_at` -- the prima
 Both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
 Partitioning.
 
-:::
 
 ## Sharding
 
@@ -399,13 +396,13 @@ $$\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}$$
 - **Operational complexity:** each shard is a separate database instance with its own backups,
   monitoring, and failover
 
+:::
 :::tip
 
 Do not shard prematurely. A single PostgreSQL instance with partitioning, read replicas, and
 Connection pooling can handle millions of queries per hour. Only shard when you have exhausted
 Vertical scaling and single-node optimisations.
 
-:::
 
 ## Connection Pooling
 
@@ -511,13 +508,13 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 - `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL` (metadata-only in PG 11+)
 - Use `pg_partman` for partitioning without downtime
 
+:::
 :::caution
 
 Never drop a column or table in a migration without verifying that no code references it. In
 Microservice architectures, check all services, not just the one you are deploying. A column used by
 A reporting service or a data pipeline can cause silent failures if dropped.
 
-:::
 
 ### Migration Tools
 
@@ -654,13 +651,13 @@ recovery_target_action = 'promote'
 - **Store backups offsite:** a backup on the same server is useless if the server fails.
 - **Encrypt backups:** database backups contain sensitive data.
 
+:::
 :::caution
 
 Never test your backup strategy for the first time during an outage. Schedule quarterly restore
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
 That the backup is corrupted or incomplete when you need it most.
 
-:::
 
 ## Replication
 
@@ -747,6 +744,7 @@ ALTER SYSTEM SET primary_conninfo = 'host=new-primary port=5432';
 SELECT pg_reload_conf();
 ```
 
+:::
 :::caution
 
 Automatic failover can cause split-brain if the network partition is asymmetric (the primary thinks
@@ -927,5 +925,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

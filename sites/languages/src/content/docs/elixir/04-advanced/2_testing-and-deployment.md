@@ -1,8 +1,6 @@
 ---
 title: Testing and Deployment
-description:
-  'ExUnit testing framework, mocking with Mox, property-based testing with StreamData, Mix
-  environments, releases, hot code upgrades, and deployment with Docker.'
+description: 'ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir

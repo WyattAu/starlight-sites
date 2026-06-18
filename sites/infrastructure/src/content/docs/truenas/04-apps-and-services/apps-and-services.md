@@ -1,8 +1,6 @@
 ---
 title: Apps and Services
-description:
-  'Apps and Services notes covering key definitions, core concepts, worked examples, and practice
-  questions for systematic study and thorough revision.'
+description: 'TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This...'
 
 ---
 
@@ -797,7 +795,7 @@ custom-app/
 apiVersion: v2
 name: my-custom-app
 version: 0.1.0
-description: My custom application
+description: 'TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This...'
 type: application
 appVersion: '1.0.0'
 maintainers:
@@ -959,7 +957,6 @@ podSecurityContext:
     type: RuntimeDefault
 ```
 
-:::
 
 ## Summary
 

@@ -1,8 +1,6 @@
 ---
 title: Cells
-description:
-  'A-Level Biology Cells notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth revision and examination preparation.'
+description: 'The cell theory, developed by Schleiden and Schwann (1838--1839) and later refin Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -14,8 +12,7 @@ categories:
 
 ## Cells
 
-:::info Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
 ## 1. Cell Theory and Microscopy
 
 ### 1.1 Cell Theory
@@ -1971,7 +1968,6 @@ differential centrifugation.
 
 ---
 
-:::
 
 ## Common Pitfalls
 

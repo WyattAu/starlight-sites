@@ -3,6 +3,7 @@ title: The Laws of Thermodynamics
 tags:
   - Physics
   - University
+description: 'If system is in thermal equilibrium with system And is in thermal equilibrium with system Then is in thermal equilibrium with .'
 ---
 
 ### 1.1 Zeroth Law and Temperature

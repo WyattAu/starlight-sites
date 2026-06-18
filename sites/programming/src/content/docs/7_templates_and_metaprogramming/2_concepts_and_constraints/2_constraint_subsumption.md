@@ -1,8 +1,6 @@
 ---
 title: Constraint Subsumption and Overload Resolution
-description:
-  'C++ Programming Constraint Subsumption and Overload notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

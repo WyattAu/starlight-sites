@@ -1,8 +1,6 @@
 ---
 title: Data Representation in Programming
-description:
-  'A-Level Computer Science Data Representation in Programming notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Programming languages provide integer types of various sizes: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -532,7 +530,6 @@ For revision on number representation, see
 [Number Systems](/docs/alevel/computer-science/fundamentals/number-systems) and
 [Floating Point](/docs/alevel/computer-science/fundamentals/floating-point).
 
-:::
 
 ## Common Pitfalls
 

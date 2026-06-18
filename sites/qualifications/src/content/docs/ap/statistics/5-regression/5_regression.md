@@ -1,8 +1,6 @@
 ---
 title: Regression
-description:
-  'AP Statistics regression notes covering scatterplots, correlation, least-squares regression,
-  residuals, transformations, and inference for the slope.'
+description: 'A scatterplot displays the relationship between two measured on the same individuals. The explanatory variable () is plotted on the horizontal axis and the...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

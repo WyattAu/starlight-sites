@@ -1,8 +1,6 @@
 ---
 title: Error Handling
-description:
-  'Go Error Handling notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear learning and effective revision.'
+description: 'Go's error handling is convention-based. The interface has a single method: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-18
 tags:
   - Go

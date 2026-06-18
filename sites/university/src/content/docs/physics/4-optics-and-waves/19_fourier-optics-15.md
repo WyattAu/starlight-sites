@@ -3,6 +3,7 @@ title: Fourier Optics
 tags:
   - Physics
   - University
+description: 'In the Fraunhofer (far-field) limit, the diffraction pattern of an aperture with transmission function is the Fourier transform:'
 ---
 
 ### 15.1 Fraunhofer Diffraction as a Fourier Transform

@@ -1,8 +1,6 @@
 ---
 title: Attachment Theory
-description:
-  'IB Psychology Attachment Theory notes covering key definitions, core concepts, worked examples,
-  and practice questions for systematic revision.'
+description: 'Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary Caregiver ( the mother). Attachment theory, originally...'
 
 ---
 

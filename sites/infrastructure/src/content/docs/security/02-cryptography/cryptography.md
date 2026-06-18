@@ -1,8 +1,6 @@
 ---
 title: Cryptography
-description:
-  'Cryptography notes covering key definitions, core concepts, worked examples, and practice
-  questions for comprehensive exam preparation and revision.'
+description: 'Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly...'
 
 ---
 
@@ -147,7 +145,6 @@ Authentication tag can be forged and confidentiality of both messages is comprom
 Random nonce (the probability of collision with $2^{32}$ messages is approximately $2^{-32}$Which Is
 acceptable) or a deterministic nonce construction (NIST SP 800-38D).
 
-:::
 
 ### ChaCha20-Poly1305
 
@@ -242,13 +239,13 @@ The most commonly used curves:
 | Ed25519           | 256 bits | Digital signatures                | RFC 8032            |
 | Curve25519        | 256 bits | Modern alternative to NIST curves | Daniel J. Bernstein |
 
+:::
 :::info
 
 Prefer Curve25519 and Ed25519 over NIST P-256/P-384 for new systems. The NIST curves have parameter
 Generation that was not fully transparent (though no backdoor has been found), and
 Curve25519/Ed25519 have simpler, faster implementations with fewer side-channel risks.
 
-:::
 
 ### Diffie-Hellman Key Exchange
 
@@ -436,13 +433,13 @@ mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 # Verify: hmac.compare_digest(mac, received_mac)
 ```
 
+:::
 :::caution
 
 Always use `hmac.compare_digest()` for MAC verification, not the `==` operator. The `==` operator is
 Vulnerable to timing attacks — it returns as soon as it finds a mismatch, leaking information about
 How many bytes of the MAC are correct.
 
-:::
 
 ### Poly1305
 
@@ -554,13 +551,13 @@ key = hashlib.pbkdf2_hmac(
 )
 ```
 
+:::
 :::caution
 
 PBKDF2 is a CPU-hard KDF but not memory-hard. It is significantly weaker against GPU attacks than
 Argon2id or scrypt. Use PBKDF2 only for compatibility with existing systems. For new systems, use
 Argon2id.
 
-:::
 
 ## Public Key Infrastructure (PKI)
 
@@ -705,6 +702,7 @@ Nonces, IVs, and salts.
 | RDRAND/RDSEED         | Moderate        | Intel/AMD    |
 | Hardware TRNG         | High            | HSMs, TPMs   |
 
+:::
 :::caution
 
 Do not use `Math.random()` or `random()` for security purposes. These are PRNGs seeded with
@@ -712,7 +710,6 @@ Predictable values (often timestamps). Use platform CSPRNGs: `/dev/urandom` on U
 `CryptGenRandom` on Windows, or language-specific secure random APIs (`secrets` in Python,
 `crypto.randomBytes` in Node.js, `java.security.SecureRandom` in Java).
 
-:::
 
 ## Post-Quantum Cryptography
 
@@ -744,13 +741,13 @@ NIST has standardized the following post-quantum algorithms:
 3. **Crypto agility**: Design systems so algorithms can be swapped without protocol changes
 4. **Key sizes**: AES-256 and SHA-384 provide sufficient security against Grover's algorithm
 
+:::
 :::info
 
 The "harvest now, decrypt later" threat is real. Attackers may be recording encrypted traffic today
 To decrypt it when quantum computers become available. Organizations with long-term confidentiality
 Requirements (government, healthcare, financial) should begin PQC migration planning now.
 
-:::
 
 ## Common Pitfalls
 
@@ -793,6 +790,7 @@ Without forward secrecy (ephemeral Diffie-Hellman), compromise of the server's p
 Compromises all past sessions. TLS 1.3 mandates forward secrecy, but TLS 1.2 with RSA key exchange
 Does not provide it. Ensure your cipher suites use ECDHE or DHE.
 
+:::
 :::info
 
 **Reference Standards**: NIST SP 800-57 (Key Management), NIST SP 800-63B (Digital Identity), NIST
@@ -819,5 +817,6 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

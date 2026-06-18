@@ -1,8 +1,6 @@
 ---
 title: Argument Deduction (Class and Function)
-description:
-  'C++ Programming Argument Deduction (Class and Function) notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Template argument deduction allows the compiler to infer template parameters from the types of Arguments provided at call sites or construction sites. This...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

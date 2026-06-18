@@ -5,9 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description:
-  Go's strings and time packages. String manipulation with Contains, HasPrefix, Split, Join,
-  Builder, and Replace. Time parsing, formatting, durations, timers,.
+description: 'The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather...'
 ---
 
 ## strings Package

@@ -1,8 +1,6 @@
 ---
 title: Urban Environments
-description:
-  'IB Geography Urban Environments notes covering key definitions, core concepts, worked examples,
-  and practice questions for comprehensive revision.'
+description: 'This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,...'
 
 ---
 

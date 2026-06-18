@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
+description: '1. A noiseless channel has bandwidth 8000 Hz. What is the maximum data rate with 16 signal levels? With 256 signal levels?'
 ---
 
 1. **Nyquist theorem.** A noiseless channel has bandwidth 8000 Hz. What is the maximum data rate

@@ -1,8 +1,6 @@
 ---
 title: Biodiversity, Classification and Evolution
-description:
-  'A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core
-  concepts, worked practice questions for analytical revision.'
+description: 'is the variety of life at every level of biological organisation: Genetic diversity within species, species diversity within communities, and ecosystem...'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -14,8 +12,7 @@ categories:
 
 ## Biodiversity, Classification and Evolution
 
-:::info Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel A Paper 2 | OCR (A) Paper 2 | CIE Paper 4
 ## 1. Biodiversity
 
 ### 1.1 Defining Biodiversity

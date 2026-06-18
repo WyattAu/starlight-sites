@@ -1,8 +1,6 @@
 ---
 title: Reflection
-description:
-  'Go Reflection notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough study and examination practice.'
+description: 'The package provides runtime type introspection and manipulation. It allows programs to Examine types, inspect struct fields, call methods by name, and...'
 date: 2026-04-18
 tags:
   - Go

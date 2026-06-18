@@ -1,8 +1,6 @@
 ---
 title: Computational Thinking
-description:
-  'ILC Computer Science Computational Thinking notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'Computational thinking is a problem-solving approach that involves breaking down complex problems, Identifying patterns, abstracting details, and designing...'
 date: 2026-04-14
 tags:
   - ilc

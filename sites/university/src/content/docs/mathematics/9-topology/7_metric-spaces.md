@@ -2,6 +2,7 @@
 title: Metric Spaces
 tags:
   - University Maths
+description: 'Metric Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 7.1 Definition

@@ -1,8 +1,6 @@
 ---
 title: 'Magnetism and Electromagnetism -- Diagnostic Tests'
-description:
-  'GCSE Physics Magnetism and Electromagnetism -- Diagnostic notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: '(a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to magnetise a steel nail using a solenoid. (c) An electromagnet consists of a...'
 tableOfContents: false
 ---
 

@@ -199,7 +199,7 @@ Basically the equivalent of a statement. Swap A and B, then negate both of them
 | A if B      | not B if not A      |
 | A iff B     | not B iff not A     |
 
-# Truth Tables
+## Truth Tables
 
 ### Basic connectives
 
@@ -283,7 +283,7 @@ Is false (witness $2$), but its converse "If a number is odd then it is prime" i
 (witness $9$). In contrast, "If a number is a square then it is a rectangle" is true, but its
 Converse "If a number is a rectangle then it is a square" is false.
 
-# Quantifiers
+## Quantifiers
 
 ### Universal and existential quantifiers
 
@@ -351,7 +351,7 @@ Negation: "There exists a real number $x$ such that for all real numbers $y$, $x
 When negating a chain of quantifiers, the order reverses. The rightmost quantifier flips first, then
 The next, and so on -- just like removing nested negations.
 
-# Necessary and Sufficient Conditions: Formal Definitions
+## Necessary and Sufficient Conditions: Formal Definitions
 
 ## Arg2: Necessary and Sufficient
 
@@ -402,7 +402,7 @@ When asked "Is $A$ necessary/sufficient for $B$?", you can reframe the question:
 Answering these reduces to constructing a .../1-number-and-algebra/3_proof-and-logic or finding a
 counterexample.
 
-# Proof Techniques
+## Proof Techniques
 
 ## Prf1: Types of Proof
 
@@ -561,7 +561,7 @@ integer $k$.
   in a .../1-number-and-algebra/3_proof-and-logic must follow from definitions, axioms, or
   previously established results -- not from the statement being proved.
 
-# Common Pitfalls
+## Common Pitfalls
 
 ### Pitfall 1: Confusing necessary and sufficient
 
@@ -605,7 +605,7 @@ When using .../1-number-and-algebra/3_proof-and-logic by cases, the cases must b
 into "even" and "odd" is exhaustive and Mutually exclusive. Splitting real numbers into "$x \gt 0$"
 and "$x \lt 0$" is **not** exhaustive -- You must include "$x = 0$".
 
-# Problem Set
+## Problem Set
 
 ### Problem 1
 
@@ -839,4 +839,3 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::

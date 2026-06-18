@@ -3,6 +3,7 @@ title: Virtualization
 tags:
   - Computing
   - University
+description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 8.1 Hypervisor Types

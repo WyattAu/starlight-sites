@@ -3,6 +3,7 @@ title: Riemann Integration
 tags:
   - Mathematics
   - University
+description: 'Riemann Integration: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 6.1 Definition

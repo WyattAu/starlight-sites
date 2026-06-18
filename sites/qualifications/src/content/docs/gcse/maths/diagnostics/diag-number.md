@@ -1,8 +1,6 @@
 ---
 title: 'Number -- Diagnostic Tests'
-description:
-  'GCSE Maths Number -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: '(a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted...'
 tableOfContents: false
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Algorithms and Data Structures
-description:
-  'University Computing Algorithms and Data Structures notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam preparation.'
+description: 'Algorithms and Data Structures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Computing

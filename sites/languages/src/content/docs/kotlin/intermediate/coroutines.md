@@ -1,8 +1,6 @@
 ---
 title: Coroutines
-description:
-  'Kotlin Coroutines notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid exam preparation and revision.'
+description: 'Coroutines are Kotlin's mechanism for asynchronous programming. They are lightweight -- a coroutine Suspends instead of blocking a thread, allowing a small...'
 date: 2026-04-18
 tags:
   - Kotlin

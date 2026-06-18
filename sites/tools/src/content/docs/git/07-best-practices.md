@@ -1,8 +1,6 @@
 ---
 title: Best Practices
-description:
-  'Git Best Practices notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured learning and effective revision.'
+description: 'git config --global user.name "Your Name" git config --global user.email "you@ex Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-03T16:00:00.000Z
 tags:
   - git

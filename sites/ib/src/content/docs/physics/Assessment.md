@@ -1,8 +1,6 @@
 ---
 title: Assessment
-description:
-  'IB Physics Assessment notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough study and thorough revision.'
+description: 'IB Physics (first assessment 2025) is examined through a combination of external written papers and An Internal Assessment (IA). The external component...'
 ---
 
 ## Assessment Overview
@@ -217,15 +215,15 @@ Examination session and vary from session to session depending on the difficulty
 - **Theme A: Space, Time and Motion**
 - [Forces and Momentums](1-space-time-and-motion/5_forces-and-momentum.md)
 - **Theme B: The Particulate Nature of Matter**
-- [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics.md)
+- [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics.mdx)
 - [Matter Behavior Wrap Up](2-particulate-nature-of-matter/9_wrap-up.md)
 - **Theme C: Wave Behaviour**
-- [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion.md)
+- [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion.mdx)
 - [Waves Wrap Up](3-wave-behaviour/9_wrap-up.md)
 - **Theme D: Fields**
-- [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields.md)
-- [Gravitational Fields](4-fields/1_gravitational-fields.md)
-- [Electromagnetic Induction](4-fields/4_induction.md)
+- [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields.mdx)
+- [Gravitational Fields](4-fields/1_gravitational-fields.mdx)
+- [Electromagnetic Induction](4-fields/4_induction.mdx)
 - [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields.md)
 - **Theme E: Nuclear and Quantum Physics**
 - [Nuclear and Quantum Wrap Up](5-nuclear-and-quantum-physics/9_wrap-up.md)

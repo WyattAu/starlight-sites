@@ -1,8 +1,6 @@
 ---
 title: Numerical Methods
-description:
-  'A-Level Maths Numerical Methods notes covering key definitions, core concepts, worked examples,
-  and practice questions for clear exam preparation and mastery.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------------------ | | AQA | Paper 2 | Sign change, iteration,...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -171,8 +169,7 @@ Newton-Raphson fails when:
 - $f'(x_n)$ is close to zero (the next iterate jumps far away).
 - The starting point is not close enough to the root.
 
-:::caution Warning A different starting point.
-:::
+> **Caution:** Warning A different starting point.
 ### 3.4 Horizontal tangent failure
 
 When $f'(x_n) = 0$ at some iterate, the Newton-Raphson formula requires division by zero and the
@@ -191,8 +188,7 @@ The root is near $\alpha \approx -2.10$So the iterate has been sent in the wrong
 iterate $x_2$ will be pulled back, but convergence is erratic compared to a well-chosen Starting
 point.
 
-:::caution Warning Tangent is not close to horizontal near your starting point.
-:::
+> **Caution:** Warning Tangent is not close to horizontal near your starting point.
 ### 3.5 Slow convergence near inflection points
 
 The quadratic convergence proof in Section 3.2 requires $f'(\alpha) \neq 0$. When the root coincides

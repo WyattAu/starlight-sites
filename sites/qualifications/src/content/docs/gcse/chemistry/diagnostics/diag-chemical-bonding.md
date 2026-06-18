@@ -1,8 +1,6 @@
 ---
 title: 'Chemical Bonding -- Diagnostic Tests'
-description:
-  'GCSE Chemistry Chemical Bonding -- Diagnostic Tests notes covering key definitions, core
-  concepts, worked examples, and practice questions for in-depth revision.'
+description: 'Chemical Bonding -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 tableOfContents: false
 ---
 

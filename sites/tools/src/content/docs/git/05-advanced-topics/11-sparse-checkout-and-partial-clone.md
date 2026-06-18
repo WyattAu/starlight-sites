@@ -1,8 +1,6 @@
 ---
 title: Sparse Checkout and Partial Clone
-description:
-  'Git Sparse Checkout and Partial Clone notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full Clone becomes prohibitive. The problem manifests in three...'
 
 ---
 

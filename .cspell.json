@@ -1,0 +1,54 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "words": [
+    "astro",
+    "astrojs",
+    "biome",
+    "bun",
+    "cloudflare",
+    "docusaurus",
+    "dompurify",
+    "frontmatter",
+    "hono",
+    "husky",
+    "islands",
+    "katex",
+    "linted",
+    "markdownlint",
+    "mdx",
+    "node_modules",
+    "pagefind",
+    "pnpm",
+    "rehype",
+    "remark",
+    "sonner",
+    "starlight",
+    "tailwindcss",
+    "tsx",
+    "vitest",
+    "wrangler"
+  ],
+  "flagWords": [
+    "obviously",
+    "clearly",
+    "trivially",
+    "intuitively"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    ".astro",
+    "bun.lock",
+    "package-lock.json",
+    "*.min.js",
+    "*.min.css"
+  ],
+  "ignoreRegExpList": [
+    "\\$\\$[\\s\\S]*?\\$\\$",
+    "\\$[^$]+\\$",
+    "`[^`]+`",
+    "https?://[^\\s]+"
+  ],
+  "minWordLength": 3
+}

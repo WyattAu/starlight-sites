@@ -1,8 +1,6 @@
 ---
 title: Task Scheduling and Executors
-description:
-  'C++ Programming Task Scheduling and Executors notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective preparation.'
+description: 'This section covers the task concept, coroutine-based pipeline processing, async/await patterns Across languages, structured concurrency with /A complete...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

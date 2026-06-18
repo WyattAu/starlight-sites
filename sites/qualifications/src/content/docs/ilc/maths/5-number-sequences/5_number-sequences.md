@@ -1,8 +1,6 @@
 ---
 title: Number Sets and Sequences
-description:
-  'ILC Maths Number Sets and Sequences notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused preparation.'
+description: 'This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the...'
 date: 2026-04-14
 tags:
   - ilc

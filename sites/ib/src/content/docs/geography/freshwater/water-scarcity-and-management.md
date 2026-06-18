@@ -1,8 +1,6 @@
 ---
 title: Water Scarcity and Management
-description:
-  'IB Geography Water Scarcity and Management notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured preparation.'
+description: 'Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to Distinguish between two fundamentally different types:'
 
 ---
 

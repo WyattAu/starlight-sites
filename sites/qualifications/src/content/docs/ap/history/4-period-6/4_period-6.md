@@ -1,8 +1,6 @@
 ---
 title: Period 6 (1865-1898)
-description:
-  'AP US History notes covering Period 6 from 1865 to 1898, including industrialisation, the Gilded
-  Age, urbanisation, immigration, Populism, and the Spanish-American War.'
+description: 'The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

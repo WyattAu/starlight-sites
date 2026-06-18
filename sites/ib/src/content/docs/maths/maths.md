@@ -2,9 +2,7 @@
 title: Maths
 tags:
   - maths
-description:
-  'IB Maths notes covering key definitions, core concepts, worked examples, and practice questions
-  for in-depth learning and effective revision.'
+description: 'This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)....'
 ---
 
 ## IB Mathematics -- Analysis and Approaches (AA) -- Course Overview
@@ -35,7 +33,7 @@ Topics.
   inequalities).
 
 > See [Number and Algebra notes](1-number-and-algebra/1_number-and-algebra.md) and
-> [Complex Numbers](1-number-and-algebra/2_complex-numbers.md).
+> [Complex Numbers](1-number-and-algebra/2_complex-numbers.mdx).
 
 ### Worked Example: Geometric Series (SL)
 
@@ -159,7 +157,7 @@ Identities, and an introduction to vector geometry.
   trigonometric functions and the inverse trigonometric functions in greater depth.
 
 > See [Vectors notes](3-geometry-and-trigonometry/2_vectors.md) and
-> [Trigonometry notes](3-geometry-and-trigonometry/1_trigonometry.md).
+> [Trigonometry notes](3-geometry-and-trigonometry/1_trigonometry.mdx).
 
 ### Worked Example: Sine and Cosine Rules (SL)
 

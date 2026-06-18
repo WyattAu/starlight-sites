@@ -1,8 +1,6 @@
 ---
 title: Type Classes
-description:
-  'Haskell type class mechanism, standard type classes (Show, Eq, Ord, Num), Functor, Applicative,
-  Monad, Foldable, Traversable, Semigroup, Monoid, and do notation.'
+description: 'Type classes are Haskell's mechanism for -- defining interfaces that types can implement. Unlike OOP interfaces, type classes are separate from data types...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell

@@ -2,9 +2,7 @@
 title: Chronicle and Streetcar Comparison
 tags:
   - english
-description:
-  'IB English Chronicle and Streetcar Comparison notes covering key definitions, core concepts,
-  worked examples, and practice questions for detailed preparation.'
+description: '- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although...'
 ---
 
 ## Ideologies

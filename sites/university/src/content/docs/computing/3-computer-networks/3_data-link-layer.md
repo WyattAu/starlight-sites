@@ -3,6 +3,7 @@ title: Data Link Layer
 tags:
   - Computing
   - University
+description: 'The data link layer receives a bit stream and divides it into manageable . Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 3.1 Framing

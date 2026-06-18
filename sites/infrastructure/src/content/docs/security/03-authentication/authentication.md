@@ -1,8 +1,6 @@
 ---
 title: Authentication and Authorization
-description:
-  'Authentication and Authorization notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam readiness.'
+description: 'answers "who are you?" — it verifies identity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 
 ---
 
@@ -214,7 +212,6 @@ SMS-based 2FA is deprecated by NIST SP 800-63B. SMS is vulnerable to SIM swappin
 Attacks, and mobile network interception. Use TOTP or FIDO2 instead. If SMS must be used, implement
 Rate limiting, anomaly detection, and do not use it as the sole second factor.
 
-:::
 
 ## OAuth 2.0
 
@@ -456,6 +453,7 @@ RSASHA256(
 6. Validate algorithm (reject `alg: none`Reject algorithm substitution)
 7. Check token revocation if applicable (blacklist, short expiry)
 
+:::
 :::caution
 
 **Critical vulnerability — Algorithm Confusion Attack**: An attacker can change the `alg` header
@@ -463,7 +461,6 @@ From `RS256` to `HS256`. If the server uses the RSA public key as the HMAC secre
 Libraries do by default), the attacker can forge tokens. Always explicitly specify the expected
 Algorithm when validating JWTs, and never accept `none`.
 
-:::
 
 ### JWT Best Practices
 
@@ -807,6 +804,7 @@ And government agencies.
 | InCommon            | Academic/research      | University single sign-on across services |
 | eduGAIN             | Research and education | Cross-border federated access             |
 
+:::
 :::info
 
 **Reference Standards**: NIST SP 800-63B (Digital Identity — Authentication and Lifecycle
@@ -833,5 +831,6 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

@@ -1,8 +1,6 @@
 ---
 title: Migration Theories and Patterns
-description:
-  'IB Geography Migration Theories and Patterns notes covering key definitions, core concepts,
-  worked examples, and practice questions for thorough revision.'
+description: 'Migration is the movement of people from one place to another with the intention of settling, Permanently or temporarily, in the new location. Migration can...'
 
 ---
 

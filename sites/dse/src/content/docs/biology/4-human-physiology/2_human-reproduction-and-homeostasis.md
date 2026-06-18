@@ -1,8 +1,6 @@
 ---
 title: Human Reproduction and Homeostasis
-description:
-  'DSE Biology Human Reproduction and Homeostasis notes covering key definitions, core concepts,
-  worked examples, and practice questions for clear revision.'
+description: '| Structure | Function | | ------------------------------------ | -------------------------------------------------------------------------------------------...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

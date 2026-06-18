@@ -3,6 +3,7 @@ title: Semiconductors
 tags:
   - Physics
   - University
+description: 'At The valence band is completely filled and the conduction band is completely e Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 6.1 Intrinsic Semiconductors

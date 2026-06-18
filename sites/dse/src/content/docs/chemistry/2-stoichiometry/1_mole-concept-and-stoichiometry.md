@@ -1,8 +1,6 @@
 ---
 title: Chemistry - Mole Concept and Stoichiometry
-description:
-  'DSE Chemistry - Mole Concept and Stoichiometry notes covering key definitions, core concepts,
-  worked examples, and practice questions for analytical revision.'
+description: 'The relative atomic mass of an element is the weighted average mass of one atom of the element Relative to the mass of one atom of carbon-12.'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z

@@ -1,8 +1,6 @@
 ---
 title: Further Algebra
-description:
-  'A-Level Further Maths Further Algebra notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused revision.'
+description: 'Further algebra builds on the polynomial and algebraic techniques from A Level mathematics, Extending to partial fractions with irreducible quadratics, the...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -153,8 +151,7 @@ $$\frac{x^2 + 1}{(x^2 + 4)^2} = \frac{1}{x^2 + 4} - \frac{3}{(x^2 + 4)^2}$$
 
 </details>
 
-:::info info OCR cover Types 1 and 2. CIE covers Type 1 extensively in P3.
-:::
+> **Info:** info OCR cover Types 1 and 2. CIE covers Type 1 extensively in P3.
 <hr />
 
 ## 3. Roots of Polynomial Equations
@@ -664,7 +661,6 @@ Verification: $(x-1)(x-2)(x-3) = x^3 - 6x^2 + 11x - 6$. ✓
 
 </details>
 
-:::
 
 ---
 

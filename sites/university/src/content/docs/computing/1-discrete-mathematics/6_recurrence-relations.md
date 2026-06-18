@@ -3,6 +3,7 @@ title: Recurrence Relations
 tags:
   - Computing
   - University
+description: 'A defines a sequence by expressing in terms of previous terms. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 6.1 Definition

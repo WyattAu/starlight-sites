@@ -1,8 +1,6 @@
 ---
 title: Linear Algebra
-description:
-  'University Mathematics Linear Algebra notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'Before studying linear algebra, the reader should be familiar with: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

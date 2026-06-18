@@ -7,9 +7,7 @@ tags:
   - science
 categories:
   - SAT
-description:
-  General Science practice problems with step-by-step solutions. Covers biology, chemistry, physics,
-  and earth science, including data interpretation and.
+description: 'This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other...'
 ---
 
 ## Overview

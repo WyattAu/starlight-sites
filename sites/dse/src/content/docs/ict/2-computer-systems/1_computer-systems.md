@@ -1,8 +1,6 @@
 ---
 title: Fundamentals of Computer Systems
-description:
-  'DSE Ict Fundamentals of Computer Systems notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]
@@ -66,7 +64,6 @@ A typical CPU has a small number of general-purpose registers (8--32 in most arc
 :::caution[Exam Tip] When comparing storage, consider all five criteria: speed, capacity, cost per
 GB, volatility, and durability. HDDs are cheaper per GB but slower and more fragile (moving parts).
 SSDs are faster with no moving parts but more expensive per GB.
-:::
 
 ---
 
@@ -190,7 +187,6 @@ Memory.
 Waits for memory) and how Harvard architecture addresses this. Most modern CPUs use a modified
 Harvard architecture internally (separate L1 caches for instructions and data) while presenting a
 Von Neumann model externally.
-:::
 
 ---
 
@@ -365,7 +361,6 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 `1111`But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
 Decimal digit must be preserved exactly.
-:::
 
 ### Conversions
 

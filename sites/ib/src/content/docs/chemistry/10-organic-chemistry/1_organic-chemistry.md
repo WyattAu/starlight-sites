@@ -64,7 +64,6 @@ Name: 2-methylbut-2-ene.
 - Double bond starts at carbon 2.
 - Methyl substituent at carbon 2.
 
-:::
 
 ### Structural Isomers
 
@@ -74,12 +73,12 @@ Name: 2-methylbut-2-ene.
 
 **Functional group isomers**: same molecular formula, different functional groups.
 
+:::
 :::info[Example]
 
 C$_4$H$_8$O has multiple isomers: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, butanal, butanone,
 Methyl propanoate, ethyl ethanoate, etc.
 
-:::
 
 ---
 
@@ -594,6 +593,7 @@ $$
 | $E2$      | One step, strong base, Zaitsev product       |
 | $E1$      | Two steps, carbocation, weak base            |
 
+:::
 :::tip[Exam Strategy]
 
 For naming questions, always identify the longest chain first. For mechanism questions, draw clear
@@ -996,5 +996,6 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

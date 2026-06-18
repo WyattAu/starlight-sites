@@ -1,8 +1,6 @@
 ---
 title: 'Geometry -- Diagnostic Tests'
-description:
-  'GCSE Maths Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked
-  examples, and practice questions for complete revision.'
+description: '(a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle. Calculate the length of the hypotenuse. (b) A ladder leans against a wall....'
 tableOfContents: false
 ---
 

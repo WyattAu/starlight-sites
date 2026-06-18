@@ -3,6 +3,7 @@ title: Field Theory
 tags:
   - Mathematics
   - University
+description: 'A is an inclusion of fields. We write and call an of . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 12.1 Field Extensions

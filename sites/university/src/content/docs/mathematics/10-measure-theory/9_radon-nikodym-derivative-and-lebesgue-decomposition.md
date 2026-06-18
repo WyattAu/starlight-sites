@@ -3,6 +3,7 @@ title: Radon-Nikodym Derivative and Lebesgue Decomposition
 tags:
   - Mathematics
   - University
+description: 'A measure is with respect to (written ) if Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 9.1 Absolute Continuity

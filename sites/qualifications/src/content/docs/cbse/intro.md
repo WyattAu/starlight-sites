@@ -1,9 +1,7 @@
 ---
 title: Introduction to CBSE Notes
 date: 2026-05-30
-description:
-  'Qualifications Intro.Md Introduction to CBSE notes covering key definitions, core concepts,
-  worked examples, and practice questions for clear revision.'
+description: 'The is a national-level board of education in India for public and private schools, controlled and managed by the Union Government of India. It is one of...'
 tags:
   - cbse
 categories:

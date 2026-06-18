@@ -1,8 +1,6 @@
 ---
 title: Stash
-description:
-  'Git Stash notes covering key definitions, core concepts, worked examples, and practice questions
-  for targeted revision and examination preparation.'
+description: 'temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism —...'
 date: 2025-06-03T09:00:00.000Z
 tags:
   - git
@@ -213,3 +211,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

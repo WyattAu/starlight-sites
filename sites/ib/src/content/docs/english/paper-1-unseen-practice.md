@@ -1,8 +1,6 @@
 ---
 title: Paper 1 Unseen Practice
-description:
-  Practice unseen passages for IB English Paper 1 with guided analysis. Includes prose extracts,
-  poetry, speeches, advertisements, and visual texts with.
+description: 'This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis...'
 ---
 
 # Paper 1 Unseen Practice

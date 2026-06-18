@@ -1,8 +1,6 @@
 ---
 title: Cognitive Level of Analysis
-description:
-  'IB Psychology Cognitive Level of Analysis notes covering key definitions, core concepts, worked
-  examples, and practice questions for comprehensive revision.'
+description: 'This section covers the cognitive level of analysis, focusing on mental processes such as memory, thinking, language, and decision making.'
 
 ---
 

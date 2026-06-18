@@ -1,8 +1,6 @@
 ---
 title: Concurrency Primitives
-description:
-  'Python Concurrency Primitives notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective exam preparation and mastery.'
+description: 'The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform's native threading implementation (pthreads on...'
 
 ---
 

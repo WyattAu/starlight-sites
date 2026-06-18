@@ -3,6 +3,7 @@ title: The Grand Canonical Ensemble
 tags:
   - Physics
   - University
+description: 'In many physical situations, a system exchanges both energy and particles with a reservoir. The describes such open systems. The macroscopic variables are...'
 ---
 
 ### 3.1 Definition and Motivation

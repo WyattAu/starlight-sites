@@ -1,8 +1,6 @@
 ---
 title: The pre-commit Framework
-description:
-  'Git The pre-commit Framework notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic revision.'
+description: 'is a Python-based framework for managing and executing Git hooks in a declarative, Reproducible way. It solves the fundamental problem with raw Git hooks:...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Brain Imaging Techniques
-description:
-  'IB Psychology Brain Imaging Techniques notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed revision.'
+description: 'Brain imaging techniques allow researchers to observe the structure and function of the living human Brain without surgery. These techniques have...'
 
 ---
 

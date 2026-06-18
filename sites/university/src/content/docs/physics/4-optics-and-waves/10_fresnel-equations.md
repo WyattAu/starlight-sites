@@ -3,6 +3,7 @@ title: Fresnel Equations
 tags:
   - Physics
   - University
+description: 'When light strikes a planar interface between media with refractive indices and The Amplitudes of the reflected and transmitted waves depend on the...'
 ---
 
 ### 10.1 Derivation at a Dielectric Interface

@@ -1,8 +1,6 @@
 ---
 title: Equations and Inequalities
-description:
-  'A-Level Maths Equations and Inequalities notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -134,8 +132,7 @@ $\Delta = 496 > 0$So the line intersects the circle at two points.
 
 </details>
 
-:::tip Tip Quadratic in both variables, which is harder to solve.
-:::
+> **Tip:** Tip Quadratic in both variables, which is harder to solve.
 <hr />
 
 ## 3. Algebraic Inequalities
@@ -158,7 +155,7 @@ multiplier before Proceeding.
 
 ### 3.2 Quadratic Inequalities
 
-See [Quadratics](./02-quadratics.md), Section 6.
+See [Quadratics](02-quadratics.mdx), Section 6.
 
 ### 3.3 Inequalities Involving Fractions
 
@@ -647,7 +644,7 @@ The parabola opens upwards. It is $\leq 0$ between and including the roots:
 $$-3 \leq x \leq 5$$
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratic inequalities](./02-quadratics.md)
+<b>If you get this wrong, revise:</b> [Quadratic inequalities](02-quadratics.mdx)
 
 <hr />
 
@@ -744,7 +741,7 @@ Verification: $x^2 - 6x + 8 = (x - 2)(x - 4) = 0$Giving roots $2$ and $4$ with s
 $8$. ✓
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratics](./02-quadratics.md)
+<b>If you get this wrong, revise:</b> [Quadratics](02-quadratics.mdx)
 
 <hr />
 
@@ -765,7 +762,7 @@ $x^2 = 4 \implies x = \pm 2$.
 Solutions: $x = -2, -1, 1, 2$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratic formula](./02-quadratics.md)
+<b>If you get this wrong, revise:</b> [Quadratic formula](02-quadratics.mdx)
 
 <hr />
 

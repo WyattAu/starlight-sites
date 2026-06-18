@@ -1,8 +1,6 @@
 ---
 title: Git Directory Structure
-description:
-  'Git Directory Structure notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive exam preparation and mastery.'
+description: 'The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential...'
 date: 2025-06-03T12:00:00.000Z
 tags:
   - git
@@ -220,7 +218,6 @@ Hooks in `.git/hooks/` are **not tracked** by Git and therefore not shared with 
 share hooks across a team, use a tool like [husky](https://typicode.github.io/husky/) (which stores
 hooks in the repository) or a symlink to a tracked scripts directory.
 
-:::
 
 ## The Refs Directory (`.git/refs/`)
 
@@ -251,12 +248,12 @@ $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
 
+:::
 :::caution
 
 Always **back up** the `.git` directory before attempting recovery. Some operations
 (`git gc --prune=now`) are irreversible.
 
-:::
 
 ## Common Pitfalls
 
@@ -280,3 +277,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

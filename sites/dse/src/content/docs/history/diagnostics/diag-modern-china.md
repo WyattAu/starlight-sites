@@ -1,8 +1,6 @@
 ---
 title: 'Modern China -- Diagnostic Tests'
-description:
-  'DSE History Modern China -- Diagnostic Tests covering the Republic era, the PRC under Mao, and
-  Reform and Opening Up, with integration tests.'
+description: 'Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 tableOfContents: false
 ---
 

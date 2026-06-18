@@ -1,8 +1,6 @@
 ---
 title: Security Fundamentals
-description:
-  'Security Fundamentals notes covering key definitions, core concepts, worked examples, and
-  practice questions for comprehensive learning and effective revision.'
+description: 'The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three...'
 
 ---
 
@@ -480,7 +478,6 @@ An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnera
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
 Into prioritization.
 
-:::
 
 ## Security Through Obscurity
 
@@ -818,13 +815,13 @@ Physical access trumps almost all technical controls. An attacker with physical 
 Can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
 
+:::
 :::info
 
 **Reference Standards**: NIST SP 800-53 (Security and Privacy Controls), NIST SP 800-207 (Zero Trust
 Architecture), ISO/IEC 27001 (Information Security Management), OWASP Testing Guide v4, MITRE ATT&CK
 Framework, CISA Known Exploited Vulnerabilities Catalog, ISO/IEC 27005 (Risk Management).
 
-:::
 
 ## Summary
 
@@ -847,3 +844,5 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: Matrices
-description:
-  'A-Level Further Maths Matrices notes covering key definitions, core concepts, worked examples,
-  and practice questions for clear revision.'
+description: 'Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -360,8 +358,7 @@ Each has $\det = -1$Confirming orientation reversal.
 
 ## 7. Eigenvalues and Eigenvectors
 
-:::info info require this topic at A Level.
-:::
+> **Info:** info require this topic at A Level.
 **Definition.** Let $\mathbf{A}$ be an $n \times n$ matrix. A scalar $\lambda$ is an _eigenvalue_ of
 $\mathbf{A}$ if there exists a non-zero vector $\mathbf{v}$ such that:
 
@@ -758,7 +755,6 @@ Then B," you must undo B first, then undo A.
 
 </details>
 
-:::
 
 ---
 

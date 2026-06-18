@@ -1,8 +1,6 @@
 ---
 title: Resource Management and Move Semantics
-description:
-  'C++ Programming Resource Management and Move Semantics notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-03-31T00:00:00.000Z
 tags:
   - cpp

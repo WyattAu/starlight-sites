@@ -1,8 +1,6 @@
 ---
 title: WebSockets
-description:
-  'WebSockets notes covering key definitions, core concepts, worked examples, and practice questions
-  for clear review and exam preparation.'
+description: 'WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,...'
 tags:
   - Networking
 categories:
@@ -188,7 +186,6 @@ Verification:
 Masking adds minimal overhead (4 bytes per frame) and a small amount of CPU for the XOR operation.
 On modern hardware, this is negligible even at high throughput.
 
-:::
 
 ## Opcodes
 
@@ -212,12 +209,12 @@ Application:
 - **Binary:** Efficient for binary protocols (Protocol Buffers, MessagePack, custom binary formats).
   No base64 encoding overhead.
 
+:::
 :::caution
 
 A common mistake is sending JSON in binary frames. While this works, it defeats the purpose of
 Binary frames (which are for non-text data). If you are sending JSON, use text frames.
 
-:::
 
 ## Control Frames
 
@@ -264,13 +261,13 @@ Client                              Server
 If the sender does not receive a pong within a reasonable timeout, the connection is considered dead
 And should be closed.
 
+:::
 :::caution
 
 Do not send pings too frequently. A ping every 30-60 seconds is sufficient for keepalive. More
 Frequent pings add overhead without meaningful benefit. Some servers limit the rate of control
 Frames and will close the connection if pings are too frequent.
 
-:::
 
 ## Subprotocols
 
@@ -326,6 +323,7 @@ Parameters:
 - **client_no_context_takeover:** Client does not reuse LZ77 context between messages
 - **server_no_context_takeover:** Server does not reuse LZ77 context between messages
 
+:::
 :::caution
 
 `permessage-deflate` can introduce latency due to compression overhead. For small messages (under
@@ -333,7 +331,6 @@ Parameters:
 Sizes before enabling. For high-frequency, small-message applications (gaming, financial tickers),
 Compression may not be worthwhile.
 
-:::
 
 ## WebSocket API in JavaScript
 
@@ -494,6 +491,7 @@ const wss = new WebSocketServer({
 });
 ```
 
+:::
 :::caution
 
 Origin checking is the primary CSRF defense for WebSocket connections. Cookies are sent
@@ -833,5 +831,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

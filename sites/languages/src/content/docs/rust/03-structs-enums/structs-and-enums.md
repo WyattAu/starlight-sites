@@ -1,8 +1,6 @@
 ---
 title: Structs and Enums
-description:
-  'Rust Structs and Enums notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear study and thorough revision.'
+description: 'Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition...'
 
 ---
 
@@ -147,7 +145,6 @@ struct Aligned {
 Fields through references requires `unsafe` because the compiler cannot guarantee alignment for
 Dereferences. Use `#[repr(packed(2))]` or similar to specify minimum alignment.
 
-:::
 
 ### Visibility
 
@@ -665,6 +662,7 @@ struct User {
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
 
+:::
 :::caution
 
 Deriving `PartialOrd` compares fields in declaration order. If you change the order of fields in the
@@ -672,7 +670,6 @@ Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` fi
 Because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
 `ordered-float` crate's `OrderedFloat` type instead.
 
-:::
 
 ### Custom Derive
 
@@ -944,3 +941,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

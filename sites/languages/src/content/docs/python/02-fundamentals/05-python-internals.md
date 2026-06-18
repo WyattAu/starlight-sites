@@ -1,8 +1,6 @@
 ---
 title: Python Internals
-description:
-  'Python Internals notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused exam preparation and revision.'
+description: 'CPython is the reference implementation of Python, written in C. It is the most widely used Implementation and the one most people mean when they say...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

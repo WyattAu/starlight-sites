@@ -1,8 +1,6 @@
 ---
 title: Poisson and Geometric Distributions
-description:
-  'A-Level Further Maths Poisson and Geometric Distributions notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'The Poisson and geometric distributions model discrete random variables arising from counting Processes. The Poisson distribution counts the number of rare...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -740,7 +738,6 @@ $P(X = 3) = \dfrac{e^{-2.9}(2.9)^3}{6} = \dfrac◆LB◆24.389 \cdot e^{-2.9}◆R
 
 </details>
 
-:::
 
 ---
 

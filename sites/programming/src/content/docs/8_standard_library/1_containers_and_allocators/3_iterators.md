@@ -1,8 +1,6 @@
 ---
 title: Iterator Categories, Traversal, and Invalidation
-description:
-  'C++ Programming Iterator Categories, Traversal, and notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Iterators are the glue between containers and algorithms in the C++ standard library. Understanding Iterator categories is essential for knowing which...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -555,7 +553,6 @@ int main() {
 }
 ```
 
-:::
 
 ## Summary
 

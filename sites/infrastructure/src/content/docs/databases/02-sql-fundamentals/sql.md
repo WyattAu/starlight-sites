@@ -1,8 +1,6 @@
 ---
 title: SQL Fundamentals
-description:
-  'SQL Fundamentals notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear review and exam preparation.'
+description: 'SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database...'
 tags:
   - Databases
 categories:
@@ -73,7 +71,6 @@ Always use `TIMESTAMPTZ` instead of `TIMESTAMP`. `TIMESTAMP` does not store time
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
 And back to the session timezone on retrieval.
 
-:::
 
 ### ALTER TABLE
 
@@ -97,6 +94,7 @@ DROP CONSTRAINT:
 ALTER TABLE employees DROP CONSTRAINT chk_salary_range;
 ```
 
+:::
 :::caution
 
 `ALTER TABLE` acquires an `ACCESS EXCLUSIVE` lock in PostgreSQL, which blocks all reads and writes
@@ -104,7 +102,6 @@ To the table for the duration of the operation. On large tables, adding a column
 Value or changing a column type can take hours. Use `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL`
 (which is metadata-only in PostgreSQL 11+) or pg_partman for zero-downtime migrations.
 
-:::
 
 ### DROP TABLE
 
@@ -176,13 +173,13 @@ SET salary = (
 WHERE e.emp_id = 42;
 ```
 
+:::
 :::caution
 
 An `UPDATE` without a `WHERE` clause modifies every row in the table. Always run a `SELECT` with the
 Same `WHERE` clause first to verify which rows will be affected. Consider wrapping destructive
 Updates in a transaction with a `SAVEPOINT` so you can roll back if the results are wrong.
 
-:::
 
 ### DELETE
 
@@ -276,6 +273,7 @@ Logical operators:
 WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 ```
 
+:::
 :::caution
 
 `NULL` comparisons behave unexpectedly. `NULL = NULL` evaluates to `NULL` (not `TRUE`), so
@@ -283,7 +281,6 @@ WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 `NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
 is the single greatest source of SQL bugs.
 
-:::
 
 ### ORDER BY
 
@@ -310,6 +307,7 @@ ORDER BY order_id
 LIMIT 20;
 ```
 
+:::
 :::tip
 
 `OFFSET` requires the database to scan and discard `OFFSET` rows before returning results. For large
@@ -317,7 +315,6 @@ Offsets (e.g., `OFFSET 100000`), this is slow because the database still process
 Keyset pagination (also called seek pagination) instead:
 `WHERE id &gt; last_seen_id ORDER BY id LIMIT 20`.
 
-:::
 
 ## Joins
 
@@ -428,6 +425,7 @@ WHERE e.salary > (
 );
 ```
 
+:::
 :::caution
 
 Correlated subqueries execute the inner query once for each row in the outer query. For large
@@ -445,7 +443,6 @@ JOIN (
 WHERE e.salary > d.avg_salary;
 ```
 
-:::
 
 ### EXISTS and NOT EXISTS
 
@@ -483,13 +480,13 @@ WHERE department_id NOT IN (SELECT dept_id FROM departments);
 -- Use NOT EXISTS instead when NULLs are possible.
 ```
 
+:::
 :::caution
 
 `NOT IN` with a subquery that can return NULL yields zero rows, because `x NOT IN (1, 2, NULL)`
 Evaluates to `x != 1 AND x != 2 AND x != NULL`And `x != NULL` is `NULL` (not `TRUE`). Always use
 `NOT EXISTS` instead of `NOT IN` when the subquery might return NULL values.
 
-:::
 
 ### ANY and ALL
 
@@ -544,13 +541,13 @@ MIN(column)       -- minimum non-NULL value
 MAX(column)       -- maximum non-NULL value
 ```
 
+:::
 :::info
 
 `AVG(salary)` excludes rows where `salary IS NULL` from both the sum and the count. If you need to
 Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
 NULL means "unknown," not "zero."
 
-:::
 
 ### GROUP BY
 
@@ -683,6 +680,7 @@ SELECT emp_id, department_id, hire_date,
 FROM employees;
 ```
 
+:::
 :::caution
 
 The default frame clause for aggregate window functions with `ORDER BY` is
@@ -690,7 +688,6 @@ The default frame clause for aggregate window functions with `ORDER BY` is
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
 All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
 
-:::
 
 ## Common Table Expressions (CTEs)
 
@@ -763,6 +760,7 @@ graph TD
     M2 --> E3["Frank (90)<br/>depth: 3"]
 ```
 
+:::
 :::caution
 
 Recursive CTEs without a termination condition loop infinitely (until the database kills the query
@@ -770,7 +768,6 @@ Or the process runs out of memory). Always include a depth counter or a visited 
 Recursion depth to 100 by default (`cte_max_recursion_depth`). PostgreSQL has no recursion depth
 Limit, so an unbounded recursive CTE will run until it OOMs.
 
-:::
 
 ## CASE Expressions
 
@@ -835,6 +832,7 @@ WHERE commission_rate IS DISTINCT FROM 0;
 -- Returns rows where commission_rate is NULL or different from 0
 ```
 
+:::
 :::tip
 
 Use `COALESCE` to provide defaults for NULL values in application queries. Use `NULLIF` to prevent
@@ -906,5 +904,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

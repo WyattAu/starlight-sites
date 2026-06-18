@@ -1,8 +1,6 @@
 ---
 title: Complexity Analysis
-description:
-  'A-Level Computer Science Complexity Analysis notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective preparation.'
+description: 'Complexity Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

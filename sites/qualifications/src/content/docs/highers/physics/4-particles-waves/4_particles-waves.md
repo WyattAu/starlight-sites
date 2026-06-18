@@ -1,8 +1,6 @@
 ---
 title: Particles and Waves
-description:
-  'Scottish Highers Physics Particles and Waves notes covering key definitions, core concepts,
-  worked examples, and practice questions for systematic revision.'
+description: 'This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-14
 tags:
   - highers
@@ -17,7 +15,6 @@ categories:
 :::info
 
 This chapter covers **Advanced Higher** Physics content, extending beyond Higher level.
-:::
 ## Quantum Physics
 
 ### Wave-Particle Duality

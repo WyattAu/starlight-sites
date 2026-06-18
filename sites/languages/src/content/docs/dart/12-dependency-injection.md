@@ -1,8 +1,6 @@
 ---
 title: Dependency Injection
-description:
-  'Dart Dependency Injection notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth learning and effective revision.'
+description: 'Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

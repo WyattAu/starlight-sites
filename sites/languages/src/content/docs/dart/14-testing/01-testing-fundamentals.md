@@ -1,8 +1,6 @@
 ---
 title: Testing Fundamentals
-description:
-  'Dart Testing Fundamentals notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured revision and exam readiness.'
+description: 'Testing is not a phase that comes after development. It is a structural property of the codebase That determines whether you can safely change it. The...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

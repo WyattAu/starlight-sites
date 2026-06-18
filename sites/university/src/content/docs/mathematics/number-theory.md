@@ -1,8 +1,6 @@
 ---
 title: Number Theory
-description:
-  'University Mathematics Number Theory notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'UNIVERSITY Mathematics notes: Number Theory. Comprehensive study material with definitions, examples, and assessment tools.'
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Mathematics

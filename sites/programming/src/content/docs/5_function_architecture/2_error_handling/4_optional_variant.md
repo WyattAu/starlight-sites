@@ -1,8 +1,6 @@
 ---
 title: Algebraic Error Handling — std::optional and std::variant
-description:
-  'C++ Programming Algebraic Error Handling — std::optional notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'and are stack-allocated, type-safe alternatives to exceptions for Representing values that may be absent or that may hold one of several alternative types.'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

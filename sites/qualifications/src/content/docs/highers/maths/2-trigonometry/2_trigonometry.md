@@ -1,8 +1,6 @@
 ---
 title: Geometry and Trigonometry
-description:
-  'Scottish Highers Maths Geometry and Trigonometry notes covering key definitions, core concepts,
-  worked examples, and practice questions for solid revision.'
+description: 'The three primary trigonometric functions for an angle in a right-angled triangl Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - highers

@@ -1,8 +1,6 @@
 ---
 title: Control Flow
-description:
-  'Java Control Flow notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused study and thorough revision.'
+description: 'The statement is the most fundamental control flow construct. Java evaluates the condition as a expression -- unlike C and C++, Java does not allow...'
 date: 2025-06-05T11:00:00.000Z
 tags: ['java']
 categories: ['java']

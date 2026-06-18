@@ -65,7 +65,6 @@ $$
 \%\mathrm{O = \frac{16.00}{18.02} \times 100 = 88.81\%
 $$
 
-:::
 
 Percent composition is useful for verifying empirical formulas and for determining the formula of an
 Unknown compound from experimental data.
@@ -102,6 +101,7 @@ $$
 
 Where $n = \frac{\mathrm{Molecular Mass}{\mathrm{Empirical Formula Mass}$.
 
+:::
 :::info[Example]
 
 A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Its molar mass is $180 \mathrm{ g/mol$.
@@ -123,7 +123,6 @@ $$
 
 Molecular formula: $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ (glucose).
 
-:::
 
 ### Combustion Analysis
 
@@ -211,6 +210,7 @@ Empirical formula: $\mathrm{C_4\mathrm{H_8\mathrm{N$.
 5. If a fraction appears, multiply all coefficients by the denominator.
 6. Verify the balance and ensure coefficients are in the lowest whole-number ratio.
 
+:::
 :::info[Example]
 
 Balance the combustion of propane:
@@ -229,7 +229,6 @@ $$
 \mathrm{C_3\mathrm{H_8 + 5\mathrm{O_2 \to 3\mathrm{CO_2 + 4\mathrm{H_2\mathrm{O
 $$
 
-:::
 
 ### Worked Example: Balancing Complex Equations
 
@@ -281,6 +280,7 @@ Theoretical yield is calculated from the limiting reactant. Actual yield is meas
 Yield is always less than 100% due to side reactions, incomplete reactions, and product loss during
 Purification.
 
+:::
 :::info[Example]
 
 If $25.0 \mathrm{ g$ of $\mathrm{NH_3$ reacts with $40.0 \mathrm{ g$ of $\mathrm{O_2$:
@@ -317,7 +317,6 @@ $$
 \%\mathrm{ Yield = \frac{24.0}{30.0} \times 100 = 80.0\%
 $$
 
-:::
 
 ### Derivation: Why the Limiting Reactant Method Works
 
@@ -352,6 +351,7 @@ Valid for any concentration unit that is moles per volume.
 
 Use molarity to convert between volume and moles, then apply stoichiometric ratios.
 
+:::
 :::info[Example]
 
 What volume of $0.500 \mathrm{ M  \mathrm{HCl$ is needed to react completely with $25.0 \mathrm{ mL$
@@ -373,7 +373,6 @@ $$
 V_{\mathrm{HCl} = \frac{0.00500}{0.500} = 0.0100 \mathrm{ L = 10.0 \mathrm{ mL
 $$
 
-:::
 
 ### Gravimetric Analysis
 
@@ -458,6 +457,7 @@ At STP, one mole of ideal gas occupies $22.4 \mathrm{ L$.
 
 Use $PV = nRT$ to convert between gas volume and moles.
 
+:::
 :::info[Example]
 
 What volume of $\mathrm{O_2$ at STP is produced by decomposing $5.00 \mathrm{ g$ of
@@ -481,7 +481,6 @@ $$
 
 Or using molar volume at STP: $V = 0.0612 \times 22.4 = 1.37 \mathrm{ L$.
 
-:::
 
 ### Derivation: The Ideal Gas Law from Empirical Laws
 
@@ -548,6 +547,7 @@ $\mathrm{H_2\mathrm{SO_4$$\mathrm{HClO_4$.
 Only strong electrolytes are split into ions in the complete ionic equation. Weak acids and bases
 Are written as intact molecules.
 
+:::
 :::info[Example]
 
 Write the net ionic equation for mixing $\mathrm{Pb(NO_3)_2$ and $\mathrm{KI$.
@@ -873,5 +873,6 @@ $$n(\text{CaCO}_3) = \frac{10.0}{100} = 0.100\,\text{mol}$$
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
+
 
 :::

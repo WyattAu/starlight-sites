@@ -121,7 +121,6 @@ Every use of `!` is a claim that you know more than the type checker. If the typ
 Promote the type via flow analysis, remove the `!`. If it cannot, prefer a guard or default value.
 The `!` operator is a code smell in production code — it means you are bypassing the safety system.
 
-:::
 
 ### Late Initialization
 
@@ -189,21 +188,21 @@ class Service {
 }
 ```
 
+:::
 :::caution
 
 Common pitfall: `late` without `final` allows reassignment. If you intend immutable deferred
 Initialization, always use `late final`. A bare `late` field is mutable and can be reassigned
 Arbitrarily after its first initialization.
 
-:::
 
+:::
 :::caution
 
 Common pitfall: `late` fields are not initialized in the constructor. If your class has multiple
 Initialization paths and one path forgets to initialize the `late` field, you get a
 `LateInitializationError` at runtime with no compile-time warning.
 
-:::
 
 ### Null-Aware Operators
 
@@ -401,13 +400,13 @@ String? getName() => 'Dart';
 // even if the implementation always returns non-null
 ```
 
+:::
 :::caution
 
 Flow analysis does not track mutations through closures or across async boundaries. If a nullable
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
 Will not promote it inside the closure.
 
-:::
 
 ### Migration Patterns
 
@@ -536,13 +535,13 @@ Types:
 | `NativeFunction<T>` | function pointer                  | N/A          | platform     |
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
 
+:::
 :::info
 
 All integer FFI types map to Dart `int`Regardless of size. Dart's `int` is a 64-bit integer on the
 VM. When passing an `Int8` value, the Dart `int` is truncated to 8 bits. When reading an `Int8`
 Value, it is sign-extended to 64 bits. Always be aware of the C type's range when working with FFI.
 
-:::
 
 ### Pointers
 
@@ -595,6 +594,7 @@ print(ptr.elementAt(2).value);  // 30
 final bytePtr = ptr.cast<Uint8>();  // reinterpret as byte array
 ```
 
+:::
 :::caution
 
 `malloc` and `calloc` allocate native heap memory. This memory is **not** managed by Dart's garbage
@@ -602,7 +602,6 @@ Collector. Every `malloc` must have a corresponding `malloc.free`Or you leak nat
 Dart objects, there is no finalizer that automatically frees native memory. Use `using` from
 `package:ffi` or Dart's `NativeFinalizer` to ensure cleanup.
 
-:::
 
 #### Scoped Allocation with `using`
 
@@ -727,12 +726,12 @@ callback.close();
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
 
+:::
 :::caution
 
 `NativeCallable` objects must be closed with `.close()` when no longer needed. Failure to close
 Leaks native resources. The callable is valid only while the `NativeCallable` object is alive.
 
-:::
 
 #### Legacy Pointer.fromFunction
 
@@ -748,13 +747,13 @@ final callbackPointer = Pointer.fromFunction<DartCallbackFn>(
 nativeSetCallback(callbackPointer);
 ```
 
+:::
 :::caution
 
 `Pointer.fromFunction` callbacks can only be invoked from the same isolate that created them. If C
 Code calls the callback from a different thread, the behavior is undefined and may crash. Use
 `NativeCallable.listener` for cross-thread callbacks.
 
-:::
 
 ### Strings
 
@@ -809,13 +808,13 @@ final dartResult = result.toDartString();
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
 
+:::
 :::caution
 
 Always free native strings allocated via `toNativeUtf8()` or `toNativeUtf16()`. The `toDartString()`
 Method allocates a new Dart `String` object — it does not take ownership of the C memory. If C
 Allocated the string, you must free it with C's deallocator, not Dart's `malloc.free`.
 
-:::
 
 ### Arrays
 
@@ -880,13 +879,13 @@ external Pointer<Void> nativeMalloc(int size);
 external void nativeFree(Pointer<Void> ptr);
 ```
 
+:::
 :::info
 
 `@FfiNative` uses symbol resolution at load time rather than lookup time. This is slightly faster
 Than `DynamicLibrary.lookup` and produces cleaner code. It requires Dart 3.3+ and native platforms
 (AOT or JIT).
 
-:::
 
 ### Async FFI
 
@@ -914,13 +913,13 @@ void main() async {
 }
 ```
 
+:::
 :::caution
 
 Never call blocking FFI functions on the main isolate in a Flutter application. The UI thread must
 Remain responsive. Always offload potentially long-running native calls to a compute isolate via
 `Isolate.run`.
 
-:::
 
 ## Isolates and Concurrency Deep Dive
 
@@ -1084,13 +1083,13 @@ class _Request {
 }
 ```
 
+:::
 :::caution
 
 Isolate messages are ordered per port. If isolate A sends messages M1, M2, M3 to isolate B, B will
 Receive them in that order. However, messages sent from different isolates to the same port may be
 Interleaved — there is no global ordering guarantee across multiple senders.
 
-:::
 
 ### Event Loop Model
 
@@ -1255,6 +1254,7 @@ Binary is compact and loads quickly. However, every call from WASM to JavaScript
 Has overhead. For DOM-heavy applications, this overhead can dominate. For compute-heavy applications
 (e.g., image processing, cryptography, simulations), the performance gain is significant.
 
+:::
 :::info
 
 Dart2wasm requires WebAssembly Garbage Collection (WASM GC) support in the browser. As of 2025, this
@@ -1812,5 +1812,6 @@ $\blacksquare$
   spawning.
 - `dart:ffi` requires manual memory management: always `free` allocated native memory in a `finally`
   block.
+
 
 :::

@@ -3,6 +3,7 @@ title: Conformal Mappings
 tags:
   - Mathematics
   - University
+description: 'An analytic function is at if . A conformal Mapping preserves angles (both magni Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 10.1 Definition

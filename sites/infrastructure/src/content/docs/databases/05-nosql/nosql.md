@@ -1,8 +1,6 @@
 ---
 title: NoSQL Databases
-description:
-  'NoSQL Databases notes covering key definitions, core concepts, worked examples, and practice
-  questions for efficient revision and exam readiness.'
+description: 'The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer's 2000 conjecture, states That a distributed data store can provide at most two of...'
 tags:
   - Databases
 categories:
@@ -67,7 +65,6 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 That if you stop writing, the system will converge. In practice, convergence time depends on the
 System, the network, and the write volume. In a partition, convergence may be indefinite.
 
-:::
 
 ## NoSQL Categories
 
@@ -259,6 +256,7 @@ redis-cli --cluster create \
     --cluster-replicas 1
 ```
 
+:::
 :::caution
 
 Redis Cluster does **not** support multi-key operations across different hash slots. If you need to
@@ -266,7 +264,6 @@ Atomically update `user:123:profile` and `user:123:settings`They must have the s
 (`{user:123}`). Operations like `MGET` on keys with different hash tags will fail with a `CROSSSLOT`
 error.
 
-:::
 
 ### Memcached
 
@@ -365,6 +362,7 @@ CREATE TABLE events (
 -- sorted by event_id (which includes a timestamp component)
 ```
 
+:::
 :::caution
 
 Cassandra's data model requires you to design around queries, not entities. Unlike relational
@@ -372,7 +370,6 @@ Databases where you model entities and then write queries to access them, in Cas
 Queries and denormalise data to support each query pattern. A common rule: one table per query
 Pattern.
 
-:::
 
 ### ScyllaDB
 
@@ -448,13 +445,13 @@ RETURN p
 - Your workload is mostly simple CRUD operations
 - Your team has no graph database expertise
 
+:::
 :::tip
 
 A graph database is not a replacement for a relational database. Many production systems use a
 Relational database for transactional data and a graph database for relationship-heavy queries. This
 Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
 
-:::
 
 ## Time Series Databases
 
@@ -561,6 +558,7 @@ Service Architecture with Polyglot Persistence:
                Full-text search, log aggregation, analytics
 ```
 
+:::
 :::caution
 
 Polyglot persistence increases operational complexity. Each database has its own backup strategy,
@@ -569,7 +567,6 @@ Database technology, ensure your team has the expertise to operate it in product
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
 Your use cases adequately.
 
-:::
 
 ## Common Pitfalls
 
@@ -709,13 +706,13 @@ SSTable Level N (disk)  ← oldest, largest
 | Space amplification | Moderate (compaction overhead)       | Low to moderate (page fragmentation) |
 | Compaction          | Required (background merge)          | Not required (in-place updates)      |
 
+:::
 :::info
 
 RocksDB (used by MongoDB's WiredTiger for caching, TiKV, and many other systems) is a popular LSM
 Tree implementation. It is configurable: you can tune compaction strategy, bloom filter size,
 Compression, block cache, and write buffer size to optimise for specific workloads.
 
-:::
 
 ### DynamoDB Deep Dive
 
@@ -796,13 +793,13 @@ GET /products/_search
 }
 ```
 
+:::
 :::caution
 
 Elasticsearch is not ACID-compliant. Document updates are eventually consistent across shards. It is
 A search engine, not a primary data store. Use it as a secondary index alongside a relational
 Database, not as a replacement for one.
 
-:::
 
 ## Benchmarking NoSQL Systems
 
@@ -831,6 +828,7 @@ redis-benchmark -t set,get -n 100000 -c 50 -q
 mongoperf -f test.json
 ```
 
+:::
 :::tip
 
 Published benchmarks (especially vendor-provided ones) are often optimised for the specific system
@@ -838,7 +836,6 @@ Being benchmarked. Always run your own benchmarks with your own data and access 
 Performance difference between systems is often smaller than the difference between a well-tuned and
 Poorly-tuned deployment of the same system.
 
-:::
 
 ## Summary
 
@@ -861,3 +858,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: CPM.cmake
-description:
-  'C++ Programming CPM.cmake notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured study and thorough revision.'
+description: '(CMake Package Manager) provides a lightweight abstraction over the standard CMake module. It bridges the gap between manual vendoring (git submodules) and...'
 date: 2025-12-11T04:34:32.158Z
 tags:
   - cpp

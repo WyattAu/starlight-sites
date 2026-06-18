@@ -1,8 +1,6 @@
 ---
 title: Git Objects
-description:
-  'Git Objects notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted review and exam preparation.'
+description: 'At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the...'
 date: 2025-06-03T00:00:00.000Z
 tags:
   - git
@@ -90,7 +88,6 @@ The trailing newline matters. `echo "Hello, World"` produces `Hello, World\n` (1
 `echo -n "Hello, World"` produces `Hello, World` (12 bytes). These produce different blob hashes.
 This is a common source of confusion when scripting Git operations.
 
-:::
 
 ### Deduplication
 
@@ -172,13 +169,13 @@ Each entry is encoded as `<mode> <name>\0<20-byte-sha1>` (binary SHA-1, not hex)
 **sorted** lexicographically by name, which is critical for canonical hashing — the same directory
 must always produce the same tree hash.
 
+:::
 :::caution
 
 Git sorts tree entries in a specific order: directories sort as if they have a trailing `/`. This
 means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters
 if you are manually constructing tree objects.
 
-:::
 
 ## Commits
 
@@ -307,6 +304,7 @@ Release version 1.0
 | Personal workflow  | Semantic versioning milestones        |
 |                    | When you need metadata (date, tagger) |
 
+:::
 :::tip
 
 Always use annotated tags for public releases. Lightweight tags do not carry the tagger information
@@ -413,3 +411,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

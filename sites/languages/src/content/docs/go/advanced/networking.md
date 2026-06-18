@@ -1,8 +1,6 @@
 ---
 title: Networking
-description:
-  'Go Networking notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted study and examination practice.'
+description: 'The package provides TCP support via and : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-05-31
 tags:
   - Go

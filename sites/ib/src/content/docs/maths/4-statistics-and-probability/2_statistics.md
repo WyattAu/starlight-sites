@@ -56,7 +56,6 @@ Find the mean, median, and mode of: $3, 5, 5, 7, 8, 9, 12, 15, 45$.
 
 The mean (12.1) is significantly higher than the median (8) due to the outlier $45$.
 
-:::
 
 ---
 
@@ -105,6 +104,7 @@ $$
 S^2 = \frac{\sum x_i^2 - n\bar{x}^2}{n - 1} = \frac{n\sum x_i^2 - (\sum x_i)^2}{n(n-1)}
 $$
 
+:::
 :::info[Example]
 
 Calculate the standard deviation of: $4, 8, 6, 5, 3, 8, 9, 2, 7$.
@@ -125,15 +125,14 @@ $$
 S \approx 2.438
 $$
 
-:::
 
+:::
 :::caution[Exam Tip]
 
 Know whether to use the population formula ($\div N$) or the sample formula ($\div (n-1)$). In IB
 Exams, when data is from a sample, use $s^2$ (dividing by $n-1$). Your GDC uses the sample Formula
 by default.
 
-:::
 
 ---
 
@@ -165,6 +164,7 @@ Where:
 - $f$ = frequency of median class
 - $w$ = class width
 
+:::
 :::info[Example]
 
 | Mass (g)           | Frequency |
@@ -185,7 +185,6 @@ $$
 \mathrm{Median} \approx 40 + \left(\frac{25 - 17}{18}\right) \times 20 = 40 + \frac{8}{18} \times 20 = 40 + 8.89 = 48.89 \mathrm{ g}
 $$
 
-:::
 
 ---
 
@@ -229,6 +228,7 @@ Plot cumulative frequency against the upper class boundary. From this graph, you
 - Quartiles: at $\dfrac{n}{4}$ and $\dfrac{3n}{4}$
 - Percentiles: at the appropriate fraction of $n$
 
+:::
 :::info[Example]
 
 Using the grouped data from the previous example:
@@ -247,7 +247,6 @@ $$
 Q_1 \approx 20 + \frac{12.5 - 5}{17 - 5} \times 20 = 20 + 12.5 = 32.5 \mathrm{ g}
 $$
 
-:::
 
 ---
 
@@ -289,12 +288,12 @@ $$
 R = \frac{n\sum x_iy_i - \sum x_i \sum y_i}{\sqrt{[n\sum x_i^2 - (\sum x_i)^2][n\sum y_i^2 - (\sum y_i)^2]}}
 $$
 
+:::
 :::caution[Exam Tip]
 
 Correlation does NOT imply causation. Two variables may be strongly correlated without one causing
 The other (they may both be influenced by a third variable).
 
-:::
 
 ---
 
@@ -341,6 +340,7 @@ $r^2$ represents the proportion of variance in $y$ explained by the linear relat
 - $r^2 = 1$: the line explains all the variation.
 - $r^2 = 0$: the line explains none of the variation.
 
+:::
 :::info[Example]
 
 Given the data:
@@ -373,19 +373,18 @@ $$
 
 Regression line: $y = 0.05 + 1.99x$.
 
-:::
 
 ### Extrapolation and Interpolation
 
 - **Interpolation**: predicting within the range of data (generally reliable).
 - **Extrapolation**: predicting outside the range of data (unreliable and potentially misleading).
 
+:::
 :::caution[Exam Tip]
 
 Never extrapolate beyond the data range without acknowledging the uncertainty. IB exam questions
 Often ask you to comment on the reliability of a prediction.
 
-:::
 
 ---
 
@@ -438,6 +437,7 @@ $$
 
 Which follows a $t$-distribution with $n - 2$ degrees of freedom.
 
+:::
 :::info[Example]
 
 A sample of 12 students gives a correlation coefficient of $r = 0.85$ between hours studied and exam
@@ -452,7 +452,6 @@ Since $r = 0.85 \gt 0.497$We reject $H_0$.
 There is sufficient evidence at the 5% level to conclude a positive correlation between hours
 Studied and exam score.
 
-:::
 
 ### Chi-Squared Test for Independence
 
@@ -475,6 +474,7 @@ $$
 **Degrees of freedom**: $\nu = (r-1)(c-1)$ where $r$ is the number of rows and $c$ is the number of
 Columns.
 
+:::
 :::info[Example]
 
 Test whether gender and favourite subject are independent:
@@ -513,14 +513,13 @@ Critical value at $\alpha = 0.05$ with $\nu = 2$: $5.99$.
 
 Since $13.33 \gt 5.99$We reject $H_0$. Gender and favourite subject are not independent.
 
-:::
 
+:::
 :::caution[Exam Tip]
 
 For the chi-squared test, always check that all expected frequencies are at least 5. If any
 $E_i \lt 5$Combine categories or note the limitation.
 
-:::
 
 ---
 
@@ -617,6 +616,7 @@ $170\mathrm{ cm}$.
 | Regression slope | $b = \dfrac{n\sum x_iy_i - \sum x_i \sum y_i}{n\sum x_i^2 - (\sum x_i)^2}$                                      |
 | Chi-squared      | $\chi^2 = \displaystyle\sum \dfrac{(O_i - E_i)^2}{E_i}$                                                         |
 
+:::
 :::tip[Exam Strategy]
 
 For .../4-statistics-and-probability/2_statistics questions in Paper 2, always show your working.
@@ -624,7 +624,6 @@ State hypotheses for Hypothesis tests. When using your GDC, note what function y
 inputs. Interpret results In context — never leave a numerical answer without explaining what it
 means.
 
-:::
 
 ---
 
@@ -651,6 +650,7 @@ $$
 Z = \frac{x - \bar{x}}{s}
 $$
 
+:::
 :::info[Example]
 
 In a test with mean 65 and standard deviation 8, a student scores 81. Find the z-score.
@@ -661,7 +661,6 @@ $$
 
 The student scored 2 standard deviations above the mean.
 
-:::
 
 ---
 
@@ -692,6 +691,7 @@ If $\ln y$ vs $x$ gives a straight line, then $y = ae^{bx}$ where:
 - $b$ is the gradient
 - $\ln a$ is the $y$-intercept
 
+:::
 :::info[Example]
 
 Data suggests $y$ is related to $x$ by $y = ax^b$. A plot of $\log y$ vs $\log x$ has gradient $1.5$
@@ -705,7 +705,6 @@ $$
 Y \approx 5.01x^{1.5}
 $$
 
-:::
 
 ---
 
@@ -830,6 +829,7 @@ $$
 
 Where $z_p$ is the z-score such that $P(Z \lt z_p) = p/100$.
 
+:::
 :::info[Example]
 
 Scores on a test are normally distributed with $\mu = 72$ and $\sigma = 8$. Find the 90th
@@ -845,7 +845,6 @@ $$
 
 A score of 82.26 is at the 90th percentile.
 
-:::
 
 ---
 

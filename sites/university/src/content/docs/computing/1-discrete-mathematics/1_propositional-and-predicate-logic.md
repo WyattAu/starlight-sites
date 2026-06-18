@@ -3,6 +3,7 @@ title: Propositional and Predicate Logic
 tags:
   - Computing
   - University
+description: 'A is a statement that is either true or false. Propositional logic deals with Propositions and their combinations using logical connectives.'
 ---
 
 ### 1.1 Propositional Logic

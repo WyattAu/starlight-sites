@@ -3,6 +3,7 @@ title: Relational Model
 tags:
   - Computing
   - University
+description: 'A over attributes is a set of tuples where Each is drawn from the domain of . A  Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 2.1 Relations, Tuples, Attributes

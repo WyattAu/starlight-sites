@@ -1,8 +1,6 @@
 ---
 title: Organic Chemistry Introduction
-description:
-  'A-Level Organic Chemistry Introduction notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough revision.'
+description: 'Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

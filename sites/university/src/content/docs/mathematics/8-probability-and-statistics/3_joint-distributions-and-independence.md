@@ -1,6 +1,6 @@
 ---
 title: Joint Distributions and Independence
-description: 'University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+description: 'UNIVERSITY Mathematics notes: Joint Distributions and Independence. Comprehensive study material with definitions, examples, and assessment tools.'
 tags:
   - Mathematics
   - University

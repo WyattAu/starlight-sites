@@ -3,6 +3,7 @@ title: Coherence Theory
 tags:
   - Physics
   - University
+description: 'A source has finite if the emitted light has a finite bandwidth . The is Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 11.1 Temporal Coherence

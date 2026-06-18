@@ -1,8 +1,6 @@
 ---
 title: Momentum
-description:
-  'A-Level Maths Momentum notes covering key definitions, core concepts, worked examples, and
-  practice questions for solid study and thorough revision.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | Momentum, impulse, collisions | | Edexcel | P1 |...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -180,8 +178,7 @@ $$1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1$$
 
 Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
-:::caution Warning Energy cannot increase during a collision.
-:::
+> **Caution:** Warning Energy cannot increase during a collision.
 <hr />
 
 ## 6. The Impulse-Momentum Theorem
@@ -893,7 +890,6 @@ Section 8.
 
 </details>
 
-:::
 
 ---
 

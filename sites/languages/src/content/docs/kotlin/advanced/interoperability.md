@@ -1,8 +1,6 @@
 ---
 title: Java Interoperability
-description:
-  'Kotlin Java Interoperability notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear learning and effective revision.'
+description: 'Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language.'
 date: 2026-04-18
 tags:
   - Kotlin

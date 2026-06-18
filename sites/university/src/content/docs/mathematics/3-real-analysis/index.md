@@ -3,6 +3,7 @@ title: Real Analysis
 tags:
   - Mathematics
   - University
+description: 'Real analysis reconstructs the calculus on a rigorous foundation. Where the introductory calculus takes the real numbers, limits, and continuity as informal...'
 ---
 
 # Real Analysis
@@ -31,3 +32,45 @@ with integration and differentiation.
 6. [Riemann Integration](6_riemann-integration.md)
 7. [Sequences and Series of Functions](7_sequences-and-series-of-functions.md)
 8. [Problem Set](8_problem-set.md)
+
+## Overview
+
+University-level real analysis notes covering rigorous calculus, sequences, and integration.
+
+## Topics Covered
+
+- **Real Number System**: Completeness, Archimedean property, density of rationals
+- **Sequences and Limits**: Convergence, monotone convergence, Bolzano-Weierstrass
+- **Series**: Convergence tests, absolute convergence, power series
+- **Continuity and Differentiability**: Limits, derivatives, mean value theorem
+
+## Prerequisites
+
+- Calculus (sequences, series, differentiation, integration)
+- Basic logic and mathematical proofs
+- Mathematical maturity
+
+## How to Use These Notes
+
+Start with the real number system to build foundational knowledge, then progress to sequences, series, and calculus. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of mathematics
+
+## Study Tips
+
+1. **Master the definitions**: Real analysis requires precise understanding of limits and continuity
+2. **Practise proofs**: Learn to write clear, rigorous proofs
+3. **Draw diagrams**: Visualise sequences, series, and functions
+4. **Learn standard examples**: Know the properties of common functions (polynomials, trigonometric, exponential)
+5. **Connect to calculus**: Relate real analysis to the calculus you already know

@@ -1,8 +1,6 @@
 ---
 title: Networking
-description:
-  'University Computer Science Networking notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: '| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User...'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science

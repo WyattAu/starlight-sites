@@ -1,8 +1,6 @@
 ---
 title: Traits and Generics
-description:
-  'Rust Traits and Generics notes covering key definitions, core concepts, worked examples, and
-  practice questions for in-depth study and examination practice.'
+description: 'Traits are Rust's answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are...'
 
 ---
 
@@ -946,5 +944,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

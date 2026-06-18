@@ -1,8 +1,6 @@
 ---
 title: 'M1: Algebra and Calculus'
-description:
-  'DSE Maths Extended Part M1 notes covering inequalities, absolute values, functions, sequences and
-  series, limits, differentiation, and integration with LaTeX math.'
+description: 'Solving linear inequalities follows the same principles as solving linear equations, with one critical difference: multiplying or dividing both sides by a...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Maths

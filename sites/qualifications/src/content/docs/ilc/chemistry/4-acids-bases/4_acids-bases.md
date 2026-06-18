@@ -1,8 +1,6 @@
 ---
 title: Acids, Bases and Salt Preparation
-description:
-  'ILC Chemistry Acids, Bases and Salt Preparation notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods Of salt preparation. It is essential for both Ordinary...'
 date: 2026-04-14
 tags:
   - ilc

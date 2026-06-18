@@ -3,6 +3,7 @@ title: Computational Imaging and Adaptive Optics
 tags:
   - Physics
   - University
+description: '(Candes, Tao, Donoho, 2006) shows that signals that are in some basis can be reconstructed from far fewer measurements than Nyquist sampling requires:'
 ---
 
 ### 19.1 Compressed Sensing

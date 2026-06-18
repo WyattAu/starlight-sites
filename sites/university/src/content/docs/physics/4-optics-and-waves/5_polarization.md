@@ -3,6 +3,7 @@ title: Polarization
 tags:
   - Physics
   - University
+description: 'For a plane wave propagating in the -direction: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 5.1 States of Polarization

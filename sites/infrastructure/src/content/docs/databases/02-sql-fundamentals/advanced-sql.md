@@ -323,7 +323,6 @@ Recursive CTEs can produce exponential result sets on dense graphs. Always inclu
 (`hops &lt; N`) and a visited set to prevent infinite loops. For very large graphs, consider
 Dedicated graph databases like Neo4j.
 
-:::
 
 ## LATERAL Joins
 
@@ -386,13 +385,13 @@ FROM employees e
 CROSS JOIN LATERAL jsonb_each_text(e.attributes) AS kv;
 ```
 
+:::
 :::info
 
 `LATERAL` is implicitly applied for function calls in the `FROM` list (e.g.,
 `FROM generate_series(1, 10)`). You only need the explicit keyword when the subquery references
 Outer columns.
 
-:::
 
 ## Full-Text Search
 
@@ -527,13 +526,13 @@ REFRESH MATERIALIZED VIEW mv_daily_sales_summary;
 REFRESH MATERIALIZED VIEW CONCURRENTLY mv_daily_sales_summary;
 ```
 
+:::
 :::caution
 
 `REFRESH MATERIALIZED VIEW CONCURRENTLY` requires the materialized view to have at least one
 `UNIQUE` index. Without a unique index, only non-concurrent refresh is available, which acquires an
 `ACCESS EXCLUSIVE` lock for the duration of the refresh.
 
-:::
 
 ### Refresh Strategies
 
@@ -952,13 +951,13 @@ SELECT * FROM orders WHERE order_date >= '2024-01-01';
 SELECT * FROM large_table GROUP BY category;
 ```
 
+:::
 :::caution
 
 Planner hints are a last resort. Fix the root cause first: update statistics (`ANALYZE`), create
 Appropriate indexes, or rewrite the query. Hints become stale when data distributions change and can
 Degrade performance over time.
 
-:::
 
 ## Declarative Partitioning
 
@@ -1085,12 +1084,12 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 | Stored  | On disk  | Low       | Higher     | Yes       |
 | Virtual | Computed | Higher    | Low        | No        |
 
+:::
 :::info
 
 PostgreSQL currently only supports `STORED` generated columns. `VIRTUAL` (computed on read) is in
 The SQL standard but not yet implemented. Other databases like MySQL and SQL Server support both.
 
-:::
 
 ## Domains and Custom Types
 
@@ -1139,6 +1138,7 @@ CREATE TABLE orders (
 SELECT * FROM orders WHERE status >= 'shipped';
 ```
 
+:::
 :::caution
 
 ENUM types in PostgreSQL are difficult to modify. Adding a value requires
@@ -1146,7 +1146,6 @@ ENUM types in PostgreSQL are difficult to modify. Adding a value requires
 Removing values is not straightforward. For rapidly changing sets of states, use a lookup table with
 A foreign key constraint instead.
 
-:::
 
 ### Composite Types
 
@@ -1309,3 +1308,5 @@ $\blacksquare$
 - `LAG`, `LEAD`, `FIRST_VALUE`, `LAST_VALUE` provide positional access within a window frame.
 - Recursive CTEs enable hierarchical queries (org charts, bill-of-materials, tree traversal).
 
+
+:::

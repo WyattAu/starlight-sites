@@ -1,8 +1,6 @@
 ---
 title: Halogenoalkanes
-description:
-  'A-Level Chemistry Halogenoalkanes notes covering key definitions, core concepts, worked examples,
-  and practice questions for focused preparation.'
+description: 'Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an Alkane have been replaced by a halogen atom. The general...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

@@ -1,8 +1,6 @@
 ---
 title: Widgets and Lifecycle
-description:
-  'Dart Widgets and Lifecycle notes covering key definitions, core concepts, worked examples, and
-  practice questions for detailed revision and exam readiness.'
+description: 'Flutter's rendering model is declarative. You do not mutate a view object in place; you describe What the UI should look like for a given state, and the...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

@@ -1,8 +1,6 @@
 ---
 title: Object-Oriented Programming
-description:
-  'Ruby classes, modules, inheritance, super, mixins, include/extend/prepend, access control,
-  attr_accessor, class methods, class variables, Comparable, and Enumerable.'
+description: 'class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

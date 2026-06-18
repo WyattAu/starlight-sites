@@ -1,8 +1,6 @@
 ---
 title: Email and Application Protocols
-description:
-  'Email and Application Protocols notes covering key definitions, core concepts, worked examples,
-  and practice questions for methodical revision.'
+description: 'Electronic mail and application-layer protocols form the backbone of human communication over the Internet. This document examines the architecture,...'
 date: 2026-04-09T00:00:00.000Z
 tags:
   - Networking

@@ -1,8 +1,6 @@
 ---
 title: Definitions
-description:
-  'Probabilisticml Definitions notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective revision.'
+description: 'To understand the basis for probability theory, it is important to fully understand every term used. Here are the definitions for the terms we will be...'
 date: 2026-01-15T09:31:35.184Z
 tags:
   - ML
@@ -555,7 +553,7 @@ $$
 P(A \cup B) = P(A) + P(B) - P(A \cap B)
 $$
 
-:::info You are reminded that mutually exclusive events have the property $P(A \cap B) = 0$ :::
+> **Info:** You are reminded that mutually exclusive events have the property $P(A \cap B) = 0$
 
 ### Conditional Probability
 
@@ -2099,8 +2097,8 @@ The measure $P(A)$ represent a degree of belief of event $A$ given the current s
 The parameter $\theta$ itself is treated as a random element mapping from an underlying probability
 space $\Omega$ to the parameter space $\Theta$.
 
-:::info In practice, we often work directly with a prior probability measure defined on the
-parameter space $\Theta$
+> **Info:** In practice, we often work directly with a prior probability measure defined on the
+> parameter space $\Theta$
 
 ### Uncertainty
 

@@ -3,6 +3,7 @@ title: Normal Subgroups and Quotient Groups
 tags:
   - Mathematics
   - University
+description: 'Normal Subgroups and Quotient Groups: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 4.1 Normal Subgroups

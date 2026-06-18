@@ -1,8 +1,6 @@
 ---
 title: Digital Forensics Basics
-description:
-  'Digital Forensics Basics notes covering key definitions, core concepts, worked examples, and
-  practice questions for targeted study and examination practice.'
+description: 'The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence...'
 
 ---
 

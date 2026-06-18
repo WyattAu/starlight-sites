@@ -1,8 +1,6 @@
 ---
 title: 'Cell Biology -- Diagnostic Tests'
-description:
-  'ILC Biology Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Transformations and Convolutions
-description: 'University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+description: 'UNIVERSITY Mathematics notes: Transformations and Convolutions. Comprehensive study material with definitions, examples, and assessment tools.'
 tags:
   - Mathematics
   - University

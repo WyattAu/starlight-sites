@@ -3,6 +3,7 @@ title: The Standard Model
 tags:
   - Physics
   - University
+description: 'The of particle physics describes the fundamental particles and their interactions Via three of the four known forces: the electromagnetic, weak, and strong...'
 ---
 
 ### 1.1 Overview

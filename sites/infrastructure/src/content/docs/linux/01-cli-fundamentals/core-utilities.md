@@ -1,8 +1,6 @@
 ---
 title: Core Utilities
-description:
-  'Core Utilities notes covering key definitions, core concepts, worked examples, and practice
-  questions for rigorous learning and effective revision.'
+description: 'GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These...'
 
 ---
 
@@ -97,7 +95,6 @@ In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\`
 special meaning. In ERE, the reverse is true — they are special by default and must be escaped To be
 literal. This is a frequent source of confusion.
 
-:::
 
 ### `sed` — Stream Editor
 
@@ -388,13 +385,13 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
 
+:::
 :::caution
 
 Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
 Handle these cases correctly.
 
-:::
 
 ### `xargs` — Build and Execute Commands
 
@@ -585,13 +582,13 @@ rsync -av --partial --progress /source/large_file /dest/
 rsync -av --bwlimit=1000 /source/ user@host:/dest/
 ```
 
+:::
 :::tip
 
 Always use trailing slashes on source paths in rsync. `/source/` means "contents of source", while
 `/source` means "source directory itself". The difference is whether the source directory name is
 Created in the destination.
 
-:::
 
 ## File Permissions
 
@@ -671,6 +668,7 @@ chmod +t /tmp
 chmod 4755 /usr/local/bin/custom_tool
 ```
 
+:::
 :::caution
 
 SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users
@@ -680,7 +678,6 @@ Can be used for privilege escalation. Audit SUID files regularly:
 find / -perm -4000 -type f -exec ls -la {} \; 2>/dev/null
 ```
 
-:::
 
 ### `umask`
 
@@ -915,3 +912,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

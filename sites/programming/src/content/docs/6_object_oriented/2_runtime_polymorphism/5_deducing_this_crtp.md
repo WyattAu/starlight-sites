@@ -1,8 +1,6 @@
 ---
 title: Deducing This and CRTP
-description:
-  'C++ Programming Deducing This and CRTP notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'C++23 introduces (deducing this), which eliminates the need for the Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

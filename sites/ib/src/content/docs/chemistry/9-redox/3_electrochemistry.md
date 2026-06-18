@@ -135,7 +135,6 @@ $$
 When the question specifies acidic or basic conditions, you MUST show the balanced half-equations
 Separately before combining them. Showing working is essential for full marks.
 
-:::
 
 ---
 
@@ -211,13 +210,13 @@ Oxidation half-reaction (anode).
 **Definition.** A spontaneous redox reaction will occur when a species with a more positive
 Reduction potential is paired with a species with a more negative reduction potential.
 
+:::
 :::caution[Common Mistake]
 
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
 When calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
 Electrons transferred.
 
-:::
 
 ---
 
@@ -320,14 +319,15 @@ In a galvanic cell:
 | Sign in galvanic cell | Negative ($-$)        | Positive ($+$)         |
 | Ion migration         | Anions migrate toward | Cations migrate toward |
 
+:::
 :::caution[Common Mistake]
 
 Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In galvanic cells, the
 Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
 Of the external power supply).
 
-:::
 
+:::
 :::info[IB Exam Tip]
 
 When asked to predict whether a reaction is spontaneous, always:
@@ -337,7 +337,6 @@ When asked to predict whether a reaction is spontaneous, always:
 3. Calculate $E^\circ_{\mathrm{cell}}$.
 4. If $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
 
-:::
 
 ---
 
@@ -422,6 +421,7 @@ Electrode when multiple species are present. On:
 2. The concentration of ions (higher concentration favours discharge).
 3. The nature of the electrode (e.g., carbon vs. Mercury).
 
+:::
 :::info[IB Exam Tip]
 
 For IB exams, use the simplified rules:
@@ -431,7 +431,6 @@ For IB exams, use the simplified rules:
 - At the anode: if halide ions are present (except fluoride), the halogen is produced; otherwise,
   oxygen gas from water oxidation is produced.
 
-:::
 
 ---
 
@@ -520,12 +519,12 @@ Comparison of chlor-alkali cell types:
 | Environmental impact   | Low              | Moderate       | High (Hg pollution) |
 | Current usage          | Primary method   | Declining      | Phased out          |
 
+:::
 :::info[IB Exam Tip]
 
 The membrane cell is the preferred method for the chlor-alkali process. Know the half-equations at
 Each electrode and the purpose of the membrane.
 
-:::
 
 ---
 
@@ -620,6 +619,7 @@ $$
 **Definition.** At equilibrium, the cell potential is zero. The standard cell potential directly
 Determines the equilibrium constant.
 
+:::
 :::info[IB Exam Tip]
 
 A useful relationship: a larger positive $E^\circ_{\mathrm{cell}}$ means a larger equilibrium
@@ -627,7 +627,6 @@ Constant $K$Meaning the reaction proceeds further to completion. For
 $E^\circ_{\mathrm{cell}} \gt 0.3\mathrm{ V}$ (approximately), $K \gt 1$And the reaction can be
 Considered to go essentially to completion.
 
-:::
 
 ### Nernst Equation for Half-Cells
 
@@ -645,12 +644,12 @@ $$
 
 If $[\mathrm{Fe}^{2+}] \gt [\mathrm{Fe}^{3+}]$Then $E \lt E^\circ$ (less tendency to be reduced).
 
+:::
 :::caution[Common Mistake]
 
 When applying the Nernst equation to a half-cell, ensure the reduced form is in the numerator and
 The oxidized form is in the denominator. Reversing this will give the wrong answer.
 
-:::
 
 ---
 
@@ -734,13 +733,13 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 | $E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{RT}{nF}\ln Q$ | Cell potential under non-standard conditions                              |
 | $\Delta G = -nFE_{\mathrm{cell}}$                                  | Gibbs free energy under non-standard conditions                           |
 
+:::
 :::caution[Common Mistake]
 
 When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
 Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
 $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$Then $n = 2$Not $n = 1$.
 
-:::
 
 ---
 
@@ -848,6 +847,7 @@ $$
 V(\mathrm{Cl}_2) = nRT/P = 0.04663 \times 22.7\mathrm{ dm}^3 = 1.06\mathrm{ dm}^3 \mathrm{ at STP}
 $$
 
+:::
 :::info[IB Exam Tip]
 
 Always convert time to seconds before calculating charge. Always check whether the question gives
@@ -855,7 +855,6 @@ Volume conditions (STP, RTP, or specific T and P). The IB data booklet uses
 $22.7\mathrm{ dm}^3\mathrm{/mol}$ at STP ($273\mathrm{ K}$$100\mathrm{ kPa}$) and
 $24.0\mathrm{ dm}^3\mathrm{/mol}$ at RTP ($298\mathrm{ K}$$100\mathrm{ kPa}$).
 
-:::
 
 ### Current Efficiency
 
@@ -940,13 +939,13 @@ Transport limitations, $40\mathrm{-}60\%$.
 | Continuous operation with fuel supply                              | Limited infrastructure for hydrogen refuelling   |
 | Scalable design                                                    | Water management in PEM cells                    |
 
+:::
 :::info[IB Exam Tip]
 
 When comparing fuel cells to combustion engines, emphasize that fuel cells are more efficient
 Because they are not limited by the Carnot cycle. Also, note that the overall reaction is the same
 As combustion of hydrogen, but the energy conversion pathway is different.
 
-:::
 
 ---
 
@@ -1050,13 +1049,13 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 | Alloying (stainless steel) | Passive oxide layer   | Very durable                   | Expensive, not suitable for all applications |
 | Impressed current          | Forced cathode        | Effective for large structures | Requires continuous power supply             |
 
+:::
 :::info[IB Exam Tip]
 
 When explaining why zinc protects iron in galvanizing, reference the electrochemical series: zinc
 Has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
 Principle as sacrificial anodes.
 
-:::
 
 ---
 
@@ -1149,13 +1148,13 @@ Key features:
 | Cost                | Lower          | Higher               |
 | Weight              | Heavy          | Lightweight          |
 
+:::
 :::info[IB Exam Tip]
 
 Know the half-reactions for the lead-acid battery. The key insight is that during discharge, both
 Electrodes are converted to $\mathrm{PbSO}_4$And during charging, the reaction is reversed. This
 Reversibility is what makes the battery rechargeable.
 
-:::
 
 ---
 
@@ -1604,3 +1603,5 @@ $$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

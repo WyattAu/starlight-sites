@@ -1,8 +1,6 @@
 ---
 title: Navigation
-description:
-  'Dart Navigation notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused revision and examination preparation.'
+description: 'Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

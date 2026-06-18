@@ -3,6 +3,7 @@ title: Singular Value Decomposition
 tags:
   - Mathematics
   - University
+description: 'Singular Value Decomposition: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 8.1 Existence of the SVD

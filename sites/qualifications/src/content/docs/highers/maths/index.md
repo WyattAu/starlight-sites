@@ -1,8 +1,6 @@
 ---
 title: Scottish Highers Mathematics
-description:
-  'Scottish Higher and Advanced Higher Mathematics revision notes. Part of the Scottish Higher
-  Mathematics revision notes for SQA exam preparation.'
+description: 'Higher Mathematics develops algebraic, trigonometric, and calculus skills essential for STEM subjects and university entry. The course covers functions,...'
 date: 2026-04-14
 tags:
   - highers
@@ -25,33 +23,33 @@ statistics, assessed through an SQA examination and coursework.
 Functions, notation, domain/range, quadratic functions, composite and inverse functions, graph
 transformations, and polynomial algebra.
 
-→ **[Full notes](./1-algebra-functions/1-algebra-functions)**
+→ **[Full notes](1-algebra-functions/1_algebra-functions.mdx)**
 
 ### Trigonometry & Geometry
 
 Trigonometric functions, identities, equations, addition formulae, wave functions, and geometric
 applications.
 
-→ **[Full notes](./2-trigonometry/2-trigonometry)**
+→ **[Full notes](2-trigonometry/2_trigonometry.md)**
 
 ### Calculus
 
 Differentiation and integration of polynomial, trigonometric, and exponential functions,
 applications to rates of change and areas.
 
-→ **[Full notes](./3-calculus/3-calculus)**
+→ **[Full notes](3-calculus/3_calculus.md)**
 
 ### Vectors & Matrices
 
 Vector components, scalar product, angle between vectors, vector geometry, and matrix operations.
 
-→ **[Full notes](./4-vectors/4-vectors)**
+→ **[Full notes](4-vectors/4_vectors.md)**
 
 ### Statistics & Probability
 
 Probability distributions, statistical analysis, data interpretation, and hypothesis testing.
 
-→ **[Full notes](./5-statistics/5-statistics)**
+→ **[Full notes](5-statistics/5_statistics.md)**
 
 ## Study Tips
 
@@ -100,4 +98,44 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
+
+## Overview
+
+This section provides comprehensive Qualifications Highers content, covering all specification points with detailed explanations, worked examples, and practice questions.
+
+## Content Structure
+
+Each page in this section includes:
+
+- **Definitions**: Clear, precise explanations of key concepts
+- **Worked Examples**: Step-by-step solutions with annotations
+- **Practice Questions**: Examination-style questions with detailed solutions
+- **Common Pitfalls**: Errors to avoid and how to fix them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use These Notes
+
+1. Read the introductory page to understand the topic overview
+2. Work through each sub-topic in order
+3. Attempt the practice questions before checking solutions
+4. Use the flashcards to revise key terminology
+5. Complete the diagnostic test to identify remaining gaps
+
+## Key Topics
+
+- Core definitions and principles
+- Application to examination-style questions
+- Links to related topics across the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself regularly rather than re-reading notes
+- **Spaced Practice**: Revisit this topic at increasing intervals
+- **Interleaving**: Mix with other topics during revision sessions
+- **Elaboration**: Explain concepts in your own words
+
+## Exam Preparation
+
+Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 :::

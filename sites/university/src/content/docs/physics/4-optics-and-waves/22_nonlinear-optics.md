@@ -3,6 +3,7 @@ title: Nonlinear Optics
 tags:
   - Physics
   - University
+description: 'When the electric field is strong (e.g., laser), the polarisation develops nonli Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 18.1 Nonlinear Polarisation

@@ -1,8 +1,6 @@
 ---
 title: HTTP/2 and HTTP/3
-description:
-  'HTTP/2 and HTTP/3 notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured review and exam preparation.'
+description: 'HTTP/2 (RFC 9113) and HTTP/3 (RFC 9114) are the modern versions of the Hypertext Transfer Protocol. HTTP/2 brought binary framing, multiplexing, and header...'
 tags:
   - Networking
 categories:
@@ -118,7 +116,6 @@ HPACK is designed to be resistant to CRIME/BREACH-style compression oracle attac
 Compress across different origins (the dynamic table is per-origin), and it does not compress cookie
 Values in a way that leaks information.
 
-:::
 
 ### Server Push
 
@@ -141,6 +138,7 @@ Client                                          Server
   |<-- DATA [stream 4]: JS body -------------------|
 ```
 
+:::
 :::caution
 
 Server push has been deprecated in practice. Chrome removed support in 2022, and Firefox followed.
@@ -148,7 +146,6 @@ The rationale: caching is more effective (the client can predict what it needs b
 Push is hard to get right (pushing resources the client already has cached wastes bandwidth), and
 Push complicates the client's cache state. Use `&lt;link rel="preload"&gt;` instead.
 
-:::
 
 ### Stream Priority and Dependencies
 
@@ -169,13 +166,13 @@ weight:12  weight:20
 In this example, stream 1 gets twice the bandwidth of stream 3 (weight 32 vs 16). Within stream 1's
 Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 
+:::
 :::caution
 
 In practice, stream priority implementation varies between servers and clients, and the results are
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
 For critical performance optimization.
 
-:::
 
 ### Connection Preface
 
@@ -662,13 +659,13 @@ Result: streams 1, 3, 5 are processed normally
         streams 7, 9 may have been partially processed and should be retried
 ```
 
+:::
 :::info
 
 GOAWAY does not immediately terminate the connection. Existing streams can continue to complete. The
 Sender should continue processing streams with IDs less than or equal to `last_stream_id`. Only new
 Streams with IDs greater than `last_stream_id` are rejected.
 
-:::
 
 ### PUSH_PROMISE (0x5)
 
@@ -695,6 +692,7 @@ effective_window = min(connection_window, stream_window)
 The default initial window size is 65,535 bytes (65535 = 2^16 - 1). This can be changed via the
 SETTINGS frame's INITIAL_WINDOW_SIZE parameter.
 
+:::
 :::caution
 
 Changing INITIAL_WINDOW_SIZE affects only new streams, not existing ones. Existing streams continue
@@ -925,5 +923,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

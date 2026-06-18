@@ -1,8 +1,6 @@
 ---
 title: Matrices and Transformations (Extended)
-description:
-  'A-Level Further Maths Matrices and Transformations notes covering key definitions, core concepts,
-  worked examples, and practice questions for revision.'
+description: 'This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors.'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

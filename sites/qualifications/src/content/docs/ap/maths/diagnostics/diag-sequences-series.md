@@ -1,8 +1,6 @@
 ---
 title: 'Sequences and Series -- Diagnostic Tests [BC Only]'
-description:
-  'Qualifications Maths Sequences and Series -- Diagnostic notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: '> Tests edge cases, boundary conditions, and common misconceptions for sequences Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap

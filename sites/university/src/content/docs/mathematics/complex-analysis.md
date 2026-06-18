@@ -1,8 +1,6 @@
 ---
 title: Complex Analysis
-description:
-  'University Mathematics Complex Analysis notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: 'Complex Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Mathematics

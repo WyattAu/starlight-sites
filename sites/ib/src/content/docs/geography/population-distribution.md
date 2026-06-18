@@ -1,8 +1,6 @@
 ---
 title: Population Distribution
-description:
-  'IB Geography Population Distribution notes covering key definitions, core concepts, worked
-  examples, and practice questions for solid revision.'
+description: 'This section covers the IB Geography core extension on population distribution -- changing population. It examines the factors that influence where people...'
 
 ---
 

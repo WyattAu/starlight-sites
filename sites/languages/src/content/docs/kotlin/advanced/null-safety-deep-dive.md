@@ -1,8 +1,6 @@
 ---
 title: Null Safety Deep Dive
-description:
-  'Kotlin Null Safety Deep Dive notes covering key definitions, core concepts, worked examples, and
-  practice questions for complete exam preparation and revision.'
+description: 'Kotlin's type system distinguishes between nullable and non-null types at compil Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-31
 tags:
   - Kotlin

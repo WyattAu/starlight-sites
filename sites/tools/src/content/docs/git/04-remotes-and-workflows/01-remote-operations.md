@@ -1,8 +1,6 @@
 ---
 title: Remote Operations
-description:
-  'Git Remote Operations notes covering key definitions, core concepts, worked examples, and
-  practice questions for efficient learning and effective revision.'
+description: 'Git's distributed architecture means there is no intrinsic client-server relationship. Any repository can act as a "remote" for any other. In practice, one...'
 date: 2025-06-03T06:00:00.000Z
 tags:
   - git
@@ -70,7 +68,6 @@ remote's branch pointer, but the remote's working directory and index will not b
 inconsistencies. If you need a server-side repo with a working tree, use a **post-receive hook** to
 check out the files.
 
-:::
 
 ## Configuring Remotes
 
@@ -117,12 +114,12 @@ $ git remote set-url origin git@github.com:user/repo.git
 | **HTTPS** | `https://github.com/user/repo.git` | Token / password | Public repos, CI/CD, firewalled environments |
 | **SSH**   | `git@github.com:user/repo.git`     | SSH key          | Frequent pushes, personal development        |
 
+:::
 :::tip
 
 Use SSH for personal development (no password prompts after key setup). Use HTTPS for CI/CD (easier
 to inject tokens as environment variables). GitHub recommends HTTPS for all new repositories.
 
-:::
 
 ## Fetch
 
@@ -214,13 +211,13 @@ gitGraph
     commit id: "E'"
 ```
 
+:::
 :::caution
 
 `git pull --rebase` rewrites your local commit hashes. This is safe as long as you have not pushed
 those commits to a shared branch. If you have, see the
 [Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing.md#the-golden-rule-of-rebasing).
 
-:::
 
 ## Push
 
@@ -290,6 +287,7 @@ flowchart LR
     style D1 fill:#ffcdd2
 ```
 
+:::
 :::caution
 
 - **`--force`**: Unconditionally overwrites the remote. Use only on branches you exclusively own.
@@ -303,7 +301,6 @@ Never force push `main` or any shared branch. The consequences are:
 3. They must `git pull --rebase` or reset their branches, potentially losing their own unpushed
    commits.
 
-:::
 
 ## Clone
 
@@ -463,3 +460,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

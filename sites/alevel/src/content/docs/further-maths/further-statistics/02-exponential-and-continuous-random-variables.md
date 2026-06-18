@@ -1,8 +1,6 @@
 ---
 title: Exponential Distribution and Continuous Random Variables
-description:
-  'A-Level Further Maths Exponential Distribution and notes covering key definitions, core concepts,
-  worked examples, and practice questions for revision.'
+description: 'The exponential distribution models the time between events in a Poisson process, while the theory Of continuous random variables extends probability to...'
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -754,7 +752,6 @@ $P(1 \lt X \lt 2) = F(2) - F(1) = \dfrac{4}{9} - \dfrac{1}{9} = \dfrac{1}{3}$.
 
 </details>
 
-:::
 
 ---
 

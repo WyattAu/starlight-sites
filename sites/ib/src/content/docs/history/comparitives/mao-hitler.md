@@ -2,9 +2,7 @@
 title: Mao and Hitler Authoritarian Regimes
 tags:
   - history
-description:
-  'IB History Mao and Hitler Authoritarian Regimes notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused revision.'
+description: '| | Hitler | Mao | | :--------------------- | :--------------------------------------------------------------------------------------------------------------...'
 ---
 
 ## Ideology

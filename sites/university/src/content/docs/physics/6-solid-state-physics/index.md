@@ -3,6 +3,7 @@ title: Solid State Physics
 tags:
   - Physics
   - University
+description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 # Solid State Physics
@@ -25,3 +26,46 @@ tags:
 14. [Many-Body Physics in Solids](14_many-body-physics-in-solids.md)
 15. [Advanced Semiconductor Physics](15_advanced-semiconductor-physics.md)
 16. [Advanced Semiconductor Physics (Continued)](16_advanced-semiconductor-physics-continued.md)
+
+## Overview
+
+University-level solid state physics notes covering crystal structures, band theory, and superconductivity.
+
+## Topics Covered
+
+- **Crystal Structures**: Lattices, unit cells, reciprocal lattice, diffraction
+- **Lattice Dynamics**: Phonons, thermal properties, specific heat
+- **Electronic Structure**: Band theory, Fermi surface, semiconductors
+- **Superconductivity**: BCS theory, critical temperature, Meissner effect
+
+## Prerequisites
+
+- Quantum mechanics (wave functions, operators, perturbation theory)
+- Statistical mechanics (ensembles, partition functions)
+- Electromagnetism (Maxwell's equations, dielectrics)
+- Linear algebra (vectors, matrices, Fourier transforms)
+
+## How to Use These Notes
+
+Start with crystal structures to build foundational knowledge, then progress to electronic band structure and superconductivity. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of physics
+
+## Study Tips
+
+1. **Master crystal structures**: Understand lattice geometry and symmetry
+2. **Practise problems**: Work through many problems to build intuition
+3. **Draw diagrams**: Visualise crystal structures and band diagrams
+4. **Learn Bloch's theorem**: Understand the foundation of band theory
+5. **Connect to applications**: Relate solid state physics to semiconductors and superconductors

@@ -1,8 +1,6 @@
 ---
 title: Special Member Function Generation Rules
-description:
-  'C++ Programming Special Member Function Generation Rules notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'The compiler automatically generates special member functions (SMFs) — destructor, copy/move Constructors, and copy/move assignment operators — according to...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -659,7 +657,6 @@ int main() {
 - [Access Control and Friendship](./2_access_control.md)
 - [Operator Overloading](./4_operator_overloading.md)
 
-:::
 
 ## Summary
 

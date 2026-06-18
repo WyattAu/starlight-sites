@@ -3,6 +3,7 @@ title: File Systems
 tags:
   - Computing
   - University
+description: 'A is a named collection of related data on secondary storage. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 6.1 File Concepts

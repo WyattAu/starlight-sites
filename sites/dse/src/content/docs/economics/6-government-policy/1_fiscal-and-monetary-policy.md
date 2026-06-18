@@ -1,8 +1,6 @@
 ---
 title: Fiscal and Monetary Policy
-description:
-  'DSE Economics Fiscal and Monetary Policy notes covering key definitions, core concepts, worked
-  examples, and practice questions for rigorous revision.'
+description: 'Macroeconomic policy refers to government actions designed to influence the overall performance of The economy. The primary objectives are:'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

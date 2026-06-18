@@ -3,6 +3,7 @@ title: Inner Product Spaces
 tags:
   - Mathematics
   - University
+description: 'An on a vector space over (where or ) is a Function satisfying: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 7.1 Definition of an Inner Product

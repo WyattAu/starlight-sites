@@ -3,6 +3,7 @@ title: Advanced Electrodynamics
 tags:
   - Physics
   - University
+description: 'The scalar potential of a localised charge distribution at large distances (Wher Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 11.1 Multipole Expansion

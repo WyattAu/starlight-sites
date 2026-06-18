@@ -1,8 +1,6 @@
 ---
 title: Processes and Signals
-description:
-  'Processes and Signals notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused learning and effective revision.'
+description: 'Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The...'
 
 ---
 
@@ -184,7 +182,6 @@ A process in the **D state** (uninterruptible sleep) cannot be killed with `SIGK
 is waiting for disk I/O that will never complete (e.g., NFS server down, failed disk). The Only way
 to clear it is to fix the underlying I/O or reboot.
 
-:::
 
 ## Signals
 
@@ -477,13 +474,13 @@ chrt -r 80 command             # SCHED_RR, priority 80
 chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 ```
 
+:::
 :::caution
 
 Real-time scheduling policies can starve the system. A `SCHED_FIFO` process that never blocks will
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
 Only for well-understood, bounded workloads (audio processing, industrial control).
 
-:::
 
 ## cgroups
 
@@ -598,6 +595,7 @@ ulimit -u 4096     # increase max processes
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
 
+:::
 :::caution
 
 `ulimit` settings in `/etc/security/limits.conf` apply to PAM sessions (login, `su``sudo`). They Do
@@ -804,5 +802,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

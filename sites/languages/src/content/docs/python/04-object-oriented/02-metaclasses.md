@@ -1,8 +1,6 @@
 ---
 title: Metaclasses and Class Creation
-description:
-  'Python Metaclasses and Class Creation notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured preparation.'
+description: 'The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

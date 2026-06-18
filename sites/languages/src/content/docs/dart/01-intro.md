@@ -1,8 +1,6 @@
 ---
 title: Introduction to Dart & Flutter
-description:
-  'Dart Introduction to Dart & Flutter notes covering key definitions, core concepts, worked
-  examples, and practice questions for systematic revision.'
+description: 'This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 
@@ -387,5 +385,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

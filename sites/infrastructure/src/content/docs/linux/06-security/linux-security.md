@@ -1,8 +1,6 @@
 ---
 title: Linux Security
-description:
-  'Linux Security notes covering key definitions, core concepts, worked examples, and practice
-  questions for targeted revision and examination preparation.'
+description: 'Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and...'
 
 ---
 
@@ -64,7 +62,6 @@ Always use `usermod -aG group user` instead of `usermod -G group user`. Without 
 **replaces** all existing group memberships. This is one of the most common mistakes in Linux
 Administration.
 
-:::
 
 ### Special UIDs
 
@@ -251,13 +248,13 @@ CapabilityBoundingSet=CAP_NET_BIND_SERVICE CAP_NET_RAW
 NoNewPrivileges=yes
 ```
 
+:::
 :::tip
 
 The principle of least privilege applies to capabilities: grant only what is needed. `CAP_SYS_ADMIN`
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
 Whenever possible.
 
-:::
 
 ## SELinux
 
@@ -826,3 +823,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: Collections
-description:
-  'Kotlin Collections notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured revision and exam readiness.'
+description: 'Kotlin's collection types are split into two hierarchies: and . Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-18
 tags:
   - Kotlin

@@ -1,8 +1,6 @@
 ---
 title: Strings and Text Processing
-description:
-  'Java Strings and Text Processing notes covering key definitions, core concepts, worked examples,
-  and practice questions for structured revision.'
+description: 'is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in...'
 
 ---
 

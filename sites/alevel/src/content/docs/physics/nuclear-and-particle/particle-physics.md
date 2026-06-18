@@ -1,8 +1,6 @@
 ---
 title: Particle Physics
-description:
-  'A-Level Particle Physics notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured learning and effective revision.'
+description: 'The Standard Model classifies all known fundamental particles and their interact Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]
@@ -11,8 +9,7 @@ categories: [Physics]
 
 ## Particle Physics
 
-:::info Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
 ## 1. The Standard Model
 
 The Standard Model classifies all known fundamental particles and their interactions. It describes:

@@ -1,8 +1,6 @@
 ---
 title: Class Loading and Memory Model
-description:
-  'Java Class Loading and Memory Model notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'The JVM uses a hierarchical class loading architecture with parent-delegation. When a class loader Receives a request to load a class, it first delegates...'
 date: 2026-04-03T00:00:00.000Z
 tags: ['java']
 categories: ['java']

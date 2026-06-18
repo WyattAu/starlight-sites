@@ -3,6 +3,7 @@ title: Lebesgue Measurable Sets and Non-Measurable Sets
 tags:
   - Mathematics
   - University
+description: 'Comprehensive educational content notes on lebesgue measurable sets and non-measurable sets with precise definitions, worked examples, and common pitfalls.'
 ---
 
 ### 4.1 Properties of Lebesgue Measurable Sets

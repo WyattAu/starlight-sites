@@ -1,8 +1,6 @@
 ---
 title: The International Economy
-description:
-  'A-Level Economics The International Economy notes covering key definitions, core concepts, worked
-  examples, and practice questions for rigorous revision.'
+description: 'Numerical examples and covers the Ricardian and Heckscher-Ohlin models. focuses on the gains From trade and limitations of the comparative advantage model....'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

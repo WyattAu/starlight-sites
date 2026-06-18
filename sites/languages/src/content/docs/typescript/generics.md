@@ -1,8 +1,6 @@
 ---
 title: Generics
-description:
-  'Typescript Generics notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused study and examination practice.'
+description: 'Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...'
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -211,8 +209,7 @@ Implemented using mapped types and conditional types.
 ```ts
 interface Todo {
   title: string;
-  description: string;
-  completed: boolean;
+description: 'Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...'
 }
 
 type PartialTodo = Partial<Todo>;

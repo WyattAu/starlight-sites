@@ -3,6 +3,7 @@ title: Dispersion
 tags:
   - Physics
   - University
+description: 'The refractive index varies with frequency: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 11.1 Normal and Anomalous Dispersion

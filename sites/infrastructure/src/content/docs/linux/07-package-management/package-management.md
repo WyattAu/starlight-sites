@@ -1,8 +1,6 @@
 ---
 title: Package Management
-description:
-  'Package Management notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear study and examination practice.'
+description: 'A Linux package is an archive containing compiled software, configuration files, metadata (version, Description, dependencies), and install/uninstall...'
 
 ---
 
@@ -875,5 +873,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

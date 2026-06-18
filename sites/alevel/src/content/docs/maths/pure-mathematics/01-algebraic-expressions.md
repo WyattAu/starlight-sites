@@ -1,8 +1,6 @@
 ---
 title: Algebraic Expressions
-description:
-  'A-Level Maths Algebraic Expressions notes covering key definitions, core concepts, worked
-  examples, and practice questions for rigorous revision.'
+description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -145,7 +143,7 @@ $$
 
 The extension to rational and real exponents requires more sophisticated machinery (continuity
 Arguments and the exponential function), which we develop in
-[Exponentials and Logarithms](./09-exponentials-and-logarithms.md).
+[Exponentials and Logarithms](09-exponentials-and-logarithms.mdx).
 
 _Intuition._ Exponentiation is repeated multiplication, so multiplying two powers of the same base
 Adds the counts. Just as $3 \times 5$ counts $3 + 5$ groups of size 1, $a^3 \cdot a^5$ counts
@@ -563,7 +561,7 @@ $$
 Discriminant: $\Delta = 9 - 20 = -11 < 0$. No real solutions.
 
 </details>
-<b>If you get this wrong, revise:</b> [Algebraic fractions](#6-simplifying-algebraic-fractions) and [Quadratics](./02-quadratics.md)
+<b>If you get this wrong, revise:</b> [Algebraic fractions](#6-simplifying-algebraic-fractions) and [Quadratics](02-quadratics.mdx)
 
 <hr />
 
@@ -646,7 +644,7 @@ $k = 6$: gives $x^2 + 6x + 9 = (x + 3)^2$ ✓
 $k = -2$: gives $x^2 - 2x + 1 = (x - 1)^2$ ✓
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratics](./02-quadratics.md)
+<b>If you get this wrong, revise:</b> [Quadratics](02-quadratics.mdx)
 
 ---
 

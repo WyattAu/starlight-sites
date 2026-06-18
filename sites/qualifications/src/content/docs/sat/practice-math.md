@@ -5,9 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description:
-  SAT Mathematics practice problems with step-by-step solutions. Covers algebra, advanced math,
-  problem-solving, data analysis, and geometry topics tested on.
+description: 'This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,...'
 ---
 
 ## Overview

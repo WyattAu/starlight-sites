@@ -1,8 +1,6 @@
 ---
 title: Introduction to Linux
-description:
-  'Introduction to Linux notes covering key definitions, core concepts, worked examples, and
-  practice questions for detailed revision and exam readiness.'
+description: 'Linux is a first released by Linus Torvalds in 1991. When People say "Linux" in practice, they almost always mean a — the kernel Bundled with GNU userland,...'
 
 ---
 
@@ -149,5 +147,6 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
 
 :::

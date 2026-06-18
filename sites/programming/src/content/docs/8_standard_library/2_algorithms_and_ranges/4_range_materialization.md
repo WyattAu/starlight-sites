@@ -1,8 +1,6 @@
 ---
 title: Range Materialization (std::ranges::to)
-description:
-  'C++ Programming Range Materialization (std::ranges::to) notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or Independence from the source lifetime, you must the view...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

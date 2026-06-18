@@ -1,8 +1,6 @@
 ---
 title: Genetics and Behaviour
-description:
-  'IB Psychology Genetics and Behaviour notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused revision.'
+description: 'The question of how much behaviour is determined by genes versus environment is one of the oldest And most contentious in psychology. Behaviour genetics is...'
 
 ---
 

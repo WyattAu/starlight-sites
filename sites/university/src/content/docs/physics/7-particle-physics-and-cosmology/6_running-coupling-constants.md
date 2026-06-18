@@ -3,6 +3,7 @@ title: Running Coupling Constants
 tags:
   - Physics
   - University
+description: 'The strong coupling depends on the energy scale : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 6.1 Asymptotic Freedom and Confinement

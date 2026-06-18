@@ -1,8 +1,6 @@
 ---
 title: Alkanes
-description:
-  'A-Level Chemistry Alkanes notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured learning and effective revision.'
+description: 'Alkanes are saturated hydrocarbons with the general formula . "Saturated" means every carbon atom is bonded to the maximum possible number of hydrogen atoms...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

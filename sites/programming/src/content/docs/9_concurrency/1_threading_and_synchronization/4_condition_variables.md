@@ -1,8 +1,6 @@
 ---
 title: Condition Variables, Latches, and Barriers
-description:
-  'C++ Programming Condition Variables, Latches, and Barriers notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'This section covers and Spurious wakeups, Producer-consumer patterns, and the C++20 synchronization primitives and For one-shot and reusable phase...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -631,7 +629,6 @@ auto worker_safe = [&b](int id) {
 };
 ```
 
-:::
 
 ## Summary
 

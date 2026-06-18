@@ -1,8 +1,6 @@
 ---
 title: Syllabus
-description:
-  'IB Computer Science Syllabus notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic exam preparation and mastery.'
+description: 'First assessment 2025. The course is organized into five core themes studied at both Standard Level (SL) and Higher Level (HL), plus an HL Extension with...'
 ---
 
 # IB Computer Science Syllabus Overview

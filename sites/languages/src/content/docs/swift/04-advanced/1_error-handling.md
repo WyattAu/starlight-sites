@@ -1,8 +1,6 @@
 ---
 title: Error Handling
-description:
-  'Swift error handling notes covering do-catch-try, custom errors, Result type, defer, guard, typed
-  throws, and error propagation patterns.'
+description: 'Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error.'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift

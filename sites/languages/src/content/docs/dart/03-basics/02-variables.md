@@ -1,8 +1,6 @@
 ---
 title: Variables
-description:
-  'Dart Variables notes covering key definitions, core concepts, worked examples, and practice
-  questions for methodical revision and exam readiness.'
+description: 'Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-07-13T20:44:32.129Z
 tags:
   - dart
@@ -169,16 +167,15 @@ The best practice of nullability and mutability is to follow the order of `const
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
 Should be avoided.
 
-:::
 
 ## Data Types
 
 ### Built-in Data Types
 
+:::
 :::caution
 
 Dart does not have primitive data types as all types are interfaces inherited from `Object` class
-:::
 #### Number Types
 
 Only two number types exists in Dart, `int` and `double`. `int` represents 64-bit integers on native
@@ -297,7 +294,6 @@ Records are **not classes** — they have no identity, only structural equality.
 Same fields are equal: `(1, 'a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
 Cannot be extended.
 
-:::
 
 #### Functions
 
@@ -343,12 +339,12 @@ print(counter()); // 1
 print(counter()); // 2
 ```
 
+:::
 :::tip
 
 Prefer named parameters with `required` for public APIs. Named parameters are self-documenting and
 Order-independent, which reduces call-site errors and makes refactoring easier.
 
-:::
 
 #### Lists
 
@@ -399,6 +395,7 @@ numbers.indexOf(3);                 // 2
 numbers.sublist(1, 3);             // [2, 3]
 ```
 
+:::
 :::caution
 
 `List.map()``List.where()`And similar methods return `Iterable`Not `List`. If you need a `List`Wrap
@@ -411,7 +408,6 @@ var doubled = numbers.map((n) => n * 2).toList();
 This is a deliberate design choice — lazy iterables avoid creating intermediate collections, which
 Is critical for large data pipelines.
 
-:::
 
 #### Sets
 
@@ -488,13 +484,13 @@ ages.putIfAbsent('New', () => computeAge());
 var doubled = ages.map((k, v) => MapEntry(k, v * 2));
 ```
 
+:::
 :::tip
 
 Use `Map<String, dynamic>` sparingly — it bypasses Dart's type system. Prefer typed maps or custom
 Classes for structured data. When you must use `Map<String, dynamic>` (e.g., JSON deserialization),
 Validate the types at runtime.
 
-:::
 
 #### Symbols
 
@@ -514,6 +510,7 @@ import 'dart:mirrors';
 // MirrorSystem.getName(symbol) → String
 ```
 
+:::
 :::info
 
 Symbols are not the same as strings. A symbol represents an **identifier in the program**, not
@@ -545,5 +542,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

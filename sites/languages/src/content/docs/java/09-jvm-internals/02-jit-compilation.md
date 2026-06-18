@@ -1,8 +1,6 @@
 ---
 title: JIT Compilation and Deoptimization
-description:
-  'Java JIT Compilation and Deoptimization notes covering key definitions, core concepts, worked
-  examples, and practice questions for efficient revision.'
+description: 'Java source code is compiled to bytecode ( files) by . The JVM then has two ways to Execute that bytecode: interpretation and JIT (Just-In-Time) compilation.'
 date: 2026-04-03T00:00:00.000Z
 tags: ['java']
 categories: ['java']

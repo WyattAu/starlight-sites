@@ -3,6 +3,7 @@ title: Radiation from Accelerating Charges
 tags:
   - Physics
   - University
+description: 'A non-relativistic charge undergoing acceleration radiates power: Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 10.1 Larmor Formula

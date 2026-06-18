@@ -1,8 +1,6 @@
 ---
 title: Cognitive Development
-description:
-  'IB Psychology Cognitive Development notes covering key definitions, core concepts, worked
-  examples, and practice questions for study and revision.'
+description: 'Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and Understanding that occur from infancy through...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: 'Reading Fiction -- Diagnostic Tests'
-description:
-  'GCSE English Reading Fiction -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: 'Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 tableOfContents: false
 ---
 

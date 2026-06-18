@@ -1,8 +1,6 @@
 ---
 title: Installation
-description:
-  'Dart Installation notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough study and examination practice.'
+description: 'My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-07-12T15:51:40.399Z
 tags:
   - Dart
@@ -454,5 +452,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

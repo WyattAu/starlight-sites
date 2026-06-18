@@ -1,8 +1,6 @@
 ---
 title: Testing
-description:
-  'Go Testing notes covering key definitions, core concepts, worked examples, and practice questions
-  for solid revision and exam readiness.'
+description: 'Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature .'
 date: 2026-05-31
 tags:
   - Go

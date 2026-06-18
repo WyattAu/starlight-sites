@@ -1,8 +1,6 @@
 ---
 title: Parameter Packs and Variadic Templates
-description:
-  'C++ Programming Parameter Packs and Variadic Templates notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -576,7 +574,6 @@ int main() {
 - [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction.md)
 - [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation.md)
 
-:::
 
 ## Summary
 

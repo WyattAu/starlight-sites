@@ -1,8 +1,6 @@
 ---
 title: Unicode Support
-description:
-  'C++ Programming Unicode Support notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam preparation.'
+description: 'C++ provides several character types for Unicode support and string literals for UTF-8 text. However, the standard library provides minimal high-level...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

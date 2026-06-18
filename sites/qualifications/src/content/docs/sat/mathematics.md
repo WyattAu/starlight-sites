@@ -1,9 +1,7 @@
 ---
 title: Mathematics
 date: 2026-05-30
-description:
-  'SAT Mathematics.Md Mathematics notes covering key definitions, core concepts, worked examples,
-  and practice questions for targeted study and thorough revision.'
+description: 'The Mathematics section of the digital SAT consists of across , split into two adaptive modules of 22 questions each (35 minutes per module). Approximately...'
 tags:
   - sat
   - maths
@@ -533,5 +531,6 @@ functions, and applying formulas become automatic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

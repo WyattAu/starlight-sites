@@ -1,8 +1,6 @@
 ---
 title: Interfaces
-description:
-  'Go Interfaces notes covering key definitions, core concepts, worked examples, and practice
-  questions for comprehensive learning and effective revision.'
+description: 'An interface in Go defines a set of method signatures. A type satisfies an interface by implementing All of its methods. There is no explicit declaration --...'
 date: 2026-04-18
 tags:
   - Go

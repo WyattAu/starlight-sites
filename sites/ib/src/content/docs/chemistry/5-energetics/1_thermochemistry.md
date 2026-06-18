@@ -45,7 +45,6 @@ Standard enthalpy changes are measured under standard conditions:
 $\Delta H_f^\circ$ for an element in its standard state is always zero (by definition). For example,
 $\Delta H_f^\circ$ of O$_2$(g) = 0, $\Delta H_f^\circ$ of C(graphite) = 0.
 
-:::
 
 ---
 
@@ -95,6 +94,7 @@ The negative sign accounts for the convention: heat lost by the reaction is gain
 2. The calorimeter itself has negligible heat capacity.
 3. The solution has the same density and specific heat capacity as water.
 
+:::
 :::info[Example]
 
 $50.0\mathrm{ mL}$ of $1.0\mathrm{ M}$ HCl is mixed with $50.0\mathrm{ mL}$ of $1.0\mathrm{ M}$ NaOH
@@ -117,7 +117,6 @@ $$
 \Delta H = -\frac{2.717}{0.050} = -54.3\mathrm{ kJ/mol}
 $$
 
-:::
 
 ### Bomb Calorimetry
 
@@ -152,6 +151,7 @@ $$
 \Delta H_r^\circ = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})
 $$
 
+:::
 :::info[Example]
 
 Calculate $\Delta H_r^\circ$ for: CH$_4$(g) + 2O$_2$(g) $\to$ CO$_2$(g) + 2H$_2$O(l)
@@ -170,7 +170,6 @@ $$
 = (-393.5 - 571.6) - (-74.8) = -965.1 + 74.8 = -890.3\mathrm{ kJ/mol}
 $$
 
-:::
 
 ### Using Standard Enthalpies of Combustion
 
@@ -216,6 +215,7 @@ $$
 
 Bonds broken (positive — energy absorbed) and bonds formed (negative — energy released).
 
+:::
 :::info[Example]
 
 Calculate the enthalpy change for: CH$_4$(g) + 2O$_2$(g) $\to$ CO$_2$(g) + 2H$_2$O(g)
@@ -228,15 +228,14 @@ $$
 \Delta H = 2642 - 3338 = -696\mathrm{ kJ/mol}
 $$
 
-:::
 
+:::
 :::caution[Exam Tip]
 
 Bond enthalpy calculations give approximate values because average bond enthalpies are used. Values
 From Hess's law with formation data are more accurate. Bond enthalpy calculations only apply to
 Gases.
 
-:::
 
 ---
 
@@ -268,6 +267,7 @@ $$
 \Delta H_f^\circ = \Delta H_{\mathrm{at}}(M) + \frac{1}{2}\Delta H_{\mathrm{at}}(X_2) + \mathrm{IE} + \mathrm{EA} + \Delta H_{\mathrm{latt}}
 $$
 
+:::
 :::info[Example]
 
 Calculate the lattice energy of NaCl.
@@ -288,7 +288,6 @@ $$
 = -411 - 108 - 122 - 496 - (-349) = -411 - 108 - 122 - 496 + 349 = -788\mathrm{ kJ/mol}
 $$
 
-:::
 
 ### Factors Affecting Lattice Energy
 
@@ -321,6 +320,7 @@ $$
 \Delta S^\circ = \sum S^\circ(\mathrm{products}) - \sum S^\circ(\mathrm{reactants})
 $$
 
+:::
 :::info[Example]
 
 Calculate $\Delta S^\circ$ for: CaCO$_3$(s) $\to$ CaO(s) + CO$_2$(g)
@@ -334,7 +334,6 @@ $$
 
 The positive $\Delta S$ is expected because a gas is produced from a solid.
 
-:::
 
 ---
 
@@ -384,6 +383,7 @@ $\Delta S \gt 0$ (and vice versa).
 | Positive   | Positive   | High temperature   |
 | Positive   | Negative   | Never spontaneous  |
 
+:::
 :::info[Example]
 
 For the reaction: CaCO$_3$(s) $\to$ CaO(s) + CO$_2$(g)
@@ -398,7 +398,6 @@ $$
 
 The reaction is spontaneous above $1109\mathrm{ K}$.
 
-:::
 
 ---
 
@@ -478,13 +477,13 @@ H$_2$O(l) $\to$ Ca(OH)$_2$(s) D. N$_2$(g) + 3H$_2$(g) $\to$ 2NH$_3$(g)
 | Gibbs free energy       | $\Delta G = \Delta H - T\Delta S$                                                       |
 | Equilibrium relation    | $\Delta G^\circ = -RT\ln K$                                                             |
 
+:::
 :::tip[Exam Strategy]
 
 For Hess's law questions, draw the energy cycle . For calorimetry, always account for the Total mass
 of the solution. For Gibbs free energy, pay attention to units — $\Delta H$ is In kJ/mol while
 $\Delta S$ is in J/(mol$\cdot$K), so convert one before combining.
 
-:::
 
 ---
 
@@ -526,6 +525,7 @@ $$
 
 ### Using Born-Haber Cycles to Compare Compounds
 
+:::
 :::info[Example]
 
 Explain why the lattice energy of MgO ($-3791\mathrm{ kJ/mol}$) is much more negative than that of
@@ -536,7 +536,6 @@ MgO has Mg$^{2+}$ and O$^{2-}$ ions (both doubly charged), while NaCl has Na$^+$
 Charges, so the doubly charged ions in MgO have much stronger attraction (four times stronger by
 Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing lattice energy.
 
-:::
 
 ---
 
@@ -555,6 +554,7 @@ Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing
 
 ### Calculating $\Delta S$ for Reactions
 
+:::
 :::info[Example]
 
 Calculate $\Delta S^\circ$ for: 2H$_2$(g) + O$_2$(g) $\to$ 2H$_2$O(l)
@@ -568,7 +568,6 @@ $$
 
 The large negative $\Delta S$ is expected: 3 moles of gas produce 2 moles of liquid.
 
-:::
 
 ---
 
@@ -580,6 +579,7 @@ $$
 \Delta G_r^\circ = \sum \Delta G_f^\circ(\mathrm{products}) - \sum \Delta G_f^\circ(\mathrm{reactants})
 $$
 
+:::
 :::info[Example]
 
 Calculate $\Delta G^\circ$ for: C(s) + CO$_2$(g) $\to$ 2CO(g) at $298\mathrm{ K}$.
@@ -594,7 +594,6 @@ $$
 The reaction is not spontaneous at $298\mathrm{ K}$ (but is at higher temperatures since
 $\Delta S \gt 0$ for this reaction).
 
-:::
 
 ### Using $\Delta G$ to Predict the Equilibrium Constant
 
@@ -602,6 +601,7 @@ $$
 K = e^{-\Delta G^\circ/RT}
 $$
 
+:::
 :::info[Example]
 
 For a reaction with $\Delta G^\circ = -5.4\mathrm{ kJ/mol}$ at $298\mathrm{ K}$:
@@ -612,7 +612,6 @@ $$
 
 Since $K \gt 1$Products are favoured at equilibrium.
 
-:::
 
 ---
 
@@ -735,6 +734,7 @@ Electron affinity is the enthalpy change when one mole of gaseous atoms gains on
 Each successive ionisation energy is larger than the previous one. Large jumps indicate removal from
 A new shell.
 
+:::
 :::info[Example]
 
 The first four ionisation energies of aluminium are (in kJ/mol): 578, 1817, 2745, 11578.
@@ -742,7 +742,6 @@ The first four ionisation energies of aluminium are (in kJ/mol): 578, 1817, 2745
 The large jump between the 3rd and 4th IE indicates that the 4th electron is being removed from a
 New (inner) shell. This confirms Al has 3 valence electrons.
 
-:::
 
 ### Calculating Enthalpy Changes from Calorimetry Data
 
@@ -752,6 +751,7 @@ $$
 Q_{\mathrm{reaction}} = -(m_{\mathrm{solution}} c_{\mathrm{solution}} \Delta T + C_{\mathrm{calorimeter}} \Delta T)
 $$
 
+:::
 :::info[Example]
 
 $50\mathrm{ cm}^3$ of $1.0\mathrm{ M}$ HCl and $50\mathrm{ cm}^3$ of $1.0\mathrm{ M}$ NaOH are mixed
@@ -770,7 +770,6 @@ $$
 \Delta H = -\frac{2944.4}{0.050} = -58888\mathrm{ J/mol} = -58.9\mathrm{ kJ/mol}
 $$
 
-:::
 
 ---
 
@@ -989,3 +988,5 @@ For the A-Level treatment of this topic, see
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

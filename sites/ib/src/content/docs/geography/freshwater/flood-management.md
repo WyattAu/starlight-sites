@@ -1,8 +1,6 @@
 ---
 title: Flood Management
-description:
-  'IB Geography Flood Management notes covering key definitions, core concepts, worked examples, and
-  practice questions for rigorous exam preparation and revision.'
+description: 'Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,...'
 
 ---
 

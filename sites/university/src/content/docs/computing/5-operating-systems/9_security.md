@@ -3,6 +3,7 @@ title: Security
 tags:
   - Computing
   - University
+description: 'Each object (file, directory, device) has an associated list of Entries specifying which subjects (users, groups) have which permissions (read, write, execute).'
 ---
 
 ### 9.1 Access Control

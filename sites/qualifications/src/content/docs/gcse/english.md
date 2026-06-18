@@ -1,9 +1,7 @@
 ---
 title: GCSE English Study Guide
 date: 2026-05-31
-description:
-  'GCSE English.Md English Study notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured revision.'
+description: 'A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential...'
 tags:
   - gcse
   - english

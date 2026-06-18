@@ -1,8 +1,6 @@
 ---
 title: Hash Tables
-description:
-  'A-Level Computer Science Hash Tables notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'A (hash map) is a data structure that maps keys to values using a To compute an index into an array of buckets. It provides average-case time for insert,...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -45,8 +43,7 @@ $$h(k) = k \bmod m$$
 **Choosing $m$.** Avoid powers of 2 (patterns in keys align with binary structure). Choose $m$ to be
 A **prime** not close to a power of 2.
 
-:::caution Warning The hash function will map many keys to the same bucket.
-:::
+> **Caution:** Warning The hash function will map many keys to the same bucket.
 #### Multiplication Method
 
 $$h(k) = \lfloor m \cdot (k \cdot A \bmod 1) \rfloor$$
@@ -862,7 +859,6 @@ Available for insertion.
 
 </details>
 
-:::
 
 ## Common Pitfalls
 

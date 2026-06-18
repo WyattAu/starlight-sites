@@ -1,9 +1,7 @@
 ---
 title: GCSE Physics Study Guide
 date: 2026-05-31
-description:
-  'GCSE Physics.Md Physics Study notes covering key definitions, core concepts, worked examples, and
-  practice questions for structured review and exam preparation.'
+description: 'A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts....'
 tags:
   - gcse
   - physics

@@ -3,6 +3,7 @@ title: Context-Free Languages
 tags:
   - Computing
   - University
+description: 'Context-Free Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 3.1 Context-Free Grammars

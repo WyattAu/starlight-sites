@@ -1,8 +1,6 @@
 ---
 title: File Systems and Mounting
-description:
-  'File Systems and Mounting notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic study and examination practice.'
+description: 'The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And...'
 
 ---
 
@@ -322,7 +320,6 @@ xfs_fsr /mount/point/path/to/file
 XFS **cannot be shrunk**. If you need to reduce an XFS volume, you must back up, recreate with a
 Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
-:::
 
 ## Btrfs
 
@@ -423,12 +420,12 @@ btrfs scrub start /mnt/btrfs
 btrfs scrub status /mnt/btrfs
 ```
 
+:::
 :::caution
 
 Btrfs RAID 5/6 has known write-hole issues that can cause data loss during a power failure. The
 Btrfs documentation recommends against using RAID 5/6 in production. Use RAID 1 or RAID 10 instead.
 
-:::
 
 ### When to Use Btrfs
 
@@ -787,3 +784,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

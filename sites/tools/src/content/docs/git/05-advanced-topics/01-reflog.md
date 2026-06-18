@@ -1,8 +1,6 @@
 ---
 title: Reflog
-description:
-  'Git Reflog notes covering key definitions, core concepts, worked examples, and practice questions
-  for comprehensive exam preparation and mastery.'
+description: 'The (reference log) is Git's built-in safety net. It records every change to the HEAD reference and to each branch reference, creating a chronological audit...'
 date: 2025-06-03T08:00:00.000Z
 tags:
   - git
@@ -235,3 +233,5 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

@@ -1,8 +1,6 @@
 ---
 title: Magnetic Fields
-description:
-  'A-Level Physics Magnetic Fields notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam preparation.'
+description: 'The magnetic flux density (also called the magnetic field strength in the context Of force calculations) is defined by the force on a current-carrying...'
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]
@@ -11,8 +9,7 @@ categories: [Physics]
 
 ## Magnetic Fields
 
-:::info Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 ## 1. Magnetic Flux Density
 
 **Definition.** The magnetic flux density $B$ (also called the magnetic field strength in the

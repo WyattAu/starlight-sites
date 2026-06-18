@@ -1,8 +1,6 @@
 ---
 title: Circuits
-description:
-  'Qualifications Physics Circuits notes covering key definitions, core concepts, worked examples,
-  and practice questions for exam preparation.'
+description: 'Electric current is the rate of flow of charge: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-05-05
 tags:
   - ap
@@ -162,7 +160,6 @@ $$
 I_2 = \frac{6 + 3(2.516)}{5} = \frac{13.548}{5} = 2.710\,\text{A
 $$
 
-:::
 
 ## RC Circuits
 
@@ -266,6 +263,7 @@ in The resistor, regardless of $R$.
 
 During discharge, the capacitor retains $36.8\%$ of its charge after one time constant.
 
+:::
 :::info[Example: RC circuit with numerical values]
 
 A $5\,\mu\text{F$ capacitor is connected in series with a $200\,\text{k\Omega$ resistor and a $12$ V
@@ -281,8 +279,8 @@ $Q(1) = C\mathcal{E}(1 - e^{-1}) = (5 \times 10^{-6})(12)(1 - 0.368) = 60 \times
 
 (d) $0.95 = 1 - e^{-t}$So $e^{-t} = 0.05$, $t = -\ln(0.05) = 3.0\,\text{s = 3\tau$.
 
-:::
 
+:::
 :::info[Example: Discharging through two parallel resistors]
 
 A $10\,\mu\text{F$ capacitor charged to $50\,\mu\text{C$ discharges through
@@ -457,5 +455,6 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

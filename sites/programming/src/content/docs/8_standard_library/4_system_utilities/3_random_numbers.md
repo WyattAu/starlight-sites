@@ -1,8 +1,6 @@
 ---
 title: Random Number Generation
-description:
-  'C++ Programming Random Number Generation notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'The header provides a modular random number generation system consisting of engines (stateful objects producing random number sequences), distributions...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

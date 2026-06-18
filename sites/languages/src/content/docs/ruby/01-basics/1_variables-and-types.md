@@ -1,8 +1,6 @@
 ---
 title: Variables and Types
-description:
-  'Ruby variables, naming conventions, all data types, duck typing, mutability, freeze, object
-  references, and basic I/O operations.'
+description: 'Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

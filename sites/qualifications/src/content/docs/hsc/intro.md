@@ -1,9 +1,7 @@
 ---
 title: Introduction to HSC/VCE Notes
 date: 2026-05-30
-description:
-  'Qualifications Intro.Md Introduction to HSC/VCE notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused revision.'
+description: 'The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary...'
 tags:
   - hsc
   - vce

@@ -1,8 +1,6 @@
 ---
 title: Periods 1-2 (1491-1754)
-description:
-  'AP US History notes covering Periods 1-2 from 1491 to 1754, including Native American societies,
-  European exploration, colonisation, and transatlantic trade.'
+description: 'Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

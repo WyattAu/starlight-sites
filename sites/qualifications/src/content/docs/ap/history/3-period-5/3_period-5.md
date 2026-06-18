@@ -1,8 +1,6 @@
 ---
 title: Period 5 (1844-1877)
-description:
-  'AP US History notes covering Period 5 from 1844 to 1877, including Manifest Destiny, the
-  Mexican-American War, sectionalism, the Civil War, and Reconstruction.'
+description: 'The idea of -- the belief that the United States was divinely ordained to expand across the North American continent -- drove westward expansion in the...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

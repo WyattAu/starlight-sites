@@ -1,8 +1,6 @@
 ---
 title: Sustainable Development Goals
-description:
-  'IB Geography Sustainable Development Goals notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'The Sustainable Development Goals (SDGs), officially titled "Transforming our World: the 2030 Agenda For Sustainable Development," were adopted by all 193...'
 
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: National Income and Macroeconomic Indicators
-description:
-  'DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core
-  concepts, worked practice questions for supplementary revision.'
+description: 'GDP is the total market value of all final goods and services produced within a country's borders During a given time period ( one year).'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

@@ -3,9 +3,7 @@ title: Historical Investigation and Methodology
 tags:
   - IB
   - History
-description:
-  'IB History Historical Investigation and Methodology notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam readiness.'
+description: 'This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical...'
 ---
 
 # Historical Investigation and Methodology

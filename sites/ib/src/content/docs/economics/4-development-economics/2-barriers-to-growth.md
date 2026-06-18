@@ -1,8 +1,6 @@
 ---
 title: Barriers to Growth
-description:
-  'IB Economics Barriers to Growth notes covering key definitions, core concepts, worked examples,
-  and practice questions for clear revision.'
+description: 'refers to a condition where individuals cannot afford basic necessities (food, Shelter, clean water). The World Bank's international poverty line was per...'
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

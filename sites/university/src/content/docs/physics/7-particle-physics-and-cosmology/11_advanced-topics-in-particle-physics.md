@@ -3,6 +3,7 @@ title: Advanced Topics in Particle Physics
 tags:
   - Physics
   - University
+description: 'experiments (SLAC, 1968) scattered high-energy electrons off protons. The key observation: at large momentum transfer The proton behaves as if composed of...'
 ---
 
 ### 11.1 Deep Inelastic Scattering and Parton Model

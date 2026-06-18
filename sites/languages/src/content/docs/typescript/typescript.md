@@ -1,8 +1,6 @@
 ---
 title: TypeScript -- Course Overview
-description:
-  'Typescript Course Overview notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic exam preparation and revision.'
+description: 'TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a...'
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

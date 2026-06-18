@@ -1,8 +1,6 @@
 ---
 title: Human Physiology
-description:
-  'DSE Biology Human Physiology notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused study and examination practice.'
+description: 'A balanced diet provides all essential nutrients in the correct proportions to maintain health. The Seven classes of food are:'
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]
 categories: [DSE, Biology]

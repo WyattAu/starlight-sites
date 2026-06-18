@@ -1,8 +1,6 @@
 ---
 title: Database Normalization
-description:
-  'Database Normalization notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear revision.'
+description: 'Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and...'
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Databases
@@ -66,7 +64,6 @@ The default starting point for any OLTP system is 3NF. Denormalize only after me
 Performance bottleneck and understanding the consistency cost. Premature denormalization creates
 Maintenance debt that compounds over time.
 
-:::
 
 ### Normal Form Hierarchy
 
@@ -335,13 +332,13 @@ Step 3: Remove redundant attributes:
   Final minimal cover: {A -> C, C -> B}
 ```
 
+:::
 :::caution
 
 The order in which you process FDs in step 3 can yield different (but equivalent) minimal covers.
 This is expected. Different minimal covers may lead to different decompositions, but all are
 Correct.
 
-:::
 
 ## Normal Forms
 
@@ -380,6 +377,7 @@ Satisfies 1NF:
 | 2          | Bob   | Chemistry|
 ```
 
+:::
 :::info
 
 SQL databases that support array types (PostgreSQL `INTEGER[]`JSONB) technically allow violations Of
@@ -387,7 +385,6 @@ SQL databases that support array types (PostgreSQL `INTEGER[]`JSONB) technically
 Need to query or join on individually. If you need to query individual elements or enforce
 Referential integrity, model them as separate rows.
 
-:::
 
 ### Second Normal Form (2NF)
 
@@ -400,13 +397,13 @@ A **non-prime attribute** is an attribute that does not belong to any candidate 
 Dependency** exists when a non-prime attribute depends on only a proper subset of a candidate key
 (rather than the entire key).
 
+:::
 :::caution
 
 2NF is only relevant for relations with composite candidate keys (keys consisting of two or more
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
 Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
 
-:::
 
 ```text
 Relation: OrderItem(order_id, product_id, quantity, product_name, unit_price)
@@ -543,6 +540,7 @@ BCNF decomposition:
     This dependency cannot be checked on R1 or R2 alone without joining them.
 ```
 
+:::
 :::caution
 
 This example demonstrates the fundamental tension between BCNF and dependency preservation. The
@@ -551,7 +549,6 @@ Constraint that a student has one instructor per course cannot be enforced on ei
 Table alone). In practice, you either stay in 3NF or enforce the lost dependency via application
 Logic, triggers, or CHECK constraints.
 
-:::
 
 ### Fourth Normal Form (4NF)
 
@@ -595,6 +592,7 @@ Decomposition:
   EmployeeLanguage(emp_id, language)  -- key: {emp_id, language}
 ```
 
+:::
 :::info
 
 4NF violations are rare in practice. They appear when modeling entity-attribute-value Patterns or
@@ -602,7 +600,6 @@ when a single entity has multiple independent multi-valued attributes. If you se
 adding a row requires adding $m \times n$ rows (for $m$ values of one attribute and $n$ Values of
 another), you likely have a 4NF violation.
 
-:::
 
 ### Fifth Normal Form (5NF) / Project-Join Normal Form (PJNF)
 
@@ -980,6 +977,7 @@ BCNF decomposition:
   But the duplication involves only prime attributes, so it is bounded.
 ```
 
+:::
 :::info
 
 The practical rule: always decompose to 3NF. If a relation is not in BCNF, check whether the BCNF
@@ -987,7 +985,6 @@ Decomposition loses dependency preservation. If it does, and the lost dependency
 Data integrity, stay in 3NF. If the lost dependency is trivial or can be enforced through
 Application logic, proceed with BCNF.
 
-:::
 
 ## Practical Normalization
 
@@ -1040,13 +1037,13 @@ With surrogate key:
   But you still need UNIQUE(order_id, product_id) to prevent duplicates.
 ```
 
+:::
 :::caution
 
 Surrogate keys do not eliminate the need for normalization. They make 2NF automatic, but 3NF
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
 And model functional dependencies correctly.
 
-:::
 
 ### Normalization in Application Development
 
@@ -1171,6 +1168,7 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
 
+:::
 :::caution
 
 The most dangerous denormalization pattern is "silent duplication" -- copying data without any
@@ -1694,5 +1692,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

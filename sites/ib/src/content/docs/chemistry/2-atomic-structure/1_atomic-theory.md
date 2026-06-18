@@ -233,7 +233,6 @@ For the $3p$ orbital ($n = 3$$l = 1$):
 - Angular nodes $= 1$ (the nodal plane through the nucleus)
 - Radial nodes $= 3 - 1 - 1 = 1$
 
-:::
 
 ### Penetration and Shielding
 
@@ -265,6 +264,7 @@ Where $S$ is the shielding constant estimated by Slater's rules.
 
 5. $n - 2$ and lower: each contributes $1.00$.
 
+:::
 :::info[Example — $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)]
 
 Configuration: $(1s)^2(2s,2p)^8(3s,3p)^8(4s)^1$
@@ -281,7 +281,6 @@ $$
 Z_{\mathrm{eff}} = 19 - 16.80 = 2.20
 $$
 
-:::
 
 ---
 
@@ -320,6 +319,7 @@ $$
 
 This reveals the number of valence electrons.
 
+:::
 :::info[Example — Silicon ($Z = 14$)]
 
 $IE_1 = 787$$IE_2 = 1577$$IE_3 = 3228$$IE_4 = 4356$$IE_5 = 16091\mathrm{ kJ/mol}$
@@ -752,5 +752,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | [Atomic Structure] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/atomic-structure)                               |
 | [Atomic Structure] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/2-atomic-structure/1_atomic-theory)                              |
 | [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
+
 
 :::

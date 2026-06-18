@@ -1,8 +1,6 @@
 ---
 title: Statistical Distributions (Extended)
-description:
-  'A-Level Maths Statistical Distributions (Extended) notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused revision.'
+description: 'This document provides rigorous coverage of the binomial, normal, and Poisson distributions, their Approximations, and hypothesis testing applications.'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

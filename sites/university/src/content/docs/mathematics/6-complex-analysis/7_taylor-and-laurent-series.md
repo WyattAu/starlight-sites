@@ -3,6 +3,7 @@ title: Taylor and Laurent Series
 tags:
   - Mathematics
   - University
+description: 'Taylor and Laurent Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 7.1 Taylor Series

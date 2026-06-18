@@ -1,8 +1,6 @@
 ---
 title: International Trade
-description:
-  'IB Economics International Trade notes covering key definitions, core concepts, worked examples,
-  and practice questions for focused revision.'
+description: 'A country has an in producing a good if it can produce more output per unit Of r Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

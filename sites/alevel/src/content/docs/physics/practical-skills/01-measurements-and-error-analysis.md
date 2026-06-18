@@ -1,8 +1,6 @@
 ---
 title: Measurements and Error Analysis
-description:
-  'A-Level Physics Measurements and Error Analysis notes covering key definitions, core concepts,
-  worked examples, and practice questions for clear revision.'
+description: 'A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -14,8 +12,7 @@ categories:
 
 ## Measurements and Error Analysis
 
-:::info Board Coverage AQA Paper 3 | Edexcel CP1, CP6 | OCR (A) Paper 3 | CIE P5
-:::
+> **Info:** Board Coverage AQA Paper 3 | Edexcel CP1, CP6 | OCR (A) Paper 3 | CIE P5
 ## 1. Systematic and Random Errors
 
 ### Systematic Errors

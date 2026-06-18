@@ -3,6 +3,7 @@ title: Matrices
 tags:
   - Mathematics
   - University
+description: 'An matrix over is a rectangular array of elements from Arranged in rows and columns. The set of all such matrices is denoted .'
 ---
 
 ### 3.1 Matrix Operations

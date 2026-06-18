@@ -1,8 +1,6 @@
 ---
 title: Packaging and Distribution
-description:
-  'Python Packaging and Distribution notes covering key definitions, core concepts, worked examples,
-  and practice questions for rigorous revision.'
+description: 'is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata).'
 
 ---
 

@@ -3,6 +3,7 @@ title: Fourier Optics
 tags:
   - Physics
   - University
+description: 'In the Fraunhofer limit, the diffraction pattern is the of the aperture function Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 7.1 Fraunhofer Diffraction as a Fourier Transform

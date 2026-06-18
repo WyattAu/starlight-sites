@@ -1,8 +1,6 @@
 ---
 title: Experimental Design
-description:
-  'A-Level Physics Experimental Design notes covering key definitions, core concepts, worked
-  examples, and practice questions for clear revision.'
+description: 'An independent variable is the variable that is deliberately manipulated or changed By the experimenter to observe its effect on the dependent variable.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -14,8 +12,7 @@ categories:
 
 ## Experimental Design
 
-:::info Board Coverage AQA Paper 3 | Edexcel CP6 | OCR (A) Paper 3 | CIE P5
-:::
+> **Info:** Board Coverage AQA Paper 3 | Edexcel CP6 | OCR (A) Paper 3 | CIE P5
 ## 1. Key Principles of Experimental Design
 
 ### Independent, Dependent, and Control Variables
@@ -89,7 +86,6 @@ Paper 5 Q1 (Planning)
 - **CIE** Paper 5 explicitly marks the "control of variables" section, and examiners look for
   _methods_ of control, not just listing the variable name.
 
-:::
 
 ### Reliability, Validity, and Accuracy
 
@@ -165,15 +161,13 @@ Validity has two aspects that examiners distinguish:
    conditions? For example, results obtained with a 1 mm copper wire may not apply to a 5 mm
    aluminium wire.
 
-:::info Board Coverage AQA Paper 3 | Edexcel CP6 | OCR (A) Paper 3 | CIE P5
-:::
+> **Info:** Board Coverage AQA Paper 3 | Edexcel CP6 | OCR (A) Paper 3 | CIE P5
 - **AQA** emphasises the distinction between validity and reliability in 6-mark practical questions.
 - **Edexcel** Core Practicals require students to comment on the validity of their conclusions.
 - **OCR (A)** PAG reports ask students to evaluate the validity of their method and results.
 - **CIE** Paper 5 marks validity through the "justification of the method" requirement — students
   must explain _why_ their approach is valid, not just state that it is.
 
-:::
 
 ### Accuracy in Depth
 
@@ -259,8 +253,7 @@ Is critical:
 - **Number of repeats:** At least 3 repeats at each value. If time allows, more repeats improve the
   reliability of the mean.
 
-:::info Board Coverage AQA Paper 3 Section A | Edexcel CP6 | OCR (A) PAG | CIE P5
-:::
+> **Info:** Board Coverage AQA Paper 3 Section A | Edexcel CP6 | OCR (A) PAG | CIE P5
 - **AQA** often provides a method and asks students to identify improvements — focus on range,
   intervals, and repeats.
 - **Edexcel** Core Practicals have prescribed ranges; students should justify why the chosen range
@@ -269,7 +262,6 @@ Is critical:
 - **CIE** Paper 5 Q1 requires students to specify a range with at least 5 values and justify the
   choice of measuring instruments.
 
-:::
 
 ## 3. Common Apparatus and Techniques
 
@@ -359,8 +351,7 @@ When asked to write a risk assessment, structure your answer as follows:
 3. **Describe the control measure** — "Use a low-voltage (e.g., 12 V) power supply instead of mains,
    and ensure all connections are insulated."
 
-:::info Board Coverage AQA Paper 3 | Edexcel CP1–CP12 | OCR (A) PAG (all) | CIE P5
-:::
+> **Info:** Board Coverage AQA Paper 3 | Edexcel CP1–CP12 | OCR (A) PAG (all) | CIE P5
 - **AQA** requires a risk assessment as part of the 12 required practicals. Risk assessments are
   assessed in written papers.
 - **Edexcel** Core Practicals include risk assessment in the student lab book. Exams may ask
@@ -370,7 +361,6 @@ When asked to write a risk assessment, structure your answer as follows:
 - **CIE** Paper 5 Q1 includes a "safety" sub-question worth 1–2 marks. Students must name a specific
   hazard _and_ a corresponding precaution.
 
-:::
 
 :::caution Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious
 Hazards exist. Examiners award marks for identifying the _most significant_ hazards and providing
@@ -452,8 +442,7 @@ When a graph is plotted, check:
 - Plot $\lambda$ vs $1/f$; gradient $= v$ (wave speed)
 - Largest uncertainty: measuring wavelength from a frozen ripple pattern
 
-:::info Board Coverage AQA Paper 3 | Edexcel CP6, CP9 | OCR (A) PAG 2, PAG 3 | CIE P5
-:::
+> **Info:** Board Coverage AQA Paper 3 | Edexcel CP6, CP9 | OCR (A) PAG 2, PAG 3 | CIE P5
 - **AQA** Required Practical 5 uses a falling object to determine `g`; Required Practical 8 uses a
   potentiometer or voltmeter/ammeter method for internal resistance.
 - **Edexcel** Core Practical 6 uses a pendulum for `g`; Core Practical 9 investigates waves on a
@@ -463,7 +452,6 @@ When a graph is plotted, check:
 - **CIE** Paper 5 Q2 often asks students to analyse data from a provided experiment — knowing common
   experimental contexts helps you spot the relationship between variables quickly.
 
-:::
 
 :::tip Exam Technique When asked "how could you improve this experiment?", always be specific.
 Instead of "use a more accurate instrument", say "use a micrometer instead of a ruler to measure the

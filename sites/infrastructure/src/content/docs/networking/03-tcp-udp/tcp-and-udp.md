@@ -1,8 +1,6 @@
 ---
 title: TCP and UDP
-description:
-  'TCP and UDP notes covering key definitions, core concepts, worked examples, and practice
-  questions for thorough study and thorough revision.'
+description: 'The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,...'
 tags:
   - Networking
 categories:
@@ -168,7 +166,6 @@ Implement their own keepalive and NAT traversal mechanisms (e.g., STUN/TURN for 
 Keepalive). UDP NAT mappings have shorter timeouts than TCP (30-60 seconds vs hours), so long-lived
 UDP flows without keepalives will lose their NAT mappings.
 
-:::
 
 ## TCP (Transmission Control Protocol)
 
@@ -237,6 +234,7 @@ Second FIN enters the `LAST-ACK` state. After sending the final ACK, the first e
    destination IP, destination port). The 2MSL wait ensures that any delayed segments from the old
    connection have been delivered or dropped.
 
+:::
 :::info
 
 The TIME-WAIT state is the source of one of the most common production networking issues. A server
@@ -246,7 +244,6 @@ Connections fail with "address already in use." Solutions include `SO_REUSEADDR`
 Socket options, the `tcp_tw_reuse` kernel parameter (Linux), or using connection pooling. The
 Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 
-:::
 
 ### TCP Segment Structure
 
@@ -807,3 +804,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

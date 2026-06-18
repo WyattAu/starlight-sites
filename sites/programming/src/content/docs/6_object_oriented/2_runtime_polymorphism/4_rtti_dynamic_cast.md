@@ -1,8 +1,6 @@
 ---
 title: RTTI, dynamic_cast, and typeid
-description:
-  'C++ Programming RTTI, dynamic_cast, and typeid notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at Runtime. This section covers for safe downcasting, the...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

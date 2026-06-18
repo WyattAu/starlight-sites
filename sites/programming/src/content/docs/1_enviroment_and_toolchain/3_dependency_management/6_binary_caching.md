@@ -1,8 +1,6 @@
 ---
 title: Binary Caching
-description:
-  'C++ Programming Binary Caching notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective revision.'
+description: 'The distinction between (Module 2.4) and is Critical. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-12-11T05:47:27.269Z
 tags:
   - cpp
@@ -440,8 +438,8 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 - [Dependency Resolution](1_dependency_architectures_models.md) — How package managers resolve
   version graphs
 - [vcpkg](3_vcpkg.md) — Binary caching configuration for vcpkg
-- [Build Caching](../2_build_system/4_build_caching.md) — CMake and build-system-level caching
-- [Code Coverage](../2_build_system/6_code_coverage.md) — Instrumented builds (should not be cached)
+- [Build Caching](../2_build_system/4_build_caching.mdx) — CMake and build-system-level caching
+- [Code Coverage](../2_build_system/6_code_coverage.mdx) — Instrumented builds (should not be cached)
 
 ## Summary
 

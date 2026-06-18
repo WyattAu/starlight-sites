@@ -1,8 +1,6 @@
 ---
 title: Standard Library Implementation
-description:
-  'C++ Programming Standard Library Implementation notes covering key definitions, core concepts,
-  worked examples, and practice questions for rigorous revision.'
+description: 'In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers Like ) are distinct entities. While the ISO C++...'
 date: 2025-12-10T04:57:07.543Z
 tags:
   - cpp
@@ -120,6 +118,7 @@ namespace std {
 `B.exe` is compiled with `_GLIBCXX_USE_CXX11_ABI=1`The linker will fail with "Undefined Reference To
 `std::string`" because the application is looking for `std::__cxx11::string`But the library Provides
 `std::string`.
+:::
 
 ### The `std::list` ABI Change
 
@@ -745,12 +744,12 @@ extern "C" {
 
 ## See Also
 
-- [Installing a Compiler](1_installing_compiler.md) -- Setting up GCC, Clang, or MSVC
-- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.md) -- How ABI
+- [Installing a Compiler](1_installing_compiler.mdx) -- Setting up GCC, Clang, or MSVC
+- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility.mdx) -- How ABI
   changes across standard versions
 - [Cross-compilation Toolchains](4_crosscompilation_toolchains.md) -- Choosing the right standard
   library for cross-compilation
-- [Linker Configuration](5_linker_configuration.md) -- Linking against the standard library
+- [Linker Configuration](5_linker_configuration.mdx) -- Linking against the standard library
 
 ## Summary
 
@@ -772,5 +771,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-:::

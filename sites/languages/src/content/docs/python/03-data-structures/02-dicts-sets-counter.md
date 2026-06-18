@@ -1,8 +1,6 @@
 ---
 title: Dicts, Sets, and Collections Deep Dive
-description:
-  'Python Dicts, Sets, and Collections Deep Dive notes covering key definitions, core concepts,
-  worked examples, and practice questions for effective revision.'
+description: 'Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in...'
 
 ---
 

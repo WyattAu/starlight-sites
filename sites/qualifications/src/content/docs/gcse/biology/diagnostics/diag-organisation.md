@@ -1,8 +1,6 @@
 ---
 title: 'Organisation -- Diagnostic Tests'
-description:
-  'GCSE Biology Organisation -- Diagnostic Tests notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: '(a) Label the main organs of the digestive system in order from mouth to anus. (b) Explain where and how starch, proteins, and lipids are digested, naming...'
 tableOfContents: false
 ---
 

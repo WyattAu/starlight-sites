@@ -1,8 +1,6 @@
 ---
 title: Concurrency
-description:
-  'Ruby concurrency with threads, Mutex, Queue, SizedQueue, ThreadSafe data structures, Ractor for
-  parallelism, Fiber, async/await patterns, and the Async gem.'
+description: 'Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

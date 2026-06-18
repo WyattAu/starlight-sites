@@ -1,8 +1,6 @@
 ---
 title: Programming Constructs
-description:
-  'A-Level Computer Science Programming Constructs notes covering key definitions, core concepts,
-  worked examples, and practice questions for thorough preparation.'
+description: 'A is a named storage location in memory that holds a value which can change duri Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

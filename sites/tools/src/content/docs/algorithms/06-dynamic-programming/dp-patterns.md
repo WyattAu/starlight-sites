@@ -1,8 +1,6 @@
 ---
 title: Dynamic Programming Patterns
-description:
-  'Algorithms Dynamic Programming Patterns notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam preparation.'
+description: 'Recognising which DP pattern applies to a problem is the key skill. This section Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 
@@ -842,3 +840,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

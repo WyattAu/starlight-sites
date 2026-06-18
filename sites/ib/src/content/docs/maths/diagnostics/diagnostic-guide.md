@@ -1,8 +1,6 @@
 ---
 title: Diagnostic Test Guide
-description:
-  'IB Maths Diagnostic Test notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective revision.'
+description: 'This document defines the diagnostic testing framework for IB Mathematics. The Diagnostic tests are the hardest questions within the specification, designed...'
 tableOfContents: false
 ---
 

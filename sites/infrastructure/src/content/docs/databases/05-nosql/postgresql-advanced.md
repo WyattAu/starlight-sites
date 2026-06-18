@@ -308,7 +308,6 @@ FDW queries may fetch entire remote tables locally for joins, sorts, and aggrega
 Pushed down. Use `EXPLAIN (VERBOSE)` to verify what is pushed down and what is executed locally. For
 Large datasets, consider materializing the data instead.
 
-:::
 
 ### file_fdw
 
@@ -403,13 +402,13 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-07-01';
 -- Parameters from prepared statements may prevent pruning
 ```
 
+:::
 :::caution
 
 Unique constraints on partitioned tables must include the partition key. A `UNIQUE(order_id)`
 Constraint across all partitions is not supported. Instead, use `UNIQUE(order_id, created_at)` or
 Enforce uniqueness at the application level.
 
-:::
 
 ## Generated Columns
 
@@ -781,12 +780,12 @@ SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 20;
 SELECT cron.unschedule('nightly-vacuum');
 ```
 
+:::
 :::info
 
 Pg_cron requires `shared_preload_libraries = 'pg_cron'` and a PostgreSQL restart. Jobs run in the
 Context of the database where pg_cron is installed. Cross-database scheduling is not supported.
 
-:::
 
 ### pg_background
 
@@ -911,6 +910,7 @@ Each table gets its own topic.
 Events include: before/after images, operation type, transaction metadata.
 ```
 
+:::
 :::caution
 
 Logical replication slots retain WAL until the consumer acknowledges all changes. If the consumer
@@ -923,7 +923,6 @@ FROM pg_replication_slots
 WHERE slot_type = 'logical';
 ```
 
-:::
 
 ## Table Sampling
 
@@ -1100,3 +1099,5 @@ $\blacksquare$
 - JSONB operators (`->>`, `#>>`, `@>`, `?`) and GIN indexing enable semi-structured queries without
   a fixed schema.
 
+
+:::

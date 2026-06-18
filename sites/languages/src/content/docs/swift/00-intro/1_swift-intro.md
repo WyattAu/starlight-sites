@@ -1,8 +1,6 @@
 ---
 title: Introduction to Swift
-description:
-  'Swift introduction covering language history, Swift 5 and 6 features, Xcode setup, Swift
-  Playgrounds, and Swift Package Manager for project configuration.'
+description: 'Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be...'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift

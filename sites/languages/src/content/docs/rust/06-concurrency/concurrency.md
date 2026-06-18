@@ -1,8 +1,6 @@
 ---
 title: Concurrency
-description:
-  'Rust Concurrency notes covering key definitions, core concepts, worked examples, and practice
-  questions for clear study and thorough revision.'
+description: 'Rust's module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating...'
 
 ---
 
@@ -109,7 +107,6 @@ For `'static` bounds.
 Scoped threads are preferred over manual `thread::spawn` + `join` when threads need to borrow data
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
 
-:::
 
 ## Message Passing
 
@@ -357,6 +354,7 @@ fn reader() {
 }
 ```
 
+:::
 :::caution
 
 `Relaxed` ordering is sufficient for simple counters but incorrect for producer-consumer patterns
@@ -364,7 +362,6 @@ Where one thread's write must be visible to another thread's read. Use `Release`
 Correct visibility semantics. Use `SeqCst` when you are unsure — it is the safest but slowest
 Option.
 
-:::
 
 ### Available Atomic Types
 
@@ -661,13 +658,13 @@ async fn main() {
 }
 ```
 
+:::
 :::caution
 
 `select!` drops all non-selected futures. If you need to retry the other branches, you must
 Restructure your code to recreate the futures. This is a common source of confusion for developers
 Coming from JavaScript's `Promise.race`.
 
-:::
 
 ## Race Conditions
 
@@ -822,6 +819,7 @@ async fn main() {
 }
 ```
 
+:::
 :::caution
 
 Do NOT use `std::sync::Mutex` in async code. Holding a `std::sync::Mutex` across an `.await` point
@@ -829,7 +827,6 @@ Blocks the entire OS thread, preventing other async tasks from running. Use `tok
 Async contexts. However, if the critical section is short and does not contain any `.await`A
 `std::sync::Mutex` is acceptable and has lower overhead.
 
-:::
 
 ## `Send` and `Sync` in Depth
 
@@ -862,6 +859,7 @@ unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
 
+:::
 :::danger
 
 Manually implementing `Send` or `Sync` is unsafe because you are asserting that the compiler's
@@ -931,5 +929,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

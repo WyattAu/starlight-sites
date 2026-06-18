@@ -1,8 +1,6 @@
 ---
 title: Nervous System
-description:
-  'DSE Biology Nervous System notes covering key definitions, core concepts, worked examples, and
-  practice questions for rigorous study and examination practice.'
+description: 'Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -665,7 +663,6 @@ Accommodation is the process by which the eye changes focus to see objects at di
 | Sweat glands (eccrine)          | Coiled tubular glands in the dermis that produce sweat                                                                            | Thermoregulation: sweat evaporates from the skin surface, removing heat                               |
 | Hair erector muscles            | Small muscles attached to hair follicles                                                                                          | Contract in cold conditions (causing goosebumps), trapping a layer of insulating air next to the skin |
 
-:::
 
 ## Drugs and the Nervous System
 

@@ -1,8 +1,6 @@
 ---
 title: Research Methods in Psychology
-description:
-  'IB Research Methods in Psychology notes covering key definitions, core concepts, worked examples,
-  and practice questions for detailed preparation.'
+description: 'Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology...'
 
 ---
 

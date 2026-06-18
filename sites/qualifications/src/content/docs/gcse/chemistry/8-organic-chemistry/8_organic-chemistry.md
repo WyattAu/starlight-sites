@@ -1,8 +1,6 @@
 ---
 title: Organic Chemistry
-description:
-  'GCSE Organic Chemistry notes covering key definitions, core concepts, worked examples, and
-  practice questions for clear study and thorough revision.'
+description: 'is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains...'
 date: 2026-04-14
 tags:
   - gcse
@@ -14,8 +12,7 @@ categories:
 
 ## Organic Chemistry
 
-:::info Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway C5 & C6 | WJEC C4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway C5 & C6 | WJEC C4
 ## 1. Introduction to Organic Chemistry
 
 ### 1.1 What Is Organic Chemistry?

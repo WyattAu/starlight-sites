@@ -1,8 +1,6 @@
 ---
 title: File I/O
-description:
-  'Python File I/O notes covering key definitions, core concepts, worked examples, and practice
-  questions for in-depth exam preparation and mastery.'
+description: 'is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python

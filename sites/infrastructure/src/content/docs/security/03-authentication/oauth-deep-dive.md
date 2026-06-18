@@ -1,8 +1,6 @@
 ---
 title: OAuth 2.0 Deep Dive
-description:
-  'OAuth 2.0 Deep Dive notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid study and thorough revision.'
+description: 'OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user's resources on a resource server...'
 
 ---
 

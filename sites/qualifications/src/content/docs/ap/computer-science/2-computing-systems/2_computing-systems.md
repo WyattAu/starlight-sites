@@ -1,8 +1,6 @@
 ---
 title: Computing Systems
-description:
-  'Qualifications Computer Science Computing Systems notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused revision.'
+description: '| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM...'
 date: 2026-04-14
 tags:
   - ap
@@ -88,7 +86,6 @@ Add 1: $11010110$.
 
 **Verification:** $11010110 = -128 + 64 + 0 + 16 + 0 + 4 + 2 + 0 = -128 + 86 = -42$. Correct.
 
-:::
 
 **Worked Example.** Represent $-100$ in 8-bit two's complement.
 
@@ -253,6 +250,7 @@ Columns 4 and 7 are identical. $\blacksquare$
 Any Boolean function can be implemented using only NAND gates or only NOR gates (functional
 Completeness).
 
+:::
 :::info[Example]
 
 Implement XOR using AND, OR, and NOT gates.
@@ -270,7 +268,6 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 | 1   | 0   | 0         | 1         | 1                 | 0                 | 1            |
 | 1   | 1   | 0         | 0         | 0                 | 0                 | 0            |
 
-:::
 
 ### Half Adder and Full Adder
 
@@ -929,3 +926,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

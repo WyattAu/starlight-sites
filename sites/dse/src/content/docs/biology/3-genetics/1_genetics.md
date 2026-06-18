@@ -1,8 +1,6 @@
 ---
 title: Genetics
-description:
-  'DSE Biology Genetics notes covering key definitions, core concepts, worked examples, and practice
-  questions for structured exam preparation and mastery.'
+description: 'Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the Single most common source of lost marks in DSE genetics...'
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

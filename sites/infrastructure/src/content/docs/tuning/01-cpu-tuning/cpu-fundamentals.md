@@ -1,8 +1,6 @@
 ---
 title: CPU Architecture and Tuning
-description:
-  'CPU Architecture and Tuning notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective revision.'
+description: 'A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because...'
 
 ---
 

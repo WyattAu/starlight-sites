@@ -1,9 +1,7 @@
 ---
 title: GCSE Chemistry Study Guide
 date: 2026-05-31
-description:
-  'GCSE Chemistry.Md Chemistry Study notes covering key definitions, core concepts, worked examples,
-  and practice questions for thorough preparation.'
+description: 'A complete single-page revision guide covering the full GCSE Chemistry specification. Each section contains key concepts, definitions, and essential facts....'
 tags:
   - gcse
   - chemistry

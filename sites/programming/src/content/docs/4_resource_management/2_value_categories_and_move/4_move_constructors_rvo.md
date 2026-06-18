@@ -1,8 +1,6 @@
 ---
 title: Move Constructors, Assignment, Swap Idiom
-description:
-  'C++ Programming Move Constructors, Assignment, Swap Idiom notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'Move semantics allow resources to be transferred between objects without copying. The move Constructor steals resources from a source object, leaving it in...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

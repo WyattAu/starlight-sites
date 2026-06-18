@@ -1,8 +1,6 @@
 ---
 title: Distribution of Income
-description:
-  'A-Level Economics Distribution of Income notes covering key definitions, core concepts, worked
-  examples, and practice questions for thorough preparation.'
+description: 'The plots the cumulative proportion of total income received by the cumulative Proportion of the population, ordered from poorest to richest.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

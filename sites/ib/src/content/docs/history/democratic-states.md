@@ -5,9 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description:
-  IB History guide to Democratic States for Paper 2. Covers Weimar Germany, the United States in the
-  1920s-30s, Republican Spain, comparative analysis,.
+description: 'This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —...'
 ---
 
 # Democratic States: Challenges and Crises (1918--1939)

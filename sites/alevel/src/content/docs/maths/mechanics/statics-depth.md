@@ -1,8 +1,6 @@
 ---
 title: Statics (Extended)
-description:
-  'A-Level Maths Statics (Extended) notes covering key definitions, core concepts, worked examples,
-  and practice questions for effective revision.'
+description: 'This document covers moments, equilibrium conditions, centres of mass, ladder problems, and Frameworks with a rigorous, proof-based approach.'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

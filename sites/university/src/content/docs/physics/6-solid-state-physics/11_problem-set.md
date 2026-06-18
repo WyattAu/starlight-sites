@@ -3,6 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
+description: 'Calculate the packing fraction of the simple cubic lattice. Compare it with BCC and FCC, And explain why SC is rarely observed in elemental metals.'
 ---
 
 **Problem 1.** Calculate the packing fraction of the simple cubic lattice. Compare it with BCC and

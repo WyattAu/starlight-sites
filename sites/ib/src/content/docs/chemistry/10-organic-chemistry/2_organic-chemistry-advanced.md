@@ -251,7 +251,6 @@ $$
 
 Uses: fibres (clothing), bottles, food containers.
 
-:::
 
 ### Polyamides (Nylons)
 
@@ -261,6 +260,7 @@ $$
 \mathrm{diamine} + \mathrm{dicarboxylic acid} \to \mathrm{polyamide} + \mathrm{H}_2\mathrm{O}
 $$
 
+:::
 :::info[Example — Nylon-6,6]
 
 Monomers: hexane-1,6-diamine and hexanedioic acid.
@@ -271,7 +271,6 @@ $$
 
 Uses: textiles, ropes, parachutes, engineering plastics.
 
-:::
 
 ### Kevlar
 
@@ -775,7 +774,7 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 - **Electron configurations and orbital theory** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
 - **Stoichiometry of polymer reactions** → Review
-  [../10-organic-chemistry/organic-chemistry](../10-organic-chemistry/organic-chemistry)
+  [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md)
 
 ## Summary
 
@@ -800,3 +799,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/2_organic-chemistry-advanced) |
 | [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/2_carbon-chemistry)          |
 
+
+:::

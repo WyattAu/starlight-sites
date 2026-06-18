@@ -18,3 +18,46 @@ Consider a reaction with $\Delta H = -92.2 \text{ kJ mol}^{-1}$ and $\Delta S = 
 $$\Delta G = -92.2 - (298)(-0.1987) = -92.2 + 59.2 = -33.0 \text{ kJ mol}^{-1}$$
 
 Since $\Delta G < 0$, the reaction is spontaneous under these conditions.
+
+## Overview
+
+University-level physical chemistry notes covering thermodynamics, kinetics, quantum chemistry, and spectroscopy.
+
+## Topics Covered
+
+- **Thermodynamics**: Enthalpy, entropy, Gibbs free energy, phase equilibria
+- **Kinetics**: Rate laws, reaction mechanisms, catalysis, Arrhenius equation
+- **Quantum Chemistry**: Wave functions, Schrodinger equation, molecular orbitals
+- **Spectroscopy**: IR, UV-Vis, NMR, mass spectrometry
+
+## Prerequisites
+
+- General chemistry (first-year university level)
+- Calculus (differentiation, integration, differential equations)
+- Linear algebra (matrices, eigenvalues)
+- Basic physics (mechanics, thermodynamics)
+
+## How to Use These Notes
+
+Start with the introductory sections to build foundational knowledge, then progress to more advanced topics. Each section includes worked examples and practice problems.
+
+## Navigation
+
+Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
+
+## Additional Resources
+
+Each section includes:
+- Detailed explanations of key concepts
+- Worked examples with step-by-step solutions
+- Practice problems with answers
+- Common pitfalls and how to avoid them
+- Connections to other areas of physical chemistry
+
+## Study Tips
+
+1. **Build a strong foundation**: Ensure you understand the basic concepts before moving to advanced topics
+2. **Practice regularly**: Physical chemistry requires active practice, not just reading
+3. **Work through derivations**: Practice deriving equations from first principles
+4. **Use mathematical tools**: Familiarise yourself with calculus and linear algebra techniques
+5. **Connect theory to experiment**: Relate theoretical concepts to experimental observations

@@ -1,8 +1,6 @@
 ---
 title: Dependent Names and Two-Phase Lookup
-description:
-  'C++ Programming Dependent Names and Two-Phase Lookup notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam readiness.'
+description: 'In templates, the distinction between and names determines when name Lookup occurs. Dependent names (those that depend on a template parameter) are looked...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

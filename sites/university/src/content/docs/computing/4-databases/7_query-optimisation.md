@@ -3,6 +3,7 @@ title: Query Optimisation
 tags:
   - Computing
   - University
+description: 'The optimiser estimates the cost of alternative execution plans and chooses the  Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 7.1 Query Processing Pipeline

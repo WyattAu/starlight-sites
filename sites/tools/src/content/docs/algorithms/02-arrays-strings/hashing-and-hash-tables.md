@@ -1,8 +1,6 @@
 ---
 title: Hashing and Hash Tables
-description:
-  'Algorithms Hashing and Hash Tables notes covering key definitions, core concepts, worked
-  examples, and practice questions for study and revision.'
+description: 'A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble'
 
 ---
 
@@ -125,7 +123,6 @@ Java's `String.hashCode()` uses $p = 31$ with 32-bit signed integer overflow (wh
 This is adequate for hash tables but unsuitable for cryptographic purposes. The choice of 31 is
 Historical and largely arbitrary — any odd prime works reasonably well.
 
-:::
 
 ### FNV-1a
 
@@ -240,13 +237,13 @@ The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ 
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
 
+:::
 :::caution
 
 If the load factor exceeds 1, the expected chain length grows linearly. In practice, keep
 $\alpha \le 0.75$ (the default for Java `HashMap` and Python `dict`). When $\alpha$ exceeds the
 Threshold, resize the table and rehash all elements.
 
-:::
 
 ### Using Dynamic Arrays Instead of Linked Lists
 
@@ -598,13 +595,13 @@ $k$ keys, the expected number of keys remapped when one node is added or removed
 Regardless of the total number of nodes. This is far better than modulo hashing, which remaps
 $k \cdot (1 - 1/(n+1)) \approx k$ keys when going from $n$ to $n+1$ nodes.
 
+:::
 :::tip
 
 Consistent hashing is used in Amazon Dynamo, Apache Cassandra, Riak, and many other distributed
 Databases. The standard number of virtual nodes is 150, which gives less than 10% imbalance with
 High probability.
 
-:::
 
 ## Bloom Filters
 
@@ -674,13 +671,13 @@ $$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
 
+:::
 :::caution
 
 Bloom filters cannot handle deletion. Once a bit is set, it cannot be cleared without potentially
 Affecting other elements. If you need deletion, use a counting bloom filter (each position stores a
 Counter instead of a single bit) or a cuckoo filter.
 
-:::
 
 ### Applications
 
@@ -828,6 +825,7 @@ class HyperLogLog:
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
 
+:::
 :::info
 
 For hash tables, always use non-cryptographic hashes — they are 10-100x faster. Cryptographic hashes
@@ -968,3 +966,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

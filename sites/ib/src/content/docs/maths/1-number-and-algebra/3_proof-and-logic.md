@@ -142,8 +142,7 @@ Compare with two other related statements that are NOT equivalent:
 - The **inverse** of $P \implies Q$ is $\neg P \implies \neg Q$ (not equivalent , but equivalent to
   the converse)
 
-:::danger Danger Implication. Never confuse the contrapositive with the converse.
-:::
+> **Danger:** Danger Implication. Never confuse the contrapositive with the converse.
 **Worked Example:**
 
 Statement: "If $n$ is even, then $n^2$ is even."

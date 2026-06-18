@@ -1,8 +1,6 @@
 ---
 title: Descriptive Statistics
-description:
-  'IB Economics Descriptive Statistics notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam preparation.'
+description: 'are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes.'
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]

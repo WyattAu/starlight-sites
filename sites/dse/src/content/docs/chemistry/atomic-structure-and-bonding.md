@@ -1,8 +1,6 @@
 ---
 title: Chemistry - Atomic Structure and Bonding
-description:
-  'DSE Chemistry - Atomic Structure and Bonding notes covering key definitions, core concepts,
-  worked examples, and practice questions for in-depth revision.'
+description: '| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------------ | ---------------- | --------------- | --------------- | |...'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-05-31T00:00:00.000Z

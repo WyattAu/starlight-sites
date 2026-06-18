@@ -3,6 +3,7 @@ title: Geometric Optics
 tags:
   - Physics
   - University
+description: 'The angle of incidence equals the angle of reflection: (both measured from the n Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 6.1 Reflection and Refraction

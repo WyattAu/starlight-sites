@@ -1,8 +1,6 @@
 ---
 title: Classes and Inheritance
-description:
-  'Python Classes and Inheritance notes covering key definitions, core concepts, worked examples,
-  and practice questions for focused exam preparation and revision.'
+description: 'In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when...'
 date: 2025-06-04T13:00:00.000Z
 tags:
   - Python
@@ -156,7 +154,6 @@ print(b.tags)  # ['x'] -- surprise
 
 Fix: assign the mutable in `__init__`.
 
-:::
 
 ## Method Types
 
@@ -226,13 +223,13 @@ class Math:
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
 Not need either, making it static is a signal to readers and static analysis tools.
 
+:::
 :::info
 
 The distinction between class methods and static methods is more than cosmetic. A class method can
 Be overridden in a subclass and dispatch to the correct class via `cls`. A static method cannot --
 It is a plain function that happens to live in a class namespace.
 
-:::
 
 ## Properties: `@property`Getters, and Setters
 
@@ -486,6 +483,7 @@ class EnhancedUser(JsonMixin, CsvMixin, User):
 This ordering ensures that mixin methods can override or wrap the primary class's methods, and that
 `super()` calls propagate through the mixins before reaching the primary class.
 
+:::
 :::danger
 
 Avoid the "diamond of death" pattern where two mixins both call `super().__init__()` but the primary
@@ -493,7 +491,6 @@ Class does not account for cooperative initialization. If you use mixins with `_
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
 Arguments it does not need.
 
-:::
 
 ## Abstract Base Classes
 
@@ -624,6 +621,7 @@ Returning `NotImplemented` (not `False`) when the other operand has an incompati
 Python to try the reflected operation on the other operand. Returning `False` would prevent this
 Fallback.
 
+:::
 :::danger
 
 If you define `__eq__`Python sets `__hash__` to `None` by default. This makes instances unhashable
@@ -631,7 +629,6 @@ And unusable in sets or as dict keys. If you need hashability, you must define `
 Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
 Data corruption in sets and dicts.
 
-:::
 
 ### Container Protocol
 
@@ -814,6 +811,7 @@ print(p.x)  # 1
 p.z = 3    # AttributeError: 'DensePoint' object has no attribute 'z'
 ```
 
+:::
 :::danger
 
 `__slots__` has significant limitations:
@@ -1062,5 +1060,6 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

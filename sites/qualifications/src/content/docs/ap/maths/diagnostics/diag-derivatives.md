@@ -1,8 +1,6 @@
 ---
 title: 'Derivatives -- Diagnostic Tests'
-description:
-  'Qualifications Maths Derivatives -- Diagnostic Tests notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam readiness.'
+description: '> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
 tags:
   - ap

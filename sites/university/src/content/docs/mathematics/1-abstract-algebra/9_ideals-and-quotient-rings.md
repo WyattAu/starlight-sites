@@ -3,6 +3,7 @@ title: Ideals and Quotient Rings
 tags:
   - Mathematics
   - University
+description: 'Ideals and Quotient Rings: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 9.1 Ideals

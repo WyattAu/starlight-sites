@@ -1,8 +1,6 @@
 ---
 title: Number Systems
-description:
-  'A-Level Computer Science Number Systems notes covering key definitions, core concepts, worked
-  examples, and practice questions for exam readiness.'
+description: 'A represents a number as a sequence of digits Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

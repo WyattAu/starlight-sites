@@ -1,8 +1,6 @@
 ---
 title: Operating Systems
-description:
-  'A-Level Computer Science Operating Systems notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused preparation.'
+description: 'An (OS) is a system software that manages hardware resources, Provides services for application software, and acts as an intermediary between the user and...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - ComputerScience
@@ -14,8 +12,7 @@ categories:
 
 ## 1. What is an Operating System?
 
-:::info Board-specific AQA Paper 1 | Edexcel P1 | OCR (A) Paper 1 | CIE Paper 1
-:::
+> **Info:** Board-specific AQA Paper 1 | Edexcel P1 | OCR (A) Paper 1 | CIE Paper 1
 ### Definition
 
 **Definition.** An **operating system** (OS) is a system software that manages hardware resources,

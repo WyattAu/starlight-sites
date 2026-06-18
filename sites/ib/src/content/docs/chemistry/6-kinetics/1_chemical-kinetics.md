@@ -233,7 +233,6 @@ $$
 K = 20\mathrm{ L}^2/(\mathrm{mol}^2\cdot\mathrm{s})
 $$
 
-:::
 
 ### Graphical Method
 
@@ -285,6 +284,7 @@ $$
 \ln\!\left(\frac{k_2}{k_1}\right) = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
 $$
 
+:::
 :::info[Example]
 
 The rate constant for a reaction is $3.2 \times 10^{-3}\mathrm{ s}^{-1}$ at $300\mathrm{ K}$ and
@@ -306,7 +306,6 @@ $$
 E_a = \frac{1.545 \times 8.314}{0.000476} = 26965\mathrm{ J/mol} = 27.0\mathrm{ kJ/mol}
 $$
 
-:::
 
 ### Temperature Rule of Thumb
 
@@ -341,6 +340,7 @@ Determined by the rate-determining step.
 Intermediates (species produced and consumed in the mechanism) do not appear in the rate equation
 For the overall reaction.
 
+:::
 :::info[Example]
 
 The overall reaction is $2\mathrm{NO}_2 + \mathrm{F}_2 \to 2\mathrm{NO}_2\mathrm{F}$.
@@ -358,7 +358,6 @@ $$
 
 The overall order is 2 (first order in NO$_2$First order in F$_2$).
 
-:::
 
 ---
 
@@ -505,6 +504,7 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 | First-order half-life  | $t_{1/2} = \dfrac{0.693}{k}$                                                  |
 | First-order integrated | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                                    |
 
+:::
 :::tip[Exam Strategy]
 
 For rate equation questions, always use the initial rates method systematically. For Arrhenius
@@ -512,7 +512,6 @@ Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechani
 Rate equation is determined by the slow step — check if intermediates need to be substituted using
 Equilibrium approximations.
 
-:::
 
 ---
 
@@ -534,6 +533,7 @@ Equilibrium approximations.
 | First  | Rate $= k[\mathrm{A}]$   | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                 | $\dfrac{\ln 2}{k}$           |
 | Second | Rate $= k[\mathrm{A}]^2$ | $\dfrac{1}{[\mathrm{A}]} = \dfrac{1}{[\mathrm{A}]_0} + kt$ | $\dfrac{1}{k[\mathrm{A}]_0}$ |
 
+:::
 :::info[Example]
 
 For a first-order reaction with $k = 0.025\mathrm{ min}^{-1}$ and
@@ -569,7 +569,6 @@ $$
 T_{1/2} = \frac{0.693}{0.025} = 27.7\mathrm{ min}
 $$
 
-:::
 
 ### Experimental Techniques for Rate Determination
 
@@ -750,6 +749,7 @@ When given concentration-time data (not initial rates), use graphical methods:
 2. Plot $\ln[\mathrm{A}]$ vs $t$: if linear, first order. Gradient $= -k$.
 3. Plot $1/[\mathrm{A}]$ vs $t$: if linear, second order. Gradient $= k$.
 
+:::
 :::info[Example]
 
 The concentration of a reactant was measured over time:
@@ -773,7 +773,6 @@ $$
 K = \frac{0.693}{10} = 0.0693\mathrm{ min}^{-1}
 $$
 
-:::
 
 ### Effect of a Change in Temperature on the Rate Constant
 
@@ -1099,3 +1098,5 @@ $$k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

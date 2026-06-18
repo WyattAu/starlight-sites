@@ -1,8 +1,6 @@
 ---
 title: Cross-compilation Toolchains
-description:
-  'C++ Programming Cross-compilation Toolchains notes covering key definitions, core concepts,
-  worked examples, and practice questions for structured revision.'
+description: 'Cross-compilation is the process of building executable code on one architecture (the ) that is intended to execute on a different architecture or operating...'
 date: 2025-12-10T05:18:46.463Z
 tags:
   - cpp
@@ -731,10 +729,10 @@ Use the following checklist to diagnose cross-compilation failures:
 
 ## See Also
 
-- [Installing a Compiler](1_installing_compiler.md) -- Setting up native and cross-compilers
+- [Installing a Compiler](1_installing_compiler.mdx) -- Setting up native and cross-compilers
 - [Standard Library Implementation](3_standard_library_implementation.md) -- Choosing the right
   standard library for the target
-- [Linker Configuration](5_linker_configuration.md) -- Cross-linking considerations
+- [Linker Configuration](5_linker_configuration.mdx) -- Cross-linking considerations
 - [vcpkg](../3_dependency_management/3_vcpkg.md) -- Cross-compiling dependencies with triplets
 - [Conan](../3_dependency_management/4_conan.md) -- Cross-compilation with Conan profiles
 

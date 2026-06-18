@@ -1,8 +1,6 @@
 ---
 title: Hash Algorithm
-description:
-  'Git Hash Algorithm notes covering key definitions, core concepts, worked examples, and practice
-  questions for focused exam preparation and mastery.'
+description: 'Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character...'
 date: 2025-06-03T14:00:00.000Z
 tags:
   - git

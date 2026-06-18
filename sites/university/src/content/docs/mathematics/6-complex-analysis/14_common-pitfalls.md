@@ -3,6 +3,7 @@ title: Common Pitfalls
 tags:
   - Mathematics
   - University
+description: 'Differentiability. The partial derivatives must also be continuous. For example, Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 :::caution Common Pitfall The Cauchy-Riemann equations are necessary but not sufficient for

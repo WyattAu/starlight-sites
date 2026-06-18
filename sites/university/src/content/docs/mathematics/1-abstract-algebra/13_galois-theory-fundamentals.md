@@ -3,6 +3,7 @@ title: Galois Theory Fundamentals
 tags:
   - Mathematics
   - University
+description: 'Let be a field extension. An - of is an automorphism That fixes pointwise (i.e., Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 13.1 Automorphisms and the Galois Group

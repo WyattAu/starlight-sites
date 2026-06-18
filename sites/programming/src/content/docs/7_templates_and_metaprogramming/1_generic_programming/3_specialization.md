@@ -1,8 +1,6 @@
 ---
 title: Explicit and Partial Specialization
-description:
-  'C++ Programming Explicit and Partial Specialization notes covering key definitions, core
-  concepts, worked examples, and practice questions for exam preparation.'
+description: 'Specialization allows you to provide alternative implementations for specific sets of template Arguments. replaces the primary template entirely for a...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

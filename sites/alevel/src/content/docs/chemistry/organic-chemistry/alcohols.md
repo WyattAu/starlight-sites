@@ -1,8 +1,6 @@
 ---
 title: Alcohols
-description:
-  'A-Level Chemistry Alcohols notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic exam preparation and revision.'
+description: 'Alcohols are organic compounds containing one or more hydroxyl () groups bonded  Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

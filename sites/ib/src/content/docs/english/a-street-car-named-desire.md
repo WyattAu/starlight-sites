@@ -2,9 +2,7 @@
 title: A Streetcar Named Desire
 tags:
   - english
-description:
-  'IB English A Streetcar Named Desire notes covering key definitions, core concepts, worked
-  examples, and practice questions for in-depth revision.'
+description: 'Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,...'
 ---
 
 ## Author Context

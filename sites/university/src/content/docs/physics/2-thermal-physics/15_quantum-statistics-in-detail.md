@@ -3,6 +3,7 @@ title: Quantum Statistics in Detail
 tags:
   - Physics
   - University
+description: 'Quantum Statistics in Detail: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 15.1 Fermi--Dirac and Bose--Einstein Distributions

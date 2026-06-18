@@ -1,8 +1,6 @@
 ---
 title: Deques and Priority Queues
-description:
-  'Algorithms Deques and Priority Queues notes covering key definitions, core concepts, worked
-  examples, and practice questions for clear revision.'
+description: 'A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO).'
 
 ---
 
@@ -177,7 +175,6 @@ Block size is 64 elements). This gives $O(1)$ amortised operations with good cac
 Better than a naive linked list but slightly worse than a pure circular buffer for sequential
 Access.
 
-:::
 
 ## Priority Queue ADT
 
@@ -260,6 +257,7 @@ def heapify(arr):
     return arr
 ```
 
+:::
 :::tip
 
 **Why `heapify` is $O(n)$Not $O(n \log n)$**: The cost of sifting down a node at height $h$ is
@@ -267,7 +265,6 @@ $O(h)$. There are at most $\lceil n / 2^{h+1} \rceil$ nodes at height $h$. The t
 $\sum_{h=0}^{\lfloor \log n \rfloor} \lceil n / 2^{h+1} \rceil \cdot O(h) = O(n \sum_{h=0}^{\infty} h / 2^{h}) = O(n)$.
 The key insight is that most nodes are near the bottom of the tree and require little or no sifting.
 
-:::
 
 ### Insert and Extract-Min
 
@@ -695,13 +692,13 @@ Times relative to `extract_min`. In practice:
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 
+:::
 :::caution
 
 Fibonacci heaps are primarily of theoretical interest. The constant factors are so large that binary
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
 That achieves the same amortised bounds for most operations.
 
-:::
 
 ## Pairing Heap
 
@@ -955,13 +952,13 @@ auto cmp = [](const pair<int,int>& a, const pair<int,int>& b) {
 std::priority_queue<pair<int,int>, vector<pair<int,int>>, decltype(cmp)> pq(cmp);
 ```
 
+:::
 :::info
 
 Python's `heapq` is a **min-heap**. For a max-heap, negate the values: push `(-x, x)` and pop
 `(-neg_x, x)`. C++ `std::priority_queue` is a **max-heap** by default; use `std::greater` for a
 Min-heap.
 
-:::
 
 ## Common Pitfalls
 
@@ -1034,3 +1031,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

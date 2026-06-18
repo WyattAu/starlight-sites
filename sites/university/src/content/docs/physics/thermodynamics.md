@@ -5,9 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description:
-  'University-level thermodynamics: laws of thermodynamics, entropy, free energy, thermodynamic
-  potentials, phase transitions, statistical mechanics foundations,.'
+description: 'is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides...'
 ---
 
 ## 1. Introduction

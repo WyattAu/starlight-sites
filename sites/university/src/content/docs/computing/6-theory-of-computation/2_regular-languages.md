@@ -3,6 +3,7 @@ title: Regular Languages
 tags:
   - Computing
   - University
+description: 'Regular Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 
 ### 2.1 Finite Automata

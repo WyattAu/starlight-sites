@@ -1,8 +1,6 @@
 ---
 title: Incident Response
-description:
-  'Incident Response notes covering key definitions, core concepts, worked examples, and practice
-  questions for solid study and thorough revision.'
+description: 'NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
 
 ---
 
@@ -211,7 +209,7 @@ Detection rules translate threat intelligence into automated alerts in your SIEM
 # Sigma rule: Detect suspicious PowerShell execution
 title: Suspicious PowerShell Encoded Command
 status: production
-description: Detects PowerShell commands with encoded payloads
+description: 'NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
 logsource:
   category: process_creation
   product: windows
@@ -233,7 +231,7 @@ tags:
 # Sigma rule: Detect potential SSH brute force
 title: SSH Brute Force Attempt
 status: production
-description: Detects multiple failed SSH authentication attempts
+description: 'NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
 logsource:
   category: authentication
   product: linux
@@ -315,7 +313,6 @@ Actions that allow business to continue while the investigation proceeds:
 Before any containment action that may alter the system state, preserve volatile evidence. Once a
 System is rebooted or powered off, volatile data is permanently lost.
 
-:::
 
 **Order of volatility** (what to collect first):
 
@@ -395,13 +392,13 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 6. **Update firewall rules**: Block any attacker infrastructure (C2 servers, exfil endpoints)
 7. **Verify integrity**: Compare critical files against known-good versions or checksums
 
+:::
 :::caution
 
 Do not trust the compromised system. The attacker may have installed rootkits, modified binaries, or
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
 From known-good images rather than attempting in-place cleanup.
 
-:::
 
 ## Recovery
 
@@ -631,13 +628,13 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | CCPA       | "Expeditious"                             | California Attorney General         |
 | NIS2 (EU)  | 24 hours (early warning), 72 hours (full) | National CSIRT                      |
 
+:::
 :::caution
 
 Regulatory requirements vary by jurisdiction and data type. Engage legal counsel early. Failure to
 Notify within the required timeframe can result in significant fines on top of the incident's direct
 Costs. GDPR fines for late notification can reach 10 million EUR or 2% of global annual revenue.
 
-:::
 
 ## Common Pitfalls
 
@@ -836,6 +833,7 @@ What you can do: [specific actions for the user]
 For more information: [contact details, FAQ link]
 ```
 
+:::
 :::info
 
 **Reference Standards**: NIST SP 800-61 Rev. 2 (Computer Security Incident Handling Guide), NIST SP
@@ -844,7 +842,6 @@ Malware Incident Prevention and Handling), RFC 3227 (Guidelines for Evidence Col
 Archiving), MITRE ATT&CK Framework, ISO/IEC 27035 (Information Security Incident Management), NIST
 Cybersecurity Framework (CSF), SANS Incident Handler's Handbook.
 
-:::
 
 ## Summary
 
@@ -867,3 +864,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

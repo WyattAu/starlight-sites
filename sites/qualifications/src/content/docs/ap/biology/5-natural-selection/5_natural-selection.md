@@ -1,8 +1,6 @@
 ---
 title: Natural Selection
-description:
-  'Qualifications Biology Natural Selection notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: '1. Individuals in a population exhibit heritable variation. 2. Populations produce more offspring than the environment can support. 3. Individuals compete...'
 date: 2026-04-14
 tags:
   - ap
@@ -101,8 +99,8 @@ $$
 
 Check: $360 + 480 + 160 = 1000$.
 
-:::
 
+:::
 :::info[Worked Example 2]
 
 The frequency of the dominant allele for a trait is 0.7 in a population of 5000. How many
@@ -116,8 +114,8 @@ Number of heterozygous individuals: $0.42 \times 5000 = 2100$.
 
 Number showing the recessive phenotype: $q^2 \times 5000 = 0.09 \times 5000 = 450$.
 
-:::
 
+:::
 :::info[Worked Example 3]
 
 16% of individuals in a population show the recessive phenotype. What percentage is heterozygous?
@@ -126,8 +124,8 @@ $q^2 = 0.16$So $q = 0.4$, $p = 0.6$.
 
 $2pq = 2(0.6)(0.4) = 0.48 = 48\%$.
 
-:::
 
+:::
 :::info[Worked Example 4]
 
 A population has the following genotype frequencies: AA = 0.42, Aa = 0.36, aa = 0.22. Is this
@@ -147,7 +145,6 @@ The observed and expected frequencies differ, so the population is not in Hardy-
 Equilibrium. The excess of homozygotes (AA and aa) suggests non-random mating (possibly inbreeding
 Or assortative mating).
 
-:::
 
 ## Mechanisms of Evolution
 
@@ -898,3 +895,5 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 $$
+
+:::

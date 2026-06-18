@@ -1,8 +1,6 @@
 ---
 title: Collections Deep Dive
-description:
-  'Dart Collections Deep Dive notes covering key definitions, core concepts, worked examples, and
-  practice questions for effective exam preparation and mastery.'
+description: 'is the root of Dart's collection hierarchy. Both and implement it, And implements it via its property. An is a — it Describes how to produce elements but...'
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

@@ -1,8 +1,6 @@
 ---
 title: Electrostatics
-description:
-  'Qualifications Physics Electrostatics notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'Charge is a fundamental property of matter. There are two types: positive and ne Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-05-05
 tags:
   - ap
@@ -74,7 +72,6 @@ $$
 F = \frac{q\lambda}{4\pi\epsilon_0} \int_{L+a}^{a} \frac{-du}{u^2} = \frac{q\lambda}{4\pi\epsilon_0} \left[\frac{1}{u}\right]_a^{L+a} = \frac{q\lambda}{4\pi\epsilon_0}\left(\frac{1}{a} - \frac{1}{L+a}\right) = \frac{qQ}{4\pi\epsilon_0\, a(L+a)}
 $$
 
-:::
 
 ## Electric Field
 
@@ -92,6 +89,7 @@ $$
 \vec{E} = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r^2}\hat{r}
 $$
 
+:::
 :::info[Example: Electric field on the axis of a charged ring]
 
 A ring of radius $R$ carries total charge $Q$. Find the electric field at distance $x$ along its
@@ -109,8 +107,8 @@ $$
 
 At the center ($x = 0$): $E = 0$As expected by symmetry.
 
-:::
 
+:::
 :::info[Example: Electric field of an infinite line of charge]
 
 For an infinite line with linear charge density $\lambda$Use cylindrical symmetry. Place the line
@@ -126,7 +124,6 @@ $$
 E = \frac{\lambda r}{4\pi\epsilon_0} \int_{-\infty}^{\infty} \frac{dz}{(z^2 + r^2)^{3/2}} = \frac{\lambda r}{4\pi\epsilon_0} \cdot \frac{2}{r^2} = \frac{\lambda}{2\pi\epsilon_0 r}
 $$
 
-:::
 
 ### Electric Field Lines
 
@@ -190,6 +187,7 @@ $$
 
 **Inside ($r < R$):** $Q_{\text{enc} = 0$So $E = 0$.
 
+:::
 :::info[Example: Non-conducting sphere with non-uniform charge density]
 
 A sphere of radius $R$ has charge density $\rho(r) = \rho_0 (1 - r/R)$ for $0 \le r \le R$. Find $E$
@@ -214,7 +212,6 @@ $$
 E = \frac{\pi\rho_0 R^3}{12\epsilon_0 r^2}
 $$
 
-:::
 
 ## Electric Potential
 
@@ -244,6 +241,7 @@ $$
 V = \frac{1}{4\pi\epsilon_0} \int \frac{dq}{r}
 $$
 
+:::
 :::info[Example: Potential on the axis of a charged disk]
 
 A disk of radius $R$ has surface charge density $\sigma$. Find the potential at distance $x$ along
@@ -262,7 +260,6 @@ $$
 V = \frac{\sigma}{2\epsilon_0}\left(\sqrt{R^2 + x^2} - |x|\right)
 $$
 
-:::
 
 ### Electric Potential Energy
 
@@ -279,6 +276,7 @@ $$
 U = \frac{q_1 q_2}{4\pi\epsilon_0 r}
 $$
 
+:::
 :::info[Example: Energy to assemble a square of charges]
 
 Four charges $q$ are placed at the corners of a square of side $a$. Find the total potential energy.
@@ -290,7 +288,6 @@ $$
 U = \frac{4 q^2}{4\pi\epsilon_0 a} + \frac{2 q^2}{4\pi\epsilon_0 a\sqrt{2}} = \frac{q^2}{4\pi\epsilon_0 a}\left(4 + \sqrt{2}\right)
 $$
 
-:::
 
 ## Capacitance
 
@@ -408,6 +405,7 @@ $$
 \oint \vec{D} \cdot d\vec{A} = Q_{\text{free, enc}
 $$
 
+:::
 :::info[Example: Parallel plate capacitor with partial dielectric]
 
 A parallel plate capacitor has plate area $A$ and separation $d$. A dielectric of thickness $t < d$
@@ -556,5 +554,6 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

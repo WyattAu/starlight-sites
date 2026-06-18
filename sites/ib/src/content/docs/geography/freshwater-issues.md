@@ -1,8 +1,6 @@
 ---
 title: Freshwater Issues
-description:
-  'IB Geography Freshwater Issues notes covering key definitions, core concepts, worked examples,
-  and practice questions for complete study and thorough revision.'
+description: 'This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It examines the hydrological cycle, the characteristics and...'
 
 ---
 

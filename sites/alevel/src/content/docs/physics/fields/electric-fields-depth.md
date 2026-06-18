@@ -1,8 +1,6 @@
 ---
 title: Electric Fields
-description:
-  'A-Level Physics Electric Fields notes covering key definitions, core concepts, worked examples,
-  and practice questions for detailed revision.'
+description: 'The electrostatic force between two point charges and separated by Distance in v Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]
@@ -11,8 +9,7 @@ categories: [Physics]
 
 ## Electric Fields
 
-:::info Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
-:::
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 ## 1. Coulomb's Law
 
 **Coulomb's Law.** The electrostatic force between two point charges $q_1$ and $q_2$ separated by

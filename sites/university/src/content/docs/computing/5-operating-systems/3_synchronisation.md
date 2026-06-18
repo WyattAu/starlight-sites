@@ -3,6 +3,7 @@ title: Synchronisation
 tags:
   - Computing
   - University
+description: 'Consider processes sharing a resource. The is the code segment accessing the Res Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 3.1 The Critical Section Problem

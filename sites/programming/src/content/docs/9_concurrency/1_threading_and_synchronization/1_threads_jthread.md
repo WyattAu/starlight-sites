@@ -1,8 +1,6 @@
 ---
 title: Thread Execution (std::jthread) and Hardware Mapping
-description:
-  'C++ Programming Thread Execution (std::jthread) and notes covering key definitions, core
-  concepts, worked examples, and practice questions for revision.'
+description: 'This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via...'
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

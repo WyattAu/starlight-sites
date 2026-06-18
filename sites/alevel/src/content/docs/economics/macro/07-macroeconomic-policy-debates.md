@@ -1,8 +1,6 @@
 ---
 title: Macroeconomic Policy Debates
-description:
-  'A-Level Economics Macroeconomic Policy Debates notes covering key definitions, core concepts,
-  worked examples, and practice questions for systematic revision.'
+description: 'Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

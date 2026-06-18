@@ -1,8 +1,6 @@
 ---
 title: Schema Migrations
-description:
-  'Schema Migrations notes covering key definitions, core concepts, worked examples, and practice
-  questions for efficient review and exam preparation.'
+description: 'Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or...'
 
 ---
 

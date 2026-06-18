@@ -60,7 +60,6 @@ $$
 N = 0.278 \times 6.022 \times 10^{23} = 1.67 \times 10^{23}\mathrm{ molecules}
 $$
 
-:::
 
 ---
 
@@ -88,6 +87,7 @@ Where $n$ is an integer.
 4. Round to the nearest whole number (or multiply to get integers).
 5. Write the empirical formula.
 
+:::
 :::info[Example]
 
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Find its
@@ -109,7 +109,6 @@ $$
 
 Molecular formula: C$_6$H$_{12}$O$_6$ (glucose).
 
-:::
 
 ### Hydrated Salts
 
@@ -123,6 +122,7 @@ To find the number of water molecules:
 3. Calculate moles of anhydrous salt and moles of water.
 4. Find the ratio.
 
+:::
 :::info[Example]
 
 $12.5\mathrm{ g}$ of hydrated copper(II) sulfate, CuSO$_4$, $\cdot$xH$_2$O, is heated to give
@@ -144,7 +144,6 @@ $$
 
 Formula: CuSO$_4$, $\cdot$5H$\_2$O.
 
-:::
 
 ---
 
@@ -164,6 +163,7 @@ Sides (conservation of mass).
 5. Check that all elements are balanced.
 6. Ensure coefficients are in the lowest whole-number ratio.
 
+:::
 :::info[Example]
 
 Balance the combustion of propane:
@@ -178,13 +178,13 @@ Balance O: C$_3$H$_8$ + 5O$_2$ $\to$ 3CO$_2$ + 4H$_2$O
 
 Check: 3C, 8H, 10O on each side. Balanced.
 
-:::
 
 ### Ionic Equations
 
 Spectator ions (ions that appear unchanged on both sides) can be removed to give a **net ionic
 Equation**.
 
+:::
 :::info[Example]
 
 AgNO$_3$(aq) + NaCl(aq) $\to$ AgCl(s) + NaNO$_3$(aq)
@@ -193,7 +193,6 @@ Full ionic: Ag$^+$(aq) + NO$_3^-$ + Na$^+$ + Cl$^-$ $\to$ AgCl(s) + Na$^+$ + NO$
 
 Net ionic: Ag$^+$(aq) + Cl$^-$ $\to$ AgCl(s)
 
-:::
 
 ---
 
@@ -210,6 +209,7 @@ The maximum amount of product formed.
 2. Determine which reactant is limiting (divide moles by stoichiometric coefficient).
 3. Use the limiting reagent to calculate the amount of product.
 
+:::
 :::info[Example]
 
 $5.0\mathrm{ g}$ of iron reacts with $3.0\mathrm{ g}$ of sulfur: Fe + S $\to$ FeS.
@@ -232,7 +232,6 @@ $$
 M(\mathrm{FeS}) = 0.0895 \times 87.91 = 7.87\mathrm{ g}
 $$
 
-:::
 
 ### Percentage Yield
 
@@ -240,6 +239,7 @@ $$
 \mathrm{Percentage yield} = \frac{\mathrm{actual yield}}{\mathrm{theoretical yield}} \times 100\%
 $$
 
+:::
 :::info[Example]
 
 If $6.5\mathrm{ g}$ of FeS was actually produced in the previous example:
@@ -248,7 +248,6 @@ $$
 \mathrm{Percentage yield} = \frac{6.5}{7.87} \times 100\% = 82.6\%
 $$
 
-:::
 
 ---
 
@@ -309,6 +308,7 @@ $22.7\mathrm{ L}$.
 
 At RTP ($25\degree\mathrm{C}$, $100\mathrm{ kPa}$), one mole occupies $24.8\mathrm{ L}$.
 
+:::
 :::info[Example]
 
 Calculate the volume occupied by $2.5\mathrm{ mol}$ of gas at $25\degree\mathrm{C}$ and
@@ -326,7 +326,6 @@ $$
 V = \frac`\{nRT}`{P} = \frac{2.5 \times 8.314 \times 298}{121590} = \frac{6194.2}{121590} = 0.0509\mathrm{ m}^3 = 50.9\mathrm{ L}
 $$
 
-:::
 
 ### Real Gas Deviations
 
@@ -386,6 +385,7 @@ $$
 \mathrm{ppm} = \frac{m_{\mathrm{solute}}}{m_{\mathrm{solution}}} \times 10^6
 $$
 
+:::
 :::info[Example]
 
 What is the concentration of a solution made by dissolving $10.0\mathrm{ g}$ of NaCl in enough water
@@ -399,7 +399,6 @@ $$
 C = \frac{0.171}{0.250} = 0.684\mathrm{ mol/L}
 $$
 
-:::
 
 ### Dilution
 
@@ -407,6 +406,7 @@ $$
 C_1 V_1 = c_2 V_2
 $$
 
+:::
 :::info[Example]
 
 What volume of $6.0\mathrm{ M}$ HCl is needed to make $500\mathrm{ mL}$ of $0.50\mathrm{ M}$ HCl?
@@ -415,7 +415,6 @@ $$
 V_1 = \frac{c_2 V_2}{c_1} = \frac{0.50 \times 500}{6.0} = 41.7\mathrm{ mL}
 $$
 
-:::
 
 ### Standard Solutions
 
@@ -432,6 +431,7 @@ A standard solution is one of accurately known concentration. To prepare:
 Titration is used to determine the concentration of an unknown solution by reacting it with a
 Standard solution.
 
+:::
 :::info[Example]
 
 $25.0\mathrm{ mL}$ of NaOH is titrated with $0.100\mathrm{ M}$ HCl. The endpoint is reached at
@@ -451,7 +451,6 @@ $$
 C(\mathrm{NaOH}) = \frac{0.00200}{0.0250} = 0.0800\mathrm{ M}
 $$
 
-:::
 
 ---
 
@@ -550,13 +549,13 @@ $$
 | Dilution         | $c_1V_1 = c_2V_2$                                            |
 | Percentage yield | $\dfrac{\mathrm{actual}}{\mathrm{theoretical}} \times 100\%$ |
 
+:::
 :::tip[Exam Strategy]
 
 Always show your working with units. For gas calculations, ensure temperature is in Kelvin. For
 Titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
 volume at STP is 22.7 L/mol and at RTP is 24.8 L/mol.
 
-:::
 
 ---
 
@@ -587,6 +586,7 @@ $$
 \frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
 $$
 
+:::
 :::info[Example]
 
 Compare the rates of diffusion of He (4 g/mol) and O$_2$ (32 g/mol).
@@ -597,7 +597,6 @@ $$
 
 Helium diffuses about 2.83 times faster than oxygen.
 
-:::
 
 ### Ideal Gas Law Applications
 
@@ -613,6 +612,7 @@ $$
 \rho = \frac`\{PM}``\{RT}`
 $$
 
+:::
 :::info[Example]
 
 A gas has a density of $1.43\mathrm{ g/L}$ at STP. Find its molar mass.
@@ -623,7 +623,6 @@ $$
 
 The gas is likely O$_2$.
 
-:::
 
 ---
 
@@ -668,6 +667,7 @@ Constants, and $m$ is molality.
 4. Repeat until constant mass is achieved.
 5. Calculate the moles of anhydrous salt and water.
 
+:::
 :::info[Example]
 
 $12.5\mathrm{ g}$ of hydrated magnesium sulfate, MgSO$_4$, $\cdot$xH$_2$O, is heated to constant
@@ -689,7 +689,6 @@ $$
 
 Formula: MgSO$_4$, $\cdot$7H$\_2$O (Epsom salt).
 
-:::
 
 ---
 
@@ -768,6 +767,7 @@ $$
 A back titration is used when the analyte cannot be directly titrated. An excess of a standard
 Reagent is added, and the unreacted portion is titrated.
 
+:::
 :::info[Example]
 
 An antacid tablet contains CaCO$_3$. The tablet is dissolved in $50.0\mathrm{ cm}^3$ of
@@ -804,7 +804,6 @@ $$
 M = 0.00350 \times 100.09 = 0.350\mathrm{ g}
 $$
 
-:::
 
 ### Gravimetric Analysis
 
@@ -817,6 +816,7 @@ Gravimetric analysis determines the amount of an analyte by measuring mass.
 3. Weigh the precipitate.
 4. Calculate the amount of analyte from stoichiometry.
 
+:::
 :::info[Example]
 
 A solution contains sulfate ions. BaCl$_2$ is added to precipitate BaSO$_4$. The precipitate is
@@ -832,7 +832,6 @@ $$
 M(\mathrm{SO}_4^{2-}) = 0.00249 \times 96.06 = 0.239\mathrm{ g}
 $$
 
-:::
 
 ### Gas Collection Methods
 
@@ -1067,3 +1066,5 @@ Worked examples demonstrating the application of key concepts are covered in the
 $$
 linked above.
 
+
+:::

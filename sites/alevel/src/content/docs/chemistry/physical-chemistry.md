@@ -1,8 +1,6 @@
 ---
 title: Physical Chemistry
-description:
-  'A-Level Physical Chemistry notes covering key definitions, core concepts, worked examples, and
-  practice questions for systematic revision and exam readiness.'
+description: 'Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards.'
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry

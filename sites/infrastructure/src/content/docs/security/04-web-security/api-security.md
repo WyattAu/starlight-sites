@@ -1,8 +1,6 @@
 ---
 title: API Security
-description:
-  'API Security notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective exam preparation and revision.'
+description: 'REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain...'
 
 ---
 
@@ -48,7 +46,6 @@ API keys provide weak authentication: they are long-lived shared secrets that ca
 User or rotated. Use them only for server-to-server communication where OAuth 2.0 is Impractical.
 Prefer OAuth 2.0 Bearer tokens for user-facing APIs.
 
-:::
 
 ### Bearer Tokens
 
@@ -268,12 +265,12 @@ Retry-After: 30
 | Sliding window | Yes      | Yes    | Precise, memory-intensive          |
 | Fixed window   | Yes      | Yes    | Simple, burst at window boundaries |
 
+:::
 :::info
 
 Rate limit by user identity (API key or token) when authenticated, and by IP address when
 Unauthenticated. Unauthenticated rate limits should be stricter to prevent abuse.
 
-:::
 
 ## Input Validation
 
@@ -653,3 +650,5 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

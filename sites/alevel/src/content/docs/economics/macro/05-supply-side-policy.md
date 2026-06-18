@@ -1,8 +1,6 @@
 ---
 title: Supply-Side Policy
-description:
-  'A-Level Economics Supply-Side Policy notes covering key definitions, core concepts, worked
-  examples, and practice questions for detailed preparation.'
+description: 'We define as government policies designed to increase the productive Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

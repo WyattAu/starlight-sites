@@ -5,9 +5,7 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description:
-  'Kotlin delegation patterns: by lazy, by observable, by vetoable, and class delegation. The Result
-  type for error handling, sealed class pattern, and.'
+description: 'Property delegation transfers the getter and setter logic to a delegate object using the keyword. The delegate must provide (and for mutable properties).'
 ---
 
 ## Property Delegation

@@ -1,8 +1,6 @@
 ---
 title: Chemistry of Life
-description:
-  'Qualifications Biology Chemistry of Life notes covering key definitions, core concepts, worked
-  examples, and practice questions for rigorous revision.'
+description: 'The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-14
 tags:
   - ap

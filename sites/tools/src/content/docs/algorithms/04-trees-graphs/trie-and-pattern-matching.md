@@ -1,8 +1,6 @@
 ---
 title: Tries and String Algorithms
-description:
-  'Algorithms Tries and String Algorithms notes covering key definitions, core concepts, worked
-  examples, and practice questions for solid revision.'
+description: 'A trie is a tree data structure where each node represents a character of a string. The path from The root to any node spells out a prefix, and nodes marked...'
 
 ---
 
@@ -143,7 +141,6 @@ A trie with $n$ keys of total length $L$ has at most $L + 1$ nodes. In the worst
 Prefixes), this is $\sum |word_i| + 1$. The space can be reduced using a radix tree (compressed
 Trie) which merges chains of single-child nodes.
 
-:::
 
 ## Compressed Trie (Radix Tree / Patricia Trie)
 
@@ -503,13 +500,13 @@ def suffix_array_search(s, sa, pattern):
     return (-1, -1)
 ```
 
+:::
 :::tip
 
 For most practical purposes, suffix arrays are preferred over suffix trees because they use less
 Memory (an array of integers vs a tree of objects) and are easier to implement. The LCP array
 Enables efficient computation of longest common substrings and other string problems.
 
-:::
 
 ## Aho-Corasick Algorithm
 
@@ -788,6 +785,7 @@ def boyer_moore_search(text, pattern):
     return matches
 ```
 
+:::
 :::caution
 
 Boyer-Moore's worst case is $O(nm)$Which is worse than KMP. In practice, Boyer-Moore is sublinear On
@@ -999,3 +997,5 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::

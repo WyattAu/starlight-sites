@@ -1,8 +1,6 @@
 ---
 title: Atmospheric Systems
-description:
-  'IB Geography Atmospheric Systems notes covering key definitions, core concepts, worked examples,
-  and practice questions for structured preparation.'
+description: 'The global atmospheric circulation is driven by differential heating of Earth's surface. The equator Receives more solar radiation per unit area than the...'
 
 ---
 

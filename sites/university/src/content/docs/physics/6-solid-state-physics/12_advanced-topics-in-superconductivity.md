@@ -3,6 +3,7 @@ title: Advanced Topics in Superconductivity
 tags:
   - Physics
   - University
+description: 'The Ginzburg--Landau (GL) theory provides a phenomenological description of supe Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 ### 12.1 Ginzburg--Landau Theory

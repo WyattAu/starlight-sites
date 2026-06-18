@@ -1,8 +1,6 @@
 ---
 title: Sorting Algorithms
-description:
-  'A-Level Computer Science Sorting Algorithms notes covering key definitions, core concepts, worked
-  examples, and practice questions for focused revision.'
+description: 'Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems.'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -547,7 +545,6 @@ For revision on data structures used in sorting, see
 [Trees](/docs/alevel/computer-science/data-structures/trees) (heap sort) and
 [Linked Lists](/docs/alevel/computer-science/data-structures/linked-lists) (merge sort).
 
-:::
 
 ## Common Pitfalls
 

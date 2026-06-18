@@ -1,8 +1,6 @@
 ---
 title: Qualitative Research (HL)
-description:
-  'IB Psychology Qualitative Research (HL) notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured revision.'
+description: 'Quantitative and qualitative research represent fundamentally different approaches to the study of human behaviour. They are rooted in different...'
 
 ---
 

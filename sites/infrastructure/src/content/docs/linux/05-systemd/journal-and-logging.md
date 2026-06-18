@@ -1,8 +1,6 @@
 ---
 title: Journal and Logging
-description:
-  'Journal and Logging notes covering key definitions, core concepts, worked examples, and practice
-  questions for effective study and thorough revision.'
+description: 'is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format.'
 
 ---
 
@@ -973,5 +971,6 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
 
 :::

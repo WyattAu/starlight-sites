@@ -1,8 +1,6 @@
 ---
 title: Drainage Basins and Hydrology
-description:
-  'IB Geography Drainage Basins and Hydrology notes covering key definitions, core concepts, worked
-  examples, and practice questions for effective preparation.'
+description: 'A drainage basin (catchment or watershed) is the area of land from which all precipitation flows to A common outlet, where a river enters a lake, sea, or...'
 
 ---
 

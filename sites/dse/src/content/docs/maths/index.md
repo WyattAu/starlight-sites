@@ -12,39 +12,39 @@ revision and drill practice.
 
 ## Algebra and Functions
 
-- **[Functions](./compulsory/functions)** -- Domain and range, function notation, linear functions,
+- **[Functions](../../../../../languages/src/content/docs/typescript/functions.md)** -- Domain and range, function notation, linear functions,
   quadratic functions, and graph sketching techniques
-- **[Functions (Advanced)](./compulsory/functions-advanced)** -- Composite functions, inverse
+- **[Functions (Advanced)](compulsory/2_functions-advanced.md)** -- Composite functions, inverse
   functions, exponential functions, logarithmic functions, and function transformations
-- **[Quadratics](./compulsory/quadratics)** -- Factorisation, completing the square, quadratic
+- **[Quadratics](compulsory/3_quadratics.mdx)** -- Factorisation, completing the square, quadratic
   formula, discriminant, and graphs of quadratic functions
-- **[Polynomials](./compulsory/polynomials)** -- Polynomial division, factor theorem, remainder
+- **[Polynomials](compulsory/4_polynomials.md)** -- Polynomial division, factor theorem, remainder
   theorem, roots of equations, and polynomial graphs
-- **[Inequalities](./compulsory/inequalities)** -- Linear inequalities, quadratic inequalities,
+- **[Inequalities](compulsory/5_inequalities.md)** -- Linear inequalities, quadratic inequalities,
   absolute value inequalities, systems of inequalities, and optimisation problems
-- **[Sequences and Series](./compulsory/sequences-series)** -- Arithmetic sequences, geometric
+- **[Sequences and Series](./compulsory/6_sequences-and-series.mdx)** -- Arithmetic sequences, geometric
   sequences, series summation, sigma notation, and convergence tests
-- **[Logarithms](./compulsory/logarithms)** -- Logarithmic laws, solving exponential and logarithmic
+- **[Logarithms](./compulsory/7_logarithmics.mdx)** -- Logarithmic laws, solving exponential and logarithmic
   equations, change of base formula, and real-world applications
 
 ## Geometry and Trigonometry
 
-- **[Coordinate Geometry](./compulsory/coordinate-geometry)** -- Straight lines, circles, equations
+- **[Coordinate Geometry](compulsory/9_coordinate-geometry.md)** -- Straight lines, circles, equations
   of curves, distance formula, midpoint formula, and locus problems
-- **[Trigonometry](./compulsory/trigonometry)** -- Trigonometric ratios, sine and cosine rules,
+- **[Trigonometry](../../../../../qualifications/src/content/docs/highers/maths/2-trigonometry/2_trigonometry.md)** -- Trigonometric ratios, sine and cosine rules,
   trigonometric identities, solving equations, and 3D problems
-- **[Geometries](./compulsory/geometries)** -- 2D and 3D geometry, circle theorems, trigonometric
+- **[Geometries](compulsory/8_geometries.md)** -- 2D and 3D geometry, circle theorems, trigonometric
   identities, vector geometry, and coordinate ./1-number-and-algebra/3_proof-and-logics
 
 ## Probability and Statistics
 
-- **[Probability](./compulsory/probability)** -- Sample spaces, events, conditional probability,
+- **[Probability](../../../../../university/src/content/docs/mathematics/probability.md)** -- Sample spaces, events, conditional probability,
   addition and multiplication rules, and probability distributions
-- **[Dispersion](./compulsory/dispersion)** -- Range, interquartile range, variance, standard
+- **[Dispersion](../../../../../university/src/content/docs/physics/4-optics-and-waves/11_dispersion.md)** -- Range, interquartile range, variance, standard
   deviation, and box-and-whisker plots
 - **[Combinatorics](./compulsory/../compulsory/13_permutations-and-combinations)** -- Permutations,
   combinations, counting principles, binomial theorem, and probability applications
-- **[Permutations and Combinations](./compulsory/permutations-and-combinations)** -- Factorial
+- **[Permutations and Combinations](compulsory/13_permutations-and-combinations.md)** -- Factorial
   notation, arrangement problems, selection problems, and the binomial expansion
 
 ## Related Content
@@ -54,3 +54,85 @@ revision and drill practice.
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
+
+## Overview
+
+This section provides comprehensive Dse Maths content, covering all specification points with detailed explanations, worked examples, and practice questions.
+
+## Content Structure
+
+Each page in this section includes:
+
+- **Definitions**: Clear, precise explanations of key concepts
+- **Worked Examples**: Step-by-step solutions with annotations
+- **Practice Questions**: Examination-style questions with detailed solutions
+- **Common Pitfalls**: Errors to avoid and how to fix them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use These Notes
+
+1. Read the introductory page to understand the topic overview
+2. Work through each sub-topic in order
+3. Attempt the practice questions before checking solutions
+4. Use the flashcards to revise key terminology
+5. Complete the diagnostic test to identify remaining gaps
+
+## Key Topics
+
+- Core definitions and principles
+- Application to examination-style questions
+- Links to related topics across the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself regularly rather than re-reading notes
+- **Spaced Practice**: Revisit this topic at increasing intervals
+- **Interleaving**: Mix with other topics during revision sessions
+- **Elaboration**: Explain concepts in your own words
+
+## Exam Preparation
+
+Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Overview
+
+This landing page provides comprehensive coverage of Maths content for the Dse qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
+
+## Content Structure
+
+This page includes:
+
+- **Key Definitions**: Precise explanations of essential concepts
+- **Core Concepts**: Detailed treatment of fundamental principles
+- **Worked Examples**: Step-by-step solutions demonstrating application
+- **Practice Questions**: Examination-style questions with mark schemes
+- **Common Pitfalls**: Frequent errors and how to avoid them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use This Content
+
+1. Read through the introductory material to establish context
+2. Study the definitions and core concepts carefully
+3. Work through the worked examples, following each step
+4. Attempt the practice questions independently
+5. Review your answers against the provided solutions
+6. Note any areas requiring further revision
+
+## Key Concepts
+
+- Foundational definitions and terminology
+- Application of principles to examination contexts
+- Connections to related topics within the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself on the material rather than passively re-reading
+- **Spaced Repetition**: Review this content at increasing intervals
+- **Interleaving**: Mix this topic with others during study sessions
+- **Elaborative Interrogation**: Ask yourself why each concept works
+
+## Exam Preparation
+
+Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.

@@ -2,6 +2,7 @@
 title: Compactness
 tags:
   - University Maths
+description: 'Let be a topological space. An of is a collection Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 5.1 Open Covers

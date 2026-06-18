@@ -1,8 +1,6 @@
 ---
 title: Generics and Type Erasure
-description:
-  'Java Generics and Type Erasure notes covering key definitions, core concepts, worked examples,
-  and practice questions for complete review and exam preparation.'
+description: 'Before generics (JDK 5, 2004), the Java collections API worked with . Every retrieval Required a cast, and the compiler could not verify that you were...'
 date: 2026-04-04T00:00:00.000Z
 tags:
   - Java

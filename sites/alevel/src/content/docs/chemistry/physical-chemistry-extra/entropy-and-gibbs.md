@@ -1,8 +1,6 @@
 ---
 title: Entropy and Gibbs Free Energy
-description:
-  'A-Level Chemistry Entropy and Gibbs Free Energy notes covering key definitions, core concepts,
-  worked examples, and practice questions for exam preparation.'
+description: 'Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The Dissolution of ammonium nitrate in water is endothermic yet...'
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

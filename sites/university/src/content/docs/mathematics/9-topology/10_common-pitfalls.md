@@ -2,6 +2,7 @@
 title: Common Pitfalls
 tags:
   - University Maths
+description: '1. False. Only finite intersections are guaranteed. Counterexample: in , , which Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 1. **"Arbitrary intersections of open sets are open."** False. Only finite intersections are

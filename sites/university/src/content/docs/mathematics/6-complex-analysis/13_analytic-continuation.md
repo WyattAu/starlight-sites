@@ -3,6 +3,7 @@ title: Analytic Continuation
 tags:
   - Mathematics
   - University
+description: 'If is analytic on and is analytic on with Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 13.1 Definition

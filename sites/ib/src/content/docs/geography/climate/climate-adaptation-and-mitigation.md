@@ -1,8 +1,6 @@
 ---
 title: Climate Adaptation and Mitigation
-description:
-  'IB Geography Climate Adaptation and Mitigation notes covering key definitions, core concepts,
-  worked examples, and practice questions for methodical revision.'
+description: 'refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation...'
 
 ---
 

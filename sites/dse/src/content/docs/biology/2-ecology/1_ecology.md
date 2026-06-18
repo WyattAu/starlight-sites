@@ -1,8 +1,6 @@
 ---
 title: Evolution and Ecology
-description:
-  'DSE Biology Evolution and Ecology notes covering key definitions, core concepts, worked examples,
-  and practice questions for in-depth revision.'
+description: 'Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural...'
 date: 2026-04-07T00:00:00.000Z
 tags:
   - DSE

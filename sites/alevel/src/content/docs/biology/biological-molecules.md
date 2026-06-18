@@ -1,8 +1,6 @@
 ---
 title: Biological Molecules
-description:
-  'A-Level Biology Biological Molecules notes covering key definitions, core concepts, worked
-  examples, and practice questions for methodical revision.'
+description: 'Study guide covering the core biochemistry topics for A-Level Biology examinatio Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -16,8 +14,7 @@ categories:
 
 Study guide covering the core biochemistry topics for A-Level Biology examinations.
 
-:::info Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
-:::
+> **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
 ---
 
 ## 1. Water

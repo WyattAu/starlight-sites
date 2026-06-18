@@ -1,8 +1,6 @@
 ---
 title: Sequences and Series
-description:
-  'A-Level Maths Sequences and Series notes covering key definitions, core concepts, worked
-  examples, and practice questions for structured preparation.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------------------------- | | AQA | Paper 1, 2 | Arithmetic...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

@@ -1,8 +1,6 @@
 ---
 title: Probability
-description:
-  'A-Level Maths Probability notes covering key definitions, core concepts, worked examples, and
-  practice questions for thorough preparation.'
+description: '| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------- | | AQA | Paper 1, 2 | Basic probability in P1;...'
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -617,7 +615,7 @@ This is a binomial scenario: $X \sim B(20, 0.05)$.
 $P(X=1) = \binom{20}{1}(0.05)^1(0.95)^{19} = 20 \times 0.05 \times 0.95^{19} \approx 0.3774$.
 
 **If you get this wrong, revise:**
-[Binomial Distribution](statistical-distributions#2-the-binomial-distribution) — Statistical
+[Binomial Distribution](04-statistical-distributions.md#2-the-binomial-distribution) — Statistical
 Distributions chapter.
 
 </details>

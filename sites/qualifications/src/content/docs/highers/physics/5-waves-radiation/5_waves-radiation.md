@@ -1,8 +1,6 @@
 ---
 title: Waves and Radiation
-description:
-  'Scottish Highers Physics Waves and Radiation notes covering key definitions, core concepts,
-  worked examples, and practice questions for focused preparation.'
+description: 'A wave is a disturbance that transfers energy without transferring matter. Comprehensive educational content coverage with definitions and practice problems.'
 date: 2026-04-14
 tags:
   - highers

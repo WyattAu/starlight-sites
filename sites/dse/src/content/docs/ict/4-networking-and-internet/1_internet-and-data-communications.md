@@ -1,8 +1,6 @@
 ---
 title: Internet and Data Communications
-description:
-  'DSE Ict Internet and Data Communications notes covering key definitions, core concepts, worked
-  examples, and practice questions for comprehensive revision.'
+description: '| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |...'
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]
@@ -89,7 +87,6 @@ Every device is connected to every other device (full mesh) or to multiple devic
 
 :::caution[Exam Tip] In exam questions, always discuss both advantages AND disadvantages of each
 Topology. Star is the most common in modern LANs due to ease of management and fault isolation.
-:::
 
 ---
 
@@ -380,7 +377,6 @@ To register a domain:
 :::caution[Exam Tip] Fibre optics is immune to electromagnetic interference (EMI), supports the
 Highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
 Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
-:::
 
 ---
 
@@ -488,7 +484,6 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 :::caution[Exam Tip] Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll
 **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
-:::
 
 ---
 

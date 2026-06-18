@@ -3,6 +3,7 @@ title: Big Bang Cosmology
 tags:
   - Physics
   - University
+description: 'The dynamics of a homogeneous, isotropic universe are described by the : Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 7.1 The Friedmann Equations

@@ -1,8 +1,6 @@
 ---
 title: Arrays and Strings
-description:
-  'Algorithms Arrays and Strings notes covering key definitions, core concepts, worked examples, and
-  practice questions for focused preparation.'
+description: 'An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This...'
 
 ---
 
@@ -77,7 +75,6 @@ Python `list` uses a growth factor of approximately 1.125 (9/8) plus some overal
 More conservative than the textbook factor of 2, trading slightly more frequent reallocations for
 Lower peak memory usage. C++ `std::vector` uses factor 2.
 
-:::
 
 ## String Representation
 
@@ -255,13 +252,13 @@ def longest_substring_without_repeats(s):
     return max_length
 ```
 
+:::
 :::info
 
 The key insight for sliding window is that the window boundary only moves forward — neither `left`
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
 And removed from the window at most once.
 
-:::
 
 ## Prefix Sums
 
@@ -447,6 +444,7 @@ def murmurhash3_mix(key: int) -> int:
     return key
 ```
 
+:::
 :::caution
 
 Python's built-in `hash()` is not deterministic across process invocations (Python 3.3+ enables hash
@@ -898,3 +896,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+:::
