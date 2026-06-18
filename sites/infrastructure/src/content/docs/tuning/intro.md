@@ -1,6 +1,6 @@
 ---
 title: Introduction to Hardware Tuning
-description: "Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,..."
+description: "Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,"
 
 ---
 

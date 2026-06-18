@@ -1,6 +1,6 @@
 ---
 title: Traffic Analysis
-description: "Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize..."
+description: "Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize"
 tags:
   - Networking
 categories:

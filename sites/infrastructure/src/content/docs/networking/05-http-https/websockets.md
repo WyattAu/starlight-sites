@@ -1,6 +1,6 @@
 ---
 title: WebSockets
-description: "WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,..."
+description: "WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,"
 tags:
   - Networking
 categories:

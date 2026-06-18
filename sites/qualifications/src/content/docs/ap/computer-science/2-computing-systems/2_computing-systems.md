@@ -1,6 +1,6 @@
 ---
 title: Computing Systems
-description: "| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM..."
+description: "| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM"
 date: 2026-04-14
 tags:
   - ap

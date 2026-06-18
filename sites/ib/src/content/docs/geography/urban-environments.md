@@ -1,6 +1,6 @@
 ---
 title: Urban Environments
-description: "This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,..."
+description: "This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,"
 
 ---
 

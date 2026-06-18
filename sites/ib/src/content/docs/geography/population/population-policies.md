@@ -1,6 +1,6 @@
 ---
 title: Population Policies
-description: "Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target..."
+description: "Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Respiration (In Depth)
-description: "Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that..."
+description: "Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that"
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology

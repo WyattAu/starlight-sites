@@ -3,7 +3,7 @@ title: Historical Investigation and Methodology
 tags:
   - IB
   - History
-description: "This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical..."
+description: "This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical"
 ---
 
 # Historical Investigation and Methodology

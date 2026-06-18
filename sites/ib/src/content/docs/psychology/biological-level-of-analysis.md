@@ -1,6 +1,6 @@
 ---
 title: Biological Level of Analysis
-description: "The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and..."
+description: "The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and"
 
 ---
 

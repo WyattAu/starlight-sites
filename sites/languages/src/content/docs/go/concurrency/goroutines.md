@@ -1,6 +1,6 @@
 ---
 title: Goroutines and Synchronization
-description: "A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to..."
+description: "A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to"
 date: 2026-04-18
 tags:
   - Go

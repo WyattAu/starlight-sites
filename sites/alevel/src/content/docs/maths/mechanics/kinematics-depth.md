@@ -1,6 +1,6 @@
 ---
 title: Kinematics (Extended)
-description: "This document extends the core kinematics material with deeper derivations, multi-stage problems, Projectile motion in two dimensions, and the calculus..."
+description: "This document extends the core kinematics material with deeper derivations, multi-stage problems, Projectile motion in two dimensions, and the calculus"
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

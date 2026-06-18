@@ -1,6 +1,6 @@
 ---
 title: Legal, Ethical, and Moral Issues
-description: "Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions Requiring you to apply legislation to scenarios. CIE and..."
+description: "Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions Requiring you to apply legislation to scenarios. CIE and"
 date: 2026-04-07T00:00:00.000Z
 tags:
   - ComputerScience

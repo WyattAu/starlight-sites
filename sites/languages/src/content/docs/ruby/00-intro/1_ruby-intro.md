@@ -1,6 +1,6 @@
 ---
 title: Introduction to Ruby
-description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro..."
+description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby

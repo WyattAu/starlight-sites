@@ -1,6 +1,6 @@
 ---
 title: AP Biology Study Guide
-description: "Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four..."
+description: "Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four"
 date: 2026-05-31
 tags:
   - ap

@@ -1,6 +1,6 @@
 ---
 title: Fold Expressions and Pack Expansion
-description: "A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary..."
+description: "A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -1,6 +1,6 @@
 ---
 title: Special Member Function Generation Rules
-description: "The compiler automatically generates special member functions (SMFs) — destructor, copy/move Constructors, and copy/move assignment operators — according to..."
+description: "The compiler automatically generates special member functions (SMFs) — destructor, copy/move Constructors, and copy/move assignment operators — according to"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

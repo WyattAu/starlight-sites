@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for Paper 2. It examines the two World Wars in depth, comparing..."
+description: "This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for Paper 2. It examines the two World Wars in depth, comparing"
 ---
 
 # Causes and Effects of Wars

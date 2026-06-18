@@ -1,6 +1,6 @@
 ---
 title: Networks
-description: "| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------..."
+description: "| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------"
 date: 2026-04-14
 tags:
   - gcse

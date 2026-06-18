@@ -5,7 +5,7 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description: "This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured..."
+description: "This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured"
 ---
 
 This document builds on the coroutine fundamentals covered in

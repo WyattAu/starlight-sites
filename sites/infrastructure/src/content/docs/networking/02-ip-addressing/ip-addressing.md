@@ -1,6 +1,6 @@
 ---
 title: IP Addressing
-description: "IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in..."
+description: "IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in"
 tags:
   - Networking
 categories:

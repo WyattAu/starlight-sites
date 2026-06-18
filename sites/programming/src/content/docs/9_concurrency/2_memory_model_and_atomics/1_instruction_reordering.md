@@ -1,6 +1,6 @@
 ---
 title: Instruction Reordering and Happens-Before
-description: "This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buffers, the happens-before and synchronizes-with..."
+description: "This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buffers, the happens-before and synchronizes-with"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

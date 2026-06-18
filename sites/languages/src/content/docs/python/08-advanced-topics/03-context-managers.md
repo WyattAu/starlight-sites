@@ -1,6 +1,6 @@
 ---
 title: Context Managers and the with Statement
-description: "The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource..."
+description: "The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource"
 
 ---
 

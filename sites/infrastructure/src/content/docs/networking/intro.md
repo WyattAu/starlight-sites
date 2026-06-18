@@ -1,6 +1,6 @@
 ---
 title: Introduction to Networking
-description: "Every system you operate, deploy, or debug depends on networking. A container cannot reach its Database, a service returns 502 errors, DNS resolution stalls..."
+description: "Every system you operate, deploy, or debug depends on networking. A container cannot reach its Database, a service returns 502 errors, DNS resolution stalls"
 tags:
   - Networking
 categories:

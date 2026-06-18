@@ -1,6 +1,6 @@
 ---
 title: Abnormal Psychology
-description: "This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from..."
+description: "This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from"
 
 ---
 

@@ -3,7 +3,7 @@ title: Analysis and Approaches Question Bank
 tags:
   - maths
   - ib
-description: "15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and Approaches syllabus (SL/HL). Each question is presented in table..."
+description: "15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and Approaches syllabus (SL/HL). Each question is presented in table"
 ---
 
 ## IB Mathematics AA — Question Bank

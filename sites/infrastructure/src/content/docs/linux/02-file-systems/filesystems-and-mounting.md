@@ -1,6 +1,6 @@
 ---
 title: File Systems and Mounting
-description: "The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And..."
+description: "The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And"
 
 ---
 

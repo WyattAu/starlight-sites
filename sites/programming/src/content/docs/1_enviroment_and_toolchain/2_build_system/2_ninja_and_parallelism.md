@@ -1,6 +1,6 @@
 ---
 title: Ninja Build System and Parrallelism
-description: "The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While..."
+description: "The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While"
 date: 2025-12-10T06:02:22.685Z
 tags:
   - cpp

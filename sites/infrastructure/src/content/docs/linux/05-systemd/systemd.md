@@ -1,6 +1,6 @@
 ---
 title: Systemd
-description: "Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,..."
+description: "Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,"
 
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Machine Learning
 categories:
   - Machine Learning
-description: "Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively..."
+description: "Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively"
 ---
 
 ## Attention Mechanisms and Transformers

@@ -2,7 +2,7 @@
 title: Maths
 tags:
   - maths
-description: "This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)...."
+description: "This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)."
 ---
 
 ## IB Mathematics -- Analysis and Approaches (AA) -- Course Overview

@@ -1,6 +1,6 @@
 ---
 title: Homeostasis
-description: "is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal..."
+description: "is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal"
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology

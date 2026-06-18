@@ -1,6 +1,6 @@
 ---
 title: GPU Tuning
-description: "NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units...."
+description: "NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units."
 
 ---
 

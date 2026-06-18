@@ -1,6 +1,6 @@
 ---
 title: Functions
-description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,..."
+description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

@@ -1,6 +1,6 @@
 ---
 title: TCP and UDP
-description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,..."
+description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,"
 tags:
   - Networking
 categories:

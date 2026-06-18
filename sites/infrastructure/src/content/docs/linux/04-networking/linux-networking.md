@@ -1,6 +1,6 @@
 ---
 title: Linux Networking
-description: "The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,..."
+description: "The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,"
 
 ---
 

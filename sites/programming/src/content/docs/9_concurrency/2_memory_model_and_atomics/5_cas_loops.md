@@ -1,6 +1,6 @@
 ---
 title: Compare-and-Swap (CAS) Loops
-description: "This section covers the CAS loop pattern, the difference between and When weak CAS is preferable, linearizability of CAS-based data Structures, a lock-free..."
+description: "This section covers the CAS loop pattern, the difference between and When weak CAS is preferable, linearizability of CAS-based data Structures, a lock-free"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

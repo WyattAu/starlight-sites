@@ -1,6 +1,6 @@
 ---
 title: Pattern Matching
-description: "Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a..."
+description: "Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a"
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

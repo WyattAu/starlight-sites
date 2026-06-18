@@ -1,6 +1,6 @@
 ---
 title: Measuring Development
-description: "Development is a multidimensional concept encompassing economic progress, social well-being, Environmental sustainability, political freedom, and quality of..."
+description: "Development is a multidimensional concept encompassing economic progress, social well-being, Environmental sustainability, political freedom, and quality of"
 
 ---
 

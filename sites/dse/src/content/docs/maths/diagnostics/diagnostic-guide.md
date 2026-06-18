@@ -1,6 +1,6 @@
 ---
 title: DSE Mathematics Diagnostic Guide
-description: "Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure..."
+description: "Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure"
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Transition Metals & Analytical Chemistry
-description: "A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level..."
+description: "A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level"
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

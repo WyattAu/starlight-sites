@@ -1,7 +1,7 @@
 ---
 title: Introduction to SAT Notes
 date: 2026-05-30
-description: "The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has..."
+description: "The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has"
 tags:
   - sat
 categories:

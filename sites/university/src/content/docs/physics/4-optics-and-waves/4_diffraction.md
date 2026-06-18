@@ -3,7 +3,7 @@ title: Diffraction
 tags:
   - Physics
   - University
-description: "Every point on a wavefront acts as a source of secondary spherical wavelets. The new wavefront is the Envelope of these wavelets, accounting for both..."
+description: "Every point on a wavefront acts as a source of secondary spherical wavelets. The new wavefront is the Envelope of these wavelets, accounting for both"
 ---
 
 ### 4.1 Huygens-Fresnel Principle

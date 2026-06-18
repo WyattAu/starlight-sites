@@ -1,6 +1,6 @@
 ---
 title: Advanced Genetics
-description: "occurs when the expression of one gene (the epistatic gene) is affected or masked by one or more independently inherited genes at different loci. This..."
+description: "occurs when the expression of one gene (the epistatic gene) is affected or masked by one or more independently inherited genes at different loci. This"
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology

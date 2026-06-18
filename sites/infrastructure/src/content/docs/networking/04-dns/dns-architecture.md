@@ -1,6 +1,6 @@
 ---
 title: DNS Architecture and Operations
-description: "DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive..."
+description: "DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive"
 tags:
   - Networking
 categories:

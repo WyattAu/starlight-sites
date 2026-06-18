@@ -1,6 +1,6 @@
 ---
 title: Probability and Statistics
-description: "Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability..."
+description: "Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability"
 date: 2026-04-14
 tags:
   - ilc

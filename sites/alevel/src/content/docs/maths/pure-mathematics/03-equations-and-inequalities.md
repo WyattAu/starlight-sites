@@ -1,6 +1,6 @@
 ---
 title: Equations and Inequalities
-description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |..."
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

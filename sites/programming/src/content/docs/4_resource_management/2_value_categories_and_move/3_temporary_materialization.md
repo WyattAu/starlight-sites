@@ -1,6 +1,6 @@
 ---
 title: Temporary Materialization
-description: "In C++17 and later, a prvalue is not an object — it is a recipe for constructing one. The prvalue is into an actual object only when the language requires..."
+description: "In C++17 and later, a prvalue is not an object — it is a recipe for constructing one. The prvalue is into an actual object only when the language requires"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

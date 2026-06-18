@@ -1,6 +1,6 @@
 ---
 title: Cryptography
-description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly..."
+description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly"
 
 ---
 

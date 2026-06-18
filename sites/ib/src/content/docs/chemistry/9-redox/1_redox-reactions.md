@@ -5,7 +5,7 @@ tags:
   - IB
 categories:
   - ib
-description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na =..."
+description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na ="
 ---
 
 ## Oxidation States

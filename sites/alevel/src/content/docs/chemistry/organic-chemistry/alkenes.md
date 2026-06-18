@@ -1,6 +1,6 @@
 ---
 title: Alkenes
-description: "Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula For acyclic alkenes with one double bond is . The C=C bond..."
+description: "Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula For acyclic alkenes with one double bond is . The C=C bond"
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry

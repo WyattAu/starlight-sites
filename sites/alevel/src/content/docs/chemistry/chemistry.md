@@ -1,6 +1,6 @@
 ---
 title: A-Level Chemistry
-description: "A-Level Chemistry is a rigorous, mathematically grounded treatment of the principles governing chemical systems. It builds on GCSE foundations and..."
+description: "A-Level Chemistry is a rigorous, mathematically grounded treatment of the principles governing chemical systems. It builds on GCSE foundations and"
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry

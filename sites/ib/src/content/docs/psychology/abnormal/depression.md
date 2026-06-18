@@ -1,6 +1,6 @@
 ---
 title: Depression
-description: "Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),..."
+description: "Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),"
 
 ---
 

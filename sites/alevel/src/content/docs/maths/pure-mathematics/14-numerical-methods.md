@@ -1,6 +1,6 @@
 ---
 title: Numerical Methods
-description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------------------ | | AQA | Paper 2 | Sign change, iteration,..."
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------------------ | | AQA | Paper 2 | Sign change, iteration,"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

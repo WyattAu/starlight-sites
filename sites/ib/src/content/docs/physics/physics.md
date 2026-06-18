@@ -1,6 +1,6 @@
 ---
 title: Physics
-description: "This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher..."
+description: "This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher"
 ---
 
 ## IB Physics -- Course Overview

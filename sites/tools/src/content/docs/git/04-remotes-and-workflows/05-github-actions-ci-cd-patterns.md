@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions CI/CD Patterns
-description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows..."
+description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Weak Pointers and Cyclic Reference Breaking
-description: "is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures — the most common source of memory..."
+description: "is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures — the most common source of memory"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

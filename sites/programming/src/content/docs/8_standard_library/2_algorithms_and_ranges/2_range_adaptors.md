@@ -1,6 +1,6 @@
 ---
 title: Range Adaptors, Views, and Composition
-description: "Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to..."
+description: "Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

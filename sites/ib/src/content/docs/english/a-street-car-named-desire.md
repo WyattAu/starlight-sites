@@ -2,7 +2,7 @@
 title: A Streetcar Named Desire
 tags:
   - english
-description: "Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,..."
+description: "Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,"
 ---
 
 ## Author Context

@@ -1,6 +1,6 @@
 ---
 title: Office Automation and Productivity
-description: "This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and..."
+description: "This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

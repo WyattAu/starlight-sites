@@ -3,7 +3,7 @@ title: Summary
 tags:
   - Mathematics
   - University
-description: "| Concept | Description | | ------------------------ | ---------------------------------------------------------------- | | Smooth manifold | Hausdorff,..."
+description: "| Concept | Description | | ------------------------ | ---------------------------------------------------------------- | | Smooth manifold | Hausdorff,"
 ---
 
 | Concept                  | Description                                                      |

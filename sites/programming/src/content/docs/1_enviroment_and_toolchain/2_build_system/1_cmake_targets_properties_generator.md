@@ -1,6 +1,6 @@
 ---
 title: CMake Targets Properties and Generator Expressions
-description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks..."
+description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks"
 date: 2025-12-10T05:41:36.284Z
 tags:
   - cpp

@@ -1,6 +1,6 @@
 ---
 title: Introduction to Security
-description: "Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated..."
+description: "Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated"
 
 ---
 

@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: "List all possible state transitions for a process and identify which transition requires the Scheduler, which requires an I/O event, and which is initiated..."
+description: "List all possible state transitions for a process and identify which transition requires the Scheduler, which requires an I/O event, and which is initiated"
 ---
 
 <details>

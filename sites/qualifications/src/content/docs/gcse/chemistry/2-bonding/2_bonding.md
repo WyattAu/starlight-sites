@@ -1,6 +1,6 @@
 ---
 title: Bonding
-description: "occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions..."
+description: "occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions"
 date: 2026-04-14
 tags:
   - gcse

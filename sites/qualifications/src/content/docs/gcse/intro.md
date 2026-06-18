@@ -1,7 +1,7 @@
 ---
 title: GCSE Notes
 date: 2026-04-14
-description: "These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE Syllabus. Every definition is precise, every result is..."
+description: "These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE Syllabus. Every definition is precise, every result is"
 tags:
   - gcse
 categories:

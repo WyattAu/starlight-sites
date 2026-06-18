@@ -1,6 +1,6 @@
 ---
 title: NoSQL Databases
-description: "The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer''s 2000 conjecture, states That a distributed data store can provide at most two of..."
+description: "The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer''s 2000 conjecture, states That a distributed data store can provide at most two of"
 tags:
   - Databases
 categories:

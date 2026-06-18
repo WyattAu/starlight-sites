@@ -3,7 +3,7 @@ title: Magnetism in Solids
 tags:
   - Physics
   - University
-description: "- Weak, negative susceptibility (). Present in all materials. Arises from the orbital response to an applied field (Lenz''s law). . - Positive susceptibility..."
+description: "- Weak, negative susceptibility (). Present in all materials. Arises from the orbital response to an applied field (Lenz''s law). . - Positive susceptibility"
 ---
 
 ### 10.1 Types of Magnetism

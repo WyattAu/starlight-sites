@@ -1,6 +1,6 @@
 ---
 title: Hash Tables
-description: "A (hash map) is a data structure that maps keys to values using a To compute an index into an array of buckets. It provides average-case time for insert,..."
+description: "A (hash map) is a data structure that maps keys to values using a To compute an index into an array of buckets. It provides average-case time for insert,"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience

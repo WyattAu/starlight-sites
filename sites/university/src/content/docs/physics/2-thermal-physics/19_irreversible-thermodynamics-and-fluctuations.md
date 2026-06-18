@@ -3,7 +3,7 @@ title: Irreversible Thermodynamics and Fluctuations
 tags:
   - Physics
   - University
-description: "The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating variable to the linear response function: "''
+description: "The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating variable to the linear response function: "'
 ---
 
 ### 19.1 Fluctuation-Dissipation in the Time Domain

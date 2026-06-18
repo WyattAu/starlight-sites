@@ -1,6 +1,6 @@
 ---
 title: Error Handling Patterns
-description: "Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across..."
+description: "Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Standard Library Implementation
-description: "In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers Like ) are distinct entities. While the ISO C++..."
+description: "In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers Like ) are distinct entities. While the ISO C++"
 date: 2025-12-10T04:57:07.543Z
 tags:
   - cpp

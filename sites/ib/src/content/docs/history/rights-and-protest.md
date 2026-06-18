@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It examines Two major case studies -- the civil rights movement in..."
+description: "This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It examines Two major case studies -- the civil rights movement in"
 ---
 
 # Rights and Protest

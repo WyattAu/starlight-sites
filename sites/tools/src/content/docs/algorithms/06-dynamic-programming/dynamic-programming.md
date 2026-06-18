@@ -1,6 +1,6 @@
 ---
 title: Dynamic Programming
-description: "Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two..."
+description: "Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two"
 
 ---
 

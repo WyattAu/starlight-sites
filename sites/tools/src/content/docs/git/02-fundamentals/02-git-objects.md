@@ -1,6 +1,6 @@
 ---
 title: Git Objects
-description: "At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the..."
+description: "At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the"
 date: 2025-06-03T00:00:00.000Z
 tags:
   - git

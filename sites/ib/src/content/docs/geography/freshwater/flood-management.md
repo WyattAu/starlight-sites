@@ -1,6 +1,6 @@
 ---
 title: Flood Management
-description: "Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,..."
+description: "Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,"
 
 ---
 

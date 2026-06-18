@@ -1,6 +1,6 @@
 ---
 title: Calling Conventions and Stack Management
-description: "The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,..."
+description: "The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

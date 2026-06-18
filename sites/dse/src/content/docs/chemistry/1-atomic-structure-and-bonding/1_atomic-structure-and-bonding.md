@@ -1,6 +1,6 @@
 ---
 title: Chemistry - Atomic Structure and Bonding
-description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |..."
+description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |"
 
 ---
 

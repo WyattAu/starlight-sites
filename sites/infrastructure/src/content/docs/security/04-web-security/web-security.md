@@ -1,6 +1,6 @@
 ---
 title: Web Security
-description: "The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and..."
+description: "The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and"
 
 ---
 

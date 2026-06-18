@@ -3,7 +3,7 @@ title: Multivariable Calculus
 tags:
   - Mathematics
   - University
-description: "Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the..."
+description: "Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the"
 ---
 
 # Multivariable Calculus

@@ -1,6 +1,6 @@
 ---
 title: Synthesis
-description: "The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)..."
+description: "The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

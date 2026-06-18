@@ -1,6 +1,6 @@
 ---
 title: Social Identity Theory
-description: "Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It..."
+description: "Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It"
 
 ---
 

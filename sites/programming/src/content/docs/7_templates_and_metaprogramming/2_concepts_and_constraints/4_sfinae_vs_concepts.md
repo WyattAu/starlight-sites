@@ -1,6 +1,6 @@
 ---
 title: SFINAE vs Concepts
-description: "(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more..."
+description: "(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

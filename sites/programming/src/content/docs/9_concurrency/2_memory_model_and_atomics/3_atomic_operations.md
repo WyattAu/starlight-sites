@@ -1,6 +1,6 @@
 ---
 title: Atomic Operations and Lock-Free Programming
-description: "This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack..."
+description: "This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

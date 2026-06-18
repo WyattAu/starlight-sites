@@ -1,6 +1,6 @@
 ---
 title: DSE Physics Diagnostic Guide
-description: "This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file contains 3 unit tests (single-topic, testing deep..."
+description: "This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file contains 3 unit tests (single-topic, testing deep"
 tableOfContents: false
 ---
 

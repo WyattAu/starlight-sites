@@ -1,6 +1,6 @@
 ---
 title: Inheritance and Polymorphism
-description: "Inheritance allows a class (subclass) to extend another class (superclass), acquiring its fields and Methods. The keyword establishes an "is-a"...''
+description: ""...''
 
 ---
 

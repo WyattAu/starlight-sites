@@ -1,6 +1,6 @@
 ---
 title: Channels and Message Passing
-description: "Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each..."
+description: "Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each"
 
 ---
 

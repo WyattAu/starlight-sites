@@ -1,6 +1,6 @@
 ---
 title: AP Physics 1 Study Guide
-description: "Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational..."
+description: "Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational"
 date: 2026-05-31
 tags:
   - ap

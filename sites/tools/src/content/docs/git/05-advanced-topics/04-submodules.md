@@ -1,6 +1,6 @@
 ---
 title: Submodules
-description: "Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository — not..."
+description: "Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository — not"
 date: 2025-06-03T11:00:00.000Z
 tags:
   - git

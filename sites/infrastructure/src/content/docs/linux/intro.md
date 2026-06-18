@@ -1,6 +1,6 @@
 ---
 title: Introduction to Linux
-description: "Linux is a first released by Linus Torvalds in 1991. When People say "Linux" in practice, they almost always mean a — the kernel Bundled with GNU userland,...''
+description: "" in practice, they almost always mean a — the kernel Bundled with GNU userland,...''
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Further Mathematics
-description: "A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful Settings, introduces advanced statistical methods, and..."
+description: "A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful Settings, introduces advanced statistical methods, and"
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Maths

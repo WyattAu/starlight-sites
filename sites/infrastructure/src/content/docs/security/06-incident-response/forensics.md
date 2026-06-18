@@ -1,6 +1,6 @@
 ---
 title: Digital Forensics Basics
-description: "The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence..."
+description: "The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence"
 
 ---
 

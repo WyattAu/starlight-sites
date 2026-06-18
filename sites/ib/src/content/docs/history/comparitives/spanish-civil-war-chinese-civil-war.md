@@ -2,7 +2,7 @@
 title: Spanish Civil War and Chinese Civil War
 tags:
   - history
-description: "After the collapse of Qing Dynasty (1912), there were a period of warlordism, during which Nationalist Kuomintang (KMT) under Chiang Kai-shek took control..."
+description: "After the collapse of Qing Dynasty (1912), there were a period of warlordism, during which Nationalist Kuomintang (KMT) under Chiang Kai-shek took control"
 ---
 
 ## Brief

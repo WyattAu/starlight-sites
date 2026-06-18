@@ -1,6 +1,6 @@
 ---
 title: Definitions
-description: "To understand the basis for probability theory, it is important to fully understand every term used. Here are the definitions for the terms we will be..."
+description: "To understand the basis for probability theory, it is important to fully understand every term used. Here are the definitions for the terms we will be"
 date: 2026-01-15T09:31:35.184Z
 tags:
   - ML

@@ -5,7 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "This page contains five full practice passages modelled after the digital SAT Reading & Writing section. Each passage is followed by annotated answers that..."
+description: "This page contains five full practice passages modelled after the digital SAT Reading & Writing section. Each passage is followed by annotated answers that"
 ---
 
 ## Overview

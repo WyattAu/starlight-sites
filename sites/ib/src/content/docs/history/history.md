@@ -2,7 +2,7 @@
 title: History
 tags:
   - history
-description: "This section contains notes, comparative analyses, and study materials for the IB History course. The course covers a range of twentieth-century topics..."
+description: "This section contains notes, comparative analyses, and study materials for the IB History course. The course covers a range of twentieth-century topics"
 ---
 
 ## IB History -- Course Overview

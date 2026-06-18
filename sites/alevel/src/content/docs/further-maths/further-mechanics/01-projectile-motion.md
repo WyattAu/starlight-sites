@@ -1,6 +1,6 @@
 ---
 title: Projectile Motion
-description: "Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into..."
+description: "Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into"
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

@@ -1,6 +1,6 @@
 ---
 title: Geometry
-description: "| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |..."
+description: "| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |"
 date: 2026-04-14
 tags:
   - gcse

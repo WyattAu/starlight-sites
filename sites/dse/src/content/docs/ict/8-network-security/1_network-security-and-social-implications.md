@@ -1,6 +1,6 @@
 ---
 title: Network Security and Social Implications
-description: "This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,..."
+description: "This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

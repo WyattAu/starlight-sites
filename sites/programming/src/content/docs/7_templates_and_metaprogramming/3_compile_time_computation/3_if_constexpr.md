@@ -1,6 +1,6 @@
 ---
 title: Compile-Time Branching and Constexpr Functions
-description: "C++ provides multiple mechanisms for compile-time computation: for type-based Dispatch within function bodies, functions that may be evaluated at compile..."
+description: "C++ provides multiple mechanisms for compile-time computation: for type-based Dispatch within function bodies, functions that may be evaluated at compile"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

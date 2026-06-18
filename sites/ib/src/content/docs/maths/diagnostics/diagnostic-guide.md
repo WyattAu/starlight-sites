@@ -1,6 +1,6 @@
 ---
 title: Diagnostic Test Guide
-description: "This document defines the diagnostic testing framework for IB Mathematics. The Diagnostic tests are the hardest questions within the specification, designed..."
+description: "This document defines the diagnostic testing framework for IB Mathematics. The Diagnostic tests are the hardest questions within the specification, designed"
 tableOfContents: false
 ---
 

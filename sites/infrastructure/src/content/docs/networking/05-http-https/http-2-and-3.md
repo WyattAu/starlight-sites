@@ -1,6 +1,6 @@
 ---
 title: HTTP/2 and HTTP/3
-description: "HTTP/2 (RFC 9113) and HTTP/3 (RFC 9114) are the modern versions of the Hypertext Transfer Protocol. HTTP/2 brought binary framing, multiplexing, and header..."
+description: "HTTP/2 (RFC 9113) and HTTP/3 (RFC 9114) are the modern versions of the Hypertext Transfer Protocol. HTTP/2 brought binary framing, multiplexing, and header"
 tags:
   - Networking
 categories:

@@ -5,7 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: "This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,..."
+description: "This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,"
 ---
 
 ## Overview

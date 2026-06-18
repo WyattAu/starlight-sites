@@ -1,6 +1,6 @@
 ---
 title: OSI and TCP/IP Models
-description: "Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help..."
+description: "Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help"
 tags:
   - Networking
 categories:

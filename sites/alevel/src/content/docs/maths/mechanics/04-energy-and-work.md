@@ -1,6 +1,6 @@
 ---
 title: Energy and Work
-description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |..."
+description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

@@ -1,6 +1,6 @@
 ---
 title: HTTP
-description: "HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents..."
+description: "HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents"
 tags:
   - Networking
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Web Development and Multimedia
-description: "This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia..."
+description: "This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia"
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

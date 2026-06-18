@@ -1,7 +1,7 @@
 ---
 title: GCSE English Study Guide
 date: 2026-05-31
-description: "A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential..."
+description: "A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential"
 tags:
   - gcse
   - english

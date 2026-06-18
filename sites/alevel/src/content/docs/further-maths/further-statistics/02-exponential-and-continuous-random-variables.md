@@ -1,6 +1,6 @@
 ---
 title: Exponential Distribution and Continuous Random Variables
-description: "The exponential distribution models the time between events in a Poisson process, while the theory Of continuous random variables extends probability to..."
+description: "The exponential distribution models the time between events in a Poisson process, while the theory Of continuous random variables extends probability to"
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths

@@ -1,6 +1,6 @@
 ---
 title: Worktrees
-description: "allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which..."
+description: "allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which"
 date: 2025-06-03T17:00:00.000Z
 tags:
   - git

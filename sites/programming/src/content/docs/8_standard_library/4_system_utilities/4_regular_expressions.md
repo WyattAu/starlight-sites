@@ -1,6 +1,6 @@
 ---
 title: Regular Expressions
-description: "(C++11) provides regular expression matching, searching, and replacement using the ECMAScript regex grammar by default. This section covers the three main..."
+description: "(C++11) provides regular expression matching, searching, and replacement using the ECMAScript regex grammar by default. This section covers the three main"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

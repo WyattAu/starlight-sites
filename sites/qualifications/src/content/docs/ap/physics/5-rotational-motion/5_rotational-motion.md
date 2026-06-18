@@ -1,6 +1,6 @@
 ---
 title: Rotational Motion
-description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |..."
+description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |"
 date: 2026-04-14
 tags:
   - ap

@@ -1,6 +1,6 @@
 ---
 title: "Magnetism and Electromagnetism -- Diagnostic Tests"
-description: "(a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to magnetise a steel nail using a solenoid. (c) An electromagnet consists of a..."
+description: "(a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to magnetise a steel nail using a solenoid. (c) An electromagnet consists of a"
 tableOfContents: false
 ---
 

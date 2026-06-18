@@ -1,6 +1,6 @@
 ---
 title: Sustainable Development Goals
-description: "The Sustainable Development Goals (SDGs), officially titled "Transforming our World: the 2030 Agenda For Sustainable Development," were adopted by all 193...''
+description: "" were adopted by all 193...''
 
 ---
 

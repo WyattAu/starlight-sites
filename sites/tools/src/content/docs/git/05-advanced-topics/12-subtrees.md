@@ -1,6 +1,6 @@
 ---
 title: Git Subtrees
-description: "merges a repository into a subdirectory of another repository. Unlike submodules, Which maintain a reference to an external repository, subtrees embed the..."
+description: "merges a repository into a subdirectory of another repository. Unlike submodules, Which maintain a reference to an external repository, subtrees embed the"
 
 ---
 

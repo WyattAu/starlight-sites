@@ -1,6 +1,6 @@
 ---
 title: Data Races and Critical Sections
-description: "This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction..."
+description: "This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

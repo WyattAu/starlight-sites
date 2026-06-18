@@ -1,6 +1,6 @@
 ---
 title: Periods 1-2 (1491-1754)
-description: "Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional..."
+description: "Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional"
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

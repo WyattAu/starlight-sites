@@ -1,6 +1,6 @@
 ---
 title: Explicit Instantiation and Extern Templates
-description: "When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides..."
+description: "When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

@@ -1,6 +1,6 @@
 ---
 title: Language and Thought
-description: "The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is..."
+description: "The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is"
 
 ---
 

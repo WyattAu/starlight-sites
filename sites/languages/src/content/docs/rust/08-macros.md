@@ -1,6 +1,6 @@
 ---
 title: Macros
-description: "Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,..."
+description: "Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,"
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Rust

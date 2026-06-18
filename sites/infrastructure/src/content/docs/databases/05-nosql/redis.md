@@ -1,6 +1,6 @@
 ---
 title: Redis Deep Dive
-description: "Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a..."
+description: "Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a"
 
 ---
 

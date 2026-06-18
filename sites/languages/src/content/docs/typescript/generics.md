@@ -1,6 +1,6 @@
 ---
 title: Generics
-description: "Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or..."
+description: "Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or"
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]

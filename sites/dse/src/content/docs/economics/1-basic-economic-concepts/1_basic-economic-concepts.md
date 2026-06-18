@@ -1,6 +1,6 @@
 ---
 title: Basic Economic Concepts
-description: "Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources..."
+description: "Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources"
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Economics]
 categories: [DSE, Economics]

@@ -1,6 +1,6 @@
 ---
 title: State Management
-description: "Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce..."
+description: "Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce"
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

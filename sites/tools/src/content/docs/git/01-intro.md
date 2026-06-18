@@ -1,6 +1,6 @@
 ---
 title: Introduction to Git
-description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a..."
+description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a"
 date: 2025-06-02T21:50:00.000Z
 tags:
   - git

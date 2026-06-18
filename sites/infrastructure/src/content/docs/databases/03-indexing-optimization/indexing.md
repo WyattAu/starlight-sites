@@ -1,6 +1,6 @@
 ---
 title: Indexing and Optimization
-description: "Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one..."
+description: "Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one"
 tags:
   - Databases
 categories:

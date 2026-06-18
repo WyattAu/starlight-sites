@@ -3,7 +3,7 @@ title: IB English Assessment and Analytical Techniques
 tags:
   - IB
   - English
-description: "This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical..."
+description: "This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical"
 ---
 
 # IB English Assessment and Analytical Techniques

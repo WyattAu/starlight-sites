@@ -1,6 +1,6 @@
 ---
 title: Incident Response
-description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and..."
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and"
 
 ---
 

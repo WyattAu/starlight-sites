@@ -1,6 +1,6 @@
 ---
 title: Lambda Expressions — Capture Layouts and Closure Types
-description: "A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic..."
+description: "A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

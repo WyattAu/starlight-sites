@@ -1,7 +1,7 @@
 ---
 title: Reading and Writing
 date: 2026-05-30
-description: "The Reading & Writing section of the digital SAT consists of across , split into two adaptive modules of 27 questions each (32 minutes per module). All..."
+description: "The Reading & Writing section of the digital SAT consists of across , split into two adaptive modules of 27 questions each (32 minutes per module). All"
 tags:
   - sat
   - reading

@@ -1,6 +1,6 @@
 ---
 title: Collections Deep Dive
-description: "is the root of Dart''s collection hierarchy. Both and implement it, And implements it via its property. An is a — it Describes how to produce elements but..."
+description: "is the root of Dart''s collection hierarchy. Both and implement it, And implements it via its property. An is a — it Describes how to produce elements but"
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart

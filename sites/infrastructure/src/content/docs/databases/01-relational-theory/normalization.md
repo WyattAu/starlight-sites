@@ -1,6 +1,6 @@
 ---
 title: Database Normalization
-description: "Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and..."
+description: "Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and"
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Databases

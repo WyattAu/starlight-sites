@@ -1,6 +1,6 @@
 ---
 title: The International Economy
-description: "Numerical examples and covers the Ricardian and Heckscher-Ohlin models. focuses on the gains From trade and limitations of the comparative advantage model...."
+description: "Numerical examples and covers the Ricardian and Heckscher-Ohlin models. focuses on the gains From trade and limitations of the comparative advantage model."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics

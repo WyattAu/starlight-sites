@@ -1,6 +1,6 @@
 ---
 title: Physics
-description: "This section develops university-level physics from first principles, with emphasis on mathematical derivation and the explicit statement of assumptions...."
+description: "This section develops university-level physics from first principles, with emphasis on mathematical derivation and the explicit statement of assumptions."
 ---
 
 # Physics

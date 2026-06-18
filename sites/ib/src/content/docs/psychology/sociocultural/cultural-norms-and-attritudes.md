@@ -1,6 +1,6 @@
 ---
 title: Cultural Norms and Attitudes
-description: "Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a Social group. Cultural norms are the unwritten rules that..."
+description: "Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a Social group. Cultural norms are the unwritten rules that"
 
 ---
 

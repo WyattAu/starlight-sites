@@ -7,7 +7,7 @@ tags:
   - science
 categories:
   - SAT
-description: "This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other..."
+description: "This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other"
 ---
 
 ## Overview

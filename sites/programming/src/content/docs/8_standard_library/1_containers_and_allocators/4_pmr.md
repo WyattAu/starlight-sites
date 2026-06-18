@@ -1,6 +1,6 @@
 ---
 title: Polymorphic Memory Resources (PMR)
-description: "C++17 introduced (PMR) in Enabling Containers to use different allocation strategies without changing their type. PMR decouples the Allocation strategy from..."
+description: "C++17 introduced (PMR) in Enabling Containers to use different allocation strategies without changing their type. PMR decouples the Allocation strategy from"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

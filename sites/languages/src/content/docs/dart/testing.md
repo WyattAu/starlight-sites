@@ -5,7 +5,7 @@ tags:
   - Dart
 categories:
   - Dart
-description: "Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most..."
+description: "Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most"
 ---
 
 ## Unit Testing

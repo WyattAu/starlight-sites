@@ -1,6 +1,6 @@
 ---
 title: Real Analysis
-description: "The real numbers form a . The field axioms guarantee closure Under addition, subtraction, multiplication, and division (by non-zero elements), together with..."
+description: "The real numbers form a . The field axioms guarantee closure Under addition, subtraction, multiplication, and division (by non-zero elements), together with"
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics

@@ -1,7 +1,7 @@
 ---
 title: Maths Question Bank
 date: 2026-05-30
-description: "20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,..."
+description: "20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,"
 tags:
   - gcse
   - maths

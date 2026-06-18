@@ -1,6 +1,6 @@
 ---
 title: Schema Migrations
-description: "Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or..."
+description: "Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or"
 
 ---
 

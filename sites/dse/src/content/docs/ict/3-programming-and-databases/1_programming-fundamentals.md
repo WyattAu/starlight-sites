@@ -1,6 +1,6 @@
 ---
 title: Programming Fundamentals
-description: "This document provides comprehensive coverage of programming fundamentals for the DSE ICT examination. Basic programming concepts and SQL are covered in ...."
+description: "This document provides comprehensive coverage of programming fundamentals for the DSE ICT examination. Basic programming concepts and SQL are covered in ."
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE

@@ -1,6 +1,6 @@
 ---
 title: Urban Environmental Quality
-description: "An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the..."
+description: "An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the"
 
 ---
 

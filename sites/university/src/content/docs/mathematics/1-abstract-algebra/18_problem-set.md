@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: "The following problems test understanding across all major topics. Full solutions are provided; Each problem includes a cross-reference to the relevant..."
+description: "The following problems test understanding across all major topics. Full solutions are provided; Each problem includes a cross-reference to the relevant"
 ---
 
 The following problems test understanding across all major topics. Full solutions are provided; Each

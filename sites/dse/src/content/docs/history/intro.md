@@ -1,6 +1,6 @@
 ---
 title: DSE History
-description: "Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises..."
+description: "Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises"
 tableOfContents: false
 tags:
   - history

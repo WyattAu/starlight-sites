@@ -1,6 +1,6 @@
 ---
 title: Chemical Equilibrium
-description: "Rigorous IB chemistry notes covering Chemical Equilibrium. Includes definitions, derivations, worked examples, and exam-style problems. constants, and acid-b..."
+description: "Rigorous IB chemistry notes covering Chemical Equilibrium. Includes definitions, derivations, worked examples, and exam-style problems. constants, and acid-b"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
