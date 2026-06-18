@@ -1,6 +1,6 @@
 ---
 title: Records, Sealed Classes, and Pattern Matching
-description: "java"   ]
+description: "java"    ]
 categories: [" java" ]
 
 ---

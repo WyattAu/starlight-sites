@@ -1,6 +1,6 @@
 ---
 title: Style and Patterns
-description: "java"   ]
+description: "java"    ]
 categories: [" java" ]
 
 ---
