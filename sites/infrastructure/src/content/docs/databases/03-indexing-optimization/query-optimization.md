@@ -1,7 +1,6 @@
 ---
 title: Query Optimization
-description: "and "     avoid full table scans."...''
-
+description: "Query optimization techniques for database performance."
 ---
 
 ## Query Optimizer Architecture

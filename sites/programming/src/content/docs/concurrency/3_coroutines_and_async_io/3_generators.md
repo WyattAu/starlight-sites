@@ -1,12 +1,11 @@
 ---
 title: Generators (std::generator)
-description: "This section covers C++23"" s as syntactic sugar, lazy evaluation Semantics, a comparison with Python generators, and a complete Fibonacci generator example"
+description: "C++23 generators and lazy evaluation semantics."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
 categories:
   - Cpp
-
 ---
 
 # Generators (`std::generator<T>`) and Synchronous Yielding
