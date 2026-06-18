@@ -1,6 +1,6 @@
 ---
 title: The Three Trees
-description: "is overloaded in Git terminology — see ). These are: " ''
+description: "Understanding the three trees in Git terminology."
 date: 2025-06-02T22:00:00.000Z
 tags:
   - git
