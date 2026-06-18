@@ -1,6 +1,6 @@
 ---
 title: Complex Numbers (Extended)
-description: "This document provides a rigorous treatment of modulus-argument form, De Moivre''s theorem, roots of Complex numbers, loci in the Argand diagram, and Euler" s...'
+description: "This document provides a rigorous treatment of modulus-argument form, De Moivre''s theorem, roots of Complex numbers, loci in the Argand diagram, and Euler"  s...'
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

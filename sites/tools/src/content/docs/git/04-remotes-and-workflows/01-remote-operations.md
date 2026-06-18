@@ -1,6 +1,6 @@
 ---
 title: Remote Operations
-description: ""  for any other. In practice, one..."
+description: ""   for any other. In practice, one..."
 date: 2025-06-03T06:00:00.000Z
 tags:
   - git

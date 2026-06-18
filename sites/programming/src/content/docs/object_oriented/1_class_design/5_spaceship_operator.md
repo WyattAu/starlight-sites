@@ -1,6 +1,6 @@
 ---
 title: The Spaceship Operator
-description: "" ) as a unified Mechanism for defining all relational comparisons in a single...''
+description: ""  ) as a unified Mechanism for defining all relational comparisons in a single...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

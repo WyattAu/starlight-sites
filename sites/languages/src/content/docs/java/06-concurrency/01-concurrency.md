@@ -1,6 +1,6 @@
 ---
 title: Concurrency
-description: "" java']
+description: ""  java']
 categories: ['java']
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: Water Scarcity and Management
-description: "Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to Distinguish between two fundamentally different types: " '
+description: "Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to Distinguish between two fundamentally different types: "  '
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Async Deep Dive
-description: "The trait is the foundation of async programming in Rust. It represents a value that may Become available at some point in the future: " '
+description: "The trait is the foundation of async programming in Rust. It represents a value that may Become available at some point in the future: "  '
 
 ---
 

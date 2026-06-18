@@ -1,6 +1,6 @@
 ---
 title: Introduction to Linux
-description: ""  in practice, they almost always mean a — the kernel Bundled with GNU userland,...''
+description: ""   in practice, they almost always mean a — the kernel Bundled with GNU userland,...''
 
 ---
 

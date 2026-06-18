@@ -1,6 +1,6 @@
 ---
 title: Classes and Inheritance
-description: "" java']
+description: ""  java']
 categories: ['java']
 
 ---

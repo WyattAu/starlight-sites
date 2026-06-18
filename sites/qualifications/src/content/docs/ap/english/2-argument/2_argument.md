@@ -1,6 +1,6 @@
 ---
 title: Argument
-description: "An argument is a reasoned attempt to persuade an audience to accept a claim. A strong argument consists of three essential components: " '
+description: "An argument is a reasoned attempt to persuade an audience to accept a claim. A strong argument consists of three essential components: "  '
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap

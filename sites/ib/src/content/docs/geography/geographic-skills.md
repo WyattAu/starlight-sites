@@ -1,6 +1,6 @@
 ---
 title: Geographic Skills
-description: "Map scale expresses the relationship between distance on the map and distance on the ground. There are three representations: "  '
+description: "Map scale expresses the relationship between distance on the map and distance on the ground. There are three representations: "   '
 
 ---
 
