@@ -1,12 +1,11 @@
 ---
 title: Concurrency and OTP
-description: "Elixir"" s concurrency is built on the , where concurrent computation is performed by lightweight, isolated processes that communicate through asynchronous"
+description: "Elixir concurrency and OTP fundamentals."
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir
 categories:
   - Elixir
-
 ---
 
 ## Concurrency Fundamentals

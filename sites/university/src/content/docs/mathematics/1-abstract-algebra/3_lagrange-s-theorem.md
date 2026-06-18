@@ -3,7 +3,7 @@ title: Lagrange's Theorem
 tags:
   - Mathematics
   - University
-description: "Lagrange" s theorem in abstract algebra."
+description: "Lagrange's theorem in abstract algebra."
 ---
 
 ### 3.1 Cosets

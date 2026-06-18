@@ -1,7 +1,6 @@
 ---
 title: Atmospheric Systems
-description: "The global atmospheric circulation is driven by differential heating of Earth"" s surface. The equator Receives more solar radiation per unit area than the"
-
+description: "Global atmospheric circulation and climate systems."
 ---
 
 # Atmospheric Systems
