@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: 'Let be non-empty and bounded above. Prove that Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Let be non-empty and bounded above. Prove that Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 **Problem 1.** Let $A, B \subseteq \mathbb{R}$ be non-empty and bounded above. Prove that
@@ -228,7 +228,7 @@ _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (
 
 </details>
 
-**Problem 12.** Prove that if $f'(x) = g'(x)$ for all $x \in (a, b)$Then $f(x) = g(x) + C$ for some
+**Problem 12.** Prove that if $f"(x) = g'(x)$ for all $x \in (a, b)$Then $f(x) = g(x) + C$ for some
 Constant $C$.
 
 <details>

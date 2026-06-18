@@ -1,6 +1,6 @@
 ---
-title: 'Algebraic Expressions -- Diagnostic Tests'
-description: 'A-Level Maths Algebraic Expressions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Algebraic Expressions -- Diagnostic Tests''
+description: "A-Level Maths Algebraic Expressions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -84,7 +84,7 @@ numbers and $b, d, f$ are square-free positive integers.
 **Solution:**
 
 Let the denominator be $D = 2\sqrt{5} - \sqrt{3} + \sqrt{15}$. We rationalise by multiplying
-numerator and denominator by $D' = 2\sqrt{5} - \sqrt{3} - \sqrt{15}$ (conjugate that flips the sign
+numerator and denominator by $D" = 2\sqrt{5} - \sqrt{3} - \sqrt{15}$ (conjugate that flips the sign
 of $\sqrt{15}$).
 
 **Step 1: Compute $D \cdot D'$.**

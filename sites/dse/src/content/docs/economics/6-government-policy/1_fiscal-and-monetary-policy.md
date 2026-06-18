@@ -1,6 +1,6 @@
 ---
 title: Fiscal and Monetary Policy
-description: 'Macroeconomic policy refers to government actions designed to influence the overall performance of The economy. The primary objectives are:'
+description: "Macroeconomic policy refers to government actions designed to influence the overall performance of The economy. The primary objectives are: "''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -48,11 +48,11 @@ Government spending falls into two categories:
 | Category            | Description                                                                                                                                       |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Current expenditure | Day-to-day spending on goods and services: public sector wages, healthcare, education, defence, welfare. Recurrent and predictable.               |
-| Capital expenditure | Investment in physical infrastructure: roads, bridges, public housing, airports, hospitals, schools. Increases the economy's productive capacity. |
+| Capital expenditure | Investment in physical infrastructure: roads, bridges, public housing, airports, hospitals, schools. Increases the economy"s productive capacity. |
 
 Current expenditure directly affects aggregate demand in the short run. Capital expenditure affects
 Both aggregate demand (in the short run, through construction spending) and aggregate supply (in the
-Long run, by expanding the economy's productive capacity).
+Long run, by expanding the economy"s productive capacity).
 
 ### Taxation
 

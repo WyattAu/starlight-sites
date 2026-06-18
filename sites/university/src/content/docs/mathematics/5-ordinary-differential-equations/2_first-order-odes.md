@@ -3,7 +3,7 @@ title: First-Order ODEs
 tags:
   - Mathematics
   - University
-description: 'First-Order ODEs: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "First-Order ODEs: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 2.1 Separable Equations
@@ -31,7 +31,7 @@ $$y(x) = e^{-\int P(x)\, dx}\left(\int Q(x) e^{\int P(x)\, dx}\, dx + C\right)$$
 
 _Proof._ Multiply both sides by $\mu(x) = e^{\int P(x)\, dx}$:
 
-$$\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu' y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
+$$\frac{d}{dx}(\mu y) = \mu \frac{dy}{dx} + \mu P y = \mu \frac{dy}{dx} + \mu" y = \mu\left(\frac{dy}{dx} + Py\right) = \mu Q$$
 
 Integrating: $\mu y = \int \mu Q\, dx + C$. Solving for $y$ gives the result. $\blacksquare$
 

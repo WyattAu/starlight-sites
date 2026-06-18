@@ -3,7 +3,7 @@ title: Thermodynamic Response Functions
 tags:
   - Physics
   - University
-description: 'Response functions measure how thermodynamic quantities change with state variab Comprehensive educational content coverage with definitions and practice proble'
+description: "Response functions measure how thermodynamic quantities change with state variab Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 17.1 General Relations
@@ -134,7 +134,7 @@ $$\Delta S = -2N_0k_B\left(\frac{1}{2}\ln\frac{1}{2}\right) = -2N_0k_B\left(-\fr
 (c) The Sackur--Tetrode equation includes $-Nk_B\ln N + Nk_B = -k_B\ln N!$Which accounts for the
 indistinguishability of particles. For identical gases, the "before" and "after" states are the same
 (same $N$, $V$, $E$), so $\Delta S = 0$. Without the $1/N!$ factor, we would get the same non-zero
-result for mixing identical gases — Gibbs' paradox.
+result for mixing identical gases — Gibbs" paradox.
 
 </details>
 

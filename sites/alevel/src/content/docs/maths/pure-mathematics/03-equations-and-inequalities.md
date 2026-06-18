@@ -1,6 +1,6 @@
 ---
 title: Equations and Inequalities
-description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -358,7 +358,7 @@ Adding a multiple of one row to another.
 A 3x3 system may have a unique solution, no solution, or infinitely many solutions, depending on the
 Determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
 
-### 7.2 Cramer's Rule for 3x3 Systems
+### 7.2 Cramer"s Rule for 3x3 Systems
 
 For the system:
 

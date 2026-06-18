@@ -1,6 +1,6 @@
 ---
 title: Systems Engineering Career
-description: 'General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+description: "General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.''
 
 ---
 
@@ -546,7 +546,7 @@ The maintenance window."
 
 1. **Defer to the recruiter.** Let them name the number first.
 2. **Anchor high.** Based on your research, state a range that starts above your target.
-3. **Justify with data.** "Based on my research and the scope of the role, I'm targeting a base
+3. **Justify with data.** "Based on my research and the scope of the role, I"m targeting a base
    salary of $X. Here are the data points I used..."
 4. **Negotiate the total package.** Salary + equity + signing bonus + annual bonus + benefits.
 5. **Use competing offers.** If you have multiple offers, use them as leverage.

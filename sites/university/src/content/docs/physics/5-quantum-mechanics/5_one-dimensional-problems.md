@@ -3,7 +3,7 @@ title: One-Dimensional Problems
 tags:
   - Physics
   - University
-description: 'A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 5.1 The Infinite Square Well
@@ -162,7 +162,7 @@ Eigenstates all have definite parity: their potentials are all symmetric about t
 **Theorem 5.2 (Virial Theorem).** For a stationary state of a Hamiltonian
 $\hat{H} = \hat{p}^2/(2m) + V(\hat{x})$:
 
-$$2\langle T \rangle = \langle x\,V'(x) \rangle$$
+$$2\langle T \rangle = \langle x\,V"(x) \rangle$$
 
 Where $T$ is the kinetic energy.
 

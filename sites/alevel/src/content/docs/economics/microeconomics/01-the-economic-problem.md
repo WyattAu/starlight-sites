@@ -1,6 +1,6 @@
 ---
 title: The Economic Problem
-description: 'We define as the condition in which human wants exceed the resources available to Satisfy them. Formally, if we denote the set of all desired goods and...'
+description: "We define as the condition in which human wants exceed the resources available to Satisfy them. Formally, if we denote the set of all desired goods and...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -68,7 +68,7 @@ Not television.
 
 Opportunity cost operates at every level of the economy:
 
-- **Individuals**: A worker who takes a year out to travel forgoes a year's salary and career
+- **Individuals**: A worker who takes a year out to travel forgoes a year"s salary and career
   progression. The opportunity cost is the wages _plus_ the experience, not just one or the other.
 - **Firms**: A technology company choosing to invest USD 500 million in developing a new smartphone
   could have used that capital to acquire a smaller competitor. The opportunity cost is the forgone

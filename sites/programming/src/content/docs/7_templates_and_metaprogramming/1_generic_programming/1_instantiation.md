@@ -1,6 +1,6 @@
 ---
 title: Template Instantiation, Monomorphization, and Code Bloat
-description: 'Templates are blueprints the compiler uses to generate type-specific code on demand. This process — Called — produces optimized, type-specific functions and...'
+description: "Templates are blueprints the compiler uses to generate type-specific code on demand. This process — Called — produces optimized, type-specific functions and...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -82,11 +82,11 @@ void g(int) { std::cout << "global g(int)\n"; }
 
 template <typename T>
 void f(T x) {
-    // Phase 1: 'g' is non-dependent -> looked up NOW
+    // Phase 1: "g' is non-dependent -> looked up NOW
     // This calls global g(int) even if a better match exists at instantiation site.
     g(42);
-    // Phase 2: 'x' is dependent -> argument-dependent lookup (ADL) at instantiation
-    h(x);  // 'h' is dependent: looked up when f<T> is instantiated
+    // Phase 2: "x'' is dependent -> argument-dependent lookup (ADL) at instantiation
+    h(x);  // "h' is dependent: looked up when f<T> is instantiated
 }
 
 void g(double) { std::cout << "global g(double)\n"; }

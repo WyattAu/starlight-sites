@@ -3,7 +3,7 @@ title: Dynamic Programming
 tags:
   - Computing
   - University
-description: 'Dynamic programming (DP) solves problems by: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Dynamic programming (DP) solves problems by: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 5.1 Principles
@@ -47,7 +47,7 @@ To prove that a problem has optimal substructure:
 **Example (Shortest Path).** If $p$ is a shortest path from $u$ to $v$ and $w$ is an intermediate
 vertex on $p$Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
 
-_Proof._ If not, there exists a shorter path $p'$ from $u$ to $w$. Then $p'$ concatenated with the
+_Proof._ If not, there exists a shorter path $p"$ from $u$ to $w$. Then $p'$ concatenated with the
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
 $\blacksquare$
 

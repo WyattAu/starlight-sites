@@ -1,6 +1,6 @@
 ---
 title: Data Validation
-description: 'Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration...'
+description: "Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -21,7 +21,7 @@ Corrupting internal state, triggering downstream errors that are difficult to tr
 Origin, and in the worst case producing silent incorrect results -- the most dangerous category of
 Software failure.
 
-This is the garbage-in-garbage-out principle applied to software architecture: if your program's
+This is the garbage-in-garbage-out principle applied to software architecture: if your program"s
 Correctness depends on the shape of its inputs, and you do not verify that shape, your program's
 Correctness is not guaranteed. Period.
 
@@ -547,10 +547,10 @@ class Event(BaseModel):
 event = Event(name="deploy", timestamp=datetime(2026, 4, 5, 12, 0, 0), count=3)
 
 event.model_dump()
-# {'name': 'deploy', 'timestamp': datetime.datetime(2026, 4, 5, 12, 0), 'count': 3}
+# {'name': "deploy'', "timestamp': datetime.datetime(2026, 4, 5, 12, 0), 'count': 3}
 
 event.model_dump(mode="json")
-# {'name': 'deploy', 'timestamp': '2026-04-05T12:00:00', 'count': 3}
+# {'name': "deploy'', "timestamp': "2026-04-05T12:00:00'', "count': 3}
 
 event.model_dump_json()
 # '{"name":"deploy","timestamp":"2026-04-05T12:00:00","count":3}'
@@ -568,10 +568,10 @@ Rust, so it is significantly faster.
 
 ```python
 event.model_dump(include={"name", "timestamp"})
-# {'name': 'deploy', 'timestamp': datetime(2026, 4, 5, 12, 0)}
+# {'name': "deploy'', "timestamp': datetime(2026, 4, 5, 12, 0)}
 
 event.model_dump(exclude={"timestamp"})
-# {'name': 'deploy', 'count': 3}
+# {'name': "deploy'', "count': 3}
 
 event.model_dump(exclude_defaults=True)
 # fields with default values that were not explicitly set are omitted
@@ -917,7 +917,7 @@ class UserSchema(Schema):
 ```python
 try:
     data = UserSchema().load({"id": 1, "name": "Alice", "email": "alice@example.com"})
-    print(data)  # {'id': 1, 'name': 'Alice', 'email': 'alice@example.com'}
+    print(data)  # {'id': 1, 'name': "Alice'', "email': "alice@example.com''}
 except ValidationError as e:
     print(e.messages)
 ```
@@ -996,7 +996,7 @@ On it makes your code fragile if you ever migrate away from Pydantic. Always use
 ### Ordering of Field Validators
 
 Validators run in field declaration order. If field `b` depends on field `a``a` must be declared
-First. Otherwise, `info.data` in `b`'s validator will not contain `a`. If you cannot reorder fields
+First. Otherwise, `info.data` in `b`"s validator will not contain `a`. If you cannot reorder fields
 (for whatever reason), use `@model_validator(mode="after")` instead.
 
 ### Strict Mode

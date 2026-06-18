@@ -1,6 +1,6 @@
 ---
 title: Biological Level of Analysis
-description: 'The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and...'
+description: "The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and...''
 
 ---
 
@@ -36,7 +36,7 @@ to any IB Psychology question benefits from acknowledging this multilevel comple
 ## Key Concepts
 
 - **Localisation of brain function** -- the idea that specific regions of the brain are responsible
-  for specific functions (e.g., the amygdala for fear processing, Broca's area for speech
+  for specific functions (e.g., the amygdala for fear processing, Broca"s area for speech
   production). Evidence comes from lesion studies and brain imaging.
 - **Neurotransmission** -- the process by which chemical signals are transmitted across synapses.
   Neurotransmitters (e.g., serotonin, dopamine, acetylcholine) influence mood, motivation, and

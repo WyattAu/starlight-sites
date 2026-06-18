@@ -3,7 +3,7 @@ title: Classical Mechanics
 tags:
   - Physics
   - University
-description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 # Classical Mechanics
@@ -14,7 +14,7 @@ description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive education
 2. [Generalised Coordinates and Constraints](2_generalised-coordinates-and-constraints.md)
 3. [Lagrangian Mechanics](3_lagrangian-mechanics.md)
 4. [Hamiltonian Mechanics](4_hamiltonian-mechanics.md)
-5. [Noether's Theorem and Conservation Laws](5_noether-s-theorem-and-conservation-laws.md)
+5. [Noether"s Theorem and Conservation Laws](5_noether-s-theorem-and-conservation-laws.md)
 6. [Central Force Problems](6_central-force-problems.mdx)
 7. [Small Oscillations and Normal Modes](7_small-oscillations-and-normal-modes.md)
 8. [Rigid Body Dynamics](8_rigid-body-dynamics.md)

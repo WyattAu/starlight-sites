@@ -1,7 +1,7 @@
 ---
 template: splash
 title: A Level Notes
-description: 'UK A-Level revision notes covering key definitions, core concepts, worked examples, and practice questions for focused revision and exam readiness.'
+description: "UK A-Level revision notes covering key definitions, core concepts, worked examples, and practice questions for focused revision and exam readiness.''
 hero:
   tagline: Notes and study materials
   actions:
@@ -136,7 +136,7 @@ Effective revision requires a structured approach:
 
 ## Key Dates and Deadlines
 
-Check your examination board's timetable well in advance. Most A-Level examinations take place in May and June, with some practical assessments in earlier months. Plan your revision to finish all content learning at least two weeks before your first examination.
+Check your examination board"s timetable well in advance. Most A-Level examinations take place in May and June, with some practical assessments in earlier months. Plan your revision to finish all content learning at least two weeks before your first examination.
 
 ## Support and Feedback
 

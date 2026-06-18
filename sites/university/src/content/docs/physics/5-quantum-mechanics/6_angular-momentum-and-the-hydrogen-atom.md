@@ -3,7 +3,7 @@ title: Angular Momentum and the Hydrogen Atom
 tags:
   - Physics
   - University
-description: 'Comprehensive educational content notes on angular momentum and the hydrogen atom with precise definitions, worked examples, and common pitfalls.'
+description: "Comprehensive educational content notes on angular momentum and the hydrogen atom with precise definitions, worked examples, and common pitfalls.''
 ---
 
 ### 6.1 Angular Momentum Operators
@@ -110,7 +110,7 @@ Where $P_l^m$ are the associated Legendre functions.
 
 **Properties:**
 
-- Orthonormality: $\int Y_l^m^*\, Y_{l'}^{m'}\,d\Omega = \delta_{ll'}\delta_{mm'}$
+- Orthonormality: $\int Y_l^m^*\, Y_{l"}^{m'}\,d\Omega = \delta_{ll'}\delta_{mm'}$
 - Completeness:
   $\sum_{l=0}^{\infty}\sum_{m=-l}^{l} Y_l^m(\theta,\phi)\,Y_l^m^*(\theta',\phi') = \delta(\cos\theta - \cos\theta')\delta(\phi - \phi')$
 - Parity: $Y_l^m(\pi-\theta, \phi+\pi) = (-1)^l\,Y_l^m(\theta,\phi)$

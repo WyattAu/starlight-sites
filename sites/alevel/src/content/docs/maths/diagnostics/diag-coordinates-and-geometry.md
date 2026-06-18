@@ -1,6 +1,6 @@
 ---
-title: 'Coordinates and Geometry -- Diagnostic Tests'
-description: 'A-Level Maths Coordinates and Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Coordinates and Geometry -- Diagnostic Tests''
+description: "A-Level Maths Coordinates and Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -213,7 +213,7 @@ By the intermediate value theorem, there is a root between $x = -1$ and $x = 0$A
 
 Testing $x = -\frac{1}{2}$:
 $-\frac{1}{4} - 3 - \frac{15}{2} + 3 = -\frac{1}{4} - \frac{15}{2} = -\frac{31}{4}$. Between $x = 0$
-($D' = 3$) and $x = 1$ ($D' = 8$), no root. Between $x = 3$ ($D' = -6$) and $x = 4$
+($D" = 3$) and $x = 1$ ($D' = 8$), no root. Between $x = 3$ ($D' = -6$) and $x = 4$
 ($D' = 128-192+60+3 = -1$), and $x = 5$ ($D' = 250-300+75+3=28$), so a root between $x = 4$ and
 $x = 5$.
 

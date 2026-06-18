@@ -1,6 +1,6 @@
 ---
-title: 'Acids, Bases and Salts -- Diagnostic Tests'
-description: 'DSE Chemistry Acids, Bases and Salts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Acids, Bases and Salts -- Diagnostic Tests''
+description: "DSE Chemistry Acids, Bases and Salts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -55,7 +55,7 @@ $$pH = -\log(4.24 \times 10^{-4}) = 3.37$$
 (c) The pH change: $3.37 - 2.87 = 0.50$.
 
 The claim is **incorrect** for weak acids. Diluting by a factor of 10 increases the pH by **less
-than 1**. This is because dilution shifts the equilibrium to the right (Le Chatelier's principle),
+than 1**. This is because dilution shifts the equilibrium to the right (Le Chatelier"s principle),
 causing a greater fraction of the acid to dissociate. The $[H^{+}]$ does not decrease by a full
 factor of 10.
 

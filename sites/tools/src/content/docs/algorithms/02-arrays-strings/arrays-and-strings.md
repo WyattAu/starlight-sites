@@ -1,6 +1,6 @@
 ---
 title: Arrays and Strings
-description: 'An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This...'
+description: "An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This...''
 
 ---
 
@@ -223,7 +223,7 @@ def min_subarray_sum_at_least_k(arr, k):
     """
     left = 0
     current_sum = 0
-    min_length = float('inf')
+    min_length = float("inf')
     for right in range(len(arr)):
         current_sum += arr[right]
         while current_sum >= k:

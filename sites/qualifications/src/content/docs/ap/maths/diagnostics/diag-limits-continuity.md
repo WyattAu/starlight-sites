@@ -1,6 +1,6 @@
 ---
-title: 'Limits and Continuity -- Diagnostic Tests'
-description: '> Tests edge cases, boundary conditions, and common misconceptions for limits an Comprehensive educational content coverage with definitions and practice proble'
+title: "Limits and Continuity -- Diagnostic Tests''
+description: "> Tests edge cases, boundary conditions, and common misconceptions for limits an Comprehensive educational content coverage with definitions and practice proble"'
 date: 2026-04-14
 tags:
   - ap
@@ -32,7 +32,7 @@ Identify the logical gap in this proof and provide a correct epsilon-delta proof
 
 **Solution:**
 
-The student's proof implicitly assumes $|x^2 + 2x + 4| \leq 12$ without justification. This must be
+The student"s proof implicitly assumes $|x^2 + 2x + 4| \leq 12$ without justification. This must be
 shown by first restricting $\delta$ to ensure $x$ is close enough to $2$ for this bound to hold.
 
 **Correct proof:**

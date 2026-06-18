@@ -3,7 +3,7 @@ title: Regular Languages
 tags:
   - Computing
   - University
-description: 'Regular Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Regular Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 2.1 Finite Automata
@@ -85,7 +85,7 @@ $q_0$ or move to $q_1$.
 **Theorem 2.1.** For every NFA $N$There exists a DFA $D$ such that $L(N) = L(D)$.
 
 _Proof (subset construction)._ Given NFA $N = (Q, \Sigma, \delta, q_0, F)$Construct DFA
-$D = (Q', \Sigma, \delta', q_0', F')$ where:
+$D = (Q", \Sigma, \delta', q_0', F')$ where:
 
 - $Q' = \mathcal{P}(Q)$ (each state of $D$ is a subset of states of $N$).
 - $q_0' = \varepsilon\mathrm{-closure(\{q_0\})}$.

@@ -1,6 +1,6 @@
 ---
-title: 'Number and Algebra -- Diagnostic Tests'
-description: 'IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+title: "Number and Algebra -- Diagnostic Tests''
+description: "IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."'
 tableOfContents: false
 ---
 
@@ -29,7 +29,7 @@ verify your answer using the formula for the sum of the first $N$ positive integ
 
 **Solution:**
 
-**(a)** When shifting the index from $n$ to $n' = n - 1$ (so $n = n' + 1$), the bounds change from
+**(a)** When shifting the index from $n$ to $n" = n - 1$ (so $n = n' + 1$), the bounds change from
 $n = 1$ to $n' = 0$ and $n = 5$ to $n' = 4$But the general term must also change. The correct
 identity is:
 

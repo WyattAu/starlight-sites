@@ -1,6 +1,6 @@
 ---
 title: Data Representation
-description: 'This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,...'
+description: "This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -115,7 +115,7 @@ Verification: $107 + 93 = 200$And $11001000_2 = 128 + 64 + 8 = 200$. Correct.
 
 </details>
 
-#### Two's Complement
+#### Two"s Complement
 
 Two's complement is the standard method for representing signed integers in binary. The most
 Significant bit (MSB) serves as the sign bit: 0 for positive, 1 for negative.

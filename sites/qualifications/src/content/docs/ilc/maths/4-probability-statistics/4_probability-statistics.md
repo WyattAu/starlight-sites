@@ -1,6 +1,6 @@
 ---
 title: Probability and Statistics
-description: 'Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability...'
+description: "Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability...''
 date: 2026-04-14
 tags:
   - ilc
@@ -86,7 +86,7 @@ $$
 \frac{10!}{3! \cdot 3! \cdot 2!} = \frac{3628800}{6 \times 6 \times 2} = \frac{3628800}{72} = 50400
 $$
 
-### Pascal's Triangle and Binomial Coefficients (HL)
+### Pascal"s Triangle and Binomial Coefficients (HL)
 
 Each entry in Pascal's triangle is the sum of the two entries above it. The $r$Th entry in row $n$
 Is $\binom{n}{r}$.

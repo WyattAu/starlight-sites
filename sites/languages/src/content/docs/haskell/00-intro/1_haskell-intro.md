@@ -1,6 +1,6 @@
 ---
 title: Introduction to Haskell
-description: 'Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional...'
+description: "Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell
@@ -72,7 +72,7 @@ extensions that had become de facto standards. Key additions:
 ### Modern Haskell (GHC Extensions)
 
 The Glasgow Haskell Compiler (GHC) has become the de facto standard compiler and has driven the
-language's evolution through extensions that are enabled via pragmas. Key GHC extensions include:
+language"s evolution through extensions that are enabled via pragmas. Key GHC extensions include:
 
 - **GADTs** (Generalized Algebraic Data Types): More expressive data type definitions
 - **TypeFamilies**: Type-level functions for advanced abstraction
@@ -483,8 +483,7 @@ resolver: lts-22.0
 packages:
   - .
 extra-deps: []
-ghc-options:
-  '$locals': -Wall -Werror
+ghc-options: "$locals'': -Wall -Werror
 ```
 
 ```bash
@@ -506,7 +505,7 @@ stack haddock
 
 ### Hackage
 
-Hackage is Haskell's central package repository at https://hackage.haskell.org. It hosts thousands
+Hackage is Haskell"s central package repository at https://hackage.haskell.org. It hosts thousands
 of open-source packages. Key resources:
 
 - **Package search**: Find libraries for specific tasks

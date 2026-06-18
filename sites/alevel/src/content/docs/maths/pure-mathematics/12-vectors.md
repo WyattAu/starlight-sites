@@ -1,6 +1,6 @@
 ---
 title: Vectors
-description: '| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------- | | AQA | Paper 1, 2 | 2D vectors in P1; 3D...'
+description: "| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------- | | AQA | Paper 1, 2 | 2D vectors in P1; 3D...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -54,7 +54,7 @@ The **magnitude** (length) of $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pma
 
 $$|\mathbf{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}$$
 
-This follows directly from Pythagoras' theorem applied in 3D.
+This follows directly from Pythagoras" theorem applied in 3D.
 
 ### 2.2 Unit vectors
 

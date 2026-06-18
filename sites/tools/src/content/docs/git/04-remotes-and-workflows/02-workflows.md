@@ -1,6 +1,6 @@
 ---
 title: Branching Strategies
-description: 'A branching strategy defines . There is no universal "best" strategy — the right choice depends on Team size, release cadence, deployment model, and risk...'
+description: "A branching strategy defines . There is no universal "best" strategy — the right choice depends on Team size, release cadence, deployment model, and risk...''
 date: 2025-06-03T07:00:00.000Z
 tags:
   - git
@@ -263,7 +263,7 @@ flowchart LR
 
 ### When to Use
 
-- Open-source projects (contributors don't have write access)
+- Open-source projects (contributors don"t have write access)
 - External contractors
 - Organizations where write access is restricted
 

@@ -1,6 +1,6 @@
 ---
-title: 'Hypothesis Testing -- Diagnostic Tests'
-description: 'A-Level Maths Hypothesis Testing -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Hypothesis Testing -- Diagnostic Tests''
+description: "A-Level Maths Hypothesis Testing -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -291,7 +291,7 @@ The p-value is approximately 0.0414.
 
 Since $0.0414 \lt 0.05$The result is statistically significant at the 5% level.
 
-**(b)** The researcher's statement contains two errors:
+**(b)** The researcher"s statement contains two errors:
 
 1. **"Accept the null hypothesis"**: We never "accept" $H_0$. The correct language is "there is
    insufficient evidence to reject $H_0$" or "we fail to reject $H_0$." The distinction matters

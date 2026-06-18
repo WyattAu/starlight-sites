@@ -3,7 +3,7 @@ title: Fourier Optics
 tags:
   - Physics
   - University
-description: 'The Fraunhofer diffraction pattern of an aperture with transmittance function illuminated by a plane wave is proportional to the 2D Fourier transform of the...'
+description: "The Fraunhofer diffraction pattern of an aperture with transmittance function illuminated by a plane wave is proportional to the 2D Fourier transform of the...''
 ---
 
 ### 10.1 Fraunhofer Diffraction as a Fourier Transform
@@ -24,7 +24,7 @@ function.
 
 _Proof._ The Huygens-Fresnel principle in the far field gives:
 
-$$E(x',y') = \frac{e^{ikr}}{i\lambda r}\iint t(x,y)\, e^{-ik(xx' + yy')/r}\, dx\, dy$$
+$$E(x",y') = \frac{e^{ikr}}{i\lambda r}\iint t(x,y)\, e^{-ik(xx' + yy')/r}\, dx\, dy$$
 
 In the far field, $r \approx D$ and the phase factor $e^{-ik(xx' + yy')/r}$ is exactly the kernel of
 the Fourier transform. $\blacksquare$

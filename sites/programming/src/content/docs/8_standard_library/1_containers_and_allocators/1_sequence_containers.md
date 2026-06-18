@@ -1,6 +1,6 @@
 ---
 title: Sequence Containers (Vector, Deque, List)
-description: 'The C++ standard library provides three primary sequence containers: And . Each uses a different memory model with distinct trade-offs in terms of random...'
+description: "The C++ standard library provides three primary sequence containers: And . Each uses a different memory model with distinct trade-offs in terms of random...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -142,7 +142,7 @@ $4c$Forcing the allocator to find a completely new region. With $\alpha = 1.5$Th
 $c$ is freed when growing to $1.5c$And the next reallocation needs $2.25c$. Because
 $c + 1.5c = 2.5c \gt 2.25c$The previously freed space can sometimes be reused.
 
-This is why some production allocators (e.g., Facebook's folly `fbvector`) use a factor of 1.5.
+This is why some production allocators (e.g., Facebook"s folly `fbvector`) use a factor of 1.5.
 
 ```cpp
 #include <vector>
@@ -619,7 +619,7 @@ Element and all subsequent iterators. The following is UB:
 
 ```cpp
 for (auto it = v.begin(); it != v.end(); ++it) {
-    if (*it == target) v.erase(it);  // UB: 'it' invalidated
+    if (*it == target) v.erase(it);  // UB: "it'' invalidated
 }
 ```
 
@@ -677,7 +677,7 @@ int main() {
     // push_back: constructs a temporary, then moves it
     v.push_back(std::string("hello"));  // 1 construction + 1 move
 
-    // emplace_back: constructs directly in the vector's storage
+    // emplace_back: constructs directly in the vector"s storage
     v.emplace_back("world");  // 1 construction, no move
 
     // For complex types, the difference is more pronounced

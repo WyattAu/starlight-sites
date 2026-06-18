@@ -1,6 +1,6 @@
 ---
 title: Ecology
-description: 'An is a self-sustaining system formed by the interactions of all Living organisms (the component) with their non-living physical and chemical environment...'
+description: "An is a self-sustaining system formed by the interactions of all Living organisms (the component) with their non-living physical and chemical environment...''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -302,7 +302,7 @@ $20\ \mathrm{mg\ dm^{-3}}$.
 **Example**: DDT (dichlorodiphenyltrichloroethane) was widely used as an insecticide. Its
 Persistence, bioaccumulation, and biomagnification caused eggshell thinning in birds of prey
 (ospreys, peregrine falcons), leading to population declines. DDT was banned in most countries
-Following Rachel Carson's _Silent Spring_ (1962).
+Following Rachel Carson"s _Silent Spring_ (1962).
 
 ### 5.3 Deforestation
 

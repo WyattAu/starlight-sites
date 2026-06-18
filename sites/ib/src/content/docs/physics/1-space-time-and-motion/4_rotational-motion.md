@@ -1,6 +1,6 @@
 ---
 title: Rotational Motion
-description: 'Rigorous IB physics notes covering Rotational Motion. Includes definitions, derivations, worked examples, and exam-style problems. momentum.'
+description: "Rigorous IB physics notes covering Rotational Motion. Includes definitions, derivations, worked examples, and exam-style problems. momentum.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -73,7 +73,7 @@ Always directed toward the centre of the circular path (radially inward).
 
 - Centripetal acceleration changes the **direction** of velocity, not its magnitude.
 - If the centripetal force is removed, the object moves in a straight line (tangent to the circle)
-  by Newton's first law.
+  by Newton"s first law.
 - The word "centripetal" means "centre-seeking."
 
 :::

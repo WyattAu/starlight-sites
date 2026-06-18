@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure
-description: 'Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends.'
+description: "Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends.''
 date: 2026-04-14
 tags:
   - ilc
@@ -126,7 +126,7 @@ This is because a half-filled $d$ subshell ($3d^5$) is more stable than a partia
 ($3d^4$). Similarly, copper ($Z = 29$) is $[\mathrm{Ar]\,4s^1 3d^{10}$ rather than
 $[\mathrm{Ar]\,4s^2 3d^9$.
 
-### Hund's Rule (HL)
+### Hund"s Rule (HL)
 
 When filling degenerate orbitals (same energy), electrons occupy separate orbitals with parallel
 Spins before pairing.

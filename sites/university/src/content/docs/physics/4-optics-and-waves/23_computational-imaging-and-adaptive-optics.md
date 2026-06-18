@@ -3,7 +3,7 @@ title: Computational Imaging and Adaptive Optics
 tags:
   - Physics
   - University
-description: '(Candes, Tao, Donoho, 2006) shows that signals that are in some basis can be reconstructed from far fewer measurements than Nyquist sampling requires:'
+description: "(Candes, Tao, Donoho, 2006) shows that signals that are in some basis can be reconstructed from far fewer measurements than Nyquist sampling requires:''
 ---
 
 ### 19.1 Compressed Sensing
@@ -69,7 +69,7 @@ $\blacksquare$
   at $v_g$.
 - Interference: thin films, Michelson interferometer, Fabry-Pérot etalon.
 - Diffraction: single slit, double slit, diffraction grating; Rayleigh criterion for resolution.
-- Polarisation: Brewster's angle, Malus’s law ($I = I_0 \cos^2 \theta$).
+- Polarisation: Brewster"s angle, Malus’s law ($I = I_0 \cos^2 \theta$).
 
 ## Cross-References
 

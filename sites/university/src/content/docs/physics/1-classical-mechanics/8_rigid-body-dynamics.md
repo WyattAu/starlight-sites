@@ -3,7 +3,7 @@ title: Rigid Body Dynamics
 tags:
   - Physics
   - University
-description: 'A is a system of particles in which the distance between every pair of particles Comprehensive educational content coverage with definitions and practice proble'
+description: "A is a system of particles in which the distance between every pair of particles Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 8.1 Rigid Body Kinematics
@@ -17,7 +17,7 @@ $(\phi, \theta, \psi)$.
 
 ### 8.2 Angular Velocity and Euler Angles
 
-The angular velocity $\boldsymbol{\omega}$ in terms of the Euler angles ($z$-$x'$-$z''$ convention)
+The angular velocity $\boldsymbol{\omega}$ in terms of the Euler angles ($z$-$x"$-$z''$ convention)
 expressed in the body frame:
 
 $$\omega_1 = \dot{\phi}\sin\theta\sin\psi + \dot{\theta}\cos\psi$$

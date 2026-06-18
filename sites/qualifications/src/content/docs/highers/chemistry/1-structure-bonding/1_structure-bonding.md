@@ -1,6 +1,6 @@
 ---
 title: Chemical Reactions and Bonding
-description: 'Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -463,7 +463,7 @@ Gaseous ions. It is always exothermic (negative) and indicates the strength of i
 ### Born-Haber Cycles
 
 A Born-Haber cycle is a thermochemical cycle that relates lattice energy to other measurable
-Enthalpy changes. It is an application of Hess's Law to ionic compounds.
+Enthalpy changes. It is an application of Hess"s Law to ionic compounds.
 
 **Worked Example 15:** Construct a Born-Haber cycle for sodium chloride.
 

@@ -1,6 +1,6 @@
 ---
 title: Biological Level of Analysis
-description: 'This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and...'
+description: "This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and...''
 
 ---
 
@@ -31,7 +31,7 @@ beyond this dichotomy toward gene-environment interaction (GxE) and epigenetics,
 genetic predispositions are expressed only in specific environmental contexts. Caspi et al. (2003)
 demonstrated that the short allele of the serotonin transporter gene (5-HTTLPR) increased depression
 risk only when combined with stressful life events, illustrating that neither genes nor environment
-alone determines outcomes. Epigenetic research (Meaney's rat studies, McGowan et al. 2009) extends
+alone determines outcomes. Epigenetic research (Meaney"s rat studies, McGowan et al. 2009) extends
 this further by showing that environmental experiences can produce lasting changes in gene
 expression without altering the DNA sequence itself.
 

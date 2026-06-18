@@ -1,6 +1,6 @@
 ---
 title: Package Management
-description: 'A Linux package is an archive containing compiled software, configuration files, metadata (version, Description, dependencies), and install/uninstall...'
+description: "A Linux package is an archive containing compiled software, configuration files, metadata (version, Description, dependencies), and install/uninstall...''
 
 ---
 
@@ -163,7 +163,7 @@ dpkg --configure -a     # configure all pending packages
 
 # Package status
 dpkg -s package_name    # show status and details
-dpkg-query -W -f='${Package} ${Version}\n'    # custom format
+dpkg-query -W -f="${Package} ${Version}\n'    # custom format
 ```
 
 ## DNF (RHEL/Fedora)

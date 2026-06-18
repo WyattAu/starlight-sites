@@ -1,6 +1,6 @@
 ---
-title: 'Inheritance, Variation and Evolution -- Diagnostic Tests'
-description: '(a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two...'
+title: "Inheritance, Variation and Evolution -- Diagnostic Tests''
+description: "(a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two..."'
 tableOfContents: false
 ---
 
@@ -106,7 +106,7 @@ Bacteria reproduce rapidly in fermenters, producing large quantities quickly and
 **Ethical:** No animals need to be slaughtered for extraction, reducing ethical concerns and costs.
 
 (c) Two risks: (1) **Unintended consequences:** The inserted gene might have unexpected effects on
-the organism's other genes or on the ecosystem if genetically modified organisms escape. (2) **Gene
+the organism"s other genes or on the ecosystem if genetically modified organisms escape. (2) **Gene
 transfer:** Modified genes could spread to wild populations through crossbreeding (e.g., herbicide
 resistance spreading to weeds). (3) **Ethical concerns:** Some people object to modifying the
 genetic code of organisms on principle.

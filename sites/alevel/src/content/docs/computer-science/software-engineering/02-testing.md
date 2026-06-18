@@ -1,6 +1,6 @@
 ---
 title: Testing
-description: 'is the process of evaluating a program to determine whether it meets specified R Comprehensive educational content coverage with definitions and practice proble'
+description: "is the process of evaluating a program to determine whether it meets specified R Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -88,7 +88,7 @@ Requirements.
 
 | Type                 | Description                                             |
 | -------------------- | ------------------------------------------------------- |
-| Alpha testing        | Testing by the development team at the developer's site |
+| Alpha testing        | Testing by the development team at the developer"s site |
 | Beta testing         | Testing by selected users at their own sites            |
 | User acceptance test | Formal testing to determine if requirements are met     |
 

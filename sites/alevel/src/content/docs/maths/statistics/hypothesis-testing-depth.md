@@ -1,6 +1,6 @@
 ---
 title: Hypothesis Testing (Extended)
-description: 'This document provides a rigorous treatment of hypothesis testing methodology, including null and Alternative hypotheses, significance levels, Type I and II...'
+description: "This document provides a rigorous treatment of hypothesis testing methodology, including null and Alternative hypotheses, significance levels, Type I and II...''
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
@@ -380,7 +380,7 @@ $\beta = P(X \leq 11 \mid p = 0.6) \approx 0.4044$.
 2. Losing marks by not showing sufficient working — always write out each step, especially in proof
    questions.
 
-3. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+3. Misreading the question, particularly with "hence' vs 'hence or otherwise' — the former requires
    using previous work.
 
 4. Rounding too early in multi-step calculations — carry full precision through and round only the

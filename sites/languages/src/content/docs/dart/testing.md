@@ -5,7 +5,7 @@ tags:
   - Dart
 categories:
   - Dart
-description: 'Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most...'
+description: "Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most...''
 ---
 
 ## Unit Testing
@@ -25,7 +25,7 @@ dev_dependencies:
 The core API consists of three functions: `test`, `group`, and `expect`.
 
 ```dart
-import 'package:test/test.dart';
+import "package:test/test.dart';
 
 void main() {
   test('adds two numbers', () {
@@ -159,12 +159,12 @@ void main() {
   });
 
   test('fetches user by id', () async {
-    when(mockRepo.getById(1)).thenAnswer((_) async => User(id: 1, name: 'Alice'));
+    when(mockRepo.getById(1)).thenAnswer((_) async => User(id: 1, name: "Alice''));
 
     final service = UserService(mockRepo);
     final user = await service.getUser(1);
 
-    expect(user.name, equals('Alice'));
+    expect(user.name, equals("Alice'));
     verify(mockRepo.getById(1)).called(1);
   });
 }
@@ -178,7 +178,7 @@ arguments for dynamic responses. `thenThrow` programs exceptions.
 ```dart
 when(mockRepo.getById(any)).thenAnswer((invocation) async {
   final id = invocation.positionalArguments[0] as int;
-  return User(id: id, name: 'User $id');
+  return User(id: id, name: "User $id'');
 });
 
 when(mockRepo.getById(999)).thenThrow(NotFoundException());
@@ -207,7 +207,7 @@ Use matchers instead of literal values when the exact argument is not relevant t
 
 ```dart
 when(mockRepo.getById(any)).thenReturn(mockUser);
-when(mockRepo.findbyname(startsWith('A'))).thenReturn([]);
+when(mockRepo.findbyname(startsWith("A'))).thenReturn([]);
 verify(mockRepo.save(argThat(isA<User>())));
 ```
 
@@ -389,13 +389,13 @@ void main() {
   testWidgets('button matches golden', (tester) async {
     await tester.pumpWidget(MaterialApp(
       home: Scaffold(
-        body: PrimaryButton(label: 'Submit'),
+        body: PrimaryButton(label: "Submit''),
       ),
     ));
 
     await expectLater(
       find.byType(PrimaryButton),
-      matchesGoldenFile('goldens/primary_button.png'),
+      matchesGoldenFile("goldens/primary_button.png'),
     );
   });
 }

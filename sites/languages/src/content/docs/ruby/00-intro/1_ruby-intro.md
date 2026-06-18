@@ -1,6 +1,6 @@
 ---
 title: Introduction to Ruby
-description: 'Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro...'
+description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
@@ -107,7 +107,7 @@ Key characteristics of Ruby:
 - Better error handling and deprecation warnings
 - `ReferenceError` instead of `NameError` for certain binding issues
 
-## Ruby's Philosophy: The Principle of Least Astonishment
+## Ruby"s Philosophy: The Principle of Least Astonishment
 
 The **Principle of Least Astonishment (POLA)**, sometimes called the **Principle of Least
 Surprise**, is the guiding philosophy behind Ruby's design. Matz designed Ruby so that the language

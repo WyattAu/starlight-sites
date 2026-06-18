@@ -1,6 +1,6 @@
 ---
 title: Wrap Up
-description: 'Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, .../1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions.'
+description: "Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, .../1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions.''
 date: 2024-01-01T00:00:00Z
 tags:
   - physics
@@ -46,7 +46,7 @@ Determine the period of these small radial oscillations.
   $F_{\mathrm{restore}} = - \frac{dU_{\mathrm{eff}}}{dr}$. For SHM, we need
   $F \approx -k_{\mathrm{eff}}x$. This corresponds to the second derivative of the potential energy,
   Taylor expanding around R:
-  $U_{\mathrm{eff}}(R+x) \approx U_{\mathrm{eff}}(R) + \frac{1}{2} U''_{\mathrm{eff}}(R) x^2$.
+  $U_{\mathrm{eff}}(R+x) \approx U_{\mathrm{eff}}(R) + \frac{1}{2} U"'_{\mathrm{eff}}(R) x^2$.
 - So, $k_{\mathrm{eff}} = \frac{d^2U_{\mathrm{eff}}}{dr^2}$ evaluated at $r=R$.
 - $U''_{\mathrm{eff}}(r) = \frac{d}{dr}\left(\frac{GMm}{r^2} - \frac{L^2}{mr^3}\right) = -\frac{2GMm}{r^3} + \frac{3L^2}{mr^4}$.
 - At $r=R$We substitute $L^2 = GMm^2R$:

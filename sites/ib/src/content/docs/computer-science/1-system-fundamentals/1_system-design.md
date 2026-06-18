@@ -1,6 +1,6 @@
 ---
 title: System Design
-description: 'Rigorous IB computer science notes covering System Design. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB computer science notes covering System Design. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - CS
@@ -542,7 +542,7 @@ Compromised; encryption in transit prevents man-in-the-middle attacks.
 Checking, length checking, whitelist validation, and sanitization (escaping dangerous characters).
 
 **SQL injection** occurs when untrusted input is concatenated into a database query, allowing an
-Attacker to manipulate query logic. Example: `user_input` = `' OR '1'='1` in
+Attacker to manipulate query logic. Example: `user_input` = `" OR '1'='1` in
 `"SELECT * FROM users WHERE username = '" + user_input + "'"` returns all users.
 
 **Prevention**:

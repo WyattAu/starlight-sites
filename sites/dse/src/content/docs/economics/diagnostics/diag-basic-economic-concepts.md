@@ -1,6 +1,6 @@
 ---
-title: 'Basic Economic Concepts -- Diagnostic Tests'
-description: 'DSE Economics Basic Economic Concepts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Basic Economic Concepts -- Diagnostic Tests''
+description: "DSE Economics Basic Economic Concepts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -215,7 +215,7 @@ Possibilities that were previously unattainable.
 
 ### EQ-1: PPC Shifts and Economic Growth
 
-**Question:** An economy's PPC for capital goods ($K$) and consumer goods ($C$) is given by
+**Question:** An economy"s PPC for capital goods ($K$) and consumer goods ($C$) is given by
 $K = 200 - 2\sqrt{C}$ for $0 \le C \le 10\,000$. Currently, the economy produces at
 $C = 2500$, $K = 100$. (a) Verify that this point is on the PPC. (b) Calculate the opportunity cost of
 increasing consumer goods from 2500 to 3600. (c) If the economy invests in new technology, shifting

@@ -1,6 +1,6 @@
 ---
 title: AP Calculus Diagnostic Guide
-description: 'Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics...'
+description: "Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics...''
 date: 2026-04-14
 tags:
   - ap
@@ -107,7 +107,7 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 
 | Topic                  | File                             | AB/BC   | Core Misconceptions                                                                  |
 | ---------------------- | -------------------------------- | ------- | ------------------------------------------------------------------------------------ |
-| Limits and Continuity  | `diag-limits-continuity.md`      | AB + BC | Epsilon-delta structure, L'Hopital conditions, discontinuity classification          |
+| Limits and Continuity  | `diag-limits-continuity.md`      | AB + BC | Epsilon-delta structure, L"Hopital conditions, discontinuity classification          |
 | Derivatives            | `diag-derivatives.md`            | AB + BC | Chain rule depth, implicit diff product rule, MVT hypotheses                         |
 | Integrals              | `diag-integrals.md`              | AB + BC | Riemann sum setup, FTC part 1 vs 2, integration by parts choice, area between curves |
 | Differential Equations | `diag-differential-equations.md` | AB + BC | Separable identification, Euler's method errors, logistic growth, uniqueness         |

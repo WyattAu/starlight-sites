@@ -1,6 +1,6 @@
 ---
 title: WebSockets
-description: 'WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,...'
+description: "WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,...''
 tags:
   - Networking
 categories:
@@ -336,18 +336,18 @@ Compression may not be worthwhile.
 
 ```javascript
 // Create a WebSocket connection
-const ws = new WebSocket('wss://example.com/chat', ['chat.v2']);
+const ws = new WebSocket("wss://example.com/chat', ['chat.v2']);
 
 ws.addEventListener('open', (event) => {
   console.log('WebSocket connected');
-  ws.send(JSON.stringify({ type: 'hello', user: 'alice' }));
+  ws.send(JSON.stringify({ type: "hello'', user: "alice' }));
 });
 
 ws.addEventListener('message', (event) => {
-  console.log('Received:', event.data);
+  console.log('Received: ", event.data);
   // event.data is a string for text frames
   // event.data is a Blob for binary frames (default)
-  // event.data is an ArrayBuffer for binary frames (if ws.binaryType = 'arraybuffer')
+  // event.data is an ArrayBuffer for binary frames (if ws.binaryType = ''arraybuffer")
 });
 
 ws.addEventListener('close', (event) => {
@@ -356,11 +356,11 @@ ws.addEventListener('close', (event) => {
 });
 
 ws.addEventListener('error', (event) => {
-  console.error('WebSocket error:', event);
+  console.error('WebSocket error: ", event);
 });
 
 // Send binary data
-ws.binaryType = 'arraybuffer';
+ws.binaryType = ''arraybuffer";
 const buffer = new ArrayBuffer(4);
 const view = new DataView(buffer);
 view.setUint32(0, 42);
@@ -806,9 +806,9 @@ config:
 scenarios:
   - engine: ws
     flow:
-      - send: '{"type":"subscribe","channel":"test"}'
+      - send: "{"type":"subscribe","channel":"test"}''
       - think: 5
-      - send: '{"type":"unsubscribe","channel":"test"}'
+      - send: "{"type":"unsubscribe","channel":"test"}'
 ```
 
 ## Summary

@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions CI/CD Patterns
-description: 'GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows...'
+description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows...''
 
 ---
 
@@ -99,17 +99,17 @@ name: Environment Variables Demo
 on: push
 
 env:
-  GLOBAL_VAR: 'set at workflow level'
+  GLOBAL_VAR: "set at workflow level'
 
 jobs:
   demo:
     runs-on: ubuntu-latest
     env:
-      JOB_VAR: 'set at job level'
+      JOB_VAR: "set at job level''
     steps:
       - name: Step-level override
         env:
-          STEP_VAR: 'set at step level'
+          STEP_VAR: "set at step level'
         run: |
           echo "GLOBAL_VAR=$GLOBAL_VAR"
           echo "JOB_VAR=$JOB_VAR"
@@ -217,8 +217,8 @@ Commit on a new branch, all files are considered changed.
 ```yaml
 on:
   schedule:
-    - cron: '0 0 * * 1' # Every Monday at 00:00 UTC
-    - cron: '0 6 * * 1-5' # Weekdays at 06:00 UTC
+    - cron: "0 0 * * 1'' # Every Monday at 00:00 UTC
+    - cron: "0 6 * * 1-5' # Weekdays at 06:00 UTC
 ```
 
 Cron syntax follows POSIX: `minute hour day-of-month month day-of-week`. GitHub Actions cron is not
@@ -233,15 +233,15 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-description: 'GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows...'
+description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows...''
         required: true
-        default: 'staging'
+        default: "staging'
         type: choice
         options:
           - staging
           - production
       debug:
-        description: 'Enable debug logging'
+        description: "Enable debug logging''
         required: false
         type: boolean
         default: false
@@ -274,7 +274,7 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *'
   workflow_dispatch:
 ```
 
@@ -611,7 +611,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.13''
       - run: pip install ruff mypy
       - run: ruff check --output-format=github .
       - run: ruff format --check .
@@ -628,7 +628,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20'
           cache: npm
       - run: npm ci
       - run: npx eslint . --format github
@@ -647,7 +647,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.13''
       - run: pip install -e ".[dev]"
       - name: Run tests with coverage
         run: |
@@ -675,9 +675,9 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs'
-          scan-ref: '.'
-          severity: 'CRITICAL,HIGH'
+          scan-type: "fs'
+          scan-ref: ".''
+          severity: "CRITICAL,HIGH'
           exit-code: 1
 
       - name: Python dependency audit
@@ -717,10 +717,10 @@ jobs:
         python-version: ['3.11', '3.12', '3.13']
         exclude:
           - os: macos-latest
-            python-version: '3.11'
+            python-version: "3.11''
         include:
           - os: ubuntu-latest
-            python-version: '3.13'
+            python-version: "3.13'
             experimental: true
     steps:
       - uses: actions/checkout@v4
@@ -932,7 +932,7 @@ jobs:
   call-lint:
     uses: ./.github/workflows/reusable-lint.yml
     with:
-      python-version: '3.13'
+      python-version: "3.13''
     secrets: inherit
 ```
 
@@ -944,22 +944,22 @@ on:
   workflow_call:
     inputs:
       python-version:
-        description: 'Python version to use'
+        description: "Python version to use"'
         required: false
         type: string
-        default: '3.13'
+        default: "3.13'
       fail-on-error:
-        description: 'Fail the workflow on lint errors'
+        description: "Fail the workflow on lint errors''
         required: false
         type: boolean
         default: true
     outputs:
       lint-result:
-        description: 'Lint result status'
+        description: "Lint result status'
         value: ${{ jobs.lint.outputs.result }}
     secrets:
       optional-secret:
-        description: 'An optional secret'
+        description: "An optional secret''
         required: false
 
 jobs:
@@ -988,7 +988,7 @@ jobs:
   call-external:
     uses: my-org/shared-ci/.github/workflows/lint.yml@main
     with:
-      python-version: '3.12'
+      python-version: "3.12'
     secrets: inherit
 ```
 
@@ -1001,14 +1001,14 @@ For reusable logic smaller than a full workflow, composite actions package multi
 Single action defined by an `action.yml` file:
 
 ```yaml
-name: 'Setup Python Environment'
-description: 'Set up Python with caching'
+name: "Setup Python Environment''
+description: "Set up Python with caching"'
 inputs:
   python-version:
-    description: 'Python version'
+    description: "Python version'
     required: true
 runs:
-  using: 'composite'
+  using: "composite''
   steps:
     - uses: actions/setup-python@v5
       with:
@@ -1025,7 +1025,7 @@ Use in a workflow:
 steps:
   - uses: ./.github/actions/setup-python-env
     with:
-      python-version: '3.13'
+      python-version: "3.13'
 ```
 
 ---
@@ -1289,8 +1289,8 @@ Automatically update action versions:
 # .github/dependabot.yml
 version: 2
 updates:
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+  - package-ecosystem: "github-actions''
+    directory: "/'
     schedule:
       interval: 'weekly'
 ```

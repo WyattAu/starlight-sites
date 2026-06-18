@@ -1,6 +1,6 @@
 ---
 title: Coordination Chemistry
-description: 'A model in which ligands are treated as point charges (or point dipoles) that interact electrostatically with the orbitals of the central metal ion.'
+description: "A model in which ligands are treated as point charges (or point dipoles) that interact electrostatically with the orbitals of the central metal ion.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -279,7 +279,7 @@ are inert. High-spin complexes and $d^{10}$ are labile.
 **S$\_\text{N}$1 (Dissociative):** First, a ligand leaves, creating a 5-coordinate intermediate;
 then the new ligand enters.
 
-$$[\text{ML}_6] \to [\text{ML}_5] + \text{L} \to [\text{ML}_5\text{L}']$$
+$$[\text{ML}_6] \to [\text{ML}_5] + \text{L} \to [\text{ML}_5\text{L}"]$$
 
 Rate: $v = k[\text{complex}]$ (independent of incoming ligand).
 

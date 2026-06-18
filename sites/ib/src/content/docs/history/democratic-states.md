@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: 'This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —...'
+description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —...''
 ---
 
 # Democratic States: Challenges and Crises (1918--1939)
@@ -53,7 +53,7 @@ are integrated throughout.
 - The treaty was deeply unpopular — the "war guilt clause" (Article 231), reparations, territorial
   losses, and military restrictions were seen as a national humiliation
 - The government was associated with the treaty — politicians were called the "November Criminals"
-- The stab-in-the-back myth (Dolchstosslegende) blamed the civilian government for Germany's defeat,
+- The stab-in-the-back myth (Dolchstosslegende) blamed the civilian government for Germany"s defeat,
   undermining the legitimacy of the republic
 
 **Hyperinflation (1923)**

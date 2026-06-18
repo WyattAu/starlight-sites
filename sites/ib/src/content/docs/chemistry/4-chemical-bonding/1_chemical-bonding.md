@@ -1,6 +1,6 @@
 ---
 title: Chemical Bonding and Structure
-description: 'Rigorous IB chemistry notes covering Chemical Bonding and Structure. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.'
+description: "Rigorous IB chemistry notes covering Chemical Bonding and Structure. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.''
 date: 2024-01-01T00:00:00Z
 tags:
   - Chemistry
@@ -84,7 +84,7 @@ $$
 
 ### The Born-Haber Cycle
 
-The Born-Haber cycle is an application of Hess's law that links lattice energy to thermodynamic data
+The Born-Haber cycle is an application of Hess"s law that links lattice energy to thermodynamic data
 You can measure experimentally.
 
 **Definition.** The **Born-Haber cycle** is a thermochemical cycle that decomposes the formation of

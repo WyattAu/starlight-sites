@@ -1,6 +1,6 @@
 ---
 title: Variables and Types
-description: 'Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,...'
+description: "Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
@@ -63,7 +63,7 @@ x = "outer"
 end
 
 puts x            # => "inner" -- blocks share the enclosing scope
-# puts y          # => NameError: undefined local variable or method 'y'
+# puts y          # => NameError: undefined local variable or method "y'
 
 # Loop variables leak out of blocks (Ruby < 3.0 behaviour preserved for compatibility)
 result = [1, 2, 3].each do |item|

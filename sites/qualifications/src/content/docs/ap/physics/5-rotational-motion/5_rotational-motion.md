@@ -1,6 +1,6 @@
 ---
 title: Rotational Motion
-description: '| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |...'
+description: "| Linear Quantity | Angular Quantity | Relation | | ---------------- | ----------------------------- | --------------- | | Displacement | Angle | | |...''
 date: 2026-04-14
 tags:
   - ap
@@ -82,7 +82,7 @@ $$
 
 ## Moment of Inertia (CED Unit 7)
 
-The moment of inertia is the rotational analog of mass. It measures an object's resistance to
+The moment of inertia is the rotational analog of mass. It measures an object"s resistance to
 Angular acceleration:
 
 $$

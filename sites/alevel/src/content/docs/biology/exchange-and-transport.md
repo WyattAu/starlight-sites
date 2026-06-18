@@ -1,6 +1,6 @@
 ---
 title: Exchange and Transport
-description: 'As an organism increases in size, its volume grows faster than its surface area. Comprehensive educational content coverage with definitions and practice proble'
+description: "As an organism increases in size, its volume grows faster than its surface area. Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -40,7 +40,7 @@ All gas exchange surfaces share common features:
 4. **Moist surface** to dissolve gases for diffusion through the membrane.
 5. **Dense blood supply** (in animals) to carry away exchanged gases and maintain the gradient.
 
-These features all derive from **Fick's law of diffusion**:
+These features all derive from **Fick"s law of diffusion**:
 
 $$J = -D \frac◆LB◆\Delta C◆RB◆◆LB◆\Delta x◆RB◆$$
 

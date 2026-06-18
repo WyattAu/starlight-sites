@@ -1,6 +1,6 @@
 ---
 title: Generics
-description: 'Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the JVM erases generic type parameters at runtime (type...'
+description: "Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the JVM erases generic type parameters at runtime (type...''
 date: 2026-04-18
 tags:
   - Kotlin
@@ -134,7 +134,7 @@ fun <T> ensureTrailingPeriod(seq: T): String
     where T : CharSequence,
           T : Appendable
 {
-    if (!seq.endsWith('.')) {
+    if (!seq.endsWith(".')) {
         seq.append('.')
     }
     return seq.toString()

@@ -3,7 +3,7 @@ title: Combinatorics
 tags:
   - Computing
   - University
-description: 'If task can be done in ways and task in ways, and they cannot both be Done, then Comprehensive educational content coverage with definitions and practice proble'
+description: "If task can be done in ways and task in ways, and they cannot both be Done, then Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 4.1 Counting Principles
@@ -25,7 +25,7 @@ $n$.
 
 $$(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r$$
 
-**Theorem 4.2 (Pascal's Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
+**Theorem 4.2 (Pascal"s Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
 
 _Proof._ Every $r$-subset of $\\{1, \ldots, n\\}$ either contains $n$ (giving $\binom{n-1}{r-1}$
 ways To choose the remaining $r-1$) or does not contain $n$ (giving $\binom{n-1}{r}$ ways to choose

@@ -3,7 +3,7 @@ title: Historical Motivation
 tags:
   - Physics
   - University
-description: 'By the late 19th century, classical physics could not explain several phenomena: Comprehensive educational content coverage with definitions and practice proble'
+description: "By the late 19th century, classical physics could not explain several phenomena: Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 1.1 Failures of Classical Physics
@@ -24,7 +24,7 @@ Spiral into the nucleus.
 
 ### 1.2 Key Experiments
 
-**Planck's quantisation (1900).** Blackbody radiation is explained by assuming energy is emitted in
+**Planck"s quantisation (1900).** Blackbody radiation is explained by assuming energy is emitted in
 Discrete quanta: $E = h\nu$ where $h = 6.626 \times 10^{-34}$ J$\cdot$S is Planck's constant.
 
 **Einstein's photon (1905).** Light consists of photons, each carrying energy $E = h\nu$ and

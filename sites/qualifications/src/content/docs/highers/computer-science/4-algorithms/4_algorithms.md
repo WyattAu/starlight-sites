@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Data Structures
-description: 'Scottish Highers Computer Science Algorithms and Data notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "Scottish Highers Computer Science Algorithms and Data notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -20,7 +20,7 @@ This chapter covers **Advanced Higher** Computing Science content, extending bey
 
 ### Big O Notation
 
-Big O notation describes the upper bound of an algorithm's time or space complexity as the input
+Big O notation describes the upper bound of an algorithm"s time or space complexity as the input
 Size grows.
 
 | Big O         | Name         | Example                     |

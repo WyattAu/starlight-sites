@@ -1,6 +1,6 @@
 ---
 title: Cherry-Pick
-description: 'applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That...'
+description: "applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That...''
 
 ---
 
@@ -73,7 +73,7 @@ The difference between `A..B` and `A^..B` is a common source of confusion:
 | Syntax  | Meaning                                        | Includes A? |
 | ------- | ---------------------------------------------- | ----------- |
 | `A..B`  | Commits reachable from B, not reachable from A | No          |
-| `A^..B` | Commits from A's parent through B              | Yes         |
+| `A^..B` | Commits from A"s parent through B              | Yes         |
 
 ```bash
 # Practical example: cherry-pick everything from commit X through Y, inclusive

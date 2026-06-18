@@ -1,6 +1,6 @@
 ---
 title: Explicit and Partial Specialization
-description: 'Specialization allows you to provide alternative implementations for specific sets of template Arguments. replaces the primary template entirely for a...'
+description: "Specialization allows you to provide alternative implementations for specific sets of template Arguments. replaces the primary template entirely for a...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -101,7 +101,7 @@ Overload that is a better match will always be preferred over a specialization.
 ## Partial Specialization
 
 **Partial specialization** allows you to specialize for a _subset_ of possible template arguments.
-The primary template still exists for arguments that don't match any partial specialization. The
+The primary template still exists for arguments that don"t match any partial specialization. The
 Compiler selects the most specialized version using **partial ordering rules** [N4950 S13.7.5.5].
 
 ```cpp

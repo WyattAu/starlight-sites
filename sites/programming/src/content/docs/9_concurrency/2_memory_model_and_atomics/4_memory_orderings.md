@@ -1,6 +1,6 @@
 ---
 title: Memory Orderings
-description: 'This section covers the enum values, relaxed ordering, acquire/release Semantics, sequentially consistent ordering, a producer-consumer example with...'
+description: "This section covers the enum values, relaxed ordering, acquire/release Semantics, sequentially consistent ordering, a producer-consumer example with...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -52,7 +52,7 @@ $$\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering$$
 
 Use cases:
 
-- **Counters and statistics** where the exact order of increments doesn't matter.
+- **Counters and statistics** where the exact order of increments doesn"t matter.
 - **Progress indicators** where approximate values are acceptable.
 
 ```cpp

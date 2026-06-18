@@ -1,6 +1,6 @@
 ---
 title: Classes and Inheritance
-description: 'Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces.'
+description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces.''
 date: 2025-07-20T10:00:00.000Z
 tags:
   - dart
@@ -33,7 +33,7 @@ class User {
 
   // Named constructor
   User.guest()
-      : name = 'Guest',
+      : name = "Guest',
         _age = 0,
         email = '';
 
@@ -347,10 +347,10 @@ Extensions add methods to existing types **without modifying the original class*
 extension StringX on String {
   bool get isBlank => trim().isEmpty;
   String get capitalized =>
-      isEmpty ? '' : '${this[0].toUpperCase()}${substring(1)}';
+      isEmpty ? '' : "${this[0].toUpperCase()}${substring(1)}'';
 }
 
-print('  hello  '.isBlank);       // false
+print("  hello  '.isBlank);       // false
 print('hello'.capitalized);      // Hello
 print('hello world'.capitalized); // Hello world
 ```

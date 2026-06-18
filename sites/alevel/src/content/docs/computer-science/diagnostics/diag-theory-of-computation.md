@@ -1,6 +1,6 @@
 ---
-title: 'Theory of Computation -- Diagnostic Tests'
-description: 'A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Theory of Computation -- Diagnostic Tests''
+description: "A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -108,7 +108,7 @@ A standard regular expression (without negation) for "not containing aba" can be
 building a DFA for the language and converting to a regular expression. The DFA has states
 representing "how much of `aba` we have seen at the end of the string so far":
 
-States: S0 (start, nothing matched), S1 (last char was 'a'), S2 (last two chars were 'ab'), dead
+States: S0 (start, nothing matched), S1 (last char was "a'), S2 (last two chars were 'ab'), dead
 state (saw 'aba').
 
 The regex from the DFA (excluding the dead state) is complex but well-defined. The point is that

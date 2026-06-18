@@ -1,6 +1,6 @@
 ---
 title: Compare-and-Swap (CAS) Loops
-description: 'This section covers the CAS loop pattern, the difference between and When weak CAS is preferable, linearizability of CAS-based data Structures, a lock-free...'
+description: "This section covers the CAS loop pattern, the difference between and When weak CAS is preferable, linearizability of CAS-based data Structures, a lock-free...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -199,7 +199,7 @@ The destruction itself is visible to other threads. The `fetch_sub` return value
 
 :::tip When writing CAS loops, always update `desired` based on the new `expected` value after a
 Failed CAS. The `compare_exchange_weak` function automatically updates `expected` to the current
-Value on failure, so you can use it directly in the next iteration's computation.
+Value on failure, so you can use it directly in the next iteration"s computation.
 :::
 
 ## Lock-Free Stack Push and Pop

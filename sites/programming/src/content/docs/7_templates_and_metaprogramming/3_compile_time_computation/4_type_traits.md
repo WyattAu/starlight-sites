@@ -1,6 +1,6 @@
 ---
 title: Type Traits and Static Reflection Patterns
-description: 'Type traits provide compile-time type introspection and transformation, forming the foundation of Generic programming in C++. Combined with techniques like...'
+description: "Type traits provide compile-time type introspection and transformation, forming the foundation of Generic programming in C++. Combined with techniques like...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -240,7 +240,7 @@ void print_container(const Container& c) {
 
         // Compile-time dispatch based on element type
         if constexpr (std::is_same_v<value_type, char>) {
-            std::cout << "'" << elem << "'";
+            std::cout << """ << elem << "'";
         } else if constexpr (std::is_same_v<value_type, bool>) {
             std::cout << (elem ? "true" : "false");
         } else {

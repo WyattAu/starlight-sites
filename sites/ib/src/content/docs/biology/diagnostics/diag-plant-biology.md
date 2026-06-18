@@ -1,6 +1,6 @@
 ---
-title: 'Plant Biology -- Diagnostic Tests'
-description: 'IB Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'
+title: "Plant Biology -- Diagnostic Tests''
+description: "IB Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."'
 tableOfContents: false
 ---
 
@@ -67,7 +67,7 @@ $200 \times 400 \times 10^{-12} = 8 \times 10^{-8}\ \text{m}^2\text{ mm}^{-2}$.
 Per $\text{cm}^2$ ($= 100\ \text{mm}^2$): total pore area
 $= 100 \times 8 \times 10^{-8} = 8 \times 10^{-6}\ \text{m}^2$.
 
-Using Fick's law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
+Using Fick"s law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
 
 $J = (2.4 \times 10^{-5}) \times (8 \times 10^{-6}) \times \frac{23 - 10}{0.001}$
 

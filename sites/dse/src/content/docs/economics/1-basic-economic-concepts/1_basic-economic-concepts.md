@@ -1,6 +1,6 @@
 ---
 title: Basic Economic Concepts
-description: 'Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources...'
+description: "Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources...''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Economics]
 categories: [DSE, Economics]
@@ -41,7 +41,7 @@ Key points:
 
 - It is the NEXT BEST alternative, not all alternatives combined
 - It includes both explicit costs (money paid) and implicit costs (the value of what you gave up)
-- Opportunity cost is subjective -- on the decision-maker's preferences
+- Opportunity cost is subjective -- on the decision-maker"s preferences
 
 ### Examples
 

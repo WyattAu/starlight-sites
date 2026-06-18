@@ -1,6 +1,6 @@
 ---
-title: 'Combinatorics -- Diagnostic Tests'
-description: 'DSE Maths Combinatorics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.'
+title: "Combinatorics -- Diagnostic Tests''
+description: "DSE Maths Combinatorics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."'
 tableOfContents: false
 ---
 
@@ -214,7 +214,7 @@ $$\dbinom{11}{4} = \frac{11 \times 10 \times 9 \times 8}{4 \times 3 \times 2 \ti
 
 **Question:**
 
-In how many ways can the letters of the word "ARRANGE" be arranged such that the two R's are not
+In how many ways can the letters of the word "ARRANGE" be arranged such that the two R"s are not
 adjacent?
 
 **Solution:**

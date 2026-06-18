@@ -1,6 +1,6 @@
 ---
 title: Nervous System
-description: 'IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory'
+description: "IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -87,7 +87,7 @@ At body temperature ($37^\circ\mathrm{C} = 310\;\mathrm{K}$), this simplifies to
 
 $$E_{\mathrm{ion}} = \frac{61.5}{z} \log_{10} \frac{[\mathrm{ion}]_{\mathrm{out}}}{[\mathrm{ion}]_{\mathrm{in}}}$$
 
-Where $R$ is the gas constant, $T$ is temperature, $z$ is the ion's valence, and $F$ is Faraday's
+Where $R$ is the gas constant, $T$ is temperature, $z$ is the ion"s valence, and $F$ is Faraday's
 Constant.
 
 ### Mechanism of the Resting Potential

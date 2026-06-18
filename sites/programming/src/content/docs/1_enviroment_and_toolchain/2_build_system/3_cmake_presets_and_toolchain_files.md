@@ -1,6 +1,6 @@
 ---
 title: CMake Presets and Toolchain Files
-description: 'A major challenge in C++ systems engineering is . A developer on Linux, a Developer on Windows, and a CI/CD agent should all generate the build environment...'
+description: "A major challenge in C++ systems engineering is . A developer on Linux, a Developer on Windows, and a CI/CD agent should all generate the build environment...''
 date: 2025-12-10T06:16:47.022Z
 tags:
   - cpp
@@ -55,7 +55,7 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 
 ### Toolchain File Execution Order
 
-Understanding when a toolchain file is processed relative to the project's `CMakeLists.txt` is
+Understanding when a toolchain file is processed relative to the project"s `CMakeLists.txt` is
 Critical:
 
 1. CMake processes command-line arguments (`-D`).

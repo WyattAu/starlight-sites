@@ -1,6 +1,6 @@
 ---
 title: API Security
-description: 'REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain...'
+description: "REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain...''
 
 ---
 
@@ -28,8 +28,8 @@ No server-side session is required (but tokens must be stateless or validated).
 ```python
 # Simple API key in header
 API_KEYS = {
-    'key_abc123': {'name': 'service-a', 'scopes': ['read:users']},
-    'key_def456': {'name': 'service-b', 'scopes': ['read:users', 'write:orders']},
+    "key_abc123': {'name': "service-a'', "scopes': ['read:users']},
+    'key_def456': {'name': "service-b'', "scopes': ['read:users', 'write:orders']},
 }
 
 @app.before_request

@@ -1,6 +1,6 @@
 ---
 title: Particles and Waves
-description: 'This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems.'
+description: "This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-04-14
 tags:
   - highers
@@ -34,7 +34,7 @@ Are emitted.
 
 Classical wave theory predicts that the energy of a light wave depends on its intensity (amplitude),
 Not its frequency. A sufficiently intense low-frequency light should eventually eject electrons.
-This does not happen. Einstein's explanation -- that light consists of discrete photons with energy
+This does not happen. Einstein"s explanation -- that light consists of discrete photons with energy
 $E = hf$ -- correctly predicts that the kinetic energy of emitted electrons depends on frequency,
 And that there is a threshold frequency below which no electrons are emitted regardless of
 Intensity. This was one of the key experiments that led to quantum mechanics.

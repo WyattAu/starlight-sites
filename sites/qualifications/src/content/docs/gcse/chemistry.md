@@ -1,7 +1,7 @@
 ---
 title: GCSE Chemistry Study Guide
 date: 2026-05-31
-description: 'A complete single-page revision guide covering the full GCSE Chemistry specification. Each section contains key concepts, definitions, and essential facts....'
+description: "A complete single-page revision guide covering the full GCSE Chemistry specification. Each section contains key concepts, definitions, and essential facts....''
 tags:
   - gcse
   - chemistry
@@ -247,7 +247,7 @@ $$M_r = \sum (\text{relative atomic masses of atoms in the formula})$$
 
 ### 4.3 Moles
 
-One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro's constant, $N_A$).
+One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro"s constant, $N_A$).
 
 $$\text{Number of moles} = \frac{\text{mass (g)}}{M_r}$$
 

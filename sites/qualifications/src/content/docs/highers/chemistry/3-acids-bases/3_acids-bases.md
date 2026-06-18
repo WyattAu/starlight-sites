@@ -1,6 +1,6 @@
 ---
 title: Acids and Bases
-description: 'An acid produces ions in solution; a base produces ions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "An acid produces ions in solution; a base produces ions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-14
 tags:
   - highers
@@ -265,7 +265,7 @@ $$[\mathrm{NH_4^+] = 0.15 + 0.01 = 0.16 \mathrm{ M$$
 
 $$\mathrm{pH = 9.25 + \log\frac{0.09}{0.16} = 9.25 + \log(0.5625) = 9.25 - 0.250 = 9.00$$
 
-The pH changes by only 0.07 units, demonstrating the buffer's effectiveness.
+The pH changes by only 0.07 units, demonstrating the buffer"s effectiveness.
 
 ---
 

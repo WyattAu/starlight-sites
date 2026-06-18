@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: 'This document covers the IB History Cold War topic for Paper 2. It traces the development, escalation, and resolution of superpower rivalry between the...'
+description: "This document covers the IB History Cold War topic for Paper 2. It traces the development, escalation, and resolution of superpower rivalry between the...''
 ---
 
 # The Cold War (1945--1991)
@@ -103,7 +103,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - West Germany joined in 1955 — this was a key trigger for the Warsaw Pact
 - First peacetime military alliance the USA had entered
 - Integrated military command under a Supreme Allied Commander (initially Eisenhower)
-- Demonstrated the USA's commitment to defending Western Europe
+- Demonstrated the USA"s commitment to defending Western Europe
 
 **Warsaw Pact**
 

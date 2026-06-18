@@ -3,7 +3,7 @@ title: Recurrence Relations
 tags:
   - Computing
   - University
-description: 'A defines a sequence by expressing in terms of previous terms. Comprehensive educational content coverage with definitions and practice problems.'
+description: "A defines a sequence by expressing in terms of previous terms. Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 6.1 Definition
@@ -84,7 +84,7 @@ $\beta = (1 - \sqrt{5})/2$.
 
 Partial fractions give
 $G(x) = \frac{1}{\sqrt{5}} \left(\frac{1}{1 - \alpha x} - \frac{1}{1 - \beta x}\right)$ So
-$F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet's formula). $\blacksquare$
+$F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet"s formula). $\blacksquare$
 
 </details>
 

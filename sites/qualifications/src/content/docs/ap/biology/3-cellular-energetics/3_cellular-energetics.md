@@ -1,6 +1,6 @@
 ---
 title: Cellular Energetics
-description: 'Qualifications Biology Cellular Energetics notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.'
+description: "Qualifications Biology Cellular Energetics notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.''
 date: 2026-04-14
 tags:
   - ap
@@ -570,7 +570,7 @@ Bypassing Complex I). So each $\mathrm{FADH_2$ yields approximately 1.5 ATP.
 
 ## Review: Regulation of Cellular Respiration
 
-Respiration is regulated at several key control points to match ATP production to the cell's energy
+Respiration is regulated at several key control points to match ATP production to the cell"s energy
 Demands.
 
 **Phosphofructokinase (PFK):** The most important regulatory enzyme of glycolysis. It catalyses the

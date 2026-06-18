@@ -1,6 +1,6 @@
 ---
 title: Python Internals
-description: 'CPython is the reference implementation of Python, written in C. It is the most widely used Implementation and the one most people mean when they say...'
+description: "CPython is the reference implementation of Python, written in C. It is the most widely used Implementation and the one most people mean when they say...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -14,7 +14,7 @@ categories:
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
 Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
-Python's memory and concurrency behavior.
+Python"s memory and concurrency behavior.
 
 The execution pipeline in CPython is:
 
@@ -624,7 +624,7 @@ class DensePoint:
 
 p = DensePoint(1, 2)
 print(p.x)  # 1
-p.z = 3     # AttributeError: 'DensePoint' object has no attribute 'z'
+p.z = 3     # AttributeError: "DensePoint'' object has no attribute "z'
 print(hasattr(p, "__dict__"))  # False
 ```
 
@@ -828,7 +828,7 @@ import sys
 
 x = [1, 2, 3]
 print(sys.getrefcount(x))
-# Returns 2, not 1: 'x' holds one reference, getrefcount's argument holds another
+# Returns 2, not 1: "x'' holds one reference, getrefcount"s argument holds another
 ```
 
 The returned count is always at least 2 for a local variable: one for the variable itself, one for

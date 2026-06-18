@@ -1,6 +1,6 @@
 ---
-title: 'Data Structures -- Diagnostic Tests'
-description: 'A-Level Computer Science Data Structures -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Data Structures -- Diagnostic Tests''
+description: "A-Level Computer Science Data Structures -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -22,7 +22,7 @@ deque.
 
 1. Create new node with value 4.
 2. Traverse the list to find the node containing 1 (current).
-3. Set new node's next pointer to current's next (pointing to 9).
+3. Set new node"s next pointer to current's next (pointing to 9).
 4. Set current's next pointer to the new node.
 
 Result: 3 $\to$ 7 $\to$ 1 $\to$ 4 $\to$ 9 $\to$ 5.

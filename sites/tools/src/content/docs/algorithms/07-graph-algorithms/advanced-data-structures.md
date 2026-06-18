@@ -1,6 +1,6 @@
 ---
 title: Advanced Data Structures
-description: 'Algorithms Advanced Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.'
+description: "Algorithms Advanced Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.''
 
 ---
 
@@ -73,7 +73,7 @@ class SegmentTreeMin:
     Range query: O(log n)
     Space: O(4n)
     """
-    def __init__(self, data, neutral=float('inf')):
+    def __init__(self, data, neutral=float("inf')):
         self.n = len(data)
         self.neutral = neutral
         self.tree = [neutral] * (4 * self.n)

@@ -1,6 +1,6 @@
 ---
 title: Classes and Objects
-description: 'Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble'
+description: "Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18
 tags:
   - Kotlin
@@ -371,7 +371,7 @@ val user = spawn(User)  // User(name=default)
   properties, which breaks the contract if the object is mutated after being placed in a `HashSet`
   or `HashMap`.
 - \*\* Storing references to mutable collections in data classes. The `copy()` method performs a
-  shallow copy, so mutations to the copy's collections affect the original.
+  shallow copy, so mutations to the copy"s collections affect the original.
 - \*\* Using `object` declarations for dependency injection. Singletons make testing harder because
   they cannot be replaced or mocked. Prefer constructor injection with regular classes.
 - \*\* Confusing `object` declarations with anonymous objects. `object` creates a named singleton;

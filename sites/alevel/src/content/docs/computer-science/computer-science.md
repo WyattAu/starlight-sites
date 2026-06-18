@@ -1,6 +1,6 @@
 ---
 title: Computer Science
-description: 'A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It Teaches you to think precisely about computation — what...'
+description: "A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It Teaches you to think precisely about computation — what...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -35,7 +35,7 @@ Design systems that are correct, robust, and maintainable.
 
 ### Course Structure
 
-1. **Fundamentals** — Data representation (binary, two's complement, floating point), hardware
+1. **Fundamentals** — Data representation (binary, two"s complement, floating point), hardware
    architecture, Boolean logic
 2. **Data Structures** — Arrays, linked lists, stacks, queues, trees, graphs, hash tables
 3. **Algorithms** — Sorting, searching, graph algorithms, complexity analysis (Big-O), algorithmic

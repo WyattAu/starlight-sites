@@ -1,6 +1,6 @@
 ---
 title: Bonding and Intermolecular Forces
-description: 'Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-14
 tags:
   - ap
@@ -37,7 +37,7 @@ U \propto \frac{|z_+ \cdot z_-|}{r_+ + r_-}
 $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
-Direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
+Direct consequence of Coulomb"s law: the electrostatic attraction is proportional to the product of
 The charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry

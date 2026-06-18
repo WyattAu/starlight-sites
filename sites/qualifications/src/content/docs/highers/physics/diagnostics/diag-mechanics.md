@@ -1,6 +1,6 @@
 ---
-title: 'Mechanics -- Diagnostic Tests'
-description: 'Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Mechanics -- Diagnostic Tests''
+description: "Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -70,7 +70,7 @@ affect each other.
 
 ---
 
-### UT-2: Forces and Newton's Laws
+### UT-2: Forces and Newton"s Laws
 
 **Question:**
 

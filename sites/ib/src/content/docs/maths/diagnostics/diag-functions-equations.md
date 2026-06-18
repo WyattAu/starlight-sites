@@ -1,6 +1,6 @@
 ---
-title: 'Functions and Equations -- Diagnostic Tests'
-description: 'IB Maths Functions and Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Functions and Equations -- Diagnostic Tests''
+description: "IB Maths Functions and Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -115,7 +115,7 @@ Find the values of $a$ and $b$.
 A student reasons: "We translate left by 1, so $a = 1$. Then stretch vertically by 2 and translate
 up by 3, so $b = 2 \times 5 + 3 = 13$."
 
-**(a)** Identify the error in the student's reasoning.
+**(a)** Identify the error in the student"s reasoning.
 
 **(b)** Find the correct values of $a$ and $b$.
 

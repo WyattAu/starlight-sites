@@ -1,6 +1,6 @@
 ---
-title: 'Vectors -- Diagnostic Tests'
-description: 'A-Level Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+title: "Vectors -- Diagnostic Tests''
+description: "A-Level Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."'
 tableOfContents: false
 ---
 
@@ -73,7 +73,7 @@ $\lvert\overrightarrow{P_1A}\rvert = \sqrt{1 + 1 + 9} = \sqrt{11}$.
 
 Actual shortest distance: $\sqrt{5/7} = \sqrt{35}/7 \approx 0.845$.
 
-Student's answer: $\sqrt{11} \approx 3.317$.
+Student"s answer: $\sqrt{11} \approx 3.317$.
 
 $$\text{Percentage overestimate} = \frac◆LB◆\sqrt{11} - \sqrt{5/7}◆RB◆◆LB◆\sqrt{5/7}◆RB◆ \times 100\% = \left(\frac◆LB◆\sqrt{77}◆RB◆◆LB◆\sqrt{5}◆RB◆ - 1\right) \times 100\% \approx 293\%$$
 

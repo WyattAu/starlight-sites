@@ -1,6 +1,6 @@
 ---
 title: Network Tools
-description: 'Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section...'
+description: "Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section...''
 tags:
   - Networking
 categories:
@@ -169,7 +169,7 @@ Environments (AWS security groups do not allow ICMP by default).
 
 `traceroute` discovers the path packets take to reach a destination by sending packets with
 Incrementing TTL values. When a router decrements TTL to 0, it sends an ICMP Time Exceeded message,
-Revealing the router's IP address.
+Revealing the router"s IP address.
 
 ### ICMP vs UDP Probes
 

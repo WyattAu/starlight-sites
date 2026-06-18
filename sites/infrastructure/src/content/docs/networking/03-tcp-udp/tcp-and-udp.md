@@ -1,6 +1,6 @@
 ---
 title: TCP and UDP
-description: 'The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,...'
+description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,...''
 tags:
   - Networking
 categories:
@@ -66,7 +66,7 @@ The UDP header is 8 bytes -- the smallest of any transport protocol:
 - **Unreliable:** No acknowledgments, no retransmissions. Datagrams may be lost, duplicated, or
   arrive out of order. The application is responsible for handling these cases if needed.
 - **Message-oriented:** Each `sendto()` call produces exactly one datagram. The receiver gets the
-  exact message boundaries. This is fundamentally different from TCP's byte-stream model.
+  exact message boundaries. This is fundamentally different from TCP"s byte-stream model.
 - **No flow control:** If the receiver cannot keep up, datagrams are silently dropped. The kernel's
   receive buffer fills up, and new datagrams are discarded. `ss -uanp` shows the receive queue
   depth.

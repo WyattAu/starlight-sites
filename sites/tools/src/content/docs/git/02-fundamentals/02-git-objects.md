@@ -1,6 +1,6 @@
 ---
 title: Git Objects
-description: 'At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the...'
+description: "At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the...''
 date: 2025-06-03T00:00:00.000Z
 tags:
   - git
@@ -53,7 +53,7 @@ paths produce the same blob object.
 ### Creating a Blob
 
 ```bash
-# Create a blob from a file's content and print its hash
+# Create a blob from a file"s content and print its hash
 $ echo "Hello, World" | git hash-object -w --stdin
 ce013625030ba8dba906f756967f9e9ca394464a
 

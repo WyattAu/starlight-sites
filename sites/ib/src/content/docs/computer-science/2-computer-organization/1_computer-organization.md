@@ -1,6 +1,6 @@
 ---
 title: Computer Organizations
-description: 'Rigorous IB computer science notes covering Computer Organizations. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB computer science notes covering Computer Organizations. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - CS
@@ -112,7 +112,7 @@ All data in a computer is represented using binary digits (bits) — 0s and 1s.
 | 16   | 0 to 65,535        |
 | 32   | 0 to 4,294,967,295 |
 
-**Two's complement** is used to represent both positive and negative integers:
+**Two"s complement** is used to represent both positive and negative integers:
 
 | Bits | Range                           |
 | ---- | ------------------------------- |

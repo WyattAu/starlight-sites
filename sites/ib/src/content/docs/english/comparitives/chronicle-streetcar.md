@@ -2,7 +2,7 @@
 title: Chronicle and Streetcar Comparison
 tags:
   - english
-description: '- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although...'
+description: "- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although...''
 ---
 
 ## Ideologies
@@ -15,7 +15,7 @@ description: '- Streetcar explores class conflict between Blanche (A construct r
   over aristocracy.
 - > "Napoleonic code... What belongs to the wife belongs to the husband" ~Stanley
 - Highlighting working-class focus on material ownership
-- > "but I'm not young and vulnerable anymore" ~Blanche
+- > "but I"m not young and vulnerable anymore" ~Blanche
 - Blanche facing the reality of the fall of aristocracy
 - Chronicle critique rigid social hierarchies in Latin America, upholding social status through
   perpetuating violence, showing the adherence to outdated codes and a divergence between actual

@@ -1,6 +1,6 @@
 ---
 title: Dependent Names and Two-Phase Lookup
-description: 'In templates, the distinction between and names determines when name Lookup occurs. Dependent names (those that depend on a template parameter) are looked...'
+description: "In templates, the distinction between and names determines when name Lookup occurs. Dependent names (those that depend on a template parameter) are looked...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -40,15 +40,15 @@ struct Base {
 template <typename T>
 struct Derived : T {
     void call_foo() const {
-        // 'foo' is a dependent name (depends on base T)
+        // "foo' is a dependent name (depends on base T)
         // But without 'this->', it will NOT be found in the base class
         // because at Phase 1 the compiler doesn't know what T::foo is.
-        // foo();              // ERROR: 'foo' was not declared in this scope
+        // foo();              // ERROR: "foo'' was not declared in this scope
         this->foo();           // OK: this-> makes lookup dependent
     }
 
     void use_bar() const {
-        // 'bar' is a dependent member of T
+        // "bar' is a dependent member of T
         // int x = bar;        // ERROR: not declared in this scope
         int x = this->bar;     // OK
         std::cout << x << "\n";
@@ -157,10 +157,10 @@ int global_value = 100;
 
 template <typename T>
 void example() {
-    // Phase 1: 'global_value' is non-dependent, resolved NOW
+    // Phase 1: "global_value'' is non-dependent, resolved NOW
     std::cout << global_value << "\n";  // Always prints 100
 
-    // Phase 1: 'helper' is non-dependent, resolved NOW
+    // Phase 1: "helper' is non-dependent, resolved NOW
     helper(42);  // Binds to whatever helper(int) is visible here
 }
 

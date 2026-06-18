@@ -1,6 +1,6 @@
 ---
 title: Greedy Algorithms
-description: 'A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy...'
+description: "A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy...''
 
 ---
 
@@ -33,7 +33,7 @@ Optimal solution with the greedy choice without making the solution worse.
 
 1. Let $G$ be the greedy solution and $O$ be an optimal solution
 2. Find the first point where $G$ and $O$ differ
-3. Show that replacing the optimal's choice with the greedy's choice produces a solution $O'$ that
+3. Show that replacing the optimal"s choice with the greedy's choice produces a solution $O'$ that
    is at least as good as $O$
 4. Conclude that there exists an optimal solution that agrees with the greedy at this step
 5. By induction, the greedy solution is optimal

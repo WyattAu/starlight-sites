@@ -3,7 +3,7 @@ title: The Laws of Thermodynamics
 tags:
   - Physics
   - University
-description: 'If system is in thermal equilibrium with system And is in thermal equilibrium with system Then is in thermal equilibrium with .'
+description: "If system is in thermal equilibrium with system And is in thermal equilibrium with system Then is in thermal equilibrium with .''
 ---
 
 ### 1.1 Zeroth Law and Temperature
@@ -19,7 +19,7 @@ equilibrium. The **ideal gas scale** defines temperature via
 
 $$PV = Nk_BT$$
 
-Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
+Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
 
 ### 1.2 First Law
 

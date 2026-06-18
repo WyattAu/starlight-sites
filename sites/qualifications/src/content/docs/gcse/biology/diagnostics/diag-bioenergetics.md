@@ -1,6 +1,6 @@
 ---
-title: 'Bioenergetics -- Diagnostic Tests'
-description: '(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface...'
+title: "Bioenergetics -- Diagnostic Tests''
+description: "(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface..."'
 tableOfContents: false
 ---
 
@@ -100,7 +100,7 @@ limiting. (3) **Temperature control** -- heating in winter and ventilation in su
 optimum temperature for photosynthetic enzymes.
 
 (d) Above $25^\circ$C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
-cycle) begin to denature. The active site changes shape, reducing the enzyme's ability to catalyse
+cycle) begin to denature. The active site changes shape, reducing the enzyme"s ability to catalyse
 the reaction. Additionally, at higher temperatures, water loss through stomata increases. The guard
 cells close the stomata to conserve water, but this reduces CO$_2$ entry, further limiting
 photosynthesis.

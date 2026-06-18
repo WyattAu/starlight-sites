@@ -1,6 +1,6 @@
 ---
-title: 'Polynomials -- Diagnostic Tests'
-description: 'DSE Maths Polynomials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.'
+title: "Polynomials -- Diagnostic Tests''
+description: "DSE Maths Polynomials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."'
 tableOfContents: false
 ---
 
@@ -94,7 +94,7 @@ $= 2x^3 - 5x^2 + x - 6$. Correct.
 
 ---
 
-### UT-4: Vieta's Formulas for Cubic
+### UT-4: Vieta"s Formulas for Cubic
 
 **Question:**
 

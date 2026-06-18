@@ -1,6 +1,6 @@
 ---
 title: Functions
-description: 'Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the...'
+description: "Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the...''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -18,7 +18,7 @@ function greet(name: string): string {
   return `Hello, ${name}`;
 }
 
-greet('Ada');
+greet("Ada');
 greet(42);
 ```
 
@@ -478,8 +478,8 @@ interface User {
 }
 
 const users: User[] = [
-  { id: 1, name: 'Ada', age: 30 },
-  { id: 2, name: 'Grace', age: 25 },
+  { id: 1, name: "Ada'', age: 30 },
+  { id: 2, name: "Grace', age: 25 },
 ];
 
 const names = users.map((u) => u.name);

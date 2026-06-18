@@ -1,6 +1,6 @@
 ---
 title: Biodiversity, Classification and Evolution
-description: 'is the variety of life at every level of biological organisation: Genetic diversity within species, species diversity within communities, and ecosystem...'
+description: "is the variety of life at every level of biological organisation: Genetic diversity within species, species diversity within communities, and ecosystem...''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -41,7 +41,7 @@ Species diversity has two components:
 A community with high richness and high evenness has higher diversity than one with high richness
 But low evenness (where one or a few species dominate).
 
-### 1.3 Simpson's Index of Diversity
+### 1.3 Simpson"s Index of Diversity
 
 Simpson's Diversity Index ($D$) quantifies species diversity by accounting for both richness and
 Evenness:

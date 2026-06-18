@@ -1,6 +1,6 @@
 ---
 title: Respiration (In Depth)
-description: 'Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that...'
+description: "Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that...''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -350,7 +350,7 @@ This is why cells must switch to anaerobic respiration in the absence of oxygen.
 
 :::caution Common Pitfall Students often write that "oxygen is needed to make ATP." Oxygen is needed
 specifically as the final electron acceptor in the electron transport chain. The ATP itself is
-synthesised by ATP synthase, driven by the proton gradient. Oxygen's role is to keep the electron
+synthesised by ATP synthase, driven by the proton gradient. Oxygen"s role is to keep the electron
 transport chain flowing so that the proton gradient is maintained.
 :::
 

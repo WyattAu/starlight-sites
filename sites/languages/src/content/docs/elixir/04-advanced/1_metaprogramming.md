@@ -1,6 +1,6 @@
 ---
 title: Metaprogramming
-description: 'Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,...'
+description: "Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir
@@ -15,7 +15,7 @@ Metaprogramming in Elixir is the ability to write code that generates or transfo
 time. The primary mechanism for this is the **macro** system, which allows you to manipulate the
 Abstract Syntax Tree (AST) of Elixir code before it is compiled.
 
-Elixir's macro system is similar to Lisp's but with important differences:
+Elixir"s macro system is similar to Lisp's but with important differences:
 
 - Macros operate on Elixir's own AST representation, not S-expressions
 - Macros are hygienic by default (they do not accidentally capture or overwrite variables)

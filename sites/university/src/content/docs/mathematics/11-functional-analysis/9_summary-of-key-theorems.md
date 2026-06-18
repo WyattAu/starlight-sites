@@ -3,7 +3,7 @@ title: Summary of Key Theorems
 tags:
   - Mathematics
   - University
-description: '| Theorem | Statement | | -------------------- | --------------------------------------------------------------------------------------------------- | |...'
+description: "| Theorem | Statement | | -------------------- | --------------------------------------------------------------------------------------------------- | |...''
 ---
 
 | Theorem              | Statement                                                                                           |
@@ -18,7 +18,7 @@ description: '| Theorem | Statement | | -------------------- | -----------------
 | Banach-Alaoglu       | Closed unit ball of $X^*$ is weak\*-compact                                                         |
 
 :::caution Common Pitfall The Closed Graph Theorem requires both the domain and codomain to be
-Banach spaces. A linear operator $T : C[0,1] \to C[0,1]$ defined by $Tf = f'$ (where defined) has a
+Banach spaces. A linear operator $T : C[0,1] \to C[0,1]$ defined by $Tf = f"$ (where defined) has a
 closed graph in $C[0,1] \times C[0,1]$, but $C^1[0,1]$ is not complete under the $C[0,1]$ norm. The
 theorem does not apply, and $T$ is indeed unbounded.
 

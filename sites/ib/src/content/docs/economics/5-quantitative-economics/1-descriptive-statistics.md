@@ -1,6 +1,6 @@
 ---
 title: Descriptive Statistics
-description: 'are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes.'
+description: "are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -58,7 +58,7 @@ The nominal increase of $5\%$ is more than offset by inflation of $10\%$So purch
 
 ### Compound Interest
 
-When interest is compounded, each period's interest is calculated on the principal plus previously
+When interest is compounded, each period"s interest is calculated on the principal plus previously
 Accumulated interest:
 
 $$FV = PV \times (1 + r)^n$$

@@ -1,11 +1,11 @@
 ---
-title: 'Open Source Licenses'
+title: "Open Source Licenses''
 date: 2026-05-30
 tags:
   - Licensing
 categories:
   - Licensing
-description: 'Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they...'
+description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they..."'
 ---
 
 ## License Classification
@@ -82,7 +82,7 @@ same code. Apache 2.0 prevents this.
 
 Apache 2.0 requires that derivative works preserve a NOTICE file if the original work includes one.
 The NOTICE file contains additional attribution — names of contributors, copyright holders, and
-specific attribution notices. This is more burdensome than MIT's single requirement.
+specific attribution notices. This is more burdensome than MIT"s single requirement.
 
 ### Notable Projects
 

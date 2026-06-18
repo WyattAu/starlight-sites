@@ -3,7 +3,7 @@ title: Identical Particles and Exchange Symmetry
 tags:
   - Physics
   - University
-description: 'For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems.'
+description: "For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 9.1 Symmetrisation Postulate
@@ -34,7 +34,7 @@ $$|\psi_{\text{triplet}|^2 = 0 \quad \text{when}  \mathbf{r}_1 = \mathbf{r}_2}$$
 $$|\psi_{\text{singlet}|^2 > 0 \quad \text{when}  \mathbf{r}_1 = \mathbf{r}_2}$$
 
 The triplet state keeps electrons apart (effective repulsion), while the singlet allows them to be
-close. This is the origin of the **Hund's first rule**: parallel spins are energetically favourable
+close. This is the origin of the **Hund"s first rule**: parallel spins are energetically favourable
 for atoms because the exchange interaction lowers the Coulomb repulsion.
 
 ### 9.3 The Helium Atom

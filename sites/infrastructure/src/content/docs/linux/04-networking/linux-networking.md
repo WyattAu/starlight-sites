@@ -1,6 +1,6 @@
 ---
 title: Linux Networking
-description: 'The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,...'
+description: "The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,...''
 
 ---
 
@@ -644,7 +644,7 @@ tcpdump -i eth0 port 80
 tcpdump -i eth0 host 192.168.1.10
 
 # Capture with BPF filter (complex)
-tcpdump -i eth0 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)&lt;&lt;2)) - ((tcp[12]&0xf0)&gt;&gt;2)) != 0)'
+tcpdump -i eth0 "tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)&lt;&lt;2)) - ((tcp[12]&0xf0)&gt;&gt;2)) != 0)'
 
 # Save capture to file
 tcpdump -i eth0 -w /tmp/capture.pcap

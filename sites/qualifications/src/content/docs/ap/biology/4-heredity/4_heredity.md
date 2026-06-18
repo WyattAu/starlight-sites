@@ -1,6 +1,6 @@
 ---
 title: Heredity
-description: 'Qualifications Biology Heredity notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+description: "Qualifications Biology Heredity notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.''
 date: 2026-04-14
 tags:
   - ap
@@ -20,7 +20,7 @@ categories:
   at the same loci.
 - **Sister chromatids:** Two identical copies of a chromosome joined at the centromere (produced by
   DNA replication).
-- **Karyotype:** Organized display of an individual's chromosomes.
+- **Karyotype:** Organized display of an individual"s chromosomes.
 
 ### Meiosis Overview
 

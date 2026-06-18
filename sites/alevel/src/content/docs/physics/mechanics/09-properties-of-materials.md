@@ -1,6 +1,6 @@
 ---
 title: Properties of Materials
-description: 'The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the...'
+description: "The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Physics
@@ -17,7 +17,7 @@ The mechanical properties of materials — how they deform, stretch, compress, a
 To engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
 Level board.
 
-## 1. Hooke's Law
+## 1. Hooke"s Law
 
 When an elastic object such as a spring or wire is stretched, the extension is (up to a limit)
 Proportional to the applied force.

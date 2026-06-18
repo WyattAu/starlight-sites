@@ -1,6 +1,6 @@
 ---
-title: 'Chemical Bonding -- Diagnostic Tests'
-description: 'Chemical Bonding -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Chemical Bonding -- Diagnostic Tests''
+description: "Chemical Bonding -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -119,7 +119,7 @@ because the charge on the metal ion increases from $+1$ (Na) to $+2$ (Mg) to $+3
 ionic radius decreases (greater nuclear charge pulling electrons in more tightly). The electrostatic
 attraction between the cations and delocalised electrons therefore increases, requiring more energy
 to break the metallic bonds. Sodium melts at $98\,^\circ\text{C}$, magnesium at
-$650\,^\circ\text{C}$, and aluminium at $660\,^\circ\text{C}$ (though magnesium's structure gives a
+$650\,^\circ\text{C}$, and aluminium at $660\,^\circ\text{C}$ (though magnesium"s structure gives a
 particularly large jump due to changes in crystal packing as well as charge).
 
 ---

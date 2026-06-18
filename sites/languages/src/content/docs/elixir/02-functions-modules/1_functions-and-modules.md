@@ -1,6 +1,6 @@
 ---
 title: Functions and Modules
-description: 'Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for ).'
+description: "Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for ).''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir
@@ -237,7 +237,7 @@ defmodule Counter do
   end
 end
 
-# Note: the above doesn't work as expected because Elixir is immutable.
+# Note: the above doesn"t work as expected because Elixir is immutable.
 # Each call creates a new binding. For stateful closures, use processes:
 defmodule StatefulCounter do
   def start(initial) do

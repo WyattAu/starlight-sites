@@ -3,7 +3,7 @@ title: Classical Field Theory
 tags:
   - Physics
   - University
-description: 'For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems.'
+description: "For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 12.1 Lagrangian Field Theory
@@ -27,7 +27,7 @@ $\Box^2 = \partial_\mu\partial^\mu = \nabla^2 - \partial^2/\partial t^2$.
 Plane wave solutions: $\phi \propto e^{i(\mathbf{k}\cdot\mathbf{r} - \omega t)}$ with
 $\omega^2 = k^2 + m^2$ (dispersion relation).
 
-### 12.3 Noether's Theorem for Fields
+### 12.3 Noether"s Theorem for Fields
 
 Every continuous symmetry of the action yields a conserved current:
 

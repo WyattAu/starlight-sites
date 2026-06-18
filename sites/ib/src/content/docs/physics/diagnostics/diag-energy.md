@@ -1,6 +1,6 @@
 ---
-title: 'Energy and Conservation -- Diagnostic Tests'
-description: 'IB Physics Energy and Conservation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Energy and Conservation -- Diagnostic Tests''
+description: "IB Physics Energy and Conservation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -106,7 +106,7 @@ As $m_2 \to \infty$:
 
 $$v_1 \to \frac{-m_2}{m_2} u_1 = -u_1$$
 
-So $m_1$ rebounds with speed $u_1$ in the opposite direction, confirming the student's claim.
+So $m_1$ rebounds with speed $u_1$ in the opposite direction, confirming the student"s claim.
 
 ---
 

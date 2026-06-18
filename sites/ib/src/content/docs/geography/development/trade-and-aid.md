@@ -1,6 +1,6 @@
 ---
 title: Trade and Aid
-description: 'Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is Characterised by several patterns:'
+description: "Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is Characterised by several patterns: "''
 
 ---
 
@@ -19,7 +19,7 @@ Manufactured goods and services in return. This pattern reflects colonial tradin
 Comparative advantage based on natural resource endowments.
 
 **South-South trade.** Trade between developing countries has grown rapidly, now accounting for
-Approximately 25% of global trade. China's economic rise has been a major driver: China is the
+Approximately 25% of global trade. China"s economic rise has been a major driver: China is the
 Largest trading partner for over 120 countries, including many in Africa, Latin America, and
 Southeast Asia.
 
@@ -46,7 +46,7 @@ Themselves. Trading blocs vary in the degree of integration:
 | **Economic and monetary union** | Common market plus a common currency and coordinated monetary policy                          | Eurozone (20 EU member states using the euro)            |
 
 **The European Union.** The EU (27 member states, population approximately 450 million) is the
-World's most advanced trading bloc, with a single market ensuring the free movement of goods,
+World"s most advanced trading bloc, with a single market ensuring the free movement of goods,
 Services, capital, and labour. The EU accounts for approximately 15% of global trade in goods. The
 EU's Common Agricultural Policy (CAP) has been criticised for subsidising European farmers,
 Depressing global agricultural prices, and undermining producers in developing countries.

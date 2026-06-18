@@ -1,6 +1,6 @@
 ---
 title: Inheritance, Variation, and Evolution
-description: 'DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called .'
+description: "DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called .''
 date: 2026-04-14
 tags:
   - gcse
@@ -39,7 +39,7 @@ With its complementary partner, ensuring that the genetic information is copied 
 **Nucleotide structure in detail.** Each nucleotide consists of three parts:
 
 1. A pentose sugar (deoxyribose) -- a 5-carbon sugar.
-2. A phosphate group -- attached to the 5' carbon of the sugar.
+2. A phosphate group -- attached to the 5" carbon of the sugar.
 3. A nitrogenous base -- attached to the 1' carbon of the sugar.
 
 Nucleotides are joined together by phosphodiester bonds between the phosphate group of one

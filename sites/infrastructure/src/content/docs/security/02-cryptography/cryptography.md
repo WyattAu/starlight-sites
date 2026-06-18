@@ -1,6 +1,6 @@
 ---
 title: Cryptography
-description: 'Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly...'
+description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly...''
 
 ---
 
@@ -22,7 +22,7 @@ Confidentiality, integrity, authentication, and non-repudiation.
 | Key exchange             | Secure shared secret establishment | Diffie-Hellman, ECDH   |
 | Random number generation | Key material, nonces, salts        | `/dev/urandom`CSPRNG   |
 
-### Kerckhoffs's Principle
+### Kerckhoffs"s Principle
 
 A cryptosystem should be secure even if everything about the system, except the key, is public
 Knowledge. This means:

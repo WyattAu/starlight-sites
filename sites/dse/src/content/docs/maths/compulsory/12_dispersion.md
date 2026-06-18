@@ -1,6 +1,6 @@
 ---
 title: Dispersion
-description: 'Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,...'
+description: "Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,...''
 date: 2025-06-03T16:18:22.480Z
 tags:
   - Maths
@@ -152,7 +152,7 @@ $$
 \end{aligned}
 $$
 
-**Why $n$ vs $n-1$?** Dividing by $n-1$ (Bessel's correction) provides an _unbiased_ estimator of
+**Why $n$ vs $n-1$?** Dividing by $n-1$ (Bessel"s correction) provides an _unbiased_ estimator of
 The population variance when working with a sample. Using only $n$ data points, the sample mean
 $\bar{x}$ is closer to the data points than the true population mean $\mu$So the squared Deviations
 tend to underestimate the true spread. Dividing by $n-1$ compensates for this. In the DSE Syllabus,

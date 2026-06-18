@@ -3,7 +3,7 @@ title: Advanced Topics
 tags:
   - Computing
   - University
-description: 'The class of decision problems solvable in polynomial time by a deterministic Tu Comprehensive educational content coverage with definitions and practice proble'
+description: "The class of decision problems solvable in polynomial time by a deterministic Tu Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 6.1 NP-Completeness
@@ -353,7 +353,7 @@ $\mathrm{size}(x)$ is the number of nodes in the subtree rooted at $x$ (includin
 **rank** $r(x) = \log \mathrm{size}(x)$.
 
 The amortised cost of a splay step at node $x$ with parent $p$ and grandparent $g$ is
-$\hat{c} = 1 + r'(x) - r(x)$Where primes denote ranks after the step.
+$\hat{c} = 1 + r"(x) - r(x)$Where primes denote ranks after the step.
 
 - **Zig:** $\hat{c} = 1 + r'(x) - r(x) \leq 1 + 3(r'(x) - r(x))$.
 - **Zig-zig:** $\hat{c} = 2 + r'(x) - r(x) \leq 3(r'(x) - r(x))$.

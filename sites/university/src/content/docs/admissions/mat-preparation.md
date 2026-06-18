@@ -1,6 +1,6 @@
 ---
 title: MAT Preparation
-description: 'University Admissions MAT Preparation notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+description: "University Admissions MAT Preparation notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.''
 date: 2026-05-05T00:00:00.000Z
 tags:
   - Mathematics
@@ -147,7 +147,7 @@ Powerful tools that frequently appear on MAT.
 
 **Standard derivatives.**
 
-| $f(x)$      | $f'(x)$            |
+| $f(x)$      | $f"(x)$            |
 | ----------- | ------------------ |
 | $x^n$       | $nx^{n-1}$         |
 | $e^x$       | $e^x$              |

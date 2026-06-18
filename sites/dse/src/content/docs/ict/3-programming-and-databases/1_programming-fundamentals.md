@@ -1,6 +1,6 @@
 ---
 title: Programming Fundamentals
-description: 'This document provides comprehensive coverage of programming fundamentals for the DSE ICT examination. Basic programming concepts and SQL are covered in ....'
+description: "This document provides comprehensive coverage of programming fundamentals for the DSE ICT examination. Basic programming concepts and SQL are covered in ....''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -599,7 +599,7 @@ until the Solutions are simple enough to implement directly.
 <details>
 <summary>Worked Example: Top-Down Design for a Student Report Generator</summary>
 
-**Main task:** Generate a student report showing each student's scores, average, and grade.
+**Main task:** Generate a student report showing each student"s scores, average, and grade.
 
 **Level 1 decomposition:**
 

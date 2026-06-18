@@ -1,6 +1,6 @@
 ---
 title: Concurrency Deep Dive
-description: 'provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition...'
+description: "provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition...''
 
 ---
 
@@ -255,7 +255,7 @@ Wake without a `signal`. The loop re-checks the condition. This is mandated by t
 
 ### Fair vs Non-fair Conditions
 
-The fairness of `Condition` follows the fairness of its associated `ReentrantLock`. A fair lock's
+The fairness of `Condition` follows the fairness of its associated `ReentrantLock`. A fair lock"s
 Condition queues are FIFO; a non-fair lock's condition queues may allow barging.
 
 ## Atomic Operations

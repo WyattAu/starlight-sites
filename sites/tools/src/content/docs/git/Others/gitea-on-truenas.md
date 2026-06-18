@@ -1,6 +1,6 @@
 ---
 title: Hosting With Gitea On TrueNAS
-description: '1. Since there is built in support for Gitea with TrueCharts, install Gitea using . Assign a dedicated dataset (eg, ) for persistent storage. 2. Set the...'
+description: "1. Since there is built in support for Gitea with TrueCharts, install Gitea using . Assign a dedicated dataset (eg, ) for persistent storage. 2. Set the...''
 date: 2025-06-13T18:10:33.853Z
 tags:
   - git
@@ -49,7 +49,7 @@ WireGuard is recommended.
 ### Ingress and HTTPS Setup
 
 1. In the Gitea app configuration, enable Ingress and set the host name (e.g., `git.example.com`).
-2. Use TrueNAS built-in Certificates or Traefik with Let's Encrypt for automatic TLS certificate
+2. Use TrueNAS built-in Certificates or Traefik with Let"s Encrypt for automatic TLS certificate
    provisioning.
 3. Configure DNS to point the domain to the TrueNAS host IP.
 4. Verify HTTPS by navigating to `https://git.example.com` in a browser.

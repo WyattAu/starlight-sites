@@ -1,6 +1,6 @@
 ---
 title: Spectroscopy
-description: 'University Chemistry Spectroscopy notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+description: "University Chemistry Spectroscopy notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -149,7 +149,7 @@ $$\delta = \frac{\nu_{\text{sample}} - \nu_{\text{ref}}}{\nu_{\text{ref}}} \time
 
 **Theorem 3 (n+1 Rule):** A signal is split into $n + 1$ peaks by $n$ equivalent neighboring protons.
 
-The splitting pattern follows Pascal's triangle:
+The splitting pattern follows Pascal"s triangle:
 
 | $n$ (neighbors) | Splitting | Peak Ratio |
 | --------------- | --------- | ---------- |

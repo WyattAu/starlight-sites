@@ -1,6 +1,6 @@
 ---
 title: Balance of Payments
-description: 'IB Economics Balance of Payments notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+description: "IB Economics Balance of Payments notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -41,7 +41,7 @@ Records transactions in financial assets and liabilities:
   (establishing new facilities) and mergers and acquisitions
 - **Portfolio investment**: cross-border purchases of shares and bonds without acquiring control
 - **Other investment**: bank deposits, trade credits, loans
-- **Reserve assets**: changes in a country's official foreign exchange reserves held by the central
+- **Reserve assets**: changes in a country"s official foreign exchange reserves held by the central
   bank (gold, foreign currency, SDRs, IMF reserve position)
 
 ### The Balance of Payments Identity

@@ -1,6 +1,6 @@
 ---
-title: 'DSE Biology Diagnostic Tests -- Guide'
-description: 'These diagnostic tests target the questions within the HKDSE Biology specification. Each test is designed to expose deep misconceptions that separate...'
+title: "DSE Biology Diagnostic Tests -- Guide''
+description: "These diagnostic tests target the questions within the HKDSE Biology specification. Each test is designed to expose deep misconceptions that separate..."'
 tableOfContents: false
 ---
 
@@ -45,7 +45,7 @@ Every diagnostic file contains:
 | Human Reproduction and Homeostasis | Hormonal control of menstrual cycle; negative feedback; blood glucose regulation; primary vs secondary immune response        |
 | Genetics                           | Semi-conservative replication; transcription vs translation; codons/anticodons; sex linkage; genetic engineering steps        |
 | Evolution and Ecology              | Natural selection mechanism; speciation; ecological pyramids; carbon and nitrogen cycles; eutrophication                      |
-| Biodiversity and Conservation      | Species richness vs evenness; Simpson's diversity index; in situ vs ex situ conservation; edge effects                        |
+| Biodiversity and Conservation      | Species richness vs evenness; Simpson"s diversity index; in situ vs ex situ conservation; edge effects                        |
 | Microorganisms and Biotechnology   | Bacterial vs viral structure; aseptic technique; fermentation conditions; bioreactor design; genetic engineering applications |
 
 ## Scoring

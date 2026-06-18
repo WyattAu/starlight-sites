@@ -1,6 +1,6 @@
 ---
 title: Database Systems (Advanced)
-description: 'Beyond the basic operations (selection, projection, join, etc.), extended relati Comprehensive educational content coverage with definitions and practice proble'
+description: "Beyond the basic operations (selection, projection, join, etc.), extended relati Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing
@@ -58,7 +58,7 @@ $(t, s) \notin R$. This means for every $s \in S$, $(t, s) \in R$So $t \in R \di
 Find students who have taken **all** courses offered by the CS department.
 
 $R$ = (student, course) pairs from Enrolment. $S$ = courses offered by CS department:
-$\pi_{\text{course}(\sigma_{\text{dept}=\text{'CS'}(\text{Course}))}}$.
+$\pi_{\text{course}(\sigma_{\text{dept}=\text{"CS'}(\text{Course}))}}$.
 
 $R \div S$ gives the students enrolled in every CS course.
 

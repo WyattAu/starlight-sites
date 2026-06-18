@@ -1,6 +1,6 @@
 ---
 title: Machine Learning Fundamentals
-description: 'Given features , predict a continuous target : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Given features , predict a continuous target : Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -79,7 +79,7 @@ $$\hat{y} = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T
 
 **Sigmoid function $\sigma(z)$:** Maps any real number to $(0, 1)$.
 
-$$\sigma(z) = \frac{1}{1+e^{-z}}, \quad \sigma'(z) = \sigma(z)(1 - \sigma(z))$$
+$$\sigma(z) = \frac{1}{1+e^{-z}}, \quad \sigma"(z) = \sigma(z)(1 - \sigma(z))$$
 
 ### 2.2 Loss Function: Binary Cross-Entropy
 

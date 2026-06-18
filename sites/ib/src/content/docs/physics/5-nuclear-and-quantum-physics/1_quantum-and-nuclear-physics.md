@@ -1,6 +1,6 @@
 ---
-title: 'Quantum and Nuclear Physics'
-description: 'IB Physics — photoelectric effect, photon model, de Broglie wavelength, energy levels, spectra, radioactive decay, nuclear reactions, and binding energy.'
+title: "Quantum and Nuclear Physics''
+description: "IB Physics — photoelectric effect, photon model, de Broglie wavelength, energy levels, spectra, radioactive decay, nuclear reactions, and binding energy."'
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -20,7 +20,7 @@ Experimental observations:
 
 These observations cannot be explained by the classical wave model of light.
 
-### Einstein's Explanation (1905)
+### Einstein"s Explanation (1905)
 
 Light consists of discrete packets of energy called **photons**. Each photon has energy:
 

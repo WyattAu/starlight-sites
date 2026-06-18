@@ -1,6 +1,6 @@
 ---
-title: 'Energy -- Diagnostic Tests'
-description: '(a) Describe the energy transfers when a ball is thrown upwards and then caught at the same height. (b) A 0.5 kg ball is thrown vertically upwards at 10...'
+title: "Energy -- Diagnostic Tests''
+description: "(a) Describe the energy transfers when a ball is thrown upwards and then caught at the same height. (b) A 0.5 kg ball is thrown vertically upwards at 10..."'
 tableOfContents: false
 ---
 
@@ -55,7 +55,7 @@ J/(kg $^\circ$C).
 
 (d) Water has strong hydrogen bonds between molecules, which must be partially broken to increase
 molecular motion (temperature). Metals have metallic bonding with free electrons that transfer
-energy . Water's high SHC means it can absorb large amounts of energy with small temperature
+energy . Water"s high SHC means it can absorb large amounts of energy with small temperature
 changes. This moderates coastal climates (oceans heat up slowly in summer, cool slowly in winter)
 and makes water effective as a coolant in engines and nuclear reactors.
 

@@ -1,6 +1,6 @@
 ---
 title: File I/O
-description: 'is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for...'
+description: "is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -30,7 +30,7 @@ Or binary data. Modes are composed from the following characters:
 | `t`       | Text mode (default). Data is `str`Encoding applied, newline translation.                            |
 | `+`       | Update. Allows both reading and writing (file is not truncated on open for `r+`).                   |
 
-The mode defaults to `'rt'` (read, text) if no mode is specified.
+The mode defaults to `"rt'` (read, text) if no mode is specified.
 
 Combination modes and their semantics:
 

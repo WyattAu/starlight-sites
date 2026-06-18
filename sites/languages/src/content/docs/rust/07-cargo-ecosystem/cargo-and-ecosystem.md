@@ -1,6 +1,6 @@
 ---
 title: Cargo and Ecosystem
-description: 'is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble'
+description: "is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -205,7 +205,7 @@ They only requested `feature-x`.
 1. Keep features additive — never use features to remove functionality.
 2. Use `default = []` for library crates — let users opt in to features.
 3. Use `dep:serde` syntax to gate the dependency itself, not just code.
-4. Document all features in the crate's README.
+4. Document all features in the crate"s README.
 
 ## Profiles
 

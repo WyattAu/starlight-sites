@@ -1,6 +1,6 @@
 ---
 title: Web Security
-description: 'The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and...'
+description: "The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and...''
 
 ---
 
@@ -25,7 +25,7 @@ Reflects the shift toward cloud-native architectures and API-driven applications
 ## Cross-Site Scripting (XSS)
 
 XSS occurs when an application includes untrusted data in a web page without proper validation or
-Escaping, allowing an attacker to execute scripts in the victim's browser.
+Escaping, allowing an attacker to execute scripts in the victim"s browser.
 
 ### Types of XSS
 
@@ -157,12 +157,12 @@ Forms, and validates it on submission. The token must be tied to the user's sess
 ```javascript
 // Fetch API includes custom headers — cross-origin requests require CORS preflight
 fetch('https://api.example.com/transfer', {
-  method: 'POST',
+  method: "POST'',
   headers: {
-    'Content-Type': 'application/json',
-    'X-CSRF-Token': 'a1b2c3d4e5f6',
+    "Content-Type': "application/json'',
+    "X-CSRF-Token': "a1b2c3d4e5f6'',
   },
-  credentials: 'include',
+  credentials: "include',
 });
 ```
 
@@ -182,7 +182,7 @@ Allowing an attacker to manipulate the query's logic.
 **Classic (in-band)**:
 
 ```sql
--- Input: ' OR '1'='1' --
+-- Input: " OR ''1"='1' --
 SELECT * FROM users WHERE username = '' OR '1'='1' --' AND password = '...'
 -- Returns all users, bypasses authentication
 ```
@@ -190,22 +190,22 @@ SELECT * FROM users WHERE username = '' OR '1'='1' --' AND password = '...'
 **Union-based**:
 
 ```sql
--- Input: ' UNION SELECT username, password FROM users --
-SELECT name, description FROM products WHERE id = '' UNION SELECT username, password FROM users --'
+-- Input: " UNION SELECT username, password FROM users --
+SELECT name, description FROM products WHERE id = ''" UNION SELECT username, password FROM users --'
 -- Exposes usernames and passwords from users table
 ```
 
 **Blind (boolean-based)**:
 
 ```sql
--- Input: ' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='admin')='a' --
+-- Input: " AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username=''admin")='a' --
 -- Attacker extracts password one character at a time based on response differences
 ```
 
 **Blind (time-based)**:
 
 ```sql
--- Input: '; IF (SELECT SUBSTRING(password,1,1) FROM users WHERE username='admin')='a' WAITFOR DELAY '0:0:5' --
+-- Input: "; IF (SELECT SUBSTRING(password,1,1) FROM users WHERE username=''admin")='a' WAITFOR DELAY '0:0:5' --
 -- Attacker extracts password based on response timing
 ```
 

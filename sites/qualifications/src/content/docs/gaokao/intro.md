@@ -1,7 +1,7 @@
 ---
 title: Introduction to Gaokao Notes
 date: 2026-05-30
-description: 'The (高考, formally the National College Entrance Examination) is the standardised examination used for university admission in China. It is widely regarded...'
+description: "The (高考, formally the National College Entrance Examination) is the standardised examination used for university admission in China. It is widely regarded...''
 tags:
   - gaokao
 categories:
@@ -90,7 +90,7 @@ This offers up to **35 subject combinations**. Each elective is scaled similarly
 
 ### Maximum Score: 750 Points
 
-The Gaokao's total score of 750 points is distributed across the mandatory subjects and electives as
+The Gaokao"s total score of 750 points is distributed across the mandatory subjects and electives as
 described above. Understanding how scores are reported and used is critical:
 
 - **Original score (卷面分):** The raw mark a student receives on the exam paper. Used directly for

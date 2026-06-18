@@ -1,6 +1,6 @@
 ---
-title: 'Atomic Structure -- Diagnostic Tests'
-description: 'Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Atomic Structure -- Diagnostic Tests''
+description: "Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -202,7 +202,7 @@ an ion.
 (b) The relative atomic mass of boron is 10.8. Boron has two isotopes: boron-10 and boron-11.
 Calculate the percentage abundance of each isotope. Show your working.
 
-(c) Explain how the discovery of isotopes modified Dalton's atomic theory. State which of Dalton's
+(c) Explain how the discovery of isotopes modified Dalton"s atomic theory. State which of Dalton's
 original postulates needed to be changed.
 
 (d) A scientist determines that an element has an $A_r$ of 28.1. Which element is this likely to be?

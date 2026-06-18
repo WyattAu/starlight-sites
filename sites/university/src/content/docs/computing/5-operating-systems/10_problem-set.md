@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: 'List all possible state transitions for a process and identify which transition requires the Scheduler, which requires an I/O event, and which is initiated...'
+description: "List all possible state transitions for a process and identify which transition requires the Scheduler, which requires an I/O event, and which is initiated...''
 ---
 
 <details>
@@ -140,7 +140,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 <details>
 <summary>Problem 7 — Critical Section</summary>
 
-Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
+Show that the following solution to the critical section problem is incorrect (Peterson"s algorithm
 With the order of `flag[i] = true` and `turn = j` swapped):
 
 ```c

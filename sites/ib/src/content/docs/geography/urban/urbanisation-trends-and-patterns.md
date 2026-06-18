@@ -1,6 +1,6 @@
 ---
 title: Urbanisation Trends and Patterns
-description: 'Urbanisation is the increasing proportion of a national population living in urban areas. The global Urban population exceeded the rural population for the...'
+description: "Urbanisation is the increasing proportion of a national population living in urban areas. The global Urban population exceeded the rural population for the...''
 
 ---
 
@@ -12,7 +12,7 @@ description: 'Urbanisation is the increasing proportion of a national population
 
 Urbanisation is the increasing proportion of a national population living in urban areas. The global
 Urban population exceeded the rural population for the first time in 2007. As of 2023, approximately
-57% of the world's population (4.4 billion people) lives in urban areas, and the UN projects this
+57% of the world"s population (4.4 billion people) lives in urban areas, and the UN projects this
 Will reach 68% by 2050.
 
 The rate of urbanisation varies dramatically by region:

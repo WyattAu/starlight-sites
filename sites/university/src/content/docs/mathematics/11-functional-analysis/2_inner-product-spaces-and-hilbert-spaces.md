@@ -3,7 +3,7 @@ title: Inner Product Spaces and Hilbert Spaces
 tags:
   - Mathematics
   - University
-description: 'An is a vector space with an inner product Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "An is a vector space with an inner product Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 2.1 Inner Product Spaces
@@ -54,7 +54,7 @@ $H = M \oplus M^\perp$, where $M^\perp = \{x \in H : x \perp M\}$.
 A set $\{e_i\}_{i \in I} \subseteq H$ is an **orthonormal system** if
 $\langle e_i, e_j\rangle = \delta_{ij}$.
 
-**Theorem 2.7 (Bessel's Inequality).** If $\{e_i\}_{i=1}^n$ is an orthonormal set, then
+**Theorem 2.7 (Bessel"s Inequality).** If $\{e_i\}_{i=1}^n$ is an orthonormal set, then
 $\sum_{i=1}^n |\langle x, e_i\rangle|^2 \leq \|x\|^2$.
 
 **Theorem 2.8.** A Hilbert space is separable if and only if it admits a countable orthonormal

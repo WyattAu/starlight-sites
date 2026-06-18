@@ -1,6 +1,6 @@
 ---
 title: Number Systems
-description: 'A represents a number as a sequence of digits Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A represents a number as a sequence of digits Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -68,7 +68,7 @@ $$1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419_{10}$$
 **Correctness proof.** We prove by induction on the number of division steps that the algorithm
 Produces the correct base-$b$ representation.
 
-_Base case._ After the first step, $d_0 = N \bmod b$ and $N' = \lfloor N / b \rfloor$. We have
+_Base case._ After the first step, $d_0 = N \bmod b$ and $N" = \lfloor N / b \rfloor$. We have
 $N = d_0 + b \cdot N'$So $d_0$ is indeed the coefficient of $b^0$.
 
 _Inductive step._ Assume after $k$ steps we have

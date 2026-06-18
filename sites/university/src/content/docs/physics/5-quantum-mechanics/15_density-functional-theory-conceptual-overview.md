@@ -1,9 +1,9 @@
 ---
-title: 'Density Functional Theory: Conceptual Overview'
+title: "Density Functional Theory: Conceptual Overview''
 tags:
   - Physics
   - University
-description: 'The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all...'
+description: "The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all..."'
 ---
 
 ### 14.1 The Hohenberg--Kohn Theorems
@@ -27,7 +27,7 @@ $$n(\mathbf{r}) = \sum_{i=1}^{N}|\psi_i(\mathbf{r})|^2 \quad \text{(summing over
 
 $$V_{\text{eff} = V_{\text{ext} + V_H[n] + V_{\text{xc}[n]}}}$$
 
-$$V_H[n](\mathbf{r}) = e^2\int\frac{n(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
+$$V_H[n](\mathbf{r}) = e^2\int\frac{n(\mathbf{r}")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
 
 The exchange-correlation functional $V_{\text{xc}[n]}$ contains all many-body effects beyond the
 classical Hartree approximation.

@@ -1,6 +1,6 @@
 ---
 title: Photosynthesis (In Depth)
-description: 'Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for...'
+description: "Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for...''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -298,7 +298,7 @@ $\mathrm{NADH}$ -- a net loss of energy and fixed carbon.
 
 **Photorespiration** is favoured by:
 
-- High temperature (increases Rubisco's affinity for $\mathrm{O_2}$ over $\mathrm{CO_2}$).
+- High temperature (increases Rubisco"s affinity for $\mathrm{O_2}$ over $\mathrm{CO_2}$).
 - High $\mathrm{O_2}$ concentration.
 - Low $\mathrm{CO_2}$ concentration.
 

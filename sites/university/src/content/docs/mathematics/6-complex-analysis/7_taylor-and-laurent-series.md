@@ -3,7 +3,7 @@ title: Taylor and Laurent Series
 tags:
   - Mathematics
   - University
-description: 'Taylor and Laurent Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Taylor and Laurent Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 7.1 Taylor Series
@@ -14,7 +14,7 @@ $$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n$$
 
 And the series converges uniformly on compact subsets of $|z - z_0| \lt R$.
 
-_Proof._ For $|z - z_0| \lt r \lt R$Apply Cauchy's integral formula on $|\zeta - z_0| = r$:
+_Proof._ For $|z - z_0| \lt r \lt R$Apply Cauchy"s integral formula on $|\zeta - z_0| = r$:
 
 $f(z) = \frac{1}{2\pi i}\int_{|\zeta - z_0| = r} \frac{f(\zeta)}{\zeta - z}\, d\zeta$
 

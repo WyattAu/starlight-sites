@@ -1,6 +1,6 @@
 ---
 title: Operating Systems
-description: 'A is an instance of a program in execution. Each process has its own: Comprehensive educational content coverage with definitions and practice problems.'
+description: "A is an instance of a program in execution. Each process has its own: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -59,7 +59,7 @@ CONTEXT_SWITCH(old_process, new_process):
 
 ### 1.4 Threads
 
-A **thread** is a lightweight unit of execution within a process. Threads share the process's
+A **thread** is a lightweight unit of execution within a process. Threads share the process"s
 address space but have their own:
 
 - Stack

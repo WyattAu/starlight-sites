@@ -1,6 +1,6 @@
 ---
-title: 'Computer Systems -- Diagnostic Tests'
-description: 'DSE Ict Computer Systems -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
+title: "Computer Systems -- Diagnostic Tests''
+description: "DSE Ict Computer Systems -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."'
 tableOfContents: false
 ---
 
@@ -120,7 +120,7 @@ functionality enables intuitive user interfaces on smartphones and tablets.
 **Question:** A 32-bit computer uses IEEE 754 single-precision floating-point format. (a) Explain
 how the number $-6.625$ is stored in binary floating-point format (sign, exponent, mantissa). (b) If
 the CPU needs to add $-6.625$ and $3.5$Describe the steps the ALU performs. (c) Why does
-floating-point arithmetic sometimes produce rounding errors, and how does this relate to the CPU's
+floating-point arithmetic sometimes produce rounding errors, and how does this relate to the CPU"s
 hardware design?
 
 **Solution:**

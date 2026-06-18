@@ -1,6 +1,6 @@
 ---
 title: Testing in Java
-description: 'JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble'
+description: "JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -751,7 +751,7 @@ void shouldProcessMessageAsync() {
         .until(() -&gt; processor.getProcessedCount() == 1);
 }
 
-// 4. Isolate tests — don't share mutable state
+// 4. Isolate tests — don"t share mutable state
 class IsolatedTest {
     @BeforeEach
     void freshState() {

@@ -1,6 +1,6 @@
 ---
 title: Chrono Library
-description: '(C++11) provides types and functions for representing and manipulating time values. The library uses the type system to prevent accidental mixing of time...'
+description: "(C++11) provides types and functions for representing and manipulating time values. The library uses the type system to prevent accidental mixing of time...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -23,7 +23,7 @@ Formatting.
 [N4950 §29.5]. The library is organized around three core abstractions:
 
 1. **Clocks:** Sources of time (e.g., wall clock, monotonic clock).
-2. **Time points:** A specific moment in time relative to a clock's epoch.
+2. **Time points:** A specific moment in time relative to a clock"s epoch.
 3. **Durations:** A span of time (e.g., 500 milliseconds).
 
 The library uses the type system to prevent accidental mixing of units. `std::chrono::milliseconds`

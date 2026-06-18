@@ -3,7 +3,7 @@ title: Many-Body Physics in Solids
 tags:
   - Physics
   - University
-description: 'In a metal, the Coulomb interaction between electrons is screened by the other e Comprehensive educational content coverage with definitions and practice proble'
+description: "In a metal, the Coulomb interaction between electrons is screened by the other e Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 14.1 Electron--Electron Interactions: Screening
@@ -42,7 +42,7 @@ predicts a metal.
 
 ### 14.3 Quasiparticles and Fermi Liquid Theory
 
-Landau's **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
+Landau"s **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
 Fermi system can be described as **quasiparticles** --- weakly interacting fermions with
 renormalised parameters:
 

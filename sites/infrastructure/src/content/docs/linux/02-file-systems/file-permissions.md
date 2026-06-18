@@ -1,6 +1,6 @@
 ---
 title: File Permissions and ACLs
-description: 'Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces...'
+description: "Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces...''
 
 ---
 
@@ -52,7 +52,7 @@ ls -la /etc/passwd
 # -rw-r--r-- 1 root root 2847 Jan 15 10:30 /etc/passwd
 
 # Numeric view
-stat -c '%a %n' /etc/passwd
+stat -c "%a %n' /etc/passwd
 # 644 /etc/passwd
 
 stat -c '%A %U:%G %n' /etc/passwd

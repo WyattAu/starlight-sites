@@ -1,6 +1,6 @@
 ---
 title: Abnormal Psychology
-description: 'This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from...'
+description: "This section covers the HL extension unit on abnormal psychology, examining how psychological disorders are defined, classified, and explained from...''
 
 ---
 
@@ -36,7 +36,7 @@ monoamine hypothesis (serotonin and norepinephrine deficiency) and HPA axis dysr
 biological and sociocultural levels by demonstrating that the 5-HTTLPR short allele moderates the
 effect of stressful life events on depression, illustrating gene-environment interaction.
 
-The cognitive approach locates the cause of disorders in maladaptive thought patterns. Beck's (1967)
+The cognitive approach locates the cause of disorders in maladaptive thought patterns. Beck"s (1967)
 cognitive triad (negative views of self, world, future) and cognitive distortions
 (overgeneralisation, dichotomous thinking, selective abstraction) explain the maintenance of
 depression. Salkovskis (1985) applies similar principles to OCD: intrusive thoughts are interpreted

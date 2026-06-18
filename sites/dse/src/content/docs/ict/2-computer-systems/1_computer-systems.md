@@ -1,6 +1,6 @@
 ---
 title: Fundamentals of Computer Systems
-description: 'The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble'
+description: "The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]
@@ -261,7 +261,7 @@ Software designed for end-users to perform specific tasks.
 | ------------------- | ----------------------------------- | ------------------------------------------- |
 | **General-purpose** | Widely used across many domains     | Word processors, spreadsheets, web browsers |
 | **Special-purpose** | Designed for a specific field       | Accounting software, CAD, medical imaging   |
-| **Custom/bespoke**  | Written for a specific organisation | A company's payroll system                  |
+| **Custom/bespoke**  | Written for a specific organisation | A company"s payroll system                  |
 
 ### Operating System Functions
 

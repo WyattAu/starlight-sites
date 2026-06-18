@@ -1,6 +1,6 @@
 ---
 title: Mutexes, Shared Locks, and Deadlock Prevention
-description: 'This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies.'
+description: "This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies.''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -33,7 +33,7 @@ Calling `lock()` on a mutex already held by the current thread results in **unde
 
 On Linux, `std::mutex` is implemented as a thin wrapper around `pthread_mutex_t`. The Default
 `pthread_mutex_t` uses the **Normal** type (not recursive, not error-checking), which means
-Re-locking without unlocking is UB — exactly matching the C++ standard's requirement.
+Re-locking without unlocking is UB — exactly matching the C++ standard"s requirement.
 
 ```cpp
 #include <pthread.h>

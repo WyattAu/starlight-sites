@@ -1,6 +1,6 @@
 ---
 title: Data Structures
-description: 'An is a contiguous block of memory storing elements of the same type, accessed b Comprehensive educational content coverage with definitions and practice proble'
+description: "An is a contiguous block of memory storing elements of the same type, accessed b Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -167,7 +167,7 @@ All elements stored in the table itself. On collision, **probe** for the next em
 
 **Probing strategies:**
 
-- **Linear probing:** $h(k, i) = (h'(k) + i) \mod m$. Suffers from primary clustering.
+- **Linear probing:** $h(k, i) = (h"(k) + i) \mod m$. Suffers from primary clustering.
 - **Quadratic probing:** $h(k, i) = (h'(k) + c_1 i + c_2 i^2) \mod m$. Secondary clustering.
 - **Double hashing:** $h(k, i) = (h_1(k) + i \cdot h_2(k)) \mod m$. Best distribution.
 

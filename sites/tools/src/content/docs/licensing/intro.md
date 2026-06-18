@@ -1,6 +1,6 @@
 ---
 title: Introduction to Licensing
-description: 'Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the...'
+description: "Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the...''
 
 ---
 
@@ -72,7 +72,7 @@ About the purpose of software freedom:
 Treats software freedom as a practical benefit. The goal is maximal adoption and reuse. If a company
 Takes MIT-licensed code, modifies it, and ships it in a closed-source commercial product, that is
 Considered a success — the code is being used, the user community benefits from the original
-Release, and the author's goal of broad adoption is served.
+Release, and the author"s goal of broad adoption is served.
 
 **Copyleft licensing** (associated with the Free Software Foundation and the "free software"
 Movement) treats software freedom as a moral imperative. The goal is to ensure that software freedom

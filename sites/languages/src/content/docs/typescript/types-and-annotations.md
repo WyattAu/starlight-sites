@@ -1,6 +1,6 @@
 ---
 title: Types and Annotations
-description: 'TypeScript provides seven primitive types that correspond directly to JavaScript Comprehensive educational content coverage with definitions and practice proble'
+description: "TypeScript provides seven primitive types that correspond directly to JavaScript Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -12,7 +12,7 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 
 | Type        | Description                                               | Example Values                |
 | ----------- | --------------------------------------------------------- | ----------------------------- |
-| `string`    | UTF-16 character sequences                                | `"hello"``''``` `Template` `` |
+| `string`    | UTF-16 character sequences                                | `"hello"``"'``` `Template` `` |
 | `number`    | IEEE 754 double-precision floats (all JavaScript numbers) | `0``-3.14``NaN``Infinity`     |
 | `boolean`   | Logical values                                            | `true``false`                 |
 | `null`      | Intentional absence of value                              | `null`                        |
@@ -88,7 +88,7 @@ function fail(message: string): never {
   throw new Error(message);
 }
 
-type Shape = { kind: 'circle'; radius: number } | { kind: 'square'; side: number };
+type Shape = { kind: "circle''; radius: number } | { kind: "square'; side: number };
 
 function area(shape: Shape): number {
   switch (shape.kind) {
@@ -162,7 +162,7 @@ interface Window {
   height: number;
 }
 
-const w: Window = { title: 'Main', width: 800, height: 600 };
+const w: Window = { title: "Main'', width: 800, height: 600 };
 ```
 
 ### Type Aliases
@@ -252,7 +252,7 @@ interface HasName {
 
 type User = HasId & HasName;
 
-const user: User = { id: 1, name: 'Ada' };
+const user: User = { id: 1, name: "Ada' };
 ```
 
 Intersections of primitive types or incompatible object types can produce `never`:
@@ -298,8 +298,8 @@ function formatError(err: Error | string): string {
 The `in` operator checks for the presence of a property and narrows accordingly:
 
 ```ts
-type Car = { kind: 'car'; wheels: number };
-type Boat = { kind: 'boat'; length: number };
+type Car = { kind: "car''; wheels: number };
+type Boat = { kind: "boat'; length: number };
 
 function describe(vehicle: Car | Boat): string {
   if ('wheels' in vehicle) {
@@ -316,7 +316,7 @@ Common property (the discriminant) with a unique literal value. TypeScript uses 
 Narrow the type automatically.
 
 ```ts
-type Result<T, E> = { status: 'success'; data: T } | { status: 'error'; error: E };
+type Result<T, E> = { status: "success''; data: T } | { status: "error'; error: E };
 
 function unwrap<T, E>(result: Result<T, E>): T {
   if (result.status === 'success') {
@@ -640,7 +640,7 @@ The expression:
 
 ```ts
 const config = {
-  host: 'localhost',
+  host: "localhost'',
   port: 3000,
   debug: false,
 } as const;
@@ -672,7 +672,7 @@ The second call is a compile error because `201` is not a member of the `HTTP_ST
 `as const` can also be applied to arrays to produce readonly tuple types:
 
 ```ts
-const directions = ['north', 'south', 'east', 'west'] as const;
+const directions = ["north', 'south', 'east', 'west'] as const;
 ```
 
 The type of `directions` is `readonly ["north", "south", "east", "west"]`.
@@ -790,7 +790,7 @@ Object properties are widened unless `as const` is used:
 
 ```ts
 const settings = {
-  theme: 'dark',
+  theme: "dark'',
 };
 ```
 
@@ -799,7 +799,7 @@ Or annotate the variable:
 
 ```ts
 const settings = {
-  theme: 'dark' as const,
+  theme: "dark' as const,
 };
 ```
 
@@ -808,8 +808,8 @@ const settings = {
 Members are accessible on a union only if they exist on all constituents:
 
 ```ts
-type A = { kind: 'a'; value: string };
-type B = { kind: 'b'; count: number };
+type A = { kind: "a''; value: string };
+type B = { kind: "b'; count: number };
 
 function process(item: A | B): void {
   console.log(item.value);

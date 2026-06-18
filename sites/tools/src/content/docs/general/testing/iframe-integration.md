@@ -1,6 +1,6 @@
 ---
 title: Iframe Integration
-description: 'width="100%" height="800" src="https://godbolt.org/e#z:OYLghAFBqd5QCxAYwPYBMCmBRdBLAF1QCcAaPECAMzwBtMA7AQwFtMQByARg9KtQYEAysib0QXAEx8BBAKoBnTAAUAHpwAMvAFYhpt...'
+description: "width="100%" height="800" src="https://godbolt.org/e#z:OYLghAFBqd5QCxAYwPYBMCmBRdBLAF1QCcAaPECAMzwBtMA7AQwFtMQByARg9KtQYEAysib0QXAEx8BBAKoBnTAAUAHpwAMvAFYhpt...''
 date: 2025-07-11T23:22:50.056Z
 tags:
   - CS
@@ -72,7 +72,7 @@ If your site sets a CSP via HTTP headers or `<meta>` tags, iframes add complexit
 
 - `frame-src` (or the older `child-src`) controls which URLs can be embedded.
 - `frame-ancestors` on the **embedded** site controls who can embed it. Many services set
-  `frame-ancestors 'self'` to prevent embedding, which is why not every site works inside an iframe.
+  `frame-ancestors "self'` to prevent embedding, which is why not every site works inside an iframe.
 
 Example CSP header that allows Godbolt and Dartpad:
 
@@ -96,7 +96,7 @@ When the parent page and iframe are on different origins, direct DOM access is b
 const iframe = document.querySelector('iframe');
 const iframeWindow = iframe.contentWindow;
 
-iframeWindow.postMessage({ type: 'godbolt-set-language', language: 'c++' }, 'https://godbolt.org');
+iframeWindow.postMessage({ type: "godbolt-set-language'', language: "c++' }, 'https://godbolt.org');
 ```
 
 ### Iframe to parent
@@ -105,7 +105,7 @@ Inside the embedded page:
 
 ```js
 window.parent.postMessage(
-  { type: 'compilation-result', asm: '...' },
+  { type: "compilation-result'', asm: "...' },
   'https://your-docusaurus-site.com',
 );
 ```
@@ -116,7 +116,7 @@ window.parent.postMessage(
 window.addEventListener('message', (event) => {
   if (event.origin !== 'https://godbolt.org') return;
   if (event.data.type === 'compilation-result') {
-    console.log('Assembly output:', event.data.asm);
+    console.log('Assembly output: ", event.data.asm);
   }
 });
 ```
@@ -125,7 +125,7 @@ Key rules:
 
 - **Always check `event.origin`.** Never trust a message without verifying where it came from.
 - **Use a structured `data` object** with a `type` field so the listener can dispatch appropriately.
-- **Specify `targetOrigin` explicitly** in `postMessage` — never use `'*'` if you know the target.
+- **Specify `targetOrigin` explicitly** in `postMessage` — never use `''*"` if you know the target.
 
 ## Responsive Iframes
 
@@ -212,7 +212,7 @@ function LazyIframe({ src, title }) {
     return (
       <button
         onClick={() => setLoaded(true)}
-        style={{ padding: '2rem', width: '100%', cursor: 'pointer' }}
+        style={{ padding: "2rem'', width: "100%', cursor: "pointer'' }}
       >
         Click to load {title}
       </button>
@@ -291,7 +291,7 @@ For repeated embed patterns, create a React component in `src/components/`:
 
 ```jsx
 // src/components/CodeEmbed.jsx
-function CodeEmbed({ src, height = 500, title = 'Code embed' }) {
+function CodeEmbed({ src, height = 500, title = "Code embed' }) {
   return (
     <div className="godbolt-container">
       <iframe

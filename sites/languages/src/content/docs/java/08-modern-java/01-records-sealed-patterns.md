@@ -1,8 +1,8 @@
 ---
 title: Records, Sealed Classes, and Pattern Matching
-description: 'A record is a transparent carrier for immutable data. The compiler generates the constructor, field Accessors, And from a single declaration. This...'
+description: "A record is a transparent carrier for immutable data. The compiler generates the constructor, field Accessors, And from a single declaration. This...''
 date: 2026-04-03T00:00:00.000Z
-tags: ['java']
+tags: ["java']
 categories: ['java']
 
 ---

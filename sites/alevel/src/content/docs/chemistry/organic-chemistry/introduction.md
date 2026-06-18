@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry Introduction
-description: 'Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a...'
+description: "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -652,7 +652,7 @@ carboxylic acid or ester.
 **Step 4:** $^1\mathrm{H}$ NMR: 4 signals.
 
 - $\delta\, 7.5$ (t, 2H) and $\delta\, 7.9$ (d, 2H) = 4 aromatic protons = monosubstituted benzene
-  ring (but with 4 protons, it is para-disubstituted: two doublets would be expected for AA'BB'
+  ring (but with 4 protons, it is para-disubstituted: two doublets would be expected for AA"BB'
   pattern; the triplet and doublet suggest a different arrangement). Actually, a triplet and doublet
   for 2H each suggests a 1,4-disubstituted benzene (AA'BB' pattern can appear as approximate
   triplet/doublet at low resolution).

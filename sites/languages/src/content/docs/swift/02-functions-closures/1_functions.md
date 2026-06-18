@@ -1,6 +1,6 @@
 ---
 title: Functions
-description: 'Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,...'
+description: "Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift
@@ -44,7 +44,7 @@ func double(_ x: Int) -> Int { x * 2 }
 func greet(person name: String) -> String {
     return "Hello, \(name)!"
 }
-greet(person: "Alice")  // Argument label is 'person'
+greet(person: "Alice")  // Argument label is "person'
 
 // Omitting argument label with _
 func square(_ number: Int) -> Int {

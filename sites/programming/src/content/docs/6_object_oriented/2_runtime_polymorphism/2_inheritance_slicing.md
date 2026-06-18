@@ -1,6 +1,6 @@
 ---
 title: Inheritance, Object Slicing, and Virtual Destructors
-description: 'Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value Causes -- the derived portion is discarded. This section...'
+description: "Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value Causes -- the derived portion is discarded. This section...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -81,7 +81,7 @@ Base-class subobject is copied; the derived portion is discarded [N4950 S11.4.5.
 When an object of class type is copied, the copy operation is defined by the copy constructor or
 Copy assignment operator of the **static type** of the destination. If the static type is a base
 Class and the source object is of a derived type, only the base class subobject is copied. The
-Derived-class members are not copied, and the vptr is set to the base class's vtable.
+Derived-class members are not copied, and the vptr is set to the base class"s vtable.
 
 ### Proof That Slicing Loses the Dynamic Type
 
@@ -552,7 +552,7 @@ int main() {
 
     Derived_Right dr;
     dr.process(1);      // Calls Derived_Right::process(int)
-    dr.process(1.5);    // OK: 'using Base::process' makes it visible
+    dr.process(1.5);    // OK: "using Base::process'' makes it visible
 }
 ```
 
@@ -722,7 +722,7 @@ Semantics and polymorphic use through pointers and references.
 Clang-Tidy provides the `cppcoreguidelines-slicing` check that detects object slicing:
 
 ```bash
-clang-tidy --checks='cppcoreguidelines-slicing' file.cpp
+clang-tidy --checks="cppcoreguidelines-slicing' file.cpp
 ```
 
 This is a static analysis tool and does not add runtime overhead.

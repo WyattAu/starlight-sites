@@ -1,6 +1,6 @@
 ---
 title: Genetics and Behaviour
-description: 'The question of how much behaviour is determined by genes versus environment is one of the oldest And most contentious in psychology. Behaviour genetics is...'
+description: "The question of how much behaviour is determined by genes versus environment is one of the oldest And most contentious in psychology. Behaviour genetics is...''
 
 ---
 
@@ -84,7 +84,7 @@ Genetic contribution and 1 indicates that all variance is genetic.
 **Critical points about heritability that are frequently misunderstood:**
 
 1. **Heritability is a population statistic, not an individual one.** It tells us nothing about the
-   genetic contribution to any particular individual's behaviour. Saying that intelligence is 50%
+   genetic contribution to any particular individual"s behaviour. Saying that intelligence is 50%
    heritable does not mean that 50% of any individual's intelligence is due to genes.
 2. **Heritability can vary across populations and environments.** The same trait can have different
    heritability estimates in different populations or at different times. For example, in a

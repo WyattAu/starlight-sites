@@ -1,6 +1,6 @@
 ---
 title: Regression
-description: 'A scatterplot displays the relationship between two measured on the same individuals. The explanatory variable () is plotted on the horizontal axis and the...'
+description: "A scatterplot displays the relationship between two measured on the same individuals. The explanatory variable () is plotted on the horizontal axis and the...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -148,7 +148,7 @@ may produce a linear relationship.
 
 ### Common Transformations
 
-- **Logarithmic**: $y' = \ln(y)$ or $x' = \ln(x)$ -- useful for exponential growth/decay
+- **Logarithmic**: $y" = \ln(y)$ or $x' = \ln(x)$ -- useful for exponential growth/decay
 - **Square root**: $y' = \sqrt{y}$ -- useful for count data with increasing variance
 - **Reciprocal**: $y' = 1/y$ -- useful for hyperbolic relationships
 - **Power**: $y' = y^p$ for some power $p$

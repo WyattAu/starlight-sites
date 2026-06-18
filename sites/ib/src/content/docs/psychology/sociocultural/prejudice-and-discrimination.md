@@ -1,6 +1,6 @@
 ---
 title: Prejudice and Discrimination
-description: 'Prejudice and discrimination are among the most consequential social phenomena studied by Psychologists. Prejudice refers to a negative attitude toward a...'
+description: "Prejudice and discrimination are among the most consequential social phenomena studied by Psychologists. Prejudice refers to a negative attitude toward a...''
 
 ---
 
@@ -32,7 +32,7 @@ Prejudiced (acting on implicit biases).
 
 ### Social Identity Theory
 
-As discussed in [Social Identity Theory](./social-identity-theory), Tajfel and Turner's theory
+As discussed in [Social Identity Theory](./social-identity-theory), Tajfel and Turner"s theory
 Explains prejudice as a consequence of the need for positive social identity. People derive
 Self-esteem from their group memberships and maintain positive social identity by positively
 Differentiating their in-group from out-groups. This process leads to in-group favouritism and, in

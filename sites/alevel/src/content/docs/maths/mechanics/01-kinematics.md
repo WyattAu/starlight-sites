@@ -1,6 +1,6 @@
 ---
 title: Kinematics
-description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | 1D kinematics, projectiles | | Edexcel | P1 | Similar...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | 1D kinematics, projectiles | | Edexcel | P1 | Similar...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -406,7 +406,7 @@ $s = 0 + \tfrac{1}{2}(2)(64) = 64\,\mathrm{m}$.
 
 <details>
 <summary>Problem 2</summary>
-A ball is thrown vertically upwards at $15\,\mathrm{m/s}$. Find the maximum height and the time to return to the thrower's hand. Take $g = 9.8\,\mathrm{m/s}^2$.
+A ball is thrown vertically upwards at $15\,\mathrm{m/s}$. Find the maximum height and the time to return to the thrower"s hand. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>
 
 <details>

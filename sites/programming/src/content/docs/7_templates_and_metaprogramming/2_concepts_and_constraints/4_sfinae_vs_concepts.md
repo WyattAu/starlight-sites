@@ -1,6 +1,6 @@
 ---
 title: SFINAE vs Concepts
-description: '(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more...'
+description: "(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -117,17 +117,17 @@ SFINAE has several significant problems that motivated the introduction of conce
 Failure in the `enable_if` machinery, not the actual semantic requirement that was violated.
 
 ```
-error: no matching function for call to 'safe_abs'
+error: no matching function for call to "safe_abs'
 note: candidate template ignored: substitution failure
       [with T = std::string]: type 'std::string' cannot be used
-      before '::' in type 'std::enable_if<..., T>'
+      before ':: " in type ''std::enable_if<..., T>"
 ```
 
 Compare this to a concept error:
 
 ```
 error: constraint not satisfied
-note: 'safe_abs' requires 'std::integral<T>' or 'std::floating_point<T>'
+note: "safe_abs'' requires "std::integral<T>' or 'std::floating_point<T>'
 ```
 
 **2. No subsumption ordering.** Two overloads constrained by `enable_if` with different conditions

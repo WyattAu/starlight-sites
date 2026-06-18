@@ -3,7 +3,7 @@ title: Tangent Spaces and Tangent Bundles
 tags:
   - Mathematics
   - University
-description: 'There are several equivalent definitions of the tangent space at : Comprehensive educational content coverage with definitions and practice problems.'
+description: "There are several equivalent definitions of the tangent space at : Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 2.1 Tangent Vectors
@@ -17,7 +17,7 @@ $$v(fg) = f(p) \cdot v(g) + v(f) \cdot g(p)$$
 
 **Definition (Equivalence Classes of Curves).** A tangent vector is an equivalence class of smooth
 curves $\gamma : (-\varepsilon, \varepsilon) \to M$ with $\gamma(0) = p$, where
-$\gamma_1 \sim \gamma_2$ if $(\varphi \circ \gamma_1)'(0) = (\varphi \circ \gamma_2)'(0)$ in some
+$\gamma_1 \sim \gamma_2$ if $(\varphi \circ \gamma_1)"(0) = (\varphi \circ \gamma_2)'(0)$ in some
 (hence every) chart.
 
 **Proposition 2.1.** $T_p M$ is a vector space of dimension $n = \dim M$.

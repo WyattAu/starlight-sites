@@ -3,7 +3,7 @@ title: Coastal Systems and Landscapes
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: 'A-Level Geography Coastal Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.'
+description: "A-Level Geography Coastal Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.''
 ---
 
 # Coastal Systems and Landscapes
@@ -30,7 +30,7 @@ approximately 40% of the global population lives within 100 km of a coast.
 | **Backwash**             | The return flow of water down a beach under gravity                                                         |
 | **Fetch**                | The maximum distance of open water over which wind can generate waves                                       |
 | **Wave refraction**      | The bending of wave crests as they approach shallower water at an angle to the coastline                    |
-| **Isostatic change**     | Vertical land movement due to adjustments in the Earth's crust (e.g., post-glacial rebound)                 |
+| **Isostatic change**     | Vertical land movement due to adjustments in the Earth"s crust (e.g., post-glacial rebound)                 |
 | **Eustatic change**      | Global sea-level change caused by alterations in the volume of ocean water                                  |
 | **Lithology**            | The physical and chemical composition of rock, affecting its resistance to erosion                          |
 | **Concordant coastline** | A coastline where bands of rock run parallel to the shore (e.g., Dorset)                                    |

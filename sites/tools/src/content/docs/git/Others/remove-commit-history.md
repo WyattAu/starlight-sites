@@ -1,7 +1,7 @@
 ---
 title: Remove Commit History
 date: 2025-06-02T21:52:46.700Z
-description: '- Clone Git repository - Create orphan branch - - Stage all changes - - - Delete old branch - - Rename current temp branch to main - - Force-push current...'
+description: "- Clone Git repository - Create orphan branch - - Stage all changes - - - Delete old branch - - Rename current temp branch to main - - Force-push current...''
 tags:
   - git
 categories:
@@ -47,7 +47,7 @@ categories:
 
 - **Removing sensitive data**: passwords, API keys, or private keys accidentally committed to the
   repository history.
-- **Starting fresh**: when a repository's history is cluttered with merge conflicts, broken commits,
+- **Starting fresh**: when a repository"s history is cluttered with merge conflicts, broken commits,
   or irrelevant experimental branches.
 - **Reducing repository size**: large binary files bloating the `.git` directory.
 

@@ -1,6 +1,6 @@
 ---
 title: Proof
-description: '| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------------------- | | AQA | Paper 1 | Proof by deduction,...'
+description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------------------- | | AQA | Paper 1 | Proof by deduction,...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -544,7 +544,7 @@ building a personal test matrix.
 2. Losing marks by not showing sufficient working — always write out each step, especially in proof
    questions.
 
-3. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+3. Misreading the question, particularly with "hence' vs 'hence or otherwise' — the former requires
    using previous work.
 
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

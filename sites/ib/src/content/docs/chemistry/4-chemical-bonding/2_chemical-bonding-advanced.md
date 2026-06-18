@@ -1,6 +1,6 @@
 ---
 title: Chemical Bonding (Advanced)
-description: 'Rigorous IB chemistry notes covering Chemical Bonding (Advanced). Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Chemical Bonding (Advanced). Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -134,7 +134,7 @@ $$
 
 ### Common Pitfalls
 
-- Hybridization describes the central atom's orbitals, not the entire molecule.
+- Hybridization describes the central atom"s orbitals, not the entire molecule.
 - Lone pairs are included in the steric number when determining hybridization.
 - Pi bonds do not participate in hybridization — they involve unhybridized $p$-orbitals.
 

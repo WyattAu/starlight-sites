@@ -1,6 +1,6 @@
 ---
 title: Access Control and Friendship
-description: 'C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced...'
+description: "C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -109,7 +109,7 @@ static_assert(sizeof(S) == sizeof(C));
 
 A `friend` declaration grants a function or another class access to `private` and `protected`
 Members of the class that grants friendship. Friendship is **not transitive**, **not inherited**,
-And **not symmetric**: if class A declares B as a friend, B can access A's private members, but A
+And **not symmetric**: if class A declares B as a friend, B can access A"s private members, but A
 Cannot access B's, and B's derived classes cannot access A's private members.
 
 ### Formal Semantics of Friendship [N4950 S14.3.2]

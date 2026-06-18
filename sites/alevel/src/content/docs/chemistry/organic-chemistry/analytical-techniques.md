@@ -1,6 +1,6 @@
 ---
 title: Analytical Techniques
-description: 'Analytical techniques allow chemists to determine the structure, composition, and purity of organic Compounds. No single technique provides complete...'
+description: "Analytical techniques allow chemists to determine the structure, composition, and purity of organic Compounds. No single technique provides complete...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -89,7 +89,7 @@ From the carbonyl). The $\gamma$-hydrogen transfers to the carbonyl oxygen via a
 Transition state, producing an enol radical cation and an alkene:
 
 $$
-\mathrm{RCH}_2\mathrm{CH}_2\mathrm{COR}' \to \mathrm{RCH}=\mathrm{CH}_2 + \mathrm{HO}^+=\mathrm{CHR}'
+\mathrm{RCH}_2\mathrm{CH}_2\mathrm{COR}" \to \mathrm{RCH}=\mathrm{CH}_2 + \mathrm{HO}^+=\mathrm{CHR}'
 $$
 
 This produces a peak at $m/z = 60$ for ethanal derivatives and at $m/z = 58$ for propanone

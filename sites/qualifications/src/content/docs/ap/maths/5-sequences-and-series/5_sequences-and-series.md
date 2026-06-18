@@ -1,6 +1,6 @@
 ---
 title: Sequences and Series
-description: 'A is an ordered list of numbers: . Formally, a sequence is a Function from the positive integers (or a subset thereof) to the real numbers:'
+description: "A is an ordered list of numbers: . Formally, a sequence is a Function from the positive integers (or a subset thereof) to the real numbers: "''
 date: 2026-04-14
 tags:
   - ap
@@ -506,7 +506,7 @@ Interval of convergence: $[0, 2)$.
 If $\displaystyle f(x) = \sum_{n=0}^{\infty} c_n(x-a)^n$ with radius $R$Then:
 
 $$
-F'(x) = \sum_{n=1}^{\infty} n c_n (x-a)^{n-1}, \quad \mathrm{same radius  R
+F"(x) = \sum_{n=1}^{\infty} n c_n (x-a)^{n-1}, \quad \mathrm{same radius  R
 $$
 
 $$
@@ -563,7 +563,7 @@ $$
 \arctan x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1} = x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots, \quad R = 1
 $$
 
-### Taylor's Inequality (Remainder Estimation)
+### Taylor"s Inequality (Remainder Estimation)
 
 The remainder after $n$ terms of the Taylor series satisfies:
 

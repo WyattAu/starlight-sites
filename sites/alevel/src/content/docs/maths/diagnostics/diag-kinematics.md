@@ -1,6 +1,6 @@
 ---
-title: 'Kinematics -- Diagnostic Tests'
-description: 'A-Level Maths Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+title: "Kinematics -- Diagnostic Tests''
+description: "A-Level Maths Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."'
 tableOfContents: false
 ---
 
@@ -23,7 +23,7 @@ given by $v = 6t - t^2 - 5$.
 
 **(c)** A student calculates the displacement over $[0, 7]$ by evaluating $\int_0^7 v\,dt$ and
 obtains a positive answer. The student then claims this integral equals the total distance.
-Calculate the percentage error in the student's answer.
+Calculate the percentage error in the student"s answer.
 
 [Difficulty: hard. Tests whether the student identifies direction changes from $v = 0$Splits the
 integral accordingly, and takes absolute values of each segment to find total distance rather than

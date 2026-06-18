@@ -3,7 +3,7 @@ title: Decidability
 tags:
   - Computing
   - University
-description: 'Decidability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Decidability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 5.1 Decidable Languages
@@ -93,7 +93,7 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}$.
 
-_Proof._ Given $\langle M, w \rangle$Construct a TM $M'$ that on input $x$: simulates $M$ on $w$. If
+_Proof._ Given $\langle M, w \rangle$Construct a TM $M"$ that on input $x$: simulates $M$ on $w$. If
 $M$ accepts, accept. If $M$ rejects, loop. Then $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $M'$
 halts on some input (any input), iff $\langle M' \rangle \in \mathrm{HALT_{\mathrm{TM}$.
 $\blacksquare$

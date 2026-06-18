@@ -1,6 +1,6 @@
 ---
-title: 'Current and Resistance -- Diagnostic Tests'
-description: 'A-Level Physics Current and Resistance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Current and Resistance -- Diagnostic Tests''
+description: "A-Level Physics Current and Resistance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -30,7 +30,7 @@ with voltage.
 (a) The I-V graph curves away from both axes (current increases more slowly as voltage increases).
 This is because the filament is a metal (tungsten) whose resistance increases with temperature. As
 current flows, the filament heats up, increasing its resistance. V=IR applies at every instant
-(Ohm's law is a property of the conductor at a specific operating point), but the resistance is not
+(Ohm"s law is a property of the conductor at a specific operating point), but the resistance is not
 constant -- on the applied voltage (through the resulting temperature).
 
 The graph is not a straight line through the origin, so the lamp is non-ohmic.

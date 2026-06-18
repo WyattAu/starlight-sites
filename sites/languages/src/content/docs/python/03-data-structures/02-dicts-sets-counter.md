@@ -1,6 +1,6 @@
 ---
 title: Dicts, Sets, and Collections Deep Dive
-description: 'Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in...'
+description: "Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in...''
 
 ---
 
@@ -116,7 +116,7 @@ od["third"] = 3
 
 od.move_to_end("first")   # Move "first" to the end
 od.move_to_end("third", last=False)  # Move "third" to the beginning
-print(list(od.keys()))    # ['third', 'second', 'first']
+print(list(od.keys()))    # ["third', 'second', 'first']
 
 od.popitem(last=True)     # Remove and return last item: ('first', 1)
 od.popitem(last=False)    # Remove and return first item: ('third', 3)
@@ -414,7 +414,7 @@ s = {fs, frozenset([4, 5])} # Valid
 
 # Regular sets cannot be dict keys
 # s2 = {1, 2, 3}
-# d2 = {s2: "found"}  # TypeError: unhashable type: 'set'
+# d2 = {s2: "found"}  # TypeError: unhashable type: "set''
 ```
 
 ### Set Operations
@@ -487,7 +487,7 @@ class CaseInsensitiveDict(MutableMapping):
 d = CaseInsensitiveDict({"Content-Type": "application/json"})
 print(d["content-type"])  # application/json
 print(d["CONTENT-TYPE"])  # application/json
-print(list(d.keys()))      # ['Content-Type']
+print(list(d.keys()))      # ["Content-Type']
 ```
 
 By inheriting from `MutableMapping`We get `get``keys``values``items``pop``clear`
@@ -776,8 +776,8 @@ def append_to(element, target=None):
 ```python
 d = {}
 d[(1, 2)] = "ok"        # Works — tuples of immutables are hashable
-d[[1, 2]] = "fail"      # TypeError: unhashable type: 'list'
-d[{1, 2}] = "fail"      # TypeError: unhashable type: 'set'
+d[[1, 2]] = "fail"      # TypeError: unhashable type: "list''
+d[{1, 2}] = "fail"      # TypeError: unhashable type: "set'
 d[frozenset({1, 2})] = "ok"  # Works
 ```
 

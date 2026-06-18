@@ -3,14 +3,14 @@ title: Water and Carbon Cycles
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: 'A-Level Geography Water and Carbon Cycles notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+description: "A-Level Geography Water and Carbon Cycles notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
 ---
 
 # Water and Carbon Cycles
 
 ## Introduction
 
-The water and carbon cycles are global systems that transfer energy and matter across the Earth's
+The water and carbon cycles are global systems that transfer energy and matter across the Earth"s
 surface and atmosphere. Understanding these cycles is fundamental to explaining climate patterns,
 ecosystem functioning, and the impacts of human activity on the environment. This topic examines the
 stores, flows, and feedback mechanisms within both cycles, with particular emphasis on how they

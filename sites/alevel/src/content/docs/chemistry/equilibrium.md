@@ -1,6 +1,6 @@
 ---
 title: Chemical Equilibrium
-description: 'A reversible reaction reaches when the rate of the forward reaction equals the rate of the reverse reaction. At equilibrium:'
+description: "A reversible reaction reaches when the rate of the forward reaction equals the rate of the reverse reaction. At equilibrium: "''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -24,7 +24,7 @@ the rate of the reverse reaction. At equilibrium:
 Dynamic equilibrium is only established in a **closed system** -- one in which no matter can enter
 or leave.
 
-## Le Chatelier's Principle
+## Le Chatelier"s Principle
 
 If a system at equilibrium is subjected to a change in conditions, the equilibrium position shifts
 to **counteract** the imposed change.
@@ -36,7 +36,7 @@ to **counteract** the imposed change.
 | Increase temperature (endothermic forward)   | Shifts in endothermic direction | Changes       |
 | Add catalyst                                 | No shift (speeds both equally)  | No change     |
 
-**Critical distinction:** Le Chatelier's principle predicts the direction of the equilibrium shift
+**Critical distinction:** Le Chatelier"s principle predicts the direction of the equilibrium shift
 but does **not** change the value of the equilibrium constant (except for temperature changes).
 
 ## Equilibrium Constant $K_c$

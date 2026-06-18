@@ -1,6 +1,6 @@
 ---
 title: Depression
-description: 'Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),...'
+description: "Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),...''
 
 ---
 
@@ -60,7 +60,7 @@ Inhibitors) in treating depression, which increase serotonin availability in the
 
 ### The HPA Axis and Neuroendocrine Factors
 
-The hypothalamic-pituitary-adrenal (HPA) axis is the body's primary stress response system. In
+The hypothalamic-pituitary-adrenal (HPA) axis is the body"s primary stress response system. In
 Response to stress, the hypothalamus releases corticotropin-releasing hormone (CRH), which
 Stimulates the pituitary gland to release adrenocorticotropic hormone (ACTH), which in turn
 Stimulates the adrenal cortex to release cortisol.

@@ -1,6 +1,6 @@
 ---
 title: Number and Algebra
-description: 'Rigorous IB mathematics notes covering Number and Algebra. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB mathematics notes covering Number and Algebra. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - maths
@@ -38,7 +38,7 @@ Let $A$ and $B$ be subsets of a universal set $U$.
 
 - **Union:** $A \cup B = \{x \in U \mid x \in A \mathrm{ or } x \in B\}$
 - **Intersection:** $A \cap B = \{x \in U \mid x \in A \mathrm{ and } x \in B\}$
-- **Complement:** $A' = \{x \in U \mid x \notin A\}$
+- **Complement:** $A" = \{x \in U \mid x \notin A\}$
 - **Set difference:** $A \setminus B = \{x \in A \mid x \notin B\}$
 
 These operations are conveniently visualised with Venn diagrams. In a Venn diagram, the universal

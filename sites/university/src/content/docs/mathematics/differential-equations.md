@@ -1,6 +1,6 @@
 ---
 title: Differential Equations
-description: 'UNIVERSITY Mathematics notes: Differential Equations. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Mathematics notes: Differential Equations. Comprehensive study material with definitions, examples, and assessment tools.''
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Mathematics
@@ -38,7 +38,7 @@ More points.
 
 Differential equations arise throughout the natural sciences. A few canonical examples:
 
-1. **Newton's law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
+1. **Newton"s law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
    satisfies $\frac{dT}{dt} = -k(T - T_m)$A first-order linear ODE.
 
 2. **Harmonic oscillator.** A mass on a spring with damping obeys

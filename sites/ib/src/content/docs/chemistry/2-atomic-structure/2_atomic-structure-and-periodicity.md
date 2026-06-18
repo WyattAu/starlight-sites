@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure and Periodicity
-description: 'Rigorous IB chemistry notes covering Atomic Structure and Periodicity. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Atomic Structure and Periodicity. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - Chemistry
@@ -79,7 +79,7 @@ $$
 ### The Nucleus
 
 The nucleus is extremely small relative to the atom ($\approx 10^{-15}\mathrm{ m}$ diameter vs
-$\approx 10^{-10}\mathrm{ m}$ for the atom). It contains over $99.9\%$ of the atom's mass. Nuclear
+$\approx 10^{-10}\mathrm{ m}$ for the atom). It contains over $99.9\%$ of the atom"s mass. Nuclear
 Stability depends on the neutron-to-proton ratio:
 
 - Light elements ($Z \lt 20$): stable when $N \approx Z$

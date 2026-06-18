@@ -1,6 +1,6 @@
 ---
 title: Discrete Mathematics
-description: 'UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools.''
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Computing
@@ -227,7 +227,7 @@ DNF.
 
 1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$And
    $A \iff B \equiv (\neg A \lor B) \land (A \lor \neg B)$.
-2. Push $\neg$ inward using De Morgan's laws and double negation ($\neg\neg A \equiv A$) until every
+2. Push $\neg$ inward using De Morgan"s laws and double negation ($\neg\neg A \equiv A$) until every
    $\neg$ applies to a single variable.
 3. Distribute $\lor$ over $\land$: $A \lor (B \land C) \equiv (A \lor B) \land (A \lor C)$.
 

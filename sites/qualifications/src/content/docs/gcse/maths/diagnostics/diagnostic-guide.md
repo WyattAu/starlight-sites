@@ -1,6 +1,6 @@
 ---
-title: 'GCSE Maths -- Diagnostic Guide'
-description: '| Diagnostic File | Topics Covered | Source File | | -------------------------- | ---------------------------------------------------------------------------...'
+title: "GCSE Maths -- Diagnostic Guide''
+description: "| Diagnostic File | Topics Covered | Source File | | -------------------------- | ---------------------------------------------------------------------------..."'
 tableOfContents: false
 ---
 
@@ -36,7 +36,7 @@ tableOfContents: false
 
 - Cannot convert between fractions, decimals, and percentages
 - Cannot solve simple linear equations
-- Cannot apply Pythagoras' theorem correctly
+- Cannot apply Pythagoras" theorem correctly
 - Does not show working for calculations
 - Cannot interpret statistical diagrams (box plots, histograms)
 

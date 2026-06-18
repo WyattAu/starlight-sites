@@ -1,6 +1,6 @@
 ---
 title: Hashing and Hash Tables
-description: 'A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble'
+description: "A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -85,7 +85,7 @@ Of the input so that small changes in the input produce large changes in the out
 def splitmix64(x):
     """
     Fast integer hash function. Excellent avalanche properties.
-    Used as the default in Java's SplittableRandom.
+    Used as the default in Java"s SplittableRandom.
     Time: O(1)
     """
     x = (x + 0x9E3779B97F4A7C15) & 0xFFFFFFFFFFFFFFFF

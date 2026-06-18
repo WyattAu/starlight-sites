@@ -1,6 +1,6 @@
 ---
 title: Journal and Logging
-description: 'is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format.'
+description: "is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format.''
 
 ---
 
@@ -29,7 +29,7 @@ flowchart LR
 | syslog()         | Traditional syslog calls                    |
 | Audit events     | Kernel audit subsystem                      |
 | /dev/kmsg        | Kernel log device                           |
-| Internal journal | Journal's own diagnostic messages           |
+| Internal journal | Journal"s own diagnostic messages           |
 
 ### Storage Modes
 
@@ -848,7 +848,7 @@ journalctl --vacuum-time=30d --vacuum-size=1G
 #         job: systemd-journal
 #     relabel_configs:
 #       - source_labels: ['__journal__systemd_unit']
-#         target_label: 'unit'
+#         target_label: "unit''
 ```
 
 ### Email Alerts from Logs
@@ -911,7 +911,7 @@ Use syslog priority levels consistently:
 # - Structured key-value pairs
 
 # Example using systemd-cat with structured fields
-systemd-cat -t myapp -p info << 'EOF'
+systemd-cat -t myapp -p info << "EOF'
 message=Request completed
 request_id=abc-123
 duration_ms=42

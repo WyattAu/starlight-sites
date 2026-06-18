@@ -1,6 +1,6 @@
 ---
-title: 'Refraction and Total Internal Reflection -- Diagnostic Tests'
-description: 'A-Level Physics Refraction and Total Internal Reflection -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Refraction and Total Internal Reflection -- Diagnostic Tests''
+description: "A-Level Physics Refraction and Total Internal Reflection -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -31,7 +31,7 @@ $$\theta_c = 41.1^\circ$$
 
 (b) At the first face (angle of incidence $i_1 = 40^\circ$):
 
-By Snell's law: $\sin i_1 = n \sin r_1$
+By Snell"s law: $\sin i_1 = n \sin r_1$
 
 $$\sin 40^\circ = 1.52 \sin r_1 \Rightarrow \sin r_1 = 0.6428/1.52 = 0.4229$$ $$r_1 = 25.03^\circ$$
 

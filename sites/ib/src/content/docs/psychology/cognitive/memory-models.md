@@ -1,6 +1,6 @@
 ---
 title: Memory Models
-description: 'The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models In cognitive psychology. It conceptualises memory as...'
+description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models In cognitive psychology. It conceptualises memory as...''
 
 ---
 
@@ -154,7 +154,7 @@ Rather of the depth of processing applied to the information at encoding.
 1. **Structural processing:** Processing the physical features of a stimulus (e.g., "Is the word
    written in uppercase?"). This is the shallowest level and produces the poorest recall.
 2. **Phonological processing:** Processing the sound of a stimulus (e.g., "Does the word rhyme with
-   'cat'?"). This is an intermediate level.
+   "cat'?"). This is an intermediate level.
 3. **Semantic processing:** Processing the meaning of a stimulus (e.g., "Does the word fit into the
    sentence 'The \_\_\_\_ chased the mouse'?"). This is the deepest level and produces the best
    recall.

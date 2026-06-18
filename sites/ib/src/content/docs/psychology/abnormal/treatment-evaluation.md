@@ -1,6 +1,6 @@
 ---
 title: Treatment Evaluation
-description: 'Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural...'
+description: "Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural...''
 
 ---
 
@@ -23,7 +23,7 @@ Structured treatment delivery.
 **Evidence hierarchy:**
 
 1. **Meta-analyses and systematic reviews:** Syntheses of multiple RCTs, providing the highest level
-   of evidence by aggregating data across studies and reducing the influence of any single study's
+   of evidence by aggregating data across studies and reducing the influence of any single study"s
    methodological limitations.
 2. **Randomised controlled trials:** Participants are randomly assigned to treatment or control
    conditions, minimising the influence of confounding variables. RCTs are the gold standard for

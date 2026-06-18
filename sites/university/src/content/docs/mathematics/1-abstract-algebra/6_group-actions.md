@@ -3,7 +3,7 @@ title: Group Actions
 tags:
   - Mathematics
   - University
-description: 'A of on a set is a map Written Satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A of on a set is a map Written Satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 6.1 Definition
@@ -32,7 +32,7 @@ Iff $g \in h\,\mathrm{Stab}(x)$. So the fibers of $\phi$ are precisely the coset
 $\mathrm{Stab}(x)$ And there are $[G : \mathrm{Stab}(x)]$ of them, each mapping to a distinct
 element of $\mathrm{Orb}(x)$. $\blacksquare$
 
-### 6.3 Burnside's Lemma
+### 6.3 Burnside"s Lemma
 
 **Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$Then the number Of
 orbits is

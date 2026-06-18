@@ -1,6 +1,6 @@
 ---
 title: Functions
-description: '| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,...'
+description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -544,7 +544,7 @@ On $\mathbb{R}$And find the largest interval containing $x = 0$ on which $f$ is 
 
 <details>
 <summary>Solution</summary>
-$f'(x) = 3x^2 - 3 = 3(x - 1)(x + 1)$.
+$f"(x) = 3x^2 - 3 = 3(x - 1)(x + 1)$.
 
 $f'(x) = 0$ at $x = \pm 1$. $f'(x) < 0$ for $-1 < x < 1$ (decreasing), and $f'(x) > 0$ for $x < -1$
 Or $x > 1$ (increasing).

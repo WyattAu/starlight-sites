@@ -1,6 +1,6 @@
 ---
 title: PSU Selection and BIOS Configuration
-description: 'A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains...'
+description: "A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Tuning
@@ -77,7 +77,7 @@ Efficiency is not constant across the load range. Typical efficiency curves show
   in transformer windings, traces, and connectors.
 
 :::info When selecting a PSU, aim for your typical system load to fall within the 40--70% range of
-The PSU's rated capacity. This places you near peak efficiency while maintaining headroom for
+The PSU"s rated capacity. This places you near peak efficiency while maintaining headroom for
 Transient spikes.
 :::
 

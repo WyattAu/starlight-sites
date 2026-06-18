@@ -1,6 +1,6 @@
 ---
 title: Authentication and Authorization
-description: 'answers "who are you?" — it verifies identity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "answers "who are you?" — it verifies identity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 
 ---
 
@@ -324,7 +324,7 @@ An ID token is a JWT that contains identity claims about the user:
 
 When validating an ID token, verify:
 
-1. **Signature**: Verify the JWT signature using the issuer's public keys (JWKS endpoint)
+1. **Signature**: Verify the JWT signature using the issuer"s public keys (JWKS endpoint)
 2. **Issuer (`iss`)**: Must match the expected issuer
 3. **Audience (`aud`)**: Must contain your client ID
 4. **Expiration (`exp`)**: Must be in the future
@@ -760,23 +760,23 @@ Keychain, and are inherently phishing-resistant because they are bound to the re
 // Server-side: Registration (simplified)
 const registrationOptions = {
   challenge: crypto.randomBytes(32),
-  rp: { name: 'My Application', id: 'app.example.com' },
+  rp: { name: "My Application'', id: "app.example.com' },
   user: {
     id: userId,
-    name: 'user@example.com',
-    displayName: 'Jane Doe',
+    name: "user@example.com'',
+    displayName: "Jane Doe',
   },
   pubKeyCredParams: [
-    { type: 'public-key', alg: -7 }, // ES256 (P-256)
-    { type: 'public-key', alg: -257 }, // RS256
+    { type: "public-key'', alg: -7 }, // ES256 (P-256)
+    { type: "public-key', alg: -257 }, // RS256
   ],
   authenticatorSelection: {
-    authenticatorAttachment: 'cross-platform',
-    userVerification: 'required',
-    residentKey: 'preferred',
+    authenticatorAttachment: "cross-platform'',
+    userVerification: "required',
+    residentKey: "preferred'',
   },
   timeout: 60000,
-  attestation: 'none',
+  attestation: "none',
 };
 
 // Server-side: Authentication
@@ -784,9 +784,9 @@ const authenticationOptions = {
   challenge: crypto.randomBytes(32),
   allowCredentials: storedCredentials.map((cred) => ({
     id: Buffer.from(cred.id, 'base64url'),
-    type: 'public-key',
+    type: "public-key'',
   })),
-  userVerification: 'required',
+  userVerification: "required',
   timeout: 60000,
 };
 ```

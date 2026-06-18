@@ -1,9 +1,9 @@
 ---
-title: 'Quantum Statistical Mechanics: Advanced Topics'
+title: "Quantum Statistical Mechanics: Advanced Topics''
 tags:
   - Physics
   - University
-description: 'The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:'
+description: "The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:"'
 ---
 
 ### 18.1 Density Matrix and Ensemble Averages
@@ -35,7 +35,7 @@ For a pure state: $S = 0$. For a thermal state: $S > 0$ (maximum for the maximal
 
 $$i\hbar\frac{\partial\hat{\rho}}{\partial t} = [\hat{H}, \hat{\rho}]$$
 
-This is the quantum analogue of Liouville's equation. For a closed system, the von Neumann
+This is the quantum analogue of Liouville"s equation. For a closed system, the von Neumann
 entropy is constant (unitary evolution preserves eigenvalues of $\hat{\rho}$).
 
 ### 18.2 Quantum Ideal Gases: General Treatment

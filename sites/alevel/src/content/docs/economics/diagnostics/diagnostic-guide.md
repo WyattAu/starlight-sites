@@ -1,6 +1,6 @@
 ---
-title: 'A-Level Economics -- Diagnostic Guide'
-description: '| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------...'
+title: "A-Level Economics -- Diagnostic Guide''
+description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------..."'
 tableOfContents: false
 ---
 
@@ -158,7 +158,7 @@ Use this checklist to identify gaps before attempting the full diagnostic tests.
 - [ ] Can calculate deadweight loss under monopoly
 - [ ] Can explain the kinked demand curve model
 - [ ] Can solve Cournot duopoly problems
-- [ ] Can analyse game theory payoff matrices (prisoner's dilemma)
+- [ ] Can analyse game theory payoff matrices (prisoner"s dilemma)
 - [ ] Can explain price discrimination (conditions, types, welfare effects)
 - [ ] Can explain natural monopoly and regulation methods
 

@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: 'A-Level English Prose Analysis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.'
+description: "A-Level English Prose Analysis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.''
 
 ---
 
@@ -34,7 +34,7 @@ how they feel about characters and events, and how reliably information is prese
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
 | First person ("I")      | A character within the story narrates                          | Intimate but limited; reader sees only what the narrator sees |
 | Second person ("You")   | The narrator addresses the reader as "you"                     | Creates urgency, discomfort, or complicity                    |
-| Third person limited    | An external narrator focuses on one character's thoughts       | Balances distance with interiority                            |
+| Third person limited    | An external narrator focuses on one character"s thoughts       | Balances distance with interiority                            |
 | Third person omniscient | An external narrator knows all characters' thoughts            | Allows authorial commentary and dramatic irony                |
 | Unreliable narrator     | A narrator whose account is distorted or incomplete            | Forces the reader to question and interpret                   |
 | Free indirect discourse | Third-person narration that blends with a character's thoughts | Creates intimacy without abandoning the external narrator     |

@@ -1,6 +1,6 @@
 ---
-title: 'Ecology -- Diagnostic Tests'
-description: 'A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision.'
+title: "Ecology -- Diagnostic Tests''
+description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."'
 tableOfContents: false
 ---
 
@@ -89,7 +89,7 @@ locked away in geological deposits over millions of years. This CO$_2$ is releas
 atmosphere much faster than natural processes (photosynthesis, dissolution in oceans) can remove it,
 creating an imbalance in the carbon cycle. The atmospheric CO$_2$ concentration has increased from
 approximately 280 ppm (pre-industrial) to over 420 ppm currently. CO$_2$ is a **greenhouse gas** —
-it absorbs and re-radiates infrared radiation (heat) emitted by the Earth's surface, trapping heat
+it absorbs and re-radiates infrared radiation (heat) emitted by the Earth"s surface, trapping heat
 in the atmosphere (the enhanced greenhouse effect). This leads to **global warming** (increased
 average global temperature) and **climate change**, with consequences including rising sea levels
 (thermal expansion of oceans and melting ice caps), more frequent extreme weather events (droughts,

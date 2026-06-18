@@ -1,6 +1,6 @@
 ---
 title: Query Optimization
-description: 'Uses a fixed set of heuristics to transform queries. Access paths Are chosen based on rules like "use an index if available" and "avoid full table scans."...'
+description: "Uses a fixed set of heuristics to transform queries. Access paths Are chosen based on rules like "use an index if available" and "avoid full table scans."...''
 
 ---
 
@@ -52,7 +52,7 @@ SELECT attname, null_frac, n_distinct, avg_width, correlation,
        most_common_vals, most_common_freqs,
        histogram_bounds
 FROM pg_stats
-WHERE tablename = 'orders'
+WHERE tablename = "orders'
 ORDER BY attname;
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: 'Derivatives -- Diagnostic Tests'
-description: '> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble'
+title: "Derivatives -- Diagnostic Tests''
+description: "> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble"'
 date: 2026-04-14
 tags:
   - ap
@@ -33,7 +33,7 @@ $$\frac{dy}{dx} = 6x \, e^{3x^2+1} \sin\!\left(2e^{3x^2+1}\right)$$
 For $\dfrac{d^2y}{dx^2}$Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
 $A = 6x$$B = e^{3x^2+1}$$C = \sin(2e^{3x^2+1})$. Then:
 
-$$\frac{d^2y}{dx^2} = A'BC + AB'C + ABC'$$
+$$\frac{d^2y}{dx^2} = A"BC + AB'C + ABC'$$
 
 $A' = 6$
 

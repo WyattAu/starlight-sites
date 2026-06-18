@@ -1,6 +1,6 @@
 ---
 title: Adolescent Development
-description: 'Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary...'
+description: "Adolescence is the developmental period between childhood and adulthood, defined as Spanning from approximately age 10 to age 19 (though definitions vary...''
 
 ---
 
@@ -51,7 +51,7 @@ Emotional stimuli) and the prefrontal cortex (which matures later and provides r
 
 ## Identity Formation
 
-### Erikson's Theory of Psychosocial Development (1968)
+### Erikson"s Theory of Psychosocial Development (1968)
 
 Erik Erikson proposed that personality develops through eight psychosocial stages, each
 Characterised by a central conflict that must be resolved. The fifth stage, **identity versus role

@@ -1,6 +1,6 @@
 ---
-title: 'International Trade and Finance -- Diagnostic Tests'
-description: 'DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "International Trade and Finance -- Diagnostic Tests''
+description: "DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -58,7 +58,7 @@ rate Is mutually beneficial.
 **Question:** The exchange rate between USD and HKD is 1 USD $=$ 7.8 HKD. A smartphone costs $\$600$
 USD in the US and $\$5200$ HKD in Hong Kong. (a) Calculate the Hong Kong price of the US phone in
 HKD. (b) Is the smartphone cheaper in the US or Hong Kong? (c) If the HKD appreciates to 1 USD $=$
-7.0 HKD, recalculate and explain the effect on Hong Kong's exports. (d) Explain the concept of
+7.0 HKD, recalculate and explain the effect on Hong Kong"s exports. (d) Explain the concept of
 Purchasing power parity (PPP).
 
 **Solution:**

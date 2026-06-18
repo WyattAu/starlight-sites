@@ -3,7 +3,7 @@ title: Network Security
 tags:
   - Computing
   - University
-description: 'uses the same secret key for both encryption and decryption. Both parties Must share the key securely before communication.'
+description: "uses the same secret key for both encryption and decryption. Both parties Must share the key securely before communication.''
 ---
 
 ### 7.1 Symmetric Encryption
@@ -65,7 +65,7 @@ An eavesdropper who sees $g$, $p$, $A$, $B$ cannot compute $g^{ab}$ without solv
 Logarithm problem.
 
 **Digital signatures.** The sender signs a message hash with their private key. Anyone can verify
-Using the sender's public key. Provides authentication, integrity, and non-repudiation.
+Using the sender"s public key. Provides authentication, integrity, and non-repudiation.
 
 ### 7.3 TLS in Depth
 

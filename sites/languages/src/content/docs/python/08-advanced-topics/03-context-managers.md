@@ -1,6 +1,6 @@
 ---
 title: Context Managers and the with Statement
-description: 'The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource...'
+description: "The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource...''
 
 ---
 
@@ -60,7 +60,7 @@ class Resource:
     def __enter__(self):
         print(f"Acquiring {self.name}")
         self._resource = f"resource_{self.name}"
-        return self._resource  # This is bound to the 'as' variable
+        return self._resource  # This is bound to the "as' variable
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         print(f"Releasing {self.name}")

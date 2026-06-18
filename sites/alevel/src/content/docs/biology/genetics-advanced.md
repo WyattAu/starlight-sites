@@ -1,6 +1,6 @@
 ---
 title: Advanced Genetics
-description: 'occurs when the expression of one gene (the epistatic gene) is affected or masked by one or more independently inherited genes at different loci. This...'
+description: "occurs when the expression of one gene (the epistatic gene) is affected or masked by one or more independently inherited genes at different loci. This...''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -18,7 +18,7 @@ categories:
 ### 1.1 Definition
 
 **Epistasis** occurs when the expression of one gene (the epistatic gene) is affected or masked by
-one or more independently inherited genes at different loci. This violates Mendel's law of
+one or more independently inherited genes at different loci. This violates Mendel"s law of
 independent assortment at the phenotypic level, producing phenotypic ratios that differ from the
 expected 9:3:3:1.
 

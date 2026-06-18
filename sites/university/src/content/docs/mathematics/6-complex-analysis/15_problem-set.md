@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: 'Express in polar form and find all values of . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Express in polar form and find all values of . Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### Problem 1
@@ -41,7 +41,7 @@ CR: $4x = 0 \Rightarrow x = 0$, $-4y = 0 \Rightarrow y = 0$.
 
 $f$ is differentiable only at $z = 0$ and analytic nowhere.
 
-$f'(0) = 0$ (verified by direct computation).
+$f"(0) = 0$ (verified by direct computation).
 
 _If you get this wrong, revise:_ Sections 2.4 and 3.1 (Analyticity and Cauchy-Riemann).
 

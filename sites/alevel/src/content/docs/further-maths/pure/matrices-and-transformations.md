@@ -1,6 +1,6 @@
 ---
 title: Matrices and Transformations (Extended)
-description: 'This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors.'
+description: "This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors.''
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
@@ -162,7 +162,7 @@ If $\det A = 0$: either no solution (inconsistent) or infinitely many solutions 
 
 A $2 \times 2$ matrix represents a linear transformation of the plane:
 
-$$\begin{pmatrix} x' \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}$$
+$$\begin{pmatrix} x" \\ y' \end{pmatrix} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}$$
 
 Key property: the origin is always mapped to the origin.
 

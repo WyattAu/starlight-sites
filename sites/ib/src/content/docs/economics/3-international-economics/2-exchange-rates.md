@@ -1,6 +1,6 @@
 ---
 title: Exchange Rates
-description: 'IB Economics Exchange Rates notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness.'
+description: "IB Economics Exchange Rates notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -12,7 +12,7 @@ categories: [ib-economics]
 
 - **Floating exchange rate**: determined by market forces of supply and demand for the currency. The
   central bank does not intervene (or intervenes only rarely). Examples: USD, AUD, CAD, EUR
-- **Fixed (pegged) exchange rate**: the central bank fixes the currency's value against another
+- **Fixed (pegged) exchange rate**: the central bank fixes the currency"s value against another
   currency (or a basket). It maintains the peg by buying or selling foreign reserves. Examples: Hong
   Kong dollar (pegged to USD), some Gulf currencies
 - **Managed float (dirty float)**: the exchange rate is primarily market-determined, but the central

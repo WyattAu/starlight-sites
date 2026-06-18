@@ -3,7 +3,7 @@ title: Fundamental Data Structures
 tags:
   - Computing
   - University
-description: 'Contiguous memory, access by index, insertion/deletion (shift required). Comprehensive educational content coverage with definitions and practice problems.'
+description: "Contiguous memory, access by index, insertion/deletion (shift required). Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 2.1 Arrays and Linked Lists
@@ -133,7 +133,7 @@ $\mathrm{E}[Y_n] \leq \frac{1}{4} \sum_{i=0}^{n-1} \binom{n}{i} \mathrm{E}[Y_i] 
 Using the indicator random variable technique,
 $\mathrm{E}[Y_n] \leq \frac{c^{n+1}}{n^{3/2}} \sum_{i=0}^{n-1} \frac{i^{3/2}(n-1-i)^{3/2}}{c^i c^{n-1-i}} \leq c \cdot n^{3/2}$
 for some constant $c$. Taking logs gives
-$\mathrm{E}[X_n] = \mathrm{E}[\log Y_n] \leq \log \mathrm{E}[Y_n] = O(\log n)$ by Jensen's
+$\mathrm{E}[X_n] = \mathrm{E}[\log Y_n] \leq \log \mathrm{E}[Y_n] = O(\log n)$ by Jensen"s
 inequality. $\blacksquare$
 
 #### 2.4.1 AVL Trees

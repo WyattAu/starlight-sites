@@ -1,7 +1,7 @@
 ---
 title: GCSE Maths Study Guide
 date: 2026-05-31
-description: 'GCSE Maths.Md Maths Study notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.'
+description: "GCSE Maths.Md Maths Study notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.''
 tags:
   - gcse
   - maths
@@ -233,7 +233,7 @@ $$\text{Area} = \pi r^2$$
 
 **Sector area:** $\text{area} = \frac{\theta}{360} \times \pi r^2$
 
-### 3.3 Pythagoras' Theorem
+### 3.3 Pythagoras" Theorem
 
 In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two
 sides.

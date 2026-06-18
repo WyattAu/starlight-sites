@@ -3,7 +3,7 @@ title: The Standard Model
 tags:
   - Physics
   - University
-description: 'The of particle physics describes the fundamental particles and their interactions Via three of the four known forces: the electromagnetic, weak, and strong...'
+description: "The of particle physics describes the fundamental particles and their interactions Via three of the four known forces: the electromagnetic, weak, and strong...''
 ---
 
 ### 1.1 Overview
@@ -68,7 +68,7 @@ $$\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\t
 Produces the massive $Z^0$ and the massless photon $A$. The Weinberg angle $\theta_W$ determines The
 mixing and satisfies $\sin^2\theta_W \approx 0.231$.
 
-The electromagnetic coupling $e$ and the weak couplings $g$, $g'$ are related by:
+The electromagnetic coupling $e$ and the weak couplings $g$, $g"$ are related by:
 
 $$e = g\sin\theta_W = g'\cos\theta_W$$
 

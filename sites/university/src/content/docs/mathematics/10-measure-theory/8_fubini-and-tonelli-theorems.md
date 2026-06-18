@@ -3,7 +3,7 @@ title: Fubini and Tonelli Theorems
 tags:
   - Mathematics
   - University
-description: 'Let and be -finite measure spaces. The is Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Let and be -finite measure spaces. The is Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 8.1 Product Measures
@@ -19,7 +19,7 @@ $$(\mu \times \nu)(A \times B) = \mu(A) \cdot \nu(B)$$
 
 for all $A \in \mathcal{F}$ and $B \in \mathcal{G}$.
 
-### 8.2 Tonelli's Theorem
+### 8.2 Tonelli"s Theorem
 
 **Theorem 8.2 (Tonelli).** If $f : X \times Y \to [0, \infty]$ is
 $\mathcal{F} \otimes \mathcal{G}$-measurable, then:

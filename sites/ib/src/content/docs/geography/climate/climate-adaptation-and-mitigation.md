@@ -1,6 +1,6 @@
 ---
 title: Climate Adaptation and Mitigation
-description: 'refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation...'
+description: "refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation...''
 
 ---
 
@@ -117,7 +117,7 @@ Temperature stress, increased pest and disease pressure, and increased frequency
 | Strategy                             | Description                                                                    | Example                                                                                                                                                                                                        |
 | ------------------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sea walls and coastal defences**   | Hard engineering structures to protect against sea level rise and storm surges | Netherlands Delta Programme (EUR 20+ billion); MOSE barrier in Venice (EUR 5.5 billion)                                                                                                                        |
-| **Flood-resistant infrastructure**   | Designing buildings, roads, and utilities to withstand flooding                | Bangladesh's elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
+| **Flood-resistant infrastructure**   | Designing buildings, roads, and utilities to withstand flooding                | Bangladesh"s elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
 | **Improved drainage**                | Upgrading urban drainage systems to handle increased rainfall intensity        | Sustainable Urban Drainage Systems (SUDS) in UK cities; Tokyo's underground floodwater storage (the Metropolitan Area Outer Underground Discharge Channel, completed 2006, stores 670 000 m$^3$ of floodwater) |
 | **Climate-resilient building codes** | Updating construction standards to account for projected climate conditions    | Caribbean building codes for hurricane resistance; Japan's earthquake and tsunami-resistant standards                                                                                                          |
 

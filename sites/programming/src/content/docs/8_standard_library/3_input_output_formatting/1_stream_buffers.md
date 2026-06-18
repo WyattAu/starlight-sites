@@ -1,6 +1,6 @@
 ---
 title: Stream Buffers and Locale Facets
-description: 'The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform formatting and parsing, then delegate actual character transfer...'
+description: "The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform formatting and parsing, then delegate actual character transfer...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -144,11 +144,11 @@ The standard facets [N4950 §30.3.1.1.2]:
 #include <vector>
 
 void locale_facet_demo() {
-    std::locale loc("");  // User's preferred locale from environment
+    std::locale loc("");  // User"s preferred locale from environment
 
     const auto& punct = std::use_facet<std::numpunct<char>>(loc);
-    std::cout << "Decimal point:   '" << punct.decimal_point() << "'\n";
-    std::cout << "Thousands sep:   '" << punct.thousands_sep() << "'\n";
+    std::cout << "Decimal point: "" << punct.decimal_point() << "''\n";
+    std::cout << "Thousands sep:   "" << punct.thousands_sep() << "'\n";
 
     std::cout << "Grouping:        ";
     std::string grouping = punct.grouping();

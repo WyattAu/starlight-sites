@@ -3,7 +3,7 @@ title: Algorithm Analysis
 tags:
   - Computing
   - University
-description: 'Algorithm Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Algorithm Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 1.1 Asymptotic Notation
@@ -72,7 +72,7 @@ To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n +
 <summary>Worked Example: Proving $2^n \neq O(n^k)$ for any constant $k$</summary>
 
 By the limit rule: $\lim_{n \to \infty} 2^n / n^k = \infty$ for any fixed $k$ (this follows from
-repeated application of L'Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
+repeated application of L"Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
 than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$And in particular
 $2^n \neq O(n^k)$.
 

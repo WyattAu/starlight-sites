@@ -3,7 +3,7 @@ title: Magnetostatics
 tags:
   - Physics
   - University
-description: 'The magnetic field due to a steady current in a wire element : Comprehensive educational content coverage with definitions and practice problems.'
+description: "The magnetic field due to a steady current in a wire element : Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 3.1 The Biot-Savart Law
@@ -14,7 +14,7 @@ $$d\mathbf{B} = \frac{\mu_0 I}{4\pi} \frac{d\mathbf{l} \times \hat{\mathbf{r}}}{
 
 For a complete circuit:
 
-$$\mathbf{B}(\mathbf{r}) = \frac{\mu_0 I}{4\pi} \oint \frac{d\mathbf{l} \times \hat{\mathbf{r}}'}{|\mathbf{r} - \mathbf{r}'|^2}$$
+$$\mathbf{B}(\mathbf{r}) = \frac{\mu_0 I}{4\pi} \oint \frac{d\mathbf{l} \times \hat{\mathbf{r}}"}{|\mathbf{r} - \mathbf{r}'|^2}$$
 
 ### 3.2 Ampere's Law
 

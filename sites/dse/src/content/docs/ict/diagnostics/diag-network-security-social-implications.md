@@ -1,6 +1,6 @@
 ---
-title: 'Network Security and Social Implications -- Diagnostic Tests'
-description: 'DSE Ict Network Security and Social Implications -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Network Security and Social Implications -- Diagnostic Tests''
+description: "DSE Ict Network Security and Social Implications -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -27,7 +27,7 @@ propagate.
 **Trojan:** Malware disguised as legitimate software. Does not self-replicate. Tricks users into
 installing it (e.g., fake software download). May create backdoors for attackers.
 
-**Ransomware:** Encrypts the victim's files and demands payment ( cryptocurrency) for the decryption
+**Ransomware:** Encrypts the victim"s files and demands payment ( cryptocurrency) for the decryption
 key. Can spread as a worm (e.g., WannaCry) or be delivered via phishing.
 
 (b) **Phishing:** Attackers send fraudulent emails (or messages) appearing to be from trusted

@@ -1,6 +1,6 @@
 ---
 title: Chi-Squared Tests
-description: 'The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two...'
+description: "The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -92,7 +92,7 @@ For the chi-squared approximation to be valid:
 2. If any expected frequency is $< 5$**merge adjacent categories** before carrying out the test
 3. The observations must be **independent**
 
-### 2.5 Yates' correction (continuity correction)
+### 2.5 Yates" correction (continuity correction)
 
 For a $2 \times 2$ contingency table with small expected frequencies, Yates' correction adjusts the
 Test statistic:

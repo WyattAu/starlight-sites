@@ -1,6 +1,6 @@
 ---
 title: Software Engineering
-description: 'A-Level Computer Science Software Engineering notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+description: "A-Level Computer Science Software Engineering notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.''
 ---
 
 # Software Engineering
@@ -23,7 +23,7 @@ processes that ensure software meets its requirements reliably and maintainably.
 ### Requirements and Design
 
 - **Functional and non-functional requirements** — what the system does vs. how well it does it
-- **User stories and use cases** — capturing requirements from the user's perspective
+- **User stories and use cases** — capturing requirements from the user"s perspective
 - **Structure charts** — top-down design, decomposition
 - **Data flow diagrams (DFDs)** — modelling how data moves through a system
 

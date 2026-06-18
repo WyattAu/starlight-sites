@@ -1,6 +1,6 @@
 ---
-title: 'M1: Algebra and Calculus'
-description: 'Solving linear inequalities follows the same principles as solving linear equations, with one critical difference: multiplying or dividing both sides by a...'
+title: "M1: Algebra and Calculus''
+description: "Solving linear inequalities follows the same principles as solving linear equations, with one critical difference: multiplying or dividing both sides by a..."'
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Maths
@@ -199,7 +199,7 @@ $$\lim_{x \to \infty} \frac{3x^2 + 2x - 1}{5x^2 - x + 3} = \lim_{x \to \infty} \
 ### Rules of Differentiation
 
 - **Power rule**: $\frac{d}{dx}(x^n) = nx^{n-1}$
-- **Chain rule**: $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
+- **Chain rule**: $\frac{d}{dx}[f(g(x))] = f"(g(x)) \cdot g'(x)$
 - **Product rule**: $\frac{d}{dx}[f(x) \cdot g(x)] = f'(x)g(x) + f(x)g'(x)$
 - **Quotient rule**:
   $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$

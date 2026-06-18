@@ -1,6 +1,6 @@
 ---
-title: 'Electrochemistry -- Diagnostic Tests'
-description: 'A-Level Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.'
+title: "Electrochemistry -- Diagnostic Tests''
+description: "A-Level Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."'
 tableOfContents: false
 ---
 
@@ -71,7 +71,7 @@ $$[\text{Fe}^{2+}] = 0.678\,\text{mol dm}^{-3}$$
 
 ---
 
-### UT-2: Electrolysis and Faraday's Laws
+### UT-2: Electrolysis and Faraday"s Laws
 
 **Question:**
 

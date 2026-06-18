@@ -1,6 +1,6 @@
 ---
 title: Index Numbers
-description: 'IB Economics Index Numbers notes covering key definitions, core concepts, worked examples, and practice questions for focused revision and exam readiness.'
+description: "IB Economics Index Numbers notes covering key definitions, core concepts, worked examples, and practice questions for focused revision and exam readiness.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -49,7 +49,7 @@ $$\text{Index}_{2020} = 120 \times \frac{105}{100} = 126$$
 
 - Confusing nominal and real values. Always check whether a value is in current prices (nominal) or
   constant prices (real) before making comparisons over time.
-- Using the wrong discount rate in CBA. The social discount rate should reflect society's time
+- Using the wrong discount rate in CBA. The social discount rate should reflect society"s time
   preference, not the private sector's required rate of return. The choice of rate can dramatically
   alter the results of long-term projects.
 - Confusing the Gini coefficient with absolute poverty measures. The Gini measures relative

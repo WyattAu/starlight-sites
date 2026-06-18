@@ -1,6 +1,6 @@
 ---
 title: PostgreSQL Advanced
-description: 'PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.'
+description: "PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.''
 
 ---
 
@@ -45,7 +45,7 @@ CREATE INDEX idx_locations_geom ON locations USING GIST (geom);
 
 -- Insert a point (longitude, latitude)
 INSERT INTO locations (name, geom)
-VALUES ('San Francisco', ST_SetSRID(ST_MakePoint(-122.4194, 37.7749), 4326));
+VALUES ("San Francisco', ST_SetSRID(ST_MakePoint(-122.4194, 37.7749), 4326));
 
 -- Find locations within 10km of a point
 SELECT name, ST_Distance(geom, ST_SetSRID(ST_MakePoint(-122.4, 37.77), 4326)) AS distance_meters

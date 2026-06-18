@@ -1,6 +1,6 @@
 ---
 title: IB Biology
-description: 'Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,'
+description: "Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -68,7 +68,7 @@ pitfalls, and exam-style problems.
    incorrectly.
 
 4. Writing vague answers without specific biological terminology — use precise terms (e.g.,
-   'phospholipid bilayer' not 'membrane').
+   "phospholipid bilayer' not 'membrane').
 
 ## Overview
 

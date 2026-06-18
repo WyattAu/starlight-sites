@@ -3,7 +3,7 @@ title: Introduction to Partial Differential Equations
 tags:
   - Mathematics
   - University
-description: 'The general second-order linear PDE in two variables is Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The general second-order linear PDE in two variables is Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 8.1 Classification of Second-Order PDEs
@@ -12,7 +12,7 @@ The general second-order linear PDE in two variables is
 
 $$A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G$$
 
-- **Elliptic** ($B^2 - 4AC \lt 0$): e.g., Laplace's equation $u_{xx} + u_{yy} = 0$.
+- **Elliptic** ($B^2 - 4AC \lt 0$): e.g., Laplace"s equation $u_{xx} + u_{yy} = 0$.
 - **Parabolic** ($B^2 - 4AC = 0$): e.g., the heat equation $u_t = \alpha^2 u_{xx}$.
 - **Hyperbolic** ($B^2 - 4AC > 0$): e.g., the wave equation $u_{tt} = c^2 u_{xx}$.
 

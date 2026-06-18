@@ -1,6 +1,6 @@
 ---
 title: Evolution and Ecology
-description: 'Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural...'
+description: "Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - DSE
@@ -40,7 +40,7 @@ Of evolution is the population; the unit of selection is the individual (or, the
 | Proposed by                     | Jean-Baptiste Lamarck (1809)                                            | Charles Darwin (1859)                                               |
 | Mechanism                       | Use and disuse of organs; traits acquired during lifetime are inherited | Variation exists ; favourable traits are selected for               |
 | Heritability of acquired traits | Yes -- traits gained during life are passed on                          | No -- only genetically determined traits are inherited              |
-| Direction of change             | Driven by organism's needs and efforts                                  | Driven by environmental pressures selecting from existing variation |
+| Direction of change             | Driven by organism"s needs and efforts                                  | Driven by environmental pressures selecting from existing variation |
 | Evidence                        | Discredited; no mechanism for inheritance of acquired traits            | Strongly supported by genetics, fossil record, molecular biology    |
 | Example                         | Giraffes stretch necks to reach leaves, longer necks inherited          | Giraffes with longer necks survive and reproduce more               |
 

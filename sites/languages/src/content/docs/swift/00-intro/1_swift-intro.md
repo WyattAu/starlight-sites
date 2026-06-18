@@ -1,6 +1,6 @@
 ---
 title: Introduction to Swift
-description: 'Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be...'
+description: "Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift
@@ -182,7 +182,7 @@ swift
 
 ## Swift Package Manager (SPM)
 
-SPM is Apple's built-in dependency management and build tool. It integrates with Xcode and works
+SPM is Apple"s built-in dependency management and build tool. It integrates with Xcode and works
 from the command line.
 
 ### Package Structure

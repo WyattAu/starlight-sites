@@ -3,7 +3,7 @@ title: Ising Model and Mean-Field Theory
 tags:
   - Physics
   - University
-description: 'The Ising model is the simplest model of interacting spins on a lattice. Each si Comprehensive educational content coverage with definitions and practice proble'
+description: "The Ising model is the simplest model of interacting spins on a lattice. Each si Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 12.1 The Ising Model
@@ -61,7 +61,7 @@ $$\beta zJ > 1 \implies T_c^{\text{MF} = \frac{zJ}{k_B}}$$
 
 ### 12.3 Exact Solution: 2D Ising Model (Onsager, 1944)
 
-Onsager's exact solution for the square lattice gives:
+Onsager"s exact solution for the square lattice gives:
 
 $$T_c = \frac{2J}{k_B \ln(1 + \sqrt{2})} \approx \frac{2.269J}{k_B}$$
 

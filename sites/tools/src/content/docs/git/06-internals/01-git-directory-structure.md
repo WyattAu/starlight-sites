@@ -1,6 +1,6 @@
 ---
 title: Git Directory Structure
-description: 'The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential...'
+description: "The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential...''
 date: 2025-06-03T12:00:00.000Z
 tags:
   - git
@@ -102,7 +102,7 @@ Used by GitWeb and GitLab to display a human-readable description of the reposit
 content:
 
 ```
-Unnamed repository; edit this file 'description' to name the repository.
+Unnamed repository; edit this file "description' to name the repository.
 ```
 
 ### info/exclude

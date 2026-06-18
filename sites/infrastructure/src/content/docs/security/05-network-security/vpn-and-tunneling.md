@@ -1,6 +1,6 @@
 ---
 title: VPN and Tunneling
-description: 'A VPN creates an encrypted tunnel between two endpoints over an untrusted network (the internet). The three core functions are:'
+description: "A VPN creates an encrypted tunnel between two endpoints over an untrusted network (the internet). The three core functions are: "''
 
 ---
 
@@ -33,7 +33,7 @@ Exchange and ChaCha20 for encryption.
 
 ### Core Concepts
 
-WireGuard uses **cryptokey routing**: each peer has a public/private key pair, and each peer's
+WireGuard uses **cryptokey routing**: each peer has a public/private key pair, and each peer"s
 Allowed IP addresses define which packets are routed through the tunnel.
 
 ```ini
@@ -575,7 +575,7 @@ sysctl -w net.ipv4.ip_forward=1
 ### DNS Resolution Failure After VPN Connect
 
 If DNS queries fail after connecting to the VPN, the client is not using the correct DNS server.
-Configure the VPN to push the correct DNS settings, or manually configure the client's DNS resolver.
+Configure the VPN to push the correct DNS settings, or manually configure the client"s DNS resolver.
 
 ### Not Using PersistentKeepalive
 

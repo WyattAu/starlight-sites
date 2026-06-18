@@ -1,6 +1,6 @@
 ---
 title: Control Flow
-description: 'In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble'
+description: "In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18
 tags:
   - Kotlin
@@ -33,7 +33,7 @@ Statement (as in Java) works without this constraint.
 
 ## when Expression
 
-`when` is Kotlin's replacement for the Java `switch` statement. It is an expression by default and
+`when` is Kotlin"s replacement for the Java `switch` statement. It is an expression by default and
 Supports arbitrary conditions, not just constant matching.
 
 ### Basic Matching

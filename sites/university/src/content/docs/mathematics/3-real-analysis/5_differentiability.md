@@ -3,14 +3,14 @@ title: Differentiability
 tags:
   - Mathematics
   - University
-description: 'Differentiability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Differentiability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 5.1 The Derivative
 
 **Definition.** $f : (a,b) \to \mathbb{R}$ is **differentiable at** $c \in (a,b)$ if the limit
 
-$$f'(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
+$$f"(c) = \lim_{h \to 0} \frac{f(c+h) - f(c)}{h}$$
 
 Exists (as a finite real number).
 

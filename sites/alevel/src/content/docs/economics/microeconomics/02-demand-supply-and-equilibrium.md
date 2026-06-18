@@ -1,6 +1,6 @@
 ---
 title: Demand, Supply and Equilibrium
-description: 'We define as the quantity of a good or service that consumers are _willing and able_ to Purchase at each possible price during a given time period, _ceteris...'
+description: "We define as the quantity of a good or service that consumers are _willing and able_ to Purchase at each possible price during a given time period, _ceteris...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -54,7 +54,7 @@ Therefore:
 
 $$\frac{MU_x}{MU_y} = \frac{P_x}{P_y} \implies \mathrm{MRS}_{xy} = \frac{P_x}{P_y}$$
 
-This equates the marginal rate of substitution (the consumer's internal valuation) with the price
+This equates the marginal rate of substitution (the consumer"s internal valuation) with the price
 Ratio (the market's valuation). Solving for $x$ as a function of $P_x$ (holding other parameters
 Constant) yields the **individual demand curve** $x = d_i(P_x)$.
 

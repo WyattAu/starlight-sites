@@ -1,6 +1,6 @@
 ---
 title: Statistics and Probability
-description: 'Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+description: "Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -33,7 +33,7 @@ $$
 S = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
 $$
 
-The divisor $n-1$ (Bessel's correction) gives an unbiased estimate of the population standard
+The divisor $n-1$ (Bessel"s correction) gives an unbiased estimate of the population standard
 Deviation. With $n$ in the denominator, the sample standard deviation systematically underestimates
 The population parameter.
 

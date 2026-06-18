@@ -1,6 +1,6 @@
 ---
-title: 'Differential Equations'
-description: 'IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods.'
+title: "Differential Equations''
+description: "IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."'
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -157,7 +157,7 @@ $$y = e^{\alpha x}\bigl(A\cos\beta x + B\sin\beta x\bigr)$$
 
 ### Worked Examples
 
-**Example.** Solve $y'' - 5y' + 6y = 0$.
+**Example.** Solve $y"' - 5y' + 6y = 0$.
 
 Characteristic equation: $\lambda^2 - 5\lambda + 6 = 0 \implies (\lambda - 2)(\lambda - 3) = 0$.
 

@@ -1,6 +1,6 @@
 ---
-title: 'Mechanics -- Diagnostic Tests'
-description: 'QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
+title: "Mechanics -- Diagnostic Tests''
+description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."'
 tableOfContents: false
 ---
 
@@ -66,7 +66,7 @@ constant speed but changing velocity because its direction is continuously chang
 
 ---
 
-### UT-2: Forces and Newton's Laws
+### UT-2: Forces and Newton"s Laws
 
 **Question:**
 

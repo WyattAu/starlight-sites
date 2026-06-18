@@ -1,6 +1,6 @@
 ---
 title: Linked Lists, Stacks, and Queues
-description: 'A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;...'
+description: "A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;...''
 
 ---
 
@@ -90,7 +90,7 @@ def reverse_recursive(head):
     return new_head
 ```
 
-### Cycle Detection (Floyd's Tortoise and Hare)
+### Cycle Detection (Floyd"s Tortoise and Hare)
 
 Floyd's algorithm uses two pointers moving at different speeds. If there is a cycle, the fast
 Pointer will eventually catch up to the slow pointer.
@@ -392,9 +392,9 @@ def is_valid_parentheses(s):
     Time: O(n), Space: O(n)
     """
     stack = []
-    matching = {')': '(', ']': '[', '}': '{'}
+    matching = {')': "('', "]': "['', "}': "{''}
     for c in s:
-        if c in '([{':
+        if c in "([{':
             stack.append(c)
         elif c in ')]}':
             if not stack or stack[-1] != matching[c]:

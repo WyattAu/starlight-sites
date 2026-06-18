@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: 'Dart draws a sharp line between two families of throwable objects: and . This is Not a stylistic preference — it is a semantic contract. means "something...'
+description: "Dart draws a sharp line between two families of throwable objects: and . This is Not a stylistic preference — it is a semantic contract. means "something...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -48,7 +48,7 @@ Object
   can catch this, log it, show a user-facing message, retry, or fall back to a default value.
 - **`Error`** — The program is in a state that should never exist if the code were correct. A null
   dereference where null safety should have prevented it. A stack overflow from infinite recursion.
-  An out-of-memory condition. Catching these is dangerous because the program's internal state is
+  An out-of-memory condition. Catching these is dangerous because the program"s internal state is
   unknown and possibly corrupted.
 
 ### When to Catch vs Let Propagate
@@ -214,7 +214,7 @@ class UserParseException implements Exception {
   @override
   String toString() =>
       'UserParseException: $message (userId=$userId)'
-      '${cause != null ? ', caused by: $cause' : ''}';
+      '${cause != null ? ', caused by: $cause' : "''}";
 }
 ```
 
@@ -252,9 +252,9 @@ class NetworkException extends AppException {
   @override
   String toString() =>
       'NetworkException: $message'
-      '${uri != null ? ' (uri=$uri)' : ''}'
-      '${statusCode != null ? ' (status=$statusCode)' : ''}'
-      '${cause != null ? ' — caused by $cause' : ''}';
+      '${uri != null ? ' (uri=$uri)' : "''}"
+      '${statusCode != null ? ' (status=$statusCode)' : "''}"
+      '${cause != null ? ' — caused by $cause' : "''}";
 }
 
 class ValidationException extends AppException {

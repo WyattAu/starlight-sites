@@ -1,6 +1,6 @@
 ---
 title: Nervous System
-description: 'Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action...'
+description: "Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -570,7 +570,7 @@ oblongata**.
 | Component       | Description                                                                                       | Function                                                                                                                          |
 | --------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Sclera          | Tough, white, fibrous outer layer of the eye                                                      | Protects the eye; provides attachment points for the extrinsic muscles that move the eye                                          |
-| Cornea          | Transparent front part of the sclera; curved                                                      | Refracts (bends) light as it enters the eye; provides most of the eye's focusing power (~2/3 of the total refraction)             |
+| Cornea          | Transparent front part of the sclera; curved                                                      | Refracts (bends) light as it enters the eye; provides most of the eye"s focusing power (~2/3 of the total refraction)             |
 | Conjunctiva     | Thin, transparent membrane covering the sclera and inner eyelids                                  | Protects and lubricates the eye surface                                                                                           |
 | Iris            | Coloured ring of muscle tissue behind the cornea                                                  | Controls the size of the pupil; regulates the amount of light entering the eye                                                    |
 | Pupil           | Hole in the centre of the iris                                                                    | Allows light to pass through to the retina                                                                                        |

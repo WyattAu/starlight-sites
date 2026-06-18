@@ -1,6 +1,6 @@
 ---
 title: CMake Targets Properties and Generator Expressions
-description: 'Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks...'
+description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks...''
 date: 2025-12-10T05:41:36.284Z
 tags:
   - cpp
@@ -47,7 +47,7 @@ You must specify the scope of the dependency.
 | :------------ | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
 | **PRIVATE**   | **Build Requirement.** Used internally to build the target, but not exposed to consumers. | Implementation details (e.g., a specific math algorithm used inside a function). |
 | **INTERFACE** | **Usage Requirement.** Not used to build the target itself, but required by consumers.    | Header-only libraries, or headers defining template interfaces.                  |
-| **PUBLIC**    | **Both.** Used to build the target AND required by consumers.                             | Public headers included in the library's public headers.                         |
+| **PUBLIC**    | **Both.** Used to build the target AND required by consumers.                             | Public headers included in the library"s public headers.                         |
 
 #### Implementation Example
 

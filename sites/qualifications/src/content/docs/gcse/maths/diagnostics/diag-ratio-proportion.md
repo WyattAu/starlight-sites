@@ -1,6 +1,6 @@
 ---
-title: 'Ratio, Proportion, and Rates of Change -- Diagnostic Tests'
-description: '(a) Divide in the ratio 2:3:7. (b) The ratio of boys to girls in a class is 5:3. If there are 15 girls, how many boys are there? (c) A recipe for 6 people...'
+title: "Ratio, Proportion, and Rates of Change -- Diagnostic Tests''
+description: "(a) Divide in the ratio 2:3:7. (b) The ratio of boys to girls in a class is 5:3. If there are 15 girls, how many boys are there? (c) A recipe for 6 people..."'
 tableOfContents: false
 ---
 
@@ -119,7 +119,7 @@ $r_1^2 h_1 = r_2^2 \times \frac{h_1}{2}$. $r_2^2 = 2r_1^2$. $r_2 = r_1\sqrt{2}$.
 $r_1 : r_2 = 1 : \sqrt{2}$.
 
 (d) Cutting at half height ($h = 5$ cm): by similarity, the top piece is a cone with radius
-$r' = 6/2 = 3$ cm and height $h' = 5$ cm. Volume of top $= \frac{1}{3}\pi(9)(5) = 15\pi$ cm$^3$.
+$r" = 6/2 = 3$ cm and height $h' = 5$ cm. Volume of top $= \frac{1}{3}\pi(9)(5) = 15\pi$ cm$^3$.
 Mass $= 8.5 \times 15\pi = 127.5\pi \approx 400.6$ g.
 
 ### IT-3: Exchange Rates and Best Value (with Number)

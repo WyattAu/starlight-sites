@@ -2,7 +2,7 @@
 title: Separation Axioms
 tags:
   - University Maths
-description: 'Separation axioms formalise how well points and closed sets can be "separated" b Comprehensive educational content coverage with definitions and practice proble'
+description: "Separation axioms formalise how well points and closed sets can be "separated" b Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 8.1 Overview
@@ -49,7 +49,7 @@ $F_1, F_2$, there exist disjoint open sets $U, V$ with $F_1 \subseteq U$ and $F_
 
 **Proposition 8.6.** Every compact Hausdorff space is normal.
 
-### 8.6 Urysohn's Lemma
+### 8.6 Urysohn"s Lemma
 
 **Theorem 8.1 (Urysohn's Lemma).** If $X$ is normal and $F_1, F_2$ are disjoint closed subsets, then
 there exists a continuous function $f : X \to [0, 1]$ with $f|_{F_1} = 0$ and $f|_{F_2} = 1$.

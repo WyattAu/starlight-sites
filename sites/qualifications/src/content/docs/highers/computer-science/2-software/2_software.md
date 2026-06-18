@@ -1,6 +1,6 @@
 ---
 title: Software Design and Development
-description: 'Scottish Highers Computer Science Software Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "Scottish Highers Computer Science Software Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -258,7 +258,7 @@ factorial :: Integer -> Integer
 factorial 0 = 1
 factorial n = n * factorial (n - 1)
 
-map' :: (a -> b) -> [a] -> [b]
+map" :: (a -> b) -> [a] -> [b]
 map' _ []     = []
 map' f (x:xs) = f x : map' f xs
 

@@ -3,7 +3,7 @@ title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
-description: 'Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls.'
+description: "Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls.''
 ---
 
 ### 5.1 Group Homomorphisms
@@ -50,7 +50,7 @@ $$G / \ker(\phi) \cong H$$
 More generally (even if $\phi$ is not surjective), $G / \ker(\phi) \cong \mathrm{im}(\phi)$.
 
 _Proof._ Define $\overline{\phi} : G/\ker(\phi) \to H$ by $\overline{\phi}(g \ker(\phi)) = \phi(g)$.
-This is well-defined: if $g \ker(\phi) = g' \ker(\phi)$Then $g'^{-1}g \in \ker(\phi)$ So
+This is well-defined: if $g \ker(\phi) = g" \ker(\phi)$Then $g'^{-1}g \in \ker(\phi)$ So
 $\phi(g'^{-1}g) = e_H$Giving $\phi(g) = \phi(g')$. It is a homomorphism:
 $\overline{\phi}((a\ker(\phi))(b\ker(\phi))) = \overline{\phi}(ab\ker(\phi)) = \phi(ab) = \phi(a)\phi(b) = \overline{\phi}(a\ker(\phi))\overline{\phi}(b\ker(\phi))$.
 It is injective:

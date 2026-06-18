@@ -1,6 +1,6 @@
 ---
 title: Variables
-description: 'Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble'
+description: "Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-07-13T20:44:32.129Z
 tags:
   - dart
@@ -112,7 +112,7 @@ Nullable specifier, null will be treated as a absense of value and therefore can
 Instantiation checks with null:
 
 ```dart
-int? value; // initialized to 'null'
+int? value; // initialized to "null'
 
 // This null-check ensures that 'value' is not 'null'
 if (value != null) {
@@ -197,7 +197,7 @@ infront of the string:
  <iframe
  width="100%"
  height="500"
- src="https://godbolt.org/e#g:!((g:!((g:!((h:codeEditor,i:(filename:'1',fontScale:12,fontUsePx:'0',j:1,lang:dart,selection:(endColumn:1,endLineNumber:9,positionColumn:1,positionLineNumber:9,selectionStartColumn:1,selectionStartLineNumber:9,startColumn:1,startLineNumber:9),source:'const+String+n1+%3D+%22hello%22%3B%0A%0Avoid+main()+%7B%0A++++const+String+n2+%3D+%22This+is+a%5Cn+sentence,+$%7Bn1%7D%22%3B%0A++++print+(n2)%3B%0A++++const+String+n3+%3D+r%22This+is+a%5Cn+sentence,+$%7Bn1%7D%22%3B%0A++++print+(n3)%3B%0A%7D%0A'),l:'5',n:'0',o:'Dart+source+%231',t:'0')),k:50,l:'4',m:50,n:'0',o:'',s:0,t:'0'),(g:!((h:compiler,i:(compiler:dart373,filters:(b:'0',binary:'1',binaryObject:'1',commentOnly:'0',debugCalls:'1',demangle:'0',directives:'0',execute:'0',intel:'0',libraryCode:'0',trim:'1',verboseDemangling:'0'),flagsViewOpen:'1',fontScale:12,fontUsePx:'0',j:1,lang:dart,libs:!(),options:'',overrides:!(),selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l:'5',n:'0',o:'+Dart+3.7.3+(Editor+%231)',t:'0'),(h:output,i:(compilerName:'x86-64+gcc+14.2',editorid:1,fontScale:14,fontUsePx:'0',j:1,wrap:'1'),l:'5',n:'0',o:'Output+of+Dart+3.7.3+(Compiler+%231)',t:'0')),header:(),l:'4',m:50,n:'0',o:'',s:1,t:'0')),k:100,l:'3',n:'0',o:'',t:'0')),version:4"
+ src="https://godbolt.org/e#g:!((g:!((g:!((h:codeEditor,i:(filename: "1'',fontScale:12,fontUsePx:"0',j:1,lang:dart,selection:(endColumn:1,endLineNumber:9,positionColumn:1,positionLineNumber:9,selectionStartColumn:1,selectionStartLineNumber:9,startColumn:1,startLineNumber:9),source: "const+String+n1+%3D+%22hello%22%3B%0A%0Avoid+main()+%7B%0A++++const+String+n2+%3D+%22This+is+a%5Cn+sentence,+$%7Bn1%7D%22%3B%0A++++print+(n2)%3B%0A++++const+String+n3+%3D+r%22This+is+a%5Cn+sentence,+$%7Bn1%7D%22%3B%0A++++print+(n3)%3B%0A%7D%0A''),l:"5',n: "0'',o:"Dart+source+%231',t: "0'')),k:50,l:"4',m:50,n: "0'',o:"',s:0,t: "0''),(g:!((h:compiler,i:(compiler:dart373,filters:(b:"0',binary: "1'',binaryObject:"1',commentOnly: "0'',debugCalls:"1',demangle: "0'',directives:"0',execute: "0'',intel:"0',libraryCode: "0'',trim:"1',verboseDemangling: "0''),flagsViewOpen:"1',fontScale:12,fontUsePx: "0'',j:1,lang:dart,libs:!(),options:"',overrides:!(),selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l: "5'',n:"0',o: "+Dart+3.7.3+(Editor+%231)'',t:"0'),(h:output,i:(compilerName: "x86-64+gcc+14.2'',editorid:1,fontScale:14,fontUsePx:"0',j:1,wrap: "1''),l:"5',n: "0'',o:"Output+of+Dart+3.7.3+(Compiler+%231)',t: "0'')),header:(),l:"4',m:50,n: "0'',o:"',s:1,t: "0'')),k:100,l:"3',n: "0'',o:"',t: "0'')),version:4"
  title="Compiler Explorer"
  sandbox="allow-scripts allow-same-origin"
  loading="lazy"
@@ -213,7 +213,7 @@ Shown bellow.
 Instead of:
 
 ```dart
-var text = '';
+var text = "';
 for(var i = 0; i < 100000; ++i) {
   text += '$i, \n';
 }
@@ -268,18 +268,18 @@ print(point.$1); // 10
 print(point.$2); // 20
 
 // Named fields
-var user = (name: 'Wyatt', age: 22);
+var user = (name: "Wyatt'', age: 22);
 print(user.name); // Wyatt
 print(user.age);  // 22
 
 // Mixed positional and named
-var record = ('hello', count: 42, pi: 3.14);
+var record = ("hello', count: 42, pi: 3.14);
 print(record.$1);    // 'hello'
 print(record.count); // 42
 
 // Typed records
 (int, String) pair = (1, 'a');
-({String name, int age}) person = (name: 'Wyatt', age: 22);
+({String name, int age}) person = (name: "Wyatt'', age: 22);
 
 // Records in function returns (replacing the need for custom classes)
 (int min, int max) getBounds(List<int> data) {
@@ -291,7 +291,7 @@ var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 :::info
 
 Records are **not classes** — they have no identity, only structural equality. Two records with the
-Same fields are equal: `(1, 'a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
+Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
 Cannot be extended.
 
 
@@ -319,7 +319,7 @@ print(sum(1, 2, 3)); // 6
 void configure({required String host, int port = 8080, bool secure = false}) {
   print('Connecting to ${secure ? "https" : "http"}://$host:$port');
 }
-configure(host: 'example.com', secure: true);
+configure(host: "example.com'', secure: true);
 
 // Functions as parameters (higher-order functions)
 void process(List<int> data, bool Function(int) predicate) {
@@ -357,7 +357,7 @@ var empty = <int>[];
 var numbers = [1, 2, 3, 4, 5];
 
 // Typed list (recommended over var)
-List<String> names = ['Alice', 'Bob'];
+List<String> names = ["Alice', 'Bob'];
 
 // Fixed-length list
 var fixed = List<int>.filled(3, 0);

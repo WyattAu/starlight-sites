@@ -1,6 +1,6 @@
 ---
 title: Monetary Policy
-description: 'Inflation is the sustained increase in the general price level over time. The primary measure is the , which tracks the price of a weighted basket of goods...'
+description: "Inflation is the sustained increase in the general price level over time. The primary measure is the , which tracks the price of a weighted basket of goods...''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -82,7 +82,7 @@ supply.
 - **Menu costs**: firms must frequently change prices, incurring administrative costs
 - **Shoe-leather costs**: individuals spend time and resources managing cash holdings to minimise
   the inflation tax
-- **International competitiveness**: if a country's inflation rate exceeds that of its trading
+- **International competitiveness**: if a country"s inflation rate exceeds that of its trading
   partners, its exports become less competitive and imports become relatively cheaper, worsening the
   current account
 - **Tax distortions**: if tax brackets are not indexed, inflation pushes taxpayers into higher

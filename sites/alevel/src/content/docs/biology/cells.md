@@ -1,6 +1,6 @@
 ---
 title: Cells
-description: 'The cell theory, developed by Schleiden and Schwann (1838--1839) and later refin Comprehensive educational content coverage with definitions and practice proble'
+description: "The cell theory, developed by Schleiden and Schwann (1838--1839) and later refin Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -246,7 +246,7 @@ Invade a host cell and hijack its metabolic machinery. The basic stages are:
 
 1. **Attachment**: the virus binds to specific receptor proteins on the host cell surface.
 2. **Injection/entry**: the viral genome enters the host cell (by endocytosis or fusion).
-3. **Replication**: the viral genome is replicated using the host's enzymes and nucleotides.
+3. **Replication**: the viral genome is replicated using the host"s enzymes and nucleotides.
 4. **Synthesis**: viral proteins are synthesised on the host's ribosomes.
 5. **Assembly**: new virions are assembled from the components.
 6. **Release**: virions leave the host cell by lysis (killing the cell) or budding (enveloped

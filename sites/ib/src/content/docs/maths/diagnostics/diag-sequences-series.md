@@ -1,6 +1,6 @@
 ---
-title: 'Sequences and Series -- Diagnostic Tests'
-description: 'IB Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Sequences and Series -- Diagnostic Tests''
+description: "IB Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
 tableOfContents: false
 ---
 

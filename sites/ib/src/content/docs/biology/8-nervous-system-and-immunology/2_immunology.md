@@ -1,6 +1,6 @@
 ---
 title: Immunology
-description: 'IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,'
+description: "IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -300,7 +300,7 @@ Connected by **disulfide bonds**. Each chain contains:
 
 - **Variable ($V$) regions**: at the N-terminus, unique to each B cell clone. The antigen-binding
   site is formed by the variable regions of one heavy and one light chain ($V_H$ and $V_L$),
-  creating a **paratope** complementary to the antigen's **epitope**.
+  creating a **paratope** complementary to the antigen"s **epitope**.
 - **Constant ($C$) regions**: determine the antibody class (isotype) and effector functions.
 
 Each antibody has **two identical antigen-binding sites** (bivalent), allowing cross-linking of

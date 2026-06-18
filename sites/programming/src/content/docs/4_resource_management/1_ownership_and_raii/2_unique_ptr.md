@@ -1,6 +1,6 @@
 ---
 title: Unique Ownership (std::unique_ptr) and EBO
-description: 'is the default smart pointer for exclusive ownership of heap-allocated objects. It Is zero-overhead relative to a raw pointer, supports custom deleters with...'
+description: "is the default smart pointer for exclusive ownership of heap-allocated objects. It Is zero-overhead relative to a raw pointer, supports custom deleters with...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -208,7 +208,7 @@ int main() {
     shapes.push_back(std::make_unique<Circle>(1.5));
 
     draw_shapes(shapes);
-    // Each Shape's correct destructor runs when the vector is destroyed.
+    // Each Shape"s correct destructor runs when the vector is destroyed.
     // Output:
     // Circle(r=5.000000) area=78.5398
     // Rect(3.000000x4.000000) area=12

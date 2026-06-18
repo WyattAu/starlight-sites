@@ -1,6 +1,6 @@
 ---
-title: 'Proof and Logic -- Diagnostic Tests'
-description: 'IB Maths Proof and Logic -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Proof and Logic -- Diagnostic Tests''
+description: "IB Maths Proof and Logic -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -19,7 +19,7 @@ both, or neither for $Q$:
 
 **(a)** $P$: "$n$ is divisible by $4$" and $Q$: "$n^2$ is divisible by $16$"
 
-**(b)** $P$: "$f''(x) \gt 0$ for all $x$" and $Q$: "$f$ is injective"
+**(b)** $P$: "$f"'(x) \gt 0$ for all $x$" and $Q$: "$f$ is injective"
 
 **(c)** $P$: "$\Delta = 0$" and $Q$: "The quadratic equation $ax^2 + bx + c = 0$ has exactly one
 real root"

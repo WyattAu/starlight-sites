@@ -1,6 +1,6 @@
 ---
 title: Automata and Formal Languages
-description: 'University Computer Science Automata and Formal Languages notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "University Computer Science Automata and Formal Languages notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -91,7 +91,7 @@ MINIMIZE(DFA):
     P = {F, Q \ F}
 
     repeat:
-        P' = {}
+        P" = {}
         for each group G in P:
             split G into subgroups where
                 for all a in Σ: δ(p,a) and δ(q,a) are in same group of P

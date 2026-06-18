@@ -1,6 +1,6 @@
 ---
 title: Networking
-description: '| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User...'
+description: "| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User...''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -69,7 +69,7 @@ $$C = 2B \log_2 V$$
 
 where $B$ = bandwidth (Hz), $V$ = signal levels.
 
-**Shannon's theorem** (noisy channel):
+**Shannon"s theorem** (noisy channel):
 
 $$C = B \log_2(1 + \text{SNR})$$
 

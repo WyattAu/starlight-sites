@@ -1,6 +1,6 @@
 ---
-title: 'Further Algebra -- Diagnostic Tests'
-description: 'A-Level Further Maths Further Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Further Algebra -- Diagnostic Tests''
+description: "A-Level Further Maths Further Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -24,7 +24,7 @@ $\beta = 1+i$, $\gamma = 1-i$.
 
 (c)
 $\alpha^2 + \beta^2 + \gamma^2 = (\alpha+\beta+\gamma)^2 - 2(\alpha\beta+\alpha\gamma+\beta\gamma)$.
-By Vieta's:
+By Vieta"s:
 $\alpha+\beta+\gamma = 3$$\alpha\beta+\alpha\gamma+\beta\gamma = 4$$\alpha\beta\gamma = 2$.
 $= 9 - 8 = 1$.
 

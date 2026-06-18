@@ -1,6 +1,6 @@
 ---
 title: Bonding
-description: 'ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice.'
+description: "ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice.''
 date: 2026-04-14
 tags:
   - ilc
@@ -100,7 +100,7 @@ Metals consist of a lattice of positive ions in a "sea" of delocalised electrons
 
 ### Pauling Scale
 
-Electronegativity is a measure of an atom's ability to attract bonding electrons.
+Electronegativity is a measure of an atom"s ability to attract bonding electrons.
 
 - $\Delta\mathrm{EN < 0.4$: non-polar covalent.
 - $0.4 \leq \Delta\mathrm{EN < 1.7$: polar covalent.

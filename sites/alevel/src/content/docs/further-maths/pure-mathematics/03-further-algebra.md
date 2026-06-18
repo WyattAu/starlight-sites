@@ -1,6 +1,6 @@
 ---
 title: Further Algebra
-description: 'Further algebra builds on the polynomial and algebraic techniques from A Level mathematics, Extending to partial fractions with irreducible quadratics, the...'
+description: "Further algebra builds on the polynomial and algebraic techniques from A Level mathematics, Extending to partial fractions with irreducible quadratics, the...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -568,7 +568,7 @@ $\sum\alpha\beta = \alpha\beta + \alpha\gamma + \alpha\delta + \beta\gamma + \be
 
 $= \alpha\beta + (\alpha + \beta)(\gamma + \delta) + \gamma\delta = 2 + (3)(-5) + \gamma\delta = 2 - 15 + \gamma\delta = -13 + \gamma\delta$.
 
-We need $\gamma\delta$. Since we don't have $\gamma\delta$ directly, $b = -13 + \gamma\delta$.
+We need $\gamma\delta$. Since we don"t have $\gamma\delta$ directly, $b = -13 + \gamma\delta$.
 
 $a = 2$ and $b$ depends on $\gamma\delta$ (which requires further information to determine).
 

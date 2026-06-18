@@ -1,6 +1,6 @@
 ---
-title: 'Differentiation -- Diagnostic Tests'
-description: 'A-Level Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Differentiation -- Diagnostic Tests''
+description: "A-Level Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -17,7 +17,7 @@ tableOfContents: false
 **(a)** Find $\frac{dy}{dx}$ when $y = \sin^2(e^{3x})$.
 
 **(b)** A student writes $\frac{dy}{dx} = 2\sin(e^{3x}) \cdot 3e^{3x}$. Identify the errors in the
-student's working.
+student"s working.
 
 **(c)** Find the value of $\frac{d^2y}{dx^2}$ when $x = 0$Giving an exact answer.
 

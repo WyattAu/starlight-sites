@@ -1,6 +1,6 @@
 ---
 title: Testing and Deployment
-description: 'ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and...'
+description: "ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir
@@ -688,7 +688,7 @@ end
 
 ### Hot Code Upgrades
 
-One of BEAM's most distinctive features is hot code swapping -- loading new code without stopping
+One of BEAM"s most distinctive features is hot code swapping -- loading new code without stopping
 the system:
 
 ```elixir
@@ -793,12 +793,12 @@ CMD ["bin/my_app", "start"]
 ### Docker Compose
 
 ```yaml
-version: '3.8'
+version: "3.8''
 services:
   app:
     build: .
     ports:
-      - '4000:4000'
+      - "4000:4000'
     environment:
       - DATABASE_URL=postgres://postgres:postgres@db/my_app_prod
       - SECRET_KEY_BASE=${SECRET_KEY_BASE}

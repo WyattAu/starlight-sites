@@ -3,7 +3,7 @@ title: Singularities and Residue Theory
 tags:
   - Mathematics
   - University
-description: 'Let be an isolated singularity of (i.e., is analytic in a punctured neighbourhoo Comprehensive educational content coverage with definitions and practice proble'
+description: "Let be an isolated singularity of (i.e., is analytic in a punctured neighbourhoo Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 8.1 Isolated Singularities
@@ -19,7 +19,7 @@ $z_0$).
    finite.
 3. **Essential singularity**: infinitely many non-zero $a_n$ with $n \lt 0$.
 
-**Proposition 8.1 (Riemann's Removable Singularity Theorem).** If $f$ is bounded near $z_0$Then
+**Proposition 8.1 (Riemann"s Removable Singularity Theorem).** If $f$ is bounded near $z_0$Then
 $z_0$ is a removable singularity.
 
 **Proposition 8.2.** $z_0$ is a pole of order $m$ if and only if $\lim_{z \to z_0} (z - z_0)^m f(z)$

@@ -1,6 +1,6 @@
 ---
 title: Standard Library Concepts
-description: 'The header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve As building blocks for user-defined constraints. These concepts...'
+description: "The header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve As building blocks for user-defined constraints. These concepts...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -415,7 +415,7 @@ int main() {
     std::cout << "filter view is view: "
               << std::ranges::view<decltype(transformed)> << "\n";
 
-    // string_view is a borrowed_range (it doesn't own data)
+    // string_view is a borrowed_range (it doesn"t own data)
     std::cout << "string_view is borrowed_range: "
               << std::ranges::borrowed_range<std::string_view> << "\n";
     return 0;

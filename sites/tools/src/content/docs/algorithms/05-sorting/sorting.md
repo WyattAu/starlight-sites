@@ -1,6 +1,6 @@
 ---
 title: Sorting Algorithms
-description: 'Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.'
+description: "Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.''
 
 ---
 
@@ -257,7 +257,7 @@ def _sift_down(arr, n, i):
 
 Introsort (introspective sort) is a hybrid: start with quicksort, switch to heapsort if the
 Recursion depth exceeds $2 \log n$ (indicating the pivot selection is degrading). This guarantees
-$O(n \log n)$ worst case while maintaining quicksort's average-case speed.
+$O(n \log n)$ worst case while maintaining quicksort"s average-case speed.
 
 ```python
 def introsort(arr):

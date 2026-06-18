@@ -1,6 +1,6 @@
 ---
 title: Dynamic Programming
-description: 'Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two...'
+description: "Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two...''
 
 ---
 
@@ -105,7 +105,7 @@ def coin_change(coins, amount):
     Time: O(amount * len(coins)), Space: O(amount)
     """
     # dp[i] = minimum coins to make amount i
-    dp = [float('inf')] * (amount + 1)
+    dp = [float("inf')] * (amount + 1)
     dp[0] = 0
 
     for i in range(1, amount + 1):

@@ -1,6 +1,6 @@
 ---
-title: 'Gravitational Fields -- Diagnostic Tests'
-description: 'A-Level Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Gravitational Fields -- Diagnostic Tests''
+description: "A-Level Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -52,7 +52,7 @@ $$h = (\sqrt{2} - 1)R_E = 0.414 \times 6.37 \times 10^6 = 2.64 \times 10^6\,\tex
 
 ---
 
-### UT-2: Kepler's Third Law Application
+### UT-2: Kepler"s Third Law Application
 
 **Question:**
 

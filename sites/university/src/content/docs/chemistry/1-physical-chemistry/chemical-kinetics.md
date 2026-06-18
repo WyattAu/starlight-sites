@@ -1,6 +1,6 @@
 ---
 title: Chemical Kinetics
-description: 'For the reaction , the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "For the reaction , the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -83,7 +83,7 @@ $$\frac{1}{[A]} = \frac{1}{[A]_0} + kt$$
 
 When one reactant is in large excess ($[B]_0 \gg [A]_0$):
 
-$$v = k[A][B] \approx k'[A]$$
+$$v = k[A][B] \approx k"[A]$$
 
 where $k' = k[B]_0$ is the pseudo-first-order rate constant.
 

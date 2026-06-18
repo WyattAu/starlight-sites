@@ -1,6 +1,6 @@
 ---
 title: Sociocultural Level of Analysis
-description: 'This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour.'
+description: "This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour.''
 
 ---
 
@@ -29,7 +29,7 @@ demonstrate that many phenomena considered universal are in fact culturally vari
 
 Social identity theory (Tajfel and Turner, 1979) provides the theoretical backbone of SCLOA. It
 explains intergroup behaviour through three processes: social categorisation (dividing the world
-into "us" and "them"), social identification (adopting the in-group's norms as one's own), and
+into "us" and "them"), social identification (adopting the in-group"s norms as one's own), and
 social comparison (evaluating the in-group favourably relative to out-groups). The minimal group
 paradigm (Tajfel et al., 1971) demonstrates that mere categorisation is sufficient to produce
 in-group favouritism, while Sherif's (1966) Robbers Cave experiment shows how real competition over

@@ -1,6 +1,6 @@
 ---
 title: Probability
-description: 'Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability...'
+description: "Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability...''
 date: 2025-06-03T12:07:31.077Z
 tags:
   - Maths
@@ -25,7 +25,7 @@ Probability distributions.
 | $P(A \mid B)$     | Conditional probability of $A$ given $B$     |
 | $A \cap B$        | Intersection: both $A$ and $B$ occur         |
 | $A \cup B$        | Union: $A$ or $B$ or both occur              |
-| $A'$ or $\bar{A}$ | Complement of $A$: $A$ does not occur        |
+| $A"$ or $\bar{A}$ | Complement of $A$: $A$ does not occur        |
 | $A \subseteq B$   | $A$ is a subset of $B$                       |
 | $\emptyset$       | Empty set (impossible event)                 |
 | $S$ or $\Omega$   | Sample space (universal set of all outcomes) |

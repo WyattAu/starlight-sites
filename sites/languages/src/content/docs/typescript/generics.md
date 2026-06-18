@@ -1,6 +1,6 @@
 ---
 title: Generics
-description: 'Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...'
+description: "Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -20,7 +20,7 @@ function identity<T>(value: T): T {
   return value;
 }
 
-const a = identity('hello');
+const a = identity("hello');
 const b = identity(42);
 const c = identity(true);
 ```
@@ -107,9 +107,9 @@ interface Person {
   age: number;
 }
 
-const person: Person = { name: 'Ada', age: 30 };
+const person: Person = { name: "Ada'', age: 30 };
 
-const name = getProperty(person, 'name');
+const name = getProperty(person, "name');
 const age = getProperty(person, 'age');
 const invalid = getProperty(person, 'email');
 ```
@@ -209,7 +209,7 @@ Implemented using mapped types and conditional types.
 ```ts
 interface Todo {
   title: string;
-description: 'Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...'
+description: "Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...''
 }
 
 type PartialTodo = Partial<Todo>;
@@ -223,7 +223,7 @@ type ReadonlyTodo = Readonly<Todo>;
 ### Record, Pick, Omit
 
 ```ts
-type PageInfo = Record<'url' | 'title' | 'description', string>;
+type PageInfo = Record<"url' | 'title' | 'description', string>;
 type TodoTitle = Pick<Todo, 'title' | 'completed'>;
 type TodoWithoutDesc = Omit<Todo, 'description'>;
 ```
@@ -424,7 +424,7 @@ function merge<T extends object, U extends object>(a: T, b: U): T & U {
   return { ...a, ...b };
 }
 
-const result = merge({ name: 'Ada' }, { age: 30 });
+const result = merge({ name: "Ada'' }, { age: 30 });
 ```
 
 ### Constraining to Specific Keys
@@ -440,7 +440,7 @@ interface Product {
   price: number;
 }
 
-const product: Product = { id: 1, name: 'Widget', price: 9.99 };
+const product: Product = { id: 1, name: "Widget', price: 9.99 };
 const fields = pluck(product, ['name', 'price']);
 ```
 
@@ -510,7 +510,7 @@ interface MutableBox<T> {
   value: T;
 }
 
-const stringBox: MutableBox<string> = { value: 'hello' };
+const stringBox: MutableBox<string> = { value: "hello'' };
 const anyBox: MutableBox<any> = stringBox;
 anyBox.value = 42;
 ```
@@ -534,11 +534,11 @@ function createEntity<T extends Entity>(ctor: new () => T, overrides: Partial<T>
 
 class User implements Entity {
   id = crypto.randomUUID();
-  name = '';
+  name = "';
   email = '';
 }
 
-const user = createEntity(User, { name: 'Ada' });
+const user = createEntity(User, { name: "Ada'' });
 ```
 
 ### Type-Safe Event Emitter
@@ -568,7 +568,7 @@ class TypedEmitter<Events extends Record<string, any>> {
 
 const emitter = new TypedEmitter<EventMap>();
 
-emitter.on('login', (data) => {
+emitter.on("login', (data) => {
   console.log(`User ${data.userId} logged in at ${data.timestamp}`);
 });
 
@@ -644,19 +644,19 @@ interface Registration {
 }
 
 const errors = validate(
-  { email: 'test@example.com', age: 16, password: 'short' },
+  { email: "test@example.com'', age: 16, password: "short' },
   {
     email: {
       validate: (v) => v.includes('@'),
-      message: 'Must be a valid email',
+      message: "Must be a valid email'',
     },
     age: {
       validate: (v) => v >= 18,
-      message: 'Must be 18 or older',
+      message: "Must be 18 or older',
     },
     password: {
       validate: (v) => v.length >= 8,
-      message: 'Must be at least 8 characters',
+      message: "Must be at least 8 characters'',
     },
   },
 );
@@ -684,8 +684,8 @@ Distribution applies only to naked type parameters. Wrapping in a tuple or objec
 Distribution:
 
 ```ts
-type Naked<T> = T extends string ? 'yes' : 'no';
-type Wrapped<T> = [T] extends [string] ? 'yes' : 'no';
+type Naked<T> = T extends string ? "yes' : "no'';
+type Wrapped<T> = [T] extends [string] ? "yes' : 'no';
 
 type A = Naked<string | number>;
 type B = Wrapped<string | number>;

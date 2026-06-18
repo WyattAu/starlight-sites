@@ -1,6 +1,6 @@
 ---
-title: 'Energy and Work -- Diagnostic Tests'
-description: 'A-Level Maths Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Energy and Work -- Diagnostic Tests''
+description: "A-Level Maths Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -52,7 +52,7 @@ $$W_{\text{net}} = \Delta\mathrm{KE} = \frac{1}{2}mv^2 - 0$$
 
 $$597.8 = \frac{1}{2}(10)v^2 \implies v^2 = 119.56 \implies v \approx 10.93 \text{ m/s}$$
 
-**(d)** The student's formula $\mu mgd = 0.5 \times 98 \times 15 = 735$ J.
+**(d)** The student"s formula $\mu mgd = 0.5 \times 98 \times 15 = 735$ J.
 
 This is wrong because the student used $R = mg = 98$ N, ignoring the fact that the upward component
 of the applied force reduces the normal reaction.

@@ -1,6 +1,6 @@
 ---
 title: Concurrency
-description: 'means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once...'
+description: "means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell
@@ -31,7 +31,7 @@ monadic contexts (like `IORef` or `MVar`), and Haskell provides safe abstraction
 
 ## forkIO: Lightweight Threads
 
-Haskell's `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
+Haskell"s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
 threads):
 
 ```haskell

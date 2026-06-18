@@ -1,6 +1,6 @@
 ---
 title: Bonding & Structure
-description: 'Chemical bonding is the consequence of electrostatic interactions between nuclei and electrons that result in a lower-energy arrangement than the separated...'
+description: "Chemical bonding is the consequence of electrostatic interactions between nuclei and electrons that result in a lower-energy arrangement than the separated...''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -66,7 +66,7 @@ The **lattice enthalpy** $\Delta H_\mathrm{lat}$ is the enthalpy change when one
 compound is formed from its gaseous ions under standard conditions. It is always exothermic
 (negative).
 
-Born-Haber cycles apply Hess's Law to determine lattice enthalpies indirectly, since they cannot be
+Born-Haber cycles apply Hess"s Law to determine lattice enthalpies indirectly, since they cannot be
 measured directly. The cycle for $\mathrm{NaCl}$ is:
 
 $$

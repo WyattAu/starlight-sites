@@ -1,6 +1,6 @@
 ---
-title: 'Paper 2 -- Statistics -- Full Diagnostic Exam'
-description: 'Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls.'
+title: "Paper 2 -- Statistics -- Full Diagnostic Exam''
+description: "Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."'
 tableOfContents: false
 ---
 
@@ -58,7 +58,7 @@ hundreds of pounds) for 7 households:
 the PMCC of $u$ and $v$ will be different from the PMCC of $x$ and $y$ because "the units have
 changed." Determine whether this claim is correct, and explain your reasoning. [2 marks]
 
-**(c)** Calculate Spearman's rank correlation coefficient for the original data. [2 marks]
+**(c)** Calculate Spearman"s rank correlation coefficient for the original data. [2 marks]
 
 **(d)** Explain why the PMCC is the more appropriate measure of correlation here rather than
 Spearman's rank coefficient, and state one scenario where Spearman's rank would be preferred. [2

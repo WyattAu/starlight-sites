@@ -1,6 +1,6 @@
 ---
-title: 'Thermodynamics and Energetics -- Diagnostic Tests'
-description: 'A-Level Chemistry Thermodynamics and Energetics -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Thermodynamics and Energetics -- Diagnostic Tests''
+description: "A-Level Chemistry Thermodynamics and Energetics -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -45,7 +45,7 @@ Two routes from elements to ionic solid:
 6. Second electron affinity of O: $+798$
 7. Lattice energy (LE): $\Delta H_{\text{latt}}$
 
-By Hess's law: Route 1 = Route 2
+By Hess"s law: Route 1 = Route 2
 
 $$-602 = 148 + 249 + 738 + 1451 - 141 + 798 + \Delta H_{\text{latt}}$$
 

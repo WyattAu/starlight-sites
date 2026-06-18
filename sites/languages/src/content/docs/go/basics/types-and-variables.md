@@ -1,6 +1,6 @@
 ---
 title: Types and Variables
-description: 'Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-04-18
 tags:
   - Go
@@ -32,7 +32,7 @@ var y int64 = 42
 
 ### Integer Overflow
 
-Go integers wrap around on overflow in the same manner as two's complement arithmetic. The compiler
+Go integers wrap around on overflow in the same manner as two"s complement arithmetic. The compiler
 Does not insert runtime checks:
 
 ```go

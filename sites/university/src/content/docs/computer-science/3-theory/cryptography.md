@@ -1,6 +1,6 @@
 ---
 title: Cryptography
-description: 'University Computer Science Cryptography notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+description: "University Computer Science Cryptography notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -20,7 +20,7 @@ categories:
 | **Authentication** | Impersonation                       |
 | **Non-repudiation** | Denying having sent a message      |
 
-### 1.2 Kerckhoffs' Principle
+### 1.2 Kerckhoffs" Principle
 
 A cryptosystem should be secure even if everything about the system (except the key) is known to the adversary.
 

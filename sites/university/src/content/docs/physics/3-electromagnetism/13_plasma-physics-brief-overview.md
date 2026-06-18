@@ -1,9 +1,9 @@
 ---
-title: 'Plasma Physics: Brief Overview'
+title: "Plasma Physics: Brief Overview''
 tags:
   - Physics
   - University
-description: 'A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems."'
 ---
 
 ### 13.1 Debye Shielding in Plasmas
@@ -32,7 +32,7 @@ wave has $\omega^2 = k^2 c_s^2/(1 + k^2\lambda_D^2)$ where $c_s = \sqrt{k_BT/m_i
 
 ## Worked Examples
 
-### Example 1: Gauss's law
+### Example 1: Gauss"s law
 
 **Problem.** A uniformly charged sphere of radius $R$ has total charge $Q$. Find $E$ inside and
 outside.

@@ -1,6 +1,6 @@
 ---
 title: Molecular Biology
-description: 'IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation.'
+description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -123,7 +123,7 @@ Alpha-carbon bonded to:
 - An **amino group** ($\mathrm{NH}_2$)
 - A **carboxyl group** ($\mathrm{COOH}$)
 - A hydrogen atom
-- A variable **R group** (side chain) that determines the amino acid's properties
+- A variable **R group** (side chain) that determines the amino acid"s properties
 
 **Peptide bonds** form between the carboxyl group of one amino acid and the amino group of another
 Via a condensation reaction. Hydrolysis breaks peptide bonds.

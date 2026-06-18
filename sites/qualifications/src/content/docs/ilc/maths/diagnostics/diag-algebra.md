@@ -1,6 +1,6 @@
 ---
-title: 'Algebra -- Diagnostic Tests'
-description: 'Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Algebra -- Diagnostic Tests''
+description: "Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -189,7 +189,7 @@ always a multiple of 4.
 
 **Question:**
 
-(a) A company's profits increase by $\pounds 5000$ each year. In the first year, profits are
+(a) A company"s profits increase by $\pounds 5000$ each year. In the first year, profits are
 $\pounds 20000$. In which year will the profits first exceed $\pounds 100000$?
 
 (b) The half-life of a radioactive substance is 8 days. If a sample initially contains

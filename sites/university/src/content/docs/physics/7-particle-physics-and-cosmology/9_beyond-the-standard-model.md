@@ -3,7 +3,7 @@ title: Beyond the Standard Model
 tags:
   - Physics
   - University
-description: 'Supersymmetry relates fermions and bosons: every SM particle has a superpartner  Comprehensive educational content coverage with definitions and practice proble'
+description: "Supersymmetry relates fermions and bosons: every SM particle has a superpartner  Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 9.1 Supersymmetry (SUSY)
@@ -114,7 +114,7 @@ Experimental reach.
 3. **Brane world scenarios.** In some string theory constructions, our four-dimensional universe is
    a "brane" embedded in a higher-dimensional "bulk." Standard Model particles are confined to the
    brane, while gravity can propagate into the bulk. This can lead to observable signatures such as
-   deviations from Newton's law at short distances or the production of Kaluza--Klein gravitons at
+   deviations from Newton"s law at short distances or the production of Kaluza--Klein gravitons at
    colliders.
 
 4. **AdS/CFT correspondence.** String theory in anti-de Sitter space is equivalent to a conformal

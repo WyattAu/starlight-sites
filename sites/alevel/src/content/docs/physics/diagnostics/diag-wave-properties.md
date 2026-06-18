@@ -1,6 +1,6 @@
 ---
-title: 'Wave Properties -- Diagnostic Tests'
-description: 'A-Level Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Wave Properties -- Diagnostic Tests''
+description: "A-Level Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -100,7 +100,7 @@ At a minimum ($\Delta x = (n + 0.5)\lambda$): $A = 0$ and $I = 0$.
 
 ---
 
-### UT-3: Polarisation and Malus's Law
+### UT-3: Polarisation and Malus"s Law
 
 **Question:**
 

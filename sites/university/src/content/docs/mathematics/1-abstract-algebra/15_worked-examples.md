@@ -3,7 +3,7 @@ title: Worked Examples
 tags:
   - Mathematics
   - University
-description: 'Show that has no normal subgroup of order 8. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Show that has no normal subgroup of order 8. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 15.1 Group Theory Example
@@ -104,7 +104,7 @@ at least one of $n_r = 1$ or $n_q = 1$ must hold, giving a normal Sylow subgroup
 <details>
 <summary>Solution</summary>
 
-_Solution._ $|G| = 10 = 2 \cdot 5$. By Sylow's third theorem: $n_5 \equiv 1 \pmod{5}$ and $n_5$
+_Solution._ $|G| = 10 = 2 \cdot 5$. By Sylow"s third theorem: $n_5 \equiv 1 \pmod{5}$ and $n_5$
 Divides $2$So $n_5 = 1$. The Sylow $5$-subgroup $P = \langle a \rangle \cong \mathbb{Z}/5\mathbb{Z}$
 is normal.
 

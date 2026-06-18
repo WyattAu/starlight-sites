@@ -1,6 +1,6 @@
 ---
 title: International Trade and Finance
-description: 'A country has an in producing a good if it can produce more of that good with The same amount of resources, or use fewer resources to produce the same...'
+description: "A country has an in producing a good if it can produce more of that good with The same amount of resources, or use fewer resources to produce the same...''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Economics]
 categories: [DSE, Economics]
@@ -146,7 +146,7 @@ Comparative advantage arises from differences between countries in:
 
 ### Definition
 
-The **terms of trade (TOT)** is the ratio of a country's export prices to its import prices. It
+The **terms of trade (TOT)** is the ratio of a country"s export prices to its import prices. It
 Measures how many units of imports a country can buy with one unit of exports.
 
 $$\mathrm{Terms of Trade} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import Prices}} \times 100$$

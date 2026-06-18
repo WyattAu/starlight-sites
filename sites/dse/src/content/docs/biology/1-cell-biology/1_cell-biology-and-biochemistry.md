@@ -1,6 +1,6 @@
 ---
 title: Biology - Cell Biology and Biochemistry
-description: '1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise...'
+description: "1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise...''
 
 ---
 
@@ -253,7 +253,7 @@ General formula: $\mathrm{C}_x(\mathrm{H}_2\mathrm{O})_y$
 
 **Tests for carbohydrates:**
 
-- **Benedict's test:** Reducing sugars (e.g., glucose) produce a brick-red precipitate when heated
+- **Benedict"s test:** Reducing sugars (e.g., glucose) produce a brick-red precipitate when heated
   with Benedict's reagent
 - **Iodine test:** Starch turns blue-black
 

@@ -1,6 +1,6 @@
 ---
 title: Error Handling Patterns
-description: 'Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across...'
+description: "Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across...''
 
 ---
 
@@ -61,7 +61,7 @@ impl fmt::Display for AppError {
 }
 
 impl std::error::Error for AppError {
-    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+    fn source(&self) -> Option<&(dyn std::error::Error + "static)> {
         match self {
             AppError::Io(e) => Some(e),
             AppError::Parse(e) => Some(e),

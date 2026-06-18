@@ -5,7 +5,7 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description: 'This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured...'
+description: "This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured...''
 ---
 
 This document builds on the coroutine fundamentals covered in
@@ -398,7 +398,7 @@ flow { emit(fetchData()) }
 
 ### CoroutineScope Lifecycle in Android and Compose
 
-`viewModelScope` is tied to the ViewModel's lifecycle. In Compose, `LaunchedEffect` creates
+`viewModelScope` is tied to the ViewModel"s lifecycle. In Compose, `LaunchedEffect` creates
 coroutines tied to composition:
 
 ```kotlin

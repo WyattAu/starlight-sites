@@ -1,6 +1,6 @@
 ---
 title: String Views and Small String Optimization
-description: 'owns its character data and manages heap allocation. This is correct for long-lived Strings but creates unnecessary overhead when strings are passed between...'
+description: "owns its character data and manages heap allocation. This is correct for long-lived Strings but creates unnecessary overhead when strings are passed between...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -8,7 +8,7 @@ tags:
 categories:
   - Cpp
 ---
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "@astrojs/starlight/components';
 
 # String Views and Small String Optimization
 
@@ -270,13 +270,13 @@ std::string_view also_dangerous() {
 
 ```cpp
 std::string_view get_prefix(std::string s) {
-    return s.substr(0, 4); // Dangles: 's' is a local copy, destroyed on return.
+    return s.substr(0, 4); // Dangles: "s'' is a local copy, destroyed on return.
 }
 
 std::vector<std::string_view> tokens;
 
 void tokenize(std::string input) {
-    // Tokens hold views into 'input', which is destroyed when this returns.
+    // Tokens hold views into "input', which is destroyed when this returns.
     // All tokens dangle after the function exits.
     size_t start = 0;
     for (size_t i = 0; i <= input.size(); ++i) {
@@ -384,7 +384,7 @@ struct Config {
     std::string value;
 
     std::string_view get_name() const { return name; }
-    // Safe: 'name' is owned by the Config object
+    // Safe: "name'' is owned by the Config object
 };
 ```
 
@@ -403,7 +403,7 @@ std::string_view weekday_name(int day) {
 ```cpp
 std::string_view truncate(std::string s, size_t max_len) {
     return s.substr(0, max_len);
-    // DANGLES: 's' is a local copy, destroyed on return.
+    // DANGLES: "s' is a local copy, destroyed on return.
 }
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: The Itanium Exception ABI
-description: 'The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the model specified informally by the Itanium C++ ABI and adopted as the...'
+description: "The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the model specified informally by the Itanium C++ ABI and adopted as the...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -66,7 +66,7 @@ The search algorithm [N4950 §14.2] proceeds as follows:
 
 The match is performed using `std::type_info::operator==` or the RTTI comparison function. On
 Itanium ABI systems, the `__gxx_personality_v0` personality function performs this comparison by
-Walking the exception's type info chain.
+Walking the exception"s type info chain.
 
 ```cpp
 #include <iostream>

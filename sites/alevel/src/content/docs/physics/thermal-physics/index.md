@@ -1,6 +1,6 @@
 ---
 title: Thermal Physics
-description: 'A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision.'
+description: "A-Level Thermal Physics notes covering key definitions, core concepts, worked examples, and practice questions for complete learning and effective revision.''
 ---
 
 # Thermal Physics
@@ -24,7 +24,7 @@ properties of gases, solids, and liquids.
 
 ### Ideal Gas Laws
 
-- **Boyle's law** — $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
+- **Boyle"s law** — $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
   volume
 - **Charles's law** — $V/T = \text{constant}$ at constant $p$; volume proportional to temperature
   (Kelvin)

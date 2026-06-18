@@ -1,6 +1,6 @@
 ---
 title: Traffic Analysis
-description: 'Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize...'
+description: "Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize...''
 tags:
   - Networking
 categories:
@@ -59,7 +59,7 @@ Point of failure.
 Capture traffic at the endpoint itself (on the server, VM, or container). Uses libpcap to capture
 Packets as they enter and leave the network interface.
 
-Advantages: captures the endpoint's perspective (including locally-generated traffic), no additional
+Advantages: captures the endpoint"s perspective (including locally-generated traffic), no additional
 Hardware. Disadvantages: endpoint CPU overhead, may not capture traffic that the endpoint's OS drops
 Before libpcap sees it.
 

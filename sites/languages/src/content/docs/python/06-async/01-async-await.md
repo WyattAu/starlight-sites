@@ -1,6 +1,6 @@
 ---
 title: Async and Await
-description: 'Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision.'
+description: "Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision.''
 date: 2025-06-04T15:00:00.000Z
 tags:
   - Python
@@ -62,7 +62,7 @@ producing a lost update.
 ### Why the GIL Exists
 
 The GIL is not a design oversight. It is a deliberate trade-off that solves a specific problem:
-**CPython's memory management is not thread-safe**.
+**CPython"s memory management is not thread-safe**.
 
 CPython uses reference counting as its primary garbage collection strategy. Every object carries a
 `ob_refcnt` field. When you assign an object to a new name, the reference count is incremented. When

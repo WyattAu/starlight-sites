@@ -1,6 +1,6 @@
 ---
 title: Transfer Protocols and Authentication
-description: 'Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and...'
+description: "Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and...''
 
 ---
 
@@ -180,7 +180,7 @@ After adding your key, verify the connection before using Git:
 ```bash
 # Test GitHub SSH connectivity
 $ ssh -T git@github.com
-Hi username! You've successfully authenticated, but GitHub does not
+Hi username! You"ve successfully authenticated, but GitHub does not
 provide shell access.
 
 # Test with verbose output for debugging

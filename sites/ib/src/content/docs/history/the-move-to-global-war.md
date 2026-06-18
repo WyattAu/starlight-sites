@@ -3,7 +3,7 @@ title: The Move to Global War
 tags:
   - IB
   - History
-description: 'The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and Its perceived injustices became a central grievance...'
+description: "The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and Its perceived injustices became a central grievance...''
 ---
 
 # The Move to Global War
@@ -75,7 +75,7 @@ Decisions, with the notable exception that a party to a dispute could not vote o
 Concerning that dispute.
 
 **The Permanent Secretariat:** Based in Geneva and headed by a Secretary-General, it provided
-Administrative continuity and managed the League's day-to-day operations.
+Administrative continuity and managed the League"s day-to-day operations.
 
 **The Permanent Court of International Justice:** Located at The Hague, it adjudicated disputes
 Between states and provided advisory opinions. However, participation was not compulsory -- states

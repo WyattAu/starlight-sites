@@ -1,6 +1,6 @@
 ---
 title: AP Statistics
-description: 'Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble'
+description: "Comprehensive revision notes for AP Statistics, aligned with the College Board C Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - ap
@@ -38,7 +38,7 @@ The content is structured around the four major themes of the course.
   systematic sampling, bias in sampling, observational studies vs experiments, randomised controlled
   experiments, control groups, blinding, placebo effect, principles of experimental design.
 - **Probability** -- sample spaces, events, addition and multiplication rules, conditional
-  probability, independence, Bayes' theorem, discrete random variables (probability distributions,
+  probability, independence, Bayes" theorem, discrete random variables (probability distributions,
   expected value, variance), binomial and geometric distributions, continuous random variables,
   normal distributions and z-scores, the central limit theorem, sampling distributions of means and
   proportions.

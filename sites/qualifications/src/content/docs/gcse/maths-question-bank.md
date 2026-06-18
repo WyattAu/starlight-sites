@@ -1,7 +1,7 @@
 ---
 title: Maths Question Bank
 date: 2026-05-30
-description: '20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,...'
+description: "20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,...''
 tags:
   - gcse
   - maths
@@ -213,7 +213,7 @@ Angles in a triangle sum to 180°. $180 - 55 - 75 = 50°$.
 
 **Correct: D** (index 3)
 
-The angle subtended by the diameter is a right angle (Thales' theorem). Angle ABC = 90°.
+The angle subtended by the diameter is a right angle (Thales" theorem). Angle ABC = 90°.
 
 `medium` — 3 marks
 

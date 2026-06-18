@@ -1,6 +1,6 @@
 ---
 title: Error Handling Patterns
-description: 'Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers.'
+description: "Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers.''
 
 ---
 
@@ -142,7 +142,7 @@ class ServerError(Exception):
 
 e = ServerError("db.example.com", 5432, "connection refused")
 print(str(e))   # db.example.com:5432 — connection refused
-print(repr(e))  # ServerError('db.example.com', 5432, 'connection refused')
+print(repr(e))  # ServerError("db.example.com', 5432, 'connection refused')
 ```
 
 :::tip Always call `super().__init__(message)` in custom exceptions. The message is stored in

@@ -1,6 +1,6 @@
 ---
 title: Development Environment Setup
-description: 'Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode Support, and fast image rendering:'
+description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode Support, and fast image rendering: "''
 
 ---
 
@@ -55,7 +55,7 @@ A good programming font is critical for long coding sessions:
 | -------------- | ------------ | --------- | -------------------------------------------- |
 | JetBrains Mono | Yes          | Yes       | Excellent readability, designed for code     |
 | Fira Code      | Yes          | Yes       | Popular, good for presentations              |
-| Cascadia Code  | Yes          | Yes       | Microsoft's coding font, great for terminals |
+| Cascadia Code  | Yes          | Yes       | Microsoft"s coding font, great for terminals |
 | Iosevka        | Customizable | Yes       | Highly customizable, many variants           |
 | Monaco         | No           | No        | Classic macOS font, no ligatures             |
 
@@ -83,7 +83,7 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 
 - **Zsh** for power users who want maximum customization and compatibility. Pair with a minimal
   plugin set (zinit or znap) rather than oh-my-zsh for better performance.
-- **Fish** for developers who want a great out-of-the-box experience without configuration. Fish's
+- **Fish** for developers who want a great out-of-the-box experience without configuration. Fish"s
   built-in autosuggestions and syntax highlighting are excellent.
 - **Bash** for scripting and environments where POSIX compatibility is required. Keep Bash as
   `/bin/bash` for scripts regardless of your interactive shell choice.

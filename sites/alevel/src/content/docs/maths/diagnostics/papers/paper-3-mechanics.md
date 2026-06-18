@@ -1,6 +1,6 @@
 ---
-title: 'Paper 3 -- Mechanics -- Full Diagnostic Exam'
-description: 'Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls.'
+title: "Paper 3 -- Mechanics -- Full Diagnostic Exam''
+description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."'
 tableOfContents: false
 ---
 
@@ -30,7 +30,7 @@ given by $v = 6t - t^2 - 5$.
 
 **(c)** A student calculates the displacement over $[0, 7]$ by evaluating $\int_0^7 v\,dt$ and
 obtains a positive answer. The student then claims this integral equals the total distance.
-Calculate the percentage error in the student's answer. [2 marks]
+Calculate the percentage error in the student"s answer. [2 marks]
 
 ### Q2 [10 marks] — Forces and Newton's Laws
 

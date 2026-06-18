@@ -3,7 +3,7 @@ title: Groups
 tags:
   - Mathematics
   - University
-description: 'A is a set together with a binary operation satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A is a set together with a binary operation satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 1.1 Definition of a Group
@@ -93,7 +93,7 @@ Total: $\binom{n}{k}(k-1)! = \frac{n!}{k(n-k)!}$. $\blacksquare$
 
 **Proposition 1.8.** The identity element of a group is unique.
 
-_Proof._ Suppose $e$ and $e'$ are both identity elements. Then $e = e * e' = e'$. $\blacksquare$
+_Proof._ Suppose $e$ and $e"$ are both identity elements. Then $e = e * e' = e'$. $\blacksquare$
 
 **Proposition 1.9.** The inverse of each element is unique.
 

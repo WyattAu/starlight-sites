@@ -1,6 +1,6 @@
 ---
-title: 'National Income and Macroeconomic Indicators -- Diagnostic Tests'
-description: 'DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision.'
+title: "National Income and Macroeconomic Indicators -- Diagnostic Tests''
+description: "DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision."'
 tableOfContents: false
 ---
 
@@ -89,7 +89,7 @@ welfare differences.
    pollution, congestion, or resource depletion. A country with high industrial output but severe
    pollution may have high GDP but low actual welfare.
 
-(b) Country B likely has higher economic welfare. Although GDP per capita is equal, Country B's
+(b) Country B likely has higher economic welfare. Although GDP per capita is equal, Country B"s
 citizens work fewer hours (more leisure), live significantly longer (better healthcare), have more
 equitable income distribution (lower Gini), and enjoy cleaner air. GDP captures none of these
 welfare-relevant differences.

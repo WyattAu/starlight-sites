@@ -1,6 +1,6 @@
 ---
-title: 'Paper 1 -- Pure Mathematics -- Full Diagnostic Exam'
-description: '120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+title: "Paper 1 -- Pure Mathematics -- Full Diagnostic Exam''
+description: "120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems."'
 tableOfContents: false
 ---
 
@@ -182,7 +182,7 @@ $$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
 
 ### Q2 — Solution
 
-**Step 1: State Vieta's formulas.**
+**Step 1: State Vieta"s formulas.**
 
 $$\alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}$$
 

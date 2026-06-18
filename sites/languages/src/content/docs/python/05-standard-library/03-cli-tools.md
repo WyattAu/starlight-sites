@@ -1,6 +1,6 @@
 ---
 title: CLI Tools
-description: 'Building command-line interfaces in Python is not a "pick one and go" decision. The standard library Gives you (bare metal) and (batteries-included), while...'
+description: "Building command-line interfaces in Python is not a "pick one and go" decision. The standard library Gives you (bare metal) and (batteries-included), while...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -27,7 +27,7 @@ But _why_ the mechanism exists and where it breaks.
 
 `sys.argv` is a list of strings passed to the Python interpreter. It is the lowest-level argument
 Interface available—no parsing, no validation, no help text. You get exactly what the shell gave
-You, split on whitespace according to the shell's own rules.
+You, split on whitespace according to the shell"s own rules.
 
 ```python
 import sys

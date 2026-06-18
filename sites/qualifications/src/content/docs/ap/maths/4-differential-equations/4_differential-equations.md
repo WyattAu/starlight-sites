@@ -1,6 +1,6 @@
 ---
 title: Differential Equations
-description: 'A (DE) is an equation that relates a function to one or more of its Derivatives. The of a DE is the highest derivative that appears. A first-order DE...'
+description: "A (DE) is an equation that relates a function to one or more of its Derivatives. The of a DE is the highest derivative that appears. A first-order DE...''
 date: 2026-04-14
 tags:
   - ap
@@ -176,7 +176,7 @@ $$
 Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$We get $k = -\frac{\ln 2}{T_{1/2}}$.
 
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
-Is always $T_{1/2}$. This is a direct consequence of the exponential's scale-invariance.
+Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
 
 :::
 :::info[Example]

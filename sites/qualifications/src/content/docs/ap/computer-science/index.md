@@ -1,6 +1,6 @@
 ---
 title: AP Computer Science
-description: 'Comprehensive revision notes for AP Computer Science, aligned with the College B Comprehensive educational content coverage with definitions and practice proble'
+description: "Comprehensive revision notes for AP Computer Science, aligned with the College B Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - ap
@@ -18,7 +18,7 @@ Description.
 These notes cover the full AP Computer Science curriculum, including computational thinking,
 computing systems, algorithms and programming, data analysis, and networking. Each topic page
 includes key definitions, worked examples, and practice questions to help you prepare for both the
-multiple-choice and free-response sections of the AP exam. The content follows the College Board's
+multiple-choice and free-response sections of the AP exam. The content follows the College Board"s
 course framework and big ideas.
 
 ## Topics

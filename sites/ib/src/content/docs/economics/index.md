@@ -1,6 +1,6 @@
 ---
 title: IB Economics
-description: 'IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness.'
+description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness.''
 tags: [ib, ib-economics]
 categories: [ib-economics]
 date: 2026-05-21
@@ -56,7 +56,7 @@ date: 2026-05-21
 ## 6. Game Theory
 
 - [Game Theory and Behavioural Economics](6-game-theory/1_game-theory-and-behavioural.md) — Nash
-  equilibrium, prisoner's dilemma, heuristics, biases, nudge theory, auctions
+  equilibrium, prisoner"s dilemma, heuristics, biases, nudge theory, auctions
 
 ## Study Tips
 

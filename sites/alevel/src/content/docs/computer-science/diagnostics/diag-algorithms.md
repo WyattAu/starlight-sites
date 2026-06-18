@@ -1,6 +1,6 @@
 ---
-title: 'Algorithms -- Diagnostic Tests'
-description: 'A-Level Computer Science Algorithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Algorithms -- Diagnostic Tests''
+description: "A-Level Computer Science Algorithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -136,7 +136,7 @@ Alternatively, a **min-heap** of size 100: the root stores the minimum of the to
 score arrives, compare with the root. If greater, replace root and reheapify ($O(\log 100) = O(1)$).
 If not, discard. This is the most efficient approach.
 
-(b) A **hash table** with the user ID as key and score as value allows $O(1)$ lookup of any user's
+(b) A **hash table** with the user ID as key and score as value allows $O(1)$ lookup of any user"s
 score. To check if a score is in the top 100, compare against the minimum score in the top 100 (the
 root of the min-heap, $O(1)$).
 

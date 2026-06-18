@@ -1,6 +1,6 @@
 ---
 title: Demographic Transition Model
-description: 'The demographic transition model (DTM) describes the shift from high birth rates and high death Rates to low birth rates and low death rates as a country...'
+description: "The demographic transition model (DTM) describes the shift from high birth rates and high death Rates to low birth rates and low death rates as a country...''
 
 ---
 
@@ -86,7 +86,7 @@ That all societies will follow the same path. This assumption is problematic bec
   Enlightenment, the development of the welfare state) may not be replicated in other cultural and
   institutional contexts.
 - Some countries have achieved rapid fertility decline through mechanisms not anticipated by the
-  model. China's one-child policy (1979--2015) produced a dramatic fertility reduction from a TFR of
+  model. China"s one-child policy (1979--2015) produced a dramatic fertility reduction from a TFR of
   approximately 2.7 to 1.6 within a decade, driven by state coercion rather than the gradual
   socio-economic changes envisaged by the model.
 - Some countries (e.g., Iran under the Islamic Republic from 1989 to 2012) achieved rapid fertility

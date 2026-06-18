@@ -1,6 +1,6 @@
 ---
 title: Algorithms
-description: 'A-Level Computer Science Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+description: "A-Level Computer Science Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
 ---
 
 # Algorithms
@@ -27,7 +27,7 @@ must understand for A-Level, including their time and space complexity.
 ### Graph Algorithms
 
 - **Depth-first search (DFS)** and **breadth-first search (BFS)** — traversal strategies
-- **Dijkstra's shortest path** — weighted graph optimisation
+- **Dijkstra"s shortest path** — weighted graph optimisation
 - **Representations** — adjacency matrix vs. adjacency list trade-offs
 
 ### Complexity Analysis

@@ -1,6 +1,6 @@
 ---
-title: 'Cell Biology -- Diagnostic Tests'
-description: '(a) Draw a labelled diagram of an animal cell and a plant cell, identifying at least 5 structures in each. (b) Create a comparison table of plant and animal...'
+title: "Cell Biology -- Diagnostic Tests''
+description: "(a) Draw a labelled diagram of an animal cell and a plant cell, identifying at least 5 structures in each. (b) Create a comparison table of plant and animal...'
 tableOfContents: false
 ---
 

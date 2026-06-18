@@ -1,6 +1,6 @@
 ---
 title: Measuring Development
-description: 'IB Economics — GDP, HDI, Gini coefficient, Lorenz curve, composite indicators. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination.'
+description: "IB Economics — GDP, HDI, Gini coefficient, Lorenz curve, composite indicators. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -138,7 +138,7 @@ Education, and living standards that income-based measures would not capture.
 <summary>Problem 3: Debt Sustainability</summary>
 
 A country has external debt of `USD 50` billion, GDP of `USD 100` billion, annual debt service
-payments Of `USD 4` billion, and export earnings of `USD 15` billion. Assess the country's debt
+payments Of `USD 4` billion, and export earnings of `USD 15` billion. Assess the country"s debt
 situation.
 
 Debt-to-GDP ratio $= 50 / 100 = 50\%$ (moderate, but context-dependent)

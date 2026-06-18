@@ -1,6 +1,6 @@
 ---
-title: 'Biodiversity, Classification and Evolution -- Diagnostic Tests'
-description: 'A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core concepts, worked practice questions for diagnostic revision.'
+title: "Biodiversity, Classification and Evolution -- Diagnostic Tests''
+description: "A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core concepts, worked practice questions for diagnostic revision."'
 tableOfContents: false
 ---
 
@@ -374,7 +374,7 @@ related.)
 antigens (proteins) that stimulated their production. If antibodies are raised against human
 cytochrome c (injected into a rabbit, for example), they will be specific to the epitopes (antigenic
 determinants) on human cytochrome c. When these antibodies are mixed with serum from another
-species, they will bind to that species' cytochrome c **if and only if** it has similar epitopes. A
+species, they will bind to that species" cytochrome c **if and only if** it has similar epitopes. A
 **stronger antibody-antigen reaction** (more precipitate formed, stronger agglutination, or stronger
 signal in an ELISA) indicates greater similarity between the two cytochrome c proteins, because more
 antibodies are able to bind. Greater protein similarity indicates closer evolutionary relationship —

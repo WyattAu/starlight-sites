@@ -1,6 +1,6 @@
 ---
 title: Task Scheduling and Executors
-description: 'This section covers the task concept, coroutine-based pipeline processing, async/await patterns Across languages, structured concurrency with /A complete...'
+description: "This section covers the task concept, coroutine-based pipeline processing, async/await patterns Across languages, structured concurrency with /A complete...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -231,7 +231,7 @@ int main() {
 
 C++ is unique in providing **no built-in executor or event loop**. The coroutine machinery is
 Deliberately low-level — the standard provides only the suspension/resumption primitives, and
-Scheduling is entirely the programmer's or library's responsibility.
+Scheduling is entirely the programmer"s or library's responsibility.
 
 ## Structured Concurrency: `when_all` / `when_any`
 

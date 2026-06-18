@@ -1,6 +1,6 @@
 ---
 title: Functions, Closures, and Decorators
-description: 'In Python, means that functions are values on equal footing with every other kind Of value -- integers, strings, lists, class instances. There is no...'
+description: "In Python, means that functions are values on equal footing with every other kind Of value -- integers, strings, lists, class instances. There is no...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -34,7 +34,7 @@ def greet(name: str) -> str:
     """Return a greeting."""
     return f"Hello, {name}"
 
-print(type(greet))    # <class 'function'>
+print(type(greet))    # <class "function'>
 print(id(greet))      # some integer, e.g. 140234867123456
 print(greet.__name__) # 'greet'
 print(greet.__doc__)  # 'Return a greeting.'

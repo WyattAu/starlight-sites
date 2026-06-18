@@ -1,6 +1,6 @@
 ---
 title: Schema Migrations
-description: 'Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or...'
+description: "Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or...''
 
 ---
 
@@ -130,7 +130,7 @@ alembic downgrade base
 # migrations/versions/001_create_users_table.py
 def upgrade():
     op.create_table(
-        'users',
+        "users',
         sa.Column('id', sa.BigInteger(), autoincrement=True, nullable=False),
         sa.Column('email', sa.String(255), nullable=False),
         sa.Column('name', sa.String(100), nullable=False),

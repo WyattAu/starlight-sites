@@ -1,6 +1,6 @@
 ---
 title: Futures, Promises, and Async Flows
-description: 'This section covers launch policies, the Future/promise pair as a basic async primitive, composability limitations, async file reading, Parallel computation...'
+description: "This section covers launch policies, the Future/promise pair as a basic async primitive, composability limitations, async file reading, Parallel computation...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -106,7 +106,7 @@ The shared state transitions through these phases:
 ## Limitations: No Composability
 
 The primary limitation of `std::future` is **lack of composability** [N4950 §33.6.4]. Unlike
-JavaScript `Promise.then()` or Rust's `Future`C++ `std::future`:
+JavaScript `Promise.then()` or Rust"s `Future`C++ `std::future`:
 
 - Has no `.then()` method for chaining.
 - Cannot be combined with `when_all` or `when_any` from the standard library.

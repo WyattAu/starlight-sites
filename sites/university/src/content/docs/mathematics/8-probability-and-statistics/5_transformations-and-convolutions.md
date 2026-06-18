@@ -1,6 +1,6 @@
 ---
 title: Transformations and Convolutions
-description: 'UNIVERSITY Mathematics notes: Transformations and Convolutions. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Mathematics notes: Transformations and Convolutions. Comprehensive study material with definitions, examples, and assessment tools.''
 tags:
   - Mathematics
   - University
@@ -53,7 +53,7 @@ MGF of $N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. $\blacksquare$
 ## Common Pitfalls
 
 - **Confusing PDF and CDF.** PDF $f(x)$: probability density; CDF
-  $F(x) = P(X \leq x) = \int_{-\infty}^x f(t)\, dt$. **Fix:** $F'(x) = f(x)$;
+  $F(x) = P(X \leq x) = \int_{-\infty}^x f(t)\, dt$. **Fix:** $F"(x) = f(x)$;
   $P(a < X < b) = F(b) - F(a)$.
 - **Wrong central limit theorem application.** The CLT applies to the sample mean, not individual
   observations, and requires sufficiently large $n$. **Fix:**

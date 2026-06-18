@@ -1,6 +1,6 @@
 ---
 title: Pure Mathematics
-description: 'A-Level Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.'
+description: "A-Level Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.''
 ---
 
 # Pure Mathematics
@@ -55,7 +55,7 @@ all pure mathematics content from algebraic manipulation through to numerical me
 
 ### Binomial Expansion
 
-- **$(a+b)^n$** — Pascal's triangle, binomial coefficients $\binom{n}{r} = \frac{n!}{r!(n-r)!}$
+- **$(a+b)^n$** — Pascal"s triangle, binomial coefficients $\binom{n}{r} = \frac{n!}{r!(n-r)!}$
 - **Approximations** — using binomial expansion for $(1+x)^n$ when $|x| < 1$
 
 ### Trigonometry

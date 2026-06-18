@@ -1,6 +1,6 @@
 ---
 title: Thermochemistry
-description: 'Rigorous IB chemistry notes covering Thermochemistry. Includes definitions, derivations, worked examples, and exam-style problems. energy cycles.'
+description: "Rigorous IB chemistry notes covering Thermochemistry. Includes definitions, derivations, worked examples, and exam-style problems. energy cycles.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -129,7 +129,7 @@ $$
 
 ---
 
-## Hess's Law
+## Hess"s Law
 
 ### Statement
 

@@ -1,6 +1,6 @@
 ---
 title: Argument Deduction (Class and Function)
-description: 'Template argument deduction allows the compiler to infer template parameters from the types of Arguments provided at call sites or construction sites. This...'
+description: "Template argument deduction allows the compiler to infer template parameters from the types of Arguments provided at call sites or construction sites. This...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -111,7 +111,7 @@ Best one. If no candidate succeeds, the call is ill-formed.
 
 ### Preserving CV-Qualifiers and References
 
-To preserve the argument's cv-qualifiers or reference-ness, use forwarding references or explicit
+To preserve the argument"s cv-qualifiers or reference-ness, use forwarding references or explicit
 Qualification in the template parameter:
 
 ```cpp

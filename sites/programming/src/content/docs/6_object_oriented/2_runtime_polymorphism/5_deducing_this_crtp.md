@@ -1,6 +1,6 @@
 ---
 title: Deducing This and CRTP
-description: 'C++23 introduces (deducing this), which eliminates the need for the Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP...'
+description: "C++23 introduces (deducing this), which eliminates the need for the Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -26,7 +26,7 @@ Base class can call methods on the derived class without virtual dispatch [N4950
 
 CRTP is defined as follows: given a class template `Base&lt;Derived&gt;`A derived class `Derived`
 Inherits from `Base&lt;Derived&gt;`. The base class template can
-`static_cast&lt;const Derived\&>(*this)` to access the derived class's interface. Because `Derived`
+`static_cast&lt;const Derived\&>(*this)` to access the derived class"s interface. Because `Derived`
 Is a template parameter, the cast is resolved at compile time, and the call to `Derived`'s method is
 A direct call (not a virtual dispatch).
 

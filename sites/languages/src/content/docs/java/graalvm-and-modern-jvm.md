@@ -1,6 +1,6 @@
 ---
 title: GraalVM and Modern JVM
-description: 'GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image...'
+description: "GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Java
@@ -56,7 +56,7 @@ C++).
 
 **Definition.** The Graal compiler is a graph-based JIT compiler implemented in Java that replaces
 C2 as the top-tier optimizing compiler. It operates on a sea-of-nodes intermediate representation
-(IR) that is more expressive than C2's ideal graph.
+(IR) that is more expressive than C2"s ideal graph.
 
 | Feature             | C2                         | Graal                               |
 | ------------------- | -------------------------- | ----------------------------------- |

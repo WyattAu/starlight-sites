@@ -1,6 +1,6 @@
 ---
-title: 'Creative Writing -- Diagnostic Tests'
-description: 'Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Creative Writing -- Diagnostic Tests''
+description: "Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -89,7 +89,7 @@ Plan the narrative arc for this story, providing a one-sentence description of e
 techniques.
 
 (d) Explain the difference between a story told in first person and one told in third person
-limited. How does the choice of narrative perspective affect the reader's experience?
+limited. How does the choice of narrative perspective affect the reader"s experience?
 
 **Solution:**
 

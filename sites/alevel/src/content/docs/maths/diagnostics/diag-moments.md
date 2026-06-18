@@ -1,6 +1,6 @@
 ---
-title: 'Moments -- Diagnostic Tests'
-description: 'A-Level Maths Moments -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+title: "Moments -- Diagnostic Tests''
+description: "A-Level Maths Moments -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."'
 tableOfContents: false
 ---
 
@@ -44,7 +44,7 @@ $$\text{Moment} = F \times d = 50 \times 3\cos 40° = 150\cos 40° \approx 114.9
 **(b)** The student used the distance $AB = 3$ m instead of the perpendicular distance
 $3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$Not $F \times d_{\text{along rod}}$.
 
-$$\text{Student's answer} = 150 \text{ Nm}$$
+$$\text{Student"s answer} = 150 \text{ Nm}$$
 
 $$\text{Correct answer} = 150\cos 40° \approx 114.9 \text{ Nm}$$
 

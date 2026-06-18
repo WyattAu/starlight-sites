@@ -1,6 +1,6 @@
 ---
 title: Undervolting and Overclocking
-description: 'Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) Supplied below the voltage level defined by the...'
+description: "Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) Supplied below the voltage level defined by the...''
 date: 2025-06-12T16:37:43.317Z
 categories:
   - general
@@ -114,7 +114,7 @@ Exceeding these limits can cause electromigration and permanent silicon degradat
 | AMD Zen 5 (Ryzen 9000)               | 1.30 V             | Similar to Zen 4                                     |
 
 These are conservative long-term limits. Short bursts above these values (transient spikes) are
-Normal and handled by the CPU's internal protections. The concern is sustained voltage at or above
+Normal and handled by the CPU"s internal protections. The concern is sustained voltage at or above
 These thresholds under load.
 
 ---

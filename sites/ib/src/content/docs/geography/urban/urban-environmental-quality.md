@@ -1,6 +1,6 @@
 ---
 title: Urban Environmental Quality
-description: 'An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the...'
+description: "An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the...''
 
 ---
 
@@ -111,7 +111,7 @@ And Cairo.
 | **Low-emission zones**          | Restrict or charge high-polluting vehicles from entering designated areas   | London Ultra Low Emission Zone (ULEZ), introduced 2019; expanded 2023                                     |
 | **Public transport investment** | Reduce private vehicle use by providing efficient alternatives              | Bogota TransMilenio BRT; Shanghai metro (longest in the world, over 800 km)                               |
 | **Congestion charging**         | Charge vehicles for entering congested urban areas, reducing traffic volume | Singapore Electronic Road Pricing (ERP); London Congestion Charge                                         |
-| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan's 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
+| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan"s 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
 | **Clean energy transitions**    | Shift from fossil fuel vehicles and heating to electric                     | Oslo's target of zero-emission city centre by 2030; Beijing's conversion from coal to natural gas heating |
 
 ## Waste Management

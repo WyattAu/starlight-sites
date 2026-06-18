@@ -1,6 +1,6 @@
 ---
 title: STEP Preparation
-description: 'University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+description: "University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.''
 date: 2026-05-05T00:00:00.000Z
 tags:
   - Mathematics
@@ -33,7 +33,7 @@ Marks are awarded for correct progress towards the solution.
 
 Grades are S (Outstanding), 1 (Very Good), 2 (Good), 3 (Satisfactory), and U (Unclassified). Typical
 Cambridge offers require Grade 1 in two STEP papers. The distribution is not linear: the gap between
-Grade 2 and Grade 1 is substantial, reflecting the exam's emphasis on sustained, complete solutions
+Grade 2 and Grade 1 is substantial, reflecting the exam"s emphasis on sustained, complete solutions
 Rather than partial credit.
 
 ### 1.2 Key Differences from A-Level

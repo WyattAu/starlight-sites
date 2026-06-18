@@ -3,7 +3,7 @@ title: Optimization
 tags:
   - Mathematics
   - University
-description: 'If has a local extremum at an interior point Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "If has a local extremum at an interior point Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 4.1 Local Extrema
@@ -30,7 +30,7 @@ Be the **Hessian determinant**. Then:
 - If $D \lt 0$: saddle point.
 - If $D = 0$: the test is inconclusive.
 
-_Proof._ By Taylor's theorem to second order, for small $h, k$:
+_Proof._ By Taylor"s theorem to second order, for small $h, k$:
 
 $$f(a+h, b+k) - f(a,b) = \frac{1}{2}\left[f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right] + R_2$$
 

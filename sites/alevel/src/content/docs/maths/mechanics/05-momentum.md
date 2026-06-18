@@ -1,6 +1,6 @@
 ---
 title: Momentum
-description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | Momentum, impulse, collisions | | Edexcel | P1 |...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | Momentum, impulse, collisions | | Edexcel | P1 |...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -45,7 +45,7 @@ Momentum is a vector with SI units kg m/s.
 
 $$\sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}$$
 
-### 2.2 Derivation from Newton's Laws
+### 2.2 Derivation from Newton"s Laws
 
 **Proof.** Newton's Third Law states that for any two interacting bodies $A$ and $B$:
 

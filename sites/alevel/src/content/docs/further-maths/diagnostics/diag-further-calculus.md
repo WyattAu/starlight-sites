@@ -1,6 +1,6 @@
 ---
-title: 'Further Calculus -- Diagnostic Tests'
-description: 'A-Level Further Maths Further Calculus -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Further Calculus -- Diagnostic Tests''
+description: "A-Level Further Maths Further Calculus -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -105,7 +105,7 @@ behaviour of the population.
 $\frac{1}{P(1000-P)} = \frac{1/1000}{P} + \frac{1/1000}{1000-P}$.
 
 $\frac{1}{1000}\ln\left|\frac{P}{1000-P}\right| = 0.001t + C$.
-$\ln\left|\frac{P}{1000-P}\right| = t + C'$.
+$\ln\left|\frac{P}{1000-P}\right| = t + C"$.
 
 $\frac{P}{1000-P} = Ae^t$. At $t = 0$: $\frac{100}{900} = A$So $A = 1/9$.
 

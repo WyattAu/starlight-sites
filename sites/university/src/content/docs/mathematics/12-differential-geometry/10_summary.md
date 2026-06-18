@@ -3,7 +3,7 @@ title: Summary
 tags:
   - Mathematics
   - University
-description: '| Concept | Description | | ------------------------ | ---------------------------------------------------------------- | | Smooth manifold | Hausdorff,...'
+description: "| Concept | Description | | ------------------------ | ---------------------------------------------------------------- | | Smooth manifold | Hausdorff,...''
 ---
 
 | Concept                  | Description                                                      |
@@ -14,7 +14,7 @@ description: '| Concept | Description | | ------------------------ | -----------
 | Lie bracket $[X, Y]$     | Measures non-commutativity of flows                              |
 | Differential form        | Alternating covariant tensor field                               |
 | Exterior derivative $d$  | $d^2 = 0$, generalizes gradient/curl/div                         |
-| Stokes' theorem          | $\int_{\partial M} \omega = \int_M d\omega$                      |
+| Stokes" theorem          | $\int_{\partial M} \omega = \int_M d\omega$                      |
 | Riemannian metric        | Smooth family of inner products on tangent spaces                |
 | Levi-Civita connection   | Unique torsion-free, metric-compatible connection                |
 | Geodesic                 | Curve with zero acceleration $\nabla_{\dot\gamma}\dot\gamma = 0$ |

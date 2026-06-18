@@ -1,6 +1,6 @@
 ---
 title: Logic
-description: 'Rigorous IB mathematics notes covering Logic. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB mathematics notes covering Logic. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - maths
@@ -56,7 +56,7 @@ I cry if I am sad
 
 - $\mathrm{Sad}\implies\mathrm{Cry}$
 - Means that if I am sad, then I cry.
-- It doesn't say that there aren't other situations in which I might also cry.
+- It doesn"t say that there aren't other situations in which I might also cry.
 - I can cry under other conditions. Being sad is NOT the only condition.
 - Leads to the 'if... Then...' statement: If I am sad, then I am crying.
 
@@ -73,8 +73,8 @@ I cry if and only if I am sad
 
 - $\mathrm{Sad}\iff\mathrm{Cry}$
 - Combination of the other two statements, both must be true.
-- I cry if I am sad: 'If I am sad then I cry'
-- I cry only if I am sad: 'If I am crying then I am sad'
+- I cry if I am sad: "If I am sad then I cry''
+- I cry only if I am sad: "If I am crying then I am sad'
 - The only time I ever cry is if I am sad, and I will 100% cry if I am sad.
 
 The church bells ring if it is Sunday

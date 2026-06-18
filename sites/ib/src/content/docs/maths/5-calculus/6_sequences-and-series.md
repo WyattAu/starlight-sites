@@ -1,6 +1,6 @@
 ---
-title: 'Sequences and Series'
-description: 'IB Mathematics — arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem.'
+title: "Sequences and Series''
+description: "IB Mathematics — arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem."'
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -228,7 +228,7 @@ $$\sqrt{2} \cdot \frac{-3/8}{6} \cdot \left(-\frac{27}{8}\right) = \sqrt{2} \cdo
 
 The **Maclaurin series** of a function $f$ is its Taylor series expansion about $x = 0$:
 
-$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}\,x^n = f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + \cdots$$
+$$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}\,x^n = f(0) + f"(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + \cdots$$
 
 ### Standard Maclaurin Series
 

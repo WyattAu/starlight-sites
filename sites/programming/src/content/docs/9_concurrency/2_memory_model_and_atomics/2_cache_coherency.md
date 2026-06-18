@@ -1,6 +1,6 @@
 ---
 title: Cache Coherency (MESI) and False Sharing
-description: 'This section covers the MESI cache coherence protocol, cache line ownership and coherence traffic, False sharing, and padding/alignment techniques to...'
+description: "This section covers the MESI cache coherence protocol, cache line ownership and coherence traffic, False sharing, and padding/alignment techniques to...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -144,7 +144,7 @@ When a CPU core writes to a cache line in the **Shared** state, it must issue a
 
 1. **Invalidates** all other copies (transitioning them to **I** state).
 2. **Waits** for acknowledgment from all other cores that hold the line.
-3. Transitions the requesting core's copy to **Modified** state.
+3. Transitions the requesting core"s copy to **Modified** state.
 
 This invalidation traffic is the primary source of performance degradation in multi-threaded
 Programs with frequent writes to shared data.

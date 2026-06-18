@@ -1,6 +1,6 @@
 ---
 title: Distributed Systems
-description: 'A distributed system can guarantee at most of the following three properties sim Comprehensive educational content coverage with definitions and practice proble'
+description: "A distributed system can guarantee at most of the following three properties sim Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -126,7 +126,7 @@ PROPOSER (collects majority promises):
     if any promise included accepted_value:
         propose (n, accepted_value)
     else:
-        propose (n, proposer's value)
+        propose (n, proposer"s value)
 ```
 
 **Phase 2 (Accept/Accepted):**

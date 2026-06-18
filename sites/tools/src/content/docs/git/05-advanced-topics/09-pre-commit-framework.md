@@ -1,6 +1,6 @@
 ---
 title: The pre-commit Framework
-description: 'is a Python-based framework for managing and executing Git hooks in a declarative, Reproducible way. It solves the fundamental problem with raw Git hooks:...'
+description: "is a Python-based framework for managing and executing Git hooks in a declarative, Reproducible way. It solves the fundamental problem with raw Git hooks:...''
 
 ---
 
@@ -104,7 +104,7 @@ Repository root and must be committed to version control.
 
 ```yaml
 # .pre-commit-config.yaml
-minimum_pre_commit_version: '3.0.0'
+minimum_pre_commit_version: "3.0.0'
 
 # Fail the entire run if any individual hook fails (default: true)
 fail_fast: false
@@ -113,10 +113,10 @@ fail_fast: false
 default_stages: [commit, push]
 
 # Global exclude pattern (applies to all hooks)
-exclude: '^vendor/'
+exclude: "^vendor/''
 
 # Global file pattern (applies to all hooks)
-files: ''
+files: "'
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -136,7 +136,7 @@ repos:
         name: My Custom Hook
         entry: ./scripts/my-hook.sh
         language: script
-        files: '\.py$'
+        files: "\.py$''
 ```
 
 ### The `repos` Array
@@ -156,7 +156,7 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 
 | Field            | Required | Description                                                                  |
 | ---------------- | -------- | ---------------------------------------------------------------------------- |
-| `id`             | Yes      | Hook identifier (must match an entry in the repo's `.pre-commit-hooks.yaml`) |
+| `id`             | Yes      | Hook identifier (must match an entry in the repo"s `.pre-commit-hooks.yaml`) |
 | `name`           | No       | Human-readable name (defaults to `id`)                                       |
 | `entry`          | No       | Command to run (for local hooks; remote hooks define this in their metadata) |
 | `language`       | No       | Execution environment (`system``python``node``docker`Etc.)                   |
@@ -235,7 +235,7 @@ repos:
 
       - id: forbid-debug-statements
         name: Check for debug statements
-        entry: 'grep -rnE "(breakpoint\(\)|import pdb|import ipdb|console\.log\()"'
+        entry: "grep -rnE "(breakpoint\(\)|import pdb|import ipdb|console\.log\()"''
         language: system
         types: [python, javascript]
 ```
@@ -295,13 +295,13 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        exclude: '\.svg$'
+        exclude: "\.svg$'
 
       - id: end-of-file-fixer
 
       - id: check-yaml
         args: ['--unsafe']
-        exclude: '^templates/.*\.yaml$'
+        exclude: "^templates/.*\.yaml$''
 
       - id: check-json
 
@@ -310,13 +310,13 @@ repos:
       - id: check-merge-conflict
 
       - id: check-added-large-files
-        args: ['--maxkb=1024']
+        args: ["--maxkb=1024']
 
       - id: detect-private-key
-        exclude: '^(tests/fixtures/|examples/)'
+        exclude: "^(tests/fixtures/|examples/)''
 
       - id: no-commit-to-branch
-        args: ['--branch', 'main', '--branch', 'master', '--branch', 'release/v*']
+        args: ["--branch', 'main', '--branch', 'master', '--branch', 'release/v*']
 
       - id: mixed-line-ending
         args: ['--fix=lf']
@@ -516,7 +516,7 @@ repos:
         name: Check for debug statements
         entry: scripts/check-no-debug.sh
         language: script
-        files: '\.(py|rb)$'
+        files: "\.(py|rb)$''
 ```
 
 The `language: script` type means the entry point is a script that will be executed directly. It
@@ -533,7 +533,7 @@ import re
 import subprocess
 import sys
 
-TODO_PATTERN = re.compile(r'TODO\(([^)]+)\)')
+TODO_PATTERN = re.compile(r"TODO\(([^)]+)\)')
 FILES_PATTERN = re.compile(r'\.(py|js|ts|go|rs)$')
 
 def main():
@@ -576,7 +576,7 @@ repos:
         name: TODOs must reference a ticket
         entry: scripts/check_todo.py
         language: python
-        files: '\.(py|js|ts|go|rs)$'
+        files: "\.(py|js|ts|go|rs)$''
 ```
 
 ### System Language Hooks
@@ -592,14 +592,14 @@ repos:
         name: Validate Makefile syntax
         entry: make -n -f Makefile
         language: system
-        files: '^Makefile$'
+        files: "^Makefile$'
         pass_filenames: false
 
       - id: docker-compose-validate
         name: Validate docker-compose.yaml
         entry: docker-compose config --quiet
         language: system
-        files: 'docker-compose.*\.ya?ml$'
+        files: "docker-compose.*\.ya?ml$''
         pass_filenames: false
 ```
 
@@ -630,9 +630,9 @@ repos:
     hooks:
       - id: check-xml
         name: Validate XML files
-        entry: bash -c 'for f in "$@"; do xmllint --noout "$f"; done' --
+        entry: bash -c "for f in "$@"; do xmllint --noout "$f"; done' --
         language: system
-        files: '\.xml$'
+        files: "\.xml$''
 ```
 
 ## Running Manually
@@ -669,7 +669,7 @@ $ pre-commit run --color always
 ### Incremental Runs
 
 By default, `pre-commit run` (without `--all-files`) only runs on files that have changed since the
-Last successful run. This is the caching layer. It uses a cache file stored in the hook's
+Last successful run. This is the caching layer. It uses a cache file stored in the hook"s
 Environment to track which files have been checked:
 
 ```bash
@@ -721,7 +721,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12''
       - name: Install pre-commit
         run: pip install pre-commit
       - name: Run pre-commit
@@ -742,7 +742,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12'
       - name: Cache pre-commit environments
         uses: actions/cache@v4
         with:
@@ -857,7 +857,7 @@ Run autoupdate periodically and create a PR with the changes:
 name: Autoupdate pre-commit hooks
 on:
   schedule:
-    - cron: '0 0 * * 1' # Every Monday
+    - cron: "0 0 * * 1'' # Every Monday
   workflow_dispatch:
 
 jobs:
@@ -867,7 +867,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12'
       - run: pip install pre-commit
       - run: pre-commit autoupdate
       - name: Create PR if changed

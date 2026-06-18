@@ -1,6 +1,6 @@
 ---
 title: Computing Systems
-description: '| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM...'
+description: "| Component | Function | | ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM...''
 date: 2026-04-14
 tags:
   - ap
@@ -57,7 +57,7 @@ Computers represent all data in binary (0s and 1s).
 
 | Data Type | Representation                       |
 | --------- | ------------------------------------ |
-| Integer   | Two's complement (signed integers)   |
+| Integer   | Two"s complement (signed integers)   |
 | Character | ASCII (7-bit) or Unicode (16+ bit)   |
 | Color     | RGB values (24 bits, 8 per channel)  |
 | Image     | Grid of pixels, each with RGB values |

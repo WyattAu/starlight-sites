@@ -1,6 +1,6 @@
 ---
 title: Scottish Highers Chemistry
-description: 'Higher Chemistry covers chemical reactions, bonding, energy changes, acids and bases, organic chemistry, and analytical techniques. The course builds on...'
+description: "Higher Chemistry covers chemical reactions, bonding, energy changes, acids and bases, organic chemistry, and analytical techniques. The course builds on...''
 date: 2026-04-14
 tags:
   - highers
@@ -26,7 +26,7 @@ Chemical bonding, intermolecular forces, reaction rates, equilibrium, and enthal
 
 ### Energy & Matter
 
-Energy changes in reactions, Hess's law, bond enthalpies, and properties of matter.
+Energy changes in reactions, Hess"s law, bond enthalpies, and properties of matter.
 
 → **[Full notes](2-heat-matter/2_heat-matter.md)**
 

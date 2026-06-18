@@ -1,6 +1,6 @@
 ---
 title: Economics - Demand, Supply, and Markets
-description: 'Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being...'
+description: "Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being...''
 
 ---
 
@@ -54,7 +54,7 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 | Expectation of future price increase | Demand shifts right |
 | Successful advertising               | Demand shifts right |
 
-:::tip Remember: a change in the good's own price causes movement **along** the curve. A change in
+:::tip Remember: a change in the good"s own price causes movement **along** the curve. A change in
 Any other factor causes a **shift** of the curve. DSE exams frequently test this distinction.
 :::
 

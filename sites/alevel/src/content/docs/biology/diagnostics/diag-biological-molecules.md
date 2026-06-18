@@ -1,6 +1,6 @@
 ---
-title: 'Biological Molecules -- Diagnostic Tests'
-description: 'A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Biological Molecules -- Diagnostic Tests''
+description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -48,7 +48,7 @@ which is compact and less accessible for hydrogen bonding between chains.
 (d) The enzyme amylase, produced in human saliva and the pancreas, has an active site complementary
 in shape to the alpha-glycosidic bond. Cellulase, the enzyme that hydrolyses beta-1,4-glycosidic
 bonds, is not produced by humans. The active site of amylase cannot bind to the beta-glycosidic bond
-because the spatial arrangement of atoms in the beta linkage does not match the active site's
+because the spatial arrangement of atoms in the beta linkage does not match the active site"s
 three-dimensional shape. This is an example of the lock-and-key model of enzyme action (though
 induced fit also applies more broadly — the key point is that the active site is specific to the
 alpha linkage).

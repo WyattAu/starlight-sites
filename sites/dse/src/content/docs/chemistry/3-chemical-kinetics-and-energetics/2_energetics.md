@@ -1,6 +1,6 @@
 ---
 title: Chemistry - Energetics / Thermochemistry
-description: 'The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems.'
+description: "The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems.''
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
@@ -101,7 +101,7 @@ This is always endothermic (bonds must be broken).
 
 ---
 
-## Hess's Law
+## Hess"s Law
 
 ### Statement
 

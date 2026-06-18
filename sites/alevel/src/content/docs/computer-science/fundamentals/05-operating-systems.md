@@ -1,6 +1,6 @@
 ---
 title: Operating Systems
-description: 'An (OS) is a system software that manages hardware resources, Provides services for application software, and acts as an intermediary between the user and...'
+description: "An (OS) is a system software that manages hardware resources, Provides services for application software, and acts as an intermediary between the user and...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - ComputerScience
@@ -158,7 +158,7 @@ Each process has a priority; the highest-priority ready process runs next.
 
 When the OS switches from one process to another, it must:
 
-1. Save the current process's state (registers, PC, stack pointer) into its PCB
+1. Save the current process"s state (registers, PC, stack pointer) into its PCB
 2. Load the next process's state from its PCB
 3. Update the scheduler data structures
 4. Switch to the new process's memory space (update page table base register)

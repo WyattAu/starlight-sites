@@ -1,6 +1,6 @@
 ---
 title: Dependency Injection
-description: 'Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This...'
+description: "Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -27,7 +27,7 @@ class UserService {
   final Database db = Database();           // hard-wired concrete type
 
   Future<User> fetchUser(int id) async {
-    final response = await client.get('/users/$id');
+    final response = await client.get("/users/$id');
     return User.fromJson(response.data);
   }
 }
@@ -87,13 +87,13 @@ class SqliteUserRepository implements UserRepository {
 
   @override
   Future<User?> getById(int id) async {
-    final row = await _db.query('users', where: 'id = ?', whereArgs: [id]);
+    final row = await _db.query('users', where: "id = ?'', whereArgs: [id]);
     return row.isNotEmpty ? User.fromMap(row.first) : null;
   }
 
   @override
   Future<void> save(User user) async {
-    await _db.insert('users', user.toMap(),
+    await _db.insert("users', user.toMap(),
         conflictAlgorithm: ConflictAlgorithm.replace);
   }
 }
@@ -109,7 +109,7 @@ class UserService {
     _logger.info('Fetching user $id');
     final existing = await _repo.getById(id);
     if (existing != null) return existing;
-    final user = User(id: id, name: 'New User');
+    final user = User(id: id, name: "New User'');
     await _repo.save(user);
     return user;
   }
@@ -132,7 +132,7 @@ class AnalyticsService {
 
   void trackEvent(String name, Map<String, dynamic> properties) {
     _analytics?.track(name, properties);
-    _logger.info('Event: $name');
+    _logger.info("Event: $name');
   }
 }
 ```
@@ -157,7 +157,7 @@ void main() {
   });
 
   test('returns existing user from repository', () async {
-    final user = User(id: 1, name: 'Alice');
+    final user = User(id: 1, name: "Alice'');
     when(() => mockRepo.getById(1)).thenAnswer((_) async => user);
 
     final result = await sut.getOrCreate(1);
@@ -167,7 +167,7 @@ void main() {
     verifyNever(() => mockRepo.save(any()));
   });
 
-  test('creates new user when not found', () async {
+  test("creates new user when not found', () async {
     when(() => mockRepo.getById(99)).thenAnswer((_) async => null);
     when(() => mockRepo.save(any())).thenAnswer((_) async {});
 
@@ -279,12 +279,12 @@ final getIt = GetIt.instance;
 void configure() {
   // Eager singleton — created immediately
   getIt.registerSingleton<HttpClient>(
-    DioHttpClient(baseUrl: 'https://api.example.com'),
+    DioHttpClient(baseUrl: "https://api.example.com''),
   );
 
   // Lazy singleton — created on first get<T>()
   getIt.registerLazySingleton<Database>(() {
-    return SqliteDatabase(path: 'app.db');
+    return SqliteDatabase(path: "app.db');
   });
 
   // Factory — new instance on every get<T>()
@@ -340,7 +340,7 @@ getIt.reset();
 ```dart
 Future<void> setupAppDependencies() async {
   getIt.registerSingletonAsync<Database>(() async {
-    final db = SqliteDatabase(path: 'app.db');
+    final db = SqliteDatabase(path: "app.db'');
     await db.open();
     return db;
   });
@@ -366,7 +366,7 @@ mixin AppServices {
 
 class MyViewModel with AppServices {
   void doSomething() {
-    logger.info('Loading users...');
+    logger.info("Loading users...');
     userService.getOrCreate(1);
   }
 }
@@ -556,8 +556,8 @@ Future<GetIt> configureDependencies({
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await configureDependencies(environment: 'prod');
-  // or for tests: await configureDependencies(environment: 'dev');
+  await configureDependencies(environment: "prod'');
+  // or for tests: await configureDependencies(environment: "dev');
 
   runApp(const MyApp());
 }
@@ -618,11 +618,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // A provider IS a dependency — declare it once, use everywhere
 final httpClientProvider = Provider<HttpClient>((ref) {
-  return DioHttpClient(baseUrl: 'https://api.example.com');
+  return DioHttpClient(baseUrl: "https://api.example.com'');
 });
 
 final databaseProvider = Provider<Database>((ref) {
-  return SqliteDatabase(path: 'app.db');
+  return SqliteDatabase(path: "app.db');
 });
 
 // Providers can depend on other providers — Riverpod resolves the graph
@@ -806,7 +806,7 @@ void testWidgets('user screen shows data', (tester) async {
         userControllerProvider.overrideWith((ref) {
           final mockService = MockUserService();
           when(() => mockService.getOrCreate(1))
-              .thenAnswer((_) async => User(id: 1, name: 'Test'));
+              .thenAnswer((_) async => User(id: 1, name: "Test''));
           return UserController(mockService);
         }),
       ],
@@ -837,7 +837,7 @@ class FirestoreProductRepository implements ProductRepository {
 
   @override
   Future<List<Product>> getAll() async {
-    final snapshot = await _firestore.collection('products').get();
+    final snapshot = await _firestore.collection("products').get();
     return snapshot.docs.map((doc) => Product.fromFirestore(doc)).toList();
   }
 

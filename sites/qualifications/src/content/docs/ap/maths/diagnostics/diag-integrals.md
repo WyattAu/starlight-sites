@@ -1,6 +1,6 @@
 ---
-title: 'Integrals -- Diagnostic Tests'
-description: '> Tests edge cases, boundary conditions, and common misconceptions for integrals Comprehensive educational content coverage with definitions and practice proble'
+title: "Integrals -- Diagnostic Tests''
+description: "> Tests edge cases, boundary conditions, and common misconceptions for integrals Comprehensive educational content coverage with definitions and practice proble"'
 date: 2026-04-14
 tags:
   - ap
@@ -122,7 +122,7 @@ $$(x-1)(x^2 - 4) = (x-1)(x-2)(x+2) = 0$$
 
 Intersection points: $x = -2, 1, 2$.
 
-The student's error: they integrated from $-2$ to $2$ without accounting for the curve crossing at
+The student"s error: they integrated from $-2$ to $2$ without accounting for the curve crossing at
 $x = 1$. On $[-2, 1]$We must determine which curve is on top; on $[1, 2]$The other may be on top.
 
 Test point $x = 0$: $x^3 - 4x = 0$, $x^2 - 4 = -4$. So $x^3 - 4x \gt x^2 - 4$ on $[-2, 1]$.

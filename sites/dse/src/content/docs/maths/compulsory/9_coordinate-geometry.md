@@ -1,6 +1,6 @@
 ---
 title: Coordinate Geometry
-description: 'Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - DSE
@@ -414,7 +414,7 @@ Find the reflection of $P(1, 5)$ in the line $3x - y + 1 = 0$.
 <details>
 <summary>Solution</summary>
 
-Let the reflected point be $P'(a, b)$. The midpoint $M\!\left(\dfrac{1+a}{2}, \dfrac{5+b}{2}\right)$
+Let the reflected point be $P"(a, b)$. The midpoint $M\!\left(\dfrac{1+a}{2}, \dfrac{5+b}{2}\right)$
 lies on the line:
 
 $$3\!\left(\frac{1+a}{2}\right) - \frac{5+b}{2} + 1 = 0$$

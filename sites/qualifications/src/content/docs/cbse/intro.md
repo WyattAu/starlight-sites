@@ -1,7 +1,7 @@
 ---
 title: Introduction to CBSE Notes
 date: 2026-05-30
-description: 'The is a national-level board of education in India for public and private schools, controlled and managed by the Union Government of India. It is one of...'
+description: "The is a national-level board of education in India for public and private schools, controlled and managed by the Union Government of India. It is one of...''
 tags:
   - cbse
 categories:
@@ -173,7 +173,7 @@ and Vistas (Class 12) or First Flight and Footprints without Feet (Class 10).
 
 1. **Follow NCERT textbooks** -- CBSE board exams are based almost entirely on NCERT content. Read
    every chapter thoroughly, including in-text questions, exercises, and summaries.
-2. **Solve previous year papers** -- Practising the last 5-10 years' board exam papers is the single
+2. **Solve previous year papers** -- Practising the last 5-10 years" board exam papers is the single
    most effective preparation strategy. CBSE papers follow predictable patterns.
 3. **Use the marking scheme** -- CBSE's official marking schemes show exactly how marks are
    allocated. Practise writing answers in the format expected by examiners.

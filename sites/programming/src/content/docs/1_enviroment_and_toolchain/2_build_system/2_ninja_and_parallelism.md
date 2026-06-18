@@ -1,6 +1,6 @@
 ---
 title: Ninja Build System and Parrallelism
-description: 'The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While...'
+description: "The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While...''
 date: 2025-12-10T06:02:22.685Z
 tags:
   - cpp
@@ -108,7 +108,7 @@ A build system must satisfy two invariants for correctness:
    before the edge executes.
 2. **No redundant work:** A target is rebuilt only if at least one of its inputs has changed.
 
-Ninja's DAG-based scheduling satisfies both invariants by construction:
+Ninja"s DAG-based scheduling satisfies both invariants by construction:
 
 **Invariant 1 (Dependency completeness):** Ninja performs a topological sort of the DAG before
 Execution. A topological sort of a DAG produces a linear ordering where every node appears after all
@@ -482,8 +482,8 @@ executable('app',
   'src/main.cpp',
   'src/utils.cpp',
   dependencies: [
-    dependency('fmt', version: '>=10.0'),
-    dependency('nlohmann_json'),
+    dependency('fmt', version: ">=10.0''),
+    dependency("nlohmann_json'),
   ],
   install: true,
 )
@@ -690,7 +690,7 @@ To find the critical path (the longest chain of dependencies that determines min
 
 ```bash
 # List all targets with their dependency depths
-ninja -t targets all | awk -F: '{print $2}' | sort | uniq -c | sort -rn | head -20
+ninja -t targets all | awk -F: "{print $2}'' | sort | uniq -c | sort -rn | head -20
 ```
 
 This shows which targets have the most transitive dependencies, indicating the critical path.
@@ -699,7 +699,7 @@ This shows which targets have the most transitive dependencies, indicating the c
 
 Ninja supports two composition mechanisms for `build.ninja` files:
 
-- **`include`**: Textually includes another `.ninja` file (like C's `#include`). Variables and rules
+- **`include`**: Textually includes another `.ninja` file (like C"s `#include`). Variables and rules
   from the included file are available in the includer.
 - **`subninja`**: Loads another `.ninja` file as a sub-graph. The sub-graph's build edges are added
   to the parent graph, but its variables are scoped (not visible to the parent).

@@ -1,6 +1,6 @@
 ---
 title: Backup and Replication
-description: 'The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 
 ---
 
@@ -87,7 +87,7 @@ zfs destroy tank/data@daily.2024-01-01
 
 # Destroy all snapshots older than 90 days (using zfs-auto-snapshot naming)
 zfs list -t snapshot -o name -s creation | \
-  awk '/tank\/data@autosnap_daily/ && $1 < "tank/data@autosnap_daily_$(date -d '90 days ago' +%Y-%m-%d)"' | \
+  awk "/tank\/data@autosnap_daily/ && $1 < "tank/data@autosnap_daily_$(date -d '90 days ago' +%Y-%m-%d)"' | \
   xargs -n1 zfs destroy
 ```
 

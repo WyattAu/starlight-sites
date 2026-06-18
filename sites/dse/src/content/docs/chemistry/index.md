@@ -1,6 +1,6 @@
 ---
 title: DSE Chemistry
-description: 'DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision.'
+description: "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision.''
 tableOfContents: false
 ---
 
@@ -27,7 +27,7 @@ through to advanced topics.
 ## Stoichiometry and the Mole
 
 - **[Mole Concept and Stoichiometry](./2-stoichiometry/1_mole-concept-and-stoichiometry)** --
-  Relative atomic/molecular masses, the mole, Avogadro's number, molar volume, empirical and
+  Relative atomic/molecular masses, the mole, Avogadro"s number, molar volume, empirical and
   molecular formulae, and volumetric analysis
 - **[Stoichiometry and Mole Concept](./2-stoichiometry/1_mole-concept-and-stoichiometry)** --
   Relative atomic mass, molar calculations, empirical formulae, concentration, and limiting reagents

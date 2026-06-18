@@ -1,6 +1,6 @@
 ---
 title: Graph Algorithms
-description: 'Explores vertices in order of increasing distance from the source. Comprehensive educational content coverage with definitions and practice problems.'
+description: "Explores vertices in order of increasing distance from the source. Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -108,7 +108,7 @@ TOPOLOGICAL_SORT(G):
 
 **Time:** $O(V + E)$. Works only on DAGs (acyclic directed graphs).
 
-### 2.2 Kahn's Algorithm (Indegree-Based)
+### 2.2 Kahn"s Algorithm (Indegree-Based)
 
 ```
 TOPOPOLOGICAL_SORT_KAHN(G):

@@ -1,6 +1,6 @@
 ---
 title: HTTP
-description: 'HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents...'
+description: "HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents...''
 tags:
   - Networking
 categories:
@@ -49,7 +49,7 @@ Many APIs violate this).
 ```bash
 # HTTP methods with curl
 curl -X GET https://api.example.com/users/1
-curl -X POST -H "Content-Type: application/json" -d '{"name":"Alice"}' https://api.example.com/users
+curl -X POST -H "Content-Type: application/json" -d "{"name":"Alice"}' https://api.example.com/users
 curl -X PUT -H "Content-Type: application/json" -d '{"name":"Alice Updated"}' https://api.example.com/users/1
 curl -X DELETE https://api.example.com/users/1
 curl -X PATCH -H "Content-Type: application/json" -d '{"name":"Bob"}' https://api.example.com/users/1

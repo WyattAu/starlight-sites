@@ -1,6 +1,6 @@
 ---
-title: 'Hyperbolic Functions -- Diagnostic Tests'
-description: 'A-Level Further Maths Hyperbolic Functions -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Hyperbolic Functions -- Diagnostic Tests''
+description: "A-Level Further Maths Hyperbolic Functions -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -88,7 +88,7 @@ $\int \frac◆LB◆2\cosh u◆RB◆◆LB◆2\cosh u◆RB◆\,du = \int 1\,du = u
 $\cosh x = \frac{e^x + e^{-x}}{2} = \frac{1}{2}\left(1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \frac{x^5}{5!} + \frac{x^6}{6!} + 1 - x + \frac{x^2}{2!} - \frac{x^3}{3!} + \frac{x^4}{4!} - \frac{x^5}{5!} + \frac{x^6}{6!}\right)$
 $= \frac{1}{2}\left(2 + \frac{2x^4}{4!} + \frac{2x^6}{6!}\right) = 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \frac{x^6}{6!} = 1 + \frac{x^2}{2} + \frac{x^4}{24} + \frac{x^6}{720}$.
 
-### IT-2: Osborn's Rule and Trigonometry (with Complex Numbers)
+### IT-2: Osborn"s Rule and Trigonometry (with Complex Numbers)
 
 **Question:** (a) State Osborn's rule. (b) Use it to derive the identity for $\cosh 3x$. (c) Find
 $\frac{d}{dx}\text{cosech}\,x$. (d) Evaluate $\int_0^{\ln 2} \text{sech}\,x\,dx$.

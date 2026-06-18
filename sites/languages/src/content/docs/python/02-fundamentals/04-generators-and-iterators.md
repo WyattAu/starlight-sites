@@ -1,6 +1,6 @@
 ---
 title: Generators and Iterators
-description: 'Python's iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython...'
+description: "Python''s iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython..."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -1149,11 +1149,11 @@ protocol. The distinction is rarely important in practice, but it matters for `i
 ```python
 # BAD: using a generator where random access is needed
 gen = (x ** 2 for x in range(100))
-print(gen[50])  # TypeError: 'generator' object is not subscriptable
+print(gen[50])  # TypeError: "generator'' object is not subscriptable
 
 # BAD: using a generator where length is needed
 gen = (x for x in range(100))
-print(len(gen))  # TypeError: object of type 'generator' has no len()
+print(len(gen))  # TypeError: object of type "generator' has no len()
 
 # BAD: using a generator where multiple passes are needed
 gen = (x for x in range(100))

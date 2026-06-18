@@ -1,6 +1,6 @@
 ---
 title: Probability
-description: 'Rigorous IB mathematics notes covering Probability. Includes definitions, derivations, worked examples, and exam-style problems. and distributions.'
+description: "Rigorous IB mathematics notes covering Probability. Includes definitions, derivations, worked examples, and exam-style problems. and distributions.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -26,7 +26,7 @@ $$
 ### Complementary Events
 
 $$
-P(A') = 1 - P(A)
+P(A") = 1 - P(A)
 $$
 
 Where $A'$ (or $\bar{A}$) is the complement of $A$.

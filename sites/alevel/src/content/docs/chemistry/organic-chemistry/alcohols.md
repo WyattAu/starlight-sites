@@ -1,6 +1,6 @@
 ---
 title: Alcohols
-description: 'Alcohols are organic compounds containing one or more hydroxyl () groups bonded  Comprehensive educational content coverage with definitions and practice proble'
+description: "Alcohols are organic compounds containing one or more hydroxyl () groups bonded  Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -151,7 +151,7 @@ $$
 
 3. Loss of a proton ($\mathrm{H}^+$) from an adjacent carbon, forming the C=C double bond.
 
-When multiple alkenes are possible, Zaitsev's rule applies: the more substituted alkene
+When multiple alkenes are possible, Zaitsev"s rule applies: the more substituted alkene
 Predominates.
 
 **Worked Example.** Dehydration of butan-2-ol:

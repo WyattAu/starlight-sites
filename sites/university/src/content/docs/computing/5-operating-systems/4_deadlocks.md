@@ -3,7 +3,7 @@ title: Deadlocks
 tags:
   - Computing
   - University
-description: 'A is a situation where a set of processes are all blocked, each waiting for a resource Held by another process in the set.'
+description: "A is a situation where a set of processes are all blocked, each waiting for a resource Held by another process in the set.''
 ---
 
 ### 4.1 Definition and Necessary Conditions
@@ -30,7 +30,7 @@ Eliminate one of the four Coffman conditions:
 | No preemption    | Release held resources if a new request cannot be granted         |
 | Circular wait    | Impose a total ordering on resources; request in increasing order |
 
-### 4.3 Deadlock Avoidance: Banker's Algorithm
+### 4.3 Deadlock Avoidance: Banker"s Algorithm
 
 The **Banker's algorithm** avoids deadlock by checking whether granting a request leads to a safe
 State.

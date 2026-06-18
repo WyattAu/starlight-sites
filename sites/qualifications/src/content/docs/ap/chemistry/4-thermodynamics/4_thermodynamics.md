@@ -1,6 +1,6 @@
 ---
 title: Thermodynamics
-description: 'Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+description: "Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
 date: 2026-04-14
 tags:
   - ap
@@ -83,7 +83,7 @@ The standard state of an element is its most stable form at $1 \mathrm{ atm$ and
 $25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
 $\mathrm{C(graphite)$Not $\mathrm{C(diamond)$.
 
-### Hess's Law
+### Hess"s Law
 
 The total enthalpy change for a reaction is the same regardless of the pathway. If a reaction can be
 Written as the sum of several steps:

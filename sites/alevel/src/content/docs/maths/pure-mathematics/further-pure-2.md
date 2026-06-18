@@ -1,6 +1,6 @@
 ---
 title: Further Pure Mathematics 2
-description: '| Board | Paper | Notes | | ---------- | ----------- | ------------------------------------------------------ | | AQA | Paper 2 | Groups, further complex,...'
+description: "| Board | Paper | Notes | | ---------- | ----------- | ------------------------------------------------------ | | AQA | Paper 2 | Groups, further complex,...''
 date: 2026-05-31
 tags:
   - Maths
@@ -27,7 +27,7 @@ Ensure full mastery of Further Pure 1 before proceeding.
 
 ## 1. Further Complex Numbers
 
-### 1.1 Euler's Relation
+### 1.1 Euler"s Relation
 
 Euler's relation connects the exponential and trigonometric functions:
 

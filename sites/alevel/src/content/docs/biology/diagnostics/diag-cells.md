@@ -1,6 +1,6 @@
 ---
-title: 'Cells -- Diagnostic Tests'
-description: 'A-Level Biology Cells -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+title: "Cells -- Diagnostic Tests''
+description: "A-Level Biology Cells -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."'
 tableOfContents: false
 ---
 
@@ -231,7 +231,7 @@ through the process of **conjugation**.
 
 (b) Beta-lactamase catalyses the hydrolysis of the beta-lactam ring of ampicillin, rendering the
 antibiotic inactive. Explain why the production of beta-lactamase does not harm the bacterial cell
-itself, despite ampicillin's target being the bacterial cell wall.
+itself, despite ampicillin"s target being the bacterial cell wall.
 
 (c) Explain how the widespread use of ampicillin in medicine and agriculture has led to the increase
 in ampicillin-resistant bacteria, with reference to natural selection.

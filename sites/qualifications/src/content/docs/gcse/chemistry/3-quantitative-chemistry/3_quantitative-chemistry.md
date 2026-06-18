@@ -1,6 +1,6 @@
 ---
 title: Quantitative Chemistry
-description: 'The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass.'
+description: "The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass.''
 date: 2026-04-14
 tags:
   - gcse
@@ -68,7 +68,7 @@ Both sides equal 80.6.
 ### 2.1 Definition
 
 The **mole** is the unit for amount of substance. One mole contains exactly $6.02 \times 10^{23}$
-Particles (this number is **Avogadro's constant**, $N_A$).
+Particles (this number is **Avogadro"s constant**, $N_A$).
 
 The mole bridges the gap between the atomic scale and the macroscopic scale. One mole of carbon-12
 Has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there

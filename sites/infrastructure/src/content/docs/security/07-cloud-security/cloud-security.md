@@ -1,6 +1,6 @@
 ---
 title: Cloud Security
-description: 'Cloud security is governed by a shared responsibility model. The division of responsibility between The cloud provider and the customer depends on the...'
+description: "Cloud security is governed by a shared responsibility model. The division of responsibility between The cloud provider and the customer depends on the...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Security
@@ -286,7 +286,7 @@ GCP IAM follows a resource-hierarchy model: Organization > Folder > Project > Re
   production.
 - **Predefined roles:** Granular roles for specific services (e.g., `roles/storage.objectViewer`
   `roles/cloudsql.client`).
-- **Custom roles:** Define specific permissions for your organization's needs.
+- **Custom roles:** Define specific permissions for your organization"s needs.
 - **Service accounts:** Used by applications and compute resources. Should be configured with the
   minimum permissions required.
 

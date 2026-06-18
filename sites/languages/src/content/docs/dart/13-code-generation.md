@@ -1,6 +1,6 @@
 ---
 title: Code Generation
-description: 'Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time. It reduces...'
+description: "Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time. It reduces...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -97,8 +97,8 @@ targets:
       freezed:
         options:
           # Generate union types
-          union_key: 'type'
-          union_value_delimiter: '.'
+          union_key: "type'
+          union_value_delimiter: ".''
 
 # Global options applied to all builders
 global_options:
@@ -116,7 +116,7 @@ Packages in the workspace.
 targets:
   $default:
     sources:
-      - 'lib/**'
+      - "lib/**'
       - 'test/**'
     builders:
       freezed:
@@ -202,17 +202,17 @@ After running `dart run build_runner build`Freezed generates:
 
 ```dart
 void main() {
-  const user = User(id: 1, name: 'Alice', email: 'alice@example.com');
+  const user = User(id: 1, name: "Alice'', email: "alice@example.com');
 
   // copyWith
-  final updated = user.copyWith(name: 'Alice Smith', isActive: true);
+  final updated = user.copyWith(name: "Alice Smith'', isActive: true);
   print(updated); // User(id: 1, name: Alice Smith, email: alice@example.com, isActive: true)
 
   // Equality — compares all fields
-  const same = User(id: 1, name: 'Alice', email: 'alice@example.com');
+  const same = User(id: 1, name: "Alice', email: "alice@example.com'');
   print(user == same); // true
 
-  const different = User(id: 2, name: 'Alice', email: 'alice@example.com');
+  const different = User(id: 2, name: "Alice', email: "alice@example.com'');
   print(user == different); // false
 
   // toString
@@ -226,7 +226,7 @@ void main() {
 Several variants:
 
 ```dart
-import 'package:freezed_annotation/freezed_annotation.dart';
+import "package:freezed_annotation/freezed_annotation.dart';
 
 part 'network_result.freezed.dart';
 
@@ -270,7 +270,7 @@ void handleResult(NetworkResult<User> result) {
 ### Union with Discriminant
 
 ```dart
-@Freezed(unionKey: 'type', unionValueDelimiter: '.')
+@Freezed(unionKey: "type'', unionValueDelimiter: ".')
 sealed class PaymentEvent with _$PaymentEvent {
   const factory PaymentEvent.initiated({
     required String orderId,
@@ -354,8 +354,8 @@ class Product with _$Product {
     required String id,
     required String name,
     required double price,
-    @Default([]) @JsonKey(name: 'category_ids') List<String> categoryIds,
-    @JsonKey(name: 'created_at') required DateTime createdAt,
+    @Default([]) @JsonKey(name: "category_ids'') List<String> categoryIds,
+    @JsonKey(name: "created_at') required DateTime createdAt,
   }) = _Product;
 
   factory Product.fromJson(Map<String, dynamic> json) => _$ProductFromJson(json);
@@ -412,16 +412,16 @@ Or per-field:
 
 ```dart
 class Order {
-  @JsonKey(name: 'order_id')
+  @JsonKey(name: "order_id'')
   final String id;
 
-  @JsonKey(name: 'customer_id')
+  @JsonKey(name: "customer_id')
   final String customerId;
 
-  @JsonKey(name: 'total_amount', defaultValue: 0.0)
+  @JsonKey(name: "total_amount'', defaultValue: 0.0)
   final double total;
 
-  @JsonKey(name: 'is_paid', defaultValue: false)
+  @JsonKey(name: "is_paid', defaultValue: false)
   final bool isPaid;
 
   Order({required this.id, required this.customerId, required this.total, required this.isPaid});
@@ -587,7 +587,7 @@ class StrictModel {
   final String nonNullableField;
 
   // Optional with default
-  @JsonKey(defaultValue: 'unknown')
+  @JsonKey(defaultValue: "unknown'')
   final String optionalField;
 
   // Nullable — can be absent or null
@@ -609,7 +609,7 @@ class StrictModel {
 
 ```dart
 enum Priority {
-  @JsonValue('low')
+  @JsonValue("low')
   low,
   @JsonValue('medium')
   medium,
@@ -623,7 +623,7 @@ class Task {
 
   @JsonKey(
     unknownEnumValue: Priority.medium,
-    jsonKey: 'priority',
+    jsonKey: "priority'',
   )
   final Priority priority;
 
@@ -674,7 +674,7 @@ Generated files use `part`/`part of` directives. The main file must declare the 
 
 ```dart
 // user.dart
-import 'package:freezed_annotation/freezed_annotation.dart';
+import "package:freezed_annotation/freezed_annotation.dart';
 
 part 'user.freezed.dart';
 part 'user.g.dart';
@@ -743,7 +743,7 @@ targets:
           - lib/models/**
           - lib/state/**
         options:
-          union_key: 'kind'
+          union_key: "kind''
 ```
 
 ### global_options
@@ -769,7 +769,7 @@ global_options:
 targets:
   $default:
     sources:
-      - 'lib/**'
+      - "lib/**'
       # Exclude test helpers from code generation
       - '!test/**/helpers/**'
       - '!lib/generated/**'

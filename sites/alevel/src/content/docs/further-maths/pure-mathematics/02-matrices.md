@@ -1,6 +1,6 @@
 ---
 title: Matrices
-description: 'Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more...'
+description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -208,7 +208,7 @@ For a $2 \times 2$ system:
   solutions).
 - $\det(\mathbf{A}) = 0$ and the equations are inconsistent: the lines are parallel (no solutions).
 
-### 4.2 Cramer's Rule
+### 4.2 Cramer"s Rule
 
 For a system $\mathbf{A}\mathbf{x} = \mathbf{b}$ where $\det(\mathbf{A}) \neq 0$:
 

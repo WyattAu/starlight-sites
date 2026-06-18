@@ -3,7 +3,7 @@ title: Conservation Laws and Symmetries
 tags:
   - Physics
   - University
-description: 'The following are conserved in all known interactions: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The following are conserved in all known interactions: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 2.1 Exactly Conserved Quantities
@@ -36,7 +36,7 @@ $I_3$Baryon number $B$And strangeness $S$:
 
 $$Q = I_3 + \frac{B + S}{2}$$
 
-This can be generalised to include charm $C$Bottomness $B'$And topness $T$:
+This can be generalised to include charm $C$Bottomness $B"$And topness $T$:
 
 $$Q = I_3 + \frac{1}{2}(B + S + C + B' + T)$$
 

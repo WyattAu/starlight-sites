@@ -1,6 +1,6 @@
 ---
 title: Geometry and Trigonometry
-description: 'Geometry and trigonometry form a significant part of the Leaving Certificate syllabus, particularly Paper 2. This topic covers coordinate geometry,...'
+description: "Geometry and trigonometry form a significant part of the Leaving Certificate syllabus, particularly Paper 2. This topic covers coordinate geometry,...''
 date: 2026-04-14
 tags:
   - ilc
@@ -124,7 +124,7 @@ $$
 A = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|
 $$
 
-This is derived from the shoelace formula (also known as Gauss's area formula).
+This is derived from the shoelace formula (also known as Gauss"s area formula).
 
 **Example (HL):** Find the area of the triangle with vertices $(1, 2)$$(4, 6)$$(3, -1)$.
 

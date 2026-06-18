@@ -1,6 +1,6 @@
 ---
 title: AP Biology Study Guide
-description: 'Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four...'
+description: "Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam Description. Covers the full curriculum organised around the four...''
 date: 2026-05-31
 tags:
   - ap
@@ -20,7 +20,7 @@ information transfer, and systems interactions.
 
 ### Water Properties
 
-Water's polarity gives it unique properties essential for life:
+Water"s polarity gives it unique properties essential for life:
 
 1. **Cohesion and adhesion:** Hydrogen bonds between water molecules (cohesion) and between water
    and other surfaces (adhesion) enable capillary action and the transpiration stream in plants.

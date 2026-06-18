@@ -1,6 +1,6 @@
 ---
-title: 'Organisation -- Diagnostic Tests'
-description: '(a) Label the main organs of the digestive system in order from mouth to anus. (b) Explain where and how starch, proteins, and lipids are digested, naming...'
+title: "Organisation -- Diagnostic Tests''
+description: "(a) Label the main organs of the digestive system in order from mouth to anus. (b) Explain where and how starch, proteins, and lipids are digested, naming..."'
 tableOfContents: false
 ---
 
@@ -131,7 +131,7 @@ in cellular respiration.
 
 (b) The graph peaks at $40^\circ$C (rate 22.2), making this the **optimum temperature**.
 
-(c) Above $40^\circ$C, the enzyme's active site begins to change shape due to the breaking of bonds
+(c) Above $40^\circ$C, the enzyme"s active site begins to change shape due to the breaking of bonds
 maintaining the tertiary structure. This is **denaturation** -- the substrate can no longer fit into
 the active site, so the reaction rate decreases. At $70^\circ$C, the enzyme is completely denatured
 and cannot function.

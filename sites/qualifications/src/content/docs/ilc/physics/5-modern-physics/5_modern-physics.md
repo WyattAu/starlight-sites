@@ -1,6 +1,6 @@
 ---
 title: Modern Physics
-description: 'Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast. Key topics include the photoelectric effect, atomic...'
+description: "Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast. Key topics include the photoelectric effect, atomic...''
 date: 2026-04-14
 tags:
   - ilc
@@ -59,7 +59,7 @@ At low intensity are particularly fatal to the classical picture. A wave spread 
 Would deposit energy continuously; an electron at a specific point on the surface would need to wait
 To accumulate enough energy. Yet experiment shows no delay.
 
-### Einstein's Explanation (1905)
+### Einstein"s Explanation (1905)
 
 Einstein proposed that light consists of discrete packets called **photons**, each with energy:
 

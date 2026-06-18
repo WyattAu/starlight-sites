@@ -1,6 +1,6 @@
 ---
 title: Basics and Pattern Matching
-description: 'Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code.'
+description: "Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code.''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir
@@ -129,7 +129,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
 string type, which is a list of integers).
 
 ```elixir

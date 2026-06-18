@@ -1,6 +1,6 @@
 ---
 title: The noexcept Specifier
-description: 'Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees.'
+description: "Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees.''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -65,7 +65,7 @@ int main() {
 ## 3.2 `std::move_if_noexcept`
 
 The standard library uses `std::move_if_noexcept` to provide the strong exception safety guarantee
-During reallocation [N4950 §20.2.4]. If an element's move constructor might throw, the library falls
+During reallocation [N4950 §20.2.4]. If an element"s move constructor might throw, the library falls
 Back to copying:
 
 $$

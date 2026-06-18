@@ -1,6 +1,6 @@
 ---
 title: Pointers and Memory
-description: 'Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble'
+description: "Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18
 tags:
   - Go
@@ -159,7 +159,7 @@ Reclaimed when the function returns. The Go compiler works hard to keep variable
 
 ### Stack Growth
 
-Go stacks start small (2-8 KB) and grow as needed. When a goroutine's stack is too small, the
+Go stacks start small (2-8 KB) and grow as needed. When a goroutine"s stack is too small, the
 Runtime allocates a larger stack and copies the old stack to the new one. This is transparent to the
 Programmer.
 

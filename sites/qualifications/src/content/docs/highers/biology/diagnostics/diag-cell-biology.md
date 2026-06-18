@@ -1,6 +1,6 @@
 ---
-title: 'Cell Biology -- Diagnostic Tests'
-description: 'Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Cell Biology -- Diagnostic Tests''
+description: "Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -162,7 +162,7 @@ catalytic function.
 - Rate increases from low pH to a peak at **pH 7** (the optimum pH for catalase).
 - Rate decreases symmetrically on either side of the optimum.
 
-This shape occurs because pH affects the ionisation of amino acid side chains in the enzyme's active
+This shape occurs because pH affects the ionisation of amino acid side chains in the enzyme"s active
 site. At the optimum pH, the ionisation of these residues gives the active site its correct shape
 for substrate binding. At pH values above or below the optimum, changes in ionisation alter the
 charge distribution in the active site, disrupting the tertiary structure and reducing the enzyme's

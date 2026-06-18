@@ -1,6 +1,6 @@
 ---
 title: Redis Deep Dive
-description: 'Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a...'
+description: "Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a...''
 
 ---
 
@@ -421,7 +421,7 @@ redis-cli --cluster reshard 10.0.0.1:7000 \
 
 ```bash
 # Publisher
-PUBLISH channel:orders '{"order_id": 42, "status": "created"}'
+PUBLISH channel:orders "{"order_id": 42, "status": "created"}'
 
 # Subscriber
 SUBSCRIBE channel:orders

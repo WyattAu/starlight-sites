@@ -1,6 +1,6 @@
 ---
-title: 'Halogenoalkanes, Alcohols -- Diagnostic Tests'
-description: 'A-Level Chemistry Halogenoalkanes, Alcohols -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Halogenoalkanes, Alcohols -- Diagnostic Tests''
+description: "A-Level Chemistry Halogenoalkanes, Alcohols -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -116,7 +116,7 @@ Conditions favouring **substitution**:
 3. **Number of $\beta$-hydrogens:** Tertiary halogenoalkanes have more $\beta$-hydrogens available
    for elimination, increasing the statistical probability of elimination occurring.
 
-4. **Saytzeff's rule:** Elimination from tertiary halogenoalkanes preferentially gives the more
+4. **Saytzeff"s rule:** Elimination from tertiary halogenoalkanes preferentially gives the more
    substituted (more stable) alkene, which provides a thermodynamic driving force.
 
 ---

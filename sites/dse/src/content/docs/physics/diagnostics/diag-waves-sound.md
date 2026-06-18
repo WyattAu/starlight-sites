@@ -1,6 +1,6 @@
 ---
-title: 'Waves and Sound -- Diagnostic Tests'
-description: 'DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.'
+title: "Waves and Sound -- Diagnostic Tests''
+description: "DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."'
 tableOfContents: false
 ---
 
@@ -61,7 +61,7 @@ $x = 0.3$ m, $\sin(\pi) = 0$ (node). All consistent.
 
 A point source emits sound uniformly in all directions with a power output of $0.01$ W. A listener
 stands $5$ m from the source. The threshold of hearing is $1 \times 10^{-12} \text{ W m}^{-2}$. Find
-(a) the intensity at the listener's position, (b) the sound intensity level in decibels, and (c) the
+(a) the intensity at the listener"s position, (b) the sound intensity level in decibels, and (c) the
 distance at which the sound intensity level drops to $40$ dB.
 
 **Solution:**

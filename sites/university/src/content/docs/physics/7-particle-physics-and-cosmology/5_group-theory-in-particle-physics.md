@@ -3,7 +3,7 @@ title: Group Theory in Particle Physics
 tags:
   - Physics
   - University
-description: 'The strong interaction is governed by the gauge group . The eight gluons correspond to the Eight generators of SU(3), the Gell-Mann matrices ().'
+description: "The strong interaction is governed by the gauge group . The eight gluons correspond to the Eight generators of SU(3), the Gell-Mann matrices ().''
 ---
 
 ### 5.1 SU(3) Colour
@@ -127,7 +127,7 @@ $$\begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\t
 
 ### 5.5 Flavour Symmetries and the Eightfold Way
 
-Before QCD, Gell-Mann and Ne'eman organised hadrons using approximate SU(3) flavour symmetry:
+Before QCD, Gell-Mann and Ne"eman organised hadrons using approximate SU(3) flavour symmetry:
 
 - **Meson octet:** $\pi^+, \pi^0, \pi^-, K^+, K^0, \bar{K}^0, K^-, \eta$.
 - **Baryon octet:** $p, n, \Sigma^+, \Sigma^0, \Sigma^-, \Xi^0, \Xi^-, \Lambda$.

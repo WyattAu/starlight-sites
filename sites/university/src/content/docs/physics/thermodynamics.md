@@ -5,7 +5,7 @@ tags:
   - University Physics
 categories:
   - University Physics
-description: 'is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides...'
+description: "is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides...''
 ---
 
 ## 1. Introduction
@@ -27,7 +27,7 @@ empirical laws (the four laws of thermodynamics) without reference to atoms or m
 
 **Statistical mechanics** provides the microscopic foundation: macroscopic thermodynamic quantities
 emerge as statistical averages over enormous numbers of microscopic states. The bridge between the
-two perspectives is given by Boltzmann's entropy formula:
+two perspectives is given by Boltzmann"s entropy formula:
 
 $$S = k_B \ln \Omega$$
 

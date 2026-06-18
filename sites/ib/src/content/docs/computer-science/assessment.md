@@ -1,6 +1,6 @@
 ---
 title: Assessment
-description: '| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |...'
+description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |...''
 ---
 
 # Assessment objective
@@ -283,7 +283,7 @@ Concerns.
 
 **Point**: However, cloud computing raises significant data privacy and security concerns.
 
-**Evidence**: When data is stored on third-party servers, organizations must trust the provider's
+**Evidence**: When data is stored on third-party servers, organizations must trust the provider"s
 Security measures. High-profile breaches (e.g., the Capital One data breach in 2019, which exposed
 100 million customer records) illustrate the risks. Additionally, data sovereignty laws (such as
 GDPR in the EU) restrict where data can be stored and processed.

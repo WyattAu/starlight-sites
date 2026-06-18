@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: 'A-Level Psychology Psychopathology notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+description: "A-Level Psychology Psychopathology notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
 
 ---
 
@@ -73,7 +73,7 @@ cognitive, and biological explanations alongside evidence-based treatments.
 
 **Cognitive Explanations:**
 
-**Beck's Cognitive Triad (1967):** Beck proposed that depression is maintained by three components
+**Beck"s Cognitive Triad (1967):** Beck proposed that depression is maintained by three components
 of negative thinking:
 
 1. **Negative thoughts about the self** ("I am worthless")

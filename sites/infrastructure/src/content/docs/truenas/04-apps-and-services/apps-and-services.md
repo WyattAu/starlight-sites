@@ -1,6 +1,6 @@
 ---
 title: Apps and Services
-description: 'TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This...'
+description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This...''
 
 ---
 
@@ -50,7 +50,7 @@ services:
   myapp:
     image: myapp:latest
     ports:
-      - '8080:8080'
+      - "8080:8080'
     volumes:
       - type: volume
         source: myapp-data
@@ -413,11 +413,11 @@ Every app should have resource limits configured to prevent resource starvation:
 # Example resource configuration in Helm values
 resources:
   requests:
-    cpu: '250m'
-    memory: '256Mi'
+    cpu: "250m''
+    memory: "256Mi'
   limits:
-    cpu: '2000m'
-    memory: '2048Mi'
+    cpu: "2000m''
+    memory: "2048Mi'
 ```
 
 | Resource       | Request vs Limit                  | Recommendation                    |
@@ -461,7 +461,7 @@ tank/
 # In the app's Helm values, add GPU device allocation
 extraEnv:
   - name: PLEX_MEDIA_SERVER_USE_HARDWARE
-    value: 'true'
+    value: "true''
 hostGPU: true
 # Or for specific GPU:
 # nodeSelector:
@@ -497,7 +497,7 @@ redis:
   enabled: true
   resources:
     limits:
-      memory: '128Mi'
+      memory: "128Mi'
 ```
 
 ### Home Assistant
@@ -529,12 +529,12 @@ extraVolumeMounts:
 ```yaml
 # Add TrueNAS as a scrape target
 scrape_configs:
-  - job_name: 'truenas'
+  - job_name: "truenas''
     static_configs:
-      - targets: ['truenas.local:9100'] # node-exporter
-  - job_name: 'smartmon'
+      - targets: ["truenas.local:9100'] # node-exporter
+  - job_name: "smartmon''
     static_configs:
-      - targets: ['truenas.local:9633'] # smartmon-exporter
+      - targets: ["truenas.local:9633'] # smartmon-exporter
 ```
 
 **Grafana dashboard for TrueNAS:**
@@ -564,15 +564,15 @@ Key panels to include:
 # Vaultwarden security configuration
 extraEnv:
   - name: DOMAIN
-    value: 'https://vault.example.com'
+    value: "https://vault.example.com''
   - name: WEBSOCKET_ENABLED
-    value: 'true'
+    value: "true'
   - name: SHOW_PASSWORD_HINT
-    value: 'false'
+    value: "false''
   - name: LOG_FILE
-    value: '/data/vaultwarden.log'
+    value: "/data/vaultwarden.log'
   - name: LOG_LEVEL
-    value: 'warn'
+    value: "warn''
   - name: ADMIN_TOKEN
     valueFrom:
       secretKeyRef:
@@ -613,7 +613,7 @@ extraEnv:
 ### VM Backup Strategy
 
 1. **ZFS snapshot the ZVOL** before making changes to the VM.
-2. **Use `zfs send`** to replicate the VM's ZVOL to a backup pool.
+2. **Use `zfs send`** to replicate the VM"s ZVOL to a backup pool.
 3. **Export the VM configuration** from the TrueNAS web UI and store it alongside the ZVOL snapshot.
 4. **To restore:** Import the ZVOL, recreate the VM with the exported configuration, and attach the
    ZVOL.
@@ -795,9 +795,9 @@ custom-app/
 apiVersion: v2
 name: my-custom-app
 version: 0.1.0
-description: 'TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This...'
+description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This...''
 type: application
-appVersion: '1.0.0'
+appVersion: "1.0.0'
 maintainers:
   - name: Your Name
 keywords:
@@ -829,7 +829,7 @@ service:
 
 ingress:
   enabled: false
-  className: ''
+  className: "''
   annotations: {}
   hosts: []
   tls: []
@@ -837,7 +837,7 @@ ingress:
 persistence:
   enabled: true
   size: 1Gi
-  storageClass: ''
+  storageClass: "'
   accessMode: ReadWriteOnce
 ```
 
@@ -851,7 +851,7 @@ TrueNAS apps can communicate with each other using Kubernetes service names:
 # App A connects to App B
 # In App A's values.yaml:
 config:
-  DATABASE_URL: 'postgres://postgres-service:5432/mydb'
+  DATABASE_URL: "postgres://postgres-service:5432/mydb''
 # Kubernetes resolves "postgres-service" to the internal ClusterIP
 # This works within the same namespace (ix-apps)
 ```
@@ -903,7 +903,7 @@ zfs send -Rcv tank/apps/postgres/data@auto-daily-$(date +%Y%m%d) |   ssh backup-
 
 When upgrading or replacing an app:
 
-1. Snapshot the current app's data dataset.
+1. Snapshot the current app"s data dataset.
 2. Clone the snapshot to a temporary location.
 3. Deploy the new app with a reference to the cloned data.
 4. Verify the new app can read the data.

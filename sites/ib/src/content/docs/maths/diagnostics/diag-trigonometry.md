@@ -1,6 +1,6 @@
 ---
-title: 'Trigonometry -- Diagnostic Tests'
-description: 'IB Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision.'
+title: "Trigonometry -- Diagnostic Tests''
+description: "IB Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."'
 tableOfContents: false
 ---
 
@@ -20,7 +20,7 @@ A student writes:
 "$\sin 2x = \cos x \implies 2\sin x \cos x = \cos x \implies \cos x(2\sin x - 1) = 0$. So
 $\cos x = 0$ or $\sin x = \frac{1}{2}$."
 
-**(a)** Complete the student's working and verify that all solutions are found.
+**(a)** Complete the student"s working and verify that all solutions are found.
 
 **(b)** Another student cancels $\cos x$ from both sides at the start, writing
 $\sin 2x = \cos x \implies 2\sin x = 1$. Explain what is lost.

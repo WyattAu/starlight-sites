@@ -1,6 +1,6 @@
 ---
 title: Atomic Operations and Lock-Free Programming
-description: 'This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack...'
+description: "This section covers The full set of atomic operations, The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a Lock-free stack...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -36,7 +36,7 @@ The standard specifies which types `T` may be [N4950 §31.7.1]:
 int main() {
     std::atomic<int> counter{0};
     constexpr int num_threads = 10;
-    constexpr int iterations = 100'000;
+    constexpr int iterations = 100"000;
 
     std::vector<std::jthread> threads;
     for (int i = 0; i < num_threads; ++i) {

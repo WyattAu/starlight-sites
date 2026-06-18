@@ -1,6 +1,6 @@
 ---
 title: Argument
-description: 'An argument is a reasoned attempt to persuade an audience to accept a claim. A strong argument consists of three essential components:'
+description: "An argument is a reasoned attempt to persuade an audience to accept a claim. A strong argument consists of three essential components: "''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -55,7 +55,7 @@ and **supportable** (sufficient evidence exists).
 | Examples             | Specific instances, anecdotes, case studies | Moderate (limited by representativeness)                 |
 | Expert testimony     | Quotations or paraphrases from authorities  | Strong when the expert is credible and relevant          |
 | Historical precedent | Past events and established patterns        | Strong for demonstrating continuity                      |
-| Personal experience  | The writer's own observations               | Weak alone; strong when supplemented with other evidence |
+| Personal experience  | The writer"s own observations               | Weak alone; strong when supplemented with other evidence |
 
 ### Evaluating Evidence
 
@@ -115,7 +115,7 @@ The Toulmin model provides a structured framework for constructing and analysing
 ## Logical Fallacies
 
 A logical fallacy is a flaw in reasoning that weakens an argument. Recognising fallacies is
-essential both for constructing strong arguments and for evaluating others' claims.
+essential both for constructing strong arguments and for evaluating others" claims.
 
 ### Common Fallacies
 

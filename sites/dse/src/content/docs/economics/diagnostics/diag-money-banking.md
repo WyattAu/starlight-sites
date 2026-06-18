@@ -1,6 +1,6 @@
 ---
-title: 'Money and Banking -- Diagnostic Tests'
-description: 'DSE Economics Money and Banking -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Money and Banking -- Diagnostic Tests''
+description: "DSE Economics Money and Banking -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -68,7 +68,7 @@ Predicted inflation rate: **12%**.
   transaction agreement and actual payment. They switch to barter or foreign currency.
 - **Unit of account**: Prices change so rapidly that accounting in the domestic currency becomes
   meaningless. Firms may price in stable foreign currencies.
-- **Store of value**: Money's purchasing power evaporates. Holding cash means guaranteed losses.
+- **Store of value**: Money"s purchasing power evaporates. Holding cash means guaranteed losses.
   People spend money immediately or convert to real assets.
 
 ### UT-3: Interest Rate Determination

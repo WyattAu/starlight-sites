@@ -1,6 +1,6 @@
 ---
 title: Range Adaptors, Views, and Composition
-description: 'Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to...'
+description: "Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -65,7 +65,7 @@ pipeline construction time; all computation is deferred to iteration.
    that, on `operator++`Advances the source iterator past elements failing the predicate. The
    predicate is only invoked when the iterator is advanced, not at construction.
 
-3. `views::transform` stores the source and the function. Its iterator's `operator*` applies `f` to
+3. `views::transform` stores the source and the function. Its iterator"s `operator*` applies `f` to
    the current element of the source iterator. The function `f` is invoked only when the element is
    dereferenced, not when the view is constructed.
 

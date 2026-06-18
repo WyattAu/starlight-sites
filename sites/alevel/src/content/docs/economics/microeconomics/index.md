@@ -1,6 +1,6 @@
 ---
 title: Microeconomics
-description: 'A-Level Microeconomics notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and mastery.'
+description: "A-Level Microeconomics notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and mastery.''
 ---
 
 # Microeconomics
@@ -61,7 +61,7 @@ the full A-Level microeconomics syllabus.
 3. **Use chains of analysis** — every argument should flow: "An increase in the minimum wage
    $\rightarrow$ higher labour costs $\rightarrow$ firms reduce employment $\rightarrow$
    unemployment rises $\rightarrow$ government spending on benefits increases."
-4. **Evaluate market structures comparatively** — don't just describe perfect competition; explain
+4. **Evaluate market structures comparatively** — don"t just describe perfect competition; explain
    why it is more efficient than monopoly using specific criteria (price, output, welfare).
 5. **Apply theory to real markets** — e.g., analyse the oil market using supply and demand, or the
    pharmaceutical industry using monopoly theory.

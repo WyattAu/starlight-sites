@@ -1,6 +1,6 @@
 ---
 title: Alkenes
-description: 'Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula For acyclic alkenes with one double bond is . The C=C bond...'
+description: "Alkenes are unsaturated hydrocarbons containing at least one C=C double bond. The general formula For acyclic alkenes with one double bond is . The C=C bond...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -79,7 +79,7 @@ $$
 \mathrm{CH}_3\overset◆LB◆+◆RB◆◆LB◆\mathrm{C}◆RB◆\mathrm{HCH}_3 + \mathrm{Br}^- \to \mathrm{CH}_3\mathrm{CHBrCH}_3
 $$
 
-### Markovnikov's Rule
+### Markovnikov"s Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon of the double bond
 That already has the greater number of hydrogen atoms. Equivalently: the electrophile adds to the

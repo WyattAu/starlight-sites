@@ -1,6 +1,6 @@
 ---
 title: Defining Concepts and Requires Clauses
-description: 'C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a...'
+description: "C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -234,7 +234,7 @@ Causing a compilation error [N4950 §7.5.8/7]:
 ```cpp
 template<typename T>
 concept HasFooAndBar = requires(T t) {
-    t.foo();  // If T doesn't have foo(), this fails silently
+    t.foo();  // If T doesn"t have foo(), this fails silently
     t.bar();  // If T doesn't have bar(), this fails silently
     // The concept evaluates to false, but NO compilation error is emitted
 };

@@ -1,6 +1,6 @@
 ---
-title: 'Probability Distributions -- Diagnostic Tests'
-description: 'IB Maths Probability Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Probability Distributions -- Diagnostic Tests''
+description: "IB Maths Probability Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -127,7 +127,7 @@ For the call centre, if we model each second as a Bernoulli trial with
 $p = \frac{2}{60} = \frac{1}{30}$ and $n = 60$Then $np = 2$. The conditions are satisfied since
 $n = 60 \geq 50$, $p = \frac{1}{30} \lt 0.1$And $np = 2 \leq 15$.
 
-However, the student's claim that this is "directly $\mathrm{Poi}(2)$" is incomplete — the Poisson
+However, the student"s claim that this is "directly $\mathrm{Poi}(2)$" is incomplete — the Poisson
 is an approximation that must be justified.
 
 **(b)** With $\lambda = np = 200 \times 0.01 = 2$:

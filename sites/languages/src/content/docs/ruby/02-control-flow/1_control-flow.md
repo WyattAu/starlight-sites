@@ -1,6 +1,6 @@
 ---
 title: Control Flow
-description: 'The statement evaluates a condition and executes the corresponding branch. The keyword handles additional conditions, and provides a fallback:'
+description: "The statement evaluates a condition and executes the corresponding branch. The keyword handles additional conditions, and provides a fallback: "''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
@@ -112,7 +112,7 @@ label = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F"
 
 ### case / when
 
-The `case` statement is Ruby's switch construct. It supports both value matching and condition
+The `case` statement is Ruby"s switch construct. It supports both value matching and condition
 matching:
 
 ```ruby
@@ -886,7 +886,7 @@ class UserService
 
   def authenticate!(username, password)
     user = User.find_by(username: username)
-    raise NotFoundError, "User '#{username}' not found" unless user
+    raise NotFoundError, "User "#{username}' not found" unless user
     raise AuthenticationError, "Invalid password" unless user.authenticate(password)
     raise AuthorizationError, "Account suspended" unless user.active?
     user

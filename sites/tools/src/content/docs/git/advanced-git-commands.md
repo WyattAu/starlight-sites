@@ -1,6 +1,6 @@
 ---
 title: Advanced Git Commands
-description: 'Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice.'
+description: "Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice.''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Git
@@ -112,7 +112,7 @@ And could not be pushed or shared.
 # Create an edited replacement for a commit
 git replace --edit <commit>
 
-# This opens your editor with the commit's contents.
+# This opens your editor with the commit"s contents.
 # You can modify the commit message, author, committer, or parent list.
 # Git creates a new commit object and registers it as the replacement.
 ```
@@ -2140,7 +2140,7 @@ Each branch can only be checked out in one worktree at a time:
 
 ```bash
 $ git worktree add ../wt2 main
-fatal: 'main' is already checked out at '/path/to/repo'
+fatal: "main'' is already checked out at "/path/to/repo'
 
 # Solution: use a different branch
 $ git worktree add -b main-fix ../wt2 main

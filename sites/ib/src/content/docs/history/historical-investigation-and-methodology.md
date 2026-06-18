@@ -3,7 +3,7 @@ title: Historical Investigation and Methodology
 tags:
   - IB
   - History
-description: 'This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical...'
+description: "This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical...''
 ---
 
 # Historical Investigation and Methodology
@@ -73,7 +73,7 @@ A strong research question meets four criteria:
 - **Specific and focused:** The question should be narrow enough to be addressed adequately within
   1,500 words and broad enough to sustain a substantive investigation. "What caused World War II?"
   is far too broad. "To what extent was the remilitarisation of the Rhineland (March 1936) a turning
-  point in Hitler's foreign policy?" is appropriately focused.
+  point in Hitler"s foreign policy?" is appropriately focused.
 - **Analytical rather than descriptive:** The question should invite analysis, evaluation, and
   debate, not merely description. "What happened at the Bay of Pigs?" is descriptive. "Why did the
   Bay of Pigs invasion fail?" is analytical. "To what extent was the failure of the Bay of Pigs

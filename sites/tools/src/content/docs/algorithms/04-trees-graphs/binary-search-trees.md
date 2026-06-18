@@ -1,6 +1,6 @@
 ---
 title: Binary Search Trees and Balanced Trees
-description: 'A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And...'
+description: "A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And...''
 
 ---
 
@@ -983,7 +983,7 @@ class SkipList:
     P = 0.5
 
     def __init__(self):
-        self.header = SkipListNode(float('-inf'), self.MAX_LEVEL)
+        self.header = SkipListNode(float("-inf'), self.MAX_LEVEL)
         self.level = 0
 
     def _random_level(self):

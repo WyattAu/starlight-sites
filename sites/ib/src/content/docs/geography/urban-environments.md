@@ -1,6 +1,6 @@
 ---
 title: Urban Environments
-description: 'This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,...'
+description: "This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,...''
 
 ---
 
@@ -9,7 +9,7 @@ description: 'This section covers the IB Geography optional theme on urban envir
 This section covers the IB Geography optional theme on urban environments. It examines the global
 trends in urbanisation, the spatial structure of cities, the environmental and social challenges of
 urban growth, and the strategies used to create sustainable and liveable urban areas. With over half
-the world's population now living in cities, understanding urban processes is essential for
+the world"s population now living in cities, understanding urban processes is essential for
 addressing challenges related to housing, transport, pollution, inequality, and climate resilience.
 
 ## Contents

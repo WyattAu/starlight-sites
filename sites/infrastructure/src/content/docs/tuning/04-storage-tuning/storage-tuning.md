@@ -1,6 +1,6 @@
 ---
 title: Storage Tuning
-description: '| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |...'
+description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |...''
 
 ---
 
@@ -192,7 +192,7 @@ Property controls TRIM behavior.
 
 ### Over-Provisioning
 
-Over-provisioning (OP) reserves a portion of the NAND capacity for the SSD controller's use. This
+Over-provisioning (OP) reserves a portion of the NAND capacity for the SSD controller"s use. This
 Reserved space is not accessible to the host but provides:
 
 1. **More spare blocks for garbage collection**, reducing write amplification.

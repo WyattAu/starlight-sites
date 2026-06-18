@@ -1,6 +1,6 @@
 ---
-title: 'Human Physiology -- Diagnostic Tests'
-description: 'DSE Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Human Physiology -- Diagnostic Tests''
+description: "DSE Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -99,7 +99,7 @@ marks]
 
 (b) Fetal haemoglobin has a higher affinity for oxygen, meaning it binds oxygen more readily at a
 given $pO_{2}$. This is essential because the $pO_{2}$ in the maternal blood in the placenta is
-relatively **low** (oxygen has already been partially used by the mother's tissues). The higher
+relatively **low** (oxygen has already been partially used by the mother"s tissues). The higher
 affinity of HbF allows it to **effectively load oxygen** from the maternal blood even at this lower
 $pO_{2}$Ensuring the fetus receives an adequate oxygen supply. At the same $pO_{2}$HbF has a higher
 percentage saturation than HbA.

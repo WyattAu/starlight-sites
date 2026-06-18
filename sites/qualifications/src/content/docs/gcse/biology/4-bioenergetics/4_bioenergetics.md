@@ -1,6 +1,6 @@
 ---
 title: Bioenergetics
-description: 'Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen.'
+description: "Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen.''
 date: 2026-04-14
 tags:
   - gcse
@@ -301,7 +301,7 @@ Yeast converts glucose into **ethanol** (alcohol) and carbon dioxide. This proce
 
 ### 2.3 Response to Exercise
 
-During exercise, the body's demand for energy increases. Several changes occur to meet this demand:
+During exercise, the body"s demand for energy increases. Several changes occur to meet this demand:
 
 - Breathing rate increases (to take in more $\mathrm{O_2$ and remove more $\mathrm{CO_2$)
 - Heart rate increases (to pump oxygenated blood faster to muscles)

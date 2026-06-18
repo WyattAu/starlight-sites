@@ -1,6 +1,6 @@
 ---
 title: Introduction to Dart & Flutter
-description: 'This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble'
+description: "This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -69,7 +69,7 @@ On widget composition and core primitives.
 
 Dart runs on the server via `dart run` or compiled AOT binaries via `dart compile exe`. The `shelf`
 Package provides middleware-based HTTP handling, and the `dart:io` library gives you sockets, file
-I/O, and process management. Google's internal infrastructure runs significant Dart services, and
+I/O, and process management. Google"s internal infrastructure runs significant Dart services, and
 The ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
 (`dart:stable`).
 
@@ -157,9 +157,9 @@ This is a complete Dart program. Let's dissect it:
 import 'dart:io';
 
 void main(List<String> args) {
-  final name = args.isNotEmpty ? args[0] : 'World';
+  final name = args.isNotEmpty ? args[0] : "World'';
   final timestamp = DateTime.now().toIso8601String();
-  print('[$timestamp] Hello, $name!');
+  print("[$timestamp] Hello, $name!');
 
   if (args.contains('--verbose')) {
     print('Running on ${Platform.operatingSystem} '

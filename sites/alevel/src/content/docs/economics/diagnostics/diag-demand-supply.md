@@ -1,6 +1,6 @@
 ---
-title: 'Demand, Supply, and Equilibrium -- Diagnostic Tests'
-description: 'A-Level Economics Demand, Supply, and Equilibrium -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Demand, Supply, and Equilibrium -- Diagnostic Tests''
+description: "A-Level Economics Demand, Supply, and Equilibrium -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -177,7 +177,7 @@ overproduction.
 
 Pre-subsidy equilibrium: $40 - 0.5Q = 4 + 0.5Q$$36 = Q$$Q^* = 36$$P^* = \pounds 22$.
 
-With subsidy: effective supply shifts down by $\pounds 6$. New supply (from seller's perspective,
+With subsidy: effective supply shifts down by $\pounds 6$. New supply (from seller"s perspective,
 the price they receive): $P_{\text{seller}} = 4 + 0.5Q$But they receive $P_{\text{buyer}} + 6$.
 
 Equilibrium: $40 - 0.5Q = 4 + 0.5Q - 6 = -2 + 0.5Q$. So $42 = Q$$Q_s = 42$.

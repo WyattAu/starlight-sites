@@ -3,7 +3,7 @@ title: Contemporary Urban Environments
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: 'A-Level Geography Contemporary Urban Environments notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
+description: "A-Level Geography Contemporary Urban Environments notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.''
 ---
 
 # Contemporary Urban Environments
@@ -29,7 +29,7 @@ governed.
 | **Megacity**                      | A city with a population exceeding 10 million (e.g., Tokyo, Delhi, Shanghai)                                                       |
 | **Meta-city**                     | A city with a population exceeding 20 million (e.g., Tokyo-Yokohama, Greater Jakarta)                                              |
 | **Suburbanisation**               | The movement of people, employment, and facilities from the inner city to suburban areas                                           |
-| **Counter-urbanisation**          | The movement of people from urban areas to rural areas beyond the city's commuter belt                                             |
+| **Counter-urbanisation**          | The movement of people from urban areas to rural areas beyond the city"s commuter belt                                             |
 | **Re-urbanisation**               | The movement of people back into inner urban areas, often associated with regeneration and gentrification                          |
 | **Social segregation**            | The separation of different social groups within a city, based on income, ethnicity, or other factors                              |
 | **Urban heat island (UHI)**       | The phenomenon where urban areas are significantly warmer than surrounding rural areas due to human activity and modified surfaces |

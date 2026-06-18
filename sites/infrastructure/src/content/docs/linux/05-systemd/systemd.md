@@ -1,6 +1,6 @@
 ---
 title: Systemd
-description: 'Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,...'
+description: "Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,...''
 
 ---
 
@@ -466,7 +466,7 @@ OnCalendar=monthly                 # 1st of every month at 00:00
 OnCalendar=Sat,Sun *-*-* 02,14:00:00  # Sat/Sun at 2 AM and 2 PM
 
 # Validate a timer expression
-systemd-analyze calendar '*-*-* 03:00:00'
+systemd-analyze calendar "*-*-* 03:00:00'
 systemd-analyze calendar 'Mon *-*-* 03:00:00'
 ```
 

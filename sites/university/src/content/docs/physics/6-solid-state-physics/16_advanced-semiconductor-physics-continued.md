@@ -3,7 +3,7 @@ title: Advanced Semiconductor Physics (Continued)
 tags:
   - Physics
   - University
-description: 'When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature, the Hall resistance shows quantised plateaux:'
+description: "When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature, the Hall resistance shows quantised plateaux:''
 ---
 
 ### 16.1 Quantum Hall Effect
@@ -132,7 +132,7 @@ $\blacksquare$
 ## Summary
 
 - Crystal structure: Bravais lattices, reciprocal lattice, Miller indices.
-- Bragg's law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
+- Bragg"s law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
 - Band theory: metals (partially filled bands), semiconductors (small gap), insulators (large gap).
 - Effective mass: $m^* = \hbar^2/(d^2E/dk^2)$; describes carrier response to external fields.
 

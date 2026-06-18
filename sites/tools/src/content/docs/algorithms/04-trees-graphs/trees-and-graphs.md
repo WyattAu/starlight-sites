@@ -1,6 +1,6 @@
 ---
 title: Trees and Graphs
-description: 'A tree is a connected, acyclic, undirected graph. In computer science, trees are Comprehensive educational content coverage with definitions and practice proble'
+description: "A tree is a connected, acyclic, undirected graph. In computer science, trees are Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -71,7 +71,7 @@ def inorder(root):
     if root is None:
         return
     inorder(root.left)
-    print(root.val, end=' ')
+    print(root.val, end=" ')
     inorder(root.right)
 ```
 

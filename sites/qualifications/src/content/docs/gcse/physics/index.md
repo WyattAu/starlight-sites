@@ -1,6 +1,6 @@
 ---
 title: GCSE Physics
-description: 'Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'
+description: "Comprehensive revision notes for GCSE Physics, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - gcse
@@ -32,7 +32,7 @@ curriculum and organised by topic for easy navigation.
 
 - **Energy** — energy stores and transfers, conservation of energy, specific heat capacity, latent
   heat, efficiency, renewable and non-renewable resources, national and global energy use
-- **Electricity** — circuit symbols, current, potential difference and resistance, Ohm's law, series
+- **Electricity** — circuit symbols, current, potential difference and resistance, Ohm"s law, series
   and parallel circuits, power and energy transfer, domestic electricity, the National Grid
 - **Forces** — scalar and vector quantities, Newton's laws, weight and mass, resultant forces, work
   done, momentum, stopping distances, elasticity, pressure in fluids

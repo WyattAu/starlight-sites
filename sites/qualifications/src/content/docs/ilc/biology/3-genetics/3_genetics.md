@@ -1,6 +1,6 @@
 ---
 title: Genetics and Evolution
-description: 'ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+description: "ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
 date: 2026-04-14
 tags:
   - ilc
@@ -28,7 +28,7 @@ DNA is a double-stranded helix composed of nucleotides.
 - Adenine (A) pairs with Thymine (T) -- two hydrogen bonds.
 - Cytosine (C) pairs with Guanine (G) -- three hydrogen bonds.
 
-**Chargaff's rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
+**Chargaff"s rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
 
 ### DNA Replication (HL)
 

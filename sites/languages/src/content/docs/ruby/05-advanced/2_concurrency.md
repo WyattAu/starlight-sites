@@ -1,6 +1,6 @@
 ---
 title: Concurrency
-description: 'Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has...'
+description: "Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
@@ -62,7 +62,7 @@ t.join       # blocks until thread finishes
 t.join(2)    # wait at most 2 seconds
 t.join(2) { puts "Timed out!" }
 
-t.value      # returns the thread's return value (blocks until completion)
+t.value      # returns the thread"s return value (blocks until completion)
 
 # Thread return value
 t = Thread.new { 2 + 3 }

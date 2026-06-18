@@ -1,6 +1,6 @@
 ---
-title: 'Reading Non-Fiction -- Diagnostic Tests'
-description: 'Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls.'
+title: "Reading Non-Fiction -- Diagnostic Tests''
+description: "Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls."'
 tableOfContents: false
 ---
 
@@ -21,7 +21,7 @@ Read the following article extract about urban cycling:
 > by over 70%, and cycling became the dominant mode of transport. Today, 61% of all journeys in
 > Groningen are made by bicycle, compared with just 2% in most British cities. Critics argue that
 > what worked in a flat Dutch city of 200,000 people cannot simply be transplanted to a congested
-> British metropolis of millions. They may be right. But the principle behind Groningen's approach
+> British metropolis of millions. They may be right. But the principle behind Groningen"s approach
 > -- that infrastructure determines behaviour -- is applicable everywhere.
 
 (a) According to the text, what was the key change made to Groningen's city centre in the 1970s?

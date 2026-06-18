@@ -1,6 +1,6 @@
 ---
 title: Homeostasis
-description: 'is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal...'
+description: "is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal...''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -67,7 +67,7 @@ beneficial.
 
 Examples:
 
-- **Oxytocin and childbirth**: pressure of the baby's head on the cervix stimulates the posterior
+- **Oxytocin and childbirth**: pressure of the baby"s head on the cervix stimulates the posterior
   pituitary to release oxytocin, which causes uterine contractions. Stronger contractions push the
   baby further against the cervix, stimulating more oxytocin release, further increasing
   contractions. This positive feedback loop continues until the baby is born.

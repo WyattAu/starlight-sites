@@ -1,6 +1,6 @@
 ---
 title: Range Materialization (std::ranges::to)
-description: 'Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or Independence from the source lifetime, you must the view...'
+description: "Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or Independence from the source lifetime, you must the view...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -65,7 +65,7 @@ int main() {
     // Materialize strings
     std::string text = "hello world foo bar";
     auto words = text
-        | std::views::split(' ')
+        | std::views::split(" ')
         | std::views::transform([](auto&& rng) {
             return std::string(rng.begin(), rng.end());
         })

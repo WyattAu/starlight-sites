@@ -1,6 +1,6 @@
 ---
 title: Water Scarcity and Management
-description: 'Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to Distinguish between two fundamentally different types:'
+description: "Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to Distinguish between two fundamentally different types: "''
 
 ---
 
@@ -109,7 +109,7 @@ Tunnels, or pipelines.
 | ----------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | **South-to-North Water Transfer**   | China                | Three routes transferring up to 45 billion m$^3$/year from the Yangtze to the Yellow River basin | Cost approximately USD 62 billion; displacement of over 300 000 people; ecological impacts on source and receiving basins |
 | **California Aqueduct**             | USA                  | Transfers approximately 5 billion m$^3$/year from northern to southern California                | Energy-intensive (pumping water over the Tehachapi Mountains); ecological impacts on the Sacramento-San Joaquin Delta     |
-| **Lesotho Highlands Water Project** | Lesotho/South Africa | Transfers approximately 780 million m$^3$/year from Lesotho to South Africa's Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
+| **Lesotho Highlands Water Project** | Lesotho/South Africa | Transfers approximately 780 million m$^3$/year from Lesotho to South Africa"s Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
 
 ## Demand-Side Management Strategies
 
@@ -149,7 +149,7 @@ Managing a transboundary water resource under increasing scarcity.
 9.25 billion m$^3$) per year to each of the upper and lower basin states, plus 1.5 million acre-feet
 To Mexico, based on an estimated average annual flow of 17.5 million acre-feet. Subsequent analysis
 Has shown that the long-term average flow is approximately 14.8 million acre-feet -- the river was
-Over-allocated from the outset. Total allocations now exceed the river's flow by approximately
+Over-allocated from the outset. Total allocations now exceed the river"s flow by approximately
 20--30%.
 
 **Consequences.** Lake Mead (the largest reservoir in the USA by volume) fell to 27% of capacity in

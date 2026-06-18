@@ -1,6 +1,6 @@
 ---
-title: 'Carbonyl Compounds, Arenes, Amines -- Diagnostic Tests'
-description: 'A-Level Chemistry Carbonyl Compounds, Arenes, Amines -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Carbonyl Compounds, Arenes, Amines -- Diagnostic Tests''
+description: "A-Level Chemistry Carbonyl Compounds, Arenes, Amines -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -119,7 +119,7 @@ favoured for steric reasons.
 1. **Inductive effect (-I):** The electronegative nitrogen and oxygen atoms withdraw electron
    density from the ring.
 
-2. **Resonance effect (-M):** The nitro group's $\pi$-system withdraws electron density from the
+2. **Resonance effect (-M):** The nitro group"s $\pi$-system withdraws electron density from the
    ring through resonance (the $\pi$-electrons of the ring are delocalised onto the oxygen atoms of
    the nitro group).
 

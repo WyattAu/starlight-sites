@@ -1,6 +1,6 @@
 ---
 title: Wrap Up
-description: 'Rigorous IB physics notes covering Wrap Up. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB physics notes covering Wrap Up. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - physics
@@ -66,7 +66,7 @@ Understanding the relationship between power and energy transfer over time ($P=E
   process for part (b).
 - **a) Initial Volume:**
 - The piston is in equilibrium. The pressure from the gas ($P_{\mathrm{gas}}$) must support the
-  piston's weight and the atmospheric pressure ($P_{\mathrm{atm}}$).
+  piston"s weight and the atmospheric pressure ($P_{\mathrm{atm}}$).
 - $P_{\mathrm{gas}} A = P_{\mathrm{atm}} A + mg$.
 - $P_{\mathrm{gas}} = P_{\mathrm{atm}} + \frac{mg}{A} = (1.01 \times 10^5) + \frac{(5.0)(9.8)}{0.010} = 1.01 \times 10^5 + 4900 = 1.059 \times 10^5$
   Pa.

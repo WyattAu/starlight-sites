@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: '(Photoelectric effect) A sodium surface has work function eV. When illuminated With light of wavelength nm, find (a) the maximum kinetic energy of emitted...'
+description: "(Photoelectric effect) A sodium surface has work function eV. When illuminated With light of wavelength nm, find (a) the maximum kinetic energy of emitted...''
 ---
 
 ### Problems
@@ -85,7 +85,7 @@ $\hat{\rho}^2 = \hat{\rho}$ (pure state).
 
 **17.** (Singlet state) Two spin-1/2 particles are prepared in the singlet state. If particle 1 is
 Measured to have $S_z^{(1)} = +\hbar/2$What is the state of particle 2 immediately after? If
-Particle 2's spin is then measured along the $x$-axis, what is the probability of obtaining
+Particle 2"s spin is then measured along the $x$-axis, what is the probability of obtaining
 $+\hbar/2$? Explain how this result is consistent with Bell's theorem and the no-communication
 theorem.
 

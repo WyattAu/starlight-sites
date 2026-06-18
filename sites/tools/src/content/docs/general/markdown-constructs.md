@@ -1,6 +1,6 @@
 ---
 title: Markdown & MDX Constructs
-description: 'Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .'
+description: "Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .''
 date: 2025-05-15T22:45:51.828Z
 tags:
   - general
@@ -242,7 +242,7 @@ They can also be collapsible (Docusaurus 3):
 Tabs require an MDX import:
 
 ````mdx
-import { Tabs } from '@astrojs/starlight/components';
+import { Tabs } from "@astrojs/starlight/components';
 import { TabItem } from '@astrojs/starlight/components';
 
 &lt;Tabs&gt; &lt;TabItem value="python" label="Python"&gt;

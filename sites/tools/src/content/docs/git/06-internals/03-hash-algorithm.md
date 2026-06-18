@@ -1,6 +1,6 @@
 ---
 title: Hash Algorithm
-description: 'Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character...'
+description: "Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character...''
 date: 2025-06-03T14:00:00.000Z
 tags:
   - git
@@ -35,7 +35,7 @@ Approximately $2^{63.1}$ computations (far below the theoretical $2^{80}$).
 
 **Does this affect Git?** Directly, not much. The attack required significant computational
 Resources ($\sim$6,500 CPU-years) and was specifically crafted for PDF files. However, it proved
-That SHA-1's collision resistance is weaker than assumed, and future advances could make attacks
+That SHA-1"s collision resistance is weaker than assumed, and future advances could make attacks
 Cheaper.
 
 ### Git's Defenses Against Collision Attacks

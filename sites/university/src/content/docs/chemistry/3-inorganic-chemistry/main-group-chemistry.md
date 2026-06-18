@@ -1,6 +1,6 @@
 ---
 title: Main-Group Chemistry
-description: 'University Main-Group Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for rigorous review and exam preparation.'
+description: "University Main-Group Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for rigorous review and exam preparation.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -35,7 +35,7 @@ $$\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2$
 
 (Na$_2$CO$_3$ is thermally stable.)
 
-### 1.3 Lithium's Anomalous Behavior
+### 1.3 Lithium"s Anomalous Behavior
 
 Lithium differs from other Group 1 elements due to its small size and high charge density:
 - $\text{Li}_2\text{O}$ (not $\text{Li}_2\text{O}_2$).

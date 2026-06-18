@@ -1,6 +1,6 @@
 ---
 title: Overload Resolution
-description: 'C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a...'
+description: "C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -73,7 +73,7 @@ namespace contribute no additional search scope.
 
 namespace A {
     struct X {};
-    void swap(X&, X&) { /* A's swap */ }
+    void swap(X&, X&) { /* A"s swap */ }
 }
 
 namespace B {

@@ -1,6 +1,6 @@
 ---
 title: Synthesis
-description: 'The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)...'
+description: "The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -34,7 +34,7 @@ Before reading the sources, read the prompt carefully. Identify:
 
 For each source, note:
 
-- **Main argument or claim**: What is the author's position?
+- **Main argument or claim**: What is the author"s position?
 - **Key evidence**: What facts, data, or examples support the argument?
 - **Source type and credibility**: Who wrote it? Is it an academic study, news article, personal
   narrative, government report, or editorial?

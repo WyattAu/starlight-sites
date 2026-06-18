@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: 'Let and . Show that is a subspace of and find its dimension. Comprehensive educational content coverage with definitions and practice problems.'
+description: "Let and . Show that is a subspace of and find its dimension. Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 **Problem 1.** Let $V = \mathbb{R}^3$ and $W = \{(x, y, z) \in \mathbb{R}^3 : x - y + z = 0\}$. Show
@@ -393,7 +393,7 @@ _If you get this wrong, revise: Section 5.4 (Cayley--Hamilton Theorem)._
 </details>
 
 **Problem 20.** Let $T : \mathcal{P}_2(\mathbb{R}) \to \mathcal{P}_2(\mathbb{R})$ be defined by
-$T(p) = p'$ (the derivative). Find the matrix of $T$ with respect to the basis
+$T(p) = p"$ (the derivative). Find the matrix of $T$ with respect to the basis
 $\mathcal{B} = \{1, x, x^2\}$And determine $\ker(T)$ and $\mathrm{im}(T)$.
 
 <details>

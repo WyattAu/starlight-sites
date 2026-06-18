@@ -1,6 +1,6 @@
 ---
 title: A-Level Psychology
-description: 'A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.'
+description: "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.''
 date: 2026-05-12T00:00:00.000Z
 tags:
   - Psychology
@@ -42,7 +42,7 @@ individual differences — all examined through empirical evidence and critical 
 
 ### Developmental Psychology
 
-- **Attachment** — Bowlby's evolutionary theory; types of attachment (secure, insecure-avoidant,
+- **Attachment** — Bowlby"s evolutionary theory; types of attachment (secure, insecure-avoidant,
   insecure-resistant); Ainsworth's Strange Situation
 - **Maternal deprivation** — Bowlby's 44 thieves study; the critical period; effects of
   institutionalisation (Romanian orphan studies)

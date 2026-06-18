@@ -3,7 +3,7 @@ title: Nonlinear Dynamics and Chaos
 tags:
   - Physics
   - University
-description: 'The logistic map is the simplest model of chaotic dynamics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The logistic map is the simplest model of chaotic dynamics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 11.1 The Logistic Map
@@ -84,7 +84,7 @@ At $r = 3.2$: the solutions are $x^* = 0.5130$ and $x^* = 0.7995$Matching our nu
    problem encountered in navigation. For numerical simulations, use quaternions instead.
 
 2. **Canonical transformations are not coordinate transformations:** A canonical transformation
-   changes both coordinates and momenta in a way that preserves Hamilton's equations. Not every
+   changes both coordinates and momenta in a way that preserves Hamilton"s equations. Not every
    coordinate transformation $(q, p) \to (Q, P)$ is canonical. The test is whether the Poisson
    brackets $\{Q_i, Q_j\} = \{P_i, P_j\} = 0$ and $\{Q_i, P_j\} = \delta_{ij}$ are preserved.
 

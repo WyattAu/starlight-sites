@@ -1,6 +1,6 @@
 ---
 title: Automata and Computability
-description: 'Automata and Computability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Automata and Computability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -71,7 +71,7 @@ $\delta: Q \times (\Sigma \cup \{\varepsilon\}) \to \mathcal{P}(Q)$
 NFAs accept exactly the same class of languages (the **regular languages**).
 
 **Proof (subset construction).** Given NFA $N = (Q_N, \Sigma, \delta_N, q_0, F_N)$Construct DFA
-$D = (Q_D, \Sigma, \delta_D, q_0', F_D)$:
+$D = (Q_D, \Sigma, \delta_D, q_0", F_D)$:
 
 1. $Q_D = \mathcal{P}(Q_N)$ (states are subsets of $Q_N$)
 2. $q_0' = \varepsilon\mathrm{-closure}(\{q_0\})$

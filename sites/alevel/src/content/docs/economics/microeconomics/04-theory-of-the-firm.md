@@ -1,6 +1,6 @@
 ---
 title: Theory of the Firm
-description: 'We define the following cost concepts for a firm producing quantity : Comprehensive educational content coverage with definitions and practice problems.'
+description: "We define the following cost concepts for a firm producing quantity : Comprehensive educational content coverage with definitions and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -154,7 +154,7 @@ $$P = MC(Q_{SR})$$
   contributes to fixed costs)
 - If $P < AVC$: the firm shuts down in the short run ($\pi = -TFC$)
 
-The **firm's short-run supply curve** is the portion of the MC curve above AVC.
+The **firm"s short-run supply curve** is the portion of the MC curve above AVC.
 
 #### Long-Run Equilibrium
 

@@ -1,6 +1,6 @@
 ---
 title: Fundamentals
-description: 'A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+description: "A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
 ---
 
 # Fundamentals
@@ -15,7 +15,7 @@ resources, and the ethical framework within which computing operates.
 
 - **Binary, decimal, hexadecimal** — conversion between all bases
 - **Binary arithmetic** — addition, subtraction, shifts
-- **Two's complement** — representing negative integers; range $-2^{n-1}$ to $2^{n-1}-1$ for $n$
+- **Two"s complement** — representing negative integers; range $-2^{n-1}$ to $2^{n-1}-1$ for $n$
   bits
 - **Binary-coded decimal (BCD)** — when and why it is used
 

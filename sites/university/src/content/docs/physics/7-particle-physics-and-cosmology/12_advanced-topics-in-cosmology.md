@@ -3,7 +3,7 @@ title: Advanced Topics in Cosmology
 tags:
   - Physics
   - University
-description: 'The describes the temperature anisotropy of the CMB caused by gravitational potential fluctuations at the surface of last scattering:'
+description: "The describes the temperature anisotropy of the CMB caused by gravitational potential fluctuations at the surface of last scattering:''
 ---
 
 ### 12.1 The Sachs--Wolfe Effect
@@ -93,7 +93,7 @@ $$\frac{\Delta T}{T} \approx \frac{\delta\Phi}{3c^2} = \frac{-10^{-4}}{3} \appro
 
 This is of the same order as the observed CMB anisotropy ($\Delta T/T \sim 10^{-5}$).
 
-(b) The Sunyaev--Zel'dovich (SZ) effect from hot electrons in the cluster:
+(b) The Sunyaev--Zel"dovich (SZ) effect from hot electrons in the cluster:
 
 $$\frac{\Delta T}{T}\bigg|_{\text{SZ} = -2\int \frac{k_B T_e}{m_e c^2}\, n_e \sigma_T\, dl}$$
 

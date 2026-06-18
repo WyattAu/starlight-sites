@@ -1,6 +1,6 @@
 ---
 title: The Three Trees
-description: 'Git manipulates three distinct data structures, conventionally called (though "tree" is overloaded in Git terminology — see ). These are:'
+description: "Git manipulates three distinct data structures, conventionally called (though "tree" is overloaded in Git terminology — see ). These are: "''
 date: 2025-06-02T22:00:00.000Z
 tags:
   - git
@@ -22,7 +22,7 @@ overloaded in Git terminology — see [Git Objects](./02-git-objects.md)). These
    graph of objects.
 
 Almost every Git command is a transformation between these three trees. Understanding this model
-makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`Which
+makes Git"s behavior predictable, even for commands that appear confusing (like `git checkout`Which
 can mean different things depending on context).
 
 ```mermaid
@@ -50,7 +50,7 @@ stateDiagram-v2
 ## The Working Directory
 
 The working directory is the directory on your filesystem where you edit files. It is a **checkout**
-of a particular commit's tree — Git extracts the files referenced by a tree object and writes them
+of a particular commit"s tree — Git extracts the files referenced by a tree object and writes them
 to disk.
 
 ### Key Properties

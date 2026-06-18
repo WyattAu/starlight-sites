@@ -1,6 +1,6 @@
 ---
 title: Further Calculus
-description: 'This topic extends the calculus of A Level Mathematics to more powerful integration techniques, Inverse trigonometric functions, volumes of revolution, arc...'
+description: "This topic extends the calculus of A Level Mathematics to more powerful integration techniques, Inverse trigonometric functions, volumes of revolution, arc...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -628,7 +628,7 @@ $\boxed{I = \frac◆LB◆e^x(\sin 2x - 2\cos 2x)◆RB◆◆LB◆5◆RB◆ + C}$
 
 ## 8. Advanced Worked Examples
 
-### Example 8.1: Leibniz's rule for higher derivatives of a product
+### Example 8.1: Leibniz"s rule for higher derivatives of a product
 
 **Problem.** If $y = x^2 e^{3x}$Find $\dfrac{d^4 y}{dx^4}$.
 

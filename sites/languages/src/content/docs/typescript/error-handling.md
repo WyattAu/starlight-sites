@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: 'The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a...'
+description: "The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a...''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -37,7 +37,7 @@ Call another function of type `never`. If a `never`-returning function somehow r
 
 ```ts
 function example(): number {
-  fail('unreachable');
+  fail("unreachable');
   return 42;
 }
 ```
@@ -52,13 +52,13 @@ A value of type `never`. Assigning this value to a variable of type `never` prov
 
 ```ts
 type Shape =
-  | { kind: 'circle'; radius: number }
-  | { kind: 'rectangle'; width: number; height: number }
-  | { kind: 'triangle'; base: number; height: number };
+  | { kind: "circle''; radius: number }
+  | { kind: "rectangle'; width: number; height: number }
+  | { kind: "triangle''; base: number; height: number };
 
 function area(shape: Shape): number {
   switch (shape.kind) {
-    case 'circle':
+    case "circle':
       return Math.PI * shape.radius ** 2;
     case 'rectangle':
       return shape.width * shape.height;
@@ -102,7 +102,7 @@ try {
   if (error instanceof Error) {
     console.error(error.message);
   } else {
-    console.error('Unknown error:', error);
+    console.error('Unknown error: ", error);
   }
 }
 ```
@@ -114,7 +114,7 @@ function handleError(error: unknown): string {
   if (error instanceof Error) {
     return error.message;
   }
-  if (typeof error === 'string') {
+  if (typeof error === ''string") {
     return error;
   }
   if (typeof error === 'number') {
@@ -252,11 +252,11 @@ try {
   JSON.parse('invalid');
 } catch (error: unknown) {
   if (error instanceof SyntaxError) {
-    console.log('Parse error:', error.message);
+    console.log('Parse error: ", error.message);
   } else if (error instanceof Error) {
-    console.log('General error:', error.message);
+    console.log(''General error:", error.message);
   } else {
-    console.log('Non-error thrown:', error);
+    console.log('Non-error thrown: ", error);
   }
 }
 ```
@@ -287,7 +287,7 @@ Not narrow types across `finally` boundaries because the control flow is non-loc
 ```ts
 function example(): string {
   try {
-    return 'try';
+    return ''try";
   } finally {
     return 'finally';
   }
@@ -346,7 +346,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   }
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
-    console.error('ErrorBoundary caught:', error, errorInfo);
+    console.error('ErrorBoundary caught: ", error, errorInfo);
   }
 
   private reset = () => {
@@ -379,7 +379,7 @@ function App() {
 ```
 
 **Common Pitfall:** Error boundaries do not catch errors in event handlers, asynchronous code, or
-Server-side rendering. They only catch errors during React's rendering lifecycle. Use `try`/`catch`
+Server-side rendering. They only catch errors during React''s rendering lifecycle. Use `try`/`catch`
 For event handlers and async operations.
 
 ## Throw Expressions (TypeScript 4.0+)
@@ -391,7 +391,7 @@ function getLength(value: string | null): number {
   return (
     value ??
     (() => {
-      throw new Error('Value is null');
+      throw new Error("Value is null');
     })()
   );
 }
@@ -477,14 +477,14 @@ function assertNever(value: never): never {
   throw new AssertionError(`Unexpected value: ${JSON.stringify(value)}`);
 }
 
-type Action = { type: 'fetch'; url: string } | { type: 'cancel' } | { type: 'retry' };
+type Action = { type: "fetch''; url: string } | { type: "cancel' } | { type: "retry'' };
 
 function processAction(action: Action): void {
   switch (action.type) {
-    case 'fetch':
-      console.log('Fetching:', action.url);
+    case "fetch':
+      console.log('Fetching: ", action.url);
       break;
-    case 'cancel':
+    case ''cancel":
       console.log('Cancelled');
       break;
     case 'retry':
@@ -599,8 +599,8 @@ function fetchUser(id: string): Result<User, NetworkError | NotFoundError> {
 const result = parseJSON('{"name": "Ada"}');
 const final = match(
   result,
-  (value) => console.log('Parsed:', value),
-  (error) => console.error('Failed:', error),
+  (value) => console.log('Parsed: ", value),
+  (error) => console.error(''Failed:", error),
 );
 ```
 
@@ -617,7 +617,7 @@ async function safeFetch(url: string): AsyncResult<Response, NetworkError> {
     }
     return ok(response);
   } catch (error) {
-    return err(new NetworkError(error instanceof Error ? error.message : 'Unknown error', 0, url));
+    return err(new NetworkError(error instanceof Error ? error.message : "Unknown error'', 0, url));
   }
 }
 ```
@@ -648,7 +648,7 @@ interface Config {
 }
 
 const a: Config = {};
-const b: Config = { host: 'localhost' };
+const b: Config = { host: "localhost' };
 ```
 
 Under `exactOptionalPropertyTypes``const c: Config = { host: undefined }` is an error.

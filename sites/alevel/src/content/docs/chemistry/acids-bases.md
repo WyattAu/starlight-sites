@@ -1,6 +1,6 @@
 ---
 title: Acids, Bases & Buffers
-description: 'An is a proton () donor. A is a proton acceptor. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "An is a proton () donor. A is a proton acceptor. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -746,7 +746,7 @@ $$
 \mathrm{pH} = -\log_{10}(1.1 \times 10^{-7}) = 6.96
 $$
 
-The pH is close to 7 despite the solution being acidic, because the acid is so dilute that water's
+The pH is close to 7 despite the solution being acidic, because the acid is so dilute that water"s
 contribution dominates.
 
 ### Calculating pH of Polyprotic Acids

@@ -2,7 +2,7 @@
 title: Maths
 tags:
   - maths
-description: 'This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)....'
+description: "This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)....''
 ---
 
 ## IB Mathematics -- Analysis and Approaches (AA) -- Course Overview
@@ -28,7 +28,7 @@ Topics.
   theorem for positive integer exponents, logarithms (laws and solving equations), and proof by
   mathematical induction (simple cases).
 - **HL extension:** Counting principles and the binomial theorem for rational exponents. Partial
-  fractions, complex numbers (Cartesian, polar, and exponential forms, De Moivre's theorem, roots of
+  fractions, complex numbers (Cartesian, polar, and exponential forms, De Moivre"s theorem, roots of
   complex numbers), and proof by mathematical induction (extended cases including divisibility and
   inequalities).
 

@@ -1,6 +1,6 @@
 ---
-title: 'Functions -- Diagnostic Tests'
-description: 'A-Level Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+title: "Functions -- Diagnostic Tests''
+description: "A-Level Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
 tableOfContents: false
 ---
 
@@ -93,7 +93,7 @@ how domain restriction affects the inverse.]
 **(a)** To show $f$ is one-to-one on $x \leq -2$We show it is strictly monotonic (strictly
 decreasing) on this domain.
 
-$$f'(x) = 2x + 4$$
+$$f"(x) = 2x + 4$$
 
 For $x \leq -2$: $2x + 4 \leq 0$With equality only at $x = -2$.
 

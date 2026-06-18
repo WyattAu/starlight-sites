@@ -1,6 +1,6 @@
 ---
-title: 'Quadratics -- Diagnostic Tests'
-description: 'DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.'
+title: "Quadratics -- Diagnostic Tests''
+description: "DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."'
 tableOfContents: false
 ---
 
@@ -62,7 +62,7 @@ Therefore $x = -2$ or $x = 0$.
 
 ---
 
-### UT-3: Vieta's Formulas Application
+### UT-3: Vieta"s Formulas Application
 
 **Question:**
 

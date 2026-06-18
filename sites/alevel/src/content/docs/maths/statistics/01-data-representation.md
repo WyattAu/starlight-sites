@@ -1,6 +1,6 @@
 ---
 title: Data Representation
-description: '| Board | Paper | Notes | | ---------- | ------- | --------------------------------------------- | | AQA | Paper 1 | Measures of location and spread, coding...'
+description: "| Board | Paper | Notes | | ---------- | ------- | --------------------------------------------- | | AQA | Paper 1 | Measures of location and spread, coding...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -109,7 +109,7 @@ For sample data, the **unbiased estimator** of the population variance is
 
 $$s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac◆LB◆\sum x_i^2 - n\bar{x}^2◆RB◆◆LB◆n-1◆RB◆$$
 
-The division by $n-1$ (Bessel's correction) accounts for the fact that $\bar{x}$ is estimated from
+The division by $n-1$ (Bessel"s correction) accounts for the fact that $\bar{x}$ is estimated from
 The same data, losing one degree of freedom.
 
 <hr />

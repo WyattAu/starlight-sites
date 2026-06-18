@@ -1,6 +1,6 @@
 ---
 title: Complex Analysis
-description: 'Complex Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Complex Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Mathematics
@@ -108,7 +108,7 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 </details>
 
-### 1.4 Euler's Formula and De Moivre’s Theorem
+### 1.4 Euler"s Formula and De Moivre’s Theorem
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$.
 

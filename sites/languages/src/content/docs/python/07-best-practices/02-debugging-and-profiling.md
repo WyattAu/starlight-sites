@@ -1,6 +1,6 @@
 ---
 title: Debugging and Profiling
-description: 'Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does...'
+description: "Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -15,7 +15,7 @@ Debugging and profiling are not afterthoughts bolted onto a codebase after the f
 First-class engineering disciplines. A systems engineer does not guess about correctness or
 Performance — they measure, instrument, and reason from evidence. This reference covers the full
 Debugging and profiling stack in CPython, from the interactive debugger down to kernel-level
-Sampling profilers, and explains the _why_ behind each tool's design.
+Sampling profilers, and explains the _why_ behind each tool"s design.
 
 ## pdb and breakpoint()
 
@@ -587,7 +587,7 @@ Explicit chain. The traceback shows both exceptions:
 RuntimeError: Failed to parse input
   The above exception was the direct cause of the following exception:
   ...
-ValueError: invalid literal for int() with base 10: 'not a number'
+ValueError: invalid literal for int() with base 10: "not a number''
 ```
 
 If you use bare `raise` inside an `except` block, Python sets `__context__` automatically (implicit
@@ -610,7 +610,7 @@ Set to `True` when you use `from e` or `from None`Which tells the traceback form
 
 ## cProfile
 
-`cProfile` is CPython's deterministic, function-level profiler. It is implemented in C as a C
+`cProfile` is CPython"s deterministic, function-level profiler. It is implemented in C as a C
 Extension (`_lsprof`), which makes it significantly faster than a pure-Python implementation but
 Still imposes measurable overhead.
 
@@ -691,7 +691,7 @@ Time of small code snippets with high precision.
 ### Command-Line Usage
 
 ```bash
-python -m timeit -s "import json; data = {'key': 'value'}" "json.dumps(data)"
+python -m timeit -s "import json; data = {'key': "value''}" "json.dumps(data)"
 ```
 
 The `-s` flag provides setup code that is not included in the timing. This is critical because you
@@ -704,7 +704,7 @@ import timeit
 
 time_taken = timeit.timeit(
     stmt="json.dumps(data)",
-    setup="import json; data = {'key': 'value'}",
+    setup="import json; data = {"key': "value''}",
     number=100000
 )
 print(f"{time_taken:.6f} seconds for 100000 iterations")
@@ -712,7 +712,7 @@ print(f"{time_taken / 100000 * 1e6:.3f} microseconds per iteration")
 
 times = timeit.repeat(
     stmt="json.dumps(data)",
-    setup="import json; data = {'key': 'value'}",
+    setup="import json; data = {"key': "value''}",
     number=100000,
     repeat=5
 )
@@ -732,7 +732,7 @@ With the least external interference from the OS scheduler, cache effects, and o
    pre-allocate the list.
 
 2. **Measuring dict creation**: `{"a": 1, "b": 2}` includes the cost of hash computation for keys
-   and the dict's internal resize operations. The first insertion into an empty dict triggers
+   and the dict"s internal resize operations. The first insertion into an empty dict triggers
    allocation of the hash table. If you are benchmarking dict lookup, create the dict in the setup
    phase.
 

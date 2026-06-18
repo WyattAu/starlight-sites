@@ -1,6 +1,6 @@
 ---
 title: OSI and TCP/IP Models
-description: 'Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help...'
+description: "Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help...''
 tags:
   - Networking
 categories:
@@ -43,7 +43,7 @@ Lower levels of a system may be redundant or of little value when compared to th
 Them at the higher levels.
 
 In practical terms: reliability, security, and ordering should be implemented at the endpoints (the
-Application), not in the network. The network's job is to deliver packets as quickly and efficiently
+Application), not in the network. The network"s job is to deliver packets as quickly and efficiently
 As possible. This is why IP is "best effort" -- it does not guarantee delivery, ordering, or
 Duplicate suppression. Those are the responsibility of TCP (transport layer) or the application
 Itself.

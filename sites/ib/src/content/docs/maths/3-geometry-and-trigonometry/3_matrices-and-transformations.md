@@ -1,6 +1,6 @@
 ---
 title: Matrices and Transformations
-description: 'Rigorous IB mathematics notes covering Matrices and Transformations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.'
+description: "Rigorous IB mathematics notes covering Matrices and Transformations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -208,7 +208,7 @@ Let $A$ and $B$ be $n \times n$ matrices and $k \in \mathbb{R}$.
 1. $\det(A^T) = \det(A)$
 2. $\det(AB) = \det(A) \cdot \det(B)$
 3. $\det(kA) = k^n \det(A)$ (multiply each of the $n$ rows by $k$)
-4. Swapping two rows (or columns) changes the sign: $\det(A') = -\det(A)$
+4. Swapping two rows (or columns) changes the sign: $\det(A") = -\det(A)$
 5. Multiplying a single row (or column) by $k$ multiplies the determinant by $k$
 6. Adding a multiple of one row to another leaves the determinant unchanged
 7. If $A$ has a row (or column) of zeros, then $\det(A) = 0$

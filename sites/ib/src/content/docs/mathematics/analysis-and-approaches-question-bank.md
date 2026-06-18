@@ -3,7 +3,7 @@ title: Analysis and Approaches Question Bank
 tags:
   - maths
   - ib
-description: '15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and Approaches syllabus (SL/HL). Each question is presented in table...'
+description: "15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and Approaches syllabus (SL/HL). Each question is presented in table...''
 ---
 
 ## IB Mathematics AA — Question Bank
@@ -229,7 +229,7 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 > | --- | --- | --- | --- | --- | --- |
 > | $y$ | 45  | 55  | 60  | 75  | 85  |
 >
-> (a) Calculate Pearson's product-moment correlation coefficient $r$. [3 marks] (b) Comment on the
+> (a) Calculate Pearson"s product-moment correlation coefficient $r$. [3 marks] (b) Comment on the
 > strength and direction of the correlation. [1 mark]
 
 **Mark Scheme:**

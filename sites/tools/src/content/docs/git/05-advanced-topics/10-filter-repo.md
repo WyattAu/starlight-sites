@@ -1,6 +1,6 @@
 ---
 title: Filter-Repo (History Rewriting)
-description: 'is a Python-based tool for rewriting Git repository history. It is the modern, Recommended replacement for Which has been deprecated since Git 2.24...'
+description: "is a Python-based tool for rewriting Git repository history. It is the modern, Recommended replacement for Which has been deprecated since Git 2.24...''
 
 ---
 
@@ -22,7 +22,7 @@ Fundamental design flaws of `filter-branch`.
 - **No safety checks**: Could operate on a repository with a dirty working tree, leading to data
   loss.
 - **State leakage**: Used shell environment variables for inter-process communication, which was
-  fragile and could be poisoned by the user's shell configuration.
+  fragile and could be poisoned by the user"s shell configuration.
 - **No rename detection**: Could not track file renames, so rewriting a file's path would break
   history.
 

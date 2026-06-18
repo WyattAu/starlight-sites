@@ -1,6 +1,6 @@
 ---
 title: Email and Application Protocols
-description: 'Electronic mail and application-layer protocols form the backbone of human communication over the Internet. This document examines the architecture,...'
+description: "Electronic mail and application-layer protocols form the backbone of human communication over the Internet. This document examines the architecture,...''
 date: 2026-04-09T00:00:00.000Z
 tags:
   - Networking
@@ -43,7 +43,7 @@ The message reaches its final destination MTA.
 
 **MDA — Mail Delivery Agent**
 
-The MDA accepts messages from the MTA and writes them into the recipient's mailbox store. This may
+The MDA accepts messages from the MTA and writes them into the recipient"s mailbox store. This may
 Involve writing to a local filesystem format such as mbox (all messages concatenated into one file)
 Or Maildir (one file per message in a directory hierarchy), or delivering to a specialized storage
 Backend via LMTP to a Dovecot or Cyrus IMAP server. Procmail and Sieve (RFC 5228) are commonly used

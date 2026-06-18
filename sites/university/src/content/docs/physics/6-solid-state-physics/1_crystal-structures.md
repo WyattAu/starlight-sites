@@ -3,7 +3,7 @@ title: Crystal Structures
 tags:
   - Physics
   - University
-description: 'A crystal is defined by a (infinite array of points with translational symmetry) and a (the arrangement of atoms associated with each lattice point).'
+description: "A crystal is defined by a (infinite array of points with translational symmetry) and a (the arrangement of atoms associated with each lattice point).''
 ---
 
 ### 1.1 Lattices and Basis
@@ -81,7 +81,7 @@ The **theoretical density** of a crystal:
 
 $$\rho = \frac{nM}{N_A V_{\mathrm{cell}}}$$
 
-Where $n$ is the number of formula units per cell, $M$ is the molar mass, $N_A$ is Avogadro's
+Where $n$ is the number of formula units per cell, $M$ is the molar mass, $N_A$ is Avogadro"s
 Number, and $V_{\mathrm{cell}}$ is the cell volume.
 
 <details>

@@ -1,6 +1,6 @@
 ---
 title: Computer Systems
-description: 'ILC Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+description: "ILC Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
 date: 2026-04-14
 tags:
   - ilc
@@ -417,7 +417,7 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
  10001
 ```
 
-**Two's complement:** used to represent negative numbers. Invert the bits and add 1.
+**Two"s complement:** used to represent negative numbers. Invert the bits and add 1.
 
 **Example (HL):** Represent $-5$ in 8-bit two's complement.
 

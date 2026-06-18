@@ -3,7 +3,7 @@ title: Indexing
 tags:
   - Computing
   - University
-description: 'A balanced search tree where each internal node has between Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A balanced search tree where each internal node has between Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 5.1 B-Trees and B+ Trees
@@ -118,7 +118,7 @@ wait -- the internal node $[10]$ would need to distinguish between leaves $[5]$ 
 the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$This Is still
 correct.
 
-Now delete 10 from the left subtree's right leaf. Leaf becomes empty -- underflow.
+Now delete 10 from the left subtree"s right leaf. Leaf becomes empty -- underflow.
 
 **Redistribution:** Sibling leaf $[5]$ has 1 key (at minimum). Cannot redistribute. **Merge:** Merge
 empty leaf with $[5]$. The merged leaf is $[5]$. The internal node $[10]$ now has Only one child

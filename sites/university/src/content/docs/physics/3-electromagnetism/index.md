@@ -3,14 +3,14 @@ title: Electromagnetism
 tags:
   - Physics
   - University
-description: 'UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.''
 ---
 
 # Electromagnetism
 
 ## Contents
 
-1. [Maxwell's Equations](1_maxwell-s-equations.md)
+1. [Maxwell"s Equations](1_maxwell-s-equations.md)
 2. [Electrostatics](2_electrostatics.mdx)
 3. [Magnetostatics](3_magnetostatics.md)
 4. [Electrodynamics](4_electrodynamics.md)

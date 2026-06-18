@@ -1,6 +1,6 @@
 ---
 title: Explicit Instantiation and Extern Templates
-description: 'When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides...'
+description: "When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -92,7 +92,7 @@ extern template < template-argument-list > declaration
 This tells the compiler: "An instantiation of this template with these arguments exists in some
 Other translation unit. Do **not** implicitly instantiate it here." The effect is that the
 Translation unit emits an **external reference** (a symbol that the linker must resolve) rather than
-Generating the instantiation's object code.
+Generating the instantiation"s object code.
 
 **Explicit instantiation definition** [N4950 §13.9.2/2]:
 

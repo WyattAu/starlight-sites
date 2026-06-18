@@ -1,6 +1,6 @@
 ---
 title: Locking and Deadlocks
-description: 'PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance...'
+description: "PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance...''
 
 ---
 
@@ -77,7 +77,7 @@ SELECT * FROM accounts WHERE account_id IN (1, 2, 3) FOR UPDATE;
 
 -- Lock rows for update, non-blocking (skip already-locked rows)
 SELECT * FROM tasks
-WHERE status = 'pending'
+WHERE status = "pending'
 ORDER BY created_at
 LIMIT 1
 FOR UPDATE SKIP LOCKED;

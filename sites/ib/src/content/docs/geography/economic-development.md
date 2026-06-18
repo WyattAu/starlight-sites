@@ -1,6 +1,6 @@
 ---
 title: Economic Development
-description: 'This section covers the IB Geography optional theme on economic development. It examines the nature of economic development at a variety of scales, the ways...'
+description: "This section covers the IB Geography optional theme on economic development. It examines the nature of economic development at a variety of scales, the ways...''
 
 ---
 
@@ -26,7 +26,7 @@ critically and use quantitative indicators alongside qualitative evidence.
 - **Development indicators** -- quantitative measures used to assess the level of development of a
   country, including GDP per capita, HDI, GNI, infant mortality rate, and literacy rate. Composite
   indices such as the HDI combine multiple indicators into a single measure.
-- **Rostow's stages of growth** -- a linear model proposing that all countries pass through five
+- **Rostow"s stages of growth** -- a linear model proposing that all countries pass through five
   stages of economic development, from traditional society to the age of high mass consumption.
   Widely criticised for its ethnocentric assumptions and failure to account for structural
   inequality.

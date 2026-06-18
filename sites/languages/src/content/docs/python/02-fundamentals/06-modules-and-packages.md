@@ -1,6 +1,6 @@
 ---
 title: Modules and Packages
-description: 'The import system is the mechanism by which Python locates, loads, and binds module objects into the Current namespace. It is one of the most critical...'
+description: "The import system is the mechanism by which Python locates, loads, and binds module objects into the Current namespace. It is one of the most critical...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -31,7 +31,7 @@ import json as json_module
 
 Each form does something subtly different at the namespace level:
 
-1. `import os` binds the module object to the name `os` in the current namespace. The module's
+1. `import os` binds the module object to the name `os` in the current namespace. The module"s
    attributes are accessed as `os.path``os.environ`Etc. No names from inside `os` are injected into
    the current scope.
 

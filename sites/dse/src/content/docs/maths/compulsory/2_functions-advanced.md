@@ -1,6 +1,6 @@
 ---
 title: Functions (Advanced)
-description: 'This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - DSE
@@ -805,7 +805,7 @@ one-to-one on $[1, \infty)$. Find $f^{-1}(0)$.
 $f(0) = 0$$f(\sqrt{3}) = 3\sqrt{3} - 3\sqrt{3} = 0$$f(-\sqrt{3}) = 0$. Since $f$ takes the same
 value at three different points, it is not one-to-one on $\mathbb{R}$.
 
-For $x \geq 1$: $f'(x) = 3x^2 - 3 = 3(x^2 - 1) \geq 0$ (with equality only at $x = 1$). So $f$ is
+For $x \geq 1$: $f"(x) = 3x^2 - 3 = 3(x^2 - 1) \geq 0$ (with equality only at $x = 1$). So $f$ is
 strictly increasing on $[1, \infty)$ and hence one-to-one.
 
 $f^{-1}(0)$: solve $x^3 - 3x = 0 \implies x(x^2 - 3) = 0$. On $[1, \infty)$: $x = \sqrt{3}$. So

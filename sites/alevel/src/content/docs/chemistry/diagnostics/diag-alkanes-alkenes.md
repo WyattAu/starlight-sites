@@ -1,6 +1,6 @@
 ---
-title: 'Alkanes and Alkenes -- Diagnostic Tests'
-description: 'A-Level Chemistry Alkanes and Alkenes -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Alkanes and Alkenes -- Diagnostic Tests''
+description: "A-Level Chemistry Alkanes and Alkenes -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -89,7 +89,7 @@ heterolytically, and a **carbocation intermediate** forms. Two possible carbocat
 
 The secondary carbocation is **more stable** due to the electron-donating inductive effect of the
 methyl group, which disperses the positive charge. Therefore, the major product is
-**2-bromopropane** ($\text{CH}_3\text{CHBr}\text{CH}_3$). This is **Markovnikov's rule**: the
+**2-bromopropane** ($\text{CH}_3\text{CHBr}\text{CH}_3$). This is **Markovnikov"s rule**: the
 hydrogen adds to the carbon with more hydrogen atoms.
 
 **Step 2: Nucleophilic attack**

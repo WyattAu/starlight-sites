@@ -1,6 +1,6 @@
 ---
 title: DSE History
-description: 'Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises...'
+description: "Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises...''
 tableOfContents: false
 tags:
   - history
@@ -22,7 +22,7 @@ developments specific to China, Japan, and Hong Kong. The examination tests both
 and the ability to analyse historical sources, assess competing interpretations, and present
 balanced arguments.
 
-The curriculum is designed to develop students' understanding of how past events have shaped the
+The curriculum is designed to develop students" understanding of how past events have shaped the
 contemporary world, with a focus on causation, consequence, significance, and the diversity of
 historical perspectives. Source-based questions require critical evaluation of evidence, including
 bias, reliability, and utility.

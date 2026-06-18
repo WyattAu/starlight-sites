@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: 'Organic chemistry is the study of carbon compounds. The definition traditionally excludes simple Carbon compounds such as carbon monoxide (), carbon dioxide...'
+description: "Organic chemistry is the study of carbon compounds. The definition traditionally excludes simple Carbon compounds such as carbon monoxide (), carbon dioxide...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - DSE
@@ -286,7 +286,7 @@ $$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3
 
 $$\mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}$$
 
-**Markovnikov's Rule:**
+**Markovnikov"s Rule:**
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon that already has
 More hydrogen atoms (the less substituted carbon).

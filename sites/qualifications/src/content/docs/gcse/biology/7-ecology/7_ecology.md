@@ -1,6 +1,6 @@
 ---
 title: Ecology
-description: '- A single organism. - All the organisms of one species in a habitat. The size of a population can change over time due to birth rate, death rate,...'
+description: "- A single organism. - All the organisms of one species in a habitat. The size of a population can change over time due to birth rate, death rate,...''
 date: 2026-04-14
 tags:
   - gcse
@@ -223,7 +223,7 @@ Described above.
 
 A food chain: grass $\to$ rabbit $\to$ fox.
 
-Grass contains 20,000 kJ of energy. 10% is transferred to rabbits. 15% of the rabbit's energy is
+Grass contains 20,000 kJ of energy. 10% is transferred to rabbits. 15% of the rabbit"s energy is
 Transferred to foxes.
 
 Energy in rabbits: $20,000 \times 0.10 = 2,000$ kJ.

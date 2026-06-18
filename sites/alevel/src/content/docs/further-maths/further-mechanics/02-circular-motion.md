@@ -1,6 +1,6 @@
 ---
 title: Circular Motion
-description: 'Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and...'
+description: "Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -92,7 +92,7 @@ Magnitude: $a = \omega^2 r = \dfrac{v^2}{r}$Directed radially inward. $\blacksqu
 
 ### 2.1 Centripetal force
 
-By Newton's second law:
+By Newton"s second law:
 
 $$\boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}$$
 

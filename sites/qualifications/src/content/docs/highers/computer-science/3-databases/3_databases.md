@@ -1,6 +1,6 @@
 ---
 title: Database Design and Development
-description: 'Scottish Highers Computer Science Database Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "Scottish Highers Computer Science Database Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -163,7 +163,7 @@ Delete the enrolments).
 | DECIMAL(p, s) | Fixed-point decimal    | DECIMAL(10, 2)   |
 | CHAR(n)       | Fixed-length string    | CHAR(10)         |
 | VARCHAR(n)    | Variable-length string | VARCHAR(255)     |
-| DATE          | Date (YYYY-MM-DD)      | '2026-04-14'     |
+| DATE          | Date (YYYY-MM-DD)      | "2026-04-14'     |
 | BOOLEAN       | True/False             | TRUE             |
 | TEXT          | Long text              | 'Description...' |
 

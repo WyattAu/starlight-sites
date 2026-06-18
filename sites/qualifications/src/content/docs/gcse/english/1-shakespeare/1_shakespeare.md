@@ -1,6 +1,6 @@
 ---
 title: Shakespeare
-description: '(with Pre-1900 Poetry) | WJEC/Eduqas Paper 1 Section A Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "(with Pre-1900 Poetry) | WJEC/Eduqas Paper 1 Section A Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-22
 tags:
   - gcse
@@ -19,7 +19,7 @@ categories:
 
 William Shakespeare (1564--1616) is the only writer whose work is prescribed on every GCSE English
 Literature specification in the United Kingdom. This is not merely an act of institutional
-Conservatism. Shakespeare's plays occupy a unique position in the English literary canon: they are
+Conservatism. Shakespeare"s plays occupy a unique position in the English literary canon: they are
 The most frequently performed, the most widely studied, and the most thoroughly critiqued works in
 The language. They have shaped the development of English drama, influenced virtually every major
 Writer who followed, and continue to be adapted into film, fiction, and theatre worldwide.

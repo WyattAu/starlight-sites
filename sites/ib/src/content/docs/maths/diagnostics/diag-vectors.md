@@ -1,6 +1,6 @@
 ---
-title: 'Vectors -- Diagnostic Tests'
-description: 'IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+title: "Vectors -- Diagnostic Tests''
+description: "IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
 tableOfContents: false
 ---
 
@@ -66,7 +66,7 @@ $$(\mathbf{a}_2 - \mathbf{a}_1) \cdot (\mathbf{d}_1 \times \mathbf{d}_2) = 2(1) 
 
 $$d = \frac{5}{\sqrt{35}} = \frac{5\sqrt{35}}{35} = \frac{\sqrt{35}}{7}$$
 
-**(c)** The student's error is that in three dimensions, two lines that are not parallel can still
+**(c)** The student"s error is that in three dimensions, two lines that are not parallel can still
 fail to intersect. In 2D, non-parallel lines always intersect, but in 3D they can be skew — they
 pass at different "heights" and never meet. The student has incorrectly generalised the 2D result.
 

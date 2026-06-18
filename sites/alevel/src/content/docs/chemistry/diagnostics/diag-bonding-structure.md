@@ -1,6 +1,6 @@
 ---
-title: 'Bonding and Structure -- Diagnostic Tests'
-description: 'A-Level Chemistry Bonding and Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Bonding and Structure -- Diagnostic Tests''
+description: "A-Level Chemistry Bonding and Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -119,7 +119,7 @@ $\text{CCl}_4$.
 **Solution:**
 
 (a) $\text{Al}^{3+}$ is a small, highly charged cation with high charge density. It polarises the
-electron cloud of the $\text{Cl}^-$ anion significantly (Fajans' rules: small, highly charged
+electron cloud of the $\text{Cl}^-$ anion significantly (Fajans" rules: small, highly charged
 cations distort large anions). This causes electron density to be drawn towards the
 $\text{Al}$Giving the bond significant **covalent character** rather than being purely ionic.
 

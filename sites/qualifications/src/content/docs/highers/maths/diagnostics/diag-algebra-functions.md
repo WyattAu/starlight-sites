@@ -1,6 +1,6 @@
 ---
-title: 'Algebra and Functions -- Diagnostic Tests'
-description: 'Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls.'
+title: "Algebra and Functions -- Diagnostic Tests''
+description: "Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."'
 tableOfContents: false
 ---
 
@@ -163,7 +163,7 @@ $$3 = a(1 - 3)^2 - 5$$ $$3 = a(4) - 5$$ $$8 = 4a$$ $$a = 2$$
 
 The equation is $y = 2(x - 3)^2 - 5$, or expanded: $y = 2x^2 - 12x + 13$.
 
-(d) To find stationary points, set $f'(x) = 0$:
+(d) To find stationary points, set $f"(x) = 0$:
 
 $$f'(x) = 3x^2 - 3$$ $$3x^2 - 3 = 0$$ $$x^2 = 1$$ $$x = 1 \text{ or } x = -1$$
 

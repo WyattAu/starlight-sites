@@ -1,6 +1,6 @@
 ---
 title: Macroeconomic Policy Debates
-description: 'Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring...'
+description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -94,7 +94,7 @@ Announced policies, leading to a suboptimal outcome (inflationary bias).**
 
 _Proof sketch._ The central bank announces low inflation. If the public believes this, workers set
 Moderate wage demands. The central bank then has an incentive to create surprise inflation to boost
-Output (exploiting the short-run Phillips curve). But rational agents anticipate this — they don't
+Output (exploiting the short-run Phillips curve). But rational agents anticipate this — they don"t
 Believe the announcement. The equilibrium has high inflation with no output gain. $\blacksquare$
 
 Formally, the central bank's loss function:

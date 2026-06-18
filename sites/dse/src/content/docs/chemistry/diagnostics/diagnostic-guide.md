@@ -1,6 +1,6 @@
 ---
-title: 'DSE Chemistry Diagnostic Tests -- Guide'
-description: 'These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate...'
+title: "DSE Chemistry Diagnostic Tests -- Guide''
+description: "These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate..."'
 tableOfContents: false
 ---
 
@@ -42,7 +42,7 @@ Every diagnostic file contains:
 | Atomic Structure  | Transition metal electron config; ionisation energy trend breaks  |
 | Bonding           | VSEPR for lone pairs; molecular polarity vs bond polarity         |
 | Stoichiometry     | Back-titration setup; RTP gas volume assumptions                  |
-| Energetics        | Hess's cycle direction; average vs exact bond enthalpy            |
+| Energetics        | Hess"s cycle direction; average vs exact bond enthalpy            |
 | Kinetics          | Rate vs rate constant confusion; order from non-initial-rate data |
 | Equilibrium       | Kc/Kp temperature dependence; inert gas at constant P             |
 | Acids/Bases       | Weak acid pH requires Ka; buffer mechanism; salt hydrolysis       |

@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: 'Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error.'
+description: "Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error.''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift
@@ -390,7 +390,7 @@ enum DatabaseError: Error, LocalizedError {
         case .connectionFailed(let host):
             return "Cannot connect to database at \(host)"
         case .queryFailed(let query, let reason):
-            return "Query '\(query)' failed: \(reason)"
+            return "Query "\(query)' failed: \(reason)"
         case .timeout(let seconds):
             return "Database operation timed out after \(seconds)s"
         }

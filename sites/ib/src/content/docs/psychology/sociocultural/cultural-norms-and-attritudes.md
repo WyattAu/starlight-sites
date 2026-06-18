@@ -1,6 +1,6 @@
 ---
 title: Cultural Norms and Attitudes
-description: 'Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a Social group. Cultural norms are the unwritten rules that...'
+description: "Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a Social group. Cultural norms are the unwritten rules that...''
 
 ---
 
@@ -14,7 +14,7 @@ Influences on human behaviour.
 
 ## Cultural Dimensions
 
-### Hofstede's Cultural Dimensions Theory
+### Hofstede"s Cultural Dimensions Theory
 
 Geert Hofstede conducted one of the most comprehensive cross-cultural studies of work-related
 Values, surveying over 100,000 IBM employees across more than 50 countries between 1967 and 1973.

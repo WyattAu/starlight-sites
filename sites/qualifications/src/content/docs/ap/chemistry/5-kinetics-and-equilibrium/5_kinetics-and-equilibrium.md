@@ -1,6 +1,6 @@
 ---
 title: Kinetics and Equilibrium
-description: 'Qualifications Chemistry Kinetics and Equilibrium notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+description: "Qualifications Chemistry Kinetics and Equilibrium notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
 date: 2026-04-14
 tags:
   - ap
@@ -357,7 +357,7 @@ $Q$ has the same form as $K$ but uses current (non-equilibrium) concentrations.
 | $Q = K$    | System is at equilibrium     |
 | $Q \gt K$  | Reaction proceeds in reverse |
 
-## Le Chatelier's Principle (CED Unit 7)
+## Le Chatelier"s Principle (CED Unit 7)
 
 If a stress is applied to a system at equilibrium, the system shifts to counteract the stress.
 

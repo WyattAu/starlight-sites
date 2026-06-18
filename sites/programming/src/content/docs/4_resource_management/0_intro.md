@@ -1,6 +1,6 @@
 ---
 title: Resource Management and Move Semantics
-description: 'Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-03-31T00:00:00.000Z
 tags:
   - cpp
@@ -161,5 +161,5 @@ linked above.
 
 ## Related Topics
 
-- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust's compile-time ownership model as an alternative to C++ manual resource management.
+- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust"s compile-time ownership model as an alternative to C++ manual resource management.
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/) — When Rust's safety guarantees are deliberately bypassed.

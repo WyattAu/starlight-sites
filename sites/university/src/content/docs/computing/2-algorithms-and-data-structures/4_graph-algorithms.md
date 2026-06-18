@@ -3,7 +3,7 @@ title: Graph Algorithms
 tags:
   - Computing
   - University
-description: 'BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 4.1 Breadth-First Search (BFS)
@@ -133,7 +133,7 @@ then $f[v] \lt d[u] \lt f[u]$Contradicting $f[u] \lt f[v]$. $\blacksquare$
 Two vertices $u$ and $v$ are **strongly connected** if there is a path from $u$ to $v$ and from $v$
 to $u$. A **strongly connected component (SCC)** is a maximal set of strongly connected vertices.
 
-**Kosaraju's Algorithm:**
+**Kosaraju"s Algorithm:**
 
 1. Run DFS on $G$Recording finishing times.
 2. Compute $G^T$ (transpose of $G$: reverse all edges).

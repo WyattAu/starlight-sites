@@ -1,6 +1,6 @@
 ---
-title: 'Work, Energy and Power -- Diagnostic Tests'
-description: 'A-Level Physics Work, Energy and Power -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Work, Energy and Power -- Diagnostic Tests''
+description: "A-Level Physics Work, Energy and Power -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -142,7 +142,7 @@ $E = P_{\text{input}} \times t = 577 \times 3600 = 2.08 \times 10^6\,\text{J} = 
 **Question:**
 
 A bungee jumper of mass $75\,\text{kg}$ jumps from a bridge. The bungee cord has natural length
-$25\,\text{m}$ and obeys Hooke's law with spring constant $k = 80\,\text{N}\,\text{m}^{-1}$ up to a
+$25\,\text{m}$ and obeys Hooke"s law with spring constant $k = 80\,\text{N}\,\text{m}^{-1}$ up to a
 maximum extension of $30\,\text{m}$. Beyond this extension, the cord becomes much stiffer. The
 bridge is $60\,\text{m}$ above the water.
 

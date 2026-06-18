@@ -1,6 +1,6 @@
 ---
 title: Proof and Logic
-description: 'Rigorous IB mathematics notes covering Proof and Logic. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB mathematics notes covering Proof and Logic. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -103,7 +103,7 @@ Truth values for every possible assignment of truth values to their component pr
 7. **Double Negation:** $\neg(\neg P) \equiv P$
 8. **Absorption:** $P \vee (P \wedge Q) \equiv P$And $P \wedge (P \vee Q) \equiv P$
 
-### 1.4 De Morgan's Laws
+### 1.4 De Morgan"s Laws
 
 These are essential for negating compound statements.
 

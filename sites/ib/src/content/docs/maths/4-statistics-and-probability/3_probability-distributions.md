@@ -1,6 +1,6 @@
 ---
 title: Probability Distributions
-description: 'Rigorous IB mathematics notes covering Probability Distributions. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.'
+description: "Rigorous IB mathematics notes covering Probability Distributions. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -141,7 +141,7 @@ A random variable $X$ follows a binomial distribution, $X \sim B(n, p)$When all 
 Hold:
 
 1. **Fixed number of trials**: exactly $n$ identical trials.
-2. **Independent trials**: each trial's outcome does not affect any other.
+2. **Independent trials**: each trial"s outcome does not affect any other.
 3. **Two outcomes**: each trial yields success (probability $p$) or failure (probability $q = 1-p$).
 4. **Constant probability**: $p$ is the same for every trial.
 

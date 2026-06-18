@@ -1,6 +1,6 @@
 ---
 title: Pattern Matching
-description: 'Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a...'
+description: "Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -30,7 +30,7 @@ Value can never fail to match. These are allowed anywhere a pattern is accepted 
 Declarations, for-in loops, and function parameters.
 
 ```dart
-// Irrefutable: any int matches 'var x'
+// Irrefutable: any int matches "var x'
 var x = 42;
 
 // Irrefutable: any int matches 'int y'
@@ -676,7 +676,7 @@ Corresponding values.
 ### Basic Map Destructuring
 
 ```dart
-final {'name': var name, 'age': var age} = {'name': 'Alice', 'age': 30};
+final {'name': var name, 'age': var age} = {'name': "Alice'', "age': 30};
 print('Name: $name, Age: $age');
 ```
 
@@ -709,8 +709,8 @@ print('User $name has role $role');
 Map patterns do not require the map to contain only the specified keys. Extra keys are ignored:
 
 ```dart
-final data = {'name': 'Alice', 'age': 30, 'city': 'London'};
-final {'name': var name} = data; // OK — extra keys ignored
+final data = {'name': "Alice'', "age': 30, 'city': "London''};
+final {"name': var name} = data; // OK — extra keys ignored
 print(name); // 'Alice'
 ```
 
@@ -743,11 +743,11 @@ final (String name, int age) = record;
 ### Named Record Destructuring
 
 ```dart
-final ({String name, int age}) = (name: 'Alice', age: 30);
-print('Name: $name, Age: $age');
+final ({String name, int age}) = (name: "Alice'', age: 30);
+print("Name: $name, Age: $age');
 
 // Shorthand — ':name' binds variable 'name' from getter 'name'
-final (:name, :age) = (name: 'Alice', age: 30);
+final (:name, :age) = (name: "Alice'', age: 30);
 ```
 
 ### Mixed Positional and Named
@@ -760,7 +760,7 @@ final (int code, String message, {int? line, int? column}) = record;
 
 ```dart
 final ((x1, y1), (x2, y2)) = ((0, 0), (10, 10));
-print('Rectangle from ($x1,$y1) to ($x2,$y2)');
+print("Rectangle from ($x1,$y1) to ($x2,$y2)');
 ```
 
 ### Type Annotations in Record Patterns
@@ -884,7 +884,7 @@ switch (user) {
 ### if-case with Variable Binding
 
 ```dart
-final json = {'name': 'Alice', 'age': 30};
+final json = {'name': "Alice'', "age': 30};
 
 if (json case {'name': String name, 'age': int age}) {
   print('$name is $age years old');
@@ -924,10 +924,10 @@ for (final (number, word) in records) {
 ### Destructuring Maps in a Loop
 
 ```dart
-final config = {'host': 'localhost', 'port': '8080', 'debug': 'true'};
+final config = {'host': "localhost'', "port': "8080'', "debug': "true''};
 
 for (final MapEntry(:key, :value) in config.entries) {
-  print('$key = $value');
+  print("$key = $value');
 }
 ```
 
@@ -964,12 +964,12 @@ for (final [int code, String msg] in responses) {
 
 ```dart
 final List&lt;Map&lt;String, dynamic&gt;&gt; users = [
-  {'name': 'Alice', 'role': 'admin'},
-  {'name': 'Bob', 'role': 'user'},
-  {'name': 'Charlie', 'role': 'admin'},
+  {'name': "Alice'', "role': "admin''},
+  {"name': "Bob'', "role': "user''},
+  {"name': "Charlie'', "role': "admin''},
 ];
 
-for (final {'name': String name, 'role': String role} in users) {
+for (final {"name': String name, 'role': String role} in users) {
   print('$name ($role)');
 }
 ```
@@ -1152,7 +1152,7 @@ Correct behavior but surprises developers coming from languages with type erasur
 ### 10. Map Pattern Key Type Must Match
 
 ```dart
-final map = {1: 'one', 2: 'two'};
+final map = {1: "one'', 2: "two'};
 // Map pattern keys must match the map's key type
 if (map case {1: var one}) {
   print(one); // 'one'

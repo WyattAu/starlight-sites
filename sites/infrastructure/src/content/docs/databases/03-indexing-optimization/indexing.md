@@ -1,6 +1,6 @@
 ---
 title: Indexing and Optimization
-description: 'Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one...'
+description: "Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one...''
 tags:
   - Databases
 categories:
@@ -29,7 +29,7 @@ A B-tree is a balanced, self-sorting tree with the following properties:
 
 - Every node stores an array of **keys** and **pointers**
 - Internal nodes store keys and pointers to child nodes
-- Leaf nodes store keys and pointers to the actual table rows (or to the row's physical location)
+- Leaf nodes store keys and pointers to the actual table rows (or to the row"s physical location)
 - The tree is always **balanced**: all leaf nodes are at the same depth
 - Every node (except the root) is at least **half full** (this is the minimum fill factor)
 

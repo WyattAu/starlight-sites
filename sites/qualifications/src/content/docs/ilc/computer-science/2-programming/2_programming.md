@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Programming
-description: 'ILC Computer Science Algorithms and Programming notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+description: "ILC Computer Science Algorithms and Programming notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
 date: 2026-04-14
 tags:
   - ilc
@@ -472,7 +472,7 @@ def quick_sort(arr):
 
 ### Recursion in Detail (HL)
 
-**Euclid's algorithm for GCD:**
+**Euclid"s algorithm for GCD:**
 
 ```python
 def gcd(a, b):

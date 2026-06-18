@@ -1,6 +1,6 @@
 ---
-title: 'Stoichiometry and Mole Concept -- Diagnostic Tests'
-description: 'DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Stoichiometry and Mole Concept -- Diagnostic Tests''
+description: "DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -284,7 +284,7 @@ Pressure of dry $CO_{2}$ = Total pressure - Vapour pressure of water
 
 $$P(CO_{2}) = 101 - 2.3 = 98.7 \text{ kPa}$$
 
-Using Boyle's law (at constant temperature, $P_{1}V_{1} = P_{2}V_{2}$) to find volume at atmospheric
+Using Boyle"s law (at constant temperature, $P_{1}V_{1} = P_{2}V_{2}$) to find volume at atmospheric
 pressure:
 
 $$V_{\text{dry}} = \frac{520 \times 98.7}{101} = 508 \text{ cm}^{3} = 0.508 \text{ dm}^{3}$$

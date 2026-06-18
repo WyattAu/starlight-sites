@@ -1,6 +1,6 @@
 ---
 title: Descriptors and Properties
-description: 'Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or .'
+description: "Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or .''
 
 ---
 
@@ -17,7 +17,7 @@ access system in Python. A descriptor is any object that implements at least one
 | Non-data descriptor | `__get__` only                        | Instance attribute takes precedence            |
 | Data descriptor     | `__get__` + `__set__` or `__delete__` | Descriptor always wins over instance attribute |
 
-This distinction is fundamental to understanding Python's attribute lookup.
+This distinction is fundamental to understanding Python"s attribute lookup.
 
 ```python
 class NonDataDescriptor:
@@ -304,7 +304,7 @@ class Point:
 
 p = Point(1, 2)
 print(p.x, p.y)  # 1 2
-p.z = 3  # AttributeError: 'Point' object has no attribute 'z'
+p.z = 3  # AttributeError: "Point'' object has no attribute "z'
 ```
 
 ### Memory Savings

@@ -1,6 +1,6 @@
 ---
 title: Abnormal Psychology
-description: 'Abnormal psychology is the HL extension unit in IB Psychology. It examines how psychological disorders are defined, classified, and explained, integrating...'
+description: "Abnormal psychology is the HL extension unit in IB Psychology. It examines how psychological disorders are defined, classified, and explained, integrating...''
 
 ---
 
@@ -44,7 +44,7 @@ attention to cultural variation in symptom expression and help-seeking behaviour
   serotonin in depression), and neural correlates (e.g., amygdala hyperactivity in anxiety). These
   explanations support biomedical treatments such as medication.
 - **Cognitive explanations** -- maladaptive thought patterns, negative schemas, cognitive biases,
-  and faulty information processing (e.g., Beck's cognitive triad for depression). These support
+  and faulty information processing (e.g., Beck"s cognitive triad for depression). These support
   cognitive-behavioural treatments.
 - **Sociocultural explanations** -- social stressors, cultural norms, poverty, and social learning
   as contributors to disorder onset and maintenance.

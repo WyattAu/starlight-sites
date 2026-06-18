@@ -1,6 +1,6 @@
 ---
-title: 'Organic Chemistry -- Diagnostic Tests'
-description: 'IB Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision.'
+title: "Organic Chemistry -- Diagnostic Tests''
+description: "IB Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."'
 tableOfContents: false
 ---
 
@@ -34,7 +34,7 @@ halide, the stability of the carbocation makes $S_N1$ competitive with $S_N2$.
 
 ---
 
-### UT-2: E1 vs E2 Elimination and Zaitsev's Rule
+### UT-2: E1 vs E2 Elimination and Zaitsev"s Rule
 
 **Question:** When 2-bromo-3-methylbutane is treated with a strong base (NaOEt in ethanol), two
 elimination products are possible. Draw both products, identify the major product using Zaitsev's

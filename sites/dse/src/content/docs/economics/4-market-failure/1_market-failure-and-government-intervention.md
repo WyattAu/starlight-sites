@@ -1,6 +1,6 @@
 ---
 title: Market Failure and Government Intervention
-description: 'Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare....'
+description: "Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare....''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -46,7 +46,7 @@ To bear it.
 ### Negative Externality of Production
 
 This occurs when the production of a good imposes costs on society that are not reflected in the
-Producer's private costs.
+Producer"s private costs.
 
 $$\mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}$$
 

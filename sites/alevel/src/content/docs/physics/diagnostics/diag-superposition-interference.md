@@ -1,6 +1,6 @@
 ---
-title: 'Superposition and Interference -- Diagnostic Tests'
-description: 'A-Level Physics Superposition and Interference -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Superposition and Interference -- Diagnostic Tests''
+description: "A-Level Physics Superposition and Interference -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -48,7 +48,7 @@ $\Delta y \approx \lambda D/d = 28 \times 800/140 = 160\,\text{mm}$
 From exact calculation: $y_1 = 163\,\text{mm}$, $y_2 - y_1 = 349 - 163 = 186\,\text{mm}$. The
 approximation becomes less accurate at larger angles.
 
-(c) New fringe spacing: $\Delta y' = 28 \times 800/280 = 80\,\text{mm}$
+(c) New fringe spacing: $\Delta y" = 28 \times 800/280 = 80\,\text{mm}$
 
 Doubling the source separation halves the fringe spacing, making the fringes closer together. This
 provides finer resolution but makes the pattern harder to observe.

@@ -1,6 +1,6 @@
 ---
 title: Organisation
-description: 'The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single...'
+description: "The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single...''
 date: 2026-04-14
 tags:
   - gcse
@@ -64,7 +64,7 @@ Of millions, allowing digestion to occur within hours.
 
 **Denaturation:** At high temperatures or extreme pH, the active site changes shape and the
 Substrate can no longer fit. This is because the weak bonds (hydrogen bonds, ionic bonds) that
-Maintain the enzyme's tertiary structure are broken. Denaturation is irreversible: once an Enzyme
+Maintain the enzyme"s tertiary structure are broken. Denaturation is irreversible: once an Enzyme
 has been denatured, it cannot recover its function.
 
 **Worked Example: Interpreting an enzyme rate graph.**

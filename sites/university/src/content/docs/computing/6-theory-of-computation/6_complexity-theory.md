@@ -3,7 +3,7 @@ title: Complexity Theory
 tags:
   - Computing
   - University
-description: 'The of a deterministic TM on input is the number of steps takes before Halting.  Comprehensive educational content coverage with definitions and practice proble'
+description: "The of a deterministic TM on input is the number of steps takes before Halting.  Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 6.1 Time Complexity
@@ -121,7 +121,7 @@ The formula encodes the **tableau** of $N$ on $w$: a table of size $n^k \times n
 $T[i, j]$ records the symbol at tape cell $j$ after step $i$ of the computation.
 
 **Variables:** For each position $(i, j)$ in the tableau and each symbol $s$ in the combined
-state-tape alphabet $\Gamma' = Q \times \Gamma$A variable $x_{i,j,s}$ indicating that cell $(i, j)$
+state-tape alphabet $\Gamma" = Q \times \Gamma$A variable $x_{i,j,s}$ indicating that cell $(i, j)$
 contains $s$.
 
 **Constraints:**

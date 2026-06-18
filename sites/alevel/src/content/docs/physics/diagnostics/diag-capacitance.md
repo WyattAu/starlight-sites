@@ -1,6 +1,6 @@
 ---
-title: 'Capacitance -- Diagnostic Tests'
-description: 'A-Level Physics Capacitance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
+title: "Capacitance -- Diagnostic Tests''
+description: "A-Level Physics Capacitance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."'
 tableOfContents: false
 ---
 
@@ -50,7 +50,7 @@ $$C = 72.4\,\text{pF}$$
 
 After removing the dielectric, the capacitor is entirely air-filled:
 
-$$C' = \frac◆LB◆\varepsilon_0 A◆RB◆◆LB◆d◆RB◆ = \frac◆LB◆8.85 \times 10^{-12} \times 0.010◆RB◆◆LB◆2.0 \times 10^{-3}◆RB◆ = 4.425 \times 10^{-11}\,\text{F} = 44.3\,\text{pF}$$
+$$C" = \frac◆LB◆\varepsilon_0 A◆RB◆◆LB◆d◆RB◆ = \frac◆LB◆8.85 \times 10^{-12} \times 0.010◆RB◆◆LB◆2.0 \times 10^{-3}◆RB◆ = 4.425 \times 10^{-11}\,\text{F} = 44.3\,\text{pF}$$
 
 New voltage: $V' = Q/C' = 1.448 \times 10^{-8}/(4.425 \times 10^{-11}) = 327\,\text{V}$
 

@@ -1,6 +1,6 @@
 ---
 title: Stash
-description: 'temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism —...'
+description: "temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism —...''
 date: 2025-06-03T09:00:00.000Z
 tags:
   - git
@@ -45,7 +45,7 @@ gitGraph
 
 - **Parent 1**: The commit HEAD was at when the stash was created.
 - **Parent 2**: The index state (if `--keep-index` was used).
-- **Working tree changes**: Stored as the stash commit's tree.
+- **Working tree changes**: Stored as the stash commit"s tree.
 
 ```bash
 # Inspect a stash entry

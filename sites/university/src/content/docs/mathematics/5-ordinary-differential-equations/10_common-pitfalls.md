@@ -3,11 +3,11 @@ title: Common Pitfalls
 tags:
   - Mathematics
   - University
-description: 'Overlaps with the homogeneous solution. For Guessing fails Because satisfies the homogeneous equation. You must use instead.'
+description: "Overlaps with the homogeneous solution. For Guessing fails Because satisfies the homogeneous equation. You must use instead.''
 ---
 
 :::caution Common Pitfall When using undetermined coefficients, always check whether your guess
-Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
+Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 

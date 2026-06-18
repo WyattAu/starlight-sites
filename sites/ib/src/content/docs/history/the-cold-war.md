@@ -3,7 +3,7 @@ title: The Cold War
 tags:
   - IB
   - History
-description: 'The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning...'
+description: "The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning...''
 ---
 
 ## The Cold War: A Systems-Level Analysis (1945--1991)
@@ -34,7 +34,7 @@ Marxist-Leninist communism: a system predicated on state ownership of the means 
 Central economic planning, a one-party state, and the ideological commitment to the eventual global
 Triumph of communism over capitalism.
 
-These were not merely philosophical differences. Each side regarded the other's system as
+These were not merely philosophical differences. Each side regarded the other"s system as
 Existentially threatening. American policymakers feared the spread of communism as a direct threat
 To democratic institutions and free-market capitalism. Soviet leaders, operating from a
 Marxist-Leninist framework, viewed capitalist states as inherently imperialist and believed that

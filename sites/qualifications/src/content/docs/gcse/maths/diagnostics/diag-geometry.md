@@ -1,6 +1,6 @@
 ---
-title: 'Geometry -- Diagnostic Tests'
-description: '(a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle. Calculate the length of the hypotenuse. (b) A ladder leans against a wall....'
+title: "Geometry -- Diagnostic Tests''
+description: "(a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle. Calculate the length of the hypotenuse. (b) A ladder leans against a wall...."'
 tableOfContents: false
 ---
 
@@ -8,7 +8,7 @@ tableOfContents: false
 
 ## Unit Tests
 
-### UT-1: Pythagoras' Theorem and Trigonometry
+### UT-1: Pythagoras" Theorem and Trigonometry
 
 **Question:** (a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle.
 Calculate the length of the hypotenuse. (b) A ladder leans against a wall. The foot of the ladder is

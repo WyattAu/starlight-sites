@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: 'A-Level English Literary Analysis notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
+description: "A-Level English Literary Analysis notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.''
 
 ---
 
@@ -104,7 +104,7 @@ Key thinkers: Sigmund Freud, Jacques Lacan, Carl Jung, Julia Kristeva.
 | Eco-criticism   | Relationship between literature and the environment | How does the text represent the natural world?              |
 | Queer theory    | Sexuality, gender identity, normativity             | How does the text construct or deconstruct sexual identity? |
 | New Historicism | Text in relation to its historical moment           | How does the text reflect the power structures of its time? |
-| Reader-response | The role of the reader in creating meaning          | How does the reader's experience shape interpretation?      |
+| Reader-response | The role of the reader in creating meaning          | How does the reader"s experience shape interpretation?      |
 | Structuralism   | Underlying systems and codes in texts               | What deep structures organise the text's meaning?           |
 
 ## Analytical Frameworks

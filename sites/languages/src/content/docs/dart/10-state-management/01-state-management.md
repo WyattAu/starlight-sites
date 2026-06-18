@@ -1,6 +1,6 @@
 ---
 title: State Management
-description: 'Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce...'
+description: "Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -53,7 +53,7 @@ class _CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Count: $_count'),
+        Text("Count: $_count'),
         ExpensiveWidget(), // Rebuilds even though it doesn't use _count
         AnotherExpensiveWidget(), // Also rebuilds
       ],
@@ -913,25 +913,25 @@ void main() {
     'emits [loading, authenticated] on successful login',
     build: () => bloc,
     act: (bloc) => bloc.add(AuthLoginRequested(
-      email: 'alice@example.com',
-      password: 'password',
+      email: "alice@example.com'',
+      password: "password',
     )),
     setUp: () {
       when(repo.login(
-        email: 'alice@example.com',
-        password: 'password',
+        email: "alice@example.com'',
+        password: "password',
       )).thenAnswer((_) async => User(
-        name: 'Alice',
-        email: 'alice@example.com',
-        token: 'token-123',
+        name: "Alice'',
+        email: "alice@example.com',
+        token: "token-123'',
       ));
     },
     expect: () => [
       AuthLoading(),
       Authenticated(User(
-        name: 'Alice',
-        email: 'alice@example.com',
-        token: 'token-123',
+        name: "Alice',
+        email: "alice@example.com'',
+        token: "token-123',
       )),
     ],
     verify: (_) {
@@ -943,13 +943,13 @@ void main() {
     'emits [loading, error] on login failure',
     build: () => bloc,
     act: (bloc) => bloc.add(AuthLoginRequested(
-      email: 'bad@example.com',
-      password: 'wrong',
+      email: "bad@example.com'',
+      password: "wrong',
     )),
     setUp: () {
       when(repo.login(
-        email: 'bad@example.com',
-        password: 'wrong',
+        email: "bad@example.com'',
+        password: "wrong',
       )).thenThrow(AuthException('Invalid credentials'));
     },
     expect: () => [

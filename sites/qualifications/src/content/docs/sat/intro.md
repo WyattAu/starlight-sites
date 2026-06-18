@@ -1,7 +1,7 @@
 ---
 title: Introduction to SAT Notes
 date: 2026-05-30
-description: 'The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has...'
+description: "The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has...''
 tags:
   - sat
 categories:
@@ -85,7 +85,7 @@ understand.
 
 1. **Read the theory first.** Each section builds on previous ones. Start with
    [Reading & Writing](reading-and-writing) and then [Mathematics](mathematics).
-2. **Work through the strategies.** Don't skip them -- understanding _why_ a strategy works is what
+2. **Work through the strategies.** Don"t skip them -- understanding _why_ a strategy works is what
    separates top scorers from the rest.
 3. **Attempt the problem sets.** Each topic includes multi-step problems that test deep
    understanding, not just recall.

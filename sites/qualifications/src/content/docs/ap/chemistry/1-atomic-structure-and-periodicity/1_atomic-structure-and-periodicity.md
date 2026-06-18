@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure and Periodicity
-description: '| Scientist | Contribution | | ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter...'
+description: "| Scientist | Contribution | | ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter...''
 date: 2026-04-14
 tags:
   - ap
@@ -25,7 +25,7 @@ categories:
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
-Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
+Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford"s model was
 Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
 For electrons rather than definite orbits.

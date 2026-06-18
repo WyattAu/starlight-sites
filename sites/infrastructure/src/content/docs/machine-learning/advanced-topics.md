@@ -5,7 +5,7 @@ tags:
   - Machine Learning
 categories:
   - Machine Learning
-description: 'Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively...'
+description: "Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively...''
 ---
 
 ## Attention Mechanisms and Transformers
@@ -153,7 +153,7 @@ discriminator; the discriminator improves by not being fooled.
 ```
 min_G max_D E_x[log D(x)] + E_z[log(1 - D(G(z))]
 
-G: minimize the discriminator's ability to detect fakes
+G: minimize the discriminator"s ability to detect fakes
 D: maximize its accuracy on real vs. fake
 ```
 

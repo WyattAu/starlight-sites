@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: 'This document covers the IB History prescribed subject on Authoritarian States for Paper 2. It examines three case studies — Nazi Germany, Fascist Italy,...'
+description: "This document covers the IB History prescribed subject on Authoritarian States for Paper 2. It examines three case studies — Nazi Germany, Fascist Italy,...''
 ---
 
 # Authoritarian States (20th Century)
@@ -24,7 +24,7 @@ integrated throughout.
 
 **Origins of the NSDAP**
 
-- The German Workers' Party (DAP) was founded in 1919; Hitler joined and renamed it the National
+- The German Workers" Party (DAP) was founded in 1919; Hitler joined and renamed it the National
   Socialist German Workers' Party (NSDAP) in 1920
 - The 25-Point Programme (1920) combined extreme nationalism, anti-Semitism, and socialist rhetoric
   to appeal across social classes

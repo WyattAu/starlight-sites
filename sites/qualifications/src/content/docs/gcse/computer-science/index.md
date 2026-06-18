@@ -1,6 +1,6 @@
 ---
 title: GCSE Computer Science
-description: 'Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble'
+description: "Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - gcse
@@ -54,7 +54,7 @@ mapped to the national curriculum and organised by topic for easy navigation.
   sample inputs
 - Learn to convert between binary, denary, and hexadecimal fluently; these conversions appear in
   both papers
-- Practise writing pseudocode and Python (or your exam board's reference language) for common tasks
+- Practise writing pseudocode and Python (or your exam board"s reference language) for common tasks
   such as searching, sorting, and validation
 - Review past paper questions on networking and security — they often require you to explain
   concepts in context rather than just define terms

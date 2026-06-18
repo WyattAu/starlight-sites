@@ -1,6 +1,6 @@
 ---
-title: 'Integration -- Diagnostic Tests'
-description: 'A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.'
+title: "Integration -- Diagnostic Tests''
+description: "A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."'
 tableOfContents: false
 ---
 
@@ -121,7 +121,7 @@ original $x$-limits (e.g., evaluating $\frac{1}{3}u^{3/2}$ from $u = 0$ to $u = 
 
 **(c)** Correct answer: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ - 1 \approx 0.5708$.
 
-Third student's answer: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ \approx 1.5708$.
+Third student"s answer: $\frac◆LB◆\pi◆RB◆◆LB◆2◆RB◆ \approx 1.5708$.
 
 $$\text{Percentage error} = \frac◆LB◆\lvert\frac{\pi}{2} - (\frac{\pi}{2} - 1)\rvert◆RB◆◆LB◆\lvert\frac{\pi}{2} - 1\rvert◆RB◆ \times 100\% = \frac◆LB◆1◆RB◆◆LB◆\frac{\pi}{2} - 1◆RB◆ \times 100\% \approx 175.2\%$$
 

@@ -3,7 +3,7 @@ title: Graph Theory
 tags:
   - Computing
   - University
-description: 'A consists of a set of vertices and a set of edges Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A consists of a set of vertices and a set of edges Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 5.1 Definitions
@@ -44,7 +44,7 @@ A **tree** is a connected acyclic graph. A **forest** is a disjoint union of tre
 3. $G$ is acyclic and has $n - 1$ edges.
 4. Between any two vertices, there is exactly one path.
 
-**Cayley's Formula.** The number of labelled trees on $n$ vertices is $n^{n-2}$.
+**Cayley"s Formula.** The number of labelled trees on $n$ vertices is $n^{n-2}$.
 
 ### 5.4 Planarity
 

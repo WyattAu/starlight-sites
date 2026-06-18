@@ -1,6 +1,6 @@
 ---
 title: Git Hooks
-description: 'Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and...'
+description: "Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and...''
 
 ---
 
@@ -8,7 +8,7 @@ description: 'Git hooks are scripts that Git executes automatically before or af
 
 Git hooks are scripts that Git executes automatically before or after specific events in the
 Repository lifecycle — commits, pushes, rebases, checkouts, and so on. They live at the boundary
-Between your workflow and Git's internal state machine, and they are the primary mechanism for
+Between your workflow and Git"s internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
 ### When Hooks Run
@@ -606,17 +606,17 @@ Lefthook is a language-agnostic hook manager written in Go. It reads a configura
 pre-commit:
   commands:
     lint-js:
-      glob: '*.{js,ts}'
+      glob: "*.{js,ts}''
       run: npx eslint {staged_files}
     lint-python:
-      glob: '*.py'
+      glob: "*.py'
       run: python -m py_compile {staged_files}
     check-yaml:
-      glob: '*.yaml'
+      glob: "*.yaml''
       run: yamllint {staged_files}
 ```
 
-Lefthook's advantages over Husky:
+Lefthook"s advantages over Husky:
 
 - **Language-agnostic**: no npm dependency required for contributors
 - **Parallel execution**: hooks run concurrently when possible
@@ -651,7 +651,7 @@ repos:
       - id: check-json
       - id: check-merge-conflict
       - id: detect-private-key
-        exclude: 'tests/fixtures/'
+        exclude: "tests/fixtures/''
 
   - repo: https://github.com/psf/black
     rev: 24.4.2
@@ -664,7 +664,7 @@ repos:
         name: Check changelog entry
         entry: ./scripts/check-changelog.sh
         language: script
-        files: '\.py$'
+        files: "\.py$'
         pass_filenames: false
 ```
 
@@ -714,7 +714,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12''
       - run: pip install pre-commit
       - run: pre-commit run --all-files
 ```
@@ -740,7 +740,7 @@ repos:
     hooks:
       - id: my-custom-lint
         name: My Custom Linter
-        entry: bash -c 'for f in "$@"; do python -m pylint "$f"; done' --
+        entry: bash -c "for f in "$@"; do python -m pylint "$f"; done' --
         language: system
         types: [python]
 ```
@@ -767,8 +767,8 @@ $ git hook run pre-commit -- --verbose
 $ GIT_TRACE=1 git commit -m "test"
 
 # Example output:
-# 12:34:56.789000 git.c:439               trace: exec: '.githooks/pre-commit'
-# 12:34:56.790000 run-command.c:654       trace: run_command: '.githooks/pre-commit'
+# 12:34:56.789000 git.c:439               trace: exec: ".githooks/pre-commit''
+# 12:34:56.790000 run-command.c:654       trace: run_command: ".githooks/pre-commit'
 ```
 
 For more detail on what the hook itself is doing:

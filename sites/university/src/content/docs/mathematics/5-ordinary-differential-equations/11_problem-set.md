@@ -3,12 +3,12 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: 'Classify the ODE by order, linearity, and homogeneity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Classify the ODE by order, linearity, and homogeneity. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### Problem 1 (Classification)
 
-Classify the ODE $y'' + xy' + e^x y = \cos x$ by order, linearity, and homogeneity.
+Classify the ODE $y"' + xy' + e^x y = \cos x$ by order, linearity, and homogeneity.
 
 <details>
 <summary>Solution</summary>

@@ -1,6 +1,6 @@
 ---
-title: 'Cell Biology -- Diagnostic Tests'
-description: 'QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.'
+title: "Cell Biology -- Diagnostic Tests''
+description: "QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."'
 tableOfContents: false
 ---
 
@@ -29,7 +29,7 @@ at least four differences.
 
 (a)
 
-- **Nucleus**: A large, membrane-bound organelle containing the cell's genetic material (DNA)
+- **Nucleus**: A large, membrane-bound organelle containing the cell"s genetic material (DNA)
   organised into chromosomes. It is surrounded by a double membrane (nuclear envelope) with nuclear
   pores that control the movement of substances in and out. The nucleolus within the nucleus is the
   site of ribosomal RNA synthesis. Function: controls cell activities by regulating gene expression

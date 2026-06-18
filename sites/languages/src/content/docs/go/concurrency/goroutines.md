@@ -1,6 +1,6 @@
 ---
 title: Goroutines and Synchronization
-description: 'A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to...'
+description: "A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to...''
 date: 2026-04-18
 tags:
   - Go
@@ -34,7 +34,7 @@ for i := 0; i < 100000; i++ {
 
 ## The Goroutine Scheduler
 
-Go uses an M:N scheduler: M goroutines are multiplexed onto N OS threads (called "M" in Go's runtime
+Go uses an M:N scheduler: M goroutines are multiplexed onto N OS threads (called "M" in Go"s runtime
 Terminology, with "P" as logical processors). The scheduler uses work-stealing to balance load
 Across Ps.
 

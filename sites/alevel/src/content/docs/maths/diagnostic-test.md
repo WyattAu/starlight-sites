@@ -1,6 +1,6 @@
 ---
 title: A Level Mathematics Diagnostic Test
-description: 'This diagnostic test contains spanning all A Level Mathematics topics. Each Question tests a specific concept and requires 2-5 steps. Attempt all questions...'
+description: "This diagnostic test contains spanning all A Level Mathematics topics. Each Question tests a specific concept and requires 2-5 steps. Attempt all questions...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -145,7 +145,7 @@ $T_d = \dfrac◆LB◆\ln 2◆RB◆◆LB◆k◆RB◆ = 3$ hours.
 
 <details>
 <summary>Q12. Find $\dfrac{dy}{dx}$ where $y = \dfrac◆LB◆x^2 e^x◆RB◆◆LB◆\sin x◆RB◆$.</summary>
-$u = x^2e^x$$v = \sin x$. $u' = e^x(x^2+2x)$$v' = \cos x$.
+$u = x^2e^x$$v = \sin x$. $u" = e^x(x^2+2x)$$v' = \cos x$.
 
 $\dfrac{dy}{dx} = \dfrac◆LB◆e^x(x^2+2x)\sin x - x^2e^x\cos x◆RB◆◆LB◆\sin^2 x◆RB◆$.
 

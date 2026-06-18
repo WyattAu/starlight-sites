@@ -1,6 +1,6 @@
 ---
 title: Acids and Bases
-description: 'Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,'
+description: "Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -532,7 +532,7 @@ $$
 \mathrm{pH} = 4.74 + \log(0.591) = 4.74 + (-0.228) = 4.51
 $$
 
-The pH changed from 4.62 to 4.51, a change of only 0.11 units, demonstrating the buffer's
+The pH changed from 4.62 to 4.51, a change of only 0.11 units, demonstrating the buffer"s
 Effectiveness.
 
 </details>

@@ -1,6 +1,6 @@
 ---
-title: 'Atomic and Nuclear Physics -- Diagnostic Tests'
-description: 'IB Atomic and Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Atomic and Nuclear Physics -- Diagnostic Tests''
+description: "IB Atomic and Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -26,7 +26,7 @@ centripetal force:
 
 $$\frac{ke^2}{r_n^2} = \frac{m_e v_n^2}{r_n}$$
 
-Bohr's quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
+Bohr"s quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
 
 From the quantisation condition: $v_n = n\hbar/(m_e r_n)$.
 

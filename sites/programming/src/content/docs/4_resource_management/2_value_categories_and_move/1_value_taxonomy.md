@@ -1,6 +1,6 @@
 ---
 title: Value Taxonomy
-description: 'Every C++ expression has a — a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three...'
+description: "Every C++ expression has a — a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -656,7 +656,7 @@ int main() {
     // Verify: the result type is an rvalue reference
     static_assert(std::is_same_v<decltype(ref), Tracer&&>);
 
-    // 'a' is still valid here — std::move didn't move anything
+    // "a' is still valid here — std::move didn't move anything
     std::cout << "a.name after std::move: " << a.name << "\n";
 
     // The actual move happens when the xvalue binds to a move constructor

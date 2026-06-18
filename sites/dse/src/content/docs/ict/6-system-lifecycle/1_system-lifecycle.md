@@ -1,6 +1,6 @@
 ---
 title: System Lifecycle
-description: 'This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information...'
+description: "This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -243,7 +243,7 @@ Moving data from the old system to the new system requires careful planning.
 | ---- | ------------------- | ------------------------------------------ |
 | 1    | Data extraction     | Extract data from the old system           |
 | 2    | Data cleaning       | Remove duplicates, fix errors, standardise |
-| 3    | Data transformation | Convert to the new system's format         |
+| 3    | Data transformation | Convert to the new system"s format         |
 | 4    | Data loading        | Import into the new system                 |
 | 5    | Data verification   | Compare old and new data for consistency   |
 

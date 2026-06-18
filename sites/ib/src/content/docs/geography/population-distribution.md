@@ -1,6 +1,6 @@
 ---
 title: Population Distribution
-description: 'This section covers the IB Geography core extension on population distribution -- changing population. It examines the factors that influence where people...'
+description: "This section covers the IB Geography core extension on population distribution -- changing population. It examines the factors that influence where people...''
 
 ---
 
@@ -27,7 +27,7 @@ course and connects closely to themes of development, resource management, and u
   changes as a country develops economically, from high birth and death rates (Stage 1) to low birth
   and death rates (Stage 5). Useful as a general framework but criticised for being Eurocentric and
   oversimplifying diverse national experiences.
-- **Population pyramids** -- graphical representations of a country's age-sex structure. The shape
+- **Population pyramids** -- graphical representations of a country"s age-sex structure. The shape
   of a pyramid reveals information about birth rates, death rates, life expectancy, and migration
   patterns. Expanding pyramids indicate high growth; contracting pyramids indicate decline.
 - **Push and pull factors** -- Lee's (1966) migration model explains migration as a result of push

@@ -1,6 +1,6 @@
 ---
 title: Fiscal Policy
-description: 'Fiscal policy involves government decisions about taxation and spending to influ Comprehensive educational content coverage with definitions and practice proble'
+description: "Fiscal policy involves government decisions about taxation and spending to influ Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -177,7 +177,7 @@ $$\Delta C = 0, \quad \Delta S = \Delta T_{\text{cut}}$$
 **Conditions for Ricardian equivalence to hold:**
 
 1. Perfect capital markets (households can borrow and save freely)
-2. Infinite horizons (households care about their descendants' welfare through bequests)
+2. Infinite horizons (households care about their descendants" welfare through bequests)
 3. Lump-sum taxes (not distortionary)
 4. Full information about future government obligations
 

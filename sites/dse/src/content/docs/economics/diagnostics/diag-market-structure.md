@@ -1,6 +1,6 @@
 ---
-title: 'Market Structure and Theory of the Firm -- Diagnostic Tests'
-description: 'DSE Economics Market Structure and Theory of the Firm -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Market Structure and Theory of the Firm -- Diagnostic Tests''
+description: "DSE Economics Market Structure and Theory of the Firm -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -34,7 +34,7 @@ Cover its variable costs.
 ### UT-2: Monopoly Pricing and Deadweight Loss
 
 **Question:** A monopolist faces demand $P = 100 - 2Q$ and has total cost $TC = 50 + 10Q + Q^2$. (a)
-Calculate the profit-maximising price and quantity. (b) Calculate the monopolist's profit. (c) What
+Calculate the profit-maximising price and quantity. (b) Calculate the monopolist"s profit. (c) What
 Would the price and quantity be under perfect competition? (d) Calculate the deadweight loss of
 Monopoly.
 

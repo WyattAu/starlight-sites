@@ -1,6 +1,6 @@
 ---
 title: Light and Waves
-description: 'This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major...'
+description: "This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major...''
 date: 2026-04-14
 tags:
   - ilc
@@ -72,7 +72,7 @@ Proportional for a given wave speed.
 
 ### Why Reflection Obeys the Law
 
-Huygens' principle: every point on a wavefront acts as a source of secondary wavelets. The envelope
+Huygens" principle: every point on a wavefront acts as a source of secondary wavelets. The envelope
 Of these wavelets forms the reflected wavefront. Geometry dictates that the angle of reflection
 Equals the angle of incidence.
 

@@ -2,7 +2,7 @@
 title: Chronicle of a Death Foretold
 tags:
   - english
-description: 'Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work...'
+description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work...''
 ---
 
 ## Author Context
@@ -32,7 +32,7 @@ To examine how rigid social hierarchies enforce destructive behaviors.
 
 ### Determinism
 
-The inevitability of Santiago's death, shows a determinist worldview, where individual agency are
+The inevitability of Santiago"s death, shows a determinist worldview, where individual agency are
 Constrained, expressing concerns on the lack of power against systemic forces (here being societal
 Norms and honor).
 

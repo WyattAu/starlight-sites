@@ -1,6 +1,6 @@
 ---
 title: Databases
-description: 'Rigorous IB computer science notes covering Databases. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB computer science notes covering Databases. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -82,7 +82,7 @@ An **attribute** is a property of an entity (e.g., Student has studentID, name, 
 
 - **Underlined** in ERD notation indicates a primary key.
 - Attributes that are unique for each instance are candidate keys.
-- Multi-valued attributes (e.g., a student's phone numbers) are indicated with double lines in some
+- Multi-valued attributes (e.g., a student"s phone numbers) are indicated with double lines in some
   notations, but in relational databases these are moved to a separate table.
 
 ### Relationships

@@ -3,7 +3,7 @@ title: Precision Tests of the Standard Model
 tags:
   - Physics
   - University
-description: 'The anomalous magnetic moment of the electron and muon: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The anomalous magnetic moment of the electron and muon: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 13.1 The $g$-2 Anomaly
@@ -55,7 +55,7 @@ new physics.
   is predicted to be 1 in the SM (lepton universality). Measurements show
   $R_K = 0.846^{+0.044}_{-0.041}$ ($3.1\sigma$ deviation).
 
-- **$b \to s\ell^+\ell^-$ angular observables:** The observable $P_5'$ shows a persistent deviation
+- **$b \to s\ell^+\ell^-$ angular observables:** The observable $P_5"$ shows a persistent deviation
   from SM predictions.
 
 These anomalies could indicate lepton-flavour-universal new physics (e.g., a $Z'$ boson coupling

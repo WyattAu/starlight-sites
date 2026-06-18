@@ -1,6 +1,6 @@
 ---
 title: Networks
-description: '| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------...'
+description: "| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------...''
 date: 2026-04-14
 tags:
   - gcse
@@ -200,7 +200,7 @@ The OSI (Open Systems Interconnection) model has seven layers:
 Transport, Network, Data Link, Physical).
 
 **TCP/IP vs OSI:** The TCP/IP model is the practical model used on the Internet. The OSI model is a
-Theoretical reference model. TCP/IP's Application layer combines OSI layers 5, 6, and 7. TCP/IP's
+Theoretical reference model. TCP/IP"s Application layer combines OSI layers 5, 6, and 7. TCP/IP's
 Link layer combines OSI layers 1 and 2.
 
 ### 3.3 The Four-Layer Model in Action

@@ -1,6 +1,6 @@
 ---
 title: DSE Mathematics Diagnostic Guide
-description: 'Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure...'
+description: "Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure...''
 tableOfContents: false
 ---
 
@@ -55,7 +55,7 @@ combine multiple topics and test whether you can synthesise knowledge under exam
 ### Step 6: Cross-Topic Review
 
 If you fail an Integration Test, identify which prerequisite topic caused the failure and revisit
-that topic's diagnostic before retrying.
+that topic"s diagnostic before retrying.
 
 ## Grading Rubric
 

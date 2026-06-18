@@ -1,6 +1,6 @@
 ---
 title: Computational Thinking
-description: 'Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing...'
+description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing...''
 date: 2026-04-14
 tags:
   - ap
@@ -36,7 +36,7 @@ Abstracted subproblems into _precise, executable steps_.
   (linear or binary search on a sorted list). Borrowing and returning both modify the same data
   structure (a loan record).
 - **Abstraction:** A "book" is represented by its ISBN, title, author, and availability status. We
-  do not need to model the physical book's condition, shelf location, or cover colour.
+  do not need to model the physical book"s condition, shelf location, or cover colour.
 - **Algorithm Design:** Write pseudocode for each operation: add_book, search_book, borrow_book,
   return_book, calculate_fine.
 

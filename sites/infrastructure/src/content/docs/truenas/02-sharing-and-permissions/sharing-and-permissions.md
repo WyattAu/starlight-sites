@@ -1,6 +1,6 @@
 ---
 title: Sharing and Permissions
-description: 'Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support...'
+description: "Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support...''
 
 ---
 
@@ -61,7 +61,7 @@ TrueNAS offers two approaches to SMB permissions:
 
 1. **SMB Dataset Permissions (simplified):** Set via the SMB share configuration. Options include:
 
-- `DEFAULT` — Use the dataset's Unix permissions
+- `DEFAULT` — Use the dataset"s Unix permissions
 - `RESTRICTED` — Only the owner can access
 - `BUILTIN_ADMINISTRATORS` — Windows admin group gets full access
 - `BUILTIN_USERS` — Windows users group gets read access

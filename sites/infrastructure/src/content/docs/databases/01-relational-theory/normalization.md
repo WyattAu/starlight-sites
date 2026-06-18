@@ -1,6 +1,6 @@
 ---
 title: Database Normalization
-description: 'Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and...'
+description: "Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Databases
@@ -28,7 +28,7 @@ Unnormalized schemas suffer from three categories of anomalies:
 | Anomaly Type | Description                                            | Concrete Example                                                                 |
 | ------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | Insertion    | Cannot add a fact without adding unrelated facts       | Cannot record a new department until at least one employee is assigned to it     |
-| Deletion     | Deleting one fact unintentionally removes another      | Deleting the last employee in a department also removes the department's address |
+| Deletion     | Deleting one fact unintentionally removes another      | Deleting the last employee in a department also removes the department"s address |
 | Update       | Updating a single fact requires touching multiple rows | Renaming a department requires updating every employee row in that department    |
 
 These are not theoretical concerns. In production systems with millions of rows, an update anomaly

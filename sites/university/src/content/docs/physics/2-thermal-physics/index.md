@@ -3,7 +3,7 @@ title: Thermal Physics
 tags:
   - Physics
   - University
-description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. Comprehensive educational content coverage with definitions and practice problems.'
+description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 # Thermal Physics
@@ -44,7 +44,7 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 
 ## Prerequisites
 
-- Classical mechanics (Newton's laws, energy, momentum)
+- Classical mechanics (Newton"s laws, energy, momentum)
 - Multivariable calculus (partial derivatives, integrals)
 - Basic quantum mechanics (helpful but not required)
 - Mathematical proofs and logic

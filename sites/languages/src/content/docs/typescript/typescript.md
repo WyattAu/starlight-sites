@@ -1,6 +1,6 @@
 ---
 title: TypeScript -- Course Overview
-description: 'TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a...'
+description: "TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a...''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -15,7 +15,7 @@ Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
 Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
-With JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
+With JavaScript"s own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
 ## Relationship to JavaScript

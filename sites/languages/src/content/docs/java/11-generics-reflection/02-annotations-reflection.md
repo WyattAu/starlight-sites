@@ -1,6 +1,6 @@
 ---
 title: Annotations and Reflection
-description: '(JDK 5) marks a method as intending to override a method from a superclass or implement A method from an interface. The compiler verifies the declaration...'
+description: "(JDK 5) marks a method as intending to override a method from a superclass or implement A method from an interface. The compiler verifies the declaration...''
 date: 2026-04-04T00:00:00.000Z
 tags:
   - Java
@@ -108,7 +108,7 @@ public class Config {
 public interface Predicate<T> {
     boolean test(T t);
 
-    // default methods don't count
+    // default methods don"t count
     default Predicate<T> and(Predicate<? super T> other) {
         return t -> test(t) && other.test(t);
     }

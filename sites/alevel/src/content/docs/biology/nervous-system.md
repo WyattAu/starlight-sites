@@ -1,6 +1,6 @@
 ---
 title: Nervous System
-description: 'The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems.'
+description: "The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -98,7 +98,7 @@ The equilibrium potential for an ion is given by the Nernst equation:
 
 $$E = \frac{RT}{zF} \ln\frac◆LB◆[\text{ion}]_{\text{out}}◆RB◆◆LB◆[\text{ion}]_{\text{in}}◆RB◆$$
 
-Where $R = 8.314\ \mathrm{J\ mol^{-1}\ K^{-1}}$, $T$ is temperature in Kelvin, $z$ is the ion's
+Where $R = 8.314\ \mathrm{J\ mol^{-1}\ K^{-1}}$, $T$ is temperature in Kelvin, $z$ is the ion"s
 charge, and $F = 96485\ \mathrm{C\ mol^{-1}}$.
 
 At body temperature ($37\ ^\circ\mathrm{C} = 310\ \mathrm{K}$):

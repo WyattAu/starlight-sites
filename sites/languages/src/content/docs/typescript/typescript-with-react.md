@@ -1,6 +1,6 @@
 ---
 title: TypeScript with React
-description: 'Function components are typed by annotating their props parameter. The return type is inferred by React's type system and should not be annotated explicitly.'
+description: "Function components are typed by annotating their props parameter. The return type is inferred by React''s type system and should not be annotated explicitly."
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -203,10 +203,10 @@ interface State {
 }
 
 type Action =
-  | { type: 'increment' }
-  | { type: 'decrement' }
-  | { type: 'setStep'; payload: number }
-  | { type: 'reset' };
+  | { type: "increment'' }
+  | { type: "decrement' }
+  | { type: "setStep''; payload: number }
+  | { type: "reset' };
 
 function reducer(state: State, action: Action): State {
   switch (action.type) {
@@ -230,10 +230,10 @@ function Counter() {
     <div>
       <p>Count: {state.count}</p>
       <p>Step: {state.step}</p>
-      <button onClick={() => dispatch({ type: 'increment' })}>+</button>
-      <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
-      <button onClick={() => dispatch({ type: 'setStep', payload: 5 })}>Step 5</button>
-      <button onClick={() => dispatch({ type: 'reset' })}>Reset</button>
+      <button onClick={() => dispatch({ type: "increment'' })}>+</button>
+      <button onClick={() => dispatch({ type: "decrement' })}>-</button>
+      <button onClick={() => dispatch({ type: "setStep'', payload: 5 })}>Step 5</button>
+      <button onClick={() => dispatch({ type: "reset' })}>Reset</button>
     </div>
   );
 }
@@ -351,7 +351,7 @@ function Settings() {
 
   return (
     <div>
-      <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>Toggle theme</button>
+      <button onClick={() => setTheme(theme === 'light' ? 'dark' : "light'')}>Toggle theme</button>
       <p>Current theme: {theme}</p>
       <input
         type="range"
@@ -390,7 +390,7 @@ function useFetch<T>(url: string): {
         const json = (await response.json()) as T;
         setData(json);
       } catch (err) {
-        if (err instanceof Error && err.name !== 'AbortError') {
+        if (err instanceof Error && err.name !== "AbortError') {
           setError(err);
         }
       } finally {
@@ -439,7 +439,7 @@ function UserList() {
 import { createContext, useContext } from 'react';
 
 interface ThemeContextValue {
-  theme: 'light' | 'dark';
+  theme: "light'' | "dark';
   toggleTheme: () => void;
 }
 
@@ -457,7 +457,7 @@ function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+    setTheme((prev) => (prev === 'light' ? 'dark' : "light''));
   };
 
   return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>;
@@ -469,8 +469,8 @@ function ThemedButton() {
   return (
     <button
       style={{
-        background: theme === 'light' ? '#fff' : '#333',
-        color: theme === 'light' ? '#000' : '#fff',
+        background: theme === "light' ? '#fff' : "#333'',
+        color: theme === "light' ? '#000' : "#fff'',
       }}
       onClick={toggleTheme}
     >
@@ -484,7 +484,7 @@ function ThemedButton() {
 
 ```tsx
 const ConfigContext = createContext({
-  apiUrl: '/api',
+  apiUrl: "/api',
   debug: false,
 });
 
@@ -572,7 +572,7 @@ function Form() {
 
   const handleSubmit = () => {
     const value = nameRef.current?.getValue();
-    console.log('Submitted:', value);
+    console.log('Submitted: ", value);
     nameRef.current?.clear();
   };
 
@@ -654,7 +654,7 @@ function Layout({ children, header, footer }: LayoutProps) {
 React provides a utility type for adding `children` to props:
 
 ```tsx
-import type { PropsWithChildren } from 'react';
+import type { PropsWithChildren } from ''react";
 
 type PanelProps = PropsWithChildren<{
   title: string;
@@ -700,8 +700,8 @@ interface BaseProps {
 }
 
 interface ButtonProps extends BaseProps {
-  variant: 'primary' | 'secondary' | 'danger';
-  size: 'sm' | 'md' | 'lg';
+  variant: "primary'' | "secondary' | 'danger';
+  size: "sm'' | "md' | 'lg';
   disabled?: boolean;
   onClick?: (e: MouseEvent<HTMLButtonElement>) => void;
   children: React.ReactNode;

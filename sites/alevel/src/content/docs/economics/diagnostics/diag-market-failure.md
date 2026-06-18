@@ -1,6 +1,6 @@
 ---
-title: 'Market Failure -- Diagnostic Tests'
-description: 'A-Level Economics Market Failure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Market Failure -- Diagnostic Tests''
+description: "A-Level Economics Market Failure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -47,7 +47,7 @@ optimum.
 
 ### UT-2: Public Goods and Free-Rider Problem
 
-**Question:** A town of 1000 residents is considering building a public park. Each resident's
+**Question:** A town of 1000 residents is considering building a public park. Each resident"s
 individual demand for the park is $P = 10 - 0.01Q$Where $Q$ is the park size in hectares. The
 marginal cost of providing the park is $\text{MC} = 200 + 20Q$. Calculate the socially optimal park
 size. Explain why the private market would underprovide this good.

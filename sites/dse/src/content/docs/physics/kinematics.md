@@ -1,6 +1,6 @@
 ---
 title: Physics - Kinematics
-description: 'DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision.'
+description: "DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision.''
 tags: [DSE, Physics]
 categories: [DSE, Physics]
 date: 2026-05-31T00:00:00.000Z
@@ -118,7 +118,7 @@ $$g \approx 9.81\ \mathrm{m\,s^{-2}}$$
 
 ### Key Principles
 
-1. **Near Earth's surface**, $g$ is approximately constant at $9.81\ \mathrm{m\,s^{-2}}$
+1. **Near Earth"s surface**, $g$ is approximately constant at $9.81\ \mathrm{m\,s^{-2}}$
 2. $g$ **does not depend** on the mass of the falling object (Galileo's principle)
 3. In a **vacuum**, a feather and a bowling ball fall at the same rate
 

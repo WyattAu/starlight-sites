@@ -1,6 +1,6 @@
 ---
-title: 'Atomic Structure and Periodicity -- Diagnostic Tests'
-description: 'A-Level Chemistry Atomic Structure and Periodicity -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Atomic Structure and Periodicity -- Diagnostic Tests''
+description: "A-Level Chemistry Atomic Structure and Periodicity -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -83,7 +83,7 @@ modest. The 5th electron must be removed from the next inner shell, which is muc
 nucleus and has significantly greater nuclear attraction. The large jump reflects the transition
 from removing valence electrons to removing core electrons.
 
-(c) The student's claim is **partially correct but incomplete**. While increasing effective nuclear
+(c) The student"s claim is **partially correct but incomplete**. While increasing effective nuclear
 charge (more protons attracting fewer remaining electrons) does explain the general increasing trend
 within a given shell, there are additional factors:
 

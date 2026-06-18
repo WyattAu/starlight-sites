@@ -1,6 +1,6 @@
 ---
 title: Text Processing
-description: 'Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax.'
+description: "Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax.''
 
 ---
 
@@ -67,7 +67,7 @@ Lazy (match as little as possible — PCRE only):
 
 ```bash
 # Positive lookahead — match "foo" only when followed by "bar"
-grep -P 'foo(?=bar)' file.txt
+grep -P "foo(?=bar)' file.txt
 
 # Negative lookahead — match "foo" only when NOT followed by "bar"
 grep -P 'foo(?!bar)' file.txt
@@ -266,8 +266,8 @@ NF        number of fields in current record
 awk '{print $1, $3}' /etc/passwd
 
 # Change field separator
-awk -F: '{print $1, $7}' /etc/passwd
-awk 'BEGIN{FS=":"; OFS="\t"} {print $1, $7}' /etc/passwd
+awk -F: "{print $1, $7}'' /etc/passwd
+awk "BEGIN{FS=":"; OFS="\t"} {print $1, $7}' /etc/passwd
 
 # Print line number and last field
 awk '{print NR, $NF}' data.txt
@@ -847,8 +847,8 @@ cut -c1,5,10 file.txt             # specific characters
 cut -d' ' -f2- file.txt           # field 2 to end
 
 # awk — more flexible, handles variable-width fields
-awk -F: '{print $1, $3, $7}' /etc/passwd
-awk -F, '{print $1 "\t" $3}' data.csv
+awk -F: "{print $1, $3, $7}'' /etc/passwd
+awk -F, "{print $1 "\t" $3}' data.csv
 awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
 ```
 

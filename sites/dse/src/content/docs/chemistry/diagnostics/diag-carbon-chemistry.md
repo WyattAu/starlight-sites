@@ -1,6 +1,6 @@
 ---
-title: 'Carbon Chemistry -- Diagnostic Tests'
-description: 'DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision.'
+title: "Carbon Chemistry -- Diagnostic Tests''
+description: "DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."'
 tableOfContents: false
 ---
 
@@ -99,7 +99,7 @@ $$n\ CH_{2}=CHCl \rightarrow \left(-CH_{2}-CHCl-\right)_{n}$$
 
 Repeating unit: $-CH_{2}-CHCl-$
 
-(c) The student's claim is **incorrect**. In addition polymerisation, the pi bond of the $C=C$
+(c) The student"s claim is **incorrect**. In addition polymerisation, the pi bond of the $C=C$
 double bond **opens** and forms new sigma bonds with adjacent monomer units. The double bond is
 **consumed** in the process. The resulting polymer chain contains **only single bonds** between
 carbon atoms. There are no remaining double bonds in the main polymer chain (unlike condensation

@@ -1,6 +1,6 @@
 ---
-title: 'Fiscal and Monetary Policy -- Diagnostic Tests'
-description: 'DSE Economics Fiscal and Monetary Policy -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Fiscal and Monetary Policy -- Diagnostic Tests''
+description: "DSE Economics Fiscal and Monetary Policy -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -189,7 +189,7 @@ Lower costs lead to lower prices (reducing inflation) and higher output (reducin
 Firms have more after-tax profit to reinvest, increasing capital stock and potential output.
 
 (ii) **Vocational training**: Reduces structural unemployment by improving the match between
-workers' skills and job requirements. This shifts LRAS right by increasing the productive capacity
+workers" skills and job requirements. This shifts LRAS right by increasing the productive capacity
 of the labour force. Reduces the natural rate of unemployment.
 
 (iii) **Labour market deregulation**: Reduces hiring and firing costs, increases labour market

@@ -1,6 +1,6 @@
 ---
 title: Packaging and Distribution
-description: 'is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata).'
+description: "is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata).''
 
 ---
 
@@ -642,7 +642,7 @@ touch src/mylib/submodule/__init__.py
 ### 2. Editable Install Not Reflecting Changes
 
 ```bash
-# If changes aren't reflected after pip install -e .:
+# If changes aren"t reflected after pip install -e .:
 pip install -e ".[dev]" --force-reinstall --no-deps
 ```
 

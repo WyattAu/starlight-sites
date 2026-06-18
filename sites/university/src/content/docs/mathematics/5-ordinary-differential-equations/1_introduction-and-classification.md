@@ -3,7 +3,7 @@ title: Introduction and Classification
 tags:
   - Mathematics
   - University
-description: 'A is an equation involving an unknown function and its derivatives. An involves a function of one variable and its ordinary Derivatives. A involves a...'
+description: "A is an equation involving an unknown function and its derivatives. An involves a function of one variable and its ordinary Derivatives. A involves a...''
 ---
 
 ### 1.1 Basic Definitions
@@ -32,7 +32,7 @@ More points.
 
 Differential equations arise throughout the natural sciences. A few canonical examples:
 
-1. **Newton's law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
+1. **Newton"s law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
    satisfies $\frac{dT}{dt} = -k(T - T_m)$A first-order linear ODE.
 
 2. **Harmonic oscillator.** A mass on a spring with damping obeys

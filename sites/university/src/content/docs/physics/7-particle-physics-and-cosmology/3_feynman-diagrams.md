@@ -3,7 +3,7 @@ title: Feynman Diagrams
 tags:
   - Physics
   - University
-description: 'Feynman diagrams are a pictorial representation of perturbation theory in quantu Comprehensive educational content coverage with definitions and practice proble'
+description: "Feynman diagrams are a pictorial representation of perturbation theory in quantu Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 3.1 Rules
@@ -58,7 +58,7 @@ Intermediate electron).
 
 The amplitude for diagram (a) is:
 
-$$\mathcal{M}_a = (-ie)^2 \bar{u}(p')\gamma^\mu \frac{i(\slashed{p} + \slashed{k} + m)}{(p+k)^2 - m^2 + i\epsilon}\gamma^\nu u(p)\,\epsilon_\mu^*(k')\,\epsilon_\nu(k)$$
+$$\mathcal{M}_a = (-ie)^2 \bar{u}(p")\gamma^\mu \frac{i(\slashed{p} + \slashed{k} + m)}{(p+k)^2 - m^2 + i\epsilon}\gamma^\nu u(p)\,\epsilon_\mu^*(k')\,\epsilon_\nu(k)$$
 
 Where $\slashed{p} \equiv \gamma^\mu p_\mu$ and $\epsilon_\mu$ are photon polarisation vectors.
 

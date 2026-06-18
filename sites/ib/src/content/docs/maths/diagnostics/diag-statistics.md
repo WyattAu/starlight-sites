@@ -1,6 +1,6 @@
 ---
-title: 'Statistics -- Diagnostic Tests'
-description: 'IB Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+title: "Statistics -- Diagnostic Tests''
+description: "IB Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."'
 tableOfContents: false
 ---
 
@@ -37,7 +37,7 @@ detection.]
 Since $Q_3 - Q_2 \gt Q_2 - Q_1$The right tail is longer than the left tail, indicating **positive
 skew**.
 
-**(b)** The student's reasoning is correct in principle: positive skew means the right tail is
+**(b)** The student"s reasoning is correct in principle: positive skew means the right tail is
 longer. However, the student should note that this is a heuristic — formal skewness is measured by
 the moment coefficient $\frac{1}{n}\sum\left(\frac{x_i - \bar{x}}{s}\right)^3$Not just quartile
 differences. The quartile-based test is a quick check, not definitive proof.

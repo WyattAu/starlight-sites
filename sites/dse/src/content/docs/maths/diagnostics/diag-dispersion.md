@@ -1,6 +1,6 @@
 ---
-title: 'Dispersion -- Diagnostic Tests'
-description: 'DSE Maths Dispersion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+title: "Dispersion -- Diagnostic Tests''
+description: "DSE Maths Dispersion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
 tableOfContents: false
 ---
 
@@ -170,7 +170,7 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} =
 
 **Question:**
 
-A set of 50 numbers has mean $20$ and standard deviation $4$. Using Chebyshev's inequality (or
+A set of 50 numbers has mean $20$ and standard deviation $4$. Using Chebyshev"s inequality (or
 empirical reasoning), at least what percentage of the data lies within 2 standard deviations of the
 mean?
 

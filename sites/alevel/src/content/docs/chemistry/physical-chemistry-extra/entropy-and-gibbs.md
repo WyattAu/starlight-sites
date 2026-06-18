@@ -1,6 +1,6 @@
 ---
 title: Entropy and Gibbs Free Energy
-description: 'Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The Dissolution of ammonium nitrate in water is endothermic yet...'
+description: "Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The Dissolution of ammonium nitrate in water is endothermic yet...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -264,7 +264,7 @@ $= \Delta H^\circ$ (at $T = 0$).
 - The x-intercept ($\Delta G^\circ = 0$) gives the equilibrium temperature.
 
 **Important caveat:** This linear extrapolation assumes that $\Delta H^\circ$ and $\Delta S^\circ$
-Are independent of temperature (Kirchhoff's approximation). This is a reasonable approximation over
+Are independent of temperature (Kirchhoff"s approximation). This is a reasonable approximation over
 Small temperature ranges but fails over large ranges where heat capacities change significantly.
 
 ### Non-Standard Conditions: $\Delta G$ vs $\Delta G^\circ$

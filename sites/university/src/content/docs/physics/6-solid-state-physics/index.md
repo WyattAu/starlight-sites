@@ -3,7 +3,7 @@ title: Solid State Physics
 tags:
   - Physics
   - University
-description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 # Solid State Physics
@@ -42,7 +42,7 @@ University-level solid state physics notes covering crystal structures, band the
 
 - Quantum mechanics (wave functions, operators, perturbation theory)
 - Statistical mechanics (ensembles, partition functions)
-- Electromagnetism (Maxwell's equations, dielectrics)
+- Electromagnetism (Maxwell"s equations, dielectrics)
 - Linear algebra (vectors, matrices, Fourier transforms)
 
 ## How to Use These Notes

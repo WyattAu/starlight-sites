@@ -1,6 +1,6 @@
 ---
 title: IP Addressing
-description: 'IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in...'
+description: "IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in...''
 tags:
   - Networking
 categories:
@@ -28,7 +28,7 @@ Bits:    [31    24][23    16][15     8][7      0]
 ```
 
 The total IPv4 address space is $2^{32} = 4,294,967,296$ addresses. This was considered sufficient
-In the 1970s but is grossly inadequate for today's Internet, where every smartphone, server, VM, and
+In the 1970s but is grossly inadequate for today"s Internet, where every smartphone, server, VM, and
 Container needs an address.
 
 ### Binary Representation

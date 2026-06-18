@@ -3,7 +3,7 @@ title: Measure Theory
 tags:
   - Mathematics
   - University
-description: 'Measure Theory: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Measure Theory: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 # Measure Theory
@@ -29,7 +29,7 @@ University-level measure theory notes covering sigma-algebras, measures, and Leb
 
 - **Sigma-Algebras and Measures**: Definitions, properties, measurable spaces
 - **Lebesgue Measure**: Outer measure, Caratheodory extension, non-measurable sets
-- **Lebesgue Integration**: Convergence theorems, Fatou's lemma, dominated convergence
+- **Lebesgue Integration**: Convergence theorems, Fatou"s lemma, dominated convergence
 - **Lp Spaces**: Norms, completeness, dual spaces
 
 ## Prerequisites

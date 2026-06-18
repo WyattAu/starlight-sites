@@ -1,6 +1,6 @@
 ---
-title: 'Cell Biology and Biochemistry -- Diagnostic Tests'
-description: 'DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Cell Biology and Biochemistry -- Diagnostic Tests''
+description: "DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -179,7 +179,7 @@ molecules they contain. The student performs the following tests:
 
 | Test                 | Result                              |
 | -------------------- | ----------------------------------- |
-| Benedict's test on W | Brick-red precipitate after heating |
+| Benedict"s test on W | Brick-red precipitate after heating |
 | Biuret test on X     | Violet/purple colour                |
 | Emulsion test on Y   | White emulsion forms                |
 | Iodine test on Z     | Blue-black colour                   |

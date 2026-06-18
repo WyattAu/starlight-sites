@@ -1,6 +1,6 @@
 ---
-title: 'Office Automation and Productivity -- Diagnostic Tests'
-description: 'DSE Ict Office Automation and Productivity -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Office Automation and Productivity -- Diagnostic Tests''
+description: "DSE Ict Office Automation and Productivity -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -38,7 +38,7 @@ as `=B3*$D$1``=B4*$D$1`Always multiplying by the value in D1.
 ### UT-2: Spreadsheet Data Analysis
 
 **Question:** A spreadsheet contains student exam scores: Column A (Name), B (Maths), C (English), D
-(Science). Rows 2--101 contain 100 students. (a) Write a formula to calculate each student's average
+(Science). Rows 2--101 contain 100 students. (a) Write a formula to calculate each student"s average
 score. (b) Write a formula to count how many students scored above 80 in Maths. (c) Write a formula
 to find the highest average score. (d) Explain what a pivot table is and how it could summarise this
 data.

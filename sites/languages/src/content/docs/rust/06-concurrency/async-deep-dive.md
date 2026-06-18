@@ -1,6 +1,6 @@
 ---
 title: Async Deep Dive
-description: 'The trait is the foundation of async programming in Rust. It represents a value that may Become available at some point in the future:'
+description: "The trait is the foundation of async programming in Rust. It represents a value that may Become available at some point in the future: "''
 
 ---
 
@@ -12,7 +12,7 @@ Become available at some point in the future:
 ```rust
 pub trait Future {
     type Output;
-    fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Self::Output>;
+    fn poll(self: Pin<&mut Self>, cx: &mut Context<"_>) -> Poll<Self::Output>;
 }
 
 pub enum Poll<T> {
@@ -32,7 +32,7 @@ Knows to poll it again when progress can be made.
 polled again:
 
 ```rust
-pub struct Context<'a> {
+pub struct Context<"a> {
     waker: &'a Waker,
 }
 

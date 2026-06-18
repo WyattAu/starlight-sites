@@ -1,6 +1,6 @@
 ---
 title: Monitoring and Alerting
-description: 'The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.'
+description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.''
 
 ---
 
@@ -487,7 +487,7 @@ sudo smartctl -l selftest /dev/sda
 
 ```bash
 # Monitor temperature continuously
-watch -n 5 'smartctl -A /dev/sda | grep -i temperature'
+watch -n 5 "smartctl -A /dev/sda | grep -i temperature'
 
 # Set up temperature alerting with smartd
 # /etc/smartd.conf:
@@ -800,22 +800,22 @@ global:
   evaluation_interval: 15s
 
 scrape_configs:
-  - job_name: 'truenas'
+  - job_name: "truenas''
     static_configs:
-      - targets: ['truenas.local:9100']
+      - targets: ["truenas.local:9100']
     relabel_configs:
       - source_labels: [__address__]
         target_label: instance
-        regex: '(.*):(.*)'
-        replacement: '${1}'
+        regex: "(.*):(.*)''
+        replacement: "${1}'
 
-  - job_name: 'smartmon'
+  - job_name: "smartmon''
     static_configs:
-      - targets: ['truenas.local:9633']
+      - targets: ["truenas.local:9633']
 
-  - job_name: 'zfs'
+  - job_name: "zfs''
     static_configs:
-      - targets: ['truenas.local:9133']
+      - targets: ["truenas.local:9133']
 ```
 
 ### Grafana Dashboard JSON Export
@@ -841,8 +841,8 @@ groups:
         labels:
           severity: warning
         annotations:
-          summary: 'ZFS pool {{ $labels.pool }} is above 85% capacity'
-description: 'The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.'
+          summary: "ZFS pool {{ $labels.pool }} is above 85% capacity''
+description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."'
 ```
 
 ## Log Analysis Deep Dive
@@ -882,7 +882,7 @@ For environments with multiple TrueNAS systems or other servers:
 # Track pool usage over time
 #!/bin/bash
 LOG="/var/log/pool_capacity.log"
-echo "$(date '+%Y-%m-%d'),$(zpool list -Hp -o capacity tank),$(zpool list -Hp -o used tank)" >> "$LOG"
+echo "$(date "+%Y-%m-%d'),$(zpool list -Hp -o capacity tank),$(zpool list -Hp -o used tank)" >> "$LOG"
 
 # Calculate growth rate (last 30 days)
 tail -30 "$LOG" | awk -F',' '

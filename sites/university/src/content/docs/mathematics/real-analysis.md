@@ -1,6 +1,6 @@
 ---
 title: Real Analysis
-description: 'The real numbers form a . The field axioms guarantee closure Under addition, subtraction, multiplication, and division (by non-zero elements), together with...'
+description: "The real numbers form a . The field axioms guarantee closure Under addition, subtraction, multiplication, and division (by non-zero elements), together with...''
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics
@@ -802,7 +802,7 @@ _Solution._ Consider the sequences $x_n = 1/(2n\pi)$ and $y_n = 1/(2n\pi + \pi/2
 $0$. But $f(x_n) = \sin(2n\pi) = 0$ and $f(y_n) = \sin(2n\pi + \pi/2) = 1$ for all $n$.
 
 So $f(x_n) \to 0$ and $f(y_n) \to 1$. By the sequential criterion, if $\lim_{x \to 0} f(x)$ existed,
-Both subsequences would converge to the same limit. Since they don't, the limit does not exist.
+Both subsequences would converge to the same limit. Since they don"t, the limit does not exist.
 $\blacksquare$
 
 </details>

@@ -3,7 +3,7 @@ title: Multiple Integrals
 tags:
   - Mathematics
   - University
-description: 'The of over a rectangle is defined as the limit of Riemann sums: Comprehensive educational content coverage with definitions and practice problems.'
+description: "The of over a rectangle is defined as the limit of Riemann sums: Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 2.1 Double Integrals
@@ -13,7 +13,7 @@ Riemann sums:
 
 $$\iint_R f(x,y)\, dA = \lim_{\lVert P \rVert \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}$$
 
-**Theorem 2.1 (Fubini's Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$Then
+**Theorem 2.1 (Fubini"s Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$Then
 
 $$\iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy$$
 

@@ -3,7 +3,7 @@ title: The Sylow Theorems
 tags:
   - Mathematics
   - University
-description: 'Let be a finite group of order where is prime and . A **Sylow Comprehensive educational content coverage with definitions and practice problems.'
+description: "Let be a finite group of order where is prime and . A **Sylow Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 7.1 Statement
@@ -11,7 +11,7 @@ description: 'Let be a finite group of order where is prime and . A **Sylow Comp
 Let $G$ be a finite group of order $|G| = p^n m$ where $p$ is prime and $\gcd(p, m) = 1$. A **Sylow
 $p$-subgroup** of $G$ is a subgroup of order $p^n$.
 
-**Theorem 7.1 (Sylow's First Theorem).** $G$ has a Sylow $p$-subgroup.
+**Theorem 7.1 (Sylow"s First Theorem).** $G$ has a Sylow $p$-subgroup.
 
 **Theorem 7.2 (Sylow's Second Theorem).** Any two Sylow $p$-subgroups are conjugate.
 

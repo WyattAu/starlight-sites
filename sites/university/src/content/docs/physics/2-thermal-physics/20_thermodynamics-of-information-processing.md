@@ -3,7 +3,7 @@ title: Thermodynamics of Information Processing
 tags:
   - Physics
   - University
-description: 'The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble'
+description: "The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 20.1 Landauer Bound in Practice
@@ -20,7 +20,7 @@ The gap between theory ($k_BT\ln 2 \approx 0.018$ eV at 300 K) and practice ($\s
 switch) spans 5--6 orders of magnitude. Closing this gap requires fundamentally different computing
 paradigms.
 
-### 20.2 Bennett's Clock and Reversible Computing
+### 20.2 Bennett"s Clock and Reversible Computing
 
 Bennett (1982) showed that a computer can be made logically reversible at every step if it never
 erases information. Such a computer dissipates energy only during the initialisation of bits and

@@ -1,6 +1,6 @@
 ---
 title: Network Security and Social Implications
-description: 'This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,...'
+description: "This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -67,7 +67,7 @@ trick victims into revealing sensitive information or installing malware.
 **Common social engineering techniques:**
 
 1. **Pretexting:** Creating a fabricated scenario (a pretext) to obtain information. Example:
-   impersonating an IT support technician who needs the victim's login credentials to "fix a
+   impersonating an IT support technician who needs the victim"s login credentials to "fix a
    problem."
 2. **Baiting:** Offering something enticing (free software, USB drive left in a car park) that
    contains malware.

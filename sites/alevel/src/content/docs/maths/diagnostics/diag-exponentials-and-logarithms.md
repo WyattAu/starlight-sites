@@ -1,6 +1,6 @@
 ---
-title: 'Exponentials and Logarithms -- Diagnostic Tests'
-description: 'A-Level Maths Exponentials and Logarithms -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Exponentials and Logarithms -- Diagnostic Tests''
+description: "A-Level Maths Exponentials and Logarithms -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -28,7 +28,7 @@ requires analytical comparison of transcendental expressions.]
 
 **(a)** Consider $f(x) = \frac◆LB◆\ln x◆RB◆◆LB◆x◆RB◆$. Its derivative is:
 
-$$f'(x) = \frac◆LB◆1 \cdot x - \ln x \cdot 1◆RB◆◆LB◆x^2◆RB◆ = \frac◆LB◆1 - \ln x◆RB◆◆LB◆x^2◆RB◆$$
+$$f"(x) = \frac◆LB◆1 \cdot x - \ln x \cdot 1◆RB◆◆LB◆x^2◆RB◆ = \frac◆LB◆1 - \ln x◆RB◆◆LB◆x^2◆RB◆$$
 
 $f'(x) = 0$ when $\ln x = 1$I.e. $x = e$. For $x \lt e$: $f'(x) \gt 0$; for $x \gt e$:
 $f'(x) \lt 0$.

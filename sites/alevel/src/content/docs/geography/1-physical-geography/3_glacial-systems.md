@@ -3,7 +3,7 @@ title: Glacial Systems and Landscapes
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: 'A-Level Geography Glacial Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision.'
+description: "A-Level Geography Glacial Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision.''
 ---
 
 # Glacial Systems and Landscapes
@@ -13,7 +13,7 @@ description: 'A-Level Geography Glacial Systems and Landscapes notes covering ke
 Glacial systems are powerful agents of landscape transformation, reshaping valleys, transporting
 vast quantities of debris, and leaving distinctive landforms that persist long after the ice has
 retreated. This topic examines the processes operating beneath and within glaciers, the landforms
-they create, and the evidence they leave for past climate change. Approximately 10% of the Earth's
+they create, and the evidence they leave for past climate change. Approximately 10% of the Earth"s
 land surface is currently covered by glaciers and ice sheets, but during the last glacial maximum
 (approximately 22,000 years ago), ice covered roughly 30% of the planet.
 

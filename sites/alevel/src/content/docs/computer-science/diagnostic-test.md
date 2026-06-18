@@ -1,6 +1,6 @@
 ---
 title: A Level Computer Science — Diagnostic Test
-description: 'This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each...'
+description: "This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -33,7 +33,7 @@ $1 \times 32 + 0 \times 16 + 1 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1 =
 
 </details>
 
-**Q2.** Represent $-37$ in 8-bit two's complement.
+**Q2.** Represent $-37$ in 8-bit two"s complement.
 
 <details>
 <summary>Answer</summary>

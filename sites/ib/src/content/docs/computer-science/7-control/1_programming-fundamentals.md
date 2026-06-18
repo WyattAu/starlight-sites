@@ -1,6 +1,6 @@
 ---
 title: Programming Fundamentals
-description: 'Rigorous IB computer science notes covering Programming Fundamentals. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB computer science notes covering Programming Fundamentals. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -42,7 +42,7 @@ Languages with constant enforcement).
 | --------- | ------------------------------------------- | ------------ | --------------------- |
 | INTEGER   | Whole numbers (positive, negative, or zero) | 4 bytes      | -42, 0, 1024          |
 | FLOAT     | Real numbers with fractional parts          | 8 bytes      | 3.14, -0.001, 1.0e10  |
-| CHAR      | A single character                          | 1 byte       | 'A', 'z', '9', '?'    |
+| CHAR      | A single character                          | 1 byte       | "A', 'z', '9', '?'    |
 | STRING    | A sequence of characters                    | Variable     | "Hello", "IB CS 2025" |
 | BOOLEAN   | Logical values                              | 1 byte       | TRUE, FALSE           |
 

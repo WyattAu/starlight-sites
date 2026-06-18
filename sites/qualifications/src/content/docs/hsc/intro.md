@@ -1,7 +1,7 @@
 ---
 title: Introduction to HSC/VCE Notes
 date: 2026-05-30
-description: 'The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary...'
+description: "The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary...''
 tags:
   - hsc
   - vce
@@ -23,7 +23,7 @@ secondary schooling and are the primary pathway to university admission.
 
 Both qualifications are recognised nationally and internationally. University admission in Australia
 is primarily determined by an **Australian Tertiary Admission Rank (ATAR)**, which is derived from a
-student's results in their HSC or VCE studies.
+student"s results in their HSC or VCE studies.
 
 ## HSC vs VCE
 

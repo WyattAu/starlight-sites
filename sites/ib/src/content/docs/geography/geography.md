@@ -1,6 +1,6 @@
 ---
 title: IB Geography
-description: 'IB Geography is a two-year course that examines the relationships between individuals, societies, and the physical environment at a range of scales, from...'
+description: "IB Geography is a two-year course that examines the relationships between individuals, societies, and the physical environment at a range of scales, from...''
 
 ---
 
@@ -108,7 +108,7 @@ IA and in the written examinations:
   data sources
 - **Data presentation** -- constructing and interpreting graphs, maps, and diagrams
 - **Statistical analysis** -- measures of central tendency and dispersion, inferential statistics
-  (Spearman's rank correlation, chi-squared test)
+  (Spearman"s rank correlation, chi-squared test)
 - **Geographic Information Systems (GIS)** -- using digital mapping tools, layering spatial data,
   and conducting spatial analysis
 - **Fieldwork methodology** -- identifying research questions, selecting sampling methods,

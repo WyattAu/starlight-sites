@@ -1,6 +1,6 @@
 ---
 title: Irish LC Physics
-description: 'Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills...'
+description: "Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills...''
 date: 2026-04-14
 tags:
   - ilc
@@ -32,7 +32,7 @@ Wave properties, refraction, diffraction, interference, sound, and the electroma
 
 ### Electricity
 
-Static electricity, circuits, Ohm's law, electromagnetism, and semiconductor devices.
+Static electricity, circuits, Ohm"s law, electromagnetism, and semiconductor devices.
 
 → **[Full notes](3-electricity/3_electricity.mdx)**
 

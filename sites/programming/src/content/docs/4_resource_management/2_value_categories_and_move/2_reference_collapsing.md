@@ -1,6 +1,6 @@
 ---
 title: Reference Collapsing and Forwarding References
-description: 'Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original...'
+description: "Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -220,7 +220,7 @@ std::unique_ptr<T> make_unique_custom(Args&&... args) {
 int main() {
     std::string label = "sensor-7";
 
-    // label is an lvalue — forwarded as an lvalue reference to Widget's constructor,
+    // label is an lvalue — forwarded as an lvalue reference to Widget"s constructor,
     // which copies it into name.
     auto p1 = make_unique_custom<Widget>(label, 1);
 

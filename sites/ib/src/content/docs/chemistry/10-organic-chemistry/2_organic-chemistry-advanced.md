@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry (Advanced)
-description: 'IB Chemistry — reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification.'
+description: "IB Chemistry — reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -95,7 +95,7 @@ $$
 | Solvent            | Polar protic (stabilises carbocation) | Polar aprotic (does not stabilise carbocation) |
 | Base concentration | Low                                   | High                                           |
 
-### Zaitsev's Rule
+### Zaitsev"s Rule
 
 When multiple alkenes can form, the **more substituted** (more stable) alkene is the major product:
 

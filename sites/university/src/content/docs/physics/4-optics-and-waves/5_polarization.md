@@ -3,7 +3,7 @@ title: Polarization
 tags:
   - Physics
   - University
-description: 'For a plane wave propagating in the -direction: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "For a plane wave propagating in the -direction: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 5.1 States of Polarization
@@ -18,7 +18,7 @@ $$\mathbf{E} = E_{0x}\cos(kz - \omega t)\,\hat{\mathbf{x}} + E_{0y}\cos(kz - \om
   ($\delta = -\pi/2$) or left-handed ($\delta = +\pi/2$).
 - **Elliptical polarization:** General case. The tip of $\mathbf{E}$ traces an ellipse.
 
-### 5.2 Malus's Law
+### 5.2 Malus"s Law
 
 When linearly polarised light of intensity $I_0$ passes through a polariser at angle $\theta$ to the
 Polarisation direction:

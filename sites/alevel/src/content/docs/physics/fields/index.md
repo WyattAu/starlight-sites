@@ -1,6 +1,6 @@
 ---
 title: Fields
-description: 'A-Level Physics Fields notes covering key definitions, core concepts, worked examples, and practice questions for detailed learning and effective revision.'
+description: "A-Level Physics Fields notes covering key definitions, core concepts, worked examples, and practice questions for detailed learning and effective revision.''
 ---
 
 # Fields
@@ -13,7 +13,7 @@ fields — and their unification through electromagnetic induction.
 
 ### Gravitational Fields
 
-- **Newton's law of gravitation** — $F = \frac{GMm}{r^2}$; inverse square law
+- **Newton"s law of gravitation** — $F = \frac{GMm}{r^2}$; inverse square law
 - **Gravitational field strength** — $g = \frac{GM}{r^2}$; radial fields around point masses;
   uniform fields near Earth's surface ($g \approx 9.81\,\text{N/kg}$)
 - **Gravitational potential** — $V_g = -\frac{GM}{r}$; potential energy $E_p = -\frac{GMm}{r}$; work

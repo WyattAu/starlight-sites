@@ -1,6 +1,6 @@
 ---
 title: Market Failure
-description: 'Market failure occurs when the free market fails to allocate resources efficiently, resulting in a Loss of social welfare. The condition for allocative...'
+description: "Market failure occurs when the free market fails to allocate resources efficiently, resulting in a Loss of social welfare. The condition for allocative...''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -70,7 +70,7 @@ Excluded from consumption. This leads to market under-provision or zero provisio
 
 - **Non-excludable**: it is not possible (or prohibitively costly) to prevent someone from consuming
   the good
-- **Non-rivalrous**: one person's consumption does not reduce the amount available to others
+- **Non-rivalrous**: one person"s consumption does not reduce the amount available to others
 
 **Classification of goods:**
 

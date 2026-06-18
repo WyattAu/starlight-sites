@@ -1,6 +1,6 @@
 ---
 title: Forces and Newton's Laws
-description: '| Board | Paper | Notes | | ---------- | ------- | ----------------------------------------------------- | | AQA | Paper 1 | Newton's laws, friction,...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ----------------------------------------------------- | | AQA | Paper 1 | Newton''s laws, friction,..."
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths

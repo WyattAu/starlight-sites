@@ -1,6 +1,6 @@
 ---
 title: Statics (Extended)
-description: 'This document covers moments, equilibrium conditions, centres of mass, ladder problems, and Frameworks with a rigorous, proof-based approach.'
+description: "This document covers moments, equilibrium conditions, centres of mass, ladder problems, and Frameworks with a rigorous, proof-based approach.''
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
@@ -109,7 +109,7 @@ $A$The reaction at $A$ is $350\;\mathrm{N}$. Find the position of the centre of 
 Let the centre of mass be at distance $x$ from $A$. Taking moments about $B$ (anticlockwise
 positive):
 
-The beam's weight $30g$ acts downward at distance $x$ from $A$Which is $(6 - x)$ from $B$. The
+The beam"s weight $30g$ acts downward at distance $x$ from $A$Which is $(6 - x)$ from $B$. The
 $200\;\mathrm{N}$ load acts at distance $4\;\mathrm{m}$ from $B$. The reaction at $A$
 ($350\;\mathrm{N}$) acts at distance $6\;\mathrm{m}$ from $B$.
 

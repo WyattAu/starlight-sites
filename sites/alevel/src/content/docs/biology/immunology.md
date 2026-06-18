@@ -1,6 +1,6 @@
 ---
 title: Immunology
-description: 'The immune system can be divided into two broad categories based on specificity  Comprehensive educational content coverage with definitions and practice proble'
+description: "The immune system can be divided into two broad categories based on specificity  Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -42,7 +42,7 @@ transplanted cell that is recognised as foreign by the immune system, provoking 
 Each antigen has a specific **epitope** (the precise molecular region recognised by an antibody or
 T-cell receptor).
 
-**Self-antigens** are molecules on the surface of an individual's own cells that are normally
+**Self-antigens** are molecules on the surface of an individual"s own cells that are normally
 tolerated by the immune system. The ability to distinguish self from non-self is fundamental to
 immune function. Failure of this distinction leads to autoimmune diseases (see Section 6).
 

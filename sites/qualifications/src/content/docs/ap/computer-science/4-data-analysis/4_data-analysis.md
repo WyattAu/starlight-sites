@@ -1,6 +1,6 @@
 ---
 title: Data Analysis
-description: 'A fixed-size, ordered collection of elements of the same type. Comprehensive educational content coverage with definitions and practice problems.'
+description: "A fixed-size, ordered collection of elements of the same type. Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-04-14
 tags:
   - ap
@@ -400,7 +400,7 @@ public static int[] charFrequency(String s) {
     int[] freq = new int[26];
     for (int i = 0; i < s.length(); i++) {
         char c = s.charAt(i);
-        if (c >= 'a' && c <= 'z') {
+        if (c >= "a' && c <= 'z') {
             freq[c - 'a']++;
         }
     }

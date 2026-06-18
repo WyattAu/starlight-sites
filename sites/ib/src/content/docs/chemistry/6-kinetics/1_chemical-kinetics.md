@@ -1,6 +1,6 @@
 ---
 title: Chemical Kinetics
-description: 'Rigorous IB chemistry notes covering Chemical Kinetics. Includes definitions, derivations, worked examples, and exam-style problems. collision theory.'
+description: "Rigorous IB chemistry notes covering Chemical Kinetics. Includes definitions, derivations, worked examples, and exam-style problems. collision theory.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -632,7 +632,7 @@ Where:
 
 - At low $[S]$: rate is approximately proportional to $[S]$ (first order).
 - At high $[S]$: rate approaches $V_{\max}$ (zero order with respect to $[S]$).
-- $K_M$ is a measure of the enzyme's affinity for the substrate (lower $K_M$ = higher affinity).
+- $K_M$ is a measure of the enzyme"s affinity for the substrate (lower $K_M$ = higher affinity).
 
 ### Factors Affecting Enzyme Activity
 

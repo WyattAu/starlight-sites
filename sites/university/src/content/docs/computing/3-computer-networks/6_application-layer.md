@@ -3,7 +3,7 @@ title: Application Layer
 tags:
   - Computing
   - University
-description: 'DNS translates domain names to IP addresses. Hierarchical, distributed database. Comprehensive educational content coverage with definitions and practice proble'
+description: "DNS translates domain names to IP addresses. Hierarchical, distributed database. Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 6.1 DNS
@@ -34,7 +34,7 @@ $\to$ subdomain (`www.example.com`).
 5. Authoritative server returns the answer.
 6. Resolver caches the result with a TTL.
 
-**Iterative vs recursive resolution.** The client's query to its configured resolver is
+**Iterative vs recursive resolution.** The client"s query to its configured resolver is
 **recursive** (the resolver does all the work). The resolver's queries to root, TLD, and
 authoritative servers Are **iterative** (each server refers the resolver to the next, or answers
 directly). This Distinction is important: the root and TLD servers are not burdened with recursion.

@@ -1,6 +1,6 @@
 ---
-title: 'Electricity -- Diagnostic Tests'
-description: '(a) Define current, voltage, and resistance. (b) A circuit has a 12 V battery connected to a resistor of 4 . Calculate the current. (c) A bulb has a...'
+title: "Electricity -- Diagnostic Tests''
+description: "(a) Define current, voltage, and resistance. (b) A circuit has a 12 V battery connected to a resistor of 4 . Calculate the current. (c) A bulb has a..."'
 tableOfContents: false
 ---
 
@@ -125,7 +125,7 @@ fuse would blow (or circuit breaker trip). In practice, the oven and kettle shou
 same ring circuit, or a higher-rated circuit is needed.
 
 (c) A fuse or circuit breaker protects the wiring from overheating. If too much current flows (due
-to a fault or overloading), the wire's resistance causes excessive heating ($P = I^2R$), which can
+to a fault or overloading), the wire"s resistance causes excessive heating ($P = I^2R$), which can
 melt insulation and cause a fire. The fuse melts (or the breaker trips) at a specific current,
 breaking the circuit before the wire is damaged.
 

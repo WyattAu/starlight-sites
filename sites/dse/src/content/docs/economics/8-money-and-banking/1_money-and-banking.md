@@ -1,6 +1,6 @@
 ---
 title: Money and Banking
-description: 'Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble'
+description: "Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Economics]
 categories: [DSE, Economics]
@@ -104,7 +104,7 @@ Businesses.
    savings accounts (time deposits, higher interest, less accessible)
 2. **Making loans and advances:** Lending to individuals and businesses at interest rates higher
    than the rates paid on deposits. The difference between the lending rate and deposit rate is the
-   bank's profit margin (net interest margin).
+   bank"s profit margin (net interest margin).
 3. **Facilitating payments:** Cheques, electronic fund transfers, credit/debit card services
 4. **Foreign exchange services:** Buying and selling foreign currencies
 5. **Safe custody:** Providing safe deposit boxes for valuables

@@ -1,6 +1,6 @@
 ---
 title: Polymorphic Memory Resources (PMR)
-description: 'C++17 introduced (PMR) in Enabling Containers to use different allocation strategies without changing their type. PMR decouples the Allocation strategy from...'
+description: "C++17 introduced (PMR) in Enabling Containers to use different allocation strategies without changing their type. PMR decouples the Allocation strategy from...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -21,7 +21,7 @@ dependency injection of memory resources. This section covers the `memory_resour
 
 C++17 introduced **polymorphic memory resources** (PMR) in `&lt;memory_resource>` [N4950 §23.10].
 PMR decouples container allocation strategy from the container type itself, enabling containers to
-Use different allocation strategies without changing the container's type.
+Use different allocation strategies without changing the container"s type.
 
 The central abstraction is `std::pmr::memory_resource` [N4950 §23.10.2], an abstract base class with
 Three virtual functions:

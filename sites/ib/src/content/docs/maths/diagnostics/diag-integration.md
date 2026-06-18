@@ -1,6 +1,6 @@
 ---
-title: 'Integration -- Diagnostic Tests'
-description: 'IB Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+title: "Integration -- Diagnostic Tests''
+description: "IB Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
 tableOfContents: false
 ---
 
@@ -43,7 +43,7 @@ $$3I = e^{2x}(2\sin x - \cos x)$$
 
 $$I = \frac{e^{2x}(2\sin x - \cos x)}{3} + C$$
 
-**(b)** The student's error is that when they got $I = \text{(something)} - I$They incorrectly
+**(b)** The student"s error is that when they got $I = \text{(something)} - I$They incorrectly
 concluded $I = 0$. The correct step is to add $I$ to both sides to get $2I = \text{(something)}$Then
 divide by $2$ (or in this case $3$). The cyclic nature of the integral means $I$ appears on both
 sides, but this does not mean $I = 0$ — it means $I$ can be solved for algebraically.

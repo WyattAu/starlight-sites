@@ -1,6 +1,6 @@
 ---
-title: 'Rotational Motion -- Diagnostic Tests'
-description: 'IB Physics Rotational Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Rotational Motion -- Diagnostic Tests''
+description: "IB Physics Rotational Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -57,7 +57,7 @@ $\vec{r} \cdot \vec{F} = 3(12) + 4(-5) + (-2)(8) = 36 - 20 - 16 = 0$So $\vec{r}$
 perpendicular ($\theta = 90^\circ$). The perpendicular distance is
 $d = |\vec{r}| = 5.385\,\text{m}$.
 
-However, the student's **method** is wrong -- they must use the cross product, not multiply
+However, the student"s **method** is wrong -- they must use the cross product, not multiply
 magnitudes.
 
 ---

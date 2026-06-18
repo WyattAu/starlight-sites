@@ -1,6 +1,6 @@
 ---
 title: Type-Safe Formatting (std::format, std::print)
-description: 'C++20 introduced A type-safe formatting function that checks argument types at Compile time using a concise format specification syntax. C++23 added and for...'
+description: "C++20 introduced A type-safe formatting function that checks argument types at Compile time using a concise format specification syntax. C++23 added and for...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -236,7 +236,7 @@ void format_reference_table() {
 **Theorem.** `std::format` rejects type mismatches between the format string and the arguments at
 Compile time.
 
-**Proof.** The mechanism relies on C++20's facility for compile-time string analysis via `consteval`
+**Proof.** The mechanism relies on C++20"s facility for compile-time string analysis via `consteval`
 Functions and NTTPs (non-type template parameters).
 
 1. `std::format` is declared as a variadic function template. Its format string parameter is a
@@ -260,7 +260,7 @@ Functions and NTTPs (non-type template parameters).
 int main() {
     // All of these are COMPILE-TIME ERRORS:
 
-    // std::format("{:d}", 3.14);        // error: 'd' requires integral type
+    // std::format("{:d}", 3.14);        // error: "d'' requires integral type
     // std::format("{}", 1, 2, 3);       // error: too many arguments
     // std::format("{0} {1}", "hi");     // error: not enough arguments
     // std::format("{}}", 42);           // error: invalid format string
@@ -325,7 +325,7 @@ struct std::formatter<Vec3> : std::formatter<std::string> {
         auto it = ctx.begin();
         auto end = ctx.end();
 
-        if (it != end && *it == 'p') {
+        if (it != end && *it == "p') {
             precision_ = 0;
             ++it;
             if (it != end && *it == '.') {

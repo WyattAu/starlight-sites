@@ -1,6 +1,6 @@
 ---
 title: Constraint Subsumption and Overload Resolution
-description: 'When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most...'
+description: "When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -49,7 +49,7 @@ $Q$ does not subsume $P$The overload with constraint $P$ is unambiguously prefer
 **Proof:**
 
 1. By [N4950 §13.5.4/1], a constraint $P$ _subsumes_ a constraint $Q$ if, after normalizing both
-   constraints into sets of atomic constraints, every atomic constraint in $P$'s normalized set is
+   constraints into sets of atomic constraints, every atomic constraint in $P$"s normalized set is
    subsumed by at least one atomic constraint in $Q$'s normalized set, using the template parameter
    mapping.
 

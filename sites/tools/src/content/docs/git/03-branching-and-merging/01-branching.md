@@ -1,6 +1,6 @@
 ---
 title: Branching
-description: 'Branching is the mechanism that enables — multiple developers (or a single developer working on multiple features) can modify the codebase independently,...'
+description: "Branching is the mechanism that enables — multiple developers (or a single developer working on multiple features) can modify the codebase independently,...''
 date: 2025-06-03T02:00:00.000Z
 tags:
   - git
@@ -14,7 +14,7 @@ categories:
 
 Branching is the mechanism that enables **parallel development** — multiple developers (or a single
 developer working on multiple features) can modify the codebase independently, then integrate their
-changes. Git's branching model is one of its defining strengths: branches are cheap ($O(1)$
+changes. Git"s branching model is one of its defining strengths: branches are cheap ($O(1)$
 creation), fast to switch, and designed to be created and deleted frequently.
 
 This contrasts sharply with older VCS where branching was an expensive operation that involved

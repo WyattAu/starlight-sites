@@ -1,6 +1,6 @@
 ---
 title: Development Enviroment
-description: 'Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is...'
+description: "Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is...''
 date: 2025-07-13T19:11:38.762Z
 tags:
   - dart
@@ -38,7 +38,7 @@ Verifying.
 ## Compiling and Running
 
 With everything setup and a `Flutter: new project` created, the code can now be compiled and ran
-With the device selected. Now clicking `F5` (VSCode's debug mode) will run the command of
+With the device selected. Now clicking `F5` (VSCode"s debug mode) will run the command of
 `flutter run --debug` and a counter app will be visible on your device. This is JIT compiled, and
 Can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
 Is a bit more complex, refer to
@@ -54,12 +54,12 @@ Truth for dependencies, metadata, and build configuration — similar to `packag
 
 ```yaml
 name: my_app
-description: 'Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is...'
+description: "Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is...''
 version: 1.0.0
-publish_to: 'none' # prevent accidental publish to pub.dev
+publish_to: "none' # prevent accidental publish to pub.dev
 
 environment:
-  sdk: '>=3.0.0 <4.0.0' # SDK version constraint
+  sdk: ">=3.0.0 <4.0.0'' # SDK version constraint
 
 dependencies:
   path: ^1.9.0 # package from pub.dev
@@ -78,7 +78,7 @@ Key fields:
 | `environment.sdk`  | Dart SDK version constraint. Use caret syntax for compatible ranges |
 | `dependencies`     | Packages required at runtime                                        |
 | `dev_dependencies` | Packages required only for development (testing, linting, codegen)  |
-| `publish_to`       | Set to `'none'` for private packages                                |
+| `publish_to`       | Set to `"none'` for private packages                                |
 
 ### Typical project layout
 

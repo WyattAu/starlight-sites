@@ -3,7 +3,7 @@ title: Population and the Environment
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
-description: 'A-Level Geography Population and the Environment notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+description: "A-Level Geography Population and the Environment notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
 ---
 
 # Population and the Environment
@@ -39,7 +39,7 @@ global challenges such as climate change, food insecurity, and environmental deg
 | **Optimum population**                 | The population size that maximises the standard of living and quality of life given available resources and technology                               |
 | **Food security**                      | When all people, at all times, have physical and economic access to sufficient, safe, and nutritious food                                            |
 | **Energy security**                    | Uninterrupted availability of energy sources at an affordable price                                                                                  |
-| **Malthusian theory**                  | Thomas Malthus's argument (1798) that population grows geometrically while food supply grows arithmetically, leading to inevitable famine and crisis |
+| **Malthusian theory**                  | Thomas Malthus"s argument (1798) that population grows geometrically while food supply grows arithmetically, leading to inevitable famine and crisis |
 | **Boserupian theory**                  | Ester Boserup's argument (1965) that population growth drives agricultural innovation and intensification — "necessity is the mother of invention"   |
 | **Epidemiological transition**         | The shift from infectious and parasitic diseases (pre-industrial) to degenerative and man-made diseases (industrial and post-industrial)             |
 

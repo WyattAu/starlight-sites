@@ -1,6 +1,6 @@
 ---
 title: Urban Planning and Sustainability
-description: 'Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their...'
+description: "Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their...''
 
 ---
 
@@ -64,7 +64,7 @@ Key components include:
 Government agencies to manage transport, health, environment, and security. The Virtual Singapore
 Project creates a 3D digital twin of the entire city-state for urban planning and simulation. Sensor
 Networks monitor everything from crowd density in public spaces to water quality in reservoirs.
-Singapore's Autonomous Vehicle Initiative is testing driverless buses and shuttles.
+Singapore"s Autonomous Vehicle Initiative is testing driverless buses and shuttles.
 
 **Copenhagen.** Copenhagen aims to become the world's first carbon-neutral capital by 2025. Key
 Smart city elements include: real-time bicycle traffic monitoring (Copenhagen has approximately 390

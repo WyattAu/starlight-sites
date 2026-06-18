@@ -7,12 +7,12 @@ tags:
 categories:
   - alevel
   - history
-description: 'A-Level History The British Empire c1688-1763 notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+description: "A-Level History The British Empire c1688-1763 notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
 ---
 
 # The British Empire c1688-1763
 
-Between the Glorious Revolution and the end of the Seven Years' War, Britain transformed from a
+Between the Glorious Revolution and the end of the Seven Years" War, Britain transformed from a
 marginal European kingdom into a global imperial power. Commercial ambition, naval strength, and
 imperial ideology drove expansion across the Atlantic, Caribbean, and India.
 

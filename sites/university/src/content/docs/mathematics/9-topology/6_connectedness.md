@@ -2,7 +2,7 @@
 title: Connectedness
 tags:
   - University Maths
-description: 'A topological space is if there exist nonempty disjoint open sets with . Such a  Comprehensive educational content coverage with definitions and practice proble'
+description: "A topological space is if there exist nonempty disjoint open sets with . Such a  Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 6.1 Connected and Disconnected Spaces
@@ -36,7 +36,7 @@ continuous function $\gamma : [0, 1] \to X$ with $\gamma(0) = x$ and $\gamma(1) 
 
 **Proposition 6.1.** Every path-connected space is connected. The converse is false.
 
-**Example 6.3 (Topologist's sine curve).** Let
+**Example 6.3 (Topologist"s sine curve).** Let
 
 $$S = \{(x, \sin(1/x)) : 0 < x \leq 1\} \cup \{(0, y) : -1 \leq y \leq 1\} \subseteq \mathbb{R}^2.$$
 

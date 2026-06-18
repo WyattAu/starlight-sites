@@ -1,6 +1,6 @@
 ---
 title: Experimental Design
-description: 'An independent variable is the variable that is deliberately manipulated or changed By the experimenter to observe its effect on the dependent variable.'
+description: "An independent variable is the variable that is deliberately manipulated or changed By the experimenter to observe its effect on the dependent variable.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -582,7 +582,7 @@ Speed of sound depends on temperature).
 <summary>Problem 7</summary>
 A student investigates how the resistance of a length of constantan wire changes with temperature.
 The wire is heated in a water bath and its resistance is measured at regular temperature intervals.
-The student's data shows that the resistance increases linearly with temperature, but the gradient
+The student"s data shows that the resistance increases linearly with temperature, but the gradient
 Is significantly different from the accepted value. Identify two possible systematic errors in this
 Experiment.
 

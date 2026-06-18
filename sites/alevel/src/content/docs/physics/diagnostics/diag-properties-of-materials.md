@@ -1,6 +1,6 @@
 ---
-title: 'Properties of Materials -- Diagnostic Tests'
-description: 'A-Level Physics Properties of Materials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Properties of Materials -- Diagnostic Tests''
+description: "A-Level Physics Properties of Materials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -21,7 +21,7 @@ tested under tension. The following data are obtained:
 
 The wire breaks at a stress of $430\,\text{MPa}$.
 
-(a) Calculate Young's modulus from the linear region of the graph.
+(a) Calculate Young"s modulus from the linear region of the graph.
 
 (b) Calculate the elastic potential energy stored in the wire at a stress of $300\,\text{MPa}$ using
 the stress-strain graph.

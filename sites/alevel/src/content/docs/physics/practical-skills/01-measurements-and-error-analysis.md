@@ -1,6 +1,6 @@
 ---
 title: Measurements and Error Analysis
-description: 'A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble'
+description: "A is a consistent, repeatable deviation from the true value, caused by a flaw In Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -475,7 +475,7 @@ Error bars represent the uncertainty in each measurement point:
 ### 7.2 Interpreting Error Bars
 
 The line of best fit should pass through or near the error bars of each data point. If a data
-Point's error bar does not overlap with the line of best fit, either:
+Point"s error bar does not overlap with the line of best fit, either:
 
 - The point is an outlier (consider whether to exclude it with justification)
 - There is an unaccounted systematic error

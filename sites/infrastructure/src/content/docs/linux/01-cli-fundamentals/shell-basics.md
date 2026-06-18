@@ -1,6 +1,6 @@
 ---
 title: Shell Basics
-description: 'A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which...'
+description: "A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which...''
 
 ---
 
@@ -21,7 +21,7 @@ script with `./script.sh`The shebang line determines which interpreter processes
 | **Aliases**       | Expanded                              | Expanded (in bash) or not (POSIX mode) |
 | **Exit on error** | Does not exit on error                | Same unless `set -e`                   |
 
-The shell's startup sequence differs depending on whether it is a **login shell** or a **non-login
+The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
 
 - **Login shell**: Sourced on first login (SSH, `su -``login`). Reads `/etc/profile`Then

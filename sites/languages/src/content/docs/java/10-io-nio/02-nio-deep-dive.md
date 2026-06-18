@@ -1,6 +1,6 @@
 ---
 title: NIO Deep Dive
-description: '(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O...'
+description: "(New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O...''
 
 ---
 
@@ -77,7 +77,7 @@ buf.clear();
 // position = 0, limit = 256
 
 // Compact — copy unread data to the beginning, prepare for writing
-// Useful when you've partially read and want to append more data
+// Useful when you"ve partially read and want to append more data
 buf.compact();
 // Copies bytes from position..limit to 0..remaining, sets position = remaining
 

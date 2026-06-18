@@ -1,6 +1,6 @@
 ---
 title: Core Utilities
-description: 'GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These...'
+description: "GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These...''
 
 ---
 
@@ -103,7 +103,7 @@ Buffer holding the current line — and supports hold space for multi-line opera
 
 ```bash
 # Substitute first occurrence per line
-sed 's/old/new/' file.txt
+sed "s/old/new/' file.txt
 
 # Substitute all occurrences
 sed 's/old/new/g' file.txt
@@ -173,10 +173,10 @@ Splitting each line into fields. The three main implementations are `awk` (often
 awk '{print $1, $3}' file.txt
 
 # Specify field separator
-awk -F: '{print $1, $7}' /etc/passwd
+awk -F: "{print $1, $7}'' /etc/passwd
 
 # Pattern-action pairs
-awk '/error/ {count++} END {print count}' /var/log/syslog
+awk "/error/ {count++} END {print count}' /var/log/syslog
 
 # BEGIN block (before processing) and END block (after processing)
 awk 'BEGIN {FS=":"; print "Username\tHome"} {print $1, $6} END {print NR " users"}' /etc/passwd

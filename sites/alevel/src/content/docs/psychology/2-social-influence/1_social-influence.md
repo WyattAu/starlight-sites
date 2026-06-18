@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: 'A-Level Psychology Social Influence notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+description: "A-Level Psychology Social Influence notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
 
 ---
 
@@ -14,7 +14,7 @@ description: 'A-Level Psychology Social Influence notes covering key definitions
 
 ## Introduction
 
-Social influence is the process by which an individual's attitudes, beliefs, or behaviours are
+Social influence is the process by which an individual"s attitudes, beliefs, or behaviours are
 changed by the presence or actions of other people. This topic covers conformity (changing behaviour
 to fit in with a group), obedience (following direct orders from an authority figure), resistance to
 influence, minority influence, and how these processes contribute to social change.

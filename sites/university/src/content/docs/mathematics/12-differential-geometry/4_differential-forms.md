@@ -3,7 +3,7 @@ title: Differential Forms
 tags:
   - Mathematics
   - University
-description: 'The space of -covectors at is , the space of alternating -linear maps Comprehensive educational content coverage with definitions and practice problems.'
+description: "The space of -covectors at is , the space of alternating -linear maps Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 4.1 Alternating Tensors
@@ -44,7 +44,7 @@ bilinear, associative, anti-commutative operation:
 
 $$\alpha \wedge \beta = (-1)^{k\ell}\, \beta \wedge \alpha$$
 
-### 4.4 Stokes' Theorem
+### 4.4 Stokes" Theorem
 
 **Theorem 4.3 (Stokes' Theorem).** Let $M$ be an oriented $n$-dimensional manifold with boundary
 $\partial M$ (with the induced orientation). If $\omega$ is a compactly supported $(n-1)$-form on

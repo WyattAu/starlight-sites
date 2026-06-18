@@ -1,6 +1,6 @@
 ---
 title: Algebraic Expressions
-description: '| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -258,7 +258,7 @@ F(a) &= (a - a) \cdot q(a) + r = 0 \cdot q(a) + r = r \quad \blacksquare
 $$
 
 _Intuition._ When you plug in $x = a$The $(x - a)$ factor vanishes, leaving only the remainder. The
-remainder is the "leftover" that doesn't contain the factor $(x - a)$.
+remainder is the "leftover" that doesn"t contain the factor $(x - a)$.
 
 ### 5.2 The Factor Theorem
 

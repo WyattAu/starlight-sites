@@ -1,6 +1,6 @@
 ---
-title: 'Modern China -- Diagnostic Tests'
-description: 'Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Modern China -- Diagnostic Tests''
+description: "Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -38,7 +38,7 @@ the Kuomintang rather than the strengths of the CCP? [8 marks]
    legitimacy.
 
 (Alternative: deep-rooted poverty and illiteracy; lack of a strong middle class to support
-democracy; Sun Yat-sen's premature death in 1925; the Beiyang government's corruption and weakness.)
+democracy; Sun Yat-sen"s premature death in 1925; the Beiyang government's corruption and weakness.)
 
 (b) Comparison of Sun Yat-sen and Mao Zedong:
 

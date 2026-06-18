@@ -3,7 +3,7 @@ title: Complex Integration
 tags:
   - Mathematics
   - University
-description: 'A (or piecewise smooth path) in is a continuous function Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A (or piecewise smooth path) in is a continuous function Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 4.1 Contours
@@ -19,7 +19,7 @@ Self-intersections.
 
 **Definition.** For a contour $\gamma$ and a continuous function $f$ on $\gamma$:
 
-$$\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma'(t)\, dt$$
+$$\int_{\gamma} f(z)\, dz = \int_a^b f(\gamma(t))\gamma"(t)\, dt$$
 
 ### 4.3 Basic Properties
 

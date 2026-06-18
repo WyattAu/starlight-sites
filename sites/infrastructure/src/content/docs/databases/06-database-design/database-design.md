@@ -1,6 +1,6 @@
 ---
 title: Database Design
-description: 'Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping...'
+description: "Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping...''
 tags:
   - Databases
 categories:
@@ -140,7 +140,7 @@ Store all subclasses in one table with a discriminator column:
 ```sql
 CREATE TABLE people (
     person_id    INTEGER PRIMARY KEY,
-    person_type  VARCHAR(20) NOT NULL,  -- 'employee', 'contractor', 'customer'
+    person_type  VARCHAR(20) NOT NULL,  -- "employee', 'contractor', 'customer'
     name         VARCHAR(200) NOT NULL,
     email        VARCHAR(255),
     -- Employee-specific (NULL for non-employees):

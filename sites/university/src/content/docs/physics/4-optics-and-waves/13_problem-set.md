@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Physics
   - University
-description: 'A string of length m is fixed at both ends and has wave speed m/s. Find the fundamental frequency and the frequencies of the first three harmonics.'
+description: "A string of length m is fixed at both ends and has wave speed m/s. Find the fundamental frequency and the frequencies of the first three harmonics.''
 ---
 
 **1.** A string of length $L = 1.20$ m is fixed at both ends and has wave speed $v = 240$ m/s. Find
@@ -27,7 +27,7 @@ Intensity.
 Transmission coefficients satisfy $t = 1 + r$. Prove this from the boundary conditions.
 
 **6.** Unpolarised light is incident from water ($n = 1.33$) onto glass ($n = 1.50$). Calculate the
-Reflectance for (a) normal incidence, (b) $\theta_i = 45°$And (c) Brewster's angle. At which Angle
+Reflectance for (a) normal incidence, (b) $\theta_i = 45°$And (c) Brewster"s angle. At which Angle
 is the reflected light most strongly polarised?
 
 **7.** An optical fibre has core index $n_1 = 1.48$ and cladding index $n_2 = 1.46$. Find the

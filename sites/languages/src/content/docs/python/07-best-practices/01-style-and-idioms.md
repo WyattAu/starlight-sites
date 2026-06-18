@@ -1,6 +1,6 @@
 ---
 title: Style and Idioms
-description: 'Python's design philosophy famously states that "there should be one-- and preferably only one --obvious way to do it." This is not merely aesthetic...'
+description: "Python''s design philosophy famously states that "there should be one-- and preferably only one --obvious way to do it." This is not merely aesthetic..."
 date: 2025-06-04T16:00:00.000Z
 tags:
   - Python
@@ -1092,10 +1092,10 @@ def fetch_user(user_id: int, include_orders: bool = False) -> dict:
 
     Examples:
         >>> fetch_user(42)
-        {'id': 42, 'name': 'Alice', 'email': 'alice@example.com'}
+        {'id': 42, 'name': "Alice'', "email': "alice@example.com''}
 
         >>> fetch_user(42, include_orders=True)
-        {'id': 42, 'name': 'Alice', 'email': 'alice@example.com', 'orders': [...]}
+        {"id': 42, 'name': "Alice'', "email': "alice@example.com'', "orders': [...]}
     """
     if user_id <= 0:
         raise ValueError("user_id must be a positive integer")

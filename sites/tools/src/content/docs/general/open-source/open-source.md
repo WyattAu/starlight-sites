@@ -1,6 +1,6 @@
 ---
 title: Open Source Contribution Guide
-description: 'General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+description: "General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.''
 
 ---
 
@@ -82,7 +82,7 @@ Criteria for selecting a project to contribute to:
    reading implementation code.
 2. **Use `git log --follow`** to understand the history of a file. The commit messages explain why
    changes were made.
-3. **Use the project's search tools.** `grep -r``rg`Or the IDE's "Find in Files" to locate where a
+3. **Use the project"s search tools.** `grep -r``rg`Or the IDE's "Find in Files" to locate where a
    function is defined and used.
 4. **Draw diagrams.** Sketch the component relationships, data flow, or call graph on paper. This
    forces you to understand the structure.
@@ -692,7 +692,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20''
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
@@ -754,7 +754,7 @@ You and the project. The most common licenses in systems software:
 
 1. **MIT/Apache/BSD code can be included in GPL projects.** The GPL project must honor the original
    license for those specific files, but the overall project remains GPL.
-2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL's copyleft
+2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL"s copyleft
    requirement because the MIT project does not require source distribution.
 3. **Apache 2.0 and GPL 3.0 are compatible** (Apache 2.0 has an explicit GPL 3.0 compatibility
    clause). Apache 2.0 and GPL 2.0 are not compatible due to patent clause differences.

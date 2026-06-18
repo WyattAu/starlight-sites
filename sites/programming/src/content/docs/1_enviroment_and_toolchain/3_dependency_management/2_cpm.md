@@ -1,6 +1,6 @@
 ---
 title: CPM.cmake
-description: '(CMake Package Manager) provides a lightweight abstraction over the standard CMake module. It bridges the gap between manual vendoring (git submodules) and...'
+description: "(CMake Package Manager) provides a lightweight abstraction over the standard CMake module. It bridges the gap between manual vendoring (git submodules) and...''
 date: 2025-12-11T04:34:32.158Z
 tags:
   - cpp
@@ -29,7 +29,7 @@ CPM.cmake operates strictly on the **Source-Based Model**.
 2. **Retrieval:** It checks a local cache directory. If the requested version is missing, it
    downloads the source.
 3. **Integration:** It invokes `add_subdirectory()` on the downloaded source.
-4. **Graph Merger:** The dependency's CMake targets are added directly to the main project's build
+4. **Graph Merger:** The dependency"s CMake targets are added directly to the main project's build
    graph.
 
 ### The ABI Guarantee

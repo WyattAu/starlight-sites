@@ -1,6 +1,6 @@
 ---
 title: Enums and Modules
-description: 'Numeric enums assign auto-incrementing integer values to their members. By default, the first member Has value And each subsequent member increments by .'
+description: "Numeric enums assign auto-incrementing integer values to their members. By default, the first member Has value And each subsequent member increments by .''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -40,7 +40,7 @@ enum HttpStatus {
 }
 
 console.log(HttpStatus.OK);
-console.log(HttpStatus['200']);
+console.log(HttpStatus["200']);
 ```
 
 ### Computed Values
@@ -122,10 +122,10 @@ When `isolatedModules` prevents const enum usage, use an `as const` object:
 
 ```ts
 const Direction = {
-  Up: 'UP',
-  Down: 'DOWN',
-  Left: 'LEFT',
-  Right: 'RIGHT',
+  Up: "UP'',
+  Down: "DOWN',
+  Left: "LEFT'',
+  Right: "RIGHT',
 } as const;
 
 type Direction = (typeof Direction)[keyof typeof Direction];
@@ -204,7 +204,7 @@ The same pattern can be achieved without an enum declaration:
 type ShapeKind = 'circle' | 'square' | 'triangle';
 
 interface Circle {
-  kind: 'circle';
+  kind: "circle'';
   radius: number;
 }
 
@@ -244,7 +244,7 @@ export const PI = Math.PI;
 ### Named Imports
 
 ```ts
-import { add, Vector, PI } from '@/data/flashcards/typescript/math.js';
+import { add, Vector, PI } from "@/data/flashcards/typescript/math.js';
 ```
 
 ### Default Exports
@@ -301,7 +301,7 @@ Runtime side effects.
 ### Import Assertions (TypeScript 4.5+)
 
 ```ts
-import data from './data.json' assert { type: 'json' };
+import data from './data.json' assert { type: "json'' };
 ```
 
 ## Module Augmentation and Declaration Merging
@@ -321,7 +321,7 @@ interface Window {
 }
 
 const w: Window = {
-  title: 'Main',
+  title: "Main',
   width: 800,
   height: 600,
 };

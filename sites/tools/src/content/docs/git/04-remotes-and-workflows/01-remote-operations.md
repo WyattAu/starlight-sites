@@ -1,6 +1,6 @@
 ---
 title: Remote Operations
-description: 'Git's distributed architecture means there is no intrinsic client-server relationship. Any repository can act as a "remote" for any other. In practice, one...'
+description: "Git''s distributed architecture means there is no intrinsic client-server relationship. Any repository can act as a "remote" for any other. In practice, one..."
 date: 2025-06-03T06:00:00.000Z
 tags:
   - git
@@ -248,7 +248,7 @@ By default, Git refuses to push a non-fast-forward update:
 error: failed to push some refs to 'origin'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
-hint: 'git pull ...') before pushing again.
+hint: "git pull ...'') before pushing again.
 ```
 
 This prevents overwriting commits that other developers may have based their work on.
@@ -296,7 +296,7 @@ flowchart LR
 
 Never force push `main` or any shared branch. The consequences are:
 
-1. Other developers' histories diverge from the remote.
+1. Other developers" histories diverge from the remote.
 2. Their next `git push` will be rejected.
 3. They must `git pull --rebase` or reset their branches, potentially losing their own unpushed
    commits.

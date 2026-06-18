@@ -1,6 +1,6 @@
 ---
 title: Office Applications in Depth
-description: 'This document extends the spreadsheet, database, and office automation topics in with advanced Spreadsheet functions, deeper database operations, and...'
+description: "This document extends the spreadsheet, database, and office automation topics in with advanced Spreadsheet functions, deeper database operations, and...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -573,7 +573,7 @@ In the Criteria row of a field, enter the prompt in square brackets:
 [Enter the region name:]
 ```
 
-When the query runs, a dialog box appears with the message "Enter the region name:". The user's
+When the query runs, a dialog box appears with the message "Enter the region name:". The user"s
 input Is substituted into the criteria.
 
 #### Calculation Fields in Queries

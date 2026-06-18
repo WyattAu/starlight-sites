@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Programming
-description: 'Repeatedly find the minimum element from the unsorted portion and place it at th Comprehensive educational content coverage with definitions and practice proble'
+description: "Repeatedly find the minimum element from the unsorted portion and place it at th Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - ap
@@ -223,7 +223,7 @@ $\blacksquare$
 
 ## Big-O Notation (CED Unit 3)
 
-Big-O notation describes the upper bound of an algorithm's time or space complexity.
+Big-O notation describes the upper bound of an algorithm"s time or space complexity.
 
 ### Common Time Complexities
 

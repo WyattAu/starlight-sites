@@ -1,6 +1,6 @@
 ---
 title: Number Sets and Sequences
-description: 'This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the...'
+description: "This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the...''
 date: 2026-04-14
 tags:
   - ilc
@@ -123,7 +123,7 @@ $a \lt m/n \lt b$.
 | $\subset$         | Is a subset of                                 |
 | $\cup$            | Union                                          |
 | $\cap$            | Intersection                                   |
-| $A'$ or $\bar{A}$ | Complement of $A$                              |
+| $A"$ or $\bar{A}$ | Complement of $A$                              |
 | $\emptyset$       | Empty set                                      |
 | $                 | A                                              | $   | Cardinality of $A$ |
 | $A \setminus B$   | $A$ minus $B$ (elements in $A$ but not in $B$) |

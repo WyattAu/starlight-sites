@@ -1,6 +1,6 @@
 ---
 title: Centres of Mass and Elastic Collisions
-description: 'A-Level Further Maths Centres of Mass and Elastic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "A-Level Further Maths Centres of Mass and Elastic notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -182,7 +182,7 @@ $$\boxed{J = F \cdot \Delta t = \Delta p = m(v - u)}$$
 
 Where $u$ is the initial velocity and $v$ is the final velocity.
 
-### 5.2 Newton's law of restitution
+### 5.2 Newton"s law of restitution
 
 **Definition.** The _coefficient of restitution_ $e$ for a collision between two bodies is:
 

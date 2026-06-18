@@ -1,7 +1,7 @@
 ---
 title: CBSE Mathematics Study Guide
 date: 2026-05-31
-description: 'Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.'
+description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.''
 tags:
   - cbse
   - maths
@@ -43,7 +43,7 @@ A **set** is a well-defined collection of distinct objects. Sets are denoted by 
 | --- | --- | --- |
 | Union | $A \cup B$ | All elements in $A$ or $B$ or both |
 | Intersection | $A \cap B$ | All elements in both $A$ and $B$ |
-| Complement | $A'$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
+| Complement | $A"$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
 | Difference | $A - B$ | Elements in $A$ but not in $B$ |
 
 **Laws.**

@@ -1,6 +1,6 @@
 ---
 title: Temporary Materialization
-description: 'In C++17 and later, a prvalue is not an object — it is a recipe for constructing one. The prvalue is into an actual object only when the language requires...'
+description: "In C++17 and later, a prvalue is not an object — it is a recipe for constructing one. The prvalue is into an actual object only when the language requires...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -150,7 +150,7 @@ dtor
 ### Proof That C++17 Eliminates Copy/Move in Return Statements
 
 **Claim:** `return T{args};` in a function returning `T` never invokes a copy or move constructor of
-`T`Regardless of whether `T`'s copy/move constructors are deleted.
+`T`Regardless of whether `T`"s copy/move constructors are deleted.
 
 **Proof:**
 

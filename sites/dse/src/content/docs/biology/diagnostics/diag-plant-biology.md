@@ -1,6 +1,6 @@
 ---
-title: 'Plant Biology -- Diagnostic Tests'
-description: 'DSE Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.'
+title: "Plant Biology -- Diagnostic Tests''
+description: "DSE Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."'
 tableOfContents: false
 ---
 
@@ -123,7 +123,7 @@ uptake.
 (a) Compare the structure of xylem vessels and phloem sieve tube elements. Your answer should
 include **four** structural differences. [4 marks]
 
-(b) Aphids feed by inserting their stylets into phloem sieve tubes. When an aphid's stylet is
+(b) Aphids feed by inserting their stylets into phloem sieve tubes. When an aphid"s stylet is
 severed, phloem sap continues to exude from the cut end. Explain this observation in terms of the
 **mass flow hypothesis** (pressure flow hypothesis). [4 marks]
 

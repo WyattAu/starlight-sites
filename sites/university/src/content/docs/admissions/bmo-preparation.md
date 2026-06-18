@@ -1,6 +1,6 @@
 ---
 title: BMO Preparation
-description: 'University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.'
+description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.''
 date: 2026-05-05T00:00:00.000Z
 tags:
   - Mathematics
@@ -55,7 +55,7 @@ Modular arithmetic is the single most important tool in BMO number theory.
 if $m \mid (a - b)$. Congruences are compatible with addition, subtraction, and multiplication.
 Division requires care: $ac \equiv bc \pmod{m}$ implies $a \equiv b \pmod{m/\gcd(c,m)}$.
 
-**Fermat's Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$Then $a^{p-1} \equiv 1 \pmod{p}$.
+**Fermat"s Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$Then $a^{p-1} \equiv 1 \pmod{p}$.
 More generally, for any integer $a$ and prime $p$: $a^p \equiv a \pmod{p}$.
 
 **Euler's Theorem.** If $\gcd(a, m) = 1$Then $a^{\phi(m)} \equiv 1 \pmod{m}$Where $\phi$ is Euler's

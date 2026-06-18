@@ -1,6 +1,6 @@
 ---
 title: Cooling Systems
-description: 'Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems.''
 
 ---
 
@@ -11,7 +11,7 @@ description: 'Every cooling solution relies on three mechanisms of heat transfer
 Every cooling solution relies on three mechanisms of heat transfer:
 
 1. **Conduction** — Heat transfer through a solid material without bulk motion. Governed by
-   Fourier's law:
+   Fourier"s law:
 
 $$
 Q = -k \cdot A \cdot \frac{dT}{dx}

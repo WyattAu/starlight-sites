@@ -1,6 +1,6 @@
 ---
 title: Bash Scripting
-description: 'if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble'
+description: "if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -59,7 +59,7 @@ The regex in `[[ =~ ]]` is unquoted on the right side. If you quote it, it becom
 Always store regex in a variable if it contains spaces or special characters:
 
 ```bash
-re='^user_[0-9]+$'
+re="^user_[0-9]+$'
 if [[ $input =~ $re ]]; then echo "match"; fi
 ```
 

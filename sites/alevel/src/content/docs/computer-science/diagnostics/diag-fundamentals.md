@@ -1,6 +1,6 @@
 ---
-title: 'Fundamentals -- Diagnostic Tests'
-description: 'A-Level Computer Science Fundamentals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Fundamentals -- Diagnostic Tests''
+description: "A-Level Computer Science Fundamentals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -8,7 +8,7 @@ tableOfContents: false
 
 ## Unit Tests
 
-### UT-1: Two's Complement and Arithmetic
+### UT-1: Two"s Complement and Arithmetic
 
 **Question:** (a) Convert $-97$ to 8-bit two's complement. (b) Perform the addition $(-97) + 45$
 using 8-bit two's complement binary. State whether overflow occurs. (c) What is the range of

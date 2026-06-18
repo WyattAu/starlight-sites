@@ -1,6 +1,6 @@
 ---
-title: 'Differentiation -- Diagnostic Tests'
-description: 'IB Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+title: "Differentiation -- Diagnostic Tests''
+description: "IB Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."'
 tableOfContents: false
 ---
 
@@ -21,7 +21,7 @@ A curve is defined implicitly by $x^2 + xy + y^2 = 7$.
 **(b)** Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$.
 
 **(c)** A student computes $\dfrac{d^2y}{dx^2}$ by implicitly differentiating the original equation
-twice and gets a different answer from part (b). Explain why the student's answer could be correct
+twice and gets a different answer from part (b). Explain why the student"s answer could be correct
 but in a different form, and show they are equivalent.
 
 [Difficulty: hard. Tests second derivative via implicit differentiation and the subtlety of

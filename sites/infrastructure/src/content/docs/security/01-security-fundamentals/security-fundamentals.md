@@ -1,6 +1,6 @@
 ---
 title: Security Fundamentals
-description: 'The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three...'
+description: "The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three...''
 
 ---
 
@@ -113,7 +113,7 @@ For the diagram above, a partial STRIDE analysis:
 ### Threat Trees
 
 A **threat tree** decomposes a threat into its prerequisite conditions, creating a boolean
-Expression that describes the attack. The root node is the attacker's goal. Leaf nodes are the
+Expression that describes the attack. The root node is the attacker"s goal. Leaf nodes are the
 Specific conditions the attacker must achieve.
 
 For example, a threat tree for "Attacker reads customer PII from database":

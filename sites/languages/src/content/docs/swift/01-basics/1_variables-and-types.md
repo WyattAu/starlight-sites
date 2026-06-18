@@ -1,6 +1,6 @@
 ---
 title: Variables and Types
-description: 'Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble'
+description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift
@@ -19,7 +19,7 @@ let maximumAttempts = 3        // Constant -- cannot be changed
 var currentAttempt = 0          // Variable -- can be modified
 currentAttempt += 1             // OK
 
-// maximumAttempts = 4           // Error: Cannot assign to 'let' constant
+// maximumAttempts = 4           // Error: Cannot assign to "let' constant
 ```
 
 ### Naming Conventions
@@ -162,7 +162,7 @@ name = nil               // Valid for optionals
 var age: Int?             // Automatically initialised to nil
 
 // Non-optional cannot be nil
-// var required: String = nil   // Error: 'nil' is not compatible with 'String'
+// var required: String = nil   // Error: "nil'' is not compatible with "String'
 ```
 
 ### Unwrapping Optionals

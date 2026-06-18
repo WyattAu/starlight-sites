@@ -1,7 +1,7 @@
 ---
 title: GCSE Notes
 date: 2026-04-14
-description: 'These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE Syllabus. Every definition is precise, every result is...'
+description: "These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE Syllabus. Every definition is precise, every result is...''
 tags:
   - gcse
 categories:
@@ -35,7 +35,7 @@ Understand.
 ## How to Use These Notes
 
 1. **Read the theory first.** Each topic builds on previous ones. Follow the sidebar order.
-2. **Work through the derivations.** Don't skip them -- understanding _why_ a result holds is what
+2. **Work through the derivations.** Don"t skip them -- understanding _why_ a result holds is what
    separates grade 9 students from the rest.
 3. **Attempt the problem sets.** Each topic ends with multi-step problems that test deep
    understanding, not just recall.

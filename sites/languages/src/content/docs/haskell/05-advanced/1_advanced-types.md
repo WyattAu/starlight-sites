@@ -1,6 +1,6 @@
 ---
 title: Advanced Types
-description: 'Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds...'
+description: "Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Haskell
@@ -142,7 +142,7 @@ type parameters:
 {-# LANGUAGE DataKinds #-}
 
 -- The promoted type Nat has kind *
--- Its constructors 'Z and 'S have kind Nat
+-- Its constructors "Z and 'S have kind Nat
 data Nat = Z | S Nat
 
 -- Type-level natural numbers

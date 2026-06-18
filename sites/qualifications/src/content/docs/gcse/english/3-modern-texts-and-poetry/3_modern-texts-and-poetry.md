@@ -1,6 +1,6 @@
 ---
 title: Modern Texts and Poetry
-description: '(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-22
 tags:
   - gcse
@@ -25,7 +25,7 @@ Following are the most commonly set texts.
 
 **An Inspector Calls** by J.B. Priestley (1945)
 
-Though technically a post-1914 drama text, Priestley's play is so widely studied that it warrants
+Though technically a post-1914 drama text, Priestley"s play is so widely studied that it warrants
 Extended treatment. Set in the affluent Birling household in 1912, the play dramatises the
 Interruption of a family celebration by the mysterious Inspector Goole, who interrogates each family
 Member about their involvement in the death of Eva Smith, a young working-class woman.

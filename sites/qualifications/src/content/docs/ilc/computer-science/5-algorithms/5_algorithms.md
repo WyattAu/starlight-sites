@@ -1,6 +1,6 @@
 ---
 title: Computational Thinking
-description: 'Computational thinking is a problem-solving approach that involves breaking down complex problems, Identifying patterns, abstracting details, and designing...'
+description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Identifying patterns, abstracting details, and designing...''
 date: 2026-04-14
 tags:
   - ilc
@@ -71,7 +71,7 @@ Developing a step-by-step solution to the problem.
 **Worked Example (OL).** Design an algorithm to find the highest score in a class.
 
 1. Initialise `highest` to 0.
-2. For each student in the class: a. Read the student's score. B. If score &gt; highest, set highest
+2. For each student in the class: a. Read the student"s score. B. If score &gt; highest, set highest
    = score.
 3. Output highest.
 

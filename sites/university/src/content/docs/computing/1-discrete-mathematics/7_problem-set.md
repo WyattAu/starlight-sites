@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: 'Prove that is a tautology using a truth table. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Prove that is a tautology using a truth table. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 **Problem 1.** Prove that $(p \implies q) \lor (q \implies p)$ is a tautology using a truth table.
@@ -67,7 +67,7 @@ If you get this wrong, revise: Section 2.1.
 
 </details>
 
-**Problem 5.** Show that the relation $R$ on $\mathbb{{'}Z{}'}$ defined by $a\,R\,b$ iff $a - b$ is
+**Problem 5.** Show that the relation $R$ on $\mathbb{{"}Z{}'}$ defined by $a\,R\,b$ iff $a - b$ is
 even Is an equivalence relation. How many equivalence classes are there?
 
 <details>

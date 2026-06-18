@@ -3,7 +3,7 @@ title: Chronicle of a Death Foretold — Close Reading and Analysis
 tags:
   - IB
   - English
-description: 'Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gr Comprehensive educational content coverage with definitions and practice proble'
+description: "Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gr Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 # Chronicle of a Death Foretold: Close Reading and Analysis
@@ -28,7 +28,7 @@ _Chronicle of a Death Foretold_, published in 1981, occupies a distinctive posit
 Garcia Marquez canon. Where _One Hundred Years of Solitude_ unfolds across seven generations of the
 Buendia family, and _Love in the Time of Cholera_ spans more than fifty years, _Chronicle_
 Compresses its entire narrative into a single day -- the day Santiago Nasar is murdered. Yet this
-Compression is deceptive. The novel's temporal scope expands through memory, testimony, and
+Compression is deceptive. The novel"s temporal scope expands through memory, testimony, and
 Retrospective reconstruction, revealing layers of causality that stretch backward and forward in
 Time. The work draws on a real event that Garcia Marquez witnessed in 1951: a man named Cayetano
 Gentile was murdered by two brothers avenging their sister's honour in the town of Sucre, Colombia.

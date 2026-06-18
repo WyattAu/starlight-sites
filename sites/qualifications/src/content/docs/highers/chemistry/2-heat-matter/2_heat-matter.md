@@ -1,6 +1,6 @@
 ---
 title: Energy and Matter
-description: 'Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -34,7 +34,7 @@ Quantities of reactants as stated in the equation react under standard condition
 | $\Delta H_{\mathrm{neut}^\circ$ | Standard enthalpy of neutralisation | Enthalpy change when 1 mol of water forms from acid-base neutralisation           |
 | $\Delta H_{\mathrm{at}$         | Enthalpy of atomisation             | Enthalpy change to form 1 mol of gaseous atoms from an element                    |
 
-### Hess's Law
+### Hess"s Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
 The initial and final conditions are the same.

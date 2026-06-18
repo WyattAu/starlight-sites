@@ -2,7 +2,7 @@
 title: Compactness
 tags:
   - University Maths
-description: 'Let be a topological space. An of is a collection Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Let be a topological space. An of is a collection Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 5.1 Open Covers
@@ -42,7 +42,7 @@ $$S = \{x \in [a, b] : [a, x] \text{ has a finite subcover from } \mathcal{U}\}.
 Then $a \in S$ (since $a \in$ some $U_\alpha$), so $S \neq \emptyset$. Let $s = \sup S$. One shows
 $s \in S$ and $s = b$, completing the proof. $\square$
 
-### 5.4 Products: Tychonoff's Theorem
+### 5.4 Products: Tychonoff"s Theorem
 
 **Theorem 5.3 (Tychonoff).** The product of any collection of compact spaces is compact.
 

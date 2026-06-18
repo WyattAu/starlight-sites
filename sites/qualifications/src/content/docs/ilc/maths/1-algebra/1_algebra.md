@@ -1,6 +1,6 @@
 ---
 title: Algebra
-description: 'Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both Paper 1 and Paper 2. This topic covers algebraic...'
+description: "Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both Paper 1 and Paper 2. This topic covers algebraic...''
 date: 2026-04-14
 tags:
   - ilc
@@ -371,7 +371,7 @@ $$
 Z = 2\left(\cos\frac{2\pi}{3} + i\sin\frac{2\pi}{3}\right) = 2e^{2\pi i/3}
 $$
 
-### De Moivre's Theorem (HL)
+### De Moivre"s Theorem (HL)
 
 For $z = r(\cos\theta + i\sin\theta)$ and $n \in \mathbb{Z}$:
 

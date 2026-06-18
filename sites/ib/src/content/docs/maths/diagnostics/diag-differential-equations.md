@@ -1,6 +1,6 @@
 ---
-title: 'Differential Equations -- Diagnostic Tests'
-description: 'IB Maths Differential Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Differential Equations -- Diagnostic Tests''
+description: "IB Maths Differential Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -42,7 +42,7 @@ Where $A = e^{2C} \gt 0$. Including the equilibrium solutions, the general solut
 
 $$y = 1, \quad y = -1, \quad \text{or} \quad \frac{y - 1}{y + 1} = \pm Ae^{2x}$$
 
-**(b)** The student's solution is incomplete because they lost the equilibrium solutions $y = 1$ and
+**(b)** The student"s solution is incomplete because they lost the equilibrium solutions $y = 1$ and
 $y = -1$. By dividing by $y^2 - 1$The student implicitly assumed $y^2 - 1 \neq 0$. The equilibrium
 solutions must be stated separately and are not captured by the formula
 $\frac{1}{2}\ln\!\left\lvert\frac{y - 1}{y + 1}\right\rvert = x + C$.

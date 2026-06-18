@@ -1,6 +1,6 @@
 ---
 title: Compile-Time Branching and Constexpr Functions
-description: 'C++ provides multiple mechanisms for compile-time computation: for type-based Dispatch within function bodies, functions that may be evaluated at compile...'
+description: "C++ provides multiple mechanisms for compile-time computation: for type-based Dispatch within function bodies, functions that may be evaluated at compile...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -90,7 +90,7 @@ Rules for discarded statements are:
    extremely poor practice).
 4. A discarded `constexpr if` within a template is only evaluated if it is in the taken branch.
 
-This means you can write code that references members that don't exist on a type, as long as that
+This means you can write code that references members that don"t exist on a type, as long as that
 Code is in the discarded branch:
 
 ```cpp
@@ -584,7 +584,7 @@ int main() {
     std::cout << "user: " << user << ", domain: " << domain << "\n";
 
     auto [key, value] = split_first("  key = value  ", '=');
-    std::cout << "key: '" << trim(key) << "', value: '" << trim(value) << "'\n";
+    std::cout << "key: "" << trim(key) << "'', value: "" << trim(value) << "'\n";
 }
 ```
 
@@ -592,7 +592,7 @@ Output:
 
 ```
 user: alice, domain: example.com
-key: 'key', value: 'value'
+key: "key'', value: "value'
 ```
 
 ## See Also

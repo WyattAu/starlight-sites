@@ -1,6 +1,6 @@
 ---
 title: Wrap Up
-description: 'This page provides a summary of key concepts across all five thematic areas of IB Physics and strategies for final revision.'
+description: "This page provides a summary of key concepts across all five thematic areas of IB Physics and strategies for final revision.''
 ---
 
 # IB Physics -- Course Wrap-Up
@@ -20,7 +20,7 @@ strategies for final revision.
 
 ## Review Strategies
 
-1. Work through each theme's wrap-up practice questions systematically.
+1. Work through each theme"s wrap-up practice questions systematically.
 2. Focus on connecting concepts across themes -- many exam questions require integration of multiple
    areas.
 3. Practise dimensional analysis and estimation as a check on your working.

@@ -1,6 +1,6 @@
 ---
 title: Homeostasis
-description: 'Homeostasis is the maintenance of a constant internal environment despite changes in the external environment. It is essential for the proper functioning of...'
+description: "Homeostasis is the maintenance of a constant internal environment despite changes in the external environment. It is essential for the proper functioning of...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -66,7 +66,7 @@ is completed.
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ovulation                | Rising oestrogen levels stimulate LH release (positive feedback); the LH surge triggers ovulation. After ovulation, the positive feedback loop ends.                                                                                                                                                                   |
 | Blood clotting           | When a vessel is damaged, clotting factors are activated in a cascade; each step activates more factors, amplifying the response until a clot forms.                                                                                                                                                                   |
-| Childbirth (parturition) | The baby's head pushes against the cervix, stimulating stretch receptors. Impulses cause the posterior pituitary to release oxytocin, which causes stronger uterine contractions. Stronger contractions push the baby further against the cervix, stimulating more oxytocin release. This cycle continues until birth. |
+| Childbirth (parturition) | The baby"s head pushes against the cervix, stimulating stretch receptors. Impulses cause the posterior pituitary to release oxytocin, which causes stronger uterine contractions. Stronger contractions push the baby further against the cervix, stimulating more oxytocin release. This cycle continues until birth. |
 
 :::caution A common DSE pitfall is to assume all feedback loops are negative. The DSE specification
 requires knowledge of positive feedback examples (ovulation and childbirth are the most commonly

@@ -1,6 +1,6 @@
 ---
 title: Language and Thought
-description: 'The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is...'
+description: "The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is...''
 
 ---
 
@@ -23,7 +23,7 @@ Hypothesis exists in two versions:
 **Strong version (linguistic determinism):** Language determines thought. Speakers of different
 Languages necessarily perceive and think about the world in fundamentally different ways because the
 Categories available in their language constrain what they can think. According to this strong
-Version, it is impossible to think thoughts that cannot be expressed in one's language.
+Version, it is impossible to think thoughts that cannot be expressed in one"s language.
 
 **Weak version (linguistic relativity):** Language influences thought. The structure and vocabulary
 Of a language affect habitual patterns of thinking, perception, and attention, but do not strictly

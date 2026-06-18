@@ -1,6 +1,6 @@
 ---
 title: Introduction to Linux
-description: 'Linux is a first released by Linus Torvalds in 1991. When People say "Linux" in practice, they almost always mean a — the kernel Bundled with GNU userland,...'
+description: "Linux is a first released by Linus Torvalds in 1991. When People say "Linux" in practice, they almost always mean a — the kernel Bundled with GNU userland,...''
 
 ---
 
@@ -96,7 +96,7 @@ Linux is the dominant operating system in every infrastructure domain you will e
 - **Cloud infrastructure**: AWS, GCP, and Azure run on custom Linux kernels (Xen, KVM, Firecracker).
 - **Container orchestration**: Docker, containerd, and Kubernetes are Linux-native technologies
   built on cgroups, namespaces, and overlayfs.
-- **Networking**: Linux routing, netfilter, and BPF power the majority of the world's routers and
+- **Networking**: Linux routing, netfilter, and BPF power the majority of the world"s routers and
   firewalls.
 - **Embedded and IoT**: Android, OpenWrt, Yocto — all Linux underneath.
 - **High-performance computing**: 100% of the TOP500 supercomputers run Linux.

@@ -1,6 +1,6 @@
 ---
 title: Internet and Data Communications
-description: '| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |...'
+description: "| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |...''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]
@@ -13,7 +13,7 @@ categories: [DSE, ICT]
 | Type    | Full Name             | Range                     | Example                                           |
 | ------- | --------------------- | ------------------------- | ------------------------------------------------- |
 | **LAN** | Local Area Network    | A building or campus      | School computer lab, office network               |
-| **WAN** | Wide Area Network     | Cities, countries, global | The Internet, a company's offices across cities   |
+| **WAN** | Wide Area Network     | Cities, countries, global | The Internet, a company"s offices across cities   |
 | **PAN** | Personal Area Network | Within ~10 m              | Bluetooth connection between phone and headphones |
 
 ### Network Topologies
@@ -242,11 +242,11 @@ function calculateSum() {
   var a = parseInt(document.getElementById('num1').value);
   var b = parseInt(document.getElementById('num2').value);
   var result = a + b;
-  document.getElementById('result').innerHTML = 'Sum: ' + result;
+  document.getElementById('result').innerHTML = 'Sum: " + result;
 }
 
 // Event handling
-document.getElementById('myButton').onclick = function () {
+document.getElementById(''myButton").onclick = function () {
   alert('Button clicked!');
 };
 ```

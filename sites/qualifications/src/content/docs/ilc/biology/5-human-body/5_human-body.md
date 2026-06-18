@@ -1,6 +1,6 @@
 ---
 title: Human Body Systems
-description: 'ILC Biology Human Body Systems notes covering key definitions, core concepts, worked examples, and practice questions for thorough review and exam preparation.'
+description: "ILC Biology Human Body Systems notes covering key definitions, core concepts, worked examples, and practice questions for thorough review and exam preparation.''
 date: 2026-04-14
 tags:
   - ilc
@@ -125,7 +125,7 @@ Decreases; air rushes in.
 **Expiration:** intercostal muscles and diaphragm relax; thorax volume decreases; lung pressure
 Increases; air is pushed out.
 
-**Worked Example: Fick's Law and gas exchange.**
+**Worked Example: Fick"s Law and gas exchange.**
 
 $$\mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}$$
 

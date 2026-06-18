@@ -1,6 +1,6 @@
 ---
 title: Parameter Packs and Variadic Templates
-description: 'A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter...'
+description: "A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -90,7 +90,7 @@ struct count_occurrences<T, First, Rest...>
         + count_occurrences<T, Rest...>::value> {};
 
 int main() {
-    print(1, "hello", 3.14, 'x');
+    print(1, "hello", 3.14, "x');
     // Output: 1, hello, 3.14, x
 
     auto t = make_tuple_wrapper(42, std::string{"world"}, 3.14);

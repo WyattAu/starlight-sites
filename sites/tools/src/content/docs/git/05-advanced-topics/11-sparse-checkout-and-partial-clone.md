@@ -1,6 +1,6 @@
 ---
 title: Sparse Checkout and Partial Clone
-description: 'As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full Clone becomes prohibitive. The problem manifests in three...'
+description: "As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full Clone becomes prohibitive. The problem manifests in three...''
 
 ---
 
@@ -33,7 +33,7 @@ They can be used independently or combined for maximum efficiency.
 
 ## Sparse Checkout
 
-Sparse checkout allows you to check out only a subset of the repository's directories into your
+Sparse checkout allows you to check out only a subset of the repository"s directories into your
 Working tree. The repository still contains all objects (commits, trees, blobs) — the working tree
 Is a filtered view of the tree at HEAD.
 

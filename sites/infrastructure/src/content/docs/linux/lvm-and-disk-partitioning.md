@@ -1,6 +1,6 @@
 ---
 title: LVM and Disk Partitioning
-description: 'Linux exposes storage devices as block device files under . Block devices support random Access by fixed-size blocks ( 512 bytes or 4096 bytes), unlike...'
+description: "Linux exposes storage devices as block device files under . Block devices support random Access by fixed-size blocks ( 512 bytes or 4096 bytes), unlike...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Linux
@@ -90,7 +90,7 @@ GPT disk layout:
 :::info
 
 Always use GPT unless you have a specific reason not to. The 2 TiB MBR limit is hit with Modern
-disks, and GPT's backup table provides redundancy against corruption at the start of the Disk.
+disks, and GPT"s backup table provides redundancy against corruption at the start of the Disk.
 
 
 ### Sector Size

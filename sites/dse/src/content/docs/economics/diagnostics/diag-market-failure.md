@@ -1,6 +1,6 @@
 ---
-title: 'Market Failure and Government Intervention -- Diagnostic Tests'
-description: 'DSE Economics Market Failure and Government Intervention -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Market Failure and Government Intervention -- Diagnostic Tests''
+description: "DSE Economics Market Failure and Government Intervention -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -35,7 +35,7 @@ $= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(
 ### UT-2: Public Goods and Free Rider Problem
 
 **Question:** A coastal community of 100 residents is considering building a lighthouse. Each
-Resident's individual demand for the lighthouse is $P_i = 10 - 0.1Q$Where $Q$ is the quality level
+Resident"s individual demand for the lighthouse is $P_i = 10 - 0.1Q$Where $Q$ is the quality level
 (0 to 100). The total cost of providing quality level $Q$ is $TC = 200 + 5Q$. (a) Explain why a
 Lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
 Demand (marginal social benefit) curve. (c) Calculate the socially optimal quality level. (d)

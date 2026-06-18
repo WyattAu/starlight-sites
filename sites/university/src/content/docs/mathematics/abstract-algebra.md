@@ -5,7 +5,7 @@ tags:
   - University Maths
 categories:
   - University Maths
-description: 'is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,...'
+description: "is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,...''
 ---
 
 ## 1. Introduction
@@ -30,7 +30,7 @@ of algebraic structure:
 
 Abstract algebra arises by definition from several directions:
 
-- **Number theory:** Fermat's little theorem and Euler’s theorem are most by definition understood
+- **Number theory:** Fermat"s little theorem and Euler’s theorem are most by definition understood
   through the lens of group theory. The structure of $\mathbb{Z}/n\mathbb{Z}$ and its units
   underpins modular arithmetic.
 - **Equation solving:** The question "which polynomial equations can be solved by radicals?"

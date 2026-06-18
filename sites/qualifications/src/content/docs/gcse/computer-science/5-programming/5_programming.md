@@ -1,6 +1,6 @@
 ---
 title: Programming
-description: 'Programming: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Programming: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-04-14
 tags:
   - gcse
@@ -44,7 +44,7 @@ Reduces errors and makes the code easier to maintain.
 | ---------- | --------------------------- | ---------------- |
 | Integer    | Whole numbers               | 42, -7, 0        |
 | Real/Float | Numbers with decimal places | 3.14, -0.5       |
-| String     | Text enclosed in quotes     | "Hello", 'World' |
+| String     | Text enclosed in quotes     | "Hello", "World' |
 | Character  | A single character          | 'A', '7'         |
 | Boolean    | True or False               | True, False      |
 

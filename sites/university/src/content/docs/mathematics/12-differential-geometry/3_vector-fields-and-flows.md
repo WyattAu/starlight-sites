@@ -3,13 +3,13 @@ title: Vector Fields and Flows
 tags:
   - Mathematics
   - University
-description: 'Let be a smooth vector field on . An of through is a smooth curve Comprehensive educational content coverage with definitions and practice problems.'
+description: "Let be a smooth vector field on . An of through is a smooth curve Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 3.1 Integral Curves
 
 Let $X$ be a smooth vector field on $M$. An **integral curve** of $X$ through $p$ is a smooth curve
-$\gamma : I \to M$ such that $\gamma(0) = p$ and $\gamma'(t) = X_{\gamma(t)}$ for all $t \in I$.
+$\gamma : I \to M$ such that $\gamma(0) = p$ and $\gamma"(t) = X_{\gamma(t)}$ for all $t \in I$.
 
 **Theorem 3.1 (Existence and Uniqueness).** For every $p \in M$, there exists a unique maximal
 integral curve $\gamma_p : I_p \to M$ of $X$ through $p$, defined on a maximal open interval

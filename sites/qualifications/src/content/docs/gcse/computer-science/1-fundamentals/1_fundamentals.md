@@ -1,6 +1,6 @@
 ---
 title: Data Representation
-description: 'Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble'
+description: "Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - gcse
@@ -115,7 +115,7 @@ The result (11000) requires 5 bits, but we are working with 4-bit numbers. The l
 Giving an incorrect result of 1000. This is called **overflow** and occurs when the result of an
 Operation exceeds the number of bits available.
 
-### 1.5 Binary Subtraction Using Two's Complement (Higher Tier)
+### 1.5 Binary Subtraction Using Two"s Complement (Higher Tier)
 
 To subtract, add the two's complement of the number being subtracted.
 

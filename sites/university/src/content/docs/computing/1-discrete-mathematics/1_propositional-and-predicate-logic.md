@@ -3,7 +3,7 @@ title: Propositional and Predicate Logic
 tags:
   - Computing
   - University
-description: 'A is a statement that is either true or false. Propositional logic deals with Propositions and their combinations using logical connectives.'
+description: "A is a statement that is either true or false. Propositional logic deals with Propositions and their combinations using logical connectives.''
 ---
 
 ### 1.1 Propositional Logic
@@ -221,7 +221,7 @@ DNF.
 
 1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$And
    $A \iff B \equiv (\neg A \lor B) \land (A \lor \neg B)$.
-2. Push $\neg$ inward using De Morgan's laws and double negation ($\neg\neg A \equiv A$) until every
+2. Push $\neg$ inward using De Morgan"s laws and double negation ($\neg\neg A \equiv A$) until every
    $\neg$ applies to a single variable.
 3. Distribute $\lor$ over $\land$: $A \lor (B \land C) \equiv (A \lor B) \land (A \lor C)$.
 

@@ -1,6 +1,6 @@
 ---
 title: Chemistry - Atomic Structure and Bonding
-description: '| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |...'
+description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |...''
 
 ---
 
@@ -83,7 +83,7 @@ electrons are in the $3d$ subshell.
 
 Each orbital can hold a maximum of 2 electrons with opposite spins.
 
-### Hund's Rule
+### Hund"s Rule
 
 When filling degenerate orbitals (orbitals of the same energy, such as the three $2p$ orbitals),
 Electrons occupy separate orbitals with parallel spins before pairing up.

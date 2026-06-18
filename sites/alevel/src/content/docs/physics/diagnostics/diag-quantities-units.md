@@ -1,6 +1,6 @@
 ---
-title: 'Quantities and Units -- Diagnostic Tests'
-description: 'A-Level Physics Quantities and Units -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Quantities and Units -- Diagnostic Tests''
+description: "A-Level Physics Quantities and Units -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -62,7 +62,7 @@ $$1 = n + (2 - q) - 3(1 - q) - q$$ $$1 = n + 2 - q - 3 + 3q - q$$ $$1 = n - 1 + 
 
 So the exponents in terms of $q$ are: $n = 2 - q$$m = 2 - q$$p = 1 - q$.
 
-For the standard Stokes' drag ($q = 1$): $n = 1$$m = 1$$p = 0$Giving $F_D = k r v \eta$.
+For the standard Stokes" drag ($q = 1$): $n = 1$$m = 1$$p = 0$Giving $F_D = k r v \eta$.
 
 For high Reynolds number drag ($q = 0$): $n = 2$$m = 2$$p = 1$Giving $F_D = k r^2 v^2 \rho$.
 

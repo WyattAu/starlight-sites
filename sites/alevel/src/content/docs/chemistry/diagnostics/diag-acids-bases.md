@@ -1,6 +1,6 @@
 ---
-title: 'Acids, Bases and Buffers -- Diagnostic Tests'
-description: 'A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Acids, Bases and Buffers -- Diagnostic Tests''
+description: "A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -157,7 +157,7 @@ $$[\text{H}^+] = \frac◆LB◆K_w◆RB◆◆LB◆[\text{OH}^-]◆RB◆ = \frac�
 
 $$\text{pH} = -\log(5.48 \times 10^{-12}) = 11.26$$
 
-(c) The student's statement is **incorrect**. At $50\,^\circ\text{C}$A neutral solution has pH
+(c) The student"s statement is **incorrect**. At $50\,^\circ\text{C}$A neutral solution has pH
 $6.63$ (as calculated in part a). The pH value of 7 is only neutral at $25\,^\circ\text{C}$ (where
 $K_w = 1.00 \times 10^{-14}$). Neutrality is defined by $[\text{H}^+] = [\text{OH}^-]$Not by pH
 $= 7$. At $50\,^\circ\text{C}$A pH of 7 actually represents a **slightly alkaline** solution because

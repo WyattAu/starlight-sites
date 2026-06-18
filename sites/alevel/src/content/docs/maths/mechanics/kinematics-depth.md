@@ -1,6 +1,6 @@
 ---
 title: Kinematics (Extended)
-description: 'This document extends the core kinematics material with deeper derivations, multi-stage problems, Projectile motion in two dimensions, and the calculus...'
+description: "This document extends the core kinematics material with deeper derivations, multi-stage problems, Projectile motion in two dimensions, and the calculus...''
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
@@ -103,7 +103,7 @@ multi-stage kinematics Problems.
 
 ### 2.1 The acceleration due to gravity
 
-Near the Earth's surface, all objects in free fall (neglecting air resistance) experience the same
+Near the Earth"s surface, all objects in free fall (neglecting air resistance) experience the same
 Acceleration $g$. The standard value is:
 
 $$g \approx 9.8\;\mathrm{m\,s^{-2}} \quad (\mathrm{or}\ 9.81\;\mathrm{m\,s^{-2}}\ \mathrm{for\ greater\ precision})$$

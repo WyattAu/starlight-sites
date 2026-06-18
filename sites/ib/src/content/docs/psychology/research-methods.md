@@ -1,6 +1,6 @@
 ---
 title: Research Methods in Psychology
-description: 'Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology...'
+description: "Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology...''
 
 ---
 
@@ -22,7 +22,7 @@ Revision.
 - **Falsifiability:** Scientific theories must generate testable predictions that could, in
   principle, be disproven by empirical evidence (Popper, 1959).
 - **Parsimony:** When multiple explanations account for the same data, the simplest explanation is
-  preferred (Occam's razor).
+  preferred (Occam"s razor).
 
 ### The Research Cycle
 

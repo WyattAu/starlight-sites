@@ -1,6 +1,6 @@
 ---
 title: Garbage Collection
-description: 'An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a...'
+description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a...''
 
 ---
 
@@ -27,7 +27,7 @@ Path from at least one GC root. The primary categories of GC roots:
 ```java
 public class GCDemo {
     private static Object staticRoot;       // GC root (static field)
-    private Object instanceField;           // reachable if 'this' is reachable
+    private Object instanceField;           // reachable if "this' is reachable
 
     public void method() {
         Object localVar = new Object();     // GC root (stack-local) while in scope

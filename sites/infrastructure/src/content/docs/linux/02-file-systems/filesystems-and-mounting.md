@@ -1,6 +1,6 @@
 ---
 title: File Systems and Mounting
-description: 'The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And...'
+description: "The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And...''
 
 ---
 
@@ -56,7 +56,7 @@ Includes a `struct file_system_type` that provides:
 - Kill superblock function pointer
 - Module owner (for loadable modules)
 
-When `mount(2)` is called, the VFS invokes the appropriate file system's mount function, which reads
+When `mount(2)` is called, the VFS invokes the appropriate file system"s mount function, which reads
 The superblock from disk and populates the VFS superblock object.
 
 ## Inode Structure

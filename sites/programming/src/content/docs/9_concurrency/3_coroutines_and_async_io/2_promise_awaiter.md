@@ -1,6 +1,6 @@
 ---
 title: Coroutine Handle, Promise Type, and Awaiter
-description: 'This section covers the three interacting components of the C++ coroutine machinery, Expression semantics, the promise type vs awaiter distinction, for...'
+description: "This section covers the three interacting components of the C++ coroutine machinery, Expression semantics, the promise type vs awaiter distinction, for...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -374,7 +374,7 @@ int main() {
 
 ## Coroutine Frame Lifetime and the `final_suspend` Decision
 
-The coroutine frame is heap-allocated (unless the compiler can prove it doesn't escape) and its
+The coroutine frame is heap-allocated (unless the compiler can prove it doesn"t escape) and its
 Lifetime is managed by `std::coroutine_handle` [N4950 §9.5.4]. When a coroutine reaches the final
 Suspend point, the behavior of `final_suspend` determines whether the frame is automatically
 Destroyed or must be destroyed manually:

@@ -3,7 +3,7 @@ title: Relational Model
 tags:
   - Computing
   - University
-description: 'A over attributes is a set of tuples where Each is drawn from the domain of . A  Comprehensive educational content coverage with definitions and practice proble'
+description: "A over attributes is a set of tuples where Each is drawn from the domain of . A  Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 2.1 Relations, Tuples, Attributes
@@ -45,7 +45,7 @@ Relational algebra provides a formal query language based on operations on relat
 
 **Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
 
-$$\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Student})}$$
+$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.

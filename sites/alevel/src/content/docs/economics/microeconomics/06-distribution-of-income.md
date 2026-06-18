@@ -1,6 +1,6 @@
 ---
 title: Distribution of Income
-description: 'The plots the cumulative proportion of total income received by the cumulative Proportion of the population, ordered from poorest to richest.'
+description: "The plots the cumulative proportion of total income received by the cumulative Proportion of the population, ordered from poorest to richest.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -62,7 +62,7 @@ $$G = 1 - 2B$$
 ### 1.3 Limitations of the Gini Coefficient
 
 1. **Insensitive to changes at different parts of the distribution**: a transfer from a rich person
-   to a very rich person doesn't change $G$
+   to a very rich person doesn"t change $G$
 2. **Doesn't capture absolute poverty**: a country can have a low Gini but widespread poverty
 3. **Different Lorenz curves can have the same Gini**: the Gini is a summary statistic that may mask
    important distributional details

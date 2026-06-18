@@ -1,6 +1,6 @@
 ---
 title: Chemistry - Redox and Electrochemistry
-description: 'DSE Chemistry - Redox and Electrochemistry notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+description: "DSE Chemistry - Redox and Electrochemistry notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Chemistry
@@ -363,7 +363,7 @@ At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the ob
   cell, the anode is positive; in a galvanic cell, the anode is negative (electrons flow from anode
   to cathode).
 - Forgetting that $2 \times F$ electrons are needed to deposit 1 mole of a divalent metal (e.g.,
-  $\mathrm{Cu^{2+}}$, $\mathrm{Zn^{2+}}$). Always check the ion's charge.
+  $\mathrm{Cu^{2+}}$, $\mathrm{Zn^{2+}}$). Always check the ion"s charge.
 - Applying the wrong rule for discharge at the anode in aqueous electrolysis. Halides are discharged
   in preference to hydroxide; other anions result in oxygen production.
 - Assuming the most reactive metal is always deposited at the cathode. In aqueous solution, if the

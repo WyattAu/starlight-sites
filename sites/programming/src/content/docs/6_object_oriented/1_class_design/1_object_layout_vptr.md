@@ -1,6 +1,6 @@
 ---
 title: Object Layout, vptr, and the this Pointer
-description: 'Understanding how the compiler lays out objects in memory is fundamental to writing correct and Efficient C++. This section covers the memory layout of...'
+description: "Understanding how the compiler lays out objects in memory is fundamental to writing correct and Efficient C++. This section covers the memory layout of...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -152,7 +152,7 @@ static_assert(sizeof(Empty) == 1);
 
 However, when an empty class is used as a **base class**, the compiler is permitted to apply the
 **Empty Base Optimization** (EBO): it may allocate zero bytes for the base class subobject, since
-The derived class's own address already satisfies the unique-address requirement.
+The derived class"s own address already satisfies the unique-address requirement.
 
 ```cpp
 #include <cstddef>

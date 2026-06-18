@@ -1,6 +1,6 @@
 ---
 title: Virtual Functions and vtables
-description: 'Virtual functions are the foundation of runtime polymorphism in C++. When a member function is Declared The call is resolved at runtime based on the...'
+description: "Virtual functions are the foundation of runtime polymorphism in C++. When a member function is Declared The call is resolved at runtime based on the...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -12,7 +12,7 @@ categories:
 # Virtual Functions and Dispatch Tables (vtables)
 
 Virtual functions are the foundation of runtime polymorphism in C++. When a member function is
-Declared `virtual`The call is resolved at runtime based on the object's dynamic type through the
+Declared `virtual`The call is resolved at runtime based on the object"s dynamic type through the
 Vtable dispatch mechanism. This section covers the `virtual` keyword, the vptr/vtable ABI, dispatch
 Costs, and the `final`/`override` specifiers.
 

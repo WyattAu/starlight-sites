@@ -1,6 +1,6 @@
 ---
 title: Redox Reactions (Advanced)
-description: 'Rigorous IB chemistry notes covering Redox Reactions (Advanced). Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Redox Reactions (Advanced). Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -166,7 +166,7 @@ Cell has:
 - Cathode: negative electrode (reduction)
 - External power source drives electrons from anode to cathode
 
-### Faraday's Laws
+### Faraday"s Laws
 
 **First law**: The amount of substance produced at an electrode is proportional to the charge
 Passed.

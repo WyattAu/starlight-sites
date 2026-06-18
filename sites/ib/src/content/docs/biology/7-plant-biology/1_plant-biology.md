@@ -1,6 +1,6 @@
 ---
 title: Plant Biology
-description: 'Rigorous IB biology notes covering Plant Biology. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB biology notes covering Plant Biology. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -224,7 +224,7 @@ Some seeds also require specific conditions such as:
 - **Light** (photodormancy broken by light exposure).
 - **Fire** (smoke and heat break dormancy in some species, e.g., certain Australian plants).
 - **Cold stratification** (prolonged exposure to low temperatures, e.g., many temperate species).
-- **Scarification** (physical damage to the seed coat, e.g., passing through an animal's digestive
+- **Scarification** (physical damage to the seed coat, e.g., passing through an animal"s digestive
   tract).
 
 **Stages of germination**:

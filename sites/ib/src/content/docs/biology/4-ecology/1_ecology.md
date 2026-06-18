@@ -1,6 +1,6 @@
 ---
 title: Ecology
-description: 'IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification.'
+description: "IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -50,7 +50,7 @@ Relationships in an ecosystem.
 Its needs for food and shelter, how it survives, and how it reproduces. It includes all biotic and
 Abiotic interactions.
 
-The **competitive exclusion principle** (Gause's principle) states that two species cannot coexist
+The **competitive exclusion principle** (Gause"s principle) states that two species cannot coexist
 Permanently in the same niche: one will outcompete the other. Species that coexist must occupy
 Different niches (**resource partitioning**).
 

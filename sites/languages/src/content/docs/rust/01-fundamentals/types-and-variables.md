@@ -1,6 +1,6 @@
 ---
 title: Types and Variables
-description: 'Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus Platform-dependent and :'
+description: "Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus Platform-dependent and : "''
 
 ---
 
@@ -29,7 +29,7 @@ let decimal = 1_000_000;
 let hex = 0xFF_FF;
 let octal = 0o777;
 let binary = 0b1111_0000;
-let byte = b'A';        // u8 only
+let byte = b"A";        // u8 only
 ```
 
 The underscore separator is valid anywhere within a numeric literal for readability. It is ignored

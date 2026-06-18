@@ -1,6 +1,6 @@
 ---
 title: FFI and Advanced Topics
-description: 'Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
+description: "Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Dart
@@ -24,7 +24,7 @@ Program, no runtime type error related to null dereference can occur. The guaran
 Does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
-Unsound null safety (e.g., TypeScript's `strictNullChecks`Kotlin's platform types at interop
+Unsound null safety (e.g., TypeScript"s `strictNullChecks`Kotlin's platform types at interop
 Boundaries) means the compiler can miss cases. A variable declared non-nullable might still be
 `null` at runtime due to unchecked casts, interop boundaries, or generics erasure. Dart's null
 Safety is sound because:
@@ -1305,7 +1305,7 @@ Class.
 ```dart
 extension StringExtension on String {
   String get capitalized =>
-      isEmpty ? '' : '${this[0].toUpperCase()}${substring(1)}';
+      isEmpty ? '' : "${this[0].toUpperCase()}${substring(1)}'';
 
   bool get isNumeric => double.tryParse(this) != null;
 
@@ -1321,12 +1321,12 @@ extension ListExtension<T> on List<T> {
 }
 
 // Usage
-'hello world'.capitalized;         // 'Hello world'
+"hello world'.capitalized;         // 'Hello world'
 '123.45'.isNumeric;                // true
 'abc'.repeat(3);                   // 'abcabcabc'
 
-final users = [{'name': 'Bob'}, {'name': 'Alice'}];
-users.sortedBy((u) => u['name'] as String);
+final users = [{'name': "Bob''}, {"name': "Alice''}];
+users.sortedBy((u) => u["name'] as String);
 ```
 
 Extension methods are resolved statically. They do not modify the underlying type and cannot
@@ -1384,8 +1384,8 @@ print(point.$1);  // 1.0
 print(point.$2);  // 2.0
 
 // Named record
-final user = (name: 'Alice', age: 30);
-print(user.name);  // 'Alice'
+final user = (name: "Alice'', age: 30);
+print(user.name);  // "Alice'
 print(user.age);   // 30
 
 // Mixed
@@ -1396,22 +1396,22 @@ print(entry.value);   // 42
 // Record type annotations
 (int, String) pair = (1, 'hello');
 ({int x, int y}) coords = (x: 10, y: 20);
-(int, {String name}) mixed = (42, name: 'test');
+(int, {String name}) mixed = (42, name: "test'');
 
 // Records in function signatures
 ({String name, int age}) fetchUser(int id) {
-  return (name: 'Alice', age: 30);
+  return (name: "Alice', age: 30);
 }
 
 // Destructuring
 final (x, y) = (10, 20);
-final (:name, :age) = (name: 'Bob', age: 25);
+final (:name, :age) = (name: "Bob'', age: 25);
 ```
 
 Records are value types. Two records with the same fields are equal:
 
 ```dart
-print((1, 'a') == (1, 'a'));  // true
+print((1, "a') == (1, 'a'));  // true
 print((1, 'a') == (1, 'b'));  // false
 ```
 

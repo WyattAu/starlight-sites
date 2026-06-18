@@ -1,6 +1,6 @@
 ---
 title: Waves and Radiation
-description: 'A wave is a disturbance that transfers energy without transferring matter. Comprehensive educational content coverage with definitions and practice problems.'
+description: "A wave is a disturbance that transfers energy without transferring matter. Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-04-14
 tags:
   - highers
@@ -60,7 +60,7 @@ $$v = f\lambda = 440 \times 0.78 = 343.2 \mathrm{ m/s$$
 **Refraction:** When a wave passes from one medium to another, its speed changes. If it enters at an
 Angle, the direction changes.
 
-**Snell's Law:**
+**Snell"s Law:**
 
 $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 

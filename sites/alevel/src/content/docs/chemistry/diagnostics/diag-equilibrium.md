@@ -1,6 +1,6 @@
 ---
-title: 'Chemical Equilibrium -- Diagnostic Tests'
-description: 'A-Level Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Chemical Equilibrium -- Diagnostic Tests''
+description: "A-Level Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -62,7 +62,7 @@ Units: $\text{atm}^{-2}$
 $$K_p = 4.68 \times 10^{-6}\,\text{atm}^{-2}$$
 
 (c) $K_p$ is a constant at a given temperature. When the total pressure changes, the system adjusts
-the equilibrium position (Le Chatelier's principle) to restore the original $K_p$ value. Increasing
+the equilibrium position (Le Chatelier"s principle) to restore the original $K_p$ value. Increasing
 pressure shifts the equilibrium towards the side with fewer moles of gas (the $\text{NH}_3$ side in
 this case), increasing $p(\text{NH}_3)$ and changing the individual partial pressures. However, the
 ratio defining $K_p$ returns to its equilibrium value because $K_p$ depends only on temperature, not

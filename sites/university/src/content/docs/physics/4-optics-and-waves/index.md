@@ -3,7 +3,7 @@ title: Optics and Wave Physics
 tags:
   - Physics
   - University
-description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 2 Comprehensive educational content coverage with definitions and practice proble'
+description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 2 Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 # Optics and Wave Physics
@@ -41,7 +41,7 @@ University-level optics and wave physics notes covering interference, diffractio
 ## Topics Covered
 
 - **Wave Equation**: Derivation, solutions, superposition principle
-- **Interference**: Young's slits, thin films, Michelson interferometer
+- **Interference**: Young"s slits, thin films, Michelson interferometer
 - **Diffraction**: Single slit, grating, Fraunhofer and Fresnel regimes
 - **Polarisation**: Malus's law, birefringence, wave plates
 

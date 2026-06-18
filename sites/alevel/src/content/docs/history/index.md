@@ -1,6 +1,6 @@
 ---
 title: A-Level History
-description: 'A-Level History notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision and exam readiness.'
+description: "A-Level History notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision and exam readiness.''
 date: 2026-05-12T00:00:00.000Z
 tags:
   - History
@@ -31,7 +31,7 @@ covers the major themes, source analysis techniques, and coursework skills requi
 - **Political reform** — Reform Acts (1832, 1867, 1884), the Chartists, extension of the franchise
 - **Empire and decolonisation** — the British Empire at its height, independence movements, Suez
   Crisis
-- **Social change** — industrialisation, public health, education reforms, women's suffrage, welfare
+- **Social change** — industrialisation, public health, education reforms, women"s suffrage, welfare
   state
 
 ### Source Analysis

@@ -1,6 +1,6 @@
 ---
-title: 'Bonding -- Diagnostic Tests'
-description: 'DSE Chemistry Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'
+title: "Bonding -- Diagnostic Tests''
+description: "DSE Chemistry Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."'
 tableOfContents: false
 ---
 
@@ -124,7 +124,7 @@ hydrogen bonding in $NH_{3}$ far outweighs the stronger London forces in $PH_{3}
 (b) The claim is **incorrect**. Although $HCl$ has a polar $H-Cl$ bond, **hydrogen bonding only
 occurs when hydrogen is bonded to fluorine, oxygen, or nitrogen** ($F$$O$$N$). Chlorine is not
 electronegative enough ($EN = 3.0$ vs $F = 4.0$$O = 3.5$$N = 3.0$ -- actually $N = 3.0$ is
-borderline, but nitrogen's small size allows orbital overlap; chlorine is too large). $HCl$ has
+borderline, but nitrogen"s small size allows orbital overlap; chlorine is too large). $HCl$ has
 dipole-dipole interactions and London dispersion forces only.
 
 (c) $H_{2}O$ can form **extensive hydrogen bonding** because:

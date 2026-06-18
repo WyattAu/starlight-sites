@@ -1,6 +1,6 @@
 ---
 title: Networks and the Internet
-description: 'The Internet is a global network of interconnected computer networks. Key concep Comprehensive educational content coverage with definitions and practice proble'
+description: "The Internet is a global network of interconnected computer networks. Key concep Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - ap
@@ -121,7 +121,7 @@ Milliseconds.
 3. **ACK:** Client sends ACK (acknowledge). Connection established.
 
 **Why three steps, not two?** The three-way handshake ensures both sides can send and receive. After
-The handshake, both the client and server have confirmed each other's sequence numbers. A two-way
+The handshake, both the client and server have confirmed each other"s sequence numbers. A two-way
 Handshake would leave the server unsure whether the client received its response.
 
 **TCP flow control.** TCP uses a sliding window mechanism. The receiver advertises a window size

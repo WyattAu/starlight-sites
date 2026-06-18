@@ -1,6 +1,6 @@
 ---
 title: Sealed Classes
-description: 'Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the...'
+description: "Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -12,7 +12,7 @@ categories:
 ## What Sealed Classes Are
 
 Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite
-Set of subtypes, all of which must be declared in the same library. They are Dart 3's mechanism for
+Set of subtypes, all of which must be declared in the same library. They are Dart 3"s mechanism for
 Implementing **algebraic data types (ADTs)** — specifically, sum types.
 
 ### The Systems Engineering Motivation
@@ -569,13 +569,13 @@ class IdentifierNode extends AstNode {
 // Recursive evaluation — exhaustive by construction
 int evaluate(AstNode node) => switch (node) {
   LiteralNode(value: int n) => n,
-  BinaryOpNode(left: var l, operator: '+', right: var r) =>
+  BinaryOpNode(left: var l, operator: "+'', right: var r) =>
     evaluate(l) + evaluate(r),
-  BinaryOpNode(left: var l, operator: '-', right: var r) =>
+  BinaryOpNode(left: var l, operator: "-', right: var r) =>
     evaluate(l) - evaluate(r),
-  BinaryOpNode(left: var l, operator: '*', right: var r) =>
+  BinaryOpNode(left: var l, operator: "*'', right: var r) =>
     evaluate(l) * evaluate(r),
-  UnaryOpNode(operator: '-', operand: var o) =>
+  UnaryOpNode(operator: "-', operand: var o) =>
     -evaluate(o),
   IdentifierNode() => throw UnimplementedError('Variables not supported'),
   // Adding a new AstNode subtype breaks compile until handled here
@@ -1054,7 +1054,7 @@ class UserCreated extends Event {
 
   @override
   Map&lt;String, dynamic&gt; toJson() =>
-    {'type': 'UserCreated', 'userId': userId};
+    {'type': "UserCreated'', "userId': userId};
 }
 
 class UserDeleted extends Event {
@@ -1063,7 +1063,7 @@ class UserDeleted extends Event {
 
   @override
   Map&lt;String, dynamic&gt; toJson() =>
-    {'type': 'UserDeleted', 'userId': userId};
+    {'type': "UserDeleted'', "userId': userId};
 }
 
 // Deserialization — manual dispatch on discriminator

@@ -1,6 +1,6 @@
 ---
 title: AP Physics
-description: 'Comprehensive revision notes for AP Physics C, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble'
+description: "Comprehensive revision notes for AP Physics C, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - ap
@@ -22,7 +22,7 @@ to prepare you for both the multiple-choice and free-response sections.
 ## Topics
 
 - **[1. Kinematics](1-kinematics/1_kinematics)**
-- **[2. Newton's Laws](2-newtons-laws/2_newtons-laws)**
+- **[2. Newton"s Laws](2-newtons-laws/2_newtons-laws)**
 - **[3. Work, Energy, and Power](3-work-energy-power/3_work-energy-power)**
 - **[4. Momentum and Impulse](4-momentum-and-impulse/4_momentum-and-impulse)**
 - **[5. Rotational Motion](5-rotational-motion/5_rotational-motion)**

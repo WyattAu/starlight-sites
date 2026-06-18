@@ -1,6 +1,6 @@
 ---
 title: Born-Haber Cycles
-description: 'Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a Series of well-defined energetic steps. They allow the...'
+description: "Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a Series of well-defined energetic steps. They allow the...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -40,7 +40,7 @@ There are two conventions in use:
    positive).
 
 Always check which convention is being used in a given context. The sign difference is critical for
-Hess's Law calculations.
+Hess"s Law calculations.
 
 ## Born-Haber Cycle Construction
 

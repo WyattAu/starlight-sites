@@ -1,6 +1,6 @@
 ---
 title: Data Races and Critical Sections
-description: 'This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction...'
+description: "This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -60,7 +60,7 @@ These terms are often confused but have distinct meanings:
 | Fix mechanism               | Atomic operations or mutexes | Depends on the logic |
 
 A **data race** is a formal term in the C++ memory model. A **race condition** is a broader,
-Informal term for any situation where the program's outcome depends on the relative timing of
+Informal term for any situation where the program"s outcome depends on the relative timing of
 Threads. A race condition can occur even with proper synchronization (e.g., two threads both check
 `if (queue.empty())` before either pushes an element).
 

@@ -1,6 +1,6 @@
 ---
-title: 'Programming and OOP -- Diagnostic Tests'
-description: 'A-Level Computer Science Programming and OOP -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Programming and OOP -- Diagnostic Tests''
+description: "A-Level Computer Science Programming and OOP -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -124,7 +124,7 @@ SELECT s.name, s.student_id, AVG(a.score) AS average_score
 FROM Student s
 JOIN Course c ON s.course_id = c.course_id
 LEFT JOIN Assessment a ON s.student_id = a.student_id
-WHERE c.course_name = 'Computer Science'
+WHERE c.course_name = "Computer Science'
 GROUP BY s.student_id, s.name;
 ```
 

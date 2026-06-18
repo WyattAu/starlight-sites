@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: 'A-Level History Historical Skills notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
+description: "A-Level History Historical Skills notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.''
 ---
 
 # Historical Skills
@@ -51,7 +51,7 @@ a source should be read.
 
 - What events were happening at the time?
 - What was the political or cultural climate?
-- How does context affect the source's meaning or reliability?
+- How does context affect the source"s meaning or reliability?
 
 **Cross-referencing** — comparing a source with other sources or contextual knowledge to corroborate
 or challenge its claims.

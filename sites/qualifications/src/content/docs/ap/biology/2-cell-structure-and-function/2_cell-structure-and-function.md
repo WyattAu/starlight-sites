@@ -1,6 +1,6 @@
 ---
 title: Cell Structure and Function
-description: 'Qualifications Biology Cell Structure and Function notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+description: "Qualifications Biology Cell Structure and Function notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
 date: 2026-04-14
 tags:
   - ap
@@ -676,7 +676,7 @@ Host cell membrane.
 
 1. **Attachment:** The virus binds to specific receptors on the host cell surface.
 2. **Entry:** The virus enters the cell by endocytosis or membrane fusion.
-3. **Replication:** The viral genetic material is replicated using the host cell's machinery.
+3. **Replication:** The viral genetic material is replicated using the host cell"s machinery.
 4. **Assembly:** New viral particles are assembled from the replicated components.
 5. **Release:** The host cell lyses, releasing new viruses to infect other cells.
 

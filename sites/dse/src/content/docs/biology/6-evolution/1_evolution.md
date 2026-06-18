@@ -1,6 +1,6 @@
 ---
 title: Evolution
-description: 'The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene...'
+description: "The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -264,7 +264,7 @@ Allopatric speciation occurs when populations are geographically separated, prev
 
 **Evidence for allopatric speciation:**
 
-- Islands provide natural laboratories for allopatric speciation (e.g., Darwin's finches on the
+- Islands provide natural laboratories for allopatric speciation (e.g., Darwin"s finches on the
   Galapagos Islands)
 - The Kaibab squirrel and Abert's squirrel are similar species that live on opposite sides of the
   Grand Canyon and have evolved differences since the canyon formed

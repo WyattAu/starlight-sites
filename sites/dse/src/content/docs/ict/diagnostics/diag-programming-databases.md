@@ -1,6 +1,6 @@
 ---
-title: 'Programming and Databases -- Diagnostic Tests'
-description: 'DSE Ict Programming and Databases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Programming and Databases -- Diagnostic Tests''
+description: "DSE Ict Programming and Databases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -80,7 +80,7 @@ SELECT s.name, r.marks
 FROM Students s
 INNER JOIN Results r ON s.student_id = r.student_id
 INNER JOIN Exams e ON r.exam_id = e.exam_id
-WHERE e.subject = 'Mathematics' AND r.marks > 80;
+WHERE e.subject = "Mathematics' AND r.marks > 80;
 ```
 
 (b)

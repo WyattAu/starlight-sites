@@ -1,6 +1,6 @@
 ---
 title: Algorithm Design
-description: 'University Computer Science Algorithm Design notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+description: "University Computer Science Algorithm Design notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -68,7 +68,7 @@ PARTITION(A, l, r):
 
 **Not stable.** In-place (no extra memory beyond recursion stack).
 
-### 1.4 Strassen's Matrix Multiplication
+### 1.4 Strassen"s Matrix Multiplication
 
 Multiply two $n \times n$ matrices faster than the naive $O(n^3)$.
 

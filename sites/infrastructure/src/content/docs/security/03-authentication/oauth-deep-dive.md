@@ -1,6 +1,6 @@
 ---
 title: OAuth 2.0 Deep Dive
-description: 'OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user's resources on a resource server...'
+description: "OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user''s resources on a resource server..."
 
 ---
 
@@ -354,8 +354,8 @@ let accessToken = null;
 // On page load, use refresh token to get a new access token
 async function initializeAuth() {
   const response = await fetch('/api/auth/refresh', {
-    method: 'POST',
-    credentials: 'include', // sends httpOnly cookie
+    method: "POST'',
+    credentials: "include', // sends httpOnly cookie
   });
   const data = await response.json();
   accessToken = data.access_token;
@@ -371,11 +371,11 @@ DPoP (Demonstrating Proof-of-Possession) binds a token to a specific client:
 ```javascript
 // Create a DPoP proof for each request
 async function createDPoPProof(url, method) {
-  const jwk = await crypto.subtle.generateKey({ name: 'ECDSA', namedCurve: 'P-256' }, true, [
+  const jwk = await crypto.subtle.generateKey({ name: "ECDSA'', namedCurve: "P-256' }, true, [
     'sign',
   ]);
 
-  const header = { typ: 'dpop+jwt', jwk: exportJWK(jwk) };
+  const header = { typ: "dpop+jwt'', jwk: exportJWK(jwk) };
   const payload = {
     jti: crypto.randomUUID(),
     htu: url,
@@ -388,9 +388,9 @@ async function createDPoPProof(url, method) {
 }
 
 // Include DPoP header in every request
-fetch('/api/resource', {
+fetch("/api/resource', {
   headers: {
-    Authorization: 'Bearer xxx',
+    Authorization: "Bearer xxx'',
     DPoP: dpopProof,
   },
 });
@@ -404,7 +404,7 @@ def validate_token(token):
     claims = decode_jwt(token)
 
     # Validate issuer
-    if claims['iss'] != 'https://auth.example.com':
+    if claims["iss'] != 'https://auth.example.com':
         raise InvalidTokenError(f"Wrong issuer: {claims['iss']}")
 
     # Validate audience (token must be intended for your service)

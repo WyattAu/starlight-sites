@@ -3,7 +3,7 @@ title: Transport Layer
 tags:
   - Computing
   - University
-description: 'Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 5.1 UDP
@@ -225,7 +225,7 @@ $$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.
 
-:::caution Common Pitfall Karn's algorithm: do not update RTT estimates for retransmitted segments.
+:::caution Common Pitfall Karn"s algorithm: do not update RTT estimates for retransmitted segments.
 The ACK could correspond To either the original or the retransmission (retransmission ambiguity).
 
 <details>

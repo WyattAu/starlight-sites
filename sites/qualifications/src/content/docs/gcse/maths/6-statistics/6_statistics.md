@@ -1,6 +1,6 @@
 ---
 title: Statistics
-description: 'Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-04-14
 tags:
   - gcse
@@ -394,7 +394,7 @@ $$P(R \mid F) = \frac{P(R \cap F)}{P(F)} = \frac{6/30}{18/30} = \frac{6}{18} = \
 Items with 2% defective, shift B produces 35% with 3% defective, and shift C produces 25% with 1%
 Defective. An item is found to be defective. What is the probability it came from shift B?
 
-This is Bayes' theorem. Let $D$ be the event "defective" and $B$ be "from shift B".
+This is Bayes" theorem. Let $D$ be the event "defective" and $B$ be "from shift B".
 
 $$P(D) = 0.40 \times 0.02 + 0.35 \times 0.03 + 0.25 \times 0.01 = 0.008 + 0.0105 + 0.0025 = 0.021$$
 

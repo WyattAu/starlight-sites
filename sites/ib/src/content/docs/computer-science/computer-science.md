@@ -1,6 +1,6 @@
 ---
 title: Computer Science
-description: '- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the...'
+description: "- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the...''
 
 ---
 
@@ -196,7 +196,7 @@ def binary_search(data, target):
 Algorithm efficiency is measured in terms of **time complexity** (how the running time grows with
 Input size) and **space complexity** (how the memory usage grows with input size).
 
-**Big-O notation** describes the upper bound of an algorithm's growth rate:
+**Big-O notation** describes the upper bound of an algorithm"s growth rate:
 
 | Big-O      | Name        | Example                             |
 | ---------- | ----------- | ----------------------------------- |

@@ -1,6 +1,6 @@
 ---
-title: 'Cell Biology -- Diagnostic Tests'
-description: 'IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+title: "Cell Biology -- Diagnostic Tests''
+description: "IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."'
 tableOfContents: false
 ---
 
@@ -143,7 +143,7 @@ mitochondrial DNA is inherited maternally in most animals.
 Three pieces of evidence:
 
 1. **Double membrane structure:** Both mitochondria and chloroplasts have two membranes. The outer
-   membrane is thought to derive from the host cell's phagocytic vesicle, while the inner membrane
+   membrane is thought to derive from the host cell"s phagocytic vesicle, while the inner membrane
    derives from the original prokaryote's plasma membrane.
 
 2. **Own genome and ribosomes:** Mitochondria and chloroplasts contain circular DNA (like

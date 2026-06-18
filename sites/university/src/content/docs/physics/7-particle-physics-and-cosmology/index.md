@@ -3,7 +3,7 @@ title: Particle Physics and Cosmology
 tags:
   - Physics
   - University
-description: 'UNIVERSITY Physics notes: Particle Physics and Cosmology. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Physics notes: Particle Physics and Cosmology. Comprehensive study material with definitions, examples, and assessment tools.''
 ---
 
 # Particle Physics and Cosmology
@@ -38,7 +38,7 @@ University-level particle physics and cosmology notes covering the Standard Mode
 ## Prerequisites
 
 - Quantum mechanics (operators, perturbation theory)
-- Electromagnetism (Maxwell's equations, gauge invariance)
+- Electromagnetism (Maxwell"s equations, gauge invariance)
 - Special relativity (four-vectors, Lorentz transformations)
 - Statistical mechanics (thermal physics, thermodynamics)
 

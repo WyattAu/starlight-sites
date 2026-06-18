@@ -1,6 +1,6 @@
 ---
-title: 'Ecology -- Diagnostic Tests'
-description: 'A food chain in a woodland ecosystem is: oak tree caterpillar blue tit Comprehensive educational content coverage with definitions and practice problems.'
+title: "Ecology -- Diagnostic Tests''
+description: "A food chain in a woodland ecosystem is: oak tree caterpillar blue tit Comprehensive educational content coverage with definitions and practice problems."'
 tableOfContents: false
 ---
 
@@ -163,7 +163,7 @@ carbonate shells. (d) Describe two biological consequences of global warming on 
 **Solution:**
 
 (a) **Greenhouse effect mechanism:** CO$_2$ (and other greenhouse gases like methane and water
-vapour) in the atmosphere absorb infrared radiation (heat) emitted by the Earth's surface. This
+vapour) in the atmosphere absorb infrared radiation (heat) emitted by the Earth"s surface. This
 radiation would otherwise escape to space. The absorbed heat is re-radiated in all directions,
 including back towards the Earth's surface, warming the planet. Increasing CO$_2$ concentration
 increases the greenhouse effect, trapping more heat and raising global temperatures.

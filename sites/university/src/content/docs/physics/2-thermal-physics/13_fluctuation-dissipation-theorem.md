@@ -3,7 +3,7 @@ title: Fluctuation-Dissipation Theorem
 tags:
   - Physics
   - University
-description: 'The (FDT) connects the response of a system to a small perturbation with the spontaneous fluctuations of the system at equilibrium.'
+description: "The (FDT) connects the response of a system to a small perturbation with the spontaneous fluctuations of the system at equilibrium.''
 ---
 
 ### 13.1 Linear Response Theory
@@ -18,7 +18,7 @@ $$\mathcal{H}(t) = \mathcal{H}_0 - f(t)A$$
 Where $A$ is an observable conjugate to the field $f(t)$. The change in $\langle A(t) \rangle$ to
 first order in $f$ is:
 
-$$\langle A(t) \rangle - \langle A \rangle_0 = \int_{-\infty}^{t} \chi_{AA}(t - t')\, f(t')\, dt'$$
+$$\langle A(t) \rangle - \langle A \rangle_0 = \int_{-\infty}^{t} \chi_{AA}(t - t")\, f(t')\, dt'$$
 
 Where the **response function** is:
 

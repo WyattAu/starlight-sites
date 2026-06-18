@@ -1,6 +1,6 @@
 ---
 title: Geographic Skills
-description: 'Map scale expresses the relationship between distance on the map and distance on the ground. There are three representations:'
+description: "Map scale expresses the relationship between distance on the map and distance on the ground. There are three representations: "''
 
 ---
 
@@ -68,7 +68,7 @@ Primary data is collected firsthand by the researcher through fieldwork. Methods
 | Method         | Description                                                                                               | Strengths                                                                  | Limitations                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Questionnaires | Structured or semi-structured surveys administered in person, by post, or online                          | Can collect large volumes of data; standardised questions allow comparison | Response bias; low response rates; leading questions can distort results  |
-| Observations   | Systematic recording of phenomena (e.g., traffic counts, land-use mapping, environmental quality surveys) | Direct; no reliance on respondents' recall or honesty                      | Observer bias; time-consuming; may not capture underlying causes          |
+| Observations   | Systematic recording of phenomena (e.g., traffic counts, land-use mapping, environmental quality surveys) | Direct; no reliance on respondents" recall or honesty                      | Observer bias; time-consuming; may not capture underlying causes          |
 | Measurements   | Quantitative data collected using instruments (e.g., temperature, pH, flow velocity, pebble size)         | Objective; replicable; precise                                             | Equipment errors; sampling may not be representative                      |
 | Interviews     | In-depth, open-ended questioning of individuals                                                           | Rich qualitative data; can explore complex issues                          | Difficult to analyse systematically; small sample sizes; interviewee bias |
 | Field sketches | Annotated drawings of landscapes, land use, or features                                                   | Quick; captures spatial relationships; low cost                            | Subjective; limited precision                                             |
@@ -177,7 +177,7 @@ outliers.
 Inferential statistics allow researchers to draw conclusions about a population based on a sample,
 and to test hypotheses about relationships between variables.
 
-**Spearman's Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
+**Spearman"s Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
 strength and direction of the association between two ranked variables. The formula is:
 
 $$r_s = 1 - \frac{6 \sum{d_i^2}}{n(n^2 - 1)}$$

@@ -1,6 +1,6 @@
 ---
 title: Chemistry - Chemical Equilibrium
-description: 'A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble'
+description: "A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble''
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
@@ -33,7 +33,7 @@ Dynamic equilibrium is established when:
 > **Caution:** Warning (e.g., a gas leaving an open container), equilibrium will never be reached.
 ---
 
-## Le Chatelier's Principle
+## Le Chatelier"s Principle
 
 ### Statement
 

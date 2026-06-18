@@ -1,6 +1,6 @@
 ---
 title: Networks
-description: 'Rigorous IB computer science notes covering Networks. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB computer science notes covering Networks. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - CS
@@ -340,7 +340,7 @@ Authorised parties with the correct key can decrypt the data.
 
 ### Digital Signatures and Certificates
 
-- A **digital signature** is created by encrypting a hash of a message with the sender's private
+- A **digital signature** is created by encrypting a hash of a message with the sender"s private
   key. The recipient can verify it using the sender's public key.
 - A **digital certificate** binds a public key to an identity, issued by a trusted **Certificate
   Authority (CA)** (e.g. VeriSign, Let's Encrypt). This prevents man-in-the-middle attacks.

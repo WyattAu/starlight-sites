@@ -1,6 +1,6 @@
 ---
 title: Setting Up Home Server
-description: 'For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems.'
+description: "For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2025-07-11T17:57:30.362Z
 tags:
   - OS
@@ -141,7 +141,7 @@ Important ZFS pool design rules:
 - **Never mix drive sizes** within a VDEV (all drives in a VDEV should be the same size)
 - **You can add VDEVs** to a pool (striping across them), but you **cannot remove** a VDEV from a
   pool
-- A pool's IOPS is determined by the slowest VDEV
+- A pool"s IOPS is determined by the slowest VDEV
 - Plan your pool layout carefully — resizing later is limited
 
 ### Dataset Creation

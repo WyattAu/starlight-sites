@@ -3,7 +3,7 @@ title: Subgroups
 tags:
   - Mathematics
   - University
-description: 'A of is a subset that is itself a group under the operation of Comprehensive educational content coverage with definitions and practice problems.'
+description: "A of is a subset that is itself a group under the operation of Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 2.1 Definition and Criterion
@@ -86,7 +86,7 @@ _Solution._ First, $H$ is a subgroup of $(\mathbb{Z}, +)$: it is non-empty
 ($0 = 5 \cdot 0 - 3 \cdot 0 \in H$), And if $a = 5k_1 - 3m_1$ and $b = 5k_2 - 3m_2$Then
 $a - b = 5(k_1 - k_2) - 3(m_1 - m_2) \in H$.
 
-Since $\gcd(5, 3) = 1$By Bezout's identity there exist $k, m \in \mathbb{Z}$ with $5k - 3m = 1$ So
+Since $\gcd(5, 3) = 1$By Bezout"s identity there exist $k, m \in \mathbb{Z}$ with $5k - 3m = 1$ So
 $1 \in H$. Therefore $H = \langle 1 \rangle = \mathbb{Z}$. $\blacksquare$
 
 </details>

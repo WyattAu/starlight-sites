@@ -1,6 +1,6 @@
 ---
-title: 'Quantitative Chemistry -- Diagnostic Tests'
-description: 'A-Level Quantitative Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Quantitative Chemistry -- Diagnostic Tests''
+description: "A-Level Quantitative Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -235,7 +235,7 @@ $\text{BaCl}_2$.
 
 (b) The enthalpy of solution of anhydrous $\text{BaCl}_2$ is $-13.2\,\text{kJ mol}^{-1}$While the
 enthalpy of solution of $\text{BaCl}_2 \cdot 2\text{H}_2\text{O}$ is $+8.8\,\text{kJ mol}^{-1}$. Use
-a Hess's law cycle to calculate the enthalpy change for the reaction:
+a Hess"s law cycle to calculate the enthalpy change for the reaction:
 
 $$\text{BaCl}_2(s) + 2\text{H}_2\text{O}(l) \to \text{BaCl}_2 \cdot 2\text{H}_2\text{O}(s)$$
 

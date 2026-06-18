@@ -1,6 +1,6 @@
 ---
-title: 'Chemical Kinetics -- Diagnostic Tests'
-description: 'A-Level Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Chemical Kinetics -- Diagnostic Tests''
+description: "A-Level Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -283,7 +283,7 @@ $[A] = [B] = 0.167\,\text{mol dm}^{-3}$, $[C] = [D] = 0.333\,\text{mol dm}^{-3}$
 reaction is more favoured. Since $K_c = k_f/k_r$And $K_c$ has increased:
 
 - Either $k_f$ has increased, or $k_r$ has decreased, or both.
-- Since $K_c$ increased with temperature, the forward reaction is **endothermic** (Le Chatelier's
+- Since $K_c$ increased with temperature, the forward reaction is **endothermic** (Le Chatelier"s
   principle: increasing temperature favours the endothermic direction).
 - Both rate constants increase with temperature (Arrhenius), but $k_f$ increases proportionally more
   than $k_r$So the ratio $k_f/k_r$ increases.

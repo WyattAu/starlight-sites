@@ -1,6 +1,6 @@
 ---
 title: Parallel Algorithms
-description: 'C++17 introduced execution policies that enable many standard algorithms to run in parallel across Multiple threads. This section covers the three standard...'
+description: "C++17 introduced execution policies that enable many standard algorithms to run in parallel across Multiple threads. This section covers the three standard...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -39,7 +39,7 @@ Specifies constraints on element access functions:
 - **`par`**: The element access function may be invoked concurrently from multiple threads. The
   standard imposes no ordering guarantee on invocations. The implementation may partition the input
   range and process each partition in a separate thread. Data races in the user function are the
-  caller's responsibility.
+  caller"s responsibility.
 
 - **`par_unseq`**: In addition to `par` semantics, the element access function may be vectorized ---
   that is, multiple elements may be processed within a single thread using SIMD instructions (e.g.,

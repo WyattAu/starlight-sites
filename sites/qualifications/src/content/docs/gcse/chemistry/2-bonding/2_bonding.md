@@ -1,6 +1,6 @@
 ---
 title: Bonding
-description: 'occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions...'
+description: "occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions...''
 date: 2026-04-14
 tags:
   - gcse
@@ -163,7 +163,7 @@ Needed: Ca(NO$_3$)$_2$Not CaNO$\_3$2.
 ### 1.6 Derivation: Why Ionic Compounds Have High Melting Points
 
 The melting point of an ionic compound depends on the strength of the electrostatic forces between
-Ions, given by Coulomb's law:
+Ions, given by Coulomb"s law:
 
 $$F \propto \frac{q_1 \cdot q_2}{r^2}$$
 

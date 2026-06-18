@@ -1,6 +1,6 @@
 ---
 title: Calling Conventions and Stack Management
-description: 'The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,...'
+description: "The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -134,7 +134,7 @@ At function entry, the x86-64 stack frame looks like:
 ```
 High Addresses
 ┌──────────────────────┐
-│  Caller's frame      │
+│  Caller"s frame      │
 ├──────────────────────┤
 │  Return address (8B) │  ← pushed by CALL instruction
 ├──────────────────────┤
@@ -222,7 +222,7 @@ Signal handlers and interrupt contexts may clobber the red zone. Compiler flags 
 
 ```cpp
 // Leaf function: no CALL instruction, may use the red zone
-// $ g++ -O2 -S -o - redzone.cpp | grep -A5 'leaf_fn:'
+// $ g++ -O2 -S -o - redzone.cpp | grep -A5 'leaf_fn: "
 extern "C" int64_t leaf_fn(int64_t a, int64_t b) {
     return a + b + 1;
 }
@@ -308,7 +308,7 @@ The shadow space serves two purposes in the Microsoft x64 ABI:
 
 1. **Debugging:** A debugger can always find the first four arguments on the stack, even if the
    callee has already consumed the register values. Without shadow space, the debugger would need to
-   unwind to the caller's frame to retrieve original argument values.
+   unwind to the caller''s frame to retrieve original argument values.
 2. **Register spilling:** The callee can spill register arguments to the shadow space without
    additional stack allocation. This simplifies register pressure management in the callee.
 
@@ -433,7 +433,7 @@ onto the stack in the prologue and popping it in the epilogue).
 
 ### Proof of Callee-Save Necessity
 
-**Claim:** If a callee modifies a callee-saved register without restoring it, the caller's invariant
+**Claim:** If a callee modifies a callee-saved register without restoring it, the caller"s invariant
 On that register is violated.
 
 **Proof:**

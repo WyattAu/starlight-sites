@@ -1,8 +1,8 @@
 ---
 title: Style and Patterns
-description: 'Naming is the single most visible signal of code quality. Java naming conventions are codified in The JLS and further elaborated in the Java Language Style...'
+description: "Naming is the single most visible signal of code quality. Java naming conventions are codified in The JLS and further elaborated in the Java Language Style...''
 date: 2025-06-05T16:00:00.000Z
-tags: ['java']
+tags: ["java']
 categories: ['java']
 
 ---

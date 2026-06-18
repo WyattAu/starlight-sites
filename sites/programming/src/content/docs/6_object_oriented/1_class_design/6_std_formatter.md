@@ -1,6 +1,6 @@
 ---
 title: Custom Formatting with std::formatter
-description: 'C++20 introduced Providing type-safe text formatting through . To enable Formatting for user-defined types, you specialize in namespace . This section...'
+description: "C++20 introduced Providing type-safe text formatting through . To enable Formatting for user-defined types, you specialize in namespace . This section...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -40,7 +40,7 @@ template<>
 struct std::formatter<Color, char> {
     constexpr auto parse(format_parse_context& ctx) {
         auto it = ctx.begin();
-        if (it != ctx.end() && *it != '}')
+        if (it != ctx.end() && *it != "}')
             throw std::format_error("invalid format specifier for Color");
         return it;
     }

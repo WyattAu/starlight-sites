@@ -1,6 +1,6 @@
 ---
-title: 'Computer Networks -- Diagnostic Tests'
-description: 'A-Level Computer Science Computer Networks -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Computer Networks -- Diagnostic Tests''
+description: "A-Level Computer Science Computer Networks -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -103,7 +103,7 @@ efficient for bulk data. Key distribution problem: both parties must share the s
 secret). Data encrypted with the public key can only be decrypted with the private key, and vice
 versa. Slower than symmetric encryption but solves the key distribution problem.
 
-(1) **Secure message sending:** Use the colleague's **public key** (asymmetric) to encrypt the
+(1) **Secure message sending:** Use the colleague"s **public key** (asymmetric) to encrypt the
 message. Only the colleague's private key can decrypt it. For efficiency with large messages, use
 hybrid encryption: generate a random symmetric session key, encrypt the message with it (AES), then
 encrypt the session key with the colleague's public key (RSA). Send both.

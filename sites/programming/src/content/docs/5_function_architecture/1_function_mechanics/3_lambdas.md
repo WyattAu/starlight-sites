@@ -1,6 +1,6 @@
 ---
 title: Lambda Expressions — Capture Layouts and Closure Types
-description: 'A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic...'
+description: "A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -20,7 +20,7 @@ Lifetime issues, and the overhead of type erasure via `std::function`.
 A lambda expression produces a **closure object** — an unnamed object of an unnamed class type (the
 Closure type). The closure type contains:
 
-- A public inline `operator()` corresponding to the lambda's parameters and body.
+- A public inline `operator()` corresponding to the lambda"s parameters and body.
 - Data members corresponding to each captured entity.
 - A constructor (since C++14, lambdas are default-constructible if no captures are used).
 - A closure type is not a struct/class in the traditional sense but behaves as one.

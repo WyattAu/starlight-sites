@@ -1,6 +1,6 @@
 ---
 title: Population Policies
-description: 'Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target...'
+description: "Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target...''
 
 ---
 
@@ -25,7 +25,7 @@ Anti-natalist policies aim to reduce fertility rates, in response to rapid popul
 strains resources, infrastructure, and public services. They may employ a combination of
 Information, incentive, and coercion.
 
-### China's One-Child Policy (1979--2015)
+### China"s One-Child Policy (1979--2015)
 
 The one-child policy was the most extensive and controversial anti-natalist policy in history.
 

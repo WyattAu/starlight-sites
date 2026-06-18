@@ -5,7 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: 'This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,...'
+description: "This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,...''
 ---
 
 ## Overview
@@ -444,7 +444,7 @@ The final price is \$54.
 
 ### Problem 15: Unit Conversions
 
-A car's fuel efficiency is 12 kilometres per litre. If petrol costs \$1.45 per litre, what is the
+A car"s fuel efficiency is 12 kilometres per litre. If petrol costs \$1.45 per litre, what is the
 approximate cost per kilometre to drive this car? (Round to the nearest cent.)
 
 **Solution:**

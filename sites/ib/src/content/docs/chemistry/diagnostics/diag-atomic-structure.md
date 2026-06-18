@@ -1,6 +1,6 @@
 ---
-title: 'Atomic Structure and Atomic Theory -- Diagnostic Tests'
-description: 'IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Atomic Structure and Atomic Theory -- Diagnostic Tests''
+description: "IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -34,7 +34,7 @@ configuration. How many electrons maximum can occupy the $n = 3$ shell, and why?
 
 **Solution:** The $2p$ subshell has
 $n = 2$$\ell = 1$$m_\ell \in \{-1, 0, +1\}$$m_s = \pm \tfrac{1}{2}$. With four electrons, applying
-Hund's rule (maximum multiplicity first):
+Hund"s rule (maximum multiplicity first):
 
 | Electron | $n$ | $\ell$ | $m_\ell$ | $m_s$           |
 | -------- | --- | ------ | -------- | --------------- |

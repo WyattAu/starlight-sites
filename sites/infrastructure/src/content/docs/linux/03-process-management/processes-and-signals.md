@@ -1,6 +1,6 @@
 ---
 title: Processes and Signals
-description: 'Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The...'
+description: "Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The...''
 
 ---
 
@@ -26,7 +26,7 @@ sequenceDiagram
     Kernel-->>Child: Returns 0
     Note over Parent,Child: Both processes execute from here
     Child->>Kernel: exec("/bin/program")
-    Note over Child: Child's memory replaced with new program
+    Note over Child: Child"s memory replaced with new program
     Parent->>Kernel: waitpid(child_pid)
     Kernel-->>Parent: Returns child exit status
 ```

@@ -1,6 +1,6 @@
 ---
 title: Web Development and Multimedia
-description: 'This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia...'
+description: "This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -423,7 +423,7 @@ External stylesheets are the recommended approach for maintainability, caching, 
 ### Variables
 
 ```javascript
-var oldStyle = 'function-scoped'; // Legacy, avoid in modern code
+var oldStyle = "function-scoped'; // Legacy, avoid in modern code
 let counter = 0; // Block-scoped, reassignable
 const PI = 3.14159; // Block-scoped, cannot be reassigned
 ```
@@ -545,17 +545,17 @@ document.getElementById('myButton').addEventListener('click', function () {
 
 // Event object
 document.getElementById('myInput').addEventListener('keyup', function (event) {
-  console.log('Key pressed: ' + event.key);
+  console.log('Key pressed: " + event.key);
 });
 
 // Form submission
-document.getElementById('myForm').addEventListener('submit', function (event) {
+document.getElementById(''myForm").addEventListener('submit', function (event) {
   event.preventDefault(); // prevent page reload
   var name = document.getElementById('nameInput').value;
   if (name === '') {
     alert('Name is required!');
   } else {
-    alert('Form submitted: ' + name);
+    alert('Form submitted: " + name);
   }
 });
 ```
@@ -615,7 +615,7 @@ scores.sort(function (a, b) {
 
 | Hosting Type         | Description                                               | Cost     | Performance | Control      | Suitable For                 |
 | -------------------- | --------------------------------------------------------- | -------- | ----------- | ------------ | ---------------------------- |
-| **Shared hosting**   | Multiple websites share one server's resources            | Low      | Low-Medium  | Limited      | Small sites, beginners       |
+| **Shared hosting**   | Multiple websites share one server''s resources            | Low      | Low-Medium  | Limited      | Small sites, beginners       |
 | **VPS**              | Virtual Private Server -- partitioned dedicated resources | Medium   | Medium      | High         | Growing sites, custom config |
 | **Dedicated server** | Entire physical server for one client                     | High     | High        | Full         | High-traffic, enterprise     |
 | **Cloud hosting**    | Resources distributed across multiple servers (scalable)  | Variable | Scalable    | Medium-High  | Variable traffic, apps       |
@@ -624,7 +624,7 @@ scores.sort(function (a, b) {
 ### Domain Name Registration Process
 
 1. **Choose a domain name:** Select a name that is memorable, relevant, and available.
-2. **Check availability:** Use a domain registrar's search tool to verify the name is not already
+2. **Check availability:** Use a domain registrar"s search tool to verify the name is not already
    registered.
 3. **Choose a TLD:** Select the appropriate top-level domain (`.com``.org``.edu``.hk`Etc.).
 4. **Register with a registrar:** Use an accredited registrar (e.g., GoDaddy, Namecheap, HKDNR for
@@ -953,14 +953,14 @@ var counterElement = document.getElementById('counter');
 
 counterElement.addEventListener('click', function () {
   count++;
-  counterElement.textContent = 'Count: ' + count;
+  counterElement.textContent = 'Count: " + count;
 });
 ```
 
 (b)
 
 ```javascript
-document.getElementById('loginForm').addEventListener('submit', function (event) {
+document.getElementById(''loginForm").addEventListener('submit', function (event) {
   var password = document.getElementById('pass').value;
   if (password.length < 8) {
     event.preventDefault();

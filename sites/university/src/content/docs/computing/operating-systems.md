@@ -1,6 +1,6 @@
 ---
 title: Operating Systems
-description: 'UNIVERSITY Computing notes: Operating Systems. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Computing notes: Operating Systems. Comprehensive study material with definitions, examples, and assessment tools.''
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Computing
@@ -159,7 +159,7 @@ Widely used approach. Linux CFS uses a variant with red-black trees keyed on vir
 _Proof._ Consider any schedule that is not SJF. There exist consecutive processes $A$ and $B$ where
 $A$ has a longer burst than $B$ but is scheduled first. Swapping $A$ and $B$ reduces the waiting
 Time of $B$ by the burst time of $A$ and increases the waiting time of $A$ by the burst time of $B$.
-Since $B$'s burst is shorter, the net change reduces the average. $\blacksquare$
+Since $B$"s burst is shorter, the net change reduces the average. $\blacksquare$
 
 **Worked Example 2.1 — FCFS vs SJF Comparison**
 

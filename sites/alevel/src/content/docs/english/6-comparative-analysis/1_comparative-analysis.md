@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: 'A-Level English Comparative Analysis notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.'
+description: "A-Level English Comparative Analysis notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.''
 
 ---
 
@@ -39,7 +39,7 @@ Comparison serves several analytical purposes:
 - **Highlights authorial choices** — When two writers approach the same subject differently, the
   contrast is analytically rich
 - **Tests critical approaches** — A feminist reading might work differently on two texts, revealing
-  the approach's strengths and limitations
+  the approach"s strengths and limitations
 - **Develops argument** — Comparison forces you to make judgements about relative emphasis,
   significance, and effectiveness
 

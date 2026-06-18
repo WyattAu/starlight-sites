@@ -1,6 +1,6 @@
 ---
 title: Introduction to Git
-description: 'Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a...'
+description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a...''
 date: 2025-06-02T21:50:00.000Z
 tags:
   - git
@@ -21,7 +21,7 @@ Repository** with complete history. There is no intrinsic distinction between a 
 Git was created by Linus Torvalds in 2005 to manage the Linux kernel source tree after the
 Proprietary license for BitKeeper was revoked. The design constraints of the Linux kernel project
 (millions of lines of code, thousands of contributors, high concurrency of merges) fundamentally
-Shaped Git's architecture.
+Shaped Git"s architecture.
 
 :::info
 

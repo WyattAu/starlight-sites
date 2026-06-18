@@ -1,6 +1,6 @@
 ---
 title: Social Identity Theory
-description: 'Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It...'
+description: "Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It...''
 
 ---
 
@@ -17,7 +17,7 @@ Behaviour, including prejudice, discrimination, and cooperation.
 
 Tajfel and Turner distinguished between two levels of identity:
 
-- **Personal identity:** The individual's unique characteristics, traits, abilities, and personal
+- **Personal identity:** The individual"s unique characteristics, traits, abilities, and personal
   attributes. This is the sense of self that distinguishes the individual from all other
   individuals.
 - **Social identity:** The individual's sense of who they are based on their group membership(s).

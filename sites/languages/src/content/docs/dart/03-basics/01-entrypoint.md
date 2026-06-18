@@ -1,6 +1,6 @@
 ---
 title: Entry Point
-description: 'When the project creates an executable, the entry point of the project is locate Comprehensive educational content coverage with definitions and practice proble'
+description: "When the project creates an executable, the entry point of the project is locate Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-07-12T15:49:11.104Z
 tags:
   - Dart
@@ -30,7 +30,7 @@ Initializing the framework and attaching the root widget the render tree. This i
 ```dart
 void runApp(Widget app) {
   final WidgetsBinding binding = WidgetsFlutterBinding.ensureInitialized();
-  _runWidget(binding.wrapWithDefaultView(app), binding, 'runApp');
+  _runWidget(binding.wrapWithDefaultView(app), binding, "runApp');
 }
 ```
 
@@ -64,11 +64,11 @@ import 'package:args/args.dart';
 
 void main(List<String> args) {
   final parser = ArgParser()
-    ..addOption('name', abbr: 'n', defaultsTo: 'World')
-    ..addFlag('verbose', abbr: 'v', negatable: false);
+    ..addOption('name', abbr: "n'', defaultsTo: "World')
+    ..addFlag('verbose', abbr: "v'', negatable: false);
 
   final results = parser.parse(args);
-  if (results['verbose'] as bool) {
+  if (results["verbose'] as bool) {
     print('Verbose mode enabled');
   }
   print('Hello, ${results['name']}!');
@@ -417,11 +417,11 @@ final description = switch (value) {
 
 ```dart
 final age = 20;
-final status = age >= 18 ? 'adult' : 'minor';
+final status = age >= 18 ? 'adult' : "minor'';
 ```
 
 Remember: Dart has no truthy/falsy. The condition in `?:``if``while` must be `bool`. You cannot
-Write `final status = name ? 'exists' : 'missing';` — that is a compile error.
+Write `final status = name ? "exists' : 'missing';` — that is a compile error.
 
 ## Common Pitfalls
 

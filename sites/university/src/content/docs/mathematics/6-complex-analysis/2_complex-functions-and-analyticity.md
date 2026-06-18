@@ -3,7 +3,7 @@ title: Complex Functions and Analyticity
 tags:
   - Mathematics
   - University
-description: 'Complex Functions and Analyticity: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Complex Functions and Analyticity: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 2.1 Complex Functions
@@ -51,7 +51,7 @@ zero). If we define $f(1) = 2$Then $f$ becomes continuous at $z = 1$.
 
 **Definition.** $f$ is **differentiable** at $z_0$ if
 
-$$f'(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
+$$f"(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}$$
 
 Exists (and is independent of how $h \to 0$ in $\mathbb{C}$).
 

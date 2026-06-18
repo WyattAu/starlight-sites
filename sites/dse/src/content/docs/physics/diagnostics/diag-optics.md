@@ -1,6 +1,6 @@
 ---
-title: 'Optics -- Diagnostic Tests'
-description: 'DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Optics -- Diagnostic Tests''
+description: "DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -69,7 +69,7 @@ emergence.
 
 **Step 1: Refraction at the hypotenuse (entry):**
 
-Using Snell's law at the hypotenuse:
+Using Snell"s law at the hypotenuse:
 
 $$n_{\text{air}} \sin 30° = n_{\text{glass}} \sin r_1$$
 

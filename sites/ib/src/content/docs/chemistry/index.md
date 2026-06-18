@@ -1,6 +1,6 @@
 ---
 title: IB Chemistry
-description: 'Complete IB Chemistry revision notes covering stoichiometry, atomic theory, bonding, thermodynamics, kinetics, equilibrium, acids and bases, redox, and organic'
+description: "Complete IB Chemistry revision notes covering stoichiometry, atomic theory, bonding, thermodynamics, kinetics, equilibrium, acids and bases, redox, and organic''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -40,7 +40,7 @@ pitfalls, and exam-style problems.
 
 ### Energetics and Kinetics
 
-- **[Thermochemistry](./5-energetics/1_thermochemistry)** — Enthalpy, Hess's law, bond enthalpies,
+- **[Thermochemistry](./5-energetics/1_thermochemistry)** — Enthalpy, Hess"s law, bond enthalpies,
   calorimetry, and energy cycles
 - **[Chemical Kinetics](./6-kinetics/1_chemical-kinetics)** — Rate of reaction, rate equations,
   activation energy, and collision theory

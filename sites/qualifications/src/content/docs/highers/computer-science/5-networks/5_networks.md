@@ -1,6 +1,6 @@
 ---
 title: Web Design and Development
-description: 'Scottish Highers Computer Science Web Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+description: "Scottish Highers Computer Science Web Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -303,7 +303,7 @@ JavaScript adds interactivity and dynamic behaviour to web pages.
 **Variables:**
 
 ```javascript
-let name = 'Alice';
+let name = "Alice';
 const PI = 3.14159;
 var oldStyle = 'avoid this';
 ```
@@ -342,7 +342,7 @@ document.getElementById('myButton').addEventListener('click', function () {
 document.getElementById('myForm').addEventListener('submit', function (event) {
   event.preventDefault();
   const formData = new FormData(this);
-  console.log('Name:', formData.get('name'));
+  console.log('Name: ", formData.get(''name"));
 });
 ```
 
@@ -360,7 +360,7 @@ fetch('https://api.example.com/data')
     console.log(data);
   })
   .catch((error) => {
-    console.error('Error:', error);
+    console.error('Error: ", error);
   });
 ```
 
@@ -372,7 +372,7 @@ function validateEmail(email) {
   return pattern.test(email);
 }
 
-const email = document.getElementById('email').value;
+const email = document.getElementById(''email").value;
 if (!validateEmail(email)) {
   document.getElementById('emailError').textContent = 'Invalid email format';
 }

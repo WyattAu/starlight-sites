@@ -1,6 +1,6 @@
 ---
-title: 'Molecular Biology -- Diagnostic Tests'
-description: 'IB Molecular Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+title: "Molecular Biology -- Diagnostic Tests''
+description: "IB Molecular Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
 tableOfContents: false
 ---
 
@@ -26,7 +26,7 @@ Since both forks operate simultaneously, minimum replication time
 $= 2300\ \text{s} \approx 38\ \text{min}$.
 
 The lagging strand is synthesised in the opposite direction to fork movement because DNA polymerase
-can only add nucleotides in the 5' to 3' direction. As the replication fork opens, the template
+can only add nucleotides in the 5" to 3' direction. As the replication fork opens, the template
 strand for the lagging strand is oriented 3' to 5' (reading 5' to 3'), meaning synthesis must occur
 away from the fork. Short Okazaki fragments ($1000$--$2000\ \text{bp}$ in bacteria,
 $100$--$200\ \text{bp}$ in eukaryotes) are initiated by RNA primers and extended by DNA pol III.

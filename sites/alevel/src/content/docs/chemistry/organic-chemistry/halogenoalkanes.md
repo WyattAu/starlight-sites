@@ -1,6 +1,6 @@
 ---
 title: Halogenoalkanes
-description: 'Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an Alkane have been replaced by a halogen atom. The general...'
+description: "Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an Alkane have been replaced by a halogen atom. The general...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -160,7 +160,7 @@ $$
 - **Tertiary substrate:** Tertiary halogenoalkanes are heavily sterically hindered for SN2 and form
   stable carbocations for E1/E2.
 
-### Zaitsev's Rule
+### Zaitsev"s Rule
 
 When multiple elimination products are possible, the major product is the more substituted alkene
 (the alkene with the greater number of alkyl groups on the C=C double bond). This is because more

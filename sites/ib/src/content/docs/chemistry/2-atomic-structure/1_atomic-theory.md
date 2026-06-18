@@ -1,6 +1,6 @@
 ---
 title: Atomic Theory
-description: 'IB Chemistry — atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties.'
+description: "IB Chemistry — atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -8,7 +8,7 @@ tags:
 
 ## 1. Historical Development of Atomic Theory
 
-### Dalton's Atomic Theory (1803)
+### Dalton"s Atomic Theory (1803)
 
 John Dalton proposed that:
 

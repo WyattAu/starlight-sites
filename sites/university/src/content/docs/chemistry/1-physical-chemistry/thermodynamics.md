@@ -1,6 +1,6 @@
 ---
 title: Thermodynamics
-description: 'University Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.'
+description: "University Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -85,7 +85,7 @@ $\blacksquare$
 
 $$S = k_B \ln W$$
 
-where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
+where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
 
 For $N$ distinguishable particles with $n_i$ in each energy level $\varepsilon_i$:
 

@@ -1,6 +1,6 @@
 ---
 title: Statistical Distributions
-description: '| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial and normal in P1; Poisson in...'
+description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial and normal in P1; Poisson in...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -159,7 +159,7 @@ $$f(x) = \frac◆LB◆1◆RB◆◆LB◆\sigma\sqrt{2\pi}◆RB◆\,e^{-\frac◆LB
 
 If $X \sim N(\mu, \sigma^2)$Then $Z = \dfrac◆LB◆X - \mu◆RB◆◆LB◆\sigma◆RB◆ \sim N(0, 1)$.
 
-Probabilities are found using the standard normal table or a calculator's inverse normal function.
+Probabilities are found using the standard normal table or a calculator"s inverse normal function.
 
 ### 3.5 Finding probabilities
 

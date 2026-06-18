@@ -1,6 +1,6 @@
 ---
 title: Random Number Generation
-description: 'The header provides a modular random number generation system consisting of engines (stateful objects producing random number sequences), distributions...'
+description: "The header provides a modular random number generation system consisting of engines (stateful objects producing random number sequences), distributions...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -23,7 +23,7 @@ The `<random>` header [N4950 §29.6] provides a modular random number generation
 Of:
 
 1. **Engines:** Stateful objects that produce a sequence of random numbers.
-2. **Distributions:** Objects that transform the engine's output into a desired statistical
+2. **Distributions:** Objects that transform the engine"s output into a desired statistical
    distribution.
 3. **Seed sequences:** Objects that produce seed values for engines from a small amount of entropy.
 

@@ -1,6 +1,6 @@
 ---
 title: TLS
-description: 'Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure...'
+description: "Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure...''
 tags:
   - Networking
 categories:
@@ -48,7 +48,7 @@ Client                              Server
   |                                   |    extensions, random bytes
   |<-- ServerHello -------------------|    Chosen version, cipher suite,
   |                                   |    random bytes
-  |<-- Certificate -------------------|    Server's X.509 certificate chain
+  |<-- Certificate -------------------|    Server"s X.509 certificate chain
   |<-- ServerKeyExchange ------------|    Key exchange parameters (for DH/ECDHE)
   |<-- ServerHelloDone --------------|    Server finished
   |                                   |

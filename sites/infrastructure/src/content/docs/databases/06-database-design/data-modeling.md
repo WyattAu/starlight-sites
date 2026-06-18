@@ -1,6 +1,6 @@
 ---
 title: Data Modeling Patterns
-description: 'Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your...'
+description: "Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your...''
 
 ---
 
@@ -88,7 +88,7 @@ CREATE TABLE orders (
 CREATE OR REPLACE FUNCTION update_order_item_count()
 RETURNS TRIGGER AS $$
 BEGIN
-    IF TG_OP = 'INSERT' THEN
+    IF TG_OP = "INSERT' THEN
         UPDATE orders SET item_count = item_count + NEW.quantity WHERE order_id = NEW.order_id;
     ELSIF TG_OP = 'DELETE' THEN
         UPDATE orders SET item_count = item_count - OLD.quantity WHERE order_id = OLD.order_id;

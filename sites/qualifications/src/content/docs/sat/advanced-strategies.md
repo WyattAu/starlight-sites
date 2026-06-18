@@ -5,7 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: 'These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your...'
+description: "These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your...''
 ---
 
 ## Advanced SAT Strategies
@@ -90,7 +90,7 @@ There is **no penalty for wrong answers** on the digital SAT. This means:
 
 | Situation                                  | Action                                                        |
 | ------------------------------------------ | ------------------------------------------------------------- |
-| Can eliminate 0 options                    | Guess immediately — don't waste time                          |
+| Can eliminate 0 options                    | Guess immediately — don"t waste time                          |
 | Can eliminate 1 option                     | Guess if under 30 seconds remaining, otherwise eliminate more |
 | Can eliminate 2 options                    | Always guess — 50% success rate                               |
 | Running out of time with 3+ questions left | Bubble answers for all remaining questions instantly          |

@@ -3,7 +3,7 @@ title: Fermi Gas at Finite Temperature
 tags:
   - Physics
   - University
-description: 'At finite temperature, the Fermi-Dirac distribution "smears out" the step functi Comprehensive educational content coverage with definitions and practice proble'
+description: "At finite temperature, the Fermi-Dirac distribution "smears out" the step functi Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 4.1 Sommerfeld Expansion
@@ -17,7 +17,7 @@ When $k_BT \ll \varepsilon_F$ (the degenerate limit).
 
 **Theorem 4.1 (Sommerfeld Expansion).** To leading order in $T/T_F$:
 
-$$I = \int_0^\mu f(\varepsilon)\, d\varepsilon + \frac{\pi^2}{6}(k_BT)^2 f'(\mu) + \mathcal{O}(T^4)$$
+$$I = \int_0^\mu f(\varepsilon)\, d\varepsilon + \frac{\pi^2}{6}(k_BT)^2 f"(\mu) + \mathcal{O}(T^4)$$
 
 _Proof (sketch)._ Write $f(\varepsilon) = f(\mu) + f'(\mu)(\varepsilon - \mu) + \cdots$ and use the
 exact results:

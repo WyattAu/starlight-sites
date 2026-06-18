@@ -1,6 +1,6 @@
 ---
-title: 'Probability -- Diagnostic Tests'
-description: 'DSE Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+title: "Probability -- Diagnostic Tests''
+description: "DSE Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
 tableOfContents: false
 ---
 
@@ -198,7 +198,7 @@ By the law of total probability:
 
 $$P(D) = P(D \mid A)P(A) + P(D \mid B)P(B) = 0.03 \times 0.6 + 0.05 \times 0.4 = 0.018 + 0.020 = 0.038$$
 
-By Bayes' theorem:
+By Bayes" theorem:
 
 $$P(B \mid D) = \frac{P(D \mid B)P(B)}{P(D)} = \frac{0.05 \times 0.4}{0.038} = \frac{0.020}{0.038} = \frac{10}{19}$$
 

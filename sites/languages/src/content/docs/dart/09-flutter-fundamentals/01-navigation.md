@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: 'Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way...'
+description: "Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -33,7 +33,7 @@ Navigator.of(context).push(
 );
 ```
 
-The push call directly modifies the navigator's internal stack. This is analogous to calling
+The push call directly modifies the navigator"s internal stack. This is analogous to calling
 `startActivity` on Android or presenting a view controller on iOS. The control flow is linear and
 Explicit: every transition is triggered by a discrete function call.
 
@@ -59,11 +59,11 @@ To the widget tree that should be displayed:
 final _router = GoRouter(
   routes: [
     GoRoute(
-      path: '/',
+      path: "/'',
       builder: (context, state) => const HomePage(),
       routes: [
         GoRoute(
-          path: 'users/:id',
+          path: "users/:id',
           builder: (context, state) {
             final id = state.pathParameters['id']!;
             return UserDetailPage(userId: id);
@@ -115,11 +115,11 @@ class HomePage extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).push(
               MaterialPageRoute(
-                builder: (context) => const DetailPage(title: 'Details'),
+                builder: (context) => const DetailPage(title: "Details''),
               ),
             );
           },
-          child: const Text('Go to Details'),
+          child: const Text("Go to Details'),
         ),
       ),
     );
@@ -210,7 +210,7 @@ Passing arguments to named routes requires the `arguments` parameter:
 ```dart
 Navigator.of(context).pushNamed(
   '/detail',
-  arguments: {'userId': 42, 'source': 'search'},
+  arguments: {'userId': 42, 'source': "search''},
 );
 
 final args = ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
@@ -222,7 +222,7 @@ There is also `onGenerateRoute` for more control:
 MaterialApp(
   onGenerateRoute: (settings) {
     switch (settings.name) {
-      case '/':
+      case "/':
         return MaterialPageRoute(builder: (_) => const HomePage());
       case '/user':
         final userId = settings.arguments as int;
@@ -415,11 +415,11 @@ URL-based routing API built on top of Navigator 2.0.
 final _router = GoRouter(
   routes: [
     GoRoute(
-      path: '/',
+      path: "/'',
       builder: (context, state) => const HomePage(),
     ),
     GoRoute(
-      path: '/settings',
+      path: "/settings',
       builder: (context, state) => const SettingsPage(),
     ),
   ],
@@ -442,24 +442,24 @@ Containing child routes:
 
 ```dart
 GoRoute(
-  path: '/',
+  path: "/'',
   builder: (context, state) => const HomePage(),
   routes: [
     GoRoute(
-      path: 'profile',
+      path: "profile',
       builder: (context, state) => const ProfilePage(),
     ),
     GoRoute(
-      path: 'users/:id',
+      path: "users/:id'',
       builder: (context, state) {
-        final id = state.pathParameters['id']!;
+        final id = state.pathParameters["id']!;
         return UserDetailPage(userId: id);
       },
       routes: [
         GoRoute(
-          path: 'posts/:postId',
+          path: "posts/:postId'',
           builder: (context, state) {
-            final id = state.pathParameters['id']!;
+            final id = state.pathParameters["id']!;
             final postId = state.pathParameters['postId']!;
             return PostDetailPage(userId: id, postId: postId);
           },
@@ -470,7 +470,7 @@ GoRoute(
 )
 ```
 
-Child routes inherit their parent's path prefix. A route with `path: 'posts/:postId'` nested under
+Child routes inherit their parent's path prefix. A route with `path: "posts/:postId''` nested under
 `/users/:id` has the full path `/users/:id/posts/:postId`.
 
 ### Key GoRoute Properties
@@ -487,11 +487,11 @@ Child routes inherit their parent's path prefix. A route with `path: 'posts/:pos
 GoRouter provides several methods for navigation:
 
 ```dart
-context.go('/users/42');        // Replace the current location
+context.go("/users/42');        // Replace the current location
 context.push('/users/42');      // Push a new location onto the stack
 context.pushReplacement('/');   // Replace the top of the stack
 context.pop();                  // Pop the top of the stack
-context.goNamed('userDetail', pathParameters: {'id': '42'});
+context.goNamed('userDetail', pathParameters: {'id': "42''});
 ```
 
 The key difference between `go` and `push`:
@@ -507,15 +507,15 @@ GoRouter supports named routes, which provide an alternative to path-based navig
 
 ```dart
 GoRoute(
-  name: 'userDetail',
-  path: 'users/:id',
+  name: "userDetail',
+  path: "users/:id'',
   builder: (context, state) {
-    final id = state.pathParameters['id']!;
+    final id = state.pathParameters["id']!;
     return UserDetailPage(userId: id);
   },
 );
 
-context.goNamed('userDetail', pathParameters: {'id': '42'});
+context.goNamed('userDetail', pathParameters: {'id': "42''});
 ```
 
 Named routes are useful when you want to change the URL structure without updating every navigation
@@ -532,7 +532,7 @@ Route definition to match multiple URLs with different values.
 
 ```dart
 GoRoute(
-  path: '/users/:id',
+  path: "/users/:id',
   builder: (context, state) {
     final id = state.pathParameters['id']!;
     return UserDetailPage(userId: id);
@@ -547,9 +547,9 @@ The `:id` segment matches any non-slash string and makes the matched value avail
 
 ```dart
 GoRoute(
-  path: '/users/:userId/posts/:postId',
+  path: "/users/:userId/posts/:postId'',
   builder: (context, state) {
-    final userId = state.pathParameters['userId']!;
+    final userId = state.pathParameters["userId']!;
     final postId = state.pathParameters['postId']!;
     return PostPage(userId: userId, postId: postId);
   },
@@ -563,9 +563,9 @@ GoRoute(
 
 ```dart
 GoRoute(
-  path: '/users/:id',
+  path: "/users/:id'',
   builder: (context, state) {
-    final id = int.tryParse(state.pathParameters['id']!);
+    final id = int.tryParse(state.pathParameters["id']!);
     if (id == null) {
       return const NotFoundPage();
     }
@@ -581,9 +581,9 @@ The `redirect` function:
 
 ```dart
 GoRoute(
-  path: '/users/:id',
+  path: "/users/:id'',
   redirect: (context, state) {
-    final idStr = state.pathParameters['id'];
+    final idStr = state.pathParameters["id'];
     final id = int.tryParse(idStr ?? '');
     if (id == null || id < 1) {
       return '/error';
@@ -603,9 +603,9 @@ GoRouter supports wildcard parameters with `*`:
 
 ```dart
 GoRoute(
-  path: '/files/*filepath',
+  path: "/files/*filepath'',
   builder: (context, state) {
-    final filepath = state.pathParameters['filepath']!;
+    final filepath = state.pathParameters["filepath']!;
     return FileViewerPage(path: filepath);
   },
 ),
@@ -628,9 +628,9 @@ Automatically available in `GoRouterState`:
 
 ```dart
 GoRoute(
-  path: '/search',
+  path: "/search'',
   builder: (context, state) {
-    final query = state.uri.queryParameters['q'] ?? '';
+    final query = state.uri.queryParameters["q'] ?? '';
     final page = int.tryParse(state.uri.queryParameters['page'] ?? '1') ?? 1;
     final filter = state.uri.queryParameters['filter'];
     return SearchResultsPage(
@@ -648,11 +648,11 @@ When navigating programmatically, construct the URI with query parameters:
 
 ```dart
 final uri = Uri(
-  path: '/search',
+  path: "/search'',
   queryParameters: {
-    'q': 'flutter navigation',
-    'page': '2',
-    'filter': 'recent',
+    "q': "flutter navigation'',
+    "page': "2'',
+    "filter': "recent'',
   },
 );
 context.go(uri.toString());
@@ -664,7 +664,7 @@ context.go(uri.toString());
 
 ```dart
 // Access individual parameters
-final sort = state.uri.queryParameters['sort'];
+final sort = state.uri.queryParameters["sort'];
 
 // Access all parameters as a map
 final allParams = state.uri.queryParameters;
@@ -719,11 +719,11 @@ final router = GoRouter(
   },
   routes: [
     GoRoute(
-      path: '/',
+      path: "/'',
       builder: (context, state) => const HomePage(),
     ),
     GoRoute(
-      path: '/login',
+      path: "/login',
       builder: (context, state) => const LoginPage(),
     ),
   ],
@@ -740,10 +740,10 @@ Individual routes can have their own `redirect`:
 
 ```dart
 GoRoute(
-  path: '/admin',
+  path: "/admin'',
   redirect: (context, state) {
     final role = authService.currentUser?.role;
-    if (role != 'admin') {
+    if (role != "admin') {
       return '/unauthorized';
     }
     return null;
@@ -769,17 +769,17 @@ final router = GoRouter(
   },
   routes: [
     GoRoute(
-      path: '/auth/login',
+      path: "/auth/login'',
       builder: (context, state) => const LoginPage(),
     ),
     GoRoute(
-      path: '/dashboard',
+      path: "/dashboard',
       builder: (context, state) => const DashboardPage(),
       routes: [
         GoRoute(
-          path: 'admin',
+          path: "admin'',
           redirect: (context, state) {
-            if (authService.currentUser?.role != 'admin') {
+            if (authService.currentUser?.role != "admin') {
               return '/dashboard';
             }
             return null;
@@ -831,7 +831,7 @@ GoRouter can start at a specific location:
 
 ```dart
 final router = GoRouter(
-  initialLocation: '/dashboard',
+  initialLocation: "/dashboard'',
   routes: [...],
 );
 ```
@@ -875,7 +875,7 @@ The `CFBundleURLTypes` in `Info.plist`:
 
 ### Handling Incoming Links on Web
 
-On the web, GoRouter integrates with the browser's URL bar automatically. When a user navigates to
+On the web, GoRouter integrates with the browser"s URL bar automatically. When a user navigates to
 `https://example.com/users/42`GoRouter parses the path and renders the corresponding widget.
 
 ### The `uni_links` Package
@@ -925,15 +925,15 @@ ShellRoute(
   builder: (context, state, child) => ScaffoldWithNavBar(child: child),
   routes: [
     GoRoute(
-      path: '/home',
+      path: "/home'',
       builder: (context, state) => const HomePage(),
     ),
     GoRoute(
-      path: '/explore',
+      path: "/explore',
       builder: (context, state) => const ExplorePage(),
     ),
     GoRoute(
-      path: '/profile',
+      path: "/profile'',
       builder: (context, state) => const ProfilePage(),
     ),
   ],
@@ -958,15 +958,15 @@ class ScaffoldWithNavBar extends StatelessWidget {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Home',
+            label: "Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.explore),
-            label: 'Explore',
+            label: "Explore'',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: "Profile',
           ),
         ],
       ),
@@ -1008,11 +1008,11 @@ StatefulShellRoute.indexedStack(
     StatefulShellBranch(
       routes: [
         GoRoute(
-          path: '/home',
+          path: "/home'',
           builder: (context, state) => const HomePage(),
           routes: [
             GoRoute(
-              path: 'detail/:id',
+              path: "detail/:id',
               builder: (context, state) => const HomeDetailPage(),
             ),
           ],
@@ -1022,11 +1022,11 @@ StatefulShellRoute.indexedStack(
     StatefulShellBranch(
       routes: [
         GoRoute(
-          path: '/explore',
+          path: "/explore'',
           builder: (context, state) => const ExplorePage(),
           routes: [
             GoRoute(
-              path: 'category/:name',
+              path: "category/:name',
               builder: (context, state) => const CategoryPage(),
             ),
           ],
@@ -1036,7 +1036,7 @@ StatefulShellRoute.indexedStack(
     StatefulShellBranch(
       routes: [
         GoRoute(
-          path: '/profile',
+          path: "/profile'',
           builder: (context, state) => const ProfilePage(),
         ),
       ],
@@ -1102,7 +1102,7 @@ final confirmed = await showDialog<bool>(
   context: context,
   barrierDismissible: false,
   builder: (context) => AlertDialog(
-    title: const Text('Delete Item'),
+    title: const Text("Delete Item'),
     content: const Text('Are you sure you want to delete this item?'),
     actions: [
       TextButton(
@@ -1128,10 +1128,10 @@ A full-screen route covers the entire screen, including the status bar:
 
 ```dart
 GoRoute(
-  path: '/video/:id',
+  path: "/video/:id'',
   pageBuilder: (context, state) => CustomTransitionPage<void>(
     key: state.pageKey,
-    child: VideoPlayerPage(videoId: state.pathParameters['id']!),
+    child: VideoPlayerPage(videoId: state.pathParameters["id']!),
     transitionsBuilder: (context, animation, secondaryAnimation, child) {
       return const SizedBox.expand(child: child);
     },
@@ -1159,7 +1159,7 @@ In GoRouter, use `pageBuilder` with `FullScreenDialogPage`:
 
 ```dart
 GoRoute(
-  path: '/new',
+  path: "/new'',
   pageBuilder: (context, state) => const MaterialPage<void>(
     fullscreenDialog: true,
     child: NewTaskPage(),
@@ -1173,7 +1173,7 @@ Both Navigator 1.0 and GoRouter support returning data from a route:
 
 ```dart
 // With GoRouter push
-final result = await context.push<String>('/select-item');
+final result = await context.push<String>("/select-item');
 if (result != null) {
   print('Selected: $result');
 }
@@ -1188,7 +1188,7 @@ GoRouter allows custom page transitions via `pageBuilder`:
 
 ```dart
 GoRoute(
-  path: '/details',
+  path: "/details'',
   pageBuilder: (context, state) => CustomTransitionPage(
     key: state.pageKey,
     child: const DetailsPage(),
@@ -1212,7 +1212,7 @@ GoRoute(
 
 ### Using `go` When You Mean `push`
 
-`context.go('/detail')` replaces the current route. If you want the user to be able to press back
+`context.go("/detail')` replaces the current route. If you want the user to be able to press back
 And return to the previous screen, use `context.push('/detail')` instead. A common bug is using `go`
 Everywhere and losing the back stack, so the back button exits the app unexpectedly.
 

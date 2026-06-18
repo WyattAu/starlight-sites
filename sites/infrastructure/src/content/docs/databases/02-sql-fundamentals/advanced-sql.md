@@ -1,6 +1,6 @@
 ---
 title: Advanced SQL
-description: 'Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision.'
+description: "Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision.''
 
 ---
 
@@ -194,7 +194,7 @@ PostgreSQL allows mixing reads and writes in a single CTE chain:
 ```sql
 WITH new_orders AS (
     INSERT INTO orders (customer_id, total, status)
-    VALUES (42, 250.00, 'pending')
+    VALUES (42, 250.00, "pending')
     RETURNING order_id, customer_id, total
 ),
 inventory_update AS (
@@ -403,11 +403,11 @@ Like Elasticsearch.
 ```sql
 -- Create a tsvector from text
 SELECT to_tsvector('english', 'The quick brown fox jumps over the lazy dog');
--- Result: 'brown':3 'dog':9 'fox':4 'jump':5 'lazi':8 'quick':2
+-- Result: "brown'':3 "dog':9 'fox':4 'jump':5 'lazi':8 'quick':2
 
 -- Create a tsquery from a search string
 SELECT to_tsquery('english', 'quick &amp; fox');
--- Result: 'quick' &amp; 'fox'
+-- Result: "quick'' &amp; "fox'
 
 -- Match rows
 SELECT title, body

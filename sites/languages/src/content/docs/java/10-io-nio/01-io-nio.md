@@ -1,6 +1,6 @@
 ---
 title: I/O, NIO, and the Path API
-description: 'Java I/O, NIO, and the Path API notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+description: "Java I/O, NIO, and the Path API notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.''
 date: 2026-04-04T00:00:00.000Z
 tags:
   - Java
@@ -266,7 +266,7 @@ Single JVM or integrating with legacy APIs.
 4. **Buffering without flushing.** Data stays in the buffer until `flush()` or `close()`. If the
    program crashes first, the data is lost.
 5. **Mixing Readers and Streams.** Wrapping a `Reader` around an `InputStream` that is also being
-   read directly causes data corruption, because the `Reader`'s internal buffer consumes bytes that
+   read directly causes data corruption, because the `Reader`"s internal buffer consumes bytes that
    the `InputStream` never sees.
 
 ---

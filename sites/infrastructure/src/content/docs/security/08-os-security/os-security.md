@@ -1,6 +1,6 @@
 ---
 title: OS Security
-description: 'SSH is the primary remote administration protocol on Linux. Default configuratio Comprehensive educational content coverage with definitions and practice proble'
+description: "SSH is the primary remote administration protocol on Linux. Default configuratio Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Security
@@ -117,7 +117,7 @@ With `umask 027`:
 #### SUID, SGID, and Sticky Bit
 
 **SUID (Set User ID):** When set on an executable file, the process runs with the permissions of the
-File's owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
+File"s owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
 `passwd` binary has SUID root.
 
 ```bash

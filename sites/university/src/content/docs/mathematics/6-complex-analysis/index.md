@@ -3,7 +3,7 @@ title: Complex Analysis
 tags:
   - Mathematics
   - University
-description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 # Complex Analysis
@@ -14,7 +14,7 @@ description: '1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive e
 2. [Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)
 3. [The Cauchy-Riemann Equations](3_the-cauchy-riemann-equations.md)
 4. [Complex Integration](4_complex-integration.md)
-5. [Cauchy's Theorem](5_cauchy-s-theorem.md)
+5. [Cauchy"s Theorem](5_cauchy-s-theorem.md)
 6. [Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)
 7. [Taylor and Laurent Series](7_taylor-and-laurent-series.md)
 8. [Singularities and Residue Theory](8_singularities-and-residue-theory.md)

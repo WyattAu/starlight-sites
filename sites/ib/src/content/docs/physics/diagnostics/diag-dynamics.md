@@ -1,6 +1,6 @@
 ---
-title: 'Dynamics -- Diagnostic Tests'
-description: 'IB Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.'
+title: "Dynamics -- Diagnostic Tests''
+description: "IB Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."'
 tableOfContents: false
 ---
 
@@ -8,7 +8,7 @@ tableOfContents: false
 
 ## Unit Tests
 
-### UT-1: Newton's Third Law Pair Identification
+### UT-1: Newton"s Third Law Pair Identification
 
 **Question:**
 

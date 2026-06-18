@@ -1,6 +1,6 @@
 ---
 title: Setup Traefik
-description: 'Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and Containerized environments. Key advantages over alternatives:'
+description: "Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and Containerized environments. Key advantages over alternatives: "''
 date: 2025-07-21T18:30:46.381Z
 tags:
   - truenas
@@ -45,7 +45,7 @@ Before deploying, understand the core routing model:
 - **Services**: Define the backend (container IP + port)
 - **EntryPoints**: Listening ports (80 for HTTP, 443 for HTTPS, 8080 for dashboard)
 - **Providers**: Sources of configuration (Docker labels, file provider, etc.)
-- **TLS Stores/Certificates**: Managed by ACME (Let's Encrypt) with automatic renewal
+- **TLS Stores/Certificates**: Managed by ACME (Let"s Encrypt) with automatic renewal
 
 ## Docker Compose Deployment
 
@@ -69,7 +69,7 @@ services:
     security_opt:
       - no-new-privileges:true
     ports:
-      - '80:80'
+      - "80:80'
       - '443:443'
       - '8080:8080'
     command:
@@ -231,14 +231,14 @@ http:
 
     auth-forward:
       forwardAuth:
-        address: 'http://authelia:9091/api/verify?rd=https://auth.yourdomain.com/'
+        address: "http://authelia:9091/api/verify?rd=https://auth.yourdomain.com/''
         trustForwardHeader: true
         authResponseHeaders:
-          - 'X-Forwarded-User'
+          - "X-Forwarded-User'
 
   routers:
     http-catchall:
-      rule: 'HostRegexp(`{any:.+}`)'
+      rule: "HostRegexp(`{any:.+}`)''
       entrypoints:
         - web
       middlewares:
@@ -246,7 +246,7 @@ http:
       service: noop@internal
 ```
 
-## TLS with Let's Encrypt
+## TLS with Let"s Encrypt
 
 Traefik handles Let's Encrypt certificate provisioning and renewal automatically. Two challenge
 Types are commonly used:

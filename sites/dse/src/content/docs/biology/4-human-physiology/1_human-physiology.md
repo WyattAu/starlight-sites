@@ -1,6 +1,6 @@
 ---
 title: Human Physiology
-description: 'A balanced diet provides all essential nutrients in the correct proportions to maintain health. The Seven classes of food are:'
+description: "A balanced diet provides all essential nutrients in the correct proportions to maintain health. The Seven classes of food are: "''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]
 categories: [DSE, Biology]
@@ -332,7 +332,7 @@ Air. Both movements are down their respective partial pressure gradients.
 **Chronic Obstructive Pulmonary Disease (COPD):**
 
 - Includes chronic bronchitis and emphysema
-- Chronic bronchitis: inflammation and mucus hypersecretion in bronchi; "smoker's cough"
+- Chronic bronchitis: inflammation and mucus hypersecretion in bronchi; "smoker"s cough"
 - Emphysema: destruction of alveolar walls; reduced surface area for gas exchange; loss of
   elasticity
 - Symptoms: persistent cough, breathlessness, fatigue
@@ -561,7 +561,7 @@ A **left shift** = higher affinity for O$_2$ = less O$_2$ released to tissues.
 
 **Structure:**
 
-- Outer region: **cortex** (contains Bowman's capsules, convoluted tubules)
+- Outer region: **cortex** (contains Bowman"s capsules, convoluted tubules)
 - Inner region: **medulla** (contains loops of Henle, collecting ducts)
 - Central cavity: **renal pelvis** (collects urine)
 - **Ureter:** Carries urine from kidney to bladder

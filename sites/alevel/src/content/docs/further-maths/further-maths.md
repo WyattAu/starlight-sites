@@ -1,6 +1,6 @@
 ---
 title: Further Mathematics
-description: 'A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful Settings, introduces advanced statistical methods, and...'
+description: "A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful Settings, introduces advanced statistical methods, and...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Maths
@@ -46,7 +46,7 @@ Science at university.
 The further pure core extends A Level mathematics into territory that is essential for university
 STEM courses:
 
-- **Complex numbers** — Argand diagrams, De Moivre's theorem, roots of unity, exponential form
+- **Complex numbers** — Argand diagrams, De Moivre"s theorem, roots of unity, exponential form
   $e^{i\theta}$
 - **Matrices** — determinants, inverses, transformations in 2D and 3D, eigenvalues (AQA)
 - **Further algebra** — roots of polynomial equations, partial fractions with irreducible quadratics

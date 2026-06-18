@@ -1,6 +1,6 @@
 ---
-title: 'Electrochemistry -- Diagnostic Tests'
-description: 'DSE Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Electrochemistry -- Diagnostic Tests''
+description: "DSE Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -98,7 +98,7 @@ Product at anode changes from **chlorine** to **oxygen**.
 
 ---
 
-## Unit Test 3: Faraday's Calculations
+## Unit Test 3: Faraday"s Calculations
 
 **Question**
 

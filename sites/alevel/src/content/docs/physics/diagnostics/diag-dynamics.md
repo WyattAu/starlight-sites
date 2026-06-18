@@ -1,6 +1,6 @@
 ---
-title: 'Dynamics -- Diagnostic Tests'
-description: 'A-Level Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+title: "Dynamics -- Diagnostic Tests''
+description: "A-Level Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."'
 tableOfContents: false
 ---
 
@@ -8,7 +8,7 @@ tableOfContents: false
 
 ## Unit Tests
 
-### UT-1: Newton's Third Law on an Accelerating System
+### UT-1: Newton"s Third Law on an Accelerating System
 
 **Question:**
 

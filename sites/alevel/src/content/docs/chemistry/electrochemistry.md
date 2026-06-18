@@ -1,6 +1,6 @@
 ---
 title: Electrochemistry
-description: 'The oxidation state is a formalism that assigns a charge to an atom in a compound based on electronegativity. The rules for assigning oxidation states:'
+description: "The oxidation state is a formalism that assigns a charge to an atom in a compound based on electronegativity. The rules for assigning oxidation states: "''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -382,7 +382,7 @@ $$
 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{O}_2(g) + 4\mathrm{H}^+(aq) + 4e^-
 $$
 
-### Faraday's Laws
+### Faraday"s Laws
 
 **First Law:** The mass of substance deposited or liberated at an electrode is directly proportional
 to the quantity of electricity passed.
@@ -996,7 +996,7 @@ theories, and practical applications.
 
 - standard electrode potentials
 - electrochemical cells
-- electrolysis and Faraday's laws
+- electrolysis and Faraday"s laws
 - corrosion and prevention
 - fuel cells
 

@@ -1,6 +1,6 @@
 ---
 title: Electrochemistry
-description: 'Rigorous IB chemistry notes covering Electrochemistry. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Electrochemistry. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - Chemistry
@@ -745,7 +745,7 @@ $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$Then $n = 2$No
 
 ## 8. Electrolysis Quantitative Problems (HL)
 
-### Faraday's Laws
+### Faraday"s Laws
 
 **Faraday's First Law.** The mass of substance deposited or liberated at an electrode during
 Electrolysis is directly proportional to the quantity of electricity passed.

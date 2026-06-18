@@ -1,6 +1,6 @@
 ---
 title: Computer Systems
-description: 'The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems'
+description: "The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems''
 date: 2026-04-14
 tags:
   - gcse
@@ -100,7 +100,7 @@ The **Von Neumann architecture** is the standard model for most computers:
 - A single bus is used for data transfer
 
 **The stored program concept.** Before Von Neumann, computers were rewired for each new program. Von
-Neumann's key insight was that programs and data could both be stored in the same memory, and the
+Neumann"s key insight was that programs and data could both be stored in the same memory, and the
 CPU could read instructions from memory just as it reads data. This means you can change what a
 Computer does by changing the contents of its memory -- no rewiring required.
 

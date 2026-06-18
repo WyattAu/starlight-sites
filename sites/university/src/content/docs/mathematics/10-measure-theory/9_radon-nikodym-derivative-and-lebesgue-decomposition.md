@@ -3,7 +3,7 @@ title: Radon-Nikodym Derivative and Lebesgue Decomposition
 tags:
   - Mathematics
   - University
-description: 'A measure is with respect to (written ) if Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A measure is with respect to (written ) if Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 9.1 Absolute Continuity
@@ -35,6 +35,6 @@ $(X, \mathcal{F})$. Then there exist unique measures $\nu_a$ and $\nu_s$ such th
 3. $\nu_s \perp \mu$ (singular part).
 
 **Example.** The Cantor function $F : [0, 1] \to [0, 1]$ is continuous, monotonically increasing,
-and has $F(0) = 0$, $F(1) = 1$. The associated measure $\mu_F$ (the Cantor measure or "Devil's staircase" measure) is singular with respect to Lebesgue measure: $\mu_F \perp m$. By Lebesgue
+and has $F(0) = 0$, $F(1) = 1$. The associated measure $\mu_F$ (the Cantor measure or "Devil"s staircase" measure) is singular with respect to Lebesgue measure: $\mu_F \perp m$. By Lebesgue
 decomposition, $\mu_F = \mu_F + 0$ with $\mu_F \perp m$.
 

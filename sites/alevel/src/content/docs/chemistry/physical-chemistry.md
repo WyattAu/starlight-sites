@@ -1,6 +1,6 @@
 ---
 title: Physical Chemistry
-description: 'Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards.'
+description: "Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -144,7 +144,7 @@ $$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
 **Exothermic:** $\Delta H < 0$ (energy released to surroundings) **Endothermic:** $\Delta H > 0$
 (energy absorbed from surroundings)
 
-### Hess's Law
+### Hess"s Law
 
 The enthalpy change for a reaction is independent of the route taken — the answer varies by context
 only on initial and final states.

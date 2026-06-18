@@ -1,6 +1,6 @@
 ---
 title: Carbonyl Compounds
-description: 'Carbonyl compounds contain the C=O functional group. The carbonyl carbon is hybridised with Trigonal planar geometry. The oxygen is more electronegative...'
+description: "Carbonyl compounds contain the C=O functional group. The carbonyl carbon is hybridised with Trigonal planar geometry. The oxygen is more electronegative...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -22,7 +22,7 @@ Nucleophile.
 
 | Property              | Aldehyde                                                            | Ketone                                                          |
 | --------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
-| General formula       | $\mathrm{RCHO}$                                                     | $\mathrm{RCOR}'$                                                |
+| General formula       | $\mathrm{RCHO}$                                                     | $\mathrm{RCOR}"$                                                |
 | Terminal C=O          | Yes                                                                 | No                                                              |
 | Oxidation             | Yes (to carboxylic acid)                                            | No                                                              |
 | Tollens' test         | Silver mirror                                                       | No reaction                                                     |

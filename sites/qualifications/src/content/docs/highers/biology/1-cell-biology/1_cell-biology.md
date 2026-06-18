@@ -1,6 +1,6 @@
 ---
 title: Cell Biology
-description: 'Scottish Highers Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed exam preparation and revision.'
+description: "Scottish Highers Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed exam preparation and revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -532,7 +532,7 @@ Cells.
 **Evidence supporting endosymbiotic theory:**
 
 1. **Double membrane:** Both mitochondria and chloroplasts have a double membrane. The outer
-   membrane is thought to be derived from the host cell's phagocytic vesicle, and the inner membrane
+   membrane is thought to be derived from the host cell"s phagocytic vesicle, and the inner membrane
    is thought to be the original prokaryotic plasma membrane.
 2. **Own DNA:** Both organelles contain circular DNA, similar to prokaryotic DNA.
 3. **Own ribosomes:** Both have 70S ribosomes (prokaryotic size), not 80S (eukaryotic size).

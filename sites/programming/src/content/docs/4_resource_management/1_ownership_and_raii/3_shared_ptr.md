@@ -1,6 +1,6 @@
 ---
 title: Shared Ownership (std::shared_ptr) and Control Block
-description: 'enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —...'
+description: "enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -252,7 +252,7 @@ Deleter for very large objects that may be observed by long-lived `weak_ptr` ins
 | Destroying/resetting a `shared_ptr`                   | Yes — atomic                                       |
 | Accessing the **pointed-to object** via `*p` or `p->` | **No** — you must provide your own synchronization |
 
-The control block's reference counts are modified using `std::atomic` operations [N4950 S20.11.3.6].
+The control block"s reference counts are modified using `std::atomic` operations [N4950 S20.11.3.6].
 This means you can safely copy `shared_ptr` instances between threads. But the **object itself** is
 Not protected — concurrent writes to `*p` without external synchronization is a data race and
 Undefined behavior.

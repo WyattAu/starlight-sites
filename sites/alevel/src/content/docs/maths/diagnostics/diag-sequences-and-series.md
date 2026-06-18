@@ -1,6 +1,6 @@
 ---
-title: 'Sequences and Series -- Diagnostic Tests'
-description: 'A-Level Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Sequences and Series -- Diagnostic Tests''
+description: "A-Level Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -97,7 +97,7 @@ index shift.]
 
 **Solution:**
 
-**The student's error:** The student substitutes $r - 3$ for $r$ in the formula but forgets that the
+**The student"s error:** The student substitutes $r - 3$ for $r$ in the formula but forgets that the
 upper limit also changes. The formula $\sum_{r=1}^{m} r^2 = \frac{m(m+1)(2m+1)}{6}$ requires the sum
 to start at $r = 1$ and end at $r = m$.
 

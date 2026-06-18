@@ -5,7 +5,7 @@ tags:
   - IB
 categories:
   - ib
-description: '1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na =...'
+description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na =...''
 ---
 
 ## Oxidation States
@@ -451,7 +451,7 @@ Anion and water compete for oxidation at the anode.
 On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
 The rules as stated.
 
-### Faraday's Laws
+### Faraday"s Laws
 
 **Faraday's First Law:** The amount of substance produced at an electrode is directly proportional
 To the quantity of charge passed.

@@ -1,6 +1,6 @@
 ---
 title: Network Fundamentals
-description: 'A network connecting computers within a limited geographical area (building, cam Comprehensive educational content coverage with definitions and practice proble'
+description: "A network connecting computers within a limited geographical area (building, cam Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -54,7 +54,7 @@ A LAN using wireless communication (Wi-Fi, IEEE 802.11 standards).
 
 All devices connect to a central hub/switch.
 
-- **Advantage:** Easy to add/remove devices; failure of one device doesn't affect others
+- **Advantage:** Easy to add/remove devices; failure of one device doesn"t affect others
 - **Disadvantage:** Central device failure brings down the entire network
 
 ### Mesh Topology

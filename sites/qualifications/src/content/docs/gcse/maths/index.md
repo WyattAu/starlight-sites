@@ -1,6 +1,6 @@
 ---
 title: GCSE Maths
-description: 'Comprehensive revision notes for GCSE Maths, covering all major exam boards (AQA Comprehensive educational content coverage with definitions and practice proble'
+description: "Comprehensive revision notes for GCSE Maths, covering all major exam boards (AQA Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - gcse
@@ -37,7 +37,7 @@ and organised by topic for easy navigation.
 - **Ratio, Proportion & Rates of Change** — ratio, direct and inverse proportion, compound units
   (speed, density, pressure), growth and decay, compound interest
 - **Geometry** — angles, triangles and polygons, circles (circumference, area, arcs, sectors), 3D
-  shapes, transformations, congruence and similarity, Pythagoras' theorem, trigonometry, vectors
+  shapes, transformations, congruence and similarity, Pythagoras" theorem, trigonometry, vectors
 - **Statistics** — data collection and sampling, representing data (charts, tables, histograms,
   cumulative frequency), measures of central tendency and spread, scatter graphs and correlation,
   probability

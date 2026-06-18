@@ -1,6 +1,6 @@
 ---
 title: Statistics
-description: 'A-Level Maths Statistics notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision and exam readiness.'
+description: "A-Level Maths Statistics notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision and exam readiness.''
 ---
 
 # Statistics
@@ -26,7 +26,7 @@ distributions, and hypothesis testing — the foundations of data-driven decisio
 ### Correlation and Regression
 
 - **Scatter diagrams** — visual assessment of correlation (positive, negative, none)
-- **Pearson's product-moment correlation coefficient** — $r$ measures linear correlation;
+- **Pearson"s product-moment correlation coefficient** — $r$ measures linear correlation;
   $-1 \leq r \leq 1$
 - **Regression line** — $y = a + bx$; least squares; interpreting $a$ (intercept) and $b$ (gradient)
   in context

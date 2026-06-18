@@ -1,6 +1,6 @@
 ---
 title: Quantities and Units
-description: 'We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -258,7 +258,7 @@ The number of significant figures in a quoted result should be consistent with t
 And the uncertainty should be quoted to at most 2 significant figures.
 
 **Example.** If a length is measured as $12.3 \pm 0.4$ cm, we quote two significant figures
-(matching the uncertainty's one significant figure). We do not write $12.30 \pm 0.4$ cm — the
+(matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm — the
 Trailing zero implies precision we do not have.
 
 :::tip Exam Technique When you compute $g = 9.78 \pm 0.15 \mathrm{ m s}^{-2}$Write $9.8 \pm 0.2$ m

@@ -1,6 +1,6 @@
 ---
-title: 'Organic Chemistry Introduction -- Diagnostic Tests'
-description: 'A-Level Organic Chemistry Introduction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Organic Chemistry Introduction -- Diagnostic Tests''
+description: "A-Level Organic Chemistry Introduction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -114,7 +114,7 @@ $\text{CH}_3\text{CH}_2\text{Br} + \text{NaOH}(aq) \to \text{CH}_3\text{CH}_2\te
 to propanal (iii) propanal to propanoic acid
 
 (c) A compound has the molecular formula $\text{C}_4\text{H}_8\text{O}$. It reacts with 2,4-DNP to
-form an orange precipitate but does not react with Fehling's solution. It does not decolourise
+form an orange precipitate but does not react with Fehling"s solution. It does not decolourise
 bromine water. Identify the compound and explain your reasoning.
 
 **Solution:**

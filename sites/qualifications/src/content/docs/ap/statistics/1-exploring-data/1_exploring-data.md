@@ -1,6 +1,6 @@
 ---
 title: Exploring Data
-description: 'A (qualitative variable) places an individual or item into one of several groups or categories. The values are labels, not numerical quantities.'
+description: "A (qualitative variable) places an individual or item into one of several groups or categories. The values are labels, not numerical quantities.''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -151,7 +151,7 @@ The **variance** is $s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$.
 
 The **five-number summary** consists of: minimum, Q1, median (Q2), Q3, maximum.
 
-These five values provide a complete picture of the data's centre and spread and are the basis for
+These five values provide a complete picture of the data"s centre and spread and are the basis for
 the boxplot.
 
 ## Normal Distributions

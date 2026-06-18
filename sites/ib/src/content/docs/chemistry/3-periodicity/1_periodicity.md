@@ -1,6 +1,6 @@
 ---
 title: Periodicity
-description: 'Rigorous IB chemistry notes covering Periodicity. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Periodicity. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -743,7 +743,7 @@ $$V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^
 
 Arrange the following ionic compounds in order of increasing lattice energy (most negative first):
 $\mathrm{NaF}$$\mathrm{MgO}$$\mathrm{NaCl}$$\mathrm{MgCl}_2$$\mathrm{Al}_2\mathrm{O}_3$. Justify
-your ordering using Coulomb's law: $U \propto \frac{z_+ z_-}{r_+ + r_-}$.
+your ordering using Coulomb"s law: $U \propto \frac{z_+ z_-}{r_+ + r_-}$.
 
 </details>
 

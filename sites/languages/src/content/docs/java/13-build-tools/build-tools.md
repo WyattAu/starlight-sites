@@ -1,6 +1,6 @@
 ---
 title: Build Tools and Dependency Management
-description: 'Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble'
+description: "Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -106,7 +106,7 @@ Dependencies, plugins, and build configuration.
 
 ### Lifecycle Phases
 
-Maven's build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
+Maven"s build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
 Behavior. Running a phase executes all prior phases in order.
 
 | Phase      | Description                                                         |

@@ -3,7 +3,7 @@ title: Operators and Observables
 tags:
   - Physics
   - University
-description: 'Operators and Observables: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Operators and Observables: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 4.1 Position and Momentum Operators
@@ -128,7 +128,7 @@ The **expectation value** of an observable $\hat{A}$ in state $|\psi\rangle$:
 
 $$\langle A \rangle = \langle \psi | \hat{A} | \psi \rangle = \int \psi^* \hat{A} \psi\, dx$$
 
-**Theorem 4.6 (Ehrenfest's Theorem).** Quantum expectation values obey classical equations of
+**Theorem 4.6 (Ehrenfest"s Theorem).** Quantum expectation values obey classical equations of
 motion:
 
 $$\frac{d\langle \hat{x} \rangle}{dt} = \frac{\langle \hat{p} \rangle}{m}, \quad \frac{d\langle \hat{p} \rangle}{dt} = -\left\langle \frac{\partial V}{\partial x}\right\rangle$$

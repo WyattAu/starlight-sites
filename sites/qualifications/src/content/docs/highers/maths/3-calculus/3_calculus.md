@@ -1,6 +1,6 @@
 ---
 title: Further Calculus
-description: 'This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-14
 tags:
   - highers
@@ -25,7 +25,7 @@ $$
 \frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}
 $$
 
-This is the chain rule applied to $y(x)^n$: $\frac{d}{dx}[y^n] = ny^{n-1} \cdot y'(x)$.
+This is the chain rule applied to $y(x)^n$: $\frac{d}{dx}[y^n] = ny^{n-1} \cdot y"(x)$.
 
 **Example:** Find $\dfrac{dy}{dx}$ for $x^2 + y^2 = 25$.
 

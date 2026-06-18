@@ -1,6 +1,6 @@
 ---
-title: 'Circular Motion -- Diagnostic Tests'
-description: 'A-Level Physics Circular Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Circular Motion -- Diagnostic Tests''
+description: "A-Level Physics Circular Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -193,7 +193,7 @@ $8.5 \times 10^6\,\text{m}$.
 (b) Calculate the total energy of the satellite and verify it is conserved between perigee and
 apogee.
 
-(c) Calculate the speed the satellite would need at perigee to escape from Earth's gravitational
+(c) Calculate the speed the satellite would need at perigee to escape from Earth"s gravitational
 field.
 
 Take

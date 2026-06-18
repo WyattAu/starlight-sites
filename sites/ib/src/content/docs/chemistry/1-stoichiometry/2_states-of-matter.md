@@ -1,6 +1,6 @@
 ---
 title: States of Matter
-description: 'Rigorous IB chemistry notes covering States of Matter. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering States of Matter. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -56,7 +56,7 @@ Increasing temperature:
 
 | Law          | Relationship    | Condition held constant |
 | ------------ | --------------- | ----------------------- |
-| Boyle's      | $P \propto 1/V$ | $n$, $T$                |
+| Boyle"s      | $P \propto 1/V$ | $n$, $T$                |
 | Charles's    | $V \propto T$   | $n$, $P$                |
 | Gay-Lussac's | $P \propto T$   | $n$, $V$                |
 | Avogadro's   | $V \propto n$   | $P$, $T$                |

@@ -1,6 +1,6 @@
 ---
 title: Type Erasure — Function Pointers, std::function, std::move_only_function
-description: 'Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface. This section covers the progression from raw function...'
+description: "Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface. This section covers the progression from raw function...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -107,7 +107,7 @@ int main() {
     formatters.push_back(dec_fmt);
 
     for (const auto& fmt : formatters) {
-        std::cout << fmt(255) << '\n';
+        std::cout << fmt(255) << "\n';
     }
     // 0xff
     // 255 (base 10)

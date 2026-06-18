@@ -3,7 +3,7 @@ title: Lebesgue Outer Measure and Caratheodory Extension
 tags:
   - Mathematics
   - University
-description: 'Comprehensive educational content notes on lebesgue outer measure and caratheodory extension with precise definitions, worked examples, and common pitfalls.'
+description: "Comprehensive educational content notes on lebesgue outer measure and caratheodory extension with precise definitions, worked examples, and common pitfalls.''
 ---
 
 ### 3.1 Outer Measures
@@ -112,7 +112,7 @@ exists and equals $1$ for almost every $x \in A$ and $0$ for almost every $x \no
 
 3. **Forgetting the infimum in the definition.** The Lebesgue outer measure uses an infimum over all coverings, not a specific covering. Using a particular covering gives only an upper bound.
 
-4. **Confusing Caratheodory measurability with Borel measurability.** Caratheodory measurability is defined using the outer measure splitting condition, while Borel measurability is defined using preimages of open sets. The two notions coincide for Lebesgue measure, but Caratheodory's approach is more general.
+4. **Confusing Caratheodory measurability with Borel measurability.** Caratheodory measurability is defined using the outer measure splitting condition, while Borel measurability is defined using preimages of open sets. The two notions coincide for Lebesgue measure, but Caratheodory"s approach is more general.
 
 5. **Ignoring the role of the Axiom of Choice.** The Vitali construction requires the Axiom of Choice to select representatives from equivalence classes. Without AC, it is consistent that all subsets of $\mathbb{R}$ are Lebesgue measurable.
 

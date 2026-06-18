@@ -3,7 +3,7 @@ title: WKB Approximation
 tags:
   - Physics
   - University
-description: 'The WKB (Wentzel--Kramers--Brillouin) method provides approximate solutions to the one-dimensional Schrodinger equation when the potential varies slowly...'
+description: "The WKB (Wentzel--Kramers--Brillouin) method provides approximate solutions to the one-dimensional Schrodinger equation when the potential varies slowly...''
 ---
 
 ### 13.1 The WKB Method
@@ -12,7 +12,7 @@ The WKB (Wentzel--Kramers--Brillouin) method provides approximate solutions to t
 Schrodinger equation when the potential varies slowly compared to the de Broglie wavelength.
 
 The ansatz $\psi(x) = A(x)e^{iS(x)/\hbar}$ substituted into
-$-\frac{\hbar^2}{2m}\psi'' + V\psi = E\psi$ gives, to leading order in $\hbar$:
+$-\frac{\hbar^2}{2m}\psi"' + V\psi = E\psi$ gives, to leading order in $\hbar$:
 
 $$S(x) = \pm\int^x p(x')\,dx', \quad p(x) = \sqrt{2m[E - V(x)]}$$
 

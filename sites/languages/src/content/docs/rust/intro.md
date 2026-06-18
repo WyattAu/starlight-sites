@@ -1,6 +1,6 @@
 ---
 title: Introduction to Rust
-description: 'Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery.'
+description: "Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery.''
 
 ---
 
@@ -77,7 +77,7 @@ Rust uses a unified toolchain managed by `rustup`:
 Install the toolchain:
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto "=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 Manage versions:

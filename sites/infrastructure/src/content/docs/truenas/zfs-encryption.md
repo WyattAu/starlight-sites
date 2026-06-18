@@ -1,6 +1,6 @@
 ---
 title: ZFS Encryption
-description: 'ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It...'
+description: "ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - TrueNAS
@@ -114,7 +114,7 @@ tank/secret keystatus       available       -
 
 ### Inherited Encryption
 
-When you create a child dataset inside an encrypted parent, the child inherits the parent's
+When you create a child dataset inside an encrypted parent, the child inherits the parent"s
 Encryption settings by default. The `encryptionroot` of the child points to the topmost encrypted
 Ancestor.
 

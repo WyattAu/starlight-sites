@@ -1,6 +1,6 @@
 ---
 title: Essential Modules
-description: 'The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths....'
+description: "The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths....''
 date: 2025-06-04T14:00:00.000Z
 tags:
   - Python
@@ -21,7 +21,7 @@ The argument for `pathlib` is not aesthetic preference. It is about **composabil
 **correctness**:
 
 1. **Method chaining.** `os.path` requires you to thread a string through successive function calls:
-   `os.path.join(os.path.dirname(os.path.abspath(p)), 'config.json')`. The equivalent `Path`
+   `os.path.join(os.path.dirname(os.path.abspath(p)), "config.json')`. The equivalent `Path`
    expression is `Path(p).resolve().parent / 'config.json'`. The `/` operator is overloaded on
    `PurePosixPath` and `PureWindowsPath` to join path components, which reads as natural composition
    rather than nested function calls.
@@ -323,7 +323,7 @@ pattern = re.compile(r'(?P<user>\w+)@(?P<domain>[\w.]+)')
 match = pattern.match("alice@example.com")
 print(match.group("user"))    # 'alice'
 print(match.group("domain"))  # 'example.com'
-print(match.groupdict())      # {'user': 'alice', 'domain': 'example.com'}
+print(match.groupdict())      # {'user': "alice'', "domain': "example.com''}
 ```
 
 Non-capturing groups `(?:...)` participate in alternation and quantification but do not create a
@@ -332,7 +332,7 @@ Purposes.
 
 ```python
 # Non-capturing group for alternation
-pattern = re.compile(r'(?:https?|ftp)://([\w./]+)')
+pattern = re.compile(r"(?:https?|ftp)://([\w./]+)')
 ```
 
 ### Flags
@@ -648,7 +648,7 @@ def render_all(items: list[Drawable]) -> list[str]:
     return [item.draw() for item in items]
 
 render_all([Circle()])    # OK
-render_all([Square()])    # mypy error: 'Square' has no 'draw' method
+render_all([Square()])    # mypy error: "Square'' has no "draw' method
 ```
 
 `@runtime_checkable` adds `isinstance()` support, but only checks for the presence of method names

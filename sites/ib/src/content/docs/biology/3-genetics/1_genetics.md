@@ -1,6 +1,6 @@
 ---
 title: Genetics
-description: 'IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification.'
+description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -28,7 +28,7 @@ Genotypes.
 
 ## 2. Mendelian Genetics
 
-### Mendel's Laws
+### Mendel"s Laws
 
 1. **Law of Segregation**: each organism carries two alleles for each trait, which segregate during
    gamete formation so each gamete carries one allele.

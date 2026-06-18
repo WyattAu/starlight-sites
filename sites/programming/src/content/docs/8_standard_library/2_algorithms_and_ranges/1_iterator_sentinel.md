@@ -1,6 +1,6 @@
 ---
 title: Iterator-Sentinel Model
-description: 'C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A...'
+description: "C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -169,7 +169,7 @@ class NullSentinel {};
 template <std::input_or_output_iterator It>
 bool operator==(It it, NullSentinel) {
     if constexpr (requires { { *it } -> std::convertible_to<const char&>; }) {
-        return *it == '\0';
+        return *it == "\0';
     } else {
         return false;
     }

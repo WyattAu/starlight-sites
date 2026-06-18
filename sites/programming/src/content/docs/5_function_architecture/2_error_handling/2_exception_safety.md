@@ -1,6 +1,6 @@
 ---
 title: Exception Safety Guarantees
-description: 'The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard Library requirements, classifies every operation into four...'
+description: "The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard Library requirements, classifies every operation into four...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -328,7 +328,7 @@ Guarantee for any operation [N4950 §16.4.6.3].
 ### RAII as the Foundation of the Basic Guarantee
 
 RAII (Resource Acquisition Is Initialization) is the mechanism that makes the basic guarantee
-Possible. When an exception unwinds the stack, every local object's destructor runs, releasing its
+Possible. When an exception unwinds the stack, every local object"s destructor runs, releasing its
 Resource. Without RAII, the basic guarantee is extremely difficult to achieve manually:
 
 ```cpp

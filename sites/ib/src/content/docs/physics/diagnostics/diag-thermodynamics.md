@@ -1,6 +1,6 @@
 ---
-title: 'Thermodynamics -- Diagnostic Tests'
-description: 'IB Physics Thermodynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.'
+title: "Thermodynamics -- Diagnostic Tests''
+description: "IB Physics Thermodynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."'
 tableOfContents: false
 ---
 
@@ -122,7 +122,7 @@ Alternatively, for an ideal gas with $\Delta U = -200\,\text{J}$ and $\Delta T$ 
 
 $\Delta U = nC_v\Delta T = -200\,\text{J}$
 
-We don't have enough information for a numerical answer without $n$ or $C_v$. Let's use $PV = nRT$
+We don"t have enough information for a numerical answer without $n$ or $C_v$. Let's use $PV = nRT$
 at the start of process B:
 
 $T_B = P_B V_B/(nR) = 2.0 \times 10^5 \times 5.0 \times 10^{-3}/(nR)$

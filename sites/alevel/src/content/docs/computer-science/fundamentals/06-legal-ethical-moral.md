@@ -1,6 +1,6 @@
 ---
 title: Legal, Ethical, and Moral Issues
-description: 'Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions Requiring you to apply legislation to scenarios. CIE and...'
+description: "Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions Requiring you to apply legislation to scenarios. CIE and...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - ComputerScience
@@ -92,7 +92,7 @@ Act 2015.
 
 #### Case Law
 
-- **R v. Gold and O'Brien (1988):** The defendants accessed the BT Prestel system through a Prestel
+- **R v. Gold and O"Brien (1988):** The defendants accessed the BT Prestel system through a Prestel
   engineer's account. They accessed the Duke of Edinburgh's mailbox and left a message. Existing
   forgery and theft laws could not accommodate this, demonstrating the need for specific
   legislation. This case directly prompted the Computer Misuse Act 1990.

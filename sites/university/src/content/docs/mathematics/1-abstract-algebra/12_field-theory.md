@@ -3,7 +3,7 @@ title: Field Theory
 tags:
   - Mathematics
   - University
-description: 'A is an inclusion of fields. We write and call an of . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A is an inclusion of fields. We write and call an of . Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 12.1 Field Extensions
@@ -45,7 +45,7 @@ giving a polynomial relation $f(\alpha) = 0$. $\blacksquare$
 
 ### 12.3 Constructing Extension Fields
 
-**Theorem 12.4 (Kronecker's Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
+**Theorem 12.4 (Kronecker"s Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
 $E = F[x] / (f)$ is a field extension of $F$ containing a root of $f$.
 
 _Proof._ Since $f$ is irreducible and $F[x]$ is a PID, $(f)$ is a maximal ideal, so $E = F[x]/(f)$

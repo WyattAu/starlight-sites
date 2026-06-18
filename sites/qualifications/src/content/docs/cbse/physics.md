@@ -1,7 +1,7 @@
 ---
 title: CBSE Physics Study Guide
 date: 2026-05-31
-description: 'This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble'
+description: "This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble''
 tags:
   - cbse
   - physics
@@ -25,7 +25,7 @@ theory paper includes MCQs, very-short-answer (1-mark), short-answer (2-3 marks)
 
 ### 1.1 Laws of Motion
 
-**Newton's Laws:**
+**Newton"s Laws:**
 
 1. An object remains at rest or in uniform motion unless acted upon by a net external force.
 2. $\vec{F}_{\text{net}} = m\vec{a}$

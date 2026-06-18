@@ -1,6 +1,6 @@
 ---
-title: 'Genetics -- Diagnostic Tests'
-description: 'IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
+title: "Genetics -- Diagnostic Tests''
+description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."'
 tableOfContents: false
 ---
 
@@ -91,7 +91,7 @@ probability that their son is colour-blind? What is the probability that a daugh
 
 Let $X^C$ = normal vision allele (dominant), $X^c$ = colour-blind allele (recessive).
 
-Woman's genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
+Woman"s genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
 have passed $X^C$ (since the woman has normal vision, she must have at least one $X^C$). Therefore,
 the woman is $X^CX^c$ (carrier).
 

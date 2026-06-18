@@ -1,6 +1,6 @@
 ---
 title: Biotechnology
-description: 'Recombinant DNA technology involves combining DNA from different sources to create new, artificial DNA molecules that can be introduced into host organisms....'
+description: "Recombinant DNA technology involves combining DNA from different sources to create new, artificial DNA molecules that can be introduced into host organisms....''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -25,7 +25,7 @@ engineering** and **genetic modification (GM)**.
 
 **Restriction endonucleases (restriction enzymes)** cut DNA at specific recognition sequences. These
 sequences are 4--8 base pairs long and palindromic (the sequence reads the same on both strands in
-the 5' to 3' direction).
+the 5" to 3' direction).
 
 | Enzyme  | Recognition Sequence | Cut Type  | Sticky Ends |
 | ------- | -------------------- | --------- | ----------- |

@@ -1,6 +1,6 @@
 ---
 title: Paper 1 Unseen Practice
-description: 'This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis...'
+description: "This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis...''
 ---
 
 # Paper 1 Unseen Practice
@@ -95,7 +95,7 @@ Each body paragraph should follow the PEAL framework:
 - **Evidence:** Introduce a brief, grammatically integrated quotation from the passage
 - **Analysis:** Explain how the evidence produces the identified effect -- this is the core of the
   paragraph
-- **Link:** Connect the paragraph's point back to the thesis and the guiding question
+- **Link:** Connect the paragraph"s point back to the thesis and the guiding question
 
 An alternative structure is PEEZ (Point, Evidence, Explanation, Zoom), which adds a final sentence
 that zooms out to consider the broader significance of the paragraph's finding.

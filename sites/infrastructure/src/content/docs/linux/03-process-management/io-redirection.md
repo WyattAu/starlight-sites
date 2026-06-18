@@ -1,6 +1,6 @@
 ---
 title: I/O Redirection and Pipes
-description: 'Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers...'
+description: "Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers...''
 
 ---
 
@@ -148,7 +148,7 @@ command1 | command2
 
 # Pipeline return code is the exit status of the last command
 false | true
-echo $?    # 0 (true's exit code)
+echo $?    # 0 (true"s exit code)
 
 # With pipefail, pipeline fails if ANY command fails
 set -o pipefail
@@ -417,7 +417,7 @@ seq 1 10 | xargs -n 3 echo
 find . -print0 | xargs -0 -n 1 echo
 
 # -d DELIM — custom delimiter
-echo "a:b:c" | xargs -d ':' -I {} echo "item: {}"
+echo "a:b:c" | xargs -d ': " -I {} echo "item: {}"
 
 # --max-procs or -P — parallel execution
 seq 1 20 | xargs -P 4 -I {} sleep 1 && echo {}
@@ -433,7 +433,7 @@ cat addresses.txt | xargs -L 1 curl -s -o /dev/null -w "%{http_code}\n"
 find . -name "*.log" | xargs gzip
 
 # for loop — safer, easier to add logic
-find . -name "*.log" -print0 | while IFS= read -r -d '' file; do
+find . -name "*.log" -print0 | while IFS= read -r -d ''" file; do
     echo "Compressing $file"
     gzip "$file"
 done

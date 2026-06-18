@@ -1,6 +1,6 @@
 ---
 title: Introduction to Elixir
-description: 'Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the...'
+description: "Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Elixir
@@ -41,7 +41,7 @@ of building fault-tolerant distributed systems.
 
 Valim was drawn to the Erlang ecosystem -- specifically its proven track record in
 telecommunications, messaging systems, and fault-tolerant infrastructure (WhatsApp, Discord,
-RabbitMQ all run on Erlang/BEAM). However, he found Erlang's syntax arcane and its tooling lacking
+RabbitMQ all run on Erlang/BEAM). However, he found Erlang"s syntax arcane and its tooling lacking
 the developer experience he had come to expect from the Ruby world. His goal was to create a
 language that would:
 

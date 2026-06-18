@@ -3,7 +3,7 @@ title: Fourier Series
 tags:
   - Mathematics
   - University
-description: 'Fourier Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Fourier Series: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 7.1 Definition
@@ -32,7 +32,7 @@ $a_n \pi = \int_{-\pi}^{\pi} f(x)\cos(nx)\, dx$. Similarly for $b_n$.
 
 ### 7.3 Convergence
 
-**Theorem 7.1 (Dirichlet's Theorem).** If $f$ is $2\pi$-periodic and piecewise smooth, its Fourier
+**Theorem 7.1 (Dirichlet"s Theorem).** If $f$ is $2\pi$-periodic and piecewise smooth, its Fourier
 Series converges to:
 
 - $f(x)$ at points where $f$ is continuous.

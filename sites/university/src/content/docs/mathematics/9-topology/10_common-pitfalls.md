@@ -2,7 +2,7 @@
 title: Common Pitfalls
 tags:
   - University Maths
-description: '1. False. Only finite intersections are guaranteed. Counterexample: in , , which Comprehensive educational content coverage with definitions and practice proble'
+description: "1. False. Only finite intersections are guaranteed. Counterexample: in , , which Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 1. **"Arbitrary intersections of open sets are open."** False. Only finite intersections are
@@ -16,7 +16,7 @@ description: '1. False. Only finite intersections are guaranteed. Counterexample
    $\mathbb{R}^n$ (Heine–Borel). In the cofinite topology on an infinite set, every subset is
    compact but not every subset is closed.
 
-4. **"Connected implies path-connected."** False. The topologist's sine curve is connected but not
+4. **"Connected implies path-connected."** False. The topologist"s sine curve is connected but not
    path-connected.
 
 5. **"Continuous bijections are homeomorphisms."** False. The bijection $f : [0, 2\pi) \to S^1$

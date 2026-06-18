@@ -1,6 +1,6 @@
 ---
-title: 'Human Reproduction and Homeostasis -- Diagnostic Tests'
-description: 'DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Human Reproduction and Homeostasis -- Diagnostic Tests''
+description: "DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -179,7 +179,7 @@ trigger the cooling mechanisms described in part (a) to bring the temperature ba
 (a) Response to **decreased** core body temperature:
 
 1. **Thermoreceptors** in the skin detect the decrease in temperature and send nerve impulses to the
-   **hypothalamus** (the body's thermoregulatory centre in the brain).
+   **hypothalamus** (the body"s thermoregulatory centre in the brain).
 2. The hypothalamus sends nerve impulses to various **effectors**:
 
 - **Vasoconstriction**: Arterioles near the skin surface **constrict** (narrow), reducing blood flow

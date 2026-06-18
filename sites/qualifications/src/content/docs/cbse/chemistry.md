@@ -1,7 +1,7 @@
 ---
 title: CBSE Chemistry Study Guide
 date: 2026-05-31
-description: 'Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
+description: "Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.''
 tags:
   - cbse
   - chemistry
@@ -37,7 +37,7 @@ and Organic Chemistry (28 marks).
 | Magnetic | $m_l$ | $-l, \ldots, 0, \ldots, l$ | Orbital orientation |
 | Spin | $m_s$ | $+1/2, -1/2$ | Electron spin |
 
-**Electronic configurations** follow the Aufbau principle, Hund's rule, and Pauli exclusion principle.
+**Electronic configurations** follow the Aufbau principle, Hund"s rule, and Pauli exclusion principle.
 
 **Exceptions:** $\text{Cr} = [\text{Ar}]\,3d^5\,4s^1$; $\text{Cu} = [\text{Ar}]\,3d^{10}\,4s^1$ (half-filled and
 fully-filled $d$-subshells are more stable).

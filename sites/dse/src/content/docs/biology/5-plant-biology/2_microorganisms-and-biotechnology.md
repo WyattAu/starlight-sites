@@ -1,6 +1,6 @@
 ---
 title: Microorganisms and Biotechnology
-description: 'Microorganisms are organisms that are too small to be seen with the naked eye. They are Found in all three domains of life and include bacteria, fungi, and...'
+description: "Microorganisms are organisms that are too small to be seen with the naked eye. They are Found in all three domains of life and include bacteria, fungi, and...''
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]
 categories: [DSE, Biology]
@@ -115,7 +115,7 @@ Electron microscopy is required to visualise viruses.
 
 1. **Attachment:** Virus attaches to specific receptor proteins on the host cell surface
 2. **Injection:** Viral genetic material is injected into the host cell (or the entire virus enters)
-3. **Replication:** The virus uses the host cell's ribosomes, enzymes, and raw materials to
+3. **Replication:** The virus uses the host cell"s ribosomes, enzymes, and raw materials to
    replicate its genetic material and synthesise viral proteins
 4. **Assembly:** New viral particles are assembled inside the host cell
 5. **Release:** Host cell lyses (bursts), releasing new viruses that can infect other cells

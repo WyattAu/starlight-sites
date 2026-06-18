@@ -1,6 +1,6 @@
 ---
 title: Data Structures (Advanced)
-description: 'A is a self-balancing BST satisfying five invariants: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A is a self-balancing BST satisfying five invariants: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing
@@ -112,7 +112,7 @@ _Insert 22:_ BST insert right of 18, colour red. Parent 18 is black -- no violat
 ```
 
 _Insert 8:_ BST insert left of 10, colour red. Parent 10 is red -- violation. Uncle 22 is red (case
-1). Recolour: 10 and 22 black, 18 red. Now 18's parent 7 is black -- no further violation.
+1). Recolour: 10 and 22 black, 18 red. Now 18"s parent 7 is black -- no further violation.
 
 ```
         7(B)

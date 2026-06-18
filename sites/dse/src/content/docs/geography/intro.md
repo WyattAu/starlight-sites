@@ -1,6 +1,6 @@
 ---
 title: DSE Geography
-description: 'Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style...'
+description: "Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style...''
 tableOfContents: false
 tags:
   - geography
@@ -34,7 +34,7 @@ Population geography examines the distribution, density, and growth of human pop
 concepts include population pyramids, demographic transition models, migration patterns (push and
 pull factors), and population policies. Students should understand how birth rates, death rates, and
 migration shape population structures, and be able to evaluate the effectiveness of population
-policies such as China's one-child policy or Singapore's pro-natalist measures.
+policies such as China"s one-child policy or Singapore's pro-natalist measures.
 
 Case studies often include comparisons between developed and developing countries, examining how
 differing levels of economic development affect population characteristics. The relationship between

@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure & Periodicity
-description: 'Atoms consist of three principal subatomic particles. Their properties are summa Comprehensive educational content coverage with definitions and practice proble'
+description: "Atoms consist of three principal subatomic particles. Their properties are summa Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -136,7 +136,7 @@ energies shift and $3d$ becomes lower -- this is important for transition metals
 No two electrons in the same atom can have the same set of four quantum numbers. Consequently, each
 orbital holds at most two electrons, with opposite spins.
 
-### Hund's Rule
+### Hund"s Rule
 
 Within a given subshell, electrons occupy degenerate orbitals singly first, with parallel spins,
 before pairing. This minimises electron-electron repulsion and maximises total spin.

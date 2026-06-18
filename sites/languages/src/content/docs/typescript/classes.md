@@ -1,6 +1,6 @@
 ---
 title: Classes
-description: 'A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be...'
+description: "A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be...''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -44,7 +44,7 @@ class Example {
   name: string;
 
   constructor() {
-    this.name = 'default';
+    this.name = "default';
   }
 }
 
@@ -321,7 +321,7 @@ console.log(IdGenerator.nextId());
 ```ts
 class LogEntry {
   private constructor(
-    public readonly level: 'info' | 'warn' | 'error',
+    public readonly level: "info'' | "warn' | 'error',
     public readonly message: string,
     public readonly timestamp: Date = new Date(),
   ) {}

@@ -1,6 +1,6 @@
 ---
 title: DNS and DHCP on Linux
-description: 'The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 
 ---
 
@@ -63,7 +63,7 @@ networks:   files
 ```
 
 ```text
-The 'hosts' line determines name resolution order:
+The "hosts' line determines name resolution order:
   files     — /etc/hosts (checked first)
   dns       — DNS (resolv.conf nameservers)
   myhostname — systemd's nss-myhostname (returns 127.0.0.2 for local hostname)

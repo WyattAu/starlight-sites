@@ -1,6 +1,6 @@
 ---
-title: 'Binomial Expansion -- Diagnostic Tests'
-description: 'A-Level Maths Binomial Expansion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Binomial Expansion -- Diagnostic Tests''
+description: "A-Level Maths Binomial Expansion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -202,7 +202,7 @@ That gives $1 + 3/2 + 27/16 + 27/16 + \cdots$Not matching.
 At $x = 1$: $1 + 3 + 27/4 + 27/2 + \cdots = 1 + 3 + 6.75 + 13.5 + \cdots$. Not matching either.
 
 Let me check the given series: $1, 3/2, 27/8, 135/16$. The ratio between consecutive terms:
-$3/2$$9/4$$5/2$. These aren't constant, so it's not a geometric series.
+$3/2$$9/4$$5/2$. These aren"t constant, so it's not a geometric series.
 
 Consider $(2-3x)^{-2}$ at $x = 1/2$: $(2 - 3/2)^{-2} = (1/2)^{-2} = 4$.
 

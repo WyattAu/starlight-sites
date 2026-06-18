@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: 'My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble'
+description: "My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-07-12T15:51:40.399Z
 tags:
   - Dart
@@ -47,7 +47,7 @@ curl -O https://storage.googleapis.com/dart-archive/channels/stable/release/late
 ```bash
 sudo apt update
 sudo apt install apt-transport-https
-sudo sh -c 'curl -fsSL https://dl-ssl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/dart.gpg'
+sudo sh -c "curl -fsSL https://dl-ssl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/dart.gpg'
 echo "deb [signed-by=/usr/share/keyrings/dart.gpg] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main" | sudo tee /etc/apt/sources.list.d/dart_stable.list > /dev/null
 sudo apt update
 sudo apt install dart

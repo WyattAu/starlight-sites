@@ -1,6 +1,6 @@
 ---
 title: Property Propagation
-description: 'In legacy C++ build systems (Makefiles, Visual Studio Solutions), build settings like "Include Directories" and "Preprocessor Definitions" were often global...'
+description: "In legacy C++ build systems (Makefiles, Visual Studio Solutions), build settings like "Include Directories" and "Preprocessor Definitions" were often global...''
 date: 2025-12-11T05:21:57.536Z
 tags:
   - cpp
@@ -11,7 +11,7 @@ categories:
 
 In legacy C++ build systems (Makefiles, Visual Studio Solutions), build settings like "Include
 Directories" and "Preprocessor Definitions" were often global or applied loosely to directory
-Scopes. This led to "Include Hell," where a consumer relied on a transitive dependency's headers,
+Scopes. This led to "Include Hell," where a consumer relied on a transitive dependency"s headers,
 Causing build breakages when the dependency graph changed.
 
 Modern CMake (3.0+) resolves this via the **Target-Centric Model**. Every library or executable is

@@ -1,6 +1,6 @@
 ---
 title: Theory of the Firm
-description: 'IB Economics Theory of the Firm notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision.'
+description: "IB Economics Theory of the Firm notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -142,7 +142,7 @@ Customer service rather than solely through price.
 **Assumptions:**
 
 1. A few large firms dominate the market
-2. Interdependence: each firm's actions affect, and are affected by, the actions of rivals
+2. Interdependence: each firm"s actions affect, and are affected by, the actions of rivals
 3. High barriers to entry (economies of scale, brand loyalty, patents, strategic barriers)
 4. Products may be homogeneous (e.g., oil) or differentiated (e.g., cars, smartphones)
 

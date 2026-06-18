@@ -1,6 +1,6 @@
 ---
 title: Packing and Garbage Collection
-description: 'Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2025-06-03T13:00:00.000Z
 tags:
   - git
@@ -126,7 +126,7 @@ $ git gc --prune=now
 :::caution
 
 `git gc --prune=now` is **permanent**. After pruning, unreachable objects cannot be recovered.
-Always verify with `git fsck --unreachable` first, and ensure you don't need the objects (e.g.,
+Always verify with `git fsck --unreachable` first, and ensure you don"t need the objects (e.g.,
 they're not needed for a reflog-based recovery).
 
 ## Garbage Collection

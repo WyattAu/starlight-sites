@@ -1,6 +1,6 @@
 ---
-title: 'Theory of the Firm -- Diagnostic Tests'
-description: 'A-Level Economics Theory of the Firm -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Theory of the Firm -- Diagnostic Tests''
+description: "A-Level Economics Theory of the Firm -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -120,7 +120,7 @@ a Lerner Index of 0.
 
 ---
 
-### UT-3: Game Theory -- Prisoner's Dilemma
+### UT-3: Game Theory -- Prisoner"s Dilemma
 
 **Question:** Two firms (A and B) in a duopoly can choose to set a high price or a low price. The
 payoff matrix (profits in $\pounds$M) is:

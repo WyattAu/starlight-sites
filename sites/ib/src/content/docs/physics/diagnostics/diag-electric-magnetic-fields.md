@@ -1,6 +1,6 @@
 ---
-title: 'Electric and Magnetic Fields -- Diagnostic Tests'
-description: 'IB Physics Electric and Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Electric and Magnetic Fields -- Diagnostic Tests''
+description: "IB Physics Electric and Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -262,7 +262,7 @@ Rate of change of area: $\frac{dA}{dt} = -wv = -0.10 \times 5.0 = -0.50\,\text{m
 Induced EMF (magnitude):
 $\varepsilon = B \times w \times v = 0.50 \times 0.10 \times 5.0 = 0.25\,\text{V}$
 
-By Lenz's law, the induced current opposes the decrease in flux, so it creates a field into the page
+By Lenz"s law, the induced current opposes the decrease in flux, so it creates a field into the page
 inside the loop. By the right-hand rule, the current flows clockwise.
 
 Current: $I = \varepsilon/R = 0.25/2.0 = 0.125\,\text{A}$

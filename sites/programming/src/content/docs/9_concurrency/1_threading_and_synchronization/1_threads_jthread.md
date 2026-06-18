@@ -1,6 +1,6 @@
 ---
 title: Thread Execution (std::jthread) and Hardware Mapping
-description: 'This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via...'
+description: "This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -27,7 +27,7 @@ Function pointer, a lambda, a functor, or any movable callable object [N4950 §3
 1. **Automatic joining**: The destructor calls `join()` if the thread is still joinable, preventing
    accidental detachment or termination.
 2. **Cooperative cancellation**: A `std::stop_token` is automatically created and can be passed to
-   the thread's callable, enabling request-based cancellation.
+   the thread"s callable, enabling request-based cancellation.
 
 ```cpp
 #include <iostream>

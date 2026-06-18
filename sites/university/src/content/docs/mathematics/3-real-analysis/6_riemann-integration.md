@@ -3,7 +3,7 @@ title: Riemann Integration
 tags:
   - Mathematics
   - University
-description: 'Riemann Integration: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Riemann Integration: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 6.1 Definition
@@ -76,7 +76,7 @@ $\blacksquare$
 **Proposition 6.4a.** The set of Riemann integrable functions on $[a,b]$ forms a vector space, and
 If $f$ and $g$ are integrable, then so are $|f|$, $f^2$And $\max(f, g)$.
 
-**Theorem 6.4b (Lebesgue's Criterion for Riemann Integrability).** A bounded function
+**Theorem 6.4b (Lebesgue"s Criterion for Riemann Integrability).** A bounded function
 $f : [a,b] \to \mathbb{R}$ Is Riemann integrable if and only if the set of its discontinuities has
 (Lebesgue) measure zero.
 

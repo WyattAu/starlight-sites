@@ -1,6 +1,6 @@
 ---
 title: Projections and Callable Objects
-description: 'A is a callable that transforms an element before it is passed to an algorithm's Predicate or comparison function. Projections are a C++20 ranges feature...'
+description: "A is a callable that transforms an element before it is passed to an algorithm''s Predicate or comparison function. Projections are a C++20 ranges feature..."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

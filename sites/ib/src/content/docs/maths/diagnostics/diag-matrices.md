@@ -1,6 +1,6 @@
 ---
-title: 'Matrices -- Diagnostic Tests'
-description: 'IB Maths Matrices -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.'
+title: "Matrices -- Diagnostic Tests''
+description: "IB Maths Matrices -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."'
 tableOfContents: false
 ---
 
@@ -54,7 +54,7 @@ Setting $AX = XA$:
 
 So $X = \begin{pmatrix} 0 & b \\ 0 & 0 \end{pmatrix}$ for any $b \in \mathbb{R}$.
 
-**(c)** The student's error is a logical fallacy: the fact that $B$ does not commute with $A$ does
+**(c)** The student"s error is a logical fallacy: the fact that $B$ does not commute with $A$ does
 not imply that _no_ matrix commutes with $A$. The identity matrix $I$The zero matrix $O$And all
 scalar multiples of $I$ commute with every matrix. Part (b) shows that there is in fact a
 one-parameter family of matrices commuting with $A$.

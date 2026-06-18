@@ -1,6 +1,6 @@
 ---
-title: 'Momentum -- Diagnostic Tests'
-description: 'A-Level Physics Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
+title: "Momentum -- Diagnostic Tests''
+description: "A-Level Physics Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."'
 tableOfContents: false
 ---
 
@@ -84,7 +84,7 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 (a) Speed just before first impact:
 $v = \sqrt{2gh} = \sqrt◆LB◆2 \times 9.81 \times 2.0◆RB◆ = \sqrt{39.24} = 6.264\,\text{m}\,\text{s}^{-1}$
 
-Speed after first bounce: $v' = ev = 0.80 \times 6.264 = 5.012\,\text{m}\,\text{s}^{-1}$
+Speed after first bounce: $v" = ev = 0.80 \times 6.264 = 5.012\,\text{m}\,\text{s}^{-1}$
 
 Height after first bounce: $h' = v'^2/(2g) = 25.12/19.62 = 1.280\,\text{m}$
 

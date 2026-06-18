@@ -3,7 +3,7 @@ title: Normed Spaces and Banach Spaces
 tags:
   - Mathematics
   - University
-description: 'A is a vector space over or together with a Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A is a vector space over or together with a Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 1.1 Normed Spaces
@@ -44,7 +44,7 @@ not (it is not complete: the limit of continuous functions in $L^1$-norm may be 
 
 **Corollary 1.5.** Every finite-dimensional normed space is a Banach space.
 
-**Theorem 1.6 (Riesz's Lemma).** Let $X$ be a normed space and $Y$ a proper closed subspace. For
+**Theorem 1.6 (Riesz"s Lemma).** Let $X$ be a normed space and $Y$ a proper closed subspace. For
 every $0 < \theta < 1$, there exists $x \in X$ with $\|x\| = 1$ and $d(x, Y) \geq \theta$.
 
 **Corollary 1.7.** The closed unit ball of a normed space is compact if and only if the space is

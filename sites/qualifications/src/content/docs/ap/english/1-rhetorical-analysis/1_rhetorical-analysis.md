@@ -1,6 +1,6 @@
 ---
 title: Rhetorical Analysis
-description: 'Before analysing any text, identify the -- the context in which the text was produced. The SOAPStone framework provides a systematic approach:'
+description: "Before analysing any text, identify the -- the context in which the text was produced. The SOAPStone framework provides a systematic approach: "''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -23,9 +23,9 @@ was produced. The SOAPStone framework provides a systematic approach:
 - **Purpose**: What is the author trying to accomplish? (To persuade, inform, entertain, inspire,
   warn?)
 - **Subject**: What is the text about? What is the main topic and the specific claim?
-- **Tone**: What is the author's attitude toward the subject and audience?
+- **Tone**: What is the author"s attitude toward the subject and audience?
 
-Understanding the rhetorical situation is essential because the author's choices -- every word,
+Understanding the rhetorical situation is essential because the author"s choices -- every word,
 sentence structure, and device -- are shaped by these factors.
 
 ## The Rhetorical Triangle

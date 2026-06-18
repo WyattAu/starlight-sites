@@ -3,7 +3,7 @@ title: Diffraction
 tags:
   - Physics
   - University
-description: 'Every point on a wavefront acts as a source of secondary spherical wavelets. The new wavefront is the Envelope of these wavelets, accounting for both...'
+description: "Every point on a wavefront acts as a source of secondary spherical wavelets. The new wavefront is the Envelope of these wavelets, accounting for both...''
 ---
 
 ### 4.1 Huygens-Fresnel Principle
@@ -190,7 +190,7 @@ the Airy disk.
 <summary>Worked Example: Telescope resolving power</summary>
 
 **Problem.** A telescope has a primary mirror of diameter $D = 150$ mm. Find its angular resolution
-At $\lambda = 550$ nm. Two stars are separated by $0.50''$ (arcseconds). Can this telescope resolve
+At $\lambda = 550$ nm. Two stars are separated by $0.50"'$ (arcseconds). Can this telescope resolve
 Them?
 
 **Solution.** Angular resolution:

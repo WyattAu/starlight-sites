@@ -1,6 +1,6 @@
 ---
 title: Particle Physics
-description: 'ALEVEL Physics notes: Particle Physics. Comprehensive study material with definitions, examples, and assessment tools. particle physics study guide.'
+description: "ALEVEL Physics notes: Particle Physics. Comprehensive study material with definitions, examples, and assessment tools. particle physics study guide.''
 date: 2026-04-23T00:00:00.000Z
 tags: [Physics, ALevel]
 categories: [Physics]
@@ -189,7 +189,7 @@ $$e^- + e^+ \to 2\gamma$$
 
 Two photons are required (not one) to conserve both energy and momentum.
 
-### Dirac's Prediction
+### Dirac"s Prediction
 
 Dirac (1928) combined quantum mechanics with special relativity, obtaining an equation that
 Predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray

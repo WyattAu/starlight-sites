@@ -5,7 +5,7 @@ tags:
   - SAT
 categories:
   - SAT
-description: 'This page contains five full practice passages modelled after the digital SAT Reading & Writing section. Each passage is followed by annotated answers that...'
+description: "This page contains five full practice passages modelled after the digital SAT Reading & Writing section. Each passage is followed by annotated answers that...''
 ---
 
 ## Overview
@@ -44,7 +44,7 @@ against a window, the distant groan of a pipe"
 
 A) unfamiliar B) threatening C) vacant D) damaged
 
-**Q3.** The narrator's description of Clara's experience primarily serves to
+**Q3.** The narrator"s description of Clara's experience primarily serves to
 
 A) illustrate how neglected buildings deteriorate over time B) convey the emotional significance of
 returning to a childhood home C) critique neighbours for failing to maintain abandoned properties D)

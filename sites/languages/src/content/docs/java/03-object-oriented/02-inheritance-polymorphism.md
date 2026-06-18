@@ -1,6 +1,6 @@
 ---
 title: Inheritance and Polymorphism
-description: 'Inheritance allows a class (subclass) to extend another class (superclass), acquiring its fields and Methods. The keyword establishes an "is-a"...'
+description: "Inheritance allows a class (subclass) to extend another class (superclass), acquiring its fields and Methods. The keyword establishes an "is-a"...''
 
 ---
 
@@ -70,7 +70,7 @@ public class Dog extends Animal {
 - The method must have the same name, return type, and parameter list.
 - The access level cannot be more restrictive (can widen, not narrow).
 - Cannot override `static``final`Or `private` methods (static methods are hidden, not overridden).
-- Cannot throw checked exceptions that are broader than the superclass method's exceptions (can
+- Cannot throw checked exceptions that are broader than the superclass method"s exceptions (can
   narrow, not widen).
 
 ### The `super` Keyword

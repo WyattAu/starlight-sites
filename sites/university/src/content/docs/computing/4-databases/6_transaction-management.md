@@ -3,7 +3,7 @@ title: Transaction Management
 tags:
   - Computing
   - University
-description: 'A is a logical unit of work that must satisfy: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A is a logical unit of work that must satisfy: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 6.1 ACID Properties
@@ -55,7 +55,7 @@ Precedence constraints, so the schedule is not conflict-serialisable. Conversely
 Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksquare$
 
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
-Serial schedule $S'$. View equivalence requires:
+Serial schedule $S"$. View equivalence requires:
 
 1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$It does so in $S'$.
 2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$It does so in $S'$.

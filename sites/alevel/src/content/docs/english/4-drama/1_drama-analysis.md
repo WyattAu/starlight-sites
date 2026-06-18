@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: 'A-Level English Drama Analysis notes covering key definitions, core concepts, worked examples, and practice questions for solid exam preparation and mastery.'
+description: "A-Level English Drama Analysis notes covering key definitions, core concepts, worked examples, and practice questions for solid exam preparation and mastery.''
 
 ---
 
@@ -58,7 +58,7 @@ The structure of a play determines how the story unfolds in time and how tension
 | Resolution / denouement      | The final outcome                                | Provides closure or deliberate lack of closure                |
 | Dramatic irony               | When the audience knows more than characters     | Creates tension, humour, or poignancy                         |
 | Anagnorisis                  | A moment of discovery or recognition             | The protagonist realises a crucial truth                      |
-| Peripeteia                   | A reversal of fortune                            | The protagonist's situation changes dramatically              |
+| Peripeteia                   | A reversal of fortune                            | The protagonist"s situation changes dramatically              |
 | Catharsis                    | The purging of pity and fear                     | Emotional release experienced by the audience                 |
 | Subplot                      | A secondary plot running alongside the main plot | Reflects, contrasts with, or comments on the main plot        |
 | Unity of time, place, action | Classical dramatic unities                       | Creates intensity, compression, and focus                     |

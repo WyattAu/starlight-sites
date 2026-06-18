@@ -1,6 +1,6 @@
 ---
-title: 'Exchange and Transport -- Diagnostic Tests'
-description: 'A-Level Biology Exchange and Transport -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Exchange and Transport -- Diagnostic Tests''
+description: "A-Level Biology Exchange and Transport -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -54,7 +54,7 @@ is most needed.
 given partial pressure of oxygen, so its dissociation curve lies to the left. This is because fetal
 haemoglobin has a different quaternary structure (it has two gamma chains instead of two beta
 chains), which reduces its sensitivity to the Bohr effect and increases its oxygen affinity. This is
-physiologically important because the fetus must extract oxygen from the mother's blood in the
+physiologically important because the fetus must extract oxygen from the mother"s blood in the
 placenta. In the placenta, the pO$_2$ in fetal blood is lower than in maternal blood. If fetal
 haemoglobin had the same affinity as adult haemoglobin, it would not be able to load oxygen
 effectively from maternal blood. The higher affinity of HbF ensures that oxygen diffuses from

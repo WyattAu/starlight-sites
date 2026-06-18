@@ -3,7 +3,7 @@ title: Reciprocal Lattice
 tags:
   - Physics
   - University
-description: 'Reciprocal Lattice: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Reciprocal Lattice: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 2.1 Definition
@@ -122,7 +122,7 @@ Wave vector $\mathbf{k}$ (with $\lvert\mathbf{k}\rvert = 2\pi/\lambda$) and the 
 1. Draw $\mathbf{k}$ terminating at the origin of reciprocal space.
 2. Construct a sphere of radius $k = 2\pi/\lambda$ centred at the start of $\mathbf{k}$.
 3. Diffraction occurs for every reciprocal lattice point $\mathbf{G}$ that lies on the sphere, since
-   then $\mathbf{k}' = \mathbf{k} + \mathbf{G}$ also has $\lvert\mathbf{k}'\rvert = k$ (elastic
+   then $\mathbf{k}" = \mathbf{k} + \mathbf{G}$ also has $\lvert\mathbf{k}'\rvert = k$ (elastic
    scattering condition).
 
 **Implications:**

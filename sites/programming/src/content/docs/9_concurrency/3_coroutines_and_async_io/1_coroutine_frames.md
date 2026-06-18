@@ -1,6 +1,6 @@
 ---
 title: Stackless Coroutine Frames and Heap Allocation
-description: 'This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off, Coroutine frame layout, heap allocation and elision,...'
+description: "This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off, Coroutine frame layout, heap allocation and elision,...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -24,7 +24,7 @@ C++20 coroutine mechanism is defined in terms of three keywords:
 
 - `co_await`: suspend execution until an awaitable completes [N4950 §9.5.4].
 - `co_yield`: suspend execution while producing a value (syntactic sugar for `co_await` on the
-  promise's `yield_value`).
+  promise"s `yield_value`).
 - `co_return`: complete the coroutine and return a value.
 
 Any function body containing one of these keywords is a **coroutine** [N4950 §9.5.2]. The compiler

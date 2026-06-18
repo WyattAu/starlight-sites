@@ -1,6 +1,6 @@
 ---
 title: CPU Architecture and Tuning
-description: 'A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because...'
+description: "A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because...''
 
 ---
 
@@ -12,7 +12,7 @@ Or more of these mechanisms.
 
 ### Instruction Pipeline
 
-Every x86 instruction passes through a series of pipeline stages. Intel's Golden Cove (12th Gen
+Every x86 instruction passes through a series of pipeline stages. Intel"s Golden Cove (12th Gen
 P-core) has a pipeline depth of approximately 19 stages; AMD's Zen 4 is roughly 16 stages. Pipeline
 Depth is a fundamental trade-off:
 

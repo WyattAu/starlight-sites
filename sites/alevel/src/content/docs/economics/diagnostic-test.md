@@ -1,6 +1,6 @@
 ---
 title: Economics Diagnostic Test
-description: 'This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a Specific concept, requires 2–5 steps, and includes a...'
+description: "This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a Specific concept, requires 2–5 steps, and includes a...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -40,7 +40,7 @@ This is a **normative** statement. It uses "should," which expresses a value jud
 <i>Revision: [The Economic Problem](/docs/alevel/economics/microeconomics/the-economic-problem)</i>
 </details>
 
-**Q3.** An economy's PPF is $C = 100 - F^2/50$ where $C$ is consumer goods and $F$ is food. Is the
+**Q3.** An economy"s PPF is $C = 100 - F^2/50$ where $C$ is consumer goods and $F$ is food. Is the
 Opportunity cost of food increasing, constant, or decreasing? Prove your answer.
 
 <details>

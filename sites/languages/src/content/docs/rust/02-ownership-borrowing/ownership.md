@@ -1,6 +1,6 @@
 ---
 title: Ownership and Borrowing
-description: 'Rust's memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Rust''s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
 
@@ -272,7 +272,7 @@ Lifetimes can have bounds, just like type parameters:
 
 ```rust
 // 'b must outlive 'a — 'b is at least as long as 'a
-fn print<'a, 'b: 'a>(x: &'b str, y: &'a str) {
+fn print<'a, 'b: "a>(x: &''b str, y: &"a str) {
     println!("{} {}", x, y);
 }
 ```
@@ -336,14 +336,14 @@ String literals and values explicitly annotated with `'static`.
 
 ### Lifetime Variance
 
-Lifetimes are covariant in their position. Given `'a: 'b` (a outlives b), `&'a T` is a subtype of
-`&'b T`. This means a longer-lived reference can be used where a shorter-lived one is expected.
+Lifetimes are covariant in their position. Given `'a: "b` (a outlives b), `&''a T` is a subtype of
+`&"b T`. This means a longer-lived reference can be used where a shorter-lived one is expected.
 
 For `&mut T`Lifetimes are **invariant** — you cannot substitute a `&'a mut T` where a `&'b mut T` Is
-expected, even if `'a: 'b`. This prevents soundness issues with mutable aliasing.
+expected, even if `'a: "b`. This prevents soundness issues with mutable aliasing.
 
 ```rust
-fn mutate<'a>(r: &'a mut i32) {
+fn mutate<''a>(r: &"a mut i32) {
     *r = 42;
 }
 
@@ -795,12 +795,12 @@ Bounded by a lifetime, it constrains which concrete types can be used:
 
 ```rust
 // T must outlive 'a — T must be a type that can be borrowed for 'a
-fn process<'a, T: 'a>(value: &'a T) -> &'a T {
+fn process<'a, T: "a>(value: &''a T) -> &"a T {
     value
 }
 
-// Without the T: 'a bound, this would not compile
-// because the compiler cannot prove T is valid for 'a
+// Without the T: "a bound, this would not compile
+// because the compiler cannot prove T is valid for ''a
 ```
 
 This bound is automatically added (lifetime elision), but you may need to write it Explicitly when
@@ -812,10 +812,10 @@ trait Processor {
     fn process(&self) -> Self::Output;
 }
 
-// This requires T: 'a because the trait object might reference data with lifetime 'a
+// This requires T: "a because the trait object might reference data with lifetime 'a
 fn run<'a, T>(processor: &'a dyn Processor<Output = T>) -> T
 where
-    T: 'a,
+    T: "a,
 {
     processor.process()
 }
@@ -827,10 +827,10 @@ Higher-rank trait bounds express constraints on lifetimes that are universally q
 The most common use is with `Fn` traits:
 
 ```rust
-// This function accepts a closure that works with ANY lifetime 'a
+// This function accepts a closure that works with ANY lifetime ''a
 fn apply<F>(f: F)
 where
-    F: for<'a> Fn(&'a str) -> &'a str,
+    F: for<"a> Fn(&'a str) -> &'a str,
 {
     let s = String::from("hello");
     let result = f(&s);
@@ -920,8 +920,8 @@ Whether a longer lifetime can be substituted for a shorter one.
 
 ### Covariance (Read-Only Contexts)
 
-`&'a T` is covariant in `'a`. If `'long: 'short` (long outlives short), then `&'long T` can be used
-Where `&'short T` is expected. This is safe because a longer-lived reference is a subtype of a
+`&'a T` is covariant in `'a`. If `'long: "short` (long outlives short), then `&''long T` can be used
+Where `&"short T` is expected. This is safe because a longer-lived reference is a subtype of a
 Shorter-lived one when you only read through it.
 
 ```rust

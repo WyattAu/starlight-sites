@@ -3,7 +3,7 @@ title: Wave Functions and the Schrodinger Equation
 tags:
   - Physics
   - University
-description: 'In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble'
+description: "In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 3.1 Wave Functions
@@ -112,7 +112,7 @@ Total probability is conserved under time evolution. $\blacksquare$
 $$\hat{U}(t_2, t_0) = \hat{U}(t_2, t_1)\,\hat{U}(t_1, t_0)$$
 
 This composition law, combined with unitarity, is the group structure underlying quantum dynamics.
-For a time-dependent Hamiltonian, the evolution operator is given by Dyson's time-ordered
+For a time-dependent Hamiltonian, the evolution operator is given by Dyson"s time-ordered
 exponential:
 
 $$\hat{U}(t, t_0) = \mathcal{T}\exp\!\left(-\frac{i}{\hbar}\int_{t_0}^{t}\hat{H}(t')\,dt'\right)$$

@@ -1,6 +1,6 @@
 ---
-title: 'Ecology -- Diagnostic Tests'
-description: 'IB Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+title: "Ecology -- Diagnostic Tests''
+description: "IB Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
 tableOfContents: false
 ---
 
@@ -185,7 +185,7 @@ one of the most concerning tipping points in the climate system.
 **Question:** A nature reserve contains a population of 200 individuals of an endangered species.
 Genetic analysis shows a heterozygosity of 0.08. Calculate the effective population size ($N_e$) if
 the expected heterozygosity under Hardy-Weinberg equilibrium is 0.12. Explain why $N_e$ might be
-lower than the census population size and discuss the implications for the species' long-term
+lower than the census population size and discuss the implications for the species" long-term
 survival.
 
 **Solution:**

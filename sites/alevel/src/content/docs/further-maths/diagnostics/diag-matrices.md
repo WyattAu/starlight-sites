@@ -1,6 +1,6 @@
 ---
-title: 'Matrices -- Diagnostic Tests'
-description: 'A-Level Further Maths Matrices -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Matrices -- Diagnostic Tests''
+description: "A-Level Further Maths Matrices -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
 tableOfContents: false
 ---
 

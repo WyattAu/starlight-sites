@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: 'A-Level Psychology Issues and Debates notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+description: "A-Level Psychology Issues and Debates notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.''
 
 ---
 
@@ -70,7 +70,7 @@ environmental factors (nurture) to the development of behaviour and psychologica
 
 ### Free Will vs. Determinism
 
-**Determinism** is the view that all behaviour is caused by prior forces beyond the individual's
+**Determinism** is the view that all behaviour is caused by prior forces beyond the individual"s
 control. Behaviour is predictable and follows universal laws.
 
 **Types of determinism:**

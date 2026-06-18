@@ -7,7 +7,7 @@ tags:
   - science
 categories:
   - SAT
-description: 'This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other...'
+description: "This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other...''
 ---
 
 ## Overview
@@ -301,7 +301,7 @@ volume was 2.00 m³?
 
 **Solution:**
 
-Using Boyle's Law ($P_1 V_1 = P_2 V_2$):
+Using Boyle"s Law ($P_1 V_1 = P_2 V_2$):
 
 $$V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3$$
 

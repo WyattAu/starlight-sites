@@ -1,7 +1,7 @@
 ---
 title: Reading and Writing
 date: 2026-05-30
-description: 'The Reading & Writing section of the digital SAT consists of across , split into two adaptive modules of 27 questions each (32 minutes per module). All...'
+description: "The Reading & Writing section of the digital SAT consists of across , split into two adaptive modules of 27 questions each (32 minutes per module). All...''
 tags:
   - sat
   - reading
@@ -57,7 +57,7 @@ determine how a claim is supported by specific evidence.
 
 1. Read the question stem first to identify what evidence you need.
 2. Scan the passage for the specific line or detail referenced.
-3. Eliminate answer choices that cite irrelevant text or misrepresent the passage's meaning.
+3. Eliminate answer choices that cite irrelevant text or misrepresent the passage"s meaning.
 4. The correct answer will be directly supported by the text -- avoid answers that require
    assumptions or outside knowledge.
 

@@ -1,6 +1,6 @@
 ---
 title: Moments
-description: '| Board | Paper | Notes | | ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -485,7 +485,7 @@ A uniform beam $AB$ of weight $W$ and length $2l$ rests on a support at its midp
 
 <details>
 <summary>Solution 4</summary>
-Taking moments about $C$: the man's weight creates a moment of $3W(x-l)$.
+Taking moments about $C$: the man"s weight creates a moment of $3W(x-l)$.
 
 The beam remains in equilibrium as long as neither end lifts off, i.e., the reaction at each end is
 Non-negative.

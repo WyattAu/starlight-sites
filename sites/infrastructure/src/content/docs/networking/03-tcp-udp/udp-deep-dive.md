@@ -1,6 +1,6 @@
 ---
 title: UDP Deep Dive
-description: 'UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees....'
+description: "UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees....''
 tags:
   - Networking
 categories:
@@ -158,7 +158,7 @@ DNS uses UDP for queries and responses under 512 bytes (originally; EDNS0 extend
 Response exceeds the limit, the server sets the TC (Truncation) bit, and the client retries over
 TCP.
 
-Why UDP: DNS queries are small, a single request-response pair, and the overhead of TCP's three-way
+Why UDP: DNS queries are small, a single request-response pair, and the overhead of TCP"s three-way
 Handshake (3 packets) would exceed the query itself (1 packet). UDP gets the answer in one round
 Trip instead of three.
 

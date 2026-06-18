@@ -1,6 +1,6 @@
 ---
 title: Market Structure and Theory of the Firm
-description: 'A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of...'
+description: "A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -151,7 +151,7 @@ Total supernormal profit = `15 \times 16.67 = 250`.
 | `P = MC`  | Allocative efficiency achieved |
 
 Normal profit is the minimum profit necessary to keep the firm in the industry. It is the
-Opportunity cost of the entrepreneur's time and capital. When `P = ATC`Total revenue equals total
+Opportunity cost of the entrepreneur"s time and capital. When `P = ATC`Total revenue equals total
 Cost (including implicit costs), so economic profit is zero but accounting profit is positive.
 
 **Case 3: Subnormal profit (loss)** (`P \lt ATC` but `P \gt AVC`)

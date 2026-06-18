@@ -1,6 +1,6 @@
 ---
 title: Cognitive Development
-description: 'Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and Understanding that occur from infancy through...'
+description: "Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and Understanding that occur from infancy through...''
 
 ---
 
@@ -8,7 +8,7 @@ description: 'Cognitive development refers to the progressive changes in thinkin
 
 Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and
 Understanding that occur from infancy through adulthood. The two most influential theories of
-Cognitive development are Jean Piaget's stage theory and Lev Vygotsky's sociocultural theory, which
+Cognitive development are Jean Piaget"s stage theory and Lev Vygotsky's sociocultural theory, which
 Offer fundamentally different accounts of the mechanisms and processes underlying cognitive change.
 
 ## Piaget's Theory of Cognitive Development

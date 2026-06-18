@@ -6,7 +6,7 @@ tags:
   - alevel-english
 categories:
   - alevel-english
-description: 'A-Level English Poetry Analysis notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
+description: "A-Level English Poetry Analysis notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.''
 
 ---
 
@@ -49,7 +49,7 @@ helps you understand how a poem controls pace and emphasis.
 
 | Meter     | Pattern                                        | Example                                                   |
 | --------- | ---------------------------------------------- | --------------------------------------------------------- |
-| Iambic    | Unstressed / Stressed (da-DUM)                 | "Shall I compare thee to a summer's day?"                 |
+| Iambic    | Unstressed / Stressed (da-DUM)                 | "Shall I compare thee to a summer"s day?"                 |
 | Trochaic  | Stressed / Unstressed (DUM-da)                 | "Tyger Tyger, burning bright"                             |
 | Anapestic | Unstressed / Unstressed / Stressed (da-da-DUM) | "And the sheen of their spears was like stars on the sea" |
 | Dactylic  | Stressed / Unstressed / Unstressed (DUM-da-da) | "Just for a handful of silver he left us"                 |

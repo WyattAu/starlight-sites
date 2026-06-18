@@ -1,6 +1,6 @@
 ---
 title: Stress Testing and Validation
-description: 'Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems.''
 
 ---
 
@@ -78,7 +78,7 @@ Miss:
 | OCCT Memory        | 60 min   | Memory-specific errors              |
 | OCCT Power         | 30 min   | PSU voltage stability under load    |
 
-OCCT is particularly effective at catching marginal instability that Prime95's large FFT sizes do
+OCCT is particularly effective at catching marginal instability that Prime95"s large FFT sizes do
 Not exercise. Use OCCT as a secondary test after Prime95 passes.
 
 ### AIDA64

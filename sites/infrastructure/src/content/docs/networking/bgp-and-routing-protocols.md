@@ -1,6 +1,6 @@
 ---
 title: BGP and Routing Protocols
-description: 'Routing is the process of selecting a path across a network for traffic to travel from a source to a Destination. Every packet your systems send -- whether...'
+description: "Routing is the process of selecting a path across a network for traffic to travel from a source to a Destination. Every packet your systems send -- whether...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Networking
@@ -100,7 +100,7 @@ Unreachable.
 | iBGP             | 200                     |
 | Unknown          | 255                     |
 
-:::info Administrative distance is a Cisco concept, but the principle exists in other vendors'
+:::info Administrative distance is a Cisco concept, but the principle exists in other vendors"
 Implementations under different names (route preference, distance, or trust value). The numeric
 Values may differ.
 :::

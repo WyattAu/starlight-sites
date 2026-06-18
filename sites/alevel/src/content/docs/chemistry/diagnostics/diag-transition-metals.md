@@ -1,6 +1,6 @@
 ---
-title: 'Transition Metals -- Diagnostic Tests'
-description: 'A-Level Chemistry Transition Metals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Transition Metals -- Diagnostic Tests''
+description: "A-Level Chemistry Transition Metals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -101,7 +101,7 @@ $$\text{[Cu(NH}_3\text{)}_4\text{]}^{2+}(aq) + 4\text{H}^+(aq) + 4\text{H}_2\tex
 This is a **ligand substitution reaction** driven by acid-base chemistry: the added $\text{H}^+$
 reacts with $\text{NH}_3$ (a base) to form $\text{NH}_4^+$Removing ammonia ligands from the
 coordination sphere. Water molecules then fill the vacant coordination sites. The equilibrium is
-driven to the right by the removal of $\text{NH}_3$ (Le Chatelier's principle). The colour reverts
+driven to the right by the removal of $\text{NH}_3$ (Le Chatelier"s principle). The colour reverts
 towards pale blue-green (the aqua complex colour, modified by the presence of chloride ions).
 
 ---

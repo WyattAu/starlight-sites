@@ -1,6 +1,6 @@
 ---
 title: Labour Markets
-description: 'A profit-maximising firm hires labour up to the point where the equals the wage  Comprehensive educational content coverage with definitions and practice proble'
+description: "A profit-maximising firm hires labour up to the point where the equals the wage  Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -22,7 +22,7 @@ $$MRP_L = MP_L \times MR$$
 Where $MP_L = \frac◆LB◆\partial Q◆RB◆◆LB◆\partial L◆RB◆$ is the marginal physical product of labour
 and $MR = \frac◆LB◆\partial TR◆RB◆◆LB◆\partial Q◆RB◆$ is marginal revenue.
 
-**Proof.** The firm's profit as a function of labour input:
+**Proof.** The firm"s profit as a function of labour input:
 
 $$\pi(L) = TR(Q(L)) - wL - FC$$
 

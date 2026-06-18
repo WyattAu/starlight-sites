@@ -1,8 +1,8 @@
 ---
 title: Concurrency
-description: 'Concurrency is not parallelism. Concurrency is about _dealing with_ many things at once; parallelism is about _doing_ many things at once. A single-core...'
+description: "Concurrency is not parallelism. Concurrency is about _dealing with_ many things at once; parallelism is about _doing_ many things at once. A single-core...''
 date: 2025-06-05T15:00:00.000Z
-tags: ['java']
+tags: ["java']
 categories: ['java']
 
 ---

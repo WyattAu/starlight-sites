@@ -1,6 +1,6 @@
 ---
 title: Exception Handling
-description: 'Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException...'
+description: "Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException...''
 date: 2026-04-04T00:00:00.000Z
 tags:
   - Java
@@ -142,7 +142,7 @@ public String readFile(Path path) throws IOException {
         StringBuilder sb = new StringBuilder();
         String line;
         while ((line = reader.readLine()) != null) {
-            sb.append(line).append('\n');
+            sb.append(line).append("\n');
         }
         return sb.toString();
     }

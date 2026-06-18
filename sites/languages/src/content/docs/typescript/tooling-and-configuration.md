@@ -1,6 +1,6 @@
 ---
 title: Tooling and Configuration
-description: 'Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references....'
+description: "Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references....''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -374,7 +374,7 @@ This command builds all referenced projects in dependency order, incrementally. 
 ### Cross-Project Imports
 
 ```ts
-import { something } from '@myorg/core';
+import { something } from "@myorg/core';
 ```
 
 The path alias is resolved via `paths` in `tsconfig.json` or through Node.js module resolution.
@@ -408,7 +408,7 @@ declare module 'my-library' {
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      NODE_ENV: 'development' | 'production' | 'test';
+      NODE_ENV: "development'' | "production' | 'test';
       API_URL: string;
     }
   }
@@ -482,7 +482,7 @@ Expression's type:
 
 ```ts
 const config = {
-  host: 'localhost',
+  host: "localhost'',
   port: 3000,
   debug: false,
 } satisfies Record<string, string | number | boolean>;
@@ -500,14 +500,14 @@ type.
 
 ```ts
 const a: Record<string, string | number> = {
-  key: 'value',
+  key: "value',
 };
 
 const b = {
-  key: 'value',
+  key: "value'',
 } satisfies Record<string, string | number>;
 
-type A = (typeof a)['key'];
+type A = (typeof a)["key'];
 type B = (typeof b)['key'];
 ```
 

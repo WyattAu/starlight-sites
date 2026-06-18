@@ -1,6 +1,6 @@
 ---
 title: Biodiversity and Conservation
-description: 'Classification (taxonomy) is the science of grouping organisms based on shared characteristics. The Purposes of classification include:'
+description: "Classification (taxonomy) is the science of grouping organisms based on shared characteristics. The Purposes of classification include: "''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -123,9 +123,9 @@ Community B: 10 species, but one species has 91 individuals and the other 9 have
 Both communities have the same species richness (10), but Community A has higher species evenness
 And therefore higher overall species diversity.
 
-### Simpson's Diversity Index
+### Simpson"s Diversity Index
 
-Simpson's Diversity Index (D) is a quantitative measure of biodiversity that takes both species
+Simpson"s Diversity Index (D) is a quantitative measure of biodiversity that takes both species
 Richness and species evenness into account.
 
 $$D = 1 - \frac{\sum n(n-1)}{N(N-1)}$$

@@ -1,6 +1,6 @@
 ---
 title: Networking and Security
-description: 'ILC Computer Science Networking and Security notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.'
+description: "ILC Computer Science Networking and Security notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.''
 date: 2026-04-14
 tags:
   - ilc
@@ -269,7 +269,7 @@ print(f"SHA-256 hash: {hash_value}")
 
 **How HTTPS uses both:**
 
-1. Client requests server's public key (from digital certificate).
+1. Client requests server"s public key (from digital certificate).
 2. Client generates a random session key.
 3. Client encrypts session key with server's public key.
 4. Server decrypts with private key.

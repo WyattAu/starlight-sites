@@ -1,7 +1,7 @@
 ---
 title: GCSE Physics Study Guide
 date: 2026-05-31
-description: 'A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts....'
+description: "A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts....''
 tags:
   - gcse
   - physics
@@ -126,7 +126,7 @@ where $u$ is initial velocity, $v$ is final velocity, $t$ is time.
 **Typical speeds:** Walking 1.5 m/s, running 3 m/s, cycling 6 m/s, car on motorway 30 m/s, sound in
 air 330 m/s.
 
-### 2.2 Newton's Laws
+### 2.2 Newton"s Laws
 
 **First law:** An object remains at rest or moves at constant velocity unless a resultant force acts
 on it.

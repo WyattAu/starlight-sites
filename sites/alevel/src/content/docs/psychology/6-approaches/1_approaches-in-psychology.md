@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: 'A-Level Approaches in Psychology notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+description: "A-Level Approaches in Psychology notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.''
 
 ---
 
@@ -89,7 +89,7 @@ experience (as behaviourists argued) but also through observation and imitation 
 - Mental (cognitive) processes are important — learning is not merely stimulus-response.
 - Mediational processes determine whether a behaviour is imitated.
 
-**Bandura's Bobo Doll Experiment (1961):**
+**Bandura"s Bobo Doll Experiment (1961):**
 
 **Procedure:** 72 children (36 boys, 36 girls) aged 3–5 years were divided into three groups. One
 group observed an adult model behaving aggressively towards a Bobo doll (hitting, kicking, using a

@@ -1,6 +1,6 @@
 ---
 title: Incident Response
-description: 'NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...''
 
 ---
 
@@ -209,15 +209,15 @@ Detection rules translate threat intelligence into automated alerts in your SIEM
 # Sigma rule: Detect suspicious PowerShell execution
 title: Suspicious PowerShell Encoded Command
 status: production
-description: 'NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
 logsource:
   category: process_creation
   product: windows
 detection:
   selection:
-    Image|endswith: '\powershell.exe'
+    Image|endswith: "\powershell.exe''
     CommandLine|contains:
-      - '-enc'
+      - "-enc'
       - '-EncodedCommand'
       - '-w hidden'
   condition: selection
@@ -231,7 +231,7 @@ tags:
 # Sigma rule: Detect potential SSH brute force
 title: SSH Brute Force Attempt
 status: production
-description: 'NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...'
+description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...''
 logsource:
   category: authentication
   product: linux
@@ -250,7 +250,7 @@ tags:
 ### MITRE ATT&CK Mapping
 
 MITRE ATT&CK provides a framework of adversary tactics, techniques, and procedures (TTPs). Mapping
-Detected activity to ATT&CK techniques helps understand the attacker's goals and predict next steps.
+Detected activity to ATT&CK techniques helps understand the attacker"s goals and predict next steps.
 
 ```mermaid
 graph LR

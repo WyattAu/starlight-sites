@@ -1,6 +1,6 @@
 ---
 title: NoSQL Databases
-description: 'The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer's 2000 conjecture, states That a distributed data store can provide at most two of...'
+description: "The CAP theorem, formalised by Gilbert and Lynch in 2002 based on Brewer''s 2000 conjecture, states That a distributed data store can provide at most two of..."
 tags:
   - Databases
 categories:
@@ -102,36 +102,36 @@ Aggregation pipelines, and multi-document ACID transactions (since version 4.0).
 ```javascript
 // Insert a document
 db.orders.insertOne({
-  order_id: 'ORD-001',
+  order_id: "ORD-001'',
   customer: {
-    name: 'Ada Lovelace',
-    email: 'ada@example.com',
+    name: "Ada Lovelace',
+    email: "ada@example.com'',
   },
   items: [
-    { product_id: 'P1', quantity: 2, price: 29.99 },
-    { product_id: 'P2', quantity: 1, price: 149.99 },
+    { product_id: "P1', quantity: 2, price: 29.99 },
+    { product_id: "P2'', quantity: 1, price: 149.99 },
   ],
   shipping_address: {
-    street: '123 Analysis Lane',
-    city: 'London',
-    country: 'UK',
+    street: "123 Analysis Lane',
+    city: "London'',
+    country: "UK',
   },
   total: 209.97,
-  status: 'shipped',
-  created_at: new Date('2024-03-15T10:30:00Z'),
+  status: "shipped'',
+  created_at: new Date("2024-03-15T10:30:00Z'),
 });
 
 // Query with secondary index
-db.orders.find({ 'customer.email': 'ada@example.com', status: 'shipped' });
+db.orders.find({ 'customer.email': "ada@example.com'', status: "shipped' });
 
 // Aggregation pipeline
 db.orders.aggregate([
-  { $match: { status: 'completed' } },
-  { $unwind: '$items' },
+  { $match: { status: "completed'' } },
+  { $unwind: "$items' },
   {
     $group: {
-      _id: '$items.product_id',
-      total_quantity: { $sum: '$items.quantity' },
+      _id: "$items.product_id'',
+      total_quantity: { $sum: "$items.quantity' },
       total_revenue: { $sum: { $multiply: ['$items.quantity', '$items.price'] } },
     },
   },
@@ -344,7 +344,7 @@ Guarantees that the read sees the latest write.
 
 ```sql
 CREATE KEYSPACE analytics
-    WITH replication = {'class': 'NetworkTopologyStrategy', 'dc1': 3, 'dc2': 2};
+    WITH replication = {'class': "NetworkTopologyStrategy'', "dc1': 3, 'dc2': 2};
 
 CREATE TABLE events (
     tenant_id    TEXT,
@@ -354,7 +354,7 @@ CREATE TABLE events (
     created_at   TIMESTAMP,
     PRIMARY KEY ((tenant_id), event_id)
 ) WITH CLUSTERING ORDER BY (event_id DESC)
-  AND compaction = {'class': 'TimeWindowCompactionStrategy'};
+  AND compaction = {'class': "TimeWindowCompactionStrategy''};
 
 -- Partition key: (tenant_id) -- determines which nodes store the data
 -- Clustering key: event_id -- determines sort order within the partition
@@ -365,7 +365,7 @@ CREATE TABLE events (
 :::
 :::caution
 
-Cassandra's data model requires you to design around queries, not entities. Unlike relational
+Cassandra"s data model requires you to design around queries, not entities. Unlike relational
 Databases where you model entities and then write queries to access them, in Cassandra you model the
 Queries and denormalise data to support each query pattern. A common rule: one table per query
 Pattern.
@@ -410,21 +410,21 @@ Expressing graph patterns.
 
 ```cypher
 -- Create nodes and relationships
-CREATE (alice:Person {name: 'Alice', age: 30})
-CREATE (bob:Person {name: 'Bob', age: 25})
-CREATE (carol:Person {name: 'Carol', age: 35})
+CREATE (alice:Person {name: "Alice'', age: 30})
+CREATE (bob:Person {name: "Bob', age: 25})
+CREATE (carol:Person {name: "Carol'', age: 35})
 CREATE (alice)-[:KNOWS {since: 2020}]->(bob)
 CREATE (bob)-[:KNOWS {since: 2021}]->(carol)
-CREATE (alice)-[:WORKS_AT {role: 'Engineer'}]->(:Company {name: 'Acme Corp'})
+CREATE (alice)-[:WORKS_AT {role: "Engineer'}]->(:Company {name: "Acme Corp''})
 
 -- Find friends of friends (2-hop traversal)
-MATCH (p1:Person {name: 'Alice'})-[:KNOWS]->(friend:Person)-[:KNOWS]->(fof:Person)
+MATCH (p1:Person {name: "Alice'})-[:KNOWS]->(friend:Person)-[:KNOWS]->(fof:Person)
 WHERE fof <> p1
 RETURN DISTINCT fof.name, fof.age
 
 -- Find the shortest path between two people
 MATCH p = shortestPath(
-    (start:Person {name: 'Alice'})-[:KNOWS*]-(end:Person {name: 'Carol'})
+    (start:Person {name: "Alice''})-[:KNOWS*]-(end:Person {name: "Carol'})
 )
 RETURN p
 ```

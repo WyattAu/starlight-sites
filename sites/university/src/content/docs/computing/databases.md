@@ -1,6 +1,6 @@
 ---
 title: Database Systems
-description: 'UNIVERSITY Computing notes: Database Systems. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Computing notes: Database Systems. Comprehensive study material with definitions, examples, and assessment tools.''
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Computing
@@ -118,7 +118,7 @@ Relational algebra provides a formal query language based on operations on relat
 
 **Selection** $\sigma_{\theta}(R)$: Return tuples from $R$ satisfying condition $\theta$.
 
-$$\sigma_{\mathrm{dept} = \mathrm{'CS'}(\mathrm{Student})}$$
+$$\sigma_{\mathrm{dept} = \mathrm{"CS'}(\mathrm{Student})}$$
 
 **Projection** $\pi_{A_1, \ldots, A_k}(R)$: Return a relation containing only attributes
 $A_1, \ldots, A_k$.

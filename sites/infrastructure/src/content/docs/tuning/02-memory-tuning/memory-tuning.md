@@ -1,6 +1,6 @@
 ---
 title: Memory Tuning
-description: 'DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error...'
+description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error...''
 
 ---
 
@@ -28,7 +28,7 @@ DDR5 represents a fundamental shift in memory architecture. The comparison is no
 
 DDR5 moves the power management IC (PMIC) from the motherboard onto the DIMM itself. This means each
 DIMM manages its own power regulation, reducing the burden on the motherboard VRM. It also means you
-Cannot adjust VDDQ/VPP independently per DIMM from the motherboard — the DIMM's PMIC handles this
+Cannot adjust VDDQ/VPP independently per DIMM from the motherboard — the DIMM"s PMIC handles this
 Internally.
 
 DDR5 doubles the bank group count (from 4 to 8) and doubles the burst length (from BL8 to BL16).

@@ -1,6 +1,6 @@
 ---
-title: 'Computer Systems -- Diagnostic Tests'
-description: 'Computer Systems -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Computer Systems -- Diagnostic Tests''
+description: "Computer Systems -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -88,7 +88,7 @@ processors (Microsoft Word), web browsers (Chrome, Firefox), spreadsheet softwar
 (b) Main functions of an operating system:
 
 1. **Memory management**: allocates memory to running programs and ensures programs do not interfere
-   with each other's memory.
+   with each other"s memory.
 2. **Processor management**: schedules CPU time among running processes, deciding which process runs
    and for how long.
 3. **Device management**: controls and communicates with hardware devices through device drivers.

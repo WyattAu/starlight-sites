@@ -1,6 +1,6 @@
 ---
 title: AP Physics 1 Study Guide
-description: 'Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational...'
+description: "Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational...''
 date: 2026-05-31
 tags:
   - ap
@@ -87,7 +87,7 @@ $$
 ### Free Fall
 
 An object in free fall experiences only the force of gravity. All objects in free fall have the same
-acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth's surface, regardless of mass.
+acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth"s surface, regardless of mass.
 
 ### Graphical Analysis
 

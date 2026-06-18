@@ -1,6 +1,6 @@
 ---
 title: Complex Numbers
-description: 'Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble'
+description: "Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -90,7 +90,7 @@ $z = 2\!\left(\cos\!\left(-\dfrac◆LB◆\pi◆RB◆◆LB◆3◆RB◆\right) + i
 
 <hr />
 
-## 2. De Moivre's Theorem
+## 2. De Moivre"s Theorem
 
 **Theorem (De Moivre).** For any integer $n$ and any angle $\theta$:
 

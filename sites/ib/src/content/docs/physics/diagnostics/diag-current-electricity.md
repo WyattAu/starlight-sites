@@ -1,6 +1,6 @@
 ---
-title: 'Current Electricity -- Diagnostic Tests'
-description: 'IB Physics Current Electricity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Current Electricity -- Diagnostic Tests''
+description: "IB Physics Current Electricity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -48,7 +48,7 @@ results at typical voltages. The point of this question is to show that the Shoc
 idealisation and real diodes have series resistance that limits current.
 
 For the purpose of this calculation, let us note that at $V = 6.0\,\text{V}$Both the lamp and diode
-would carry very large currents. The diode's exponential characteristic means it effectively acts as
+would carry very large currents. The diode"s exponential characteristic means it effectively acts as
 a short circuit at voltages well above its threshold.
 
 (b) With the unrealistic values, the total current would be enormous. This illustrates that parallel

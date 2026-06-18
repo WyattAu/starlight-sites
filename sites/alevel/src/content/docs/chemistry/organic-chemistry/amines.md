@@ -1,6 +1,6 @@
 ---
 title: Amines
-description: 'Amines are organic derivatives of ammonia () in which one or more hydrogen atoms have Been replaced by alkyl or aryl groups. They are classified as primary...'
+description: "Amines are organic derivatives of ammonia () in which one or more hydrogen atoms have Been replaced by alkyl or aryl groups. They are classified as primary...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -51,7 +51,7 @@ $$
 \mathrm{RCONH}_2 + 4[\mathrm{H}] \xrightarrow{\mathrm{LiAlH}_4} \mathrm{RCH}_2\mathrm{NH}_2 + \mathrm{H}_2\mathrm{O}
 $$
 
-This is an alternative route to primary amines. Secondary amides ($\mathrm{RCONHR}'$) give secondary
+This is an alternative route to primary amines. Secondary amides ($\mathrm{RCONHR}"$) give secondary
 Amines, and tertiary amides ($\mathrm{RCONR}'_2$) give tertiary amines.
 
 ### Preparation of Phenylamine (Aniline)

@@ -3,7 +3,7 @@ title: Hamiltonian Mechanics
 tags:
   - Physics
   - University
-description: 'Hamiltonian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Hamiltonian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 4.1 Generalised Momentum
@@ -40,7 +40,7 @@ The Hamiltonian:
 
 $$H = p\dot{x} - L = p\frac{p}{m} - \frac{1}{2}m\frac{p^2}{m^2} + \frac{1}{2}kx^2 = \frac{p^2}{2m} + \frac{1}{2}kx^2$$
 
-This is $T + V$ as expected for a natural system. Hamilton's equations give:
+This is $T + V$ as expected for a natural system. Hamilton"s equations give:
 
 $$\dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}, \quad \dot{p} = -\frac{\partial H}{\partial x} = -kx$$
 

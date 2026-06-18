@@ -1,6 +1,6 @@
 ---
 title: Physics
-description: 'This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher...'
+description: "This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher...''
 ---
 
 ## IB Physics -- Course Overview
@@ -38,7 +38,7 @@ Depends.
 
 - **A.1 Kinematics:** Describing motion using displacement, velocity, and acceleration; the SUVAT
   equations for uniformly accelerated motion; projectile motion.
-- **A.2 Forces and Momentum:** Newton's laws of motion; free-body diagrams; linear momentum and
+- **A.2 Forces and Momentum:** Newton"s laws of motion; free-body diagrams; linear momentum and
   impulse; conservation of momentum; elastic and inelastic collisions; centripetal acceleration and
   force.
 - **A.3 Work, Energy and Power:** Work done by a force; kinetic and potential energy; conservation

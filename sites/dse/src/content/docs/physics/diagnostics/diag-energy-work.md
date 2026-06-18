@@ -1,6 +1,6 @@
 ---
-title: 'Energy and Work -- Diagnostic Tests'
-description: 'DSE Physics Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+title: "Energy and Work -- Diagnostic Tests''
+description: "DSE Physics Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
 tableOfContents: false
 ---
 

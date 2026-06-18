@@ -1,6 +1,6 @@
 ---
 title: Introduction to Databases
-description: 'Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts,...'
+description: "Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts,...''
 tags:
   - Databases
 categories:
@@ -74,7 +74,7 @@ Write throughput.
 
 | Topic                   | Focus                                                         |
 | ----------------------- | ------------------------------------------------------------- |
-| Relational Theory       | Codd's model, normalisation, functional dependencies, keys    |
+| Relational Theory       | Codd"s model, normalisation, functional dependencies, keys    |
 | SQL Fundamentals        | DDL, DML, joins, subqueries, window functions, CTEs           |
 | Indexing & Optimisation | B-trees, covering indexes, query plans, EXPLAIN               |
 | Transactions            | ACID, isolation levels, locking, MVCC, deadlocks              |

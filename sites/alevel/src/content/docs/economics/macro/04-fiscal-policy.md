@@ -1,6 +1,6 @@
 ---
 title: Fiscal Policy
-description: 'We define as the use of government spending () and taxation () to influence The level of aggregate demand, economic activity, and the allocation of...'
+description: "We define as the use of government spending () and taxation () to influence The level of aggregate demand, economic activity, and the allocation of...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -20,7 +20,7 @@ The level of aggregate demand, economic activity, and the allocation of resource
 $$\mathrm{Fiscal policy tools: } G, T, \mathrm{ and } (G - T)$$
 
 Fiscal policy is conducted by the government (Chancellor of the Exchequer in the UK, Secretary of
-The Treasury in the US) alongside the central bank's monetary policy.
+The Treasury in the US) alongside the central bank"s monetary policy.
 
 ### 1.2 The Government Budget
 

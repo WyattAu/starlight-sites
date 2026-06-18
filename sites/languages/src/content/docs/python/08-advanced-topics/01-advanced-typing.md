@@ -1,6 +1,6 @@
 ---
 title: Advanced Type System
-description: 'Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.'
+description: "Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -79,7 +79,7 @@ class Parser:
 The reason for this ordering: `@staticmethod` and `@classmethod` are descriptor-based decorators
 That transform the function object into a different kind of descriptor. If you put `@overload` on
 Top, it would try to decorate the result of `@staticmethod` (a `staticmethod` descriptor), which is
-Not a function and would confuse the type checker's overload tracking. The type checker needs to see
+Not a function and would confuse the type checker"s overload tracking. The type checker needs to see
 `@overload` applied to a plain function so it can extract the signature.
 
 ### Limitations

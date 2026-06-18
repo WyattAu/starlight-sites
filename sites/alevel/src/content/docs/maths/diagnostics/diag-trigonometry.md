@@ -1,6 +1,6 @@
 ---
-title: 'Trigonometry -- Diagnostic Tests'
-description: 'A-Level Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Trigonometry -- Diagnostic Tests''
+description: "A-Level Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -71,7 +71,7 @@ because $\sin$ is symmetric about $90°$ on $(0°, 180°)$: $\sin\theta = \sin(1
 
 **(a)** Solve the equation $\sin\theta = 2\sin\theta\cos\theta$ for $\theta \in [0°, 360°)$.
 
-**(b)** A student's working is shown below. Identify the error, state which solutions are lost, and
+**(b)** A student"s working is shown below. Identify the error, state which solutions are lost, and
 explain why.
 
 > $\sin\theta = 2\sin\theta\cos\theta$

@@ -5,7 +5,7 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description: 'Scope functions execute a block of code within the context of an object. Kotlin provides five built-in scope functions (, , , , ) and one coroutine-specific...'
+description: "Scope functions execute a block of code within the context of an object. Kotlin provides five built-in scope functions (, , , , ) and one coroutine-specific...''
 ---
 
 ## Introduction
@@ -13,7 +13,7 @@ description: 'Scope functions execute a block of code within the context of an o
 Scope functions execute a block of code within the context of an object. Kotlin provides five
 built-in scope functions (`let`, `apply`, `run`, `also`, `with`) and one coroutine-specific function
 (`withContext`). They differ in two dimensions: whether the block receives the object as `this`
-(receiver) or as `it` (argument), and what the block returns (the object itself or the block's
+(receiver) or as `it` (argument), and what the block returns (the object itself or the block"s
 result).
 
 ```

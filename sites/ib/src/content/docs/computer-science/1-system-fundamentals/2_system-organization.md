@@ -1,6 +1,6 @@
 ---
 title: System In Organizations
-description: 'Rigorous IB computer science notes covering System In Organizations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.'
+description: "Rigorous IB computer science notes covering System In Organizations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate.''
 date: 2024-01-01T00:00:00Z
 tags:
   - CS
@@ -48,7 +48,7 @@ Project and its potential is carried out based on:
 - Technical feasibility
 - Determining whether current technology sufficient to implement the system
 - **Example**: A school wishes to deploy a fingerprint-based attendance system. The technical
-  feasibility study checks whether the school's existing network infrastructure can support
+  feasibility study checks whether the school"s existing network infrastructure can support
   biometric scanners and whether compatible SDKs exist for the chosen platform.
 - Economic feasibility
 - Determining the cost effectiveness and whether funding is sufficient

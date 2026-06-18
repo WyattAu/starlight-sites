@@ -1,6 +1,6 @@
 ---
-title: 'Atomic Structure -- Diagnostic Tests'
-description: 'DSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Atomic Structure -- Diagnostic Tests''
+description: "DSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -39,7 +39,7 @@ $$Cr^{3+}: [Ar]\,3d^{3}$$
 
 $Cr^{3+} = [Ar]\,3d^{3}$.
 
-These are **not the same**. The student's claim is incorrect. While both are $3d$ transition metal
+These are **not the same**. The student"s claim is incorrect. While both are $3d$ transition metal
 species, $Cr^{3+}$ has three $3d$ electrons whereas $Sc$ has one $3d$ electron and two $4s$
 electrons.
 

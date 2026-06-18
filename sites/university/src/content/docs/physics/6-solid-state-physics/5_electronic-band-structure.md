@@ -3,7 +3,7 @@ title: Electronic Band Structure
 tags:
   - Physics
   - University
-description: 'In the simplest model, conduction electrons move freely in a box of volume (the "jellium" model). The allowed wave vectors are:'
+description: "In the simplest model, conduction electrons move freely in a box of volume (the "jellium" model). The allowed wave vectors are: "''
 ---
 
 ### 5.1 Free Electron Model
@@ -57,7 +57,7 @@ Nearly spherical Fermi surface well within the first BZ. 2 electrons/atom (e.g.,
 The first BZ and the Fermi surface contacts the zone boundary. 3--4 electrons/atom (e.g., Al, Pb)
 Produce complex multiply-connected Fermi surfaces.
 
-### 5.3 Bloch's Theorem
+### 5.3 Bloch"s Theorem
 
 **Theorem 5.1 (Bloch, 1928).** The eigenstates of the one-electron Hamiltonian in a periodic
 Potential $V(\mathbf{r} + \mathbf{R}) = V(\mathbf{r})$ can be written as:
@@ -147,7 +147,7 @@ $$R_H = \frac{E_y}{J_x B} = -\frac{1}{ne}$$
 
 This provides a direct measurement of the carrier density $n$.
 
-**Successes:** Ohm's law ($\mathbf{J} = \sigma\mathbf{E}$), Wiedemann--Franz law
+**Successes:** Ohm"s law ($\mathbf{J} = \sigma\mathbf{E}$), Wiedemann--Franz law
 ($\kappa/\sigma T = \frac{\pi^2 k_B^2}{3e^2}$), Hall effect.
 
 **Failures:** Predicts $\chi \propto T^{-1}$ (Curie law) for magnetic susceptibility, but real

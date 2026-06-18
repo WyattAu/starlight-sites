@@ -1,6 +1,6 @@
 ---
 title: Climate Change
-description: 'This section covers the IB Geography core extension on global climate -- vulnerability and resilience. It examines the physical and human dimensions of...'
+description: "This section covers the IB Geography core extension on global climate -- vulnerability and resilience. It examines the physical and human dimensions of...''
 
 ---
 
@@ -33,7 +33,7 @@ that a strong answer will draw on knowledge from multiple syllabus areas.
 
 The topic is structured around two fundamental questions. First, what are the physical processes
 driving climate change? Answering this requires understanding the global energy balance, the role of
-greenhouse gases in regulating temperature, the carbon cycle's operation at planetary scale, and the
+greenhouse gases in regulating temperature, the carbon cycle"s operation at planetary scale, and the
 feedback mechanisms (ice-albedo, permafrost thaw, cloud feedbacks, water vapour feedback) that can
 amplify or dampen warming trends. These feedback loops are particularly important in extended
 responses because they demonstrate the complexity of the climate system and the potential for

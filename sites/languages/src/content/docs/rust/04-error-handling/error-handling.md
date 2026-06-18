@@ -1,6 +1,6 @@
 ---
 title: Error Handling
-description: 'Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.'
+description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.''
 
 ---
 
@@ -385,7 +385,7 @@ impl fmt::Display for AppError {
 }
 
 impl std::error::Error for AppError {
-    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+    fn source(&self) -> Option<&(dyn std::error::Error + "static)> {
         match self {
             AppError::Io(e) => Some(e),
             AppError::Parse(e) => Some(e),

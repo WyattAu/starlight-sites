@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: 'Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -171,7 +171,7 @@ Electrophiles.
 
 $$\mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br$$
 
-**Markovnikov's Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
+**Markovnikov"s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
 With more hydrogens already attached.
 
 $$\mathrm{CH_3\mathrm{CH=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CHBrCH_3 \quad \mathrm{(major product)$$

@@ -3,7 +3,7 @@ title: Partial Derivatives
 tags:
   - Mathematics
   - University
-description: 'Partial Derivatives: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Partial Derivatives: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 1.1 Definition
@@ -19,7 +19,7 @@ Holding all other variables fixed.
 **Notation.** Common notations for the partial derivative with respect to $x_i$ include $f_{x_i}$,
 $\partial_i f$And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
 
-### 1.2 Clairaut's Theorem
+### 1.2 Clairaut"s Theorem
 
 **Theorem 1.1 (Clairaut's Theorem / Schwarz’s Theorem).** If $f_{xy}$ and $f_{yx}$ are continuous on
 an Open set containing $(a, b)$Then

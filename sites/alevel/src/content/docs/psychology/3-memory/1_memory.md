@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: 'A-Level Psychology Memory notes covering key definitions, core concepts, worked examples, and practice questions for efficient exam preparation and revision.'
+description: "A-Level Psychology Memory notes covering key definitions, core concepts, worked examples, and practice questions for efficient exam preparation and revision.''
 
 ---
 
@@ -152,7 +152,7 @@ none).
 
 **Explanation:** Loftus proposed two explanations:
 
-1. **Response-bias factor:** The wording of the question influences the participant's response
+1. **Response-bias factor:** The wording of the question influences the participant"s response
    without changing the memory itself.
 2. **Substitution:** The misleading information actually alters the original memory, replacing it
    with new (false) information.

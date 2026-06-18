@@ -1,6 +1,6 @@
 ---
 title: Introduction to Security
-description: 'Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated...'
+description: "Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated...''
 
 ---
 
@@ -27,7 +27,7 @@ Misconfigured S3 bucket, an overly permissive IAM policy, a leaked JWT secret â€
 Problems or network problems or application problems. They are systems problems that manifest at a
 Particular layer.
 
-The systems engineer's advantage is understanding how layers interact. When you understand how TLS
+The systems engineer"s advantage is understanding how layers interact. When you understand how TLS
 Termination works, how DNS resolution chains to load balancers, how container isolation maps to
 Kernel namespaces, you can reason about where trust boundaries exist and where they might be
 Violated.

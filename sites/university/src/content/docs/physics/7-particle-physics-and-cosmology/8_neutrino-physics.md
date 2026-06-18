@@ -3,7 +3,7 @@ title: Neutrino Physics
 tags:
   - Physics
   - University
-description: 'Neutrinos are produced and detected in flavour eigenstates But propagate As mass Comprehensive educational content coverage with definitions and practice proble'
+description: "Neutrinos are produced and detected in flavour eigenstates But propagate As mass Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 8.1 Neutrino Oscillations
@@ -80,7 +80,7 @@ $$\sin^2(12.5) \approx \sin^2(0.35) \approx 0.12$$
 
 And at the first oscillation maximum,
 $L/E = 2\pi/(\Delta m^2) = 2\pi/(2.5 \times 10^{-3}) \approx 2513$ km/GeV. For $E = 1$ GeV,
-$L_{\mathrm{osc} \approx 2513}$ km, which is comparable to the Earth's diameter ($\sim 12\,700$ km).
+$L_{\mathrm{osc} \approx 2513}$ km, which is comparable to the Earth"s diameter ($\sim 12\,700$ km).
 The observed deficit is an average over many oscillations and energies, Giving roughly
 $\langle P\rangle \approx 1/2$ for maximal mixing, consistent with the Super-Kamiokande observation
 of approximately half the expected upward-going $\nu_\mu$ flux.

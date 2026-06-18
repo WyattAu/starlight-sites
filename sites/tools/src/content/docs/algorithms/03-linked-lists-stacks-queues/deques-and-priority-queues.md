@@ -1,6 +1,6 @@
 ---
 title: Deques and Priority Queues
-description: 'A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO).'
+description: "A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO).''
 
 ---
 
@@ -105,7 +105,7 @@ graph LR
 
 ```python
 class DequeNode:
-    __slots__ = ('val', 'prev', 'next')
+    __slots__ = ("val', 'prev', 'next')
     def __init__(self, val):
         self.val = val
         self.prev = None

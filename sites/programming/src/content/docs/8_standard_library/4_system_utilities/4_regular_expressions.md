@@ -1,6 +1,6 @@
 ---
 title: Regular Expressions
-description: '(C++11) provides regular expression matching, searching, and replacement using the ECMAScript regex grammar by default. This section covers the three main...'
+description: "(C++11) provides regular expression matching, searching, and replacement using the ECMAScript regex grammar by default. This section covers the three main...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -30,7 +30,7 @@ The library provides three main operations:
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
 
 :::caution `std::regex` is notoriously slow on many standard library implementations (particularly
-GCC's libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
+GCC"s libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
 Consider:
 
 - **CTRE** (Compile-Time Regular Expressions): header-only, uses CTAD and template metaprogramming

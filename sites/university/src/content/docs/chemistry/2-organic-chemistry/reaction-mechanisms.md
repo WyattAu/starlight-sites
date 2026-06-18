@@ -1,6 +1,6 @@
 ---
 title: Reaction Mechanisms
-description: 'Bimolecular nucleophilic substitution — a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble'
+description: "Bimolecular nucleophilic substitution — a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -108,7 +108,7 @@ $$\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \tex
 - Anti-periplanar geometry required (H and LG at 180° dihedral).
 - Rate: $v = k[\text{base}][\text{substrate}]$.
 - Strong bases favor E2; bulky bases (e.g., $t$-BuOK) favor E2 over S$\_\text{N}$2.
-- **Zaitsev's rule:** The more substituted alkene is the major product.
+- **Zaitsev"s rule:** The more substituted alkene is the major product.
 
 ### 2.2 E1 Mechanism
 

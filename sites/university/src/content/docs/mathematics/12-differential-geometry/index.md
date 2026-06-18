@@ -1,6 +1,6 @@
 ---
 title: Differential Geometry
-description: 'Topics in differential geometry including manifolds, tangent spaces, differential forms, Riemannian geometry, and curvature.'
+description: "Topics in differential geometry including manifolds, tangent spaces, differential forms, Riemannian geometry, and curvature.''
 tags:
   - Mathematics
   - University
@@ -12,7 +12,7 @@ Differential geometry is the study of geometric properties of spaces that posses
 
 ## Key Concepts
 
-A smooth manifold is a topological space that locally resembles Euclidean space $\mathbb{R}^n$ and admits a differentiable structure. Tangent spaces provide a linear approximation to the manifold at each point, enabling the definition of derivatives of maps between manifolds. Differential forms generalise the notion of functions and vectors, providing a unified framework for integration on manifolds through the exterior derivative and Stokes' theorem.
+A smooth manifold is a topological space that locally resembles Euclidean space $\mathbb{R}^n$ and admits a differentiable structure. Tangent spaces provide a linear approximation to the manifold at each point, enabling the definition of derivatives of maps between manifolds. Differential forms generalise the notion of functions and vectors, providing a unified framework for integration on manifolds through the exterior derivative and Stokes" theorem.
 
 ## Contents
 

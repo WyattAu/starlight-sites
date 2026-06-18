@@ -1,6 +1,6 @@
 ---
 title: Subnetting Workshop
-description: 'Subnetting Workshop notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and revision.'
+description: "Subnetting Workshop notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and revision.''
 tags:
   - Networking
 categories:
@@ -439,7 +439,7 @@ Octet.
 
 ### Host Bits in Wildcard Masks
 
-The wildcard mask `0.0.0.255` means "match the first three octets exactly, and don't care about the
+The wildcard mask `0.0.0.255` means "match the first three octets exactly, and don"t care about the
 Fourth." The bits that are 0 must match exactly; the bits that are 1 can be anything.
 
 More nuanced example: wildcard `0.0.3.255` on `172.16.4.0`:

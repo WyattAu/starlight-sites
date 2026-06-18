@@ -1,6 +1,6 @@
 ---
 title: Probability Theory
-description: 'University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.'
+description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.''
 date: 2026-04-26T00:00:00.000Z
 tags:
   - Mathematics
@@ -42,7 +42,7 @@ A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
 2. $P(A^c) = 1 - P(A)$.
 3. If $A \subseteq B$Then $P(A) \leq P(B)$.
 4. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ (inclusion-exclusion).
-5. **Boole's inequality:** $P\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)$.
+5. **Boole"s inequality:** $P\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)$.
 6. **Bonferroni inequality:**
    $P\left(\bigcap_{i=1}^{n} A_i\right) \geq 1 - \sum_{i=1}^{n} (1 - P(A_i))$.
 

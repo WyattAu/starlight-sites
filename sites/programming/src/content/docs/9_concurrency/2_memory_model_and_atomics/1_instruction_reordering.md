@@ -1,6 +1,6 @@
 ---
 title: Instruction Reordering and Happens-Before
-description: 'This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buffers, the happens-before and synchronizes-with...'
+description: "This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buffers, the happens-before and synchronizes-with...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -164,7 +164,7 @@ Core 1:
           └──────────┘         │
 ```
 
-Both loads execute before the other core's store drains from its store buffer, so both `r1 = 0` and
+Both loads execute before the other core"s store drains from its store buffer, so both `r1 = 0` and
 `r2 = 0` is a valid outcome.
 
 ## Data Dependency and Control Dependency Ordering

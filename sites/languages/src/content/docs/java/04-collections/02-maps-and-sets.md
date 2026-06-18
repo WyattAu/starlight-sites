@@ -1,6 +1,6 @@
 ---
 title: Maps and Sets
-description: 'maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can...'
+description: "maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can...''
 
 ---
 
@@ -740,7 +740,7 @@ Map<String, String> map2 = new HashMap<>(10000);
 ### `TreeMap` Requires `Comparable` Keys
 
 ```java
-// BUG — ClassCastException if keys don't implement Comparable
+// BUG — ClassCastException if keys don"t implement Comparable
 TreeMap<List<String>, String> treeMap = new TreeMap<>();
 treeMap.put(List.of("A"), "value"); // ClassCastException: List is not Comparable
 

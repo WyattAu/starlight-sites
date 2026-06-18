@@ -1,6 +1,6 @@
 ---
 title: Relational Theory
-description: 'E.F. Codd introduced the relational model in his 1970 paper "A Relational Model of Data for Large Shared Data Banks." The model provides a mathematically...'
+description: "E.F. Codd introduced the relational model in his 1970 paper "A Relational Model of Data for Large Shared Data Banks." The model provides a mathematically...''
 tags:
   - Databases
 categories:
@@ -14,7 +14,7 @@ Shared Data Banks." The model provides a mathematically rigorous foundation for 
 Based on set theory and first-order predicate logic. Every SQL database is an approximation of this
 Model -- and understanding where SQL deviates from the theory helps you write correct queries.
 
-### Codd's 12 Rules (and Rule 0)
+### Codd"s 12 Rules (and Rule 0)
 
 Codd defined 13 rules (numbered 0 through 12) that a system must satisfy to be considered truly
 Relational. No commercial database fully satisfies all 13, but they serve as the theoretical

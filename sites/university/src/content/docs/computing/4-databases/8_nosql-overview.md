@@ -3,7 +3,7 @@ title: NoSQL Overview
 tags:
   - Computing
   - University
-description: 'NoSQL databases address limitations of relational databases for certain workload Comprehensive educational content coverage with definitions and practice proble'
+description: "NoSQL databases address limitations of relational databases for certain workload Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 8.1 Motivation
@@ -41,7 +41,7 @@ Simplest model: each item is a key-value pair. Values are opaque blobs.
 **Example (Redis):**
 
 ```
-SET user:1001 '{"name":"Alice","email":"alice@univ.edu"}'
+SET user:1001 "{"name":"Alice","email":"alice@univ.edu"}'
 GET user:1001
 EXPIRE user:1001 3600
 ```

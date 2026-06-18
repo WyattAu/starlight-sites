@@ -1,6 +1,6 @@
 ---
-title: 'Data Representation -- Diagnostic Tests'
-description: 'A-Level Maths Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Data Representation -- Diagnostic Tests''
+description: "A-Level Maths Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -161,7 +161,7 @@ this class than any other. However, the class with the highest **frequency densi
 $10 \lt t \leq 20$ (density 3.8), meaning the data is most concentrated (per unit time interval) in
 the 10--20 minute range.
 
-The employee's claim is supported in the sense that the largest **number** of employees commute for
+The employee"s claim is supported in the sense that the largest **number** of employees commute for
 35--60 minutes. But the claim could be misleading if interpreted as "the most common single
 commuting time is in this range," since the density is highest in the 10--20 minute range. The wide
 class width of the 35--60 minute class inflates its frequency.

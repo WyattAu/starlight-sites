@@ -1,6 +1,6 @@
 ---
 title: Magnetism
-description: 'A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems.'
+description: "A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2026-05-05
 tags:
   - ap
@@ -154,7 +154,7 @@ $$
 B_x = \frac{\mu_0 IR}{4\pi(R^2+x^2)^{3/2}}\oint dl = \frac{\mu_0 I \cdot 2\pi R^2}{4\pi(R^2+x^2)^{3/2}} = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}
 $$
 
-## Ampere's Law
+## Ampere"s Law
 
 Ampere's law relates the line integral of $\vec{B}$ around a closed loop to the enclosed current:
 

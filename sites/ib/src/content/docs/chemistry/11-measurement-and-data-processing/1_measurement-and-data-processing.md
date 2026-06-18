@@ -1,6 +1,6 @@
 ---
 title: Measurement and Data Processing
-description: 'Rigorous IB chemistry notes covering Measurement and Data Processing. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Measurement and Data Processing. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -764,7 +764,7 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
   from the $^{1}\mathrm{H}$ NMR spectrum. This is a definitive test for labile protons.
 
 - **Forcing a line of best fit through the origin**: Only force through $(0, 0)$ if the data
-  physically require it (e.g., Charles's law at absolute zero). For most experimental data, the
+  physically require it (e.g., Charles"s law at absolute zero). For most experimental data, the
   intercept has physical meaning and should be determined from the fit.
 
 - **Ignoring anomalous points instead of justifying their exclusion**: Outliers must be identified

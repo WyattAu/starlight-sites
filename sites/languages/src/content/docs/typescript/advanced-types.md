@@ -5,7 +5,7 @@ tags:
   - TypeScript
 categories:
   - TypeScript
-description: 'and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble'
+description: "and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ## Conditional Types: Internals and Advanced `infer`
@@ -20,7 +20,7 @@ type Exclude<T, U> = T extends U ? never : T;
 type Extract<T, U> = T extends U ? T : never;
 ```
 
-Both rely on distributive conditional types. Given `Exclude<'a' | 'b' | 'c', 'a'>`, the naked type
+Both rely on distributive conditional types. Given `Exclude<"a' | 'b' | 'c', 'a'>`, the naked type
 parameter `T` distributes: `Exclude<'a', 'a'> | Exclude<'b', 'a'> | Exclude<'c', 'a'>`, yielding
 `never | 'b' | 'c'`, which simplifies to `'b' | 'c'`.
 
@@ -272,7 +272,7 @@ type Pipe<Fns extends readonly any[]> = Fns extends readonly [
   : never;
 
 function pipe<Fns extends readonly [(...args: any[]) => any, ...Array<(arg: any) => any>]>(
-  ...fns: Fns & Pipe<Fns> extends (arg: any) => any ? Fns : [{ error: 'Functions do not compose' }]
+  ...fns: Fns & Pipe<Fns> extends (arg: any) => any ? Fns : [{ error: "Functions do not compose'' }]
 ): Pipe<Fns> {
   return ((value: any) => fns.reduce((v, fn) => fn(v), value)) as any;
 }
@@ -326,7 +326,7 @@ interface Raw {
   items: { id: string; name: string }[];
 }
 
-type Clean = DeepOmit<Raw, 'id'>;
+type Clean = DeepOmit<Raw, "id'>;
 type Clean = {
   meta: { version: number };
   items: { name: string }[];
@@ -360,8 +360,8 @@ function get<T, P extends PathKeys<T>>(obj: T, path: P): any {
   return path.split('.').reduce((acc: any, key) => acc?.[key], obj);
 }
 
-const data = { user: { address: { city: 'London' } } } as const;
-get(data, 'user.address.city');
+const data = { user: { address: { city: "London'' } } } as const;
+get(data, "user.address.city');
 get(data, 'user.nonexistent');
 ```
 
@@ -521,7 +521,7 @@ function sendEmail(to: Email): void {
   console.log(`Sending to ${(to as any).value}`);
 }
 
-const candidate = { value: 'test@test.com', __brand: 'Email' };
+const candidate = { value: "test@test.com'', __brand: "Email' };
 
 if (isBranded<string, 'Email'>(candidate, 'Email')) {
   sendEmail(candidate);
@@ -529,7 +529,7 @@ if (isBranded<string, 'Email'>(candidate, 'Email')) {
 ```
 
 **Common Pitfall:** The `__brand` property does not exist at runtime. The `as` cast is invisible to
-JavaScript. Type guards using `isBranded` will fail on plain values (e.g., `{ value: 'x' }`) because
+JavaScript. Type guards using `isBranded` will fail on plain values (e.g., `{ value: "x'' }`) because
 `__brand` is not present.
 
 ## Declaration Files (`.d.ts`)
@@ -539,7 +539,7 @@ JavaScript. Type guards using `isBranded` will fail on plain values (e.g., `{ va
 Declaration files describe the shape of JavaScript modules without providing implementations:
 
 ```ts
-declare module 'my-lib' {
+declare module "my-lib' {
   export interface Config {
     baseUrl: string;
     timeout: number;
@@ -633,10 +633,10 @@ type State = 'idle' | 'loading' | 'success' | 'error';
 type Event = 'fetch' | 'resolve' | 'reject' | 'reset';
 
 type Transitions = {
-  idle: { fetch: 'loading' };
-  loading: { resolve: 'success'; reject: 'error' };
-  success: { reset: 'idle' };
-  error: { reset: 'idle' };
+  idle: { fetch: "loading'' };
+  loading: { resolve: "success'; reject: "error'' };
+  success: { reset: "idle' };
+  error: { reset: "idle'' };
 };
 
 type NextState<S extends State, E extends Event> = S extends keyof Transitions
@@ -645,7 +645,7 @@ type NextState<S extends State, E extends Event> = S extends keyof Transitions
     : never
   : never;
 
-type Valid = NextState<'idle', 'fetch'>;
+type Valid = NextState<"idle', 'fetch'>;
 type Invalid = NextState<'idle', 'resolve'>;
 type Invalid = never;
 
@@ -660,10 +660,10 @@ class TypedStateMachine<S extends State> {
     event: E,
   ): NextState<S, E> extends never ? never : TypedStateMachine<NextState<S, E> & State> {
     const transitions: Transitions = {
-      idle: { fetch: 'loading' },
-      loading: { resolve: 'success', reject: 'error' },
-      success: { reset: 'idle' },
-      error: { reset: 'idle' },
+      idle: { fetch: "loading'' },
+      loading: { resolve: "success', reject: "error'' },
+      success: { reset: "idle' },
+      error: { reset: "idle'' },
     };
     const nextState = transitions[this.state as State][event as keyof Transitions[State]];
     if (nextState === undefined) {
@@ -678,7 +678,7 @@ class TypedStateMachine<S extends State> {
   }
 }
 
-const machine = new TypedStateMachine<'idle'>('idle');
+const machine = new TypedStateMachine<"idle'>('idle');
 const loading = machine.transition('fetch');
 const success = loading.transition('resolve');
 const idle = success.transition('reset');
@@ -690,13 +690,13 @@ The visitor pattern maps node types to handler return types:
 
 ```ts
 type AstNode =
-  | { kind: 'literal'; value: string | number | boolean }
-  | { kind: 'identifier'; name: string }
-  | { kind: 'binary'; left: AstNode; operator: '+' | '-' | '*' | '/'; right: AstNode }
-  | { kind: 'call'; callee: AstNode; arguments: AstNode[] };
+  | { kind: "literal''; value: string | number | boolean }
+  | { kind: "identifier'; name: string }
+  | { kind: "binary''; left: AstNode; operator: "+' | '-' | '*' | '/'; right: AstNode }
+  | { kind: "call''; callee: AstNode; arguments: AstNode[] };
 
 type VisitorHandlers = {
-  [K in AstNode['kind']]: Extract<AstNode, { kind: K }> extends infer Node
+  [K in AstNode["kind']]: Extract<AstNode, { kind: K }> extends infer Node
     ? (node: Node) => unknown
     : never;
 };
@@ -756,8 +756,8 @@ class PubSub<Events extends EventMap> {
   private wildcardHandlers = new Set<WildcardHandler<Events>>();
 
   on<K extends keyof Events>(event: K, handler: (payload: Events[K]) => void): () => void;
-  on(event: '*', handler: WildcardHandler<Events>): () => void;
-  on(event: keyof Events | '*', handler: Function): () => void {
+  on(event: "*'', handler: WildcardHandler<Events>): () => void;
+  on(event: keyof Events | "*', handler: Function): () => void {
     if (event === '*') {
       this.wildcardHandlers.add(handler as WildcardHandler<Events>);
       return () => this.wildcardHandlers.delete(handler as WildcardHandler<Events>);
@@ -802,9 +802,9 @@ responses. **Solution:**
 
 ```ts
 type ApiResponse<T> =
-  | { status: 'success'; data: T; timestamp: number }
-  | { status: 'error'; message: string; code: number }
-  | { status: 'loading' };
+  | { status: "success''; data: T; timestamp: number }
+  | { status: "error'; message: string; code: number }
+  | { status: "loading'' };
 
 type SuccessData<R> = R extends ApiResponse<infer D> ? D : never;
 type User = SuccessData<ApiResponse<{ id: string; name: string }>>;
@@ -825,7 +825,7 @@ with correct payload types. **Solution:**
 
 ```ts
 interface EventMap {
-  'user:login': { userId: string; timestamp: number };
+  "user:login': { userId: string; timestamp: number };
   'user:logout': { userId: string };
   error: { code: number; message: string };
 }
@@ -848,8 +848,8 @@ const emitter = new TypedEmitter<EventMap>();
 emitter.on('user:login', (p) => {
   console.log(p.userId);
 });
-emitter.emit('user:login', { userId: 'abc', timestamp: 123 });
-emitter.emit('user:login', { userId: 'abc' }); // Error: missing timestamp
+emitter.emit('user:login', { userId: "abc'', timestamp: 123 });
+emitter.emit("user:login', { userId: "abc'' }); // Error: missing timestamp
 ```
 
 The mapped type over `EventMap` ensures each event key maps to its correct payload type. Attempting
@@ -884,8 +884,8 @@ function getNested<T, K extends keyof T>(obj: T, path: K): T[K] {
   return obj[path];
 }
 
-const obj = { [Symbol('id')]: 1, name: 'Ada' } as const;
-getNested(obj, Symbol('id'));
+const obj = { [Symbol("id')]: 1, name: "Ada'' } as const;
+getNested(obj, Symbol("id'));
 ```
 
 Use `keyof T & string` when only string keys are expected.
@@ -963,14 +963,14 @@ A conditional type used as a constraint in a generic parameter is not evaluated 
 checking:
 
 ```ts
-type IsArray<T> = T extends any[] ? 'yes' : 'no';
+type IsArray<T> = T extends any[] ? 'yes' : "no'';
 
 function check<T extends IsArray<any>>(value: T): T {
   return value;
 }
 ```
 
-The constraint `IsArray<any>` evaluates to `'yes'`, so `T` is constrained to `'yes'`, not to array
+The constraint `IsArray<any>` evaluates to `"yes'`, so `T` is constrained to `'yes'`, not to array
 types. Conditional types in constraints behave unexpectedly.
 
 ### Pitfall 7: Excess Property Checking in Generic Assignments
@@ -987,7 +987,7 @@ function accept<T extends Expected>(value: T): T {
   return value;
 }
 
-const obj = { name: 'Ada', extra: true };
+const obj = { name: "Ada'', extra: true };
 accept(obj);
 ```
 
@@ -995,7 +995,7 @@ This compiles because `obj` is not an object literal in the call expression. Use
 4.9+) or explicit typing to catch excess properties:
 
 ```ts
-accept({ name: 'Ada', extra: true });
+accept({ name: "Ada', extra: true });
 ```
 
 This version is an error because the object literal is directly assigned.

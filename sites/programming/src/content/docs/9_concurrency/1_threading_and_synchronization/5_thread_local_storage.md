@@ -1,6 +1,6 @@
 ---
 title: Thread-Local Storage (TLS)
-description: 'This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical...'
+description: "This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -46,7 +46,7 @@ int main() {
 }
 ```
 
-Each thread sees its own independent copy of `thread_id_value`. The output of the main thread's
+Each thread sees its own independent copy of `thread_id_value`. The output of the main thread"s
 `print_id()` call depends on whether it runs before or after the worker threads' calls, but each
 Thread always sees the value `42` after its own assignment.
 

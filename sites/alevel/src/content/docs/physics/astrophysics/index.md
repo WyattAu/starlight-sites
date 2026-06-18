@@ -1,6 +1,6 @@
 ---
 title: Astrophysics
-description: 'A-Level Astrophysics notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation.'
+description: "A-Level Astrophysics notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation.''
 ---
 
 # Astrophysics
@@ -33,7 +33,7 @@ models, and observational techniques used by astronomers.
 
 ### Cosmology
 
-- **Olbers' paradox** — why the night sky is dark; evidence for a non-static, finite-age universe
+- **Olbers" paradox** — why the night sky is dark; evidence for a non-static, finite-age universe
 - **Hubble's law** — $v = H_0 d$; expansion of the universe; estimating the age
   $t \approx \frac{1}{H_0}$
 - **Cosmic microwave background radiation** — evidence for the Big Bang; black-body spectrum at 2.7

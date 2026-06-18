@@ -1,6 +1,6 @@
 ---
-title: 'Chemical Reactions -- Diagnostic Tests'
-description: 'Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls.'
+title: "Chemical Reactions -- Diagnostic Tests''
+description: "Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."'
 tableOfContents: false
 ---
 
@@ -57,7 +57,7 @@ are stronger than London dispersion forces but weaker than hydrogen bonds.
 
 ---
 
-### UT-2: Enthalpy Changes and Hess's Law
+### UT-2: Enthalpy Changes and Hess"s Law
 
 **Question:**
 

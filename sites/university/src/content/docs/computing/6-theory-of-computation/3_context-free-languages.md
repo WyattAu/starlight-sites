@@ -3,7 +3,7 @@ title: Context-Free Languages
 tags:
   - Computing
   - University
-description: 'Context-Free Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Context-Free Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 3.1 Context-Free Grammars
@@ -236,7 +236,7 @@ Production for that variable.
 
 **PDA to CFG:** Given PDA $M$Construct a grammar whose variables encode pairs of states $(p, q)$
 Meaning "the PDA can go from state $p$ to state $q$Popping everything pushed onto the stack." The
-productions simulate the PDA's transitions. $\blacksquare$
+productions simulate the PDA"s transitions. $\blacksquare$
 
 **Theorem 3.2a (CFG to PDA construction).** Let $G = (V, \Sigma, R, S)$ be a CFG. Then there exists
 a PDA $M$ with $L(M) = L(G)$.

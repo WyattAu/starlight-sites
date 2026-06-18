@@ -1,6 +1,6 @@
 ---
 title: Chemical Reactions
-description: 'GCSE Chemistry Chemical Reactions notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.'
+description: "GCSE Chemistry Chemical Reactions notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.''
 date: 2026-04-14
 tags:
   - gcse
@@ -391,7 +391,7 @@ System is not closed (e.g., a gas escapes), equilibrium cannot be established.
 - The forward and reverse rates must be equal
 - The concentrations remain constant (but not necessarily equal)
 
-### 4.3 Le Chatelier's Principle
+### 4.3 Le Chatelier"s Principle
 
 **Le Chatelier's principle:** If a system at equilibrium is subjected to a change, the equilibrium
 Shifts in the direction that counteracts the change.

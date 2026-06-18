@@ -3,7 +3,7 @@ title: Applications of Contour Integration
 tags:
   - Mathematics
   - University
-description: 'Contour integration is a powerful tool for evaluating definite integrals. Comprehensive educational content coverage with definitions and practice problems.'
+description: "Contour integration is a powerful tool for evaluating definite integrals. Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 9.1 Evaluation of Real Integrals
@@ -62,7 +62,7 @@ $\mathrm{Res}\left(\frac{1}{z^2 + 4z + 1}, z_1\right) = \frac{1}{2\sqrt{3}}$.
 $\int_0^{2\pi} \frac{d\theta}{2 + \cos\theta} = \frac{2}{i} \cdot 2\pi i \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}$.
 $\blacksquare$
 
-### 9.6 Jordan's Lemma
+### 9.6 Jordan"s Lemma
 
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
 Half-plane and $a \gt 0$Then

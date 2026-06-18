@@ -1,6 +1,6 @@
 ---
 title: Metaclasses and Class Creation
-description: 'The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is...'
+description: "The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is...''
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Python
@@ -23,7 +23,7 @@ The full sequence when Python encounters `class Foo(Base, metaclass=Meta):` is:
    are captured from the class header.
 2. If no `metaclass` keyword is given, the metaclass is determined by looking at the `__class__` of
    the first base class (if any), or defaulting to `type`. This is the metaclass computation rule.
-3. The metaclass's `__prepare__` method is called with the class name and base classes. It returns a
+3. The metaclass"s `__prepare__` method is called with the class name and base classes. It returns a
    namespace mapping (by default, an empty `dict`). This namespace is where all assignments and
    function definitions in the class body will be stored.
 4. The class body is executed as a code block, using the namespace from step 3 as the local
@@ -456,12 +456,12 @@ class DeleteCommand(BaseCommand):
 
 cmd_cls = BaseCommand._registry["create"]
 print(cmd_cls().execute("user", {"name": "Alice"}))
-# Created user: {'name': 'Alice'}
+# Created user: {'name': "Alice''}
 ```
 
 ### ORM-Style Field Tracking
 
-ORM frameworks (Django, SQLAlchemy, Peewee) use metaclasses to scan a class's namespace for field
+ORM frameworks (Django, SQLAlchemy, Peewee) use metaclasses to scan a class"s namespace for field
 Descriptors and build an internal schema representation. The metaclass collects all field objects,
 Records their names and types, and attaches the schema to the class.
 

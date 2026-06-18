@@ -1,6 +1,6 @@
 ---
 title: Biological Molecules
-description: 'Study guide covering the core biochemistry topics for A-Level Biology examinatio Comprehensive educational content coverage with definitions and practice proble'
+description: "Study guide covering the core biochemistry topics for A-Level Biology examinatio Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-18T00:00:00.000Z
 tags:
   - Biology
@@ -36,7 +36,7 @@ a dipole with $\delta^-$ on oxygen and $\delta^+$ on each hydrogen.
 ### Hydrogen Bonding in Water
 
 Each water molecule can form up to **4 hydrogen bonds**: two as donor (via its H atoms) and two as
-acceptor (via lone pairs on O). This extensive H-bonding network accounts for water's unusual
+acceptor (via lone pairs on O). This extensive H-bonding network accounts for water"s unusual
 physical properties.
 
 ---

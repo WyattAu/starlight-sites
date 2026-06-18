@@ -1,6 +1,6 @@
 ---
-title: 'Functions -- Diagnostic Tests'
-description: 'DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+title: "Functions -- Diagnostic Tests''
+description: "DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
 tableOfContents: false
 ---
 
@@ -246,7 +246,7 @@ $$4 = 2m + c \tag{1}$$
 
 The tangent has the same gradient as the curve at $x = 2$:
 
-$$f'(x) = -\frac{8}{x^2} \implies f'(2) = -\frac{8}{4} = -2$$
+$$f"(x) = -\frac{8}{x^2} \implies f'(2) = -\frac{8}{4} = -2$$
 
 So $m = -2$.
 

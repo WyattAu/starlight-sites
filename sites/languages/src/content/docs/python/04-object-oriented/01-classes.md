@@ -1,6 +1,6 @@
 ---
 title: Classes and Inheritance
-description: 'In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when...'
+description: "In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when...''
 date: 2025-06-04T13:00:00.000Z
 tags:
   - Python
@@ -13,7 +13,7 @@ categories:
 
 In Python, a class is created with the `class` keyword. A class is itself an object -- an instance
 Of `type`. The body of a `class` statement executes at definition time (when the module is imported
-Or the function containing it is called), and the resulting namespace dictionary becomes the class's
+Or the function containing it is called), and the resulting namespace dictionary becomes the class"s
 `__dict__`.
 
 ```python
@@ -808,7 +808,7 @@ class DensePoint:
 
 p = DensePoint(1, 2)
 print(p.x)  # 1
-p.z = 3    # AttributeError: 'DensePoint' object has no attribute 'z'
+p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 ```
 
 :::

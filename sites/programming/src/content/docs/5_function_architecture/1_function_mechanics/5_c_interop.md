@@ -1,6 +1,6 @@
 ---
 title: C-Interop and FFI
-description: 'C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names — each function has a single symbol matching its...'
+description: "C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names — each function has a single symbol matching its...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -68,7 +68,7 @@ extern "C" {
 }
 ```
 
-This is not a limitation of the linkage specification per se, but a consequence of the linker's
+This is not a limitation of the linkage specification per se, but a consequence of the linker"s
 Requirement for unique symbol names within a translation unit.
 
 ### `extern "C"` and Member Functions

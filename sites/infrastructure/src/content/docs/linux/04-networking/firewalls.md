@@ -1,6 +1,6 @@
 ---
 title: Linux Firewalls
-description: 'Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux...'
+description: "Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux...''
 
 ---
 
@@ -253,7 +253,7 @@ iptables -t nat -A POSTROUTING -j MASQUERADE
 
 # Enable IP forwarding for NAT
 sysctl -w net.ipv4.ip_forward=1
-echo 'net.ipv4.ip_forward=1' >> /etc/sysctl.d/99-forward.conf
+echo "net.ipv4.ip_forward=1' >> /etc/sysctl.d/99-forward.conf
 ```
 
 ### Logging

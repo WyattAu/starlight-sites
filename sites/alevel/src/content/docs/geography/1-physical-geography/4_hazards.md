@@ -3,7 +3,7 @@ title: Hazards
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
-description: 'A-Level Geography Hazards notes covering key definitions, core concepts, worked examples, and practice questions for structured learning and effective revision.'
+description: "A-Level Geography Hazards notes covering key definitions, core concepts, worked examples, and practice questions for structured learning and effective revision.''
 ---
 
 # Hazards
@@ -33,7 +33,7 @@ understanding why some events are catastrophic while others are manageable.
 | **Capacity**        | The ability of a community to anticipate, cope with, resist, and recover from a hazard                                                        |
 | **Resilience**      | The ability of a community to recover quickly from the impacts of a hazard                                                                    |
 | **Prediction**      | The ability to forecast when and where a hazard event will occur                                                                              |
-| **Mitigation**      | Actions taken to reduce the severity of a hazard's impacts                                                                                    |
+| **Mitigation**      | Actions taken to reduce the severity of a hazard"s impacts                                                                                    |
 | **Adaptation**      | Adjustments made to cope with the effects of a hazard or environmental change                                                                 |
 | **Plate tectonics** | The theory that the Earth's lithosphere is divided into plates that move relative to one another, driven by convection currents in the mantle |
 | **Response**        | The immediate and long-term actions taken following a hazard event to address its impacts                                                     |

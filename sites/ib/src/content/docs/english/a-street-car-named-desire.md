@@ -2,7 +2,7 @@
 title: A Streetcar Named Desire
 tags:
   - english
-description: 'Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,...'
+description: "Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,...''
 ---
 
 ## Author Context
@@ -15,7 +15,7 @@ Its unflinching examination of the violence -- emotional and physical -- that st
 Life.
 
 Williams wrote A Streetcar Named Desire in 1947, in the immediate aftermath of the Second World War.
-The play is set in New Orleans' French Quarter, a city Williams himself loved and frequented.
+The play is set in New Orleans" French Quarter, a city Williams himself loved and frequented.
 Post-war America was undergoing rapid industrialisation and urbanisation; the agricultural economy
 Of the South was in decline, and returning servicemen like Stanley Kowalski represented a new social
 Order built on physical labour, material acquisition, and a rejection of the old aristocratic

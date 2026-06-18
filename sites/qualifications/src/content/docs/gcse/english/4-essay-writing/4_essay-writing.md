@@ -1,6 +1,6 @@
 ---
 title: Essay Writing for GCSE English Literature
-description: 'GCSE Essay Writing for GCSE English Literature notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'
+description: "GCSE Essay Writing for GCSE English Literature notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.''
 date: 2026-04-22
 tags:
   - gcse
@@ -16,7 +16,7 @@ categories:
 
 ### 1.1 The Introduction
 
-The introduction has three functions: to engage the reader, to establish the essay's argument, and
+The introduction has three functions: to engage the reader, to establish the essay"s argument, and
 To provide a roadmap for the discussion that follows. An effective introduction for GCSE English
 Literature should be concise (no more than four or five sentences) and should accomplish the
 Following:

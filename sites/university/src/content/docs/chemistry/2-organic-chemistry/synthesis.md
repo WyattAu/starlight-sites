@@ -1,6 +1,6 @@
 ---
 title: Synthesis
-description: 'University Chemistry Synthesis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.'
+description: "University Chemistry Synthesis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -33,7 +33,7 @@ reacting species. A synthon may or may not correspond to a real reagent.
 
 **Example 1:** Disconnection of a secondary alcohol:
 
-$$\text{R}–\text{CH(OH)}–\text{R}' \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}$$
+$$\text{R}–\text{CH(OH)}–\text{R}" \xRightarrow{\text{disconnect C–OH}} \text{RCHO} + \text{R}'\text{MgBr}$$
 
 Synthons: $^+\text{R}'$ (electrophile, equivalent = R'Br) and $^-\text{OH}$ (nucleophile, equivalent
 = formaldehyde or a carbonyl).

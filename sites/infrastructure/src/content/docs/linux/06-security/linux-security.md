@@ -1,6 +1,6 @@
 ---
 title: Linux Security
-description: 'Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and...'
+description: "Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and...''
 
 ---
 
@@ -23,7 +23,7 @@ Associated permissions.
 
 ```bash
 # View user information
-id                    # current user's UID, GID, groups
+id                    # current user"s UID, GID, groups
 id username           # specific user
 finger username       # detailed user info
 getent passwd username  # from NSS (includes LDAP, etc.)

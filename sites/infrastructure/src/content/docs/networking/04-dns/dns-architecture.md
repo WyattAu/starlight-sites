@@ -1,6 +1,6 @@
 ---
 title: DNS Architecture and Operations
-description: 'DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive...'
+description: "DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive...''
 tags:
   - Networking
 categories:
@@ -79,7 +79,7 @@ Physical instances.
 
 ### SOA Record
 
-Every DNS zone has exactly one SOA (Start of Authority) record. It defines the zone's primary name
+Every DNS zone has exactly one SOA (Start of Authority) record. It defines the zone"s primary name
 Server, the responsible person's email, and timing parameters for zone transfers and negative
 Caching.
 

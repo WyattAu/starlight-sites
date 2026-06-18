@@ -1,6 +1,6 @@
 ---
 title: A Level Physics Diagnostic Test
-description: 'Questions. Each question has an answer and a revision redirect. Time allowed: 90 Comprehensive educational content coverage with definitions and practice proble'
+description: "Questions. Each question has an answer and a revision redirect. Time allowed: 90 Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Physics
@@ -217,7 +217,7 @@ M s$^{-1}$.
 </details>
 
 <details>
-<summary>Q22. State Faraday's law and Lenz's law.</summary>
+<summary>Q22. State Faraday"s law and Lenz's law.</summary>
 **Answer.** **Faraday's law:** the induced e.m.f. Equals the negative rate of change of flux
 Linkage: $\mathcal{E} = -d(N\Phi)/dt$. **Lenz's law:** the direction of the induced current opposes
 The change in flux that produced it.

@@ -1,6 +1,6 @@
 ---
 title: Programming
-description: 'A-Level Computer Science Programming notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'
+description: "A-Level Computer Science Programming notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.''
 ---
 
 # Programming
@@ -49,7 +49,7 @@ for A-Level, with a focus on writing clear, correct, and maintainable code.
 ## Study Tips
 
 1. **Write pseudocode, not just Python** — exams accept pseudocode, and writing it trains you to
-   think algorithmically rather than in a specific language's syntax.
+   think algorithmically rather than in a specific language"s syntax.
 2. **Trace tables are essential** — practise filling in trace tables for programs with loops and
    conditionals. Every exam has at least one trace-table question.
 3. **Understand OOP concepts by analogy** — a class is a blueprint; an object is a house built from

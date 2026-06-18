@@ -1,6 +1,6 @@
 ---
 title: Testing
-description: 'Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature .'
+description: "Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature .''
 date: 2026-05-31
 tags:
   - Go
@@ -340,7 +340,7 @@ go tool cover -html=coverage.out            # HTML report in browser
 
 ```bash
 go test -coverprofile=coverage.out ./...
-coverage=$(go tool cover -func=coverage.out | grep total | awk '{print $3}' | sed 's/%//')
+coverage=$(go tool cover -func=coverage.out | grep total | awk "{print $3}' | sed 's/%//')
 if [ "$coverage" -lt 80 ]; then
     echo "coverage below 80%: $coverage%"
     exit 1

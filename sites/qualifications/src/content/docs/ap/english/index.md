@@ -1,6 +1,6 @@
 ---
 title: AP English Language
-description: 'Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description.'
+description: "Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description.''
 date: 2026-04-14
 tags:
   - ap
@@ -43,7 +43,7 @@ free-response sections of the AP exam.
   quotations, paraphrases, and summaries from diverse sources; comparing and contrasting source
   perspectives; acknowledging source credibility and potential bias; developing a position that
   synthesises rather than merely summarises sources; understanding the relationship between sources
-  and the student's argument.
+  and the student"s argument.
 - **Close Reading** -- annotating texts for meaning and rhetorical choices; understanding
   connotation vs denotation; identifying tone, mood, and voice; analysing paragraph structure and
   organisational patterns (narration, description, exposition, argumentation); understanding

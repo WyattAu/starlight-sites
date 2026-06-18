@@ -1,6 +1,6 @@
 ---
 title: SSH
-description: 'SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The Protocol operates in three layers:'
+description: "SSH (Secure Shell) protocol version 2 provides encrypted remote login and command execution. The Protocol operates in three layers: "''
 
 ---
 
@@ -270,7 +270,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519_new.pub user@server
 ssh -i ~/.ssh/id_ed25519_new user@server
 
 # Remove old key from authorized_keys on server
-ssh user@server "sed -i '/OLD_KEY_COMMENT/d' ~/.ssh/authorized_keys"
+ssh user@server "sed -i "/OLD_KEY_COMMENT/d" ~/.ssh/authorized_keys"
 
 # Update local config
 sed -i 's/id_ed25519/id_ed25519_new/' ~/.ssh/config

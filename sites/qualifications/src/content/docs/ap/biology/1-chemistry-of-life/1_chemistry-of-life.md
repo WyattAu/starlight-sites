@@ -1,6 +1,6 @@
 ---
 title: Chemistry of Life
-description: 'The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-14
 tags:
   - ap
@@ -241,7 +241,7 @@ Can cause the protein to unfold.
 **DNA:**
 
 - Double helix (Watson and Crick, 1953)
-- Antiparallel strands ($5' \to 3'$ and $3' \to 5'$)
+- Antiparallel strands ($5" \to 3'$ and $3' \to 5'$)
 - Sugar-phosphate backbone on the outside, bases on the inside
 - Base pairing: A--T (2 H-bonds), G--C (3 H-bonds)
 - Chargaff's rules: $[\mathrm{A] = [\mathrm{T]$, $[\mathrm{G] = [\mathrm{C]$

@@ -1,6 +1,6 @@
 ---
 title: Binary Caching
-description: 'The distinction between (Module 2.4) and is Critical. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "The distinction between (Module 2.4) and is Critical. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2025-12-11T05:47:27.269Z
 tags:
   - cpp
@@ -304,7 +304,7 @@ cmake -S . -B build \
 #### GCC
 
 - ccache works transparently with GCC.
-- GCC's `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
+- GCC"s `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
   output depends on runtime profile data, not just source inputs.
 
 #### Clang
@@ -377,7 +377,7 @@ This action automatically caches `~/.cache/ccache` between workflow runs using G
 
 - name: Build
   env:
-    SCCACHE_GHA_ENABLED: 'true'
+    SCCACHE_GHA_ENABLED: "true''
   run: |
     cmake -S . -B build \
       -DCMAKE_C_COMPILER_LAUNCHER=sccache \
@@ -406,7 +406,7 @@ The optimal CI setup combines both layers:
 
 1. **Binary package cache** (vcpkg/Conan): Eliminates dependency compilation entirely. Dependencies
    are downloaded as pre-built artifacts.
-2. **Compiler cache** (ccache/sccache): Caches the project's own compilation. Only changed
+2. **Compiler cache** (ccache/sccache): Caches the project"s own compilation. Only changed
    translation units are recompiled.
 
 ```yaml

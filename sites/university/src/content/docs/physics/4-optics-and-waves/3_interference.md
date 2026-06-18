@@ -3,7 +3,7 @@ title: Interference
 tags:
   - Physics
   - University
-description: 'When two or more waves overlap, the resultant displacement is the sum of the individual displacements. For two coherent waves with amplitudes and :'
+description: "When two or more waves overlap, the resultant displacement is the sum of the individual displacements. For two coherent waves with amplitudes and : "''
 ---
 
 ### 3.1 Superposition Principle
@@ -19,7 +19,7 @@ $$I = I_1 + I_2 + 2\sqrt{I_1 I_2}\cos\Delta\phi$$
 
 Where $\Delta\phi = \phi_2 - \phi_1$ is the phase difference.
 
-### 3.2 Double-Slit Interference (Young's Experiment)
+### 3.2 Double-Slit Interference (Young"s Experiment)
 
 Two slits separated by distance $d$ are illuminated by coherent light of wavelength $\lambda$. The
 Screen is at distance $L \gg d$.
@@ -43,7 +43,7 @@ $$\Delta y = \frac{\lambda L}{d}$$
 <details>
 <summary>Worked Example: Double-slit fringe calculation</summary>
 
-**Problem.** In a Young's double-slit experiment, light of wavelength $\lambda = 550$ nm passes
+**Problem.** In a Young"s double-slit experiment, light of wavelength $\lambda = 550$ nm passes
 Through slits separated by $d = 0.10$ mm onto a screen at $L = 2.0$ m. Find (a) the fringe spacing,
 (b) the angular position of the third bright fringe, and (c) the total number of bright fringes
 Visible within the central diffraction maximum (slit width $a = 0.020$ mm).

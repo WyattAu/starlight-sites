@@ -1,6 +1,6 @@
 ---
 title: Data Representation in Programming
-description: 'Programming languages provide integer types of various sizes: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Programming languages provide integer types of various sizes: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -69,7 +69,7 @@ int *ptr = &x;    // ptr stores the address of x
 *ptr = 10;        // dereference: change x to 10
 ```
 
-### Python's Model: References, Not Pointers
+### Python"s Model: References, Not Pointers
 
 Python does not have explicit pointers. Variables are **references** to objects in memory.
 

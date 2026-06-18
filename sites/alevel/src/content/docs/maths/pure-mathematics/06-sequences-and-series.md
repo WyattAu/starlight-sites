@@ -1,6 +1,6 @@
 ---
 title: Sequences and Series
-description: '| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------------------------- | | AQA | Paper 1, 2 | Arithmetic...'
+description: "| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------------------------- | | AQA | Paper 1, 2 | Arithmetic...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -160,7 +160,7 @@ $n \ln|r| \to -\infty$So $e^{n \ln|r|} \to 0$. $\blacksquare$
 
 **Theorem.** If $|r| \geq 1$The geometric series $\sum_{n=1}^{\infty} ar^{n-1}$ diverges.
 
-_Proof._ If $|r| > 1$Then $|r^n| \to \infty$So $|a_n| \to \infty$. Since the terms don't tend to
+_Proof._ If $|r| > 1$Then $|r^n| \to \infty$So $|a_n| \to \infty$. Since the terms don"t tend to
 Zero, the series diverges by the divergence test.
 
 If $r = 1$: $S_n = na \to \pm\infty$ (unless $a = 0$).

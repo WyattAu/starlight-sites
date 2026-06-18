@@ -1,6 +1,6 @@
 ---
-title: 'Gravitational Fields -- Diagnostic Tests'
-description: 'IB Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Gravitational Fields -- Diagnostic Tests''
+description: "IB Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -152,7 +152,7 @@ $$= \sqrt{\frac{9.805 \times 10^{12}}{1.74 \times 10^6}} = \sqrt{5.635 \times 10
 
 $$v_e \approx 2.37\,\text{km}\,\text{s}^{-1}$$
 
-(c) The student's statement is misleading for two reasons:
+(c) The student"s statement is misleading for two reasons:
 
 1. "At infinity" is an idealisation. In practice, escape velocity means the object reaches a
    distance where the gravitational influence of the planet is negligible compared to other bodies.

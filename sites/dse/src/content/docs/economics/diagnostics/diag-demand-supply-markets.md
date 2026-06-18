@@ -1,6 +1,6 @@
 ---
-title: 'Demand, Supply, and Markets -- Diagnostic Tests'
-description: 'DSE Economics Demand, Supply, and Markets -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Demand, Supply, and Markets -- Diagnostic Tests''
+description: "DSE Economics Demand, Supply, and Markets -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -42,7 +42,7 @@ Determinants:
   activities).
 - **Proportion of income**: At $\$60$, cinema tickets represent a smaller proportion of income than
   at $\$80$, making demand less elastic at lower price points.
-- **Necessity vs luxury**: Cinema 2's audience may view it as more of a routine activity (less
+- **Necessity vs luxury**: Cinema 2"s audience may view it as more of a routine activity (less
   elastic), while Cinema 1's audience may see it as a luxury (more elastic).
 
 ### UT-2: Consumer and Producer Surplus with Price Control

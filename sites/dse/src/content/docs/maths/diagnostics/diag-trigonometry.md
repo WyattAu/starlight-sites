@@ -1,6 +1,6 @@
 ---
-title: 'Trigonometry -- Diagnostic Tests'
-description: 'DSE Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+title: "Trigonometry -- Diagnostic Tests''
+description: "DSE Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
 tableOfContents: false
 ---
 
@@ -443,7 +443,7 @@ $B = \arcsin(0.7048) \approx 44.8°$.
 
 Check for ambiguous case: $70° + 44.8° = 114.8° < 180°$.
 
-$B' = 180° - 44.8° = 135.2°$. $70° + 135.2° = 205.2° > 180°$. Invalid.
+$B" = 180° - 44.8° = 135.2°$. $70° + 135.2° = 205.2° > 180°$. Invalid.
 
 So $\angle B \approx 44.8°$.
 

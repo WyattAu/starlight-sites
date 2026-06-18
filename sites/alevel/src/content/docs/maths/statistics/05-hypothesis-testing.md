@@ -1,6 +1,6 @@
 ---
 title: Hypothesis Testing
-description: '| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in...'
+description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -770,7 +770,7 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with "hence' vs 'hence or otherwise' — the former requires
    using previous work.
 
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both

@@ -1,6 +1,6 @@
 ---
 title: AP US History
-description: 'Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description.'
+description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description.''
 date: 2026-04-14
 tags:
   - ap
@@ -51,7 +51,7 @@ multiple-choice and free-response sections of the AP exam.
 - **Period 7 (1890-1945)** -- Progressive Era reforms, US imperialism (Philippines, Puerto Rico),
   WWI, 1920s cultural conflicts, Great Depression, New Deal, WWII home front and diplomacy
 - **Period 8 (1945-1980)** -- Cold War origins, McCarthyism, civil rights movement, Vietnam War,
-  Great Society, women's movement, Watergate, economic transformations
+  Great Society, women"s movement, Watergate, economic transformations
 - **Period 9 (1980-Present)** -- Reagan Revolution, end of Cold War, globalisation, 9/11, political
   polarisation, demographic changes
 

@@ -3,7 +3,7 @@ title: Statistical Mechanics
 tags:
   - Physics
   - University
-description: 'A is a complete specification of the state of a system (positions and momenta of all particles). A is specified by macroscopic variables (energy, volume,...'
+description: "A is a complete specification of the state of a system (positions and momenta of all particles). A is specified by macroscopic variables (energy, volume,...''
 ---
 
 ### 2.1 Microstates and Macrostates
@@ -144,7 +144,7 @@ $\blacksquare$
 
 ### 2.8 Blackbody Radiation
 
-**Planck's Law** gives the spectral energy density of blackbody radiation:
+**Planck"s Law** gives the spectral energy density of blackbody radiation:
 
 $$u(\nu, T) = \frac{8\pi h \nu^3}{c^3} \cdot \frac{1}{e^{h\nu/(k_BT)} - 1}$$
 

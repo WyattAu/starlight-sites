@@ -1,6 +1,6 @@
 ---
 title: Analytical Chemistry
-description: 'Scottish Highers Analytical Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+description: "Scottish Highers Analytical Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -172,7 +172,7 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 Neighbouring protons on adjacent carbons interact (spin-spin coupling) because their nuclear spins
 Can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
 There are $n + 1$ possible spin arrangements (and therefore $n + 1$ possible local magnetic fields
-Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal's
+Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal"s
 Triangle.
 
 **Worked Example 5:** The $^1\mathrm{H$ NMR spectrum of a compound with formula

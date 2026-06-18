@@ -1,6 +1,6 @@
 ---
-title: 'Probability -- Diagnostic Tests'
-description: 'IB Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.'
+title: "Probability -- Diagnostic Tests''
+description: "IB Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."'
 tableOfContents: false
 ---
 
@@ -33,7 +33,7 @@ without-replacement scenarios.]
 
 **(b)** By the law of total probability:
 
-$$P(B) = P(B|A)P(A) + P(B|A')P(A') = \frac{4}{7} \cdot \frac{5}{8} + \frac{5}{7} \cdot \frac{3}{8}$$
+$$P(B) = P(B|A)P(A) + P(B|A")P(A') = \frac{4}{7} \cdot \frac{5}{8} + \frac{5}{7} \cdot \frac{3}{8}$$
 
 $$= \frac{20}{56} + \frac{15}{56} = \frac{35}{56} = \frac{5}{8}$$
 

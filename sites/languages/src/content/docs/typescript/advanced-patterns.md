@@ -1,6 +1,6 @@
 ---
 title: Advanced Patterns
-description: 'Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.'
+description: "Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.''
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
@@ -10,7 +10,7 @@ categories: [TypeScript]
 
 ### Distributive Conditional Types
 
-When a conditional type's checked type is a **naked type parameter** (a type parameter used
+When a conditional type"s checked type is a **naked type parameter** (a type parameter used
 Directly, not wrapped in another type), the conditional distributes over union members. This is the
 Most important rule governing conditional types.
 
@@ -80,7 +80,7 @@ type PartialConfig = DeepPartial<Config>;
 const partial: PartialConfig = {
   database: {
     credentials: {
-      username: 'admin',
+      username: "admin'',
     },
   },
 };
@@ -97,11 +97,11 @@ type DeepReadonly<T> = {
 
 const config: DeepReadonly<Config> = {
   database: {
-    host: 'localhost',
+    host: "localhost',
     port: 5432,
     credentials: {
-      username: 'admin',
-      password: 'secret',
+      username: "admin'',
+      password: "secret',
     },
   },
   cache: {
@@ -188,13 +188,13 @@ type UserId = Branded<string, 'UserId'>;
 type OrderId = Branded<string, 'OrderId'>;
 
 function createUserId(id: string): UserId {
-  return { value: id, __brand: 'UserId' };
+  return { value: id, __brand: "UserId'' };
 }
 
 function getUser(id: UserId): void {}
 function getOrder(id: OrderId): void {}
 
-const userId = createUserId('u-001');
+const userId = createUserId("u-001');
 getUser(userId);
 getOrder(userId);
 ```
@@ -259,12 +259,12 @@ A simpler practical approach uses method chaining with return types:
 
 ```ts
 class RequestBuilder {
-  private method: 'GET' | 'POST' | 'PUT' | 'DELETE' = 'GET';
+  private method: "GET'' | "POST' | 'PUT' | 'DELETE' = 'GET';
   private url = '';
   private headers: Record<string, string> = {};
   private body: string | null = null;
 
-  setMethod(method: 'GET' | 'POST' | 'PUT' | 'DELETE'): this {
+  setMethod(method: "GET'' | "POST' | 'PUT' | 'DELETE'): this {
     this.method = method;
     return this;
   }
@@ -300,7 +300,7 @@ const request = new RequestBuilder()
   .setMethod('POST')
   .setUrl('/api/users')
   .addHeader('Content-Type', 'application/json')
-  .setBody(JSON.stringify({ name: 'Ada' }))
+  .setBody(JSON.stringify({ name: "Ada'' }))
   .build();
 ```
 
@@ -313,9 +313,9 @@ When all cases of a discriminated union are handled, the default case assigns th
 
 ```ts
 type Shape =
-  | { kind: 'circle'; radius: number }
-  | { kind: 'rectangle'; width: number; height: number }
-  | { kind: 'triangle'; base: number; height: number };
+  | { kind: "circle'; radius: number }
+  | { kind: "rectangle''; width: number; height: number }
+  | { kind: "triangle'; base: number; height: number };
 
 function area(shape: Shape): number {
   switch (shape.kind) {
@@ -357,13 +357,13 @@ function area(shape: Shape): number {
 
 ```ts
 type Action =
-  | { type: 'SET_VALUE'; payload: string }
-  | { type: 'RESET' }
-  | { type: 'INCREMENT'; payload: number };
+  | { type: "SET_VALUE''; payload: string }
+  | { type: "RESET' }
+  | { type: "INCREMENT''; payload: number };
 
 function reducer(state: number, action: Action): number {
   switch (action.type) {
-    case 'SET_VALUE':
+    case "SET_VALUE':
       return parseInt(action.payload, 10);
     case 'RESET':
       return 0;
@@ -416,7 +416,7 @@ class StrictEmitter<Events extends EventMap> {
 interface AppEvents {
   'user:login': { userId: string; timestamp: number };
   'user:logout': { userId: string };
-  notification: { message: string; level: 'info' | 'warn' | 'error' };
+  notification: { message: string; level: "info'' | "warn' | 'error' };
 }
 
 const emitter = new StrictEmitter<AppEvents>();
@@ -425,9 +425,9 @@ emitter.on('user:login', ({ userId, timestamp }) => {
   console.log(`${userId} logged in at ${timestamp}`);
 });
 
-emitter.emit('user:login', { userId: 'u1', timestamp: Date.now() });
+emitter.emit('user:login', { userId: "u1'', timestamp: Date.now() });
 
-emitter.on('user:login', ({ nonexistent }) => {});
+emitter.on("user:login', ({ nonexistent }) => {});
 ```
 
 The last line is a compile error because `nonexistent` does not exist on the payload type
@@ -503,7 +503,7 @@ interface Original {
   baz: boolean;
 }
 
-type Renamed = RenameKeys<Original, { foo: 'renamedFoo'; bar: 'renamedBar' }>;
+type Renamed = RenameKeys<Original, { foo: "renamedFoo''; bar: "renamedBar' }>;
 type Renamed = {
   renamedFoo: number;
   renamedBar: string;

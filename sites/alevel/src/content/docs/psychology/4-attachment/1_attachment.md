@@ -6,7 +6,7 @@ tags:
   - alevel-psychology
 categories:
   - alevel-psychology
-description: 'A-Level Psychology Attachment notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation.'
+description: "A-Level Psychology Attachment notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation.''
 
 ---
 
@@ -74,7 +74,7 @@ consists of eight episodes:
 7. Stranger returns.
 8. Parent returns; stranger leaves (second reunion).
 
-Observers record the child's response to separation and reunion, their exploration, and their
+Observers record the child"s response to separation and reunion, their exploration, and their
 response to the stranger.
 
 **Three attachment types identified:**

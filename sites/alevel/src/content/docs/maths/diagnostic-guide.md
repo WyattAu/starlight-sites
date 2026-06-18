@@ -1,6 +1,6 @@
 ---
-title: 'A-Level Maths -- Diagnostic Test Guide'
-description: 'A-Level Maths -- Diagnostic Test notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.'
+title: "A-Level Maths -- Diagnostic Test Guide''
+description: "A-Level Maths -- Diagnostic Test notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
 tableOfContents: false
 ---
 
@@ -60,7 +60,7 @@ are mutually exclusive and collectively exhaustive.
 
 - A single arithmetic error in an otherwise correct solution is PARTIAL, not PASS.
 - A correct answer obtained by trial-and-error without demonstrating the intended method is PARTIAL.
-- Writing "I don't know" or leaving the question blank is FAIL.
+- Writing "I don"t know" or leaving the question blank is FAIL.
 - Arriving at the correct answer but omitting critical intermediate steps (e.g., skipping the chain
   rule step in a differentiation) is PARTIAL.
 

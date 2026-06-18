@@ -1,6 +1,6 @@
 ---
 title: Wrap Up
-description: 'Comprehensive IB physics notes on Wrap Up key concepts and principles. Covers key definitions, worked examples, and practice problems for revision.'
+description: "Comprehensive IB physics notes on Wrap Up key concepts and principles. Covers key definitions, worked examples, and practice problems for revision.''
 date: 2024-01-01T00:00:00Z
 tags:
   - physics
@@ -21,7 +21,7 @@ categories:
 ### Details
 
 <summary>Answer</summary>
-- **Strategy:** (a) Use Einstein's photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
+- **Strategy:** (a) Use Einstein"s photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
 - **a) Maximum Kinetic Energy ($E_{k, \mathrm{max}}$):**
  - Energy of incident photon: $E = hf = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{400 \times 10^{-9}} = 4.97 \times 10^{-19}$ J.
  - Convert photon energy to eV: $E = \frac{4.97 \times 10^{-19}}{1.60 \times 10^{-19}} = 3.11$ eV.

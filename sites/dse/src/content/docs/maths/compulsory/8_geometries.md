@@ -1,6 +1,6 @@
 ---
 title: Geometries
-description: 'Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems...'
+description: "Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems...''
 date: 2025-06-03T16:20:00.000Z
 tags:
   - Maths
@@ -339,7 +339,7 @@ $$
 \end{aligned}
 $$
 
-Using the [Heron's formula](../../../../../../qualifications/src/content/docs/highers/maths/2-trigonometry/2_trigonometry.md)) for a triangle with side lengths $a$$b$$c$ and
+Using the [Heron"s formula](../../../../../../qualifications/src/content/docs/highers/maths/2-trigonometry/2_trigonometry.md)) for a triangle with side lengths $a$$b$$c$ and
 Semi-perimeter $s = \frac{a+b+c}{2}$:
 
 $$

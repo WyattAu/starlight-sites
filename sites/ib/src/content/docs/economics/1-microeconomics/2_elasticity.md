@@ -1,6 +1,6 @@
 ---
 title: Elasticity
-description: 'IB Economics — price, income, and cross-price elasticity of demand and supply. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination.'
+description: "IB Economics — price, income, and cross-price elasticity of demand and supply. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -133,7 +133,7 @@ Demand is price elastic, consistent with the fall in total revenue.
 
 ### Example 2: Income Elasticity
 
-When income rises from $30,000 to $35,000, a household's purchases of fresh vegetables increase
+When income rises from $30,000 to $35,000, a household"s purchases of fresh vegetables increase
 from 200 to 230 kg/year, and purchases of instant noodles fall from 150 to 120 packets/year.
 
 $$\text{YED}_{\text{vegetables}} = \frac{\frac{30}{200}}{\frac{5000}{30000}} = \frac{0.15}{0.167} \approx 0.90$$

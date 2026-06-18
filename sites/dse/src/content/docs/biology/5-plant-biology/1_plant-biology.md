@@ -1,6 +1,6 @@
 ---
 title: Plant Biology
-description: 'Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules....'
+description: "Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules....''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -1358,7 +1358,7 @@ uninterrupted DARK period that matters.
 ### Aphid Technique for Studying Phloem
 
 Aphids (plant lice) feed by inserting their stylet (mouthpart) directly into the phloem sieve tube.
-The phloem sap is under positive pressure and flows into the aphid's gut. If the aphid's body is
+The phloem sap is under positive pressure and flows into the aphid"s gut. If the aphid's body is
 removed (leaving the stylet embedded), phloem sap can be collected and analysed.
 
 **What the aphid technique reveals:**

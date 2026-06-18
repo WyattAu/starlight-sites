@@ -1,6 +1,6 @@
 ---
 title: Probability and Statistics
-description: 'UNIVERSITY Mathematics notes: Probability and Statistics. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Mathematics notes: Probability and Statistics. Comprehensive study material with definitions, examples, and assessment tools.''
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Mathematics
@@ -31,7 +31,7 @@ collection of subsets Of $\Omega$ satisfying:
    (closed under countable unions).
 
 _Remark._ From (2) and (3), $\mathcal{F}$ is also closed under countable intersections (by De
-Morgan's laws). The pair $(\Omega, \mathcal{F})$ is called a **measurable space**.
+Morgan"s laws). The pair $(\Omega, \mathcal{F})$ is called a **measurable space**.
 
 **Example 1.1.** For any set $\Omega$The **trivial sigma-algebra** is `\\{\\emptyset, \\Omega\\}`
 and the **power Set** $\mathcal{P}(\Omega)$ is also a sigma-algebra.

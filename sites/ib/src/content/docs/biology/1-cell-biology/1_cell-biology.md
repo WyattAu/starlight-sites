@@ -1,6 +1,6 @@
 ---
 title: Cell Biology
-description: 'Rigorous IB biology notes covering Cell Biology. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB biology notes covering Cell Biology. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -23,7 +23,7 @@ Three principles:
 ### Evidence for Cell Theory
 
 - **Microscopy**: light and electron microscopy confirm that all examined living tissue is cellular.
-- **Biogenesis experiments**: Pasteur's swan-neck flask experiment (1859) demonstrated that
+- **Biogenesis experiments**: Pasteur"s swan-neck flask experiment (1859) demonstrated that
   microorganisms arise only from existing microorganisms, not from non-living matter.
 - **Cell culture**: individual cells can be grown in vitro and give rise to colonies, confirming
   that single cells are viable living units.

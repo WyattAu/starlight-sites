@@ -1,6 +1,6 @@
 ---
-title: 'Statistical Distributions -- Diagnostic Tests'
-description: 'A-Level Maths Statistical Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Statistical Distributions -- Diagnostic Tests''
+description: "A-Level Maths Statistical Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -151,7 +151,7 @@ $$\mathrm{P}(Z \leq 0.5704) = \Phi(0.5704) = 0.7158 \approx 0.716$$
    formula (though without the continuity correction). However, if the student had meant to compute
    $\mathrm{P}(Y \geq 50)$ and wrote $\frac◆LB◆48 - 50◆RB◆◆LB◆\sqrt{19.2}◆RB◆$That would be a sign
    error. The standardisation is $Z = \frac◆LB◆X - \mu◆RB◆◆LB◆\sigma◆RB◆$So the numerator must be
-   $X - \mu = 50.5 - 48 = 2.5$ (or with continuity correction, $50.5 - 48$). The student's version
+   $X - \mu = 50.5 - 48 = 2.5$ (or with continuity correction, $50.5 - 48$). The student"s version
    gives $\frac◆LB◆50 - 48◆RB◆◆LB◆\sqrt{19.2}◆RB◆ = \frac◆LB◆2◆RB◆◆LB◆\sqrt{19.2}◆RB◆ = 0.4564$Which
    underestimates the correct $z$-value of 0.5704.
 

@@ -1,6 +1,6 @@
 ---
 title: Supply and Demand
-description: 'IB Economics — scarcity, PPF, supply and demand, consumer choice. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations. Aligned wi.'
+description: "IB Economics — scarcity, PPF, supply and demand, consumer choice. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations. Aligned wi.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -43,7 +43,7 @@ Opportunity cost applies at every level:
 - **Accounting profit** $= \text{Total Revenue} - \text{Explicit Costs}$
 - **Economic profit** $= \text{Total Revenue} - \text{Explicit Costs} - \text{Implicit Costs}$
 
-Implicit costs include the opportunity cost of the owner's time and capital. A firm may earn a
+Implicit costs include the opportunity cost of the owner"s time and capital. A firm may earn a
 Positive accounting profit but a negative economic profit if it could earn more by deploying its
 Resources elsewhere.
 

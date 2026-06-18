@@ -1,6 +1,6 @@
 ---
 title: A-Level Physics Diagnostic Guide
-description: 'This diagnostic suite contains 20 topic-level tests for A-Level Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3...'
+description: "This diagnostic suite contains 20 topic-level tests for A-Level Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3...''
 tableOfContents: false
 ---
 
@@ -155,7 +155,7 @@ For each topic test (6 questions, max 24 marks):
 | Kinematics           | Displacement vs distance on sign reversal      | UT-2            |
 | Kinematics           | Projectile sign convention errors              | IT-1            |
 | Dynamics             | Friction inequality vs equality                | UT-2            |
-| Dynamics             | Newton's 3rd law pair identification           | UT-3            |
+| Dynamics             | Newton"s 3rd law pair identification           | UT-3            |
 | Work-Energy          | Work done by friction is negative              | UT-1            |
 | Work-Energy          | Power = Fv not F/t                             | UT-3            |
 | Momentum             | Sign convention for velocity direction         | UT-2            |

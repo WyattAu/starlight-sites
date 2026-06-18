@@ -1,6 +1,6 @@
 ---
 title: Cross-compilation Toolchains
-description: 'Cross-compilation is the process of building executable code on one architecture (the ) that is intended to execute on a different architecture or operating...'
+description: "Cross-compilation is the process of building executable code on one architecture (the ) that is intended to execute on a different architecture or operating...''
 date: 2025-12-10T05:18:46.463Z
 tags:
   - cpp
@@ -71,7 +71,7 @@ The following table lists target triples commonly encountered in cross-compilati
 | FreeRTOS ARM Cortex-M7      | `arm-none-eabi`         | Bare metal (same triple, different `-mcpu`) |
 | Embedded RISC-V             | `riscv64-unknown-elf`   | Bare metal RISC-V                           |
 
-### Clang's `-target` Flag
+### Clang"s `-target` Flag
 
 Clang uses a unified driver model. Instead of requiring a separate prefixed binary for each target,
 Clang accepts a `-target` flag that dynamically selects the code generator:

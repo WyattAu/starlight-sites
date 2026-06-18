@@ -3,7 +3,7 @@ title: Sorting Algorithms
 tags:
   - Computing
   - University
-description: 'Divide the array in half, recursively sort each half, then merge. Comprehensive educational content coverage with definitions and practice problems.'
+description: "Divide the array in half, recursively sort each half, then merge. Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 3.1 Merge Sort
@@ -138,7 +138,7 @@ _Proof._ A comparison-based sort can be modelled as a decision tree. The tree mu
 $n!$ Leaves (one for each permutation). A binary tree with $n!$ leaves has height at least
 $\log_2(n!) \geq \log_2((n/2)^{n/2}) = (n/2)\log_2(n/2) = \Omega(n \log n)$.
 
-More precisely, using Stirling's approximation:
+More precisely, using Stirling"s approximation:
 $\log_2(n!) = n \log_2 n - n \log_2 e + O(\log n) = \Omega(n \log n)$. $\blacksquare$
 
 ### 3.5 Counting Sort

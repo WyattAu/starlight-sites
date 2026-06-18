@@ -1,6 +1,6 @@
 ---
 title: Brain Imaging Techniques
-description: 'Brain imaging techniques allow researchers to observe the structure and function of the living human Brain without surgery. These techniques have...'
+description: "Brain imaging techniques allow researchers to observe the structure and function of the living human Brain without surgery. These techniques have...''
 
 ---
 
@@ -255,7 +255,7 @@ During a task but does not demonstrate that they are necessary).
 **Strengths:**
 
 - Provide strong evidence for the necessity of specific brain regions for specific functions.
-- Have historically been the primary source of evidence for brain localisation (e.g., Broca's and
+- Have historically been the primary source of evidence for brain localisation (e.g., Broca"s and
   Wernicke's areas).
 - Can reveal functions that are not apparent from imaging studies of healthy individuals (e.g., the
   role of the hippocampus in memory was revealed by studying patient HM).

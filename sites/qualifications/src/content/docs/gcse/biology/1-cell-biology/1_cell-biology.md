@@ -1,6 +1,6 @@
 ---
 title: Cell Biology
-description: 'All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow...'
+description: "All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow...''
 date: 2026-04-14
 tags:
   - gcse
@@ -40,7 +40,7 @@ Structure composed of a phospholipid bilayer with embedded proteins. Small, non-
 polar molecules (such as glucose and ions) require transport proteins to cross. This selective
 Permeability is essential for maintaining the internal conditions of the cell (homeostasis).
 
-**The nucleus as the control centre.** The nucleus contains the cell's DNA, which carries the
+**The nucleus as the control centre.** The nucleus contains the cell"s DNA, which carries the
 Instructions for making every protein the cell needs. DNA is organised into structures called
 Chromosomes, which become visible as distinct threads during cell division. When a cell needs to
 Make a particular protein, the relevant section of DNA (the gene) is "read" and a copy is made in

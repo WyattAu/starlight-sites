@@ -3,7 +3,7 @@ title: Multivariable Calculus
 tags:
   - Mathematics
   - University
-description: 'Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the...'
+description: "Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the...''
 ---
 
 # Multivariable Calculus
@@ -39,7 +39,7 @@ University-level multivariable calculus notes covering partial derivatives, vect
 
 - **Partial Derivatives**: Chain rule, gradient, directional derivatives
 - **Multiple Integrals**: Double and triple integrals, change of variables
-- **Vector Calculus**: Green's theorem, Stokes' theorem, divergence theorem
+- **Vector Calculus**: Green"s theorem, Stokes' theorem, divergence theorem
 - **Optimisation**: Local extrema, Lagrange multipliers, Hessian
 
 ## Prerequisites

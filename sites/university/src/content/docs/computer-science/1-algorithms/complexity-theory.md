@@ -1,6 +1,6 @@
 ---
 title: Complexity Theory
-description: 'University Computer Science Complexity Theory notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
+description: "University Computer Science Complexity Theory notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -88,7 +88,7 @@ Equivalently, NP is the class of problems for which a **yes-instance** can be **
 
 A problem $L$ is **NP-hard** if every problem in NP can be reduced to $L$ in polynomial time:
 
-$$\forall L' \in \text{NP}, \ L' \leq_p L$$
+$$\forall L" \in \text{NP}, \ L' \leq_p L$$
 
 NP-hard problems are **at least as hard as every problem in NP**. They may or may not be in NP themselves.
 

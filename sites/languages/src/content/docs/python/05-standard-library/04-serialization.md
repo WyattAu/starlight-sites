@@ -1,6 +1,6 @@
 ---
 title: Serialization and Data Formats
-description: 'The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance.'
+description: "The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance.''
 
 ---
 
@@ -88,7 +88,7 @@ def custom_decoder(dct):
         dct["created"] = datetime.fromisoformat(dct["created"])
     return dct
 
-json_str = '{"created": "2025-01-15T10:30:00+00:00", "name": "test"}'
+json_str = "{"created": "2025-01-15T10:30:00+00:00", "name": "test"}'
 data = json.loads(json_str, object_hook=custom_decoder)
 print(type(data["created"]))  # <class 'datetime.datetime'>
 ```
@@ -139,7 +139,7 @@ data = pickle.dumps(srv, protocol=pickle.HIGHEST_PROTOCOL)
 # Deserialize
 srv2 = pickle.loads(data)
 print(srv2)  # Server('db.example.com', 5432)
-print(srv2.credentials)  # {'user': 'admin', 'pass': 'secret'}
+print(srv2.credentials)  # {'user': "admin'', "pass': "secret''}
 ```
 
 ### Protocol Versions
@@ -192,7 +192,7 @@ import cloudpickle
 
 # Standard pickle cannot handle this:
 func = lambda x: x ** 2
-# pickle.dumps(func)  # AttributeError: Can't pickle local object
+# pickle.dumps(func)  # AttributeError: Can"t pickle local object
 
 # cloudpickle handles it:
 data = cloudpickle.dumps(func)
@@ -225,7 +225,7 @@ class Config:
 c = Config("/etc/app/config.yaml")
 data = pickle.dumps(c)
 c2 = pickle.loads(data)
-print(c2._data)  # {'loaded_from': '/etc/app/config.yaml'}
+print(c2._data)  # {'loaded_from': "/etc/app/config.yaml''}
 ```
 
 ## YAML
@@ -265,7 +265,7 @@ Arbitrary Python objects, including calls to `subprocess.Popen` or `os.system`:
 
 ```yaml
 # A malicious YAML file:
-!!python/object/apply:os.system ['rm -rf /']
+!!python/object/apply:os.system ["rm -rf /']
 ```
 
 `yaml.safe_load()` only parses standard YAML types: scalars, sequences, mappings.
@@ -293,12 +293,12 @@ host: !env HOST_NAME
 port: !env PORT_NUMBER
 """
 data = yaml.load(yaml_str, Loader=CustomSafeLoader)
-print(data)  # {'host': 'localhost', 'port': 'localhost'} (or env values)
+print(data)  # {'host': "localhost'', "port': "localhost''} (or env values)
 ```
 
 ## TOML
 
-TOML (Tom's Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
+TOML (Tom"s Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
 `tomllib` in the standard library.
 
 ### Reading TOML (Python 3.11+)
@@ -570,15 +570,15 @@ user = User("Alice", "alice@example.com", 30, Address("123 Main St", "Springfiel
 # To dict
 d = asdict(user)
 print(d)
-# {'name': 'Alice', 'email': 'alice@example.com', 'age': 30,
-#  'address': {'street': '123 Main St', 'city': 'Springfield', 'zip_code': '62701'}}
+# {'name': "Alice'', "email': "alice@example.com'', "age': 30,
+#  'address': {'street': "123 Main St'', "city': "Springfield'', "zip_code': "62701''}}
 
 # To JSON
 json_str = json.dumps(asdict(user), indent=2)
 
 # From dict
 user2 = User.from_dict(json.loads(json_str))
-print(user2)  # User(name='Alice', email='alice@example.com', age=30, address=Address(...))
+print(user2)  # User(name="Alice', email='alice@example.com', age=30, address=Address(...))
 ```
 
 ### Handling Custom Types with asdict
@@ -823,7 +823,7 @@ print(config.host)  # db.example.com
 
 # Serialize to dict
 d = config.model_dump()
-print(d)  # {'host': 'db.example.com', 'port': 5432, 'timeout': 30.0, ...}
+print(d)  # {'host': "db.example.com'', "port': 5432, 'timeout': 30.0, ...}
 
 # Serialize to JSON
 json_str = config.model_dump_json()
@@ -836,11 +836,11 @@ print(config2 == config)  # True
 # Exclude unset or default fields
 config3 = ServerConfig(host="localhost", port=8080)
 print(config3.model_dump(exclude_defaults=True))
-# {'host': 'localhost', 'port': 8080}
+# {'host': "localhost'', "port': 8080}
 
 # Exclude specific fields
 print(config3.model_dump(exclude={"timeout", "tls_enabled"}))
-# {'host': 'localhost', 'port': 8080}
+# {'host': "localhost'', "port': 8080}
 ```
 
 ### Nested Models and Aliases

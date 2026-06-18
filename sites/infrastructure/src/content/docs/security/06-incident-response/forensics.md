@@ -1,6 +1,6 @@
 ---
 title: Digital Forensics Basics
-description: 'The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence...'
+description: "The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence...''
 
 ---
 
@@ -148,7 +148,7 @@ psort.py -o timeline_timeline.timeline timeline.plaso
 
 ### Slack Space
 
-Slack space is the unused space between the end of a file's content and the end of the file system
+Slack space is the unused space between the end of a file"s content and the end of the file system
 Block. Data may be recoverable from slack space:
 
 ```bash

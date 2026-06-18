@@ -1,6 +1,6 @@
 ---
 title: Floating Point Representation
-description: 'Fixed-point representation allocates a fixed number of bits to the integer and fractional parts, Limiting both range and precision. decouples these: it uses...'
+description: "Fixed-point representation allocates a fixed number of bits to the integer and fractional parts, Limiting both range and precision. decouples these: it uses...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -567,7 +567,7 @@ NaN is produced by:
 Key property: **NaN is not equal to anything, including itself.**
 
 ```python
->>> float('nan') == float('nan')
+>>> float("nan') == float('nan')
 False
 >>> import math
 >>> math.isnan(float('nan'))

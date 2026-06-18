@@ -1,6 +1,6 @@
 ---
 title: Thermodynamics and Statistical Mechanics
-description: 'If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with .'
+description: "If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with .''
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Physics
@@ -51,7 +51,7 @@ Body without external work.
 
 **Second Law (Kelvin-Planck Statement):** No cyclic process can convert heat entirely into work.
 
-**Theorem 1.1 (Carnot's Theorem).** No engine operating between two heat reservoirs is more
+**Theorem 1.1 (Carnot"s Theorem).** No engine operating between two heat reservoirs is more
 Efficient than a Carnot engine. All reversible engines operating between the same two reservoirs
 Have the same efficiency.
 

@@ -3,7 +3,7 @@ title: Polynomial Rings
 tags:
   - Mathematics
   - University
-description: 'Polynomial Rings: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Polynomial Rings: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 10.1 Definition and Basic Properties
@@ -28,7 +28,7 @@ both $g$ and $h$ of degree less than $\deg(f)$.
 **Proposition 10.4.** Every polynomial in $F[x]$ factors uniquely into irreducible polynomials (up
 to Reordering and multiplication by units).
 
-**Theorem 10.5 (Eisenstein's Criterion).** Let
+**Theorem 10.5 (Eisenstein"s Criterion).** Let
 $f(x) = a_n x^n + \cdots + a_1 x + a_0 \in \mathbb{Z}[x]$. If there exists a prime $p$ such that:
 
 1. $p$ divides $a_0, a_1, \ldots, a_{n-1}$.

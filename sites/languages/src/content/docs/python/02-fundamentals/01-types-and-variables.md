@@ -1,6 +1,6 @@
 ---
 title: Types and Variables
-description: 'Python is and . These two properties are frequently Confused, so it is worth bei Comprehensive educational content coverage with definitions and practice proble'
+description: "Python is and . These two properties are frequently Confused, so it is worth bei Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-04T10:00:00.000Z
 tags:
   - Python
@@ -9,7 +9,7 @@ categories:
 
 ---
 
-## Python's Type System
+## Python"s Type System
 
 Python is **dynamically typed** and **strongly typed**. These two properties are frequently
 Confused, so it is worth being precise about what they mean.
@@ -603,7 +603,7 @@ Values are evaluated once at function definition time (not at call time), using 
 Causes all calls to share the same object.
 
 ```python
-# BUG: 'items' is created once and shared across all calls
+# BUG: "items'' is created once and shared across all calls
 def add_item(item, items=[]):
     items.append(item)
     return items
@@ -713,7 +713,7 @@ def get_name(obj: T) -> str:
 
 ### `Protocol`: Structural Subtyping (PEP 544)
 
-Python's type system supports both nominal typing (based on inheritance) and structural typing
+Python"s type system supports both nominal typing (based on inheritance) and structural typing
 (based on shape). `Protocol` enables structural typing -- a type satisfies a protocol if it has the
 Required attributes and methods, regardless of inheritance.
 

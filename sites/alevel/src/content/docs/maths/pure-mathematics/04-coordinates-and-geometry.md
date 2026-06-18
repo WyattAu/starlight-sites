@@ -1,6 +1,6 @@
 ---
 title: Coordinates and Geometry
-description: '| Board | Paper | Notes | | ---------- | ------- | ---------------------------------------- | | AQA | Paper 1 | Straight lines, circles | | Edexcel | P1 |...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------------- | | AQA | Paper 1 | Straight lines, circles | | Edexcel | P1 |...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -27,7 +27,7 @@ categories:
 $(x, y)$ where $x, y \in \mathbb{R}$. The horizontal axis is the $x$-axis and the vertical axis is
 The $y$-axis.
 
-The _distance_ between two points $A(x_1, y_1)$ and $B(x_2, y_2)$ is given by Pythagoras' theorem:
+The _distance_ between two points $A(x_1, y_1)$ and $B(x_2, y_2)$ is given by Pythagoras" theorem:
 
 **Theorem (Distance Formula).**
 

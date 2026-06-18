@@ -3,7 +3,7 @@ title: Lasers
 tags:
   - Physics
   - University
-description: 'Lasers: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Lasers: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 17.1 Conditions for Lasing
@@ -98,7 +98,7 @@ the waist contribution, valid for $z \gg z_R$).
    approaches a Gaussian profile (Airy pattern central maximum), which is why spatial filtering is
    used to "clean up" laser beams.
 
-5. **Polarisation and Brewster's angle:** At Brewster’s angle, the _reflected_ beam is purely
+5. **Polarisation and Brewster"s angle:** At Brewster’s angle, the _reflected_ beam is purely
    $s$-polarised, not the transmitted beam. The transmitted beam has reduced $s$-component and
    becomes partially $p$-polarised. Complete polarisation of the transmitted beam requires many
    interfaces (pile-of-plates polariser).

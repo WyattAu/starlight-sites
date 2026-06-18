@@ -1,6 +1,6 @@
 ---
 title: Chemistry - Acids, Bases, and Electrochemistry
-description: 'Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls.'
+description: "Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls.''
 
 ---
 
@@ -420,7 +420,7 @@ $2\mathrm{H}_2\mathrm{O} + 2\mathrm{NaCl} \to \mathrm{H}_2 + \mathrm{Cl}_2 + 2\m
 
 ---
 
-## Faraday's Laws of Electrolysis
+## Faraday"s Laws of Electrolysis
 
 ### First Law
 

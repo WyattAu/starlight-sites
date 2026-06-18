@@ -1,6 +1,6 @@
 ---
 title: Probability
-description: '- : The set of all possible outcomes of an experiment - : Any subset of the sample space - : A number between 0 and 1 that measures the likelihood of an event'
+description: "- : The set of all possible outcomes of an experiment - : Any subset of the sample space - : A number between 0 and 1 that measures the likelihood of an event''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -75,7 +75,7 @@ Alternatively, check whether $P(B | A) = P(B)$.
 | $P(A \cap B)$ | $0$                           | $P(A) \cdot P(B)$                           |
 | $P(A \cup B)$ | $P(A) + P(B)$                 | $P(A) + P(B) - P(A)P(B)$                    |
 
-## Bayes' Theorem
+## Bayes" Theorem
 
 $$P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B | A) \cdot P(A) + P(B | A^c) \cdot P(A^c)}$$
 

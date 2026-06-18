@@ -1,6 +1,6 @@
 ---
 title: Unicode Support
-description: 'C++ provides several character types for Unicode support and string literals for UTF-8 text. However, the standard library provides minimal high-level...'
+description: "C++ provides several character types for Unicode support and string literals for UTF-8 text. However, the standard library provides minimal high-level...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -212,7 +212,7 @@ void unicode_sorting_problem() {
     // On most systems: "strasse", "zylinder", "äpfel", "straße"
     // This is WRONG for German collation: ä should sort near a, ß near ss
 
-    // For correct Unicode-aware collation, use ICU's Collator or similar library
+    // For correct Unicode-aware collation, use ICU"s Collator or similar library
 }
 ```
 

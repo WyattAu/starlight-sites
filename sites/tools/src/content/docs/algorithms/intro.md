@@ -1,6 +1,6 @@
 ---
 title: Introduction to Algorithms
-description: 'An algorithm is a finite sequence of well-defined instructions that takes an input and produces an Output. This definition is deceptively simple. In...'
+description: "An algorithm is a finite sequence of well-defined instructions that takes an input and produces an Output. This definition is deceptively simple. In...''
 
 ---
 
@@ -70,7 +70,7 @@ This subject assumes familiarity with:
 | ---------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
 | Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness | —                                 |
 | Arrays and Strings           | Two pointers, sliding window, prefix sums, hashing, string matching      | Rabin-Karp, KMP                   |
-| Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd's cycle detection           |
+| Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd"s cycle detection           |
 | Trees and Graphs             | BSTs, balanced trees, heaps, tries, graph traversal, topological sort    | BFS, DFS                          |
 | Sorting                      | Comparison and non-comparison sorting, stability, adaptive behaviour     | Merge sort, quicksort, radix sort |
 | Dynamic Programming          | Memoisation, tabulation, state space reduction, common DP patterns       | Knapsack, LCS, edit distance      |

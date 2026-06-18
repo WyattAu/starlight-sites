@@ -1,6 +1,6 @@
 ---
 title: Trees
-description: 'A is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data Structure consisting of nodes, where each node has at most one and...'
+description: "A is a connected, acyclic, undirected graph. Equivalently, a tree is a hierarchical data Structure consisting of nodes, where each node has at most one and...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -81,7 +81,7 @@ $h \geq \lceil \log_2(n+1) \rceil - 1 = \lfloor \log_2 n \rfloor$. $\square$
 
 A **Binary Search Tree** is a binary tree with the **BST property**: for every node $N$:
 
-- All keys in the left subtree of $N$ are **less than** $N$'s key
+- All keys in the left subtree of $N$ are **less than** $N$"s key
 - All keys in the right subtree of $N$ are **greater than** $N$'s key
 
 ### Search

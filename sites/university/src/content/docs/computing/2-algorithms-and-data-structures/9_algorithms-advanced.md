@@ -1,6 +1,6 @@
 ---
 title: Algorithms (Advanced)
-description: 'Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing
@@ -148,7 +148,7 @@ has 0 residual, $s \to b$ has 0 residual. But we have reverse edges!
 $s$ has reverse edge from $b$: $b \xrightarrow{8} s$. But we are searching from $s$Not to $s$. The
 reverse edge $a \xrightarrow{8} s$ goes into $s$Which is irrelevant for BFS from $s$.
 
-Hmm, actually BFS from $s$ can only follow outgoing edges. $s$'s outgoing residual edges are:
+Hmm, actually BFS from $s$ can only follow outgoing edges. $s$"s outgoing residual edges are:
 $s \xrightarrow{0} a$ (no), $s \xrightarrow{0} b$ (no). There are no reverse edges from $s$ to
 anywhere.
 

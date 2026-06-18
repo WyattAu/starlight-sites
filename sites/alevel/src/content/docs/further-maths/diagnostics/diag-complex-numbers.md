@@ -1,6 +1,6 @@
 ---
-title: 'Complex Numbers -- Diagnostic Tests'
-description: 'A-Level Further Maths Complex Numbers -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Complex Numbers -- Diagnostic Tests''
+description: "A-Level Further Maths Complex Numbers -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -28,7 +28,7 @@ $z_1 z_2 = 5\sqrt{5}(\cos 3.605 + i\sin 3.605)$.
 $z_1/z_2$: $|z_1/z_2| = 5/\sqrt{5} = \sqrt{5}$. $\arg(z_1/z_2) = 0.927 - 2.678 = -1.751$ rad.
 $z_1/z_2 = \sqrt{5}(\cos(-1.751) + i\sin(-1.751))$.
 
-### UT-2: De Moivre's Theorem
+### UT-2: De Moivre"s Theorem
 
 **Question:** (a) State De Moivre's theorem. (b) Use De Moivre's theorem to find $(1 + i)^8$. (c)
 Find the four fourth roots of $-16$. (d) Verify that the product of all four roots equals $-16$.

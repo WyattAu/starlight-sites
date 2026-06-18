@@ -1,6 +1,6 @@
 ---
 title: Strings and Text Processing
-description: 'is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in...'
+description: "is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in...''
 
 ---
 
@@ -105,7 +105,7 @@ Encoding is used; it is determined automatically at construction time.
 ### When to Use Each
 
 **`String`** — Use for values that do not change. Literals, constants, method return values for
-Immutable data, keys in maps, and any case where immutability is desired. The JVM's escape analysis
+Immutable data, keys in maps, and any case where immutability is desired. The JVM"s escape analysis
 And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
 **`StringBuilder`** — Use for building strings in a single thread. This covers the vast majority of

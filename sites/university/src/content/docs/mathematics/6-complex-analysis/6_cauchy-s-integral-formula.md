@@ -3,12 +3,12 @@ title: Cauchy's Integral Formula
 tags:
   - Mathematics
   - University
-description: 'If is analytic on a connected domain Containing a simple closed positively orien Comprehensive educational content coverage with definitions and practice proble'
+description: "If is analytic on a connected domain Containing a simple closed positively orien Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 6.1 Statement
 
-**Theorem 6.1 (Cauchy's Integral Formula).** If $f$ is analytic on a connected domain Containing a
+**Theorem 6.1 (Cauchy"s Integral Formula).** If $f$ is analytic on a connected domain Containing a
 simple closed positively oriented contour $\gamma$And $z_0$ is inside $\gamma$Then
 
 $$f(z_0) = \frac{1}{2\pi i}\int_\gamma \frac{f(z)}{z - z_0}\, dz$$

@@ -1,6 +1,6 @@
 ---
 title: Complexity Analysis
-description: 'A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per...'
+description: "A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per...''
 
 ---
 
@@ -253,7 +253,7 @@ Handles subproblems of different sizes).
 
 ## Best, Worst, and Average Case
 
-An algorithm's complexity can vary depending on the input. Quicksort runs in $O(n \log n)$ on
+An algorithm"s complexity can vary depending on the input. Quicksort runs in $O(n \log n)$ on
 Average but $O(n^2)$ in the worst case. Linear search is $O(1)$ in the best case (element is first)
 And $O(n)$ in the worst case.
 

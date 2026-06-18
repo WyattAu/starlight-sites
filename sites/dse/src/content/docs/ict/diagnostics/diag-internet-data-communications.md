@@ -1,6 +1,6 @@
 ---
-title: 'Internet and Data Communications -- Diagnostic Tests'
-description: 'DSE Ict Internet and Data Communications -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Internet and Data Communications -- Diagnostic Tests''
+description: "DSE Ict Internet and Data Communications -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -42,7 +42,7 @@ Switch: Layer 2 (Data Link). Encryption (TLS): Layer 6 (Presentation).
   **frame**.
 - **Physical** converts the frame to signals (electrical, optical, radio) for transmission.
 
-At the receiving end, **de-encapsulation** strips each layer's header in reverse order.
+At the receiving end, **de-encapsulation** strips each layer"s header in reverse order.
 
 ### UT-2: Network Topologies and Performance
 

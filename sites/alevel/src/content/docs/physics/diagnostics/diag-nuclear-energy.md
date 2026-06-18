@@ -1,6 +1,6 @@
 ---
-title: 'Nuclear Energy -- Diagnostic Tests'
-description: 'A-Level Physics Nuclear Energy -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Nuclear Energy -- Diagnostic Tests''
+description: "A-Level Physics Nuclear Energy -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -120,7 +120,7 @@ $m_p = 1.00728\,\text{u}$$m_{^{4}\text{He}} = 4.00150\,\text{u}$$m_{e^+} = 0.000
 
 (b) Calculate the energy released per kilogram of hydrogen consumed.
 
-(c) The Sun's luminosity is $3.85 \times 10^{26}\,\text{W}$. Estimate the mass of hydrogen consumed
+(c) The Sun"s luminosity is $3.85 \times 10^{26}\,\text{W}$. Estimate the mass of hydrogen consumed
 per second.
 
 Take

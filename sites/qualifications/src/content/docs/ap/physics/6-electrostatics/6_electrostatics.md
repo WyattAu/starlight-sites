@@ -1,6 +1,6 @@
 ---
 title: Electrostatics
-description: 'Charge is a fundamental property of matter. There are two types: positive and ne Comprehensive educational content coverage with definitions and practice proble'
+description: "Charge is a fundamental property of matter. There are two types: positive and ne Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-05
 tags:
   - ap
@@ -19,7 +19,7 @@ Charge is a fundamental property of matter. There are two types: positive and ne
 - Charge is conserved: the net charge in an isolated system is constant.
 - Conductors allow free movement of charge; insulators do not.
 
-### Coulomb's Law
+### Coulomb"s Law
 
 The electrostatic force between two point charges is:
 

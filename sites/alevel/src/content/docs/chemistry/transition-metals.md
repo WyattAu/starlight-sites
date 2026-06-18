@@ -1,6 +1,6 @@
 ---
 title: Transition Metals & Analytical Chemistry
-description: 'A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level...'
+description: "A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level...''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -125,7 +125,7 @@ The energy separation is the **crystal field splitting parameter** $\Delta_o$ (o
 
 ### High-Spin vs Low-Spin
 
-Electrons occupy the $d$ orbitals according to Hund's rule (maximise parallel spins) but must also
+Electrons occupy the $d$ orbitals according to Hund"s rule (maximise parallel spins) but must also
 respect the energy gap $\Delta_o$.
 
 - **Weak-field ligands** (e.g. $\mathrm{H}_2\mathrm{O}$$\mathrm{F}^-$): $\Delta_o$ is small.

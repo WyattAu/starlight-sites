@@ -3,7 +3,7 @@ title: Scattering Theory
 tags:
   - Physics
   - University
-description: 'For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble'
+description: "For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 12.1 Partial Wave Analysis
@@ -28,7 +28,7 @@ $$\sigma_l^{\max} = \frac{4\pi}{k^2}(2l + 1)$$
 
 For a weak potential, the scattering amplitude to first order is:
 
-$$f(\theta, \phi) \approx -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{k}'\cdot\mathbf{r}'}V(\mathbf{r}')\,d^3r'$$
+$$f(\theta, \phi) \approx -\frac{m}{2\pi\hbar^2}\int e^{-i\mathbf{k}"\cdot\mathbf{r}'}V(\mathbf{r}')\,d^3r'$$
 
 Where $\mathbf{k}'$ is the scattered wave vector and $\mathbf{q} = \mathbf{k}' - \mathbf{k}$ is the
 momentum transfer.

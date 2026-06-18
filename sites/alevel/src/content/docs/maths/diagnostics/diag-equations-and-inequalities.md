@@ -1,6 +1,6 @@
 ---
-title: 'Equations and Inequalities -- Diagnostic Tests'
-description: 'A-Level Maths Equations and Inequalities -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Equations and Inequalities -- Diagnostic Tests''
+description: "A-Level Maths Equations and Inequalities -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -223,7 +223,7 @@ The solution is $x = \frac◆LB◆3 + \sqrt{21}◆RB◆◆LB◆2◆RB◆$.
 then $f(c) = x$. When $f(x) = x$, $f^{-1}(x) = x = f(x)$.
 
 For this specific M\"obius transformation, since $f$ is a strictly decreasing function on
-$(1, \infty)$ (its derivative $f'(x) = \frac{-5}{(x-1)^2} < 0$), the graph of $f$ crosses $y = x$
+$(1, \infty)$ (its derivative $f"(x) = \frac{-5}{(x-1)^2} < 0$), the graph of $f$ crosses $y = x$
 exactly once, and this crossing point is the unique solution to $f(x) = f^{-1}(x)$.
 
 Verification: $f(x) = x$ gives $\frac{2x+3}{x-1} = x$I.e. $2x+3 = x^2-x$I.e. $x^2-3x-3 = 0$Which is

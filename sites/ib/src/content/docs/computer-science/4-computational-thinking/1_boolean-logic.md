@@ -1,6 +1,6 @@
 ---
 title: Boolean Logic
-description: 'Rigorous IB computer science notes covering Boolean Logic. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB computer science notes covering Boolean Logic. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - IB
@@ -50,7 +50,7 @@ Notation: $A + B$, $A \vee B$
 | 0   | 1       |
 | 1   | 0       |
 
-Notation: $\overline{A}$, $A'$, $\lnot A$
+Notation: $\overline{A}$, $A"$, $\lnot A$
 
 **NAND:** The negation of AND. Output is 0 only when all inputs are 1.
 

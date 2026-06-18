@@ -1,6 +1,6 @@
 ---
-title: 'Genetics -- Diagnostic Tests'
-description: 'DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.'
+title: "Genetics -- Diagnostic Tests''
+description: "DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."'
 tableOfContents: false
 ---
 
@@ -29,7 +29,7 @@ bases (thymine, guanine, and cytosine) in this sample. [2 marks]
 (a) DNA double helix structure:
 
 (i) Two polynucleotide strands are coiled into a **double helix**. The two strands run in
-**antiparallel** directions -- one runs $5'$ to $3'$ and the other runs $3'$ to $5'$.
+**antiparallel** directions -- one runs $5"$ to $3'$ and the other runs $3'$ to $5'$.
 
 (ii) The two strands are held together by **hydrogen bonds** between complementary base pairs:
 adenine (A) pairs with thymine (T) via **two** hydrogen bonds, and guanine (G) pairs with cytosine

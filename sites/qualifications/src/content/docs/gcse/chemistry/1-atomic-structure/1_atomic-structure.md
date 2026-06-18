@@ -1,6 +1,6 @@
 ---
 title: Atomic Structure
-description: 'Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom Consists of three subatomic particles:'
+description: "Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom Consists of three subatomic particles: "''
 date: 2026-04-14
 tags:
   - gcse
@@ -73,8 +73,8 @@ $A = 8 + 8 = 16$.
 | Bohr (1913)       | Electron shells | Electrons orbit the nucleus in fixed energy levels                   |
 | Chadwick (1932)   | With neutrons   | Discovered the neutron, completing the modern picture                |
 
-Each model superseded its predecessor because new experimental evidence forced a revision. Dalton's
-Model could not explain cathode rays (Thomson). Thomson's plum pudding model could not explain the
+Each model superseded its predecessor because new experimental evidence forced a revision. Dalton"s
+Model could not explain cathode rays (Thomson). Thomson"s plum pudding model could not explain the
 Gold foil results (Rutherford). Rutherford's model was unstable by classical electrodynamics -- a
 Charged electron orbiting a nucleus should radiate energy and spiral inward. Bohr resolved this by
 Postulating quantised orbits, although his model was itself superseded by the full quantum

@@ -1,8 +1,8 @@
 ---
 title: Types and Variables
-description: 'Before understanding types and variables, you must understand where they live at runtime. The JVM Divides its runtime data area into several regions, each...'
+description: "Before understanding types and variables, you must understand where they live at runtime. The JVM Divides its runtime data area into several regions, each...''
 date: 2025-06-05T10:00:00.000Z
-tags: ['java']
+tags: ["java']
 categories: ['java']
 
 ---

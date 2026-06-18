@@ -5,7 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description: 'Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble'
+description: "Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ## Standard Go Project Layout
@@ -187,7 +187,7 @@ func (s *Store) Put(ctx context.Context, u User) error             { /* ... */ }
 ```
 
 The `service` package defines the interface it needs. The `database` package implements it
-implicitly. Neither package imports the other's type definitions.
+implicitly. Neither package imports the other"s type definitions.
 
 ### Avoid Interface Pollution
 

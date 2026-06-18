@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Data Structures
-description: 'Algorithms and Data Structures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Algorithms and Data Structures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-04-23T00:00:00.000Z
 tags:
   - Computing
@@ -78,7 +78,7 @@ To show tightness, note $n^2 + 3n + 1 \geq n^2$ for all $n \geq 0$So $n^2 + 3n +
 <summary>Worked Example: Proving $2^n \neq O(n^k)$ for any constant $k$</summary>
 
 By the limit rule: $\lim_{n \to \infty} 2^n / n^k = \infty$ for any fixed $k$ (this follows from
-repeated application of L'Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
+repeated application of L"Hôpital’s rule, or from the fact that $\log(2^n) = n \log 2$ grows faster
 than $\log(n^k) = k \log n$). Therefore $2^n = \omega(n^k)$ for all $k$And in particular
 $2^n \neq O(n^k)$.
 

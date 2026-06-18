@@ -1,6 +1,6 @@
 ---
-title: 'Probability -- Diagnostic Tests'
-description: 'A-Level Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Probability -- Diagnostic Tests''
+description: "A-Level Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -70,7 +70,7 @@ cannot be mutually exclusive.
 
 ---
 
-### UT-2: Conditional Probability and the Prosecutor's Fallacy
+### UT-2: Conditional Probability and the Prosecutor"s Fallacy
 
 **Question:**
 

@@ -1,6 +1,6 @@
 ---
 title: Graphs
-description: 'A consists of a set of (nodes) and a set of Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A consists of a set of (nodes) and a set of Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -99,7 +99,7 @@ class Graph:
 
 :::info Board-specific
 
-- **AQA** requires adjacency matrix and adjacency list representations; Dijkstra's algorithm for
+- **AQA** requires adjacency matrix and adjacency list representations; Dijkstra"s algorithm for
   shortest path
 - **CIE (9618)** requires graph representations and traversal; may include minimum spanning tree
   algorithms (Kruskal's, Prim's)

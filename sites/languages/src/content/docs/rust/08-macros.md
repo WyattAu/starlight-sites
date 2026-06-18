@@ -1,6 +1,6 @@
 ---
 title: Macros
-description: 'Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,...'
+description: "Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,...''
 date: 2026-04-07T00:00:00.000Z
 tags:
   - Rust
@@ -102,7 +102,7 @@ my_func();
 | `meta`     | Meta attribute (inner content of `#[...]`)      | `derive(Debug, Clone)`      |
 | `item`     | Item (function, struct, impl, etc.)             | `fn foo() {}``struct S;`    |
 | `vis`      | Visibility modifier                             | `pub``pub(crate)`(none)     |
-| `lifetime` | Lifetime                                        | `'a``'static`               |
+| `lifetime` | Lifetime                                        | `"a``'static`               |
 | `tt`       | Token tree (single token or matched delimiters) | `=>``(a, b)``[]`            |
 
 The `tt` specifier is the most flexible -- it matches any single token or any pair of matched

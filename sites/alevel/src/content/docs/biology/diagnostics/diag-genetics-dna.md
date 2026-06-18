@@ -1,6 +1,6 @@
 ---
-title: 'Genetics and DNA -- Diagnostic Tests'
-description: 'A-Level Biology Genetics and DNA -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Genetics and DNA -- Diagnostic Tests''
+description: "A-Level Biology Genetics and DNA -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -36,7 +36,7 @@ polymerase cannot initiate synthesis without a primer.
 2. **Free nucleotides** (activated with three phosphate groups) are attracted to their exposed
    complementary bases on each template strand, following the base-pairing rules (A-T, C-G).
 3. **DNA polymerase** catalyses the formation of phosphodiester bonds between adjacent nucleotides,
-   joining them into a new complementary strand. DNA polymerase can only add nucleotides in the **5'
+   joining them into a new complementary strand. DNA polymerase can only add nucleotides in the **5"
    to 3' direction**.
 4. On the **leading strand**, DNA polymerase synthesises continuously in the 5' to 3' direction
    towards the replication fork.

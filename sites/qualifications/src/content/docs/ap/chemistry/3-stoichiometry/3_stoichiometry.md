@@ -1,6 +1,6 @@
 ---
 title: Stoichiometry
-description: 'Qualifications Chemistry Stoichiometry notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.'
+description: "Qualifications Chemistry Stoichiometry notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.''
 date: 2026-04-14
 tags:
   - ap
@@ -12,7 +12,7 @@ categories:
 
 ## The Mole Concept (CED Unit 1)
 
-### Avogadro's Number
+### Avogadro"s Number
 
 $$
 N_A = 6.022 \times 10^{23} \mathrm{ particles/mol

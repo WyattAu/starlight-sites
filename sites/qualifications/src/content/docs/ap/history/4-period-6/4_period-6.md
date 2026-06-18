@@ -1,6 +1,6 @@
 ---
 title: Period 6 (1865-1898)
-description: 'The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large...'
+description: "The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -26,7 +26,7 @@ technological innovation, the rise of large corporations, and the expansion of r
   settlement of the West, and standardised time zones (1883)
 - **Communication**: Telegraph (Morse, 1844) and telephone (Bell, 1876) revolutionised long-distance
   communication
-- **Electricity**: Thomas Edison's light bulb (1879) and power generation systems transformed
+- **Electricity**: Thomas Edison"s light bulb (1879) and power generation systems transformed
   industry and daily life
 
 ### Rise of Big Business

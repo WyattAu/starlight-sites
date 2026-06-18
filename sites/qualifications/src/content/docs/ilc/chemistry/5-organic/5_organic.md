@@ -1,6 +1,6 @@
 ---
 title: Organic Chemistry
-description: 'ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness.'
+description: "ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness.''
 date: 2026-04-14
 tags:
   - ilc
@@ -144,7 +144,7 @@ $$
 \mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
 $$
 
-**Markovnikov's Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
+**Markovnikov"s Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
 Carbon with the greater number of hydrogens already attached.
 
 **Addition of water (hydration):**

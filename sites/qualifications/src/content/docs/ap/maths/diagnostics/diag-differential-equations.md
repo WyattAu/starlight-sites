@@ -1,6 +1,6 @@
 ---
-title: 'Differential Equations -- Diagnostic Tests'
-description: '> Tests edge cases, boundary conditions, and common misconceptions for different Comprehensive educational content coverage with definitions and practice proble'
+title: "Differential Equations -- Diagnostic Tests''
+description: "> Tests edge cases, boundary conditions, and common misconceptions for different Comprehensive educational content coverage with definitions and practice proble"'
 date: 2026-04-14
 tags:
   - ap
@@ -43,7 +43,7 @@ the theorem does not guarantee uniqueness.
 
 $$y(x) = \begin{cases} 0 & \text{if  x \leq a \\ \left(\dfrac{x - a}{3}\right)^3 & \text{if  x > a \end{cases}$$
 
-For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y'(a) = 0$ from both sides (since
+For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
 is a valid $C^1$ solution. For $a = 0$This gives:
 

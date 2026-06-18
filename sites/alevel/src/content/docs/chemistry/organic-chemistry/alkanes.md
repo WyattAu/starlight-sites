@@ -1,6 +1,6 @@
 ---
 title: Alkanes
-description: 'Alkanes are saturated hydrocarbons with the general formula . "Saturated" means every carbon atom is bonded to the maximum possible number of hydrogen atoms...'
+description: "Alkanes are saturated hydrocarbons with the general formula . "Saturated" means every carbon atom is bonded to the maximum possible number of hydrogen atoms...''
 date: 2026-04-22T00:00:00.000Z
 tags:
   - Chemistry
@@ -191,7 +191,7 @@ $$
 $$
 
 Carbon monoxide is a toxic, colourless, odourless gas that binds irreversibly to haemoglobin
-($K \approx 200\times$ that of $\mathrm{O}_2$), reducing the blood's oxygen-carrying capacity.
+($K \approx 200\times$ that of $\mathrm{O}_2$), reducing the blood"s oxygen-carrying capacity.
 Incomplete combustion of alkanes in poorly ventilated spaces is a major cause of CO poisoning.
 
 ### Calculating Enthalpy of Combustion from Bond Enthalpies

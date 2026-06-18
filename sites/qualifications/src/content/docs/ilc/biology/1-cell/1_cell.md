@@ -1,6 +1,6 @@
 ---
 title: Cell Biology
-description: 'ILC Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed review and exam preparation.'
+description: "ILC Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed review and exam preparation.''
 date: 2026-04-14
 tags:
   - ilc
@@ -296,7 +296,7 @@ Low, increasing light further will have no effect.
 At high $\mathrm{CO_2$ concentration, $\mathrm{CO_2$ is not limiting. If light is low, increasing
 $\mathrm{CO_2$ will have no effect.
 
-This is an application of Blackman's law of limiting factors: at any given time, only one factor is
+This is an application of Blackman"s law of limiting factors: at any given time, only one factor is
 Limiting.
 
 ## Cellular Respiration (OL/HL)

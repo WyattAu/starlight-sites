@@ -3,7 +3,7 @@ title: Introduction
 tags:
   - Computing
   - University
-description: 'The theory of computation provides the mathematical foundations for computer science. It answers Fundamental questions: What can be computed? What cannot?...'
+description: "The theory of computation provides the mathematical foundations for computer science. It answers Fundamental questions: What can be computed? What cannot?...''
 ---
 
 ### 1.1 Why Theory Matters
@@ -87,7 +87,7 @@ is **countable**.
 **Theorem 1.1.** The set of all languages over a non-empty alphabet $\Sigma$ is uncountable.
 
 _Proof._ The set $\Sigma^*$ is countable (enumerate strings by length, then lexicographically). The
-set of all languages is $\mathcal{P}(\Sigma^*)$Which is uncountable by Cantor's theorem (since
+set of all languages is $\mathcal{P}(\Sigma^*)$Which is uncountable by Cantor"s theorem (since
 $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 
 **Theorem 1.2.** The set of all Turing machines is countable.

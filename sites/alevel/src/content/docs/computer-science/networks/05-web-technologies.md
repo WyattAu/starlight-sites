@@ -1,6 +1,6 @@
 ---
 title: Web Technologies
-description: 'Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - ComputerScience
@@ -242,7 +242,7 @@ JavaScript runs in the browser and enables dynamic, interactive web pages:
 The **Document Object Model** (DOM) is a tree-structured interface representing the HTML document:
 
 ```javascript
-const element = document.getElementById('greeting');
+const element = document.getElementById("greeting');
 element.textContent = 'Hello, A Level!';
 element.style.color = 'blue';
 

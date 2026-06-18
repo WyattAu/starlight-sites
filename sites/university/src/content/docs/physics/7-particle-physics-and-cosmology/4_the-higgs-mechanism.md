@@ -3,7 +3,7 @@ title: The Higgs Mechanism
 tags:
   - Physics
   - University
-description: 'The Higgs mechanism gives mass to the and bosons while preserving gauge invariance. The Key idea: a scalar field acquires a non-zero , spontaneously...'
+description: "The Higgs mechanism gives mass to the and bosons while preserving gauge invariance. The Key idea: a scalar field acquires a non-zero , spontaneously...''
 ---
 
 ### 4.1 Spontaneous Symmetry Breaking
@@ -37,7 +37,7 @@ $$\frac{\partial V}{\partial\phi_2} = \phi_2(\mu^2 + \lambda(\phi_1^2 + \phi_2^2
 
 The solutions are:
 
-- $\phi_1 = \phi_2 = 0$: This is a **local maximum** since $V'' = \mu^2 \lt 0$.
+- $\phi_1 = \phi_2 = 0$: This is a **local maximum** since $V"' = \mu^2 \lt 0$.
 - $\phi_1^2 + \phi_2^2 = -\mu^2/\lambda \equiv v^2$: This is the circle of minima.
 
 The VEV is $v = \sqrt{-\mu^2/\lambda}$. The symmetry is $\mathrm{U}(1)$ (phase rotations

@@ -3,7 +3,7 @@ title: Fieldwork Methodology
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, fieldwork]
-description: 'A-Level Geography Fieldwork Methodology notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.'
+description: "A-Level Geography Fieldwork Methodology notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.''
 ---
 
 # Fieldwork Methodology
@@ -37,7 +37,7 @@ methodologies, techniques, and principles that underpin successful geographical 
 | **Risk assessment**                       | The identification and management of potential hazards before and during fieldwork                                   |
 | **Triangulation**                         | Using multiple methods or data sources to cross-check and strengthen findings                                        |
 | **Geographical information system (GIS)** | Software that captures, stores, analyses, and displays geographic data                                               |
-| **Spearman's rank correlation**           | A statistical test measuring the strength and direction of association between two ranked variables                  |
+| **Spearman"s rank correlation**           | A statistical test measuring the strength and direction of association between two ranked variables                  |
 | **Chi-squared test**                      | A statistical test determining whether there is a significant association between observed and expected frequencies  |
 | **Mann-Whitney U test**                   | A statistical test comparing the medians of two independent samples to determine if they are significantly different |
 | **Standard deviation**                    | A measure of the spread or dispersion of data around the mean                                                        |

@@ -5,7 +5,7 @@ tags:
   - Go
 categories:
   - Go
-description: 'The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather...'
+description: "The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather...''
 ---
 
 ## strings Package
@@ -66,7 +66,7 @@ For efficient string concatenation in loops, use `strings.Builder` instead of re
 var b strings.Builder
 for _, s := range items {
     b.WriteString(s)
-    b.WriteByte(',')
+    b.WriteByte(",')
 }
 result := b.String()
 ```

@@ -1,6 +1,6 @@
 ---
 title: Network Security
-description: '| Threat | Description | | ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software...'
+description: "| Threat | Description | | ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -82,7 +82,7 @@ $$C = E_{\mathrm{pub}}(M), \quad M = D_{\mathrm{priv}}(C)$$
 
 1. Choose two large primes $p$ and $q$
 2. Compute $n = p \times q$
-3. Compute $\phi(n) = (p-1)(q-1)$ (Euler's totient)
+3. Compute $\phi(n) = (p-1)(q-1)$ (Euler"s totient)
 4. Choose $e$ such that $1 \lt e \lt \phi(n)$ and $\gcd(e, \phi(n)) = 1$
 5. Compute $d$ such that $d \cdot e \equiv 1 \pmod{\phi(n)}$
 

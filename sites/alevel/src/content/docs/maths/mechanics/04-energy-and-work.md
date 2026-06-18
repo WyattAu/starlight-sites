@@ -1,6 +1,6 @@
 ---
 title: Energy and Work
-description: '| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |...'
+description: "| Board | Paper | Notes | | ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Maths
@@ -60,7 +60,7 @@ To the motion (e.g., the normal reaction does no work on a body sliding on a hor
 
 $$\mathrm{KE} = \frac{1}{2}mv^2$$
 
-**Proof.** Starting from Newton's Second Law:
+**Proof.** Starting from Newton"s Second Law:
 
 $$F = ma = m\frac{dv}{dt} = m\frac{dv}{ds}\frac{ds}{dt} = mv\frac{dv}{ds}$$
 

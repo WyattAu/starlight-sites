@@ -1,6 +1,6 @@
 ---
 title: Geometry
-description: '| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |...'
+description: "| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |...''
 date: 2026-04-14
 tags:
   - gcse
@@ -150,7 +150,7 @@ Bearing of $C$ from $A = 70^{\circ} + 33.2^{\circ} = 103.2^{\circ} \approx 103^{
 
 ## 2. Triangles and Trigonometry
 
-### 2.1 Pythagoras' Theorem
+### 2.1 Pythagoras" Theorem
 
 **Theorem.** In a right-angled triangle with hypotenuse $c$ and legs $a$ and $b$:
 

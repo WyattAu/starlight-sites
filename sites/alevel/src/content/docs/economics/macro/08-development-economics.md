@@ -1,6 +1,6 @@
 ---
 title: Development Economics
-description: 'Development economics studies how nations transform from low-income, less-productive economies into High-income, modern economies. It is distinct from...'
+description: "Development economics studies how nations transform from low-income, less-productive economies into High-income, modern economies. It is distinct from...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Economics
@@ -24,7 +24,7 @@ Absent in advanced economies.
 Political, and social well-being of its people. It encompasses not just growth in income but also
 Improvements in health, education, living standards, and political freedom.
 
-**Definition.** **Economic growth** is an increase in a country's real GDP or real GDP per capita.
+**Definition.** **Economic growth** is an increase in a country"s real GDP or real GDP per capita.
 Growth is a **necessary but not sufficient** condition for development — a country can grow without
 Developing if the gains accrue to a small elite.
 

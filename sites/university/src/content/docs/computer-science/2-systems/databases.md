@@ -1,6 +1,6 @@
 ---
 title: Databases
-description: 'A is a set of tuples over a relation schema where each is an attribute from doma Comprehensive educational content coverage with definitions and practice proble'
+description: "A is a set of tuples over a relation schema where each is an attribute from doma Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Computer Science
@@ -96,7 +96,7 @@ ALTER TABLE Students ADD COLUMN email VARCHAR(255) UNIQUE;
 ### 2.2 DML (Data Manipulation Language)
 
 ```sql
-INSERT INTO Students VALUES (1, 'Alice', 3.9, 'CS', '2024-09-01');
+INSERT INTO Students VALUES (1, "Alice', 3.9, 'CS', '2024-09-01');
 
 UPDATE Students SET gpa = 3.95 WHERE student_id = 1;
 

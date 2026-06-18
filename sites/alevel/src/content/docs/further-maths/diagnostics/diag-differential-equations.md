@@ -1,6 +1,6 @@
 ---
-title: 'Differential Equations -- Diagnostic Tests'
-description: 'A-Level Further Maths Differential Equations -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Differential Equations -- Diagnostic Tests''
+description: "A-Level Further Maths Differential Equations -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -43,7 +43,7 @@ the auxiliary equation.
 $y = Ae^{2x} + Be^{3x}$.
 
 (b) $m^2 + 4 = 0$. $m = \pm 2i$. General solution: $y = A\cos 2x + B\sin 2x$. $y(0) = 1$: $A = 1$.
-$y'(0) = 0$: $2B = 0$$B = 0$. Particular solution: $y = \cos 2x$.
+$y"(0) = 0$: $2B = 0$$B = 0$. Particular solution: $y = \cos 2x$.
 
 (c) $m^2 + 6m + 9 = 0$. $(m+3)^2 = 0$. $m = -3$ (repeated root). General solution:
 $y = (A + Bx)e^{-3x}$.

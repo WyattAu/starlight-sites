@@ -1,6 +1,6 @@
 ---
 title: Metabolism and Survival
-description: 'Scottish Highers Biology Metabolism and Survival notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
+description: "Scottish Highers Biology Metabolism and Survival notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -219,7 +219,7 @@ The skin and in the hypothalamus itself.
 
 **Nephron structure:**
 
-- **Bowman's capsule:** Filtration of blood; forms glomerular filtrate
+- **Bowman"s capsule:** Filtration of blood; forms glomerular filtrate
 - **Proximal convoluted tubule:** Selective reabsorption of all glucose, amino acids, and some water
   and ions
 - **Loop of Henle:** Countercurrent multiplier; creates a concentration gradient in the medulla for

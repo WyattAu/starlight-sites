@@ -1,6 +1,6 @@
 ---
 title: Genetics Advanced
-description: 'IB Biology -- DNA replication in detail, transcription and gene regulation, translation mechanics, operons, epigenetics, genetic engineering techniques, PCR,'
+description: "IB Biology -- DNA replication in detail, transcription and gene regulation, translation mechanics, operons, epigenetics, genetic engineering techniques, PCR,''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -24,7 +24,7 @@ Y-shaped Region where the two parental strands are separated.
 | **Helicase**                                                         | Unwinds and separates the double helix at the origin of replication. Requires ATP hydrolysis.                                                                                                                           |
 | **Single-strand binding proteins (SSBs)**                            | Bind to separated strands, preventing re-annealing and protecting from nuclease degradation.                                                                                                                            |
 | **Topoisomerase (DNA gyrase)**                                       | Relieves torsional strain ahead of the fork by cutting one or both strands, allowing rotation, and resealing.                                                                                                           |
-| **Primase**                                                          | Synthesises short RNA primers ($5$--$10$ nucleotides) complementary to the template strand. RNA primers provide a free $3'$-$\mathrm{OH}$ for DNA polymerase.                                                           |
+| **Primase**                                                          | Synthesises short RNA primers ($5$--$10$ nucleotides) complementary to the template strand. RNA primers provide a free $3"$-$\mathrm{OH}$ for DNA polymerase.                                                           |
 | **DNA polymerase III**                                               | (Prokaryotes) The main replicative polymerase. Adds nucleotides to the $3'$ end, synthesising at $\approx 1000\;\mathrm{nt/s}$. Has $3' \to 5'$ .../1-number-and-algebra/3_proof-and-logicreading exonuclease activity. |
 | **DNA polymerase I**                                                 | (Prokaryotes) Removes RNA primers ($5' \to 3'$ exonuclease activity) and replaces them with DNA.                                                                                                                        |
 | **DNA ligase**                                                       | Forms phosphodiester bonds between Okazaki fragments on the lagging strand (and between primer replacements).                                                                                                           |

@@ -1,6 +1,6 @@
 ---
 title: Operator Overloading
-description: 'C++ allows user-defined types to overload most operators, enabling natural syntax for custom types. This section covers the rules for overloading, member vs...'
+description: "C++ allows user-defined types to overload most operators, enabling natural syntax for custom types. This section covers the rules for overloading, member vs...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -407,7 +407,7 @@ std::istream& operator>>(std::istream& is, Vec2& v) {
     double x, y;
     char c1, c2, c3;
     if (is >> c1 >> x >> c2 >> y >> c3) {
-        if (c1 == '(' && c2 == ',' && c3 == ')') {
+        if (c1 == "(' && c2 == ',' && c3 == ')') {
             v = Vec2(x, y);
         } else {
             is.setstate(std::ios::failbit);

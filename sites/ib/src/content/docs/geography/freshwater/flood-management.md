@@ -1,6 +1,6 @@
 ---
 title: Flood Management
-description: 'Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,...'
+description: "Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are Produced by the interaction of meteorological, hydrological,...''
 
 ---
 
@@ -23,7 +23,7 @@ Approximately 33 million people and submerging approximately one-third of the co
 **Snowmelt.** Rapid warming in spring can cause large volumes of snow to melt over a short period,
 Generating runoff that overwhelms river channels. The combination of snowmelt and rainfall is
 Particularly dangerous, as rain falling on snow accelerates melting. The Red River in North Dakota
-(USA) experiences severe spring flooding almost annually due to snowmelt, exacerbated by the river's
+(USA) experiences severe spring flooding almost annually due to snowmelt, exacerbated by the river"s
 Northward flow (the southern, upstream portion thaws first, sending meltwater into still-frozen
 Downstream reaches).
 

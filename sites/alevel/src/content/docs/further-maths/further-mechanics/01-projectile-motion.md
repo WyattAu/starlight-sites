@@ -1,6 +1,6 @@
 ---
 title: Projectile Motion
-description: 'Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into...'
+description: "Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -933,7 +933,7 @@ $\boxed{u \approx 25.9\,\mathrm{m\,s^{-1}}}$
 
 ### 11.1 Projectiles and circular motion
 
-Both topics involve resolving forces and using Newton's second law in 2D. See
+Both topics involve resolving forces and using Newton"s second law in 2D. See
 [Circular Motion](/docs/alevel/further-maths/further-mechanics/further-circular-motion).
 
 ### 11.2 Projectile equations and calculus

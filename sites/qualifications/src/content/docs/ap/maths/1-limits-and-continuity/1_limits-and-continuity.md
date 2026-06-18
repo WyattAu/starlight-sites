@@ -1,6 +1,6 @@
 ---
 title: Limits and Continuity
-description: 'The limit of a function as approaches is the value that approaches, regardless O Comprehensive educational content coverage with definitions and practice proble'
+description: "The limit of a function as approaches is the value that approaches, regardless O Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-14
 tags:
   - ap
@@ -617,7 +617,7 @@ $$
 Horizontal asymptotes: $y = 3$ (as $x \to \infty$) and $y = 0$ (as $x \to -\infty$).
 
 
-## L'Hopital's Rule (CED BC and AB Unit 1.15)
+## L"Hopital's Rule (CED BC and AB Unit 1.15)
 
 If $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)}$ produces the indeterminate form $\frac{0}{0}$ or
 $\frac{\pm\infty}{\pm\infty}$And $f$ and $g$ are differentiable near $a$ with $g'(x) \ne 0$ near

@@ -1,6 +1,6 @@
 ---
 title: Human Physiology
-description: 'IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction.'
+description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -326,7 +326,7 @@ Cells with specific receptors.
 
 ### Thermoregulation
 
-The **hypothalamus** acts as the body's thermostat, receiving input from thermoreceptors in the skin
+The **hypothalamus** acts as the body"s thermostat, receiving input from thermoreceptors in the skin
 And core.
 
 | Condition                                                   | Mechanisms of Heat Loss                                                                      | Mechanisms of Heat Conservation / Production                                                                                                              |

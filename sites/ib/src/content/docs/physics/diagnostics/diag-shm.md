@@ -1,6 +1,6 @@
 ---
-title: 'Simple Harmonic Motion -- Diagnostic Tests'
-description: 'IB Physics Simple Harmonic Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+title: "Simple Harmonic Motion -- Diagnostic Tests''
+description: "IB Physics Simple Harmonic Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
 tableOfContents: false
 ---
 
@@ -26,7 +26,7 @@ displaced by $x$ from equilibrium in one arm. The cross-sectional area of each a
 
 (a) The restoring force is $F = -kx + bx^3$.
 
-Newton's second law: $ma = -kx + bx^3$So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
+Newton"s second law: $ma = -kx + bx^3$So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
 
 This is **not** SHM because the acceleration is not proportional to displacement. The $bx^3$ term
 makes it anharmonic. The motion is approximately SHM only when $bx^3 \ll kx$I.e. $x \ll \sqrt{k/b}$

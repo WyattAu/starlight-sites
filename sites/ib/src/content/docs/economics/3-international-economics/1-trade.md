@@ -1,6 +1,6 @@
 ---
 title: International Trade
-description: 'A country has an in producing a good if it can produce more output per unit Of r Comprehensive educational content coverage with definitions and practice proble'
+description: "A country has an in producing a good if it can produce more output per unit Of r Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -39,7 +39,7 @@ Bottles vs. $2$ bottles).
 
 Both countries gain from specialising in the good in which they have a comparative advantage and
 Trading at a mutually beneficial terms of trade between the two opportunity cost ratios (e.g., 1
-wine for 0.75 cloth -- between A's cost of 0.5 and B's cost of 2).
+wine for 0.75 cloth -- between A"s cost of 0.5 and B's cost of 2).
 
 **Gains from trade with numerical example:**
 

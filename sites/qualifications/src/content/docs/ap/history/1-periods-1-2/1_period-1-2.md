@@ -1,6 +1,6 @@
 ---
 title: Periods 1-2 (1491-1754)
-description: 'Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional...'
+description: "Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional...''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - ap
@@ -51,7 +51,7 @@ estimated between 50 and 100 million. Key regional cultures included:
 - Portuguese established trading posts and plantations in Brazil (sugar cultivation)
 - French explored the St. Lawrence River and Great Lakes (Jacques Cartier, 1534; Samuel de
   Champlain, 1608, founded Quebec)
-- English explorers (John Cabot, 1497; Sir Walter Raleigh's Roanoke colony, 1585-1587, the "Lost
+- English explorers (John Cabot, 1497; Sir Walter Raleigh"s Roanoke colony, 1585-1587, the "Lost
   Colony")
 - Dutch established trading networks in present-day New York (New Netherland, 1624)
 

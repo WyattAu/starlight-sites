@@ -1,6 +1,6 @@
 ---
 title: Acids and Bases (Advanced)
-description: 'Rigorous IB chemistry notes covering Acids and Bases (Advanced). Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB chemistry notes covering Acids and Bases (Advanced). Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -102,7 +102,7 @@ $K_{a2} = 1.2 \times 10^{-2}$.
 ### Common Pitfalls
 
 - The 5% rule: if $x/c_0 \gt 5\%$Use the quadratic formula.
-- For very dilute strong acids ($c_0 \lt 10^{-6}\mathrm{ M}$), the contribution of water's
+- For very dilute strong acids ($c_0 \lt 10^{-6}\mathrm{ M}$), the contribution of water"s
   autoionization ($[\mathrm{H}^+] = 10^{-7}\mathrm{ M}$) becomes significant.
 - $\mathrm{pOH} = 14 - \mathrm{pH}$ only holds at $25\degree\mathrm{C}$.
 

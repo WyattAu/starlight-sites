@@ -3,7 +3,7 @@ title: Proof Techniques
 tags:
   - Computing
   - University
-description: 'To prove : assume Derive by a chain of logical deductions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "To prove : assume Derive by a chain of logical deductions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 3.1 Direct Proof
@@ -20,7 +20,7 @@ $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{{'}Z{}'}$ and $q, s \neq 0$. Then
+Let $a = p/q$ and $b = r/s$ where $p, q, r, s \in \mathbb{{"}Z{}'}$ and $q, s \neq 0$. Then
 
 $$a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}$$
 

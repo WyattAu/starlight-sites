@@ -1,6 +1,6 @@
 ---
 title: Boolean Algebra
-description: 'We define the Boolean algebra over with operations: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "We define the Boolean algebra over with operations: Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -102,7 +102,7 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | Absorption                 | $A + A \cdot B = A$; $A \cdot (A + B) = A$                    |
 | Double negation            | $\bar{\bar{A}} = A$                                           |
 
-### De Morgan's Laws
+### De Morgan"s Laws
 
 **Theorem (De Morgan's Laws).** For all Boolean variables $A, B$:
 

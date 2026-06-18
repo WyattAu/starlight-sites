@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: 'A-Level History Russia 1917-1953 notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
+description: "A-Level History Russia 1917-1953 notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.''
 ---
 
 # Russia 1917-1953
@@ -22,7 +22,7 @@ Tsarist Russia entered the twentieth century as an autocratic empire with a pred
 population, limited industrialisation, and growing revolutionary movements. The 1905 Revolution
 forced limited concessions, but Tsar Nicholas II resisted genuine reform.
 
-The First World War exposed the regime's weaknesses: military defeat, economic dislocation, and food
+The First World War exposed the regime"s weaknesses: military defeat, economic dislocation, and food
 shortages led to the February Revolution of 1917, which overthrew the Tsar. The Provisional
 Government that replaced it failed to end the war or address land reform, creating the conditions
 for the Bolshevik Revolution in October 1917.

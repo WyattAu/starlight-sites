@@ -1,6 +1,6 @@
 ---
-title: 'Kinematics -- Diagnostic Tests'
-description: 'IB Physics Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
+title: "Kinematics -- Diagnostic Tests''
+description: "IB Physics Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."'
 tableOfContents: false
 ---
 
@@ -224,7 +224,7 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 **Solution:**
 
-(a) At point $P$ on the inclined plane, the particle's coordinates satisfy $y = x\tan\alpha$.
+(a) At point $P$ on the inclined plane, the particle"s coordinates satisfy $y = x\tan\alpha$.
 
 Horizontal: $x = u\cos\theta \cdot t$
 

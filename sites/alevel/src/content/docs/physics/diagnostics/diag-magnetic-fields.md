@@ -1,6 +1,6 @@
 ---
-title: 'Magnetic Fields -- Diagnostic Tests'
-description: 'A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Magnetic Fields -- Diagnostic Tests''
+description: "A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -38,7 +38,7 @@ $\frac{F}{L} = \frac◆LB◆\mu_0 I_1 I_2◆RB◆◆LB◆2\pi r◆RB◆ = \frac�
 $$= \frac◆LB◆2 \times 10^{-5}◆RB◆◆LB◆0.05◆RB◆ = 4.0 \times 10^{-4}\,\text{N}\,\text{m}^{-1}$$
 
 Using the right-hand grip rule: $I_1$ produces a field that points into the page at the location of
-$I_2$ (if $I_2$ is to the right of $I_1$ and both carry current upward). Fleming's left-hand rule
+$I_2$ (if $I_2$ is to the right of $I_1$ and both carry current upward). Fleming"s left-hand rule
 gives a force on $I_2$ directed toward $I_1$. The force is **attractive**.
 
 (b) Total force:

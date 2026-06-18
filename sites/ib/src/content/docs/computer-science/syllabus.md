@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-description: 'First assessment 2025. The course is organized into five core themes studied at both Standard Level (SL) and Higher Level (HL), plus an HL Extension with...'
+description: "First assessment 2025. The course is organized into five core themes studied at both Standard Level (SL) and Higher Level (HL), plus an HL Extension with...''
 ---
 
 # IB Computer Science Syllabus Overview
@@ -17,7 +17,7 @@ First assessment 2025. The course is organized into five core themes studied at 
 | 1.1 System design         | SL/HL | Systems thinking principles, stakeholder perspectives, requirements specification, feasibility study, and project management methodologies for designing robust computing systems | Stakeholders, requirements, feasibility study, system specifications, project management (Gantt, PERT, agile, waterfall), prototyping, data flow diagrams (DFDs), system flowcharts, use case diagrams, process flowcharts |
 | 1.1 System design (HL)    | HL    | Extended system design including human-computer interaction, social and ethical considerations, and system integration complexities                                               | Human-computer interaction (HCI) principles, usability, accessibility, system integration, legacy systems, social and ethical considerations                                                                               |
 | 1.2 Computer architecture | SL/HL | Structure and function of processors, memory hierarchy, and the fetch-decode-execute cycle that underpins all computation                                                         | CPU components (ALU, CU, registers, buses), fetch-decode-execute cycle, RAM, ROM, cache, virtual memory, secondary storage, embedded systems, von Neumann architecture, Harvard architecture, parallel processing          |
-| 1.3 Boolean logic         | SL/HL | Application of Boolean algebra and truth tables to model and simplify digital logic circuits                                                                                      | Boolean operators (AND, OR, NOT, NAND, NOR, XOR, XNOR), truth tables, logic gates, Karnaugh maps, Boolean identities, De Morgan's laws, simplification of expressions                                                      |
+| 1.3 Boolean logic         | SL/HL | Application of Boolean algebra and truth tables to model and simplify digital logic circuits                                                                                      | Boolean operators (AND, OR, NOT, NAND, NOR, XOR, XNOR), truth tables, logic gates, Karnaugh maps, Boolean identities, De Morgan"s laws, simplification of expressions                                                      |
 
 System design focuses on how computing systems are planned, analyzed, and constructed to meet
 Specified requirements. Students learn to identify all relevant stakeholders, gather both functional

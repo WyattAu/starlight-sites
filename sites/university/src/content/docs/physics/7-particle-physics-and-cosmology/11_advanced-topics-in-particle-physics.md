@@ -3,7 +3,7 @@ title: Advanced Topics in Particle Physics
 tags:
   - Physics
   - University
-description: 'experiments (SLAC, 1968) scattered high-energy electrons off protons. The key observation: at large momentum transfer The proton behaves as if composed of...'
+description: "experiments (SLAC, 1968) scattered high-energy electrons off protons. The key observation: at large momentum transfer The proton behaves as if composed of...''
 ---
 
 ### 11.1 Deep Inelastic Scattering and Parton Model
@@ -56,7 +56,7 @@ $$\int_0^1 x \sum_q f_q(x)\, dx \approx 0.50$$
 $$\int_0^1 x f_g(x)\, dx \approx 0.45$$
 
 The remaining $\sim 5\%$ is carried by sea quarks ($q\bar{q}$ pairs). This means gluons carry
-roughly half the proton's momentum, despite being electrically neutral and invisible in
+roughly half the proton"s momentum, despite being electrically neutral and invisible in
 electromagnetic DIS.
 
 At higher $Q^2$The gluon momentum fraction increases further (gluon radiation shifts momentum from

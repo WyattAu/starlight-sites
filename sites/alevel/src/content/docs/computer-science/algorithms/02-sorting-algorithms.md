@@ -1,6 +1,6 @@
 ---
 title: Sorting Algorithms
-description: 'Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -302,7 +302,7 @@ A binary tree of height $h$ has at most $2^h$ leaves, so:
 
 $$2^h \geq n! \implies h \geq \log_2(n!)$$
 
-Using Stirling's approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt◆LB◆2\pi n◆RB◆$
+Using Stirling"s approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt◆LB◆2\pi n◆RB◆$
 
 $$\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)$$
 

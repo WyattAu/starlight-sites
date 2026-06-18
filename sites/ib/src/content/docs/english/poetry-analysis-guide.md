@@ -3,7 +3,7 @@ title: Poetry Analysis Guide for IB English
 tags:
   - IB
   - English
-description: 'Poetry is the most compressed and technically demanding literary form. Every word, every line break, Every sound pattern carries weight in a way that is not...'
+description: "Poetry is the most compressed and technically demanding literary form. Every word, every line break, Every sound pattern carries weight in a way that is not...''
 ---
 
 # Poetry Analysis Guide for IB English
@@ -11,7 +11,7 @@ description: 'Poetry is the most compressed and technically demanding literary f
 Poetry is the most compressed and technically demanding literary form. Every word, every line break,
 Every sound pattern carries weight in a way that is not true of prose. This density is what makes
 Poetry both rewarding and challenging to analyse: there is always more to discover, but the
-Discoveries must be earned through careful, systematic attention to the text's formal features.
+Discoveries must be earned through careful, systematic attention to the text"s formal features.
 
 ---
 
@@ -467,13 +467,13 @@ That mirrors the speaker's inability to contain her grief."
 
 **Evidence.** Introduce the quotation with context (speaker, location in the poem) and integrate it
 Grammatically. Example: "This effect is most pronounced in the third stanza, where the speaker
-Describes her mother's garden: 'the roses that she planted / year after year / without complaint /
-Until the soil gave out' (lines 14--17)."
+Describes her mother's garden: "the roses that she planted / year after year / without complaint /
+Until the soil gave out'' (lines 14--17)."
 
 **Analysis.** Explain how the evidence produces the effect identified in the point. This is the core
 Of the paragraph. Analysis must explain the mechanism: how does enjambment, in this specific
 Instance, create the sense of overflow? What is the relationship between the line breaks and the
-Semantic content? Example: "The enjambment between 'planted' and 'year after year' forces the reader
+Semantic content? Example: "The enjambment between "planted' and 'year after year' forces the reader
 To carry the image of the roses across the line break, creating a forward momentum that mirrors the
 Cumulative, unstoppable passage of time. The line break between 'complaint' and 'until' similarly
 Delays the revelation of the soil's exhaustion, structuring the reader's experience of loss as a

@@ -1,6 +1,6 @@
 ---
-title: 'Polar Coordinates -- Diagnostic Tests'
-description: 'A-Level Further Maths Polar Coordinates -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Polar Coordinates -- Diagnostic Tests''
+description: "A-Level Further Maths Polar Coordinates -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -168,7 +168,7 @@ $\frac{3}{4}(x^2 - 4x + 4) + y^2 + 9 - 3 = 0$. $\frac{3}{4}(x-2)^2 + y^2 + 6 = 0
 This is still impossible. The error is in the sign: $r + x/2 = 3$ requires $r = 3 - x/2$. For
 $r \ge 0$We need $x \le 6$. But squaring introduces extraneous solutions. The equation should be
 written as $4y^2 + 3(x-2)^2 = 6$Giving an ellipse. Let me verify: $y^2 + 6 = -\frac{3}{4}(x-2)^2$.
-That gives negative. I've made a sign error somewhere.
+That gives negative. I"ve made a sign error somewhere.
 
 Actually: $r = 3 - x/2$ gives $r^2 = (3-x/2)^2 = 9 - 3x + x^2/4$. And $r^2 = x^2 + y^2$. So
 $x^2 + y^2 = 9 - 3x + x^2/4$. $\frac{3}{4}x^2 + 3x + y^2 - 9 = 0$. (Sign of $3x$ was wrong.)

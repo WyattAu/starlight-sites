@@ -5,7 +5,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: 'This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It examines Two major case studies -- the civil rights movement in...'
+description: "This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It examines Two major case studies -- the civil rights movement in...''
 ---
 
 # Rights and Protest
@@ -95,7 +95,7 @@ Victory abroad against fascism, victory at home against racism -- captured this 
 Migration of African Americans to northern and western industrial cities during the war (the Second
 Great Migration) increased black political power and created new constituencies for civil rights
 Legislation. Executive Order 8802 (1941), issued by President Roosevelt under pressure from A.
-Philip Randolph's threatened March on Washington, banned racial discrimination in the defence
+Philip Randolph"s threatened March on Washington, banned racial discrimination in the defence
 industry And established the Fair Employment Practices Committee.
 
 ### 2.2 Key Events

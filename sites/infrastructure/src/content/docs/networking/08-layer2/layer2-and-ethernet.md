@@ -1,6 +1,6 @@
 ---
 title: Layer 2 and Ethernet
-description: 'The data link layer (OSI Layer 2) sits between the physical layer and the network layer. Its Responsibilities are concrete and well-defined:'
+description: "The data link layer (OSI Layer 2) sits between the physical layer and the network layer. Its Responsibilities are concrete and well-defined: "''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Networking
@@ -98,7 +98,7 @@ Most-significant byte first on the wire (big-endian bit order within each byte).
 ### Preamble (7 bytes)
 
 The preamble consists of 7 bytes of alternating 1s and 0s: `10101010` repeated 7 times (56 bits).
-Its purpose is to allow the receiver's clock to synchronize with the transmitter's clock. The
+Its purpose is to allow the receiver"s clock to synchronize with the transmitter"s clock. The
 Preamble is not counted as part of the frame for minimum/maximum size calculations.
 
 ### Start Frame Delimiter -- SFD (1 byte)

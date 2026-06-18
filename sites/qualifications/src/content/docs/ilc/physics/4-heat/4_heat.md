@@ -1,6 +1,6 @@
 ---
 title: Heat and Thermodynamics
-description: 'ILC Physics Heat and Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
+description: "ILC Physics Heat and Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.''
 date: 2026-04-14
 tags:
   - ilc
@@ -109,7 +109,7 @@ Hydrogen bonds between molecules. More modes mean more energy is needed to raise
 For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$Where $M$ is the
 Molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
 
-### Water's High Specific Heat Capacity
+### Water"s High Specific Heat Capacity
 
 Water has $c = 4180\mathrm{ J/(kg K)$Which is exceptionally high. This is because:
 

@@ -1,6 +1,6 @@
 ---
 title: Chemical Kinetics
-description: 'Kinetics is the study of reaction rates and the factors that influence them. Thermodynamics tells us whether a reaction is feasible; kinetics tells us...'
+description: "Kinetics is the study of reaction rates and the factors that influence them. Thermodynamics tells us whether a reaction is feasible; kinetics tells us...''
 date: 2026-04-21T00:00:00.000Z
 tags:
   - Chemistry
@@ -554,7 +554,7 @@ At higher temperature:
 
 ### Effect of a Catalyst
 
-A catalyst provides an alternative reaction pathway with a lower activation energy ($E_a'$). On the
+A catalyst provides an alternative reaction pathway with a lower activation energy ($E_a"$). On the
 Maxwell-Boltzmann distribution, the $E_a$ line moves to the left, and a larger proportion of
 molecules now have sufficient energy to react. The distribution itself does not change.
 

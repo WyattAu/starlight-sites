@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Computing
   - University
-description: 'Construct a DFA over that accepts exactly those strings whose Length is a multip Comprehensive educational content coverage with definitions and practice proble'
+description: "Construct a DFA over that accepts exactly those strings whose Length is a multip Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 7.1 Regular Languages
@@ -44,7 +44,7 @@ algorithm and prove it always halts.
 **Problem 10.** Prove that the language
 $L = \{\langle M_1, M_2 \rangle : L(M_1) \cap L(M_2) \neq \emptyset\}$ is undecidable.
 
-**Problem 11.** Use Rice's theorem to prove that
+**Problem 11.** Use Rice"s theorem to prove that
 $L = \{\langle M \rangle : L(M) \mathrm{ contains} at least two strings\}$ is undecidable. Explain
 why Rice's theorem applies.
 

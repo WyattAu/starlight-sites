@@ -3,7 +3,7 @@ title: Sequences and Series of Functions
 tags:
   - Mathematics
   - University
-description: 'Let be a sequence of functions defined on a set . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "Let be a sequence of functions defined on a set . Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 7.1 Pointwise Convergence
@@ -101,7 +101,7 @@ Hypothesis is needed.
 **Theorem 7.4.** Suppose $(f_n)$ is a sequence of differentiable functions on $[a, b]$ such that:
 
 1. $(f_n(c))$ converges for some $c \in [a, b]$
-2. $(f_n')$ converges uniformly on $[a, b]$
+2. $(f_n")$ converges uniformly on $[a, b]$
 
 Then $(f_n)$ converges uniformly to a differentiable function $f$ on $[a, b]$And
 $f'(x) = \lim_{n \to \infty} f_n'(x)$.

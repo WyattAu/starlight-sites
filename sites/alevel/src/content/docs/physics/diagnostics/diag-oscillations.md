@@ -1,6 +1,6 @@
 ---
-title: 'Oscillations -- Diagnostic Tests'
-description: 'A-Level Physics Oscillations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.'
+title: "Oscillations -- Diagnostic Tests''
+description: "A-Level Physics Oscillations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
 tableOfContents: false
 ---
 
@@ -303,7 +303,7 @@ $$F = -\rho A (2x) g = -2\rho A g x$$
 
 The mass of the oscillating liquid: $m = \rho A L$
 
-By Newton's second law: $ma = F$
+By Newton"s second law: $ma = F$
 
 $$\rho A L \ddot{x} = -2\rho A g x$$ $$\ddot{x} = -\frac{2g}{L} x$$
 

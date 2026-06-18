@@ -1,6 +1,6 @@
 ---
 title: Network Proxy
-description: '- Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause...'
+description: "- Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause...''
 date: 2025-07-25T20:52:26.185Z
 tags:
   - truenas
@@ -49,7 +49,7 @@ services:
       driver: json-file
       options:
         max-size: 10m
-        max-file: '3'
+        max-file: "3'
   db:
     image: mariadb:10.11.7
     container_name: nginx-proxy-manager-db

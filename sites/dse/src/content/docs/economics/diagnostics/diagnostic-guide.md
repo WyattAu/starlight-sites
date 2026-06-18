@@ -1,6 +1,6 @@
 ---
-title: 'DSE Economics -- Diagnostic Guide'
-description: '| Diagnostic File | Topics Covered | Source File | | ------------------------------------------------------------ | -----------------------------------------...'
+title: "DSE Economics -- Diagnostic Guide''
+description: "| Diagnostic File | Topics Covered | Source File | | ------------------------------------------------------------ | -----------------------------------------..."'
 tableOfContents: false
 ---
 
@@ -122,7 +122,7 @@ address the current account deficit while supporting growth?
 policy is not independent. Any attempt to lower interest rates would cause capital outflow and put
 pressure on the exchange rate peg. The central bank would be forced to sell foreign reserves and buy
 domestic currency, reversing the interest rate cut. Monetary policy is effectively determined by the
-anchor currency's central bank.
+anchor currency"s central bank.
 
 (b) Required output increase $= 5\%$ of potential GDP. If multiplier $= 2$Required fiscal injection
 $= \frac{5\%}{2} = 2.5\%$ of GDP. This could be achieved through increased government spending, tax

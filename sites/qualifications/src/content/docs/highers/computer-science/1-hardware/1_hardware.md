@@ -1,6 +1,6 @@
 ---
 title: Computer Systems
-description: 'Scottish Highers Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.'
+description: "Scottish Highers Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.''
 date: 2026-04-14
 tags:
   - highers
@@ -74,7 +74,7 @@ Codes (`#FF5733`), MAC addresses (`00:1A:2B:3C:4D:5E`), and error codes all use 
 
 **Unsigned integers:** Non-negative integers. An 8-bit unsigned integer can represent 0 to 255.
 
-**Two's complement:** Represents both positive and negative integers.
+**Two"s complement:** Represents both positive and negative integers.
 
 To find the two's complement of a negative number:
 

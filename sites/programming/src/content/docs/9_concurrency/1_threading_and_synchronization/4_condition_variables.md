@@ -1,6 +1,6 @@
 ---
 title: Condition Variables, Latches, and Barriers
-description: 'This section covers and Spurious wakeups, Producer-consumer patterns, and the C++20 synchronization primitives and For one-shot and reusable phase...'
+description: "This section covers and Spurious wakeups, Producer-consumer patterns, and the C++20 synchronization primitives and For one-shot and reusable phase...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -102,7 +102,7 @@ bool ready = false;
 void notifier() {
     std::lock_guard<std::mutex> lk(mtx);
     ready = true;
-    cv.notify_one();  // If waiter hasn't reached wait() yet...
+    cv.notify_one();  // If waiter hasn"t reached wait() yet...
 }
 
 void waiter() {

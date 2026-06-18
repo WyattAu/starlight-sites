@@ -1,6 +1,6 @@
 ---
 title: Operating Systems (Advanced)
-description: 'The system call creates a new process by duplicating the calling process. The new process (child) is an exact copy of the parent, except for its PID, PPID,...'
+description: "The system call creates a new process by duplicating the calling process. The new process (child) is an exact copy of the parent, except for its PID, PPID,...''
 date: 2026-05-06T00:00:00.000Z
 tags:
   - Computing
@@ -18,7 +18,7 @@ The `fork()` system call creates a new process by duplicating the calling proces
 (child) is an exact copy of the parent, except for its PID, PPID, and resource
 .../4-statistics-and-probability/2_statistics.
 
-**Copy-on-Write (COW).** Modern Unix systems use COW semantics for `fork()`: the parent's pages are
+**Copy-on-Write (COW).** Modern Unix systems use COW semantics for `fork()`: the parent"s pages are
 shared (read-only) between parent and child. A page is copied only when either process writes to it.
 
 **Theorem 1.1.** With COW, `fork()` takes $O(1)$ time in the common case (no immediate writes), but

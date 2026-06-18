@@ -1,6 +1,6 @@
 ---
 title: Common Pitfalls
-description: 'Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined Behavior, and performance regressions. This section...'
+description: "Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined Behavior, and performance regressions. This section...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -184,7 +184,7 @@ Output on x86_64:
 The `EmptyDeleter` instance is zero-sized after EBO. The `PaddedDeleter` instance occupies 8 bytes
 (the `std::size_t` member), increasing `sizeof(unique_ptr)` from 8 to 16.
 
-**Why this matters:** The standard's guarantee enables zero-cost abstractions. You can define a
+**Why this matters:** The standard"s guarantee enables zero-cost abstractions. You can define a
 Semantically rich deleter type (with a descriptive name, a `noexcept` operator, logging in debug
 Mode) without paying any runtime cost in release builds, as long as the deleter carries no state.
 

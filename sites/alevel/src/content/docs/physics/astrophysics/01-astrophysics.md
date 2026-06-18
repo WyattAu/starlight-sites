@@ -1,6 +1,6 @@
 ---
 title: Astrophysics
-description: 'The (AU) is the mean Earth--Sun distance, defined as exactly 149,597,870,700 m ( Comprehensive educational content coverage with definitions and practice proble'
+description: "The (AU) is the mean Earth--Sun distance, defined as exactly 149,597,870,700 m ( Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Physics
@@ -28,7 +28,7 @@ $$1\;\mathrm{ly} = c \times 1\;\mathrm{year} = 3.00 \times 10^8 \times 3.156 \ti
 **Definition.** The **parsec** (pc) is the distance at which one astronomical unit subtends an angle
 Of one arcsecond:
 
-$$1\;\mathrm{pc} = \frac◆LB◆1\;\mathrm{AU}◆RB◆◆LB◆\tan(1'')◆RB◆ \approx \frac◆LB◆1.50 \times 10^{11}◆RB◆◆LB◆4.848 \times 10^{-6}◆RB◆ = 3.09 \times 10^{16}\;\mathrm{m}$$
+$$1\;\mathrm{pc} = \frac◆LB◆1\;\mathrm{AU}◆RB◆◆LB◆\tan(1"')◆RB◆ \approx \frac◆LB◆1.50 \times 10^{11}◆RB◆◆LB◆4.848 \times 10^{-6}◆RB◆ = 3.09 \times 10^{16}\;\mathrm{m}$$
 
 **Key conversions:**
 

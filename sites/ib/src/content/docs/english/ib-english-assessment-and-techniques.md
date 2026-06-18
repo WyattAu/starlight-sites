@@ -3,7 +3,7 @@ title: IB English Assessment and Analytical Techniques
 tags:
   - IB
   - English
-description: 'This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical...'
+description: "This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical...''
 ---
 
 # IB English Assessment and Analytical Techniques
@@ -29,7 +29,7 @@ Types include:
 
 | Guiding Question Type | Example Prompt                                                                                        |
 | --------------------- | ----------------------------------------------------------------------------------------------------- |
-| Authorial choices     | "How does the author use language to convey the speaker's attitude?"                                  |
+| Authorial choices     | "How does the author use language to convey the speaker"s attitude?"                                  |
 | Structural analysis   | "Analyse the ways in which the structure of this passage shapes its meaning."                         |
 | Audience and purpose  | "Explore how this text positions its intended reader."                                                |
 | Comparative (HL only) | "Compare and contrast how the two texts present the relationship between the individual and society." |

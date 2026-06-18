@@ -1,6 +1,6 @@
 ---
 title: Unsafe Rust
-description: 'The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem'
+description: "The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem''
 
 ---
 
@@ -14,7 +14,7 @@ The `unsafe` keyword grants access to five capabilities that the compiler cannot
 4. **Implement unsafe traits** — `unsafe impl Send for T {}`
 5. **Access union fields** — unions require unsafe for field access
 
-`unsafe` does not disable the borrow checker. It does not bypass Rust's safety guarantees — it
+`unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees — it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
 All invariants manually.
 

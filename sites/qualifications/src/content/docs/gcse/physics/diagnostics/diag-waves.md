@@ -1,6 +1,6 @@
 ---
-title: 'Waves -- Diagnostic Tests'
-description: '(a) Define the terms: amplitude, wavelength, frequency, and period. State the relationship between frequency, wavelength, and wave speed. (b) A wave has a...'
+title: "Waves -- Diagnostic Tests''
+description: "(a) Define the terms: amplitude, wavelength, frequency, and period. State the relationship between frequency, wavelength, and wave speed. (b) A wave has a..."'
 tableOfContents: false
 ---
 
@@ -108,7 +108,7 @@ how the time interval changes.
 
 **Solution:**
 
-(a) An alternating current from an amplifier flows through a coil in the loudspeaker's magnetic
+(a) An alternating current from an amplifier flows through a coil in the loudspeaker"s magnetic
 field. The interaction between the current-carrying coil and the magnetic field creates a varying
 force on the cone. The cone vibrates at the same frequency as the AC signal, pushing and pulling the
 air molecules in front of it. These vibrations create compressions and rarefactions that propagate

@@ -1,6 +1,6 @@
 ---
 title: Fold Expressions and Pack Expansion
-description: 'A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary...'
+description: "A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -752,7 +752,7 @@ int main() {
     print_ints(1, 2, 3);           // OK
     // print_ints(1, 2.0, 3);      // Error: double is not integral
     print_mixed(1, 2.0, "three");  // OK: has at least one float
-    print_mixed(1, 2, 3);          // OK: has at least one float (no, it doesn't)
+    print_mixed(1, 2, 3);          // OK: has at least one float (no, it doesn"t)
     // Wait: print_mixed(1, 2, 3) would be an error since no float is present
 }
 ```

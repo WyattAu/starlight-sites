@@ -1,6 +1,6 @@
 ---
 title: Aggregate Demand and Aggregate Supply
-description: 'We define as the total planned expenditure on goods and services in an Economy a Comprehensive educational content coverage with definitions and practice proble'
+description: "We define as the total planned expenditure on goods and services in an Economy a Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -119,7 +119,7 @@ Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha 
 1. **Sticky wages**: nominal wages are fixed by contracts, so a higher price level reduces _real_
    wages ($w/P$ falls). Labour becomes cheaper in real terms, so firms hire more and produce more.
 
-2. **Sticky prices**: some firms' output prices are slow to adjust (menu costs), so when aggregate
+2. **Sticky prices**: some firms" output prices are slow to adjust (menu costs), so when aggregate
    demand rises, firms with flexible prices raise output rather than prices.
 
 3. **Imperfect information** (Lucas, 1972): firms may confuse a general price increase with an

@@ -1,6 +1,6 @@
 ---
 title: Economics
-description: 'A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,...'
+description: "A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,...''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -121,7 +121,7 @@ $$g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100$$
 
 **Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)$$
 
-**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+**Okun"s Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
 
 **Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
 

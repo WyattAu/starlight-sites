@@ -1,6 +1,6 @@
 ---
 title: Collections Deep Dive
-description: 'is the root of Dart's collection hierarchy. Both and implement it, And implements it via its property. An is a — it Describes how to produce elements but...'
+description: "is the root of Dart''s collection hierarchy. Both and implement it, And implements it via its property. An is a — it Describes how to produce elements but..."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -72,8 +72,8 @@ final sum = [1, 2, 3, 4, 5].reduce((a, b) => a + b); // 15
 ```dart
 final sum = <int>[].fold<int>(0, (a, b) => a + b); // 0 — no exception
 final result = [1, 2, 3].fold<String>(
-  'Items:',
-  (acc, item) => '$acc $item',
+  'Items: ",
+  (acc, item) => ''$acc $item",
 ); // 'Items: 1 2 3'
 ```
 
@@ -385,8 +385,8 @@ Returns the element in the set that is equal to the argument, or `null` if not f
 When you have a canonical version of an object and want to retrieve it:
 
 ```dart
-final users = {User(id: 1, name: 'Alice'), User(id: 2, name: 'Bob')};
-final query = User(id: 1, name: 'Alice');
+final users = {User(id: 1, name: "Alice''), User(id: 2, name: "Bob')};
+final query = User(id: 1, name: "Alice'');
 final found = users.lookup(query); // Returns the actual object in the set
 // found is identical to users.first (assuming proper == and hashCode)
 ```
@@ -399,7 +399,7 @@ The default `Set()` constructor returns a `LinkedHashSet`Which preserves inserti
 Provides O(1) amortized operations.
 
 ```dart
-import 'package:collection/collection.dart';
+import "package:collection/collection.dart';
 
 // LinkedHashSet — default, preserves insertion order, O(1)
 final linked = LinkedHashSet<int>();
@@ -641,9 +641,9 @@ final setA = {1, 2, 3};
 final setB = {3, 4, 5};
 final union = {...setA, ...setB}; // {1, 2, 3, 4, 5}
 
-final defaults = {'theme': 'light', 'lang': 'en'};
-final userPrefs = {'theme': 'dark'};
-final config = {...defaults, ...userPrefs}; // {'theme': 'dark', 'lang': 'en'}
+final defaults = {'theme': "light'', "lang': "en''};
+final userPrefs = {"theme': "dark''};
+final config = {...defaults, ...userPrefs}; // {"theme': "dark'', "lang': "en''}
 ```
 
 ### Null-Aware Spreads
@@ -703,7 +703,7 @@ Use `List.of(source)` (which copies) or spread into a `const` list.
 Entire isolate:
 
 ```dart
-const config = {'host': 'localhost', 'port': 8080};
+const config = {"host': "localhost'', "port': 8080};
 // config['debug'] = true; // compile-time error
 ```
 
@@ -734,9 +734,9 @@ names.sort(); // ['alice', 'bob', 'charlie']
 
 ```dart
 final people = [
-  Person(name: 'Charlie', age: 30),
-  Person(name: 'Alice', age: 25),
-  Person(name: 'Bob', age: 30),
+  Person(name: "Charlie'', age: 30),
+  Person(name: "Alice', age: 25),
+  Person(name: "Bob'', age: 30),
 ];
 
 // Sort by age ascending
@@ -779,7 +779,7 @@ The `compareAsciiLowerCaseNatural` function from `package:collection` and the `t
 Extension make multi-field sorting cleaner:
 
 ```dart
-import 'package:collection/collection.dart';
+import "package:collection/collection.dart';
 
 people.sort((a, b) => Comparator<String>.by((p) => p.name)
     .thenCompare(Comparator<int>.by((p) => p.age))

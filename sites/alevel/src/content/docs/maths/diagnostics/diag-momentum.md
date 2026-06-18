@@ -1,6 +1,6 @@
 ---
-title: 'Momentum -- Diagnostic Tests'
-description: 'A-Level Maths Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.'
+title: "Momentum -- Diagnostic Tests''
+description: "A-Level Maths Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."'
 tableOfContents: false
 ---
 
@@ -18,7 +18,7 @@ Two particles $A$ (mass $4$ kg) and $B$ (mass $6$ kg) move towards each other al
 straight line. $A$ has speed $5$ m/s and $B$ has speed $3$ m/s. After the collision, $A$ moves in
 the opposite direction with speed $2$ m/s.
 
-**(a)** Taking the direction of $A$'s initial motion as positive, apply conservation of momentum to
+**(a)** Taking the direction of $A$"s initial motion as positive, apply conservation of momentum to
 find the velocity of $B$ after the collision.
 
 **(b)** Find the coefficient of restitution for the collision.

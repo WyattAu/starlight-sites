@@ -1,6 +1,6 @@
 ---
 title: Transactions and Concurrency
-description: 'ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not...'
+description: "ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not...''
 tags:
   - Databases
 categories:
@@ -118,7 +118,7 @@ Matching that condition and commits. When T1 re-executes the query, it sees a ne
 | REPEATABLE READ  | Prevented  | Prevented           | Possible\*   | Row-level locks held until end of transaction |
 | SERIALIZABLE     | Prevented  | Prevented           | Prevented    | Range locks or snapshot isolation             |
 
-\*PostgreSQL's REPEATABLE READ actually prevents phantom reads through its snapshot-based
+\*PostgreSQL"s REPEATABLE READ actually prevents phantom reads through its snapshot-based
 Implementation, exceeding the SQL standard's requirement.
 
 ### READ UNCOMMITTED

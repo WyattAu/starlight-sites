@@ -1,6 +1,6 @@
 ---
 title: Worktrees
-description: 'allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which...'
+description: "allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which...''
 date: 2025-06-03T17:00:00.000Z
 tags:
   - git
@@ -210,7 +210,7 @@ Each branch can only be checked out in **one** worktree at a time:
 
 ```bash
 $ git worktree add ../repo-auth main
-# Error: 'main' is already checked out at '/path/to/repo'
+# Error: "main' is already checked out at '/path/to/repo'
 ```
 
 ### Bare Repositories

@@ -1,6 +1,6 @@
 ---
 title: SQL Fundamentals
-description: 'SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database...'
+description: "SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database...''
 tags:
   - Databases
 categories:
@@ -88,7 +88,7 @@ ALTER COLUMN TYPE:
 ALTER TABLE employees ALTER COLUMN salary TYPE NUMERIC(12,2);
 
 ADD CONSTRAINT:
-ALTER TABLE employees ADD CONSTRAINT chk_hire_date CHECK (hire_date >= '2000-01-01');
+ALTER TABLE employees ADD CONSTRAINT chk_hire_date CHECK (hire_date >= "2000-01-01');
 
 DROP CONSTRAINT:
 ALTER TABLE employees DROP CONSTRAINT chk_salary_range;

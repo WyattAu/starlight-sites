@@ -1,6 +1,6 @@
 ---
-title: 'Wave Properties -- Diagnostic Tests'
-description: 'IB Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision.'
+title: "Wave Properties -- Diagnostic Tests''
+description: "IB Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."'
 tableOfContents: false
 ---
 
@@ -77,7 +77,7 @@ $f_1 = \frac{v}{2L} = \frac{100}{2 \times 1.5} = \frac{100}{3.0} = 33.3\,\text{H
 
 Third harmonic: $f_3 = 3f_1 = 100\,\text{Hz}$
 
-(c) New tension: $T' = 1.44 \times 80 = 115.2\,\text{N}$
+(c) New tension: $T" = 1.44 \times 80 = 115.2\,\text{N}$
 
 New wave speed: $v' = \sqrt{\frac{115.2}{0.008}} = \sqrt{14400} = 120\,\text{m}\,\text{s}^{-1}$
 

@@ -3,7 +3,7 @@ title: Laplace Transforms
 tags:
   - Mathematics
   - University
-description: 'Laplace Transforms: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Laplace Transforms: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 5.1 Definition
@@ -24,7 +24,7 @@ $|f(t)| \leq Me^{at}$ for some $M, a > 0$.
 **Theorem 5.3 (Second Shifting).** $\mathcal{L}\{u_c(t)f(t - c)\} = e^{-cs}F(s)$Where $u_c(t)$ is
 The unit step function.
 
-**Theorem 5.4 (Derivative).** $\mathcal{L}\{f'(t)\} = sF(s) - f(0)$.
+**Theorem 5.4 (Derivative).** $\mathcal{L}\{f"(t)\} = sF(s) - f(0)$.
 
 **Theorem 5.5 (n-th Derivative).**
 $\mathcal{L}\{f^{(n)}(t)\} = s^n F(s) - s^{n-1}f(0) - \cdots - f^{(n-1)}(0)$.

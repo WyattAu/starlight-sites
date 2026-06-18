@@ -1,6 +1,6 @@
 ---
 title: Stacks and Queues
-description: 'A is a linear data structure that follows the principle: the Most recently added Comprehensive educational content coverage with definitions and practice proble'
+description: "A is a linear data structure that follows the principle: the Most recently added Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -233,7 +233,7 @@ Examples: `3 4 +` (= 7), `5 1 2 + 4 * + 3 -` (= 14)
 def evaluate_rpn(tokens):
     stack = []
     for token in tokens:
-        if token in '+-*/':
+        if token in "+-*/':
             b = stack.pop()
             a = stack.pop()
             if token == '+':

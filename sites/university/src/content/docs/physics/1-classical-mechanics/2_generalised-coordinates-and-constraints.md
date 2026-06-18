@@ -3,7 +3,7 @@ title: Generalised Coordinates and Constraints
 tags:
   - Physics
   - University
-description: 'A system with degrees of freedom can be described by Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: "A system with degrees of freedom can be described by Comprehensive educational content coverage with definitions, worked examples, and practice problems.''
 ---
 
 ### 2.1 Generalised Coordinates
@@ -93,7 +93,7 @@ $\blacksquare$
 
 </details>
 
-### 2.5 Virtual Work and D'Alembert’s Principle
+### 2.5 Virtual Work and D"Alembert’s Principle
 
 A **virtual displacement** $\delta \mathbf{r}_i$ is an infinitesimal change in position consistent
 with The constraints at a fixed instant in time ($\delta t = 0$).

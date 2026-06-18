@@ -1,6 +1,6 @@
 ---
 title: Programming Constructs
-description: 'A is a named storage location in memory that holds a value which can change duri Comprehensive educational content coverage with definitions and practice proble'
+description: "A is a named storage location in memory that holds a value which can change duri Comprehensive educational content coverage with definitions and practice proble''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -134,7 +134,7 @@ def sum_n(n):
 
 - _Init:_ Before the first iteration, $i = 1$`total = 0`. Sum of empty set = 0. ✓
 - _Maintenance:_ `total` increases by $i$Then $i$ increases by 1. After: `total = 1 + ... + i` and
-  next $i' = i + 1$So invariant holds.
+  next $i" = i + 1$So invariant holds.
 - _Termination:_ $i = n + 1$. `total = 1 + 2 + ... + n = n(n+1)/2`. ✓
 
 ### Do-While / Repeat-Until

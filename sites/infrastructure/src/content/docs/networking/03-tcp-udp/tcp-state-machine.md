@@ -1,6 +1,6 @@
 ---
 title: TCP State Machine
-description: 'The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of...'
+description: "The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of...''
 tags:
   - Networking
 categories:
@@ -31,7 +31,7 @@ TCP defines 11 states. An endpoint is always in exactly one of these states:
 | SYN_RCVD    | Received SYN, sent SYN+ACK, waiting for ACK.         |
 | ESTABLISHED | Connection open. Data transfer in progress.          |
 | FIN_WAIT_1  | Initiated close, sent FIN, waiting for ACK or FIN.   |
-| FIN_WAIT_2  | Received ACK for our FIN, waiting for peer's FIN.    |
+| FIN_WAIT_2  | Received ACK for our FIN, waiting for peer"s FIN.    |
 | CLOSE_WAIT  | Received peer's FIN, waiting for local close.        |
 | LAST_ACK    | Sent our FIN after peer closed, waiting for ACK.     |
 | TIME_WAIT   | Waited for peer's ACK after our close. 2\*MSL timer. |

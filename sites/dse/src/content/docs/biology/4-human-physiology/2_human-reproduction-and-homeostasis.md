@@ -1,6 +1,6 @@
 ---
 title: Human Reproduction and Homeostasis
-description: '| Structure | Function | | ------------------------------------ | -------------------------------------------------------------------------------------------...'
+description: "| Structure | Function | | ------------------------------------ | -------------------------------------------------------------------------------------------...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -23,7 +23,7 @@ categories:
 | Vas deferens                         | Muscular tube that carries sperm from the epididymis to the urethra during ejaculation                                      |
 | Seminal vesicles                     | Produce seminal fluid rich in fructose (energy source for sperm) and prostaglandins                                         |
 | Prostate gland                       | Produces alkaline fluid that neutralises vaginal acidity; contains enzymes to liquefy semen                                 |
-| Bulbourethral gland (Cowper's gland) | Produces mucus for lubrication and to neutralise residual urine in urethra                                                  |
+| Bulbourethral gland (Cowper"s gland) | Produces mucus for lubrication and to neutralise residual urine in urethra                                                  |
 | Urethra                              | Shared passageway for semen (during ejaculation) and urine (during urination)                                               |
 | Penis                                | Erectile organ that delivers semen into the vagina during intercourse                                                       |
 

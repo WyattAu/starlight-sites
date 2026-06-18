@@ -1,6 +1,6 @@
 ---
 title: Hyperbolic Functions (Extended)
-description: 'This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble'
+description: "This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
@@ -46,7 +46,7 @@ $$\coth x = \frac◆LB◆1◆RB◆◆LB◆\tanh x◆RB◆ = \frac{e^x + e^{-x}}{
 - As $x \to +\infty$: $\sinh x \to +\infty$$\cosh x \to +\infty$$\tanh x \to 1$.
 - As $x \to -\infty$: $\sinh x \to -\infty$$\cosh x \to +\infty$$\tanh x \to -1$.
 
-### 1.4 Connection with Euler's formula
+### 1.4 Connection with Euler"s formula
 
 $$\cosh x = \cos(ix), \qquad \sinh x = -i\sin(ix)$$
 

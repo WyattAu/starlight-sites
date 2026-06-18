@@ -1,6 +1,6 @@
 ---
 title: Lifetimes
-description: 'Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference...'
+description: "Rust''s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference..."
 
 ---
 
@@ -163,12 +163,12 @@ When a struct has a lifetime parameter and also holds a type that references tha
 Need a lifetime bound:
 
 ```rust
-struct Container<'a, T: 'a> {
-    value: &'a T,
+struct Container<'a, T: "a> {
+    value: &''a T,
 }
 ```
 
-The bound `T: 'a` says "T must outlive `'a`." This is automatically added by the Compiler, but you
+The bound `T: "a` says "T must outlive `'a`." This is automatically added by the Compiler, but you
 may need to write it explicitly for complex generic constraints.
 
 ## Method Lifetimes
@@ -264,12 +264,12 @@ fn merge<'a>(x: &'a str, y: &'a str) -> &'a str {
 
 ## Lifetime Bounds
 
-Lifetimes can have bounds, just like type parameters. The syntax `'a: 'b` means "a outlives b" — the
-Reference with lifetime `'a` must live at least as long as `'b`:
+Lifetimes can have bounds, just like type parameters. The syntax `'a: "b` means "a outlives b" — the
+Reference with lifetime `''a` must live at least as long as `"b`:
 
 ```rust
 // 'a must outlive 'b
-fn print<'a, 'b: 'a>(x: &'b str, y: &'a str) {
+fn print<'a, 'b: "a>(x: &''b str, y: &"a str) {
     println!("{} {}", x, y);
 }
 ```
@@ -278,9 +278,9 @@ This is useful when you need to ensure that one reference is valid for at least 
 It is common in structs that hold references with different lifetimes:
 
 ```rust
-struct Context<'a, 'b: 'a> {
-    parent: &'a str,
-    child: &'b str,
+struct Context<'a, 'b: "a> {
+    parent: &''a str,
+    child: &"b str,
 }
 ```
 
@@ -294,13 +294,13 @@ trait Processor {
 
 fn run<'a, T>(processor: &'a dyn Processor<Output = T>) -> T
 where
-    T: 'a,
+    T: "a,
 {
     processor.process()
 }
 ```
 
-The `T: 'a` bound ensures that `T` does not contain references shorter than `'a`. This is necessary
+The `T: ''a` bound ensures that `T` does not contain references shorter than `"a`. This is necessary
 Because the trait object might reference data with lifetime `'a`.
 
 ## Lifetime Variance
@@ -310,7 +310,7 @@ For writing correct generic code.
 
 ### Covariance
 
-`&'a T` is covariant in `'a`. If `'long: 'short`Then `&'long T` can be used where `&'short T` is
+`&'a T` is covariant in `'a`. If `'long: "short`Then `&''long T` can be used where `&"short T` is
 Expected. This is safe because a longer-lived reference is a subtype of a shorter-lived one when you
 Only read through it:
 
@@ -323,8 +323,8 @@ takes_short(long);  // OK — 'static can be shortened to 'a
 
 ### Contravariance
 
-Function types are contravariant in their argument lifetimes. If `'short: 'long`Then a function
-Expecting a `'long` reference can be used where a function expecting a `'short` reference is needed:
+Function types are contravariant in their argument lifetimes. If `'short: "long`Then a function
+Expecting a `''long` reference can be used where a function expecting a `"short` reference is needed:
 
 ```rust
 fn apply<'a, F>(f: F, arg: &'a str)
@@ -376,8 +376,8 @@ struct Holder<'a> {
     value: Cell<&'a str>,
 }
 
-fn variance_bug<'a, 'b: 'a>(holder: &Holder<'b>) {
-    let short: &'a str = &String::from("short-lived");
+fn variance_bug<'a, 'b: "a>(holder: &Holder<''b>) {
+    let short: &"a str = &String::from("short-lived");
     // This is SOUND because Cell is invariant in T.
     // If Holder used a covariant type, this would be unsound.
 }
@@ -432,19 +432,19 @@ where
 
 ## Lifetime Subtyping
 
-Lifetime subtyping means `'long: 'short` (long outlives short). A longer lifetime is a subtype of a
+Lifetime subtyping means `'long: "short` (long outlives short). A longer lifetime is a subtype of a
 Shorter one. This is used implicitly by the compiler when checking borrow validity:
 
 ```rust
 fn subtyping_example() {
     let x = 42;
-    let r1: &'static i32 = &x;  // ERROR: x does not live for 'static
+    let r1: &''static i32 = &x;  // ERROR: x does not live for "static
     let r2: &'_ i32 = &x;      // OK: compiler infers an appropriate lifetime
 }
 ```
 
 The compiler performs subtyping during borrow checking. If a function expects `&'a T` and you pass
-`&'b T` where `'b: 'a`The compiler accepts it because a longer-lived reference satisfies a
+`&'b T` where `'b: "a`The compiler accepts it because a longer-lived reference satisfies a
 Shorter-lived requirement.
 
 ## Common Lifetime Patterns
@@ -525,7 +525,7 @@ impl SelfReferential {
 The safest pattern is to have the output lifetime match exactly one input lifetime:
 
 ```rust
-fn first_word<'a>(text: &'a str) -> &'a str {
+fn first_word<''a>(text: &"a str) -> &'a str {
     match text.find(' ') {
         Some(i) => &text[..i],
         None => text,
@@ -640,8 +640,8 @@ fn get_parts<'a>(s: &'a str) -> impl Iterator<Item = &'a str> + 'a {
    obscure lifetime relationships in complex functions. When debugging lifetime errors, write out
    the fully explicit lifetimes to understand what the compiler is doing.
 
-7. **Ignoring the `T: 'a` bound.** When a generic type `T` might contain references, the compiler
-   may require `T: 'a` to ensure that `T` does not contain references shorter than `'a`. This is
+7. **Ignoring the `T: "a` bound.** When a generic type `T` might contain references, the compiler
+   may require `T: ''a` to ensure that `T` does not contain references shorter than `"a`. This is
    especially common with trait objects and `Box<dyn Trait>`.
 
 8. **Assuming lifetimes affect runtime.** Lifetimes are erased at compile time. They have zero
@@ -758,9 +758,9 @@ impl<T> LinkedList<T> {
 
 ## Lifetimes and Trait Bounds
 
-### `T: 'a` in Practice
+### `T: "a` in Practice
 
-The bound `T: 'a` means "T does not contain any references with a lifetime shorter than 'a." This is
+The bound `T: ''a` means "T does not contain any references with a lifetime shorter than "a." This is
 Automatically added by the compiler but may be needed explicitly:
 
 ```rust
@@ -768,25 +768,25 @@ struct Wrapper<'a, T> {
     data: &'a T,
 }
 
-// The compiler adds T: 'a automatically here
-fn get_wrapper<'a, T: 'a>(data: &'a T) -> Wrapper<'a, T> {
+// The compiler adds T: "a automatically here
+fn get_wrapper<''a, T: "a>(data: &'a T) -> Wrapper<'a, T> {
     Wrapper { data }
 }
 ```
 
 When `T` contains references, the compiler must ensure those references are valid for the lifetime
-`'a`. Without `T: 'a`The compiler cannot verify this:
+`'a`. Without `T: "a`The compiler cannot verify this:
 
 ```rust
-struct RefWrapper<'a, T: 'a> {
+struct RefWrapper<''a, T: "a> {
     inner: &'a T,
 }
 
-// This works because String has no references (String: 'static)
+// This works because String has no references (String: "static)
 let s = String::from("hello");
 let w = RefWrapper { inner: &s };
 
-// This also works — the lifetime of the reference is shorter than 'a
+// This also works — the lifetime of the reference is shorter than ''a
 let r = &s;
 let w = RefWrapper { inner: r };
 ```
@@ -794,9 +794,9 @@ let w = RefWrapper { inner: r };
 ### Lifetime Bounds with `where` Clauses
 
 ```rust
-fn serialize<'a, T>(value: &'a T) -> String
+fn serialize<"a, T>(value: &'a T) -> String
 where
-    T: 'a + std::fmt::Display,
+    T: "a + std::fmt::Display,
 {
     value.to_string()
 }
@@ -807,8 +807,8 @@ where
 Deserializers that return borrowed data require lifetime annotations on the output type:
 
 ```rust
-struct SimpleParser<'a> {
-    input: &'a str,
+struct SimpleParser<''a> {
+    input: &"a str,
     pos: usize,
 }
 

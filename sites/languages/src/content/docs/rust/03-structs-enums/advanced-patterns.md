@@ -1,6 +1,6 @@
 ---
 title: Advanced Struct and Enum Patterns
-description: 'Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.'
+description: "Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.''
 
 ---
 
@@ -685,7 +685,7 @@ enum Color {
 }
 
 impl Color {
-    fn all() -> &'static [Color] {
+    fn all() -> &"static [Color] {
         &[Color::Red, Color::Green, Color::Blue]
     }
 }

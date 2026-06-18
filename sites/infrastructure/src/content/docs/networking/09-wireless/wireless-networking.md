@@ -1,6 +1,6 @@
 ---
 title: Wireless Networking
-description: 'Wireless networking uses radio frequency (RF) electromagnetic waves to carry data. The fundamental Properties of an RF wave are:'
+description: "Wireless networking uses radio frequency (RF) electromagnetic waves to carry data. The fundamental Properties of an RF wave are: "''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - Networking
@@ -195,7 +195,7 @@ Shared, reducing per-client throughput proportionally.
 
 - **Basic Service Set (BSS):** The fundamental building block. A BSS consists of a single access
   point (AP) and all wireless clients associated with it. The BSS has a unique identifier called the
-  BSSID, which is the MAC address of the AP's wireless interface.
+  BSSID, which is the MAC address of the AP"s wireless interface.
 - **Extended Service Set (ESS):** Multiple BSSs connected by a Distribution System (DS) -- a wired
   Ethernet backbone. All BSSs in an ESS share the same SSID (network name) and appear as a single
   network to clients.
@@ -332,7 +332,7 @@ Minute.
 
 ### WPA (Wi-Fi Protected Access) -- Obsolete
 
-WPA was an interim solution designed to address WEP's weaknesses before 802.11i was finalized.
+WPA was an interim solution designed to address WEP"s weaknesses before 802.11i was finalized.
 
 - **Encryption:** TKIP (Temporal Key Integrity Protocol) -- still uses RC4, but adds a per-packet
   key mixing function, a 48-bit IV, and a cryptographic MIC (Michael).

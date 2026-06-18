@@ -3,7 +3,7 @@ title: Measurable Functions
 tags:
   - Mathematics
   - University
-description: 'Let and be measurable spaces. A function is if for every . When , we equip with  Comprehensive educational content coverage with definitions and practice proble'
+description: "Let and be measurable spaces. A function is if for every . When , we equip with  Comprehensive educational content coverage with definitions and practice proble''
 ---
 
 ### 5.1 Definition
@@ -43,7 +43,7 @@ $$s_n(x) = \begin{cases} \frac{k-1}{2^n} & \text{if } \frac{k-1}{2^n} \leq f(x) 
 Each $s_n$ is a simple function, $s_n \leq s_{n+1}$, and $s_n(x) \to f(x)$ for every $x$.
 $\blacksquare$
 
-### 5.3 Egorov's Theorem and Lusin’s Theorem
+### 5.3 Egorov"s Theorem and Lusin’s Theorem
 
 **Theorem 5.5 (Egorov's Theorem).** Let $(X, \mathcal{F}, \mu)$ be a finite measure space and let
 $f_n : X \to \mathbb{R}$ be measurable functions converging pointwise to $f$ a.e. Then for every

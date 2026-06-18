@@ -1,6 +1,6 @@
 ---
 title: Vectors in 3D
-description: 'This chapter extends the study of vectors from A Level Mathematics into three dimensions, Introducing the vector (cross) product, equations of planes, and...'
+description: "This chapter extends the study of vectors from A Level Mathematics into three dimensions, Introducing the vector (cross) product, equations of planes, and...''
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -651,7 +651,7 @@ $D = \dfrac◆LB◆3◆RB◆◆LB◆\sqrt{6}◆RB◆ = \dfrac◆LB◆3\sqrt{6}�
 
 **Problem.** Find the reflection of the point $P(1, 2, 3)$ in the plane $x + y + z = 6$.
 
-**Solution.** The reflected point $P'$ satisfies:
+**Solution.** The reflected point $P"$ satisfies:
 
 $$P' = P - 2D\hat{\mathbf{n}}$$
 

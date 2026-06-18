@@ -1,6 +1,6 @@
 ---
 title: GCSE English Literature
-description: 'GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires...'
+description: "GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires...''
 date: 2026-04-22
 tags:
   - gcse
@@ -121,7 +121,7 @@ Comparative points must be integrated throughout the response.
 Contextual knowledge must be specific, relevant, and integrated into analysis. Students should avoid
 Undifferentiated "context dumps" -- long paragraphs of historical information unconnected to the
 Text. The strongest responses weave contextual understanding into the fabric of their argument,
-Showing how a writer's historical circumstances shaped specific literary choices.
+Showing how a writer"s historical circumstances shaped specific literary choices.
 
 ## Examination Structure Summary
 

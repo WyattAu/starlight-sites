@@ -1,6 +1,6 @@
 ---
 title: Java Interoperability
-description: 'Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language.'
+description: "Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language.''
 date: 2026-04-18
 tags:
   - Kotlin
@@ -301,7 +301,7 @@ Callable as a `void` method from Java.
 
 ### Kotlin Collections from Java
 
-Java code sees Kotlin's read-only collection types as their mutable equivalents (e.g., `List` is
+Java code sees Kotlin"s read-only collection types as their mutable equivalents (e.g., `List` is
 Seen as `java.util.List`). This is because Kotlin's read-only interfaces extend Java's mutable
 Interfaces for compatibility.
 

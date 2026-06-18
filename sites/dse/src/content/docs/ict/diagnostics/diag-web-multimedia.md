@@ -1,6 +1,6 @@
 ---
-title: 'Web Development and Multimedia -- Diagnostic Tests'
-description: 'DSE Ict Web Development and Multimedia -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Web Development and Multimedia -- Diagnostic Tests''
+description: "DSE Ict Web Development and Multimedia -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -74,7 +74,7 @@ p {
 areas from inside out: **content** (text, images), **padding** (space between content and border),
 **border** (around the padding), and **margin** (space between the border and adjacent elements).
 
-**Padding** is inside the border -- it creates space between the element's content and its border.
+**Padding** is inside the border -- it creates space between the element"s content and its border.
 **Margin** is outside the border -- it creates space between the element's border and neighbouring
 elements. Increasing padding makes the element larger; increasing margin pushes other elements away.
 

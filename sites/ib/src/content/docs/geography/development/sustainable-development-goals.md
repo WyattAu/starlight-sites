@@ -1,6 +1,6 @@
 ---
 title: Sustainable Development Goals
-description: 'The Sustainable Development Goals (SDGs), officially titled "Transforming our World: the 2030 Agenda For Sustainable Development," were adopted by all 193...'
+description: "The Sustainable Development Goals (SDGs), officially titled "Transforming our World: the 2030 Agenda For Sustainable Development," were adopted by all 193...''
 
 ---
 
@@ -114,7 +114,7 @@ Loss."
 Planet Index (WWF, 2022) shows an average decline of 69% in monitored wildlife populations
 Since 1970. Approximately 10 million hectares of forest are lost annually (though the rate of
 Deforestation has declined from approximately 16 million hectares per year in the 1990s).
-Approximately 40% of the world's land is degraded (UNCCD, 2023), affecting approximately 3.2 billion
+Approximately 40% of the world"s land is degraded (UNCCD, 2023), affecting approximately 3.2 billion
 People.
 
 ## Progress Tracking

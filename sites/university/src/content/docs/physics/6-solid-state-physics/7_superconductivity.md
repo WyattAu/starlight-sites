@@ -3,7 +3,7 @@ title: Superconductivity
 tags:
   - Physics
   - University
-description: 'is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems.'
+description: "is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems.''
 ---
 
 ### 7.1 Basic Phenomenology
@@ -31,7 +31,7 @@ $$\nabla \times \mathbf{J}_s = -\frac{n_s e^2}{m_e}\mathbf{B}$$
 
 Where $n_s$ is the density of superconducting electrons.
 
-Combining with Maxwell's equations:
+Combining with Maxwell"s equations:
 
 $$\nabla^2 \mathbf{B} = \frac{1}{\lambda_L^2}\mathbf{B}$$
 

@@ -3,7 +3,7 @@ title: The Cauchy-Riemann Equations
 tags:
   - Mathematics
   - University
-description: 'The Cauchy-Riemann Equations: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "The Cauchy-Riemann Equations: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 3.1 Statement
@@ -15,7 +15,7 @@ $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\pa
 
 _Proof._ Compute the limit along the real axis ($h \in \mathbb{R}$, $h \to 0$):
 
-$$f'(z) = \lim_{h \to 0} \frac{u(x+h, y) - u(x, y)}{h} + i\lim_{h \to 0} \frac{v(x+h, y) - v(x, y)}{h} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}$$
+$$f"(z) = \lim_{h \to 0} \frac{u(x+h, y) - u(x, y)}{h} + i\lim_{h \to 0} \frac{v(x+h, y) - v(x, y)}{h} = \frac{\partial u}{\partial x} + i\frac{\partial v}{\partial x}$$
 
 Compute along the imaginary axis ($h = ik$, $k \in \mathbb{R}$, $k \to 0$):
 

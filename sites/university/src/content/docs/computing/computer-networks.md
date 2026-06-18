@@ -1,6 +1,6 @@
 ---
 title: Computer Networks
-description: 'UNIVERSITY Computing notes: Computer Networks. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Computing notes: Computer Networks. Comprehensive study material with definitions, examples, and assessment tools.''
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Computing
@@ -145,7 +145,7 @@ $C = 3100 \times \log_2(3163) \approx 34860$ bps.
 A noiseless channel has a bandwidth of 4000 Hz. How many signal levels are needed to achieve a data
 Rate of 56000 bps?
 
-Using Nyquist's formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
+Using Nyquist"s formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
 $$\log_2 V = \frac{56000}{8000} = 7$$ $$V = 2^7 = 128$$
 
 **Answer:** 128 signal levels are required.

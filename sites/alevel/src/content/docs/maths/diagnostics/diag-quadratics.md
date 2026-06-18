@@ -1,6 +1,6 @@
 ---
-title: 'Quadratics -- Diagnostic Tests'
-description: 'A-Level Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.'
+title: "Quadratics -- Diagnostic Tests''
+description: "A-Level Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."'
 tableOfContents: false
 ---
 
@@ -59,7 +59,7 @@ $$p = 1 \pm \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆$$
 
 $$p < 1 - \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆ \quad \text{or} \quad p > 1 + \frac◆LB◆2\sqrt{3}◆RB◆◆LB◆3◆RB◆$$
 
-**Positive roots condition:** By Vieta's formulas, for both roots to be positive we need:
+**Positive roots condition:** By Vieta"s formulas, for both roots to be positive we need:
 
 - Sum of roots $> 0$: $-\frac{p+1}{p} > 0$
 - Product of roots $> 0$: $\frac{p-1}{p} > 0$

@@ -3,7 +3,7 @@ title: Problem Set
 tags:
   - Mathematics
   - University
-description: 'UNIVERSITY Mathematics notes: Problem Set. Comprehensive study material with definitions, examples, and assessment tools.'
+description: "UNIVERSITY Mathematics notes: Problem Set. Comprehensive study material with definitions, examples, and assessment tools.''
 ---
 
 ### Problem 1
@@ -104,7 +104,7 @@ $$f(x,y) = 0 + x + y + \frac{1}{2}(0 \cdot x^2 + 2 \cdot 0 \cdot xy + 0 \cdot y^
 
 Where $R_2 = O(\lvert x \rvert^3 + \lvert y \rvert^3)$.
 
-If you get this wrong, revise: Section 1.10 Taylor's Theorem.
+If you get this wrong, revise: Section 1.10 Taylor"s Theorem.
 
 </details>
 

@@ -1,6 +1,6 @@
 ---
 title: Office Automation and Productivity
-description: 'This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and...'
+description: "This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and...''
 date: 2026-04-08T00:00:00.000Z
 tags:
   - DSE
@@ -765,7 +765,7 @@ Registration form where office staff enter new student details. Forms can includ
 Restricting the Class field to valid class codes) and dropdown lists for consistent data entry.
 
 (d) **Report:** Presents formatted data for printing or distribution. For example, an end-of-year
-Report card showing each student's scores, class rank, and teacher comments, grouped by class with
+Report card showing each student"s scores, class rank, and teacher comments, grouped by class with
 Subtotals and school averages.
 
 </details>

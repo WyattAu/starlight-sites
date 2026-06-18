@@ -1,6 +1,6 @@
 ---
 title: Methods and Blocks
-description: 'Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Ruby
@@ -282,7 +282,7 @@ end
 
 ## Blocks
 
-Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby's most
+Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby"s most
 powerful features.
 
 ### Block Syntax

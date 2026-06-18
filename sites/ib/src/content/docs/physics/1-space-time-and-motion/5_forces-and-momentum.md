@@ -1,6 +1,6 @@
 ---
 title: Forces and Momentums
-description: 'Rigorous IB physics notes covering Forces and Momentums. Includes definitions, derivations, worked examples, and exam-style problems.'
+description: "Rigorous IB physics notes covering Forces and Momentums. Includes definitions, derivations, worked examples, and exam-style problems.''
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -110,7 +110,7 @@ $$
 
 ### Angular Position
 
-The angular position ($\theta$) of a [rigid body](#rigid-body) is a representation of the object's
+The angular position ($\theta$) of a [rigid body](#rigid-body) is a representation of the object"s
 Orientation by the angle between a reference position and the current position.
 
 ### Time Derivatives of Angular Motions

@@ -1,6 +1,6 @@
 ---
 title: ICT - Programming and Databases
-description: 'A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble'
+description: "A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble''
 
 ---
 
@@ -15,7 +15,7 @@ Execution.
 | ------------ | --------------------------- | ---------------- |
 | Integer      | Whole numbers               | `42``-7``0`      |
 | Float / Real | Numbers with decimal points | `3.14``-0.5`     |
-| String       | Text enclosed in quotes     | `"Hello"``'DSE'` |
+| String       | Text enclosed in quotes     | `"Hello"``"DSE'` |
 | Boolean      | Logical values              | `True``False`    |
 | Character    | A single character          | `'A'``'9'`       |
 | Array / List | Collection of values        | `[1, 2, 3, 4]`   |

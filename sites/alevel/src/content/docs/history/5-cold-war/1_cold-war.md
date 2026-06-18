@@ -7,7 +7,7 @@ tags:
 categories:
   - alevel
   - history
-description: 'A-Level History The Cold War 1945-1991 notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.'
+description: "A-Level History The Cold War 1945-1991 notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.''
 ---
 
 # The Cold War 1945-1991
@@ -24,7 +24,7 @@ against a common enemy. Once that enemy was defeated, fundamental ideological an
 differences came to the fore.
 
 The United States represented liberal democracy and capitalism; the Soviet Union embodied communism
-and state-planned economics. Each viewed the other's system as an existential threat. This rivalry
+and state-planned economics. Each viewed the other"s system as an existential threat. This rivalry
 was expressed through an arms race, espionage, proxy wars, propaganda, and a competition for
 influence across the globe — but crucially, the two superpowers never fought each other directly,
 hence the term "Cold" War.

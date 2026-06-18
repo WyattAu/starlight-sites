@@ -3,7 +3,7 @@ title: Fresnel Equations
 tags:
   - Physics
   - University
-description: 'When light strikes a planar interface between media with refractive indices and The Amplitudes of the reflected and transmitted waves depend on the...'
+description: "When light strikes a planar interface between media with refractive indices and The Amplitudes of the reflected and transmitted waves depend on the...''
 ---
 
 ### 10.1 Derivation at a Dielectric Interface
@@ -27,7 +27,7 @@ $$R = |r|^2, \quad T = \frac{n_2\cos\theta_t}{n_1\cos\theta_i}|t|^2$$
 
 With $R + T = 1$ (energy conservation).
 
-### 10.2 Brewster's Angle
+### 10.2 Brewster"s Angle
 
 At the **Brewster angle** $\theta_B$The reflected beam for p-polarised light has zero amplitude:
 $r_p = 0$:

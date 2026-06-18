@@ -1,6 +1,6 @@
 ---
 title: Supply-Side Policy
-description: 'IB Economics Supply-Side Policy notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.'
+description: "IB Economics Supply-Side Policy notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.''
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -58,7 +58,7 @@ Geopolitical disruption of energy supplies).
 ### Long-Run Aggregate Supply (LRAS)
 
 The LRAS curve is vertical at the **full employment level of output** (potential GDP, $Y^*$). In the
-Long run, all input prices are flexible, and output is determined by the economy's productive
+Long run, all input prices are flexible, and output is determined by the economy"s productive
 Capacity (factors of production and technology). Changes in the price level do not affect long-run
 Output.
 

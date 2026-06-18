@@ -1,6 +1,6 @@
 ---
-title: 'Chemical Equilibrium -- Diagnostic Tests'
-description: 'DSE Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Chemical Equilibrium -- Diagnostic Tests''
+description: "DSE Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -215,7 +215,7 @@ $$\alpha^{2} = \frac{1.335}{9.335} = 0.1430$$
 $$\alpha = 0.378$$
 
 The new degree of dissociation is **0.378** (37.8%), which is less than 0.50, consistent with Le
-Chatelier's principle (increasing pressure favours the side with fewer gas moles).
+Chatelier"s principle (increasing pressure favours the side with fewer gas moles).
 
 ---
 

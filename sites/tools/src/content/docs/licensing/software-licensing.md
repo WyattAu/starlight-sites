@@ -1,6 +1,6 @@
 ---
 title: Software Licensing
-description: 'AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation In 2007. It is identical to GPLv3 with one critical...'
+description: "AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation In 2007. It is identical to GPLv3 with one critical...''
 date: 2025-07-07T23:37:45.807Z
 tags:
   - CS
@@ -68,7 +68,7 @@ Provide is the upstream source, not a modified version, because there are no mod
 ### GPLv3 (GNU General Public License v3)
 
 GPLv3 was published in June 2007 to address specific legal and technological developments since
-GPLv2 (1991). It is the Free Software Foundation's flagship copyleft license and was drafted with
+GPLv2 (1991). It is the Free Software Foundation"s flagship copyleft license and was drafted with
 Input from a large committee including representatives from corporate open-source contributors (IBM,
 Red Hat, Novell, Google, and others).
 

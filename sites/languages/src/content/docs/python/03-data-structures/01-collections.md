@@ -1,6 +1,6 @@
 ---
 title: Collections
-description: 'Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks.'
+description: "Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks.''
 date: 2025-06-04T12:00:00.000Z
 tags:
   - Python
@@ -31,7 +31,7 @@ graph LR
     end
 
     subgraph "heap objects"
-        obj0["PyObject\n'int: 42'"]
+        obj0["PyObject\n"int: 42'"]
         obj1["PyObject\n'str: hello'"]
         obj2["PyObject\n'list: [1,2]'"]
     end
@@ -729,10 +729,10 @@ print(combined["size"])   # "large" -- found in cli_args
 
 # Mutations affect the first mapping only
 combined["style"] = "bold"  # added to cli_args, not to defaults
-print(cli_args)  # {'size': 'large', 'style': 'bold'}
+print(cli_args)  # {'size': "large'', "style': "bold''}
 
-# The 'maps' attribute gives access to the underlying mappings
-print(combined.maps)  # [{'size': 'large', 'style': 'bold'}, {'color': 'blue'}, {'color': 'red', 'size': 'medium'}]
+# The "maps' attribute gives access to the underlying mappings
+print(combined.maps)  # [{'size': "large'', "style': "bold''}, {"color': "blue''}, {"color': "red'', "size': "medium''}]
 
 # Creating a new ChainMap with a pushed context
 new_context = combined.new_child({"color": "green"})
@@ -825,7 +825,7 @@ Grows with the number of elements.
 - **`list`**: General-purpose, heterogeneous data. Use when you need to store objects of different
   types or when the list is small.
 - **`array.array`**: Homogeneous numeric data where memory efficiency matters but you do not need
-  NumPy's vectorized operations.
+  NumPy"s vectorized operations.
 - **`numpy.ndarray`**: Large-scale numerical computation. NumPy provides vectorized operations,
   broadcasting, and linear algebra that `array` does not.
 

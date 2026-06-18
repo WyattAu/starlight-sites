@@ -1,6 +1,6 @@
 ---
-title: 'Maclaurin and Taylor Series -- Diagnostic Tests'
-description: 'A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.'
+title: "Maclaurin and Taylor Series -- Diagnostic Tests''
+description: "A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
 tableOfContents: false
 ---
 
@@ -37,7 +37,7 @@ convergence. (d) Use the series for $\frac{1}{1-x}$ to find the series for $\fra
 
 **Solution:**
 
-(a) $f(x) = \cos x$$f(0) = 1$. $f'(x) = -\sin x$$f'(0) = 0$. $f''(x) = -\cos x$$f''(0) = -1$.
+(a) $f(x) = \cos x$$f(0) = 1$. $f"(x) = -\sin x$$f'(0) = 0$. $f''(x) = -\cos x$$f''(0) = -1$.
 $f'''(x) = \sin x$$f'''(0) = 0$. $f^{(4)}(x) = \cos x$$f^{(4)}(0) = 1$.
 $f^{(5)}(0) = 0$$f^{(6)}(0) = -1$.
 

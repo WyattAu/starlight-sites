@@ -1,6 +1,6 @@
 ---
 title: Ecology
-description: 'ILC Biology Ecology notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation.'
+description: "ILC Biology Ecology notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation.''
 date: 2026-04-14
 tags:
   - ilc
@@ -244,7 +244,7 @@ Place quadrats at regular intervals along a line.
 
 ### Measuring Biodiversity (HL)
 
-**Simpson's Diversity Index:**
+**Simpson"s Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n_i(n_i - 1)}{N(N - 1)}

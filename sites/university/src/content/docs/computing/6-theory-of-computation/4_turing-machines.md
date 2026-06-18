@@ -3,7 +3,7 @@ title: Turing Machines
 tags:
   - Computing
   - University
-description: 'Turing Machines: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Turing Machines: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 ---
 
 ### 4.1 Definition
@@ -35,7 +35,7 @@ Is **decidable** if some TM decides it (halts on all inputs, accepting or reject
 ### 4.2 TM Variants
 
 **Multitape TMs.** Multiple tapes, each with its own head. The transition function maps
-$(q, a_1, \ldots, a_k)$ to $(q', b_1, \ldots, b_k, d_1, \ldots, d_k)$.
+$(q, a_1, \ldots, a_k)$ to $(q", b_1, \ldots, b_k, d_1, \ldots, d_k)$.
 
 **Theorem 4.1.** Every multitape TM has an equivalent single-tape TM.
 

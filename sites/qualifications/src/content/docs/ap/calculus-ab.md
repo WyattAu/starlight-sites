@@ -1,6 +1,6 @@
 ---
 title: AP Calculus AB Study Guide
-description: 'Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,...'
+description: "Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,...''
 date: 2026-05-31
 tags:
   - ap
@@ -71,7 +71,7 @@ Types of discontinuity:
 If $f$ is continuous on $[a, b]$ and $N$ is any value between $f(a)$ and $f(b)$, then there exists
 at least one $c \in (a, b)$ such that $f(c) = N$.
 
-### L'Hopital's Rule
+### L"Hopital's Rule
 
 If $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)}$ produces an indeterminate form $\frac{0}{0}$ or
 $\frac{\pm\infty}{\pm\infty}$, then:

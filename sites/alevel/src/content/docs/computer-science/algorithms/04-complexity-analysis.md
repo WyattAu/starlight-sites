@@ -1,6 +1,6 @@
 ---
 title: Complexity Analysis
-description: 'Complexity Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+description: "Complexity Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.''
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -58,7 +58,7 @@ $$\lim_{n \to \infty} \frac◆LB◆n◆RB◆◆LB◆n \log n◆RB◆ = \lim_{n \
 
 Similarly, $\log n = o(n)$:
 
-$$\lim_{n \to \infty} \frac◆LB◆\log n◆RB◆◆LB◆n◆RB◆ = 0 \quad \mathrm{(by L'Hôpital's rule)}$$
+$$\lim_{n \to \infty} \frac◆LB◆\log n◆RB◆◆LB◆n◆RB◆ = 0 \quad \mathrm{(by L"Hôpital's rule)}$$
 
 And $n^k = o(2^n)$ for any constant $k$:
 

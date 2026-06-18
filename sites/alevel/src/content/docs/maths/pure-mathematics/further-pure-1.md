@@ -1,6 +1,6 @@
 ---
 title: Further Pure Mathematics 1
-description: '| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,...'
+description: "| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,...''
 date: 2026-05-31
 tags:
   - Maths
@@ -50,7 +50,7 @@ arguments subtract.
 
 $$|z_1 z_2| = |z_1|\,|z_2| \qquad |z_1 + z_2| \leq |z_1| + |z_2| \qquad |z^n| = |z|^n$$
 
-### 1.3 de Moivre's Theorem
+### 1.3 de Moivre"s Theorem
 
 For integer $n$:
 

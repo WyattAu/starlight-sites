@@ -1,6 +1,6 @@
 ---
 title: Classes and Structs
-description: 'Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble'
+description: "Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble''
 date: 2026-06-04T10:00:00.000Z
 tags:
   - Swift
@@ -357,7 +357,7 @@ class ColoredShape: Shape {
 ## Protocols
 
 Protocols define a **blueprint of methods, properties, and requirements** that conforming types must
-implement. They are central to Swift's protocol-oriented programming paradigm.
+implement. They are central to Swift"s protocol-oriented programming paradigm.
 
 ### Defining Protocols
 

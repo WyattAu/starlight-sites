@@ -1,6 +1,6 @@
 ---
-title: 'Proof -- Diagnostic Tests'
-description: 'A-Level Maths Proof -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision.'
+title: "Proof -- Diagnostic Tests''
+description: "A-Level Maths Proof -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."'
 tableOfContents: false
 ---
 
@@ -16,7 +16,7 @@ tableOfContents: false
 
 **(a)** Prove by contradiction that $\sqrt{2}$ is irrational.
 
-**(b)** A student's proof contains the following claim: "Since $p^2$ is even, $p$ must be even."
+**(b)** A student"s proof contains the following claim: "Since $p^2$ is even, $p$ must be even."
 Justify this step rigorously by proving its contrapositive.
 
 **(c)** Adapt the method to prove that $\sqrt{3}$ is irrational.

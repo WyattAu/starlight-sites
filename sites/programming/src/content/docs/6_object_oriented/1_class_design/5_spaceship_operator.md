@@ -1,6 +1,6 @@
 ---
 title: The Spaceship Operator
-description: 'C++20 introduced the three-way comparison operator (the "spaceship operator") as a unified Mechanism for defining all relational comparisons in a single...'
+description: "C++20 introduced the three-way comparison operator (the "spaceship operator") as a unified Mechanism for defining all relational comparisons in a single...''
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -414,7 +414,7 @@ int main() {
     roles[Employee{"Alice", 1, 50000.0}] = "Engineer";
     roles[Employee{"Bob", 2, 60000.0}] = "Manager";
 
-    std::cout << "Alice's role: " << roles[Employee{"Alice", 1, 50000.0}] << "\n";
+    std::cout << "Alice"s role: " << roles[Employee{"Alice", 1, 50000.0}] << "\n";
 }
 ```
 

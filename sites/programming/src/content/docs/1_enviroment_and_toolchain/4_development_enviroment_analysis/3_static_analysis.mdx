@@ -1,13 +1,13 @@
 ---
 title: Static Analysis
-description: 'Static Analysis involves examining source code without executing it. Unlike the compiler, which Focuses on grammar and binary generation, static analyzers...'
+description: "Static Analysis involves examining source code without executing it. Unlike the compiler, which Focuses on grammar and binary generation, static analyzers...''
 date: 2025-12-11T06:39:06.995Z
 tags:
   - cpp
 categories:
   - cpp
 ---
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from "@astrojs/starlight/components';
 
 Static Analysis involves examining source code without executing it. Unlike the compiler, which
 Focuses on grammar and binary generation, static analyzers focus on correctness, readability.
@@ -45,10 +45,10 @@ Checks: >
   performance-*, readability-*, -modernize-use-trailing-return-type,
   -cppcoreguidelines-avoid-magic-numbers
 # Treat all warnings as errors in CI
-WarningsAsErrors: '*'
+WarningsAsErrors: "*''
 # header-filter ensures we analyze headers in our project,
 # but ignore headers in third_party/ or /usr/include
-HeaderFilterRegex: 'src/.*'
+HeaderFilterRegex: "src/.*'
 FormatStyle: file
 ```
 ### Suppression Mechanics
@@ -311,8 +311,8 @@ Run clang-tidy in read-only mode to assess the current state. Do not fail the bu
 # .clang-tidy — Phase 1: Audit only
 Checks: >
   -*, bugprone-*, modernize-use-override, modernize-use-nullptr, modernize-use-auto
-WarningsAsErrors: '' # Empty = warnings are not errors
-HeaderFilterRegex: 'src/.*'
+WarningsAsErrors: "'' # Empty = warnings are not errors
+HeaderFilterRegex: "src/.*'
 ```
 ### Phase 2: New Code Enforcement
 Use `WarningsAsErrors` only on new or modified files. On CI, run clang-tidy only on the diff:

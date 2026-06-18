@@ -1,6 +1,6 @@
 ---
-title: 'Mechanics -- Diagnostic Tests'
-description: 'DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.'
+title: "Mechanics -- Diagnostic Tests''
+description: "DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."'
 tableOfContents: false
 ---
 
@@ -21,7 +21,7 @@ coming to rest.
 
 **Stage 1: Braking on normal road ($t = 0$ to $t = 3$ s)**
 
-Using Newton's second law:
+Using Newton"s second law:
 
 $$a_1 = \frac{F}{m} = \frac{-7500}{1500} = -5 \text{ m s}^{-2}$$
 

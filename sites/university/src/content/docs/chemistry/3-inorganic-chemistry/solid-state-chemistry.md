@@ -1,6 +1,6 @@
 ---
 title: Solid-State Chemistry
-description: 'University Solid-State Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
+description: "University Solid-State Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.''
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -221,7 +221,7 @@ where $N_i$ is the number of interstitial sites.
 
 ## 6. X-Ray Diffraction
 
-### 6.1 Bragg's Law
+### 6.1 Bragg"s Law
 
 **Theorem 6 (Bragg's Law):** Constructive interference occurs when:
 

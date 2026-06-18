@@ -1,6 +1,6 @@
 ---
-title: 'Algorithms -- Diagnostic Tests'
-description: 'Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
+title: "Algorithms -- Diagnostic Tests''
+description: "Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
 tableOfContents: false
 ---
 
@@ -19,7 +19,7 @@ represents.
 number entered.
 
 (c) Convert the following flowchart description into pseudocode: "Start. Ask the user for a number.
-If the number is greater than 0, output 'Positive'. If the number is equal to 0, output 'Zero'.
+If the number is greater than 0, output "Positive'. If the number is equal to 0, output 'Zero'.
 Otherwise, output 'Negative'. End."
 
 (d) Explain why pseudocode is preferred over writing code in a specific programming language when
