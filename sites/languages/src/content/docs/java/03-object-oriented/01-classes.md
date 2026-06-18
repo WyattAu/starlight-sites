@@ -1,8 +1,7 @@
 ---
 title: Classes and Inheritance
-description: "java']
+description: "Java classes and inheritance fundamentals."
 categories: ['java']
-
 ---
 
 ## Class Declaration

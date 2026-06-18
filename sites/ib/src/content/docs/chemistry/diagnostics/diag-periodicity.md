@@ -1,6 +1,6 @@
 ---
 title: "Periodicity -- Diagnostic Tests"
-description: "IB Chemistry Periodicity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.'
+description: "IB Chemistry Periodicity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
 
