@@ -1,12 +1,11 @@
 ---
 title: Widgets and Lifecycle
-description: "Flutter"" s rendering model is declarative. You do not mutate a view object in place; you describe What the UI should look like for a given state, and the"
+description: "Flutter widgets and lifecycle management."
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
 categories:
   - Dart
-
 ---
 
 # Widgets and Lifecycle

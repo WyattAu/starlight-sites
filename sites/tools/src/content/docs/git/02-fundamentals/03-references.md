@@ -1,6 +1,6 @@
 ---
 title: References
-description: ") is a named pointer to a Git object — almost always a commit. References are What make Git"" s object graph navigable. Without them,"
+description: "Git references and naming conventions."
 date: 2025-06-03T01:00:00.000Z
 tags:
   - git

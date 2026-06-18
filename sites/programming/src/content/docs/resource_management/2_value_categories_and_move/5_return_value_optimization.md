@@ -1,12 +1,11 @@
 ---
 title: Return Value Optimization (RVO) and NRVO
-description: "Return value optimization is the compiler"" s ability to construct a return value directly in the Caller"      s storage, eliminating unnecessary copies and moves....'
+description: "Return value optimization and NRVO in C++."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
 categories:
   - Cpp
-
 ---
 
 # Return Value Optimization (RVO) and NRVO

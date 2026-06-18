@@ -3,7 +3,7 @@ title: Lagrange's Theorem
 tags:
   - Mathematics
   - University
-description: "Lagrange"" s Theorem: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+description: "Lagrange's theorem in abstract algebra."
 ---
 
 ### 3.1 Cosets
