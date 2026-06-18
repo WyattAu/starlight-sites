@@ -2,7 +2,7 @@
 title: Separation Axioms
 tags:
   - University Maths
-description: ""   b Comprehensive educational content coverage with definitions and practice proble''
+description: "Separation axioms in topology and their properties."
 ---
 
 ### 8.1 Overview
