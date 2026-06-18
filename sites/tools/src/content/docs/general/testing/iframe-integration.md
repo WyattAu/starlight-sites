@@ -1,12 +1,11 @@
 ---
 title: Iframe Integration
-description: "height=" 800" src="https://godbolt.org/e#z:OYLghAFBqd5QCxAYwPYBMCmBRdBLAF1QCcAaPECAMzwBtMA7AQwFtMQByARg9KtQYEAysib0QXAEx8BBAKoBnTAAUAHpwAMvAFYhpt...''
+description: "Guide for integrating iframes in documentation."
 date: 2025-07-11T23:22:50.056Z
 tags:
   - CS
 categories:
   - CS
-
 ---
 
 ## Godbolt
