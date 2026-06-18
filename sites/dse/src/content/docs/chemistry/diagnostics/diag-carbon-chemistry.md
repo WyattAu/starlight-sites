@@ -1,6 +1,6 @@
 ---
 title: "Carbon Chemistry -- Diagnostic Tests''
-description: "DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."'
+description: "DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
 tableOfContents: false
 ---
 

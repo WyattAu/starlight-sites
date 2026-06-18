@@ -1,6 +1,6 @@
 ---
 title: "Reading Fiction -- Diagnostic Tests''
-description: "Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
+description: "Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Probability -- Diagnostic Tests''
-description: "A-Level Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
+description: "A-Level Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
 

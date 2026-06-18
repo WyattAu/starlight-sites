@@ -1,6 +1,6 @@
 ---
 title: "Paper 3 -- Mechanics -- Full Diagnostic Exam''
-description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."'
+description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
 

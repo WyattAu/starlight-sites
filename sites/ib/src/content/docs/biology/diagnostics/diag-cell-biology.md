@@ -1,6 +1,6 @@
 ---
 title: "Cell Biology -- Diagnostic Tests''
-description: "IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."'
+description: "IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Proof -- Diagnostic Tests''
-description: "A-Level Maths Proof -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."'
+description: "A-Level Maths Proof -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
 

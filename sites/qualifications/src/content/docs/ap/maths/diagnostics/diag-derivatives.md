@@ -1,6 +1,6 @@
 ---
 title: "Derivatives -- Diagnostic Tests''
-description: "> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble"'
+description: "> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
 tags:
   - ap

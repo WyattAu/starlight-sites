@@ -1,6 +1,6 @@
 ---
 title: "Dispersion -- Diagnostic Tests''
-description: "DSE Maths Dispersion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
+description: "DSE Maths Dispersion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
 

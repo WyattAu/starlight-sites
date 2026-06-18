@@ -1,6 +1,6 @@
 ---
 title: "Data Structures -- Diagnostic Tests''
-description: "A-Level Computer Science Data Structures -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Computer Science Data Structures -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

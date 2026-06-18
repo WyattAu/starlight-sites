@@ -1,6 +1,6 @@
 ---
 title: "Ecology -- Diagnostic Tests''
-description: "IB Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
+description: "IB Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
 

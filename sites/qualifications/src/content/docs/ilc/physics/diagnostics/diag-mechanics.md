@@ -1,6 +1,6 @@
 ---
 title: "Mechanics -- Diagnostic Tests''
-description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."'
+description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false
 ---
 

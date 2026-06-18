@@ -1,6 +1,6 @@
 ---
 title: "Transition Metals -- Diagnostic Tests''
-description: "A-Level Chemistry Transition Metals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Chemistry Transition Metals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

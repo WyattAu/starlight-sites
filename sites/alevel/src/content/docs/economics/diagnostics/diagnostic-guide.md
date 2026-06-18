@@ -1,6 +1,6 @@
 ---
 title: "A-Level Economics -- Diagnostic Guide''
-description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------..."'
+description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------..."
 tableOfContents: false
 ---
 

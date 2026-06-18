@@ -1,6 +1,6 @@
 ---
 title: "A-Level Further Maths -- Diagnostic Guide''
-description: "| Diagnostic File | Topics Covered | Source File | | --------------------------------- | --------------------------------------------------------------------..."'
+description: "| Diagnostic File | Topics Covered | Source File | | --------------------------------- | --------------------------------------------------------------------..."
 tableOfContents: false
 ---
 

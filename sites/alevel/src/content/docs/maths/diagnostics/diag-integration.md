@@ -1,6 +1,6 @@
 ---
 title: "Integration -- Diagnostic Tests''
-description: "A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."'
+description: "A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false
 ---
 

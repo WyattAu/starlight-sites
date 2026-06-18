@@ -1,6 +1,6 @@
 ---
 title: "Simple Harmonic Motion -- Diagnostic Tests''
-description: "IB Physics Simple Harmonic Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
+description: "IB Physics Simple Harmonic Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
 

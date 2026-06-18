@@ -1,6 +1,6 @@
 ---
 title: "Theory of the Firm -- Diagnostic Tests''
-description: "A-Level Economics Theory of the Firm -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Economics Theory of the Firm -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

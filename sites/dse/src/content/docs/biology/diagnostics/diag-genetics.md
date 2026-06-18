@@ -1,6 +1,6 @@
 ---
 title: "Genetics -- Diagnostic Tests''
-description: "DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."'
+description: "DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
 tableOfContents: false
 ---
 

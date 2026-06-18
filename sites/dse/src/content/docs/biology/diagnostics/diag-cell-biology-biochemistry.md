@@ -1,6 +1,6 @@
 ---
 title: "Cell Biology and Biochemistry -- Diagnostic Tests''
-description: "DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
+description: "DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
 

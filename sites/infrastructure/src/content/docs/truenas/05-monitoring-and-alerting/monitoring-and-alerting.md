@@ -842,7 +842,7 @@ groups:
           severity: warning
         annotations:
           summary: "ZFS pool {{ $labels.pool }} is above 85% capacity''
-description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."'
+description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
 ```
 
 ## Log Analysis Deep Dive

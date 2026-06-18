@@ -1,6 +1,6 @@
 ---
 title: "Differentiation -- Diagnostic Tests''
-description: "IB Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."'
+description: "IB Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 tableOfContents: false
 ---
 

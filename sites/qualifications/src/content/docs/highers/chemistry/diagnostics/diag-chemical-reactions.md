@@ -1,6 +1,6 @@
 ---
 title: "Chemical Reactions -- Diagnostic Tests''
-description: "Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."'
+description: "Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Biodiversity, Classification and Evolution -- Diagnostic Tests''
-description: "A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core concepts, worked practice questions for diagnostic revision."'
+description: "A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
 tableOfContents: false
 ---
 

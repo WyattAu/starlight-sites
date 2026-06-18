@@ -1,6 +1,6 @@
 ---
 title: "Magnetic Fields -- Diagnostic Tests''
-description: "A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
+description: "A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
 

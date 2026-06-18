@@ -1,6 +1,6 @@
 ---
 title: "Vectors -- Diagnostic Tests''
-description: "A-Level Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."'
+description: "A-Level Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Microorganisms and Biotechnology -- Diagnostic Tests''
-description: "DSE Biology Microorganisms and Biotechnology -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Biology Microorganisms and Biotechnology -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

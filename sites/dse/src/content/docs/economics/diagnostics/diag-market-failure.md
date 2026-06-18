@@ -1,6 +1,6 @@
 ---
 title: "Market Failure and Government Intervention -- Diagnostic Tests''
-description: "DSE Economics Market Failure and Government Intervention -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Economics Market Failure and Government Intervention -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

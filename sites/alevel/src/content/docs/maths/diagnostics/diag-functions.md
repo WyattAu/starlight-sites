@@ -1,6 +1,6 @@
 ---
 title: "Functions -- Diagnostic Tests''
-description: "A-Level Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
+description: "A-Level Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
 

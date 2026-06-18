@@ -1,6 +1,6 @@
 ---
 title: "Ecology -- Diagnostic Tests''
-description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."'
+description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
 

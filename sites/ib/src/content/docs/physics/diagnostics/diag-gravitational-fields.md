@@ -1,6 +1,6 @@
 ---
 title: "Gravitational Fields -- Diagnostic Tests''
-description: "IB Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
+description: "IB Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
 

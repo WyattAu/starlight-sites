@@ -1,6 +1,6 @@
 ---
 title: "Quantities and Units -- Diagnostic Tests''
-description: "A-Level Physics Quantities and Units -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Physics Quantities and Units -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

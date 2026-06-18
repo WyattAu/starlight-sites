@@ -1,6 +1,6 @@
 ---
 title: "Bioenergetics -- Diagnostic Tests''
-description: "(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface..."'
+description: "(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface..."
 tableOfContents: false
 ---
 

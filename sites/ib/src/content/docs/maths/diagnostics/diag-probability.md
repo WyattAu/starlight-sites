@@ -1,6 +1,6 @@
 ---
 title: "Probability -- Diagnostic Tests''
-description: "IB Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."'
+description: "IB Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
 

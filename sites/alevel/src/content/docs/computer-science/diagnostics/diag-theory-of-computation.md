@@ -1,6 +1,6 @@
 ---
 title: "Theory of Computation -- Diagnostic Tests''
-description: "A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

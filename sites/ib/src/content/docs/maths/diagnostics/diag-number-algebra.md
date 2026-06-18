@@ -1,6 +1,6 @@
 ---
 title: "Number and Algebra -- Diagnostic Tests''
-description: "IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."'
+description: "IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---
 

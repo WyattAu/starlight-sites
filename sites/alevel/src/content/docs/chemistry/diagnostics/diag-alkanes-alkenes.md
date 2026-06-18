@@ -1,6 +1,6 @@
 ---
 title: "Alkanes and Alkenes -- Diagnostic Tests''
-description: "A-Level Chemistry Alkanes and Alkenes -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Chemistry Alkanes and Alkenes -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

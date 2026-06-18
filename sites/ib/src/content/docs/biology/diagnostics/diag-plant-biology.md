@@ -1,6 +1,6 @@
 ---
 title: "Plant Biology -- Diagnostic Tests''
-description: "IB Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."'
+description: "IB Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 tableOfContents: false
 ---
 

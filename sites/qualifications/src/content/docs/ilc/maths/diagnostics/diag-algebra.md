@@ -1,6 +1,6 @@
 ---
 title: "Algebra -- Diagnostic Tests''
-description: "Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
+description: "Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
 

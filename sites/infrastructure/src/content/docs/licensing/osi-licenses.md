@@ -5,7 +5,7 @@ tags:
   - Licensing
 categories:
   - Licensing
-description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they..."'
+description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they..."
 ---
 
 ## License Classification

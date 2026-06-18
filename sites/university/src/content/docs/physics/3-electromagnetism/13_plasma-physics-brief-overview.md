@@ -3,7 +3,7 @@ title: "Plasma Physics: Brief Overview''
 tags:
   - Physics
   - University
-description: "A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems."'
+description: "A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 13.1 Debye Shielding in Plasmas

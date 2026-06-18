@@ -1,6 +1,6 @@
 ---
 title: "Web Development and Multimedia -- Diagnostic Tests''
-description: "DSE Ict Web Development and Multimedia -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Ict Web Development and Multimedia -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

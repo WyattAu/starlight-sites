@@ -1,6 +1,6 @@
 ---
 title: "Thermodynamics and Energetics -- Diagnostic Tests''
-description: "A-Level Chemistry Thermodynamics and Energetics -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Chemistry Thermodynamics and Energetics -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

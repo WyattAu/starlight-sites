@@ -1,6 +1,6 @@
 ---
 title: "Trigonometry -- Diagnostic Tests''
-description: "DSE Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
+description: "DSE Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Creative Writing -- Diagnostic Tests''
-description: "Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
+description: "Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
 

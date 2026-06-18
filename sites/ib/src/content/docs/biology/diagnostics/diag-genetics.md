@@ -1,6 +1,6 @@
 ---
 title: "Genetics -- Diagnostic Tests''
-description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."'
+description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Bonding and Structure -- Diagnostic Tests''
-description: "A-Level Chemistry Bonding and Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Chemistry Bonding and Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

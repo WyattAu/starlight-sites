@@ -1,6 +1,6 @@
 ---
 title: "Mechanics -- Diagnostic Tests''
-description: "DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."'
+description: "DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tableOfContents: false
 ---
 

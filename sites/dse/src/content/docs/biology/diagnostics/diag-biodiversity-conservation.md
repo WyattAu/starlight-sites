@@ -1,6 +1,6 @@
 ---
 title: "Biodiversity and Conservation -- Diagnostic Tests''
-description: "DSE Biology Biodiversity and Conservation -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Biology Biodiversity and Conservation -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

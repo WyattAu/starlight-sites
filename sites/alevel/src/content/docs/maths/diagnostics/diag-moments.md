@@ -1,6 +1,6 @@
 ---
 title: "Moments -- Diagnostic Tests''
-description: "A-Level Maths Moments -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."'
+description: "A-Level Maths Moments -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 tableOfContents: false
 ---
 

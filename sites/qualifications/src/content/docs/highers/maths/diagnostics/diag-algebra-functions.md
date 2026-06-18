@@ -1,6 +1,6 @@
 ---
 title: "Algebra and Functions -- Diagnostic Tests''
-description: "Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."'
+description: "Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
 

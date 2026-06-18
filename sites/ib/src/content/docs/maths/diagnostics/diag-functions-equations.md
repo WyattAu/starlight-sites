@@ -1,6 +1,6 @@
 ---
 title: "Functions and Equations -- Diagnostic Tests''
-description: "IB Maths Functions and Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
+description: "IB Maths Functions and Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
 

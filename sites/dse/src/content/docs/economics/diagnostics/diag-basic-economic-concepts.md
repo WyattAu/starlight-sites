@@ -1,6 +1,6 @@
 ---
 title: "Basic Economic Concepts -- Diagnostic Tests''
-description: "DSE Economics Basic Economic Concepts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Economics Basic Economic Concepts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

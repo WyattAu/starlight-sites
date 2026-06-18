@@ -1,6 +1,6 @@
 ---
 title: "Algorithms -- Diagnostic Tests''
-description: "Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
+description: "Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
 

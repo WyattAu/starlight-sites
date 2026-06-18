@@ -1,6 +1,6 @@
 ---
 title: "Wave Properties -- Diagnostic Tests''
-description: "A-Level Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."'
+description: "A-Level Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
 

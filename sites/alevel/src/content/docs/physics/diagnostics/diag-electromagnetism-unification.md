@@ -1,6 +1,6 @@
 ---
 title: "Electromagnetism Unification -- Diagnostic Tests''
-description: "A-Level Physics Electromagnetism Unification -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Physics Electromagnetism Unification -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Paper 1 -- Pure Mathematics -- Full Diagnostic Exam''
-description: "120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems."'
+description: "120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 tableOfContents: false
 ---
 

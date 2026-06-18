@@ -1,6 +1,6 @@
 ---
 title: "Biological Molecules -- Diagnostic Tests''
-description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

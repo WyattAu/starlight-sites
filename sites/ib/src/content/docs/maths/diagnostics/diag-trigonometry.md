@@ -1,6 +1,6 @@
 ---
 title: "Trigonometry -- Diagnostic Tests''
-description: "IB Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."'
+description: "IB Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 tableOfContents: false
 ---
 

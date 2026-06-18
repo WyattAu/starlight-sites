@@ -1,6 +1,6 @@
 ---
 title: "Acids, Bases and Buffers -- Diagnostic Tests''
-description: "A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

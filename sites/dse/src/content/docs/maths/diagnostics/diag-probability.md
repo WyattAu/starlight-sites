@@ -1,6 +1,6 @@
 ---
 title: "Probability -- Diagnostic Tests''
-description: "DSE Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."'
+description: "DSE Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
 

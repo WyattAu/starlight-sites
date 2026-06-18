@@ -3,7 +3,7 @@ title: "Quantum Statistical Mechanics: Advanced Topics''
 tags:
   - Physics
   - University
-description: "The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:"'
+description: "The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:"
 ---
 
 ### 18.1 Density Matrix and Ensemble Averages

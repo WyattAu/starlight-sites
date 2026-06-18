@@ -1,6 +1,6 @@
 ---
 title: "Vectors -- Diagnostic Tests''
-description: "IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."'
+description: "IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
 

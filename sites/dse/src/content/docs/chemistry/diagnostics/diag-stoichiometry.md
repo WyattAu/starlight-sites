@@ -1,6 +1,6 @@
 ---
 title: "Stoichiometry and Mole Concept -- Diagnostic Tests''
-description: "DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

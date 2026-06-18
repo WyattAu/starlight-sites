@@ -3,7 +3,7 @@ title: "Rigid Body Dynamics: Advanced Topics''
 tags:
   - Physics
   - University
-description: "For a rigid body rotating freely (no external torques), the angular momentum in  Comprehensive educational content coverage with definitions and practice proble"'
+description: "For a rigid body rotating freely (no external torques), the angular momentum in  Comprehensive educational content coverage with definitions and practice proble"
 ---
 
 ### 9.1 Euler"s Equations in the Body Frame

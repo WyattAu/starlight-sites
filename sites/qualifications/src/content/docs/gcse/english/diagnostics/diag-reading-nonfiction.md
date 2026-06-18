@@ -1,6 +1,6 @@
 ---
 title: "Reading Non-Fiction -- Diagnostic Tests''
-description: "Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls."'
+description: "Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
 

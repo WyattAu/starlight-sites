@@ -1,6 +1,6 @@
 ---
 title: "Optics -- Diagnostic Tests''
-description: "DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
+description: "DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
 

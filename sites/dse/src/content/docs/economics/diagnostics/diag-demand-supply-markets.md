@@ -1,6 +1,6 @@
 ---
 title: "Demand, Supply, and Markets -- Diagnostic Tests''
-description: "DSE Economics Demand, Supply, and Markets -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Economics Demand, Supply, and Markets -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

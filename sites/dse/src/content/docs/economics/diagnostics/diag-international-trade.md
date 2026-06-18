@@ -1,6 +1,6 @@
 ---
 title: "International Trade and Finance -- Diagnostic Tests''
-description: "DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

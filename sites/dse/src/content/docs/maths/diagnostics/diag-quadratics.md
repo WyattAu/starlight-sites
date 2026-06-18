@@ -1,6 +1,6 @@
 ---
 title: "Quadratics -- Diagnostic Tests''
-description: "DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."'
+description: "DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tableOfContents: false
 ---
 

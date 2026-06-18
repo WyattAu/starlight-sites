@@ -1,6 +1,6 @@
 ---
 title: "Data Representation -- Diagnostic Tests''
-description: "DSE Ict Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."'
+description: "DSE Ict Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
 

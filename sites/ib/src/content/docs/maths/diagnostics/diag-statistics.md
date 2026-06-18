@@ -1,6 +1,6 @@
 ---
 title: "Statistics -- Diagnostic Tests''
-description: "IB Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."'
+description: "IB Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 tableOfContents: false
 ---
 

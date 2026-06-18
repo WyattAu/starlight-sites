@@ -1002,7 +1002,7 @@ Single action defined by an `action.yml` file:
 
 ```yaml
 name: "Setup Python Environment''
-description: "Set up Python with caching"'
+description: "Set up Python with caching"
 inputs:
   python-version:
     description: "Python version'

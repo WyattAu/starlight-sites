@@ -1,6 +1,6 @@
 ---
 title: "DSE Biology Diagnostic Tests -- Guide''
-description: "These diagnostic tests target the questions within the HKDSE Biology specification. Each test is designed to expose deep misconceptions that separate..."'
+description: "These diagnostic tests target the questions within the HKDSE Biology specification. Each test is designed to expose deep misconceptions that separate..."
 tableOfContents: false
 ---
 

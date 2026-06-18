@@ -1,6 +1,6 @@
 ---
 title: "Waves and Sound -- Diagnostic Tests''
-description: "DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."'
+description: "DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false
 ---
 

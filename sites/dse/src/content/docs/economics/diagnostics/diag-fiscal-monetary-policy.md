@@ -1,6 +1,6 @@
 ---
 title: "Fiscal and Monetary Policy -- Diagnostic Tests''
-description: "DSE Economics Fiscal and Monetary Policy -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "DSE Economics Fiscal and Monetary Policy -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 

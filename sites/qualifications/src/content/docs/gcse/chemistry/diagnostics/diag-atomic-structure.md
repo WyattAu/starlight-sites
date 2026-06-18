@@ -1,6 +1,6 @@
 ---
 title: "Atomic Structure -- Diagnostic Tests''
-description: "Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."'
+description: "Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
 

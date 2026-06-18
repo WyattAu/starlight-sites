@@ -3,7 +3,7 @@ title: "Density Functional Theory: Conceptual Overview''
 tags:
   - Physics
   - University
-description: "The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all..."'
+description: "The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all..."
 ---
 
 ### 14.1 The Hohenberg--Kohn Theorems

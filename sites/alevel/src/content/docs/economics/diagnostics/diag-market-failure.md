@@ -1,6 +1,6 @@
 ---
 title: "Market Failure -- Diagnostic Tests''
-description: "A-Level Economics Market Failure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."'
+description: "A-Level Economics Market Failure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
 

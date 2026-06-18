@@ -1,6 +1,6 @@
 ---
 title: "Wave Properties -- Diagnostic Tests''
-description: "IB Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."'
+description: "IB Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
 tableOfContents: false
 ---
 

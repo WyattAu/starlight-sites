@@ -1,6 +1,6 @@
 ---
 title: "Energy and Conservation -- Diagnostic Tests''
-description: "IB Physics Energy and Conservation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."'
+description: "IB Physics Energy and Conservation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
 
