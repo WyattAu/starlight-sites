@@ -1,6 +1,6 @@
 ---
 title: Testing
-description: ") testImplementation("         org.jetbrains.kotlin:kotlin-test-junit5")...''
+description: "Unit testing in Kotlin with JUnit5, Mockk, and Kotest frameworks"
 date: 2026-04-18
 tags:
   - Kotlin

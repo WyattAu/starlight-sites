@@ -3,7 +3,7 @@ title: The Wave Equation
 tags:
   - Physics
   - University
-description: "In vacuum, with no sources (, ), Maxwell"" s equations give: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "In vacuum, with no sources (, ), Maxwell' s equations give: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 1.1 Derivation from Maxwell's Equations

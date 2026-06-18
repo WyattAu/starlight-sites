@@ -1,6 +1,6 @@
 ---
 title: Lifetimes
-description: "Rust"" s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference"
+description: "Rust' s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference"
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: TLS in Practice
-description: "| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let"" s"
+description: "| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let' s"
 
 ---
 

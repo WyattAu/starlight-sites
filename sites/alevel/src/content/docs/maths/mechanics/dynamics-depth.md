@@ -1,6 +1,6 @@
 ---
 title: Dynamics (Extended)
-description: "This document provides a rigorous treatment of Newton"" s laws, connected particles, pulleys, friction, Inclined planes, momentum, and impulse."
+description: "description: This document provides a rigorous treatment of Newton's laws, connected particles, pulleys, friction, Inclined planes, momentum, and impulse."
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]

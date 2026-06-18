@@ -1,6 +1,6 @@
 ---
 title: Control Flow
-description: "Python"" s conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks."
+description: "Python' s conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks."
 date: 2025-06-04T11:00:00.000Z
 tags:
   - Python

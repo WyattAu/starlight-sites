@@ -3,7 +3,7 @@ title: Electromagnetic Waves
 tags:
   - Physics
   - University
-description: "In free space (, ), take the curl of Faraday"" s law: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "In free space (, ), take the curl of Faraday' s law: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 ### 5.1 The Wave Equation

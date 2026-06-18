@@ -3,7 +3,7 @@ title: Special Relativity and Electromagnetism
 tags:
   - Physics
   - University
-description: "Maxwell"   s equations in covariant form using the field tensor."
+description: "Maxwell'   s equations in covariant form using the field tensor."
 ---
 
 ### 12.1 Covariant Formulation
