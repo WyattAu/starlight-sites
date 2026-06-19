@@ -144,9 +144,13 @@ function walkDir(dir) {
 const args = process.argv.slice(2).filter(a => !a.startsWith('-'))
 let files
 if (args.length > 0) {
+  // Scope to files inside sites/<site>/src/content/docs/. A substring
+  // check on "sites" falsely matches the repo root (starlight-sites/),
+  // so use a path-separator-aware check.
+  const sitesSegment = `${path.sep}sites${path.sep}`
   files = args
     .map(f => path.resolve(f))
-    .filter(f => f.includes(path.join('sites')) && (f.endsWith('.md') || f.endsWith('.mdx')))
+    .filter(f => f.includes(sitesSegment) && (f.endsWith('.md') || f.endsWith('.mdx')))
     .filter(f => fs.existsSync(f))
 } else {
   files = walkDir(SITES_DIR)
