@@ -131,15 +131,18 @@ function scanContentDir(docsDir, directory) {
     if (entry.name === 'index.md' || entry.name === 'index.mdx') continue
 
     if (entry.isDirectory()) {
-      // Count files in subdirectory
+      // Count files in subdirectory and find first page
       const subDir = path.join(dir, entry.name)
       const subFiles = fs
         .readdirSync(subDir, { withFileTypes: true })
         .filter(e => !e.name.startsWith('.') && (e.name.endsWith('.md') || e.name.endsWith('.mdx')))
+        .sort((a, b) => a.name.localeCompare(b.name)) // Sort alphabetically
+      const firstPage = subFiles.length > 0 ? subFiles[0].name.replace(/\.(md|mdx)$/, '') : null
       subdirs.push({
         name: entry.name,
         fileCount: subFiles.length,
         slug: entry.name,
+        firstPage, // Link target: first page in subdirectory
       })
     } else if (entry.name.endsWith('.md') || entry.name.endsWith('.mdx')) {
       const slug = entry.name.replace(/\.(md|mdx)$/, '')
@@ -259,13 +262,20 @@ function generateLandingPage(siteName, meta, topics, docsDir) {
         getPageDescription(
           docsDir,
           `${topicDir}/${subdir.name}`,
-          subdir.name.replace(/^\d+-/, ''),
+          subdir.firstPage || subdir.name.replace(/^\d+-/, ''),
         ) ||
         `${subdir.fileCount} page${subdir.fileCount !== 1 ? 's' : ''}`
       const icon = subdir.fileCount > 5 ? 'open-book' : 'document'
+      // Link to first page in subdirectory, or directory if it has an index
+      const hasIndex =
+        fs.existsSync(path.join(docsDir, topicDir, subdir.name, 'index.md')) ||
+        fs.existsSync(path.join(docsDir, topicDir, subdir.name, 'index.mdx'))
+      const linkPath = hasIndex
+        ? `/${topicDir}/${subdir.name}/`
+        : `/${topicDir}/${subdir.name}/${subdir.firstPage || ''}/`
       lines.push(`  <Card title="${titleCase}" icon="${icon}">`)
       lines.push(`    ${desc}`)
-      lines.push(`    [Learn more](/${topicDir}/${subdir.name}/)`)
+      lines.push(`    [Learn more](${linkPath})`)
       lines.push('  </Card>')
     }
 
