@@ -27,11 +27,11 @@ Server administration and databases notes covering storage, networking, security
 
 ## Subjects Covered
 
-- **Storage**: ZFS, TrueNAS, RAID configurations, backup strategies
-- **Databases**: PostgreSQL, MySQL, MongoDB, Redis, database design
-- **Networking**: TCP/IP, DNS, HTTP, load balancing, firewalls
-- **Security**: Hardening, encryption, access control, monitoring
-- **System Administration**: Linux, automation, scripting, containerisation
+- **[Storage](/truenas/)**: ZFS, TrueNAS, RAID configurations, backup strategies
+- **[Databases](/databases/)**: PostgreSQL, MySQL, MongoDB, Redis, database design
+- **[Networking](/networking/)**: TCP/IP, DNS, HTTP, load balancing, firewalls
+- **[Security](/security/)**: Hardening, encryption, access control, monitoring
+- **[System Administration](/linux/)**: Linux, automation, scripting, containerisation
 
 ## How to Use These Notes
 

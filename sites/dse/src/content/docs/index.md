@@ -38,9 +38,9 @@ exam-style questions aligned to the HKEAA curriculum frameworks.
 
 | Subject                                  | Code  | Notes                                                                        |
 | ---------------------------------------- | ----- | ---------------------------------------------------------------------------- |
-| Information and Communication Technology | ICT   | Full syllabus coverage including programming, databases, networking, and SPA |
-| Mathematics (Compulsory Part)            | MAT   | Algebra, calculus, statistics, geometry                                      |
-| Mathematics (Extended Part)              | M1/M2 | M1: Calculus and Statistics; M2: Algebra and Calculus                        |
+| [Information and Communication Technology](/ict/) | ICT   | Full syllabus coverage including programming, databases, networking, and SPA |
+| [Mathematics (Compulsory Part)](/maths/)            | MAT   | Algebra, calculus, statistics, geometry                                      |
+| [Mathematics (Extended Part)](/maths/)              | M1/M2 | M1: Calculus and Statistics; M2: Algebra and Calculus                        |
 
 ## How to Use These Notes
 

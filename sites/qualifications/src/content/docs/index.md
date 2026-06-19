@@ -39,16 +39,16 @@ Revision notes for GCSE, AP, Scottish Highers, Irish Leaving Certificate, and SA
 
 ## Qualifications Covered
 
-- **GCSE**: General Certificate of Secondary Education (UK)
-- **AP**: Advanced Placement (US)
-- **Scottish Highers**: Scottish Qualifications Authority
-- **Irish Leaving Certificate**: Irish secondary education
-- **SAT**: College Admission Test (US)
+- **[GCSE](/gcse/)**: General Certificate of Secondary Education (UK)
+- **[AP](/ap/)**: Advanced Placement (US)
+- **[Scottish Highers](/highers/)**: Scottish Qualifications Authority
+- **[Irish Leaving Certificate](/ilc/)**: Irish secondary education
+- **[SAT](/sat/)**: College Admission Test (US)
 
 ## Subjects Available
 
-- Biology, Chemistry, Physics
-- Mathematics, Computer Science
+- [Biology](/gcse/biology/), [Chemistry](/gcse/chemistry/), [Physics](/gcse/physics/)
+- [Mathematics](/gcse/maths/), [Computer Science](/gcse/computer-science/)
 - And more, depending on qualification
 
 ## How to Use These Notes

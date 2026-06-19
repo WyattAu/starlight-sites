@@ -16,33 +16,33 @@ hero:
 ### Mathematics
 | Course | Topics |
 |--------|--------|
-| Linear Algebra | Vector spaces, eigenvalues, inner products, SVD |
-| Calculus | Multivariable integration, Stokes" theorem, PDEs |
-| Discrete Mathematics | Graph theory, combinatorics, number theory |
-| Probability & Statistics | Distributions, hypothesis testing, Bayesian inference |
+| [Linear Algebra](/mathematics/) | Vector spaces, eigenvalues, inner products, SVD |
+| [Calculus](/mathematics/) | Multivariable integration, Stokes" theorem, PDEs |
+| [Discrete Mathematics](/mathematics/) | Graph theory, combinatorics, number theory |
+| [Probability & Statistics](/mathematics/) | Distributions, hypothesis testing, Bayesian inference |
 
 ### Physics
 | Course | Topics |
 |--------|--------|
-| Classical Mechanics | Lagrangian mechanics, central forces, oscillations |
-| Electromagnetism | Maxwell's equations, waveguides, radiation |
-| Quantum Mechanics | Schrödinger equation, angular momentum, perturbation theory |
-| Thermodynamics | Ensembles, partition functions, phase transitions |
+| [Classical Mechanics](/physics/) | Lagrangian mechanics, central forces, oscillations |
+| [Electromagnetism](/physics/) | Maxwell's equations, waveguides, radiation |
+| [Quantum Mechanics](/physics/) | Schrödinger equation, angular momentum, perturbation theory |
+| [Thermodynamics](/physics/) | Ensembles, partition functions, phase transitions |
 
 ### Computer Science
 | Course | Topics |
 |--------|--------|
-| Algorithms | Complexity, graph algorithms, dynamic programming |
-| Data Structures | Trees, hash tables, bloom filters, skip lists |
-| Operating Systems | Processes, memory management, file systems |
-| Computer Networks | TCP/IP, routing, application protocols |
+| [Algorithms](/computer-science/) | Complexity, graph algorithms, dynamic programming |
+| [Data Structures](/computer-science/) | Trees, hash tables, bloom filters, skip lists |
+| [Operating Systems](/computer-science/) | Processes, memory management, file systems |
+| [Computer Networks](/computer-science/) | TCP/IP, routing, application protocols |
 
 ### Chemistry
 | Course | Topics |
 |--------|--------|
-| Physical Chemistry | Quantum chemistry, kinetics, thermodynamics |
-| Organic Chemistry | Reaction mechanisms, synthesis, spectroscopy |
-| Inorganic Chemistry | Coordination chemistry, crystal field theory |
+| [Physical Chemistry](/chemistry/) | Quantum chemistry, kinetics, thermodynamics |
+| [Organic Chemistry](/chemistry/) | Reaction mechanisms, synthesis, spectroscopy |
+| [Inorganic Chemistry](/chemistry/) | Coordination chemistry, crystal field theory |
 
 ## How to Use These Notes
 

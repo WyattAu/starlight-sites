@@ -37,17 +37,17 @@ For effective revision, read the relevant section alongside your textbook, attem
 
 The following subjects are covered in this section:
 
-- **Biology**: Cell biology, genetics, ecology, biochemistry, and physiology
-- **Chemistry**: Physical, organic, and inorganic chemistry with practical skills
-- **Computer Science**: Algorithms, data structures, programming, and theory of computation
-- **Economics**: Microeconomics, macroeconomics, and economic theory
-- **English**: Language and literature analysis, creative writing, and critical thinking
-- **Further Maths**: Advanced pure mathematics, mechanics, and statistics
-- **Geography**: Physical and human geography, with fieldwork techniques
-- **History**: British, European, and world history with source analysis
-- **Mathematics**: Pure mathematics, mechanics, and statistics
-- **Physics**: Classical mechanics, electromagnetism, quantum physics, and thermodynamics
-- **Psychology**: Cognitive, social, and biological psychology with research methods
+- **[Biology](/biology/)**: Cell biology, genetics, ecology, biochemistry, and physiology
+- **[Chemistry](/chemistry/)**: Physical, organic, and inorganic chemistry with practical skills
+- **[Computer Science](/computer-science/)**: Algorithms, data structures, programming, and theory of computation
+- **[Economics](/economics/)**: Microeconomics, macroeconomics, and economic theory
+- **[English](/english/)**: Language and literature analysis, creative writing, and critical thinking
+- **[Further Maths](/further-maths/)**: Advanced pure mathematics, mechanics, and statistics
+- **[Geography](/geography/)**: Physical and human geography, with fieldwork techniques
+- **[History](/history/)**: British, European, and world history with source analysis
+- **[Mathematics](/maths/)**: Pure mathematics, mechanics, and statistics
+- **[Physics](/physics/)**: Classical mechanics, electromagnetism, quantum physics, and thermodynamics
+- **[Psychology](/psychology/)**: Cognitive, social, and biological psychology with research methods
 
 ## Revision Tips
 

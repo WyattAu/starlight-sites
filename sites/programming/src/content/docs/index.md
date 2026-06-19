@@ -19,15 +19,15 @@ hero:
 
 These notes cover C++ systems programming in depth, from compiler setup through advanced concurrency patterns.
 
-- **Environment & Toolchain**: Compiler installation, build systems, dependency management
-- **Compilation Model**: Translation units, linking, symbol visibility, modules
-- **Types**: Data layout, type system, type erasure
-- **Resource Management**: Ownership, RAII, smart pointers, allocators
-- **Function Architecture**: Function mechanics, C interop, callbacks
-- **Object Oriented**: Inheritance, virtual dispatch, design patterns
-- **Templates & Metaprogramming**: Generic programming, concepts, constexpr
-- **Standard Library**: Containers, algorithms, iterators
-- **Concurrency**: Threads, atomics, coroutines, memory model
+- **[Environment & Toolchain](/enviroment_and_toolchain/)**: Compiler installation, build systems, dependency management
+- **[Compilation Model](/compilation_model/)**: Translation units, linking, symbol visibility, modules
+- **[Types](/types/)**: Data layout, type system, type erasure
+- **[Resource Management](/resource_management/)**: Ownership, RAII, smart pointers, allocators
+- **[Function Architecture](/function_architecture/)**: Function mechanics, C interop, callbacks
+- **[Object Oriented](/object_oriented/)**: Inheritance, virtual dispatch, design patterns
+- **[Templates & Metaprogramming](/templates_and_metaprogramming/)**: Generic programming, concepts, constexpr
+- **[Standard Library](/standard_library/)**: Containers, algorithms, iterators
+- **[Concurrency](/concurrency/)**: Threads, atomics, coroutines, memory model
 
 ## Other Languages
 
