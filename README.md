@@ -52,8 +52,7 @@ search scripts canonicalised under `search-api/`. An integration test
 | Component | Type | Purpose |
 |-----------|------|---------|
 | BaseDialog.tsx | SolidJS | Reusable dialog shell (size parameter) |
-| QuestionDialog.tsx | SolidJS | Large dialog (wraps BaseDialog) |
-| ResultsDialog.tsx | SolidJS | Large dialog (wraps BaseDialog) |
+| QuestionDialog.tsx | SolidJS | Large dialog (wraps BaseDialog); also used for results |
 | SettingsDialog.tsx | SolidJS | Medium dialog (wraps BaseDialog) |
 | PageTitle.astro | Starlight override | Breadcrumbs and h1 derived from slug |
 | MarkdownContent.astro | Starlight override | Content wrapper and progress tracking |
@@ -120,7 +119,7 @@ bun run test:integration  # integration tests (repo structure, CI/CD config)
 bun run test:gui dse      # GUI DOM + accessibility snapshot for one site
 bun run test:gui --all    # all sites (optional PNG screenshots if Playwright present)
 bun run test:e2e          # Playwright end-to-end tests
-bun run test              # component + legacy tests (177 tests)
+bun run test              # component + legacy tests (439 tests)
 bun run test:coverage     # Vitest with V8 coverage report
 ```
 
