@@ -14,12 +14,17 @@ cannot be automated from the repository.
   (nine sites, ~2013 indexed entries).
 - CI/CD via GitHub Actions: `ci.yml` (lint, integrity, tests, nine-site build
   matrix -- PR only), `deploy.yml` (gated deploy to Cloudflare Pages -- push to
-  main), `preview.yml` (PR preview deployments), `uptime.yml` (six-hourly probes).
-- Pre-commit gate (Husky v9): lint-staged, shared-asset integrity, unit +
-  integration tests.
-- 177 automated tests (unit + integration + Vitest component).
+  main), `preview.yml` (PR preview deployments, aggregated PR comment), `uptime.yml`
+  (six-hourly probes, minimum-scope token).
+- Pre-commit gate (Husky v9): lint-staged via the local bin (was timing out via
+  `npx`), shared-asset integrity, unit + integration tests.
+- 439 automated tests (219 node --test + 220 Vitest component); was 317 at the
+  start of this cycle.
 - Five Architecture Decision Records.
 - Biome linter with zero errors, zero warnings.
+- Design-language token system (Spatial Materialism + Amoebic UI) declared in
+  `shared/styles/custom.css` and verified end-to-end by the GUI traversal
+  script against every site's compiled CSS.
 
 ### Quality controls (added this cycle)
 
@@ -36,9 +41,10 @@ cannot be automated from the repository.
   (handleKeyDown wired to radiogroup), ARIA attributes on all interactive
   components.
 - CI/CD workflows: explicit `permissions` blocks (least privilege), ci.yml
-  scoped to PRs only (deploy.yml handles push to main, eliminating double-run).
+  scoped to PRs only (deploy.yml handles push to main, eliminating double-run),
+  BUN_VERSION pinned to 1.3.x to match `bun.lock` `lockfileVersion: 1`.
 - SM-2 algorithm: runtime invariant assertions, pre/postcondition documentation,
-  property-based tests.
+  property-based tests with deterministic mulberry32 PRNG across five seeds.
 - i18n: translator caching, locale parameter support.
 - MASTERY_COLORS: corrected learning/review color mapping (was swapped).
 - Sanitize.ts: removed duplicate ALLOWED_ATTR entries, added invariant docs.
@@ -46,6 +52,36 @@ cannot be automated from the repository.
   `utils/format.ts`, consolidated duplicate color definitions in
   `flashcard/constants.ts` to import from `utils/colors.ts`.
 - Added `@vitest/coverage-v8` dependency for coverage reporting.
+- Link resolver (`scripts/lint-links.js`): trailing-slash, fragment, and query
+  normalisation. Eliminated 641 false positives on `alevel/index.mdx` and
+  unlocked CI for any PR that touched content. Module-ised for unit testing;
+  16 regression tests.
+- escapeHtml: documented non-idempotence contract (was incorrectly claimed
+  idempotent). 32 property-style tests across attacker payloads.
+- Linter scope fix: `lint-{depth,descriptions,forward-refs,handwaves}.js` now
+  use a path-separator-aware filter (`/sites/`) so repo-level `.md` files under
+  `starlight-sites/` are not falsely flagged.
+- Pre-commit hook rewritten to invoke `./node_modules/.bin/lint-staged`
+  directly. The previous `npx` invocation added ~50 s of registry-discovery
+  overhead per call and exceeded the 30 s timeout. End-to-end pre-commit time
+  with no staged files: 63 s (was: timeout failure).
+- Dead-code removal: `account-api/` (reverted feature), `shared/public/sw.js`
+  (orphan), `sites/*/public/sw.js` (nine pre-sync remnants). Each removal has
+  a regression test preventing reintroduction.
+- Cloudflare Worker deploy switched from hand-rolled `curl` + Python to
+  `wrangler deploy`. The previous flow piped the KV namespace secret through
+  shell interpolation into a JSON file on disk.
+- Preview workflow posts a single PR comment containing all nine preview URLs
+  via upload-artifact + download-artifact. Previously the comment was gated to
+  `matrix.site == 'dse'`, so 8 of 9 URLs were deployed but never advertised.
+- Deployment verification polls the origin for up to 5 minutes instead of
+  probing once at +10s; Cloudflare Pages propagation is 30-90 s.
+- Six CI/CD invariant tests in `tests/integration/build-pipeline.test.js` pin
+  every contract above so future drift is caught before merge.
+- Design-language verifier (`tests/e2e/gui-snapshot.js` rewritten): greps the
+  compiled CSS for every required token, scans rendered DOM for pictographs,
+  captures DOM + HTML + PNG snapshots per route, emits a markdown report.
+  Ten regression tests under `tests/unit/design-language.test.js`.
 
 ### Component architecture
 
@@ -362,14 +398,53 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
 
 ---
 
+## Phase J: Engineering hardening (next, post-audit)
+
+**Entry criteria:** Phase I-A (descriptions) complete; this audit cycle's commits merged.
+
+**Scope:**
+
+- [ ] Migrate the landing page from a static `sites/main/src/index.html` to
+  Astro + Starlight so it shares the design-token system, the search client,
+  and the build pipeline with the nine content sites. The current 762-line
+  inline-CSS page duplicates the design language by hand and is the only
+  surface that does not pick up shared token changes automatically.
+- [ ] Add a real service worker sourced under `shared/public/sw.js` and synced
+  to all sites, or delete the manifest.json `display: standalone` configuration
+  that implies PWA support. The current state ships a manifest with no
+  worker, which is a misleading affordance.
+- [ ] Promote `lint:handwaves`, `lint:depth`, and `lint:spelling` from
+  informational (`continue-on-error: true`) to blocking once the existing
+  backlog is worked down. The soft mode was a baseline period; the backlog
+  is now characterised and ready to triage.
+- [ ] Replace `treosh/lighthouse-ci-action@v12` with `treo/lighthouse-ci-action`
+  (the maintained successor). The current action is archived but functional.
+- [ ] Adopt `actionlint` in pre-commit (Go binary, run via `bunx` or a
+  pre-built image) so workflow regressions are caught before push, not after
+  the gate job fails in CI.
+- [ ] Add `bun audit` to the CI gate so known CVEs in the dependency tree
+  fail the build before deploy.
+- [ ] Replace `npx wrangler@4` invocations in CI with the project-pinned
+  `@cloudflare/workers-types` + `wrangler` devDependency so the wrangler
+  version is reproducible from `bun.lock`.
+- [ ] Move the `serviceWorker`/`sw.js` regression test to also check the
+  rendered DOM of every deployed site (currently only the source is checked
+  by `lint-no-emoji.js`; the GUI traversal script's pictograph scan is the
+  template for the equivalent worker-registration scan).
+
+**Exit criteria:** Landing page rendered through Astro; Lighthouse action
+updated; `bun audit` clean; wrangler version pinned to `bun.lock`.
+
+---
+
 ## Success metrics
 
 | Metric | Current | Target |
 |--------|---------|--------|
-| Live sites | 9 / 9 | 9 / 9 |
-| Automated tests | 177 (unit + integration + Vitest) | 200+ |
+| Live sites | 9 / 9 (all return 200) | 9 / 9 |
+| Automated tests | 439 (219 node + 220 Vitest) | 500+ |
 | CI / CD pass rate | > 99 percent | > 99 percent |
-| Biome lint errors | 0 | 0 |
+| Biome lint errors | 0 (zero warnings) | 0 |
 | Warm TTFB (all sites) | 109-212ms (9/10 under 200ms) | < 1 s |
 | Search entries | 2013 | 2500+ |
 | Search zero-result rate | tracked + improved | < 5 percent |
@@ -378,23 +453,26 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
 | Content thin pages | 506 | < 100 |
 | Google Fonts dependency | eliminated | eliminated |
 | Cross-site links | 3 examples added | pattern established |
-| Component tests | Vitest | 150+ |
-| Pre-commit gates | lint-staged + sync + unit/integration | all green |
-| PWA support | manifest + service worker deployed | deployed |
+| Component tests | 220 (Vitest) | 250+ |
+| Pre-commit gates | lint-staged (local bin) + sync + node --test | all green |
+| PWA support | manifest deployed (service worker removed; pending canonical source) | manifest + sourced worker |
 | Print CSS | enhanced with interactive component hiding | deployed |
 | Font preloading | all 9 sites + landing page | deployed |
 | Edge caching | _headers file with immutable rules | deployed |
 | HTTPS certificates | all valid through Aug-Sep 2026 | valid |
 | Search API | healthy, 2013 entries indexed | healthy |
 | Accessibility | axe-core tests pass, keyboard nav restored | zero violations |
-| Dead code | removed (DIFFICULTY_COLORS, duplicate types) | zero |
-| DRY violations | consolidated (escapeHtml, formatTime, colors) | zero |
+| Dead code | removed (DIFFICULTY_COLORS, account-api/, sw.js) | zero |
+| DRY violations | consolidated (escapeHtml, formatTime, colors, server.mjs) | zero |
 | Missing descriptions | **0 files** | 0 |
-| Short descriptions | 178 files | 0 |
-| Hand-wave phrases | 134 findings (informational) | 0 |
+| Short descriptions | 141 files | 0 |
+| Hand-wave phrases | 132 findings (informational) | 0 |
 | Forward references | 763 high-confidence (informational) | reviewed |
 | Unclosed admonitions | **0 errors** | 0 |
 | Content linter | **0 errors** | 0 |
+| Design-language tokens | 13 tokens declared + synced + verified in compiled CSS | token contract pinned |
+| CI workflow invariants | 6 regression tests (BUN_VERSION, permissions, preview URLs, wrangler deploy, deploy polling) | invariant tests green |
+| Service worker registration | removed from landing page (was 404) | re-add only with canonical source |
 
 ---
 
@@ -449,3 +527,17 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
 | 2026-06-14 | Consolidate to two primary workflows | Prior redundancy caused duplicate builds |
 | 2026-06-12 | Starlight over Docusaurus | Performance and modern tooling (ADR-001) |
 | 2026-06-12 | Cloudflare Pages + Worker + KV | Integrated static + dynamic search (ADR-003) |
+| 2026-06-19 | BUN_VERSION pinned to 1.3.x in every workflow | `bun.lock` uses `lockfileVersion: 1`, emitted by Bun 1.3.x; Bun 1.2 caused divergent dependency resolution |
+| 2026-06-19 | Replace curl-based Worker deploy with `wrangler deploy` | Hand-rolled curl flow piped the KV namespace secret through shell interpolation into a JSON file on disk; wrangler keeps the secret in CI env vars only |
+| 2026-06-19 | Aggregate all nine preview URLs into one PR comment | Historical gate (`matrix.site == 'dse'`) meant 8 of 9 preview URLs were deployed but never advertised on the PR |
+| 2026-06-19 | Deployment verification polls the origin for up to 5 minutes | Cloudflare Pages propagation is 30-90 s; a single probe at +10 s produced flaky failures |
+| 2026-06-19 | Add explicit `permissions: { contents: read, issues: write }` to uptime.yml | Default GITHUB_TOKEN on schedule is `contents: write`, which is more permission than an uptime probe needs |
+| 2026-06-19 | Normalise trailing slashes / fragments / queries in lint-links.js | The resolver appended `.md` after the trailing slash on `/foo/`, producing 641 false positives on `alevel/index.mdx` |
+| 2026-06-19 | Restate escapeHtml as non-idempotent | The implementation is correctly non-idempotent (entity `&` re-encodes); the prior INV-ESC-003 claim was false |
+| 2026-06-19 | Replace `Math.random()` SM-2 property tests with mulberry32 | Failures must be reproducible from the printed seed; property-based tests are evidence only when deterministic |
+| 2026-06-19 | Invoke lint-staged via `./node_modules/.bin/lint-staged` in pre-commit | `npx lint-staged` adds ~50 s of registry-discovery overhead per call and exceeded the pre-commit timeout |
+| 2026-06-19 | Remove `account-api/`, `shared/public/sw.js`, `sites/*/public/sw.js` | All three were unreferenced; the service worker registered in `index.html` was a no-op against a 404 origin |
+| 2026-06-19 | Tighten content-linter argument filter to `${path.sep}sites${path.sep}` | Substring check on `sites` falsely matched the repo root `starlight-sites/`, blocking commits of non-content `.md` files |
+| 2026-06-19 | Declare `dompurify` as a root devDependency | Vite's resolver could not resolve the transitive (workspace-only) install from `shared/utils/sanitize.ts` under CI's `--frozen-lockfile` |
+| 2026-06-19 | Introduce Spatial Materialism + Amoebic UI token system | Five elevation tiers, organic radius ladder, fluid spacing scale, organic motion easing; verified in compiled CSS by GUI traversal |
+| 2026-06-19 | Extract e2e server utilities into `tests/e2e/lib/server.mjs` | Identical copies of buildSite / serveDirectory / SITES / SITE_PAGES in gui-snapshot.js and contrast-check.js; de-duplicated into a shared ESM module |
