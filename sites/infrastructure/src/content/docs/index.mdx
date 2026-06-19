@@ -1,0 +1,281 @@
+---
+template: splash
+title: Infrastructure Notes
+description: "Infrastructure and systems engineering reference notes."
+hero:
+  tagline: Server administration, databases, networking, and security reference materials for systems engineers.
+  actions:
+    - text: Browse Databases
+      link: /databases/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Databases
+Every non-trivial system you build, operate, or debug depends on a database. Authentication token...
+
+<CardGrid>
+  <Card title="Relational Theory" icon="document">
+    The relational model provides a mathematically rigorous foundation for data management.
+    [Learn more](/databases/01-relational-theory/)
+  </Card>
+  <Card title="Sql Fundamentals" icon="document">
+    2 pages
+    [Learn more](/databases/02-sql-fundamentals/)
+  </Card>
+  <Card title="Indexing Optimization" icon="document">
+    2 pages
+    [Learn more](/databases/03-indexing-optimization/)
+  </Card>
+  <Card title="Transactions" icon="document">
+    ACID is the set of guarantees that a relational database transaction provides. Understanding what...
+    [Learn more](/databases/04-transactions/)
+  </Card>
+  <Card title="Nosql" icon="document">
+    NoSQL databases and the CAP theorem.
+    [Learn more](/databases/05-nosql/)
+  </Card>
+  <Card title="Database Design" icon="document">
+    Database design is not a one-step activity. It is a disciplined process that moves from abstract ...
+    [Learn more](/databases/06-database-design/)
+  </Card>
+</CardGrid>
+
+## Licensing
+<CardGrid>
+  <Card title="Osi Licenses" icon="document">
+    Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place mi...
+    [Learn more](/licensing/osi-licenses/)
+  </Card>
+</CardGrid>
+
+## Linux
+Introduction to Linux operating system fundamentals.
+
+<CardGrid>
+  <Card title="Cli Fundamentals" icon="document">
+    4 pages
+    [Learn more](/linux/01-cli-fundamentals/)
+  </Card>
+  <Card title="File Systems" icon="document">
+    2 pages
+    [Learn more](/linux/02-file-systems/)
+  </Card>
+  <Card title="Process Management" icon="document">
+    3 pages
+    [Learn more](/linux/03-process-management/)
+  </Card>
+  <Card title="Networking" icon="document">
+    3 pages
+    [Learn more](/linux/04-networking/)
+  </Card>
+  <Card title="Systemd" icon="document">
+    Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providi...
+    [Learn more](/linux/05-systemd/)
+  </Card>
+  <Card title="Security" icon="document">
+    2 pages
+    [Learn more](/linux/06-security/)
+  </Card>
+  <Card title="Package Management" icon="document">
+    A Linux package is an archive containing compiled software, configuration files, metadata (versio...
+    [Learn more](/linux/07-package-management/)
+  </Card>
+  <Card title="Lvm And Disk Partitioning" icon="document">
+    Linux exposes storage devices as block device files under . Block devices support random Access b...
+    [Learn more](/linux/lvm-and-disk-partitioning/)
+  </Card>
+</CardGrid>
+
+## Machine Learning
+<CardGrid>
+  <Card title="Advanced Topics" icon="document">
+    Attention mechanisms allow a model to focus on different parts of an input sequence when producin...
+    [Learn more](/machine-learning/advanced-topics/)
+  </Card>
+</CardGrid>
+
+## Networking
+Every system you operate, deploy, or debug depends on networking. A container cannot reach its Da...
+
+<CardGrid>
+  <Card title="Osi Model" icon="document">
+    1 page
+    [Learn more](/networking/01-osi-model/)
+  </Card>
+  <Card title="Ip Addressing" icon="document">
+    IP addressing is the mechanism by which hosts are identified and located on an IP network. Every ...
+    [Learn more](/networking/02-ip-addressing/)
+  </Card>
+  <Card title="Tcp Udp" icon="document">
+    3 pages
+    [Learn more](/networking/03-tcp-udp/)
+  </Card>
+  <Card title="Dns" icon="document">
+    Domain Name System fundamentals and configuration.
+    [Learn more](/networking/04-dns/)
+  </Card>
+  <Card title="Http Https" icon="document">
+    3 pages
+    [Learn more](/networking/05-http-https/)
+  </Card>
+  <Card title="Tls" icon="document">
+    Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transm...
+    [Learn more](/networking/06-tls/)
+  </Card>
+  <Card title="Network Tools" icon="document">
+    Network troubleshooting is a systematic process of isolating and identifying the root cause of Co...
+    [Learn more](/networking/07-network-tools/)
+  </Card>
+  <Card title="Layer2" icon="document">
+    1 page
+    [Learn more](/networking/08-layer2/)
+  </Card>
+  <Card title="Wireless" icon="document">
+    1 page
+    [Learn more](/networking/09-wireless/)
+  </Card>
+  <Card title="Email And App Protocols" icon="document">
+    1 page
+    [Learn more](/networking/10-email-and-app-protocols/)
+  </Card>
+  <Card title="Bgp And Routing Protocols" icon="document">
+    Routing is the process of selecting a path across a network for traffic to travel from a source t...
+    [Learn more](/networking/bgp-and-routing-protocols/)
+  </Card>
+  <Card title="Practice Networking" icon="document">
+    12 practice problems covering fundamental networking concepts: OSI model, TCP/IP, DNS, HTTP, subn...
+    [Learn more](/networking/practice-networking/)
+  </Card>
+</CardGrid>
+
+## Security
+Information security is not a feature you bolt on after the fact. It is a property of a system th...
+
+<CardGrid>
+  <Card title="Security Fundamentals" icon="document">
+    The CIA triad is the foundational model for information security. Every security control, Vulnera...
+    [Learn more](/security/01-security-fundamentals/)
+  </Card>
+  <Card title="Cryptography" icon="document">
+    Cryptography is the mathematical science of securing communication and data. It is not a security...
+    [Learn more](/security/02-cryptography/)
+  </Card>
+  <Card title="Authentication" icon="document">
+    Authentication and authorization fundamentals.
+    [Learn more](/security/03-authentication/)
+  </Card>
+  <Card title="Web Security" icon="document">
+    The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 editio...
+    [Learn more](/security/04-web-security/)
+  </Card>
+  <Card title="Network Security" icon="document">
+    A firewall is a network security device or software that monitors and filters incoming and outgoi...
+    [Learn more](/security/05-network-security/)
+  </Card>
+  <Card title="Incident Response" icon="document">
+    NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detect...
+    [Learn more](/security/06-incident-response/)
+  </Card>
+  <Card title="Cloud Security" icon="document">
+    Cloud security is governed by a shared responsibility model. The division of responsibility betwe...
+    [Learn more](/security/07-cloud-security/)
+  </Card>
+  <Card title="Os Security" icon="document">
+    SSH is the primary remote administration protocol on Linux. Default configuratio
+    [Learn more](/security/08-os-security/)
+  </Card>
+  <Card title="Malware Analysis" icon="document">
+    Malware classification is the foundational step in any analysis workflow. Understanding the categ...
+    [Learn more](/security/09-malware-analysis/)
+  </Card>
+  <Card title="Pentesting And Attacks" icon="document">
+    Penetration testing is an authorized, simulated attack against a system, network, or Application ...
+    [Learn more](/security/pentesting-and-attacks/)
+  </Card>
+</CardGrid>
+
+## Truenas
+Reference for deploying and managing TrueNAS (CORE and SCALE), covering ZFS pool design, dataset ...
+
+<CardGrid>
+  <Card title="Zfs" icon="document">
+    1 page
+    [Learn more](/truenas/01-zfs/)
+  </Card>
+  <Card title="Sharing And Permissions" icon="document">
+    Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS...
+    [Learn more](/truenas/02-sharing-and-permissions/)
+  </Card>
+  <Card title="Backup And Replication" icon="document">
+    The 3-2-1 rule is the minimum standard for data protection:
+    [Learn more](/truenas/03-backup-and-replication/)
+  </Card>
+  <Card title="Apps And Services" icon="document">
+    TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed int...
+    [Learn more](/truenas/04-apps-and-services/)
+  </Card>
+  <Card title="Monitoring And Alerting" icon="document">
+    The TrueNAS dashboard provides a real-time overview of system health:
+    [Learn more](/truenas/05-monitoring-and-alerting/)
+  </Card>
+  <Card title="Performance Tuning" icon="document">
+    1 page
+    [Learn more](/truenas/06-performance-tuning/)
+  </Card>
+  <Card title="Setup" icon="document">
+    3 pages
+    [Learn more](/truenas/setup/)
+  </Card>
+  <Card title="Zfs Encryption" icon="document">
+    ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage sta...
+    [Learn more](/truenas/zfs-encryption/)
+  </Card>
+</CardGrid>
+
+## Tuning
+Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Meth...
+
+<CardGrid>
+  <Card title="Cpu Tuning" icon="document">
+    1 page
+    [Learn more](/tuning/01-cpu-tuning/)
+  </Card>
+  <Card title="Memory Tuning" icon="document">
+    DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about sp...
+    [Learn more](/tuning/02-memory-tuning/)
+  </Card>
+  <Card title="Gpu Tuning" icon="document">
+    NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cor...
+    [Learn more](/tuning/03-gpu-tuning/)
+  </Card>
+  <Card title="Storage Tuning" icon="document">
+    | Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS...
+    [Learn more](/tuning/04-storage-tuning/)
+  </Card>
+  <Card title="Cooling Systems" icon="document">
+    1 page
+    [Learn more](/tuning/05-cooling-systems/)
+  </Card>
+  <Card title="Stress Testing" icon="document">
+    Stress testing serves three purposes for a systems engineer:
+    [Learn more](/tuning/06-stress-testing/)
+  </Card>
+  <Card title="Psu And Bios Guide" icon="document">
+    A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct ...
+    [Learn more](/tuning/psu-and-bios-guide/)
+  </Card>
+  <Card title="Undervolting And Overclocking" icon="document">
+    Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) ...
+    [Learn more](/tuning/undervolting-and-overclocking/)
+  </Card>
+</CardGrid>
+
+## How to Use These Notes
+
+1. **Start with the fundamentals** -- build a solid foundation before moving to advanced topics
+2. **Work through examples** -- follow along with the worked examples to build intuition
+3. **Test yourself** -- use the practice problems and flashcards to check your understanding
+4. **Review regularly** -- spaced repetition helps retain what you have learned

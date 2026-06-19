@@ -1,69 +1,153 @@
 ---
 template: splash
 title: Developer Tools & Knowledge
-description: "Rigorous notes on algorithms, version control, licensing, and engineering fundamentals. Written for developers who want to understand the foundations deeply."
+description: "Developer tools and engineering fundamentals."
 hero:
-  tagline: Developer tools and foundational knowledge notes. Covers algorithms, data structures, version control, licensing, and probabilistic ML -- the engineering fundamentals that underpin every project.
+  tagline: Developer tools and foundational knowledge notes covering algorithms, version control, licensing, and engineering fundamentals.
   actions:
-    - text: Start with Algorithms
-      link: /algorithms/intro/
+    - text: Browse Algorithms
+      link: /algorithms/
       icon: right-arrow
       variant: primary
 ---
 
-## Algorithms & Data Structures
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-Rigorous coverage of computational complexity, data structures, and algorithm design patterns.
+## Algorithms
+An algorithm is a finite sequence of well-defined instructions that takes an input and produces a...
 
-| Topic | Key Concepts | Pages |
-|-------|-------------|-------|
-| [Complexity Analysis](/algorithms/complexity-analysis/) | Big-O, Master Theorem, amortised analysis, space complexity | 1 |
-| [Arrays & Strings](/algorithms/02-arrays-strings/) | Two pointers, sliding window, hashing, bloom filters | 2 |
-| [Linked Lists & Queues](/algorithms/03-linked-lists-stacks-queues/) | Monotonic stacks, union-find, priority queues, deque operations | 2 |
-| [Trees & Graphs](/algorithms/04-trees-graphs/) | BSTs, balanced trees (AVL, Red-Black), B-trees, BFS, DFS, topological sort | 3 |
-| [Sorting](/algorithms/05-sorting/) | Merge sort, quicksort, radix sort, stability analysis, lower bounds | 1 |
-| [Dynamic Programming](/algorithms/06-dynamic-programming/) | Memoisation, tabulation, state space optimisation, common DP patterns | 3 |
-| [Graph Algorithms](/algorithms/07-graph-algorithms/) | Dijkstra, Kruskal, Ford-Fulkerson, Bellman-Ford, advanced data structures | 3 |
+<CardGrid>
+  <Card title="Complexity Analysis" icon="document">
+    A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Funda...
+    [Learn more](/algorithms/01-complexity-analysis/)
+  </Card>
+  <Card title="Arrays Strings" icon="document">
+    2 pages
+    [Learn more](/algorithms/02-arrays-strings/)
+  </Card>
+  <Card title="Linked Lists Stacks Queues" icon="document">
+    A singly linked list is a sequence of nodes where each node contains a value and a reference to t...
+    [Learn more](/algorithms/03-linked-lists-stacks-queues/)
+  </Card>
+  <Card title="Trees Graphs" icon="document">
+    3 pages
+    [Learn more](/algorithms/04-trees-graphs/)
+  </Card>
+  <Card title="Sorting" icon="document">
+    Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and...
+    [Learn more](/algorithms/05-sorting/)
+  </Card>
+  <Card title="Dynamic Programming" icon="document">
+    Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving e...
+    [Learn more](/algorithms/06-dynamic-programming/)
+  </Card>
+  <Card title="Graph Algorithms" icon="document">
+    Graph algorithms including shortest paths and minimum spanning trees.
+    [Learn more](/algorithms/07-graph-algorithms/)
+  </Card>
+</CardGrid>
 
-## Version Control (Git)
+## General
+This resource is created not based on any curriculum, but a amalgamation of what
 
-Comprehensive Git coverage from fundamentals through internals. **23 pages** covering every aspect of Git mastery.
+<CardGrid>
+  <Card title="Career" icon="document">
+    General Systems Engineering Career notes covering key definitions, core concepts, worked examples...
+    [Learn more](/general/career/)
+  </Card>
+  <Card title="Dev Environment" icon="document">
+    Modern terminal emulators use the GPU for rendering, enabling smooth scrolling and proper Unicode...
+    [Learn more](/general/dev-environment/)
+  </Card>
+  <Card title="Examples" icon="document">
+    2 pages
+    [Learn more](/general/examples/)
+  </Card>
+  <Card title="Open Source" icon="document">
+    General Open Source Contribution notes covering key definitions, core concepts, worked examples, ...
+    [Learn more](/general/open-source/)
+  </Card>
+  <Card title="Productivity" icon="document">
+    The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-mi...
+    [Learn more](/general/productivity/)
+  </Card>
+  <Card title="Testing" icon="document">
+    2 pages
+    [Learn more](/general/testing/)
+  </Card>
+  <Card title="Markdown Constructs" icon="document">
+    Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body shoul...
+    [Learn more](/general/markdown-constructs/)
+  </Card>
+</CardGrid>
 
-| Topic | Key Concepts | Pages |
-|-------|-------------|-------|
-| [Git Fundamentals](/git/02-fundamentals/) | The three trees, Git objects, references, how Git stores data internally | 3 |
-| [Branching & Merging](/git/03-branching-and-merging/) | Branch strategies, merge vs rebase, conflict resolution, fast-forward merges | 4 |
-| [Remotes & Workflows](/git/04-remotes-and-workflows/) | Git Flow, GitHub Flow, pull requests, CI/CD patterns with GitHub Actions | 5 |
-| [Advanced Topics](/git/05-advanced-topics/) | Reflog, stash, bisect, submodules, worktrees, cherry-pick, hooks, commit signing | 12 |
-| [Git Internals](/git/06-internals/) | Directory structure, packing, garbage collection, hash algorithm (SHA-1 to SHA-256) | 3 |
+## Git
+Git is a (DVCS) designed to track changes in source code During software development. Unlike cent...
 
-## Engineering Fundamentals
-
-The broader knowledge every developer needs: career guidance, dev environments, open source, and productivity.
-
-| Topic | Description |
-|-------|-------------|
-| [Development Environment](/general/dev-environment/) | Editor configuration, terminal setup, debugging workflows, performance profiling |
-| [Career](/general/career/) | Engineering career paths, skills development, portfolio building |
-| [Open Source](/general/open-source/) | Contributing to open source, licence compliance, community building |
-| [Productivity](/general/productivity/) | Workflows, tooling, time management for engineers |
+<CardGrid>
+  <Card title="Fundamentals" icon="document">
+    3 pages
+    [Learn more](/git/02-fundamentals/)
+  </Card>
+  <Card title="Branching And Merging" icon="document">
+    4 pages
+    [Learn more](/git/03-branching-and-merging/)
+  </Card>
+  <Card title="Remotes And Workflows" icon="document">
+    5 pages
+    [Learn more](/git/04-remotes-and-workflows/)
+  </Card>
+  <Card title="Advanced Topics" icon="open-book">
+    12 pages
+    [Learn more](/git/05-advanced-topics/)
+  </Card>
+  <Card title="Internals" icon="document">
+    3 pages
+    [Learn more](/git/06-internals/)
+  </Card>
+  <Card title="Others" icon="document">
+    2 pages
+    [Learn more](/git/Others/)
+  </Card>
+  <Card title="Intro" icon="document">
+    Git is a (DVCS) designed to track changes in source code During software development. Unlike cent...
+    [Learn more](/git/01-intro/)
+  </Card>
+  <Card title="Best Practices" icon="document">
+    git config --global user.name
+    [Learn more](/git/07-best-practices/)
+  </Card>
+  <Card title="Advanced Git Commands" icon="document">
+    Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and pra...
+    [Learn more](/git/advanced-git-commands/)
+  </Card>
+</CardGrid>
 
 ## Licensing
+Every piece of software you write, compile, or deploy is subject to copyright law by default. Und...
 
-| Topic | Description |
-|-------|-------------|
-| [Software Licensing](/licensing/software-licensing/) | Licence types (permissive, copyleft, public domain), compatibility matrices, compliance requirements |
+<CardGrid>
+  <Card title="Software Licensing" icon="document">
+    AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundat...
+    [Learn more](/licensing/software-licensing/)
+  </Card>
+</CardGrid>
 
-## Probabilistic ML
+## Probabilisticml
+<CardGrid>
+  <Card title="1_fundamentals" icon="document">
+    2 pages
+    [Learn more](/probabilisticml/1_fundamentals/)
+  </Card>
+  <Card title="0_intro" icon="document">
+    Introduction to probabilistic machine learning concepts and methods.
+    [Learn more](/probabilisticml/0_intro/)
+  </Card>
+</CardGrid>
 
-| Topic | Description |
-|-------|-------------|
-| [Probabilistic ML](/probabilisticml/) | Bayesian reasoning, probabilistic graphical models, uncertainty quantification |
+## How to Use These Notes
 
-## Study Strategy
-
-1. **Start with complexity analysis** -- Big-O notation is prerequisite to everything else
-2. **Implement before memorising** -- code each algorithm from scratch to build intuition
-3. **Study data structure trade-offs** -- choosing the right structure is half the algorithm design
-4. **Trace through examples** -- manually execute algorithms on small inputs
-5. **Build a reference sheet** -- maintain a personal cheat sheet of complexities and patterns
+1. **Start with the fundamentals** -- build a solid foundation before moving to advanced topics
+2. **Work through examples** -- follow along with the worked examples to build intuition
+3. **Test yourself** -- use the practice problems and flashcards to check your understanding
+4. **Review regularly** -- spaced repetition helps retain what you have learned
