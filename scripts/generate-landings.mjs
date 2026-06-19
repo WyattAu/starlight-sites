@@ -273,10 +273,11 @@ function generateLandingPage(siteName, meta, topics, docsDir) {
       const linkPath = hasIndex
         ? `/${topicDir}/${subdir.name}/`
         : `/${topicDir}/${subdir.name}/${subdir.firstPage || ''}/`
-      lines.push(`  <Card title="${titleCase}" icon="${icon}">`)
+      lines.push(`<a href="${linkPath}" class="landing-card">`)
+      lines.push(`<Card title="${titleCase}" icon="${icon}">`)
       lines.push(`    ${desc}`)
-      lines.push(`    [Learn more](${linkPath})`)
       lines.push('  </Card>')
+      lines.push('</a>')
     }
 
     // Add standalone files as cards
@@ -285,10 +286,11 @@ function generateLandingPage(siteName, meta, topics, docsDir) {
       const cleanName = file.slug.replace(/^\d+-/, '').replace(/-/g, ' ')
       const titleCase = cleanName.replace(/\b\w/g, c => c.toUpperCase())
       const desc = getPageDescription(docsDir, topicDir, file.slug) || 'Overview'
-      lines.push(`  <Card title="${titleCase}" icon="document">`)
+      lines.push(`<a href="/${topicDir}/${file.slug}/" class="landing-card">`)
+      lines.push(`<Card title="${titleCase}" icon="document">`)
       lines.push(`    ${desc}`)
-      lines.push(`    [Learn more](/${topicDir}/${file.slug}/)`)
       lines.push('  </Card>')
+      lines.push('</a>')
     }
 
     lines.push('</CardGrid>')

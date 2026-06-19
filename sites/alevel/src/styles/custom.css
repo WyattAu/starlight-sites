@@ -258,3 +258,22 @@ body {
   content-visibility: auto;
   contain-intrinsic-size: auto 300px;
 }
+
+/* === Landing Page Cards === */
+.landing-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.landing-card:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.landing-card .card {
+  transition: border-color 0.2s, transform 0.2s;
+  height: 100%;
+}
+.landing-card:hover .card {
+  border-color: var(--sl-color-accent);
+  transform: translateY(-2px);
+}
