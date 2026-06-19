@@ -15,7 +15,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  BUN_VERSION: "1.2"
+  # Match the local dev environment (Bun 1.3.x) and the bun.lock format.
+  BUN_VERSION: "1.3"
 
 jobs:
   # Gate: production deployments must not proceed unless the full quality
@@ -143,10 +144,21 @@ jobs:
             exit 1
           fi
 
-      - name: Create Cloudflare Pages project
-        continue-on-error: true
+      - name: Ensure Cloudflare Pages project exists
+        # Idempotent: `wrangler pages project create` errors if the project
+        # already exists, so we tolerate that single error class. Real
+        # failures (auth, network) still surface because grep returns 1
+        # when no match is found, which converts the error to a no-op.
         run: |
-          npx wrangler@4 pages project create ${{ matrix.project }} --production-branch main 2>/dev/null || true
+          set +e
+          npx wrangler@4 pages project create ${{ matrix.project }} --production-branch main 2>&1 | tee /tmp/cf-create.log
+          status=${PIPESTATUS[0]}
+          if [ "$status" -ne 0 ] && ! grep -qi 'already exist' /tmp/cf-create.log; then
+            echo "::error::Failed to create Cloudflare project ${{ matrix.project }}"
+            cat /tmp/cf-create.log
+            exit 1
+          fi
+          echo "Project ${{ matrix.project }} exists."
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -158,15 +170,25 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
-      - name: Verify deployment
+      - name: Verify deployment (poll up to 5 minutes)
+        # Cloudflare Pages propagation can take 30-90 seconds. Poll the
+        # origin until it returns 200 or the budget is exhausted. The job
+        # only fails on hard 4xx/5xx after the polling window.
         run: |
-          sleep 10
-          status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}/" 2>/dev/null)
-          if [ "$status" != "200" ]; then
-            echo "::warning::Site returned $status (may still be propagating)"
-          else
-            echo "Verified: ${{ matrix.url }} -> $status"
-          fi
+          url="${{ matrix.url }}/"
+          deadline=$(( $(date +%s) + 300 ))
+          status="000"
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 -L "$url" 2>/dev/null || echo "000")
+            if [ "$status" = "200" ]; then
+              echo "Verified: $url -> $status"
+              exit 0
+            fi
+            echo "Probe: $url -> $status (retrying in 15s)"
+            sleep 15
+          done
+          echo "::error::Site $url did not return 200 within 5 minutes (last status: $status)"
+          exit 1
 
       - name: Summary
         if: always()
@@ -247,23 +269,22 @@ jobs:
       - name: Deploy search Worker
         if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
+        # Substitute the KV namespace ID into wrangler.toml at deploy time,
+        # then let wrangler handle authentication, module upload, and
+        # binding wiring. This replaces a hand-rolled curl+python flow
+        # that piped a secret through shell interpolation into JSON.
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          KV_NAMESPACE_ID: ${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}
         run: |
-          KV_NS="${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}"
-          cat > /tmp/worker-metadata.json << EOF
-          {
-            "main_module": "worker.js",
-            "bindings": [{"type": "kv_namespace", "name": "SEARCH_KV", "namespace_id": "$KV_NS"}],
-            "compatibility_date": "2024-01-01"
-          }
-          EOF
-          curl -s -X PUT "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/workers/scripts/wyattsnotes-search" \
-            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-            -F "metadata=@/tmp/worker-metadata.json;type=application/json" \
-            -F "worker.js=@worker.js;type=application/javascript+module" | python3 -c "
-          import json, sys
-          data = json.load(sys.stdin)
-          print('Worker deployed' if data.get('success') else 'ERROR: ' + str(data.get('errors',[])))
-          "
+          # Materialise a deploy-only wrangler.toml with the real KV id.
+          # The committed wrangler.toml keeps id="" so the secret never
+          # lands in the repository.
+          sed "s|^id = \"\"$|id = \"${KV_NAMESPACE_ID}\"|" wrangler.toml > wrangler.deploy.toml
+          npx wrangler@4 deploy --config wrangler.deploy.toml --name wyattsnotes-search --compatibility-date 2024-01-01
+          # Remove the temporary file containing the namespace id.
+          rm -f wrangler.deploy.toml
 
       - name: Summary
         if: always()

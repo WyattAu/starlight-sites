@@ -8,7 +8,11 @@ permissions:
   contents: read
 
 env:
-  BUN_VERSION: "1.2"
+  # Match the local dev environment (Bun 1.3.x). The committed bun.lock
+  # uses lockfileVersion 1, which is emitted by Bun 1.3; installing with
+  # Bun 1.2 in CI caused divergent resolution. Bump in lockstep with the
+  # local toolchain.
+  BUN_VERSION: "1.3"
 
 # Cancel superseded runs on the same ref to save runner minutes.
 concurrency:
@@ -75,11 +79,13 @@ jobs:
         continue-on-error: true
 
       - name: External link checking (lychee)
+        # Lychee is intentionally non-blocking: external links are subject
+        # to third-party uptime and rate-limiting, neither of which should
+        # gate a release. The .lycheeignore file excludes known flaky URLs.
         uses: lychee/lychee-action@v2
         with:
           args: "--exclude-path node_modules --exclude-file .lycheeignore --no-progress sites/*/src/content/docs/**/*.md sites/*/src/content/docs/**/*.mdx"
           fail: false
-        continue-on-error: true
 
   test:
     runs-on: ubuntu-latest

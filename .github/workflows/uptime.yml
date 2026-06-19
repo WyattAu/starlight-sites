@@ -5,6 +5,18 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
+# Explicit minimum-scope token permissions. The job only needs to open
+# issues on failure; it must not be able to write contents or deploy.
+permissions:
+  contents: read
+  issues: write
+
+# Scheduled runs every 6h: a slow previous run should not stack up.
+# Concurrency on the workflow name ensures only one runs at a time.
+concurrency:
+  group: uptime
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest

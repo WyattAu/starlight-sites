@@ -229,3 +229,86 @@ describe('Search API', () => {
     )
   })
 })
+
+describe('CI/CD invariants (workflow contracts)', () => {
+  const WORKFLOWS_DIR = path.join(ROOT, '.github', 'workflows')
+
+  it('every workflow pins the same BUN_VERSION', () => {
+    // Drift between workflows causes CI to silently use a different
+    // toolchain than deploy. The version must be consistent and match
+    // the local dev environment (Bun 1.3.x emits the lockfile we ship).
+    const files = ['ci.yml', 'deploy.yml', 'preview.yml']
+    const versions = new Set()
+    for (const f of files) {
+      const p = path.join(WORKFLOWS_DIR, f)
+      const text = fs.readFileSync(p, 'utf8')
+      const m = text.match(/BUN_VERSION:\s*"([^"]+)"/)
+      assert.ok(m, `${f} must declare env.BUN_VERSION`)
+      versions.add(m[1])
+    }
+    assert.strictEqual(
+      versions.size,
+      1,
+      `BUN_VERSION must agree across workflows, got: ${[...versions].join(', ')}`,
+    )
+    // Must start with "1.3" to match bun.lock format emitted by Bun 1.3.x.
+    const [v] = [...versions]
+    assert.ok(v.startsWith('1.3'), `BUN_VERSION must be 1.3.x, got ${v}`)
+  })
+
+  it('every workflow declares explicit permissions', () => {
+    // The GitHub-token default of `contents: write` on `on: schedule`
+    // and `on: push` is unsafe; every workflow must scope its token.
+    const files = ['ci.yml', 'deploy.yml', 'preview.yml', 'uptime.yml']
+    for (const f of files) {
+      const text = fs.readFileSync(path.join(WORKFLOWS_DIR, f), 'utf8')
+      assert.ok(/^permissions:/m.test(text), `${f} must declare an explicit permissions: block`)
+    }
+  })
+
+  it('uptime.yml scopes the token to read + issues only', () => {
+    const text = fs.readFileSync(path.join(WORKFLOWS_DIR, 'uptime.yml'), 'utf8')
+    assert.ok(/contents:\s*read/.test(text), 'uptime.yml must set contents: read')
+    assert.ok(/issues:\s*write/.test(text), 'uptime.yml must set issues: write')
+    // Must not request write access to contents.
+    assert.ok(!/contents:\s*write/.test(text), 'uptime.yml must NOT set contents: write')
+  })
+
+  it('preview.yml aggregates all site URLs into a single PR comment', () => {
+    // Regression: previously the PR comment only ran for matrix.site == 'dse',
+    // so 8 of 9 preview URLs were deployed but never advertised on the PR.
+    const text = fs.readFileSync(path.join(WORKFLOWS_DIR, 'preview.yml'), 'utf8')
+    assert.ok(/comment:/.test(text), 'preview.yml must declare a `comment` job')
+    assert.ok(/needs:\s*preview\b/.test(text), 'preview.yml `comment` job must depend on `preview`')
+    // Must not gate the comment on a single matrix site.
+    assert.ok(
+      !/if:\s*matrix\.site\s*==\s*'dse'/.test(text),
+      'preview.yml comment must not be gated to a single site',
+    )
+    assert.ok(
+      /upload-artifact/.test(text) && /download-artifact/.test(text),
+      'preview.yml must exchange URLs via artifacts',
+    )
+  })
+
+  it('deploy.yml worker deploy uses wrangler, not raw curl', () => {
+    // The previous hand-rolled curl+python deploy piped the KV namespace
+    // secret through shell interpolation into a JSON file. wrangler deploy
+    // is the supported path and keeps the secret out of shell argv.
+    const text = fs.readFileSync(path.join(WORKFLOWS_DIR, 'deploy.yml'), 'utf8')
+    assert.ok(/wrangler@4 deploy/.test(text), 'deploy.yml must use wrangler deploy')
+    assert.ok(
+      !/api\.cloudflare\.com\/client\/v4\/accounts/.test(text),
+      'deploy.yml must not call the CF API directly via curl',
+    )
+  })
+
+  it('deploy.yml verifies production deployment with retry polling', () => {
+    // Cloudflare Pages propagation takes 30-90s; a single probe is racy.
+    const text = fs.readFileSync(path.join(WORKFLOWS_DIR, 'deploy.yml'), 'utf8')
+    assert.ok(
+      /Verify deployment \(poll up to/.test(text),
+      'deploy.yml must poll the origin until 200',
+    )
+  })
+})
