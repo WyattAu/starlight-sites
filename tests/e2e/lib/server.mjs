@@ -43,19 +43,27 @@ export const SITES = [
  * additions; auto-discovery would couple the visual regression surface to
  * the content graph and produce noisy diffs.
  *
- * Each route is a non-empty subject landing page that exercises the
- * shared layout, sidebar, breadcrumb, and content typography.
+ * Each route was verified against the production sitemap-0.xml on
+ * 2026-06-19 to point at a page that actually exists. Earlier entries
+ * pointed at section roots (e.g. /maths/, /algorithms/) that have no
+ * index.md and therefore no built page, producing silent 404s in the
+ * traversal. Section roots that DO have an index (e.g. /biology/) are
+ * preferred over deep pages for stability.
  */
 export const SITE_PAGES = {
-  dse: ['/maths/', '/physics/', '/chemistry/'],
-  ib: ['/mathematics/', '/physics/', '/biology/'],
-  alevel: ['/maths/', '/physics/', '/chemistry/'],
-  university: ['/mathematics/', '/physics/'],
-  qualifications: ['/gcse/', '/ap/'],
+  dse: ['/biology/', '/physics/', '/chemistry/'],
+  ib: ['/biology/', '/physics/', '/chemistry/'],
+  alevel: [
+    '/biology/biodiversity-classification-evolution/',
+    '/chemistry/atomic-structure/',
+    '/physics/',
+  ],
+  university: ['/admissions/', '/mathematics/', '/physics/'],
+  qualifications: ['/ap/', '/gcse/'],
   programming: ['/1_enviroment_and_toolchain/', '/3_types/'],
-  infrastructure: ['/linux/', '/networking/'],
+  infrastructure: ['/databases/01-relational-theory/relational-theory/', '/linux/'],
   languages: ['/rust/', '/python/'],
-  tools: ['/algorithms/', '/git/'],
+  tools: ['/algorithms/01-complexity-analysis/complexity-analysis/', '/git/'],
 }
 
 /**
