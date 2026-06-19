@@ -1,143 +1,133 @@
 ---
 template: splash
 title: Developer Tools & Knowledge
-description: "| Topic | Key Concepts | |-------|--------------| | | Big-O, Master Theorem, amortised analysis | | | Two pointers, sliding window, hashing | | | Monotonic"
+description: "Rigorous notes on algorithms, version control, licensing, and engineering fundamentals. Written for developers who want to understand the foundations deeply."
 hero:
-  tagline: Developer tools and foundational knowledge notes. Covers algorithms, data structures, version control, licensing, and probabilistic ML — the engineering fundamentals that underpin every project.
+  tagline: Developer tools and foundational knowledge notes. Covers algorithms, data structures, version control, licensing, and probabilistic ML -- the engineering fundamentals that underpin every project.
   actions:
-    - text: Browse Notes
+    - text: Start with Algorithms
       link: /algorithms/intro/
       icon: right-arrow
       variant: primary
+    - text: Browse All Topics
+      link: /algorithms/intro/
+      icon: right-arrow
+      variant: secondary
 ---
 
-## Topics Covered
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-### Algorithms
-| Topic | Key Concepts |
-|-------|--------------|
-| [Complexity Analysis](/algorithms/complexity-analysis/) | Big-O, Master Theorem, amortised analysis |
-| [Arrays & Strings](/algorithms/02-arrays-strings/) | Two pointers, sliding window, hashing |
-| [Linked Lists & Queues](/algorithms/03-linked-lists-stacks-queues/) | Monotonic structures, union-find |
-| [Trees & Graphs](/algorithms/04-trees-graphs/) | BSTs, balanced trees, BFS, DFS, topological sort |
-| [Sorting](/algorithms/05-sorting/) | Merge sort, quicksort, radix sort, stability |
-| [Dynamic Programming](/algorithms/06-dynamic-programming/) | Memoisation, tabulation, state space |
-| [Graph Algorithms](/algorithms/07-graph-algorithms/) | Dijkstra, Kruskal, Ford-Fulkerson |
+## Algorithms & Data Structures
 
-### General Knowledge
-| Topic | Description |
-|-------|-------------|
-| [Git](/git/) | Version control, branching strategies, rebasing |
-| [Licensing](/licensing/) | Open source licenses, compliance, compatibility |
-| [Systems Engineering Career](/general/career/) | Career paths, skills development |
+Rigorous coverage of computational complexity, data structures, and algorithm design patterns.
 
-### Probabilistic ML
-| Topic | Description |
-|-------|-------------|
-| [Probabilistic ML](/probabilisticml/) | Bayesian inference, probabilistic models |
+<CardGrid>
+  <Card title="Complexity Analysis" icon="star">
+    Big-O, Master Theorem, amortised analysis, space complexity. The foundation of all algorithm study.
+    [Learn more](/algorithms/complexity-analysis/)
+  </Card>
+  <Card title="Arrays & Strings" icon="star">
+    Two pointers, sliding window, hashing, bloom filters. Essential patterns for coding interviews.
+    [Learn more](/algorithms/02-arrays-strings/)
+  </Card>
+  <Card title="Linked Lists & Queues" icon="star">
+    Monotonic stacks, union-find, priority queues, deque operations.
+    [Learn more](/algorithms/03-linked-lists-stacks-queues/)
+  </Card>
+  <Card title="Trees & Graphs" icon="star">
+    BSTs, balanced trees (AVL, Red-Black), B-trees, BFS, DFS, topological sort.
+    [Learn more](/algorithms/04-trees-graphs/)
+  </Card>
+  <Card title="Sorting" icon="star">
+    Merge sort, quicksort, radix sort, stability analysis, lower bounds.
+    [Learn more](/algorithms/05-sorting/)
+  </Card>
+  <Card title="Dynamic Programming" icon="star">
+    Memoisation, tabulation, state space optimisation, common DP patterns.
+    [Learn more](/algorithms/06-dynamic-programming/)
+  </Card>
+  <Card title="Graph Algorithms" icon="star">
+    Dijkstra, Kruskal, Ford-Fulkerson, Bellman-Ford, advanced data structures (Fibonacci heap, skip list).
+    [Learn more](/algorithms/07-graph-algorithms/)
+  </Card>
+</CardGrid>
 
-## How to Use These Notes
+## Version Control (Git)
 
-1. **Start with complexity analysis** — understanding Big-O notation is prerequisite to everything else
-2. **Implement before memorising** — code each algorithm from scratch to build intuition
-3. **Study the data structure trade-offs** — choosing the right structure is half the algorithm design
-4. **Work through the common pitfalls** — each topic page highlights mistakes that trip up engineers
+Comprehensive Git coverage from fundamentals through internals. 23 pages covering every aspect of Git mastery.
+
+<CardGrid>
+  <Card title="Git Fundamentals" icon="open-book">
+    The three trees, Git objects, references, and how Git stores data internally.
+    [Learn more](/git/02-fundamentals/)
+  </Card>
+  <Card title="Branching & Merging" icon="open-book">
+    Branch strategies, merge vs rebase, conflict resolution, fast-forward merges.
+    [Learn more](/git/03-branching-and-merging/)
+  </Card>
+  <Card title="Remotes & Workflows" icon="open-book">
+    Remote operations, Git Flow, GitHub Flow, pull requests, CI/CD patterns with GitHub Actions.
+    [Learn more](/git/04-remotes-and-workflows/)
+  </Card>
+  <Card title="Advanced Topics" icon="open-book">
+    Reflog, stash, bisect, submodules, worktrees, cherry-pick, hooks, commit signing, pre-commit framework, filter-repo, sparse checkout.
+    [Learn more](/git/05-advanced-topics/)
+  </Card>
+  <Card title="Git Internals" icon="open-book">
+    Directory structure, packing, garbage collection, hash algorithm (SHA-1 to SHA-256).
+    [Learn more](/git/06-internals/)
+  </Card>
+</CardGrid>
+
+## Engineering Fundamentals
+
+The broader knowledge every developer needs: career guidance, dev environments, open source, and productivity.
+
+<CardGrid>
+  <Card title="Development Environment" icon="puzzle">
+    Editor configuration, terminal setup, debugging workflows, performance profiling.
+    [Learn more](/general/dev-environment/)
+  </Card>
+  <Card title="Career" icon="puzzle">
+    Engineering career paths, skills development, portfolio building.
+    [Learn more](/general/career/)
+  </Card>
+  <Card title="Open Source" icon="puzzle">
+    Contributing to open source, licence compliance, community building.
+    [Learn more](/general/open-source/)
+  </Card>
+  <Card title="Productivity" icon="puzzle">
+    Workflows, tooling, time management for engineers.
+    [Learn more](/general/productivity/)
+  </Card>
+</CardGrid>
+
+## Licensing
+
+Software licensing essentials: understanding licences, compliance, and compatibility.
+
+<CardGrid>
+  <Card title="Software Licensing" icon="information">
+    Licence types (permissive, copyleft, public domain), compatibility matrices, compliance requirements.
+    [Learn more](/licensing/software-licensing/)
+  </Card>
+</CardGrid>
+
+## Probabilistic ML
+
+Foundations of probabilistic machine learning: Bayesian inference, supervised learning, and probabilistic models.
+
+<CardGrid>
+  <Card title="Probabilistic ML" icon="star">
+    Bayesian reasoning, probabilistic graphical models, uncertainty quantification.
+    [Learn more](/probabilisticml/)
+  </Card>
+</CardGrid>
 
 ## Study Strategy
 
-- **Code by hand first** — write pseudocode on paper before touching a keyboard
-- **Trace through examples** — manually execute the algorithm on small inputs to verify understanding
-- **Analyse time AND space complexity** — a fast algorithm that exhausts memory is useless
-- **Build a reference sheet** — maintain a personal cheat sheet of algorithms and their complexities
-- **Solve problems regularly** — consistent practice (LeetCode, HackerRank) builds pattern recognition
-
-## Overview
-
-This landing page provides comprehensive coverage of Index.md content for the Tools qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
-## Further Resources
-
-- Flashcards for rapid revision of key terms
-- Diagnostic tests to identify remaining gaps
-- Practice problems with detailed worked solutions
-- Cross-references to related topics
-
-## Overview
-
-This landing page provides comprehensive coverage of Index.md content for the Tools qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+1. **Start with complexity analysis** -- Big-O notation is prerequisite to everything else
+2. **Implement before memorising** -- code each algorithm from scratch to build intuition
+3. **Study data structure trade-offs** -- choosing the right structure is half the algorithm design
+4. **Trace through examples** -- manually execute algorithms on small inputs
+5. **Build a reference sheet** -- maintain a personal cheat sheet of complexities and patterns

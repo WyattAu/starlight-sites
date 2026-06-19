@@ -11,9 +11,11 @@ function initCrossSiteSearch() {
   }
 
   // Find Starlight's search container or create our own
+  // Priority: explicit .site-search > nav inner container > nav itself
   const searchContainer =
     document.querySelector('.site-search') ||
-    document.querySelector('[class*="search"]') ||
+    document.querySelector('nav .nav-inner') ||
+    document.querySelector('nav > div') ||
     document.querySelector('nav')
 
   if (!searchContainer) return
