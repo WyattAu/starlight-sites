@@ -753,9 +753,10 @@
 </div>
 
 <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').catch(() => {})
-  }
+  // Service worker registration intentionally omitted: the previous
+  // registration targeted /sw.js which is no longer shipped (it had no
+  // canonical source under shared/ and no registrant contract). Re-add
+  // only after a worker is sourced from shared/public/ and synced here.
 </script>
 
 </body>

@@ -206,7 +206,7 @@ async function analyzeContrast(site, browser) {
             fontWeight,
             selector:
               el.tagName.toLowerCase() +
-              (el.className ? '.' + el.className.split(' ').slice(0, 2).join('.') : ''),
+              (el.className ? `.${el.className.split(' ').slice(0, 2).join('.')}` : ''),
           })
         }
         return results

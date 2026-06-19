@@ -65,12 +65,72 @@
   --wn-error: #e74c3c;
   --wn-info: #3498db;
   --wn-neutral: #95a5a6;
+
+  /* === Design Language Tokens ============================================ */
+  /* Spatial Materialism: layered elevation, weighted surfaces, z-axis depth.
+   * The five elevation tiers model the design as a stack of physical planes:
+   *   tier 0 -- flush with the canvas (no shadow)
+   *   tier 1 -- resting card (subtle lift)
+   *   tier 2 -- popovers, dropdowns
+   *   tier 3 -- dialogs, modals
+   *   tier 4 -- toast + temporary overlays (max separation)
+   * Surfaces gain a coloured halo on interaction so depth is felt, not just
+   * seen. The halo uses the accent at low alpha to stay legible in both
+   * light and dark themes.
+   */
+  --wn-elevation-0: none;
+  --wn-elevation-1: 0 1px 2px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.06);
+  --wn-elevation-2: 0 4px 8px rgba(15, 23, 42, 0.1), 0 2px 4px rgba(15, 23, 42, 0.08);
+  --wn-elevation-3: 0 12px 24px rgba(15, 23, 42, 0.14), 0 4px 8px rgba(15, 23, 42, 0.1);
+  --wn-elevation-4: 0 24px 48px rgba(15, 23, 42, 0.2), 0 8px 16px rgba(15, 23, 42, 0.12);
+  --wn-elevation-accent: 0 8px 24px color-mix(in srgb, var(--sl-color-accent) 28%, transparent);
+
+  /* Amoebic UI: organic curvature, fluid radii, asymmetric breathing room.
+   * Radii grow with element size so large surfaces feel softer than small
+   * ones -- a hallmark of amoebic, fluidly adaptive layouts. The pill
+   * token is the upper bound; elements that should feel infinite (chips,
+   * badges) use it directly.
+   */
+  --wn-radius-xs: 6px; /* inline code, kbd */
+  --wn-radius-sm: 10px; /* buttons, inputs */
+  --wn-radius-md: 14px; /* small cards */
+  --wn-radius-lg: 18px; /* feature/site cards */
+  --wn-radius-xl: 28px; /* hero/stat blocks */
+  --wn-radius-pill: 999px;
+
+  /* Fluid spacing scale (Amoebic breathing room). Locked to viewport via
+   * clamp() so the layout breathes in and out organically across devices
+   * instead of stepping at fixed breakpoints.
+   */
+  --wn-space-fluid-xs: clamp(0.5rem, 0.45rem + 0.25vw, 0.75rem);
+  --wn-space-fluid-sm: clamp(0.75rem, 0.65rem + 0.5vw, 1rem);
+  --wn-space-fluid-md: clamp(1rem, 0.85rem + 0.75vw, 1.5rem);
+  --wn-space-fluid-lg: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);
+  --wn-space-fluid-xl: clamp(2.5rem, 2rem + 2.5vw, 4rem);
+
+  /* Motion: organic easing curves. The standard easing is a gentle
+   * deceleration that reads as "settling" -- the surface comes to rest
+   * like a body in water, not like a mechanical slide.
+   */
+  --wn-ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
+  --wn-ease-organic-in: cubic-bezier(0.66, 0, 0.34, 1);
+  --wn-duration-fast: 140ms;
+  --wn-duration-base: 220ms;
+  --wn-duration-slow: 360ms;
 }
 
 [data-theme="dark"] {
   --sl-color-accent: #ff8c4a;
   --sl-color-accent-low: #ff8c4a20;
   --sl-color-accent-high: #ff6b35;
+  /* Elevation reads against a dark canvas by adding depth, not by casting a
+   * coloured shadow. We shift to a darker, more saturated halo so a lifted
+   * surface still separates cleanly from the background.
+   */
+  --wn-elevation-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
+  --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.45), 0 2px 4px rgba(0, 0, 0, 0.35);
+  --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.55), 0 4px 8px rgba(0, 0, 0, 0.4);
+  --wn-elevation-4: 0 24px 48px rgba(0, 0, 0, 0.65), 0 8px 16px rgba(0, 0, 0, 0.45);
 }
 
 /* === Docusaurus→Starlight CSS variable shims for interactive components === */
@@ -259,21 +319,48 @@ body {
   contain-intrinsic-size: auto 300px;
 }
 
-/* === Landing Page Cards === */
+/* === Landing Page Cards (Spatial Materialism + Amoebic UI) === */
 .landing-card {
   text-decoration: none;
   color: inherit;
   display: block;
+  /* Amoebic UI: cards breathe using the fluid spacing scale rather than a
+   * fixed pixel padding. */
 }
 .landing-card:hover {
   text-decoration: none;
   color: inherit;
 }
 .landing-card .card {
-  transition: border-color 0.2s, transform 0.2s;
+  /* Spatial Materialism: a resting card sits at elevation tier 1 by default
+   * and is lifted to tier 3 with a coloured accent halo on hover. The
+   * transform on the z-axis (translateY) reinforces the elevation change.
+   * Amoebic UI: the corner radius uses the design-token scale so cards
+   * stay organically rounded, not mechanically square. */
+  border-radius: var(--wn-radius-lg, 18px);
+  box-shadow: var(--wn-elevation-1);
+  transition:
+    border-color var(--wn-duration-fast) var(--wn-ease-organic),
+    transform var(--wn-duration-base) var(--wn-ease-organic),
+    box-shadow var(--wn-duration-base) var(--wn-ease-organic);
   height: 100%;
 }
 .landing-card:hover .card {
   border-color: var(--sl-color-accent);
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: var(--wn-elevation-3), var(--wn-elevation-accent);
+}
+.landing-card:focus-visible .card {
+  /* Keyboard users get the same elevation cue without needing to hover. */
+  border-color: var(--sl-color-accent);
+  box-shadow: var(--wn-elevation-2), var(--wn-elevation-accent);
+}
+@media (prefers-reduced-motion: reduce) {
+  /* Respect the OS-level motion preference: no transform animation,
+   * but keep the colour/shadow change so the affordance survives. */
+  .landing-card .card,
+  .landing-card:hover .card {
+    transition: border-color var(--wn-duration-fast) linear;
+    transform: none;
+  }
 }
