@@ -115,7 +115,10 @@ function walkDir(dir) {
 // Collect results
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -156,7 +159,9 @@ if (jsonMode) {
 
   // Summary by site
   console.log('--- By Site ---')
-  for (const [site, siteResults] of Object.entries(bySite).sort((a, b) => b[1].length - a[1].length)) {
+  for (const [site, siteResults] of Object.entries(bySite).sort(
+    (a, b) => b[1].length - a[1].length,
+  )) {
     const totalHigh = siteResults.reduce((sum, r) => sum + r.high, 0)
     console.log(`  ${site}: ${siteResults.length} files (${totalHigh} high-confidence)`)
   }
@@ -168,7 +173,9 @@ if (jsonMode) {
   for (const result of withHigh.slice(0, 20)) {
     console.log(`  ${result.file}`)
     console.log(`    High: ${result.high}, Medium: ${result.medium}, Low: ${result.low}`)
-    console.log(`    Terms: ${result.highTerms.slice(0, 5).join(', ')}${result.highTerms.length > 5 ? '...' : ''}`)
+    console.log(
+      `    Terms: ${result.highTerms.slice(0, 5).join(', ')}${result.highTerms.length > 5 ? '...' : ''}`,
+    )
   }
   if (withHigh.length > 20) {
     console.log(`  ... and ${withHigh.length - 20} more files`)

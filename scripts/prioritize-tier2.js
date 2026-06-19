@@ -59,7 +59,10 @@ const siteFilter = args.find(a => a.startsWith('--site='))?.split('=')[1]
 // Collect files
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -81,8 +84,11 @@ for (const file of files) {
   const basename = path.basename(file)
   const isIndex = basename === 'index.md' || basename === 'index.mdx'
   const relPath = path.relative(path.join(SITES_DIR, siteId, 'src', 'content', 'docs'), file)
-  const isAdvanced = relPath.includes('advanced') || relPath.includes('depth') ||
-    relPath.includes('extension') || relPath.includes('extra')
+  const isAdvanced =
+    relPath.includes('advanced') ||
+    relPath.includes('depth') ||
+    relPath.includes('extension') ||
+    relPath.includes('extra')
 
   if (isIndex || isAdvanced) continue
 
@@ -117,7 +123,9 @@ if (jsonMode) {
 
   // Summary by site
   console.log('--- By Site ---')
-  for (const [site, siteIssues] of Object.entries(bySite).sort((a, b) => b[1].length - a[1].length)) {
+  for (const [site, siteIssues] of Object.entries(bySite).sort(
+    (a, b) => b[1].length - a[1].length,
+  )) {
     const totalDeficit = siteIssues.reduce((sum, i) => sum + i.deficit, 0)
     console.log(`  ${site}: ${siteIssues.length} files (total deficit: ${totalDeficit} lines)`)
   }

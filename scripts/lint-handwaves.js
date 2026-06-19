@@ -53,7 +53,10 @@ const HEDGE_PHRASES = [
   [/\bit can be shown (?:that)\b/gi, 'it can be shown that (show it)'],
   [/\bit can be (?:easily|readily) (?:shown|proved|demonstrated)\b/gi, 'it can be shown (show it)'],
   [/\bone can (?:show|prove|demonstrate|verify)\b/gi, 'one can show (show it)'],
-  [/\bthe (?:proof|derivation|argument) is left as an exercise\b/gi, 'proof left as exercise (provide it)'],
+  [
+    /\bthe (?:proof|derivation|argument) is left as an exercise\b/gi,
+    'proof left as exercise (provide it)',
+  ],
   [/\bthe details are (?:left|omitted|skipped)\b/gi, 'details left out (provide them)'],
 ]
 
@@ -182,7 +185,9 @@ if (allIssues.length > 0) {
   const sorted = allIssues.sort((a, b) => a.file.localeCompare(b.file) || a.line - b.line)
   console.log('--- FINDINGS ---')
   for (const issue of sorted.slice(0, 30)) {
-    console.log(`  ${issue.file}:${issue.line}: [${issue.category}] '${issue.phrase}' -- ${issue.label}`)
+    console.log(
+      `  ${issue.file}:${issue.line}: [${issue.category}] '${issue.phrase}' -- ${issue.label}`,
+    )
   }
   if (sorted.length > 30) {
     console.log(`  ... and ${sorted.length - 30} more`)
@@ -195,7 +200,9 @@ if (allIssues.length > 0) {
     fileCounts[issue.file] = (fileCounts[issue.file] || 0) + 1
   }
   console.log('--- BY FILE (top 10) ---')
-  const sortedFiles = Object.entries(fileCounts).sort((a, b) => b[1] - a[1]).slice(0, 10)
+  const sortedFiles = Object.entries(fileCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
   for (const [file, count] of sortedFiles) {
     console.log(`  ${file}: ${count} findings`)
   }

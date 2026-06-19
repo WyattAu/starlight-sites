@@ -44,13 +44,20 @@ function determineTier(filePath, siteDir) {
   if (siteDir.includes('university')) {
     if (path.basename(filePath) === 'index.md' || path.basename(filePath) === 'index.mdx') return 1
     if (parts.length <= 2) return 2
-    if (relPath.includes('advanced') || relPath.includes('proof') || relPath.includes('theorem')) return 4
+    if (relPath.includes('advanced') || relPath.includes('proof') || relPath.includes('theorem'))
+      return 4
     return 3
   }
 
   if (path.basename(filePath) === 'index.md' || path.basename(filePath) === 'index.mdx') return 1
   if (parts.length <= 2) return 1
-  if (relPath.includes('advanced') || relPath.includes('depth') || relPath.includes('extension') || relPath.includes('extra')) return 3
+  if (
+    relPath.includes('advanced') ||
+    relPath.includes('depth') ||
+    relPath.includes('extension') ||
+    relPath.includes('extra')
+  )
+    return 3
   return 2
 }
 
@@ -77,7 +84,10 @@ function walkDir(dir) {
 // Collect all files below minimum
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -131,7 +141,9 @@ if (jsonMode) {
 
   // Summary by site
   console.log('--- By Site ---')
-  for (const [site, siteIssues] of Object.entries(bySite).sort((a, b) => b[1].length - a[1].length)) {
+  for (const [site, siteIssues] of Object.entries(bySite).sort(
+    (a, b) => b[1].length - a[1].length,
+  )) {
     const totalDeficit = siteIssues.reduce((sum, i) => sum + i.deficit, 0)
     console.log(`  ${site}: ${siteIssues.length} files (total deficit: ${totalDeficit} lines)`)
   }
@@ -148,10 +160,12 @@ if (jsonMode) {
   // By tier
   console.log('--- By Tier ---')
   for (const [tier, tierInfo] of Object.entries(TIERS)) {
-    const tierIssues = issues.filter(i => i.tier === parseInt(tier))
+    const tierIssues = issues.filter(i => i.tier === parseInt(tier, 10))
     if (tierIssues.length > 0) {
       const totalDeficit = tierIssues.reduce((sum, i) => sum + i.deficit, 0)
-      console.log(`  Tier ${tier} (${tierInfo.name}): ${tierIssues.length} files, ${totalDeficit} total deficit lines`)
+      console.log(
+        `  Tier ${tier} (${tierInfo.name}): ${tierIssues.length} files, ${totalDeficit} total deficit lines`,
+      )
     }
   }
 }

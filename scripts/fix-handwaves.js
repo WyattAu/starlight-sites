@@ -18,38 +18,38 @@ const SITES_DIR = path.join(__dirname, '..', 'sites')
 // Auto-fixable replacements: phrase -> replacement (null = remove entirely)
 const AUTO_FIXES = {
   // HANDWAVE phrases - can be removed or replaced
-  'obviously': null,           // Remove - the surrounding text should justify
-  'clearly': null,             // Remove - the surrounding text should justify
-  'trivially': null,           // Remove
-  'easily': null,              // Remove
-  'simply': null,              // Remove
-  'naturally': null,           // Remove
-  'self-evident': null,        // Remove
+  obviously: null, // Remove - the surrounding text should justify
+  clearly: null, // Remove - the surrounding text should justify
+  trivially: null, // Remove
+  easily: null, // Remove
+  simply: null, // Remove
+  naturally: null, // Remove
+  'self-evident': null, // Remove
   'goes without saying': null, // Remove
-  'it is easy to see': null,   // Remove
+  'it is easy to see': null, // Remove
   'it is straightforward': null, // Remove
 
   // VAGUE phrases - need context, but can often be simplified
-  'it depends': 'this varies',  // Less vague
+  'it depends': 'this varies', // Less vague
   'in some cases': 'in specific scenarios',
   'in certain cases': 'in specific scenarios',
   'in general': 'generally',
-  'usually': 'commonly',
-  'typically': 'commonly',
+  usually: 'commonly',
+  typically: 'commonly',
   'most of the time': 'in most scenarios',
-  'oftentimes': 'frequently',
+  oftentimes: 'frequently',
   'under certain conditions': 'under specific conditions',
   'in many cases': 'in many scenarios',
 
   // HEDGE phrases - should present the argument
-  'it can be shown that': '',  // Remove - should be shown, not claimed
+  'it can be shown that': '', // Remove - should be shown, not claimed
   'it can be easily shown that': '',
   'it can be readily shown that': '',
   'one can show': '',
   'one can prove': '',
   'one can demonstrate': '',
   'one can verify': '',
-  'the proof is left as an exercise': '',  // Should provide proof
+  'the proof is left as an exercise': '', // Should provide proof
   'the details are left': 'the full details are',
   'the details are omitted': 'the full details are',
   'the details are skipped': 'the full details are',
@@ -101,15 +101,24 @@ function processFile(filePath, dryRun) {
 
     // Only check lines that might contain handwave phrases (quick filter)
     const lowerLine = line.toLowerCase()
-    const hasHandwave = /[a-z]/.test(lowerLine) &&
-      (lowerLine.includes('obviously') || lowerLine.includes('clearly') ||
-       lowerLine.includes('trivially') || lowerLine.includes('easily') ||
-       lowerLine.includes('simply') || lowerLine.includes('naturally') ||
-       lowerLine.includes('typically') || lowerLine.includes('usually') ||
-       lowerLine.includes('it depends') || lowerLine.includes('in general') ||
-       lowerLine.includes('in some cases') || lowerLine.includes('in many cases') ||
-       lowerLine.includes('it can be shown') || lowerLine.includes('one can show') ||
-       lowerLine.includes('the proof is left') || lowerLine.includes('the details are'))
+    const hasHandwave =
+      /[a-z]/.test(lowerLine) &&
+      (lowerLine.includes('obviously') ||
+        lowerLine.includes('clearly') ||
+        lowerLine.includes('trivially') ||
+        lowerLine.includes('easily') ||
+        lowerLine.includes('simply') ||
+        lowerLine.includes('naturally') ||
+        lowerLine.includes('typically') ||
+        lowerLine.includes('usually') ||
+        lowerLine.includes('it depends') ||
+        lowerLine.includes('in general') ||
+        lowerLine.includes('in some cases') ||
+        lowerLine.includes('in many cases') ||
+        lowerLine.includes('it can be shown') ||
+        lowerLine.includes('one can show') ||
+        lowerLine.includes('the proof is left') ||
+        lowerLine.includes('the details are'))
 
     if (!hasHandwave) return line
 
@@ -118,7 +127,7 @@ function processFile(filePath, dryRun) {
 
       // Build regex that matches the phrase with word boundaries
       const regex = new RegExp(`\\b${original.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'gi')
-      
+
       let match
       while ((match = regex.exec(line)) !== null) {
         // Skip if inside inline code or math
@@ -132,13 +141,17 @@ function processFile(filePath, dryRun) {
         } else {
           // Replace the phrase
           newLine = newLine.replace(regex, replacement)
-          changes.push({ line: lineno + 1, phrase: original, action: `replaced with "${replacement}"` })
+          changes.push({
+            line: lineno + 1,
+            phrase: original,
+            action: `replaced with "${replacement}"`,
+          })
         }
       }
     }
 
     // Clean up double spaces after removal
-    newLine = newLine.replace(/  +/g, ' ')
+    newLine = newLine.replace(/ {2,}/g, ' ')
     // Clean up trailing spaces before newline
     newLine = newLine.replace(/ $/, '')
 
@@ -180,7 +193,10 @@ if (dryRun) {
 // Find files
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -207,7 +223,9 @@ for (const file of files) {
 }
 
 // Report
-console.log(`Results: ${allChanges.length} phrases ${dryRun ? 'would be fixed' : 'fixed'} across ${filesModified} files\n`)
+console.log(
+  `Results: ${allChanges.length} phrases ${dryRun ? 'would be fixed' : 'fixed'} across ${filesModified} files\n`,
+)
 
 if (allChanges.length > 0) {
   // Group by action

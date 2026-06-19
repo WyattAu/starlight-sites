@@ -45,7 +45,10 @@ function parseTitle(frontmatter) {
   const match = frontmatter.match(/^title:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -55,7 +58,10 @@ function parseDescription(frontmatter) {
   const match = frontmatter.match(/^description:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -70,9 +76,15 @@ function extractFirstParagraph(body) {
     const trimmed = line.trim()
 
     // Skip empty lines, headings, code fences, imports, math blocks, admonitions
-    if (trimmed === '' || trimmed.startsWith('#') || trimmed.startsWith('```') ||
-        trimmed.startsWith('import ') || trimmed.startsWith('$$') || trimmed.startsWith('$') ||
-        trimmed.startsWith(':::')) {
+    if (
+      trimmed === '' ||
+      trimmed.startsWith('#') ||
+      trimmed.startsWith('```') ||
+      trimmed.startsWith('import ') ||
+      trimmed.startsWith('$$') ||
+      trimmed.startsWith('$') ||
+      trimmed.startsWith(':::')
+    ) {
       if (inParagraph) break
       continue
     }
@@ -84,9 +96,10 @@ function extractFirstParagraph(body) {
     paragraphLines.push(trimmed)
   }
 
-  return paragraphLines.join(' ')
-    .replace(/\$[^$]+\$/g, '')  // Remove inline math
-    .replace(/`[^`]+`/g, '')     // Remove inline code
+  return paragraphLines
+    .join(' ')
+    .replace(/\$[^$]+\$/g, '') // Remove inline math
+    .replace(/`[^`]+`/g, '') // Remove inline code
     .replace(/\*\*[^*]+\*\*/g, '') // Remove bold
     .replace(/\[[^\]]+\]\([^)]+\)/g, '') // Remove links
     .replace(/:::[a-z]+(?:\[[^\]]*\])?\s*/g, '') // Remove admonition markers
@@ -140,17 +153,24 @@ function generateDescription(title, body, siteId) {
   // Strategy 2: Truncate first paragraph to fit at natural boundary
   if (firstParagraph.length > MAX_DESC_LENGTH) {
     const breakPos = findNaturalBreak(firstParagraph, MAX_DESC_LENGTH - 3)
-    return firstParagraph.slice(0, breakPos).trim() + (breakPos < firstParagraph.length ? '...' : '')
+    return (
+      firstParagraph.slice(0, breakPos).trim() + (breakPos < firstParagraph.length ? '...' : '')
+    )
   }
 
   // Strategy 3: Use title + specific subject context
-  const subject = title.toLowerCase()
+  const subject = title
+    .toLowerCase()
     .replace(/[^a-z0-9\s]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
 
   // Extract key terms from title for better context
-  const keyTerms = title.split(/[\s:–—-]+/).filter(w => w.length > 3).slice(0, 3).join(' ')
+  const keyTerms = title
+    .split(/[\s:–—-]+/)
+    .filter(w => w.length > 3)
+    .slice(0, 3)
+    .join(' ')
 
   const variants = [
     `${title} -- ${siteContext} notes covering key definitions, core concepts, worked examples, and practice questions.`,
@@ -245,7 +265,12 @@ function processFile(filePath, dryRun) {
 
   if (newDesc.length < MIN_DESC_LENGTH || newDesc.length > MAX_DESC_LENGTH) {
     // Couldn't generate a good description
-    return { file: filePath, status: 'skip', reason: `Generated desc ${newDesc.length} chars`, title }
+    return {
+      file: filePath,
+      status: 'skip',
+      reason: `Generated desc ${newDesc.length} chars`,
+      title,
+    }
   }
 
   const fixed = fixDescription(content, newDesc)
@@ -281,7 +306,8 @@ function walkDir(dir) {
 // Parse args
 const args = process.argv.slice(2)
 const dryRun = !args.includes('--apply')
-const siteFilter = args.find(a => a.startsWith('--site='))?.split('=')[1] ||
+const siteFilter =
+  args.find(a => a.startsWith('--site='))?.split('=')[1] ||
   (args.includes('--site') ? args[args.indexOf('--site') + 1] : null)
 
 if (dryRun) {
@@ -291,9 +317,12 @@ if (dryRun) {
 }
 
 // Find files
-let files = []
+const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -316,7 +345,9 @@ for (const file of files) {
 const fixed = results.filter(r => r.status === 'fixed' || r.status === 'would-fix')
 const skipped = results.filter(r => r.status === 'skip')
 
-console.log(`Results: ${fixed.length} ${dryRun ? 'would be fixed' : 'fixed'}, ${skipped.length} skipped\n`)
+console.log(
+  `Results: ${fixed.length} ${dryRun ? 'would be fixed' : 'fixed'}, ${skipped.length} skipped\n`,
+)
 
 if (fixed.length > 0) {
   console.log('--- FIXED ---')
@@ -334,7 +365,7 @@ if (fixed.length > 0) {
 }
 
 if (skipped.length > 0) {
-  console.log('--- SKIPPED (couldn\'t auto-generate) ---')
+  console.log("--- SKIPPED (couldn't auto-generate) ---")
   for (const r of skipped.slice(0, 10)) {
     const relPath = path.relative(path.join(__dirname, '..'), r.file)
     console.log(`  ${relPath}: ${r.reason}`)

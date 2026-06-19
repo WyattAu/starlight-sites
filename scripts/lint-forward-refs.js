@@ -37,7 +37,12 @@ function extractMathTerms(content) {
     if (term.length < 2) continue
     if (/^\d+(\.\d+)?$/.test(term)) continue
     if (/^[+\-*/=<>]$/.test(term)) continue
-    if (/^\\(?:frac|sum|prod|int|partial|infty|alpha|beta|gamma|delta|epsilon|theta|lambda|mu|sigma|pi|omega|mathbb|mathrm|text|left|right|cdot|times|leq|geq|neq|approx|equiv|pm|mp)/.test(term)) continue
+    if (
+      /^\\(?:frac|sum|prod|int|partial|infty|alpha|beta|gamma|delta|epsilon|theta|lambda|mu|sigma|pi|omega|mathbb|mathrm|text|left|right|cdot|times|leq|geq|neq|approx|equiv|pm|mp)/.test(
+        term,
+      )
+    )
+      continue
 
     terms.push({ term, position: match.index, length: match[0].length })
   }
@@ -65,7 +70,7 @@ function isDefinition(content, position) {
     // Check if there's a heading between the Definition heading and this position
     const afterDef = content.slice(lastDefHeading)
     const nextHeading = afterDef.indexOf('\n## ')
-    if (nextHeading === -1 || nextHeading > (position - lastDefHeading)) {
+    if (nextHeading === -1 || nextHeading > position - lastDefHeading) {
       return true // We're in a Definition section
     }
   }
@@ -86,7 +91,7 @@ function checkFile(filePath) {
   // Track which terms have been defined
   const defined = new Set()
   // Terms used before any definition section are considered forward refs
-  let reachedDefinitionSection = false
+  const reachedDefinitionSection = false
 
   for (const { term, position } of terms) {
     // Normalize the term for comparison
@@ -101,8 +106,8 @@ function checkFile(filePath) {
     if (defined.has(normalized)) continue
 
     // Check if this looks like a variable/symbol name (single letter or short identifier)
-    const isVariable = /^[A-Za-z](?:_\\?[a-zA-Z0-9])?$/.test(term) ||
-      /^[A-Z](?:_[a-z]+)?$/.test(term)
+    const isVariable =
+      /^[A-Za-z](?:_\\?[a-zA-Z0-9])?$/.test(term) || /^[A-Z](?:_[a-z]+)?$/.test(term)
 
     if (isVariable && !reachedDefinitionSection) {
       // This is a variable used before any definition section

@@ -20,17 +20,47 @@ const SITE_DESCRIPTIONS = {
   alevel: {
     title: 'A-Level',
     description: 'UK A-Level revision notes',
-    subjects: ['biology', 'chemistry', 'computer-science', 'economics', 'english', 'further-maths', 'geography', 'history', 'maths', 'physics', 'psychology'],
+    subjects: [
+      'biology',
+      'chemistry',
+      'computer-science',
+      'economics',
+      'english',
+      'further-maths',
+      'geography',
+      'history',
+      'maths',
+      'physics',
+      'psychology',
+    ],
   },
   dse: {
     title: 'DSE',
     description: 'Hong Kong Diploma of Secondary Education (DSE) notes',
-    subjects: ['biology', 'chemistry', 'computer-science', 'economics', 'english', 'geography', 'history', 'maths', 'physics'],
+    subjects: [
+      'biology',
+      'chemistry',
+      'computer-science',
+      'economics',
+      'english',
+      'geography',
+      'history',
+      'maths',
+      'physics',
+    ],
   },
   ib: {
     title: 'IB',
     description: 'International Baccalaureate (IB) Diploma Programme notes',
-    subjects: ['biology', 'chemistry', 'computer-science', 'economics', 'english', 'maths', 'physics'],
+    subjects: [
+      'biology',
+      'chemistry',
+      'computer-science',
+      'economics',
+      'english',
+      'maths',
+      'physics',
+    ],
   },
   university: {
     title: 'University',
@@ -89,10 +119,7 @@ function getSiteId(filePath) {
 }
 
 function getSubjectFromPath(filePath, siteId) {
-  const relPath = path.relative(
-    path.join(SITES_DIR, siteId, 'src', 'content', 'docs'),
-    filePath
-  )
+  const relPath = path.relative(path.join(SITES_DIR, siteId, 'src', 'content', 'docs'), filePath)
   const parts = relPath.split(path.sep)
   if (parts.length > 1) {
     return parts[0] // First directory is the subject
@@ -121,14 +148,23 @@ function expandLandingPage(filePath, siteId) {
   const body = lines.slice(frontmatterEnd + 1).join('\n')
 
   // Check if body already has required sections
-  const hasOverview = body.includes('## Overview') || body.includes('## What') ||
-    body.includes('## About') || body.includes('## Introduction') ||
+  const hasOverview =
+    body.includes('## Overview') ||
+    body.includes('## What') ||
+    body.includes('## About') ||
+    body.includes('## Introduction') ||
     (body.includes('These notes') && body.includes('cover'))
-  const hasScope = body.includes('## Scope') || body.includes('## Topics') ||
-    body.includes('## Subjects') || body.includes('## Contents') ||
+  const hasScope =
+    body.includes('## Scope') ||
+    body.includes('## Topics') ||
+    body.includes('## Subjects') ||
+    body.includes('## Contents') ||
     body.includes('## Key Topics')
-  const hasNavigation = body.includes('## Navigation') || body.includes('## Browse') ||
-    body.includes('## How to') || body.includes('## Getting Started')
+  const hasNavigation =
+    body.includes('## Navigation') ||
+    body.includes('## Browse') ||
+    body.includes('## How to') ||
+    body.includes('## Getting Started')
 
   // Also check if the file already has enough content
   const bodyLineCount = countBodyLines(content)
@@ -148,7 +184,9 @@ function expandLandingPage(filePath, siteId) {
     additions.push('## Overview')
     additions.push('')
     if (subject) {
-      additions.push(`This section covers ${subject.replace(/-/g, ' ')} content for ${siteInfo.title} level students.`)
+      additions.push(
+        `This section covers ${subject.replace(/-/g, ' ')} content for ${siteInfo.title} level students.`,
+      )
     } else {
       additions.push(`${siteInfo.description}.`)
     }
@@ -178,13 +216,15 @@ function expandLandingPage(filePath, siteId) {
   if (!hasNavigation) {
     additions.push('## Navigation')
     additions.push('')
-    additions.push('Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.')
+    additions.push(
+      'Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.',
+    )
     additions.push('')
   }
 
   // Insert additions before the last line or at the end
-  const newBody = body.trimEnd() + '\n' + additions.join('\n')
-  const newContent = frontmatter + '\n' + newBody
+  const newBody = `${body.trimEnd()}\n${additions.join('\n')}`
+  const newContent = `${frontmatter}\n${newBody}`
 
   return newContent
 }
@@ -217,7 +257,10 @@ if (dryRun) {
 // Find Tier 1 files below minimum
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {

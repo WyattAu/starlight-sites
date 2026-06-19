@@ -53,7 +53,12 @@ function determineTier(filePath, siteDir) {
   }
 
   // Tier 3: pages in "advanced", "depth", "extension" directories
-  if (relPath.includes('advanced') || relPath.includes('depth') || relPath.includes('extension') || relPath.includes('extra')) {
+  if (
+    relPath.includes('advanced') ||
+    relPath.includes('depth') ||
+    relPath.includes('extension') ||
+    relPath.includes('extra')
+  ) {
     return 3
   }
 
@@ -145,7 +150,10 @@ if (args.length > 0) {
   // Walk all sites
   files = []
   const sites = fs.readdirSync(SITES_DIR).filter(f => {
-    return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+    return (
+      fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+      !['node_modules', '.astro', 'dist'].includes(f)
+    )
   })
   for (const site of sites) {
     const contentDir = path.join(SITES_DIR, site, 'src', 'content', 'docs')
@@ -159,7 +167,9 @@ const allIssues = []
 for (const file of files) {
   // Determine site directory for this file
   const siteMatch = file.match(/sites\/([^/]+)\//)
-  const siteDir = siteMatch ? path.join(SITES_DIR, siteMatch[1], 'src', 'content', 'docs') : SITES_DIR
+  const siteDir = siteMatch
+    ? path.join(SITES_DIR, siteMatch[1], 'src', 'content', 'docs')
+    : SITES_DIR
   allIssues.push(...checkFile(file, siteDir))
 }
 
@@ -181,7 +191,9 @@ if (allIssues.length > 0) {
     const tierInfo = TIERS[tier]
     console.log(`--- Tier ${tier}: ${tierInfo.name} (min ${tierInfo.minLines} lines) ---`)
     for (const issue of issues.slice(0, 10)) {
-      console.log(`  ${issue.file}: ${issue.lineCount} lines (need ${issue.minLines}, deficit ${issue.deficit})`)
+      console.log(
+        `  ${issue.file}: ${issue.lineCount} lines (need ${issue.minLines}, deficit ${issue.deficit})`,
+      )
     }
     if (issues.length > 10) {
       console.log(`  ... and ${issues.length - 10} more`)

@@ -26,7 +26,10 @@ function parseTitle(frontmatter) {
   const match = frontmatter.match(/^title:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -36,7 +39,10 @@ function parseDescription(frontmatter) {
   const match = frontmatter.match(/^description:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -85,47 +91,48 @@ function fixDescription(content, newDescription) {
 function extendDescription(desc, title) {
   // Find a natural break point near the end
   const targetLength = MIN_DESC_LENGTH + 10 // Aim for 130 chars
-  
+
   if (desc.length >= targetLength) return desc
-  
+
   // Add subject-specific context
-  const subject = title.toLowerCase()
+  const subject = title
+    .toLowerCase()
     .replace(/[^a-z0-9\s]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
-  
+
   // Try to extend with context
   const extensions = [
     ` Study guide for A-Level ${subject} with worked examples and practice questions.`,
     ` Comprehensive A-Level ${subject} revision notes with definitions and examples.`,
     ` Detailed A-Level ${subject} coverage including theory, examples, and assessment.`,
   ]
-  
+
   for (const ext of extensions) {
     const newDesc = desc + ext
     if (newDesc.length >= MIN_DESC_LENGTH && newDesc.length <= 160) {
       return newDesc
     }
   }
-  
+
   // If extensions don't work, try truncating and extending
   const breakPos = Math.min(desc.length, targetLength - 50)
   const truncated = desc.slice(0, breakPos).trim()
-  
+
   for (const ext of extensions) {
     const newDesc = truncated + ext
     if (newDesc.length >= MIN_DESC_LENGTH && newDesc.length <= 160) {
       return newDesc
     }
   }
-  
+
   // If still not enough, just add a period and the subject
   const simpleExt = ` ${subject} study guide.`
   const newDesc = desc + simpleExt
   if (newDesc.length >= MIN_DESC_LENGTH && newDesc.length <= 160) {
     return newDesc
   }
-  
+
   return desc // Return original if we can't extend
 }
 
@@ -157,7 +164,10 @@ if (dryRun) {
 // Find all content files
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -173,21 +183,21 @@ for (const file of files) {
   const content = fs.readFileSync(file, 'utf8')
   const frontmatter = extractFrontmatter(content)
   if (!frontmatter) continue
-  
+
   const desc = parseDescription(frontmatter)
   const title = parseTitle(frontmatter)
-  
+
   if (!desc || !title) continue
-  
+
   if (desc.length < MIN_DESC_LENGTH) {
     const newDesc = extendDescription(desc, title)
-    
+
     if (newDesc !== desc && newDesc.length >= MIN_DESC_LENGTH) {
       if (!dryRun) {
         const fixed = fixDescription(content, newDesc)
         fs.writeFileSync(file, fixed, 'utf8')
       }
-      
+
       const relPath = path.relative(path.join(__dirname, '..'), file)
       fixes.push({
         file: relPath,

@@ -29,12 +29,7 @@
     "vitest",
     "wrangler"
   ],
-  "flagWords": [
-    "obviously",
-    "clearly",
-    "trivially",
-    "intuitively"
-  ],
+  "flagWords": ["obviously", "clearly", "trivially", "intuitively"],
   "ignorePaths": [
     "node_modules",
     "dist",
@@ -44,11 +39,6 @@
     "*.min.js",
     "*.min.css"
   ],
-  "ignoreRegExpList": [
-    "\\$\\$[\\s\\S]*?\\$\\$",
-    "\\$[^$]+\\$",
-    "`[^`]+`",
-    "https?://[^\\s]+"
-  ],
+  "ignoreRegExpList": ["\\$\\$[\\s\\S]*?\\$\\$", "\\$[^$]+\\$", "`[^`]+`", "https?://[^\\s]+"],
   "minWordLength": 3
 }

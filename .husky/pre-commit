@@ -8,32 +8,66 @@
 # The full repo-wide content/no-emoji walk additionally runs in CI on every
 # push/PR, so enforcement is layered: changed files here, whole tree CI.
 #
+# Performance notes:
+#   - We invoke `lint-staged` via the local bin rather than `npx`. Empirically
+#     `npx lint-staged` adds ~50s of registry-discovery overhead per call,
+#     which would make the gate unusable. The local bin is ~10s cold.
+#   - We skip the lint-staged step entirely when there are no staged files
+#     (e.g. `git commit --allow-empty`), so the gate is not blocked by
+#     cold-start cost when there is nothing to lint.
+#   - We give lint-staged 90s (it spawns multiple linter subprocesses per
+#     staged glob; biome cold start is ~1s and we may have many files).
+#
 # Any failure aborts the commit.
+
+set -u
 
 echo "Running pre-commit checks..."
 
-# 1. Per-file checks on staged files only (no-emoji, content, config).
-# Use timeout to prevent hanging (30 seconds max).
-timeout 30 npx lint-staged
-status=$?
-if [ "$status" -ne 0 ]; then
-  echo "Pre-commit FAILED: lint-staged reported violations or timed out."
+# Locate the repo root regardless of where the hook was invoked from.
+REPO_ROOT=$(git rev-parse --show-toplevel) || {
+  echo "Pre-commit FAILED: not inside a git work tree." >&2
   exit 1
+}
+
+# 0. Short-circuit: nothing to lint if there are no staged files.
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null | wc -l | tr -d ' ')
+if [ "${STAGED_FILES}" -eq 0 ]; then
+  echo "No staged files; skipping lint-staged."
+else
+  # 1. Per-file checks on staged files only (no-emoji, content, config).
+  # Use the local bin to avoid the ~50s `npx` registry-discovery overhead.
+  if [ -x "${REPO_ROOT}/node_modules/.bin/lint-staged" ]; then
+    LINT_STAGED_BIN="${REPO_ROOT}/node_modules/.bin/lint-staged"
+  else
+    # Fallback for environments where husky installed the bin elsewhere.
+    LINT_STAGED_BIN="lint-staged"
+  fi
+  timeout 90 "$LINT_STAGED_BIN"
+  status=$?
+  if [ "$status" -ne 0 ]; then
+    if [ "$status" -eq 124 ]; then
+      echo "Pre-commit FAILED: lint-staged exceeded 90s timeout." >&2
+    else
+      echo "Pre-commit FAILED: lint-staged reported violations." >&2
+    fi
+    exit 1
+  fi
 fi
 
 # 2. Shared-asset integrity: every site must match the canonical shared/ source.
-node scripts/sync-shared.mjs --check
+node "${REPO_ROOT}/scripts/sync-shared.mjs" --check
 status=$?
 if [ "$status" -ne 0 ]; then
-  echo "Pre-commit FAILED: shared assets drifted. Run 'bun run sync' and re-stage."
+  echo "Pre-commit FAILED: shared assets drifted. Run 'bun run sync' and re-stage." >&2
   exit 1
 fi
 
 # 3. Unit + integration tests (pure-Node; the canonical correctness gate).
-node --test tests/unit/*.test.js tests/integration/*.test.js
+node --test "${REPO_ROOT}/tests/unit/"*.test.js "${REPO_ROOT}/tests/integration/"*.test.js
 status=$?
 if [ "$status" -ne 0 ]; then
-  echo "Pre-commit FAILED: unit/integration tests failed."
+  echo "Pre-commit FAILED: unit/integration tests failed." >&2
   exit 1
 fi
 

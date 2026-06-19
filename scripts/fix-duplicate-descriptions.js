@@ -25,7 +25,10 @@ function parseTitle(frontmatter) {
   const match = frontmatter.match(/^title:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -35,7 +38,10 @@ function parseDescription(frontmatter) {
   const match = frontmatter.match(/^description:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -84,8 +90,20 @@ function fixDescription(content, newDescription) {
 function generateUniqueDescription(title, filePath) {
   // Extract subject from file path
   const pathParts = filePath.split('/')
-  const siteId = pathParts.find(p => ['alevel', 'ib', 'dse', 'university', 'qualifications', 'programming', 'infrastructure', 'languages', 'tools'].includes(p))
-  
+  const siteId = pathParts.find(p =>
+    [
+      'alevel',
+      'ib',
+      'dse',
+      'university',
+      'qualifications',
+      'programming',
+      'infrastructure',
+      'languages',
+      'tools',
+    ].includes(p),
+  )
+
   // Extract subject from path (e.g., "biology", "chemistry", "maths")
   const contentIndex = pathParts.indexOf('content')
   const docsIndex = pathParts.indexOf('docs')
@@ -101,7 +119,7 @@ function generateUniqueDescription(title, filePath) {
   // Generate unique description
   const subjectTitle = subject.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
   const siteTitle = siteId ? siteId.toUpperCase() : 'General'
-  
+
   return `${siteTitle} ${subjectTitle} ${type}: ${title}. Comprehensive study material with definitions, examples, and assessment tools.`
 }
 
@@ -138,7 +156,10 @@ if (dryRun) {
 // Find all content files
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -154,10 +175,10 @@ for (const file of files) {
   const content = fs.readFileSync(file, 'utf8')
   const frontmatter = extractFrontmatter(content)
   if (!frontmatter) continue
-  
+
   const desc = parseDescription(frontmatter)
   if (!desc) continue
-  
+
   if (!descMap.has(desc)) {
     descMap.set(desc, [])
   }
@@ -168,7 +189,7 @@ for (const file of files) {
 const fixes = []
 for (const [desc, dupFiles] of descMap) {
   if (dupFiles.length <= 1) continue
-  
+
   // Skip files that already have unique descriptions
   const filesToFix = dupFiles.filter(f => {
     const content = fs.readFileSync(f, 'utf8')
@@ -177,27 +198,27 @@ for (const [desc, dupFiles] of descMap) {
     // Fix all duplicates except the first one
     return true
   })
-  
+
   if (filesToFix.length === 0) continue
-  
+
   // Fix all but the first file (keep original for the first)
   for (let i = 1; i < filesToFix.length; i++) {
     const file = filesToFix[i]
     const content = fs.readFileSync(file, 'utf8')
     const frontmatter = extractFrontmatter(content)
     const title = parseTitle(frontmatter) || 'Content'
-    
+
     const newDesc = generateUniqueDescription(title, file)
-    
+
     if (!dryRun) {
       const fixed = fixDescription(content, newDesc)
       fs.writeFileSync(file, fixed, 'utf8')
     }
-    
+
     const relPath = path.relative(path.join(__dirname, '..'), file)
     fixes.push({
       file: relPath,
-      oldDesc: desc.substring(0, 60) + '...',
+      oldDesc: `${desc.substring(0, 60)}...`,
       newDesc: newDesc,
     })
   }

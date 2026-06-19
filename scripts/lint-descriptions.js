@@ -27,7 +27,10 @@ function parseDescription(frontmatter) {
   if (!match) return null
   let value = match[1].trim()
   // Remove surrounding quotes
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -69,7 +72,11 @@ function checkFile(filePath) {
 
   // Check for handwave phrases
   if (/\b(obviously|clearly|intuitively|simply|easily)\b/i.test(description)) {
-    issues.push({ file: relativePath, type: 'WARNING', message: 'Description contains handwave phrase' })
+    issues.push({
+      file: relativePath,
+      type: 'WARNING',
+      message: 'Description contains handwave phrase',
+    })
   }
 
   return issues

@@ -27,7 +27,10 @@ function parseDescription(frontmatter) {
   const match = frontmatter.match(/^description:\s*(.+)$/m)
   if (!match) return null
   let value = match[1].trim()
-  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
     value = value.slice(1, -1)
   }
   return value
@@ -77,7 +80,7 @@ function truncateDescription(desc) {
   if (desc.length <= MAX_DESC_LENGTH) return desc
 
   // Force truncation at exact max length
-  return desc.slice(0, MAX_DESC_LENGTH - 3).trim() + '...'
+  return `${desc.slice(0, MAX_DESC_LENGTH - 3).trim()}...`
 }
 
 function walkDir(dir) {
@@ -108,7 +111,10 @@ if (dryRun) {
 // Find all content files
 const files = []
 const sites = fs.readdirSync(SITES_DIR).filter(f => {
-  return fs.statSync(path.join(SITES_DIR, f)).isDirectory() && !['node_modules', '.astro', 'dist'].includes(f)
+  return (
+    fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
+    !['node_modules', '.astro', 'dist'].includes(f)
+  )
 })
 
 for (const site of sites) {
@@ -124,20 +130,20 @@ for (const file of files) {
   const content = fs.readFileSync(file, 'utf8')
   const frontmatter = extractFrontmatter(content)
   if (!frontmatter) continue
-  
+
   const desc = parseDescription(frontmatter)
-  
+
   if (!desc) continue
-  
+
   if (desc.length > MAX_DESC_LENGTH) {
     const newDesc = truncateDescription(desc)
-    
+
     if (newDesc !== desc && newDesc.length <= MAX_DESC_LENGTH) {
       if (!dryRun) {
         const fixed = fixDescription(content, newDesc)
         fs.writeFileSync(file, fixed, 'utf8')
       }
-      
+
       const relPath = path.relative(path.join(__dirname, '..'), file)
       fixes.push({
         file: relPath,

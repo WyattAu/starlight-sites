@@ -9,8 +9,8 @@
  * Usage: node scripts/generate-landings.mjs [--dry-run] [--site <name>]
  */
 
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 
 const SITES_DIR = path.resolve('sites')
 const DRY_RUN = process.argv.includes('--dry-run')
@@ -177,7 +177,7 @@ function getPageDescription(docsDir, directory, fileName) {
     // Clean up description
     desc = desc.replace(/Comprehensive educational content coverage with.*$/i, '').trim()
     desc = desc.replace(/\.\.\.$/, '').trim()
-    if (desc.length > 100) desc = desc.substring(0, 97) + '...'
+    if (desc.length > 100) desc = `${desc.substring(0, 97)}...`
     return desc
   }
 
@@ -185,7 +185,7 @@ function getPageDescription(docsDir, directory, fileName) {
   const bodyMatch = content.match(/---\s*\n[\s\S]*?\n---\s*\n\n(.+?)(?:\n\n|\n#)/)
   if (bodyMatch) {
     let desc = bodyMatch[1].replace(/[#*_`[\]]/g, '').trim()
-    if (desc.length > 100) desc = desc.substring(0, 97) + '...'
+    if (desc.length > 100) desc = `${desc.substring(0, 97)}...`
     return desc
   }
 
@@ -211,7 +211,7 @@ function getTopicDescription(docsDir, directory) {
 
 // ── Landing page generator ─────────────────────────────────────────
 
-function generateLandingPage(siteName, meta, topics, docsDir) {
+function generateLandingPage(_siteName, meta, topics, docsDir) {
   const lines = []
 
   // Frontmatter
