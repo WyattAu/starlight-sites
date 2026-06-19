@@ -19,6 +19,18 @@ const crypto = require('node:crypto')
 
 const ROOT = path.join(__dirname, '..', '..')
 
+const EXPECTED_SITES = [
+  'alevel',
+  'dse',
+  'ib',
+  'infrastructure',
+  'languages',
+  'programming',
+  'qualifications',
+  'tools',
+  'university',
+]
+
 const ASTRO_SITES = [
   'alevel',
   'dse',
@@ -128,6 +140,30 @@ describe('Dead-code absence', () => {
       !fs.existsSync(path.join(ROOT, 'sites', 'infrastructure', 'package-lock.json')),
       'stale sites/infrastructure/package-lock.json must be removed',
     )
+  })
+
+  it('account-api/ is removed (reverted feature, see commit 254901ae)', () => {
+    assert.ok(
+      !fs.existsSync(path.join(ROOT, 'account-api')),
+      'account-api/ was reverted (commit 254901ae) and must not be reintroduced',
+    )
+  })
+
+  it('shared/public/sw.js is removed (unreferenced service worker)', () => {
+    assert.ok(
+      !fs.existsSync(path.join(ROOT, 'shared', 'public', 'sw.js')),
+      'shared/public/sw.js has no registrant and must remain removed',
+    )
+  })
+
+  it('no site ships a stale public/sw.js (orphaned per-site service worker)', () => {
+    // sites/*/public/sw.js existed as a pre-sync remnant; no source code
+    // registers it (the only reference, in sites/main/src/index.html, was
+    // removed in the same change). Per-site copies must not return.
+    const sitesWithSw = EXPECTED_SITES.filter(site =>
+      fs.existsSync(path.join(ROOT, 'sites', site, 'public', 'sw.js')),
+    )
+    assert.deepStrictEqual(sitesWithSw, [], `sites with orphaned sw.js: ${sitesWithSw.join(', ')}`)
   })
 })
 

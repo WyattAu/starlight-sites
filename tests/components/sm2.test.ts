@@ -299,14 +299,36 @@ describe('SM-2 Algorithm', () => {
   })
 
   describe('property-based tests', () => {
-    it('should never decrease easeFactor below MIN_EASE across 50 random reviews', () => {
-      let state = createDefaultState()
-      const now = Date.now()
+    // Deterministic, seedable PRNG (mulberry32) so any failure is
+    // reproducible from the printed seed. This is required for
+    // property-based testing to constitute evidence rather than noise.
+    //
+    // Ref: https://gist.github.com/tommyettinger/46a874533a276f5c7b8d0c7b5ffdbd32
+    function mulberry32(seed: number): () => number {
+      let a = seed >>> 0
+      return () => {
+        a = (a + 0x6d2b79f5) >>> 0
+        let t = a
+        t = Math.imul(t ^ (t >>> 15), t | 1)
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+      }
+    }
 
-      for (let i = 0; i < 50; i++) {
-        const rating = (Math.floor(Math.random() * 4) + 1) as Rating
-        state = applySM2(state, rating, now + i * 60000)
-        expect(state.easeFactor).toBeGreaterThanOrEqual(MIN_EASE)
+    // Fixed seeds make these tests fully deterministic. To explore a
+    // wider state space, append additional seeds.
+    const SEEDS = [0x12345678, 0x9e3779b9, 0xdeadbeef, 0xc0ffee, 0xcafebabe]
+
+    it('should never decrease easeFactor below MIN_EASE across 200 random reviews per seed', () => {
+      for (const seed of SEEDS) {
+        const rand = mulberry32(seed)
+        let state = createDefaultState()
+        const now = 1_000_000
+        for (let i = 0; i < 200; i++) {
+          const rating = (Math.floor(rand() * 4) + 1) as Rating
+          state = applySM2(state, rating, now + i * 60000)
+          expect(state.easeFactor).toBeGreaterThanOrEqual(MIN_EASE)
+        }
       }
     })
 
@@ -330,6 +352,91 @@ describe('SM-2 Algorithm', () => {
         state = applySM2(state, rating, now + i * 60000)
         expect(state.interval).toBeGreaterThanOrEqual(1)
       }
+    })
+
+    it('INV-SM2-001..005: all documented invariants hold for every generated state', () => {
+      for (const seed of SEEDS) {
+        const rand = mulberry32(seed)
+        let state = createDefaultState()
+        const baseNow = 1_700_000_000_000
+        for (let i = 0; i < 300; i++) {
+          const rating = (Math.floor(rand() * 4) + 1) as Rating
+          // Strictly increasing timestamps satisfy PRE-SM2-002 and keep
+          // POST-SM2-003 well-defined.
+          const now = baseNow + i * 60_000
+          state = applySM2(state, rating, now)
+          // INV-SM2-001
+          expect(state.easeFactor).toBeGreaterThanOrEqual(MIN_EASE)
+          // INV-SM2-002
+          expect(state.interval).toBeGreaterThanOrEqual(0)
+          // INV-SM2-003
+          expect(state.repetitions).toBeGreaterThanOrEqual(0)
+          // INV-SM2-004
+          expect(state.nextReview).toBeGreaterThanOrEqual(state.lastReview)
+          // INV-SM2-005: lastReview must equal the supplied now.
+          expect(state.lastReview).toBe(now)
+        }
+      }
+    })
+
+    it('POST-SM2-005: applySM2 never mutates the input state', () => {
+      for (const seed of SEEDS) {
+        const rand = mulberry32(seed)
+        let state = createDefaultState()
+        const baseNow = 1_800_000_000_000
+        for (let i = 0; i < 100; i++) {
+          const rating = (Math.floor(rand() * 4) + 1) as Rating
+          const now = baseNow + i * 60_000
+          const snapshot = { ...state }
+          const result = applySM2(state, rating, now)
+          // Immutability: input reference must be unchanged.
+          expect(state).toEqual(snapshot)
+          // Returned state must differ from input (lastReview updates).
+          expect(result).not.toBe(state)
+          state = result
+        }
+      }
+    })
+
+    it('POST-SM2-003: nextReview == now + interval * 60 * 1000 for every output', () => {
+      for (const seed of SEEDS) {
+        const rand = mulberry32(seed)
+        let state = createDefaultState()
+        const baseNow = 1_900_000_000_000
+        for (let i = 0; i < 200; i++) {
+          const rating = (Math.floor(rand() * 4) + 1) as Rating
+          const now = baseNow + i * 60_000
+          state = applySM2(state, rating, now)
+          expect(state.nextReview).toBe(now + state.interval * 60 * 1000)
+        }
+      }
+    })
+
+    it('validateState accepts every output of applySM2', () => {
+      for (const seed of SEEDS) {
+        const rand = mulberry32(seed)
+        let state = createDefaultState()
+        const baseNow = 2_000_000_000_000
+        for (let i = 0; i < 200; i++) {
+          const rating = (Math.floor(rand() * 4) + 1) as Rating
+          state = applySM2(state, rating, baseNow + i * 60_000)
+          expect(() => validateState(state)).not.toThrow()
+        }
+      }
+    })
+
+    it('PRE-SM2-001: rejects out-of-range ratings', () => {
+      const state = createDefaultState()
+      // @ts-expect-error: deliberately invalid rating for precondition test
+      expect(() => applySM2(state, 0, Date.now())).toThrow()
+      // @ts-expect-error: deliberately invalid rating for precondition test
+      expect(() => applySM2(state, 5, Date.now())).toThrow()
+    })
+
+    it('PRE-SM2-002: rejects non-positive timestamps', () => {
+      const state = createDefaultState()
+      expect(() => applySM2(state, 3, 0)).toThrow()
+      expect(() => applySM2(state, 3, -1)).toThrow()
     })
   })
 
