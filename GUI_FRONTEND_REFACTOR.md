@@ -1,0 +1,521 @@
+# GUI & Frontend Refactor — Discussion, Decisions, and Roadmap
+
+Status: PROPOSED
+Date: 2026-06-20
+Author: Nexus (Principal Systems Architect)
+Scope: GUI / frontend layer of the `starlight-sites` monorepo (Astro + Starlight +
+SolidJS islands), evaluated against the 2026 JS / SolidJS / Astro ecosystem.
+
+This document (1) inventories the current frontend stack, (2) evaluates every
+candidate package from the provided ecosystem lists, (3) records an explicit
+ADOPT / CONSIDER / REJECT decision per item with rationale, and (4) proposes a
+phased migration roadmap. It is a sibling planning artifact to `ROADMAP.md`
+(Phase J) and overlaps cleanly with it where the landing-page migration is
+already noted.
+
+A review of the dependency tree was performed empirically (versions read from
+`node_modules`, usage grepped across `shared/`), so every claim below is
+verifiable rather than speculative.
+
+---
+
+## 1. Current state (verified June 2026)
+
+### 1.1 Toolchain versions (read from `node_modules`)
+
+| Layer | Package | Installed | Notes |
+|-------|---------|-----------|-------|
+| Meta-framework | astro | 5.18.2 | One major behind Astro 6 |
+| Docs framework | @astrojs/starlight | 0.32.6 | Per-site install |
+| Island runtime | solid-js | 1.9.13 | Fine-grained reactivity |
+| Headless UI | @kobalte/core | 0.13.11 | Already a dependency |
+| Styling | tailwindcss | 4.3.1 | Already on the v4 Rust engine |
+| Forms | @felte/core + @felte/validator-zod | 1.4.4 | Used in form islands |
+| Validation | zod | 4.4.3 | Latest major |
+| Animation | @formkit/auto-animate | 0.9.0 | List animation directive |
+| i18n | @solid-primitives/i18n | 2.2.1 | |
+| Toasts | solid-sonner | 0.3.1 | |
+| Icons | unplugin-icons + @iconify-json/lucide | 23 / 1.2 | |
+| SEO | astro-seo + @jdevalk/astro-seo-graph | 1.1 / 2.0 | |
+| Build compress | astro-compress | 2.4.1 | |
+| Lint/format | @biomejs/biome | 2.5.0 | Zero errors, zero warnings |
+| Unit tests | vitest + @vitest/coverage-v8 | 4.1.9 | 220 component tests |
+| E2E tests | @playwright/test | 1.61 | |
+| Package manager | bun | 1.3.x (lockfile v1) | |
+
+### 1.2 What is already good (do not disrupt)
+
+- **Stack choice is correct.** ADR-001 (Starlight over Docusaurus) and ADR-002
+  (SolidJS over React) are settled. The site is content-heavy with sparse
+  interactivity, so Astro islands + SolidJS is the optimal architecture. None
+  of Next/Nuxt/SvelteKit/SolidStart/Remix/TanStack Start are relevant.
+- **Tailwind v4 is already adopted** with a design-token system ("Spatial
+  Materialism + Amoebic UI") declared in `shared/styles/custom.css` and verified
+  in compiled CSS by the GUI traversal script. There is no styling migration to
+  do; Panda / Vanilla Extract / StyleX solve a problem we do not have.
+- **Bun is already the package manager and runtime.** No Denode/Node swap.
+- **Biome already replaces ESLint + Prettier.** No reason to reintroduce
+  ESLint or add a competing toolchain.
+
+### 1.3 What is genuinely wrong (the refactor targets)
+
+These are the concrete defects discovered in the source, not hypothetical gaps.
+
+1. **LocaleSwitcher.tsx hand-rolls a dropdown** (191 lines): manual
+   `createSignal` for open state, manual `focusedIndex` roving tabindex,
+   hand-written click-outside (`document.addEventListener('mousedown')`),
+   hand-written Escape/Arrow handling, inline `<svg>` glyphs. Kobalte (a
+   dependency we already ship) provides `Select` with all of this correct by
+   default. This is the clearest DRY + accessibility win available.
+
+2. **PracticeProblem.tsx and DiagnosticTest.tsx hand-roll a radio group** with
+   bespoke `handleKeyDown` for ArrowUp/ArrowDown/Enter and manual
+   `aria-checked`. Kobalte `RadioGroup` already delivers the full WAI-ARAR
+   radiogroup pattern, focus management, and keyboard model. DiagnosticTest is
+   463 lines and PracticeProblem 202 lines; both carry duplicated keyboard code.
+
+3. **BaseDialog close affordance is a literal `x` text glyph** (`<span>x</span>`)
+   rather than an icon. We ship `unplugin-icons` + the full Lucide set, so a
+   proper `X`/`XCircle` icon is already available at zero new dependency cost.
+
+4. **Legacy Docusaurus CSS-variable shims** (`--ifm-*`) survive in
+   `shared/styles/custom.css` (13 references, the `:root` shim block at lines
+   137-154) and are consumed by three components: `PhetSimulation.tsx`,
+   `DesmosGraph.tsx`, and `flashcard/constants.ts`. The Docusaurus migration is
+   long complete (ADR-001, 2026-06-12); these shims are dead weight that
+   obscure the canonical `--sl-color-*` / `--wn-*` token system. Each consumer
+   uses only `--ifm-color-emphasis-300`, `--ifm-color-primary`, and
+   `--ifm-background-surface-color`, so the migration is a mechanical 1:1 rename
+   to the real tokens.
+
+5. **The landing page is a 763-line static `sites/main/src/index.html`** with
+   inline CSS that duplicates the design language by hand. It is the only
+   surface that does not pick up shared token changes automatically. This is
+   already recorded in `ROADMAP.md` Phase J and is the single largest frontend
+   debt item.
+
+6. **Astro is one major version behind (5.18.2 vs Astro 6).** Astro 6 ships
+   native `<ViewTransitions />`, the mature Content Layer API, a local `workerd`
+   runtime simulator for the Cloudflare adapter, and continued Rolldown
+   convergence. This is a real, not cosmetic, upgrade.
+
+7. **The cross-site search client** (`search-api/page-search.js`,
+   `cross-site-search.js`) uses raw `fetch()` with hand-rolled caching. For the
+   current read-only, static-page usage this is acceptable, but it leaves no
+   room for richer in-page search UX (debounce, stale-while-revalidate,
+   background refresh) without re-implementing that machinery.
+
+---
+
+## 2. Candidate evaluation
+
+Each candidate is tagged. Definitions:
+
+- **[ADOPT]** — clear value, fits the architecture, low risk. Schedule it.
+- **[CONSIDER]** — real value but conditional on a need that does not yet
+  exist, or a trade-off requiring a deliberate decision. Defer until the
+  trigger condition appears.
+- **[REJECT]** — does not fit, redundant with an installed dependency, or
+  solves a problem we do not have. Document the rationale and move on.
+
+### 2.1 Runtimes & package managers
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Bun | **[ADOPT] (keep)** | Already in use; lockfile v1 pinned to Bun 1.3.x in every workflow. |
+| Node.js | **[ADOPT] (keep)** | Required for `node --test` legacy/integration suites; coexists with Bun. |
+| pnpm | **[REJECT]** | Workspace already on Bun; switching package managers churns the lockfile and every CI workflow for no benefit. |
+| Deno | **[REJECT]** | Bun already covers the "fast all-in-one" niche; Deno adds a permissions model irrelevant to a static build. |
+| ni | **[CONSIDER]** | Marginal DX convenience only; the repo already standardises on `bun` scripts everywhere. Not worth a new dependency. |
+
+### 2.2 Build tools & bundlers
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Vite | **[ADOPT] (keep)** | Core of Astro; already in use. |
+| Rolldown | **[ADOPT] (track)** | Will arrive as Vite's default; no action until Astro 6 / Vite adopt it. Do not bolt on manually. |
+| Rspack / Rsbuild | **[REJECT]** | Drop-in Webpack replacement; we are not on Webpack. |
+| Esbuild | **[ADOPT] (indirect)** | Already a transitive Astro dependency for local transpilation. |
+| tsdown | **[REJECT]** | Library bundler; we ship an app, not a published package. |
+| Turbopack | **[REJECT]** | Tied to Next.js. |
+
+### 2.3 Meta-frameworks
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Astro | **[ADOPT] (upgrade 5 -> 6)** | See Section 3.1. The one genuine framework-level migration. |
+| Starlight | **[ADOPT] (keep, follow Astro 6)** | Already the chosen docs framework (ADR-001). |
+| Next.js / Nuxt / SvelteKit / SolidStart / Remix / TanStack Start | **[REJECT]** | All are fullstack React/Vue/Svelte frameworks. The site is static content + islands; replacing Astro would be a Level-5 (fundamental) error with no upside. |
+
+### 2.4 State management
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| SolidJS signals (`createSignal`/`createMemo`/`createStore`) | **[ADOPT] (keep)** | The existing pattern. Islands are small and self-contained. |
+| Zustand / Jotai / Valtio / solid-zustand / solid-jotai | **[REJECT]** | Each island's state is local. There is no cross-island shared client state to manage; introducing a store adds machinery for nothing. |
+| Solid Nanostores | **[CONSIDER]** | Only relevant if we later need state shared between two islands on the same page (e.g., a global theme not already handled by Starlight). Not needed today. |
+| XState | **[REJECT]** | DiagnosticTest's adaptive selection is a 4-step priority cascade, not a complex workflow. A state machine library is disproportionate. |
+| Mutative | **[REJECT]** | Solid's `produce`/`reconcile` already cover nested-store updates. |
+
+### 2.5 Data fetching & API clients
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| @tanstack/solid-query | **[CONSIDER]** | Real option for the search client: gives debounce-friendly `keepPreviousData`, stale-while-revalidate, and background refetch for free. Trigger condition: when the in-page search UX moves beyond a single fire-and-forget fetch. Track, do not adopt yet. |
+| tRPC | **[REJECT]** | The search API is a public Cloudflare Worker with a documented REST contract consumed by static pages. There is no colocated TS server+client to wire end-to-end. |
+| Apollo / urql | **[REJECT]** | No GraphQL anywhere. |
+| Axios | **[REJECT]** | Native `fetch` is sufficient and already in use. |
+
+### 2.6 Schema validation & type safety
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Zod | **[ADOPT] (keep)** | zod 4.4.3 already in use; Felte validator and Starlight user-content schemas depend on it. |
+| Valibot / ArkType / TypeBox | **[REJECT]** | Treeshake-size benefits matter for shipped libraries, not for build-time validation of a static site. Mixing two validators would be a regression. |
+
+### 2.7 Testing & quality
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Vitest | **[ADOPT] (keep)** | 220 component tests on Vitest 4.1.9. |
+| Playwright | **[ADOPT] (keep)** | E2E + GUI snapshot + contrast suite. |
+| @testing-library/solid | **[ADOPT] (keep)** | Official Solid testing helper. |
+| Biome | **[ADOPT] (keep)** | Replaces ESLint + Prettier; zero errors/warnings enforced. |
+| eslint-plugin-solid | **[REJECT]** | We are not on ESLint. Biome does not (yet) enforce Solid-specific reactivity rules, but the components are small and reviewable. |
+| Cypress | **[REJECT]** | Playwright covers Chromium/Firefox/WebKit; Cypress adds overlap. |
+
+### 2.8 Styling & UI foundation
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Tailwind CSS v4 | **[ADOPT] (keep)** | Already on v4.3.1 with the Rust engine; design tokens declared in `@theme`. |
+| Panda CSS / Vanilla Extract / StyleX | **[REJECT]** | Zero-runtime CSS-in-JS frameworks. Tailwind v4 already provides build-time CSS generation with the token system; switching would discard the verified design language for no gain. |
+
+### 2.9 SolidJS reactive primitives & utilities
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| @solid-primitives/* (i18n, state, etc.) | **[ADOPT] (keep, expand)** | i18n already used. Adopt additional primitives on demand (e.g., `@solid-primitives/media`, `@solid-primitives/keyboard`) where they replace hand-rolled logic. |
+| Solid Transition Group | **[CONSIDER]** | Useful if we want enter/exit transitions on dialogs/lists beyond what `auto-animate` provides. Trigger: richer dialog animation. |
+| Solid Motion (Motion One) | **[CONSIDER]** | Only if we add scripted animation (e.g., flashcard flip, progress lerp). Currently CSS transitions + tokens suffice. |
+
+### 2.10 Headless UI & components
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| @kobalte/core | **[ADOPT] (expand usage)** | The headline refactor. Already installed; used only by BaseDialog. Extend to `Select` (LocaleSwitcher), `RadioGroup` (PracticeProblem, DiagnosticTest), `Tooltip`, `Tabs`. This is the single highest-value change in this plan. |
+| Ark UI (Solid) / Zag.js | **[REJECT]** | Overlaps Kobalte. Picking both fragments the accessibility story. Kobalte is the Solid-native community standard. |
+| corvu | **[REJECT] (for now)** | High quality, but Kobalte covers every primitive we currently need. Reconsider only for a component Kobalte lacks. |
+| Suid (MUI port) / Hope UI / Solid UI (shadcn port) | **[REJECT]** | Styled component libraries impose a look. We have a bespoke design system; headless + Tailwind tokens is the correct layering. |
+| solid-sonner | **[ADOPT] (keep)** | Already used by ToastProvider. |
+| Felte / Modular Forms | **[ADOPT] (keep Felte)** | Felte already used with zod. No reason to introduce Modular Forms in parallel. |
+
+### 2.11 Tables, virtual lists, drag-and-drop
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| @tanstack/solid-table | **[CONSIDER]** | Only if a future feature needs a data table (e.g., a search-analytics table in the dashboard). Not currently required. |
+| @tanstack/solid-virtual / virtua | **[CONSIDER]** | Only if a list grows large enough to need windowing. No current list qualifies. |
+| @thisbeyond/solid-dnd | **[CONSIDER]** | Only if flashcard reordering becomes a feature. |
+| @neodrag/solid | **[REJECT]** | No draggable UI requirement. |
+
+### 2.12 Icons
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| unplugin-icons + @iconify-json/lucide | **[ADOPT] (use more)** | Already installed. The BaseDialog `x` text and the hand-written `<svg>` glyphs in LocaleSwitcher should become Lucide icons. Zero new dependency. |
+| solid-icons / solid-lucide | **[REJECT]** | Redundant with unplugin-icons, which treeshakes per-icon at build time. |
+
+### 2.13 Astro integrations
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| @astrojs/solid-js | **[ADOPT] (keep)** | Island integration. |
+| @astrojs/mdx, @astrojs/sitemap, @astrojs/rss | **[ADOPT] (keep/use)** | mdx + sitemap already used; adopt rss if a blog/feed is added. |
+| @astrojs/cloudflare / @astrojs/node | **[CONSIDER]** | Currently `output: 'static'` deployed to Cloudflare Pages. Adopt the Cloudflare adapter only if we move the search Worker logic or SSR into Astro. Otherwise pure static remains optimal. |
+| @astrojs/partytown | **[CONSIDER]** | Cloudflare Web Analytics is injected via `shared/config/analytics.mjs`. Partytown would move it off the main thread. Real, if modest, Lighthouse win. Low risk to trial on one site first. |
+| astro-check | **[ADOPT]** | Type-check `.astro` files in CI; cheap assurance. |
+| astro:assets (native) | **[ADOPT] (already)** | Replaces the long-deprecated @astrojs/image; already the path in Astro 5+. |
+| astro-icon | **[REJECT]** | Overlaps unplugin-icons; double icon pipeline is wasteful. |
+| astro-loader-* (Obsidian, Hygraph, Notion, Strapi, YouTube, etc.) | **[REJECT]** | All content is local Markdown under `sites/*/src/content`. No external CMS to source from. |
+| astro-seo + @jdevalk/astro-seo-graph | **[ADOPT] (keep)** | Already used. |
+| astro-compress | **[ADOPT] (keep)** | Already used. |
+| astro-embed | **[CONSIDER]** | If content starts embedding YouTube/Twitter frequently; currently DesmosGraph/PhetSimulation handle embeds directly. |
+
+### 2.14 Legacy / deprecated (action required, not adoption)
+
+These are not adoptions; they are removal targets already present or at risk.
+
+| Legacy item | Action |
+|-------------|--------|
+| `--ifm-*` Docusaurus CSS shims (`custom.css` + 3 component consumers) | **REMOVE.** Mechanical rename to `--sl-color-*` / `--wn-*`. See Roadmap Phase R1. |
+| `@astrojs/image` | Not present (already on `astro:assets`). No action. |
+| `@astrojs/db` (deprecated) | Not present. No action. |
+| Hand-rolled Solid Jest patterns | Not present; already on Vitest. No action. |
+
+### 2.15 Utilities
+
+| Candidate | Decision | Rationale |
+|-----------|----------|-----------|
+| Radash | **[CONSIDER]** | Only if we accumulate ad-hoc helpers. The codebase currently extracts its own small utils (`escape`, `format`, `colors`); a full lodash-replacement is premature. |
+| Lodash-es | **[REJECT]** | No current use of lodash utilities. |
+| date-fns / Day.js | **[CONSIDER]** | `formatTime` in `utils/format.ts` is a small ms->mm:ss formatter. Only adopt a date library if real date arithmetic (not just duration formatting) appears. |
+
+---
+
+## 3. Headline decisions (summary)
+
+After evaluation, exactly five items warrant scheduled work. Everything else is
+either already adopted, explicitly rejected, or deferred behind a trigger
+condition.
+
+| # | Decision | Layer | Rationale (one line) |
+|---|----------|-------|----------------------|
+| D1 | **Upgrade Astro 5.18.2 -> 6.x** | Framework | Native ViewTransitions, Content Layer, workerd sim, Rolldown convergence. |
+| D2 | **Expand Kobalte usage** | Islands | Replace hand-rolled dropdown/radio/keyboard code with the headless lib we already ship. |
+| D3 | **Remove `--ifm-*` Docusaurus shims** | Styling | Dead code from a completed migration; obscures the canonical token system. |
+| D4 | **Migrate the landing page to Astro** | App | Already ROADMAP Phase J; the 763-line inline-CSS page is the largest debt. |
+| D5 | **Use unplugin-icons/Lucide for the remaining hand-drawn glyphs** | Islands | Already installed; the `x`-text close button and inline SVGs are below standard. |
+
+Deferred behind a trigger (tracked, not scheduled):
+
+- `@tanstack/solid-query` — when in-page search UX becomes stateful.
+- `@astrojs/partytown` — if main-thread analytics cost shows in Lighthouse.
+- `@tanstack/solid-table` / `solid-virtual` — when a real data-table/list lands.
+- `solid-transition-group` / `solid-motion` — when scripted animation is needed.
+
+---
+
+## 4. Migration roadmap
+
+The roadmap is sequenced so each phase is independently shippable and each
+ships behind the existing quality gate (Biome + Vitest + node --test + GUI
+traversal + Playwright). Phases are ordered by (risk inverse) then (dependency):
+
+- R0 (precondition) — establish the safety net so every later change is gated.
+- R1 — low-risk, mechanical, high-clarity win (`--ifm-*` removal). Builds
+  confidence in the gate before the riskier changes.
+- R2 — DRY refactor of islands onto Kobalte. No dependency added.
+- R3 — icon hygiene. No dependency added.
+- R4 — Astro 6 upgrade. Framework-level; depends on R1-R3 being clean.
+- R5 — landing-page Astro migration (depends on R4 for native primitives).
+- R6 — adopt the deferred candidates opportunistically.
+
+Each phase lists entry criteria, scope, exit criteria, risk level, and a
+verification command set. Risk levels map to the error taxonomy: a Phase 4
+(structural) risk requires rollback to a git checkpoint and a post-mortem.
+
+### Phase R0 — Safety net and baselines (precondition)
+
+Entry criteria: current `main` green.
+
+Scope:
+- Tag `pre-gui-refactor` checkpoint (`git tag`).
+- Capture fresh GUI snapshot baselines for all nine sites
+  (`bun run test:gui --all`) and commit; this is the visual regression anchor.
+- Confirm `bun run verify` passes from clean.
+- Add a Vitest component test per Kobalte-replacement target that asserts the
+  WAI-ARIA contract (role, aria-checked/expanded, roving tabindex) so R2 has a
+  red-green loop to satisfy.
+
+Exit criteria: checkpoint tagged; baselines committed; new skeleton tests fail
+red as expected.
+
+Risk: Level 1 (no production change).
+
+### Phase R1 — Remove `--ifm-*` Docusaurus CSS shims (D3)
+
+Entry criteria: R0 complete.
+
+Scope:
+- For each of the three consumers (`PhetSimulation.tsx`, `DesmosGraph.tsx`,
+  `flashcard/constants.ts`) replace `var(--ifm-color-emphasis-300)` ->
+  `var(--sl-color-gray-5)`, `var(--ifm-color-primary)` -> `var(--sl-color-accent)`,
+  `var(--ifm-background-surface-color)` -> `var(--sl-color-gray-2)`. Verify each
+  mapping against the shim table at `custom.css` lines 137-154.
+- Prefer Tailwind utility classes (`border-emphasis-300`, `bg-surface`,
+  `text-accent`) where the surrounding code is already class-based, matching the
+  pattern in `PracticeProblem.tsx`.
+- Delete the `--ifm-*` `:root` and `[data-theme="dark"]` shim blocks from
+  `custom.css`.
+- Add a regression test (`tests/unit/no-ifm-shims.test.js`) that greps
+  `shared/` for `ifm-` and fails on any hit, preventing reintroduction. Mirror
+  the existing dead-code regression tests (e.g., the `sw.js` guard).
+
+Exit criteria: zero `ifm-` references under `shared/`; regression test green;
+GUI traversal still passes the design-token check on all sites.
+
+Risk: Level 2 (semantic, localised). Verification: `bun run verify &&
+bun run test:gui --all`.
+
+### Phase R2 — Refactor islands onto Kobalte (D2)
+
+Entry criteria: R1 merged; R0 skeleton tests in place (red).
+
+Scope (one component per atomic commit, each behind its own red-green loop):
+
+- **R2a — LocaleSwitcher -> Kobalte `Select`.** Replace the hand-rolled
+  open/focus/click-outside/keyboard logic with `@kobalte/core` `Select`
+  (already installed). Keep the Tailwind classes; Kobalte is unstyled. Remove
+  the inline `<svg>` globe/chevron (deferred to R3 for the icon swap, or do it
+  inline here). Net: ~191 lines -> ~60 lines and a correct WAI-ARIA listbox.
+- **R2b — PracticeProblem -> Kobalte `RadioGroup`.** Replace the bespoke
+  `handleKeyDown` + manual `aria-checked` with `RadioGroup`/`RadioGroupItem`.
+  Preserve the `optionClass` colour logic for correct/incorrect feedback
+  (Kobalte renders; the submitted-state styling stays class-driven).
+- **R2c — DiagnosticTest -> Kobalte `RadioGroup`.** Same transformation as R2b,
+  applied to the adaptive assessment. This is the largest file (463 lines) and
+  the highest-payoff target.
+- **R2d (optional) — audit BaseDialog** for Kobalte `Tooltip`/`Dialog` upgrades;
+  BaseDialog already uses Kobalte `Dialog`, so this is polish only.
+
+Each sub-step: write/extend the Vitest test to assert the Kobalte ARIA output,
+watch it pass against the new component, run `bun run test:gui` to confirm the
+visual baseline holds.
+
+Exit criteria: all three components render through Kobalte; their R0 skeleton
+tests pass green; GUI snapshot diff is zero or explained; axe-core contrast/
+aria checks pass on all sites.
+
+Risk: Level 3 (interface) per component, contained by the per-file red-green
+loop. Rollback per commit.
+
+### Phase R3 — Icon hygiene with Lucide via unplugin-icons (D5)
+
+Entry criteria: R2 complete.
+
+Scope:
+- Replace the BaseDialog literal `x` close affordance with a Lucide `X` icon
+  via the already-installed `unplugin-icons` (configured for `@iconify-json/lucide`).
+- Replace the hand-written `<svg>` globe and chevron in LocaleSwitcher (post-R2a)
+  with Lucide `Globe` and `ChevronDown`.
+- Add a regression test that asserts no literal single-glyph `x`/`>` close
+  buttons remain in `shared/components` (mirrors the no-emoji linter pattern).
+
+Exit criteria: icons render; `bun run lint:no-emoji` clean (Lucide glyphs are
+SVG paths, not Unicode pictographs, so they do not trip the policy); GUI
+snapshot diff explained.
+
+Risk: Level 1.
+
+### Phase R4 — Astro 5.18.2 -> 6.x upgrade (D1)
+
+Entry criteria: R1-R3 merged; `main` green; checkpoint tagged `pre-astro-6`.
+
+Scope:
+- Read the Astro 5 -> 6 upgrade guide for breaking changes (Content Layer API
+  is the main surface; Starlight 0.32+ targets Astro 6).
+- Bump `astro`, `@astrojs/starlight`, `@astrojs/mdx`, `@astrojs/sitemap`,
+  `@astrojs/solid-js` across the root `devDependencies` and every
+  `sites/*/package.json` in one atomic dependency update (`bun update` scoped,
+  then `bun install` to regenerate `bun.lock` at the same lockfile version).
+- Update the custom `lazy-images` and `mermaid-no-rocket-loader` integrations in
+  `shared/integrations/` if their hooks changed signature.
+- If Astro 6 stabilises `<ViewTransitions />` for the routes we use, adopt it
+  for page-to-page navigation on the content sites (optional; behind a feature
+  check so it can be disabled per site).
+- Run `astro-check` in CI as a new gate step.
+
+Exit criteria: all nine sites build clean on Astro 6; `bun run verify` green;
+`astro-check` clean; Lighthouse non-regression on the landing + one content
+page per site; `bun.lock` lockfile version unchanged or explicitly bumped with
+an ADR.
+
+Risk: Level 4 (structural). This is the one phase that can move a lot at once.
+Mitigations: do it on a long-lived branch with the full CI matrix; gate merge
+on a clean nine-site build + GUI snapshot; keep `pre-astro-6` tag for rollback.
+Post-mortem required if any site fails to build after merge.
+
+### Phase R5 — Landing page -> Astro (D4, was ROADMAP Phase J)
+
+Entry criteria: R4 complete (so the landing page can use Astro 6 native
+primitives and the shared token system cleanly).
+
+Scope:
+- Port `sites/main/src/index.html` (763 lines, inline CSS) to an Astro page +
+  layout that imports `shared/styles/custom.css` so it inherits the
+  Spatial-Materialism / Amoebic-UI tokens automatically.
+- Extract the inline card markup into Astro components under
+  `sites/main/src/components/`, reusing the `.landing-card` CSS already in
+  `custom.css`.
+- Wire the cross-site search client (`search-api/cross-site-search.js`) via a
+  script tag, identical to the content sites.
+- Remove the per-landing-page Biome override that currently suppresses the
+  `noDescendingSpecificity` finding (it exists only because of the inline CSS).
+- Add the landing page to the GUI traversal suite so it is covered by the same
+  design-token + pictograph regression as the nine content sites.
+
+Exit criteria: landing page renders through Astro; shares tokens with the other
+sites; Lighthouse >= 95; biome override removed; landing added to GUI suite.
+
+Risk: Level 3 (interface). The page is high-visibility but self-contained.
+
+### Phase R6 — Deferred candidates (trigger-gated)
+
+Each item below is adopted only when its trigger fires; none is scheduled.
+
+| Candidate | Trigger | First action when triggered |
+|-----------|---------|------------------------------|
+| `@tanstack/solid-query` | In-page search becomes stateful (debounce, background refresh, stale-while-revalidate) | Wrap the search client; add `QueryClientProvider`; add Vitest for cache behaviour. |
+| `@astrojs/partytown` | Lighthouse shows main-thread cost from Cloudflare Web Analytics | Trial on one site; measure; roll out if positive. |
+| `@tanstack/solid-table` | A data table feature lands (e.g., analytics dashboard table) | Adopt headless table; style with tokens. |
+| `@tanstack/solid-virtual` / `virtua` | Any list exceeds ~200 rendered rows | Adopt windowing. |
+| `solid-transition-group` | Dialog/list enter-exit animation is requested | Replace CSS-only transitions. |
+| `solid-motion` | Scripted animation (flashcard flip, progress lerp) is requested | Adopt Motion One binding. |
+| `@astrojs/rss` | A blog or news feed is added | Add the integration. |
+
+---
+
+## 5. Sequencing diagram
+
+```
+R0 (gate + baselines + skeleton tests)
+ |
+ v
+R1 (--ifm-* removal)  ---- mechanical, low risk, proves the gate
+ |
+ v
+R2a LocaleSwitcher -> Kobalte Select
+R2b PracticeProblem -> Kobalte RadioGroup
+R2c DiagnosticTest -> Kobalte RadioGroup   (each atomic, red-green)
+ |
+ v
+R3 (Lucide icons via unplugin-icons)
+ |
+ v
+R4 (Astro 5 -> 6)  ---- structural; tag pre-astro-6; nine-site CI matrix
+ |
+ v
+R5 (landing page -> Astro)  ---- was ROADMAP Phase J
+ |
+ v
+R6 (deferred, trigger-gated)
+```
+
+## 6. Risk and rollback posture
+
+- Every phase commits to `main` only after `bun run verify` + the relevant GUI /
+  e2e suite is green.
+- Git tags (`pre-gui-refactor`, `pre-astro-6`) mark rollback checkpoints for the
+  two highest-risk phases (R4 structural; the overall effort start).
+- R2 is broken into per-component commits so a partial revert is possible.
+- R4 is the only Level-4 (structural) risk. It runs on a branch with the full
+  nine-site build matrix; merge is gated on a clean build + GUI snapshot + an
+  ADR recording the Astro 6 lockfile decision.
+- No new runtime dependency is added in R1-R5. Kobalte, unplugin-icons, and
+  Lucide are already installed; Astro 6 is a version bump of an existing
+  dependency. This keeps the supply-chain surface flat for the entire refactor.
+
+## 7. Success metrics
+
+| Metric | Current | Target after refactor |
+|--------|---------|------------------------|
+| Hand-rolled ARIA/keyboard code in islands | LocaleSwitcher + 2 radio groups | 0 (all via Kobalte) |
+| `--ifm-*` references under `shared/` | 13 (css) + 3 component files | 0 |
+| Literal-glyph close buttons | 1 (BaseDialog `x`) | 0 |
+| Landing page inline CSS lines | 763 | 0 (tokens inherited) |
+| Astro major version | 5 | 6 |
+| New runtime dependencies added | -- | 0 in R1-R5 |
+| GUI snapshot baseline drift | existing | explained-only or zero |
+| Test count | 439 | >= 460 (R0 + R2 ARIA tests) |
+| Lighthouse (landing + sample) | current | non-regression, target >= 95 |
