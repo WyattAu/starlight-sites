@@ -133,26 +133,6 @@
   --wn-elevation-4: 0 24px 48px rgba(0, 0, 0, 0.65), 0 8px 16px rgba(0, 0, 0, 0.45);
 }
 
-/* === Docusaurus→Starlight CSS variable shims for interactive components === */
-:root {
-  --ifm-color-primary: var(--sl-color-accent);
-  --ifm-color-primary-soft: var(--sl-color-accent-low);
-  --ifm-color-emphasis-100: var(--sl-color-gray-3);
-  --ifm-color-emphasis-200: var(--sl-color-gray-4);
-  --ifm-color-emphasis-300: var(--sl-color-gray-5);
-  --ifm-color-emphasis-500: var(--sl-color-gray-5);
-  --ifm-color-emphasis-600: var(--sl-color-gray-4);
-  --ifm-color-emphasis-700: var(--sl-color-gray-3);
-  --ifm-background-surface-color: var(--sl-color-gray-2);
-  --ifm-font-color-base: var(--sl-color-text);
-  --ifm-font-family-base: var(--wn-font-body);
-}
-
-[data-theme="dark"] {
-  --ifm-background-surface-color: var(--sl-color-gray-7);
-  --ifm-font-color-base: var(--sl-color-white);
-}
-
 /* === Typography === */
 body {
   font-family: var(--wn-font-body);

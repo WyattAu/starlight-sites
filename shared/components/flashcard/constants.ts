@@ -15,7 +15,7 @@ export const MASTERY_LABELS: Record<string, string> = {
 }
 
 export const MASTERY_COLORS: Record<string, string> = {
-  new: 'var(--ifm-color-emphasis-300)',
+  new: 'var(--sl-color-gray-5)',
   learning: COLORS.warning,
   review: COLORS.info,
   mastered: COLORS.success,

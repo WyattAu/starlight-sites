@@ -4,7 +4,7 @@ const embedContainer: JSX.CSSProperties = {
   width: '100%',
   margin: '1.5rem 0',
   overflow: 'hidden',
-  border: '2px solid var(--ifm-color-emphasis-300)',
+  border: '2px solid var(--sl-color-gray-5)',
 }
 
 const embedTitle: JSX.CSSProperties = {
@@ -13,10 +13,10 @@ const embedTitle: JSX.CSSProperties = {
   fontWeight: 600,
   letterSpacing: '0.1em',
   textTransform: 'uppercase',
-  color: 'var(--ifm-color-primary)',
+  color: 'var(--sl-color-accent)',
   padding: '0.5rem 0.75rem',
-  borderBottom: '2px solid var(--ifm-color-emphasis-300)',
-  backgroundColor: 'var(--ifm-background-surface-color)',
+  borderBottom: '2px solid var(--sl-color-gray-5)',
+  backgroundColor: 'var(--sl-color-gray-2)',
   margin: 0,
 }
 
