@@ -3,6 +3,19 @@ import { describe, expect, it, vi } from 'vitest'
 import LocaleSwitcher from '../../shared/components/LocaleSwitcher'
 
 /**
+ * Simulate a real user press. Kobalte's trigger (via @solid-aria) opens on the
+ * pointerdown of a press, not on the synthetic `click` event alone. A real
+ * browser delivers pointerdown -> pointerup -> click for a click; we mirror
+ * that so the headless primitive behaves in jsdom exactly as it does in a
+ * browser. The Playwright GUI suite remains the cross-browser behavioural gate.
+ */
+async function press(el: Element) {
+  await fireEvent.pointerDown(el, { button: 0, pointerType: 'mouse' })
+  await fireEvent.pointerUp(el, { button: 0, pointerType: 'mouse' })
+  await fireEvent.click(el)
+}
+
+/**
  * LocaleSwitcher ARIA-contract tests.
  *
  * These assertions are intentionally implementation-agnostic: they encode the
@@ -33,7 +46,7 @@ describe('LocaleSwitcher Component', () => {
     const button = screen.getByRole('button', { name: 'Select language' })
     // Closed initially: no listbox in the accessibility tree.
     expect(screen.queryByRole('listbox')).toBeNull()
-    await fireEvent.click(button)
+    await press(button)
     // Opened: a listbox with at least one option is exposed.
     expect(button.getAttribute('aria-expanded')).toBe('true')
     const listbox = await waitFor(() => screen.getByRole('listbox'))
@@ -44,7 +57,7 @@ describe('LocaleSwitcher Component', () => {
 
   it('marks the current locale option as selected', async () => {
     render(() => <LocaleSwitcher currentLocale="en" />)
-    await fireEvent.click(screen.getByRole('button', { name: 'Select language' }))
+    await press(screen.getByRole('button', { name: 'Select language' }))
     const options = screen.getAllByRole('option')
     const english = options.find(o => o.textContent?.includes('English'))
     expect(english).toBeTruthy()
@@ -54,7 +67,7 @@ describe('LocaleSwitcher Component', () => {
   it('fires onLocaleChange when a different locale option is chosen', async () => {
     const mockOnChange = vi.fn()
     render(() => <LocaleSwitcher currentLocale="en" onLocaleChange={mockOnChange} />)
-    await fireEvent.click(screen.getByRole('button', { name: 'Select language' }))
+    await press(screen.getByRole('button', { name: 'Select language' }))
     const options = screen.getAllByRole('option')
     const chinese = options.find(o => o.textContent?.includes('Chinese'))
     expect(chinese).toBeTruthy()

@@ -1,11 +1,16 @@
 /**
  * LocaleSwitcher -- Language switching component.
  *
- * Displays a dropdown or button group for switching between enabled locales.
- * Uses the i18n config to determine available locales.
+ * Displays a dropdown for switching between enabled locales, using the i18n
+ * config to determine available locales. Built on Kobalte's Select primitive
+ * (already a project dependency) so the full WAI-ARIA listbox pattern --
+ * roving tabindex, typeahead, aria-expanded, aria-selected, Escape/click-
+ * outside dismissal -- is correct by default instead of hand-rolled.
+ *
+ * Kobalte is unstyled; the Tailwind classes below preserve the prior look.
  */
 
-import { createEffect, createSignal, For, onCleanup, Show } from 'solid-js'
+import { Select } from '@kobalte/core'
 import { type Locale, locales } from '../i18n/config'
 
 export interface LocaleSwitcherProps {
@@ -14,110 +19,51 @@ export interface LocaleSwitcherProps {
 }
 
 export default function LocaleSwitcher(props: LocaleSwitcherProps) {
-  const [isOpen, setIsOpen] = createSignal(false)
-  const [focusedIndex, setFocusedIndex] = createSignal(-1)
   const enabledLocales = () => locales.filter(l => l.enabled)
   const currentLocale = () =>
     enabledLocales().find(l => l.code === (props.currentLocale ?? 'en')) ?? enabledLocales()[0]
 
-  let containerRef: HTMLDivElement | undefined
-  let triggerRef: HTMLButtonElement | undefined
-  const optionRefs: HTMLButtonElement[] = []
-
-  function handleSelect(locale: Locale) {
-    props.onLocaleChange?.(locale.code)
-    setIsOpen(false)
-    setFocusedIndex(-1)
-    triggerRef?.focus()
-  }
-
-  // Keyboard navigation: Escape, ArrowUp, ArrowDown, Enter
-  function handleKeyDown(e: KeyboardEvent) {
-    if (!isOpen()) {
-      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-        e.preventDefault()
-        setIsOpen(true)
-        setFocusedIndex(0)
-      }
-      return
-    }
-
-    const count = enabledLocales().length
-
-    switch (e.key) {
-      case 'Escape':
-        e.preventDefault()
-        setIsOpen(false)
-        setFocusedIndex(-1)
-        triggerRef?.focus()
-        break
-      case 'ArrowDown':
-        e.preventDefault()
-        setFocusedIndex(prev => (prev + 1) % count)
-        break
-      case 'ArrowUp':
-        e.preventDefault()
-        setFocusedIndex(prev => (prev - 1 + count) % count)
-        break
-      case 'Enter':
-      case ' ':
-        e.preventDefault()
-        if (focusedIndex() >= 0) {
-          handleSelect(enabledLocales()[focusedIndex()])
-        }
-        break
-      case 'Tab':
-        setIsOpen(false)
-        setFocusedIndex(-1)
-        break
-      default:
-        break
-    }
-  }
-
-  // Focus the option when focusedIndex changes
-  createEffect(() => {
-    const idx = focusedIndex()
-    if (idx >= 0 && optionRefs[idx]) {
-      optionRefs[idx]?.focus()
-    }
-  })
-
-  // Click outside closes dropdown
-  createEffect(() => {
-    if (!isOpen()) return
-    const handleClickOutside = (e: MouseEvent) => {
-      if (containerRef && !containerRef.contains(e.target as Node)) {
-        setIsOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    onCleanup(() => document.removeEventListener('mousedown', handleClickOutside))
-  })
-
-  // Don't render if only one locale is enabled
+  // The switcher is a no-op until a second locale exists.
   if (enabledLocales().length <= 1) return null
 
   return (
-    <div
-      class="relative"
-      ref={el => {
-        containerRef = el
+    <Select.Root<Locale>
+      options={enabledLocales()}
+      optionValue="code"
+      optionTextValue="nativeName"
+      value={currentLocale()}
+      disallowEmptySelection
+      onChange={locale => {
+        if (locale) props.onLocaleChange?.(locale.code)
       }}
-      onKeyDown={handleKeyDown}
-      role="region"
-      aria-label="Language selection"
+      itemComponent={itemProps => (
+        <Select.Item<Locale>
+          item={itemProps.item}
+          class="flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-emphasis-100 data-[highlighted]:bg-emphasis-100"
+        >
+          <Select.ItemLabel class="font-medium">
+            {itemProps.item.rawValue.nativeName}
+          </Select.ItemLabel>
+          <span class="text-emphasis-500 text-xs">{itemProps.item.rawValue.name}</span>
+          <Select.ItemIndicator class="ml-auto text-accent">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              aria-hidden="true"
+            >
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+          </Select.ItemIndicator>
+        </Select.Item>
+      )}
     >
-      <button
-        type="button"
-        ref={el => {
-          triggerRef = el
-        }}
-        onClick={() => setIsOpen(!isOpen())}
-        class="flex items-center gap-1.5 rounded-lg border border-emphasis-300 bg-surface px-3 py-1.5 font-medium text-emphasis-700 text-sm transition-colors hover:bg-emphasis-100"
+      <Select.Trigger<Locale>
         aria-label="Select language"
-        aria-expanded={isOpen()}
-        aria-haspopup="listbox"
+        class="group flex items-center gap-1.5 rounded-lg border border-emphasis-300 bg-surface px-3 py-1.5 font-medium text-emphasis-700 text-sm transition-colors hover:bg-emphasis-100"
       >
         <svg
           width="16"
@@ -126,10 +72,11 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
           fill="none"
           stroke="currentColor"
           stroke-width="2"
+          aria-hidden="true"
         >
-          <circle cx="12" cy="12" r="10"></circle>
-          <line x1="2" y1="12" x2="22" y2="12"></line>
-          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
         </svg>
         <span>{currentLocale().nativeName}</span>
         <svg
@@ -139,53 +86,17 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
           fill="none"
           stroke="currentColor"
           stroke-width="2"
-          class={`transition-transform ${isOpen() ? 'rotate-180' : ''}`}
+          aria-hidden="true"
+          class="transition-transform group-data-[expanded]:rotate-180"
         >
-          <polyline points="6 9 12 15 18 9"></polyline>
+          <polyline points="6 9 12 15 18 9" />
         </svg>
-      </button>
-
-      <Show when={isOpen()}>
-        <div
-          class="absolute right-0 z-50 mt-1 min-w-[120px] rounded-lg border border-emphasis-300 bg-surface py-1 shadow-lg"
-          role="listbox"
-          aria-label="Available languages"
-        >
-          <For each={enabledLocales()}>
-            {(locale, i) => (
-              <button
-                type="button"
-                ref={el => {
-                  optionRefs[i()] = el
-                }}
-                role="option"
-                aria-selected={locale.code === currentLocale().code}
-                tabIndex={focusedIndex() === i() ? 0 : -1}
-                onClick={() => handleSelect(locale)}
-                onKeyDown={e => {
-                  if (e.key === 'ArrowDown') {
-                    e.preventDefault()
-                    setFocusedIndex(prev => (prev + 1) % enabledLocales().length)
-                  } else if (e.key === 'ArrowUp') {
-                    e.preventDefault()
-                    setFocusedIndex(
-                      prev => (prev - 1 + enabledLocales().length) % enabledLocales().length,
-                    )
-                  }
-                }}
-                class={`flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-emphasis-100 ${
-                  locale.code === currentLocale().code
-                    ? 'bg-accent/10 text-accent'
-                    : 'text-emphasis-700'
-                }`}
-              >
-                <span class="font-medium">{locale.nativeName}</span>
-                <span class="text-emphasis-500 text-xs">{locale.name}</span>
-              </button>
-            )}
-          </For>
-        </div>
-      </Show>
-    </div>
+      </Select.Trigger>
+      <Select.Portal>
+        <Select.Content class="z-50 min-w-[160px] rounded-lg border border-emphasis-300 bg-surface py-1 shadow-lg">
+          <Select.Listbox />
+        </Select.Content>
+      </Select.Portal>
+    </Select.Root>
   )
 }
