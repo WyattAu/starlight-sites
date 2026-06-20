@@ -2,6 +2,7 @@ import { fireEvent, render, screen } from '@solidjs/testing-library'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { DiagnosticQuestion } from '../../shared/components/DiagnosticTest'
 import DiagnosticTest from '../../shared/components/DiagnosticTest'
+import { press } from './lib/press'
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
@@ -88,8 +89,9 @@ describe('DiagnosticTest Component', () => {
     ))
     const radios = screen.getAllByRole('radio')
     expect(radios.length).toBeGreaterThanOrEqual(4)
-    await fireEvent.click(radios[0])
-    expect(radios[0].getAttribute('aria-checked')).toBe('true')
+    // Kobalte radios are native inputs; selection is the `checked` property.
+    await press(radios[0])
+    expect((radios[0] as HTMLInputElement).checked).toBe(true)
   })
 
   it('should enable Submit after selecting option', async () => {
@@ -97,7 +99,7 @@ describe('DiagnosticTest Component', () => {
       <DiagnosticTest subject="Math" questions={mockQuestions} onComplete={mockOnComplete} />
     ))
     const radios = screen.getAllByRole('radio')
-    await fireEvent.click(radios[0])
+    await press(radios[0])
     const submitBtn = screen.getByText('Submit')
     expect(submitBtn.hasAttribute('disabled')).toBe(false)
   })
@@ -112,7 +114,7 @@ describe('DiagnosticTest Component', () => {
       />
     ))
     const radios = screen.getAllByRole('radio')
-    await fireEvent.click(radios[1])
+    await press(radios[1])
     await fireEvent.click(screen.getByText('Submit'))
     await fireEvent.click(screen.getByText('View Results'))
     expect(mockOnComplete).toHaveBeenCalled()

@@ -5,6 +5,7 @@
  * targeting weak topics and appropriate difficulty levels.
  */
 
+import { RadioGroup } from '@kobalte/core'
 import { createEffect, createMemo, createSignal, For, onCleanup, Show } from 'solid-js'
 import { t } from '../i18n/config'
 import { COLORS } from '../utils/colors'
@@ -204,18 +205,14 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
     if (!getSubmitted()) setSelected(index)
   }
 
+  // Kobalte RadioGroup uses string values; selected is the option index.
+  const selectedValue = () => (getSelected() !== null ? String(getSelected()) : undefined)
+
+  // Arrow-key navigation and roving tabindex are provided by Kobalte; only the
+  // Enter-to-submit convenience is kept (not part of the radiogroup pattern).
   const handleRadioKeyDown = (e: KeyboardEvent) => {
     if (getSubmitted()) return
-    const q = currentQuestion()
-    if (!q) return
-    const options = q.options
-    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-      e.preventDefault()
-      setSelected(prev => (prev === null ? 0 : Math.min(prev + 1, options.length - 1)))
-    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-      e.preventDefault()
-      setSelected(prev => (prev === null ? options.length - 1 : Math.max(prev - 1, 0)))
-    } else if (e.key === 'Enter' && getSelected() !== null) {
+    if (e.key === 'Enter' && getSelected() !== null) {
       e.preventDefault()
       handleSubmit()
     }
@@ -395,40 +392,40 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
 
       <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
 
-      <div
+      <RadioGroup.Root
+        value={selectedValue()}
+        onChange={value => handleSelect(Number(value))}
+        orientation="vertical"
         class="mb-5 flex flex-col gap-2"
-        role="radiogroup"
         aria-label="Answer options"
         onKeyDown={handleRadioKeyDown}
       >
         <For each={q.options}>
           {(opt, i) => (
-            <button
-              type="button"
-              class={`flex cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 text-left text-base transition-all ${
-                getSubmitted()
-                  ? i() === q.correctIndex
-                    ? 'border-success bg-success/10'
+            <RadioGroup.Item value={String(i())} disabled={getSubmitted()}>
+              <RadioGroup.ItemControl
+                class={`flex cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 text-left text-base transition-all ${
+                  getSubmitted()
+                    ? i() === q.correctIndex
+                      ? 'border-success bg-success/10'
+                      : getSelected() === i()
+                        ? 'border-error bg-error/10'
+                        : 'border-emphasis-200 bg-transparent'
                     : getSelected() === i()
-                      ? 'border-error bg-error/10'
-                      : 'border-emphasis-200 bg-transparent'
-                  : getSelected() === i()
-                    ? 'border-accent bg-accent/5'
-                    : 'border-emphasis-300 bg-transparent hover:border-accent'
-              }`}
-              onClick={() => handleSelect(i())}
-              disabled={getSubmitted()}
-              role="radio"
-              aria-checked={getSelected() === i()}
-            >
-              <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-emphasis-100 font-bold text-sm">
-                {LABELS[i()]}
-              </span>
-              <span class="flex-1">{opt}</span>
-            </button>
+                      ? 'border-accent bg-accent/5'
+                      : 'border-emphasis-300 bg-transparent hover:border-accent'
+                }`}
+              >
+                <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-emphasis-100 font-bold text-sm">
+                  {LABELS[i()]}
+                </span>
+                <span class="flex-1">{opt}</span>
+              </RadioGroup.ItemControl>
+              <RadioGroup.ItemInput aria-label={`${LABELS[i()]}: ${String(opt)}`} />
+            </RadioGroup.Item>
           )}
         </For>
-      </div>
+      </RadioGroup.Root>
 
       <Show when={getSubmitted()}>
         <div class="mb-5 rounded-lg bg-emphasis-100 p-4 text-base leading-relaxed">
