@@ -1,6 +1,7 @@
-import { fireEvent, render, screen } from '@solidjs/testing-library'
+import { render, screen } from '@solidjs/testing-library'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import PracticeProblem from '../../shared/components/PracticeProblem'
+import { press } from './lib/press'
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
@@ -85,8 +86,9 @@ describe('PracticeProblem Component', () => {
     ))
     const radios = screen.getAllByRole('radio')
     expect(radios.length).toBe(4)
-    await fireEvent.click(radios[1])
-    expect(radios[1].getAttribute('aria-checked')).toBe('true')
+    // Kobalte radios are native inputs; selection is the `checked` property.
+    await press(radios[1])
+    expect((radios[1] as HTMLInputElement).checked).toBe(true)
   })
 
   it('should enable Submit after selecting', async () => {
@@ -100,7 +102,7 @@ describe('PracticeProblem Component', () => {
       />
     ))
     const radios = screen.getAllByRole('radio')
-    await fireEvent.click(radios[1])
+    await press(radios[1])
     const submitBtn = screen.getByText('Submit')
     expect(submitBtn.hasAttribute('disabled')).toBe(false)
   })

@@ -1,4 +1,5 @@
-import { createEffect, createSignal } from 'solid-js'
+import { RadioGroup } from '@kobalte/core'
+import { createSignal, For } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { escapeHtml } from '../utils/escape'
 import { sanitizeHtml } from '../utils/sanitize'
@@ -78,29 +79,17 @@ function PracticeProblemItem(props: {
 }) {
   const [selected, setSelected] = createSignal<number | null>(null)
   const [submitted, setSubmitted] = createSignal(false)
-  const buttonRefs: (HTMLButtonElement | null)[] = []
 
-  const focusedIndex = () => selected() ?? -1
   const isCorrect = () => submitted() && selected() === props.correctAnswer
 
-  createEffect(() => {
-    const idx = focusedIndex()
-    if (idx >= 0 && buttonRefs[idx]) {
-      buttonRefs[idx]?.focus()
-    }
-  })
+  // Kobalte RadioGroup uses string values; selected is the option index.
+  const selectedValue = () => (selected() !== null ? String(selected()) : undefined)
 
+  // Arrow-key navigation and roving tabindex are provided by Kobalte; only the
+  // Enter-to-submit convenience is kept (not part of the radiogroup pattern).
   const handleKeyDown = (e: KeyboardEvent) => {
-    if (submitted()) {
-      return
-    }
-    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-      e.preventDefault()
-      setSelected(prev => (prev === null ? 0 : Math.min(prev + 1, props.options.length - 1)))
-    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-      e.preventDefault()
-      setSelected(prev => (prev === null ? props.options.length - 1 : Math.max(prev - 1, 0)))
-    } else if (e.key === 'Enter' && selected() !== null) {
+    if (submitted()) return
+    if (e.key === 'Enter' && selected() !== null) {
       e.preventDefault()
       setSubmitted(true)
     }
@@ -135,31 +124,34 @@ function PracticeProblemItem(props: {
 
       <p class="mb-4 font-semibold text-lg">{escapeHtml(props.question)}</p>
 
-      <div
-        role="radiogroup"
-        aria-label="Answer options"
+      <RadioGroup.Root
+        value={selectedValue()}
+        onChange={value => {
+          if (!submitted()) setSelected(Number(value))
+        }}
+        orientation="vertical"
         class="flex flex-col gap-2"
+        aria-label="Answer options"
         onKeyDown={handleKeyDown}
       >
-        {props.options.map((opt, i) => (
-          <button
-            ref={el => {
-              buttonRefs[i] = el
-            }}
-            type="button"
-            role="radio"
-            aria-checked={selected() === i}
-            aria-label={`Option ${String.fromCharCode(65 + i)}: ${escapeHtml(String(opt))}`}
-            tabIndex={selected() === i ? 0 : -1}
-            disabled={submitted()}
-            onClick={() => !submitted() && setSelected(i)}
-            class={optionClass(i, selected(), submitted(), props.correctAnswer)}
-          >
-            <span class="mr-2 font-semibold">{String.fromCharCode(65 + i)}.</span>
-            {typeof opt === 'string' ? opt : ''}
-          </button>
-        ))}
-      </div>
+        <For each={props.options}>
+          {(opt, i) => (
+            <RadioGroup.Item value={String(i())} disabled={submitted()}>
+              {/* ItemControl is the visible, clickable card; its onClick selects. */}
+              <RadioGroup.ItemControl
+                class={optionClass(i(), selected(), submitted(), props.correctAnswer)}
+              >
+                <span class="mr-2 font-semibold">{String.fromCharCode(65 + i())}.</span>
+                {typeof opt === 'string' ? opt : ''}
+              </RadioGroup.ItemControl>
+              {/* ItemInput is the native radio (role=radio, checked) for a11y + forms. */}
+              <RadioGroup.ItemInput
+                aria-label={`Option ${String.fromCharCode(65 + i())}: ${escapeHtml(String(opt))}`}
+              />
+            </RadioGroup.Item>
+          )}
+        </For>
+      </RadioGroup.Root>
 
       <div class="mt-4 flex justify-center">
         {!submitted() && (

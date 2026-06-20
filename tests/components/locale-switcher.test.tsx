@@ -1,19 +1,20 @@
 import { fireEvent, render, screen, waitFor } from '@solidjs/testing-library'
 import { describe, expect, it, vi } from 'vitest'
 import LocaleSwitcher from '../../shared/components/LocaleSwitcher'
+import { press } from './lib/press'
 
 /**
- * Simulate a real user press. Kobalte's trigger (via @solid-aria) opens on the
- * pointerdown of a press, not on the synthetic `click` event alone. A real
- * browser delivers pointerdown -> pointerup -> click for a click; we mirror
- * that so the headless primitive behaves in jsdom exactly as it does in a
- * browser. The Playwright GUI suite remains the cross-browser behavioural gate.
+ * LocaleSwitcher ARIA-contract tests.
+ *
+ * These assertions are intentionally implementation-agnostic: they encode the
+ * WAI-ARIA listbox contract (trigger button, aria-haspopup, listbox + option
+ * roles, selection callback) that must hold for BOTH the current hand-rolled
+ * implementation AND the planned Kobalte Select migration (R2a). They form the
+ * red-green anchor for the refactor: a migration that breaks these fails CI.
+ *
+ * Two locales (en, zh) are enabled in shared/i18n/config.ts, so the switcher
+ * always renders in tests (it returns null only when <= 1 locale is enabled).
  */
-async function press(el: Element) {
-  await fireEvent.pointerDown(el, { button: 0, pointerType: 'mouse' })
-  await fireEvent.pointerUp(el, { button: 0, pointerType: 'mouse' })
-  await fireEvent.click(el)
-}
 
 /**
  * LocaleSwitcher ARIA-contract tests.
