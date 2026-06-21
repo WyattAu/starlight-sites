@@ -1,5 +1,6 @@
 import { Dialog } from '@kobalte/core'
 import type { JSX } from 'solid-js'
+import { IconX } from './icons'
 
 export interface BaseDialogProps {
   open: boolean
@@ -31,9 +32,7 @@ export default function BaseDialog(props: BaseDialogProps) {
             aria-label="Close dialog"
             class="absolute top-3 right-3 cursor-pointer rounded p-1 hover:bg-emphasis-100"
           >
-            <span class="text-emphasis-500" aria-hidden="true">
-              x
-            </span>
+            <IconX size={18} class="text-emphasis-500" />
           </Dialog.CloseButton>
         </Dialog.Content>
       </Dialog.Portal>
