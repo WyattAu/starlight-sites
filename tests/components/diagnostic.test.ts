@@ -1,8 +1,14 @@
 import { describe, expect, it } from 'vitest'
-import type { DiagnosticQuestion } from '../../shared/components/DiagnosticTest'
+import {
+  computeResults,
+  type DiagnosticQuestion,
+  pickNextQuestion,
+} from '../../shared/components/DiagnosticTest'
 
-// Test the pure functions extracted from DiagnosticTest
-// We'll test the logic by importing and testing the component behavior
+// These tests exercise the REAL exported pure functions (adaptive selection
+// and result scoring). Previously this file re-implemented the functions inline
+// as stubs, which tested the test's own copy rather than production code -- the
+// four priority cascades of pickNextQuestion were never actually exercised.
 
 describe('DiagnosticTest Logic', () => {
   // Mock questions for testing
@@ -94,126 +100,75 @@ describe('DiagnosticTest Logic', () => {
   })
 
   describe('pickNextQuestion function', () => {
-    // Test the adaptive question selection logic
-    it('should return null when no questions remain', () => {
-      const pickNextQuestion = (
-        pool: DiagnosticQuestion[],
-        asked: Set<string>,
-        _topicScores: Map<string, { correct: number; total: number }>,
-      ): DiagnosticQuestion | null => {
-        const remaining = pool.filter(q => !asked.has(q.id))
-        if (remaining.length === 0) return null
-        return remaining[0]
-      }
-
+    // Exercises the four priority cascades and the edge branches of the REAL
+    // adaptive selector. Each case constructs a pool where the target cascade
+    // has exactly one candidate, so the final random pick is deterministic.
+    it('returns null when every question has been asked', () => {
       const allAsked = new Set(['q1', 'q2', 'q3', 'q4', 'q5'])
-      const result = pickNextQuestion(mockQuestions, allAsked, new Map())
-      expect(result).toBeNull()
+      expect(pickNextQuestion(mockQuestions, allAsked, new Map())).toBeNull()
     })
 
-    it('should return a question when questions remain', () => {
-      const pickNextQuestion = (
-        pool: DiagnosticQuestion[],
-        asked: Set<string>,
-        _topicScores: Map<string, { correct: number; total: number }>,
-      ): DiagnosticQuestion | null => {
-        const remaining = pool.filter(q => !asked.has(q.id))
-        if (remaining.length === 0) return null
-        return remaining[0]
-      }
-
+    it('returns a non-asked question when no topic scores exist (Priority 4 fallback, avgPerf defaults to 0.5)', () => {
       const asked = new Set(['q1'])
       const result = pickNextQuestion(mockQuestions, asked, new Map())
       expect(result).not.toBeNull()
       expect(result?.id).not.toBe('q1')
     })
 
-    it('should prioritize weak topics', () => {
-      const pickNextQuestion = (
-        pool: DiagnosticQuestion[],
-        asked: Set<string>,
-        topicScores: Map<string, { correct: number; total: number }>,
-      ): DiagnosticQuestion | null => {
-        const remaining = pool.filter(q => !asked.has(q.id))
-        if (remaining.length === 0) return null
-
-        // Find weak topics (score < 60% with at least 1 answer)
-        const weakTopics = Array.from(topicScores.entries())
-          .filter(([, s]) => s.total > 0 && s.correct / s.total < 0.6)
-          .map(([t]) => t)
-
-        // Priority: Weak topics
-        const candidates = remaining.filter(q => weakTopics.includes(q.topic))
-        if (candidates.length > 0) {
-          return candidates[0]
-        }
-
-        return remaining[0]
-      }
-
-      // Algebra is weak (30% correct)
-      const topicScores = new Map([['Algebra', { correct: 1, total: 3 }]])
-      const asked = new Set(['q1'])
-      const result = pickNextQuestion(mockQuestions, asked, topicScores)
-
-      // Should pick an Algebra question (q2)
+    it('Priority 1: picks a weak-topic question at the target difficulty', () => {
+      // avgPerf = 0.2 -> targetDiff = round(0.2*5) = 1... but clamp: max(1, min(5, 1)) = 1.
+      // Make Algebra weak and give it a difficulty-1 question.
+      const pool: DiagnosticQuestion[] = [
+        { ...mockQuestions[0]!, id: 'a1', topic: 'Algebra', difficulty: 1 },
+        { ...mockQuestions[2]!, id: 'g1', topic: 'Geometry', difficulty: 1 },
+      ]
+      const topicScores = new Map([
+        ['Algebra', { correct: 0, total: 3 }], // weak (0%)
+      ])
+      const result = pickNextQuestion(pool, new Set(), topicScores)
       expect(result?.topic).toBe('Algebra')
+      expect(result?.difficulty).toBe(1)
+    })
+
+    it('Priority 2: falls back to a weak-topic question at any difficulty when none match the target', () => {
+      // Algebra weak, but its only remaining question is difficulty 5 (not the
+      // target), so P1 misses and P2 picks the weak-topic question anyway.
+      const pool: DiagnosticQuestion[] = [
+        { ...mockQuestions[0]!, id: 'a1', topic: 'Algebra', difficulty: 5 },
+        { ...mockQuestions[2]!, id: 'g1', topic: 'Geometry', difficulty: 1 },
+      ]
+      const topicScores = new Map([['Algebra', { correct: 0, total: 3 }]])
+      const result = pickNextQuestion(pool, new Set(), topicScores)
+      expect(result?.topic).toBe('Algebra')
+    })
+
+    it('Priority 3: falls back to any topic at the target difficulty when no weak topic matches', () => {
+      // No weak topics (Geometry is strong). avgPerf from Geometry=0.9 ->
+      // targetDiff = round(0.9*5) = 5 (clamped). Pick the difficulty-5 question.
+      const pool: DiagnosticQuestion[] = [
+        { ...mockQuestions[0]!, id: 'a1', topic: 'Algebra', difficulty: 2 },
+        { ...mockQuestions[3]!, id: 'g1', topic: 'Geometry', difficulty: 5 },
+      ]
+      const topicScores = new Map([['Geometry', { correct: 9, total: 10 }]]) // strong
+      const result = pickNextQuestion(pool, new Set(), topicScores)
+      expect(result?.difficulty).toBe(5)
+    })
+
+    it('treats a topic with a perfect score as strong (not weak)', () => {
+      // Algebra 100% -> not weak -> should NOT be prioritised over Geometry.
+      const pool: DiagnosticQuestion[] = [
+        { ...mockQuestions[0]!, id: 'a1', topic: 'Algebra', difficulty: 2 },
+        { ...mockQuestions[2]!, id: 'g1', topic: 'Geometry', difficulty: 2 },
+      ]
+      const topicScores = new Map([['Algebra', { correct: 5, total: 5 }]])
+      const result = pickNextQuestion(pool, new Set(), topicScores)
+      // No weak topics -> P3/P4: both difficulty 2; just assert it returns one.
+      expect(result).not.toBeNull()
     })
   })
 
   describe('computeResults function', () => {
     it('should compute correct results', () => {
-      const computeResults = (
-        answers: Map<string, number>,
-        questions: DiagnosticQuestion[],
-        elapsed: number,
-        subject: string,
-      ) => {
-        const topicMap = new Map<string, { correct: number; total: number }>()
-
-        for (const [qid, a] of answers) {
-          const q = questions.find(qq => qq.id === qid)
-          if (!q) continue
-          const prev = topicMap.get(q.topic) ?? { correct: 0, total: 0 }
-          topicMap.set(q.topic, {
-            correct: prev.correct + (a === q.correctIndex ? 1 : 0),
-            total: prev.total + 1,
-          })
-        }
-
-        const topicResults = Array.from(topicMap.entries()).map(([topic, s]) => ({
-          topic,
-          correct: s.correct,
-          total: s.total,
-          score: s.total > 0 ? s.correct / s.total : 0,
-          level: (s.total > 0
-            ? s.correct / s.total >= 0.8
-              ? 'strong'
-              : s.correct / s.total >= 0.5
-                ? 'moderate'
-                : 'weak'
-            : 'weak') as 'strong' | 'moderate' | 'weak',
-        }))
-
-        let totalCorrect = 0
-        for (const [qid, a] of answers) {
-          const q = questions.find(qq => qq.id === qid)
-          if (q && a === q.correctIndex) totalCorrect++
-        }
-
-        return {
-          subject,
-          totalQuestions: answers.size,
-          totalCorrect,
-          overallScore: answers.size > 0 ? totalCorrect / answers.size : 0,
-          topicResults,
-          strengths: topicResults.filter(t => t.level === 'strong').map(t => t.topic),
-          weaknesses: topicResults.filter(t => t.level === 'weak').map(t => t.topic),
-          recommendedTopics: topicResults.filter(t => t.level !== 'strong').map(t => t.topic),
-          timeSpentMs: elapsed,
-        }
-      }
-
       // Answer q1 correctly (index 1), q3 incorrectly (index 0 instead of 2)
       const answers = new Map([
         ['q1', 1], // correct
@@ -228,54 +183,12 @@ describe('DiagnosticTest Logic', () => {
       expect(result.overallScore).toBe(0.5)
       expect(result.timeSpentMs).toBe(60000)
       expect(result.topicResults).toHaveLength(2)
+      // q1 (Algebra) correct -> strong; q3 (Geometry) wrong -> weak.
+      expect(result.strengths).toContain('Algebra')
+      expect(result.weaknesses).toContain('Geometry')
     })
 
     it('should handle empty answers', () => {
-      const computeResults = (
-        answers: Map<string, number>,
-        questions: DiagnosticQuestion[],
-        elapsed: number,
-        subject: string,
-      ) => {
-        const topicMap = new Map<string, { correct: number; total: number }>()
-
-        for (const [qid, a] of answers) {
-          const q = questions.find(qq => qq.id === qid)
-          if (!q) continue
-          const prev = topicMap.get(q.topic) ?? { correct: 0, total: 0 }
-          topicMap.set(q.topic, {
-            correct: prev.correct + (a === q.correctIndex ? 1 : 0),
-            total: prev.total + 1,
-          })
-        }
-
-        const topicResults = Array.from(topicMap.entries()).map(([topic, s]) => ({
-          topic,
-          correct: s.correct,
-          total: s.total,
-          score: s.total > 0 ? s.correct / s.total : 0,
-          level: 'weak' as 'strong' | 'moderate' | 'weak',
-        }))
-
-        let totalCorrect = 0
-        for (const [qid, a] of answers) {
-          const q = questions.find(qq => qq.id === qid)
-          if (q && a === q.correctIndex) totalCorrect++
-        }
-
-        return {
-          subject,
-          totalQuestions: answers.size,
-          totalCorrect,
-          overallScore: answers.size > 0 ? totalCorrect / answers.size : 0,
-          topicResults,
-          strengths: [],
-          weaknesses: [],
-          recommendedTopics: [],
-          timeSpentMs: elapsed,
-        }
-      }
-
       const answers = new Map<string, number>()
       const result = computeResults(answers, mockQuestions, 0, 'Mathematics')
 

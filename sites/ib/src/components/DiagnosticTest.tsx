@@ -74,7 +74,7 @@ function getLevelColor(level: 'strong' | 'moderate' | 'weak'): string {
  * 4. Prioritize weak topics (score < 60%).
  * 5. Fall back to any available question if no candidates match.
  */
-function pickNextQuestion(
+export function pickNextQuestion(
   pool: DiagnosticQuestion[],
   asked: Set<string>,
   topicScores: Map<string, { correct: number; total: number }>,
@@ -121,7 +121,7 @@ function pickNextQuestion(
   return candidates[Math.floor(Math.random() * candidates.length)]
 }
 
-function computeResults(
+export function computeResults(
   answers: Map<string, number>,
   questions: DiagnosticQuestion[],
   elapsed: number,
