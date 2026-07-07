@@ -149,7 +149,11 @@ export default {
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       })
     } catch (err) {
-      return new Response(JSON.stringify({ error: err.message }), {
+      // Log the real error server-side (Cloudflare captures Worker console
+      // output); return a generic message to the client so internals (KV
+      // shape, stack frames) are not leaked on a 500.
+      console.error('worker unhandled error:', err)
+      return new Response(JSON.stringify({ error: 'Internal error' }), {
         status: 500,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       })
@@ -603,6 +607,9 @@ async function handleTrack(request, env, corsHeaders) {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
     })
   } catch (err) {
+    // Track endpoint: a 400 is a client error, so err.message is useful to
+    // the caller, but log it server-side too for observability.
+    console.error('track error:', err)
     return new Response(JSON.stringify({ ok: false, error: err.message }), {
       status: 400,
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -829,7 +836,7 @@ async function handleDashboard(corsHeaders) {
       try{const r=await fetch(A+'/health');const d=await r.json();
       document.getElementById('status').textContent=d.status==='ok'?'OK':'FAIL';
       document.getElementById('entries').textContent=d.totalEntries;
-      document.getElementById('sites').textContent=d.siteCount;}catch{document.getElementById('status').textContent='FAIL';}
+      document.getElementById('sites').textContent=d.siteCount;}catch(e){console.error('health load failed:',e);document.getElementById('status').textContent='FAIL';}
     }
 
     async function loadAnalytics(){
@@ -859,7 +866,7 @@ async function handleDashboard(corsHeaders) {
         const maxC=Math.max(...d.siteClicks.map(s=>s.count));
         sc.innerHTML=d.siteClicks.map(s=>'<tr><td><span class="badge" style="background:'+(COLORS[s.site]||'#666')+'20;color:'+(COLORS[s.site]||'#666')+'">'+esc(SITES[s.site]||s.site)+'</span></td><td>'+s.count+'</td><td><div class="bar-container"><div class="bar" style="width:'+(s.count/maxC*100)+'%;background:'+(COLORS[s.site]||'#666')+'"></div></div></td></tr>').join('');
       }else{sc.innerHTML='<tr><td colspan="3" style="text-align:center;color:#64748b">No clicks yet</td></tr>';}
-      }catch{console.error('Failed to load analytics');}
+      }catch(e){console.error('Failed to load analytics:',e);}
     }
 
     loadAll();
