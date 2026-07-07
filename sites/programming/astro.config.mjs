@@ -10,6 +10,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
 
 export default defineConfig({
@@ -38,22 +39,22 @@ export default defineConfig({
           items: [
             {
               label: 'Environment & Toolchain',
-              autogenerate: { directory: 'enviroment_and_toolchain' },
+              items: [{ autogenerate: { directory: 'enviroment_and_toolchain' } }],
             },
-            { label: 'Compilation Model', autogenerate: { directory: 'compilation_model' } },
-            { label: 'Types', autogenerate: { directory: 'types' } },
-            { label: 'Resource Management', autogenerate: { directory: 'resource_management' } },
+            { label: 'Compilation Model', items: [{ autogenerate: { directory: 'compilation_model' } }] },
+            { label: 'Types', items: [{ autogenerate: { directory: 'types' } }] },
+            { label: 'Resource Management', items: [{ autogenerate: { directory: 'resource_management' } }] },
             {
               label: 'Function Architecture',
-              autogenerate: { directory: 'function_architecture' },
+              items: [{ autogenerate: { directory: 'function_architecture' } }],
             },
-            { label: 'Object Oriented', autogenerate: { directory: 'object_oriented' } },
+            { label: 'Object Oriented', items: [{ autogenerate: { directory: 'object_oriented' } }] },
             {
               label: 'Templates & Metaprogramming',
-              autogenerate: { directory: 'templates_and_metaprogramming' },
+              items: [{ autogenerate: { directory: 'templates_and_metaprogramming' } }],
             },
-            { label: 'Standard Library', autogenerate: { directory: 'standard_library' } },
-            { label: 'Concurrency', autogenerate: { directory: 'concurrency' } },
+            { label: 'Standard Library', items: [{ autogenerate: { directory: 'standard_library' } }] },
+            { label: 'Concurrency', items: [{ autogenerate: { directory: 'concurrency' } }] },
           ],
         },
         {
@@ -149,7 +150,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

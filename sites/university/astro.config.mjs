@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 
 export default defineConfig({
   site: 'https://university.wyattau.com',
@@ -29,12 +30,12 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Admissions', autogenerate: { directory: 'admissions' } },
-        { label: 'Chemistry', autogenerate: { directory: 'chemistry' } },
-        { label: 'Computer Science', autogenerate: { directory: 'computer-science' } },
-        { label: 'Computing', autogenerate: { directory: 'computing' } },
-        { label: 'Mathematics', autogenerate: { directory: 'mathematics' } },
-        { label: 'Physics', autogenerate: { directory: 'physics' } },
+        { label: 'Admissions', items: [{ autogenerate: { directory: 'admissions' } }] },
+        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
+        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
+        { label: 'Computing', items: [{ autogenerate: { directory: 'computing' } }] },
+        { label: 'Mathematics', items: [{ autogenerate: { directory: 'mathematics' } }] },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -112,7 +113,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

@@ -10,6 +10,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
 
 export default defineConfig({
@@ -33,14 +34,14 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Databases', autogenerate: { directory: 'databases' } },
-        { label: 'Licensing', autogenerate: { directory: 'licensing' } },
-        { label: 'Linux', autogenerate: { directory: 'linux' } },
-        { label: 'Machine Learning', autogenerate: { directory: 'machine-learning' } },
-        { label: 'Networking', autogenerate: { directory: 'networking' } },
-        { label: 'Security', autogenerate: { directory: 'security' } },
-        { label: 'Truenas', autogenerate: { directory: 'truenas' } },
-        { label: 'Tuning', autogenerate: { directory: 'tuning' } },
+        { label: 'Databases', items: [{ autogenerate: { directory: 'databases' } }] },
+        { label: 'Licensing', items: [{ autogenerate: { directory: 'licensing' } }] },
+        { label: 'Linux', items: [{ autogenerate: { directory: 'linux' } }] },
+        { label: 'Machine Learning', items: [{ autogenerate: { directory: 'machine-learning' } }] },
+        { label: 'Networking', items: [{ autogenerate: { directory: 'networking' } }] },
+        { label: 'Security', items: [{ autogenerate: { directory: 'security' } }] },
+        { label: 'Truenas', items: [{ autogenerate: { directory: 'truenas' } }] },
+        { label: 'Tuning', items: [{ autogenerate: { directory: 'tuning' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -118,7 +119,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

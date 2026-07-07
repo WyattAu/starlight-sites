@@ -10,6 +10,7 @@ import remarkMath from 'remark-math'
 import Icons from 'unplugin-icons/vite'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 
 export default defineConfig({
   site: 'https://alevel.wyattau.com',
@@ -30,17 +31,17 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Biology', autogenerate: { directory: 'biology' } },
-        { label: 'Chemistry', autogenerate: { directory: 'chemistry' } },
-        { label: 'Computer Science', autogenerate: { directory: 'computer-science' } },
-        { label: 'Economics', autogenerate: { directory: 'economics' } },
-        { label: 'English', autogenerate: { directory: 'english' } },
-        { label: 'Further Maths', autogenerate: { directory: 'further-maths' } },
-        { label: 'Geography', autogenerate: { directory: 'geography' } },
-        { label: 'History', autogenerate: { directory: 'history' } },
-        { label: 'Maths', autogenerate: { directory: 'maths' } },
-        { label: 'Physics', autogenerate: { directory: 'physics' } },
-        { label: 'Psychology', autogenerate: { directory: 'psychology' } },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
+        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
+        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
+        { label: 'Economics', items: [{ autogenerate: { directory: 'economics' } }] },
+        { label: 'English', items: [{ autogenerate: { directory: 'english' } }] },
+        { label: 'Further Maths', items: [{ autogenerate: { directory: 'further-maths' } }] },
+        { label: 'Geography', items: [{ autogenerate: { directory: 'geography' } }] },
+        { label: 'History', items: [{ autogenerate: { directory: 'history' } }] },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
+        { label: 'Psychology', items: [{ autogenerate: { directory: 'psychology' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -96,7 +97,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

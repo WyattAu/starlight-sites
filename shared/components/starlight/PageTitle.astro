@@ -1,14 +1,14 @@
 ---
 const { starlightRoute } = Astro.locals;
-const { entry, slug } = starlightRoute;
+const { entry, id } = starlightRoute;
 
 // PAGE_TITLE_ID is '_top' — hardcoded to avoid import resolution issues in overrides
 const PAGE_TITLE_ID = '_top';
 
-// Build breadcrumb trail from slug
+// Build breadcrumb trail from the page id (the slug).
 // e.g. "physics/1-mechanics/1_forces-and-motion" → [{label: "Physics", href: "/physics/"}, {label: "Forces and Motion"}]
-function buildBreadcrumbs(slug: string) {
-  const parts = slug.split('/').filter(Boolean);
+function buildBreadcrumbs(id: string) {
+  const parts = id.split('/').filter(Boolean);
   const crumbs = [{ label: 'Home', href: '/' }];
 
   let path = '';
@@ -31,7 +31,7 @@ function buildBreadcrumbs(slug: string) {
   return crumbs;
 }
 
-const breadcrumbs = buildBreadcrumbs(slug);
+const breadcrumbs = buildBreadcrumbs(id);
 ---
 
 <nav aria-label="Breadcrumb" class="breadcrumbs">

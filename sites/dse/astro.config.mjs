@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 
 export default defineConfig({
   site: 'https://dse.wyattau.com',
@@ -29,14 +30,14 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Biology', autogenerate: { directory: 'biology' } },
-        { label: 'Chemistry', autogenerate: { directory: 'chemistry' } },
-        { label: 'Economics', autogenerate: { directory: 'economics' } },
-        { label: 'Geography', autogenerate: { directory: 'geography' } },
-        { label: 'History', autogenerate: { directory: 'history' } },
-        { label: 'Ict', autogenerate: { directory: 'ict' } },
-        { label: 'Maths', autogenerate: { directory: 'maths' } },
-        { label: 'Physics', autogenerate: { directory: 'physics' } },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
+        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
+        { label: 'Economics', items: [{ autogenerate: { directory: 'economics' } }] },
+        { label: 'Geography', items: [{ autogenerate: { directory: 'geography' } }] },
+        { label: 'History', items: [{ autogenerate: { directory: 'history' } }] },
+        { label: 'Ict', items: [{ autogenerate: { directory: 'ict' } }] },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -89,7 +90,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

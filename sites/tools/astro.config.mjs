@@ -10,6 +10,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
 
 export default defineConfig({
@@ -33,11 +34,11 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Algorithms', autogenerate: { directory: 'algorithms' } },
-        { label: 'General', autogenerate: { directory: 'general' } },
-        { label: 'Git', autogenerate: { directory: 'git' } },
-        { label: 'Licensing', autogenerate: { directory: 'licensing' } },
-        { label: 'Probabilisticml', autogenerate: { directory: 'probabilisticml' } },
+        { label: 'Algorithms', items: [{ autogenerate: { directory: 'algorithms' } }] },
+        { label: 'General', items: [{ autogenerate: { directory: 'general' } }] },
+        { label: 'Git', items: [{ autogenerate: { directory: 'git' } }] },
+        { label: 'Licensing', items: [{ autogenerate: { directory: 'licensing' } }] },
+        { label: 'Probabilisticml', items: [{ autogenerate: { directory: 'probabilisticml' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -112,7 +113,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

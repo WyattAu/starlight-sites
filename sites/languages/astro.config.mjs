@@ -10,6 +10,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
 
 export default defineConfig({
@@ -33,17 +34,17 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Dart', autogenerate: { directory: 'dart' } },
-        { label: 'Elixir', autogenerate: { directory: 'elixir' } },
-        { label: 'Go', autogenerate: { directory: 'go' } },
-        { label: 'Haskell', autogenerate: { directory: 'haskell' } },
-        { label: 'Java', autogenerate: { directory: 'java' } },
-        { label: 'Kotlin', autogenerate: { directory: 'kotlin' } },
-        { label: 'Python', autogenerate: { directory: 'python' } },
-        { label: 'Ruby', autogenerate: { directory: 'ruby' } },
-        { label: 'Rust', autogenerate: { directory: 'rust' } },
-        { label: 'Swift', autogenerate: { directory: 'swift' } },
-        { label: 'Typescript', autogenerate: { directory: 'typescript' } },
+        { label: 'Dart', items: [{ autogenerate: { directory: 'dart' } }] },
+        { label: 'Elixir', items: [{ autogenerate: { directory: 'elixir' } }] },
+        { label: 'Go', items: [{ autogenerate: { directory: 'go' } }] },
+        { label: 'Haskell', items: [{ autogenerate: { directory: 'haskell' } }] },
+        { label: 'Java', items: [{ autogenerate: { directory: 'java' } }] },
+        { label: 'Kotlin', items: [{ autogenerate: { directory: 'kotlin' } }] },
+        { label: 'Python', items: [{ autogenerate: { directory: 'python' } }] },
+        { label: 'Ruby', items: [{ autogenerate: { directory: 'ruby' } }] },
+        { label: 'Rust', items: [{ autogenerate: { directory: 'rust' } }] },
+        { label: 'Swift', items: [{ autogenerate: { directory: 'swift' } }] },
+        { label: 'Typescript', items: [{ autogenerate: { directory: 'typescript' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -121,7 +122,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })

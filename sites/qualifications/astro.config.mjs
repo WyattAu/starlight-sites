@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
+import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 
 export default defineConfig({
   site: 'https://qualifications.wyattau.com',
@@ -29,14 +30,14 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Ap', autogenerate: { directory: 'ap' } },
-        { label: 'Cbse', autogenerate: { directory: 'cbse' } },
-        { label: 'Gaokao', autogenerate: { directory: 'gaokao' } },
-        { label: 'Gcse', autogenerate: { directory: 'gcse' } },
-        { label: 'Highers', autogenerate: { directory: 'highers' } },
-        { label: 'Hsc', autogenerate: { directory: 'hsc' } },
-        { label: 'Ilc', autogenerate: { directory: 'ilc' } },
-        { label: 'Sat', autogenerate: { directory: 'sat' } },
+        { label: 'Ap', items: [{ autogenerate: { directory: 'ap' } }] },
+        { label: 'Cbse', items: [{ autogenerate: { directory: 'cbse' } }] },
+        { label: 'Gaokao', items: [{ autogenerate: { directory: 'gaokao' } }] },
+        { label: 'Gcse', items: [{ autogenerate: { directory: 'gcse' } }] },
+        { label: 'Highers', items: [{ autogenerate: { directory: 'highers' } }] },
+        { label: 'Hsc', items: [{ autogenerate: { directory: 'hsc' } }] },
+        { label: 'Ilc', items: [{ autogenerate: { directory: 'ilc' } }] },
+        { label: 'Sat', items: [{ autogenerate: { directory: 'sat' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -114,7 +115,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkMath],
+    remarkPlugins: [remarkMath, clientOnlyDirectives],
     rehypePlugins: [rehypeKatex, lazyImages],
   },
 })
