@@ -72,7 +72,7 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{42
 4. **Ribosomes**: Eukaryotic ribosomes are 80S (larger); prokaryotic ribosomes are 70S (smaller).
 5. **Cell wall**: If present, eukaryotic cell walls are made of cellulose (plants) or chitin
    (fungi); prokaryotic cell walls are made of peptidoglycan.
-6. **Size**: Prokaryotic cells are typically $0.5$--$5\,\mu\text{m}$; eukaryotic cells are typically
+6. **Size**: Prokaryotic cells measure $0.5$--$5\,\mu\text{m}$; eukaryotic cells measure
    $10$--$100\,\mu\text{m}$.
 
 ---
@@ -223,7 +223,7 @@ complementary to the shape of its specific substrate (lock and key model). The a
 is maintained by hydrogen bonds, ionic bonds, disulphide bridges, and hydrophobic interactions. When
 an enzyme is denatured (by high temperature, extreme pH, or heavy metals), these bonds break, the
 tertiary structure unravels, and the active site changes shape. The substrate can no longer fit, and
-the enzyme loses its catalytic function. Denaturation is typically irreversible.
+the enzyme loses its catalytic function. Denaturation is irreversible under physiological conditions.
 
 (b)
 
@@ -247,11 +247,11 @@ protein) for facilitated diffusion or active transport to cross the membrane.
    layer. Animal cells have no cell wall, only a cell membrane.
 2. **Chloroplasts**: Plant cells (especially in leaf tissue) contain chloroplasts with visible
    grana. Animal cells never contain chloroplasts.
-3. **Central vacuole**: Mature plant cells typically have a large central vacuole that occupies most
+3. **Central vacuole**: Mature plant cells have a large central vacuole that occupies most
    of the cell volume, pushing the cytoplasm to the edges. Animal cells have small, multiple
    vacuoles (if any).
-4. **Shape**: Plant cells are typically rectangular or angular due to the rigid cell wall. Animal
-   cells are typically irregular or rounded.
+4. **Shape**: Plant cells are rectangular or angular due to the rigid cell wall. Animal
+   cells are irregular or rounded.
 
 ---
 
