@@ -8,10 +8,10 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.5.4",
-    "@astrojs/solid-js": "^5.0.1",
+    "astro": "^6.4.8",
+    "@astrojs/solid-js": "^6.0.1",
     "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/mdx": "^4.3.14",
+    "@astrojs/mdx": "^6.0.3",
     "solid-js": "^1.9.7"
   },
   "devDependencies": {

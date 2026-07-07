@@ -404,11 +404,11 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
 
 **Scope:**
 
-- [ ] Migrate the landing page from a static `sites/main/src/index.html` to
-  Astro + Starlight so it shares the design-token system, the search client,
-  and the build pipeline with the nine content sites. The current 762-line
-  inline-CSS page duplicates the design language by hand and is the only
-  surface that does not pick up shared token changes automatically.
+- [x] Migrate the landing page from a static `sites/main/src/index.html` to
+  Astro so it shares the design-token system, the search client, and the
+  build pipeline with the nine content sites. The old 762-line inline-CSS
+  page (already replaced by `index.astro` + `Layout.astro`) is deleted.
+  The biome override for the old file is removed.
 - [ ] Add a real service worker sourced under `shared/public/sw.js` and synced
   to all sites, or delete the manifest.json `display: standalone` configuration
   that implies PWA support. The current state ships a manifest with no

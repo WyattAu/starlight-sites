@@ -93,7 +93,9 @@
   },
   "overrides": [
     {
-      "includes": ["**/*.astro"],
+      "includes": [
+        "**/*.astro"
+      ],
       "formatter": {
         "enabled": false
       },
@@ -107,7 +109,10 @@
       }
     },
     {
-      "includes": ["**/*.md", "**/*.mdx"],
+      "includes": [
+        "**/*.md",
+        "**/*.mdx"
+      ],
       "formatter": {
         "enabled": false
       },
@@ -120,7 +125,10 @@
       }
     },
     {
-      "includes": ["**/tests/**/*.ts", "**/tests/**/*.js"],
+      "includes": [
+        "**/tests/**/*.ts",
+        "**/tests/**/*.js"
+      ],
       "linter": {
         "rules": {
           "suspicious": {
@@ -133,7 +141,9 @@
       }
     },
     {
-      "includes": ["**/tests/**/*.js"],
+      "includes": [
+        "**/tests/**/*.js"
+      ],
       "linter": {
         "rules": {
           "correctness": {
@@ -146,7 +156,11 @@
       }
     },
     {
-      "includes": ["**/scripts/**", "**/search-api/**", "**/public/**"],
+      "includes": [
+        "**/scripts/**",
+        "**/search-api/**",
+        "**/public/**"
+      ],
       "linter": {
         "rules": {
           "suspicious": {
@@ -163,7 +177,9 @@
       }
     },
     {
-      "includes": ["**/custom.css"],
+      "includes": [
+        "**/custom.css"
+      ],
       "linter": {
         "rules": {
           "style": {
@@ -173,17 +189,9 @@
       }
     },
     {
-      "includes": ["**/sites/main/src/index.html"],
-      "linter": {
-        "rules": {
-          "style": {
-            "noDescendingSpecificity": "off"
-          }
-        }
-      }
-    },
-    {
-      "includes": ["**/public/**/*.svg"],
+      "includes": [
+        "**/public/**/*.svg"
+      ],
       "linter": {
         "rules": {
           "a11y": {
