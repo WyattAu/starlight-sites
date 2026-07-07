@@ -281,9 +281,9 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
             setShowResults(false)
             setSelected(null)
             setSubmitted(false)
-            setAskedIds(new Set())
-            setAnswers(new Map())
-            setTopicScores(new Map())
+            setAskedIds(new Set<string>())
+            setAnswers(new Map<string, number>())
+            setTopicScores(new Map<string, { correct: number; total: number }>())
             setElapsed(0)
           }
         }}

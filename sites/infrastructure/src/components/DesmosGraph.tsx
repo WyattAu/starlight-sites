@@ -1,3 +1,4 @@
+import type { JSX } from 'solid-js'
 import { createEffect, onCleanup } from 'solid-js'
 
 const embedContainer: Record<string, string> = {
@@ -27,7 +28,7 @@ const embedResponsive: Record<string, string> = {
   overflow: 'hidden',
 }
 
-const embedIframe: Record<string, string> = {
+const embedIframe: JSX.CSSProperties = {
   position: 'absolute',
   top: '0',
   left: '0',
@@ -121,7 +122,7 @@ export default function DesmosGraph(props: DesmosGraphProps) {
         return
       }
 
-      const Desmos = (window as unknown as { Desmos?: typeof DesmosGraph }).Desmos
+      const Desmos = window.Desmos
 
       if (!Desmos) {
         return
@@ -198,9 +199,9 @@ export default function DesmosGraph(props: DesmosGraphProps) {
 
   if (calculatorUrl()) {
     return (
-      <div style={embedContainer}>
+      <div style={embedContainer as JSX.CSSProperties}>
         <p style={embedTitle}>{title()}</p>
-        <div style={{ ...embedResponsive, paddingBottom: `${aspectPadding()}%` }}>
+        <div style={{ ...embedResponsive, 'padding-bottom': `${aspectPadding()}%` }}>
           <iframe
             style={embedIframe}
             src={calculatorUrl()}
@@ -219,15 +220,15 @@ export default function DesmosGraph(props: DesmosGraphProps) {
   }
 
   return (
-    <div style={embedContainer}>
-      <p style={embedTitle}>{title()}</p>
+    <div style={embedContainer as JSX.CSSProperties}>
+      <p style={embedTitle as JSX.CSSProperties}>{title()}</p>
       <div
         ref={el => {
           containerRef = el
         }}
         style={{
           ...embedResponsive,
-          paddingBottom: `${aspectPadding()}%`,
+          'padding-bottom': `${aspectPadding()}%`,
           position: 'relative',
         }}
         role="img"

@@ -43,9 +43,13 @@ export interface FlashcardDeckProps {
   description?: string
 }
 
-// Re-export types for backward compatibility
-export type { CardState, DeckData, Rating, View } from './flashcard/sm2'
+export type { View } from './flashcard/constants'
+// Re-export types for backward compatibility. Each type is re-exported from
+// the module that actually defines it (previously these were all attributed
+// to ./flashcard/sm2, which does not define DeckData or View).
+export type { CardState, Rating } from './flashcard/sm2'
 export { applySM2, getMasteryLevel, isDue } from './flashcard/sm2'
+export type { DeckData } from './flashcard/storage'
 export { calculateStreak, loadDeck, saveDeck } from './flashcard/storage'
 
 const RatingButton = (props: {
@@ -217,9 +221,11 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     const lastStudyDate = Date.now()
     const data = getDeckData()
     const prevStreak = data ? calculateStreak(data) : 0
-    const lastDate = getDeckData()?.lastStudyDate
-      ? new Date(getDeckData()?.lastStudyDate).toDateString()
-      : ''
+    // Capture lastStudyDate once so the truthy guard narrows it for new Date();
+    // re-evaluating getDeckData()?.lastStudyDate inside new Date() defeats TS
+    // narrowing and yields `number | undefined`.
+    const lastStudy = data?.lastStudyDate
+    const lastDate = lastStudy ? new Date(lastStudy).toDateString() : ''
     const today = new Date().toDateString()
     const newStreak = lastDate === today ? prevStreak : prevStreak + 1
 

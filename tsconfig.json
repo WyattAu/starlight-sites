@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": [],
+
+    "strict": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+
+    "paths": {
+      "@components/*": ["./shared/components/*"],
+      "@": ["./shared"]
+    }
+  },
+  "include": ["shared/**/*.ts", "shared/**/*.tsx", "shared/**/*.d.ts"],
+  "exclude": ["node_modules", "sites", "dist", "coverage"]
+}

@@ -38,7 +38,7 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
         if (locale) props.onLocaleChange?.(locale.code)
       }}
       itemComponent={itemProps => (
-        <Select.Item<Locale>
+        <Select.Item
           item={itemProps.item}
           class="flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors hover:bg-emphasis-100 data-[highlighted]:bg-emphasis-100"
         >
@@ -52,7 +52,7 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
         </Select.Item>
       )}
     >
-      <Select.Trigger<Locale>
+      <Select.Trigger
         aria-label="Select language"
         class="group flex items-center gap-1.5 rounded-lg border border-emphasis-300 bg-surface px-3 py-1.5 font-medium text-emphasis-700 text-sm transition-colors hover:bg-emphasis-100"
       >

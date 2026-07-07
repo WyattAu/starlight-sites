@@ -1,36 +1,36 @@
 import type { JSX } from 'solid-js'
 
-const embedContainer: JSX.CSSProperties = {
+const embedContainer: Record<string, string> = {
   width: '100%',
   margin: '1.5rem 0',
   overflow: 'hidden',
   border: '2px solid var(--sl-color-gray-5)',
 }
 
-const embedTitle: JSX.CSSProperties = {
+const embedTitle: Record<string, string> = {
   fontFamily: 'monospace',
   fontSize: '0.65rem',
-  fontWeight: 600,
+  fontWeight: '600',
   letterSpacing: '0.1em',
   textTransform: 'uppercase',
   color: 'var(--sl-color-accent)',
   padding: '0.5rem 0.75rem',
   borderBottom: '2px solid var(--sl-color-gray-5)',
   backgroundColor: 'var(--sl-color-gray-2)',
-  margin: 0,
+  margin: '0',
 }
 
-const embedResponsive: JSX.CSSProperties = {
+const embedResponsive: Record<string, string> = {
   position: 'relative',
   width: '100%',
-  height: 0,
+  height: '0',
   overflow: 'hidden',
 }
 
-const embedIframe: JSX.CSSProperties = {
+const embedIframe: Record<string, string> = {
   position: 'absolute',
-  top: 0,
-  left: 0,
+  top: '0',
+  left: '0',
   width: '100%',
   height: '100%',
   border: 'none',
@@ -56,8 +56,8 @@ export default function PhetSimulation(props: PhetSimulationProps) {
   const aspectPadding = () => (height() / width()) * 100
 
   return (
-    <div style={embedContainer} role="region" aria-label={title()}>
-      <p style={embedTitle}>{title()}</p>
+    <div style={embedContainer as JSX.CSSProperties} role="region" aria-label={title()}>
+      <p style={embedTitle as JSX.CSSProperties}>{title()}</p>
       <div style={{ ...embedResponsive, 'padding-bottom': `${aspectPadding()}%` }}>
         <iframe
           style={embedIframe}
@@ -66,7 +66,7 @@ export default function PhetSimulation(props: PhetSimulationProps) {
           sandbox="allow-scripts allow-same-origin allow-popups"
           loading="lazy"
           referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
+          allowfullscreen
         />
       </div>
     </div>

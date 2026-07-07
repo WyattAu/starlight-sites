@@ -191,7 +191,7 @@ const _dictionaries: Record<string, typeof enDict> = {
  * Flattened dictionaries for each locale.
  * Pre-computed for performance.
  */
-const flattenedDictionaries: Record<string, i18n.FlatDict<typeof enDict>> = {
+const flattenedDictionaries: Record<string, i18n.Flatten<typeof enDict>> = {
   en: i18n.flatten(enDict),
   zh: i18n.flatten(zhDict),
 }
@@ -200,7 +200,7 @@ const flattenedDictionaries: Record<string, i18n.FlatDict<typeof enDict>> = {
  * Get the flattened dictionary for a given locale.
  * Falls back to English if the locale is not available.
  */
-function getFlatDict(locale: string): i18n.FlatDict<typeof enDict> {
+function getFlatDict(locale: string): i18n.Flatten<typeof enDict> {
   return flattenedDictionaries[locale] ?? flattenedDictionaries[defaultLocale]
 }
 
@@ -233,9 +233,11 @@ function getTranslator(locale: string = defaultLocale): ReturnType<typeof create
 
 export function t(key: string, params?: Record<string, string | number>, locale?: string): string {
   const translator = getTranslator(locale ?? defaultLocale)
+  // The translator returns a nested dict when `key` is a partial path; coerce
+  // to a string (falling back to the key) so t() always returns string.
   const result = translator(
     key as Parameters<ReturnType<typeof createTranslator>>[0],
     params as Record<string, string | number>,
   )
-  return result ?? key
+  return typeof result === 'string' ? result : key
 }
