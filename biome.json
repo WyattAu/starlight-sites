@@ -183,7 +183,6 @@
       }
     },
     {
-      "comment": "Standalone SVG asset files (favicons, social cards) are decorative image assets, not inline interactive SVGs. Exempt them from the noSvgWithoutTitle rule, which is meant for inline component SVGs that convey meaning.",
       "includes": ["**/public/**/*.svg"],
       "linter": {
         "rules": {
