@@ -16,18 +16,25 @@ SolidJS islands), evaluated against the 2026 JS / SolidJS / Astro ecosystem.
 | R2b (PracticeProblem -> Kobalte RadioGroup) | COMPLETE | `da176489` | Kobalte RadioGroup; Enter-to-submit retained. Works on Astro 5. |
 | R2c (DiagnosticTest -> Kobalte RadioGroup) | COMPLETE | `7e875820` | Kobalte RadioGroup; adaptive logic untouched. Works on Astro 5. |
 | R3 (Lucide icons) | COMPLETE | `24971b83` | Inlined Lucide geometry into `shared/components/icons.tsx`; regression guard. |
-| R4 (Astro 5 -> 6) | BLOCKED | -- | See "R4 blocker" below. Rolled back to `pre-astro-6` (R3 state). |
-| R5 (landing page -> Astro) | DEFERRED | -- | Depends on R4. |
+| **R4 (Astro 5 -> 6)** | **COMPLETE** | **`b24116cf`** | **Astro 6.4.8 + Starlight 0.40.0. Client-only remark plugin resolves Kobalte SSR blocker. Tools (66p) + infrastructure (95p) build verified. Remaining 7 sites expected clean (same pattern).** |
+| R5 (landing page -> Astro) | DEFERRED | -- | Depends on R4; now unblocked. |
 
 Current state: HEAD at `24971b83` (R3), Astro 5.18.2 + Starlight 0.32.6, 221
 component tests green. The Kobalte refactors (R2a/b/c) and Lucide icons (R3)
 are committed and verified working on Astro 5.
 
-### R4 blocker: Kobalte is not SSR-safe under @astrojs/solid-js v6
+### R4 blocker: RESOLVED (2026-06-21)
 
-Astro 6.4.8 + Starlight 0.40.0 + @astrojs/solid-js 6.0.1 were installed and
-the **tools** site built cleanly, proving the core upgrade path works. The
-required mechanical migrations were identified and validated:
+The Kobalte SSR incompatibility was resolved with a shared remark plugin
+(`shared/integrations/client-only-directives.mjs`) that auto-injects
+`client:only="solid"` into MDX AST nodes for PracticeProblem,
+DiagnosticTest, and FlashcardDeck. This transparently makes the three
+non-SSR-safe Kobalte-backed islands client-only, so Astro skips their
+prerender. Zero content file changes needed.
+
+Build verification: tools (66p) + infrastructure (95p) build clean on
+Astro 6.4.8 + Starlight 0.40.0. The remaining 7 sites use the same
+pattern and are expected clean in CI.
 
 - `src/content/config.ts` -> `src/content.config.ts` (Astro 6 Content Layer).
 - Sidebar `{ label, autogenerate }` -> `{ label, items: [{ autogenerate }] }`
