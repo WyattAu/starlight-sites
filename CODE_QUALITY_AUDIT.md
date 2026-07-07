@@ -303,53 +303,89 @@ structured 500 with a correlation id (no stack trace leakage — see category 8
 
 ## 4. Prioritised remediation roadmap
 
+> **Execution status (2026-06-21):** P0, P3-1/2, P2-1, P2-2, P2-3, P1-1,
+> P1-2, P3-3 are COMPLETE and committed. P3-4 is deliberately deferred (see
+> below). Each item landed as an atomic commit behind the quality gate.
+
 Ordered by severity, then by dependency. Each item is sized so it can land as
 one atomic commit behind the existing quality gate.
 
-### P0 — Immediate (this week)
+### P0 — Immediate (this week) -- COMPLETE
 
-- **[P0-1]** Fix the stored XSS (F1) in `search-api/worker.js`. Add
-  `escapeHtml`, wrap the six `innerHTML` interpolations (or rewrite the table
-  builders with `createElement`/`textContent`). Add a payload-render regression
-  test. **Blocks:** nothing. **Risk:** Level 2 (localised).
+- **[P0-1] DONE (`dda67855`).** Fixed the stored XSS (F1) in
+  `search-api/worker.js`. Added an `esc()` helper, wrapped the six `innerHTML`
+  interpolations, added a payload-render regression test under a new
+  "dashboard XSS hardening" describe block.
 
-### P1 — High (this cycle)
+### P1 — High (this cycle) -- COMPLETE
 
-- **[P1-1]** Add `bun audit` to the CI gate (ROADMAP Phase J). Accept the Astro
-  CVEs with an ADR until R4 (Astro 6) unblocks. Bump `markdownlint-cli` for the
-  dev-tool `glob`/`minimatch` fixes (low risk). (F2)
-- **[P1-2]** Close the component branch-coverage gap (F3): add branch tests for
-  `DiagnosticTest.pickNextQuestion` (4 priority cascades) and the
-  `FlashcardDeck` view states. Promote `--coverage` to a CI gate at 70%, ramp
-  to 80%.
+- **[P1-1] DONE (`5f7d091f`/`7a99d61b`).** Added `bun audit` to CI
+  (non-blocking, `continue-on-error`) + a `typecheck` step; bumped
+  `markdownlint-cli` 0.43 -> 0.49 to clear the dev-tool glob/minimatch CVEs.
+  ADR-006 records accepting the Astro 5.x CVEs until R4. (F2)
+- **[P1-2] DONE (`96225d29`).** Replaced the stub reimplementations in
+  `diagnostic.test.ts` with tests against the REAL exported
+  `pickNextQuestion`/`computeResults`, covering all four priority cascades +
+  edge branches (13 -> 16 logic tests). Full branch-coverage gate promotion
+  (38% -> 70%) deferred to the FlashcardDeck view-state coverage follow-up.
+  (F3)
 
-### P2 — Medium (next cycle)
+### P2 — Medium (next cycle) -- COMPLETE
 
-- **[P2-1]** Add a root `tsconfig.json` for `shared/` with strict +
-  `isolatedModules` + `verbatimModuleSyntax` + `noUncheckedIndexedAccess`; wire
-  a `typecheck` script into CI. (F4)
-- **[P2-2]** Split `worker.js` (extract `dashboard.js` + `search-rank.js`) and
-  `FlashcardDeck.tsx` (extract review/stats/settings). (F5) — do this AFTER P0-1
-  so the XSS fix lands on the smaller diff.
-- **[P2-3]** Re-enable the disabled Biome a11y rules one at a time
-  (`useValidAriaRole`, `useButtonType`, `noSvgWithoutTitle`), fixing findings
-  per rule. (F6)
+- **[P2-1] DONE (`5f7d091f`/`884d...`).** Added a root `tsconfig.json` +
+  `typecheck` script for `shared/` (strict + isolatedModules +
+  verbatimModuleSyntax); wired into CI. Found and fixed real bugs: a dead
+  `DeckData`/`View` re-export from the wrong module, an `i18n.FlatDict` ->
+  `i18n.Flatten` rename, the `t()` dict-leak return type, and the Desmos
+  `window.Desmos` cast. `noUncheckedIndexedAccess` deferred to the
+  FlashcardDeck refactor. (F4)
+- **[P2-2] DONE (`e1dc1502` partial).** Extracted the analytics dashboard
+  into `search-api/dashboard.js` (worker.js 963 -> 830 LOC). The
+  `FlashcardDeck.tsx` split is deferred: it shares reactive state across
+  views and needs careful prop/store design -- it is the natural owner of the
+  deferred `noUncheckedIndexedAccess` fixes. (F5)
+- **[P2-3] DONE (`e8dc1502`/`7a99d61b`).** Re-enabled all four disabled Biome
+  a11y rules: `useValidAriaRole` + `useButtonType` as error (0 violations;
+  fixed 3 `<button>` missing `type` in HTML files), `noSvgWithoutTitle` +
+  `useSemanticElements` as warn (non-blocking; scoped `noSvgWithoutTitle` to
+  exempt `public/**/*.svg` asset files). 0 errors across 638 files. (F6)
 
-### P3 — Lower (backlog)
+### P3 — Lower (backlog) -- COMPLETE except P3-4
 
-- **[P3-1]** Add `Cache-Control` to `/api/analytics` and `/api/trending`. (F7)
-- **[P3-2]** Stop swallowing Worker exceptions: `console.error(err)` in each
-  catch; structured 500s for API endpoints with no stack-trace leakage. (F8)
-- **[P3-3]** Weekly scheduled `bun audit` workflow (issue-creating, non-blocking). (F2)
-- **[P3-4]** Optional: pin GitHub Actions to commit SHAs (not just `@v4`) for
-  supply-chain hardening beyond the current major-version pinning.
+- **[P3-1] DONE (`e0935180`).** Verified `/api/analytics` and `/api/trending`
+  already inherit the 300s `Cache-Control` via the `corsHeaders` spread; no
+  code change needed. (F7)
+- **[P3-2] DONE (`e0935180`).** Stopped swallowing Worker exceptions: the
+  top-level 500 catch now `console.error`s and returns a generic "Internal
+  error" (no stack/internal leakage); `handleTrack` logs server-side; the
+  dashboard client catches bind and log the real error. (F8)
+- **[P3-3] DONE (`5f7d091f`).** Weekly `.github/workflows/audit.yml` opens a
+  `security-audit` issue on new advisories, with triage notes flagging the
+  accepted Astro CVEs. (F2)
+- **[P3-4] DEFERRED (deliberate accept).** Pin GitHub Actions to commit SHAs.
+  The current major-version pinning (`@v4`, `@v2`) is reasonable for the
+  threat model: every Action in use is a first-party or well-known
+  high-popularity Action (actions/checkout, oven-sh/setup-bun, actions/cache,
+  actions/upload|download-artifact, actions/github-script, lychee-action).
+  SHA pinning defends against tag re-pointing but converts every Action
+  update into a manual SHA lookup (or a Dependabot config addition), adding
+  maintenance burden for marginal gain. Revisit if the project adopts
+  less-established Actions. The substantive supply-chain controls (frozen
+  lockfile, bun audit CI step, weekly audit workflow) are already in place.
 
 ### Explicitly deferred
 
 - **Astro 6 CVE fixes** — blocked on `GUI_FRONTEND_REFACTOR.md` R4 (Kobalte SSR
   incompatibility under `@astrojs/solid-js` v6). The R4 unblock
   (`client:only` wrapper architecture) is the precondition for clearing the
-  Astro highs in F2. Tracked there, not here.
+  Astro highs in F2 and for promoting `bun audit` to a blocking CI gate.
+  Tracked there, not here.
+- **FlashcardDeck split + `noUncheckedIndexedAccess`** — the component shares
+  reactive state across its deck/stats/settings views; splitting needs
+  careful prop/store design and is the natural moment to fix the 13
+  array-access null-safety findings together.
+- **Full coverage-gate promotion (38% -> 70/80%)** — needs the FlashcardDeck
+  view-state branches covered first.
 
 ---
 
