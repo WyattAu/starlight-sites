@@ -87,6 +87,18 @@ jobs:
           args: "--exclude-path node_modules --exclude-file .lycheeignore --no-progress sites/*/src/content/docs/**/*.md sites/*/src/content/docs/**/*.mdx"
           fail: false
 
+      - name: Dependency vulnerability audit (bun audit)
+        # Non-blocking: the dependency tree currently carries Astro 5.x CVEs
+        # (SSRF, XSS) that are only patched in Astro 6.x, which is itself
+        # blocked by the Kobalte SSR incompatibility (see GUI_FRONTEND_REFACTOR.md
+        # R4). Promote to blocking once the Astro 6 upgrade lands. The weekly
+        # audit workflow (.github/workflows/audit.yml) opens issues for new CVEs.
+        run: bun audit || true
+        continue-on-error: true
+
+      - name: TypeScript typecheck (shared/)
+        run: bun run typecheck
+
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
