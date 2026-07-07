@@ -436,7 +436,7 @@
 <nav aria-label="Primary navigation">
   <div class="nav-inner">
     <a href="/" class="nav-brand">Wyatt's Notes</a>
-    <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('open'); this.setAttribute('aria-expanded', this.classList.contains('open'))">
+    <button type="button" class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('open'); this.setAttribute('aria-expanded', this.classList.contains('open'))">
       <span></span>
       <span></span>
       <span></span>
@@ -448,7 +448,7 @@
       <li><a href="https://university.wyattau.com/" target="_blank" rel="noopener noreferrer">University</a></li>
       <li><a href="https://programming.wyattau.com/" target="_blank" rel="noopener noreferrer">Programming</a></li>
     </ul>
-    <button class="nav-search" aria-label="Open search" onclick="var i=document.getElementById('cross-site-search-input');if(i){i.focus();}else{window.openSearchModal&&window.openSearchModal();}">
+    <button type="button" class="nav-search" aria-label="Open search" onclick="var i=document.getElementById('cross-site-search-input');if(i){i.focus();}else{window.openSearchModal&&window.openSearchModal();}">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <circle cx="11" cy="11" r="8"></circle>
         <path d="m21 21-4.35-4.35"></path>
