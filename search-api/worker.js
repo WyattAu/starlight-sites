@@ -817,6 +817,12 @@ async function handleDashboard(corsHeaders) {
     const SITES={dse:'DSE',ib:'IB',alevel:'A-Level',university:'University',qualifications:'Qualifications',programming:'Programming',infrastructure:'Infrastructure',languages:'Languages',tools:'Tools'};
     const COLORS={dse:'#ff6b35',ib:'#0077b6',alevel:'#2a9d8f',university:'#9b5de5',qualifications:'#f4a261',programming:'#06d6a0',infrastructure:'#ef476f',languages:'#118ab2',tools:'#073b4c'};
 
+    // Escape untrusted strings before interpolating into innerHTML. The
+    // analytics data (notably q.query) is user-controlled; without this a
+    // search for "<img src=x onerror=...>" would execute in the dashboard
+    // origin (stored XSS).
+    function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
+
     async function loadAll(){await Promise.all([loadHealth(),loadAnalytics()]);}
 
     async function loadHealth(){
@@ -837,21 +843,21 @@ async function handleDashboard(corsHeaders) {
       const labels=document.getElementById('volumeLabels');
       if(d.dailyVolume.length>0){
         const max=Math.max(...d.dailyVolume.map(d=>d.count));
-        chart.innerHTML=d.dailyVolume.map(d=>'<div class="chart-bar" style="height:'+(d.count/max*100)+'%" title="'+d.date+': '+d.count+'"></div>').join('');
-        labels.innerHTML='<span>'+d.dailyVolume[0].date+'</span><span>'+d.dailyVolume[d.dailyVolume.length-1].date+'</span>';
+        chart.innerHTML=d.dailyVolume.map(d=>'<div class="chart-bar" style="height:'+(d.count/max*100)+'%" title="'+esc(d.date)+': '+d.count+'"></div>').join('');
+        labels.innerHTML='<span>'+esc(d.dailyVolume[0].date)+'</span><span>'+esc(d.dailyVolume[d.dailyVolume.length-1].date)+'</span>';
       }
 
       // Top queries
       const tq=document.getElementById('topQueries');
       if(d.topQueries.length>0){
-        tq.innerHTML=d.topQueries.map((q,i)=>'<tr><td>'+(i+1)+'</td><td><b>'+q.query+'</b></td><td>'+q.count+'</td></tr>').join('');
+        tq.innerHTML=d.topQueries.map((q,i)=>'<tr><td>'+(i+1)+'</td><td><b>'+esc(q.query)+'</b></td><td>'+q.count+'</td></tr>').join('');
       }else{tq.innerHTML='<tr><td colspan="3" style="text-align:center;color:#64748b">No searches yet</td></tr>';}
 
       // Site clicks
       const sc=document.getElementById('siteClicks');
       if(d.siteClicks.length>0){
         const maxC=Math.max(...d.siteClicks.map(s=>s.count));
-        sc.innerHTML=d.siteClicks.map(s=>'<tr><td><span class="badge" style="background:'+(COLORS[s.site]||'#666')+'20;color:'+(COLORS[s.site]||'#666')+'">'+(SITES[s.site]||s.site)+'</span></td><td>'+s.count+'</td><td><div class="bar-container"><div class="bar" style="width:'+(s.count/maxC*100)+'%;background:'+(COLORS[s.site]||'#666')+'"></div></div></td></tr>').join('');
+        sc.innerHTML=d.siteClicks.map(s=>'<tr><td><span class="badge" style="background:'+(COLORS[s.site]||'#666')+'20;color:'+(COLORS[s.site]||'#666')+'">'+esc(SITES[s.site]||s.site)+'</span></td><td>'+s.count+'</td><td><div class="bar-container"><div class="bar" style="width:'+(s.count/maxC*100)+'%;background:'+(COLORS[s.site]||'#666')+'"></div></div></td></tr>').join('');
       }else{sc.innerHTML='<tr><td colspan="3" style="text-align:center;color:#64748b">No clicks yet</td></tr>';}
       }catch{console.error('Failed to load analytics');}
     }

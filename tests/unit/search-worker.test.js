@@ -427,4 +427,40 @@ describe('Search Worker (mocked KV)', () => {
       assert.ok(typeof body.searchQuality.avgLatencyMs === 'number')
     })
   })
+
+  describe('dashboard XSS hardening (P0-1)', () => {
+    // The analytics dashboard renders user-controlled data (q.query) into
+    // innerHTML. This guard ensures the esc() helper is present and that it
+    // escapes XSS payloads, so a stored search-term payload cannot execute in
+    // the dashboard origin. See CODE_QUALITY_AUDIT.md F1.
+    it('dashboard HTML defines the esc() helper and wraps q.query in it', async () => {
+      const { body } = await callWorker(worker, '/dashboard', { env: freshEnv() })
+      const html = String(body)
+      // The escape helper must be defined in the embedded client script.
+      assert.match(html, /function esc\(s\)/, 'esc() helper must be defined')
+      // q.query must be wrapped in esc() -- not interpolated raw. This is the
+      // exact regression that would reintroduce stored XSS.
+      assert.doesNotMatch(html, /'<b>'\+q\.query\+'/, 'q.query must not be raw')
+      assert.match(html, /esc\(q\.query\)/, 'q.query must be escaped')
+    })
+
+    it('esc() escapes HTML metacharacters and neutralises an XSS payload', async () => {
+      const { body } = await callWorker(worker, '/dashboard', { env: freshEnv() })
+      const html = String(body)
+      // Extract the esc function source from the embedded script and verify
+      // it escapes the OWASP payload, so the payload renders as inert text.
+      const match = html.match(/function esc\(s\)\{(.+?)\}/)
+      assert.ok(match, 'esc function source not found')
+      // match[1] is the function body (starts with `return String(s)...`).
+      const esc = new Function('s', match[1])
+      const payload = '<img src=x onerror=alert(1)>'
+      const escaped = esc(payload)
+      assert.ok(!escaped.includes('<img'), 'escaped output must not contain a raw <img tag')
+      assert.ok(escaped.includes('&lt;img'), 'must escape < to &lt; (tag broken)')
+      assert.ok(
+        !escaped.includes('<') && !escaped.includes('>'),
+        'no raw angle brackets may remain (payload is inert text)',
+      )
+    })
+  })
 })
