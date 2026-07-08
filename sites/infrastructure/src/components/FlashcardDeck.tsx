@@ -15,7 +15,10 @@
 
 import { createEffect, createMemo, createSignal, onCleanup } from 'solid-js'
 import { t } from '../i18n/config'
-import { type View } from './flashcard/constants'
+import type { View } from './flashcard/constants'
+import DeckView from './flashcard/DeckView'
+import ReviewView from './flashcard/ReviewView'
+import StatsView from './flashcard/StatsView'
 import {
   applySM2,
   type CardState,
@@ -26,9 +29,6 @@ import {
   type Rating,
 } from './flashcard/sm2'
 import { calculateStreak, type DeckData, loadDeck, saveDeck } from './flashcard/storage'
-import DeckView from './flashcard/DeckView'
-import ReviewView from './flashcard/ReviewView'
-import StatsView from './flashcard/StatsView'
 import SettingsDialog from './SettingsDialog'
 
 // Dynamic import of solid-sonner to avoid SSR breakage. The solid-sonner
@@ -133,7 +133,9 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     return states
   })
 
-  const dueCards = createMemo(() => props.cards.filter(c => isDue(cardStates()[c.id] ?? createDefaultState(), now)))
+  const dueCards = createMemo(() =>
+    props.cards.filter(c => isDue(cardStates()[c.id] ?? createDefaultState(), now)),
+  )
 
   const masteryBreakdown = createMemo(() => {
     const counts = { new: 0, learning: 0, review: 0, mastered: 0 }
@@ -150,7 +152,10 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   const avgEase = createMemo(() => {
     if (props.cards.length === 0) return DEFAULT_EASE
-    const sum = props.cards.reduce((acc, c) => acc + (cardStates()[c.id] ?? createDefaultState()).easeFactor, 0)
+    const sum = props.cards.reduce(
+      (acc, c) => acc + (cardStates()[c.id] ?? createDefaultState()).easeFactor,
+      0,
+    )
     return sum / props.cards.length
   })
 
@@ -166,7 +171,9 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   }
 
   const startReview = () => {
-    const due = props.cards.filter(c => isDue(cardStates()[c.id] ?? createDefaultState(), Date.now()))
+    const due = props.cards.filter(c =>
+      isDue(cardStates()[c.id] ?? createDefaultState(), Date.now()),
+    )
     if (due.length === 0) return
     setDueQueue(due.map(c => c.id))
     setCurrentIndex(0)
