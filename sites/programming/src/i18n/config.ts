@@ -200,7 +200,7 @@ const flattenedDictionaries: Record<string, i18n.Flatten<typeof enDict>> = {
  * Get the flattened dictionary for a given locale.
  * Falls back to English if the locale is not available.
  */
-function getFlatDict(locale: string): i18n.Flatten<typeof enDict> {
+function getFlatDict(locale: string) {
   return flattenedDictionaries[locale] ?? flattenedDictionaries[defaultLocale]
 }
 

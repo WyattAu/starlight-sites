@@ -40,7 +40,7 @@ export interface ReviewViewProps {
   dueQueueLength: number
   flipped: boolean
   setFlipped: (f: boolean) => void
-  handleRate: (rating: number) => void
+  handleRate: (rating: Rating) => void
   setView: (view: string) => void
   setDueQueue: (q: string[]) => void
   prefersReducedMotion: boolean
@@ -82,7 +82,7 @@ export default function ReviewView(props: ReviewViewProps) {
           <div class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6">
             <div class="mb-2 text-emphasis-500 text-xs">{t('flashcard.question')}</div>
             <div class="text-center font-semibold text-lg leading-relaxed">
-              {props.currentCard()?.front}
+              {props.currentCard?.front}
             </div>
           </div>
           <div
@@ -91,7 +91,7 @@ export default function ReviewView(props: ReviewViewProps) {
           >
             <div class="mb-2 text-emphasis-500 text-xs">{t('flashcard.answer')}</div>
             <div class="text-center font-semibold text-lg leading-relaxed">
-              {props.currentCard()?.back}
+              {props.currentCard?.back}
             </div>
           </div>
         </div>

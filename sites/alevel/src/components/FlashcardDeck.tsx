@@ -81,7 +81,7 @@ function createKeyboardShortcuts(handlers: Record<string, () => void>) {
     const key = e.key === 'Spacebar' ? ' ' : e.key
     if (key in handlers) {
       e.preventDefault()
-      handlers[key]()
+      handlers[key]?.()
     }
   }
 
@@ -124,12 +124,12 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     return states
   })
 
-  const dueCards = createMemo(() => props.cards.filter(c => isDue(cardStates()[c.id], now)))
+  const dueCards = createMemo(() => props.cards.filter(c => isDue(cardStates()[c.id] ?? createDefaultState(), now)))
 
   const masteryBreakdown = createMemo(() => {
     const counts = { new: 0, learning: 0, review: 0, mastered: 0 }
     for (const card of props.cards) {
-      counts[getMasteryLevel(cardStates()[card.id])]++
+      counts[getMasteryLevel(cardStates()[card.id] ?? createDefaultState())]++
     }
     return counts
   })
@@ -141,7 +141,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   const avgEase = createMemo(() => {
     if (props.cards.length === 0) return DEFAULT_EASE
-    const sum = props.cards.reduce((acc, c) => acc + cardStates()[c.id].easeFactor, 0)
+    const sum = props.cards.reduce((acc, c) => acc + (cardStates()[c.id] ?? createDefaultState()).easeFactor, 0)
     return sum / props.cards.length
   })
 
@@ -157,7 +157,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   }
 
   const startReview = () => {
-    const due = props.cards.filter(c => isDue(cardStates()[c.id], Date.now()))
+    const due = props.cards.filter(c => isDue(cardStates()[c.id] ?? createDefaultState(), Date.now()))
     if (due.length === 0) return
     setDueQueue(due.map(c => c.id))
     setCurrentIndex(0)
@@ -167,7 +167,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   const handleRate = (rating: Rating) => {
     if (getCurrentIndex() >= getDueQueue().length) return
-    const cardId = getDueQueue()[getCurrentIndex()]
+    const cardId = getDueQueue()[getCurrentIndex()]!
     const prevState = cardStates()[cardId] ?? createDefaultState()
     const newState = applySM2(prevState, rating, Date.now())
     const entry = { cardId, rating, timestamp: Date.now() }
@@ -260,7 +260,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const currentCardId = createMemo(() => getDueQueue()[getCurrentIndex()] ?? null)
   const currentCard = createMemo(() => {
     const id = currentCardId()
-    return id ? props.cards.find(c => c.id === id) : null
+    return id ? (props.cards.find(c => c.id === id) ?? null) : null
   })
 
   if (props.cards.length === 0) {

@@ -118,7 +118,7 @@ export function pickNextQuestion(
   }
 
   // Random selection from candidates
-  return candidates[Math.floor(Math.random() * candidates.length)]
+  return candidates[Math.floor(Math.random() * candidates.length)] ?? null
 }
 
 export function computeResults(

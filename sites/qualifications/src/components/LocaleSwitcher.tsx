@@ -57,7 +57,7 @@ export default function LocaleSwitcher(props: LocaleSwitcherProps) {
         class="group flex items-center gap-1.5 rounded-lg border border-emphasis-300 bg-surface px-3 py-1.5 font-medium text-emphasis-700 text-sm transition-colors hover:bg-emphasis-100"
       >
         <IconGlobe size={16} />
-        <span>{currentLocale().nativeName}</span>
+        <span>{currentLocale()?.nativeName ?? ''}</span>
         <IconChevronDown size={12} class="transition-transform group-data-[expanded]:rotate-180" />
       </Select.Trigger>
       <Select.Portal>

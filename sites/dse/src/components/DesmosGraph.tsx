@@ -62,7 +62,7 @@ function parseExpression(input: string): DesmosExpression {
   let match: RegExpExecArray | null = paramRegex.exec(input)
 
   while (match !== null) {
-    params.add(match[1])
+    params.add(match[1] ?? "")
     match = paramRegex.exec(input)
   }
   params.delete('e')
@@ -169,7 +169,7 @@ export default function DesmosGraph(props: DesmosGraphProps) {
         let paramMatch: RegExpExecArray | null = paramRegex.exec(input)
 
         while (paramMatch !== null) {
-          const param = paramMatch[1]
+          const param = paramMatch[1] ?? ""
 
           if (!addedParams.has(param) && param !== 'e' && param !== 'i') {
             addedParams.add(param)

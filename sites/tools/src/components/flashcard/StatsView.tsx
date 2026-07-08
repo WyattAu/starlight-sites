@@ -47,9 +47,9 @@ export default function StatsView(props: StatsViewProps) {
         <StatBox label={t('flashcard.mastered')} value={props.masteredCount} />
         <StatBox
           label="Learning"
-          value={props.masteryBreakdown.learning + props.masteryBreakdown.review}
+          value={(props.masteryBreakdown.learning ?? 0) + (props.masteryBreakdown.review ?? 0)}
         />
-        <StatBox label="New" value={props.masteryBreakdown.new} />
+        <StatBox label="New" value={props.masteryBreakdown.new ?? 0} />
         <StatBox label={t('flashcard.streak')} value={`${props.streak} days`} />
         <StatBox label="Total Reviews" value={props.totalReviews} />
         <StatBox label="Avg Ease Factor" value={props.avgEase.toFixed(2)} />
