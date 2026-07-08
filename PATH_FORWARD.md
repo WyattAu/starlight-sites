@@ -169,11 +169,29 @@ with a specific condition.
 **Entry criteria:** R4 complete (new Astro features enable these).
 **Scope:** ROADMAP Phase H extensions.
 
+**ViewTransitions — verified finding: NOT WORKING in this stack.**
+
+Three approaches were tested and all failed:
+1. `viewTransitions: true` in astro.config.mjs → silently ignored (not a valid
+   Astro 6 config option).
+2. `import { ViewTransitions } from 'astro:transitions'` in the Starlight Head
+   override (`shared/components/starlight/Head.astro`) → Rollup module
+   resolution error.
+3. Same import in a regular Layout (`sites/main/src/layouts/Layout.astro`) →
+   identical Rollup error.
+
+The issue is with the `astro:transitions` virtual module resolution in the
+Astro 6.4.8 + @astrojs/solid-js 6.0.1 + Bun stack. This is a fundamental
+incompatibility, not a Starlight-specific problem (approaches 2 and 3 differ
+in context but produce the same error). The follow-up should investigate:
+(a) Bun-specific virtual module resolution for `astro:transitions`, (b) the
+Solid.js integration's compatibility with ViewTransitions, or (c) waiting for
+a Starlight or Astro patch that resolves the conflict.
+
 | Task | Effort | Notes |
 |------|--------|-------|
-| `@astrojs/partytown` trial | 1-2h | Offload analytics to web worker; Lighthouse measurement. |
-| `<ViewTransitions />` adoption | 2-4h | Enable cross-page animation on content sites. |
-| Build performance monitoring | 1h | Track build time trend across CI runs. |
+| ViewTransitions (blocked) | 2-4h | Investigate `astro:transitions` resolution in Bun/Solid stack |
+| Build remaining 7 sites | Automated | CI validates; same remark plugin pattern |
 
 ---
 
