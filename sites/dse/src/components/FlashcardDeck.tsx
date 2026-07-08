@@ -14,7 +14,6 @@
  */
 
 import { createEffect, createMemo, createSignal, onCleanup } from 'solid-js'
-import { toast } from 'solid-sonner'
 import { t } from '../i18n/config'
 import { type View } from './flashcard/constants'
 import {
@@ -31,6 +30,16 @@ import DeckView from './flashcard/DeckView'
 import ReviewView from './flashcard/ReviewView'
 import StatsView from './flashcard/StatsView'
 import SettingsDialog from './SettingsDialog'
+
+// Dynamic import of solid-sonner to avoid SSR breakage. The solid-sonner
+// module calls a client-only API at import time; importing it statically
+// in a component that's rendered during Astro prerender (even via
+// client:only) causes the SSR build to fail. Lazy-loading it only when
+// a toast is actually needed keeps the SSR bundle clean.
+async function showToast(type: 'success' | 'error', message: string) {
+  const { toast } = await import('solid-sonner')
+  toast[type](message)
+}
 
 export interface Flashcard {
   id: string
@@ -200,7 +209,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const handleReset = () => {
     persistData({ cardStates: {}, reviewHistory: [], lastStudyDate: null, streak: 0 })
     setView('deck')
-    toast.success('Deck reset')
+    showToast('success', 'Deck reset')
   }
 
   const handleExport = () => {
@@ -217,7 +226,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     a.download = `${props.deckId}-progress.json`
     a.click()
     URL.revokeObjectURL(url)
-    toast.success('Progress exported')
+    showToast('success', 'Progress exported')
   }
 
   const handleImport = () => {
@@ -233,12 +242,12 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           const data = JSON.parse(reader.result as string) as DeckData
           if (data.cardStates) {
             persistData(data)
-            toast.success('Progress imported')
+            showToast('success', 'Progress imported')
           } else {
-            toast.error('Invalid progress file')
+            showToast('error', 'Invalid progress file')
           }
         } catch {
-          toast.error('Failed to parse file')
+          showToast('error', 'Failed to parse file')
         }
       }
       reader.readAsText(file)
