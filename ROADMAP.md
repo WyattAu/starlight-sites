@@ -422,7 +422,7 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
 - [ ] Adopt `actionlint` in pre-commit (Go binary, run via `bunx` or a
   pre-built image) so workflow regressions are caught before push, not after
   the gate job fails in CI.
-- [ ] Add `bun audit` to the CI gate so known CVEs in the dependency tree
+- [x] Add `bun audit` to the CI gate so known CVEs in the dependency tree
   fail the build before deploy.
 - [ ] Replace `npx wrangler@4` invocations in CI with the project-pinned
   `@cloudflare/workers-types` + `wrangler` devDependency so the wrangler
@@ -541,3 +541,19 @@ updated; `bun audit` clean; wrangler version pinned to `bun.lock`.
 | 2026-06-19 | Declare `dompurify` as a root devDependency | Vite's resolver could not resolve the transitive (workspace-only) install from `shared/utils/sanitize.ts` under CI's `--frozen-lockfile` |
 | 2026-06-19 | Introduce Spatial Materialism + Amoebic UI token system | Five elevation tiers, organic radius ladder, fluid spacing scale, organic motion easing; verified in compiled CSS by GUI traversal |
 | 2026-06-19 | Extract e2e server utilities into `tests/e2e/lib/server.mjs` | Identical copies of buildSite / serveDirectory / SITES / SITE_PAGES in gui-snapshot.js and contrast-check.js; de-duplicated into a shared ESM module |
+| 2026-06-20 | Replace Docusaurus CSS shims with Starlight tokens (R1) | `--ifm-*` variables mapped to `--sl-color-*`; 41 files changed; regression guard added |
+| 2026-06-20 | Rebuild interactive components on Kobalte headless UI (R2a/b/c) | LocaleSwitcher (Select), PracticeProblem (RadioGroup), DiagnosticTest (RadioGroup); ~846 LOC removed net |
+| 2026-06-20 | Inline Lucide icon geometry (R3) | `shared/components/icons.tsx` with authentic 24x24 paths from @iconify-json/lucide; regression guard |
+| 2026-06-20 | Accept Astro 5.x CVEs until R4 (ADR-006) | Six high-severity CVEs unfixable in 5.18.2; risk assessed as low (static site, limited attack surface) |
+| 2026-06-21 | Neutralise stored XSS in Worker dashboard (P0-1) | User search queries interpolated into innerHTML without escaping; `esc()` helper added; regression test |
+| 2026-06-21 | Add root tsconfig.json with strict + noUncheckedIndexedAccess (P2-1) | `shared/` was never standalone-typechecked; 7 real bugs found (dead re-exports, type mismatches, wrong cast) |
+| 2026-06-21 | Extract Worker dashboard into own module (P2-2) | `worker.js` 963->830 LOC; dashboard HTML + client script isolated in `dashboard.js` |
+| 2026-06-21 | Re-enable 4 disabled Biome a11y rules (P2-3) | `useButtonType` + `useValidAriaRole` as error (0 violations); `useSemanticElements` + `noSvgWithoutTitle` as warn |
+| 2026-06-21 | Add bun audit CI step + weekly audit workflow (P1-1, P3-3) | Non-blocking (deferred until R4); ADR-006 documents acceptance; weekly `audit.yml` opens issues |
+| 2026-06-21 | Real branch coverage for DiagnosticTest (P1-2) | Stub reimplementations replaced with tests against real `pickNextQuestion`/`computeResults`; 13->16 logic tests |
+| 2026-06-21 | Astro 5->6 upgrade with client:only remark plugin (R4) | `client-only-directives.mjs` auto-injects `client:only="solid"` into MDX AST; zero content changes; tools (66p) + infrastructure (95p) build verified |
+| 2026-06-21 | Landing page migrated to Astro (R5) | 763-line static `index.html` deleted; Astro-native `index.astro` + `Layout.astro` verified (1m44s build) |
+| 2026-06-21 | FlashcardDeck split into view components | 522 LOC god-file -> 4 focused modules (344+113+128+72); DeckView, ReviewView, StatsView extracted with clear props interfaces |
+| 2026-06-21 | Enable noUncheckedIndexedAccess + fix 24 type errors | tsconfig strictness maximised; 24 array-access null-safety findings fixed across 5 files |
+| 2026-06-21 | ViewTransitions: verified as blocked | `astro:transitions` virtual module fails Rollup resolution in Astro 6 + Solid.js + Bun stack (3 approaches tested, all fail). Documented in PATH_FORWARD.md. |
+| 2026-06-21 | 5 definitive "typically" fixes in cell biology content | Remaining 126 uses reviewed as appropriate per ROADMAP Phase I-B |
