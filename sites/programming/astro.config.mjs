@@ -9,8 +9,8 @@ import mermaid from 'astro-mermaid'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
-import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
+import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
 
 export default defineConfig({
@@ -41,19 +41,31 @@ export default defineConfig({
               label: 'Environment & Toolchain',
               items: [{ autogenerate: { directory: 'enviroment_and_toolchain' } }],
             },
-            { label: 'Compilation Model', items: [{ autogenerate: { directory: 'compilation_model' } }] },
+            {
+              label: 'Compilation Model',
+              items: [{ autogenerate: { directory: 'compilation_model' } }],
+            },
             { label: 'Types', items: [{ autogenerate: { directory: 'types' } }] },
-            { label: 'Resource Management', items: [{ autogenerate: { directory: 'resource_management' } }] },
+            {
+              label: 'Resource Management',
+              items: [{ autogenerate: { directory: 'resource_management' } }],
+            },
             {
               label: 'Function Architecture',
               items: [{ autogenerate: { directory: 'function_architecture' } }],
             },
-            { label: 'Object Oriented', items: [{ autogenerate: { directory: 'object_oriented' } }] },
+            {
+              label: 'Object Oriented',
+              items: [{ autogenerate: { directory: 'object_oriented' } }],
+            },
             {
               label: 'Templates & Metaprogramming',
               items: [{ autogenerate: { directory: 'templates_and_metaprogramming' } }],
             },
-            { label: 'Standard Library', items: [{ autogenerate: { directory: 'standard_library' } }] },
+            {
+              label: 'Standard Library',
+              items: [{ autogenerate: { directory: 'standard_library' } }],
+            },
             { label: 'Concurrency', items: [{ autogenerate: { directory: 'concurrency' } }] },
           ],
         },

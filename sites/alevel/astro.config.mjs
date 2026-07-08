@@ -9,8 +9,8 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import Icons from 'unplugin-icons/vite'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
-import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
+import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 
 export default defineConfig({
   site: 'https://alevel.wyattau.com',
