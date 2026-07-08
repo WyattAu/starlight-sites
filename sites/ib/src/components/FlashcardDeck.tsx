@@ -8,14 +8,15 @@
  *   flashcard/sm2.ts        -- SM-2 algorithm and types
  *   flashcard/storage.ts    -- localStorage persistence
  *   flashcard/constants.ts  -- UI constants and config
+ *   flashcard/DeckView.tsx  -- Main deck view (stats, navigation)
+ *   flashcard/ReviewView.tsx -- SM-2 review loop (flip, rate)
+ *   flashcard/StatsView.tsx -- Review statistics
  */
 
-import { createEffect, createMemo, createSignal, For, onCleanup } from 'solid-js'
+import { createEffect, createMemo, createSignal, onCleanup } from 'solid-js'
 import { toast } from 'solid-sonner'
 import { t } from '../i18n/config'
-// biome-ignore lint/correctness/noUnusedImports: used via use:animate directive
-import { animate } from '../utils/animate'
-import { MASTERY_COLORS, MASTERY_LABELS, RATING_CONFIG, type View } from './flashcard/constants'
+import { type View } from './flashcard/constants'
 import {
   applySM2,
   type CardState,
@@ -26,6 +27,9 @@ import {
   type Rating,
 } from './flashcard/sm2'
 import { calculateStreak, type DeckData, loadDeck, saveDeck } from './flashcard/storage'
+import DeckView from './flashcard/DeckView'
+import ReviewView from './flashcard/ReviewView'
+import StatsView from './flashcard/StatsView'
 import SettingsDialog from './SettingsDialog'
 
 export interface Flashcard {
@@ -44,51 +48,10 @@ export interface FlashcardDeckProps {
 }
 
 export type { View } from './flashcard/constants'
-// Re-export types for backward compatibility. Each type is re-exported from
-// the module that actually defines it (previously these were all attributed
-// to ./flashcard/sm2, which does not define DeckData or View).
 export type { CardState, Rating } from './flashcard/sm2'
 export { applySM2, getMasteryLevel, isDue } from './flashcard/sm2'
 export type { DeckData } from './flashcard/storage'
 export { calculateStreak, loadDeck, saveDeck } from './flashcard/storage'
-
-const RatingButton = (props: {
-  config: (typeof RATING_CONFIG)[number]
-  onClick: (rating: Rating) => void
-  disabled: boolean
-}) => {
-  return (
-    <button
-      type="button"
-      disabled={props.disabled}
-      onClick={() => props.onClick(props.config.key)}
-      aria-label={`${props.config.label} (${props.config.shortcut})`}
-      class="flex-1 cursor-pointer rounded-lg px-2 py-2.5 font-semibold text-sm text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
-      style={
-        { '--rating-color': props.config.color, background: props.config.color } as Record<
-          string,
-          string
-        >
-      }
-    >
-      {props.config.label}
-      <span class="mt-0.5 block text-xs opacity-80">{props.config.shortcut}</span>
-    </button>
-  )
-}
-
-function StatBox(props: { label: string; value: string | number; highlight?: boolean }) {
-  return (
-    <div
-      class={`min-w-[90px] rounded-lg border px-4 py-3 text-center ${
-        props.highlight ? 'border-error bg-error/10' : 'border-emphasis-200 bg-emphasis-100'
-      }`}
-    >
-      <div class="font-bold text-xl">{props.value}</div>
-      <div class="text-emphasis-700 text-xs">{props.label}</div>
-    </div>
-  )
-}
 
 function ActionButton(props: {
   label: string
@@ -113,10 +76,6 @@ function ActionButton(props: {
   )
 }
 
-/**
- * Custom hook for keyboard shortcuts using native event handling.
- * Replaces manual createEffect + addEventListener pattern.
- */
 function createKeyboardShortcuts(handlers: Record<string, () => void>) {
   const handler = (e: KeyboardEvent) => {
     const key = e.key === 'Spacebar' ? ' ' : e.key
@@ -132,10 +91,6 @@ function createKeyboardShortcuts(handlers: Record<string, () => void>) {
   }
 }
 
-/**
- * Custom hook for prefers-reduced-motion media query.
- * Returns a reactive signal that tracks the media query state.
- */
 function createPrefersReducedMotion() {
   const [prefersReduced, setPrefersReduced] = createSignal(false)
 
@@ -157,7 +112,6 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const [getFlipped, setFlipped] = createSignal(false)
   const [getCurrentIndex, setCurrentIndex] = createSignal(0)
   const [getDueQueue, setDueQueue] = createSignal<string[]>([])
-  let cardRef: HTMLDivElement | undefined
 
   const now = Date.now()
   const prefersReducedMotion = createPrefersReducedMotion()
@@ -209,7 +163,6 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     setCurrentIndex(0)
     setFlipped(false)
     setView('review')
-    setTimeout(() => cardRef?.focus(), 50)
   }
 
   const handleRate = (rating: Rating) => {
@@ -221,9 +174,6 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     const lastStudyDate = Date.now()
     const data = getDeckData()
     const prevStreak = data ? calculateStreak(data) : 0
-    // Capture lastStudyDate once so the truthy guard narrows it for new Date();
-    // re-evaluating getDeckData()?.lastStudyDate inside new Date() defeats TS
-    // narrowing and yields `number | undefined`.
     const lastStudy = data?.lastStudyDate
     const lastDate = lastStudy ? new Date(lastStudy).toDateString() : ''
     const today = new Date().toDateString()
@@ -296,7 +246,6 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     input.click()
   }
 
-  // Keyboard shortcuts for review mode
   createEffect(() => {
     if (getView() !== 'review') return
     createKeyboardShortcuts({
@@ -333,170 +282,43 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
     >
       {getView() === 'deck' && (
-        <div class="text-center">
-          {props.title && <h3 class="mt-0 mb-1 font-semibold text-base">{props.title}</h3>}
-          {props.description && (
-            <p class="mt-0 mb-4 text-emphasis-700 text-sm">{props.description}</p>
-          )}
-
-          <div class="mb-4 flex flex-wrap justify-center gap-3">
-            <StatBox label={t('flashcard.total_cards')} value={props.cards.length} />
-            <StatBox
-              label={t('flashcard.due_today')}
-              value={dueCards().length}
-              highlight={dueCards().length > 0}
-            />
-            <StatBox label={t('flashcard.mastered')} value={masteredCount()} />
-            <StatBox label={t('flashcard.streak')} value={`${streak()}d`} />
-          </div>
-
-          <div class="mb-5 flex flex-wrap justify-center gap-2" use:animate>
-            <For each={Object.entries(masteryBreakdown())}>
-              {([level, count]) => (
-                <span
-                  class="inline-block rounded-full px-3 py-1 font-semibold text-white text-xs"
-                  style={{ background: MASTERY_COLORS[level] }}
-                >
-                  {MASTERY_LABELS[level]}: {count}
-                </span>
-              )}
-            </For>
-          </div>
-
-          <div class="mx-auto mt-3 w-full max-w-[520px]">
-            <div class="mb-1 flex justify-between text-xs">
-              <span>{t('flashcard.mastery')}</span>
-              <span>{masteryPercent()}%</span>
-            </div>
-            <div class="h-2 rounded bg-emphasis-200">
-              <div
-                class="h-full rounded bg-primary transition-[width]"
-                style={{ width: `${masteryPercent()}%` }}
-              />
-            </div>
-          </div>
-
-          <div class="mt-5 flex flex-wrap justify-center gap-2.5">
-            <ActionButton
-              label={t('flashcard.study_now')}
-              disabled={dueCards().length === 0}
-              onClick={startReview}
-              primary
-            />
-            <ActionButton label={t('flashcard.stats')} onClick={() => setView('stats')} />
-            <ActionButton label={t('flashcard.settings')} onClick={() => setView('settings')} />
-          </div>
-        </div>
+        <DeckView
+          title={props.title}
+          description={props.description}
+          cards={props.cards}
+          dueCards={dueCards()}
+          masteredCount={masteredCount()}
+          streak={streak()}
+          masteryBreakdown={masteryBreakdown()}
+          masteryPercent={masteryPercent()}
+          startReview={startReview}
+          setView={setView}
+        />
       )}
 
       {getView() === 'review' && (
-        <div>
-          <div class="mb-3 text-center text-emphasis-700 text-sm">
-            {t('flashcard.card_of', {
-              current: String(getCurrentIndex() + 1),
-              total: String(getDueQueue().length),
-            })}
-          </div>
-
-          <div class="mx-auto w-full max-w-[520px]" style={{ perspective: '1000px' }}>
-            <div
-              ref={el => {
-                cardRef = el
-              }}
-              tabIndex={0}
-              role="button"
-              aria-label={
-                getFlipped()
-                  ? 'Card answer shown. Rate your recall.'
-                  : 'Card question. Press Space to flip.'
-              }
-              onClick={() => setFlipped(!getFlipped())}
-              onKeyDown={e => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault()
-                  setFlipped(!getFlipped())
-                }
-              }}
-              class="relative min-h-[220px] w-full cursor-pointer"
-              style={{
-                'transform-style': 'preserve-3d',
-                transform: getFlipped() ? 'rotateY(180deg)' : 'rotateY(0)',
-                transition: prefersReducedMotion() ? 'none' : 'transform 0.6s',
-              }}
-            >
-              <div class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6">
-                <div class="mb-2 text-emphasis-500 text-xs">{t('flashcard.question')}</div>
-                <div class="text-center font-semibold text-lg leading-relaxed">
-                  {currentCard()?.front}
-                </div>
-              </div>
-              <div
-                class="backface-hidden absolute inset-0 box-border flex min-h-[220px] flex-col items-center justify-center rounded-xl border-2 border-emphasis-300 bg-surface p-7 px-6"
-                style={{ transform: 'rotateY(180deg)' }}
-              >
-                <div class="mb-2 text-emphasis-500 text-xs">{t('flashcard.answer')}</div>
-                <div class="text-center font-semibold text-lg leading-relaxed">
-                  {currentCard()?.back}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="mx-auto mt-5 flex max-w-[520px] gap-2 transition-[opacity]"
-            style={{
-              opacity: getFlipped() ? 1 : 0.3,
-              'pointer-events': getFlipped() ? 'auto' : 'none',
-            }}
-          >
-            <For each={RATING_CONFIG}>
-              {cfg => <RatingButton config={cfg} onClick={handleRate} disabled={!getFlipped()} />}
-            </For>
-          </div>
-
-          <div class="mt-4 text-center">
-            <button
-              type="button"
-              class="cursor-pointer rounded-lg border border-emphasis-300 bg-transparent px-5 py-2 text-sm"
-              onClick={() => {
-                setView('deck')
-                setDueQueue([])
-              }}
-            >
-              {t('flashcard.exit_review')}
-            </button>
-          </div>
-        </div>
+        <ReviewView
+          currentCard={currentCard()}
+          currentIndex={getCurrentIndex()}
+          dueQueueLength={getDueQueue().length}
+          flipped={getFlipped()}
+          setFlipped={setFlipped}
+          handleRate={handleRate}
+          setView={setView}
+          setDueQueue={setDueQueue}
+          prefersReducedMotion={prefersReducedMotion()}
+        />
       )}
 
       {getView() === 'stats' && (
-        <div class="text-center">
-          <h3 class="mt-0 mb-4 font-semibold text-base">{t('flashcard.stats')}</h3>
-          <div class="mb-6 flex flex-wrap justify-center gap-3">
-            <StatBox label={t('flashcard.mastered')} value={masteredCount()} />
-            <StatBox
-              label="Learning"
-              value={masteryBreakdown().learning + masteryBreakdown().review}
-            />
-            <StatBox label="New" value={masteryBreakdown().new} />
-            <StatBox label={t('flashcard.streak')} value={`${streak()} days`} />
-            <StatBox label="Total Reviews" value={totalReviews()} />
-            <StatBox label="Avg Ease Factor" value={avgEase().toFixed(2)} />
-          </div>
-          <div class="mb-6 flex flex-wrap justify-center gap-2" use:animate>
-            <For each={Object.entries(masteryBreakdown())}>
-              {([level, count]) => (
-                <span
-                  class="inline-block rounded-full px-3 py-1 font-semibold text-white text-xs"
-                  style={{ background: MASTERY_COLORS[level] }}
-                >
-                  {MASTERY_LABELS[level]}: {count}
-                </span>
-              )}
-            </For>
-          </div>
-          <ActionButton label="Back" onClick={() => setView('deck')} />
-        </div>
+        <StatsView
+          masteredCount={masteredCount()}
+          masteryBreakdown={masteryBreakdown()}
+          streak={streak()}
+          totalReviews={totalReviews()}
+          avgEase={avgEase()}
+          setView={setView}
+        />
       )}
 
       {getView() === 'settings' && (
