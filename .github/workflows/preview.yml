@@ -83,7 +83,7 @@ jobs:
         id: deploy
         working-directory: sites/${{ matrix.site }}
         run: |
-          DEPLOYMENT_URL=$(npx wrangler@4 pages deploy dist --project-name ${{ matrix.project }} --branch "pr-${{ github.event.pull_request.number }}" 2>&1 | grep -oP 'https://[^\s]+' | head -1)
+          DEPLOYMENT_URL=$(bunx wrangler pages deploy dist --project-name ${{ matrix.project }} --branch "pr-${{ github.event.pull_request.number }}" 2>&1 | grep -oP 'https://[^\s]+' | head -1)
           echo "url=$DEPLOYMENT_URL" >> "$GITHUB_OUTPUT"
           echo "## ${{ matrix.site }} Preview" >> $GITHUB_STEP_SUMMARY
           echo "- **URL**: $DEPLOYMENT_URL" >> $GITHUB_STEP_SUMMARY
