@@ -276,14 +276,14 @@ Linking, URL-based routing, and complex nested navigation patterns.
 
 Navigator 2.0 is built from four cooperating classes:
 
-1. **`RouteInformationProvider`** — Owns the current route information ( a URL string). It listens
+1. **`RouteInformationProvider`**. Owns the current route information ( a URL string). It listens
    to platform route changes (e.g., browser URL bar) and notifies the rest of the system.
-2. **`RouteInformationParser<T>`** — Converts raw route information (a string) into a typed
+2. **`RouteInformationParser<T>`**. Converts raw route information (a string) into a typed
    configuration object `T`. This is where URL parsing happens.
-3. **`RouterDelegate<T>`** — The central coordinator. It receives the parsed configuration, builds
+3. **`RouterDelegate<T>`**. The central coordinator. It receives the parsed configuration, builds
    the navigation stack, and tells the `Navigator` which pages to display. It also handles
    back-button dispatching.
-4. **`BackButtonDispatcher`** — Intercepts the system back button (Android) or browser back button
+4. **`BackButtonDispatcher`**. Intercepts the system back button (Android) or browser back button
    (web) and delegates to the `RouterDelegate`.
 
 ### How Navigator 2.0 Works Under the Hood

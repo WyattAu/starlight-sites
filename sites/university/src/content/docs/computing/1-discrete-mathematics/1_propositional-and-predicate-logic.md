@@ -149,9 +149,9 @@ Square brackets $[A]$ denote an assumption that is **discharged** after the rule
 <details>
 <summary>Solution</summary>
 
-1. $p \to q$ — premise
-2. $[\neg q]$ — assumption (for $\to$-I)
-3. $[p]$ — assumption (for $\neg$-I)
+1. $p \to q$. Premise
+2. $[\neg q]$. Assumption (for $\to$-I)
+3. $[p]$. Assumption (for $\neg$-I)
 4. $q$ — $\to$-E on 1, 3
 5. $\bot$ — $\neg$-E on 4, 2
 6. $\neg p$ — $\neg$-I on 3--5, discharging $[p]$
@@ -166,13 +166,13 @@ $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-1. $p \lor q$ — premise
-2. $\neg p$ — premise
-3. $[p]$ — assumption (left case for $\lor$-E)
+1. $p \lor q$. Premise
+2. $\neg p$. Premise
+3. $[p]$. Assumption (left case for $\lor$-E)
 4. $\bot$ — $\neg$-E on 3, 2
-5. $q$ — ex falso on 4
-6. $[q]$ — assumption (right case for $\lor$-E)
-7. $q$ — reiterate 6
+5. $q$. Ex falso on 4
+6. $[q]$. Assumption (right case for $\lor$-E)
+7. $q$. Reiterate 6
 8. $q$ — $\lor$-E on 1, 3--5, 6--7
 
 $\blacksquare$
@@ -184,13 +184,13 @@ $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-1. $p \land (q \lor r)$ — premise
+1. $p \land (q \lor r)$. Premise
 2. $p$ — $\land$-E$_1$ on 1
 3. $q \lor r$ — $\land$-E$_2$ on 1
-4. $[q]$ — assumption (left case for $\lor$-E on 3)
+4. $[q]$. Assumption (left case for $\lor$-E on 3)
 5. $p \land q$ — $\land$-I on 2, 4
 6. $(p \land q) \lor (p \land r)$ — $\lor$-I$_1$ on 5
-7. $[r]$ — assumption (right case for $\lor$-E on 3)
+7. $[r]$. Assumption (right case for $\lor$-E on 3)
 8. $p \land r$ — $\land$-I on 2, 7
 9. $(p \land q) \lor (p \land r)$ — $\lor$-I$_2$ on 8
 10. $(p \land q) \lor (p \land r)$ — $\lor$-E on 3, 4--6, 7--9

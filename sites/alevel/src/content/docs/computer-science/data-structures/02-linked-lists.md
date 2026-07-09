@@ -22,8 +22,8 @@ In memory.
 
 Each node contains:
 
-1. **Data field(s)** — the stored value
-2. **Pointer field(s)** — reference(s) to adjacent node(s)
+1. **Data field(s)**. The stored value
+2. **Pointer field(s)**. Reference(s) to adjacent node(s)
 
 ```python
 class Node:
@@ -853,10 +853,10 @@ Operation in a busy A&E department.
 
 2. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
-4. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Summary

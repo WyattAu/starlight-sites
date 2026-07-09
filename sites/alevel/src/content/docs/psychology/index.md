@@ -80,15 +80,15 @@ individual differences — all examined through empirical evidence and critical 
 
 ## Study Tips
 
-1. **Use the PEEL structure** — Point, Evidence (study/theory), Explanation, Link to the question.
+1. **Use the PEEL structure**. Point, Evidence (study/theory), Explanation, Link to the question.
    Every exam paragraph needs this.
-2. **Know key studies in detail** — aim, procedure, findings, conclusions, evaluation. For every
+2. **Know key studies in detail**. Aim, procedure, findings, conclusions, evaluation. For every
    major topic, memorise 2–3 landmark studies.
-3. **Evaluate using GRAVE** — Generalisability, Reliability, Application, Validity, Ethics. Apply
+3. **Evaluate using GRAVE**. Generalisability, Reliability, Application, Validity, Ethics. Apply
    this to every research study you discuss.
-4. **Compare approaches** — be able to evaluate the biological, behavioural, cognitive,
+4. **Compare approaches**. Be able to evaluate the biological, behavioural, cognitive,
    psychodynamic, and humanistic approaches for any given topic.
-5. **Practise research methods questions** — they appear on every paper and carry significant marks.
+5. **Practise research methods questions**. They appear on every paper and carry significant marks.
    Know how to calculate and interpret statistical tests.
 
 ## How to Use These Notes

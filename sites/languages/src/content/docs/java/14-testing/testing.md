@@ -705,15 +705,15 @@ Untested code, not as a target to gamify.
 
 ### Causes of Flakiness
 
-1. **Non-deterministic order** — tests that depend on execution order, hash map iteration order, or
+1. **Non-deterministic order**. Tests that depend on execution order, hash map iteration order, or
    `HashSet` ordering.
-2. **Time-dependent behavior** — tests that depend on wall-clock time, sleep durations, or timeout
+2. **Time-dependent behavior**. Tests that depend on wall-clock time, sleep durations, or timeout
    thresholds.
-3. **Concurrency** — tests that use threads, `CompletableFuture`Or async operations without proper
+3. **Concurrency**. Tests that use threads, `CompletableFuture`Or async operations without proper
    synchronization.
-4. **External dependencies** — tests that depend on databases, network services, or file system
+4. **External dependencies**. Tests that depend on databases, network services, or file system
    state.
-5. **Non-deterministic random** — tests that use `Math.random()` or `ThreadLocalRandom` without
+5. **Non-deterministic random**. Tests that use `Math.random()` or `ThreadLocalRandom` without
    seeds.
 
 ### Strategies for Reliable Tests

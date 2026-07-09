@@ -155,7 +155,7 @@ dtor
 **Proof:**
 
 1. The expression `T{args}` is a prvalue of type `T` [N4950 S7.3.4].
-2. A prvalue is not an object — it is an initializer [N4950 S7.3.4]/1.
+2. A prvalue is not an object. It is an initializer [N4950 S7.3.4]/1.
 3. When a prvalue of type `T` appears as the operand of a `return` statement in a function with
    return type `T`The prvalue initializes the result object directly [N4950 S8.4.4].
 4. Direct initialization of an object from a prvalue of the same type does not involve a copy or
@@ -382,9 +382,9 @@ Materialization points:
 1. **Binding to a reference.** When a prvalue binds to a `const T&` or `T&&`A temporary is created
    and the reference binds to it.
 2. **Member access on a prvalue class.** `Point{1, 2}.x` materializes the `Point` temporary.
-3. **Taking the address.** `&Point{1, 2}` is ill-formed in C++17 — you cannot take the address of a
+3. **Taking the address.** `&Point{1, 2}` is ill-formed in C++17. You cannot take the address of a
    prvalue. You must materialize it first: `const auto& r = Point{1, 2}; &r;`.
-4. **Initializing an object.** `T t = T{...};` — the prvalue initializes `t` directly (no separate
+4. **Initializing an object.** `T t = T{...};`. The prvalue initializes `t` directly (no separate
    temporary, due to guaranteed copy elision).
 5. **Using a prvalue in a condition.** `if (Point{1, 2}.x &gt; 0)` materializes the temporary.
 

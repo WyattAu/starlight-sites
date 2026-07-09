@@ -493,7 +493,7 @@ Blanche can wash but she cannot wash away the past.
 3. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Worked Examples

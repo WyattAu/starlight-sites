@@ -1147,7 +1147,7 @@ List<String> cities = List.of(user)
 2. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

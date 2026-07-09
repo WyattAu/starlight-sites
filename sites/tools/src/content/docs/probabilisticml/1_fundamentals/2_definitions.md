@@ -2134,7 +2134,7 @@ $\mathcal◆LB◆◆LB◆'◆RB◆M◆LB◆◆RB◆'◆RB◆$.
 3. Focusing only on content knowledge without developing exam technique and question-answering
    skills.
 
-4. Memorising content without understanding the underlying principles — this leads to poor
+4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 ## Summary

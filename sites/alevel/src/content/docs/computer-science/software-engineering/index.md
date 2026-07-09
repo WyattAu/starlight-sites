@@ -45,15 +45,15 @@ processes that ensure software meets its requirements reliably and maintainably.
 
 ## Study Tips
 
-1. **Compare lifecycle models with specific scenarios** — e.g., "A safety-critical medical system"
+1. **Compare lifecycle models with specific scenarios**. E.g., "A safety-critical medical system"
    suits waterfall; "A startup app with changing requirements" suits agile.
-2. **Learn testing types by example** — given a function, identify which tests are unit,
+2. **Learn testing types by example**. Given a function, identify which tests are unit,
    integration, etc.
-3. **Practise equivalence partitioning and boundary value analysis** — exam questions often provide
+3. **Practise equivalence partitioning and boundary value analysis**. Exam questions often provide
    a specification and ask you to design test cases.
-4. **Understand the maintenance types** — corrective (fixing bugs), adaptive (new environment),
+4. **Understand the maintenance types**. Corrective (fixing bugs), adaptive (new environment),
    perfective (new features). Know which is which.
-5. **Draw structure charts and DFDs** — visual design tools are frequently examined.
+5. **Draw structure charts and DFDs**. Visual design tools are frequently examined.
 
 ## How to Use These Notes
 

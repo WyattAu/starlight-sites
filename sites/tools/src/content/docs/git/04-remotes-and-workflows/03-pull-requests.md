@@ -211,10 +211,10 @@ Single commit — straightforward revert.
 
 ## PR Etiquette
 
-1. **Self-review** before requesting review — fix obvious issues yourself.
-2. **Keep PRs small** — review under 400 lines of changes.
+1. **Self-review** before requesting review. Fix obvious issues yourself.
+2. **Keep PRs small**. Review under 400 lines of changes.
 3. **Respond promptly** to review comments.
-4. **Push fixes** to the same branch — don't open a new PR.
+4. **Push fixes** to the same branch. Don't open a new PR.
 5. **Don't force-push** after someone has reviewed your code.
 6. **Thank reviewers** for their time and feedback.
 
@@ -228,7 +228,7 @@ Single commit — straightforward revert.
 3. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-4. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Worked Examples

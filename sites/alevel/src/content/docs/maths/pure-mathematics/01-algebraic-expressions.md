@@ -659,16 +659,16 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Rounding too early in multi-step calculations — carry full precision through and round only the
+1. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 2. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-3. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+3. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-4. Losing marks by not showing sufficient working — always write out each step, especially in proof
+4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 ## Summary

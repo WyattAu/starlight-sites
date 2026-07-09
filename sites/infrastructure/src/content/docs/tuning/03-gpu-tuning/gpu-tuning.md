@@ -65,10 +65,10 @@ Base and boost clocks.
 NVIDIA's GPU Boost (version 3.0 and later on Maxwell+) is an autonomous frequency scaling algorithm
 That continuously adjusts the GPU clock speed based on:
 
-1. **Power consumption** — Current draw vs. The configured power limit
-2. **Temperature** — Current temperature vs. The thermal throttling threshold
-3. **Voltage** — Current voltage vs. The maximum allowed voltage
-4. **Software limits** — Any application-specific clock limits
+1. **Power consumption**. Current draw vs. The configured power limit
+2. **Temperature**. Current temperature vs. The thermal throttling threshold
+3. **Voltage**. Current voltage vs. The maximum allowed voltage
+4. **Software limits**. Any application-specific clock limits
 
 The GPU operates at the highest frequency that satisfies all constraints. If temperature rises, the
 GPU reduces frequency to stay within the thermal limit. If power headroom exists, the GPU increases
@@ -212,7 +212,7 @@ Increases memory bandwidth, which benefits workloads that are memory-bandwidth b
 - 3DMark Time Spy (for gaming workloads)
 - AIDA64 GPGPU benchmark (for compute workloads)
 
-3. Watch for visual artifacts — colored squares, flashing textures, or screen corruption.
+3. Watch for visual artifacts. Colored squares, flashing textures, or screen corruption.
 4. When artifacts appear, reduce the offset by 100 MHz.
 5. Run a 30-minute stability test at the final setting.
 
@@ -394,14 +394,14 @@ Different benchmarks stress different aspects of the GPU:
 
 ### Proper Benchmarking Procedure
 
-1. **Warm up the GPU** — Run the benchmark once and discard the result. GPUs take time to reach
+1. **Warm up the GPU**. Run the benchmark once and discard the result. GPUs take time to reach
    thermal equilibrium.
-2. **Use consistent settings** — Same resolution, quality preset, driver version, and background
+2. **Use consistent settings**. Same resolution, quality preset, driver version, and background
    processes.
-3. **Run multiple iterations** — Take the median of 3–5 runs to account for variance.
-4. **Monitor during the benchmark** — Use HWiNFO64 or MSI Afterburner OSD to log temperature, power,
+3. **Run multiple iterations**. Take the median of 3–5 runs to account for variance.
+4. **Monitor during the benchmark**. Use HWiNFO64 or MSI Afterburner OSD to log temperature, power,
    clock speed, and fan speed.
-5. **Control variables** — Close all other applications, disable CPU boost limits, use the same
+5. **Control variables**. Close all other applications, disable CPU boost limits, use the same
    display refresh rate.
 
 ---
@@ -696,10 +696,10 @@ For meaningful benchmark comparisons, control these variables:
 
 Run this suite after any GPU tuning change:
 
-1. **3DMark Time Spy Stress Test** — 20 loops, record average and minimum scores.
-2. **Unigine Superposition** — 1080p Extreme preset, 5 runs, record average FPS and minimum FPS.
-3. **FurMark** — 15 minutes, record maximum temperature and power draw.
-4. **CUDA memtest** — If applicable, verify VRAM integrity after memory overclocking.
+1. **3DMark Time Spy Stress Test**. 20 loops, record average and minimum scores.
+2. **Unigine Superposition**. 1080p Extreme preset, 5 runs, record average FPS and minimum FPS.
+3. **FurMark**. 15 minutes, record maximum temperature and power draw.
+4. **CUDA memtest**. If applicable, verify VRAM integrity after memory overclocking.
 
 ### Interpreting Benchmark Variance
 

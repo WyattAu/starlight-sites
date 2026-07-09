@@ -63,15 +63,15 @@ distributions, and hypothesis testing — the foundations of data-driven decisio
 
 ## Study Tips
 
-1. **Draw diagrams** — Venn diagrams for probability, scatter plots for correlation, normal
+1. **Draw diagrams**. Venn diagrams for probability, scatter plots for correlation, normal
    distribution sketches for every $Z$-score question.
-2. **Show full working in hypothesis tests** — state $H_0$, $H_1$, calculate the test statistic,
+2. **Show full working in hypothesis tests**. State $H_0$, $H_1$, calculate the test statistic,
    find the $p$-value or critical value, compare, state conclusion in context.
-3. **Know when to use Binomial vs. Normal** — Binomial for counting successes in fixed trials;
+3. **Know when to use Binomial vs. Normal**. Binomial for counting successes in fixed trials;
    Normal for continuous measurements with a bell-shaped distribution.
-4. **Practise reading tables** — normal distribution tables and binomial tables require careful
+4. **Practise reading tables**. Normal distribution tables and binomial tables require careful
    reading. Check whether the table gives $P(Z < z)$ or $P(Z > z)$.
-5. **Interpret in context** — never just say "reject $H_0$"; say "there is sufficient evidence at
+5. **Interpret in context**. Never just say "reject $H_0$"; say "there is sufficient evidence at
    the 5% significance level to suggest that the mean has increased."
 
 ## How to Use These Notes

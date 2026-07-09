@@ -20,10 +20,10 @@ To the CPU, and sequential execution of instructions.
 
 ### Components
 
-1. **Central Processing Unit (CPU)** — executes instructions
-2. **Memory (RAM)** — stores both programs and data
-3. **Input/Output devices** — interact with the external world
-4. **System bus** — connects all components
+1. **Central Processing Unit (CPU)**. Executes instructions
+2. **Memory (RAM)**. Stores both programs and data
+3. **Input/Output devices**. Interact with the external world
+4. **System bus**. Connects all components
 
 ### Key Property: Stored Program Concept
 
@@ -542,7 +542,7 @@ Modern CPUs use modified Harvard: L1 cache is split into instruction cache (I-ca
 (D-cache), providing Harvard benefits at the fastest level. Beyond L1, memory is unified (Von
 Neumann) because:
 
-1. Main memory must be flexible — programs need to load data and instructions dynamically
+1. Main memory must be flexible. Programs need to load data and instructions dynamically
 2. Unified memory simplifies the memory management unit (MMU) design
 3. The cost of duplicate main memory buses is not justified given cache hit rates
 </details>
@@ -618,7 +618,7 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

@@ -607,7 +607,7 @@ building a personal test matrix.
 3. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 ## Summary

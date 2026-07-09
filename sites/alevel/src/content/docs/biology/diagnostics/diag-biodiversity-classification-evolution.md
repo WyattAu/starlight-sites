@@ -43,13 +43,13 @@ Expected number of heterozygous moths: $$0.42 \times 500 = 210$$
 
 (c) The five conditions for Hardy-Weinberg equilibrium:
 
-1. **No mutations** — the allele frequencies are not changing due to new mutations.
-2. **Random mating** — individuals mate without regard to genotype; no sexual selection.
-3. **No natural selection** — all genotypes have equal fitness; no selective advantage or
+1. **No mutations**. The allele frequencies are not changing due to new mutations.
+2. **Random mating**. Individuals mate without regard to genotype; no sexual selection.
+3. **No natural selection**. All genotypes have equal fitness; no selective advantage or
    disadvantage.
-4. **Extremely large population size** — genetic drift is negligible (no random fluctuations in
+4. **Extremely large population size**. Genetic drift is negligible (no random fluctuations in
    allele frequencies).
-5. **No gene flow (no migration)** — no individuals entering or leaving the population (no
+5. **No gene flow (no migration)**. No individuals entering or leaving the population (no
    immigration or emigration that would introduce or remove alleles).
 
 (d) The change in allele frequency ($b$ decreasing from 0.30 to 0.20) is **not consistent with
@@ -327,13 +327,13 @@ similarity between species, and state which method provides more detailed inform
 
 (a) Cytochrome c is a suitable protein because:
 
-1. It is **ubiquitous** — it is found in almost all aerobic organisms, from bacteria to humans,
+1. It is **ubiquitous**. It is found in almost all aerobic organisms, from bacteria to humans,
    allowing comparisons across a wide range of species.
-2. It is **functionally conserved** — it plays a critical role in the electron transport chain
+2. It is **functionally conserved**. It plays a critical role in the electron transport chain
    (carrying electrons between complex III and complex IV), so its function has been conserved over
    billions of years. This means the protein has changed very slowly over evolutionary time, and
    differences between species represent ancient divergences.
-3. It is of **appropriate length** — approximately 104 amino acids in mammals, long enough to
+3. It is of **appropriate length**. Approximately 104 amino acids in mammals, long enough to
    provide statistically meaningful comparisons but short enough to sequence .
 4. Its slow rate of change means it is useful for comparing **deeply divergent lineages** (e.g.,
    between kingdoms), whereas faster-evolving proteins (e.g., fibrinopeptides) are better for

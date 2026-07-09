@@ -44,15 +44,15 @@ for goodness of fit and independence.
 
 ## Study Tips
 
-1. **Know when to use each distribution** — Binomial for fixed trials, Poisson for rare events in a
+1. **Know when to use each distribution**. Binomial for fixed trials, Poisson for rare events in a
    fixed interval, Geometric for "first success" problems, Exponential for continuous waiting times.
-2. **Practise calculating expected frequencies** — for chi-squared tests, the expected values must
+2. **Practise calculating expected frequencies**. For chi-squared tests, the expected values must
    be calculated correctly before you can compute the test statistic.
-3. **Show all working in hypothesis tests** — state $H_0$ and $H_1$, calculate the test statistic,
+3. **Show all working in hypothesis tests**. State $H_0$ and $H_1$, calculate the test statistic,
    compare to critical value or find the $p$-value, state the conclusion in context.
-4. **Understand the memoryless property** of both Geometric and Exponential distributions — it is a
+4. **Understand the memoryless property** of both Geometric and Exponential distributions. It is a
    common exam topic that tests deep understanding.
-5. **Check integration** — continuous random variable problems require careful definite integration.
+5. **Check integration**. Continuous random variable problems require careful definite integration.
    Always verify bounds from the support of the distribution.
 
 ### Hypothesis Testing Workflow
@@ -61,9 +61,9 @@ Every hypothesis test follows the same five-step structure:
 
 1. **State hypotheses** — $H_0$ (null: no effect/difference) and $H_1$ (alternative)
 2. **Choose significance level** — $\alpha = 0.05$ or $0.01$
-3. **Calculate the test statistic** — using the appropriate distribution
-4. **Determine the critical region or $p$-value** — compare to $\alpha$
-5. **State the conclusion in context** — never just "reject $H_0$"; explain what this means for the
+3. **Calculate the test statistic**. Using the appropriate distribution
+4. **Determine the critical region or $p$-value**. Compare to $\alpha$
+5. **State the conclusion in context**. Never just "reject $H_0$"; explain what this means for the
    real-world situation
 
 ### Distribution Selection Guide

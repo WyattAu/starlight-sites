@@ -985,10 +985,10 @@ Following pairings are especially productive:
 
 2. Summarising the plot instead of exploring themes, characterisation, or narrative structure.
 
-3. Failing to embed quotations into analytical sentences — quotations should support your argument,
+3. Failing to embed quotations into analytical sentences. Quotations should support your argument,
    not stand alone.
 
-4. Ignoring context — always consider the social, historical, and literary context of the text.
+4. Ignoring context. Always consider the social, historical, and literary context of the text.
 
 ## Summary
 

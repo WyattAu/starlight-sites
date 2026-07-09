@@ -809,7 +809,7 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
    falls on a non-ASCII character boundary. Use `s.chars().nth(i)` for character indexing (O(n)) or
    `s.char_indices()` for byte-safe iteration.
 
-6. **Confusing `const` and `static`.** `const` values are inlined — they have no memory address. Use
+6. **Confusing `const` and `static`.** `const` values are inlined. They have no memory address. Use
    `static` when you need a single address (e.g., for a global counter, FFI callback, or
    `LazyLock`).
 

@@ -56,7 +56,7 @@ Direct construction of `T` in the caller's storage. No temporary object is creat
 **Proof:**
 
 1. `T{args}` is a prvalue of type `T` [N4950 S7.3.4].
-2. In C++17 and later, a prvalue is not an object. It is an initializer — a set of instructions for
+2. In C++17 and later, a prvalue is not an object. It is an initializer. A set of instructions for
    constructing an object of type `T` [N4950 S7.3.4]/1.
 3. When a prvalue of type `T` is used to initialize an object of type `T` (whether a local variable,
    a function parameter, or the return value of a function), the prvalue directly initializes the

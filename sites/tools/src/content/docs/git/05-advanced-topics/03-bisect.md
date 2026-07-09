@@ -203,7 +203,7 @@ $ git show a3f2b1c0
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

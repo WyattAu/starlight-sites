@@ -1571,16 +1571,16 @@ $$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{
 
 ## Common Pitfalls
 
-1. Forgetting to balance equations before performing calculations — always check that atoms and
+1. Forgetting to balance equations before performing calculations. Always check that atoms and
    charges balance on both sides.
 
-2. Writing half-equations without balancing charges or atoms — always check electrons, hydrogen
+2. Writing half-equations without balancing charges or atoms. Always check electrons, hydrogen
    ions, and water molecules.
 
-3. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+3. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
-4. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
 ## Summary

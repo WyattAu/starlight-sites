@@ -570,7 +570,7 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 ## Common Pitfalls
 
-1. Memorising content without understanding the underlying principles — this leads to poor
+1. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 2. Not practising with past papers or exercises under timed conditions.

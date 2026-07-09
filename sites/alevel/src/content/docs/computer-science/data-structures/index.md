@@ -51,15 +51,15 @@ design — it determines the complexity of every operation your program performs
 
 ## Study Tips
 
-1. **Draw diagrams** — data structures are visual. Sketch linked lists, trees, and graphs before
+1. **Draw diagrams**. Data structures are visual. Sketch linked lists, trees, and graphs before
    reasoning about operations.
-2. **Trace operations step by step** — especially insertions and deletions in linked lists and
+2. **Trace operations step by step**. Especially insertions and deletions in linked lists and
    trees, where pointer manipulation is error-prone.
-3. **Know the complexity tables** — memorise search, insert, and delete complexity for each
+3. **Know the complexity tables**. Memorise search, insert, and delete complexity for each
    structure. This is frequently tested.
-4. **Understand trade-offs** — e.g., arrays give $O(1)$ random access but expensive insertion;
+4. **Understand trade-offs**. E.g., arrays give $O(1)$ random access but expensive insertion;
    linked lists give $O(1)$ insertion but no random access.
-5. **Compare adjacency matrix and list** from memory — this is a common exam question.
+5. **Compare adjacency matrix and list** from memory. This is a common exam question.
 
 ## How to Use These Notes
 

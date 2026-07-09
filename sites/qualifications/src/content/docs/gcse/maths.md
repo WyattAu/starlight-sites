@@ -400,7 +400,7 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 
 1. **Show all working.** Method marks are awarded even if the final answer is wrong. An answer with no working shown scores zero if incorrect.
 
-2. **Read the question twice.** Identify exactly what is being asked — many marks are lost by answering a slightly different question from the one on the paper. Look for phrases like "give your answer in surd form" or "correct to 3 significant figures".
+2. **Read the question twice.** Identify exactly what is being asked. Many marks are lost by answering a slightly different question from the one on the paper. Look for phrases like "give your answer in surd form" or "correct to 3 significant figures".
 
 3. **Check your answer makes sense.** If asked for the length of a triangle's side and you get a negative number, something is wrong. Use estimation to verify: $4.7 \times 3.1 \approx 5 \times 3 = 15$.
 
@@ -410,7 +410,7 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 
 6. **Manage time carefully.** Roughly 1 mark per minute is a good guide. If a question is worth 1 mark, do not spend more than 1 minute on it. Move on and come back to difficult questions at the end.
 
-7. **Know what is given and what is not.** The formula sheet provides some formulas but not all. Memorise the quadratic formula, area and volume formulas, trigonometric ratios, and compound interest — these are not always provided.
+7. **Know what is given and what is not.** The formula sheet provides some formulas but not all. Memorise the quadratic formula, area and volume formulas, trigonometric ratios, and compound interest. These are not always provided.
 
 ---
 

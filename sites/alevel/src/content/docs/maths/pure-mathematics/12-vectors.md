@@ -829,16 +829,16 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Confusing position vectors with direction vectors — position vectors point from the origin.
+1. Confusing position vectors with direction vectors. Position vectors point from the origin.
 
 2. Forgetting that the scalar product gives a scalar, not a vector.
 
-3. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+3. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-4. Losing marks by not showing sufficient working — always write out each step, especially in proof
+4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-5. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+5. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 6. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

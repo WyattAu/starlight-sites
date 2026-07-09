@@ -115,10 +115,10 @@ $ git subtree add --prefix=vendor/lib --squash https://github.com/org/library.gi
 
 ### What Happens Internally
 
-1. `git fetch <repo-url> <ref>` — fetches the upstream branch/tag.
-2. `git read-tree --prefix=<dir> -u FETCH_HEAD` — reads the fetched tree into the index at the
+1. `git fetch <repo-url> <ref>`. Fetches the upstream branch/tag.
+2. `git read-tree --prefix=<dir> -u FETCH_HEAD`. Reads the fetched tree into the index at the
    specified prefix, updating the working tree.
-3. `git commit` — commits the result.
+3. `git commit`. Commits the result.
 
 With `--squash`Step 2 uses a synthetic merge base instead of replaying individual commits. The Merge
 commit's message contains the upstream SHA: `Squashed '<prefix>/' content from commit <sha>`.

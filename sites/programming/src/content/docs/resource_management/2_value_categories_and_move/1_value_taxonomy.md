@@ -613,7 +613,7 @@ Expanding the definition step by step for a call `std::move(x)` where `x` is an 
 2. **Remove reference:** `remove_reference_t&lt;int&amp;&gt;` = `int`.
 3. **Return type:** `int&&`.
 4. **Parameter type:** `T&&` = `int& &&` which collapses to `int&`.
-5. **Body:** `return static_cast&lt;int&&&gt;(t);` — casts the lvalue reference `t` to an rvalue
+5. **Body:** `return static_cast&lt;int&&&gt;(t);`. Casts the lvalue reference `t` to an rvalue
    reference.
 
 The resulting expression `static_cast&lt;int&&&gt;(x)` is an xvalue. No move constructor is called.

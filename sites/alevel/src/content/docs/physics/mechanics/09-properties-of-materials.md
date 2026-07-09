@@ -177,16 +177,16 @@ Material.
 
 ### Regions of the Graph
 
-1. **Linear (elastic) region** — from origin to limit of proportionality. Stress is proportional to
+1. **Linear (elastic) region**. From origin to limit of proportionality. Stress is proportional to
    strain; gradient $= E$.
-2. **Elastic region (non-linear)** — between limit of proportionality and elastic limit. The
+2. **Elastic region (non-linear)**. Between limit of proportionality and elastic limit. The
    material still returns to its original shape, but stress and strain are no longer proportional.
-3. **Plastic region** — beyond the elastic limit. Permanent deformation occurs. The material does
+3. **Plastic region**. Beyond the elastic limit. Permanent deformation occurs. The material does
    not fully recover on unloading.
-4. **Yield point** — the stress at which plastic deformation begins (well-defined in mild steel;
+4. **Yield point**. The stress at which plastic deformation begins (well-defined in mild steel;
    gradual in copper).
-5. **Ultimate tensile strength (UTS)** — the maximum stress the material can withstand.
-6. **Breaking point (fracture)** — the stress at which the material breaks.
+5. **Ultimate tensile strength (UTS)**. The maximum stress the material can withstand.
+6. **Breaking point (fracture)**. The stress at which the material breaks.
 
 ### Ductile Materials (e.g., Steel, Copper)
 
@@ -534,14 +534,14 @@ Or too low.
 
 **Answer.**
 
-1. **Measuring the diameter too small** — if the micrometer reads low, $A = \pi d^2/4$ is too small,
+1. **Measuring the diameter too small**. If the micrometer reads low, $A = \pi d^2/4$ is too small,
    so $E = FL/(A\,\Delta L)$ is too high. (Makes result too high.)
 
-2. **Not accounting for the initial sag or kinks in the wire** — some of the measured extension is
+2. **Not accounting for the initial sag or kinks in the wire**. Some of the measured extension is
    taken up by straightening the wire rather than elastic stretching, so $\Delta L$ is overestimated
    and $E$ is too low. (Makes result too low.)
 
-3. **Heating of the wire** — if the wire heats up during the experiment (due to repeated loading or
+3. **Heating of the wire**. If the wire heats up during the experiment (due to repeated loading or
    ambient temperature change), the wire expands, increasing $\Delta L$ and reducing $E$. (Makes
    result too low.)
 
@@ -591,13 +591,13 @@ self-marking and building a personal test matrix.
 1. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-2. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+2. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 3. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
 
-4. Misidentifying the system boundary when applying conservation laws — define what is included
+4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 ## Worked Examples

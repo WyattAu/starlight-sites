@@ -50,15 +50,15 @@ A-Level Geography is assessed through three written papers and a non-examined fi
 
 ## Study Tips
 
-1. **Use named case studies** — examiners reward specific, located examples with factual detail
+1. **Use named case studies**. Examiners reward specific, located examples with factual detail
    rather than vague generalisations.
-2. **Know your AO weightings** — AO1 (knowledge), AO2 (application), AO3 (analysis), AO4 (skills).
+2. **Know your AO weightings**. AO1 (knowledge), AO2 (application), AO3 (analysis), AO4 (skills).
    Higher-mark questions require balanced analysis and evaluation.
-3. **Practise 20- and 33-mark essays** — plan before writing; embed case studies throughout rather
+3. **Practise 20- and 33-mark essays**. Plan before writing; embed case studies throughout rather
    than bolted on at the end.
-4. **Master key terminology** — definitions are frequently tested directly in shorter-answer
+4. **Master key terminology**. Definitions are frequently tested directly in shorter-answer
    questions.
-5. **Link physical and human processes** — synoptic links are essential for Paper 3 and strengthen
+5. **Link physical and human processes**. Synoptic links are essential for Paper 3 and strengthen
    answers across all papers.
 
 ---

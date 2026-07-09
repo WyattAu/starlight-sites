@@ -87,22 +87,22 @@ STEM courses:
 
 Follow the sidebar order. Each topic page contains:
 
-1. **Rigorous definitions** — what the concept _is_, precisely
-2. **Theorems with proofs** — why the results hold
-3. **Worked examples** — applying the theory to exam-style problems
-4. **Intuition building** — the "why does this make sense?" perspective
-5. **Multi-step problem set** — questions that require chaining multiple concepts
-6. **Board-specific notes** — where specifications diverge
+1. **Rigorous definitions**. What the concept _is_, precisely
+2. **Theorems with proofs**. Why the results hold
+3. **Worked examples**. Applying the theory to exam-style problems
+4. **Intuition building**. The "why does this make sense?" perspective
+5. **Multi-step problem set**. Questions that require chaining multiple concepts
+6. **Board-specific notes**. Where specifications diverge
 
 > **Prerequisite:** These notes assume full mastery of A Level Mathematics. If you have not yet
 > completed the standard maths course, start with the [Mathematics](../maths/maths) notes first.
 
 ## Common Pitfalls
 
-1. Losing marks by not showing sufficient working — always write out each step, especially in proof
+1. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

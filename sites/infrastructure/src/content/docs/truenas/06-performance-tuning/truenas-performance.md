@@ -614,7 +614,7 @@ For SMB multichannel to work:
 1. TrueNAS must have multiple network interfaces.
 2. The client must be configured for multichannel (Windows 8+ and macOS support it natively).
 3. All interfaces must be on the same subnet (or use SMB3 encryption for cross-subnet).
-4. No manual bonding is needed — SMB handles it at the protocol level.
+4. No manual bonding is needed. SMB handles it at the protocol level.
 
 ```bash
 # Verify multichannel on TrueNAS

@@ -1430,7 +1430,7 @@ Continuous integration, responsible disclosure of vulnerabilities).
 
 2. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 4. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

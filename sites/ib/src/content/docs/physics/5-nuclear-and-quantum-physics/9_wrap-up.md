@@ -348,7 +348,7 @@ Frequency is incident upon it. It provided key evidence for the particle nature 
 
 1. **Threshold frequency ($f_0$):** Electrons are only emitted if the frequency of the incident
    light exceeds a minimum value, regardless of intensity.
-2. **Instantaneous emission:** Electrons are emitted immediately — there is no time delay, even at
+2. **Instantaneous emission:** Electrons are emitted immediately. There is no time delay, even at
    low intensity.
 3. **Intensity effect:** Increasing the intensity of light above $f_0$ increases the **number** of
    photoelectrons, not their maximum kinetic energy.
@@ -501,9 +501,7 @@ Diffraction is observable.
 
 ## Exam Tips for Nuclear and Quantum Physics
 
-1. **Always check units in nuclear problems.** Mass defect is often given in atomic mass units (u) —
-   convert to kg or use $1 \mathrm{ u} = 931.5$ MeV/c² directly. Energy may be in eV or MeV —
-   convert to joules when using SI formulae.
+1. **Always check units in nuclear problems.** Mass defect is often given in atomic mass units (u). Convert to kg or use $1 \mathrm{ u} = 931.5$ MeV/c² directly. Energy may be in eV or MeV. Convert to joules when using SI formulae.
 
 2. **Distinguish between activity, count rate, and number of nuclei.** Activity ($A = \lambda N$) is
    the rate of decay. Count rate is what a detector measures (always less than activity). $N$ is the
@@ -529,10 +527,10 @@ Diffraction is observable.
 2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-3. Using the wrong equation from the data sheet — take time to read the full equation, including
+3. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-4. Misidentifying the system boundary when applying conservation laws — define what is included
+4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 ## Summary

@@ -1191,10 +1191,10 @@ For the A-Level treatment of this topic, see
 
 ## Common Pitfalls
 
-1. Forgetting to balance equations before performing calculations — always check that atoms and
+1. Forgetting to balance equations before performing calculations. Always check that atoms and
    charges balance on both sides.
 
-2. Writing half-equations without balancing charges or atoms — always check electrons, hydrogen
+2. Writing half-equations without balancing charges or atoms. Always check electrons, hydrogen
    ions, and water molecules.
 
 3. Assuming that a strong acid always has a lower pH than a weak acid without considering

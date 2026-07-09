@@ -1926,7 +1926,7 @@ $$\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%$$
 
 ## Common Pitfalls
 
-1. Confusing structural isomers with stereoisomers — structural isomers have different bonding
+1. Confusing structural isomers with stereoisomers. Structural isomers have different bonding
    arrangements; stereoisomers have the same connectivity.
 
 2. Forgetting that primary alcohols can be oxidised to aldehydes then carboxylic acids, but
@@ -1935,11 +1935,11 @@ $$\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%$$
 3. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
-4. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+4. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
 5. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
 
-6. Misidentifying the limiting reagent — compare mole ratios rather than comparing masses.
+6. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.
    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/organic-chemistry.md
 

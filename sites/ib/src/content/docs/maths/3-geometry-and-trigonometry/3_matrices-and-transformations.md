@@ -1455,10 +1455,10 @@ $$= \frac{1}{2}\begin{pmatrix} 1 & 81 \\ -1 & 81 \end{pmatrix}\begin{pmatrix} 1 
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-2. Confusing $\sin(2x)$ with $2\sin(x)$ — double-angle formulas are not the same as scalar
+2. Confusing $\sin(2x)$ with $2\sin(x)$. Double-angle formulas are not the same as scalar
    multiplication.
 
 ## Summary

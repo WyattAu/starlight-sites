@@ -1262,7 +1262,7 @@ If you get this wrong, revise: [Price Controls and Welfare](#price-controls-and-
 
    > > > > > > > Stashed changes:docs/docs_dse/Economics/demand-supply-markets.md
 
-2. Confusing a movement along a curve with a shift of the curve — movements are caused by price
+2. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
 
 along) or a decrease (shift) of the demand curve.

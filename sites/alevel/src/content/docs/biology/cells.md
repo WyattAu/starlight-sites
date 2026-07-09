@@ -1975,10 +1975,10 @@ differential centrifugation.
 
 2. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.
 
-3. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+3. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
-4. Confusing DNA replication (S phase) with transcription or translation — be clear about which
+4. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
 ## Worked Examples

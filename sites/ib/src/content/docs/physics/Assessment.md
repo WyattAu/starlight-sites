@@ -233,13 +233,13 @@ Examination session and vary from session to session depending on the difficulty
 1. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
 
-2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
-3. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+3. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
-4. Using the wrong equation from the data sheet — take time to read the full equation, including
+4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 ## Summary

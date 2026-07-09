@@ -978,19 +978,19 @@ and building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Forgetting the chain rule when integrating composite functions — look for an inner function and
+1. Forgetting the chain rule when integrating composite functions. Look for an inner function and
    its derivative.
 
-2. Confusing definite and indefinite integrals — definite integrals give a numerical value;
+2. Confusing definite and indefinite integrals. Definite integrals give a numerical value;
    indefinite integrals give a family of functions.
 
-3. Incorrectly applying limits of integration after a substitution — remember to change the limits
+3. Incorrectly applying limits of integration after a substitution. Remember to change the limits
    to the new variable.
 
 4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-5. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+5. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 6. Cancelling terms instead of factors — $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.

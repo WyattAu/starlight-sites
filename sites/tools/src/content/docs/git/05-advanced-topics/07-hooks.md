@@ -34,12 +34,12 @@ Server-side `pre-receive` hook.
 
 Git discovers hooks through a well-defined search path:
 
-1. **`.git/hooks/`** — the default location. When you `git init` a repository, Git populates this
+1. **`.git/hooks/`**. The default location. When you `git init` a repository, Git populates this
    directory with sample hook scripts (all suffixed with `.sample` so they do not execute). Git only
    looks for files that are **exactly named** after the hook event — no extensions, no suffixes. A
    file named `pre-commit.sh` will never run; it must be named `pre-commit`.
 
-2. **`core.hooksPath`** — a configuration override that points Git to an alternative directory. This
+2. **`core.hooksPath`**. A configuration override that points Git to an alternative directory. This
    is the mechanism that tools like Husky and Lefthook use to redirect hook execution to a managed
    directory:
 

@@ -636,7 +636,7 @@ tag Alongside the pointer, or use hazard pointers.
    implementation artifact of LL/SC instructions on some architectures. Never assume a single
    `compare_exchange_weak` succeeds.
 
-3. **`std::atomic&lt;T&gt;` is neither copyable nor movable:** This is intentional — copying an
+3. **`std::atomic&lt;T&gt;` is neither copyable nor movable:** This is intentional. Copying an
    atomic would be a race condition (the copy would not be atomic with respect to other threads).
    Use `load()` and `store()` explicitly.
 

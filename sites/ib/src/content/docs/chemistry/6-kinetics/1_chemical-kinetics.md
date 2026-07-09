@@ -1076,13 +1076,13 @@ $$k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1
 1. Forgetting to convert between units (e.g., $\text{cm}^3$ to $\text{dm}^3$) when calculating
    concentrations.
 
-2. Writing half-equations without balancing charges or atoms — always check electrons, hydrogen
+2. Writing half-equations without balancing charges or atoms. Always check electrons, hydrogen
    ions, and water molecules.
 
 3. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
-4. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
 ## Cross-References

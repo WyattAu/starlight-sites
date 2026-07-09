@@ -86,7 +86,7 @@ pitfalls, and exam-style problems.
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 2. Cancelling terms instead of factors — $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.

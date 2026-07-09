@@ -210,7 +210,7 @@ This guide is organized into the following sections:
 
 ## Common Pitfalls
 
-1. Confusing `git reset` and `git revert` — reset moves the branch pointer; revert creates a new
+1. Confusing `git reset` and `git revert`. Reset moves the branch pointer; revert creates a new
    commit that undoes changes.
 
 2. Forgetting to pull before pushing when working collaboratively, leading to merge conflicts.
@@ -220,7 +220,7 @@ This guide is organized into the following sections:
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-5. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+5. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 6. Writing pseudocode that is too language-specific rather than using standard algorithmic

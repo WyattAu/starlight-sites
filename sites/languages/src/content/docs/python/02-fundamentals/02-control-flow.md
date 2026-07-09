@@ -1051,7 +1051,7 @@ Resource management.
 
 3. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-4. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Summary

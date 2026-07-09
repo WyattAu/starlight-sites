@@ -422,7 +422,7 @@ $\lambda t = \ln 16 = 4\ln 2$. $t = 4\ln 2/\lambda = 4t_{1/2} = 4 \times 8.04 = 
 
 1. Confusing atomic number (protons) with mass number (protons + neutrons).
 
-2. Forgetting that radioactive decay is random and spontaneous — it cannot be predicted for
+2. Forgetting that radioactive decay is random and spontaneous. It cannot be predicted for
    individual nuclei.
 
 3. Misunderstanding that half-life is constant regardless of the initial amount of substance.
@@ -430,7 +430,7 @@ $\lambda t = \ln 16 = 4\ln 2$. $t = 4\ln 2/\lambda = 4t_{1/2} = 4 \times 8.04 = 
 4. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-5. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+5. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 6. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world

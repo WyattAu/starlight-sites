@@ -108,7 +108,7 @@ $$
 2. Zeros between non-zero digits are significant.
 3. Leading zeros are **not** significant.
 4. Trailing zeros after a decimal point are significant.
-5. Trailing zeros without a decimal point are **not** significant (ambiguous — use scientific
+5. Trailing zeros without a decimal point are **not** significant (ambiguous. Use scientific
    notation).
 
 | Value               | Sig Figs | Notes                               |

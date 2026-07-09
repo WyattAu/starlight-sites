@@ -67,7 +67,7 @@ pitfalls, and exam-style problems.
 3. Misinterpreting graphs by confusing the independent and dependent variables or reading scales
    incorrectly.
 
-4. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+4. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    "phospholipid bilayer' not 'membrane').
 
 ## Overview

@@ -50,15 +50,15 @@ models that govern these processes.
 
 ## Study Tips
 
-1. **Draw the OSI and TCP/IP models side by side** — memorise which protocols operate at which
+1. **Draw the OSI and TCP/IP models side by side**. Memorise which protocols operate at which
    layer.
-2. **Trace a packet** from application layer through to physical — describe what headers are added
+2. **Trace a packet** from application layer through to physical. Describe what headers are added
    at each layer (encapsulation).
-3. **Compare TCP and UDP** with specific use cases — e.g., TCP for web browsing, UDP for video
+3. **Compare TCP and UDP** with specific use cases. E.g., TCP for web browsing, UDP for video
    streaming.
-4. **Practise IP subnetting** — calculating network address, broadcast address, and host range from
+4. **Practise IP subnetting**. Calculating network address, broadcast address, and host range from
    an IP and subnet mask.
-5. **Link security concepts** to real-world scenarios — exam questions often describe a situation
+5. **Link security concepts** to real-world scenarios. Exam questions often describe a situation
    and ask which protection to apply.
 
 ## How to Use These Notes

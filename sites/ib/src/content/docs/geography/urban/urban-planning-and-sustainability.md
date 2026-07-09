@@ -248,15 +248,15 @@ For related topics, see [./urbanisation-trends-and-patterns](./urbanisation-tren
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-2. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-4. Losing marks by not showing sufficient working — always write out each step, especially in proof
+4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 ## Summary

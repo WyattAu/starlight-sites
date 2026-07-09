@@ -166,9 +166,9 @@ Devices).
 Symmetric encryption is only as secure as key management. The key must be:
 
 1. **Generated with a CSPRNG** (never derived from passwords, timestamps, or process IDs)
-2. **Stored securely** (HSM, KMS, sealed secrets — never in source code or environment variables)
+2. **Stored securely** (HSM, KMS, sealed secrets. Never in source code or environment variables)
 3. **Rotated regularly** (with forward secrecy preserved during rotation)
-4. **Destroyed when no longer needed** (cryptographic erasure — overwriting key material in memory)
+4. **Destroyed when no longer needed** (cryptographic erasure. Overwriting key material in memory)
 
 ```bash
 # Generate a 256-bit random key (Linux)

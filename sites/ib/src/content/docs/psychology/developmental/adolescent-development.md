@@ -263,7 +263,7 @@ For an overview of developmental topics, see
 
 ## Common Pitfalls
 
-1. Making generalisations without supporting case study evidence — always reference specific
+1. Making generalisations without supporting case study evidence. Always reference specific
    locations and data.
 
 2. Neglecting to consider multiple scales (local, regional, national, global) in geographical

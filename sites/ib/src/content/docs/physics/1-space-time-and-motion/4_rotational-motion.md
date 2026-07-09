@@ -871,10 +871,10 @@ self-marking and building a personal test matrix.
 2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-3. Using the wrong equation from the data sheet — take time to read the full equation, including
+3. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-4. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+4. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 ## Cross-References

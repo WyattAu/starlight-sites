@@ -756,20 +756,20 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 
 ## Common Pitfalls
 
-1. Confusing position vectors with direction vectors — position vectors point from the origin.
+1. Confusing position vectors with direction vectors. Position vectors point from the origin.
 
 2. Forgetting that the scalar product gives a scalar, not a vector.
 
 3. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-4. Rounding too early in multi-step calculations — carry full precision through and round only the
+4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
-5. Losing marks by not showing sufficient working — always write out each step, especially in proof
+5. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-6. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+6. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 ## Summary
 

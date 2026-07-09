@@ -2292,7 +2292,7 @@ inactive form.
 > **Tip:** Diagnostic Test
 ## Common Pitfalls
 
-1. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 2. Misinterpreting graphs by confusing the independent and dependent variables or reading scales

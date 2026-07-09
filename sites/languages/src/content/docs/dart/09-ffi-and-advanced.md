@@ -412,7 +412,7 @@ Will not promote it inside the closure.
 
 When migrating legacy Dart code to null safety:
 
-1. **Add `?` to types that can be null.** This is the safest first step — it makes the type system
+1. **Add `?` to types that can be null.** This is the safest first step. It makes the type system
    honest about what the code actually does.
 2. **Replace `!` assertions with guard clauses.** Every `!` is a potential crash site. Guard clauses
    make the handling explicit.
@@ -1095,11 +1095,11 @@ Interleaved — there is no global ordering guarantee across multiple senders.
 
 Dart's event loop processes two types of tasks:
 
-1. **Microtasks** — High-priority tasks scheduled with `scheduleMicrotask` or via `Future.then()`.
+1. **Microtasks**. High-priority tasks scheduled with `scheduleMicrotask` or via `Future.then()`.
    Microtasks run to completion before the event loop processes the next event. They are used for
    internal async plumbing.
 
-2. **Events (macrotasks)** — I/O events, timers, UI events, isolate messages, etc. The event loop
+2. **Events (macrotasks)**. I/O events, timers, UI events, isolate messages, etc. The event loop
    processes one event at a time, running all microtasks queued during event processing before
    moving to the next event.
 

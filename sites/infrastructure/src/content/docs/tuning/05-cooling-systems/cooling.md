@@ -10,7 +10,7 @@ description: "Every cooling solution relies on three mechanisms of heat transfer
 
 Every cooling solution relies on three mechanisms of heat transfer:
 
-1. **Conduction** — Heat transfer through a solid material without bulk motion. Governed by
+1. **Conduction**. Heat transfer through a solid material without bulk motion. Governed by
    Fourier"s law:
 
 $$
@@ -20,11 +20,11 @@ $$
 Where $q$ is heat flux (W), $k$ is thermal conductivity (W/m·K), $A$ is the cross-sectional area
 (m$^2$), and $dT/dx$ is the temperature gradient (K/m).
 
-2. **Convection** — Heat transfer between a solid surface and a moving fluid (air or liquid). The
+2. **Convection**. Heat transfer between a solid surface and a moving fluid (air or liquid). The
    heat transfer coefficient depends on fluid velocity, viscosity, and surface geometry. Forced
    convection (fans or pumps) provides significantly higher heat transfer than natural convection.
 
-3. **Radiation** — Heat transfer via electromagnetic radiation. Governed by the Stefan-Boltzmann
+3. **Radiation**. Heat transfer via electromagnetic radiation. Governed by the Stefan-Boltzmann
    law:
 
 $$
@@ -292,9 +292,8 @@ Bottom: Intake (filtered) — provides cool air to GPU
 1. Never have all fans as intake or all as exhaust. You need both.
 2. Front and bottom intakes should have dust filters.
 3. Rear and top exhaust should be unrestricted.
-4. Avoid mixing GPU intake from front (bottom of case) with CPU exhaust from rear (top of case) —
-   this creates a heat recirculation zone.
-5. Cable management matters — cables blocking airflow can increase temperatures by 5–10 °C.
+4. Avoid mixing GPU intake from front (bottom of case) with CPU exhaust from rear (top of case). This creates a heat recirculation zone.
+5. Cable management matters. Cables blocking airflow can increase temperatures by 5–10 °C.
 
 ### Mesh vs. Glass Front Panels
 
@@ -382,11 +381,11 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ### Noise Sources Ranked
 
-1. **GPU fans** — the loudest component under gaming load (40–50 dBA).
-2. **CPU fans** — Significant under sustained multi-core load (35–45 dBA).
-3. **Case fans** — moderate (20–35 dBA) if properly selected.
-4. **PSU fan** — quiet (20–30 dBA) unless under heavy load.
-5. **Pump (AIO/custom)** — quiet (15–25 dBA) but can develop noise over time.
+1. **GPU fans**. The loudest component under gaming load (40–50 dBA).
+2. **CPU fans**. Significant under sustained multi-core load (35–45 dBA).
+3. **Case fans**. Moderate (20–35 dBA) if properly selected.
+4. **PSU fan**. Quiet (20–30 dBA) unless under heavy load.
+5. **Pump (AIO/custom)**. Quiet (15–25 dBA) but can develop noise over time.
 
 ### Decibel Reference
 

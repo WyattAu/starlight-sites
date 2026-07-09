@@ -264,7 +264,7 @@ but do **not** change the $\Delta H$ or equilibrium position.
    between the $\mathrm{-NH_2}$ of one amino acid and the $\mathrm{-COOH}$ of another, with the loss
    of $\mathrm{H_2O}$.
 
-3. **Claiming enzymes are "used up" in reactions.** Enzymes are catalysts — they are regenerated at
+3. **Claiming enzymes are "used up" in reactions.** Enzymes are catalysts. They are regenerated at
    the end of each reaction cycle.
 
 4. **Confusing DNA and RNA.** Key differences: RNA is single-stranded, has ribose (not deoxyribose),

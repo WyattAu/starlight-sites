@@ -123,7 +123,7 @@ int main() {
 Marking a function `noexcept` gives the compiler permission to:
 
 1. **Omit unwind tables** for that function on some platforms.
-2. **Assume non-throwing** when inlining — enabling optimizations that would otherwise be invalid if
+2. **Assume non-throwing** when inlining. Enabling optimizations that would otherwise be invalid if
    a callee could throw.
 3. **Elide exception-related bookkeeping** in callers.
 

@@ -220,7 +220,7 @@ For related topics, see [./trade-and-aid](./trade-and-aid) and
 
 ## Common Pitfalls
 
-1. Rounding too early in multi-step calculations — carry full precision through and round only the
+1. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both
@@ -229,7 +229,7 @@ For related topics, see [./trade-and-aid](./trade-and-aid) and
 3. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 ## Summary

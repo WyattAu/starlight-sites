@@ -840,13 +840,13 @@ building a personal test matrix.
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-2. Rounding too early in multi-step calculations — carry full precision through and round only the
+2. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
-3. Losing marks by not showing sufficient working — always write out each step, especially in proof
+3. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 ## Summary

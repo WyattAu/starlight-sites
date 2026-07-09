@@ -1004,13 +1004,13 @@ uncertain and time-varying.
 
 1. Forgetting to distinguish between short-run and long-run effects in macroeconomic analysis.
 
-2. Confusing a movement along a curve with a shift of the curve — movements are caused by price
+2. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
 
 3. Neglecting to consider the ceteris paribus assumption when analysing multi-variable economic
    scenarios.
 
-4. Confusing nominal and real values — always adjust for inflation when comparing monetary values
+4. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
 ## Summary

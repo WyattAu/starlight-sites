@@ -1239,12 +1239,12 @@ _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 
 1. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Summary

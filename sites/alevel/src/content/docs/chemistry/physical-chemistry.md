@@ -67,10 +67,10 @@ $$\mathrm{X}(g) \to \mathrm{X}^+(g) + e^-$$
 
 ### Mass Spectrometry
 
-1. **Ionisation** — electron impact removes an electron
-2. **Acceleration** — electric field accelerates ions
-3. **Deflection** — magnetic field bends lighter ions more
-4. **Detection** — measures mass-to-charge ratio ($m/z$)
+1. **Ionisation**. Electron impact removes an electron
+2. **Acceleration**. Electric field accelerates ions
+3. **Deflection**. Magnetic field bends lighter ions more
+4. **Detection**. Measures mass-to-charge ratio ($m/z$)
 
 The **relative atomic mass** is calculated from the weighted average of isotopes:
 

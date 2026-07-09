@@ -1114,8 +1114,7 @@ Second half: "Yet we should not pass up our opportunities in that critical 3%."
 
 The engineering discipline is:
 
-1. **Write correct, clear code first.** Correctness is non-negotiable. Clarity is a force multiplier
-   — clear code is easier to debug, test, and maintain.
+1. **Write correct, clear code first.** Correctness is non-negotiable. Clarity is a force multiplier. Clear code is easier to debug, test, and maintain.
 2. **Measure before optimizing.** Use cProfile or py-spy to identify the actual bottleneck. Your
    intuition about what is slow is almost certainly wrong.
 3. **Optimize the measured bottleneck.** Make one change, measure again, confirm the improvement. If

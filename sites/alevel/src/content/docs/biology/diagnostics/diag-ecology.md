@@ -323,7 +323,7 @@ energy transfer between trophic levels).
 1. **Respiration**: organisms use a large proportion of consumed energy for their own metabolic
    processes (cellular respiration), releasing energy as heat (and CO$_2$ and water). This energy is
    not available to the next trophic level.
-2. **Excretion and egestion**: not all consumed material is absorbed — some passes through the
+2. **Excretion and egestion**: not all consumed material is absorbed. Some passes through the
    digestive system as faeces (egestion), and nitrogenous waste (urea) is excreted. This energy is
    transferred to decomposers, not to the next trophic level.
 3. **Incomplete consumption**: not all biomass at one trophic level is eaten by the next (e.g.,

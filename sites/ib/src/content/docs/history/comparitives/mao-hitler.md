@@ -214,12 +214,12 @@ When comparing Mao and Hitler, structure your essay thematically:
 The Holocaust was the systematic, state-sponsored genocide of approximately 6 million Jews by Nazi
 Germany. Key stages:
 
-1. **1933–1938**: Legal discrimination — Nuremberg Laws, exclusion from professions, boycotts of
+1. **1933–1938**: Legal discrimination. Nuremberg Laws, exclusion from professions, boycotts of
    Jewish businesses.
-2. **1938–1939**: Escalation — Kristallnacht, forced emigration, ghettoization in Eastern Europe.
-3. **1939–1941**: Invasion and expansion — Einsatzgruppen (mobile killing units) followed the German
+2. **1938–1939**: Escalation. Kristallnacht, forced emigration, ghettoization in Eastern Europe.
+3. **1939–1941**: Invasion and expansion. Einsatzgruppen (mobile killing units) followed the German
    army into Poland and the Soviet Union, conducting mass shootings.
-4. **1941–1945**: The "Final Solution" — construction of extermination camps (Auschwitz-Birkenau,
+4. **1941–1945**: The "Final Solution". Construction of extermination camps (Auschwitz-Birkenau,
    Treblinka, Sobibor) using gas chambers. An estimated 2.7 million Jews were murdered in these
    camps alone.
 
@@ -586,11 +586,11 @@ Planning notes:
 1. Presenting a one-sided argument without considering alternative interpretations or
    counter-evidence.
 
-2. Writing in the present tense about historical events — use the past tense consistently.
+2. Writing in the present tense about historical events. Use the past tense consistently.
 
-3. Presenting facts without analysis — examiners want to see interpretation, not just description.
+3. Presenting facts without analysis. Examiners want to see interpretation, not just description.
 
-4. Confusing causes, events, and consequences — be clear about chronological and causal
+4. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
 
 ## Summary

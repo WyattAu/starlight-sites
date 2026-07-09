@@ -2012,12 +2012,12 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 ## Common Pitfalls
 
-1. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 2. Confusing correlation with causation when evaluating experimental data and drawing conclusions.
 
-3. Confusing DNA replication (S phase) with transcription or translation — be clear about which
+3. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
 4. Forgetting to include control variables in experimental design, leading to invalid conclusions.

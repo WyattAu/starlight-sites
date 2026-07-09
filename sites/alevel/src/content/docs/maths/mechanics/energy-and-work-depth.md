@@ -501,7 +501,7 @@ Equilibrium position.
 1. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
 
-2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 3. Confusing displacement with distance, or velocity with speed, particularly in graphs and

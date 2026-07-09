@@ -436,7 +436,7 @@ For internet access. This:
 1. A device on the LAN (e.g., `192.168.1.10`) sends a packet to an external server
 2. The router replaces the source IP (`192.168.1.10`) with its public IP (`203.0.113.1`) and records
    the mapping in a NAT table
-3. The router also changes the source port to a unique value (PAT — Port Address Translation)
+3. The router also changes the source port to a unique value (PAT. Port Address Translation)
 4. When the response arrives, the router looks up the destination port in the NAT table, replaces
    the destination IP with `192.168.1.10`And forwards it
 

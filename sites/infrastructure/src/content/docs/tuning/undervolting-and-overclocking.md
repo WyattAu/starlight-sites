@@ -593,7 +593,7 @@ Typical results:
 2. Test with Superposition or 3DMark Time Spy after each increment.
 3. When artifacts or crashes appear, reduce the offset by 15–20 MHz.
 4. Optionally, increase the memory clock offset in 50–100 MHz increments.
-5. Memory overclocking responds differently — test with a VRAM-intensive benchmark.
+5. Memory overclocking responds differently. Test with a VRAM-intensive benchmark.
 
 ### AMD GPU Tuning
 

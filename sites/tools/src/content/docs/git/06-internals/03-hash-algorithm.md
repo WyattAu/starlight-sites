@@ -82,7 +82,7 @@ Migrating an existing repository from SHA-1 to SHA-256 is **not currently suppor
 Is because:
 
 1. **Every object hash changes**: All blobs, trees, commits, and tags get new hashes.
-2. **All references break**: Branches, tags, remotes — everything must be updated.
+2. **All references break**: Branches, tags, remotes. Everything must be updated.
 3. **All packfiles must be regenerated**: The entire object store is invalidated.
 4. **Interoperability**: SHA-256 repositories cannot interoperate with SHA-1 tools or servers.
 
@@ -154,7 +154,7 @@ Outside the object store and tracks only a pointer.
 
 ## Common Pitfalls
 
-1. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 2. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.

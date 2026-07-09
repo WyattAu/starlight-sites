@@ -17,11 +17,11 @@ Objects and tracing all objects transitively reachable from those roots.
 GC roots are the starting points for reachability analysis. An object is reachable if there is a
 Path from at least one GC root. The primary categories of GC roots:
 
-1. **Stack-local variables and method parameters** — references on the call stack of each thread.
-2. **Static fields** — references stored in class metadata (loaded by any class loader).
-3. **JNI references** — references held by native code through the Java Native Interface.
-4. **JNI global references** — explicitly created global references in native code.
-5. **Thread objects** — every live thread is a GC root (its stack contains references).
+1. **Stack-local variables and method parameters**. References on the call stack of each thread.
+2. **Static fields**. References stored in class metadata (loaded by any class loader).
+3. **JNI references**. References held by native code through the Java Native Interface.
+4. **JNI global references**. Explicitly created global references in native code.
+5. **Thread objects**. Every live thread is a GC root (its stack contains references).
 6. **`final` fields** in objects reachable from roots (finalizers also contribute).
 
 ```java
@@ -42,9 +42,9 @@ public class GCDemo {
 The JVM does not immediately collect objects when they become unreachable. The GC process involves
 Three conceptual phases:
 
-1. **Mark** — Identify all reachable objects starting from roots.
-2. **Sweep** — Identify all unreachable objects (garbage).
-3. **Compact** (optional) — Move surviving objects to eliminate fragmentation.
+1. **Mark**. Identify all reachable objects starting from roots.
+2. **Sweep**. Identify all unreachable objects (garbage).
+3. **Compact** (optional). Move surviving objects to eliminate fragmentation.
 
 ## JVM Memory Regions
 
@@ -112,8 +112,8 @@ Deoptimize). Monitor with:
 
 The generational hypothesis states that:
 
-1. **Most objects are short-lived** — they become garbage soon after allocation.
-2. **Few objects survive many GC cycles** — the old generation is relatively stable.
+1. **Most objects are short-lived**. They become garbage soon after allocation.
+2. **Few objects survive many GC cycles**. The old generation is relatively stable.
 
 This hypothesis has been validated empirically across virtually all Java workloads. It justifies the
 Generational heap layout: by collecting the young generation frequently and cheaply, the JVM avoids
@@ -179,10 +179,10 @@ in a single pass ("mixed collection").
 
 **G1 phases:**
 
-1. **Young-only collection** — collects Eden and survivor regions (same as minor GC in other
+1. **Young-only collection**. Collects Eden and survivor regions (same as minor GC in other
    collectors).
-2. **Concurrent marking** — while the application runs, G1 marks live objects across all regions.
-3. **Mixed collection** — collects some young regions AND some old regions with the most garbage.
+2. **Concurrent marking**. While the application runs, G1 marks live objects across all regions.
+3. **Mixed collection**. Collects some young regions AND some old regions with the most garbage.
    Balances pause time against overall memory release.
 
 **G1 advantages:**
@@ -342,14 +342,14 @@ Metrics to watch:
 
 ### Common Causes
 
-1. **Static collections** — accumulating entries without removal.
-2. **Unclosed resources** — holding references through unclosed streams, connections, or
+1. **Static collections**. Accumulating entries without removal.
+2. **Unclosed resources**. Holding references through unclosed streams, connections, or
    `ThreadLocal` instances.
-3. **Listener registration** — registering listeners but never unregistering.
+3. **Listener registration**. Registering listeners but never unregistering.
 4. **Internal caches without eviction** — `HashMap` used as a cache without size limits or eviction
    policy.
-5. **`ThreadLocal` in thread pools** — values not cleaned up when tasks complete.
-6. **String interning** — interning unbounded unique strings.
+5. **`ThreadLocal` in thread pools**. Values not cleaned up when tasks complete.
+6. **String interning**. Interning unbounded unique strings.
 
 ### Detection with Heap Dumps
 
@@ -367,7 +367,7 @@ Profiler**:
 
 1. Open the heap dump in MAT.
 2. Run the "Leak Suspects" report.
-3. Look at "Dominator Tree" — objects that retain the most memory.
+3. Look at "Dominator Tree". Objects that retain the most memory.
 4. Check "GC Roots" to find what is holding references to leaked objects.
 
 ### Weak, Soft, and Phantom References
@@ -430,12 +430,12 @@ Finalizers.** They are deprecated for removal since JDK 18.
 
 ### Problems with Finalizers
 
-1. **Unpredictable timing** — there is no guarantee when (or if) the finalizer will run.
-2. **Performance** — finalizable objects require extra GC cycles.
-3. **Resurrection** — a finalizer can make the object reachable again by storing `this` in a static
+1. **Unpredictable timing**. There is no guarantee when (or if) the finalizer will run.
+2. **Performance**. Finalizable objects require extra GC cycles.
+3. **Resurrection**. A finalizer can make the object reachable again by storing `this` in a static
    field.
-4. **Exceptions in finalizers are silently swallowed** — they do not propagate.
-5. **Finalizer thread bottleneck** — a single finalizer thread processes all finalizable objects,
+4. **Exceptions in finalizers are silently swallowed**. They do not propagate.
+5. **Finalizer thread bottleneck**. A single finalizer thread processes all finalizable objects,
    creating a bottleneck.
 
 ```java
@@ -667,13 +667,13 @@ Analysis. JFR has near-zero overhead and can be enabled in production:
 
 The classic GC algorithm used by Serial and Parallel collectors:
 
-1. **Mark phase** — Starting from GC roots, traverse the object graph and mark all reachable
+1. **Mark phase**. Starting from GC roots, traverse the object graph and mark all reachable
    objects. This requires a STW pause. The Parallel collector uses multiple threads for marking.
 
-2. **Sweep phase** — Scan the heap linearly. Unmarked objects are garbage. Their memory is added to
+2. **Sweep phase**. Scan the heap linearly. Unmarked objects are garbage. Their memory is added to
    free lists. Live objects are not moved.
 
-3. **Compact phase** — Move all live objects to the beginning of the heap, eliminating
+3. **Compact phase**. Move all live objects to the beginning of the heap, eliminating
    fragmentation. Update all references to moved objects. This requires another STW pause.
 
 **Time complexity:** O(heap size) for mark, O(heap size) for sweep, O(live objects) for compact. The
@@ -688,19 +688,19 @@ Regions with the most garbage.
 
 **G1 concurrent marking cycle:**
 
-1. **Initial mark** — STW pause. Marks GC roots and marks the regions they point to as "dirty."
+1. **Initial mark**. STW pause. Marks GC roots and marks the regions they point to as "dirty."
    Piggybacks on a young GC pause (minimal additional cost).
 
-2. **Root region scanning** — Concurrent. Scans the dirty regions from the initial mark to find
+2. **Root region scanning**. Concurrent. Scans the dirty regions from the initial mark to find
    references to old generation regions.
 
-3. **Concurrent marking** — Concurrent. Traces the object graph from roots to mark all live objects.
+3. **Concurrent marking**. Concurrent. Traces the object graph from roots to mark all live objects.
    Uses a SATB (Snapshot-At-The-Beginning) write barrier to handle mutations during marking.
 
-4. **Remark** — STW pause. Processes any remaining SATB buffers and completes marking. Reclaims
+4. **Remark**. STW pause. Processes any remaining SATB buffers and completes marking. Reclaims
    completely empty regions.
 
-5. **Cleanup** — Optional concurrent phase. Resets region state and reclaims empty regions. May
+5. **Cleanup**. Optional concurrent phase. Resets region state and reclaims empty regions. May
    trigger mixed collections.
 
 **Mixed collections:** After a marking cycle, G1 selects old regions with the most reclaimable space
@@ -736,12 +736,12 @@ Running, and the load barriers transparently fix any stale references the applic
 
 **Phases:**
 
-1. **Pause mark start** — STW (sub-ms). Mark GC roots.
-2. **Concurrent mark** — Concurrent. Trace the object graph using load barriers.
-3. **Pause mark end** — STW (sub-ms). Process remaining marking work.
-4. **Concurrent relocate prepare** — Concurrent. Identify regions to evacuate.
-5. **Pause relocate start** — STW (sub-ms). Select relocation set.
-6. **Concurrent relocate** — Concurrent. Move live objects to new regions. Load barriers fix stale
+1. **Pause mark start**. STW (sub-ms). Mark GC roots.
+2. **Concurrent mark**. Concurrent. Trace the object graph using load barriers.
+3. **Pause mark end**. STW (sub-ms). Process remaining marking work.
+4. **Concurrent relocate prepare**. Concurrent. Identify regions to evacuate.
+5. **Pause relocate start**. STW (sub-ms). Select relocation set.
+6. **Concurrent relocate**. Concurrent. Move live objects to new regions. Load barriers fix stale
    references.
 
 ### Generational ZGC (JDK 21+)

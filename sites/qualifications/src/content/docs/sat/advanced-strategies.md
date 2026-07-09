@@ -58,13 +58,13 @@ If you are behind at any checkpoint, switch to the two-pass system immediately.
 
 For every multiple-choice question, apply elimination in this order:
 
-1. **Eliminate absurd answers** — answers that are orders of magnitude wrong, negative when the
+1. **Eliminate absurd answers**. Answers that are orders of magnitude wrong, negative when the
    answer must be positive, or outside the valid range.
-2. **Eliminate answers that violate a constraint** — if the question states "x > 0", remove any
+2. **Eliminate answers that violate a constraint**. If the question states "x > 0", remove any
    option where x ≤ 0.
-3. **Test boundary values** — substitute 0, 1, or -1 into algebraic expressions to quickly identify
+3. **Test boundary values**. Substitute 0, 1, or -1 into algebraic expressions to quickly identify
    which options fail.
-4. **Back-solve from remaining options** — plug each remaining answer choice into the original
+4. **Back-solve from remaining options**. Plug each remaining answer choice into the original
    condition.
 
 ### When to Stop Eliminating
@@ -123,13 +123,13 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### Desmos Power Techniques
 
-1. **Graph equations to visualise** — for questions about intercepts, domain, or transformations,
+1. **Graph equations to visualise**. For questions about intercepts, domain, or transformations,
    type the equation and inspect the graph.
-2. **Slider variables** — type a parameter like `a` in an equation, and Desmos creates a slider you
+2. **Slider variables**. Type a parameter like `a` in an equation, and Desmos creates a slider you
    can drag to see how the graph changes.
-3. **Regression** — for data analysis questions, enter data points and use regression to find the
+3. **Regression**. For data analysis questions, enter data points and use regression to find the
    best-fit line instantly.
-4. **Table mode** — for evaluating a function at multiple values, use the table feature instead of
+4. **Table mode**. For evaluating a function at multiple values, use the table feature instead of
    substituting manually.
 
 ### Calculator Mistakes to Avoid
@@ -178,15 +178,15 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### The Big Six Grammar Rules (cover ~70% of Writing questions)
 
-1. **Subject-Verb Agreement** — The subject and verb must match in number. Watch for prepositional
+1. **Subject-Verb Agreement**. The subject and verb must match in number. Watch for prepositional
    phrases between them (e.g., "The box of chocolates **is** on the table").
-2. **Pronoun Agreement** — Pronouns must agree with their antecedents in number and gender. Watch
+2. **Pronoun Agreement**. Pronouns must agree with their antecedents in number and gender. Watch
    for ambiguous references.
-3. **Modifier Placement** — Modifying phrases must be placed next to what they modify. "Walking down
+3. **Modifier Placement**. Modifying phrases must be placed next to what they modify. "Walking down
    the street, **the trees** were beautiful" is wrong — the trees weren't walking.
-4. **Parallel Structure** — Items in a list or comparison must follow the same grammatical form.
-5. **Tense Consistency** — Maintain consistent verb tense unless there is a clear reason to shift.
-6. **Comma Splices and Run-ons** — Two independent clauses need a conjunction, semicolon, or period
+4. **Parallel Structure**. Items in a list or comparison must follow the same grammatical form.
+5. **Tense Consistency**. Maintain consistent verb tense unless there is a clear reason to shift.
+6. **Comma Splices and Run-ons**. Two independent clauses need a conjunction, semicolon, or period
    between them — not just a comma.
 
 ### Transition Word Quick Reference
@@ -267,11 +267,11 @@ For tests 4 and 5, simulate real conditions:
 
 After each practice test, spend at least 60 minutes reviewing:
 
-1. **Log every wrong answer** — question number, topic, why you got it wrong (careless error,
+1. **Log every wrong answer**. Question number, topic, why you got it wrong (careless error,
    knowledge gap, time pressure, misread).
-2. **Re-solve every wrong question from scratch** — do not just read the solution.
-3. **Identify patterns** — if 3+ mistakes are in the same topic, that topic needs dedicated study.
-4. **Update your strategy** — if a particular strategy didn't work (e.g., you spent too long on hard
+2. **Re-solve every wrong question from scratch**. Do not just read the solution.
+3. **Identify patterns**. If 3+ mistakes are in the same topic, that topic needs dedicated study.
+4. **Update your strategy**. If a particular strategy didn't work (e.g., you spent too long on hard
    questions), adjust your approach for the next test.
 
 ## Worked Examples

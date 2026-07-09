@@ -604,10 +604,10 @@ key: "key'', value: "value'
 
 ## Common Pitfalls
 
-1. Losing marks by not showing sufficient working — always write out each step, especially in proof
+1. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

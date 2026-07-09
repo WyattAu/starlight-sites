@@ -483,7 +483,7 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 ## Common Pitfalls
 
-1. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
@@ -491,7 +491,7 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 3. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-4. Misidentifying the system boundary when applying conservation laws — define what is included
+4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 ## Summary

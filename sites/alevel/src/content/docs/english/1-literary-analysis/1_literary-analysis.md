@@ -138,12 +138,12 @@ Useful for poetry and prose analysis:
 
 A strong analytical paragraph follows this structure:
 
-1. **Topic sentence** — State your point precisely, linking to the question
-2. **Evidence** — Embed a short quotation or reference
-3. **Analysis** — Examine the language, form, or structure of the evidence
-4. **Effect** — Explain the impact on the reader and link to meaning
-5. **Context / Interpretation** — Connect to critical, historical, or biographical context
-6. **Link** — Return to the question or transition to the next point
+1. **Topic sentence**. State your point precisely, linking to the question
+2. **Evidence**. Embed a short quotation or reference
+3. **Analysis**. Examine the language, form, or structure of the evidence
+4. **Effect**. Explain the impact on the reader and link to meaning
+5. **Context / Interpretation**. Connect to critical, historical, or biographical context
+6. **Link**. Return to the question or transition to the next point
 
 ## Key Terminology
 
@@ -174,15 +174,15 @@ A strong analytical paragraph follows this structure:
 
 ### Approaching the Question
 
-1. **Deconstruct the question** — Identify key terms and the focus of the question. Underline
+1. **Deconstruct the question**. Identify key terms and the focus of the question. Underline
    command words (analyse, explore, compare, evaluate).
-2. **Plan your argument** — Decide on your thesis before you begin writing. A strong essay has a
+2. **Plan your argument**. Decide on your thesis before you begin writing. A strong essay has a
    clear line of argument, not a list of points.
-3. **Select evidence deliberately** — Choose quotations that allow you to write about language and
+3. **Select evidence deliberately**. Choose quotations that allow you to write about language and
    form in detail, not just prove that something happens.
-4. **Integrate context** — Weave contextual points into your analysis rather than bolting them on at
+4. **Integrate context**. Weave contextual points into your analysis rather than bolting them on at
    the end. Context should illuminate the text, not replace close analysis.
-5. **Engage with interpretations** — Reference critical views, different readings, or debates. You
+5. **Engage with interpretations**. Reference critical views, different readings, or debates. You
    do not need to agree with every interpretation, but you must show awareness.
 
 ### Structuring an Essay

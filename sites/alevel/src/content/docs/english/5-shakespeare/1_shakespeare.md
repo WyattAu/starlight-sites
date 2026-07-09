@@ -153,13 +153,13 @@ contextual factors:
 
 When faced with a soliloquy or key speech, work through these steps:
 
-1. **Context** — Where does this speech occur? What has just happened? What does the character want?
-2. **Structure** — How does the argument develop? Where does the speech turn?
-3. **Meter** — Is it regular iambic pentameter? Where does it deviate and why?
-4. **Imagery** — What images dominate? Do they connect to the play's wider image clusters?
-5. **Rhetoric** — What persuasive devices does the character use? Are they convincing?
-6. **Contradiction** — Does the character contradict themselves? What does this reveal?
-7. **Performance** — How might an actor deliver this speech? What choices would they make?
+1. **Context**. Where does this speech occur? What has just happened? What does the character want?
+2. **Structure**. How does the argument develop? Where does the speech turn?
+3. **Meter**. Is it regular iambic pentameter? Where does it deviate and why?
+4. **Imagery**. What images dominate? Do they connect to the play's wider image clusters?
+5. **Rhetoric**. What persuasive devices does the character use? Are they convincing?
+6. **Contradiction**. Does the character contradict themselves? What does this reveal?
+7. **Performance**. How might an actor deliver this speech? What choices would they make?
 
 ### Critical Interpretations
 
@@ -202,13 +202,13 @@ A-Level Shakespeare requires engagement with different critical readings. Major 
 
 ### Approaching a Shakespeare Extract Question
 
-1. **Read the extract twice** — First for meaning, second for language and structure
-2. **Locate it in the play** — What has happened before? What follows? How does it fit the play's
+1. **Read the extract twice**. First for meaning, second for language and structure
+2. **Locate it in the play**. What has happened before? What follows? How does it fit the play's
    arc?
-3. **Identify 3-4 key moments** — Select the most analytically rich lines for close reading
-4. **Analyse the language** — Focus on imagery, metaphor, and word choice
-5. **Note the meter** — Is it regular or deviant? What does the deviation suggest?
-6. **Connect to the whole play** — Link the extract to wider themes, character development, and
+3. **Identify 3-4 key moments**. Select the most analytically rich lines for close reading
+4. **Analyse the language**. Focus on imagery, metaphor, and word choice
+5. **Note the meter**. Is it regular or deviant? What does the deviation suggest?
+6. **Connect to the whole play**. Link the extract to wider themes, character development, and
    context
 
 ### Writing About Shakespeare

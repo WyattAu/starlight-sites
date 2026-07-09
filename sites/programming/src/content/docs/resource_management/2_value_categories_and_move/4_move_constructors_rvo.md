@@ -326,7 +326,7 @@ The naive move assignment operator shown above (`delete[] data_; data_ = other.d
 Exception-safe. If the move assignment of one member throws after another has already been moved,
 The object is left in an inconsistent state. The solution is either:
 
-1. Make the move assignment `noexcept` (preferred — move operations should not throw).
+1. Make the move assignment `noexcept` (preferred. Move operations should not throw).
 2. Use the copy-and-swap idiom for move assignment as well (less common, but exception-safe by
    construction).
 
@@ -857,9 +857,9 @@ Buffer& operator=(Buffer&& other) noexcept {
 
 The `this != &other` guard is essential. Without it, `a = std::move(a)` would:
 
-1. `delete[] data_` — freeing the object's own buffer.
-2. `data_ = other.data_` — assigning the now-dangling pointer to itself.
-3. `other.data_ = nullptr` — setting both `this->data_` and `other.data_` to `nullptr` (same
+1. `delete[] data_`. Freeing the object's own buffer.
+2. `data_ = other.data_`. Assigning the now-dangling pointer to itself.
+3. `other.data_ = nullptr`. Setting both `this->data_` and `other.data_` to `nullptr` (same
    object).
 
 After self-move, the object holds a dangling pointer and a zero size. Any subsequent access or

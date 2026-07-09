@@ -35,17 +35,17 @@ Design systems that are correct, robust, and maintainable.
 
 ### Course Structure
 
-1. **Fundamentals** — Data representation (binary, two"s complement, floating point), hardware
+1. **Fundamentals**. Data representation (binary, two"s complement, floating point), hardware
    architecture, Boolean logic
-2. **Data Structures** — Arrays, linked lists, stacks, queues, trees, graphs, hash tables
-3. **Algorithms** — Sorting, searching, graph algorithms, complexity analysis (Big-O), algorithmic
+2. **Data Structures**. Arrays, linked lists, stacks, queues, trees, graphs, hash tables
+3. **Algorithms**. Sorting, searching, graph algorithms, complexity analysis (Big-O), algorithmic
    paradigms
-4. **Programming** — Constructs, OOP, functional programming paradigms, and a programming project
-5. **Computer Systems** — Processor architecture, memory hierarchy, operating systems, networking
-6. **Theory of Computation** — Finite state machines, Turing machines, decidability, computational
+4. **Programming**. Constructs, OOP, functional programming paradigms, and a programming project
+5. **Computer Systems**. Processor architecture, memory hierarchy, operating systems, networking
+6. **Theory of Computation**. Finite state machines, Turing machines, decidability, computational
    complexity
-7. **Databases** — Relational model, SQL, normalisation, transaction processing
-8. **Software Engineering** — Methodologies, testing, maintenance, agile development
+7. **Databases**. Relational model, SQL, normalisation, transaction processing
+8. **Software Engineering**. Methodologies, testing, maintenance, agile development
 
 ### Assessment
 
@@ -62,19 +62,19 @@ Design systems that are correct, robust, and maintainable.
 
 Each topic page contains:
 
-1. **Precise definitions** — formal specifications of every concept
-2. **Proofs and correctness arguments** — why algorithms work, why data structures have the
+1. **Precise definitions**. Formal specifications of every concept
+2. **Proofs and correctness arguments**. Why algorithms work, why data structures have the
    properties they do
-3. **Complexity analysis** — rigorous Big-O derivations, not just stating the result
-4. **Worked examples** — tracing through algorithms step by step
-5. **Multi-step problem set** — questions requiring synthesis of multiple topics
-6. **Board-specific notes** — specification differences
+3. **Complexity analysis**. Rigorous Big-O derivations, not just stating the result
+4. **Worked examples**. Tracing through algorithms step by step
+5. **Multi-step problem set**. Questions requiring synthesis of multiple topics
+6. **Board-specific notes**. Specification differences
 
 When finished, attempt the.
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
@@ -95,13 +95,13 @@ When finished, attempt the.
 
 ### Study Strategy
 
-1. **Start with fundamentals** (data representation, Boolean algebra) — these underpin every other
+1. **Start with fundamentals** (data representation, Boolean algebra). These underpin every other
    topic.
-2. **Trace algorithms by hand** on paper before coding them — exam questions test your ability to
+2. **Trace algorithms by hand** on paper before coding them. Exam questions test your ability to
    follow execution, not write code.
 3. **Practise Big-O analysis** for every algorithm you learn; examiners expect you to derive, not
    just state.
-4. **Build the NEA early** — the project is 20% of your grade and requires documentation, testing,
+4. **Build the NEA early**. The project is 20% of your grade and requires documentation, testing,
    and evaluation.
 
 ### Key Formulae

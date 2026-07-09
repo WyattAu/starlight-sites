@@ -51,10 +51,10 @@ used.
 
 A control block is created at the following points:
 
-1. `std::make_shared&lt;T&gt;(args...)` — single allocation for object + control block
-2. `std::shared_ptr&lt;T&gt;(new T(args...))` — separate allocations for object and control block
-3. `std::allocate_shared&lt;T&gt;(alloc, args...)` — uses custom allocator for both
-4. Constructing from a `std::weak_ptr` via `weak_ptr::lock()` — reuses existing control block
+1. `std::make_shared&lt;T&gt;(args...)`. Single allocation for object + control block
+2. `std::shared_ptr&lt;T&gt;(new T(args...))`. Separate allocations for object and control block
+3. `std::allocate_shared&lt;T&gt;(alloc, args...)`. Uses custom allocator for both
+4. Constructing from a `std::weak_ptr` via `weak_ptr::lock()`. Reuses existing control block
 
 :::caution Never construct multiple `shared_ptr` instances from the same raw pointer. Each
 Construction creates a new control block, leading to multiple destructions (double-free):
@@ -294,9 +294,9 @@ void thread_safe_shared_ptr() {
 Every `shared_ptr` copy increments `strong_count` with an atomic fetch-add, and every destruction
 Decrements with an atomic fetch-sub. On x86_64, these compile to `lock xadd` instructions, which:
 
-1. **Acquire exclusive cache line ownership** — causes cache line bouncing on multi-core systems
-2. **Act as full memory barriers** — prevent reordering of loads/stores across the atomic operation
-3. **Cost ~20-50 cycles** each on modern x86 — compared to ~1 cycle for a non-atomic increment
+1. **Acquire exclusive cache line ownership**. Causes cache line bouncing on multi-core systems
+2. **Act as full memory barriers**. Prevent reordering of loads/stores across the atomic operation
+3. **Cost ~20-50 cycles** each on modern x86. Compared to ~1 cycle for a non-atomic increment
 
 In practice, passing `shared_ptr` by value through multiple function calls can create measurable
 Overhead in hot paths. Prefer passing by `const std::shared_ptr&lt;T&gt;&amp;` if you only need to

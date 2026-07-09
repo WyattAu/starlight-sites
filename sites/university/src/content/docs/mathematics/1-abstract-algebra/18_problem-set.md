@@ -191,10 +191,10 @@ _If you get this wrong, revise: Section 5.7, Theorem 5.6._
 _Solution._ Conjugacy classes in $S_n$ are determined by cycle type. The cycle types in $S_4$ and
 Their sizes:
 
-1. $(1)(2)(3)(4)$ — identity. Size: $1$.
-2. $(a\ b)$ — transpositions. Count: $\binom{4}{2} = 6$.
+1. $(1)(2)(3)(4)$. Identity. Size: $1$.
+2. $(a\ b)$. Transpositions. Count: $\binom{4}{2} = 6$.
 3. $(a\ b\ c)$ — 3-cycles. Count: $\binom{4}{3} \cdot 2 = 8$.
-4. $(a\ b)(c\ d)$ — double transpositions. Count: $\frac{\binom{4}{2}}{2} = 3$.
+4. $(a\ b)(c\ d)$. Double transpositions. Count: $\frac{\binom{4}{2}}{2} = 3$.
 5. $(a\ b\ c\ d)$ — 4-cycles. Count: $3! = 6$.
 
 Class equation: $|S_4| = 1 + 6 + 8 + 3 + 6 = 24$. ✓ $Z(S_4) = \{e\}$So $|Z(S_4)| = 1$And the sum of

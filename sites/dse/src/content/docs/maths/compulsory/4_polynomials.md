@@ -965,7 +965,7 @@ $$2(1)^3 + p(1)^2 - 5(1) + 3 = 4 \implies 2 + p - 5 + 3 = 4 \implies p = 4$$
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-4. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/polynomials.md
 
 ## Summary

@@ -267,7 +267,7 @@ For an overview of sociocultural topics, see
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

@@ -848,7 +848,7 @@ building a personal test matrix.
 1. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-2. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).

@@ -2093,10 +2093,10 @@ Abel's theorem.
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-3. Confusing pointwise and uniform convergence — pointwise convergence does not guarantee uniform
+3. Confusing pointwise and uniform convergence. Pointwise convergence does not guarantee uniform
    convergence.
 
 ## Worked Examples

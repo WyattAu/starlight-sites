@@ -316,7 +316,7 @@ The lock-free stack above has a classic ABA vulnerability:
 1. Thread A loads `head = A`.
 2. Thread A is preempted.
 3. Thread B pops A, pushes B, pops B, pushes A (node A is recycled).
-4. Thread A's CAS succeeds because `head == A` again — but `A->next` has changed.
+4. Thread A's CAS succeeds because `head == A` again. But `A->next` has changed.
 
 In a garbage-collected language, ABA is prevented because the GC doesn't recycle nodes. In C++, you
 Must prevent it explicitly using:

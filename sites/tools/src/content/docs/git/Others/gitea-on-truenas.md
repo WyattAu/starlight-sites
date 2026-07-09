@@ -23,7 +23,7 @@ WireGuard is recommended.
 
 ## Common Pitfalls
 
-1. Confusing `git reset` and `git revert` — reset moves the branch pointer; revert creates a new
+1. Confusing `git reset` and `git revert`. Reset moves the branch pointer; revert creates a new
    commit that undoes changes.
 
 2. Forgetting to pull before pushing when working collaboratively, leading to merge conflicts.
@@ -33,7 +33,7 @@ WireGuard is recommended.
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-5. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+5. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 6. Writing pseudocode that is too language-specific rather than using standard algorithmic

@@ -468,13 +468,13 @@ Taking the positive root: $s_{\max} = 2 + \sqrt{6} \approx 4.45\;\mathrm{m}$.
 
 ## Common Pitfalls
 
-1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 2. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
 
-3. Using the wrong equation from the data sheet — take time to read the full equation, including
+3. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 4. Confusing displacement with distance, or velocity with speed, particularly in graphs and

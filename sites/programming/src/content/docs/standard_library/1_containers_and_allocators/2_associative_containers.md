@@ -742,7 +742,7 @@ For performance-critical code where ordered iteration is not needed, consider al
 3. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Summary

@@ -587,7 +587,7 @@ The relationship between `char``char8_t`And the execution encoding is subtle and
 
 3. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
-4. Memorising content without understanding the underlying principles — this leads to poor
+4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 ## Summary

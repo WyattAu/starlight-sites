@@ -168,9 +168,9 @@ rights, and environmental campaigns.
 1. Drawing attention to an issue through consistency, commitment, and flexibility.
 2. Cognitive conflict created in the majority.
 3. The augmentation principle (willingness to suffer strengthens the message).
-4. The **snowball effect** — gradually more people convert to the minority view until it reaches a
+4. The **snowball effect**. Gradually more people convert to the minority view until it reaches a
    tipping point and becomes the majority.
-5. **Social crypto-amnesia** — people forget the original source of the change but accept the new
+5. **Social crypto-amnesia**. People forget the original source of the change but accept the new
    norm.
 
 **Role of majority influence in social change:** Conformity research shows that people often

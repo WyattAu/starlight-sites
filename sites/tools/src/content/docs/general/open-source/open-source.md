@@ -69,11 +69,11 @@ Criteria for selecting a project to contribute to:
 
 ### Where to Start
 
-1. **README.md** — Project overview, installation, usage, and architecture.
-2. **CONTRIBUTING.md** — Contribution guidelines, development setup, code style.
-3. **Architecture documentation** — Some projects have `docs/architecture.md` or `docs/design/`.
-4. **Directory structure** — Skim the top-level directories to understand the project layout.
-5. **Entry points** — Find the `main()` function or equivalent. Trace the execution path from
+1. **README.md**. Project overview, installation, usage, and architecture.
+2. **CONTRIBUTING.md**. Contribution guidelines, development setup, code style.
+3. **Architecture documentation**. Some projects have `docs/architecture.md` or `docs/design/`.
+4. **Directory structure**. Skim the top-level directories to understand the project layout.
+5. **Entry points**. Find the `main()` function or equivalent. Trace the execution path from
    startup to the feature you are interested in.
 
 ### Code Reading Strategy

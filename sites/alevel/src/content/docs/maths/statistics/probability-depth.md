@@ -358,15 +358,15 @@ $P = \dfrac{4}{15} \times \dfrac{6}{14} \times \dfrac{5}{13} \times 6 = \dfrac{7
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-3. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+3. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-4. Losing marks by not showing sufficient working — always write out each step, especially in proof
+4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 ## Worked Examples

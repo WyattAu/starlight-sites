@@ -644,13 +644,13 @@ Reasons.
 <details>
 <summary>Answer</summary>
 
-1. **JavaScript can be disabled** — users or attackers can turn it off in browser settings.
-2. **Requests can be crafted directly** — tools like `curl` send HTTP requests bypassing all
+1. **JavaScript can be disabled**. Users or attackers can turn it off in browser settings.
+2. **Requests can be crafted directly**. Tools like `curl` send HTTP requests bypassing all
    browser-side validation.
-3. **Client code is modifiable** — developer tools allow inspection and modification of JavaScript.
-4. **Business logic requires the server** — rules like "sufficient funds" can only be enforced with
+3. **Client code is modifiable**. Developer tools allow inspection and modification of JavaScript.
+4. **Business logic requires the server**. Rules like "sufficient funds" can only be enforced with
    database access.
-5. **Race conditions** — server state may change between client validation and request arrival.
+5. **Race conditions**. Server state may change between client validation and request arrival.
 
 Client-side validation is a UX feature only. Server-side validation is the only reliable security
 Boundary.
@@ -660,7 +660,7 @@ Boundary.
 
 ## Common Pitfalls
 
-1. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+1. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 2. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

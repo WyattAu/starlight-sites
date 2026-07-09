@@ -807,10 +807,10 @@ Covered. ✓
 
 ## Common Pitfalls
 
-1. Rounding too early in multi-step calculations — carry full precision through and round only the
+1. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
-2. Losing marks by not showing sufficient working — always write out each step, especially in proof
+2. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

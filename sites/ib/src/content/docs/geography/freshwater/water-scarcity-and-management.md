@@ -223,16 +223,16 @@ For related topics, see [./drainage-basins-and-hydrology](./drainage-basins-and-
 
 ## Common Pitfalls
 
-1. Losing marks by not showing sufficient working — always write out each step, especially in proof
+1. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-4. Rounding too early in multi-step calculations — carry full precision through and round only the
+4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 ## Summary

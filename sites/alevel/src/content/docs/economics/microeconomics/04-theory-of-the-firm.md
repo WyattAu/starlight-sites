@@ -1259,10 +1259,10 @@ limitations of price cap regulation when the X factor is set too generously.
 2. Stating that 'demand falls' without specifying whether it is a contraction (movement along) or a
    decrease (shift) of the demand curve.
 
-3. Confusing nominal and real values — always adjust for inflation when comparing monetary values
+3. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
-4. Confusing a movement along a curve with a shift of the curve — movements are caused by price
+4. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
 
 ## Summary

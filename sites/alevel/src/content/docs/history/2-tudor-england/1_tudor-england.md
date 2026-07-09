@@ -161,13 +161,13 @@ Religious Settlement that sought a middle way.
 
 When analysing Tudor sources, consider:
 
-1. **Propaganda and image management** — Tudors were masters of political imagery (portraits,
+1. **Propaganda and image management**. Tudors were masters of political imagery (portraits,
    pageants, progresses). Elizabeth's portraits were carefully controlled.
-2. **Religious bias in sources** — Protestant and Catholic accounts of the same events differ
+2. **Religious bias in sources**. Protestant and Catholic accounts of the same events differ
    dramatically. Consider the author's confession when assessing reliability.
-3. **Official vs. private sources** — State papers present a curated version of events; private
+3. **Official vs. private sources**. State papers present a curated version of events; private
    letters and diaries may reveal candid opinions.
-4. **Foreign ambassadors' reports** — Often valuable because they offer an outsider's perspective,
+4. **Foreign ambassadors' reports**. Often valuable because they offer an outsider's perspective,
    but coloured by their own national interests.
 
 ### Key Source Types
@@ -181,12 +181,12 @@ When analysing Tudor sources, consider:
 
 ## Common Pitfalls
 
-1. **Seeing the Reformation as inevitable** — it was not a smooth progression toward Protestantism
+1. **Seeing the Reformation as inevitable**. It was not a smooth progression toward Protestantism
    but a complex, contested, and often reversed process. Mary's restoration was taken seriously at
    the time.
-2. **Overestimating Tudor power** — the Crown's authority was limited by finances, communications,
+2. **Overestimating Tudor power**. The Crown's authority was limited by finances, communications,
    and the need for local cooperation. Rebellions were a genuine threat throughout the period.
-3. **Ignoring continuities across reigns** — each reign built on its predecessors. The Elizabethan
+3. **Ignoring continuities across reigns**. Each reign built on its predecessors. The Elizabethan
    settlement drew on Edwardian reforms; Mary's policies responded to Henry's break with Rome. Avoid
    treating each reign in isolation.
 

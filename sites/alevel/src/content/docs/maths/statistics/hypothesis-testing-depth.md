@@ -377,13 +377,13 @@ $\beta = P(X \leq 11 \mid p = 0.6) \approx 0.4044$.
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-2. Losing marks by not showing sufficient working — always write out each step, especially in proof
+2. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-3. Misreading the question, particularly with "hence' vs 'hence or otherwise' — the former requires
+3. Misreading the question, particularly with "hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-4. Rounding too early in multi-step calculations — carry full precision through and round only the
+4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 ## Worked Examples

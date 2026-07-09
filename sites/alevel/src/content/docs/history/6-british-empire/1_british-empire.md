@@ -197,13 +197,13 @@ North America, the Caribbean, and India.
 
 When analysing sources from the early British Empire:
 
-1. **Company records vs. government records** — the East India Company had its own archives. Company
+1. **Company records vs. government records**. The East India Company had its own archives. Company
    records present commercial justification; government records may reveal political concerns.
-2. **Travel writing and exploration accounts** — often presented non-European peoples in terms that
+2. **Travel writing and exploration accounts**. Often presented non-European peoples in terms that
    justified conquest and exploitation. Consider the ideological function of these texts.
-3. **Financial records** — trade statistics, plantation accounts, and insurance records provide
+3. **Financial records**. Trade statistics, plantation accounts, and insurance records provide
    objective data on the economics of empire, including the slave trade.
-4. **Non-European perspectives** — Indian, African, and indigenous American sources exist but are
+4. **Non-European perspectives**. Indian, African, and indigenous American sources exist but are
    often mediated through European translation. Seek out sources that reveal the experiences and
    perspectives of colonised peoples.
 
@@ -222,14 +222,14 @@ When analysing sources from the early British Empire:
 
 ## Common Pitfalls
 
-1. **Viewing the empire as a unified, centrally planned project** — the early British Empire was a
+1. **Viewing the empire as a unified, centrally planned project**. The early British Empire was a
    messy collection of ventures by chartered companies, private merchants, settlers, and colonial
    governors, often with conflicting interests. Central government control was limited.
-2. **Anachronistic moral judgement without historical understanding** — the slave trade and colonial
+2. **Anachronistic moral judgement without historical understanding**. The slave trade and colonial
    exploitation were morally wrong by any standard, but understanding the period requires engaging
    with the mentalities and economic structures that sustained these practices. Avoid both
    presentism and moral relativism.
-3. **Ignoring the role of non-European actors** — Indian rulers, African merchants, and indigenous
+3. **Ignoring the role of non-European actors**. Indian rulers, African merchants, and indigenous
    American polities were active participants in, not merely passive victims of, imperial expansion.
    Alliances, rivalries, and collaborations with local powers were essential to British success.
 

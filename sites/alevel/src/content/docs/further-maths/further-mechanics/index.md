@@ -42,15 +42,15 @@ with momentum conservation.
 
 ## Study Tips
 
-1. **Draw clear force diagrams** — label every force, resolve into components, and choose coordinate
+1. **Draw clear force diagrams**. Label every force, resolve into components, and choose coordinate
    axes wisely (often along and perpendicular to the surface or motion direction).
-2. **Derive the trajectory equation** from scratch — it is a common exam request and tests whether
+2. **Derive the trajectory equation** from scratch. It is a common exam request and tests whether
    you understand the physics, not just the formula.
-3. **Practise circular motion problems** with both horizontal and vertical circles — the force
+3. **Practise circular motion problems** with both horizontal and vertical circles. The force
    analysis differs significantly between the two.
-4. **Use conservation laws systematically** — for collisions, always check both conservation of
+4. **Use conservation laws systematically**. For collisions, always check both conservation of
    momentum and the coefficient of restitution equation. Two equations, two unknowns.
-5. **Check energy balance** — after solving a collision problem, verify that kinetic energy is
+5. **Check energy balance**. After solving a collision problem, verify that kinetic energy is
    conserved (if elastic) or correctly reduced (if inelastic).
 
 ## How to Use These Notes

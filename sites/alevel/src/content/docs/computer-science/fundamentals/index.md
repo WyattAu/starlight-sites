@@ -55,15 +55,15 @@ resources, and the ethical framework within which computing operates.
 
 ## Study Tips
 
-1. **Practise base conversions** until they are automatic — binary $\leftrightarrow$ decimal
+1. **Practise base conversions** until they are automatic. Binary $\leftrightarrow$ decimal
    $\leftrightarrow$ hexadecimal conversions appear on every paper.
-2. **Trace the fetch-decode-execute cycle** with specific instructions and register values — this is
+2. **Trace the fetch-decode-execute cycle** with specific instructions and register values. This is
    a common long-answer question.
-3. **Build truth tables methodically** — always list all input combinations systematically to avoid
+3. **Build truth tables methodically**. Always list all input combinations systematically to avoid
    missing rows.
-4. **Apply De Morgan's laws** by rewriting expressions — exam questions test whether you can
+4. **Apply De Morgan's laws** by rewriting expressions. Exam questions test whether you can
    simplify, not just recognise.
-5. **Link legal content to real examples** — e.g., link GDPR to a specific data breach case.
+5. **Link legal content to real examples**. E.g., link GDPR to a specific data breach case.
 
 ## How to Use These Notes
 

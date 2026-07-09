@@ -1151,7 +1151,7 @@ deterioration.
 
 1. Forgetting to include control variables in experimental design, leading to invalid conclusions.
 
-2. Confusing DNA replication (S phase) with transcription or translation — be clear about which
+2. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
 3. Misinterpreting graphs by confusing the independent and dependent variables or reading scales

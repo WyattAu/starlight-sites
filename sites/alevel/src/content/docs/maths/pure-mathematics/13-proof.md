@@ -539,12 +539,12 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-2. Losing marks by not showing sufficient working — always write out each step, especially in proof
+2. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-3. Misreading the question, particularly with "hence' vs 'hence or otherwise' — the former requires
+3. Misreading the question, particularly with "hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

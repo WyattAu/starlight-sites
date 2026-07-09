@@ -54,15 +54,15 @@ properties of gases, solids, and liquids.
 
 ## Study Tips
 
-1. **Derive the kinetic theory equation** — $pV = \frac{1}{3}Nm c_{\text{rms}}^2$ — from first
+1. **Derive the kinetic theory equation** — $pV = \frac{1}{3}Nm c_{\text{rms}}^2$. From first
    principles (momentum change at a wall). This derivation is frequently examined.
-2. **Sketch Maxwell-Boltzmann curves** — be able to draw the distribution for two different
+2. **Sketch Maxwell-Boltzmann curves**. Be able to draw the distribution for two different
    temperatures and explain how the peak shifts and broadens.
-3. **Know the gas law experiments** — how to verify Boyle's law (pressure pump and volume
+3. **Know the gas law experiments**. How to verify Boyle's law (pressure pump and volume
    measurement), Charles's law (capillary tube in water bath).
-4. **Connect $pV = nRT$ and $pV = \frac{1}{3}Nm c_{\text{rms}}^2$** — equating them gives
+4. **Connect $pV = nRT$ and $pV = \frac{1}{3}Nm c_{\text{rms}}^2$**. Equating them gives
    $\frac{1}{2}m c_{\text{rms}}^2 = \frac{3}{2}kT$, linking kinetic energy to temperature.
-5. **Practise first law calculations** — identify whether $Q$, $W$, and $\Delta U$ are positive,
+5. **Practise first law calculations**. Identify whether $Q$, $W$, and $\Delta U$ are positive,
    negative, or zero for different processes (isothermal expansion, adiabatic compression, etc.).
 
 ## How to Use These Notes

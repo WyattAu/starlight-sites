@@ -1186,7 +1186,7 @@ because the buffer system absorbs the added base. The buffer resists large pH ch
 3. Forgetting to convert between units (e.g., $\text{cm}^3$ to $\text{dm}^3$) when calculating
    concentrations.
 
-4. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/acids-bases-electrochemistry.md
 

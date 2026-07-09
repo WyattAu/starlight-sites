@@ -65,15 +65,15 @@ applicable.
 
 ## Study Tips
 
-1. **Practise past papers** — DSE ICT questions follow consistent formats. Familiarity with question
+1. **Practise past papers**. DSE ICT questions follow consistent formats. Familiarity with question
    types (multiple choice, structured, long response) is essential.
-2. **Know your paper structure** — Paper 1 (Core, 40%) covers theory; Paper 2 (Elective, 30%) covers
+2. **Know your paper structure**. Paper 1 (Core, 40%) covers theory; Paper 2 (Elective, 30%) covers
    your chosen option; Paper 3 (SPA, 30%) is the practical coursework component.
-3. **Learn SQL practically** — set up a SQLite database and practise writing queries. The database
+3. **Learn SQL practically**. Set up a SQLite database and practise writing queries. The database
    questions require actual SQL, not just theory.
-4. **Understand the marking scheme** — DSE marks are awarded for specific points. Learn what
+4. **Understand the marking scheme**. DSE marks are awarded for specific points. Learn what
    examiners look for in each question type.
-5. **Build your SPA project early** — the School-based Assessment (SBA/SPA) component requires a
+5. **Build your SPA project early**. The School-based Assessment (SBA/SPA) component requires a
    complete system with documentation. Start planning in Year 5.
 
 ## Overview

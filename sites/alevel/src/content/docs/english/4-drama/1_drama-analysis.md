@@ -120,13 +120,13 @@ playwright's choices.
 
 When approaching a play extract or whole-text question, work through these layers:
 
-1. **What is happening?** — Identify the dramatic situation and its place in the overall structure
-2. **Who is present?** — Which characters are on stage and what are their relationships?
-3. **What is said?** — Analyse the dialogue for language, register, subtext, and rhetoric
-4. **What is seen?** — Consider stage directions, set, props, lighting, and movement
-5. **What is the audience's position?** — What does the audience know? How does this create irony or
+1. **What is happening?**. Identify the dramatic situation and its place in the overall structure
+2. **Who is present?**. Which characters are on stage and what are their relationships?
+3. **What is said?**. Analyse the dialogue for language, register, subtext, and rhetoric
+4. **What is seen?**. Consider stage directions, set, props, lighting, and movement
+5. **What is the audience's position?**. What does the audience know? How does this create irony or
    tension?
-6. **What are the thematic implications?** — How does this scene connect to the play's central
+6. **What are the thematic implications?**. How does this scene connect to the play's central
    concerns?
 
 ### AFOREST (for analysing persuasive dialogue)
@@ -173,21 +173,21 @@ Inspector in _An Inspector Calls_, Angelo in _Measure for Measure_.
 
 ### Approaching a Drama Extract Question
 
-1. **Locate the extract** — Where does it come in the play? What has just happened? What follows?
-2. **Identify key moments** — Within the extract, pinpoint the most analytically rich moments
-3. **Stage the scene mentally** — Imagine how it would look in performance. Where are characters?
+1. **Locate the extract**. Where does it come in the play? What has just happened? What follows?
+2. **Identify key moments**. Within the extract, pinpoint the most analytically rich moments
+3. **Stage the scene mentally**. Imagine how it would look in performance. Where are characters?
    What do we see?
-4. **Track dialogue** — Who controls the conversation? Where does power shift?
-5. **Connect to whole play** — Link the extract to the play's broader themes, structure, and context
+4. **Track dialogue**. Who controls the conversation? Where does power shift?
+5. **Connect to whole play**. Link the extract to the play's broader themes, structure, and context
 
 ### Approaching a Whole-Text Question
 
-1. **Choose your focus scenes** — Select 4-5 scenes across the play that best support your argument
-2. **Balance the play** — Don't focus only on the beginning or the end. Demonstrate understanding of
+1. **Choose your focus scenes**. Select 4-5 scenes across the play that best support your argument
+2. **Balance the play**. Don't focus only on the beginning or the end. Demonstrate understanding of
    the full arc
-3. **Discuss stagecraft** — Include at least one point about the visual or theatrical elements of
+3. **Discuss stagecraft**. Include at least one point about the visual or theatrical elements of
    the play
-4. **Embed context** — Weave theatrical, historical, and social context into your analysis
+4. **Embed context**. Weave theatrical, historical, and social context into your analysis
 
 ## Common Pitfalls
 

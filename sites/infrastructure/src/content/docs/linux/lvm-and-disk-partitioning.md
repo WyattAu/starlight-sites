@@ -1777,7 +1777,7 @@ CORRECT ORDER for shrinking:
 
 WRONG ORDER (will corrupt data):
   1. lvreduce -L 50G /dev/vg/lv      (LV shrinks, filesystem still thinks it's larger)
-  2. resize2fs /dev/vg/lv 50G        (too late — filesystem metadata may be beyond LV boundary)
+  2. resize2fs /dev/vg/lv 50G        (too late. Filesystem metadata may be beyond LV boundary)
 ```
 
 :::

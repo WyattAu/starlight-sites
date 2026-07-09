@@ -109,20 +109,20 @@ Preventing recurrence.
 
 This section covers the core Linux competencies expected of a systems engineer:
 
-1. **CLI Fundamentals** — Shell basics and core utilities
+1. **CLI Fundamentals**. Shell basics and core utilities
    ([shell-basics](./01-cli-fundamentals/shell-basics.md),
    [core-utilities](./01-cli-fundamentals/core-utilities.md))
-2. **File Systems** — VFS, ext4, XFS, Btrfs, mounting
+2. **File Systems**. VFS, ext4, XFS, Btrfs, mounting
    ([filesystems-and-mounting](./02-file-systems/filesystems-and-mounting.md))
-3. **Process Management** — Process model, signals, cgroups, resource limits
+3. **Process Management**. Process model, signals, cgroups, resource limits
    ([processes-and-signals](./03-process-management/processes-and-signals.md))
-4. **Networking** — Netfilter, namespaces, routing, troubleshooting
+4. **Networking**. Netfilter, namespaces, routing, troubleshooting
    ([linux-networking](./04-networking/linux-networking.md))
-5. **Systemd** — Service management, timers, socket activation, hardening
+5. **Systemd**. Service management, timers, socket activation, hardening
    ([systemd](./05-systemd/systemd.md))
-6. **Security** — PAM, SELinux, capabilities, seccomp, audit
+6. **Security**. PAM, SELinux, capabilities, seccomp, audit
    ([linux-security](./06-security/linux-security.md))
-7. **Package Management** — APT, DNF, Nix, dependency resolution
+7. **Package Management**. APT, DNF, Nix, dependency resolution
    ([package-management](./07-package-management/package-management.md))
 
 :::tip

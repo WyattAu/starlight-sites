@@ -384,7 +384,7 @@ Use '--' to separate paths from revisions, like this:
 
 ## Common Pitfalls
 
-1. Confusing `git reset` and `git revert` — reset moves the branch pointer; revert creates a new
+1. Confusing `git reset` and `git revert`. Reset moves the branch pointer; revert creates a new
    commit that undoes changes.
 
 2. Forgetting to pull before pushing when working collaboratively, leading to merge conflicts.

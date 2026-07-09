@@ -344,7 +344,7 @@ Searches multiple ref namespaces.
 
 2. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure

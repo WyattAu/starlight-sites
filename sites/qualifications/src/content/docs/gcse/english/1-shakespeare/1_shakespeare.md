@@ -567,11 +567,11 @@ Question requires an extract-based response linked to the whole play.
 
 ## Common Pitfalls
 
-1. **Confusing key definitions** — Students often mix up similar terminology in Shakespeare. Always
+1. **Confusing key definitions**. Students often mix up similar terminology in Shakespeare. Always
    write the precise definition as given in the specification.
-2. **Missing command words** — Failing to address "explain", "compare", or "evaluate" properly. Each
+2. **Missing command words**. Failing to address "explain", "compare", or "evaluate" properly. Each
    command word requires a different style of response.
-3. **Insufficient working** — In calculation or analysis questions, marks are awarded for method.
+3. **Insufficient working**. In calculation or analysis questions, marks are awarded for method.
    Show every intermediate step.
 
 ## Worked Examples

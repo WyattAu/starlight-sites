@@ -244,12 +244,12 @@ a PDA $M$ with $L(M) = L(G)$.
 _Proof._ Construct
 $M = (\{q_0, q_1, q_2\}, \Sigma, V \cup \Sigma \cup \{\$\}, \delta, q_0, \{q_2\})$:
 
-1. $(q_0, \varepsilon, \varepsilon) \to (q_1, S\$)$ — push the start variable and bottom marker.
-2. For each $A \to \alpha \in R$: $(q_1, \varepsilon, A) \to (q_1, \alpha)$ — replace a variable
+1. $(q_0, \varepsilon, \varepsilon) \to (q_1, S\$)$. Push the start variable and bottom marker.
+2. For each $A \to \alpha \in R$: $(q_1, \varepsilon, A) \to (q_1, \alpha)$. Replace a variable
    with its production.
-3. For each $a \in \Sigma$: $(q_1, a, a) \to (q_1, \varepsilon)$ — match a terminal on input with
+3. For each $a \in \Sigma$: $(q_1, a, a) \to (q_1, \varepsilon)$. Match a terminal on input with
    stack.
-4. $(q_1, \varepsilon, \$) \to (q_2, \$)$ — accept when only the marker remains.
+4. $(q_1, \varepsilon, \$) \to (q_2, \$)$. Accept when only the marker remains.
 
 The PDA maintains the current sentential form (minus terminals already matched) on the stack. When
 only $\text{\$}$ remains, the derivation is complete and all input has been consumed. $\blacksquare$

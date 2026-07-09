@@ -1111,10 +1111,10 @@ His reforms.
 
 1. Failing to evaluate the reliability and provenance of sources before using them as evidence.
 
-2. Confusing causes, events, and consequences — be clear about chronological and causal
+2. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
 
-3. Presenting facts without analysis — examiners want to see interpretation, not just description.
+3. Presenting facts without analysis. Examiners want to see interpretation, not just description.
 
 4. Presenting a one-sided argument without considering alternative interpretations or
    counter-evidence.

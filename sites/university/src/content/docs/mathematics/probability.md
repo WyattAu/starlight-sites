@@ -444,15 +444,15 @@ MGF of $N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. $\blacksquare$
 
 ## Common Pitfalls
 
-1. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-4. Confusing $P(A|B)$ with $P(B|A)$ — these are related by Bayes' theorem but are not equal in
+4. Confusing $P(A|B)$ with $P(B|A)$. These are related by Bayes' theorem but are not equal in
    general.
 
 ## Worked Examples

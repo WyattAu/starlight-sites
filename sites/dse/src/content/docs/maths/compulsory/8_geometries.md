@@ -1053,7 +1053,7 @@ right-angled at $A$.
 3. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/geometries.md
 

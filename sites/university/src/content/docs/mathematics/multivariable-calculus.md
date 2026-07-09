@@ -2029,10 +2029,10 @@ If you get this wrong, revise: Section 2.5 Coordinate System Worked Examples.
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-3. Confusing partial derivatives with total derivatives — a partial derivative only varies one
+3. Confusing partial derivatives with total derivatives. A partial derivative only varies one
    variable, holding others constant.
 
 ## Worked Examples

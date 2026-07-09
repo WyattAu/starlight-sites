@@ -688,9 +688,9 @@ building a personal test matrix.
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-2. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-3. Rounding too early in multi-step calculations — carry full precision through and round only the
+3. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

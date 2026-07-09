@@ -752,7 +752,7 @@ Dependencies.
 
 **Decompose for 2NF:**
 
-1. **Results** (student_id, module_code, grade) — composite key
+1. **Results** (student_id, module_code, grade). Composite key
 2. **Students** (student_id, student_name)
 3. **Modules** (module_code, module_title, credits, lecturer)
 
@@ -1074,7 +1074,7 @@ Need to join three tables. For (d), use GROUP BY with SUM.
 1. **Departments** (dept_code PK, dept_name, location)
 2. **Employees** (emp_no PK, emp_name, salary, dept_code FK → Departments)
 3. **Projects** (project_code PK, title, budget, start_date)
-4. **Employee_Projects** (emp_no FK, project_code FK, hours_worked) — PK is (emp_no, project_code)
+4. **Employee_Projects** (emp_no FK, project_code FK, hours_worked). PK is (emp_no, project_code)
 
 **Functional dependencies:**
 
@@ -1137,15 +1137,15 @@ Example result:
 
 ## Common Pitfalls
 
-1. Misidentifying the limiting reagent — compare mole ratios rather than comparing masses.
+1. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.
 
-2. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+2. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
 3. Forgetting to convert between units (e.g., $\text{cm}^3$ to $\text{dm}^3$) when calculating
    concentrations.
 
-4. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
 ## Summary

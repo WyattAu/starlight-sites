@@ -148,10 +148,10 @@ Specification for precise details.
 
 1. Summarising the plot instead of exploring themes, characterisation, or narrative structure.
 
-2. Using vague analytical terminology — be specific about the technique (e.g., 'sibilance' not
+2. Using vague analytical terminology. Be specific about the technique (e.g., 'sibilance' not
    'sound effects').
 
-3. Ignoring context — always consider the social, historical, and literary context of the text.
+3. Ignoring context. Always consider the social, historical, and literary context of the text.
 
 4. Describing the content of a text without analysing the language techniques the writer uses.
 

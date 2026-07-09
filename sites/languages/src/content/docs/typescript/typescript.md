@@ -96,31 +96,31 @@ Interdependent.
 
 ## Common Pitfalls
 
-1. Using `any` as a shortcut — it disables all type checking for a value and propagates unsoundness.
+1. Using `any` as a shortcut. It disables all type checking for a value and propagates unsoundness.
    Prefer `unknown` when the type is genuinely unknown.
 
-2. Relying on type assertions (`as`) instead of proper narrowing — every `as` bypasses the
+2. Relying on type assertions (`as`) instead of proper narrowing. Every `as` bypasses the
    compiler's verification and can introduce runtime errors that TypeScript was supposed to prevent.
 
-3. Forgetting that `interface` declarations merge while `type` aliases do not — accidental merging
+3. Forgetting that `interface` declarations merge while `type` aliases do not. Accidental merging
    can cause subtle bugs in large codebases where the same interface name is used across files.
 
-4. Over-indexing arrays without `noUncheckedIndexedAccess` — by default, `arr[0]` has type `T`, not
+4. Over-indexing arrays without `noUncheckedIndexedAccess`. By default, `arr[0]` has type `T`, not
    `T | undefined`, which hides potential undefined values at runtime.
 
 ### Study Strategy
 
-1. **Enable `strict` mode immediately** — it catches the broadest class of errors and forces good
+1. **Enable `strict` mode immediately**. It catches the broadest class of errors and forces good
    habits from the start.
-2. **Learn the type system first, the toolchain second** — structural typing, generics, and
+2. **Learn the type system first, the toolchain second**. Structural typing, generics, and
    conditional types are the core intellectual content.
 3. **Read declaration files (`.d.ts`)** from `@types/` packages to see how real-world APIs are
    typed.
-4. **Practise type-level programming** — write your own utility types to internalise mapped types,
+4. **Practise type-level programming**. Write your own utility types to internalise mapped types,
    conditional types, and inference.
-5. **Use `tsconfig` strict flags** — enable `strictNullChecks`, `noUncheckedIndexedAccess`, and
+5. **Use `tsconfig` strict flags**. Enable `strictNullChecks`, `noUncheckedIndexedAccess`, and
    `exactOptionalPropertyTypes` for maximum safety.
-6. **Avoid type assertions (`as`)** — prefer type guards and narrowing. Every `as` is a hole in the
+6. **Avoid type assertions (`as`)**. Prefer type guards and narrowing. Every `as` is a hole in the
    type system that the compiler cannot verify.
 
 ## Summary

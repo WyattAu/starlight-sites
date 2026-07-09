@@ -278,7 +278,7 @@ For an overview of cognitive topics, see
 1. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

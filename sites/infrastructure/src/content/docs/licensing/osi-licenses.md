@@ -328,8 +328,7 @@ not to.
    otherwise deny. Public domain means no copyright at all. Using the Creative Commons Zero (CC0)
    declaration is the closest practical equivalent for software.
 
-2. **Mixing incompatible licenses.** Including GPL v3 code in an Apache 2.0 project is not possible
-   — the combined work must satisfy both licenses simultaneously, and the additional restrictions in
+2. **Mixing incompatible licenses.** Including GPL v3 code in an Apache 2.0 project is not possible. The combined work must satisfy both licenses simultaneously, and the additional restrictions in
    Apache 2.0 (patent retaliation, NOTICE requirement) conflict with GPL v3's "no additional
    restrictions" clause. Always check compatibility before combining code.
 

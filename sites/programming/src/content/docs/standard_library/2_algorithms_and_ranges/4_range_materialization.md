@@ -787,7 +787,7 @@ int main() {
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

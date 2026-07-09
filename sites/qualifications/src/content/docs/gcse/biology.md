@@ -87,7 +87,7 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 - Process:
   1. DNA replicates
   2. Chromosomes pair up and exchange genetic material (crossing over)
-  3. First division: the cell divides — each daughter cell has one chromosome from each pair
+  3. First division: the cell divides. Each daughter cell has one chromosome from each pair
   4. Second division: each daughter cell divides again, producing four haploid cells
 - Meiosis introduces genetic variation through crossing over and independent assortment
 
@@ -612,7 +612,7 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
    One extended paragraph rarely earns more than 2 marks unless it contains clear, distinct points.
 3. **Draw and label diagrams accurately**: labels should be on the correct side with clear leader
    lines. Practice drawing cells, the heart, and the nephron.
-4. **Use scientific terminology precisely**: do not write "plants make food" — write "plants carry
+4. **Use scientific terminology precisely**: do not write "plants make food". Write "plants carry
    out photosynthesis to produce glucose". Examiners reward correct use of terms like "selectively
    permeable", "active transport", "gradient", and "denature".
 5. **Show working for calculations**: even if your final answer is wrong, you can earn marks for the

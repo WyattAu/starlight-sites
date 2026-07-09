@@ -467,7 +467,7 @@ ZFS ACLs and POSIX permissions can conflict. If Windows clients cannot write to 
 
 1. Check the dataset ACL under **Storage > Pools > Dataset > Edit Permissions**
 2. Ensure the SMB user is the owner or has an explicit ACL entry
-3. Avoid mixing NFS and SMB on the same dataset — use separate datasets if possible
+3. Avoid mixing NFS and SMB on the same dataset. Use separate datasets if possible
 </details>
 
 <details>

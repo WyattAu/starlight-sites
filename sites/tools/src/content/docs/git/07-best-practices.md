@@ -305,7 +305,7 @@ git config --global alias.save "stash push -m"
 
 1. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Writing pseudocode that is too language-specific rather than using standard algorithmic

@@ -778,11 +778,11 @@ The relevant text:
 
 **Why companies fear AGPLv3:**
 
-1. The network interaction trigger is broader than distribution — any network-accessible service
+1. The network interaction trigger is broader than distribution. Any network-accessible service
    triggers it, regardless of whether a copy is conveyed
 2. The source code must be prominently offered to ALL users, not just those who explicitly request
    it
-3. Compliance is operationally complex — you need to maintain a source distribution mechanism for
+3. Compliance is operationally complex. You need to maintain a source distribution mechanism for
    every AGPLv3 service you deploy
 4. The definition of "interaction" is broad enough that internal microservices calling each other
    could theoretically trigger the obligation, though most legal interpretations focus on
@@ -901,7 +901,7 @@ Library is AGPLv3 (not GPLv3), network interaction triggers the copyleft obligat
 
 **Mixing GPL and Apache 2.0 code.** Apache 2.0's patent retaliation clause (Section 3.3) adds
 Restrictions that are incompatible with GPLv2. GPLv3 was specifically designed to accommodate Apache
-2.0's terms, so GPLv3 + Apache 2.0 is fine. But GPLv2 + Apache 2.0 is not — the Apache 2.0 patent
+2.0's terms, so GPLv3 + Apache 2.0 is fine. But GPLv2 + Apache 2.0 is not. The Apache 2.0 patent
 Retaliation terms are "additional restrictions" that GPLv2 Section 4 prohibits. If you are working
 On a GPLv2-only project (like the Linux kernel), you cannot incorporate Apache 2.0-licensed code.
 

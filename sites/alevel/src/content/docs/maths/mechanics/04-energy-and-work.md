@@ -630,13 +630,13 @@ building a personal test matrix.
 1. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-2. Using the wrong equation from the data sheet — take time to read the full equation, including
+2. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 3. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 ## Summary

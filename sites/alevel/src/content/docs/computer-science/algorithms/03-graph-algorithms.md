@@ -887,9 +887,9 @@ which may differ from the MST. These are different optimisation problems with di
 
 ## Common Pitfalls
 
-1. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-2. Rounding too early in multi-step calculations — carry full precision through and round only the
+2. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

@@ -631,13 +631,13 @@ If you get this wrong, revise: Optics / Curved Mirrors
 1. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-2. Misidentifying the system boundary when applying conservation laws — define what is included
+2. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 3. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-4. Using the wrong equation from the data sheet — take time to read the full equation, including
+4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 ## Summary

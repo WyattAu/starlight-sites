@@ -280,7 +280,7 @@ Android Studio.
 
 1. Download from https://developer.android.com/studio
 2. Run the installer (it bundles Android SDK, SDK Platform-Tools, and Android Emulator)
-3. Launch Android Studio and complete the setup wizard — it downloads the latest SDK and system
+3. Launch Android Studio and complete the setup wizard. It downloads the latest SDK and system
    images
 
 ### Configuring environment variables

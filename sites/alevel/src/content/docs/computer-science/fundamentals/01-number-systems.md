@@ -684,7 +684,7 @@ Both inputs are negative and the result is negative, so no overflow.
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted

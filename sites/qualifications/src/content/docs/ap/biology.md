@@ -356,7 +356,7 @@ meiosis (provided they are not linked).
 1. RNA polymerase binds to the promoter region of the gene
 2. RNA polymerase synthesises mRNA in the 5' to 3' direction using the DNA template strand (3' to
    5')
-3. In eukaryotes: pre-mRNA is processed — 5' cap added, poly-A tail added, introns removed by
+3. In eukaryotes: pre-mRNA is processed. 5' cap added, poly-A tail added, introns removed by
    splicing (exons joined)
 4. Mature mRNA exits the nucleus through nuclear pores
 

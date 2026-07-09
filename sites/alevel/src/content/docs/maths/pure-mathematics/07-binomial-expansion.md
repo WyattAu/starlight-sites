@@ -898,7 +898,7 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both
@@ -907,7 +907,7 @@ building a personal test matrix.
 3. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-4. Rounding too early in multi-step calculations — carry full precision through and round only the
+4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 ## Summary

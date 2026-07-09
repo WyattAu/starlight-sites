@@ -25,9 +25,9 @@ Logic.
 
 Before Dart 3, you had three options for modeling this:
 
-1. **Class hierarchies with `abstract class`** — no exhaustiveness checking, easy to forget a case.
-2. **Enums** — exhaustive, but all variants share the same fields (no variant-specific data).
-3. **Ad-hoc tagged unions** — use an enum field as a discriminator, with `switch` and `default`.
+1. **Class hierarchies with `abstract class`**. No exhaustiveness checking, easy to forget a case.
+2. **Enums**. Exhaustive, but all variants share the same fields (no variant-specific data).
+3. **Ad-hoc tagged unions**. Use an enum field as a discriminator, with `switch` and `default`.
 
 All three are deficient. Sealed classes solve this by combining the expressiveness of class
 Hierarchies (each variant has its own fields) with the exhaustiveness of enums (the compiler knows

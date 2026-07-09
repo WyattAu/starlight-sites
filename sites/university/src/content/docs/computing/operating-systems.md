@@ -875,7 +875,7 @@ Translate logical address (segment = 1, offset = 1500):
 
 Translate (segment = 2, offset = 2500):
 
-1. Check: offset $2500 \lt$ limit $2048$. **Invalid** — segmentation fault.
+1. Check: offset $2500 \lt$ limit $2048$. **Invalid**. Segmentation fault.
 </details>
 
 ### 5.4 Segmented Paging
@@ -2153,13 +2153,13 @@ by the overflow would fail the CFI check.
 
 1. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Worked Examples

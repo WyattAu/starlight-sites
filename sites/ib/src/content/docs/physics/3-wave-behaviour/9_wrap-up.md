@@ -516,7 +516,7 @@ $$f' = f\left(\frac{v}{v + v_s}\right) = 800\left(\frac{343}{343 + 30}\right) = 
 
 1. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 3. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world

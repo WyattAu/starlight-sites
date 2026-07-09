@@ -43,11 +43,11 @@ with defined relationships, and on **SQL** as the language for manipulating that
 
 ## Study Tips
 
-1. **Practise writing SQL** — don"t just read it. Write queries against sample databases and verify
+1. **Practise writing SQL**. Don"t just read it. Write queries against sample databases and verify
    your results.
-2. **Normalise step by step** — exam questions often give an unnormalised table and ask you to
+2. **Normalise step by step**. Exam questions often give an unnormalised table and ask you to
    normalise to 3NF. Work through 1NF $\rightarrow$ 2NF $\rightarrow$ 3NF explicitly.
-3. **Draw ER diagrams** before writing SQL — they clarify relationships and cardinality (1:1, 1:M,
+3. **Draw ER diagrams** before writing SQL. They clarify relationships and cardinality (1:1, 1:M,
    M:N).
 4. **Understand join types** — `INNER JOIN` returns only matching rows; `LEFT JOIN` returns all rows
    from the left table. Sketch Venn diagrams if it helps.

@@ -1156,14 +1156,14 @@ The lines intersect at $\boxed{(1,0,0)}$.
 
 ## Common Pitfalls
 
-1. Confusing position vectors with direction vectors — position vectors point from the origin.
+1. Confusing position vectors with direction vectors. Position vectors point from the origin.
 
 2. Forgetting that the scalar product gives a scalar, not a vector.
 
 3. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-4. Losing marks by not showing sufficient working — always write out each step, especially in proof
+4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 5. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

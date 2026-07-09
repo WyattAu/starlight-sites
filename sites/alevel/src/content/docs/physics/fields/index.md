@@ -52,16 +52,16 @@ fields — and their unification through electromagnetic induction.
 
 ## Study Tips
 
-1. **Compare gravitational and electric fields explicitly** — learn the parallels (inverse square
+1. **Compare gravitational and electric fields explicitly**. Learn the parallels (inverse square
    laws, potential equations) and the differences (attractive only vs. attractive/repulsive, mass
    vs. charge).
-2. **Use Fleming's left-hand rule physically** — actually hold your left hand in the correct
+2. **Use Fleming's left-hand rule physically**. Actually hold your left hand in the correct
    orientation. Practise until it's automatic.
-3. **Derive orbital velocity** from combining $\frac{GMm}{r^2}$ with $\frac{mv^2}{r}$ — this
+3. **Derive orbital velocity** from combining $\frac{GMm}{r^2}$ with $\frac{mv^2}{r}$. This
    derivation appears frequently.
-4. **Practise Lenz's law** — for any situation, ask "what change is happening?" and then "what
+4. **Practise Lenz's law**. For any situation, ask "what change is happening?" and then "what
    current would oppose this change?"
-5. **Sketch field lines** — radial (point mass/charge), uniform (between plates), and the combined
+5. **Sketch field lines**. Radial (point mass/charge), uniform (between plates), and the combined
    fields.
 
 ## How to Use These Notes

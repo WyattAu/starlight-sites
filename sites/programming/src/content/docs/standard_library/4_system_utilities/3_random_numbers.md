@@ -587,7 +587,7 @@ PRNG.
 2. Not making connections between different topics within the subject to build a coherent
    understanding.
 
-3. Memorising content without understanding the underlying principles — this leads to poor
+3. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 4. Ignoring feedback from marked work and failing to address recurring weaknesses.

@@ -525,7 +525,7 @@ design while keeping tests green (Refactor).
 
 ### The Red-Green-Refactor Cycle
 
-1. **Red**: Write a test that describes the behavior you want. Run it — it must fail.
+1. **Red**: Write a test that describes the behavior you want. Run it. It must fail.
 2. **Green**: Write the simplest code that makes the test pass. No more, no less.
 3. **Refactor**: Clean up the code while keeping all tests green. Rename, extract, simplify.
 
@@ -732,7 +732,7 @@ testWidgets('navigates to detail on tap', (tester) async {
    containerized environment, or run golden tests only on a single platform in CI. Accept a small
    pixel threshold if anti-aliasing varies.
 
-6. **Not testing error paths.** Happy-path tests are easy. Error-path tests — what happens when the
+6. **Not testing error paths.** Happy-path tests are easy. Error-path tests. What happens when the
    network fails, the database is corrupt, the input is malformed — are where the bugs live. Every
    test group should have at least one error case.
 

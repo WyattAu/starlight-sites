@@ -69,10 +69,10 @@ To the independent variable or the uncontrolled factor.
 
 **Strategies for controlling variables:**
 
-1. **Physical isolation** — e.g., placing the experiment in a water bath to control temperature
-2. **Standardised procedure** — e.g., always measuring from the same reference point
-3. **Matching conditions** — e.g., using the same equipment and setup for every trial
-4. **Monitoring and recording** — if a variable cannot be perfectly controlled, at least measure it
+1. **Physical isolation**. E.g., placing the experiment in a water bath to control temperature
+2. **Standardised procedure**. E.g., always measuring from the same reference point
+3. **Matching conditions**. E.g., using the same equipment and setup for every trial
+4. **Monitoring and recording**. If a variable cannot be perfectly controlled, at least measure it
    so its effect can be assessed
 
 :::info Board Coverage AQA Paper 3 Section A | Edexcel CP6 (Core Practical 6) | OCR (A) PAG 1 | CIE
@@ -317,10 +317,10 @@ The risk, and describe precautions.
 
 A risk assessment follows four steps:
 
-1. **Identify the hazard** — what could cause harm? (e.g., hot water, mains electricity, laser)
-2. **Identify who is at risk** — the experimenter and nearby students
-3. **Evaluate the level of risk** — consider both the **likelihood** and the **severity** of harm
-4. **Implement control measures** — what precautions reduce the risk to an acceptable level?
+1. **Identify the hazard**. What could cause harm? (e.g., hot water, mains electricity, laser)
+2. **Identify who is at risk**. The experimenter and nearby students
+3. **Evaluate the level of risk**. Consider both the **likelihood** and the **severity** of harm
+4. **Implement control measures**. What precautions reduce the risk to an acceptable level?
 
 ### Risk Assessment Matrix
 
@@ -346,9 +346,9 @@ A risk assessment follows four steps:
 
 When asked to write a risk assessment, structure your answer as follows:
 
-1. **State the hazard ** — "The mains electricity supply poses a risk of electric shock."
-2. **State the severity** — "This could cause serious injury or death."
-3. **Describe the control measure** — "Use a low-voltage (e.g., 12 V) power supply instead of mains,
+1. **State the hazard **. "The mains electricity supply poses a risk of electric shock."
+2. **State the severity**. "This could cause serious injury or death."
+3. **Describe the control measure**. "Use a low-voltage (e.g., 12 V) power supply instead of mains,
    and ensure all connections are insulated."
 
 > **Info:** Board Coverage AQA Paper 3 | Edexcel CP1–CP12 | OCR (A) PAG (all) | CIE P5
@@ -371,10 +371,10 @@ Specific, practical control measures. "Be careful" is never an acceptable contro
 
 When asked to evaluate an experiment:
 
-1. **Identify the largest source of uncertainty** — this limits the overall precision.
-2. **Suggest specific improvements** — not vague statements like "be more careful".
-3. **Discuss systematic errors** — are there unaccounted biases?
-4. **Assess whether the method is valid** — does it actually measure what is intended?
+1. **Identify the largest source of uncertainty**. This limits the overall precision.
+2. **Suggest specific improvements**. Not vague statements like "be more careful".
+3. **Discuss systematic errors**. Are there unaccounted biases?
+4. **Assess whether the method is valid**. Does it actually measure what is intended?
 
 ### Systematic vs Random Errors in Evaluation
 
@@ -712,10 +712,10 @@ Eliminate human reaction time entirely.
 1. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-2. Misidentifying the system boundary when applying conservation laws — define what is included
+2. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
-3. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+3. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 4. Confusing displacement with distance, or velocity with speed, particularly in graphs and

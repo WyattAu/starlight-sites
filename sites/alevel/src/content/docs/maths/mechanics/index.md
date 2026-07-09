@@ -55,15 +55,15 @@ mathematics.
 
 ## Study Tips
 
-1. **Always draw a diagram** — label all forces, choose positive directions, and resolve
+1. **Always draw a diagram**. Label all forces, choose positive directions, and resolve
    consistently. Marks are lost when directions are ambiguous.
-2. **Check units** — all quantities should be in SI units (metres, kilograms, seconds, newtons)
+2. **Check units**. All quantities should be in SI units (metres, kilograms, seconds, newtons)
    before substituting into equations.
-3. **Use SUVAT systematically** — write down which variables you know and which you need, then
+3. **Use SUVAT systematically**. Write down which variables you know and which you need, then
    select the correct equation.
-4. **Practise connected particle problems** — decide when to treat the system as a whole and when to
+4. **Practise connected particle problems**. Decide when to treat the system as a whole and when to
    isolate individual particles.
-5. **Verify with common sense** — if your answer says a car has a negative mass or an object
+5. **Verify with common sense**. If your answer says a car has a negative mass or an object
    accelerates at $1000\,\text{m/s}^2$, something is wrong.
 
 ## How to Use These Notes

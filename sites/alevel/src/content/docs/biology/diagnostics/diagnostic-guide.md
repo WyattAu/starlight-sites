@@ -14,11 +14,11 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
 
 ## How to Use These Tests
 
-1. **Attempt every question under timed conditions** — aim for 10-12 minutes per question.
-2. **Write a full answer before reading the solution** — partial answers will not reveal gaps.
-3. **Mark your work against the worked solution** — note which steps you missed.
-4. **Identify your misconception** — each solution explicitly addresses common errors.
-5. **Track topics that need revision** — use the table below to log your results.
+1. **Attempt every question under timed conditions**. Aim for 10-12 minutes per question.
+2. **Write a full answer before reading the solution**. Partial answers will not reveal gaps.
+3. **Mark your work against the worked solution**. Note which steps you missed.
+4. **Identify your misconception**. Each solution explicitly addresses common errors.
+5. **Track topics that need revision**. Use the table below to log your results.
 
 ## Topic Map
 

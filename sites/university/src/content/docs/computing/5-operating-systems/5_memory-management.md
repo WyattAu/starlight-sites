@@ -81,7 +81,7 @@ Translate logical address (segment = 1, offset = 1500):
 
 Translate (segment = 2, offset = 2500):
 
-1. Check: offset $2500 \lt$ limit $2048$. **Invalid** — segmentation fault.
+1. Check: offset $2500 \lt$ limit $2048$. **Invalid**. Segmentation fault.
 </details>
 
 ### 5.4 Segmented Paging

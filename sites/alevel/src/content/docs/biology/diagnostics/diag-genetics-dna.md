@@ -40,12 +40,11 @@ polymerase cannot initiate synthesis without a primer.
    to 3' direction**.
 4. On the **leading strand**, DNA polymerase synthesises continuously in the 5' to 3' direction
    towards the replication fork.
-5. On the **lagging strand**, synthesis is discontinuous — short fragments called **Okazaki
+5. On the **lagging strand**, synthesis is discontinuous. Short fragments called **Okazaki
    fragments** are synthesised in the 5' to 3' direction away from the replication fork.
 6. **DNA ligase** joins the Okazaki fragments by catalysing the formation of phosphodiester bonds
    between them, creating a continuous strand.
-7. Each new DNA molecule consists of one original (parental) strand and one newly synthesised strand
-   — hence "semi-conservative."
+7. Each new DNA molecule consists of one original (parental) strand and one newly synthesised strand. Hence "semi-conservative."
 
 (b) **Meselson-Stahl experiment**:
 
@@ -60,7 +59,7 @@ polymerase cannot initiate synthesis without a primer.
    (each molecule has one heavy and one light strand) but also with dispersive replication.
 4. **Stage 3**: The bacteria were allowed to replicate for a second generation in $^{14}\text{N}$
    medium. DNA was extracted and centrifuged again.
-5. **Result after 2 generations**: TWO bands were observed — one of intermediate density and one of
+5. **Result after 2 generations**: TWO bands were observed. One of intermediate density and one of
    light density ($^{14}\text{N}$-$^{14}\text{N}$), in approximately equal proportions. This is
    consistent ONLY with semi-conservative replication: each intermediate molecule from generation 1
    produces one intermediate and one light molecule in generation 2.
@@ -239,7 +238,7 @@ exponentially with each cycle.
 3. An electric current is applied across the gel. DNA fragments are negatively charged (due to the
    phosphate groups on the sugar-phosphate backbone) and migrate towards the positive electrode
    (anode).
-4. The gel matrix acts as a molecular sieve — smaller DNA fragments move through the pores more and
+4. The gel matrix acts as a molecular sieve. Smaller DNA fragments move through the pores more and
    migrate faster (further), while larger fragments are slowed by the matrix and migrate more slowly
    (less far).
 5. After electrophoresis, the DNA is visualised by staining with a fluorescent dye (e.g., ethidium
@@ -439,7 +438,7 @@ chromosomes, so recessive alleles on one X can be masked by dominant alleles on 
 
 1. Males need only one copy of the recessive allele (on their single X chromosome) to express the
    condition ($X^aY$).
-2. Females need two copies of the recessive allele ($X^aX^a$) to express the condition — if they are
+2. Females need two copies of the recessive allele ($X^aX^a$) to express the condition. If they are
    heterozygous ($X^AX^a$), they are carriers and do not show symptoms.
 3. A male inherits his X chromosome from his mother (and Y from his father), so a carrier mother has
    a 50% chance of passing the affected X chromosome to each son. A father passes his X chromosome
@@ -485,7 +484,7 @@ genome. The process for genetic engineering:
 3. The recombinant _Agrobacterium_ is used to infect cotton plant tissue (e.g., leaf discs).
 4. The bacterium transfers the recombinant T-DNA (containing the Bt gene) into the cotton plant
    cells, where it integrates into the plant genome.
-5. The transformed plant cells are grown on a medium containing the antibiotic — only cells that
+5. The transformed plant cells are grown on a medium containing the antibiotic. Only cells that
    have incorporated the T-DNA (with the resistance gene) survive.
 6. These transformed cells are grown into whole cotton plants using tissue culture techniques
    (hormones such as auxin and cytokinin stimulate shoot and root development).

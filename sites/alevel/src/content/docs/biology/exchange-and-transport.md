@@ -1986,7 +1986,7 @@ For oxygen diffusing across the alveolar membrane:
 
 1. Failing to link structure to function when describing biological molecules, cells, or organs.
 
-2. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+2. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 3. Misinterpreting graphs by confusing the independent and dependent variables or reading scales

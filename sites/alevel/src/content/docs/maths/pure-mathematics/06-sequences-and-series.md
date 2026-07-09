@@ -833,13 +833,13 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Losing marks by not showing sufficient working — always write out each step, especially in proof
+1. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-3. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+3. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.

@@ -283,7 +283,7 @@ $$\mathrm{Long-run equilibrium: } AD = SRAS = LRAS \mathrm{ at } (Y^*, P_{LR})$$
 **Negative supply shock** (e.g., oil price increase):
 
 1. SRAS shifts left
-2. $Y \downarrow$, $P \uparrow$ (stagflation — simultaneous rise in inflation and fall in output)
+2. $Y \downarrow$, $P \uparrow$ (stagflation. Simultaneous rise in inflation and fall in output)
 
 This is the worst outcome for policymakers because the standard tools are contradictory:
 Expansionary policy to raise output worsens inflation; contractionary policy to reduce inflation
@@ -387,7 +387,7 @@ The multiplier model has several important limitations:
 2. **Crowding out.** Government borrowing to finance spending may raise interest rates, reducing
    private investment. The net shift in AD is smaller than $k \times \Delta G$.
 
-3. **Time lags.** The multiplier process takes time — each round of spending requires households and
+3. **Time lags.** The multiplier process takes time. Each round of spending requires households and
    firms to receive income and then spend it. In practice, the full effect may take 1-2 years.
 
 4. **Leakages to imports.** In open economies like the UK (imports approximately 30% of GDP), a
@@ -1152,7 +1152,7 @@ the financing method (tax-funded vs debt-funded).
 
 ## Common Pitfalls
 
-1. Confusing a movement along a curve with a shift of the curve — movements are caused by price
+1. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
 
 2. Failing to evaluate both strengths and weaknesses of economic models, not just listing them.

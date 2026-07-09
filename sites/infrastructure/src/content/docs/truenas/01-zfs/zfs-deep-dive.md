@@ -19,7 +19,7 @@ graph TD
     D --> E[Physical Storage - vdevs]
 ```
 
-1. **ZPL (ZFS POSIX Layer):** The filesystem layer that provides POSIX-compliant semantics — files,
+1. **ZPL (ZFS POSIX Layer):** The filesystem layer that provides POSIX-compliant semantics. Files,
    directories, permissions, extended attributes, and ACLs. It translates file operations into block
    operations.
 2. **DMU (Data Management Unit):** The transactional layer that manages objects, blocks, and

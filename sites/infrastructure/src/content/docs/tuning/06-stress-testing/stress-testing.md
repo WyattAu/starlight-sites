@@ -8,16 +8,16 @@ description: "Stress testing serves three purposes for a systems engineer: Compr
 
 Stress testing serves three purposes for a systems engineer:
 
-1. **Stability verification** — Confirming that hardware operates correctly under worst-case
+1. **Stability verification**. Confirming that hardware operates correctly under worst-case
    conditions. Tuning changes (undervolting, overclocking, memory timing adjustments) must be
    validated with systematic testing. A system that boots and runs a web browser is not proven
    stable.
 
-2. **Thermal profiling** — Establishing the thermal ceiling of your system under sustained load.
+2. **Thermal profiling**. Establishing the thermal ceiling of your system under sustained load.
    This information guides cooling decisions and identifies whether thermal throttling will occur in
    production workloads.
 
-3. **Silicon quality assessment** — Stress testing reveals the headroom available in your specific
+3. **Silicon quality assessment**. Stress testing reveals the headroom available in your specific
    silicon sample. Two identical CPUs may have very different thermal and stability profiles due to
    manufacturing variance (the silicon lottery).
 
@@ -500,8 +500,8 @@ A system is considered stable only when:
 3. **Zero memory errors** in MemTest86 (4+ passes) and TestMem5 (30+ min).
 4. **Zero visual artifacts** during GPU stress tests.
 5. **Temperatures remain within safe limits** under sustained full load.
-6. **Idle stability** — system remains stable for 2+ hours at idle after stress testing.
-7. **Real-world validation** — the system runs your actual workloads without errors for at least one
+6. **Idle stability**. System remains stable for 2+ hours at idle after stress testing.
+7. **Real-world validation**. The system runs your actual workloads without errors for at least one
    week.
 
 If any single criterion fails, the system is not stable. There are no partial passes.

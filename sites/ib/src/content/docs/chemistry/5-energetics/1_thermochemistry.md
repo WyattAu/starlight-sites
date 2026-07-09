@@ -967,10 +967,10 @@ For the A-Level treatment of this topic, see
 1. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
-2. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+2. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
-3. Writing half-equations without balancing charges or atoms — always check electrons, hydrogen
+3. Writing half-equations without balancing charges or atoms. Always check electrons, hydrogen
    ions, and water molecules.
 
 4. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.

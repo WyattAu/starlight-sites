@@ -70,15 +70,15 @@ can be polarised — longitudinal waves (sound) cannot.
 
 ## Study Tips
 
-1. **Draw wave diagrams** — sketch displacement-distance and displacement-time graphs for transverse
+1. **Draw wave diagrams**. Sketch displacement-distance and displacement-time graphs for transverse
    and longitudinal waves. Label amplitude, wavelength, and period.
-2. **Understand coherence** — interference requires coherent sources (constant phase relationship).
+2. **Understand coherence**. Interference requires coherent sources (constant phase relationship).
    In exams, always mention this when describing interference experiments.
-3. **Practise fringe spacing calculations** — Young's double slit and diffraction grating problems
+3. **Practise fringe spacing calculations**. Young's double slit and diffraction grating problems
    are standard exam fare. Know the derivations, not just the formulas.
-4. **Stationary vs. progressive waves** — be able to compare them: stationary waves store energy,
+4. **Stationary vs. progressive waves**. Be able to compare them: stationary waves store energy,
    progressive waves transfer energy; stationary waves have nodes, progressive waves do not.
-5. **For TIR problems** — always check two conditions: (1) light travels from more dense to less
+5. **For TIR problems**. Always check two conditions: (1) light travels from more dense to less
    dense medium, AND (2) angle of incidence exceeds the critical angle.
 
 ## How to Use These Notes

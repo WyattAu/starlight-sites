@@ -468,13 +468,13 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 
 ## Common Pitfalls
 
-1. Using the wrong equation from the data sheet — take time to read the full equation, including
+1. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+2. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
-3. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+3. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 4. Rounding intermediate answers too early, which compounds errors in multi-step calculations.

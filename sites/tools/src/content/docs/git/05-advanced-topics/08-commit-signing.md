@@ -605,8 +605,8 @@ $ echo "test" | gpg --clearsign
 
 1. **No terminal for passphrase input** — `gpg-agent` needs a terminal or pinentry program to prompt
    for your passphrase. In CI/CD environments, there is no terminal.
-2. **`gpg-agent` not running** — the agent must be started before Git can use it.
-3. **`GPG_TTY` not set** — Git (and GPG) need to know which terminal to use for pinentry.
+2. **`gpg-agent` not running**. The agent must be started before Git can use it.
+3. **`GPG_TTY` not set**. Git (and GPG) need to know which terminal to use for pinentry.
 
 ### GPG_TTY Issues
 

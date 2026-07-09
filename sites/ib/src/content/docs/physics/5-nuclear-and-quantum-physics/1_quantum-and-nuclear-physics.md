@@ -950,17 +950,17 @@ Approximately $3.2\,\mathrm{kg}$ of $^{235}\mathrm{U}$ is consumed per day.
 
 1. Confusing atomic number (protons) with mass number (protons + neutrons).
 
-2. Forgetting that radioactive decay is random and spontaneous — it cannot be predicted for
+2. Forgetting that radioactive decay is random and spontaneous. It cannot be predicted for
    individual nuclei.
 
 3. Misunderstanding that half-life is constant regardless of the initial amount of substance.
 
 4. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-5. Using the wrong equation from the data sheet — take time to read the full equation, including
+5. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-6. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+6. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 ## Cross-References

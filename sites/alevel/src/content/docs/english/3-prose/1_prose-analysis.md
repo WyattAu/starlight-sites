@@ -144,19 +144,19 @@ Understanding genre helps you recognise what a text is doing with or against exp
 
 When approaching a prose text, work through these layers:
 
-1. **Who speaks?** — Identify the narrative voice and its reliability
-2. **What is shown vs told?** — Distinguish between scenes (shown) and summary (told)
-3. **What is the temporal structure?** — How does time operate in the narrative?
-4. **Where is the reader positioned?** — What does the reader know that characters do not?
-5. **What is omitted?** — What the writer chooses not to say is as significant as what is included
+1. **Who speaks?**. Identify the narrative voice and its reliability
+2. **What is shown vs told?**. Distinguish between scenes (shown) and summary (told)
+3. **What is the temporal structure?**. How does time operate in the narrative?
+4. **Where is the reader positioned?**. What does the reader know that characters do not?
+5. **What is omitted?**. What the writer chooses not to say is as significant as what is included
 
 ### Prose Analysis Paragraph Structure
 
 1. **Make a point** about the writer's narrative or stylistic choice
-2. **Provide evidence** — embed a short quotation
+2. **Provide evidence**. Embed a short quotation
 3. **Analyse the language** of the quotation in detail
 4. **Discuss the effect** on the reader
-5. **Connect to context** — historical, social, or literary
+5. **Connect to context**. Historical, social, or literary
 6. **Link to the question** or advance your argument
 
 ## Key Terminology
@@ -189,12 +189,12 @@ When approaching a prose text, work through these layers:
 
 ### Planning a Prose Essay
 
-1. **Deconstruct the question** — Identify the key terms and the focus
-2. **Decide on your argument** — What is your thesis? What will you prove?
-3. **Select 4-6 key moments** — Choose scenes or passages that best support your argument
-4. **Order your points** — Arrange paragraphs to build a coherent argument, not merely follow the
+1. **Deconstruct the question**. Identify the key terms and the focus
+2. **Decide on your argument**. What is your thesis? What will you prove?
+3. **Select 4-6 key moments**. Choose scenes or passages that best support your argument
+4. **Order your points**. Arrange paragraphs to build a coherent argument, not merely follow the
    plot
-5. **Plan context integration** — Decide where contextual points will strengthen your analysis
+5. **Plan context integration**. Decide where contextual points will strengthen your analysis
 
 ### Writing the Essay
 

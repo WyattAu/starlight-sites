@@ -274,7 +274,7 @@ TrueNAS supports dataset-level encryption using AES-256-GCM:
 
 1. Create an encrypted dataset or pool.
 2. The encryption key is protected by a passphrase or a key file.
-3. Without the key, the data is unreadable — even if the drives are physically stolen.
+3. Without the key, the data is unreadable. Even if the drives are physically stolen.
 
 ```bash
 # Create an encrypted dataset

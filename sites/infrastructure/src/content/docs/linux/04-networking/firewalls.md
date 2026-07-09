@@ -61,30 +61,30 @@ security table:  INPUT, FORWARD, OUTPUT
 
 ```text
 Packet arrives on interface:
-  1. raw:PREROUTING    — connection tracking exemptions
-  2. mangle:PREROUTING  — packet marking
-  3. nat:PREROUTING     — DNAT (destination NAT)
-  4. Routing decision   — local or forward?
+  1. raw:PREROUTING. Connection tracking exemptions
+  2. mangle:PREROUTING. Packet marking
+  3. nat:PREROUTING. DNAT (destination NAT)
+  4. Routing decision. Local or forward?
 
 If local:
-  5. mangle:INPUT       — packet marking
-  6. filter:INPUT       — filtering rules
+  5. mangle:INPUT. Packet marking
+  6. filter:INPUT. Filtering rules
   7. Local process
 
 If forward:
-  5. mangle:FORWARD     — packet marking
-  6. filter:FORWARD     — filtering rules
+  5. mangle:FORWARD. Packet marking
+  6. filter:FORWARD. Filtering rules
 
 Local process generates packet:
-  8. raw:OUTPUT         — connection tracking exemptions
-  9. mangle:OUTPUT      — packet marking
-  10. nat:OUTPUT        — DNAT for locally-generated packets
-  11. filter:OUTPUT     — filtering rules
+  8. raw:OUTPUT. Connection tracking exemptions
+  9. mangle:OUTPUT. Packet marking
+  10. nat:OUTPUT. DNAT for locally-generated packets
+  11. filter:OUTPUT. Filtering rules
   12. Routing decision
 
 Outgoing packet:
-  13. mangle:POSTROUTING — final packet marking
-  14. nat:POSTROUTING    — SNAT/MASQUERADE
+  13. mangle:POSTROUTING. Final packet marking
+  14. nat:POSTROUTING. SNAT/MASQUERADE
 ```
 
 ## iptables

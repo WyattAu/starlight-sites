@@ -212,8 +212,8 @@ Procedure:
 
 1. Find domain, intercepts, and symmetry
 2. Identify asymptotes (vertical, horizontal, slant)
-3. Find the first derivative — determine increasing/decreasing intervals and local extrema
-4. Find the second derivative — determine concavity and inflection points
+3. Find the first derivative. Determine increasing/decreasing intervals and local extrema
+4. Find the second derivative. Determine concavity and inflection points
 5. Sketch the graph using all gathered information
 
 ## 4. Integration

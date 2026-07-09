@@ -46,15 +46,15 @@ classifies problems by their inherent difficulty.
 
 ## Study Tips
 
-1. **Draw FSM state diagrams** for every problem — start with the initial state, identify accepting
+1. **Draw FSM state diagrams** for every problem. Start with the initial state, identify accepting
    states, and fill in transitions systematically.
-2. **Convert between representations** — practise converting state diagrams to state tables and vice
+2. **Convert between representations**. Practise converting state diagrams to state tables and vice
    versa.
-3. **Understand the Halting Problem proof** — it is a classic proof by contradiction that appears on
+3. **Understand the Halting Problem proof**. It is a classic proof by contradiction that appears on
    many exam papers. Be able to reproduce the argument.
-4. **Distinguish between FSMs and Turing machines** — FSMs have finite memory (states only); Turing
+4. **Distinguish between FSMs and Turing machines**. FSMs have finite memory (states only); Turing
    machines have infinite memory (tape). This is the key difference in computational power.
-5. **Practise regular expressions** — write patterns for phone numbers, email addresses, and other
+5. **Practise regular expressions**. Write patterns for phone numbers, email addresses, and other
    validation tasks.
 
 ## How to Use These Notes

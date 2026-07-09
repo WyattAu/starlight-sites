@@ -66,15 +66,15 @@ power transmission and strong electromagnets in MRI machines.
 
 ## Study Tips
 
-1. **Draw circuit diagrams** — use standard symbols, label all currents and voltages, and indicate
+1. **Draw circuit diagrams**. Use standard symbols, label all currents and voltages, and indicate
    direction of conventional current.
-2. **Apply Kirchhoff's laws systematically** — choose a loop, go around consistently, and set up
+2. **Apply Kirchhoff's laws systematically**. Choose a loop, go around consistently, and set up
    equations. Solve simultaneously.
-3. **Understand $I$-$V$ characteristics** — sketch and explain the curves for a resistor (linear),
+3. **Understand $I$-$V$ characteristics**. Sketch and explain the curves for a resistor (linear),
    filament lamp (curved, resistance increases with temperature), and diode (threshold voltage).
-4. **Practise internal resistance problems** — they combine circuit analysis with the concept of EMF
+4. **Practise internal resistance problems**. They combine circuit analysis with the concept of EMF
    and are frequently examined.
-5. **For capacitor discharge** — always identify the time constant $\tau = RC$ first. After one time
+5. **For capacitor discharge**. Always identify the time constant $\tau = RC$ first. After one time
    constant, the charge drops to $37\%$ of its initial value.
 
 ## How to Use These Notes

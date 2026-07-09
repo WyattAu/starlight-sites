@@ -1118,13 +1118,13 @@ For more complex date arithmetic (business days, holidays, recurrence rules), th
 
 ## Common Pitfalls
 
-1. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+1. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 2. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 4. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

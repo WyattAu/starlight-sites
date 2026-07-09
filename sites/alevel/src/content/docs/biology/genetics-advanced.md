@@ -2203,7 +2203,7 @@ Where:
 
 5. Confusing correlation with causation when evaluating experimental data and drawing conclusions.
 
-6. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+6. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 ## Worked Examples

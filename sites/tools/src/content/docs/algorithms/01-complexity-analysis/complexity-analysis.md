@@ -271,10 +271,10 @@ And $O(n)$ in the worst case.
 
 In systems engineering, worst-case guarantees matter because:
 
-1. **Adversarial inputs exist** — attackers can craft inputs that trigger worst-case behaviour (hash
+1. **Adversarial inputs exist**. Attackers can craft inputs that trigger worst-case behaviour (hash
    collision denial-of-service, regex backtracking)
-2. **Tail latency is critical** — p99 latency is dominated by worst-case behaviour, not average
-3. **Real-time constraints** — a system that responds in 1ms but occasionally takes 10s is often
+2. **Tail latency is critical**. P99 latency is dominated by worst-case behaviour, not average
+3. **Real-time constraints**. A system that responds in 1ms but occasionally takes 10s is often
    worse than one that always responds in 5ms
 
 :::
@@ -473,15 +473,15 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 
 When you encounter an NP-hard problem:
 
-1. **Restrict the input** — Many NP-hard problems become polynomial on restricted inputs (e.g., TSP
+1. **Restrict the input**. Many NP-hard problems become polynomial on restricted inputs (e.g., TSP
    on a tree, graph colouring on a bipartite graph)
-2. **Approximation algorithms** — Find a solution within a guaranteed factor of optimal (e.g.,
+2. **Approximation algorithms**. Find a solution within a guaranteed factor of optimal (e.g.,
    2-approx for vertex cover, 1.5-approx for metric TSP with Christofides' algorithm)
-3. **Heuristics** — Greedy algorithms, local search, simulated annealing, genetic algorithms. No
+3. **Heuristics**. Greedy algorithms, local search, simulated annealing, genetic algorithms. No
    guarantees, but often work well in practice
-4. **Fixed-parameter tractability** — If the problem is NP-hard but polynomial for fixed parameter
+4. **Fixed-parameter tractability**. If the problem is NP-hard but polynomial for fixed parameter
    $k$Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
-5. **SAT solvers** — For many combinatorial problems, encoding as SAT and using a modern solver
+5. **SAT solvers**. For many combinatorial problems, encoding as SAT and using a modern solver
    (CDCL-based) is surprisingly effective
 
 ## Practical Considerations

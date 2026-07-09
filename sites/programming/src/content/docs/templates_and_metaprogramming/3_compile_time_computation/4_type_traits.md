@@ -938,10 +938,10 @@ Introspected).
 2. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-3. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+3. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Summary

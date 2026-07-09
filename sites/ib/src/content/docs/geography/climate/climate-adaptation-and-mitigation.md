@@ -247,10 +247,10 @@ For related topics, see [./atmospheric-systems](./atmospheric-systems) and
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-2. Rounding too early in multi-step calculations — carry full precision through and round only the
+2. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

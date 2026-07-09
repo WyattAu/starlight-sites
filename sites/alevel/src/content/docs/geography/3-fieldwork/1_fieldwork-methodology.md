@@ -162,7 +162,7 @@ investigations.
 4. Apply the formula: **ρ = 1 − (6 × Σd²) / (n × (n² − 1))**
 5. Compare the calculated value to the critical value at the appropriate significance level
    (commonly 0.05) 0.05)
-6. If the calculated value exceeds the critical value, reject the null hypothesis — there is a
+6. If the calculated value exceeds the critical value, reject the null hypothesis. There is a
    significant correlation
 
 **Interpretation**: ρ ranges from -1 (perfect negative correlation) to +1 (perfect positive
@@ -364,7 +364,7 @@ Quays area?
 2. **Secondary data**: Census data for the area (2011 and 2021), IMD data, property price data
    (Zoopla/Rightmove), historical maps and photographs from Salford City Council archives.
 
-3. **Sampling**: Stratified sampling — select sites to cover regenerated areas (MediaCityUK, The
+3. **Sampling**: Stratified sampling. Select sites to cover regenerated areas (MediaCityUK, The
    Lowry), partially regenerated areas, and non-regenerated areas for comparison.
 
 4. **Presentation**: Choropleth maps of EQS scores, annotated photographs, pie charts of land use,

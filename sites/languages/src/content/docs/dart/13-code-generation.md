@@ -25,7 +25,7 @@ Workflows. Packages like `freezed``json_serializable``injectable``retrofit`And `
 
 1. **Boilerplate reduction**: `copyWith``==``hashCode``toString``fromJson`/`toJson` are generated,
    not hand-written
-2. **Consistency**: generated code is always in sync with the model — change a field, regenerate,
+2. **Consistency**: generated code is always in sync with the model. Change a field, regenerate,
    and serialization updates
 3. **Performance**: generated code avoids runtime reflection (which Dart does not have), using
    direct field access instead

@@ -431,7 +431,7 @@ Of the eddy currents and thus the power dissipated.
 
 ## Common Pitfalls
 
-1. Confusing gravitational field strength $g$ with gravitational potential $V_g$ — one is force per
+1. Confusing gravitational field strength $g$ with gravitational potential $V_g$. One is force per
    unit mass, the other is energy per unit mass.
 
 2. Forgetting that field lines point in the direction a positive test charge (or mass) would move.
@@ -441,7 +441,7 @@ Of the eddy currents and thus the power dissipated.
 
 4. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-5. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+5. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 6. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world

@@ -1349,7 +1349,7 @@ better on liveability indicators.
 
 ## Common Pitfalls
 
-1. Confusing a movement along a curve with a shift of the curve — movements are caused by price
+1. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
 
 2. Stating that 'demand falls' without specifying whether it is a contraction (movement along) or a
@@ -1358,7 +1358,7 @@ better on liveability indicators.
 3. Using circular reasoning by assuming the conclusion when evaluating economic policy
    effectiveness.
 
-4. Confusing nominal and real values — always adjust for inflation when comparing monetary values
+4. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
 ## Summary

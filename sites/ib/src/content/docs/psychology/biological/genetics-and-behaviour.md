@@ -277,14 +277,14 @@ For an overview of biological topics, see
 2. Forgetting that a recessive allele can be present in a carrier without being expressed in the
    phenotype.
 
-3. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+3. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 4. Forgetting to include control variables in experimental design, leading to invalid conclusions.
 
 5. Failing to link structure to function when describing biological molecules, cells, or organs.
 
-6. Confusing DNA replication (S phase) with transcription or translation — be clear about which
+6. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
 ## Summary

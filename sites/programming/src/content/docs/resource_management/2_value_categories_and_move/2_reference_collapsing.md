@@ -307,15 +307,15 @@ The deduction process for forwarding references [N4950 §13.3.2.3]:
    `int`).
 3. The parameter type `T&&` becomes `int& &&`.
 4. Reference collapsing applies: `int& &&` → `int&`.
-5. The parameter `x` has type `int&` — an lvalue reference.
+5. The parameter `x` has type `int&`. An lvalue reference.
 
 If the argument were an rvalue:
 
 1. The argument `42` is a prvalue of type `int`.
 2. Under forwarding reference rules, when the argument is an rvalue, `T` is deduced as `int`.
 3. The parameter type `T&&` becomes `int&&`.
-4. No collapsing needed — it is already a single reference.
-5. The parameter `x` has type `int&&` — an rvalue reference.
+4. No collapsing needed. It is already a single reference.
+5. The parameter `x` has type `int&&`. An rvalue reference.
 
 ## 5.2 The `auto&&` Case
 

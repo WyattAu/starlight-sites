@@ -175,13 +175,13 @@ approximately six million Jews and millions of other victims.
 
 When analysing sources from Weimar and Nazi Germany:
 
-1. **Propaganda detection** — Nazi sources are carefully constructed to persuade. Ask what message
+1. **Propaganda detection**. Nazi sources are carefully constructed to persuade. Ask what message
    is being conveyed and to whom.
-2. **Photographic analysis** — Nazi photographs were often staged. Consider who took the photo, for
+2. **Photographic analysis**. Nazi photographs were often staged. Consider who took the photo, for
    what purpose, and what was excluded from the frame.
-3. **Underground sources** — Resistance materials (White Rose pamphlets, diaries) provide evidence
+3. **Underground sources**. Resistance materials (White Rose pamphlets, diaries) provide evidence
    of dissent but may overstate the extent of opposition.
-4. **Post-war testimony** — Survivor accounts and perpetrator testimonies given at Nuremberg or in
+4. **Post-war testimony**. Survivor accounts and perpetrator testimonies given at Nuremberg or in
    later interviews must be assessed for potential distortion over time.
 
 ### Key Source Types
@@ -197,13 +197,13 @@ When analysing sources from Weimar and Nazi Germany:
 
 ## Common Pitfalls
 
-1. **Treating the Nazi rise to power as inevitable** — the Nazis' electoral support peaked in July
+1. **Treating the Nazi rise to power as inevitable**. The Nazis' electoral support peaked in July
    1932 (37.3%) and actually declined to 33.1% in November 1932. Hitler was appointed through
    backroom political manoeuvring, not a popular majority.
-2. **Equating the Weimar Republic with failure** — the Republic achieved significant cultural
+2. **Equating the Weimar Republic with failure**. The Republic achieved significant cultural
    innovation (Bauhaus, Expressionist cinema), social reform, and economic recovery before 1929. Its
    collapse was contingent on specific circumstances.
-3. **Overstating the efficiency of the Nazi state** — the regime was polycratic, with overlapping
+3. **Overstating the efficiency of the Nazi state**. The regime was polycratic, with overlapping
    authorities and institutional chaos. The SS, party apparatus, and state bureaucracy often
    competed rather than cooperated.
 

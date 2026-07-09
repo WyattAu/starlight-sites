@@ -101,15 +101,15 @@ all pure mathematics content from algebraic manipulation through to numerical me
 
 ## Study Tips
 
-1. **Practise algebraic manipulation daily** — fluency with indices, fractions, and factorisation is
+1. **Practise algebraic manipulation daily**. Fluency with indices, fractions, and factorisation is
    non-negotiable. Every question requires it.
-2. **Show every step in proofs** — examiners mark each logical step. Skipping steps loses marks even
+2. **Show every step in proofs**. Examiners mark each logical step. Skipping steps loses marks even
    if the conclusion is correct.
-3. **Sketch graphs** — always sketch before solving. Understanding the geometry of a function
+3. **Sketch graphs**. Always sketch before solving. Understanding the geometry of a function
    prevents errors in finding solutions.
-4. **Learn derivative and integral rules** — chain, product, and quotient rules must be automatic.
+4. **Learn derivative and integral rules**. Chain, product, and quotient rules must be automatic.
    Derive them once to understand them, then practise until they're fast.
-5. **Check calculus answers** — differentiate your integral (or integrate your derivative) to
+5. **Check calculus answers**. Differentiate your integral (or integrate your derivative) to
    verify.
 
 ## How to Use These Notes

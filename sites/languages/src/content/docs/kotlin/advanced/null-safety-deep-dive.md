@@ -317,7 +317,7 @@ prove it covers the null case.
    }
    ```
 
-5. **Unnecessary nullable on generic types.** `List<String?>` vs `List<String>` — mark nullability
+5. **Unnecessary nullable on generic types.** `List<String?>` vs `List<String>`. Mark nullability
    at the element level, not the collection level, unless the entire collection can be null.
 
 6. **Overusing !! in tests.** `!!` is common in test code but hides bugs. Prefer `requireNotNull`

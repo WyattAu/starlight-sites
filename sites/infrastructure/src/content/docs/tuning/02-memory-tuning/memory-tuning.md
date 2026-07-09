@@ -172,13 +172,13 @@ Get the performance you paid for.
 XMP/EXPO profiles are validated by the RAM manufacturer on a reference platform with a single DIMM.
 Real-world stability depends on:
 
-1. **Motherboard memory routing quality** — trace length matching, impedance control, and layer
+1. **Motherboard memory routing quality**. Trace length matching, impedance control, and layer
    stackup vary between boards.
-2. **CPU memory controller quality** — the silicon lottery applies to the memory controller too.
+2. **CPU memory controller quality**. The silicon lottery applies to the memory controller too.
    Some CPUs can drive high-speed memory with two DIMMs populated; others cannot.
-3. **DIMM population** — two DIMMs is harder than one; four DIMMs is harder still. The memory
+3. **DIMM population**. Two DIMMs is harder than one; four DIMMs is harder still. The memory
    controller must drive twice or four times the electrical load.
-4. **Temperature** — DRAM is temperature-sensitive. Higher temperatures require more voltage or
+4. **Temperature**. DRAM is temperature-sensitive. Higher temperatures require more voltage or
    relaxed timings.
 
 ---

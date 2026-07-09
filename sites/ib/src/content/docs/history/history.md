@@ -477,11 +477,11 @@ Essays.
 1. Presenting a one-sided argument without considering alternative interpretations or
    counter-evidence.
 
-2. Presenting facts without analysis — examiners want to see interpretation, not just description.
+2. Presenting facts without analysis. Examiners want to see interpretation, not just description.
 
-3. Writing in the present tense about historical events — use the past tense consistently.
+3. Writing in the present tense about historical events. Use the past tense consistently.
 
-4. Confusing causes, events, and consequences — be clear about chronological and causal
+4. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
 
 ## Summary

@@ -252,12 +252,12 @@ At [../urban-environments](../urban-environments).
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-2. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-3. Losing marks by not showing sufficient working — always write out each step, especially in proof
+3. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 ## Summary

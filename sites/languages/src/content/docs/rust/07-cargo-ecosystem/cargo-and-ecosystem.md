@@ -202,8 +202,8 @@ They only requested `feature-x`.
 
 ### Feature Best Practices
 
-1. Keep features additive — never use features to remove functionality.
-2. Use `default = []` for library crates — let users opt in to features.
+1. Keep features additive. Never use features to remove functionality.
+2. Use `default = []` for library crates. Let users opt in to features.
 3. Use `dep:serde` syntax to gate the dependency itself, not just code.
 4. Document all features in the crate"s README.
 
@@ -939,8 +939,7 @@ Chain attacks, and licensing issues. Minimize your dependency tree. Audit regula
    `rust-version` in `Cargo.toml`. Users on older Rust compilers will get a clear error instead of
    cryptic compilation failures.
 
-9. **Running benchmarks without `--release`.** Benchmarks compiled in debug mode are meaningless —
-   the optimizer has not run, and timings reflect debug assertion overhead, not actual performance.
+9. **Running benchmarks without `--release`.** Benchmarks compiled in debug mode are meaningless. The optimizer has not run, and timings reflect debug assertion overhead, not actual performance.
    Always run `cargo bench` (which uses the `bench` profile with `opt-level = 3`).
 
 10. **Not auditing dependencies.** Run `cargo audit` regularly to check for known security

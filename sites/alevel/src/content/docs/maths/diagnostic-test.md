@@ -509,13 +509,13 @@ Use the revision links under each question to jump directly to the relevant topi
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-2. Losing marks by not showing sufficient working — always write out each step, especially in proof
+2. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 3. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-4. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 ## Summary
 

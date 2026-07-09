@@ -12,7 +12,7 @@ The `unsafe` keyword grants access to five capabilities that the compiler cannot
 2. **Call unsafe functions** — `fn foo() { unsafe { ... } }`
 3. **Access mutable statics** — `static mut X: i32`
 4. **Implement unsafe traits** — `unsafe impl Send for T {}`
-5. **Access union fields** — unions require unsafe for field access
+5. **Access union fields**. Unions require unsafe for field access
 
 `unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees — it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
@@ -311,9 +311,9 @@ cbindgen --config cbindgen.toml --crate my_lib --output my_lib.h
 ### FFI Safety Rules
 
 1. Rust `extern "C"` functions must not panic across the FFI boundary
-2. C strings are null-terminated; Rust strings are not — use `CString`/`CStr`
-3. C does not have Move semantics — Rust values passed to C must be `Copy` or leaked
-4. C does not have destructors — resources allocated by Rust and passed to C must be freed manually
+2. C strings are null-terminated; Rust strings are not. Use `CString`/`CStr`
+3. C does not have Move semantics. Rust values passed to C must be `Copy` or leaked
+4. C does not have destructors. Resources allocated by Rust and passed to C must be freed manually
    or through a callback
 5. The ABI must match — `"C"` is the most portable, but platform-specific ABIs exist
 
@@ -323,12 +323,12 @@ cbindgen --config cbindgen.toml --crate my_lib --output my_lib.h
 
 Unsafe code is sound if it maintains the following invariants:
 
-1. **No null dereferences** — raw pointers are checked for null before dereferencing
-2. **No dangling pointers** — pointers reference valid memory
-3. **No aliasing violations** — no `&T` and `&mut T` to the same data simultaneously
-4. **No out-of-bounds access** — pointer arithmetic stays within allocation bounds
-5. **No data races** — concurrent access is properly synchronized
-6. **No use-after-free** — memory is not accessed after being deallocated
+1. **No null dereferences**. Raw pointers are checked for null before dereferencing
+2. **No dangling pointers**. Pointers reference valid memory
+3. **No aliasing violations**. No `&T` and `&mut T` to the same data simultaneously
+4. **No out-of-bounds access**. Pointer arithmetic stays within allocation bounds
+5. **No data races**. Concurrent access is properly synchronized
+6. **No use-after-free**. Memory is not accessed after being deallocated
 
 ### Encapsulation Pattern
 
@@ -558,19 +558,19 @@ Exercises edge cases that hand-written tests may miss.
 
 ### Valid Uses
 
-1. **FFI** — calling C functions or exposing Rust functions to C
-2. **Performance-critical code** — after profiling shows a bottleneck
+1. **FFI**. Calling C functions or exposing Rust functions to C
+2. **Performance-critical code**. After profiling shows a bottleneck
 3. **Implementing safe abstractions** — `Vec``String``Box` are all implemented with `unsafe`
-4. **Interfacing with hardware** — memory-mapped I/O, raw device access
-5. **Custom allocators** — implementing `GlobalAlloc`
+4. **Interfacing with hardware**. Memory-mapped I/O, raw device access
+5. **Custom allocators**. Implementing `GlobalAlloc`
 
 ### Anti-Patterns
 
-1. **Bypassing the borrow checker** — if the borrow checker rejects your code, redesign the data
+1. **Bypassing the borrow checker**. If the borrow checker rejects your code, redesign the data
    flow. `unsafe` to bypass borrow checking almost always introduces soundness bugs.
-2. **Premature optimization** — benchmark first, use `unsafe` only when profiling shows it is
+2. **Premature optimization**. Benchmark first, use `unsafe` only when profiling shows it is
    necessary.
-3. **Raw pointers for convenience** — use references and smart pointers unless you have a specific
+3. **Raw pointers for convenience**. Use references and smart pointers unless you have a specific
    reason for raw pointers.
 
 ## Common Pitfalls

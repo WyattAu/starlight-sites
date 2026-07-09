@@ -180,8 +180,7 @@ structures (organelles, ribosomes, membranes) that are invisible under a light m
 
 **Limitations of TEM**:
 
-1. The specimen must be placed in a vacuum, so only dead, fixed, dehydrated specimens can be viewed
-   — no living cells can be observed.
+1. The specimen must be placed in a vacuum, so only dead, fixed, dehydrated specimens can be viewed. No living cells can be observed.
 2. The preparation process is complex and may introduce artefacts (structural features that are not
    present in the living cell, caused by chemical fixation and staining).
 3. The image is 2D (a thin section), so 3D reconstruction requires multiple sections.

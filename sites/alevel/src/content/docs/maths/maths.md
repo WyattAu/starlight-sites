@@ -86,12 +86,12 @@ The pure mathematics core is the backbone of the course. It develops:
 
 Follow the sidebar order. Each topic page contains:
 
-1. **Rigorous definitions** — what the concept _is_, precisely
-2. **Theorems with proofs** — why the results hold
-3. **Worked examples** — applying the theory to exam-style problems
-4. **Intuition building** — the "why does this make sense?" perspective
-5. **Multi-step problem set** — questions that require chaining multiple concepts
-6. **Board-specific notes** — where specifications diverge
+1. **Rigorous definitions**. What the concept _is_, precisely
+2. **Theorems with proofs**. Why the results hold
+3. **Worked examples**. Applying the theory to exam-style problems
+4. **Intuition building**. The "why does this make sense?" perspective
+5. **Multi-step problem set**. Questions that require chaining multiple concepts
+6. **Board-specific notes**. Where specifications diverge
 
 When you have studied all topics, attempt the
 to identify your Weakest areas.
@@ -101,13 +101,13 @@ to identify your Weakest areas.
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-3. Rounding too early in multi-step calculations — carry full precision through and round only the
+3. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
-4. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 ### Study Strategy
 

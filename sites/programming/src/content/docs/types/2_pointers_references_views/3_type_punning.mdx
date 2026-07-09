@@ -263,9 +263,9 @@ static_assert(float_to_bits(1.0f) == 0x3F800000);
 **Why `std::bit_cast` is preferred over `memcpy` in C++20:**
 
 1. `constexpr` support enables compile-time punning (e.g., in `static_assert`).
-2. The interface is cleaner — no manual buffer management.
+2. The interface is cleaner. No manual buffer management.
 3. The constraints are checked at compile time (size mismatch is a hard error).
-4. The intent is clearer — the function name communicates type punning.
+4. The intent is clearer. The function name communicates type punning.
 
 **Implementation sketch:** A conforming `std::bit_cast` can be implemented in terms of `memcpy`:
 
@@ -515,7 +515,7 @@ Every object in C++ has two representations [N4950 S6.9]:
 `sizeof(T)` gives the size of the **object representation**. `std::bit_cast` and `memcpy` copy the
 Full object representation. This means padding bits are preserved, which matters when:
 
-1. Comparing objects for equality via bitwise comparison (do not do this — use `operator==`).
+1. Comparing objects for equality via bitwise comparison (do not do this. Use `operator==`).
 2. Serializing objects that may have padding (the padding bits are indeterminate and may contain
    trap representations).
 

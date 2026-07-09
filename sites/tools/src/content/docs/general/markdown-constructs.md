@@ -443,7 +443,7 @@ are generally fine.
 3. Not making connections between different topics within the subject to build a coherent
    understanding.
 
-4. Memorising content without understanding the underlying principles — this leads to poor
+4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 ## Summary

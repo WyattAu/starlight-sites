@@ -391,7 +391,7 @@ are integrated throughout.
 5. **Neglecting social and cultural factors**: Economic and political factors alone cannot explain
    the fate of these democracies. Social divisions, cultural attitudes, and religious factors were
    also important.
-6. **Over-simplifying the Spanish Civil War**: The war was not directly "democracy vs fascism" — it
+6. **Over-simplifying the Spanish Civil War**: The war was not directly "democracy vs fascism". It
    involved complex ideological conflicts within both the Republican and Nationalist camps.
 7. **Ignoring international context**: The fate of these democracies was profoundly influenced by
    international events and trends, including the Great Depression, the rise of fascism, and the

@@ -955,21 +955,21 @@ $$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
 
 ## Common Pitfalls
 
-1. Misapplying Le Chatelier's principle — it predicts the direction of change, not the extent.
+1. Misapplying Le Chatelier's principle. It predicts the direction of change, not the extent.
 
 2. Confusing $K_c$ and $K_p$ — $K_c$ uses concentrations; $K_p$ uses partial pressures, and they
    only apply to their respective phases.
 
-3. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+3. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
 4. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
-5. Forgetting to balance equations before performing calculations — always check that atoms and
+5. Forgetting to balance equations before performing calculations. Always check that atoms and
    charges balance on both sides.
 
-6. Misidentifying the limiting reagent — compare mole ratios rather than comparing masses.
+6. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.
 
 ## Cross-References
 

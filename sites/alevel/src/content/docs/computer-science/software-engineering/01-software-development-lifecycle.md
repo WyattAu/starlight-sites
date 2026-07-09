@@ -19,12 +19,12 @@ Involved in developing software, from initial conception through to deployment a
 
 ### Common Phases
 
-1. **Analysis** — Understand requirements, identify the problem
-2. **Design** — Plan the architecture, algorithms, and interfaces
-3. **Implementation** — Write the code
-4. **Testing** — Verify correctness and quality
-5. **Deployment** — Release to users
-6. **Maintenance** — Fix bugs, add features, adapt to changes
+1. **Analysis**. Understand requirements, identify the problem
+2. **Design**. Plan the architecture, algorithms, and interfaces
+3. **Implementation**. Write the code
+4. **Testing**. Verify correctness and quality
+5. **Deployment**. Release to users
+6. **Maintenance**. Fix bugs, add features, adapt to changes
 
 <hr />
 
@@ -121,10 +121,10 @@ A specific Agile methodology with defined roles, events, and artefacts.
 Combines elements of waterfall and iterative development. Each iteration (spiral) passes through
 Four quadrants:
 
-1. **Determine objectives** — Identify goals, constraints, alternatives
-2. **Identify and resolve risks** — Risk analysis and mitigation
-3. **Development and testing** — Build a prototype or increment
-4. **Review and plan** — Evaluate and plan the next spiral
+1. **Determine objectives**. Identify goals, constraints, alternatives
+2. **Identify and resolve risks**. Risk analysis and mitigation
+3. **Development and testing**. Build a prototype or increment
+4. **Review and plan**. Evaluate and plan the next spiral
 
 ```
         Risk Analysis
@@ -165,10 +165,10 @@ Speed. Uses workshops, focus groups, and iterative user testing.
 
 ### Phases
 
-1. **Requirements planning** — Workshop with users and developers
-2. **User design** — Prototype development with user feedback
-3. **Construction** — Build the system using the prototype as a basis
-4. **Cutover** — Final testing, deployment, and handover
+1. **Requirements planning**. Workshop with users and developers
+2. **User design**. Prototype development with user feedback
+3. **Construction**. Build the system using the prototype as a basis
+4. **Cutover**. Final testing, deployment, and handover
 
 ### Best for
 
@@ -445,19 +445,19 @@ Actors and at least five use cases.
 
 **Actors:**
 
-1. Customer — browses and purchases products
-2. Admin — manages the catalogue and orders
-3. Payment System (external) — processes payments
+1. Customer. Browses and purchases products
+2. Admin. Manages the catalogue and orders
+3. Payment System (external). Processes payments
 
 **Use Cases:**
 
-1. Browse Products — Customer searches and views products
-2. Add to Cart — Customer adds items to shopping cart
-3. Checkout — Customer completes a purchase
-4. Process Payment — System sends payment request to Payment System
-5. Manage Inventory — Admin updates product stock and prices
-6. View Orders — Customer views order history
-7. Generate Reports — Admin generates sales reports
+1. Browse Products. Customer searches and views products
+2. Add to Cart. Customer adds items to shopping cart
+3. Checkout. Customer completes a purchase
+4. Process Payment. System sends payment request to Payment System
+5. Manage Inventory. Admin updates product stock and prices
+6. View Orders. Customer views order history
+7. Generate Reports. Admin generates sales reports
 
 **Relationships:**
 
@@ -645,7 +645,7 @@ Resolution steps:
 2. **Prioritise:** Add essential changes to the next iteration; defer cosmetic changes to a later
    cycle
 3. **Re-estimate:** Update the project timeline and budget based on the revised scope
-4. **Communicate:** Present the trade-offs to stakeholders — more features vs earlier delivery
+4. **Communicate:** Present the trade-offs to stakeholders. More features vs earlier delivery
 5. **Decide:** The product owner (or client) decides whether to accept the revised timeline or
    reduce scope
 

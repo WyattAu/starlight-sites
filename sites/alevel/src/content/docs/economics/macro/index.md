@@ -50,16 +50,16 @@ manage economic performance. This section covers the full A-Level macroeconomics
 
 ## Study Tips
 
-1. **Master the AD/AS diagram** — it is the single most important diagram in macroeconomics.
+1. **Master the AD/AS diagram**. It is the single most important diagram in macroeconomics.
    Practise drawing it with various shifts and explaining the resulting changes.
-2. **Chain of reasoning** — always connect cause to effect: "A rise in interest rates $\rightarrow$
+2. **Chain of reasoning**. Always connect cause to effect: "A rise in interest rates $\rightarrow$
    higher cost of borrowing $\rightarrow$ reduced consumption and investment $\rightarrow$ leftward
    shift of AD $\rightarrow$ lower output and price level."
-3. **Evaluate every policy** — strengths, weaknesses, time lags, distributional effects, and
+3. **Evaluate every policy**. Strengths, weaknesses, time lags, distributional effects, and
    opportunity cost. Evaluation marks distinguish A from A\*.
-4. **Use real-world data** — reference specific countries, events, and statistics to support your
+4. **Use real-world data**. Reference specific countries, events, and statistics to support your
    arguments.
-5. **Know the key formulas** — multiplier, GDP deflator, exchange rate calculations.
+5. **Know the key formulas**. Multiplier, GDP deflator, exchange rate calculations.
 
 ## How to Use These Notes
 

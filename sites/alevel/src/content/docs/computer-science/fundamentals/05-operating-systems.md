@@ -371,7 +371,7 @@ Overhead would be unacceptable.
 Processes can continue without waiting. The most common example is a **print spooler**:
 
 1. The application sends print output to the spool queue (stored on disk)
-2. The application continues immediately — it does not wait for printing
+2. The application continues immediately. It does not wait for printing
 3. The spooler sends jobs to the printer one at a time, in order
 
 Spooling decouples fast processes from slow devices.

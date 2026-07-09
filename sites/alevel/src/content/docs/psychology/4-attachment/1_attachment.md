@@ -107,8 +107,7 @@ enhances survival.
 1. **Adaptive:** Attachment is biologically programmed because it enhances survival. Infants who
    stay close to their caregivers are protected from predators and provided with food.
 
-2. **Social releasers:** Infants are born with innate behaviours that elicit caregiving from adults
-   — smiling, cooing, grasping, crying. These "social releasers" activate the adult's innate
+2. **Social releasers:** Infants are born with innate behaviours that elicit caregiving from adults. Smiling, cooing, grasping, crying. These "social releasers" activate the adult's innate
    caregiving response.
 
 3. **Critical period:** Bowlby proposed that attachment must form within a critical period

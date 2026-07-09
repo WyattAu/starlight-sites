@@ -233,7 +233,7 @@ At [../climate-change](../climate-change).
 
 ## Common Pitfalls
 
-1. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
@@ -241,7 +241,7 @@ At [../climate-change](../climate-change).
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-4. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 ## Summary

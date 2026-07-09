@@ -398,7 +398,7 @@ $ git rebase main
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure

@@ -185,7 +185,7 @@ Pseudocode standard uses:
    form submission, loading spinners during processing, error messages for invalid input.
 3. **User control**: Allow users to undo actions, cancel operations, and navigate freely. Users
    should never feel trapped by the interface.
-4. **Simplicity**: Follow the principle of least astonishment — the interface should behave as users
+4. **Simplicity**: Follow the principle of least astonishment. The interface should behave as users
    expect. Avoid unnecessary features that clutter the interface.
 5. **Error prevention**: Design forms that validate input before submission. Use clear labels,
    placeholder text, and appropriate input types (e.g., date pickers for date fields).
@@ -781,7 +781,7 @@ And lengths. Parameterized queries ensure user input is treated as data, never a
 2. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-3. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+3. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

@@ -717,7 +717,7 @@ graph TD
 
 The linked list of leaf nodes makes range queries efficient. To find all keys in range $[a, b]$:
 
-1. Search for $a$ — this gives the starting leaf
+1. Search for $a$. This gives the starting leaf
 2. Follow the leaf links until the key exceeds $b$
 
 ```python

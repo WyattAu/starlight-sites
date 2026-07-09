@@ -892,10 +892,10 @@ and building a personal test matrix.
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-3. Confusing $P(A|B)$ with $P(B|A)$ — these are related by Bayes' theorem but are not equal in
+3. Confusing $P(A|B)$ with $P(B|A)$. These are related by Bayes' theorem but are not equal in
    general.
 
 ## Cross-References

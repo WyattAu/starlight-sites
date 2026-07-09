@@ -74,15 +74,15 @@ to gravitational fields and material properties.
 
 ## Study Tips
 
-1. **Resolve all vectors** — in every mechanics problem, choose your axes and resolve forces and
+1. **Resolve all vectors**. In every mechanics problem, choose your axes and resolve forces and
    velocities into components. Never skip this step.
-2. **Check dimensional consistency** — verify that your final answer has the correct units. If asked
+2. **Check dimensional consistency**. Verify that your final answer has the correct units. If asked
    for energy, your answer must be in joules.
-3. **Practise projectile problems** — separate horizontal (constant velocity) and vertical (constant
+3. **Practise projectile problems**. Separate horizontal (constant velocity) and vertical (constant
    acceleration) components. They are independent.
 4. **Understand the difference** between conservation of momentum (always true in a closed system)
    and conservation of kinetic energy (only in elastic collisions).
-5. **Draw stress-strain curves** — be able to label the elastic region, yield point, UTS, and
+5. **Draw stress-strain curves**. Be able to label the elastic region, yield point, UTS, and
    fracture point, and distinguish between brittle, ductile, and polymeric materials.
 
 ## How to Use These Notes

@@ -219,7 +219,7 @@ reset, rebase, or amend something, the reflog is your first line of defense.
 3. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-4. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Summary

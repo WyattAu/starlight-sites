@@ -1024,7 +1024,7 @@ $\blacksquare$
 ======= 3. Confusing the domain and range of functions, or not considering restrictions (e.g.,
 denominator cannot be zero).
 
-4. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
 
 ## Summary

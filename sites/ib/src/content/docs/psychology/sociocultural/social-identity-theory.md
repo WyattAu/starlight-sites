@@ -226,10 +226,10 @@ For an overview of sociocultural topics, see
 
 ## Common Pitfalls
 
-1. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+1. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

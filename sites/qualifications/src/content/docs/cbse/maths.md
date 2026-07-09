@@ -430,13 +430,13 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 
 ## Common Pitfalls
 
-1. **Forgetting the constant of integration** $+C$ in indefinite integrals — this is penalised in almost every paper.
+1. **Forgetting the constant of integration** $+C$ in indefinite integrals. This is penalised in almost every paper.
 2. **Incorrect domain for inverse trig functions.** Remember: $\sin^{-1}$ maps to $[-\pi/2, \pi/2]$; $\cos^{-1}$ maps to $[0, \pi]$.
 3. **Confusing range and codomain.** The range is the set of actual outputs, not the entire codomain.
-4. **Arithmetic errors in determinants.** Sign errors in cofactor expansion are extremely common — double-check $(-1)^{i+j}$.
+4. **Arithmetic errors in determinants.** Sign errors in cofactor expansion are extremely common. Double-check $(-1)^{i+j}$.
 5. **Applying L'Hôpital's rule to non-indeterminate forms.** Always verify the limit is $0/0$ or $\infty/\infty$ first.
 6. **Missing absolute values** in $\int \frac{1}{x}\,dx = \ln|x| + C$ and in area calculations.
-7. **Incorrectly applying the second derivative test.** When $f''(x_0) = 0$, you must use the first derivative test — do not conclude "no max/min".
+7. **Incorrectly applying the second derivative test.** When $f''(x_0) = 0$, you must use the first derivative test. Do not conclude "no max/min".
 
 ## Worked Examples
 

@@ -336,7 +336,7 @@ The positive-normative distinction is fundamental because:
    (normative).
 2. Economists can agree on positive analysis but disagree on normative conclusions due to different
    value judgements.
-3. Policy debates often conflate the two — "X is bad" (normative) is different from "X causes Y"
+3. Policy debates often conflate the two. "X is bad" (normative) is different from "X causes Y"
    (positive).
 
 :::tip Exam Technique When asked "Is this statement positive or normative?", look for value-laden
@@ -348,11 +348,11 @@ Statements.
 <summary>Example: Classification</summary>
 Classify each statement:
 
-1. "Inflation is 3.2%." — **Positive** (testable)
-2. "Inflation is too high." — **Normative** (what counts as "too high"?)
-3. "A carbon tax reduces emissions by 5% per £10 of tax." — **Positive** (testable)
-4. "The government should introduce a carbon tax." — **Normative** (value judgement)
-5. "If interest rates rise, investment falls." — **Positive** (testable)
+1. "Inflation is 3.2%.". **Positive** (testable)
+2. "Inflation is too high.". **Normative** (what counts as "too high"?)
+3. "A carbon tax reduces emissions by 5% per £10 of tax.". **Positive** (testable)
+4. "The government should introduce a carbon tax.". **Normative** (value judgement)
+5. "If interest rates rise, investment falls.". **Positive** (testable)
 </details>
 
 #### Evaluation of the Positive-Normative Distinction
@@ -967,7 +967,7 @@ consumer goods at any given level of capital goods production.
 1. Stating that 'demand falls' without specifying whether it is a contraction (movement along) or a
    decrease (shift) of the demand curve.
 
-2. Confusing nominal and real values — always adjust for inflation when comparing monetary values
+2. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
 3. Neglecting to consider the ceteris paribus assumption when analysing multi-variable economic

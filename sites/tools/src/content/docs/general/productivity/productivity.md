@@ -11,10 +11,10 @@ description: "The Pomodoro Technique breaks work into 25-minute focused interval
 The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by
 5-minute breaks, with a longer 15–30 minute break every 4 pomodoros. This structure:
 
-1. Creates a sense of urgency — 25 minutes is short enough to maintain focus
-2. Prevents burnout — regular breaks maintain cognitive performance
-3. Makes work measurable — you can count pomodoros to estimate task size
-4. Reduces context switching — commit to one task per pomodoro
+1. Creates a sense of urgency. 25 minutes is short enough to maintain focus
+2. Prevents burnout. Regular breaks maintain cognitive performance
+3. Makes work measurable. You can count pomodoros to estimate task size
+4. Reduces context switching. Commit to one task per pomodoro
 
 **Implementation for developers:**
 
@@ -123,7 +123,7 @@ Terms:
 
 1. Choose a concept to learn.
 2. Explain it as if teaching someone with no background in the topic.
-3. Identify gaps in your explanation — these are areas you do not fully understand.
+3. Identify gaps in your explanation. These are areas you do not fully understand.
 4. Go back to the source material and fill the gaps.
 5. Simplify your explanation further. Use analogies.
 
@@ -137,9 +137,9 @@ Deliberate practice for software engineering means:
 1. **Define a specific skill to improve** (e.g., debugging kernel panics, writing SQL queries,
    designing REST APIs).
 2. **Break the skill into components** and practice each component individually.
-3. **Get immediate feedback** — use linters, type checkers, code review, and benchmarks.
-4. **Push beyond your comfort zone** — attempt problems slightly harder than your current ability.
-5. **Maintain focused practice sessions** — 60–90 minutes of concentrated effort is more effective
+3. **Get immediate feedback**. Use linters, type checkers, code review, and benchmarks.
+4. **Push beyond your comfort zone**. Attempt problems slightly harder than your current ability.
+5. **Maintain focused practice sessions**. 60–90 minutes of concentrated effort is more effective
    than 4 hours of distracted work.
 
 ---
@@ -319,7 +319,7 @@ For periods when you need maximum focus:
    required.
 3. **Prioritize based on leverage.** What skill, if improved, would have the biggest impact on your
    effectiveness?
-4. **Allocate learning time** — 5–10 hours per week, scheduled in your calendar.
+4. **Allocate learning time**. 5–10 hours per week, scheduled in your calendar.
 5. **Use a mix of resources:** books for depth, video courses for breadth, hands-on projects for
    retention.
 

@@ -281,7 +281,7 @@ For an overview of developmental topics, see
 
 1. Describing processes without explaining the underlying causes and mechanisms.
 
-2. Making generalisations without supporting case study evidence — always reference specific
+2. Making generalisations without supporting case study evidence. Always reference specific
    locations and data.
 
 3. Confusing weather and climate, or short-term events with long-term trends.

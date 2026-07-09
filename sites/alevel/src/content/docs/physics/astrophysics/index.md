@@ -51,15 +51,15 @@ models, and observational techniques used by astronomers.
 
 ## Study Tips
 
-1. **Learn the HR diagram** cold — be able to sketch it, label the regions, and explain why stars
+1. **Learn the HR diagram** cold. Be able to sketch it, label the regions, and explain why stars
    occupy different regions based on their properties.
-2. **Trace stellar evolution** — for a given initial mass, describe the full lifecycle from
+2. **Trace stellar evolution**. For a given initial mass, describe the full lifecycle from
    protostar to end state. Know the mass thresholds that determine the path.
-3. **Understand the evidence** — for every cosmological claim, know the observational evidence: CMB
+3. **Understand the evidence**. For every cosmological claim, know the observational evidence: CMB
    for the Big Bang, redshift for expansion, rotation curves for dark matter.
-4. **Practise luminosity-distance calculations** — the inverse square law and Hubble's law
+4. **Practise luminosity-distance calculations**. The inverse square law and Hubble's law
    calculations appear frequently.
-5. **Link to other physics topics** — gravitational fields (orbital mechanics), thermal physics
+5. **Link to other physics topics**. Gravitational fields (orbital mechanics), thermal physics
    (black-body radiation), nuclear physics (fusion processes in stars).
 
 ## How to Use These Notes

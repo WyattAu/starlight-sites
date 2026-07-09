@@ -54,16 +54,16 @@ the full A-Level microeconomics syllabus.
 
 ## Study Tips
 
-1. **Draw diagrams accurately** — label all axes, curves, equilibrium points, and shaded areas.
+1. **Draw diagrams accurately**. Label all axes, curves, equilibrium points, and shaded areas.
    Incorrectly labelled diagrams lose marks even if the analysis is right.
 2. **Practise elasticity calculations** — $PED = \frac{\% \Delta Q_d}{\% \Delta P}$; know the
    interpretation of elastic ($|PED| > 1$), inelastic ($|PED| < 1$), and unitary ($|PED| = 1$).
-3. **Use chains of analysis** — every argument should flow: "An increase in the minimum wage
+3. **Use chains of analysis**. Every argument should flow: "An increase in the minimum wage
    $\rightarrow$ higher labour costs $\rightarrow$ firms reduce employment $\rightarrow$
    unemployment rises $\rightarrow$ government spending on benefits increases."
-4. **Evaluate market structures comparatively** — don"t just describe perfect competition; explain
+4. **Evaluate market structures comparatively**. Don"t just describe perfect competition; explain
    why it is more efficient than monopoly using specific criteria (price, output, welfare).
-5. **Apply theory to real markets** — e.g., analyse the oil market using supply and demand, or the
+5. **Apply theory to real markets**. E.g., analyse the oil market using supply and demand, or the
    pharmaceutical industry using monopoly theory.
 
 ## How to Use These Notes

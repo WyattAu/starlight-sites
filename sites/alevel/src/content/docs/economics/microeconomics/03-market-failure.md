@@ -322,7 +322,7 @@ Market failure worsens the outcome.
 
 1. **Regulatory capture**: the regulatory agency becomes dominated by the industry it regulates,
    acting in the industry's interest rather than the public's
-2. **Information problems**: governments face the same information constraints as markets — they may
+2. **Information problems**: governments face the same information constraints as markets. They may
    not know the optimal tax rate or the true marginal external cost
 3. **Bureaucracy and inefficiency**: government agencies lack the profit motive and may be slow,
    costly, and unresponsive

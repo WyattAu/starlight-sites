@@ -202,7 +202,7 @@ For related topics, see [./measuring-development](./measuring-development) and
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both

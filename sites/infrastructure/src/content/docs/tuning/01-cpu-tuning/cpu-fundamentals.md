@@ -276,11 +276,11 @@ Performance at lower temperatures than stock.
 CPU affinity binds a process or thread to a specific core or set of cores. This can improve
 Performance by:
 
-1. Reducing cache migration overhead — when a thread moves between cores, its working set must be
+1. Reducing cache migration overhead. When a thread moves between cores, its working set must be
    loaded into the new core's caches.
-2. Preventing scheduler ping-pong — the OS scheduler may bounce a thread between cores, causing
+2. Preventing scheduler ping-pong. The OS scheduler may bounce a thread between cores, causing
    repeated cache invalidations.
-3. Ensuring NUMA locality — on multi-socket systems, binding a process to cores on the same NUMA
+3. Ensuring NUMA locality. On multi-socket systems, binding a process to cores on the same NUMA
    node as its memory ensures low-latency memory access.
 
 On Linux, use `taskset` or `numactl`:

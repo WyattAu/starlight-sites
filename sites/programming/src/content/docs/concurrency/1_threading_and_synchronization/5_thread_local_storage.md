@@ -303,7 +303,7 @@ Each thread, and not before [N4950 §6.7.3].
    odr-use (6.3)."
 2. "Odr-use" is defined in [N4950 §6.3] as any use of a variable's name or reference that requires a
    definition to exist.
-3. The standard specifies that the initialization is "performed before its first odr-use" — meaning
+3. The standard specifies that the initialization is "performed before its first odr-use". Meaning
    it occurs no later than the first access.
 4. The compiler may initialize the variable _earlier_ within the same thread (e.g., at thread
    start), but never in a _different_ thread.

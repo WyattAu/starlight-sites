@@ -263,18 +263,18 @@ Economies.
 
 **Benefits:**
 
-1. Capital inflow — finances investment that domestic savings cannot fund.
-2. Technology transfer — foreign firms bring advanced technology and management practices.
-3. Job creation — direct employment in foreign-owned firms.
-4. Export earnings — many MNCs export from developing countries.
-5. Multiplier effects — spending by MNC employees stimulates local businesses.
+1. Capital inflow. Finances investment that domestic savings cannot fund.
+2. Technology transfer. Foreign firms bring advanced technology and management practices.
+3. Job creation. Direct employment in foreign-owned firms.
+4. Export earnings. Many MNCs export from developing countries.
+5. Multiplier effects. Spending by MNC employees stimulates local businesses.
 
 **Costs:**
 
-1. Profit repatriation — profits flow back to the home country, worsening the current account.
-2. Crowding out — MNCs may dominate local markets, preventing domestic firms from competing.
-3. Exploitation — low wages, poor working conditions, environmental damage.
-4. Volatility — FDI can be reversed if conditions change ("footloose" capital).
+1. Profit repatriation. Profits flow back to the home country, worsening the current account.
+2. Crowding out. MNCs may dominate local markets, preventing domestic firms from competing.
+3. Exploitation. Low wages, poor working conditions, environmental damage.
+4. Volatility. FDI can be reversed if conditions change ("footloose" capital).
 
 ### 5.3 Foreign Aid
 
@@ -291,11 +291,11 @@ Multilaterally (through the World Bank, IMF, UN).
 
 **Arguments against aid:**
 
-1. **Dependency** — may discourage domestic savings and tax effort.
-2. **Corruption** — aid may be misappropriated by elites.
-3. **Dutch disease** — large aid inflows appreciate the real exchange rate.
-4. **Tied aid** — may benefit donor countries more than recipients.
-5. **Effectiveness depends on institutions** — Burnside & Dollar (2000): aid only promotes growth in
+1. **Dependency**. May discourage domestic savings and tax effort.
+2. **Corruption**. Aid may be misappropriated by elites.
+3. **Dutch disease**. Large aid inflows appreciate the real exchange rate.
+4. **Tied aid**. May benefit donor countries more than recipients.
+5. **Effectiveness depends on institutions**. Burnside & Dollar (2000): aid only promotes growth in
    countries with sound fiscal, monetary, and trade policies.
 
 ### 5.4 Microfinance
@@ -384,10 +384,10 @@ Not just the individual.
 
 **Solutions:**
 
-1. **Privatisation** — assign property rights so that the owner has an incentive to conserve.
-2. **Regulation** — quotas, bans, environmental standards enforced by government.
-3. **Pigouvian taxes** — tax the use of the common resource at the marginal social cost.
-4. **Cap and trade** — set a total quota and allow trading of permits (e.g., EU Emissions Trading
+1. **Privatisation**. Assign property rights so that the owner has an incentive to conserve.
+2. **Regulation**. Quotas, bans, environmental standards enforced by government.
+3. **Pigouvian taxes**. Tax the use of the common resource at the marginal social cost.
+4. **Cap and trade**. Set a total quota and allow trading of permits (e.g., EU Emissions Trading
    System).
 
 ### 7.3 Sustainable Development Goals (SDGs)

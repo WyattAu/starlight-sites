@@ -536,7 +536,7 @@ For revision on number representation, see
 1. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted
    data).
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Writing pseudocode that is too language-specific rather than using standard algorithmic

@@ -723,12 +723,12 @@ a PDA $M$ with $L(M) = L(G)$.
 _Proof._ Construct
 $M = (\{q_0, q_1, q_2\}, \Sigma, V \cup \Sigma \cup \{\$\}, \delta, q_0, \{q_2\})$:
 
-1. $(q_0, \varepsilon, \varepsilon) \to (q_1, S\$)$ — push the start variable and bottom marker.
-2. For each $A \to \alpha \in R$: $(q_1, \varepsilon, A) \to (q_1, \alpha)$ — replace a variable
+1. $(q_0, \varepsilon, \varepsilon) \to (q_1, S\$)$. Push the start variable and bottom marker.
+2. For each $A \to \alpha \in R$: $(q_1, \varepsilon, A) \to (q_1, \alpha)$. Replace a variable
    with its production.
-3. For each $a \in \Sigma$: $(q_1, a, a) \to (q_1, \varepsilon)$ — match a terminal on input with
+3. For each $a \in \Sigma$: $(q_1, a, a) \to (q_1, \varepsilon)$. Match a terminal on input with
    stack.
-4. $(q_1, \varepsilon, \$) \to (q_2, \$)$ — accept when only the marker remains.
+4. $(q_1, \varepsilon, \$) \to (q_2, \$)$. Accept when only the marker remains.
 
 The PDA maintains the current sentential form (minus terminals already matched) on the stack. When
 only $\text{\$}$ remains, the derivation is complete and all input has been consumed. $\blacksquare$
@@ -1523,10 +1523,9 @@ $$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Pa
 Given a 3-CNF formula $\phi$ with $k$ clauses, construct a graph $G$:
 
 1. For each clause $C_j$Create a group of 3 vertices (one per literal).
-2. Within each group, add all three edges (forming a triangle) — at most one vertex per group can be
+2. Within each group, add all three edges (forming a triangle). At most one vertex per group can be
    in an independent set.
-3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge
-   — they cannot both be selected.
+3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge. They cannot both be selected.
 
 Set the target to $k$ (one vertex per clause). An independent set of size $k$ exists iff $\phi$ Is
 satisfiable: selecting one literal per clause without contradiction gives a consistent Satisfying
@@ -1838,13 +1837,13 @@ simulate for 100 steps). (e) PSPACE-complete (TQBF is PSPACE-complete).
 
 1. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Worked Examples

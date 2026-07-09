@@ -569,7 +569,7 @@ void atomic_write(const fs::path& target, std::string_view content) {
 
 ### Common Pitfalls
 
-1. **`fs::path` comparison is lexicographic:** `fs::path("a/b") != fs::path("a//b")` — they are not
+1. **`fs::path` comparison is lexicographic:** `fs::path("a/b") != fs::path("a//b")`. They are not
    the same path object even though they refer to the same file. Use `fs::canonical()` or
    `fs::equivalent()` for semantic comparison.
 
@@ -595,7 +595,7 @@ void atomic_write(const fs::path& target, std::string_view content) {
 
 ## Common Pitfalls
 
-1. Memorising content without understanding the underlying principles — this leads to poor
+1. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 2. Ignoring feedback from marked work and failing to address recurring weaknesses.

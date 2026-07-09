@@ -195,7 +195,7 @@ Use submodules only when you need:
 1. **Pin to specific commits**, not branches. Branches are mutable; commits are immutable.
 2. **Document submodule commands** in your README so new developers know how to initialize them.
 3. **Use `git submodule update --init --recursive`** in CI scripts.
-4. **Consider subtree or package managers** before reaching for submodules — they are often simpler.
+4. **Consider subtree or package managers** before reaching for submodules. They are often simpler.
 5. **Add a `Makefile` target** for submodule management:
 
 ```makefile
@@ -212,7 +212,7 @@ submodule-update:
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted

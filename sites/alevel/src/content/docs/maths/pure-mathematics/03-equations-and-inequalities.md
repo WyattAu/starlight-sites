@@ -944,7 +944,7 @@ building a personal test matrix.
 2. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-3. Rounding too early in multi-step calculations — carry full precision through and round only the
+3. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 4. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way

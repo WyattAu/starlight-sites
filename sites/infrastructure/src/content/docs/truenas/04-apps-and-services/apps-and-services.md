@@ -93,7 +93,7 @@ Nextcloud is a self-hosted file sync, collaboration, and communication platform.
 
 1. Install Nextcloud from the app catalog.
 2. Create a dataset for Nextcloud data: `tank/apps/nextcloud/data`.
-3. Create a database (MariaDB/PostgreSQL) — either as a separate app or using the built-in SQLite.
+3. Create a database (MariaDB/PostgreSQL). Either as a separate app or using the built-in SQLite.
 4. Configure the database connection in Nextcloud's environment variables.
 5. Set up a reverse proxy (Traefik or Nginx Proxy Manager) for HTTPS.
 

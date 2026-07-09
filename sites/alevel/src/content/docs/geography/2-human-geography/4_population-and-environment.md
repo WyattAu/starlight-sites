@@ -187,7 +187,7 @@ Four dimensions:
 
 1. **Availability**: Sufficient quantities of food available (domestic production, imports, aid)
 2. **Access**: People have economic and physical access to available food
-3. **Utilisation**: Food is properly used — adequate diet, clean water, sanitation, and healthcare
+3. **Utilisation**: Food is properly used. Adequate diet, clean water, sanitation, and healthcare
    enable the body to absorb nutrients
 4. **Stability**: Access to adequate food is consistent, not subject to sudden shocks
 

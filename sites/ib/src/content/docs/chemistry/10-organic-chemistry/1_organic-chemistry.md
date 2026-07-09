@@ -967,16 +967,16 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 
 ## Common Pitfalls
 
-1. Confusing structural isomers with stereoisomers — structural isomers have different bonding
+1. Confusing structural isomers with stereoisomers. Structural isomers have different bonding
    arrangements; stereoisomers have the same connectivity.
 
 2. Forgetting that primary alcohols can be oxidised to aldehydes then carboxylic acids, but
    secondary alcohols only to ketones.
 
-3. Forgetting to balance equations before performing calculations — always check that atoms and
+3. Forgetting to balance equations before performing calculations. Always check that atoms and
    charges balance on both sides.
 
-4. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
 5. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.

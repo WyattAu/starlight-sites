@@ -62,9 +62,9 @@ print(e.data)        # DataDescriptor for data (descriptor wins)
 
 When you access `obj.attr`Python follows this order:
 
-1. **`type(obj).__mro__`** — Search the MRO for a data descriptor with name `attr`.
-2. **`obj.__dict__`** — Check the instance dictionary.
-3. **`type(obj).__mro__`** — Search the MRO for a non-data descriptor.
+1. **`type(obj).__mro__`**. Search the MRO for a data descriptor with name `attr`.
+2. **`obj.__dict__`**. Check the instance dictionary.
+3. **`type(obj).__mro__`**. Search the MRO for a non-data descriptor.
 4. Raise `AttributeError` if nothing is found.
 
 ```python
@@ -340,12 +340,12 @@ Have many instances.
 
 ### **slots** Rules
 
-1. **All parent classes must also use `__slots__`** — If a parent has `__dict__`The child will too,
+1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`The child will too,
    negating the benefit.
-2. **`__slots__` is inherited** — A child class gets the parent's slots plus its own.
-3. **You cannot add attributes not in `__slots__`** — This is the whole point.
-4. **`__slots__` must contain strings** — Not expressions.
-5. **`__dict__` and `__weakref__` are special** — You can add them to `__slots__` to enable dynamic
+2. **`__slots__` is inherited**. A child class gets the parent's slots plus its own.
+3. **You cannot add attributes not in `__slots__`**. This is the whole point.
+4. **`__slots__` must contain strings**. Not expressions.
+5. **`__dict__` and `__weakref__` are special**. You can add them to `__slots__` to enable dynamic
    attributes or weak references.
 
 ```python

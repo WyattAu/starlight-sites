@@ -804,7 +804,7 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 
 ## Common Pitfalls
 
-1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 2. Confusing displacement with distance, or velocity with speed, particularly in graphs and
@@ -812,7 +812,7 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 
 3. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-4. Misidentifying the system boundary when applying conservation laws — define what is included
+4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 ## Summary

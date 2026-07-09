@@ -54,13 +54,13 @@ Most exam boards assess the following objectives (wording varies):
 
 ## How to Use These Notes
 
-1. **Build terminology early** — Learn the key terms in each section before attempting essays
-2. **Practise close reading** — Use the analytical frameworks on set texts and unseen passages
-3. **Connect context** — Always link literary analysis to historical, social, and biographical
+1. **Build terminology early**. Learn the key terms in each section before attempting essays
+2. **Practise close reading**. Use the analytical frameworks on set texts and unseen passages
+3. **Connect context**. Always link literary analysis to historical, social, and biographical
    context
-4. **Compare deliberately** — Use the comparative analysis section when preparing for comparison
+4. **Compare deliberately**. Use the comparative analysis section when preparing for comparison
    questions
-5. **Timed practice** — Apply the unseen text strategies under exam conditions regularly
+5. **Timed practice**. Apply the unseen text strategies under exam conditions regularly
 
 ## Key Skills Developed
 

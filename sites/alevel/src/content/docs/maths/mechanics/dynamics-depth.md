@@ -506,16 +506,16 @@ Loss of KE $= 166 - 144.4 = 21.6\;\mathrm{J}$
 
 ## Common Pitfalls
 
-1. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
-2. Using the wrong equation from the data sheet — take time to read the full equation, including
+2. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 3. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-4. Misidentifying the system boundary when applying conservation laws — define what is included
+4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 ## Worked Examples

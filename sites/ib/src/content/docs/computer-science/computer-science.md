@@ -145,7 +145,7 @@ To create models that capture what is important while ignoring irrelevant comple
 1. **Hardware level**: Logic gates, registers, memory cells
 2. **Machine code level**: Binary instructions executed by the CPU
 3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV``ADD`)
-4. **High-level language**: Python, Java, C++ — closer to human language
+4. **High-level language**: Python, Java, C++. Closer to human language
 5. **Application level**: The software users interact with
 
 **Example**: When using a `list` in Python, you do not need to know how memory is allocated, how
@@ -942,7 +942,7 @@ If you get this wrong, revise: [Efficiency](#efficiency) and [Nested Loops](#alg
 2. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-3. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+3. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

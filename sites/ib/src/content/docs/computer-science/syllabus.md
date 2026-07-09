@@ -304,7 +304,7 @@ Work.
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted

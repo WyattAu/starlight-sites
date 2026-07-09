@@ -1852,7 +1852,7 @@ reader returns the most recent version among the 3 responses.
 
 2. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
 
-3. Forgetting to balance equations before performing calculations — always check that atoms and
+3. Forgetting to balance equations before performing calculations. Always check that atoms and
    charges balance on both sides.
 
 4. Assuming that a strong acid always has a lower pH than a weak acid without considering

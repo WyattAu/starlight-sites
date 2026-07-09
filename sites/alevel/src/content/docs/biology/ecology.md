@@ -1989,7 +1989,7 @@ impossible to address with traditional field methods alone.
 2. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
 
-3. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+3. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 4. Failing to link structure to function when describing biological molecules, cells, or organs.

@@ -87,8 +87,8 @@ Has no hidden control flow, and has zero overhead compared to error codes.
    neither [N4950 §19.8].
 2. The discriminant is stored inline alongside the value or error. The size of `std::expected<T, E>`
    is at most `sizeof(T) + sizeof(E) + padding`Which is bounded and known at compile time.
-3. `has_value()` is a simple discriminant check — it compiles to a single branch instruction.
-4. `value()` and `error()` are unchecked accessors — they compile to a direct read with no
+3. `has_value()` is a simple discriminant check. It compiles to a single branch instruction.
+4. `value()` and `error()` are unchecked accessors. They compile to a direct read with no
    branching. Calling `value()` when an error is held is undefined behavior (analogous to
    dereferencing a null pointer).
 5. There is no stack unwinding, no exception object allocation, and no RTTI lookup. The control flow

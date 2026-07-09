@@ -968,7 +968,7 @@ Using classes.
 
 ## Common Pitfalls
 
-1. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+1. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 2. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

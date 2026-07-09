@@ -862,7 +862,7 @@ Available for insertion.
 
 ## Common Pitfalls
 
-1. Confusing hash tables with hash maps — the distinction relates to handling of key-value pairs vs
+1. Confusing hash tables with hash maps. The distinction relates to handling of key-value pairs vs
    key-only storage.
 
 2. Forgetting to consider collision resolution strategies (chaining vs open addressing) and their

@@ -462,7 +462,7 @@ Restricted by brokerages, raising questions about market fairness).
 The crisis originated in the US subprime mortgage market and spread globally through interconnected
 Financial markets. Key lessons:
 
-1. **Systemic risk**: individual bank risk management is insufficient — the system as a whole can be
+1. **Systemic risk**: individual bank risk management is insufficient. The system as a whole can be
    fragile (Minsky's financial instability hypothesis)
 2. **Too big to fail**: large banks' failure would cause systemic collapse $\Rightarrow$ moral
    hazard (banks take excessive risks expecting bailouts)
@@ -1183,7 +1183,7 @@ largest component of household wealth.
 1. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted

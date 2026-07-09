@@ -900,7 +900,7 @@ The Java type system reflects a series of deliberate tradeoffs:
 1. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted

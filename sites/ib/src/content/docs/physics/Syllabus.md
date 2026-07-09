@@ -283,7 +283,7 @@ Might combine:
 
 ## Common Pitfalls
 
-1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
@@ -291,7 +291,7 @@ Might combine:
 
 3. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
 
-4. Using the wrong equation from the data sheet — take time to read the full equation, including
+4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 ## Summary

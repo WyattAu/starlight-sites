@@ -2777,7 +2777,7 @@ _If you get this wrong, revise: [Queues](#queues) and
 2. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 4. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted

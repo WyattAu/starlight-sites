@@ -862,7 +862,7 @@ Classical model predicted a continuous spectrum, which is never observed for ind
 
 Mass spectrometry measures the mass-to-charge ratio ($m/z$) of ions. The general process:
 
-1. **Ionization**: Atoms or molecules are ionized ( by electron impact — high-energy electrons knock
+1. **Ionization**: Atoms or molecules are ionized ( by electron impact. High-energy electrons knock
    an electron off the sample, forming positive ions).
 2. **Acceleration**: Ions are accelerated by an electric field. All ions receive the same kinetic
    energy: $$ \frac{1}{2}mv^2 = zV $$
@@ -1473,7 +1473,7 @@ For the A-Level treatment of this topic, see
 
 ## Common Pitfalls
 
-1. Writing half-equations without balancing charges or atoms — always check electrons, hydrogen
+1. Writing half-equations without balancing charges or atoms. Always check electrons, hydrogen
    ions, and water molecules.
 
 2. Forgetting to convert between units (e.g., $\text{cm}^3$ to $\text{dm}^3$) when calculating
@@ -1482,7 +1482,7 @@ For the A-Level treatment of this topic, see
 3. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
-4. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+4. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
 ## Summary

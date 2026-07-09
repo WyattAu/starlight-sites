@@ -810,7 +810,7 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 2. Forgetting to include units in final answers, especially when working with derived units like

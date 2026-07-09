@@ -242,13 +242,13 @@ For an overview of sociocultural topics, see
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-3. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+3. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure

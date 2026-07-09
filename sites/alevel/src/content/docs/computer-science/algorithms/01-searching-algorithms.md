@@ -703,7 +703,7 @@ Sorted.
 
 ## Common Pitfalls
 
-1. Forgetting that binary search requires a sorted array — applying it to unsorted data gives
+1. Forgetting that binary search requires a sorted array. Applying it to unsorted data gives
    incorrect results.
 
 2. Confusing the number of comparisons with the number of elements examined in binary search.
@@ -717,7 +717,7 @@ Sorted.
 5. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-6. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+6. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Summary

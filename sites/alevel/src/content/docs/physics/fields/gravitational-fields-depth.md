@@ -484,18 +484,18 @@ m s$^{-1}$.
 
 ## Common Pitfalls
 
-1. Confusing gravitational field strength $g$ with gravitational potential $V_g$ — one is force per
+1. Confusing gravitational field strength $g$ with gravitational potential $V_g$. One is force per
    unit mass, the other is energy per unit mass.
 
 2. Forgetting that field lines point in the direction a positive test charge (or mass) would move.
 
-3. Misidentifying the system boundary when applying conservation laws — define what is included
+3. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
 4. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-5. Using the wrong equation from the data sheet — take time to read the full equation, including
+5. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 6. Rounding intermediate answers too early, which compounds errors in multi-step calculations.

@@ -1670,13 +1670,13 @@ Both in BCNF (and 4NF, since there are no MVDs in single-key relations).
 
 ## Common Pitfalls
 
-1. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+1. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
 2. Forgetting to convert between units (e.g., $\text{cm}^3$ to $\text{dm}^3$) when calculating
    concentrations.
 
-3. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+3. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
 4. Assuming that a strong acid always has a lower pH than a weak acid without considering

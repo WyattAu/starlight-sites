@@ -426,10 +426,10 @@ Swap them. This minimises the variance of probe lengths, giving more consistent 
 
 A good hash function should:
 
-1. **Be deterministic** — same key always produces same hash
-2. **Be fast** — hash computation is on the critical path
-3. **Distribute uniformly** — avoid clustering
-4. **Be avalanche-like** — a small change in input produces a large change in output
+1. **Be deterministic**. Same key always produces same hash
+2. **Be fast**. Hash computation is on the critical path
+3. **Distribute uniformly**. Avoid clustering
+4. **Be avalanche-like**. A small change in input produces a large change in output
 
 For integers, a common choice is the MurmurHash finaliser (MurmurHash3 mix):
 

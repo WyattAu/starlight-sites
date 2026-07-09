@@ -824,7 +824,7 @@ Complexity for large inputs.
 3. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
 
-4. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Summary

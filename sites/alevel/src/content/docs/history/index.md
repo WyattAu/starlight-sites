@@ -60,16 +60,16 @@ covers the major themes, source analysis techniques, and coursework skills requi
 
 ## Study Tips
 
-1. **Learn specific evidence** — dates, statistics, names, events. Vague arguments score poorly;
+1. **Learn specific evidence**. Dates, statistics, names, events. Vague arguments score poorly;
    precise evidence distinguishes strong essays.
-2. **Practise source analysis systematically** — for every source, note: who wrote it, when, why,
+2. **Practise source analysis systematically**. For every source, note: who wrote it, when, why,
    what it says, and what it omits.
-3. **Build argument plans** — for each essay question, plan: introduction (thesis), 3–4 main
+3. **Build argument plans**. For each essay question, plan: introduction (thesis), 3–4 main
    paragraphs (each with a clear point, evidence, and analysis), and a conclusion that directly
    answers the question.
-4. **Know the historiography** — examiners reward students who can identify different schools of
+4. **Know the historiography**. Examiners reward students who can identify different schools of
    thought and explain why interpretations differ.
-5. **Connect themes across periods** — e.g., trace the development of democracy from 1832 to 1928,
+5. **Connect themes across periods**. E.g., trace the development of democracy from 1832 to 1928,
    or the evolution of German nationalism from 1815 to 1918.
 
 ## How to Use These Notes

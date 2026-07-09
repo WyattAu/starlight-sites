@@ -159,10 +159,10 @@ anxious and relaxed simultaneously).
 
 **Procedure:**
 
-1. Construction of an anxiety hierarchy — a list of feared situations ranked from least to most
+1. Construction of an anxiety hierarchy. A list of feared situations ranked from least to most
    anxiety-provoking.
 2. Training in relaxation techniques (deep breathing, progressive muscle relaxation).
-3. Gradual exposure — the patient works through the hierarchy, remaining relaxed at each stage
+3. Gradual exposure. The patient works through the hierarchy, remaining relaxed at each stage
    before moving to the next.
 
 **Flooding:** Direct, immediate exposure to the feared stimulus at maximum intensity. Based on the

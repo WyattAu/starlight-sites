@@ -1199,7 +1199,7 @@ System.out.println(nullSafeTree);  // [null, Alice]
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Writing pseudocode that is too language-specific rather than using standard algorithmic

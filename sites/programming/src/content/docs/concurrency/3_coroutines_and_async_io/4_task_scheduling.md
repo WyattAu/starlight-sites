@@ -643,9 +643,9 @@ P2300) provide production-grade executors.
 Threads. It provides automatic load balancing without centralized coordination:
 
 1. Each thread has a **local deque** of tasks (double-ended queue).
-2. A thread pops tasks from the **bottom** of its own deque (LIFO — good for cache locality and
+2. A thread pops tasks from the **bottom** of its own deque (LIFO. Good for cache locality and
    depth-first traversal of task trees).
-3. An idle thread steals tasks from the **top** of another thread's deque (FIFO — good for breadth
+3. An idle thread steals tasks from the **top** of another thread's deque (FIFO. Good for breadth
    and reducing contention with the owner).
 
 The work-stealing algorithm has provably optimal time bounds: the expected execution time of a fully

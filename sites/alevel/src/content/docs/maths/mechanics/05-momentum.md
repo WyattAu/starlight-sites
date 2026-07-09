@@ -904,7 +904,7 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
@@ -913,7 +913,7 @@ building a personal test matrix.
 3. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 ## Summary

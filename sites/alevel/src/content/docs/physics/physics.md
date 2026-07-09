@@ -34,14 +34,14 @@ Technique, and the ability to reason from first principles.
 
 #### Core Modules
 
-1. **Mechanics** — Kinematics, dynamics, energy, momentum, and circular motion
-2. **Waves** — Progressive and stationary waves, interference, diffraction, and the wave-particle
+1. **Mechanics**. Kinematics, dynamics, energy, momentum, and circular motion
+2. **Waves**. Progressive and stationary waves, interference, diffraction, and the wave-particle
    duality
-3. **Electricity** — Current, resistance, DC circuits, and electromagnetism
-4. **Fields** — Gravitational fields, electric fields, magnetic fields, and their unification
-5. **Thermal Physics** — Kinetic theory, ideal gas laws, and thermodynamic processes
-6. **Nuclear & Quantum Physics** — Radioactivity, nuclear decay, energy levels, and photoelectricity
-7. **Astrophysics** — Stellar evolution, cosmology, and observational astronomy (optional on some
+3. **Electricity**. Current, resistance, DC circuits, and electromagnetism
+4. **Fields**. Gravitational fields, electric fields, magnetic fields, and their unification
+5. **Thermal Physics**. Kinetic theory, ideal gas laws, and thermodynamic processes
+6. **Nuclear & Quantum Physics**. Radioactivity, nuclear decay, energy levels, and photoelectricity
+7. **Astrophysics**. Stellar evolution, cosmology, and observational astronomy (optional on some
    boards)
 
 ### Assessment
@@ -60,19 +60,19 @@ Technique, and the ability to reason from first principles.
 
 Each topic page follows a consistent structure:
 
-1. **Physical principles** — the underlying laws and their mathematical formulation
-2. **Derivations** — where key results come from, not just what they are
-3. **Worked examples** — applying principles to progressively harder problems
-4. **Intuition** — physical reasoning that makes the maths feel natural
-5. **Multi-step problem set** — exam-style questions requiring chain reasoning
-6. **Board-specific notes** — specification differences highlighted
+1. **Physical principles**. The underlying laws and their mathematical formulation
+2. **Derivations**. Where key results come from, not just what they are
+3. **Worked examples**. Applying principles to progressively harder problems
+4. **Intuition**. Physical reasoning that makes the maths feel natural
+5. **Multi-step problem set**. Exam-style questions requiring chain reasoning
+6. **Board-specific notes**. Specification differences highlighted
 
 When finished, attempt the to
 identify gaps.
 
 ## Common Pitfalls
 
-1. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
@@ -81,7 +81,7 @@ identify gaps.
 3. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
 
-4. Using the wrong equation from the data sheet — take time to read the full equation, including
+4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
 ### Key Exam Board Differences
@@ -106,15 +106,15 @@ identify gaps.
 
 ### Study Strategy
 
-1. **Learn derivations** — examiners test whether you understand where formulae come from, not just
+1. **Learn derivations**. Examiners test whether you understand where formulae come from, not just
    how to plug in numbers.
-2. **Show all working** — method marks are the majority of the total; a wrong answer with correct
+2. **Show all working**. Method marks are the majority of the total; a wrong answer with correct
    method scores heavily.
-3. **Practise multi-step problems** — real exam questions chain 3--4 concepts together.
-4. **Master uncertainties** — every board tests error propagation and significant figures.
-5. **Draw diagrams** — a clear force diagram, circuit diagram, or ray diagram often earns marks
+3. **Practise multi-step problems**. Real exam questions chain 3--4 concepts together.
+4. **Master uncertainties**. Every board tests error propagation and significant figures.
+5. **Draw diagrams**. A clear force diagram, circuit diagram, or ray diagram often earns marks
    before any calculation.
-6. **Check your answer** — verify units, order of magnitude, and physical reasonableness.
+6. **Check your answer**. Verify units, order of magnitude, and physical reasonableness.
 
 ### Key Prefixes
 

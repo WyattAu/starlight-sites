@@ -2314,7 +2314,7 @@ so no light is detected.
 
 ## Common Pitfalls
 
-1. Confusing DNA replication (S phase) with transcription or translation — be clear about which
+1. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
 2. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the

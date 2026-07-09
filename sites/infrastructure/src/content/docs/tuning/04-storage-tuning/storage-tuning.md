@@ -147,7 +147,7 @@ This mismatch necessitates garbage collection:
 1. When a page is invalidated (overwritten or deleted), it is marked as stale.
 2. When the number of stale pages in a block exceeds a threshold, the controller copies the valid
    pages to a new block and erases the old block.
-3. This process is called "garbage collection" and causes write amplification — the physical write
+3. This process is called "garbage collection" and causes write amplification. The physical write
    count exceeds the logical write count.
 
 Write amplification factor (WAF) is the ratio of physical writes to logical writes:

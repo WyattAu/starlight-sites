@@ -581,12 +581,12 @@ For revision on algorithms and complexity, see
 1. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-2. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+2. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 3. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Summary

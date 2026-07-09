@@ -716,7 +716,7 @@ int main() {
 
 3. Not practising with past papers or exercises under timed conditions.
 
-4. Memorising content without understanding the underlying principles — this leads to poor
+4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 ## Summary

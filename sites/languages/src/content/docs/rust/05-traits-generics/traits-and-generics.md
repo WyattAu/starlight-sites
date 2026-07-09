@@ -374,7 +374,7 @@ Not all traits can be used as trait objects. A trait is **object safe** if:
 1. It does not have any associated `const` or `fn` items with type parameters, generic methods, or
    methods that return `Self` (except `&Self`/`&mut Self`).
 2. It does not have any associated `type` that uses `Self` in non-trivial ways.
-3. All methods have a receiver (`&self``&mut self`Or `self`) — no associated functions.
+3. All methods have a receiver (`&self``&mut self`Or `self`). No associated functions.
 
 ```rust
 // Object-safe

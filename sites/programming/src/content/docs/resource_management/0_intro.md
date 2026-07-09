@@ -25,8 +25,7 @@ This part covers four tightly coupled topics:
    efficient transfer of resources between scopes without copying. Covers lvalues, rvalues, move
    constructors, RVO, and perfect forwarding.
 
-3. **Function Architecture (Module 12):** How ownership interacts with function boundaries —
-   parameter passing, return values, lambdas, and C FFI.
+3. **Function Architecture (Module 12):** How ownership interacts with function boundaries. Parameter passing, return values, lambdas, and C FFI.
 
 4. **Error Handling (Module 13):** Exception safety guarantees, `noexcept`And the modern algebraic
    alternatives (`std::expected``std::variant`).
@@ -39,7 +38,7 @@ Covered in detail in Module 13.
 
 1. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
-2. Memorising content without understanding the underlying principles — this leads to poor
+2. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 3. Not making connections between different topics within the subject to build a coherent

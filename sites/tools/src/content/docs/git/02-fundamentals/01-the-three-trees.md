@@ -15,10 +15,10 @@ categories:
 Git manipulates three distinct data structures, conventionally called **trees** (though "tree" is
 overloaded in Git terminology — see [Git Objects](./02-git-objects.md)). These are:
 
-1. **The Working Directory** (also called the **working tree**) — the actual files on disk.
-2. **The Index** (also called the **staging area** or **cache**) — a binary file at `.git/index`
+1. **The Working Directory** (also called the **working tree**). The actual files on disk.
+2. **The Index** (also called the **staging area** or **cache**). A binary file at `.git/index`
    that encodes a snapshot of what the _next_ commit will contain.
-3. **The Repository** (the `.git/` directory) — the committed history, stored as a directed acyclic
+3. **The Repository** (the `.git/` directory). The committed history, stored as a directed acyclic
    graph of objects.
 
 Almost every Git command is a transformation between these three trees. Understanding this model
@@ -115,7 +115,7 @@ The staging area is a deliberate design decision that enables several workflows:
    contain logically related changes rather than "everything I changed today."
 2. **Review before commit**: `git diff --cached` shows exactly what will be committed, allowing you
    to verify the snapshot before recording it permanently.
-3. **Merge machinery**: The three-way merge algorithm operates on three trees — the base commit,
+3. **Merge machinery**: The three-way merge algorithm operates on three trees. The base commit,
    "ours," and "theirs." The index holds the merge result before it is committed.
 
 :::

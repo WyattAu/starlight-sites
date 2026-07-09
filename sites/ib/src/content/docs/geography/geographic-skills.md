@@ -420,7 +420,7 @@ productivity, drought conditions, and deforestation.
 2. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-3. Rounding too early in multi-step calculations — carry full precision through and round only the
+3. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

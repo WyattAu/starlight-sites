@@ -239,7 +239,7 @@ For related topics, see [./migration-theories-and-patterns](./migration-theories
 
 ## Common Pitfalls
 
-1. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
 2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

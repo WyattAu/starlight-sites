@@ -2182,7 +2182,7 @@ is transported to the liver, converted back to glucose, and returned to the musc
 
 ## Common Pitfalls
 
-1. Writing vague answers without specific biological terminology — use precise terms (e.g.,
+1. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
 
 2. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the

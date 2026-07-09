@@ -126,32 +126,32 @@ vehicle for meaning.
 
 When analysing a poem's structure, consider:
 
-1. **Stanza shape** — Why this particular division? What does each stanza contain?
-2. **Line length** — Are lines regular or varied? Do short lines create tension? Do long lines
+1. **Stanza shape**. Why this particular division? What does each stanza contain?
+2. **Line length**. Are lines regular or varied? Do short lines create tension? Do long lines
    create flow?
-3. **Enjambment** — When a line runs on without punctuation, creating momentum or ambiguity
-4. **Caesura** — A pause within a line, often marked by punctuation, creating emphasis or
+3. **Enjambment**. When a line runs on without punctuation, creating momentum or ambiguity
+4. **Caesura**. A pause within a line, often marked by punctuation, creating emphasis or
    interruption
-5. **Volta** — The "turn" in a sonnet or other poem where the argument shifts direction
-6. **Rhyme scheme** — Does rhyme create order and closure, or does the poet disrupt the pattern?
+5. **Volta**. The "turn" in a sonnet or other poem where the argument shifts direction
+6. **Rhyme scheme**. Does rhyme create order and closure, or does the poet disrupt the pattern?
    Why?
-7. **Spatial arrangement** — How the poem looks on the page. Indentation, gaps, and shape can all
+7. **Spatial arrangement**. How the poem looks on the page. Indentation, gaps, and shape can all
    carry meaning
 
 ### Anthology Study Approach
 
 For examined anthology collections:
 
-1. **Read the whole anthology early** — Get a sense of the range and themes before studying
+1. **Read the whole anthology early**. Get a sense of the range and themes before studying
    individual poems in depth
-2. **Group poems by theme** — Create thematic clusters (e.g. love, death, identity, place) to
+2. **Group poems by theme**. Create thematic clusters (e.g. love, death, identity, place) to
    prepare for comparison
-3. **Annotate systematically** — Use colour-coding or marginal notes to track form, language,
+3. **Annotate systematically**. Use colour-coding or marginal notes to track form, language,
    imagery, and tone
-4. **Write comparison plans** — For every pair or group of poems, plan which points of comparison
+4. **Write comparison plans**. For every pair or group of poems, plan which points of comparison
    you would make
-5. **Learn key quotations** — Memorise short, analytically rich quotations rather than long passages
-6. **Practise timed essays** — Write essays comparing two or more poems within the time constraint
+5. **Learn key quotations**. Memorise short, analytically rich quotations rather than long passages
+6. **Practise timed essays**. Write essays comparing two or more poems within the time constraint
 
 ## Key Terminology
 
@@ -181,16 +181,16 @@ For examined anthology collections:
 
 ### Approaching a Poetry Question
 
-1. **Read the poem at least twice** — First for overall meaning, second for detail and technique
-2. **Identify form immediately** — Is it a sonnet, villanelle, free verse? This shapes your whole
+1. **Read the poem at least twice**. First for overall meaning, second for detail and technique
+2. **Identify form immediately**. Is it a sonnet, villanelle, free verse? This shapes your whole
    analysis
-3. **Plan your argument** — Decide what the poem is doing and how, then structure paragraphs around
+3. **Plan your argument**. Decide what the poem is doing and how, then structure paragraphs around
    that thesis
-4. **Integrate quotation** — Embed short quotations into your sentences rather than quoting entire
+4. **Integrate quotation**. Embed short quotations into your sentences rather than quoting entire
    lines in isolation
-5. **Track structure** — Discuss how the poem moves from beginning to end. Where does it turn? Where
+5. **Track structure**. Discuss how the poem moves from beginning to end. Where does it turn? Where
    does it resolve?
-6. **Compare where required** — For anthology questions, plan comparisons before writing and
+6. **Compare where required**. For anthology questions, plan comparisons before writing and
    integrate them into each paragraph
 
 ### Timing Guide

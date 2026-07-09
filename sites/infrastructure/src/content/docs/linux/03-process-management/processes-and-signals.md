@@ -620,7 +620,7 @@ ps aux | awk '$8 ~ /Z/' | wc -l
 ### Dealing with Zombies
 
 1. **Find the parent**: `ps -eo pid,ppid,stat,comm | grep Z`
-2. **Kill the parent**: `kill -TERM $PPID` — when the parent dies, its children are reparented to
+2. **Kill the parent**: `kill -TERM $PPID`. When the parent dies, its children are reparented to
    PID 1 (or a subreaper), which automatically reaps zombies.
 3. **Fix the parent**: If the parent is your application, add a `SIGCHLD` handler or call `waitpid`
    in a loop.

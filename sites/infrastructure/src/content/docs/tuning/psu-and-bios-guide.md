@@ -943,8 +943,8 @@ M.2 slot).
 Common boot order configurations:
 
 1. Windows Boot Manager (the specific GPT partition with the EFI System Partition)
-2. Network boot (PXE, iSCSI) — for network installations or diskless systems
-3. USB device — for OS installation or live environments
+2. Network boot (PXE, iSCSI). For network installations or diskless systems
+3. USB device. For OS installation or live environments
 
 :::info Modern UEFI implementations use a boot priority list rather than a simple order. Boot
 Entries can be added, removed, and reordered. Hard drive boot entries are specific to partitions,
@@ -1152,7 +1152,7 @@ Flashback feature that allows firmware updates without a CPU, RAM, or storage in
 Process:
 
 1. Download the correct BIOS file from the motherboard manufacturer's website.
-2. Rename it to the specific filename required (varies by manufacturer — check the manual).
+2. Rename it to the specific filename required (varies by manufacturer. Check the manual).
 3. Copy the file to a FAT32-formatted USB drive.
 4. Insert the USB drive into the dedicated BIOS flashback USB port ( marked with a specific label).
 5. Press and hold the BIOS flashback button for 3--5 seconds. The LED indicator will flash.

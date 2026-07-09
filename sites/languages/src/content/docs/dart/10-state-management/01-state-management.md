@@ -66,10 +66,10 @@ The problems:
 
 1. **Excessive rebuilds** — `setState` at the top rebuilds the entire subtree, including widgets
    that do not depend on the changed state.
-2. **No sharing** — state in a `State` object is inaccessible to sibling or ancestor widgets without
+2. **No sharing**. State in a `State` object is inaccessible to sibling or ancestor widgets without
    callbacks.
-3. **No persistence** — when the widget is disposed, the state is lost.
-4. **No separation of concerns** — business logic lives in the widget, making it untestable and
+3. **No persistence**. When the widget is disposed, the state is lost.
+4. **No separation of concerns**. Business logic lives in the widget, making it untestable and
    unreusable.
 
 ## setState and InheritedWidget
@@ -224,11 +224,11 @@ bool updateShouldNotify(AppState oldWidget) {
 1. **No built-in mutation API** — `InheritedWidget` is immutable. To change its data, you must wrap
    it in a `StatefulWidget` that calls `setState`Then provide a new `InheritedWidget` with updated
    data. This is the boilerplate that `Provider` eliminates.
-2. **No notification granularity** — when `updateShouldNotify` returns `true`**all** dependents
+2. **No notification granularity**. When `updateShouldNotify` returns `true`**all** dependents
    rebuild, not just the ones that care about the changed field.
 3. **No lifecycle management** — `InheritedWidget` does not dispose resources. You must handle
    disposal in the wrapping `StatefulWidget`.
-4. **Verbose** — every piece of shared state requires a custom `InheritedWidget` subclass with
+4. **Verbose**. Every piece of shared state requires a custom `InheritedWidget` subclass with
    `of()``updateShouldNotify`And a wrapping `StatefulWidget`.
 
 ## Provider
@@ -382,10 +382,10 @@ MultiProvider(
 
 ### Limitations of Provider
 
-1. **No code generation** — every notifier is a hand-written class with manual `notifyListeners()`
+1. **No code generation**. Every notifier is a hand-written class with manual `notifyListeners()`
    calls. Forgetting to call `notifyListeners()` causes silent bugs (state changes but UI does not
    update).
-2. **No async built-in** — handling loading/error states for async operations requires manual
+2. **No async built-in**. Handling loading/error states for async operations requires manual
    boilerplate.
 3. **Mutable state** — `ChangeNotifier` is mutable by default. Any code with a reference can mutate
    the state directly, bypassing any validation logic.
@@ -598,15 +598,15 @@ Family, `autoDispose`And proper typing.
 
 ### Why Riverpod Is Recommended for New Projects
 
-1. **No BuildContext dependency** — providers are global constants. You can access state from
+1. **No BuildContext dependency**. Providers are global constants. You can access state from
    anywhere: widgets, domain services, route guards, middleware.
-2. **Immutable by default** — providers declare how to create a value, not how to mutate it. State
+2. **Immutable by default**. Providers declare how to create a value, not how to mutate it. State
    mutation goes through well-defined notifier APIs.
 3. **Async-first** — `FutureProvider` and `AsyncNotifierProvider` handle loading, error, and data
    states without manual boilerplate.
-4. **Auto-dispose** — prevents memory leaks by automatically disposing providers when they are no
+4. **Auto-dispose**. Prevents memory leaks by automatically disposing providers when they are no
    longer watched.
-5. **Testable** — providers can be overridden in tests without widgets:
+5. **Testable**. Providers can be overridden in tests without widgets:
 
 ```dart
 test('fetches user', () async {

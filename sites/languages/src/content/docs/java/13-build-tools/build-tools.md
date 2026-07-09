@@ -184,9 +184,9 @@ When your project depends on library A, and library A depends on library B, libr
 
 **Mediation rules (when version conflicts exist):**
 
-1. **Nearest definition wins** — if two dependency paths provide the same artifact with different
+1. **Nearest definition wins**. If two dependency paths provide the same artifact with different
    versions, the version from the nearest path (shortest path in the dependency tree) is selected.
-2. **First declaration wins** — if two paths have the same depth, the version declared first in the
+2. **First declaration wins**. If two paths have the same depth, the version declared first in the
    POM wins.
 
 ```bash
@@ -718,8 +718,8 @@ Artifactory) and use it as a regular dependency.
 
 Maven resolves dependencies from repositories in order:
 
-1. **Local repository** (`~/.m2/repository`) — cached artifacts from all remote repos.
-2. **Remote repositories** — Maven Central, corporate mirrors, private repositories.
+1. **Local repository** (`~/.m2/repository`). Cached artifacts from all remote repos.
+2. **Remote repositories**. Maven Central, corporate mirrors, private repositories.
 
 ```xml
 <repositories>

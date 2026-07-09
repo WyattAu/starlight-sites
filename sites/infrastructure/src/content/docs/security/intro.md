@@ -69,17 +69,17 @@ This work?" but "what happens when this is used in ways I did not intend?"
 
 This section covers the core security competencies expected of a systems engineer:
 
-1. **Security Fundamentals** — CIA triad, threat modeling, risk assessment, least privilege
+1. **Security Fundamentals**. CIA triad, threat modeling, risk assessment, least privilege
    ([security-fundamentals](./01-security-fundamentals/security-fundamentals.md))
-2. **Cryptography** — Symmetric/asymmetric encryption, hashing, PKI, TLS
+2. **Cryptography**. Symmetric/asymmetric encryption, hashing, PKI, TLS
    ([cryptography](./02-cryptography/cryptography.md))
-3. **Authentication and Authorization** — Passwords, MFA, OAuth 2.0, JWT, RBAC/ABAC
+3. **Authentication and Authorization**. Passwords, MFA, OAuth 2.0, JWT, RBAC/ABAC
    ([authentication](./03-authentication/authentication.md))
-4. **Web Security** — XSS, CSRF, injection, CORS, CSP, OWASP Top 10
+4. **Web Security**. XSS, CSRF, injection, CORS, CSP, OWASP Top 10
    ([web-security](./04-web-security/web-security.md))
-5. **Network Security** — Firewalls, VPNs, zero trust, DNS security, SIEM
+5. **Network Security**. Firewalls, VPNs, zero trust, DNS security, SIEM
    ([network-security](./05-network-security/network-security.md))
-6. **Incident Response** — NIST IR lifecycle, forensics, containment, post-mortem
+6. **Incident Response**. NIST IR lifecycle, forensics, containment, post-mortem
    ([incident-response](./06-incident-response/incident-response.md))
 
 :::tip

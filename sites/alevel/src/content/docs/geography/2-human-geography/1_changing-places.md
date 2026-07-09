@@ -212,13 +212,13 @@ Key evaluation criteria:
 
 1. **Who benefits?** Does regeneration improve conditions for existing residents, or does it
    primarily attract new, wealthier residents and businesses (gentrification)?
-2. **Employment quality** — Are new jobs accessible to local people? Are they well-paid, secure, and
+2. **Employment quality**. Are new jobs accessible to local people? Are they well-paid, secure, and
    skilled, or low-wage, precarious, and part-time?
-3. **Environmental sustainability** — Does regeneration improve environmental quality (green spaces,
+3. **Environmental sustainability**. Does regeneration improve environmental quality (green spaces,
    sustainable transport, energy efficiency)?
-4. **Social sustainability** — Does it strengthen community cohesion and reduce inequality, or
+4. **Social sustainability**. Does it strengthen community cohesion and reduce inequality, or
    fragment existing communities?
-5. **Long-term viability** — Is the regeneration economically sustainable beyond initial public
+5. **Long-term viability**. Is the regeneration economically sustainable beyond initial public
    investment?
 
 ---

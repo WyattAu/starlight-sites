@@ -835,16 +835,16 @@ building a personal test matrix.
 
 ## Common Pitfalls
 
-1. Using the wrong equation from the data sheet — take time to read the full equation, including
+1. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-2. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+2. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 3. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
 
-4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
 ## Summary

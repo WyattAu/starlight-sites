@@ -256,7 +256,7 @@ For an overview of developmental topics, see
 
 2. Failing to distinguish between primary and secondary data sources in geographical research.
 
-3. Making generalisations without supporting case study evidence — always reference specific
+3. Making generalisations without supporting case study evidence. Always reference specific
    locations and data.
 
 4. Neglecting to consider multiple scales (local, regional, national, global) in geographical

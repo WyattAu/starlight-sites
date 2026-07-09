@@ -208,15 +208,15 @@ collapse of the Soviet bloc (1985-1991).
 
 When analysing Cold War sources:
 
-1. **Propaganda from both sides** — US and Soviet sources are equally ideologically motivated.
+1. **Propaganda from both sides**. US and Soviet sources are equally ideologically motivated.
    American films, newsreels, and government publications framed the Cold War as a struggle between
    freedom and tyranny; Soviet sources framed it as anti-imperialist resistance.
-2. **Secret documents and memoranda** — the opening of Soviet, American, and Chinese archives has
+2. **Secret documents and memoranda**. The opening of Soviet, American, and Chinese archives has
    transformed Cold War historiography. Internal memos often reveal genuine fears and calculations
    hidden from public rhetoric.
-3. **Satellite imagery and reconnaissance** — U-2 photographs and satellite data played a direct
+3. **Satellite imagery and reconnaissance**. U-2 photographs and satellite data played a direct
    role in events (e.g., Cuban Missile Crisis). Consider how intelligence shaped decision-making.
-4. **Oral history and memoirs** — participants' recollections (e.g., Khrushchev's memoirs, Kennedy's
+4. **Oral history and memoirs**. Participants' recollections (e.g., Khrushchev's memoirs, Kennedy's
    advisors) are valuable but shaped by hindsight and self-justification.
 
 ### Key Source Types
@@ -231,13 +231,13 @@ When analysing Cold War sources:
 
 ## Common Pitfalls
 
-1. **Blaming one side exclusively** — the Cold War was the product of mutual fear, ideological
+1. **Blaming one side exclusively**. The Cold War was the product of mutual fear, ideological
    incompatibility, and security dilemmas. Both the USA and USSR contributed to escalation through
    actions that the other interpreted as threatening.
-2. **Treating détente as peace** — détente did not end proxy wars or arms competition. Conflicts
+2. **Treating détente as peace**. Détente did not end proxy wars or arms competition. Conflicts
    continued in Vietnam, Angola, Nicaragua, and Afghanistan. Détente was risk management, not
    reconciliation.
-3. **Assuming the Soviet collapse was inevitable** — the Soviet system faced severe structural
+3. **Assuming the Soviet collapse was inevitable**. The Soviet system faced severe structural
    problems, but specific decisions — particularly Gorbachev's refusal to use force — determined the
    timing and nature of the collapse. A harder-line leader might have prolonged the system through
    repression.

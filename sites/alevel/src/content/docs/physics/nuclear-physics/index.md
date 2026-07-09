@@ -67,15 +67,15 @@ physics.
 
 ## Study Tips
 
-1. **Practise decay equations** — conserve both mass number (top) and atomic number (bottom) in
+1. **Practise decay equations**. Conserve both mass number (top) and atomic number (bottom) in
    every nuclear reaction.
-2. **Draw the binding energy per nucleon curve** — label fission and fusion regions; explain why
+2. **Draw the binding energy per nucleon curve**. Label fission and fusion regions; explain why
    both release energy despite going in opposite directions on the curve.
-3. **Understand the photoelectric effect deeply** — be able to explain why wave theory fails and the
+3. **Understand the photoelectric effect deeply**. Be able to explain why wave theory fails and the
    photon model succeeds. This is a common 6-mark explanation question.
-4. **Use conservation laws** — for every particle interaction, check charge, baryon number, and
+4. **Use conservation laws**. For every particle interaction, check charge, baryon number, and
    lepton number. If any is violated, the interaction is impossible.
-5. **Know your constants** — Planck's constant $h = 6.63 \times 10^{-34}\,\text{Js}$, speed of light
+5. **Know your constants**. Planck's constant $h = 6.63 \times 10^{-34}\,\text{Js}$, speed of light
    $c = 3.0 \times 10^8\,\text{m/s}$, $1\,\text{u} = 931.5\,\text{MeV}/c^2$.
 
 ## How to Use These Notes

@@ -37,11 +37,11 @@ gitGraph
 
 ### Rules
 
-1. **No long-lived branches** — feature branches exist for at most a few hours.
-2. **Continuous integration** — every commit triggers automated tests.
-3. **Feature flags** — incomplete features are hidden behind configuration toggles.
-4. **Small batches** — commits should be small and independently reviewable.
-5. **Pre-merge validation** — automated tests must pass before merging.
+1. **No long-lived branches**. Feature branches exist for at most a few hours.
+2. **Continuous integration**. Every commit triggers automated tests.
+3. **Feature flags**. Incomplete features are hidden behind configuration toggles.
+4. **Small batches**. Commits should be small and independently reviewable.
+5. **Pre-merge validation**. Automated tests must pass before merging.
 
 ### Advantages
 

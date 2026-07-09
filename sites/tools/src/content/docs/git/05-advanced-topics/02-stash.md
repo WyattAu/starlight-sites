@@ -197,7 +197,7 @@ $ git switch temp-wip
 3. Forgetting edge cases in algorithm design (e.g., empty input, single element, already sorted
    data).
 
-4. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
 ## Summary

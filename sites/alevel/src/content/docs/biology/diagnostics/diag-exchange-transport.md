@@ -94,16 +94,16 @@ affect the rate of transpiration.
 
 (a) The **cohesion-tension theory** explains water movement through the xylem as follows:
 
-1. **Transpiration** — water evaporates from the spongy mesophyll cells inside the leaf through the
+1. **Transpiration**. Water evaporates from the spongy mesophyll cells inside the leaf through the
    stomata, creating a water potential gradient between the inside of the leaf and the outside
    atmosphere.
-2. **Tension** — the evaporation of water from mesophyll cell walls creates a negative pressure
+2. **Tension**. The evaporation of water from mesophyll cell walls creates a negative pressure
    (tension) that pulls water upwards through the xylem vessels from the roots to the leaves. Water
    molecules are pulled in a continuous column due to the strong **cohesion** (hydrogen bonding)
    between water molecules.
-3. **Adhesion** — water molecules also adhere to the hydrophilic walls of the xylem vessels, helping
+3. **Adhesion**. Water molecules also adhere to the hydrophilic walls of the xylem vessels, helping
    to maintain the column against gravity.
-4. **Root pressure** — contributes a small additional push (osmotic uptake of water from the soil
+4. **Root pressure**. Contributes a small additional push (osmotic uptake of water from the soil
    into root xylem), but the primary driving force is the tension created by transpiration at the
    leaves.
 

@@ -9,9 +9,9 @@ description: "Dynamic programming (DP) solves problems by breaking them into ove
 Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each
 Subproblem once, and storing the results. Two properties must hold for DP to apply:
 
-1. **Optimal substructure** — the optimal solution to the problem contains optimal solutions to its
+1. **Optimal substructure**. The optimal solution to the problem contains optimal solutions to its
    subproblems
-2. **Overlapping subproblems** — the same subproblems are solved multiple times in a naive recursive
+2. **Overlapping subproblems**. The same subproblems are solved multiple times in a naive recursive
    solution
 
 When both hold, DP reduces an exponential-time recursive solution to polynomial time.

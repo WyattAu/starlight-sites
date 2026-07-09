@@ -81,15 +81,15 @@ engineering, physics, and computer science.
 
 ## Study Tips
 
-1. **Learn complex number forms fluently** — convert between Cartesian, modulus-argument, and
+1. **Learn complex number forms fluently**. Convert between Cartesian, modulus-argument, and
    exponential form without hesitation.
-2. **Practise matrix operations** — matrix multiplication and finding inverses are procedural skills
+2. **Practise matrix operations**. Matrix multiplication and finding inverses are procedural skills
    that must be fast and accurate.
-3. **Derive, don't memorise** — know where the Maclaurin series comes from, why De Moivre's theorem
+3. **Derive, don't memorise**. Know where the Maclaurin series comes from, why De Moivre's theorem
    holds, and how reduction formulae work.
 4. **Sketch polar curves** by plotting key points ($\theta = 0, \frac{\pi}{2}, \pi, \frac{3\pi}{2}$)
    rather than trying to visualise the entire curve at once.
-5. **Practise differential equations systematically** — identify the type (separable, linear,
+5. **Practise differential equations systematically**. Identify the type (separable, linear,
    second-order), apply the correct method, then use boundary conditions.
 
 ## How to Use These Notes

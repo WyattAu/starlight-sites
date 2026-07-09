@@ -14,9 +14,9 @@ Indices and a dense array of entries, a design introduced in Python 3.6 and made
 
 Each dict maintains three structures internally:
 
-1. **`ma_keys`** — A combined hash table storing hashes, keys, and values in parallel arrays.
-2. **`ma_values`** — Optional separate values array (used for split-table dicts).
-3. **`dk_size`** — The size of the hash table (always a power of 2).
+1. **`ma_keys`**. A combined hash table storing hashes, keys, and values in parallel arrays.
+2. **`ma_values`**. Optional separate values array (used for split-table dicts).
+3. **`dk_size`**. The size of the hash table (always a power of 2).
 
 The hash table uses **open addressing** with pseudo-random probing. When a collision occurs, CPython
 Does not follow a linked list (chaining) but instead probes subsequent slots using a perturbation

@@ -201,13 +201,13 @@ Cold War.
 
 When analysing Russian and Soviet sources:
 
-1. **Official Soviet sources** — statistics, speeches, and reports were often fabricated or
+1. **Official Soviet sources**. Statistics, speeches, and reports were often fabricated or
    selectively presented. Production figures from the Five-Year Plans should be treated sceptically.
-2. **Photographs and visual propaganda** — Soviet photographs were heavily manipulated (e.g.,
+2. **Photographs and visual propaganda**. Soviet photographs were heavily manipulated (e.g.,
    removal of purged figures from photographs). Always consider what has been altered.
-3. **Dissident sources** — writings from the gulag (Solzhenitsyn), samizdat publications, and
+3. **Dissident sources**. Writings from the gulag (Solzhenitsyn), samizdat publications, and
    memoirs provide alternative perspectives but may overstate the extent of resistance.
-4. **Archival evidence** — the opening of Soviet archives after 1991 transformed historians'
+4. **Archival evidence**. The opening of Soviet archives after 1991 transformed historians'
    understanding. New evidence revised estimates of purge victims, confirmed the scale of famine
    deaths, and revealed the internal workings of the regime.
 
@@ -223,13 +223,13 @@ When analysing Russian and Soviet sources:
 
 ## Common Pitfalls
 
-1. **Assuming the Bolshevik Revolution was inevitable** — Russia in 1917 had multiple possible
+1. **Assuming the Bolshevik Revolution was inevitable**. Russia in 1917 had multiple possible
    outcomes. The Provisional Government's specific failures (staying in the war, not solving the
    land question) created the opportunity that Lenin exploited. Contingency matters.
-2. **Conflating Lenin and Stalin** — while Lenin created the institutional framework that Stalin
+2. **Conflating Lenin and Stalin**. While Lenin created the institutional framework that Stalin
    exploited, their policies and methods differed significantly. Lenin supported the NEP and
    tolerated limited internal debate; Stalin ended both.
-3. **Underestimating popular support for the Soviet project** — despite the terror, the regime
+3. **Underestimating popular support for the Soviet project**. Despite the terror, the regime
    retained genuine support, particularly among workers who benefited from industrialisation and
    those who identified with the victory over fascism. Support and repression coexisted.
 

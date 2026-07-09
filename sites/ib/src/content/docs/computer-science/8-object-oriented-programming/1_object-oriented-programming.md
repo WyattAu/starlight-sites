@@ -592,10 +592,10 @@ void selectionSort(int[] arr) {
 
 2. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-3. Confusing an algorithm with a program — an algorithm is a step-by-step procedure, not its
+3. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Cross-References

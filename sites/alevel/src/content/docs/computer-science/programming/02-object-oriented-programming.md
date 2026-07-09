@@ -709,7 +709,7 @@ For revision on programming fundamentals, see
 
 3. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 ## Summary

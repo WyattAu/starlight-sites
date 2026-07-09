@@ -2106,12 +2106,12 @@ If you get this wrong, revise: Section 4.3 (MGFs) and Section 3.1 (Poisson Distr
 
 ## Common Pitfalls
 
-1. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-3. Confusing $P(A|B)$ with $P(B|A)$ — these are related by Bayes' theorem but are not equal in
+3. Confusing $P(A|B)$ with $P(B|A)$. These are related by Bayes' theorem but are not equal in
    general.
 
 ## Worked Examples

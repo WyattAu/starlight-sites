@@ -219,13 +219,13 @@ class UserParseException implements Exception {
 
 ### Design Principles
 
-1. **Make fields immutable** — use `final`. Exception objects should be safe to inspect after
+1. **Make fields immutable**. Use `final`. Exception objects should be safe to inspect after
    creation and should not change state.
-2. **Include context** — the exception message alone is insufficient. Include the input that caused
+2. **Include context**. The exception message alone is insufficient. Include the input that caused
    the failure, the operation being attempted, and any relevant identifiers (user IDs, file paths,
    request URLs).
-3. **Chain exceptions** — include the original cause so the full chain of failure is inspectable.
-4. **Implement `toString()`** — the default `Exception.toString()` returns
+3. **Chain exceptions**. Include the original cause so the full chain of failure is inspectable.
+4. **Implement `toString()`**. The default `Exception.toString()` returns
    `"Instance of 'MyException'"`Which is useless in logs. Always override it with a meaningful
    message.
 
@@ -615,10 +615,10 @@ Exceptions are for **exceptional** conditions — things that should not happen 
 If a user enters an invalid email, that is not exceptional; it is an expected validation outcome.
 Using exceptions for control flow has several problems:
 
-1. **Performance** — throwing and catching involves stack trace capture, which is expensive.
-2. **Opacity** — you cannot tell from the return type that a function might fail. The caller must
+1. **Performance**. Throwing and catching involves stack trace capture, which is expensive.
+2. **Opacity**. You cannot tell from the return type that a function might fail. The caller must
    read documentation or source code.
-3. **Incomposability** — exceptions bypass the return value, making it impossible to chain
+3. **Incomposability**. Exceptions bypass the return value, making it impossible to chain
    operations without `try/catch` blocks everywhere.
 
 ### Implementing Result with Sealed Classes

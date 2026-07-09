@@ -60,14 +60,14 @@ or challenge its claims.
 
 A strong A-Level History essay follows a clear structure:
 
-1. **Introduction** — define key terms, establish your line of argument (thesis), and indicate the
+1. **Introduction**. Define key terms, establish your line of argument (thesis), and indicate the
    structure of your response
-2. **Main paragraphs** — each paragraph should contain:
+2. **Main paragraphs**. Each paragraph should contain:
    - A clear topic sentence (point)
    - Specific, accurate evidence (dates, names, events, statistics)
    - Analysis that links evidence back to the question
    - A concluding sentence that reinforces your argument
-3. **Conclusion** — directly answer the question, summarise your argument, and offer a final
+3. **Conclusion**. Directly answer the question, summarise your argument, and offer a final
    judgement
 
 **Judgement keywords**: "however", "more significantly", "fundamentally", "ultimately", "this
@@ -173,11 +173,11 @@ To assess how useful a source is for a specific enquiry:
 
 ## Common Pitfalls
 
-1. **Describing instead of analysing** — listing what happened without explaining why it matters or
+1. **Describing instead of analysing**. Listing what happened without explaining why it matters or
    how it answers the question. Always link evidence back to the argument.
-2. **Taking sources at face value** — accepting a source's claims without considering provenance,
+2. **Taking sources at face value**. Accepting a source's claims without considering provenance,
    purpose, or context. Every source has a perspective; your job is to identify and evaluate it.
-3. **Ignoring historiography** — presenting a single narrative as fact without acknowledging that
+3. **Ignoring historiography**. Presenting a single narrative as fact without acknowledging that
    historians disagree. Examiners reward engagement with different interpretations.
 
 ## Worked Examples

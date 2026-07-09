@@ -578,7 +578,7 @@ Implications for performance and memory efficiency.
 
 **Advantages of static arrays:**
 
-1. **Memory efficiency:** Exactly the required amount of memory is allocated — no wasted capacity. A
+1. **Memory efficiency:** Exactly the required amount of memory is allocated. No wasted capacity. A
    static array of 50 elements uses precisely $50 \times s$ bytes.
 2. **Allocation speed:** No heap allocation overhead; memory is allocated at compile time on the
    stack (for local variables), which is faster than runtime heap allocation.
@@ -757,7 +757,7 @@ The optimal choice.
 
 ## Common Pitfalls
 
-1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 2. Writing pseudocode that is too language-specific rather than using standard algorithmic

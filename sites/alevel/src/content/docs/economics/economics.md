@@ -37,28 +37,28 @@ Course requires both mathematical fluency and the ability to construct clear, lo
 
 The study of individual economic agents — consumers, firms, and markets:
 
-1. **Methodology & the Economic Problem** — Scarcity, choice, opportunity cost, positive vs
+1. **Methodology & the Economic Problem**. Scarcity, choice, opportunity cost, positive vs
    normative economics
-2. **Demand, Supply & Market Equilibrium** — The price mechanism, elasticity, and market adjustment
-3. **Market Failure & Government Intervention** — Externalities, public goods, information
+2. **Demand, Supply & Market Equilibrium**. The price mechanism, elasticity, and market adjustment
+3. **Market Failure & Government Intervention**. Externalities, public goods, information
    asymmetry, and policy responses
-4. **Theory of the Firm** — Production, costs, market structures (perfect competition, monopoly,
+4. **Theory of the Firm**. Production, costs, market structures (perfect competition, monopoly,
    oligopoly, monopolistic competition)
-5. **Labour Markets** — Demand for and supply of labour, wage determination, trade unions,
+5. **Labour Markets**. Demand for and supply of labour, wage determination, trade unions,
    discrimination
-6. **Distribution of Income & Wealth** — Inequality measurement, poverty, tax/transfer policies
+6. **Distribution of Income & Wealth**. Inequality measurement, poverty, tax/transfer policies
 
 #### Macroeconomics
 
 The study of the economy as a whole:
 
-1. **Macroeconomic Performance** — GDP, inflation, unemployment, the balance of payments
-2. **Aggregate Demand & Aggregate Supply** — The AD/AS model, multipliers, and the price level
-3. **The Financial Sector** — Banks, interest rates, monetary policy, the money supply
-4. **Fiscal Policy** — Government spending, taxation, budget deficits, and the national debt
-5. **Supply-Side Policy** — Productivity, labour market reforms, competition policy
-6. **The International Economy** — Trade theory, exchange rates, globalisation, economic development
-7. **Macroeconomic Policy Debates** — Monetarism vs Keynesianism, rules vs discretion
+1. **Macroeconomic Performance**. GDP, inflation, unemployment, the balance of payments
+2. **Aggregate Demand & Aggregate Supply**. The AD/AS model, multipliers, and the price level
+3. **The Financial Sector**. Banks, interest rates, monetary policy, the money supply
+4. **Fiscal Policy**. Government spending, taxation, budget deficits, and the national debt
+5. **Supply-Side Policy**. Productivity, labour market reforms, competition policy
+6. **The International Economy**. Trade theory, exchange rates, globalisation, economic development
+7. **Macroeconomic Policy Debates**. Monetarism vs Keynesianism, rules vs discretion
 
 ### Assessment
 
@@ -73,12 +73,12 @@ The study of the economy as a whole:
 
 Each topic page contains:
 
-1. **Precise definitions** — every economic term defined rigorously
-2. **Theoretical models** — with graphical and mathematical derivations
-3. **Critical evaluation** — strengths, limitations, and real-world applicability
-4. **Worked examples** — applying models to exam-style data response questions
-5. **Multi-step problem set** — questions requiring chain reasoning and evaluation
-6. **Board-specific notes** — specification differences
+1. **Precise definitions**. Every economic term defined rigorously
+2. **Theoretical models**. With graphical and mathematical derivations
+3. **Critical evaluation**. Strengths, limitations, and real-world applicability
+4. **Worked examples**. Applying models to exam-style data response questions
+5. **Multi-step problem set**. Questions requiring chain reasoning and evaluation
+6. **Board-specific notes**. Specification differences
 
 When finished, attempt the.
 
@@ -246,7 +246,7 @@ When presented with economic data in an exam:
 
 ## Common Pitfalls
 
-1. Confusing nominal and real values — always adjust for inflation when comparing monetary values
+1. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
 
 2. Forgetting to distinguish between short-run and long-run effects in macroeconomic analysis.

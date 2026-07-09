@@ -265,10 +265,9 @@ $$\mathrm{SAT} \to \mathrm{3}\mathrm{-SAT} \to \mathrm{SubsetSum} \to \mathrm{Pa
 Given a 3-CNF formula $\phi$ with $k$ clauses, construct a graph $G$:
 
 1. For each clause $C_j$Create a group of 3 vertices (one per literal).
-2. Within each group, add all three edges (forming a triangle) — at most one vertex per group can be
+2. Within each group, add all three edges (forming a triangle). At most one vertex per group can be
    in an independent set.
-3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge
-   — they cannot both be selected.
+3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge. They cannot both be selected.
 
 Set the target to $k$ (one vertex per clause). An independent set of size $k$ exists iff $\phi$ Is
 satisfiable: selecting one literal per clause without contradiction gives a consistent Satisfying

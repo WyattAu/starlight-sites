@@ -48,15 +48,15 @@ for A-Level, with a focus on writing clear, correct, and maintainable code.
 
 ## Study Tips
 
-1. **Write pseudocode, not just Python** — exams accept pseudocode, and writing it trains you to
+1. **Write pseudocode, not just Python**. Exams accept pseudocode, and writing it trains you to
    think algorithmically rather than in a specific language"s syntax.
-2. **Trace tables are essential** — practise filling in trace tables for programs with loops and
+2. **Trace tables are essential**. Practise filling in trace tables for programs with loops and
    conditionals. Every exam has at least one trace-table question.
-3. **Understand OOP concepts by analogy** — a class is a blueprint; an object is a house built from
+3. **Understand OOP concepts by analogy**. A class is a blueprint; an object is a house built from
    it. Inheritance is "is-a"; composition is "has-a."
-4. **Practise file handling** — reading CSV data, processing it, and writing results. This appears
+4. **Practise file handling**. Reading CSV data, processing it, and writing results. This appears
    frequently in NEA-style questions.
-5. **Dry-run your code** before writing it — plan the algorithm, trace it with sample input, then
+5. **Dry-run your code** before writing it. Plan the algorithm, trace it with sample input, then
    code it.
 
 ## How to Use These Notes

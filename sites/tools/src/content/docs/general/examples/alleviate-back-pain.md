@@ -198,7 +198,7 @@ deeply and do not stretch into pain.
 
 2. Not practising with past papers or exercises under timed conditions.
 
-3. Memorising content without understanding the underlying principles — this leads to poor
+3. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
 4. Not making connections between different topics within the subject to build a coherent

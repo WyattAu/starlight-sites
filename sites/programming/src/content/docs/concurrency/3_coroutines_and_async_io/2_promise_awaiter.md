@@ -81,7 +81,7 @@ Calls [N4950 §9.5.4.3].
 
 3. The `await_ready()` check short-circuits suspension for already-completed awaitables (e.g.,
    immediately available values).
-4. The `await_suspend()` call is the suspension mechanism — it determines whether the coroutine
+4. The `await_suspend()` call is the suspension mechanism. It determines whether the coroutine
    actually suspends and what happens upon resumption.
 5. The `await_resume()` call produces the value visible to the `co_await` expression.
 

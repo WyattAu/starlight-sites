@@ -35,7 +35,7 @@ When a thread calls `wait(lock)`The following sequence occurs:
 
 1. The thread atomically releases the mutex and blocks.
 2. When notified (or spuriously woken), the thread re-acquires the mutex before returning.
-3. The atomicity of "release mutex + block" is critical — without it, a notification sent between
+3. The atomicity of "release mutex + block" is critical. Without it, a notification sent between
    the mutex release and the block would be lost.
 
 On Linux, `std::condition_variable` is implemented using `pthread_cond_t`Which uses the Futex system

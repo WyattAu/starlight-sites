@@ -508,7 +508,7 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 
 2. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+3. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

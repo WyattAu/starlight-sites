@@ -232,7 +232,7 @@ significantly speeding up `git clone``git fetch`And `git gc` on large repositori
 
 ## Common Pitfalls
 
-1. Confusing DNA replication (S phase) with transcription or translation — be clear about which
+1. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
    process is being described.
 
 2. Failing to link structure to function when describing biological molecules, cells, or organs.

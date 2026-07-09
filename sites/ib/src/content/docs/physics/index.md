@@ -72,13 +72,13 @@ pitfalls, and exam-style problems.
 
 ## Common Pitfalls
 
-1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear — resolve into components
+1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
 
-2. Using the wrong equation from the data sheet — take time to read the full equation, including
+2. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-3. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+3. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 4. Rounding intermediate answers too early, which compounds errors in multi-step calculations.

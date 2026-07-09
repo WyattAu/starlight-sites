@@ -1303,7 +1303,7 @@ Fixed immediately, not discovered weeks later during code review.
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
-2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation — Big O is an upper bound, not
+2. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
 3. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

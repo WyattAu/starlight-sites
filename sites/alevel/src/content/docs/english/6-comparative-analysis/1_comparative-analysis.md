@@ -82,22 +82,22 @@ of these structures:
 
 #### Structure A: Integrated Comparison (Recommended)
 
-1. **Make a comparative point** — "Both writers present loss as a transformative experience, but
+1. **Make a comparative point**. "Both writers present loss as a transformative experience, but
    while Text A frames it as destructive, Text B presents it as liberating"
-2. **Evidence from Text A** — Embed a short quotation
-3. **Brief analysis of Text A** — Focus on language, form, or structure
-4. **Evidence from Text B** — Embed a short quotation
-5. **Analysis of Text B with explicit comparison** — "Whereas Text A uses X, Text B employs Y,
+2. **Evidence from Text A**. Embed a short quotation
+3. **Brief analysis of Text A**. Focus on language, form, or structure
+4. **Evidence from Text B**. Embed a short quotation
+5. **Analysis of Text B with explicit comparison**. "Whereas Text A uses X, Text B employs Y,
    suggesting..."
-6. **Comparative conclusion** — Draw the two analyses together
+6. **Comparative conclusion**. Draw the two analyses together
 
 #### Structure B: Thematic Bridge
 
 1. **Make a point about a shared theme or concern**
 2. **Analyse Text A's treatment of this theme**
-3. **Use a comparative connective to introduce Text B** — "In contrast...", "Similarly..."
+3. **Use a comparative connective to introduce Text B**. "In contrast...", "Similarly..."
 4. **Analyse Text B's treatment of the same theme**
-5. **Evaluate the difference or similarity** — What does the comparison reveal?
+5. **Evaluate the difference or similarity**. What does the comparison reveal?
 
 ### Comparative Connectives
 
@@ -113,12 +113,12 @@ Use these to signal comparison explicitly:
 
 ### Planning a Comparative Essay
 
-1. **Identify 3-4 points of comparison** — Choose the most analytically productive connections
-2. **Decide on your thesis** — What does the comparison reveal? What argument will you make?
-3. **Order your paragraphs** — Build an argument rather than a list. Each paragraph should develop
+1. **Identify 3-4 points of comparison**. Choose the most analytically productive connections
+2. **Decide on your thesis**. What does the comparison reveal? What argument will you make?
+3. **Order your paragraphs**. Build an argument rather than a list. Each paragraph should develop
    the previous one
-4. **Plan evidence for both texts in each paragraph** — Every paragraph should contain both texts
-5. **Note where context enriches comparison** — Plan where to integrate contextual points
+4. **Plan evidence for both texts in each paragraph**. Every paragraph should contain both texts
+5. **Note where context enriches comparison**. Plan where to integrate contextual points
 
 ### Thematic Comparison Grid
 
@@ -188,10 +188,10 @@ Sometimes you must compare a text with its historical source, adaptation, or cri
 ### Planning Under Time Pressure
 
 1. **Read both texts carefully** (or recall both set texts)
-2. **Identify the question's focus** — What are you being asked to compare?
-3. **Brainstorm 3-4 points of comparison** — Quick notes, not full sentences
-4. **Decide on your thesis** — One sentence that captures your comparative argument
-5. **Allocate time** — Roughly equal attention to both texts in each paragraph
+2. **Identify the question's focus**. What are you being asked to compare?
+3. **Brainstorm 3-4 points of comparison**. Quick notes, not full sentences
+4. **Decide on your thesis**. One sentence that captures your comparative argument
+5. **Allocate time**. Roughly equal attention to both texts in each paragraph
 
 ### Structuring the Essay
 

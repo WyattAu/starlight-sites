@@ -754,7 +754,7 @@ building a personal test matrix.
 1. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-2. Losing marks by not showing sufficient working — always write out each step, especially in proof
+2. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
 3. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

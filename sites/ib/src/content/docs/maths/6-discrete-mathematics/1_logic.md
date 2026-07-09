@@ -821,12 +821,12 @@ The fourth and seventh columns are identical, confirming equivalence.
 
 ## Common Pitfalls
 
-1. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-2. Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-3. Confusing the converse with the contrapositive — only the contrapositive is logically equivalent
+3. Confusing the converse with the contrapositive. Only the contrapositive is logically equivalent
    to the original implication.
 
 ## Summary

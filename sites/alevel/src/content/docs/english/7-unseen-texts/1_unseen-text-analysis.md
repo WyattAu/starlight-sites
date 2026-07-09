@@ -50,11 +50,11 @@ Unseen analysis assesses your ability to:
 
 Approaching an unseen text requires a specific mindset:
 
-1. **Confidence** — You know the analytical frameworks; trust them
-2. **Selectivity** — You cannot write about everything. Choose the most significant features
-3. **Argument** — Even in unseen analysis, you need a thesis. What is this text doing and how?
-4. **Precision** — Focus on specific words and phrases, not vague generalisations
-5. **Organisation** — Structure your response precisely, even under time pressure
+1. **Confidence**. You know the analytical frameworks; trust them
+2. **Selectivity**. You cannot write about everything. Choose the most significant features
+3. **Argument**. Even in unseen analysis, you need a thesis. What is this text doing and how?
+4. **Precision**. Focus on specific words and phrases, not vague generalisations
+5. **Organisation**. Structure your response precisely, even under time pressure
 
 ## Analytical Frameworks
 
@@ -182,11 +182,11 @@ For comparative unseen, create a quick comparison grid on a blank page:
 
 Spend exactly 5 minutes planning. Use this structure:
 
-1. **Thesis statement** (1 minute) — What is this text doing and how? Write one sentence.
-2. **Select 4-5 key quotations** (2 minutes) — Choose the quotations that allow the most analytical
+1. **Thesis statement** (1 minute). What is this text doing and how? Write one sentence.
+2. **Select 4-5 key quotations** (2 minutes). Choose the quotations that allow the most analytical
    depth
-3. **Assign each quotation to a paragraph** (1 minute) — Decide what each paragraph will argue
-4. **Order your paragraphs** (1 minute) — Arrange them to build a coherent argument
+3. **Assign each quotation to a paragraph** (1 minute). Decide what each paragraph will argue
+4. **Order your paragraphs** (1 minute). Arrange them to build a coherent argument
 
 ### Paragraph Planning
 

@@ -458,7 +458,7 @@ docker logs traefik --tail 100
 docker inspect jellyfin | jq '.[0].Config.Labels'
 ```
 
-3. **Check the dashboard** — all routers should show a green status. Red or yellow means a
+3. **Check the dashboard**. All routers should show a green status. Red or yellow means a
    configuration error.
 
 4. **Common issues**:

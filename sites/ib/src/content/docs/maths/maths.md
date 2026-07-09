@@ -808,7 +808,7 @@ If you get this wrong, revise: Exponential growth and separable differential equ
 2. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
-3. Dropping negative signs during algebraic manipulation — substitute back to verify your answer.
+3. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
 4. Cancelling terms instead of factors — $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
 

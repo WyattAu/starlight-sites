@@ -499,7 +499,7 @@ m). The discrepancy suggests an experimental issue or different scattering geome
 3. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
 
-4. Confusing scalar and vector quantities — always check whether direction matters for the quantity
+4. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
    in question.
 
 ## Summary

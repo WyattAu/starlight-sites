@@ -20,7 +20,7 @@ Mechanism ensuring full employment.
 
 **Key propositions:**
 
-1. Prices and wages are **sticky downward** — they do not adjust quickly to clear markets
+1. Prices and wages are **sticky downward**. They do not adjust quickly to clear markets
 2. The economy can be in **equilibrium with involuntary unemployment** (a persistent output gap)
 3. Active **fiscal policy** is needed to manage aggregate demand
 4. The **multiplier** amplifies the effects of spending changes
@@ -160,8 +160,7 @@ The recessionary output gap.
 
 1. **Unforeseen circumstances**: rules cannot anticipate all shocks (financial crises, pandemics,
    wars)
-2. **Model uncertainty**: the Taylor Rule assumes we know $r^*$, $y^*$And the correct coefficients —
-   these are uncertain
+2. **Model uncertainty**: the Taylor Rule assumes we know $r^*$, $y^*$And the correct coefficients. These are uncertain
 3. **Multiple objectives**: rules may be too rigid when trade-offs between objectives change
 4. **Communication**: discretion allows nuanced forward guidance
 
@@ -460,8 +459,8 @@ When evaluating any macroeconomic policy framework (inflation targeting, MMT, fi
 Following structure:
 
 1. **Define** the policy framework and its objectives
-2. **Explain the mechanism** — how does it work in theory?
-3. **Apply** with real-world evidence — use specific data points (e.g., "UK inflation averaged 2.0%
+2. **Explain the mechanism**. How does it work in theory?
+3. **Apply** with real-world evidence. Use specific data points (e.g., "UK inflation averaged 2.0%
    under inflation targeting, 1992–2020")
 4. **Evaluate** by considering:
 
@@ -472,7 +471,7 @@ Following structure:
 - **Unintended consequences**: what went wrong? (e.g., austerity slowed recovery)
 - **Alternatives**: what would have worked better?
 
-5. **Conclude** with a balanced judgement — "On balance, X was effective in achieving Y but failed
+5. **Conclude** with a balanced judgement. "On balance, X was effective in achieving Y but failed
    to address Z."
 
 ## 6. Policy Mixes for Various Scenarios

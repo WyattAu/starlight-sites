@@ -1353,13 +1353,13 @@ These factors combine to give helium the highest first ionisation energy of all 
 
 ## Common Pitfalls
 
-1. Drawing structural formulae incorrectly — check the number of bonds each atom can form and the
+1. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
 
 2. Assuming that a strong acid always has a lower pH than a weak acid without considering
    concentration.
 
-3. Confusing the terms 'molar' and 'molecular' — molar refers to per mole ($\text{mol}^{-1}$), while
+3. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
 
 4. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.

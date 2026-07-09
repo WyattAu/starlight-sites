@@ -465,7 +465,7 @@ def countdown(n):
 
 **Bugs:**
 
-1. No base case — infinite recursion leading to stack overflow
+1. No base case. Infinite recursion leading to stack overflow
 2. No guard against $n \lt 0$
 
 **Fixed version:**

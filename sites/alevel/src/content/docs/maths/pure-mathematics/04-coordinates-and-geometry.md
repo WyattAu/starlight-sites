@@ -942,7 +942,7 @@ building a personal test matrix.
 2. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-3. Rounding too early in multi-step calculations — carry full precision through and round only the
+3. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
 
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

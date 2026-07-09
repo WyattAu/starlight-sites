@@ -558,7 +558,7 @@ Threat intelligence is most valuable when integrated into operational workflows:
 2. **Detection engineering**: Map threat actor TTPs to detection rules in your SIEM/EDR
 3. **Hunting**: Proactively search your environment for indicators and behaviors associated with
    active campaigns
-4. **Risk assessment**: Factor threat intelligence into likelihood estimates — if a vulnerability is
+4. **Risk assessment**: Factor threat intelligence into likelihood estimates. If a vulnerability is
    being actively exploited in your industry, the likelihood is higher than the generic estimate
 
 ## Security Metrics

@@ -500,9 +500,9 @@ void main() {
 
 Every test follows three phases:
 
-1. **Arrange** — set up the system under test and its inputs.
-2. **Act** — invoke the behavior being tested.
-3. **Assert** — verify the output or side effects.
+1. **Arrange**. Set up the system under test and its inputs.
+2. **Act**. Invoke the behavior being tested.
+3. **Assert**. Verify the output or side effects.
 
 ```dart
 test('calculates total with tax', () {

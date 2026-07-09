@@ -39,13 +39,13 @@ must understand for A-Level, including their time and space complexity.
 
 ## Study Tips
 
-1. **Trace algorithms by hand** on small inputs before writing code — this builds the intuition
+1. **Trace algorithms by hand** on small inputs before writing code. This builds the intuition
    needed for exam trace-table questions.
 2. **Learn the complexity classes** cold: $O(1)$, $O(\log n)$, $O(n)$, $O(n \log n)$, $O(n^2)$,
    $O(2^n)$. You should be able to classify any A-Level algorithm instantly.
 3. **Understand _why_** merge sort is $O(n \log n)$ and bubble sort is $O(n^2)$, not just that it
    is. Exam questions test reasoning, not memorisation.
-4. **Compare algorithms** in terms of time, space, and stability — comparison questions appear
+4. **Compare algorithms** in terms of time, space, and stability. Comparison questions appear
    frequently.
 5. **Practice deriving** Big-O from code or pseudocode, counting operations line by line.
 

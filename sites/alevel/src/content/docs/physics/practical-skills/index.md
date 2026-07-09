@@ -56,15 +56,15 @@ This section covers measurement techniques, error analysis, and experimental des
 
 ## Study Tips
 
-1. **Practise uncertainty calculations** — they appear in every exam. Know the rules for combining
+1. **Practise uncertainty calculations**. They appear in every exam. Know the rules for combining
    uncertainties in addition, multiplication, and powers.
-2. **Draw graphs carefully** — use more than half the graph paper, label axes with units, and plot
+2. **Draw graphs carefully**. Use more than half the graph paper, label axes with units, and plot
    error bars. The gradient calculation often carries several marks.
-3. **Know your instruments** — ruler ($\pm 1\,\text{mm}$), vernier calliper ($\pm 0.1\,\text{mm}$),
+3. **Know your instruments**. Ruler ($\pm 1\,\text{mm}$), vernier calliper ($\pm 0.1\,\text{mm}$),
    micrometer ($\pm 0.01\,\text{mm}$). Choose the right tool for the required precision.
-4. **Practise writing methods** — for any given investigation, write a step-by-step method that
+4. **Practise writing methods**. For any given investigation, write a step-by-step method that
    someone else could follow. Be specific about measurements and equipment.
-5. **Evaluate every experiment** — identify the largest source of uncertainty and suggest how to
+5. **Evaluate every experiment**. Identify the largest source of uncertainty and suggest how to
    reduce it. This is worth marks in every practical question.
 
 ## How to Use These Notes

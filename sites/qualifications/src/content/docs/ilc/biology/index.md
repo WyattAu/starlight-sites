@@ -68,7 +68,7 @@ grade, depending on the subject and level.
 ### How to Use These Notes
 
 1. Start with the topic you find most challenging and work through systematically
-2. Complete all worked examples before moving on — they reinforce key concepts
+2. Complete all worked examples before moving on. They reinforce key concepts
 3. Review the Common Pitfalls section in each topic to avoid frequent mistakes
 4. Use the Summary section as a quick reference for last-minute revision
 5. Attempt practice problems under timed conditions to build exam confidence

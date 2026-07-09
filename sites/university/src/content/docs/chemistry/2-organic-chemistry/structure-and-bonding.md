@@ -168,11 +168,11 @@ electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons 
 
 ### 5.2 Criteria for Aromaticity
 
-1. **Cyclic** — the $\pi$ system must form a closed loop.
-2. **Planar** — all $p$ orbitals must be parallel for effective overlap.
-3. **Fully conjugated** — every atom in the ring must have a $p$ orbital (no sp$^3$ atoms in the
+1. **Cyclic**. The $\pi$ system must form a closed loop.
+2. **Planar**. All $p$ orbitals must be parallel for effective overlap.
+3. **Fully conjugated**. Every atom in the ring must have a $p$ orbital (no sp$^3$ atoms in the
    ring).
-4. **$(4n + 2)$ $\pi$ electrons** — Huckel's rule.
+4. **$(4n + 2)$ $\pi$ electrons**. Huckel's rule.
 
 ### 5.3 Aromatic Heterocycles
 

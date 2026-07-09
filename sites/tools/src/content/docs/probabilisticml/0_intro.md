@@ -124,14 +124,14 @@ to modern deep generative methods:
 These notes cover the mathematical foundations required for understanding modern probabilistic
 machine learning:
 
-1. **Probability Theory** — measure-theoretic foundations, $\sigma$-algebras, random variables,
+1. **Probability Theory**. Measure-theoretic foundations, $\sigma$-algebras, random variables,
    expectation, conditional probability, and Bayes' theorem
-2. **Statistical Inference** — maximum likelihood estimation (MLE), maximum a posteriori (MAP),
+2. **Statistical Inference**. Maximum likelihood estimation (MLE), maximum a posteriori (MAP),
    Bayesian inference, and conjugate priors
-3. **Linear Models** — Bayesian linear regression, Gaussian processes, and kernel methods
-4. **Latent Variable Models** — mixture models, EM algorithm, variational inference
-5. **Deep Generative Models** — variational autoencoders (VAEs), normalising flows, diffusion models
-6. **Graphical Models** — directed and undirected graphical models, message passing, belief
+3. **Linear Models**. Bayesian linear regression, Gaussian processes, and kernel methods
+4. **Latent Variable Models**. Mixture models, EM algorithm, variational inference
+5. **Deep Generative Models**. Variational autoencoders (VAEs), normalising flows, diffusion models
+6. **Graphical Models**. Directed and undirected graphical models, message passing, belief
    propagation
 
 ### Mathematical Prerequisites
