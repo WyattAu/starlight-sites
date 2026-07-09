@@ -485,6 +485,7 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
 
+:::
 ---
 
 ## Network Security

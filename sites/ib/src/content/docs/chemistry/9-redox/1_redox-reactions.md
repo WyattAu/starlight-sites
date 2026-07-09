@@ -608,6 +608,7 @@ Sacrificial protection. **Tin plating** provides only barrier protection and act
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
 
 ---
+:::
 
 ## Fuel Cells
 

@@ -418,7 +418,11 @@ For interning strings at runtime (deduplicating identical strings), use the `str
 
 Rust's type inference is local and flow-insensitive. The compiler infers types from usage within a
 Single function body but does not perform interprocedural type inference. This is a deliberate
-Design choice — it keeps compilation fast and error messages comprehensible.
+Design choice with two concrete benefits. First, because each function body is type-checked
+independently, compilation scales linearly with the number of functions rather than
+Combinatorially — the compiler never needs to resolve types across function boundaries. Second,
+error messages are localised to the function where the type mismatch occurs, so the compiler can
+Point to the exact line rather than tracing through an interprocedural call graph.
 
 ```rust
 let x = 42;            // i32 (default integer type)
@@ -584,6 +588,7 @@ fn increment() {
 Do not use `static mut`. It is the source of undefined behavior in multi-threaded contexts and
 Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
 
+:::
 
 ## Type Aliases
 

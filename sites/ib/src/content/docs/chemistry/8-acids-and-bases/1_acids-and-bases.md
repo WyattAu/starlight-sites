@@ -320,6 +320,7 @@ Because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 1
 Is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
 7; on temperature.
 
+:::
 ---
 
 ## Polyprotic Acids
