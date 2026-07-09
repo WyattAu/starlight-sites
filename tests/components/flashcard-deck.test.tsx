@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@solidjs/testing-library'
+import { fireEvent, render, screen, waitFor } from '@solidjs/testing-library'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { Flashcard } from '../../shared/components/FlashcardDeck'
 import FlashcardDeck from '../../shared/components/FlashcardDeck'
@@ -117,5 +117,77 @@ describe('FlashcardDeck Component', () => {
   it('should have accessible empty state', () => {
     render(() => <FlashcardDeck cards={[]} deckId="test" />)
     expect(screen.getByRole('region', { name: 'Flashcard deck empty' })).toBeTruthy()
+  })
+
+  // --- Branch coverage: review flow ---
+
+  it('should enter review view when Study Now is clicked', async () => {
+    render(() => <FlashcardDeck cards={mockCards} deckId="test" />)
+    await fireEvent.click(screen.getByText('Study Now'))
+    // Review view shows "Card 1 of 3" and the exit button.
+    await waitFor(() => {
+      expect(screen.getByText(/Card 1 of 3/)).toBeTruthy()
+    })
+    expect(screen.getByText('Exit Review')).toBeTruthy()
+  })
+
+  it('should flip card on click and show rating buttons', async () => {
+    render(() => <FlashcardDeck cards={mockCards} deckId="test" />)
+    await fireEvent.click(screen.getByText('Study Now'))
+    // The card has a clickable area with aria-label about flipping.
+    const card = screen.getByRole('button', { name: /Card question/ })
+    await fireEvent.click(card)
+    // After flip, rating buttons (Again/Hard/Good/Easy) should be visible.
+    await waitFor(() => {
+      expect(screen.getByText('Good')).toBeTruthy()
+    })
+  })
+
+  it('should advance to next card after rating', async () => {
+    render(() => <FlashcardDeck cards={mockCards} deckId="test" />)
+    await fireEvent.click(screen.getByText('Study Now'))
+    const card = screen.getByRole('button', { name: /Card question/ })
+    await fireEvent.click(card)
+    // Click "Good" rating (rating 3).
+    await waitFor(() => {
+      expect(screen.getByText('Good')).toBeTruthy()
+    })
+    await fireEvent.click(screen.getByText('Good'))
+    // Should advance to card 2 of 3.
+    await waitFor(() => {
+      expect(screen.getByText(/Card 2 of 3/)).toBeTruthy()
+    })
+  })
+
+  it('should return to deck view after rating all cards', async () => {
+    // Use a single-card deck so one rating completes the review.
+    const singleCard: Flashcard[] = [
+      { id: '1', front: 'Test?', back: 'Answer', tags: ['test'] },
+    ]
+    render(() => <FlashcardDeck cards={singleCard} deckId="test-single" />)
+    await fireEvent.click(screen.getByText('Study Now'))
+    const card = screen.getByRole('button', { name: /Card question/ })
+    await fireEvent.click(card)
+    await waitFor(() => {
+      expect(screen.getByText('Good')).toBeTruthy()
+    })
+    await fireEvent.click(screen.getByText('Good'))
+    // After rating the only card, should return to deck view.
+    await waitFor(() => {
+      expect(screen.getByText('Study Now')).toBeTruthy()
+    })
+  })
+
+  it('should exit review when Exit Review is clicked', async () => {
+    render(() => <FlashcardDeck cards={mockCards} deckId="test" />)
+    await fireEvent.click(screen.getByText('Study Now'))
+    await waitFor(() => {
+      expect(screen.getByText('Exit Review')).toBeTruthy()
+    })
+    await fireEvent.click(screen.getByText('Exit Review'))
+    // Should return to deck view.
+    await waitFor(() => {
+      expect(screen.getByText('Study Now')).toBeTruthy()
+    })
   })
 })
