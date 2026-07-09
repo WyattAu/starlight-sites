@@ -10,6 +10,14 @@ function log(level, message, extra = {}) {
   console.log(JSON.stringify({ level, message, ts: new Date().toISOString(), ...extra }))
 }
 
+// Simple in-memory rate limiter. Tracks requests per IP over a 60-second
+// window. Resets when the Worker instance is recycled (acceptable for a
+// documentation search API). For stricter enforcement, configure Cloudflare
+// Rate Limiting rules at the dashboard level.
+const RATE_LIMIT_MAX = 100 // requests per window
+const RATE_LIMIT_WINDOW_MS = 60_000
+const rateLimitCounters = new Map()
+
 const SITES = {
   dse: { name: 'DSE', url: 'https://dse.wyattau.com', color: '#ff6b35', lang: 'en' },
   ib: { name: 'IB', url: 'https://ib.wyattau.com', color: '#0077b6', lang: 'en' },
@@ -171,6 +179,31 @@ export default {
 
 async function handleSearch(request, url, env, corsHeaders) {
   const startTime = Date.now()
+
+  // Simple IP-based rate limiting (100 req/60s per IP).
+  const clientIP = request.headers.get('cf-connecting-ip') || 'unknown'
+  const now = Date.now()
+  const counter = rateLimitCounters.get(clientIP)
+  if (counter && now - counter.windowStart > RATE_LIMIT_WINDOW_MS) {
+    rateLimitCounters.delete(clientIP)
+  }
+  if (!rateLimitCounters.has(clientIP)) {
+    rateLimitCounters.set(clientIP, { windowStart: now, count: 1 })
+  } else {
+    const c = rateLimitCounters.get(clientIP)
+    c.count++
+    if (c.count > RATE_LIMIT_MAX) {
+      return new Response(JSON.stringify({ error: 'Rate limit exceeded. Try again later.' }), {
+        status: 429,
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+          'Retry-After': String(Math.ceil((RATE_LIMIT_WINDOW_MS - (now - c.windowStart)) / 1000)),
+        },
+      })
+    }
+  }
+
   const query = url.searchParams.get('q')?.trim()
   const limit = Math.min(parseInt(url.searchParams.get('limit') || '20', 10), 50)
   const site = url.searchParams.get('site') // optional: filter by site
@@ -181,6 +214,14 @@ async function handleSearch(request, url, env, corsHeaders) {
 
   if (!query || query.length < 2) {
     return new Response(JSON.stringify({ error: 'Query must be at least 2 characters' }), {
+      status: 400,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    })
+  }
+
+  // Cap query length to prevent ReDoS or excessive memory usage.
+  if (query.length > 200) {
+    return new Response(JSON.stringify({ error: 'Query must be at most 200 characters' }), {
       status: 400,
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
     })
@@ -749,7 +790,16 @@ async function handleStaticAsset(filename, _corsHeaders) {
 
 async function handleDashboard(corsHeaders) {
   return new Response(DASHBOARD_HTML, {
-    headers: { ...corsHeaders, 'Content-Type': 'text/html; charset=utf-8' },
+    headers: {
+      ...corsHeaders,
+      'Content-Type': 'text/html; charset=utf-8',
+      // Security headers for the dashboard HTML page.
+      'Content-Security-Policy':
+        "default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'",
+      'X-Content-Type-Options': 'nosniff',
+      'X-Frame-Options': 'DENY',
+      'Referrer-Policy': 'strict-origin-when-cross-origin',
+    },
   })
 }
 
