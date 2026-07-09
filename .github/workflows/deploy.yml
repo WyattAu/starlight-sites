@@ -205,14 +205,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prepare landing page
-        run: |
-          mkdir -p dist
-          cp sites/main/src/index.html dist/index.html
-          cp search-api/cross-site-search.js dist/cross-site-search.js
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Cache bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lock') }}
+          restore-keys: bun-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build landing page
+        working-directory: sites/main
+        run: bun run build
+
+      - name: Add cross-site search script
+        run: cp search-api/cross-site-search.js sites/main/dist/cross-site-search.js
 
       - name: Deploy landing page
-        run: npx wrangler@4 pages deploy dist --project-name wyattsnotes
+        run: npx wrangler@4 pages deploy sites/main/dist --project-name wyattsnotes
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
