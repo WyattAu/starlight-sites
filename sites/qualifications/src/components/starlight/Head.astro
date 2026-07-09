@@ -1,4 +1,5 @@
 ---
+import ClientRouter from "astro/components/ClientRouter.astro"
 /**
  * Head override for Starlight that adds JSON-LD structured data.
  *
@@ -67,3 +68,4 @@ const articleSchema = {
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+<ClientRouter />
