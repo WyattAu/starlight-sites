@@ -92,11 +92,11 @@ Five diverse sites built and verified on Astro 6.4.8:
 
 | Site | Pages | Practice pages | Build time | Verification |
 |------|-------|----------------|------------|--------------|
-| tools | 66 | 0 | 46s | ✓ Clean |
-| infrastructure | 95 | 357 | 3m8s | ✓ Clean |
-| qualifications | 267 | 357 | 3m8s | ✓ Clean |
-| dse | 161 | 161 | ~3m | ✓ Clean |
-| ib | 300 | 473 | 4m51s | ✓ Clean |
+| tools | 66 | 0 | 46s | Build OK |
+| infrastructure | 95 | 357 | 3m8s | Build OK |
+| qualifications | 267 | 357 | 3m8s | Build OK |
+| dse | 161 | 161 | ~3m | Build OK |
+| ib | 300 | 473 | 4m51s | Build OK |
 
 **Total: 889 pages across 5 sites.** The remaining 4 sites (alevel, university, programming, languages) use the same remark plugin pattern and are validated by CI on push.
 
