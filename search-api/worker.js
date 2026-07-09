@@ -518,6 +518,13 @@ function handleSites(corsHeaders) {
 
 async function handleHealth(env, corsHeaders) {
   const metadata = await env.SEARCH_KV.get('metadata', { type: 'json' })
+  const metrics = await env.SEARCH_KV.get('search-metrics', { type: 'json' })
+
+  // Compute search SLO metrics from stored data.
+  const avgLatencyMs =
+    metrics && metrics.latencyCount > 0
+      ? Math.round(metrics.latencySum / metrics.latencyCount)
+      : null
 
   return new Response(
     JSON.stringify({
@@ -526,6 +533,22 @@ async function handleHealth(env, corsHeaders) {
       lastUpdated: metadata?.lastUpdated || 'unknown',
       siteCount: metadata?.siteCount || 0,
       totalEntries: metadata?.totalEntries || 0,
+      // Search SLO metrics (expose for monitoring and alerting).
+      search: {
+        totalSearches: metrics?.totalSearches || 0,
+        zeroResults: metrics?.zeroResults || 0,
+        zeroResultRate:
+          metrics && metrics.totalSearches > 0
+            ? ((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1) + '%'
+            : '0%',
+        avgLatencyMs,
+        maxLatencyMs: metrics?.latencyMax || 0,
+        // SLO targets (documented in CODE_QUALITY_VS_FAANG.md G5).
+        slo: {
+          zeroResultRate: '<5%',
+          avgLatencyMs: '<200',
+        },
+      },
     }),
     {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
