@@ -6,6 +6,10 @@ tags:
 description: "1. A body remains at rest or in uniform motion unless acted upon by a net force. 2. where . 3. For every action, there is an equal and opposite reaction."
 ---
 
+:::note[Historical Context]
+Newton's three laws, published in the *Principia Mathematica* (1687), unified terrestrial and celestial mechanics for the first time. Before Newton, the motion of planets was described by Kepler's empirical laws, and falling objects by Galileo's experiments, but there was no single framework connecting them. Newton's second law ($\mathbf{F} = m\mathbf{a}$) provided that framework. Leibniz developed the calculus independently, providing the mathematical tools Newton needed for the derivations. Euler later reformulated mechanics in terms of energy and the Lagrangian, which became the foundation for modern theoretical physics. The Coriolis and centrifugal terms in non-inertial frames were worked out by Gaspard-Gustave de Coriolis (1835) and are essential for understanding rotating reference frames in engineering and meteorology.
+:::
+
 ### 1.1 Newton"s Laws
 
 1. **First Law (Inertia):** A body remains at rest or in uniform motion unless acted upon by a net

@@ -4,6 +4,10 @@ description: "A system that handles 1,000 requests per second at USD 10,000 per 
 
 ---
 
+:::note[Historical Context]
+Complexity analysis as a formal discipline emerged from two threads. Alan Turing's 1936 paper on computability established the theoretical foundation — the Turing machine as a model of computation. In the 1960s, Robert Tarjan and John Hopcroft developed formal complexity classes (P, NP, PSPACE). Donald Knuth's *The Art of Computer Programming* (1968) pioneered the systematic analysis of algorithm efficiency, introducing Big-O notation into mainstream CS. The Cook-Levin theorem (1971) established NP-completeness, connecting complexity theory to the most important open problem in mathematics: P vs NP. Today, complexity analysis is essential for every software engineer — it determines whether a system can handle 10,000 or 10,000,000 requests, and whether a database query takes 10 milliseconds or 10 minutes.
+:::
+
 ## Why Complexity Analysis Matters
 
 A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is
@@ -864,4 +868,7 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
+:::
+:::tip[Research Connections]
+Complexity theory connects to the most important open problem in mathematics: P vs NP (Clay Millennium Prize, $1M). If P = NP, many "hard" problems in cryptography, scheduling, and protein folding become efficiently solvable. If P ≠ NP, certain cryptographic schemes (RSA, AES) are provably secure. Current research directions include: fine-grained complexity (parameterised complexity, ETH), quantum complexity (BQP vs BPP), and circuit complexity (lower bounds for AC0, TC0). The field also intersects with machine learning: can neural networks efficiently approximate NP-hard problems?
 :::

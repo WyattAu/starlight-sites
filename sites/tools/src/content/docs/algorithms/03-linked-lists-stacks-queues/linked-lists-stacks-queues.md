@@ -2,7 +2,9 @@
 title: Linked Lists, Stacks, and Queues
 description: "A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;"
 
----
+------:::note[Historical Context]
+The linked list was first described by Hans Peter Luhn at IBM (1953). The concept appeared earlier in Konrad Zuse's Plankalkül (1948). Stacks and queues were formalised by Dijkstra in his 1960 ALGOL 60 paper. The AVL tree was invented by Adelson-Velsky and Landis (1962). These structures underpin every standard library. Understanding them at the implementation level separates systems programmers from application programmers.
+:::------
 
 ## Singly Linked Lists
 
