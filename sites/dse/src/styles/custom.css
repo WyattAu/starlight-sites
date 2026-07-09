@@ -188,16 +188,22 @@ body {
 /* === Sidebar Active Page Fix === */
 /* The default Starlight accent background (#ff8c4a) on white text has
    a contrast ratio of ~2.4:1, below the WCAG AA threshold (4.5:1).
-   Override with a darker background and white text for readability. */
+   Override with a darker background and white text for readability.
+   Also override the :after pseudo-element that adds an orange bar. */
 .sidebar-content a[aria-current='page'],
 .sidebar-content a[aria-current='page']:hover,
 .sidebar-content a[aria-current='page']:focus {
   background-color: var(--sl-color-accent) !important;
   color: var(--sl-color-text-invert) !important;
   font-weight: 600 !important;
-  /* Add subtle left border instead of full background for less visual noise. */
   border-left: 3px solid var(--sl-color-text-invert);
   padding-left: calc(var(--sl-sidebar-item-padding-inline, 0.5rem) - 3px);
+}
+
+/* Remove the orange :after bar that covers text. */
+.sidebar-content a[aria-current='page']::after {
+  display: none !important;
+  background: none !important;
 }
 
 /* === Table Styling === */
