@@ -46,6 +46,9 @@ jobs:
       - name: No-emoji lint (code, docs, config)
         run: node scripts/lint-no-emoji.js
 
+      - name: Secret and credential scanning
+        run: node scripts/lint-secrets.js
+
       - name: Content validation
         run: node scripts/lint-content.js
 

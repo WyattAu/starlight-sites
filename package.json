@@ -18,7 +18,8 @@
     "lint:forward-refs": "node scripts/lint-forward-refs.js",
     "lint:spelling": "cspell \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\" \"shared/**/*.ts\" \"shared/**/*.tsx\"",
     "lint:markdown": "markdownlint \"sites/*/src/content/docs/**/*.md\" \"sites/*/src/content/docs/**/*.mdx\"",
-    "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-no-emoji.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js",
+    "lint:all": "biome check . && node scripts/lint-content.js && node scripts/lint-config.js && node scripts/lint-no-emoji.js && node scripts/lint-links.js && node scripts/lint-handwaves.js && node scripts/lint-descriptions.js && node scripts/lint-depth.js && node scripts/lint-forward-refs.js && node scripts/lint-secrets.js",
+    "lint:secrets": "node scripts/lint-secrets.js",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "sync": "node scripts/sync-shared.mjs",
     "sync:check": "node scripts/sync-shared.mjs --check",
@@ -72,6 +73,7 @@
     "sites/*/astro.config.mjs": "node scripts/lint-config.js",
     "*.{js,mjs,ts,tsx,astro,yml,yaml,json,toml,html}": [
       "node scripts/lint-no-emoji.js",
+      "node scripts/lint-secrets.js",
       "biome check --write --no-errors-on-unmatched"
     ]
   },

@@ -4,6 +4,12 @@
 
 import { DASHBOARD_HTML } from './dashboard.js'
 
+// Structured logging for Cloudflare Workers. Output is JSON (one object per
+// line), which Cloudflare captures as structured logs in the dashboard.
+function log(level, message, extra = {}) {
+  console.log(JSON.stringify({ level, message, ts: new Date().toISOString(), ...extra }))
+}
+
 const SITES = {
   dse: { name: 'DSE', url: 'https://dse.wyattau.com', color: '#ff6b35', lang: 'en' },
   ib: { name: 'IB', url: 'https://ib.wyattau.com', color: '#0077b6', lang: 'en' },
@@ -154,7 +160,7 @@ export default {
       // Log the real error server-side (Cloudflare captures Worker console
       // output); return a generic message to the client so internals (KV
       // shape, stack frames) are not leaked on a 500.
-      console.error('worker unhandled error:', err)
+      log('error', 'worker unhandled error', { error: String(err), stack: err?.stack })
       return new Response(JSON.stringify({ error: 'Internal error' }), {
         status: 500,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -611,7 +617,7 @@ async function handleTrack(request, env, corsHeaders) {
   } catch (err) {
     // Track endpoint: a 400 is a client error, so err.message is useful to
     // the caller, but log it server-side too for observability.
-    console.error('track error:', err)
+    log('error', 'track endpoint error', { error: String(err), stack: err?.stack })
     return new Response(JSON.stringify({ ok: false, error: err.message }), {
       status: 400,
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
