@@ -10,16 +10,31 @@ function initCrossSiteSearch() {
     return
   }
 
-  // Find the nav element to inject search into
-  const nav = document.querySelector('nav.starlight-nav') || document.querySelector('nav')
-  if (!nav) return
+  // Find the top navigation header (NOT the sidebar nav).
+  // Starlight 0.40 uses <header> for the top bar, <nav> for the sidebar.
+  const topBar =
+    document.querySelector('header.header') ||
+    document.querySelector('.header') ||
+    document.querySelector('header')
+  if (!topBar) return
 
-  // Create our own search container positioned at the right side of the nav
+  // Find the right-group container within the header to inject search next to the theme toggle
+  const rightGroup = topBar.querySelector('.right-group') || topBar.querySelector('.sl-flex:last-child')
+
+  // Create our search container
   const searchContainer = document.createElement('div')
   searchContainer.style.marginLeft = 'auto'
   searchContainer.style.display = 'flex'
   searchContainer.style.alignItems = 'center'
-  nav.appendChild(searchContainer)
+  searchContainer.style.padding = '0 0.5rem'
+
+  if (rightGroup) {
+    // Insert search before the right group (theme toggle area)
+    rightGroup.parentNode.insertBefore(searchContainer, rightGroup)
+  } else {
+    // Fallback: append to header
+    topBar.appendChild(searchContainer)
+  }
 
   // Check if search already exists
   if (document.getElementById('cross-site-search')) return

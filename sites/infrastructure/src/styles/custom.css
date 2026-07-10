@@ -911,7 +911,12 @@ body {
 }
 
 /* === Hide Starlight's built-in theme toggle (replaced by floating settings btn) === */
-starlight-theme-select {
+starlight-theme-select,
+.starlight-theme-select,
+.starlight-theme-select select,
+header starlight-theme-select,
+.right-group starlight-theme-select,
+.mobile-preferences starlight-theme-select {
   display: none !important;
 }
 
