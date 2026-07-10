@@ -563,24 +563,52 @@
 
 /* === Theme-specific Component Overrides === */
 
-/* Admonitions (Starlight aside blocks) - all 10 themes */
-[data-theme="dark"] .starlight-aside-note,
-[data-theme="nord"] .starlight-aside-note,
-[data-theme="dracula"] .starlight-aside-note,
-[data-theme="monokai"] .starlight-aside-note,
-[data-theme="ayu-mirage"] .starlight-aside-note,
-[data-theme="contrast"] .starlight-aside-note {
-  --sl-color-asides-text-accent: var(--sl-color-text);
-  background: var(--wn-bg-card);
-  border-color: var(--sl-color-accent);
+/* ----- Accent colors for asides/admonitions ----- */
+/* Dark themes: asides use dark backgrounds (--sl-color-*-low) with light text */
+[data-theme="dark"],
+[data-theme="nord"],
+[data-theme="dracula"],
+[data-theme="monokai"],
+[data-theme="ayu-mirage"],
+[data-theme="contrast"] {
+  --sl-color-orange-low: hsl(41, 39%, 22%);
+  --sl-color-orange: hsl(41, 82%, 63%);
+  --sl-color-orange-high: hsl(41, 82%, 87%);
+  --sl-color-blue-low: hsl(234, 54%, 20%);
+  --sl-color-blue: hsl(234, 100%, 60%);
+  --sl-color-blue-high: hsl(234, 100%, 87%);
+  --sl-color-purple-low: hsl(281, 39%, 22%);
+  --sl-color-purple: hsl(281, 82%, 63%);
+  --sl-color-purple-high: hsl(281, 82%, 89%);
+  --sl-color-red-low: hsl(339, 39%, 22%);
+  --sl-color-red: hsl(339, 82%, 63%);
+  --sl-color-red-high: hsl(339, 82%, 87%);
 }
-[data-theme="light"] .starlight-aside-note,
-[data-theme="sepia"] .starlight-aside-note,
-[data-theme="solarized"] .starlight-aside-note,
-[data-theme="papercolor"] .starlight-aside-note {
-  --sl-color-asides-text-accent: var(--sl-color-text);
-  background: var(--wn-bg-elevated);
-  border-color: var(--sl-color-accent);
+/* Light themes: asides use light/pastel backgrounds with dark text */
+[data-theme="light"],
+[data-theme="sepia"],
+[data-theme="solarized"],
+[data-theme="papercolor"] {
+  --sl-color-orange-low: hsl(35, 100%, 92%);
+  --sl-color-orange: hsl(28, 80%, 52%);
+  --sl-color-orange-high: hsl(28, 80%, 30%);
+  --sl-color-blue-low: hsl(214, 80%, 90%);
+  --sl-color-blue: hsl(214, 80%, 45%);
+  --sl-color-blue-high: hsl(214, 80%, 25%);
+  --sl-color-purple-low: hsl(270, 60%, 90%);
+  --sl-color-purple: hsl(270, 60%, 50%);
+  --sl-color-purple-high: hsl(270, 60%, 28%);
+  --sl-color-red-low: hsl(0, 80%, 90%);
+  --sl-color-red: hsl(0, 70%, 45%);
+  --sl-color-red-high: hsl(0, 70%, 28%);
+}
+
+/* Ensure aside body text is readable in both theme groups */
+.starlight-aside {
+  color: var(--sl-color-white) !important;
+}
+.starlight-aside__title {
+  color: var(--sl-color-asides-text-accent) !important;
 }
 
 /* Code blocks - per-theme backgrounds for proper contrast */
