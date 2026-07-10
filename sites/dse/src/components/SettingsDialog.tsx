@@ -1,4 +1,4 @@
-import { createEffect, createSignal } from 'solid-js'
+import { createEffect, createSignal, type JSX } from 'solid-js'
 import * as RadioGroup from '@kobalte/core/radio-group'
 import * as Slider from '@kobalte/core/slider'
 import * as Switch from '@kobalte/core/switch'
@@ -46,6 +46,7 @@ function initFontFamily(): string {
 export interface SettingsDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
+  children?: JSX.Element
 }
 
 export default function SettingsDialog(props: SettingsDialogProps) {
@@ -191,6 +192,9 @@ export default function SettingsDialog(props: SettingsDialogProps) {
               </Switch.Control>
             </Switch.Root>
           </div>
+
+          {/* Flashcard-specific settings passed as children */}
+          {props.children && <div class="border-t border-emphasis-200 pt-4 mt-4 space-y-2">{props.children}</div>}
         </div>
       )}
     />

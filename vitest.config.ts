@@ -1,10 +1,16 @@
-import tailwindcss from '@tailwindcss/vite'
 import solidPlugin from 'vite-plugin-solid'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
-  plugins: [tailwindcss(), solidPlugin({ ssr: false })],
+  plugins: [solidPlugin({ ssr: false })],
+  optimizeDeps: {
+    exclude: ['@kobalte/core'],
+  },
+  ssr: {
+    noExternal: ['@kobalte/core'],
+  },
   test: {
+    css: false,
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./tests/components/setup.ts'],

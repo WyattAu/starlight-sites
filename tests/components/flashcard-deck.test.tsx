@@ -3,6 +3,37 @@ import { beforeEach, describe, expect, it, vi } from 'vitest'
 import type { Flashcard } from '../../shared/components/FlashcardDeck'
 import FlashcardDeck from '../../shared/components/FlashcardDeck'
 
+// Mock SettingsDialog as a plain SolidJS component that renders children.
+// The real component imports Kobalte controls that trigger css-tree CSS parse
+// errors (calc(NaN%)) in jsdom — this mock avoids that import chain entirely.
+vi.mock('../../shared/components/SettingsDialog', () => {
+  const h = (tag: string, attrs: Record<string, unknown>, ...children: unknown[]) => {
+    const el = document.createElement(tag)
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === 'dataset') continue
+      if (k.startsWith('data-')) el.setAttribute(k, String(v))
+      else if (k === 'style' && typeof v === 'object') Object.assign(el.style, v)
+      else if (k !== 'children') el.setAttribute(k, String(v))
+    }
+    for (const child of children) {
+      if (child == null) continue
+      el.append(child instanceof Node ? child : document.createTextNode(String(child)))
+    }
+    return el
+  }
+  return {
+    default: (props: Record<string, unknown>) => {
+      const title = String(props.title || '')
+      const children = props.children
+      const childEl = h('div', { 'data-testid': 'mock-settings-children' })
+      if (children instanceof Node) childEl.append(children)
+      else if (Array.isArray(children)) childEl.append(...children)
+      else childEl.textContent = String(children || '')
+      return h('div', { 'data-testid': 'mock-settings-dialog' }, h('h2', {}, title), childEl)
+    },
+  }
+})
+
 // Mock localStorage
 const localStorageMock = (() => {
   let store: Record<string, string> = {}
