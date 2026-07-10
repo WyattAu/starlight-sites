@@ -79,6 +79,10 @@ const articleSchema = {
 <!-- Reading controls (floating settings, focus mode, progress, position memory) -->
 <script src="/reader.js" defer></script>
 
+<!-- Cross-site search (injected into nav header) -->
+<script src="/cross-site-search.js" defer></script>
+<script src="/page-search.js" defer></script>
+
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
