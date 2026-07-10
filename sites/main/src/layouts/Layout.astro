@@ -42,7 +42,7 @@ const { title, description } = Astro.props
   <script is:inline>
     (function() {
       var saved = localStorage.getItem('wn-theme');
-      var theme = saved || 'dark';
+      var theme = saved && ['dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'].indexOf(saved) >= 0 ? saved : 'dark';
       document.documentElement.setAttribute('data-theme', theme);
       var fs = localStorage.getItem('wn-font-size');
       if (fs) document.documentElement.style.setProperty('--wn-font-size-scale', fs);

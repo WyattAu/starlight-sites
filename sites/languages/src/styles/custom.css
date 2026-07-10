@@ -429,12 +429,147 @@
   --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.14), 0 8px 16px rgba(0,0,0,0.1);
 }
 
+/* --- 8. Monokai --- */
+[data-theme="monokai"] {
+  --wn-bg: #272822;
+  --wn-bg-elevated: #383830;
+  --wn-bg-card: #383830;
+  --wn-bg-hover: #49483e;
+  --wn-text: #f8f8f2;
+  --wn-text-muted: #a6e22e;
+  --wn-text-dim: #75715e;
+  --wn-border: #49483e;
+  --wn-border-light: #5b5a50;
+  --wn-overlay: rgba(0,0,0,0.6);
+  --wn-glow: rgba(166,226,46,0.12);
+
+  --sl-color-accent: #a6e22e;
+  --sl-color-accent-low: #a6e22e25;
+  --sl-color-accent-high: #b8f244;
+  --sl-color-bg: #272822;
+  --sl-color-bg-nav: #272822;
+  --sl-color-bg-sidebar: #272822;
+  --sl-color-bg-inline-code: #383830;
+  --sl-color-bg-hairline: #49483e;
+  --sl-color-hairline-light: #49483e;
+  --sl-color-hairline-shade: #383830;
+  --sl-color-text: #f8f8f2;
+  --sl-color-text-accent: #a6e22e;
+  --sl-color-text-invert: #272822;
+  --sl-color-gray-1: #f8f8f2;
+  --sl-color-gray-2: #d0d0c8;
+  --sl-color-gray-3: #a6e22e;
+  --sl-color-gray-4: #75715e;
+  --sl-color-gray-5: #49483e;
+  --sl-color-gray-6: #3e3d35;
+  --sl-color-gray-7: #383830;
+  --sl-color-gray-8: #2a2a24;
+  --sl-color-black: #272822;
+  --sl-color-white: #f8f8f2;
+
+  --wn-elevation-1: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+  --wn-elevation-2: 0 4px 8px rgba(0,0,0,0.55), 0 2px 4px rgba(0,0,0,0.45);
+  --wn-elevation-3: 0 12px 24px rgba(0,0,0,0.65), 0 4px 8px rgba(0,0,0,0.5);
+  --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.75), 0 8px 16px rgba(0,0,0,0.55);
+}
+
+/* --- 9. Ayu Mirage --- */
+[data-theme="ayu-mirage"] {
+  --wn-bg: #1f2430;
+  --wn-bg-elevated: #2a3040;
+  --wn-bg-card: #2a3040;
+  --wn-bg-hover: #334050;
+  --wn-text: #d4d4d4;
+  --wn-text-muted: #ffcc66;
+  --wn-text-dim: #707a8c;
+  --wn-border: #3a4150;
+  --wn-border-light: #4a5160;
+  --wn-overlay: rgba(0,0,0,0.6);
+  --wn-glow: rgba(255,204,102,0.12);
+
+  --sl-color-accent: #ffcc66;
+  --sl-color-accent-low: #ffcc6625;
+  --sl-color-accent-high: #ffd98a;
+  --sl-color-bg: #1f2430;
+  --sl-color-bg-nav: #1f2430;
+  --sl-color-bg-sidebar: #1f2430;
+  --sl-color-bg-inline-code: #2a3040;
+  --sl-color-bg-hairline: #3a4150;
+  --sl-color-hairline-light: #3a4150;
+  --sl-color-hairline-shade: #2a3040;
+  --sl-color-text: #d4d4d4;
+  --sl-color-text-accent: #ffcc66;
+  --sl-color-text-invert: #1f2430;
+  --sl-color-gray-1: #d4d4d4;
+  --sl-color-gray-2: #b0b8c4;
+  --sl-color-gray-3: #ffcc66;
+  --sl-color-gray-4: #707a8c;
+  --sl-color-gray-5: #4a5160;
+  --sl-color-gray-6: #3a4150;
+  --sl-color-gray-7: #2a3040;
+  --sl-color-gray-8: #222838;
+  --sl-color-black: #1f2430;
+  --sl-color-white: #d4d4d4;
+
+  --wn-elevation-1: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+  --wn-elevation-2: 0 4px 8px rgba(0,0,0,0.55), 0 2px 4px rgba(0,0,0,0.45);
+  --wn-elevation-3: 0 12px 24px rgba(0,0,0,0.65), 0 4px 8px rgba(0,0,0,0.5);
+  --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.75), 0 8px 16px rgba(0,0,0,0.55);
+}
+
+/* --- 10. Papercolor Light --- */
+[data-theme="papercolor"] {
+  --wn-bg: #eeeeee;
+  --wn-bg-elevated: #ffffff;
+  --wn-bg-card: #ffffff;
+  --wn-bg-hover: #e8e8e8;
+  --wn-text: #444444;
+  --wn-text-muted: #666666;
+  --wn-text-dim: #a0a0a0;
+  --wn-border: #d0d0d0;
+  --wn-border-light: #e0e0e0;
+  --wn-overlay: rgba(0,0,0,0.2);
+  --wn-glow: rgba(0,95,135,0.06);
+
+  --sl-color-accent: #005f87;
+  --sl-color-accent-low: #005f8718;
+  --sl-color-accent-high: #004e70;
+  --sl-color-bg: #eeeeee;
+  --sl-color-bg-nav: #eeeeee;
+  --sl-color-bg-sidebar: #eeeeee;
+  --sl-color-bg-inline-code: #ffffff;
+  --sl-color-bg-hairline: #d0d0d0;
+  --sl-color-hairline-light: #d0d0d0;
+  --sl-color-hairline-shade: #c0c0c0;
+  --sl-color-text: #444444;
+  --sl-color-text-accent: #005f87;
+  --sl-color-text-invert: #ffffff;
+  --sl-color-gray-1: #444444;
+  --sl-color-gray-2: #555555;
+  --sl-color-gray-3: #666666;
+  --sl-color-gray-4: #a0a0a0;
+  --sl-color-gray-5: #c0c0c0;
+  --sl-color-gray-6: #d0d0d0;
+  --sl-color-gray-7: #e0e0e0;
+  --sl-color-gray-8: #e8e8e8;
+  --sl-color-black: #eeeeee;
+  --sl-color-white: #444444;
+
+  --wn-elevation-1: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --wn-elevation-2: 0 4px 8px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06);
+  --wn-elevation-3: 0 12px 24px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.08);
+  --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.14), 0 8px 16px rgba(0,0,0,0.1);
+}
+
 /* === Theme-specific Component Overrides === */
 
-/* Admonitions (Starlight aside blocks) */
+/* Admonitions (Starlight aside blocks) - all 10 themes */
 [data-theme="dark"] .starlight-aside-note,
 [data-theme="nord"] .starlight-aside-note,
-[data-theme="dracula"] .starlight-aside-note {
+[data-theme="dracula"] .starlight-aside-note,
+[data-theme="monokai"] .starlight-aside-note,
+[data-theme="ayu-mirage"] .starlight-aside-note,
+[data-theme="contrast"] .starlight-aside-note {
   --sl-color-asides-text-accent: var(--sl-color-text);
   background: var(--wn-bg-card);
   border-color: var(--sl-color-accent);
@@ -442,23 +577,27 @@
 [data-theme="light"] .starlight-aside-note,
 [data-theme="sepia"] .starlight-aside-note,
 [data-theme="solarized"] .starlight-aside-note,
-[data-theme="contrast"] .starlight-aside-note {
+[data-theme="papercolor"] .starlight-aside-note {
   --sl-color-asides-text-accent: var(--sl-color-text);
   background: var(--wn-bg-elevated);
   border-color: var(--sl-color-accent);
 }
 
-/* Code blocks - ensure readable in all themes */
+/* Code blocks - all 10 themes */
 [data-theme="dark"] .expressive-code,
 [data-theme="nord"] .expressive-code,
-[data-theme="dracula"] .expressive-code {
+[data-theme="dracula"] .expressive-code,
+[data-theme="monokai"] .expressive-code,
+[data-theme="ayu-mirage"] .expressive-code,
+[data-theme="contrast"] .expressive-code {
   --ec-bg: var(--wn-bg-elevated);
   --ec-border: var(--wn-border);
   --ec-text: var(--wn-text);
 }
 [data-theme="light"] .expressive-code,
 [data-theme="sepia"] .expressive-code,
-[data-theme="solarized"] .expressive-code {
+[data-theme="solarized"] .expressive-code,
+[data-theme="papercolor"] .expressive-code {
   --ec-bg: var(--wn-bg-elevated);
   --ec-border: var(--wn-border);
   --ec-text: var(--wn-text);
@@ -509,15 +648,33 @@
 /* KaTeX math (dark themes) */
 [data-theme="dark"] .katex,
 [data-theme="nord"] .katex,
-[data-theme="dracula"] .katex {
+[data-theme="dracula"] .katex,
+[data-theme="monokai"] .katex,
+[data-theme="ayu-mirage"] .katex {
   color: var(--wn-text);
 }
+
+/* KaTeX math (light themes) */
+[data-theme="sepia"] .katex { color: #5b4636; }
+[data-theme="light"] .katex { color: #1a1a1a; }
+[data-theme="solarized"] .katex { color: #657b83; }
+[data-theme="papercolor"] .katex { color: #444444; }
 
 /* Images in dark themes */
 [data-theme="dark"] .sl-markdown-content img:not([src*=".svg"]),
 [data-theme="nord"] .sl-markdown-content img:not([src*=".svg"]),
-[data-theme="dracula"] .sl-markdown-content img:not([src*=".svg"]) {
+[data-theme="dracula"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="monokai"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="ayu-mirage"] .sl-markdown-content img:not([src*=".svg"]) {
   filter: brightness(0.85) contrast(1.1);
+}
+
+/* Images in light themes - no dimming */
+[data-theme="light"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="sepia"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="solarized"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="papercolor"] .sl-markdown-content img:not([src*=".svg"]) {
+  filter: none;
 }
 
 [data-theme="contrast"] .sl-markdown-content a:not(.header-anchor) {
@@ -531,6 +688,26 @@
   text-decoration-color: var(--sl-color-text);
 }
 
+/* Reader.js panel backgrounds per theme */
+[data-theme="sepia"] #wn-panel { background: #fef7e8; border-color: #e8dcc8; }
+[data-theme="sepia"] #wn-panel-header { border-color: #e8dcc8; }
+[data-theme="sepia"] .wn-chip { border-color: #d8ccb8; color: #8b7355; }
+[data-theme="sepia"] .wn-chip.active { background: #c97b3a; color: white; }
+
+[data-theme="contrast"] #wn-panel { background: #000; border-color: #fff; }
+[data-theme="contrast"] .wn-chip { border-color: #fff; color: #fff; }
+[data-theme="contrast"] .wn-chip.active { background: #fff; color: #000; }
+
+[data-theme="solarized"] #wn-panel { background: #eee8d5; border-color: #93a1a1; }
+[data-theme="nord"] #wn-panel { background: #3b4252; border-color: #4c566a; }
+[data-theme="dracula"] #wn-panel { background: #44475a; border-color: #6272a4; }
+[data-theme="monokai"] #wn-panel { background: #383830; border-color: #49483e; }
+[data-theme="ayu-mirage"] #wn-panel { background: #2a3040; border-color: #3a4150; }
+[data-theme="papercolor"] #wn-panel { background: #ffffff; border-color: #d0d0d0; }
+[data-theme="papercolor"] #wn-panel-header { border-color: #d0d0d0; }
+[data-theme="papercolor"] .wn-chip { border-color: #a0a0a0; color: #666666; }
+[data-theme="papercolor"] .wn-chip.active { background: #005f87; color: white; }
+
 /* === Typography === */
 body {
   font-family: var(--wn-font-body);
@@ -538,7 +715,11 @@ body {
 }
 
 /* === KaTeX Dark Mode === */
-[data-theme="dark"] .katex {
+[data-theme="dark"] .katex,
+[data-theme="nord"] .katex,
+[data-theme="dracula"] .katex,
+[data-theme="monokai"] .katex,
+[data-theme="ayu-mirage"] .katex {
   color: var(--sl-color-white);
 }
 
@@ -549,7 +730,39 @@ body {
 [data-theme="dark"] .katex .mopen,
 [data-theme="dark"] .katex .mclose,
 [data-theme="dark"] .katex .mpunct,
-[data-theme="dark"] .katex .minner {
+[data-theme="dark"] .katex .minner,
+[data-theme="nord"] .katex .mord,
+[data-theme="nord"] .katex .mbin,
+[data-theme="nord"] .katex .mrel,
+[data-theme="nord"] .katex .mop,
+[data-theme="nord"] .katex .mopen,
+[data-theme="nord"] .katex .mclose,
+[data-theme="nord"] .katex .mpunct,
+[data-theme="nord"] .katex .minner,
+[data-theme="dracula"] .katex .mord,
+[data-theme="dracula"] .katex .mbin,
+[data-theme="dracula"] .katex .mrel,
+[data-theme="dracula"] .katex .mop,
+[data-theme="dracula"] .katex .mopen,
+[data-theme="dracula"] .katex .mclose,
+[data-theme="dracula"] .katex .mpunct,
+[data-theme="dracula"] .katex .minner,
+[data-theme="monokai"] .katex .mord,
+[data-theme="monokai"] .katex .mbin,
+[data-theme="monokai"] .katex .mrel,
+[data-theme="monokai"] .katex .mop,
+[data-theme="monokai"] .katex .mopen,
+[data-theme="monokai"] .katex .mclose,
+[data-theme="monokai"] .katex .mpunct,
+[data-theme="monokai"] .katex .minner,
+[data-theme="ayu-mirage"] .katex .mord,
+[data-theme="ayu-mirage"] .katex .mbin,
+[data-theme="ayu-mirage"] .katex .mrel,
+[data-theme="ayu-mirage"] .katex .mop,
+[data-theme="ayu-mirage"] .katex .mopen,
+[data-theme="ayu-mirage"] .katex .mclose,
+[data-theme="ayu-mirage"] .katex .mpunct,
+[data-theme="ayu-mirage"] .katex .minner {
   color: inherit;
 }
 
@@ -654,7 +867,9 @@ body {
 /* === Dark Mode Image Dimming === */
 [data-dim-images="true"][data-theme="dark"] .sl-markdown-content img:not([src*=".svg"]),
 [data-dim-images="true"][data-theme="nord"] .sl-markdown-content img:not([src*=".svg"]),
-[data-dim-images="true"][data-theme="dracula"] .sl-markdown-content img:not([src*=".svg"]) {
+[data-dim-images="true"][data-theme="dracula"] .sl-markdown-content img:not([src*=".svg"]),
+[data-dim-images="true"][data-theme="monokai"] .sl-markdown-content img:not([src*=".svg"]),
+[data-dim-images="true"][data-theme="ayu-mirage"] .sl-markdown-content img:not([src*=".svg"]) {
   filter: brightness(0.85) contrast(1.1);
 }
 
@@ -1040,16 +1255,23 @@ body.wn-focus-mode .sl-container {
   }
 }
 
-/* === 7. Table of Contents Improvements === */
-.right-sidebar-container {
-  padding-inline-end: 0 !important;
-}
+/* === 7. Table of Contents Improvements — move closer to right edge === */
 
+/* Remove right padding from the grid column containing the TOC */
 .right-sidebar-container {
-  padding-inline-end: 0 !important;
+  padding-inline: 0 !important;
+  margin-inline: 0 !important;
 }
 
 .right-sidebar-container .toc-container {
+  padding-inline: 0 !important;
+  /* Shrink to fit so it hugs the right edge of its column */
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+}
+
+.right-sidebar-container .toc-container > nav {
   padding-inline-end: 0 !important;
 }
 

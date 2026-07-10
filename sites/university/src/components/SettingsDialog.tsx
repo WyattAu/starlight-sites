@@ -151,6 +151,24 @@ export default function SettingsDialog(props: SettingsDialogProps) {
               <RadioGroup.Item value="sepia" class={RADIO_ITEM_CLASS}>
                 <RadioGroup.ItemLabel>{t('settings.sepia')}</RadioGroup.ItemLabel>
               </RadioGroup.Item>
+              <RadioGroup.Item value="nord" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>Nord</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="dracula" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>Dracula</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="monokai" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>Monokai</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="ayu-mirage" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>Ayu Mirage</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="solarized" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>Solarized</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="papercolor" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>Papercolor</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
               <RadioGroup.Item value="contrast" class={RADIO_ITEM_CLASS}>
                 <RadioGroup.ItemLabel>{t('settings.high_contrast')}</RadioGroup.ItemLabel>
               </RadioGroup.Item>

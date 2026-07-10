@@ -55,7 +55,7 @@ const articleSchema = {
   (function() {
     try {
       const saved = localStorage.getItem('wn-theme');
-      if (saved && ['dark','light','sepia','contrast'].includes(saved)) {
+      if (saved && ['dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'].includes(saved)) {
         document.documentElement.setAttribute('data-theme', saved);
       }
       const fs = localStorage.getItem('wn-font-size');

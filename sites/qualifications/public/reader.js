@@ -37,6 +37,12 @@
     { value: 'dark', label: 'Dark', icon: '#moon' },
     { value: 'light', label: 'Light', icon: '#sun' },
     { value: 'sepia', label: 'Sepia', icon: '#book' },
+    { value: 'nord', label: 'Nord', icon: '#moon' },
+    { value: 'dracula', label: 'Dracula', icon: '#moon' },
+    { value: 'monokai', label: 'Monokai', icon: '#moon' },
+    { value: 'ayu-mirage', label: 'Ayu Mirage', icon: '#moon' },
+    { value: 'solarized', label: 'Solarized', icon: '#sun' },
+    { value: 'papercolor', label: 'Papercolor', icon: '#sun' },
     { value: 'contrast', label: 'Contrast', icon: '#a11y' },
   ]
 
@@ -242,8 +248,8 @@
 
   var STYLES = [
     '#wn-reader * { box-sizing: border-box }',
-    '#wn-reader { position: fixed; z-index: 99999; font-family: "Inter", system-ui, sans-serif; pointer-events: none }',
-    '#wn-reader button, #wn-reader input { pointer-events: auto }',
+    '#wn-reader { position: fixed; z-index: 99999; font-family: "Inter", system-ui, sans-serif; }',
+    '#wn-reader button, #wn-reader input, #wn-reader select, #wn-reader textarea { pointer-events: auto }',
 
     /* Floating button */
     '#wn-fab { position: fixed; bottom: 24px; right: 24px; width: 48px; height: 48px; border-radius: 14px; border: none; background: var(--sl-color-accent, #ff6b35); color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.3), 0 0 0 0px rgba(255,107,53,0); transition: transform 0.22s cubic-bezier(0.22,1,0.36,1), box-shadow 0.22s cubic-bezier(0.22,1,0.36,1); z-index: 99999; }',
@@ -254,7 +260,8 @@
     '[data-reduce-motion="true"] #wn-fab, [data-reduce-motion="true"] #wn-fab:hover { transition: none; transform: none; }',
 
     /* Overlay */
-    '#wn-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); opacity: 0; visibility: hidden; transition: opacity 0.25s ease, visibility 0.25s ease; z-index: 99998; }',
+    '#wn-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); opacity: 0; visibility: hidden; transition: opacity 0.25s ease, visibility 0.25s ease; z-index: 99998; pointer-events: none; }',
+    '#wn-overlay.open { pointer-events: auto; }',
     '#wn-overlay.open { opacity: 1; visibility: visible; }',
 
     /* Panel */
@@ -304,6 +311,9 @@
 
     /* Reading progress */
     '#wn-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--sl-color-accent, #ff6b35), var(--sl-color-accent-high, #ff8c4a)); z-index: 99995; width: 0; transition: width 0.3s linear; pointer-events: none; }',
+
+    /* Panel — ensure it captures scroll events */
+    '#wn-panel, #wn-panel-body { pointer-events: auto; }',
     '[data-reduce-motion="true"] #wn-progress { transition: none; }',
 
     /* Theme-specific tweaks */
