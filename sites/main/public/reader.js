@@ -432,6 +432,25 @@
     })
   }
 
+  // ─── Table Wrapping ───────────────────────────────────────────────────────
+  // Wrap bare <table> elements in a scrollable container so overflow-x:auto
+  // works (overflow doesn't apply to display:table elements directly).
+  function wrapTables() {
+    var tables = document.querySelectorAll('.sl-markdown-content > table, article table, .content table')
+    tables.forEach(function (tbl) {
+      if (tbl.parentNode.classList && tbl.parentNode.classList.contains('wn-table-wrapper')) return
+      var wrapper = document.createElement('div')
+      wrapper.className = 'wn-table-wrapper'
+      wrapper.style.overflowX = 'auto'
+      wrapper.style.maxWidth = '100%'
+      wrapper.style.margin = '1.5rem 0'
+      tbl.parentNode.insertBefore(wrapper, tbl)
+      wrapper.appendChild(tbl)
+    })
+  }
+  if (document.readyState === 'complete') wrapTables()
+  else document.addEventListener('DOMContentLoaded', wrapTables)
+
   // ─── State & Actions ──────────────────────────────────────────────────────
 
   function togglePanel() {

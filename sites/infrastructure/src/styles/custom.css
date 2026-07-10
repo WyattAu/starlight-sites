@@ -379,10 +379,12 @@ body {
 
 /* === Table Styling === */
 .sl-markdown-content .table-wrapper,
+.sl-markdown-content .wn-table-wrapper,
 .sl-markdown-content div:has(> table) {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 1.5rem 0;
+  max-width: 100%;
 }
 
 .sl-markdown-content table {
@@ -441,7 +443,7 @@ body {
 }
 
 .sl-container {
-  max-width: var(--wn-content-width);
+  max-width: var(--wn-content-width, 48rem) !important;
 }
 
 [data-justify="true"] .sl-markdown-content {
@@ -689,10 +691,7 @@ body.wn-focus-mode .sl-container {
   }
 }
 
-/* === 1. Content Width for Optimal Reading (65-75 cpl) === */
-.sl-container {
-  max-width: 48rem;
-}
+/* === 1. Content Width — now handled via --wn-content-width user setting === */
 
 /* === 2. Better Heading Spacing (Vertical Rhythm) === */
 .sl-markdown-content h1,
@@ -806,6 +805,18 @@ body.wn-focus-mode .sl-container {
 }
 
 /* === 7. Table of Contents Improvements === */
+.right-sidebar-container {
+  padding-inline-end: 0 !important;
+}
+
+.right-sidebar-container {
+  padding-inline-end: 0 !important;
+}
+
+.right-sidebar-container .toc-container {
+  padding-inline-end: 0 !important;
+}
+
 .right-sidebar-container .toc-item {
   padding-block: 0.2rem;
 }
@@ -829,7 +840,7 @@ body.wn-focus-mode .sl-container {
 /* === 8. Responsive Improvements === */
 @media (min-width: 90rem) {
   .sl-container {
-    max-width: 52rem;
+    max-width: var(--wn-content-width, 52rem) !important;
   }
 }
 
