@@ -10,34 +10,29 @@ function initCrossSiteSearch() {
     return
   }
 
-  // Find the top navigation header (NOT the sidebar nav).
-  // Starlight 0.40 uses <header> for the top bar, <nav> for the sidebar.
-  const topBar =
+  // Check if search already exists
+  if (document.getElementById('cross-site-search')) return
+
+  // Find the top navigation bar container.
+  // Strategy: look for Starlight's header -> site-title wrapper -> insert after it
+  var topBar =
     document.querySelector('header.header') ||
     document.querySelector('.header') ||
     document.querySelector('header')
   if (!topBar) return
 
-  // Find the right-group container within the header to inject search next to the theme toggle
-  const rightGroup = topBar.querySelector('.right-group') || topBar.querySelector('.sl-flex:last-child')
+  // Inside the header, find the title wrapper or the first flex row
+  var titleWrapper = topBar.querySelector('.title-wrapper') || topBar.querySelector('.sl-flex')
+  if (!titleWrapper) return
 
-  // Create our search container
-  const searchContainer = document.createElement('div')
-  searchContainer.style.marginLeft = 'auto'
-  searchContainer.style.display = 'flex'
-  searchContainer.style.alignItems = 'center'
-  searchContainer.style.padding = '0 0.5rem'
+  // Create our search container and insert AFTER the title wrapper
+  // (before the right-group area with theme toggle)
+  var searchContainer = document.createElement('div')
+  searchContainer.id = 'cross-site-search-container'
+  searchContainer.style.cssText = 'display:flex;align-items:center;margin-left:auto;padding:0 0.5rem;flex:1;justify-content:flex-end;gap:0.5rem;'
 
-  if (rightGroup) {
-    // Insert search before the right group (theme toggle area)
-    rightGroup.parentNode.insertBefore(searchContainer, rightGroup)
-  } else {
-    // Fallback: append to header
-    topBar.appendChild(searchContainer)
-  }
-
-  // Check if search already exists
-  if (document.getElementById('cross-site-search')) return
+  // Insert after titleWrapper
+  titleWrapper.parentNode.insertBefore(searchContainer, titleWrapper.nextSibling)
 
   // Create search component
   const wrapper = document.createElement('div')
