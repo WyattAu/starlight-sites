@@ -25,14 +25,18 @@ function initCrossSiteSearch() {
   var titleWrapper = topBar.querySelector('.title-wrapper') || topBar.querySelector('.sl-flex')
   if (!titleWrapper) return
 
-  // Create our search container and insert AFTER the title wrapper
-  // (before the right-group area with theme toggle)
+  // Create our search container positioned at the right side of the header
   var searchContainer = document.createElement('div')
   searchContainer.id = 'cross-site-search-container'
-  searchContainer.style.cssText = 'display:flex;align-items:center;margin-left:auto;padding:0 0.5rem;flex:1;justify-content:flex-end;gap:0.5rem;'
+  searchContainer.style.cssText = 'position:absolute;right:0.5rem;top:0;height:100%;display:flex;align-items:center;z-index:10;'
 
-  // Insert after titleWrapper
-  titleWrapper.parentNode.insertBefore(searchContainer, titleWrapper.nextSibling)
+  // Make the header position:relative so absolute positioning works
+  if (topBar.style.position !== 'relative' && window.getComputedStyle(topBar).position === 'static') {
+    topBar.style.position = 'relative'
+  }
+
+  // Append to header (absolute positioning keeps it in the right place)
+  topBar.appendChild(searchContainer)
 
   // Create search component
   const wrapper = document.createElement('div')
@@ -41,21 +45,22 @@ function initCrossSiteSearch() {
     <style>
       #cross-site-search {
         position: relative;
-        margin-left: auto;
       }
       #cross-site-search input {
-        width: 200px;
-        padding: 0.5rem 0.75rem 0.5rem 2rem;
-        font-size: 0.85rem;
+        width: 180px;
+        padding: 0.25rem 0.5rem 0.25rem 1.75rem;
+        font-size: 0.8rem;
+        height: 28px;
         background: var(--color-gray-900, #1e293b);
         border: 1px solid var(--color-gray-700, #334155);
-        border-radius: 8px;
+        border-radius: 6px;
         color: var(--color-gray-100, #e2e8f0);
         outline: none;
         transition: width 0.2s, border-color 0.2s;
+        box-sizing: border-box;
       }
       #cross-site-search input:focus {
-        width: 300px;
+        width: 240px;
         border-color: var(--color-orange-500, #ff6b35);
       }
       #cross-site-search .search-icon {
