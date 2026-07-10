@@ -1266,18 +1266,26 @@ body.wn-focus-mode .sl-container {
 
 /* === 7. Table of Contents Improvements — move closer to right edge === */
 
-/* Remove right padding from the grid column containing the TOC */
+/* Starlight calculates right-sidebar width as: --sl-sidebar-width + (100% - content - sidebar) / 2
+   This makes it wider than the TOC needs. Override to shrink-wrap the content. */
 .right-sidebar-container {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: calc(var(--sl-sidebar-width, 18.75rem) + 2rem) !important;
   padding-inline: 0 !important;
   margin-inline: 0 !important;
+  flex-shrink: 1 !important;
+}
+
+/* The inner fixed-position panel takes 100% of its container */
+.right-sidebar-container .right-sidebar {
+  width: 100% !important;
+  border-inline-start: 1px solid var(--sl-color-hairline);
+  padding-inline: 0 0.5rem !important;
 }
 
 .right-sidebar-container .toc-container {
-  padding-inline: 0 !important;
-  /* Shrink to fit so it hugs the right edge of its column */
-  width: auto !important;
-  min-width: 0 !important;
-  max-width: none !important;
+  padding: 0 !important;
 }
 
 .right-sidebar-container .toc-container > nav {
