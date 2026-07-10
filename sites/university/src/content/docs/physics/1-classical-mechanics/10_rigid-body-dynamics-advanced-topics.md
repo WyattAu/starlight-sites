@@ -126,6 +126,15 @@ avoid gimbal lock entirely.
    is rapid and small-amplitude, but it is always present unless the initial conditions are
    precisely tuned to regular precession.
 
+5. **Assuming $I_1 = I_2$ (symmetric top) applies generally.** The symmetric-top simplification
+   $\dot{\phi} = I_3\omega_3/(I_1\omega_1)$ only holds when the two transverse moments of inertia
+   are equal. For an asymmetric top ($I_1 \neq I_2$), the motion is far more complex and may
+   exhibit chaotic tumbling.
+
+6. **Confusing precession with rotation.** Precession is the slow rotation of the angular momentum
+   vector $\mathbf{L}$ about the vertical; the top itself spins rapidly about its symmetry axis.
+   These are distinct motions with very different timescales.
+
 The effective potential for the $\theta$ motion:
 
 $$V_{\text{eff}(\theta) = \frac{(p_\phi - p_\psi\cos\theta)^2}{2I_1\sin^2\theta} + \frac{p_\psi^2}{2I_3} + Mgd\cos\theta}$$
@@ -156,4 +165,30 @@ a factor of 10 to 16.3 rad/s. At some critical spin rate, the gyroscope can no l
 steady precession and topples.
 
 </details>
+
+### Applications
+
+- **Inertial navigation.** Gyroscopes maintain a fixed orientation in space, providing angular rate
+  measurements for aircraft and spacecraft. Ring laser gyroscopes measure rotation via the Sagnac
+  effect with accuracy $\sim 0.001°$/hr.
+- **Satellite attitude control.** Reaction wheels (spinning flywheels) exchange angular momentum
+  with the spacecraft body to reorient without thrusters.
+- **Balance in animals.** The inner ear contains fluid-filled semicircular canals that act as
+  biological gyroscopes, detecting head rotation for balance. Damage to these canals causes
+  vertigo and loss of spatial orientation.
+- **Tennis racket theorem (Dzhanibekov effect).** A rigid body rotating about its intermediate
+  axis spontaneously flips 180° periodically, visible in microgravity. This confirms the
+  instability of intermediate-axis rotation predicted by Euler's equations.
+
+### Key Relationships Summary
+
+| Quantity | Expression | Notes |
+|---|---|---|
+| Euler's equations | $I_1\dot{\omega}_1 = (I_2 - I_3)\omega_2\omega_3$ | Body frame, no external torque |
+| Tilted top precession | $\dot{\phi} = I_3\omega_3/(I_1\omega_1)$ | Angle between $\mathbf{L}$ and symmetry axis |
+| Fast-top precession | $\dot{\phi} \approx Mgd/(I_3\omega_3)$ | Independent of $\theta$ to leading order |
+| Nutation frequency | $\dot{\theta}$ oscillates in $V_{\text{eff}}$ | Looping/cusped/smooth types |
+
+These relationships apply to free rigid bodies (no external torque) and tops (constant gravity). For
+coupled or driven systems, numerical integration of the full Euler equations is typically required.
 

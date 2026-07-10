@@ -152,6 +152,15 @@ contains chaotic regions. This explains the stability of the solar system over b
 4. **Applying perturbation theory to non-integrable systems.** The KAM theorem requires the
    unperturbed system to be integrable. For chaotic systems, perturbation theory fails.
 
+5. **Using Lagrangian canonical momentum as mechanical momentum.** The canonical momentum
+   $p = \partial L/\partial \dot{q}$ equals $m\dot{q}$ only for simple kinetic energies. In
+   electromagnetic fields, $p = m\dot{q} + qA$; the canonical and mechanical momenta differ.
+
+6. **Misidentifying conserved quantities.** A quantity is conserved if and only if it corresponds
+   to a symmetry via Noether's theorem: time translation $\to$ energy, spatial translation $\to$
+   momentum, rotation $\to$ angular momentum. Assuming conservation without a corresponding symmetry
+   is incorrect.
+
 <details>
 <summary>Worked Example 10.1: Action-Angle Variables for the Harmonic Oscillator</summary>
 
@@ -177,6 +186,10 @@ $\theta(t) = \omega t + \theta_0$.
 
 The frequency is $\omega = \partial H/\partial J = \text{const}$Independent of $J$ (harmonic
 oscillator has no frequency shift with amplitude --- a special property).
+
+This result shows why the harmonic oscillator is exactly solvable in action-angle variables: the
+Hamiltonian depends linearly on $J$, giving constant frequency. For anharmonic oscillators, $H(J)$
+is non-linear and the frequency depends on amplitude.
 
 </details>
 

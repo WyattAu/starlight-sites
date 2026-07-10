@@ -128,6 +128,17 @@ $\blacksquare$
   Semiconductors: small band gap ($\sim 1 \mathrm{ eV}$). Insulators: large band gap
   ($> 4 \mathrm{ eV}$). **Fix:** Band gap determines electrical properties; temperature can excite
   carriers across semiconductor gaps.
+- **Forgetting spin degeneracy in the 2DEG.** Each Landau level holds $eB/h$ states per unit area
+  per spin. With spin degeneracy, each level holds $2eB/h$. The filling factor $\nu = n_{2D}h/(eB)$
+  counts filled spin-resolved levels.
+- **Misidentifying the quantum Hall regime.** The IQHE requires: (1) high magnetic field so that
+  $\hbar\omega_c \gg k_BT$ (Landau levels are resolved), (2) high mobility so that the scattering
+  time $\tau$ satisfies $\omega_c\tau \gg 1$ (cyclotron orbits complete before scattering), and
+  (3) low temperature to suppress thermal broadening.
+- **Confusing thermopower with thermal conductivity.** The Seebeck coefficient $S$ measures the
+  voltage generated per unit temperature difference; thermal conductivity $\kappa$ measures heat
+  flow. They appear together in the figure of merit $ZT = S^2\sigma T/\kappa$ but are independent
+  transport properties.
 
 ## Summary
 
@@ -135,6 +146,24 @@ $\blacksquare$
 - Bragg"s law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
 - Band theory: metals (partially filled bands), semiconductors (small gap), insulators (large gap).
 - Effective mass: $m^* = \hbar^2/(d^2E/dk^2)$; describes carrier response to external fields.
+- IQHE: Hall resistance quantised as $R_{xy} = h/(ne^2)$; filling factor $\nu = n_{2D}h/(eB)$.
+- Thermoelectrics: figure of merit $ZT = S^2\sigma T/\kappa$; best materials achieve $ZT > 2$.
+
+These topics form the foundation of modern semiconductor device physics and are essential for
+understanding electronic, photonic, and energy-harvesting technologies.
+
+## Applications
+
+| Application | Principle | Key Material |
+|---|---|---|
+| Solar cells | Photons with $E > E_g$ create electron-hole pairs | Si ($E_g = 1.1$ eV), GaAs ($1.4$ eV) |
+| LEDs | Electron-hole recombination emits photons | GaN (blue), InGaAsP (telecom IR) |
+| Transistors | Gate voltage controls channel conductivity | Si MOSFET, GaAs HEMT |
+| Hall effect sensors | $V_H = IB/(nqd)$ measures magnetic field | InSb (high mobility) |
+| Thermoelectric coolers | Peltier effect from $n$- and $p$-type junctions | Bi$_2$Te$_3$ ($ZT \approx 1$) |
+| Quantum Hall resistance standard | $R_K = h/e^2 = 25812.807\,\Omega$ | GaAs 2DEG at $T < 4$ K |
+
+The IQHE is used to define the ohm internationally; $R_K$ is exact by definition since 2019.
 
 ## Cross-References
 
@@ -143,5 +172,9 @@ $\blacksquare$
 | Solid State Physics (Overview)  | WyattsNotes | [View](/docs/university/physics/solid-state-physics)                                       |
 | Quantum Mechanics               | WyattsNotes | [View](/docs/university/physics/quantum-mechanics)                                         |
 | Thermal Physics                 | WyattsNotes | [View](/docs/university/physics/thermal-physics)                                           |
+
+These topics are closely related: quantum mechanics provides the foundation for band theory,
+thermal physics governs carrier statistics and thermoelectric performance, and solid state physics
+provides the crystal structure context.
 | Solid State Physics — MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
 

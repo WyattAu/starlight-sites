@@ -172,3 +172,28 @@ ps$^{-1}$Because $|V_{ts}| > |V_{td}|$.
 
 </details>
 
+### Common Pitfalls
+
+- **Confusing mixing with CP violation.** Mixing ($B^0 \leftrightarrow \bar{B}^0$) occurs even
+  without CP violation. CP violation requires that the mixing amplitude has a different phase
+  than the decay amplitude. Measuring mixing frequency $\Delta m$ is separate from measuring CP
+  asymmetry $A_{CP}$.
+- **Assuming the CKM matrix is diagonal.** A diagonal CKM would mean no flavour-changing transitions
+  and no CP violation. The off-diagonal elements are small ($|V_{ub}| \sim 0.004$) but
+  experimentally crucial.
+- **Confusing $\Delta m$ with $\Delta\Gamma$.** The mass difference $\Delta m$ governs oscillation
+  frequency; the decay width difference $\Delta\Gamma$ governs the amplitude of the oscillation.
+  Both are measured in $B$ mixing but encode different physics.
+- **Forgetting the Wolfenstein parameterisation.** The CKM matrix is often written in the
+  Wolfenstein expansion: $V_{ud} \approx 1 - \lambda^2/2$, $V_{us} \approx \lambda$, etc., where
+  $\lambda = |V_{us}| \approx 0.225$. This is an approximation valid to $O(\lambda^3)$.
+
+### Applications
+
+| Application | Principle | Experiment |
+|---|---|---|
+| CP violation measurement | Compare $B^0 \to f$ vs $\bar{B}^0 \to \bar{f}$ rates | LHCb, Belle II |
+| CKM unitarity test | Measure all triangle angles independently | B factories, LHCb |
+| $V_{cb}$ and $V_{ub}$ determination | Semileptonic $B$ decays | Belle II, LHCb |
+| Oscillation frequency search | High-$p_T$ $b$-jets produce $B$ mesons that oscillate | LHCb, CMS |
+

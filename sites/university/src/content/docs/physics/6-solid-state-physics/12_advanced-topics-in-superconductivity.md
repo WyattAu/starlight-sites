@@ -89,12 +89,50 @@ $$I = I_c \sin\delta$$
 Where $I_c$ is the critical current.
 
 **AC Josephson effect.** Applying a voltage $V$ across the junction causes the phase to evolve as
-$\dot{\delta} = 2eV/\hbar$Giving:
+$\dot{\delta} = 2eV/\hbar$. Giving:
 
 $$I = I_c\sin\!\left(\delta_0 + \frac{2eV}{\hbar}t\right)$$
 
 The oscillation frequency $\nu = 2eV/h$ provides the basis for the Josephson voltage standard:
 $V = n(h/2e)\nu$.
+
+### 12.5 Common Pitfalls
+
+- **Confusing $\xi$ and $\lambda$.** The coherence length $\xi$ governs how fast the order parameter
+  $\psi$ varies in space; the penetration depth $\lambda$ governs how fast the magnetic field decays.
+  They are independent length scales that happen to appear in the same theory.
+- **Type I vs Type II threshold.** The criterion $\kappa = 1/\sqrt{2}$ is exact within GL theory. Do
+  not confuse this with $\kappa = 1$ or other round numbers. The $1/\sqrt{2}$ factor arises from
+  comparing the surface energies of normal-superconducting boundaries.
+- **Flux quantum uses $2e$, not $e$.** Each vortex carries $\Phi_0 = h/(2e)$ because the
+  superconducting condensate consists of Cooper pairs with charge $2e$. A common error is to use
+  $h/e$ (the normal-state flux quantum for single electrons).
+- **GL theory is valid only near $T_c$.** The phenomenological expansion in $|\psi|$ assumes
+  $|\psi|$ is small, which holds when $T$ is close to $T_c$. Far below $T_c$, microscopic BCS
+  theory is required.
+- **AC Josephson frequency is exact.** The relation $\nu = 2eV/h$ does not depend on junction
+  geometry or material properties. It is a fundamental quantum relation used to define the volt.
+
+### 12.6 Connection to BCS Theory
+
+The GL theory is phenomenological — it does not explain *why* superconductivity occurs. The
+microscopic BCS theory (Bardeen, Cooper, Schrieffer, 1957) provides this explanation:
+
+- **Cooper pairs.** An attractive interaction mediated by phonons (lattice vibrations) allows
+  electrons with opposite momenta and spins to form bound pairs. The binding energy is the
+  superconducting gap $\Delta(T)$, which vanishes at $T_c$.
+- **Gap equation.** At $T = 0$, the gap relates to $T_c$ via $2\Delta(0) = 3.53\, k_B T_c$
+  (weak-coupling limit). This ratio is approximately universal for conventional superconductors.
+- **Coherence length from BCS.** The BCS coherence length $\xi_0 = \hbar v_F / (\pi \Delta_0)$
+  where $v_F$ is the Fermi velocity. Typical values: $\xi_0 \sim 10$--$1000$ nm for conventional
+  superconductors.
+- **Penetration depth from BCS.** $\lambda_0 = \sqrt{m^*/(\mu_0 n_s e^{*2})}$ where $n_s$ is the
+  superfluid density (all conduction electrons below $T_c$).
+
+The GL parameters $\alpha$ and $\beta$ can be expressed in terms of BCS quantities near $T_c$:
+$\alpha = -1/(N(0)\xi_0^2)$ and $\beta = 1/(N(0)\Delta_0^2)$, where $N(0)$ is the density of
+states at the Fermi level. This connection shows that GL theory is the correct Ginzburg--Landau
+limit of BCS theory when $T \to T_c$.
 
 <details>
 <summary>Worked Example 12.1: Type I vs Type II Classification</summary>
@@ -105,7 +143,7 @@ $\kappa = \lambda/\xi = 1.0 > 1/\sqrt{2} \approx 0.71$. Therefore Nb is Type II.
 $$B_{c2} = \frac{\Phi_0}{2\pi\xi^2} = \frac{2.07 \times 10^{-15}}{2\pi \times (39 \times 10^{-9})^2} = \frac{2.07 \times 10^{-15}}{9.55 \times 10^{-15}} \approx 0.217\ \mathrm{T}$$
 
 The experimental $B_{c2}(0) \approx 0.4$ T. The discrepancy arises because the GL expressions use
-$\xi$ and $\lambda$ at $T_c$While the actual values differ at $T = 0$.
+$\xi$ and $\lambda$ at $T_c$, while the actual values differ at $T = 0$.
 
 For aluminium: $\xi_0 = 1600$ nm, $\lambda_0 = 16$ nm, $\kappa = 0.01 \ll 1/\sqrt{2}$. Al is
 strongly Type I.
@@ -123,4 +161,31 @@ The convenient relation is $\nu/\text{GHz} = 483.6 \times V/\mu\text{V}$. This p
 frequency-voltage relation is used to maintain the volt standard worldwide.
 
 </details>
+
+### 12.6 Applications
+
+| Application | Principle | Key Parameters |
+|---|---|---|
+| MRI magnets | Persistent supercurrents in Type II Nb-Ti coils | $B \approx 1.5$--$7$ T; $\lambda \approx 90$ nm |
+| SQUID magnetometers | Flux quantisation in a superconducting loop with Josephson junctions | Sensitivity $\sim 10^{-15}$ T |
+| Josephson voltage standard | AC Josephson effect: $\nu = 2eV/h$ | Accuracy $\sim 10^{-10}$ |
+| Particle accelerator dipoles | Type II Nb$_3$Sn for high-field confinement | $B \approx 8$--$16$ T |
+| Quantum computing (transmons) | Josephson junction as non-linear inductor | $E_J/E_C \sim 50$--$100$ |
+
+The GL theory underpins the design of all these devices. For MRI and accelerator magnets, the
+critical current density $J_c$ (determined by vortex pinning) is the key engineering parameter.
+
+### 12.7 Key Relationships Summary
+
+| Quantity | Expression | Notes |
+|---|---|---|
+| Coherence length | $\xi(T) = \xi_0/\sqrt{1 - T/T_c}$ | Diverges at $T_c$ |
+| Penetration depth | $\lambda(T) = \lambda_0/\sqrt{1 - T/T_c}$ | Diverges at $T_c$ |
+| GL parameter | $\kappa = \lambda/\xi$ | $< 1/\sqrt{2}$: Type I; $> 1/\sqrt{2}$: Type II |
+| Flux quantum | $\Phi_0 = h/(2e) = 2.07 \times 10^{-15}$ Wb | Cooper pair charge $2e$ |
+| Upper critical field | $B_{c2} = \Phi_0/(2\pi\xi^2)$ | GL result |
+| Lower critical field | $B_{c1} = (\Phi_0/4\pi\lambda^2)\ln\kappa$ | GL result |
+| DC Josephson | $I = I_c \sin\delta$ | Phase-dependent supercurrent |
+| AC Josephson | $\nu = 2eV/h$ | Frequency-voltage relation |
+
 
