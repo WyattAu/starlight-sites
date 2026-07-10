@@ -26,6 +26,11 @@
     JUSTIFY: 'wn-justify',
     REDUCE_MOTION: 'wn-reduce-motion',
     FOCUS_MODE: 'wn-focus-mode',
+    FONT_WEIGHT: 'wn-font-weight',
+    LETTER_SPACING: 'wn-letter-spacing',
+    PARA_GAP: 'wn-para-gap',
+    DIM_IMAGES: 'wn-dim-images',
+    AUTO_HIDE: 'wn-auto-hide',
   }
 
   const THEMES = [
@@ -50,6 +55,8 @@
     { value: '100%', label: 'Full' },
   ]
 
+  const PARA_GAPS = ['0.5', '1', '1.5', '2']
+
   const STORAGE_DEFAULTS = {
     [LS_KEYS.THEME]: 'dark',
     [LS_KEYS.FONT_SIZE]: '1',
@@ -59,6 +66,11 @@
     [LS_KEYS.JUSTIFY]: 'false',
     [LS_KEYS.REDUCE_MOTION]: 'false',
     [LS_KEYS.FOCUS_MODE]: 'false',
+    [LS_KEYS.FONT_WEIGHT]: '400',
+    [LS_KEYS.LETTER_SPACING]: '0',
+    [LS_KEYS.PARA_GAP]: '1',
+    [LS_KEYS.DIM_IMAGES]: 'true',
+    [LS_KEYS.AUTO_HIDE]: 'false',
   }
 
   // ─── Helpers ──────────────────────────────────────────────────────────────
@@ -104,6 +116,47 @@
     }
   }
 
+  function applyFontWeight(value) {
+    document.documentElement.style.setProperty('--wn-font-weight', value)
+  }
+
+  function applyLetterSpacing(value) {
+    document.documentElement.style.setProperty('--wn-letter-spacing', value + 'px')
+  }
+
+  function applyParaGap(value) {
+    document.documentElement.style.setProperty('--wn-para-gap', value)
+  }
+
+  function applyDimImages(value) {
+    document.documentElement.setAttribute('data-dim-images', value)
+  }
+
+  var lastAutoHideScrollY = 0
+
+  function onAutoHideScroll() {
+    var currentY = window.scrollY
+    if (currentY > lastAutoHideScrollY && currentY > 80) {
+      document.body.classList.add('wn-nav-hidden')
+    } else if (currentY < lastAutoHideScrollY) {
+      document.body.classList.remove('wn-nav-hidden')
+    }
+    if (currentY <= 80) {
+      document.body.classList.remove('wn-nav-hidden')
+    }
+    lastAutoHideScrollY = currentY
+  }
+
+  function applyAutoHide(value) {
+    window.removeEventListener('scroll', onAutoHideScroll)
+    if (value === 'true') {
+      lastAutoHideScrollY = window.scrollY
+      window.addEventListener('scroll', onAutoHideScroll, { passive: true })
+    } else {
+      document.body.classList.remove('wn-nav-hidden')
+    }
+  }
+
   function applyAllSettings() {
     applyTheme(lsGet(LS_KEYS.THEME))
     applyFontSize(lsGet(LS_KEYS.FONT_SIZE))
@@ -113,6 +166,11 @@
     applyJustify(lsGet(LS_KEYS.JUSTIFY))
     applyReduceMotion(lsGet(LS_KEYS.REDUCE_MOTION))
     applyFocusMode(lsGet(LS_KEYS.FOCUS_MODE))
+    applyFontWeight(lsGet(LS_KEYS.FONT_WEIGHT))
+    applyLetterSpacing(lsGet(LS_KEYS.LETTER_SPACING))
+    applyParaGap(lsGet(LS_KEYS.PARA_GAP))
+    applyDimImages(lsGet(LS_KEYS.DIM_IMAGES))
+    applyAutoHide(lsGet(LS_KEYS.AUTO_HIDE))
   }
 
   // ─── SVG Icons ────────────────────────────────────────────────────────────
@@ -388,6 +446,75 @@
   toggleGroup.appendChild(toggleRow)
   body.appendChild(toggleGroup)
 
+  // Font Weight
+  var fwGroup = el('div', { class: 'wn-setting' })
+  fwGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Font Weight')))
+  var fwRow = el('div', { class: 'wn-slider-row' })
+  var fwInput = el('input', {
+    type: 'range', class: 'wn-slider', min: '300', max: '900', step: '100',
+    'aria-label': 'Font weight',
+    oninput: function () { setFontWeight(this.value) }
+  })
+  var fwVal = el('span', { class: 'wn-slider-value' })
+  fwRow.appendChild(fwInput)
+  fwRow.appendChild(fwVal)
+  fwGroup.appendChild(fwRow)
+  body.appendChild(fwGroup)
+
+  // Letter Spacing
+  var lsGroup = el('div', { class: 'wn-setting' })
+  lsGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Letter Spacing')))
+  var lsRow = el('div', { class: 'wn-slider-row' })
+  var lsInput = el('input', {
+    type: 'range', class: 'wn-slider', min: '-0.5', max: '2', step: '0.25',
+    'aria-label': 'Letter spacing',
+    oninput: function () { setLetterSpacing(this.value) }
+  })
+  var lsVal = el('span', { class: 'wn-slider-value' })
+  lsRow.appendChild(lsInput)
+  lsRow.appendChild(lsVal)
+  lsGroup.appendChild(lsRow)
+  body.appendChild(lsGroup)
+
+  // Paragraph Gap
+  var pgGroup = el('div', { class: 'wn-setting' })
+  pgGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Paragraph Gap')))
+  var pgRow = el('div', { class: 'wn-setting-row' })
+  PARA_GAPS.forEach(function (v) {
+    var btn = el('button', {
+      class: 'wn-chip',
+      dataset: { value: v },
+      onclick: function () { setParaGap(v) }
+    })
+    btn.appendChild(text(v + 'x'))
+    pgRow.appendChild(btn)
+  })
+  pgGroup.appendChild(pgRow)
+  body.appendChild(pgGroup)
+
+  // Dim Images + Auto-hide Nav row
+  var extraToggleGroup = el('div', { class: 'wn-setting' })
+  var extraToggleRow = el('div', { class: 'wn-setting-row', style: { gap: '8px' } })
+
+  var dimBtn = el('button', {
+    id: 'wn-dim-btn',
+    class: 'wn-chip',
+    onclick: toggleDimImages
+  })
+  dimBtn.appendChild(text('Dim Images'))
+  extraToggleRow.appendChild(dimBtn)
+
+  var autoBtn = el('button', {
+    id: 'wn-auto-btn',
+    class: 'wn-chip',
+    onclick: toggleAutoHide
+  })
+  autoBtn.appendChild(text('Auto-hide Nav'))
+  extraToggleRow.appendChild(autoBtn)
+
+  extraToggleGroup.appendChild(extraToggleRow)
+  body.appendChild(extraToggleGroup)
+
   // Divider
   body.appendChild(el('div', { class: 'wn-divider' }))
 
@@ -527,6 +654,40 @@
     updateUI()
   }
 
+  function setFontWeight(value) {
+    lsSet(LS_KEYS.FONT_WEIGHT, value)
+    applyFontWeight(value)
+    updateUI()
+  }
+
+  function setLetterSpacing(value) {
+    lsSet(LS_KEYS.LETTER_SPACING, value)
+    applyLetterSpacing(value)
+    updateUI()
+  }
+
+  function setParaGap(value) {
+    lsSet(LS_KEYS.PARA_GAP, value)
+    applyParaGap(value)
+    updateUI()
+  }
+
+  function toggleDimImages() {
+    var current = lsGet(LS_KEYS.DIM_IMAGES)
+    var next = current === 'true' ? 'false' : 'true'
+    lsSet(LS_KEYS.DIM_IMAGES, next)
+    applyDimImages(next)
+    updateUI()
+  }
+
+  function toggleAutoHide() {
+    var current = lsGet(LS_KEYS.AUTO_HIDE)
+    var next = current === 'true' ? 'false' : 'true'
+    lsSet(LS_KEYS.AUTO_HIDE, next)
+    applyAutoHide(next)
+    updateUI()
+  }
+
   // ─── UI Sync ──────────────────────────────────────────────────────────────
 
   function updateUI() {
@@ -538,6 +699,11 @@
     var justify = lsGet(LS_KEYS.JUSTIFY)
     var reduceMotion = lsGet(LS_KEYS.REDUCE_MOTION)
     var focusMode = lsGet(LS_KEYS.FOCUS_MODE)
+    var fontWeight = lsGet(LS_KEYS.FONT_WEIGHT)
+    var letterSpacing = lsGet(LS_KEYS.LETTER_SPACING)
+    var paraGap = lsGet(LS_KEYS.PARA_GAP)
+    var dimImages = lsGet(LS_KEYS.DIM_IMAGES)
+    var autoHide = lsGet(LS_KEYS.AUTO_HIDE)
 
     // Theme chips
     var chips = themeRow.querySelectorAll('.wn-chip')
@@ -578,6 +744,26 @@
     focusBtn.innerHTML = ''
     focusBtn.appendChild(icon(focusMode === 'true' ? '#wn-minimize' : '#wn-maximize', 16))
     focusBtn.appendChild(text(focusMode === 'true' ? 'Exit Reading Mode' : 'Reading Mode'))
+
+    // Font weight slider
+    fwInput.value = fontWeight
+    fwVal.textContent = fontWeight
+
+    // Letter spacing slider
+    lsInput.value = letterSpacing
+    lsVal.textContent = parseFloat(letterSpacing) + 'px'
+
+    // Para gap chips
+    var pgChips = pgRow.querySelectorAll('.wn-chip')
+    pgChips.forEach(function (c) {
+      c.classList.toggle('active', c.dataset.value === paraGap)
+    })
+
+    // Extra toggles
+    dimBtn.classList.toggle('active', dimImages === 'true')
+    dimBtn.style.opacity = dimImages === 'true' ? '1' : '0.5'
+    autoBtn.classList.toggle('active', autoHide === 'true')
+    autoBtn.style.opacity = autoHide === 'true' ? '1' : '0.5'
   }
 
   // ─── Reading Progress ─────────────────────────────────────────────────────

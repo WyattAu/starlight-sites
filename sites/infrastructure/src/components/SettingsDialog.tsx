@@ -57,6 +57,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
   const [fontFamily, setFontFamily] = createSignal(initFontFamily())
   const [justify, setJustify] = createSignal(localStorage.getItem('wn-justify') === 'true')
   const [reduceMotion, setReduceMotion] = createSignal(localStorage.getItem('wn-reduce-motion') === 'true')
+  const [fontWeight, setFontWeight] = createSignal(localStorage.getItem('wn-font-weight') ?? '400')
+  const [letterSpacing, setLetterSpacing] = createSignal(parseFloat(localStorage.getItem('wn-letter-spacing') ?? '0'))
+  const [paraGap, setParaGap] = createSignal(localStorage.getItem('wn-para-gap') ?? '1')
+  const [dimImages, setDimImages] = createSignal(localStorage.getItem('wn-dim-images') !== 'false')
+  const [autoHide, setAutoHide] = createSignal(localStorage.getItem('wn-auto-hide') === 'true')
 
   createEffect(() => {
     const html = document.documentElement
@@ -67,6 +72,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
     const ff = fontFamily()
     const j = justify()
     const rm = reduceMotion()
+    const fw = fontWeight()
+    const ls = letterSpacing()
+    const pg = paraGap()
+    const di = dimImages()
+    const ah = autoHide()
 
     html.setAttribute('data-theme', tVal)
     html.style.setProperty('--wn-font-size-scale', String(fs))
@@ -75,6 +85,10 @@ export default function SettingsDialog(props: SettingsDialogProps) {
     html.style.setProperty('--wn-font-body', FONT_FAMILY_MAP[ff] ?? FONT_FAMILY_MAP.sans)
     html.setAttribute('data-justify', String(j))
     html.setAttribute('data-reduce-motion', String(rm))
+    html.style.setProperty('--wn-font-weight', fw)
+    html.style.setProperty('--wn-letter-spacing', ls + 'px')
+    html.style.setProperty('--wn-para-gap', pg)
+    html.setAttribute('data-dim-images', String(di))
 
     localStorage.setItem('wn-theme', tVal)
     localStorage.setItem('wn-font-size', String(fs))
@@ -83,6 +97,37 @@ export default function SettingsDialog(props: SettingsDialogProps) {
     localStorage.setItem('wn-font-family', ff)
     localStorage.setItem('wn-justify', String(j))
     localStorage.setItem('wn-reduce-motion', String(rm))
+    localStorage.setItem('wn-font-weight', fw)
+    localStorage.setItem('wn-letter-spacing', String(ls))
+    localStorage.setItem('wn-para-gap', pg)
+    localStorage.setItem('wn-dim-images', String(di))
+    localStorage.setItem('wn-auto-hide', String(ah))
+  })
+
+  createEffect(() => {
+    const ah = autoHide()
+    if (ah) {
+      let lastScrollY = window.scrollY
+      const onScroll = () => {
+        const currentY = window.scrollY
+        if (currentY > lastScrollY && currentY > 80) {
+          document.body.classList.add('wn-nav-hidden')
+        } else if (currentY < lastScrollY) {
+          document.body.classList.remove('wn-nav-hidden')
+        }
+        if (currentY <= 80) {
+          document.body.classList.remove('wn-nav-hidden')
+        }
+        lastScrollY = currentY
+      }
+      window.addEventListener('scroll', onScroll, { passive: true })
+      return () => {
+        window.removeEventListener('scroll', onScroll)
+        document.body.classList.remove('wn-nav-hidden')
+      }
+    } else {
+      document.body.classList.remove('wn-nav-hidden')
+    }
   })
 
   return (
@@ -186,6 +231,89 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           <div class="flex items-center justify-between">
             <Switch.Root checked={reduceMotion()} onChange={setReduceMotion} class="flex w-full items-center justify-between">
               <Switch.Label class="font-medium text-sm">{t('settings.reduce_motion')}</Switch.Label>
+              <Switch.Input />
+              <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
+                <Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-sm transition-transform data-[checked]:translate-x-4" />
+              </Switch.Control>
+            </Switch.Root>
+          </div>
+
+          {/* Font Weight */}
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="font-medium text-sm">{t('settings.font_weight')}</label>
+              <span class="text-emphasis-500 text-sm">{fontWeight()}</span>
+            </div>
+            <Slider.Root
+              value={[parseInt(fontWeight())]}
+              onChange={v => setFontWeight(String(v[0]!))}
+              minValue={300}
+              maxValue={900}
+              step={100}
+              aria-label={t('settings.font_weight')}
+            >
+              <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
+                <Slider.Fill class="absolute h-full rounded-full bg-accent" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+              </Slider.Track>
+            </Slider.Root>
+          </div>
+
+          {/* Letter Spacing */}
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="font-medium text-sm">{t('settings.letter_spacing')}</label>
+              <span class="text-emphasis-500 text-sm">{letterSpacing()}px</span>
+            </div>
+            <Slider.Root
+              value={[letterSpacing()]}
+              onChange={v => setLetterSpacing(v[0]!)}
+              minValue={-0.5}
+              maxValue={2}
+              step={0.25}
+              aria-label={t('settings.letter_spacing')}
+            >
+              <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
+                <Slider.Fill class="absolute h-full rounded-full bg-accent" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+              </Slider.Track>
+            </Slider.Root>
+          </div>
+
+          {/* Paragraph Gap */}
+          <fieldset class="space-y-2">
+            <legend class="font-medium text-sm">{t('settings.paragraph_gap')}</legend>
+            <RadioGroup.Root value={paraGap()} onChange={setParaGap} class="flex flex-wrap gap-2">
+              <RadioGroup.Item value="0.5" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>0.5x</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="1" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>1x</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="1.5" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>1.5x</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="2" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>2x</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+            </RadioGroup.Root>
+          </fieldset>
+
+          {/* Dim Images */}
+          <div class="flex items-center justify-between">
+            <Switch.Root checked={dimImages()} onChange={setDimImages} class="flex w-full items-center justify-between">
+              <Switch.Label class="font-medium text-sm">{t('settings.dim_images')}</Switch.Label>
+              <Switch.Input />
+              <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
+                <Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-sm transition-transform data-[checked]:translate-x-4" />
+              </Switch.Control>
+            </Switch.Root>
+          </div>
+
+          {/* Auto-hide Nav */}
+          <div class="flex items-center justify-between">
+            <Switch.Root checked={autoHide()} onChange={setAutoHide} class="flex w-full items-center justify-between">
+              <Switch.Label class="font-medium text-sm">{t('settings.auto_hide_nav')}</Switch.Label>
               <Switch.Input />
               <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
                 <Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-sm transition-transform data-[checked]:translate-x-4" />

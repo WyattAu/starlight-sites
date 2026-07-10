@@ -119,20 +119,21 @@
   --wn-duration-slow: 360ms;
 }
 
-/* === Cinematic Brutalism Theme Palettes ================================= */
+/* === Theme Palettes (7 themes) ========================================== */
 
+/* --- 1. Cinematic Dark --- */
 [data-theme="dark"] {
-  --wn-bg: #0a0a0f;          /* deep cinematic black */
-  --wn-bg-elevated: #12121a;  /* slightly lifted surface */
-  --wn-bg-card: #1a1a24;     /* card background */
-  --wn-bg-hover: #242436;    /* hover state */
-  --wn-text: #e8e8ed;        /* primary text */
-  --wn-text-muted: #8888a0;  /* secondary text */
-  --wn-text-dim: #5a5a70;    /* tertiary text */
-  --wn-border: #2a2a3a;      /* borders */
-  --wn-border-light: #3a3a4a; /* lighter borders */
-  --wn-overlay: rgba(0,0,0,0.7); /* overlay */
-  --wn-glow: rgba(255,107,53,0.08); /* accent glow */
+  --wn-bg: #0a0a0f;
+  --wn-bg-elevated: #12121a;
+  --wn-bg-card: #1a1a24;
+  --wn-bg-hover: #242436;
+  --wn-text: #e8e8ed;
+  --wn-text-muted: #8888a0;
+  --wn-text-dim: #5a5a70;
+  --wn-border: #2a2a3a;
+  --wn-border-light: #3a3a4a;
+  --wn-overlay: rgba(0,0,0,0.7);
+  --wn-glow: rgba(255,107,53,0.08);
 
   --sl-color-accent: #ff8c4a;
   --sl-color-accent-low: #ff8c4a20;
@@ -164,9 +165,10 @@
   --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.75), 0 8px 16px rgba(0,0,0,0.55);
 }
 
+/* --- 2. Warm Paper Light --- */
 [data-theme="light"] {
-  --wn-bg: #f5f2ed;          /* warm off-white paper */
-  --wn-bg-elevated: #ffffff;  /* white surface */
+  --wn-bg: #f5f2ed;
+  --wn-bg-elevated: #ffffff;
   --wn-bg-card: #ffffff;
   --wn-bg-hover: #f0ece4;
   --wn-text: #1a1a1a;
@@ -207,6 +209,7 @@
   --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.14), 0 8px 16px rgba(0,0,0,0.1);
 }
 
+/* --- 3. EPUB Sepia --- */
 [data-theme="sepia"] {
   --wn-bg: #fbf3e0;
   --wn-bg-elevated: #fef7e8;
@@ -250,6 +253,7 @@
   --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.14), 0 8px 16px rgba(0,0,0,0.1);
 }
 
+/* --- 4. High Contrast --- */
 [data-theme="contrast"] {
   --wn-bg: #000000;
   --wn-bg-elevated: #0a0a0a;
@@ -293,6 +297,229 @@
   --wn-elevation-4: 0 24px 48px rgba(255,255,255,0.2), 0 8px 16px rgba(255,255,255,0.14);
 }
 
+/* --- 5. Nord (Arctic Blue) --- */
+[data-theme="nord"] {
+  --wn-bg: #2e3440;
+  --wn-bg-elevated: #3b4252;
+  --wn-bg-card: #3b4252;
+  --wn-bg-hover: #434c5e;
+  --wn-text: #d8dee9;
+  --wn-text-muted: #81a1c1;
+  --wn-text-dim: #6b7a94;
+  --wn-border: #4c566a;
+  --wn-border-light: #5e6a82;
+  --wn-overlay: rgba(0,0,0,0.6);
+  --wn-glow: rgba(136,192,208,0.12);
+
+  --sl-color-accent: #88c0d0;
+  --sl-color-accent-low: #88c0d025;
+  --sl-color-accent-high: #a3d3e0;
+  --sl-color-bg: #2e3440;
+  --sl-color-bg-nav: #2e3440;
+  --sl-color-bg-sidebar: #2e3440;
+  --sl-color-bg-inline-code: #3b4252;
+  --sl-color-bg-hairline: #4c566a;
+  --sl-color-hairline-light: #4c566a;
+  --sl-color-hairline-shade: #3b4252;
+  --sl-color-text: #d8dee9;
+  --sl-color-text-accent: #88c0d0;
+  --sl-color-text-invert: #2e3440;
+  --sl-color-gray-1: #d8dee9;
+  --sl-color-gray-2: #b0becc;
+  --sl-color-gray-3: #81a1c1;
+  --sl-color-gray-4: #6b7a94;
+  --sl-color-gray-5: #4c566a;
+  --sl-color-gray-6: #434c5e;
+  --sl-color-gray-7: #3b4252;
+  --sl-color-gray-8: #2e3440;
+  --sl-color-black: #2e3440;
+  --sl-color-white: #d8dee9;
+
+  --wn-elevation-1: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+  --wn-elevation-2: 0 4px 8px rgba(0,0,0,0.55), 0 2px 4px rgba(0,0,0,0.45);
+  --wn-elevation-3: 0 12px 24px rgba(0,0,0,0.65), 0 4px 8px rgba(0,0,0,0.5);
+  --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.75), 0 8px 16px rgba(0,0,0,0.55);
+}
+
+/* --- 6. Dracula (Purple/Pink) --- */
+[data-theme="dracula"] {
+  --wn-bg: #282a36;
+  --wn-bg-elevated: #333547;
+  --wn-bg-card: #333547;
+  --wn-bg-hover: #44475a;
+  --wn-text: #f8f8f2;
+  --wn-text-muted: #6272a4;
+  --wn-text-dim: #52556a;
+  --wn-border: #44475a;
+  --wn-border-light: #555980;
+  --wn-overlay: rgba(0,0,0,0.6);
+  --wn-glow: rgba(189,147,249,0.15);
+
+  --sl-color-accent: #bd93f9;
+  --sl-color-accent-low: #bd93f925;
+  --sl-color-accent-high: #d0b0ff;
+  --sl-color-bg: #282a36;
+  --sl-color-bg-nav: #282a36;
+  --sl-color-bg-sidebar: #282a36;
+  --sl-color-bg-inline-code: #333547;
+  --sl-color-bg-hairline: #44475a;
+  --sl-color-hairline-light: #44475a;
+  --sl-color-hairline-shade: #333547;
+  --sl-color-text: #f8f8f2;
+  --sl-color-text-accent: #bd93f9;
+  --sl-color-text-invert: #282a36;
+  --sl-color-gray-1: #f8f8f2;
+  --sl-color-gray-2: #d0d0c8;
+  --sl-color-gray-3: #6272a4;
+  --sl-color-gray-4: #52556a;
+  --sl-color-gray-5: #44475a;
+  --sl-color-gray-6: #3d4056;
+  --sl-color-gray-7: #333547;
+  --sl-color-gray-8: #282a36;
+  --sl-color-black: #282a36;
+  --sl-color-white: #f8f8f2;
+
+  --wn-elevation-1: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+  --wn-elevation-2: 0 4px 8px rgba(0,0,0,0.55), 0 2px 4px rgba(0,0,0,0.45);
+  --wn-elevation-3: 0 12px 24px rgba(0,0,0,0.65), 0 4px 8px rgba(0,0,0,0.5);
+  --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.75), 0 8px 16px rgba(0,0,0,0.55);
+}
+
+/* --- 7. Solarized Light --- */
+[data-theme="solarized"] {
+  --wn-bg: #fdf6e3;
+  --wn-bg-elevated: #fef9ef;
+  --wn-bg-card: #fef9ef;
+  --wn-bg-hover: #eee8d5;
+  --wn-text: #657b83;
+  --wn-text-muted: #839496;
+  --wn-text-dim: #93a1a1;
+  --wn-border: #d5cfb8;
+  --wn-border-light: #e0dbc4;
+  --wn-overlay: rgba(0,0,0,0.2);
+  --wn-glow: rgba(38,139,210,0.06);
+
+  --sl-color-accent: #268bd2;
+  --sl-color-accent-low: #268bd218;
+  --sl-color-accent-high: #2075b3;
+  --sl-color-bg: #fdf6e3;
+  --sl-color-bg-nav: #fdf6e3;
+  --sl-color-bg-sidebar: #fdf6e3;
+  --sl-color-bg-inline-code: #fef9ef;
+  --sl-color-bg-hairline: #d5cfb8;
+  --sl-color-hairline-light: #d5cfb8;
+  --sl-color-hairline-shade: #c0baa4;
+  --sl-color-text: #657b83;
+  --sl-color-text-accent: #268bd2;
+  --sl-color-text-invert: #fdf6e3;
+  --sl-color-gray-1: #657b83;
+  --sl-color-gray-2: #768793;
+  --sl-color-gray-3: #839496;
+  --sl-color-gray-4: #93a1a1;
+  --sl-color-gray-5: #b8b8a0;
+  --sl-color-gray-6: #d5cfb8;
+  --sl-color-gray-7: #e0dbc4;
+  --sl-color-gray-8: #eee8d5;
+  --sl-color-black: #fdf6e3;
+  --sl-color-white: #657b83;
+
+  --wn-elevation-1: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --wn-elevation-2: 0 4px 8px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06);
+  --wn-elevation-3: 0 12px 24px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.08);
+  --wn-elevation-4: 0 24px 48px rgba(0,0,0,0.14), 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* === Theme-specific Component Overrides === */
+
+/* Admonitions (Starlight aside blocks) */
+[data-theme="dark"] .starlight-aside-note,
+[data-theme="nord"] .starlight-aside-note,
+[data-theme="dracula"] .starlight-aside-note {
+  --sl-color-asides-text-accent: var(--sl-color-text);
+  background: var(--wn-bg-card);
+  border-color: var(--sl-color-accent);
+}
+[data-theme="light"] .starlight-aside-note,
+[data-theme="sepia"] .starlight-aside-note,
+[data-theme="solarized"] .starlight-aside-note,
+[data-theme="contrast"] .starlight-aside-note {
+  --sl-color-asides-text-accent: var(--sl-color-text);
+  background: var(--wn-bg-elevated);
+  border-color: var(--sl-color-accent);
+}
+
+/* Code blocks - ensure readable in all themes */
+[data-theme="dark"] .expressive-code,
+[data-theme="nord"] .expressive-code,
+[data-theme="dracula"] .expressive-code {
+  --ec-bg: var(--wn-bg-elevated);
+  --ec-border: var(--wn-border);
+  --ec-text: var(--wn-text);
+}
+[data-theme="light"] .expressive-code,
+[data-theme="sepia"] .expressive-code,
+[data-theme="solarized"] .expressive-code {
+  --ec-bg: var(--wn-bg-elevated);
+  --ec-border: var(--wn-border);
+  --ec-text: var(--wn-text);
+}
+
+/* Inline code in all themes */
+.sl-markdown-content code:not(pre code) {
+  background: var(--sl-color-bg-inline-code);
+  color: var(--sl-color-text);
+  border: 1px solid var(--sl-color-hairline-light);
+  border-radius: var(--wn-radius-xs, 6px);
+  padding: 0.15em 0.4em;
+}
+
+/* Table header contrast */
+.sl-markdown-content th {
+  background: var(--sl-color-gray-7);
+  color: var(--sl-color-text);
+  border-color: var(--sl-color-hairline-light);
+}
+
+.sl-markdown-content td {
+  border-color: var(--sl-color-hairline-light);
+}
+
+.sl-markdown-content tr:nth-child(even) {
+  background: var(--sl-color-gray-8);
+}
+
+/* Sidebar active page */
+.sidebar-content a[aria-current='page'] {
+  background: var(--sl-color-accent) !important;
+  color: var(--sl-color-text-invert) !important;
+}
+
+/* TOC active item */
+.right-sidebar-container .toc-item a[aria-current="true"] {
+  color: var(--sl-color-accent);
+  font-weight: 600;
+}
+
+/* Blockquote */
+.sl-markdown-content blockquote {
+  background: var(--sl-color-accent-low);
+  border-left-color: var(--sl-color-accent);
+}
+
+/* KaTeX math (dark themes) */
+[data-theme="dark"] .katex,
+[data-theme="nord"] .katex,
+[data-theme="dracula"] .katex {
+  color: var(--wn-text);
+}
+
+/* Images in dark themes */
+[data-theme="dark"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="nord"] .sl-markdown-content img:not([src*=".svg"]),
+[data-theme="dracula"] .sl-markdown-content img:not([src*=".svg"]) {
+  filter: brightness(0.85) contrast(1.1);
+}
+
 [data-theme="contrast"] .sl-markdown-content a:not(.header-anchor) {
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -307,6 +534,7 @@
 /* === Typography === */
 body {
   font-family: var(--wn-font-body);
+  font-weight: var(--wn-font-weight, 400);
 }
 
 /* === KaTeX Dark Mode === */
@@ -354,6 +582,7 @@ body {
 
 .sl-markdown-content {
   text-align: justify;
+  letter-spacing: var(--wn-letter-spacing, 0px);
 }
 
 /* === Sidebar Active Page Fix === */
@@ -423,7 +652,9 @@ body {
 }
 
 /* === Dark Mode Image Dimming === */
-[data-theme="dark"] .sl-markdown-content img:not([src*=".svg"]) {
+[data-dim-images="true"][data-theme="dark"] .sl-markdown-content img:not([src*=".svg"]),
+[data-dim-images="true"][data-theme="nord"] .sl-markdown-content img:not([src*=".svg"]),
+[data-dim-images="true"][data-theme="dracula"] .sl-markdown-content img:not([src*=".svg"]) {
   filter: brightness(0.85) contrast(1.1);
 }
 
@@ -714,7 +945,7 @@ body.wn-focus-mode .sl-container {
 }
 
 .sl-markdown-content p {
-  margin-bottom: 1.25em;
+  margin-bottom: calc(1.25em * var(--wn-para-gap, 1));
   line-height: 1.75;
 }
 
@@ -858,4 +1089,21 @@ body.wn-focus-mode .sl-container {
   .sl-markdown-content {
     text-align: left;
   }
+}
+
+/* === Auto-hide Nav === */
+body.wn-nav-hidden nav:not(#wn-reader *) {
+  transform: translateY(-100%);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* === Reader panel slider styles === */
+#wn-reader input[type="range"]::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--sl-color-accent, #ff6b35);
+  cursor: pointer;
+  border: 2px solid var(--wn-bg-elevated, #12121a);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }

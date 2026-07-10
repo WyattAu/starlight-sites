@@ -115,6 +115,11 @@ const enDict = {
     mono: 'Mono',
     justify: 'Justify Text',
     reduce_motion: 'Reduce Motion',
+    font_weight: 'Font Weight',
+    letter_spacing: 'Letter Spacing',
+    paragraph_gap: 'Paragraph Gap',
+    dim_images: 'Dim Images',
+    auto_hide_nav: 'Auto-hide Nav',
   },
 
   // Results
@@ -200,6 +205,11 @@ const zhDict: typeof enDict = {
     mono: '\u7B49\u5BBD',
     justify: '\u4E24\u7AEF\u5BF9\u9F50',
     reduce_motion: '\u51CF\u5C11\u52A8\u753B',
+    font_weight: '\u5B57\u4F53\u7C97\u7EC6',
+    letter_spacing: '\u5B57\u95F4\u8DDD',
+    paragraph_gap: '\u6BB5\u843D\u95F4\u8DDD',
+    dim_images: '\u56FE\u7247\u53D8\u6697',
+    auto_hide_nav: '\u81EA\u52A8\u9690\u85CF\u5BFC\u822A',
   },
   results: {
     close: '\u5173\u95ED\u5BF9\u8BDD\u6846',
