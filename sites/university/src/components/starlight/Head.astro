@@ -76,6 +76,9 @@ const articleSchema = {
 </script>
 <title>{fullTitle}</title>
 
+<!-- Reading controls (floating settings, focus mode, progress, position memory) -->
+<script src="/reader.js" defer></script>
+
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />

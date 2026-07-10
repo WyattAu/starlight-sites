@@ -512,6 +512,21 @@ pre, code {
   letter-spacing: -0.03em;
 }
 
+/* === Focus/Reading Mode (toggled by reader.js) === */
+body.wn-focus-mode .sidebar-container,
+body.wn-focus-mode .right-sidebar-container,
+body.wn-focus-mode .top-nav,
+body.wn-focus-mode .nav-inner,
+body.wn-focus-mode nav:not(#wn-reader *) {
+  display: none !important;
+}
+body.wn-focus-mode .main-frame {
+  padding-left: 0 !important;
+}
+body.wn-focus-mode .sl-container {
+  max-width: 100% !important;
+}
+
 /* === Print-Friendly Styles === */
 @media print {
   /* Hide non-essential UI elements */

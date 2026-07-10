@@ -60,6 +60,7 @@ const SHARED_DIRS = [
 const PUBLIC_FILES = [
   ['search-api/page-search.js', 'public/page-search.js'],
   ['search-api/cross-site-search.js', 'public/cross-site-search.js'],
+  ['shared/scripts/reader.js', 'public/reader.js'],
 ]
 
 const args = new Set(process.argv.slice(2))
