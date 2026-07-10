@@ -3,7 +3,7 @@
   "short_name": "Wyatt's Notes",
   "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
   "start_url": "/",
-  "display": "standalone",
+  "display": "browser",
   "background_color": "#0f172a",
   "theme_color": "#ff6b35",
   "icons": [
