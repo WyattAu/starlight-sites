@@ -409,7 +409,7 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
   build pipeline with the nine content sites. The old 762-line inline-CSS
   page (already replaced by `index.astro` + `Layout.astro`) is deleted.
   The biome override for the old file is removed.
-- [ ] Add a real service worker sourced under `shared/public/sw.js` and synced
+- [x] Add a real service worker sourced under `shared/public/sw.js` and synced
   to all sites, or delete the manifest.json `display: standalone` configuration
   that implies PWA support. The current state ships a manifest with no
   worker, which is a misleading affordance.
@@ -417,14 +417,14 @@ Restore content quality enforcement pipeline lost during Docusaurus-to-Starlight
   informational (`continue-on-error: true`) to blocking once the existing
   backlog is worked down. The soft mode was a baseline period; the backlog
   is now characterised and ready to triage.
-- [ ] Replace `treosh/lighthouse-ci-action@v12` with `treo/lighthouse-ci-action`
+- [x] Replace `treosh/lighthouse-ci-action@v12` with `treo/lighthouse-ci-action`
   (the maintained successor). The current action is archived but functional.
 - [ ] Adopt `actionlint` in pre-commit (Go binary, run via `bunx` or a
   pre-built image) so workflow regressions are caught before push, not after
   the gate job fails in CI.
 - [x] Add `bun audit` to the CI gate so known CVEs in the dependency tree
   fail the build before deploy.
-- [ ] Replace `npx wrangler@4` invocations in CI with the project-pinned
+- [x] Replace `npx wrangler@4` invocations in CI with the project-pinned
   `@cloudflare/workers-types` + `wrangler` devDependency so the wrangler
   version is reproducible from `bun.lock`.
 - [ ] Move the `serviceWorker`/`sw.js` regression test to also check the
@@ -557,3 +557,6 @@ updated; `bun audit` clean; wrangler version pinned to `bun.lock`.
 | 2026-06-21 | Enable noUncheckedIndexedAccess + fix 24 type errors | tsconfig strictness maximised; 24 array-access null-safety findings fixed across 5 files |
 | 2026-06-21 | ViewTransitions: verified as blocked | `astro:transitions` virtual module fails Rollup resolution in Astro 6 + Solid.js + Bun stack (3 approaches tested, all fail). Documented in PATH_FORWARD.md. |
 | 2026-06-21 | 5 definitive "typically" fixes in cell biology content | Remaining 126 uses reviewed as appropriate per ROADMAP Phase I-B |
+| 2026-07-10 | Pin wrangler in bun.lock, replace npx with bunx in CI | Wrangler was fetched on-the-fly via `npx wrangler@4`; version not reproducible. Added as root devDependency (4.110.0) and replaced all CI invocations. |
+| 2026-07-10 | Manifest display:standalone -> display:browser | All 9 sites shipped manifest with display:standalone implying PWA support, but no service worker exists. Changed to browser; removed broken landing page manifest link. |
+| 2026-07-10 | Lighthouse action: treosh/lighthouse-ci-action@v12 is maintained | ROADMAP listed as archived; verified it is actively maintained (v12.6.2, March 2026). No replacement needed. |
