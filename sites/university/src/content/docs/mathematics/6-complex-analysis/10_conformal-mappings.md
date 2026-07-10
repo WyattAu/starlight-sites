@@ -104,3 +104,51 @@ Domains (other than $\mathbb{C}$ itself) are conformally equivalent.
 _Remark._ The Riemann mapping theorem is an existence theorem; it does not provide an explicit
 Formula for the conformal map .
 
+### 10.8 Applications of Conformal Mappings
+
+**Fluid dynamics.** The complex potential $w = f(z) = \phi + i\psi$ for a 2D incompressible,
+irrotational flow satisfies Laplace's equation. Conformal mappings transform simple flow patterns
+(e.g., uniform flow past a circle) into flows past arbitrary smooth boundaries. The Joukowski
+transform $w = z + 1/z$ maps a circle to an airfoil shape, enabling analytical calculation of lift.
+
+**Electrostatics.** The electric potential in a charge-free region satisfies $\nabla^2 V = 0$.
+Conformal mappings transform the boundary value problem into a simpler geometry (e.g., upper
+half-plane or unit disk) where the solution is known, then map the solution back.
+
+**Heat conduction.** Steady-state temperature distributions satisfy Laplace's equation. Conformal
+mappings solve heat flow problems in irregularly shaped regions by mapping to canonical domains.
+
+**Key insight:** Any problem governed by Laplace's equation in 2D can be solved by conformally
+mapping the domain to a half-plane or disk, solving there, and mapping back.
+
+### 10.9 Worked Example: Flow past a Cylinder
+
+**Problem.** Use the Joukowski transform to find the complex potential for flow past a cylinder.
+
+**Solution.** The complex potential for uniform flow past a circle of radius $R$ centered at the
+origin is:
+
+$$w(\zeta) = U\left(\zeta + \frac{R^2}{\zeta}\right)$$
+
+The Joukowski transform $z = \zeta + \frac{1}{\zeta}$ maps the circle $|\zeta| = R$ to an ellipse
+(or airfoil for $R$ near 1 with slight offset). Substituting $\zeta$ as a function of $z$ and
+composing gives the flow past the transformed body.
+
+The velocity components are obtained from:
+
+$$v_x - iv_y = \frac{dw}{dz} = \frac{dw}{d\zeta}\cdot\frac{d\zeta}{dz}$$
+
+At infinity, $v_x = U$ and $v_y = 0$ (uniform flow). On the cylinder surface, the flow is tangent
+to the boundary (no penetration condition). $\blacksquare$
+
+### 10.10 Summary of Key Properties
+
+| Property | Statement |
+| -------- | --------- |
+| Angle preservation | Conformal maps preserve angles between intersecting curves |
+| Local linearisation | Near $z_0$, $f$ acts as rotation by $\arg f'(z_0)$ and scaling by $|f'(z_0)|$ |
+| Circle preservation | Möbius transformations map circles and lines to circles and lines |
+| Cross-ratio invariance | $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$ for any Möbius $T$ |
+| Riemann mapping | Any simply connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
+| Laplace correspondence | Solutions to $\nabla^2 u = 0$ are preserved under conformal maps |
+

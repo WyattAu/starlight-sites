@@ -96,3 +96,43 @@ writable-and-executable pages.
 
 
 :::
+
+### 9.4 Privilege Separation in Practice
+
+Privilege separation divides a program into components running at different privilege levels, limiting
+the damage from any single vulnerability.
+
+**OpenSSH example:**
+
+- The **monitor** process runs as an unprivileged user, handling all network I/O and protocol
+  parsing.
+- The **privileged child** handles authentication secrets, session setup, and PAM interactions.
+- The monitor communicates with the child via a strictly controlled IPC channel.
+- A buffer overflow in the monitor does not grant access to authentication keys or root privileges.
+
+**Practical implementation steps:**
+
+1. Fork a child process before performing any privileged operations.
+2. Drop all capabilities in the parent (monitor) using `prctl(PR_CAP_AMBIENT, PR_CAP_AMBIENT_DROP_ALL)`.
+3. Restrict IPC to a minimal set of verified message types.
+4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve`, `mount`).
+
+**Common privilege separation violations:**
+
+| Violation | Consequence | Mitigation |
+| --------- | ----------- | ---------- |
+| Running web server as root | Full system compromise on exploit | Run as unprivileged user with minimal capabilities |
+| Unrestricted Docker containers | Container escape to host | Use `--cap-drop ALL` and add only required capabilities |
+| setuid on complex binaries | Large attack surface for privilege escalation | Avoid setuid; use capability-based access instead |
+| Shared writable memory between privilege levels | Data corruption or privilege leakage | Use message-passing with strict validation |
+
+### 9.5 Summary of Key Relationships
+
+| Defence Layer | Mechanism | What It Prevents | Limitation |
+| ------------- | --------- | ---------------- | ---------- |
+| ASLR | Randomises memory layout | Return-to-libc, ROP | Defeated by information leaks |
+| Stack canaries | Detects stack buffer overflows | Stack smashing | Bypassed by format string bugs |
+| DEP / W^X | Prevents code execution in data pages | Shellcode injection | JIT compilers need W+X pages |
+| CFI | Validates indirect branch targets | Control-flow hijacking | Overhead; imprecise in some implementations |
+| Privilege separation | Limits damage from compromised components | Full system compromise | Complexity; IPC design errors |
+| Least privilege | Reduces attack surface | Unauthorised access | Requires careful capability analysis |

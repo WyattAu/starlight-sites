@@ -110,3 +110,21 @@ Taking all products, the six abelian groups of order 72 are:
 5. $(\mathbb{Z}/2\mathbb{Z})^3 \times \mathbb{Z}/9\mathbb{Z}$
 6. $(\mathbb{Z}/2\mathbb{Z})^3 \times (\mathbb{Z}/3\mathbb{Z})^2$ $\blacksquare$
 
+### 14.6 Key Relationships
+
+| Result | Statement | Application |
+|---|---|---|
+| Cauchy's Theorem | $p \mid |G| \implies$ element of order $p$ exists | Existence of elements of prime order |
+| Sylow's Theorems | Subgroups of order $p^k$ exist and are conjugate | Structure of finite groups |
+| Class Equation | $|G| = |Z(G)| + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
+| Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
+| Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
+
+### 14.7 Common Pitfalls
+
+- Applying Cauchy's theorem backwards: $|G|$ divisible by $p$ does not imply $G$ has a normal subgroup of order $p$; only a subgroup.
+- Confusing Cauchy's theorem with Sylow's theorems: Cauchy gives existence of a single element, while Sylow gives existence of subgroups of maximal prime-power order.
+- Forgetting that the Structure Theorem requires the group to be both finitely generated and abelian.
+- Assuming the classification of finite simple groups applies to infinite groups.
+- Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
+

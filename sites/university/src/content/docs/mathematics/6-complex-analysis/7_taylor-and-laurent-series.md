@@ -130,6 +130,10 @@ Residue at $z = 0$: $a_{-1} = -\frac{1}{9}$.
 
 </details>
 
+## Common Pitfalls
+
+- **Wrong annulus choice.** A function has different Laurent expansions in different annuli (e.g.\ $1/[z(z-1)]$ has distinct series in $0<|z|<1$ vs.\ $|z|>1$). Always identify all singularities and the correct annulus before expanding.
+
 ### 7.7 Residue at Infinity
 
 **Definition.** The **residue at infinity** of $f$ is defined as

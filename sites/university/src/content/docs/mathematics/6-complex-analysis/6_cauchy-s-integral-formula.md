@@ -131,3 +131,11 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
 
 </details>
 
+### 6.7 Common Pitfalls
+
+- Forgetting the $n!$ in the derivative formula: $f^{(n)}(z_0) = \frac{n!}{2\pi i}\int_\gamma
+  \frac{f(z)}{(z - z_0)^{n+1}}\, dz$. The $n!$ is easy to omit.
+- Applying CIF when $z_0$ lies **on** the contour. The theorem requires $z_0$ strictly inside
+  $\gamma$.
+- Confusing the orientation: the contour must be positively oriented (counterclockwise).
+- Neglecting to check that $f$ is analytic **on and inside** $\gamma$, not just on $\gamma$.

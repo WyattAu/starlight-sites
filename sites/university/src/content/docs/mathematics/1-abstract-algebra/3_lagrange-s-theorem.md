@@ -115,3 +115,27 @@ Lagrange.
 
 
 :::
+
+### 3.6 Common Pitfalls
+
+- **Confusing index with order.** The index $[G:H]$ is the number of cosets, not the order of $H$.
+- **Assuming Lagrange's converse.** If $d \mid |G|$, there need not exist a subgroup of order $d$. The converse holds for cyclic groups but fails in general (e.g., $A_4$ has order 12 but no subgroup of order 6).
+- **Forgetting that cosets partition $G$.** Each element of $G$ belongs to exactly one left coset and exactly one right coset of $H$.
+- **Misapplying Fermat's Little Theorem.** It requires $p$ prime and $\gcd(a,p) = 1$; omitting the coprimality condition gives incorrect results.
+
+### 3.7 Key Relationships Table
+
+| Statement | Hypothesis | Conclusion |
+|---|---|---|
+| Lagrange's Theorem | $H \leq G$, $G$ finite | $\|H\|$ divides $\|G\|$ |
+| Corollary 3.4 | $g \in G$ | $\|g\|$ divides $\|G\|$ |
+| Fermat's Little Theorem | $p$ prime, $\gcd(a,p)=1$ | $a^{p-1} \equiv 1 \pmod{p}$ |
+| Euler's Theorem | $\gcd(a,n)=1$ | $a^{\phi(n)} \equiv 1 \pmod{n}$ |
+| Index 2 implies normal | $[G:H] = 2$ | $H \trianglelefteq G$ |
+| Product Formula | $H, K \leq G$ finite | $\|HK\| = \|H\|\|K\|/\|H \cap K\|$ |
+
+### 3.8 Applications
+
+- **Number theory:** Fermat's Little Theorem and Euler's Theorem underpin RSA encryption and primality testing.
+- **Coding theory:** The structure of cosets of subgroups in finite groups is used in linear codes and syndrome decoding.
+- **Computational group theory:** Lagrange's Theorem bounds the search space when testing subgroup membership; the index determines the number of coset representatives needed.

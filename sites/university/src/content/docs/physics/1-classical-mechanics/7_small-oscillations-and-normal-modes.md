@@ -127,3 +127,22 @@ The corresponding normal modes are:
 - **Mode 1:** both pendulums swing in the same direction (in phase).
 - **Mode 2:** the pendulums swing in opposite directions (out of phase).
 
+### 7.7 Common Pitfalls
+
+- Assuming the mass matrix is always diagonal; in generalised coordinates it can have off-diagonal terms.
+- Forgetting that both $T$ and $V$ must be positive definite for all eigenvalues to be real and positive.
+- Confusing the secular equation $\det(\mathbf{V} - \omega^2\mathbf{T}) = 0$ with $\det(\mathbf{V} - \lambda\mathbf{I}) = 0$; the latter only applies when $T = I$.
+- Neglecting to normalise eigenvectors with respect to the mass matrix, which leads to incorrect mode superpositions.
+- Misidentifying degenerate modes: when $\omega_\alpha = \omega_\beta$, any linear combination of the corresponding eigenvectors is also a normal mode.
+- Assuming that small oscillation analysis captures the full dynamics; it only describes motion near equilibrium and breaks down for large amplitudes.
+
+### 7.8 Key Results Summary
+
+| Result | Statement |
+|---|---|
+| Secular equation | $\det(\mathbf{V} - \omega^2\mathbf{T}) = 0$ gives normal mode frequencies |
+| Orthogonality | $\mathbf{a}^{(\alpha)T}\mathbf{T}\mathbf{a}^{(\beta)} = T_\alpha\delta_{\alpha\beta}$ |
+| Stability condition | $T$ and $V$ positive definite $\implies$ all $\omega_\alpha^2 > 0$ |
+| Beat phenomenon | Two pendulums with close frequencies exchange energy periodically |
+| Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
+

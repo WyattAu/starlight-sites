@@ -107,3 +107,26 @@ $L_1, L_2, L_3, \ldots$And construct a language $D$ that differs from each $L_i$
 string. Then $D$ is not in the list — contradiction. This technique reappears in the
 .../1-number-and-algebra/3_proof-and-logic of undecidability of $A*{\mathrm{TM}}$ (Section 5.2).
 
+### 1.5 Common Pitfalls
+
+- **Confusing $\emptyset$ and $\{\varepsilon\}$.** The empty language has no strings; $\{\varepsilon\}$ contains one string (the empty string).
+- **Assuming every infinite language is non-regular.** $\Sigma^*$ is regular yet infinite.
+- **Confusing recognisability with decidability.** A language can be Turing-recognisable but not decidable (e.g., $A_{\mathrm{TM}}$).
+- **Assuming closure properties carry over.** Regular languages are closed under complement; Turing-recognisable languages are not.
+
+### 1.6 Hierarchy Summary Table
+
+| Class | Machine | Decidable? | Recognisable? | Closure (complement) |
+|---|---|---|---|---|
+| Regular | Finite automaton | Yes | Yes | Closed |
+| Context-free | Pushdown automaton | Yes | Yes | Not closed |
+| Decidable (REC) | Turing machine (halts always) | Yes | Yes | Closed |
+| Turing-recognisable (RE) | Turing machine (may loop) | No | Yes | Not closed |
+
+### 1.7 Practical Applications
+
+- **Compiler design:** Lexical analysis uses regular expressions and finite automata; parsing uses context-free grammars.
+- **Protocol verification:** Model checking uses finite-state machines to verify communication protocols.
+- **Complexity theory:** Understanding which problems are decidable guides the search for efficient algorithms.
+- **Cryptography:** Security proofs rely on hardness assumptions tied to complexity classes (e.g., NP-hardness).
+

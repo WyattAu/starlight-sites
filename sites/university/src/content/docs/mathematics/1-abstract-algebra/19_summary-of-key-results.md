@@ -105,3 +105,8 @@ $\blacksquare$
 | Linear Algebra                 | WyattsNotes | [View](/docs/university/mathematics/linear-algebra)       |
 | Abstract Algebra — Harvard 122 | Harvard     | [View](https://people.math.harvard.edu/~elkies/M122.html) |
 
+## Key Relationships
+
+- **Extension degree and group order.** For a Galois extension $E/F$: $[E:F]=|\mathrm{Gal}(E/F)|$. This links field theory to group theory directly.
+- **Normal subgroups and quotient groups.** $K/F$ is Galois $\iff$ $\mathrm{Gal}(E/K)\trianglelefteq\mathrm{Gal}(E/F)$, and in that case $\mathrm{Gal}(K/F)\cong\mathrm{Gal}(E/F)/\mathrm{Gal}(E/K)$.
+

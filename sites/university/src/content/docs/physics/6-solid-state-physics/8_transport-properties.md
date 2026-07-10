@@ -112,3 +112,33 @@ $m^* = \hbar^2/(d^2\varepsilon/dk^2)$.
 A large effective mass means a flat band (small group velocity). A small effective mass means a
 Steep band (high mobility).
 
+### 8.6 Matthiessen's Rule: Worked Example
+
+**Problem.** A copper wire has residual resistivity $\rho_0 = 2 \times 10^{-10}\ \Omega\cdot$m from
+impurity scattering. At 300 K, the phonon contribution is $\rho_{\mathrm{ph}} = 1.7 \times
+10^{-8}\ \Omega\cdot$m. What is the total resistivity and the resistance ratio RRR?
+
+**Solution.** By Matthiessen's rule:
+
+$$\rho(300\ \mathrm{K}) = \rho_0 + \rho_{\mathrm{ph}} = 2 \times 10^{-10} + 1.7 \times 10^{-8}
+= 1.72 \times 10^{-8}\ \Omega\cdot\text{m}$$
+
+The resistance ratio:
+
+$$RRR = \frac{\rho(300\ \mathrm{K})}{\rho_0} = \frac{1.72 \times 10^{-8}}{2 \times 10^{-10}} = 86$$
+
+A RRR of 86 indicates moderately pure copper. Ultra-pure samples can achieve RRR $> 1000$.
+$\blacksquare$
+
+### 8.7 Summary of Key Transport Relationships
+
+| Property | Formula | Key Dependencies |
+| -------- | ------- | ----------------- |
+| Drude conductivity | $\sigma = ne^2\tau/m_e$ | Carrier density, scattering time |
+| Mean free path | $\ell = v_F \tau$ | Fermi velocity, scattering time |
+| Hall coefficient | $R_H = -1/(ne)$ | Carrier density (single band) |
+| Thermal conductivity | $\kappa = \frac{1}{3}c_e v_F \ell_e$ | Electronic specific heat, velocity |
+| Effective mass | $m^* = \hbar^2/(d^2\varepsilon/dk^2)$ | Band curvature |
+| Matthiessen's rule | $\rho = \rho_0 + \rho_{\mathrm{ph}}(T)$ | Impurity + phonon scattering |
+| Bloch-Gruneisen | $\rho_{\mathrm{ph}} \propto T^5$ at low $T$ | Phonon population, Umklapp |
+

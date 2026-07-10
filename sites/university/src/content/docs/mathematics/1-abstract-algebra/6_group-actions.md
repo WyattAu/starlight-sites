@@ -120,3 +120,12 @@ has the form $g^k z$ for some $k \in \mathbb{Z}$ and $z \in Z(G)$. For any two s
 $(g^{k_1}z_1)(g^{k_2}z_2) = g^{k_1+k_2}z_1z_2 = g^{k_2+k_1}z_2z_1 = (g^{k_2}z_2)(g^{k_1}z_1)$ So $G$
 is abelian, contradicting $|Z(G)| = p$. Thus $|Z(G)| = p^2$ and $G$ is abelian. $\blacksquare$
 
+### 6.7 Common Pitfalls
+
+- Forgetting that the stabilizer is always a subgroup (it inherits identity and closure from the group axioms).
+- Confusing the orbit of $x$ with the orbit of $G$: the orbit is a subset of $X$, not of $G$.
+- Assuming that the number of orbits equals $|X|/|G|$; this is only true when the action is free.
+- Misapplying Burnside's lemma by using the wrong group action (e.g., using conjugation when the problem specifies a different action).
+- Assuming that two elements in the same conjugacy class have the same centralizer; they have conjugate centralizers, but the sizes are equal.
+- Confusing $[G : C_G(x)]$ (the index of the centralizer) with $|G|/|Z(G)|$ (the size of the quotient by the centre).
+

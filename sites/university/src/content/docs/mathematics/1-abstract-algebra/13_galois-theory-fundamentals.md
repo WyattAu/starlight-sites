@@ -124,3 +124,7 @@ Therefore $\mathrm{Gal}(E/\mathbb{Q}) \cong D_4$ (dihedral group of order $8$). 
 
 </details>
 
+## Common Pitfalls
+
+- **Splitting field degree vs.\ polynomial degree.** The degree $[E:\mathbb{Q}]$ of a splitting field is not always equal to the degree of the polynomial; it equals the order of the Galois group, which can be larger (e.g.\ $x^3-2$ has degree 3 but $[E:\mathbb{Q}]=6$).
+

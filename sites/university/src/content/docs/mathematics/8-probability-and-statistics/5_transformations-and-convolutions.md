@@ -100,3 +100,53 @@ $\blacksquare$
 | [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
 | [Probability] | University | [View](https://university.wyattau.com/docs/mathematics/8-probability-and-statistics/1_probability) |
 
+### 5.3 Properties of Convolution
+
+Convolution satisfies several algebraic properties that simplify calculations:
+
+**Commutativity:** $f_X * f_Y = f_Y * f_X$. The order of summation does not matter.
+
+**Associativity:** $(f_X * f_Y) * f_Z = f_X * (f_Y * f_Z)$. Multiple sums can be evaluated in any
+order.
+
+**Scaling:** If $Z = aX$ where $a > 0$, then $f_Z(z) = \frac{1}{a}f_X(z/a)$.
+
+**Location-scale family:** If $X$ has PDF $f(x)$, then $Y = aX + b$ has PDF
+$f_Y(y) = \frac{1}{a}f\!\left(\frac{y - b}{a}\right)$.
+
+### 5.4 Moment Generating Functions and Transformations
+
+The **moment generating function** (MGF) is $M_X(t) = E[e^{tX}]$.
+
+**Key property:** If $M_X(t) = M_Y(t)$ for all $t$ in a neighbourhood of 0, then $X$ and $Y$ have
+the same distribution (MGFs uniquely determine distributions).
+
+**Linear transformations:** If $Y = aX + b$, then $M_Y(t) = e^{bt}M_X(at)$.
+
+**Sums of independent variables:** If $X$ and $Y$ are independent,
+$M_{X+Y}(t) = M_X(t)\cdot M_Y(t)$.
+
+<details>
+<summary>Worked Example: MGF of the Uniform Distribution</summary>
+
+Let $X \sim \text{Uniform}(0, 1)$. The MGF is:
+
+$$M_X(t) = E[e^{tX}] = \int_0^1 e^{tx}\,dx = \frac{e^t - 1}{t}, \quad t \neq 0$$
+
+Differentiating: $M_X'(0) = E[X] = 1/2$ and $M_X''(0) = E[X^2] = 1/3$.
+
+Thus $\text{Var}(X) = 1/3 - 1/4 = 1/12$, confirming the known result. $\blacksquare$
+
+</details>
+
+### 5.5 Key Relationships Summary
+
+| Operation | Resulting Distribution | Key Formula |
+| --------- | ---------------------- | ----------- |
+| $Y = g(X)$ monotone | $f_Y(y) = f_X(g^{-1}(y))\|d g^{-1}/dy\|$ | Change of variables |
+| $Z = X + Y$ independent | $f_Z = f_X * f_Y$ | Convolution integral |
+| $Y = aX + b$ | $f_Y(y) = \frac{1}{a}f_X\!\left(\frac{y-b}{a}\right)$ | Location-scale |
+| $X \sim N(\mu_1,\sigma_1^2)$, $Y \sim N(\mu_2,\sigma_2^2)$ | $X+Y \sim N(\mu_1+\mu_2,\sigma_1^2+\sigma_2^2)$ | Normal sum |
+| $X \sim \text{Poisson}(\lambda_1)$, $Y \sim \text{Poisson}(\lambda_2)$ | $X+Y \sim \text{Poisson}(\lambda_1+\lambda_2)$ | Poisson sum |
+| $M_{aX+b}(t)$ | $e^{bt}M_X(at)$ | MGF transformation |
+

@@ -112,3 +112,13 @@ choice for strongly Structured data with complex queries and transactional requi
 
 
 :::
+
+### 8.7 Key Relationships
+
+| Feature           | Document Store | Key-Value | Graph    | Column-Family |
+| ----------------- | -------------- | --------- | -------- | ------------- |
+| Schema flexibility | High           | N/A       | Medium   | Medium        |
+| Query complexity   | Medium         | None      | High     | Low           |
+| Horizontal scaling | Good           | Excellent | Moderate | Excellent     |
+| Join support       | None           | None      | Native   | None          |
+| Best for           | Content mgmt   | Caching   | Relations| Time-series   |

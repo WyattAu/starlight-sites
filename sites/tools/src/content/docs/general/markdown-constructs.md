@@ -457,3 +457,24 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Common Pitfalls in Markdown and MDX
+
+| Pitfall | Symptom | Fix |
+| ------- | ------- | --- |
+| Nested blockquotes | Incorrect nesting breaks rendering | Use `>` for level 1, `> >` for level 2 |
+| Table alignment markers | Misaligned columns in rendered output | Ensure colons line up with hyphens in separator row |
+| Inline code with pipes | Pipe breaks table structure | Use backtick-escaped code: `` \`code\` `` |
+| Task list checkboxes | Checkboxes not rendering as interactive | Use `- [x]` and `- [ ]` with spaces exactly as shown |
+| Unescaped angle brackets | Build error in MDX files | Write `&lt;` and `&gt;` in prose and table cells |
+| Missing language on code fence | No syntax highlighting applied | Always specify language: ` ```python ` |
+| Incorrect admonition syntax | Admonition rendered as blockquote | Use `:::note` at start, `:::` at end on its own line |
+| Double blank lines | Unnecessary vertical space in output | Use single blank lines between sections |
+| Tabs vs. spaces in code blocks | Indentation rendered inconsistently | Use consistent indentation (2 or 4 spaces) throughout |
+| Frontmatter title as h1 | Duplicate h1 heading in rendered page | Start body content with `##` (h2) level headings |
+
+:::tip Quick Reference
+For a complete syntax reference, consult the
+[Docusaurus Markdown documentation](https://docusaurus.io/docs/markdown-features)
+and the [MDX specification](https://mdxjs.com/).
+:::
+

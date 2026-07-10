@@ -130,3 +130,23 @@ $\frac{2\pi^2}{3} = 4\sum_{n=1}^{\infty} \frac{1}{n^2}$.
 $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 
 </details>
+
+### 7.10 Common Pitfalls
+
+- Confusing the $a_0/2$ convention with $a_0$; the factor of $1/2$ ensures the formula for $a_n$ works for $n = 0$.
+- Forgetting that the Fourier series of a function with jump discontinuities converges to the average of the left and right limits, not to the function value.
+- Mixing up sine and cosine series: a cosine series requires an even extension, while a sine series requires an odd extension.
+- Neglecting to check piecewise smoothness before applying Dirichlet's theorem.
+- Assuming that term-by-term differentiation of a Fourier series is always valid; it requires the differentiated series to converge.
+- Confusing the complex Fourier coefficient $c_n$ with the real coefficients $a_n$ and $b_n$.
+
+### 7.11 Key Results Summary
+
+| Result | Formula / Statement |
+|---|---|
+| Fourier coefficients | $a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\,dx$ |
+| Convergence (Dirichlet) | Converges to $f(x)$ where continuous, average at jumps |
+| Parseval's identity | $\frac{1}{\pi}\int_{-\pi}^{\pi}|f(x)|^2\,dx = \frac{a_0^2}{2} + \sum(a_n^2+b_n^2)$ |
+| Complex form | $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\,dx$ |
+| Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
+| Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |

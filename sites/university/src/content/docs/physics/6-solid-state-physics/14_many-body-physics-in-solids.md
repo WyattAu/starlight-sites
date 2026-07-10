@@ -117,3 +117,21 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 
 </details>
 
+### 14.5 Key Relationships
+
+| Quantity | Expression | Physical Meaning |
+|---|---|---|
+| Thomas-Fermi wavevector | $q_{\text{TF}}^2 = e^2 g(\varepsilon_F)/\varepsilon_0$ | Inverse screening length |
+| Screened potential | $V_{\text{scr}}(r) = (e^2/4\pi\varepsilon_0 r)e^{-q_{\text{TF}} r}$ | Exponentially decaying Coulomb interaction |
+| Kondo temperature | $k_B T_K \sim D\,e^{-1/(N(E_F)J)}$ | Energy scale for impurity spin screening |
+| Fermi liquid lifetime | $\tau \propto 1/(\varepsilon - \varepsilon_F)^2$ | Quasiparticle decay rate near Fermi surface |
+| Mott criterion | $U_c \sim W$ (bandwidth) | Onset of Mott insulating state |
+
+### 14.6 Common Pitfalls
+
+- Confusing the Thomas-Fermi screening length with the Debye length (the former applies to degenerate electrons, the latter to classical plasmas).
+- Assuming that the Hubbard model $U/t$ parameter fully determines the physics; lattice geometry and filling also matter.
+- Treating quasiparticles as real particles: they are emergent excitations that can decay, and their effective mass can be negative.
+- Neglecting that the Kondo effect requires a magnetic impurity in a non-magnetic host; in a magnetic host the physics is different.
+- Confusing the Mott insulator (driven by electron correlations) with a band insulator (driven by filled bands and a band gap).
+

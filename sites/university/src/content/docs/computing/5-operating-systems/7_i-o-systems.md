@@ -111,3 +111,13 @@ Transfer, interrupting the CPU only when complete.
 - Modern systems use **bus mastering**: the I/O device controller performs the transfer
   autonomously.
 
+### 7.5 Common Pitfalls
+
+- Confusing **polling** (busy-waiting) with **interrupt-driven** I/O. Polling wastes CPU cycles;
+  interrupts are preferred for low-frequency devices.
+- Assuming DMA eliminates all CPU overhead. The CPU must still set up DMA descriptors and handle the
+  completion interrupt.
+- Forgetting that I/O schedulers only apply to block devices. Character devices use FIFO ordering.
+- Mixing up **virtual** and **physical** addresses when programming DMA controllers. The DMA
+  controller operates on physical addresses.
+

@@ -105,3 +105,27 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 
 </details>
 
+### 1.7 Common Pitfalls
+
+- **Confusing order with degree.** The order of an ODE is the highest derivative, not the highest power of $y$ or $y'$.
+- **Misidentifying linearity.** A term like $yy'$ or $(y')^2$ makes an ODE nonlinear, even if each derivative appears only once.
+- **Mixing up IVP and BVP.** An IVP specifies conditions at a single point; a BVP specifies conditions at two or more distinct points.
+- **Assuming superposition for nonlinear equations.** The superposition principle applies only to linear homogeneous ODEs.
+
+### 1.8 Summary Table: ODE Classification
+
+| Equation | Order | Linear? | Homogeneous? | Type |
+|---|---|---|---|---|
+| $y' + 3y = 0$ | 1 | Yes | Yes | Linear, constant coeff. |
+| $y'' + y = \sin t$ | 2 | Yes | No | Linear, constant coeff. |
+| $y' = y^2$ | 1 | No | — | Nonlinear |
+| $x^2 y'' + xy' + (x^2-n^2)y = 0$ | 2 | Yes | Yes | Bessel's equation |
+| $u_t = \alpha^2 u_{xx}$ | 2 | Yes | Yes | Heat equation (PDE) |
+
+### 1.9 Applications in Practice
+
+- **Engineering:** Electrical circuit analysis (RLC circuits) and control systems rely on linear ODEs with constant coefficients.
+- **Biology:** Epidemiological models (SIR equations) and population dynamics use nonlinear systems of ODEs.
+- **Physics:** Newtonian mechanics, quantum mechanics (Schrödinger equation), and general relativity (Einstein field equations) are formulated as differential equations.
+- **Economics:** Black-Scholes equation for option pricing is a PDE; macroeconomic growth models use ODE systems.
+

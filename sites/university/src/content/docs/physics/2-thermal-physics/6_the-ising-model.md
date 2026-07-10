@@ -134,5 +134,14 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
 
 </details>
 
+### 6.7 Common Pitfalls
+
+- Confusing the sign convention: $J > 0$ is ferromagnetic, not antiferromagnetic.
+- Mean field theory overestimates $T_c$ because it ignores fluctuations. The error grows in lower
+  dimensions.
+- The 1D Ising model has no phase transition, but the 2D model does (Onsager, 1944). Do not
+  generalise the 1D result to higher dimensions.
+- Critical exponents are universal (depend only on dimension and symmetry), not on lattice details.
+
 ---
 

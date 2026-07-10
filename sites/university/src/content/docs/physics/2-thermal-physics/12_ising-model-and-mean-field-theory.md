@@ -115,3 +115,50 @@ This is a smooth function with no singularity — confirming no phase transition
 
 </details>
 
+### 12.4 Critical Exponents and Scaling
+
+Near the critical temperature, physical quantities follow power-law behaviour characterised by
+**critical exponents**:
+
+$$m \sim (T_c - T)^{\beta}, \quad T < T_c$$
+$$\chi \sim |T - T_c|^{-\gamma}, \quad C \sim |T - T_c|^{-\alpha}$$
+$$\xi \sim |T - T_c|^{-\nu}$$
+
+Where $m$ is magnetisation, $\chi$ is susceptibility, $C$ is specific heat, and $\xi$ is the
+correlation length.
+
+**Mean-field values:** $\beta = 1/2$, $\gamma = 1$, $\alpha = 0$ (jump), $\nu = 1/2$.
+
+**2D Ising exact values:** $\beta = 1/8$, $\gamma = 7/4$, $\alpha = 0$ (log), $\nu = 1$.
+
+Mean-field theory is exact above the upper critical dimension ($d > 4$) but gives incorrect exponents
+for $d < 4$. The exponents depend only on dimensionality and symmetry — not on microscopic details
+— a property called **universality**.
+
+### 12.5 Key Relationships
+
+| Quantity | Mean-Field Theory | 2D Ising (Exact) | 3D Ising (Numerical) |
+| -------- | ----------------- | ------------------ | ---------------------- |
+| $T_c$ (square lattice, $J=1$) | 4 | 2.269 | ~4.51 |
+| $\beta$ | 1/2 | 1/8 | ~0.326 |
+| $\gamma$ | 1 | 7/4 | ~1.237 |
+| $\alpha$ | 0 (jump) | 0 (log) | ~0.110 |
+| $\nu$ | 1/2 | 1 | ~0.630 |
+
+### 12.6 Applications
+
+**Magnetic materials.** The Ising model captures the essential physics of ferromagnetic phase
+transitions. The spontaneous magnetisation below $T_c$ corresponds to permanent magnetisation in
+ferromagnets like iron and nickel.
+
+**Binary alloys.** Replacing spin up/down with atom types A/B, the Ising model describes
+order-disorder transitions in alloys (e.g., brass, CuZn). The coupling $J$ represents the energy
+preference for unlike neighbours.
+
+**Lattice gases.** Mapping $\sigma_i = \pm 1$ to occupation numbers $n_i = (1 + \sigma_i)/2$
+gives a model of fluid adsorption on surfaces, where the critical point corresponds to the liquid-gas
+critical point.
+
+**Neural networks.** The Hopfield model of associative memory is formally equivalent to an Ising
+model with random couplings, where stored memories correspond to ground states.
+

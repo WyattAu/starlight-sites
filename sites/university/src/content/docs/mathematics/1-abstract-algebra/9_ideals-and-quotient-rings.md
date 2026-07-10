@@ -112,3 +112,25 @@ The unique solution modulo $105$ is $x \equiv 8 \pmod{105}$. $\blacksquare$
 
 </details>
 
+### 9.5 Common Pitfalls
+
+- **Confusing subrings with ideals.** Every ideal is a subring, but subrings need not be closed under multiplication by arbitrary ring elements.
+- **Forgetting two-sided closure.** An ideal must absorb multiplication from both sides: $ra \in I$ and $ar \in I$ for all $r \in R$, $a \in I$. In non-commutative rings, left and right ideals differ.
+- **Assuming primality implies maximality.** In $\mathbb{Z}$, $(0)$ is prime but not maximal. In $\mathbb{R}[x,y]$, $(x)$ is prime but not maximal since $(x) \subsetneq (x,y)$.
+- **Misapplying CRT.** The Chinese Remainder Theorem requires coprime moduli (or more generally, $I + J = R$). Without this condition, the natural map need not be surjective.
+
+### 9.6 Key Relationships
+
+| Concept | Ring | Condition | Quotient |
+|---|---|---|---|
+| Prime ideal | Commutative $R$ | $ab \in I \Rightarrow a \in I$ or $b \in I$ | $R/I$ is an integral domain |
+| Maximal ideal | Commutative $R$ | No ideal strictly between $I$ and $R$ | $R/I$ is a field |
+| Kernel of hom. | Any ring $R$ | $\ker(\phi) = \phi^{-1}(0)$ | $R/\ker(\phi) \cong \operatorname{im}(\phi)$ |
+| Principal ideal | $\mathbb{Z}$, $F[x]$ | $(a) = \{ra : r \in R\}$ | $\mathbb{Z}/(n) \cong \mathbb{Z}/n\mathbb{Z}$ |
+
+### 9.7 Applications
+
+- **Cryptography:** RSA encryption relies on $\mathbb{Z}/(n)$ where $n = pq$; the CRT optimises decryption via the isomorphism $\mathbb{Z}/(pq) \cong \mathbb{Z}/(p) \times \mathbb{Z}/(q)$.
+- **Error-correcting codes:** Polynomial rings over finite fields and quotient constructions underpin Reed-Solomon and BCH codes.
+- **Algebraic geometry:** The correspondence between ideals of $k[x_1, \ldots, x_n]$ and algebraic varieties (Hilbert's Nullstellensatz) generalises the prime/maximal ideal classification.
+
