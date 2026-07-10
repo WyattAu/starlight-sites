@@ -96,3 +96,48 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 
 </details>
 
+### Key Relationships
+
+| Concept | Relation | Significance |
+|---------|----------|--------------|
+| Distribution function | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} \pm 1)^{-1}$ | Unified form for FD/BE |
+| Fermi energy | $\epsilon_F = \hbar^2(3\pi^2 n)^{2/3}/(2m)$ | Sets scale for degenerate fermions |
+| BEC critical temperature | $T_c = 2\pi\hbar^2 n^{2/3}/(mk_B \zeta(3/2)^{2/3})$ | Phase transition temperature |
+| Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
+| Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
+
+### Common Pitfalls
+
+1. **Confusing FD and BE limits:** At high temperature ($T \gg T_F$ or $T \gg T_c$), both distributions reduce to the Maxwell--Boltzmann distribution. The quantum statistical corrections vanish when the interparticle spacing is much larger than the thermal de Broglie wavelength.
+
+2. **Chemical potential for bosons:** For bosons, $\mu$ must always be less than the ground state energy. Setting $\mu > \epsilon_0$ gives negative occupation numbers, which is unphysical. At $T_c$, $\mu \to 0$ (for a free gas with $\epsilon_0 = 0$).
+
+3. **Continuum approximation validity:** The $g(\epsilon) \propto \sqrt{\epsilon}$ density of states assumes a large volume. For small systems (nanoparticles, quantum dots), the discrete level structure becomes important and the integral approximation fails.
+
+4. **BEC requires dimensionality:** In 1D and 2D, Bose--Einstein condensation does not occur in a uniform gas (Hohenberg's theorem). Trapping potentials can, however, create quasi-condensates in lower dimensions.
+
+### Applications
+
+- **Metals and degenerate fermions:** The electron specific heat $C_V = \gamma T$ in metals directly reflects the Fermi degeneracy. The Sommerfeld parameter $\gamma$ measures the density of states at the Fermi level.
+- **Ultracold atoms:** BEC in dilute atomic gases (Rb, Na, Li) enables studies of superfluidity, quantised vortices, and matter-wave interferometry.
+- **Neutron stars:** Degenerate neutron Fermi pressure supports neutron stars against gravitational collapse, with $\epsilon_F \sim 50$ MeV.
+- **White dwarfs:** Electron degeneracy pressure balances gravity, with the Chandrasekhar mass limit arising from relativistic Fermi gas physics.
+
+### Connections to Other Topics
+
+- **Particle physics:** Neutrinos in the early universe follow FD statistics. The neutrino background temperature ($T_\nu \approx 1.95$ K) is slightly lower than the CMB due to $e^+e^-$ annihilation heating the photon bath.
+- **Condensed matter:** Heavy fermion materials have effective masses $m^* \gg m_e$, producing Fermi temperatures $T_F \sim 10$--$100$ K where quantum degeneracy meets accessible laboratory conditions.
+- **Cosmology:** The Bose--Einstein condensate has been proposed as a dark matter candidate (fuzzy dark matter), with a de Broglie wavelength of kiloparsec scales smoothing small-scale structure.
+- **Quantum information:** Degenerate Fermi gases in optical lattices simulate the Hubbard model, with the Pauli exclusion principle naturally enforcing the no-double-occupancy constraint at half-filling.
+
+### Summary Table: Comparison of Quantum and Classical Gases
+
+| Property | Maxwell--Boltzmann | Fermi--Dirac | Bose--Einstein |
+|----------|-------------------|-------------|----------------|
+| Particles | Distinguishable | Indistinguishable fermions | Indistinguishable bosons |
+| Occupation | $\langle n_i \rangle = e^{-(\epsilon_i-\mu)/k_BT}$ | $\langle n_i \rangle \leq 1$ | $\langle n_i \rangle$ unrestricted |
+| Low-$T$ behaviour | All in ground state | Fermi sea | BEC |
+| $C_V$ at low $T$ | $\frac{3}{2}Nk_B$ | $\propto T$ | $\propto T^{3/2}$ |
+| Validity condition | $n\lambda_{\text{th}}^3 \ll 1$ | $n\lambda_{\text{th}}^3 \gtrsim 1$ | $n\lambda_{\text{th}}^3 \gtrsim 2.612$ |
+| Symmetry of wavefunction | No constraint | Antisymmetric | Symmetric |
+

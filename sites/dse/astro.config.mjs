@@ -16,7 +16,8 @@ export default defineConfig({
   output: 'static',
   integrations: [
     starlight({
-      title: "Wyatt's Notes — DSE",
+      title: 'DSE',
+      pagefind: false,
       description:
         'Hong Kong DSE revision notes with worked examples and practice problems for Mathematics, Physics, Chemistry, Biology, and ICT.',
 
@@ -62,8 +63,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'DSE Notes',
-            description: 'Hong Kong DSE revision notes',
+            name: 'DSE',
+            description: 'Hong Kong DSE revision',
             url: 'https://dse.wyattau.com',
             publisher: {
               '@type': 'Organization',

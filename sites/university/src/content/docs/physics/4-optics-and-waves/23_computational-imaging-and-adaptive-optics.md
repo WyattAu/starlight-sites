@@ -77,5 +77,53 @@ $\blacksquare$
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Refraction and Optics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/03-refraction-and-total-internal-reflection) |
 | [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/2_waves-and-optics)                                            |
-| [Refraction and Optics] | University | [View](https://university.wyattau.com/docs/physics/4-optics-and-waves/1_optics-and-wave-physics)                       |
+| [Refraction and Optics] | University | [View](https://university.wyattau.com/docs/physics/4-optics-and-waves/1_optics-and-wave-physics) |
+
+### 19.3 Key Relationships
+
+| Concept               | Formula                                                               | Meaning                                                 |
+| --------------------- | --------------------------------------------------------------------- | ------------------------------------------------------- |
+| Nyquist criterion     | $f_s \geq 2f_{\max}$                                                  | Minimum sampling rate to avoid aliasing                 |
+| Compressed sensing    | $\hat{x} = \arg\min\|x\|_1$ s.t. $y = \Phi x$                        | Reconstruction from sub-Nyquist measurements            |
+| Strehl ratio          | $S = \exp[-(2\pi/\lambda)^2\langle\Delta\phi^2\rangle]$               | Measure of image quality after AO correction            |
+| Greenwood frequency   | $f_G = 0.427\,(v_w/r_0)$                                             | Required AO update rate for given wind speed $v_w$      |
+| Fried parameter       | $r_0 \propto \lambda^{6/5}(\cos\gamma)^{3/5}$                        | Coherence length of atmospheric turbulence              |
+
+### 19.4 Common Pitfalls
+
+- **Assuming compressed sensing works for any undersampled signal.** CS requires sparsity in some known basis and incoherence of the measurement matrix. **Fix:** Verify the signal is sparse in e.g. wavelet or DCT basis and that $\Phi$ satisfies the restricted isometry property.
+- **Confusing the Strehl ratio with resolution.** Strehl ratio measures image quality relative to diffraction-limited; a low Strehl ratio means aberrations spread energy, not necessarily lower resolution. **Fix:** Strehl $> 0.8$ is diffraction-limited; $S < 0.1$ indicates severe aberrations.
+- **Neglecting anisoplanatism in AO.** The turbulence correction is only valid within the isoplanatic angle $\theta_0$; stars far from the guide star are poorly corrected. **Fix:** Use multiple guide stars (laser tomography AO) or MOAO for wider fields.
+- **Forgetting the wavefront sensor latency.** AO correction must be applied faster than the Greenwood frequency; otherwise, the atmosphere changes before the mirror updates. **Fix:** AO loop bandwidth must exceed $f_G$.
+
+### 19.5 Applications
+
+- **Astronomical imaging:** Adaptive optics on 8-10 m telescopes (VLT, Keck, Gemini) enables diffraction-limited imaging in the near-infrared, resolving exoplanets and stellar surfaces.
+- **Microscopy:** Adaptive optics corrects for tissue aberrations in deep two-photon and confocal microscopy, recovering image contrast at depths $> 100\,\mu$m.
+- **Medical imaging:** Compressed sensing accelerates MRI acquisition by undersampling $k$-space and reconstructing using total variation minimisation, reducing scan times by 2-4$\times$.
+- **Laser communications:** Atmospheric turbulence distorts free-space optical links; AO pre-compensation at the transmitter improves coupling efficiency into single-mode fibres.
+- **Terahertz imaging:** Compressed sensing with a single-pixel detector enables THz imaging with sparse detector arrays, useful for security screening and non-destructive testing.
+
+### 19.6 Summary Table
+
+| Technique            | Problem addressed                     | Key mathematics                      | Typical hardware              |
+| -------------------- | ------------------------------------- | ------------------------------------ | ----------------------------- |
+| Compressed sensing   | Sub-Nyquist sampling                  | $\ell_1$-minimisation, RIP           | Single-pixel camera, sparse arrays |
+| Adaptive optics      | Atmospheric turbulence                | Zernike modes, wavefront sensing     | Deformable mirror, Shack-Hartmann sensor |
+| Deconvolution        | Blur from PSF                         | Wiener filter, Richardson-Lucy       | Post-processing (software)    |
+| Synthetic aperture   | Limited aperture size                 | Fourier-domain interpolation         | Antenna array, telescope array |
+
+### 19.7 Worked Example: Strehl Ratio and Wavefront Error
+
+**Problem.** An AO system reduces the wavefront RMS error to $\Delta\phi_{\rm rms} = \lambda/20$ at $\lambda = 500$ nm. Compute the Strehl ratio. Is the system diffraction-limited?
+
+**Solution.** The Strehl ratio is:
+
+$$S = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\langle\Delta\phi^2\rangle\right] = \exp\left[-\left(\frac{2\pi}{\lambda}\right)^2\left(\frac{\lambda}{20}\right)^2\right]$$
+
+$$S = \exp\left[-\left(\frac{2\pi}{20}\right)^2\right] = \exp\left[-\left(\frac{\pi}{10}\right)^2\right] = \exp(-\pi^2/100) \approx \exp(-0.0987) \approx 0.906$$
+
+Since $S > 0.8$, the system is diffraction-limited. This meets the Marechal criterion ($S > 0.8$), corresponding to $\Delta\phi_{\rm rms} < \lambda/14$. Our $\lambda/20$ exceeds this requirement.
+
+$\blacksquare$
 

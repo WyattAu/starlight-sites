@@ -57,8 +57,53 @@ $$\langle K \rangle = \frac{n}{2}\langle U \rangle$$
 
 (For the harmonic oscillator, $n = 2$: $\langle K \rangle = \langle U \rangle$.)
 
+### 14.4 Equivalence of Ensembles in the Thermodynamic Limit
+
+In the thermodynamic limit ($N \to \infty$, $V \to \infty$, $N/V$ fixed), the microcanonical, canonical, and grand canonical ensembles produce identical thermodynamic predictions. This is a consequence of the fact that the energy fluctuations in the canonical ensemble scale as $\Delta E / E \sim 1/\sqrt{N}$, vanishing in the limit.
+
+**Proposition 14.1.** For a system with Hamiltonian $\mathcal{H}$, the microcanonical entropy $S(E)$ and the canonical free energy $F(\beta) = -\beta^{-1} \ln Z(\beta)$ are related by the Legendre transform:
+
+$$F(\beta) = \inf_E [E - \beta^{-1} S(E)]$$
+
+### 14.5 The Third Law of Thermodynamics from the Microcanonical Ensemble
+
+**Proposition 14.2 (Nernst's Theorem).** As $T \to 0$, the entropy of a system approaches a constant (typically zero for a non-degenerate ground state):
+
+$$\lim_{T \to 0} S(E, V, N) = k_B \ln g_0$$
+
+where $g_0$ is the degeneracy of the ground state.
+
+In the microcanonical picture, at $T = 0$ the system occupies only the ground state microstate(s). If the ground state is unique, $\Omega = 1$ and $S = 0$.
+
+### 14.6 Worked Example: Two-State Paramagnet
+
+**Problem.** Consider $N$ non-interacting spin-1/2 particles in a magnetic field $B$. Each spin has energy $\pm \mu B$. Find the microcanonical entropy and the equation of state.
+
 <details>
-<summary>Worked Example 14.1: Density of States for $N$ Harmonic Oscillators</summary>
+<summary>Solution</summary>
+
+For a system with total energy $E = (N_\uparrow - N_\downarrow)\mu B = (2N_\uparrow - N)\mu B$, the number of microstates with $N_\uparrow$ up-spins is:
+
+$$\Omega(N_\uparrow) = \binom{N}{N_\uparrow} = \frac{N!}{N_\uparrow! (N - N_\uparrow)!}$$
+
+Using Stirling's approximation:
+
+$$S = k_B \ln \Omega = k_B[N\ln N - N_\uparrow\ln N_\uparrow - (N - N_\uparrow)\ln(N - N_\uparrow)]$$
+
+From $1/T = \partial S/\partial E$:
+
+$$\frac{1}{T} = \frac{k_B}{2\mu B} \ln\frac{N - N_\uparrow}{N_\uparrow}$$
+
+Solving for the magnetisation $M = (N_\uparrow - N_\downarrow)\mu B$:
+
+$$M = N\mu \tanh\left(\frac{\mu B}{k_B T}\right)$$
+
+This is the **Brillouin function** for spin-1/2, matching the canonical ensemble prediction.
+
+</details>
+
+<details>
+<summary>Worked Example 14.2: Density of States for $N$ Harmonic Oscillators</summary>
 
 For $N$ independent harmonic oscillators with frequency $\omega$Total energy $E$:
 
@@ -78,4 +123,48 @@ $$\frac{1}{T} = \frac{\partial S}{\partial E} = \frac{k_B}{\hbar\omega}\left[\ln
 At high $T$ ($n \gg N$): $E \approx Nk_B T$ (equipartition, each oscillator has energy $k_B T$).
 
 </details>
+
+### 14.7 Worked Example: Ideal Gas in Two Dimensions
+
+**Problem.** Find the microcanonical entropy of an ideal gas confined to a two-dimensional area $A$ with $N$ particles and total energy $E$.
+
+<details>
+<summary>Solution</summary>
+
+The phase space volume for $N$ particles in 2D with energy less than $E$ is:
+
+$$\Sigma(E) = \frac{A^N}{N! h^{2N}} \cdot \frac{(2\pi m E)^N}{\Gamma(N+1)}$$
+
+The number of states with energy between $E$ and $E + \delta E$ is $\Omega = (\partial\Sigma/\partial E)\,\delta E$:
+
+$$\Omega = \frac{A^N}{N! h^{2N}} \cdot \frac{(2\pi m)^N E^{N-1}}{(N-1)!}\,\delta E$$
+
+Using Stirling's approximation:
+
+$$S = Nk_B\left[\ln\!\left(\frac{A}{N}\right) + \ln\!\left(\frac{2\pi m E}{h^2}\right) + 2\right]$$
+
+The equation of state is $PA = Nk_B T$ (the 2D analogue of $PV = Nk_B T$), and the internal energy is $E = Nk_B T$.
+
+$\blacksquare$
+
+</details>
+
+### 14.8 Ensemble Equivalence: Fluctuations
+
+In the canonical ensemble, the energy fluctuates around its mean value $\langle E \rangle$. The variance is related to the heat capacity:
+
+$$\langle (\Delta E)^2 \rangle = k_B T^2 C_V$$
+
+The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle \sim 1/\sqrt{N}$, vanishing in the thermodynamic limit. This justifies the equivalence of microcanonical and canonical ensembles for macroscopic systems.
+
+### 14.9 Summary of Key Formulas
+
+| Quantity | Expression |
+|----------|-----------|
+| Microcanonical partition function | $\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} d^{3N}q\,d^{3N}p / (N! h^{3N})$ |
+| Boltzmann entropy | $S = k_B \ln \Omega$ |
+| Temperature | $1/T = \partial S/\partial E$ |
+| Pressure | $P = T\,\partial S/\partial V$ |
+| Chemical potential | $\mu = -T\,\partial S/\partial N$ |
+| Sackur-Tetrode (ideal gas) | $S = Nk_B[\ln(V/N) + \frac{3}{2}\ln(4\pi m E/(3Nh^2)) + \frac{5}{2}]$ |
 

@@ -58,3 +58,87 @@ Sobolev spaces $W^{k,p}(\Omega)$ (for $k \geq 0$, $1 \leq p \leq \infty$) genera
 $W^{k,p}$ consists of functions whose weak derivatives up to order $k$ belong to $L^p$. They are
 Banach spaces, and $W^{k,2} = H^k$ are Hilbert spaces.
 
+### 7.4 Fourier Analysis and Signal Processing
+
+The Fourier transform on $L^2(\mathbb{R}^n)$ is a unitary operator $\mathcal{F} : L^2 \to L^2$ defined by:
+
+$$(\mathcal{F}f)(\xi) = \frac{1}{(2\pi)^{n/2}} \int_{\mathbb{R}^n} f(x) e^{-i x \cdot \xi} dx$$
+
+Plancherel's theorem states $\|\mathcal{F}f\|_2 = \|f\|_2$. The Schwartz space $\mathcal{S}(\mathbb{R}^n)$ of rapidly decaying smooth functions is dense in $L^2$ and is invariant under the Fourier transform.
+
+In signal processing, the sampling theorem (Nyquist-Shannon) follows from the Paley-Wiener theorem characterising functions with compactly supported Fourier transforms. Functional analysis also underpins wavelet theory: the existence of orthonormal wavelet bases of $L^2(\mathbb{R})$ relies on the theory of frames and multiresolution analysis.
+
+### 7.5 Applied Functional Analysis: The Galerkin Method
+
+The Galerkin method approximates solutions of PDEs by projecting onto finite-dimensional subspaces. Let $V_h \subset H^1_0(\Omega)$ be a finite-dimensional subspace (e.g., finite elements). Find $u_h \in V_h$ such that:
+
+$$\int_\Omega \nabla u_h \cdot \nabla v_h\, dx = \int_\Omega f v_h\, dx \quad \forall v_h \in V_h$$
+
+This reduces to solving a linear system $A\mathbf{u} = \mathbf{b}$ where $A_{ij} = \int_\Omega \nabla\phi_i \cdot \nabla\phi_j\, dx$ for basis functions $\{\phi_i\}$. Céa's lemma provides a quasi-optimal error estimate:
+
+$$\|u - u_h\|_{H^1} \leq C \inf_{v_h \in V_h} \|u - v_h\|_{H^1}$$
+
+### 7.6 Optimisation and Control Theory
+
+In convex optimisation, the existence of minimisers for a functional $J : H \to \mathbb{R}$ follows from the direct method of calculus of variations: if $J$ is coercive, lower semicontinuous, and $H$ is reflexive, then a minimiser exists. This applies to problems such as:
+
+$$\min_{u \in H^1_0(\Omega)} \frac{1}{2} \int_\Omega |\nabla u|^2\, dx - \int_\Omega f u\, dx$$
+
+The optimality condition is precisely the weak formulation of the Poisson equation.
+
+**Theorem 7.2 (Stampacchia).** Let $H$ be a Hilbert space, $K \subset H$ a nonempty closed convex set, and $a(\cdot, \cdot)$ a coercive bilinear form. For any $\ell \in H^*$, there exists a unique $u \in K$ such that $a(u, v - u) \geq \ell(v - u)$ for all $v \in K$. This is the foundation of variational inequalities and obstacle problems.
+
+### 7.7 Worked Example: Compact Operators and Integral Equations
+
+**Problem.** Solve the Fredholm integral equation $u(x) - \lambda \int_a^b K(x, y) u(y) dy = f(x)$ where $K$ is a continuous kernel on $[a, b]^2$.
+
+<details>
+<summary>Solution</summary>
+
+The integral operator $(T u)(x) = \int_a^b K(x, y) u(y) dy$ is compact on $L^2[a, b]$ (by the Arzela-Ascoli theorem or more generally by the fact that $K$ is Hilbert-Schmidt). For $\lambda$ not in the spectrum of $T$, the equation has a unique solution by the Fredholm alternative: either the homogeneous equation has only the trivial solution and the inhomogeneous equation has a unique solution, or the homogeneous equation has nontrivial solutions and the inhomogeneous equation has solutions only for $f$ orthogonal to the nullspace of $T^*$.
+
+The solution can be expressed using the resolvent operator $R_\lambda = (I - \lambda T)^{-1}$:
+
+$$u = f + \lambda R_\lambda f$$
+
+For degenerate (separable) kernels $K(x, y) = \sum_{i=1}^n g_i(x) h_i(y)$, the equation reduces to an $n \times n$ linear system.
+
+$\blacksquare$
+
+</details>
+
+### 7.8 Worked Example: Neumann Series
+
+**Problem.** Solve $u - Tu = f$ by iteration where $\|T\| < 1$.
+
+<details>
+<summary>Solution</summary>
+
+Since $\|T\| < 1$, the Neumann series $(I - T)^{-1} = \sum_{n=0}^\infty T^n$ converges in operator norm. The solution is:
+
+$$u = \sum_{n=0}^\infty T^n f$$
+
+The error after $N$ terms satisfies $\|u - u_N\| \leq \frac{\|T\|^{N+1}}{1 - \|T\|} \|f\|$.
+
+$\blacksquare$
+
+</details>
+
+### 7.9 Application: Control Theory and the Riccati Equation
+
+In optimal control, the **linear-quadratic regulator (LQR)** problem seeks to minimise:
+
+$$J(u) = \int_0^\infty (x(t)^T Q x(t) + u(t)^T R u(t))\, dt$$
+
+subject to $\dot{x} = Ax + Bu$. The optimal control is $u = -Kx$ where $K = R^{-1}B^T P$ and $P$ solves the **algebraic Riccati equation**:
+
+$$A^T P + P A - P B R^{-1} B^T P + Q = 0$$
+
+The existence and uniqueness of a positive definite solution $P$ follows from spectral theory of Hamiltonian matrices and functional analysis on the space of symmetric operators.
+
+### 7.10 Application: Machine Learning and Reproducing Kernel Hilbert Spaces
+
+A **reproducing kernel Hilbert space (RKHS)** $H$ is a Hilbert space of functions on $X$ such that the evaluation functional $\delta_x(f) = f(x)$ is bounded for all $x \in X$. By the Riesz representation theorem, there exists $k_x \in H$ with $f(x) = \langle f, k_x \rangle$.
+
+The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite function. The Moore-Aronszajn theorem states that every positive definite kernel corresponds to a unique RKHS. RKHS theory underpins kernel methods in machine learning, including support vector machines and Gaussian processes.
+

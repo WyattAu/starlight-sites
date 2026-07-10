@@ -53,6 +53,42 @@ This satisfies $0 \leq |\gamma_{12}| \leq 1$. The **visibility** of interference
 
 $$V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = |\gamma_{12}|$$
 
+### 16.4 Key Relationships
+
+| Coherence property | Measured by                 | Determined by               | Typical value                |
+| ------------------ | --------------------------- | --------------------------- | ---------------------------- |
+| Temporal           | Coherence time $\tau_c$     | Source bandwidth $\Delta\nu$ | $10^{-9}$ s (white light)    |
+| Temporal           | Coherence length $l_c$      | Source bandwidth $\Delta\lambda$ | $1.5\ \mu$m (white light) |
+| Spatial            | Coherence area $A_c$        | Source size and distance    | $(\lambda R / w)^2$          |
+| Mutual coherence   | $\Gamma_{12}(\tau)$         | Both spatial and temporal   | Depends on source geometry   |
+
+### 16.5 Common Pitfalls
+
+- **Confusing temporal and spatial coherence.** Temporal coherence depends on the source bandwidth;
+  spatial coherence depends on the source size. A laser has high temporal coherence (narrow
+  linewidth) but can have low spatial coherence if operated in multi-mode.
+- **Assuming a point source gives infinite coherence.** A true point source gives perfect spatial
+  coherence, but any real source has finite size. The van Cittert--Zernike theorem quantifies the
+  trade-off.
+- **Forgetting that fringe visibility depends on both polarisation and coherence.** Two beams with
+  orthogonal polarisations produce no interference even if spatially and temporally coherent.
+- **Thinking the coherence length is the maximum path difference for fringes.** While related, the
+  visibility decreases gradually; the coherence length is typically defined as the path difference
+  where visibility drops to $1/e$ or $1/2$.
+
+### 16.6 Applications
+
+- **Holography:** Requires high temporal and spatial coherence to record interference patterns
+  between object and reference beams. Lasers are essential because of their long coherence length.
+- **Optical coherence tomography (OCT):** Uses low-coherence interferometry to image subsurface
+  tissue structure. The short coherence length of broadband light provides micron-scale axial
+  resolution.
+- **LIDAR:** Coherent LIDAR uses temporal coherence for Doppler velocity measurement of remote
+  targets. The coherence length determines the maximum range.
+- **Radio astronomy:** Very Long Baseline Interferometry (VLBI) uses spatial coherence across
+  telescope arrays separated by thousands of kilometres to achieve angular resolution of
+  micro-arcseconds.
+
 <details>
 <summary>Worked Example 16.1: Double-Slit with Extended Source</summary>
 
@@ -79,3 +115,20 @@ diameter is determined.
 
 </details>
 
+### 16.7 Worked Examples
+
+**Problem 1.** A Michelson interferometer uses a sodium lamp ($\lambda = 589$ nm, $\Delta\lambda = 0.6$ nm).
+What is the maximum path difference for visible fringes?
+
+**Solution.** Coherence length $l_c = \lambda^2 / \Delta\lambda = (589)^2 / 0.6 \approx 578,000$ nm
+$\approx 0.58$ mm. Fringes are visible for path differences up to roughly $l_c$, so the maximum
+path difference is about 0.58 mm. Beyond this, the temporal coherence is insufficient and fringe
+visibility drops to zero. $\blacksquare$
+
+**Problem 2.** Two slits are separated by $d = 0.5$ mm and illuminated by a thermal source of width
+$w = 0.2$ mm at distance $D = 50$ cm ($\lambda = 550$ nm). Find the fringe visibility.
+
+**Solution.** Using van Cittert--Zernike: $|\gamma| = |\sin(\pi w d/(\lambda D)) / (\pi w d/(\lambda D))|$.
+$\pi w d/(\lambda D) = \pi \times 2\times10^{-4} \times 5\times10^{-4} / (5.5\times10^{-7} \times 0.5)$
+$= \pi \times 10^{-7} / (2.75\times10^{-7}) = \pi \times 0.364 = 1.143$ rad. $|\gamma| = |\sin(1.143)/1.143| = 0.81/1.143 = 0.709$.
+Fringe visibility $V = 0.71$ (71%). $\blacksquare$

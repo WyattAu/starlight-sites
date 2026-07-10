@@ -1,10 +1,11 @@
 ---
 title: Ownership and Borrowing
 description: "Rust' s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems."
+---
 
-------:::note[Historical Context]
+:::note[Historical Context]
 Rust's ownership system was designed by Graydon Hoare at Mozilla Research (announced 2010, 1.0 in 2015). The key insight — memory safety enforced at compile time without a garbage collector — drew on Cyclone (1998) for region-based memory, MLton for lifetime tracking in functional languages, and Mozilla's own experience with C++ security vulnerabilities. The same affine-type mechanism for resource tracking appears in linear logic (Girard, 1987) and session types (Honda, 1993), connecting Rust's practical design to deep theoretical foundations.
-:::------
+:::
 
 ## The Ownership Rules
 

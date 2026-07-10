@@ -55,6 +55,58 @@ For a charge and a magnetic monopole (if they exist), the field angular momentum
 $\mathbf{L} = -qg\hat{\mathbf{r}}/(4\pi)$ is quantised in units of $\hbar/2$Leading to the Dirac
 charge quantisation condition $eg = n\hbar/2$.
 
+### 12.4 Key Relationships
+
+| Quantity              | 3-vector form              | 4-vector / tensor form              |
+| --------------------- | -------------------------- | ----------------------------------- |
+| Potential             | $\phi$, $\mathbf{A}$       | $A^\mu = (\phi/c, \mathbf{A})$      |
+| Fields                | $\mathbf{E}$, $\mathbf{B}$ | $F^{\mu\nu} = \partial^\mu A^\nu - \partial^\nu A^\mu$ |
+| Charge-current        | $\rho$, $\mathbf{J}$       | $J^\mu = (c\rho, \mathbf{J})$       |
+| Force density         | $\rho\mathbf{E} + \mathbf{J}\times\mathbf{B}$ | $f^\mu = F^{\mu\nu}J_\nu$ |
+| Energy-momentum       | $u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$, $\mathbf{S}$ | $T^{\mu\nu}$ |
+
+### 12.5 Common Pitfalls
+
+- **Assuming $\mathbf{E}$ and $\mathbf{B}$ transform independently.** They do not; the field tensor
+  transforms as a whole under Lorentz boosts. A pure electric field in one frame becomes a mixture
+  in another.
+- **Confusing the dual tensor $\tilde{F}^{\mu\nu}$ with $F^{\mu\nu}$.** The dual swaps electric and
+  magnetic fields ($\mathbf{E} \to c\mathbf{B}$, $\mathbf{B} \to -\mathbf{E}/c$) and is used in the
+  homogeneous Maxwell equation $\partial_\mu \tilde{F}^{\mu\nu} = 0$.
+- **Forgetting that $F^{\mu\nu}$ is antisymmetric.** This antisymmetry encodes the fact that there
+  are six independent field components (three for $\mathbf{E}$, three for $\mathbf{B}$).
+- **Misapplying the Lorentz force formula.** The relativistic Lorentz force $f^\mu = qF^{\mu\nu}u_\nu$
+  gives the four-force, not the three-force. The spatial components reduce to
+  $d\mathbf{p}/dt = q(\mathbf{E} + \mathbf{v}\times\mathbf{B})$ in the non-relativistic limit.
+
+### 12.6 Worked Examples
+
+**Problem 1.** Show that $\mathbf{E}\cdot\mathbf{B}$ is a Lorentz invariant.
+
+**Solution.** $\mathbf{E}\cdot\mathbf{B}$ is proportional to $\frac{1}{4}\tilde{F}^{\mu\nu}F_{\mu\nu}$.
+Since this is a full contraction of two tensors, it is a scalar and thus invariant. Explicitly:
+$\tilde{F}^{\mu\nu}F_{\mu\nu} = -4\mathbf{E}\cdot\mathbf{B}/c$. Under any Lorentz transformation,
+both $F^{\mu\nu}$ and $\tilde{F}^{\mu\nu}$ transform as tensors, so their contraction is invariant.
+$\blacksquare$
+
+**Problem 2.** Derive the transformation of the Poynting vector under a Lorentz boost.
+
+**Solution.** $\mathbf{S} = \mathbf{E} \times \mathbf{B} / \mu_0$ transforms as part of the
+energy-momentum tensor $T^{\mu\nu}$. The components $T^{0i} = S_i/c$ transform under a boost:
+$S'_x = S_x$, $S'_y = \gamma(S_y - v u)$, $S'_z = \gamma(S_z + v u)$ where $u$ is the energy density.
+This shows that energy flux in one frame contributes to energy density in another. $\blacksquare$
+
+### 12.7 Applications
+
+- **Particle physics:** The covariant formulation is essential for quantum electrodynamics (QED),
+  where $F^{\mu\nu}$ couples to the Dirac field via minimal coupling $\partial^\mu \to D^\mu$.
+- **Plasma physics:** Relativistic plasmas require the covariant formulation for correct treatment
+  of high-energy particle motion in strong electromagnetic fields.
+- **Astrophysics:** Pulsar electrodynamics and magnetar fields involve enormous Lorentz factors
+  where the field transformation laws govern radiation emission mechanisms.
+- **Accelerator physics:** The design of particle accelerators requires precise knowledge of how
+  electromagnetic fields appear in the rest frame of relativistic particle bunches.
+
 <details>
 <summary>Worked Example 12.1: Fields of a Moving Point Charge</summary>
 
@@ -78,4 +130,3 @@ width $\sim 1/\gamma$ around the plane perpendicular to the motion. This is the 
 **synchrotron radiation** patterns.
 
 </details>
-

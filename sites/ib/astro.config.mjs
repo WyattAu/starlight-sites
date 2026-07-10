@@ -22,7 +22,8 @@ export default defineConfig({
     mermaid({ theme: 'dark', autoTheme: true }),
     mermaidNoRocketLoader(),
     starlight({
-      title: "Wyatt's Notes — IB",
+      title: 'IB',
+      pagefind: false,
       description:
         'International Baccalaureate Diploma Programme notes aligned to the IB curriculum framework for Mathematics, Sciences, and Humanities.',
 
@@ -94,8 +95,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'IB Notes',
-            description: 'International Baccalaureate notes',
+            name: 'IB',
+            description: 'International Baccalaureate',
             url: 'https://ib.wyattau.com',
             publisher: {
               '@type': 'Organization',

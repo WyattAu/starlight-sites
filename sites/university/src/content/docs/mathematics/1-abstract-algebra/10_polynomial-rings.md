@@ -94,3 +94,40 @@ Thus $f$ has no factor of degree $1$ or $2$So $f$ is irreducible in $\mathbb{Q}[
 
 </details>
 
+### 10.4 Key Relationships
+
+- If $F \subseteq K$ is a field extension, then $F[x]$ is a subring of $K[x]$.
+- For a field $F$, the polynomial ring $F[x]$ is a Euclidean domain, hence a PID and a UFD.
+- If $R$ is a UFD, then $R[x]$ is a UFD (Gauss's lemma extends unique factorisation).
+- If $R$ is a PID, then $R[x]$ is a UFD but generally not a PID.
+- The degree map $\deg : F[x] \setminus \{0\} \to \mathbb{N}$ is a Euclidean valuation.
+
+### 10.5 Common Pitfalls
+
+- Assuming that irreducibility in $R[x]$ implies irreducibility in $S[x]$ for an extension $S \supseteq R$.
+  The polynomial $x^2 + 1$ is irreducible over $\mathbb{Q}$ but reducible over $\mathbb{C}$.
+- Forgetting that Eisenstein's criterion requires the leading coefficient not to be divisible by $p$.
+  If $p \mid a_n$ the criterion gives no information about reducibility.
+- Confusing the polynomial ring $F[x]$ with the ring of formal power series $F[[x]]$.
+  In $F[[x]]$ every element is a unit except those with zero constant term.
+- Neglecting to check that a proposed factorisation respects the coefficient ring.
+  Over $\mathbb{Z}[x]$, a factorisation into monic polynomials in $\mathbb{Q}[x]$ may not lie in $\mathbb{Z}[x]$.
+
+### 10.6 Applications
+
+- **Coding theory:** BCH and Reed-Solomon codes are constructed using polynomial rings over finite fields $\mathbb{F}_q$.
+- **Cryptography:** The ring $\mathbb{Z}_p[x]/(f(x))$ where $f$ is irreducible gives a finite field $\mathbb{F}_{p^n}$, used in elliptic curve cryptography.
+- **Algebraic geometry:** The coordinate ring of an affine variety is a quotient of a polynomial ring.
+- **Signal processing:** The discrete Fourier transform can be viewed as evaluating a polynomial at roots of unity.
+
+### 10.7 Worked Example: Irreducibility via Substitution
+
+**Problem.** Show that $f(x) = x^4 + 4x + 2$ is irreducible in $\mathbb{Q}[x]$.
+
+<details>
+<summary>Solution</summary>
+
+By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficient) and $4 \nmid 2$ (constant term). So $f$ is irreducible in $\mathbb{Q}[x]$. $\blacksquare$
+
+</details>
+

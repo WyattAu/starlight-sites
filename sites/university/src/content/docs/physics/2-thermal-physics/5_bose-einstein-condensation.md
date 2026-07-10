@@ -91,3 +91,45 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 
 ---
 
+### Key Relationships
+
+| Quantity | Expression | Physical Meaning |
+|----------|------------|------------------|
+| Critical temperature | $T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ | Onset of macroscopic occupation |
+| Condensate fraction | $\frac{N_0}{N} = 1 - (T/T_c)^{3/2}$ | Order parameter below $T_c$ |
+| Energy below $T_c$ | $U \propto Nk_B T_c (T/T_c)^{5/2}$ | Deviates from equipartition |
+| Heat capacity | $C_V \propto T^{3/2}$ below $T_c$ | Signature of BEC phase |
+| de Broglie wavelength | $\lambda_{\text{th}} = h/\sqrt{2\pi m k_B T}$ | BEC occurs when $n\lambda_{\text{th}}^3 \approx 2.612$ |
+
+### Common Pitfalls
+
+1. **BEC is not a classical condensation:** BEC is a purely quantum phenomenon driven by Bose statistics, not by interparticle interactions. An ideal Bose gas condenses, whereas a classical gas would not.
+2. **Finite-size effects:** The critical temperature derived assumes the thermodynamic limit ($N \to \infty$, $V \to \infty$, $n$ fixed). For finite traps with $N \sim 10^4$, there are corrections of order $N^{-1/3}$.
+3. **Dimensionality matters:** In 2D, the density of states is constant and the integral for $N_{\text{ex}}$ diverges at $\mu = 0$ only logarithmically. Strict BEC does not occur in 2D uniform gases (Mermin--Wagner--Hohenberg theorem).
+4. **Interactions modify $T_c$:** Repulsive interactions slightly suppress $T_c$ relative to the ideal gas prediction. The shift is $\Delta T_c/T_c \propto (n^{1/3}a_s)$, where $a_s$ is the scattering length.
+
+### Applications
+
+- **Atom lasers:** A BEC releases coherent matter waves, analogous to an optical laser. Coherence lengths exceeding 1 mm have been demonstrated.
+- **Precision measurement:** BEC interferometry measures gravitational acceleration, rotations, and fundamental constants with extreme sensitivity.
+- **Superfluid helium:** Liquid $^4$He below 2.17 K exhibits superfluidity, with approximately 10% of atoms in the condensate (strongly interacting, unlike the ideal gas model).
+- **Quantum simulation:** Optical lattices loaded with BEC simulate the Hubbard model, enabling studies of quantum phase transitions.
+- **Slow light:** Electromagnetically induced transparency in BEC reduces light speed to metres per second.
+
+### Connections to Other Topics
+
+- **Superconductivity:** The BCS ground state is a condensate of Cooper pairs (composite bosons). The BCS--BEC crossover connects fermionic pairing to molecular BEC.
+- **Quantum field theory:** BEC is an example of spontaneous symmetry breaking — the $U(1)$ phase symmetry of the matter field is broken, giving rise to a Goldstone mode (Bogoliubov phonon).
+- **Statistical mechanics:** The BEC transition is a textbook example of a phase transition driven purely by statistics, requiring no interactions.
+
+### Summary Table: Ideal Bose Gas vs Ideal Fermi Gas
+
+| Property | Bose Gas | Fermi Gas |
+|----------|----------|-----------|
+| Statistics | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} - 1)^{-1}$ | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} + 1)^{-1}$ |
+| $\mu$ constraint | $\mu \leq \epsilon_0$ | $\mu$ unrestricted (can be positive at $T=0$) |
+| $T=0$ state | All particles in ground state | Filled up to $\epsilon_F$ |
+| Low-$T$ heat capacity | $C_V \propto T^{3/2}$ | $C_V \propto T$ |
+| Phase transition | BEC at $T_c$ | No phase transition |
+| High-$T$ limit | Maxwell--Boltzmann | Maxwell--Boltzmann |
+

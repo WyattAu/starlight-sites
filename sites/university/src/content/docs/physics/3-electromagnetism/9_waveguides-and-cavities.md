@@ -104,3 +104,52 @@ Check: $v_p \times v_g = 1.32c \times 0.756c = c^2$. $\checkmark$
 
 </details>
 
+## Common Pitfalls
+
+- **Assuming TEM modes exist in hollow waveguides:** TEM modes require at least two separate conductors (e.g., coaxial cables). Hollow rectangular and circular waveguides cannot support TEM modes; they only support TE and TM modes.
+- **Confusing cutoff frequency with zero propagation:** At $\omega = \omega_c$, $k = 0$ and the wave does not propagate. Below cutoff, $k$ becomes imaginary and fields decay exponentially (evanescent mode), carrying no net power.
+- **Forgetting that $m$ or $n$ can be zero in TE modes but not in TM modes:** For TE$_{mn}$ modes, $m$ and $n$ cannot both be zero, but one may be zero. For TM$_{mn}$ modes, both $m$ and $n$ must be non-zero, meaning the lowest TM mode is TM$_{11}$.
+- **Misapplying the quality factor formula:** The $Q$ of a cavity depends on the specific mode, as different field distributions produce different wall currents and hence different ohmic losses. The approximate formula $Q \approx (V/S\delta) \cdot 3/2$ is for the dominant mode only.
+
+## Worked Example: Circular Waveguides
+
+For a circular waveguide of radius $R$, the TE modes have cutoff wavenumbers $k_c = p'_{mn}/R$ where $p'_{mn}$ is the $n$-th root of $J'_m(x) = 0$. The TM modes have $k_c = p_{mn}/R$ where $p_{mn}$ is the $n$-th root of $J_m(x) = 0$.
+
+| Mode | Cutoff condition | Lowest root | $f_c$ for $R = 1$ cm |
+|------|-----------------|-------------|---------------------|
+| TE$_{11}$ | $J'_1(p'_{11}) = 0$ | $p'_{11} = 1.841$ | 8.79 GHz |
+| TM$_{01}$ | $J_0(p_{01}) = 0$ | $p_{01} = 2.405$ | 11.48 GHz |
+| TE$_{21}$ | $J'_2(p'_{21}) = 0$ | $p'_{21} = 3.054$ | 14.58 GHz |
+
+The dominant mode in a circular waveguide is TE$_{11}$, with cutoff $f_c = \frac{cp'_{11}}{2\pi R} = \frac{1.841c}{2\pi R}$. Circular waveguides are used in rotating joints and polarisation-sensitive applications because TE$_{11}$ maintains polarisation orientation.
+
+## Worked Example: Cavity Mode Selection
+
+**Problem.** Design a rectangular cavity ($a = 3$ cm, $b = 1.5$ cm, $d = 2$ cm) that resonates at approximately 10 GHz. Which mode should be used?
+
+**Solution.** The resonant frequency formula is $f_{mnp} = \frac{c}{2}\sqrt{(m/a)^2 + (n/b)^2 + (p/d)^2}$.
+
+For TE$_{101}$: $f = \frac{3 \times 10^8}{2}\sqrt{(1/0.03)^2 + (1/0.02)^2} = 1.5 \times 10^8 \times \sqrt{1111.1 + 2500} = 1.5 \times 10^8 \times 60.09 = 9.01$ GHz.
+
+For TE$_{102}$: $f = 1.5 \times 10^8 \times \sqrt{1111.1 + 10000} = 1.5 \times 10^8 \times 105.4 = 15.8$ GHz.
+
+For TE$_{011}$: $f = 1.5 \times 10^8 \times \sqrt{(1/0.015)^2 + (1/0.02)^2} = 1.5 \times 10^8 \times \sqrt{4444.4 + 2500} = 1.5 \times 10^8 \times 83.33 = 12.5$ GHz.
+
+TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inserting a dielectric can adjust the resonant frequency upward to exactly 10 GHz.
+
+## Key Relationships
+
+- **Cutoff frequency determines single-mode operation:** For a waveguide with $a > b$, the TE$_{10}$ mode has the lowest cutoff. Operating between $f_{c,10}$ and the next higher cutoff ensures only one mode propagates, avoiding modal dispersion.
+- **Phase velocity exceeds $c$ while group velocity is below $c$:** This is consistent with special relativity because no information travels at the phase velocity; signal velocity is bounded by $v_g \leq c$.
+- **The product $v_p \cdot v_g = c^2$ is universal** for all waveguide modes in a lossless rectangular guide, a direct consequence of the dispersion relation.
+- **Quality factor $Q$ increases with cavity size:** Larger cavities store more energy relative to wall losses, giving higher $Q$. This is why microwave cavities in particle accelerators are large.
+- **Skin depth decreases with frequency:** Higher frequency means thinner current-carrying layer on walls, reducing resistive losses but also reducing the effective conductor cross-section.
+
+## Applications
+
+- **Microwave communication:** Rectangular waveguides (e.g., WR-90 for X-band) carry radar signals with low loss, as the confined mode avoids radiation losses.
+- **Particle accelerators:** Resonant cavities (e.g., RF cavities in synchrotrons) accelerate charged particles by sustaining strong oscillating electric fields at precise frequencies.
+- **Microwave ovens:** The magnetron generates microwaves at 2.45 GHz that propagate into the oven cavity, where standing waves heat food.
+- **Fibre optics:** Although optical fibres are dielectric waveguides rather than metallic, the same concepts of modes, cutoff, and dispersion apply.
+- **Radar systems:** Waveguide components (bends, twists, directional couplers) route microwave signals between the transmitter, antenna, and receiver with minimal loss.
+

@@ -1191,4 +1191,6 @@ because the buffer system absorbs the added base. The buffer resists large pH ch
    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/acids-bases-electrochemistry.md
 
 $$
+
+$$
 :::

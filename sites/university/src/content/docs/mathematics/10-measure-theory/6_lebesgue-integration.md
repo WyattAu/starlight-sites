@@ -94,3 +94,48 @@ $$\lim_{n\to\infty} \int_0^1 (1 - x^2/n)^n\, dx = \int_0^1 e^{-x^2}\, dx = \frac
 
 $\blacksquare$
 
+### 6.6 Key Relationships
+
+| Theorem            | Hypothesis                                      | Conclusion                                                     | Role                                |
+| ------------------ | ----------------------------------------------- | -------------------------------------------------------------- | ----------------------------------- |
+| MCT (Levi)         | $f_n \nearrow f$ pointwise, $f_n \geq 0$        | $\int f_n \to \int f$                                          | Foundation for all limit theorems   |
+| Fatou's lemma      | $f_n \geq 0$ measurable                         | $\int \liminf f_n \leq \liminf \int f_n$                       | Works without convergence           |
+| DCT                | $f_n \to f$ a.e., $|f_n| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
+| Markov's inequality| $f \geq 0$ meas., $a > 0$                       | $\mu(\{f \geq a\}) \leq \frac{1}{a}\int f$                    | Bounds tail probabilities           |
+
+The three convergence theorems are related: DCT follows from Fatou, and Fatou follows from MCT. Together they form the backbone of Lebesgue integration theory.
+
+### 6.7 Common Pitfalls
+
+- **Applying DCT without a dominating function.** If $|f_n| \leq g$ fails for some $n$, the limit may not pass through the integral. **Fix:** Always verify existence of $g \in L^1$ dominating all $f_n$ almost everywhere.
+- **Confusing pointwise and uniform convergence.** DCT only requires a.e. pointwise convergence, not uniform. **Fix:** The theorem is powerful precisely because it relaxes the uniform-convergence requirement of Riemann integration.
+- **Assuming monotone convergence needs boundedness.** MCT requires only monotonicity and non-negativity; the limit may be infinite. **Fix:** If $\int f_n$ diverges, the theorem correctly gives $\int f = \infty$.
+- **Forgetting the non-negativity in Fatou.** Without $f_n \geq 0$, the inequality $\int \liminf f_n \leq \liminf \int f_n$ can fail. **Fix:** Apply Fatou to $f_n + g$ with $g$ integrable, then subtract.
+
+### 6.8 Applications
+
+- **Fourier series:** DCT justifies term-by-term integration of Fourier series, allowing computation of coefficients by integrating the series.
+- **Probability theory:** Markov's and Chebyshev's inequalities are essential for proving laws of large numbers and concentration bounds.
+- **$L^p$ spaces:** MCT and DCT are used to prove completeness of $L^p$ spaces and to exchange limits with norms.
+- **Fubini's theorem:** Tonelli's theorem (MCT for non-negative functions) and Fubini's theorem (DCT for integrable functions) justify swapping the order of integration.
+
+### 6.9 Summary Table
+
+| Integral type        | Definition                                                              | Key property                     |
+| -------------------- | ----------------------------------------------------------------------- | -------------------------------- |
+| Simple function      | $\sum a_i \chi_{A_i}$ with $a_i \geq 0$, $\{A_i\}$ disjoint             | $\int = \sum a_i \mu(A_i)$       |
+| Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
+| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int|f| < \infty$ |
+
+### 6.10 Worked Example: Applying DCT to a Sequence with Oscillations
+
+**Problem.** Evaluate $\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx$ using the dominated convergence theorem.
+
+**Solution.** Let $f_n(x) = \sin(nx)/n$. For each $x \in [0,\pi]$, $|f_n(x)| \leq 1/n \to 0$, so $f_n \to 0$ pointwise. Also $|f_n(x)| \leq 1$ for all $n$ and $x$, and $g(x) = 1$ is integrable on $[0,\pi]$. By DCT:
+
+$$\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx = \int_0^\pi 0\, dx = 0$$
+
+We can verify directly: $\int_0^\pi \sin(nx)\, dx = [-\cos(nx)/n]_0^\pi = (1 - (-1)^n)/n$, so the integral is $0$ for even $n$ and $2/n^2$ for odd $n$, both vanishing as $n\to\infty$.
+
+$\blacksquare$
+

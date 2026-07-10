@@ -571,8 +571,8 @@ int main() {
 - [Fold Expressions and Pack Expansion](./2_fold_expressions.md)
 - [Compile-Time Branching (if constexpr)](./3_if_constexpr.md)
 - [Type Traits and Static Reflection Patterns](./4_type_traits.md)
-- [Argument Deduction (Class and Function)](../generic_programming/2_argument_deduction.md)
-- [Template Instantiation, Monomorphization, and Code Bloat](../generic_programming/1_instantiation.md)
+- [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction.md)
+- [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation.md)
 
 
 ## Summary

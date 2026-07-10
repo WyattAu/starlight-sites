@@ -381,6 +381,8 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 - The $p$-value depends on sample size: with a very large sample, even small effects can produce
   tiny $p$-values.
 
+:::
+
 ### 11.5 Worked example
 
 **Example.** A factory produces components with mean length 50 mm. A sample of 40 components gives

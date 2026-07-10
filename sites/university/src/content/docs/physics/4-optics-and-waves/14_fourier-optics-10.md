@@ -106,5 +106,62 @@ $\blacksquare$
 
 </details>
 
----
+### 10.5 Key Relationships
+
+- **Rayleigh criterion:** Two point sources are just resolved when the centre of the Airy disc of one coincides with the first dark ring of the other, giving the minimum resolvable angle $\theta_{\min} = 1.22\lambda/d$.
+- **Fourier scaling property:** If $t(x,y)$ is scaled by $a$, i.e., $t(x/a, y/a)$, then $\tilde{t}(u,v)$ scales as $|a|^2\tilde{t}(au, av)$. A larger aperture produces a narrower diffraction pattern.
+- **Parseval's theorem:** $\iint |t(x,y)|^2\,dx\,dy = \iint |\tilde{t}(u,v)|^2\,du\,dv$. The total power in the aperture equals the total power in the diffraction pattern.
+- **Uncertainty principle analogy:** A narrow aperture (small $\Delta x$) produces a wide diffraction pattern (large $\Delta u$), and vice versa. Quantitatively, $\Delta x \cdot \Delta u \gtrsim 1$.
+
+### 10.6 Common Pitfalls
+
+- **Confusing Fraunhofer with Fresnel diffraction:** Fraunhofer diffraction requires the far-field condition $D \gg a^2/\lambda$. At shorter distances, Fresnel (near-field) diffraction must be used, and the pattern is not a simple Fourier transform.
+- **Forgetting the intensity is the squared modulus:** The diffraction pattern is $I(u,v) = I_0|\tilde{t}(u,v)|^2$, not $\tilde{t}(u,v)$. Phase information is lost in the intensity measurement.
+- **Neglecting the obliquity factor:** The Huygens-Fresnel principle includes a directional cosine factor. For small angles this is approximately constant, but at large angles it modifies the pattern.
+- **Assuming the Fourier transform of a real function is real:** Even if $t(x,y)$ is real and non-negative, $\tilde{t}(u,v)$ is generally complex. The phase of $\tilde{t}$ carries information about the spatial structure of the aperture.
+
+### 10.7 Applications
+
+- **Telescope resolution:** The Airy pattern sets the fundamental resolution limit of any circular-aperture optical system. The diameter of the primary mirror determines the smallest detail that can be resolved.
+- **Spectrometre design:** A diffraction grating disperses light according to the grating equation $d\sin\theta = m\lambda$. The resolving power $R = mN$ depends on the order $m$ and the number of illuminated slits $N$.
+- **Spatial filtering:** By placing masks in the Fourier plane (at the focal length of a lens), specific spatial frequencies can be blocked or attenuated. This enables edge enhancement, noise removal, and pattern recognition.
+- **Holography:** A hologram records both the amplitude and phase of the diffracted field. Reconstruction involves illuminating the hologram, which acts as a complex transmittance function whose Fourier transform reproduces the original wavefront.
+
+### 10.8 Worked Example: Double-Slit via Fourier Transform
+
+**Problem.** Use the convolution theorem to derive the double-slit diffraction pattern.
+
+The aperture is the product of a double-slit function $t_1(x) = \mathrm{rect}((x - d/2)/a) + \mathrm{rect}((x + d/2)/a)$ and a wide rectangular window. However, it is simpler to view the double slit as a single slit convolved with two delta functions:
+
+$$t(x) = \mathrm{rect}(x/a) \cdot [\delta(x - d/2) + \delta(x + d/2)]$$
+
+Wait, the double slit is a product (two slits cut from an opaque screen). The transmittance is:
+
+$$t(x) = [\mathrm{rect}((x - d/2)/a) + \mathrm{rect}((x + d/2)/a)]$$
+
+The Fourier transform is:
+
+$$\tilde{t}(u) = a\,\mathrm{sinc}(\pi a u)\,e^{-i\pi d u} + a\,\mathrm{sinc}(\pi a u)\,e^{i\pi d u} = 2a\,\mathrm{sinc}(\pi a u)\cos(\pi d u)$$
+
+The intensity is:
+
+$$I(u) = 4I_0 a^2\,\mathrm{sinc}^2(\pi a u)\cos^2(\pi d u)$$
+
+The $\cos^2$ factor produces the double-slit interference fringes with spacing $\Delta u = 1/d$, and the sinc$^2$ factor provides the single-slit envelope.
+
+$\blacksquare$
+
+### 10.9 Worked Example: Rectangular Aperture
+
+**Problem.** Find the Fraunhofer diffraction pattern of a rectangular aperture of width $a$ and height $b$.
+
+The aperture function is separable: $t(x,y) = \mathrm{rect}(x/a)\,\mathrm{rect}(y/b)$. By the separability of the 2D Fourier transform:
+
+$$\tilde{t}(u,v) = \mathcal{F}\{\mathrm{rect}(x/a)\}(u) \cdot \mathcal{F}\{\mathrm{rect}(y/b)\}(v) = ab\,\mathrm{sinc}(\pi a u)\,\mathrm{sinc}(\pi b v)$$
+
+The intensity is:
+
+$$I(u,v) = I_0\,a^2 b^2\,\mathrm{sinc}^2(\pi a u)\,\mathrm{sinc}^2(\pi b v)$$
+
+The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occurs at $u = 1/a$ (angular position $\sin\theta_x = \lambda/a$), and along $v$ at $v = 1/b$ ($\sin\theta_y = \lambda/b$). A wider aperture produces a narrower diffraction pattern in that direction.
 

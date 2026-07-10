@@ -690,6 +690,7 @@ So $y(1) \approx 4.3096$. The exact answer is $y = 2e^x - x - 1$So $y(1) = 2e - 
 Even RK4 with this large step size has significant error, but it is far more accurate than Euler's
 Method would be.
 
+:::
 
 ## Common Pitfalls
 

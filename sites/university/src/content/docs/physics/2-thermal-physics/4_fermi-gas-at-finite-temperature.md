@@ -92,5 +92,52 @@ $\blacksquare$
 
 </details>
 
+### 4.5 Key Relationships
+
+| Concept              | Relation                                                              | Physical Meaning                                          |
+| -------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
+| Sommerfeld expansion | $I = \int_0^\mu f\,d\varepsilon + \frac{\pi^2}{6}(k_BT)^2 f''(\mu)$  | Low-temperature correction to $T=0$ integrals             |
+| Chemical potential   | $\mu(T) \approx \varepsilon_F\left[1 - \frac{\pi^2}{12}(T/T_F)^2\right]$ | $\mu$ decreases quadratically with $T$                    |
+| Electronic heat cap. | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$                            | Linear in $T$, suppressed by $T/T_F \ll 1$               |
+| Fermi temperature    | $T_F = \varepsilon_F/k_B$                                             | Temperature scale where quantum effects become important |
+
+### 4.6 Common Pitfalls
+
+- **Forgetting the $T^2$ correction sign.** The chemical potential decreases with temperature, not increases. **Fix:** The Sommerfeld expansion gives $\mu < \varepsilon_F$ because thermal excitations populate states above $\varepsilon_F$ while leaving holes below, shifting the average.
+- **Applying Sommerfeld expansion outside the degenerate regime.** When $T \sim T_F$, the expansion parameter $(T/T_F)^2 \sim 1$ and the series diverges. **Fix:** The expansion only converges for $k_BT \ll \varepsilon_F$; use full numerical integration otherwise.
+- **Confusing $T_F$ with $T_c$ (critical temperature).** Fermi temperature is a property of the ground state, unrelated to phase transitions. **Fix:** $T_F = \varepsilon_F/k_B$ is the degeneracy temperature scale, not a transition temperature.
+- **Electronic vs. lattice heat capacity crossover.** At room temperature the electronic contribution is negligible, but below $\sim 10$ K it dominates. **Fix:** Compare $C_V^{\rm el} \propto T$ with $C_V^{\rm lat} \propto T^3$ at low $T$.
+
+### 4.7 Applications
+
+- **Specific heat of metals:** The linear $T$ term in $C_V$ at low temperatures is a hallmark of Fermi liquid behaviour and is used to extract the density of states at $\varepsilon_F$.
+- **Thermoelectric effect:** The Sommerfeld expansion explains the Mott formula for thermopower, relating $S \propto T \cdot d(\ln \sigma)/d\varepsilon$ at $\varepsilon_F$.
+- **White dwarf cooling:** Degenerate electron gas thermodynamics determines the heat capacity and cooling rate of white dwarfs, with $T_F \sim 10^8$ K.
+- **Heavy fermion systems:** Materials with strongly renormalised effective masses show an enhanced Sommerfeld coefficient $\gamma = C_V/T$, signalling strong correlations.
+
+### 4.8 Worked Example: Sommerfeld Correction to the Electron Density
+
+**Problem.** For a 3D free electron gas at $T = 100$ K with $\varepsilon_F = 5$ eV, compute the fractional change in the chemical potential $\mu(T)$ relative to $\varepsilon_F$.
+
+**Solution.** Using $\mu(T) \approx \varepsilon_F[1 - (\pi^2/12)(T/T_F)^2]$:
+
+$$T_F = \varepsilon_F/k_B = 5\;\mathrm{eV} / (8.617 \times 10^{-5}\;\mathrm{eV/K}) \approx 5.8 \times 10^4\;\mathrm{K}$$
+
+$$\frac{T}{T_F} = \frac{100}{5.8 \times 10^4} \approx 1.72 \times 10^{-3}$$
+
+$$\frac{\mu - \varepsilon_F}{\varepsilon_F} \approx -\frac{\pi^2}{12}(1.72 \times 10^{-3})^2 \approx -2.4 \times 10^{-6}$$
+
+The chemical potential decreases by only about $2.4 \times 10^{-4}\%$, confirming that $\mu \approx \varepsilon_F$ is an excellent approximation at ordinary temperatures.
+
+$\blacksquare$
+
+### 4.9 Summary Table
+
+| Quantity              | $T = 0$                  | $T \ll T_F$ (Sommerfeld)                      |
+| --------------------- | ------------------------ | --------------------------------------------- |
+| Chemical potential    | $\mu = \varepsilon_F$    | $\mu \approx \varepsilon_F[1 - \frac{\pi^2}{12}(T/T_F)^2]$ |
+| Energy density        | $U_0 = \frac{3}{5}N\varepsilon_F$ | $U \approx U_0[1 + \frac{5\pi^2}{12}(T/T_F)^2]$ |
+| Heat capacity         | 0                        | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$     |
+
 ---
 

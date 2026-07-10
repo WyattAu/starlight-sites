@@ -376,6 +376,7 @@ $$
 2.0T - 392 - 1470 = 0 \implies T = \frac{1862}{2.0} = 931 \mathrm{ N
 $$
 
+:::
 
 ## Common Pitfalls
 

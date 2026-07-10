@@ -64,3 +64,72 @@ of $x$, there exists a connected open neighbourhood $V$ of $x$ with $V \subseteq
 
 **Example 6.5.** The topologist's sine curve is connected but not locally connected.
 
+### 6.6 Properties of Connected Spaces
+
+**Proposition 6.4.** The continuous image of a connected space is connected. Therefore connectedness
+is a topological invariant.
+
+**Proof.** If $f : X \to Y$ is continuous and $X$ is connected, suppose $f(X) = U \cup V$ with
+$U, V$ open and disjoint in $f(X)$. Then $f^{-1}(U)$ and $f^{-1}(V)$ are open, disjoint, and cover
+$X$, contradicting connectedness. $\blacksquare$
+
+**Proposition 6.5 (Intermediate Value Theorem).** If $f : X \to \mathbb{R}$ is continuous and $X$ is
+connected, then $f$ attains every value between any two of its values. This generalises the classical
+IVT from $\mathbb{R}$ to any connected space.
+
+**Proposition 6.6 (Products).** The product of connected spaces is connected (with the product
+topology). Finite products follow from Proposition 6.4 by noting $X \times Y$ is homeomorphic to the
+image of the product space under a continuous map; arbitrary products require more care but also hold.
+
+**Proposition 6.7 (Closure).** If $A \subseteq X$ is connected, then any set $B$ with
+$A \subseteq B \subseteq \overline{A}$ is connected. In particular, the closure of a connected set is
+connected.
+
+### 6.7 Total Disconnectedness and the Cantor Set
+
+**Definition.** A space is **totally disconnected** if its only connected subsets are singletons.
+Examples include $\mathbb{Q}$ (with the subspace topology from $\mathbb{R}$) and the Cantor set $C$.
+
+**Proposition 6.8.** The Cantor set $C$ is totally disconnected, compact, uncountable, and perfect
+(every point is a limit point). It is homeomorphic to $\{0, 1\}^{\mathbb{N}}$ with the product
+topology.
+
+### 6.8 Worked Example: Proving Disconnectedness
+
+**Problem.** Show that $\operatorname{GL}(2, \mathbb{R})$ (the set of $2 \times 2$ invertible real
+matrices with the subspace topology from $\mathbb{R}^4$) is disconnected.
+
+<details>
+<summary>Solution</summary>
+
+The determinant map $\det : \operatorname{GL}(2, \mathbb{R}) \to \mathbb{R}\setminus\{0\}$ is
+continuous (it is a polynomial in the matrix entries). The image is $\mathbb{R}\setminus\{0\}$, which
+is disconnected (separated by $0$). Since the continuous image of a connected space must be connected,
+$\operatorname{GL}(2, \mathbb{R})$ cannot be connected.
+
+In fact, $\operatorname{GL}(2, \mathbb{R})$ has exactly two connected components: matrices with
+positive determinant and matrices with negative determinant.
+
+$\blacksquare$
+
+</details>
+
+### 6.9 Worked Example: Path-Connectedness of $\mathbb{R}^n \setminus \{0\}$
+
+**Problem.** For which $n$ is $\mathbb{R}^n \setminus \{0\}$ path-connected?
+
+<details>
+<summary>Solution</summary>
+
+For $n \geq 2$, any two points $p, q \neq 0$ can be joined by a path avoiding the origin. For
+example, if $p$ and $q$ are not antipodal, use the straight line segment; if they are antipodal
+($q = -p$), take a path through a third point. Thus $\mathbb{R}^n \setminus \{0\}$ is path-connected
+for $n \geq 2$.
+
+For $n = 1$, $\mathbb{R} \setminus \{0\} = (-\infty, 0) \cup (0, \infty)$ is disconnected (and hence
+not path-connected).
+
+$\blacksquare$
+
+</details>
+

@@ -3,7 +3,7 @@ title: The Debye Model of Solids
 tags:
   - Physics
   - University
-description: 'The treats all atoms as independent quantum oscillators with the same frequency Comprehensive educational content coverage with definitions and practice problem'
+description: 'The treats all atoms as independent quantum oscillators with the same frequency . Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 16.1 From Einstein to Debye
@@ -13,13 +13,13 @@ $\omega_E$:
 
 $$C_V = 3Nk_B\left(\frac{\theta_E}{T}\right)^2 \frac{e^{\theta_E/T}}{(e^{\theta_E/T} - 1)^2}$$
 
-Where $\theta_E = \hbar\omega_E/k_B$. This correctly predicts $C_V \to 0$ as $T \to 0$But gives
-$C_V \propto e^{-\theta_E/T}$ at low $T$Whereas experiments show $C_V \propto T^3$.
+Where $\theta_E = \hbar\omega_E/k_B$. This correctly predicts $C_V \to 0$ as $T \to 0$ but gives
+$C_V \propto e^{-\theta_E/T}$ at low $T$, whereas experiments show $C_V \propto T^3$.
 
 The **Debye model** treats the lattice vibrations as a continuum of phonon modes with a cutoff
 frequency $\omega_D$:
 
-$$g(\omega) = \frac{3V\omega^2}{2\pi^2 v_s^3} \quad \text{for}  0 \leq \omega \leq \omega_D$$
+$$g(\omega) = \frac{3V\omega^2}{2\pi^2 v_s^3} \quad \text{for} \ 0 \leq \omega \leq \omega_D$$
 
 Where $v_s$ is the average sound speed. The cutoff is determined by the total number of modes:
 
@@ -63,3 +63,91 @@ single sound-speed approximation.
 
 </details>
 
+### 16.3 Mean Sound Speed
+
+In real solids, longitudinal and transverse waves have different speeds. The Debye model uses an
+**average sound speed** $v_s$ defined by:
+
+$$\frac{3}{v_s^3} = \frac{1}{v_L^3} + \frac{2}{v_T^3}$$
+
+where $v_L$ is the longitudinal speed and $v_T$ is the transverse speed. This accounts for one
+longitudinal mode and two transverse modes per wavevector.
+
+### 16.4 Comparison of Einstein and Debye Models
+
+The Einstein model fails at low temperatures because it assumes all oscillators have the same
+frequency, so only the exponentially small high-energy tail contributes. The Debye model correctly
+captures the $T^3$ law because the density of states $g(\omega) \propto \omega^2$ means that low-
+frequency (acoustic) modes have vanishing excitation energy.
+
+At high temperatures, both models converge to the Dulong--Petit value $3Nk_B$.
+
+### 16.5 Debye Frequency and Wavevector
+
+The Debye wavevector $k_D$ is related to the Debye frequency by $\omega_D = v_s k_D$. The
+corresponding Debye wavelength $\lambda_D = 2\pi/k_D$ is comparable to the interatomic spacing.
+
+The Debye temperature $\theta_D$ is a material property that correlates with the melting point and
+elastic constants. Materials with stiff bonds and light atoms (like diamond) have high $\theta_D$.
+Soft materials (like lead) have low $\theta_D$.
+
+### 16.6 Thermal Conductivity and Phonon Transport
+
+Debye's model also describes thermal transport. The lattice thermal conductivity is:
+
+$$\kappa = \frac{1}{3} C_V v_s \ell$$
+
+where $\ell$ is the phonon mean free path. At low temperatures, $\ell$ is limited by boundary
+scattering; at high temperatures, by umklapp processes.
+
+### 16.7 Practice Problems
+
+**Problem 1.** Estimate the Debye temperature of copper given: density $\rho = 8.96$ g/cm$^3$,
+molar mass $M = 63.55$ g/mol, and $v_s \approx 4700$ m/s.
+
+**Problem 2.** Show that in the high-temperature limit, the Debye specific heat reduces to the
+Dulong-Petit law $C_V = 3Nk_B$.
+
+_Solution._ For $T \gg \theta_D$, $x \ll 1$ in the integral, so $e^x \approx 1 + x$ and
+$x^4 e^x/(e^x - 1)^2 \approx x^2$. The integral $\int_0^{\theta_D/T} x^2\, dx \approx
+\frac{1}{3}(\theta_D/T)^3$. Then $C_V = 9Nk_B (T/\theta_D)^3 \cdot \frac{1}{3}(\theta_D/T)^3 =
+3Nk_B$. $\blacksquare$
+
+**Problem 3.** At what temperature does the Debye specific heat of aluminum reach 90% of its
+classical value? (Hint: use the Debye temperature $\theta_D = 428$ K.)
+
+**Problem 4.** Derive the exact $T^3$ coefficient
+$\frac{12\pi^4}{5} Nk_B / \theta_D^3$ by evaluating $\int_0^\infty \frac{x^4 e^x}{(e^x - 1)^2}\, dx$
+using the known value $\int_0^\infty \frac{x^3}{e^x - 1}\, dx = \pi^4/15$.
+
+### 16.8 The Debye Model for Specific Heat of Graphite
+
+Graphite has highly anisotropic sound speeds due to its layered structure. The in-plane speed is
+$v_{\parallel} \approx 23,000$ m/s, while the out-of-plane speed is $v_{\perp} \approx 1,600$ m/s.
+This leads to a modified density of states and a different low-temperature behavior. The Debye
+temperature of graphite along different crystallographic directions can differ by a factor of 10.
+
+### 16.9 Beyond the Debye Model
+
+The Debye model assumes a linear dispersion relation $\omega = v_s k$, which holds only for
+acoustic phonons at long wavelengths. Real phonon dispersion curves have optical branches and
+flatten near the Brillouin zone boundary. More accurate models include:
+
+- **Born-von Kármán model:** Treats atoms as coupled oscillators with nearest-neighbor forces,
+  giving realistic dispersion curves.
+- **First-principles DFT calculations:** Compute phonon spectra directly from the electronic
+  structure, giving the most accurate heat capacities.
+
+### 16.10 Summary
+
+- The Einstein model predicts $C_V \propto e^{-\theta_E/T}$ at low $T$, failing experimentally.
+- The Debye model introduces a cutoff frequency $\omega_D$ and density of states $g(\omega) \propto \omega^2$.
+- Low $T$: $C_V \propto T^3$ (Debye $T^3$ law). High $T$: $C_V \to 3Nk_B$ (Dulong-Petit).
+- The Debye temperature $\theta_D$ is a material constant determined by sound speed and atomic density.
+- The model is accurate for monatomic crystals but has limitations for anisotropic and polyatomic materials.
+
+**Problem 5.** Diamond has $\theta_D \approx 2230$ K (very high due to strong bonds and light carbon
+atoms). Compute the specific heat of diamond at 100 K, 300 K, and 500 K using the Debye model.
+
+**Problem 6.** Show that in the low-temperature limit, the Debye model gives
+$U = \frac{3\pi^4}{5} Nk_B T (T/\theta_D)^3$ by evaluating the integral $\int_0^\infty x^3/(e^x - 1)\, dx = \pi^4/15$.

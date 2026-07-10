@@ -60,6 +60,39 @@ Weyl nodes come in pairs of opposite chirality and are topologically protected. 
 **Dirac semimetals** have fourfold-degenerate Dirac points (two overlapping Weyl points of opposite
 chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
 
+### 13.4 Key Relationships
+
+| Material class        | Bulk gap | Surface states | Topological invariant |
+| --------------------- | -------- | -------------- | --------------------- |
+| Trivial insulator     | Yes      | None           | $\nu = 0$             |
+| Topological insulator | Yes      | Gapless Dirac  | $\nu = 1$             |
+| Weyl semimetal        | No       | Fermi arcs     | Chern number          |
+| Dirac semimetal       | No       | Bulk Dirac pts | None (protected by symmetry) |
+
+### 13.5 Common Pitfalls
+
+- **Confusing topological protection with robustness to all perturbations.** Surface states are
+  protected only as long as the symmetry (e.g., time-reversal) that defines the topological phase is
+  preserved. Magnetic impurities break time-reversal symmetry and can gap the surface states.
+- **Assuming all surface states are topological.** Surface states can also arise from trivial
+  band-bending effects. The hallmark of topological surface states is their helical spin texture and
+  the fact that they span the bulk band gap.
+- **Thinking the Berry phase is always quantised.** The Berry phase is quantised only when the loop
+  encloses a degeneracy point or when protected by symmetry. In general it can take any value.
+- **Confusing Weyl and Dirac semimetals.** Weyl nodes require breaking either inversion or
+  time-reversal symmetry. Dirac nodes require both symmetries to be present and are less robust.
+
+### 13.6 Applications
+
+- **Spintronics:** The spin-momentum locking in TI surface states enables efficient spin-to-charge
+  conversion without magnetic materials, promising for low-power spintronic devices.
+- **Quantum computing:** Majorana zero modes can arise at the interface between a TI and a
+  superconductor, forming the basis for topological quantum computation.
+- **Photodetectors:** TIs exhibit broadband photoresponse from terahertz to visible due to their
+  gapless surface states, enabling high-sensitivity photodetection.
+- **Thermoelectrics:** The large Seebeck coefficient and low thermal conductivity of topological
+  materials like Bi$_2$Te$_3$ make them excellent thermoelectric candidates.
+
 <details>
 <summary>Worked Example 13.1: Chern Number and Quantum Hall Effect</summary>
 
@@ -79,3 +112,15 @@ disorder.
 
 </details>
 
+<details>
+<summary>Worked Example 13.2: Parity of $Z_2$ Invariant</summary>
+
+The $Z_2$ invariant $\nu$ for a 3D TI with inversion symmetry can be computed from the parity
+eigenvalues $\xi_{2m}(\Lambda_i)$ at the eight time-reversal-invariant momenta (TRIM) $\Lambda_i$:
+
+$$(-1)^\nu = \prod_{i=1}^8 \prod_{m=1}^N \xi_{2m}(\Lambda_i)$$
+
+where $N$ is the number of occupied bands and $\xi_{2m}(\Lambda_i) = \pm 1$ is the parity eigenvalue
+of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicates $\nu = 1$ (TI).
+
+</details>

@@ -107,3 +107,43 @@ This is in the hard X-ray range, suitable for protein crystallography and materi
 
 </details>
 
+### 10.4 Key Relationships
+
+- The Larmor formula is the non-relativistic limit of the full relativistic expression.
+- The angular distribution $\sin^2\theta$ implies zero radiation along the acceleration axis.
+- Synchrotron radiation power scales as $\gamma^4$ for circular motion but $\gamma^6$ for linear motion.
+- The critical frequency $\omega_c \propto \gamma^3$ means higher energy electrons produce higher frequency radiation.
+
+### 10.5 Common Pitfalls
+
+- Confusing the radiated power with the energy density of the field. The power is the flux of the Poynting vector over a sphere, not the field energy.
+- Forgetting the $\gamma^4$ vs $\gamma^6$ distinction when comparing synchrotron and linear acceleration radiation.
+- Using the non-relativistic Larmor formula at relativistic speeds without applying the appropriate Lorentz transformation.
+- Neglecting that the radiation reaction force is small compared to the Lorentz force for most practical accelerator configurations.
+
+### 10.6 Applications
+
+- **Synchrotron light sources:** Produce intense broadband radiation from infrared to X-rays for materials science, biology, and chemistry experiments.
+- **Astrophysics:** Explains radiation from pulsars, active galactic nuclei, and cosmic microwave background fluctuations.
+- **Bremsstrahlung:** X-ray production in medical imaging and industrial inspection uses radiation from decelerating electrons.
+- **Antenna theory:** The radiation resistance formula guides the design of dipole and monopole antennas for communication systems.
+
+### 10.7 Worked Example: Bremsstrahlung Radiation
+
+**Problem.** An electron decelerates from $v = 0.1c$ to rest in a distance $d = 1$ mm inside a metal target. Estimate the fraction of kinetic energy radiated as bremsstrahlung.
+
+<details>
+<summary>Solution</summary>
+
+The kinetic energy is $K = \frac{1}{2}m_e v^2 = \frac{1}{2}(9.109 \times 10^{-31})(3 \times 10^7)^2 = 4.10 \times 10^{-16}$ J $= 2.56$ keV.
+
+The stopping time is $\Delta t = 2d/v = 2(10^{-3})/(3 \times 10^7) = 6.67 \times 10^{-11}$ s, so the average deceleration is $a = v/\Delta t = 4.50 \times 10^{17}$ m/s$^2$.
+
+The radiated power is $P = e^2 a^2/(6\pi\varepsilon_0 c^3) = (1.6 \times 10^{-19})^2 (4.50 \times 10^{17})^2/(6\pi \times 8.85 \times 10^{-12} \times (3 \times 10^8)^3) \approx 2.31 \times 10^{-19}$ W.
+
+The radiated energy is $E_{\text{rad}} = P \Delta t = 2.31 \times 10^{-19} \times 6.67 \times 10^{-11} = 1.54 \times 10^{-29}$ J.
+
+The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is negligible. $\blacksquare$
+
+</details>
+

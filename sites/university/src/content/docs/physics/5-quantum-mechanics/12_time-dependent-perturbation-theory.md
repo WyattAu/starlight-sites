@@ -86,3 +86,53 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 </details>
 
+### Key Relationships
+
+| Formula | Name | Application |
+|---------|------|-------------|
+| $\Gamma_{i\to f} = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f)$ | Fermi's Golden Rule | Transition rate to continuum |
+| $\Delta l = \pm 1$, $\Delta m = 0, \pm 1$ | E1 selection rules | Electric dipole transitions |
+| $A_{21} = \frac{\hbar\omega^3}{\pi^2 c^3}B_{21}$ | Einstein relation | Connects spontaneous/stimulated rates |
+| $|c_f|^2 = \frac{|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi}-\omega)t/2]}{(\omega_{fi}-\omega)^2/4}$ | Rabi formula | Transition probability for discrete states |
+
+### Common Pitfalls
+
+1. **Fermi's Golden Rule requires a continuum:** For transitions between discrete states (e.g., two bound states in an atom), the Rabi formula must be used. The density of states $\rho(E_f)$ in FGR ensures energy conservation is satisfied with finite probability.
+2. **First-order perturbation fails for strong fields:** When the Rabi frequency $\Omega = |\langle f|\hat{V}|i\rangle|/\hbar$ is comparable to the detuning, higher-order effects (AC Stark shift, Rabi oscillations) become important.
+3. **Selection rules are not absolute:** Forbidden transitions can proceed via higher multipole orders (E2, M1) or multiphoton processes, albeit at slower rates. A transition is truly forbidden only when all contributing channels vanish.
+4. **The rotating wave approximation (RWA):** Dropping counter-rotating terms requires $|\omega - \omega_{fi}| \ll \omega + \omega_{fi}$. For very strong fields or ultrastrong coupling, the RWA breaks down.
+
+### Applications
+
+- **Laser cooling:** Doppler cooling relies on repeated absorption--spontaneous emission cycles, with each cycle reducing atomic momentum by $\hbar k$.
+- **Optical pumping:** Polarised light selectively populates magnetic sublevels via dipole selection rules, preparing spin-polarised atomic samples.
+- **Quantum optics:** Spontaneous emission is the fundamental source of decoherence in quantum optical systems, limiting qubit lifetimes in cavity QED.
+- **Spectroscopy:** Fermi's Golden Rule underlies the interpretation of absorption spectra, photoemission, and inelastic scattering cross sections.
+- **Photovoltaics:** The solar cell efficiency limit (Shockley--Queisser) derives from detailed balance between absorption and spontaneous emission.
+
+### Connections to Other Topics
+
+- **Quantum electrodynamics:** Spontaneous emission is not predicted by non-relativistic quantum mechanics alone — it requires coupling to the quantised electromagnetic field vacuum.
+- **Scattering theory:** The $T$-matrix formalism generalises FGR to higher orders. The optical theorem ($\sigma_{\text{tot}} = (4\pi/k)\,\text{Im}\,f(0)$) relates the forward scattering amplitude to the total cross section.
+- **Solid-state physics:** Fermi's Golden Rule describes electron--phonon scattering, carrier relaxation, and exciton decay in semiconductors.
+
+### Additional Worked Example: Photoionisation Rate
+
+**Problem.** A hydrogen atom in the ground state is illuminated by monochromatic light at $\lambda = 50$ nm, well above the ionisation threshold (13.6 eV). Estimate the photoionisation rate using Fermi's Golden Rule.
+
+**Solution.** The dipole matrix element for $1s \to$ continuum is approximately $\langle \epsilon_p | e\mathbf{r} | 1s \rangle \sim ea_0$. The density of continuum states at photoelectron energy $\epsilon = \hbar\omega - 13.6$ eV:
+
+$$k = \sqrt{2m\epsilon}/\hbar, \quad \rho(\epsilon) = \frac{V m k}{(2\pi)^3 \hbar^2} d\Omega$$
+
+The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 10^{-18}$ cm$^2$ for hydrogen. At intensity $I = 10^{12}$ W/m$^2$, the rate $\Gamma = \sigma I / (\hbar\omega) \approx 10^{14}$ s$^{-1}$ — complete ionisation occurs within femtoseconds for intense fields.
+
+### Summary Table: Transition Types
+
+| Transition | Selection Rules | Rate | Typical Timescale |
+|------------|----------------|------|-------------------|
+| Electric dipole (E1) | $\Delta l = \pm 1$, $\Delta m = 0,\pm 1$ | $A \sim 10^7$--$10^9$ s$^{-1}$ | ns |
+| Magnetic dipole (M1) | $\Delta l = 0$, $\Delta s = \pm 1$ (spin-flip) | $A \sim 10^3$ s$^{-1}$ | $\mu$s--ms |
+| Electric quadrupole (E2) | $\Delta l = 0, \pm 2$ | $A \sim 10^{-3}$--$10$ s$^{-1}$ | ms--s |
+| Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
+| Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
+

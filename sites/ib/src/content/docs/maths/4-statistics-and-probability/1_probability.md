@@ -762,6 +762,7 @@ Ways with 1 woman: $\dbinom{5}{1}\dbinom{7}{3} = 5 \times 35 = 175$.
 
 Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 
+:::
 
 ---
 

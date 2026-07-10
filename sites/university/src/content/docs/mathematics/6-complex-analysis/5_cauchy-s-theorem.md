@@ -96,3 +96,52 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 
 </details>
 
+## Common Pitfalls
+
+- **Assuming Cauchy's theorem applies to any closed contour:** The theorem requires $f$ to be analytic on a simply connected domain containing the contour. If the contour encloses any singularity, the integral may be non-zero.
+- **Confusing simply connected with connected:** A domain can be connected but not simply connected (e.g., an annulus). Cauchy's theorem fails on such domains without additional conditions on the contour.
+- **Applying the deformation theorem outside the domain of analyticity:** The contour can only be deformed through regions where $f$ remains analytic. Deforming a contour across a singularity changes the value of the integral.
+- **Forgetting orientation when using the multiply connected theorem:** The outer contour and inner contours must be traversed with consistent positive orientation (counterclockwise for the outer, clockwise for the inner) for the equality $\int_\gamma f = \sum \int_{\gamma_k} f$ to hold.
+
+## Worked Example: Trigonometric Integrals
+
+**Problem.** Evaluate $I = \int_0^{2\pi} \frac{d\theta}{2 + \cos\theta}$.
+
+**Solution.** Let $z = e^{i\theta}$, so $d\theta = dz/(iz)$ and $\cos\theta = (z + z^{-1})/2$.
+
+$$I = \oint_{|z|=1} \frac{1}{2 + (z + z^{-1})/2} \cdot \frac{dz}{iz} = \oint_{|z|=1} \frac{2}{4z + z^2 + 1} \cdot \frac{dz}{i} = \frac{2}{i} \oint_{|z|=1} \frac{dz}{z^2 + 4z + 1}$$
+
+The denominator factors as $(z + 2 - \sqrt{3})(z + 2 + \sqrt{3})$. Only the root $z = -2 + \sqrt{3}$ lies inside $|z| = 1$. By Cauchy's theorem applied to the simply connected region after deformation:
+
+$$I = \frac{2}{i} \cdot 2\pi i \cdot \operatorname{Res}_{z=-2+\sqrt{3}} \frac{1}{z^2 + 4z + 1} = 4\pi \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}$$
+
+## Worked Example: Branch Cut Integration
+
+**Problem.** Evaluate $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx$.
+
+**Solution.** Consider $f(z) = \frac{\sqrt{z}}{z^2 + 1}$ with a branch cut along the positive real axis. Integrate around a keyhole contour $\gamma$ consisting of $C_R$ (large circle radius $R$), $C_\varepsilon$ (small circle radius $\varepsilon$), and two straight segments just above and below the cut. On the upper segment, $\sqrt{z} = \sqrt{x}$; on the lower segment, $\sqrt{z} = -\sqrt{x}$ (due to the $2\pi$ phase change). By Cauchy's theorem:
+
+$$\int_\gamma f(z)\,dz = 2\pi i \left(\operatorname{Res}_{z=i} f(z) + \operatorname{Res}_{z=-i} f(z)\right)$$
+
+As $R \to \infty$ and $\varepsilon \to 0$, the circular contributions vanish, leaving:
+
+$$2\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = 2\pi i \left(\frac{\sqrt{i}}{2i} + \frac{\sqrt{-i}}{-2i}\right) = \frac{\pi}{\sqrt{2}}$$
+
+Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
+
+## Key Relationships
+
+- **Cauchy's theorem requires analyticity on the entire region enclosed by the contour.** If $f$ has even a single singularity inside $\gamma$, the integral may be nonzero.
+- **The integral over a closed contour equals $2\pi i$ times the sum of residues** (a consequence of Cauchy's theorem for multiply connected domains), connecting Cauchy's theorem to the residue calculus.
+- **Path independence is equivalent to the existence of an antiderivative** on a simply connected domain, which in turn is guaranteed by Cauchy's theorem.
+- **Deformation of contours allows replacing complicated paths with simple ones** (e.g., small circles around singularities) without changing the integral value.
+- **The Cauchy-Riemann equations are both necessary and sufficient** for the proof: the vanishing of the double integral in the proof relies entirely on $u_x = v_y$ and $u_y = -v_x$.
+
+## Applications
+
+- **Evaluating real integrals:** Many difficult real integrals (e.g., $\int_0^\infty \frac{\cos x}{x^2+1}\,dx$) are computed by choosing appropriate contours and applying Cauchy's theorem.
+- **Computing residues:** The residue theorem, which follows from Cauchy's theorem, is the standard tool for evaluating contour integrals in physics and engineering.
+- **Conformal mapping:** Cauchy's theorem underpins the theory of conformal maps, used in fluid dynamics and electrostatics to solve boundary value problems.
+- **Signal processing:** The Laplace and Fourier transforms rely on contour integration techniques derived from Cauchy's theorem.
+- **Number theory:** Contour integrals related to the Riemann zeta function use Cauchy's theorem to establish properties of prime number distribution.
+

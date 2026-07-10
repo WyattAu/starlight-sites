@@ -178,6 +178,7 @@ FROM Sales;
 
 Result: | salesperson | month | amount | running_total |
 |-------------|-------|--------|---------------| | Alice | Jan | 5000 | 5000 | | Alice | Feb | 7000
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12000 | | Alice | Mar | 6000 | 18000 | | Bob | Jan | 3000 | 3000 | | Bob | Feb | 4000 | 7000 | |
 Bob | Mar | 5000 | 12000 |
 

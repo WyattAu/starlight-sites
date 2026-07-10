@@ -304,4 +304,6 @@ linked above.
 - Sign errors when completing the square or when solving quadratic inequalities (forgetting to
   reverse the inequality when multiplying by a negative value).
 $$
+
+$$
 - Confusing composite function notation: $fg(x)$ means $f(g(x))$, applying $g$ first, then $f$.

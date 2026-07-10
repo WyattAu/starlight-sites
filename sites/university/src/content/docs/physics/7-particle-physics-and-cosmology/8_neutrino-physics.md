@@ -87,3 +87,44 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 </details>
 
+### 8.3 Key Relationships
+
+| Parameter          | Value (best fit)       | Experiment                      | Role                                    |
+| ------------------ | ---------------------- | ------------------------------- | --------------------------------------- |
+| $\Delta m^2_{21}$  | $7.5 \times 10^{-5}$ eV$^2$ | Solar (SNO, Borexino)     | Drives solar $\nu_e \to \nu_{\mu,\tau}$ |
+| $\Delta m^2_{32}$  | $2.5 \times 10^{-3}$ eV$^2$ | Atmospheric (Super-K)     | Drives $\nu_\mu \to \nu_\tau$ oscillations |
+| $\sin^2(2\theta_{12})$ | 0.86                   | Solar (SNO)                     | Solar mixing angle                       |
+| $\sin^2(2\theta_{23})$ | 1.0 (maximal)           | Atmospheric (Super-K)           | Atmospheric mixing angle                 |
+| $\sin^2(2\theta_{13})$ | 0.092                  | Reactor (Daya Bay, RENO, Double Chooz) | Non-zero, enables CP violation          |
+
+### 8.4 Common Pitfalls
+
+- **Confusing flavour and mass eigenstates.** Neutrinos are produced and detected as flavour eigenstates but propagate as mass eigenstates. **Fix:** The PMNS matrix $U$ relates the two bases; oscillations arise from phase differences between mass components.
+- **Assuming all oscillations average to zero.** While fast oscillations average over energy and baseline, the survival probability for solar $\nu_e$ is $\approx 0.55$, not $0.5$, due to the MSW matter effect in the Sun. **Fix:** Matter effects modify the effective mixing angle at high densities.
+- **Forgetting the practical unit conversion.** When using the oscillation formula $\Delta m^2 L / (4E)$ with $L$ in km and $E$ in GeV, the result is in radians directly: $\Delta m^2 [\mathrm{eV}^2] L [\mathrm{km}] / (4E [\mathrm{GeV}])$. **Fix:** Use $L/E$ in km/GeV for quick estimates.
+- **Thinking neutrinos are massless in the Standard Model.** While the SM predicts massless neutrinos, oscillations prove they have mass. **Fix:** The seesaw mechanism extends the SM with heavy right-handed neutrinos.
+
+### 8.5 Applications
+
+- **Solar neutrino spectroscopy:** Precise measurement of solar neutrino fluxes (pp, $^7$Be, $^8$B) tests solar models and constrains the MSW effect transition between vacuum and matter-dominated oscillations.
+- **Reactor neutrino monitoring:** Antineutrino detectors at nuclear reactors (Daya Bay, Double Chooz) measure $\theta_{13}$ and can monitor reactor power and fuel composition for non-proliferation.
+- **Supernova neutrinos:** Core-collapse supernovae release $\sim 99\%$ of their gravitational binding energy as neutrinos. Detecting these (SN 1987A, $\sim 20$ events) tests models of stellar death and neutron star formation.
+- **Neutrino telescopes:** IceCube and KM3NeT detect high-energy astrophysical neutrinos from blazars, gamma-ray bursts, and possibly dark matter annihilation.
+- **Cosmology:** The sum of neutrino masses $\sum m_\nu < 0.12$ eV (Planck + BAO) affects structure formation; future surveys (Euclid, DESI) will tighten constraints and potentially determine the mass hierarchy.
+
+### 8.6 Summary Table
+
+| Neutrino source  | Typical energy | Baseline $L$      | Oscillation probed      | Key experiment        |
+| ---------------- | -------------- | ----------------- | ----------------------- | --------------------- |
+| Solar            | 0.1-10 MeV     | $1.5 \times 10^8$ km | $\Delta m^2_{21}$   | SNO, Borexino, Super-K |
+| Atmospheric      | 0.1-100 GeV    | 10-10$^4$ km      | $\Delta m^2_{32}$       | Super-Kamiokande      |
+| Reactor          | 1-10 MeV       | 0.1-100 km        | $\theta_{13}$, $\Delta m^2_{21}$ | Daya Bay, RENO, KamLAND |
+| Accelerator      | 0.1-10 GeV     | 100-1000 km       | $\delta_{\rm CP}$       | T2K, NO$\nu$A, DUNE   |
+
+### 8.7 Open Questions
+
+- **Mass hierarchy:** Is the ordering $m_1 < m_2 < m_3$ (normal) or $m_3 < m_1 < m_2$ (inverted)? Future experiments like JUNO and DUNE aim to resolve this via matter effects in oscillation probabilities.
+- **CP violation in the lepton sector:** The phase $\delta_{\rm CP}$ in the PMNS matrix determines whether neutrinos and antineutrinos oscillate differently. A non-zero $\delta_{\rm CP}$ could help explain the matter-antimatter asymmetry via leptogenesis.
+- **Dirac vs. Majorana nature:** Are neutrinos their own antiparticles? Neutrinoless double-beta decay ($0\nu\beta\beta$) experiments search for this; a positive signal would prove the Majorana nature and fix the absolute mass scale.
+- **Absolute mass scale:** Oscillations only measure mass-squared differences. KATRIN measures the electron neutrino mass via tritium beta decay, currently constraining $m_{\nu_e} < 0.8$ eV.
+

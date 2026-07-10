@@ -564,5 +564,62 @@ for mastery of this topic.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+### Example 1: Setting Up a Cross-Compilation Workflow for Android
+
+**Problem:** Configure a CMake project to cross-compile for Android arm64 using Clang from the NDK, with separate Debug and Release presets.
+
+**Solution:** Create the toolchain file and presets:
+
+1. `cmake/toolchain-android.cmake` sets `CMAKE_SYSTEM_NAME Android`, the NDK path, and the cross-compiler.
+2. In `CMakePresets.json`, define a hidden base preset with `"inherits": "base"` and the Android toolchain.
+3. Create `"android-debug"` and `"android-release"` presets inheriting from the base, differing only in `CMAKE_BUILD_TYPE`.
+4. Run `cmake --preset android-debug` to configure and `cmake --build --preset android-debug` to build.
+5. The binary output lands in `build/android-debug/`, cleanly separated from native builds.
+
+### Example 2: Debugging a Cache Corruption Issue
+
+**Problem:** A developer switches between `debug` and `release` presets and encounters stale cache variables.
+
+**Solution:** The issue is that both presets use the same `binaryDir`. The fix:
+
+1. Change `"binaryDir": "${sourceDir}/build"` to `"binaryDir": "${sourceDir}/build/${presetName}"`.
+2. This gives `build/debug/` and `build/release/` as separate directories.
+3. Each preset now has a clean CMake cache with no cross-contamination.
+
+### Example 3: Using User Presets for Local Vcpkg
+
+**Problem:** A team shares `CMakePresets.json` but each developer has vcpkg installed in a different location.
+
+**Solution:** Each developer creates `CMakeUserPresets.json` (added to `.gitignore`):
+
+```json
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "local-dev",
+      "inherits": "linux-clang-debug",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "/home/$env{USER}/vcpkg/scripts/buildsystems/vcpkg.cmake"
+      }
+    }
+  ]
+}
+```
+
+This overrides the toolchain for local development without modifying the shared preset file.
+
+## Key Relationships
+
+- **Toolchain files define the compiler; presets define the build configuration.** The two are linked by the `toolchainFile` field in the preset, but serve distinct purposes.
+- **Presets replace command-line arguments:** Every `-D` flag, generator choice, and build type can be encoded in a preset, making builds reproducible and version-controllable.
+- **`CMakePresets.json` is shared; `CMakeUserPresets.json` is personal.** This separation allows team-wide consistency while accommodating individual developer environments.
+- **Conditions make presets portable:** By conditioning on `${hostSystemName}`, a single preset file works on Linux, Windows, and macOS without modification.
+- **The preset version field gates features:** Using version 6 requires CMake 3.25+ but enables conditions, package presets, and multi-inheritance.
+
+## Applications
+
+- **CI/CD pipelines:** Use identical preset commands in GitHub Actions, Jenkins, or GitLab CI to ensure builds match developer environments exactly.
+- **Cross-compilation for embedded systems:** Toolchain files target bare-metal ARM, RISC-V, or ESP32 without installing a full IDE; presets configure the build type and optimisation flags.
+- **Multi-platform game development:** A single `CMakePresets.json` defines presets for Windows (MSVC), Linux (GCC/Clang), and macOS (Apple Clang), with conditions selecting the appropriate toolchain.
+- **Sanitiser and static analysis builds:** Dedicated presets enable AddressSanitizer, UBSan, or clang-tidy with a single command (`cmake --preset asan`), lowering the barrier for developers to run diagnostics.

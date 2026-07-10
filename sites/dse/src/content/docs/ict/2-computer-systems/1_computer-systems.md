@@ -65,6 +65,8 @@ A typical CPU has a small number of general-purpose registers (8--32 in most arc
 GB, volatility, and durability. HDDs are cheaper per GB but slower and more fragile (moving parts).
 SSDs are faster with no moving parts but more expensive per GB.
 
+:::
+
 ---
 
 ## Input Devices
@@ -187,6 +189,8 @@ Memory.
 Waits for memory) and how Harvard architecture addresses this. Most modern CPUs use a modified
 Harvard architecture internally (separate L1 caches for instructions and data) while presenting a
 Von Neumann model externally.
+
+:::
 
 ---
 
@@ -361,6 +365,8 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 `1111`But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
 Decimal digit must be preserved exactly.
+
+:::
 
 ### Conversions
 

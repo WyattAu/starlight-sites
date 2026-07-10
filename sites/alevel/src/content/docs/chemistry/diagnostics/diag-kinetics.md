@@ -424,4 +424,6 @@ Step 3 (fast): $\mathrm{Y} + \mathrm{X} \to \mathrm{XY}$
 
 This would give rate $= k[\mathrm{X}_2]$Which does NOT match the observed rate equation (1 mark).
 $$
+
+$$
 The first mechanism is correct.

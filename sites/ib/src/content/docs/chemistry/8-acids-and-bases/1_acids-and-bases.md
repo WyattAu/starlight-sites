@@ -48,6 +48,8 @@ But the second dissociation is partial (weak):
 $\mathrm{HSO}_4^- \rightleftharpoons \mathrm{H}^+ + \mathrm{SO}_4^{2-}$ with
 $K_a \approx 1.0 \times 10^{-2}$.
 
+:::
+
 ---
 
 ## pH and pOH Scales

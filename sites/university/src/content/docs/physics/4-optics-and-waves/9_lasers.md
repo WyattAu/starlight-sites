@@ -3,7 +3,7 @@ title: Lasers
 tags:
   - Physics
   - University
-description: "Einstein' s coefficients: (spontaneous emission), (stimulated emission), (absorpt Comprehensive educational content coverage with definitions and practice pr"
+description: "Einstein's coefficients: (spontaneous emission), (stimulated emission), (absorption). Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 ### 9.1 Stimulated Emission
@@ -16,13 +16,13 @@ At thermal equilibrium:
 $$A_{21} + B_{21}\rho(\omega) = B_{12}\rho(\omega) \cdot \frac{g_1}{g_2} e^{\hbar\omega/(k_B T)}$$
 
 The relations $B_{21} = B_{12}$ (for non-degenerate levels) and
-$A_{21}/B_{21} = \hbar\omega^3 n^3/(\pi^2 c^3)$ Follow from detailed balance with the Planck
+$A_{21}/B_{21} = \hbar\omega^3 n^3/(\pi^2 c^3)$ follow from detailed balance with the Planck
 distribution.
 
 ### 9.2 Population Inversion
 
 Laser operation requires **population inversion**: $N_2 \gt N_1$ where $N_2$ is the population of
-the Upper laser level and $N_1$ is the lower.
+the upper laser level and $N_1$ is the lower.
 
 This cannot be achieved in a two-level system at thermal equilibrium. A **three-level** or
 **four-level** laser scheme is needed.
@@ -37,7 +37,7 @@ The mode spacing (free spectral range):
 
 $$\Delta\nu = \frac{c}{2nL}$$
 
-For a cavity with mirrors of reflectivity $R$The **finesse** is:
+For a cavity with mirrors of reflectivity $R$, the **finesse** is:
 
 $$\mathcal{F} = \frac{\pi\sqrt{R}}{1 - R}$$
 
@@ -47,7 +47,7 @@ The fundamental TEM$_{00}$ mode of a laser cavity is a Gaussian beam:
 
 $$E(r, z) = E_0 \frac{w_0}{w(z)} \exp\left(-\frac{r^2}{w(z)^2}\right) \exp\left(-ikz - ik\frac{r^2}{2R(z)} + i\zeta(z)\right)$$
 
-Where:
+where:
 
 - **Beam waist:** $w_0$ (minimum spot size).
 - **Rayleigh range:** $z_R = \pi w_0^2 / \lambda$.
@@ -57,3 +57,97 @@ Where:
 
 The beam **divergence** (half-angle, far field): $\theta = \lambda/(\pi w_0)$.
 
+### 9.5 Laser Rate Equations
+
+The dynamics of laser populations are described by rate equations. For a four-level laser:
+
+$$\frac{dN_2}{dt} = R_p - \frac{N_2}{\tau_2} - \frac{N_2}{\tau_{21}} - \sigma c\, n_p (N_2 - N_1)$$
+
+$$\frac{dN_1}{dt} = \frac{N_2}{\tau_{21}} - \frac{N_1}{\tau_1} + \sigma c\, n_p (N_2 - N_1)$$
+
+$$\frac{dn_p}{dt} = \sigma c\, n_p (N_2 - N_1) - \frac{n_p}{\tau_p} + \beta \frac{N_2}{\tau_{21}}$$
+
+where $R_p$ is the pump rate, $\sigma$ is the stimulated emission cross-section, $n_p$ is the
+photon density, $\tau_p$ is the photon cavity lifetime, and $\beta$ is the spontaneous emission
+factor.
+
+### 9.6 Threshold Condition
+
+The laser **threshold** is reached when gain equals loss. The threshold population inversion is:
+
+$$\Delta N_{\mathrm{th}} = \frac{1}{\sigma L} \left(\alpha_{\mathrm{int}} - \frac{1}{2L}\ln(R_1 R_2)\right)$$
+
+where $\alpha_{\mathrm{int}}$ is the internal loss coefficient and $R_1, R_2$ are the mirror
+reflectivities.
+
+### 9.7 Q-Switching and Mode Locking
+
+**Q-switching** produces short, high-energy pulses by modulating the cavity quality factor $Q$.
+The energy is stored in the gain medium while the cavity is kept low-Q, then released suddenly
+when Q-switched to high-Q.
+
+**Mode locking** produces ultrashort pulses by fixing the phase relationship between longitudinal
+modes. With $M$ locked modes, the pulse duration is $\Delta t \approx 1/(M \Delta\nu)$, which can
+reach femtoseconds.
+
+### 9.8 Types of Lasers
+
+- **He-Ne laser** (gas, 632.8 nm): continuous wave, low power (mW), used in alignment and
+  interferometry.
+- **Nd:YAG laser** (solid-state, 1064 nm): high power, pulsed or CW, used in machining and surgery.
+- **CO$_2$ laser** (gas, 10.6 $\mu$m): very high power, used in cutting and welding.
+- **Diode laser** (semiconductor): compact, efficient, used in telecommunications and barcode
+  readers.
+- **Ti:sapphire laser** (solid-state, tunable 650--1100 nm): mode-locked for femtosecond pulses.
+
+### 9.9 Practice Problems
+
+**Problem 1.** A He-Ne laser cavity is $L = 30$ cm long. Calculate the mode spacing and the number
+of longitudinal modes under the gain bandwidth $\Delta\nu \approx 1.5$ GHz.
+
+**Problem 2.** A Nd:YAG laser produces 10 ns pulses at 10 Hz with 100 mJ per pulse. Calculate the
+peak power and average power.
+
+**Problem 3.** Show that lasing cannot occur in a two-level system.
+
+_Solution._ In steady state for a two-level system, $N_1 + N_2 = N$ and detailed balance gives
+$N_2/N_1 = e^{-\hbar\omega/(k_B T)} < 1$ at any positive temperature. Thus $N_2 \leq N_1$, and
+population inversion is impossible. $\blacksquare$
+
+### 9.10 Laser Linewidth and Coherence
+
+The fundamental linewidth of a laser is given by the **Schawlow-Townes limit**:
+
+$$\Delta\nu_{\mathrm{laser}} = \frac{2\pi h\nu (\Delta\nu_c)^2}{P}$$
+
+where $\Delta\nu_c$ is the cavity linewidth and $P$ is the output power. Modern lasers can achieve
+linewidths below 1 Hz, enabling applications in precision metrology and optical clocks.
+
+### 9.11 Semiconductor Lasers
+
+Semiconductor (diode) lasers use direct bandgap materials like GaAs and InP. The gain is provided
+by electron-hole recombination across the bandgap. Key parameters:
+
+- **Threshold current density:** $J_{\mathrm{th}}$ (typically 100-1000 A/cm$^2$).
+- **Slope efficiency:** $\eta_d = \frac{dP}{dI}$ above threshold.
+- **Modulation bandwidth:** up to 40 GHz for direct modulation.
+
+**Distributed feedback (DFB) lasers** use a built-in Bragg grating to select a single longitudinal
+mode, essential for wavelength-division multiplexing in fiber communications.
+
+### 9.12 Laser Safety
+
+Lasers are classified by power and wavelength:
+
+- **Class 1:** Safe under all conditions (e.g., DVD players).
+- **Class 2:** Low-power visible (< 1 mW), blink reflex protects.
+- **Class 3R/3B:** Direct intrabeam viewing hazardous (1-500 mW).
+- **Class 4:** High-power (> 500 mW), hazardous to eyes and skin, fire risk.
+
+**Problem 4.** A He-Ne laser has output power 5 mW at 632.8 nm with beam diameter 0.8 mm.
+Compute the irradiance (power/area) and determine the laser class.
+
+**Problem 5.** Calculate the photon flux (photons per second) for the laser in Problem 4.
+
+**Problem 6.** A Q-switched Nd:YAG laser produces 10 ns pulses with 100 mJ pulse energy at 10 Hz.
+Calculate the peak power, average power, and photon energy at 1064 nm.

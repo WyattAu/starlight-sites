@@ -63,3 +63,109 @@ Interface. No energy is transported into the second medium: $R = 1$.
 **Frustrated total internal reflection.** If a third medium is brought within a few wavelengths of
 The interface, energy can tunnel across the gap (analogous to quantum tunnelling).
 
+### 10.4 Phase Changes on Reflection
+
+The Fresnel coefficients are real for $\theta_i < \theta_c$ (normal incidence/transmission) and may
+be positive or negative, indicating phase shifts:
+
+- **External reflection** ($n_1 < n_2$): $r_s < 0$ for all $\theta_i$ (phase shift of $\pi$ for
+  s-polarisation). $r_p$ changes sign at Brewster's angle.
+- **Internal reflection** ($n_1 > n_2$): For $\theta_i < \theta_c$, both $r_s$ and $r_p$ are
+  positive at normal incidence. $r_p$ changes sign at Brewster's angle.
+
+At normal incidence ($\theta_i = 0$):
+
+$$r_s = r_p = \frac{n_1 - n_2}{n_1 + n_2}$$
+
+The reflection coefficient is negative when $n_1 < n_2$, corresponding to a $\pi$ phase shift. For
+$n_1 > n_2$, the reflection coefficient is positive (no phase shift).
+
+### 10.5 Reflectance Curves and Applications
+
+The reflectance $R$ varies with angle of incidence:
+
+- For **s-polarisation**, $R_s$ increases monotonically from $((n_1 - n_2)/(n_1 + n_2))^2$ at normal
+  incidence to $1$ at grazing incidence.
+- For **p-polarisation**, $R_p$ drops to $0$ at Brewster's angle, then increases to $1$ at grazing
+  incidence.
+
+**Anti-reflection coatings** use destructive interference between reflections from two interfaces.
+For a single-layer coating of index $n_c$ and thickness $\lambda/4$ on glass ($n_g$), the reflectance
+at wavelength $\lambda$ is:
+
+$$R = \left(\frac{n_c^2 - n_g}{n_c^2 + n_g}\right)^2$$
+
+The reflectance is zero when $n_c = \sqrt{n_g}$. For crown glass ($n_g = 1.52$), the optimal coating
+index is $n_c \approx 1.23$, approximated by magnesium fluoride ($n \approx 1.38$), giving $R \approx 1\%$ per surface.
+
+### 10.6 The Goos-Hanchen Shift
+
+In total internal reflection, the reflected beam is laterally shifted relative to the geometrically
+predicted path. This **Goos-Hanchen shift** arises because the evanescent wave penetrates the second
+medium before being reflected:
+
+$$D = \frac{\lambda}{\pi} \frac{\sin\theta_i}{\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}$$
+
+The shift is of order one wavelength for angles near the critical angle and decreases as $\theta_i$
+increases beyond $\theta_c$.
+
+### 10.7 Worked Example: Reflectance at Normal Incidence
+
+**Problem.** Calculate the reflectance of uncoated glass ($n_g = 1.52$) at normal incidence in air.
+
+<details>
+<summary>Solution</summary>
+
+At normal incidence, $r = (1 - 1.52)/(1 + 1.52) = -0.52/2.52 \approx -0.206$. The reflectance is
+$R = |r|^2 \approx 0.0425$, or about $4.25\%$ per surface. For a lens with two surfaces, total
+transmission through uncoated glass is approximately $T = (1 - 0.0425)^2 \approx 0.917$, meaning
+about $8.3\%$ of incident light is lost to reflections.
+
+$\blacksquare$
+
+</details>
+
+### 10.8 Worked Example: Phase Changes in TIR
+
+**Problem.** Find the phase difference between s- and p-polarised components after total internal
+reflection in glass ($n_1 = 1.5$) at $\theta_i = 60^\circ$ with $n_2 = 1$.
+
+<details>
+<summary>Solution</summary>
+
+From the Fresnel equations with complex $\cos\theta_t$:
+
+$$r_s = \frac{\cos\theta_i - i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}{\cos\theta_i + i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}} = e^{i\delta_s}$$
+
+$$r_p = \frac{(n_2/n_1)^2\cos\theta_i - i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}}{(n_2/n_1)^2\cos\theta_i + i\sqrt{\sin^2\theta_i - (n_2/n_1)^2}} = e^{i\delta_p}$$
+
+where $\delta_s = -2\arctan(\sqrt{\sin^2\theta_i - (n_2/n_1)^2}/\cos\theta_i)$ and
+$\delta_p = -2\arctan(\sqrt{\sin^2\theta_i - (n_2/n_1)^2}/((n_2/n_1)^2\cos\theta_i))$.
+
+For $n_1 = 1.5$, $n_2 = 1$, $\theta_i = 60^\circ$: $(n_2/n_1)^2 \approx 0.444$,
+$\sin^2 60^\circ = 0.75$, so $\sqrt{\sin^2\theta_i - (n_2/n_1)^2} \approx \sqrt{0.75 - 0.444} \approx 0.553$,
+$\cos 60^\circ = 0.5$.
+
+$$\delta_s = -2\arctan(0.553/0.5) = -2\arctan(1.106) \approx -95.9^\circ$$
+
+$$\delta_p = -2\arctan(0.553/(0.444 \cdot 0.5)) = -2\arctan(2.491) \approx -136.2^\circ$$
+
+The relative phase difference $\Delta = \delta_p - \delta_s \approx -40.3^\circ$, which is why TIR
+can convert linear to elliptical polarisation (the basis of Fresnel rhomb quarter-wave plates).
+
+$\blacksquare$
+
+</details>
+
+### 10.9 Reflectance at the Critical Angle
+
+At $\theta_i = \theta_c = \arcsin(n_2/n_1)$, we have $\theta_t = 90^\circ$ and $\cos\theta_t = 0$.
+The Fresnel coefficients become:
+
+$$r_s = \frac{n_1\cos\theta_c - 0}{n_1\cos\theta_c + 0} = 1$$
+
+$$r_p = \frac{n_2\cos\theta_c - 0}{n_2\cos\theta_c + 0} = 1$$
+
+Both polarisations have $R = 1$ at the critical angle, and the transmitted wave propagates exactly
+along the interface with no energy flow into the second medium.
+

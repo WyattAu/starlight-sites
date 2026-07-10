@@ -108,3 +108,34 @@ $$\Psi(1, 2, \ldots, N) = \frac{1}{\sqrt{N!}}\begin{vmatrix} \phi_1(1) & \phi_2(
 - If any two columns (orbitals) are identical, the determinant vanishes (Pauli exclusion)
 - The normalisation is correct if the spin-orbitals $\phi_i$ are orthonormal
 
+### 9.5 Key Relationships
+
+- **Spin-statistics connection:** Particles with integer spin are bosons; half-integer spin are fermions. No exceptions in 3+1 dimensions.
+- **Exchange energy:** $E_{\text{exchange}} = J \mp K$ where the sign depends on the spin configuration. The triplet (parallel spins) has energy $J - K$ and the singlet (antiparallel) has $J + K$.
+- **Slater determinant size:** For $N$ particles each with $M$ available states, the Hilbert space dimension is $\binom{M}{N}$ for fermions versus $M^N$ for bosons.
+- **Pfaffian for pairs:** For an even number of fermions, the antisymmetric state can also be written as a Pfaffian, which is computationally efficient for specific pairing structures.
+
+### 9.6 Common Pitfalls
+
+- **Forgetting normalisation:** The symmetrisation prefactor $1/\sqrt{2}$ in two-particle states is essential. Without it, the states are not normalised and probability conservation fails.
+- **Confusing exchange with interaction:** The exchange splitting $2K$ arises from symmetry requirements, not from an explicit interaction potential between particles.
+- **Assuming all particles are fermions or bosons:** Composite particles can be either. For example, $^4$He atoms (2 protons, 2 neutrons, 2 electrons) are bosons, while $^3$He atoms are fermions.
+- **Neglecting spin in antisymmetrisation:** The full two-particle wavefunction (spatial $\times$ spin) must be antisymmetric for fermions. Using only the spatial part leads to incorrect results.
+
+### 9.7 Applications
+
+- **Electron gas in metals:** The Pauli exclusion principle forces electrons into progressively higher energy states, creating the Fermi sea. This accounts for the electronic specific heat and the stability of matter.
+- **White dwarf and neutron star stability:** Electron degeneracy pressure (from the Pauli principle) supports white dwarfs against gravitational collapse. Neutron degeneracy pressure supports neutron stars.
+- **Bose-Einstein condensation:** Below a critical temperature, a macroscopic fraction of bosons occupies the lowest energy state, producing superfluidity and coherent emission (atom lasers).
+- **Magnetic ordering:** Hund's rules and exchange interactions determine whether a material is ferromagnetic or antiferromagnetic. The exchange integral $K > 0$ favours parallel alignment (ferromagnetism).
+
+### 9.8 Worked Example: Three-Electron System
+
+Consider three electrons confined to a one-dimensional box of length $L$. The single-particle energies are $E_n = n^2\pi^2\hbar^2/(2mL^2)$. The lowest configuration has two electrons in $n = 1$ (opposite spins) and one in $n = 2$.
+
+The spatial part of the wavefunction must be antisymmetric under exchange of any two electrons. Using the Slater determinant with orbitals $\phi_1$, $\phi_1$, $\phi_2$ (where $\phi_1$ and $\phi_2$ are the spatial wavefunctions of the box), the antisymmetric state is:
+
+$$\Psi = \frac{1}{\sqrt{3!}}\begin{vmatrix} \phi_1(r_1)\alpha(1) & \phi_1(r_1)\beta(1) & \phi_2(r_1)\alpha(1) \\ \phi_1(r_2)\alpha(2) & \phi_1(r_2)\beta(2) & \phi_2(r_2)\alpha(2) \\ \phi_1(r_3)\alpha(3) & \phi_1(r_3)\beta(3) & \phi_2(r_3)\alpha(3) \end{vmatrix}$$
+
+The total energy is $E_1 + E_1 + E_2 = 6\pi^2\hbar^2/(2mL^2)$. The exchange splitting between the two possible spin configurations (total $S = 1/2$) depends on the exchange integral $K_{12}$ between the $n = 1$ and $n = 2$ states.
+

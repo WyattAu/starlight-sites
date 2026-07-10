@@ -777,7 +777,7 @@ Also inherits from `Base`Allowing access to `b.value_` would violate encapsulati
 
 - [Object Layout and the vptr](./1_object_layout_vptr.md)
 - [Operator Overloading](./4_operator_overloading.md)
-- [Deducing This and CRTP](../runtime_polymorphism/5_deducing_this_crtp.md)
+- [Deducing This and CRTP](../2_runtime_polymorphism/5_deducing_this_crtp.md)
 
 ## Summary
 

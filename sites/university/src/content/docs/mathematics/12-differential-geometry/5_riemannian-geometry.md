@@ -45,3 +45,94 @@ $$\Gamma^k_{ij} = \frac{1}{2} g^{k\ell}\left(\frac{\partial g_{j\ell}}{\partial 
 
 where $(g^{k\ell})$ is the inverse matrix of $(g_{k\ell})$.
 
+### 5.4 Geodesics
+
+A **geodesic** is a curve $\gamma : I \to M$ with zero acceleration:
+
+$$\nabla_{\dot\gamma} \dot\gamma = 0$$
+
+In local coordinates, this gives the geodesic equation:
+
+$$\ddot\gamma^k + \Gamma^k_{ij} \dot\gamma^i \dot\gamma^j = 0$$
+
+**Proposition 5.2.** For any $p \in M$ and $v \in T_p M$, there exists a unique geodesic
+$\gamma_v : I_v \to M$ with $\gamma_v(0) = p$ and $\dot\gamma_v(0) = v$.
+
+**Example 3.** On $\mathbb{R}^n$ with the Euclidean metric, $\Gamma^k_{ij} = 0$, so geodesics are
+straight lines: $\gamma(t) = p + tv$.
+
+**Example 4.** On $S^2$ with the round metric, geodesics are great circles (arcs of circles
+centered at the sphere's center). In spherical coordinates $(\theta, \phi)$ with metric
+$g = d\theta^2 + \cos^2\theta\, d\phi^2$, the non-zero Christoffel symbols are
+$\Gamma^\theta_{\phi\phi} = \tan\theta$ and $\Gamma^\phi_{\theta\phi} = \Gamma^\phi_{\phi\theta} = \sec^2\theta$.
+
+### 5.5 The Riemann Curvature Tensor
+
+The **Riemann curvature tensor** $R : \mathfrak{X}(M) \times \mathfrak{X}(M) \times \mathfrak{X}(M) \to \mathfrak{X}(M)$ is defined by:
+
+$$R(X, Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$$
+
+**Proposition 5.3 (Symmetries).** For any vector fields $X, Y, Z, W$:
+
+1. $R(X, Y)Z = -R(Y, X)Z$ (anti-symmetry in first two arguments)
+2. $\langle R(X, Y)Z, W\rangle = -\langle R(X, Y)W, Z\rangle$ (anti-symmetry in last two arguments)
+3. $R(X, Y)Z + R(Y, Z)X + R(Z, X)Y = 0$ (first Bianchi identity)
+4. $\langle R(X, Y)Z, W\rangle = \langle R(Z, W)X, Y\rangle$ (pair symmetry)
+5. $\nabla_X R(Y, Z)W + \nabla_Y R(Z, X)W + \nabla_Z R(X, Y)W = 0$ (second Bianchi identity)
+
+In local coordinates, the components are:
+
+$$R^\ell_{ijk} = \partial_i \Gamma^\ell_{jk} - \partial_j \Gamma^\ell_{ik} + \Gamma^m_{jk} \Gamma^\ell_{im} - \Gamma^m_{ik} \Gamma^\ell_{jm}$$
+
+### 5.6 Sectional, Ricci, and Scalar Curvature
+
+Let $\Pi \subseteq T_p M$ be a 2-dimensional subspace spanned by $v, w \in T_p M$. The **sectional curvature** is:
+
+$$K(\Pi) = \frac{\langle R(v, w)w, v\rangle}{|v|^2|w|^2 - \langle v, w\rangle^2}$$
+
+**Proposition 5.4.** Sectional curvature determines the full Riemann curvature tensor.
+
+The **Ricci curvature** is the trace of the Riemann tensor:
+
+$$\mathrm{Ric}(X, Y) = \sum_{i=1}^n \langle R(X, e_i)Y, e_i\rangle$$
+
+where $\{e_i\}$ is an orthonormal basis. In components: $R_{ij} = R^k_{ikj}$.
+
+The **scalar curvature** is the trace of the Ricci tensor: $S = \sum_i \mathrm{Ric}(e_i, e_i) = g^{ij} R_{ij}$.
+
+**Example 5.** For a sphere $S^n$ with radius $r$: sectional curvature $K = 1/r^2$, Ricci curvature
+$\mathrm{Ric} = (n-1)/r^2 \cdot g$, scalar curvature $S = n(n-1)/r^2$.
+
+**Example 6.** For hyperbolic space $\mathbb{H}^n$: $K = -1$, $\mathrm{Ric} = -(n-1)g$,
+$S = -n(n-1)$.
+
+### 5.7 Worked Examples
+
+**Problem 1.** Compute the Christoffel symbols for the Poincaré half-plane
+$\mathbb{H}^2 = \{(x, y) \in \mathbb{R}^2 : y > 0\}$ with metric $g = (dx^2 + dy^2)/y^2$.
+
+*Solution.* The metric components are $g_{xx} = g_{yy} = 1/y^2$, $g_{xy} = 0$. The inverse metric is
+$g^{xx} = g^{yy} = y^2$, $g^{xy} = 0$. Using $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$:
+
+$$\Gamma^x_{xy} = \Gamma^x_{yx} = -\frac{1}{y}, \quad \Gamma^y_{xx} = \frac{1}{y}, \quad \Gamma^y_{yy} = -\frac{1}{y}$$
+
+All other Christoffel symbols vanish. The geodesic equation gives: curves that are semicircles centered
+on the $x$-axis or vertical lines. $\blacksquare$
+
+**Problem 2.** Show that $S^2$ with the round metric has constant sectional curvature $K = 1$.
+
+*Solution.* The round metric $g = d\theta^2 + \sin^2\theta\, d\phi^2$ has non-zero Christoffel symbols
+$\Gamma^\theta_{\phi\phi} = -\sin\theta\cos\theta$, $\Gamma^\phi_{\theta\phi} = \Gamma^\phi_{\phi\theta} = \cot\theta$.
+Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\phi\theta\phi} / g_{\theta\theta}g_{\phi\phi} = 1$. $\blacksquare$
+
+### 5.8 Summary of Key Formulas
+
+| Concept | Formula |
+|---------|---------|
+| Riemannian metric | $g = g_{ij} dx^i \otimes dx^j$ |
+| Christoffel symbols | $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$ |
+| Geodesic equation | $\ddot\gamma^k + \Gamma^k_{ij} \dot\gamma^i \dot\gamma^j = 0$ |
+| Riemann curvature | $R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}$ |
+| Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / (|v|^2|w|^2 - \langle v,w\rangle^2)$ |
+| Ricci curvature | $R_{ij} = R^k_{ikj}$ |
+| Scalar curvature | $S = g^{ij}R_{ij}$ |

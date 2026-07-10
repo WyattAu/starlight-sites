@@ -3,7 +3,7 @@ title: Measurable Functions
 tags:
   - Mathematics
   - University
-description: "Let and be measurable spaces. A function is if for every . When , we equip with  Comprehensive educational content coverage with definitions and practice proble"
+description: 'Let and be measurable spaces. A function is if for every . When , we equip with . Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 5.1 Definition
@@ -43,7 +43,7 @@ $$s_n(x) = \begin{cases} \frac{k-1}{2^n} & \text{if } \frac{k-1}{2^n} \leq f(x) 
 Each $s_n$ is a simple function, $s_n \leq s_{n+1}$, and $s_n(x) \to f(x)$ for every $x$.
 $\blacksquare$
 
-### 5.3 Egorov"s Theorem and Lusin’s Theorem
+### 5.3 Egorov's Theorem and Lusin's Theorem
 
 **Theorem 5.5 (Egorov's Theorem).** Let $(X, \mathcal{F}, \mu)$ be a finite measure space and let
 $f_n : X \to \mathbb{R}$ be measurable functions converging pointwise to $f$ a.e. Then for every
@@ -54,3 +54,89 @@ $f_n \to f$ uniformly on $X \setminus A$.
 every $\varepsilon > 0$, there exists a compact set $K \subseteq [a, b]$ with
 $m([a, b] \setminus K) < \varepsilon$ such that $f|_K$ is continuous.
 
+### 5.4 Convergence in Measure
+
+**Definition.** A sequence of measurable functions $f_n$ converges **in measure** to $f$ if for
+every $\varepsilon > 0$:
+
+$$\lim_{n \to \infty} \mu(\{x : |f_n(x) - f(x)| \geq \varepsilon\}) = 0$$
+
+**Theorem 5.7.** If $f_n \to f$ a.e. on a finite measure space, then $f_n \to f$ in measure.
+
+_Proof._ For any $\varepsilon > 0$, let $E_n = \bigcup_{k \geq n} \{|f_k - f| \geq \varepsilon\}$.
+Then $E_{n+1} \subseteq E_n$ and $\mu(\bigcap_n E_n) = 0$ by a.e. convergence. By continuity from
+above, $\mu(E_n) \to 0$, hence $\mu(\{|f_n - f| \geq \varepsilon\}) \to 0$. $\blacksquare$
+
+The converse is false but there is a partial converse:
+
+**Theorem 5.8.** If $f_n \to f$ in measure, then there exists a subsequence $f_{n_k}$ converging
+to $f$ a.e.
+
+### 5.5 Convergence in $L^p$
+
+**Definition.** For $1 \leq p < \infty$, $f_n \to f$ in $L^p(\mu)$ if:
+
+$$\int |f_n - f|^p \, d\mu \to 0 \quad \text{as } n \to \infty$$
+
+**Proposition 5.9.** Convergence in $L^p$ implies convergence in measure.
+
+_Proof._ By Chebyshev's inequality:
+$\mu(\{|f_n - f| \geq \varepsilon\}) \leq \frac{1}{\varepsilon^p} \int |f_n - f|^p \, d\mu \to 0$.
+$\blacksquare$
+
+**Proposition 5.10.** Convergence a.e. does not imply convergence in $L^p$, and vice versa.
+
+_Example._ $f_n = n\chi_{(0, 1/n)}$ on $[0, 1]$ with Lebesgue measure. Then $f_n \to 0$ a.e. but
+$\int f_n = 1$, so $f_n \nrightarrow 0$ in $L^1$.
+
+### 5.6 Modes of Convergence Summary
+
+The relationships between convergence modes (on a finite measure space) are:
+
+1. **Uniform convergence** $\implies$ pointwise convergence $\implies$ a.e. convergence.
+2. **A.e. convergence** (on finite measure) $\implies$ convergence in measure.
+3. **$L^p$ convergence** $\implies$ convergence in measure.
+4. **Convergence in measure** $\implies$ existence of a.e. convergent subsequence.
+
+### 5.7 Practice Problems
+
+**Problem 1.** Show that if $f$ is measurable and $g$ is continuous, then $g \circ f$ is measurable.
+
+_Solution._ For any open set $U \subseteq \mathbb{R}$, $(g \circ f)^{-1}(U) = f^{-1}(g^{-1}(U))$.
+Since $g$ is continuous, $g^{-1}(U)$ is open, hence Borel. Since $f$ is measurable, the
+preimage is in $\mathcal{F}$. $\blacksquare$
+
+**Problem 2.** Prove that the pointwise limit of measurable functions is measurable.
+
+_Solution._ If $f_n \to f$ pointwise, then
+$\{x : f(x) > a\} = \bigcup_{m=1}^\infty \bigcap_{n=m}^\infty \{x : f_n(x) > a + 1/m\}$.
+Each inner set is measurable, so the countable union/intersection is measurable. $\blacksquare$
+
+**Problem 3.** Construct an example of convergence in measure but not a.e.
+
+_Solution._ Let $X = [0, 1]$ with Lebesgue measure. Arrange indicator functions of intervals
+$[0, 1], [0, 1/2], [1/2, 1], [0, 1/3], [1/3, 2/3], [2/3, 1], \ldots$ For each $x$, $f_n(x) = 1$
+infinitely often and $0$ infinitely often, so no pointwise convergence. But
+$\mu(\{f_n = 1\}) \to 0$, so convergence in measure holds. $\blacksquare$
+
+### 5.8 Monotone Convergence for Sets
+
+**Proposition 5.11.** If $A_n \in \mathcal{F}$ and $A_n \uparrow A$ (i.e., $A_n \subseteq A_{n+1}$
+and $\bigcup A_n = A$), then $\mu(A_n) \to \mu(A)$. This is continuity from below.
+
+**Proposition 5.12.** If $A_n \in \mathcal{F}$ and $A_n \downarrow A$ with $\mu(A_1) < \infty$, then
+$\mu(A_n) \to \mu(A)$. This is continuity from above.
+
+### 5.9 The Layer Cake Representation
+
+**Theorem 5.13 (Layer Cake Representation).** For a non-negative measurable function $f$:
+
+$$\int_X f\, d\mu = \int_0^\infty \mu(\{x : f(x) > t\})\, dt$$
+
+This formula is useful for computing integrals and for proving inequalities such as Chebyshev's
+and the Marcinkiewicz interpolation theorem.
+
+**Problem 4.** Prove the layer cake representation using Fubini's theorem.
+
+**Problem 5.** Show that if $f_n \to f$ in $L^p$, then $f_n \to f$ in measure, but the converse
+does not hold. Construct a counterexample.

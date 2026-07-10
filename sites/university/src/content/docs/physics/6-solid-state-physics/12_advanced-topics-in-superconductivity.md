@@ -188,4 +188,3 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 | DC Josephson | $I = I_c \sin\delta$ | Phase-dependent supercurrent |
 | AC Josephson | $\nu = 2eV/h$ | Frequency-voltage relation |
 
-

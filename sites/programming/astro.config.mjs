@@ -20,7 +20,8 @@ export default defineConfig({
     mermaid({ theme: 'dark', autoTheme: true }),
     mermaidNoRocketLoader(),
     starlight({
-      title: "Wyatt's Notes — Programming",
+      title: 'Programming',
+      pagefind: false,
       description:
         'Deep C++ systems programming notes covering ownership, RAII, templates, concurrency, and build systems.',
 
@@ -134,8 +135,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'Programming Notes',
-            description: 'C++ systems programming notes',
+            name: 'Programming',
+            description: 'C++ systems programming',
             url: 'https://programming.wyattau.com',
             publisher: {
               '@type': 'Organization',

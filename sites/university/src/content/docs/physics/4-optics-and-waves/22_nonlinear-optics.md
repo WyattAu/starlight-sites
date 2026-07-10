@@ -78,3 +78,47 @@ $$\eta \approx \frac{8\pi^2 \times (2.0 \times 10^{-12})^2 \times 10^{-4} \times
 
 </details>
 
+### Key Relationships
+
+| Effect | Susceptibility | Key Formula | Condition |
+|--------|---------------|-------------|-----------|
+| Linear optics | $\chi^{(1)}$ | $P = \varepsilon_0 \chi^{(1)} E$ | Weak fields |
+| SHG | $\chi^{(2)}$ | $I_{2\omega} \propto d_{\text{eff}}^2 I_\omega^2 L^2 \,\text{sinc}^2(\Delta k L/2)$ | Phase matching |
+| Pockels effect | $\chi^{(2)}$ | $\Delta n = n_0^3 r E / 2$ | Non-centrosymmetric |
+| Kerr effect | $\chi^{(3)}$ | $n = n_0 + n_2 I$ | All media |
+| Self-focusing | $\chi^{(3)}$ | $P_{\text{cr}} = \pi(0.61)^2 \lambda^2/(8n_0 n_2)$ | $P > P_{\text{cr}}$ |
+
+### Common Pitfalls
+
+1. **Phase matching is essential:** Without phase matching, the second-harmonic signal oscillates with crystal length, with the maximum efficiency at the coherence length $\ell_c = \pi/\Delta k$. Beyond $\ell_c$, back-conversion reduces the output.
+2. **$\chi^{(2)}$ requires non-centrosymmetry:** In centrosymmetric media, all even-order nonlinearities vanish. Do not attempt SHG in glasses or cubic crystals like silicon without symmetry-breaking interfaces.
+3. **Kerr effect saturates at high intensity:** The simple relation $n = n_0 + n_2 I$ holds only for $I \ll I_{\text{sat}}$. At very high intensities, saturation, multiphoton absorption, and plasma generation modify the response.
+4. **Group velocity mismatch:** For ultrashort pulses, the difference in group velocities between $\omega$ and $2\omega$ limits the interaction length. The walk-off length $L_{\text{walk-off}} = \tau_p / |v_g^{-1}(\omega) - v_g^{-1}(2\omega)|$ must exceed the crystal length.
+
+### Applications
+
+- **Laser frequency conversion:** SHG converts near-infrared Ti:sapphire laser output (800 nm) to blue/UV (400 nm). Sum-frequency generation produces tunable UV sources.
+- **Electro-optic modulators:** The Pockels effect enables high-speed optical modulators ($>40$ GHz) for fibre-optic communications, using crystals like LiNbO$_3$.
+- **Ultrashort pulse generation:** Kerr lens mode-locking (KLM) in Ti:sapphire lasers produces femtosecond pulses via self-focusing combined with an aperture.
+- **Supercontinuum generation:** Extreme spectral broadening in photonic crystal fibres, driven by self-phase modulation and soliton dynamics, produces octave-spanning spectra for frequency metrology.
+- **Quantum optics:** Spontaneous parametric down-conversion (SPDC) generates entangled photon pairs for quantum cryptography and quantum computing.
+
+### Connections to Other Topics
+
+- **Quantum optics:** SPDC is the workhorse for generating entangled photon pairs. The $\chi^{(2)}$ nonlinearity couples the vacuum field to signal and idler photons.
+- **Femtosecond laser physics:** The Kerr effect enables mode-locking, while self-phase modulation broadens the spectrum to support ultrashort pulses.
+- **Solid-state physics:** The nonlinear susceptibility tensor reflects crystal symmetry. Group theory determines which tensor components are nonzero for each crystal class.
+- **Condensed matter:** The electro-optic effect is used to characterise ferroelectric materials and domain structures.
+
+### Summary Table: Nonlinear Processes by Order
+
+| Order | Process | Application | Crystal Requirement |
+|-------|---------|-------------|-------------------|
+| $\chi^{(1)}$ | Linear refraction/absorption | Ordinary optics | Any |
+| $\chi^{(2)}$ | SHG, SFG, DFG, Pockels | Frequency conversion, modulators | Non-centrosymmetric |
+| $\chi^{(2)}$ | SPDC | Entangled photon pairs | Non-centrosymmetric |
+| $\chi^{(3)}$ | Kerr effect, SPM, XPM | Mode-locking, supercontinuum | All media |
+| $\chi^{(3)}$ | SRS, SBS | Amplifiers, lasers | All media |
+| $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
+| $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
+

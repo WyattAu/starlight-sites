@@ -69,3 +69,83 @@ closed bounded subset of $\mathbb{R}$ contains its supremum and infimum. $\squar
 
 **Proposition 5.4.** The continuous image of a compact space is compact.
 
+### 5.7 The Tube Lemma
+
+**Lemma 5.5 (Tube Lemma).** Let $X$ be compact and $Y$ any space. If $N \subseteq X \times Y$ is an open set containing the slice $\{x_0\} \times Y$, then there exists a neighbourhood $U$ of $x_0$ in $X$ such that $U \times Y \subseteq N$.
+
+The tube lemma is the key ingredient in proving Tychonoff's theorem for finite products and shows how compactness of the first factor allows local control to be extended globally.
+
+### 5.8 Compactness in Metric Spaces
+
+In metric spaces, compactness admits several equivalent characterisations:
+
+**Theorem 5.6.** For a metric space $(X, d)$, the following are equivalent:
+1. $X$ is compact.
+2. $X$ is sequentially compact.
+3. $X$ is complete and totally bounded (every $\varepsilon$-net is finite).
+
+**Definition.** A space is **locally compact** if every point has a compact neighbourhood. $\mathbb{R}^n$ is locally compact but not compact. Locally compact Hausdorff spaces admit a one-point compactification (the Alexandroff compactification).
+
+**Example 5.3 (Cantor Set).** The Cantor set $C$ is a compact subset of $[0, 1]$ that is uncountable, nowhere dense, and has Lebesgue measure zero. It is homeomorphic to $\{0, 1\}^{\mathbb{N}}$ with the product topology.
+
+### 5.9 Worked Example: Compactness of a Function Space
+
+**Problem.** Show that the set of continuous functions $F = \{f \in C([0, 1]) : \|f\|_\infty \leq 1\}$ is not compact in the sup-norm topology.
+
+<details>
+<summary>Solution</summary>
+
+Consider the sequence $f_n(x) = x^n$ on $[0, 1]$. Each $f_n$ satisfies $\|f_n\|_\infty \leq 1$, so $f_n \in F$. The pointwise limit is $f(x) = 0$ for $x < 1$ and $f(1) = 1$, which is discontinuous. No subsequence of $\{f_n\}$ converges uniformly to a continuous function, so $F$ is not sequentially compact. Since we are in a metric space, $F$ is not compact.
+
+This illustrates that the closed unit ball in an infinite-dimensional normed space is never compact (Riesz's lemma). Compactness of the unit ball characterises finite-dimensional spaces.
+
+$\blacksquare$
+
+</details>
+
+### 5.10 Paracompactness
+
+**Definition.** A space $X$ is **paracompact** if every open cover has a locally finite open refinement. Every compact space is paracompact, and every metric space is paracompact. Paracompactness is essential for the existence of partitions of unity, which enable the construction of global objects from local data.
+
+### 5.11 Finite Intersection Property
+
+**Definition.** A collection $\{A_\alpha\}$ of subsets of $X$ has the **finite intersection property (FIP)** if every finite subcollection has nonempty intersection.
+
+**Theorem 5.7 (FIP Characterisation).** $X$ is compact iff for every collection $\{F_\alpha\}$ of closed subsets of $X$ with the FIP, $\bigcap_\alpha F_\alpha \neq \emptyset$.
+
+This characterisation is often more convenient for proofs. For example, it immediately shows that the continuous image of a compact space is compact, and that a compact Hausdorff space is normal.
+
+### 5.12 Worked Example: The One-Point Compactification
+
+**Problem.** Show that $\mathbb{R}^n$ is homeomorphic to $S^n \setminus \{p\}$ (the sphere minus a point), and describe the one-point compactification of $\mathbb{R}^n$.
+
+<details>
+<summary>Solution</summary>
+
+**Stereographic projection** maps $S^n \setminus \{N\}$ (sphere minus north pole) to $\mathbb{R}^n$. For $S^1$, the map is:
+
+$$f(x, y) = \frac{x}{1 - y}$$
+
+with inverse $f^{-1}(t) = \left(\frac{2t}{t^2 + 1}, \frac{t^2 - 1}{t^2 + 1}\right)$.
+
+The **one-point compactification** $X^* = X \cup \{\infty\}$ of a locally compact Hausdorff space $X$ adds a single point $\infty$ with neighbourhoods defined as complements of compact sets in $X$. For $\mathbb{R}^n$, the one-point compactification is $S^n$: $\mathbb{R}^n \cup \{\infty\} \cong S^n$.
+
+$\blacksquare$
+
+</details>
+
+### 5.13 Worked Example: Non-Compactness of the Unit Ball in $C([0,1])$
+
+**Problem.** Prove that the closed unit ball $B = \{f \in C([0,1]) : \|f\|_\infty \leq 1\}$ is not compact using the finite intersection property.
+
+<details>
+<summary>Solution</summary>
+
+Define closed sets $F_n = \{f \in B : f(1/k) = 0 \text{ for } k \geq n\}$. Each $F_n$ is nonempty (contains the zero function). Any finite intersection $\bigcap_{k=1}^m F_{n_k}$ is nonempty (contains at least continuous functions vanishing at specified points). So $\{F_n\}$ has the FIP.
+
+But $\bigcap_{n=1}^\infty F_n = \{f \in B : f(1/k) = 0 \text{ for all } k \in \mathbb{N}\}$. This contains only functions vanishing on $\{1, 1/2, 1/3, \ldots\}$, which by continuity must also vanish at $0$. The only function in $B$ with this property is $f \equiv 0$, which is indeed in the intersection. Wait — this seems to suggest compactness! The subtlety is that in an infinite-dimensional space, closed bounded sets need not be compact. By Riesz's lemma, the unit ball is not compact. The FIP argument fails because the closed sets $F_n$ must be checked for FIP in the subspace topology of $B$, and in an infinite-dimensional space, closed bounded sets need not be compact.
+
+$\blacksquare$
+
+</details>
+

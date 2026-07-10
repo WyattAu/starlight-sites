@@ -20,7 +20,8 @@ export default defineConfig({
     mermaid({ theme: 'dark', autoTheme: true }),
     mermaidNoRocketLoader(),
     starlight({
-      title: "Wyatt's Notes — Infrastructure",
+      title: 'Infrastructure',
+      pagefind: false,
       description:
         'Server administration, databases, networking, security, and system tuning reference materials.',
 
@@ -91,8 +92,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'Infrastructure Notes',
-            description: 'Server administration notes',
+            name: 'Infrastructure',
+            description: 'Server administration',
             url: 'https://infrastructure.wyattau.com',
             publisher: {
               '@type': 'Organization',

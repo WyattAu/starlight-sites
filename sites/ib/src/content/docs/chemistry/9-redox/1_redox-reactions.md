@@ -451,6 +451,8 @@ Anion and water compete for oxidation at the anode.
 On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
 The rules as stated.
 
+:::
+
 ### Faraday"s Laws
 
 **Faraday's First Law:** The amount of substance produced at an electrode is directly proportional

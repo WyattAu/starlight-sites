@@ -71,3 +71,60 @@ Internal storage).
 Queries and strong consistency requirements. NoSQL databases excel when horizontal scalability or
 Flexible schemas are paramount. The choice depends on the workload, not on a blanket preference.
 
+### 1.5 Key Relationships
+
+| Concept          | Relationship                                                                  | Significance                                                  |
+| ---------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Schema levels    | External $\to$ Conceptual $\to$ Internal (ANSI-SPARC)                         | Data independence at logical and physical levels              |
+| Data models      | ER $\to$ Relational $\to$ Object-Relational $\to$ NoSQL                       | Trade-off: structure vs. flexibility vs. scalability           |
+| ACID vs. BASE    | Atomicity, Consistency, Isolation, Durability vs. Basically Available, etc.   | Consistency guarantees vs. availability in distributed systems |
+| Indexing         | B+ tree, hash, bitmap $\to$ query performance                                 | Faster reads at cost of write overhead and storage            |
+
+### 1.6 Common Pitfalls
+
+- **Confusing logical and physical data independence.** Logical independence means the conceptual schema can change (e.g., adding a table) without affecting external views. Physical independence means storage changes (e.g., new index) do not affect the conceptual schema. **Fix:** Remember that logical independence involves schema structure changes; physical independence involves storage/performance changes.
+- **Assuming NoSQL means no schema at all.** Document databases impose implicit schemas through application code. **Fix:** Document stores are schemaless at the database level but still require careful application-enforced validation.
+- **Mistaking views for snapshots.** A view is a stored query that reflects current data, not a copy. **Fix:** Queries on views execute each time unless the view is materialised.
+- **Ignoring concurrency control in read-heavy workloads.** Even read-only transactions may need isolation levels to avoid dirty reads. **Fix:** Use snapshot isolation or MVCC for consistent reads without blocking writes.
+
+### 1.7 Applications
+
+- **E-commerce platforms:** Relational databases (PostgreSQL, MySQL) handle orders, inventory, and customer data with ACID guarantees for transactions.
+- **Content management systems:** Document stores (MongoDB) store heterogeneous content with flexible schemas, enabling rapid iteration on data models.
+- **Real-time analytics:** Column-family stores (Cassandra, Bigtable) excel at time-series data and high write throughput for dashboards.
+- **Session caching:** Key-value stores (Redis) provide sub-millisecond access for session state in web applications.
+- **Social networks:** Graph databases (Neo4j) efficiently model friendships, recommendations, and influence propagation.
+
+### 1.8 Worked Example: Designing a Library Database
+
+**Problem.** Design a relational schema for a library that tracks books, members, and loans. Identify the conceptual schema and one possible external view.
+
+**Solution.** The conceptual schema includes three tables:
+
+- **Books(book_id, isbn, title, author, year, copies)** — each book copy shares the same ISBN.
+- **Members(member_id, name, email, join_date)** — library members.
+- **Loans(loan_id, book_id, member_id, loan_date, due_date, return_date)** — each loan tracks one copy.
+
+An external view for members might hide internal identifiers and join across tables:
+
+```sql
+CREATE VIEW MemberLoans AS
+SELECT m.name, b.title, l.due_date
+FROM Members m
+JOIN Loans l ON m.member_id = l.member_id
+JOIN Books b ON l.book_id = b.book_id
+WHERE l.return_date IS NULL;
+```
+
+This design achieves logical data independence: adding a `publisher` column to Books does not break the MemberLoans view.
+
+$\blacksquare$
+
+### 1.9 Summary Table
+
+| Architecture layer | Purpose                                       | Example components                 |
+| ------------------ | --------------------------------------------- | ---------------------------------- |
+| External           | User-specific views of the data               | Views, application-specific schemas |
+| Conceptual         | Logical structure of the entire database      | ER diagrams, table definitions      |
+| Internal           | Physical storage and access methods            | Indexes, file organisations, hashing |
+

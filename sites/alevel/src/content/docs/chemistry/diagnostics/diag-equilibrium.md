@@ -454,4 +454,6 @@ $$x = 0.997\,\mathrm{atm}$$
 Equilibrium:
 $p(\mathrm{CO}) = p(\mathrm{H}_2\mathrm{O}) = 0.003\,\mathrm{atm}$, $p(\mathrm{CO}_2) = p(\mathrm{H}_2) = 0.997\,\mathrm{atm}$
 $$
+
+$$
 (1 mark).

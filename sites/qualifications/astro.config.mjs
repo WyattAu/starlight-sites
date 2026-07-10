@@ -16,7 +16,8 @@ export default defineConfig({
   output: 'static',
   integrations: [
     starlight({
-      title: "Wyatt's Notes — Qualifications",
+      title: 'Qualifications',
+      pagefind: false,
       description:
         'GCSE, AP, Scottish Highers, Irish Leaving Certificate, and other qualification revision notes with exam-style practice.',
 
@@ -87,7 +88,7 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'Qualifications Notes',
+            name: 'Qualifications',
             description: 'GCSE, AP, and other qualifications',
             url: 'https://qualifications.wyattau.com',
             publisher: {

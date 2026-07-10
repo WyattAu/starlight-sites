@@ -67,3 +67,91 @@ $L^q(\mu) \subseteq L^p(\mu)$. In particular, $L^\infty(\mu) \subseteq L^2(\mu) 
 
 _Proof._ Apply Holder's inequality with $q/p$ and its conjugate. $\blacksquare$
 
+### 7.6 Dual Spaces
+
+**Theorem 7.6 (Riesz Representation for $L^p$).** For $1 < p < \infty$, the dual space $(L^p)^*$ is isometrically isomorphic to $L^q$, where $1/p + 1/q = 1$. The pairing is:
+
+$$\langle f, g \rangle = \int f g\, d\mu, \quad f \in L^p, g \in L^q$$
+
+This also holds for $p = 1$ provided $\mu$ is $\sigma$-finite (the dual of $L^1$ is $L^\infty$). For $p = \infty$, the dual is strictly larger than $L^1$ (except for finite-dimensional spaces).
+
+### 7.7 Uniform Convexity
+
+**Proposition 7.7.** For $1 < p < \infty$, $L^p$ spaces are **uniformly convex**: for any $\varepsilon > 0$, there exists $\delta > 0$ such that if $\|f\|_p = \|g\|_p = 1$ and $\|f - g\|_p \geq \varepsilon$, then $\|(f + g)/2\|_p \leq 1 - \delta$.
+
+Uniform convexity implies reflexivity for $1 < p < \infty$ and guarantees the existence and uniqueness of best approximations in closed convex subspaces.
+
+### 7.8 Density Results
+
+**Proposition 7.8 (Density of Simple Functions).** Simple functions are dense in $L^p(\mu)$ for $1 \leq p < \infty$. For the Lebesgue measure on $\mathbb{R}^n$, the following are also dense:
+1. Step functions (finite linear combinations of characteristic functions of rectangles)
+2. Continuous functions with compact support $C_c(\mathbb{R}^n)$
+3. Smooth functions with compact support $C_c^\infty(\mathbb{R}^n)$
+
+### 7.9 Convergence in $L^p$
+
+**Proposition 7.9.** If $f_n \to f$ in $L^p$, then there exists a subsequence $f_{n_k}$ that converges pointwise a.e. to $f$. The converse is false: pointwise convergence a.e. does not imply $L^p$ convergence (counterexample: $f_n = n\chi_{[0, 1/n]}$ on $[0, 1]$ converges pointwise to $0$ but $\|f_n\|_1 = 1$ for all $n$).
+
+**Theorem 7.10 (Dominated Convergence in $L^p$).** If $f_n \to f$ a.e. and there exists $g \in L^p$ such that $|f_n| \leq g$ a.e. for all $n$, then $f_n \to f$ in $L^p$.
+
+### 7.10 Worked Example: $L^p$ Norm Behaviour
+
+**Problem.** Let $f(x) = x^{-1/2}$ on $(0, 1)$ with Lebesgue measure. For which $p$ does $f \in L^p(0, 1)$?
+
+<details>
+<summary>Solution</summary>
+
+Compute $\int_0^1 |f(x)|^p dx = \int_0^1 x^{-p/2} dx$. This integral converges iff $-p/2 > -1$, i.e., $p < 2$. So $f \in L^p(0, 1)$ precisely for $1 \leq p < 2$. Note $f \notin L^2(0, 1)$ (the integral diverges logarithmically at the boundary).
+
+$\blacksquare$
+
+</details>
+
+### 7.11 Worked Example: Interpolation
+
+**Problem.** Show that if $f \in L^p \cap L^q$ with $1 \leq p < q \leq \infty$, then $f \in L^r$ for all $r \in [p, q]$.
+
+<details>
+<summary>Solution</summary>
+
+Write $r = \theta p + (1-\theta)q$ with $\theta \in [0, 1]$, so $1 = \theta p/r + (1-\theta)q/r$. Apply Holder's inequality with exponents $r/(\theta p)$ and $r/((1-\theta)q)$:
+
+$$\int |f|^r = \int |f|^{\theta p} |f|^{(1-\theta)q} \leq \left(\int |f|^p\right)^{\theta r/p} \left(\int |f|^q\right)^{(1-\theta) r/q}$$
+
+Therefore $\|f\|_r \leq \|f\|_p^\theta \|f\|_q^{1-\theta}$, establishing both that $f \in L^r$ and a quantitative interpolation inequality.
+
+$\blacksquare$
+
+</details>
+
+### 7.12 Weak $L^p$ and Lorentz Spaces
+
+**Definition.** The **weak $L^p$ space** $L^{p,\infty}(\mu)$ consists of measurable functions for which
+
+$$[f]_{p,\infty} = \sup_{t > 0} t\, \mu(\{x : |f(x)| > t\})^{1/p} < \infty$$
+
+Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\|_{p,\infty} \leq \|f\|_p$.
+
+**Example.** The function $f(x) = 1/|x|^{1/p}$ on $\mathbb{R}$ is in $L^{p,\infty}$ but not in $L^p$ (the singularity is just barely non-integrable in the $L^p$ sense).
+
+**Lorentz spaces** $L^{p,q}(\mu)$ refine the $L^p$ scale, with $L^{p,p} = L^p$ and $L^{p,\infty}$ being weak $L^p$. They are important in interpolation theory and harmonic analysis.
+
+### 7.13 Worked Example: $L^p$ on a Finite Measure Space
+
+**Problem.** Show that if $\mu(X) < \infty$, then $\lim_{p \to \infty} \|f\|_p = \|f\|_\infty$ for $f \in L^\infty(\mu)$.
+
+<details>
+<summary>Solution</summary>
+
+Let $M = \|f\|_\infty$. For any $\varepsilon > 0$, the set $A = \{x : |f(x)| > M - \varepsilon\}$ has $\mu(A) > 0$. Then:
+
+$$\|f\|_p \geq \left(\int_A (M - \varepsilon)^p d\mu\right)^{1/p} = (M - \varepsilon)\,\mu(A)^{1/p}$$
+
+As $p \to \infty$, $\mu(A)^{1/p} \to 1$, so $\liminf_{p\to\infty} \|f\|_p \geq M - \varepsilon$. Since $\varepsilon$ is arbitrary, $\liminf \|f\|_p \geq M$.
+
+Conversely, $\|f\|_p \leq M\,\mu(X)^{1/p}$, so $\limsup_{p\to\infty} \|f\|_p \leq M$. Therefore $\lim_{p\to\infty} \|f\|_p = M = \|f\|_\infty$.
+
+$\blacksquare$
+
+</details>
+

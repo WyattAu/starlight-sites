@@ -191,6 +191,26 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45
 - **Mixing up osmosis direction:** Water moves from less negative water potential to more negative water potential (high water concentration to low), not the other way around.
 - **Stating mitosis produces "identical cells" without qualification:** Mitosis produces genetically identical cells only in ideal conditions. DNA mutations can introduce variation.
 
-## Summary
+## Key Relationships
 
-Cell biology covers the structure and function of prokaryotic and eukaryotic cells, including organelle functions, the fluid mosaic model of cell membranes, transport mechanisms (passive, active, bulk), and cell division (mitosis and meiosis). Microscopy techniques (light and electron) and the ability to calculate actual size from magnification are essential practical skills for the DSE exam.
+- **Structure and function are linked:** The folded cristae of mitochondria increase surface area for oxidative phosphorylation, directly enhancing ATP production capacity.
+- **Membrane fluidity depends on composition:** More cholesterol and unsaturated fatty acid tails increase fluidity; saturated tails and cholesterol at low temperatures decrease it.
+- **Osmosis and water potential drive plant cell health:** Turgor pressure from osmosis keeps plant cells rigid; loss of turgor causes wilting.
+- **Mitosis and meiosis maintain the chromosome cycle:** Meiosis halves the chromosome number so that fertilisation restores it; mitosis maintains it during growth.
+- **Microscopy resolution limits what can be observed:** The diffraction limit of light (~200 nm) means organelles like ribosomes (20-30 nm) require electron microscopy.
+- **Active transport maintains electrochemical gradients:** The sodium-potassium pump uses ATP to maintain concentration gradients essential for nerve impulse transmission.
+
+## Applications
+
+- **Medical diagnostics:** Understanding cell structure helps identify diseased cells (e.g. cancer cells show abnormal nuclei and uncontrolled division).
+- **Antibiotic design:** Many antibiotics target prokaryotic-specific structures (70S ribosomes, peptidoglycan cell walls) without harming eukaryotic host cells.
+- **Forensic science:** DNA analysis relies on understanding chromosome structure and the difference between mitosis and meiosis.
+- **Agriculture:** Knowledge of osmosis and water potential informs irrigation strategies and salt-tolerant crop development.
+- **Biotechnology:** Understanding of the endomembrane system (ER, Golgi) enables engineering of cells to produce and secrete therapeutic proteins.
+
+## Exam Tips
+
+- When asked to compare prokaryotic and eukaryotic cells, always mention the nucleus, membrane-bound organelles, ribosome size, and cell wall composition.
+- For microscopy questions, state both magnification and resolution differences between light and electron microscopes.
+- In osmosis problems, always draw a water potential gradient and indicate the direction of water movement.
+- When describing mitosis or meiosis phases, include the key event of each phase and the final chromosome number.

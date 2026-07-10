@@ -147,6 +147,7 @@ The caller uses `getArea()` and `getPerimeter()` without knowing that `width` an
 Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
 Corners) without affecting any code that uses this class.
 
+:::
 
 ### Information Hiding
 

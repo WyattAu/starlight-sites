@@ -385,5 +385,4 @@ $$\text{LE} = -1220 - 1415 = -2635\,\mathrm{kJ\,mol^{-1}}$$ (2 marks).
 
 The large (negative) lattice energy reflects the high charges on $\mathrm{Ca}^{2+}$ and
 $\mathrm{F}^-$ and the small ionic radii, both of which increase the electrostatic attraction in the
-$$
 lattice (1 mark).

@@ -115,6 +115,7 @@ let mut sorted = values;
 sorted.sort_by(|a, b| a.total_cmp(b));
 // [1.0, 2.0, inf, NaN]
 ```
+:::
 
 ## Boolean Type
 
@@ -142,7 +143,6 @@ let unicode: char = '\u{1F980}';
 assert_eq!(std::mem::size_of::<char>(), 4);
 ```
 
-:::
 :::info
 
 A `char` is not a "character" in the text-processing sense. A single user-perceived grapheme cluster
@@ -150,6 +150,7 @@ A `char` is not a "character" in the text-processing sense. A single user-percei
 Multiple `char` values. For text processing, work with `&str` slices and the `unicode-segmentation`
 Crate.
 
+:::
 
 ### `char` vs `u8`
 
@@ -582,7 +583,6 @@ fn increment() {
 }
 ```
 
-:::
 :::caution
 
 Do not use `static mut`. It is the source of undefined behavior in multi-threaded contexts and
@@ -737,13 +737,13 @@ let y: u32 = x as u32;          // 4294967295 (two's complement reinterpretation
 let z: i8 = 128i32 as i8;       // -128 (wraps)
 ```
 
-:::
 :::caution
 
 `as` for integer-to-integer casts is well-defined (wrapping/truncation semantics). `as` for
 Float-to-integer casts saturates: NaN and out-of-range values become 0 (for unsigned) or the minimum
 Value (for signed). This behavior is documented in the reference but surprises people coming from C.
 
+:::
 
 ### Safe Conversions with `TryFrom`/`TryInto`
 
@@ -848,6 +848,3 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
-:::

@@ -20,7 +20,8 @@ export default defineConfig({
     mermaid({ theme: 'dark', autoTheme: true }),
     mermaidNoRocketLoader(),
     starlight({
-      title: "Wyatt's Notes — Languages",
+      title: 'Languages',
+      pagefind: false,
       description:
         'Comparative programming language notes covering syntax, paradigms, type systems, and concurrency models.',
 
@@ -94,8 +95,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'Languages Notes',
-            description: 'Programming language comparison notes',
+            name: 'Languages',
+            description: 'Programming language comparison',
             url: 'https://languages.wyattau.com',
             publisher: {
               '@type': 'Organization',

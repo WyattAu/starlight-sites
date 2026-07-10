@@ -1160,3 +1160,5 @@ Therefore $\text{tr}\,\mathbf{A} = \lambda_1 + \lambda_2 + \cdots + \lambda_n$. 
 </details>
 
 $$
+
+$$

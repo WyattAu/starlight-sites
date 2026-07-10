@@ -98,3 +98,34 @@ Other families of high-$T_c$ superconductors include iron-based pnictides ($T_c$
 Magnesium diboride MgB$_2$ ($T_c = 39$ K), and the recently discovered nickelates and hydrides
 ($T_c$ up to $\sim 250$ K under extreme pressure).
 
+### 7.6 Key Relationships
+
+- **BCS gap ratio:** $2\Delta(0)/(k_BT_c) \approx 3.53$ for conventional superconductors. Deviations indicate strong coupling or unconventional pairing.
+- **London penetration depth:** $\lambda_L = \sqrt{m_e/(\mu_0 n_s e^2)}$. Typical values are 20--100 nm. $\lambda_L$ diverges as $T \to T_c$ because $n_s \to 0$.
+- **Coherence length:** $\xi_0 = \hbar v_F/(\pi\Delta_0)$ is the BCS coherence length, setting the scale over which the gap varies spatially.
+- **Ginzburg-Landau parameter:** $\kappa = \lambda_L/\xi_0$. Type I: $\kappa < 1/\sqrt{2}$; Type II: $\kappa > 1/\sqrt{2}$.
+- **Flux quantisation:** The magnetic flux through a superconducting loop is quantised in units of $\Phi_0 = h/(2e) \approx 2.07 \times 10^{-15}$ Wb. The factor $2e$ reflects the charge of a Cooper pair.
+
+### 7.7 Common Pitfalls
+
+- **Confusing $B_c$ with $B_{c1}$ and $B_{c2}$:** For Type II superconductors, $B_{c1}$ marks the onset of flux penetration (mixed state) while $B_{c2}$ marks the complete destruction of superconductivity. $B_c$ is only meaningful for Type I.
+- **Assuming zero resistance means infinite conductivity:** The London equations show that superconductors have a frequency-dependent response. At finite frequency there is a reactive (lossless) current, not infinite DC conductivity.
+- **Neglecting the isotope effect:** $T_c \propto M^{-\alpha}$ with $\alpha \approx 0.5$ for conventional superconductors. A deviation from $\alpha = 0.5$ suggests a non-phonon pairing mechanism.
+- **Overlooking metastable states:** Type II superconductors can trap vortices (flux pinning). The critical current density $J_c$ depends on the pinning force, not just the upper critical field.
+
+### 7.8 Applications
+
+- **MRI magnets:** Superconducting magnets provide the strong, stable magnetic fields (1.5--7 T) required for magnetic resonance imaging. Niobium-titanium wire cooled to 4.2 K is the standard.
+- **Particle accelerators:** The Large Hadron Collider at CERN uses over 1,200 superconducting dipole magnets (NbTi at 1.9 K) to bend proton beams at 6.5 TeV.
+- **SQUIDs:** Superconducting quantum interference devices exploit flux quantisation and Josephson tunnelling to measure magnetic fields as small as $10^{-15}$ T, used in magnetoencephalography.
+- **Lossless power transmission:** High-temperature superconducting cables (YBCO) are being deployed in urban grids to transmit large currents with zero resistive losses, though cooling costs must be offset.
+
+### 7.9 Josephson Effects
+
+A **Josephson junction** consists of two superconductors separated by a thin insulating barrier. Cooper pairs can tunnel through the barrier, producing remarkable effects:
+
+- **DC Josephson effect:** A supercurrent $I = I_c \sin\phi$ flows across the junction even at zero applied voltage, where $\phi$ is the phase difference of the order parameter across the barrier and $I_c$ is the critical current.
+- **AC Josephson effect:** When a constant voltage $V$ is applied, the phase evolves as $d\phi/dt = 2eV/\hbar$, producing an oscillating current with frequency $f = 2eV/h \approx 483.6$ MHz/$\mu$V. This provides an exact voltage-to-frequency conversion.
+
+The Josephson effects are the basis for SQUIDs, voltage standards, and superconducting qubits used in quantum computing.
+

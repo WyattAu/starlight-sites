@@ -1017,6 +1017,7 @@ Always define your random variable and state the distribution with parameters at
 Normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
 whether independence is assumed. For confidence intervals, state the level and Interpret in context.
 
+:::
 
 ---
 

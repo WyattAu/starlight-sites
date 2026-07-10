@@ -3,7 +3,7 @@ title: Coherence Theory
 tags:
   - Physics
   - University
-description: 'A source has finite if the emitted light has a finite bandwidth . The is Comprehensive educational content coverage with definitions and practice problems.'
+description: 'A source has finite if the emitted light has a finite bandwidth . The is . Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 ### 11.1 Temporal Coherence
@@ -13,7 +13,7 @@ The **coherence time** is
 
 $$\tau_c \sim \frac{1}{\Delta\nu}$$
 
-And the **coherence length** is
+and the **coherence length** is
 
 $$L_c = c\,\tau_c \sim \frac{c}{\Delta\nu} = \frac{\lambda^2}{\Delta\lambda}$$
 
@@ -57,5 +57,105 @@ differences. $\blacksquare$
 
 </details>
 
----
+### 11.4 The Mutual Coherence Function
 
+The **mutual coherence function** quantifies the correlation between the optical field at two
+space-time points:
+
+$$\Gamma_{12}(\tau) = \langle E^*(r_1, t + \tau) E(r_2, t) \rangle$$
+
+where the angle brackets denote a time average. The normalized form is the **complex degree of
+coherence**:
+
+$$\gamma_{12}(\tau) = \frac{\Gamma_{12}(\tau)}{\sqrt{\Gamma_{11}(0)\,\Gamma_{22}(0)}}$$
+
+The magnitude $|\gamma_{12}(\tau)|$ satisfies $0 \leq |\gamma_{12}(\tau)| \leq 1$.
+
+- $|\gamma| = 1$: fully coherent.
+- $0 < |\gamma| < 1$: partially coherent.
+- $|\gamma| = 0$: completely incoherent.
+
+### 11.5 Fringe Visibility and the Michelson Interferometer
+
+In a Michelson interferometer, the intensity at the output is:
+
+$$I = I_1 + I_2 + 2\sqrt{I_1 I_2}\, |\gamma_{12}(\tau)| \cos(\Delta\phi)$$
+
+The **fringe visibility** (or contrast) is defined as:
+
+$$V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = \frac{2\sqrt{I_1 I_2}}{I_1 + I_2}\, |\gamma_{12}(\tau)|$$
+
+For equal intensities $I_1 = I_2$, the visibility equals $|\gamma_{12}(\tau)|$.
+
+### 11.6 The Wiener-Khinchin Theorem
+
+The Wiener-Khinchin theorem relates the power spectral density to the autocorrelation function:
+
+$$S(\nu) = \int_{-\infty}^{\infty} \Gamma_{11}(\tau)\, e^{2\pi i\nu\tau}\, d\tau$$
+
+$$\Gamma_{11}(\tau) = \int_{-\infty}^{\infty} S(\nu)\, e^{-2\pi i\nu\tau}\, d\nu$$
+
+Thus the coherence time and spectral width satisfy the uncertainty relation:
+
+$$\tau_c \cdot \Delta\nu \sim 1$$
+
+This is a fundamental property linking temporal coherence to the source spectrum.
+
+### 11.7 Young's Double-Slit Experiment with Partial Coherence
+
+In Young's experiment with partially coherent illumination, the fringe visibility is:
+
+$$V = |\gamma_{12}(0)| \cdot \left|\frac{2J_1(k a \theta)}{k a \theta}\right|$$
+
+where $a$ is the slit separation, $\theta$ is the angular source size, and $J_1$ is the Bessel
+function of the first kind. The first zero occurs when $k a \theta = 3.83$, giving the condition for
+the loss of spatial coherence fringes:
+
+$$a \approx \frac{1.22 \lambda}{\theta}$$
+
+### 11.8 Practice Problems
+
+**Problem 1.** A white-light source has bandwidth $\Delta\lambda \approx 300$ nm centered at
+$\lambda = 550$ nm. Calculate the coherence length.
+
+**Problem 2.** An extended incoherent source of angular diameter $0.1$ mrad illuminates a double
+slit at $\lambda = 500$ nm. What is the maximum slit separation that yields visible fringes?
+
+**Problem 3.** In a Michelson interferometer with equal beam intensities, the fringe visibility
+drops to $0.5$ at a path difference of $100\ \mu$m. Estimate the coherence length and bandwidth
+of the source.
+
+**Problem 4.** Derive the relationship between the coherence area and the solid angle subtended by
+an extended source.
+
+_Solution._ For a circular source of angular radius $\Delta\theta$, the coherence area is
+$A_c \approx \lambda^2 / (\pi (\Delta\theta)^2)$. If the source subtends a solid angle
+$\Omega = \pi (\Delta\theta)^2$, then $A_c \approx \lambda^2 / \Omega$. This expresses the
+fundamental trade-off: a source of larger angular extent produces light with smaller coherence
+area. $\blacksquare$
+
+### 11.9 Stellar Interferometry
+
+The **Michelson stellar interferometer** uses spatial coherence to measure the angular diameter of
+stars. By varying the baseline $d$ between two apertures until fringes disappear, the angular
+diameter $\theta$ is obtained from:
+
+$$\theta \approx 1.22 \frac{\lambda}{d_{\mathrm{max}}}$$
+
+where $d_{\mathrm{max}}$ is the maximum baseline at which fringes are visible. This technique
+enables angular resolution far beyond the diffraction limit of a single telescope.
+
+**Example.** Betelgeuse ($\alpha$ Orionis) has angular diameter $\theta \approx 0.047$ arcseconds.
+At $\lambda = 500$ nm, this requires $d_{\mathrm{max}} \approx 1.22 \times 500 \times 10^{-9} /
+(0.047 \times \pi/648000) \approx 2.7$ m.
+
+### 11.10 Quantum Optics and Coherence
+
+In quantum optics, coherence is described by the **first-order correlation function** $g^{(1)}(\tau)$
+and **second-order correlation function** $g^{(2)}(\tau)$. For thermal light, $g^{(2)}(0) = 2$
+(bunching). For coherent laser light, $g^{(2)}(\tau) = 1$. For non-classical light (photon
+antibunching), $g^{(2)}(0) < 1$.
+
+**Problem 5.** Two slits separated by 0.5 mm are illuminated by a star of angular diameter
+0.01 arcseconds at $\lambda = 550$ nm. Compute the fringe visibility and determine whether the
+fringes are observable.

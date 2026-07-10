@@ -109,3 +109,40 @@ discontinuously from zero to a finite value.
 
 </details>
 
+### 11.5 Key Relationships
+
+- **Critical exponents (mean-field):** $\beta = 1/2$ (order parameter), $\gamma = 1$ (susceptibility), $\alpha = 0$ (specific heat jump), $\delta = 3$ (critical isotherm: $h \propto \phi^3$ at $T = T_c$).
+- **Universality:** Systems with the same symmetry and dimensionality share the same critical exponents, regardless of microscopic details. Landau theory gives mean-field exponents, which are exact only above the upper critical dimension ($d > 4$ for short-range interactions).
+- **Clausius-Clapeyron analogue:** At a first-order transition (when $b < 0$), the discontinuity in the order parameter gives a latent heat $L = T_c \Delta s$ where $\Delta s = -\partial f/\partial T$ is the entropy jump.
+- **Ginzburg criterion:** Mean-field theory is valid when fluctuations are small, i.e., when $|T - T_c| > T_c(a_0^2 k_B^2)/(32\pi^2 b^2 \xi_0^d)$. For $d < 4$, this fails very close to $T_c$.
+
+### 11.6 Common Pitfalls
+
+- **Assuming Landau theory is always valid:** It is a mean-field theory. Near $T_c$ in low dimensions, critical fluctuations dominate and renormalisation group methods are required.
+- **Forgetting that $b$ can be negative:** If $b < 0$, the $\phi^6$ term must be included to ensure stability. The transition becomes first-order, and the simple $\phi = \pm\sqrt{-a/b}$ solution does not apply.
+- **Neglecting the role of symmetry:** The form of the Landau expansion depends on the symmetry of the order parameter. A vector order parameter (e.g., in the XY model) requires a different expansion than a scalar.
+- **Confusing the order parameter with a physical observable:** The order parameter $\phi$ is an abstract quantity. For a ferromagnet it is the magnetisation; for a superfluid it is the condensate wavefunction; for a liquid-gas transition it is the density difference.
+
+### 11.7 Applications
+
+- **Ferromagnetic transitions:** The Landau theory with $\phi = M$ (magnetisation) predicts the Curie temperature and the Curie-Weiss law $\chi \propto 1/(T - T_c)$ for the susceptibility above $T_c$.
+- **Superfluid helium:** The order parameter is the complex condensate wavefunction $\psi$. The Landau-Ginzburg expansion includes $|\psi|^2$ terms and gradient terms, leading to the Ginzburg-Landau theory of superconductivity.
+- **Binary alloys:** The order parameter describes the degree of chemical ordering (e.g., Cu-Zn ordering in brass). The Landau theory predicts the order-disorder transition temperature.
+- **Liquid crystals:** Nematic-isotropic transitions can be described by a tensor order parameter $Q_{ij}$. The Landau expansion includes both scalar and tensor invariants.
+
+### 11.8 Worked Example: Finding the Transition Temperature
+
+A magnetic system has Landau coefficients $a(T) = 0.5(T - 400)$ K and $b = 2.0$ (arbitrary units). Find $T_c$ and the magnetisation at $T = 300$ K.
+
+At $T_c$, the coefficient $a(T_c) = 0$, so $0.5(T_c - 400) = 0$ giving $T_c = 400$ K.
+
+At $T = 300$ K: $a(300) = 0.5(300 - 400) = -50$. The equilibrium magnetisation is:
+
+$$M = \sqrt{-a/b} = \sqrt{50/2.0} = \sqrt{25} = 5.0$$
+
+The free energy at equilibrium: $f_{\text{eq}} = -a^2/(4b) = -2500/(8) = -312.5$.
+
+The susceptibility above $T_c$: $\chi = 1/a = 1/[0.5(T - 400)]$. At $T = 500$ K, $\chi = 1/50 = 0.02$.
+
+The specific heat jump at $T_c$: $\Delta C = T_c a_0^2/(2b) = 400 \times 0.25/(4) = 25$.
+

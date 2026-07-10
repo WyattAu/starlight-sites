@@ -95,3 +95,54 @@ The experimental values are $T_c = 304.3$ K and $P_c = 73.8$ atm, showing good a
 
 </details>
 
+## Common Pitfalls
+
+- **Confusing first-order and second-order transitions:** First-order transitions have discontinuous first derivatives of $G$, meaning latent heat and volume change. Second-order transitions have continuous first derivatives but discontinuous second derivatives (diverging susceptibility).
+- **Assuming mean-field exponents are exact:** The van der Waals equation predicts $\beta = 1/2$, but real fluids and the 3D Ising model give $\beta \approx 0.326$. Mean-field theory breaks down near $T_c$ due to fluctuations.
+- **Forgetting that the Clausius-Clapeyron equation only applies to first-order transitions:** At a second-order transition, $\Delta S = 0$ and $\Delta v = 0$, so the equation is undefined (0/0), and the Ehrenfest equations must be used instead.
+- **Misidentifying the order parameter:** The choice of order parameter depends on the system. For the liquid-gas transition, it is the density difference; for a magnet, it is the magnetisation; for a superfluid, it is the macroscopic wavefunction amplitude.
+
+## Worked Example: Landau Theory of Phase Transitions
+
+Near a second-order transition, the free energy can be expanded as a power series in the order parameter $\phi$:
+
+$$F(T, \phi) = F_0(T) + a(T)\phi^2 + b(T)\phi^4 + \cdots$$
+
+For $T > T_c$, $a(T) > 0$ and the minimum is at $\phi = 0$. For $T < T_c$, $a(T) < 0$ and the minima are at $\phi = \pm \sqrt{-a/(2b)}$. The simplest choice is $a(T) = a_0(T - T_c)$ with $a_0 > 0$, giving:
+
+$$\phi = \pm \sqrt{\frac{a_0}{2b}(T_c - T)^{1/2}} \propto (T_c - T)^\beta$$
+
+with $\beta = 1/2$, recovering the mean-field result. The free energy at the minimum is:
+
+$$F(T) = F_0(T) - \frac{a_0^2}{4b}(T_c - T)^2$$
+
+The heat capacity jumps at $T_c$: $\Delta C = \frac{a_0^2 T_c}{2b}$, which is the mean-field prediction $\alpha = 0$.
+
+## Worked Example: Liquid-Gas Coexistence Curve
+
+The Clausius-Clapeyron equation can be integrated if $L$ and $\Delta v$ are treated as approximately constant over a small temperature range:
+
+$$P(T) = P_0 + \frac{L}{\Delta v}\ln\left(\frac{T}{T_0}\right)$$
+
+For water near $100^\circ$C, using $L = 2.26 \times 10^6$ J/kg, $\Delta v = 1.672$ m$^3$/kg, $T_0 = 373.15$ K, $P_0 = 1.013 \times 10^5$ Pa:
+
+$$P(T) \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln\left(\frac{T}{373.15}\right) \text{ Pa}$$
+
+At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln(1.00268) \approx 1.049 \times 10^5$ Pa, or about 1.036 atm — consistent with the linear approximation of 0.036 atm/K.
+
+## Key Relationships
+
+- **Clausius-Clapeyron links latent heat to the coexistence curve slope:** A larger latent heat $L$ or smaller volume change $\Delta v$ produces a steeper $dP/dT$, meaning the boiling point is more sensitive to pressure.
+- **Critical exponents satisfy scaling relations:** $\alpha + 2\beta + \gamma = 2$ (Rushbrooke), $\gamma = \beta(\delta - 1)$ (Widom), and $\gamma = \nu(2 - \eta)$ (Fisher) connect the four exponents, reducing independent parameters.
+- **The order parameter distinguishes phases:** Below $T_c$, $\phi \neq 0$ (ordered phase); above $T_c$, $\phi = 0$ (disordered phase). The continuity or discontinuity of $\phi$ classifies the transition order.
+- **The van der Waals equation predicts mean-field exponents:** Real systems often show different exponents (e.g., 3D Ising $\beta \approx 0.326$ vs mean-field $\beta = 1/2$) due to fluctuations near $T_c$.
+- **Latent heat vanishes at the critical point:** As $T \to T_c$, $\Delta S \to 0$ and the distinction between phases disappears, creating a continuous transition.
+
+## Applications
+
+- **Weather and climate:** Phase transitions of water (evaporation, condensation, freezing) drive weather patterns and are central to climate models.
+- **Materials science:** Understanding solid-liquid phase transitions controls casting, welding, and crystal growth processes.
+- **Superconductivity:** The superconducting transition is a second-order phase transition characterised by the vanishing of electrical resistance and expulsion of magnetic fields.
+- **Cryogenics:** The lambda transition in helium-4 determines the properties of superfluid helium used in low-temperature experiments.
+- **Food industry:** Controlling phase transitions (freezing, melting, crystallisation) determines texture and shelf life of food products.
+

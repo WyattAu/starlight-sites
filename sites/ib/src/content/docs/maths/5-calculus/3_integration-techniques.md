@@ -889,7 +889,7 @@ $$
 \bar{f} = \frac{1}{3}\int_0^3 x^2\,dx = \frac{1}{3}\left[\frac{x^3}{3}\right]_0^3 = \frac{1}{3} \times 9 = 3
 $$
 
-
+:::
 ---
 
 ## Additional Exam-Style Questions

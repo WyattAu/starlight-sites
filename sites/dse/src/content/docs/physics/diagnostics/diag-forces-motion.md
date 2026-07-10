@@ -301,4 +301,6 @@ $$s = \frac{400}{9.81} = 40.77 \text{ m}$$
 **Key insight:** The maximum frictional force limits both the maximum acceleration and the maximum
 deceleration. The parcel can withstand the same magnitude of acceleration in both directions since
 $$
+
+$$
 static friction adjusts to prevent relative motion.

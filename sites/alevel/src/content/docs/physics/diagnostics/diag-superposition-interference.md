@@ -272,4 +272,6 @@ For minimum thickness ($m = 1$):
 $$t = \frac◆LB◆\lambda◆RB◆◆LB◆2n◆RB◆ = \frac◆LB◆550◆RB◆◆LB◆2 \times 1.45◆RB◆ = \frac{550}{2.90} = 190\,\text{nm}$$
 
 $$
+
+$$
 This is the minimum non-zero thickness for destructive reflection of $550\,\text{nm}$ light.

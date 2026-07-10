@@ -545,6 +545,8 @@ $c \in (1, 2)$ such that $f(c) = 0$. $\blacksquare$
 **Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$Then $f$ has
 At least one zero in $(a, b)$.
 
+:::
+
 ### Extreme Value Theorem
 
 If $f$ is continuous on a closed interval $[a, b]$Then $f$ attains both an absolute maximum and an
@@ -752,6 +754,7 @@ For continuity: $1 = 3$Which is impossible. No value of $b$ makes $h$ continuous
 This example demonstrates that continuity at a junction point of a piecewise function is not always
 Achievable -- on whether the one-sided limits can be made to agree.
 
+:::
 
 ## Common Pitfalls
 

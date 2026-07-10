@@ -54,3 +54,106 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 where $R_{\mu\nu}$ is the Ricci tensor, $R$ is the scalar curvature, $\Lambda$ is the cosmological
 constant, and $T_{\mu\nu}$ is the stress-energy tensor.
 
+### 7.5 The Second Bianchi Identity and the Einstein Tensor
+
+**Theorem 7.1 (Second Bianchi Identity).** The covariant derivative of the Riemann tensor satisfies:
+
+$$\nabla_{[i} R_{jk]lm} = 0$$
+
+Taking a contraction gives the **contracted Bianchi identity**:
+
+$$\nabla^i \mathrm{Ric}_{ij} = \frac{1}{2} \nabla_j S$$
+
+This implies that the **Einstein tensor** $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu}$ is
+divergence-free: $\nabla^\mu G_{\mu\nu} = 0$, which is consistent with the conservation of
+energy-momentum.
+
+### 7.6 The Weyl Tensor
+
+The Riemann tensor can be decomposed into the Ricci part and the **Weyl tensor** $W$:
+
+$$R_{ijkl} = C_{ijkl} + \frac{1}{n-2}(g_{ik}R_{jl} - g_{il}R_{jk} - g_{jk}R_{il} + g_{jl}R_{ik}) - \frac{R}{(n-1)(n-2)}(g_{ik}g_{jl} - g_{il}g_{jk})$$
+
+where $C_{ijkl}$ is the Weyl tensor. The Weyl tensor is trace-free (all contractions vanish) and
+has the same symmetries as the Riemann tensor. In dimension $n \geq 4$, $C = 0$ if and only if the
+manifold is conformally flat.
+
+### 7.7 Einstein Manifolds
+
+A Riemannian manifold is an **Einstein manifold** if the Ricci tensor is proportional to the metric:
+
+$$\mathrm{Ric} = \lambda g$$
+
+for some constant $\lambda$. In this case, the scalar curvature $S = n\lambda$ is constant. Examples
+include space forms (constant sectional curvature) and Calabi-Yau manifolds (Ricci-flat, $\lambda = 0$).
+
+### 7.8 Curvature in Local Coordinates
+
+In local coordinates, the components of the Riemann tensor are expressed in terms of Christoffel
+symbols:
+
+$$R^i_{\,jkl} = \partial_k \Gamma^i_{jl} - \partial_l \Gamma^i_{jk} + \Gamma^i_{km} \Gamma^m_{jl} - \Gamma^i_{lm} \Gamma^m_{jk}$$
+
+**Worked example.** For the 2-sphere $S^2$ with metric
+$g = d\theta^2 + \sin^2\theta\, d\phi^2$, the only non-zero Christoffel symbols are
+$\Gamma^\phi_{\theta\phi} = \cot\theta$ and $\Gamma^\theta_{\phi\phi} = -\sin\theta\cos\theta$.
+The Riemann tensor has a single independent component:
+
+$$R^\theta_{\,\phi\theta\phi} = \sin^2\theta$$
+
+from which $R_{\theta\phi\theta\phi} = \sin^2\theta$ and $K = 1$.
+
+### 7.9 Practice Problems
+
+**Problem 1.** Compute the Riemann tensor for the Poincaré half-plane
+$\mathbb{H}^2 = \{(x, y) : y > 0\}$ with metric $g = (dx^2 + dy^2)/y^2$.
+
+**Problem 2.** Show that the scalar curvature of a product manifold $M \times N$ is the sum of the
+scalar curvatures: $S_{M\times N} = S_M + S_N$.
+
+**Problem 3.** Prove that if $\mathrm{Ric} = \lambda g$ on a connected manifold, then $\lambda$ is
+constant.
+
+**Problem 4.** For the Schwarzschild metric
+$ds^2 = -(1 - 2M/r) dt^2 + (1 - 2M/r)^{-1} dr^2 + r^2 d\Omega^2$, verify that the Ricci tensor
+vanishes (vacuum solution).
+
+### 7.10 Curvature of Submanifolds
+
+The **Gauss equation** relates the curvature of a submanifold $N \subseteq M$ to the curvature
+of $M$ and the second fundamental form $II$:
+
+$$\langle R_N(X, Y)Z, W\rangle = \langle R_M(X, Y)Z, W\rangle + \langle II(X, Z), II(Y, W)\rangle - \langle II(X, W), II(Y, Z)\rangle$$
+
+For a surface in $\mathbb{R}^3$, the Gauss equation gives the Gaussian curvature $K$ as the product
+of principal curvatures: $K = \kappa_1 \kappa_2$.
+
+### 7.11 Curvature and Holonomy
+
+The **holonomy group** of a connection measures how parallel transport around closed loops changes
+vectors. The Riemann curvature tensor is the infinitesimal holonomy: for an infinitesimal
+parallelogram spanned by $X, Y$, parallel transport around the loop rotates a vector $Z$ by
+$R(X, Y)Z$.
+
+**Example.** On $S^2$, parallel transport around a spherical triangle rotates a vector by an angle
+equal to the area of the triangle (Gauss-Bonnet).
+
+### 7.12 The Gauss-Bonnet Theorem
+
+**Theorem 7.2 (Gauss-Bonnet).** For a compact, oriented Riemannian 2-manifold $M$:
+
+$$\int_M K\, dA = 2\pi \chi(M)$$
+
+where $\chi(M)$ is the Euler characteristic. This deep result links local curvature to global
+topology.
+
+### 7.13 Additional Practice Problems
+
+**Problem 5.** Show that for a surface of revolution obtained by rotating $y = f(x)$ around the
+$x$-axis, the Gaussian curvature is $K = -f''(x)/(f(x)(1 + f'(x)^2)^2)$.
+
+**Problem 6.** Compute the Ricci tensor and scalar curvature of $S^2 \times S^2$ with the product
+metric.
+
+**Problem 7.** Prove that a Riemannian manifold with constant sectional curvature $\kappa$ is
+Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.

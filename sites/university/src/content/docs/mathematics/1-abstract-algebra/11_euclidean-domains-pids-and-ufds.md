@@ -19,6 +19,9 @@ $\delta : R \setminus \{0\} \to \mathbb{N}_0$ such that for all $a, b \in R$ wit
 
 **Example.** $\mathbb{Z}[i]$ is a Euclidean domain with $\delta(a + bi) = a^2 + b^2$.
 
+**Example.** $\mathbb{Z}[\omega]$ (Eisenstein integers, $\omega = e^{2\pi i/3}$) is a Euclidean domain
+with $\delta(a + b\omega) = a^2 - ab + b^2$.
+
 ### 11.2 Principal Ideal Domains
 
 An integral domain $R$ is a **principal ideal domain (PID)** if every ideal of $R$ is principal
@@ -79,3 +82,53 @@ Therefore $\mathbb{Z}[\sqrt{-5}]$ is not a UFD. $\blacksquare$
 
 </details>
 
+### 11.4 Key Relationships
+
+| Type              | Definition                                          | Example           |
+| ----------------- | --------------------------------------------------- | ----------------- |
+| Euclidean domain  | Has division algorithm with $\delta$                | $\mathbb{Z}$, $F[x]$, $\mathbb{Z}[i]$ |
+| PID               | Every ideal is principal                            | $\mathbb{Z}$, $\mathbb{Z}[i]$ |
+| UFD               | Unique factorisation into irreducibles              | $\mathbb{Z}[x]$   |
+| Integral domain   | No zero divisors                                    | All of the above  |
+
+$$\mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}$$
+
+### 11.5 Common Pitfalls
+
+- **Assuming every PID is Euclidean.** $\mathbb{Z}[\frac{1+\sqrt{-19}}{2}]$ is a PID but not
+  Euclidean, showing the inclusion is strict.
+- **Thinking $\mathbb{Z}[x]$ is a PID.** The ideal $(2, x)$ is not principal because any generator
+  would have to divide both $2$ and $x$, forcing it to be $\pm 1$, which generates the whole ring.
+- **Confusing irreducibles with primes in non-UFDs.** In $\mathbb{Z}[\sqrt{-5}]$, $2$ is irreducible
+  but not prime: $2 \mid (1+\sqrt{-5})(1-\sqrt{-5})$ but $2 \nmid (1\pm\sqrt{-5})$.
+- **Forgetting that units and associates do not affect uniqueness of factorisation.** The
+  factorisation $6 = 2 \cdot 3 = (-2) \cdot (-3)$ is considered the same up to associates.
+
+### 11.6 Applications
+
+- **Number theory:** The Euclidean algorithm in $\mathbb{Z}$ computes gcds and is the foundation of
+  modular arithmetic and RSA cryptography.
+- **Coding theory:** Polynomial rings over finite fields $F_q[x]$ are Euclidean domains, enabling
+  BCH and Reed-Solomon error-correcting codes.
+- **Computer algebra:** The Euclidean algorithm in $\mathbb{Z}[i]$ solves Diophantine equations and
+  factors Gaussian integers, used in lattice-based cryptography.
+- **Algebraic geometry:** UFDs guarantee that irreducible algebraic varieties have well-defined
+  coordinate rings, enabling unique factorisation of polynomial ideals.
+
+### 11.7 Worked Examples
+
+**Problem 1.** Determine whether $\mathbb{Z}[\sqrt{2}]$ is a Euclidean domain.
+
+**Solution.** The norm is $N(a + b\sqrt{2}) = |a^2 - 2b^2|$. For any $\alpha, \beta \in \mathbb{Z}[\sqrt{2}]$
+with $\beta \neq 0$, write $\alpha/\beta = u + v\sqrt{2}$ with $u,v \in \mathbb{Q}$. Choose integers
+$p,q$ such that $|u - p| \leq 1/2$ and $|v - q| \leq 1/2$. Then $r = \alpha - \beta(p + q\sqrt{2})$
+satisfies $N(r) = |(u-p)^2 - 2(v-q)^2| \cdot N(\beta) \leq (1/4 + 2/4)N(\beta) = (3/4)N(\beta) < N(\beta)$.
+Thus $\mathbb{Z}[\sqrt{2}]$ is a Euclidean domain. $\blacksquare$
+
+**Problem 2.** Is $\mathbb{Z}[x]$ a PID? Justify.
+
+**Solution.** No. Consider the ideal $I = (2, x) = \{2f(x) + xg(x) : f,g \in \mathbb{Z}[x]\}$.
+If $I = (h(x))$, then $h(x) \mid 2$ and $h(x) \mid x$, so $h(x)$ divides any combination. Since
+$h \mid 2$, $h$ is constant: $\pm 1$ or $\pm 2$. If $h = \pm 2$, then $x \in (2)$ is impossible
+since $x$ has coefficient $1$ for $x$. If $h = \pm 1$, then $(h) = \mathbb{Z}[x]$, but $I$ contains
+only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not principal. $\blacksquare$

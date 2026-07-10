@@ -845,7 +845,7 @@ int main() {
 - [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation.md)
 - [Argument Deduction (Class and Function)](./2_argument_deduction.md)
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
-- [Type Traits and Static Reflection Patterns](../compile_time_computation/4_type_traits.md)
+- [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
 
 ## Summary
 

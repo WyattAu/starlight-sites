@@ -73,3 +73,43 @@ of $\mathrm{Gal}(E/F)$ is not a bijection, and indices may not match. Always ver
 Condition before applying the theorem.
 
 :::
+
+:::caution Common Pitfall Not every injective homomorphism is an isomorphism. For infinite groups, a
+monomorphism need not be surjective. For example, $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is
+injective but not an isomorphism. Check surjectivity separately when claiming a map is an
+Isomorphism.
+
+:::
+
+:::caution Common Pitfall The product of two normal subgroups is not necessarily a subgroup unless
+one normalises the other. That is, $HN$ is a subgroup of $G$ if and only if $HN = NH$. For normal
+subgroups this reduces to checking closure, but in general the product set may fail to be closed
+under the group operation.
+
+:::
+
+:::caution Common Pitfall In module theory, free modules over a ring need not have a unique basis.
+The ring $\mathbb{Z}/6\mathbb{Z}$ viewed as a module over itself has basis $\{1\}$, but also
+$\{5\}$ since $5$ is a unit. Uniqueness of basis holds only over division rings (vector spaces).
+
+:::
+
+:::caution Common Pitfall A surjective ring homomorphism need not preserve non-zero divisors. If
+$\phi : R \to S$ is surjective and $a \in R$ is not a zero divisor, $\phi(a)$ might be a zero
+divisor in $S$. For example, the map $\mathbb{Z} \to \mathbb{Z}/6\mathbb{Z}$ sends $2$ (a non-zero
+divisor) to $\bar{2}$ (a zero divisor since $\bar{2} \cdot \bar{3} = \bar{0}$).
+
+:::
+
+:::caution Common Pitfall The lattice isomorphism theorem (fourth isomorphism) requires $I$ to be an
+ideal of $R$ and $J$ an ideal of $R$ with $I \subseteq J$. The quotient $R/I$ modulo $J/I$ is
+isomorphic to $R/J$, but forgetting the containment hypothesis leads to nonsensical results.
+
+:::
+
+:::caution Common Pitfall A polynomial having no roots in a field does not guarantee irreducibility
+over that field. For example, $x^4 + 1$ has no roots in $\mathbb{R}$, but it factors as
+$(x^2 + \sqrt{2}x + 1)(x^2 - \sqrt{2}x + 1)$ over $\mathbb{R}$. For degrees $\geq 4$, absence
+of roots is necessary but not sufficient for irreducibility.
+
+:::

@@ -91,3 +91,54 @@ from equilibrium (sudden quench).
 
 </details>
 
+### 19.5 Key Relationships
+
+| Theorem              | Statement                                                                     | Connection to equilibrium                      |
+| -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------- |
+| Fluctuation-dissip.  | $\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle$                 | Response $\leftrightarrow$ equilibrium fluctuations |
+| Johnson-Nyquist      | $S_V(f) = 4k_BTR$                                                             | Voltage noise $\leftrightarrow$ resistance      |
+| Einstein relation    | $D = \mu k_BT$                                                                | Diffusion $\leftrightarrow$ mobility            |
+| Jarzynski equality   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$                            | Non-equilibrium work $\leftrightarrow$ free energy |
+| Crooks theorem       | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$                                    | Forward/reverse work distributions              |
+
+The fluctuation-dissipation theorem unifies these: the Einstein relation and Johnson-Nyquist formula are special cases of the FDT applied to Brownian motion and electrical circuits, respectively.
+
+### 19.6 Common Pitfalls
+
+- **Applying the FDT only to equilibrium systems.** The standard FDT assumes the system is in thermal equilibrium. **Fix:** For non-equilibrium steady states, use generalised fluctuation-dissipation relations that include additional correlation terms.
+- **Confusing white noise with infinite power.** Johnson-Nyquist noise is white only up to $f \sim k_BT/h \approx 6$ THz at 300 K; above this, quantum effects cut off the spectrum. **Fix:** Use $S_V(f) = 4k_BTR \cdot [\hbar f/(k_BT)]/[\exp(\hbar f/k_BT) - 1]$ for the quantum-corrected spectrum.
+- **Assuming Jarzynski equality only applies to slow processes.** The equality holds for arbitrarily fast (even instantaneous) processes. **Fix:** The work distribution for a fast process has large tails, but the exponential average still equals $e^{-\beta\Delta F}$ — verify with the two-level example.
+- **Forgetting to take the exponential average in experiments.** The average $\langle e^{-\beta W}\rangle$ is dominated by rare trajectories with negative work, requiring many samples to converge. **Fix:** Use Bennett's acceptance ratio or Hummer-Szabo estimator for better convergence.
+
+### 19.7 Applications
+
+- **Single-molecule biophysics:** Optical tweezers measure the work needed to unfold RNA/DNA hairpins; the Jarzynski equality extracts the folding free energy without requiring reversible pulling.
+- **Nanoscale heat transfer:** The FDT predicts thermal noise in nanomechanical resonators (cantilevers, membranes), limiting force sensitivity in AFM and gravitational-wave detectors.
+- **Circuit design:** Johnson-Nyquist noise sets the fundamental noise floor in amplifiers and receivers; cryogenic cooling reduces $S_V$ linearly with $T$.
+- **Molecular dynamics:** The Crooks theorem is used to compute free energy differences from non-equilibrium pulling simulations, avoiding expensive equilibrium sampling.
+- **Brownian ratchets:** Fluctuation theorems constrain the efficiency of molecular motors and information-driven devices (Maxwell's demon).
+
+### 19.8 Summary Table
+
+| Concept                 | Type                | Domain                 | Key formula                                    |
+| ----------------------- | ------------------- | ---------------------- | ---------------------------------------------- |
+| Fluctuation-dissipation | General theorem     | Near equilibrium       | $\chi''(\omega) = \frac{\omega}{2k_BT}S_A(\omega)$ |
+| Johnson-Nyquist noise   | Specific application | Electrical circuits    | $S_V = 4k_BTR$                                 |
+| Einstein relation       | Specific application | Brownian motion        | $D = \mu k_BT$                                 |
+| Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
+| Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
+
+### 19.9 Worked Example: Johnson-Nyquist Noise in an RC Circuit
+
+**Problem.** A $10$ k$\Omega$ resistor at $T = 300$ K is connected to a $1$ nF capacitor. Compute the RMS voltage fluctuation across the capacitor and the noise power in a $1$ MHz bandwidth.
+
+**Solution.** The voltage noise spectral density is $S_V(f) = 4k_BTR = 4(1.38\times10^{-23})(300)(10^4) \approx 1.66\times10^{-16}$ V$^2$/Hz. In a $\Delta f = 1$ MHz bandwidth:
+
+$$\langle V^2\rangle = S_V\,\Delta f \approx 1.66\times10^{-16} \times 10^6 = 1.66\times10^{-10}\;\mathrm{V}^2$$
+
+$$V_{\rm rms} = \sqrt{1.66\times10^{-10}} \approx 1.29\times10^{-5}\;\mathrm{V} = 12.9\;\mu\mathrm{V}$$
+
+The RC low-pass filter ($f_c = 1/(2\pi RC) \approx 16$ kHz) limits the effective bandwidth if the capacitor is considered, but at $f \ll f_c$ the full $1$ MHz bandwidth applies. This illustrates why sensitive electronics are cryogenically cooled: reducing $T$ from 300 K to 4 K reduces $V_{\rm rms}$ by $\sqrt{300/4} \approx 8.7\times$.
+
+$\blacksquare$
+

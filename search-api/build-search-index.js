@@ -59,11 +59,11 @@ async function fetchSiteIndex(site) {
             const resp = await fetchWithTimeout(url, 8000)
             if (!resp.ok) return null
 
-            // Only read first 5KB
+            // Read first 30KB for metadata + body content
             const reader = resp.body.getReader()
             const chunks = []
             let totalBytes = 0
-            while (totalBytes < 5000) {
+            while (totalBytes < 30000) {
               const { done, value } = await reader.read()
               if (done) break
               chunks.push(value)
@@ -88,12 +88,25 @@ async function fetchSiteIndex(site) {
             const h1Match = text.match(/<h1[^>]*>([^<]+)<\/h1>/i)
             const heading = h1Match ? h1Match[1].trim() : ''
 
+            // Extract visible body text
+            let content = ''
+            const bodyMatch = text.match(/<body[^>]*>([\s\S]*?)<\/body>/i)
+            if (bodyMatch) {
+              content = bodyMatch[1]
+                .replace(/<\/?[^>]+(>|$)/g, '')  // strip HTML tags
+                .replace(/&[^;]+;/g, ' ')          // decode entities
+                .replace(/\s+/g, ' ')              // collapse whitespace
+                .trim()
+                .slice(0, 2000)
+            }
+
             if (title) {
               return {
                 url,
                 title,
                 description,
                 heading,
+                content,
                 site: site.id,
               }
             }

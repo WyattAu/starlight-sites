@@ -694,6 +694,7 @@ $$
 V = r\omega = 0.3 \times 10 = 3.0\mathrm{ m/s}
 $$
 
+:::
 
 ---
 

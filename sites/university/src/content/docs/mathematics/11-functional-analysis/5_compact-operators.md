@@ -66,3 +66,59 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 1. $(\lambda I - T)$ is bijective (hence invertible by the bounded inverse theorem).
 2. $(\lambda I - T)x = 0$ has a nontrivial solution (i.e., $\lambda$ is an eigenvalue of $T$).
 
+### 5.5 Key Relationships
+
+| Operator type       | Definition                        | Spectrum                          | Example                   |
+| ------------------- | --------------------------------- | --------------------------------- | ------------------------- |
+| Bounded             | $\|Tx\| \leq C\|x\|$              | Any compact set in $\mathbb{C}$  | Identity on $H$          |
+| Compact             | $T(B_X)$ is relatively compact    | $\{0\} \cup \{\lambda_n\}$, $\lambda_n \to 0$ | Integral operator |
+| Finite-rank         | $\dim T(H) < \infty$             | Finite set                        | Matrix                    |
+| Self-adjoint        | $T^* = T$                         | Real                              | Schrodinger operator     |
+| Normal              | $T^*T = TT^*$                     | Any compact set                   | Unitary, self-adjoint    |
+
+### 5.6 Common Pitfalls
+
+- **Assuming all bounded operators are compact.** The identity operator on an infinite-dimensional
+  Hilbert space is bounded but not compact: $B_H$ is closed but not compact (since the unit ball is
+  not compact in infinite dimensions).
+- **Thinking finite-rank operators are the only compact operators.** The limit of finite-rank
+  operators is compact, and on Hilbert spaces every compact operator is the norm limit of
+  finite-rank operators. But there exist compact operators that are not themselves finite-rank.
+- **Forgetting that $0$ is always in the spectrum of a compact operator on an infinite-dimensional
+  space.** Even if $0$ is not an eigenvalue, it belongs to the spectrum (as an accumulation point
+  of eigenvalues or as essential spectrum).
+- **Confusing the Fredholm alternative with the Fredholm index.** The alternative deals with
+  solvability of $(\lambda I - T)x = y$ for compact $T$. The Fredholm index
+  $\text{ind}(T) = \dim\ker T - \text{codim}\ \text{ran}\ T$ applies to Fredholm operators more
+  generally.
+
+### 5.7 Worked Examples
+
+**Problem 1.** Show that the Volterra operator $(Vf)(x) = \int_0^x f(t)\,dt$ on $C([0,1])$ is compact.
+
+**Solution.** $V$ is bounded: $|(Vf)(x)| \leq \int_0^1 |f(t)|\,dt \leq \|f\|_\infty$. The image
+$V(B_{C([0,1])})$ is equicontinuous (by the fundamental theorem of calculus, derivatives are
+bounded by $\|f\|_\infty$), and uniformly bounded. By the Arzela-Ascoli theorem, it is relatively
+compact in $C([0,1])$. Therefore $V$ is compact. $\blacksquare$
+
+**Problem 2.** Let $T$ be a compact self-adjoint operator on $H$ with eigenvalues $\lambda_n \to 0$.
+Show that $T$ has a maximum eigenvalue (in absolute value).
+
+**Solution.** Since $\lambda_n \to 0$, the set $\{|\lambda_n|\}$ has a maximum (attained at some
+finite index) if there are finitely many nonzero eigenvalues; otherwise, the maximum of $|\lambda_n|$
+is attained at the first eigenvalue (since they converge to $0$). In either case,
+$\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint operators. $\blacksquare$
+
+### 5.8 Applications
+
+- **Integral equations:** Fredholm integral equations of the second kind $f - Kf = g$ are solved
+  using the Fredholm alternative. Compact integral operators arise naturally in potential theory and
+  scattering.
+- **Quantum mechanics:** Position and momentum operators are unbounded, but their resolvents
+  $(H - z)^{-1}$ are often compact. The spectral theorem for compact operators underlies the
+  solution of the Schrodinger equation for bound states.
+- **Differential equations:** The inverse of a differential operator with compact resolvent (e.g.,
+  $-\Delta + V$ on a bounded domain) is compact, ensuring discrete spectrum — the basis for
+  Sturm-Liouville theory.
+- **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
+  covariance operators to find optimal bases for signal representation and compression (PCA).

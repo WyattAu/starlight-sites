@@ -3,7 +3,7 @@ title: Geodesics
 tags:
   - Mathematics
   - University
-description: 'A is a curve whose acceleration is zero: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
+description: 'A is a curve whose acceleration is zero: . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
 
 ### 6.1 Definition
@@ -45,3 +45,131 @@ all time (i.e., on $\mathbb{R}$).
 
 **Corollary.** Every compact Riemannian manifold is geodesically complete.
 
+### 6.4 Jacobi Fields
+
+A **Jacobi field** $J(t)$ along a geodesic $\gamma$ is a vector field that satisfies the **Jacobi
+equation**:
+
+$$\frac{D^2}{dt^2} J(t) + R(J(t), \dot{\gamma}(t)) \dot{\gamma}(t) = 0$$
+
+Jacobi fields describe the variation of nearby geodesics. They measure how geodesics spread apart
+or come together under the influence of curvature.
+
+**Proposition 6.4.** A vector field $J$ along $\gamma$ is a Jacobi field if and only if it arises
+as the variation field of a one-parameter family of geodesics $\gamma_s(t)$ with $\gamma_0 = \gamma$
+and $J(t) = \partial_s \gamma_s(t)|_{s=0}$.
+
+### 6.5 Conjugate Points
+
+Two points $p, q \in M$ are **conjugate** along a geodesic $\gamma$ if there exists a non-zero
+Jacobi field along $\gamma$ vanishing at both $p$ and $q$.
+
+**Theorem 6.5.** A geodesic $\gamma$ ceases to be length-minimizing past its first conjugate point.
+
+_Proof sketch._ A non-zero Jacobi field vanishing at the endpoints gives a variation that shortens
+the curve, demonstrating that $\gamma$ is not a local minimum of length. $\blacksquare$
+
+### 6.6 Geodesic Deviation
+
+The **geodesic deviation equation** describes the relative acceleration of nearby geodesics:
+
+$$\frac{D^2}{dt^2} J^i = -R^i_{\,jkl} \dot{\gamma}^j J^k \dot{\gamma}^l$$
+
+In general relativity, this is the equation of **geodesic deviation** that governs tidal forces.
+For a congruence of timelike geodesics, it gives the relative acceleration of nearby test particles.
+
+**Example.** On $S^2$, geodesics are great circles. Jacobi fields along the equator show that all
+geodesics starting at the north pole reconverge at the south pole (the antipodal point is conjugate).
+
+### 6.7 Normal Coordinates
+
+**Riemannian normal coordinates** at $p$ are given by the inverse of the exponential map:
+$\varphi = \exp_p^{-1} : U \to T_p M \cong \mathbb{R}^n$. In these coordinates:
+
+- The metric at $p$ is Euclidean: $g_{ij}(p) = \delta_{ij}$.
+- The Christoffel symbols vanish at $p$: $\Gamma^k_{ij}(p) = 0$.
+- Geodesics through $p$ are straight lines through the origin.
+
+### 6.8 The Gauss Lemma and Minimality
+
+**Lemma 6.6 (Gauss Lemma).** For $v \in T_p M$, $\exp_p$ is a radial isometry: for any
+$w \in T_v(T_p M) \cong T_p M$:
+
+$$\langle d(\exp_p)_v(v), d(\exp_p)_v(w) \rangle = \langle v, w \rangle$$
+
+**Corollary.** Geodesics are locally length-minimizing: for $v$ sufficiently small,
+$\gamma(t) = \exp_p(tv)$ is the unique shortest curve from $p$ to $\exp_p(v)$.
+
+### 6.9 Practice Problems
+
+**Problem 1.** Find the geodesics of the Poincaré half-plane $\mathbb{H}^2$ with metric
+$ds^2 = (dx^2 + dy^2)/y^2$.
+
+_Solution._ The geodesic equations give circles centered on the $x$-axis and vertical lines.
+These are the paths of minimal length in hyperbolic geometry. $\blacksquare$
+
+**Problem 2.** Show that geodesics on $S^n$ are great circles.
+
+**Problem 3.** Compute the Jacobi fields along a geodesic in $\mathbb{R}^n$ with the Euclidean
+metric. Explain the result in terms of geodesic spread.
+
+**Problem 4.** Prove that if $M$ is complete and has non-positive sectional curvature, then the
+exponential map $\exp_p$ is a covering map for every $p \in M$ (Cartan-Hadamard theorem).
+
+**Problem 5.** Show that on a compact Riemannian manifold, every geodesic is defined for all time.
+
+### 6.10 The Length Functional and Energy Functional
+
+Geodesics can also be characterized as critical points of the **energy functional**:
+
+$$E(\gamma) = \frac{1}{2} \int_a^b \|\dot{\gamma}(t)\|^2\, dt$$
+
+The Euler-Lagrange equations for $E$ give the geodesic equation. The length functional
+$L(\gamma) = \int_a^b \|\dot{\gamma}(t)\|\, dt$ has the same critical points but is
+parametrization-independent.
+
+### 6.11 The First and Second Variation of Energy
+
+**First variation formula:**
+
+$$\left.\frac{d}{ds}\right|_{s=0} E(\gamma_s) = -\int_a^b \langle V(t), \nabla_{\dot{\gamma}}\dot{\gamma}\rangle\, dt - \sum_i \langle V(t_i), \Delta\dot{\gamma}(t_i)\rangle$$
+
+where $V(t)$ is the variation field and $\Delta\dot{\gamma}$ is the jump discontinuity at
+break points.
+
+**Second variation formula:**
+
+$$\left.\frac{d^2}{ds^2}\right|_{s=0} E(\gamma_s) = \int_a^b \left(\left\|\frac{DV}{dt}\right\|^2 - \langle R(V, \dot{\gamma})\dot{\gamma}, V\rangle\right) dt + \text{boundary terms}$$
+
+The second variation is used to study stability of geodesics and to prove that conjugate points
+indicate loss of minimizing property.
+
+### 6.12 The Morse Index Theorem
+
+**Theorem 6.7 (Morse Index Theorem).** The **index** of a geodesic $\gamma$ (the number of
+linearly independent Jacobi fields vanishing at the endpoints with a conjugate point in between)
+equals the number of conjugate points along $\gamma$, counted with multiplicity.
+
+This theorem connects the calculus of variations to the topology of the loop space of a manifold.
+
+### 6.13 Geodesic Polygons and Angle Defect
+
+On a surface of constant curvature $K$, the area of a geodesic triangle with interior angles
+$\alpha, \beta, \gamma$ is:
+
+$$K \cdot \text{Area} = \alpha + \beta + \gamma - \pi$$
+
+- On $S^2$ ($K = 1$): sum of angles $> \pi$, area $= \alpha + \beta + \gamma - \pi$.
+- On $\mathbb{H}^2$ ($K = -1$): sum of angles $< \pi$, area $= \pi - (\alpha + \beta + \gamma)$.
+- On $\mathbb{R}^2$ ($K = 0$): sum of angles $= \pi$, area arbitrary.
+
+### 6.14 Additional Practice Problems
+
+**Problem 6.** Show that the exponential map $\exp_p$ is a radial isometry near the origin
+(Gauss lemma). Use this to prove that geodesics are locally length-minimizing.
+
+**Problem 7.** Prove that on a complete Riemannian manifold with non-positive sectional
+curvature, no two points are conjugate.
+
+**Problem 8.** Show that the geodesic flow on the unit tangent bundle of a compact Riemannian
+manifold is a Hamiltonian flow with respect to the natural symplectic structure.

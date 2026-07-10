@@ -20,12 +20,19 @@ closed set $F \subseteq A$ with $m^*(A \setminus F) < \varepsilon$ (inner regula
 $\varepsilon > 0$ there exists a finite union $U$ of disjoint intervals such that
 $m(A \triangle U) < \varepsilon$.
 
+**Proposition 4.5 (Translation and Scaling).** If $A \subseteq \mathbb{R}^n$ is Lebesgue measurable,
+then for any $x \in \mathbb{R}^n$ and $t > 0$, the translated set $A + x$ and scaled set $tA$ are
+Lebesgue measurable with $m(A + x) = m(A)$ and $m(tA) = t^n m(A)$.
+
+**Proposition 4.6 (Completeness).** Every subset of a Lebesgue null set is Lebesgue measurable
+(and has measure zero). This property makes Lebesgue measure complete.
+
 ### 4.2 The Vitali Set
 
-**Theorem 4.5.** Assuming the Axiom of Choice, there exists a subset $V \subseteq [0, 1]$ that is
+**Theorem 4.7.** Assuming the Axiom of Choice, there exists a subset $V \subseteq [0, 1]$ that is
 **not** Lebesgue measurable.
 
-_Proof sketch._ Define an equivalence relation on $[0, 1]$: $x \sim y$ if $x - y \in \mathbb{Q}$.
+*Proof sketch.* Define an equivalence relation on $[0, 1]$: $x \sim y$ if $x - y \in \mathbb{Q}$.
 Each equivalence class is $E_x = x + \mathbb{Q}$. By the Axiom of Choice, select one representative
 from each equivalence class to form a set $V$ (a **Vitali set**).
 
@@ -41,3 +48,77 @@ $$m\left(\bigcup_{q}(V+q)\right) = \sum_{q \in \mathbb{Q} \cap [-1,1]} m(V)$$
 This is $0$ if $m(V) = 0$, or $\infty$ if $m(V) > 0$. But the union is contained in $[-1, 2]$ which
 has measure $3$. Contradiction. $\blacksquare$
 
+### 4.3 Carathéodory's Criterion
+
+**Theorem 4.8 (Carathéodory).** A set $A \subseteq \mathbb{R}^n$ is Lebesgue measurable if and only
+if for every $E \subseteq \mathbb{R}^n$:
+
+$$m^*(E) = m^*(E \cap A) + m^*(E \setminus A)$$
+
+This criterion provides a definition of measurability that works in any metric space with any
+outer measure.
+
+**Example 4.1.** Every interval $I \subseteq \mathbb{R}$ satisfies Carathéodory's criterion and is
+therefore measurable. This can be verified by checking the condition for arbitrary $E$.
+
+**Example 4.2.** The Vitali set $V$ fails Carathéodory's criterion: there exists a test set $E$
+(specifically $E = \bigcup_{q}(V+q) \cap [-1,2]$) such that $m^*(E) < m^*(E \cap V) + m^*(E \setminus V)$.
+
+### 4.4 Further Non-Measurable Constructions
+
+While the Vitali set is the standard example, other constructions highlight different aspects of
+non-measurability.
+
+**Example 4.3 (Bernstein Set).** A **Bernstein set** $B \subseteq \mathbb{R}$ is a set such that both
+$B$ and its complement intersect every uncountable closed set. Bernstein sets exist assuming the
+Axiom of Choice. They are not Lebesgue measurable and, in fact, have inner measure zero and outer
+measure infinite.
+
+**Example 4.4 (Hamel Basis).** A **Hamel basis** of $\mathbb{R}$ over $\mathbb{Q}$ gives another
+construction. If $H$ is a Hamel basis, then many linear combinations of $H$ yield non-measurable
+sets. In particular, the set of numbers whose first basis coefficient is positive is not measurable.
+
+**Remark.** The existence of non-measurable sets is inextricably tied to the Axiom of Choice.
+Solovay (1970) proved that there exists a model of ZF (without Choice) in which every subset of
+$\mathbb{R}$ is Lebesgue measurable.
+
+### 4.5 The Structure of Lebesgue Measurable Sets
+
+**Theorem 4.9 (Decomposition).** A set $A \subseteq \mathbb{R}^n$ is Lebesgue measurable if and only
+if it can be written as $A = B \cup N$ where $B$ is a Borel set and $N$ is a Lebesgue null set.
+
+Equivalently, $A = F \setminus N$ where $F$ is an $F_\sigma$ set (countable union of closed sets)
+and $N$ is null. This is the **Borel approximability** property.
+
+**Proposition 4.10 (Translation Invariance).** The Lebesgue measure is translation-invariant:
+$m(A + x) = m(A)$ for all measurable $A$ and $x \in \mathbb{R}^n$.
+
+**Proposition 4.11 (Continuity from Above/Below).** If $\{A_k\}$ is a sequence of measurable sets:
+- If $A_k \uparrow A$ (i.e., $A_1 \subseteq A_2 \subseteq \cdots$ and $\bigcup A_k = A$), then
+  $m(A) = \lim_{k\to\infty} m(A_k)$.
+- If $A_k \downarrow A$ (i.e., $A_1 \supseteq A_2 \supseteq \cdots$ and $\bigcap A_k = A$) and
+  $m(A_1) < \infty$, then $m(A) = \lim_{k\to\infty} m(A_k)$.
+
+### 4.6 Worked Examples
+
+**Problem 1.** Show that the set $\mathbb{Q} \subseteq \mathbb{R}$ has Lebesgue measure zero.
+
+*Solution.* $\mathbb{Q}$ is countable: $\mathbb{Q} = \{q_1, q_2, \ldots\}$. For each $\varepsilon > 0$,
+cover $q_k$ by the interval $(q_k - \varepsilon/2^{k+1}, q_k + \varepsilon/2^{k+1})$. The total length
+is $\sum_{k=1}^\infty \varepsilon/2^k = \varepsilon$. Hence $m^*(\mathbb{Q}) \leq \varepsilon$ for
+all $\varepsilon > 0$, so $m^*(\mathbb{Q}) = 0$. $\blacksquare$
+
+**Problem 2.** Show that the Cantor set $C$ has Lebesgue measure zero.
+
+*Solution.* The Cantor set $C = \bigcap_{n=0}^\infty C_n$ where $C_0 = [0,1]$ and $C_{n+1}$ is
+obtained by removing the open middle third of each interval in $C_n$. At stage $n$, $C_n$ consists
+of $2^n$ intervals each of length $3^{-n}$, so $m(C_n) = (2/3)^n$. Since $C \subseteq C_n$ for all
+$n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
+
+### 4.7 Practice Problems
+
+1. Prove that if $A$ and $B$ are measurable then $A \setminus B$ and $A \triangle B$ are measurable.
+2. Show that the outer measure of a Vitali set satisfies $m^*(V) > 0$.
+3. Prove that every Lebesgue measurable set is the union of an $F_\sigma$ set and a null set.
+4. Show that if $m^*(A) = 0$ then $A$ is measurable.
+5. Construct a non-measurable set using a Hamel basis approach.

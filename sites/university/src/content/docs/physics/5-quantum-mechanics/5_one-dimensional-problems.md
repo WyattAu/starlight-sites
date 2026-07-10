@@ -350,4 +350,3 @@ Depends exponentially on the tip-surface distance: $I \propto e^{-2\kappa d}$. T
 Resolution imaging of surfaces, as a change in distance of $0.1$ nm changes the current by a factor
 Of about 10.
 
-

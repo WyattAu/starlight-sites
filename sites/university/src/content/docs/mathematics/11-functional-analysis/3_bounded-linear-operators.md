@@ -95,3 +95,47 @@ canonical embedding $J : c_0 \hookrightarrow \ell^\infty$ is the inclusion map. 
 contains bounded sequences that do not converge to zero (e.g., the constant sequence
 $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 
+### 3.5 Key Relationships
+
+- Boundedness and continuity are equivalent for linear operators between normed spaces.
+- The operator norm is submultiplicative: $\|ST\| \leq \|S\|\|T\|$ for composable operators.
+- Reflexivity implies the Banach space property but not conversely.
+- The double dual $X^{**}$ is always reflexive when $X$ is a Banach space.
+
+### 3.6 Common Pitfalls
+
+- Assuming that every bounded linear functional on a subspace extends to the whole space without invoking the Hahn-Banach theorem. Extension requires the Hahn-Banach theorem and is not automatic.
+- Confusing weak convergence with strong convergence. A sequence can converge weakly but not strongly (e.g., the standard basis in $\ell^2$).
+- Forgetting that $\mathcal{B}(X,Y)$ is a Banach space only when $Y$ is complete. If $Y$ is not complete, the space of bounded operators need not be.
+- Assuming reflexivity when only the canonical embedding is injective. Injectivity holds for all normed spaces by Hahn-Banach; reflexivity requires surjectivity.
+
+### 3.7 Applications
+
+- **Quantum mechanics:** Observables are modelled as self-adjoint bounded operators on Hilbert spaces.
+- **Numerical analysis:** The spectral radius of an iteration matrix determines convergence of iterative methods.
+- **Partial differential equations:** Bounded operators on Sobolev spaces encode weak formulations of PDEs.
+- **Signal processing:** Bounded linear operators on $L^2$ spaces represent filters and transforms.
+
+### 3.8 The Open Mapping Theorem
+
+**Theorem 3.13 (Open Mapping Theorem).** If $X$ and $Y$ are Banach spaces and $T : X \to Y$ is a surjective bounded linear operator, then $T$ is an open map (it maps open sets to open sets).
+
+**Corollary 3.14 (Bounded Inverse Theorem).** If $T : X \to Y$ is a bijective bounded linear operator between Banach spaces, then $T^{-1}$ is also bounded.
+
+**Theorem 3.15 (Closed Graph Theorem).** A linear operator $T : X \to Y$ between Banach spaces is bounded if and only if its graph $\{(x, Tx) : x \in X\}$ is closed in $X \times Y$.
+
+### 3.9 Worked Example: Unbounded Operator
+
+**Problem.** Let $T : C[0,1] \to C[0,1]$ be defined by $(Tf)(x) = xf'(x)$. Show that $T$ is unbounded.
+
+<details>
+<summary>Solution</summary>
+
+Consider the sequence $f_n(x) = x^n$. Then $\|f_n\|_\infty = 1$ for all $n \geq 1$.
+
+$(Tf_n)(x) = x \cdot nx^{n-1} = nx^n$, so $\|Tf_n\|_\infty = n$.
+
+Since $\|Tf_n\|/\|f_n\| = n \to \infty$ as $n \to \infty$, the operator $T$ is unbounded. $\blacksquare$
+
+</details>
+

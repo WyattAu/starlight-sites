@@ -20,7 +20,8 @@ export default defineConfig({
     mermaid({ theme: 'dark', autoTheme: true }),
     mermaidNoRocketLoader(),
     starlight({
-      title: "Wyatt's Notes — Tools",
+      title: 'Tools',
+      pagefind: false,
       description:
         'Algorithms, data structures, version control, licensing, and machine learning fundamentals.',
 
@@ -85,7 +86,7 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'Tools Notes',
+            name: 'Tools',
             description: 'Algorithms and developer tools',
             url: 'https://tools.wyattau.com',
             publisher: {

@@ -21,6 +21,8 @@ Every inner product induces a norm: $\|x\| = \sqrt{\langle x, x\rangle}$.
 
 **Example 2.** $L^2(\mu)$ with $\langle f, g\rangle = \int f \overline{g}\, d\mu$.
 
+**Example 3.** $\ell^2$ with $\langle x, y\rangle = \sum_{i=1}^\infty x_i \overline{y_i}$.
+
 ### 2.2 Orthogonality
 
 Vectors $x, y \in H$ are **orthogonal** (written $x \perp y$) if $\langle x, y\rangle = 0$.
@@ -54,7 +56,7 @@ $H = M \oplus M^\perp$, where $M^\perp = \{x \in H : x \perp M\}$.
 A set $\{e_i\}_{i \in I} \subseteq H$ is an **orthonormal system** if
 $\langle e_i, e_j\rangle = \delta_{ij}$.
 
-**Theorem 2.7 (Bessel"s Inequality).** If $\{e_i\}_{i=1}^n$ is an orthonormal set, then
+**Theorem 2.7 (Bessel's Inequality).** If $\{e_i\}_{i=1}^n$ is an orthonormal set, then
 $\sum_{i=1}^n |\langle x, e_i\rangle|^2 \leq \|x\|^2$.
 
 **Theorem 2.8.** A Hilbert space is separable if and only if it admits a countable orthonormal
@@ -79,3 +81,53 @@ Uniqueness follows from the polarization identity. $\blacksquare$
 **Corollary 2.11.** Every Hilbert space is isometrically isomorphic to its dual: $H \cong H^*$
 (anti-linearly).
 
+### 2.6 Key Relationships
+
+| Structure        | Axioms added                           | Completeness? |
+| ---------------- | -------------------------------------- | ------------- |
+| Inner product sp | Vector space + inner product           | Not required  |
+| Hilbert space    | Inner product space + completeness     | Yes           |
+| Banach space     | Normed vector space + completeness     | Norm may not come from inner product |
+
+Every Hilbert space is a Banach space, but the converse fails: $L^p$ for $p \neq 2$ is Banach but
+not Hilbert. The parallelogram law characterises normed spaces whose norm comes from an inner
+product.
+
+### 2.7 Common Pitfalls
+
+- **Assuming every Cauchy sequence converges in an inner product space.** Completeness is an extra
+  requirement. For example, $C([0,1])$ with the $L^2$ inner product is not complete.
+- **Confusing orthogonality with linear independence.** Orthogonal vectors are always linearly
+  independent, but linearly independent vectors need not be orthogonal.
+- **Forgetting that $M^\perp$ is closed even when $M$ is not.** The orthogonal complement is always
+  a closed subspace, regardless of whether $M$ itself is closed.
+- **Assuming $\langle x, y\rangle = \langle y, x\rangle$ in complex spaces.** Conjugate symmetry
+  means $\langle x, y\rangle = \overline{\langle y, x\rangle}$, not equality.
+
+### 2.8 Applications
+
+- **Quantum mechanics:** States are vectors in a Hilbert space; observables are self-adjoint
+  operators; inner products give probability amplitudes.
+- **Signal processing:** $L^2(\mathbb{R})$ is the space of finite-energy signals; orthonormal bases
+  (Fourier, wavelet) enable efficient compression and denoising.
+- **Machine learning:** Kernel methods map data into a reproducing kernel Hilbert space (RKHS) where
+  inner products correspond to kernel evaluations.
+- **Numerical analysis:** The Galerkin method projects PDE solutions onto finite-dimensional
+  subspaces using orthogonal projection.
+
+### 2.9 Worked Examples
+
+**Problem 1.** Let $H = L^2([0,1])$ with inner product $\langle f,g\rangle = \int_0^1 f(x)\overline{g(x)}\,dx$.
+Show that $\{e^{2\pi i n x}\}_{n\in\mathbb{Z}}$ is an orthonormal system.
+
+**Solution.** $\langle e^{2\pi i n x}, e^{2\pi i m x}\rangle = \int_0^1 e^{2\pi i (n-m)x}\,dx = \delta_{nm}$
+by orthogonality of complex exponentials. So the system is orthonormal. Completeness (that it forms
+a basis) is the statement of the Fourier series convergence theorem. $\blacksquare$
+
+**Problem 2.** Let $M = \{f \in L^2([0,1]) : \int_0^1 f(x)\,dx = 0\}$. Find $M^\perp$.
+
+**Solution.** $M^\perp = \{g \in L^2([0,1]) : \langle f,g\rangle = 0 \text{ for all } f \in M\}$.
+The constant function $h(x) = c$ satisfies $\langle f, h\rangle = c\int_0^1 f = 0$ for all $f \in M$.
+Conversely, if $g \in M^\perp$, write $g = \bar{g} + c$ where $\bar{g} \in M$ and $c = \int_0^1 g$.
+Then $0 = \langle \bar{g}, g\rangle = \|\bar{g}\|^2 + c\int \bar{g} = \|\bar{g}\|^2$, so $\bar{g}=0$
+and $g$ is constant. Hence $M^\perp$ is the 1-dimensional space of constant functions. $\blacksquare$

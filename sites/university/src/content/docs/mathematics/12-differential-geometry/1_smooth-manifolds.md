@@ -53,3 +53,101 @@ write $M \cong N$.
 
 **Proposition 1.1.** Diffeomorphism is an equivalence relation on the class of smooth manifolds.
 
+### 1.4 Tangent Spaces and Derivatives
+
+For a smooth manifold $M$ of dimension $n$, the **tangent space** $T_p M$ at $p \in M$ can be
+defined in several equivalent ways:
+
+**Definition (Derivations).** A **tangent vector** at $p$ is a linear map
+$v : C^\infty(M) \to \mathbb{R}$ satisfying the Leibniz rule:
+
+$$v(fg) = f(p)\, v(g) + v(f)\, g(p)$$
+
+The space of all such derivations is $T_p M$, an $n$-dimensional vector space.
+
+**Definition (Curves).** A tangent vector is an equivalence class of smooth curves
+$\gamma : (-\varepsilon, \varepsilon) \to M$ with $\gamma(0) = p$, where $\gamma_1 \sim \gamma_2$
+if they have the same derivative in any chart.
+
+In local coordinates $(x^1, \ldots, x^n)$, a basis for $T_p M$ is given by the partial derivative
+operators $\{\partial/\partial x^i|_p\}$.
+
+**The differential.** For a smooth map $f : M \to N$, the **pushforward** or **differential**
+$df_p : T_p M \to T_{f(p)} N$ is defined by:
+
+$$df_p(v)(g) = v(g \circ f)$$
+
+for $g \in C^\infty(N)$. In coordinates, $df_p$ is represented by the Jacobian matrix.
+
+### 1.5 The Cotangent Space
+
+The **cotangent space** $T_p^* M$ is the dual vector space to $T_p M$. Elements are called
+**covectors** or **differential 1-forms** at $p$.
+
+In coordinates, the basis dual to $\{\partial/\partial x^i\}$ is $\{dx^i\}$, defined by
+$dx^i(\partial/\partial x^j) = \delta^i_j$.
+
+The **differential** of a function $f \in C^\infty(M)$ at $p$ is the covector:
+
+$$df_p(v) = v(f)$$
+
+In coordinates: $df = \frac{\partial f}{\partial x^i}\, dx^i$.
+
+### 1.6 Vector Fields
+
+A **smooth vector field** $X$ on $M$ assigns a tangent vector $X_p \in T_p M$ smoothly to each
+$p \in M$. In coordinates:
+
+$$X = X^i(x) \frac{\partial}{\partial x^i}$$
+
+where $X^i$ are smooth functions.
+
+**Integral curves.** A curve $\gamma(t)$ is an integral curve of $X$ if
+$\dot{\gamma}(t) = X_{\gamma(t)}$. The **flow** $\phi_t$ of $X$ is a one-parameter family of
+diffeomorphisms.
+
+**Lie bracket.** The Lie bracket of two vector fields $X, Y$ is:
+
+$$[X, Y](f) = X(Y(f)) - Y(X(f))$$
+
+In coordinates: $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$.
+
+### 1.7 Practice Problems
+
+**Problem 1.** Show that $S^1$ is a smooth manifold by constructing an atlas with two charts.
+
+_Solution._ Use stereographic projection from the north and south poles. For
+$U_1 = S^1 \setminus \{(0, 1)\}$, $\varphi_1(x, y) = x/(1 - y)$. For
+$U_2 = S^1 \setminus \{(0, -1)\}$, $\varphi_2(x, y) = x/(1 + y)$. The transition map
+$\varphi_2 \circ \varphi_1^{-1}(t) = 1/t$ is smooth on $\mathbb{R} \setminus \{0\}$.
+$\blacksquare$
+
+**Problem 2.** Show that $T^2 = S^1 \times S^1$ is a smooth manifold.
+
+**Problem 3.** Prove that the tangent bundle $TM = \bigcup_{p \in M} T_p M$ is itself a smooth
+$2n$-dimensional manifold.
+
+### 1.8 Submanifolds
+
+**Definition.** A subset $N \subseteq M$ is an **embedded submanifold** of dimension $k \leq n$ if
+for every $p \in N$, there exists a chart $(U, \varphi)$ of $M$ such that
+$\varphi(U \cap N) = \varphi(U) \cap (\mathbb{R}^k \times \{0\})$.
+
+**Example.** $S^{n-1} \subseteq \mathbb{R}^n$ is an embedded submanifold of dimension $n-1$.
+
+**Example.** The torus $T^2 \subseteq \mathbb{R}^3$ is an embedded submanifold of dimension $2$.
+
+### 1.9 Partitions of Unity
+
+**Theorem 1.2.** Every smooth manifold admits a **partition of unity**: a collection of smooth
+functions $\{\rho_\alpha\}$ such that $\mathrm{supp}(\rho_\alpha)$ is locally finite, each
+$\rho_\alpha \geq 0$, and $\sum_\alpha \rho_\alpha = 1$.
+
+Partitions of unity are used to construct global objects (Riemannian metrics, connections) from
+local data.
+
+**Problem 4.** Show that $S^1 \times S^1$ is diffeomorphic to the torus $T^2$ embedded in
+$\mathbb{R}^3$.
+
+**Problem 5.** Construct an atlas for $\mathbb{RP}^2$ and verify that the transition maps are
+smooth.

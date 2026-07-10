@@ -1089,8 +1089,10 @@ This equals $n(\mathrm{CH}_3\mathrm{COOH})$ in $25.0\,\mathrm{cm}^3$ of original
 
 $$c(\mathrm{CH}_3\mathrm{COOH}) = \frac{0.0184}{0.0250} = 0.736\,\mathrm{mol\,dm^{-3}}$$
 
-$$\text{Concentration in } \mathrm{g\,dm^{-3}} = 0.736 \times 60.05 = 44.2\,\mathrm{g\,dm^{-3}}$$ (2
-marks).
+$$
+\text{Concentration in } \mathrm{g\,dm^{-3}} = 0.736 \times 60.05 = 44.2\,\mathrm{g\,dm^{-3}}
+$$
+(2 marks).
 
 </details>
 

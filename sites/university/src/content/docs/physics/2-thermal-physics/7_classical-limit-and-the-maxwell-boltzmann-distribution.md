@@ -40,7 +40,64 @@ $$f(v)\,dv = 4\pi\left(\frac{m}{2\pi k_BT}\right)^{3/2} v^2 e^{-mv^2/(2k_BT)}\,d
 
 The ordering is $v_p < \langle v \rangle < v_{\mathrm{rms}}$.
 
-### 7.3 Worked Example: Effusion
+### 7.3 The Classical Partition Function
+
+For a system of $N$ indistinguishable non-interacting particles, the canonical partition function factorises:
+
+$$Z_N = \frac{1}{N!} Z_1^N$$
+
+where $Z_1$ is the single-particle partition function. For a classical ideal gas in three dimensions:
+
+$$Z_1 = V \left(\frac{2\pi m k_B T}{h^2}\right)^{3/2} = \frac{V}{\lambda_{\mathrm{th}}^3}$$
+
+with thermal de Broglie wavelength $\lambda_{\mathrm{th}} = h/\sqrt{2\pi m k_B T}$.
+
+The Helmholtz free energy is $F = -k_B T \ln Z_N$, from which all thermodynamic quantities follow:
+
+$$P = -\frac{\partial F}{\partial V} = \frac{N k_B T}{V}$$
+
+$$S = -\frac{\partial F}{\partial T} = Nk_B\left[\ln\!\left(\frac{V}{N\lambda_{\mathrm{th}}^3}\right) + \frac{5}{2}\right]$$
+
+### 7.4 Equipartition Theorem
+
+**Theorem 7.2 (Equipartition).** For a classical system in thermal equilibrium at temperature $T$, each quadratic degree of freedom in the Hamiltonian contributes $\frac{1}{2}k_B T$ to the mean energy.
+
+For a monatomic ideal gas with 3 translational degrees of freedom: $\langle E \rangle = \frac{3}{2}Nk_B T$. For a diatomic gas with additional rotational degrees of freedom (at sufficiently high $T$): $\langle E \rangle = \frac{5}{2}Nk_B T$.
+
+The equipartition theorem fails at low temperatures when quantum effects freeze out degrees of freedom (the equipartition theorem is a classical result valid only in the high-temperature limit).
+
+### 7.5 Derivation from Maximum Entropy
+
+The Maxwell-Boltzmann distribution can be derived by maximising the Boltzmann entropy $S = -k_B \sum_i p_i \ln p_i$ subject to constraints $\sum_i p_i = 1$ and $\sum_i p_i \varepsilon_i = \langle E \rangle$:
+
+$$\delta\left[-k_B \sum_i p_i \ln p_i - \alpha\left(\sum_i p_i - 1\right) - \beta\left(\sum_i p_i \varepsilon_i - \langle E \rangle\right)\right] = 0$$
+
+This yields $p_i = e^{-\alpha - 1} e^{-\beta \varepsilon_i}$, and normalisation gives:
+
+$$p_i = \frac{e^{-\beta\varepsilon_i}}{\sum_j e^{-\beta\varepsilon_j}} = \frac{e^{-\beta\varepsilon_i}}{Z_1}$$
+
+With $\beta = 1/(k_B T)$, this is the Maxwell-Boltzmann distribution for discrete energy states.
+
+### 7.6 Worked Example: Barometric Formula
+
+**Problem.** Find the density of an ideal gas at height $z$ in a uniform gravitational field, assuming constant temperature $T$. This is the barometric formula.
+
+<details>
+<summary>Solution</summary>
+
+The gravitational potential energy of a molecule at height $z$ is $mgz$. In equilibrium, the number density follows the Maxwell-Boltzmann distribution:
+
+$$n(z) = n_0 \exp\!\left(-\frac{mgz}{k_B T}\right)$$
+
+where $n_0$ is the density at $z = 0$. The pressure is $P(z) = n(z) k_B T = P_0 e^{-mgz/(k_B T)}$.
+
+The scale height $H = k_B T/(mg)$ characterises the exponential decay. For Earth's atmosphere at $T = 288$ K: $H \approx 8.5$ km.
+
+$\blacksquare$
+
+</details>
+
+### 7.7 Worked Example: Effusion
 
 **Problem.** A gas of molecular mass $m$ at temperature $T$ effuses through a small hole. Find the
 distribution of speeds of the effusing molecules and the mean kinetic energy per effusing molecule.
@@ -71,6 +128,36 @@ This is $4/3$ times the bulk average $\frac{3}{2}k_BT$ --- effusing molecules ar
 faster molecules escape preferentially. $\blacksquare$
 
 </details>
+
+### 7.8 Worked Example: Mean Free Path
+
+**Problem.** Estimate the mean free path of nitrogen molecules in air at STP ($T = 273$ K, $P = 1$ atm). The molecular diameter of N$_2$ is approximately $0.37$ nm.
+
+<details>
+<summary>Solution</summary>
+
+The mean free path $\lambda$ is the average distance a molecule travels between collisions:
+
+$$\lambda = \frac{1}{\sqrt{2}\,\pi d^2 n}$$
+
+where $n$ is the number density and $d$ is the molecular diameter. From the ideal gas law:
+
+$$n = \frac{P}{k_B T} = \frac{1.013 \times 10^5}{1.381 \times 10^{-23} \times 273} \approx 2.69 \times 10^{25}\ \text{m}^{-3}$$
+
+$$\lambda = \frac{1}{\sqrt{2}\,\pi (3.7 \times 10^{-10})^2 \times 2.69 \times 10^{25}} \approx 6.8 \times 10^{-8}\ \text{m} \approx 68\ \text{nm}$$
+
+This is about 200 times the molecular diameter, confirming the diluteness of the gas and the validity of the classical limit.
+
+$\blacksquare$
+
+</details>
+
+### 7.9 Limitations of the Classical Limit
+
+The Maxwell-Boltzmann distribution fails when quantum effects become significant:
+- **Degenerate Fermi gases** (high density, low temperature): Fermi-Dirac statistics must be used; the Pauli exclusion principle prevents multiple occupancy of quantum states.
+- **Bose-Einstein condensation** occurs when $n\lambda_{\mathrm{th}}^3 \gtrsim 2.612$; the classical approximation breaks down as bosons accumulate in the ground state.
+- **Equipartition failure** at low temperatures: rotational and vibrational degrees of freedom freeze out when $k_B T \ll \hbar\omega$, violating the classical prediction.
 
 ---
 

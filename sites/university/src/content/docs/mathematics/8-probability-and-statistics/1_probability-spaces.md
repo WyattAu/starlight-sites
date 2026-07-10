@@ -96,3 +96,45 @@ So $A$, $B$, $C$ are pairwise independent but not mutually independent. $\blacks
 
 </details>
 
+### 1.4 Key Relationships
+
+- The sigma-algebra must be closed under countable operations, not just finite ones.
+- Independence is a property of the probability measure, not of the sets themselves.
+- Conditional probability satisfies the axioms of probability for a fixed conditioning event.
+- Bayes' theorem converts between $P(A|B)$ and $P(B|A)$ using the prior and likelihood.
+
+### 1.5 Common Pitfalls
+
+- Confusing "mutually exclusive" with "independent." Mutually exclusive events with positive probability are always dependent.
+- Assuming that $P(A \cap B) > 0$ implies dependence. Two events can overlap and still be independent.
+- Forgetting that sigma-algebras must be closed under countable unions, not just finite ones.
+- Applying Bayes' theorem without verifying that the partition actually covers the sample space.
+
+### 1.6 Applications
+
+- **Medical testing:** Bayes' theorem computes the true positive rate from sensitivity and prevalence.
+- **Quality control:** Independence assumptions simplify the probability of multiple component failures.
+- **Finance:** Insurance pricing uses conditional probability to model claim frequency given risk factors.
+- **Machine learning:** Naive Bayes classifiers assume feature independence to compute posterior probabilities efficiently.
+
+### 1.7 Worked Example: Applying Bayes' Theorem
+
+**Problem.** A disease affects 1 in 1000 people. A test is 99% sensitive (true positive rate) and 95% specific (true negative rate). If a person tests positive, what is the probability they have the disease?
+
+<details>
+<summary>Solution</summary>
+
+Let $D$ be the event of having the disease and $T$ be the event of testing positive.
+
+$P(D) = 0.001$, $P(T|D) = 0.99$, $P(T|D^c) = 0.05$.
+
+By the law of total probability:
+$P(T) = P(T|D)P(D) + P(T|D^c)P(D^c) = 0.99 \times 0.001 + 0.05 \times 0.999 = 0.00099 + 0.04995 = 0.05094$.
+
+By Bayes' theorem:
+$P(D|T) = P(T|D)P(D)/P(T) = 0.00099/0.05094 = 0.0194$.
+
+So only about 1.94% of positive tests are true positives, despite the high sensitivity. $\blacksquare$
+
+</details>
+

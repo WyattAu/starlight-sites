@@ -207,11 +207,18 @@ body {
 }
 
 /* === Table Styling === */
+.sl-markdown-content .table-wrapper,
+.sl-markdown-content div:has(> table) {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0;
+}
+
 .sl-markdown-content table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5rem 0;
   font-size: 0.9rem;
+  min-width: max-content;
 }
 
 .sl-markdown-content th,
@@ -404,5 +411,165 @@ body {
   .landing-card:hover .card {
     transition: border-color var(--wn-duration-fast) linear;
     transform: none;
+  }
+}
+
+/* === 1. Content Width for Optimal Reading (65-75 cpl) === */
+.sl-container {
+  max-width: 48rem;
+}
+
+/* === 2. Better Heading Spacing (Vertical Rhythm) === */
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4,
+.sl-markdown-content h5,
+.sl-markdown-content h6 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.sl-markdown-content h1 + p,
+.sl-markdown-content h2 + p,
+.sl-markdown-content h3 + p,
+.sl-markdown-content h4 + p,
+.sl-markdown-content h5 + p,
+.sl-markdown-content h6 + p {
+  margin-top: 0;
+}
+
+.sl-markdown-content p {
+  margin-bottom: 1.25em;
+  line-height: 1.75;
+}
+
+/* === 3. Code Block Polish === */
+.sl-markdown-content pre {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--sl-color-hairline-light);
+  border-radius: var(--sl-border-radius-medium, 8px);
+  position: relative;
+}
+
+.sl-markdown-content pre > code {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.sl-markdown-content .expressive-code .copy {
+  inset-block-start: 0.75rem;
+  inset-inline-end: 0.75rem;
+}
+
+/* === 4. Improved Link Styling === */
+.sl-markdown-content a:not(.header-anchor) {
+  text-decoration: none;
+  text-underline-offset: 2px;
+  transition:
+    text-decoration-color var(--wn-duration-fast) ease,
+    color var(--wn-duration-fast) ease;
+}
+
+.sl-markdown-content a:not(.header-anchor):hover {
+  text-decoration: underline;
+}
+
+.sl-markdown-content a:not(.header-anchor):visited {
+  color: color-mix(in srgb, var(--sl-color-accent) 60%, var(--sl-color-text));
+}
+
+/* === 5. Reading Rhythm (Paragraphs, Lists, Blockquotes) === */
+.sl-markdown-content p + p {
+  margin-top: 0.5em;
+}
+
+.sl-markdown-content li {
+  margin-bottom: 0.4em;
+  line-height: 1.7;
+}
+
+.sl-markdown-content li > ul,
+.sl-markdown-content li > ol {
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+
+.sl-markdown-content ul,
+.sl-markdown-content ol {
+  margin-bottom: 1.25em;
+}
+
+.sl-markdown-content blockquote {
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--sl-color-accent);
+  background: var(--sl-color-accent-low);
+  border-radius: var(--wn-radius-sm, 10px);
+  margin: 1.5em 0;
+}
+
+.sl-markdown-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.sl-markdown-content hr {
+  margin: 2em 0;
+  opacity: 0.3;
+}
+
+/* === 6. Sidebar Refinements === */
+.sidebar-content {
+  min-width: 14rem;
+  max-width: 16rem;
+}
+
+@media (min-width: 80rem) {
+  .sidebar-content {
+    max-width: 15rem;
+  }
+}
+
+/* === 7. Table of Contents Improvements === */
+.right-sidebar-container .toc-item {
+  padding-block: 0.2rem;
+}
+
+.right-sidebar-container .toc-item a {
+  padding-block: 0.3rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-left: 2px solid transparent;
+  transition:
+    color var(--wn-duration-fast) ease,
+    border-color var(--wn-duration-fast) ease;
+}
+
+.right-sidebar-container .toc-item a[aria-current="true"] {
+  font-weight: 600;
+  color: var(--sl-color-accent);
+  border-left-color: var(--sl-color-accent);
+}
+
+/* === 8. Responsive Improvements === */
+@media (min-width: 90rem) {
+  .sl-container {
+    max-width: 52rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .sidebar-content {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .sl-container {
+    max-width: 100%;
+    padding-inline: 1rem;
+  }
+
+  .sl-markdown-content {
+    text-align: left;
   }
 }

@@ -17,7 +17,8 @@ export default defineConfig({
   output: 'static',
   integrations: [
     starlight({
-      title: "Wyatt's Notes — A-Level",
+      title: 'A-Level',
+      pagefind: false,
       description:
         'UK A-Level revision notes covering AQA, OCR, and Edexcel exam boards with detailed derivations and worked examples.',
 
@@ -69,8 +70,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'A-Level Notes',
-            description: 'UK A-Level revision notes',
+            name: 'A-Level',
+            description: 'UK A-Level revision',
             url: 'https://alevel.wyattau.com',
             publisher: {
               '@type': 'Organization',

@@ -672,6 +672,7 @@ $$
 \ln(1 + x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{n+1}}{n+1} = \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n}, \quad |x| \lt 1
 $$
 
+:::
 
 ## Common Pitfalls
 

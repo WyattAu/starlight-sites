@@ -16,7 +16,8 @@ export default defineConfig({
   output: 'static',
   integrations: [
     starlight({
-      title: "Wyatt's Notes — University",
+      title: 'University',
+      pagefind: false,
       description:
         'Rigorous, proof-based undergraduate STEM notes covering Linear Algebra, Calculus, Classical Mechanics, and Electromagnetism.',
 
@@ -85,8 +86,8 @@ export default defineConfig({
           content: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
-            name: 'University Notes',
-            description: 'University STEM notes',
+            name: 'University',
+            description: 'University STEM',
             url: 'https://university.wyattau.com',
             publisher: {
               '@type': 'Organization',

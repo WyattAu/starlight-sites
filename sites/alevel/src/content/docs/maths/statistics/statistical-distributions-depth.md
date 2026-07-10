@@ -4,10 +4,11 @@ description: 'This document provides rigorous coverage of the binomial, normal, 
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
+---
 
-------:::note[Historical Context]
+:::note[Historical Context]
 The Gaussian distribution was first derived by Abraham de Moivre (1733) as an approximation to the binomial distribution. Carl Friedrich Gauss later used it extensively in his work on celestial mechanics (1809). The Poisson distribution was introduced by Siméon Denis Poisson (1837) to model rare events. The binomial distribution dates to Jacob Bernoulli (1713). These three are connected: Poisson is a binomial limit (small p, large n), and the normal is a binomial limit (Central Limit Theorem). First proved rigorously by Laplace (1812) and later Kolmogorov (1933).
-:::------
+:::
 
 ## Statistical Distributions (Extended Treatment)
 

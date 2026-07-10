@@ -155,6 +155,7 @@ $$|x| = \begin{cases} x & \mathrm{if } x \geq 0 \\ -x & \mathrm{if } x < 0 \end{
 $$
 \begin{aligned}
 |ab| &= |a| \cdot |b| \\
+| --- | --- | --- | --- | --- | --- |
 |a + b| &\leq |a| + |b| \quad \mathrm{(Triangle inequality)} \\
 |a|^2 &= a^2 \\
 |x| &= \sqrt{x^2}

@@ -80,3 +80,55 @@ contraction condition), hence converges to some $x^*$. By continuity of $f$, $x^
 Uniqueness follows from the contraction condition: if $x^* = f(x^*)$ and $y^* = f(y^*)$, then
 $d(x^*, y^*) = d(f(x^*), f(y^*)) \leq c \cdot d(x^*, y^*)$, so $d(x^*, y^*) = 0$. $\square$
 
+### 7.6 Key Relationships Between Metric Spaces
+
+| Property         | Definition                                          | Example                        |
+| ---------------- | --------------------------------------------------- | ------------------------------ |
+| Metric space     | Set + distance function satisfying triangle ineq    | $\mathbb{R}^n$ with $d_2$      |
+| Complete metric  | Every Cauchy sequence converges                     | $\mathbb{R}^n$, $C([a,b])$     |
+| Compact metric   | Every open cover has finite subcover                | $[0,1]$ with Euclidean metric  |
+| Connected metric | Cannot be partitioned into two disjoint open sets   | $\mathbb{R}^n$, any interval   |
+| Totally bounded  | For every $\varepsilon > 0$, finite $\varepsilon$-net | $[0,1]$ but not $\mathbb{R}$ |
+
+Compact $\Rightarrow$ complete and totally bounded. Complete + totally bounded $\Rightarrow$ compact.
+
+### 7.7 Common Pitfalls
+
+- **Assuming all metrics come from a norm.** The discrete metric does not come from any norm (norms
+  are homogeneous: $\|\alpha x\| = |\alpha|\|x\|$, but $d(\alpha x, 0) = 1$ for $\alpha \neq 0$).
+- **Confusing completeness with closedness.** A subset of a metric space can be closed but not
+  complete (if the ambient space is not complete), and complete but not closed (if complete in a
+  subspace topology).
+- **Thinking contractions require $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$.** This is weaker and
+  does not guarantee a fixed point. The strict inequality $d(f(x), f(y)) \leq c d(x, y)$ with
+  $c < 1$ is essential.
+- **Forgetting that convergence of sequences is not enough in general topology.** In metric spaces
+  sequential convergence characterises the topology, but in general topological spaces nets or
+  filters are needed.
+
+### 7.8 Applications
+
+- **Numerical analysis:** The Banach fixed-point theorem justifies iterative methods like Newton's
+  method and Picard iterations for ODEs.
+- **Computer science:** Metric spaces model edit distances (Levenshtein, Hamming) for string
+  matching and bioinformatics sequence alignment.
+- **Image processing:** The Hausdorff distance measures similarity between shapes and is used in
+  computer vision for template matching.
+- **Functional analysis:** $C([a,b])$ with the sup norm is a complete metric space, providing the
+  setting for the Stone-Weierstrass approximation theorem.
+
+### 7.9 Worked Examples
+
+**Problem 1.** Show that $\mathbb{R}^n$ with the Euclidean metric is complete.
+
+**Solution.** Let $\{x_k\}$ be a Cauchy sequence in $\mathbb{R}^n$. Then each coordinate sequence
+$\{x_k^{(i)}\}$ is Cauchy in $\mathbb{R}$ (since $|x_k^{(i)} - x_\ell^{(i)}| \leq d_2(x_k, x_\ell)$).
+$\mathbb{R}$ is complete, so each coordinate converges to $x^{(i)}$. Then $x_k \to x$ componentwise,
+and by the triangle inequality $d_2(x_k, x) \to 0$. $\blacksquare$
+
+**Problem 2.** Let $X = (0,1)$ with $d(x,y) = |x-y|$. Show $X$ is not complete.
+
+**Solution.** The sequence $x_n = 1/n$ is Cauchy: for any $\varepsilon > 0$, choose $N > 2/\varepsilon$,
+then for $m,n \geq N$, $|1/m - 1/n| \leq 1/m + 1/n \leq 2/N < \varepsilon$. But $x_n \to 0 \notin (0,1)$,
+so the sequence does not converge in $X$. Thus $(0,1)$ with the Euclidean metric is not complete.
+However, $[0,1]$ is complete (closed subset of complete $\mathbb{R}$). $\blacksquare$

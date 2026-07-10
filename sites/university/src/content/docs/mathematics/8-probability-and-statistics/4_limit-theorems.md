@@ -106,3 +106,42 @@ $\blacksquare$
   convergence in distribution of the standardised sum, not convergence of the sum itself. The LLN
   gives the latter (convergence in probability).
 
+### 4.5 Key Relationships
+
+- **Berry-Esseen bound:** For i.i.d. variables with $E[|X|^3] = \rho < \infty$, the rate of CLT convergence is bounded by $|F_n(z) - \Phi(z)| \leq C\rho/(\sigma^3\sqrt{n})$ where $C < 0.4748$.
+- **Lindeberg-Feller CLT:** Generalises the CLT to independent (but not identically distributed) random variables. Requires the Lindeberg condition: no single variable dominates the sum.
+- **CLT for sample proportions:** If $Y_i \sim \text{Bernoulli}(p)$, then $\hat{p} = \bar{Y} \approx N(p, p(1-p)/n)$ for large $n$. This is the basis of confidence intervals for proportions.
+- **Delta method:** If $\sqrt{n}(\bar{X} - \mu) \xrightarrow{d} N(0, \sigma^2)$, then $\sqrt{n}(g(\bar{X}) - g(\mu)) \xrightarrow{d} N(0, [g'(\mu)]^2\sigma^2)$ for differentiable $g$. Extends the CLT to nonlinear functions of the mean.
+
+### 4.6 Worked Example: Confidence Intervals via CLT
+
+A poll surveys 1000 voters and finds 540 support a candidate. Construct a 95% confidence interval for the true proportion $p$.
+
+$\hat{p} = 540/1000 = 0.54$. By the CLT, $\hat{p} \approx N(p, p(1-p)/n)$. For a 95% CI:
+
+$$\hat{p} \pm z_{0.025}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} = 0.54 \pm 1.96\sqrt{\frac{0.54 \times 0.46}{1000}} = 0.54 \pm 0.031$$
+
+The 95% CI is $(0.509, 0.571)$. Since the interval includes 0.5, we cannot reject the hypothesis that the race is tied at the 5% significance level.
+
+### 4.7 Worked Example: Poisson Approximation via CLT
+
+Events occur at rate $\lambda = 50$ per hour. Approximate $P(S \leq 60)$ where $S$ is the total count in one hour.
+
+The Poisson distribution with $\lambda = 50$ has mean 50 and variance 50. By the CLT:
+
+$$P(S \leq 60) \approx P\left(Z \leq \frac{60 - 50}{\sqrt{50}}\right) = P(Z \leq 1.414) \approx 0.9214$$
+
+The exact Poisson probability is 0.9278. The normal approximation is accurate to within 1%.
+
+### 4.8 Worked Example:掷骰子问题
+
+A fair die is rolled 60 times. Approximate the probability that the total is between 200 and 240.
+
+Each roll has $E[X_i] = 3.5$ and $\mathrm{Var}(X_i) = 35/12$. By the CLT, the total $S_{60}$ satisfies:
+
+$$P(200 < S_{60} < 240) = P\left(\frac{200 - 210}{\sqrt{60 \times 35/12}} < Z < \frac{240 - 210}{\sqrt{60 \times 35/12}}\right)$$
+
+$$= P\left(\frac{-10}{13.23} < Z < \frac{30}{13.23}\right) = P(-0.756 < Z < 2.268)$$
+
+$$\approx \Phi(2.268) - \Phi(-0.756) = 0.9883 - 0.2248 = 0.7635$$
+

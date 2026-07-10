@@ -6,7 +6,6 @@ tags:
 description: 'A over a field ( or ) is a set equipped With two operations: Comprehensive educational content coverage with definitions and practice problems.'
 ------:::note[Historical Context]
 The vector space was introduced by Giuseppe Peano (1888), building on Grassmann's Ausdehnungslehre (1844). The modern axiomatic approach was established by Banach (1920). Every vector space has a basis (proved via Zorn's Lemma, 1935). Vector spaces connect to representation theory, where groups act on vector spaces.
-:::
 ---
 
 ### 1.1 Definition of a Vector Space

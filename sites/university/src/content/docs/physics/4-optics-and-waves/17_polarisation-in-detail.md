@@ -71,5 +71,74 @@ $\blacksquare$
 
 </details>
 
+### 13.4 Jones Matrices for Common Optical Elements
+
+A systematic reference for standard Jones matrices:
+
+| Element | Jones Matrix |
+|---------|-------------|
+| Linear polariser ($x$-axis) | $\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}$ |
+| Linear polariser ($y$-axis) | $\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}$ |
+| Quarter-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}$ |
+| Half-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$ |
+| Rotator (angle $\theta$) | $\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$ |
+
+### 13.5 Poincaré Sphere
+
+The **Poincaré sphere** provides a geometric representation of polarisation states. The Stokes parameters $(S_1, S_2, S_3)$ normalised by $S_0$ are the Cartesian coordinates of a point on a unit sphere:
+
+- North pole ($S_3 = 1$): right circular polarisation
+- South pole ($S_3 = -1$): left circular polarisation
+- Equator ($S_3 = 0$): linear polarisation (orientation varies with longitude)
+- Intermediate latitudes: elliptical polarisation
+
+### 13.6 Worked Example: Determining Unknown Polarisation
+
+**Problem.** Unpolarised light passes through a linear polariser at $0^\circ$, then a quarter-wave plate with fast axis at $45^\circ$, then a linear polariser at $90^\circ$. Find the transmitted intensity.
+
+<details>
+<summary>Solution</summary>
+
+After first polariser ($0^\circ$): $\mathbf{E}_1 = \begin{pmatrix}1 \\ 0\end{pmatrix}$ (normalised).
+
+Quarter-wave plate with fast axis at $45^\circ$: rotate to fast-axis basis, apply retardation, rotate back:
+
+$$\mathbf{E}_2 = R(-45^\circ)\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix}$$
+
+where $R(\theta) = \begin{pmatrix}\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta\end{pmatrix}$.
+
+$$R(45^\circ)\begin{pmatrix}1 \\ 0\end{pmatrix} = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -1\end{pmatrix}$$
+
+After retardation: $\frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ -i\end{pmatrix}$. Rotating back: $\mathbf{E}_2 = \frac{1}{\sqrt{2}}\begin{pmatrix}1 \\ i\end{pmatrix}$ (right circular).
+
+Second polariser at $90^\circ$ selects $y$-component: $E_y = i/\sqrt{2}$.
+
+Transmitted intensity: $I = |E_y|^2 = 1/2$.
+
+$\blacksquare$
+
+</details>
+
+### 13.7 Optical Activity and Faraday Rotation
+
+Some materials exhibit **optical activity**: the plane of linear polarisation rotates as light propagates. This arises from circular birefringence — different refractive indices for left and right circularly polarised light.
+
+The rotation angle is $\phi = \alpha L$ where $\alpha$ is the specific rotation and $L$ is the path length.
+
+In the **Faraday effect**, a magnetic field along the propagation direction induces circular birefringence:
+
+$$\phi = V B L$$
+
+where $V$ is the Verdet constant. Faraday rotation is non-reciprocal: reversing the propagation direction doubles the rotation, unlike natural optical activity which cancels upon reflection.
+
+### 13.8 Applications of Polarisation
+
+1. **3D cinema (IMAX):** Projectors use orthogonal polarisation states for left and right eye images; polarising glasses separate them.
+2. **LCD displays:** Liquid crystals rotate the polarisation of light; crossed polarisers convert rotation into intensity modulation.
+3. **Stress analysis (photoelasticity):** Transparent materials under stress become birefringent; viewing through crossed polarisers reveals stress patterns.
+4. **Radar and remote sensing:** Polarimetric radar measures the full Stokes vector of backscattered radiation to identify terrain and targets.
+5. **Quantum cryptography:** The BB84 protocol encodes qubits in the polarisation states of single photons (horizontal/vertical and diagonal/anti-diagonal bases).
+6. **Optical isolators:** Combining a polariser with a Faraday rotator creates a non-reciprocal device that allows light to pass in one direction only.
+
 ---
 

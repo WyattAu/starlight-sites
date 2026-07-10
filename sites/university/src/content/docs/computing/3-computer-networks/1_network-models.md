@@ -83,3 +83,34 @@ Ethernet:
 **Decapsulation.** At the receiver, each layer strips its corresponding header before passing data
 To the layer above. This process is the reverse of encapsulation.
 
+### 1.5 Key Relationships
+
+- **MTU and fragmentation:** The Maximum Transmission Unit (MTU) of Ethernet is 1500 bytes. IP packets exceeding the MTU must be fragmented (IPv4) or require path MTU discovery (IPv6).
+- **Port numbers:** Transport-layer protocols use 16-bit port numbers (0--65535). Well-known ports (0--1023) are reserved for standard services (HTTP: 80, HTTPS: 443, DNS: 53).
+- **Window size:** TCP uses a sliding window for flow control. The window size determines how many bytes can be sent before requiring an acknowledgement.
+- **Hop limit:** Each router decrements the IP TTL (Time to Live) field. When it reaches zero, the packet is discarded and an ICMP Time Exceeded message is sent back.
+
+### 1.6 Common Pitfalls
+
+- **Confusing the OSI model with protocol stacks:** The OSI model is a conceptual framework. Real networks use the TCP/IP stack. Protocols do not always map cleanly to a single OSI layer.
+- **Assuming all layers add overhead:** The Physical layer encodes bits without adding headers. Overhead accumulates only at layers 2--4.
+- **Ignoring encapsulation order:** Headers are added in the order Application $\to$ Transport $\to$ Network $\to$ Data Link. Removing them in the wrong order causes parsing errors.
+- **Overlooking the role of ARP:** ARP resolves IP addresses to MAC addresses at Layer 2 but is not part of the TCP/IP or OSI layer definitions, leading to confusion about where it belongs.
+
+### 1.7 Applications
+
+- **Network troubleshooting:** Understanding the layer model allows systematic diagnosis. Physical issues (cables, signal) are Layer 1; IP configuration errors are Layer 3; application bugs are Layer 7.
+- **Firewall design:** Firewalls operate at specific layers. Packet-filtering firewalls inspect Layers 3--4 (IP addresses, ports). Application-layer firewalls inspect Layer 7 content (HTTP headers, payload).
+- **VPN tunneling:** A VPN encapsulates Layer 3 packets inside Layer 4 (or Layer 2) protocols, effectively adding extra headers. Understanding encapsulation is essential for configuring and debugging VPNs.
+- **Quality of Service (QoS):** QoS mechanisms tag packets at Layer 3 (DSCP/ToS fields) to prioritise traffic. Without understanding the layer model, QoS rules may be applied at the wrong level.
+
+### 1.8 Worked Example: Packet Tracing
+
+Consider an HTTP request traversing three networks: the client LAN (Ethernet), a WAN ( MPLS), and the server LAN (Wi-Fi).
+
+1. **Client LAN:** HTTP data (500 B) is encapsulated into a TCP segment (+20 B header), then an IP packet (+20 B header), then an Ethernet frame (+14 B header, +4 B FCS). Total on wire: 558 B.
+2. **MPLS WAN:** The Ethernet frame is stripped. The IP packet is encapsulated with an MPLS label (+4 B). A new link-layer header is added for the MPLS link. The IP header remains unchanged.
+3. **Server LAN:** The MPLS label is removed at the egress router. The IP packet is encapsulated into a Wi-Fi frame (+varies). The TCP segment is delivered to the server, which strips the TCP header and passes the HTTP data to the application.
+
+At each hop, only the relevant layer headers are processed. The HTTP payload is untouched from client to server.
+

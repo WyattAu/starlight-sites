@@ -50,6 +50,59 @@ mask (spatial filter) in this plane modifies the image:
   component, converting phase variations into intensity variations. This makes transparent
   biological specimens visible without staining.
 
+### 15.4 Key Relationships
+
+| Optical concept        | Fourier correspondence                    | Application              |
+| ---------------------- | ----------------------------------------- | ------------------------ |
+| Aperture function      | Input signal $t(x,y)$                    | Diffraction pattern      |
+| Fraunhofer pattern     | Fourier transform $\mathcal{F}\{t\}$      | Far-field imaging        |
+| Lens back focal plane  | Fourier plane                             | Spatial filtering        |
+| Image plane            | Inverse Fourier transform                 | 4f imaging system        |
+| Optical transfer func  | Normalised FT of PSF                      | Resolution characterisation |
+
+### 15.5 Common Pitfalls
+
+- **Confusing Fraunhofer and Fresnel diffraction.** Fraunhofer diffraction applies in the far field
+  ($z \gg a^2/\lambda$ where $a$ is the aperture size). Fresnel diffraction (near field) uses a
+  quadratic phase factor and is not simply a Fourier transform.
+- **Forgetting the quadratic phase factor in the Fresnel regime.** The Fraunhofer integral
+  approximation drops the quadratic phase term, but it is present in the full Fresnel diffraction
+  integral.
+- **Assuming the Abbe limit is the only resolution limit.** The Abbe limit assumes coherent
+  illumination; the Rayleigh criterion (for resolved point sources) gives $d = 0.61\lambda/\text{NA}$,
+  slightly different.
+- **Thinking spatial filtering only removes noise.** Spatial filtering can also introduce artifacts
+  (ringing from hard-edged low-pass filters, edge enhancement exaggeration from high-pass filters).
+
+### 15.6 Worked Examples
+
+**Problem 1.** A 4f imaging system has a lens with focal length $f = 50$ cm and aperture diameter
+$D = 2$ cm. The input is illuminated with $\lambda = 633$ nm. What is the cutoff spatial frequency?
+
+**Solution.** The cutoff frequency is determined by the lens aperture acting as a low-pass filter.
+The maximum spatial frequency that passes through the system is $f_{\max} = D/(2\lambda f)$:
+$f_{\max} = 0.02/(2 \times 633\times 10^{-9} \times 0.5) = 31,600$ cycles/m. Finer details in the
+input are blocked, giving a minimum feature size of $1/f_{\max} \approx 31.6\ \mu$m. $\blacksquare$
+
+**Problem 2.** Derive the point spread function (PSF) of a circular aperture of diameter $D$.
+
+**Solution.** The amplitude PSF is the Fourier transform of the aperture function (a circle of
+diameter $D$). This gives the Airy pattern:
+$I(r) = I_0[2J_1(kDr/(2f))/(kDr/(2f))]^2$, where $J_1$ is the Bessel function of the first kind.
+The first zero occurs at $r = 1.22\lambda f/D$, which is the Rayleigh criterion. $\blacksquare$
+
+### 15.7 Applications
+
+- **Microscopy:** Structured illumination microscopy (SIM) uses patterned illumination to encode
+  high-frequency information, doubling resolution beyond the Abbe limit. Stimulated emission
+  depletion (STED) microscopy breaks the diffraction barrier entirely.
+- **Holography:** Digital holography records the full complex field (amplitude and phase) using
+  Fourier optics principles, enabling numerical refocusing and 3D imaging.
+- **Astronomy:** Adaptive optics corrects wavefront distortions in real time using Fourier optics
+  concepts. Aperture synthesis in radio astronomy reconstructs images from sparse Fourier samples.
+- **Optical computing:** 4f correlators perform convolution operations optically at the speed of
+  light, used in pattern recognition and optical neural networks.
+
 <details>
 <summary>Worked Example 15.1: Diffraction from a Grating</summary>
 
@@ -75,4 +128,3 @@ For $N = 5$, $d = 3a$:
 The resolving power: $R = mN = m \times 5$.
 
 </details>
-

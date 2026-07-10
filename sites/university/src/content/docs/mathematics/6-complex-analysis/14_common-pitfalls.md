@@ -50,3 +50,72 @@ $|f(z)|$ on the entire contour. A common error is bounding $|f|$ on only part of
 $L$ must be the arc length of the contour, not a diameter or radius.
 
 :::
+
+:::caution Common Pitfall The argument principle counts zeros and poles, but one must account for
+their multiplicity/order. A common error is counting only distinct zeros rather than counting with
+multiplicity:
+
+$$\frac{1}{2\pi i}\oint_C \frac{f'(z)}{f(z)}\,dz = N - P$$
+
+where $N$ is the number of zeros and $P$ the number of poles inside $C$, counted with multiplicity.
+
+:::
+
+:::caution Common Pitfall Branch cuts must be chosen consistently. The function $\sqrt{z}$ has a
+branch point at $z = 0$, and a branch cut from $0$ to $\infty$ along any ray. Different choices of
+branch cut yield different function values on the cut. When integrating, ensure the contour does not
+cross the branch cut, or account for the jump discontinuity across it.
+
+:::
+
+:::caution Common Pitfall Laurent series expansions depend on the annulus of convergence, not just
+the centre. The function $f(z) = 1/((z-1)(z-2))$ has three distinct Laurent expansions in $|z| < 1$,
+$1 < |z| < 2$, and $|z| > 2$. A common error is assuming only one expansion exists for a given centre.
+
+:::
+
+:::caution Common Pitfall The identity theorem requires the set of accumulation points to lie inside
+the domain. Two analytic functions that agree on a sequence with a limit point in the domain are
+identical. However, they may agree on infinitely many isolated points without being identical if
+those points accumulate on the boundary.
+
+:::
+
+:::caution Common Pitfall When using Jordan's lemma for contour integration, the condition
+$\lim_{R\to\infty} \max_{z \in \Gamma_R} |f(z)| = 0$ is sufficient only for integrals of the form
+$\int_{-\infty}^\infty f(x) e^{iax} dx$ with $a > 0$. For $a < 0$, the contour must close in the
+lower half-plane instead.
+
+:::
+
+:::caution Common Pitfall The Cauchy principal value of an improper integral is not always equal to
+the integral itself. For example, $\int_{-\infty}^\infty x/(x^2+1) dx$ diverges, but its principal
+value exists and equals $0$. When using residue theory, check that the integrand decays sufficiently
+on semicircular contours.
+
+:::
+
+:::caution Common Pitfall Harmonic conjugates exist locally on any simply connected domain, but may
+not exist globally on multiply connected domains. For example, $\log r$ is harmonic on $\mathbb{C}\setminus\{0\}$ but has no single-valued harmonic conjugate there.
+
+:::
+
+:::caution Common Pitfall The Schwarz reflection principle requires the function to be real on the
+real axis (or more generally, to map the boundary to itself). A common mistake is applying the
+principle to functions that take complex values on the boundary, which leads to incorrect analytic
+continuations.
+
+:::
+
+:::caution Common Pitfall When using the argument principle to count zeros and poles, the contour
+must not pass through any zeros or poles of $f$. A contour passing through a zero can give an
+incorrect count because the argument change is undefined (the function is zero on the contour).
+
+:::
+
+:::caution Common Pitfall The Taylor series of a function converges within the largest disk centred
+at $z_0$ that contains no singularities, but may converge on a larger domain if the singularities
+are branch points rather than isolated poles. For example, $\sqrt{z}$ expanded about $z = 1$
+converges for $|z - 1| < 1$, limited by the branch point at $z = 0$, not by a pole.
+
+:::

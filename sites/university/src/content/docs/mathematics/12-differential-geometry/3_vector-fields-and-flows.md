@@ -9,7 +9,7 @@ description: "Let be a smooth vector field on . An of through is a smooth curve 
 ### 3.1 Integral Curves
 
 Let $X$ be a smooth vector field on $M$. An **integral curve** of $X$ through $p$ is a smooth curve
-$\gamma : I \to M$ such that $\gamma(0) = p$ and $\gamma"(t) = X_{\gamma(t)}$ for all $t \in I$.
+$\gamma : I \to M$ such that $\gamma(0) = p$ and $\gamma'(t) = X_{\gamma(t)}$ for all $t \in I$.
 
 **Theorem 3.1 (Existence and Uniqueness).** For every $p \in M$, there exists a unique maximal
 integral curve $\gamma_p : I_p \to M$ of $X$ through $p$, defined on a maximal open interval
@@ -41,3 +41,99 @@ The Lie derivative measures the rate of change of a geometric object along the f
 **Theorem 3.3 (Flow of the Lie Bracket).** If $\Phi_t$ and $\Psi_s$ are the flows of $X$ and $Y$
 respectively, then $\frac{d}{dt}\big|_{t=0} (\Psi_{-t})_*(\Phi_t)_* Y = [X, Y]$.
 
+### 3.4 The Flow of a Vector Field
+
+The **flow** of a vector field $X$ is a smooth map $\Phi : \mathcal{D} \to M$, where
+$\mathcal{D} \subseteq \mathbb{R} \times M$ is an open domain, defined by $\Phi(t, p) = \gamma_p(t)$,
+the integral curve of $X$ through $p$.
+
+**Proposition 3.4 (Flow Properties).** For each $p \in M$, there exists $\varepsilon > 0$ and a
+neighborhood $U$ of $p$ such that:
+
+1. $\Phi(0, p) = p$.
+2. $\Phi(t, \Phi(s, p)) = \Phi(t+s, p)$ whenever both sides are defined.
+3. For each $t$, the map $\Phi_t : U \to M$ defined by $\Phi_t(p) = \Phi(t, p)$ is a diffeomorphism
+   onto its image, with inverse $\Phi_{-t}$.
+
+**Definition.** A vector field $X$ is **complete** if its flow is defined for all $t \in \mathbb{R}$
+(i.e., $\mathcal{D} = \mathbb{R} \times M$). This happens if the maximal interval $I_p$ is all of
+$\mathbb{R}$ for every $p \in M$.
+
+**Theorem 3.5 (Compactness Implies Completeness).** If $M$ is compact, then every smooth vector
+field on $M$ is complete.
+
+**Example 3.1.** On $M = \mathbb{R}$, the vector field $X = \partial/\partial x$ is complete with
+flow $\Phi(t, p) = p + t$. The vector field $X = x^2 \partial/\partial x$ is not complete: the
+integral curve through $p > 0$ satisfies $\dot\gamma = \gamma^2$, giving $\gamma(t) = 1/(1/p - t)$,
+which blows up at $t = 1/p$.
+
+### 3.5 One-Parameter Groups of Diffeomorphisms
+
+A **one-parameter group of diffeomorphisms** is a smooth map $\Phi : \mathbb{R} \times M \to M$ such
+that $\Phi_t \circ \Phi_s = \Phi_{t+s}$ and $\Phi_0 = \mathrm{id}_M$.
+
+**Proposition 3.6.** There is a bijection between complete vector fields on $M$ and one-parameter
+groups of diffeomorphisms of $M$. Given a complete vector field $X$, its flow $\Phi_t$ is a
+one-parameter group. Conversely, given a one-parameter group $\Phi_t$, define $X_p = \frac{d}{dt}\big|_{t=0} \Phi_t(p)$.
+
+**Example 3.2.** On $\mathbb{R}^2$, the vector field $X = -y \partial/\partial x + x \partial/\partial y$
+generates rotation: $\Phi_t(x, y) = (x\cos t - y\sin t, x\sin t + y\cos t)$. This is a one-parameter
+group of rotations.
+
+### 3.6 Commuting Vector Fields
+
+**Proposition 3.7.** Two vector fields $X, Y$ have commuting flows if and only if $[X, Y] = 0$.
+
+More precisely, $[X, Y] = 0$ if and only if for all sufficiently small $s, t$:
+$\Phi_t^X \circ \Phi_s^Y = \Phi_s^Y \circ \Phi_t^X$, where $\Phi^X$ and $\Phi^Y$ are the flows of
+$X$ and $Y$ respectively.
+
+**Example 3.3.** On $\mathbb{R}^3$, the vector fields $X = \partial/\partial x$ and
+$Y = \partial/\partial y$ commute: $[X, Y] = 0$. Their flows are translations in the $x$ and $y$
+directions respectively, and these clearly commute.
+
+**Example 3.4.** On $S^2$, the vector fields generating rotations about the $x$-axis and $y$-axis
+do not commute: $[X, Y] = Z$, where $Z$ generates rotation about the $z$-axis. This reflects
+the non-commutativity of the Lie algebra $\mathfrak{so}(3)$.
+
+### 3.7 Vector Fields in Coordinates
+
+In local coordinates $(x^1, \ldots, x^n)$, a vector field $X$ can be written as:
+
+$$X = X^i(x) \frac{\partial}{\partial x^i}$$
+
+The integral curve equation $\dot\gamma(t) = X_{\gamma(t)}$ becomes the system of ODEs:
+
+$$\dot\gamma^i(t) = X^i(\gamma(t)), \quad i = 1, \ldots, n$$
+
+The Lie bracket in coordinates is:
+
+$$[X, Y]^i = X^j \frac{\partial Y^i}{\partial x^j} - Y^j \frac{\partial X^i}{\partial x^j}$$
+
+### 3.8 Worked Examples
+
+**Problem 1.** Let $X = x \partial/\partial x$ on $\mathbb{R}$. Find the flow and determine whether
+$X$ is complete.
+
+*Solution.* The ODE is $\dot\gamma = \gamma$, giving $\gamma(t) = pe^t$. So $\Phi(t, p) = pe^t$.
+This is defined for all $t \in \mathbb{R}$, so $X$ is complete. $\blacksquare$
+
+**Problem 2.** Compute $[X, Y]$ for $X = y \partial/\partial x$ and $Y = x \partial/\partial y$ on
+$\mathbb{R}^2$. What do their flows look like?
+
+*Solution.* Using the coordinate formula: $X^1 = y$, $X^2 = 0$, $Y^1 = 0$, $Y^2 = x$.
+
+$$[X, Y]^1 = y\frac{\partial(0)}{\partial x} - 0\frac{\partial(y)}{\partial x} + 0\frac{\partial(0)}{\partial y} - x\frac{\partial(y)}{\partial y} = -x$$
+
+$$[X, Y]^2 = y\frac{\partial(x)}{\partial x} - 0\frac{\partial(0)}{\partial x} + 0\frac{\partial(x)}{\partial y} - x\frac{\partial(0)}{\partial y} = y$$
+
+So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\Phi_t^X(x,y) = (x+yt, y)$
+(shear), $\Phi_s^Y(x,y) = (x, y+xs)$ (shear). These do not commute. $\blacksquare$
+
+### 3.9 Practice Problems
+
+1. Find the flow of $X = x^2 \partial/\partial x + y \partial/\partial y$ on $\mathbb{R}^2$.
+2. Prove that $[X, fY] = f[X, Y] + (Xf)Y$ for $f \in C^\infty(M)$.
+3. Show that the vector field $X = \partial/\partial\theta$ on $S^1$ is complete and find its flow.
+4. Compute the Lie bracket of $X = \partial/\partial x$ and $Y = x \partial/\partial y$ on $\mathbb{R}^2$.
+5. Prove that if $[X, Y] = 0$ then $\Phi_t^X \circ \Phi_s^Y = \Phi_s^Y \circ \Phi_t^X$ for all $s, t$.

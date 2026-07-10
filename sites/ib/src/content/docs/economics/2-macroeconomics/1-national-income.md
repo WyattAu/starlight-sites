@@ -418,4 +418,6 @@ have risen by 25% since the base year.
 - **GDP as a welfare measure** fails to capture income distribution, non-market activity,
   environmental costs, and quality of life
 $$
+
+$$
 - Key calculations: nominal-to-real conversion, GDP deflator, per capita adjustments

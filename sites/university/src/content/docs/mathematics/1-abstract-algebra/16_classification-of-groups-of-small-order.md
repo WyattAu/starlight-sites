@@ -77,3 +77,46 @@ semidirect products.
 
 
 :::
+
+## Common Pitfalls
+
+- **Assuming all groups of a given order are abelian:** While groups of order $p$ and $p^2$ are always abelian, groups of order $p^3$ need not be (e.g., $D_4$ and $Q_8$ are non-abelian of order 8). Never assume abelianness without proof.
+- **Forgetting to check semidirect product distinctness:** Different homomorphisms $\phi: K \to \operatorname{Aut}(N)$ can produce isomorphic semidirect products. Always verify that two actions actually yield non-isomorphic groups.
+- **Misapplying Sylow's theorems when $p$ divides the group order only once:** For $|G| = pq$ with $p < q$, the condition $n_p \equiv 1 \pmod{p}$ and $n_p \mid q$ forces $n_p = 1$ when $p \nmid (q-1)$, but $n_p$ may equal $q$ when $p \mid (q-1)$.
+- **Confusing direct products with semidirect products:** In a direct product $N \times H$, both factors are normal; in a semidirect product $N \rtimes H$, only $N$ is guaranteed normal. The notation $N \rtimes H$ always requires specifying the action.
+
+## Key Relationships
+
+- **Prime order implies cyclic:** By Lagrange's theorem, a group of prime order $p$ has no proper subgroups, so every non-identity element generates the entire group.
+- **Order $p^2$ is always abelian:** If $|G| = p^2$ for prime $p$, then $Z(G) \neq \{e\}$ by Theorem 6.5, and $G/Z(G)$ is cyclic, forcing $G$ to be abelian.
+- **Sylow theorems constrain group structure:** The number of Sylow $p$-subgroups $n_p$ must divide the group order and satisfy $n_p \equiv 1 \pmod{p}$, severely limiting possible group structures.
+- **Non-abelian groups of order $pq$ require $p \mid (q-1)$:** For $|G| = pq$ with $p < q$ primes, $G$ is cyclic unless $p$ divides $q-1$, in which case a non-abelian semidirect product exists.
+- **The classification table grows rapidly:** While there are only 5 groups of order 8 and 5 of order 12, the number jumps to 14 groups of order 16 and 51 groups of order 32.
+
+## Worked Examples
+
+### Example 1: Finding All Groups of Order 6
+
+**Problem:** Classify all groups of order 6.
+
+**Solution:** $|G| = 6 = 2 \times 3$. By Sylow theorems, $n_3 \mid 2$ and $n_3 \equiv 1 \pmod{3}$, so $n_3 = 1$. Thus the Sylow 3-subgroup $P_3 \cong \mathbb{Z}/3\mathbb{Z}$ is normal. Similarly, $n_2 \mid 3$ and $n_2 \equiv 1 \pmod{2}$, so $n_2 = 1$ or $3$. If $n_2 = 1$, then both Sylow subgroups are normal, giving $G \cong \mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z} \cong \mathbb{Z}/6\mathbb{Z}$. If $n_2 = 3$, the action of $\mathbb{Z}/3\mathbb{Z}$ on the three Sylow 2-subgroups gives a non-abelian group, which is $S_3 \cong D_3$.
+
+### Example 2: Identifying $Q_8$ by Properties
+
+**Problem:** Show that the quaternion group $Q_8 = \{\pm 1, \pm i, \pm j, \pm k\}$ is the unique non-abelian group of order 8 in which every element has order dividing 4.
+
+**Solution:** In $Q_8$, we have $i^2 = j^2 = k^2 = -1$ and $(-1)^2 = 1$, so every non-identity element has order 2 or 4. The element $-1$ is central, so $|Z(Q_8)| = 2$. Since $Q_8$ is non-abelian, by Proposition 16.2 it must be either $D_4$ or $Q_8$. In $D_4$, there are elements of order 2 outside the centre (reflections), but $Q_8$ has no such elements. Thus $Q_8$ is uniquely determined by this property.
+
+### Further Orders
+
+Beyond order 12, the classification continues to grow in complexity:
+- **Order 14:** Only two groups: $\mathbb{Z}/14\mathbb{Z}$ and $D_7$ (since $2 \mid (7-1)$, a non-abelian semidirect product exists).
+- **Order 15:** Only one group: $\mathbb{Z}/15\mathbb{Z}$ (cyclic, since $3 \nmid (5-1)$ and $5 \nmid (3-1)$).
+- **Order 18:** Five groups: two abelian ($\mathbb{Z}/18\mathbb{Z}$, $\mathbb{Z}/6\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}$) and three non-abelian ($D_9$, $S_3 \times \mathbb{Z}/3\mathbb{Z}$, $(\mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}) \rtimes \mathbb{Z}/2\mathbb{Z}$).
+- **Order 20:** Five groups: $\mathbb{Z}/20\mathbb{Z}$, $\mathbb{Z}/10\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$, $D_{10}$, the dicyclic group $\operatorname{Dic}_5$, and $\mathbb{Z}/5\mathbb{Z} \rtimes \mathbb{Z}/4\mathbb{Z}$.
+
+## Applications
+
+- **Cryptography:** Understanding group structure is essential for elliptic curve cryptography, where the group of points on a curve must have suitable properties.
+- **Crystallography:** The 230 space groups describe all possible crystal symmetries, built from small-order groups acting on lattices.
+- **Particle physics:** The Standard Model is based on the gauge group $SU(3) \times SU(2) \times U(1)$, whose finite subgroups classify possible symmetry-breaking patterns.

@@ -88,6 +88,8 @@ Every device is connected to every other device (full mesh) or to multiple devic
 :::caution[Exam Tip] In exam questions, always discuss both advantages AND disadvantages of each
 Topology. Star is the most common in modern LANs due to ease of management and fault isolation.
 
+:::
+
 ---
 
 ## Networking Hardware
@@ -377,6 +379,8 @@ To register a domain:
 :::caution[Exam Tip] Fibre optics is immune to electromagnetic interference (EMI), supports the
 Highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
 Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
+
+:::
 
 ---
 

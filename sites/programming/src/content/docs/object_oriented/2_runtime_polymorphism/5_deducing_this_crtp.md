@@ -711,7 +711,7 @@ int main() {
 
 - [Virtual Functions and vtables](./1_vtables.md)
 - [Devirtualization and Final Specifiers](./3_devirtualization.md)
-- [Access Control and Friendship](../class_design/2_access_control.md)
+- [Access Control and Friendship](../1_class_design/2_access_control.md)
 
 ## Worked Examples
 

@@ -182,6 +182,8 @@ Only two number types exists in Dart, `int` and `double`. `int` represents 64-bi
 Platforms, but is limited to 53-bit precision when compiled to JavaScript. `double` follows the IEEE
 754 standard and is also 64 bits.
 
+:::
+
 :::info These numbers are inherited from the `num` class, with operations and methods such as
 `abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
 :::

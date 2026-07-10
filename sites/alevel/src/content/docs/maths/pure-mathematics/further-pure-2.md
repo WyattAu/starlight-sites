@@ -373,7 +373,10 @@ $$u = \cos^{n-1}x \implies du = -(n-1)\cos^{n-2}x\sin x\,dx, \quad v = \sin x$$
 $$I_n = \left[\cos^{n-1}x\sin x\right]_0^{\pi/2} + (n-1)\int_0^{\pi/2}\cos^{n-2}x\sin^2 x\,dx$$ The
 boundary term vanishes. Replace $\sin^2 x = 1 - \cos^2 x$:
 $$I_n = (n-1)\int_0^{\pi/2}\cos^{n-2}x\,dx - (n-1)\int_0^{\pi/2}\cos^n x\,dx = (n-1)I_{n-2} - (n-1)I_n$$
-$$nI_n = (n-1)I_{n-2} \implies I_n = \frac{n-1}{n}I_{n-2}$$ With $I_0 = \pi/2$ and $I_1 = 1$.
+$$
+nI_n = (n-1)I_{n-2} \implies I_n = \frac{n-1}{n}I_{n-2}
+$$
+With $I_0 = \pi/2$ and $I_1 = 1$.
 
 ### Example 2: Proving a Group Isomorphism
 

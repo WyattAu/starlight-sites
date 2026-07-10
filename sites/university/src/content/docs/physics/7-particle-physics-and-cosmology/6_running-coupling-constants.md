@@ -97,5 +97,48 @@ supersymmetric extensions (MSSM) That the additional superpartner contributions 
 functions bring the three couplings to Near-convergence. This convergence is often cited as indirect
 evidence for supersymmetry.
 
-
 :::
+
+### 6.4 Key Relationships
+
+- The beta function encodes how a coupling changes with energy scale.
+- A negative beta function means asymptotic freedom; a positive one means screening.
+- The running of $\alpha_s$ is measured precisely at $e^+e^-$ colliders and deep inelastic scattering.
+- The Landau pole in QED marks the scale where perturbation theory breaks down.
+
+### 6.5 Common Pitfalls
+
+- Confusing the sign convention: $\beta(g) > 0$ means the coupling increases with energy.
+- Assuming that asymptotic freedom implies confinement automatically. They are related but distinct phenomena.
+- Forgetting that the number of active flavours $n_f$ depends on the energy scale relative to quark masses.
+- Using the one-loop formula far beyond its validity range where higher-order corrections are significant.
+
+### 6.6 Applications
+
+- **Collider physics:** Precision measurements of $\alpha_s$ at the Z pole and LHC constrain the Standard Model.
+- **Lattice QCD:** Numerical simulations compute $\alpha_s$ non-perturbatively from first principles.
+- **Cosmology:** The running of couplings affects primordial nucleosynthesis and baryogenesis models.
+- **Dark matter searches:** The scale dependence of $\alpha_s$ influences the calculation of hadronic backgrounds.
+
+### 6.7 Worked Example: Estimating $\alpha_s$ at Different Scales
+
+**Problem.** Given $\alpha_s(m_Z) = 0.118$ at $\mu_0 = m_Z = 91.2$ GeV, estimate $\alpha_s$ at $\mu = 1$ TeV.
+
+<details>
+<summary>Solution</summary>
+
+At one loop with $n_f = 5$ active flavours:
+
+$\alpha_s(\mu) = \frac{\alpha_s(\mu_0)}{1 + \frac{\alpha_s(\mu_0)}{12\pi}(33 - 2n_f)\ln(\mu^2/\mu_0^2)}$
+
+$= \frac{0.118}{1 + \frac{0.118}{12\pi}(33 - 10)\ln(1000^2/91.2^2)}$
+
+$= \frac{0.118}{1 + \frac{0.118}{37.70}(23)(4.80)}$
+
+$= \frac{0.118}{1 + 0.0352}$
+
+$= \frac{0.118}{1.0352} = 0.114$.
+
+The coupling decreases from 0.118 to 0.114, consistent with asymptotic freedom. $\blacksquare$
+
+</details>

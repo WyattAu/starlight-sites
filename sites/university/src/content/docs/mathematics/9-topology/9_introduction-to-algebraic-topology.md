@@ -88,3 +88,42 @@ homeomorphic to exactly one of:
 - **Klein bottle $K$:** Obtained by identifying opposite edges of a square with one pair reversed.
   Non-orientable, cannot be embedded in $\mathbb{R}^3$.
 
+### 9.6 Covering Spaces
+
+**Definition.** A continuous surjection $p : \tilde{X} \to X$ is a **covering map** if every point
+$x \in X$ has an open neighbourhood $U$ such that $p^{-1}(U)$ is a disjoint union of open sets in
+$\tilde{X}$, each mapped homeomorphically onto $U$ by $p$.
+
+**Example 9.6.** The map $p : \mathbb{R} \to S^1$ defined by $p(t) = e^{2\pi i t}$ is a covering
+map. The preimage of any small arc on $S^1$ consists of infinitely many disjoint intervals in
+$\mathbb{R}$.
+
+**Theorem 9.2 (Lifting Property).** If $p : \tilde{X} \to X$ is a covering map, $\tilde{X}$ is
+path-connected, and $f : [0, 1] \to X$ is a loop based at $x_0$, then $f$ lifts to a unique path
+$\tilde{f} : [0, 1] \to \tilde{X}$ starting at any chosen preimage $\tilde{x}_0 \in p^{-1}(x_0)$.
+
+The fundamental group $\pi_1(S^1) \cong \mathbb{Z}$ can be proved using this lifting property: a
+loop in $S^1$ lifts to a path in $\mathbb{R}$ whose endpoints differ by an integer, the winding
+number.
+
+## Key Relationships
+
+- **Homotopy equivalence is weaker than homeomorphism:** Two spaces can be homotopy equivalent without being homeomorphic (e.g., $\mathbb{R}^n$ and a point are homotopy equivalent but not homeomorphic).
+- **The fundamental group detects "holes":** A space with trivial $\pi_1$ has no one-dimensional holes; non-trivial $\pi_1$ indicates loops that cannot be contracted.
+- **Euler characteristic is a homotopy invariant:** Any two homotopy equivalent spaces have the same Euler characteristic, even though it can be computed from any triangulation.
+- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is simply connected, and $\pi_1(X)$ acts on it as deck transformations.
+- **The classification of surfaces reduces topology to algebra:** Every compact surface is determined by its orientability and Euler characteristic.
+
+## Common Pitfalls
+
+- **Confusing homotopy with homeomorphism:** Two spaces can be homotopy equivalent without being homeomorphic (e.g., a solid disc and a point). Homotopy equivalence is a much coarser relation than homeomorphism.
+- **Assuming $\pi_1(X)$ is always abelian:** The fundamental group of a general space need not be abelian. For example, $\pi_1(S^1 \vee S^1)$ is the free group on two generators, which is non-abelian.
+- **Forgetting basepoint dependence:** For non-path-connected spaces, the fundamental group depends on the choice of basepoint, and different components may have different fundamental groups.
+
+## Applications
+
+- **Robotics and motion planning:** The fundamental group of a configuration space determines whether paths between configurations can be continuously deformed into each other.
+- **Data analysis (Topological Data Analysis):** Persistent homology detects topological features (connected components, loops, voids) in high-dimensional data sets.
+- **Physics:** Homotopy groups classify topological defects in condensed matter (e.g., vortices in superfluids, dislocations in crystals).
+- **Knot theory:** The fundamental group of the knot complement is a powerful knot invariant used to distinguish different knots.
+

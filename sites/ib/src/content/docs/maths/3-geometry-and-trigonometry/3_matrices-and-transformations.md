@@ -1045,6 +1045,8 @@ $\lambda_2^k \to 0$ and the system converges to the eigenvector for $\lambda_1 =
 
 </details>
 
+:::
+
 :::danger Common Pitfalls
 
 - **Confusing matrix multiplication order:** Matrix multiplication is NOT commutative: AB is

@@ -427,7 +427,10 @@ Overall: $\mathrm{PbBr}_2 \to \mathrm{Pb} + \mathrm{Br}_2$ (1 mark).
 
 $$n(\mathrm{Br}_2) = \frac◆LB◆1800◆RB◆◆LB◆2 \times 96500◆RB◆ = 9.33 \times 10^{-3}\,\mathrm{mol}$$
 
-$$V(\mathrm{Br}_2) = 9.33 \times 10^{-3} \times 22.4 = 0.209\,\mathrm{dm}^3$$ (1 mark).
+$$
+V(\mathrm{Br}_2) = 9.33 \times 10^{-3} \times 22.4 = 0.209\,\mathrm{dm}^3
+$$
+(1 mark).
 
 (c) Current efficiency
 $= \frac◆LB◆\text{actual volume}◆RB◆◆LB◆\text{theoretical volume}◆RB◆ \times 100 = \frac{0.85}{0.209} \times 100 = 407\%$
