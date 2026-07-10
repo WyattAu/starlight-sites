@@ -583,26 +583,35 @@
   border-color: var(--sl-color-accent);
 }
 
-/* Code blocks - all 10 themes */
-[data-theme="dark"] .expressive-code,
-[data-theme="nord"] .expressive-code,
-[data-theme="dracula"] .expressive-code,
-[data-theme="monokai"] .expressive-code,
-[data-theme="ayu-mirage"] .expressive-code,
-[data-theme="contrast"] .expressive-code {
-  --ec-bg: var(--wn-bg-elevated);
-  --ec-border: var(--wn-border);
-  --ec-text: var(--wn-text);
-}
-[data-theme="light"] .expressive-code,
-[data-theme="sepia"] .expressive-code,
-[data-theme="solarized"] .expressive-code,
-[data-theme="papercolor"] .expressive-code {
-  --ec-bg: var(--wn-bg-elevated);
-  --ec-border: var(--wn-border);
-  --ec-text: var(--wn-text);
-}
+/* Code blocks - per-theme backgrounds for proper contrast */
+[data-theme="dark"] .expressive-code { --ec-bg: #1a1a24; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="nord"] .expressive-code { --ec-bg: #3b4252; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="dracula"] .expressive-code { --ec-bg: #44475a; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="monokai"] .expressive-code { --ec-bg: #383830; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="ayu-mirage"] .expressive-code { --ec-bg: #2a3040; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="contrast"] .expressive-code { --ec-bg: #111111; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="light"] .expressive-code { --ec-bg: #ece7e0; --ec-border: var(--wn-border); --ec-fg: var(--wn-text); }
+[data-theme="sepia"] .expressive-code { --ec-bg: #f3ead0; --ec-border: #d8ccb8; --ec-fg: #5b4636; }
+[data-theme="solarized"] .expressive-code { --ec-bg: #f5efd5; --ec-border: #d3cbb8; --ec-fg: #657b83; }
+[data-theme="papercolor"] .expressive-code { --ec-bg: #e0e0e0; --ec-border: #c0c0c0; --ec-fg: #444444; }
 
+/* Inline code — distinct bg per theme so it's visibly different from page bg */
+[data-theme="sepia"] .sl-markdown-content code:not(pre code) {
+  background: #f3ead0;
+  border-color: #d8ccb8;
+}
+[data-theme="solarized"] .sl-markdown-content code:not(pre code) {
+  background: #f5efd5;
+  border-color: #d3cbb8;
+}
+[data-theme="papercolor"] .sl-markdown-content code:not(pre code) {
+  background: #e0e0e0;
+  border-color: #c0c0c0;
+}
+[data-theme="light"] .sl-markdown-content code:not(pre code) {
+  background: #ece7e0;
+  border-color: #d8d4cc;
+}
 /* Inline code in all themes */
 .sl-markdown-content code:not(pre code) {
   background: var(--sl-color-bg-inline-code);

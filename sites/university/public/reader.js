@@ -388,16 +388,15 @@
   // Line Height
   var lhGroup = el('div', { class: 'wn-setting' })
   lhGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Line Height')))
-  var lhRow = el('div', { class: 'wn-setting-row' })
-  LINE_HEIGHTS.forEach(function (v) {
-    var btn = el('button', {
-      class: 'wn-chip',
-      dataset: { value: String(v) },
-      onclick: function () { setLineHeight(String(v)) }
-    })
-    btn.appendChild(text(String(v)))
-    lhRow.appendChild(btn)
+  var lhRow = el('div', { class: 'wn-slider-row' })
+  var lhInput = el('input', {
+    type: 'range', class: 'wn-slider', min: '1.0', max: '2.5', step: '0.1',
+    'aria-label': 'Line height',
+    oninput: function () { setLineHeight(this.value) }
   })
+  var lhVal = el('span', { class: 'wn-slider-value' })
+  lhRow.appendChild(lhInput)
+  lhRow.appendChild(lhVal)
   lhGroup.appendChild(lhRow)
   body.appendChild(lhGroup)
 
@@ -489,16 +488,15 @@
   // Paragraph Gap
   var pgGroup = el('div', { class: 'wn-setting' })
   pgGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Paragraph Gap')))
-  var pgRow = el('div', { class: 'wn-setting-row' })
-  PARA_GAPS.forEach(function (v) {
-    var btn = el('button', {
-      class: 'wn-chip',
-      dataset: { value: v },
-      onclick: function () { setParaGap(v) }
-    })
-    btn.appendChild(text(v + 'x'))
-    pgRow.appendChild(btn)
+  var pgRow = el('div', { class: 'wn-slider-row' })
+  var pgInput = el('input', {
+    type: 'range', class: 'wn-slider', min: '0.5', max: '3.0', step: '0.25',
+    'aria-label': 'Paragraph gap',
+    oninput: function () { setParaGap(this.value) }
   })
+  var pgVal = el('span', { class: 'wn-slider-value' })
+  pgRow.appendChild(pgInput)
+  pgRow.appendChild(pgVal)
   pgGroup.appendChild(pgRow)
   body.appendChild(pgGroup)
 
@@ -725,11 +723,8 @@
     fsInput.value = fontSize
     fsVal.textContent = Math.round(parseFloat(fontSize) * 100) + '%'
 
-    // Line height chips
-    var lhChips = lhRow.querySelectorAll('.wn-chip')
-    lhChips.forEach(function (c) {
-      c.classList.toggle('active', c.dataset.value === lineHeight)
-    })
+    // Line height slider
+    if (lhInput) { lhInput.value = lineHeight; lhVal.textContent = lineHeight }
 
     // Content width chips
     var cwChips = cwRow.querySelectorAll('.wn-chip')
@@ -763,11 +758,8 @@
     lsInput.value = letterSpacing
     lsVal.textContent = parseFloat(letterSpacing) + 'px'
 
-    // Para gap chips
-    var pgChips = pgRow.querySelectorAll('.wn-chip')
-    pgChips.forEach(function (c) {
-      c.classList.toggle('active', c.dataset.value === paraGap)
-    })
+    // Paragraph gap slider
+    if (pgInput) { pgInput.value = paraGap; pgVal.textContent = paraGap + 'x' }
 
     // Extra toggles
     dimBtn.classList.toggle('active', dimImages === 'true')

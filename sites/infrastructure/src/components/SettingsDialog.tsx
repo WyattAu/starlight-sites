@@ -24,7 +24,7 @@ const FONT_FAMILY_OPTIONS = [
   { value: 'mono', labelKey: 'settings.mono' },
 ] as const
 
-const LINE_HEIGHT_VALUES = ['1.5', '1.7', '1.9', '2.1'] as const
+
 
 const VALID_CONTENT_WIDTHS: readonly string[] = CONTENT_WIDTH_OPTIONS.map(o => o.value)
 
@@ -199,16 +199,25 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           </div>
 
           {/* Line Height */}
-          <fieldset class="space-y-2">
-            <legend class="font-medium text-sm">{t('settings.line_height')}</legend>
-            <RadioGroup.Root value={lineHeight()} onChange={setLineHeight} class="flex flex-wrap gap-2">
-              {LINE_HEIGHT_VALUES.map(v => (
-                <RadioGroup.Item value={v} class={RADIO_ITEM_CLASS}>
-                  <RadioGroup.ItemLabel>{v}</RadioGroup.ItemLabel>
-                </RadioGroup.Item>
-              ))}
-            </RadioGroup.Root>
-          </fieldset>
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="font-medium text-sm">{t('settings.line_height')}</label>
+              <span class="text-emphasis-500 text-sm">{lineHeight()}</span>
+            </div>
+            <Slider.Root
+              value={[parseFloat(lineHeight())]}
+              onChange={v => setLineHeight(String(v[0]!))}
+              minValue={1.0}
+              maxValue={2.5}
+              step={0.1}
+              aria-label={t('settings.line_height')}
+            >
+              <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
+                <Slider.Fill class="absolute h-full rounded-full bg-accent" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+              </Slider.Track>
+            </Slider.Root>
+          </div>
 
           {/* Content Width */}
           <fieldset class="space-y-2">
@@ -299,23 +308,25 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           </div>
 
           {/* Paragraph Gap */}
-          <fieldset class="space-y-2">
-            <legend class="font-medium text-sm">{t('settings.paragraph_gap')}</legend>
-            <RadioGroup.Root value={paraGap()} onChange={setParaGap} class="flex flex-wrap gap-2">
-              <RadioGroup.Item value="0.5" class={RADIO_ITEM_CLASS}>
-                <RadioGroup.ItemLabel>0.5x</RadioGroup.ItemLabel>
-              </RadioGroup.Item>
-              <RadioGroup.Item value="1" class={RADIO_ITEM_CLASS}>
-                <RadioGroup.ItemLabel>1x</RadioGroup.ItemLabel>
-              </RadioGroup.Item>
-              <RadioGroup.Item value="1.5" class={RADIO_ITEM_CLASS}>
-                <RadioGroup.ItemLabel>1.5x</RadioGroup.ItemLabel>
-              </RadioGroup.Item>
-              <RadioGroup.Item value="2" class={RADIO_ITEM_CLASS}>
-                <RadioGroup.ItemLabel>2x</RadioGroup.ItemLabel>
-              </RadioGroup.Item>
-            </RadioGroup.Root>
-          </fieldset>
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="font-medium text-sm">{t('settings.paragraph_gap')}</label>
+              <span class="text-emphasis-500 text-sm">{paraGap()}x</span>
+            </div>
+            <Slider.Root
+              value={[parseFloat(paraGap())]}
+              onChange={v => setParaGap(String(v[0]!))}
+              minValue={0.5}
+              maxValue={3.0}
+              step={0.25}
+              aria-label={t('settings.paragraph_gap')}
+            >
+              <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
+                <Slider.Fill class="absolute h-full rounded-full bg-accent" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+              </Slider.Track>
+            </Slider.Root>
+          </div>
 
           {/* Dim Images */}
           <div class="flex items-center justify-between">
