@@ -298,7 +298,7 @@ growth and resource scarcity in Country C? [6 marks]
 
 (a) The population of Country C is growing at 2.5% per year, meaning the total population is
 increasing significantly over time. However, the total area of arable land is essentially fixed (it
-can decrease due to urbanisation, soil degradation, and desertification but cannot easily increase).
+can decrease due to urbanisation, soil degradation, and desertification but requires costly, slow land reclamation to increase).
 As the same amount of arable land must support a growing population, the **arable land per capita
 declines**. This is reflected in the decline from 0.3 to 0.15 hectares per person -- a halving in
 just 35 years.
