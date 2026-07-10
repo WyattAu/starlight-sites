@@ -1,36 +1,22 @@
 ---
 import ClientRouter from "astro/components/ClientRouter.astro"
-/**
- * Head override for Starlight that adds JSON-LD structured data.
- *
- * This component extends Starlight's default Head to inject schema.org
- * structured data for better SEO and search engine visibility.
- *
- * Usage: Add to Starlight components config:
- *   components: {
- *     Head: './src/components/starlight/Head.astro',
- *   }
- */
 
-interface Props {
-  title?: string
-  description?: string
-  site?: string
-  pageUrl?: string
-}
+const { starlightRoute } = Astro.locals;
+const { entry } = starlightRoute;
 
-const {
-  title = "Wyatt's Notes",
-  description = 'Free, rigorous study notes',
-  site = 'https://wyattsnotes.wyattau.com',
-  pageUrl = Astro.url.href,
-} = Astro.props
+const pageTitle = entry?.data?.title || "Untitled";
+const siteTitle = starlightRoute?.siteTitle || "Wyatt's Notes";
+const fullTitle = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle;
+
+const description = entry?.data?.description || 'Free, rigorous study notes';
+const site = 'https://wyattsnotes.wyattau.com';
+const pageUrl = Astro.url.href;
 
 // Generate WebSite schema
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: "Wyatt's Notes",
+  name: siteTitle,
   description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
   url: site,
   potentialAction: {
@@ -44,7 +30,7 @@ const websiteSchema = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: title,
+  headline: pageTitle,
   description: description,
   author: {
     '@type': 'Person',
@@ -52,7 +38,7 @@ const articleSchema = {
   },
   publisher: {
     '@type': 'Organization',
-    name: "Wyatt's Notes",
+    name: siteTitle,
     url: site,
   },
   url: pageUrl,
@@ -64,6 +50,31 @@ const articleSchema = {
   },
 }
 ---
+
+<script>
+  (function() {
+    try {
+      const saved = localStorage.getItem('wn-theme');
+      if (saved && ['dark','light','sepia','contrast'].includes(saved)) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+      const fs = localStorage.getItem('wn-font-size');
+      if (fs) document.documentElement.style.setProperty('--wn-font-size-scale', fs);
+      const lh = localStorage.getItem('wn-line-height');
+      if (lh) document.documentElement.style.setProperty('--wn-line-height', lh);
+      const cw = localStorage.getItem('wn-content-width');
+      if (cw) document.documentElement.style.setProperty('--wn-content-width', cw);
+      const ff = localStorage.getItem('wn-font-family');
+      if (ff === 'serif') document.documentElement.style.setProperty('--wn-font-body', '"Merriweather", Georgia, serif');
+      else if (ff === 'mono') document.documentElement.style.setProperty('--wn-font-body', '"JetBrains Mono", "Fira Code", monospace');
+      const j = localStorage.getItem('wn-justify');
+      if (j) document.documentElement.setAttribute('data-justify', j);
+      const rm = localStorage.getItem('wn-reduce-motion');
+      if (rm) document.documentElement.setAttribute('data-reduce-motion', rm);
+    } catch(e) {}
+  })();
+</script>
+<title>{fullTitle}</title>
 
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />

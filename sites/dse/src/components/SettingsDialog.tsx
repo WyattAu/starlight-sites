@@ -1,13 +1,198 @@
-import type { JSX } from 'solid-js'
+import { createEffect, createSignal } from 'solid-js'
+import * as RadioGroup from '@kobalte/core/radio-group'
+import * as Slider from '@kobalte/core/slider'
+import * as Switch from '@kobalte/core/switch'
 import BaseDialog from './BaseDialog'
+import { t } from '../i18n/config'
 
-interface SettingsDialogProps {
+const CONTENT_WIDTH_OPTIONS = [
+  { value: '36rem', labelKey: 'settings.narrow' },
+  { value: '48rem', labelKey: 'settings.standard' },
+  { value: '56rem', labelKey: 'settings.wide' },
+  { value: '100%', labelKey: 'settings.full' },
+] as const
+
+const FONT_FAMILY_MAP: Record<string, string> = {
+  sans: '"Inter", system-ui, -apple-system, sans-serif',
+  serif: '"Merriweather", Georgia, serif',
+  mono: '"JetBrains Mono", "Fira Code", monospace',
+}
+
+const FONT_FAMILY_OPTIONS = [
+  { value: 'sans', labelKey: 'settings.sans' },
+  { value: 'serif', labelKey: 'settings.serif' },
+  { value: 'mono', labelKey: 'settings.mono' },
+] as const
+
+const LINE_HEIGHT_VALUES = ['1.5', '1.7', '1.9', '2.1'] as const
+
+const VALID_CONTENT_WIDTHS: readonly string[] = CONTENT_WIDTH_OPTIONS.map(o => o.value)
+
+const RADIO_ITEM_CLASS =
+  'cursor-pointer rounded-lg border px-3 py-1.5 text-sm transition-colors ' +
+  'data-[checked]:border-accent data-[checked]:bg-accent/10 data-[checked]:text-accent ' +
+  'data-[unchecked]:border-emphasis-300 data-[unchecked]:hover:bg-emphasis-100'
+
+function initContentWidth(): string {
+  const stored = localStorage.getItem('wn-content-width')
+  return stored && VALID_CONTENT_WIDTHS.indexOf(stored) >= 0 ? stored : '48rem'
+}
+
+function initFontFamily(): string {
+  const stored = localStorage.getItem('wn-font-family')
+  return stored && stored in FONT_FAMILY_MAP ? stored : 'sans'
+}
+
+export interface SettingsDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
-  title: string
-  children: JSX.Element
 }
 
 export default function SettingsDialog(props: SettingsDialogProps) {
-  return <BaseDialog {...props} size="md" />
+  const [theme, setTheme] = createSignal(localStorage.getItem('wn-theme') ?? 'dark')
+  const [fontSize, setFontSize] = createSignal(parseFloat(localStorage.getItem('wn-font-size') ?? '1'))
+  const [lineHeight, setLineHeight] = createSignal(localStorage.getItem('wn-line-height') ?? '1.7')
+  const [contentWidth, setContentWidth] = createSignal(initContentWidth())
+  const [fontFamily, setFontFamily] = createSignal(initFontFamily())
+  const [justify, setJustify] = createSignal(localStorage.getItem('wn-justify') === 'true')
+  const [reduceMotion, setReduceMotion] = createSignal(localStorage.getItem('wn-reduce-motion') === 'true')
+
+  createEffect(() => {
+    const html = document.documentElement
+    const tVal = theme()
+    const fs = fontSize()
+    const lh = lineHeight()
+    const cw = contentWidth()
+    const ff = fontFamily()
+    const j = justify()
+    const rm = reduceMotion()
+
+    html.setAttribute('data-theme', tVal)
+    html.style.setProperty('--wn-font-size-scale', String(fs))
+    html.style.setProperty('--wn-line-height', lh)
+    html.style.setProperty('--wn-content-width', cw)
+    html.style.setProperty('--wn-font-body', FONT_FAMILY_MAP[ff] ?? FONT_FAMILY_MAP.sans)
+    html.setAttribute('data-justify', String(j))
+    html.setAttribute('data-reduce-motion', String(rm))
+
+    localStorage.setItem('wn-theme', tVal)
+    localStorage.setItem('wn-font-size', String(fs))
+    localStorage.setItem('wn-line-height', lh)
+    localStorage.setItem('wn-content-width', cw)
+    localStorage.setItem('wn-font-family', ff)
+    localStorage.setItem('wn-justify', String(j))
+    localStorage.setItem('wn-reduce-motion', String(rm))
+  })
+
+  return (
+    <BaseDialog
+      open={props.open}
+      onOpenChange={props.onOpenChange}
+      title={t('settings.title')}
+      size="md"
+      children={(
+        <div class="space-y-6">
+          {/* Theme */}
+          <fieldset class="space-y-2">
+            <legend class="font-medium text-sm">{t('settings.theme')}</legend>
+            <RadioGroup.Root value={theme()} onChange={setTheme} class="flex flex-wrap gap-2">
+              <RadioGroup.Item value="dark" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>{t('settings.dark')}</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="light" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>{t('settings.light')}</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="sepia" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>{t('settings.sepia')}</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+              <RadioGroup.Item value="contrast" class={RADIO_ITEM_CLASS}>
+                <RadioGroup.ItemLabel>{t('settings.high_contrast')}</RadioGroup.ItemLabel>
+              </RadioGroup.Item>
+            </RadioGroup.Root>
+          </fieldset>
+
+          {/* Font Size */}
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="font-medium text-sm" for="font-size-slider">
+                {t('settings.font_size')}
+              </label>
+              <span class="text-emphasis-500 text-sm">{Math.round(fontSize() * 100)}%</span>
+            </div>
+            <Slider.Root
+              value={[fontSize()]}
+              onChange={v => setFontSize(v[0]!)}
+              minValue={0.8}
+              maxValue={1.5}
+              step={0.05}
+              aria-label={t('settings.font_size')}
+            >
+              <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
+                <Slider.Fill class="absolute h-full rounded-full bg-accent" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+              </Slider.Track>
+            </Slider.Root>
+          </div>
+
+          {/* Line Height */}
+          <fieldset class="space-y-2">
+            <legend class="font-medium text-sm">{t('settings.line_height')}</legend>
+            <RadioGroup.Root value={lineHeight()} onChange={setLineHeight} class="flex flex-wrap gap-2">
+              {LINE_HEIGHT_VALUES.map(v => (
+                <RadioGroup.Item value={v} class={RADIO_ITEM_CLASS}>
+                  <RadioGroup.ItemLabel>{v}</RadioGroup.ItemLabel>
+                </RadioGroup.Item>
+              ))}
+            </RadioGroup.Root>
+          </fieldset>
+
+          {/* Content Width */}
+          <fieldset class="space-y-2">
+            <legend class="font-medium text-sm">{t('settings.content_width')}</legend>
+            <RadioGroup.Root value={contentWidth()} onChange={setContentWidth} class="flex flex-wrap gap-2">
+              {CONTENT_WIDTH_OPTIONS.map(opt => (
+                <RadioGroup.Item value={opt.value} class={RADIO_ITEM_CLASS}>
+                  <RadioGroup.ItemLabel>{t(opt.labelKey)}</RadioGroup.ItemLabel>
+                </RadioGroup.Item>
+              ))}
+            </RadioGroup.Root>
+          </fieldset>
+
+          {/* Font Family */}
+          <fieldset class="space-y-2">
+            <legend class="font-medium text-sm">{t('settings.font_family')}</legend>
+            <RadioGroup.Root value={fontFamily()} onChange={setFontFamily} class="flex flex-wrap gap-2">
+              {FONT_FAMILY_OPTIONS.map(opt => (
+                <RadioGroup.Item value={opt.value} class={RADIO_ITEM_CLASS}>
+                  <RadioGroup.ItemLabel>{t(opt.labelKey)}</RadioGroup.ItemLabel>
+                </RadioGroup.Item>
+              ))}
+            </RadioGroup.Root>
+          </fieldset>
+
+          {/* Justify */}
+          <div class="flex items-center justify-between">
+            <Switch.Root checked={justify()} onChange={setJustify} class="flex w-full items-center justify-between">
+              <Switch.Label class="font-medium text-sm">{t('settings.justify')}</Switch.Label>
+              <Switch.Input />
+              <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
+                <Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-sm transition-transform data-[checked]:translate-x-4" />
+              </Switch.Control>
+            </Switch.Root>
+          </div>
+
+          {/* Reduce Motion */}
+          <div class="flex items-center justify-between">
+            <Switch.Root checked={reduceMotion()} onChange={setReduceMotion} class="flex w-full items-center justify-between">
+              <Switch.Label class="font-medium text-sm">{t('settings.reduce_motion')}</Switch.Label>
+              <Switch.Input />
+              <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
+                <Switch.Thumb class="h-5 w-5 rounded-full bg-white shadow-sm transition-transform data-[checked]:translate-x-4" />
+              </Switch.Control>
+            </Switch.Root>
+          </div>
+        </div>
+      )}
+    />
+  )
 }

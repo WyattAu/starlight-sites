@@ -51,6 +51,29 @@ const articleSchema = {
 }
 ---
 
+<script>
+  (function() {
+    try {
+      const saved = localStorage.getItem('wn-theme');
+      if (saved && ['dark','light','sepia','contrast'].includes(saved)) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+      const fs = localStorage.getItem('wn-font-size');
+      if (fs) document.documentElement.style.setProperty('--wn-font-size-scale', fs);
+      const lh = localStorage.getItem('wn-line-height');
+      if (lh) document.documentElement.style.setProperty('--wn-line-height', lh);
+      const cw = localStorage.getItem('wn-content-width');
+      if (cw) document.documentElement.style.setProperty('--wn-content-width', cw);
+      const ff = localStorage.getItem('wn-font-family');
+      if (ff === 'serif') document.documentElement.style.setProperty('--wn-font-body', '"Merriweather", Georgia, serif');
+      else if (ff === 'mono') document.documentElement.style.setProperty('--wn-font-body', '"JetBrains Mono", "Fira Code", monospace');
+      const j = localStorage.getItem('wn-justify');
+      if (j) document.documentElement.setAttribute('data-justify', j);
+      const rm = localStorage.getItem('wn-reduce-motion');
+      if (rm) document.documentElement.setAttribute('data-reduce-motion', rm);
+    } catch(e) {}
+  })();
+</script>
 <title>{fullTitle}</title>
 
 <!-- JSON-LD Structured Data -->

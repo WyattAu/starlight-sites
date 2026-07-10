@@ -3,10 +3,10 @@ import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout 
-  title="Wyatt's Notes" 
+  title="Starlight Sites"
   description="Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming."
 >
-  <div class="hero">
+  <section class="hero">
     <div class="hero-badge">Free &amp; Open Source</div>
     <h1>Rigorous Study Notes<br><span>Without the Paywall</span></h1>
     <p>Free, comprehensive notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming. Written with undergraduate precision, designed for serious students.</p>
@@ -26,7 +26,7 @@ import Layout from '../layouts/Layout.astro'
         </svg>
       </a>
     </div>
-  </div>
+  </section>
 
   <div class="stats">
     <div class="stat">
@@ -56,7 +56,7 @@ import Layout from '../layouts/Layout.astro'
       </div>
       <h2>Exam Board Notes</h2>
     </div>
-    <div class="site-grid">
+    <div class="site-grid" data-cols="3">
       <a href="https://dse.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>DSE</h3>
@@ -114,7 +114,7 @@ import Layout from '../layouts/Layout.astro'
         </div>
       </a>
 
-      <a href="https://qualifications.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
+      <a href="https://qualifications.wyattau.com/" class="site-card" data-span="3" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Qualifications</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -145,7 +145,7 @@ import Layout from '../layouts/Layout.astro'
       </div>
       <h2>University &amp; Programming</h2>
     </div>
-    <div class="site-grid">
+    <div class="site-grid" data-cols="2">
       <a href="https://university.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>University</h3>
@@ -194,8 +194,8 @@ import Layout from '../layouts/Layout.astro'
       </div>
       <h2>Reference &amp; Tools</h2>
     </div>
-    <div class="site-grid">
-      <a href="https://infrastructure.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
+    <div class="site-grid" data-cols="3">
+      <a href="https://infrastructure.wyattau.com/" class="site-card" data-span="2" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Infrastructure</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -233,7 +233,7 @@ import Layout from '../layouts/Layout.astro'
         </div>
       </a>
 
-      <a href="https://tools.wyattau.com/" class="site-card" target="_blank" rel="noopener noreferrer">
+      <a href="https://tools.wyattau.com/" class="site-card" data-span="3" target="_blank" rel="noopener noreferrer">
         <div class="site-card-header">
           <h3>Tools</h3>
           <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -263,19 +263,19 @@ import Layout from '../layouts/Layout.astro'
       <h2>Why These Notes?</h2>
     </div>
     <div class="feature-grid">
-      <div class="feature-card">
+      <div class="feature-card" data-accent="success">
         <h3>Rigorous &amp; Complete</h3>
         <p>Every definition is precise, every theorem is proved, every formula derived from first principles. No hand-waving, no shortcuts.</p>
       </div>
-      <div class="feature-card">
+      <div class="feature-card" data-accent="accent">
         <h3>Free &amp; Open Source</h3>
         <p>AGPLv3 licensed. No fees, no ads, no tracking. Source code available on GitHub for contributions and corrections.</p>
       </div>
-      <div class="feature-card">
+      <div class="feature-card" data-accent="info">
         <h3>Syllabus-Aligned</h3>
         <p>Written to official exam specifications. Derivations included. No filler content that won't appear in exams.</p>
       </div>
-      <div class="feature-card">
+      <div class="feature-card" data-accent="warning">
         <h3>Cross-Referenced</h3>
         <p>Concepts linked across subjects and levels. Search across all sites from any page using Cmd+K.</p>
       </div>

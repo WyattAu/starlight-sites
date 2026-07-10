@@ -10,7 +10,7 @@ const { title, description } = Astro.props
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,22 +29,44 @@ const { title, description } = Astro.props
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: "Wyatt's Notes",
-    description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
+    name: 'Starlight Sites',
+    description: 'Educational resource hub for IB, A-Level, GCSE, AP, DSE, university STEM, and programming study notes.',
     url: 'https://wyattsnotes.wyattau.com',
     publisher: {
       '@type': 'Organization',
-      name: "Wyatt's Notes",
-      url: 'https://wyattsnotes.wyattau.com',
+      name: 'Wyatt Au',
+      url: 'https://wyattau.com',
     },
   })} />
+  <script is:inline>
+    (function() {
+      var saved = localStorage.getItem('wn-theme');
+      var theme = saved || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+      var fs = localStorage.getItem('wn-font-size');
+      if (fs) document.documentElement.style.setProperty('--wn-font-size-scale', fs);
+      var lh = localStorage.getItem('wn-line-height');
+      if (lh) document.documentElement.style.setProperty('--wn-line-height', lh);
+      var cw = localStorage.getItem('wn-content-width');
+      if (cw) document.documentElement.style.setProperty('--wn-content-width', cw);
+      var ff = localStorage.getItem('wn-font-family');
+      if (ff === 'serif') document.documentElement.style.setProperty('--wn-font-body', '"Merriweather", Georgia, serif');
+      else if (ff === 'mono') document.documentElement.style.setProperty('--wn-font-body', '"JetBrains Mono", "Fira Code", monospace');
+      var j = localStorage.getItem('wn-justify');
+      if (j) document.documentElement.setAttribute('data-justify', j);
+      var rm = localStorage.getItem('wn-reduce-motion');
+      if (rm) document.documentElement.setAttribute('data-reduce-motion', rm);
+    })();
+  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <nav aria-label="Primary navigation">
     <div class="nav-inner">
-      <a href="/" class="nav-brand">Wyatt's Notes</a>
+      <a href="/" class="nav-brand" aria-label="Home">
+        <span class="nav-logo">WN</span>
+      </a>
       <ul class="nav-links">
         <li><a href="https://dse.wyattau.com/" target="_blank" rel="noopener noreferrer">DSE</a></li>
         <li><a href="https://ib.wyattau.com/" target="_blank" rel="noopener noreferrer">IB</a></li>
@@ -82,7 +104,7 @@ const { title, description } = Astro.props
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js').catch(() => {})
+      navigator.serviceWorker.register('/sw.js').catch(function() {})
     }
   </script>
 </body>
