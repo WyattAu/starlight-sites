@@ -11,7 +11,6 @@ import Icons from 'unplugin-icons/vite'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
-import zhTranslations from './src/i18n/zh.json'
 
 export default defineConfig({
   site: 'https://alevel.wyattau.com',
@@ -33,10 +32,7 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
         zh: { label: '简体中文', lang: 'zh' },
-      },
-      translations: {
-        zh: zhTranslations,
-      },
+      }
       sidebar: [
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
         { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },

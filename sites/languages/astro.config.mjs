@@ -12,7 +12,6 @@ import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
-import zhTranslations from './src/i18n/zh.json'
 
 export default defineConfig({
   site: 'https://languages.wyattau.com',
@@ -36,10 +35,7 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
         zh: { label: '简体中文', lang: 'zh' },
-      },
-      translations: {
-        zh: zhTranslations,
-      },
+      }
       sidebar: [
         { label: 'Dart', items: [{ autogenerate: { directory: 'dart' } }] },
         { label: 'Elixir', items: [{ autogenerate: { directory: 'elixir' } }] },
