@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'TypeScript',
       pagefind: false,
-      expressiveCode: { themes: ["ayu-mirage", "github-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'TypeScript programming language notes.',
 
       components: {

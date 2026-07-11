@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Swift',
       pagefind: false,
-      expressiveCode: { themes: ["nord", "github-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'Swift programming language notes.',
 
       components: {

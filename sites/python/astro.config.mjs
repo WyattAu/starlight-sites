@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Python',
       pagefind: false,
-      expressiveCode: { themes: ["monokai", "github-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'Python programming language notes.',
 
       components: {

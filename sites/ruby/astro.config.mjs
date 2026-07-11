@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Ruby',
       pagefind: false,
-      expressiveCode: { themes: ["monokai", "github-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'Ruby programming language notes.',
 
       components: {

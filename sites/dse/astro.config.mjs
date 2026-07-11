@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'DSE',
       pagefind: false,
-      expressiveCode: { themes: ["everforest-dark", "everforest-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description:
         'Hong Kong DSE revision notes with worked examples and practice problems for Mathematics, Physics, Chemistry, Biology, and ICT.',
 

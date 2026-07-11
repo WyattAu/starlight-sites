@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Infrastructure',
       pagefind: false,
-      expressiveCode: { themes: ["everforest-dark", "everforest-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description:
         'Server administration, databases, networking, security, and system tuning reference materials.',
 

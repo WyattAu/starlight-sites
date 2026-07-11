@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Haskell',
       pagefind: false,
-      expressiveCode: { themes: ["ayu-mirage", "github-light"] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'Haskell programming language notes.',
 
       components: {
