@@ -137,10 +137,11 @@ function initCrossSiteSearch() {
       @media (max-width: 640px) {
         #cross-site-search .search-results {
           width: calc(100vw - 2rem);
-          right: -1rem;
+          right: 0;
+          left: auto;
         }
         #cross-site-search input:focus {
-          width: 250px;
+          width: 180px;
         }
       }
     </style>

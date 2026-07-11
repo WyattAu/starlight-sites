@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import Icons from 'unplugin-icons/vite'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
+import zhTranslations from './src/i18n/zh.json'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 
@@ -26,10 +27,15 @@ export default defineConfig({
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+        Search: './src/components/starlight/Search.astro',
       },
       defaultLocale: 'en',
       locales: {
         root: { label: 'English', lang: 'en' },
+        zh: { label: '简体中文', lang: 'zh' },
+      },
+      translations: {
+        zh: zhTranslations,
       },
       sidebar: [
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },

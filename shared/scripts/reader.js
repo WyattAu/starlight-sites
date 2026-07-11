@@ -31,7 +31,13 @@
     PARA_GAP: 'wn-para-gap',
     DIM_IMAGES: 'wn-dim-images',
     AUTO_HIDE: 'wn-auto-hide',
+    LOCALE: 'wn-locale',
   }
+
+  const LOCALES = [
+    { value: 'en', label: 'English', nativeLabel: 'English' },
+    { value: 'zh', label: '简体中文', nativeLabel: '中文' },
+  ]
 
   const THEMES = [
     { value: 'dark', label: 'Dark', icon: '#moon' },
@@ -63,6 +69,11 @@
 
   const PARA_GAPS = ['0.5', '1', '1.5', '2']
 
+  var PAGE_LOCALE = (function () {
+    var p = window.location.pathname
+    return p.startsWith('/zh/') || p === '/zh' ? 'zh' : 'en'
+  })()
+
   const STORAGE_DEFAULTS = {
     [LS_KEYS.THEME]: 'dark',
     [LS_KEYS.FONT_SIZE]: '1',
@@ -77,6 +88,7 @@
     [LS_KEYS.PARA_GAP]: '1',
     [LS_KEYS.DIM_IMAGES]: 'true',
     [LS_KEYS.AUTO_HIDE]: 'false',
+    [LS_KEYS.LOCALE]: PAGE_LOCALE,
   }
 
   // ─── Helpers ──────────────────────────────────────────────────────────────
@@ -265,7 +277,7 @@
     '#wn-overlay.open { opacity: 1; visibility: visible; }',
 
     /* Panel */
-    '#wn-panel { position: fixed; bottom: 0; left: 0; right: 0; max-height: 80vh; background: var(--wn-bg-elevated, #12121a); border-top: 1px solid var(--wn-border, #2a2a3a); border-radius: 18px 18px 0 0; padding: 0; transform: translateY(100%); transition: transform 0.35s cubic-bezier(0.22,1,0.36,1); overflow-y: auto; z-index: 99999; box-shadow: 0 -8px 32px rgba(0,0,0,0.3); }',
+    '#wn-panel { position: fixed; bottom: 0; left: 0; right: 0; max-height: 80vh; background: var(--wn-bg-elevated, #12121a); border-top: 1px solid var(--wn-border, #2a2a3a); border-radius: 18px 18px 0 0; padding: 0; transform: translateY(100%); transition: transform 0.35s cubic-bezier(0.22,1,0.36,1); overflow-y: auto; -webkit-overflow-scrolling: touch; z-index: 99999; box-shadow: 0 -8px 32px rgba(0,0,0,0.3); }',
     '#wn-panel.open { transform: translateY(0); }',
     '[data-reduce-motion="true"] #wn-panel { transition: none; }',
     '@media (min-width: 640px) { #wn-panel { left: auto; right: 24px; bottom: 80px; width: 380px; max-height: 70vh; border-radius: 18px; border: 1px solid var(--wn-border, #2a2a3a); transform: translateY(10px) scale(0.96); opacity: 0; } #wn-panel.open { transform: translateY(0) scale(1); opacity: 1; } }',
@@ -307,6 +319,7 @@
     /* Focus mode styles (applied to body) */
     'body.wn-focus-mode .sidebar-container, body.wn-focus-mode .right-sidebar-container, body.wn-focus-mode .top-nav, body.wn-focus-mode .nav-inner, body.wn-focus-mode nav:not(#wn-reader *) { display: none !important; }',
     'body.wn-focus-mode .main-frame { padding-left: 0 !important; }',
+    'body.wn-focus-mode .main-pane { width: 100% !important; max-width: 100% !important; }',
     'body.wn-focus-mode .sl-container { max-width: 100% !important; }',
 
     /* Reading progress */
@@ -353,6 +366,22 @@
 
   // Body
   var body = el('div', { id: 'wn-panel-body' })
+
+  // Locale switcher
+  var localeGroup = el('div', { class: 'wn-setting' })
+  localeGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Language')))
+  var localeRow = el('div', { class: 'wn-setting-row' })
+  LOCALES.forEach(function (l) {
+    var btn = el('button', {
+      class: 'wn-chip',
+      dataset: { value: l.value },
+      onclick: function () { setLocale(l.value) }
+    })
+    btn.appendChild(text(l.label))
+    localeRow.appendChild(btn)
+  })
+  localeGroup.appendChild(localeRow)
+  body.appendChild(localeGroup)
 
   // Theme
   var themeGroup = el('div', { class: 'wn-setting' })
@@ -696,6 +725,28 @@
     updateUI()
   }
 
+  function detectCurrentLocale() {
+    var path = window.location.pathname
+    if (path.startsWith('/zh/') || path === '/zh') return 'zh'
+    return 'en'
+  }
+
+  function setLocale(value) {
+    var current = detectCurrentLocale()
+    if (current === value) { updateUI(); return }
+    lsSet(LS_KEYS.LOCALE, value)
+    var path = window.location.pathname
+    var search = window.location.search
+    var hash = window.location.hash
+    var newPath
+    if (value === 'en') {
+      newPath = current === 'zh' ? path.replace(/^\/zh(?:\/|$)/, '/') || '/' : path
+    } else {
+      newPath = current === 'en' ? '/zh' + (path === '/' ? '' : path) : path
+    }
+    window.location.href = newPath + search + hash
+  }
+
   // ─── UI Sync ──────────────────────────────────────────────────────────────
 
   function updateUI() {
@@ -743,6 +794,13 @@
     justifyBtn.style.opacity = justify === 'true' ? '1' : '0.5'
     reduceBtn.classList.toggle('active', reduceMotion === 'true')
     reduceBtn.style.opacity = reduceMotion === 'true' ? '1' : '0.5'
+
+    // Locale chips
+    var locale = lsGet(LS_KEYS.LOCALE)
+    var localeChips = localeRow.querySelectorAll('.wn-chip')
+    localeChips.forEach(function (c) {
+      c.classList.toggle('active', c.dataset.value === locale)
+    })
 
     // Focus mode
     focusBtn.classList.toggle('active', focusMode === 'true')

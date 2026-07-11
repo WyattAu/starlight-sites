@@ -3,6 +3,7 @@
 // @ts-check
 
 import { DASHBOARD_HTML } from './dashboard.js'
+import STATIC_INDEX from './merged-index.js'
 
 // Structured logging for Cloudflare Workers. Output is JSON (one object per
 // line), which Cloudflare captures as structured logs in the dashboard.
@@ -246,7 +247,7 @@ async function handleSearch(request, url, env, corsHeaders) {
 
   // Check KV cache for hot queries
   const kvCacheKey = `search:${site || 'all'}:${abVariant}:${query.toLowerCase()}`
-  const cached = await env.SEARCH_KV.get(kvCacheKey, { type: 'json' })
+  const cached = await env.SEARCH_KV?.get(kvCacheKey, { type: 'json' })
   if (cached) {
     const response = new Response(JSON.stringify(cached), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -263,8 +264,8 @@ async function handleSearch(request, url, env, corsHeaders) {
     return response
   }
 
-  // Fetch merged index from KV
-  const index = await env.SEARCH_KV.get('merged-index', { type: 'json' })
+  // Fetch merged index from KV, fall back to static bundle
+  const index = (await env.SEARCH_KV?.get('merged-index', { type: 'json' })) || STATIC_INDEX
   if (!index) {
     return new Response(JSON.stringify({ error: 'Search index not available' }), {
       status: 503,
@@ -283,7 +284,7 @@ async function handleSearch(request, url, env, corsHeaders) {
   // and a curated common-query list (see generateSuggestions).
   let suggestions = []
   if (results.length === 0) {
-    const trending = (await env.SEARCH_KV.get('trending', { type: 'json' })) || []
+  const trending = (await env.SEARCH_KV?.get('trending', { type: 'json' })) || []
     suggestions = generateSuggestions(query, trending).slice(0, 5)
   }
 
@@ -321,7 +322,7 @@ async function handleSearch(request, url, env, corsHeaders) {
 
   // Cache hot queries in KV (top 1000)
   if (results.length > 0) {
-    await env.SEARCH_KV.put(kvCacheKey, JSON.stringify(response), { expirationTtl: 300 })
+    await env.SEARCH_KV?.put(kvCacheKey, JSON.stringify(response), { expirationTtl: 300 })
   }
 
   // Log search query for analytics
@@ -517,8 +518,8 @@ function handleSites(corsHeaders) {
 }
 
 async function handleHealth(env, corsHeaders) {
-  const metadata = await env.SEARCH_KV.get('metadata', { type: 'json' })
-  const metrics = await env.SEARCH_KV.get('search-metrics', { type: 'json' })
+  const metadata = await env.SEARCH_KV?.get('metadata', { type: 'json' })
+  const metrics = await env.SEARCH_KV?.get('search-metrics', { type: 'json' })
 
   // Compute search SLO metrics from stored data.
   const avgLatencyMs =
@@ -557,7 +558,7 @@ async function handleHealth(env, corsHeaders) {
 }
 
 async function handleTrending(env, corsHeaders) {
-  const trending = await env.SEARCH_KV.get('trending', { type: 'json' })
+  const trending = await env.SEARCH_KV?.get('trending', { type: 'json' })
 
   return new Response(JSON.stringify({ trending: trending || [] }), {
     headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -637,10 +638,10 @@ async function handleTrack(request, env, corsHeaders) {
 
     // Store tracking event
     const trackingKey = `track:${Date.now()}`
-    await env.SEARCH_KV.put(trackingKey, JSON.stringify(data), { expirationTtl: 86400 * 30 })
+    await env.SEARCH_KV?.put(trackingKey, JSON.stringify(data), { expirationTtl: 86400 * 30 })
 
     // Update analytics counters
-    const analytics = (await env.SEARCH_KV.get('analytics', { type: 'json' })) || {
+    const analytics = (await env.SEARCH_KV?.get('analytics', { type: 'json' })) || {
       totalSearches: 0,
       totalClicks: 0,
       uniqueQueries: {},
@@ -673,7 +674,7 @@ async function handleTrack(request, env, corsHeaders) {
       if (key < cutoff) delete analytics.dailyVolume[key]
     }
 
-    await env.SEARCH_KV.put('analytics', JSON.stringify(analytics), { expirationTtl: 86400 * 90 })
+    await env.SEARCH_KV?.put('analytics', JSON.stringify(analytics), { expirationTtl: 86400 * 90 })
 
     return new Response(JSON.stringify({ ok: true }), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
@@ -690,7 +691,7 @@ async function handleTrack(request, env, corsHeaders) {
 }
 
 async function handleAnalytics(env, corsHeaders) {
-  const analytics = (await env.SEARCH_KV.get('analytics', { type: 'json' })) || {
+  const analytics = (await env.SEARCH_KV?.get('analytics', { type: 'json' })) || {
     totalSearches: 0,
     totalClicks: 0,
     uniqueQueries: {},
@@ -721,7 +722,7 @@ async function handleAnalytics(env, corsHeaders) {
     .map(([site, count]) => ({ site, count }))
 
   // Search quality metrics (latency, zero-result rate)
-  const searchMetrics = (await env.SEARCH_KV.get('search-metrics', { type: 'json' })) || {
+  const searchMetrics = (await env.SEARCH_KV?.get('search-metrics', { type: 'json' })) || {
     totalSearches: 0,
     zeroResults: 0,
     zeroResultQueries: {},
@@ -771,12 +772,12 @@ async function handleABTest(env, corsHeaders) {
   const results = {}
 
   for (const variant of variants) {
-    const keys = await env.SEARCH_KV.list({ prefix: `ab:${variant}:` })
+    const keys = (await env.SEARCH_KV?.list({ prefix: `ab:${variant}:` })) || { keys: [] }
     let totalSearches = 0
     let totalClicks = 0
 
     for (const key of keys.keys) {
-      const data = await env.SEARCH_KV.get(key.name, { type: 'json' })
+      const data = await env.SEARCH_KV?.get(key.name, { type: 'json' })
       if (data) {
         totalSearches += data.searches || 0
         totalClicks += data.clicks || 0
@@ -827,6 +828,7 @@ async function handleDashboard(corsHeaders) {
 }
 
 async function logSearch(query, _resultCount, variant, env) {
+  if (!env.SEARCH_KV) return
   // Get current trending
   let trending = (await env.SEARCH_KV.get('trending', { type: 'json' })) || []
 
@@ -865,6 +867,7 @@ async function logSearch(query, _resultCount, variant, env) {
  * @param {object} env - worker env with SEARCH_KV
  */
 async function trackSearchMetrics(query, resultCount, latencyMs, env) {
+  if (!env.SEARCH_KV) return
   const metrics = (await env.SEARCH_KV.get('search-metrics', { type: 'json' })) || {
     totalSearches: 0,
     zeroResults: 0,

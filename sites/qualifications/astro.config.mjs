@@ -8,6 +8,7 @@ import compress from 'astro-compress'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
+import zhTranslations from './src/i18n/zh.json'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 
@@ -25,10 +26,15 @@ export default defineConfig({
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
+        Search: './src/components/starlight/Search.astro',
       },
       defaultLocale: 'en',
       locales: {
         root: { label: 'English', lang: 'en' },
+        zh: { label: '简体中文', lang: 'zh' },
+      },
+      translations: {
+        zh: zhTranslations,
       },
       sidebar: [
         { label: 'Ap', items: [{ autogenerate: { directory: 'ap' } }] },

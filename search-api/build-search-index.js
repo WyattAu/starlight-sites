@@ -155,6 +155,10 @@ async function buildIndex() {
   const outputPath = path.join(__dirname, 'merged-index.json')
   fs.writeFileSync(outputPath, JSON.stringify(index))
 
+  // Write ESM module for Worker static fallback
+  const jsPath = path.join(__dirname, 'merged-index.js')
+  fs.writeFileSync(jsPath, `export default ${JSON.stringify(index)}`)
+
   // Write metadata
   const metadataPath = path.join(__dirname, 'metadata.json')
   fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2))
