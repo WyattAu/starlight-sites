@@ -395,10 +395,10 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
             <ActionButton label={t('flashcard.export')} onClick={handleExport} />
             <ActionButton label={t('flashcard.import')} onClick={handleImport} />
             <ActionButton label={t('flashcard.reset')} onClick={handleReset} danger />
-          </section>
+          </div>
           <div class="mt-5">
             <ActionButton label={t('flashcard.close')} onClick={() => setView('deck')} />
-          </section>
+          </div>
         </SettingsDialog>
       )}
     </section>
