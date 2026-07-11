@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Programming',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["night-owl", "github-light"] },
       description:
         'Deep C++ systems programming notes covering ownership, RAII, templates, concurrency, and build systems.',
 

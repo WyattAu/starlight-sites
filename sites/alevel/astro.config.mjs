@@ -19,7 +19,7 @@ export default defineConfig({
     starlight({
       title: 'A-Level',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["everforest-dark", "everforest-light"] },
       description:
         'UK A-Level revision notes covering AQA, OCR, and Edexcel exam boards with detailed derivations and worked examples.',
 

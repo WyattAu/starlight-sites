@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Elixir',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["monokai", "github-light"] },
       description: 'Elixir programming language notes.',
 
       components: {

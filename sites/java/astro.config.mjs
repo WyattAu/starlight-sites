@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Java',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'Java programming language notes.',
 
       components: {

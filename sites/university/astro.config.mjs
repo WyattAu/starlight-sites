@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'University',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["everforest-dark", "everforest-light"] },
       description:
         'Rigorous, proof-based undergraduate STEM notes covering Linear Algebra, Calculus, Classical Mechanics, and Electromagnetism.',
 

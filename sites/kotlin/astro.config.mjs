@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Kotlin',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["dracula", "github-light"] },
       description: 'Kotlin programming language notes.',
 
       components: {

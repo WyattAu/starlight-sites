@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Dart',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["nord", "github-light"] },
       description: 'Dart programming language notes.',
 
       components: {

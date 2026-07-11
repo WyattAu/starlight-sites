@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Rust',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["night-owl", "github-light"] },
       description: 'Rust programming language notes.',
 
       components: {

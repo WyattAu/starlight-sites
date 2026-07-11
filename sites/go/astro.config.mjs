@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Go',
       pagefind: false,
-      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
+      expressiveCode: { themes: ["nord", "github-light"] },
       description: 'Go programming language notes.',
 
       components: {
