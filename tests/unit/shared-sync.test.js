@@ -156,14 +156,15 @@ describe('Dead-code absence', () => {
     )
   })
 
-  it('no site ships a stale public/sw.js (orphaned per-site service worker)', () => {
-    // sites/*/public/sw.js existed as a pre-sync remnant; no source code
-    // registers it (the only reference, in sites/main/src/index.html, was
-    // removed in the same change). Per-site copies must not return.
-    const sitesWithSw = EXPECTED_SITES.filter(site =>
-      fs.existsSync(path.join(ROOT, 'sites', site, 'public', 'sw.js')),
-    )
-    assert.deepStrictEqual(sitesWithSw, [], `sites with orphaned sw.js: ${sitesWithSw.join(', ')}`)
+  it('all sites have a canonical sw.js (service worker for PWA/offline)', () => {
+    // sw.js is now an intentional feature — registered in Head.astro
+    // for offline reading support. All sites must have it.
+    for (const site of EXPECTED_SITES) {
+      assert.ok(
+        fs.existsSync(path.join(ROOT, 'sites', site, 'public', 'sw.js')),
+        `sites/${site}/public/sw.js must exist`,
+      )
+    }
   })
 })
 
