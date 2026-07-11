@@ -31,7 +31,7 @@ export default defineConfig({
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
         Search: './src/components/starlight/Search.astro',
       },
-      defaultLocale: 'en',
+      defaultLocale: 'root',
       locales: {
         root: { label: 'English', lang: 'en' },
         zh: { label: '简体中文', lang: 'zh' },
