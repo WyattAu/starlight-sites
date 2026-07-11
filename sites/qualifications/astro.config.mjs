@@ -31,7 +31,7 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
         zh: { label: '简体中文', lang: 'zh' },
-      }
+      },
       sidebar: [
         { label: 'Ap', items: [{ autogenerate: { directory: 'ap' } }] },
         { label: 'Cbse', items: [{ autogenerate: { directory: 'cbse' } }] },

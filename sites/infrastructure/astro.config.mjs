@@ -35,7 +35,7 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
         zh: { label: '简体中文', lang: 'zh' },
-      }
+      },
       sidebar: [
         { label: 'Databases', items: [{ autogenerate: { directory: 'databases' } }] },
         { label: 'Licensing', items: [{ autogenerate: { directory: 'licensing' } }] },
