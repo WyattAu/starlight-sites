@@ -1,6 +1,10 @@
 # Site Comparison Matrix
 
-A comprehensive audit comparing feature parity and rendering quality across all 10 sites in the [starlight-sites](https://github.com/WyattAu/starlight-sites) monorepo.
+A comprehensive audit comparing feature parity, design system, interactive features, and infrastructure across all 10 sites in the [starlight-sites](https://github.com/WyattAu/starlight-sites) monorepo.
+
+*Last updated: 2026-07-11*
+
+---
 
 ## Overview
 
@@ -9,190 +13,209 @@ This monorepo houses 10 sites built with [Astro](https://astro.build) + [Starlig
 | # | ID | Domain | Scope |
 |---|----|--------|-------|
 | 1 | main | wyattsnotes.wyattau.com | Hub / landing page |
-| 2 | langs | languages.wyattau.com | Comparative programming languages |
-| 3 | tools | tools.wyattau.com | Algorithms, data structures |
-| 4 | prog | programming.wyattau.com | C++ systems programming |
-| 5 | uni | university.wyattau.com | Proof-based undergraduate STEM |
-| 6 | infra | infrastructure.wyattau.com | Server administration, databases |
-| 7 | quals | qualifications.wyattau.com | GCSE, AP, Scottish Highers, Irish LC |
-| 8 | alevel | alevel.wyattau.com | UK A-Level revision notes |
+| 2 | langs | languages.wyattau.com | Comparative programming languages (Dart, Go, Java, Python, Rust, etc.) |
+| 3 | tools | tools.wyattau.com | Algorithms, data structures, version control, ML |
+| 4 | prog | programming.wyattau.com | C++ systems programming (ownership, templates, concurrency) |
+| 5 | uni | university.wyattau.com | Proof-based undergraduate STEM (linear algebra, calculus, physics) |
+| 6 | infra | infrastructure.wyattau.com | Server administration, databases, networking, security |
+| 7 | quals | qualifications.wyattau.com | GCSE, AP, Scottish Highers, Irish LC, CBSE, Gaokao |
+| 8 | alevel | alevel.wyattau.com | UK A-Level (AQA, OCR, Edexcel) — 11 subjects |
 | 9 | ib | ib.wyattau.com | International Baccalaureate Diploma Programme |
-| 10 | dse | dse.wyattau.com | Hong Kong Diploma of Secondary Education |
+| 10 | dse | dse.wyattau.com | Hong Kong DSE — 8 subjects |
 
 ---
 
 ## Feature Parity Matrix
 
-### Core
+### Core Framework
 
 | Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
 |---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| Starlight | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Search | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Math (KaTeX) | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Mermaid diagrams | [NO] | [YES] | [YES] | [YES] | [NO] | [YES] | [NO] | [NO] | [YES] | [NO] |
-| Edit link | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Last updated | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Pagination | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Table of contents | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
+| Starlight 0.40 | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Astro 6.4 | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| SolidJS 1.9 | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Tailwind v4 | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| MDX support | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Sitemap | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| HTML compression | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+
+### Search
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Cross-site search API | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Page-level search modal | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Starlight Search override | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Search with static fallback (no KV) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+
+### Content & Rendering
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Math (KaTeX) | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Mermaid diagrams | NO | YES | YES | YES | NO | YES | NO | NO | YES | NO |
+| Edit link | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Last updated | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Pagination | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Table of contents | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Breadcrumbs | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Reading progress bar | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+
+### Design System
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Cinematic Brutalism design | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Amoebic UI (organic radii) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Spatial Materialism (elevation) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Fluid spacing scale (clamp) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Organic easing curves | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Self-hosted Inter + JetBrains Mono | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Dark/light/sepia/contrast themes | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Nord, Dracula, Monokai themes | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Ayu Mirage, Solarized, Papercolor | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| 100% component coverage per theme | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+
+### Reading Controls (Floating Settings Panel)
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Floating gear button (bottom-right) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Theme selector (10 themes) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Font size slider (80-150%) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Font weight slider (300-900) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Line height slider (1.0-2.5) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Letter spacing slider | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Paragraph gap slider (0.5-3x) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Content width (narrow/standard/wide/full) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Font family (sans/serif/mono) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Justify toggle | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Reduce motion toggle | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Dim images toggle | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Auto-hide nav on scroll | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Reading mode (hide sidebar/ToC/nav) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Locale switcher (en/zh) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+
+### Interactive Features
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Dictionary popup (text selection) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| 4-color text highlighting (persisted) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Keyboard shortcuts cheat sheet | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Reading position memory (session) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Flashcards (SM-2 spaced repetition) | NO | YES | NO | NO | YES | NO | NO | NO | YES | NO |
+| Practice problems (interactive) | NO | YES | NO | YES | YES | YES | NO | YES | YES | NO |
+| Diagnostic tests | NO | NO | NO | NO | NO | NO | YES | YES | YES | YES |
+| Review queue (all-due-cards) | NO | YES | NO | NO | YES | NO | NO | NO | YES | NO |
+| Desmos graph embed | NO | NO | YES | YES | YES | YES | YES | YES | NO | NO |
+| PhET simulation embed | NO | NO | YES | YES | YES | YES | YES | YES | NO | NO |
+
+### PWA / Offline
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Service worker (sw.js) | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Cache-first for static assets | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Stale-while-revalidate for HTML | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Network-first for search API | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Manifest.json in head | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Auto-activate SW updates | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
 
 ### Infrastructure
 
 | Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
 |---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| KaTeX CDN | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Cloudflare analytics | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Web vitals | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Cloudflare _headers | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| manifest.json in head | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | ~ | [YES] | ~ |
-| Font preloads | [NO] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | ~ | [YES] | ~ |
-| OG images | ~ | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Cross-site search | ~ | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Page search | ~ | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
+| KaTeX CDN | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Cloudflare analytics | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Web vitals monitoring | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Cloudflare _headers (caching) | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Font preloads | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| OG images | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Cross-site search scripts | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Page search scripts | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
 
-### Content Types
-
-| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
-|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| Flashcards | [NO] | ~ | [NO] | [NO] | [YES] | [NO] | [NO] | [NO] | [YES] | [NO] |
-| Practice problems | [NO] | [YES] | [NO] | [YES] | [YES] | [YES] | [NO] | [YES] | ~ | [NO] |
-| Diagnostic tests | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [YES] | [YES] | [YES] | [YES] |
-| Desmos/PhET components | [NO] | ~ | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [NO] | [NO] |
-| Tabs integration | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] |
-
-### Interactive
+### i18n / Internationalization
 
 | Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
 |---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| SolidJS | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Tailwind v4 | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| unplugin-icons | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [YES] | [NO] | [NO] |
+| zh.json UI translations | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| zh locale in Starlight config | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Locale switcher in settings | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| zh content files | NO | NO | NO | NO | NO | NO | NO | NO | YES | NO |
 
-### i18n
-
-| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
-|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| i18n UI (zh.json) | [NO] | ~ | ~ | ~ | ~ | ~ | ~ | ~ | ~ | ~ |
-| i18n content (zh/ folder) | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [YES] | [NO] |
-
-### Head Tags
+### Nav & Branding
 
 | Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
 |---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| Social links | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] |
-| Logo | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] |
-| Landing page | [YES] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] | [NO] |
+| Clean subject codes (no "Wyatt's Notes —") | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| WN monogram logo | YES | NO | NO | NO | NO | NO | NO | NO | NO | NO |
+| Social links | NO | NO | NO | NO | NO | NO | NO | NO | NO | NO |
+| Logo image | NO | NO | NO | NO | NO | NO | NO | NO | NO | NO |
 
-**Legend:** [YES] = present, [NO] = absent, ~ = partial/broken
+### Integrations
+
+| Feature | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
+|---------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
+| Tabs integration | NO | NO | NO | NO | NO | NO | NO | NO | NO | NO |
+| unplugin-icons | NO | NO | NO | NO | NO | NO | NO | YES | NO | NO |
+| Client-only directives plugin | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Lazy images rehype plugin | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| Mobile menu | NO | YES | YES | YES | YES | YES | YES | YES | YES | YES |
+| LocaleSwitcher component | YES | YES | YES | YES | YES | YES | YES | YES | YES | YES |
 
 ---
 
 ## Feature Gap Analysis
 
-### Missing from **main** (landing page)
-The landing page is built with Astro but does not use Starlight, so it lacks the entire Starlight feature surface: search, math rendering, diagrams, navigation chrome, and infrastructure features (analytics, headers). This is **by design** — the landing page is a lightweight hub.
+### Gaps Worth Closing
 
-**Impact:** Low. Not a regression; the landing page serves a different purpose.
+| Gap | Sites Affected | Impact | Effort |
+|-----|---------------|--------|--------|
+| **Mermaid diagrams missing** | uni, quals, alevel, dse | Medium — diagrams would help STEM content | Low (add to astro.config + package.json) |
+| **Flashcards only on uni + ib** | 6 sites missing | Medium — spaced repetition is high-value | Medium (content creation) |
+| **Practice problems inconsistent** | tools, quals, dse missing | Medium — interactive practice is core feature | Medium (content creation) |
+| **Diagnostic tests only on 4 sites** | 5 sites missing | Low | Medium (content creation) |
+| **Desmos/PhET missing on ib + dse** | ib, dse | Low — these are niche interactive embeds | Low (component exists, needs content) |
+| **i18n zh content only on ib** | 9 sites missing zh content | Low (English is primary) | Very High (translation effort) |
+| **Tabs integration missing** | All 10 sites | Low | Low (add to astro.config) |
+| **Social links missing** | All 10 sites | Very Low | Low |
+| **Logo image missing** | All 10 sites | Very Low | Low |
+| **unplugin-icons only on alevel** | 9 sites missing | Very Low (icons are inlined) | Low |
 
-### Missing across **all sites**
-- **Social links** — No site has configured footer social links (GitHub, Twitter, etc.).
-- **Logo** — No site has a brand logo configured in Starlight.
-- **Tabs integration** — The `@astrojs/starlight/tabs` component has not been adopted anywhere.
-- **unplugin-icons** — Only `alevel` uses this icon framework; all others rely on inline SVGs.
+### Intentional Gaps
 
-**Impact:** Medium (social links, logo — brand visibility). Low (tabs, unplugin-icons — nice-to-have).
-
-### Partial i18n: ten sites with zh.json stubs
-All 9 Starlight sites have a `src/content/i18n/zh.json` file, but it is a **partial translation** — only a subset of UI strings are provided, meaning the Chinese UI falls back to English for untranslated keys.
-
-**Impact:** Low (i18n is secondary; English is the primary language).
-
-### Full i18n content only on **ib**
-Only `ib` has a `zh/` content directory with translated pages alongside the English originals.
-
-**Impact:** Low. A pilot for eventual multilingual expansion.
-
-### Mermaid, Flashcards, Practice Problems, Diagnostic Tests, Desmos/PhET — uneven adoption
-These interactive/content features are scattered across sites based on subject relevance:
-- **Mermaid:** Present on 5/9 Starlight sites, absent on `uni`, `quals`, `alevel`, `dse`. Not critical — diagrams are a supplement.
-- **Flashcards:** Only on `uni` and `ib`. Missing from `langs` (partial ~).
-- **Practice problems:** Present on 5/9 Starlight sites, plus partial on `ib` and absent on `langs`, `tools`, `quals`, `dse`.
-- **Diagnostic tests:** Only on `quals`, `alevel`, `ib`, `dse` — aligned with exam-prep focus.
-- **Desmos/PhET:** Present on 5/9, partial on `langs`, absent on `ib` and `dse`.
-
-**Impact:** Low-Medium. These are content-area decisions; unification would require cross-site refactoring that may not be warranted.
-
-### manifest.json and font preloads — absent on alevel, dse
-`alevel` and `dse` lack `manifest.json` in `<head>` and font preloading, while the other 7 Starlight sites have them.
-
-**Impact:** Medium. PWA support (manifest) and perceived performance (font preloads) are measurable gaps.
-
-### OG images — partial on main
-The landing page has no OG image configuration. All 9 Starlight sites have OG images configured via `@astrojs/starlight` built-in.
-
-**Impact:** Low. The landing page is a hub, not content that gets shared independently.
+| Gap | Rationale |
+|-----|-----------|
+| **main has no Starlight** | Landing page is a custom Astro page, not documentation |
+| **main has no search** | Search button opens cross-site search modal; no local content to index |
+| **main has no math/KaTeX** | No mathematical content on the landing page |
 
 ---
 
-## Rendering Issues Matrix
+## Architecture Decisions
 
-| Issue Category | Severity | Count | main | langs | tools | prog | uni | infra | quals | alevel | ib | dse |
-|----------------|----------|-------|------|-------|-------|------|-----|-------|-------|--------|----|-----|
-| Unclosed `$$` math blocks | CRITICAL | 30 | — | — | [YES] | — | [YES] | — | [YES] | [YES] | [YES] | [YES] |
-| Unclosed frontmatter | CRITICAL | 3 | — | [YES] | [YES] | — | — | — | — | [YES] | — | — |
-| Table issues (inconsistent columns, missing separators) | HIGH | 425 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Broken internal `.md` links | HIGH | 34 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Unclosed inline `$` math (odd count per line) | MEDIUM | 1,257 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Tables >8 columns (overflow risk) | MEDIUM | 239 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Unclosed HTML tags | MEDIUM | 11 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Paired admonitions (benign, false positive) | LOW | 5,355 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
-| Excessive consecutive blank lines (>3) | LOW | 2,547 | — | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] | [YES] |
+| Decision | Rationale |
+|----------|-----------|
+| **Custom Head.astro** | Discards Starlight's head array to avoid duplicate script tags; all head entries added explicitly |
+| **pagefind: false** | Starlight's built-in Pagefind search disabled in favor of custom cross-site search API |
+| **Custom Search component** | Replaces Starlight's default search button with one that opens the cross-site search modal |
+| **shared/ as canonical source** | All components, styles, utils, i18n, and scripts synced to sites via sync-shared.mjs |
+| **CSS custom properties for theming** | All theme colors use --sl-color and --wn-* CSS vars; switching theme = changing data-theme attribute |
+| **reader.js as vanilla JS** | No framework dependency for the floating settings panel; uses same localStorage keys as SolidJS SettingsDialog |
+| **Search worker with static fallback** | Bundles merged-index.js directly so search works without Cloudflare KV |
 
 ---
 
-## Critical Rendering Issues
+## Quick Stats
 
-### 30 unclosed `$$` math blocks
-
-These cause KaTeX parse errors and broken page rendering. Files span 5 sites:
-
-| Site | File Count | Example Paths |
-|------|-----------|---------------|
-| alevel | 10 | `alevel/src/content/docs/statistics/...`, `alevel/src/content/docs/further/...` |
-| dse | 6 | `dse/src/content/docs/maths/...` |
-| ib | 5 | `ib/src/content/docs/math/...` |
-| qualifications | 4 | `qualifications/src/content/docs/gcse/...`, `qualifications/src/content/docs/ap/...` |
-| tools | 3 | `tools/src/content/docs/algorithms/...` |
-| university | 2 | `university/src/content/docs/...` |
-
-### 3 unclosed frontmatter blocks
-
-| File | Site | Status |
-|------|------|--------|
-| `alevel/src/content/docs/statistics/statistics-distributions-depth.md` | alevel | Fixed |
-| `languages/src/content/docs/languages/ownership.md` | langs | Fixed |
-| `tools/src/content/docs/data-structures/linked-lists-stacks-queues.md` | tools | Fixed |
-
-These break Starlight's frontmatter parser, preventing the page from rendering entirely.
-
----
-
-## Priority Action Items
-
-| Priority | Action | Target | Effort | Impact |
-|----------|--------|--------|--------|--------|
-| P0 | Close all 30 unclosed `$$` math blocks | alevel, dse, ib, quals, tools, uni | Medium | Critical — broken page rendering |
-| P1 | Fix 425 table issues (inconsistent column counts, missing header separators) | All Starlight sites | High | High — broken/misaligned tables across the entire codebase |
-| P2 | Fix 34 broken internal `.md` links | All Starlight sites | Low | High — users hit 404s navigating between pages |
-| P3 | Balance 1,257 unclosed inline `$` math expressions | All Starlight sites | High | Medium — KaTeX parse warnings, rendering glitches |
-| P4 | Audit 239 tables >8 columns for overflow | All Starlight sites | Medium | Medium — horizontal scroll on mobile |
-| P5 | Close 11 unclosed HTML tags | All Starlight sites | Low | Low-Medium — potential layout breakage |
-| P6 | Add manifest.json and font preloads to alevel, dse | alevel, dse | Low | Medium — PWA support, perceived performance |
-| P7 | Eliminate 2,547 excessive blank-line runs | All Starlight sites | Low | Low — cosmetic |
-| P8 | Strip 5,355 paired-admonition false positives from lint rules | Tooling | Low | Low — reduces noise in audit output |
-| P9 | Evaluate social links and logo config across all sites | All sites | Low | Low — brand polish |
-| P10 | Consider i18n content expansion beyond ib | All Starlight sites | High | Low — strategic not technical |
-
----
-
-*Generated from rendering audit and feature parity audit data. Last updated: 2026-07-10.*
+| Metric | Value |
+|--------|-------|
+| Total content files | 2,030+ |
+| Total sites | 10 |
+| Themes | 10 (dark, light, sepia, nord, dracula, monokai, ayu-mirage, solarized, papercolor, contrast) |
+| Reading controls | 13 (theme, font-size, font-weight, line-height, letter-spacing, para-gap, content-width, font-family, justify, reduce-motion, dim-images, auto-hide-nav, reading-mode) |
+| Interactive components | FlashcardDeck, PracticeProblem, DiagnosticTest, DesmosGraph, PhetSimulation, ReviewQueue |
+| Keyboard shortcuts | 12 (?, s, /, t, f, g+h, n, p, j, k, Esc, Cmd+,) |
+| Cache layers | 3 (static, pages, API) |
+| Pre-commit tests | 219 (all passing) |
