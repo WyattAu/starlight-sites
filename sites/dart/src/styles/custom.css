@@ -634,6 +634,10 @@
   --ec-ti: #88c0d0;
   --ec-ui: #88c0d0;
   --ec-selection: rgba(136,192,208,0.2);
+  --ec-ui-hover: #8fbcbb;
+  --ec-ui-active: #5e81ac;
+  --ec-line-bg: rgba(136,192,208,0.06);
+  --ec-line-bg-active: rgba(136,192,208,0.12);
 }
 
 /* --- Dracula --- vibrant pink/green on deep purple */
@@ -645,6 +649,10 @@
   --ec-ti: #f1fa8c;
   --ec-ui: #bd93f9;
   --ec-selection: rgba(189,147,249,0.25);
+  --ec-ui-hover: #ff79c6;
+  --ec-ui-active: #6272a4;
+  --ec-line-bg: rgba(189,147,249,0.06);
+  --ec-line-bg-active: rgba(189,147,249,0.12);
 }
 
 /* --- Monokai --- bright green/yellow on warm dark */
@@ -656,6 +664,10 @@
   --ec-ti: #a6e22e;
   --ec-ui: #a6e22e;
   --ec-selection: rgba(166,226,46,0.2);
+  --ec-ui-hover: #fd971f;
+  --ec-ui-active: #66d9ef;
+  --ec-line-bg: rgba(166,226,46,0.06);
+  --ec-line-bg-active: rgba(166,226,46,0.12);
 }
 
 /* --- Ayu Mirage --- gold/teal on muted blue-grey */
@@ -667,6 +679,10 @@
   --ec-ti: #a6cc70;
   --ec-ui: #ffcc66;
   --ec-selection: rgba(255,204,102,0.2);
+  --ec-ui-hover: #ffd580;
+  --ec-ui-active: #e6b450;
+  --ec-line-bg: rgba(255,204,102,0.06);
+  --ec-line-bg-active: rgba(255,204,102,0.12);
 }
 
 /* --- Contrast --- pure black/white, max readability */
@@ -678,6 +694,10 @@
   --ec-ti: #ffffff;
   --ec-ui: #ffffff;
   --ec-selection: rgba(255,255,255,0.25);
+  --ec-ui-hover: #cccccc;
+  --ec-ui-active: #aaaaaa;
+  --ec-line-bg: rgba(255,255,255,0.08);
+  --ec-line-bg-active: rgba(255,255,255,0.15);
 }
 
 /* --- Warm Paper Light --- warm grey on off-white */
@@ -689,6 +709,10 @@
   --ec-ti: #0055aa;
   --ec-ui: #ff6b35;
   --ec-selection: rgba(255,107,53,0.15);
+  --ec-ui-hover: #e05520;
+  --ec-ui-active: #cc4400;
+  --ec-line-bg: rgba(255,107,53,0.04);
+  --ec-line-bg-active: rgba(255,107,53,0.08);
 }
 
 /* --- Sepia --- warm brown on cream */
@@ -700,6 +724,10 @@
   --ec-ti: #6a4a2a;
   --ec-ui: #c97b3a;
   --ec-selection: rgba(201,123,58,0.2);
+  --ec-ui-hover: #a8642e;
+  --ec-ui-active: #8b5020;
+  --ec-line-bg: rgba(201,123,58,0.05);
+  --ec-line-bg-active: rgba(201,123,58,0.1);
 }
 
 /* --- Solarized --- teal/blue on warm sand */
@@ -711,6 +739,10 @@
   --ec-ti: #268bd2;
   --ec-ui: #268bd2;
   --ec-selection: rgba(38,139,210,0.15);
+  --ec-ui-hover: #1a7ac0;
+  --ec-ui-active: #0e6aad;
+  --ec-line-bg: rgba(38,139,210,0.04);
+  --ec-line-bg-active: rgba(38,139,210,0.08);
 }
 
 /* --- Papercolor --- cool blue on bright white */
@@ -722,6 +754,10 @@
   --ec-ti: #005f87;
   --ec-ui: #005f87;
   --ec-selection: rgba(0,95,135,0.15);
+  --ec-ui-hover: #004a6a;
+  --ec-ui-active: #00354d;
+  --ec-line-bg: rgba(0,95,135,0.04);
+  --ec-line-bg-active: rgba(0,95,135,0.08);
 }
 
 /* Inline code — distinct bg per theme so it's visibly different from page bg */
