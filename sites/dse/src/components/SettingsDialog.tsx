@@ -44,6 +44,7 @@ function initFontFamily(): string {
 export interface SettingsDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
+  title?: string
   children?: JSX.Element
 }
 

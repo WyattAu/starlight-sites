@@ -6,7 +6,7 @@ export interface BaseDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
   title: string
-  children: JSX.Element
+  children?: JSX.Element
   size?: 'sm' | 'md' | 'lg'
 }
 
