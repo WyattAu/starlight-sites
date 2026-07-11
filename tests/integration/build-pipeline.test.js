@@ -90,7 +90,7 @@ describe('Site Build Requirements', () => {
       it('should have src/content.config.ts (Astro 6 Content Layer)', () => {
         assert.ok(
           fs.existsSync(path.join(siteDir, 'src', 'content.config.ts')),
-          `Expected src/content.config.ts in ${siteDir}`
+          `Expected src/content.config.ts in ${siteDir}`,
         )
       })
 

@@ -78,6 +78,25 @@ const enDict = {
     close: 'Close',
   },
 
+  // Review Queue
+  review_queue: {
+    title: 'Review All Decks',
+    due_count: '{{count}} cards due (~{{estimated}} min)',
+    estimated: 'Est. Time',
+    start: 'Start Review',
+    complete: 'Review Complete!',
+    cards_reviewed: 'Reviewed',
+    avg_rating: 'Avg Rating',
+    continue: 'Continue',
+    review_all: 'Review All Due Cards',
+  },
+
+  // Stats
+  stats: {
+    global_streak: 'Global Streak',
+    longest_streak: 'Longest Streak',
+  },
+
   // Diagnostic component
   diagnostic: {
     no_questions: 'No questions available.',
@@ -176,6 +195,22 @@ const zhDict: typeof enDict = {
     import: '\u5BFC\u5165\u8FDB\u5EA6',
     reset: '\u91CD\u7F6E\u724C\u7EC4',
     close: '\u5173\u95ED',
+  },
+  review_queue: {
+    title: '\u5168\u90E8\u724C\u7EC4\u590D\u4E60',
+    due_count:
+      '{{count}} \u5F20\u5361\u7247\u5230\u671F\uFF08\u7EA6 {{estimated}} \u5206\u949F\uFF09',
+    estimated: '\u9884\u8BA1\u65F6\u95F4',
+    start: '\u5F00\u59CB\u590D\u4E60',
+    complete: '\u590D\u4E60\u5B8C\u6210\uFF01',
+    cards_reviewed: '\u5DF2\u590D\u4E60',
+    avg_rating: '\u5E73\u5747\u8BC4\u5206',
+    continue: '\u7EE7\u7EED',
+    review_all: '\u590D\u4E60\u5168\u90E8\u5230\u671F\u5361\u7247',
+  },
+  stats: {
+    global_streak: '\u5168\u5C40\u8FDE\u7EED\u5929\u6570',
+    longest_streak: '\u6700\u957F\u8FDE\u7EED\u5929\u6570',
   },
   diagnostic: {
     no_questions: '\u6CA1\u6709\u53EF\u7528\u7684\u95EE\u9898\u3002',

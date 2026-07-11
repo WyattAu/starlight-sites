@@ -1,9 +1,9 @@
-import { createEffect, createSignal, type JSX } from 'solid-js'
 import * as RadioGroup from '@kobalte/core/radio-group'
 import * as Slider from '@kobalte/core/slider'
 import * as Switch from '@kobalte/core/switch'
-import BaseDialog from './BaseDialog'
+import { createEffect, createSignal, type JSX } from 'solid-js'
 import { t } from '../i18n/config'
+import BaseDialog from './BaseDialog'
 
 const CONTENT_WIDTH_OPTIONS = [
   { value: '36rem', labelKey: 'settings.narrow' },
@@ -23,8 +23,6 @@ const FONT_FAMILY_OPTIONS = [
   { value: 'serif', labelKey: 'settings.serif' },
   { value: 'mono', labelKey: 'settings.mono' },
 ] as const
-
-
 
 const VALID_CONTENT_WIDTHS: readonly string[] = CONTENT_WIDTH_OPTIONS.map(o => o.value)
 
@@ -51,14 +49,20 @@ export interface SettingsDialogProps {
 
 export default function SettingsDialog(props: SettingsDialogProps) {
   const [theme, setTheme] = createSignal(localStorage.getItem('wn-theme') ?? 'dark')
-  const [fontSize, setFontSize] = createSignal(parseFloat(localStorage.getItem('wn-font-size') ?? '1'))
+  const [fontSize, setFontSize] = createSignal(
+    parseFloat(localStorage.getItem('wn-font-size') ?? '1'),
+  )
   const [lineHeight, setLineHeight] = createSignal(localStorage.getItem('wn-line-height') ?? '1.7')
   const [contentWidth, setContentWidth] = createSignal(initContentWidth())
   const [fontFamily, setFontFamily] = createSignal(initFontFamily())
   const [justify, setJustify] = createSignal(localStorage.getItem('wn-justify') === 'true')
-  const [reduceMotion, setReduceMotion] = createSignal(localStorage.getItem('wn-reduce-motion') === 'true')
+  const [reduceMotion, setReduceMotion] = createSignal(
+    localStorage.getItem('wn-reduce-motion') === 'true',
+  )
   const [fontWeight, setFontWeight] = createSignal(localStorage.getItem('wn-font-weight') ?? '400')
-  const [letterSpacing, setLetterSpacing] = createSignal(parseFloat(localStorage.getItem('wn-letter-spacing') ?? '0'))
+  const [letterSpacing, setLetterSpacing] = createSignal(
+    parseFloat(localStorage.getItem('wn-letter-spacing') ?? '0'),
+  )
   const [paraGap, setParaGap] = createSignal(localStorage.getItem('wn-para-gap') ?? '1')
   const [dimImages, setDimImages] = createSignal(localStorage.getItem('wn-dim-images') !== 'false')
   const [autoHide, setAutoHide] = createSignal(localStorage.getItem('wn-auto-hide') === 'true')
@@ -86,7 +90,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
     html.setAttribute('data-justify', String(j))
     html.setAttribute('data-reduce-motion', String(rm))
     html.style.setProperty('--wn-font-weight', fw)
-    html.style.setProperty('--wn-letter-spacing', ls + 'px')
+    html.style.setProperty('--wn-letter-spacing', `${ls}px`)
     html.style.setProperty('--wn-para-gap', pg)
     html.setAttribute('data-dim-images', String(di))
 
@@ -136,7 +140,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
       onOpenChange={props.onOpenChange}
       title={t('settings.title')}
       size="md"
-      children={(
+      children={
         <div class="space-y-6">
           {/* Theme */}
           <fieldset class="space-y-2">
@@ -193,7 +197,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
             >
               <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
                 <Slider.Fill class="absolute h-full rounded-full bg-accent" />
-                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 active:scale-110" />
               </Slider.Track>
             </Slider.Root>
           </div>
@@ -214,7 +218,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
             >
               <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
                 <Slider.Fill class="absolute h-full rounded-full bg-accent" />
-                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 active:scale-110" />
               </Slider.Track>
             </Slider.Root>
           </div>
@@ -222,7 +226,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Content Width */}
           <fieldset class="space-y-2">
             <legend class="font-medium text-sm">{t('settings.content_width')}</legend>
-            <RadioGroup.Root value={contentWidth()} onChange={setContentWidth} class="flex flex-wrap gap-2">
+            <RadioGroup.Root
+              value={contentWidth()}
+              onChange={setContentWidth}
+              class="flex flex-wrap gap-2"
+            >
               {CONTENT_WIDTH_OPTIONS.map(opt => (
                 <RadioGroup.Item value={opt.value} class={RADIO_ITEM_CLASS}>
                   <RadioGroup.ItemLabel>{t(opt.labelKey)}</RadioGroup.ItemLabel>
@@ -234,7 +242,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           {/* Font Family */}
           <fieldset class="space-y-2">
             <legend class="font-medium text-sm">{t('settings.font_family')}</legend>
-            <RadioGroup.Root value={fontFamily()} onChange={setFontFamily} class="flex flex-wrap gap-2">
+            <RadioGroup.Root
+              value={fontFamily()}
+              onChange={setFontFamily}
+              class="flex flex-wrap gap-2"
+            >
               {FONT_FAMILY_OPTIONS.map(opt => (
                 <RadioGroup.Item value={opt.value} class={RADIO_ITEM_CLASS}>
                   <RadioGroup.ItemLabel>{t(opt.labelKey)}</RadioGroup.ItemLabel>
@@ -245,7 +257,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
 
           {/* Justify */}
           <div class="flex items-center justify-between">
-            <Switch.Root checked={justify()} onChange={setJustify} class="flex w-full items-center justify-between">
+            <Switch.Root
+              checked={justify()}
+              onChange={setJustify}
+              class="flex w-full items-center justify-between"
+            >
               <Switch.Label class="font-medium text-sm">{t('settings.justify')}</Switch.Label>
               <Switch.Input />
               <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
@@ -256,7 +272,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
 
           {/* Reduce Motion */}
           <div class="flex items-center justify-between">
-            <Switch.Root checked={reduceMotion()} onChange={setReduceMotion} class="flex w-full items-center justify-between">
+            <Switch.Root
+              checked={reduceMotion()}
+              onChange={setReduceMotion}
+              class="flex w-full items-center justify-between"
+            >
               <Switch.Label class="font-medium text-sm">{t('settings.reduce_motion')}</Switch.Label>
               <Switch.Input />
               <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
@@ -272,7 +292,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
               <span class="text-emphasis-500 text-sm">{fontWeight()}</span>
             </div>
             <Slider.Root
-              value={[parseInt(fontWeight())]}
+              value={[parseInt(fontWeight(), 10)]}
               onChange={v => setFontWeight(String(v[0]!))}
               minValue={300}
               maxValue={900}
@@ -281,7 +301,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
             >
               <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
                 <Slider.Fill class="absolute h-full rounded-full bg-accent" />
-                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 active:scale-110" />
               </Slider.Track>
             </Slider.Root>
           </div>
@@ -302,7 +322,7 @@ export default function SettingsDialog(props: SettingsDialogProps) {
             >
               <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
                 <Slider.Fill class="absolute h-full rounded-full bg-accent" />
-                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 active:scale-110" />
               </Slider.Track>
             </Slider.Root>
           </div>
@@ -323,14 +343,18 @@ export default function SettingsDialog(props: SettingsDialogProps) {
             >
               <Slider.Track class="relative h-2 w-full cursor-pointer rounded-full bg-emphasis-200">
                 <Slider.Fill class="absolute h-full rounded-full bg-accent" />
-                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform active:scale-110 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1" />
+                <Slider.Thumb class="h-5 w-5 rounded-full border-2 border-accent bg-surface shadow-sm transition-transform focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 active:scale-110" />
               </Slider.Track>
             </Slider.Root>
           </div>
 
           {/* Dim Images */}
           <div class="flex items-center justify-between">
-            <Switch.Root checked={dimImages()} onChange={setDimImages} class="flex w-full items-center justify-between">
+            <Switch.Root
+              checked={dimImages()}
+              onChange={setDimImages}
+              class="flex w-full items-center justify-between"
+            >
               <Switch.Label class="font-medium text-sm">{t('settings.dim_images')}</Switch.Label>
               <Switch.Input />
               <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
@@ -341,7 +365,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
 
           {/* Auto-hide Nav */}
           <div class="flex items-center justify-between">
-            <Switch.Root checked={autoHide()} onChange={setAutoHide} class="flex w-full items-center justify-between">
+            <Switch.Root
+              checked={autoHide()}
+              onChange={setAutoHide}
+              class="flex w-full items-center justify-between"
+            >
               <Switch.Label class="font-medium text-sm">{t('settings.auto_hide_nav')}</Switch.Label>
               <Switch.Input />
               <Switch.Control class="inline-flex h-6 w-10 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-emphasis-300 transition-colors focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-1 data-[checked]:bg-accent">
@@ -351,9 +379,11 @@ export default function SettingsDialog(props: SettingsDialogProps) {
           </div>
 
           {/* Flashcard-specific settings passed as children */}
-          {props.children && <div class="border-t border-emphasis-200 pt-4 mt-4 space-y-2">{props.children}</div>}
+          {props.children && (
+            <div class="mt-4 space-y-2 border-emphasis-200 border-t pt-4">{props.children}</div>
+          )}
         </div>
-      )}
+      }
     />
   )
 }

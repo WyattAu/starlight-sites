@@ -5,6 +5,7 @@
 import type { CardState } from './sm2'
 
 const STORAGE_PREFIX = 'wyattsnotes-spaced-rep-'
+const STREAK_STORAGE_KEY = 'wn-streak'
 
 export interface ReviewEntry {
   cardId: string
@@ -50,4 +51,102 @@ export function calculateStreak(data: DeckData): number {
   }
 
   return 0
+}
+
+/* ---- Global streak tracking (wn-street) ---- */
+
+function getReviewDates(): string[] {
+  try {
+    const raw = localStorage.getItem(STREAK_STORAGE_KEY)
+    return raw ? (JSON.parse(raw) as string[]) : []
+  } catch {
+    return []
+  }
+}
+
+export function recordReview(): void {
+  const today = new Date().toISOString().split('T')[0]
+  const dates = getReviewDates()
+  if (!dates.includes(today)) {
+    dates.push(today)
+    try {
+      localStorage.setItem(STREAK_STORAGE_KEY, JSON.stringify(dates))
+    } catch {
+      /* silently fail */
+    }
+  }
+}
+
+export function getStreak(): number {
+  const dates = [...new Set(getReviewDates())].sort((a, b) => b.localeCompare(a))
+  if (dates.length === 0) return 0
+
+  const today = new Date()
+  let streak = 0
+
+  for (let i = 0; i < dates.length; i++) {
+    const check = new Date(today)
+    check.setDate(check.getDate() - i)
+    const checkStr = check.toISOString().split('T')[0]
+
+    if (dates[i] === checkStr) {
+      streak++
+    } else {
+      if (i === 0) {
+        const yesterday = new Date(today)
+        yesterday.setDate(yesterday.getDate() - 1)
+        if (dates[i] === yesterday.toISOString().split('T')[0]) {
+          streak++
+          continue
+        }
+      }
+      break
+    }
+  }
+
+  return streak
+}
+
+export function getLongestStreak(): number {
+  const dates = [...new Set(getReviewDates())].sort()
+  if (dates.length === 0) return 0
+
+  let longest = 1
+  let current = 1
+
+  for (let i = 1; i < dates.length; i++) {
+    const prev = new Date(dates[i - 1])
+    const curr = new Date(dates[i])
+    const diffMs = curr.getTime() - prev.getTime()
+    const diffDays = Math.round(diffMs / 86400000)
+
+    if (diffDays === 1) {
+      current++
+    } else {
+      longest = Math.max(longest, current)
+      current = 1
+    }
+  }
+
+  return Math.max(longest, current)
+}
+
+export function getTotalReviews(): number {
+  let total = 0
+  for (const id of listDecks()) {
+    const data = loadDeck(id)
+    if (data) total += data.reviewHistory.length
+  }
+  return total
+}
+
+export function listDecks(): string[] {
+  const decks: string[] = []
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i)
+    if (key?.startsWith(STORAGE_PREFIX)) {
+      decks.push(key.slice(STORAGE_PREFIX.length))
+    }
+  }
+  return decks
 }

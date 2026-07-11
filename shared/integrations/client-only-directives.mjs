@@ -27,7 +27,7 @@ function addDirective(node) {
   if (!CLIENT_ONLY_COMPONENTS.has(node.name)) return
   if (!node.attributes) node.attributes = []
   const hasDirective = node.attributes.some(
-    (a) => a.name === 'client:only' || a.name === 'client:load' || a.name === 'client:visible',
+    a => a.name === 'client:only' || a.name === 'client:load' || a.name === 'client:visible',
   )
   if (!hasDirective) {
     node.attributes.push({
@@ -61,7 +61,7 @@ function walk(node) {
 }
 
 export function clientOnlyDirectives() {
-  return (tree) => {
+  return tree => {
     walk(tree)
   }
 }

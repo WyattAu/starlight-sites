@@ -28,10 +28,14 @@ function initCrossSiteSearch() {
   // Create our search container positioned at the right side of the header
   var searchContainer = document.createElement('div')
   searchContainer.id = 'cross-site-search-container'
-  searchContainer.style.cssText = 'position:absolute;right:0.5rem;top:0;height:100%;display:flex;align-items:center;z-index:10;'
+  searchContainer.style.cssText =
+    'position:absolute;right:0.5rem;top:0;height:100%;display:flex;align-items:center;z-index:10;'
 
   // Make the header position:relative so absolute positioning works
-  if (topBar.style.position !== 'relative' && window.getComputedStyle(topBar).position === 'static') {
+  if (
+    topBar.style.position !== 'relative' &&
+    window.getComputedStyle(topBar).position === 'static'
+  ) {
     topBar.style.position = 'relative'
   }
 

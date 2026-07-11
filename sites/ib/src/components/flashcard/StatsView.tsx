@@ -23,7 +23,7 @@ function ActionButton(props: { label: string; onClick: () => void }) {
     <button
       type="button"
       onClick={props.onClick}
-      class="py-2.5 px-6 rounded-lg font-semibold text-base cursor-pointer transition-all bg-surface border border-emphasis-300 text-base hover:bg-emphasis-100"
+      class="cursor-pointer rounded-lg border border-emphasis-300 bg-surface px-6 py-2.5 font-semibold text-base text-base transition-all hover:bg-emphasis-100"
     >
       {props.label}
     </button>
@@ -36,6 +36,8 @@ export interface StatsViewProps {
   streak: number
   totalReviews: number
   avgEase: number
+  globalStreak?: number
+  longestStreak?: number
   setView: (view: string) => void
 }
 
@@ -51,6 +53,12 @@ export default function StatsView(props: StatsViewProps) {
         />
         <StatBox label="New" value={props.masteryBreakdown.new ?? 0} />
         <StatBox label={t('flashcard.streak')} value={`${props.streak} days`} />
+        {props.globalStreak !== undefined && (
+          <StatBox label={t('stats.global_streak')} value={`${props.globalStreak}d`} />
+        )}
+        {props.longestStreak !== undefined && (
+          <StatBox label={t('stats.longest_streak')} value={`${props.longestStreak}d`} />
+        )}
         <StatBox label="Total Reviews" value={props.totalReviews} />
         <StatBox label="Avg Ease Factor" value={props.avgEase.toFixed(2)} />
       </div>

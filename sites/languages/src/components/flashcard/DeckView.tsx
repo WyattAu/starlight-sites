@@ -7,8 +7,8 @@ import { For } from 'solid-js'
 import { t } from '../../i18n/config'
 // biome-ignore lint/correctness/noUnusedImports: used via use:animate directive
 import { animate } from '../../utils/animate'
-import { MASTERY_COLORS, MASTERY_LABELS } from './constants'
 import type { Flashcard } from '../FlashcardDeck'
+import { MASTERY_COLORS, MASTERY_LABELS } from './constants'
 
 function StatBox(props: { label: string; value: string | number; highlight?: boolean }) {
   return (
@@ -51,15 +51,15 @@ export interface DeckViewProps {
   masteryPercent: number
   startReview: () => void
   setView: (view: string) => void
+  onOpenReviewQueue?: () => void
+  globalDueCount?: number
 }
 
 export default function DeckView(props: DeckViewProps) {
   return (
     <div class="text-center">
       {props.title && <h3 class="mt-0 mb-1 font-semibold text-base">{props.title}</h3>}
-      {props.description && (
-        <p class="mt-0 mb-4 text-emphasis-700 text-sm">{props.description}</p>
-      )}
+      {props.description && <p class="mt-0 mb-4 text-emphasis-700 text-sm">{props.description}</p>}
 
       <div class="mb-4 flex flex-wrap justify-center gap-3">
         <StatBox label={t('flashcard.total_cards')} value={props.cards.length} />
@@ -105,6 +105,12 @@ export default function DeckView(props: DeckViewProps) {
           onClick={props.startReview}
           primary
         />
+        {props.onOpenReviewQueue && (
+          <ActionButton
+            label={`${t('review_queue.review_all')}${props.globalDueCount ? ` (${props.globalDueCount})` : ''}`}
+            onClick={props.onOpenReviewQueue}
+          />
+        )}
         <ActionButton label={t('flashcard.stats')} onClick={() => props.setView('stats')} />
         <ActionButton label={t('flashcard.settings')} onClick={() => props.setView('settings')} />
       </div>

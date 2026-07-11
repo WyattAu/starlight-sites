@@ -28,7 +28,15 @@ import {
   isDue,
   type Rating,
 } from './flashcard/sm2'
-import { calculateStreak, type DeckData, loadDeck, saveDeck } from './flashcard/storage'
+import {
+  calculateStreak,
+  type DeckData,
+  getLongestStreak,
+  getStreak,
+  loadDeck,
+  saveDeck,
+} from './flashcard/storage'
+import ReviewQueue from './ReviewQueue'
 import SettingsDialog from './SettingsDialog'
 
 // Dynamic import of solid-sonner to avoid SSR breakage. The solid-sonner
@@ -54,13 +62,23 @@ export interface FlashcardDeckProps {
   deckId: string
   title?: string
   description?: string
+  decks?: Array<{ deckId: string; cards: Flashcard[] }>
 }
 
 export type { View } from './flashcard/constants'
 export type { CardState, Rating } from './flashcard/sm2'
 export { applySM2, getMasteryLevel, isDue } from './flashcard/sm2'
 export type { DeckData } from './flashcard/storage'
-export { calculateStreak, loadDeck, saveDeck } from './flashcard/storage'
+export {
+  calculateStreak,
+  getLongestStreak,
+  getStreak,
+  getTotalReviews,
+  listDecks,
+  loadDeck,
+  recordReview,
+  saveDeck,
+} from './flashcard/storage'
 
 function ActionButton(props: {
   label: string
@@ -121,6 +139,26 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const [getFlipped, setFlipped] = createSignal(false)
   const [getCurrentIndex, setCurrentIndex] = createSignal(0)
   const [getDueQueue, setDueQueue] = createSignal<string[]>([])
+
+  const [getReviewQueueOpen, setReviewQueueOpen] = createSignal(false)
+
+  const reviewQueueDecks = createMemo(() => {
+    if (props.decks && props.decks.length > 0) return props.decks
+    return [{ deckId: props.deckId, cards: props.cards }]
+  })
+
+  const globalDueCount = createMemo(() => {
+    let count = 0
+    const n = Date.now()
+    for (const entry of reviewQueueDecks()) {
+      const data = loadDeck(entry.deckId)
+      for (const card of entry.cards) {
+        const state = data?.cardStates[card.id] ?? createDefaultState()
+        if (isDue(state, n)) count++
+      }
+    }
+    return count
+  })
 
   const now = Date.now()
   const prefersReducedMotion = createPrefersReducedMotion()
@@ -281,22 +319,26 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   if (props.cards.length === 0) {
     return (
-      <div
-        role="region"
+      <section
         aria-label="Flashcard deck empty"
         class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 text-center font-sans text-base"
       >
         {t('flashcard.empty')}
-      </div>
+      </section>
     )
   }
 
   return (
-    <div
-      role="region"
+    <section
       aria-label={props.title ? `Flashcard deck: ${props.title}` : 'Flashcard deck'}
       class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
     >
+      <ReviewQueue
+        open={getReviewQueueOpen()}
+        onOpenChange={setReviewQueueOpen}
+        decks={reviewQueueDecks()}
+      />
+
       {getView() === 'deck' && (
         <DeckView
           title={props.title}
@@ -309,6 +351,8 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           masteryPercent={masteryPercent()}
           startReview={startReview}
           setView={setView}
+          onOpenReviewQueue={() => setReviewQueueOpen(true)}
+          globalDueCount={globalDueCount()}
         />
       )}
 
@@ -333,6 +377,8 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           streak={streak()}
           totalReviews={totalReviews()}
           avgEase={avgEase()}
+          globalStreak={getStreak()}
+          longestStreak={getLongestStreak()}
           setView={setView}
         />
       )}
@@ -349,12 +395,12 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
             <ActionButton label={t('flashcard.export')} onClick={handleExport} />
             <ActionButton label={t('flashcard.import')} onClick={handleImport} />
             <ActionButton label={t('flashcard.reset')} onClick={handleReset} danger />
-          </div>
+          </section>
           <div class="mt-5">
             <ActionButton label={t('flashcard.close')} onClick={() => setView('deck')} />
-          </div>
+          </section>
         </SettingsDialog>
       )}
-    </div>
+    </section>
   )
 }

@@ -93,9 +93,9 @@ async function fetchSiteIndex(site) {
             const bodyMatch = text.match(/<body[^>]*>([\s\S]*?)<\/body>/i)
             if (bodyMatch) {
               content = bodyMatch[1]
-                .replace(/<\/?[^>]+(>|$)/g, '')  // strip HTML tags
-                .replace(/&[^;]+;/g, ' ')          // decode entities
-                .replace(/\s+/g, ' ')              // collapse whitespace
+                .replace(/<\/?[^>]+(>|$)/g, '') // strip HTML tags
+                .replace(/&[^;]+;/g, ' ') // decode entities
+                .replace(/\s+/g, ' ') // collapse whitespace
                 .trim()
                 .slice(0, 2000)
             }

@@ -9,10 +9,10 @@ import mermaid from 'astro-mermaid'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
 import { cloudflareAnalytics } from '../../shared/config/analytics.mjs'
-import zhTranslations from './src/i18n/zh.json'
 import { clientOnlyDirectives } from '../../shared/integrations/client-only-directives'
 import lazyImages from '../../shared/integrations/lazy-images/index.mjs'
 import mermaidNoRocketLoader from '../../shared/integrations/mermaid-no-rocket-loader/index.mjs'
+import zhTranslations from './src/i18n/zh.json'
 
 export default defineConfig({
   site: 'https://infrastructure.wyattau.com',

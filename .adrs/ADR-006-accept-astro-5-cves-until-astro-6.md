@@ -1,6 +1,6 @@
 # ADR-006: Accept Astro 5.x CVEs until the Astro 6 upgrade
 
-- **Status:** Superseded
+- **Status:** Accepted
 - **Date:** 2026-06-21
 - **Related:** `GUI_FRONTEND_REFACTOR.md` R4, `CODE_QUALITY_AUDIT.md` F2
 

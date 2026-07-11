@@ -12,9 +12,7 @@
  * landing page. Runs on all pages.
  */
 
-(function () {
-  'use strict'
-
+;(() => {
   // ─── Constants ────────────────────────────────────────────────────────────
 
   const LS_KEYS = {
@@ -69,7 +67,7 @@
 
   const PARA_GAPS = ['0.5', '1', '1.5', '2']
 
-  var PAGE_LOCALE = (function () {
+  var PAGE_LOCALE = (() => {
     var p = window.location.pathname
     return p.startsWith('/zh/') || p === '/zh' ? 'zh' : 'en'
   })()
@@ -93,8 +91,12 @@
 
   // ─── Helpers ──────────────────────────────────────────────────────────────
 
-  function lsGet(key) { return localStorage.getItem(key) ?? STORAGE_DEFAULTS[key] }
-  function lsSet(key, val) { localStorage.setItem(key, String(val)) }
+  function lsGet(key) {
+    return localStorage.getItem(key) ?? STORAGE_DEFAULTS[key]
+  }
+  function lsSet(key, val) {
+    localStorage.setItem(key, String(val))
+  }
 
   function applyTheme(value) {
     document.documentElement.setAttribute('data-theme', value)
@@ -113,8 +115,11 @@
   }
 
   function applyFontFamily(value) {
-    const entry = FONT_FAMILIES.find(function (f) { return f.value === value })
-    document.documentElement.style.setProperty('--wn-font-body', entry ? entry.css : FONT_FAMILIES[0].css)
+    const entry = FONT_FAMILIES.find(f => f.value === value)
+    document.documentElement.style.setProperty(
+      '--wn-font-body',
+      entry ? entry.css : FONT_FAMILIES[0].css,
+    )
   }
 
   function applyJustify(value) {
@@ -139,7 +144,7 @@
   }
 
   function applyLetterSpacing(value) {
-    document.documentElement.style.setProperty('--wn-letter-spacing', value + 'px')
+    document.documentElement.style.setProperty('--wn-letter-spacing', `${value}px`)
   }
 
   function applyParaGap(value) {
@@ -245,8 +250,7 @@
         if (k === 'class') e.className = attrs[k]
         else if (k === 'style' && typeof attrs[k] === 'object') {
           for (var sk in attrs[k]) e.style[sk] = attrs[k][sk]
-        }
-        else if (k.startsWith('on')) e.addEventListener(k.slice(2).toLowerCase(), attrs[k])
+        } else if (k.startsWith('on')) e.addEventListener(k.slice(2).toLowerCase(), attrs[k])
         else if (k === 'dataset') Object.assign(e.dataset, attrs[k])
         else e.setAttribute(k, attrs[k])
       }
@@ -254,7 +258,9 @@
     return e
   }
 
-  function text(str) { return document.createTextNode(str) }
+  function text(str) {
+    return document.createTextNode(str)
+  }
 
   // ─── Styles ───────────────────────────────────────────────────────────────
 
@@ -344,6 +350,19 @@
 
     /* Floating button position on small screens */
     '@media (max-width: 640px) { #wn-fab { bottom: 16px; right: 16px; width: 44px; height: 44px; } }',
+
+    /* Cheat sheet overlay */
+    '#wn-cheat-overlay { position: fixed; inset: 0; z-index: 999999; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.6); backdrop-filter: blur(6px); opacity: 0; visibility: hidden; transition: opacity 0.25s ease, visibility 0.25s ease; }',
+    '#wn-cheat-overlay.open { opacity: 1; visibility: visible; }',
+    '#wn-cheat-card { background: var(--wn-bg-elevated, #12121a); border: 1px solid var(--wn-border, #2a2a3a); border-radius: 18px; padding: 28px 32px; max-width: 400px; width: 90vw; box-shadow: 0 16px 64px rgba(0,0,0,0.4); transform: scale(0.92) translateY(12px); transition: transform 0.28s cubic-bezier(0.22,1,0.36,1); }',
+    '#wn-cheat-overlay.open #wn-cheat-card { transform: scale(1) translateY(0); }',
+    '[data-reduce-motion="true"] #wn-cheat-card, [data-reduce-motion="true"] #wn-cheat-overlay { transition: none; }',
+    '#wn-cheat-title { margin: 0 0 16px; font-size: 1.1rem; font-weight: 700; color: var(--wn-text, #e8e8ed); letter-spacing: -0.01em; }',
+    '#wn-cheat-list { display: flex; flex-direction: column; gap: 6px; }',
+    '.wn-cheat-row { display: flex; align-items: center; gap: 16px; padding: 6px 0; }',
+    '.wn-cheat-key { display: inline-flex; align-items: center; justify-content: center; min-width: 48px; height: 28px; padding: 0 10px; font-family: "JetBrains Mono", "Fira Code", monospace; font-size: 0.8rem; font-weight: 600; color: var(--wn-text, #e8e8ed); background: var(--wn-bg-hover, #242436); border: 1px solid var(--wn-border, #2a2a3a); border-radius: 8px; letter-spacing: 0.02em; }',
+    '.wn-cheat-desc { font-size: 0.85rem; color: var(--wn-text-muted, #8888a0); }',
+    '#wn-cheat-hint { margin: 16px 0 0; text-align: center; font-size: 0.75rem; color: var(--wn-text-dim, #5a5a70); }',
   ].join('\n')
 
   var styleEl = el('style', { id: 'wn-reader-styles' })
@@ -371,11 +390,13 @@
   var localeGroup = el('div', { class: 'wn-setting' })
   localeGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Language')))
   var localeRow = el('div', { class: 'wn-setting-row' })
-  LOCALES.forEach(function (l) {
+  LOCALES.forEach(l => {
     var btn = el('button', {
       class: 'wn-chip',
       dataset: { value: l.value },
-      onclick: function () { setLocale(l.value) }
+      onclick: () => {
+        setLocale(l.value)
+      },
     })
     btn.appendChild(text(l.label))
     localeRow.appendChild(btn)
@@ -387,11 +408,13 @@
   var themeGroup = el('div', { class: 'wn-setting' })
   themeGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Theme')))
   var themeRow = el('div', { class: 'wn-setting-row' })
-  THEMES.forEach(function (t) {
+  THEMES.forEach(t => {
     var btn = el('button', {
       class: 'wn-chip',
       dataset: { value: t.value },
-      onclick: function () { setTheme(t.value) }
+      onclick: () => {
+        setTheme(t.value)
+      },
     })
     btn.appendChild(text(t.label))
     themeRow.appendChild(btn)
@@ -404,9 +427,15 @@
   fsGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Font Size')))
   var fsRow = el('div', { class: 'wn-slider-row' })
   var fsInput = el('input', {
-    type: 'range', class: 'wn-slider', min: '0.8', max: '1.5', step: '0.05',
+    type: 'range',
+    class: 'wn-slider',
+    min: '0.8',
+    max: '1.5',
+    step: '0.05',
     'aria-label': 'Font size',
-    oninput: function () { setFontSize(this.value) }
+    oninput: function () {
+      setFontSize(this.value)
+    },
   })
   var fsVal = el('span', { class: 'wn-slider-value' })
   fsRow.appendChild(fsInput)
@@ -419,9 +448,15 @@
   lhGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Line Height')))
   var lhRow = el('div', { class: 'wn-slider-row' })
   var lhInput = el('input', {
-    type: 'range', class: 'wn-slider', min: '1.0', max: '2.5', step: '0.1',
+    type: 'range',
+    class: 'wn-slider',
+    min: '1.0',
+    max: '2.5',
+    step: '0.1',
     'aria-label': 'Line height',
-    oninput: function () { setLineHeight(this.value) }
+    oninput: function () {
+      setLineHeight(this.value)
+    },
   })
   var lhVal = el('span', { class: 'wn-slider-value' })
   lhRow.appendChild(lhInput)
@@ -433,11 +468,13 @@
   var cwGroup = el('div', { class: 'wn-setting' })
   cwGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Content Width')))
   var cwRow = el('div', { class: 'wn-setting-row' })
-  CONTENT_WIDTHS.forEach(function (w) {
+  CONTENT_WIDTHS.forEach(w => {
     var btn = el('button', {
       class: 'wn-chip',
       dataset: { value: w.value },
-      onclick: function () { setContentWidth(w.value) }
+      onclick: () => {
+        setContentWidth(w.value)
+      },
     })
     btn.appendChild(text(w.label))
     cwRow.appendChild(btn)
@@ -449,11 +486,13 @@
   var ffGroup = el('div', { class: 'wn-setting' })
   ffGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Font Family')))
   var ffRow = el('div', { class: 'wn-setting-row' })
-  FONT_FAMILIES.forEach(function (f) {
+  FONT_FAMILIES.forEach(f => {
     var btn = el('button', {
       class: 'wn-chip',
       dataset: { value: f.value },
-      onclick: function () { setFontFamily(f.value) }
+      onclick: () => {
+        setFontFamily(f.value)
+      },
     })
     btn.appendChild(text(f.label))
     ffRow.appendChild(btn)
@@ -468,7 +507,7 @@
   var justifyBtn = el('button', {
     id: 'wn-justify-btn',
     class: 'wn-chip',
-    onclick: toggleJustify
+    onclick: toggleJustify,
   })
   justifyBtn.appendChild(text('Justify'))
   toggleRow.appendChild(justifyBtn)
@@ -476,7 +515,7 @@
   var reduceBtn = el('button', {
     id: 'wn-reduce-btn',
     class: 'wn-chip',
-    onclick: toggleReduceMotion
+    onclick: toggleReduceMotion,
   })
   reduceBtn.appendChild(text('Reduce Motion'))
   toggleRow.appendChild(reduceBtn)
@@ -489,9 +528,15 @@
   fwGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Font Weight')))
   var fwRow = el('div', { class: 'wn-slider-row' })
   var fwInput = el('input', {
-    type: 'range', class: 'wn-slider', min: '300', max: '900', step: '100',
+    type: 'range',
+    class: 'wn-slider',
+    min: '300',
+    max: '900',
+    step: '100',
     'aria-label': 'Font weight',
-    oninput: function () { setFontWeight(this.value) }
+    oninput: function () {
+      setFontWeight(this.value)
+    },
   })
   var fwVal = el('span', { class: 'wn-slider-value' })
   fwRow.appendChild(fwInput)
@@ -504,9 +549,15 @@
   lsGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Letter Spacing')))
   var lsRow = el('div', { class: 'wn-slider-row' })
   var lsInput = el('input', {
-    type: 'range', class: 'wn-slider', min: '-0.5', max: '2', step: '0.25',
+    type: 'range',
+    class: 'wn-slider',
+    min: '-0.5',
+    max: '2',
+    step: '0.25',
     'aria-label': 'Letter spacing',
-    oninput: function () { setLetterSpacing(this.value) }
+    oninput: function () {
+      setLetterSpacing(this.value)
+    },
   })
   var lsVal = el('span', { class: 'wn-slider-value' })
   lsRow.appendChild(lsInput)
@@ -519,9 +570,15 @@
   pgGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Paragraph Gap')))
   var pgRow = el('div', { class: 'wn-slider-row' })
   var pgInput = el('input', {
-    type: 'range', class: 'wn-slider', min: '0.5', max: '3.0', step: '0.25',
+    type: 'range',
+    class: 'wn-slider',
+    min: '0.5',
+    max: '3.0',
+    step: '0.25',
     'aria-label': 'Paragraph gap',
-    oninput: function () { setParaGap(this.value) }
+    oninput: function () {
+      setParaGap(this.value)
+    },
   })
   var pgVal = el('span', { class: 'wn-slider-value' })
   pgRow.appendChild(pgInput)
@@ -536,7 +593,7 @@
   var dimBtn = el('button', {
     id: 'wn-dim-btn',
     class: 'wn-chip',
-    onclick: toggleDimImages
+    onclick: toggleDimImages,
   })
   dimBtn.appendChild(text('Dim Images'))
   extraToggleRow.appendChild(dimBtn)
@@ -544,7 +601,7 @@
   var autoBtn = el('button', {
     id: 'wn-auto-btn',
     class: 'wn-chip',
-    onclick: toggleAutoHide
+    onclick: toggleAutoHide,
   })
   autoBtn.appendChild(text('Auto-hide Nav'))
   extraToggleRow.appendChild(autoBtn)
@@ -558,7 +615,7 @@
   // Focus mode
   var focusBtn = el('button', {
     id: 'wn-focus-btn',
-    onclick: toggleFocusMode
+    onclick: toggleFocusMode,
   })
   focusBtn.appendChild(icon('#wn-maximize', 16))
   focusBtn.appendChild(text('Reading Mode'))
@@ -571,7 +628,7 @@
   var fab = el('button', {
     id: 'wn-fab',
     'aria-label': 'Open reading settings',
-    onclick: togglePanel
+    onclick: togglePanel,
   })
   fab.appendChild(icon('#wn-gear', 22))
 
@@ -591,7 +648,7 @@
   if (document.body) {
     document.body.appendChild(container)
   } else {
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', () => {
       document.body.appendChild(container)
     })
   }
@@ -600,9 +657,11 @@
   // Wrap bare <table> elements in a scrollable container so overflow-x:auto
   // works (overflow doesn't apply to display:table elements directly).
   function wrapTables() {
-    var tables = document.querySelectorAll('.sl-markdown-content > table, article table, .content table')
-    tables.forEach(function (tbl) {
-      if (tbl.parentNode.classList && tbl.parentNode.classList.contains('wn-table-wrapper')) return
+    var tables = document.querySelectorAll(
+      '.sl-markdown-content > table, article table, .content table',
+    )
+    tables.forEach(tbl => {
+      if (tbl.parentNode.classList?.contains('wn-table-wrapper')) return
       var wrapper = document.createElement('div')
       wrapper.className = 'wn-table-wrapper'
       wrapper.style.overflowX = 'auto'
@@ -733,7 +792,10 @@
 
   function setLocale(value) {
     var current = detectCurrentLocale()
-    if (current === value) { updateUI(); return }
+    if (current === value) {
+      updateUI()
+      return
+    }
     lsSet(LS_KEYS.LOCALE, value)
     var path = window.location.pathname
     var search = window.location.search
@@ -742,7 +804,7 @@
     if (value === 'en') {
       newPath = current === 'zh' ? path.replace(/^\/zh(?:\/|$)/, '/') || '/' : path
     } else {
-      newPath = current === 'en' ? '/zh' + (path === '/' ? '' : path) : path
+      newPath = current === 'en' ? `/zh${path === '/' ? '' : path}` : path
     }
     window.location.href = newPath + search + hash
   }
@@ -766,26 +828,29 @@
 
     // Theme chips
     var chips = themeRow.querySelectorAll('.wn-chip')
-    chips.forEach(function (c) {
+    chips.forEach(c => {
       c.classList.toggle('active', c.dataset.value === theme)
     })
 
     // Font size
     fsInput.value = fontSize
-    fsVal.textContent = Math.round(parseFloat(fontSize) * 100) + '%'
+    fsVal.textContent = `${Math.round(parseFloat(fontSize) * 100)}%`
 
     // Line height slider
-    if (lhInput) { lhInput.value = lineHeight; lhVal.textContent = lineHeight }
+    if (lhInput) {
+      lhInput.value = lineHeight
+      lhVal.textContent = lineHeight
+    }
 
     // Content width chips
     var cwChips = cwRow.querySelectorAll('.wn-chip')
-    cwChips.forEach(function (c) {
+    cwChips.forEach(c => {
       c.classList.toggle('active', c.dataset.value === contentWidth)
     })
 
     // Font family chips
     var ffChips = ffRow.querySelectorAll('.wn-chip')
-    ffChips.forEach(function (c) {
+    ffChips.forEach(c => {
       c.classList.toggle('active', c.dataset.value === fontFamily)
     })
 
@@ -798,7 +863,7 @@
     // Locale chips
     var locale = lsGet(LS_KEYS.LOCALE)
     var localeChips = localeRow.querySelectorAll('.wn-chip')
-    localeChips.forEach(function (c) {
+    localeChips.forEach(c => {
       c.classList.toggle('active', c.dataset.value === locale)
     })
 
@@ -814,10 +879,13 @@
 
     // Letter spacing slider
     lsInput.value = letterSpacing
-    lsVal.textContent = parseFloat(letterSpacing) + 'px'
+    lsVal.textContent = `${parseFloat(letterSpacing)}px`
 
     // Paragraph gap slider
-    if (pgInput) { pgInput.value = paraGap; pgVal.textContent = paraGap + 'x' }
+    if (pgInput) {
+      pgInput.value = paraGap
+      pgVal.textContent = `${paraGap}x`
+    }
 
     // Extra toggles
     dimBtn.classList.toggle('active', dimImages === 'true')
@@ -833,7 +901,7 @@
     var scrollHeight = document.documentElement.scrollHeight - window.innerHeight
     if (scrollHeight > 0) {
       var pct = Math.min((scrollTop / scrollHeight) * 100, 100)
-      progress.style.width = pct + '%'
+      progress.style.width = `${pct}%`
     }
   }
 
@@ -851,7 +919,7 @@
 
   // ─── Reading Position Memory ──────────────────────────────────────────────
 
-  var POSITION_KEY = 'wn-pos-' + window.location.pathname
+  var POSITION_KEY = `wn-pos-${window.location.pathname}`
 
   function savePosition() {
     try {
@@ -867,7 +935,7 @@
       var pos = sessionStorage.getItem(POSITION_KEY)
       if (pos && parseInt(pos, 10) > 0) {
         // Restore after a short delay to let the page render
-        setTimeout(function () {
+        setTimeout(() => {
           window.scrollTo(0, parseInt(pos, 10))
         }, 100)
       }
@@ -888,17 +956,219 @@
     document.addEventListener('DOMContentLoaded', restorePosition)
   }
 
-  // ─── Keyboard Shortcut ────────────────────────────────────────────────────
+  // ─── Keyboard Shortcuts ────────────────────────────────────────────────────
 
-  document.addEventListener('keydown', function (e) {
-    // Ctrl+, or Cmd+, to open settings
-    if ((e.ctrlKey || e.metaKey) && e.key === ',') {
-      e.preventDefault()
-      togglePanel()
+  var SHORTCUTS = {
+    '?': 'Show keyboard shortcuts',
+    s: 'Search all sites',
+    '/': 'Search all sites',
+    t: 'Cycle theme',
+    f: 'Toggle focus mode',
+    n: 'Next page',
+    p: 'Previous page',
+    j: 'Scroll down',
+    k: 'Scroll up',
+  }
+
+  var KEY_DISPLAY = {
+    '?': '?',
+    s: 's /',
+    '/': 's /',
+    t: 't',
+    f: 'f',
+    n: 'n',
+    p: 'p',
+    j: 'j',
+    k: 'k',
+  }
+
+  var gPending = false
+
+  function getNavLink(dir) {
+    var links = document.querySelectorAll('.pagination-links a')
+    if (dir === 'next') return links[links.length > 1 ? 1 : 0]
+    if (dir === 'prev') return links[0]
+    return null
+  }
+
+  function buildCheatSheet() {
+    var overlay = el('div', { id: 'wn-cheat-overlay' })
+    overlay.addEventListener('click', e => {
+      if (e.target === overlay) hideCheatSheet()
+    })
+    var card = el('div', { id: 'wn-cheat-card' })
+    var title = el('h3', { id: 'wn-cheat-title' })
+    title.appendChild(text('Keyboard Shortcuts'))
+    card.appendChild(title)
+    var list = el('div', { id: 'wn-cheat-list' })
+    var entries = [
+      { key: '?', desc: 'Show this help' },
+      { key: 's /', desc: 'Search all sites' },
+      { key: 't', desc: 'Cycle theme' },
+      { key: 'f', desc: 'Toggle reading mode' },
+      { key: 'n', desc: 'Next page' },
+      { key: 'p', desc: 'Previous page' },
+      { key: 'j/k', desc: 'Scroll up/down' },
+      { key: 'Esc', desc: 'Close panel / cheat sheet' },
+    ]
+    entries.forEach(entry => {
+      var row = el('div', { class: 'wn-cheat-row' })
+      var keyEl = el('span', { class: 'wn-cheat-key' })
+      keyEl.appendChild(text(entry.key))
+      row.appendChild(keyEl)
+      var descEl = el('span', { class: 'wn-cheat-desc' })
+      descEl.appendChild(text(entry.desc))
+      row.appendChild(descEl)
+      list.appendChild(row)
+    })
+    card.appendChild(list)
+    var hint = el('p', { id: 'wn-cheat-hint' })
+    hint.appendChild(text('Press ? to close'))
+    card.appendChild(hint)
+    overlay.appendChild(card)
+    return overlay
+  }
+
+  var cheatSheet = null
+
+  function showCheatSheet() {
+    if (!cheatSheet) cheatSheet = buildCheatSheet()
+    document.body.appendChild(cheatSheet)
+    setTimeout(() => {
+      cheatSheet.classList.add('open')
+    }, 10)
+  }
+
+  function hideCheatSheet() {
+    if (!cheatSheet) return
+    cheatSheet.classList.remove('open')
+    setTimeout(() => {
+      if (cheatSheet.parentNode) cheatSheet.parentNode.removeChild(cheatSheet)
+    }, 250)
+  }
+
+  function toggleCheatSheet() {
+    if (cheatSheet?.parentNode) hideCheatSheet()
+    else showCheatSheet()
+  }
+
+  var themeIndex = 0
+  function cycleTheme() {
+    var current = lsGet(LS_KEYS.THEME)
+    for (var i = 0; i < THEMES.length; i++) {
+      if (THEMES[i].value === current) {
+        themeIndex = i
+        break
+      }
     }
-    // Escape to close
-    if (e.key === 'Escape' && panel.classList.contains('open')) {
-      closePanel()
+    themeIndex = (themeIndex + 1) % THEMES.length
+    setTheme(THEMES[themeIndex].value)
+  }
+
+  function focusSearch() {
+    var input = document.querySelector('#cross-site-search-input')
+    if (input) {
+      input.focus()
+      return
+    }
+    var btn = document.getElementById('custom-search-btn')
+    if (btn) btn.click()
+  }
+
+  function openPageSearch() {
+    if (window.openSearchModal) {
+      window.openSearchModal()
+    } else {
+      focusSearch()
+    }
+  }
+
+  document.addEventListener('keydown', e => {
+    // Ignore if user is typing in an input/textarea/select
+    var tag = e.target?.tagName
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') {
+      if (e.key === 'Escape') {
+        e.target.blur()
+      }
+      return
+    }
+
+    // Two-key sequence: g then h → home
+    if (e.key === 'g' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      gPending = true
+      setTimeout(() => {
+        gPending = false
+      }, 800)
+      return
+    }
+    if (e.key === 'h' && gPending) {
+      gPending = false
+      e.preventDefault()
+      window.location.href = '/'
+      return
+    }
+    gPending = false
+
+    // Ctrl+/Cmd+ shortcuts
+    if (e.ctrlKey || e.metaKey) {
+      if (e.key === ',') {
+        e.preventDefault()
+        togglePanel()
+        return
+      }
+      if (e.key === 'f') {
+        e.preventDefault()
+        openPageSearch()
+        return
+      }
+      return
+    }
+
+    switch (e.key) {
+      case '?':
+        e.preventDefault()
+        toggleCheatSheet()
+        break
+      case 's':
+      case '/':
+        e.preventDefault()
+        focusSearch()
+        break
+      case 't':
+        e.preventDefault()
+        cycleTheme()
+        break
+      case 'f':
+        e.preventDefault()
+        toggleFocusMode()
+        break
+      case 'n': {
+        e.preventDefault()
+        var nextLink = getNavLink('next')
+        if (nextLink) window.location.href = nextLink.getAttribute('href')
+        break
+      }
+      case 'p': {
+        e.preventDefault()
+        var prevLink = getNavLink('prev')
+        if (prevLink) window.location.href = prevLink.getAttribute('href')
+        break
+      }
+      case 'j':
+        e.preventDefault()
+        window.scrollBy(0, 100)
+        break
+      case 'k':
+        e.preventDefault()
+        window.scrollBy(0, -100)
+        break
+      case 'Escape':
+        if (cheatSheet?.parentNode) {
+          hideCheatSheet()
+        } else if (panel.classList.contains('open')) {
+          closePanel()
+        }
+        break
     }
   })
 
@@ -915,7 +1185,8 @@
   var DICTIONARY_API = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
 
   var dictPopup = el('div', { id: 'wn-dict-popup' })
-  dictPopup.style.cssText = 'position:fixed;z-index:99990;background:var(--wn-bg-elevated,#12121a);border:1px solid var(--wn-border,#2a2a3a);border-radius:12px;padding:12px 16px;max-width:320px;box-shadow:var(--wn-elevation-3);font-size:0.85rem;line-height:1.5;display:none;color:var(--wn-text,#e8e8ed);'
+  dictPopup.style.cssText =
+    'position:fixed;z-index:99990;background:var(--wn-bg-elevated,#12121a);border:1px solid var(--wn-border,#2a2a3a);border-radius:12px;padding:12px 16px;max-width:320px;box-shadow:var(--wn-elevation-3);font-size:0.85rem;line-height:1.5;display:none;color:var(--wn-text,#e8e8ed);'
   dictPopup.innerHTML = '<div id="wn-dict-content"></div><div id="wn-dict-actions"></div>'
   document.body.appendChild(dictPopup)
 
@@ -929,19 +1200,22 @@
   }
 
   function getHighlightsKey() {
-    return 'wn-highlights-' + window.location.pathname
+    return `wn-highlights-${window.location.pathname}`
   }
 
   function loadHighlights() {
     try {
       var data = localStorage.getItem(getHighlightsKey())
       return data ? JSON.parse(data) : []
-    } catch (e) { return [] }
+    } catch (e) {
+      return []
+    }
   }
 
   function saveHighlights(arr) {
-    try { localStorage.setItem(getHighlightsKey(), JSON.stringify(arr)) }
-    catch (e) {}
+    try {
+      localStorage.setItem(getHighlightsKey(), JSON.stringify(arr))
+    } catch (e) {}
   }
 
   function highlightSelection(color) {
@@ -957,14 +1231,14 @@
   }
 
   function applyHighlights() {
-    document.querySelectorAll('mark.wn-highlight').forEach(function (m) {
+    document.querySelectorAll('mark.wn-highlight').forEach(m => {
       var p = m.parentNode
       p.replaceChild(document.createTextNode(m.textContent), m)
       p.normalize()
     })
     var arr = loadHighlights()
     if (!arr.length) return
-    arr.forEach(function (h) {
+    arr.forEach(h => {
       var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false)
       while (walker.nextNode()) {
         var node = walker.currentNode
@@ -977,38 +1251,51 @@
         r.setEnd(node, idx + h.text.length)
         var mark = document.createElement('mark')
         mark.className = 'wn-highlight'
-        mark.style.cssText = 'background:' + (HIGHLIGHT_COLORS[h.color] || HIGHLIGHT_COLORS.yellow) + ';color:inherit;border-radius:2px;padding:0 2px;'
+        mark.style.cssText = `background:${HIGHLIGHT_COLORS[h.color] || HIGHLIGHT_COLORS.yellow};color:inherit;border-radius:2px;padding:0 2px;`
         r.surroundContents(mark)
         break
       }
     })
   }
-
   // ─── Init highlight buttons ────────────────────────────────────────────
 
   ;(function initDictActions() {
     var actions = document.getElementById('wn-dict-actions')
     if (!actions) return
-    actions.style.cssText = 'display:flex;gap:4px;margin-top:8px;padding-top:8px;border-top:1px solid var(--wn-border,#2a2a3a);'
+    actions.style.cssText =
+      'display:flex;gap:4px;margin-top:8px;padding-top:8px;border-top:1px solid var(--wn-border,#2a2a3a);'
     var label = document.createElement('span')
-    label.style.cssText = 'font-size:0.75rem;color:var(--wn-text-muted,#8888a0);margin-right:4px;align-self:center'
+    label.style.cssText =
+      'font-size:0.75rem;color:var(--wn-text-muted,#8888a0);margin-right:4px;align-self:center'
     label.textContent = 'Highlight:'
     actions.appendChild(label)
-    var colorLabels = { yellow: '\uD83D\uDFE1', green: '\uD83D\uDFE2', blue: '\uD83D\uDD35', pink: '\uD83E\uDD77' }
-    ;['yellow', 'green', 'blue', 'pink'].forEach(function (c) {
+    var colorLabels = {
+      yellow: '\uD83D\uDFE1',
+      green: '\uD83D\uDFE2',
+      blue: '\uD83D\uDD35',
+      pink: '\uD83E\uDD77',
+    }
+    ;['yellow', 'green', 'blue', 'pink'].forEach(c => {
       var btn = document.createElement('button')
       btn.textContent = colorLabels[c]
-      btn.style.cssText = 'border:none;background:none;cursor:pointer;font-size:1rem;padding:2px 4px;border-radius:4px;transition:background 0.15s;'
-      btn.addEventListener('mouseenter', function () { btn.style.background = 'var(--wn-bg-hover,#242436)' })
-      btn.addEventListener('mouseleave', function () { btn.style.background = 'none' })
-      btn.addEventListener('click', function () { highlightSelection(c) })
+      btn.style.cssText =
+        'border:none;background:none;cursor:pointer;font-size:1rem;padding:2px 4px;border-radius:4px;transition:background 0.15s;'
+      btn.addEventListener('mouseenter', () => {
+        btn.style.background = 'var(--wn-bg-hover,#242436)'
+      })
+      btn.addEventListener('mouseleave', () => {
+        btn.style.background = 'none'
+      })
+      btn.addEventListener('click', () => {
+        highlightSelection(c)
+      })
       actions.appendChild(btn)
     })
   })()
 
   // ─── Dict popup events ─────────────────────────────────────────────────
 
-  document.addEventListener('mouseup', function (e) {
+  document.addEventListener('mouseup', _e => {
     var sel = window.getSelection()
     var text = sel ? sel.toString().trim() : ''
     if (text.length < 2 || text.length > 50) {
@@ -1017,34 +1304,34 @@
     }
     var range = sel.getRangeAt(0)
     var rect = range.getBoundingClientRect()
-    dictPopup.style.top = (rect.bottom + 8) + 'px'
-    dictPopup.style.left = Math.min(rect.left, window.innerWidth - 340) + 'px'
+    dictPopup.style.top = `${rect.bottom + 8}px`
+    dictPopup.style.left = `${Math.min(rect.left, window.innerWidth - 340)}px`
     dictPopup.style.display = 'block'
     var content = document.getElementById('wn-dict-content')
-    content.innerHTML = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div><div style="color:var(--wn-text-muted,#8888a0);font-size:0.75rem">Looking up...</div>'
+    content.innerHTML = `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(text)}</div><div style="color:var(--wn-text-muted,#8888a0);font-size:0.75rem">Looking up...</div>`
     fetch(DICTIONARY_API + encodeURIComponent(text))
-      .then(function (r) { return r.json() })
-      .then(function (data) {
-        if (data && data[0] && data[0].meanings) {
+      .then(r => r.json())
+      .then(data => {
+        if (data?.[0]?.meanings) {
           var meanings = data[0].meanings.slice(0, 2)
-          var html = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div>'
-          meanings.forEach(function (m) {
-            html += '<div style="font-size:0.7rem;color:var(--wn-text-dim,#5a5a70);margin-bottom:2px">' + escapeHtml(m.partOfSpeech) + '</div>'
-            if (m.definitions && m.definitions[0]) {
-              html += '<div style="margin-bottom:6px">' + escapeHtml(m.definitions[0].definition) + '</div>'
+          var html = `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(text)}</div>`
+          meanings.forEach(m => {
+            html += `<div style="font-size:0.7rem;color:var(--wn-text-dim,#5a5a70);margin-bottom:2px">${escapeHtml(m.partOfSpeech)}</div>`
+            if (m.definitions?.[0]) {
+              html += `<div style="margin-bottom:6px">${escapeHtml(m.definitions[0].definition)}</div>`
             }
           })
           content.innerHTML = html
         } else {
-          content.innerHTML = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div><div style="color:var(--wn-text-muted,#8888a0)">No definition found</div>'
+          content.innerHTML = `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(text)}</div><div style="color:var(--wn-text-muted,#8888a0)">No definition found</div>`
         }
       })
-      .catch(function () {
-        content.innerHTML = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div><div style="color:var(--wn-text-muted,#8888a0)">Definition unavailable</div>'
+      .catch(() => {
+        content.innerHTML = `<div style="font-weight:600;margin-bottom:4px">${escapeHtml(text)}</div><div style="color:var(--wn-text-muted,#8888a0)">Definition unavailable</div>`
       })
   })
 
-  document.addEventListener('mousedown', function (e) {
+  document.addEventListener('mousedown', e => {
     if (dictPopup.style.display !== 'none' && !dictPopup.contains(e.target)) {
       dictPopup.style.display = 'none'
     }

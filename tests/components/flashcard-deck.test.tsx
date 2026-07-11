@@ -192,9 +192,7 @@ describe('FlashcardDeck Component', () => {
 
   it('should return to deck view after rating all cards', async () => {
     // Use a single-card deck so one rating completes the review.
-    const singleCard: Flashcard[] = [
-      { id: '1', front: 'Test?', back: 'Answer', tags: ['test'] },
-    ]
+    const singleCard: Flashcard[] = [{ id: '1', front: 'Test?', back: 'Answer', tags: ['test'] }]
     render(() => <FlashcardDeck cards={singleCard} deckId="test-single" />)
     await fireEvent.click(screen.getByText('Study Now'))
     const card = screen.getByRole('button', { name: /Card question/ })

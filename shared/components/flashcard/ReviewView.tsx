@@ -5,9 +5,9 @@
 
 import { For } from 'solid-js'
 import { t } from '../../i18n/config'
+import type { Flashcard } from '../FlashcardDeck'
 import { RATING_CONFIG } from './constants'
 import type { Rating } from './sm2'
-import type { Flashcard } from '../FlashcardDeck'
 
 function RatingButton(props: {
   config: (typeof RATING_CONFIG)[number]

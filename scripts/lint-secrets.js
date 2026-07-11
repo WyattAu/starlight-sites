@@ -14,9 +14,9 @@
  * If no files given, scans all tracked files.
  */
 
-const { execFileSync } = require('child_process')
-const fs = require('fs')
-const path = require('path')
+const { execFileSync } = require('node:child_process')
+const fs = require('node:fs')
+const path = require('node:path')
 
 const ROOT = path.join(__dirname, '..')
 
@@ -35,7 +35,7 @@ const HIGH_CONFIDENCE = [
 const MEDIUM_CONFIDENCE = [
   { re: /(?:password|passwd|pwd)\s*[:=]\s*['"][^'"]{4,}/, label: 'Hardcoded Password' },
   { re: /(?:api[_-]?key|apikey)\s*[:=]\s*['"][^'"]{10,}/, label: 'Hardcoded API Key' },
-  { re: /(?:secret|token)\s*[:=]\s*['"][a-zA-Z0-9_\-]{10,}/, label: 'Hardcoded Secret/Token' },
+  { re: /(?:secret|token)\s*[:=]\s*['"][a-zA-Z0-9_-]{10,}/, label: 'Hardcoded Secret/Token' },
   { re: /(?:connection[_-]?string|conn[_-]?str)\s*[:=]\s*['"][^'"]+/, label: 'Connection String' },
 ]
 
@@ -61,7 +61,10 @@ function getFilesToScan(explicitFiles) {
   // Scan all tracked files
   try {
     const output = execFileSync('git', ['ls-files'], { cwd: ROOT, encoding: 'utf8' })
-    return output.trim().split('\n').filter(f => !shouldSkip(f))
+    return output
+      .trim()
+      .split('\n')
+      .filter(f => !shouldSkip(f))
   } catch {
     return []
   }

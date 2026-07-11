@@ -10,8 +10,6 @@
  * Kobalte-backed components without a browser.
  */
 
-
-
 // Kobalte (via @solid-aria) calls these for pointer capture during press and
 // drag interactions; jsdom does not implement them.
 if (!Element.prototype.hasPointerCapture) {

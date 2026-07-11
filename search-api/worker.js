@@ -284,7 +284,7 @@ async function handleSearch(request, url, env, corsHeaders) {
   // and a curated common-query list (see generateSuggestions).
   let suggestions = []
   if (results.length === 0) {
-  const trending = (await env.SEARCH_KV?.get('trending', { type: 'json' })) || []
+    const trending = (await env.SEARCH_KV?.get('trending', { type: 'json' })) || []
     suggestions = generateSuggestions(query, trending).slice(0, 5)
   }
 
@@ -540,7 +540,7 @@ async function handleHealth(env, corsHeaders) {
         zeroResults: metrics?.zeroResults || 0,
         zeroResultRate:
           metrics && metrics.totalSearches > 0
-            ? ((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1) + '%'
+            ? `${((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1)}%`
             : '0%',
         avgLatencyMs,
         maxLatencyMs: metrics?.latencyMax || 0,

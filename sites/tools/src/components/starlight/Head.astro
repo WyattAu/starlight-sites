@@ -76,6 +76,32 @@ const articleSchema = {
 </script>
 <title>{fullTitle}</title>
 
+<link rel="manifest" href="/manifest.json">
+
+<script is:inline>
+(function() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').then(function(reg) {
+      console.log('SW registered:', reg.scope)
+      reg.addEventListener('updatefound', function() {
+        var newSW = reg.installing
+        newSW.addEventListener('statechange', function() {
+          if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
+            console.log('New SW available — activating')
+            newSW.postMessage({ type: 'SKIP_WAITING' })
+          }
+        })
+      })
+    }).catch(function(err) {
+      console.warn('SW registration failed:', err)
+    })
+    navigator.serviceWorker.addEventListener('controllerchange', function() {
+      window.location.reload()
+    })
+  }
+})()
+</script>
+
 <!-- Reading controls (floating settings, focus mode, progress, position memory) -->
 <script src="/reader.js" defer></script>
 
