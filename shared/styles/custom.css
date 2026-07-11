@@ -611,56 +611,78 @@
   color: var(--sl-color-asides-text-accent);
 }
 
-/* Code blocks - per-theme backgrounds for proper contrast */
+/* Code blocks - per-theme backgrounds, text, and syntax token colors */
+/* Dark themes: dark bg, light text, bright tokens */
 [data-theme="dark"] .expressive-code {
   --ec-bg: #1a1a24;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #2a2a3a;
+  --ec-fg: #e8e8ed;
+  --ec-td: #5a5a70;
+  --ec-ti: #ffd700;
 }
 [data-theme="nord"] .expressive-code {
   --ec-bg: #3b4252;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #4c566a;
+  --ec-fg: #d8dee9;
+  --ec-td: #6a7a8a;
+  --ec-ti: #88c0d0;
 }
 [data-theme="dracula"] .expressive-code {
   --ec-bg: #44475a;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #6272a4;
+  --ec-fg: #f8f8f2;
+  --ec-td: #6272a4;
+  --ec-ti: #f1fa8c;
 }
 [data-theme="monokai"] .expressive-code {
   --ec-bg: #383830;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #49483e;
+  --ec-fg: #f8f8f2;
+  --ec-td: #75715e;
+  --ec-ti: #a6e22e;
 }
 [data-theme="ayu-mirage"] .expressive-code {
   --ec-bg: #2a3040;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #3a4150;
+  --ec-fg: #d4d4d4;
+  --ec-td: #5c6a7a;
+  --ec-ti: #a6cc70;
 }
 [data-theme="contrast"] .expressive-code {
   --ec-bg: #111111;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #333333;
+  --ec-fg: #ffffff;
+  --ec-td: #888888;
+  --ec-ti: #ffffff;
 }
+/* Light themes: light bg, dark text, saturated tokens with good contrast */
 [data-theme="light"] .expressive-code {
   --ec-bg: #ece7e0;
-  --ec-border: var(--wn-border);
-  --ec-fg: var(--wn-text);
+  --ec-border: #d0cac2;
+  --ec-fg: #1a1a1a;
+  --ec-td: #8a8580;
+  --ec-ti: #0055aa;
 }
 [data-theme="sepia"] .expressive-code {
   --ec-bg: #f3ead0;
   --ec-border: #d8ccb8;
   --ec-fg: #5b4636;
+  --ec-td: #a09078;
+  --ec-ti: #6a4a2a;
 }
 [data-theme="solarized"] .expressive-code {
   --ec-bg: #f5efd5;
   --ec-border: #d3cbb8;
   --ec-fg: #657b83;
+  --ec-td: #93a1a1;
+  --ec-ti: #268bd2;
 }
 [data-theme="papercolor"] .expressive-code {
   --ec-bg: #e0e0e0;
   --ec-border: #c0c0c0;
   --ec-fg: #444444;
+  --ec-td: #888888;
+  --ec-ti: #005f87;
 }
 
 /* Inline code — distinct bg per theme so it's visibly different from page bg */

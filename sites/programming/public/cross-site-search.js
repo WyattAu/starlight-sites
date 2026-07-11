@@ -55,24 +55,27 @@ function initCrossSiteSearch() {
         padding: 0.25rem 0.5rem 0.25rem 1.75rem;
         font-size: 0.8rem;
         height: 28px;
-        background: var(--color-gray-900, #1e293b);
-        border: 1px solid var(--color-gray-700, #334155);
+        background: var(--wn-bg-card, #1a1a24);
+        border: 1px solid var(--wn-border, #2a2a3a);
         border-radius: 6px;
-        color: var(--color-gray-100, #e2e8f0);
+        color: var(--wn-text, #e8e8ed);
         outline: none;
         transition: width 0.2s, border-color 0.2s;
         box-sizing: border-box;
       }
+      #cross-site-search input::placeholder {
+        color: var(--wn-text-dim, #5a5a70);
+      }
       #cross-site-search input:focus {
         width: 240px;
-        border-color: var(--color-orange-500, #ff6b35);
+        border-color: var(--sl-color-accent, #ff6b35);
       }
       #cross-site-search .search-icon {
         position: absolute;
         left: 0.5rem;
         top: 50%;
         transform: translateY(-50%);
-        color: var(--color-gray-400, #94a3b8);
+        color: var(--wn-text-muted, #8888a0);
         pointer-events: none;
         width: 14px;
         height: 14px;
@@ -83,10 +86,10 @@ function initCrossSiteSearch() {
         right: 0;
         width: 400px;
         margin-top: 0.5rem;
-        background: var(--color-gray-900, #1e293b);
-        border: 1px solid var(--color-gray-700, #334155);
+        background: var(--wn-bg-elevated, #12121a);
+        border: 1px solid var(--wn-border, #2a2a3a);
         border-radius: 10px;
-        box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        box-shadow: var(--wn-elevation-3);
         max-height: 400px;
         overflow-y: auto;
         z-index: 1000;
@@ -98,7 +101,7 @@ function initCrossSiteSearch() {
       #cross-site-search .search-result {
         display: block;
         padding: 0.75rem 1rem;
-        border-bottom: 1px solid var(--color-gray-700, #334155);
+        border-bottom: 1px solid var(--wn-border-light, #3a3a4a);
         text-decoration: none;
         color: inherit;
         transition: background 0.15s;
@@ -107,7 +110,7 @@ function initCrossSiteSearch() {
         border-bottom: none;
       }
       #cross-site-search .search-result:hover {
-        background: var(--color-gray-800, #334155);
+        background: var(--wn-bg-hover, #242436);
       }
       #cross-site-search .result-site {
         display: inline-block;
@@ -120,20 +123,20 @@ function initCrossSiteSearch() {
       #cross-site-search .result-title {
         font-weight: 600;
         font-size: 0.85rem;
-        margin-bottom: 0.15rem;
+        margin-bottom: 0.25rem;
       }
       #cross-site-search .result-url {
         font-size: 0.7rem;
-        color: var(--color-gray-400, #94a3b8);
+        color: var(--wn-text-muted, #8888a0);
       }
       #cross-site-search .search-footer {
         padding: 0.5rem 1rem;
         font-size: 0.75rem;
-        color: var(--color-gray-400, #94a3b8);
+        color: var(--wn-text-muted, #8888a0);
         text-align: center;
       }
       #cross-site-search mark {
-        background: rgba(255, 107, 53, 0.3);
+        background: color-mix(in srgb, var(--sl-color-accent) 30%, transparent);
         color: inherit;
         border-radius: 2px;
         padding: 0 1px;
