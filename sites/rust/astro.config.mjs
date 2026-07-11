@@ -35,7 +35,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Rust', autogenerate: { directory: '.' } },
+        { label: 'Rust', items: [{ autogenerate: { directory: '.' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

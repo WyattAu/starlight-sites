@@ -35,7 +35,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Typescript', autogenerate: { directory: '.' } },
+        { label: 'Typescript', items: [{ autogenerate: { directory: '.' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

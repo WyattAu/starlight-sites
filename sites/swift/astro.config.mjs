@@ -35,7 +35,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Swift', autogenerate: { directory: '.' } },
+        { label: 'Swift', items: [{ autogenerate: { directory: '.' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

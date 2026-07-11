@@ -35,7 +35,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Haskell', autogenerate: { directory: '.' } },
+        { label: 'Haskell', items: [{ autogenerate: { directory: '.' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

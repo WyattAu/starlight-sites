@@ -35,7 +35,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Python', autogenerate: { directory: '.' } },
+        { label: 'Python', items: [{ autogenerate: { directory: '.' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
