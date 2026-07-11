@@ -22,6 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Infrastructure',
       pagefind: false,
+      expressiveCode: { themes: ['min-dark', 'min-light'] },
       description:
         'Server administration, databases, networking, security, and system tuning reference materials.',
 

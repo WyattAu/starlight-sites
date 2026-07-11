@@ -711,6 +711,25 @@
   padding: 0.15em 0.4em;
 }
 
+/* === Expressive Code: force dual-theme support via data-theme === */
+/* EC generates spans with --0 (light) and --1 (dark) token colors.
+   By default it uses @media (prefers-color-scheme) to switch. We use
+   data-theme instead, so override to follow our theme attribute. */
+[data-theme="dark"] .expressive-code .ec-line .code span,
+[data-theme="nord"] .expressive-code .ec-line .code span,
+[data-theme="dracula"] .expressive-code .ec-line .code span,
+[data-theme="monokai"] .expressive-code .ec-line .code span,
+[data-theme="ayu-mirage"] .expressive-code .ec-line .code span,
+[data-theme="contrast"] .expressive-code .ec-line .code span {
+  color: var(--1) !important;
+}
+[data-theme="light"] .expressive-code .ec-line .code span,
+[data-theme="sepia"] .expressive-code .ec-line .code span,
+[data-theme="solarized"] .expressive-code .ec-line .code span,
+[data-theme="papercolor"] .expressive-code .ec-line .code span {
+  color: var(--0) !important;
+}
+
 /* Table header contrast */
 .sl-markdown-content th {
   background: var(--sl-color-gray-7);

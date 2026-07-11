@@ -18,6 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Qualifications',
       pagefind: false,
+      expressiveCode: { themes: ['min-dark', 'min-light'] },
       description:
         'GCSE, AP, Scottish Highers, Irish Leaving Certificate, and other qualification revision notes with exam-style practice.',
 

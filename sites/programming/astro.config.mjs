@@ -22,6 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Programming',
       pagefind: false,
+      expressiveCode: { themes: ['min-dark', 'min-light'] },
       description:
         'Deep C++ systems programming notes covering ownership, RAII, templates, concurrency, and build systems.',
 

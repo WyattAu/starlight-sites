@@ -18,6 +18,7 @@ export default defineConfig({
     starlight({
       title: 'DSE',
       pagefind: false,
+      expressiveCode: { themes: ['min-dark', 'min-light'] },
       description:
         'Hong Kong DSE revision notes with worked examples and practice problems for Mathematics, Physics, Chemistry, Biology, and ICT.',
 
