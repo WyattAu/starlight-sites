@@ -112,4 +112,36 @@ infinitely often, contradicting continuity. $\blacksquare$
 - Are you confusing sequentially compact with compact? They are equivalent in metric spaces but
   not in general topological spaces.
 - Is the space Hausdorff? Many theorems about compactness and uniqueness of limits require
-  Hausdorff separation.
+   Hausdorff separation.
+
+### Additional Pitfalls
+
+15. **"The product of Hausdorff spaces is Hausdorff."** This is true for the product topology but
+    false for the box topology on an infinite product. In the box topology, the product of
+    Hausdorff spaces may fail to be Hausdorff because the basis elements are too restrictive.
+
+16. **"Every continuous function on a compact set attains its maximum."** True for functions into
+    $\mathbb{R}$ (extreme value theorem), but the codomain matters. A continuous function from a
+    compact space into an arbitrary topological space need not attain a "maximum" — the concept
+    of maximum requires an order structure.
+
+17. **"A subspace of a connected space is connected."** False. The interval $(0,1) \cup (2,3)$ is a
+    subspace of the connected space $\mathbb{R}$ but is disconnected. Connectedness is not
+    hereditary; only open connected subspaces inherit connectedness in general.
+
+18. **"All open covers of a compact space have a finite subcover."** This is the definition of
+    compactness, so it is true by definition. However, a common mistake is thinking that "every
+    open cover has a finite subcover" is a property to be proven rather than the definition. The
+    difficulty lies in finding the finite subcover, not in stating the definition.
+
+19. **"If $X$ is compact and $f : X \to Y$ is continuous, then $f$ is a homeomorphism onto its
+    image if $f$ is injective."** This requires $Y$ to be Hausdorff. Counterexample: the identity
+    map from $[0,1]$ with the discrete topology to $[0,1]$ with the standard topology is
+    continuous and bijective but not a homeomorphism (the domain is not compact in the discrete
+    topology). For a correct statement: a continuous bijection from a compact space to a
+    Hausdorff space is a homeomorphism.
+
+20. **"The one-point compactification of a space is always Hausdorff."** False. The one-point
+    compactification $X^* = X \cup \{\infty\}$ is Hausdorff if and only if $X$ is locally compact
+    and Hausdorff. For example, the one-point compactification of $\mathbb{Q}$ is not Hausdorff
+    because $\mathbb{Q}$ is not locally compact.

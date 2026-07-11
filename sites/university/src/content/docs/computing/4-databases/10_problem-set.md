@@ -98,3 +98,56 @@ description: "UNIVERSITY Computing notes: Problem Set. Comprehensive study mater
     node failures the system can tolerate while still serving both reads and writes? (c) How does
     the system behave during a network partition that isolates 3 nodes from the remaining 4?
 
+**Problems 21--22:** NoSQL and Big Data
+
+21. Compare the consistency models of Apache Cassandra (tunable consistency) and MongoDB (primary
+    replica reads). For each, give a concrete scenario where the chosen model causes unexpected
+    behaviour, and explain how the application can mitigate it.
+
+22. For the MapReduce word count task on a 10 GB text corpus distributed across 100 nodes, describe
+    the flow of data through the map, shuffle, and reduce phases. Estimate the amount of data
+    transferred over the network if each mapper emits (word, count) pairs and there are $10^6$
+    unique words. How would a combiner reduce network traffic?
+
+<details>
+<summary>Selected Solutions and Hints</summary>
+
+**Problem 1.** External level: individual user views. Conceptual level: logical structure
+(entity-relationship model). Internal level: physical storage (files, indexes). Logical data
+independence: conceptual schema changes (e.g., adding a column) do not require modifying external
+views as long as the view definition still maps to the underlying data.
+
+**Problem 4.** (a) Candidate keys: AB, AE, C (since C → D → E, and C with AB closure covers all
+attributes). (b) {A,B}$^+$ = {A,B,C,D,E} = all attributes. (c) {C}$^+$ = {C,D,E}, {D}$^+$ = {D,E}.
+
+**Problem 11.** (a) Candidate keys: A, CD, E (each determines all attributes).
+(b) Highest normal form: BCNF, since every FD has a superkey LHS.
+(c) Already in BCNF — no decomposition needed.
+
+**Problem 15.** B+ tree of order 3: after inserting 8,5,1,7,3,12,9,6, leaf splits occur at
+insertions of 7, 3, 12, 9, and 6 (5 splits). Internal splits occur at 7 and 6 (2 splits).
+
+**Problem 18.** Basic 2PL allows locks to be released after the transaction releases its first lock
+(shrinking phase). Strict 2PL holds all write locks until commit. Example: schedule
+$w_1(A), r_2(A), c_1, c_2$ is allowed by basic 2PL (T1 releases write lock after commit, T2
+acquires read lock), but not by strict 2PL (T1 must hold write lock until commit, blocking T2).
+
+**Problem 19.** (a) Coordinator waits for all votes. If a participant crashes after YES but before
+receiving decision, coordinator times out and aborts. (b) Coordinator crashes after sending COMMIT
+to some participants: surviving participants that received COMMIT will commit; those that did not
+will wait and eventually abort. A new coordinator must resolve the ambiguity using a termination
+protocol. (c) Coordinator crashes before sending any decision: all participants wait (blocked) until
+a new coordinator is elected or the old one recovers.
+
+**Problem 20.** (a) $W + R = 8 > N = 7$, so the read quorum and write quorum overlap by at least 1
+node, guaranteeing the read sees the latest write. (b) With quorum $W = 4$, $R = 4$, $N = 7$:
+writes can tolerate $N - W = 3$ failures; reads can tolerate $N - R = 3$ failures. During partition
+isolating 3 nodes, the side with 4 nodes has quorum; the side with 3 nodes cannot serve reads or
+writes.
+
+**Problem 21.** Cassandra uses tunable consistency: the client specifies the consistency level
+(ONE, QUORUM, ALL). At QUORUM, a read may return stale data during a partition if only a subset
+of replicas respond. Mitigation: use ALL for critical reads. MongoDB uses primary replica reads by
+default; stale reads occur during failover if reads are allowed on secondaries. Mitigation: use
+`"readPreference": "primary"` for consistency-critical queries.
+

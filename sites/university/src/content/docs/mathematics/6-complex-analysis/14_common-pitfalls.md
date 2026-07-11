@@ -119,3 +119,41 @@ are branch points rather than isolated poles. For example, $\sqrt{z}$ expanded a
 converges for $|z - 1| < 1$, limited by the branch point at $z = 0$, not by a pole.
 
 :::
+
+:::caution Common Pitfall The derivative of an analytic function is also analytic, but this is not
+obvious and requires proof (it follows from Cauchy's integral formula). A common mistake is to
+assume that if $f$ is differentiable once then it is $C^\infty$ without invoking complex analysis
+results. In real analysis, $f(x) = x^2\sin(1/x)$ extended by $f(0)=0$ is differentiable once but
+not twice.
+
+:::
+
+:::caution Common Pitfall The complex exponential $e^z$ is periodic with period $2\pi i$, not
+$2\pi$. This is because $e^{z+2\pi i} = e^z(\cos 2\pi + i\sin 2\pi) = e^z$. This periodicity
+in the imaginary direction means that equations like $e^z = w$ have infinitely many solutions
+spaced by $2\pi i$ in the imaginary direction.
+
+:::
+
+:::caution Common Pitfall The residue at a removable singularity is always zero. If $f$ has a
+removable singularity at $z_0$, then $\mathrm{Res}(f, z_0) = 0$ because the Laurent expansion
+has no negative powers. However, a function can have a removable singularity and still not be
+defined at $z_0$ (e.g., $\sin z/z$ at $z=0$).
+
+:::
+
+:::caution Common Pitfall When integrating $\int_{-\infty}^\infty f(x)\,dx$ using the residue
+theorem, you must check that $f$ has no poles on the real axis. If there are poles on the real
+axis, use an indented contour and take the principal value. For example,
+$\int_{-\infty}^\infty \sin x/x\,dx$ requires deforming around $z=0$ to avoid the apparent
+singularity (which is actually removable).
+
+:::
+
+:::caution Common Pitfall A function that is analytic on a simply connected domain always has
+an antiderivative, but this does **not** mean the integral along any closed contour is zero.
+The antiderivative must be single-valued. For $1/z$ on $\mathbb{C}\setminus\{0\}$, the
+"antiderivative" $\log z$ is multi-valued, so $\oint dz/z = 2\pi i$ despite $1/z$ being
+analytic on the punctured plane.
+
+:::

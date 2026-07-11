@@ -85,6 +85,42 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 - Query optimisation: cost-based selection of join algorithms (nested-loop, sort-merge, hash),
   predicate pushdown, and query plan caching.
 
+### Academic Papers and Surveys
+
+- Bernstein _et al._: "The Asilomar Report on Database Research" — landmark ACM report on
+  database research directions.
+- Stonebraker _et al._: "The End of an Architectural Era (It's Time for a Complete Rewrite)" —
+  argues for specialised database engines over one-size-fits-all.
+- DeWitt & Gray: "Parallel Database Systems: The Future of High Performance Database
+  Processing" — survey of shared-nothing, shared-memory, and shared-disk architectures.
+- Abiteboul, Hull, Vianu: _Foundations of Databases_ — rigorous treatment of database theory,
+  query languages, and complexity.
+- Gray _et al._: "Transaction Processing: Concepts and Techniques" — encyclopedic reference
+  on transaction processing, recovery, and concurrency control.
+
+### Online Resources
+
+- **Use The Index, Luke** (use-the-index-luke.com) — practical guide to SQL indexing strategies
+  with visual explainers.
+- **SQL Performance Explained** by Markus Winand — focused on index usage and query optimisation.
+- **CMU Database Group** lectures (YouTube) — Andy Pavlo's database course covering
+  architecture, storage, and modern systems.
+- **VLDB Summer School** — annual summer school on database research topics.
+- **DB-Engines Ranking** (db-engines.com) — popularity ranking of database systems with comparison
+  features.
+
+### Topic-Specific Recommendations
+
+| Topic | Best Book | Best Online Resource |
+|-------|-----------|---------------------|
+| Relational theory | Date: _SQL and Relational Theory_ | Stanford DB course (Widom/Ullman) |
+| Query optimisation | Garcia-Molina _et al._: Ch. 15-16 | CMU 15-721 lecture notes |
+| Transaction processing | Weikum & Vossen | MIT 6.830 notes |
+| Distributed databases | Özsu & Valduriez | DDIA (Kleppmann) Ch. 5-9 |
+| NoSQL systems | Sadalage & Fowler | MongoDB University / Cassandra docs |
+| Data warehousing | Kimball & Ross | The Data Warehouse Toolkit blog |
+| Graph databases | Robinson _et al._: _Graph Databases_ | Neo4j GraphAcademy |
+
 ## Cross-References
 
 | Topic       | Site       | Link                                                                                                       |

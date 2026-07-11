@@ -126,3 +126,118 @@ $\langle E \rangle \to \hbar\omega/2$ (zero-point energy).
 
 </details>
 
+### Problem 6
+
+A paramagnetic salt consists of $N$ non-interacting spin-1/2 particles with magnetic moment $\mu$.
+The system is placed in an external magnetic field $B$ at temperature $T$. Compute the magnetisation
+$M$ and the magnetic susceptibility $\chi = (\partial M/\partial B)_T$.
+
+<details>
+<summary>Solution</summary>
+
+For a single spin-1/2 particle, the energy levels are $E_\uparrow = -\mu B$ and
+$E_\downarrow = +\mu B$. The single-particle partition function is:
+
+$$Z_1 = e^{\beta\mu B} + e^{-\beta\mu B} = 2\cosh(\beta\mu B)$$
+
+For $N$ non-interacting spins, $Z = Z_1^N = [2\cosh(\beta\mu B)]^N$.
+
+The magnetisation is:
+
+$$M = \frac{1}{\beta}\frac{\partial \ln Z}{\partial B} = N\mu\tanh(\beta\mu B)$$
+
+The susceptibility at small $B$ (or high $T$, where $\beta\mu B \ll 1$):
+
+$$\chi = N\mu^2\beta\,\mathrm{sech}^2(\beta\mu B) \approx \frac{N\mu^2}{k_B T}$$
+
+This is the Curie law $\chi = C/T$ with $C = N\mu^2/k_B$, showing that paramagnetic susceptibility
+obeys a $1/T$ dependence at high temperatures. $\blacksquare$
+
+</details>
+
+### Problem 7
+
+Derive the Stefan-Boltzmann law for blackbody radiation from the Planck distribution. Compute the
+photon number density and the average energy per photon at temperature $T$.
+
+<details>
+<summary>Solution</summary>
+
+The Planck distribution gives the spectral energy density:
+
+$$u(\omega, T) = \frac{\hbar\omega^3}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}$$
+
+Integrating over all frequencies:
+
+$$U(T) = \int_0^\infty u(\omega, T)\,d\omega = \frac{\hbar}{\pi^2 c^3}\int_0^\infty \frac{\omega^3}{e^{\beta\hbar\omega} - 1}\,d\omega$$
+
+Let $x = \beta\hbar\omega$:
+
+$$U(T) = \frac{(k_B T)^4}{\pi^2 c^3 \hbar^3}\int_0^\infty \frac{x^3}{e^x - 1}\,dx = \frac{\pi^2 k_B^4}{15 c^3 \hbar^3} T^4 = \sigma T^4$$
+
+where $\sigma = \pi^2 k_B^4/(60\hbar^3 c^2)$ is the Stefan-Boltzmann constant.
+
+The photon number density is:
+
+$$n = \int_0^\infty \frac{\omega^2}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}\,d\omega = \frac{2\zeta(3)}{\pi^2}\left(\frac{k_B T}{\hbar c}\right)^3$$
+
+The average energy per photon is $\langle E \rangle = U/n = (\pi^4/30\zeta(3))k_B T \approx 2.701\,k_B T$.
+
+$\blacksquare$
+
+</details>
+
+### Problem 8
+
+For the Ising model on a 2D square lattice, explain why the mean-field approximation predicts a
+phase transition at $T_c = zJ/k_B$ (where $z = 4$ for the square lattice), while the exact Onsager
+solution gives $T_c \approx 2.269 J/k_B$. Why is mean-field theory inaccurate in low dimensions?
+
+<details>
+<summary>Solution</summary>
+
+In mean-field theory, each spin experiences an effective field $B_{\text{eff}} = zJ\langle s \rangle$.
+The self-consistency equation is $\langle s \rangle = \tanh(\beta z J \langle s \rangle)$. For
+$T > T_c^{\text{MF}} = zJ/k_B$, only the trivial solution $\langle s \rangle = 0$ exists; below
+$T_c^{\text{MF}}$, a non-zero magnetisation appears.
+
+For the square lattice, $z = 4$, so $T_c^{\text{MF}} = 4J/k_B$. The exact Onsager solution gives
+$T_c \approx 2.269 J/k_B$. The discrepancy arises because mean-field theory neglects fluctuations,
+which are significant in low dimensions. In 1D, mean-field theory incorrectly predicts a phase
+transition at finite $T$, while the exact solution shows no spontaneous magnetisation at any
+$T > 0$. The lower critical dimension for the Ising model is $d = 1$, below which fluctuations
+destroy long-range order. $\blacksquare$
+
+</details>
+
+### Problem 9
+
+A system consists of $N$ distinguishable three-level particles, each with energies
+$0$, $\varepsilon$, and $2\varepsilon$. The system is in contact with a heat bath at
+temperature $T$. (a) Write the single-particle partition function. (b) Find the average
+energy of the system. (c) Compute the heat capacity $C_V$ and sketch it as a function of
+$T$. What is the limiting behaviour as $T \to 0$ and $T \to \infty$?
+
+<details>
+<summary>Solution</summary>
+
+(a) $Z_1 = 1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}$.
+
+(b) For $N$ distinguishable particles, $Z = Z_1^N$. The average energy is:
+
+$$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = -N\frac{\partial \ln Z_1}{\partial \beta}
+= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}$$
+
+(c) $C_V = \frac{\partial \langle E \rangle}{\partial T} = \frac{1}{k_B T^2}\frac{\partial \langle E \rangle}{\partial \beta}$.
+
+As $T \to 0$: $\beta \to \infty$, all particles are in the ground state, $\langle E \rangle \to 0$,
+$C_V \to 0$ (all degrees of freedom frozen out).
+
+As $T \to \infty$: $\beta \to 0$, all three states are equally populated with probability $1/3$,
+$\langle E \rangle \to N\varepsilon$, $C_V \to 0$ (saturation).
+
+The heat capacity shows a peak (Schottky anomaly) at intermediate temperatures where the
+thermal energy $k_B T$ is comparable to $\varepsilon$. $\blacksquare$
+
+</details>
+

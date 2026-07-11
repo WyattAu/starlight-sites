@@ -116,3 +116,37 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 
 5. **The exponential map is not globally defined.** It is only defined on a neighborhood of zero
    in $T_p M$, unless the manifold is geodesically complete (Hopf-Rinow theorem).
+
+### Practice Problems
+
+1. Show that $S^2$ and $S^1 \times S^1$ (the torus) are not homeomorphic by comparing their Euler
+   characteristics. Compute $\chi(S^2)$ and $\chi(T^2)$ explicitly using a triangulation.
+
+2. Prove that the Lie bracket satisfies the Jacobi identity:
+   $[X, [Y, Z]] + [Y, [Z, X]] + [Z, [X, Y]] = 0$.
+
+3. Compute the Christoffel symbols for the sphere $S^2$ with the round metric
+   $g = d\theta^2 + \sin^2\theta\,d\phi^2$. Then derive the geodesic equations and verify that
+   great circles are geodesics.
+
+4. For the 2-torus $T^2 = \mathbb{R}^2/\mathbb{Z}^2$ with the flat metric inherited from
+   $\mathbb{R}^2$, compute the Riemann curvature tensor. Show that it vanishes identically.
+
+5. Let $M$ be a compact oriented Riemannian 2-manifold with $\chi(M) = 0$. Use the Gauss-Bonnet
+   theorem to prove that $\int_M K\,dA = 0$. Give an example of such a manifold.
+
+6. Show that the exterior derivative $d$ satisfies $d^2 = 0$. Use this to prove that every exact
+   form is closed. Give a counterexample to the converse on a non-contractible manifold.
+
+7. Compute the de Rham cohomology groups $H^1_{\text{dR}}(S^1)$ and $H^1_{\text{dR}}(T^2)$.
+   What do they tell you about the topology of these manifolds?
+
+### Key Applications
+
+| Application | Manifold | Key Result |
+|------------|----------|------------|
+| General relativity | Spacetime $(M,g)$ | Einstein equations: $R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} = 8\pi G T_{\mu\nu}$ |
+| Gauge theory | Principal bundle $P \to M$ | Yang-Mills equations: $d_A \star F_A = 0$ |
+| String theory | Calabi-Yau 3-fold | Ricci-flat Kähler metric moduli |
+| Computer vision | Shape space | Geodesic distances for shape matching |
+| Robotics | Configuration space $C$ | Motion planning via geodesics in $C$ |

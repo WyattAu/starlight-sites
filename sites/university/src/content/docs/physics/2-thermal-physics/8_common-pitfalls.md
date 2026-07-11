@@ -118,3 +118,35 @@ is a key signature of a Fermi liquid. $\blacksquare$
   $\mu$ is fixed by the reservoir. For photon gases, $\mu = 0$ because photon number is not
   conserved. For electrons, $\mu$ is determined by the density and temperature via the
   Fermi-Dirac distribution.
+
+### Further Pitfalls
+
+- **Confusing thermodynamic potentials and their natural variables.** $U(S,V,N)$, $F(T,V,N)$,
+  $G(T,P,N)$, and $H(S,P,N)$ are the correct pairings. Using $U(T,V,N)$ instead of $F(T,V,N)$
+  leads to incorrect Maxwell relations and thermodynamic identities. The natural variables
+  determine which potential is most convenient for a given process.
+
+- **Forgetting the factor of $k_B$ in entropy.** The statistical definition
+  $S = k_B \ln \Omega$ is dimensionally correct only with Boltzmann's constant. Without $k_B$,
+  the numerical value of entropy has units of information (bits/nats), not energy per temperature.
+
+- **Assuming all phase transitions are of first or second order.** The 2D Ising model has a
+  continuous phase transition with a logarithmic divergence of specific heat ($\alpha = 0$),
+  which does not fit neatly into the Ehrenfest classification. The modern classification uses
+  order parameter behaviour and symmetry breaking rather than derivatives of free energy.
+
+- **Confusing thermodynamic and kinetic stability.** A system can be thermodynamically unstable
+  (negative curvature of free energy) yet kinetically stable (metastable) due to energy barriers.
+  Diamond at room temperature is metastable — it is kinetically stable but thermodynamically
+  unstable relative to graphite. The phase diagram shows equilibrium, not kinetics.
+
+- **Misapplying the Sackur-Tetrode equation.** The Sackur-Tetrode equation for the entropy of an
+  ideal gas assumes translational degrees of freedom only. For diatomic gases, rotational and
+  vibrational contributions must be included at sufficiently high temperatures. The formula
+  $S = Nk_B[\ln(V/N\lambda^3) + 5/2]$ is valid only for monatomic ideal gases.
+
+- **Neglecting the temperature dependence of the chemical potential.** For fermions at low
+  temperatures, $\mu \approx \varepsilon_F[1 - (\pi^2/12)(k_BT/\varepsilon_F)^2]$. The Sommerfeld
+  expansion shows that $\mu$ decreases quadratically with $T$, not linearly. Assuming
+  $\mu = \varepsilon_F$ at all temperatures leads to errors in the electronic heat capacity
+  calculation.

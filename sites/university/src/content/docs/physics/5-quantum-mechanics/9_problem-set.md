@@ -96,3 +96,51 @@ fixed parameter. Compare your result with the exact ground state energy $E_1 = \
 and calculate the percentage error. Comment on why the variational Estimate is higher than the exact
 result.
 
+**19.** (Perturbation theory) A particle in an infinite square well of width $L$ experiences a small
+perturbation $H' = \varepsilon x$ for $0 < x < L$. (a) Compute the first-order correction to the
+ground state energy. (b) Compute the first-order correction to the ground state wave function.
+(c) Find the second-order correction to the ground state energy.
+
+**20.** (Time evolution) A spin-1/2 particle is initially in the state
+$|\psi(0)\rangle = |+\rangle_x$ (eigenstate of $S_x$ with eigenvalue $+\hbar/2$). The Hamiltonian is
+$H = \omega S_z$. (a) Find $|\psi(t)\rangle$. (b) Compute $\langle S_x \rangle(t)$,
+$\langle S_y \rangle(t)$, and $\langle S_z \rangle(t)$. (c) Show that the Bloch vector precesses
+around the $z$-axis.
+
+**21.** (Scattering) A plane wave $e^{ikz}$ is incident on a spherically symmetric potential
+$V(r) = V_0$ for $r < a$ and $V(r) = 0$ for $r > a$. Compute the scattering amplitude $f(\theta)$
+and the total cross section in the Born approximation. Under what condition is the Born
+approximation valid?
+
+**22.** (Entanglement) Two spin-1/2 particles are in the Bell state
+$|\Phi^+\rangle = (|00\rangle + |11\rangle)/\sqrt{2}$. (a) Compute the reduced density matrix for
+particle 1. (b) Show that the von Neumann entropy $S(\rho_1) = 1$ bit. (c) If Alice measures $S_z$
+on particle 1 and obtains $+\hbar/2$, what is the state of particle 2? (d) Verify that the Bell
+state violates the CHSH inequality.
+
+<details>
+<summary>Selected Solutions</summary>
+
+**Problem 1.** The photon energy is $E = hc/\lambda$. Work function $\phi = 2.28$ eV.
+(a) $E_{\text{ph}} = 1240/400 = 3.10$ eV. Maximum KE: $K_{\text{max}} = 3.10 - 2.28 = 0.82$ eV.
+(b) Stopping potential: $V_0 = K_{\text{max}}/e = 0.82$ V.
+
+**Problem 3.** $\lambda = h/\sqrt{2meV} \approx 0.0867$ nm. Double slit: $d\sin\theta = \lambda$,
+so $\theta \approx \lambda/d = 0.0867/100 \approx 8.67 \times 10^{-4}$ rad $\approx 0.05^\circ$.
+
+**Problem 6.** Normalisation: $N^2 \int_0^a x^2(a-x)^2\,dx = N^2 a^5/30 = 1$, so $N = \sqrt{30}/a^{5/2}$.
+$\langle x \rangle = a/2$ by symmetry. $\langle x^2 \rangle = \int_0^a x^2 \psi^2\,dx$ (evaluate
+explicitly). $\langle p^2 \rangle = -\hbar^2 \int \psi^* \psi''\,dx$ using $\psi'' = 2N$.
+
+**Problem 10.** The new well width is $2L$ centred at the origin. The initial wave function is
+$\psi_1(x) = \sqrt{2/L}\sin(\pi x/L)$ for $0 < x < L$. The new eigenfunctions are
+$\phi_n(x) = \sqrt{1/L}\sin(n\pi(x+L)/(2L))$ for $|x| < L$. The probability of being in the new
+ground state: $|\langle \phi_1 | \psi_1 \rangle|^2 = (8\sqrt{2}/(3\pi))^2 \approx 0.360$.
+
+**Problem 16.** (a) $S_z$ outcomes: $+\hbar/2$ with $p = 1/3$, $-\hbar/2$ with $p = 2/3$.
+(b) Express in $S_x$ basis: $P(S_x = +\hbar/2) = |(\langle\uparrow_x|\psi\rangle)|^2 = 1/2$.
+(c) $\langle S_x \rangle = 0$ by symmetry. (d) $\rho = |\psi\rangle\langle\psi|$ with trace 1
+and $\rho^2 = \rho$.
+
+</details>
+

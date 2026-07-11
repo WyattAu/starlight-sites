@@ -125,3 +125,30 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
 | Systems near critical pt  | Linearisation            | Non-hyperbolic points              |
 | Nonlinear / no closed form| Numerical (RK4)          | Step size selection                |
 
+### Additional Pitfalls
+
+- **Assuming series solutions always converge everywhere.** Frobenius series converge only within
+  the radius of convergence determined by the nearest singularity. For $y'' + p(x)y' + q(x)y = 0$,
+  the series converges at least up to the nearest singularity of $p(x)$ or $q(x)$ in the complex
+  plane, not necessarily for all $x$.
+
+- **Confusing the order of a pole in the complex plane with the order of a singular point in an
+  ODE.** A regular singular point is one where $(x-x_0)p(x)$ and $(x-x_0)^2q(x)$ are analytic.
+  An irregular singular point has higher-order singularities. These are unrelated to the order of
+  poles in complex analysis.
+
+- **Forgetting to transform boundary conditions when using Laplace transforms.** The Laplace
+  transform incorporates initial conditions at $t = 0$. If the problem has boundary conditions at
+  $t = 0$ and $t = L$, the Laplace transform may not be the right tool — consider using Fourier
+  series or separation of variables instead.
+
+- **Applying the method of undetermined coefficients when the forcing term is not of the right
+  form.** The method works only for forcing terms that are polynomials, exponentials, sines,
+  cosines, or products thereof. For forcing terms like $\tan t$ or $1/t$, use variation of
+  parameters instead.
+
+- **Ignoring the transient solution in systems.** The general solution to a linear ODE is the sum
+  of the complementary solution (transient) and particular solution (steady-state). When studying
+  long-term behaviour, focus on the particular solution, but remember that the transient may be
+  significant at early times.
+

@@ -91,12 +91,55 @@ Ferromagnet above $T_C$. Express $C$ in terms of $N$, $\mu$And $k_B$.
   approximation breaks down; use the Brillouin function $B_{1/2}(x) = \tanh(x)$ with
   $x = \mu_B B/(k_B T)$.
 
-:::caution Common Pitfall The free electron model and the nearly free electron model give band gaps
-at the Brillouin zone Boundaries (where Bragg diffraction occurs). Do not confuse the real-space
-lattice constant $a$ With the reciprocal lattice spacing $2\pi/a$. The first Brillouin zone extends
-from $-\pi/a$ to $+\pi/a$ in each direction, not from $0$ to $a$. When calculating the Fermi wave
-vector, always Use $k_F = (3\pi^2 n)^{1/3}$ --- the factor of $3\pi^2$ (not $6\pi^2$) accounts for
-the factor Of 2 from spin.
+### Further Problems
 
+**Problem 19.** A two-dimensional electron gas (2DEG) is confined to a square of side $L$. Derive
+the density of states $g(\varepsilon)$ per unit area. Show that $g(\varepsilon)$ is constant for
+each subband. How does the Fermi energy depend on the electron density $n_{2D}$ in the lowest
+subband?
 
-:::
+**Problem 20.** Using the Kronig-Penney model, derive the condition for allowed energy bands in a
+1D periodic potential $V(x) = V_0$ for $0 < x < b$ and $V(x) = 0$ for $-a < x < 0$ with period
+$a + b$. Show that band gaps open at $k = n\pi/(a+b)$, and find the gap width in the limit of a
+weak potential ($V_0 \to 0$).
+
+**Problem 21.** A type-II superconductor has critical fields $H_{c1} = 0.02$ T and
+$H_{c2} = 15$ T. (a) Estimate the coherence length $\xi$ and penetration depth $\lambda$.
+(b) Calculate the Ginzburg-Landau parameter $\kappa = \lambda/\xi$. (c) Determine whether the
+superconductor is type-I or type-II. (d) Sketch the magnetisation curve $M(H)$.
+
+**Problem 22.** Explain the quantum Hall effect. For a 2DEG in a strong perpendicular magnetic
+field $B$, the Hall conductivity $\sigma_{xy}$ exhibits plateaus at integer multiples of $e^2/h$.
+Derive the condition for Landau level filling $\nu = n h/(eB)$ and show that when the Fermi level
+lies between Landau levels, dissipationless transport occurs.
+
+**Problem 23.** Calculate the electron mobility $\mu = e\tau/m^*$ in Si at 300 K given the momentum
+relaxation time $\tau \approx 10^{-13}$ s and the effective mass $m^* \approx 0.26 m_e$. Estimate the
+drift velocity in an electric field of $10^5$ V/m. Compare with the saturation velocity in Si
+($v_{\text{sat}} \approx 10^5$ m/s).
+
+<details>
+<summary>Selected Solutions</summary>
+
+**Problem 1.** SC packing fraction: $\pi/6 \approx 0.524$. BCC: $\pi\sqrt{3}/8 \approx 0.680$.
+FCC: $\pi\sqrt{2}/6 \approx 0.740$. SC has the lowest packing fraction, making it energetically
+unfavourable for most metallic bonding (only polonium crystallises in SC).
+
+**Problem 2.** Theoretical density: $\rho = 4M/(N_A a^3) = 4 \times 26.98/(6.022 \times 10^{23} \times (0.405 \times 10^{-9})^3) \approx 2.70$ g/cm$^3$, matching experiment.
+
+**Problem 10.** $M = mN$ atoms, each with one degree of freedom. The phonon dispersion:
+$\omega^2(k) = (4K_1/m)\sin^2(ka/2) + (4K_2/m)\sin^2(ka)$. The maximum frequency increases
+because NNN interactions add additional spring constants that stiffen the lattice at short
+wavelengths.
+
+**Problem 20.** The Kronig-Penney condition is:
+$\cos(ka) = \cos(\alpha a)\cosh(\beta b) + \frac{\beta^2 - \alpha^2}{2\alpha\beta}\sin(\alpha a)\sinh(\beta b)$
+where $\alpha = \sqrt{2mE}/\hbar$ and $\beta = \sqrt{2m(V_0 - E)}/\hbar$. As $V_0 \to 0$, the
+band gap at $k = n\pi/a$ vanishes, consistent with the free electron limit.
+
+**Problem 22.** In a magnetic field, the 2DEG density of states coalesces into Landau levels
+at energies $E_n = \hbar\omega_c(n + 1/2)$ with degeneracy $g = eB/h$ per unit area per spin.
+When $\nu$ is integer, the Fermi level lies in a gap, longitudinal resistivity
+$\rho_{xx} = 0$, and $\sigma_{xy} = \nu e^2/h$.
+
+</details>

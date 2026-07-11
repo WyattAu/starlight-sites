@@ -110,3 +110,40 @@ $\blacksquare$
 - **Extension degree and group order.** For a Galois extension $E/F$: $[E:F]=|\mathrm{Gal}(E/F)|$. This links field theory to group theory directly.
 - **Normal subgroups and quotient groups.** $K/F$ is Galois $\iff$ $\mathrm{Gal}(E/K)\trianglelefteq\mathrm{Gal}(E/F)$, and in that case $\mathrm{Gal}(K/F)\cong\mathrm{Gal}(E/F)/\mathrm{Gal}(E/K)$.
 
+### Group Theory Quick Reference
+
+| Concept | Definition | Example |
+|---------|-----------|---------|
+| Group | Set with associative binary op, identity, inverses | $S_n$, $\mathbb{Z}_n$, $GL(n,\mathbb{R})$ |
+| Subgroup | Subset closed under operation and inverses | $A_n \leq S_n$ |
+| Normal subgroup | $gHg^{-1} = H$ for all $g \in G$ | $\langle (123) \rangle \trianglelefteq S_3$ |
+| Quotient group | $G/N$ with coset multiplication | $\mathbb{Z}/n\mathbb{Z}$ |
+| Homomorphism | $\phi(ab) = \phi(a)\phi(b)$ | $\det: GL(n,\mathbb{R}) \to \mathbb{R}^\times$ |
+| Kernel | $\{g \in G : \phi(g) = e\}$ | $SL(n,\mathbb{R}) \trianglelefteq GL(n,\mathbb{R})$ |
+| Group action | $G \times X \to X$ compatible with group op | $S_n$ acting on $\{1,\ldots,n\}$ |
+| Orbit | $G \cdot x = \{gx : g \in G\}$ | Size divides $|G|$ |
+| Stabilizer | $G_x = \{g \in G : gx = x\}$ | Subgroup of $G$ |
+
+### Ring and Field Theory Quick Reference
+
+| Concept | Definition | Example |
+|---------|-----------|---------|
+| Ring | Abelian group under $+$, monoid under $\times$, distributive | $\mathbb{Z}$, $\mathbb{Z}[x]$, $M_n(\mathbb{R})$ |
+| Ideal | Additive subgroup closed under multiplication by ring elements | $n\mathbb{Z} \trianglelefteq \mathbb{Z}$ |
+| Integral domain | No zero divisors | $\mathbb{Z}$, $\mathbb{Z}[x]$, $\mathbb{Q}$ |
+| Field | Every non-zero element invertible | $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{F}_p$ |
+| Euclidean domain | Has degree function for division algorithm | $\mathbb{Z}$, $F[x]$ |
+| PID | Every ideal is principal | $\mathbb{Z}$, $F[x]$ |
+| UFD | Unique factorisation into irreducibles | $\mathbb{Z}$, $\mathbb{Z}[x]$, $F[x]$ |
+
+### Common Isomorphism Classes
+
+| Group | Order | Structure |
+|-------|-------|-----------|
+| $\mathbb{Z}_n$ | $n$ | Cyclic |
+| $S_n$ | $n!$ | Non-abelian for $n \geq 3$ |
+| $A_n$ | $n!/2$ | Simple for $n \geq 5$ |
+| $D_{2n}$ | $2n$ | Dihedral (symmetries of $n$-gon) |
+| $Q_8$ | $8$ | Quaternion group |
+| $\mathbb{Z}_2 \times \mathbb{Z}_2$ | $4$ | Klein four-group |
+

@@ -124,6 +124,39 @@ $\blacksquare$
 - Data structures: arrays, linked lists, stacks, queues, trees, hash tables, heaps, graphs.
 - Amortised analysis: dynamic arrays $O(1)$ amortised append; splay trees $O(\log n)$ amortised.
 
+### Solutions to Selected Problems
+
+**Problem 1.** $n^3/1000 - 100n^2 - 100n + 3 = \Theta(n^3)$. For $n \ge 10^6$:
+$n^3/1000 - 100n^2 - 100n + 3 \ge n^3/1000 - 100n^2 \ge n^3/2000$ (for large $n$). Also,
+$n^3/1000 - 100n^2 - 100n + 3 \le n^3/1000$ for all $n$. Thus $c_1 = 1/2000$, $c_2 = 1/1000$,
+$n_0 = 10^6$ suffice, establishing $\Theta(n^3)$.
+
+**Problem 2.** $T(n) = 3T(n/4) + n\log n$. In Master Theorem form: $a = 3$, $b = 4$,
+$f(n) = n\log n$. $\log_b a = \log_4 3 \approx 0.792$. Since $f(n) = n\log n = \Omega(n^{0.792+\varepsilon})$,
+case 3 applies if the regularity condition $3(n/4)\log(n/4) \le c n\log n$ holds for some $c < 1$.
+This holds for $c = 3/4$ and sufficiently large $n$. Thus $T(n) = \Theta(n\log n)$.
+
+**Problem 4.** Insert into AVL tree: 15, 5, 20, 10, 25, 3, 7, 30.
+- Insert 15: root.
+- Insert 5: left child of 15.
+- Insert 20: right child of 15.
+- Insert 10: right child of 5. Balance factor of 15 is 1 - 2 = -1 (right-heavy). No rotation.
+- Insert 25: right child of 20. Balance factor of 15 is 1 - 3 = -2. Right-Right case:
+  rotate 15 left. New root: 20.
+- Insert 3: left child of 5. Balance factor of 20 is 2 - 2 = 0. OK.
+- Insert 7: right child of 5. Balance factor of 5 is 1 - 2 = -1. Then 20 has factor 3 - 2 = 1.
+  Right-Left case at 5: rotate 10 right, then rotate left. Final AVL tree balanced.
+
+**Problem 12.** Dijkstra from A: PQ = {A:0}. Extract A, relax: B=10, C=3. PQ = {C:3, B:10}.
+Extract C, relax: B=min(10,3+4)=7, D=3+8=11, E=3+2=5. PQ = {E:5, B:7, D:11}.
+Extract E, relax: D=min(11,5+5)=10. PQ = {B:7, D:10}. Extract B, relax: D=min(10,7+7)=10.
+PQ = {D:10}. Extract D. Final distances: A=0, C=3, E=5, B=7, D=10.
+
+**Problem 19.** Metric TSP 2-approximation: (1) Compute MST of the complete graph with metric
+distances. (2) Double every edge to get an Eulerian graph. (3) Find an Eulerian tour.
+(4) Shortcut by skipping repeated vertices. Cost $\le 2 \times$ MST cost $\le 2 \times$ optimal
+TSP cost (since optimal TSP minus one edge is a spanning tree).
+
 ## Cross-References
 
 | Topic                                       | Site       | Link                                                                                                                    |

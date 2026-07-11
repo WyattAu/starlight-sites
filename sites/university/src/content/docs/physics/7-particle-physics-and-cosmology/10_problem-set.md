@@ -74,3 +74,66 @@ equal-spacing rule. Given the masses $m_\Delta = 1232$ MeV, $m_{\Sigma^*} = 1385
 $m_{\Xi^*} = 1533$ MeV, predict $m_{\Omega^-}$. Compare with the measured value of $1672.5$ MeV and
 comment on the agreement.
 
+**Problem 19.** (Dark matter) The rotational velocity of stars in the Milky Way is observed to be
+approximately constant at $v \approx 220$ km/s out to at least $r = 20$ kpc. Assuming a spherical
+dark matter halo with density profile $\rho(r) = \rho_0 / (1 + (r/r_s)^2)$, compute the enclosed mass
+$M(r)$ and show that $v(r)$ is approximately flat for $r \gg r_s$.
+
+**Problem 20.** (Neutrino oscillations) A neutrino produced as $\nu_\mu$ with energy $E = 1$ GeV
+travels $L = 1000$ km. Given $\Delta m_{32}^2 = 2.5 \times 10^{-3}$ eV$^2$ and
+$\sin^2(2\theta_{23}) = 1.0$, calculate the oscillation probability
+$P(\nu_\mu \to \nu_\tau)$. Express $L$ and $E$ in natural units ($\hbar = c = 1$).
+
+**Problem 21.** (Cosmic microwave background) The CMB temperature today is $T_0 = 2.725$ K.
+(a) Compute the energy density of the CMB photon gas. (b) At what redshift $z$ did the CMB
+temperature equal $T = 3000$ K (recombination epoch)? (c) Estimate the baryon-to-photon ratio
+$\eta$ given that the baryon density today is $\Omega_b h^2 = 0.022$.
+
+**Problem 22.** (Running coupling unification) Plot (conceptually) the running of the three gauge
+couplings $\alpha_1$, $\alpha_2$, $\alpha_3$ in the Standard Model as a function of energy scale.
+Explain why minimal SU(5) unification fails: the couplings do not meet at a single point. How does
+supersymmetry (MSSM) resolve this?
+
+<details>
+<summary>Selected Solutions</summary>
+
+**Problem 9.** The Higgs potential minimum occurs at $\phi^\dagger\phi = -\mu^2/(2\lambda) = v^2/2$.
+Writing $\phi = (0, v + h)^T/\sqrt{2}$ and substituting gives the Higgs mass
+$m_H = \sqrt{2\lambda}\,v$. The three Goldstone modes correspond to the three broken generators of
+SU(2)$_L$, which become the longitudinal components of $W^\pm$ and $Z$.
+
+**Problem 10.** The Yukawa coupling is $y_f = \sqrt{2}\,m_f/v$ where $v = 246$ GeV.
+$y_t/y_e = m_t/m_e = 173\ \mathrm{GeV} / 0.511\ \mathrm{MeV} \approx 3.4 \times 10^5$.
+This large hierarchy suggests that the fermion masses arise from a more fundamental mechanism.
+
+**Problem 14.** $\rho_c = 3H_0^2/(8\pi G) \approx 1.88 \times 10^{-26}\,h^2\ \mathrm{kg/m}^3$
+with $h = H_0/(100\ \mathrm{km/s/Mpc}) = 0.7$, giving $\rho_c \approx 9.2 \times 10^{-27}\ \mathrm{kg/m}^3$.
+$t_0 = 2/(3H_0) \approx 9.3 \times 10^9$ years (for a matter-dominated flat universe).
+$d_H = c/H_0 \approx 4280\ \mathrm{Mpc}$.
+
+**Problem 16.** In natural units $\hbar = c = 1$: $L = 1.5 \times 10^{11}\ \mathrm{m} \approx 7.6 \times 10^{20}\ \mathrm{GeV}^{-1}$,
+$E = 0.3$ MeV. The oscillation phase is $\Delta m^2 L/(4E) \approx 1.24$, giving
+$P(\nu_e \to \nu_\mu) = \sin^2(2\theta_{12}) \sin^2(\Delta m^2 L/(4E)) \approx 0.84 \times 0.95 \approx 0.80$.
+
+**Problem 17.** $m_\nu = m_D^2/M \approx (173\ \mathrm{GeV})^2 / 10^{14}\ \mathrm{GeV} \approx 0.3$ eV.
+This is above the cosmological bound $\sum m_\nu < 0.12$ eV, suggesting either a smaller Dirac mass
+or a larger Majorana mass.
+
+**Problem 18.** The decuplet equal-spacing rule predicts $m_{\Omega^-} = m_{\Xi^*} + (m_{\Xi^*} - m_{\Sigma^*})
+= 1533 + (1533 - 1385) = 1681$ MeV. The measured value is $1672.5$ MeV, a discrepancy of $0.5\%$,
+which was a spectacular confirmation of SU(3) flavour symmetry and led to the discovery of the
+$\Omega^-$ at Brookhaven in 1964.
+
+**Problem 19.** For $\rho(r) = \rho_0/(1 + (r/r_s)^2)$, the enclosed mass is
+$M(r) = 4\pi\int_0^r \rho(r') r'^2\,dr' = 4\pi\rho_0 r_s^3[r/r_s - \arctan(r/r_s)]$.
+The circular velocity is $v^2(r) = GM(r)/r$. For $r \gg r_s$, $M(r) \propto r$, giving $v \approx
+\sqrt{4\pi G\rho_0 r_s^2}$, which is constant — explaining the flat rotation curves.
+
+**Problem 22.** The gauge couplings run according to the renormalisation group equations:
+$\mu d\alpha_i^{-1}/d\mu = -b_i/(2\pi)$. In the SM, $b = (41/10, -19/6, -7)$ for U(1), SU(2), SU(3)
+respectively. The couplings nearly meet at $M_U \sim 10^{15}$ GeV but do not intersect at a single
+point. In the MSSM, the beta coefficients change to $(33/5, 1, -3)$, and the couplings unify at
+$M_U \sim 2\times 10^{16}$ GeV, providing indirect evidence for supersymmetry.
+
+</details>
+

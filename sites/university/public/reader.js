@@ -902,6 +902,162 @@
     }
   })
 
+  // ─── Escape HTML ──────────────────────────────────────────────────────────
+
+  function escapeHtml(str) {
+    var d = document.createElement('div')
+    d.appendChild(document.createTextNode(str))
+    return d.innerHTML
+  }
+
+  // ─── Dictionary Lookup ──────────────────────────────────────────────────
+
+  var DICTIONARY_API = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
+
+  var dictPopup = el('div', { id: 'wn-dict-popup' })
+  dictPopup.style.cssText = 'position:fixed;z-index:99990;background:var(--wn-bg-elevated,#12121a);border:1px solid var(--wn-border,#2a2a3a);border-radius:12px;padding:12px 16px;max-width:320px;box-shadow:var(--wn-elevation-3);font-size:0.85rem;line-height:1.5;display:none;color:var(--wn-text,#e8e8ed);'
+  dictPopup.innerHTML = '<div id="wn-dict-content"></div><div id="wn-dict-actions"></div>'
+  document.body.appendChild(dictPopup)
+
+  // ─── Text Highlighting ──────────────────────────────────────────────────
+
+  var HIGHLIGHT_COLORS = {
+    yellow: '#fff3bf',
+    green: '#b2f2bb',
+    blue: '#a5d8ff',
+    pink: '#fcc2d7',
+  }
+
+  function getHighlightsKey() {
+    return 'wn-highlights-' + window.location.pathname
+  }
+
+  function loadHighlights() {
+    try {
+      var data = localStorage.getItem(getHighlightsKey())
+      return data ? JSON.parse(data) : []
+    } catch (e) { return [] }
+  }
+
+  function saveHighlights(arr) {
+    try { localStorage.setItem(getHighlightsKey(), JSON.stringify(arr)) }
+    catch (e) {}
+  }
+
+  function highlightSelection(color) {
+    var sel = window.getSelection()
+    var text = sel ? sel.toString().trim() : ''
+    if (!text) return
+    dictPopup.style.display = 'none'
+    sel.removeAllRanges()
+    var arr = loadHighlights()
+    arr.push({ text: text, color: color, timestamp: Date.now() })
+    saveHighlights(arr)
+    applyHighlights()
+  }
+
+  function applyHighlights() {
+    document.querySelectorAll('mark.wn-highlight').forEach(function (m) {
+      var p = m.parentNode
+      p.replaceChild(document.createTextNode(m.textContent), m)
+      p.normalize()
+    })
+    var arr = loadHighlights()
+    if (!arr.length) return
+    arr.forEach(function (h) {
+      var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false)
+      while (walker.nextNode()) {
+        var node = walker.currentNode
+        var p = node.parentElement
+        if (p && p.tagName === 'MARK' && p.classList.contains('wn-highlight')) continue
+        var idx = node.textContent.indexOf(h.text)
+        if (idx === -1) continue
+        var r = document.createRange()
+        r.setStart(node, idx)
+        r.setEnd(node, idx + h.text.length)
+        var mark = document.createElement('mark')
+        mark.className = 'wn-highlight'
+        mark.style.cssText = 'background:' + (HIGHLIGHT_COLORS[h.color] || HIGHLIGHT_COLORS.yellow) + ';color:inherit;border-radius:2px;padding:0 2px;'
+        r.surroundContents(mark)
+        break
+      }
+    })
+  }
+
+  // ─── Init highlight buttons ────────────────────────────────────────────
+
+  ;(function initDictActions() {
+    var actions = document.getElementById('wn-dict-actions')
+    if (!actions) return
+    actions.style.cssText = 'display:flex;gap:4px;margin-top:8px;padding-top:8px;border-top:1px solid var(--wn-border,#2a2a3a);'
+    var label = document.createElement('span')
+    label.style.cssText = 'font-size:0.75rem;color:var(--wn-text-muted,#8888a0);margin-right:4px;align-self:center'
+    label.textContent = 'Highlight:'
+    actions.appendChild(label)
+    var colorLabels = { yellow: '\uD83D\uDFE1', green: '\uD83D\uDFE2', blue: '\uD83D\uDD35', pink: '\uD83E\uDD77' }
+    ;['yellow', 'green', 'blue', 'pink'].forEach(function (c) {
+      var btn = document.createElement('button')
+      btn.textContent = colorLabels[c]
+      btn.style.cssText = 'border:none;background:none;cursor:pointer;font-size:1rem;padding:2px 4px;border-radius:4px;transition:background 0.15s;'
+      btn.addEventListener('mouseenter', function () { btn.style.background = 'var(--wn-bg-hover,#242436)' })
+      btn.addEventListener('mouseleave', function () { btn.style.background = 'none' })
+      btn.addEventListener('click', function () { highlightSelection(c) })
+      actions.appendChild(btn)
+    })
+  })()
+
+  // ─── Dict popup events ─────────────────────────────────────────────────
+
+  document.addEventListener('mouseup', function (e) {
+    var sel = window.getSelection()
+    var text = sel ? sel.toString().trim() : ''
+    if (text.length < 2 || text.length > 50) {
+      dictPopup.style.display = 'none'
+      return
+    }
+    var range = sel.getRangeAt(0)
+    var rect = range.getBoundingClientRect()
+    dictPopup.style.top = (rect.bottom + 8) + 'px'
+    dictPopup.style.left = Math.min(rect.left, window.innerWidth - 340) + 'px'
+    dictPopup.style.display = 'block'
+    var content = document.getElementById('wn-dict-content')
+    content.innerHTML = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div><div style="color:var(--wn-text-muted,#8888a0);font-size:0.75rem">Looking up...</div>'
+    fetch(DICTIONARY_API + encodeURIComponent(text))
+      .then(function (r) { return r.json() })
+      .then(function (data) {
+        if (data && data[0] && data[0].meanings) {
+          var meanings = data[0].meanings.slice(0, 2)
+          var html = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div>'
+          meanings.forEach(function (m) {
+            html += '<div style="font-size:0.7rem;color:var(--wn-text-dim,#5a5a70);margin-bottom:2px">' + escapeHtml(m.partOfSpeech) + '</div>'
+            if (m.definitions && m.definitions[0]) {
+              html += '<div style="margin-bottom:6px">' + escapeHtml(m.definitions[0].definition) + '</div>'
+            }
+          })
+          content.innerHTML = html
+        } else {
+          content.innerHTML = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div><div style="color:var(--wn-text-muted,#8888a0)">No definition found</div>'
+        }
+      })
+      .catch(function () {
+        content.innerHTML = '<div style="font-weight:600;margin-bottom:4px">' + escapeHtml(text) + '</div><div style="color:var(--wn-text-muted,#8888a0)">Definition unavailable</div>'
+      })
+  })
+
+  document.addEventListener('mousedown', function (e) {
+    if (dictPopup.style.display !== 'none' && !dictPopup.contains(e.target)) {
+      dictPopup.style.display = 'none'
+    }
+  })
+
+  // ─── Restore highlights on load ────────────────────────────────────────
+
+  if (document.readyState === 'complete') {
+    applyHighlights()
+  } else {
+    document.addEventListener('DOMContentLoaded', applyHighlights)
+  }
+
   // ─── Initialize ───────────────────────────────────────────────────────────
 
   applyAllSettings()

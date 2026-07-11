@@ -127,3 +127,33 @@ Measure theory provides rigorous foundations for integration. The convergence th
 (MCT, Fatou, DCT) govern when limits and integrals can be interchanged. H\"older and Minkowski
 inequalities establish $L^p$ space structure. Fubini's theorem handles product measures, and
 the Radon-Nikodym theorem connects measures via densities.
+
+### Quick Reference: Measure Spaces
+
+| Concept | Definition | Example |
+|---------|-----------|---------|
+| $\sigma$-algebra | Collection closed under complements and countable unions | Borel $\sigma$-algebra on $\mathbb{R}$ |
+| Measure | Countably additive set function | Lebesgue measure, counting measure |
+| Measurable function | Preimage of Borel set is measurable | Continuous functions, indicator functions |
+| Almost everywhere | Property holds except on a null set | $f = g$ a.e. |
+| $L^p$ space | $\{f : \int |f|^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
+
+### Quick Reference: Convergence Modes
+
+| Mode of convergence | Definition | Relation to others |
+|--------------------|-----------|-------------------|
+| Pointwise a.e. | $f_n(x) \to f(x)$ for almost every $x$ | Weakest |
+| Uniform | $\sup_x |f_n(x) - f(x)| \to 0$ | Implies pointwise |
+| $L^p$ | $\|f_n - f\|_p \to 0$ | Implies convergence in measure |
+| In measure | $\mu\{|f_n - f| > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
+| Weak $L^p$ | $\int f_n g \to \int f g$ for all $g \in L^q$ | Weakest of the $L^p$ modes |
+
+### Key Inequalities
+
+| Inequality | Statement | Use case |
+|-----------|-----------|----------|
+| Chebyshev | $\mu(|f| \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
+| Young | $ab \leq a^p/p + b^q/q$ | Proving H\"older |
+| H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
+| Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
+| Jensen | $\phi(\int f) \leq \int \phi(f)$ for convex $\phi$ | Entropy inequalities |

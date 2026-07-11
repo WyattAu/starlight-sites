@@ -111,6 +111,22 @@ _Hint:_ Total data = 630 KB = 5.04 Mb. Transmission time = 5.04 / 10 = 0.504 s.
     station 4 is silent. Compute the combined signal and show that each receiver correctly recovers
     its station's bit.
 
+23. **Wireless LAN efficiency.** An 802.11 WLAN operates at 54 Mbps with 1500-byte frames. The DCF
+    inter-frame spacing is DIFS = 50 μs, slot time = 20 μs, SIFS = 10 μs, and propagation delay =
+    1 μs. Assuming no collisions, compute the maximum achievable throughput. How does it compare
+    with the physical layer data rate? What overhead factors contribute to the difference?
+
+24. **VPN tunnelling.** A company uses IPsec in tunnel mode between two gateways. An employee at
+    site A sends a packet to a server at site B. Describe the encapsulation steps: (a) original
+    packet format, (b) how the gateway adds the ESP header/trailer and new IP header, and (c) how
+    the receiving gateway decapsulates. What fields in the new IP header differ from the original?
+
+25. **Software-defined networking.** In OpenFlow, a switch receives a packet with destination MAC
+    00:11:22:33:44:55 and destination IP 10.0.0.5. The switch has no matching flow entry. Describe
+    the sequence of events: (a) what the switch sends to the controller, (b) what the controller
+    decides, (c) how a new flow entry is installed, and (d) how subsequent packets are handled.
+    Explain why proactive flow installation is preferred for latency-sensitive traffic.
+
 ## Common Pitfalls
 
 - **Confusing throughput and latency.** Latency: time for a single packet to travel. Throughput:

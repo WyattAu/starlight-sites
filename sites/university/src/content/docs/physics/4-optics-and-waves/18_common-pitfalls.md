@@ -113,3 +113,35 @@ To avoid these pitfalls: always draw a ray diagram, track the optical path lengt
 use the correct Fresnel equations for the polarisation state, verify that approximations
 (paraxial, thin lens, small angle) are valid for your system, and remember that diffraction
 and coherence place fundamental limits on imaging and interference systems.
+
+### Additional Common Pitfalls
+
+- **Confusing irradiance and radiance.** Irradiance $I$ is power per unit area (W/m$^2$).
+  Radiance $L$ is power per unit area per unit solid angle (W/m$^2$/sr). Radiance is conserved
+  along a ray in a lossless medium (the radiance theorem), while irradiance follows the inverse
+  square law. Confusing the two leads to incorrect photometric calculations.
+
+- **Forgetting that polarisation affects Fresnel reflection coefficients.** The reflection
+  coefficient for $s$-polarisation is $r_s = (n_1\cos\theta_i - n_2\cos\theta_t)/(n_1\cos\theta_i + n_2\cos\theta_t)$,
+  while for $p$-polarisation it is $r_p = (n_2\cos\theta_i - n_1\cos\theta_t)/(n_2\cos\theta_i + n_1\cos\theta_t)$.
+  These are not the same, and at Brewster's angle, $r_p = 0$ while $r_s \neq 0$.
+
+- **Assuming all lasers produce coherent light.** While laser light is highly coherent compared
+  to thermal sources, coherence length depends on the laser's linewidth. A multi-mode laser diode
+  can have a coherence length of only a few millimetres, while a single-mode HeNe laser can have
+  a coherence length of hundreds of metres.
+
+- **Neglecting the effect of the aperture on resolution.** The numerical aperture (NA) determines
+  the resolution: $d = \lambda/(2\,\mathrm{NA})$. A high-NA objective collects more light and
+  resolves finer details, but has a shorter working distance and shallower depth of field. Always
+  consider the NA when designing imaging systems.
+
+- **Confusing optical path length (OPL) and geometric path length.** OPL = $n \times$ geometric
+  path length. Interference depends on OPL differences, not geometric differences. A common error
+  is to compute geometric path differences in materials without accounting for the refractive
+  index, leading to incorrect predictions of constructive/destructive interference.
+
+- **Misunderstanding the f-number and its relation to exposure.** The f-number $N = f/D$ controls
+  both the light-gathering power (exposure) and the depth of field. Doubling the f-number reduces
+  the area by a factor of 4 (two stops), requiring four times the exposure time. The f-number
+  also affects diffraction: the Airy disk diameter scales as $2.44\lambda N$.

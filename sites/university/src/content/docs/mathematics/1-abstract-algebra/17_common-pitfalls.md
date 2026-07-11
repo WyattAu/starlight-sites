@@ -113,3 +113,40 @@ $(x^2 + \sqrt{2}x + 1)(x^2 - \sqrt{2}x + 1)$ over $\mathbb{R}$. For degrees $\ge
 of roots is necessary but not sufficient for irreducibility.
 
 :::
+
+:::caution Common Pitfall The direct product of groups $G \times H$ is not the same as the
+semi-direct product $G \rtimes H$. In a direct product, both subgroups are normal and the product
+is commutative. In a semi-direct product, only one factor is normal, and the group structure
+involves an action of one factor on the other. For example, $D_{2n} \cong \mathbb{Z}_n \rtimes
+\mathbb{Z}_2$ is not isomorphic to $\mathbb{Z}_n \times \mathbb{Z}_2$ (the latter is abelian).
+
+:::
+
+:::caution Common Pitfall The classification of finite simple groups includes several infinite
+families (cyclic groups of prime order, alternating groups $A_n$ for $n \geq 5$, Lie-type groups)
+and 26 sporadic groups. Students often forget that $\mathbb{Z}_p$ (cyclic of prime order) is
+simple, or mistakenly think $S_n$ is simple for $n \geq 5$ (it has $A_n$ as a proper normal
+subgroup).
+
+:::
+
+:::caution Common Pitfall When computing in quotient rings $R/I$, remember that elements are
+cosets $r + I$, not elements of $R$. The condition $r + I = s + I$ means $r - s \in I$, not
+$r = s$. A common error is to treat elements of $\mathbb{Z}/n\mathbb{Z}$ as integers $0,\ldots,n-1$
+and forget that arithmetic is modulo $n$.
+
+:::
+
+:::caution Common Pitfall Not every algebraic extension is a splitting field. The extension
+$\mathbb{Q}(\sqrt[3]{2})/\mathbb{Q}$ is algebraic (degree 3) but is not a splitting field for
+$x^3 - 2$ because the other two roots $\omega\sqrt[3]{2}$ and $\omega^2\sqrt[3]{2}$ are not in the
+field. A splitting field must contain all roots of the polynomial.
+
+:::
+
+:::caution Common Pitfall The characteristic of a ring is not the same as the order of the
+multiplicative identity in the group of units. $\mathbb{Z}_n$ has characteristic $n$, but the
+order of $1$ in the additive group is $n$, while in the multiplicative group of units $U(n)$,
+the order of $1$ is $1$ (since $1$ is the identity).
+
+:::
