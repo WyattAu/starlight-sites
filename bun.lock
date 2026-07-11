@@ -60,6 +60,25 @@
         "typescript": "^5.8.2",
       },
     },
+    "sites/dart": {
+      "name": "starlight-dart",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
     "sites/dse": {
       "name": "starlight-dse",
       "version": "0.1.0",
@@ -76,6 +95,63 @@
       },
       "devDependencies": {
         "typescript": "^5.8.2",
+      },
+    },
+    "sites/elixir": {
+      "name": "starlight-elixir",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/go": {
+      "name": "starlight-go",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/haskell": {
+      "name": "starlight-haskell",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
       },
     },
     "sites/ib": {
@@ -116,6 +192,44 @@
       },
       "devDependencies": {
         "typescript": "^5.8.2",
+      },
+    },
+    "sites/java": {
+      "name": "starlight-java",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/kotlin": {
+      "name": "starlight-kotlin",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
       },
     },
     "sites/languages": {
@@ -171,6 +285,25 @@
         "typescript": "^5.8.2",
       },
     },
+    "sites/python": {
+      "name": "starlight-python",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
     "sites/qualifications": {
       "name": "starlight-qualifications",
       "version": "0.1.0",
@@ -187,6 +320,63 @@
       },
       "devDependencies": {
         "typescript": "^5.8.2",
+      },
+    },
+    "sites/ruby": {
+      "name": "starlight-ruby",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/rust": {
+      "name": "starlight-rust",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/swift": {
+      "name": "starlight-swift",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
       },
     },
     "sites/tools": {
@@ -207,6 +397,25 @@
       },
       "devDependencies": {
         "typescript": "^5.8.2",
+      },
+    },
+    "sites/typescript": {
+      "name": "starlight-typescript",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
       },
     },
     "sites/university": {
@@ -2043,19 +2252,41 @@
 
     "starlight-alevel": ["starlight-alevel@workspace:sites/alevel"],
 
+    "starlight-dart": ["starlight-dart@workspace:sites/dart"],
+
     "starlight-dse": ["starlight-dse@workspace:sites/dse"],
+
+    "starlight-elixir": ["starlight-elixir@workspace:sites/elixir"],
+
+    "starlight-go": ["starlight-go@workspace:sites/go"],
+
+    "starlight-haskell": ["starlight-haskell@workspace:sites/haskell"],
 
     "starlight-ib": ["starlight-ib@workspace:sites/ib"],
 
     "starlight-infrastructure": ["starlight-infrastructure@workspace:sites/infrastructure"],
 
+    "starlight-java": ["starlight-java@workspace:sites/java"],
+
+    "starlight-kotlin": ["starlight-kotlin@workspace:sites/kotlin"],
+
     "starlight-languages": ["starlight-languages@workspace:sites/languages"],
 
     "starlight-programming": ["starlight-programming@workspace:sites/programming"],
 
+    "starlight-python": ["starlight-python@workspace:sites/python"],
+
     "starlight-qualifications": ["starlight-qualifications@workspace:sites/qualifications"],
 
+    "starlight-ruby": ["starlight-ruby@workspace:sites/ruby"],
+
+    "starlight-rust": ["starlight-rust@workspace:sites/rust"],
+
+    "starlight-swift": ["starlight-swift@workspace:sites/swift"],
+
     "starlight-tools": ["starlight-tools@workspace:sites/tools"],
+
+    "starlight-typescript": ["starlight-typescript@workspace:sites/typescript"],
 
     "starlight-university": ["starlight-university@workspace:sites/university"],
 
