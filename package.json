@@ -38,7 +38,18 @@
     "generate": "node scripts/generate-site.mjs"
   },
   "workspaces": [
-    "sites/*"
+    "sites/*",
+    "sites/dart",
+    "sites/elixir",
+    "sites/go",
+    "sites/haskell",
+    "sites/java",
+    "sites/kotlin",
+    "sites/python",
+    "sites/ruby",
+    "sites/rust",
+    "sites/swift",
+    "sites/typescript"
   ],
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",

@@ -36,13 +36,24 @@ const ROOT = join(__dirname, '..')
 
 const ASTRO_SITES = [
   'alevel',
+  'dart',
   'dse',
+  'elixir',
+  'go',
+  'haskell',
   'ib',
   'infrastructure',
+  'java',
+  'kotlin',
   'languages',
   'programming',
+  'python',
   'qualifications',
+  'ruby',
+  'rust',
+  'swift',
   'tools',
+  'typescript',
   'university',
 ]
 const ALL_SITES = [...ASTRO_SITES, 'main']

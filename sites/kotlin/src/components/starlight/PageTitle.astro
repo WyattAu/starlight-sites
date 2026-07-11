@@ -1,0 +1,90 @@
+---
+const { starlightRoute } = Astro.locals;
+const { entry, id } = starlightRoute;
+
+// PAGE_TITLE_ID is '_top' — hardcoded to avoid import resolution issues in overrides
+const PAGE_TITLE_ID = '_top';
+
+// Build breadcrumb trail from the page id (the slug).
+// e.g. "physics/1-mechanics/1_forces-and-motion" → [{label: "Physics", href: "/physics/"}, {label: "Forces and Motion"}]
+function buildBreadcrumbs(id: string) {
+  const parts = id.split('/').filter(Boolean);
+  const crumbs = [{ label: 'Home', href: '/' }];
+
+  let path = '';
+  for (let i = 0; i < parts.length; i++) {
+    path += `/${parts[i]}`;
+    const isLast = i === parts.length - 1;
+    // Convert slug to readable label: "1_forces-and-motion" → "Forces and Motion"
+    const label = parts[i]
+      .replace(/^\d+-/, '')        // Remove leading number prefix
+      .replace(/^\d+_/, '')        // Remove leading number_ prefix
+      .replace(/[-_]/g, ' ')       // Replace hyphens/underscores with spaces
+      .replace(/\b\w/g, c => c.toUpperCase()); // Capitalize words
+
+    if (isLast) {
+      crumbs.push({ label });
+    } else {
+      crumbs.push({ label, href: `${path}/` });
+    }
+  }
+  return crumbs;
+}
+
+const breadcrumbs = buildBreadcrumbs(id);
+---
+
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol>
+    {breadcrumbs.map((item, index) => (
+      <li>
+        {item.href ? (
+          <a href={item.href}>{item.label}</a>
+        ) : (
+          <span aria-current="page">{item.label}</span>
+        )}
+        {index < breadcrumbs.length - 1 && <span class="separator">/</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<h1 id={PAGE_TITLE_ID}>{entry.data.title}</h1>
+
+<style>
+  .breadcrumbs {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: var(--sl-color-gray-3);
+  }
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.25rem;
+  }
+  .breadcrumbs a {
+    color: var(--sl-color-accent);
+    text-decoration: none;
+  }
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumbs .separator {
+    margin: 0 0.25rem;
+    color: var(--sl-color-gray-5);
+  }
+  .breadcrumbs [aria-current="page"] {
+    color: var(--sl-color-gray-1);
+  }
+  h1 {
+    margin-top: 1rem;
+    font-size: var(--sl-text-h1);
+    line-height: var(--sl-line-height-headings);
+    font-weight: 600;
+    color: var(--sl-color-white);
+  }
+</style>
