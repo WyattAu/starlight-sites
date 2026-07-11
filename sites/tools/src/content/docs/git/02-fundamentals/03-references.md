@@ -318,7 +318,7 @@ search order:
 flowchart TD
     A["git rev-parse <name>"] --> B{"Is it a SHA-1 hash?"}
     B -->|Yes| C["Return the object"]
-    B -->|No| D{"Is it a built-in ref?\n(HEAD, MERGE_HEAD, etc.)"}
+    B -->|No| D{"Is it a built-in ref?<br/>(HEAD, MERGE_HEAD, etc.)"}
     D -->|Yes| E["Resolve to .git/<ref>"]
     D -->|No| F{"Is it refs/<name>?"}
     F -->|Yes| G["Return the object"]

@@ -31,9 +31,9 @@ graph LR
     end
 
     subgraph "heap objects"
-        obj0["PyObject\n"int: 42'"]
-        obj1["PyObject\n'str: hello'"]
-        obj2["PyObject\n'list: [1,2]'"]
+        obj0["PyObject<br/>"int: 42'"]
+        obj1["PyObject<br/>'str: hello'"]
+        obj2["PyObject<br/>'list: [1,2]'"]
     end
 
     items --> obj0
@@ -58,11 +58,11 @@ Is.
 ```mermaid
 graph TD
     A["append(x) called"] --> B{"ob_size == allocated?"}
-    B -- No --> C["items[ob_size] = x\nob_size += 1"]
+    B -- No --> C["items[ob_size] = x<br/>ob_size += 1"]
     C --> D["return"]
     B -- Yes --> E["new_allocated = grow(allocated)"]
-    E --> F["malloc new array\nof size new_allocated"]
-    F --> G["memcpy old pointers\nto new array"]
+    E --> F["malloc new array<br/>of size new_allocated"]
+    F --> G["memcpy old pointers<br/>to new array"]
     G --> H["free old array"]
     H --> C
 ```
@@ -310,8 +310,8 @@ graph TD
         dk_size["dk_size: table size"]
         dk_usable["dk_usable: usable slots"]
         dk_nentries["dk_nentries: active entries"]
-        dk_indices["dk_indices[]: int8/16/32/64 array\nindex into dk_entries"]
-        dk_entries["dk_entries[]:\nhash | key_ptr | value_ptr"]
+        dk_indices["dk_indices[]: int8/16/32/64 array<br/>index into dk_entries"]
+        dk_entries["dk_entries[]:<br/>hash | key_ptr | value_ptr"]
     end
 
     ma_keys --> dk_refcnt

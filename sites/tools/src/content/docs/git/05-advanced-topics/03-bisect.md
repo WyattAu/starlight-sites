@@ -63,14 +63,14 @@ $ git bisect good
 flowchart TD
     A["git bisect start"] --> B["git bisect bad HEAD"]
     B --> C["git bisect good v2.5.0"]
-    C --> D["Git checks out\nmidpoint commit"]
-    D --> E{"Test:\nis bug present?"}
+    C --> D["Git checks out<br/>midpoint commit"]
+    D --> E{"Test:<br/>is bug present?"}
     E -->|Yes| F["git bisect bad"]
     E -->|No| G["git bisect good"]
-    F --> H{"Range\nnarrowed to 1?"}
+    F --> H{"Range<br/>narrowed to 1?"}
     G --> H
     H -->|No| D
-    H -->|Yes| I["Culprit identified!\ngit bisect reset"]
+    H -->|Yes| I["Culprit identified!<br/>git bisect reset"]
 
     style I fill:#e8f5e9
 ```

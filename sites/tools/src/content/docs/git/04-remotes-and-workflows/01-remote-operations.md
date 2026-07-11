@@ -19,19 +19,19 @@ repository can act as a "remote" for any other. In practice, one repository is d
 ```mermaid
 flowchart LR
     subgraph "Developer A"
-        A1["Local repo\n(.git/)"]
+        A1["Local repo<br/>(.git/)"]
     end
 
     subgraph "Remote (origin)"
-        R["Bare repo\n(no working directory)"]
+        R["Bare repo<br/>(no working directory)"]
     end
 
     subgraph "Developer B"
-        B1["Local repo\n(.git/)"]
+        B1["Local repo<br/>(.git/)"]
     end
 
     subgraph "CI/CD"
-        C1["Runner\n(clone + build)"]
+        C1["Runner<br/>(clone + build)"]
     end
 
     A1 -- "git push" --> R
@@ -274,13 +274,13 @@ flowchart LR
     end
 
     subgraph "git push --force-with-lease"
-        C1{"origin/feature still\nat C (unchanged since fetch)?"}
+        C1{"origin/feature still<br/>at C (unchanged since fetch)?"}
         C1 -->|Yes| C2["Force push succeeds"]
-        C1 -->|No| C3["Push rejected\n(someone else pushed to C)"]
+        C1 -->|No| C3["Push rejected<br/>(someone else pushed to C)"]
     end
 
     subgraph "git push --force"
-        D1["Always overwrites remote\n(NO SAFETY CHECK)"]
+        D1["Always overwrites remote<br/>(NO SAFETY CHECK)"]
     end
 
     style C3 fill:#ffcdd2
@@ -368,8 +368,8 @@ remote branch as of the last `git fetch`. They are updated automatically by `fet
 
 ```mermaid
 flowchart LR
-    A["origin/main\n(remote-tracking ref)"] -->|"git fetch"| B["Updated to match\nremote's main"]
-    C["main\n(local branch)"] -->|"git commit"| D["Moves forward\nindependently"]
+    A["origin/main<br/>(remote-tracking ref)"] -->|"git fetch"| B["Updated to match<br/>remote's main"]
+    C["main<br/>(local branch)"] -->|"git commit"| D["Moves forward<br/>independently"]
     A -->|"git merge origin/main"| C
     D -->|"git push"| E["Remote's main updated"]
 

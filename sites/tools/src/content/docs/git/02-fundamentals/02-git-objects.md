@@ -33,11 +33,11 @@ example, an object with hash `a3f2b1c...` is stored at `.git/objects/a3/f2b1c...
 
 ```mermaid
 flowchart LR
-    A["File content\nor tree structure"] --> B["git hash-object -w\nor git write-tree"]
-    B --> C["Compressed object\n.git/objects/XX/YY..."]
+    A["File content<br/>or tree structure"] --> B["git hash-object -w<br/>or git write-tree"]
+    B --> C["Compressed object<br/>.git/objects/XX/YY..."]
     C --> D["SHA-1 hash returned"]
-    D --> E["Referenced by\ntree or commit"]
-    E --> F["Reachable from\na branch or tag"]
+    D --> E["Referenced by<br/>tree or commit"]
+    E --> F["Reachable from<br/>a branch or tag"]
 
     style A fill:#fff3e0
     style C fill:#e8f5e9

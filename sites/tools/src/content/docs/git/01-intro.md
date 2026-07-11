@@ -146,10 +146,10 @@ Git reads configuration from three levels, with later sources overriding earlier
 
 ```mermaid
 flowchart LR
-    A["/etc/gitconfig\n(System-wide)"] --> B["~/.gitconfig\n(User-wide)"]
-    B --> C[".git/config\n(Repository-local)"]
-    C --> D["Environment variables\n(GIT_CONFIG_COUNT)"]
-    D --> E["Command-line flags\n(-c key=value)"]
+    A["/etc/gitconfig<br/>(System-wide)"] --> B["~/.gitconfig<br/>(User-wide)"]
+    B --> C[".git/config<br/>(Repository-local)"]
+    C --> D["Environment variables<br/>(GIT_CONFIG_COUNT)"]
+    D --> E["Command-line flags<br/>(-c key=value)"]
 
     style A fill:#e1f5fe
     style B fill:#b3e5fc
@@ -165,16 +165,16 @@ Use `git config --list --show-origin` to see all effective values and their sour
 ```mermaid
 flowchart TB
     subgraph "Working Directory"
-        WD["Files on disk\n(your actual project)"]
+        WD["Files on disk<br/>(your actual project)"]
     end
 
     subgraph "Index (Staging Area)"
-        IDX["Snapshot of next commit\n(.git/index)"]
+        IDX["Snapshot of next commit<br/>(.git/index)"]
     end
 
     subgraph "Repository (.git)"
-        OBJ["Object Store\n(.git/objects/)"]
-        REF["References\n(.git/refs/)"]
+        OBJ["Object Store<br/>(.git/objects/)"]
+        REF["References<br/>(.git/refs/)"]
         HEAD["HEAD pointer"]
     end
 

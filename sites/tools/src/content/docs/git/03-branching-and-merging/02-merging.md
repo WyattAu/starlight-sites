@@ -50,9 +50,9 @@ Git uses the **three-way merge** algorithm, which requires three snapshots:
 
 ```mermaid
 flowchart TD
-    BASE["Base commit\n(common ancestor)"]
-    OURS["Ours\n(current branch)"]
-    THEIRS["Theirs\n(branch to merge)"]
+    BASE["Base commit<br/>(common ancestor)"]
+    OURS["Ours<br/>(current branch)"]
+    THEIRS["Theirs<br/>(branch to merge)"]
     RESULT["Merge result"]
 
     BASE -->|"What changed?"| OURS

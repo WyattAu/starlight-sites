@@ -28,10 +28,10 @@ flowchart TD
     C --> D["Execute event handler"]
     D --> E{"Handler complete?"}
     E -->|Yes| B
-    E -->|No\n(async result pending)| F["Register callback\nin microtask queue"]
+    E -->|No<br/>(async result pending)| F["Register callback<br/>in microtask queue"]
     F --> G["Yield to event loop"]
     G --> B
-    B -->|Yes| H["Idle\n(wait for next I/O event)"]
+    B -->|Yes| H["Idle<br/>(wait for next I/O event)"]
     H --> B
 ```
 
@@ -264,12 +264,12 @@ Processes or Rust's `mpsc` channels.
 flowchart LR
     subgraph "Main Isolate"
         A["Event Loop"] --> B["Memory Heap"]
-        A --> C["SendPort\n(sends messages)"]
+        A --> C["SendPort<br/>(sends messages)"]
     end
 
     subgraph "Worker Isolate"
-        D["Event Loop"] --> E["Memory Heap\n(independent)"]
-        D --> F["ReceivePort\n(receives messages)"]
+        D["Event Loop"] --> E["Memory Heap<br/>(independent)"]
+        D --> F["ReceivePort<br/>(receives messages)"]
     end
 
     C -- "message passing" --> F

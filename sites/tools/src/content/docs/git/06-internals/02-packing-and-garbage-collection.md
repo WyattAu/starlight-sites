@@ -17,9 +17,9 @@ Git objects go through three phases:
 
 ```mermaid
 flowchart LR
-    A["Loose Object\n(newly created)"] --> B["Packed Object\n(compressed in packfile)"]
-    B --> C["Unreachable Object\n(no ref points to it)"]
-    C --> D["Pruned Object\n(deleted by gc)"]
+    A["Loose Object<br/>(newly created)"] --> B["Packed Object<br/>(compressed in packfile)"]
+    B --> C["Unreachable Object<br/>(no ref points to it)"]
+    C --> D["Pruned Object<br/>(deleted by gc)"]
 
     style A fill:#e8f5e9
     style B fill:#e3f2fd
@@ -136,7 +136,7 @@ they're not needed for a reflog-based recovery).
 ```mermaid
 flowchart TD
     A["git gc"] --> B["Pack loose objects"]
-    A --> C["Repack packfiles\n(consolidate small packs)"]
+    A --> C["Repack packfiles<br/>(consolidate small packs)"]
     A --> D["Prune unreachable objects"]
     A --> E["Expire reflog entries"]
     A --> F["Remove stale working tree files"]

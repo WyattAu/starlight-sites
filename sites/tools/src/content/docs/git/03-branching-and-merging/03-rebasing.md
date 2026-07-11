@@ -321,7 +321,7 @@ will encounter diverged histories, duplicated commits, and confusing conflicts.
 flowchart TD
     A["You rebase feature on main"] --> B["Feature commits get new hashes"]
     B --> C["Colleague has old commits"]
-    C --> D["Colleague pushes old commits\n(or tries to merge)"]
+    C --> D["Colleague pushes old commits<br/>(or tries to merge)"]
     D --> E["Duplicate commits in history"]
     D --> F["Merge conflicts everywhere"]
 

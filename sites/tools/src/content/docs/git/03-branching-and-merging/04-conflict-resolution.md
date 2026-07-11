@@ -21,12 +21,12 @@ different ways.
 
 ```mermaid
 flowchart TD
-    A["Both branches modify\ndifferent files"] --> B["Auto-merge: no conflict"]
-    C["Both branches modify\ndifferent regions of the same file"] --> B
-    D["One branch modifies,\nother deletes the same file"] --> E["Conflict"]
-    F["Both branches modify\nthe same region of the same file"] --> E
-    G["Both branches add\na file with the same name\n(different content)"] --> E
-    H["One branch renames,\nother modifies the original"] --> I["Possible auto-resolve\n(rename detection)"]
+    A["Both branches modify<br/>different files"] --> B["Auto-merge: no conflict"]
+    C["Both branches modify<br/>different regions of the same file"] --> B
+    D["One branch modifies,<br/>other deletes the same file"] --> E["Conflict"]
+    F["Both branches modify<br/>the same region of the same file"] --> E
+    G["Both branches add<br/>a file with the same name<br/>(different content)"] --> E
+    H["One branch renames,<br/>other modifies the original"] --> I["Possible auto-resolve<br/>(rename detection)"]
 
     style B fill:#e8f5e9
     style E fill:#ffcdd2

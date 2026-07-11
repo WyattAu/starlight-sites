@@ -132,14 +132,14 @@ Short-lived branch types. Originally published by Vincent Driessen in 2010.
 ```mermaid
 flowchart TD
     subgraph "Long-lived branches"
-        MAIN["main\n(production-ready)"]
-        DEV["develop\n(integration)"]
+        MAIN["main<br/>(production-ready)"]
+        DEV["develop<br/>(integration)"]
     end
 
     subgraph "Short-lived branches"
-        F["feature/*\n(new features)"]
-        R["release/*\n(release prep)"]
-        H["hotfix/*\n(urgent fixes)"]
+        F["feature/*<br/>(new features)"]
+        R["release/*<br/>(release prep)"]
+        H["hotfix/*<br/>(urgent fixes)"]
     end
 
     MAIN ---|"merge (no-ff)"| DEV

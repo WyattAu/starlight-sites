@@ -224,14 +224,14 @@ The relationship between the three trees defines the repository's state:
 ```mermaid
 flowchart LR
     subgraph "Clean States"
-        C1["All three trees identical\n(git status: nothing to commit)"]
+        C1["All three trees identical<br/>(git status: nothing to commit)"]
     end
 
     subgraph "Dirty States"
-        D1["Working Dir ≠ Index\n(git diff shows changes)"]
-        D2["Index ≠ HEAD\n(git diff --cached shows changes)"]
-        D3["Both dirty\n(modified and staged changes)"]
-        D4["Merge conflict\n(Index has unmerged entries)"]
+        D1["Working Dir ≠ Index<br/>(git diff shows changes)"]
+        D2["Index ≠ HEAD<br/>(git diff --cached shows changes)"]
+        D3["Both dirty<br/>(modified and staged changes)"]
+        D4["Merge conflict<br/>(Index has unmerged entries)"]
     end
 
     C1 --> D1

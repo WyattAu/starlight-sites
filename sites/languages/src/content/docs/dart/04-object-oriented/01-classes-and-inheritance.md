@@ -92,10 +92,10 @@ class Point {
 
 ```mermaid
 flowchart TD
-    A["Generative\nPoint(this.x, this.y)"] --> B["Named\nPoint.origin()"]
-    A --> C["Redirecting\nPoint.alongX(x)"]
-    A --> D["Constant\nconst Point.zero()"]
-    A --> E["Factory\nfactory Point.polar(r, θ)"]
+    A["Generative<br/>Point(this.x, this.y)"] --> B["Named<br/>Point.origin()"]
+    A --> C["Redirecting<br/>Point.alongX(x)"]
+    A --> D["Constant<br/>const Point.zero()"]
+    A --> E["Factory<br/>factory Point.polar(r, θ)"]
 
     B -.->|"delegates to"| A
     C -.->|"redirects to"| A
@@ -227,17 +227,17 @@ class LoudGreeter implements Greeter, Comparable<LoudGreeter> {
 flowchart LR
     subgraph "extends (inheritance)"
         A["Animal"] --> B["Dog"]
-        B --> C["methods inherited\n+ can override"]
+        B --> C["methods inherited<br/>+ can override"]
     end
 
     subgraph "implements (interface)"
         D["Greeter (interface)"] --> E["FormalGreeter"]
-        E --> F["must implement ALL\nno code inherited"]
+        E --> F["must implement ALL<br/>no code inherited"]
     end
 
     subgraph "with (mixin)"
         G["class Dog"] --> H["mixin Serializable"]
-        H --> I["methods injected\nno inheritance chain"]
+        H --> I["methods injected<br/>no inheritance chain"]
     end
 ```
 

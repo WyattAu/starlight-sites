@@ -96,21 +96,21 @@ But they share:
 ```mermaid
 flowchart TD
     subgraph "Shared"
-        OBJ["Object Store\n(.git/objects/)"]
-        REF["References\n(.git/refs/)"]
-        CFG["Configuration\n(.git/config)"]
+        OBJ["Object Store<br/>(.git/objects/)"]
+        REF["References<br/>(.git/refs/)"]
+        CFG["Configuration<br/>(.git/config)"]
     end
 
     subgraph "Main Worktree (repo/)"
         W1_HEAD["HEAD → main"]
         W1_IDX["Index"]
-        W1_WD["Working Directory\n(main branch)"]
+        W1_WD["Working Directory<br/>(main branch)"]
     end
 
     subgraph "Linked Worktree (repo-auth/)"
         W2_HEAD["HEAD → feature-auth"]
         W2_IDX["Index"]
-        W2_WD["Working Directory\n(feature-auth branch)"]
+        W2_WD["Working Directory<br/>(feature-auth branch)"]
     end
 
     W1_HEAD --> REF

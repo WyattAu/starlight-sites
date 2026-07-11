@@ -122,15 +122,15 @@ When you run `git switch main`Git performs the following:
 
 ```mermaid
 flowchart LR
-    A["git switch main"] --> B{"Working directory\nis clean?"}
+    A["git switch main"] --> B{"Working directory<br/>is clean?"}
     B -->|Yes| C["Update HEAD"]
     C --> D["Update index"]
     D --> E["Update working directory"]
-    B -->|No| F{"Changes conflict\nwith target branch?"}
-    F -->|No| G["Carry changes over\n(update index only)"]
+    B -->|No| F{"Changes conflict<br/>with target branch?"}
+    F -->|No| G["Carry changes over<br/>(update index only)"]
     G --> C
-    F -->|Yes| H["Error: would overwrite\nlocal changes"]
-    H --> I["Commit, stash,\nor discard changes first"]
+    F -->|Yes| H["Error: would overwrite<br/>local changes"]
+    H --> I["Commit, stash,<br/>or discard changes first"]
 ```
 
 If you have uncommitted changes that **do not conflict** with the target branch, Git carries them
