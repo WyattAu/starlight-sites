@@ -251,15 +251,17 @@ describe('Search Worker (mocked KV)', () => {
       assert.ok(r.siteUrl, 'siteUrl should be populated')
     })
 
-    it('returns 503 when the merged index is missing', async () => {
-      // KV with no merged-index key.
+    it('falls back to static index when KV is missing', async () => {
+      // KV without merged-index key — worker should fall back to
+      // the statically bundled merged-index.js.
       const env = makeEnv(createMockKV({ metadata: JSON.stringify(FIXTURE_INDEX.metadata) }))
       const { status, body } = await callWorker(worker, '/api/search', {
         search: '?q=quadratic',
         env,
       })
-      assert.strictEqual(status, 503)
-      assert.match(body.error, /index not available/i)
+      // Static index is available, so we get 200 with results, not 503
+      assert.strictEqual(status, 200)
+      assert.ok(body.results, 'should have results from static index')
     })
 
     it('returns breadcrumbs derived from the URL', async () => {
