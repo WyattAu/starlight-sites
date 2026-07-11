@@ -49,6 +49,17 @@ function initCrossSiteSearch() {
     <style>
       #cross-site-search {
         position: relative;
+        display: flex;
+        align-items: center;
+      }
+      #cross-site-search .search-icon {
+        position: absolute;
+        left: 0.5rem;
+        color: var(--wn-text-muted, #8888a0);
+        pointer-events: none;
+        width: 14px;
+        height: 14px;
+        z-index: 1;
       }
       #cross-site-search input {
         width: 180px;
@@ -69,16 +80,6 @@ function initCrossSiteSearch() {
       #cross-site-search input:focus {
         width: 240px;
         border-color: var(--sl-color-accent, #ff6b35);
-      }
-      #cross-site-search .search-icon {
-        position: absolute;
-        left: 0.5rem;
-        top: 50%;
-        transform: translateY(-50%);
-        color: var(--wn-text-muted, #8888a0);
-        pointer-events: none;
-        width: 14px;
-        height: 14px;
       }
       #cross-site-search .search-results {
         position: absolute;
