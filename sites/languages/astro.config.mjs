@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Languages',
       pagefind: false,
-      expressiveCode: { themes: ['min-dark', 'min-light'] },
+      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
       description:
         'Comparative programming language notes covering syntax, paradigms, type systems, and concurrency models.',
 

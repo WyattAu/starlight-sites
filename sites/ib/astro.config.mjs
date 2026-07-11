@@ -24,7 +24,7 @@ export default defineConfig({
     starlight({
       title: 'IB',
       pagefind: false,
-      expressiveCode: { themes: ['min-dark', 'min-light'] },
+      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
       description:
         'International Baccalaureate Diploma Programme notes aligned to the IB curriculum framework for Mathematics, Sciences, and Humanities.',
 

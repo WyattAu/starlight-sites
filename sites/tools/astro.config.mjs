@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Tools',
       pagefind: false,
-      expressiveCode: { themes: ['min-dark', 'min-light'] },
+      expressiveCode: { themes: ['everforest-dark', 'everforest-light'] },
       description:
         'Algorithms, data structures, version control, licensing, and machine learning fundamentals.',
 
