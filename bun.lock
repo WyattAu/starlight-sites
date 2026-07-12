@@ -42,8 +42,116 @@
         "wrangler": "4",
       },
     },
+    "sites/admissions": {
+      "name": "starlight-admissions",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
     "sites/alevel": {
       "name": "starlight-alevel",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/ap": {
+      "name": "starlight-ap",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/cbse": {
+      "name": "starlight-cbse",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/chemistry": {
+      "name": "starlight-chemistry",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/computer-science": {
+      "name": "starlight-computer-science",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/computing": {
+      "name": "starlight-computing",
       "version": "0.1.0",
       "dependencies": {
         "@astrojs/mdx": "^6.0.3",
@@ -102,6 +210,24 @@
         "tailwindcss": "^4.3.1",
       },
     },
+    "sites/databases": {
+      "name": "starlight-databases",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
     "sites/dse": {
       "name": "starlight-dse",
       "version": "0.1.0",
@@ -139,6 +265,42 @@
         "remark-math": "^6.0.0",
         "solid-js": "^1.9.13",
         "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/gaokao": {
+      "name": "starlight-gaokao",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/gcse": {
+      "name": "starlight-gcse",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
       },
     },
     "sites/go": {
@@ -183,8 +345,8 @@
         "tailwindcss": "^4.3.1",
       },
     },
-    "sites/ib": {
-      "name": "starlight-ib",
+    "sites/highers": {
+      "name": "starlight-highers",
       "version": "0.1.0",
       "dependencies": {
         "@astrojs/mdx": "^6.0.3",
@@ -192,9 +354,7 @@
         "@astrojs/solid-js": "^6.0.1",
         "@astrojs/starlight": "^0.40.0",
         "astro": "^6.4.8",
-        "astro-mermaid": "^2.0.2",
         "dompurify": "^3.2.4",
-        "mermaid": "^11.15.0",
         "rehype-katex": "^7.0.1",
         "remark-math": "^6.0.0",
         "solid-js": "^1.9.7",
@@ -203,8 +363,26 @@
         "typescript": "^5.8.2",
       },
     },
-    "sites/infrastructure": {
-      "name": "starlight-infrastructure",
+    "sites/hsc": {
+      "name": "starlight-hsc",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/ib": {
+      "name": "starlight-ib",
       "version": "0.1.0",
       "dependencies": {
         "@astrojs/mdx": "^6.0.3",
@@ -285,6 +463,78 @@
         "typescript": "^5.8.2",
       },
     },
+    "sites/leaving-cert": {
+      "name": "starlight-leaving-cert",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/licensing": {
+      "name": "starlight-licensing",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/linux": {
+      "name": "starlight-linux",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/machine-learning": {
+      "name": "starlight-machine-learning",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
     "sites/main": {
       "name": "main",
       "dependencies": {
@@ -292,6 +542,60 @@
         "@astrojs/sitemap": "^3.7.3",
         "@astrojs/solid-js": "^6.0.1",
         "astro": "^6.4.8",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/mathematics": {
+      "name": "starlight-mathematics",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/networking": {
+      "name": "starlight-networking",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/physics": {
+      "name": "starlight-physics",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
         "solid-js": "^1.9.7",
       },
       "devDependencies": {
@@ -339,24 +643,6 @@
         "tailwindcss": "^4.3.1",
       },
     },
-    "sites/qualifications": {
-      "name": "starlight-qualifications",
-      "version": "0.1.0",
-      "dependencies": {
-        "@astrojs/mdx": "^6.0.3",
-        "@astrojs/sitemap": "^3.7.3",
-        "@astrojs/solid-js": "^6.0.1",
-        "@astrojs/starlight": "^0.40.0",
-        "astro": "^6.4.8",
-        "dompurify": "^3.2.4",
-        "rehype-katex": "^7.0.1",
-        "remark-math": "^6.0.0",
-        "solid-js": "^1.9.7",
-      },
-      "devDependencies": {
-        "typescript": "^5.8.2",
-      },
-    },
     "sites/ruby": {
       "name": "starlight-ruby",
       "version": "1.0.0",
@@ -397,6 +683,42 @@
         "remark-math": "^6.0.0",
         "solid-js": "^1.9.13",
         "tailwindcss": "^4.3.1",
+      },
+    },
+    "sites/sat": {
+      "name": "starlight-sat",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/security": {
+      "name": "starlight-security",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
       },
     },
     "sites/swift": {
@@ -440,6 +762,42 @@
         "typescript": "^5.8.2",
       },
     },
+    "sites/truenas": {
+      "name": "starlight-truenas",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
+    "sites/tuning": {
+      "name": "starlight-tuning",
+      "version": "0.1.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "astro": "^6.4.8",
+        "dompurify": "^3.2.4",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.7",
+      },
+      "devDependencies": {
+        "typescript": "^5.8.2",
+      },
+    },
     "sites/typescript": {
       "name": "starlight-typescript",
       "version": "1.0.0",
@@ -459,24 +817,6 @@
         "remark-math": "^6.0.0",
         "solid-js": "^1.9.13",
         "tailwindcss": "^4.3.1",
-      },
-    },
-    "sites/university": {
-      "name": "starlight-university",
-      "version": "0.1.0",
-      "dependencies": {
-        "@astrojs/mdx": "^6.0.3",
-        "@astrojs/sitemap": "^3.7.3",
-        "@astrojs/solid-js": "^6.0.1",
-        "@astrojs/starlight": "^0.40.0",
-        "astro": "^6.4.8",
-        "dompurify": "^3.2.4",
-        "rehype-katex": "^7.0.1",
-        "remark-math": "^6.0.0",
-        "solid-js": "^1.9.7",
-      },
-      "devDependencies": {
-        "typescript": "^5.8.2",
       },
     },
   },
@@ -2293,23 +2633,43 @@
 
     "stackback": ["stackback@0.0.2", "", {}, "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw=="],
 
+    "starlight-admissions": ["starlight-admissions@workspace:sites/admissions"],
+
     "starlight-alevel": ["starlight-alevel@workspace:sites/alevel"],
+
+    "starlight-ap": ["starlight-ap@workspace:sites/ap"],
+
+    "starlight-cbse": ["starlight-cbse@workspace:sites/cbse"],
+
+    "starlight-chemistry": ["starlight-chemistry@workspace:sites/chemistry"],
+
+    "starlight-computer-science": ["starlight-computer-science@workspace:sites/computer-science"],
+
+    "starlight-computing": ["starlight-computing@workspace:sites/computing"],
 
     "starlight-cpp": ["starlight-cpp@workspace:sites/cpp"],
 
     "starlight-dart": ["starlight-dart@workspace:sites/dart"],
 
+    "starlight-databases": ["starlight-databases@workspace:sites/databases"],
+
     "starlight-dse": ["starlight-dse@workspace:sites/dse"],
 
     "starlight-elixir": ["starlight-elixir@workspace:sites/elixir"],
+
+    "starlight-gaokao": ["starlight-gaokao@workspace:sites/gaokao"],
+
+    "starlight-gcse": ["starlight-gcse@workspace:sites/gcse"],
 
     "starlight-go": ["starlight-go@workspace:sites/go"],
 
     "starlight-haskell": ["starlight-haskell@workspace:sites/haskell"],
 
-    "starlight-ib": ["starlight-ib@workspace:sites/ib"],
+    "starlight-highers": ["starlight-highers@workspace:sites/highers"],
 
-    "starlight-infrastructure": ["starlight-infrastructure@workspace:sites/infrastructure"],
+    "starlight-hsc": ["starlight-hsc@workspace:sites/hsc"],
+
+    "starlight-ib": ["starlight-ib@workspace:sites/ib"],
 
     "starlight-java": ["starlight-java@workspace:sites/java"],
 
@@ -2317,23 +2677,41 @@
 
     "starlight-languages": ["starlight-languages@workspace:sites/languages"],
 
+    "starlight-leaving-cert": ["starlight-leaving-cert@workspace:sites/leaving-cert"],
+
+    "starlight-licensing": ["starlight-licensing@workspace:sites/licensing"],
+
+    "starlight-linux": ["starlight-linux@workspace:sites/linux"],
+
+    "starlight-machine-learning": ["starlight-machine-learning@workspace:sites/machine-learning"],
+
+    "starlight-mathematics": ["starlight-mathematics@workspace:sites/mathematics"],
+
+    "starlight-networking": ["starlight-networking@workspace:sites/networking"],
+
+    "starlight-physics": ["starlight-physics@workspace:sites/physics"],
+
     "starlight-programming": ["starlight-programming@workspace:sites/programming"],
 
     "starlight-python": ["starlight-python@workspace:sites/python"],
-
-    "starlight-qualifications": ["starlight-qualifications@workspace:sites/qualifications"],
 
     "starlight-ruby": ["starlight-ruby@workspace:sites/ruby"],
 
     "starlight-rust": ["starlight-rust@workspace:sites/rust"],
 
+    "starlight-sat": ["starlight-sat@workspace:sites/sat"],
+
+    "starlight-security": ["starlight-security@workspace:sites/security"],
+
     "starlight-swift": ["starlight-swift@workspace:sites/swift"],
 
     "starlight-tools": ["starlight-tools@workspace:sites/tools"],
 
-    "starlight-typescript": ["starlight-typescript@workspace:sites/typescript"],
+    "starlight-truenas": ["starlight-truenas@workspace:sites/truenas"],
 
-    "starlight-university": ["starlight-university@workspace:sites/university"],
+    "starlight-tuning": ["starlight-tuning@workspace:sites/tuning"],
+
+    "starlight-typescript": ["starlight-typescript@workspace:sites/typescript"],
 
     "std-env": ["std-env@4.1.0", "", {}, "sha512-Rq7ybcX2RuC55r9oaPVEW7/xu3tj8u4GeBYHBWCychFtzMIr86A7e3PPEBPT37sHStKX3+TiX/Fr/ACmJLVlLQ=="],
 
