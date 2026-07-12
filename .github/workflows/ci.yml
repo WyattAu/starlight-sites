@@ -154,7 +154,10 @@ jobs:
           - leaving-cert
           - programming
           - python
-          - qualifications
+          - cbse
+          - gaokao
+          - hsc
+          - sat
           - ruby
           - rust
           - swift

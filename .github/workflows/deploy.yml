@@ -91,9 +91,18 @@ jobs:
           - site: university
             project: wyattsnotes-university
             url: https://university.wyattau.com
-          - site: qualifications
-            project: wyattsnotes-qualifications
-            url: https://qualifications.wyattau.com
+          - site: cbse
+            project: wyattsnotes-cbse
+            url: https://cbse.wyattau.com
+          - site: gaokao
+            project: wyattsnotes-gaokao
+            url: https://gaokao.wyattau.com
+          - site: hsc
+            project: wyattsnotes-hsc
+            url: https://hsc.wyattau.com
+          - site: sat
+            project: wyattsnotes-sat
+            url: https://sat.wyattau.com
           - site: programming
             project: wyattsnotes-programming
             url: https://programming.wyattau.com

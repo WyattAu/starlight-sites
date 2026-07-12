@@ -53,6 +53,34 @@ const QUALS = [
     desc: 'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
     subjects: ['Biology', 'Chemistry', 'Physics', 'Maths', 'Computer Science'],
   },
+  {
+    name: 'cbse',
+    title: 'CBSE',
+    url: 'https://cbse.wyattau.com',
+    desc: 'CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.',
+    subjects: ['Chemistry', 'Physics', 'Mathematics'],
+  },
+  {
+    name: 'gaokao',
+    title: 'Gaokao',
+    url: 'https://gaokao.wyattau.com',
+    desc: 'Gaokao (China) revision notes covering Mathematics.',
+    subjects: ['Mathematics'],
+  },
+  {
+    name: 'hsc',
+    title: 'HSC',
+    url: 'https://hsc.wyattau.com',
+    desc: 'HSC (Australia) revision notes covering Physics.',
+    subjects: ['Physics'],
+  },
+  {
+    name: 'sat',
+    title: 'SAT',
+    url: 'https://sat.wyattau.com',
+    desc: 'SAT revision notes covering Mathematics, Reading and Writing, and Science.',
+    subjects: ['Mathematics', 'Reading and Writing', 'Science'],
+  },
 ]
 
 function read(path) {
