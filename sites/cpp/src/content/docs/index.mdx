@@ -1,0 +1,145 @@
+---
+template: splash
+title: Programming Notes
+description: "C++ systems programming notes."
+hero:
+  tagline: Deep systems programming notes covering ownership, templates, concurrency, and build systems.
+  actions:
+    - text: Browse Compilation Model
+      link: /compilation_model/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Compilation Model
+<CardGrid>
+<a href="/compilation_model/1_translation/1_preprocessing_ast_object/" class="landing-card">
+<Card title="1_translation" icon="document">
+    Understanding the translation stages are critical for debugging compilation errors, optimizing bu...
+  </Card>
+</a>
+<a href="/compilation_model/2_modules/1_cpp_23/" class="landing-card">
+<Card title="2_modules" icon="document">
+    C++ Programming C++23 notes covering key definitions, core concepts, worked examples, and practic...
+  </Card>
+</a>
+</CardGrid>
+
+## Types
+<CardGrid>
+<a href="/types/1_data_layout/1_fundamental_types/" class="landing-card">
+<Card title="1_data_layout" icon="document">
+    In managed languages (Java, C#), types are abstract constraints enforced by a virtual machine. In...
+  </Card>
+</a>
+<a href="/types/2_pointers_references_views/1_pointers/" class="landing-card">
+<Card title="2_pointers_references_views" icon="document">
+    In high-level languages (Java, Python), references are opaque handles. In C++, pointers are direc...
+  </Card>
+</a>
+<a href="/types/3_initialization_and_lifetime/1_storage_duration/" class="landing-card">
+<Card title="3_initialization_and_lifetime" icon="document">
+    C++ Programming Storage Duration notes covering key definitions, core concepts, worked examples, ...
+  </Card>
+</a>
+<a href="/types/flashcards-type-system/" class="landing-card">
+<Card title="Flashcards Type System" icon="document">
+    20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.
+  </Card>
+</a>
+<a href="/types/practice-types-resources/" class="landing-card">
+<Card title="Practice Types Resources" icon="document">
+    12 practice problems covering fundamental C++ concepts: types, RAII, ownership, move semantics, s...
+  </Card>
+</a>
+</CardGrid>
+
+## Resource Management
+<CardGrid>
+<a href="/resource_management/1_ownership_and_raii/1_raii_patterns/" class="landing-card">
+<Card title="1_ownership_and_raii" icon="open-book">
+    RAII (Resource Acquisition Is Initialization) is the foundational C++ idiom that binds resource L...
+  </Card>
+</a>
+<a href="/resource_management/2_value_categories_and_move/1_value_taxonomy/" class="landing-card">
+<Card title="2_value_categories_and_move" icon="document">
+    Every C++ expression has a — a property that determines which operations are Legal on it and how ...
+  </Card>
+</a>
+<a href="/resource_management/0_intro/" class="landing-card">
+<Card title="0_intro" icon="document">
+    Part 4 addresses the central problem in systems programming:
+  </Card>
+</a>
+</CardGrid>
+
+## Object Oriented
+<CardGrid>
+<a href="/object_oriented/1_class_design/1_object_layout_vptr/" class="landing-card">
+<Card title="1_class_design" icon="open-book">
+    Understanding how the compiler lays out objects in memory is fundamental to writing correct and E...
+  </Card>
+</a>
+<a href="/object_oriented/2_runtime_polymorphism/1_vtables/" class="landing-card">
+<Card title="2_runtime_polymorphism" icon="document">
+    Virtual functions are the foundation of runtime polymorphism in C++. When a member function is De...
+  </Card>
+</a>
+<a href="/object_oriented/flashcards-oop/" class="landing-card">
+<Card title="Flashcards Oop" icon="document">
+    PROGRAMMING 6_object_oriented flashcards: C++ Flashcards: Object-Oriented Programming. Comprehens...
+  </Card>
+</a>
+</CardGrid>
+
+## Standard Library
+<CardGrid>
+<a href="/standard_library/1_containers_and_allocators/1_sequence_containers/" class="landing-card">
+<Card title="1_containers_and_allocators" icon="document">
+    The C++ standard library provides three primary sequence containers: And . Each uses a different ...
+  </Card>
+</a>
+<a href="/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/" class="landing-card">
+<Card title="2_algorithms_and_ranges" icon="document">
+    C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel ...
+  </Card>
+</a>
+<a href="/standard_library/3_input_output_formatting/1_stream_buffers/" class="landing-card">
+<Card title="3_input_output_formatting" icon="document">
+    The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform form...
+  </Card>
+</a>
+<a href="/standard_library/4_system_utilities/1_filesystem/" class="landing-card">
+<Card title="4_system_utilities" icon="document">
+    (C++17) provides a portable interface for manipulating paths, querying file Metadata, iterating d...
+  </Card>
+</a>
+</CardGrid>
+
+## Concurrency
+<CardGrid>
+<a href="/concurrency/1_threading_and_synchronization/1_threads_jthread/" class="landing-card">
+<Card title="1_threading_and_synchronization" icon="document">
+    This section covers thread creation with and Hardware concurrency Detection, join/detach semantic...
+  </Card>
+</a>
+<a href="/concurrency/2_memory_model_and_atomics/1_instruction_reordering/" class="landing-card">
+<Card title="2_memory_model_and_atomics" icon="document">
+    This section covers the as-if rule and compiler reordering, CPU-level store buffers and load Buff...
+  </Card>
+</a>
+<a href="/concurrency/3_coroutines_and_async_io/1_coroutine_frames/" class="landing-card">
+<Card title="3_coroutines_and_async_io" icon="document">
+    This section covers coroutines as suspendable functions, the stackless vs stackful design trade-o...
+  </Card>
+</a>
+</CardGrid>
+
+## How to Use These Notes
+
+1. **Start with the fundamentals** -- build a solid foundation before moving to advanced topics
+2. **Work through examples** -- follow along with the worked examples to build intuition
+3. **Test yourself** -- use the practice problems and flashcards to check your understanding
+4. **Review regularly** -- spaced repetition helps retain what you have learned

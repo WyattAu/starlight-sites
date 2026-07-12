@@ -106,6 +106,9 @@ jobs:
           - site: tools
             project: wyattsnotes-tools
             url: https://tools.wyattau.com
+          - site: cpp
+            project: wyattsnotes-cpp
+            url: https://cpp.wyattau.com
           - site: dart
             project: wyattsnotes-dart
             url: https://dart.wyattau.com

@@ -36,6 +36,7 @@ const ROOT = join(__dirname, '..')
 
 const ASTRO_SITES = [
   'alevel',
+  'cpp',
   'dart',
   'dse',
   'elixir',
