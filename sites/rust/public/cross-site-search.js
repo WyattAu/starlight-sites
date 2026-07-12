@@ -11,7 +11,8 @@ function initCrossSiteSearch() {
   }
 
   // Check if search already exists
-  if (document.getElementById('cross-site-search')) return
+  if (document.getElementById('cross-site-search') || document.getElementById('custom-search'))
+    return
 
   // Find the top navigation bar container.
   // Strategy: look for Starlight's header -> site-title wrapper -> insert after it
