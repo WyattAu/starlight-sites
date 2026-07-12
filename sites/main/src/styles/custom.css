@@ -166,15 +166,32 @@ nav {
 .hero::before {
   content: "";
   position: absolute;
-  top: -50%;
+  top: -60%;
   left: 50%;
   translate: -50% 0;
-  width: 800px;
-  height: 800px;
+  width: 900px;
+  height: 900px;
+  background:
+    radial-gradient(
+      circle,
+      color-mix(in srgb, var(--sl-color-accent, #ff6b35) 8%, transparent) 0%,
+      color-mix(in srgb, var(--sl-color-accent, #ff6b35) 3%, transparent) 40%,
+      transparent 70%
+    );
+  pointer-events: none;
+  z-index: 0;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
   background: radial-gradient(
     circle,
-    color-mix(in srgb, var(--sl-color-accent, #ff6b35) 6%, transparent) 0%,
-    transparent 70%
+    color-mix(in srgb, var(--sl-color-accent, #ff6b35) 4%, transparent) 0%,
+    transparent 60%
   );
   pointer-events: none;
   z-index: 0;
@@ -281,12 +298,25 @@ nav {
 }
 .stat {
   text-align: center;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: var(--wn-radius-sm, 10px);
+  transition: background var(--wn-duration-base, 220ms)
+    var(--wn-ease-organic, cubic-bezier(0.22, 1, 0.36, 1));
+}
+.stat:hover {
+  background: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 4%, transparent);
 }
 .stat-value {
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--sl-color-accent, #ff6b35);
   line-height: 1.1;
+  transition: transform var(--wn-duration-fast, 140ms)
+    var(--wn-ease-organic, cubic-bezier(0.22, 1, 0.36, 1));
+}
+.stat:hover .stat-value {
+  transform: scale(1.05);
 }
 .stat-label {
   font-size: 0.85rem;
@@ -412,6 +442,23 @@ section {
   color: var(--wn-text-muted, #94a3b8);
 }
 
+/* === Keyboard shortcut display === */
+.shortcut-kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6em;
+  height: 1.4em;
+  padding: 0 0.3em;
+  font-size: 0.75em;
+  font-family: var(--wn-font-mono, "JetBrains Mono", "Fira Code", monospace);
+  background: var(--wn-bg, #0a0a0f);
+  border: 1px solid var(--wn-border-light, #3a3a50);
+  border-radius: var(--wn-radius-xs, 6px);
+  color: var(--wn-text-muted, #94a3b8);
+  vertical-align: middle;
+}
+
 /* === Feature Grid (2x2, distinct accents) === */
 .feature-grid {
   display: grid;
@@ -451,6 +498,17 @@ section {
 }
 .feature-card[data-accent="warning"] {
   --accent-strip: var(--wn-warning, #f39c12);
+}
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: color-mix(in srgb, var(--accent-strip) 12%, transparent);
+  border-radius: var(--wn-radius-sm, 10px);
+  color: var(--accent-strip);
+  margin-bottom: 1rem;
 }
 .feature-card h3 {
   font-size: 1.1rem;
@@ -505,6 +563,49 @@ footer {
   outline: 2px solid var(--sl-color-accent, #ff6b35);
   outline-offset: 2px;
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--sl-color-accent, #ff6b35) 20%, transparent);
+}
+
+/* === Smooth scroll (respecting reduced motion) === */
+html {
+  scroll-behavior: smooth;
+}
+[data-reduce-motion="true"] html {
+  scroll-behavior: auto;
+}
+
+/* === Section Dividers === */
+section + section::before {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--sl-color-accent, #ff6b35) 0%,
+    color-mix(in srgb, var(--sl-color-accent, #ff6b35) 30%, transparent) 100%
+  );
+  border-radius: 1px;
+  margin-bottom: 4rem;
+  opacity: 0.5;
+}
+
+/* === Card subtle entrance (respecting reduced motion) === */
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.site-card, .feature-card, .stat {
+  animation: cardFadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.site-card:nth-child(1), .stat:nth-child(1) { animation-delay: 0.05s; }
+.site-card:nth-child(2), .stat:nth-child(2) { animation-delay: 0.1s; }
+.site-card:nth-child(3), .stat:nth-child(3) { animation-delay: 0.15s; }
+.site-card:nth-child(4), .stat:nth-child(4) { animation-delay: 0.2s; }
+.site-card:nth-child(5) { animation-delay: 0.25s; }
+[data-reduce-motion="true"] .site-card,
+[data-reduce-motion="true"] .feature-card,
+[data-reduce-motion="true"] .stat {
+  animation: none;
 }
 
 /* === Reduced Motion === */
