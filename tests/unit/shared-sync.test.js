@@ -21,25 +21,57 @@ const ROOT = path.join(__dirname, '..', '..')
 
 const EXPECTED_SITES = [
   'alevel',
+  'ap',
+  'cpp',
+  'dart',
   'dse',
+  'elixir',
+  'gcse',
+  'go',
+  'haskell',
+  'highers',
   'ib',
   'infrastructure',
+  'java',
+  'kotlin',
   'languages',
+  'leaving-cert',
   'programming',
+  'python',
   'qualifications',
+  'ruby',
+  'rust',
+  'swift',
   'tools',
+  'typescript',
   'university',
 ]
 
 const ASTRO_SITES = [
   'alevel',
+  'ap',
+  'cpp',
+  'dart',
   'dse',
+  'elixir',
+  'gcse',
+  'go',
+  'haskell',
+  'highers',
   'ib',
   'infrastructure',
+  'java',
+  'kotlin',
   'languages',
+  'leaving-cert',
   'programming',
+  'python',
   'qualifications',
+  'ruby',
+  'rust',
+  'swift',
   'tools',
+  'typescript',
   'university',
 ]
 const ALL_SITES = [...ASTRO_SITES, 'main']
@@ -61,7 +93,7 @@ describe('sync-shared tool', () => {
 })
 
 describe('Canonical source integrity', () => {
-  it('shared/components, shared/utils, shared/styles are mirrored to all 9 Astro sites', () => {
+  it('shared/components, shared/utils, shared/styles are mirrored to all Astro sites', () => {
     const trees = [
       { src: 'shared/components', dest: 'src/components' },
       { src: 'shared/utils', dest: 'src/utils' },

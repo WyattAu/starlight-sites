@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ["dracula", "github-light"] },
       description:
-        'GCSE, AP, Scottish Highers, Irish Leaving Certificate, and other qualification revision notes with exam-style practice.',
+        'CBSE, Gaokao, HSC, SAT, and other international qualification revision notes with exam-style practice.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -31,16 +31,11 @@ export default defineConfig({
       defaultLocale: 'root',
       locales: {
         root: { label: 'English', lang: 'en' },
-        zh: { label: '简体中文', lang: 'zh' },
       },
       sidebar: [
-        { label: 'Ap', items: [{ autogenerate: { directory: 'ap' } }] },
         { label: 'Cbse', items: [{ autogenerate: { directory: 'cbse' } }] },
         { label: 'Gaokao', items: [{ autogenerate: { directory: 'gaokao' } }] },
-        { label: 'Gcse', items: [{ autogenerate: { directory: 'gcse' } }] },
-        { label: 'Highers', items: [{ autogenerate: { directory: 'highers' } }] },
         { label: 'Hsc', items: [{ autogenerate: { directory: 'hsc' } }] },
-        { label: 'Ilc', items: [{ autogenerate: { directory: 'ilc' } }] },
         { label: 'Sat', items: [{ autogenerate: { directory: 'sat' } }] },
       ],
       head: [

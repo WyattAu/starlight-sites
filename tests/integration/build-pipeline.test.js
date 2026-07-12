@@ -14,20 +14,36 @@ const SITES_DIR = path.join(ROOT, 'sites')
 
 const EXPECTED_SITES = [
   'alevel',
+  'ap',
+  'cpp',
+  'dart',
   'dse',
+  'elixir',
+  'gcse',
+  'go',
+  'haskell',
+  'highers',
   'ib',
   'infrastructure',
+  'java',
+  'kotlin',
   'languages',
+  'leaving-cert',
   'programming',
+  'python',
   'qualifications',
+  'ruby',
+  'rust',
+  'swift',
   'tools',
+  'typescript',
   'university',
 ]
 
 const SITES_WITH_MERMAID = ['ib', 'infrastructure', 'languages', 'programming', 'tools']
 
 describe('Monorepo Structure', () => {
-  it('should have all 9 expected site directories', () => {
+  it('should have all expected site directories', () => {
     const actual = fs.readdirSync(SITES_DIR).filter(f => {
       return (
         fs.statSync(path.join(SITES_DIR, f)).isDirectory() &&
