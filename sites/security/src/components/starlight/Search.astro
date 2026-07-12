@@ -1,0 +1,114 @@
+---
+// Search.astro — Custom cross-site search component for Starlight
+// Renders a search icon + input that queries the cross-site search API.
+// Self-contained — no dependency on cross-site-search.js injection.
+---
+
+<div id="custom-search">
+  <style>
+    #custom-search { position: relative; display: flex; align-items: center; }
+    #custom-search .search-icon {
+      position: absolute; left: 0.5rem; top: 50%; transform: translateY(-50%);
+      color: var(--wn-text-muted, #8888a0); pointer-events: none; z-index: 1;
+      width: 14px; height: 14px;
+    }
+    #custom-search-input {
+      width: 140px; padding: 0.25rem 0.5rem 0.25rem 1.75rem;
+      font-size: 0.8rem; height: 28px;
+      background: var(--wn-bg-card, #1a1a24);
+      border: 1px solid var(--wn-border, #2a2a3a);
+      border-radius: 6px; color: var(--wn-text, #e8e8ed);
+      outline: none; transition: width 0.2s, border-color 0.2s;
+      box-sizing: border-box;
+    }
+    #custom-search-input::placeholder { color: var(--wn-text-dim, #5a5a70); }
+    #custom-search-input:focus { width: 200px; border-color: var(--sl-color-accent, #ff6b35); }
+    #custom-search .search-results {
+      position: absolute; top: 100%; right: 0; width: 380px; margin-top: 0.5rem;
+      background: var(--wn-bg-elevated, #12121a);
+      border: 1px solid var(--wn-border, #2a2a3a);
+      border-radius: 10px; box-shadow: var(--wn-elevation-3);
+      max-height: 400px; overflow-y: auto; z-index: 1000; display: none;
+    }
+    #custom-search .search-results.active { display: block; }
+    #custom-search .search-result {
+      display: block; padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--wn-border-light, #3a3a4a);
+      text-decoration: none; color: inherit; transition: background 0.15s;
+    }
+    #custom-search .search-result:last-child { border-bottom: none; }
+    #custom-search .search-result:hover { background: var(--wn-bg-hover, #242436); }
+    #custom-search .result-site { display: inline-block; font-size: 0.65rem; font-weight: 600; padding: 0.1rem 0.4rem; border-radius: 3px; margin-bottom: 0.2rem; }
+    #custom-search .result-title { font-weight: 600; font-size: 0.85rem; margin-bottom: 0.25rem; }
+    #custom-search .result-url { font-size: 0.7rem; color: var(--wn-text-muted, #8888a0); }
+    #custom-search .search-footer { padding: 0.5rem 1rem; font-size: 0.75rem; color: var(--wn-text-muted, #8888a0); text-align: center; }
+    #custom-search mark { background: color-mix(in srgb, var(--sl-color-accent) 30%, transparent); color: inherit; border-radius: 2px; padding: 0 1px; }
+  </style>
+  <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <circle cx="11" cy="11" r="8"></circle>
+    <path d="m21 21-4.35-4.35"></path>
+  </svg>
+  <input type="text" placeholder="Search all sites..." id="custom-search-input" autocomplete="off" spellcheck="false">
+  <div class="search-results" id="custom-search-results"></div>
+</div>
+
+<script>
+(function() {
+  var SEARCH_API = 'https://search.wyattau.com/api'
+  var input = document.getElementById('custom-search-input')
+  var results = document.getElementById('custom-search-results')
+  if (!input || !results) return
+
+  var debounceTimer = null
+
+  input.addEventListener('input', function() {
+    clearTimeout(debounceTimer)
+    var q = input.value.trim()
+    if (q.length < 2) { results.classList.remove('active'); return }
+    debounceTimer = setTimeout(function() { search(q) }, 300)
+  })
+
+  input.addEventListener('focus', function() {
+    if (input.value.trim().length >= 2) results.classList.add('active')
+  })
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('#custom-search')) results.classList.remove('active')
+  })
+
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') results.classList.remove('active')
+  })
+
+  function search(query) {
+    results.innerHTML = '<div class="search-footer">Searching...</div>'
+    results.classList.add('active')
+    fetch(SEARCH_API + '/search?q=' + encodeURIComponent(query) + '&limit=8')
+      .then(function(r) { return r.json() })
+      .then(function(data) { renderResults(data) })
+      .catch(function() { results.innerHTML = '<div class="search-footer">Search unavailable</div>' })
+  }
+
+  function renderResults(data) {
+    if (!data.results || data.results.length === 0) {
+      results.innerHTML = '<div class="search-footer">No results</div>'
+      return
+    }
+    results.innerHTML = data.results.map(function(r) {
+      var url = new URL(r.url)
+      var path = url.pathname.replace(/\/$/, '') || '/'
+      return '<a class="search-result" href="' + r.url + '" target="_blank" rel="noopener">' +
+        '<span class="result-site" style="background:' + r.siteColor + '20;color:' + r.siteColor + '">' + escapeHtml(r.siteName) + '</span>' +
+        '<div class="result-title">' + escapeHtml(r.title) + '</div>' +
+        '<div class="result-url">' + url.hostname + path + '</div></a>'
+    }).join('')
+  }
+
+  function escapeHtml(str) {
+    if (!str) return ''
+    var d = document.createElement('div')
+    d.textContent = str
+    return d.innerHTML
+  }
+})()
+</script>

@@ -136,34 +136,46 @@ jobs:
       fail-fast: false
       matrix:
         site:
+          - admissions
           - alevel
           - ap
+          - cbse
+          - chemistry
+          - computer-science
+          - computing
           - cpp
           - dart
+          - databases
           - dse
           - elixir
+          - gaokao
           - gcse
           - go
           - haskell
           - highers
+          - hsc
           - ib
-          - infrastructure
           - java
           - kotlin
           - languages
           - leaving-cert
+          - licensing
+          - linux
+          - machine-learning
+          - mathematics
+          - networking
+          - physics
           - programming
           - python
-          - cbse
-          - gaokao
-          - hsc
-          - sat
           - ruby
           - rust
+          - sat
+          - security
           - swift
           - tools
+          - truenas
+          - tuning
           - typescript
-          - university
 
     steps:
       - uses: actions/checkout@v4

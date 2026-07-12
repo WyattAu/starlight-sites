@@ -85,36 +85,72 @@ jobs:
           - site: ib
             project: wyattsnotes-ib
             url: https://ib.wyattau.com
+          - site: admissions
+            project: wyattsnotes-admissions
+            url: https://admissions.wyattau.com
           - site: alevel
             project: wyattsnotes-alevel
             url: https://alevel.wyattau.com
-          - site: university
-            project: wyattsnotes-university
-            url: https://university.wyattau.com
           - site: cbse
             project: wyattsnotes-cbse
             url: https://cbse.wyattau.com
+          - site: chemistry
+            project: wyattsnotes-chemistry
+            url: https://chemistry.wyattau.com
+          - site: computer-science
+            project: wyattsnotes-computer-science
+            url: https://computer-science.wyattau.com
+          - site: computing
+            project: wyattsnotes-computing
+            url: https://computing.wyattau.com
+          - site: databases
+            project: wyattsnotes-databases
+            url: https://databases.wyattau.com
           - site: gaokao
             project: wyattsnotes-gaokao
             url: https://gaokao.wyattau.com
           - site: hsc
             project: wyattsnotes-hsc
             url: https://hsc.wyattau.com
-          - site: sat
-            project: wyattsnotes-sat
-            url: https://sat.wyattau.com
-          - site: programming
-            project: wyattsnotes-programming
-            url: https://programming.wyattau.com
-          - site: infrastructure
-            project: wyattsnotes-infrastructure
-            url: https://infrastructure.wyattau.com
           - site: languages
             project: wyattsnotes-languages
             url: https://languages.wyattau.com
+          - site: licensing
+            project: wyattsnotes-licensing
+            url: https://licensing.wyattau.com
+          - site: linux
+            project: wyattsnotes-linux
+            url: https://linux.wyattau.com
+          - site: machine-learning
+            project: wyattsnotes-machine-learning
+            url: https://machine-learning.wyattau.com
+          - site: mathematics
+            project: wyattsnotes-mathematics
+            url: https://mathematics.wyattau.com
+          - site: networking
+            project: wyattsnotes-networking
+            url: https://networking.wyattau.com
+          - site: physics
+            project: wyattsnotes-physics
+            url: https://physics.wyattau.com
+          - site: programming
+            project: wyattsnotes-programming
+            url: https://programming.wyattau.com
+          - site: sat
+            project: wyattsnotes-sat
+            url: https://sat.wyattau.com
+          - site: security
+            project: wyattsnotes-security
+            url: https://security.wyattau.com
           - site: tools
             project: wyattsnotes-tools
             url: https://tools.wyattau.com
+          - site: truenas
+            project: wyattsnotes-truenas
+            url: https://truenas.wyattau.com
+          - site: tuning
+            project: wyattsnotes-tuning
+            url: https://tuning.wyattau.com
           - site: cpp
             project: wyattsnotes-cpp
             url: https://cpp.wyattau.com
