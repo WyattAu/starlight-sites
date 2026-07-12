@@ -1,6 +1,6 @@
 ---
 title: vcpkg
-description: "), modern C++"
+description: "The vcpkg package manager for C++ libraries covering installation, integration with CMake, and cross-platform dependency management."
 date: 2025-12-11T04:55:37.164Z
 tags:
   - cpp

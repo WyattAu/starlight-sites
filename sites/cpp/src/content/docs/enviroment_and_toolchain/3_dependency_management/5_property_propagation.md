@@ -1,6 +1,6 @@
 ---
 title: Property Propagation
-description: "Understanding property propagation in C++ build systems."
+description: "How CMake properties propagate through directory scopes and target dependencies and affect build configuration and linkage."
 date: 2025-12-11T05:21:57.536Z
 tags:
   - cpp

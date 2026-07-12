@@ -1,6 +1,6 @@
 ---
 title: Projections and Callable Objects
-description: "C++20 projections and callable objects for ranges."
+description: "How projections work in C++ ranges and algorithms to transform elements before comparison or processing them with custom logic."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

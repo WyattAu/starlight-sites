@@ -1,6 +1,6 @@
 ---
 title: Monadic Error Handling — std::expected
-description: "C++23 std::expected for monadic error handling."
+description: "The std::expected type for error handling with contextual information and monadic composition operations in modern C++ programs."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

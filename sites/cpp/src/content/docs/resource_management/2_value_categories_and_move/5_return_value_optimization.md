@@ -1,6 +1,6 @@
 ---
 title: Return Value Optimization (RVO) and NRVO
-description: "Return value optimization and NRVO in C++."
+description: "Copy elision and named return value optimization techniques the compiler uses to eliminate unnecessary copies of objects."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

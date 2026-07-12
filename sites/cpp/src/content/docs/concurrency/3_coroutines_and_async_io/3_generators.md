@@ -1,6 +1,6 @@
 ---
 title: Generators (std::generator)
-description: "C++23 generators and lazy evaluation semantics."
+description: "C++ coroutine-based generators for lazy sequence generation using co_yield, including usage patterns and performance characteristics."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp

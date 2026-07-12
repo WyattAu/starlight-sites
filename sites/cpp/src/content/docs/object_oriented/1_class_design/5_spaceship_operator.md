@@ -1,6 +1,6 @@
 ---
 title: The Spaceship Operator
-description: "C++20 spaceship operator for unified relational comparisons."
+description: "The three-way comparison operator <=> and how it simplifies operator overloading and default comparisons in modern C++ code."
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
