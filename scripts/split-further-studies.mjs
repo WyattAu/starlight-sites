@@ -390,7 +390,7 @@ for (const site of SITES) {
   // Write config files
   write(join(siteDir, 'astro.config.mjs'), astroConfig(site))
   write(join(siteDir, 'package.json'), pkgJson(site))
-  write(join(siteDir, 'tsconfig.json'), JSON.stringify({ extends: '../../tsconfig.base.json', include: ['src'] }, null, 2))
+  write(join(siteDir, 'tsconfig.json'), JSON.stringify({ extends: 'astro/tsconfigs/strict', compilerOptions: { jsx: 'preserve', jsxImportSource: 'solid-js', baseUrl: '.', paths: { '@components/*': ['src/components/*'], '@/*': ['src/*'] } } }, null, 2))
   write(join(siteDir, 'src', 'content', 'docs', 'index.mdx'), indexMdx(site))
 
   // content.config.ts already copied above
