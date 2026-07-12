@@ -60,6 +60,25 @@
         "typescript": "^5.8.2",
       },
     },
+    "sites/cpp": {
+      "name": "starlight-cpp",
+      "version": "1.0.0",
+      "dependencies": {
+        "@astrojs/mdx": "^6.0.3",
+        "@astrojs/sitemap": "^3.7.3",
+        "@astrojs/solid-js": "^6.0.1",
+        "@astrojs/starlight": "^0.40.0",
+        "@kobalte/core": "^0.13.11",
+        "@tailwindcss/vite": "^4.3.1",
+        "astro": "^6.4.8",
+        "astro-compress": "2.4.1",
+        "katex": "^0.16.44",
+        "rehype-katex": "^7.0.1",
+        "remark-math": "^6.0.0",
+        "solid-js": "^1.9.13",
+        "tailwindcss": "^4.3.1",
+      },
+    },
     "sites/dart": {
       "name": "starlight-dart",
       "version": "1.0.0",
@@ -2273,6 +2292,8 @@
     "stackback": ["stackback@0.0.2", "", {}, "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw=="],
 
     "starlight-alevel": ["starlight-alevel@workspace:sites/alevel"],
+
+    "starlight-cpp": ["starlight-cpp@workspace:sites/cpp"],
 
     "starlight-dart": ["starlight-dart@workspace:sites/dart"],
 
