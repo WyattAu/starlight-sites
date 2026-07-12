@@ -267,6 +267,26 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
+      - name: Add custom domain (idempotent)
+        continue-on-error: true
+        run: |
+          domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
+          echo "Adding custom domain $domain to project ${{ matrix.project }}..."
+          resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/${{ matrix.project }}/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"name\": \"$domain\"}")
+          success=$(echo "$resp" | grep -o '"success":true')
+          if [ -n "$success" ]; then
+            echo "Domain $domain added to project ${{ matrix.project }}."
+          else
+            err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+            echo "Note: Domain add skipped or already configured ($err)"
+          fi
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Verify deployment (poll up to 5 minutes)
         # Cloudflare Pages propagation can take 30-90 seconds. Poll the
         # origin until it returns 200 or the budget is exhausted. If the

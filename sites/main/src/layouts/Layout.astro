@@ -68,23 +68,141 @@ const { title, description } = Astro.props
       <a href="/" class="nav-brand" aria-label="Home">
         <span class="nav-logo">WN</span>
       </a>
-      <ul class="nav-links">
-        <li><a href="https://dse.wyattau.com/" target="_blank" rel="noopener noreferrer">DSE</a></li>
-        <li><a href="https://ib.wyattau.com/" target="_blank" rel="noopener noreferrer">IB</a></li>
-        <li><a href="https://alevel.wyattau.com/" target="_blank" rel="noopener noreferrer">A-Level</a></li>
-        <li><a href="https://university.wyattau.com/" target="_blank" rel="noopener noreferrer">University</a></li>
-        <li><a href="https://programming.wyattau.com/" target="_blank" rel="noopener noreferrer">Programming</a></li>
-      </ul>
-      <button class="nav-search" aria-label="Open search" onclick="window.openSearchModal && window.openSearchModal()">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <circle cx="11" cy="11" r="8"></circle>
-          <path d="m21 21-4.35-4.35"></path>
-        </svg>
-        Search
-        <kbd>/</kbd>
-      </button>
+
+      <div class="nav-center">
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-btn" aria-expanded="false">
+            Exam Boards
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://dse.wyattau.com/">DSE</a>
+            <a href="https://ib.wyattau.com/">IB</a>
+            <a href="https://alevel.wyattau.com/">A-Level</a>
+            <a href="https://gcse.wyattau.com/">GCSE</a>
+            <a href="https://ap.wyattau.com/">AP</a>
+            <a href="https://highers.wyattau.com/">Highers</a>
+            <a href="https://leaving-cert.wyattau.com/">Leaving Cert</a>
+            <a href="https://cbse.wyattau.com/">CBSE</a>
+            <a href="https://gaokao.wyattau.com/">Gaokao</a>
+            <a href="https://hsc.wyattau.com/">HSC</a>
+            <a href="https://sat.wyattau.com/">SAT</a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-btn" aria-expanded="false">
+            CS
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://cpp.wyattau.com/">C++</a>
+            <a href="https://languages.wyattau.com/">Languages</a>
+            <a href="https://tools.wyattau.com/">Tools</a>
+            <a href="https://java.wyattau.com/">Java</a>
+            <a href="https://python.wyattau.com/">Python</a>
+            <a href="https://rust.wyattau.com/">Rust</a>
+            <a href="https://go.wyattau.com/">Go</a>
+            <a href="https://kotlin.wyattau.com/">Kotlin</a>
+            <a href="https://typescript.wyattau.com/">TypeScript</a>
+            <a href="https://dart.wyattau.com/">Dart</a>
+            <a href="https://swift.wyattau.com/">Swift</a>
+            <a href="https://ruby.wyattau.com/">Ruby</a>
+            <a href="https://haskell.wyattau.com/">Haskell</a>
+            <a href="https://elixir.wyattau.com/">Elixir</a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-btn" aria-expanded="false">
+            Further Studies
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://mathematics.wyattau.com/">Mathematics</a>
+            <a href="https://physics.wyattau.com/">Physics</a>
+            <a href="https://chemistry.wyattau.com/">Chemistry</a>
+            <a href="https://computing.wyattau.com/">Computing</a>
+            <a href="https://computer-science.wyattau.com/">CS Theory</a>
+            <a href="https://admissions.wyattau.com/">Admissions</a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-btn" aria-expanded="false">
+            Infrastructure
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="https://networking.wyattau.com/">Networking</a>
+            <a href="https://linux.wyattau.com/">Linux</a>
+            <a href="https://security.wyattau.com/">Security</a>
+            <a href="https://databases.wyattau.com/">Databases</a>
+            <a href="https://truenas.wyattau.com/">TrueNAS</a>
+            <a href="https://tuning.wyattau.com/">Tuning</a>
+            <a href="https://licensing.wyattau.com/">Licensing</a>
+            <a href="https://machine-learning.wyattau.com/">ML</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <a href="https://search.wyattau.com/" class="nav-icon-btn" aria-label="Search all sites" title="Search all sites">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </a>
+        <button class="nav-icon-btn nav-theme-btn" aria-label="Cycle theme" title="Cycle theme (t)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M3 12h18M3 6h18M3 18h18"></path>
+          </svg>
+        </button>
+      </div>
     </div>
   </nav>
+
+  <script is:inline>
+    // Dropdown menus
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('.nav-dropdown-btn');
+      if (btn) {
+        e.preventDefault();
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        // Close all
+        document.querySelectorAll('.nav-dropdown-btn').forEach(function(b) {
+          b.setAttribute('aria-expanded', 'false');
+        });
+        if (!open) btn.setAttribute('aria-expanded', 'true');
+      } else if (!e.target.closest('.nav-dropdown')) {
+        document.querySelectorAll('.nav-dropdown-btn').forEach(function(b) {
+          b.setAttribute('aria-expanded', 'false');
+        });
+      }
+    });
+
+    // Theme cycling
+    document.querySelector('.nav-theme-btn')?.addEventListener('click', function() {
+      var themes = ['dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'];
+      var cur = localStorage.getItem('wn-theme') || 'dark';
+      var idx = themes.indexOf(cur);
+      var next = themes[(idx + 1) % themes.length];
+      localStorage.setItem('wn-theme', next);
+      document.documentElement.setAttribute('data-theme', next);
+    });
+
+    // Hamburger toggle
+    document.querySelector('.nav-hamburger')?.addEventListener('click', function() {
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      document.querySelector('.nav-center')?.classList.toggle('open');
+    });
+  </script>
 
   <div class="container">
     <main id="main-content">
