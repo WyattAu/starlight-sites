@@ -25,7 +25,6 @@ export default defineConfig({
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',
-        Header: './src/components/starlight/Header.astro',
         MarkdownContent: './src/components/starlight/MarkdownContent.astro',
         Search: './src/components/starlight/Search.astro',
       },
