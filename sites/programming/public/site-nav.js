@@ -67,7 +67,9 @@
     overlay.id = 'site-nav-overlay'
     overlay.setAttribute('aria-hidden', 'true')
     overlay.innerHTML = '<div class="site-nav-backdrop"></div><div class="site-nav-panel" role="dialog" aria-label="Site navigator">' +
-      '<div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close">✕</button></div>' +
+      '<div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+</button></div>' +
       '<div class="site-nav-body">' +
       Object.keys(SITES).map(function (cat) {
         return '<div class="site-nav-category"><div class="site-nav-cat-header">' + (CATEGORY_ICONS[cat] || '') +
