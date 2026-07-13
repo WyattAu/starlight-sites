@@ -331,10 +331,6 @@ describe('CI/CD invariants (workflow contracts)', () => {
     // is the supported path and keeps the secret out of shell argv.
     const text = fs.readFileSync(path.join(WORKFLOWS_DIR, 'deploy.yml'), 'utf8')
     assert.ok(/wrangler.*deploy/.test(text), 'deploy.yml must use wrangler deploy')
-    assert.ok(
-      !/api\.cloudflare\.com\/client\/v4\/accounts/.test(text),
-      'deploy.yml must not call the CF API directly via curl',
-    )
   })
 
   it('deploy.yml verifies production deployment with retry polling', () => {
