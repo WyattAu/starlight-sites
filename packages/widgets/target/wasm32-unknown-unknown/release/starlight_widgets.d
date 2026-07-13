@@ -1,0 +1,1 @@
+/home/wyatt/dev/src/github.com/WyattAu/starlight-sites/packages/widgets/target/wasm32-unknown-unknown/release/starlight_widgets.wasm: /home/wyatt/dev/src/github.com/WyattAu/starlight-sites/packages/widgets/src/lib.rs
