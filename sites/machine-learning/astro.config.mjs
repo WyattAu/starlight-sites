@@ -32,8 +32,13 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-      sidebar: [
-        { label: 'Machine Learning', items: [{ autogenerate: { directory: '.' } }] },
+            sidebar: [
+        {
+          label: 'Machine Learning',
+          items: [
+            { label: 'advanced topics', slug: 'advanced-topics' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

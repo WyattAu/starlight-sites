@@ -32,8 +32,20 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-      sidebar: [
-        { label: 'Admissions', items: [{ autogenerate: { directory: '.' } }] },
+            sidebar: [
+        {
+          label: 'Admissions',
+          items: [
+            { label: 'Admissions Tests', slug: 'index' },
+            { label: 'BMO Preparation', slug: 'bmo-preparation' },
+            { label: 'University Admissions Flashcards', slug: 'flashcards-admissions' },
+            { label: 'IMO Preparation', slug: 'imo-preparation' },
+            { label: 'MAT Preparation', slug: 'mat-preparation' },
+            { label: 'Admissions Practice (Interactive)', slug: 'practice-admissions' },
+            { label: 'STEP Preparation', slug: 'step-preparation' },
+            { label: 'TMUA Preparation', slug: 'tmua-preparation' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

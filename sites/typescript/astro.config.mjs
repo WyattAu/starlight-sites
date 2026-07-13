@@ -35,8 +35,25 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-      sidebar: [
-        { label: 'Typescript', items: [{ autogenerate: { directory: '.' } }] },
+            sidebar: [
+        {
+          label: 'TypeScript',
+          items: [
+            { label: 'Advanced Patterns', slug: 'advanced-patterns' },
+            { label: 'advanced types', slug: 'advanced-types' },
+            { label: 'Classes', slug: 'classes' },
+            { label: 'Enums and Modules', slug: 'enums-and-modules' },
+            { label: 'Error Handling', slug: 'error-handling' },
+            { label: 'TypeScript Fundamentals Flashcards', slug: 'flashcards-typescript-basics' },
+            { label: 'Functions', slug: 'functions' },
+            { label: 'Generics', slug: 'generics' },
+            { label: 'TypeScript Fundamentals Practice (Interactive)', slug: 'practice-typescript-basics' },
+            { label: 'Tooling and Configuration', slug: 'tooling-and-configuration' },
+            { label: 'Types and Annotations', slug: 'types-and-annotations' },
+            { label: 'TypeScript with React', slug: 'typescript-with-react' },
+            { label: 'TypeScript -- Course Overview', slug: 'typescript' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

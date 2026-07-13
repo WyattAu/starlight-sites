@@ -33,7 +33,18 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'SAT', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'SAT',
+          items: [
+            { label: 'Introduction', slug: 'intro' },
+            { label: 'Mathematics', slug: 'mathematics' },
+            { label: 'Reading & Writing', slug: 'reading-and-writing' },
+            { label: 'Advanced Strategies', slug: 'advanced-strategies' },
+            { label: 'Practice Math', slug: 'practice-math' },
+            { label: 'Practice Reading', slug: 'practice-reading' },
+            { label: 'Science Question Bank', slug: 'science-question-bank' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

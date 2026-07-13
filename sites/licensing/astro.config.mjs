@@ -32,8 +32,13 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-      sidebar: [
-        { label: 'Licensing', items: [{ autogenerate: { directory: '.' } }] },
+            sidebar: [
+        {
+          label: 'Licensing',
+          items: [
+            { label: 'Open Source Licenses', slug: 'osi-licenses' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -32,8 +32,14 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-      sidebar: [
-        { label: 'Gaokao', items: [{ autogenerate: { directory: '.' } }] },
+            sidebar: [
+        {
+          label: 'Gaokao',
+          items: [
+            { label: 'Gaokao Flashcards: Mathematics', slug: 'flashcards-mathematics' },
+            { label: 'Introduction to Gaokao Notes', slug: 'intro' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

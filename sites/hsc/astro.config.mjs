@@ -32,8 +32,14 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-      sidebar: [
-        { label: 'HSC', items: [{ autogenerate: { directory: '.' } }] },
+            sidebar: [
+        {
+          label: 'HSC',
+          items: [
+            { label: 'HSC Physics Flashcards', slug: 'flashcards-physics' },
+            { label: 'Introduction to HSC/VCE Notes', slug: 'intro' },
+          ],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),
