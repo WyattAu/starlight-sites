@@ -13,7 +13,7 @@
 
 ### Current state
 - `shared/logo/logo_withtext_optimized.svg` — full logo with text (Inkscape SVG, 4161mm canvas)
-- Current favicon: book emoji (`📚`)
+- Current favicon: book icon
 - Landing page nav: text-only "WN"
 - Starlight sites: text-only site title
 
