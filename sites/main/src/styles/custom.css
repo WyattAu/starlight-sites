@@ -91,27 +91,11 @@ nav {
   align-items: center;
   text-decoration: none;
 }
-.nav-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  color: var(--sl-color-accent, #ff6b35);
-  background: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 12%, transparent);
-  border-radius: var(--wn-radius-sm, 10px);
-  transition: all var(--wn-duration-fast, 140ms)
-    var(--wn-ease-organic, cubic-bezier(0.22, 1, 0.36, 1));
-}
-.nav-brand:hover .nav-logo {
-  background: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 20%, transparent);
-  box-shadow: var(
-    --wn-elevation-accent,
-    0 0 20px color-mix(in srgb, var(--sl-color-accent, #ff6b35) 15%, transparent)
-  );
+.nav-logo-img {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
 }
 .nav-center {
   display: flex;
@@ -384,6 +368,38 @@ nav {
   border-color: var(--sl-color-accent, #ff6b35);
   transform: translateY(-3px);
   box-shadow: var(--wn-elevation-2, 0 4px 8px rgba(0, 0, 0, 0.45));
+}
+
+/* === Featured Demo === */
+.featured-demo {
+  margin: 2rem 0 4rem;
+  text-align: center;
+}
+.featured-demo-inner {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--wn-bg-card, #1a1a28);
+  border: 1px solid var(--wn-border, #2a2a3e);
+  border-radius: var(--wn-radius-xl, 28px);
+}
+.featured-demo h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--wn-text, #e2e8f0);
+}
+.featured-demo p {
+  font-size: 0.9rem;
+  color: var(--wn-text-muted, #94a3b8);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.featured-demo-embed canvas {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--wn-radius-sm, 10px);
+  background: var(--wn-bg, #0a0a0f);
 }
 
 /* === Stats (Amoebic UI) === */

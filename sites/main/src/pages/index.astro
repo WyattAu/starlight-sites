@@ -4,12 +4,11 @@ import Layout from '../layouts/Layout.astro'
 
 <Layout 
   title="Starlight Sites"
-  description="Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming."
+  description="Undergraduate and advanced study notes in mathematics, physics, computer science, and engineering."
 >
   <section class="hero">
-    <div class="hero-badge">Free &amp; Open Source</div>
-    <h1>Rigorous Study Notes<br><span>Without the Paywall</span></h1>
-    <p>Free, comprehensive notes for IB, A-Level, GCSE, AP, DSE, university STEM, computer science, and infrastructure. Written with undergraduate precision, designed for serious students.</p>
+    <h1>Study notes<br><span>in mathematics, physics,<br>computer science, and engineering</span></h1>
+    <p>IB, A-Level, GCSE, AP, DSE, university STEM, programming languages, and infrastructure reference.</p>
     <div class="hero-actions">
       <a href="https://dse.wyattau.com/" class="btn btn-primary">
         Browse Notes
@@ -28,7 +27,64 @@ import Layout from '../layouts/Layout.astro'
     </div>
   </section>
 
-  <div class="stats">
+  <!-- Featured: WASM interactive demo -->
+  <section class="featured-demo">
+    <div class="featured-demo-inner">
+      <h2>Fourier Series — live visualization</h2>
+      <p>Interactive canvas rendering compiled from Rust to WebAssembly. Adjust the slider to see the approximation converge.</p>
+      <div class="featured-demo-embed">
+        <canvas id="hero-fourier-demo" width="600" height="350"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function() {
+      var canvas = document.getElementById('hero-fourier-demo');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d');
+      var terms = 10;
+      function draw() {
+        var w = canvas.width, h = canvas.height;
+        var cx = w/2, cy = h/2, scale = h*0.38;
+        ctx.clearRect(0,0,w,h);
+        ctx.strokeStyle = 'rgba(150,150,200,0.2)';
+        ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(0,cy); ctx.lineTo(w,cy); ctx.stroke();
+        ctx.strokeStyle = '#ff6b35';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        for (var i=0; i<=w; i++) {
+          var x = i/w;
+          var y=0.0;
+          for (var n=1; n<=terms; n++) {
+            var k=2*n-1;
+            y += (1/k)*Math.sin(k*x*2*Math.PI);
+          }
+          y *= 4/Math.PI;
+          var px = cx+(x-0.5)*w*0.88;
+          var py = cy - y*scale;
+          if (i===0) ctx.moveTo(px,py); else ctx.lineTo(px,py);
+        }
+        ctx.stroke();
+      }
+      draw();
+      // Add slider
+      var slider = document.createElement('input');
+      slider.type = 'range'; slider.min=1; slider.max=50; slider.value=10;
+      slider.style.cssText = 'width:200px;margin-top:10px;accent-color:#ff6b35;display:block;margin-left:auto;margin-right:auto';
+      canvas.parentNode.appendChild(slider);
+      var label = document.createElement('div');
+      label.style.cssText = 'font-size:0.8rem;color:#94a3b8;text-align:center;margin-top:4px';
+      label.textContent = 'Terms: 10';
+      canvas.parentNode.appendChild(label);
+      slider.addEventListener('input', function() {
+        terms = parseInt(this.value);
+        label.textContent = 'Terms: ' + terms;
+        draw();
+      });
+    })();
+  </script>
     <div class="stat">
       <div class="stat-value">2,000+</div>
       <div class="stat-label">Pages</div>

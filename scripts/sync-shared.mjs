@@ -95,6 +95,7 @@ const PUBLIC_FILES = [
   ['shared/scripts/site-nav.js', 'public/site-nav.js'],
   ['shared/public/wasm/starlight_widgets.js', 'public/wasm/starlight_widgets.js'],
   ['shared/public/wasm/starlight_widgets_bg.wasm', 'public/wasm/starlight_widgets_bg.wasm'],
+  ['shared/public/favicon.svg', 'public/favicon.svg'],
 ]
 
 const args = new Set(process.argv.slice(2))

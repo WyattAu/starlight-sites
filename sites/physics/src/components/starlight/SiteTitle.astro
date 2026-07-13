@@ -1,0 +1,23 @@
+---
+const { starlightRoute } = Astro.locals
+const title = starlightRoute?.siteTitle || "Notes"
+---
+
+<a href="/" class="site-title-logo">
+  <img src="/favicon.svg" alt="" width="22" height="22" class="site-title-icon">
+  <span>{title}</span>
+</a>
+
+<style>
+  .site-title-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .site-title-icon {
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+</style>

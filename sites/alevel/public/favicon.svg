@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📚</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Favicon derived from logo — stacked academic motif -->
+  <rect width="100" height="100" rx="12" fill="#121f52"/>
+  <text x="50" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#bd921b" text-anchor="middle">W</text>
+  <rect x="18" y="76" width="64" height="3" rx="1.5" fill="#bd921b" opacity="0.6"/>
+  <rect x="25" y="82" width="50" height="2" rx="1" fill="#bd921b" opacity="0.3"/>
+</svg>
