@@ -21,9 +21,13 @@ const { title, description } = Astro.props
   <meta property="og:image" content="https://wyattsnotes.wyattau.com/img/social-card.svg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/favicon.svg">
+  <link rel="preload" href="/fonts/Merriweather-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Merriweather-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-latin-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/JetBrainsMono-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <meta name="theme-color" content="#ff6b35">
+  <meta name="theme-color" content="#121f52">
   <script src="/page-search.js" defer></script>
   <script src="/cross-site-search.js" defer></script>
   <script src="/reader.js" defer></script>
@@ -60,13 +64,13 @@ const { title, description } = Astro.props
     })();
   </script>
 </head>
-<body>
+<body class="page-landing">
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <nav aria-label="Primary navigation">
     <div class="nav-inner">
       <a href="/" class="nav-brand" aria-label="Home">
-        <img src="/favicon.svg" alt="" width="28" height="28" class="nav-logo-img">
+        <img src="/logo-nav.svg" alt="Notes" class="nav-logo-img">
       </a>
 
       <div class="nav-center">
