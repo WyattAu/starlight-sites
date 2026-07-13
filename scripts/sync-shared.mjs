@@ -92,6 +92,7 @@ const PUBLIC_FILES = [
   ['search-api/cross-site-search.js', 'public/cross-site-search.js'],
   ['search-api/sw.js', 'public/sw.js'],
   ['shared/scripts/reader.js', 'public/reader.js'],
+  ['shared/scripts/site-nav.js', 'public/site-nav.js'],
   ['shared/public/wasm/starlight_widgets.js', 'public/wasm/starlight_widgets.js'],
   ['shared/public/wasm/starlight_widgets_bg.wasm', 'public/wasm/starlight_widgets_bg.wasm'],
 ]
