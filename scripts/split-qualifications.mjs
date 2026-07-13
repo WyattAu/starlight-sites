@@ -245,6 +245,16 @@ function pkgJson({ name, title }) {
 }
 
 // Template for index.mdx
+// TODO: subject links should map to actual content paths per site
+// e.g., Chemistry -> /chemistry/, Maths -> /maths/
+const SUBJECT_LINKS = {
+  Biology: '/biology/', Chemistry: '/chemistry/', Physics: '/physics/',
+  Mathematics: '/maths/', Maths: '/maths/', English: '/english/',
+  'Computer Science': '/computer-science/', CS: '/computer-science/',
+  Calculus: '/calculus-ab/', Statistics: '/statistics/', History: '/history/',
+  'Reading and Writing': '/reading-and-writing/', Science: '/science-question-bank/',
+}
+
 function indexMdx({ title, desc, subjects }) {
   return `---
 template: splash
@@ -268,7 +278,7 @@ ${title} revision notes covering core subjects with detailed explanations, worke
 <CardGrid>
 ${subjects
   .map(
-    (s) => `  <a href="/intro/" class="landing-card">
+    (s) => `  <a href="${SUBJECT_LINKS[s] || '/intro/'}" class="landing-card">
     <Card title="${s}" icon="document">
       ${title} ${s} notes covering key definitions, core concepts, worked examples, and practice problems.
     </Card>
