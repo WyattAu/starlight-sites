@@ -1,0 +1,202 @@
+---
+const { starlightRoute } = Astro.locals
+const title = starlightRoute?.siteTitle || "Notes"
+---
+
+<header class="header">
+  <div class="sl-flex header">
+    <div class="sl-flex title-wrapper">
+      <a href="/" class="site-title-logo">
+        <img src="/favicon.svg" alt="" width="22" height="22" class="site-title-icon">
+        <span>{title}</span>
+      </a>
+    </div>
+    <div class="sl-flex print:hidden">
+      <div id="custom-search">
+        <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input class="custom-search-input" type="text" autocomplete="off" id="custom-search-input" placeholder="Search all sites..." spellcheck="false">
+        <div class="search-results" id="custom-search-results"></div>
+      </div>
+      <script type="module">
+        (function(){
+          var api = "https://search.wyattau.com/api";
+          var input = document.getElementById("custom-search-input");
+          var results = document.getElementById("custom-search-results");
+          if (!input || !results) return;
+          var timer = null;
+          input.addEventListener("input", function(){
+            clearTimeout(timer);
+            var q = input.value.trim();
+            if (q.length < 2) { results.classList.remove("active"); return; }
+            timer = setTimeout(function(){
+              results.innerHTML = '<div class="search-footer">Searching...</div>';
+              results.classList.add("active");
+              fetch(api + "/search?q=" + encodeURIComponent(q) + "&limit=8")
+                .then(function(r){ return r.json(); })
+                .then(function(data){
+                  if (!data.results || data.results.length === 0) {
+                    results.innerHTML = '<div class="search-footer">No results</div>';
+                    return;
+                  }
+                  results.innerHTML = data.results.map(function(r){
+                    var u = new URL(r.url);
+                    var path = u.pathname.replace(/\/$/, "") || "/";
+                    return '<a class="search-result" href="' + r.url + '" target="_blank" rel="noopener">' +
+                      '<span class="result-site" style="background:' + r.siteColor + '20;color:' + r.siteColor + '">' + esc(r.siteName) + '</span>' +
+                      '<div class="result-title">' + esc(r.title) + '</div>' +
+                      '<div class="result-url">' + u.hostname + path + '</div></a>';
+                  }).join("");
+                }).catch(function(){
+                  results.innerHTML = '<div class="search-footer">Search unavailable</div>';
+                });
+            }, 300);
+          });
+          input.addEventListener("focus", function(){
+            if (input.value.trim().length >= 2) results.classList.add("active");
+          });
+          document.addEventListener("click", function(e){
+            if (!e.target.closest("#custom-search")) results.classList.remove("active");
+          });
+          input.addEventListener("keydown", function(e){
+            if (e.key === "Escape") results.classList.remove("active");
+          });
+          function esc(s) {
+            if (!s) return "";
+            var d = document.createElement("div");
+            d.textContent = s;
+            return d.innerHTML;
+          }
+        })();
+      </script>
+    </div>
+    <div class="sl-flex print:hidden md:sl-flex right-group">
+      <button class="site-nav-btn" aria-label="Browse all sites" title="Browse all sites" id="site-nav-trigger">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+          <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+        </svg>
+        <span>Sites</span>
+      </button>
+      <slot />
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+(function(){
+  var SITES = {
+    'Exam Boards': [
+      { name: 'DSE', url: 'https://dse.wyattau.com' },
+      { name: 'IB', url: 'https://ib.wyattau.com' },
+      { name: 'A-Level', url: 'https://alevel.wyattau.com' },
+      { name: 'GCSE', url: 'https://gcse.wyattau.com' },
+      { name: 'AP', url: 'https://ap.wyattau.com' },
+      { name: 'Highers', url: 'https://highers.wyattau.com' },
+      { name: 'Leaving Cert', url: 'https://leaving-cert.wyattau.com' },
+      { name: 'CBSE', url: 'https://cbse.wyattau.com' },
+      { name: 'Gaokao', url: 'https://gaokao.wyattau.com' },
+      { name: 'HSC', url: 'https://hsc.wyattau.com' },
+      { name: 'SAT', url: 'https://sat.wyattau.com' },
+    ],
+    'Computer Science': [
+      { name: 'C++', url: 'https://cpp.wyattau.com' },
+      { name: 'Java', url: 'https://java.wyattau.com' },
+      { name: 'Python', url: 'https://python.wyattau.com' },
+      { name: 'Rust', url: 'https://rust.wyattau.com' },
+      { name: 'Go', url: 'https://go.wyattau.com' },
+      { name: 'Kotlin', url: 'https://kotlin.wyattau.com' },
+      { name: 'TypeScript', url: 'https://typescript.wyattau.com' },
+      { name: 'Dart', url: 'https://dart.wyattau.com' },
+      { name: 'Swift', url: 'https://swift.wyattau.com' },
+      { name: 'Ruby', url: 'https://ruby.wyattau.com' },
+      { name: 'Haskell', url: 'https://haskell.wyattau.com' },
+      { name: 'Elixir', url: 'https://elixir.wyattau.com' },
+      { name: 'Languages Hub', url: 'https://languages.wyattau.com' },
+      { name: 'Tools', url: 'https://tools.wyattau.com' },
+    ],
+    'Further Studies': [
+      { name: 'Mathematics', url: 'https://mathematics.wyattau.com' },
+      { name: 'Physics', url: 'https://physics.wyattau.com' },
+      { name: 'Chemistry', url: 'https://chemistry.wyattau.com' },
+      { name: 'CS Theory', url: 'https://computer-science.wyattau.com' },
+      { name: 'Admissions', url: 'https://admissions.wyattau.com' },
+    ],
+    'Infrastructure': [
+      { name: 'Networking', url: 'https://networking.wyattau.com' },
+      { name: 'Linux', url: 'https://linux.wyattau.com' },
+      { name: 'Security', url: 'https://security.wyattau.com' },
+      { name: 'Databases', url: 'https://databases.wyattau.com' },
+      { name: 'TrueNAS', url: 'https://truenas.wyattau.com' },
+      { name: 'Tuning', url: 'https://tuning.wyattau.com' },
+      { name: 'Licensing', url: 'https://licensing.wyattau.com' },
+      { name: 'ML', url: 'https://machine-learning.wyattau.com' },
+    ],
+  };
+  var cats = Object.keys(SITES);
+  var catSvg = {
+    'Exam Boards': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>',
+    'Computer Science': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>',
+    'Further Studies': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>',
+    'Infrastructure': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></svg>',
+  };
+  var overlay = null;
+  function build() {
+    var el = document.createElement('div');
+    el.id = 'site-nav-overlay';
+    el.setAttribute('aria-hidden', 'true');
+    el.innerHTML = '<div class="site-nav-backdrop"></div><div class="site-nav-panel" role="dialog" aria-label="Site navigator">' +
+      '<div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>' +
+      '<div class="site-nav-body">' +
+      cats.map(function(cat) {
+        return '<div class="site-nav-category"><div class="site-nav-cat-header">' + (catSvg[cat]||'') + '<span>' + cat + '</span></div><div class="site-nav-grid">' +
+          SITES[cat].map(function(s) {
+            return '<a href="' + s.url + '" class="site-nav-card" target="_blank" rel="noopener"><strong>' + s.name + '</strong></a>';
+          }).join('') + '</div></div>';
+      }).join('') + '</div></div>';
+    document.body.appendChild(el);
+    return el;
+  }
+  function open() { if (!overlay) overlay = build(); overlay.setAttribute('aria-hidden', 'false'); document.body.classList.add('site-nav-open'); }
+  function close() { if (overlay) overlay.setAttribute('aria-hidden', 'true'); document.body.classList.remove('site-nav-open'); }
+  document.addEventListener('click', function(e) {
+    var trigger = document.getElementById('site-nav-trigger');
+    if (trigger && (e.target === trigger || trigger.contains(e.target))) { e.stopPropagation(); open(); return; }
+    if (overlay && overlay.getAttribute('aria-hidden') === 'false') {
+      if (e.target.closest('.site-nav-close') || e.target.closest('.site-nav-backdrop')) close();
+    }
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay && overlay.getAttribute('aria-hidden') === 'false') {
+      close();
+      var t = document.getElementById('site-nav-trigger');
+      if (t) t.focus();
+    }
+  });
+})();
+</script>
+
+<style>
+  .site-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--sl-color-text-accent, var(--sl-color-white));
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: all 140ms ease;
+  }
+  .site-nav-btn:hover {
+    background: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 10%, transparent);
+    border-color: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 20%, transparent);
+  }
+</style>
