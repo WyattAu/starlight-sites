@@ -150,24 +150,6 @@
         "typescript": "^5.8.2",
       },
     },
-    "sites/computing": {
-      "name": "starlight-computing",
-      "version": "0.1.0",
-      "dependencies": {
-        "@astrojs/mdx": "^6.0.3",
-        "@astrojs/sitemap": "^3.7.3",
-        "@astrojs/solid-js": "^6.0.1",
-        "@astrojs/starlight": "^0.40.0",
-        "astro": "^6.4.8",
-        "dompurify": "^3.2.4",
-        "rehype-katex": "^7.0.1",
-        "remark-math": "^6.0.0",
-        "solid-js": "^1.9.7",
-      },
-      "devDependencies": {
-        "typescript": "^5.8.2",
-      },
-    },
     "sites/cpp": {
       "name": "starlight-cpp",
       "version": "1.0.0",
@@ -2644,8 +2626,6 @@
     "starlight-chemistry": ["starlight-chemistry@workspace:sites/chemistry"],
 
     "starlight-computer-science": ["starlight-computer-science@workspace:sites/computer-science"],
-
-    "starlight-computing": ["starlight-computing@workspace:sites/computing"],
 
     "starlight-cpp": ["starlight-cpp@workspace:sites/cpp"],
 
