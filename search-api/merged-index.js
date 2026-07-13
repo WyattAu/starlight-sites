@@ -8,7 +8,6 @@ export default {
       { id: 'dse', name: 'DSE', url: 'https://dse.wyattau.com' },
       { id: 'ib', name: 'IB', url: 'https://ib.wyattau.com' },
       { id: 'alevel', name: 'A-Level', url: 'https://alevel.wyattau.com' },
-      { id: 'university', name: 'University', url: 'https://university.wyattau.com' },
       { id: 'qualifications', name: 'Qualifications', url: 'https://qualifications.wyattau.com' },
       { id: 'programming', name: 'Programming', url: 'https://programming.wyattau.com' },
       { id: 'infrastructure', name: 'Infrastructure', url: 'https://infrastructure.wyattau.com' },
@@ -6626,7 +6625,6 @@ export default {
       site: 'alevel',
     },
     {
-      url: 'https://university.wyattau.com/',
       title: 'University Notes | University',
       description: '',
       heading: 'University Notes',
@@ -6634,7 +6632,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/',
       title: 'Admissions Tests | University',
       description: '',
       heading: '',
@@ -6642,7 +6639,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/bmo-preparation/',
       title: 'BMO Preparation | University',
       description: '',
       heading: '',
@@ -6650,7 +6646,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/flashcards-admissions/',
       title: 'University Admissions Flashcards | University',
       description: '',
       heading: '',
@@ -6658,7 +6653,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/imo-preparation/',
       title: 'IMO Preparation | University',
       description: '',
       heading: '',
@@ -6666,7 +6660,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/mat-preparation/',
       title: 'MAT Preparation | University',
       description: '',
       heading: '',
@@ -6674,7 +6667,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/practice-admissions/',
       title: 'Admissions Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -6682,7 +6674,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/step-preparation/',
       title: 'STEP Preparation | University',
       description: '',
       heading: '',
@@ -6690,7 +6681,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/admissions/tmua-preparation/',
       title: 'TMUA Preparation | University',
       description: '',
       heading: '',
@@ -6698,7 +6688,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/',
       title: 'Chemistry | University',
       description: '',
       heading: '',
@@ -6706,7 +6695,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/',
       title: 'Physical Chemistry | University',
       description: '',
       heading: '',
@@ -6714,7 +6702,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/chemical-kinetics/',
       title: 'Chemical Kinetics | University',
       description: '',
       heading: '',
@@ -6722,7 +6709,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/practice-chemical-kinetics/',
       title: 'Chemical Kinetics -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6730,7 +6716,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/practice-physical-chemistry/',
       title: 'Physical Chemistry -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6738,7 +6723,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/practice-quantum-chemistry/',
       title: 'Quantum Chemistry -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6746,7 +6730,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/practice-statistical-mechanics/',
       title: 'Statistical Mechanics -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6754,7 +6737,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/practice-thermodynamics/',
       title: 'Thermodynamics -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6762,7 +6744,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/quantum-chemistry/',
       title: 'Quantum Chemistry | University',
       description: '',
       heading: '',
@@ -6770,7 +6751,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/statistical-mechanics/',
       title: 'Statistical Mechanics | University',
       description: '',
       heading: '',
@@ -6778,7 +6758,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/1-physical-chemistry/thermodynamics/',
       title: 'Thermodynamics | University',
       description: '',
       heading: '',
@@ -6786,7 +6765,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/',
       title: 'Organic Chemistry | University',
       description: '',
       heading: '',
@@ -6794,7 +6772,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/practice-organic-chemistry/',
       title: 'Organic Chemistry -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6802,7 +6779,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/practice-reaction-mechanisms/',
       title: 'Reaction Mechanisms -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6810,7 +6786,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/practice-spectroscopy-synthesis/',
       title: 'Spectroscopy and Synthesis -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6818,7 +6793,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/practice-structure-and-bonding/',
       title: 'Structure and Bonding -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6826,7 +6800,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/reaction-mechanisms/',
       title: 'Reaction Mechanisms | University',
       description: '',
       heading: '',
@@ -6834,7 +6807,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/spectroscopy/',
       title: 'Spectroscopy | University',
       description: '',
       heading: '',
@@ -6842,7 +6814,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/structure-and-bonding/',
       title: 'Structure and Bonding | University',
       description: '',
       heading: '',
@@ -6850,7 +6821,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/2-organic-chemistry/synthesis/',
       title: 'Synthesis | University',
       description: '',
       heading: '',
@@ -6858,7 +6828,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/',
       title: 'Inorganic Chemistry | University',
       description: '',
       heading: '',
@@ -6866,7 +6835,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/atomic-structure-and-periodicity/',
       title: 'Atomic Structure and Periodicity | University',
       description: '',
       heading: '',
@@ -6874,7 +6842,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/coordination-chemistry/',
       title: 'Coordination Chemistry | University',
       description: '',
       heading: '',
@@ -6882,7 +6849,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/main-group-chemistry/',
       title: 'Main-Group Chemistry | University',
       description: '',
       heading: '',
@@ -6890,7 +6856,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/practice-atomic-structure/',
       title: 'Atomic Structure and Periodicity -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6898,7 +6863,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/practice-coordination-chemistry/',
       title: 'Coordination Chemistry -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6906,7 +6870,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/practice-inorganic-chemistry/',
       title: 'Inorganic Chemistry -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6914,7 +6877,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/practice-main-group-solid-state/',
       title: 'Main-Group and Solid-State Chemistry -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6922,7 +6884,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/chemistry/3-inorganic-chemistry/solid-state-chemistry/',
       title: 'Solid-State Chemistry | University',
       description: '',
       heading: '',
@@ -6930,7 +6891,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/',
       title: 'Computer Science | University',
       description: '',
       heading: '',
@@ -6938,7 +6898,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/',
       title: 'Algorithms | University',
       description: '',
       heading: '',
@@ -6946,7 +6905,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/algorithm-design/',
       title: 'Algorithm Design | University',
       description: '',
       heading: '',
@@ -6954,7 +6912,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/complexity-theory/',
       title: 'Complexity Theory | University',
       description: '',
       heading: '',
@@ -6962,7 +6919,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/data-structures/',
       title: 'Data Structures | University',
       description: '',
       heading: '',
@@ -6970,7 +6926,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/flashcards-algorithms/',
       title: 'University CS Flashcards: Algorithms | University',
       description: '',
       heading: '',
@@ -6978,7 +6933,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/graph-algorithms/',
       title: 'Graph Algorithms | University',
       description: '',
       heading: '',
@@ -6986,7 +6940,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/practice-algorithm-design/',
       title: 'Algorithm Design -- Practice Problems | University',
       description: '',
       heading: '',
@@ -6994,7 +6947,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/practice-algorithms/',
       title: 'University CS Practice: Algorithms | University',
       description: '',
       heading: '',
@@ -7002,7 +6954,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/practice-complexity-theory/',
       title: 'Complexity Theory -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7010,7 +6961,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/1-algorithms/practice-data-structures/',
       title: 'Data Structures -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7018,7 +6968,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/',
       title: 'Systems | University',
       description: '',
       heading: '',
@@ -7026,7 +6975,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/databases/',
       title: 'Databases | University',
       description: '',
       heading: '',
@@ -7034,7 +6982,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/distributed-systems/',
       title: 'Distributed Systems | University',
       description: '',
       heading: '',
@@ -7042,7 +6989,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/flashcards-systems/',
       title: 'University CS Flashcards: Systems | University',
       description: '',
       heading: '',
@@ -7050,7 +6996,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/networking/',
       title: 'Networking | University',
       description: '',
       heading: '',
@@ -7058,7 +7003,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/operating-systems/',
       title: 'Operating Systems | University',
       description: '',
       heading: '',
@@ -7066,7 +7010,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/practice-databases/',
       title: 'Databases -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7074,7 +7017,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/practice-distributed-systems/',
       title: 'Distributed Systems -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7082,7 +7024,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/practice-networking/',
       title: 'Networking -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7090,7 +7031,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/practice-operating-systems/',
       title: 'Operating Systems -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7098,7 +7038,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/2-systems/practice-systems/',
       title: 'University CS Practice: Systems | University',
       description: '',
       heading: '',
@@ -7106,7 +7045,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/',
       title: 'Theory | University',
       description: '',
       heading: '',
@@ -7114,7 +7052,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/automata-and-formal-languages/',
       title: 'Automata and Formal Languages | University',
       description: '',
       heading: '',
@@ -7122,7 +7059,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/compilers/',
       title: 'Compilers | University',
       description: '',
       heading: '',
@@ -7130,7 +7066,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/cryptography/',
       title: 'Cryptography | University',
       description: '',
       heading: '',
@@ -7138,7 +7073,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/flashcards-theory/',
       title: 'University CS Flashcards: Theory of Computation | University',
       description: '',
       heading: '',
@@ -7146,7 +7080,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/machine-learning-fundamentals/',
       title: 'Machine Learning Fundamentals | University',
       description: '',
       heading: '',
@@ -7154,7 +7087,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/practice-automata/',
       title: 'Automata and Formal Languages -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7162,7 +7094,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/practice-compilers/',
       title: 'Compilers -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7170,7 +7101,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/practice-cryptography/',
       title: 'Cryptography -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7178,7 +7108,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/practice-machine-learning/',
       title: 'Machine Learning -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7186,7 +7115,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computer-science/3-theory/practice-theory/',
       title: 'University CS Practice: Theory | University',
       description: '',
       heading: '',
@@ -7194,7 +7122,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/',
       title: 'Computing | University',
       description: '',
       heading: '',
@@ -7202,7 +7129,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/',
       title: 'Discrete Mathematics | University',
       description: '',
       heading: '',
@@ -7210,7 +7136,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/1_propositional-and-predicate-logic/',
       title: 'Propositional and Predicate Logic | University',
       description: '',
       heading: '',
@@ -7218,7 +7143,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/2_sets-relations-and-functions/',
       title: 'Sets, Relations, and Functions | University',
       description: '',
       heading: '',
@@ -7226,7 +7150,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/3_proof-techniques/',
       title: 'Proof Techniques | University',
       description: '',
       heading: '',
@@ -7234,7 +7157,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/4_combinatorics/',
       title: 'Combinatorics | University',
       description: '',
       heading: '',
@@ -7242,7 +7164,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/5_graph-theory/',
       title: 'Graph Theory | University',
       description: '',
       heading: '',
@@ -7250,7 +7171,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/6_recurrence-relations/',
       title: 'Recurrence Relations | University',
       description: '',
       heading: '',
@@ -7258,7 +7178,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/7_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -7266,7 +7185,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/8_flashcards-discrete-mathematics/',
       title: 'University Computing Flashcards: Discrete Mathematics | University',
       description: '',
       heading: '',
@@ -7274,7 +7192,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/1-discrete-mathematics/9_practice-discrete-mathematics/',
       title: 'Discrete Mathematics Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -7282,7 +7199,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/',
       title: 'Algorithms and Data Structures | University',
       description: '',
       heading: '',
@@ -7290,7 +7206,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/1_algorithm-analysis/',
       title: 'Algorithm Analysis | University',
       description: '',
       heading: '',
@@ -7298,7 +7213,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/2_fundamental-data-structures/',
       title: 'Fundamental Data Structures | University',
       description: '',
       heading: '',
@@ -7306,7 +7220,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/3_sorting-algorithms/',
       title: 'Sorting Algorithms | University',
       description: '',
       heading: '',
@@ -7314,7 +7227,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/4_graph-algorithms/',
       title: 'Graph Algorithms | University',
       description: '',
       heading: '',
@@ -7322,7 +7234,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/5_dynamic-programming/',
       title: 'Dynamic Programming | University',
       description: '',
       heading: '',
@@ -7330,7 +7241,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/6_advanced-topics/',
       title: 'Advanced Topics | University',
       description: '',
       heading: '',
@@ -7338,7 +7248,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/7_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -7346,7 +7255,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/8_data-structures-advanced/',
       title: 'Data Structures (Advanced) | University',
       description: '',
       heading: '',
@@ -7354,7 +7262,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/9_algorithms-advanced/',
       title: 'Algorithms (Advanced) | University',
       description: '',
       heading: '',
@@ -7362,7 +7269,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/',
       title: 'University Computing Flashcards: Algorithms and Data Structures | University',
       description: '',
       heading: '',
@@ -7370,7 +7276,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/11_practice-algorithms-and-data-structures/',
       title: 'Algorithms and Data Structures Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -7378,7 +7283,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/2-algorithms-and-data-structures/12_practice-algorithms-data-structures/',
       title: 'Algorithms and Data Structures -- Practice Problems | University',
       description: '',
       heading: '',
@@ -7386,7 +7290,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/',
       title: 'Computer Networks | University',
       description: '',
       heading: '',
@@ -7394,7 +7297,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/1_network-models/',
       title: 'Network Models | University',
       description: '',
       heading: '',
@@ -7402,7 +7304,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/2_physical-layer/',
       title: 'Physical Layer | University',
       description: '',
       heading: '',
@@ -7410,7 +7311,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/3_data-link-layer/',
       title: 'Data Link Layer | University',
       description: '',
       heading: '',
@@ -7418,7 +7318,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/4_network-layer/',
       title: 'Network Layer | University',
       description: '',
       heading: '',
@@ -7426,7 +7325,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/5_transport-layer/',
       title: 'Transport Layer | University',
       description: '',
       heading: '',
@@ -7434,7 +7332,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/6_application-layer/',
       title: 'Application Layer | University',
       description: '',
       heading: '',
@@ -7442,7 +7339,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/7_network-security/',
       title: 'Network Security | University',
       description: '',
       heading: '',
@@ -7450,7 +7346,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/8_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -7458,7 +7353,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/9_computer-networks-advanced/',
       title: 'Computer Networks (Advanced) | University',
       description: '',
       heading: '',
@@ -7466,7 +7360,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/10_flashcards-computer-networks/',
       title: 'University Computing Flashcards: Computer Networks | University',
       description: '',
       heading: '',
@@ -7474,7 +7367,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/3-computer-networks/11_practice-computer-networks/',
       title: 'Computer Networks Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -7482,7 +7374,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/',
       title: 'Database Systems | University',
       description: '',
       heading: '',
@@ -7490,7 +7381,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/1_introduction-to-database-systems/',
       title: 'Introduction to Database Systems | University',
       description: '',
       heading: '',
@@ -7498,7 +7388,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/2_relational-model/',
       title: 'Relational Model | University',
       description: '',
       heading: '',
@@ -7506,7 +7395,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/3_sql/',
       title: 'SQL | University',
       description: '',
       heading: '',
@@ -7514,7 +7402,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/4_normalisation/',
       title: 'Normalisation | University',
       description: '',
       heading: '',
@@ -7522,7 +7409,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/5_indexing/',
       title: 'Indexing | University',
       description: '',
       heading: '',
@@ -7530,7 +7416,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/6_transaction-management/',
       title: 'Transaction Management | University',
       description: '',
       heading: '',
@@ -7538,7 +7423,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/7_query-optimisation/',
       title: 'Query Optimisation | University',
       description: '',
       heading: '',
@@ -7546,7 +7430,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/8_nosql-overview/',
       title: 'NoSQL Overview | University',
       description: '',
       heading: '',
@@ -7554,7 +7437,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/9_distributed-databases/',
       title: 'Distributed Databases | University',
       description: '',
       heading: '',
@@ -7562,7 +7444,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/10_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -7570,7 +7451,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/11_further-reading/',
       title: 'Further Reading | University',
       description: '',
       heading: '',
@@ -7578,7 +7458,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/12_databases-advanced/',
       title: 'Database Systems (Advanced) | University',
       description: '',
       heading: '',
@@ -7586,7 +7465,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/13_flashcards-databases/',
       title: 'University Computing Flashcards: Databases | University',
       description: '',
       heading: '',
@@ -7594,7 +7472,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/4-databases/14_practice-databases/',
       title: 'Databases Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -7602,7 +7479,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/',
       title: 'Operating Systems | University',
       description: '',
       heading: '',
@@ -7610,7 +7486,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/1_introduction-to-operating-systems/',
       title: 'Introduction to Operating Systems | University',
       description: '',
       heading: '',
@@ -7618,7 +7493,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/2_process-management/',
       title: 'Process Management | University',
       description: '',
       heading: '',
@@ -7626,7 +7500,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/3_synchronisation/',
       title: 'Synchronisation | University',
       description: '',
       heading: '',
@@ -7634,7 +7507,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/4_deadlocks/',
       title: 'Deadlocks | University',
       description: '',
       heading: '',
@@ -7642,7 +7514,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/5_memory-management/',
       title: 'Memory Management | University',
       description: '',
       heading: '',
@@ -7650,7 +7521,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/6_file-systems/',
       title: 'File Systems | University',
       description: '',
       heading: '',
@@ -7658,7 +7528,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/7_i-o-systems/',
       title: 'I/O Systems | University',
       description: '',
       heading: '',
@@ -7666,7 +7535,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/8_virtualization/',
       title: 'Virtualization | University',
       description: '',
       heading: '',
@@ -7674,7 +7542,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/9_security/',
       title: 'Security | University',
       description: '',
       heading: '',
@@ -7682,7 +7549,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/10_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -7690,7 +7556,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/11_operating-systems-advanced/',
       title: 'Operating Systems (Advanced) | University',
       description: '',
       heading: '',
@@ -7698,7 +7563,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/12_flashcards-operating-systems/',
       title: 'University Computing Flashcards: Operating Systems | University',
       description: '',
       heading: '',
@@ -7706,7 +7570,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/5-operating-systems/13_practice-operating-systems/',
       title: 'Operating Systems Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -7714,7 +7577,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/',
       title: 'Theory of Computation | University',
       description: '',
       heading: '',
@@ -7722,7 +7584,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/1_introduction/',
       title: 'Introduction | University',
       description: '',
       heading: '',
@@ -7730,7 +7591,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/2_regular-languages/',
       title: 'Regular Languages | University',
       description: '',
       heading: '',
@@ -7738,7 +7598,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/3_context-free-languages/',
       title: 'Context-Free Languages | University',
       description: '',
       heading: '',
@@ -7746,7 +7605,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/4_turing-machines/',
       title: 'Turing Machines | University',
       description: '',
       heading: '',
@@ -7754,7 +7612,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/5_decidability/',
       title: 'Decidability | University',
       description: '',
       heading: '',
@@ -7762,7 +7619,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/6_complexity-theory/',
       title: 'Complexity Theory | University',
       description: '',
       heading: '',
@@ -7770,7 +7626,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/7_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -7778,7 +7633,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/8_flashcards-theory-of-computation/',
       title: 'University Computing Flashcards: Theory of Computation | University',
       description: '',
       heading: '',
@@ -7786,7 +7640,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/6-theory-of-computation/9_practice-theory-of-computation/',
       title: 'Theory of Computation Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -7794,7 +7647,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/algorithms-and-data-structures/',
       title: 'Algorithms and Data Structures | University',
       description: '',
       heading: '',
@@ -7802,7 +7654,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/computer-networks/',
       title: 'Computer Networks | University',
       description: '',
       heading: '',
@@ -7810,7 +7661,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/databases/',
       title: 'Database Systems | University',
       description: '',
       heading: '',
@@ -7818,7 +7668,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/discrete-mathematics/',
       title: 'Discrete Mathematics | University',
       description: '',
       heading: '',
@@ -7826,7 +7675,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/operating-systems/',
       title: 'Operating Systems | University',
       description: '',
       heading: '',
@@ -7834,7 +7682,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/practice-discrete-math/',
       title: 'Discrete Mathematics: Practice Problems | University',
       description: '',
       heading: '',
@@ -7842,7 +7689,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/computing/theory-of-computation/',
       title: 'Theory of Computation | University',
       description: '',
       heading: '',
@@ -7850,7 +7696,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/',
       title: 'Mathematics | University',
       description: '',
       heading: '',
@@ -7858,7 +7703,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/',
       title: 'Abstract Algebra | University',
       description: '',
       heading: '',
@@ -7866,7 +7710,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/1_groups/',
       title: 'Groups | University',
       description: '',
       heading: '',
@@ -7874,7 +7717,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/2_subgroups/',
       title: 'Subgroups | University',
       description: '',
       heading: '',
@@ -7882,7 +7724,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/3_lagrange-s-theorem/',
       title: 'Lagrange&#39;s Theorem | University',
       description: '',
       heading: '',
@@ -7890,7 +7731,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/4_normal-subgroups-and-quotient-groups/',
       title: 'Normal Subgroups and Quotient Groups | University',
       description: '',
       heading: '',
@@ -7898,7 +7738,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/',
       title: 'Homomorphisms and Isomorphism Theorems | University',
       description: '',
       heading: '',
@@ -7906,7 +7745,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/6_group-actions/',
       title: 'Group Actions | University',
       description: '',
       heading: '',
@@ -7914,7 +7752,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/7_the-sylow-theorems/',
       title: 'The Sylow Theorems | University',
       description: '',
       heading: '',
@@ -7922,7 +7759,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/8_rings/',
       title: 'Rings | University',
       description: '',
       heading: '',
@@ -7930,7 +7766,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/9_ideals-and-quotient-rings/',
       title: 'Ideals and Quotient Rings | University',
       description: '',
       heading: '',
@@ -7938,7 +7773,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/10_polynomial-rings/',
       title: 'Polynomial Rings | University',
       description: '',
       heading: '',
@@ -7946,7 +7780,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/',
       title: 'Euclidean Domains, PIDs, and UFDs | University',
       description: '',
       heading: '',
@@ -7954,7 +7787,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/12_field-theory/',
       title: 'Field Theory | University',
       description: '',
       heading: '',
@@ -7962,7 +7794,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/13_galois-theory-fundamentals/',
       title: 'Galois Theory Fundamentals | University',
       description: '',
       heading: '',
@@ -7970,7 +7801,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/14_additional-results/',
       title: 'Additional Results | University',
       description: '',
       heading: '',
@@ -7978,7 +7808,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/15_worked-examples/',
       title: 'Worked Examples | University',
       description: '',
       heading: '',
@@ -7986,7 +7815,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/16_classification-of-groups-of-small-order/',
       title: 'Classification of Groups of Small Order | University',
       description: '',
       heading: '',
@@ -7994,7 +7822,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/17_common-pitfalls/',
       title: 'Common Pitfalls | University',
       description: '',
       heading: '',
@@ -8002,7 +7829,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/18_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -8010,7 +7836,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/19_summary-of-key-results/',
       title: 'Summary of Key Results | University',
       description: '',
       heading: '',
@@ -8018,7 +7843,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/20_flashcards-abstract-algebra/',
       title: 'University Maths Flashcards: Abstract Algebra | University',
       description: '',
       heading: '',
@@ -8026,7 +7850,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/1-abstract-algebra/21_practice-abstract-algebra/',
       title: 'Abstract Algebra Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8034,7 +7857,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/',
       title: 'Linear Algebra | University',
       description: '',
       heading: '',
@@ -8042,7 +7864,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/1_vectors-and-vector-spaces/',
       title: 'Vectors and Vector Spaces | University',
       description: '',
       heading: '',
@@ -8050,7 +7871,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/2_linear-independence-span-basis-and-dimension/',
       title: 'Linear Independence, Span, Basis, and Dimension | University',
       description: '',
       heading: '',
@@ -8058,7 +7878,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/3_matrices/',
       title: 'Matrices | University',
       description: '',
       heading: '',
@@ -8066,7 +7885,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/4_systems-of-linear-equations/',
       title: 'Systems of Linear Equations | University',
       description: '',
       heading: '',
@@ -8074,7 +7892,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/5_eigenvalues-and-eigenvectors/',
       title: 'Eigenvalues and Eigenvectors | University',
       description: '',
       heading: '',
@@ -8082,7 +7899,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/6_linear-transformations/',
       title: 'Linear Transformations | University',
       description: '',
       heading: '',
@@ -8090,7 +7906,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/7_inner-product-spaces/',
       title: 'Inner Product Spaces | University',
       description: '',
       heading: '',
@@ -8098,7 +7913,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/8_singular-value-decomposition/',
       title: 'Singular Value Decomposition | University',
       description: '',
       heading: '',
@@ -8106,7 +7920,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/9_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -8114,7 +7927,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/10_flashcards-linear-algebra/',
       title: 'University Maths Flashcards: Linear Algebra | University',
       description: '',
       heading: '',
@@ -8122,7 +7934,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/2-linear-algebra/11_practice-linear-algebra/',
       title: 'Linear Algebra Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8130,7 +7941,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/',
       title: 'Real Analysis | University',
       description: '',
       heading: '',
@@ -8138,7 +7948,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/1_the-real-number-system/',
       title: 'The Real Number System | University',
       description: '',
       heading: '',
@@ -8146,7 +7955,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/2_sequences-and-limits/',
       title: 'Sequences and Limits | University',
       description: '',
       heading: '',
@@ -8154,7 +7962,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/3_series/',
       title: 'Series | University',
       description: '',
       heading: '',
@@ -8162,7 +7969,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/4_continuity/',
       title: 'Continuity | University',
       description: '',
       heading: '',
@@ -8170,7 +7976,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/5_differentiability/',
       title: 'Differentiability | University',
       description: '',
       heading: '',
@@ -8178,7 +7983,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/6_riemann-integration/',
       title: 'Riemann Integration | University',
       description: '',
       heading: '',
@@ -8186,7 +7990,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/7_sequences-and-series-of-functions/',
       title: 'Sequences and Series of Functions | University',
       description: '',
       heading: '',
@@ -8194,7 +7997,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/8_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -8202,7 +8004,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/9_flashcards-real-analysis/',
       title: 'University Maths Flashcards: Real Analysis | University',
       description: '',
       heading: '',
@@ -8210,7 +8011,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/3-real-analysis/10_practice-real-analysis/',
       title: 'Real Analysis Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8218,7 +8018,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/',
       title: 'Multivariable Calculus | University',
       description: '',
       heading: '',
@@ -8226,7 +8025,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/1_partial-derivatives/',
       title: 'Partial Derivatives | University',
       description: '',
       heading: '',
@@ -8234,7 +8032,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/2_multiple-integrals/',
       title: 'Multiple Integrals | University',
       description: '',
       heading: '',
@@ -8242,7 +8039,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/3_vector-calculus/',
       title: 'Vector Calculus | University',
       description: '',
       heading: '',
@@ -8250,7 +8046,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/4_optimization/',
       title: 'Optimization | University',
       description: '',
       heading: '',
@@ -8258,7 +8053,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/5_curves-and-surfaces/',
       title: 'Curves and Surfaces | University',
       description: '',
       heading: '',
@@ -8266,7 +8060,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/6_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -8274,7 +8067,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/7_flashcards-multivariable-calculus/',
       title: 'University Maths Flashcards: Multivariable Calculus | University',
       description: '',
       heading: '',
@@ -8282,7 +8074,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/4-multivariable-calculus/8_practice-multivariable-calculus/',
       title: 'Multivariable Calculus Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8290,7 +8081,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/',
       title: 'Differential Equations | University',
       description: '',
       heading: '',
@@ -8298,7 +8088,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/1_introduction-and-classification/',
       title: 'Introduction and Classification | University',
       description: '',
       heading: '',
@@ -8306,7 +8095,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/2_first-order-odes/',
       title: 'First-Order ODEs | University',
       description: '',
       heading: '',
@@ -8314,7 +8102,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/3_second-order-linear-odes/',
       title: 'Second-Order Linear ODEs | University',
       description: '',
       heading: '',
@@ -8322,7 +8109,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/4_systems-of-odes/',
       title: 'Systems of ODEs | University',
       description: '',
       heading: '',
@@ -8330,7 +8116,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/5_laplace-transforms/',
       title: 'Laplace Transforms | University',
       description: '',
       heading: '',
@@ -8338,7 +8123,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/6_series-solutions/',
       title: 'Series Solutions | University',
       description: '',
       heading: '',
@@ -8346,7 +8130,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/7_fourier-series/',
       title: 'Fourier Series | University',
       description: '',
       heading: '',
@@ -8354,7 +8137,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/',
       title: 'Introduction to Partial Differential Equations | University',
       description: '',
       heading: '',
@@ -8362,7 +8144,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/',
       title: 'Stability and Phase Plane Analysis | University',
       description: '',
       heading: '',
@@ -8370,7 +8151,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/10_common-pitfalls/',
       title: 'Common Pitfalls | University',
       description: '',
       heading: '',
@@ -8378,7 +8158,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/11_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -8386,7 +8165,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/12_flashcards-odes/',
       title: 'University Maths Flashcards: ODEs | University',
       description: '',
       heading: '',
@@ -8394,7 +8172,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/5-ordinary-differential-equations/13_practice-odes/',
       title: 'Ordinary Differential Equations Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8402,7 +8179,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/',
       title: 'Complex Analysis | University',
       description: '',
       heading: '',
@@ -8410,7 +8186,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/1_complex-numbers-review/',
       title: 'Complex Numbers Review | University',
       description: '',
       heading: '',
@@ -8418,7 +8193,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/2_complex-functions-and-analyticity/',
       title: 'Complex Functions and Analyticity | University',
       description: '',
       heading: '',
@@ -8426,7 +8200,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/3_the-cauchy-riemann-equations/',
       title: 'The Cauchy-Riemann Equations | University',
       description: '',
       heading: '',
@@ -8434,7 +8207,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/4_complex-integration/',
       title: 'Complex Integration | University',
       description: '',
       heading: '',
@@ -8442,7 +8214,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/5_cauchy-s-theorem/',
       title: 'Cauchy&#39;s Theorem | University',
       description: '',
       heading: '',
@@ -8450,7 +8221,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/6_cauchy-s-integral-formula/',
       title: 'Cauchy&#39;s Integral Formula | University',
       description: '',
       heading: '',
@@ -8458,7 +8228,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/7_taylor-and-laurent-series/',
       title: 'Taylor and Laurent Series | University',
       description: '',
       heading: '',
@@ -8466,7 +8235,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/8_singularities-and-residue-theory/',
       title: 'Singularities and Residue Theory | University',
       description: '',
       heading: '',
@@ -8474,7 +8242,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/9_applications-of-contour-integration/',
       title: 'Applications of Contour Integration | University',
       description: '',
       heading: '',
@@ -8482,7 +8249,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/10_conformal-mappings/',
       title: 'Conformal Mappings | University',
       description: '',
       heading: '',
@@ -8490,7 +8256,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/',
       title: 'Liouville&#39;s Theorem and the Maximum Modulus Principle | University',
       description: '',
       heading: '',
@@ -8498,7 +8263,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/',
       title: 'Argument Principle and Rouché&#39;s Theorem | University',
       description: '',
       heading: '',
@@ -8506,7 +8270,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/13_analytic-continuation/',
       title: 'Analytic Continuation | University',
       description: '',
       heading: '',
@@ -8514,7 +8277,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/14_common-pitfalls/',
       title: 'Common Pitfalls | University',
       description: '',
       heading: '',
@@ -8522,7 +8284,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/15_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -8530,7 +8291,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/16_flashcards-complex-analysis/',
       title: 'University Maths Flashcards: Complex Analysis | University',
       description: '',
       heading: '',
@@ -8538,7 +8298,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/6-complex-analysis/17_practice-complex-analysis/',
       title: 'Complex Analysis Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8546,7 +8305,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/7-number-theory/',
       title: 'Number Theory | University',
       description: '',
       heading: '',
@@ -8554,7 +8312,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/7-number-theory/flashcards-number-theory/',
       title: 'University Maths Flashcards: Number Theory | University',
       description: '',
       heading: '',
@@ -8562,7 +8319,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/7-number-theory/practice-number-theory/',
       title: 'Number Theory Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8570,7 +8326,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/',
       title: 'Probability Theory | University',
       description: '',
       heading: '',
@@ -8578,7 +8333,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/1_probability-spaces/',
       title: 'Probability Spaces | University',
       description: '',
       heading: '',
@@ -8586,7 +8340,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/2_random-variables/',
       title: 'Random Variables | University',
       description: '',
       heading: '',
@@ -8594,7 +8347,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/3_joint-distributions-and-independence/',
       title: 'Joint Distributions and Independence | University',
       description: '',
       heading: '',
@@ -8602,7 +8354,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/4_limit-theorems/',
       title: 'Limit Theorems | University',
       description: '',
       heading: '',
@@ -8610,7 +8361,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/5_transformations-and-convolutions/',
       title: 'Transformations and Convolutions | University',
       description: '',
       heading: '',
@@ -8618,7 +8368,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/6_probability-and-statistics/',
       title: 'Probability and Statistics | University',
       description: '',
       heading: '',
@@ -8626,7 +8375,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/7_flashcards-probability-statistics/',
       title: 'University Maths Flashcards: Probability and Statistics | University',
       description: '',
       heading: '',
@@ -8634,7 +8382,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/8-probability-and-statistics/8_practice-probability-statistics/',
       title: 'Probability and Statistics Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8642,7 +8389,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/',
       title: 'Topology | University',
       description: '',
       heading: '',
@@ -8650,7 +8396,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/1_introduction-to-topology/',
       title: 'Introduction to Topology | University',
       description: '',
       heading: '',
@@ -8658,7 +8403,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/2_topological-spaces/',
       title: 'Topological Spaces | University',
       description: '',
       heading: '',
@@ -8666,7 +8410,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/3_closed-sets-closure-interior-and-boundary/',
       title: 'Closed Sets, Closure, Interior, and Boundary | University',
       description: '',
       heading: '',
@@ -8674,7 +8417,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/4_continuity-and-homeomorphisms/',
       title: 'Continuity and Homeomorphisms | University',
       description: '',
       heading: '',
@@ -8682,7 +8424,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/5_compactness/',
       title: 'Compactness | University',
       description: '',
       heading: '',
@@ -8690,7 +8431,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/6_connectedness/',
       title: 'Connectedness | University',
       description: '',
       heading: '',
@@ -8698,7 +8438,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/7_metric-spaces/',
       title: 'Metric Spaces | University',
       description: '',
       heading: '',
@@ -8706,7 +8445,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/8_separation-axioms/',
       title: 'Separation Axioms | University',
       description: '',
       heading: '',
@@ -8714,7 +8452,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/9_introduction-to-algebraic-topology/',
       title: 'Introduction to Algebraic Topology | University',
       description: '',
       heading: '',
@@ -8722,7 +8459,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/10_common-pitfalls/',
       title: 'Common Pitfalls | University',
       description: '',
       heading: '',
@@ -8730,7 +8466,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/9-topology/11_summary/',
       title: 'Summary | University',
       description: '',
       heading: '',
@@ -8738,7 +8473,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/',
       title: 'Measure Theory | University',
       description: '',
       heading: '',
@@ -8746,7 +8480,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/1_sigma-algebras-and-measurable-spaces/',
       title: 'Sigma-Algebras and Measurable Spaces | University',
       description: '',
       heading: '',
@@ -8754,7 +8487,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/2_measures/',
       title: 'Measures | University',
       description: '',
       heading: '',
@@ -8762,7 +8494,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/',
       title: 'Lebesgue Outer Measure and Caratheodory Extension | University',
       description: '',
       heading: '',
@@ -8770,7 +8501,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/',
       title: 'Lebesgue Measurable Sets and Non-Measurable Sets | University',
       description: '',
       heading: '',
@@ -8778,7 +8508,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/5_measurable-functions/',
       title: 'Measurable Functions | University',
       description: '',
       heading: '',
@@ -8786,7 +8515,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/6_lebesgue-integration/',
       title: 'Lebesgue Integration | University',
       description: '',
       heading: '',
@@ -8794,7 +8522,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/7_l-p-spaces/',
       title: '$L^p$ Spaces | University',
       description: '',
       heading: '',
@@ -8802,7 +8529,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/8_fubini-and-tonelli-theorems/',
       title: 'Fubini and Tonelli Theorems | University',
       description: '',
       heading: '',
@@ -8810,7 +8536,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/9_radon-nikodym-derivative-and-lebesgue-decomposition/',
       title: 'Radon-Nikodym Derivative and Lebesgue Decomposition | University',
       description: '',
       heading: '',
@@ -8818,7 +8543,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/10_summary-of-key-results/',
       title: 'Summary of Key Results | University',
       description: '',
       heading: '',
@@ -8826,7 +8550,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/11_flashcards-measure-theory/',
       title: 'University Maths Flashcards: Measure Theory | University',
       description: '',
       heading: '',
@@ -8834,7 +8557,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/10-measure-theory/12_practice-measure-theory/',
       title: 'Measure Theory Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8842,7 +8564,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/',
       title: 'Functional Analysis | University',
       description: '',
       heading: '',
@@ -8850,7 +8571,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/1_normed-spaces-and-banach-spaces/',
       title: 'Normed Spaces and Banach Spaces | University',
       description: '',
       heading: '',
@@ -8858,7 +8578,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/',
       title: 'Inner Product Spaces and Hilbert Spaces | University',
       description: '',
       heading: '',
@@ -8866,7 +8585,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/3_bounded-linear-operators/',
       title: 'Bounded Linear Operators | University',
       description: '',
       heading: '',
@@ -8874,7 +8592,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/4_the-fundamental-theorems/',
       title: 'The Fundamental Theorems | University',
       description: '',
       heading: '',
@@ -8882,7 +8599,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/5_compact-operators/',
       title: 'Compact Operators | University',
       description: '',
       heading: '',
@@ -8890,7 +8606,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/6_weak-and-weak-convergence/',
       title: 'Weak and Weak\\* Convergence | University',
       description: '',
       heading: '',
@@ -8898,7 +8613,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/7_applications/',
       title: 'Applications | University',
       description: '',
       heading: '',
@@ -8906,7 +8620,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/8_historical-context/',
       title: 'Historical Context | University',
       description: '',
       heading: '',
@@ -8914,7 +8627,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/9_summary-of-key-theorems/',
       title: 'Summary of Key Theorems | University',
       description: '',
       heading: '',
@@ -8922,7 +8634,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/10_flashcards-functional-analysis/',
       title: 'University Maths Flashcards: Functional Analysis | University',
       description: '',
       heading: '',
@@ -8930,7 +8641,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/11-functional-analysis/11_practice-functional-analysis/',
       title: 'Functional Analysis Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -8938,7 +8648,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/',
       title: 'Differential Geometry | University',
       description: '',
       heading: '',
@@ -8946,7 +8655,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/1_smooth-manifolds/',
       title: 'Smooth Manifolds | University',
       description: '',
       heading: '',
@@ -8954,7 +8662,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/2_tangent-spaces-and-tangent-bundles/',
       title: 'Tangent Spaces and Tangent Bundles | University',
       description: '',
       heading: '',
@@ -8962,7 +8669,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/3_vector-fields-and-flows/',
       title: 'Vector Fields and Flows | University',
       description: '',
       heading: '',
@@ -8970,7 +8676,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/4_differential-forms/',
       title: 'Differential Forms | University',
       description: '',
       heading: '',
@@ -8978,7 +8683,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/5_riemannian-geometry/',
       title: 'Riemannian Geometry | University',
       description: '',
       heading: '',
@@ -8986,7 +8690,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/6_geodesics/',
       title: 'Geodesics | University',
       description: '',
       heading: '',
@@ -8994,7 +8697,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/7_curvature/',
       title: 'Curvature | University',
       description: '',
       heading: '',
@@ -9002,7 +8704,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/8_the-gauss-bonnet-theorem/',
       title: 'The Gauss-Bonnet Theorem | University',
       description: '',
       heading: '',
@@ -9010,7 +8711,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/9_applications/',
       title: 'Applications | University',
       description: '',
       heading: '',
@@ -9018,7 +8718,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/10_summary/',
       title: 'Summary | University',
       description: '',
       heading: '',
@@ -9026,7 +8725,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/11_flashcards-differential-geometry/',
       title: 'University Maths Flashcards: Differential Geometry | University',
       description: '',
       heading: '',
@@ -9034,7 +8732,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/12-differential-geometry/12_practice-differential-geometry/',
       title: 'Differential Geometry Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -9042,7 +8739,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/abstract-algebra/',
       title: 'abstract algebra | University',
       description: '',
       heading: '',
@@ -9050,7 +8746,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/complex-analysis/',
       title: 'Complex Analysis | University',
       description: '',
       heading: '',
@@ -9058,7 +8753,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/differential-equations/',
       title: 'Differential Equations | University',
       description: '',
       heading: '',
@@ -9066,7 +8760,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/linear-algebra/',
       title: 'Linear Algebra | University',
       description: '',
       heading: '',
@@ -9074,7 +8767,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/multivariable-calculus/',
       title: 'Multivariable Calculus | University',
       description: '',
       heading: '',
@@ -9082,7 +8774,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/number-theory/',
       title: 'Number Theory | University',
       description: '',
       heading: '',
@@ -9090,7 +8781,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/probability-and-statistics/',
       title: 'Probability and Statistics | University',
       description: '',
       heading: '',
@@ -9098,7 +8788,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/probability/',
       title: 'Probability Theory | University',
       description: '',
       heading: '',
@@ -9106,7 +8795,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/mathematics/real-analysis/',
       title: 'Real Analysis | University',
       description: '',
       heading: '',
@@ -9114,7 +8802,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/',
       title: 'Physics | University',
       description: '',
       heading: '',
@@ -9122,7 +8809,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/',
       title: 'Classical Mechanics | University',
       description: '',
       heading: '',
@@ -9130,7 +8816,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/1_newtonian-mechanics-review/',
       title: 'Newtonian Mechanics Review | University',
       description: '',
       heading: '',
@@ -9138,7 +8823,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/2_generalised-coordinates-and-constraints/',
       title: 'Generalised Coordinates and Constraints | University',
       description: '',
       heading: '',
@@ -9146,7 +8830,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/3_lagrangian-mechanics/',
       title: 'Lagrangian Mechanics | University',
       description: '',
       heading: '',
@@ -9154,7 +8837,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/4_hamiltonian-mechanics/',
       title: 'Hamiltonian Mechanics | University',
       description: '',
       heading: '',
@@ -9162,7 +8844,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/',
       title: 'Noether&#39;s Theorem and Conservation Laws | University',
       description: '',
       heading: '',
@@ -9170,7 +8851,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/6_central-force-problems/',
       title: 'Central Force Problems | University',
       description: '',
       heading: '',
@@ -9178,7 +8858,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/7_small-oscillations-and-normal-modes/',
       title: 'Small Oscillations and Normal Modes | University',
       description: '',
       heading: '',
@@ -9186,7 +8865,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/8_rigid-body-dynamics/',
       title: 'Rigid Body Dynamics | University',
       description: '',
       heading: '',
@@ -9194,7 +8872,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/9_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -9202,7 +8879,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/',
       title: 'Rigid Body Dynamics: Advanced Topics | University',
       description: '',
       heading: '',
@@ -9210,7 +8886,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/',
       title: 'Hamiltonian Mechanics: Advanced Topics | University',
       description: '',
       heading: '',
@@ -9218,7 +8893,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/',
       title: 'Nonlinear Dynamics and Chaos | University',
       description: '',
       heading: '',
@@ -9226,7 +8900,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/13_classical-field-theory/',
       title: 'Classical Field Theory | University',
       description: '',
       heading: '',
@@ -9234,7 +8907,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/14_flashcards-classical-mechanics/',
       title: 'Classical Mechanics Flashcards | University',
       description: '',
       heading: '',
@@ -9242,7 +8914,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/1-classical-mechanics/15_practice-classical-mechanics/',
       title: 'Classical Mechanics Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -9250,7 +8921,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/',
       title: 'Thermal Physics | University',
       description: '',
       heading: '',
@@ -9258,7 +8928,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/1_the-laws-of-thermodynamics/',
       title: 'The Laws of Thermodynamics | University',
       description: '',
       heading: '',
@@ -9266,7 +8935,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/2_statistical-mechanics/',
       title: 'Statistical Mechanics | University',
       description: '',
       heading: '',
@@ -9274,7 +8942,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/3_the-grand-canonical-ensemble/',
       title: 'The Grand Canonical Ensemble | University',
       description: '',
       heading: '',
@@ -9282,7 +8949,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/4_fermi-gas-at-finite-temperature/',
       title: 'Fermi Gas at Finite Temperature | University',
       description: '',
       heading: '',
@@ -9290,7 +8956,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/5_bose-einstein-condensation/',
       title: 'Bose-Einstein Condensation | University',
       description: '',
       heading: '',
@@ -9298,7 +8963,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/6_the-ising-model/',
       title: 'The Ising Model | University',
       description: '',
       heading: '',
@@ -9306,7 +8970,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/',
       title: 'Classical Limit and the Maxwell-Boltzmann Distribution | University',
       description: '',
       heading: '',
@@ -9314,7 +8977,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/8_common-pitfalls/',
       title: 'Common Pitfalls | University',
       description: '',
       heading: '',
@@ -9322,7 +8984,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/9_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -9330,7 +8991,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/10_phase-transitions/',
       title: 'Phase Transitions | University',
       description: '',
       heading: '',
@@ -9338,7 +8998,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/11_landau-theory-of-phase-transitions/',
       title: 'Landau Theory of Phase Transitions | University',
       description: '',
       heading: '',
@@ -9346,7 +9005,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/12_ising-model-and-mean-field-theory/',
       title: 'Ising Model and Mean-Field Theory | University',
       description: '',
       heading: '',
@@ -9354,7 +9012,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/13_fluctuation-dissipation-theorem/',
       title: 'Fluctuation-Dissipation Theorem | University',
       description: '',
       heading: '',
@@ -9362,7 +9019,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/14_microcanonical-ensemble/',
       title: 'Microcanonical Ensemble | University',
       description: '',
       heading: '',
@@ -9370,7 +9026,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/15_quantum-statistics-in-detail/',
       title: 'Quantum Statistics in Detail | University',
       description: '',
       heading: '',
@@ -9378,7 +9033,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/16_the-debye-model-of-solids/',
       title: 'The Debye Model of Solids | University',
       description: '',
       heading: '',
@@ -9386,7 +9040,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/17_thermodynamic-response-functions/',
       title: 'Thermodynamic Response Functions | University',
       description: '',
       heading: '',
@@ -9394,7 +9047,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/18_quantum-statistical-mechanics-advanced-topics/',
       title: 'Quantum Statistical Mechanics: Advanced Topics | University',
       description: '',
       heading: '',
@@ -9402,7 +9054,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/',
       title: 'Irreversible Thermodynamics and Fluctuations | University',
       description: '',
       heading: '',
@@ -9410,7 +9061,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/20_thermodynamics-of-information-processing/',
       title: 'Thermodynamics of Information Processing | University',
       description: '',
       heading: '',
@@ -9418,7 +9068,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/',
       title: 'Thermodynamics and Statistical Mechanics | University',
       description: '',
       heading: '',
@@ -9426,7 +9075,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/2-thermal-physics/22_practice-thermal-physics/',
       title: 'Thermal Physics Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -9434,7 +9082,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/',
       title: 'Electromagnetism | University',
       description: '',
       heading: '',
@@ -9442,7 +9089,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/1_maxwell-s-equations/',
       title: 'Maxwell&#39;s Equations | University',
       description: '',
       heading: '',
@@ -9450,7 +9096,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/2_electrostatics/',
       title: 'Electrostatics | University',
       description: '',
       heading: '',
@@ -9458,7 +9103,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/3_magnetostatics/',
       title: 'Magnetostatics | University',
       description: '',
       heading: '',
@@ -9466,7 +9110,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/4_electrodynamics/',
       title: 'Electrodynamics | University',
       description: '',
       heading: '',
@@ -9474,7 +9117,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/5_electromagnetic-waves/',
       title: 'Electromagnetic Waves | University',
       description: '',
       heading: '',
@@ -9482,7 +9124,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/6_potentials-and-gauge-transformations/',
       title: 'Potentials and Gauge Transformations | University',
       description: '',
       heading: '',
@@ -9490,7 +9131,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/7_special-relativity-and-electromagnetism/',
       title: 'Special Relativity and Electromagnetism | University',
       description: '',
       heading: '',
@@ -9498,7 +9138,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/8_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -9506,7 +9145,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/9_waveguides-and-cavities/',
       title: 'Waveguides and Cavities | University',
       description: '',
       heading: '',
@@ -9514,7 +9152,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/10_radiation-from-accelerating-charges/',
       title: 'Radiation from Accelerating Charges | University',
       description: '',
       heading: '',
@@ -9522,7 +9159,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/11_advanced-electrodynamics/',
       title: 'Advanced Electrodynamics | University',
       description: '',
       heading: '',
@@ -9530,7 +9166,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/12_special-relativity-and-electromagnetism-12/',
       title: 'Special Relativity and Electromagnetism | University',
       description: '',
       heading: '',
@@ -9538,7 +9173,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/13_plasma-physics-brief-overview/',
       title: 'Plasma Physics: Brief Overview | University',
       description: '',
       heading: '',
@@ -9546,7 +9180,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/14_flashcards-electromagnetism/',
       title: 'Electromagnetism Flashcards | University',
       description: '',
       heading: '',
@@ -9554,7 +9187,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/3-electromagnetism/15_practice-electromagnetism/',
       title: 'Electromagnetism Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -9562,7 +9194,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/',
       title: 'Optics and Wave Physics | University',
       description: '',
       heading: '',
@@ -9570,7 +9201,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/1_the-wave-equation/',
       title: 'The Wave Equation | University',
       description: '',
       heading: '',
@@ -9578,7 +9208,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/2_electromagnetic-waves/',
       title: 'Electromagnetic Waves | University',
       description: '',
       heading: '',
@@ -9586,7 +9215,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/3_interference/',
       title: 'Interference | University',
       description: '',
       heading: '',
@@ -9594,7 +9222,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/4_diffraction/',
       title: 'Diffraction | University',
       description: '',
       heading: '',
@@ -9602,7 +9229,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/5_polarization/',
       title: 'Polarization | University',
       description: '',
       heading: '',
@@ -9610,7 +9236,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/6_geometric-optics/',
       title: 'Geometric Optics | University',
       description: '',
       heading: '',
@@ -9618,7 +9243,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/7_fourier-optics/',
       title: 'Fourier Optics | University',
       description: '',
       heading: '',
@@ -9626,7 +9250,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/8_coherence/',
       title: 'Coherence | University',
       description: '',
       heading: '',
@@ -9634,7 +9257,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/9_lasers/',
       title: 'Lasers | University',
       description: '',
       heading: '',
@@ -9642,7 +9264,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/10_fresnel-equations/',
       title: 'Fresnel Equations | University',
       description: '',
       heading: '',
@@ -9650,7 +9271,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/11_dispersion/',
       title: 'Dispersion | University',
       description: '',
       heading: '',
@@ -9658,7 +9278,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/12_optical-fibres/',
       title: 'Optical Fibres | University',
       description: '',
       heading: '',
@@ -9666,7 +9285,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/13_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -9674,7 +9292,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/14_fourier-optics-10/',
       title: 'Fourier Optics | University',
       description: '',
       heading: '',
@@ -9682,7 +9299,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/15_coherence-theory/',
       title: 'Coherence Theory | University',
       description: '',
       heading: '',
@@ -9690,7 +9306,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/16_detailed-diffraction-theory/',
       title: 'Detailed Diffraction Theory | University',
       description: '',
       heading: '',
@@ -9698,7 +9313,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/17_polarisation-in-detail/',
       title: 'Polarisation in Detail | University',
       description: '',
       heading: '',
@@ -9706,7 +9320,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/18_common-pitfalls/',
       title: 'Common Pitfalls | University',
       description: '',
       heading: '',
@@ -9714,7 +9327,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/19_fourier-optics-15/',
       title: 'Fourier Optics | University',
       description: '',
       heading: '',
@@ -9722,7 +9334,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/20_coherence-theory-16/',
       title: 'Coherence Theory | University',
       description: '',
       heading: '',
@@ -9730,7 +9341,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/21_lasers-17/',
       title: 'Lasers | University',
       description: '',
       heading: '',
@@ -9738,7 +9348,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/22_nonlinear-optics/',
       title: 'Nonlinear Optics | University',
       description: '',
       heading: '',
@@ -9746,7 +9355,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/',
       title: 'Computational Imaging and Adaptive Optics | University',
       description: '',
       heading: '',
@@ -9754,7 +9362,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/4-optics-and-waves/24_practice-optics-waves/',
       title: 'Optics and Waves Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -9762,7 +9369,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/',
       title: 'Quantum Mechanics | University',
       description: '',
       heading: '',
@@ -9770,7 +9376,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/1_historical-motivation/',
       title: 'Historical Motivation | University',
       description: '',
       heading: '',
@@ -9778,7 +9383,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/2_postulates-of-quantum-mechanics/',
       title: 'Postulates of Quantum Mechanics | University',
       description: '',
       heading: '',
@@ -9786,7 +9390,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/',
       title: 'Wave Functions and the Schrodinger Equation | University',
       description: '',
       heading: '',
@@ -9794,7 +9397,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/4_operators-and-observables/',
       title: 'Operators and Observables | University',
       description: '',
       heading: '',
@@ -9802,7 +9404,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/5_one-dimensional-problems/',
       title: 'One-Dimensional Problems | University',
       description: '',
       heading: '',
@@ -9810,7 +9411,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/',
       title: 'Angular Momentum and the Hydrogen Atom | University',
       description: '',
       heading: '',
@@ -9818,7 +9418,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/7_spin/',
       title: 'Spin | University',
       description: '',
       heading: '',
@@ -9826,7 +9425,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/8_approximation-methods/',
       title: 'Approximation Methods | University',
       description: '',
       heading: '',
@@ -9834,7 +9432,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/9_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -9842,7 +9439,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/',
       title: 'Identical Particles and Exchange Symmetry | University',
       description: '',
       heading: '',
@@ -9850,7 +9446,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/11_variational-methods/',
       title: 'Variational Methods | University',
       description: '',
       heading: '',
@@ -9858,7 +9453,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/12_time-dependent-perturbation-theory/',
       title: 'Time-Dependent Perturbation Theory | University',
       description: '',
       heading: '',
@@ -9866,7 +9460,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/13_scattering-theory/',
       title: 'Scattering Theory | University',
       description: '',
       heading: '',
@@ -9874,7 +9467,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/14_wkb-approximation/',
       title: 'WKB Approximation | University',
       description: '',
       heading: '',
@@ -9882,7 +9474,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/',
       title: 'Density Functional Theory: Conceptual Overview | University',
       description: '',
       heading: '',
@@ -9890,7 +9481,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/16_flashcards-quantum-mechanics/',
       title: 'Quantum Mechanics Flashcards | University',
       description: '',
       heading: '',
@@ -9898,7 +9488,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/17_practice-quantum-mechanics/',
       title: 'Quantum Mechanics Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -9906,7 +9495,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/5-quantum-mechanics/18_quantum-mechanics-ii/',
       title: 'quantum mechanics ii | University',
       description: '',
       heading: '',
@@ -9914,7 +9502,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/',
       title: 'Solid State Physics | University',
       description: '',
       heading: '',
@@ -9922,7 +9509,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/1_crystal-structures/',
       title: 'Crystal Structures | University',
       description: '',
       heading: '',
@@ -9930,7 +9516,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/2_reciprocal-lattice/',
       title: 'Reciprocal Lattice | University',
       description: '',
       heading: '',
@@ -9938,7 +9523,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/3_diffraction/',
       title: 'Diffraction | University',
       description: '',
       heading: '',
@@ -9946,7 +9530,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/4_lattice-vibrations-and-phonons/',
       title: 'Lattice Vibrations and Phonons | University',
       description: '',
       heading: '',
@@ -9954,7 +9537,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/5_electronic-band-structure/',
       title: 'Electronic Band Structure | University',
       description: '',
       heading: '',
@@ -9962,7 +9544,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/6_semiconductors/',
       title: 'Semiconductors | University',
       description: '',
       heading: '',
@@ -9970,7 +9551,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/7_superconductivity/',
       title: 'Superconductivity | University',
       description: '',
       heading: '',
@@ -9978,7 +9558,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/8_transport-properties/',
       title: 'Transport Properties | University',
       description: '',
       heading: '',
@@ -9986,7 +9565,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/9_defects-in-crystals/',
       title: 'Defects in Crystals | University',
       description: '',
       heading: '',
@@ -9994,7 +9572,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/10_magnetism-in-solids/',
       title: 'Magnetism in Solids | University',
       description: '',
       heading: '',
@@ -10002,7 +9579,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/11_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -10010,7 +9586,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/12_advanced-topics-in-superconductivity/',
       title: 'Advanced Topics in Superconductivity | University',
       description: '',
       heading: '',
@@ -10018,7 +9593,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/13_topological-insulators-and-semimetals/',
       title: 'Topological Insulators and Semimetals | University',
       description: '',
       heading: '',
@@ -10026,7 +9600,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/14_many-body-physics-in-solids/',
       title: 'Many-Body Physics in Solids | University',
       description: '',
       heading: '',
@@ -10034,7 +9607,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/15_advanced-semiconductor-physics/',
       title: 'Advanced Semiconductor Physics | University',
       description: '',
       heading: '',
@@ -10042,7 +9614,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/16_advanced-semiconductor-physics-continued/',
       title: 'Advanced Semiconductor Physics (Continued) | University',
       description: '',
       heading: '',
@@ -10050,7 +9621,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/6-solid-state-physics/17_practice-solid-state-physics/',
       title: 'Solid State Physics Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -10058,7 +9628,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/',
       title: 'Particle Physics and Cosmology | University',
       description: '',
       heading: '',
@@ -10066,7 +9635,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/1_the-standard-model/',
       title: 'The Standard Model | University',
       description: '',
       heading: '',
@@ -10074,7 +9642,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/',
       title: 'Conservation Laws and Symmetries | University',
       description: '',
       heading: '',
@@ -10082,7 +9649,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/3_feynman-diagrams/',
       title: 'Feynman Diagrams | University',
       description: '',
       heading: '',
@@ -10090,7 +9656,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/4_the-higgs-mechanism/',
       title: 'The Higgs Mechanism | University',
       description: '',
       heading: '',
@@ -10098,7 +9663,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/',
       title: 'Group Theory in Particle Physics | University',
       description: '',
       heading: '',
@@ -10106,7 +9670,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/6_running-coupling-constants/',
       title: 'Running Coupling Constants | University',
       description: '',
       heading: '',
@@ -10114,7 +9677,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/7_big-bang-cosmology/',
       title: 'Big Bang Cosmology | University',
       description: '',
       heading: '',
@@ -10122,7 +9684,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/8_neutrino-physics/',
       title: 'Neutrino Physics | University',
       description: '',
       heading: '',
@@ -10130,7 +9691,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/9_beyond-the-standard-model/',
       title: 'Beyond the Standard Model | University',
       description: '',
       heading: '',
@@ -10138,7 +9698,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/10_problem-set/',
       title: 'Problem Set | University',
       description: '',
       heading: '',
@@ -10146,7 +9705,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/',
       title: 'Advanced Topics in Particle Physics | University',
       description: '',
       heading: '',
@@ -10154,7 +9712,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/',
       title: 'Advanced Topics in Cosmology | University',
       description: '',
       heading: '',
@@ -10162,7 +9719,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model/',
       title: 'Precision Tests of the Standard Model | University',
       description: '',
       heading: '',
@@ -10170,7 +9726,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/7-particle-physics-and-cosmology/14_practice-particle-physics-cosmology/',
       title: 'Particle Physics and Cosmology Practice (Interactive) | University',
       description: '',
       heading: '',
@@ -10178,7 +9733,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/classical-mechanics-flashcards/',
       title: 'Classical Mechanics Flashcards | University',
       description: '',
       heading: '',
@@ -10186,7 +9740,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/practice-problems/',
       title: 'Physics Practice Problems | University',
       description: '',
       heading: '',
@@ -10194,7 +9747,6 @@ export default {
       site: 'university',
     },
     {
-      url: 'https://university.wyattau.com/physics/thermodynamics/',
       title: 'thermodynamics | University',
       description: '',
       heading: '',
