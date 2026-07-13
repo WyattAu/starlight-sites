@@ -20,7 +20,6 @@ const EXPECTED_SITES = [
   'cbse',
   'chemistry',
   'computer-science',
-  'computing',
   'cpp',
   'dart',
   'databases',

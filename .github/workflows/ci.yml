@@ -142,7 +142,6 @@ jobs:
           - cbse
           - chemistry
           - computer-science
-          - computing
           - cpp
           - dart
           - databases

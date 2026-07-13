@@ -100,9 +100,6 @@ jobs:
           - site: computer-science
             project: wyattsnotes-computer-science
             url: https://computer-science.wyattau.com
-          - site: computing
-            project: wyattsnotes-computing
-            url: https://computing.wyattau.com
           - site: databases
             project: wyattsnotes-databases
             url: https://databases.wyattau.com
