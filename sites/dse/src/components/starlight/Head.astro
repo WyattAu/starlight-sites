@@ -105,8 +105,43 @@ const articleSchema = {
 <!-- Reading controls (floating settings, focus mode, progress, position memory) -->
 <script src="/reader.js" defer></script>
 
-<!-- Site navigator overlay -->
-<script src="/site-nav.js" defer></script>
+<!-- Site navigator: inject Sites button into Starlight header -->
+<script is:inline>
+(function(){
+  function injectSitesButton(){
+    var search = document.querySelector('#custom-search') || document.querySelector('.right-group')
+    if(!search || !search.parentNode) return
+    var btn = document.createElement('button')
+    btn.className = 'site-nav-btn'
+    btn.id = 'site-nav-trigger'
+    btn.setAttribute('aria-label','Browse all sites')
+    btn.setAttribute('title','Browse all sites')
+    btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg><span>Sites</span>'
+    search.parentNode.insertBefore(btn, search)
+    btn.addEventListener('click', function(e){
+      e.stopPropagation()
+      var ov = document.getElementById('site-nav-overlay')
+      if(!ov) ov = buildOverlay()
+      ov.setAttribute('aria-hidden','false')
+      document.body.classList.add('site-nav-open')
+    })
+  }
+  function buildOverlay(){
+    var SITES={'Exam Boards':[{n:'DSE',u:'https://dse.wyattau.com'},{n:'IB',u:'https://ib.wyattau.com'},{n:'A-Level',u:'https://alevel.wyattau.com'},{n:'GCSE',u:'https://gcse.wyattau.com'},{n:'AP',u:'https://ap.wyattau.com'},{n:'Highers',u:'https://highers.wyattau.com'},{n:'Leaving Cert',u:'https://leaving-cert.wyattau.com'},{n:'CBSE',u:'https://cbse.wyattau.com'},{n:'Gaokao',u:'https://gaokao.wyattau.com'},{n:'HSC',u:'https://hsc.wyattau.com'},{n:'SAT',u:'https://sat.wyattau.com'}],'Computer Science':[{n:'C++',u:'https://cpp.wyattau.com'},{n:'Java',u:'https://java.wyattau.com'},{n:'Python',u:'https://python.wyattau.com'},{n:'Rust',u:'https://rust.wyattau.com'},{n:'Go',u:'https://go.wyattau.com'},{n:'Kotlin',u:'https://kotlin.wyattau.com'},{n:'TypeScript',u:'https://typescript.wyattau.com'},{n:'Dart',u:'https://dart.wyattau.com'},{n:'Swift',u:'https://swift.wyattau.com'},{n:'Ruby',u:'https://ruby.wyattau.com'},{n:'Haskell',u:'https://haskell.wyattau.com'},{n:'Elixir',u:'https://elixir.wyattau.com'},{n:'Languages',u:'https://languages.wyattau.com'},{n:'Tools',u:'https://tools.wyattau.com'}],'Further Studies':[{n:'Mathematics',u:'https://mathematics.wyattau.com'},{n:'Physics',u:'https://physics.wyattau.com'},{n:'Chemistry',u:'https://chemistry.wyattau.com'},{n:'CS Theory',u:'https://computer-science.wyattau.com'},{n:'Admissions',u:'https://admissions.wyattau.com'}],'Infrastructure':[{n:'Networking',u:'https://networking.wyattau.com'},{n:'Linux',u:'https://linux.wyattau.com'},{n:'Security',u:'https://security.wyattau.com'},{n:'Databases',u:'https://databases.wyattau.com'},{n:'TrueNAS',u:'https://truenas.wyattau.com'},{n:'Tuning',u:'https://tuning.wyattau.com'},{n:'Licensing',u:'https://licensing.wyattau.com'},{n:'ML',u:'https://machine-learning.wyattau.com'}]}
+    var cats=Object.keys(SITES)
+    var el=document.createElement('div')
+    el.id='site-nav-overlay'
+    el.setAttribute('aria-hidden','true')
+    el.innerHTML='<div class="site-nav-backdrop"></div><div class="site-nav-panel" role="dialog" aria-label="Site navigator"><div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div><div class="site-nav-body">'+cats.map(function(c){return '<div class="site-nav-category"><div class="site-nav-cat-header"><span>'+c+'</span></div><div class="site-nav-grid">'+SITES[c].map(function(s){return '<a href="'+s.u+'" class="site-nav-card" target="_blank" rel="noopener"><strong>'+s.n+'</strong></a>'}).join('')+'</div></div>'}).join('')+'</div></div>'
+    document.body.appendChild(el)
+    el.querySelector('.site-nav-close').addEventListener('click',function(){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')})
+    el.querySelector('.site-nav-backdrop').addEventListener('click',function(){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')})
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.getAttribute('aria-hidden')==='false'){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')}})
+    return el
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',injectSitesButton)}else{injectSitesButton()}
+})()
+</script>
 
 <!-- Cross-site search (injected into nav header) -->
 <script src="/cross-site-search.js" defer></script>
