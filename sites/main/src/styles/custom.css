@@ -285,10 +285,10 @@ nav {
 
 /* === Hero === */
 .hero {
-  position: relative;
-  padding: 6rem 0 3rem;
-  text-align: center;
-  overflow: hidden;
+   position: relative;
+   padding: 6rem 0 3rem;
+   text-align: center;
+   overflow: visible;
 }
 .hero::before {
   content: "";
