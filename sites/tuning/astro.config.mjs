@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Tuning',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'System performance tuning and optimization notes.',
 
       components: {
@@ -33,7 +33,15 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Tuning', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Cpu Tuning', items: [{ autogenerate: { directory: '01-cpu-tuning' } }] },
+        { label: 'Memory Tuning', items: [{ autogenerate: { directory: '02-memory-tuning' } }] },
+        { label: 'Gpu Tuning', items: [{ autogenerate: { directory: '03-gpu-tuning' } }] },
+        { label: 'Storage Tuning', items: [{ autogenerate: { directory: '04-storage-tuning' } }] },
+        {
+          label: 'Cooling Systems',
+          items: [{ autogenerate: { directory: '05-cooling-systems' } }],
+        },
+        { label: 'Stress Testing', items: [{ autogenerate: { directory: '06-stress-testing' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

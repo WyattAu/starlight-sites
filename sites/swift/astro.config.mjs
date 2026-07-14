@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Swift',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Swift programming language notes.',
 
       components: {
@@ -36,7 +36,14 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Swift', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }] },
+        {
+          label: 'Functions Closures',
+          items: [{ autogenerate: { directory: '02-functions-closures' } }],
+        },
+        { label: 'Oop', items: [{ autogenerate: { directory: '03-oop' } }] },
+        { label: 'Advanced', items: [{ autogenerate: { directory: '04-advanced' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

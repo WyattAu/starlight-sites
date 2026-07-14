@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'Mathematics',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,40 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Mathematics', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'Abstract Algebra',
+          items: [{ autogenerate: { directory: '1-abstract-algebra' } }],
+        },
+        { label: 'Measure Theory', items: [{ autogenerate: { directory: '10-measure-theory' } }] },
+        {
+          label: 'Functional Analysis',
+          items: [{ autogenerate: { directory: '11-functional-analysis' } }],
+        },
+        {
+          label: 'Differential Geometry',
+          items: [{ autogenerate: { directory: '12-differential-geometry' } }],
+        },
+        { label: 'Linear Algebra', items: [{ autogenerate: { directory: '2-linear-algebra' } }] },
+        { label: 'Real Analysis', items: [{ autogenerate: { directory: '3-real-analysis' } }] },
+        {
+          label: 'Multivariable Calculus',
+          items: [{ autogenerate: { directory: '4-multivariable-calculus' } }],
+        },
+        {
+          label: 'Ordinary Differential Equations',
+          items: [{ autogenerate: { directory: '5-ordinary-differential-equations' } }],
+        },
+        {
+          label: 'Complex Analysis',
+          items: [{ autogenerate: { directory: '6-complex-analysis' } }],
+        },
+        { label: 'Number Theory', items: [{ autogenerate: { directory: '7-number-theory' } }] },
+        {
+          label: 'Probability And Statistics',
+          items: [{ autogenerate: { directory: '8-probability-and-statistics' } }],
+        },
+        { label: 'Topology', items: [{ autogenerate: { directory: '9-topology' } }] },
+        { label: 'Demos', items: [{ autogenerate: { directory: 'demos' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +118,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Mathematics',
-            description: 'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
+            description:
+              'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
             url: 'https://mathematics.wyattau.com',
             publisher: {
               '@type': 'Organization',

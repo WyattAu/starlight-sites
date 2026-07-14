@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Python',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Python programming language notes.',
 
       components: {
@@ -36,7 +36,25 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Python', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Fundamentals', items: [{ autogenerate: { directory: '02-fundamentals' } }] },
+        {
+          label: 'Data Structures',
+          items: [{ autogenerate: { directory: '03-data-structures' } }],
+        },
+        {
+          label: 'Object Oriented',
+          items: [{ autogenerate: { directory: '04-object-oriented' } }],
+        },
+        {
+          label: 'Standard Library',
+          items: [{ autogenerate: { directory: '05-standard-library' } }],
+        },
+        { label: 'Async', items: [{ autogenerate: { directory: '06-async' } }] },
+        { label: 'Best Practices', items: [{ autogenerate: { directory: '07-best-practices' } }] },
+        {
+          label: 'Advanced Topics',
+          items: [{ autogenerate: { directory: '08-advanced-topics' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

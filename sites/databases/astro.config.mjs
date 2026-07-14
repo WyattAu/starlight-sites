@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Databases',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Database administration and SQL reference notes.',
 
       components: {
@@ -33,7 +33,24 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Databases', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'Relational Theory',
+          items: [{ autogenerate: { directory: '01-relational-theory' } }],
+        },
+        {
+          label: 'Sql Fundamentals',
+          items: [{ autogenerate: { directory: '02-sql-fundamentals' } }],
+        },
+        {
+          label: 'Indexing Optimization',
+          items: [{ autogenerate: { directory: '03-indexing-optimization' } }],
+        },
+        { label: 'Transactions', items: [{ autogenerate: { directory: '04-transactions' } }] },
+        { label: 'Nosql', items: [{ autogenerate: { directory: '05-nosql' } }] },
+        {
+          label: 'Database Design',
+          items: [{ autogenerate: { directory: '06-database-design' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

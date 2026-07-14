@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'Leaving Cert',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,11 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Leaving Cert', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
+        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
+        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +89,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Leaving Cert',
-            description: 'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
+            description:
+              'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
             url: 'https://leaving-cert.wyattau.com',
             publisher: {
               '@type': 'Organization',

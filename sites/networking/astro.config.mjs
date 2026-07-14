@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'Networking',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Networking reference notes covering protocols, configuration, and administration.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Networking reference notes covering protocols, configuration, and administration.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,19 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Networking', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Osi Model', items: [{ autogenerate: { directory: '01-osi-model' } }] },
+        { label: 'Ip Addressing', items: [{ autogenerate: { directory: '02-ip-addressing' } }] },
+        { label: 'Tcp Udp', items: [{ autogenerate: { directory: '03-tcp-udp' } }] },
+        { label: 'Dns', items: [{ autogenerate: { directory: '04-dns' } }] },
+        { label: 'Http Https', items: [{ autogenerate: { directory: '05-http-https' } }] },
+        { label: 'Tls', items: [{ autogenerate: { directory: '06-tls' } }] },
+        { label: 'Network Tools', items: [{ autogenerate: { directory: '07-network-tools' } }] },
+        { label: 'Layer2', items: [{ autogenerate: { directory: '08-layer2' } }] },
+        { label: 'Wireless', items: [{ autogenerate: { directory: '09-wireless' } }] },
+        {
+          label: 'Email And App Protocols',
+          items: [{ autogenerate: { directory: '10-email-and-app-protocols' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +97,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Networking',
-            description: 'Networking reference notes covering protocols, configuration, and administration.',
+            description:
+              'Networking reference notes covering protocols, configuration, and administration.',
             url: 'https://networking.wyattau.com',
             publisher: {
               '@type': 'Organization',

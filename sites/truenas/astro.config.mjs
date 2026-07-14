@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'TrueNAS',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'TrueNAS storage server configuration and administration notes.',
 
       components: {
@@ -33,7 +33,28 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'TrueNAS', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Zfs', items: [{ autogenerate: { directory: '01-zfs' } }] },
+        {
+          label: 'Sharing And Permissions',
+          items: [{ autogenerate: { directory: '02-sharing-and-permissions' } }],
+        },
+        {
+          label: 'Backup And Replication',
+          items: [{ autogenerate: { directory: '03-backup-and-replication' } }],
+        },
+        {
+          label: 'Apps And Services',
+          items: [{ autogenerate: { directory: '04-apps-and-services' } }],
+        },
+        {
+          label: 'Monitoring And Alerting',
+          items: [{ autogenerate: { directory: '05-monitoring-and-alerting' } }],
+        },
+        {
+          label: 'Performance Tuning',
+          items: [{ autogenerate: { directory: '06-performance-tuning' } }],
+        },
+        { label: 'Setup', items: [{ autogenerate: { directory: 'setup' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

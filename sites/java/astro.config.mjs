@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Java',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Java programming language notes.',
 
       components: {
@@ -36,7 +36,25 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Java', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Fundamentals', items: [{ autogenerate: { directory: '02-fundamentals' } }] },
+        {
+          label: 'Object Oriented',
+          items: [{ autogenerate: { directory: '03-object-oriented' } }],
+        },
+        { label: 'Collections', items: [{ autogenerate: { directory: '04-collections' } }] },
+        { label: 'Streams', items: [{ autogenerate: { directory: '05-streams' } }] },
+        { label: 'Concurrency', items: [{ autogenerate: { directory: '06-concurrency' } }] },
+        { label: 'Best Practices', items: [{ autogenerate: { directory: '07-best-practices' } }] },
+        { label: 'Modern Java', items: [{ autogenerate: { directory: '08-modern-java' } }] },
+        { label: 'Jvm Internals', items: [{ autogenerate: { directory: '09-jvm-internals' } }] },
+        { label: 'Io Nio', items: [{ autogenerate: { directory: '10-io-nio' } }] },
+        {
+          label: 'Generics Reflection',
+          items: [{ autogenerate: { directory: '11-generics-reflection' } }],
+        },
+        { label: 'Exceptions', items: [{ autogenerate: { directory: '12-exceptions' } }] },
+        { label: 'Build Tools', items: [{ autogenerate: { directory: '13-build-tools' } }] },
+        { label: 'Testing', items: [{ autogenerate: { directory: '14-testing' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

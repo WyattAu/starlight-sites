@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Ruby',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Ruby programming language notes.',
 
       components: {
@@ -36,7 +36,12 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Ruby', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }] },
+        { label: 'Control Flow', items: [{ autogenerate: { directory: '02-control-flow' } }] },
+        { label: 'Methods Blocks', items: [{ autogenerate: { directory: '03-methods-blocks' } }] },
+        { label: 'Oop', items: [{ autogenerate: { directory: '04-oop' } }] },
+        { label: 'Advanced', items: [{ autogenerate: { directory: '05-advanced' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

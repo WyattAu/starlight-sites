@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'Chemistry',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Undergraduate chemistry notes covering physical, organic, and inorganic chemistry.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Undergraduate chemistry notes covering physical, organic, and inorganic chemistry.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,18 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Chemistry', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'Physical Chemistry',
+          items: [{ autogenerate: { directory: '1-physical-chemistry' } }],
+        },
+        {
+          label: 'Organic Chemistry',
+          items: [{ autogenerate: { directory: '2-organic-chemistry' } }],
+        },
+        {
+          label: 'Inorganic Chemistry',
+          items: [{ autogenerate: { directory: '3-inorganic-chemistry' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +96,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Chemistry',
-            description: 'Undergraduate chemistry notes covering physical, organic, and inorganic chemistry.',
+            description:
+              'Undergraduate chemistry notes covering physical, organic, and inorganic chemistry.',
             url: 'https://chemistry.wyattau.com',
             publisher: {
               '@type': 'Organization',

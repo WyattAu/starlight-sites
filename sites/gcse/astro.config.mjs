@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'GCSE',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,12 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'GCSE', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
+        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
+        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
+        { label: 'English', items: [{ autogenerate: { directory: 'english' } }] },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +90,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'GCSE',
-            description: 'GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.',
+            description:
+              'GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.',
             url: 'https://gcse.wyattau.com',
             publisher: {
               '@type': 'Organization',

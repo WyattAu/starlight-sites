@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Kotlin',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Kotlin programming language notes.',
 
       components: {
@@ -36,7 +36,9 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Kotlin', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Advanced', items: [{ autogenerate: { directory: 'advanced' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }] },
+        { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

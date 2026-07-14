@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Dart',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Dart programming language notes.',
 
       components: {
@@ -36,7 +36,28 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Dart', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Setup', items: [{ autogenerate: { directory: '02-setup' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: '03-basics' } }] },
+        {
+          label: 'Object Oriented',
+          items: [{ autogenerate: { directory: '04-object-oriented' } }],
+        },
+        { label: 'Async', items: [{ autogenerate: { directory: '05-async' } }] },
+        { label: 'Collections', items: [{ autogenerate: { directory: '06-collections' } }] },
+        { label: 'Dart3 Features', items: [{ autogenerate: { directory: '07-dart3-features' } }] },
+        {
+          label: 'Flutter Fundamentals',
+          items: [{ autogenerate: { directory: '09-flutter-fundamentals' } }],
+        },
+        {
+          label: 'State Management',
+          items: [{ autogenerate: { directory: '10-state-management' } }],
+        },
+        {
+          label: 'Networking And Data',
+          items: [{ autogenerate: { directory: '11-networking-and-data' } }],
+        },
+        { label: 'Testing', items: [{ autogenerate: { directory: '14-testing' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

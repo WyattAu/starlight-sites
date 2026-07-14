@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Haskell',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Haskell programming language notes.',
 
       components: {
@@ -36,7 +36,15 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Haskell', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }] },
+        {
+          label: 'Pattern Matching',
+          items: [{ autogenerate: { directory: '02-pattern-matching' } }],
+        },
+        { label: 'Type Classes', items: [{ autogenerate: { directory: '03-type-classes' } }] },
+        { label: 'Monads', items: [{ autogenerate: { directory: '04-monads' } }] },
+        { label: 'Advanced', items: [{ autogenerate: { directory: '05-advanced' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

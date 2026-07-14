@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Go',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Go programming language notes.',
 
       components: {
@@ -36,7 +36,11 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Go', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Advanced', items: [{ autogenerate: { directory: 'advanced' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }] },
+        { label: 'Concurrency', items: [{ autogenerate: { directory: 'concurrency' } }] },
+        { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
+        { label: 'Standard Library', items: [{ autogenerate: { directory: 'standard-library' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

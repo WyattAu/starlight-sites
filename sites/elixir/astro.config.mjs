@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Elixir',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Elixir programming language notes.',
 
       components: {
@@ -36,7 +36,14 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Elixir', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }] },
+        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }] },
+        {
+          label: 'Functions Modules',
+          items: [{ autogenerate: { directory: '02-functions-modules' } }],
+        },
+        { label: 'Concurrency', items: [{ autogenerate: { directory: '03-concurrency' } }] },
+        { label: 'Advanced', items: [{ autogenerate: { directory: '04-advanced' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),

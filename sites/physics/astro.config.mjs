@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'Physics',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,31 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Physics', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'Classical Mechanics',
+          items: [{ autogenerate: { directory: '1-classical-mechanics' } }],
+        },
+        { label: 'Thermal Physics', items: [{ autogenerate: { directory: '2-thermal-physics' } }] },
+        {
+          label: 'Electromagnetism',
+          items: [{ autogenerate: { directory: '3-electromagnetism' } }],
+        },
+        {
+          label: 'Optics And Waves',
+          items: [{ autogenerate: { directory: '4-optics-and-waves' } }],
+        },
+        {
+          label: 'Quantum Mechanics',
+          items: [{ autogenerate: { directory: '5-quantum-mechanics' } }],
+        },
+        {
+          label: 'Solid State Physics',
+          items: [{ autogenerate: { directory: '6-solid-state-physics' } }],
+        },
+        {
+          label: 'Particle Physics And Cosmology',
+          items: [{ autogenerate: { directory: '7-particle-physics-and-cosmology' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +109,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Physics',
-            description: 'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
+            description:
+              'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
             url: 'https://physics.wyattau.com',
             publisher: {
               '@type': 'Organization',

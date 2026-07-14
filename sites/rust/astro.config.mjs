@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Rust',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Rust programming language notes.',
 
       components: {
@@ -36,7 +36,22 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Rust', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Fundamentals', items: [{ autogenerate: { directory: '01-fundamentals' } }] },
+        {
+          label: 'Ownership Borrowing',
+          items: [{ autogenerate: { directory: '02-ownership-borrowing' } }],
+        },
+        { label: 'Structs Enums', items: [{ autogenerate: { directory: '03-structs-enums' } }] },
+        { label: 'Error Handling', items: [{ autogenerate: { directory: '04-error-handling' } }] },
+        {
+          label: 'Traits Generics',
+          items: [{ autogenerate: { directory: '05-traits-generics' } }],
+        },
+        { label: 'Concurrency', items: [{ autogenerate: { directory: '06-concurrency' } }] },
+        {
+          label: 'Cargo Ecosystem',
+          items: [{ autogenerate: { directory: '07-cargo-ecosystem' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Computer Science',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Undergraduate computer science theory and algorithms notes.',
 
       components: {
@@ -33,7 +33,30 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Computer Science', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Algorithms', items: [{ autogenerate: { directory: '1-algorithms' } }] },
+        {
+          label: 'Discrete Mathematics',
+          items: [{ autogenerate: { directory: '1-discrete-mathematics' } }],
+        },
+        {
+          label: 'Algorithms And Data Structures',
+          items: [{ autogenerate: { directory: '2-algorithms-and-data-structures' } }],
+        },
+        { label: 'Systems', items: [{ autogenerate: { directory: '2-systems' } }] },
+        {
+          label: 'Computer Networks',
+          items: [{ autogenerate: { directory: '3-computer-networks' } }],
+        },
+        { label: 'Theory', items: [{ autogenerate: { directory: '3-theory' } }] },
+        { label: 'Databases', items: [{ autogenerate: { directory: '4-databases' } }] },
+        {
+          label: 'Operating Systems',
+          items: [{ autogenerate: { directory: '5-operating-systems' } }],
+        },
+        {
+          label: 'Theory Of Computation',
+          items: [{ autogenerate: { directory: '6-theory-of-computation' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

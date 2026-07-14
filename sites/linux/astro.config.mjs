@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Linux',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Linux system administration reference notes.',
 
       components: {
@@ -33,7 +33,22 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Linux', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'Cli Fundamentals',
+          items: [{ autogenerate: { directory: '01-cli-fundamentals' } }],
+        },
+        { label: 'File Systems', items: [{ autogenerate: { directory: '02-file-systems' } }] },
+        {
+          label: 'Process Management',
+          items: [{ autogenerate: { directory: '03-process-management' } }],
+        },
+        { label: 'Networking', items: [{ autogenerate: { directory: '04-networking' } }] },
+        { label: 'Systemd', items: [{ autogenerate: { directory: '05-systemd' } }] },
+        { label: 'Security', items: [{ autogenerate: { directory: '06-security' } }] },
+        {
+          label: 'Package Management',
+          items: [{ autogenerate: { directory: '07-package-management' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),

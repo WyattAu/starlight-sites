@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'AP',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,14 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'AP', items: [{ autogenerate: { directory: '.' } }] },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
+        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
+        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
+        { label: 'English', items: [{ autogenerate: { directory: 'english' } }] },
+        { label: 'History', items: [{ autogenerate: { directory: 'history' } }] },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
+        { label: 'Statistics', items: [{ autogenerate: { directory: 'statistics' } }] },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +92,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'AP',
-            description: 'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
+            description:
+              'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
             url: 'https://ap.wyattau.com',
             publisher: {
               '@type': 'Organization',

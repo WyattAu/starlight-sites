@@ -18,8 +18,9 @@ export default defineConfig({
     starlight({
       title: 'Security',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
-      description: 'Security reference notes covering hardening, monitoring, and incident response.',
+      expressiveCode: { themes: ['dracula', 'github-light'] },
+      description:
+        'Security reference notes covering hardening, monitoring, and incident response.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -33,7 +34,27 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       sidebar: [
-        { label: 'Security', items: [{ autogenerate: { directory: '.' } }] },
+        {
+          label: 'Security Fundamentals',
+          items: [{ autogenerate: { directory: '01-security-fundamentals' } }],
+        },
+        { label: 'Cryptography', items: [{ autogenerate: { directory: '02-cryptography' } }] },
+        { label: 'Authentication', items: [{ autogenerate: { directory: '03-authentication' } }] },
+        { label: 'Web Security', items: [{ autogenerate: { directory: '04-web-security' } }] },
+        {
+          label: 'Network Security',
+          items: [{ autogenerate: { directory: '05-network-security' } }],
+        },
+        {
+          label: 'Incident Response',
+          items: [{ autogenerate: { directory: '06-incident-response' } }],
+        },
+        { label: 'Cloud Security', items: [{ autogenerate: { directory: '07-cloud-security' } }] },
+        { label: 'Os Security', items: [{ autogenerate: { directory: '08-os-security' } }] },
+        {
+          label: 'Malware Analysis',
+          items: [{ autogenerate: { directory: '09-malware-analysis' } }],
+        },
       ],
       head: [
         ...cloudflareAnalytics(),
@@ -84,7 +105,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Security',
-            description: 'Security reference notes covering hardening, monitoring, and incident response.',
+            description:
+              'Security reference notes covering hardening, monitoring, and incident response.',
             url: 'https://security.wyattau.com',
             publisher: {
               '@type': 'Organization',
