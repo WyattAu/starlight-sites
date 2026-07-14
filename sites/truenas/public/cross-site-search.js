@@ -1,7 +1,7 @@
 // Cross-site search component for Wyatt's Notes
 // Injected into all Starlight site headers
 
-const SEARCH_API = 'https://search.wyattau.com/api'
+var SEARCH_API = SEARCH_API || 'https://search.wyattau.com/api'
 
 function initCrossSiteSearch() {
   // Wait for DOM
