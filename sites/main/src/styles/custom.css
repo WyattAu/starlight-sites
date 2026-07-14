@@ -786,20 +786,7 @@ html {
 }
 
 /* === Section Dividers === */
-section + section::before {
-  content: "";
-  display: block;
-  width: 4rem;
-  height: 2px;
-  background: linear-gradient(
-    90deg,
-    var(--sl-color-accent, #ff6b35) 0%,
-    color-mix(in srgb, var(--sl-color-accent, #ff6b35) 30%, transparent) 100%
-  );
-  border-radius: 1px;
-  margin-bottom: 4rem;
-  opacity: 0.5;
-}
+/* Removed — caused blank space before demos grid */
 
 /* === Card subtle entrance (respecting reduced motion) === */
 @keyframes cardFadeIn {
