@@ -1634,6 +1634,11 @@ body.wn-nav-hidden nav:not(#wn-reader *) {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* === Fix search dropdown overflow === */
+#custom-search { overflow: visible !important; }
+#custom-search + .search-results { overflow: visible !important; }
+.header .print\:hidden { overflow: visible !important; }
+
 /* === Site Navigator === */
 .site-nav-btn {
   display: inline-flex;
