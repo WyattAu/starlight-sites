@@ -6,7 +6,6 @@ const { entry, head } = starlightRoute;
 
 const pageTitle = entry?.data?.title || "Untitled";
 const siteTitle = starlightRoute?.siteTitle || "Wyatt's Notes";
-const fullTitle = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle;
 
 const description = entry?.data?.description || 'Free, rigorous study notes';
 const site = 'https://wyattsnotes.wyattau.com';
@@ -74,12 +73,8 @@ const articleSchema = {
     } catch(e) {}
   })();
 </script>
-<title>{fullTitle}</title>
-
-<!-- Starlight head items (KaTeX CSS, analytics, font preloads, etc.) -->
+<!-- Starlight head items (title, KaTeX CSS, analytics, font preloads, etc.) -->
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
-
-<link rel="manifest" href="/manifest.json">
 
 <script is:inline>
 (function() {
