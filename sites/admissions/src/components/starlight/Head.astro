@@ -2,7 +2,7 @@
 import ClientRouter from "astro/components/ClientRouter.astro"
 
 const { starlightRoute } = Astro.locals;
-const { entry } = starlightRoute;
+const { entry, head } = starlightRoute;
 
 const pageTitle = entry?.data?.title || "Untitled";
 const siteTitle = starlightRoute?.siteTitle || "Wyatt's Notes";
@@ -75,6 +75,9 @@ const articleSchema = {
   })();
 </script>
 <title>{fullTitle}</title>
+
+<!-- Starlight head items (KaTeX CSS, analytics, font preloads, etc.) -->
+{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
 
 <link rel="manifest" href="/manifest.json">
 
