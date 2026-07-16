@@ -1,7 +1,6 @@
 // Page-level search component for Wyatt's Notes
 // Adds a floating search button + modal search experience
-
-const SEARCH_API = 'https://search.wyattau.com/api'
+// SEARCH_API is defined by cross-site-search.js which loads first
 
 function initPageSearch() {
   if (document.readyState === 'loading') {
