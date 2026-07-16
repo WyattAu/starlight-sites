@@ -4,38 +4,84 @@
 [![Deploy](https://github.com/WyattAu/starlight-sites/actions/workflows/deploy.yml/badge.svg)](https://github.com/WyattAu/starlight-sites/actions/workflows/deploy.yml)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Monorepo of nine static documentation sites, a landing page, and a cross-site
+Monorepo of 40+ static documentation sites, a landing page, and a cross-site
 search API. Each site is built with [Astro](https://astro.build) +
 [Starlight](https://starlight.astro.build), uses SolidJS for interactive
 components, and is deployed to Cloudflare Pages.
 
 ## Sites
 
-| Site | Domain | Scope |
-|------|--------|-------|
-| DSE | [dse.wyattau.com](https://dse.wyattau.com) | Hong Kong Diploma of Secondary Education |
-| IB | [ib.wyattau.com](https://ib.wyattau.com) | International Baccalaureate Diploma Programme |
-| A-Level | [alevel.wyattau.com](https://alevel.wyattau.com) | UK A-Level revision notes |
-| University | [university.wyattau.com](https://university.wyattau.com) | Proof-based undergraduate STEM |
-| Qualifications | [qualifications.wyattau.com](https://qualifications.wyattau.com) | GCSE, AP, Scottish Highers, Irish LC |
-| Programming | [programming.wyattau.com](https://programming.wyattau.com) | C++ systems programming |
-| Infrastructure | [infrastructure.wyattau.com](https://infrastructure.wyattau.com) | Server administration, databases |
-| Languages | [languages.wyattau.com](https://languages.wyattau.com) | Comparative programming languages |
-| Tools | [tools.wyattau.com](https://tools.wyattau.com) | Algorithms, data structures |
-| Landing | [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) | Hub page |
-| Search | [search.wyattau.com](https://search.wyattau.com) | Cross-site search API |
+### Exam Boards
+| Site | Domain |
+|------|--------|
+| DSE | [dse.wyattau.com](https://dse.wyattau.com) |
+| IB | [ib.wyattau.com](https://ib.wyattau.com) |
+| A-Level | [alevel.wyattau.com](https://alevel.wyattau.com) |
+| GCSE | [gcse.wyattau.com](https://gcse.wyattau.com) |
+| AP | [ap.wyattau.com](https://ap.wyattau.com) |
+| Highers | [highers.wyattau.com](https://highers.wyattau.com) |
+| Leaving Cert | [leaving-cert.wyattau.com](https://leaving-cert.wyattau.com) |
+| CBSE | [cbse.wyattau.com](https://cbse.wyattau.com) |
+| Gaokao | [gaokao.wyattau.com](https://gaokao.wyattau.com) |
+| HSC | [hsc.wyattau.com](https://hsc.wyattau.com) |
+| SAT | [sat.wyattau.com](https://sat.wyattau.com) |
+
+### Computer Science
+| Site | Domain |
+|------|--------|
+| C++ | [cpp.wyattau.com](https://cpp.wyattau.com) |
+| Java | [java.wyattau.com](https://java.wyattau.com) |
+| Python | [python.wyattau.com](https://python.wyattau.com) |
+| Rust | [rust.wyattau.com](https://rust.wyattau.com) |
+| Go | [go.wyattau.com](https://go.wyattau.com) |
+| Kotlin | [kotlin.wyattau.com](https://kotlin.wyattau.com) |
+| TypeScript | [typescript.wyattau.com](https://typescript.wyattau.com) |
+| Dart | [dart.wyattau.com](https://dart.wyattau.com) |
+| Swift | [swift.wyattau.com](https://swift.wyattau.com) |
+| Ruby | [ruby.wyattau.com](https://ruby.wyattau.com) |
+| Haskell | [haskell.wyattau.com](https://haskell.wyattau.com) |
+| Elixir | [elixir.wyattau.com](https://elixir.wyattau.com) |
+| Language Hub | [languages.wyattau.com](https://languages.wyattau.com) |
+| Tools | [tools.wyattau.com](https://tools.wyattau.com) |
+
+### Further Studies
+| Site | Domain |
+|------|--------|
+| Mathematics | [mathematics.wyattau.com](https://mathematics.wyattau.com) |
+| Physics | [physics.wyattau.com](https://physics.wyattau.com) |
+| Chemistry | [chemistry.wyattau.com](https://chemistry.wyattau.com) |
+| CS Theory | [computer-science.wyattau.com](https://computer-science.wyattau.com) |
+| Admissions | [admissions.wyattau.com](https://admissions.wyattau.com) |
+
+### Infrastructure
+| Site | Domain |
+|------|--------|
+| Networking | [networking.wyattau.com](https://networking.wyattau.com) |
+| Linux | [linux.wyattau.com](https://linux.wyattau.com) |
+| Security | [security.wyattau.com](https://security.wyattau.com) |
+| Databases | [databases.wyattau.com](https://databases.wyattau.com) |
+| TrueNAS | [truenas.wyattau.com](https://truenas.wyattau.com) |
+| Tuning | [tuning.wyattau.com](https://tuning.wyattau.com) |
+| Licensing | [licensing.wyattau.com](https://licensing.wyattau.com) |
+| ML | [machine-learning.wyattau.com](https://machine-learning.wyattau.com) |
+
+### Hub
+| Site | Domain |
+|------|--------|
+| Landing | [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) |
+| Search | [search.wyattau.com](https://search.wyattau.com) |
 
 ## Architecture
 
 ```
 starlight-sites/
-  sites/          9 Starlight sub-sites + landing page (main/)
+  sites/          40+ Starlight sub-sites + landing page (main/)
   shared/         Canonical source for components, utils, styles, integrations
   search-api/     Cloudflare Worker (search) + canonical client search scripts
-  scripts/        Linters, sync tool, site generator
+  packages/       Rust WASM widgets (starlight-widgets)
+  scripts/        Linters, sync tool, site generators
   tests/          unit, integration, component (Vitest), e2e (Playwright)
   .github/        ci.yml, deploy.yml, preview.yml, uptime.yml
-  .adrs/          Architecture Decision Records
 ```
 
 ### Single-source-of-truth model
@@ -47,38 +93,22 @@ detects drift (`bun run sync:check`). The same model applies to the client
 search scripts canonicalised under `search-api/`. An integration test
 (`tests/unit/shared-sync.test.js`) enforces byte-for-byte parity in CI.
 
-### Component inventory
+### Rendering pipeline
 
-| Component | Type | Purpose |
-|-----------|------|---------|
-| BaseDialog.tsx | SolidJS | Reusable dialog shell (size parameter) |
-| QuestionDialog.tsx | SolidJS | Large dialog (wraps BaseDialog); also used for results |
-| SettingsDialog.tsx | SolidJS | Medium dialog (wraps BaseDialog) |
-| PageTitle.astro | Starlight override | Breadcrumbs and h1 derived from slug |
-| MarkdownContent.astro | Starlight override | Content wrapper and progress tracking |
-| Head.astro | Starlight override | JSON-LD structured data injection |
-| PracticeProblem.tsx | SolidJS | Adaptive multiple-choice practice with keyboard nav |
-| FlashcardDeck.tsx | SolidJS | SM-2 spaced-repetition flashcards |
-| DiagnosticTest.tsx | SolidJS | Adaptive diagnostic assessment |
-| DesmosGraph.tsx | SolidJS | Desmos graphing-calculator embed |
-| PhetSimulation.tsx | SolidJS | PhET interactive simulation embed |
-| LocaleSwitcher.tsx | SolidJS | Language switching dropdown |
-| ToastProvider.tsx | SolidJS | Toast notification wrapper (solid-sonner) |
+**KaTeX math:** `rehype-katex` + `remark-math` in `astro.config.mjs` convert
+`$inline$` and `$$display$$` to HTML. KaTeX CSS is loaded via Starlight's
+`head` config array, rendered by the custom `Head.astro` component.
 
-### Shared utilities
+**Mermaid diagrams:** Starlight's Expressive Code intercepts ` ```mermaid `
+code blocks and wraps them in `<pre data-language="mermaid">`. The
+`mermaid-render.js` script converts these back to plain `<pre class="mermaid">`
+elements, loads mermaid.min.js from CDN, and renders SVG diagrams.
 
-| Module | Purpose |
-|--------|---------|
-| utils/colors.ts | Shared color constants (success, warning, error, info, difficulty, mastery) |
-| utils/sanitize.ts | HTML sanitization via DOMPurify |
-| utils/jsonld.ts | JSON-LD structured data generation (Course, Article, Breadcrumb, WebSite, FAQ) |
-| utils/animate.ts | SolidJS auto-animate directive |
-| utils/escape.ts | HTML entity escaping for safe text rendering |
-| utils/format.ts | Display formatting utilities (time formatting) |
-| flashcard/sm2.ts | SM-2 spaced repetition algorithm with runtime invariant assertions |
-| flashcard/storage.ts | localStorage persistence for flashcard progress |
-| flashcard/constants.ts | Flashcard UI constants (mastery labels, colors, rating config) |
-| i18n/config.ts | Internationalisation configuration with translator caching |
+**Admonitions:** Starlight's `remark-asides` plugin doesn't work with
+Astro 6's Content Layer. All `:::caution`, `:::tip`, `:::note`, `:::info`,
+and `:::danger` directives have been converted to:
+- `.md` files: raw `<aside>` HTML matching Starlight's structure
+- `.mdx` files: Starlight `<Aside>` component
 
 ## Prerequisites
 
@@ -92,7 +122,7 @@ search scripts canonicalised under `search-api/`. An integration test
 bun install
 
 # Develop a specific site
-cd sites/dse && bun run dev
+cd sites/ib && bun run dev
 
 # Run the full quality gate (linters + tests)
 bun run verify
@@ -113,20 +143,9 @@ Never edit per-site copies directly; they are regenerated.
 ## Testing
 
 ```bash
-bun run test:components   # Vitest component tests (SolidJS components)
-bun run test:legacy       # Node built-in unit + integration tests
-bun run test:integration  # integration tests (repo structure, CI/CD config)
-bun run test:gui dse      # GUI DOM + accessibility snapshot for one site
-bun run test:gui --all    # all sites (optional PNG screenshots if Playwright present)
-bun run test:e2e          # Playwright end-to-end tests
-bun run test              # component + legacy tests (439 tests)
-bun run test:coverage     # Vitest with V8 coverage report
+bun run test           # unit + integration tests (465+ tests)
+bun run test:components # Vitest component tests (SolidJS components)
 ```
-
-The GUI traversal script captures DOM structural snapshots, runs a WCAG-oriented
-accessibility audit, detects drift against committed baselines
-(`tests/e2e/baseline/`), and captures PNG screenshots when a Playwright chromium
-installation is available (graceful DOM-only fallback otherwise).
 
 ## Linting
 
@@ -137,36 +156,18 @@ bun run lint:content      # Markdown/MDX content validation
 bun run lint:config       # Astro config validation
 bun run lint:no-emoji     # Pictograph prohibition (code, docs, config)
 bun run lint:links        # Internal link integrity
-bun run lint:all          # Everything (biome + content + config + no-emoji + links)
-bun run format            # Biome format (write)
-bun run format:check      # Biome format (check only)
+bun run lint:all          # Everything
 ```
-
-### No-emoji policy
-
-Emoji and pictograph symbols are prohibited in code, configuration, and
-repository documentation. Content pages (`.md`/`.mdx` under `sites/*/src/content`)
-are exempt where Unicode code examples and typographic answer markers are
-pedagogically required. The linter flags the dedicated pictograph planes
-(U+2600-U+27BF, U+1F000-U+1FAFF); mathematical arrows and geometric shapes are
-out of scope as legitimate notation.
 
 ## CI/CD
 
-Four GitHub Actions workflows:
-
-- **ci.yml** -- On PR to main: Biome lint, no-emoji lint, content/config
-  validation, shared-asset integrity, unit + integration + Vitest tests, and a
-  build matrix across all nine sites.
-- **deploy.yml** -- On push to main: full quality gate (lint + tests) followed
-  by deployment of all sites, the landing page, and search index to Cloudflare Pages.
-- **preview.yml** -- On PR to main: builds and deploys preview versions of all
-  sites to Cloudflare Pages, posts preview URL as PR comment.
-- **uptime.yml** -- Scheduled every six hours: probes every site and opens an
-  issue on non-200 responses.
+- **ci.yml** -- On PR: Biome lint, content validation, shared-asset integrity, tests, build matrix.
+- **deploy.yml** -- On push to main: quality gate + deploy all sites to Cloudflare Pages.
+- **preview.yml** -- On PR: builds preview versions, posts URL as PR comment.
+- **uptime.yml** -- Every 6 hours: probes all sites, opens issues on failures.
 
 Pre-commit (Husky v9 + lint-staged) enforces per-file checks, shared-asset
-integrity, and unit + integration tests before each commit.
+integrity, and tests before each commit.
 
 ### Required secrets
 
@@ -182,12 +183,12 @@ Cross-site search at search.wyattau.com:
 
 | Endpoint | Method | Parameters | Description |
 |----------|--------|------------|-------------|
-| `/api/search` | GET | `q`, `limit`, `site`, `subject`, `preview` | Full-text search across all sites |
+| `/api/search` | GET | `q`, `limit`, `site`, `subject` | Full-text search across all sites |
 | `/api/sites` | GET | -- | List all indexed sites |
-| `/api/health` | GET | -- | Index health and version |
+| `/api/health` | GET | -- | Index health |
 | `/api/trending` | GET | -- | Top trending queries |
-| `/api/suggest` | GET | `q` | Query autocomplete suggestions |
-| `/api/analytics` | GET | -- | Search analytics dashboard data |
+| `/api/suggest` | GET | `q` | Query autocomplete |
+| `/api/analytics` | GET | -- | Search analytics |
 
 ## Content conventions
 
