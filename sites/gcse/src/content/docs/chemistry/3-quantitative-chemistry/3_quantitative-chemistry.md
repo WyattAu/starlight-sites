@@ -28,7 +28,7 @@ $$M_r(\mathrm{CaCO_3) = 40.1 + 12.0 + (3 \times 16.0) = 100.1$$
 
 $$M_r = (2 \times 14.0) + (8 \times 1.0) + 32.1 + (4 \times 16.0) = 28 + 8 + 32.1 + 64 = 132.1$$
 
-:::caution Remember to multiply the relative atomic mass of each atom by the number of that atom in
+<aside aria-label="Remember to multiply the relative atomic mass of each atom by the number of that atom in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Remember to multiply the relative atomic mass of each atom by the number of that atom in</p>
 The formula, including atoms inside brackets. The subscript outside the bracket applies to every
 Atom inside.
 
@@ -898,4 +898,4 @@ This topic covers the key concepts of Quantitative Chemistry for GCSE Chemistry.
 understanding the fundamental principles, practising with exam-style questions, and applying your
 knowledge to unfamiliar contexts.
 
-:::
+</aside>

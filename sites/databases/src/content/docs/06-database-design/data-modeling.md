@@ -473,9 +473,7 @@ DELETE FROM users WHERE user_id = 42;
 | Uniqueness  | Must handle deleted emails       | Natural uniqueness         |
 | Referential | FK constraints still apply       | CASCADE removes dependents |
 
-:::caution
-
-Soft delete creates a subtle issue with UNIQUE constraints. If you soft-delete a user with email
+<aside aria-label="Soft delete creates a subtle issue with UNIQUE constraints. If you soft-delete a user with email" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Soft delete creates a subtle issue with UNIQUE constraints. If you soft-delete a user with email</p>
 `alice@example.com`You cannot create a new user with the same email unless you modify the unique
 Constraint. Solutions: use a partial unique index, append a suffix on deletion, or add `deleted_at`
 To the unique constraint.
@@ -759,4 +757,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

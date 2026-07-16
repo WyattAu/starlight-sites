@@ -104,7 +104,7 @@ $$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \impl
 
 </details>
 
-:::caution Common Pitfall Bandwidth (Hz) and bit rate (bps) are different quantities. Bandwidth is
+<aside aria-label="Common Pitfall Bandwidth (Hz) and bit rate (bps) are different quantities. Bandwidth is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Bandwidth (Hz) and bit rate (bps) are different quantities. Bandwidth is</p>
 the range of frequencies The channel can carry; bit rate is the number of bits transmitted per
 second. Shannon's theorem Relates the maximum bit rate to bandwidth and SNR, but they are not
 interchangeable.
@@ -181,4 +181,4 @@ per Bit). 4B/5B adds 25% overhead. 8B/10B adds 25%. 64B/66B adds only 3% overhea
 Transitions for clock recovery, preventing long runs of identical bits.
 
 
-:::
+</aside>

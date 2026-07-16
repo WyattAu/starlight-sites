@@ -66,10 +66,9 @@ Table is resized (doubled). The initial capacity defaults to 16.
 Map<String, Integer> map = new HashMap<>((int) (1000 / 0.75f) + 1);
 ```
 
-:::caution `HashMap` allows one `null` key and multiple `null` values. It is not thread-safe. Use
+<aside aria-label="`HashMap` allows one `null` key and multiple `null` values. It is not thread-safe. Use" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`HashMap` allows one `null` key and multiple `null` values. It is not thread-safe. Use</p>
 `ConcurrentHashMap` for concurrent access.
-:::
-
+</aside>
 ### `LinkedHashMap`
 
 Extends `HashMap` and maintains a doubly-linked list running through all entries. Iteration order is
@@ -302,11 +301,10 @@ Set<Day> workPlusWeekend = EnumSet.copyOf(weekdays);
 workPlusWeekend.addAll(weekend);
 ```
 
-:::info `EnumSet` is the fastest `Set` implementation for enums. Its internal representation is a
+<aside aria-label="`EnumSet` is the fastest `Set` implementation for enums. Its internal representation is a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`EnumSet` is the fastest `Set` implementation for enums. Its internal representation is a</p>
 Single `long` (for enums with up to 64 values) or a `long[]` (for larger enums). All operations are
 Simple bit manipulations.
-:::
-
+</aside>
 ## Set Operations
 
 Java does not provide built-in union, intersection, or difference operators on sets, but the methods
@@ -377,11 +375,10 @@ public class Person {
 }
 ```
 
-:::caution Never use `Map&lt;List&lt;String&gt;, ...&gt;` or `Set&lt;List&lt;String&gt;&gt;` —
+<aside aria-label="Never use `Map&lt;List&lt;String&gt;, ...&gt;` or `Set&lt;List&lt;String&gt;&gt;` —" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use `Map&lt;List&lt;String&gt;, ...&gt;` or `Set&lt;List&lt;String&gt;&gt;` —</p>
 `List.equals` compares element-by-element and `List.hashCode` depends on all elements. If you modify
 A list after using it as a key, the map will no longer find it. Use immutable collections as keys.
-:::
-
+</aside>
 ### `Objects.hash` and `Arrays.hashCode`
 
 ```java
@@ -486,11 +483,10 @@ List<String> immutableCopy = List.copyOf(mutableList);
 Set<String> immutableSet = Set.copyOf(mutableSet);
 ```
 
-:::caution Immutable collections do not allow `null` elements or keys. `List.of(1, null)` throws
+<aside aria-label="Immutable collections do not allow `null` elements or keys. `List.of(1, null)` throws" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Immutable collections do not allow `null` elements or keys. `List.of(1, null)` throws</p>
 `NullPointerException`. This is by design — nulls in collections are a common source of bugs, and
 The immutable factories enforce non-null.
-:::
-
+</aside>
 ### Unmodifiable Wrappers
 
 JDK 8 and earlier provide unmodifiable wrappers via `Collections`:
@@ -544,12 +540,11 @@ String min = Collections.min(list, comparator);
 List<String> syncList = Collections.synchronizedList(mutableList);
 ```
 
-:::info `Collections.synchronizedList` returns a list where each method is synchronized. However,
+<aside aria-label="`Collections.synchronizedList` returns a list where each method is synchronized. However," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`Collections.synchronizedList` returns a list where each method is synchronized. However,</p>
 Iteration requires external synchronization:
 `synchronized (syncList) { for (String s : syncList) { ... } }`. For better concurrency, use
 `CopyOnWriteArrayList`.
-:::
-
+</aside>
 ## Collection Design Patterns
 
 ### Multimap (Map of Lists)
@@ -832,11 +827,10 @@ System.gc(); // suggest GC — the entry may be removed
 System.out.println(metadata.size()); // possibly 0
 ```
 
-:::caution `WeakHashMap` is not suitable for caching . Entries are collected aggressively — as soon
+<aside aria-label="`WeakHashMap` is not suitable for caching . Entries are collected aggressively — as soon" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`WeakHashMap` is not suitable for caching . Entries are collected aggressively — as soon</p>
 as the GC discovers that a key is weakly reachable. If you need size-bounded caching, use
 `LinkedHashMap` with `removeEldestEntry` or a dedicated cache library like Caffeine.
-:::
-
+</aside>
 ### Sorted Collection Views
 
 `Collections` provides unmodifiable sorted views:

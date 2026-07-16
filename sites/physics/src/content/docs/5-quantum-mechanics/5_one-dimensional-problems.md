@@ -40,12 +40,11 @@ $$\phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad E_n = \
 - Energy levels are not equally spaced; $E_n \propto n^2$.
 - There are $(n - 1)$ nodes in the $n$-th eigenstate.
 
-:::caution Common Pitfall The ground state has $n = 1$Not $n = 0$. The solution $n = 0$ gives
+<aside aria-label="Common Pitfall The ground state has $n = 1$Not $n = 0$. The solution $n = 0$ gives" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The ground state has $n = 1$Not $n = 0$. The solution $n = 0$ gives</p>
 $\phi(x) = 0$ everywhere, Which is not normalisable. Furthermore, $E_1 > 0$ (zero-point energy) is a
 direct consequence of The uncertainty principle: confining the particle to a finite region requires
 kinetic energy.
-:::
-
+</aside>
 ### 5.2 The Quantum Harmonic Oscillator
 
 $V(x) = \frac{1}{2}m\omega^2 x^2$.
@@ -318,12 +317,11 @@ $$T \approx \frac{16E(V_0 - E)}{V_0^2}\,e^{-2\kappa a}$$
 The exponential factor $e^{-2\kappa a}$ is the hallmark of quantum tunnelling: the probability of
 Penetration decreases exponentially with barrier width and height.
 
-:::caution Common Pitfall Tunnelling does not violate energy conservation. The particle does not
+<aside aria-label="Common Pitfall Tunnelling does not violate energy conservation. The particle does not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Tunnelling does not violate energy conservation. The particle does not</p>
 "have" energy $V_0$ inside The barrier; rather, the wave function extends into the classically
 forbidden region with Exponentially decreasing amplitude. The particle's energy is $E \lt V_0$
 throughout.
-:::
-
+</aside>
 **Example 5.2.** An electron with $E = 5$ eV approaches a barrier of height $V_0 = 10$ eV and Width
 $a = 0.5$ nm. Calculate $T$.
 

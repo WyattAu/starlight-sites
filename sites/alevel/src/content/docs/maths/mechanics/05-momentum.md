@@ -19,10 +19,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes 2D collisions         |
 | CIE (9709) | P4      | Momentum, impulse, restitution |
 
-:::info Momentum is a vector quantity. Always define a positive direction and be consistent with
+<aside aria-label="Momentum is a vector quantity. Always define a positive direction and be consistent with" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Momentum is a vector quantity. Always define a positive direction and be consistent with</p>
 Signs.
-:::
-
+</aside>
 <hr />
 
 ## 1. Linear Momentum
@@ -220,10 +219,9 @@ $$J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\
 
 This is particularly useful for oblique impacts where the impulse acts in a specific direction.
 
-:::info Info Equation) and conservation of momentum (an algebraic constraint). It tells us exactly
+<aside aria-label="Info Equation) and conservation of momentum (an algebraic constraint). It tells us exactly" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Equation) and conservation of momentum (an algebraic constraint). It tells us exactly</p>
 how much Momentum a force transfers over a given time interval.
-:::
-
+</aside>
 <hr />
 
 ## 7. Conservation of Momentum in Two Dimensions
@@ -392,11 +390,10 @@ $$\tan\beta = \frac◆LB◆v_t◆RB◆◆LB◆|v_n|◆RB◆ = \frac◆LB◆u\sin
 
 ### 9.3 Angle relationships
 
-:::info Info $\beta \geq \alpha$. The particle always rebounds at an angle greater than or equal to
+<aside aria-label="Info $\beta \geq \alpha$. The particle always rebounds at an angle greater than or equal to" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info $\beta \geq \alpha$. The particle always rebounds at an angle greater than or equal to</p>
 the angle of Incidence. Equality holds only when $e = 1$ (perfectly elastic), recovering the law of
 reflection.
-:::
-
+</aside>
 Special cases:
 
 - $e = 1$: $\beta = \alpha$ (angle of incidence equals angle of reflection).
@@ -893,7 +890,7 @@ Section 8.
 
 ---
 
-:::tip Tip Ready to test your understanding of **Momentum**? The contains the hardest questions
+<aside aria-label="Tip Ready to test your understanding of **Momentum**? The contains the hardest questions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Momentum**? The contains the hardest questions</p>
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Momentum
@@ -927,4 +924,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

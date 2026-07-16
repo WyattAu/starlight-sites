@@ -244,13 +244,12 @@ rotations.
 
 </details>
 
-:::caution Common Pitfall The most common error in red-black tree deletion is forgetting to handle
+<aside aria-label="Common Pitfall The most common error in red-black tree deletion is forgetting to handle" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The most common error in red-black tree deletion is forgetting to handle</p>
 the case where the node to be deleted has two children. In this case, one must find the successor
 (or predecessor), copy its key/value to the node being deleted, and then delete the successor node
 from its original position. The successor always has at most one child, simplifying the actual
 removal.
-:::
-
+</aside>
 ### 1.2 B-Trees and B+ Trees
 
 #### 1.2.1 B-Trees
@@ -423,12 +422,11 @@ height $h \leq \lceil \log_d(n) \rceil + 1$.
 | Height                | Higher                   | Lower                        |
 | Use case              | General-purpose          | Databases, file systems      |
 
-:::caution Common Pitfall Students often confuse the minimum degree $t$ of a B-tree with its order.
+<aside aria-label="Common Pitfall Students often confuse the minimum degree $t$ of a B-tree with its order." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse the minimum degree $t$ of a B-tree with its order.</p>
 A B-tree of order $m$ has maximum $m$ children per internal node, which means
 $t = \lceil m/2 \rceil$. A B-tree of minimum degree $t$ has maximum $2t - 1$ keys per node. Always
 verify which convention the question or textbook uses.
-:::
-
+</aside>
 ### 1.3 Tries and Prefix Trees
 
 A **trie** (from "retrieval") is a tree data structure for storing strings. Each node represents a
@@ -916,12 +914,11 @@ decrease-key, the actual cost is $O(c)$ where $c$ is the number of cascading cut
 potential is at most $c + 2 - 2m'(H) \cdot (\text{terms} cancel)$Giving $O(1)$ amortised.
 $\blacksquare$
 
-:::caution Common Pitfall Fibonacci heaps have excellent amortised bounds but poor constant factors
+<aside aria-label="Common Pitfall Fibonacci heaps have excellent amortised bounds but poor constant factors" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Fibonacci heaps have excellent amortised bounds but poor constant factors</p>
 in practice due to the overhead of maintaining the root list, marking nodes, and consolidation. For
 this reason, binary heaps (or pairing heaps) are often preferred in practice despite worse
 theoretical amortised bounds for decrease-key.
-:::
-
+</aside>
 ### 2.3 Pairing Heaps
 
 A **pairing heap** is a simplified alternative to Fibonacci heaps. It is a single min-heap-ordered
@@ -1307,13 +1304,12 @@ A good potential function satisfies:
 
 ### 7.3 Limitations of Amortised Analysis
 
-:::caution Common Pitfall Amortised bounds do **not** guarantee worst-case performance for
+<aside aria-label="Common Pitfall Amortised bounds do **not** guarantee worst-case performance for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Amortised bounds do **not** guarantee worst-case performance for</p>
 individual operations. In real-time systems, an $O(n)$ operation (even if amortised $O(1)$) may
 violate timing constraints. For real-time applications, use data structures with worst-case bounds
 (e.g., balanced BSTs instead of splay trees, or dynamic arrays with geometric resizing only when
 safe).
-:::
-
+</aside>
 **Theorem 7.1.** There exist sequences of operations where any data structure supporting dynamic
 array operations must pay $\Omega(\log n)$ per operation in the worst case (cell-probe model lower
 bound).

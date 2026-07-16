@@ -33,7 +33,7 @@ Examination hall.
 | **OCR** (J352)             | Shakespeare and Poetry Pre-1900                    | Modern Texts and 19th-Century Novel                                | Open             |
 | **WJEC/Eduqas** (9-1 7222) | Shakespeare (with Welsh Poetry anthology for WJEC) | Post-1914 Drama/Novel and Poetry Anthology                         | Open             |
 
-:::info The broad content -- Shakespeare, a 19th-century novel, modern drama or prose, and poetry --
+<aside aria-label="The broad content -- Shakespeare, a 19th-century novel, modern drama or prose, and poetry --" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The broad content -- Shakespeare, a 19th-century novel, modern drama or prose, and poetry --</p>
 Is common to all boards. Differences lie in the arrangement of texts across papers, the presence or
 Absence of an anthology, and whether texts may be taken into the examination.
 
@@ -160,4 +160,4 @@ Specification for precise details.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

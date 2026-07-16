@@ -154,10 +154,9 @@ public:
 };
 ```
 
-:::tip Tip Indicates a design issue where lock ownership boundaries are unclear. Use it only when
+<aside aria-label="Tip Indicates a design issue where lock ownership boundaries are unclear. Use it only when" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Indicates a design issue where lock ownership boundaries are unclear. Use it only when</p>
 interfacing With recursive code structures that you cannot refactor.
-:::
-
+</aside>
 ## `std::timed_mutex`
 
 `std::timed_mutex` [N4950 §31.4.3.3.3] extends `std::mutex` with two additional methods:
@@ -497,12 +496,11 @@ int main() {
 }
 ```
 
-:::note `std::scoped_lock` with multiple mutexes uses an algorithm that attempts to lock each mutex
+<aside aria-label="`std::scoped_lock` with multiple mutexes uses an algorithm that attempts to lock each mutex" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`std::scoped_lock` with multiple mutexes uses an algorithm that attempts to lock each mutex</p>
 In turn. If any lock attempt fails, it unlocks all previously acquired mutexes and retries. This
 Guarantees that all threads acquire the set of mutexes in the same order, preventing circular wait
 [N4950 §31.4.4.2.2].
-:::
-
+</aside>
 ## Reader-Writer Lock for a Thread-Safe Cache
 
 ```cpp
@@ -610,11 +608,10 @@ The double-check pattern is essential: between releasing the shared lock and acq
 Lock, another thread may have already inserted the key. Without the second check, `try_emplace`
 Would silently discard the existing value.
 
-:::tip `std::shared_mutex` in C++17 (and `std::shared_timed_mutex` in C++14) provides read-write
+<aside aria-label="`std::shared_mutex` in C++17 (and `std::shared_timed_mutex` in C++14) provides read-write" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`std::shared_mutex` in C++17 (and `std::shared_timed_mutex` in C++14) provides read-write</p>
 Locking. Prefer `std::shared_lock` for read-only access and `std::unique_lock` for write access. On
 POSIX systems, this maps to `pthread_rwlock_t`.
-:::
-
+</aside>
 ## Common Pitfalls
 
 ### Pitfall 1: Locking and Unlocking on Different Threads

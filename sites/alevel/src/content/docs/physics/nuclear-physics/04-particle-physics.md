@@ -140,7 +140,7 @@ In all particle interactions, the following quantities are **always conserved**:
 | Baryon number ($B$)                      | Yes                            |
 | Strangeness ($S$)                        | Strong and EM only (not weak)  |
 
-:::caution Warning **not** by the weak interaction. Strange particles are always produced in pairs
+<aside aria-label="Warning **not** by the weak interaction. Strange particles are always produced in pairs" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning **not** by the weak interaction. Strange particles are always produced in pairs</p>
 (associated production) Via the strong interaction (conserving $S$) but decay individually via the
 weak interaction.
 
@@ -520,4 +520,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

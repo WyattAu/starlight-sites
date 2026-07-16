@@ -58,9 +58,7 @@ Produces `"222"` in Python, that is a deliberate, documented operation on the `s
 Implicit coercion. The principle is that **surprising implicit behavior is more dangerous than
 Explicit errors**.
 
-:::info
-
-Python does perform some coercions, but they are narrow and well-defined. For example, `bool` is a
+<aside aria-label="Python does perform some coercions, but they are narrow and well-defined. For example, `bool` is a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Python does perform some coercions, but they are narrow and well-defined. For example, `bool` is a</p>
 Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
@@ -220,10 +218,8 @@ b = 257
 print(a is b)   # False (not interned)
 ```
 
-:::
-:::caution
-
-Do not rely on integer interning behavior. Use `==` for equality comparison, never `is`. The
+</aside>
+<aside aria-label="Do not rely on integer interning behavior. Use `==` for equality comparison, never `is`. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not rely on integer interning behavior. Use `==` for equality comparison, never `is`. The</p>
 Interning range is a CPython implementation detail, not a language guarantee.
 
 
@@ -248,10 +244,8 @@ Decimals would require software emulation, making all numeric computation orders
 Slower. The pragmatic choice is to use hardware floats by default and provide `decimal` and
 `fractions` modules for cases that require exact arithmetic.
 
-:::
-:::tip
-
-For financial calculations, use `decimal.Decimal` (exact decimal arithmetic) or `fractions.Fraction`
+</aside>
+<aside aria-label="For financial calculations, use `decimal.Decimal` (exact decimal arithmetic) or `fractions.Fraction`" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>For financial calculations, use `decimal.Decimal` (exact decimal arithmetic) or `fractions.Fraction`</p>
 (exact rational arithmetic). Never use `float` for money.
 
 
@@ -356,10 +350,8 @@ print(s)             # "hello"
    characters are ASCII, avoiding per-character encoding overhead. This optimization is only safe
    because strings cannot change.
 
-:::
-:::caution
-
-String immutability means that concatenation in a loop is $O(n^2)$ because each concatenation copies
+</aside>
+<aside aria-label="String immutability means that concatenation in a loop is $O(n^2)$ because each concatenation copies" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>String immutability means that concatenation in a loop is $O(n^2)$ because each concatenation copies</p>
 The entire string. Use `''.join(iterable)` for linear-time concatenation.
 
 ```python
@@ -468,10 +460,8 @@ s.rstrip()     # "  Hello, World!"
 "HELLO".isupper()   # True
 ```
 
-:::
-:::tip
-
-Prefer `str.startswith()` and `str.endswith()` over `str[:n] == prefix`. They are more readable and
+</aside>
+<aside aria-label="Prefer `str.startswith()` and `str.endswith()` over `str[:n] == prefix`. They are more readable and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Prefer `str.startswith()` and `str.endswith()` over `str[:n] == prefix`. They are more readable and</p>
 Handle edge cases (empty strings, prefix longer than string) correctly.
 
 
@@ -622,10 +612,8 @@ print(add_item("a"))  # ["a"]
 print(add_item("b"))  # ["b"]  -- fresh list each time
 ```
 
-:::
-:::caution
-
-This is one of the most common bugs in Python code. Linters like `pylint` and `ruff` flag mutable
+</aside>
+<aside aria-label="This is one of the most common bugs in Python code. Linters like `pylint` and `ruff` flag mutable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>This is one of the most common bugs in Python code. Linters like `pylint` and `ruff` flag mutable</p>
 Default arguments. The pattern `def f(arg=None): if arg is None: arg = ...` is the standard
 Solution.
 
@@ -959,10 +947,8 @@ def make_counter():
     return increment
 ```
 
-:::
-:::caution
-
-Overuse of `global` is a code smell. It creates hidden coupling between functions and makes code
+</aside>
+<aside aria-label="Overuse of `global` is a code smell. It creates hidden coupling between functions and makes code" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Overuse of `global` is a code smell. It creates hidden coupling between functions and makes code</p>
 Difficult to test and reason about. Prefer passing state explicitly through function parameters or
 Using classes.
 
@@ -991,4 +977,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

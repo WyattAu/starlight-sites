@@ -48,10 +48,9 @@ hash("hello")      # varies per interpreter session
 hash(("a", "b"))   # depends on hash("a") ^ hash("b") with rotation
 ```
 
-:::info CPython randomizes hash seeds for `str``bytes`And `datetime` objects at interpreter Startup.
+<aside aria-label="CPython randomizes hash seeds for `str``bytes`And `datetime` objects at interpreter Startup." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>CPython randomizes hash seeds for `str``bytes`And `datetime` objects at interpreter Startup.</p>
 This is a security measure against hash DoS attacks. Set `PYTHONHASHSEED=0` to disable.
-:::
-
+</aside>
 ### Collision Resolution: Open Addressing
 
 When two keys hash to the same slot, CPython probes the next slot using a linear probing scheme with
@@ -132,11 +131,10 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 | Equality checks order     | No (Python 3.7+) | Yes           |
 | Reversible                | Yes (3.8+)       | Yes           |
 
-:::caution `OrderedDict` equality is **order-sensitive**:
+<aside aria-label="`OrderedDict` equality is **order-sensitive**:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`OrderedDict` equality is **order-sensitive**:</p>
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
 Consider order — only `OrderedDict` equality is order-sensitive.
-:::
-
+</aside>
 ### LRU Cache with OrderedDict
 
 ```python
@@ -211,7 +209,7 @@ tree["servers"]["db1"]["port"] = 5432
 print(tree["servers"]["web1"]["ip"])  # 10.0.0.1
 ```
 
-:::caution `nested_dict()` above creates an infinite recursion if you try to convert it to a regular
+<aside aria-label="`nested_dict()` above creates an infinite recursion if you try to convert it to a regular" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`nested_dict()` above creates an infinite recursion if you try to convert it to a regular</p>
 `dict` naively. Use a recursive conversion function:
 
 ```python
@@ -221,8 +219,7 @@ def to_regular_dict(d):
     return d
 ```
 
-:::
-
+</aside>
 ### Practical Examples
 
 ```python
@@ -316,7 +313,7 @@ c.subtract(["a", "b"])  # Subtract counts (allows negatives)
 print(c)  # Counter({'a': 4, 'c': 3, 'b': 0})
 ```
 
-:::info `Counter` does not raise `KeyError` for missing keys — it returns 0. This is implemented via
+<aside aria-label="`Counter` does not raise `KeyError` for missing keys — it returns 0. This is implemented via" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`Counter` does not raise `KeyError` for missing keys — it returns 0. This is implemented via</p>
 `__missing__`:
 
 ```python
@@ -325,8 +322,7 @@ class Counter(dict):
         return 0
 ```
 
-:::
-
+</aside>
 ## ChainMap
 
 `collections.ChainMap` groups multiple dicts into a single view. Lookups search each mapping in
@@ -366,10 +362,9 @@ print(config["timeout"])  # 30
 ChainMap is ideal for layered configuration systems: defaults, environment variables, CLI args, and
 Per-request overrides.
 
-:::caution Writes to a ChainMap affect **only the first mapping**. If you need to modify a specific
+<aside aria-label="Writes to a ChainMap affect **only the first mapping**. If you need to modify a specific" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Writes to a ChainMap affect **only the first mapping**. If you need to modify a specific</p>
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
-:::
-
+</aside>
 ```python
 config = ChainMap({"timeout": 30}, {"timeout": 60})
 config["timeout"] = 10
@@ -516,11 +511,10 @@ d["port"] = 8080          # Setting 'port' = 8080
 del d["port"]             # Deleting 'port'
 ```
 
-:::caution Prefer `UserDict` over subclassing `dict` directly. When you subclass `dict`Some C-level
+<aside aria-label="Prefer `UserDict` over subclassing `dict` directly. When you subclass `dict`Some C-level" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Prefer `UserDict` over subclassing `dict` directly. When you subclass `dict`Some C-level</p>
 methods bypass your Python-level overrides. `UserDict` stores data in an internal `dict` Attribute
 (`self.data`), so all access goes through your Python methods.
-:::
-
+</aside>
 ```python
 from collections import UserList
 
@@ -643,10 +637,9 @@ print([e[1] for e in events])
 # ['deploy v1', 'hotfix', 'deploy v2', 'incident']
 ```
 
-:::tip `bisect` operations are O(log n) for search and O(n) for insertion (because the list must
+<aside aria-label="`bisect` operations are O(log n) for search and O(n) for insertion (because the list must" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`bisect` operations are O(log n) for search and O(n) for insertion (because the list must</p>
 Shift elements). For frequent insertions, consider `heapq` or a balanced tree structure.
-:::
-
+</aside>
 ## heapq Module
 
 `heapq` provides a min-heap implementation using a regular Python list. The heap invariant is:
@@ -732,10 +725,9 @@ print(pq.pop())  # normal task
 print(pq.pop())  # low priority task
 ```
 
-:::caution Never store mutable objects directly in a heap and then modify them externally — the heap
+<aside aria-label="Never store mutable objects directly in a heap and then modify them externally — the heap" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never store mutable objects directly in a heap and then modify them externally — the heap</p>
 Invariant may be violated. Either use immutable data or call `heapq.heapify()` after modifications.
-:::
-
+</aside>
 ## Common Pitfalls
 
 ### 1. Mutating a Dict While Iterating

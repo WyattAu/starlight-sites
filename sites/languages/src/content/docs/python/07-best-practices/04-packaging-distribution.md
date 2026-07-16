@@ -113,11 +113,10 @@ source = ["src/mylib"]
 branch = true
 ```
 
-:::info PEP 621 standardizes project metadata in `pyproject.toml`. Before this, metadata was
+<aside aria-label="PEP 621 standardizes project metadata in `pyproject.toml`. Before this, metadata was" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>PEP 621 standardizes project metadata in `pyproject.toml`. Before this, metadata was</p>
 Scattered across `setup.py``setup.cfg`And `setup.cfg`/`pyproject.toml`. The new standard
 Consolidates everything into one file.
-:::
-
+</aside>
 ## setup.py Legacy vs pyproject.toml
 
 ### Legacy setup.py
@@ -163,11 +162,10 @@ myapp = "myapp.cli:main"
 where = ["src"]
 ```
 
-:::caution `setup.py` is not deprecated, but `pyproject.toml` is preferred for new projects. The
+<aside aria-label="`setup.py` is not deprecated, but `pyproject.toml` is preferred for new projects. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`setup.py` is not deprecated, but `pyproject.toml` is preferred for new projects. The</p>
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
 Most projects do not need it.
-:::
-
+</aside>
 ## setuptools
 
 ### setup.cfg (Complementary)
@@ -304,11 +302,10 @@ requests==2.31.0 \
     --hash=sha256:942c5a758f98d790eaed1a29cb6eefc7cb0f27a2e5e71b6ed7d0e640c265d3a5
 ```
 
-:::caution Always use `--generate-hashes` in production deployments. Hashes verify that the
+<aside aria-label="Always use `--generate-hashes` in production deployments. Hashes verify that the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `--generate-hashes` in production deployments. Hashes verify that the</p>
 Installed package matches exactly what you tested. Without hashes, a compromised PyPI mirror could
 Serve malicious packages.
-:::
-
+</aside>
 ## Virtual Environments
 
 ### venv
@@ -355,11 +352,10 @@ conda env export > environment.yml
 conda env create -f environment.yml
 ```
 
-:::info `venv` is the standard and ships with Python. Use `virtualenv` when you need features like
+<aside aria-label="`venv` is the standard and ships with Python. Use `virtualenv` when you need features like" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`venv` is the standard and ships with Python. Use `virtualenv` when you need features like</p>
 `--system-site-packages` or faster creation. Use `conda` when you need non-Python dependencies
 (e.g., CUDA, MKL).
-:::
-
+</aside>
 ## Dependency Management
 
 ### pip
@@ -477,12 +473,11 @@ mylib/
     └── test_core.py
 ```
 
-:::caution The `src` layout is preferred because it prevents a subtle bug: when you run tests from
+<aside aria-label="The `src` layout is preferred because it prevents a subtle bug: when you run tests from" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `src` layout is preferred because it prevents a subtle bug: when you run tests from</p>
 The project root, Python may import the local package instead of the installed one. The `src` layout
 Forces you to install the package before testing, catching missing dependencies and incorrect
 Packaging.
-:::
-
+</aside>
 ## Entry Points
 
 ### console_scripts
@@ -573,10 +568,9 @@ global-exclude *.pyo
 prune tests
 ```
 
-:::tip With the `src` layout and `[tool.setuptools.package-data]`Most projects do not need
+<aside aria-label="With the `src` layout and `[tool.setuptools.package-data]`Most projects do not need" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>With the `src` layout and `[tool.setuptools.package-data]`Most projects do not need</p>
 `MANIFEST.in`. Only use it when you need to include files that setuptools cannot auto-discover.
-:::
-
+</aside>
 ## Versioning
 
 ### Semantic Versioning
@@ -777,7 +771,7 @@ Packages.
 | Complexity     | High        | Medium   | Low        |
 | VCS versioning | Via plugin  | Built-in | Via plugin |
 
-:::tip For new projects, `hatch` or `flit` are excellent choices. Use `setuptools` only when you
+<aside aria-label="For new projects, `hatch` or `flit` are excellent choices. Use `setuptools` only when you" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>For new projects, `hatch` or `flit` are excellent choices. Use `setuptools` only when you</p>
 Need compatibility with existing tooling or complex build requirements (e.g., C extensions).
 
 ## Wheel vs sdist
@@ -985,4 +979,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

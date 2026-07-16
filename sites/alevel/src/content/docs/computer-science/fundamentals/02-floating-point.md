@@ -196,21 +196,18 @@ $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 3. **Cancellation error:** Subtracting nearly equal numbers loses significant digits
 4. **Accumulation error:** Errors compound over many operations
 
-:::caution Pitfall Never use `==` to compare floating-point numbers. Instead, check if
+<aside aria-label="Pitfall Never use `==` to compare floating-point numbers. Instead, check if" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall Never use `==` to compare floating-point numbers. Instead, check if</p>
 $|a - b| \lt \epsilon$ for some tolerance.
-:::
-
+</aside>
 <hr />
 
 ## 5. CIE Simplified 8-Bit Floating Point
 
-:::info Board-specific: CIE (9618) CIE uses a simplified floating-point format:
-
+<aside aria-label="Board-specific: CIE (9618) CIE uses a simplified floating-point format:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific: CIE (9618) CIE uses a simplified floating-point format:</p>
 - 1 sign bit
 - 4 exponent bits (excess-8, i.e., bias = 8)
 - 3 mantissa bits
-:::
-
+</aside>
 **Format:** `S EEEE MMM`
 
 **Decoding:** $(-1)^S \times 0.MMM \times 2^{E - 8}$

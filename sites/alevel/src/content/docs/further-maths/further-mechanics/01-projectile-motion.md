@@ -26,11 +26,10 @@ Determined.
 | OCR (A)    | Paper 2 | Projectiles on inclined planes                 |
 | CIE (9231) | M2      | Full coverage including inclined planes        |
 
-:::info In projectile motion, air resistance is always neglected unless stated otherwise. The only
+<aside aria-label="In projectile motion, air resistance is always neglected unless stated otherwise. The only" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In projectile motion, air resistance is always neglected unless stated otherwise. The only</p>
 Acceleration is $g = 9.8\,\mathrm{m s}^{-2}$ acting vertically downward. Take care with sign
 Conventions — define upward as positive at the start and be consistent.
-:::
-
+</aside>
 <hr />
 
 ## 1. Equations of Motion
@@ -134,11 +133,10 @@ $$\boxed{R = \frac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆}$$
 This is maximised when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$Giving
 $R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
 
-:::info For a given speed $V$Complementary angles give the same range: $\theta$ and $90° - \theta$
+<aside aria-label="For a given speed $V$Complementary angles give the same range: $\theta$ and $90° - \theta$" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For a given speed $V$Complementary angles give the same range: $\theta$ and $90° - \theta$</p>
 Both produce $R = \dfrac◆LB◆V^2\sin 2\theta◆RB◆◆LB◆g◆RB◆$. However, the trajectories are different —
 The steeper angle gives a higher but shorter arc.
-:::
-
+</aside>
 <hr />
 
 ## 4. Projection on Inclined Planes

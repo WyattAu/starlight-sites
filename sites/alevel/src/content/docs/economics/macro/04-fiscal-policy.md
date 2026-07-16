@@ -32,11 +32,10 @@ $$\mathrm{Budget balance} = T - G$$
 - **Budget deficit**: $G > T$ (government spending exceeds revenue)
 - **Balanced budget**: $T = G$
 
-:::info Board-Specific Note CIE (9708) requires students to distinguish between the budget balance
+<aside aria-label="Board-Specific Note CIE (9708) requires students to distinguish between the budget balance" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note CIE (9708) requires students to distinguish between the budget balance</p>
 And the national debt. AQA and Edexcel may ask about the UK's fiscal rules (e.g., the fiscal mandate
 And supplementary target).
-:::
-
+</aside>
 ## 2. Government Spending
 
 ### 2.1 Types of Government Spending
@@ -59,11 +58,10 @@ Only $G$ in the AD equation ($AD = C + I + G + (X - M)$) represents spending on 
 Transfer payments are not directly part of $G$ — they affect $AD$ indirectly through their effect on
 Disposable income and hence consumption ($C$).
 
-:::caution Warning Formula. They are a government outlay but not a purchase of goods and services.
+<aside aria-label="Warning Formula. They are a government outlay but not a purchase of goods and services." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Formula. They are a government outlay but not a purchase of goods and services.</p>
 They affect $C$Not $G$ directly. However, exam questions sometimes use "government spending" loosely
 — always clarify What is meant.
-:::
-
+</aside>
 ### 2.2 Government Spending as a Share of GDP
 
 $$\mathrm{Government spending ratio} = \frac{G}{Y} \times 100\%$$
@@ -145,12 +143,11 @@ Income):
 
 ATR falls with income because higher earners save a larger proportion of income. ✓ $\blacksquare$
 
-:::tip Exam Technique When asked to evaluate whether a tax is progressive or regressive, calculate
+<aside aria-label="Exam Technique When asked to evaluate whether a tax is progressive or regressive, calculate" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When asked to evaluate whether a tax is progressive or regressive, calculate</p>
 The ATR at different income levels. Never just state the marginal rate — a tax can have increasing
 Marginal rates but still be regressive in practice (e.g., if there are generous allowances for high
 Earners).
-:::
-
+</aside>
 ### 3.3 Laffer Curve
 
 The **Laffer curve** illustrates the theoretical relationship between the tax rate and tax revenue:
@@ -193,11 +190,10 @@ $$\frac{D}{Y} = \frac{D_t}{Y_t}$$
 This is the preferred measure of debt sustainability, since a large absolute debt is manageable if
 GDP is also large.
 
-:::caution Warning Small (or zero) deficit if it is running a balanced budget. The deficit is a
+<aside aria-label="Warning Small (or zero) deficit if it is running a balanced budget. The deficit is a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Small (or zero) deficit if it is running a balanced budget. The deficit is a</p>
 _flow_ (per year), While the debt is a _stock_ (accumulated). Reducing the deficit does _not_ reduce
 the debt — it Merely slows the rate at which debt grows. Only a surplus reduces the debt.
-:::
-
+</aside>
 ### 4.2 Debt Dynamics
 
 The evolution of the debt-to-GDP ratio is given by:
@@ -313,11 +309,10 @@ Prices, reducing private sector profitability.
 | Source of financing             | Domestic borrowing             | Foreign borrowing / monetary financing    |
 | Type of spending                | Current spending (consumption) | Capital spending (productivity-enhancing) |
 
-:::tip Exam Technique When evaluating fiscal policy, always consider crowding out. The strongest
+<aside aria-label="Exam Technique When evaluating fiscal policy, always consider crowding out. The strongest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When evaluating fiscal policy, always consider crowding out. The strongest</p>
 Answer recognises that crowding out is less severe in a recession (Keynesian view) and more severe
 At full employment (Classical view). Reference the state of the economic cycle.
-:::
-
+</aside>
 ## 7. Automatic Stabilisers
 
 ### 7.1 Definition
@@ -568,8 +563,7 @@ Partially false. Crowding out was limited during 2008–09 because: (1) The econ
 </details>
 
 
-:::danger Danger
-
+<aside aria-label="Danger" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Danger</p>
 - **Including transfer payments as part of G in the AD equation:** Transfer payments (benefits,
   pensions) are NOT part of government spending G in AD = C + I + G + (X-M). They affect AD
   indirectly through their effect on disposable income and therefore consumption C. Including them
@@ -1019,4 +1013,4 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-:::
+</aside>

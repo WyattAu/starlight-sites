@@ -90,12 +90,11 @@ Ratio: **9:7**.
 | 15:1   | Duplicate dominant epistasis  | Dominant allele at either locus sufficient for trait expression |
 | 13:3   | Inhibitory gene interaction   | One dominant allele inhibits the expression of the other gene   |
 
-:::caution Common Pitfall Students often confuse epistasis with dominance. Dominance is an
+<aside aria-label="Common Pitfall Students often confuse epistasis with dominance. Dominance is an" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse epistasis with dominance. Dominance is an</p>
 interaction between **alleles at the same locus** (one allele masks another at the same gene).
 Epistasis is an interaction between **genes at different loci** (one gene masks or modifies another
 gene). They are fundamentally different genetic phenomena.
-:::
-
+</aside>
 ## 2. Genetic Linkage and Crossing Over
 
 ### 2.1 Linkage
@@ -649,12 +648,11 @@ Ratio: **13:3** (12 white + 1 white from $iicc$ : 3 coloured).
 | 13:3   | Dominant and recessive interaction | Complex masking between loci                                                     |
 | 9:6:1  | Complementary gene action          | Two dominant alleles needed together for one phenotype; one dominant for another |
 
-:::caution Common Pitfall Students often confuse epistasis with dominance. Remember: dominance
+<aside aria-label="Common Pitfall Students often confuse epistasis with dominance. Remember: dominance" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse epistasis with dominance. Remember: dominance</p>
 operates **within a single gene locus** (alleles of the same gene), while epistasis operates
 **between different gene loci**. When the dihybrid cross ratio deviates from 9:3:3:1, epistasis is
 the likely explanation, not dominance.
-:::
-
+</aside>
 ## 10. Genetic Linkage and Chromosome Mapping
 
 ### 10.1 Two-Point Cross Mapping
@@ -956,12 +954,11 @@ environmental. Most traits have $0 < h^2 < 1$ (both genetic and environmental fa
 
 Human height has $h^2 \approx 0.80$ (highly heritable, but nutrition also plays a significant role).
 
-:::caution Common Pitfall Students often confuse heritability of a trait in a population with the
+<aside aria-label="Common Pitfall Students often confuse heritability of a trait in a population with the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse heritability of a trait in a population with the</p>
 heritability of that trait in an individual. Heritability is a population-level statistic. A high
 heritability for height does not mean that a tall individual's height is "80% genetic" -- it means
 that 80% of the variation in height across the population is due to genetic differences.
-:::
-
+</aside>
 ## 16. Pedigree Analysis: Advanced Problems
 
 ### 16.1 X-Linked Dominant Inheritance
@@ -1114,13 +1111,12 @@ This explains how major changes in body plan can evolve without requiring entire
 changes in the regulation of existing developmental genes (when and where they are expressed) can
 produce dramatic morphological changes.
 
-:::caution Common Pitfall Students often assume that similar structures in different organisms must
+<aside aria-label="Common Pitfall Students often assume that similar structures in different organisms must" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often assume that similar structures in different organisms must</p>
 be controlled by different genes. In fact, homologous structures share the same developmental genes.
 The differences arise from differences in gene regulation (when, where, and how much each gene is
 expressed), not from differences in the genes themselves. This is a key principle of evolutionary
 developmental biology (evo-devo).
-:::
-
+</aside>
 ## 19. Selection Coefficients and Fitness
 
 ### 19.1 Measuring the Strength of Selection
@@ -1158,8 +1154,7 @@ heterozygotes (which are not selected against).
 
 ---
 
-:::tip Diagnostic Test
-
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 15. DNA Technology: Restriction Fragment Length Polymorphism (RFLP)
 
 ### 15.1 Principle
@@ -1311,14 +1306,13 @@ Even after a protein is synthesised, its activity can be regulated:
 | Proteolytic cleavage  | Activates a pro-protein by cutting it                                               | Proinsulin $\to$ insulin; trypsinogen $\to$ trypsin           |
 | Allosteric regulation | Effector molecule binds at a site other than the active site, changing conformation | Haemoglobin (2,3-BPG binding reduces $\mathrm{O_2}$ affinity) |
 
-:::
-:::caution Common Pitfall Students often use the term "junk DNA" to describe non-coding DNA. This
+</aside>
+<aside aria-label="Common Pitfall Students often use the term "junk DNA" to describe non-coding DNA. This" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often use the term "junk DNA" to describe non-coding DNA. This</p>
 term is outdated and misleading. While most non-coding DNA does not code for proteins, it includes
 regulatory elements (promoters, enhancers, silencers), non-coding RNAs (miRNA, lncRNA, snRNA),
 telomeres, centromeres, and origins of replication -- all of which have important functions. The
 correct term is "non-coding DNA."
-:::
-
+</aside>
 ## 19. Quantitative Genetics and Population Genetics Calculations
 
 ### 19.1 Hardy-Weinberg Equilibrium: Advanced Problems

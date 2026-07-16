@@ -54,10 +54,9 @@ Independent variable.
 | Control     | Immersion depth    | Thermistor fully submerged at fixed depth |
 | Control     | Heating rate       | Heat slowly, allow thermal equilibrium    |
 
-:::caution Common Pitfall Students often confuse the independent and dependent variables. A reliable
+<aside aria-label="Common Pitfall Students often confuse the independent and dependent variables. A reliable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse the independent and dependent variables. A reliable</p>
 Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependent variable."
-:::
-
+</aside>
 ### Control Variables in Depth
 
 Control variables are often the most neglected part of experimental design, yet failing to control
@@ -75,10 +74,9 @@ To the independent variable or the uncontrolled factor.
 4. **Monitoring and recording**. If a variable cannot be perfectly controlled, at least measure it
    so its effect can be assessed
 
-:::info Board Coverage AQA Paper 3 Section A | Edexcel CP6 (Core Practical 6) | OCR (A) PAG 1 | CIE
+<aside aria-label="Board Coverage AQA Paper 3 Section A | Edexcel CP6 (Core Practical 6) | OCR (A) PAG 1 | CIE" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board Coverage AQA Paper 3 Section A | Edexcel CP6 (Core Practical 6) | OCR (A) PAG 1 | CIE</p>
 Paper 5 Q1 (Planning)
-:::
-
+</aside>
 - **AQA** and **Edexcel** tend to ask students to identify variables from a given method. Practice
   reading a method description and extracting all three types.
 - **OCR (A)** PAG activities require students to write a full risk assessment, so control variables
@@ -191,10 +189,9 @@ Include:
 
 $$\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}$$
 
-:::caution Common Pitfall Do not confuse these three terms. An experiment can be reliable
+<aside aria-label="Common Pitfall Do not confuse these three terms. An experiment can be reliable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse these three terms. An experiment can be reliable</p>
 (consistent) but invalid (measuring the wrong thing), or valid but inaccurate (systematic error).
-:::
-
+</aside>
 ## 2. Planning an Experiment
 
 When asked to design an experiment, address:
@@ -362,11 +359,10 @@ When asked to write a risk assessment, structure your answer as follows:
   hazard _and_ a corresponding precaution.
 
 
-:::caution Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious
+<aside aria-label="Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not list trivial risks (e.g., "tripping over a bag") when more serious</p>
 Hazards exist. Examiners award marks for identifying the _most significant_ hazards and providing
 Specific, practical control measures. "Be careful" is never an acceptable control measure.
-:::
-
+</aside>
 ## 5. Evaluating Experiments
 
 When asked to evaluate an experiment:
@@ -453,13 +449,11 @@ When a graph is plotted, check:
   experimental contexts helps you spot the relationship between variables quickly.
 
 
-:::tip Exam Technique When asked "how could you improve this experiment?", always be specific.
+<aside aria-label="Exam Technique When asked "how could you improve this experiment?", always be specific." class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When asked "how could you improve this experiment?", always be specific.</p>
 Instead of "use a more accurate instrument", say "use a micrometer instead of a ruler to measure the
 Wire diameter, reducing the uncertainty from $\pm 0.5$ mm to $\pm 0.005$ mm."
-:::
-
-:::danger Common Pitfalls
-
+</aside>
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Stating "repeat and average" without explaining why:** saying you will repeat readings is
   insufficient. You must explain that repeating and averaging REDUCES THE EFFECT OF RANDOM ERRORS.
   It does NOT reduce systematic errors (which affect all readings equally). Distinguish between
@@ -732,4 +726,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

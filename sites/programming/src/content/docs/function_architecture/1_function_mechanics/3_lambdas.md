@@ -335,11 +335,10 @@ int main() {
 }
 ```
 
-:::note Relevance Generic lambdas are the backbone of STL algorithms. `std::sort``std::transform`
+<aside aria-label="Relevance Generic lambdas are the backbone of STL algorithms. `std::sort``std::transform`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance Generic lambdas are the backbone of STL algorithms. `std::sort``std::transform`</p>
 `std::find_if` all accept callable objects, and generic lambdas provide the most ergonomic way to
 Pass custom comparators and predicates.
-:::
-
+</aside>
 ## 3.5 Stateful Lambdas and Lifetime Issues
 
 A lambda that captures by reference holds references to local variables. If the lambda outlives

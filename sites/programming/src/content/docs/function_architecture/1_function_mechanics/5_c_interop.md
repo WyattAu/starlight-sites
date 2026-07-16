@@ -320,12 +320,11 @@ extern "C" {
 }
 ```
 
-:::caution The `reinterpret_cast` approach works on platforms where C and C++ share the same ABI
+<aside aria-label="The `reinterpret_cast` approach works on platforms where C and C++ share the same ABI" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `reinterpret_cast` approach works on platforms where C and C++ share the same ABI</p>
 (pointer size, struct layout, calling convention). This is true for x86-64 Linux/macOS (both use the
 System V ABI). On platforms with divergent C/C++ ABIs, use `void*` handles and pass data through
 C-compatible types only.
-:::
-
+</aside>
 ## 5.4 ABI Boundaries: Name Mangling and Layout
 
 At a C/C++ boundary, several ABI properties must align:
@@ -492,11 +491,10 @@ struct NetworkHeader {
 static_assert(sizeof(NetworkHeader) == 7);  // 1 + 4 + 2 = 7, no padding
 ```
 
-:::caution `#pragma pack` changes the alignment of all members in the struct, which can cause
+<aside aria-label="`#pragma pack` changes the alignment of all members in the struct, which can cause" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`#pragma pack` changes the alignment of all members in the struct, which can cause</p>
 Misaligned access on strict-alignment architectures (ARM, SPARC). Use with caution and document the
 Rationale.
-:::
-
+</aside>
 ## 5.6 Dynamic Library Loading with `dlfcn.h`
 
 POSIX systems provide `dlopen``dlsym``dlclose`And `dlerror` for loading shared libraries at Runtime.
@@ -577,7 +575,7 @@ int main() {
 }
 ```
 
-:::caution The `RTLD_NOW` flag resolves all symbols at load time, surfacing missing symbol errors
+<aside aria-label="The `RTLD_NOW` flag resolves all symbols at load time, surfacing missing symbol errors" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `RTLD_NOW` flag resolves all symbols at load time, surfacing missing symbol errors</p>
 Immediately. `RTLD_LAZY` defers resolution to first use, which can mask errors and cause crashes at
 Unpredictable points. For plugin loading, prefer `RTLD_NOW`.
 
@@ -776,4 +774,4 @@ and past paper questions, is essential for success in examinations.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

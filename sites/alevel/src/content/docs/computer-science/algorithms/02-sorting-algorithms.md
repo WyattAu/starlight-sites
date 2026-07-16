@@ -309,10 +309,9 @@ $$\log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)$$
 Therefore, any comparison-based sorting algorithm requires at least $\Omega(n \log n)$ comparisons
 In the worst case. $\square$
 
-:::info Info Are asymptotically optimal among comparison-based sorts. Non-comparison sorts (radix
+<aside aria-label="Info Are asymptotically optimal among comparison-based sorts. Non-comparison sorts (radix" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Are asymptotically optimal among comparison-based sorts. Non-comparison sorts (radix</p>
 sort, counting Sort) can beat $O(n \log n)$ but have restrictions on key types.
-:::
-
+</aside>
 <hr />
 
 ## Problem Set

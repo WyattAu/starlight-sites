@@ -352,9 +352,9 @@ Total transmitted: 4040 bytes (40 bytes of additional headers due to fragmentati
 **Path MTU Discovery (PMTUD):** The sender sets the DF flag. If a router cannot forward, it returns
 ICMP "Fragmentation Needed" and the sender reduces packet size. Preferred over fragmentation.
 
-:::caution Common Pitfall When subnetting, remember that a `/31` prefix (RFC 3021) has exactly 2
+<aside aria-label="Common Pitfall When subnetting, remember that a `/31` prefix (RFC 3021) has exactly 2" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When subnetting, remember that a `/31` prefix (RFC 3021) has exactly 2</p>
 addresses and is valid for Point-to-point links with no network or broadcast address. A `/32` is a
 single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes of `/30` or shorter.
 
 
-:::
+</aside>

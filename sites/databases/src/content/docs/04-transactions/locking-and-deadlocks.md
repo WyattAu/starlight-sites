@@ -276,9 +276,7 @@ SELECT pg_advisory_xact_lock_shared(12345);
 | Prevent duplicate inserts        | `pg_advisory_xact_lock(hash(data))`      | Auto-released on commit/rollback   |
 | Coordinate deployments           | `pg_advisory_lock(migration_id)`         | Only one migration runs at a time  |
 
-:::info
-
-Advisory locks do not conflict with regular row or table locks. They exist in a separate namespace.
+<aside aria-label="Advisory locks do not conflict with regular row or table locks. They exist in a separate namespace." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Advisory locks do not conflict with regular row or table locks. They exist in a separate namespace.</p>
 Advisory locks on the same bigint value from different sessions conflict, regardless of which
 Application or connection acquired them.
 
@@ -645,10 +643,8 @@ ROLLBACK TO SAVEPOINT sp1;
 COMMIT;
 ```
 
-:::
-:::caution
-
-`ROLLBACK TO SAVEPOINT` releases locks acquired after the savepoint, but it does NOT release
+</aside>
+<aside aria-label="`ROLLBACK TO SAVEPOINT` releases locks acquired after the savepoint, but it does NOT release" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`ROLLBACK TO SAVEPOINT` releases locks acquired after the savepoint, but it does NOT release</p>
 Advisory locks. Advisory locks are always held until the transaction ends or explicitly released,
 Regardless of savepoints.
 
@@ -957,4 +953,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

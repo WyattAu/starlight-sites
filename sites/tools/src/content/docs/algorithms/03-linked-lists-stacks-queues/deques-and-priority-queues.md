@@ -168,9 +168,7 @@ class LinkedListDeque:
 | Rust     | `VecDeque`          | Ring buffer     | $O(1)$ all operations        |
 | Go       | None (use slice)    | N/A             | Manual implementation needed |
 
-:::info
-
-Python's `collections.deque` is implemented as a doubly-linked list of fixed-size blocks (default
+<aside aria-label="Python's `collections.deque` is implemented as a doubly-linked list of fixed-size blocks (default" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Python's `collections.deque` is implemented as a doubly-linked list of fixed-size blocks (default</p>
 Block size is 64 elements). This gives $O(1)$ amortised operations with good cache locality — much
 Better than a naive linked list but slightly worse than a pure circular buffer for sequential
 Access.
@@ -257,10 +255,8 @@ def heapify(arr):
     return arr
 ```
 
-:::
-:::tip
-
-**Why `heapify` is $O(n)$Not $O(n \log n)$**: The cost of sifting down a node at height $h$ is
+</aside>
+<aside aria-label="**Why `heapify` is $O(n)$Not $O(n \log n)$**: The cost of sifting down a node at height $h$ is" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>**Why `heapify` is $O(n)$Not $O(n \log n)$**: The cost of sifting down a node at height $h$ is</p>
 $O(h)$. There are at most $\lceil n / 2^{h+1} \rceil$ nodes at height $h$. The total cost is
 $\sum_{h=0}^{\lfloor \log n \rfloor} \lceil n / 2^{h+1} \rceil \cdot O(h) = O(n \sum_{h=0}^{\infty} h / 2^{h}) = O(n)$.
 The key insight is that most nodes are near the bottom of the tree and require little or no sifting.
@@ -692,10 +688,8 @@ Times relative to `extract_min`. In practice:
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 
-:::
-:::caution
-
-Fibonacci heaps are primarily of theoretical interest. The constant factors are so large that binary
+</aside>
+<aside aria-label="Fibonacci heaps are primarily of theoretical interest. The constant factors are so large that binary" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Fibonacci heaps are primarily of theoretical interest. The constant factors are so large that binary</p>
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
 That achieves the same amortised bounds for most operations.
 
@@ -952,10 +946,8 @@ auto cmp = [](const pair<int,int>& a, const pair<int,int>& b) {
 std::priority_queue<pair<int,int>, vector<pair<int,int>>, decltype(cmp)> pq(cmp);
 ```
 
-:::
-:::info
-
-Python's `heapq` is a **min-heap**. For a max-heap, negate the values: push `(-x, x)` and pop
+</aside>
+<aside aria-label="Python's `heapq` is a **min-heap**. For a max-heap, negate the values: push `(-x, x)` and pop" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Python's `heapq` is a **min-heap**. For a max-heap, negate the values: push `(-x, x)` and pop</p>
 `(-neg_x, x)`. C++ `std::priority_queue` is a **max-heap** by default; use `std::greater` for a
 Min-heap.
 
@@ -1032,4 +1024,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

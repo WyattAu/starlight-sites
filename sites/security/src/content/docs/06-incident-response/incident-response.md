@@ -308,9 +308,7 @@ Actions that allow business to continue while the investigation proceeds:
 
 ### Evidence Preservation
 
-:::caution
-
-Before any containment action that may alter the system state, preserve volatile evidence. Once a
+<aside aria-label="Before any containment action that may alter the system state, preserve volatile evidence. Once a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Before any containment action that may alter the system state, preserve volatile evidence. Once a</p>
 System is rebooted or powered off, volatile data is permanently lost.
 
 
@@ -392,10 +390,8 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 6. **Update firewall rules**: Block any attacker infrastructure (C2 servers, exfil endpoints)
 7. **Verify integrity**: Compare critical files against known-good versions or checksums
 
-:::
-:::caution
-
-Do not trust the compromised system. The attacker may have installed rootkits, modified binaries, or
+</aside>
+<aside aria-label="Do not trust the compromised system. The attacker may have installed rootkits, modified binaries, or" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not trust the compromised system. The attacker may have installed rootkits, modified binaries, or</p>
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
 From known-good images rather than attempting in-place cleanup.
 
@@ -628,10 +624,8 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | CCPA       | "Expeditious"                             | California Attorney General         |
 | NIS2 (EU)  | 24 hours (early warning), 72 hours (full) | National CSIRT                      |
 
-:::
-:::caution
-
-Regulatory requirements vary by jurisdiction and data type. Engage legal counsel early. Failure to
+</aside>
+<aside aria-label="Regulatory requirements vary by jurisdiction and data type. Engage legal counsel early. Failure to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Regulatory requirements vary by jurisdiction and data type. Engage legal counsel early. Failure to</p>
 Notify within the required timeframe can result in significant fines on top of the incident's direct
 Costs. GDPR fines for late notification can reach 10 million EUR or 2% of global annual revenue.
 
@@ -833,10 +827,8 @@ What you can do: [specific actions for the user]
 For more information: [contact details, FAQ link]
 ```
 
-:::
-:::info
-
-**Reference Standards**: NIST SP 800-61 Rev. 2 (Computer Security Incident Handling Guide), NIST SP
+</aside>
+<aside aria-label="**Reference Standards**: NIST SP 800-61 Rev. 2 (Computer Security Incident Handling Guide), NIST SP" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Reference Standards**: NIST SP 800-61 Rev. 2 (Computer Security Incident Handling Guide), NIST SP</p>
 800-86 (Guide to Integrating Forensic Techniques into Incident Response), NIST SP 800-83 (Guide to
 Malware Incident Prevention and Handling), RFC 3227 (Guidelines for Evidence Collection and
 Archiving), MITRE ATT&CK Framework, ISO/IEC 27035 (Information Security Incident Management), NIST
@@ -865,4 +857,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

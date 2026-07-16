@@ -196,7 +196,7 @@ int main() {
 }
 ```
 
-:::caution A forwarding reference is **only** formed when the type deduction context is a function
+<aside aria-label="A forwarding reference is **only** formed when the type deduction context is a function" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A forwarding reference is **only** formed when the type deduction context is a function</p>
 Parameter of the form `T&&` where `T` is a template parameter of the function template itself. The
 Following are **not** forwarding references:
 
@@ -204,8 +204,7 @@ Following are **not** forwarding references:
   parameter)
 - `T&amp;&amp;` in a class template member function where T is the class template parameter
 - `const T&amp;&amp;` (the `const` prevents the forwarding reference interpretation)
-:::
-
+</aside>
 ### Array-to-Pointer and Function-to-Pointer Decay
 
 Arrays and functions decay to pointers during deduction unless the parameter is a reference:
@@ -327,11 +326,10 @@ int main() {
 }
 ```
 
-:::note CTAD only works when there is exactly one viable deduction. If the constructor template and
+<aside aria-label="CTAD only works when there is exactly one viable deduction. If the constructor template and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>CTAD only works when there is exactly one viable deduction. If the constructor template and</p>
 The class template both participate in deduction and produce conflicting results, deduction fails
 [N4950 S16.3.1.7].
-:::
-
+</aside>
 ### CTAD Rules [N4950 S16.3.1.3]
 
 The CTAD process follows a specific algorithm:

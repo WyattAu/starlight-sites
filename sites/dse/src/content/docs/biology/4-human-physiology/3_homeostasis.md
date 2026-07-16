@@ -68,7 +68,7 @@ is completed.
 | Blood clotting           | When a vessel is damaged, clotting factors are activated in a cascade; each step activates more factors, amplifying the response until a clot forms.                                                                                                                                                                   |
 | Childbirth (parturition) | The baby"s head pushes against the cervix, stimulating stretch receptors. Impulses cause the posterior pituitary to release oxytocin, which causes stronger uterine contractions. Stronger contractions push the baby further against the cervix, stimulating more oxytocin release. This cycle continues until birth. |
 
-:::caution A common DSE pitfall is to assume all feedback loops are negative. The DSE specification
+<aside aria-label="A common DSE pitfall is to assume all feedback loops are negative. The DSE specification" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common DSE pitfall is to assume all feedback loops are negative. The DSE specification</p>
 requires knowledge of positive feedback examples (ovulation and childbirth are the most commonly
 tested). Remember: negative feedback maintains homeostasis; positive feedback amplifies change and
 does NOT maintain a constant internal environment.
@@ -1105,4 +1105,4 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

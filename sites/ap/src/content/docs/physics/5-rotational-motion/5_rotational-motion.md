@@ -636,10 +636,9 @@ $$\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s$$
 The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
 
-:::info Info Momentum vector. Instead of tipping over, the angular momentum vector rotates
+<aside aria-label="Info Momentum vector. Instead of tipping over, the angular momentum vector rotates" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Momentum vector. Instead of tipping over, the angular momentum vector rotates</p>
 horizontally. This is The same principle behind gyrocompasses and spacecraft attitude control.
-:::
-
+</aside>
 ### Example 17: Moment of Inertia of a Composite Object
 
 A uniform rod of mass $3 \mathrm{ kg$ and length $2 \mathrm{ m$ has a point mass of $2 \mathrm{ kg$
@@ -731,11 +730,10 @@ $$a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} =
 
 $$T = 1.8 \times 0.516 = 0.929 \mathrm{ N$$
 
-:::info The yo-yo falls much more slowly than free fall ($0.516 \mathrm{ m/s^2$ vs
+<aside aria-label="The yo-yo falls much more slowly than free fall ($0.516 \mathrm{ m/s^2$ vs" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The yo-yo falls much more slowly than free fall ($0.516 \mathrm{ m/s^2$ vs</p>
 $9.8 \mathrm{ m/s^2$) because gravitational PE is converted into both translational and rotational
 KE. The smaller the axle radius, the slower the fall, since more of the energy goes into rotation.
-:::
-
+</aside>
 ## Common Pitfalls Extended
 
 ### Pitfall 6: Using the Wrong Radius in Torque Calculations

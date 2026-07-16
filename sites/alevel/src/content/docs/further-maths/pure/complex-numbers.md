@@ -11,10 +11,9 @@ categories: [Mathematics]
 This document provides a rigorous treatment of modulus-argument form, De Moivre's theorem, roots of
 Complex numbers, loci in the Argand diagram, and Euler's formula.
 
-:::info Complex numbers unify algebra and geometry in a powerful way. Many results that are
+<aside aria-label="Complex numbers unify algebra and geometry in a powerful way. Many results that are" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Complex numbers unify algebra and geometry in a powerful way. Many results that are</p>
 Difficult to prove in real analysis become straightforward when extended to the complex plane.
-:::
-
+</aside>
 <hr />
 
 ## 1. Modulus-Argument Form
@@ -302,10 +301,9 @@ Equating arguments: $y = \dfrac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2k\pi$ for
 
 $$z = \ln 2 + i\!\left(\frac◆LB◆\pi◆RB◆◆LB◆3◆RB◆ + 2k\pi\right), \quad k \in \mathbb{Z}$$
 
-:::caution Common Pitfall The complex exponential is periodic with period $2\pi i$So equations of
+<aside aria-label="Common Pitfall The complex exponential is periodic with period $2\pi i$So equations of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The complex exponential is periodic with period $2\pi i$So equations of</p>
 The form $e^z = w$ have infinitely many solutions. Always include the general solution with $2k\pi$.
-:::
-
+</aside>
 <hr />
 
 ## 5. Practice Problems
@@ -426,8 +424,7 @@ $\blacksquare$
 
 ## 7. Common Pitfalls
 
-:::caution warning
-
+<aside aria-label="warning" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>warning</p>
 1. **Argument range:** Always specify whether your argument is the principal value $(-\pi, \pi]$ or
    the general value. When multiplying or dividing complex numbers, the resulting argument may fall
    outside the principal range and must be adjusted.
@@ -1101,4 +1098,4 @@ including key theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
-:::
+</aside>

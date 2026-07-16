@@ -306,13 +306,12 @@ Photorespiration can reduce the efficiency of photosynthesis by $25$--$50\%$ in 
 plants under hot, dry conditions. $\mathrm{C_4}$ and CAM plants have evolved mechanisms to minimise
 photorespiration (see Section 7).
 
-:::caution Common Pitfall Students often refer to the Calvin cycle as the "light-independent
+<aside aria-label="Common Pitfall Students often refer to the Calvin cycle as the "light-independent" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often refer to the Calvin cycle as the "light-independent</p>
 reactions" and state that they "do not require light." While the Calvin cycle itself does not
 directly use light, it is dependent on the products of the light-dependent reactions (ATP and
 $\mathrm{NADPH}$), which cease in the dark. In practice, the Calvin cycle stops within seconds of
 placing a plant in darkness because ATP and $\mathrm{NADPH}$ are rapidly depleted.
-:::
-
+</aside>
 ## 6. Limiting Factors
 
 ### 6.1 Principle of Limiting Factors
@@ -459,13 +458,12 @@ night is limited) but extremely high water-use efficiency.
 | ATP cost per $\mathrm{CO_2}$ | 3 ATP                             | 5 ATP                                     | 5 ATP                                     |
 | Examples                     | Wheat, rice, soybean, trees       | Maize, sugarcane, sorghum                 | Cacti, pineapple, orchids, aloe vera      |
 
-:::caution Common Pitfall Students often write that "$\mathrm{C_4}$ plants do not use the Calvin
+<aside aria-label="Common Pitfall Students often write that "$\mathrm{C_4}$ plants do not use the Calvin" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that "$\mathrm{C_4}$ plants do not use the Calvin</p>
 cycle." $\mathrm{C_4}$ plants do use the Calvin cycle -- it occurs in the bundle sheath cells, not
 in the mesophyll cells. The $\mathrm{C_4}$ pathway is a supplementary $\mathrm{CO_2}$-concentrating
 mechanism that feeds $\mathrm{CO_2}$ into the Calvin cycle. Both pathways are present and operate
 together.
-:::
-
+</aside>
 ## 8. Practical Investigations
 
 ### 8.1 Measuring the Rate of Photosynthesis
@@ -815,11 +813,10 @@ $\mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$Then plateaus. At very high intensitie
 barely increases, indicating that another factor ($\mathrm{CO_2}$ concentration or temperature) has
 become limiting.
 
-:::caution Common Pitfall Students often plot rate against distance from the lamp rather than light
+<aside aria-label="Common Pitfall Students often plot rate against distance from the lamp rather than light" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often plot rate against distance from the lamp rather than light</p>
 intensity. Light intensity follows the inverse square law ($I \propto 1/d^2$), so the rate vs.
 Distance graph is non-linear. Always convert distances to light intensity values before plotting.
-:::
-
+</aside>
 ## 13. The Global Carbon Cycle and Photosynthesis
 
 ### 13.1 Photosynthesis as a Carbon Sink
@@ -1055,14 +1052,13 @@ Above the optimum, the rate declines because:
   activity).
 - Stomata close to reduce water loss, reducing $\mathrm{CO_2}$ uptake.
 
-:::caution Common Pitfall When asked "what is the limiting factor at point X on a graph," students
+<aside aria-label="Common Pitfall When asked "what is the limiting factor at point X on a graph," students" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When asked "what is the limiting factor at point X on a graph," students</p>
 often say "temperature" when the graph shows rate vs $\mathrm{CO_2}$. The limiting factor is the
 factor that is NOT on the x-axis -- the factor held constant. If the graph shows rate vs
 $\mathrm{CO_2}$ concentration and the curve has plateaued, the limiting factor is light intensity or
 temperature (whichever is held constant). Always identify which factor is being manipulated and
 which are held constant.
-:::
-
+</aside>
 ## 23. Investigating Factors Affecting the Rate of Photosynthesis
 
 ### 23.1 Using Hydrogencarbonate Indicator: Detailed Method
@@ -1113,8 +1109,7 @@ relationship between rate and distance is non-linear.
 
 ---
 
-:::tip Diagnostic Test
-
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 22. Photosynthesis and Agriculture: Maximising Crop Yield
 
 ### 22.1 The Light Compensation Point in Different Plants
@@ -1177,9 +1172,8 @@ Daily electricity cost $= 139 \times \pounds 0.15 = \pounds 20.85$.
 
 ---
 
-:::
-:::tip Diagnostic Test
-
+</aside>
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 18. The Chloroplast: Structure and Adaptations
 
 ### 18.1 Chloroplast Anatomy
@@ -1435,8 +1429,8 @@ TP produced in the Calvin cycle has several fates:
    $\mathrm{NH_4^+}$) in a process called nitrogen assimilation.
 
 
-:::
-:::caution Common Pitfall Students often think that the Calvin cycle directly produces glucose. In
+</aside>
+<aside aria-label="Common Pitfall Students often think that the Calvin cycle directly produces glucose. In" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often think that the Calvin cycle directly produces glucose. In</p>
 fact, the Calvin cycle produces TP (a 3-carbon compound), which must then be converted to glucose
 (6C) by joining two TP molecules. Only some TP molecules are exported from the chloroplast; the rest
 are used to regenerate RuBP. For every 6 molecules of $\mathrm{CO_2}$ fixed, the cycle produces 2
@@ -2310,9 +2304,8 @@ in shortest supply. At any given moment, only one factor limits the rate of phot
 
 ---
 
-:::
-:::tip Diagnostic Test
-
+</aside>
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## Common Pitfalls
 
 1. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.
@@ -2373,4 +2366,4 @@ $\blacksquare$
 - Chloroplast structure (grana, thylakoids, stroma) is adapted to maximise light absorption and
   enzyme concentration.
 
-:::
+</aside>

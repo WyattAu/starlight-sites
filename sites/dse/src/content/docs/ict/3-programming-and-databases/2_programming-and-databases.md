@@ -29,10 +29,9 @@ PI = 3.14159
 MAX_STUDENTS = 40
 ```
 
-:::info In DSE ICT, constants are written in UPPER_CASE to distinguish them from Variables. Using
+<aside aria-label="In DSE ICT, constants are written in UPPER_CASE to distinguish them from Variables. Using" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In DSE ICT, constants are written in UPPER_CASE to distinguish them from Variables. Using</p>
 constants improves code readability and reduces errors.
-:::
-
+</aside>
 ### Input and Output
 
 ```python
@@ -160,11 +159,10 @@ while True:
     print("Try again")
 ```
 
-:::caution Be careful with WHILE loops to avoid infinite loops. Always ensure the loop condition
+<aside aria-label="Be careful with WHILE loops to avoid infinite loops. Always ensure the loop condition" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Be careful with WHILE loops to avoid infinite loops. Always ensure the loop condition</p>
 Will eventually become False. A common mistake is forgetting to update the loop variable inside the
 Loop body.
-:::
-
+</aside>
 ### Worked Example 1
 
 Write a program to find the largest of three numbers.
@@ -262,10 +260,9 @@ add_to_total(20)
 print("Total:", total)  # Output: Total: 30
 ```
 
-:::tip Avoid using global variables where possible. They make code harder to debug and maintain.
+<aside aria-label="Avoid using global variables where possible. They make code harder to debug and maintain." class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Avoid using global variables where possible. They make code harder to debug and maintain.</p>
 Instead, pass values as parameters and return results.
-:::
-
+</aside>
 ### Worked Example 3
 
 Write a function to calculate the factorial of a number.
@@ -503,14 +500,12 @@ with open("data.txt", "r") as file:
     content = file.read()
 ```
 
-:::info File modes:
-
+<aside aria-label="File modes:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>File modes:</p>
 - `"r"`: read (default)
 - `"w"`: write (overwrites existing content)
 - `"a"`: append (adds to existing content)
 - `"r+"`: read and write
-:::
-
+</aside>
 ---
 
 ## Database Concepts
@@ -592,10 +587,9 @@ Normalisation is the process of organising data to minimise redundancy and depen
 - In 2NF
 - No transitive dependencies (non-key attributes do not depend on other non-key attributes)
 
-:::tip A simple check for 3NF: every non-key field must depend on the key, the whole key, and
+<aside aria-label="A simple check for 3NF: every non-key field must depend on the key, the whole key, and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>A simple check for 3NF: every non-key field must depend on the key, the whole key, and</p>
 Nothing but the key.
-:::
-
+</aside>
 ### Worked Example 5
 
 Convert the following unnormalised data to 3NF.
@@ -683,10 +677,9 @@ DELETE FROM Student
 WHERE Score < 50;
 ```
 
-:::caution Be very careful with UPDATE and DELETE without a WHERE clause. They will modify or delete
+<aside aria-label="Be very careful with UPDATE and DELETE without a WHERE clause. They will modify or delete" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Be very careful with UPDATE and DELETE without a WHERE clause. They will modify or delete</p>
 ALL records in the table. Always double-check your WHERE clause before executing.
-:::
-
+</aside>
 ### Data Query Language (DQL)
 
 **Basic SELECT:**
@@ -1288,8 +1281,7 @@ iterates through the array again to count scores above average, and outputs both
 </details>
 
 
-:::danger Common Pitfalls
-
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Confusing SQL WHERE and HAVING clauses:** WHERE filters individual ROWS before grouping. HAVING
   filters GROUPS after a GROUP BY clause. Use WHERE for conditions on individual records (e.g.,
   price &gt; 100) and HAVING for conditions on aggregate values (e.g., COUNT(\*) &gt; 5). Applying
@@ -1310,7 +1302,6 @@ iterates through the array again to count scores above average, and outputs both
   another table, establishing a relationship. A field can be both a primary key in its own table and
   a foreign key referencing another table.
 
-:::
-
+</aside>
 ## Worked Examples
 

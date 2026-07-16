@@ -184,9 +184,7 @@ $$
 $$
 
 :::
-:::caution
-
-Always write subshells in order of increasing $n$ first, then $l$ (i.e., $4s^2\, 3d^6$Not
+<aside aria-label="Always write subshells in order of increasing $n$ first, then $l$ (i.e., $4s^2\, 3d^6$Not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always write subshells in order of increasing $n$ first, then $l$ (i.e., $4s^2\, 3d^6$Not</p>
 $3d^6\, 4s^2$). When writing configurations for ions, remove electrons from the highest $n$ value
 First: $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
 
@@ -301,7 +299,7 @@ Nuclei of adjacent atoms in the solid or liquid), which is significantly larger 
 | Ionic radius increases down a group         | Additional shells                                                    |
 | Across a period, ions decrease in size      | Isoelectronic series: same number of electrons, increasing $Z$       |
 
-:::
+</aside>
 :::info[Example — Isoelectronic series]
 
 $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \mathrm{Al}^{3+}$
@@ -735,9 +733,7 @@ Splitting are **weak-field ligands**.
 | $[\mathrm{CoCl}_4]^{2-}$                                        | Blue            | Yellow/orange   |
 
 :::
-:::caution
-
-A substance is colourless if either: (a) it has no $d$-electrons (e.g., $\mathrm{Sc}^{3+}$
+<aside aria-label="A substance is colourless if either: (a) it has no $d$-electrons (e.g., $\mathrm{Sc}^{3+}$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A substance is colourless if either: (a) it has no $d$-electrons (e.g., $\mathrm{Sc}^{3+}$</p>
 $[\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{4+}$ has $d^0$), or (b) it has a full $d$-subshell (e.g.,
 $\mathrm{Zn}^{2+}$$[\mathrm{Cu}(\mathrm{NH}_3)_4]^+$ has $d^{10}$). In both cases, there are no
 $d$-$d$ transitions possible.
@@ -884,7 +880,7 @@ A mass spectrum plots **relative abundance** (y-axis) against **$m/z$** (x-axis)
 For a single element, the mass spectrum shows peaks at each isotope's mass, with heights
 Proportional to natural abundance.
 
-:::
+</aside>
 :::info[Example — Boron]
 
 Boron has two isotopes: $\mathrm{B}$-10 ($19.9\%$) and $\mathrm{B}$-11 ($80.1\%$).
@@ -1332,8 +1328,7 @@ $\mathrm{Na}^+$ is smaller than $\mathrm{F}^-$ even though $\mathrm{Na}$ has a l
 Than $\mathrm{F}$.
 
 
-:::danger Common Pitfalls
-
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Confusing first ionisation energy with electronegativity:** First ionisation energy is the
   energy required to REMOVE the outermost electron from a gaseous atom. Electronegativity is the
   ability of an atom to ATTRACT electrons in a covalent bond. Both generally increase across a
@@ -1356,8 +1351,7 @@ Than $\mathrm{F}$.
   p4 electron is paired with another electron in the same orbital, creating repulsion. These
   exceptions are frequently tested in IB exams.
 
-:::
-
+</aside>
 :::
 
 ## Practice Problems

@@ -30,10 +30,9 @@ Sub-components:
 | **Instruction Register (IR)**     | Holds the current instruction being decoded and executed                 |
 | **Status Register (Flags)**       | Stores flags such as Zero, Carry, Negative, Overflow from ALU operations |
 
-:::info Registers are the fastest memory in a computer system — orders of magnitude faster than RAM.
+<aside aria-label="Registers are the fastest memory in a computer system — orders of magnitude faster than RAM." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Registers are the fastest memory in a computer system — orders of magnitude faster than RAM.</p>
 A typical CPU has a small number of general-purpose registers (8--32 in most architectures).
-:::
-
+</aside>
 ### Memory Types
 
 | Type    | Full Name            | Volatile? | Read/Write | Speed           | Typical Use                                |
@@ -431,7 +430,7 @@ $185_{10} = 000110000101_{BCD}$
 - UTF-16: 2 or 4 bytes per character.
 - UTF-32: fixed 4 bytes per character.
 
-:::info Key difference: ASCII uses 1 byte per character and covers only English and basic symbols.
+<aside aria-label="Key difference: ASCII uses 1 byte per character and covers only English and basic symbols." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Key difference: ASCII uses 1 byte per character and covers only English and basic symbols.</p>
 Unicode covers all writing systems but uses more storage. UTF-8 is the most widely used encoding on
 The internet.
 
@@ -977,4 +976,4 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

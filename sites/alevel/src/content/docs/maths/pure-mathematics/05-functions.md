@@ -242,10 +242,9 @@ $y = f(ax)$The same $y$-value occurs when $ax = x_0$I.e., $x = \frac{x_0}{a}$. S
 $(\frac{x_0}{a}, y_0)$ is on the new graph — a horizontal stretch by factor $\frac{1}{a}$.
 $\blacksquare$
 
-:::caution Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and
+<aside aria-label="Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Horizontal transformations are "backwards": $f(x - a)$ shifts **right** (not left), and</p>
 $f(ax)$ stretches by $\frac{1}{a}$ (not $a$). This is the single most common error in this topic.
-:::
-
+</aside>
 ### 5.4 Combined Transformations
 
 When multiple transformations are applied, the order matters. The convention is:
@@ -418,10 +417,9 @@ Vertical transformations interact differently.
 2. Apply vertical transformations **second**: vertical stretch by $|a|$Reflection if $a < 0$Then
    vertical shift $d$.
 
-:::caution Common Pitfall The horizontal shift in $f(bx + c)$ is $-c/b$NOT $-c$. The stretch
+<aside aria-label="Common Pitfall The horizontal shift in $f(bx + c)$ is $-c/b$NOT $-c$. The stretch" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The horizontal shift in $f(bx + c)$ is $-c/b$NOT $-c$. The stretch</p>
 "absorbs" part of the shift. This is the single most common error in transformation problems.
-:::
-
+</aside>
 <details>
 <summary>Example</summary>
 Describe the transformations mapping $y = x^2$ to $y = 3(2x - 4)^2 + 5$.
@@ -740,7 +738,7 @@ $\left(\frac{-2+1}{3}, 2 \times 5 + 4\right) = \left(-\frac{1}{3}, 14\right)$.
 
 ---
 
-:::tip Tip Ready to test your understanding of **Functions**? The contains the hardest questions
+<aside aria-label="Tip Ready to test your understanding of **Functions**? The contains the hardest questions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Functions**? The contains the hardest questions</p>
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Functions
@@ -748,8 +746,7 @@ with other pure mathematics topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

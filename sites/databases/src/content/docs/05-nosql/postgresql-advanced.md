@@ -302,9 +302,7 @@ WHERE r.created_at >= '2024-01-01'
 GROUP BY u.name;
 ```
 
-:::caution
-
-FDW queries may fetch entire remote tables locally for joins, sorts, and aggregations that cannot be
+<aside aria-label="FDW queries may fetch entire remote tables locally for joins, sorts, and aggregations that cannot be" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>FDW queries may fetch entire remote tables locally for joins, sorts, and aggregations that cannot be</p>
 Pushed down. Use `EXPLAIN (VERBOSE)` to verify what is pushed down and what is executed locally. For
 Large datasets, consider materializing the data instead.
 
@@ -402,10 +400,8 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-07-01';
 -- Parameters from prepared statements may prevent pruning
 ```
 
-:::
-:::caution
-
-Unique constraints on partitioned tables must include the partition key. A `UNIQUE(order_id)`
+</aside>
+<aside aria-label="Unique constraints on partitioned tables must include the partition key. A `UNIQUE(order_id)`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Unique constraints on partitioned tables must include the partition key. A `UNIQUE(order_id)`</p>
 Constraint across all partitions is not supported. Instead, use `UNIQUE(order_id, created_at)` or
 Enforce uniqueness at the application level.
 
@@ -780,10 +776,8 @@ SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 20;
 SELECT cron.unschedule('nightly-vacuum');
 ```
 
-:::
-:::info
-
-Pg_cron requires `shared_preload_libraries = 'pg_cron'` and a PostgreSQL restart. Jobs run in the
+</aside>
+<aside aria-label="Pg_cron requires `shared_preload_libraries = 'pg_cron'` and a PostgreSQL restart. Jobs run in the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Pg_cron requires `shared_preload_libraries = 'pg_cron'` and a PostgreSQL restart. Jobs run in the</p>
 Context of the database where pg_cron is installed. Cross-database scheduling is not supported.
 
 
@@ -910,10 +904,8 @@ Each table gets its own topic.
 Events include: before/after images, operation type, transaction metadata.
 ```
 
-:::
-:::caution
-
-Logical replication slots retain WAL until the consumer acknowledges all changes. If the consumer
+</aside>
+<aside aria-label="Logical replication slots retain WAL until the consumer acknowledges all changes. If the consumer" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Logical replication slots retain WAL until the consumer acknowledges all changes. If the consumer</p>
 Stops or falls behind, WAL accumulates on disk, potentially filling the storage. Monitor slot lag:
 
 ```sql
@@ -1100,4 +1092,4 @@ $\blacksquare$
   a fixed schema.
 
 
-:::
+</aside>

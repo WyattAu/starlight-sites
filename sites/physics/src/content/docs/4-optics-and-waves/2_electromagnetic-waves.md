@@ -200,7 +200,7 @@ sign of $r_s$ indicates a phase shift of $\pi$ upon reflection.
 
 </details>
 
-:::caution Common Pitfall The Fresnel coefficients $r_s$ and $r_p$ have different forms. A common
+<aside aria-label="Common Pitfall The Fresnel coefficients $r_s$ and $r_p$ have different forms. A common" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Fresnel coefficients $r_s$ and $r_p$ have different forms. A common</p>
 error is to swap the $n_1\cos\theta_i$ and $n_2\cos\theta_t$ terms. Remember: for $r_s$The numerator
 starts with $n_1\cos\theta_i$; for $r_p$The numerator starts with $n_2\cos\theta_i$. Also, $r$ and
 $t$ are Amplitude coefficients, while $R$ and $T$ are energy coefficients — they are related but not
@@ -258,4 +258,4 @@ m$^{-1}$.
 </details>
 
 
-:::
+</aside>

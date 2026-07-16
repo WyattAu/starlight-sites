@@ -285,9 +285,7 @@ def is_valid_bst(root):
     return validate(root, float('-inf'), float('inf'))
 ```
 
-:::caution
-
-A common mistake is checking only that `node.left.val \lt node.val \lt node.right.val`. This is
+<aside aria-label="A common mistake is checking only that `node.left.val \lt node.val \lt node.right.val`. This is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common mistake is checking only that `node.left.val \lt node.val \lt node.right.val`. This is</p>
 Insufficient — the BST property requires that **all** values in the left subtree are less than
 `node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
@@ -378,10 +376,8 @@ individual lookups.
 Red-black trees are used in the Linux kernel (for `CFS` scheduler, `mm` memory management), Java's
 `TreeMap`/`TreeSet`C++ `std::map`/`std::set`And many other standard library implementations.
 
-:::
-:::info
-
-**AVL vs Red-Black:** Use AVL when lookups dominate (databases, dictionaries). Use red-black when
+</aside>
+<aside aria-label="**AVL vs Red-Black:** Use AVL when lookups dominate (databases, dictionaries). Use red-black when" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**AVL vs Red-Black:** Use AVL when lookups dominate (databases, dictionaries). Use red-black when</p>
 Insertions and deletions are frequent (schedulers, event queues). In practice, the difference is
 Small for most workloads.
 
@@ -597,10 +593,8 @@ class GraphMatrix:
 | Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
 
-:::
-:::info
-
-Use adjacency lists for sparse graphs (most real-world graphs — social networks, web graphs, road
+</aside>
+<aside aria-label="Use adjacency lists for sparse graphs (most real-world graphs — social networks, web graphs, road" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use adjacency lists for sparse graphs (most real-world graphs — social networks, web graphs, road</p>
 Networks). Use adjacency matrices for dense graphs (fully connected or nearly so) or when you need
 $O(1)$ edge existence checks.
 
@@ -947,4 +941,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

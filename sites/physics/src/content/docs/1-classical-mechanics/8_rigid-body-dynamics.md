@@ -110,7 +110,7 @@ For stability, the coefficient must be negative. This requires $(I_1 - I_3)(I_1 
 $I_1$ is either the largest or smallest. If $I_1$ is intermediate, the perturbation grows
 exponentially. $\blacksquare$
 
-:::caution Common Pitfall The intermediate axis theorem (tennis racket theorem / Dzhanibekov effect)
+<aside aria-label="Common Pitfall The intermediate axis theorem (tennis racket theorem / Dzhanibekov effect)" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The intermediate axis theorem (tennis racket theorem / Dzhanibekov effect)</p>
 is counterintuitive: a Rigid body spinning about its intermediate axis is unstable. This is not a
 violation of angular Momentum conservation --- the angular momentum vector remains fixed in space,
 but the body Tumbles relative to it.
@@ -225,4 +225,4 @@ $\blacksquare$
 </details>
 
 
-:::
+</aside>

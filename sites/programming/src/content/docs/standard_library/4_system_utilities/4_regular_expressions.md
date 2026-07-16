@@ -29,7 +29,7 @@ The library provides three main operations:
 | `std::regex_search(str, regex)`       | Returns `true` if **any part** of the string matches      |
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
 
-:::caution `std::regex` is notoriously slow on many standard library implementations (particularly
+<aside aria-label="`std::regex` is notoriously slow on many standard library implementations (particularly" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::regex` is notoriously slow on many standard library implementations (particularly</p>
 GCC"s libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
 Consider:
 
@@ -38,8 +38,7 @@ Consider:
 - **Hand-written parsers:** for simple patterns (e.g., email validation, URL parsing), a
   hand-written parser is often faster and more readable.
 - **RE2:** Google's regex library with guaranteed linear-time matching.
-:::
-
+</aside>
 ### `std::regex_match` and `std::regex_search`
 
 ```cpp
@@ -120,10 +119,9 @@ void regex_replace_demo() {
 }
 ```
 
-:::note In the replacement string, `$&` refers to the entire match, `$1`..`$9` refer to capture
+<aside aria-label="In the replacement string, `$&` refers to the entire match, `$1`..`$9` refer to capture" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In the replacement string, `$&` refers to the entire match, `$1`..`$9` refer to capture</p>
 groups, and `$$` is a literal `$`. These are defined in [N4950 §30.9.4].
-:::
-
+</aside>
 ### Email Validation with Regex
 
 ```cpp
@@ -214,11 +212,10 @@ void catastrophic_backtracking_demo() {
 }
 ```
 
-:::caution Avoid nested quantifiers in regex patterns: `(a+)+``(a*)*``(a+)*`. These can trigger
+<aside aria-label="Avoid nested quantifiers in regex patterns: `(a+)+``(a*)*``(a+)*`. These can trigger" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Avoid nested quantifiers in regex patterns: `(a+)+``(a*)*``(a+)*`. These can trigger</p>
 Exponential backtracking on inputs that nearly match. If you must use them, set a timeout or use a
 Library with guaranteed linear-time matching (RE2, hyperscan).
-:::
-
+</aside>
 ### Regex Grammars and Flags
 
 `std::regex` supports multiple regex grammars selectable via the `std::regex::flag_type` bitmask

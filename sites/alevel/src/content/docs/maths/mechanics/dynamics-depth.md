@@ -12,11 +12,10 @@ categories: [Mathematics]
 This document provides a rigorous treatment of Newton's laws, connected particles, pulleys,
 friction, Inclined planes, momentum, and impulse.
 
-:::info A solid understanding of free-body diagrams is essential for all of the material in this
+<aside aria-label="A solid understanding of free-body diagrams is essential for all of the material in this" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A solid understanding of free-body diagrams is essential for all of the material in this</p>
 document. Always draw a clear diagram showing all forces acting on each body before writing any
 equations.
-:::
-
+</aside>
 <hr />
 
 ## 1. Newton's Laws of Motion
@@ -67,11 +66,10 @@ $$R - mg = ma$$
 
 (c) Decelerating upward means $a = -3$: $R = 70(9.8 - 3) = 70 \times 6.8 = 476\;\mathrm{N}$
 
-:::caution Warning The normal reaction is **not always equal to $mg$**. It equals $mg$ only when
+<aside aria-label="Warning The normal reaction is **not always equal to $mg$**. It equals $mg$ only when" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning The normal reaction is **not always equal to $mg$**. It equals $mg$ only when</p>
 there is no vertical Acceleration. In an accelerating lift, on an inclined plane, or in circular
 motion, $R$ differs From $mg$.
-:::
-
+</aside>
 <hr />
 
 ## 2. Connected Particles
@@ -179,11 +177,10 @@ Since $a \gt 0$Our assumption was correct.
 
 $T = 5(g - a) = 5(9.8 - 0.754) = 45.23\;\mathrm{N}$
 
-:::caution Common Pitfall When a pulley problem involves an inclined plane, always state your
+<aside aria-label="Common Pitfall When a pulley problem involves an inclined plane, always state your" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When a pulley problem involves an inclined plane, always state your</p>
 assumption about which Direction the system moves. If the resulting acceleration is negative, your
 assumption was wrong And the system moves the other way.
-:::
-
+</aside>
 <hr />
 
 ## 4. Friction
@@ -345,11 +342,10 @@ $$2v_1 + 3(v_1 + 5) = 0 \implies 5v_1 = -15 \implies v_1 = -3\;\mathrm{m\,s^{-1}
 
 $$v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}$$
 
-:::caution Warning The restitution equation uses **relative velocities with the correct signs**. The
+<aside aria-label="Warning The restitution equation uses **relative velocities with the correct signs**. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning The restitution equation uses **relative velocities with the correct signs**. The</p>
 speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$But the signs in the
 formula must Be consistent with your chosen positive direction.
-:::
-
+</aside>
 <hr />
 
 ## 6. Newton's Third Law Applications

@@ -23,10 +23,9 @@ description: "Comprehensive educational content notes on chemistry - acids, base
 - Acid: electron pair acceptor
 - Base: electron pair donor
 
-:::info In the DSE syllabus, the Bronsted-Lowry definition is most commonly used. Always identify
+<aside aria-label="In the DSE syllabus, the Bronsted-Lowry definition is most commonly used. Always identify" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In the DSE syllabus, the Bronsted-Lowry definition is most commonly used. Always identify</p>
 The proton donor and proton acceptor in acid-base reactions.
-:::
-
+</aside>
 ### Conjugate Acid-Base Pairs
 
 When an acid donates a proton, the remaining species is its conjugate base. When a base accepts a
@@ -47,10 +46,9 @@ $$\mathrm{HA} + \mathrm{B} \rightleftharpoons \mathrm{A}^- + \mathrm{BH}^+$$
 | Conductivity               | Higher                                                    | Lower                                                                |
 | Reaction rate (same conc.) | Faster                                                    | Slower                                                               |
 
-:::caution Warning Ionisation; concentration refers to the amount dissolved per unit volume. A
+<aside aria-label="Warning Ionisation; concentration refers to the amount dissolved per unit volume. A" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Ionisation; concentration refers to the amount dissolved per unit volume. A</p>
 dilute solution of a Strong acid can have a higher pH than a concentrated solution of a weak acid.
-:::
-
+</aside>
 ### Common Strong Acids and Bases
 
 **Strong acids:** $\mathrm{HCl}$$\mathrm{HBr}$$\mathrm{HI}$$\mathrm{HNO}_3$
@@ -120,11 +118,10 @@ $$x = 1.34 \times 10^{-3} \mathrm{ mol/dm}^3$$
 
 $$\mathrm{pH} = -\log_{10}(1.34 \times 10^{-3}) = 2.87$$
 
-:::tip Tip $[\mathrm{HA}]_{\mathrm{initial}} \approx [\mathrm{HA}]_{\mathrm{equilibrium}}$ only when
+<aside aria-label="Tip $[\mathrm{HA}]_{\mathrm{initial}} \approx [\mathrm{HA}]_{\mathrm{equilibrium}}$ only when" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip $[\mathrm{HA}]_{\mathrm{initial}} \approx [\mathrm{HA}]_{\mathrm{equilibrium}}$ only when</p>
 the degree Of ionisation is small ( when $K_a \lt 10^{-4}$). This simplification is valid for most
 DSE-level problems.
-:::
-
+</aside>
 ### Worked Example: pH After Dilution
 
 A solution of $\mathrm{HCl}$ has $\mathrm{pH} = 2.00$. If $10.0 \mathrm{ cm^3}$ of this solution is
@@ -397,10 +394,9 @@ $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$)
 
 Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$): The halogen is discharged
 
-:::caution Warning At the anode instead of $\mathrm{OH}^-$. In dilute chloride solutions,
+<aside aria-label="Warning At the anode instead of $\mathrm{OH}^-$. In dilute chloride solutions," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning At the anode instead of $\mathrm{OH}^-$. In dilute chloride solutions,</p>
 $\mathrm{OH}^-$ may be Preferentially discharged.
-:::
-
+</aside>
 ### Worked Example 9
 
 Describe the electrolysis of concentrated aqueous $\mathrm{NaCl}$ using carbon electrodes.
@@ -691,7 +687,7 @@ $$\mathrm{pH} = 4.74 + \log_{10}\left(\frac{0.19}{0.11}\right) = 4.74 + \log_{10
 The pH changed from 5.04 to 4.98, a change of only 0.06. Without the buffer, adding
 $0.01 \mathrm{ mol}$ of $\mathrm{HCl}$ to $1 \mathrm{ dm}^3$ of water would give pH = 2.
 
-:::info Info $\mathrm{pH} = \mathrm{p}K_a$. The effective buffering range is approximately
+<aside aria-label="Info $\mathrm{pH} = \mathrm{p}K_a$. The effective buffering range is approximately" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info $\mathrm{pH} = \mathrm{p}K_a$. The effective buffering range is approximately</p>
 $\mathrm{p}K_a \pm 1$.
 
 ---
@@ -1193,4 +1189,4 @@ because the buffer system absorbs the added base. The buffer resists large pH ch
 $$
 
 $$
-:::
+</aside>

@@ -54,12 +54,11 @@ The `type_info` object stores:
 This structure enables `dynamic_cast` to walk the base class chain and compute pointer adjustments
 At runtime.
 
-:::caution RTTI Overhead Disabling RTTI (`-fno-rtti`) reduces binary size (by removing type_info
+<aside aria-label="RTTI Overhead Disabling RTTI (`-fno-rtti`) reduces binary size (by removing type_info" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>RTTI Overhead Disabling RTTI (`-fno-rtti`) reduces binary size (by removing type_info</p>
 Metadata) and may enable further optimizations. However, it also makes `dynamic_cast` and `typeid`
 Unavailable for polymorphic types. Disabling RTTI does **not** eliminate the vtable or vptr --
 Virtual dispatch still works.
-:::
-
+</aside>
 ## 4.2 `dynamic_cast<T*>(ptr)` -- Safe Downcast
 
 `dynamic_cast<T*>(ptr)` converts a base-class pointer to a derived-class pointer. If the cast is
@@ -183,11 +182,10 @@ Cast succeeded
 Cast failed: std::bad_cast
 ```
 
-:::note `dynamic_cast<T&>` cannot return `nullptr` because references cannot be null. Throwing an
+<aside aria-label="`dynamic_cast<T&>` cannot return `nullptr` because references cannot be null. Throwing an" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`dynamic_cast<T&>` cannot return `nullptr` because references cannot be null. Throwing an</p>
 Exception is the only way to signal failure. This is why `dynamic_cast` on pointers is generally
 Preferred -- it allows the caller to check for failure without exception overhead.
-:::
-
+</aside>
 ## 4.4 `typeid` Operator
 
 The `typeid` operator [N4950 S7.6.1.8] returns a `const std::type_info&` describing the **dynamic
@@ -243,11 +241,10 @@ Key points:
 - `std::type_index` (from `<typeindex>`) is a wrapper around `std::type_info` that provides value
   semantics and can be used as a key in associative containers.
 
-:::caution The `name()` member of `std::type_info` returns an implementation-defined string. It is
+<aside aria-label="The `name()` member of `std::type_info` returns an implementation-defined string. It is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `name()` member of `std::type_info` returns an implementation-defined string. It is</p>
 Useful for debugging but should not be parsed or compared. Use `std::type_index` for type
 Comparisons.
-:::
-
+</aside>
 ## 4.5 RTTI and `dynamic_cast` for the Visitor Pattern
 
 When a traditional double-dispatch visitor is overkill, `dynamic_cast` chains can serve as a simpler
@@ -344,13 +341,12 @@ int main() {
 }
 ```
 
-:::tip The `dynamic_cast`-based approach is simpler to implement than the classic Visitor pattern
+<aside aria-label="The `dynamic_cast`-based approach is simpler to implement than the classic Visitor pattern" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The `dynamic_cast`-based approach is simpler to implement than the classic Visitor pattern</p>
 For small, stable type hierarchies. However, adding a new derived type requires updating every
 `dynamic_cast` chain. The Visitor pattern localizes changes: adding a new visitor doesn't modify
 Existing types, and adding a new type doesn't modify existing visitors (it only requires extending
 The visitor interface).
-:::
-
+</aside>
 ## 4.6 `dynamic_cast` with Multiple and Virtual Inheritance
 
 When multiple or virtual inheritance is involved, `dynamic_cast` performs a more complex traversal

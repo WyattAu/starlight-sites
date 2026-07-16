@@ -41,12 +41,11 @@ Marxist-Leninist framework, viewed capitalist states as inherently imperialist a
 Peaceful coexistence was at best a temporary tactical measure while the conditions for revolution
 Matured.
 
-:::info For Paper 3 essays, the ideological dimension should not be treated as the sole cause of the
+<aside aria-label="For Paper 3 essays, the ideological dimension should not be treated as the sole cause of the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For Paper 3 essays, the ideological dimension should not be treated as the sole cause of the</p>
 Cold War. Instead, it functioned as a lens through which both sides interpreted each other's
 Actions, often amplifying mistrust and escalating tensions beyond what objective strategic interests
 Alone would have produced.
-:::
-
+</aside>
 The ideological clash manifested in diametrically opposed visions of the post-war international
 Order. The United States favoured an open, multilateral economic system based on free trade and
 Self-determination -- a vision embodied in the Bretton Woods institutions (the International
@@ -132,15 +131,14 @@ American foreign policy from peacetime isolationism to permanent global engageme
 States now assumed the role of the principal defender of the "free world" against communist
 Expansion -- a commitment that would define its foreign policy for the next four decades.
 
-:::note George F. Kennan's "Long Telegram" (1946) and his subsequent article published under the
+<aside aria-label="George F. Kennan's "Long Telegram" (1946) and his subsequent article published under the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>George F. Kennan's "Long Telegram" (1946) and his subsequent article published under the</p>
 Pseudonym "X" in _Foreign Affairs_ (1947) provided the intellectual framework for containment.
 Kennan argued that Soviet behaviour was driven by a combination of Marxist-Leninist ideology and
 Traditional Russian insecurity, and that the Soviet threat could be managed through "firm and
 Vigilant containment of Russian expansive tendencies." Kennan later argued that he had advocated
 Primarily for political and economic containment, not the militarised version that American policy
 Ultimately adopted.
-:::
-
+</aside>
 ### 1.4 The Marshall Plan (1947)
 
 The European Recovery Program, commonly known as the Marshall Plan, was announced by Secretary of
@@ -1055,14 +1053,12 @@ Multi-causal phenomenon that cannot be adequately explained by any single interp
 They will also recognise that historical interpretations are themselves products of their time and
 Are shaped by the political and intellectual contexts in which they are produced.
 
-:::note When evaluating historiography in essays, avoid the trap of listing the three schools One
+<aside aria-label="When evaluating historiography in essays, avoid the trap of listing the three schools One" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>When evaluating historiography in essays, avoid the trap of listing the three schools One</p>
 after another. Instead, integrate historiographical analysis into your argument, using it to Support
 or challenge specific points. The best essays will demonstrate that you understand not only What
 each school argues but why it argues it -- and what evidence supports or undermines its claims.
-:::
-
-:::danger Common Pitfalls
-
+</aside>
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Presenting the Cold War as a simple US vs USSR binary:** The Cold War involved multiple actors
   -- China, Cuba, European allies, the Non-Aligned Movement, and proxy states in the Third World. IB
   essays that treat every conflict as purely US-USSR miss the agency of other actors and the
@@ -1083,8 +1079,7 @@ each school argues but why it argues it -- and what evidence supports or undermi
   conclusion -- what evidence did they prioritise? What evidence did they dismiss? How does their
   perspective challenge or complement other interpretations?
 
-:::
-
+</aside>
 ## Exam Preparation: Key Essay Questions
 
 The following questions reflect the types of prompts that may appear on IB History HL Paper 3:

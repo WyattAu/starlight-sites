@@ -364,11 +364,10 @@ int main() {
 }
 ```
 
-:::caution Reading from a union member other than the one most recently written to is **undefined
+<Aside type="caution" title="Reading from a union member other than the one most recently written to is **undefined">
 Behavior** in C++ (unlike C, where it is implementation-defined). Use `std::memcpy` for type
 Punning, which is well-defined by the standard.
-:::
-
+</Aside>
 ### Type Punning with `std::memcpy`
 
 ```cpp

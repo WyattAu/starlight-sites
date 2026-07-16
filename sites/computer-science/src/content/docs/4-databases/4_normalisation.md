@@ -202,7 +202,7 @@ Synthesis algorithm avoids this issue.
 
 </details>
 
-:::caution Common Pitfall Do not confuse partial dependency (2NF violation) with transitive
+<aside aria-label="Common Pitfall Do not confuse partial dependency (2NF violation) with transitive" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse partial dependency (2NF violation) with transitive</p>
 dependency (3NF violation). A Partial dependency involves a **proper subset** of a candidate key
 determining a non-prime attribute. A transitive dependency involves a non-key attribute determining
 another non-prime attribute.
@@ -265,4 +265,4 @@ Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 </details>
 
 
-:::
+</aside>

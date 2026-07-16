@@ -273,14 +273,13 @@ Firm to enter a market that would otherwise be unprofitable (e.g., cross-subsidy
 Segments). However, it raises equity concerns — poorer consumers ( more price-elastic) may Benefit
 from lower prices, while less elastic groups face higher prices.
 
-:::info Board-Specific Note Edexcel (A) often asks students to evaluate whether price discrimination
+<aside aria-label="Board-Specific Note Edexcel (A) often asks students to evaluate whether price discrimination" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note Edexcel (A) often asks students to evaluate whether price discrimination</p>
 Always reduces consumer welfare — the key is to recognise that _some_ consumers (the elastic group)
 May face lower prices. CIE (9708) requires calculation of profit under single-price vs
 Discriminatory pricing. AQA Paper 2 frequently features questions on the ethics and fairness of
 Price discrimination. OCR (A) may ask about the conditions necessary for each type of price
 Discrimination to be feasible.
-:::
-
+</aside>
 #### Natural Monopoly
 
 A natural monopoly exists where LRAC falls continuously over the relevant output range (strong
@@ -294,13 +293,12 @@ Examples: water supply, electricity distribution, railway networks.
 $MC \lt AC$. Regulatory options: average cost pricing ($P = AC$), price cap regulation, public
 Ownership.
 
-:::info Info Regulators, including RPI-X price cap regulation. Edexcel requires understanding of how
+<aside aria-label="Info Regulators, including RPI-X price cap regulation. Edexcel requires understanding of how" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Regulators, including RPI-X price cap regulation. Edexcel requires understanding of how</p>
 regulation Can create **X-inefficiency** — the monopoly has no incentive to minimise costs if the
 regulator allows cost-plus pricing. CIE (9708) often asks students to compare **public ownership vs
 Regulation** using efficiency criteria. OCR (A) focuses on the principal-agent problem between
 Regulator and firm (information asymmetry).
-:::
-
+</aside>
 **Real-world example: UK water industry.** Thames Water and other regional water companies are
 Natural monopolies covering specific geographic areas — it would be deeply inefficient to run
 Multiple pipe networks through the same streets. Ofwat regulates prices using the RPI-X formula
@@ -414,13 +412,12 @@ Destructive price war that destroys margins for all) against competition (matchi
 Prices to retain customers). This is a repeated game where the "punishment" for not matching prices
 Is loss of market share to discounters.
 
-:::info Board-Specific Note AQA and Edexcel require students to explain how repeated interaction
+<aside aria-label="Board-Specific Note AQA and Edexcel require students to explain how repeated interaction" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA and Edexcel require students to explain how repeated interaction</p>
 Differs from a one-shot game in sustaining collusion. CIE (9708) may ask students to construct a
 Payoff matrix and identify dominant strategies. OCR (A) has recently included questions on whether
 The prisoner's dilemma applies to real-world oligopolies where firms can communicate — a key
 Evaluation point.
-:::
-
+</aside>
 #### Kinked Demand Curve Model (Sweezy, 1939)
 
 Assumptions:
@@ -508,13 +505,12 @@ Contestable — new operators could enter any route. In practice, the incumbent 
 Advantages (depots, driver knowledge, existing contracts), and many routes remained de facto
 Monopolies. This illustrates the gap between theoretical contestability and real-world outcomes.
 
-:::info Board-Specific Note CIE (9708) frequently asks students to explain the difference between
+<aside aria-label="Board-Specific Note CIE (9708) frequently asks students to explain the difference between" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note CIE (9708) frequently asks students to explain the difference between</p>
 Contestable and competitive markets — the key distinction is that a contestable market may have only
 One firm but behaves as if competitive due to the threat of entry. AQA Paper 1 has included 25-mark
 Questions on the extent to which UK supermarket markets are contestable. OCR (A) requires
 Understanding of sunk costs as the key barrier to contestability.
-:::
-
+</aside>
 ## 5. Comparative Table of Market Structures
 
 | Feature                   | Perfect Competition      | Monopoly             | Monopolistic Competition  | Oligopoly                  |
@@ -531,14 +527,13 @@ Understanding of sunk costs as the key barrier to contestability.
 | **DWL**                   | None                     | Yes                  | Yes                       | Yes                        |
 | **Examples**              | Agricultural commodities | National rail, water | Restaurants, hairdressers | Supermarkets, banking, oil |
 
-:::info Board-Specific Note All boards require the comparative table but differ in emphasis. AQA
+<aside aria-label="Board-Specific Note All boards require the comparative table but differ in emphasis. AQA" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note All boards require the comparative table but differ in emphasis. AQA</p>
 Focuses on the link between market structure and **economic efficiency**, often asking students to
 Evaluate which structure is most efficient. Edexcel (A) requires analysis of how market structures
 Affect **consumer and producer surplus**. CIE (9708) expects students to draw diagrams for each
 Structure and annotate efficiency losses. OCR (A) frequently asks about **real-world markets that
 Fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
-:::
-
+</aside>
 ## 6. Critical Evaluation
 
 ### Strengths of the Structure-Conduct-Performance Framework
@@ -601,19 +596,17 @@ Traditional theory of the firm assumes profit maximisation. Behavioural economic
   but matching competitors' cuts quickly (consistent with the kinked demand curve, but explained by
   psychology rather than game theory).
 
-:::info Board-Specific Note AQA Paper 2 (25-mark essay questions) frequently requires students to
+<aside aria-label="Board-Specific Note AQA Paper 2 (25-mark essay questions) frequently requires students to" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA Paper 2 (25-mark essay questions) frequently requires students to</p>
 Debate whether firms really maximise profit — behavioural objections are high-scoring evaluation
 Points. CIE (9708) does not formally require behavioural economics but rewards students who mention
 Satisficing as an alternative objective. Edexcel includes the principal-agent problem in its
 Specification for market failure topics.
-:::
-
-:::info Board-Specific Note CIE (9708) requires detailed diagrammatic analysis for each market
+</aside>
+<aside aria-label="Board-Specific Note CIE (9708) requires detailed diagrammatic analysis for each market" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note CIE (9708) requires detailed diagrammatic analysis for each market</p>
 Structure, including short-run and long-run equilibrium diagrams. AQA and Edexcel emphasise
 Evaluation of real-world examples. OCR (A) often asks about the relationship between market
 Structure and efficiency.
-:::
-
+</aside>
 ## 7. Problem Set
 
 **Problem 1.** A firm has total cost $TC = 100 + 20Q - 5Q^2 + Q^3/3$. Find (a) the output at which
@@ -765,8 +758,7 @@ Limit pricing is rational when: (a) the long-run gain from maintaining monopoly 
 </details>
 
 
-:::danger Common Pitfalls
-
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Confusing MR with AR (price):** For a firm facing a downward-sloping demand curve, MR is always
   LESS than price (AR). The MR curve has twice the slope of the demand curve. The only exception is
   perfect competition, where MR = AR = P because the firm is a price taker.
@@ -1271,7 +1263,6 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-:::
-
+</aside>
 $$
 $$

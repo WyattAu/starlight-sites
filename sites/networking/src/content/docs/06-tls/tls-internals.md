@@ -278,9 +278,7 @@ The client indicates which PSK modes it supports in the `psk_key_exchange_modes`
 - `psk_ke`: PSK-only key establishment (no forward secrecy)
 - `psk_dhe_ke`: PSK combined with (EC)DHE (forward secrecy maintained)
 
-:::info
-
-TLS 1.3 implementations should prefer `psk_dhe_ke` for session resumption. This provides forward
+<aside aria-label="TLS 1.3 implementations should prefer `psk_dhe_ke` for session resumption. This provides forward" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>TLS 1.3 implementations should prefer `psk_dhe_ke` for session resumption. This provides forward</p>
 Secrecy even for resumed sessions. If the PSK is compromised, past traffic remains secure because
 The (EC)DHE exchange was ephemeral.
 
@@ -504,10 +502,8 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 | PSK only      | No              |
 | PSK + (EC)DHE | Yes             |
 
-:::
-:::caution
-
-TLS 1.3 mandates forward secrecy for all handshakes. Every TLS 1.3 connection uses (EC)DHE, either
+</aside>
+<aside aria-label="TLS 1.3 mandates forward secrecy for all handshakes. Every TLS 1.3 connection uses (EC)DHE, either" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>TLS 1.3 mandates forward secrecy for all handshakes. Every TLS 1.3 connection uses (EC)DHE, either</p>
 Alone or in combination with PSK. Static RSA key exchange is not available in TLS 1.3.
 
 
@@ -716,10 +712,8 @@ For repeat connections where latency is critical.
 openssl s_client -connect example.com:443 -tls1_3 -early_data /tmp/request.txt
 ```
 
-:::
-:::caution
-
-0-RTT data is vulnerable to replay attacks. The server must not accept 0-RTT data for non-idempotent
+</aside>
+<aside aria-label="0-RTT data is vulnerable to replay attacks. The server must not accept 0-RTT data for non-idempotent" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>0-RTT data is vulnerable to replay attacks. The server must not accept 0-RTT data for non-idempotent</p>
 Operations. Common safe uses: GET requests, database reads, cache lookups. Unsafe: POST, PUT,
 DELETE, financial transactions.
 
@@ -894,4 +888,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

@@ -361,8 +361,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 
 ### 3.8 Common Pitfalls
 
-:::caution Common Pitfalls
-
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
 - **Singularities.** When applying Green's, Stokes', or the Divergence theorem, verify that the
   field has continuous partial derivatives on the region (including interior). If there are
   singularities inside the region, the theorems do not apply directly; the singularity must be
@@ -401,4 +400,4 @@ Where $\Omega$ is a $k$-dimensional manifold with boundary $\partial \Omega$, $\
 $(k-1)$-form, And $d\omega$ is its exterior derivative.
 
 
-:::
+</aside>

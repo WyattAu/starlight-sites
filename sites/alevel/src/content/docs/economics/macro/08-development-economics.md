@@ -36,12 +36,11 @@ Developing if the gains accrue to a small elite.
 | **Focus**    | Quantity of output       | Quality of life                                   |
 | **Scope**    | Narrow (market output)   | Broad (well-being, institutions, freedoms)        |
 
-:::caution Common Pitfall Do not conflate growth with development. Equatorial Guinea has a high GDP
+<aside aria-label="Common Pitfall Do not conflate growth with development. Equatorial Guinea has a high GDP" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not conflate growth with development. Equatorial Guinea has a high GDP</p>
 Per capita (driven by oil) but low HDI (0.59) due to extreme inequality. Conversely, Costa Rica has
 A moderate GDP per capita but high HDI (0.81) due to strong public services and political stability.
 Always use multiple indicators.
-:::
-
+</aside>
 ## 2. Indicators of Development
 
 ### 2.1 Economic Indicators
@@ -116,12 +115,11 @@ Under the Lorenz curve.
 - **Sectoral employment**: the share of employment in agriculture, industry, and services. As
   countries develop, the share in agriculture falls and the share in services rises.
 
-:::info Board-Specific Note **CIE (9708)** requires you to evaluate the strengths and weaknesses of
+<aside aria-label="Board-Specific Note **CIE (9708)** requires you to evaluate the strengths and weaknesses of" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note **CIE (9708)** requires you to evaluate the strengths and weaknesses of</p>
 Different development indicators, including the HDI and Gini coefficient. **Edexcel** focuses on GDP
 Per capita and HDI as measures of living standards, and may ask you to compare indicators across
 Countries.
-:::
-
+</aside>
 ## 3. Causes of Economic Growth
 
 ### 3.1 Solow Growth Model (Overview)
@@ -354,7 +352,7 @@ Social premium for community development projects (schools, healthcare, clean wa
 - **Economic Partnership Agreements (EPAs)**: trade agreements between the EU and developing
   countries.
 
-:::caution Warning Developing country liberalises trade while developed countries maintain subsidies
+<aside aria-label="Warning Developing country liberalises trade while developed countries maintain subsidies" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Developing country liberalises trade while developed countries maintain subsidies</p>
 on agriculture (e.g., the EU's Common Agricultural Policy), developing-country farmers cannot
 compete. Trade Liberalisation must be reciprocal and sequenced appropriately.
 
@@ -1203,4 +1201,4 @@ the definitions, applying the formulas or frameworks, and evaluating strengths a
 each approach.
 
 $
-:::
+</aside>

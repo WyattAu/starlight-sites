@@ -157,12 +157,10 @@ Physical:     [Bits on wire]
 | Header      | 20+ bytes                 | 8 bytes                |
 | Use cases   | Web, email, file transfer | Streaming, gaming, DNS |
 
-:::info Board-specific Know specific use cases for each protocol:
-
+<aside aria-label="Board-specific Know specific use cases for each protocol:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific Know specific use cases for each protocol:</p>
 - TCP: HTTP, HTTPS, FTP, SMTP, SSH
 - UDP: DNS, DHCP, TFTP, online gaming, video streaming, VoIP
-:::
-
+</aside>
 ### TCP Three-Way Handshake
 
 1. **SYN:** Client → Server: "I want to connect"

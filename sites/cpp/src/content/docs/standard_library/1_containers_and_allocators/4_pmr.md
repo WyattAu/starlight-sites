@@ -134,11 +134,10 @@ int main() {
 }
 ```
 
-:::tip `monotonic_buffer_resource` is perfect for parsing, JSON processing, AST construction, and
+<aside aria-label="`monotonic_buffer_resource` is perfect for parsing, JSON processing, AST construction, and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`monotonic_buffer_resource` is perfect for parsing, JSON processing, AST construction, and</p>
 Any scenario where many objects are created and destroyed together. Since individual `deallocate`
 Calls are no-ops, allocation is extremely fast.
-:::
-
+</aside>
 ### `std::pmr::unsynchronized_pool_resource`
 
 `std::pmr::unsynchronized_pool_resource` [N4950 §23.10.4] is a general-purpose pool allocator that
@@ -265,12 +264,11 @@ int main() {
 }
 ```
 
-:::caution When using `monotonic_buffer_resource`Remember that `deallocate` is a no-op. If you
+<aside aria-label="When using `monotonic_buffer_resource`Remember that `deallocate` is a no-op. If you" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>When using `monotonic_buffer_resource`Remember that `deallocate` is a no-op. If you</p>
 Create container A, then container B, and A still holds references to memory allocated from B's
 Objects, those references may dangle if B is destroyed and its memory is recycled. Arena allocation
 Is safest when all allocations share the same lifetime scope.
-:::
-
+</aside>
 ### Integration Pattern: Dependency Injection of Memory Resources
 
 A powerful PMR pattern is **dependency injection**: functions and classes accept a
@@ -466,12 +464,11 @@ int main() {
 }
 ```
 
-:::note The performance advantage of `synchronized_pool_resource` over `new_delete_resource()` in
+<aside aria-label="The performance advantage of `synchronized_pool_resource` over `new_delete_resource()` in" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The performance advantage of `synchronized_pool_resource` over `new_delete_resource()` in</p>
 Multi-threaded code comes from reduced contention: each thread allocates from its own Thread-local
 pool chunk, and the global heap lock is only contended when a new chunk is needed. For
 Single-threaded code, `unsynchronized_pool_resource` is strictly faster.
-:::
-
+</aside>
 ### Common Pitfalls
 
 **1. `monotonic_buffer_resource` and dangling references:** Since individual `deallocate` calls are

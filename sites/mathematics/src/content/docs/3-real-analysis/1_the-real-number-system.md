@@ -181,9 +181,9 @@ $\blacksquare$
 _Remark._ The field $\mathbb{Q}$ satisfies none of these properties, which is why it must be
 Extended to $\mathbb{R}$ for analysis.
 
-:::caution Common Pitfall The completeness axiom is often misstated as "every bounded set has a supremum." The set must be Non-empty. Also, completeness does not say every set has a maximum;
+<aside aria-label="Common Pitfall The completeness axiom is often misstated as "every bounded set has a supremum." The set must be Non-empty. Also, completeness does not say every set has a maximum;" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The completeness axiom is often misstated as "every bounded set has a supremum." The set must be Non-empty. Also, completeness does not say every set has a maximum;</p>
 $\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$Which belongs to
 the set, but $\sup(0, 1) = 1$Which does not belong to $(0, 1)$.
 
 
-:::
+</aside>

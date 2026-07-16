@@ -340,7 +340,7 @@ $p \geq 3$ And $2 \cdot 2! = 4 \neq n!$ for any $n$). Hence $xy^iz \notin L$. $\
 
 </details>
 
-:::caution Common Pitfall The pumping lemma says that **for every** decomposition satisfying (1) and
+<aside aria-label="Common Pitfall The pumping lemma says that **for every** decomposition satisfying (1) and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The pumping lemma says that **for every** decomposition satisfying (1) and</p>
 (2), **there exists** a Pumping that fails. To prove non-regularity, you must show that **all**
 valid decompositions lead To a contradiction. A single decomposition that works is insufficient to
 disprove the lemma. The converse of the pumping lemma is false: if a language satisfies the pumping
@@ -375,4 +375,4 @@ and $D_2$ accept $w$I.e., $w \in L_1 \cap L_2$. $\blacksquare$
 Regular. Closure properties do not apply when one operand is non-regular.
 
 
-:::
+</aside>

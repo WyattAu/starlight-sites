@@ -281,12 +281,11 @@ In both cases, the amortised cost is $O(1)$.
 
 </details>
 
-:::caution Common Pitfall Amortised analysis gives a guarantee over a _sequence_ of operations, not
+<aside aria-label="Common Pitfall Amortised analysis gives a guarantee over a _sequence_ of operations, not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Amortised analysis gives a guarantee over a _sequence_ of operations, not</p>
 a per-operation worst-case bound. A single operation can still be expensive (e.g., a resize in a
 dynamic array costs $O(n)$). Amortised bounds are meaningful only when the sequence length is not
 bounded by a constant.
-:::
-
+</aside>
 ## 2. Fundamental Data Structures
 
 ### 2.1 Arrays and Linked Lists
@@ -805,12 +804,11 @@ A graph $G = (V, E)$ can be represented by:
 | Add edge           | $O(1)$           | $O(1)$               |
 | Remove edge        | $O(1)$           | $O(\mathrm{deg}(u))$ |
 
-:::caution Common Pitfall Choosing the wrong graph representation can make an algorithm
+<aside aria-label="Common Pitfall Choosing the wrong graph representation can make an algorithm" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Choosing the wrong graph representation can make an algorithm</p>
 asymptotically slower. Use adjacency matrices for dense graphs ($E \approx V^2$) and adjacency lists
 for sparse graphs ($E \ll V^2$). For example, BFS with an adjacency matrix takes $O(V^2)$ but with
 adjacency lists takes $O(V + E)$.
-:::
-
+</aside>
 ## 3. Sorting Algorithms
 
 ### 3.1 Merge Sort
@@ -1040,12 +1038,11 @@ into 1, reducing the number of runs by a factor of $k$. After $\log_k(N/M)$ pass
 run remains. Each pass reads and writes all $N$ bytes, so total I/O is $O(N \log_k(N/M))$.
 $\blacksquare$
 
-:::caution Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**
+<aside aria-label="Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**</p>
 sorting. Non-comparison sorts Like radix sort can achieve $O(n)$ time for integers in a bounded
 range. However, non-comparison sorts sacrifice generality: they depend on the structure of the keys
 and cannot sort arbitrary objects.
-:::
-
+</aside>
 ### 3.8 Comparison of Sorting Algorithms
 
 | Algorithm     | Best          | Average       | Worst         | Space       | Stable |
@@ -1574,12 +1571,11 @@ _Proof._ If not, there exists a shorter path $p'$ from $u$ to $w$. Then $p'$ con
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
 $\blacksquare$
 
-:::caution Common Pitfall Not all problems have optimal substructure. For example, the _longest
+<aside aria-label="Common Pitfall Not all problems have optimal substructure. For example, the _longest" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not all problems have optimal substructure. For example, the _longest</p>
 simple path_ problem does not: the longest simple path from $u$ to $v$ may not contain the longest
 simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
-:::
-
+</aside>
 ### 5.4 Common Patterns
 
 **1D DP.** $dp[i]$ depends on $dp[j]$ for $j < i$. Example: Fibonacci, longest increasing
@@ -1892,7 +1888,7 @@ size).
 
 </details>
 
-:::caution Common Pitfall NP-hardness does not mean the problem is unsolvable. It means there is no
+<aside aria-label="Common Pitfall NP-hardness does not mean the problem is unsolvable. It means there is no" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall NP-hardness does not mean the problem is unsolvable. It means there is no</p>
 known polynomial-time Algorithm. Many NP-complete problems have efficient approximation algorithms
 or can be solved Exactly for practical input sizes using branch-and-bound or SAT solvers.
 
@@ -2297,4 +2293,4 @@ $\blacksquare$
 | Theory of Computation    | WyattsNotes | [View](/docs/university/computing/theory-of-computation)                        |
 | Algorithms — MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
 
-:::
+</aside>

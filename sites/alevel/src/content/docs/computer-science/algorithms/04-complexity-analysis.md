@@ -79,12 +79,11 @@ $\square$
 | $O(2^n)$      | Exponential  | Subset enumeration, brute force |
 | $O(n!)$       | Factorial    | Permutation enumeration (TSP)   |
 
-:::info Board-specific **AQA** requires Big-O notation for standard algorithms (searching, sorting);
+<aside aria-label="Board-specific **AQA** requires Big-O notation for standard algorithms (searching, sorting);" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** requires Big-O notation for standard algorithms (searching, sorting);</p>
 Focuses on time complexity. **CIE (9618)** covers Big-O, Big-Theta, and Big-Omega notation; requires
 Space complexity analysis. **OCR (A)** requires Big-O notation; may require comparison of algorithm
 Performance. **Edexcel** covers time and space complexity with Big-O notation.
-:::
-
+</aside>
 <hr />
 
 ## 3. Best, Average, and Worst Case
@@ -108,10 +107,9 @@ Where $P(I)$ is the probability of input $I$.
 | Average | $O(n \log n)$ | Random inputs (expected)      |
 | Worst   | $O(n^2)$      | Already sorted, min/max pivot |
 
-:::caution Pitfall Average case assumes a **uniform distribution** of inputs. Real-world data may
+<aside aria-label="Pitfall Average case assumes a **uniform distribution** of inputs. Real-world data may" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall Average case assumes a **uniform distribution** of inputs. Real-world data may</p>
 Not be uniformly distributed. Always state the distribution assumption when discussing average case.
-:::
-
+</aside>
 <hr />
 
 ## 4. Analyzing Recursive Algorithms

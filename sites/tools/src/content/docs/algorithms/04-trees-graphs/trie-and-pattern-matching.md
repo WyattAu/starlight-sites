@@ -135,9 +135,7 @@ graph TD
 
 Where $m$ is the word length, $k$ is the number of results, and $L$ is the average result length.
 
-:::info
-
-A trie with $n$ keys of total length $L$ has at most $L + 1$ nodes. In the worst case (no shared
+<aside aria-label="A trie with $n$ keys of total length $L$ has at most $L + 1$ nodes. In the worst case (no shared" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A trie with $n$ keys of total length $L$ has at most $L + 1$ nodes. In the worst case (no shared</p>
 Prefixes), this is $\sum |word_i| + 1$. The space can be reduced using a radix tree (compressed
 Trie) which merges chains of single-child nodes.
 
@@ -500,10 +498,8 @@ def suffix_array_search(s, sa, pattern):
     return (-1, -1)
 ```
 
-:::
-:::tip
-
-For most practical purposes, suffix arrays are preferred over suffix trees because they use less
+</aside>
+<aside aria-label="For most practical purposes, suffix arrays are preferred over suffix trees because they use less" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>For most practical purposes, suffix arrays are preferred over suffix trees because they use less</p>
 Memory (an array of integers vs a tree of objects) and are easier to implement. The LCP array
 Enables efficient computation of longest common substrings and other string problems.
 
@@ -785,10 +781,8 @@ def boyer_moore_search(text, pattern):
     return matches
 ```
 
-:::
-:::caution
-
-Boyer-Moore's worst case is $O(nm)$Which is worse than KMP. In practice, Boyer-Moore is sublinear On
+</aside>
+<aside aria-label="Boyer-Moore's worst case is $O(nm)$Which is worse than KMP. In practice, Boyer-Moore is sublinear On" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Boyer-Moore's worst case is $O(nm)$Which is worse than KMP. In practice, Boyer-Moore is sublinear On</p>
 average (it examines fewer than $n$ characters of the text). For guaranteed $O(n)$ worst case, Use
 the Boyer-Moore-Horspool variant or KMP.
 
@@ -998,4 +992,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

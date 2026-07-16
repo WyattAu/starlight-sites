@@ -222,9 +222,7 @@ sed -i 's/old/new/g' file.txt
 sed -i 's/192.168.1.100/10.0.0.1/g' /etc/hosts /etc/resolv.conf
 ```
 
-:::caution
-
-`sed -i` on symlinks will replace the symlink with a regular file containing the edited content. If
+<aside aria-label="`sed -i` on symlinks will replace the symlink with a regular file containing the edited content. If" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`sed -i` on symlinks will replace the symlink with a regular file containing the edited content. If</p>
 The original file was a symlink, the link is destroyed. Always use `sed -i.bak` in production
 Scripts to preserve recoverability.
 
@@ -852,10 +850,8 @@ awk -F, "{print $1 "\t" $3}' data.csv
 awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
 ```
 
-:::
-:::info
-
-Prefer `cut` when you only need simple field extraction — it is significantly faster than `awk` for
+</aside>
+<aside aria-label="Prefer `cut` when you only need simple field extraction — it is significantly faster than `awk` for" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Prefer `cut` when you only need simple field extraction — it is significantly faster than `awk` for</p>
 Large files. Use `awk` when you need conditional logic, field manipulation, or aggregation.
 
 
@@ -1058,4 +1054,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

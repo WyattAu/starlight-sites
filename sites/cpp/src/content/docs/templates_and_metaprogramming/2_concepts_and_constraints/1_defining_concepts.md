@@ -141,14 +141,13 @@ static_assert(!Numeric<std::string>, "string must not be numeric");
 Zero overhead on the generated binary. The concept is "compiled away" after constraint checking
 Succeeds or fails.
 
-:::note Semantic Difference from `constexpr bool` A `constexpr bool` variable template and a
+<aside aria-label="Semantic Difference from `constexpr bool` A `constexpr bool` variable template and a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Semantic Difference from `constexpr bool` A `constexpr bool` variable template and a</p>
 `concept` are both compile-time boolean predicates, but a concept participates in **partial
 Ordering** (subsumption) during overload resolution, while a `constexpr bool` variable template does
 Not. Concepts are also required to be `true` for all substitutions --- a concept that is `false` for
 Some argument is well-formed, whereas a `static_assert(false)` in the concept body would be
 Ill-formed.
-:::
-
+</aside>
 ## Requires-Expressions
 
 A **requires-expression** is the primary building block for expressing constraints on types [N4950
@@ -351,13 +350,12 @@ int main() {
 }
 ```
 
-:::caution Negation with `!` The negation operator `!` is defined for constraints but **does not
+<aside aria-label="Negation with `!` The negation operator `!` is defined for constraints but **does not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Negation with `!` The negation operator `!` is defined for constraints but **does not</p>
 Participate in subsumption ordering**. A concept `!C` does not subsume or is not subsumed by `C` ---
 They are incomparable. This means `!C` cannot be used to establish a partial ordering between
 Overloads, which limits its usefulness in overload resolution. Prefer using a positive constraint on
 An alternative overload instead of negating a constraint.
-:::
-
+</aside>
 ## Standard Library Concepts Overview
 
 The C++20 standard library provides a comprehensive set of concepts in the `<concepts>` header
@@ -575,7 +573,7 @@ mean(3, 7) = 10.0
 mean(3.0, 7.0) = 10.0
 ```
 
-:::tip Concept Design Principle A well-designed concept should be **minimal** (only require what is
+<aside aria-label="Concept Design Principle A well-designed concept should be **minimal** (only require what is" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Concept Design Principle A well-designed concept should be **minimal** (only require what is</p>
 Necessary) and **specific** (exclude types that would cause undefined behavior). Avoid overly broad
 Concepts like `requires(T t) { t + t; }` --- this would accept `std::string` (which supports `+` for
 Concatenation) even if the algorithm is intended for arithmetic. Use the standard library concepts
@@ -912,4 +910,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

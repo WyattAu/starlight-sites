@@ -169,15 +169,13 @@ $2.898 \times 10^{-3}$ m K.
 ($T \approx 3000$ K) peaks in the infrared. This is why hotter stars appear bluer and cooler stars
 Appear redder.
 
-:::info Board-Specific
-
+<aside aria-label="Board-Specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific</p>
 - **AQA** requires Wien's law, Stefan-Boltzmann law, and the inverse square law explicitly.
 - **Edexcel** emphasises the period--luminosity relation for Cepheids and the use of Type Ia
   supernovae as standard candles.
 - **OCR (A)** includes parallax, standard candles, and black body radiation in the Turning Points
   option.
-:::
-
+</aside>
 ## 2. Stellar Evolution
 
 ### Star Formation
@@ -309,15 +307,13 @@ Escape velocity exceeds the speed of light. For the Sun, $r_s \approx 3$ km; for
 $r_s \approx 9$ mm. This shows how extraordinarily compact a black hole must be: the entire mass of
 The Sun compressed into a sphere smaller than a small city.
 
-:::info Board-Specific
-
+<aside aria-label="Board-Specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific</p>
 - **AQA** requires detailed knowledge of stellar evolution pathways, the H-R diagram, and the
   Chandrasekhar limit.
 - **Edexcel** emphasises supernovae including light curves, and the use of standard candles.
 - **OCR (A)** covers neutron stars and black holes, including the Schwarzschild radius derivation,
   in the Turning Points option.
-:::
-
+</aside>
 ## 3. Cosmology
 
 ### Olbers' Paradox
@@ -429,13 +425,11 @@ Expands, photon wavelengths are stretched, producing cosmological redshift:
 
 $$1 + z = \frac◆LB◆a_{\mathrm{now}}◆RB◆◆LB◆a_{\mathrm{then}}◆RB◆$$
 
-:::info Info
-
+<aside aria-label="Info" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info</p>
 - **AQA** requires understanding of Hubble's law, the CMB, and evidence for the Big Bang.
 - **Edexcel** includes the Doppler effect for electromagnetic radiation and redshift calculations.
 - **OCR (A)** covers Olbers' paradox and its resolution in the Turning Points option.
-:::
-
+</aside>
 ## 4. Telescopes and Observational Astronomy
 
 ### Refracting Telescopes
@@ -583,14 +577,12 @@ Parabolic dishes.
 - Much more expensive to build, launch, and maintain (no servicing missions for most)
 - Limited aperture size (constrained by launch vehicle fairings; JWST's primary mirror is 6.5 m)
 
-:::info Board-Specific
-
+<aside aria-label="Board-Specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific</p>
 - **AQA** requires comparison of reflecting and refracting telescopes, and the Rayleigh criterion.
 - **Edexcel** emphasises angular magnification and the advantages of large-diameter telescopes.
 - **OCR (A)** covers radio telescopes and the comparison of ground-based and space-based
   observatories.
-:::
-
+</aside>
 ## 5. Problems
 
 **Problem 1.** A star has a parallax angle of $0.05''$. Calculate its distance in parsecs and

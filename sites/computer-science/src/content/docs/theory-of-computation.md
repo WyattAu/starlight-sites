@@ -448,13 +448,12 @@ $p \geq 3$ And $2 \cdot 2! = 4 \neq n!$ for any $n$). Hence $xy^iz \notin L$. $\
 
 </details>
 
-:::caution Common Pitfall The pumping lemma says that **for every** decomposition satisfying (1) and
+<aside aria-label="Common Pitfall The pumping lemma says that **for every** decomposition satisfying (1) and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The pumping lemma says that **for every** decomposition satisfying (1) and</p>
 (2), **there exists** a Pumping that fails. To prove non-regularity, you must show that **all**
 valid decompositions lead To a contradiction. A single decomposition that works is insufficient to
 disprove the lemma. The converse of the pumping lemma is false: if a language satisfies the pumping
 condition, it is Not necessarily regular.
-:::
-
+</aside>
 ### 2.7 Closure Properties of Regular Languages
 
 Regular languages are closed under:
@@ -1172,11 +1171,10 @@ $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
 
 **Corollary.** The following are undecidable: "Does $M$ accept at least one string?", "Is $L(M)$ Finite?", "Is $L(M)$ regular?", "Is $L(M)$ context-free?"
 
-:::caution Common Pitfall Rice's theorem applies only to properties of the **language** $L(M)$Not
+<aside aria-label="Common Pitfall Rice's theorem applies only to properties of the **language** $L(M)$Not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Rice's theorem applies only to properties of the **language** $L(M)$Not</p>
 properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$And is in fact decidable (just simulate for 100
 steps).
-:::
-
+</aside>
 ### 5.5 Post Correspondence Problem
 
 **Definition.** An instance of the **Post Correspondence Problem (PCP)** consists of two lists of
@@ -1254,14 +1252,13 @@ The arithmetical hierarchy is defined by iterating the jump: $\emptyset^{(0)} = 
 $\emptyset^{(n+1)} = (\emptyset^{(n)})'$. Each jump produces a strictly more difficult problem,
 Yielding an infinite hierarchy of undecidability.
 
-:::caution Common Pitfall A common mistake when using reductions is confusing the direction. To
+<aside aria-label="Common Pitfall A common mistake when using reductions is confusing the direction. To" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A common mistake when using reductions is confusing the direction. To</p>
 prove $B$ is undecidable Using a reduction from a known undecidable problem $A$You need
 $A \leq_m B$Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is
 undecidable (contrapositive of "if $B$ is decidable then $A$ is decidable"). Reversing the direction
 gives a valid implication ("if $B \leq_m A$ and $A$ is undecidable, then...") that tells us nothing
 about $B$.
-:::
-
+</aside>
 ## 6. Complexity Theory
 
 ### 6.1 Time Complexity
@@ -1700,15 +1697,14 @@ Both inclusions $\mathrm{P} \subseteq \mathrm{NP}$ and $\mathrm{NP} \subseteq \m
 Known to be proper ($\mathrm{P} \neq \mathrm{PSPACE}$), but the status of $\mathrm{P}$ vs.
 $\mathrm{NP}$ remains open.
 
-:::caution Common Pitfall NP-completeness refers to **decision** problems. The optimisation versions
+<aside aria-label="Common Pitfall NP-completeness refers to **decision** problems. The optimisation versions" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall NP-completeness refers to **decision** problems. The optimisation versions</p>
 (e.g., "find the shortest Tour") are NP-hard, not necessarily NP-complete. Also, "NP" stands for
 "Nondeterministic Polynomial Time," not "Not Polynomial time." Every problem in NP is verifiable in
 polynomial time; whether all Such problems are solvable in polynomial time is the P vs. NP question.
 A common error is confusing "NP-hard" with "NP-complete": NP-hard means at least as hard as all NP
 problems, but the problem Itself might not be in NP (e.g., the halting problem is NP-hard but
 undecidable).
-:::
-
+</aside>
 ## 7. Problem Set
 
 ### 7.1 Regular Languages

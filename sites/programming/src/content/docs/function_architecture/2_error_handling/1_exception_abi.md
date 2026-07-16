@@ -32,10 +32,9 @@ the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
 | **LSDA** (Language-Specific Data Area) | Describes which PC ranges map to which `try`/`catch` blocks.                                                                            |
 | **Unwind table**                       | Lists every call site in the function so the unwinder can determine whether the function has a cleanup (destructor call) at each point. |
 
-:::note On platforms using the Itanium ABI, **no runtime cost** is incurred for `try` blocks when no
+<aside aria-label="On platforms using the Itanium ABI, **no runtime cost** is incurred for `try` blocks when no" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>On platforms using the Itanium ABI, **no runtime cost** is incurred for `try` blocks when no</p>
 Exception is thrown. The tables are consulted only during unwinding.
-:::
-
+</aside>
 ### Alternative Exception Models
 
 | Model                       | Description                                                         | Normal-Path Cost            | Platforms                 |
@@ -245,10 +244,9 @@ Runtime overhead compared to equivalent code without exception handling.
 
 $\square$
 
-:::tip If you compile with `-fno-exceptions` (GCC/Clang), `throw` and `try` become compilation
+<aside aria-label="If you compile with `-fno-exceptions` (GCC/Clang), `throw` and `try` become compilation" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>If you compile with `-fno-exceptions` (GCC/Clang), `throw` and `try` become compilation</p>
 Errors. This confirms that exception-neutral code has zero overhead in the normal path.
-:::
-
+</aside>
 ## 1.5 Performance Comparison: Throw/Catch vs Error Codes
 
 | Metric           | Exception (throw path)            | Error-code check            |
@@ -395,7 +393,7 @@ int main() {
 //   caught NetworkError: connection refused
 ```
 
-:::caution Never write `throw e;` in a catch clause — this creates a **new copy** of `e` using its
+<aside aria-label="Never write `throw e;` in a catch clause — this creates a **new copy** of `e` using its" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never write `throw e;` in a catch clause — this creates a **new copy** of `e` using its</p>
 Static type, slicing the dynamic type. Always use `throw;` to re-throw the original exception.
 
 ## 1.7 Cross-Thread Exception Propagation with `std::exception_ptr`
@@ -700,4 +698,4 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

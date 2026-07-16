@@ -67,12 +67,11 @@ C++11 introduced move semantics, requiring the xvalue category to represent "thi
 Identity but are about to expire." C++17 refined the model by making prvalues non-objects until they
 Are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
 
-:::note Relevance The value category of an expression determines which overloaded function is called
+<aside aria-label="Relevance The value category of an expression determines which overloaded function is called" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance The value category of an expression determines which overloaded function is called</p>
 (via reference binding rules), whether a move constructor or copy constructor is invoked, and
 Whether temporary lifetime extension applies. Understanding value categories is essential to
 Understanding why move semantics work.
-:::
-
+</aside>
 ## 2.1 lvalue
 
 An expression is an lvalue if it [N4950 S7.2.1]:
@@ -173,12 +172,11 @@ int main() {
 | xvalue   | Yes           | Yes            | `std::move(x)``std::forward<T>(x)``return std::move(local);` (member access) |
 | prvalue  | No            | Yes            | `42``3.14``f()` (by-value return), `int{7}``a + b`                           |
 
-:::note Relevance The parenthesized expression `decltype((e))` yields the **declared type of `e`**
+<aside aria-label="Relevance The parenthesized expression `decltype((e))` yields the **declared type of `e`**" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance The parenthesized expression `decltype((e))` yields the **declared type of `e`**</p>
 With reference qualifiers preserved, which is how the `static_assert` tests above work. Without the
 Extra parentheses, `decltype(e)` strips references. This distinction is critical when writing type
 Traits or SFINAE constraints.
-:::
-
+</aside>
 ## See Also
 
 - [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
@@ -747,7 +745,7 @@ int main() {
 }
 ```
 
-:::caution Using `decltype(auto)` with `return (local_variable);` returns a dangling reference. The
+<aside aria-label="Using `decltype(auto)` with `return (local_variable);` returns a dangling reference. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Using `decltype(auto)` with `return (local_variable);` returns a dangling reference. The</p>
 Parentheses around `local_variable` make it an lvalue expression, so `decltype((local_variable))` is
 `T&`. But the local variable is destroyed at the end of the function, leaving a dangling reference.
 Always use `return local_variable;` (without parentheses) when you intend to return by value.
@@ -864,4 +862,4 @@ When working with value taxonomy, follow these steps:
 3. Implement the solution step by step
 4. Test with edge cases and verify correctness
 
-:::
+</aside>

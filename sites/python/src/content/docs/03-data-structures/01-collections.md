@@ -199,9 +199,7 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flat = [x for row in matrix for x in row]  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-:::tip
-
-Avoid using list comprehensions with side effects. They are for building lists, not for executing
+<aside aria-label="Avoid using list comprehensions with side effects. They are for building lists, not for executing" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Avoid using list comprehensions with side effects. They are for building lists, not for executing</p>
 Actions. If the comprehension has no useful result, use a `for` loop instead.
 
 
@@ -368,10 +366,8 @@ for i in range(20):
 # Multiple keys may map to the same initial slot, resolved by linear probing
 ```
 
-:::
-:::caution
-
-If two objects have equal values (`a == b` is `True`), they **must** have the same hash
+</aside>
+<aside aria-label="If two objects have equal values (`a == b` is `True`), they **must** have the same hash" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If two objects have equal values (`a == b` is `True`), they **must** have the same hash</p>
 (`hash(a) == hash(b)`). If you define `__eq__` on a class, you must also define `__hash__`Or set
 `__hash__ = None` to make the object unhashable (the default when `__eq__` is defined without
 `__hash__` in Python 3).
@@ -477,10 +473,8 @@ d2 = {"b": 2, "a": 1}
 print(d1 == d2)    # True (order does not matter)
 ```
 
-:::
-:::info
-
-Use plain `dict` unless you need `move_to_end` or `popitem(last=False)`. `dict` is slightly more
+</aside>
+<aside aria-label="Use plain `dict` unless you need `move_to_end` or `popitem(last=False)`. `dict` is slightly more" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use plain `dict` unless you need `move_to_end` or `popitem(last=False)`. `dict` is slightly more</p>
 Memory-efficient and faster for most operations.
 
 
@@ -612,10 +606,8 @@ print(c1 | c2)   # Counter({'a': 3, 'b': 2}) -- max(c1[x], c2[x])
 print(list(Counter(a=3, b=0, c=-1).elements()))  # ['a', 'a', 'a']
 ```
 
-:::
-:::tip
-
-`Counter.most_common()` returns a list of `(element, count)` pairs sorted by count descending. Use
+</aside>
+<aside aria-label="`Counter.most_common()` returns a list of `(element, count)` pairs sorted by count descending. Use" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`Counter.most_common()` returns a list of `(element, count)` pairs sorted by count descending. Use</p>
 `c.most_common(n)` to get only the top n, which is more efficient than sorting the entire counter.
 
 
@@ -649,10 +641,8 @@ nested["user1"]["clicks"] = 7
 The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 
-:::
-:::caution
-
-A common mistake is passing `dict` or `list` with parentheses as the factory: `defaultdict(dict())`.
+</aside>
+<aside aria-label="A common mistake is passing `dict` or `list` with parentheses as the factory: `defaultdict(dict())`." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common mistake is passing `dict` or `list` with parentheses as the factory: `defaultdict(dict())`.</p>
 This calls `dict()` once and passes the resulting empty dict as the factory. The correct form is
 `defaultdict(dict)` or `defaultdict(list)` -- without parentheses.
 
@@ -739,10 +729,8 @@ new_context = combined.new_child({"color": "green"})
 print(new_context["color"])  # "green"
 ```
 
-:::
-:::info
-
-`ChainMap` does not copy the underlying mappings -- it holds references to them. Changes to any
+</aside>
+<aside aria-label="`ChainMap` does not copy the underlying mappings -- it holds references to them. Changes to any" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`ChainMap` does not copy the underlying mappings -- it holds references to them. Changes to any</p>
 Underlying dict are immediately visible through the `ChainMap`. Lookups are O(k) where k is the
 Number of mappings, since each mapping is checked in order.
 
@@ -952,10 +940,8 @@ heapq.heappush(tasks, (2, next(counter), "task B"))
 heapq.heappush(tasks, (1, next(counter), "task C"))
 ```
 
-:::
-:::caution
-
-When using tuples as heap elements, comparison proceeds element-by-element. If the first elements
+</aside>
+<aside aria-label="When using tuples as heap elements, comparison proceeds element-by-element. If the first elements" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>When using tuples as heap elements, comparison proceeds element-by-element. If the first elements</p>
 (priorities) are equal, Python compares the second elements. If the second elements are not
 Comparable (e.g., two different types), this raises `TypeError`. The tiebreaker pattern using an
 `itertools.count()` counter avoids this problem entirely.
@@ -1071,4 +1057,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

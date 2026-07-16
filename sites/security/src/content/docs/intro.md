@@ -82,9 +82,7 @@ This section covers the core security competencies expected of a systems enginee
 6. **Incident Response**. NIST IR lifecycle, forensics, containment, post-mortem
    ([incident-response](./06-incident-response/incident-response.md))
 
-:::tip
-
-These notes assume familiarity with networking fundamentals (TCP/IP, DNS, TLS) and basic systems
+<aside aria-label="These notes assume familiarity with networking fundamentals (TCP/IP, DNS, TLS) and basic systems" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>These notes assume familiarity with networking fundamentals (TCP/IP, DNS, TLS) and basic systems</p>
 Administration. The focus is on understanding how security controls work at the implementation level
 And why they fail when they do.
 
@@ -153,4 +151,4 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
-:::
+</aside>

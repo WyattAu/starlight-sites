@@ -31,9 +31,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
   -addext "subjectAltName=DNS:localhost,IP:127.0.0.1"
 ```
 
-:::caution
-
-Self-signed certificates produce browser warnings and client errors unless the CA certificate is
+<aside aria-label="Self-signed certificates produce browser warnings and client errors unless the CA certificate is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Self-signed certificates produce browser warnings and client errors unless the CA certificate is</p>
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
 Them only for internal services where you control the trust store.
 
@@ -287,10 +285,8 @@ chown root:root server.key
 openssl rsa -in server-encrypted.key -out server.key
 ```
 
-:::
-:::caution
-
-Never commit private keys to version control. Use a secrets manager (HashiCorp Vault, AWS Secrets
+</aside>
+<aside aria-label="Never commit private keys to version control. Use a secrets manager (HashiCorp Vault, AWS Secrets" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never commit private keys to version control. Use a secrets manager (HashiCorp Vault, AWS Secrets</p>
 Manager, Azure Key Vault) or a provisioning tool (Ansible Vault, SOPS) to manage private keys.
 Automated certificate management with certbot or a cloud provider reduces the risk of manual key
 Handling errors.
@@ -453,10 +449,8 @@ ssl_early_data on;
 # - Use a single-use token to detect replays
 ```
 
-:::
-:::caution
-
-0-RTT data can be replayed by an attacker who captures the client's initial message. Only enable
+</aside>
+<aside aria-label="0-RTT data can be replayed by an attacker who captures the client's initial message. Only enable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>0-RTT data can be replayed by an attacker who captures the client's initial message. Only enable</p>
 0-RTT for idempotent, safe-to-replay requests (e.g., GET requests, non-critical analytics). Never
 Use 0-RTT for authentication, payment, or state-changing requests.
 
@@ -643,4 +637,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

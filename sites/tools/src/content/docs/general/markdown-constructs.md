@@ -211,8 +211,7 @@ Print("hello")
 Admonitions are the preferred way to call out important information:
 
 ```md
-:::note This is a note. :::
-
+<aside aria-label="This is a note. :::" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This is a note. :::</p>
 > **Tip:** This is a tip.
 
 > **Info:** This is informational.
@@ -234,7 +233,7 @@ They can also be collapsible (Docusaurus 3):
 
 ```md
 :::note[Click to expand] Hidden content that is revealed on click.
-:::
+</aside>
 ```
 
 ### Tabs
@@ -326,10 +325,9 @@ Hidden content here.
 &lt;/details&gt;
 ```
 
-:::caution Do not nest `&lt;details&gt;` inside another `&lt;details&gt;`. This causes rendering
+<aside aria-label="Do not nest `&lt;details&gt;` inside another `&lt;details&gt;`. This causes rendering" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not nest `&lt;details&gt;` inside another `&lt;details&gt;`. This causes rendering</p>
 issues in Docusaurus.
-:::
-
+</aside>
 ### MDX Import Statements
 
 Since Docusaurus processes `.md` files as MDX, you can import React components:
@@ -472,9 +470,8 @@ linked above.
 | Tabs vs. spaces in code blocks | Indentation rendered inconsistently | Use consistent indentation (2 or 4 spaces) throughout |
 | Frontmatter title as h1 | Duplicate h1 heading in rendered page | Start body content with `##` (h2) level headings |
 
-:::tip Quick Reference
+<aside aria-label="Quick Reference" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Quick Reference</p>
 For a complete syntax reference, consult the
 [Docusaurus Markdown documentation](https://docusaurus.io/docs/markdown-features)
 and the [MDX specification](https://mdxjs.com/).
-:::
-
+</aside>

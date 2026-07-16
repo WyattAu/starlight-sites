@@ -122,9 +122,7 @@ understand.
 - **Desmos Calculator** -- The built-in graphing calculator available during the Math section.
   Practise with it at <https://www.desmos.com/calculator>
 
-:::tip
-
-The College Board releases free full-length practice tests through Bluebook. Taking at least 3-4
+<aside aria-label="The College Board releases free full-length practice tests through Bluebook. Taking at least 3-4" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The College Board releases free full-length practice tests through Bluebook. Taking at least 3-4</p>
 full-length practice tests under timed conditions is the single most effective preparation strategy.
 
 ## Summary
@@ -144,4 +142,4 @@ linked above.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
 
-:::
+</aside>

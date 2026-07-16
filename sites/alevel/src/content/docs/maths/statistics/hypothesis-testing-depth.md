@@ -13,10 +13,9 @@ This document provides a rigorous treatment of hypothesis testing methodology, i
 Alternative hypotheses, significance levels, Type I and II errors, one-tailed and two-tailed tests,
 And critical regions.
 
-:::info Hypothesis testing is a formal procedure for making decisions about population parameters
+<aside aria-label="Hypothesis testing is a formal procedure for making decisions about population parameters" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Hypothesis testing is a formal procedure for making decisions about population parameters</p>
 based on Sample evidence. It provides a principled framework for quantifying uncertainty.
-:::
-
+</aside>
 <hr />
 
 ## 1. The Hypothesis Testing Framework
@@ -61,11 +60,10 @@ test statistic exceeds $c$Reject $H_0$.
 - "Do not reject $H_0$": there is **insufficient** evidence to reject $H_0$. This does **not** mean
   $H_0$ is true.
 
-:::caution Common Pitfall "Accepting $H_0$" is not the same as "not rejecting $H_0$." We never prove
+<aside aria-label="Common Pitfall "Accepting $H_0$" is not the same as "not rejecting $H_0$." We never prove" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall "Accepting $H_0$" is not the same as "not rejecting $H_0$." We never prove</p>
 $H_0$; we merely fail To find sufficient evidence against it. The conclusion should always be stated
 carefully.
-:::
-
+</aside>
 <hr />
 
 ## 2. Type I and Type II Errors
@@ -214,7 +212,7 @@ $$\alpha_{\mathrm{actual}} = P(X \leq 5) + P(X \geq 15) = 2(0.0207) = 0.0414$$
 
 This is approximately 4.14%, which is the closest we can get to 5% with a discrete distribution.
 
-:::caution Warning For discrete distributions, the actual significance level may differ from the
+<aside aria-label="Warning For discrete distributions, the actual significance level may differ from the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning For discrete distributions, the actual significance level may differ from the</p>
 nominal level. The Critical region is chosen so that $P(\mathrm{critical\ region} \mid H_0)$ does
 not exceed $\alpha$ And is as close as possible to $\alpha$.
 
@@ -434,4 +432,4 @@ $\blacksquare$
 - For binomial tests, use cumulative probabilities; for normal tests, use the $z$-score.
 - The critical region is the set of values that lead to rejection of $H_0$.
 
-:::
+</aside>

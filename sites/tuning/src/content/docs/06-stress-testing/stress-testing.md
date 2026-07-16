@@ -121,11 +121,10 @@ sudo apt install intel-mkl
 ./linpack_xeon64
 ```
 
-:::caution Linpack generates extreme power consumption — often exceeding the CPU's rated TDP by
+<aside aria-label="Linpack generates extreme power consumption — often exceeding the CPU's rated TDP by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Linpack generates extreme power consumption — often exceeding the CPU's rated TDP by</p>
 30–50%. This can push VRMs and PSU beyond their rated capacity. Only use Linpack for brief thermal
 Profiling (5–10 minutes), not for extended stability testing.
-:::
-
+</aside>
 ---
 
 ## GPU Stress Tests
@@ -278,10 +277,9 @@ sudo badblocks -wsv /dev/sdX
 sudo badblocks -sv /dev/sdX
 ```
 
-:::caution `badblocks -w` is destructive — it overwrites all data on the device. Only use on
+<aside aria-label="`badblocks -w` is destructive — it overwrites all data on the device. Only use on" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`badblocks -w` is destructive — it overwrites all data on the device. Only use on</p>
 Unpartitioned drives or drives whose data you have backed up.
-:::
-
+</aside>
 ### CrystalDiskMark
 
 CrystalDiskMark (Windows) provides an easy GUI for sequential and random I/O testing:

@@ -89,14 +89,13 @@ Addresses using shadow stacks.
 - Implemented in LLVM via `-fsanitize=cfi`.
 - Hardware support: Intel CET (Control-flow Enforcement Technology).
 
-:::caution Common Pitfall ASLR, stack canaries, and DEP are complementary defences. Relying on any
+<aside aria-label="Common Pitfall ASLR, stack canaries, and DEP are complementary defences. Relying on any" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall ASLR, stack canaries, and DEP are complementary defences. Relying on any</p>
 single mechanism is Insufficient. A determined attacker who can read memory can defeat ASLR; a
 format string Vulnerability can leak canary values; and JIT compilers require
 writable-and-executable pages.
 
 
-:::
-
+</aside>
 ### 9.4 Privilege Separation in Practice
 
 Privilege separation divides a program into components running at different privilege levels, limiting

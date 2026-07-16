@@ -222,7 +222,7 @@ Therefore $A^{10} = 3254867 \cdot A - 6508710 \cdot I$. $\blacksquare$
 
 </details>
 
-:::caution Common Pitfall Not every matrix is diagonalisable. For example,
+<aside aria-label="Common Pitfall Not every matrix is diagonalisable. For example," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not every matrix is diagonalisable. For example,</p>
 $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has Eigenvalue $\lambda = 1$ with algebraic
 multiplicity 2 but geometric multiplicity 1. It has only one Linearly independent eigenvector and is
 not diagonalisable.
@@ -281,4 +281,4 @@ $\blacksquare$
 ---
 
 
-:::
+</aside>

@@ -109,11 +109,10 @@ void spanbuf_demo() {
 }
 ```
 
-:::tip Prefer `std::spanbuf` over `std::stringbuf` when you need to write formatted output into a
+<aside aria-label="Prefer `std::spanbuf` over `std::stringbuf` when you need to write formatted output into a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Prefer `std::spanbuf` over `std::stringbuf` when you need to write formatted output into a</p>
 Fixed-size pre-allocated buffer (e.g., a network packet buffer or embedded flash region). It avoids
 Heap allocation entirely.
-:::
-
+</aside>
 ### Locale Facets
 
 A **locale** in C++ is a collection of **facets** — polymorphic classes that encapsulate cultural
@@ -165,13 +164,12 @@ void locale_facet_demo() {
 }
 ```
 
-:::note The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The
+<aside aria-label="The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The default `"C"` locale uses `.` as the decimal point and has no thousands separator. The</p>
 `""` locale (empty string) selects the user's preferred locale from environment variables (`LC_ALL`
 `LC_NUMERIC``LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
 [N4950 §30.3.1.3].
-:::
-
+</aside>
 ### Custom Stream Buffer
 
 The power of the stream buffer abstraction is that you can derive from `std::streambuf` to redirect
@@ -253,16 +251,14 @@ Output (example):
 [2026-03-31 14:22:01] [ERROR] Connection timeout after 30s
 ```
 
-:::tip This pattern is used in production logging frameworks. The `overflow` override is called for
+<aside aria-label="This pattern is used in production logging frameworks. The `overflow` override is called for" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>This pattern is used in production logging frameworks. The `overflow` override is called for</p>
 Each character written to the stream. Buffering the line and flushing on `\n` gives you control over
 The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
-:::
-
-:::caution Always override `sync()` in addition to `overflow()`. The `sync()` method is called by
+</aside>
+<aside aria-label="Always override `sync()` in addition to `overflow()`. The `sync()` method is called by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always override `sync()` in addition to `overflow()`. The `sync()` method is called by</p>
 `std::flush` and `std::endl`. If you only override `overflow()`Manually flushed output (via
 `std::flush`) will not reach your sink.
-:::
-
+</aside>
 ### Connecting Stream Buffers to Streams
 
 A stream (`std::istream``std::ostream`) does not own its stream buffer. You can redirect a stream To
@@ -406,12 +402,11 @@ void buffer_mode_demo() {
 }
 ```
 
-:::caution Flushing `std::cout` on every write (unitbuf mode) can severely degrade performance in
+<aside aria-label="Flushing `std::cout` on every write (unitbuf mode) can severely degrade performance in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Flushing `std::cout` on every write (unitbuf mode) can severely degrade performance in</p>
 I/O-heavy code. Each flush results in a `write()` system call, which is orders of magnitude slower
 Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
-:::
-
+</aside>
 ### `std::ios::sync_with_stdio`
 
 `std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf``scanf``fread`
@@ -442,12 +437,11 @@ void sync_demo() {
 }
 ```
 
-:::caution Once `sync_with_stdio(false)` is called, it cannot be reversed (the standard says the
+<aside aria-label="Once `sync_with_stdio(false)` is called, it cannot be reversed (the standard says the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Once `sync_with_stdio(false)` is called, it cannot be reversed (the standard says the</p>
 Effect is irreversible once any standard stream has been used). This is a common pattern in
 Competitive programming for fast I/O, but it is dangerous in library code because it affects the
 Entire process. Never call it in a library.
-:::
-
+</aside>
 ### Custom Input Stream Buffer
 
 The following example implements a stream buffer that reads from a fixed memory buffer (similar to
@@ -535,11 +529,10 @@ void seek_demo() {
 }
 ```
 
-:::caution `seekg` and `seekp` use the same position in a `std::fstream` (on POSIX), but the
+<aside aria-label="`seekg` and `seekp` use the same position in a `std::fstream` (on POSIX), but the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`seekg` and `seekp` use the same position in a `std::fstream` (on POSIX), but the</p>
 Standard permits them to use separate positions. For maximum portability, always call `clear()`
 Before seeking after a failed read, and avoid mixing reads and writes without an intervening seek.
-:::
-
+</aside>
 ### Manipulators and Stream State
 
 The stream state is controlled by a bitmask of `std::ios::iostate` flags [N4950 §30.4.3]:

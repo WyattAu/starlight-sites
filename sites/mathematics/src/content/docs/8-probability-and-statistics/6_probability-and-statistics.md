@@ -195,12 +195,11 @@ $$= \frac{0.02 \times 0.5}{0.02 \times 0.5 + 0.01 \times 0.3 + 0.03 \times 0.2} 
 
 </details>
 
-:::caution Common Pitfall People often confuse $P(A \mid B)$ with $P(B \mid A)$. In medical testing,
+<aside aria-label="Common Pitfall People often confuse $P(A \mid B)$ with $P(B \mid A)$. In medical testing," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall People often confuse $P(A \mid B)$ with $P(B \mid A)$. In medical testing,</p>
 $P(\mathrm{disease} \mid \mathrm{positive})$ Is much lower than
 $P(\mathrm{positive} \mid \mathrm{disease})$ due to low base rates. Always apply Bayes' Theorem
 rigorously.
-:::
-
+</aside>
 ## 2. Random Variables
 
 ### 2.1 Definition
@@ -850,11 +849,10 @@ $$\mathrm{Var}(X) = \frac{91}{6} - \left(\frac{7}{2}\right)^2 = \frac{91}{6} - \
 
 </details>
 
-:::caution Common Pitfall $\mathrm{Var}(X) = E[X^2] - (E[X])^2$**not** $(E[X])^2 - E[X^2]$. The
+<aside aria-label="Common Pitfall $\mathrm{Var}(X) = E[X^2] - (E[X])^2$**not** $(E[X])^2 - E[X^2]$. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall $\mathrm{Var}(X) = E[X^2] - (E[X])^2$**not** $(E[X])^2 - E[X^2]$. The</p>
 variance is always non-negative, so if you Obtain a negative value, you have made an arithmetic
 error.
-:::
-
+</aside>
 ## 5. Joint Distributions
 
 ### 5.1 Joint PDF and CDF
@@ -1385,11 +1383,10 @@ $$\hat{\lambda} \pm 1.96 \cdot \frac{\hat{\lambda}}{\sqrt{n}}$$
 
 </details>
 
-:::caution Common Pitfall The MLE is not always unbiased. For example, the MLE
+<aside aria-label="Common Pitfall The MLE is not always unbiased. For example, the MLE" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The MLE is not always unbiased. For example, the MLE</p>
 $\hat{\sigma}^2 = \frac{1}{n}\sum (X_i - \bar{X})^2$ For the normal variance is biased; the unbiased
 estimator uses $n - 1$ in the denominator.
-:::
-
+</aside>
 ## 8. Hypothesis Testing
 
 ### 8.1 Framework
@@ -1603,11 +1600,10 @@ recovers the Z-test. $\blacksquare$
 
 </details>
 
-:::caution Common Pitfall "Failing to reject $H_0$" is not the same as "accepting $H_0$". The test
+<aside aria-label="Common Pitfall "Failing to reject $H_0$" is not the same as "accepting $H_0$". The test" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall "Failing to reject $H_0$" is not the same as "accepting $H_0$". The test</p>
 only provides evidence against $H_0$; absence of evidence is not evidence of absence. The
 distinction is critical in scientific Reasoning.
-:::
-
+</aside>
 ## 9. Problem Set
 
 **Problem 1.** Let $A, B, C$ be events with $P(A) = 0.4$, $P(B) = 0.5$, $P(C) = 0.3$,

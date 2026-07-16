@@ -87,9 +87,7 @@ GPT disk layout:
   Last LBA - 1:    Backup GPT header
 ```
 
-:::info
-
-Always use GPT unless you have a specific reason not to. The 2 TiB MBR limit is hit with Modern
+<aside aria-label="Always use GPT unless you have a specific reason not to. The 2 TiB MBR limit is hit with Modern" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Always use GPT unless you have a specific reason not to. The 2 TiB MBR limit is hit with Modern</p>
 disks, and GPT"s backup table provides redundancy against corruption at the start of the Disk.
 
 
@@ -165,10 +163,8 @@ UUID=abc12345-6789-def0-1234-567890abcdef  /mnt/data  ext4  defaults  0  2
 PARTUUID=12345678-1234-1234-1234-123456789abc  /mnt/data  ext4  defaults  0  2
 ```
 
-:::
-:::info
-
-Prefer `PARTUUID` over `UUID` for partition identification. PARTUUID is stored in the partition
+</aside>
+<aside aria-label="Prefer `PARTUUID` over `UUID` for partition identification. PARTUUID is stored in the partition" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Prefer `PARTUUID` over `UUID` for partition identification. PARTUUID is stored in the partition</p>
 Table itself (not the filesystem), so it survives filesystem recreation and works on raw partitions.
 Modern distributions use PARTUUID in their default fstab entries.
 
@@ -229,10 +225,8 @@ parted /dev/sdb --script set 1 boot on
 parted /dev/sdb --script align-check optimal 1
 ```
 
-:::
-:::caution
-
-`parted` does not reload the partition table automatically after scripting. Use `partprobe` or
+</aside>
+<aside aria-label="`parted` does not reload the partition table automatically after scripting. Use `partprobe` or" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`parted` does not reload the partition table automatically after scripting. Use `partprobe` or</p>
 `blockdev --rereadpt` after running parted scripts, or reboot.
 
 
@@ -452,10 +446,8 @@ tune2fs -c 0 /dev/sda1       # ext4: set max mount count to 0 (disable)
 tune2fs -i 0 /dev/sda1       # ext4: set interval to 0 (disable)
 ```
 
-:::
-:::caution
-
-Never run `fsck` on a mounted filesystem. Unmount first, or run from a live system. Running fsck on
+</aside>
+<aside aria-label="Never run `fsck` on a mounted filesystem. Unmount first, or run from a live system. Running fsck on" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never run `fsck` on a mounted filesystem. Unmount first, or run from a live system. Running fsck on</p>
 A live mounted filesystem will cause corruption. The only exception is `/` (root), which can be
 Checked at boot time by setting the `pass` field in `/etc/fstab` to 1.
 
@@ -541,10 +533,8 @@ tune2fs -o journal_data_ordered /dev/sda1  # ordered (default)
 tune2fs -o journal_data_writeback /dev/sda1 # writeback
 ```
 
-:::
-:::info
-
-`ordered` mode is the default and the correct choice for virtually all workloads. `journal` mode is
+</aside>
+<aside aria-label="`ordered` mode is the default and the correct choice for virtually all workloads. `journal` mode is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`ordered` mode is the default and the correct choice for virtually all workloads. `journal` mode is</p>
 Used for databases requiring absolute data integrity guarantees. `writeback` mode is marginally
 Faster but can leave stale data in files after a crash (zero-length files can appear to have old
 Content).
@@ -629,10 +619,8 @@ A typical production layout:
   LV "lv_backup" = 60 GiB from vg_data (with 20 GiB free in VG)
 ```
 
-:::
-:::info
-
-You can use whole disks as PVs (`pvcreate /dev/sdb`) instead of partitions, but using partitions
+</aside>
+<aside aria-label="You can use whole disks as PVs (`pvcreate /dev/sdb`) instead of partitions, but using partitions" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>You can use whole disks as PVs (`pvcreate /dev/sdb`) instead of partitions, but using partitions</p>
 Provides a layer of protection — if LVM metadata is corrupted, partition boundaries remain visible
 To non-LVM tools for recovery.
 
@@ -775,10 +763,8 @@ lvextend --resizefs -L +50G /dev/vg_data/lv_mysql    # ext4 only
 lvextend -r -L +50G /dev/vg_data/lv_mysql             # -r = --resizefs
 ```
 
-:::
-:::caution
-
-For XFS, `xfs_growfs` takes the **mount point** as the argument, not the device path. This is a
+</aside>
+<aside aria-label="For XFS, `xfs_growfs` takes the **mount point** as the argument, not the device path. This is a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>For XFS, `xfs_growfs` takes the **mount point** as the argument, not the device path. This is a</p>
 Common source of errors. The `lvextend -r` shortcut does not work with XFS.
 
 
@@ -808,10 +794,8 @@ lvreduce --resizefs -L 50G /dev/vg_data/lv_logs  # does both steps (checks first
 mount /dev/vg_data/lv_logs /mnt/logs
 ```
 
-:::
-:::caution
-
-Shrinking is destructive if done incorrectly. The filesystem must be checked with `e2fsck -f` before
+</aside>
+<aside aria-label="Shrinking is destructive if done incorrectly. The filesystem must be checked with `e2fsck -f` before" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Shrinking is destructive if done incorrectly. The filesystem must be checked with `e2fsck -f` before</p>
 Shrinking. XFS and Btrfs **cannot** be shrunk at all. Always have a backup before shrinking any
 Filesystem.
 
@@ -882,10 +866,8 @@ lvs -o name,lv_attr,snap_percent,origin
 # The snapshot is dropped automatically, and the CoW LV becomes a regular LV
 ```
 
-:::
-:::caution
-
-If the CoW area fills up completely, the snapshot is **dropped** and you lose the ability to roll
+</aside>
+<aside aria-label="If the CoW area fills up completely, the snapshot is **dropped** and you lose the ability to roll" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If the CoW area fills up completely, the snapshot is **dropped** and you lose the ability to roll</p>
 Back. Monitor `snap_percent` closely. Overestimate the CoW size — unused CoW space is wasted but
 Safe; CoW space that is too small is catastrophic. A good rule of thumb is 10-20% of the origin LV
 Size for low-write volumes, or up to 50% for high-write volumes.
@@ -923,10 +905,8 @@ lvconvert --merge /dev/vg_data/lv_mysql_snap
 lvs -a -o+origin,merge_failed
 ```
 
-:::
-:::caution
-
-Merging a snapshot is irreversible. The origin LV is restored to the state at the time the snapshot
+</aside>
+<aside aria-label="Merging a snapshot is irreversible. The origin LV is restored to the state at the time the snapshot" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Merging a snapshot is irreversible. The origin LV is restored to the state at the time the snapshot</p>
 Was created. All changes since the snapshot are lost. The snapshot itself is deleted after a
 Successful merge.
 
@@ -1089,10 +1069,8 @@ systemctl enable --now lvm2-monitor
 lvextend -L +50G /dev/vg_data/thinpool
 ```
 
-:::
-:::caution
-
-If a thin pool runs out of space, the consequences are severe: filesystems on thin volumes may
+</aside>
+<aside aria-label="If a thin pool runs out of space, the consequences are severe: filesystems on thin volumes may" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If a thin pool runs out of space, the consequences are severe: filesystems on thin volumes may</p>
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
 On it as your only protection.
@@ -1230,10 +1208,8 @@ mdadm --create /dev/md0 --level=1 --raid-devices=2 \
     --metadata=1.2 /dev/sdb1 /dev/sdc1
 ```
 
-:::
-:::info
-
-Use superblock version 1.0 for `/boot` (needed by GRUB) and 1.2 for all other arrays. Version 1.2
+</aside>
+<aside aria-label="Use superblock version 1.0 for `/boot` (needed by GRUB) and 1.2 for all other arrays. Version 1.2" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use superblock version 1.0 for `/boot` (needed by GRUB) and 1.2 for all other arrays. Version 1.2</p>
 Places metadata at the 4 KiB offset, avoiding conflicts with partition tables and making it easy to
 Use whole disks as array members.
 
@@ -1293,10 +1269,8 @@ swapon /swapfile
 swapon --show
 ```
 
-:::
-:::caution
-
-On Btrfs, swap files require specific handling. The swap file must reside on a non-CoW subvolume,
+</aside>
+<aside aria-label="On Btrfs, swap files require specific handling. The swap file must reside on a non-CoW subvolume," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>On Btrfs, swap files require specific handling. The swap file must reside on a non-CoW subvolume,</p>
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
 The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
 Files may not work at all — use a swap partition or swap file on a loop device instead.
@@ -1356,10 +1330,8 @@ zramctl
 # swap-priority = 100
 ```
 
-:::
-:::info
-
-Zram is most useful on systems with limited RAM (embedded devices, VMs with small allocations). On
+</aside>
+<aside aria-label="Zram is most useful on systems with limited RAM (embedded devices, VMs with small allocations). On" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Zram is most useful on systems with limited RAM (embedded devices, VMs with small allocations). On</p>
 Systems with ample RAM, zram adds CPU overhead for compression/decompression with little benefit.
 Use disk swap (or no swap) on systems with 16+ GiB of RAM.
 
@@ -1780,10 +1752,8 @@ WRONG ORDER (will corrupt data):
   2. resize2fs /dev/vg/lv 50G        (too late. Filesystem metadata may be beyond LV boundary)
 ```
 
-:::
-:::caution
-
-Always use `lvreduce --resizefs` which performs the filesystem check and resize automatically in the
+</aside>
+<aside aria-label="Always use `lvreduce --resizefs` which performs the filesystem check and resize automatically in the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `lvreduce --resizefs` which performs the filesystem check and resize automatically in the</p>
 Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly what you are doing.
 
 ### Forgetting to Resize the Filesystem After Extending the LV
@@ -1919,4 +1889,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

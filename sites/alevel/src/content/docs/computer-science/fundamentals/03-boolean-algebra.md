@@ -286,16 +286,14 @@ $f = \bar{A}\bar{B} + \bar{B}C + AB$
 
 </details>
 
-:::info Board-specific
-
+<aside aria-label="Board-specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific</p>
 - **AQA** requires Karnaugh maps for simplification of Boolean expressions up to 4 variables
 - **CIE (9618)** focuses on Boolean algebra identities, De Morgan's laws, and simplification using
   algebraic methods (not Karnaugh maps)
 - **OCR (A)** requires truth tables, logic gate diagrams, and construction of half adder / full
   adder circuits
 - **Edexcel** covers truth tables, logic gates, and Boolean algebra
-:::
-
+</aside>
 <hr />
 
 ## 4. Logic Gate Diagrams
@@ -309,14 +307,12 @@ Standard symbols:
 - **NOR gate:** OR with circle
 - **XOR gate:** OR with extra curved line on input
 
-:::tip Exam technique When drawing logic circuits from a Boolean expression:
-
+<aside aria-label="Exam technique When drawing logic circuits from a Boolean expression:" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam technique When drawing logic circuits from a Boolean expression:</p>
 1. Identify the order of operations (parentheses first)
 2. Draw inputs on the left
 3. Work rightward, one gate at a time
 4. Label all intermediate and output signals
-:::
-
+</aside>
 <hr />
 
 ## 5. Adder Circuits
@@ -446,10 +442,9 @@ D-type flip-flops are the fundamental building blocks of:
 
 4. Draw the circuit from the simplified expression
 
-:::tip Exam technique For K-maps with don't-care conditions (X), treat X as 1 if it helps make a
+<aside aria-label="Exam technique For K-maps with don't-care conditions (X), treat X as 1 if it helps make a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam technique For K-maps with don't-care conditions (X), treat X as 1 if it helps make a</p>
 Larger group, and 0 otherwise. This minimises the expression.
-:::
-
+</aside>
 <hr />
 
 ## Problem Set

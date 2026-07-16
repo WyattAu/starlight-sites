@@ -364,7 +364,7 @@ Point.
 | Strong acid + weak base   | pH < 7         | Methyl orange      |
 | Weak acid + strong base   | pH > 7         | Phenolphthalein    |
 
-:::caution The original question 8 in the practice section stated that "phenolphthalein is suitable
+<aside aria-label="The original question 8 in the practice section stated that "phenolphthalein is suitable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The original question 8 in the practice section stated that "phenolphthalein is suitable</p>
 For a strong acid-weak base titration" -- this is incorrect. Phenolphthalein (pH 8.3-10.0) is
 Suitable for weak acid-strong base titrations where the equivalence pH is above 7. For strong
 Acid-weak base titrations (equivalence pH below 7), methyl orange is the correct choice.
@@ -713,4 +713,4 @@ HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 
 $$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
 
-:::
+</aside>

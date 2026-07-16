@@ -152,12 +152,11 @@ Even Fibonacci numbers under 4,000,000:
 Sum: 4613732
 ```
 
-:::tip `std::generator` is composable with C++20 ranges. You can pipe a generator into
+<aside aria-label="`std::generator` is composable with C++20 ranges. You can pipe a generator into" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`std::generator` is composable with C++20 ranges. You can pipe a generator into</p>
 `std::views::filter``std::views::transform`Etc. However, be aware that range adaptors are eager On
 the iteration step — each `++it` call on the adapted view will advance the underlying generator By
 one element.
-:::
-
+</aside>
 ## See Also
 
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
@@ -417,11 +416,10 @@ int main() {
 | Memory usage (per element) | $\mathcal{O}(1)$ — no accumulation               |
 | Cache behavior             | Poor if frame is large and accessed infrequently |
 
-:::caution Heap allocation. Every `std::generator` coroutine frame is heap-allocated. For
+<aside aria-label="Heap allocation. Every `std::generator` coroutine frame is heap-allocated. For" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Heap allocation. Every `std::generator` coroutine frame is heap-allocated. For</p>
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with
 Allocator support to allow custom allocation strategies.
-:::
-
+</aside>
 ## Practical Example: State Machine Generator
 
 ```cpp

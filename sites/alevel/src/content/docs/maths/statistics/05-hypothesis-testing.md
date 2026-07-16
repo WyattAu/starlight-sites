@@ -19,10 +19,9 @@ categories:
 | OCR (A)    | Paper 1, 2 | Includes critical regions                |
 | CIE (9709) | P1, P6     | Basic hypothesis testing in P6           |
 
-:::info Hypothesis testing requires clear, structured answers. Always state your hypotheses, test
+<aside aria-label="Hypothesis testing requires clear, structured answers. Always state your hypotheses, test" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Hypothesis testing requires clear, structured answers. Always state your hypotheses, test</p>
 Statistic, critical value/region, comparison, and conclusion in context.
-:::
-
+</aside>
 <hr />
 
 ## 1. Hypotheses
@@ -42,11 +41,10 @@ Statistic, critical value/region, comparison, and conclusion in context.
 The choice depends on the research question. Use a one-tailed test only when you have a specific
 Directional prediction **before** seeing the data.
 
-:::caution Choosing a one-tailed test after seeing the data (because the results happen to go in one
+<aside aria-label="Choosing a one-tailed test after seeing the data (because the results happen to go in one" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Choosing a one-tailed test after seeing the data (because the results happen to go in one</p>
 Direction) is a form of $p$-hacking and is statistically invalid. The tail direction must be decided
 Before the experiment.
-:::
-
+</aside>
 <hr />
 
 ## 2. Critical Values and Significance Levels
@@ -178,11 +176,10 @@ Test statistic: $z = \dfrac◆LB◆\hat{p} - p_0◆RB◆◆LB◆\sqrt{p_0(1-p_0)
 
 ## 7. Interpreting Results
 
-:::caution "Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the
+<aside aria-label=""Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>"Failing to reject $H_0$" is **not** the same as "proving $H_0$ is true." It means the</p>
 Data does not provide sufficient evidence against $H_0$. The test may lack power (sample too small,
 Effect too weak).
-:::
-
+</aside>
 <hr />
 
 ## 8. One-Tailed vs Two-Tailed Tests in Depth
@@ -228,11 +225,10 @@ This means the two-tailed test has a **higher bar** for each individual tail.
 An observed $z = 1.80$ is significant for the one-tailed test ($1.80 \gt 1.645$) but not for the
 Two-tailed test ($|1.80| \lt 1.960$).
 
-:::info A two-tailed test at level $\alpha$ requires a more extreme test statistic than a one-tailed
+<aside aria-label="A two-tailed test at level $\alpha$ requires a more extreme test statistic than a one-tailed" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A two-tailed test at level $\alpha$ requires a more extreme test statistic than a one-tailed</p>
 Test at the same $\alpha$Because the significance "budget" is split between two tails. A Two-tailed
 test at $\alpha = 0.05$ corresponds roughly to two one-tailed tests each at $\alpha = 0.025$.
-:::
-
+</aside>
 ### 8.3 Effect on power
 
 For the same $\alpha$A one-tailed test has **greater power** than a two-tailed test against an
@@ -301,11 +297,10 @@ With a specified level of confidence.
 $(L, U)$ constructed from sample data such that, in repeated sampling, $100(1 - \alpha)\%$ of such
 Intervals would contain the true value of $\theta$.
 
-:::caution A 95% confidence interval does **not** mean there is a 95% probability that $\theta$ lies
+<aside aria-label="A 95% confidence interval does **not** mean there is a 95% probability that $\theta$ lies" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A 95% confidence interval does **not** mean there is a 95% probability that $\theta$ lies</p>
 In the interval. The parameter $\theta$ is fixed; it either is or is not in the interval. The 95%
 Refers to the long-run proportion of intervals (across many repeated samples) that capture $\theta$.
-:::
-
+</aside>
 ### 10.2 95% confidence interval for a population proportion
 
 For large $n$ where $n\hat{p} \gt 5$ and $n(1 - \hat{p}) \gt 5$The sample proportion $\hat{p}$ Is
@@ -371,9 +366,7 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 
 ### 11.4 Common misinterpretations
 
-:::caution
-
-- The $p$-value is **not** the probability that $H_0$ is true.
+<aside aria-label="- The $p$-value is **not** the probability that $H_0$ is true." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>- The $p$-value is **not** the probability that $H_0$ is true.</p>
 - The $p$-value is **not** the probability that the observed result occurred by chance.
 - A large $p$-value does **not** prove $H_0$ is true; it only means the data is consistent with
   $H_0$.
@@ -381,8 +374,7 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 - The $p$-value depends on sample size: with a very large sample, even small effects can produce
   tiny $p$-values.
 
-:::
-
+</aside>
 ### 11.5 Worked example
 
 **Example.** A factory produces components with mean length 50 mm. A sample of 40 components gives
@@ -761,7 +753,7 @@ Section 3.
 
 ---
 
-:::tip Diagnostic Test Ready to test your understanding of **Hypothesis Testing**? The contains the hardest
+<aside aria-label="Diagnostic Test Ready to test your understanding of **Hypothesis Testing**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Hypothesis Testing**? The contains the hardest</p>
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Hypothesis
@@ -794,4 +786,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

@@ -101,12 +101,11 @@ int main() {
 }
 ```
 
-:::caution A non-dependent call like `g(42)` inside a template is bound at definition time [N4950
+<aside aria-label="A non-dependent call like `g(42)` inside a template is bound at definition time [N4950" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A non-dependent call like `g(42)` inside a template is bound at definition time [N4950</p>
 S13.8.3]. If a better overload of `g` is declared _after_ the template definition, it will **not**
 Be found. This is the single most surprising aspect of two-phase lookup and a frequent source of
 Bugs.
-:::
-
+</aside>
 ### Formal Justification for Two-Phase Lookup
 
 The standard mandates two-phase lookup [N4950 S13.8.3] to preserve a well-defined separation between
@@ -233,12 +232,11 @@ int main() {
 }
 ```
 
-:::caution Defining a specialization after its POI is **ill-formed, no diagnostic required** [N4950
+<aside aria-label="Defining a specialization after its POI is **ill-formed, no diagnostic required** [N4950" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Defining a specialization after its POI is **ill-formed, no diagnostic required** [N4950</p>
 S13.8.2/6]. The compiler may silently use the primary template instead. This is one of the most
 Insidious bugs in template code: the program compiles, links, and runs, but produces wrong results.
 Always define specializations before any potential point of use.
-:::
-
+</aside>
 ### Instantiation Point Bugs
 
 The POI rules interact with header inclusion order in subtle ways. A specialization declared in a
@@ -779,7 +777,7 @@ int main() {
 }
 ```
 
-:::caution `__attribute__((always_inline))` overrides the compiler's inlining heuristics. Use it
+<aside aria-label="`__attribute__((always_inline))` overrides the compiler's inlining heuristics. Use it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`__attribute__((always_inline))` overrides the compiler's inlining heuristics. Use it</p>
 Only when profiling confirms the overhead, for tiny leaf functions in hot loops. Overusing It
 increases code size and can degrade instruction cache performance.
 
@@ -922,4 +920,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

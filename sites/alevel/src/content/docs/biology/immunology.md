@@ -138,13 +138,12 @@ characterised by the classic signs: **rubor** (redness), **calor** (heat), **tum
 6. **Resolution**: once the infection is cleared, dead cells and debris are removed by phagocytes.
    Tissue repair begins.
 
-:::caution Common Pitfall Students often confuse the roles of histamine and antibodies in the
+<aside aria-label="Common Pitfall Students often confuse the roles of histamine and antibodies in the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse the roles of histamine and antibodies in the</p>
 inflammatory response. Histamine is released by mast cells immediately upon tissue damage and causes
 the vasodilation and increased permeability characteristic of inflammation. Antibodies are produced
 later by B cells as part of the adaptive immune response and are not involved in the initial
 inflammatory cascade.
-:::
-
+</aside>
 ### 2.4 The Complement System
 
 The complement system is a collection of approximately 20 plasma proteins that enhance (complement)
@@ -232,11 +231,10 @@ After the infection is cleared, most effector T cells die by apoptosis. A small 
 differentiates into **memory T cells** that persist for years, providing rapid secondary response on
 re-exposure to the same antigen.
 
-:::caution Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens.
+<aside aria-label="Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that T killer cells "engulf" or "digest" pathogens.</p>
 They do not. T killer cells induce apoptosis in infected host cells. Phagocytosis is carried out by
 phagocytes (neutrophils and macrophages), not by T killer cells.
-:::
-
+</aside>
 ## 4. Adaptive Immunity: The Humoral Response
 
 ### 4.1 B Lymphocytes and Antibodies
@@ -356,12 +354,11 @@ The secondary (anamnestic) response occurs on subsequent exposure to the same an
 | Memory cells produced | Yes                        | Yes (additional)             |
 | Cell type involved    | Naive B cells              | Memory B cells               |
 
-:::caution Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not
+<aside aria-label="Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "antibodies kill pathogens." Antibodies do not</p>
 kill pathogens directly. They mark pathogens for destruction by other mechanisms (phagocytosis,
 complement lysis, neutralisation of toxins). The antibody itself is a signalling molecule that tags
 the pathogen and triggers other components of the immune system.
-:::
-
+</aside>
 ## 6. Autoimmune Diseases
 
 ### 6.1 Mechanism of Autoimmunity
@@ -451,13 +448,12 @@ For comparison:
 - **Ethical considerations**: mandatory vaccination policies must balance individual autonomy with
   public health benefits.
 
-:::caution Common Pitfall Students sometimes state that vaccination provides "artificial passive
+<aside aria-label="Common Pitfall Students sometimes state that vaccination provides "artificial passive" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes state that vaccination provides "artificial passive</p>
 immunity." Vaccination provides **artificial active immunity** because it stimulates the body's own
 immune system to produce antibodies and memory cells. Passive immunity (e.g., maternal antibodies
 crossing the placenta, or injection of pre-made antibodies) provides temporary protection but does
 not create memory cells.
-:::
-
+</aside>
 ## 8. ELISA (Enzyme-Linked Immunosorbent Assay)
 
 ### 8.1 Principle
@@ -507,12 +503,11 @@ $$\text{Concentration} = 20 + (40 - 20) \times \frac{0.55 - 0.42}{0.78 - 0.42} =
 
 The patient sample contains approximately $27.2\ \mathrm{ng\ cm^{-3}}$ of antigen.
 
-:::caution Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the
+<aside aria-label="Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the</p>
 antibody, not by the antigen itself. Students sometimes write that "the antigen changes colour." The
 enzyme on the secondary antibody converts the substrate to a coloured product; the intensity of
 colour indicates how much antigen-antibody complex is present.
-:::
-
+</aside>
 ## 9. Monoclonal Antibodies
 
 ### 9.1 Production of Monoclonal Antibodies (Hybridoma Method)
@@ -1242,12 +1237,11 @@ Immunotherapy is effective for insect venom allergies, allergic rhinitis (hay fe
 allergies, but it carries a risk of triggering anaphylaxis and must be carried out under medical
 supervision.
 
-:::caution Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma
+<aside aria-label="Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma</p>
 cells) with antigens (molecules that trigger an immune response). Remember: **Antibody** is produced
 by the immune system in response to an **Antigen**. Antibodies are Y-shaped proteins; antigens can
 be proteins, polysaccharides, or other molecules on the surface of pathogens.
-:::
-
+</aside>
 ## 26. The Inflammatory Response: Detailed Mechanism
 
 ### 26.1 Steps of Inflammation
@@ -1303,8 +1297,7 @@ inflammation can cause tissue damage and is implicated in many diseases:
 
 ---
 
-:::tip Diagnostic Test
-
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 23. The Complement System
 
 ### 23.1 Overview
@@ -1450,14 +1443,13 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | Seasonal influenza | 1.5--3 | 33--67%                 |
 | Diphtheria         | 4--6   | 75--83%                 |
 
-:::
-:::caution Common Pitfall Students often think herd immunity means no one can get the disease. Herd
+</aside>
+<aside aria-label="Common Pitfall Students often think herd immunity means no one can get the disease. Herd" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often think herd immunity means no one can get the disease. Herd</p>
 immunity reduces the probability of transmission but does not eliminate risk entirely. Non-immune
 individuals (too young for vaccination, immunocompromised, vaccine contraindications) can still be
 infected if exposed. Additionally, immunity can wane over time, and new variants may partially
 escape existing immunity.
-:::
-
+</aside>
 ### 26.4 Antigenic Variation and Vaccine Challenges
 
 Some pathogens evade immune memory through antigenic variation:
@@ -1888,11 +1880,10 @@ the body's own tissues:
 | Failure of regulatory T cells ($\mathrm{T_{reg}}$) | $\mathrm{T_{reg}}$ cells normally suppress self-reactive lymphocytes; deficiency leads to loss of self-tolerance                                                        |
 | Polyclonal B cell activation                       | Some pathogens (e.g., EBV) activate many B cells non-specifically, including self-reactive clones                                                                       |
 
-:::caution Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type
+<aside aria-label="Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type</p>
 2 diabetes is metabolic (insulin resistance). Do not confuse them. Also, coeliac disease is an
 autoimmune condition triggered by gluten, not a food allergy.
-:::
-
+</aside>
 ## 37. Vaccination in Detail
 
 ### 37.1 Types of Vaccines

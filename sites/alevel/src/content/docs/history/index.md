@@ -78,8 +78,7 @@ Each section provides chronological overviews, key debates, source analysis fram
 essay-style questions. Start with the period you find most challenging, then build comparative
 themes across topics.
 
-:::note Content Under Development
-
+<aside aria-label="Content Under Development" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Content Under Development</p>
 This section is under active development. Content will continue to be expanded with case studies and
 worked examples.
 
@@ -87,8 +86,7 @@ Status: stub scope: Exam-aligned qualification content only. Subject to CONTENT_
 12 (Prohibited Subjects as standalone topics). Expansion_criteria: Content must be aligned to
 A-Level exam specification. General humanities content not in scope.
 
-:::
-
+</aside>
 ## Overview
 
 This section provides comprehensive A-Level History content for History, covering all specification points with detailed explanations, worked examples, and practice questions.

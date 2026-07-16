@@ -110,10 +110,9 @@ $$
 
 Therefore $T = k\sqrt{l/g}$. Full analysis reveals $k = 2\pi$.
 
-:::tip Exam Technique Dimensional analysis is invaluable for checking your working. Get into the
+<aside aria-label="Exam Technique Dimensional analysis is invaluable for checking your working. Get into the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique Dimensional analysis is invaluable for checking your working. Get into the</p>
 Habit of verifying dimensions for every formula you derive in an exam.
-:::
-
+</aside>
 ## 3. SI Prefixes
 
 | Prefix | Symbol | Factor     |
@@ -166,10 +165,9 @@ $$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
   resolution or environmental factors. It affects precision but not accuracy. Random errors are
   reduced by taking repeated measurements.
 
-:::caution Common Pitfall Do not confuse precision with accuracy. A precise measurement is
+<aside aria-label="Common Pitfall Do not confuse precision with accuracy. A precise measurement is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse precision with accuracy. A precise measurement is</p>
 Repeatable; an accurate measurement is close to the true value. You can have one without the other.
-:::
-
+</aside>
 ### Absolute, Fractional, and Percentage Uncertainty
 
 **Definition.** If a quantity is measured as $x \pm \Delta x$Then:
@@ -261,10 +259,9 @@ And the uncertainty should be quoted to at most 2 significant figures.
 (matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm — the
 Trailing zero implies precision we do not have.
 
-:::tip Exam Technique When you compute $g = 9.78 \pm 0.15 \mathrm{ m s}^{-2}$Write $9.8 \pm 0.2$ m
+<aside aria-label="Exam Technique When you compute $g = 9.78 \pm 0.15 \mathrm{ m s}^{-2}$Write $9.8 \pm 0.2$ m" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When you compute $g = 9.78 \pm 0.15 \mathrm{ m s}^{-2}$Write $9.8 \pm 0.2$ m</p>
 S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what examiners expect.
-:::
-
+</aside>
 ## 6. Determining Uncertainty from Repeated Measurements
 
 When $n$ repeated measurements $x_1, x_2, \ldots, x_n$ are taken of the same quantity:
@@ -474,11 +471,10 @@ Interpreting measurements correctly.
 | Amount of substance | mole (mol)    | Defined by fixing the Avogadro constant $N_A = 6.022\,140\,76 \times 10^{23}$ mol$^{-1}$ |
 | Luminous intensity  | candela (cd)  | Defined by fixing the luminous efficacy $K_{cd} = 683$ lm W$^{-1}$                       |
 
-:::info Note Since 2019, all SI base units are defined in terms of fundamental physical constants.
+<aside aria-label="Note Since 2019, all SI base units are defined in terms of fundamental physical constants." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Note Since 2019, all SI base units are defined in terms of fundamental physical constants.</p>
 The values of $c$$h$$e$$k_B$$N_A$And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
 unit values are derived from them.
-:::
-
+</aside>
 ## 9. Dimensional Analysis: Extended Worked Examples
 
 ### 9.1 Checking Formula Validity
@@ -765,7 +761,7 @@ S$^{-2}$), so the result is consistent with the accepted value. $\square$
 
 ---
 
-:::tip Tip Ready to test your understanding of **Quantities and Units**? The contains the hardest
+<aside aria-label="Tip Ready to test your understanding of **Quantities and Units**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Quantities and Units**? The contains the hardest</p>
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Quantities
@@ -773,8 +769,7 @@ and Units with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
-
+</aside>
 ## Summary
 
 This topic covers the fundamental principles of quantities and units, including the key equations,

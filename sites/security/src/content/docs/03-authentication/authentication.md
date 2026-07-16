@@ -205,9 +205,7 @@ Key properties:
 
 ### SMS-based 2FA
 
-:::caution
-
-SMS-based 2FA is deprecated by NIST SP 800-63B. SMS is vulnerable to SIM swapping, SS7 protocol
+<aside aria-label="SMS-based 2FA is deprecated by NIST SP 800-63B. SMS is vulnerable to SIM swapping, SS7 protocol" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>SMS-based 2FA is deprecated by NIST SP 800-63B. SMS is vulnerable to SIM swapping, SS7 protocol</p>
 Attacks, and mobile network interception. Use TOTP or FIDO2 instead. If SMS must be used, implement
 Rate limiting, anomaly detection, and do not use it as the sole second factor.
 
@@ -452,10 +450,8 @@ RSASHA256(
 6. Validate algorithm (reject `alg: none`Reject algorithm substitution)
 7. Check token revocation if applicable (blacklist, short expiry)
 
-:::
-:::caution
-
-**Critical vulnerability — Algorithm Confusion Attack**: An attacker can change the `alg` header
+</aside>
+<aside aria-label="**Critical vulnerability — Algorithm Confusion Attack**: An attacker can change the `alg` header" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Critical vulnerability — Algorithm Confusion Attack**: An attacker can change the `alg` header</p>
 From `RS256` to `HS256`. If the server uses the RSA public key as the HMAC secret (which some
 Libraries do by default), the attacker can forge tokens. Always explicitly specify the expected
 Algorithm when validating JWTs, and never accept `none`.
@@ -803,10 +799,8 @@ And government agencies.
 | InCommon            | Academic/research      | University single sign-on across services |
 | eduGAIN             | Research and education | Cross-border federated access             |
 
-:::
-:::info
-
-**Reference Standards**: NIST SP 800-63B (Digital Identity — Authentication and Lifecycle
+</aside>
+<aside aria-label="**Reference Standards**: NIST SP 800-63B (Digital Identity — Authentication and Lifecycle" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Reference Standards**: NIST SP 800-63B (Digital Identity — Authentication and Lifecycle</p>
 Management), RFC 6749 (OAuth 2.0), RFC 7636 (PKCE), RFC 7519 (JWT), RFC 7515 (JWS), RFC 6238 (TOTP),
 RFC 8446 (TLS 1.3), OWASP Authentication Cheat Sheet, FIDO2 (W3C WebAuthn + CTAP2).
 
@@ -832,4 +826,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

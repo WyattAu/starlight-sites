@@ -224,11 +224,10 @@ $$\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})$$
 | C--Cl      | 346                        | F--F       | 158               |
 | O--O       | 146                        | Cl--Cl     | 243               |
 
-:::caution Bond enthalpies give only **average** values. For reactions involving the gas phase, they
+<aside aria-label="Bond enthalpies give only **average** values. For reactions involving the gas phase, they" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Bond enthalpies give only **average** values. For reactions involving the gas phase, they</p>
 Give good estimates. For reactions involving liquids or aqueous solutions, additional energy changes
 (vaporisation, dissolution) are not accounted for, so the estimate is less accurate.
-:::
-
+</aside>
 **Worked example 4:** Estimate $\Delta H$ for the combustion of methane using bond enthalpies.
 
 $$\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$$
@@ -410,10 +409,9 @@ $$-411 = 377 + \Delta H_{\mathrm{latt}}$$
 
 $$\Delta H_{\mathrm{latt}} = -411 - 377 = -788 \mathrm{ kJ/mol}$$
 
-:::info Lattice energy is always exothermic (negative) because energy is released when oppositely
+<aside aria-label="Lattice energy is always exothermic (negative) because energy is released when oppositely" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Lattice energy is always exothermic (negative) because energy is released when oppositely</p>
 Charged ions come together.
-:::
-
+</aside>
 **Worked example 8:** Calculate the lattice energy of $\mathrm{MgO}$ given:
 
 - $\Delta H_{\mathrm{at}}^\circ(\mathrm{Mg}) = +148 \mathrm{ kJ/mol}$
@@ -496,7 +494,7 @@ Where:
 - $T$ = temperature (K)
 - $\Delta S$ = entropy change (kJ mol$^{-1}$ K$^{-1}$)
 
-:::caution Ensure units are consistent. If $\Delta H$ is in kJ/mol and $\Delta S$ is in J mol$^{-1}$
+<aside aria-label="Ensure units are consistent. If $\Delta H$ is in kJ/mol and $\Delta S$ is in J mol$^{-1}$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Ensure units are consistent. If $\Delta H$ is in kJ/mol and $\Delta S$ is in J mol$^{-1}$</p>
 K$^{-1}$Convert $\Delta S$ to kJ mol$^{-1}$ K$^{-1}$ by dividing by 1000.
 
 ### Feasibility of Reactions
@@ -891,4 +889,4 @@ $$\Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}$$
 
 > > > > > > > Stashed changes:docs/docs_dse/Chemistry/energetics.md
 
-:::
+</aside>

@@ -25,11 +25,10 @@ Deviates significantly from expected values. It has two main applications: testi
 | OCR (A)    | Paper 2 | Both applications covered                              |
 | CIE (9231) | S2      | Goodness of fit; independence with $2 \times 2$ tables |
 
-:::info The chi-squared test statistic is always based on observed and expected frequencies, never
+<aside aria-label="The chi-squared test statistic is always based on observed and expected frequencies, never" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The chi-squared test statistic is always based on observed and expected frequencies, never</p>
 On percentages or proportions. Always check the conditions (expected frequency $\geq 5$) before
 Applying the test. The formula booklet provides the chi-squared distribution table.
-:::
-
+</aside>
 <hr />
 
 ## 1. The Chi-Squared Distribution
@@ -236,10 +235,9 @@ There is strong evidence that age group and preferred news source are not indepe
 6. Compare with the critical value at the given significance level
 7. Conclude in context
 
-:::caution Never use percentages or proportions in the chi-squared test — always use raw
+<aside aria-label="Never use percentages or proportions in the chi-squared test — always use raw" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use percentages or proportions in the chi-squared test — always use raw</p>
 Frequencies. The test relies on the multinomial distribution, which requires count data.
-:::
-
+</aside>
 <hr />
 
 ## Problems

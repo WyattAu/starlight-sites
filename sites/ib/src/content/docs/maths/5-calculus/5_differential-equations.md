@@ -375,14 +375,12 @@ $$k_1 = f(x_n, y_n)$$ $$k_2 = f(x_n + h, y_n + hk_1)$$ $$y_{n+1} = y_n + \frac{h
 This is a **second order** method with global error proportional to $h^2$Offering significantly
 Better accuracy than the basic Euler method for the same step size.
 
-:::caution Warning
-
+<aside aria-label="Warning" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning</p>
 Euler's method can produce wildly inaccurate results for stiff equations or when the step size is
 too Large. Always check whether the approximation is reasonable by comparing with qualitative
 behaviour Of the DE (equilibrium, asymptotes, periodicity).
 
-:::
-
+</aside>
 ---
 
 ## Additional Worked Examples
@@ -606,7 +604,7 @@ For the A-Level Further Maths treatment of this topic, see
 
 ---
 
-:::tip Tip Ready to test your understanding of **Differential Equations**? The contains the hardest
+<aside aria-label="Tip Ready to test your understanding of **Differential Equations**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Differential Equations**? The contains the hardest</p>
 questions within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
@@ -614,8 +612,7 @@ Differential Equations with other IB mathematics topics to test synthesis under 
 
 See for instructions on self-marking
 and building a personal test matrix.
-:::
-
+</aside>
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |

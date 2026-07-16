@@ -78,10 +78,9 @@ int main() {
 }
 ```
 
-:::tip Tip Loads and stores compile to plain `mov` instructions. On ARM, `relaxed` loads use `ldar`
+<aside aria-label="Tip Loads and stores compile to plain `mov` instructions. On ARM, `relaxed` loads use `ldar`" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Loads and stores compile to plain `mov` instructions. On ARM, `relaxed` loads use `ldar`</p>
 and stores Use `stlr` (or `ldr`/`str` with `relaxed` semantics depending on the ARM version).
-:::
-
+</aside>
 ### When Relaxed Is Insufficient: The Message Passing Idiom
 
 Relaxed atomics are insufficient when one thread writes data and another thread reads it based on a
@@ -194,10 +193,9 @@ $$\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
 On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.
 
-:::note Info Specified. This ensures maximum safety but may not be necessary in all cases. For
+<aside aria-label="Info Specified. This ensures maximum safety but may not be necessary in all cases. For" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Specified. This ensures maximum safety but may not be necessary in all cases. For</p>
 Performance-critical code, consider using weaker orderings where appropriate.
-:::
-
+</aside>
 ### The Store Buffering Problem (Why seq_cst Is Needed)
 
 Even with acquire/release, the following scenario can produce unexpected results:
@@ -340,12 +338,11 @@ Multi-core systems.
 | `seq_cst` store | `MFENCE` (or `XCHG`) | `stlr + dmb ish` | `lwsync + st + sync`      | No                    |
 | `acq_rel` RMW   | `LOCK XADD`          | `ldaxr+stlxr`    | `sync + ldar + st + sync` | No                    |
 
-:::tip Tip Provides those ordering guarantees. The only extra cost is for `seq_cst` stores (which
+<aside aria-label="Tip Provides those ordering guarantees. The only extra cost is for `seq_cst` stores (which" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Provides those ordering guarantees. The only extra cost is for `seq_cst` stores (which</p>
 require `MFENCE`). On ARM and POWER, acquire and release require explicit barrier instructions, so
 the Performance difference between relaxed and acquire/release is significant on those
 architectures.
-:::
-
+</aside>
 ### Hardware Memory Models
 
 Understanding why the ordering costs differ requires understanding the underlying hardware memory
@@ -424,11 +421,10 @@ A release fence `F` synchronizes-with an acquire fence `G` if:
 This is more complex than direct acquire/release on atomic operations and is why fences are
 Discouraged in favor of direct memory ordering on atomic loads and stores.
 
-:::note Info Stores directly, as they are more readable and equally efficient. Fences are primarily
+<aside aria-label="Info Stores directly, as they are more readable and equally efficient. Fences are primarily" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Stores directly, as they are more readable and equally efficient. Fences are primarily</p>
 useful when Interfacing with hardware or when the atomic operation itself is performed by
 non-standard means.
-:::
-
+</aside>
 ## `memory_order_consume`: The Problematic Ordering
 
 `memory_order_consume` was intended to optimize cases where data dependency ordering is sufficient

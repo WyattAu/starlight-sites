@@ -19,10 +19,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes variable acceleration |
 | CIE (9709) | P1, P4  | 1D in P1; 2D/projectiles in P4 |
 
-:::info The formula booklet lists the SUVAT equations. You must be able to select the correct
+<aside aria-label="The formula booklet lists the SUVAT equations. You must be able to select the correct" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The formula booklet lists the SUVAT equations. You must be able to select the correct</p>
 Equation and apply it to multi-stage problems.
-:::
-
+</aside>
 <hr />
 
 ## 1. Fundamental Quantities
@@ -91,11 +90,10 @@ Equation 4.)
 
 $$s = \tfrac{1}{2}(u+v)t \implies v = \frac{2s}{t} - u \quad \mathrm{(useful when } a \mathrm{ is unknown)}$$
 
-:::tip The key insight is that **all five SUVAT equations follow from two integrations** of the
+<aside aria-label="The key insight is that **all five SUVAT equations follow from two integrations** of the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The key insight is that **all five SUVAT equations follow from two integrations** of the</p>
 Constant acceleration $a = dv/dt$Using the initial conditions $v(0) = u$ and $s(0) = 0$. Memorising
 the derivation means you can recover any formula you forget.
-:::
-
+</aside>
 ### 2.2 Summary
 
 | Equation                   | Variables    | Missing |
@@ -105,10 +103,9 @@ the derivation means you can recover any formula you forget.
 | $v^2 = u^2 + 2as$          | $v, u, a, s$ | $t$     |
 | $s = \frac{1}{2}(u+v)t$    | $s, u, v, t$ | $a$     |
 
-:::tip Always write down what you know and what you need. Choose the equation that contains all
+<aside aria-label="Always write down what you know and what you need. Choose the equation that contains all" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always write down what you know and what you need. Choose the equation that contains all</p>
 Known quantities and the unknown. Draw a diagram with positive direction marked.
-:::
-
+</aside>
 <hr />
 
 ## 3. Motion Graphs
@@ -161,11 +158,10 @@ Integrating, or equivalently add the magnitudes of the areas above and below the
 The **gradient** of the tangent to a $v$-$t$ curve gives the instantaneous acceleration. For a
 Straight-line $v$-$t$ graph, the acceleration is constant and equals the gradient of that line.
 
-:::caution Displacement $\neq$ distance. If a particle moves $10\,\mathrm{m}$ forwards and then
+<aside aria-label="Displacement $\neq$ distance. If a particle moves $10\,\mathrm{m}$ forwards and then" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Displacement $\neq$ distance. If a particle moves $10\,\mathrm{m}$ forwards and then</p>
 $10\,\mathrm{m}$ backwards, its displacement is $0$ but its total distance is $20\,\mathrm{m}$. On a
 $v$-$t$ graph, the signed areas cancel (displacement), but the unsigned areas add (distance).
-:::
-
+</aside>
 ### 3.6 Worked example: graphs
 
 A particle moves so that its displacement $s$ metres from a fixed point $O$ at time $t$ seconds is
@@ -287,11 +283,10 @@ $$t = \frac◆LB◆v\sin\theta + \sqrt{(v\sin\theta)^2 + 2gH}◆RB◆◆LB◆g�
 
 The horizontal range is then $R = v\cos\theta \cdot t$.
 
-:::tip When a projectile is launched from a height, the time of flight is **longer** than for level
+<aside aria-label="When a projectile is launched from a height, the time of flight is **longer** than for level" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When a projectile is launched from a height, the time of flight is **longer** than for level</p>
 Ground, and the angle for maximum range is **less** than $45^\circ$ (derived via calculus, but
 Beyond the core syllabus).
-:::
-
+</aside>
 <hr />
 
 ## 5. Variable Acceleration
@@ -798,7 +793,7 @@ $w\,\Delta t = u^2\sin^2\theta / (2g)$ for some $\Delta t \gt 0$.
 
 ---
 
-:::tip Tip Ready to test your understanding of **Kinematics**? The contains the hardest questions
+<aside aria-label="Tip Ready to test your understanding of **Kinematics**? The contains the hardest questions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Kinematics**? The contains the hardest questions</p>
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Kinematics
@@ -806,8 +801,7 @@ with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components

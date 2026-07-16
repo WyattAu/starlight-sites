@@ -419,9 +419,7 @@ Both encrypt DNS queries between the client and the resolver, preventing eavesdr
 Manipulation of DNS responses in transit. They do not encrypt queries between the resolver and the
 Authoritative name server.
 
-:::caution
-
-DoH/DoT protect against network-level DNS interception but do not prevent the resolver itself from
+<aside aria-label="DoH/DoT protect against network-level DNS interception but do not prevent the resolver itself from" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>DoH/DoT protect against network-level DNS interception but do not prevent the resolver itself from</p>
 Logging, filtering, or manipulating queries. Choose a resolver you trust (e.g., your own), and
 Understand the privacy policy of any third-party resolver.
 
@@ -805,10 +803,8 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 | Queries to TLDs not in use   | Malware C2, suspicious resolution         | TLD distribution analysis      |
 | Late-night DNS activity      | Compromised host beaconing                | Time-based query analysis      |
 
-:::
-:::info
-
-**Reference Standards**: NIST SP 800-41 (Firewall Guidelines), NIST SP 800-207 (Zero Trust
+</aside>
+<aside aria-label="**Reference Standards**: NIST SP 800-41 (Firewall Guidelines), NIST SP 800-207 (Zero Trust" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Reference Standards**: NIST SP 800-41 (Firewall Guidelines), NIST SP 800-207 (Zero Trust</p>
 Architecture), RFC 6014 (DNSSEC Operational Practices), RFC 7208 (SPF), RFC 6376 (DKIM), RFC 7489
 (DMARC), RFC 8446 (TLS 1.3), RFC 8484 (DNS over HTTPS), IEEE 802.1X (Port-Based Network Access
 Control), MITRE ATT&CK (Tactic: Lateral Movement).
@@ -836,4 +832,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

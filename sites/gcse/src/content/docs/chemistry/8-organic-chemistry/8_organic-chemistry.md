@@ -111,7 +111,7 @@ $$\mathrm{C_n\mathrm{H_{2n+2} + \frac{3n+1}{2}\mathrm{O_2 \to n\mathrm{CO_2 + (n
 $$2\mathrm{CH_4 + 3\mathrm{O_2 \to 2\mathrm{CO + 4\mathrm{H_2\mathrm{O$$
 $$\mathrm{CH_4 + \mathrm{O_2 \to \mathrm{C + 2\mathrm{H_2\mathrm{O$$
 
-:::caution Carbon monoxide is a toxic, colourless, odourless gas that binds to haemoglobin more
+<aside aria-label="Carbon monoxide is a toxic, colourless, odourless gas that binds to haemoglobin more" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Carbon monoxide is a toxic, colourless, odourless gas that binds to haemoglobin more</p>
 Strongly than oxygen, preventing oxygen transport in the blood. Incomplete combustion is dangerous
 Because CO is produced without any visible or olfactory warning.
 
@@ -829,4 +829,4 @@ This topic covers the key concepts of Organic Chemistry for GCSE Chemistry. Focu
 the fundamental principles, practising with exam-style questions, and applying your knowledge to
 unfamiliar contexts.
 
-:::
+</aside>

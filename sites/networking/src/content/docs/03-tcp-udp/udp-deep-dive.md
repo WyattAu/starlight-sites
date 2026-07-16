@@ -241,9 +241,7 @@ ping -b 192.168.1.255
 Every subnet has a broadcast address: the last address in the subnet (all host bits set to 1). For
 `10.0.0.0/24`The broadcast is `10.0.0.255`. For `10.0.0.0/23`The broadcast is `10.0.1.255`.
 
-:::caution
-
-Many modern operating systems do not respond to broadcast pings by default. Linux sets
+<aside aria-label="Many modern operating systems do not respond to broadcast pings by default. Linux sets" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Many modern operating systems do not respond to broadcast pings by default. Linux sets</p>
 `net.ipv4.icmp_echo_ignore_broadcasts=1`. Do not rely on ping to test broadcast reachability.
 
 
@@ -415,10 +413,8 @@ ping -M do -s 1472 example.com    # Maximum for standard Ethernet (1500 - 20 IP 
 ip route get 8.8.8.8
 ```
 
-:::
-:::caution
-
-ICMP "Fragmentation Needed" messages are frequently filtered by firewalls, breaking PMTUD. If PMTUD
+</aside>
+<aside aria-label="ICMP "Fragmentation Needed" messages are frequently filtered by firewalls, breaking PMTUD. If PMTUD" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>ICMP "Fragmentation Needed" messages are frequently filtered by firewalls, breaking PMTUD. If PMTUD</p>
 Fails, the sender never learns the correct MTU and silently drops packets. This is one of the most
 Insidious networking problems because the connection appears to work for small packets but fails for
 Large ones. Use TCP MSS clamping or UDP packet size limits as a workaround.
@@ -495,10 +491,8 @@ On repeat connections, QUIC can send application data in the first flight (0-RTT
 Cached session ticket from a previous connection to derive the encryption keys immediately, without
 Waiting for the server's handshake response.
 
-:::
-:::caution
-
-0-RTT data is vulnerable to replay attacks. An attacker who captures the 0-RTT data can replay it to
+</aside>
+<aside aria-label="0-RTT data is vulnerable to replay attacks. An attacker who captures the 0-RTT data can replay it to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>0-RTT data is vulnerable to replay attacks. An attacker who captures the 0-RTT data can replay it to</p>
 The server. Applications must not use 0-RTT for non-idempotent operations (POST requests, financial
 Transactions).
 
@@ -844,4 +838,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

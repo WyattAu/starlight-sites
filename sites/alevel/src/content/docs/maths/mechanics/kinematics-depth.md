@@ -12,10 +12,9 @@ categories: [Mathematics]
 This document extends the core kinematics material with deeper derivations, multi-stage problems,
 Projectile motion in two dimensions, and the calculus approach to variable acceleration.
 
-:::info This page complements the core kinematics notes. Readers should already be comfortable with
+<aside aria-label="This page complements the core kinematics notes. Readers should already be comfortable with" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This page complements the core kinematics notes. Readers should already be comfortable with</p>
 the SUVAT equations and basic calculus definitions of velocity and acceleration.
-:::
-
+</aside>
 <hr />
 
 ## 1. Equations of Motion (SUVAT) -- Rigorous Derivation
@@ -92,11 +91,10 @@ $$s_2 = \frac{1}{2}(u + v)t_2 = \frac{1}{2}(12 + 0)(4) = 24\;\mathrm{m}$$
 
 $$s_{\mathrm{total}} = 36 + 24 = 60\;\mathrm{m}$$
 
-:::caution Common Pitfall When a problem has multiple stages, the **final velocity of one stage
+<aside aria-label="Common Pitfall When a problem has multiple stages, the **final velocity of one stage" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When a problem has multiple stages, the **final velocity of one stage</p>
 becomes the initial velocity Of the next**. Forgetting this connection is the most frequent error in
 multi-stage kinematics Problems.
-:::
-
+</aside>
 <hr />
 
 ## 2. Free Fall Under Gravity
@@ -143,11 +141,10 @@ $$v = -\sqrt{264.21} \approx -16.26\;\mathrm{m\,s^{-1}}$$
 
 The negative sign confirms downward motion. Speed $= 16.3\;\mathrm{m\,s^{-1}}$ (3 s.f.).
 
-:::info Note that the total time of flight can also be found directly: $s = -2$$u = 15$$a = -9.8$:
+<aside aria-label="Note that the total time of flight can also be found directly: $s = -2$$u = 15$$a = -9.8$:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Note that the total time of flight can also be found directly: $s = -2$$u = 15$$a = -9.8$:</p>
 $-2 = 15t - 4.9t^2$Giving $t \approx 3.15\;\mathrm{s}$. This is **not** $2 \times t_{\mathrm{max}}$
 Because the ball was thrown from a height, not from ground level.
-:::
-
+</aside>
 <hr />
 
 ## 3. Projectile Motion
@@ -232,11 +229,10 @@ $$x = 20.48 \times 3.025 \approx 61.95\;\mathrm{m}$$
 
 The ball travels approximately $62.0\;\mathrm{m}$ horizontally.
 
-:::caution Warning When a projectile is launched from a height above the landing level, the
+<aside aria-label="Warning When a projectile is launched from a height above the landing level, the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning When a projectile is launched from a height above the landing level, the</p>
 trajectory is **not** Symmetric. The time of ascent is less than the time of descent, and the
 landing angle is steeper Than the launch angle.
-:::
-
+</aside>
 <hr />
 
 ## 4. Two-Dimensional Motion with Non-Perpendicular Components
@@ -351,7 +347,7 @@ $$\frac{1}{v} = 0.1t + 0.1 = 0.1(t + 1)$$
 
 $$v = \frac{10}{t + 1}\;\mathrm{m\,s^{-1}}$$
 
-:::caution Warning For variable acceleration problems, **always include the constant of
+<aside aria-label="Warning For variable acceleration problems, **always include the constant of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning For variable acceleration problems, **always include the constant of</p>
 integration** and use the Initial conditions to find it. Also check whether the particle changes
 direction by finding when $v = 0$ -- the total distance is not the same as the displacement if there
 is a change of Direction.
@@ -524,4 +520,4 @@ $\blacksquare$
   changes direction.
 - Chain rule form: $a = v\frac{dv}{ds}$ is useful when acceleration depends on displacement.
 
-:::
+</aside>

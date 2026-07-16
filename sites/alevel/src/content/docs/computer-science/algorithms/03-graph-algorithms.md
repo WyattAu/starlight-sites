@@ -139,12 +139,11 @@ To a non-MST vertex.
 | Binary heap      | $O((V + E)\log V)$ |
 | Fibonacci heap   | $O(E + V \log V)$  |
 
-:::info Board-specific **AQA** requires Dijkstra's shortest path algorithm with trace tables. **CIE
+<aside aria-label="Board-specific **AQA** requires Dijkstra's shortest path algorithm with trace tables. **CIE" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** requires Dijkstra's shortest path algorithm with trace tables. **CIE</p>
 (9618)** requires Dijkstra's; may also require minimum spanning tree (Prim's or Kruskal's). **OCR
 (A)** requires Dijkstra's, Prim's, and Kruskal's algorithms with step-by-step tracing. **Edexcel**
 Covers basic graph traversal (BFS, DFS) and shortest path.
-:::
-
+</aside>
 <hr />
 
 ## 4. Travelling Salesman Problem (TSP)

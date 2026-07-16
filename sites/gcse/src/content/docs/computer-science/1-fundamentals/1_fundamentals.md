@@ -71,7 +71,7 @@ Reading bottom to top: 11010110.
 | 1 Gigabyte (GB) | $2^{30}$ bytes           |
 | 1 Terabyte (TB) | $2^{40}$ bytes           |
 
-:::caution In computing, kilo means 1024 (not 1000) because computers use binary. However, storage
+<aside aria-label="In computing, kilo means 1024 (not 1000) because computers use binary. However, storage" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In computing, kilo means 1024 (not 1000) because computers use binary. However, storage</p>
 Manufacturers often use 1000 for marketing purposes. A "500 GB" hard drive advertised by the
 Manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
 Specifically to powers of 1024.
@@ -774,4 +774,4 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-:::
+</aside>

@@ -25,11 +25,10 @@ Interval.
 | OCR (A)    | Paper 2 | Continuous RVs and exponential                       |
 | CIE (9231) | S2      | Both continuous RVs and exponential covered          |
 
-:::info The exponential distribution is the continuous counterpart to the geometric distribution.
+<aside aria-label="The exponential distribution is the continuous counterpart to the geometric distribution." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The exponential distribution is the continuous counterpart to the geometric distribution.</p>
 Both are memoryless. The Poisson process links all three distributions: Poisson counts events,
 Exponential measures inter-arrival times, and geometric counts trials until the first event.
-:::
-
+</aside>
 <hr />
 
 ## 1. Continuous Random Variables
@@ -45,10 +44,9 @@ Probabilities are found by integration:
 
 $$P(a \leq X \leq b) = \int_a^b f(x)\,dx$$
 
-:::caution For a continuous random variable, $P(X = a) = 0$ for any single value $a$. This is why
+<aside aria-label="For a continuous random variable, $P(X = a) = 0$ for any single value $a$. This is why" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>For a continuous random variable, $P(X = a) = 0$ for any single value $a$. This is why</p>
 $P(a \leq X \leq b) = P(a < X < b)$ — the inequalities at individual points do not matter.
-:::
-
+</aside>
 ### 1.2 Cumulative distribution function
 
 **Definition.** The **cumulative distribution function** (CDF) is
@@ -176,12 +174,11 @@ $$
 
 This uses $P(X > x) = 1 - F(x) = e^{-\lambda x}$.
 
-:::info The memoryless property has important practical implications. If a component with an
+<aside aria-label="The memoryless property has important practical implications. If a component with an" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The memoryless property has important practical implications. If a component with an</p>
 Exponentially distributed lifetime has been working for $s$ hours, the remaining lifetime has the
 Same distribution as a brand new component. This means exponential lifetimes imply no "wear out"
 Effect — which is why it is more appropriate for electronic components than mechanical ones.
-:::
-
+</aside>
 ### 2.6 Link to Poisson processes
 
 A **Poisson process** with rate $\lambda$ satisfies:

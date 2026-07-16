@@ -229,12 +229,11 @@ Uterus, controlled by four hormones.
 - The LH surge is a self-amplifying cycle: more LH causes more oestrogen release, which causes more
   LH release, until ovulation occurs and the follicle is ruptured (breaking the feedback loop)
 
-:::info The switch from negative to positive feedback by oestrogen is a critical concept. At low
+<aside aria-label="The switch from negative to positive feedback by oestrogen is a critical concept. At low" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The switch from negative to positive feedback by oestrogen is a critical concept. At low</p>
 Concentrations, oestrogen inhibits the pituitary (negative feedback). At high concentrations
 Sustained for approximately 36 hours, oestrogen stimulates the pituitary (positive feedback),
 Causing the LH surge. The DSE frequently tests this distinction.
-:::
-
+</aside>
 ### Worked Example: Hormone Levels at Day 20
 
 A blood test shows the following hormone levels in a 28-day menstrual cycle:
@@ -353,14 +352,13 @@ Tissues. It is the interface for exchange of substances between maternal and foe
   umbilical vein (carries oxygenated blood from the placenta to the foetus)
 - Wrapped in Wharton's jelly (connective tissue that protects the blood vessels from compression)
 
-:::caution A critical point for DSE: the umbilical ARTERY carries deoxygenated blood (away from the
+<aside aria-label="A critical point for DSE: the umbilical ARTERY carries deoxygenated blood (away from the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A critical point for DSE: the umbilical ARTERY carries deoxygenated blood (away from the</p>
 Foetus to the placenta) and the umbilical VEIN carries oxygenated blood (from the placenta to the
 Foetus). This is the OPPOSITE of the naming convention in the systemic circulation, where arteries
 Carry oxygenated blood. The naming is based on direction of flow relative to the heart: arteries
 Carry blood away from the heart, veins carry blood towards it. The umbilical arteries carry blood
 Away from the foetal heart.
-:::
-
+</aside>
 **Worked Example**
 
 A pregnant woman's blood glucose is consistently elevated at 200 mg/100 cm cubed due to uncontrolled
@@ -429,11 +427,10 @@ Normal range.
 
 The term "negative" refers to the fact that the response opposes (negates) the original stimulus.
 
-:::info Homeostasis maintains parameters within a normal range, not at a single fixed value. The set
+<aside aria-label="Homeostasis maintains parameters within a normal range, not at a single fixed value. The set" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Homeostasis maintains parameters within a normal range, not at a single fixed value. The set</p>
 Point is a target value, and the actual value fluctuates within narrow limits around it. In DSE exam
 Answers, write "maintained within narrow limits" rather than "kept exactly constant."
-:::
-
+</aside>
 ---
 
 ## Thermoregulation
@@ -591,13 +588,12 @@ Concentration must be tightly regulated because:
 | Glycogenolysis  | Conversion of glycogen to glucose-6-phosphate (then to free glucose in the liver)      | Liver, muscles | Glucagon, adrenaline |
 | Gluconeogenesis | Synthesis of glucose from non-carbohydrate precursors (amino acids, lactate, glycerol) | Liver only     | Glucagon             |
 
-:::caution A critical distinction: glycogenolysis occurs in both liver and muscle, but only the
+<aside aria-label="A critical distinction: glycogenolysis occurs in both liver and muscle, but only the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A critical distinction: glycogenolysis occurs in both liver and muscle, but only the</p>
 Liver can release free glucose into the blood. Muscle glycogenolysis produces glucose-6-phosphate,
 Which is used directly by the muscle for respiration. Muscle lacks the enzyme glucose-6-phosphatase,
 Which is required to convert glucose-6-phosphate to free glucose. The DSE often tests this
 Distinction.
-:::
-
+</aside>
 **Worked Example**
 
 A student runs a 400-metre sprint. During the race, her blood glucose initially rises slightly, then
@@ -1547,7 +1543,7 @@ implantation:
 PGD allows parents who are carriers of genetic disorders to have children without passing on the
 condition, without the ethical dilemma of terminating an affected pregnancy.
 
-:::tip Diagnostic Test Ready to test your understanding of **Human Reproduction and Homeostasis**?
+<aside aria-label="Diagnostic Test Ready to test your understanding of **Human Reproduction and Homeostasis**?" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Human Reproduction and Homeostasis**?</p>
 The contains
 the hardest questions within the DSE specification for this topic, each with a full worked solution.
 
@@ -1762,4 +1758,4 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

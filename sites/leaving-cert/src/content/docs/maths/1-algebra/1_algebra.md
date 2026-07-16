@@ -270,7 +270,7 @@ $$
 -1 < x < 4
 $$
 
-:::caution Always check the inequality sign carefully. For $x^2 - 3x - 4 \gt 0$The solution would Be
+<aside aria-label="Always check the inequality sign carefully. For $x^2 - 3x - 4 \gt 0$The solution would Be" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always check the inequality sign carefully. For $x^2 - 3x - 4 \gt 0$The solution would Be</p>
 $x \lt -1$ or $x \gt 4$ (outside the roots).
 
 **Example (HL):** Solve $\frac{x - 1}{x + 2} \le 0$.
@@ -720,4 +720,4 @@ theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
-:::
+</aside>

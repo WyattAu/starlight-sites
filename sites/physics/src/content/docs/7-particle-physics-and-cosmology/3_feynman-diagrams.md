@@ -187,10 +187,10 @@ $$\alpha(\mu) = \frac{\alpha(\mu_0)}{1 - \frac{\alpha(\mu_0)}{3\pi}\ln(\mu^2/\mu
 
 This logarithmic running arises from vacuum polarisation (screening by virtual $e^+e^-$ pairs).
 
-:::caution Common Pitfall Students often confuse **regularisation** (a mathematical tool to control
+<aside aria-label="Common Pitfall Students often confuse **regularisation** (a mathematical tool to control" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse **regularisation** (a mathematical tool to control</p>
 divergences) with **renormalization** (the physical procedure of redefining parameters).
 Regularisation is a Temporary scaffold; renormalization is the essential step that yields finite,
 physical predictions.
 
 
-:::
+</aside>

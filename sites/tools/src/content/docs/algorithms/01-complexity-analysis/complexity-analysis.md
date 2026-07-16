@@ -61,9 +61,7 @@ As $g(n)$Up to constant factors.
 
 $$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
 
-:::info
-
-In practice, most engineers use Big-O to mean Big-Theta. This is technically imprecise but
+<aside aria-label="In practice, most engineers use Big-O to mean Big-Theta. This is technically imprecise but" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In practice, most engineers use Big-O to mean Big-Theta. This is technically imprecise but</p>
 Conventionally understood. When someone says "merge sort is $O(n \log n)$" they mean it is
 $\Theta(n \log n)$. Be aware of the distinction when reading academic papers.
 
@@ -138,10 +136,8 @@ Core). In reality:
 - I/O dominates for large datasets: $O(n)$ with 10 GB of random reads from disk is far slower than
   $O(n \log n)$ with sequential reads.
 
-:::
-:::caution
-
-Asymptotic analysis tells you how an algorithm scales, not how fast it is for a specific input size.
+</aside>
+<aside aria-label="Asymptotic analysis tells you how an algorithm scales, not how fast it is for a specific input size." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Asymptotic analysis tells you how an algorithm scales, not how fast it is for a specific input size.</p>
 A well-optimised $O(n^2)$ algorithm can outperform a naive $O(n \log n)$ algorithm for small $n$ or
 With favourable cache behaviour. Always benchmark.
 
@@ -277,10 +273,8 @@ In systems engineering, worst-case guarantees matter because:
 3. **Real-time constraints**. A system that responds in 1ms but occasionally takes 10s is often
    worse than one that always responds in 5ms
 
-:::
-:::info
-
-Hash table worst-case $O(n)$ operations are what made the HashDoS attack possible. An attacker sends
+</aside>
+<aside aria-label="Hash table worst-case $O(n)$ operations are what made the HashDoS attack possible. An attacker sends" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Hash table worst-case $O(n)$ operations are what made the HashDoS attack possible. An attacker sends</p>
 Requests with keys that all hash to the same bucket, turning $O(1)$ lookups into $O(n)$ lookups and
 Causing CPU exhaustion. This is why many languages (Python, Rust, Go) now use hash randomisation.
 
@@ -690,10 +684,8 @@ Non-negative and is $O(n \log n)$ for an $n$-node tree.
 - Working set theorem: if an item is accessed $t$ times and there are $l$ distinct items accessed
   since its last access, the amortised cost is $O(\log l + \log t)$
 
-:::
-:::tip
-
-Splay trees are an excellent choice when access patterns are non-uniform. In file systems, web
+</aside>
+<aside aria-label="Splay trees are an excellent choice when access patterns are non-uniform. In file systems, web" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Splay trees are an excellent choice when access patterns are non-uniform. In file systems, web</p>
 Caches, and database buffer pools, a small set of hot items dominates access. Splay trees
 Automatically adapt to this pattern without any tuning parameters.
 
@@ -838,10 +830,8 @@ def benchmark_sorts():
     print(f"TimSort (100 elements, 1000 runs): {msort_time:.3f}s")
 ```
 
-:::
-:::caution
-
-Microbenchmarks are misleading. A sort that benchmarks 10% faster on random data may be 50% slower
+</aside>
+<aside aria-label="Microbenchmarks are misleading. A sort that benchmarks 10% faster on random data may be 50% slower" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Microbenchmarks are misleading. A sort that benchmarks 10% faster on random data may be 50% slower</p>
 On the actual production workload due to access patterns, data distribution, and interaction with
 Other system components. Always benchmark with realistic data and in a realistic environment.
 
@@ -868,7 +858,7 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>
 :::tip[Research Connections]
 Complexity theory connects to the most important open problem in mathematics: P vs NP (Clay Millennium Prize, $1M). If P = NP, many "hard" problems in cryptography, scheduling, and protein folding become efficiently solvable. If P ≠ NP, certain cryptographic schemes (RSA, AES) are provably secure. Current research directions include: fine-grained complexity (parameterised complexity, ETH), quantum complexity (BQP vs BPP), and circuit complexity (lower bounds for AC0, TC0). The field also intersects with machine learning: can neural networks efficiently approximate NP-hard problems?
 :::

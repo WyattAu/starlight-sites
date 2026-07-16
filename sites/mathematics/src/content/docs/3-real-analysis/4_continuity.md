@@ -250,11 +250,11 @@ _If you get this wrong, revise:_ Section 4.2 (Continuity), Section 5.3 (Mean Val
 
 </details>
 
-:::caution Common Pitfall Continuity on $(a, b)$ does not imply uniform continuity. The function
+<aside aria-label="Common Pitfall Continuity on $(a, b)$ does not imply uniform continuity. The function" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Continuity on $(a, b)$ does not imply uniform continuity. The function</p>
 $f(x) = 1/x$ on $(0, 1)$ is Continuous but not uniformly continuous. The Heine-Cantor theorem
 requires a **closed and bounded** Interval. Also, a function can be uniformly continuous on an
 unbounded domain (e.g., $f(x) = \sqrt{x}$ On $[0, \infty)$) --- boundedness of the domain is
 sufficient but not necessary.
 
 
-:::
+</aside>

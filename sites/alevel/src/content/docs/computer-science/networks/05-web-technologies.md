@@ -10,10 +10,9 @@ categories:
 
 ---
 
-:::info Board-specific This topic is examined by Edexcel (P1, Topic 5) only. Other boards cover some
+<aside aria-label="Board-specific This topic is examined by Edexcel (P1, Topic 5) only. Other boards cover some" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific This topic is examined by Edexcel (P1, Topic 5) only. Other boards cover some</p>
 Of these concepts within their networking modules.
-:::
-
+</aside>
 ## 1. The Internet and the World Wide Web
 
 ### The Internet vs the Web

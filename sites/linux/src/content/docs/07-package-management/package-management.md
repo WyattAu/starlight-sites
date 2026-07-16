@@ -368,9 +368,7 @@ cd package
 makepkg -si               # build and install
 ```
 
-:::caution
-
-AUR packages are not vetted by Arch developers. Always review PKGBUILD scripts before installing,
+<aside aria-label="AUR packages are not vetted by Arch developers. Always review PKGBUILD scripts before installing," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>AUR packages are not vetted by Arch developers. Always review PKGBUILD scripts before installing,</p>
 Especially packages that modify system files or run install hooks. Use a helper that supports
 PKGBUILD inspection.
 
@@ -875,4 +873,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

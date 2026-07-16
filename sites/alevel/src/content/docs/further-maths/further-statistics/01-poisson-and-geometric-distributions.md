@@ -25,12 +25,11 @@ Geometric distribution counts the number of trials until the first success.
 | OCR (A)    | Paper 2 | Poisson and geometric                   |
 | CIE (9231) | S2      | Poisson covered; geometric not required |
 
-:::info The formula booklet provides the Poisson PMF. You must know when to apply each distribution
+<aside aria-label="The formula booklet provides the Poisson PMF. You must know when to apply each distribution" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The formula booklet provides the Poisson PMF. You must know when to apply each distribution</p>
 And how to carry out hypothesis testing with discrete distributions. The geometric distribution has
 Two common conventions for the support: $r = 1, 2, 3, \ldots$ (number of trials) or
 $r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
-:::
-
+</aside>
 <hr />
 
 ## 1. The Poisson Distribution
@@ -238,10 +237,9 @@ $$
 \frac{1 - (1-q^{m+n})}{1 - (1-q^m)} = \frac{q^{m+n}}{q^m} = q^n = 1 - (1-q^n) = P(X > n) \quad \blacksquare
 $$
 
-:::info info success, the probability of waiting at least $n$ more trials is exactly the same as if
+<aside aria-label="info success, the probability of waiting at least $n$ more trials is exactly the same as if" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>info success, the probability of waiting at least $n$ more trials is exactly the same as if</p>
 You were starting fresh. The process "forgets" its history.
-:::
-
+</aside>
 ### 2.5 Cumulative distribution function
 
 $$P(X \leq r) = 1 - q^r = 1 - (1-p)^r$$
@@ -295,10 +293,9 @@ Before applying the Poisson distribution, verify:
 2. Events are independent
 3. At most one event can occur in a sufficiently small sub-interval
 
-:::caution warning not confuse this with the normal approximation to the binomial, which requires
+<aside aria-label="warning not confuse this with the normal approximation to the binomial, which requires" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>warning not confuse this with the normal approximation to the binomial, which requires</p>
 $np > 5$ and $n(1-p) > 5$.
-:::
-
+</aside>
 <hr />
 
 ## Problems

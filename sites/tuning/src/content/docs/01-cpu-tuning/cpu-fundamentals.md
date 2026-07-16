@@ -505,11 +505,10 @@ echo 0 | sudo tee /sys/devices/system/cpu/smt/active
 echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 ```
 
-:::caution Disabling SMT halves your logical core count. Ensure your workload can run within the
+<aside aria-label="Disabling SMT halves your logical core count. Ensure your workload can run within the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Disabling SMT halves your logical core count. Ensure your workload can run within the</p>
 Physical core limit before disabling it. Some applications are licensed per logical core and will
 Not work correctly with SMT disabled.
-:::
-
+</aside>
 ### Security Considerations
 
 SMT has been implicated in several side-channel attacks (Spectre variants, MDS, L1TF). For
@@ -657,11 +656,10 @@ Microcode updates can change CPU behavior in ways that affect performance measur
   frequencies to address stability issues (e.g., the Ice Lake PL1/PL2 fixes).
 - **Cache behavior changes:** Some updates modify L3 cache allocation or prefetcher behavior.
 
-:::caution Never benchmark a CPU before verifying the microcode version. A BIOS update that includes
+<aside aria-label="Never benchmark a CPU before verifying the microcode version. A BIOS update that includes" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never benchmark a CPU before verifying the microcode version. A BIOS update that includes</p>
 A new microcode revision can invalidate months of tuning work if it changes turbo behavior or adds
 Mitigation overhead.
-:::
-
+</aside>
 ### Forcing Microcode Reload
 
 On Linux, you can trigger a late microcode reload (without reboot) if you have updated the microcode
@@ -731,11 +729,10 @@ echo "8-15" > /sys/fs/cgroup/batch_jobs/cpuset.cpus
 echo $PID > /sys/fs/cgroup/batch_jobs/cgroup.procs
 ```
 
-:::info On server platforms with homogeneous cores (Xeon Scalable), ITD is less relevant because all
+<aside aria-label="On server platforms with homogeneous cores (Xeon Scalable), ITD is less relevant because all" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>On server platforms with homogeneous cores (Xeon Scalable), ITD is less relevant because all</p>
 Cores have identical capabilities. ITD primarily benefits client and workstation platforms with
 Big.LITTLE-style heterogeneous core layouts.
-:::
-
+</aside>
 ## AMD Precision Boost Overdrive 2
 
 AMD's PBO2 (also called Curve Optimizer) allows per-core undervolting/overvolting by applying a
@@ -793,12 +790,11 @@ for offset in 5 10 15 20 25 30; do
 done
 ```
 
-:::caution A negative offset that is too aggressive causes WHEA (Windows Hardware Error
+<aside aria-label="A negative offset that is too aggressive causes WHEA (Windows Hardware Error" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A negative offset that is too aggressive causes WHEA (Windows Hardware Error</p>
 Architecture) errors on Windows or Machine Check Exceptions (MCE) on Linux. These can cause silent
 Data corruption. Always verify stability with both compute tests (Prime95, stress-ng) and memory
 Tests (memtester) when changing voltage offsets.
-:::
-
+</aside>
 ## Interpreting turbostat Output
 
 `turbostat` is the single most useful tool for real-time CPU frequency, power, and thermal
@@ -941,7 +937,7 @@ Points:
 - **Multi-core ratio** (MT/ST) indicates scaling efficiency. A ratio below `cores * 0.75` suggests
   memory bandwidth or thermal throttling issues.
 
-:::tip Always run Cinebench at least 3 times and report the median. The first run may be slower due
+<aside aria-label="Always run Cinebench at least 3 times and report the median. The first run may be slower due" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always run Cinebench at least 3 times and report the median. The first run may be slower due</p>
 To caching effects. Let the CPU cool between runs (wait for temperatures to drop below 50C) to
 Ensure consistent thermal conditions.
 
@@ -1017,4 +1013,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

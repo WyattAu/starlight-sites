@@ -57,13 +57,12 @@ Myelination has two critical effects:
 | Conduction         | Saltatory (jumping between nodes)    | Continuous wave of depolarisation               |
 | Energy consumption | Lower (fewer ions need to be pumped) | Higher (more $\mathrm{Na^+/K^+}$ pump activity) |
 
-:::caution Common Pitfall Students often write that "myelin speeds up the action potential." More
+<aside aria-label="Common Pitfall Students often write that "myelin speeds up the action potential." More" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that "myelin speeds up the action potential." More</p>
 precisely, myelin forces the action potential to jump between nodes of Ranvier (saltatory
 conduction), which is much faster than continuous propagation. The speed increase is because less
 membrane needs to be depolarised, and the local current flows further ahead to depolarise the next
 node.
-:::
-
+</aside>
 ## 2. Resting Potential
 
 ### 2.1 Establishing the Resting Potential
@@ -239,14 +238,13 @@ multiple inputs:
 - **Temporal summation**: a single presynaptic neurone fires action potentials in rapid succession.
   The EPSPs overlap and add together before the first one decays, reaching threshold.
 
-:::caution Common Pitfall Students often write that "neurotransmitters cross the synaptic cleft by
+<aside aria-label="Common Pitfall Students often write that "neurotransmitters cross the synaptic cleft by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that "neurotransmitters cross the synaptic cleft by</p>
 diffusion" without specifying that they bind to receptors. The neurotransmitter diffuses across the
 cleft and binds to specific receptor proteins on the postsynaptic membrane. This binding opens ion
 channels, which is what causes the change in membrane potential. The specificity of
 neurotransmitter-receptor binding is what determines whether the synapse is excitatory or
 inhibitory.
-:::
-
+</aside>
 ## 5. Neurotransmitters
 
 ### 5.1 Acetylcholine
@@ -343,12 +341,11 @@ A **polysynaptic reflex** (involves at least one relay neurone):
 The brain is informed of the reflex action (by sensory neurones ascending to the brain), allowing
 conscious awareness and modification of the response, but the reflex itself is spinal.
 
-:::caution Common Pitfall Students often state that reflexes "do not involve the brain." Reflexes do
+<aside aria-label="Common Pitfall Students often state that reflexes "do not involve the brain." Reflexes do" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that reflexes "do not involve the brain." Reflexes do</p>
 not require brain processing to occur, but the brain receives sensory information about the reflex
 via ascending tracts. This allows the brain to modify the response if necessary (e.g., suppressing
 the withdrawal reflex if you are carrying something hot).
-:::
-
+</aside>
 ## 7. Sensory Receptors
 
 ### 7.1 Pacinian Corpuscles
@@ -1101,13 +1098,12 @@ If the summed depolarisation at the axon hillock reaches the threshold potential
 $-55\ \mathrm{mV}$), voltage-gated $\mathrm{Na^+}$ channels open, and an action potential is
 initiated.
 
-:::caution Common Pitfall Students often confuse the terms "threshold" and "resting potential." The
+<aside aria-label="Common Pitfall Students often confuse the terms "threshold" and "resting potential." The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse the terms "threshold" and "resting potential." The</p>
 **resting potential** ($-70\ \mathrm{mV}$) is the membrane potential of an unstimulated neuron. The
 **threshold potential** ($-55\ \mathrm{mV}$) is the depolarisation level that must be reached to
 trigger an action potential. If the membrane depolarises to $-60\ \mathrm{mV}$ (above resting but
 below threshold), no action potential is fired.
-:::
-
+</aside>
 ## 25. Reflex Arcs: Detailed Mechanisms
 
 ### 25.1 Components of a Reflex Arc
@@ -1157,8 +1153,7 @@ In the withdrawal reflex:
 
 ---
 
-:::tip Diagnostic Test
-
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 24. Muscle Contraction: The Sliding Filament Theory
 
 ### 24.1 Structure of Skeletal Muscle
@@ -1247,9 +1242,8 @@ II fibres).
 
 ---
 
-:::
-:::tip Diagnostic Test
-
+</aside>
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 21. Synaptic Transmission: Detailed Mechanism
 
 ### 21.1 Step-by-Step: Cholinergic Synapse
@@ -2309,9 +2303,8 @@ so no light is detected.
 
 ---
 
-:::
-:::tip Diagnostic Test
-
+</aside>
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## Common Pitfalls
 
 1. Confusing DNA replication (S phase) with transcription or translation. Be clear about which
@@ -2329,7 +2322,6 @@ so no light is detected.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
-
+</aside>
 $$
 $$

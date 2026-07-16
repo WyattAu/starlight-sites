@@ -110,9 +110,7 @@ Second request (to same server):
 Second request on wire: ~20 bytes (3 index references) vs ~200 bytes (full headers)
 ```
 
-:::info
-
-HPACK is designed to be resistant to CRIME/BREACH-style compression oracle attacks. It does not
+<aside aria-label="HPACK is designed to be resistant to CRIME/BREACH-style compression oracle attacks. It does not" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>HPACK is designed to be resistant to CRIME/BREACH-style compression oracle attacks. It does not</p>
 Compress across different origins (the dynamic table is per-origin), and it does not compress cookie
 Values in a way that leaks information.
 
@@ -138,10 +136,8 @@ Client                                          Server
   |<-- DATA [stream 4]: JS body -------------------|
 ```
 
-:::
-:::caution
-
-Server push has been deprecated in practice. Chrome removed support in 2022, and Firefox followed.
+</aside>
+<aside aria-label="Server push has been deprecated in practice. Chrome removed support in 2022, and Firefox followed." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Server push has been deprecated in practice. Chrome removed support in 2022, and Firefox followed.</p>
 The rationale: caching is more effective (the client can predict what it needs based on the HTML),
 Push is hard to get right (pushing resources the client already has cached wastes bandwidth), and
 Push complicates the client's cache state. Use `&lt;link rel="preload"&gt;` instead.
@@ -166,10 +162,8 @@ weight:12  weight:20
 In this example, stream 1 gets twice the bandwidth of stream 3 (weight 32 vs 16). Within stream 1's
 Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 
-:::
-:::caution
-
-In practice, stream priority implementation varies between servers and clients, and the results are
+</aside>
+<aside aria-label="In practice, stream priority implementation varies between servers and clients, and the results are" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In practice, stream priority implementation varies between servers and clients, and the results are</p>
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
 For critical performance optimization.
 
@@ -659,10 +653,8 @@ Result: streams 1, 3, 5 are processed normally
         streams 7, 9 may have been partially processed and should be retried
 ```
 
-:::
-:::info
-
-GOAWAY does not immediately terminate the connection. Existing streams can continue to complete. The
+</aside>
+<aside aria-label="GOAWAY does not immediately terminate the connection. Existing streams can continue to complete. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>GOAWAY does not immediately terminate the connection. Existing streams can continue to complete. The</p>
 Sender should continue processing streams with IDs less than or equal to `last_stream_id`. Only new
 Streams with IDs greater than `last_stream_id` are rejected.
 
@@ -692,10 +684,8 @@ effective_window = min(connection_window, stream_window)
 The default initial window size is 65,535 bytes (65535 = 2^16 - 1). This can be changed via the
 SETTINGS frame's INITIAL_WINDOW_SIZE parameter.
 
-:::
-:::caution
-
-Changing INITIAL_WINDOW_SIZE affects only new streams, not existing ones. Existing streams continue
+</aside>
+<aside aria-label="Changing INITIAL_WINDOW_SIZE affects only new streams, not existing ones. Existing streams continue" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Changing INITIAL_WINDOW_SIZE affects only new streams, not existing ones. Existing streams continue</p>
 With their current window size. This can lead to confusion during the transition period.
 
 ### Window Update Behavior
@@ -925,4 +915,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

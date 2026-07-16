@@ -12,10 +12,9 @@ categories:
 
 ## Number
 
-:::info Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR Paper 1 (Foundation & Higher) | WJEC Unit
+<aside aria-label="Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR Paper 1 (Foundation & Higher) | WJEC Unit" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR Paper 1 (Foundation & Higher) | WJEC Unit</p>
 1
-:::
-
+</aside>
 ## 1. Types of Number
 
 ### 1.1 The Number System
@@ -69,11 +68,10 @@ $rs = q \in
 \mathbb{Q}$. Then $S = \frac{q}{r} \in \mathbb{Q}$ (since $R \neq 0$), a contradiction.
 $\blacksquare$
 
-:::caution The product of two irrational numbers can be rational. For example,
+<aside aria-label="The product of two irrational numbers can be rational. For example," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The product of two irrational numbers can be rational. For example,</p>
 $\sqrt{2} \times \sqrt{2} = 2$. The sum of two irrational numbers can also be rational:
 $(1 + \sqrt{2}) + (1 - \sqrt{2}) = 2$.
-:::
-
+</aside>
 ### 1.2 Prime Numbers and Factorisation
 
 **Definition.** A **prime number** is a natural number greater than 1 that has exactly two factors:
@@ -242,10 +240,9 @@ After the reduction: $120 \times 0.85 = 102$ pounds.
 
 After the increase: $102 \times 1.15 = 117.30$ pounds.
 
-:::caution A 15% decrease followed by a 15% increase does NOT return to the original value. The
+<aside aria-label="A 15% decrease followed by a 15% increase does NOT return to the original value. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A 15% decrease followed by a 15% increase does NOT return to the original value. The</p>
 Second percentage is applied to a smaller base.
-:::
-
+</aside>
 **Theorem.** A percentage increase of $P\%$ followed by a percentage decrease of $P\%$ (or vice
 Versa) always results in a net decrease. The net effect is a decrease of $\frac{P^2}{100}\%$.
 
@@ -432,10 +429,9 @@ Bounds for width: $5.15 \leq w \lt 5.20$
 - Upper bound of area: $8.45 \times 5.20 = 43.94 \mathrm{ cm^2$
 - Lower bound of area: $8.35 \times 5.15 = 43.0025 \mathrm{ cm^2$
 
-:::caution For division, the upper bound of the quotient is NOT upper/upper. It is upper/lower (for
+<aside aria-label="For division, the upper bound of the quotient is NOT upper/upper. It is upper/lower (for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>For division, the upper bound of the quotient is NOT upper/upper. It is upper/lower (for</p>
 Positive quantities).
-:::
-
+</aside>
 **Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$Both correct to 1 decimal place. Find the
 Lower bound of $\frac{x}{y}$.
 
@@ -521,7 +517,7 @@ Places, all digits beyond that point are discarded (not rounded).
 
 **Example.** Truncate $\pi$ to 3 decimal places: $3.141$ (not $3.142$).
 
-:::caution Truncation and rounding give different results when the digit immediately after the
+<aside aria-label="Truncation and rounding give different results when the digit immediately after the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Truncation and rounding give different results when the digit immediately after the</p>
 Cutoff is 5 or greater. Be sure to read the question carefully.
 
 ## 6. Direct and Inverse Proportion
@@ -770,4 +766,4 @@ theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
-:::
+</aside>

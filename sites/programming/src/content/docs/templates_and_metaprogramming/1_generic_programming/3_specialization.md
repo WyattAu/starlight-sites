@@ -56,11 +56,10 @@ int main() {
 }
 ```
 
-:::caution Full specializations are **not** templates themselves --- they are concrete definitions.
+<aside aria-label="Full specializations are **not** templates themselves --- they are concrete definitions." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Full specializations are **not** templates themselves --- they are concrete definitions.</p>
 They must be declared in the same namespace as the primary template. If you fully specialize a
 Function template, you must specialize every overload that participates in overload resolution.
-:::
-
+</aside>
 ### Full Specialization of Function Templates
 
 Function templates can be fully specialized, but this is rarely recommended because overloading
@@ -727,11 +726,10 @@ int main() {
 }
 ```
 
-:::caution You cannot partially specialize a member template without partially specializing the
+<aside aria-label="You cannot partially specialize a member template without partially specializing the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>You cannot partially specialize a member template without partially specializing the</p>
 Enclosing class template. Member templates can only be **fully** specialized. If you need partial
 Specialization of a member, you must partially specialize the entire class.
-:::
-
+</aside>
 ## Common Errors with Ambiguity
 
 ### Ambiguous Partial Specializations

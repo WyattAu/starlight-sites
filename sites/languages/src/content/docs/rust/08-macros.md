@@ -193,9 +193,7 @@ macro_rules! find_min {
 assert_eq!(find_min!(3, 1, 4, 1, 5), 1);
 ```
 
-:::caution
-
-Recursive macros have a recursion limit (default 128 in `macro_rules!`). A deeply recursive macro
+<aside aria-label="Recursive macros have a recursion limit (default 128 in `macro_rules!`). A deeply recursive macro" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Recursive macros have a recursion limit (default 128 in `macro_rules!`). A deeply recursive macro</p>
 Will produce the error "recursion limit reached while expanding ...". Use
 `#![recursion_limit = "256"]` at the crate root to increase the limit if needed. For truly complex
 Processing, use a procedural macro instead.
@@ -344,10 +342,8 @@ macro_rules! my_assert {
 }
 ```
 
-:::
-:::info
-
-`#[macro_export]` always exports the macro to the crate root, regardless of where the `macro_rules!`
+</aside>
+<aside aria-label="`#[macro_export]` always exports the macro to the crate root, regardless of where the `macro_rules!`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`#[macro_export]` always exports the macro to the crate root, regardless of where the `macro_rules!`</p>
 Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
 That has no prospect of changing.
@@ -1075,10 +1071,8 @@ pub fn sql(input: TokenStream) -> TokenStream {
 let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", user_id, name);
 ```
 
-:::
-:::caution
-
-This SQL macro is a simplified illustration. A production SQL macro would parse the query string,
+</aside>
+<aside aria-label="This SQL macro is a simplified illustration. A production SQL macro would parse the query string," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>This SQL macro is a simplified illustration. A production SQL macro would parse the query string,</p>
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with
 Its `query!` macro provide this level of sophistication.
 
@@ -1654,4 +1648,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

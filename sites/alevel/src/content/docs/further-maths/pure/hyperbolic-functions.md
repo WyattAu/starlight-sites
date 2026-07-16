@@ -12,11 +12,10 @@ categories: [Mathematics]
 This document provides a rigorous treatment of hyperbolic functions, their identities, inverses, and
 Calculus.
 
-:::info Hyperbolic functions are analogues of trigonometric functions defined using exponentials
+<aside aria-label="Hyperbolic functions are analogues of trigonometric functions defined using exponentials" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Hyperbolic functions are analogues of trigonometric functions defined using exponentials</p>
 Rather than circles. They arise in many areas including differential equations, special Relativity,
 and catenary curves.
-:::
-
+</aside>
 <hr />
 
 ## 1. Definitions
@@ -297,12 +296,11 @@ $u = \operatorname{arsinh}\!\left(\dfrac{x}{2}\right)$.
 
 $$= 2\operatorname{arsinh}\!\left(\frac{x}{2}\right) + \frac◆LB◆x\sqrt{x^2 + 4}◆RB◆◆LB◆2◆RB◆ + C$$
 
-:::caution Common Pitfall The substitution $x = a\sinh u$ is a powerful technique for integrals
+<aside aria-label="Common Pitfall The substitution $x = a\sinh u$ is a powerful technique for integrals" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The substitution $x = a\sinh u$ is a powerful technique for integrals</p>
 Involving $\sqrt{x^2 + a^2}$. Similarly, $x = a\cosh u$ handles $\sqrt{x^2 - a^2}$ and
 $x = a\tanh u$ handles expressions with $a^2 - x^2$. The choice of substitution mirrors the
 Trigonometric substitutions but is often simpler algebraically.
-:::
-
+</aside>
 <hr />
 
 ## 5. Practice Problems
@@ -412,8 +410,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 
 ## 7. Common Pitfalls
 
-:::caution Common Pitfall
-
+<aside aria-label="Common Pitfall" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall</p>
 1. **Sign in the fundamental identity:** Unlike $\cos^2 x + \sin^2 x = 1$The hyperbolic identity is
    $\cosh^2 x - \sinh^2 x = 1$. The minus sign is crucial and is the source of many errors.
 2. **Domain of $\operatorname{arcosh}$:** The domain is $x \geq 1$ (not $x > 0$). Attempting to
@@ -423,8 +420,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 4. **Integration: artanh vs ln:** When $|x| > a$ in $\displaystyle\int \frac{dx}{a^2 - x^2}$The
    result involves $\operatorname{arcoth}$ (or an alternative logarithmic form), not
    $\operatorname{artanh}$. Check the domain of the integrand carefully.
-:::
-
+</aside>
 ---
 
 ## 8. Additional Exam-Style Questions
@@ -810,8 +806,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 
 ## 13. Further Common Pitfalls
 
-:::caution Common Pitfall
-
+<aside aria-label="Common Pitfall" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall</p>
 1. **Substitution domain errors:** When using $x = a\cosh u$The substitution requires $x \geq a$
    (since $\cosh u \geq 1$). Attempting to use $x = a\cosh u$ for $x < a$ leads to an error. Use
    $x = a\sinh u$ for $\sqrt{x^2 + a^2}$ and $x = a\cosh u$ for $\sqrt{x^2 - a^2}$.
@@ -824,8 +819,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 4. **Differential equation solutions:** The equation $y'' - y = 0$ has solutions in both exponential
    and hyperbolic forms. When boundary conditions involve $y(0)$ and $y'(0)$The hyperbolic form
    $y = A\cosh x + B\sinh x$ is often more convenient since $\cosh 0 = 1$ and $\sinh 0 = 0$.
-:::
-
+</aside>
 ---
 
 ## 14. Advanced Worked Examples

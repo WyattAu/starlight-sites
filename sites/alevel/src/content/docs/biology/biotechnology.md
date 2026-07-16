@@ -368,12 +368,11 @@ DNA concentration is: $A_{260} = 1.0$ for $50\ \mu\mathrm{g\ mL^{-1}}$ dsDNA.
 
 Concentration $= \frac{0.40}{1.0} \times 50 = 20\ \mu\mathrm{g\ mL^{-1}}$.
 
-:::caution Common Pitfall Students often confuse Southern, Northern, and Western blotting. Southern
+<aside aria-label="Common Pitfall Students often confuse Southern, Northern, and Western blotting. Southern" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse Southern, Northern, and Western blotting. Southern</p>
 = DNA, Northern = RNA, Western = protein. The mnemonic "SNOW Drop" (Southern, Northern, Western --
 DNA, RNA, protein) may help. Students also frequently forget that PCR does not require living
 organisms or bacterial cells -- it is an entirely in vitro technique.
-:::
-
+</aside>
 ## Practice Problems
 
 <details>
@@ -834,13 +833,12 @@ selectively stimulate the growth and activity of beneficial gut bacteria.
 
 **Synbiotics** combine probiotics and prebiotics.
 
-:::caution Common Pitfall Students often confuse antibiotics (which kill bacteria) with probiotics
+<aside aria-label="Common Pitfall Students often confuse antibiotics (which kill bacteria) with probiotics" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse antibiotics (which kill bacteria) with probiotics</p>
 (which add beneficial bacteria). Antibiotics can disrupt the microbiome and cause side effects
 (diarrhoea, thrush). Probiotics may help restore the microbiome after antibiotic treatment, but they
 should not be taken simultaneously with antibiotics (the antibiotic would kill the probiotic
 bacteria).
-:::
-
+</aside>
 ## 17. Genetically Modified Organisms: Case Studies
 
 ### 17.1 Bt Cotton
@@ -1060,7 +1058,7 @@ Applications:
 - **Nutritional science**: understanding how diet affects metabolism.
 - **Environmental toxicology**: detecting metabolic changes caused by exposure to pollutants.
 
-:::caution Common Pitfall Students often use the terms "genome," "transcriptome," "proteome," and
+<aside aria-label="Common Pitfall Students often use the terms "genome," "transcriptome," "proteome," and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often use the terms "genome," "transcriptome," "proteome," and</p>
 "metabolome" interchangeably. Remember the hierarchy: the genome is the set of all genes (DNA); the
 transcriptome is the set of all mRNA molecules produced; the proteome is the set of all proteins;
 the metabolome is the set of all small molecule metabolites. Each level is more dynamic and complex
@@ -1125,9 +1123,8 @@ degradation may produce toxic intermediates; may be slower than physical removal
 
 ---
 
-:::
-:::tip Diagnostic Test
-
+</aside>
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 25. Ethical Frameworks for Biotechnology Decisions
 
 ### 25.1 Applying Ethical Principles to Specific Cases
@@ -1184,9 +1181,8 @@ When evaluating a biotechnology application, consider:
 ---
 
 
-:::
-:::tip Diagnostic Test
-
+</aside>
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 22. CRISPR-Cas9: Mechanism and Applications in Detail
 
 ### 22.1 The CRISPR-Cas9 System
@@ -2309,4 +2305,4 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-:::
+</aside>

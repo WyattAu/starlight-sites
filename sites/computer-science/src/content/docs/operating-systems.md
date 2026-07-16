@@ -597,11 +597,10 @@ void philosopher(int i) {
 }
 ```
 
-:::caution Common Pitfall Always use a `while` loop (not `if`) when checking conditions with
+<aside aria-label="Common Pitfall Always use a `while` loop (not `if`) when checking conditions with" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Always use a `while` loop (not `if`) when checking conditions with</p>
 condition variables. Spurious Wakeups can cause `pthread_cond_wait()` to return without the
 condition being signalled. The loop Re-checks the condition after every wakeup.
-:::
-
+</aside>
 ## 4. Deadlocks
 
 ### 4.1 Definition and Necessary Conditions
@@ -1096,10 +1095,9 @@ And no global ordering of references.
 
 </details>
 
-:::caution Common Pitfall Belady's anomaly applies to FIFO but **not** to LRU or Optimal. Adding
+<aside aria-label="Common Pitfall Belady's anomaly applies to FIFO but **not** to LRU or Optimal. Adding" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Belady's anomaly applies to FIFO but **not** to LRU or Optimal. Adding</p>
 more memory does not always Reduce page faults for non-stack algorithms.
-:::
-
+</aside>
 ### 5.8 Thrashing
 
 **Thrashing** occurs when a process spends more time paging than executing. This happens when the
@@ -1536,11 +1534,10 @@ directly.
 **Docker** uses OverlayFS for layered images. **Kubernetes** orchestrates containers across
 clusters.
 
-:::caution Common Pitfall Containers do **not** provide hardware-level isolation. A kernel
+<aside aria-label="Common Pitfall Containers do **not** provide hardware-level isolation. A kernel" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Containers do **not** provide hardware-level isolation. A kernel</p>
 vulnerability can potentially Compromise all containers on a host. For strong multi-tenant
 isolation, VMs are preferred.
-:::
-
+</aside>
 ## 9. Security
 
 ### 9.1 Access Control
@@ -1626,12 +1623,11 @@ Addresses using shadow stacks.
 - Implemented in LLVM via `-fsanitize=cfi`.
 - Hardware support: Intel CET (Control-flow Enforcement Technology).
 
-:::caution Common Pitfall ASLR, stack canaries, and DEP are complementary defences. Relying on any
+<aside aria-label="Common Pitfall ASLR, stack canaries, and DEP are complementary defences. Relying on any" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall ASLR, stack canaries, and DEP are complementary defences. Relying on any</p>
 single mechanism is Insufficient. A determined attacker who can read memory can defeat ASLR; a
 format string Vulnerability can leak canary values; and JIT compilers require
 writable-and-executable pages.
-:::
-
+</aside>
 ## 10. Problem Set
 
 <details>

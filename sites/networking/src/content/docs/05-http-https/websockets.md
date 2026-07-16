@@ -181,9 +181,7 @@ Verification:
 0x6f XOR 0x37 = 0x58  (i=4, j=0, wraps)
 ```
 
-:::info
-
-Masking adds minimal overhead (4 bytes per frame) and a small amount of CPU for the XOR operation.
+<aside aria-label="Masking adds minimal overhead (4 bytes per frame) and a small amount of CPU for the XOR operation." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Masking adds minimal overhead (4 bytes per frame) and a small amount of CPU for the XOR operation.</p>
 On modern hardware, this is negligible even at high throughput.
 
 
@@ -209,10 +207,8 @@ Application:
 - **Binary:** Efficient for binary protocols (Protocol Buffers, MessagePack, custom binary formats).
   No base64 encoding overhead.
 
-:::
-:::caution
-
-A common mistake is sending JSON in binary frames. While this works, it defeats the purpose of
+</aside>
+<aside aria-label="A common mistake is sending JSON in binary frames. While this works, it defeats the purpose of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common mistake is sending JSON in binary frames. While this works, it defeats the purpose of</p>
 Binary frames (which are for non-text data). If you are sending JSON, use text frames.
 
 
@@ -261,10 +257,8 @@ Client                              Server
 If the sender does not receive a pong within a reasonable timeout, the connection is considered dead
 And should be closed.
 
-:::
-:::caution
-
-Do not send pings too frequently. A ping every 30-60 seconds is sufficient for keepalive. More
+</aside>
+<aside aria-label="Do not send pings too frequently. A ping every 30-60 seconds is sufficient for keepalive. More" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not send pings too frequently. A ping every 30-60 seconds is sufficient for keepalive. More</p>
 Frequent pings add overhead without meaningful benefit. Some servers limit the rate of control
 Frames and will close the connection if pings are too frequent.
 
@@ -323,10 +317,8 @@ Parameters:
 - **client_no_context_takeover:** Client does not reuse LZ77 context between messages
 - **server_no_context_takeover:** Server does not reuse LZ77 context between messages
 
-:::
-:::caution
-
-`permessage-deflate` can introduce latency due to compression overhead. For small messages (under
+</aside>
+<aside aria-label="`permessage-deflate` can introduce latency due to compression overhead. For small messages (under" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`permessage-deflate` can introduce latency due to compression overhead. For small messages (under</p>
 100 bytes), the compression overhead may exceed the savings. Benchmark with your actual message
 Sizes before enabling. For high-frequency, small-message applications (gaming, financial tickers),
 Compression may not be worthwhile.
@@ -491,10 +483,8 @@ const wss = new WebSocketServer({
 });
 ```
 
-:::
-:::caution
-
-Origin checking is the primary CSRF defense for WebSocket connections. Cookies are sent
+</aside>
+<aside aria-label="Origin checking is the primary CSRF defense for WebSocket connections. Cookies are sent" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Origin checking is the primary CSRF defense for WebSocket connections. Cookies are sent</p>
 Automatically by the browser during the HTTP upgrade request, so cookie-based authentication alone
 Is insufficient -- a malicious site can initiate a WebSocket connection to your server with the
 Victim's cookies. Always verify the Origin header.
@@ -833,4 +823,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

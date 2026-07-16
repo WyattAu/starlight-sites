@@ -81,10 +81,9 @@ r.join()  # Wait for regular thread
 # Program exits here — daemon thread is terminated
 ```
 
-:::caution Daemon threads are abruptly terminated when the main thread exits. They may not release
+<aside aria-label="Daemon threads are abruptly terminated when the main thread exits. They may not release" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Daemon threads are abruptly terminated when the main thread exits. They may not release</p>
 Locks, close files, or flush buffers. Use them only for non-critical background tasks.
-:::
-
+</aside>
 ## Lock and RLock
 
 ### Lock (Mutex)
@@ -143,10 +142,9 @@ outer()  # Works fine — RLock allows same thread to re-acquire
 | `acquire()` counting  | No             | Yes                      |
 | Overhead              | Lower          | Slightly higher          |
 
-:::caution With `Lock`If the same thread tries to acquire it twice, it deadlocks. With `RLock` The
+<aside aria-label="With `Lock`If the same thread tries to acquire it twice, it deadlocks. With `RLock` The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>With `Lock`If the same thread tries to acquire it twice, it deadlocks. With `RLock` The</p>
 thread must call `release()` the same number of times it called `acquire()`.
-:::
-
+</aside>
 ## Semaphore, Event, Condition, Barrier
 
 ### Semaphore
@@ -281,11 +279,10 @@ if __name__ == "__main__":
     print(results)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
-:::caution On Linux/macOS, `multiprocessing` uses `fork()` by default, which copies the entire
+<aside aria-label="On Linux/macOS, `multiprocessing` uses `fork()` by default, which copies the entire" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>On Linux/macOS, `multiprocessing` uses `fork()` by default, which copies the entire</p>
 Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
-:::
-
+</aside>
 ### Process
 
 ```python
@@ -390,10 +387,9 @@ if __name__ == "__main__":
     p2.join()
 ```
 
-:::info `multiprocessing.Pipe()` creates a pair of connection objects. It supports duplex
+<aside aria-label="`multiprocessing.Pipe()` creates a pair of connection objects. It supports duplex" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`multiprocessing.Pipe()` creates a pair of connection objects. It supports duplex</p>
 Communication by default. For one-way communication, use `duplex=False`.
-:::
-
+</aside>
 ## concurrent.futures
 
 `concurrent.futures` provides a high-level interface for asynchronously executing callables using
@@ -541,7 +537,7 @@ print(pq.get())  # (2, 'medium priority')
 print(pq.get())  # (3, 'low priority')
 ```
 
-:::info `PriorityQueue` orders items by the first element of the tuple. If the first elements are
+<aside aria-label="`PriorityQueue` orders items by the first element of the tuple. If the first elements are" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`PriorityQueue` orders items by the first element of the tuple. If the first elements are</p>
 Equal, it compares the second, and so on. If items are not comparable, it raises `TypeError`.
 
 ## GIL Impact Analysis
@@ -923,4 +919,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

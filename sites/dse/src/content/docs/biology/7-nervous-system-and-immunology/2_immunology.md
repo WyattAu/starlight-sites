@@ -521,7 +521,7 @@ quantify specific antigens (or antibodies) in a sample.
 | Duration        | Long-lasting (years to lifetime)   | Short-lived (weeks to months)             |
 | Boosters        | Booster doses extend immunity      | Cannot be boosted (no memory cells)       |
 
-:::caution A common DSE question asks students to distinguish between active and passive immunity
+<aside aria-label="A common DSE question asks students to distinguish between active and passive immunity" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common DSE question asks students to distinguish between active and passive immunity</p>
 and between natural and artificial immunity. Remember: "active" means the body MAKES its own
 antibodies; "passive" means the body RECEIVES pre-made antibodies. "Natural" means the exposure
 occurred (infection or maternal transfer); "artificial" means the exposure was deliberate
@@ -776,8 +776,8 @@ antigens, attacking the body's own tissues.
 | Monoclonal antibodies   | Targeted antibodies that block specific immune pathways (e.g., anti-TNF-alpha for rheumatoid arthritis) |
 | Plasmapheresis          | Filtering blood to remove autoantibodies and immune complexes                                           |
 
-:::
-:::tip Tip Ready to test your understanding of **Immunology**? Review the
+</aside>
+<aside aria-label="Tip Ready to test your understanding of **Immunology**? Review the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Immunology**? Review the</p>
 which covers immune system topics within the DSE specification.
 
 See for instructions on
@@ -1113,4 +1113,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

@@ -152,12 +152,11 @@ Process at any given time. The rate of photosynthesis is determined by the slowe
 - On a graph of rate vs temperature, the rate increases to an optimum then drops sharply. The drop
   is due to denaturation of RuBisCO and other Calvin cycle enzymes.
 
-:::info At very high light intensities, the rate may decrease due to **photorespiration**. RuBisCO
+<aside aria-label="At very high light intensities, the rate may decrease due to **photorespiration**. RuBisCO" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>At very high light intensities, the rate may decrease due to **photorespiration**. RuBisCO</p>
 Can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ (oxygenase activity), which does not produce
 Glucose and wastes energy. This is more significant at high temperatures and low $\mathrm{CO}_2$
 Concentrations. C4 and CAM plants have evolved mechanisms to minimise photorespiration.
-:::
-
+</aside>
 ---
 
 ## Gas Exchange in Plants
@@ -364,12 +363,11 @@ Water moves up the xylem against gravity through three contributing mechanisms:
 - The narrow diameter of xylem vessels causes water to rise by capillarity
 - This contributes minimally to water transport in tall plants but is significant in small plants
 
-:::caution A common DSE pitfall is writing that root pressure is the main mechanism for water
+<aside aria-label="A common DSE pitfall is writing that root pressure is the main mechanism for water" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common DSE pitfall is writing that root pressure is the main mechanism for water</p>
 Transport in tall trees. Root pressure alone can only push water a few metres. The cohesion-tension
 Theory is the dominant mechanism in tall plants. Root pressure is supplementary and is only
 Significant in small plants or under conditions of low transpiration.
-:::
-
+</aside>
 ### Phloem Structure and Function
 
 Phloem transports organic solutes (primarily sucrose) from source to sink.
@@ -703,12 +701,11 @@ Growth can be towards (positive tropism) or away from (negative tropism) the sti
 4. The upper side (lower auxin) elongates more than the lower side (higher auxin), causing the root
    to bend downwards
 
-:::caution The critical distinction for DSE is that auxin has opposite effects on cell elongation in
+<aside aria-label="The critical distinction for DSE is that auxin has opposite effects on cell elongation in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The critical distinction for DSE is that auxin has opposite effects on cell elongation in</p>
 Shoots versus roots. In shoots, auxin promotes elongation (high concentration side grows more). In
 Roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
 Towards light but roots bend away from it when auxin redistributes.
-:::
-
+</aside>
 ### Auxin and Gibberellin Interactions
 
 | Feature            | Auxin (IAA)                          | Gibberellin (GA)                                    |
@@ -1167,13 +1164,12 @@ use photoperiod to determine the appropriate time to flower.
 | Short-day plants   | Long nights (> critical period)  | Flower when the NIGHT length exceeds a critical value; require LESS than a certain number of hours of light per day  | Chrysanthemum, poinsettia, strawberry, rice |
 | Day-neutral plants | No critical photoperiod          | Flower regardless of day length; other factors (temperature, plant age) trigger flowering                            | Tomato, cucumber, maize, cotton             |
 
-:::caution A common pitfall is to describe long-day and short-day plants in terms of DAY length
+<aside aria-label="A common pitfall is to describe long-day and short-day plants in terms of DAY length" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common pitfall is to describe long-day and short-day plants in terms of DAY length</p>
 rather than NIGHT length. The critical factor is actually the length of the DARK period. Long-day
 plants are really "short-night plants," and short-day plants are really "long-night plants." This
 was demonstrated by interrupting the dark period with a brief flash of light, which prevents
 short-day plants from flowering but promotes flowering in long-day plants.
-:::
-
+</aside>
 ### Phytochrome
 
 Photoperiodism is controlled by a pigment called **phytochrome**, which exists in two
@@ -1467,7 +1463,7 @@ include YYRR, YyRR, YYRr, YyRr genotypes.
 
 </details>
 
-:::tip Diagnostic Test Ready to test your understanding of **Plant Biology**? The contains the hardest questions
+<aside aria-label="Diagnostic Test Ready to test your understanding of **Plant Biology**? The contains the hardest questions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Plant Biology**? The contains the hardest questions</p>
 within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Plant
@@ -1798,4 +1794,4 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

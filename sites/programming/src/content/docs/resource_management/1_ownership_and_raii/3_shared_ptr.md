@@ -56,7 +56,7 @@ A control block is created at the following points:
 3. `std::allocate_shared&lt;T&gt;(alloc, args...)`. Uses custom allocator for both
 4. Constructing from a `std::weak_ptr` via `weak_ptr::lock()`. Reuses existing control block
 
-:::caution Never construct multiple `shared_ptr` instances from the same raw pointer. Each
+<aside aria-label="Never construct multiple `shared_ptr` instances from the same raw pointer. Each" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never construct multiple `shared_ptr` instances from the same raw pointer. Each</p>
 Construction creates a new control block, leading to multiple destructions (double-free):
 
 ````cpp
@@ -64,8 +64,7 @@ int* raw = new int(42);
 std::shared_ptr<int> p1(raw);
 std::shared_ptr<int> p2(raw);  // BUG: second control block, double-free!
 ```
-:::
-
+</aside>
 ### Reference Count State Machine
 
 The control block implements a two-counter state machine. Let $s$ denote `strong_count` and $w$
@@ -213,12 +212,11 @@ shared_ptr(new Sensor) (two allocations):
   Two allocations, two frees
 ```
 
-:::note Relevance `std::make_shared` performs a single allocation (better cache locality, fewer
+<aside aria-label="Relevance `std::make_shared` performs a single allocation (better cache locality, fewer" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance `std::make_shared` performs a single allocation (better cache locality, fewer</p>
 Syscalls). However, the control block and object share the same memory block, so the memory for the
 Control block cannot be freed until **all** `weak_ptr` references are also gone. For very large
 Objects with long-lived `weak_ptr` observers, this can delay deallocation.
-:::
-
+</aside>
 ### Quantitative Allocation Overhead
 
 Consider a managed object of size $N$ bytes on x86_64:
@@ -345,12 +343,11 @@ Sequentially-consistent operations. The implications:
   ordered such that the caller can safely access the object on the same thread without a subsequent
   memory barrier.
 
-:::note Relevance In practice, some implementations (notably libstdc++) use `memory_order_acq_rel`
+<aside aria-label="Relevance In practice, some implementations (notably libstdc++) use `memory_order_acq_rel`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance In practice, some implementations (notably libstdc++) use `memory_order_acq_rel`</p>
 For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`Which is valid because
 The standard only requires that the control block operations do not race with each other. The
 Stronger `seq_cst` default is a conservative choice that implementations may relax.
-:::
-
+</aside>
 ## 3.5 Custom Deleters
 
 `shared_ptr` supports custom deleters, allowing it to manage resources beyond simple `new`/`delete`:
@@ -496,12 +493,11 @@ int main() {
 }
 ```
 
-:::caution COW with `shared_ptr` has thread-safety subtleties. The `unique()` check is a data race
+<aside aria-label="COW with `shared_ptr` has thread-safety subtleties. The `unique()` check is a data race" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>COW with `shared_ptr` has thread-safety subtleties. The `unique()` check is a data race</p>
 If another thread might modify the object concurrently. COW is safe only in single-threaded contexts
 Or with external synchronization. `std::string` implementations have moved away from COW for this
 Reason.
-:::
-
+</aside>
 ## 3.8 `sizeof(shared_ptr)` Across Implementations
 
 | Implementation                | `sizeof(shared_ptr&lt;T&gt;)` | Notes              |
@@ -526,11 +522,10 @@ Matters in memory-constrained applications or when storing many pointers in cont
 4. **Cache pressure:** The control block is a separate allocation, causing an additional cache miss
    on every `shared_ptr` copy or destruction.
 
-:::caution Do not use `shared_ptr` by default. Use `unique_ptr` as your default smart pointer. Only
+<aside aria-label="Do not use `shared_ptr` by default. Use `unique_ptr` as your default smart pointer. Only" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not use `shared_ptr` by default. Use `unique_ptr` as your default smart pointer. Only</p>
 Reach for `shared_ptr` when you genuinely need shared ownership. Premature use of `shared_ptr` is a
 Common source of performance bugs in C++ codebases.
-:::
-
+</aside>
 ## 3.10 `enable_shared_from_this`: Internal Mechanics
 
 `std::enable_shared_from_this&lt;T&gt;` solves the problem of safely obtaining a `shared_ptr` to
@@ -616,13 +611,12 @@ int main() {
 }
 ```
 
-:::caution Calling `shared_from_this()` on an object that is not managed by a `shared_ptr` (e.g., a
+<aside aria-label="Calling `shared_from_this()` on an object that is not managed by a `shared_ptr` (e.g., a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Calling `shared_from_this()` on an object that is not managed by a `shared_ptr` (e.g., a</p>
 Stack-allocated object or one owned by `unique_ptr`) is undefined behavior. The internal
 `weak_this_` is uninitialized, and `lock()` on an empty `weak_ptr` returns a null `shared_ptr` Which
 when dereferenced causes undefined behavior. Some implementations throw `std::bad_weak_ptr` in Debug
 mode to catch this error early.
-:::
-
+</aside>
 ## 3.11 Aliasing Constructor: Formal Semantics
 
 The aliasing constructor creates a `shared_ptr` that shares **ownership** with one `shared_ptr` but

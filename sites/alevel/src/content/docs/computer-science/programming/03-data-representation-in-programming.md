@@ -42,7 +42,7 @@ False
 **Why:** $0.1$ cannot be represented exactly in binary floating point (like $1/3$ cannot be
 Represented exactly in decimal).
 
-:::caution Pitfall Never use `==` to compare floating-point numbers. Use `abs(a - b) < epsilon` with
+<aside aria-label="Pitfall Never use `==` to compare floating-point numbers. Use `abs(a - b) < epsilon` with" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall Never use `==` to compare floating-point numbers. Use `abs(a - b) < epsilon` with</p>
 A small tolerance (e.g., `1e-9`).
 
 ```python
@@ -50,8 +50,7 @@ def approx_equal(a, b, epsilon=1e-9):
     return abs(a - b) < epsilon
 ```
 
-:::
-
+</aside>
 <hr />
 
 ## 2. Pointers and References
@@ -123,10 +122,9 @@ Codes (e.g., UTF-8 or UTF-16).
 | Split            | `s.split(sep)` | $O(n)$                            |
 | Slice            | `s[a:b]`       | $O(b-a)$                          |
 
-:::caution Pitfall In Python, strings are **immutable** — you cannot modify individual characters.
+<aside aria-label="Pitfall In Python, strings are **immutable** — you cannot modify individual characters." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall In Python, strings are **immutable** — you cannot modify individual characters.</p>
 `s[0] = 'x'` raises a `TypeError`. Use `s = 'x' + s[1:]` to create a new string.
-:::
-
+</aside>
 ### String Immutability
 
 Strings are immutable for several reasons:
@@ -136,14 +134,13 @@ Strings are immutable for several reasons:
 3. **Hashing:** Immutable strings can be used as dictionary keys (hash is stable)
 4. **Interning:** Python can reuse identical string objects, saving memory
 
-:::info Board-specific **AQA** requires ASCII, Unicode (UTF-8, UTF-16), image representation
+<aside aria-label="Board-specific **AQA** requires ASCII, Unicode (UTF-8, UTF-16), image representation" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** requires ASCII, Unicode (UTF-8, UTF-16), image representation</p>
 (pixels, colour depth, resolution), sound sampling (sample rate, bit depth). **CIE (9618)** covers
 Similar topics but may emphasise different aspects; requires understanding of file sizes and
 Capacity calculations. **OCR (A)** requires character encoding, image representation, and sound
 Representation with specific detail on compression (lossy vs lossless). **Edexcel** covers data
 Representation fundamentals including number systems and character encoding.
-:::
-
+</aside>
 <hr />
 
 ## 4. File Handling

@@ -48,11 +48,10 @@ For a charge moving perpendicular to the field ($\theta = 90^\circ$):
 
 $$\boxed{F = Bqv}$$
 
-:::caution Common Pitfall The magnetic force is always perpendicular to both $\mathbf{v}$ and
+<aside aria-label="Common Pitfall The magnetic force is always perpendicular to both $\mathbf{v}$ and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The magnetic force is always perpendicular to both $\mathbf{v}$ and</p>
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
 Change the speed of a charged particle — only its direction.
-:::
-
+</aside>
 ## 3. Circular Motion in a Magnetic Field
 
 When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides
@@ -157,10 +156,9 @@ $$\varepsilon = -N\frac◆LB◆d\Phi◆RB◆◆LB◆dt◆RB◆$$
 Opposing it, a self-amplifying cycle would create energy from nothing. The opposition ensures that
 Work must be done to maintain the flux change, and this work appears as electrical energy.
 
-:::tip Tip Determine the field direction that would oppose this change, (3) use the right-hand grip
+<aside aria-label="Tip Determine the field direction that would oppose this change, (3) use the right-hand grip" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Determine the field direction that would oppose this change, (3) use the right-hand grip</p>
 rule to find The induced current direction.
-:::
-
+</aside>
 ### Motional e.m.f.
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:

@@ -121,11 +121,10 @@ Negate: "The function $f$ is continuous and differentiable."
 Let $C$: "$f$ is continuous." Let $D$: "$f$ is differentiable." The statement is $C \wedge D$. Its
 Negation is $\neg C \vee \neg D$I.e., "$f$ is either not continuous or not differentiable."
 
-:::info A common mistake is to negate "P and Q" as "not P and not Q." That is wrong. The negation of
+<aside aria-label="A common mistake is to negate "P and Q" as "not P and not Q." That is wrong. The negation of" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A common mistake is to negate "P and Q" as "not P and not Q." That is wrong. The negation of</p>
 "$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable" — that
 Is too strong.
-:::
-
+</aside>
 ### 1.5 The Contrapositive
 
 For any implication $P \implies Q$The **contrapositive** is $\neg Q \implies \neg P$.
@@ -209,10 +208,9 @@ $$\neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon
 The existential becomes universal and the universal becomes existential. This is the logical
 Backbone of epsilon-delta definitions in analysis.
 
-:::caution Warning Negate the predicate. The order of quantifiers does NOT change — it remains the
+<aside aria-label="Warning Negate the predicate. The order of quantifiers does NOT change — it remains the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Negate the predicate. The order of quantifiers does NOT change — it remains the</p>
 same sequence but With each quantifier flipped.
-:::
-
+</aside>
 <details>
 <summary>Worked Example: Negate $\forall n \in \mathbb{Z}^+, \; \exists p \mathrm{ prime}, \; p \gt n$</summary>
 
@@ -291,10 +289,9 @@ that is always false, like $1 = 0$ or $0 \lt 0$).
 This method is especially powerful when the statement you want to prove is a negation itself ("there
 Does not exist..." or "there are no...").
 
-:::info Info Which means $\neg P$ must be false, hence $P$ is true. It relies on the Law of Excluded
+<aside aria-label="Info Which means $\neg P$ must be false, hence $P$ is true. It relies on the Law of Excluded" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Which means $\neg P$ must be false, hence $P$ is true. It relies on the Law of Excluded</p>
 Middle ($P \vee \neg P$ must be true).
-:::
-
+</aside>
 **Worked Example — $\sqrt{2}$ is irrational:**
 
 Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$ where $a, b \in \mathbb{Z}^+$
@@ -315,10 +312,9 @@ But now both $a$ and $b$ are even, contradicting $\gcd(a, b) = 1$.
 
 Therefore our assumption is false, and $\sqrt{2}$ is irrational.
 
-:::note Note Odd, then $a = 2k+1$So $a^2 = 4k^2 + 4k + 1 = 2(2k^2+2k) + 1$Which is odd. Hence if
+<aside aria-label="Note Odd, then $a = 2k+1$So $a^2 = 4k^2 + 4k + 1 = 2(2k^2+2k) + 1$Which is odd. Hence if" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Note Odd, then $a = 2k+1$So $a^2 = 4k^2 + 4k + 1 = 2(2k^2+2k) + 1$Which is odd. Hence if</p>
 $a^2$ is Even, $a$ cannot be odd, so $a$ is even.
-:::
-
+</aside>
 <details>
 <summary>Exercise: Prove that $\sqrt{3}$ is irrational.</summary>
 
@@ -359,11 +355,10 @@ $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$
 This is odd. Therefore, if $n$ is odd, $n^2$ is odd. By contrapositive, if $n^2$ is even, then $n$
 Is even.
 
-:::tip Tip "$n^2$ even implies $n$ even" by contradiction (assume $n^2$ even and $n$ odd, derive
+<aside aria-label="Tip "$n^2$ even implies $n$ even" by contradiction (assume $n^2$ even and $n$ odd, derive" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip "$n^2$ even implies $n$ even" by contradiction (assume $n^2$ even and $n$ odd, derive</p>
 that $n^2$ is Both even and odd). But the contrapositive .../1-number-and-algebra/3_proof-and-logic
 is cleaner — it is a direct .../1-number-and-algebra/3_proof-and-logic of the equivalent Statement.
-:::
-
+</aside>
 <details>
 <summary>Exercise: Prove that if $3n + 2$ is odd, then $n$ is odd (by contrapositive).</summary>
 
@@ -487,11 +482,10 @@ Not just $P(k)$.
 **When to use strong induction:** When proving $P(k+1)$ requires not just $P(k)$ but some earlier
 Case $P(j)$ where $j \lt k$.
 
-:::caution Weak and strong induction are logically equivalent — anything provable by one is provable
+<aside aria-label="Weak and strong induction are logically equivalent — anything provable by one is provable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Weak and strong induction are logically equivalent — anything provable by one is provable</p>
 By the other. But strong induction can make certain .../1-number-and-algebra/3_proof-and-logics much
 more natural. Use it when the Inductive step needs to reference cases earlier than just $k$.
-:::
-
+</aside>
 **Worked Example — Every integer $n \ge 2$ is a product of primes:**
 
 Let $P(n)$: "$n$ is a product of primes (possibly a single prime)."
@@ -565,10 +559,9 @@ Counterexample: $2$ is prime and $2$ is even.
 
 When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$Which is composite ($41 \times 41$).
 
-:::tip To prove a universal claim requires a general .../1-number-and-algebra/3_proof-and-logic. To
+<aside aria-label="To prove a universal claim requires a general .../1-number-and-algebra/3_proof-and-logic. To" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>To prove a universal claim requires a general .../1-number-and-algebra/3_proof-and-logic. To</p>
 disprove it requires only one Counterexample. This asymmetry is fundamental to mathematical logic.
-:::
-
+</aside>
 <details>
 <summary>Exercise: Disprove: "For all positive integers $a$ and $b$$\gcd(a+b, a-b) = \gcd(a, b)$."</summary>
 
@@ -637,11 +630,10 @@ So $p_i \nmid N$ for all $i$. This contradicts that some $p_i$ divides $N$.
 
 Therefore, there are infinitely many primes. $\blacksquare$
 
-:::info Info Example, $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 30031 = 59 \times 509$. The
+<aside aria-label="Info Example, $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 30031 = 59 \times 509$. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Example, $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 30031 = 59 \times 509$. The</p>
 .../1-number-and-algebra/3_proof-and-logic only Requires that $N$ has SOME prime factor not in the
 list.
-:::
-
+</aside>
 ### 3.3 $\log_2{3}$ is Irrational
 
 **Theorem:** $\log_2{3}$ is irrational.
@@ -737,11 +729,10 @@ $ax + by = (dm)x + (dn)y = d(mx + ny)$.
 
 Since $mx + ny \in \mathbb{Z}$$d \mid (ax + by)$. $\blacksquare$
 
-:::note This theorem is the foundation of the Euclidean algorithm. The expression $ax + by$ is
+<aside aria-label="This theorem is the foundation of the Euclidean algorithm. The expression $ax + by$ is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This theorem is the foundation of the Euclidean algorithm. The expression $ax + by$ is</p>
 Called a **linear combination** of $a$ and $b$. The greatest common divisor $\gcd(a, b)$ can always
 Be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
-:::
-
+</aside>
 ### 3.6 Inequality Proofs
 
 **AM-GM Inequality (two variables):** For $a, b \ge 0$:
@@ -850,11 +841,10 @@ $ac = (b + kn)(d + ln) = bd + bln + dkn + kln^2 = bd + n(bl + dk + kln)$.
 
 Therefore $n \mid (ac - bd)$So $ac \equiv bd \pmod{n}$. $\blacksquare$
 
-:::caution Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only
+<aside aria-label="Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only</p>
 conclude $a \equiv b \pmod{n}$ if $\gcd(c, n) = 1$. For example, $6 \equiv 0 \pmod{3}$ and
 $3 \equiv 0 \pmod{3}$But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
-:::
-
+</aside>
 <details>
 <summary>Worked Example: Find the last two digits of $7^{100}$.</summary>
 
@@ -1049,11 +1039,10 @@ The conclusion ($\sqrt{2}$ is irrational) appears in the hypothesis. This proves
 only on axioms, definitions, and Previously established theorems — never on the statement you are
 proving.
 
-:::danger Circular reasoning is the most dangerous logical fallacy in mathematics because it can
+<aside aria-label="Circular reasoning is the most dangerous logical fallacy in mathematics because it can" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Circular reasoning is the most dangerous logical fallacy in mathematics because it can</p>
 Look convincing. Always verify that your .../1-number-and-algebra/3_proof-and-logic does not contain
 the conclusion as an unstated Assumption.
-:::
-
+</aside>
 ### 5.2 Assuming the Conclusion
 
 Related to circular reasoning, this occurs when you "work backwards" from the conclusion without
@@ -1092,10 +1081,9 @@ Fails.)
 Incorrect negation: "If it rains, the ground does not get wet." (This is a different implication
 Entirely.)
 
-:::caution This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies
+<aside aria-label="This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>This is one of the most common errors on IB exams. Memorize: the negation of "$P$ implies</p>
 $Q$" is "$P$ AND not $Q$."
-:::
-
+</aside>
 ### 5.4 Induction Base Case Errors
 
 **The pitfall:** Skipping the base case or proving the wrong base case.
@@ -1150,11 +1138,10 @@ $P(k-1)$ or earlier, weak induction's hypothesis is insufficient.
 This is unnecessary and makes .../1-number-and-algebra/3_proof-and-logics harder to read. Use weak
 induction unless the structure Of the problem requires strong induction.
 
-:::tip **Rule of thumb:** If the statement for $n$ depends only on the statement for $n-1$ (like
+<aside aria-label="**Rule of thumb:** If the statement for $n$ depends only on the statement for $n-1$ (like" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>**Rule of thumb:** If the statement for $n$ depends only on the statement for $n-1$ (like</p>
 $n! = n \cdot (n-1)!$), use weak induction. If on earlier terms (like $F_n = F_{n-1} + F_{n-2}$),
 use strong induction.
-:::
-
+</aside>
 ### 5.6 Confusing Converse with Contrapositive
 
 | Original                    | $P \implies Q$           |
@@ -1187,12 +1174,11 @@ Showing $P$ is false does NOT disprove the implication.
 | $\forall x, \; \exists y, \; P(x,y)$ | $\exists x, \; \forall y, \; \neg P(x,y)$ |
 | $\exists x, \; \forall y, \; P(x,y)$ | $\forall x, \; \exists y, \; \neg P(x,y)$ |
 
-:::danger The order of quantifiers matters. "For every person, there exists a mother" is very
+<aside aria-label="The order of quantifiers matters. "For every person, there exists a mother" is very" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>The order of quantifiers matters. "For every person, there exists a mother" is very</p>
 Different from "There exists a person who is the mother of everyone." The negation of "for every x
 There exists y" is "there exists x such that for every y" — quantifiers flip but their order is
 Preserved.
-:::
-
+</aside>
 ---
 
 ## 6. Proof Techniques Summary

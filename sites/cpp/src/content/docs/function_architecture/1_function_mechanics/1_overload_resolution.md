@@ -49,11 +49,10 @@ The ADL rule is the reason `std::cout << "hello"` works: the left operand has ty
 (in namespace `std`), and the right operand has type `const char[6]` (built-in type, no ADL
 Contribution). ADL adds the namespace `std` to the search set, where `operator<<` is found.
 
-:::note Relevance ADL is essential for operator overloading and generic code. Without ADL, every
+<aside aria-label="Relevance ADL is essential for operator overloading and generic code. Without ADL, every" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance ADL is essential for operator overloading and generic code. Without ADL, every</p>
 Call to `operator<<``operator==`Or a custom swap function would require explicit namespace
 Qualification, breaking generic programming.
-:::
-
+</aside>
 ## 1.2 ADL in Detail [N4950 §6.5.4.2]
 
 For each argument in a function call, the following namespaces and classes are added to the lookup
@@ -377,7 +376,7 @@ int main() {
 }
 ```
 
-:::caution ADL can pull in unexpected overloads from associated namespaces. The "hidden friend"
+<aside aria-label="ADL can pull in unexpected overloads from associated namespaces. The "hidden friend"" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>ADL can pull in unexpected overloads from associated namespaces. The "hidden friend"</p>
 Idiom — defining the operator as a friend inside the class — restricts the operator to being found
 Only via ADL, preventing unintended overloads:
 
@@ -390,8 +389,7 @@ struct Vec3 {
 };
 ```
 
-:::
-
+</aside>
 ## 1.7 Implicit Conversion Sequences in Depth
 
 An **implicit conversion sequence** (ICS) is the sequence of conversions the compiler applies to

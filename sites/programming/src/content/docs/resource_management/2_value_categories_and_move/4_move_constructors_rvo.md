@@ -376,13 +376,12 @@ void container_demo() {
 }
 ```
 
-:::caution Always mark move constructors and move assignment operators `noexcept` unless they
+<aside aria-label="Always mark move constructors and move assignment operators `noexcept` unless they" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always mark move constructors and move assignment operators `noexcept` unless they</p>
 Genuinely can throw (which is rare — moving should only perform pointer swaps and assignments). The
 `std::is_nothrow_move_constructible_v<T>` type trait is used by standard containers to select
 Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
 copied in containers, which can be a severe performance regression.
-:::
-
+</aside>
 ### How `std::vector` Uses `noexcept` Move
 
 The `std::vector` reallocation strategy is defined in [N4950 S16.4.5.2.6]. If the move constructor
@@ -780,11 +779,10 @@ Before swap: a.size=1000, b.size=2000
 After swap:  a.size=2000, b.size=1000
 ```
 
-:::tip When writing a custom `swap`Always include `using std::swap;` before calling `swap` on
+<aside aria-label="When writing a custom `swap`Always include `using std::swap;` before calling `swap` on" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When writing a custom `swap`Always include `using std::swap;` before calling `swap` on</p>
 Individual members. This ensures that if a member type has a custom `swap`It is found via ADL, While
 falling back to `std::swap` for types that do not.
-:::
-
+</aside>
 ## 7.3 Swap as a Building Block
 
 `swap` is used extensively as a building block for other operations:
@@ -865,7 +863,7 @@ The `this != &other` guard is essential. Without it, `a = std::move(a)` would:
 After self-move, the object holds a dangling pointer and a zero size. Any subsequent access or
 Destruction triggers use-after-free.
 
-:::caution Self-move assignment (`a = std::move(a)`) is **not undefined behavior** in the general
+<aside aria-label="Self-move assignment (`a = std::move(a)`) is **not undefined behavior** in the general" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Self-move assignment (`a = std::move(a)`) is **not undefined behavior** in the general</p>
 Case [N4950 S11.4.5.3], but the Standard requires the object to be in a "valid but unspecified
 State" afterward. For resource-owning types that do not guard against self-assignment, this means a
 use-after-free. Always include the self-assignment check in move assignment Operators, or
@@ -945,4 +943,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

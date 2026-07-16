@@ -43,14 +43,13 @@ As the linker scans inputs (objects and libraries) from **left to right** on the
 - If a match is found, that specific member object is extracted and added to **E**.
 - If no match is found, the member object is ignored entirely.
 
-:::danger The Archive Order Trap Because static libraries are searched only to resolve _currently
+<Aside type="danger" title="The Archive Order Trap Because static libraries are searched only to resolve _currently">
 Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` must appear **before**
 `LibB` in the linker command.
 
 - Correct: `clang++ main.o -lA -lB`
 - Incorrect: `clang++ main.o -lB -lA` (Linker fails: Symbols in A are undefined).
-:::
-
+</Aside>
 ### Weak vs. Strong vs. Common Symbols
 
 The linker classifies symbols into three categories that determine how duplicates are handled:
@@ -293,11 +292,10 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
 endif()
 ```
 
-:::caution ICF can break programs that compare function pointers for identity. If `f()` and `g()`
+<Aside type="caution" title="ICF can break programs that compare function pointers for identity. If `f()` and `g()`">
 Are folded into the same address, `&f == &g` becomes `true` even though they are distinct functions.
 This is rare but possible. Use `-Wl,--icf=safe` to fold only functions with identical relocations.
-:::
-
+</Aside>
 ## 4. Static vs. Shared Libraries
 
 ### Static Libraries (`.a` / `.lib`)
@@ -737,7 +735,7 @@ The linker rewrites every call to `malloc` to call `__wrap_malloc` instead. The 
 Symbol is provided by the original library and can be called from within the wrapper. This mechanism
 Does not require modifying the original source code.
 
-:::caution `--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by
+<Aside type="caution" title="`--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by">
 The compiler, the wrapper will not intercept the inlined call. Use `-fno-inline` on the wrapping TU
 Or compile the wrapped TU separately without LTO.
 
@@ -769,4 +767,4 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</Aside>

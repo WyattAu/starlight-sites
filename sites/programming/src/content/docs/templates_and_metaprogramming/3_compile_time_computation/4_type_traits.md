@@ -122,12 +122,11 @@ int main() {
 }
 ```
 
-:::caution `std::enable_if` SFINAE is effective but produces terrible error messages and makes
+<aside aria-label="`std::enable_if` SFINAE is effective but produces terrible error messages and makes" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::enable_if` SFINAE is effective but produces terrible error messages and makes</p>
 Function signatures hard to read. In C++17 and later, prefer `if constexpr` for compile-time
 Branching inside function bodies. In C++20, prefer **concepts** and **constraints** [N4950 §13.7.7]
 For the clearest syntax.
-:::
-
+</aside>
 ## Tag Dispatch
 
 **Tag dispatch** is a SFINAE technique that uses tag types to select overloads at compile time
@@ -288,12 +287,11 @@ int main() {
 
 ```
 
-:::tip Prefer `if constexpr` over `std::enable_if` when you have a single function that needs to
+<aside aria-label="Prefer `if constexpr` over `std::enable_if` when you have a single function that needs to" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Prefer `if constexpr` over `std::enable_if` when you have a single function that needs to</p>
 Handle multiple type categories. Prefer `std::enable_if` (or better, C++20 concepts) when different
 Implementations should be entirely separate overloads. The `if constexpr` approach is generally
 Easier to read, debug, and maintain.
-:::
-
+</aside>
 ## Comparison: Tag Dispatch vs `if constexpr` vs Concepts
 
 ```cpp
@@ -574,13 +572,12 @@ for_each output: [1] [2.5] [hello]
 transformed: [2] [5] [hello!]
 ```
 
-:::note Fold Expressions and index_sequence The pattern `(f(std::get<Is>(t)), ...)` is a **fold
+<aside aria-label="Fold Expressions and index_sequence The pattern `(f(std::get<Is>(t)), ...)` is a **fold" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Fold Expressions and index_sequence The pattern `(f(std::get<Is>(t)), ...)` is a **fold</p>
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
 The idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
 To iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
-:::
-
+</aside>
 ## Unrolling a Tuple with `index_sequence`
 
 The following example demonstrates a more advanced use of `index_sequence` --- extracting specific
@@ -737,11 +734,10 @@ Min version: 2.99.99
 1, 2, three
 ```
 
-:::tip `std::apply` for Tuple Unpacking `std::apply` [N4950 §20.14.4] is the standard library
+<aside aria-label="`std::apply` for Tuple Unpacking `std::apply` [N4950 §20.14.4] is the standard library" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`std::apply` for Tuple Unpacking `std::apply` [N4950 §20.14.4] is the standard library</p>
 Utility that unpacks a tuple as arguments to a callable. It is implemented using the same
 `index_sequence` pattern shown above. Prefer `std::apply` over writing your own unpacking code.
-:::
-
+</aside>
 ## Reflection Preview (C++26)
 
 ### `std::meta::info` and `std::meta::value` (C++26)
@@ -763,11 +759,10 @@ The key operations include:
   a class type.
 - `std::meta::name_of(info)` --- returns the name of the reflected entity as a `std::string_view`.
 
-:::caution C++26 Status Static reflection is approved for C++26 but the exact API is still being
+<aside aria-label="C++26 Status Static reflection is approved for C++26 but the exact API is still being" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>C++26 Status Static reflection is approved for C++26 but the exact API is still being</p>
 Finalized. The examples below follow the direction of P2996R9, which is the leading proposal.
 Compiler support may vary. Check the latest compiler documentation for current support.
-:::
-
+</aside>
 ### Code Example: Aggregate Introspection Pattern
 
 The following example demonstrates the intended C++26 reflection pattern for iterating over
@@ -900,14 +895,13 @@ Config (4 fields):
 Port via index: 8080
 ```
 
-:::tip When to Use Boost.PFR Boost.PFR works for **standard-layout aggregates** (plain structs with
+<aside aria-label="When to Use Boost.PFR Boost.PFR works for **standard-layout aggregates** (plain structs with" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When to Use Boost.PFR Boost.PFR works for **standard-layout aggregates** (plain structs with</p>
 Public members, no virtual functions, no base classes, no custom constructors). It does not work for
 Types with private members, virtual functions, or non-standard layout. If your types satisfy these
 Constraints, Boost.PFR is a practical, header-only solution that requires no code generation or
 Macro registration. For more complex types, wait for C++26 reflection or use a library like Magic
 Enum for enums.
-:::
-
+</aside>
 ### Comparison: Current Approaches to Compile-Time Introspection
 
 | Approach                              | C++ Version       | Limitations                     | Overhead     |

@@ -26,11 +26,10 @@ $$\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedg
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
 Is the order relation defined in [N4950 §6.9.4.1].
 
-:::caution Warning The compiler is free to assume no data races exist and may optimize accordingly,
+<aside aria-label="Warning The compiler is free to assume no data races exist and may optimize accordingly," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning The compiler is free to assume no data races exist and may optimize accordingly,</p>
 potentially Eliminating loads, stores, or reordering operations in ways that are surprising and
 Non-deterministic.
-:::
-
+</aside>
 ## Undefined Behavior of Data Races
 
 The consequences of a data race include but are not limited to [N4950 §6.9.4.2]:
@@ -66,11 +65,10 @@ Threads. A race condition can occur even with proper synchronization (e.g., two 
 
 ## Demonstrating a Data Race
 
-:::caution Warning Exhibits undefined behavior and may crash, produce incorrect results, or appear
+<aside aria-label="Warning Exhibits undefined behavior and may crash, produce incorrect results, or appear" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Exhibits undefined behavior and may crash, produce incorrect results, or appear</p>
 to work correctly Depending on the platform and compiler flags. Never write code like this in
 production.
-:::
-
+</aside>
 ```cpp
 #include <iostream>
 #include <thread>
@@ -273,10 +271,9 @@ void increment_b(int iterations) {
 }
 ```
 
-:::tip Tip Prevents the next counter from sharing the same line. On systems with 128-byte cache
+<aside aria-label="Tip Prevents the next counter from sharing the same line. On systems with 128-byte cache" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Prevents the next counter from sharing the same line. On systems with 128-byte cache</p>
 lines, use `alignas(128)` and adjust the padding accordingly.
-:::
-
+</aside>
 ### Contended vs Uncontended Locks
 
 An **uncontended** lock (no thread is waiting) costs ~25–50 cycles on x86. A **contended** lock
@@ -346,12 +343,11 @@ int main() {
 | `memory_order_acq_rel` | Both acquire and release                  | Moderate                        | Reference counting            |
 | `memory_order_seq_cst` | Total order across all threads            | Full memory fence               | Default, when in doubt        |
 
-:::caution Warning `memory_order_release` are effectively free (the hardware provides the ordering).
+<aside aria-label="Warning `memory_order_release` are effectively free (the hardware provides the ordering)." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning `memory_order_release` are effectively free (the hardware provides the ordering).</p>
 On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instructions and have real
 cost. Always measure Before optimizing memory orderings — `memory_order_seq_cst` is the safest
 default.
-:::
-
+</aside>
 ## Practical Data Race Bug and Fix
 
 Consider a real-world pattern: a lazily-initialized singleton accessed from multiple threads.

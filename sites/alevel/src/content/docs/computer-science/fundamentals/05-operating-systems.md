@@ -68,11 +68,10 @@ Application.
 | **Desktop**     | General-purpose, multi-user with GUI                               | Windows, macOS, Linux   |
 | **Mobile**      | Optimised for touch, power efficiency, and connectivity            | Android, iOS            |
 
-:::info Board-specific **AQA** emphasises batch, real-time, and distributed systems. **Edexcel** and
+<aside aria-label="Board-specific **AQA** emphasises batch, real-time, and distributed systems. **Edexcel** and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** emphasises batch, real-time, and distributed systems. **Edexcel** and</p>
 **OCR (A)** focus on batch, real-time, and desktop/mobile. **CIE** covers real-time and distributed
 Systems in particular depth.
-:::
-
+</aside>
 <hr />
 
 ## 2. Process Management
@@ -244,11 +243,10 @@ $$\mathrm{Physical address} = \mathrm{SegmentTable}[\mathrm{segment}].\mathrm{ba
 
 If offset $\ge$ limit, a segmentation fault is raised.
 
-:::info Board-specific **AQA** and **OCR (A)** require understanding of both paging and
+<aside aria-label="Board-specific **AQA** and **OCR (A)** require understanding of both paging and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** and **OCR (A)** require understanding of both paging and</p>
 Segmentation. **Edexcel** focuses primarily on paging. **CIE** covers paging with address
 Translation in detail.
-:::
-
+</aside>
 ### TLB (Translation Lookaside Buffer)
 
 The TLB is a small, fast hardware cache that stores recent virtual-to-physical address translations.
@@ -414,10 +412,9 @@ The OS must manage updates to itself and installed software. Key concerns:
 - **Version compatibility** ensures updates do not break existing software
 - **Rollback** mechanisms allow reverting to a previous version if an update causes problems
 
-:::info Board-specific **AQA** and **Edexcel** specifically mention software updates and patch
+<aside aria-label="Board-specific **AQA** and **Edexcel** specifically mention software updates and patch" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** and **Edexcel** specifically mention software updates and patch</p>
 Management. **OCR (A)** and **CIE** may cover this under broader system security topics.
-:::
-
+</aside>
 ### Malware Protection
 
 The OS provides mechanisms to defend against malicious software:

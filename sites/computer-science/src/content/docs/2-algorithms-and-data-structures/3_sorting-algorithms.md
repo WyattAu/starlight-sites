@@ -233,7 +233,7 @@ into 1, reducing the number of runs by a factor of $k$. After $\log_k(N/M)$ pass
 run remains. Each pass reads and writes all $N$ bytes, so total I/O is $O(N \log_k(N/M))$.
 $\blacksquare$
 
-:::caution Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**
+<aside aria-label="Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**</p>
 sorting. Non-comparison sorts Like radix sort can achieve $O(n)$ time for integers in a bounded
 range. However, non-comparison sorts sacrifice generality: they depend on the structure of the keys
 and cannot sort arbitrary objects.
@@ -249,4 +249,4 @@ and cannot sort arbitrary objects.
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
 
 
-:::
+</aside>

@@ -75,7 +75,7 @@ The first-order correction is $E_n^{(1)} = V_0/2$ for all $n$. $\blacksquare$
 
 </details>
 
-:::caution Common Pitfall Perturbation theory assumes the perturbation is "small" compared to the
+<aside aria-label="Common Pitfall Perturbation theory assumes the perturbation is "small" compared to the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Perturbation theory assumes the perturbation is "small" compared to the</p>
 level spacing. If $|\langle m | H' | n \rangle| \sim |E_n^{(0)} - E_m^{(0)}|$The perturbation series
 may diverge. The Method also fails for systems where the unperturbed Hamiltonian has closely spaced
 or degenerate Levels that are not handled correctly.
@@ -213,4 +213,4 @@ theory.
 </details>
 
 
-:::
+</aside>

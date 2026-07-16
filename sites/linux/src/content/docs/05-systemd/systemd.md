@@ -409,9 +409,7 @@ MaxFileSec=1week          # rotate weekly
 ForwardToSyslog=yes       # also forward to traditional syslog
 ```
 
-:::caution
-
-By default, `systemd-journald` stores logs in `/var/log/journal/` (persistent). If the directory
+<aside aria-label="By default, `systemd-journald` stores logs in `/var/log/journal/` (persistent). If the directory" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>By default, `systemd-journald` stores logs in `/var/log/journal/` (persistent). If the directory</p>
 Does not exist, logs are stored in `/run/log/journal/` (volatile — lost on reboot). Ensure
 `/var/log/journal/` exists and has correct permissions (`systemd-tmpfiles --create`).
 
@@ -849,4 +847,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

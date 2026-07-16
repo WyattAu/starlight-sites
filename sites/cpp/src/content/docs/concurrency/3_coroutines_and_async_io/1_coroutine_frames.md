@@ -88,12 +88,11 @@ resumed
 step 3
 ```
 
-:::note The function `my_coroutine` is a coroutine because its body contains `co_await`. The
+<aside aria-label="The function `my_coroutine` is a coroutine because its body contains `co_await`. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The function `my_coroutine` is a coroutine because its body contains `co_await`. The</p>
 Compiler generates a `promise_type` lookup, allocates a coroutine frame, and transforms the function
 Body into a state machine. The `promise_type` member alias tells the compiler which promise type to
 Use [N4950 §9.5.2].
-:::
-
+</aside>
 ## Stackless vs Stackful Coroutines
 
 C++ chose **stackless coroutines** — the coroutine frame is a single heap-allocated block, not a
@@ -320,12 +319,11 @@ There are two guaranteed elision scenarios where the compiler **may not** alloca
 2. **When the coroutine result is prvalue and the promise's `get_return_object` returns a handle
    that does not escape.**
 
-:::caution The standard does not require that the compiler actually perform elision — it only
+<aside aria-label="The standard does not require that the compiler actually perform elision — it only" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The standard does not require that the compiler actually perform elision — it only</p>
 _permits_ it. In practice, most major compilers (GCC 12+, Clang 16+, MSVC 19.30+) do elide the
 Allocation in simple cases, but for complex promise types or when the handle escapes, heap
 Allocation occurs. Always profile if allocation overhead is a concern.
-:::
-
+</aside>
 ### Heap Allocation Elision (HALO)
 
 **Heap Allocation Elision Optimization** (HALO) is a compiler optimization that avoids heap
@@ -530,7 +528,7 @@ Calling `destroy()` on a handle triggers:
 After `destroy()`The handle becomes **invalid** — using it is undefined behavior [N4950 §21.4.4]. If
 `destroy()` is never called and no other mechanism cleans up, the frame leaks.
 
-:::tip RAII wrappers In production code, wrap `std::coroutine_handle` in an RAII type (e.g.,
+<aside aria-label="RAII wrappers In production code, wrap `std::coroutine_handle` in an RAII type (e.g.," class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>RAII wrappers In production code, wrap `std::coroutine_handle` in an RAII type (e.g.,</p>
 `std::unique_ptr` with a custom deleter, or a dedicated `coroutine` class) to ensure `destroy()` is
 Called even if an exception propagates.
 
@@ -771,4 +769,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

@@ -109,13 +109,12 @@ _Proof._ The map $H \times K \to HK$ given by $(h, k) \mapsto hk$ is surjective.
 $x = hk \in HK$ The fiber is $\{(hc^{-1}, ck) : c \in H \cap K\}$Which has size $|H \cap K|$. Thus
 $|H||K| = |HK| \cdot |H \cap K|$. $\blacksquare$
 
-:::caution Common Pitfall The product $HK$ need not be a subgroup . However, $HK$ is always a
+<aside aria-label="Common Pitfall The product $HK$ need not be a subgroup . However, $HK$ is always a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The product $HK$ need not be a subgroup . However, $HK$ is always a</p>
 subgroup when $H$ or $K$ is normal. In that case, $|HK| = |H||K|/|H \cap K|$ also divides $|G|$ by
 Lagrange.
 
 
-:::
-
+</aside>
 ### 3.6 Common Pitfalls
 
 - **Confusing index with order.** The index $[G:H]$ is the number of cosets, not the order of $H$.

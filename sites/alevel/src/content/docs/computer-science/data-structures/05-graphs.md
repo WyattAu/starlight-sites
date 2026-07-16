@@ -97,16 +97,14 @@ class Graph:
 | Sparse graphs | Wasteful         | Efficient         |
 | Dense graphs  | Efficient        | Slightly slower   |
 
-:::info Board-specific
-
+<aside aria-label="Board-specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific</p>
 - **AQA** requires adjacency matrix and adjacency list representations; Dijkstra"s algorithm for
   shortest path
 - **CIE (9618)** requires graph representations and traversal; may include minimum spanning tree
   algorithms (Kruskal's, Prim's)
 - **OCR (A)** requires adjacency matrix/list; Dijkstra's, Kruskal's, and Prim's algorithms
 - **Edexcel** covers basic graph representations and traversals
-:::
-
+</aside>
 <hr />
 
 ## 3. Graph Traversals

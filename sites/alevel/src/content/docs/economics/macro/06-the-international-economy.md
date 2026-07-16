@@ -12,13 +12,12 @@ categories:
 
 ## 1. International Trade: Comparative Advantage
 
-:::info Board-Specific Note **CIE (9708)** requires formal proof of comparative advantage using
+<aside aria-label="Board-Specific Note **CIE (9708)** requires formal proof of comparative advantage using" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note **CIE (9708)** requires formal proof of comparative advantage using</p>
 Numerical examples and covers the Ricardian and Heckscher-Ohlin models. **AQA** focuses on the gains
 From trade and limitations of the comparative advantage model. **Edexcel** emphasises diagrammatic
 Analysis of trade flows and the UK"s trade relationships. **OCR (A)** covers trade theory alongside
 The impact of MNCs and requires evaluation of trade policies.
-:::
-
+</aside>
 ### 1.1 Absolute vs Comparative Advantage
 
 **Absolute advantage**: a country can produce more of a good with the same resources than another
@@ -85,11 +84,10 @@ For example, at $p = 1$ (1 unit of Wine for 1 unit of Cloth):
 
 Both are strictly better off. $\blacksquare$
 
-:::tip Tip Costs for both countries, (2) identify which country has the lower OC for each good, (3)
+<aside aria-label="Tip Costs for both countries, (2) identify which country has the lower OC for each good, (3)" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Costs for both countries, (2) identify which country has the lower OC for each good, (3)</p>
 show Specialisation increases world output, (4) show a mutually beneficial exchange rate. Use a
 numerical Example.
-:::
-
+</aside>
 ### 1.3 Limitations of the Ricardian Model
 
 1. **Constant returns to scale**: assumes constant opportunity costs (linear PPF). In reality,
@@ -148,20 +146,18 @@ Buy the same quantity of imports as in 2020.
 | Inflation differentials                 | If domestic inflation > trading partners' inflation → ToT deteriorates |
 | Technological progress in export sector | Unit costs fall → export prices may fall → ToT deteriorates            |
 
-:::caution Warning Deterioration is caused by cheaper imports (e.g., due to technological progress
+<aside aria-label="Warning Deterioration is caused by cheaper imports (e.g., due to technological progress" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Deterioration is caused by cheaper imports (e.g., due to technological progress</p>
 abroad), consumers Benefit from lower prices. Conversely, an improvement caused by a fall in export
 volumes (due to Declining competitiveness) may actually reflect economic weakness.
-:::
-
+</aside>
 ## 3. Exchange Rates
 
-:::info Info Marshall-Lerner condition, and J-curve effects. **CIE (9708)** covers exchange rate
+<aside aria-label="Info Marshall-Lerner condition, and J-curve effects. **CIE (9708)** covers exchange rate" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Marshall-Lerner condition, and J-curve effects. **CIE (9708)** covers exchange rate</p>
 determination, Purchasing power parity, and the effects of exchange rate changes on the balance of
 payments. **Edexcel** emphasises the UK context including Brexit impacts on trade and the pound.
 **OCR (A)** Links exchange rates to macroeconomic policy objectives and requires evaluation of
 intervention.
-:::
-
+</aside>
 ### 3.1 Definition
 
 The **exchange rate** is the price of one currency in terms of another.
@@ -281,11 +277,10 @@ The path of the current account traces a **J-shape**:
 
 $$CA \mathrm{ falls initially, then rises above the starting level}$$
 
-:::tip Tip Distinguish between the short run (J-curve — CA may worsen) and the long run
+<aside aria-label="Tip Distinguish between the short run (J-curve — CA may worsen) and the long run" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Distinguish between the short run (J-curve — CA may worsen) and the long run</p>
 (Marshall-Lerner — CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
 explicitly.
-:::
-
+</aside>
 ## 5. Globalisation
 
 ### 5.1 Definition
@@ -363,11 +358,10 @@ War, reshoring) reflects these tensions.
 - **Genuine Progress Indicator (GPI)**: adjusts GDP for environmental costs, inequality, and unpaid
   work
 
-:::caution Warning Ignores income distribution, (2) it doesn't capture health, education, or
+<aside aria-label="Warning Ignores income distribution, (2) it doesn't capture health, education, or" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Ignores income distribution, (2) it doesn't capture health, education, or</p>
 political freedom, (3) it Is biased toward market activity (excludes subsistence farming, unpaid
 work). Always use multiple Indicators.
-:::
-
+</aside>
 ### 6.2 Barriers to Economic Development
 
 1. **Poverty trap**: low income → low savings → low investment → low growth → low income (vicious
@@ -548,8 +542,7 @@ Comparative advantage: leaving the EU's single market means the UK faces tariffs
 </details>
 
 
-:::danger Common Pitfalls
-
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Confusing absolute and comparative advantage:** A country with absolute advantage in BOTH goods
   still benefits from trade based on comparative advantage (lower opportunity cost). Students often
   incorrectly conclude that a country with absolute disadvantage in everything should not trade.
@@ -1166,4 +1159,4 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-:::
+</aside>

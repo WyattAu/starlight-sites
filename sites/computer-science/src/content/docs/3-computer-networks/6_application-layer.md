@@ -237,9 +237,9 @@ _Proof._ The sender cannot have more than the window size in unacknowledged data
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
 Per second. $\blacksquare$
 
-:::caution Common Pitfall DNS uses both TCP and UDP. Queries use UDP port 53 (for efficiency). TCP
+<aside aria-label="Common Pitfall DNS uses both TCP and UDP. Queries use UDP port 53 (for efficiency). TCP" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall DNS uses both TCP and UDP. Queries use UDP port 53 (for efficiency). TCP</p>
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
 
 
-:::
+</aside>

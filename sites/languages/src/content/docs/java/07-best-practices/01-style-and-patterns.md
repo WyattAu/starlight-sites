@@ -118,14 +118,13 @@ String pName;   // unclear
 long t;         // meaningless
 ```
 
-:::info JLS Reference
+<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
 [JLS §6.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.1) defines the rules
 For declaring names.
 [JLS §3.8](https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.8) defines what
 Constitutes a valid identifier. Unicode characters are permitted, but ASCII identifiers are the de
 Facto standard.
-:::
-
+</aside>
 ## Code Organization
 
 ### Package Structure
@@ -166,10 +165,9 @@ Modify are in a single package. In layer-first packaging, a change to `User` mig
 Across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
 apart in the tree.
 
-:::tip Recommendation Use feature-first packaging for any project with more than two bounded
+<aside aria-label="Recommendation Use feature-first packaging for any project with more than two bounded" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Recommendation Use feature-first packaging for any project with more than two bounded</p>
 Contexts. For small projects or libraries, layer-first packaging remains acceptable.
-:::
-
+</aside>
 ### Class Structure
 
 The conventional ordering of members within a class, as recommended by the Google Java Style Guide:
@@ -276,12 +274,11 @@ tasks.test {
 }
 ```
 
-:::tip Recommendation Use Gradle with the Kotlin DSL for new projects. Gradle's build cache,
+<aside aria-label="Recommendation Use Gradle with the Kotlin DSL for new projects. Gradle's build cache," class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Recommendation Use Gradle with the Kotlin DSL for new projects. Gradle's build cache,</p>
 Incremental compilation, and configuration avoidance yield measurable performance improvements, and
 The Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
 Enterprise infrastructure that requires it, or when team familiarity makes the trade-off clear.
-:::
-
+</aside>
 ### Dependency Management
 
 #### Dependency Scopes
@@ -472,12 +469,11 @@ The `verify` API with `never()` ensures that when an operation fails partway thr
 Effects leak through. The `argThat` matcher enables assertions on the arguments passed to
 Collaborators without requiring an equality implementation that may not exist on the domain object.
 
-:::caution Over-Mocking If a test requires more than three mocks, the unit under test likely has too
+<aside aria-label="Over-Mocking If a test requires more than three mocks, the unit under test likely has too" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Over-Mocking If a test requires more than three mocks, the unit under test likely has too</p>
 Many responsibilities. Restructure the code rather than adding more mocks. Tests that mock
 Extensively tend to be brittle: they break when implementation details change even when the
 Externally observable behavior is correct.
-:::
-
+</aside>
 ## Logging
 
 ### java.util.logging (JUL)
@@ -555,11 +551,10 @@ Unconditionally, wasting CPU cycles and allocating objects that are immediately 
 </configuration>
 ```
 
-:::tip Recommendation Always use SLF4J for application logging. Use JUL only in library code where
+<aside aria-label="Recommendation Always use SLF4J for application logging. Use JUL only in library code where" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Recommendation Always use SLF4J for application logging. Use JUL only in library code where</p>
 Adding external dependencies is undesirable. Never use `System.out.println` for logging in
 Production code; it cannot be filtered by log level, redirected to files, or formatted consistently.
-:::
-
+</aside>
 ## Design Patterns
 
 ### Singleton
@@ -593,13 +588,12 @@ By serialized field data). A traditional class-based singleton with a private co
 Broken by reflection (`Constructor.setAccessible(true)`) and by deserialization (which creates a new
 Instance unless `readResolve` is implemented).
 
-:::caution When to Use Singleton Singletons are appropriate for stateless service objects and
+<aside aria-label="When to Use Singleton Singletons are appropriate for stateless service objects and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>When to Use Singleton Singletons are appropriate for stateless service objects and</p>
 Expensive resources (connection pools, thread pools). They are inappropriate for stateful objects
 That represent business domain concepts, because a global mutable singleton is essentially a hidden
 Global variable that makes testing difficult and introduces hidden coupling between unrelated parts
 Of the codebase.
-:::
-
+</aside>
 ### Factory
 
 The Factory pattern encapsulates object creation behind an interface, decoupling the client from the
@@ -1343,7 +1337,7 @@ Total memory, which causes containers to be killed by the OOM killer:
 -XX:InitialRAMPercentage=50.0
 ```
 
-:::caution Production Advice Never set `-XX:+AlwaysPreTouch` without understanding its implications.
+<aside aria-label="Production Advice Never set `-XX:+AlwaysPreTouch` without understanding its implications." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Production Advice Never set `-XX:+AlwaysPreTouch` without understanding its implications.</p>
 This flag touches every page in the heap at JVM startup, which forces the operating system to
 Allocate physical memory for the entire heap immediately. It eliminates page fault pauses during
 Runtime, but it delays startup and can cause the container to be killed if the memory limit is
@@ -1373,4 +1367,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

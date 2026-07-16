@@ -12,10 +12,9 @@ categories: [Mathematics]
 This document extends the core probability material with rigorous treatments of conditional
 Probability, independence, Venn diagrams, tree diagrams, and Bayes" theorem.
 
-:::info Probability problems reward careful notation and clear event definitions. Always define your
+<aside aria-label="Probability problems reward careful notation and clear event definitions. Always define your" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Probability problems reward careful notation and clear event definitions. Always define your</p>
 events Explicitly before writing any equations.
-:::
-
+</aside>
 <hr />
 
 ## 1. Conditional Probability
@@ -110,11 +109,10 @@ $$= \frac◆LB◆0.95 \times 0.01◆RB◆◆LB◆0.95 \times 0.01 + 0.10 \times 
 
 So even with a positive test, there is only about an 8.8% chance of having the disease.
 
-:::caution Warning This counterintuitive result arises because the disease is rare. The number of
+<aside aria-label="Warning This counterintuitive result arises because the disease is rare. The number of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning This counterintuitive result arises because the disease is rare. The number of</p>
 false positives far Exceeds the number of true positives. This is the **base rate fallacy** --
 ignoring the prior Probability of the condition.
-:::
-
+</aside>
 ### 2.4 Worked example: factory with three machines
 
 **Problem.** A factory has three machines producing bolts. Machine 1 produces 50%, Machine 2
@@ -271,7 +269,7 @@ $$P(A' \cap B') = P((A \cup B)') = 1 - P(A \cup B) = 1 - P(A) - P(B) + P(A)P(B)$
 
 $$= (1 - P(A))(1 - P(B)) = P(A') \cdot P(B') \quad \blacksquare$$
 
-:::caution Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$
+<aside aria-label="Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning "Independent" and "mutually exclusive" are different concepts. In fact, if $A$</p>
 and $B$ are both Non-trivial (positive probability) and mutually exclusive, they **cannot** be
 independent: $P(A \cap B) = 0 \neq P(A)P(B)$.
 
@@ -412,4 +410,4 @@ $\blacksquare$
 - Total probability: $P(B) = \sum P(B|A_i)P(A_i)$ partitions the sample space.
 - Tree diagrams organise multi-stage probability calculations systematically.
 
-:::
+</aside>

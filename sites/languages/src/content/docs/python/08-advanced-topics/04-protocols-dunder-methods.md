@@ -33,11 +33,10 @@ s2 = Singleton()
 print(s1 is s2)  # True
 ```
 
-:::info `__new__` is a static method (receives the class, not the instance). It is rarely
+<aside aria-label="`__new__` is a static method (receives the class, not the instance). It is rarely" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`__new__` is a static method (receives the class, not the instance). It is rarely</p>
 Overridden. Use cases include: singletons, immutable types that need pre-initialization validation,
 And subclassing immutable built-in types like `str` and `int`.
-:::
-
+</aside>
 ### \_\_repr\_\_ and \_\_str\_\_
 
 ```python
@@ -119,11 +118,10 @@ versions = {v1: "stable"}
 print(versions[v2])  # "stable"
 ```
 
-:::caution If you define `__eq__` without `__hash__`Python sets `__hash__ = None`Making the Object
+<aside aria-label="If you define `__eq__` without `__hash__`Python sets `__hash__ = None`Making the Object" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you define `__eq__` without `__hash__`Python sets `__hash__ = None`Making the Object</p>
 unhashable. If you define `__hash__` without `__eq__`Objects may compare equal but hash Differently,
 breaking dict and set invariants.
-:::
-
+</aside>
 ### Rich Comparison
 
 ```python
@@ -519,11 +517,10 @@ c += 5        # Counter with value 15 (same object)
 c += Counter(5)  # Counter with value 20
 ```
 
-:::caution If `__iadd__` is not defined, Python falls back to `__add__` and assigns the result:
+<aside aria-label="If `__iadd__` is not defined, Python falls back to `__add__` and assigns the result:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If `__iadd__` is not defined, Python falls back to `__add__` and assigns the result:</p>
 `c = c + other`. This creates a new object. Define `__iadd__` when you want in-place mutation for
 Performance.
-:::
-
+</aside>
 ## Bitwise Protocols
 
 ```python
@@ -777,10 +774,9 @@ mk.value = 2  # Mutate after insertion
 print(mk in s)  # May be False — hash changed but position didn't
 ```
 
-:::danger Never mutate objects that are used as dict keys or set members. If mutability is needed,
+<aside aria-label="Never mutate objects that are used as dict keys or set members. If mutability is needed," class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never mutate objects that are used as dict keys or set members. If mutability is needed,</p>
 Use immutable snapshots or compute hash from immutable attributes.
-:::
-
+</aside>
 ### 5. \_\_del\_\_ and Circular References
 
 ```python

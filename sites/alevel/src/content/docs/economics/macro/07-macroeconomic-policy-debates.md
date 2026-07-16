@@ -64,12 +64,11 @@ $$\pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y$$
 | Self-correction         | Slow or non-existent                     | Automatic, though may take time                              |
 | Government intervention | Essential for stability                  | Minimise — rules-based policy                                |
 
-:::info Board-Specific Note The Keynesian-monetarist debate is a staple of A-Level economics. CIE
+<aside aria-label="Board-Specific Note The Keynesian-monetarist debate is a staple of A-Level economics. CIE" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note The Keynesian-monetarist debate is a staple of A-Level economics. CIE</p>
 (9708) Paper 4 often asks students to evaluate the effectiveness of demand-side policies, requiring
 Them to contrast Keynesian and monetarist perspectives. Edexcel requires students to discuss the
 "battle of the economists" in the context of policy debates.
-:::
-
+</aside>
 ### 1.4 Evaluation: The Keynesian-Monetarist Debate in Practice
 
 In practice, modern macroeconomic policy represents a **synthesis** of both views. The post-2008
@@ -202,13 +201,12 @@ Most modern central banks use **inflation targeting with discretion**:
 
 $$\mathrm{UK (1992–present), NZ (1990–present), Canada (1991–present), Eurozone (2003–present)}$$
 
-:::info Info Monetary policy and may require discussion of the transmission mechanism. Edexcel
+<aside aria-label="Info Monetary policy and may require discussion of the transmission mechanism. Edexcel" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Monetary policy and may require discussion of the transmission mechanism. Edexcel</p>
 (Paper 3) often Asks about the role of central bank independence in achieving macroeconomic
 objectives. OCR (Paper 3) may ask students to compare different monetary policy frameworks. CIE
 (9708) Paper 4 Expects students to evaluate the relative merits of rules vs discretion with
 reference to specific Country examples.
-:::
-
+</aside>
 ## 3. The Lucas Critique
 
 ### 3.1 Statement
@@ -446,13 +444,12 @@ Governments a "blank cheque" risks fiscal profligacy and loss of market confiden
 Apply to countries that borrow in foreign currency (emerging markets — most developing countries).
 (5) Assumes away the crowding out channel and Ricardian equivalence too casually.
 
-:::caution Common Pitfall MMT is often caricatured as "deficits don't matter." This is a
+<aside aria-label="Common Pitfall MMT is often caricatured as "deficits don't matter." This is a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall MMT is often caricatured as "deficits don't matter." This is a</p>
 Misrepresentation. MMT argues that deficits should be used to achieve real objectives (full
 Employment) and that the only constraint is inflation. It does not claim that unlimited deficits are
 Harmless. However, the practical difficulty of knowing when inflation will emerge makes MMT's policy
 Prescriptions risky.
-:::
-
+</aside>
 ### 5.3 Exam Technique: Evaluating Policy Frameworks
 
 When evaluating any macroeconomic policy framework (inflation targeting, MMT, fiscal rules), use the
@@ -522,13 +519,12 @@ Dollar, partially crowding out the fiscal stimulus.
 Amplified. When they pull in opposite directions, they partially offset each other, and the net
 Effect depends on the relative strength of each.
 
-:::info Board-Specific Note AQA Paper 2 (Section B) often requires students to evaluate the
+<aside aria-label="Board-Specific Note AQA Paper 2 (Section B) often requires students to evaluate the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA Paper 2 (Section B) often requires students to evaluate the</p>
 Effectiveness of policy mixes. Edexcel Paper 3 expects discussion of policy conflicts and
 Trade-offs. OCR may ask about the role of the Treasury and `` `{BoE}` `` in coordinating policy. CIE
 Paper 4 frequently asks students to assess whether government intervention can achieve multiple
 Macroeconomic objectives simultaneously.
-:::
-
+</aside>
 ## 7. Nominal GDP Targeting: An Alternative Framework
 
 ### 7.1 Concept
@@ -710,8 +706,7 @@ Complete regime change.
 </details>
 
 
-:::danger Danger
-
+<aside aria-label="Danger" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Danger</p>
 - **Treating Keynesianism and monetarism as mutually exclusive:** Modern macroeconomic policy is a
   synthesis of both views. Keynesian demand management is appropriate during recessions (especially
   at the zero lower bound), while monetarist concerns about inflation dominate near full employment.
@@ -1394,4 +1389,4 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-:::
+</aside>

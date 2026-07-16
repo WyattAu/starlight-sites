@@ -12,11 +12,10 @@ categories: [Mathematics]
 This document covers scatter diagrams, the product moment correlation coefficient, Spearman's rank
 Correlation, least squares regression, and residual analysis.
 
-:::info Correlation measures the strength of a linear association. It does not imply causation, and
+<aside aria-label="Correlation measures the strength of a linear association. It does not imply causation, and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Correlation measures the strength of a linear association. It does not imply causation, and</p>
 it Does not capture non-linear relationships. Always plot your data before interpreting correlation
 Values.
-:::
-
+</aside>
 <hr />
 
 ## 1. Scatter Diagrams
@@ -50,10 +49,9 @@ An **outlier** is a data point that lies far from the general pattern. Outliers 
 - Result from measurement errors.
 - Significantly affect the correlation coefficient and regression line.
 
-:::caution Common Pitfall A single outlier can dramatically change the value of the correlation
+<aside aria-label="Common Pitfall A single outlier can dramatically change the value of the correlation" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A single outlier can dramatically change the value of the correlation</p>
 coefficient. Always examine Your scatter diagram before relying on numerical measures.
-:::
-
+</aside>
 <hr />
 
 ## 2. Product Moment Correlation Coefficient (PMCC)
@@ -253,7 +251,7 @@ Minimises vertical residuals; the line of $x$ on $y$ minimises horizontal residu
 4. The model assumes the residuals are independent and normally distributed with constant variance
    (homoscedasticity).
 
-:::caution Warning Do not use the regression line of $y$ on $x$ to predict $x$ from a given $y$Or
+<aside aria-label="Warning Do not use the regression line of $y$ on $x$ to predict $x$ from a given $y$Or" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Do not use the regression line of $y$ on $x$ to predict $x$ from a given $y$Or</p>
 vice versa. Use the appropriate regression line for the direction of prediction.
 
 <hr />
@@ -440,4 +438,4 @@ $\blacksquare$
   non-linearity.
 - Correlation does not imply causation; always inspect scatter diagrams before interpreting $r$.
 
-:::
+</aside>

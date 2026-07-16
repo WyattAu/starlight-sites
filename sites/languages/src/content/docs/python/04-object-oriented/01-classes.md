@@ -134,9 +134,7 @@ print(b.species)     # Canis familiaris (class dict)
 print(Dog.species)   # Canis familiaris (unchanged)
 ```
 
-:::danger
-
-A common trap: mutable class variables are shared by reference. If you mutate (rather than reassign)
+<aside aria-label="A common trap: mutable class variables are shared by reference. If you mutate (rather than reassign)" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>A common trap: mutable class variables are shared by reference. If you mutate (rather than reassign)</p>
 A class variable through an instance, the mutation is visible to all instances.
 
 ```python
@@ -223,10 +221,8 @@ class Math:
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
 Not need either, making it static is a signal to readers and static analysis tools.
 
-:::
-:::info
-
-The distinction between class methods and static methods is more than cosmetic. A class method can
+</aside>
+<aside aria-label="The distinction between class methods and static methods is more than cosmetic. A class method can" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The distinction between class methods and static methods is more than cosmetic. A class method can</p>
 Be overridden in a subclass and dispatch to the correct class via `cls`. A static method cannot --
 It is a plain function that happens to live in a class namespace.
 
@@ -483,10 +479,8 @@ class EnhancedUser(JsonMixin, CsvMixin, User):
 This ordering ensures that mixin methods can override or wrap the primary class's methods, and that
 `super()` calls propagate through the mixins before reaching the primary class.
 
-:::
-:::danger
-
-Avoid the "diamond of death" pattern where two mixins both call `super().__init__()` but the primary
+</aside>
+<aside aria-label="Avoid the "diamond of death" pattern where two mixins both call `super().__init__()` but the primary" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Avoid the "diamond of death" pattern where two mixins both call `super().__init__()` but the primary</p>
 Class does not account for cooperative initialization. If you use mixins with `__init__`Every Class
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
 Arguments it does not need.
@@ -621,10 +615,8 @@ Returning `NotImplemented` (not `False`) when the other operand has an incompati
 Python to try the reflected operation on the other operand. Returning `False` would prevent this
 Fallback.
 
-:::
-:::danger
-
-If you define `__eq__`Python sets `__hash__` to `None` by default. This makes instances unhashable
+</aside>
+<aside aria-label="If you define `__eq__`Python sets `__hash__` to `None` by default. This makes instances unhashable" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>If you define `__eq__`Python sets `__hash__` to `None` by default. This makes instances unhashable</p>
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
 Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
 Data corruption in sets and dicts.
@@ -811,11 +803,8 @@ print(p.x)  # 1
 p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 ```
 
-:::
-:::danger
-
-`__slots__` has significant limitations:
-
+</aside>
+<aside aria-label="`__slots__` has significant limitations:" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`__slots__` has significant limitations:</p>
 1. Instances cannot have attributes not listed in `__slots__` (no dynamic attribute assignment).
 2. Each class in an inheritance hierarchy must define its own `__slots__`. If a base class omits
    `__slots__`Subclasses gain a `__dict__` regardless.
@@ -1062,4 +1051,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

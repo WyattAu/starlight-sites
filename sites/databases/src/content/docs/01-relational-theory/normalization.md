@@ -58,9 +58,7 @@ Denormalized schema:
   - Higher storage cost
 ```
 
-:::info
-
-The default starting point for any OLTP system is 3NF. Denormalize only after measuring a specific
+<aside aria-label="The default starting point for any OLTP system is 3NF. Denormalize only after measuring a specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The default starting point for any OLTP system is 3NF. Denormalize only after measuring a specific</p>
 Performance bottleneck and understanding the consistency cost. Premature denormalization creates
 Maintenance debt that compounds over time.
 
@@ -332,10 +330,8 @@ Step 3: Remove redundant attributes:
   Final minimal cover: {A -> C, C -> B}
 ```
 
-:::
-:::caution
-
-The order in which you process FDs in step 3 can yield different (but equivalent) minimal covers.
+</aside>
+<aside aria-label="The order in which you process FDs in step 3 can yield different (but equivalent) minimal covers." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The order in which you process FDs in step 3 can yield different (but equivalent) minimal covers.</p>
 This is expected. Different minimal covers may lead to different decompositions, but all are
 Correct.
 
@@ -377,10 +373,8 @@ Satisfies 1NF:
 | 2          | Bob   | Chemistry|
 ```
 
-:::
-:::info
-
-SQL databases that support array types (PostgreSQL `INTEGER[]`JSONB) technically allow violations Of
+</aside>
+<aside aria-label="SQL databases that support array types (PostgreSQL `INTEGER[]`JSONB) technically allow violations Of" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>SQL databases that support array types (PostgreSQL `INTEGER[]`JSONB) technically allow violations Of</p>
 1NF. This is a pragmatic extension. Use these types when the array is opaque data that you never
 Need to query or join on individually. If you need to query individual elements or enforce
 Referential integrity, model them as separate rows.
@@ -397,10 +391,8 @@ A **non-prime attribute** is an attribute that does not belong to any candidate 
 Dependency** exists when a non-prime attribute depends on only a proper subset of a candidate key
 (rather than the entire key).
 
-:::
-:::caution
-
-2NF is only relevant for relations with composite candidate keys (keys consisting of two or more
+</aside>
+<aside aria-label="2NF is only relevant for relations with composite candidate keys (keys consisting of two or more" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>2NF is only relevant for relations with composite candidate keys (keys consisting of two or more</p>
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
 Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
 
@@ -540,10 +532,8 @@ BCNF decomposition:
     This dependency cannot be checked on R1 or R2 alone without joining them.
 ```
 
-:::
-:::caution
-
-This example demonstrates the fundamental tension between BCNF and dependency preservation. The
+</aside>
+<aside aria-label="This example demonstrates the fundamental tension between BCNF and dependency preservation. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>This example demonstrates the fundamental tension between BCNF and dependency preservation. The</p>
 Decomposition is lossless (you can reconstruct the original data) but not dependency-preserving (the
 Constraint that a student has one instructor per course cannot be enforced on either decomposed
 Table alone). In practice, you either stay in 3NF or enforce the lost dependency via application
@@ -592,10 +582,8 @@ Decomposition:
   EmployeeLanguage(emp_id, language)  -- key: {emp_id, language}
 ```
 
-:::
-:::info
-
-4NF violations are rare in practice. They appear when modeling entity-attribute-value Patterns or
+</aside>
+<aside aria-label="4NF violations are rare in practice. They appear when modeling entity-attribute-value Patterns or" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>4NF violations are rare in practice. They appear when modeling entity-attribute-value Patterns or</p>
 when a single entity has multiple independent multi-valued attributes. If you see a Table where
 adding a row requires adding $m \times n$ rows (for $m$ values of one attribute and $n$ Values of
 another), you likely have a 4NF violation.
@@ -977,10 +965,8 @@ BCNF decomposition:
   But the duplication involves only prime attributes, so it is bounded.
 ```
 
-:::
-:::info
-
-The practical rule: always decompose to 3NF. If a relation is not in BCNF, check whether the BCNF
+</aside>
+<aside aria-label="The practical rule: always decompose to 3NF. If a relation is not in BCNF, check whether the BCNF" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The practical rule: always decompose to 3NF. If a relation is not in BCNF, check whether the BCNF</p>
 Decomposition loses dependency preservation. If it does, and the lost dependency is important for
 Data integrity, stay in 3NF. If the lost dependency is trivial or can be enforced through
 Application logic, proceed with BCNF.
@@ -1037,10 +1023,8 @@ With surrogate key:
   But you still need UNIQUE(order_id, product_id) to prevent duplicates.
 ```
 
-:::
-:::caution
-
-Surrogate keys do not eliminate the need for normalization. They make 2NF automatic, but 3NF
+</aside>
+<aside aria-label="Surrogate keys do not eliminate the need for normalization. They make 2NF automatic, but 3NF" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Surrogate keys do not eliminate the need for normalization. They make 2NF automatic, but 3NF</p>
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
 And model functional dependencies correctly.
 
@@ -1168,10 +1152,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
 
-:::
-:::caution
-
-The most dangerous denormalization pattern is "silent duplication" -- copying data without any
+</aside>
+<aside aria-label="The most dangerous denormalization pattern is "silent duplication" -- copying data without any" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The most dangerous denormalization pattern is "silent duplication" -- copying data without any</p>
 Mechanism to keep it consistent. If you denormalize, you must have a concrete strategy for
 Consistency: database triggers, application-level event handlers, or periodic reconciliation jobs.
 Unmaintained denormalized data silently rots and becomes a source of bugs.
@@ -1694,4 +1676,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

@@ -89,9 +89,7 @@ grep --color=always "pattern" file
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
 
-:::caution
-
-In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\` to get Their
+<aside aria-label="In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\` to get Their" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\` to get Their</p>
 special meaning. In ERE, the reverse is true — they are special by default and must be escaped To be
 literal. This is a frequent source of confusion.
 
@@ -385,10 +383,8 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
 
-:::
-:::caution
-
-Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain
+</aside>
+<aside aria-label="Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain</p>
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
 Handle these cases correctly.
 
@@ -582,10 +578,8 @@ rsync -av --partial --progress /source/large_file /dest/
 rsync -av --bwlimit=1000 /source/ user@host:/dest/
 ```
 
-:::
-:::tip
-
-Always use trailing slashes on source paths in rsync. `/source/` means "contents of source", while
+</aside>
+<aside aria-label="Always use trailing slashes on source paths in rsync. `/source/` means "contents of source", while" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always use trailing slashes on source paths in rsync. `/source/` means "contents of source", while</p>
 `/source` means "source directory itself". The difference is whether the source directory name is
 Created in the destination.
 
@@ -668,10 +662,8 @@ chmod +t /tmp
 chmod 4755 /usr/local/bin/custom_tool
 ```
 
-:::
-:::caution
-
-SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users
+</aside>
+<aside aria-label="SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users</p>
 Can be used for privilege escalation. Audit SUID files regularly:
 
 ```bash
@@ -913,4 +905,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

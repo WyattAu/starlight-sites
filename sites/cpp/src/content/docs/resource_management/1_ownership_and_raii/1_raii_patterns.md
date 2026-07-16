@@ -84,10 +84,9 @@ void process_file(const char* path) {
 }
 ```
 
-:::note Relevance RAII is why C++ programs do not need `try`/`finally` blocks. The destructor **is**
+<aside aria-label="Relevance RAII is why C++ programs do not need `try`/`finally` blocks. The destructor **is**" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance RAII is why C++ programs do not need `try`/`finally` blocks. The destructor **is**</p>
 The `finally`. This is the mechanism that enables exception-safe code without manual cleanup.
-:::
-
+</aside>
 ## 1.3 MutexLock Example
 
 ```cpp
@@ -110,10 +109,9 @@ void thread_safe_operation(std::mutex& mtx) {
 }
 ```
 
-:::tip In production code, prefer `std::lock_guard` or `std::scoped_lock` (C++17) over a hand-rolled
+<aside aria-label="In production code, prefer `std::lock_guard` or `std::scoped_lock` (C++17) over a hand-rolled" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>In production code, prefer `std::lock_guard` or `std::scoped_lock` (C++17) over a hand-rolled</p>
 MutexLock. They are the standard library's RAII wrappers for mutexes.
-:::
-
+</aside>
 ## 1.4 Standard Library RAII Wrappers
 
 The C++ standard library provides RAII wrappers for the most common resource types. Using these
@@ -256,11 +254,10 @@ private:
 };
 ```
 
-:::note The move constructor and move assignment operator transfer ownership of the file descriptor.
+<aside aria-label="The move constructor and move assignment operator transfer ownership of the file descriptor." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The move constructor and move assignment operator transfer ownership of the file descriptor.</p>
 The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
 For move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
-:::
-
+</aside>
 ## 1.6 Database Connection Wrapper
 
 Database connections are another resource that benefits from RAII. A connection that is not
@@ -419,12 +416,11 @@ RAII is strictly more general than GC. GC only manages memory; RAII manages **an
 Deterministic cleanup. A GC language like Java still needs `try`-with-resources or `using` blocks
 For non-memory resources (files, sockets, locks). In C++, RAII handles all of these uniformly.
 
-:::note The C++ destructor model is what makes RAII possible. Objects with automatic storage
+<aside aria-label="The C++ destructor model is what makes RAII possible. Objects with automatic storage" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The C++ destructor model is what makes RAII possible. Objects with automatic storage</p>
 Duration are destroyed in reverse order of construction when the scope exits, whether by normal flow
 Of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
 Convention.
-:::
-
+</aside>
 ## 1.10 RAII Rule of Thumb
 
 **Every resource acquisition should be wrapped in an RAII type.** If you write a raw call to `new`

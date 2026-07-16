@@ -118,12 +118,11 @@ public class SafePublisher {
 }
 ```
 
-:::caution Publication via a normal (non-volatile, non-final) field is never safe. Even if Thread A
+<aside aria-label="Publication via a normal (non-volatile, non-final) field is never safe. Even if Thread A" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Publication via a normal (non-volatile, non-final) field is never safe. Even if Thread A</p>
 writes the reference after constructing the object, the JIT compiler may reorder the write to
 `holder` before the writes to the object's fields during construction. This is not theoretical -- it
 has been observed in practice on x86, ARM, and every major architecture.
-:::
-
+</aside>
 ## Threads
 
 ### Thread Creation: Runnable and Callable
@@ -219,12 +218,11 @@ stateDiagram-v2
 | **TIMED_WAITING** | Thread is waiting for another thread to perform an action, but with a specified maximum wait time.                       |
 | **TERMINATED**    | Thread has completed execution of its `run()` method.                                                                    |
 
-:::info `RUNNABLE` in the JVM state machine does not distinguish between "currently executing on a
+<aside aria-label="`RUNNABLE` in the JVM state machine does not distinguish between "currently executing on a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`RUNNABLE` in the JVM state machine does not distinguish between "currently executing on a</p>
 CPU core" and "ready to execute but waiting for CPU time." The JVM delegates scheduling to the
 operating system, and the OS distinguishes between these two conditions (running vs. Runnable in the
 OS run queue). From the JVM's perspective, both are `RUNNABLE`.
-:::
-
+</aside>
 ## Synchronized
 
 ### Intrinsic Locks (Monitors)
@@ -341,12 +339,11 @@ public class BoundedBuffer<V> {
 }
 ```
 
-:::caution Always use `wait()` inside a `while` loop, never an `if` statement. The JMM permits
+<aside aria-label="Always use `wait()` inside a `while` loop, never an `if` statement. The JMM permits" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `wait()` inside a `while` loop, never an `if` statement. The JMM permits</p>
 **spurious wakeups** -- a thread may return from `wait()` without `notify()` or `notifyAll()` being
 called. The condition must be re-checked after every wakeup. This is not a theoretical concern; it
 is mandated by the POSIX specification and the JLS.
-:::
-
+</aside>
 ## Volatile
 
 The `volatile` keyword provides a lighter-weight synchronization mechanism than `synchronized`. A
@@ -464,12 +461,11 @@ fixedPool.awaitTermination(10, TimeUnit.SECONDS);
 fixedPool.shutdownNow();  // forceful shutdown -- interrupts running tasks
 ```
 
-:::danger Never use `Executors.newCachedThreadPool()` in production code. It creates a new thread
+<aside aria-label="Never use `Executors.newCachedThreadPool()` in production code. It creates a new thread" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never use `Executors.newCachedThreadPool()` in production code. It creates a new thread</p>
 for every submitted task when the pool is saturated, which means a sudden burst of 100,000 tasks
 creates 100,000 OS threads and almost certainly crashes the JVM with an
 `OutOfMemoryError: unable to create new native thread`. Always use a bounded pool.
-:::
-
+</aside>
 ### ThreadPoolExecutor: The Complete Picture
 
 `Executors` factory methods are thin wrappers around `ThreadPoolExecutor`. Understanding the
@@ -666,12 +662,11 @@ counts.forEach(2, (key, value) -> {
 });
 ```
 
-:::info The iteration semantics of `ConcurrentHashMap` are **weakly consistent**: the iterator
+<aside aria-label="The iteration semantics of `ConcurrentHashMap` are **weakly consistent**: the iterator" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The iteration semantics of `ConcurrentHashMap` are **weakly consistent**: the iterator</p>
 reflects the state of the map at some point during or since the creation of the iterator. It will
 never throw `ConcurrentModificationException` and is guaranteed to see each element at most once,
 but it may miss elements that were added after the iterator was created.
-:::
-
+</aside>
 ### CopyOnWriteArrayList
 
 `CopyOnWriteArrayList` creates a new copy of the underlying array on every write operation. Reads
@@ -823,13 +818,12 @@ public final int incrementAndGet() {
 }
 ```
 
-:::info Under high contention (many threads repeatedly failing CAS on the same cache line), atomic
+<aside aria-label="Under high contention (many threads repeatedly failing CAS on the same cache line), atomic" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Under high contention (many threads repeatedly failing CAS on the same cache line), atomic</p>
 classes can suffer from **cache line contention** (also called "false sharing"). Each failed CAS
 triggers a cache coherence protocol invalidation on the cache line holding the atomic variable,
 which can cause severe performance degradation. In extreme cases, a lock-based approach can
 outperform lock-free CAS.
-:::
-
+</aside>
 ## Explicit Locks
 
 ### ReentrantLock
@@ -915,12 +909,11 @@ public class ThreadSafeCache<K, V> {
 }
 ```
 
-:::caution `ReentrantReadWriteLock` is not reentrant between read and write locks. A thread holding
+<aside aria-label="`ReentrantReadWriteLock` is not reentrant between read and write locks. A thread holding" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`ReentrantReadWriteLock` is not reentrant between read and write locks. A thread holding</p>
 the read lock cannot acquire the write lock (it will deadlock). A thread holding the write lock can
 acquire the read lock (downgrade), but a thread holding the read lock cannot upgrade to the write
 lock.
-:::
-
+</aside>
 ### StampedLock
 
 `StampedLock`Introduced in JDK 8, provides an optimistic read mode that does not block writers. It
@@ -958,12 +951,11 @@ public class StampedLockCache<K, V> {
 }
 ```
 
-:::info `StampedLock` is NOT reentrant. Each call to `writeLock()` must be matched with exactly one
+<aside aria-label="`StampedLock` is NOT reentrant. Each call to `writeLock()` must be matched with exactly one" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`StampedLock` is NOT reentrant. Each call to `writeLock()` must be matched with exactly one</p>
 `unlockWrite()` using the returned stamp. Losing the stamp or calling unlock with the wrong stamp
 will cause an `IllegalMonitorStateException`. Additionally, `StampedLock` does not support
 `Condition` variables.
-:::
-
+</aside>
 ## Synchronizers
 
 ### Semaphore
@@ -1009,10 +1001,9 @@ latch.await();  // blocks until all 3 countDown() calls
 System.out.println("All services initialized");
 ```
 
-:::info `CountDownLatch` is one-shot: once the count reaches zero, it cannot be reset. If you need a
+<aside aria-label="`CountDownLatch` is one-shot: once the count reaches zero, it cannot be reset. If you need a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`CountDownLatch` is one-shot: once the count reaches zero, it cannot be reset. If you need a</p>
 reusable version, use `CyclicBarrier`.
-:::
-
+</aside>
 ### CyclicBarrier
 
 A `CyclicBarrier` allows a set of threads to all wait for each other to reach a common barrier
@@ -1035,11 +1026,10 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 
-:::caution If a thread fails (throws an exception) while waiting at a `CyclicBarrier`The barrier is
+<aside aria-label="If a thread fails (throws an exception) while waiting at a `CyclicBarrier`The barrier is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If a thread fails (throws an exception) while waiting at a `CyclicBarrier`The barrier is</p>
 **broken** and all other waiting threads receive a `BrokenBarrierException`. The barrier must be
 explicitly reset via `barrier.reset()` before it can be used again.
-:::
-
+</aside>
 ## Virtual Threads (Java 21+)
 
 ### Why Virtual Threads Change Everything
@@ -1126,7 +1116,7 @@ try {
 }
 ```
 
-:::caution `synchronized` is the only common JDK primitive that causes pinning.
+<aside aria-label="`synchronized` is the only common JDK primitive that causes pinning." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`synchronized` is the only common JDK primitive that causes pinning.</p>
 `ReentrantLock``Semaphore``CountDownLatch`And all other `java.util.concurrent` synchronizers do NOT
 cause pinning. The JDK team has been progressively replacing internal uses of `synchronized` with
 `ReentrantLock` to eliminate pinning in the JDK itself. In JDK 24+, pinning from `synchronized` is
@@ -1211,4 +1201,4 @@ structure (the scope is lexically scoped via try-with-resources).
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

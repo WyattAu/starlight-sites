@@ -37,11 +37,10 @@ Proportional to extension — the straight-line region of the force-extension gr
 Material returns to its original length when the force is removed. Beyond this point, the material
 Undergoes **permanent (plastic) deformation**.
 
-:::caution Warning For many materials (especially metals), the elastic limit lies slightly beyond
+<aside aria-label="Warning For many materials (especially metals), the elastic limit lies slightly beyond" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning For many materials (especially metals), the elastic limit lies slightly beyond</p>
 the limit of Proportionality. Between these two points the material still returns to its original
 shape, but $F$ And $\Delta x$ are no longer linearly related.
-:::
-
+</aside>
 ### Springs in Series and Parallel
 
 For two springs with spring constants $k_1$ and $k_2$:
@@ -86,11 +85,10 @@ Strain is dimensionless (a ratio). It is often expressed as a percentage.
 
 **Definition.** **Breaking stress** is the stress at which a material fractures.
 
-:::info Info (stretching) and compressive stress (squashing). **AQA** and **Edexcel** focus on
+<aside aria-label="Info (stretching) and compressive stress (squashing). **AQA** and **Edexcel** focus on" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info (stretching) and compressive stress (squashing). **AQA** and **Edexcel** focus on</p>
 tensile Loading. **OCR (A)** may ask about compressive stress-strain behaviour of brittle materials
 like Concrete.
-:::
-
+</aside>
 ## 3. Young's Modulus
 
 **Definition.** The **Young's modulus** $E$ of a material is the ratio of tensile stress to tensile
@@ -114,12 +112,11 @@ Under tensile loading. It has units of Pa (same as stress, since strain is dimen
 | Steel        | 200                   | Metal           |
 | Diamond      | 1200                  | Ceramic/Crystal |
 
-:::caution Common Pitfall A high Young's modulus means the material is **stiff**, not necessarily
+<aside aria-label="Common Pitfall A high Young's modulus means the material is **stiff**, not necessarily" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A high Young's modulus means the material is **stiff**, not necessarily</p>
 **strong**. Glass is stiffer than rubber ($E \approx 70$ GPa vs $0.01$ GPa) but rubber is
 **tougher** (absorbs more energy before breaking) because it can undergo much larger strains.
 Stiffness and strength are different properties.
-:::
-
+</aside>
 ### Measuring Young's Modulus
 
 A standard experiment uses a wire clamped at one end with masses hung from the other:
@@ -222,12 +219,11 @@ Polymers show a wide range of behaviours:
 - **Thermoplastic polymers**: soften when heated, can be remoulded. Show viscoelastic behaviour
   (time-dependent response).
 
-:::info Info And requires interpretation of force-extension graphs. **Edexcel** asks for
+<aside aria-label="Info And requires interpretation of force-extension graphs. **Edexcel** asks for" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info And requires interpretation of force-extension graphs. **Edexcel** asks for</p>
 quantitative analysis of Stress-strain graphs including calculating the area under the graph
 (energy). **CIE** may ask you to Sketch stress-strain curves for different material types and
 identify specific points. **OCR (A)** Links material properties to engineering applications.
-:::
-
+</aside>
 ## 5. Elastic Potential Energy
 
 **Definition.** **Elastic potential energy** (or elastic strain energy) is the energy stored in a
@@ -265,11 +261,10 @@ $$E_e = \frac{1}{2}\,E\,V\,\varepsilon^2 = \frac{1}{2}\,\sigma\,\varepsilon\,V$$
 
 $\square$
 
-:::caution Warning (Hookean)\*\* region. If the material has been loaded beyond the limit of
+<aside aria-label="Warning (Hookean)\*\* region. If the material has been loaded beyond the limit of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning (Hookean)\*\* region. If the material has been loaded beyond the limit of</p>
 proportionality, the energy Stored is the area under the actual (non-linear) force-extension curve,
 which must be found by Integration or by counting squares.
-:::
-
+</aside>
 ## 6. Material Properties Comparison
 
 ### Metals
@@ -372,10 +367,9 @@ Millions of cycles. This is critical in aircraft wings, bridges, and engine comp
 Elevated temperatures. It is important in power station components, turbine blades, and lead
 Roofing.
 
-:::info Info **AQA** focuses more on the core stress-strain behaviour. **CIE** may include these in
+<aside aria-label="Info **AQA** focuses more on the core stress-strain behaviour. **CIE** may include these in" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info **AQA** focuses more on the core stress-strain behaviour. **CIE** may include these in</p>
 Application-style questions about engineering materials.
-:::
-
+</aside>
 ## Problems
 
 <details>
@@ -552,7 +546,7 @@ Or too low.
 
 ---
 
-:::tip Tip Ready to test your understanding of **Properties of Materials**? The contains the
+<aside aria-label="Tip Ready to test your understanding of **Properties of Materials**? The contains the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Properties of Materials**? The contains the</p>
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Properties
@@ -560,10 +554,8 @@ of Materials with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
-
-:::danger Danger
-
+</aside>
+<aside aria-label="Danger" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Danger</p>
 - **Confusing stress, strain, and Young's modulus:** Stress is force per unit AREA (Pa = N/m
   squared), not force per unit length. Strain is the ratio of extension to ORIGINAL length
   (dimensionless), not extension alone. Young's modulus is stress divided by strain (Pa), and
@@ -584,8 +576,7 @@ self-marking and building a personal test matrix.
   is where the material actually fractures (which may be lower if the material necks). They are not
   always the same.
 
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. Confusing displacement with distance, or velocity with speed, particularly in graphs and

@@ -59,9 +59,7 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 | Session            | Consistency within a single client session                        | MongoDB (read preference)              |
 | Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
 
-:::caution
-
-"Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means
+<aside aria-label=""Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>"Eventual consistency" does not mean "will eventually be consistent in a bounded time." It means</p>
 That if you stop writing, the system will converge. In practice, convergence time depends on the
 System, the network, and the write volume. In a partition, convergence may be indefinite.
 
@@ -256,10 +254,8 @@ redis-cli --cluster create \
     --cluster-replicas 1
 ```
 
-:::
-:::caution
-
-Redis Cluster does **not** support multi-key operations across different hash slots. If you need to
+</aside>
+<aside aria-label="Redis Cluster does **not** support multi-key operations across different hash slots. If you need to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Redis Cluster does **not** support multi-key operations across different hash slots. If you need to</p>
 Atomically update `user:123:profile` and `user:123:settings`They must have the same hash tag Prefix
 (`{user:123}`). Operations like `MGET` on keys with different hash tags will fail with a `CROSSSLOT`
 error.
@@ -362,10 +358,8 @@ CREATE TABLE events (
 -- sorted by event_id (which includes a timestamp component)
 ```
 
-:::
-:::caution
-
-Cassandra"s data model requires you to design around queries, not entities. Unlike relational
+</aside>
+<aside aria-label="Cassandra"s data model requires you to design around queries, not entities. Unlike relational" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Cassandra"s data model requires you to design around queries, not entities. Unlike relational</p>
 Databases where you model entities and then write queries to access them, in Cassandra you model the
 Queries and denormalise data to support each query pattern. A common rule: one table per query
 Pattern.
@@ -445,10 +439,8 @@ RETURN p
 - Your workload is mostly simple CRUD operations
 - Your team has no graph database expertise
 
-:::
-:::tip
-
-A graph database is not a replacement for a relational database. Many production systems use a
+</aside>
+<aside aria-label="A graph database is not a replacement for a relational database. Many production systems use a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>A graph database is not a replacement for a relational database. Many production systems use a</p>
 Relational database for transactional data and a graph database for relationship-heavy queries. This
 Is the **polyglot persistence** pattern: use the right tool for each part of the problem.
 
@@ -558,10 +550,8 @@ Service Architecture with Polyglot Persistence:
                Full-text search, log aggregation, analytics
 ```
 
-:::
-:::caution
-
-Polyglot persistence increases operational complexity. Each database has its own backup strategy,
+</aside>
+<aside aria-label="Polyglot persistence increases operational complexity. Each database has its own backup strategy," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Polyglot persistence increases operational complexity. Each database has its own backup strategy,</p>
 Replication configuration, monitoring, upgrade path, and failure modes. Before introducing a new
 Database technology, ensure your team has the expertise to operate it in production. The cost of
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
@@ -706,10 +696,8 @@ SSTable Level N (disk)  ← oldest, largest
 | Space amplification | Moderate (compaction overhead)       | Low to moderate (page fragmentation) |
 | Compaction          | Required (background merge)          | Not required (in-place updates)      |
 
-:::
-:::info
-
-RocksDB (used by MongoDB's WiredTiger for caching, TiKV, and many other systems) is a popular LSM
+</aside>
+<aside aria-label="RocksDB (used by MongoDB's WiredTiger for caching, TiKV, and many other systems) is a popular LSM" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>RocksDB (used by MongoDB's WiredTiger for caching, TiKV, and many other systems) is a popular LSM</p>
 Tree implementation. It is configurable: you can tune compaction strategy, bloom filter size,
 Compression, block cache, and write buffer size to optimise for specific workloads.
 
@@ -793,10 +781,8 @@ GET /products/_search
 }
 ```
 
-:::
-:::caution
-
-Elasticsearch is not ACID-compliant. Document updates are eventually consistent across shards. It is
+</aside>
+<aside aria-label="Elasticsearch is not ACID-compliant. Document updates are eventually consistent across shards. It is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Elasticsearch is not ACID-compliant. Document updates are eventually consistent across shards. It is</p>
 A search engine, not a primary data store. Use it as a secondary index alongside a relational
 Database, not as a replacement for one.
 
@@ -828,10 +814,8 @@ redis-benchmark -t set,get -n 100000 -c 50 -q
 mongoperf -f test.json
 ```
 
-:::
-:::tip
-
-Published benchmarks (especially vendor-provided ones) are often optimised for the specific system
+</aside>
+<aside aria-label="Published benchmarks (especially vendor-provided ones) are often optimised for the specific system" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Published benchmarks (especially vendor-provided ones) are often optimised for the specific system</p>
 Being benchmarked. Always run your own benchmarks with your own data and access patterns. The
 Performance difference between systems is often smaller than the difference between a well-tuned and
 Poorly-tuned deployment of the same system.
@@ -859,4 +843,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

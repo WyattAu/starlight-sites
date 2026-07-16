@@ -211,11 +211,11 @@ Features:
 For soft ferromagnets (iron, nickel), $H_c$ is small and the hysteresis loop is narrow. For hard
 ferromagnets (permanent magnets), $H_c$ is large.
 
-:::caution Common Pitfall The magnetic field $\mathbf{B}$ is the fundamental quantity; $\mathbf{H}$
+<aside aria-label="Common Pitfall The magnetic field $\mathbf{B}$ is the fundamental quantity; $\mathbf{H}$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The magnetic field $\mathbf{B}$ is the fundamental quantity; $\mathbf{H}$</p>
 is an auxiliary field Convenient for problems with free currents. The names "magnetic field" and
 "magnetic field Intensity" vary across textbooks --- always check which symbol a given text
 associates with Which name. In this document, $\mathbf{B}$ is the magnetic field and $\mathbf{H}$ is
 the Auxiliary H field.
 
 
-:::
+</aside>

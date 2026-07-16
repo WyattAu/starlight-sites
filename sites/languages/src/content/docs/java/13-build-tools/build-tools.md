@@ -480,11 +480,10 @@ Maven supports version ranges, but they are a source of non-reproducible builds.
 <version>[3.14.0]</version>         <!-- exactly 3.14.0 -->
 ```
 
-:::caution Avoid version ranges in production. They make builds non-reproducible — a build that
+<aside aria-label="Avoid version ranges in production. They make builds non-reproducible — a build that" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Avoid version ranges in production. They make builds non-reproducible — a build that</p>
 Works today may break tomorrow when a new compatible version is published. Pin exact versions and
 Update them deliberately through dependency review.
-:::
-
+</aside>
 ## Multi-Module Projects
 
 ### Maven Multi-Module
@@ -589,12 +588,11 @@ mvn clean install
 ./gradlew :web:build
 ```
 
-:::info In Maven, a parent POM with `&lt;packaging&gt;pom&lt;/packaging&gt;` serves as an
+<aside aria-label="In Maven, a parent POM with `&lt;packaging&gt;pom&lt;/packaging&gt;` serves as an" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In Maven, a parent POM with `&lt;packaging&gt;pom&lt;/packaging&gt;` serves as an</p>
 Aggregation point and a source of shared configuration. In Gradle, the `settings.gradle.kts` file
 Declares which modules belong to the build, and shared configuration is applied through convention
 Plugins or the `subprojects` block.
-:::
-
+</aside>
 ## Common Pitfalls
 
 ### Dependency Hell — Version Conflicts
@@ -973,7 +971,7 @@ gradle wrapper --gradle-version=8.5
 The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/dists/`. Check
 `gradlew``gradlew.bat`And `gradle/wrapper/gradle-wrapper.properties` into version control.
 
-:::caution Always use wrapper scripts. Never depend on a globally installed Maven or Gradle.
+<aside aria-label="Always use wrapper scripts. Never depend on a globally installed Maven or Gradle." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use wrapper scripts. Never depend on a globally installed Maven or Gradle.</p>
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 Through a PR.
@@ -999,4 +997,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

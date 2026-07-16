@@ -198,11 +198,10 @@ int main() {
 }
 ```
 
-:::note The iterator-sentinel model eliminates the need to compute `end` iterators for bounded
+<aside aria-label="The iterator-sentinel model eliminates the need to compute `end` iterators for bounded" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The iterator-sentinel model eliminates the need to compute `end` iterators for bounded</p>
 Sequences. For null-terminated strings, this avoids computing `strlen` before iteration. For counted
 Ranges, it avoids computing the end pointer from a base + count.
-:::
-
+</aside>
 ## Iterator Concepts Hierarchy
 
 C++20 replaced the legacy iterator category tags (`std::input_iterator_tag`Etc.) with a hierarchy Of

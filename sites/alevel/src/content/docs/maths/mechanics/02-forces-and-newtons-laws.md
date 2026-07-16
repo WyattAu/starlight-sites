@@ -19,10 +19,9 @@ categories:
 | OCR (A)    | Paper 1 | Includes inclined planes                              |
 | CIE (9709) | P1, P4  | Forces in P1; connected bodies, inclined planes in P4 |
 
-:::info Always draw a clear free body diagram before writing any equations. The quality of your
+<aside aria-label="Always draw a clear free body diagram before writing any equations. The quality of your" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Always draw a clear free body diagram before writing any equations. The quality of your</p>
 Diagram determines the quality of your solution.
-:::
-
+</aside>
 <hr />
 
 ## 1. Newton's Laws of Motion
@@ -52,11 +51,10 @@ A.
 **Implication.** Forces always come in pairs: action and reaction. They act on **different** bodies
 And are the same type of force.
 
-:::caution Newton's Third Law pairs act on different bodies. The weight of a book on a table and the
+<aside aria-label="Newton's Third Law pairs act on different bodies. The weight of a book on a table and the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Newton's Third Law pairs act on different bodies. The weight of a book on a table and the</p>
 Normal reaction from the table are **not** a Third Law pair (both act on the book). The Third Law
 Pair of the weight is the gravitational pull of the book on the Earth.
-:::
-
+</aside>
 <hr />
 
 ## 2. Types of Forces
@@ -265,11 +263,10 @@ $$P\cos\theta + \mu P\sin\theta = \mu mg$$
 
 $$P = \frac◆LB◆\mu mg◆RB◆◆LB◆\cos\theta + \mu\sin\theta◆RB◆$$
 
-:::caution Applying a force at an angle **upward** reduces $R$ and therefore reduces the maximum
+<aside aria-label="Applying a force at an angle **upward** reduces $R$ and therefore reduces the maximum" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Applying a force at an angle **upward** reduces $R$ and therefore reduces the maximum</p>
 Friction. Applying a force at an angle **downward** increases $R$ and increases the maximum
 Friction.
-:::
-
+</aside>
 ### 8.3 Connected particles on rough surfaces
 
 When two particles are connected by a string and one or both surfaces are rough, friction must be
@@ -356,10 +353,9 @@ Combined with $m_2 g - T = m_2 a$:
 
 $$a = \frac◆LB◆(m_2 - \mu m_1)g◆RB◆◆LB◆m_1 + m_2◆RB◆$$
 
-:::caution If $m_2 \lt \mu m_1$Then $a \lt 0$Meaning the system does not move. The friction Force is
+<aside aria-label="If $m_2 \lt \mu m_1$Then $a \lt 0$Meaning the system does not move. The friction Force is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If $m_2 \lt \mu m_1$Then $a \lt 0$Meaning the system does not move. The friction Force is</p>
 not at its maximum; instead $F = m_2 g$ (friction balances the hanging weight) and $T = m_2 g$.
-:::
-
+</aside>
 ### 9.4 Two particles on inclined planes with a pulley
 
 Two particles of masses $m_1$ and $m_2$ are placed on two inclined planes with angles $\alpha$ and
@@ -430,10 +426,9 @@ $$P + \mu mg\cos\alpha - mg\sin\alpha = ma$$
 
 $$a = \frac{P}{m} - g(\sin\alpha - \mu\cos\alpha)$$
 
-:::tip Tip (or the tendency to move). Always draw a clear diagram and think about which way friction
+<aside aria-label="Tip (or the tendency to move). Always draw a clear diagram and think about which way friction" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip (or the tendency to move). Always draw a clear diagram and think about which way friction</p>
 acts.
-:::
-
+</aside>
 ### 10.4 Block on an inclined plane with a horizontal applied force
 
 A horizontal force $P$ is applied to a block on a rough inclined plane at angle $\alpha$.
@@ -455,10 +450,9 @@ $$P\cos\alpha - \mu P\sin\alpha = mg\sin\alpha + \mu mg\cos\alpha$$
 
 $$P = \frac◆LB◆mg(\sin\alpha + \mu\cos\alpha)◆RB◆◆LB◆\cos\alpha - \mu\sin\alpha◆RB◆$$
 
-:::caution Warning Horizontal force can move the block up the slope (pushing horizontally jams the
+<aside aria-label="Warning Horizontal force can move the block up the slope (pushing horizontally jams the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Horizontal force can move the block up the slope (pushing horizontally jams the</p>
 block into the Surface).
-:::
-
+</aside>
 <hr />
 
 ## 11. Equilibrium of Rigid Bodies
@@ -1009,7 +1003,7 @@ $\lt \mu R = 16.99\,\mathrm{N}$Confirming equilibrium).
 
 ---
 
-:::tip Diagnostic Test Ready to test your understanding of **Forces and Newton's Laws**? The contains the hardest
+<aside aria-label="Diagnostic Test Ready to test your understanding of **Forces and Newton's Laws**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Forces and Newton's Laws**? The contains the hardest</p>
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Forces and
@@ -1017,8 +1011,7 @@ Newton's Laws with other topics to test synthesis under exam conditions.
 
 See for instructions on self-marking and
 building a personal test matrix.
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components

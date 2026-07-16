@@ -205,11 +205,10 @@ $\blacksquare$
 
 </details>
 
-:::caution Common Pitfall In natural deduction, always track which assumptions are discharged. A
+<aside aria-label="Common Pitfall In natural deduction, always track which assumptions are discharged. A" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall In natural deduction, always track which assumptions are discharged. A</p>
 common mistake is to use a Discharged assumption in a later step. Each discharged assumption is only
 valid within the scope Indicated by the rule that discharges it.
-:::
-
+</aside>
 ### 1.6 CNF and DNF
 
 A **literal** is a propositional variable or its negation. A **clause** is a disjunction of
@@ -266,11 +265,10 @@ This is in CNF.
 
 </details>
 
-:::caution Common Pitfall Distributing $\lor$ over $\land$ can cause exponential blowup. A DNF
+<aside aria-label="Common Pitfall Distributing $\lor$ over $\land$ can cause exponential blowup. A DNF" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Distributing $\lor$ over $\land$ can cause exponential blowup. A DNF</p>
 formula with $n$ terms can Produce up to $2^n$ clauses when converted to CNF. This exponential
 growth underlies the hardness Of many satisfiability problems.
-:::
-
+</aside>
 ### 1.7 Resolution
 
 The **resolution rule** is a single inference rule that is refutation-complete for propositional
@@ -327,11 +325,10 @@ Literals.
 SAT solvers (DPLL, CDCL) are widely deployed in hardware verification, software model checking, and
 AI planning. Modern solvers routinely handle instances with millions of variables.
 
-:::caution Common Pitfall Do not confuse satisfiability with validity. A formula is _satisfiable_ if
+<aside aria-label="Common Pitfall Do not confuse satisfiability with validity. A formula is _satisfiable_ if" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse satisfiability with validity. A formula is _satisfiable_ if</p>
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
-:::
-
+</aside>
 ## 2. Sets, Relations, and Functions
 
 ### 2.1 Sets
@@ -1176,11 +1173,10 @@ One Euler path: $1 \to 2 \to 3 \to 4 \to 5 \to 3 \to 1 \to 5$. All 7 edges are u
 Until returning to the start. If unused edges remain, find a vertex on the current circuit with
 Unused edges, find a subtour, and splice it in. Repeat until all edges are used.
 
-:::caution Common Pitfall Determining whether a graph has a Hamilton path/circuit is NP-complete ,
+<aside aria-label="Common Pitfall Determining whether a graph has a Hamilton path/circuit is NP-complete ," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Determining whether a graph has a Hamilton path/circuit is NP-complete ,</p>
 whereas Euler Paths/circuits can be determined in polynomial time using the degree condition. Do not
 confuse the two.
-:::
-
+</aside>
 ### 5.7 Matching Theory
 
 A **matching** $M$ in a graph $G = (V, E)$ is a set of pairwise disjoint edges (no two share an
@@ -1379,11 +1375,10 @@ $G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
 
 </details>
 
-:::caution Common Pitfall Generating functions are formal power series; they may not converge for
+<aside aria-label="Common Pitfall Generating functions are formal power series; they may not converge for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Generating functions are formal power series; they may not converge for</p>
 any $x \neq 0$. Convergence Is irrelevant for combinatorial applications -- the series is
 manipulated algebraically.
-:::
-
+</aside>
 ### 6.5 The Master Theorem
 
 The Master Theorem provides asymptotic solutions to recurrences of the form

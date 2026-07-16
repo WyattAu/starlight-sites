@@ -164,11 +164,10 @@ int main() {
 }
 ```
 
-:::note The C++ standard guarantees amortized $O(1)$ `push_back` [N4950 §22.3.11.5 Table 80], but
+<aside aria-label="The C++ standard guarantees amortized $O(1)$ `push_back` [N4950 §22.3.11.5 Table 80], but" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The C++ standard guarantees amortized $O(1)$ `push_back` [N4950 §22.3.11.5 Table 80], but</p>
 The exact growth factor is implementation-defined. A factor of 2 is common, and some implementations
 (e.g., Facebook's folly) use 1.5 to reduce peak memory usage.
-:::
-
+</aside>
 ### Iterator, Pointer, and Reference Invalidation Rules
 
 Reallocation invalidates all iterators, pointers, and references to elements of the vector [N4950
@@ -231,12 +230,11 @@ int main() {
 }
 ```
 
-:::caution After any operation that may cause reallocation (e.g., `push_back` when
+<aside aria-label="After any operation that may cause reallocation (e.g., `push_back` when" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>After any operation that may cause reallocation (e.g., `push_back` when</p>
 `size() == capacity()`), **all** iterators, pointers, and references into the vector are
 Invalidated. Dereferencing them is undefined behavior. Use `reserve()` proactively if you need
 Stable iterators.
-:::
-
+</aside>
 ### `std::deque`: Segment-Based Memory, No Reallocation
 
 `std::deque` (double-ended queue) is a sequence container that supports $O(1)$ insertion and
@@ -304,11 +302,10 @@ int main() {
 }
 ```
 
-:::tip Use `std::deque` when you need efficient insertion at both ends. Use `std::vector` when you
+<aside aria-label="Use `std::deque` when you need efficient insertion at both ends. Use `std::vector` when you" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use `std::deque` when you need efficient insertion at both ends. Use `std::vector` when you</p>
 Only need efficient insertion at the end, as `std::vector` has better cache locality and lower
 Memory overhead per element.
-:::
-
+</aside>
 Invalidation rules for `std::deque` differ from `std::vector` [N4950 §22.3.8.4 Table 77]:
 
 | Operation                  | Iterator                                     | Pointer | Reference |
@@ -380,11 +377,10 @@ int main() {
 }
 ```
 
-:::note `std::list::splice` is the only standard container operation that transfers ownership of
+<aside aria-label="`std::list::splice` is the only standard container operation that transfers ownership of" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`std::list::splice` is the only standard container operation that transfers ownership of</p>
 Nodes between containers. The spliced elements' iterators, pointers, and references remain valid and
 Now refer to the same elements within the destination container [N4950 §22.3.9.5].
-:::
-
+</aside>
 ### `std::array`: Fixed-Size, Zero Overhead
 
 `std::array` is a fixed-size container that wraps a C-style array with the standard container
@@ -512,7 +508,7 @@ The proxy reference (`std::vector&lt;bool>::reference`) is a library-defined cla
 semantics from `operator[]` [N4950 §22.3.11.2]. Specifically, `std::vector&lt;bool>` does not
 Satisfy the container requirements in [N4950 §22.2] because its elements are not addressable.
 
-:::caution `std::vector&lt;bool>` is widely regarded as a design mistake. Scott Meyers' "Effective
+<aside aria-label="`std::vector&lt;bool>` is widely regarded as a design mistake. Scott Meyers' "Effective" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::vector&lt;bool>` is widely regarded as a design mistake. Scott Meyers' "Effective</p>
 STL" (Item 18) recommends using `std::deque&lt;bool>` or `boost::dynamic_bitset` instead. For new
 Code, consider `std::vector&lt;uint8_t>` if you need addressable elements, or a dedicated bitset
 Library if you need compact storage.
@@ -782,4 +778,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

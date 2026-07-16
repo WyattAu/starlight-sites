@@ -84,11 +84,10 @@ At each price, we add up the quantities demanded by all consumers.
 | Expectations of future price ($\uparrow$) | $\uparrow$ (current demand)                            | Consumers stockpile before expected price rise         |
 | Population ($\uparrow$)                   | $\uparrow$                                             | UK population growth increases housing demand          |
 
-:::caution Common Pitfall "A rise in demand" means the _curve shifts right_. "A rise in quantity
+<aside aria-label="Common Pitfall "A rise in demand" means the _curve shifts right_. "A rise in quantity" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall "A rise in demand" means the _curve shifts right_. "A rise in quantity</p>
 Demanded" means a _movement along the curve_ due to a price change. These are fundamentally
 Different. Examiners penalise imprecise language.
-:::
-
+</aside>
 ## 2. Supply
 
 ### 2.1 Definition
@@ -157,15 +156,14 @@ Equilibrium is restored.
 Therefore, the equilibrium is **stable**: any deviation sets in motion forces that restore
 Equilibrium. $\blacksquare$
 
-:::tip Exam Technique When asked to "analyse the effect of X on equilibrium," use the three-step
+<aside aria-label="Exam Technique When asked to "analyse the effect of X on equilibrium," use the three-step" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When asked to "analyse the effect of X on equilibrium," use the three-step</p>
 Framework:
 
 1. Identify whether X shifts demand or supply (and which direction)
 2. Show the shift on a diagram
 3. State the new equilibrium price and quantity
 4. Evaluate: what if both curves shift simultaneously?
-:::
-
+</aside>
 ### 3.2 Price Mechanism (The Invisible Hand)
 
 The price mechanism is the process by which prices adjust to equate demand and supply, thereby
@@ -313,7 +311,7 @@ Where $P_s(Q)$ is the inverse supply function.
 - Ceteris paribus is unrealistic — many variables change simultaneously
 - Doesn't account for behavioural biases (prospect theory, loss aversion)
 
-:::info Board-Specific Note Edexcel (9EC0) emphasises elasticity calculations using the midpoint
+<aside aria-label="Board-Specific Note Edexcel (9EC0) emphasises elasticity calculations using the midpoint" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note Edexcel (9EC0) emphasises elasticity calculations using the midpoint</p>
 (arc elasticity) formula:
 $\mathrm{PED} = \frac◆LB◆\Delta Q◆RB◆◆LB◆\Delta P◆RB◆ \times \frac{(P_1 + P_2)/2}{(Q_1 + Q_2)/2}$.
 CIE Uses the point elasticity formula. Check your board's preference.
@@ -1133,4 +1131,4 @@ reactions, underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
-:::
+</aside>

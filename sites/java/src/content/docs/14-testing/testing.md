@@ -171,12 +171,11 @@ class LifecycleTest {
 }
 ```
 
-:::info By default, JUnit 5 creates a new test instance for each test method (PER_METHOD lifecycle).
+<aside aria-label="By default, JUnit 5 creates a new test instance for each test method (PER_METHOD lifecycle)." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>By default, JUnit 5 creates a new test instance for each test method (PER_METHOD lifecycle).</p>
 Use `@TestInstance(Lifecycle.PER_CLASS)` to create a single instance shared across all test methods.
 This allows non-static `@BeforeAll`/`@AfterAll` methods, but tests share instance state, which can
 Cause interference.
-:::
-
+</aside>
 ### Parameterized Tests
 
 Parameterized tests run the same test logic with different inputs, eliminating test method
@@ -398,11 +397,10 @@ System.out.println(spyList.size()); // 100 (stubbed)
 System.out.println(spyList.get(0));   // "real" (real method called)
 ```
 
-:::caution When spying, use `doReturn().when(spy)` instead of `when(spy).thenReturn()`. The latter
+<aside aria-label="When spying, use `doReturn().when(spy)` instead of `when(spy).thenReturn()`. The latter" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>When spying, use `doReturn().when(spy)` instead of `when(spy).thenReturn()`. The latter</p>
 Calls the real method to get the return value before stubbing, which can have side effects or throw
 Exceptions.
-:::
-
+</aside>
 ## Integration Testing
 
 ### Spring Boot Test Context
@@ -696,7 +694,7 @@ tasks.check {
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
 
-:::caution 100% coverage does not mean bug-free code. Coverage measures execution paths, not
+<aside aria-label="100% coverage does not mean bug-free code. Coverage measures execution paths, not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>100% coverage does not mean bug-free code. Coverage measures execution paths, not</p>
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes
 To coverage. Focus on meaningful tests, not the coverage number. Use coverage as a tool to find
 Untested code, not as a target to gamify.
@@ -931,4 +929,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

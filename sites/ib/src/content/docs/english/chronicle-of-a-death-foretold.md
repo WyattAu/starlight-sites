@@ -308,11 +308,10 @@ Culture.
 | "The bishop blessed him from the boat"                  | Religious authority passes by, offering symbolic but useless blessing                |
 | "He came with a suitcase full of letters... Unopened"   | Bayardo's romantic gesture is hollow — appearance without substance                  |
 
-:::tip Exam Tip When writing about Chronicle, always address the **form** (novella, non-linear,
+<aside aria-label="Exam Tip When writing about Chronicle, always address the **form** (novella, non-linear," class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Tip When writing about Chronicle, always address the **form** (novella, non-linear,</p>
 Journalistic) as well as the content. The way the story is told is as important as what happens.
 Consider how Marquez uses the reader's knowledge of the ending to create dramatic irony throughout.
-:::
-
+</aside>
 ---
 
 ## Comparative Analysis: Chronicle of a Death Foretold and A Streetcar Named Desire
@@ -772,14 +771,12 @@ Expectations."**
 
 </details>
 
-:::tip When practising these questions, write under timed conditions. For SL, aim for a complete
+<aside aria-label="When practising these questions, write under timed conditions. For SL, aim for a complete" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When practising these questions, write under timed conditions. For SL, aim for a complete</p>
 Essay in 55 minutes. For HL, aim for 100 minutes to allow for integration of a third text. See
 [ib-english-assessment-and-techniques](./ib-english-assessment-and-techniques) for detailed time
 Management strategies.
-:::
-
-:::danger Common Pitfalls
-
+</aside>
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
 - **Reducing characters to stereotypes:** Santiago Nasar is not an innocent victim, and the Vicario
   brothers are not brutal murderers. Each character has motivations that reflect broader social
   values -- honour, machismo, religious duty, class, and gender roles. Essays that present
@@ -817,4 +814,4 @@ Management strategies.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

@@ -57,11 +57,10 @@ Grants the embedded page the same privileges as the parent page.
 | `allow-downloads`      | Allows downloading files                                               |
 | `allow-top-navigation` | Allows the iframe to navigate the top-level page (avoid this)          |
 
-:::caution Never combine `allow-scripts` with `allow-same-origin` if the iframe source is
+<aside aria-label="Never combine `allow-scripts` with `allow-same-origin` if the iframe source is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never combine `allow-scripts` with `allow-same-origin` if the iframe source is</p>
 User-controlled or untrusted. Together they allow the embedded page to strip its own sandbox
 Restrictions via JavaScript.
-:::
-
+</aside>
 For trusted embeds like Godbolt and Dartpad, `sandbox="allow-scripts allow-same-origin"` is
 Acceptable because both services are well-known and operate over HTTPS.
 

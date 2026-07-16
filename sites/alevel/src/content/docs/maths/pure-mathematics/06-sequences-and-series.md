@@ -167,10 +167,9 @@ If $r = 1$: $S_n = na \to \pm\infty$ (unless $a = 0$).
 
 If $r = -1$: $S_n = a - a + a - a + \cdots$Which oscillates and does not converge. $\blacksquare$
 
-:::caution The condition $|r| < 1$ is essential. A common mistake is to apply the sum-to-infinity
+<aside aria-label="The condition $|r| < 1$ is essential. A common mistake is to apply the sum-to-infinity" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The condition $|r| < 1$ is essential. A common mistake is to apply the sum-to-infinity</p>
 Formula when $|r| \geq 1$Which gives nonsense.
-:::
-
+</aside>
 <details>
 <summary>Example</summary>
 Find the sum to infinity of $1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$
@@ -353,11 +352,10 @@ $$= \frac{3}{4} - \frac{2n + 3}{2(n+1)(n+2)}$$
 
 </details>
 
-:::tip When using the method of differences, always write out the first few terms explicitly to
+<aside aria-label="When using the method of differences, always write out the first few terms explicitly to" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When using the method of differences, always write out the first few terms explicitly to</p>
 Identify the cancellation pattern before simplifying. Be especially careful when the "gap" in the
 Denominator is larger than 1 (e.g., $k(k+2)$), as not all terms cancel in a simple pairwise fashion.
-:::
-
+</aside>
 <hr />
 
 ## 8. Arithmetic-Geometric Sequences
@@ -822,7 +820,7 @@ Verification:
 
 ---
 
-:::tip Tip Ready to test your understanding of **Sequences and Series**? The contains the hardest
+<aside aria-label="Tip Ready to test your understanding of **Sequences and Series**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Sequences and Series**? The contains the hardest</p>
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Sequences
@@ -855,4 +853,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

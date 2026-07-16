@@ -185,7 +185,7 @@ Three principal experimental methods:
    Randomly oriented crystallites produce diffraction cones, recorded as concentric rings on a
    detector.
 
-:::caution Common Pitfall The coordination number is the number of _nearest neighbours_, not the
+<aside aria-label="Common Pitfall The coordination number is the number of _nearest neighbours_, not the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The coordination number is the number of _nearest neighbours_, not the</p>
 number of atoms in the unit Cell. For FCC, the coordination number is 12 even though there are only
 4 atoms per conventional Cell. Do not confuse the basis size with the coordination number.
 
@@ -215,4 +215,4 @@ $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 </details>
 
 
-:::
+</aside>

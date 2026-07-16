@@ -20,10 +20,9 @@ ZFS makes this rule easy to implement:
 3. **Tertiary copy (offsite):** Cloud storage via TrueNAS Cloud Sync or a remote NAS via ZFS
    replication.
 
-:::caution The 3-2-1 rule is a minimum, not a maximum. For critical data, consider extending to
+<aside aria-label="The 3-2-1 rule is a minimum, not a maximum. For critical data, consider extending to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The 3-2-1 rule is a minimum, not a maximum. For critical data, consider extending to</p>
 3-2-1-1-0: 3 copies, 2 media, 1 offsite, 1 air-gapped (disconnected), 0 errors (verified restores).
-:::
-
+</aside>
 ---
 
 ## ZFS Snapshots
@@ -547,10 +546,9 @@ Store encryption keys in a secure, offsite location:
 2. **Physical copy:** Write the passphrase on paper and store in a safe deposit box.
 3. **Key escrow service:** Some password managers offer key escrow for trusted contacts.
 
-:::danger If you lose the encryption key, all data on the encrypted dataset is permanently
+<aside aria-label="If you lose the encryption key, all data on the encrypted dataset is permanently" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>If you lose the encryption key, all data on the encrypted dataset is permanently</p>
 Irrecoverable. There is no backdoor. Always have a verified backup of the key.
-:::
-
+</aside>
 ## Backup Monitoring and Alerting
 
 ### TrueNAS Backup Alert Configuration
@@ -674,7 +672,7 @@ zfs get receive_resume_token backup/data
 zfs recv -s backup/data <<< "$(zfs get -H -o value receive_resume_token backup/data)"
 ```
 
-:::tip Resume tokens expire after approximately 5 minutes of inactivity in some implementations. For
+<aside aria-label="Resume tokens expire after approximately 5 minutes of inactivity in some implementations. For" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Resume tokens expire after approximately 5 minutes of inactivity in some implementations. For</p>
 Very large transfers over unreliable networks, consider using `mbuffer` as a network buffer to
 Absorb short interruptions:
 
@@ -686,8 +684,7 @@ zfs send tank/data@snap1 | mbuffer -W 300 -s 128k -m 1G 10.0.0.20:9090
 mbuffer -s 128k -m 1G -I 9090 | zfs recv backup/data
 ```
 
-:::
-
+</aside>
 ## Monthly and Quarterly Verification Procedures
 
 A backup that has never been tested is not a backup. Establish a regular verification cadence to
@@ -983,11 +980,10 @@ midclt call cloudsync.update 1 '{
 }'
 ```
 
-:::caution If you lose the encryption key, all cloud backups become permanently unrecoverable. Store
+<aside aria-label="If you lose the encryption key, all cloud backups become permanently unrecoverable. Store" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you lose the encryption key, all cloud backups become permanently unrecoverable. Store</p>
 Encryption keys in multiple secure locations: a password manager, a hardware security key, and a
 Printed copy in a physical safe. Never store encryption keys alongside the backups themselves.
-:::
-
+</aside>
 ### Compliance Considerations
 
 For environments subject to regulatory requirements (GDPR, HIPAA, SOC 2), document your backup and

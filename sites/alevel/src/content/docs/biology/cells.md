@@ -61,12 +61,11 @@ $$\mathrm{Magnification} = \frac◆LB◆\mathrm{Image\ size}◆RB◆◆LB◆\mat
 Out-of-focus light, producing sharp optical sections through thick specimens. This allows 3D
 Reconstruction without the need for physical sectioning.
 
-:::caution Common Pitfall Students often confuse magnification with resolution. Magnification is how
+<aside aria-label="Common Pitfall Students often confuse magnification with resolution. Magnification is how" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse magnification with resolution. Magnification is how</p>
 Much larger the image appears; resolution is the ability to distinguish two closely spaced objects
 As separate. Increasing magnification without increasing resolution produces a larger but blurry
 Image -- no additional detail is revealed.
-:::
-
+</aside>
 ### 1.3 Cell Fractionation
 
 Cell fractionation is the process of breaking open cells and separating organelles by differential
@@ -110,12 +109,11 @@ Animals, plants, fungi, and protists.
 | Reproduction              | Binary fission (asexual)                       | Mitosis, meiosis                               |
 | Flagella                  | Simple, rotating                               | Complex, $9 + 2$ microtubule arrangement       |
 
-:::caution Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which
+<aside aria-label="Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The "S" in ribosome sizes (70S, 80S) stands for Svedberg units, which</p>
 Measure sedimentation rate during centrifugation -- not molecular weight. Svedberg units are not
 Additive: $50\mathrm{S} + 30\mathrm{S} = 70\mathrm{S}$ is a coincidence of sedimentation rates, not
 Molecular masses.
-:::
-
+</aside>
 ### 2.2 Prokaryotic Cell Structure
 
 Prokaryotic cells possess several structures not found in eukaryotes:
@@ -198,11 +196,10 @@ Enzymes (lipases, proteases, nucleases) optimised for pH $\approx 5$. They funct
 - **Autophagy**: breaking down worn-out organelles.
 - **Apoptosis**: programmed cell death.
 
-:::caution Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles
+<aside aria-label="Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles</p>
 With hydrolytic activity. However, plant cells also have a large permanent vacuole, which is a
 Distinct structure with different functions (turgor, storage, waste isolation).
-:::
-
+</aside>
 ### 3.6 Other Organelles
 
 - **Ribosomes**: $80\mathrm{S}$ in cytoplasm, $70\mathrm{S}$ in mitochondria and chloroplasts. Sites
@@ -337,10 +334,9 @@ Reproduction.
 4. **Telophase**: chromosomes decondense; the nuclear envelope reforms; the nucleolus reappears.
    Cytokinesis (division of the cytoplasm) follows.
 
-:::caution Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By
+<aside aria-label="Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By</p>
 the time mitosis Starts, each chromosome already consists of two identical sister chromatids.
-:::
-
+</aside>
 ### 6.2 The Cell Cycle
 
 The cell cycle consists of:
@@ -417,12 +413,11 @@ Measurement is of a sub-component. If the full ribosome is being measured, the s
 recheck The image measurement. This highlights the importance of sanity-checking answers against
 known biological Dimensions.
 
-:::caution Common Pitfall Students frequently forget to convert units before applying the
+<aside aria-label="Common Pitfall Students frequently forget to convert units before applying the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students frequently forget to convert units before applying the</p>
 magnification formula. Always convert both image size and actual size to the same unit. A common
 error is to leave the answer In mm when the question asks for $\mu\mathrm{m}$. Write down the
 conversion explicitly to avoid losing Marks.
-:::
-
+</aside>
 ## 8. Endocytosis and Exocytosis
 
 ### 8.1 Mechanism of Endocytosis
@@ -463,12 +458,11 @@ Their contents to the extracellular space. This requires:
 Exocytosis is essential for secretion of hormones, neurotransmitters, digestive enzymes, and mucus,
 as Well as for insertion of new membrane proteins and lipids into the plasma membrane.
 
-:::caution Common Pitfall Students often state that endocytosis and exocytosis are forms of
+<aside aria-label="Common Pitfall Students often state that endocytosis and exocytosis are forms of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that endocytosis and exocytosis are forms of</p>
 diffusion. They are Not. Both are active processes requiring ATP. They involve bulk transport of
 large quantities of Material in membrane-bound vesicles, which is fundamentally different from the
 passive movement of Individual molecules through the bilayer.
-:::
-
+</aside>
 ## 9. Osmosis and Water Potential Calculations
 
 ### 9.1 Quantifying Water Potential
@@ -528,12 +522,11 @@ $\Psi_{\mathrm{cell}} = \Psi_s$.
 Plasmolysis is reversible if the cell is returned to a hypotonic solution before permanent damage
 occurs.
 
-:::caution Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They
+<aside aria-label="Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that plant cells "burst" in hypotonic solutions. They</p>
 do not -- The rigid cell wall exerts an inward pressure (wall pressure) that opposes further water
 entry once Turgidity is reached. Only animal cells (which lack cell walls) burst in hypotonic
 solutions.
-:::
-
+</aside>
 ## 10. The Cell Cycle in Detail
 
 ### 10.1 Checkpoint Control
@@ -586,12 +579,11 @@ Found in approximately 50% of all human cancers.
 Cancer requires mutations in multiple genes: activation of one or more oncogenes plus Inactivation
 of two or more tumour suppressor genes (Knudson's two-hit hypothesis).
 
-:::caution Common Pitfall Students often state that "one mutation causes cancer." Cancer is a
+<aside aria-label="Common Pitfall Students often state that "one mutation causes cancer." Cancer is a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "one mutation causes cancer." Cancer is a</p>
 multistep Process requiring the accumulation of several mutations in genes regulating the cell
 cycle, DNA repair, And apoptosis. A single mutation in a proto-oncogene or tumour suppressor gene is
 necessary but not Sufficient for malignancy.
-:::
-
+</aside>
 ## 11. Meiosis: Overview and Comparison with Mitosis
 
 ### 11.1 Key Differences
@@ -658,12 +650,11 @@ to Repopulate the blood cell lineages after chemotherapy. Induced pluripotent st
 adult Cells reprogrammed to a pluripotent state by introducing transcription factors (Oct4, Sox2,
 Klf4, c-Myc), Offering an ethically uncontroversial alternative to embryonic stem cells.
 
-:::caution Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent
+<aside aria-label="Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent</p>
 cells can Form a complete organism including placenta and umbilical cord; pluripotent cells can form
 all body cell Types but not extra-embryonic tissues. Only the zygote and very early embryonic cells
 are totipotent.
-:::
-
+</aside>
 ## Practice Problems
 
 <details>
@@ -1042,12 +1033,11 @@ pink/red with safranin.
   methicillin-resistant _S. Aureus_).
 - Reduced permeability of the outer membrane (in Gram-negative bacteria).
 
-:::caution Common Pitfall Students often state that "penicillin kills bacteria by breaking down the
+<aside aria-label="Common Pitfall Students often state that "penicillin kills bacteria by breaking down the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that "penicillin kills bacteria by breaking down the</p>
 cell wall." Penicillin does not break down existing peptidoglycan. It prevents the formation of new
 cross-links during cell wall synthesis. The cell wall weakens because it cannot be repaired or
 expanded, and the bacterium lyses due to the inward osmotic pressure (water entering by osmosis).
-:::
-
+</aside>
 ## 18. Viruses: Structure, Replication, and Defence
 
 ### 18.1 Viral Structure
@@ -1110,8 +1100,7 @@ into DNA):
 
 ---
 
-:::tip Diagnostic Test
-
+<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
 ## 17. Cell Membrane Transport: Advanced Topics
 
 ### 17.1 Facilitated Diffusion vs Active Transport
@@ -1453,8 +1442,8 @@ direct left-right asymmetry during development).
 
 ---
 
-:::
-:::tip Diagnostic Test Ready to test your understanding of **Cells**? The contains the hardest questions within
+</aside>
+<aside aria-label="Diagnostic Test Ready to test your understanding of **Cells**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Cells**? The contains the hardest questions within</p>
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Cells with
@@ -1462,8 +1451,7 @@ other biology topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
-
+</aside>
 ## 24. Viruses: Structure and Replication
 
 ### 24.1 Virus Structure

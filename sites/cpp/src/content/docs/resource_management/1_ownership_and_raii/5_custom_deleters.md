@@ -49,12 +49,11 @@ process(std::unique_ptr<Widget>(new Widget), compute_risk());
 process(std::make_unique<Widget>(), compute_risk());
 ```
 
-:::note Relevance This is a real bug pattern. The C++ standard allows argument evaluation in any
+<aside aria-label="Relevance This is a real bug pattern. The C++ standard allows argument evaluation in any" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance This is a real bug pattern. The C++ standard allows argument evaluation in any</p>
 Order [N4950 S7.6.1.9]. If `compute_risk()` is evaluated before the `unique_ptr` constructor, and it
 Throws, the `new Widget()` allocation is leaked. `make_unique` eliminates this class of bug
 Entirely.
-:::
-
+</aside>
 ## 5.3 `shared_ptr` Overuse and Reference Cycles
 
 `shared_ptr` should not be the default ownership model. Its overhead is substantial and its
@@ -93,12 +92,11 @@ void aliasing_demo() {
 }
 ```
 
-:::caution The aliasing constructor is useful but dangerous. The aliased pointer does not extend the
+<aside aria-label="The aliasing constructor is useful but dangerous. The aliased pointer does not extend the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The aliasing constructor is useful but dangerous. The aliased pointer does not extend the</p>
 Lifetime of the member it points to — it only extends the lifetime of the **owning** object. If the
 Owning object is destroyed first, the aliased pointer dangles. Use cases include returning pointers
 To members from APIs that need to express shared ownership of the containing object.
-:::
-
+</aside>
 ## 5.5 Custom Deleters
 
 Smart pointers support **custom deleters** — callable objects invoked instead of `delete` when the
@@ -212,11 +210,10 @@ void use_dynamic_lib() {
 }
 ```
 
-:::note Each unique lambda type produces a different `std::unique_ptr` type. Two `unique_ptr`S with
+<aside aria-label="Each unique lambda type produces a different `std::unique_ptr` type. Two `unique_ptr`S with" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Each unique lambda type produces a different `std::unique_ptr` type. Two `unique_ptr`S with</p>
 Different lambda deleters (even lexically identical lambdas) are incompatible types [N4950
 S20.11.1.2.1]. Use `decltype` or a named functor if you need a shared type across translation units.
-:::
-
+</aside>
 #### Lambda Capture Implications on Deleter Type and Storage
 
 The capture list of a lambda directly determines whether the deleter is stateless (zero-overhead via
@@ -263,12 +260,11 @@ int main() {
 | Capture by value     | No         | `sizeof(captured values)`            | Yes (copies are owned)                                   |
 | Capture by reference | No         | 0 bytes (reference is pointer-sized) | **Dangerous:** dangling reference if referent dies first |
 
-:::caution Never capture by reference in a lambda deleter unless the referent is guaranteed to
+<aside aria-label="Never capture by reference in a lambda deleter unless the referent is guaranteed to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never capture by reference in a lambda deleter unless the referent is guaranteed to</p>
 Outlive the `unique_ptr`. Since the deleter runs in the `unique_ptr` destructor, which runs when the
 `unique_ptr` goes out of scope, any captured reference must refer to an object with equal or greater
 Scope. This is easy to violate in practice — prefer capturing by value.
-:::
-
+</aside>
 ### 5.5.3 Functor Deleters with State
 
 A functor deleter can carry state, which is useful when the cleanup requires additional context:
@@ -376,11 +372,10 @@ int main() {
 | Lambda (no capture)             | 0 bytes           | Stateless, EBO applies   |
 | Lambda (captures)               | Size of captures  | Stored inline            |
 
-:::tip Prefer stateless functor deleters or captureless lambdas to avoid size overhead. If a deleter
+<aside aria-label="Prefer stateless functor deleters or captureless lambdas to avoid size overhead. If a deleter" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Prefer stateless functor deleters or captureless lambdas to avoid size overhead. If a deleter</p>
 Must carry state, consider whether `std::shared_ptr` with a capturing lambda is more appropriate,
 Since `shared_ptr` type-erases the deleter into the control block.
-:::
-
+</aside>
 ### Compile-Time Analysis of Deleter Storage
 
 The compiler can determine at compile time whether a deleter adds overhead and whether it is
@@ -552,12 +547,11 @@ void allocator_mismatch_example() {
 }
 ```
 
-:::caution Never extract a raw pointer from an allocator-aware container and manage it with a
+<aside aria-label="Never extract a raw pointer from an allocator-aware container and manage it with a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never extract a raw pointer from an allocator-aware container and manage it with a</p>
 Default-deleter smart pointer. The allocation and deallocation mechanisms must match. If you need to
 Transfer ownership out of a container, use `std::move`Extract via `release()` on allocator-aware
 Wrappers, or use `std::pmr` resources [N4950 S23.12].
-:::
-
+</aside>
 ## 5.10 Type Erasure: How `shared_ptr` Stores Deleters
 
 `std::shared_ptr` uses type erasure to store the deleter in the control block, decoupling the
@@ -724,7 +718,7 @@ auto arr = std::shared_ptr<int[]>(new int[10], std::default_delete<int[]>());
 auto arr2 = std::shared_ptr<int>(new int[10], [](int* p) { delete[] p; });
 ```
 
-:::caution `std::shared_ptr&lt;T[]&gt;` (the partial specialization for arrays) was added in C++17
+<aside aria-label="`std::shared_ptr&lt;T[]&gt;` (the partial specialization for arrays) was added in C++17" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::shared_ptr&lt;T[]&gt;` (the partial specialization for arrays) was added in C++17</p>
 [N4950 S20.11.3.7]. It provides `operator[]` but still requires an explicit array deleter. Before
 C++17, managing arrays with `shared_ptr` required manually passing `default_delete&lt;T[]&gt;` or a
 Lambda.
@@ -793,4 +787,4 @@ When working with common pitfalls, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 
-:::
+</aside>

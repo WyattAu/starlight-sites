@@ -158,9 +158,7 @@ sendto(sockfd, "hello", 5, 0,
     (struct sockaddr *)&server_addr, sizeof(server_addr));
 ```
 
-:::caution
-
-UDP traffic is often blocked by firewalls because there is no connection handshake to track state.
+<aside aria-label="UDP traffic is often blocked by firewalls because there is no connection handshake to track state." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>UDP traffic is often blocked by firewalls because there is no connection handshake to track state.</p>
 Many NAT devices have difficulty forwarding UDP traffic correctly. UDP-based protocols often
 Implement their own keepalive and NAT traversal mechanisms (e.g., STUN/TURN for WebRTC, WireGuard's
 Keepalive). UDP NAT mappings have shorter timeouts than TCP (30-60 seconds vs hours), so long-lived
@@ -234,10 +232,8 @@ Second FIN enters the `LAST-ACK` state. After sending the final ACK, the first e
    destination IP, destination port). The 2MSL wait ensures that any delayed segments from the old
    connection have been delivered or dropped.
 
-:::
-:::info
-
-The TIME-WAIT state is the source of one of the most common production networking issues. A server
+</aside>
+<aside aria-label="The TIME-WAIT state is the source of one of the most common production networking issues. A server" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The TIME-WAIT state is the source of one of the most common production networking issues. A server</p>
 That rapidly opens and closes connections (e.g., an HTTP/1.1 server without keep-alive) accumulates
 Connections in TIME-WAIT on the client side. If the client exhausts its ephemeral port space, new
 Connections fail with "address already in use." Solutions include `SO_REUSEADDR`/`SO_REUSEPORT`
@@ -805,4 +801,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

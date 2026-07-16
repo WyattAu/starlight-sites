@@ -45,13 +45,12 @@ _Context in Probability:_ $L^p$ is the quotient space of $\mathcal◆LB◆◆LB�
 (the space of measurable functions with finite $p$-**semi-norm**) under the equivalence relation
 $f \sim g \iff f=g$ $\mu$-a.e. Formally, $L^p = \mathcal◆LB◆◆LB◆'◆RB◆L◆LB◆◆RB◆'◆RB◆^p / \sim$.
 
-:::caution **Semi-norm vs. Norm:** The functional $\lVert \cdot \rVert_p$ is only a **semi-norm** on
+<aside aria-label="**Semi-norm vs. Norm:** The functional $\lVert \cdot \rVert_p$ is only a **semi-norm** on" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Semi-norm vs. Norm:** The functional $\lVert \cdot \rVert_p$ is only a **semi-norm** on</p>
 $\mathcal◆LB◆◆LB◆'◆RB◆L◆LB◆◆RB◆'◆RB◆^p$ because $\lVert f \rVert_p = 0 \implies f = 0$ almost
 everywhere, not everywhere. It becomes a true **norm** only after quotienting by the equivalence
 relation to obtain $L^p$. This distinction ensures $L^p$ is a Banach space by identifying functions
 that differ only on null sets.
-:::
-
+</aside>
 ## Topology and Metric Spaces
 
 ### Topology
@@ -224,11 +223,10 @@ called measurable sets, where $\mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB�
 3. Closure under countable Union:
    $A_1, A_2, \dots \in \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆ \implies \bigcup^\infty_◆LB◆i=1◆RB◆ A_i \in \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆$
 
-:::info Why condition 3 is necessary: Countable unions are required to handle limits, for example,
+<aside aria-label="Why condition 3 is necessary: Countable unions are required to handle limits, for example," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Why condition 3 is necessary: Countable unions are required to handle limits, for example,</p>
 when we analyze a sequence of events $\lim_◆LB◆n\to \infty◆RB◆ A_n$Without closure under countable
 unions, probabilities cannot be assign to limits of random variables.
-:::
-
+</aside>
 ### Sub-$\sigma$-algebra
 
 Given a measurable space $(\Omega, \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆)$A collection
@@ -296,19 +294,17 @@ $$
 
 Assuming the set $\{x \in \Omega : f(x) \neq g(x)\}$ is measurable.
 
-:::caution **Rigor Note:** In pure measure theory, the set $\{x \in \Omega : f(x) \neq g(x)\}$ need
+<aside aria-label="**Rigor Note:** In pure measure theory, the set $\{x \in \Omega : f(x) \neq g(x)\}$ need" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Rigor Note:** In pure measure theory, the set $\{x \in \Omega : f(x) \neq g(x)\}$ need</p>
 not be measurable if the measure space is not complete. The fully rigorous formulation is: There
 exists a measurable null set $N \in \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆$ such that $\mu(N) = 0$ and
 $\{x \in \Omega : f(x) \neq g(x)\} \subseteq N$. This bypasses the need to assume the inner set is
 measurable and introduces the concept of measure space completeness (see _Completeness of a Measure
 Space_ below).
-:::
-
-:::info **Terminology Note:** When the measure $\mu$ is a probability measure $P$"almost everywhere"
+</aside>
+<aside aria-label="**Terminology Note:** When the measure $\mu$ is a probability measure $P$"almost everywhere"" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Terminology Note:** When the measure $\mu$ is a probability measure $P$"almost everywhere"</p>
 (a.e.) is conventionally called "almost surely" (a.s.). We write $f = g$ a.s. Or $f = g$ $P$-a.e.
 Interchangeably.
-:::
-
+</aside>
 ### Completeness of a Measure Space
 
 A measure space $(\Omega, \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆, \mu)$ is **complete** if every subset
@@ -427,10 +423,9 @@ $$
 
 Where $| \cdot |$ denotes the **cardinality** (number of elements) of the set, not absolute value.
 
-:::info In statistical contexts, if $X_1, \dots, X_n$ are random elements, $\hat◆LB◆P◆RB◆_n$ becomes
+<aside aria-label="In statistical contexts, if $X_1, \dots, X_n$ are random elements, $\hat◆LB◆P◆RB◆_n$ becomes" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In statistical contexts, if $X_1, \dots, X_n$ are random elements, $\hat◆LB◆P◆RB◆_n$ becomes</p>
 a RandomMeasure mapping $\omega \mapsto \frac◆LB◆1◆RB◆◆LB◆n◆RB◆\sum \delta_◆LB◆X_i(\omega)◆RB◆$.
-:::
-
+</aside>
 ### Support of a Measure
 
 Given a Borel probability measure $\mu$ on a topological space $(S, \tau)$The support of
@@ -459,10 +454,9 @@ measures $\mathcal◆LB◆◆LB◆'◆RB◆M◆LB◆◆RB◆'◆RB◆_1(S)$ is t
 $(S, \mathcal◆LB◆◆LB◆'◆RB◆B◆LB◆◆RB◆'◆RB◆(S))$ such that $\mu(S) = 1$ for all
 $\mu \in \mathcal◆LB◆◆LB◆'◆RB◆M◆LB◆◆RB◆'◆RB◆_1(S)$.
 
-:::info The notation $\mathcal◆LB◆◆LB◆'◆RB◆M◆LB◆◆RB◆'◆RB◆_1$ emphasizes that these are probability
+<aside aria-label="The notation $\mathcal◆LB◆◆LB◆'◆RB◆M◆LB◆◆RB◆'◆RB◆_1$ emphasizes that these are probability" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The notation $\mathcal◆LB◆◆LB◆'◆RB◆M◆LB◆◆RB◆'◆RB◆_1$ emphasizes that these are probability</p>
 measures (total mass 1), as opposed to general measures with arbitrary mass.
-:::
-
+</aside>
 ### Probability Space
 
 A probability space is a tuple $(\Omega, \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆, P)$Where
@@ -574,11 +568,10 @@ $$
 P\left(\bigcap_◆LB◆i\in I◆RB◆ A_i\right) = \prod_◆LB◆i\in I◆RB◆P(A_i)
 $$
 
-:::info **Terminology Note:** The term "marginal independence" is sometimes used to refer to
+<aside aria-label="**Terminology Note:** The term "marginal independence" is sometimes used to refer to" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Terminology Note:** The term "marginal independence" is sometimes used to refer to</p>
 unconditional independence $X \perp Y$Contrasting with conditional independence $X \perp Y \mid Z$.
 For the independence of $n$ events, "mutual independence" is the standard terminology.
-:::
-
+</aside>
 ### Conditional Independence
 
 Given that event $C \in \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆$ holds, event
@@ -730,12 +723,11 @@ $$
 Where $\alpha_i \in \mathbb◆LB◆◆LB◆'◆RB◆R◆LB◆◆RB◆'◆RB◆$ are real coefficients and
 $A_i \in \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆$ are pairwise disjoint measurable sets.
 
-:::info **Non-negative Simple Function:** For the construction of the Lebesgue integral, we
+<aside aria-label="**Non-negative Simple Function:** For the construction of the Lebesgue integral, we" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Non-negative Simple Function:** For the construction of the Lebesgue integral, we</p>
 specifically use **non-negative simple functions** where $\alpha_i \in [0, \infty)$ for all $i$.
 General simple functions (allowing negative coefficients) are used in the final step of the integral
 construction.
-:::
-
+</aside>
 ### Lebesgue Integral
 
 This is an integral constructed from $3$ steps:
@@ -755,15 +747,13 @@ This is an integral constructed from $3$ steps:
    \int f d \mu = \int f^+ d\mu - \int f^- d\mu
    $$
 
-:::caution **Edge Cases:**
-
+<aside aria-label="**Edge Cases:**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Edge Cases:**</p>
 - If $\int f^+ < \infty$ and $\int f^- < \infty$: $f$ is **Lebesgue Integrable** ($f \in L^1$).
 - If only one of $\int f^+$ or $\int f^-$ is infinite: The integral **exists** (evaluates to
   $\pm\infty$), but $f$ is **not integrable**.
 - If both $\int f^+ = \infty$ and $\int f^- = \infty$: The integral is **undefined**.
 
-:::
-
+</aside>
 ### Expectation (Real-valued)
 
 For a real-valued random variable $X: \Omega \to \mathbb◆LB◆◆LB◆'◆RB◆R◆LB◆◆RB◆'◆RB◆$The expectation
@@ -875,13 +865,12 @@ _Intuition:_ A function $f: \Omega \to \mathbb◆LB◆◆LB◆'◆RB◆V◆LB◆
 it is the limit of simple Banach-valued functions and its norm is Lebesgue integrable:
 $\int_\Omega \lVert f(\omega) \rVert \, d\mu(\omega) < \infty$.
 
-:::info **Bochner's Theorem:** A strongly measurable function
+<aside aria-label="**Bochner's Theorem:** A strongly measurable function" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Bochner's Theorem:** A strongly measurable function</p>
 $X: \Omega \to \mathbb◆LB◆◆LB◆'◆RB◆V◆LB◆◆RB◆'◆RB◆$ is Bochner integrable _if and only if_ its norm
 is Lebesgue integrable: $$\int_\Omega \lVert X(\omega) \rVert \, d\mu(\omega) < \infty$$ This is the
 characteristic criterion for Bochner integrability and is formally stated in the _Bochner Integral_
 definition below.
-:::
-
+</aside>
 ### Fubini-Tonelli Theorem
 
 Let $(\Omega_1, \mathcal◆LB◆◆LB◆'◆RB◆F◆LB◆◆RB◆'◆RB◆_1, \mu_1)$ and
@@ -1120,12 +1109,11 @@ $$
 \lim_◆LB◆n\rightarrow \infty◆RB◆ P\left(d(X_n(\omega), X(\omega)) > \epsilon \right) = 0
 $$
 
-:::caution **Crucial Distinction from Weak Convergence:** Convergence in probability requires $X_n$
+<aside aria-label="**Crucial Distinction from Weak Convergence:** Convergence in probability requires $X_n$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Crucial Distinction from Weak Convergence:** Convergence in probability requires $X_n$</p>
 and $X$ to be defined on the **same** probability space. In contrast, weak convergence (convergence
 in distribution) allows random variables to exist on entirely different probability spaces as long
 as they map to the same target metric space.
-:::
-
+</aside>
 ### Weak Convergence
 
 Let $X_n, X$ be random elements in a metric space $S$. $X_n$ converges weakly to $X$Denoted
@@ -1207,13 +1195,12 @@ Where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb◆L
 reduces to $\varphi_X(t) = \mathbb◆LB◆◆LB◆'◆RB◆E◆LB◆◆RB◆'◆RB◆\left[ e^◆LB◆i t^\top X◆RB◆ \right]$ with
 $t \in \mathbb◆LB◆◆LB◆'◆RB◆R◆LB◆◆RB◆'◆RB◆^d$.
 
-:::info **Generalization to Banach Spaces:** For a random variable $X$ taking values in a Banach
+<aside aria-label="**Generalization to Banach Spaces:** For a random variable $X$ taking values in a Banach" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Generalization to Banach Spaces:** For a random variable $X$ taking values in a Banach</p>
 space $B$ (which may lack an inner product), $t$ belongs to the _dual space_ $B^*$And the
 characteristic function is defined as $\varphi_X(t) = \mathbb◆LB◆◆LB◆'◆RB◆E◆LB◆◆RB◆'◆RB◆\left[ e^◆LB◆i t(X)◆RB◆ \right]$
 where $t: B \to \mathbb◆LB◆◆LB◆'◆RB◆R◆LB◆◆RB◆'◆RB◆$ is a continuous linear functional. For Hilbert spaces, the
 Riesz Representation Theorem identifies $B^*$ with $B$Recovering the inner product formulation.
-:::
-
+</aside>
 ### Levy's Continuity Theorem
 
 Let $X_n$ be random variables with characteristic functions $\varphi_n(t)$.
@@ -1231,13 +1218,12 @@ Let $X_1, X_2, \dots$ be i.i.d. Random variables with $\mathbb◆LB◆◆LB◆'�
 **Strong Law of Large Numbers (SLLN):**
 $\bar◆LB◆X◆RB◆_n = \frac◆LB◆1◆RB◆◆LB◆n◆RB◆\sum_◆LB◆i=1◆RB◆^n X_i \xrightarrow◆LB◆a.s.◆RB◆ \mu$
 
-:::caution **Important Distinction for ERM:** The standard LLN only guarantees that the empirical
+<aside aria-label="**Important Distinction for ERM:** The standard LLN only guarantees that the empirical" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Important Distinction for ERM:** The standard LLN only guarantees that the empirical</p>
 risk of a _single, fixed_ hypothesis converges to its true risk. To justify Empirical Risk
 Minimization (ERM) where we search for the _minimum_ across a hypothesis class
 $\mathcal◆LB◆◆LB◆'◆RB◆H◆LB◆◆RB◆'◆RB◆$We need the **Uniform Law of Large Numbers (ULLN)** to prevent overfitting.
 See Glivenko-Cantelli theorem.
-:::
-
+</aside>
 ### Central Limit Theorem (CLT)
 
 Let $X_1, X_2, \dots$ be i.i.d. Random variables with mean $\mu$ and finite covariance $\Sigma$.
@@ -1608,14 +1594,13 @@ $$
 
 $$
 
-:::caution **Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of
+<aside aria-label="**Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of</p>
 conditional expectation (and for the Fréchet mean to be well-defined via Bochner integration), $S$
 cannot be an arbitrary metric space. It must be a subset of a vector space (specifically, a Banach
 space) where addition and scalar multiplication are defined, enabling the Bochner integral. For
 general metric spaces, the Fréchet mean is defined via the minimization formulation above, which
 does not require linear structure.
-:::
-
+</aside>
 ## Statistical Models and Information Geometry
 
 ### Parameter Space
@@ -1818,8 +1803,7 @@ $$
 
 If $P \not\ll Q$Then $D_◆LB◆KL◆RB◆(P \| Q) = +\infty$.
 
-:::caution **KL Divergence is NOT a Metric:**
-
+<aside aria-label="**KL Divergence is NOT a Metric:**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**KL Divergence is NOT a Metric:**</p>
 Despite its widespread use, KL divergence fails to satisfy the axioms of a metric:
 
 1. **Asymmetry:** $D_◆LB◆KL◆RB◆(P \| Q) \neq D_◆LB◆KL◆RB◆(Q \| P)$ . This is why I-Projection and M-Projection
@@ -1831,8 +1815,7 @@ This motivates the use of alternative divergences that **are** proper metrics:
 - **Wasserstein Metric:** A true metric with meaningful gradients even for disjoint supports.
 - **Jensen-Shannon Divergence:** Symmetric and bounded; $\sqrt◆LB◆D_◆LB◆JS◆RB◆◆RB◆$ is a true metric.
 
-:::
-
+</aside>
 ### Jensen-Shannon Divergence
 
 The Jensen-Shannon Divergence (JSD) is a symmetrized and smoothed version of KL divergence:
@@ -1904,16 +1887,14 @@ _Intuition:_ $D_◆LB◆KL◆RB◆$ measures the "extra" bits needed to encode d
 optimized for $Q$While Cross-Entropy $H(P, Q)$ measures the "total" bits. Minimizing cross-entropy
 is equivalent to minimizing KL divergence since $H(P)$ is constant with respect to $Q$.
 
-:::caution **Caveats for Continuous Distributions:**
-
+<aside aria-label="**Caveats for Continuous Distributions:**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Caveats for Continuous Distributions:**</p>
 1. This decomposition requires $P \ll Q$ (absolute continuity) and the integrals to be absolutely
    convergent.
 2. For differential entropy (continuous case), $H(P)$ can be **negative**, unlike Shannon entropy
    which is always non-negative.
 3. In ML, cross-entropy is computed directly as $-\log q(x)$ without explicitly computing $H(P)$.
 
-:::
-
+</aside>
 ### Information Projection (I-Projection) vs. Moment Projection (M-Projection)
 
 Given a distribution $P$ and a family of distributions $\mathcal◆LB◆◆LB◆'◆RB◆Q◆LB◆◆RB◆'◆RB◆$:

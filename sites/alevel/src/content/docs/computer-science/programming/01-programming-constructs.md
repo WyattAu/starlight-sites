@@ -45,10 +45,9 @@ y = float(5)       # y = 5.0
 z = str(42)        # z = "42"
 ```
 
-:::caution Pitfall In Python, `int(3.9)` truncates toward zero (gives 3), not rounds. Use
+<aside aria-label="Pitfall In Python, `int(3.9)` truncates toward zero (gives 3), not rounds. Use" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall In Python, `int(3.9)` truncates toward zero (gives 3), not rounds. Use</p>
 `round(3.9)` for rounding.
-:::
-
+</aside>
 <hr />
 
 ## 2. Selection (Conditional Statements)
@@ -149,13 +148,12 @@ while True:
         break
 ```
 
-:::info Board-specific **AQA** uses specific pseudocode format with `IF ... THEN ... ELSE ... ENDIF`
+<aside aria-label="Board-specific **AQA** uses specific pseudocode format with `IF ... THEN ... ELSE ... ENDIF`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific **AQA** uses specific pseudocode format with `IF ... THEN ... ELSE ... ENDIF`</p>
 And `WHILE ... ENDWHILE`. **CIE (9618)** uses its own pseudocode format; requires procedure and
 Function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode format; requires
 Local and global variable scope understanding. **Edexcel** uses pseudocode similar to Python-style;
 Requires subroutines with parameters.
-:::
-
+</aside>
 <hr />
 
 ## 4. Recursion
@@ -215,8 +213,7 @@ $\phi = \frac◆LB◆1+\sqrt{5}◆RB◆◆LB◆2◆RB◆ \approx 1.618$ (the gol
 $\psi = \frac◆LB◆1-\sqrt{5}◆RB◆◆LB◆2◆RB◆$. The solution is $T(n) = A\phi^n + B\psi^n$. Since
 $|\psi| \lt 1$ $T(n) = \Theta(\phi^n)$. $\square$
 
-:::caution Warning Iteration for $O(n)$ time:
-
+<aside aria-label="Warning Iteration for $O(n)$ time:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Iteration for $O(n)$ time:</p>
 ```python
 def fib_iter(n):
     if n <= 1:
@@ -941,4 +938,4 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-:::
+</aside>

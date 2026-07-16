@@ -65,12 +65,11 @@ int main() {
 }
 ```
 
-:::note With multiple inheritance, `pa` and `pb` point to **different addresses** within the same
+<aside aria-label="With multiple inheritance, `pa` and `pb` point to **different addresses** within the same" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>With multiple inheritance, `pa` and `pb` point to **different addresses** within the same</p>
 `C` object -- they point to the respective base subobjects. The compiler generates **thunks** (small
 Adjustment stubs) to correct the `this` pointer when dispatching virtual calls through non-primary
 Bases.
-:::
-
+</aside>
 ## 2.2 Object Slicing
 
 Object slicing occurs when a derived object is copied into a base-class object by value. Only the
@@ -152,10 +151,9 @@ When `d` is passed by value to `process_by_value`Only the `Animal` subobject is 
 set to `Animal`'s vtable, so `a.speak()` dispatches to `Animal::speak`. The `Dog`-specific data
 (`breed`) and the `Dog::speak` override are lost.
 
-:::caution Never pass polymorphic objects by value. Always use pointers (`Animal*`) or references
+<aside aria-label="Never pass polymorphic objects by value. Always use pointers (`Animal*`) or references" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never pass polymorphic objects by value. Always use pointers (`Animal*`) or references</p>
 (`Animal&` / `const Animal&`) to preserve the dynamic type.
-:::
-
+</aside>
 ## 2.3 Slicing in Containers
 
 One of the most common sources of slicing is storing polymorphic objects in `std::vector` by value.
@@ -295,11 +293,10 @@ With `BadBase`Only `BadBase::~BadBase()` is called -- `BadDerived::~BadDerived()
 Causing resource leaks. With `GoodBase`The virtual dispatch mechanism selects
 `GoodDerived::~GoodDerived()`Which then implicitly calls `GoodBase::~GoodBase()`.
 
-:::tip Rule If a class has **any** virtual function, its destructor **must** also be virtual. If a
+<aside aria-label="Rule If a class has **any** virtual function, its destructor **must** also be virtual. If a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Rule If a class has **any** virtual function, its destructor **must** also be virtual. If a</p>
 Class is designed to be a polymorphic base class, always declare `virtual ~Base() = default;` (or
 Provide a virtual destructor with a body).
-:::
-
+</aside>
 ### Destructor Chaining Order
 
 When a `Derived` object is destroyed through a `Base*` with a virtual destructor:
@@ -437,11 +434,10 @@ private:
 };
 ```
 
-:::note Convention Prefixing interface names with `I` (e.g., `ISerializable`) is a common C++
+<aside aria-label="Convention Prefixing interface names with `I` (e.g., `ISerializable`) is a common C++" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Convention Prefixing interface names with `I` (e.g., `ISerializable`) is a common C++</p>
 Convention borrowed from COM and C#. It is not mandated by the Standard. Alternatives include
 Suffixes like `-able` (e.g., `Serializable`).
-:::
-
+</aside>
 ## 2.7 Virtual Inheritance and the Diamond Problem
 
 When two base classes each inherit from the same base, a **diamond inheritance** pattern arises.
@@ -511,12 +507,11 @@ Pointer (stored in the vtable or as a separate vptr) to locate the shared `Devic
 Runtime. This adds one level of indirection to every access of a virtual base member [N4950
 S11.7.1].
 
-:::caution Virtual inheritance adds runtime cost: accessing members of a virtual base requires an
+<aside aria-label="Virtual inheritance adds runtime cost: accessing members of a virtual base requires an" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Virtual inheritance adds runtime cost: accessing members of a virtual base requires an</p>
 Extra indirection through the vbase offset table. Construction order is also affected -- virtual
 Bases are constructed by the most-derived class, before any non-virtual base classes [N4950
 S11.9.3]. Avoid virtual inheritance unless the diamond pattern is genuinely needed.
-:::
-
+</aside>
 ## 2.8 `override``final`And Name Hiding
 
 A derived class member function with the **same name** as a base class function **hides** all base
@@ -561,11 +556,10 @@ The `using Base::process;` declaration in `Derived_Right` un-hides the remaining
 Applies even when the derived function is `virtual` and does override one specific overload -- all
 Other overloads are still hidden.
 
-:::tip Best Practice When overriding a base class function that participates in overloading, always
+<aside aria-label="Best Practice When overriding a base class function that participates in overloading, always" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Best Practice When overriding a base class function that participates in overloading, always</p>
 Add `using Base::function_name;` in the derived class to avoid accidentally hiding sibling
 Overloads. The `override` keyword catches signature mismatches but does not prevent hiding.
-:::
-
+</aside>
 ## 2.9 Slicing and Return Values
 
 Object slicing also occurs when returning by value. A function that returns `Base` will slice any
@@ -683,7 +677,7 @@ int main() {
 }
 ```
 
-:::caution Always catch exceptions by reference (`const std::exception& e`). Catching by value
+<aside aria-label="Always catch exceptions by reference (`const std::exception& e`). Catching by value" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always catch exceptions by reference (`const std::exception& e`). Catching by value</p>
 Slices the exception object, losing derived-class information and potentially invoking slicing in
 The exception handler itself.
 
@@ -790,4 +784,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

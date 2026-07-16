@@ -84,11 +84,10 @@ void transfer_demo() {
 }
 ```
 
-:::note Relevance Move-only semantics are the foundation of C++ ownership discipline. If a function
+<aside aria-label="Relevance Move-only semantics are the foundation of C++ ownership discipline. If a function" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance Move-only semantics are the foundation of C++ ownership discipline. If a function</p>
 Takes a `unique_ptr` by value, the caller **must** explicitly transfer ownership with `std::move`.
 This makes the ownership transfer visible at the call site.
-:::
-
+</aside>
 ## 2.4 Custom Deleters
 
 `std::unique_ptr<T, D>` accepts a second template parameter: the **deleter type** `D`. The deleter
@@ -154,10 +153,9 @@ void array_demo() {
 }
 ```
 
-:::caution `std::make_unique` with arrays initializes elements to value-initialization (zero for
+<aside aria-label="`std::make_unique` with arrays initializes elements to value-initialization (zero for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::make_unique` with arrays initializes elements to value-initialization (zero for</p>
 Built-in types). If you need non-zero initialization, use `std::vector` or construct manually.
-:::
-
+</aside>
 ## 2.6 `unique_ptr` with Polymorphism
 
 `unique_ptr` is the canonical way to manage polymorphic objects. The deleter calls `delete` on the
@@ -216,11 +214,10 @@ int main() {
 }
 ```
 
-:::caution If the base class lacks a virtual destructor, `delete base_ptr` where `base_ptr` actually
+<aside aria-label="If the base class lacks a virtual destructor, `delete base_ptr` where `base_ptr` actually" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If the base class lacks a virtual destructor, `delete base_ptr` where `base_ptr` actually</p>
 Points to a derived object is undefined behavior [N4950 §11.7.3]. The derived destructor does not
 Run, leaking resources. Always use `virtual ~Base() = default;` in polymorphic base classes.
-:::
-
+</aside>
 ## 2.7 `unique_ptr` as a Class Member
 
 `unique_ptr` as a class member simplifies resource management and eliminates the need for manual
@@ -353,11 +350,10 @@ int main() {
 }
 ```
 
-:::note `std::vector<std::unique_ptr<T>>` provides stable pointers and references to elements (no
+<aside aria-label="`std::vector<std::unique_ptr<T>>` provides stable pointers and references to elements (no" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`std::vector<std::unique_ptr<T>>` provides stable pointers and references to elements (no</p>
 Iterator invalidation on push_back amortized, only on reallocation). This makes it safe to hold raw
 Pointers to elements as long as no insertion triggers a reallocation.
-:::
-
+</aside>
 ## 2.9 `unique_ptr` and Incomplete Types (Pimpl Idiom)
 
 `unique_ptr` can hold a pointer to an **incomplete type** in a header file, as long as the deleter
@@ -442,12 +438,11 @@ int main() {
 }
 ```
 
-:::caution If you write `~Widget() = default;` in the header (where `Impl` is incomplete), the
+<aside aria-label="If you write `~Widget() = default;` in the header (where `Impl` is incomplete), the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you write `~Widget() = default;` in the header (where `Impl` is incomplete), the</p>
 Compiler generates the destructor body at each call site. The `delete impl_` call requires `Impl` to
 Be complete. This causes a compilation error. Always declare `~Widget();` in the header and define
 It (as `= default` or manually) in the `.cpp` file.
-:::
-
+</aside>
 ## 2.10 `sizeof(unique_ptr)` Comparison Across Types
 
 The size of `unique_ptr` depends on the deleter type. With the default deleter (stateless, zero-size
@@ -583,11 +578,10 @@ int main() {
 }
 ```
 
-:::caution `release()` does not delete the managed object. It returns the raw pointer and sets the
+<aside aria-label="`release()` does not delete the managed object. It returns the raw pointer and sets the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`release()` does not delete the managed object. It returns the raw pointer and sets the</p>
 `unique_ptr` to null. The caller assumes responsibility for cleanup. Use `release()` only when you
 Are transferring ownership to another mechanism (e.g., a C API that takes ownership).
-:::
-
+</aside>
 ## Common Pitfalls
 
 ### Using `unique_ptr` with Arrays Incorrectly

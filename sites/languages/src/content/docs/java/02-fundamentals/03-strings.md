@@ -68,11 +68,10 @@ String s2 = "hello";
 System.out.println(s1 == s2); // true
 ```
 
-:::caution Do not intern user-controlled strings at scale. The pool is unbounded, and interning
+<aside aria-label="Do not intern user-controlled strings at scale. The pool is unbounded, and interning" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not intern user-controlled strings at scale. The pool is unbounded, and interning</p>
 Billions of unique strings (e.g., every URL your crawler visits) will cause `OutOfMemoryError`.
 Intern only strings that appear frequently and have bounded cardinality.
-:::
-
+</aside>
 ### Compact Strings (JDK 9+)
 
 Before JDK 9, every `String` stored its characters in a `char[]` — 2 bytes per character. JDK 9
@@ -216,11 +215,10 @@ String s = "Hello, World!";
 String sub = s.substring(7, 12); // "World"
 ```
 
-:::info Prior to JDK 7u6, `substring` shared the backing `char[]` with the original string, which
+<aside aria-label="Prior to JDK 7u6, `substring` shared the backing `char[]` with the original string, which" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Prior to JDK 7u6, `substring` shared the backing `char[]` with the original string, which</p>
 Could cause memory leaks (the original large string could not be GC'd if a small substring was
 Retained). Since JDK 7u6, `substring` copies the relevant portion into a new `char[]`.
-:::
-
+</aside>
 ### Split and Join
 
 ```java
@@ -317,10 +315,9 @@ emoji.codePoints().forEach(cp -> {
 // U+0048 U+0065 U+006C U+006C U+006F U+0020 U+1F30D
 ```
 
-:::caution Never use `charAt` or iterate `char`-by-`char` on strings that may contain surrogate
+<aside aria-label="Never use `charAt` or iterate `char`-by-`char` on strings that may contain surrogate" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use `charAt` or iterate `char`-by-`char` on strings that may contain surrogate</p>
 Pairs. Use `codePoints()``codePointAt()`Or iterate with `Character.isHighSurrogate` checks.
-:::
-
+</aside>
 ## Regular Expressions
 
 Java's regex engine is in `java.util.regex`. The two primary classes are `Pattern` (compiled
@@ -462,12 +459,11 @@ CharsetEncoder strict = StandardCharsets.UTF_8.newEncoder()
     .onUnmappableCharacter(CodingErrorAction.REPORT);
 ```
 
-:::caution Never rely on the platform default charset. It varies by operating system and locale
+<aside aria-label="Never rely on the platform default charset. It varies by operating system and locale" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never rely on the platform default charset. It varies by operating system and locale</p>
 Setting. A program that works on Linux (UTF-8 default) will mangle data on Windows (Windows-1252
 Default) if you use `getBytes()` or `new String(byte[])` without an explicit charset. Always use
 `StandardCharsets.UTF_8` or a specific `Charset` constant.
-:::
-
+</aside>
 ## String Formatting
 
 ### `String.format`
@@ -531,7 +527,7 @@ while (st.hasMoreTokens()) {
 String[] parts = "one,two,three".split(",");
 ```
 
-:::tip Always prefer `split` or compiled `Pattern` over `StringTokenizer`. The only advantage of
+<aside aria-label="Always prefer `split` or compiled `Pattern` over `StringTokenizer`. The only advantage of" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always prefer `split` or compiled `Pattern` over `StringTokenizer`. The only advantage of</p>
 `StringTokenizer` is that it does not compile a regex, but `Pattern.compile(",")` is negligible.
 
 ## Common String Algorithms
@@ -957,4 +953,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

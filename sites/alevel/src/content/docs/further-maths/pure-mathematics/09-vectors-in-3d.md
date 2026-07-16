@@ -25,11 +25,10 @@ Tools are essential for geometry, mechanics, and physics at university level.
 | OCR (A) | Paper 1 | 3D vectors, scalar product, vector product, planes                        |
 | CIE     | P1      | 3D vectors, scalar product, vector product, lines, planes, intersections  |
 
-:::info All boards cover 3D vectors, the scalar product, and the vector product. AQA includes the
+<aside aria-label="All boards cover 3D vectors, the scalar product, and the vector product. AQA includes the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>All boards cover 3D vectors, the scalar product, and the vector product. AQA includes the</p>
 Scalar triple product for volumes. CIE places particular emphasis on intersections of lines and
 Planes.
-:::
-
+</aside>
 <hr />
 
 ## 1. Review of A Level Vectors
@@ -161,10 +160,9 @@ $\mathbf{b}$And its direction is given by the right-hand rule.
 - $\mathbf{i}\times\mathbf{j} = \mathbf{k}$, $\mathbf{j}\times\mathbf{k} = \mathbf{i}$
   $\mathbf{k}\times\mathbf{i} = \mathbf{j}$
 
-:::caution warning $\mathbf{a}\times\mathbf{b} = -\mathbf{b}\times\mathbf{a}$. The cross product is
+<aside aria-label="warning $\mathbf{a}\times\mathbf{b} = -\mathbf{b}\times\mathbf{a}$. The cross product is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>warning $\mathbf{a}\times\mathbf{b} = -\mathbf{b}\times\mathbf{a}$. The cross product is</p>
 Only defined in 3D.
-:::
-
+</aside>
 <hr />
 
 ## 5. Equation of a Line in 3D
@@ -355,7 +353,7 @@ $\square$
 - $[\mathbf{a}\,\mathbf{b}\,\mathbf{c}] = 0$ if and only if $\mathbf{a}$$\mathbf{b}$$\mathbf{c}$ are
   coplanar
 
-:::info info $C$$D$ are coplanar, then
+<aside aria-label="info $C$$D$ are coplanar, then" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>info $C$$D$ are coplanar, then</p>
 $\overrightarrow{AB}\cdot(\overrightarrow{AC}\times\overrightarrow{AD}) = 0$.
 
 <hr />
@@ -1172,4 +1170,4 @@ The lines intersect at $\boxed{(1,0,0)}$.
 6. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-:::
+</aside>

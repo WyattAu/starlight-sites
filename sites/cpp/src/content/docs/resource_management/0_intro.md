@@ -30,7 +30,7 @@ This part covers four tightly coupled topics:
 4. **Error Handling (Module 13):** Exception safety guarantees, `noexcept`And the modern algebraic
    alternatives (`std::expected``std::variant`).
 
-:::note Prerequisite Reading This part assumes familiarity with stack frames (Module 3.4), heap
+<aside aria-label="Prerequisite Reading This part assumes familiarity with stack frames (Module 3.4), heap" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Prerequisite Reading This part assumes familiarity with stack frames (Module 3.4), heap</p>
 Allocation (Module 3.5), pointers (Module 3.6), and class basics (Module 9). Exception mechanics are
 Covered in detail in Module 13.
 
@@ -156,8 +156,7 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
-
+</aside>
 ## Related Topics
 
 - [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust"s compile-time ownership model as an alternative to C++ manual resource management.

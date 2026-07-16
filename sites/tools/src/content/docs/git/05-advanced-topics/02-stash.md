@@ -24,9 +24,7 @@ stashes and pop them in LIFO order.
 - Running a quick test on a clean working directory.
 - Context-switching between tasks.
 
-:::caution
-
-Stash is **not a substitute for branches**. Stashes are stored as commits in the object database,
+<aside aria-label="Stash is **not a substitute for branches**. Stashes are stored as commits in the object database," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Stash is **not a substitute for branches**. Stashes are stored as commits in the object database,</p>
 but they are not visible in `git log` and can be accidentally dropped. If your changes are
 substantial, commit them on a branch instead.
 
@@ -212,4 +210,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

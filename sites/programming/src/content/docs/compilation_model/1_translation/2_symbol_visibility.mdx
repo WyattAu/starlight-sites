@@ -35,12 +35,11 @@ Any other TU.
 
 - _Enforcement:_ Linker Error ("Multiple Definition" / "Symbol already defined").
 
-:::danger The ODR Violation Trap If two different TUs define the same class/struct `Foo` (e.g., via
+<Aside type="danger" title="The ODR Violation Trap If two different TUs define the same class/struct `Foo` (e.g., via">
 Copy-pasted headers), but the definitions differ (e.g., different member order or types), the linker
 **may not detect this**. This is **Undefined Behavior**. The runtime may crash or corrupt memory
 Because code in TU 'A' assumes one memory layout while code in TU 'B' assumes another.
-:::
-
+</Aside>
 ## Linkage Types
 
 Linkage describes how a name interacts across translation unit boundaries.

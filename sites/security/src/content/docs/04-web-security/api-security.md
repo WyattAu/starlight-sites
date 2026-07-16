@@ -40,9 +40,7 @@ def validate_api_key():
     g.api_key_info = API_KEYS[api_key]
 ```
 
-:::caution
-
-API keys provide weak authentication: they are long-lived shared secrets that cannot be scoped to a
+<aside aria-label="API keys provide weak authentication: they are long-lived shared secrets that cannot be scoped to a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>API keys provide weak authentication: they are long-lived shared secrets that cannot be scoped to a</p>
 User or rotated. Use them only for server-to-server communication where OAuth 2.0 is Impractical.
 Prefer OAuth 2.0 Bearer tokens for user-facing APIs.
 
@@ -265,10 +263,8 @@ Retry-After: 30
 | Sliding window | Yes      | Yes    | Precise, memory-intensive          |
 | Fixed window   | Yes      | Yes    | Simple, burst at window boundaries |
 
-:::
-:::info
-
-Rate limit by user identity (API key or token) when authenticated, and by IP address when
+</aside>
+<aside aria-label="Rate limit by user identity (API key or token) when authenticated, and by IP address when" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Rate limit by user identity (API key or token) when authenticated, and by IP address when</p>
 Unauthenticated. Unauthenticated rate limits should be stricter to prevent abuse.
 
 
@@ -651,4 +647,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

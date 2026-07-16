@@ -97,10 +97,9 @@ Every mass element pulling the test mass in one direction, there is a compensati
 Opposite side. The nearer element pulls more strongly (shorter distance) but is subtended by a
 smaller Solid angle, and these two effects cancel exactly. $\square$
 
-:::caution Warning Earth is approximately but not perfectly spherical (equatorial bulge), so $g$
+<aside aria-label="Warning Earth is approximately but not perfectly spherical (equatorial bulge), so $g$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Earth is approximately but not perfectly spherical (equatorial bulge), so $g$</p>
 varies slightly with Latitude even at sea level.
-:::
-
+</aside>
 ### Field Strength at Altitude
 
 At height $h$ above a planet of radius $R$ and surface field $g_0$:
@@ -195,11 +194,10 @@ m s$^{-1}$ $= 5.02$ km s$^{-1}$.
 
 </details>
 
-:::caution Common Pitfall Escape velocity is independent of the mass and direction of launch of the
+<aside aria-label="Common Pitfall Escape velocity is independent of the mass and direction of launch of the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Escape velocity is independent of the mass and direction of launch of the</p>
 Projectile. A 1 kg ball and a $10^6$ kg rocket both need the same speed. However, the required
 kinetic Energy $E_k = \frac{1}{2}mv_e^2$ scales with mass.
-:::
-
+</aside>
 ## 5. Orbital Mechanics
 
 ### Circular Orbit Equations
@@ -335,7 +333,7 @@ $$v = \sqrt◆LB◆\frac{GM}{r}◆RB◆ = \frac◆LB◆2\pi r◆RB◆◆LB◆T�
    pattern) as seen from the ground.
 3. **Prograde rotation:** The satellite must orbit west to east, matching Earth's rotation.
 
-:::caution Warning Geostationary is a stricter condition: geosynchronous AND equatorial AND
+<aside aria-label="Warning Geostationary is a stricter condition: geosynchronous AND equatorial AND" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Geostationary is a stricter condition: geosynchronous AND equatorial AND</p>
 circular. GPS satellites are Neither — they use medium Earth orbits at 20,200 km altitude with
 12-hour periods.
 
@@ -542,4 +540,4 @@ $\blacksquare$
   $\approx 11.2\ \mathrm{km\,s^{-1}}$.
 - Orbital velocity: $v = \sqrt{\frac{GM}{r}}$; $g = -\frac{dV}{dr}$ links field and potential.
 
-:::
+</aside>

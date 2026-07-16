@@ -106,9 +106,7 @@ Serial number formats:
 - **Incremental:** Simple counter (1, 2, 3...). Easy to forget to increment.
 - **UNIX timestamp:** Seconds since epoch. Precise but hard to read.
 
-:::caution
-
-If you decrease the serial number, slaves will not transfer the new zone (their serial is already
+<aside aria-label="If you decrease the serial number, slaves will not transfer the new zone (their serial is already" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you decrease the serial number, slaves will not transfer the new zone (their serial is already</p>
 Higher). This is a common mistake when migrating DNS providers. Always ensure the serial is higher
 Than the current value on all slaves.
 
@@ -300,10 +298,8 @@ Entire zone by following NSEC chains). NSEC is simpler and more efficient.
 **NSEC3** uses hashed names instead of plaintext names. The resolver cannot enumerate the zone
 Because the names are hashed. NSEC3 is recommended for zones that want to prevent zone enumeration.
 
-:::
-:::info
-
-NSEC3 zone enumeration resistance is not absolute. An attacker with sufficient resources can
+</aside>
+<aside aria-label="NSEC3 zone enumeration resistance is not absolute. An attacker with sufficient resources can" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>NSEC3 zone enumeration resistance is not absolute. An attacker with sufficient resources can</p>
 Brute-force the hashes for common names. NSEC3 with opt-out (unsigned delegations are not covered)
 Provides weaker security but better performance for large zones.
 
@@ -638,10 +634,8 @@ Mitigations:
 - **0x20 encoding:** Randomize the case of the query name. The response must match the case, making
   forgery harder.
 
-:::
-:::caution
-
-DNS cache poisoning was dramatically demonstrated by the Kaminsky attack (2008). Before source port
+</aside>
+<aside aria-label="DNS cache poisoning was dramatically demonstrated by the Kaminsky attack (2008). Before source port" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>DNS cache poisoning was dramatically demonstrated by the Kaminsky attack (2008). Before source port</p>
 Randomization was widely deployed, an attacker could poison any resolver within seconds. All modern
 Resolvers implement source port randomization and DNSSEC validation.
 
@@ -735,10 +729,8 @@ kdig @https://dns.google example.com +https
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
 
-:::
-:::caution
-
-DoH is controversial in enterprise environments because it bypasses corporate DNS resolvers and
+</aside>
+<aside aria-label="DoH is controversial in enterprise environments because it bypasses corporate DNS resolvers and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>DoH is controversial in enterprise environments because it bypasses corporate DNS resolvers and</p>
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
 `dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
 Enterprises block DoH at the firewall to maintain control.
@@ -798,10 +790,8 @@ Client's location, not the resolver's location.
 dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 ```
 
-:::
-:::caution
-
-ECS trades privacy for performance. The authoritative server learns the client's subnet.
+</aside>
+<aside aria-label="ECS trades privacy for performance. The authoritative server learns the client's subnet." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>ECS trades privacy for performance. The authoritative server learns the client's subnet.</p>
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If
 You operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
 ECS processing can route clients to the wrong CDN edge.
@@ -866,4 +856,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

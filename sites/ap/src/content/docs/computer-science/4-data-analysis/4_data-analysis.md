@@ -339,10 +339,9 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-:::caution Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)
+<aside aria-label="Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)</p>
 During iteration. Use an Iterator or iterate backwards with an index.
-:::
-
+</aside>
 ```java
 for (int i = names.size() - 1; i >= 0; i--) {
     if (names.get(i).length() < 3) {
@@ -696,7 +695,7 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-:::caution Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)
+<aside aria-label="Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)</p>
 During iteration. Use an Iterator or iterate backwards with an index.
 
 ```java
@@ -948,4 +947,4 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-:::
+</aside>

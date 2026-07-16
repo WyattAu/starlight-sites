@@ -166,9 +166,7 @@ fetch('https://api.example.com/transfer', {
 });
 ```
 
-:::info
-
-If your API uses `Authorization: Bearer` headers (not cookies), it is inherently protected from CSRF
+<aside aria-label="If your API uses `Authorization: Bearer` headers (not cookies), it is inherently protected from CSRF" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>If your API uses `Authorization: Bearer` headers (not cookies), it is inherently protected from CSRF</p>
 Because the browser does not automatically attach custom headers to cross-origin requests.
 
 
@@ -355,10 +353,8 @@ const nonce = crypto.randomBytes(16).toString('base64');
 // </script>
 ```
 
-:::
-:::caution
-
-Never use `'unsafe-inline'` in `script-src` if you can avoid it — it completely defeats XSS
+</aside>
+<aside aria-label="Never use `'unsafe-inline'` in `script-src` if you can avoid it — it completely defeats XSS" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use `'unsafe-inline'` in `script-src` if you can avoid it — it completely defeats XSS</p>
 Protection. Use nonces or hashes for inline scripts, and move JavaScript to external files.
 `'unsafe-eval'` is equally dangerous and should also be avoided.
 
@@ -483,10 +479,8 @@ def is_safe_url(url):
     return parsed.hostname in ALLOWED_HOSTS
 ```
 
-:::
-:::caution
-
-URL parsing is tricky. Attackers bypass filters using URL encoding
+</aside>
+<aside aria-label="URL parsing is tricky. Attackers bypass filters using URL encoding" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>URL parsing is tricky. Attackers bypass filters using URL encoding</p>
 (`http://%31%32%37%2e%30%2e%30%2e%31/`), DNS rebinding (resolves to internal IP on second lookup),
 And redirect chains. Validate after DNS resolution, not before.
 
@@ -794,10 +788,8 @@ curl -sI https://example.com | grep -iE \
   "strict-transport|content-security|x-frame|x-content-type|referrer-policy|permissions-policy"
 ```
 
-:::
-:::info
-
-**Reference Standards**: OWASP Top 10 (2021), OWASP Testing Guide v4, OWASP Cheat Sheet Series, CSP
+</aside>
+<aside aria-label="**Reference Standards**: OWASP Top 10 (2021), OWASP Testing Guide v4, OWASP Cheat Sheet Series, CSP" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Reference Standards**: OWASP Top 10 (2021), OWASP Testing Guide v4, OWASP Cheat Sheet Series, CSP</p>
 Level 3 (W3C Recommendation), CORS (W3C Recommendation), RFC 6265 (HTTP Cookies), RFC 7231 (HTTP/1.1
 Semantics), RFC 9110 (HTTP Semantics).
 
@@ -824,4 +816,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

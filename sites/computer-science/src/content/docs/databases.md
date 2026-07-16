@@ -598,11 +598,10 @@ cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input,))
 4. **ORM frameworks:** Use an ORM (e.g., SQLAlchemy, Django ORM) that generates parameterised
    queries by default.
 
-:::caution Common Pitfall Even if you escape single quotes in user input, this is not a reliable
+<aside aria-label="Common Pitfall Even if you escape single quotes in user input, this is not a reliable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Even if you escape single quotes in user input, this is not a reliable</p>
 defence against SQL injection. Use parameterised queries instead. Escape-based defences are fragile
 and have been bypassed by Encoding tricks (e.g., multibyte character exploits).
-:::
-
+</aside>
 ### 3.10 Query Optimisation Basics
 
 The SQL query optimiser automatically selects an execution plan, but understanding the basics helps
@@ -872,12 +871,11 @@ Synthesis algorithm avoids this issue.
 
 </details>
 
-:::caution Common Pitfall Do not confuse partial dependency (2NF violation) with transitive
+<aside aria-label="Common Pitfall Do not confuse partial dependency (2NF violation) with transitive" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse partial dependency (2NF violation) with transitive</p>
 dependency (3NF violation). A Partial dependency involves a **proper subset** of a candidate key
 determining a non-prime attribute. A transitive dependency involves a non-key attribute determining
 another non-prime attribute.
-:::
-
+</aside>
 ### 4.5 Multivalued Dependencies and 4NF
 
 A **multivalued dependency (MVD)** $X \twoheadrightarrow Y$ holds on relation $R$ if for any two
@@ -1582,7 +1580,7 @@ Since network partitions are inevitable in distributed systems, the real trade-o
 **PACELC.** Extension of CAP: in the absence of partitions, the trade-off is between **latency** And
 **consistency**.
 
-:::caution Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL
+<aside aria-label="Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall "NoSQL" does not mean "no SQL." It means "Not Only SQL." Many NoSQL</p>
 databases now support SQL-like Query languages (e.g., Cassandra CQL). The choice between relational
 and NoSQL depends on the Workload, not on a blanket preference. Relational databases remain the best
 choice for strongly Structured data with complex queries and transactional requirements.
@@ -1918,4 +1916,4 @@ $\blacksquare$
 | Algorithms and Data Structures | WyattsNotes | [View](/docs/university/computing/algorithms-and-data-structures)       |
 | Database Systems — CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
 
-:::
+</aside>

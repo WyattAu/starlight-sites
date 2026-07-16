@@ -235,10 +235,9 @@ REPEAT UNTIL (condition)
 }
 ```
 
-:::caution `REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition
+<aside aria-label="`REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition</p>
 Is checked. This differs from a `WHILE` loop, which is a pre-test loop.
-:::
-
+</aside>
 **FOR EACH:**
 
 ```
@@ -269,10 +268,9 @@ INSERT(list, 2, 99)
 LENGTH(list)
 ```
 
-:::caution AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not
+<aside aria-label="AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not</p>
 `list[0]`. This differs from Java, Python, and most programming languages.
-:::
-
+</aside>
 :::info[Example: Finding the Maximum]
 
 ```

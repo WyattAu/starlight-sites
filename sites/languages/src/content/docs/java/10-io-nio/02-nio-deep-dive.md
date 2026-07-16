@@ -101,12 +101,11 @@ ByteBuffer direct = ByteBuffer.allocateDirect(1024);
 // The OS can perform DMA (direct memory access) directly to/from the buffer
 ```
 
-:::info Use direct buffers when the buffer is long-lived and used for repeated I/O operations. The
+<aside aria-label="Use direct buffers when the buffer is long-lived and used for repeated I/O operations. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use direct buffers when the buffer is long-lived and used for repeated I/O operations. The</p>
 Allocation cost is amortized over many I/O calls, and the avoidance of heap-to-native copies
 Improves throughput. Use heap buffers for short-lived buffers where allocation speed matters more
 Than I/O throughput.
-:::
-
+</aside>
 ### `get` and `put` Operations
 
 ```java
@@ -211,11 +210,10 @@ try (FileChannel src = FileChannel.open(Path.of("source.bin"), StandardOpenOptio
 }
 ```
 
-:::info `transferTo` may not transfer all requested bytes in a single call (it returns the actual
+<aside aria-label="`transferTo` may not transfer all requested bytes in a single call (it returns the actual" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`transferTo` may not transfer all requested bytes in a single call (it returns the actual</p>
 Number transferred). Loop until the return value is zero or an exception is thrown. On Linux with
 Ext4/xfs, the entire transfer completes in a single system call.
-:::
-
+</aside>
 ### File Locking
 
 `FileLock` provides advisory locking on files. Advisory means the lock is only enforced if all
@@ -246,12 +244,11 @@ FileLock sharedLock = channel.tryLock(0L, Long.MAX_VALUE, true); // true = share
 FileLock exclusiveLock = channel.tryLock(0L, Long.MAX_VALUE, false); // false = exclusive
 ```
 
-:::caution File locks are JVM-scoped, not thread-scoped. If two threads in the same JVM try to
+<aside aria-label="File locks are JVM-scoped, not thread-scoped. If two threads in the same JVM try to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>File locks are JVM-scoped, not thread-scoped. If two threads in the same JVM try to</p>
 Acquire overlapping exclusive locks on the same file, the second `lock()` call throws
 `OverlappingFileLockException`. Use `tryLock()` for non-blocking acquisition. Locks are
 Automatically released when the channel is closed or the JVM exits.
-:::
-
+</aside>
 ### Socket Channels
 
 ```java
@@ -426,11 +423,10 @@ while (buf.hasRemaining()) {
 }
 ```
 
-:::caution When using non-blocking I/O, you must handle partial reads and writes. A single `read()`
+<aside aria-label="When using non-blocking I/O, you must handle partial reads and writes. A single `read()`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>When using non-blocking I/O, you must handle partial reads and writes. A single `read()`</p>
 May return fewer bytes than requested, and a single `write()` may accept fewer bytes than provided.
 Always check the return value and manage the buffer position accordingly.
-:::
-
+</aside>
 ## `AsynchronousFileChannel`
 
 Introduced in JDK 7, `AsynchronousFileChannel` provides asynchronous file I/O operations. It
@@ -487,11 +483,10 @@ try (AsynchronousFileChannel channel = AsynchronousFileChannel.open(
 }
 ```
 
-:::info The completion handler's callback methods are executed by the `AsynchronousFileChannel`'s
+<aside aria-label="The completion handler's callback methods are executed by the `AsynchronousFileChannel`'s" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The completion handler's callback methods are executed by the `AsynchronousFileChannel`'s</p>
 Thread pool. By default, this is the JVM-wide default `ForkJoinPool`. You can provide a custom
 `ExecutorService` via `AsynchronousFileChannel.open(path, options, executor)`.
-:::
-
+</aside>
 ## `Path` and `Files` Utility Classes
 
 ### `Path`
@@ -612,13 +607,12 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
   through the mapped buffer.
 - **Large file processing** — process terabyte-scale files without loading them into JVM heap.
 
-:::caution `MappedByteBuffer` uses native memory, not the Java heap. It is not subject to GC heap
+<aside aria-label="`MappedByteBuffer` uses native memory, not the Java heap. It is not subject to GC heap" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`MappedByteBuffer` uses native memory, not the Java heap. It is not subject to GC heap</p>
 Limits, but it does consume address space. On 32-bit JVMs, you are limited to ~2 GB of mapped
 Memory. On 64-bit JVMs, the limit is the available virtual address space. Closing the `FileChannel`
 Does not immediately unmap the buffer — the mapped memory is released when the `MappedByteBuffer`
 Object is GC'd, which may be delayed.
-:::
-
+</aside>
 ## Common Pitfalls
 
 ### Forgetting to `flip()` Before Reading

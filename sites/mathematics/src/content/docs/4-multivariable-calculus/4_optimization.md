@@ -219,8 +219,7 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 
 ### 4.7 Common Pitfalls
 
-:::caution Common Pitfalls
-
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
 - **Lagrange multipliers find candidates only.** The method produces candidates for constrained
   extrema but does not guarantee they are extrema. Always evaluate $f$ at all candidates and use
   additional reasoning (e.g., compactness of the constraint set via the extreme value theorem) to
@@ -234,4 +233,4 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
   $g = 0$; multiplying $g$ by a constant changes $\lambda$ but not the critical points.
 
 
-:::
+</aside>

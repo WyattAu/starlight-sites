@@ -97,9 +97,7 @@ Last host  = broadcast address - 1 = 10.4.220.126
 
 Host bits = $32 - 26 = 6$. Total addresses = $2^6 = 64$. Usable = $64 - 2 = 62$.
 
-:::tip
-
-The number of usable hosts is always $2^h - 2$ where $h$ is the number of host bits. The exceptions:
+<aside aria-label="The number of usable hosts is always $2^h - 2$ where $h$ is the number of host bits. The exceptions:" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The number of usable hosts is always $2^h - 2$ where $h$ is the number of host bits. The exceptions:</p>
 `/31` (RFC 3021, point-to-point links, 2 usable) and `/32` (single host, 1 usable). Modern practice
 Also uses `/31` for network equipment links per RFC 6164.
 
@@ -170,10 +168,8 @@ WAN 4:       172.16.1.118/31   (2 addresses, 2 usable)
 Every allocation must be verified against all others. The boundary addresses must align to the
 Subnet size.
 
-:::
-:::caution
-
-A common VLSM error is overlapping subnets. If you allocate `172.16.1.0/26` (`.0` through `.63`) and
+</aside>
+<aside aria-label="A common VLSM error is overlapping subnets. If you allocate `172.16.1.0/26` (`.0` through `.63`) and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common VLSM error is overlapping subnets. If you allocate `172.16.1.0/26` (`.0` through `.63`) and</p>
 Then try to allocate `172.16.1.32/27`That overlaps because `.32` falls inside the `/26` range.
 Always allocate from the next available address after the previous allocation ends.
 
@@ -366,10 +362,8 @@ Rule. For example:
 Traffic to `192.168.17.5` matches both routes, but `/24` is longer (more specific) than `/22`So The
 router sends it via Router B. Traffic to `192.168.18.5` only matches `/22`So it goes via Router A.
 
-:::
-:::info
-
-Longest prefix match is the fundamental rule of IP routing. The routing table is searched for the
+</aside>
+<aside aria-label="Longest prefix match is the fundamental rule of IP routing. The routing table is searched for the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Longest prefix match is the fundamental rule of IP routing. The routing table is searched for the</p>
 Entry with the longest matching prefix. If there are multiple entries with the same prefix length,
 The one with the lowest administrative distance wins. If there is still a tie, ECMP (Equal-Cost
 Multi-Path) load balancing is used.
@@ -429,10 +423,8 @@ access-list 10 permit 172.16.4.0 0.0.3.255
 access-list 10 deny 192.168.0.0 0.0.254.255
 ```
 
-:::
-:::caution
-
-Wildcard masks are NOT the same as subnet masks, and the mental inversion is a constant source of
+</aside>
+<aside aria-label="Wildcard masks are NOT the same as subnet masks, and the mental inversion is a constant source of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Wildcard masks are NOT the same as subnet masks, and the mental inversion is a constant source of</p>
 Errors. Always double-check by verifying: `subnet_mask + wildcard_mask = 255.255.255.255` for each
 Octet.
 
@@ -525,10 +517,8 @@ Within the datacenter `/60`:
 | Address stability  | Stable based on prefix + MAC                    | Depends on lease time |
 | Complexity         | Simple                                          | Requires DHCPv6 infra |
 
-:::
-:::info
-
-Best practice for enterprise: use DHCPv6 for servers and managed endpoints (control, tracking, DNS
+</aside>
+<aside aria-label="Best practice for enterprise: use DHCPv6 for servers and managed endpoints (control, tracking, DNS" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Best practice for enterprise: use DHCPv6 for servers and managed endpoints (control, tracking, DNS</p>
 Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (simplicity, privacy).
 
 
@@ -649,10 +639,8 @@ This covers `10.0.0.0` through `10.7.255.255`. It includes more than the four sp
 Also covers 5, 6, 7). If you only want to summarize exactly those four, you need multiple summary
 Routes or accept the over-summarization.
 
-:::
-:::caution
-
-This is a common trap in exam questions. The four networks `10.1-4.0/16` do NOT cleanly summarize to
+</aside>
+<aside aria-label="This is a common trap in exam questions. The four networks `10.1-4.0/16` do NOT cleanly summarize to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>This is a common trap in exam questions. The four networks `10.1-4.0/16` do NOT cleanly summarize to</p>
 A single prefix without including `10.0``10.5``10.6`And `10.7`. If the question requires an Exact
 summary, the answer is: it cannot be done with a single prefix.
 
@@ -784,10 +772,8 @@ The most common IPv6 subnetting error is trying to use non-`/64` masks on LAN se
 Autoconfiguration, and many implementations assume `/64`. Use `/64` for everything, and `/128` only
 For loopbacks and specific host routes.
 
-:::
-:::tip
-
-When in doubt, write it out in binary. The binary method never lies. Decimal shortcuts are for speed
+</aside>
+<aside aria-label="When in doubt, write it out in binary. The binary method never lies. Decimal shortcuts are for speed" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When in doubt, write it out in binary. The binary method never lies. Decimal shortcuts are for speed</p>
 After you have mastered the fundamentals.
 
 
@@ -843,10 +829,8 @@ VPC: 10.0.0.0/16 (65,536 addresses)
 AWS reserves 5 addresses per subnet (network, VPC router, DNS server, future use, broadcast). Plan
 Accordingly.
 
-:::
-:::caution
-
-AWS reserves the first 4 and the last IP address in each subnet. A `/24` gives 254 usable addresses
+</aside>
+<aside aria-label="AWS reserves the first 4 and the last IP address in each subnet. A `/24` gives 254 usable addresses" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>AWS reserves the first 4 and the last IP address in each subnet. A `/24` gives 254 usable addresses</p>
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.
 
 
@@ -867,4 +851,4 @@ A thorough understanding of these concepts, combined with regular practice and r
 for mastery of this topic.
 
 
-:::
+</aside>

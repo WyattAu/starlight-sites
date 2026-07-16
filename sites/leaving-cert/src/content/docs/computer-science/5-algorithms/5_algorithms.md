@@ -405,7 +405,7 @@ print(f"Change: {change}")
 # Output: Change: {50: 1, 20: 1, 10: 1, 5: 1, 2: 1}
 ```
 
-:::caution Greedy algorithms do not always produce the optimal solution. For example, with coin
+<aside aria-label="Greedy algorithms do not always produce the optimal solution. For example, with coin" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Greedy algorithms do not always produce the optimal solution. For example, with coin</p>
 Denominations {1, 3, 4} and amount 6, the greedy approach gives 4 + 1 + 1 (3 coins), but the optimal
 Is 3 + 3 (2 coins).
 
@@ -832,4 +832,4 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
-:::
+</aside>

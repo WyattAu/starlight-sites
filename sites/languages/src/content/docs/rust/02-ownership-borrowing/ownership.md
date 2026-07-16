@@ -329,9 +329,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 let s: &'static str = "hello";  // embedded in the binary
 ```
 
-:::caution
-
-Do not annotate everything with `'static` as a shortcut. The compiler will suggest `'static` when it
+<aside aria-label="Do not annotate everything with `'static` as a shortcut. The compiler will suggest `'static` when it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not annotate everything with `'static` as a shortcut. The compiler will suggest `'static` when it</p>
 Cannot infer a shorter lifetime, but adding `'static` constraints reduces the function's
 Flexibility. A function taking `&'static str` cannot accept locally-owned `String` references, only
 String literals and values explicitly annotated with `'static`.
@@ -395,10 +393,8 @@ let borrow3 = data.borrow_mut();  // OK — all previous borrows dropped
 borrow3.push(4);
 ```
 
-:::
-:::caution
-
-`RefCell` enforces the borrow rules at **runtime**, not compile time. A `borrow_mut()` while an
+</aside>
+<aside aria-label="`RefCell` enforces the borrow rules at **runtime**, not compile time. A `borrow_mut()` while an" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`RefCell` enforces the borrow rules at **runtime**, not compile time. A `borrow_mut()` while an</p>
 Immutable borrow is active will panic. This trades compile-time safety for runtime flexibility. Use
 `try_borrow()` and `try_borrow_mut()` to get `Result` instead of panicking.
 
@@ -454,10 +450,8 @@ impl Counter {
 }
 ```
 
-:::
-:::danger
-
-Implementing `Sync` for a type containing `UnsafeCell` without proper synchronization is undefined
+</aside>
+<aside aria-label="Implementing `Sync` for a type containing `UnsafeCell` without proper synchronization is undefined" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Implementing `Sync` for a type containing `UnsafeCell` without proper synchronization is undefined</p>
 Behavior. Only do this if you can prove that mutation is properly synchronized (e.g., via atomics or
 Platform-specific memory barriers).
 
@@ -995,4 +989,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

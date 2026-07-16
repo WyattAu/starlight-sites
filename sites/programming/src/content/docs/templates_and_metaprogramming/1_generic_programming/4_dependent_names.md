@@ -62,12 +62,11 @@ int main() {
 }
 ```
 
-:::caution Inside a class template that inherits from a dependent base, **you must use `this->`** to
+<aside aria-label="Inside a class template that inherits from a dependent base, **you must use `this->`** to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Inside a class template that inherits from a dependent base, **you must use `this->`** to</p>
 Access members of the base class. Without `this->`The name is non-dependent and looked up at Phase
 1, where the base class members are invisible. This is the single most common two-phase lookup bug
 [N4950 S13.8.3].
-:::
-
+</aside>
 ### When Is a Name Dependent?
 
 The standard defines precisely when a name is dependent [N4950 S13.8.3/1]. A name is dependent if
@@ -302,12 +301,11 @@ Per [N4950 S13.8.1], `typename` is required in the following contexts and prohib
 | `T::template Inner&lt;int&gt;` (template disambiguator)              | N/A (use `template`) | S13.8.3/2          |
 | `typename T::template Inner&lt;int&gt;` (type + template)            | Both required        | S13.8.1 + S13.8.3  |
 
-:::caution The error message "need `typename` before dependent type name" is one of the most common
+<aside aria-label="The error message "need `typename` before dependent type name" is one of the most common" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The error message "need `typename` before dependent type name" is one of the most common</p>
 Template compilation errors. Always use `typename` before a qualified dependent name that you intend
 To use as a type, unless you are in a base class specifier or mem-initializer. This is a purely
 Syntactic requirement --- it does not change the generated code.
-:::
-
+</aside>
 ### Where `typename` Is Required vs Not
 
 | Context                                             | `typename` Required? | Reason                                 |
