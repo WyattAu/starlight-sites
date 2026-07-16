@@ -1,16 +1,10 @@
 /**
  * Mermaid diagram renderer for Starlight.
- *
- * astro-mermaid's injectScript('page', ...) doesn't work with Starlight's
- * rendering pipeline, so the initialization script is never included.
- * This standalone script handles:
- * - Lazy-loading mermaid from CDN only on pages with diagrams
- * - Auto-detecting theme from data-theme attribute
- * - Rendering all pre.mermaid elements to SVG
- * - Re-rendering on view transitions and theme changes
+ * mermaid.min.js is loaded via <script defer> in Head.astro.
+ * This script initializes and renders all pre.mermaid elements.
  */
 ;(() => {
-  let defined = false
+  let initialized = false
 
   const hasMermaid = () => document.querySelectorAll('pre.mermaid').length > 0
 
@@ -43,28 +37,28 @@
     })
   }
 
-  const initMermaid = async () => {
+  const initMermaid = () => {
     if (!hasMermaid()) return
-
-    if (!defined) {
-      const script = document.createElement('script')
-      script.src = 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js'
-      script.onload = () => {
-        window.mermaid.initialize({
-          startOnLoad: false,
-          theme: getTheme(),
-          securityLevel: 'loose',
-        })
-        defined = true
-        renderAll()
-      }
-      script.onerror = () => {
-        console.error('[mermaid] Failed to load mermaid library from CDN')
-      }
-      document.head.appendChild(script)
-    } else {
-      renderAll()
+    if (typeof window.mermaid === 'undefined') {
+      // mermaid.min.js hasn't loaded yet, wait for it
+      window.addEventListener('load', () => {
+        if (typeof window.mermaid !== 'undefined' && !initialized) {
+          window.mermaid.initialize({
+            startOnLoad: false,
+            theme: getTheme(),
+            securityLevel: 'loose',
+          })
+          initialized = true
+          renderAll()
+        }
+      })
+      return
     }
+    if (!initialized) {
+      window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
+      initialized = true
+    }
+    renderAll()
   }
 
   // Initial render
@@ -76,7 +70,7 @@
 
   // Re-render on view transitions (Astro)
   document.addEventListener('astro:after-swap', () => {
-    defined = false
+    initialized = false
     if (hasMermaid()) initMermaid()
   })
 

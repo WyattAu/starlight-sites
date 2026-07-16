@@ -145,7 +145,8 @@ const articleSchema = {
 <script src="/cross-site-search.js" defer></script>
 <script src="/page-search.js" defer></script>
 
-<!-- Mermaid diagram rendering (astro-mermaid injectScript doesn't work with Starlight) -->
+<!-- Mermaid: load library from CDN, then render diagrams -->
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script src="/mermaid-render.js" defer></script>
 
 <!-- JSON-LD Structured Data -->
