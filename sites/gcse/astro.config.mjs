@@ -32,6 +32,7 @@ export default defineConfig({
       defaultLocale: 'root',
       locales: {
         root: { label: 'English', lang: 'en' },
+        zh: { label: '简体中文', lang: 'zh' },
       },
       sidebar: [
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
