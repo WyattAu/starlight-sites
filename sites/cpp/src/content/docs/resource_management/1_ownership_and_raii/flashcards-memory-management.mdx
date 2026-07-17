@@ -15,9 +15,8 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-<FlashcardDeck
-  deckId="cpp-memory-management"
+<FlashcardDeck client:load   deckId="cpp-memory-management"
   title="C++ Memory Management Flashcards"
   description="Interactive flashcards on RAII, smart pointers, move semantics, Rule of Five, memory leaks, dangling pointers, stack vs heap, and exception safety."
   cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}
-/>
+ />
