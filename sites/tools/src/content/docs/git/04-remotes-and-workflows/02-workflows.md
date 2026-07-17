@@ -68,7 +68,7 @@ gitGraph
 - Small to medium teams (up to $\sim$15 developers)
 - SaaS products with frequent releases
 
-<aside aria-label="Google, Meta, and many other large tech companies use trunk-based development internally. It scales" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Google, Meta, and many other large tech companies use trunk-based development internally. It scales</p>
+<aside class="starlight-aside starlight-aside--note">
 Well with proper tooling (Bazel for builds, automated canary deployments).
 
 
@@ -224,7 +224,7 @@ $ git branch -d hotfix/fix-crash
 - Regulated environments where release audit trails are required
 
 </aside>
-<aside aria-label="Git Flow is often overused. For most modern software projects, GitHub Flow or trunk-based" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Git Flow is often overused. For most modern software projects, GitHub Flow or trunk-based</p>
+<aside class="starlight-aside starlight-aside--caution">
 Development is simpler and more effective. Only adopt Git Flow if you genuinely need release
 Branches and hotfix workflows.
 
@@ -321,7 +321,7 @@ accepting empty input. Update callers to handle ParseError.
 ```
 
 </aside>
-<aside aria-label="Configure `commitlint` with `@commitlint/config-conventional` to enforce commit message conventions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Configure `commitlint` with `@commitlint/config-conventional` to enforce commit message conventions</p>
+<aside class="starlight-aside starlight-aside--tip">
 In CI:
 
 ```bash

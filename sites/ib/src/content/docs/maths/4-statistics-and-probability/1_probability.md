@@ -55,8 +55,8 @@ $$
 P(A \cup B) = P(A) + P(B)
 $$
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 In a class of 40 students, 25 play football, 18 play basketball, and 8 play both. Find the
 Probability that a randomly selected student plays at least one sport.
 
@@ -91,9 +91,9 @@ $$
 P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)
 $$
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 Independence is NOT the same as mutual exclusivity. In fact, if two events are both mutually
 Exclusive and both have non-zero probability, they CANNOT be independent (since
 $P(A \cap B) = 0 \neq P(A) \cdot P(B)$).
@@ -119,9 +119,9 @@ $$
 P(A|B) = P(A)
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A bag contains 5 red and 3 blue marbles. Two marbles are drawn without replacement. Find the
 Probability that both are red.
 
@@ -134,9 +134,9 @@ $$
 
 Tree diagrams are useful for multi-stage experiments. Multiply along branches, add between branches.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A box contains 4 defective and 6 non-defective items. Two items are drawn without replacement. Find
 The probability that exactly one is defective.
 
@@ -173,9 +173,9 @@ $$
 The denominator $P(B) = \displaystyle\sum_{i=1}^{n} P(B|A_i) \cdot P(A_i)$ is the **law of total
 Probability**.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A factory has three machines producing items. Machine `A` produces 50% of items with 2% defect rate.
 Machine `B` produces 30% with 3% defect rate. Machine `C` produces 20% with 1% defect rate. An item
 Is found to be defective. What is the probability it came from machine `B`?
@@ -204,9 +204,9 @@ $$
 P(\mathrm{disease}|\mathrm{positive}) = \frac{0.01 \times 0.99}{0.0594} = \frac{0.0099}{0.0594} \approx 0.167
 $$
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 This result (approximately 16.7%) is counterintuitively low. Always work through Bayes' theorem
 Carefully rather than relying on intuition for conditional probability questions.
 
@@ -267,9 +267,9 @@ $$
 \mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A random variable $X$ has the following probability distribution:
 
 | $x$        | 0   | 1   | 2   | 3   |
@@ -328,9 +328,9 @@ $$
 \sigma = \sqrt{np(1-p)}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A fair coin is tossed 10 times. Find the probability of getting exactly 6 heads.
 
 $X \sim B(10, 0.5)$.
@@ -340,9 +340,9 @@ P(X = 6) = \binom{10}{6}(0.5)^6(0.5)^4 = 210 \times (0.5)^{10} = \frac{210}{1024
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A multiple-choice test has 20 questions, each with 5 options. A student guesses all answers. Find
 The probability of getting at least 10 correct.
 
@@ -363,9 +363,9 @@ $$
 
 Most questions require using the cumulative binomial function on a GDC.
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 For binomial probability questions, always state the distribution : "$X \sim B(n, p)$ Where...". Use
 your GDC for calculations involving large $n$ or cumulative probabilities.
 
@@ -396,9 +396,9 @@ $$
 P(X \lt a) = P\!\left(Z \lt \frac{a - \mu}{\sigma}\right)
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Given $X \sim N(50, 16)$Find $P(45 \lt X \lt 55)$.
 
 $\mu = 50$, $\sigma = 4$.
@@ -422,9 +422,9 @@ $$
 
 Where $z_p$ is the $p$-th percentile of the standard normal.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Heights of a population follow $N(170, 64)$ (in cm). Find the height that is at the 90th percentile.
 
 $\mu = 170$, $\sigma = 8$.
@@ -455,9 +455,9 @@ $$
 AX + b \sim N(a\mu_X + b, a^2\sigma_X^2)
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 The weight of a parcel is $X \sim N(2, 0.04)$ kg. The packaging adds $Y \sim N(0.3, 0.01)$ kg. Find
 The probability that the total exceeds 2.5 kg.
 
@@ -509,9 +509,9 @@ $$
 \int_{-\infty}^{m} f(x)\,dx = 0.5
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A continuous random variable $X$ has PDF $f(x) = 2x$ for $0 \le x \le 1$.
 
 Verify it is a valid PDF:
@@ -662,9 +662,9 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
 | Bayes' theorem          | $P(A\|B) = \dfrac{P(B\|A) \cdot P(A)}{P(B)}$ |
 | Standardisation         | $Z = \dfrac{X - \mu}{\sigma}$                |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 Always define your random variable at the start of probability questions. For normal Distribution
 problems, draw a sketch of the bell curve and shade the relevant area. For binomial Problems, verify
 the four conditions before applying the formula.
@@ -688,9 +688,9 @@ $$
 E(X) = \lambda, \quad \mathrm{Var}(X) = \lambda
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A call centre receives an average of 4 calls per minute. Find the probability of receiving exactly 6
 Calls in a minute.
 
@@ -713,9 +713,9 @@ $$
 E(X) = \frac{1}{p}, \quad \mathrm{Var}(X) = \frac{1-p}{p^2}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A die is rolled until a 6 appears. Find the probability that it takes exactly 4 rolls.
 
 $$
@@ -749,9 +749,9 @@ $$
 ^nC_r = \binom{n}{r} = \frac{n!}{r!(n-r)!}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A committee of 4 is to be chosen from 7 men and 5 women. How many committees have at least 2 women?
 
 Total ways $= \dbinom{12}{4} = 495$.
@@ -762,8 +762,7 @@ Ways with 1 woman: $\dbinom{5}{1}\dbinom{7}{3} = 5 \times 35 = 175$.
 
 Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 
-:::
-
+</aside>
 ---
 
 ## Additional Exam-Style Questions
@@ -847,7 +846,7 @@ Desks should accommodate heights from about $152\mathrm{ cm}$ to $178\mathrm{ cm
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Probability**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Probability**? The contains the hardest questions within</p>
+<aside class="starlight-aside starlight-aside--tip">
 the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability

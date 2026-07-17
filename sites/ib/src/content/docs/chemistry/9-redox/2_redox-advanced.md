@@ -66,8 +66,8 @@ $$
 E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ
 $$
 
-:::info[Example — Daniell Cell]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — Daniell Cell</strong>
 $$
 \mathrm{Zn} \mid \mathrm{Zn}^{2+} \parallel \mathrm{Cu}^{2+} \mid \mathrm{Cu}
 $$
@@ -137,9 +137,9 @@ $$
 E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the Daniell cell: $E_{\mathrm{cell}}^\circ = 1.10\mathrm{ V}$, $n = 2$.
 
 $$
@@ -185,9 +185,9 @@ Where:
 **Second law**: The masses of different substances produced by the same charge are proportional to
 Their equivalent masses ($M/n$).
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the mass of copper deposited when a current of $2.00\mathrm{ A}$ is passed through
 $\mathrm{CuSO}_4$ solution for $30.0$ minutes.
 
@@ -228,9 +228,9 @@ $$
 | Halogen (Cl$_2$Br$_2$I$_2$) | If halide ions present (except F$^-$) |
 | Oxygen                      | Otherwise (from water oxidation)      |
 
-:::
-:::info[Example — Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes</strong>
 Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$More positive than
 Water's $-0.83\mathrm{ V}$)
 
@@ -244,9 +244,9 @@ The solution becomes acidic as $\mathrm{H}^+$ accumulates at the anode.
 
 No water present, so only the ions from the salt are discharged.
 
-:::
-:::info[Example — Molten $\mathrm{NaCl}$]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — Molten $\mathrm{NaCl}$</strong>
 Cathode: $\mathrm{Na}^+ + e^- \to \mathrm{Na}(l)$
 
 Anode: $2\mathrm{Cl}^- \to \mathrm{Cl}_2(g) + 2e^-$
@@ -919,4 +919,4 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 
-:::
+</aside>

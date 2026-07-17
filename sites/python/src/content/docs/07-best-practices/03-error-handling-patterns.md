@@ -50,7 +50,7 @@ BaseException
     └── AssertionError
 ```
 
-<aside aria-label="`SystemExit``KeyboardInterrupt`And `GeneratorExit` inherit directly from `BaseException`Not" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`SystemExit``KeyboardInterrupt`And `GeneratorExit` inherit directly from `BaseException`Not</p>
+<aside class="starlight-aside starlight-aside--note">
 `Exception`. This means `except Exception:` does not catch them — which is Correct, since you
 generally do not want to catch system-level signals.
 </aside>
@@ -144,7 +144,7 @@ print(str(e))   # db.example.com:5432 — connection refused
 print(repr(e))  # ServerError("db.example.com', 5432, 'connection refused')
 ```
 
-<aside aria-label="Always call `super().__init__(message)` in custom exceptions. The message is stored in" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always call `super().__init__(message)` in custom exceptions. The message is stored in</p>
+<aside class="starlight-aside starlight-aside--tip">
 `self.args` and used by the default `__str__` implementation. Omitting this breaks exception
 Chaining and logging.
 </aside>
@@ -195,7 +195,7 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 | External API calls       | EAFP + retry                 | Network conditions change         |
 | Configuration validation | LBYL at boundary             | Fail fast, clear error messages   |
 
-<aside aria-label="LBYL with file operations has a TOCTOU (Time of Check to Time of Use) race condition:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>LBYL with file operations has a TOCTOU (Time of Check to Time of Use) race condition:</p>
+<aside class="starlight-aside starlight-aside--caution">
 ```python
 import os
 
@@ -293,7 +293,7 @@ def process_file(path):
             f.close()
 ```
 
-<aside aria-label="Use `else` for code that should run only when no exception occurs. Use `finally` for cleanup" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use `else` for code that should run only when no exception occurs. Use `finally` for cleanup</p>
+<aside class="starlight-aside starlight-aside--tip">
 That must happen regardless. Avoid putting logic in `finally` that might raise exceptions, as it
 Masks the original exception.
 </aside>
@@ -477,7 +477,7 @@ asyncio.run(main())
 # Logging request: req-002
 ```
 
-<aside aria-label="Unlike `threading.local()``contextvars.ContextVar` is designed for `asyncio` and correctly" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Unlike `threading.local()``contextvars.ContextVar` is designed for `asyncio` and correctly</p>
+<aside class="starlight-aside starlight-aside--note">
 Propagates state through `asyncio.TaskGroup` and `Task` creation.
 </aside>
 ## Assertions
@@ -499,7 +499,7 @@ def binary_search(arr, target):
     return -1
 ```
 
-<aside aria-label="Assertions are disabled with `python -O` (optimized mode) because they are controlled by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Assertions are disabled with `python -O` (optimized mode) because they are controlled by</p>
+<aside class="starlight-aside starlight-aside--caution">
 The `__debug__` constant. **Never use assertions for data validation or runtime checks** — they are
 For debugging and documenting invariants:
 
@@ -637,7 +637,7 @@ class UserService:
             # Do NOT raise — this is a non-critical background sync
 ```
 
-<aside aria-label="**Log and raise** for unexpected errors the caller must handle. **Log and continue** for" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>**Log and raise** for unexpected errors the caller must handle. **Log and continue** for</p>
+<aside class="starlight-aside starlight-aside--tip">
 Non-critical background operations. **Raise without logging** when the caller is responsible for
 Handling (e.g., validation at API boundary). Never swallow exceptions silently.
 

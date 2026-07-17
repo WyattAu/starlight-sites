@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1 | Includes non-uniform bodies   |
 | CIE (9709) | P4      | Moments and equilibrium       |
 
-<aside aria-label="The principle of moments is fundamental. Always state the point about which you are Taking" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The principle of moments is fundamental. Always state the point about which you are Taking</p>
+<aside class="starlight-aside starlight-aside--note">
 moments, and include the direction (clockwise/anticlockwise) of each moment.
 </aside>
 <hr />
@@ -99,7 +99,7 @@ $R_{\mathrm{left}} = W + P - R_{\mathrm{right}} = \dfrac{W}{2} + \dfrac{P(L-a)}{
 Notice that as the vehicle moves right ($a$ increases), $R_{\mathrm{right}}$ increases and
 $R_{\mathrm{left}}$ decreases — the bridge load redistributes continuously.
 
-<aside aria-label="The principle of moments applies about **any** point — not just the pivot. Choosing a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The principle of moments applies about **any** point — not just the pivot. Choosing a</p>
+<aside class="starlight-aside starlight-aside--caution">
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
 Unknown from the moment equation.
 </aside>
@@ -211,7 +211,7 @@ $$R_w = \frac{W}{2}\cot\theta, \qquad F = R_w, \qquad \mu_{\min} = \frac{R_w}{R_
 The minimum coefficient of friction depends only on the angle $\theta$. As the ladder becomes
 Steeper ($\theta$ increases), $\cot\theta$ decreases and less friction is needed.
 
-<aside aria-label="If the wall is **rough**, there is an additional vertical friction force $F_w$ acting up" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If the wall is **rough**, there is an additional vertical friction force $F_w$ acting up</p>
+<aside class="starlight-aside starlight-aside--caution">
 The wall. This changes the vertical equilibrium to $R_g + F_w = W$ and adds complexity to the moment
 Equation. Always read the question carefully to determine whether the wall is smooth or rough.
 </aside>
@@ -285,7 +285,7 @@ To find the forces in the members of a framework:
 
 If you assume a rod is in tension and get a negative answer, the rod is in compression.
 
-<aside aria-label="Info Choosing the right joint to start with — look for joints where you have at most two" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Choosing the right joint to start with — look for joints where you have at most two</p>
+<aside class="starlight-aside starlight-aside--note">
 unknown forces, Since you can only write two equilibrium equations per joint.
 </aside>
 <hr />
@@ -417,7 +417,7 @@ $P = \dfrac{150}{1.2} = 125\,\mathrm{N}$.
 
 Since $125 \lt 200$The block **topples first** at $P = 125\,\mathrm{N}$.
 
-<aside aria-label="Info Slides. Here $\dfrac{1.2}{0.3} = 4$ and $\dfrac{1}{0.4} = 2.5$. Since $4 > 2.5$Toppling" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Slides. Here $\dfrac{1.2}{0.3} = 4$ and $\dfrac{1}{0.4} = 2.5$. Since $4 > 2.5$Toppling</p>
+<aside class="starlight-aside starlight-aside--note">
 occurs First, which matches our calculation.
 </aside>
 <hr />
@@ -818,7 +818,7 @@ Centre of mass is approximately $4.21\,\mathrm{cm}$ from the flat face.
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Moments**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Moments**? The contains the hardest questions within</p>
+<aside class="starlight-aside starlight-aside--tip">
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Moments

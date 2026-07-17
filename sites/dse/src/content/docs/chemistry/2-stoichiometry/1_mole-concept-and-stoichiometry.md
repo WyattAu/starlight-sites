@@ -35,7 +35,7 @@ For ionic compounds, the term **relative formula mass** is used, calculated the 
 
 $$M_r(\mathrm{NaCl}) = 23.0 + 35.5 = 58.5$$
 
-<aside aria-label="Info Problems. Memorise the common values: H = 1.0, C = 12.0, N = 14.0, O = 16.0, Na = 23.0," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Problems. Memorise the common values: H = 1.0, C = 12.0, N = 14.0, O = 16.0, Na = 23.0,</p>
+<aside class="starlight-aside starlight-aside--note">
 Mg = 24.3, Al = 27.0, S = 32.1, Cl = 35.5, K = 39.1, Ca = 40.1, Fe = 55.8, Cu = 63.5, Zn = 65.4.
 </aside>
 ---
@@ -81,7 +81,7 @@ $$n = \frac{V}{V_m}$$
 
 Where $V_m$ = 22.4 dm$^3$/mol (STP) or 24.0 dm$^3$/mol (RTP).
 
-<aside aria-label="Pay close attention to whether the question specifies STP or RTP. Using the wrong molar" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pay close attention to whether the question specifies STP or RTP. Using the wrong molar</p>
+<aside class="starlight-aside starlight-aside--caution">
 Volume is one of the most common errors in DSE stoichiometry questions.
 </aside>
 ---
@@ -397,7 +397,7 @@ $$PV = nRT$$
 | R      | Gas constant | 8.314 J/(mol K) or 0.0821 atm dm$^3$/(mol K) |
 | T      | Temperature  | K                                            |
 
-<aside aria-label="At STP ($0^\circ\mathrm{C}$ = 273 K, 1 atm), using $PV = nRT$:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>At STP ($0^\circ\mathrm{C}$ = 273 K, 1 atm), using $PV = nRT$:</p>
+<aside class="starlight-aside starlight-aside--note">
 $V_m = \dfrac{nRT}{P} = \dfrac{1 \times 0.0821 \times 273}{1} = 22.4 \mathrm{ dm}^3$
 
 This confirms the molar volume at STP.

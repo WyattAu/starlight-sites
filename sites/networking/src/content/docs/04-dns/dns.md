@@ -153,7 +153,7 @@ www.example.com.    300    IN    CNAME    example.com.
 cdn.example.com.    300    IN    CNAME    cdn.cloudflare.com.
 ```
 
-<aside aria-label="The CNAME restriction means you cannot have a CNAME at the zone apex (e.g., `example.com` CNAME to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The CNAME restriction means you cannot have a CNAME at the zone apex (e.g., `example.com` CNAME to</p>
+<aside class="starlight-aside starlight-aside--caution">
 `www.example.com`) because the apex also needs SOA and NS records. DNS providers solve this with
 ALIAS or ANAME records (proprietary), or by using CNAME Flattening (Cloudflare).
 
@@ -314,7 +314,7 @@ Requested type), the response is cached for the SOA minimum TTL. This prevents r
 Non-existent names from hammering authoritative servers.
 
 </aside>
-<aside aria-label="Negative caching with long SOA minimum TTLs can cause problems during DNS migrations. If you set the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Negative caching with long SOA minimum TTLs can cause problems during DNS migrations. If you set the</p>
+<aside class="starlight-aside starlight-aside--caution">
 SOA minimum to 86400 (1 day) and delete a subdomain, resolvers will cache the `NXDOMAIN` for up to 1
 Day. Reduce the SOA minimum TTL before making changes, then increase it after propagation.
 
@@ -519,7 +519,7 @@ resolvectl query example.com
 ```
 
 </aside>
-<aside aria-label="`systemd-resolved` modifies `/etc/resolv.conf` to point to its local stub resolver (127.0.0.53). If" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`systemd-resolved` modifies `/etc/resolv.conf` to point to its local stub resolver (127.0.0.53). If</p>
+<aside class="starlight-aside starlight-aside--caution">
 You configure DNS manually in `/etc/resolv.conf`Your changes may be overwritten. To use custom DNS
 Servers, configure them via `systemd-resolved` or NetworkManager.
 

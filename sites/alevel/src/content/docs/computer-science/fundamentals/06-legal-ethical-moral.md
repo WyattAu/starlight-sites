@@ -12,7 +12,7 @@ categories:
 
 ## 1. Legal, Ethical, and Moral Frameworks
 
-<aside aria-label="Board-specific AQA Paper 2 | Edexcel P2 | OCR (A) Paper 2 | CIE Paper 2 This topic is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific AQA Paper 2 | Edexcel P2 | OCR (A) Paper 2 | CIE Paper 2 This topic is</p>
+<aside class="starlight-aside starlight-aside--note">
 Mandatory across all four major A-Level boards. AQA and OCR tend to ask structured questions
 Requiring you to apply legislation to scenarios. CIE and Edexcel favour longer-essay style responses
 Evaluating the impact of technology on society.
@@ -66,7 +66,7 @@ These frameworks because:
 
 ### 2.1 Computer Misuse Act 1990
 
-<aside aria-label="Board-specific AQA explicitly names this Act. OCR (A) and Edexcel also require detailed" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific AQA explicitly names this Act. OCR (A) and Edexcel also require detailed</p>
+<aside class="starlight-aside starlight-aside--note">
 Knowledge. CIE does not specify UK legislation but expects awareness of computer misuse laws
 Generally.
 </aside>
@@ -101,13 +101,13 @@ Act 2015.
   s.3 of the CMA. Established that sending a high volume of emails to cause disruption constitutes
   an impairment offence even if each individual email is legitimate.
 
-<aside aria-label="Common exam pitfall: s.1 requires only that access is unauthorised. The defendant does" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common exam pitfall: s.1 requires only that access is unauthorised. The defendant does</p>
+<aside class="starlight-aside starlight-aside--caution">
 Not need to have damaged or stolen anything. Merely guessing a password and gaining entry is
 Sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
 </aside>
 ### 2.2 Data Protection Act 2018 and UK GDPR
 
-<aside aria-label="Board-specific Mandatory for AQA, OCR (A), Edexcel, and CIE. This is the most frequently" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific Mandatory for AQA, OCR (A), Edexcel, and CIE. This is the most frequently</p>
+<aside class="starlight-aside starlight-aside--note">
 Tested piece of legislation across all boards.
 </aside>
 **Definition.** The **Data Protection Act 2018** (DPA 2018) is the UK's implementation of the EU
@@ -190,14 +190,14 @@ The ICO can impose:
   facial recognition database. The ICO found that Clearview AI had collected images from the web
   without consent, violating UK GDPR principles.
 
-<aside aria-label="A common exam question asks about the difference between a data controller and a data" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common exam question asks about the difference between a data controller and a data</p>
+<aside class="starlight-aside starlight-aside--caution">
 Processor. The controller decides _why_ and _how_ data is processed; the processor carries out the
 Processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
 Primary responsibility.
 </aside>
 ### 2.3 Copyright, Designs and Patents Act 1988
 
-<aside aria-label="Board-specific AQA and OCR (A) explicitly require this. Edexcel covers intellectual property" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific AQA and OCR (A) explicitly require this. Edexcel covers intellectual property</p>
+<aside class="starlight-aside starlight-aside--note">
 Under its "Impacts of Computing" topic. CIE expects general understanding of software copyright.
 </aside>
 **Definition.** The **Copyright, Designs and Patents Act 1988** (CDPA) is the primary UK legislation
@@ -324,7 +324,7 @@ Government.
 
 ### 2.6 Equality Act 2010
 
-<aside aria-label="Board-specific OCR (A) explicitly references algorithmic bias. AQA includes this under its" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific OCR (A) explicitly references algorithmic bias. AQA includes this under its</p>
+<aside class="starlight-aside starlight-aside--note">
 "Ethical, Legal, and Environmental Impacts" topic. Edexcel covers discrimination in automated
 Systems.
 </aside>
@@ -701,7 +701,7 @@ Profiling raises concerns about:
 | Individual fairness | Similar individuals should receive similar outcomes. Two applicants with identical qualifications should receive the same credit score.               |
 | Calibration         | Predicted probabilities should be equally accurate across groups. A predicted 80% probability of repayment should mean the same thing for all groups. |
 
-<aside aria-label="There is a mathematical result known as **impossibility of simultaneous fairness:** it is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>There is a mathematical result known as **impossibility of simultaneous fairness:** it is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Generally impossible to satisfy multiple fairness definitions simultaneously when base rates differ
 Between groups. This means that choosing a fairness definition is itself an ethical decision, not a
 Purely technical one.
@@ -1104,7 +1104,7 @@ And when crimes are likely to occur, or to identify individuals who are likely t
 
 ## 6. Exam Practice
 
-<aside aria-label="Board-specific The following questions are structured to match the style of AQA, OCR (A)," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific The following questions are structured to match the style of AQA, OCR (A),</p>
+<aside class="starlight-aside starlight-aside--note">
 Edexcel, and CIE examination papers. AQA and OCR favour structured questions with specific marks for
 Specific points. Edexcel and CIE favour extended discussion questions requiring evaluation.
 

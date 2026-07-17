@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 2 | Includes fixed-point iteration and convergence         |
 | CIE (9709) | P2, P3  | Numerical solutions of equations, integration in P2/P3 |
 
-<aside aria-label="The formula booklet gives the Newton-Raphson formula and the trapezium/Simpson's rule. You" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The formula booklet gives the Newton-Raphson formula and the trapezium/Simpson's rule. You</p>
+<aside class="starlight-aside starlight-aside--note">
 Must know when each method is applicable and its limitations.
 </aside>
 <hr />
@@ -38,7 +38,7 @@ The sign change theorem tells us a root **exists** but says nothing about:
 - How many roots are in the interval (there could be 1, 3, 5, ...).
 - The exact location of the root.
 
-<aside aria-label="A sign change is **sufficient but not necessary** for a root. If $f(x) = x^2$Then" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A sign change is **sufficient but not necessary** for a root. If $f(x) = x^2$Then</p>
+<aside class="starlight-aside starlight-aside--caution">
 $f(-1) = f(1) = 1$ (no sign change), but there is a root at $x = 0$. Additionally, a sign change
 Could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
 $f(1) = 1$But no root.
@@ -94,7 +94,7 @@ Different rearrangements of $f(x) = 0$ give different $g(x)$And some converge wh
 - $g(x) = \sqrt[3]{1-x}$: $g'(x) = \dfrac{-1}{3(1-x)^{2/3}}$. Near $\alpha$:
   $|g'(\alpha)| \approx 0.72 \lt 1$. **Converges.**
 
-<aside aria-label="In exams, if a question asks you to show that a particular rearrangement converges, compute" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>In exams, if a question asks you to show that a particular rearrangement converges, compute</p>
+<aside class="starlight-aside starlight-aside--tip">
 $g'(x)$ at the root and show $|g'(\alpha)| \lt 1$. If asked why a rearrangement fails, show
 $|g'(\alpha)| \gt 1$.
 </aside>
@@ -340,7 +340,7 @@ Doubling the number of strips reduces the error by a factor of 16 for Simpson's 
 Trapezium rule. This is because quadratic approximations match the curvature of the function much
 Better than linear ones.
 
-<aside aria-label="Simpson's rule requires an **even** number of strips. The trapezium rule works with any" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Simpson's rule requires an **even** number of strips. The trapezium rule works with any</p>
+<aside class="starlight-aside starlight-aside--tip">
 Number. Simpson's rule is exact for cubics (since the error depends on $f^{(4)}$).
 </aside>
 <hr />
@@ -384,7 +384,7 @@ In practice, numerical software often combines methods:
    favourable endpoint.
 3. **Verify** the result by checking $f(x_n)$ is sufficiently close to zero.
 
-<aside aria-label="Newton-Raphson is the method of choice when derivatives are available and the function is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Newton-Raphson is the method of choice when derivatives are available and the function is</p>
+<aside class="starlight-aside starlight-aside--note">
 Well-behaved. Fixed-point iteration is useful when the problem gives a contraction Mapping.
 Bisection is the reliable fallback when nothing else is guaranteed to work.
 </aside>
@@ -820,7 +820,7 @@ Section 3.4.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Numerical Methods**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Numerical Methods**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Numerical

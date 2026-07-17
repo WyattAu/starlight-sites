@@ -121,8 +121,8 @@ Data abstraction separates the interface (what operations are available) from th
 
 In Java, this is achieved through classes: private fields with public getters/setters and methods.
 
-:::info[Example: Java]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Java</strong>
 ```java
 public class Rectangle {
     private double width;
@@ -147,8 +147,7 @@ The caller uses `getArea()` and `getPerimeter()` without knowing that `width` an
 Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
 Corners) without affecting any code that uses this class.
 
-:::
-
+</aside>
 ### Information Hiding
 
 Information hiding is the principle that the internal details of a module should be hidden from
@@ -235,7 +234,7 @@ REPEAT UNTIL (condition)
 }
 ```
 
-<aside aria-label="`REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`REPEAT UNTIL` is a post-test loop -- the body executes at least once, then the condition</p>
+<aside class="starlight-aside starlight-aside--caution">
 Is checked. This differs from a `WHILE` loop, which is a pre-test loop.
 </aside>
 **FOR EACH:**
@@ -268,11 +267,11 @@ INSERT(list, 2, 99)
 LENGTH(list)
 ```
 
-<aside aria-label="AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>AP CSP pseudocode uses **1-based indexing**. `list[1]` is the first element, not</p>
+<aside class="starlight-aside starlight-aside--caution">
 `list[0]`. This differs from Java, Python, and most programming languages.
 </aside>
-:::info[Example: Finding the Maximum]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Finding the Maximum</strong>
 ```
 PROCEDURE findMax(list)
 {
@@ -294,9 +293,9 @@ compared, if it is larger, max is updated; otherwise, max remains the largest. B
 all elements are examined, max is the largest in the entire list. $\blacksquare$
 
 
-:::
-:::info[Example: Finding the Second Largest]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Finding the Second Largest</strong>
 ```
 PROCEDURE findSecondLargest(list)
 {
@@ -333,9 +332,9 @@ PROCEDURE findSecondLargest(list)
 **Time complexity:** $O(n)$ -- single pass through the list.
 
 
-:::
-:::info[Example: Linear Search (AP CSP)]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Linear Search (AP CSP)</strong>
 ```
 PROCEDURE linearSearch(list, target)
 {
@@ -354,9 +353,9 @@ Note: AP CSP pseudocode returns 0 (not -1) to indicate "not found", because inde
 Position in 1-based indexing.
 
 
-:::
-:::info[Example: Binary Search (AP CSP)]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Binary Search (AP CSP)</strong>
 ```
 PROCEDURE binarySearch(list, target)
 {
@@ -389,9 +388,9 @@ PROCEDURE binarySearch(list, target)
 Is $\lceil \log_2 n \rceil$. Time complexity: $O(\log n)$.
 
 
-:::
-:::info[Example: Counting Occurrences]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Counting Occurrences</strong>
 ```
 PROCEDURE countOccurrences(list, value)
 {
@@ -410,9 +409,9 @@ PROCEDURE countOccurrences(list, value)
 **Time complexity:** $O(n)$ -- examines each element once.
 
 
-:::
-:::info[Example: Reversing a List]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Reversing a List</strong>
 ```
 PROCEDURE reverseList(list)
 {
@@ -1052,4 +1051,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

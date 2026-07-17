@@ -62,8 +62,8 @@ Every linear kinematic equation has a direct rotational analogue. Replace $x$ wi
 With $\omega$And $a$ with $\alpha$. This is not a coincidence: it reflects the fact that rotation Is
 a one-dimensional motion in the angular coordinate. The mathematics is identical.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A wheel starts from rest and accelerates at $2.0 \mathrm{ rad/s^2$ for $5.0 \mathrm{ s$. Find the
 Angular velocity, total angle rotated, and the tangential speed of a point 0.3 m from the center.
 
@@ -154,9 +154,9 @@ $$
 
 $\blacksquare$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about an axis tangent to its
 Surface.
 
@@ -195,9 +195,9 @@ $$
 
 This is the rotational analog of $\sum F = ma$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A solid disk of mass $5.0 \mathrm{ kg$ and radius $0.3 \mathrm{ m$ is mounted on a frictionless
 Axle. A $20 \mathrm{ N$ force is applied tangentially at the rim. Find the angular acceleration.
 
@@ -248,9 +248,9 @@ $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
 Solid cylinder moves faster.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A solid sphere of mass $M$ and radius $R$ rolls without slipping from rest down an incline of height
 $h$ and angle $\theta$. Find its speed at the bottom.
 
@@ -300,9 +300,9 @@ $$
 \int \tau\, dt = \Delta L = I\omega_f - I\omega_i
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A figure skater with moment of inertia $4.0 \mathrm{ kg \cdot \mathrm{m^2$ is spinning at
 $3.0 \mathrm{ rad/s$. She pulls in her arms, reducing her moment of inertia to
 $1.5 \mathrm{ kg \cdot \mathrm{m^2$. Find her new angular speed.
@@ -353,9 +353,9 @@ An object is in static equilibrium when:
 The choice of pivot point is arbitrary when the system is in equilibrium. Choosing the pivot at an
 Unknown force eliminates that force from the torque equation.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A uniform beam of mass $20 \mathrm{ kg$ and length $4.0 \mathrm{ m$ is supported at its left end By
 a hinge and at its right end by a cable at $30^\circ$ above horizontal. A $50 \mathrm{ kg$ mass
 Hangs $1.0 \mathrm{ m$ from the right end. Find the tension in the cable.
@@ -376,8 +376,7 @@ $$
 2.0T - 392 - 1470 = 0 \implies T = \frac{1862}{2.0} = 931 \mathrm{ N
 $$
 
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. **Using the wrong moment of inertia.** Always check which axis the object rotates about. Use the
@@ -636,7 +635,7 @@ $$\omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s$$
 The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
 
-<aside aria-label="Info Momentum vector. Instead of tipping over, the angular momentum vector rotates" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Momentum vector. Instead of tipping over, the angular momentum vector rotates</p>
+<aside class="starlight-aside starlight-aside--note">
 horizontally. This is The same principle behind gyrocompasses and spacecraft attitude control.
 </aside>
 ### Example 17: Moment of Inertia of a Composite Object
@@ -730,7 +729,7 @@ $$a = \frac{mg}{m + 1.8} = \frac{0.1 \times 9.8}{0.1 + 1.8} = \frac{0.98}{1.9} =
 
 $$T = 1.8 \times 0.516 = 0.929 \mathrm{ N$$
 
-<aside aria-label="The yo-yo falls much more slowly than free fall ($0.516 \mathrm{ m/s^2$ vs" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The yo-yo falls much more slowly than free fall ($0.516 \mathrm{ m/s^2$ vs</p>
+<aside class="starlight-aside starlight-aside--note">
 $9.8 \mathrm{ m/s^2$) because gravitational PE is converted into both translational and rotational
 KE. The smaller the axle radius, the slower the fall, since more of the energy goes into rotation.
 </aside>

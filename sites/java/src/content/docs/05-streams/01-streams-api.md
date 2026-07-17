@@ -343,7 +343,7 @@ List<Integer> unique = Stream.of(1, 2, 2, 3, 1, 4, 3)
 // [1, 2, 3, 4]
 ```
 
-<aside aria-label="`distinct()` internally uses a `HashSet`-like structure to track seen elements. For large" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`distinct()` internally uses a `HashSet`-like structure to track seen elements. For large</p>
+<aside class="starlight-aside starlight-aside--caution">
 streams with expensive `equals()`/`hashCode()` implementations, this can be costly. Consider whether
 `distinct()` is necessary or whether you can eliminate duplicates at the source.
 </aside>
@@ -388,7 +388,7 @@ List<String> result = Stream.of("Alice", "Bob", "Charlie")
 // Mapped: CHARLIE
 ```
 
-<aside aria-label="`peek()` should be used only for debugging. Using it for side effects violates the stream" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`peek()` should be used only for debugging. Using it for side effects violates the stream</p>
+<aside class="starlight-aside starlight-aside--caution">
 contract, which states that intermediate operations should be free of side effects. The behavior of
 `peek()` is undefined if it modifies the stream source or interferes with the pipeline. Furthermore,
 in parallel streams, `peek()` may be called from multiple threads simultaneously, making any side
@@ -437,7 +437,7 @@ List<Integer> dropped = Stream.of(1, 2, 3, 4, 5, 1, 2)
 // [4, 5, 1, 2]  -- drops 1,2,3, returns everything from 4 onward
 ```
 
-<aside aria-label="For **ordered** streams, `takeWhile` and `dropWhile` are deterministic: they process" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For **ordered** streams, `takeWhile` and `dropWhile` are deterministic: they process</p>
+<aside class="starlight-aside starlight-aside--note">
 elements in encounter order. For **unordered** streams (e.g., `HashSet.parallelStream()`), the
 behavior is nondeterministic -- different elements may be taken or dropped on different runs because
 the encounter order is not defined.
@@ -502,7 +502,7 @@ String concatenated = Stream.of("a", "b", "c")
 // "abc"
 ```
 
-<aside aria-label="The accumulator function passed to `reduce` must be **associative**:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The accumulator function passed to `reduce` must be **associative**:</p>
+<aside class="starlight-aside starlight-aside--caution">
 `(a op b) op c == a op (b op c)`. If it is not associative, the result will be incorrect in parallel
 streams, because partial results may be combined in any order. The identity value must also satisfy
 `identity op x == x` for all x.
@@ -570,7 +570,7 @@ Optional<String> any = names.parallelStream()
 // Optional[?] -- any matching element, not guaranteed to be first
 ```
 
-<aside aria-label="In sequential streams, `findFirst()` and `findAny()` return the same element. In parallel" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In sequential streams, `findFirst()` and `findAny()` return the same element. In parallel</p>
+<aside class="starlight-aside starlight-aside--note">
 streams, `findAny()` may return a different element than `findFirst()` because it can return any
 element that the parallel worker encounters first, without the synchronization overhead of
 maintaining encounter order. Use `findAny()` when you do not care about which element is returned --
@@ -646,7 +646,7 @@ LinkedHashMap<String, Integer> ordered = people.stream()
     ));
 ```
 
-<aside aria-label="`Collectors.toMap()` throws `IllegalStateException` on duplicate keys unless a merge" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`Collectors.toMap()` throws `IllegalStateException` on duplicate keys unless a merge</p>
+<aside class="starlight-aside starlight-aside--danger">
 function is provided. This is a common source of runtime exceptions. Always provide a merge function
 if duplicate keys are possible, or use `groupingBy` when multiple values per key are expected.
 </aside>
@@ -720,7 +720,7 @@ Map<Boolean, Long> counts = names.stream()
 // {false=1, true=3}
 ```
 
-<aside aria-label="Use `partitioningBy` when the classifier is a `Predicate` and you want exactly two groups" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use `partitioningBy` when the classifier is a `Predicate` and you want exactly two groups</p>
+<aside class="starlight-aside starlight-aside--note">
 (true/false). Use `groupingBy` when the classifier produces more than two categories or is not a
 boolean predicate. `partitioningBy` always creates both map entries (true and false), even if one
 group is empty. `groupingBy` only creates entries for groups that have at least one element.
@@ -856,7 +856,7 @@ int sum = largeList.parallelStream()
 
 ### Pitfalls of Parallel Streams
 
-<aside aria-label="Parallel streams have several pitfalls that make them unsuitable for many workloads:" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Parallel streams have several pitfalls that make them unsuitable for many workloads:</p>
+<aside class="starlight-aside starlight-aside--danger">
 **1. Thread safety of lambdas.** Lambda expressions used in parallel stream operations must be
 thread-safe. Mutable shared state will cause data races.
 
@@ -962,7 +962,7 @@ String result4 = opt.orElseThrow(() -> new IllegalArgumentException("not found")
 ```
 
 </aside>
-<aside aria-label="The difference between `orElse()` and `orElseGet()` is critical. `orElse(defaultValue)`" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>The difference between `orElse()` and `orElseGet()` is critical. `orElse(defaultValue)`</p>
+<aside class="starlight-aside starlight-aside--danger">
 always evaluates `defaultValue`Even if the `Optional` is present. `orElseGet(supplier)` only invokes
 the supplier when the `Optional` is empty.
 
@@ -1010,7 +1010,7 @@ if (opt.isPresent()) {
 opt.ifPresent(value -> System.out.println("Value: " + value));
 ```
 
-<aside aria-label="Avoid the `isPresent()` + `get()` pattern. It is functionally equivalent to a null check" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Avoid the `isPresent()` + `get()` pattern. It is functionally equivalent to a null check</p>
+<aside class="starlight-aside starlight-aside--caution">
 (`if (x != null) { x.foo() }`) and negates the purpose of `Optional`. Prefer
 `ifPresent()``map()``flatMap()``filter()`Or the `orElse*` family.
 

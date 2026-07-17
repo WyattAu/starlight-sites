@@ -56,8 +56,8 @@ to the natural logarithm.
 For $x \lt 0$The derivative of $\ln(-x)$ is $\frac{1}{-x} \cdot (-1) = \frac{1}{x}$. So the
 Antiderivative of $\frac{1}{x}$ on any interval not containing $0$ is $\ln|x| + C$.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int (3x^4 - 2x^2 + 5x - 1)\, dx$.
 
 $$
@@ -65,17 +65,17 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int \frac{3}{x^2}\, dx$.
 
 Rewrite as $\displaystyle\int 3x^{-2}\, dx = \frac{3x^{-1}}{-1} + C = -\frac{3}{x} + C$.
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int \frac{2x^3 - x + 4}{\sqrt{x}}\, dx$.
 
 Rewrite:
@@ -149,9 +149,9 @@ $$
 \mathrm{Total Area = \int_a^b |f(x)|\, dx
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the total area between $f(x) = x^2 - 4$ and the $x$-axis on $[-3, 3]$.
 
 Find the zeros: $x^2 - 4 = 0 \implies x = \pm 2$.
@@ -195,9 +195,9 @@ $$
 The curve at that point. This connects the two halves of calculus: the derivative and the integral
 Are inverse operations.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find $\displaystyle\frac{d}{dx}\!\left[\int_1^{x^2} \sin(t^2)\, dt\right]$.
 
 By FTC Part 1 and the chain rule:
@@ -207,9 +207,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find $\displaystyle\frac{d}{dx}\!\left[\int_0^{\sqrt{x}} e^{t^2}\, dt\right]$.
 
 $$
@@ -217,9 +217,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find $\displaystyle\frac{d}{dx}\!\left[\int_x^{x^2} \frac{1}{1+t^2}\, dt\right]$.
 
 Split the integral at a constant (say $0$):
@@ -245,9 +245,9 @@ $$
 
 This is the evaluation theorem. We write $F(x)\Big|_a^b$ to denote $F(b) - F(a)$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int_1^3 \left(x^2 + \frac{1}{x}\right) dx$.
 
 $$
@@ -284,9 +284,9 @@ $$
 **Strategy for choosing $u$.** Look for a function and its derivative in the integrand. If you can
 Spot $f(g(x))$ and $g'(x)$Set $u = g(x)$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int 2x e^{x^2}\, dx$.
 
 Let $u = x^2$, $du = 2x\, dx$:
@@ -296,9 +296,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int \frac{x}{x^2 + 1}\, dx$.
 
 Let $u = x^2 + 1$, $du = 2x\, dx$Giving $\frac{1}{2}du = x\, dx$:
@@ -308,9 +308,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int \frac{\ln x}{x}\, dx$.
 
 Let $u = \ln x$, $du = \frac{1}{x}\, dx$:
@@ -328,9 +328,9 @@ $$
 \int_a^b f(g(x))g'(x)\, dx = \int_{g(a)}^{g(b)} f(u)\, du
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int_0^1 x\sqrt{1 + x^2}\, dx$.
 
 Let $u = 1 + x^2$$du = 2x\, dx$. When $x = 0$$u = 1$. When $x = 1, u = 2$.
@@ -340,9 +340,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int_0^1 \frac{2x}{\sqrt{1 + x^2}}\, dx$.
 
 Let $u = 1 + x^2$$du = 2x\, dx$. When $x = 0$$u = 1$. When $x = 1$$u = 2$.
@@ -369,9 +369,9 @@ Where $f(x)$ is a polynomial and $g(x)$ has an repeatable derivative pattern, us
 columns D (derivatives of $f$) and I (integrals of $g$), alternating signs $+$$-$$+$$-$. The result
 is the sum of diagonal products.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int x e^x\, dx$.
 
 Let $u = x$$dv = e^x\, dx$. Then $du = dx$$v = e^x$.
@@ -381,9 +381,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int x^2 e^x\, dx$.
 
 Let $u = x^2$$dv = e^x\, dx$. Then $du = 2x\, dx$$v = e^x$.
@@ -416,9 +416,9 @@ $$
 Result: $x^2 e^x - 2xe^x + 2e^x = e^x(x^2 - 2x + 2)$. Confirmed.
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int \ln x\, dx$.
 
 Let $u = \ln x$$dv = dx$. Then $du = \frac{1}{x}dx$$v = x$.
@@ -428,9 +428,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int_0^{\pi/2} x\sin x\, dx$.
 
 Let $u = x$$dv = \sin x\, dx$$du = dx$$v = -\cos x$.
@@ -444,9 +444,9 @@ $$
 
 Decompose a rational function into simpler fractions before integrating.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int \frac{1}{x^2 - 1}\, dx$.
 
 Factor: $x^2 - 1 = (x-1)(x+1)$.
@@ -483,9 +483,9 @@ $$
 \int_a^b f(x)\, dx = \lim_{t \to a^+} \int_t^b f(x)\, dx
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Determine whether $\displaystyle\int_1^{\infty} \frac{1}{x^p}\, dx$ converges for $p \gt 0$.
 
 If $p \ne 1$:
@@ -503,9 +503,9 @@ $$
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx$.
 
 Let $u = x^2$$du = 2x\, dx$:
@@ -524,9 +524,9 @@ Note that $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx = \frac{1}{2}$ (computed 
 $u$-substitution) is a different integral from
 $\displaystyle\int_0^{\infty} e^{-x^2}\, dx = \frac{\sqrt{\pi}}{2}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\int_0^{\infty} e^{-x}\, dx$.
 
 $$
@@ -548,9 +548,9 @@ $$
 
 **When to split.** If $f$ and $g$ cross, split the integral at the intersection points.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the area between $y = x^2$ and $y = 2x$.
 
 Find intersections: $x^2 = 2x$So $x^2 - 2x = 0$Giving $x = 0$ and $x = 2$.
@@ -585,9 +585,9 @@ $$
 **When to use which method.** Use the disk/washer method when integrating perpendicular to the axis
 Of rotation. Use the shell method when integrating parallel to the axis of rotation.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the volume of the solid obtained by rotating $y = \sqrt{x}$$y = 0$$x = 4$ about the $x$-axis.
 
 Using the disk method:
@@ -597,9 +597,9 @@ V = \pi \int_0^4 (\sqrt{x})^2\, dx = \pi \int_0^4 x\, dx = \pi\left[\frac{x^2}{2
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the volume of the solid obtained by rotating the region bounded by $y = x^2$ and $y = x$ about
 The $y$-axis.
 
@@ -610,9 +610,9 @@ V = 2\pi \int_0^1 x(x - x^2)\, dx = 2\pi \int_0^1 (x^2 - x^3)\, dx = 2\pi\left[\
 $$
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the volume of the solid obtained by rotating the region bounded by $y = e^{-x}$$y = 0$
 $x = 0$$x = 1$ about the $x$-axis.
 
@@ -633,9 +633,9 @@ $$
 
 By the MVT for integrals, there exists $c \in [a, b]$ such that $f(c) = f_{\mathrm{avg}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the average value of $f(x) = \sin x$ on $[0, \pi]$.
 
 $$
@@ -651,9 +651,9 @@ $$
 L = \int_a^b \sqrt{1 + [f'(x)]^2}\, dx
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the arc length of $y = \frac{2}{3}x^{3/2}$ from $x = 0$ to $x = 3$.
 
 $f'(x) = x^{1/2} = \sqrt{x}$.
@@ -668,8 +668,7 @@ $$
 L = \int_1^4 \sqrt{u}\, du = \left[\frac{2u^{3/2}}{3}\right]_1^4 = \frac{2}{3}(8 - 1) = \frac{14}{3}
 $$
 
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. **Forgetting the constant of integration** in indefinite integrals. Without it, the answer is

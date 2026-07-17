@@ -49,7 +49,7 @@ The ADL rule is the reason `std::cout << "hello"` works: the left operand has ty
 (in namespace `std`), and the right operand has type `const char[6]` (built-in type, no ADL
 Contribution). ADL adds the namespace `std` to the search set, where `operator<<` is found.
 
-<aside aria-label="Relevance ADL is essential for operator overloading and generic code. Without ADL, every" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance ADL is essential for operator overloading and generic code. Without ADL, every</p>
+<aside class="starlight-aside starlight-aside--note">
 Call to `operator<<``operator==`Or a custom swap function would require explicit namespace
 Qualification, breaking generic programming.
 </aside>

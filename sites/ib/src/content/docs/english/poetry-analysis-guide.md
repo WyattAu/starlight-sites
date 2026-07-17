@@ -707,7 +707,7 @@ Significant.
 | Context             | What biographical, historical, cultural, or literary context is relevant? How does context illuminate specific features of the poem?          |
 | Theme               | What is the poem's central concern? What proposition does it advance about that concern? How does the form shape the expression of the theme? |
 
-<aside aria-label="For detailed examples of literary analysis applied to specific texts, see" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For detailed examples of literary analysis applied to specific texts, see</p>
+<aside class="starlight-aside starlight-aside--note">
 [A Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis.md) and
 [Chronicle of a Death Foretold -- Close Reading and Analysis](chronicle-of-a-death-foretold-analysis.md).
 The analytical techniques described in this guide apply equally to prose and drama.

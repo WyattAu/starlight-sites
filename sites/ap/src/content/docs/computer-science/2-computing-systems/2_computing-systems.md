@@ -74,8 +74,8 @@ For an $n$-bit number:
 
 **Negation:** Flip all bits and add 1.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Represent $-42$ in 8-bit two's complement.
 
 $42$ in binary: $00101010$.
@@ -250,9 +250,9 @@ Columns 4 and 7 are identical. $\blacksquare$
 Any Boolean function can be implemented using only NAND gates or only NOR gates (functional
 Completeness).
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Implement XOR using AND, OR, and NOT gates.
 
 $A \oplus B = (A \cdot \bar{B}) + (\bar{A} \cdot B)$
@@ -927,4 +927,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

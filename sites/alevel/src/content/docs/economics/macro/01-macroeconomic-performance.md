@@ -48,7 +48,7 @@ $\mathrm{output} \equiv \mathrm{income} \equiv \mathrm{expenditure}$ holds by ac
 Inventories are treated as investment (if produced but unsold, counted as $I$), and taxes/subsidies
 Adjust market prices to factor costs. $\blacksquare$
 
-<aside aria-label="Warning Work) is excluded. Illegal activities are also excluded (though some countries" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Work) is excluded. Illegal activities are also excluded (though some countries</p>
+<aside class="starlight-aside starlight-aside--caution">
 now include estimates Of the shadow economy). This means GDP underestimates total economic activity,
 particularly in Countries with large informal sectors.
 </aside>
@@ -104,7 +104,7 @@ Debt, productivity) eventually constrain growth. It also highlights a limitation
 Growth came with severe environmental costs, massive income inequality (urban-rural divide), and
 Significant debt accumulation.
 
-<aside aria-label="Info Across countries. CIE (9708) may ask students to interpret GDP data from developing" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Across countries. CIE (9708) may ask students to interpret GDP data from developing</p>
+<aside class="starlight-aside starlight-aside--note">
 economies. OCR Requires understanding of the difference between **GDP** (output within borders) and
 **GNI** (income Earned by nationals, including net income from abroad). GNI is particularly relevant
 for countries Like the Philippines or India, where remittances are a large share of national income.
@@ -186,7 +186,7 @@ Interest payments, which means that when the Bank of England raises interest rat
 Inflation, RPI tends to rise further (because mortgage costs increase), creating a perverse feedback
 Loop.
 
-<aside aria-label="Info Questions. AQA may ask for an evaluation of which measure is more accurate. CIE tends" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Questions. AQA may ask for an evaluation of which measure is more accurate. CIE tends</p>
+<aside class="starlight-aside starlight-aside--note">
 to focus on CPI alone but may ask about measurement issues more broadly. OCR may ask about the
 implications of Using RPI for index-linked bonds — since RPI overstates inflation, bondholders
 receive higher Payments, increasing government debt costs.
@@ -251,7 +251,7 @@ The Bank of England responded by raising the base rate from 0.1% (December 2021)
 2023). By late 2024, inflation had fallen back towards the 2% target, though services inflation
 Remained sticky due to persistent wage growth.
 
-<aside aria-label="Info And cost-push causes of inflation using real-world data. CIE (9708) may present" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info And cost-push causes of inflation using real-world data. CIE (9708) may present</p>
+<aside class="starlight-aside starlight-aside--note">
 students with a Data-response question featuring inflation statistics from a specific country. OCR
 has previously Examined the role of supply-side shocks in causing stagflation (rising inflation with
 falling Output).
@@ -339,7 +339,7 @@ Causes include:
 - Strong trade unions negotiating wages above equilibrium
 - Generous unemployment benefits reducing the incentive to accept low-paid work
 
-<aside aria-label="Info And frequently tests causes and remedies. Edexcel emphasises the role of the NMW in" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info And frequently tests causes and remedies. Edexcel emphasises the role of the NMW in</p>
+<aside class="starlight-aside starlight-aside--note">
 causing Real-wage unemployment. CIE (9708) uses the term "demand-deficient" rather than "cyclical"
 and may Ask about hysteresis. OCR has examined the relationship between structural unemployment and
 regional Policy in the UK.
@@ -381,7 +381,7 @@ Policy response:
 - **Sectoral impacts**: Hospitality, retail, and travel were worst affected, while professional
   services and technology sectors adapted quickly (remote work).
 
-<aside aria-label="Board-Specific Note AQA and Edexcel both frequently use COVID-19 as a context for" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA and Edexcel both frequently use COVID-19 as a context for</p>
+<aside class="starlight-aside starlight-aside--note">
 Data-response questions. CIE (9708) may ask students to evaluate the effectiveness of government
 Intervention in the labour market. OCR has examined the distinction between unemployment and
 Economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
@@ -449,7 +449,7 @@ Financial accounts (borrowing from abroad or selling assets).
 - However, persistent deficits financed by borrowing are unsustainable
 - Deficits caused by lack of competitiveness are problematic
 
-<aside aria-label="Info Balance from data and evaluate whether a deficit is a problem. CIE (9708) may ask about" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Balance from data and evaluate whether a deficit is a problem. CIE (9708) may ask about</p>
+<aside class="starlight-aside starlight-aside--note">
 the Relationship between the current account and the exchange rate. OCR has examined the
 Marshall-Lerner Condition and the J-curve effect in the context of current account adjustment.
 </aside>
@@ -549,7 +549,7 @@ The Phillips curve relationship has been far less stable in practice than theory
   whether the Phillips curve had steepened again, or whether the inflation was primarily
   supply-driven (cost-push) rather than demand-driven.
 
-<aside aria-label="Info Curve and distinguish between short-run and long-run. Edexcel frequently tests the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Curve and distinguish between short-run and long-run. Edexcel frequently tests the</p>
+<aside class="starlight-aside starlight-aside--note">
 concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*``u*`
 itself May rise, shifting the LRPC right). CIE (9708) may present a data-response question showing
 Inflation and unemployment data and ask students to interpret it using Phillips curve theory. OCR
@@ -596,7 +596,7 @@ These objectives often conflict:
 - **Unemployment vs inflation**: short-run Phillips curve trade-off
 - **All objectives vs each other**: policy must balance competing priorities
 
-<aside aria-label="Tip Most recent ONS figures for UK GDP growth, inflation rate, unemployment rate, and current" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Most recent ONS figures for UK GDP growth, inflation rate, unemployment rate, and current</p>
+<aside class="starlight-aside starlight-aside--tip">
 account Balance. Examiners reward application of theory to real data.
 </aside>
 ### 6.1 Evaluation: Conflicts Between Macroeconomic Objectives
@@ -624,7 +624,7 @@ the other hand... However... Therefore"** structure. Here is a worked example:
   of England's mandate to target inflation (price stability) reflects a judgement that maintaining
   price stability is a prerequisite for achieving the other objectives.
 
-<aside aria-label="Info Evaluation throughout. Edexcel's Paper 3 requires evaluation of policy effectiveness." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Evaluation throughout. Edexcel's Paper 3 requires evaluation of policy effectiveness.</p>
+<aside class="starlight-aside starlight-aside--note">
 CIE (9708) Data-response questions (Part b, 8 marks; Part c, 12 marks) require analysis and
 evaluation of Extract data. OCR's Component 3 requires a 20-mark essay with a clear conclusion. All
 boards reward The use of real-world data and counterarguments.
@@ -775,7 +775,7 @@ The Bank of England feared that if inflation remained high for an extended perio
 </details>
 
 
-<aside aria-label="Danger" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Danger</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Confusing real and nominal GDP:** Students often forget to adjust for inflation when comparing
   GDP across years. Always check whether a question asks for real or nominal figures. A rise in
   nominal GDP may reflect price increases, not actual growth.

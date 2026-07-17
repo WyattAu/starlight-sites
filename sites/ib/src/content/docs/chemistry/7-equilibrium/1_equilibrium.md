@@ -75,8 +75,8 @@ $$
 
 Where $\Delta n = (\mathrm{moles of gaseous products}) - (\mathrm{moles of gaseous reactants})$.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For N$_2$(g) + 3H$_2$(g) $\rightleftharpoons$ 2NH$_3$(g), $\Delta n = 2 - 4 = -2$.
 
 $$
@@ -134,9 +134,9 @@ Pressures of reacting gases are unchanged).
 | Increase temperature | Shift in endothermic direction | $K$ changes   |
 | Decrease temperature | Shift in exothermic direction  | $K$ changes   |
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 Le Chatelier's principle does NOT apply to the equilibrium constant. The equilibrium constant only
 Changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
 $K$.
@@ -157,9 +157,9 @@ $K$.
 
 ICE (Initial, Change, Equilibrium) tables are used to organise equilibrium calculations.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the reaction H$_2$(g) + I$_2$(g) $\rightleftharpoons$ 2HI(g), $K_c = 50.5$ at
 $448\degree\mathrm{C}$.
 
@@ -321,9 +321,9 @@ $$
 
 (approximation valid when $K_a$ is small: $[\mathrm{HA}]_{\mathrm{eq}} \approx c$)
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the pH of $0.10\mathrm{ M}$ ethanoic acid ($K_a = 1.8 \times 10^{-5}$).
 
 $$
@@ -370,9 +370,9 @@ A buffer works best within $\pm 1$ pH unit of its $\mathrm{p}K_a$.
 2. **Adding base (OH$^-$)**: the weak acid (HA) reacts with the added OH$^-$ to form A$^-$ and
    H$_2$O, minimising pH change.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A buffer contains $0.20\mathrm{ M}$ CH$_3$COOH ($\mathrm{p}K_a = 4.76$) and $0.30\mathrm{ M}$
 CH$_3$COONa. Calculate the pH.
 
@@ -455,9 +455,9 @@ Compare the **ion product** ($Q$) with $K_{sp}$:
 
 The solubility of a salt decreases when a common ion is present.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 The $K_{sp}$ of AgCl is $1.8 \times 10^{-10}$. Calculate the solubility of AgCl in:
 
 **(a)** Pure water:
@@ -558,9 +558,9 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 | Henderson-Hasselbalch | $\mathrm{pH} = \mathrm{p}K_a + \log\dfrac{[\mathrm{A}^-]}{[\mathrm{HA}]}$  |
 | $K_{sp}$              | $K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b$                          |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 For equilibrium calculations, always set up an ICE table. For Le Chatelier questions, be precise
 About what changes and what stays the same (only $K$ changes with temperature). For acid-base
 Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$Check the
@@ -581,9 +581,9 @@ $$
 
 This is analogous to the Arrhenius equation.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the reaction N$_2$O$_4$(g) $\rightleftharpoons$ 2NO$_2$(g),
 $\Delta H^\circ = +57\mathrm{ kJ/mol}$ and $K = 0.115$ at $298\mathrm{ K}$. Find $K$ at
 $350\mathrm{ K}$.
@@ -612,9 +612,9 @@ As expected for an endothermic reaction, $K$ increases with temperature.
 When a change is made to a system at equilibrium, a new equilibrium is established. The new
 Concentrations can be found by setting up a new ICE table.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the reaction PCl$_5$(g) $\rightleftharpoons$ PCl$_3$(g) + Cl$_2$(g), $K_c = 0.0211$ at
 $500\mathrm{ K}$.
 
@@ -688,9 +688,9 @@ Note: $K_{a1} \gg K_{a2}$So the first dissociation dominates.
 - Salt of weak acid + strong base: basic (pH $\gt$ 7).
 - Salt of weak acid + weak base: depends on relative $K_a$ and $K_b$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the pH of $0.10\mathrm{ M}$ sodium ethanoate (CH$_3$COONa). $K_a$(CH$_3$COOH)
 $= 1.8 \times 10^{-5}$.
 
@@ -985,4 +985,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

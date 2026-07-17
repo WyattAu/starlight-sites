@@ -50,7 +50,7 @@ A mass spectrometer separates ions based on their mass-to-charge ratio ($m/z$). 
 3. **Deflection:** Ions are deflected by a magnetic field (lighter ions are deflected more)
 4. **Detection:** Ions hit a detector, producing a signal proportional to abundance
 
-<aside aria-label="In a mass spectrum, the x-axis is the mass-to-charge ratio ($m/z$) and the y-axis is the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In a mass spectrum, the x-axis is the mass-to-charge ratio ($m/z$) and the y-axis is the</p>
+<aside class="starlight-aside starlight-aside--note">
 Relative abundance. For singly charged ions, $m/z$ equals the relative isotopic mass.
 </aside>
 ---
@@ -74,7 +74,7 @@ Electrons fill orbitals in order of increasing energy:
 
 $$1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p$$
 
-<aside aria-label="Warning Cations. This is because the $4s$ orbital is at a higher energy than $3d$ once" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Cations. This is because the $4s$ orbital is at a higher energy than $3d$ once</p>
+<aside class="starlight-aside starlight-aside--caution">
 electrons are in the $3d$ subshell.
 </aside>
 ### Pauli Exclusion Principle
@@ -103,7 +103,7 @@ For transition metals, use the noble gas core notation:
 - Chromium ($Z = 24$): $[\mathrm{Ar}]\, 4s^1\, 3d^5$ (exception: half-full subshells are more
   stable)
 
-<aside aria-label="Tip (not $4s^2\, 3d^9$). These arise because half-filled and fully-filled $d$ subshells have" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip (not $4s^2\, 3d^9$). These arise because half-filled and fully-filled $d$ subshells have</p>
+<aside class="starlight-aside starlight-aside--tip">
 extra Stability.
 </aside>
 ---
@@ -278,7 +278,7 @@ Possible.
 | 5 bonding pairs   | Trigonal bipyramidal | $90^\circ, 120^\circ$ | $\mathrm{PCl}_5$                 |
 | 6 bonding pairs   | Octahedral           | $90^\circ$            | $\mathrm{SF}_6$                  |
 
-<aside aria-label="Lone pairs exert a greater repulsive effect than bonding pairs because they are closer to" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Lone pairs exert a greater repulsive effect than bonding pairs because they are closer to</p>
+<aside class="starlight-aside starlight-aside--note">
 The nucleus. This reduces bond angles from the ideal values.
 </aside>
 ### Worked Example 5
@@ -560,7 +560,7 @@ Bonds formed:
 
 $$\Delta H = (1652 + 996) - (1490 + 1852) = 2648 - 3342 = -694 \mathrm{ kJ/mol}$$
 
-<aside aria-label="Warning Formation data instead. Bond enthalpy calculations are less accurate for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Formation data instead. Bond enthalpy calculations are less accurate for</p>
+<aside class="starlight-aside starlight-aside--caution">
 reactions involving liquids Or solids because they only account for gaseous state bonds.
 </aside>
 ---
@@ -865,10 +865,10 @@ $$\mathrm{Bond order} = \frac{1}{2}(\mathrm{bonding electrons} - \mathrm{antibon
 - Bond order = 1.5: intermediate (e.g., $\mathrm{O}_2^-$)
 - Bond order = 0: no bond (molecule does not exist, e.g., $\mathrm{He}_2$)
 
-<aside aria-label="Molecular orbital theory explains why $\mathrm{O}_2$ is paramagnetic (has unpaired electrons" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Molecular orbital theory explains why $\mathrm{O}_2$ is paramagnetic (has unpaired electrons</p>
+<aside class="starlight-aside starlight-aside--note">
 In antibonding orbitals), which cannot be explained by simple Lewis structures.
 </aside>
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Confusing atomic number with mass number:** Atomic number (proton number) defines the element
   and equals the number of protons. Mass number equals protons PLUS neutrons. Isotopes of the same
   element have the same atomic number but different mass numbers. Students frequently mix these up

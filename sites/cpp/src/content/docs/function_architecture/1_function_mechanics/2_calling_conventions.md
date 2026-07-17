@@ -215,7 +215,7 @@ Variables without modifying RSP, avoiding the overhead of stack pointer manipula
 │  ...                 │
 ```
 
-<aside aria-label="Non-leaf functions (functions that call other functions) must NOT use the red zone." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Non-leaf functions (functions that call other functions) must NOT use the red zone.</p>
+<aside class="starlight-aside starlight-aside--caution">
 Signal handlers and interrupt contexts may clobber the red zone. Compiler flags like `-mno-red-zone`
 (used in OS kernels and JIT compilers) disable this optimization.
 </aside>
@@ -506,7 +506,7 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 3. The prologue must adjust RSP by at least 8 bytes to restore 16-byte alignment: `sub rsp, 8` (or
    `push rbp`Which subtracts 8). QED.
 
-<aside aria-label="Alignment violations cause crashes on SIMD instructions (e.g., `movaps` requires 16-byte" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Alignment violations cause crashes on SIMD instructions (e.g., `movaps` requires 16-byte</p>
+<aside class="starlight-aside starlight-aside--caution">
 Alignment). If you see a `SIGSEGV` inside a function that uses SIMD, check for stack misalignment.
 Compiler flags like `-mstackrealign` (MSVC) or `-mno-sse` (GCC) can help diagnose these issues.
 </aside>

@@ -312,7 +312,7 @@ $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\bla
 
 ### 1.12 Common Pitfalls
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--caution">
 - **Existence $\neq$ continuity of partials.** A function can have all partial derivatives at a
   point yet fail to be continuous (hence not differentiable) there.
 - **Existence $\neq$ differentiability.** Even if all partials exist at a point, the function need
@@ -601,7 +601,7 @@ elementary Antiderivative with respect to $y$. Swapping the order was essential.
 
 ### 2.7 Common Pitfalls
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--caution">
 - **Order of integration limits.** When setting up
   $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$Verify that $g_1(x) \leq g_2(x)$ for all
   $x \in [a, b]$. If the region is described as "between two curves," determine which curve is above
@@ -972,7 +972,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 
 ### 3.8 Common Pitfalls
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--caution">
 - **Singularities.** When applying Green's, Stokes', or the Divergence theorem, verify that the
   field has continuous partial derivatives on the region (including interior). If there are
   singularities inside the region, the theorems do not apply directly; the singularity must be
@@ -1225,7 +1225,7 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 
 ### 4.7 Common Pitfalls
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--caution">
 - **Lagrange multipliers find candidates only.** The method produces candidates for constrained
   extrema but does not guarantee they are extrema. Always evaluate $f$ at all candidates and use
   additional reasoning (e.g., compactness of the constraint set via the extreme value theorem) to
@@ -1515,7 +1515,7 @@ $\blacksquare$
 
 ### 5.6 Common Pitfalls
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--caution">
 - **Parameterisation domain.** Always verify that the parameterisation covers the entire surface and
   that the map is one-to-one (except possibly on the boundary).
 - **Normal orientation.** The cross product $\mathbf{r}_u \times \mathbf{r}_v$ determines the

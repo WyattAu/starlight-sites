@@ -68,7 +68,7 @@ When ZFS reads a block, it:
 | edonr     | Very Fast | Very High            | Best for modern hardware (SSE4.2+) |
 | blake3    | Very Fast | Very High            | Available on newer ZFS versions    |
 
-<aside aria-label="Set the checksum algorithm at pool creation time with `-O checksum=sha256`. It cannot be" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Set the checksum algorithm at pool creation time with `-O checksum=sha256`. It cannot be</p>
+<aside class="starlight-aside starlight-aside--note">
 Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ support and provides
 Excellent collision resistance.
 </aside>
@@ -129,7 +129,7 @@ Set at pool creation time and cannot be changed afterward.
 | 13     | 8 KB        | Some modern SSDs with 8 KB physical sectors |
 | 14     | 16 KB       | Advanced-format SMR drives                  |
 
-<aside aria-label="Always set `ashift=12` (4 KB) at minimum for modern drives. Setting `ashift=9` on a drive" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always set `ashift=12` (4 KB) at minimum for modern drives. Setting `ashift=9` on a drive</p>
+<aside class="starlight-aside starlight-aside--caution">
 With 4 KB physical sectors causes read-modify-write amplification, devastating performance. On
 TrueNAS, the default `ashift` is 12, which is correct for virtually all modern drives.
 </aside>
@@ -197,7 +197,7 @@ Variable-size blocks up to this maximum. The optimal recordsize depends on the w
 | General file storage               | 128K                   | Good balance for mixed workloads                 |
 | NFS home directories               | 128K                   | Mixed workload, default is fine                  |
 
-<aside aria-label="Changing `recordsize` on an existing dataset only affects new writes. Existing files" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Changing `recordsize` on an existing dataset only affects new writes. Existing files</p>
+<aside class="starlight-aside starlight-aside--caution">
 Retain their original block sizes. To benefit from a recordsize change, you must rewrite the data
 (e.g., copy files to a new dataset with the desired recordsize).
 </aside>
@@ -312,7 +312,7 @@ A dedicated SLOG device ( a low-latency NVMe SSD or Intel Optane) absorbs synchr
 speed, then asynchronously flushes them to the pool. This dramatically improves NFS And database
 write performance on HDD-based pools.
 
-<aside aria-label="The SLOG must have power-loss protection (PLP). Without PLP, a power loss during a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The SLOG must have power-loss protection (PLP). Without PLP, a power loss during a</p>
+<aside class="starlight-aside starlight-aside--caution">
 Synchronous write can lose acknowledged data, violating the sync guarantee. Intel Optane DC
 Persistent memory is the gold standard for SLOG devices. Enterprise NVMe SSDs with PLP are also
 Acceptable. Consumer NVMe SSDs without PLP should not be used as SLOG devices.
@@ -361,7 +361,7 @@ zpool replace tank /dev/sda /dev/sdb
 zpool status tank
 ```
 
-<aside aria-label="During a resilver, the pool is vulnerable. If a second drive fails during resilver of a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>During a resilver, the pool is vulnerable. If a second drive fails during resilver of a</p>
+<aside class="starlight-aside starlight-aside--caution">
 RAIDZ1 pool, all data is lost. For RAIDZ2, you can tolerate a second failure. Always monitor
 Resilver progress and ensure the pool is healthy before and after.
 </aside>
@@ -694,7 +694,7 @@ zfs rollback tank/data@daily-2024-01-10
 zfs rollback -rf tank/data@daily-2024-01-10
 ```
 
-<aside aria-label="`zfs rollback` destroys all intermediate snapshots between the current state and the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`zfs rollback` destroys all intermediate snapshots between the current state and the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Target snapshot. Use `zfs clone` instead if you want to preserve the current state.
 </aside>
 ## ZFS Send/Receive Advanced Usage
@@ -773,7 +773,7 @@ zpool import <guid>
 zpool import -f tank
 ```
 
-<aside aria-label="Always export a pool before disconnecting drives. If a pool is not exported, ZFS may mark" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always export a pool before disconnecting drives. If a pool is not exported, ZFS may mark</p>
+<aside class="starlight-aside starlight-aside--caution">
 It as active on the original system, preventing import on the new system. Use `zpool export -f` to
 Force export if necessary.
 

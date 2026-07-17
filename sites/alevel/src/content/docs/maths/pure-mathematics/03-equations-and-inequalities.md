@@ -149,7 +149,7 @@ positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
 **Corollary.** Multiplying or dividing both sides of an inequality by a negative number reverses the
 Inequality.
 
-<aside aria-label="Warning Multiplying/dividing by a negative number. Always check the sign of the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Multiplying/dividing by a negative number. Always check the sign of the</p>
+<aside class="starlight-aside starlight-aside--caution">
 multiplier before Proceeding.
 </aside>
 ### 3.2 Quadratic Inequalities
@@ -334,7 +334,7 @@ So $f(x) = (x - 1)(2x - 1)(x + 2)$.
 
 </details>
 
-<aside aria-label="When searching for roots, test the factors of the constant term first. For" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When searching for roots, test the factors of the constant term first. For</p>
+<aside class="starlight-aside starlight-aside--tip">
 $f(x) = x^n + \cdots + c$The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
 </aside>
 <hr />
@@ -486,7 +486,7 @@ No real solution from this case.
 
 </details>
 
-<aside aria-label="Warning Inequality $|f(x)| \lt g(x)$ only makes sense when $g(x) \gt 0$And squaring" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Inequality $|f(x)| \lt g(x)$ only makes sense when $g(x) \gt 0$And squaring</p>
+<aside class="starlight-aside starlight-aside--caution">
 preserves the Direction since $a \lt b$ implies $a^2 \lt b^2$ for $a, b \geq 0$.
 </aside>
 <hr />
@@ -923,7 +923,7 @@ Solutions: $(2, 3)$ and $(-2, -3)$.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Equations and Inequalities**? The contains the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Equations and Inequalities**? The contains the</p>
+<aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Equations

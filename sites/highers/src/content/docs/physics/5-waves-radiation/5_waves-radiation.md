@@ -521,7 +521,7 @@ $$\frac{I}{I_0} = \left( \frac{\sin\beta}{\beta} \right)^2 = \left( \frac{\sin(2
 
 So the second secondary maximum has about $1.6\%$ of the central maximum intensity.
 
-<aside aria-label="The intensity of secondary maxima drops rapidly: first secondary $\approx 4.7\%$Second" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The intensity of secondary maxima drops rapidly: first secondary $\approx 4.7\%$Second</p>
+<aside class="starlight-aside starlight-aside--note">
 $\approx 1.6\%$Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
 In the central maximum.
 </aside>
@@ -568,7 +568,7 @@ $$I_{\mathrm{total} = 3I = 3 \times 10^8 \times I_0$$
 
 $$L_{\mathrm{total} = 10 \log_{10}(3 \times 10^8) = 10 \times (8 + \log_{10} 3) = 10 \times (8 + 0.477) = 84.8 \mathrm{ dB$$
 
-<aside aria-label="Doubling the number of identical sources only increases the sound level by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Doubling the number of identical sources only increases the sound level by</p>
+<aside class="starlight-aside starlight-aside--caution">
 $3 \mathrm{ dB$ (since $10\log_{10} 2 \approx 3$). Ten times as many sources gives
 $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 </aside>
@@ -665,7 +665,7 @@ $$\frac{BE}{A} = \frac{28.30}{4} = 7.07 \mathrm{ MeV/nucleon$$
 
 This is close to the accepted value of $7.07 \mathrm{ MeV/nucleon$ for helium-4.
 
-<aside aria-label="The binding energy per nucleon peaks at around $8.8 \mathrm{ MeV/nucleon$ for iron-56. This" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The binding energy per nucleon peaks at around $8.8 \mathrm{ MeV/nucleon$ for iron-56. This</p>
+<aside class="starlight-aside starlight-aside--note">
 Means:
 
 - Nuclei lighter than iron can _release energy by fusion_ (combining to form heavier nuclei closer

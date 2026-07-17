@@ -12,7 +12,7 @@ categories:
 
 ## A Level Physics — Diagnostic Test
 
-<aside aria-label="Instructions This diagnostic test covers the entire A Level Physics syllabus. Attempt all 45" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Instructions This diagnostic test covers the entire A Level Physics syllabus. Attempt all 45</p>
+<aside class="starlight-aside starlight-aside--note">
 Questions. Each question has an answer and a revision redirect. Time allowed: 90 minutes.
 </aside>
 ## Section A: Mechanics (Questions 1–5)

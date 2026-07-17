@@ -189,7 +189,7 @@ $$C_{\mathrm{Shannon} = 2H \log_2 V \implies 60000 = 12000 \times \log_2 V \impl
 
 </details>
 
-<aside aria-label="Common Pitfall Bandwidth (Hz) and bit rate (bps) are different quantities. Bandwidth is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Bandwidth (Hz) and bit rate (bps) are different quantities. Bandwidth is</p>
+<aside class="starlight-aside starlight-aside--caution">
 the range of frequencies The channel can carry; bit rate is the number of bits transmitted per
 second. Shannon's theorem Relates the maximum bit rate to bandwidth and SNR, but they are not
 interchangeable.
@@ -959,7 +959,7 @@ Total transmitted: 4040 bytes (40 bytes of additional headers due to fragmentati
 **Path MTU Discovery (PMTUD):** The sender sets the DF flag. If a router cannot forward, it returns
 ICMP "Fragmentation Needed" and the sender reduces packet size. Preferred over fragmentation.
 
-<aside aria-label="Common Pitfall When subnetting, remember that a `/31` prefix (RFC 3021) has exactly 2" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When subnetting, remember that a `/31` prefix (RFC 3021) has exactly 2</p>
+<aside class="starlight-aside starlight-aside--caution">
 addresses and is valid for Point-to-point links with no network or broadcast address. A `/32` is a
 single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes of `/30` or shorter.
 </aside>
@@ -1184,7 +1184,7 @@ $$\mathrm{RTO} = \mathrm{RTT_s} + 4 \cdot \mathrm{RTT_d}$$
 Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RTO = 1 s; minimum RTO
 = 200 ms.
 
-<aside aria-label="Common Pitfall Karn's algorithm: do not update RTT estimates for retransmitted segments." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Karn's algorithm: do not update RTT estimates for retransmitted segments.</p>
+<aside class="starlight-aside starlight-aside--caution">
 The ACK could correspond To either the original or the retransmission (retransmission ambiguity).
 </aside>
 <details>
@@ -1460,7 +1460,7 @@ _Proof._ The sender cannot have more than the window size in unacknowledged data
 Requires an ACK, which takes one RTT to arrive. Thus the sender can send at most window / RTT bytes
 Per second. $\blacksquare$
 
-<aside aria-label="Common Pitfall DNS uses both TCP and UDP. Queries use UDP port 53 (for efficiency). TCP" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall DNS uses both TCP and UDP. Queries use UDP port 53 (for efficiency). TCP</p>
+<aside class="starlight-aside starlight-aside--caution">
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
 </aside>
@@ -1642,7 +1642,7 @@ A **Virtual Private Network** creates an encrypted tunnel over a public network.
 - Specific rules must precede general rules.
 - Stateful firewalls automatically allow return traffic for established connections.
 
-<aside aria-label="Common Pitfall Encryption does not imply authentication. A message encrypted with a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Encryption does not imply authentication. A message encrypted with a</p>
+<aside class="starlight-aside starlight-aside--caution">
 public key guarantees Confidentiality but does not prove who sent it. Digital signatures (signing
 with a private key) Provide authentication and non-repudiation. TLS combines both via the
 certificate chain.

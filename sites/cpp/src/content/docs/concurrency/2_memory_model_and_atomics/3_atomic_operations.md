@@ -75,7 +75,7 @@ int main() {
 }
 ```
 
-<aside aria-label="`std::atomic_ref` requires that the referenced object's alignment is at least" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::atomic_ref` requires that the referenced object's alignment is at least</p>
+<aside class="starlight-aside starlight-aside--caution">
 `alignof(std::atomic<T>)`. For many types this is the same as `alignof(T)`But for types smaller Than
 the platform's native word size, `alignof(std::atomic<T>)` may be larger.
 </aside>
@@ -227,7 +227,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Warning `compare_exchange_weak`Another thread pops `old_head`Pushes new nodes, and then" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning `compare_exchange_weak`Another thread pops `old_head`Pushes new nodes, and then</p>
+<aside class="starlight-aside starlight-aside--caution">
 pushes `old_head` back, the CAS will succeed but `next` will be stale. In production code, use
 hazard Pointers or tagged pointers to prevent ABA.
 </aside>
@@ -278,7 +278,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Info Holding the lock) makes progress. However, spinlocks waste CPU cycles while spinning." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Holding the lock) makes progress. However, spinlocks waste CPU cycles while spinning.</p>
+<aside class="starlight-aside starlight-aside--note">
 They are Appropriate only when the critical section is very short and contention is expected to be
 low. For Longer critical sections, prefer `std::mutex` which blocks the thread and yields the CPU.
 </aside>
@@ -330,7 +330,7 @@ void memory_order_overview() {
 }
 ```
 
-<aside aria-label="Warning MSVC) treat it as `memory_order_acquire` because implementing true dependency" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning MSVC) treat it as `memory_order_acquire` because implementing true dependency</p>
+<aside class="starlight-aside starlight-aside--caution">
 ordering correctly is Extremely complex and was found to have specification issues. Do not use
 `memory_order_consume` — Use `memory_order_acquire` instead.
 </aside>
@@ -435,7 +435,7 @@ void atomic_wait_notify_demo() {
 }
 ```
 
-<aside aria-label="Info `ulock` on macOS. These are kernel-assisted waiting mechanisms that avoid busy-waiting." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info `ulock` on macOS. These are kernel-assisted waiting mechanisms that avoid busy-waiting.</p>
+<aside class="starlight-aside starlight-aside--note">
 The waiting Thread is descheduled until a notification arrives, consuming zero CPU cycles. This is
 fundamentally More efficient than a spinlock for high-contention or long waits.
 </aside>
@@ -492,7 +492,7 @@ void atomic_bool_flag_demo() {
 }
 ```
 
-<aside aria-label="Warning Is **not** guaranteed to be lock-free on all platforms, though it is on virtually" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Is **not** guaranteed to be lock-free on all platforms, though it is on virtually</p>
+<aside class="starlight-aside starlight-aside--caution">
 all modern Hardware. Check `std::atomic&lt;bool&gt;::is_always_lock_free` at compile time.
 </aside>
 ## `std::atomic&lt;shared_ptr&gt;` and `std::atomic&lt;weak_ptr&gt;` (C++20)
@@ -527,7 +527,7 @@ void shared_ptr_atomic_demo() {
 }
 ```
 
-<aside aria-label="Warning Operate on `std::shared_ptr*`. These functions use an internal spinlock or mutex," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Operate on `std::shared_ptr*`. These functions use an internal spinlock or mutex,</p>
+<aside class="starlight-aside starlight-aside--caution">
 so they are Significantly slower than lock-free atomics. For high-performance shared access,
 consider `std::atomic&lt;T*&gt;` with manual reference counting, or redesign to avoid shared mutable
 state.
@@ -612,7 +612,7 @@ public:
 };
 ```
 
-<aside aria-label="Warning Address space may use more bits in the future (LVA support). This tagged pointer" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Address space may use more bits in the future (LVA support). This tagged pointer</p>
+<aside class="starlight-aside starlight-aside--caution">
 approach is Platform-specific. For a portable solution, use a separate `std::atomic&lt;uint64_t&gt;`
 tag Alongside the pointer, or use hazard pointers.
 </aside>

@@ -102,7 +102,7 @@ assert!(nan != nan);           // true
 assert!(!nan.is_nan());        // false — use is_nan() for the check
 ```
 
-<aside aria-label="Floating-point types do not implement `Eq` or `Ord` because IEEE 754 semantics make total ordering" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Floating-point types do not implement `Eq` or `Ord` because IEEE 754 semantics make total ordering</p>
+<aside class="starlight-aside starlight-aside--caution">
 Impossible (NaN breaks reflexivity and transitivity). Use `f64::total_cmp()` (stable since 1.62) if
 You need a total ordering for sorting.
 
@@ -577,7 +577,7 @@ fn increment() {
 }
 ```
 
-<aside aria-label="Do not use `static mut`. It is the source of undefined behavior in multi-threaded contexts and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not use `static mut`. It is the source of undefined behavior in multi-threaded contexts and</p>
+<aside class="starlight-aside starlight-aside--caution">
 Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
 
 </aside>
@@ -728,7 +728,7 @@ let y: u32 = x as u32;          // 4294967295 (two's complement reinterpretation
 let z: i8 = 128i32 as i8;       // -128 (wraps)
 ```
 
-<aside aria-label="`as` for integer-to-integer casts is well-defined (wrapping/truncation semantics). `as` for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`as` for integer-to-integer casts is well-defined (wrapping/truncation semantics). `as` for</p>
+<aside class="starlight-aside starlight-aside--caution">
 Float-to-integer casts saturates: NaN and out-of-range values become 0 (for unsigned) or the minimum
 Value (for signed). This behavior is documented in the reference but surprises people coming from C.
 

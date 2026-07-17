@@ -379,10 +379,10 @@ $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 
 ### 2.17 Common Pitfalls for First-Order ODEs
 
-<aside aria-label="Common Pitfall When separating variables, dividing by $h(y)$ can lose solutions where" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When separating variables, dividing by $h(y)$ can lose solutions where</p>
+<aside class="starlight-aside starlight-aside--caution">
 $h(y) = 0$. Always check whether $h(y) = 0$ yields valid solutions before dividing.
 </aside>
-<aside aria-label="Common Pitfall Not every first-order ODE falls into a standard category. Equations like" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not every first-order ODE falls into a standard category. Equations like</p>
+<aside class="starlight-aside starlight-aside--caution">
 $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require numerical Techniques.
 </aside>
 ## 3. Second-Order Linear ODEs
@@ -754,14 +754,14 @@ The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
 ### 3.17 Common Pitfalls for Second-Order ODEs
 
-<aside aria-label="Common Pitfall When using undetermined coefficients, always check whether your guess" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When using undetermined coefficients, always check whether your guess</p>
+<aside class="starlight-aside starlight-aside--caution">
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 </aside>
-<aside aria-label="Common Pitfall For Euler-Cauchy equations, the substitution $y = x^r$ only works for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall For Euler-Cauchy equations, the substitution $y = x^r$ only works for</p>
+<aside class="starlight-aside starlight-aside--caution">
 $x > 0$. For $x < 0$Substitute $x = -e^t$ or use $y = (-x)^r$.
 </aside>
-<aside aria-label="Common Pitfall Variation of parameters always works but can lead to difficult integrals." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Variation of parameters always works but can lead to difficult integrals.</p>
+<aside class="starlight-aside starlight-aside--caution">
 If the forcing term $g(x)$ is a polynomial, exponential, sine, or cosine (or products of these),
 Prefer undetermined coefficients --- it is much faster.
 </aside>
@@ -1283,10 +1283,10 @@ $y(t) = 6 \cdot \frac{t^2 e^{3t}}{2!} = 3t^2 e^{3t}$. $\blacksquare$
 
 ### 5.14 Common Pitfalls for Laplace Transforms
 
-<aside aria-label="Common Pitfall The Laplace transform of $y'(t)$ is $sY(s) - y(0)$Not $sY(s)$. The Initial" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Laplace transform of $y'(t)$ is $sY(s) - y(0)$Not $sY(s)$. The Initial</p>
+<aside class="starlight-aside starlight-aside--caution">
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
 </aside>
-<aside aria-label="Common Pitfall When using the second shifting theorem, the time-shifted function must Be" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When using the second shifting theorem, the time-shifted function must Be</p>
+<aside class="starlight-aside starlight-aside--caution">
 written as $u_c(t)f(t - c)$Not $u_c(t)f(t)$. The function $f$ must be shifted by the same Amount as
 the step.
 </aside>
@@ -1968,42 +1968,42 @@ extinction (competitive exclusion).
 
 ## 10. Common Pitfalls
 
-<aside aria-label="Common Pitfall When using undetermined coefficients, always check whether your guess" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When using undetermined coefficients, always check whether your guess</p>
+<aside class="starlight-aside starlight-aside--caution">
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 </aside>
-<aside aria-label="Common Pitfall The Laplace transform of $y'(t)$ is $sY(s) - y(0)$Not $sY(s)$. The Initial" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Laplace transform of $y'(t)$ is $sY(s) - y(0)$Not $sY(s)$. The Initial</p>
+<aside class="starlight-aside starlight-aside--caution">
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
 </aside>
-<aside aria-label="Common Pitfall Separation of variables can miss solutions. When dividing by $h(y)$ to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Separation of variables can miss solutions. When dividing by $h(y)$ to</p>
+<aside class="starlight-aside starlight-aside--caution">
 Separate, check whether $h(y) = 0$ gives any valid solutions. For example, solving $y' = y^2$ by
 Separating gives $y = -1/(x + C)$But misses the solution $y = 0$.
 </aside>
-<aside aria-label="Common Pitfall The Fourier series of a function converges to the function only at points" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Fourier series of a function converges to the function only at points</p>
+<aside class="starlight-aside starlight-aside--caution">
 Of continuity. At jump discontinuities, it converges to the midpoint of the jump. The Gibbs
 Phenomenon causes overshoots near jumps that do not vanish as more terms are added.
 </aside>
-<aside aria-label="Common Pitfall When solving PDEs by separation of variables, the boundary conditions" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When solving PDEs by separation of variables, the boundary conditions</p>
+<aside class="starlight-aside starlight-aside--caution">
 Determine the eigenvalues. Using the wrong boundary conditions (e.g., Neumann instead of Dirichlet)
 Leads to a completely different set of eigenfunctions and eigenvalues.
 </aside>
-<aside aria-label="Common Pitfall Not every first-order ODE can be solved analytically. Equations like" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not every first-order ODE can be solved analytically. Equations like</p>
+<aside class="starlight-aside starlight-aside--caution">
 $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. Numerical methods
 (Euler, Runge-Kutta) may be necessary.
 </aside>
-<aside aria-label="Common Pitfall The linearization of a nonlinear system near a critical point is only" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The linearization of a nonlinear system near a critical point is only</p>
+<aside class="starlight-aside starlight-aside--caution">
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
 The imaginary axis, the nonlinear system can behave very differently from its linearization.
 </aside>
-<aside aria-label="Common Pitfall When computing the inverse Laplace transform, always check that the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When computing the inverse Laplace transform, always check that the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Partial fraction decomposition is correct before inverting term-by-term. A common error is
 Forgetting to include all powers of irreducible quadratic factors.
 </aside>
-<aside aria-label="Common Pitfall For the Euler-Cauchy equation $x^2 y'' + axy' + by = 0$Remember that $x^r$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall For the Euler-Cauchy equation $x^2 y'' + axy' + by = 0$Remember that $x^r$</p>
+<aside class="starlight-aside starlight-aside--caution">
 with complex $r = \alpha \pm i\beta$ gives solutions involving $\cos(\beta \ln x)$ and
 $\sin(\beta \ln x)$Not $\cos(\beta x)$ and $\sin(\beta x)$.
 </aside>
-<aside aria-label="Common Pitfall The Wronskian $W(y_1, y_2)$ being zero at a single point does not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Wronskian $W(y_1, y_2)$ being zero at a single point does not</p>
+<aside class="starlight-aside starlight-aside--caution">
 Necessarily mean the solutions are linearly dependent. For linear ODEs with continuous coefficients,
 $W \equiv 0$ everywhere or $W \neq 0$ everywhere. Check Abel's identity.
 

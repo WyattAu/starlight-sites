@@ -151,7 +151,7 @@ A practical method uses conducting paper with electrodes painted on:
 3. Plot the equipotential lines by joining points of equal voltage.
 4. Draw field lines perpendicular to the equipotentials.
 
-<aside aria-label="Warning The field is zero on an equipotential. The field is non-zero and perpendicular;" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning The field is zero on an equipotential. The field is non-zero and perpendicular;</p>
+<aside class="starlight-aside starlight-aside--caution">
 only the component Tangent to the surface is zero.
 </aside>
 ## 5. Motion of Charged Particles in Uniform Fields
@@ -240,7 +240,7 @@ $$S = \frac{y}{V_d} = \frac{eL^2}{2m_e v^2 d} = \frac◆LB◆L^2◆RB◆◆LB◆
 Where $L$ is the plate length and $d$ is the plate separation. Higher sensitivity requires longer
 Plates, closer spacing, and lower acceleration voltage.
 
-<aside aria-label="Common Pitfall A common error is to confuse the acceleration voltage $V_{\mathrm{acc}}$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A common error is to confuse the acceleration voltage $V_{\mathrm{acc}}$</p>
+<aside class="starlight-aside starlight-aside--caution">
 (which determines beam speed) with the deflection voltage $V_d$ (which determines deflection). The
 Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{acc}}$.
 </aside>

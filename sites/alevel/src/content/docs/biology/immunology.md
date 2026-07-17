@@ -138,7 +138,7 @@ characterised by the classic signs: **rubor** (redness), **calor** (heat), **tum
 6. **Resolution**: once the infection is cleared, dead cells and debris are removed by phagocytes.
    Tissue repair begins.
 
-<aside aria-label="Common Pitfall Students often confuse the roles of histamine and antibodies in the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse the roles of histamine and antibodies in the</p>
+<aside class="starlight-aside starlight-aside--caution">
 inflammatory response. Histamine is released by mast cells immediately upon tissue damage and causes
 the vasodilation and increased permeability characteristic of inflammation. Antibodies are produced
 later by B cells as part of the adaptive immune response and are not involved in the initial
@@ -503,7 +503,7 @@ $$\text{Concentration} = 20 + (40 - 20) \times \frac{0.55 - 0.42}{0.78 - 0.42} =
 
 The patient sample contains approximately $27.2\ \mathrm{ng\ cm^{-3}}$ of antigen.
 
-<aside aria-label="Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall In ELISA, the colour change is catalysed by an enzyme attached to the</p>
+<aside class="starlight-aside starlight-aside--caution">
 antibody, not by the antigen itself. Students sometimes write that "the antigen changes colour." The
 enzyme on the secondary antibody converts the substrate to a coloured product; the intensity of
 colour indicates how much antigen-antibody complex is present.
@@ -1237,7 +1237,7 @@ Immunotherapy is effective for insect venom allergies, allergic rhinitis (hay fe
 allergies, but it carries a risk of triggering anaphylaxis and must be carried out under medical
 supervision.
 
-<aside aria-label="Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse antibodies (proteins produced by B cells/plasma</p>
+<aside class="starlight-aside starlight-aside--caution">
 cells) with antigens (molecules that trigger an immune response). Remember: **Antibody** is produced
 by the immune system in response to an **Antigen**. Antibodies are Y-shaped proteins; antigens can
 be proteins, polysaccharides, or other molecules on the surface of pathogens.
@@ -1297,7 +1297,7 @@ inflammation can cause tissue damage and is implicated in many diseases:
 
 ---
 
-<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
+<aside class="starlight-aside starlight-aside--tip">
 ## 23. The Complement System
 
 ### 23.1 Overview
@@ -1444,7 +1444,7 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | Diphtheria         | 4--6   | 75--83%                 |
 
 </aside>
-<aside aria-label="Common Pitfall Students often think herd immunity means no one can get the disease. Herd" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often think herd immunity means no one can get the disease. Herd</p>
+<aside class="starlight-aside starlight-aside--caution">
 immunity reduces the probability of transmission but does not eliminate risk entirely. Non-immune
 individuals (too young for vaccination, immunocompromised, vaccine contraindications) can still be
 infected if exposed. Additionally, immunity can wane over time, and new variants may partially
@@ -1880,7 +1880,7 @@ the body's own tissues:
 | Failure of regulatory T cells ($\mathrm{T_{reg}}$) | $\mathrm{T_{reg}}$ cells normally suppress self-reactive lymphocytes; deficiency leads to loss of self-tolerance                                                        |
 | Polyclonal B cell activation                       | Some pathogens (e.g., EBV) activate many B cells non-specifically, including self-reactive clones                                                                       |
 
-<aside aria-label="Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Type 1 diabetes is autoimmune (immune system destroys $\beta$ cells). Type</p>
+<aside class="starlight-aside starlight-aside--caution">
 2 diabetes is metabolic (insulin resistance). Do not confuse them. Also, coeliac disease is an
 autoimmune condition triggered by gluten, not a food allergy.
 </aside>

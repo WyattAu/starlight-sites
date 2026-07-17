@@ -224,7 +224,7 @@ $$500g(30) = 500gh + 200d$$
 Without more information about the track profile, we cannot determine the exact stopping point. This
 illustrates the importance of knowing the track geometry.
 
-<aside aria-label="Common Pitfall The work-energy principle gives the change in kinetic energy, not the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The work-energy principle gives the change in kinetic energy, not the</p>
+<aside class="starlight-aside starlight-aside--caution">
 velocity directly. Remember To take the square root to find speed, and always check that the result
 is physically meaningful (i.e., the quantity under the square root must be non-negative).
 </aside>
@@ -383,7 +383,7 @@ $$T_A = 3g \implies 50(d - 0.8) = 29.4 \implies d = 1.388\;\mathrm{m}$$
 But $1.388 \lt 2$Contradiction. This problem needs a 2D treatment with the particle hanging below
 The line, with both strings at angles.
 
-<aside aria-label="Warning Elastic potential energy problems often require careful consideration of whether" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Elastic potential energy problems often require careful consideration of whether</p>
+<aside class="starlight-aside starlight-aside--caution">
 strings are taut or Slack at different points in the motion. Always check the assumptions about
 extensions at each stage.
 

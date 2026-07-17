@@ -1522,29 +1522,29 @@ $z_0$Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
 
 ## 14. Common Pitfalls
 
-<aside aria-label="Common Pitfall The Cauchy-Riemann equations are necessary but not sufficient for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Cauchy-Riemann equations are necessary but not sufficient for</p>
+<aside class="starlight-aside starlight-aside--caution">
 Differentiability. The partial derivatives must also be continuous. For example,
 $f(z) = \exp(-1/z^4)$ extended by $f(0) = 0$ satisfies the Cauchy-Riemann equations at the origin
 But is not differentiable there.
 </aside>
-<aside aria-label="Common Pitfall Cauchy's theorem requires a connected domain. On a multiply Connected" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Cauchy's theorem requires a connected domain. On a multiply Connected</p>
+<aside class="starlight-aside starlight-aside--caution">
 domain, the integral of an analytic function around a closed contour may be non-zero. The Classic
 example is $\oint_{|z|=1} dz/z = 2\pi i$.
 </aside>
-<aside aria-label="Common Pitfall When computing residues at poles of order $m \geq 2$The formula involves" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When computing residues at poles of order $m \geq 2$The formula involves</p>
+<aside class="starlight-aside starlight-aside--caution">
 Differentiation. A common error is forgetting the $(m-1)!$ in the denominator or differentiating
 $(z - z_0)^m f(z)$ the wrong number of times.
 </aside>
-<aside aria-label="Common Pitfall The residue at infinity is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The residue at infinity is</p>
+<aside class="starlight-aside starlight-aside--caution">
 $\mathrm{Res}(f, \infty) = -\mathrm{Res}(1/z^2 \cdot f(1/z), 0)$. It is NOT $f(\infty)$. For A
 function that is analytic everywhere in the finite plane except for finitely many singularities, The
 sum of all residues (including the residue at infinity) is zero.
 </aside>
-<aside aria-label="Common Pitfall A conformal mapping preserves angles but not necessarily distances. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A conformal mapping preserves angles but not necessarily distances. The</p>
+<aside class="starlight-aside starlight-aside--caution">
 Mapping $w = z^2$ is conformal at every $z \neq 0$But it doubles the angle between curves at each
 Point. At $z = 0$It is not conformal because $f'(0) = 0$.
 </aside>
-<aside aria-label="Common Pitfall The maximum modulus principle says that $|f|$ has no local maximum in the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The maximum modulus principle says that $|f|$ has no local maximum in the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Interior, but the minimum can occur in the interior (e.g., $f(z) = z$ on the unit disk has minimum
 $|f| = 0$ at $z = 0$). For the minimum principle, one needs the additional hypothesis that $f$ has
 No zeros in the domain.
@@ -1554,7 +1554,7 @@ without specifying a branch, you must either compute all values or explicitly st
 are using. The principal branch $\mathrm{Log}\, z$ has a branch cut along $(-\infty, 0]$ And is
 undefined on this cut.
 </aside>
-<aside aria-label="Common Pitfall When applying the ML inequality, make sure $M$ is a valid upper bound for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When applying the ML inequality, make sure $M$ is a valid upper bound for</p>
+<aside class="starlight-aside starlight-aside--caution">
 $|f(z)|$ on the entire contour. A common error is bounding $|f|$ on only part of the contour. Also,
 $L$ must be the arc length of the contour, not a diameter or radius.
 </aside>

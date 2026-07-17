@@ -25,7 +25,7 @@ Are essential for university-level mathematics, physics, and engineering.
 | OCR (A)    | Paper 1  | Parts, inverse trig integrals, volumes                            |
 | CIE (9231) | P1, P2   | Parts and volumes in P1; arc length and surface area in P2        |
 
-<aside aria-label="All boards provide standard integrals in the formula booklet. You must know how to apply" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>All boards provide standard integrals in the formula booklet. You must know how to apply</p>
+<aside class="starlight-aside starlight-aside--note">
 Integration by parts repeatedly, derive and use reduction formulae, and set up volumes of revolution
 Integrals correctly. CIE places particular emphasis on parametric volumes of revolution.
 </aside>
@@ -96,7 +96,7 @@ $$I\left(1 + \frac{a^2}{b^2}\right) = e^{ax}\left(\frac◆LB◆\sin bx◆RB◆�
 
 $$\boxed{I = \frac◆LB◆e^{ax}(a\cos bx + b\sin bx)◆RB◆◆LB◆a^2 + b^2◆RB◆ + C}$$
 
-<aside aria-label="tip original integral reappears — solve for it algebraically. Always keep $u = e^{ax}$ on" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>tip original integral reappears — solve for it algebraically. Always keep $u = e^{ax}$ on</p>
+<aside class="starlight-aside starlight-aside--tip">
 Both applications.
 </aside>
 ### 1.3 Reduction formulae
@@ -175,7 +175,7 @@ $$\int \frac{3x+1}{x^2+2x+5}\,dx = \frac{3}{2}\ln(x^2+2x+5) - 2\cdot\frac{1}{2}\
 
 $$= \frac{3}{2}\ln(x^2+2x+5) - \arctan\!\left(\frac{x+1}{2}\right) + C$$
 
-<aside aria-label="tip into a multiple of $(2x + b)$ plus a constant, (3) the $(2x+b)$ part gives $\ln$The" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>tip into a multiple of $(2x + b)$ plus a constant, (3) the $(2x+b)$ part gives $\ln$The</p>
+<aside class="starlight-aside starlight-aside--tip">
 Constant gives $\arctan$.
 </aside>
 ### 2.3 Repeated factors
@@ -237,7 +237,7 @@ $$\int \frac◆LB◆1◆RB◆◆LB◆\sqrt{a^2 - (x+b)^2}◆RB◆\,dx = \arcsin\
 
 These follow directly from the standard forms via the substitution $u = x + b$.
 
-<aside aria-label="warning $\dfrac◆LB◆1◆RB◆◆LB◆\sqrt{a^2-x^2}◆RB◆$ (gives $\arcsin$), and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>warning $\dfrac◆LB◆1◆RB◆◆LB◆\sqrt{a^2-x^2}◆RB◆$ (gives $\arcsin$), and</p>
+<aside class="starlight-aside starlight-aside--caution">
 $\dfrac{1}{a^2-x^2}$ (gives a logarithmic form). The square root makes the difference.
 </aside>
 <hr />
@@ -307,7 +307,7 @@ When a curve is given parametrically by $x = x(t)$, $y = y(t)$:
 - Rotation about the $x$-axis: $V = \pi\displaystyle\int_{t_1}^{t_2} y^2\,\frac{dx}{dt}\,dt$
 - Rotation about the $y$-axis: $V = \pi\displaystyle\int_{t_1}^{t_2} x^2\,\frac{dy}{dt}\,dt$
 
-<aside aria-label="The parametric volume formula uses $\dfrac{dx}{dt}$ or $\dfrac{dy}{dt}$ as appropriate." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The parametric volume formula uses $\dfrac{dx}{dt}$ or $\dfrac{dy}{dt}$ as appropriate.</p>
+<aside class="starlight-aside starlight-aside--caution">
 Do not forget this factor — it is a very common error.
 </aside>
 **Example.** Find the volume generated by rotating the curve $y = \sqrt{x}$ from $x = 0$ to $x = 4$
@@ -389,7 +389,7 @@ Simplifying with $\sec(\arctan 2) = \sqrt{5}$ and $\tan(\arctan 2) = 2$:
 
 $$S = \frac◆LB◆9\pi\sqrt{5}◆RB◆◆LB◆16◆RB◆ - \frac◆LB◆\pi◆RB◆◆LB◆32◆RB◆\ln(2+\sqrt{5})$$
 
-<aside aria-label="CIE (9231) P2 requires arc length and surface area of revolution. Edexcel FP2 covers arc" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>CIE (9231) P2 requires arc length and surface area of revolution. Edexcel FP2 covers arc</p>
+<aside class="starlight-aside starlight-aside--note">
 Length but surface area appears less frequently. AQA covers both in Paper 1. OCR (A) covers arc
 Length in Paper 1.
 </aside>

@@ -102,7 +102,7 @@ These notes are structured by subject and topic. Each topic covers material rele
 And Ordinary Level, with the level indicated. Worked examples, common pitfalls, and practice
 Questions are included throughout.
 
-<aside aria-label="When studying, focus first on understanding the core concepts before attempting practice" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When studying, focus first on understanding the core concepts before attempting practice</p>
+<aside class="starlight-aside starlight-aside--tip">
 Questions. For Higher Level students, pay particular attention to the proofs and derivations, as
 These frequently appear on the examination.
 </aside>
@@ -113,7 +113,7 @@ The State examinations in Ireland. Its website at [examinations.ie](https://www.
 Provides past examination papers, marking schemes, and chief examiner reports -- all invaluable
 Resources for revision.
 
-<aside aria-label="Past papers and marking schemes are available free of charge from the SEC website. Working" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Past papers and marking schemes are available free of charge from the SEC website. Working</p>
+<aside class="starlight-aside starlight-aside--note">
 Through past papers under timed conditions is one of the most effective preparation strategies.
 </aside>
 ## Summary

@@ -44,7 +44,7 @@ $$d = \frac◆LB◆79 \times (1.60 \times 10^{-19})^2◆RB◆◆LB◆2\pi \times
 This gives an upper bound on the nuclear radius of gold ($\sim 10^{-14}$ m, compared to the atomic
 Radius of $\sim 10^{-10}$ m).
 
-<aside aria-label="Warning Not the radius itself. The alpha particle never actually touches the nucleus (the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Not the radius itself. The alpha particle never actually touches the nucleus (the</p>
+<aside class="starlight-aside starlight-aside--caution">
 strong nuclear force Has a very short range).
 </aside>
 ## 2. Nuclear Structure
@@ -190,7 +190,7 @@ $$\prescript{A}{Z}\mathrm{X}^* \to \prescript{A}{Z}\mathrm{X} + \gamma$$
 
 No change in $A$ or $Z$. Weakly ionising, highly penetrating (requires thick lead or concrete).
 
-<aside aria-label="Warning Proton, so the total nucleon count is unchanged. Do not write $A - 1$ for beta" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Proton, so the total nucleon count is unchanged. Do not write $A - 1$ for beta</p>
+<aside class="starlight-aside starlight-aside--caution">
 decay.
 </aside>
 ## 6. Exponential Decay Law and Half-Life

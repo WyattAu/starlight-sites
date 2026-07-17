@@ -241,8 +241,8 @@ $$
 \mathrm{diol} + \mathrm{dicarboxylic acid} \to \mathrm{polyester} + \mathrm{H}_2\mathrm{O}
 $$
 
-:::info[Example — PET (polyethylene terephthalate)]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — PET (polyethylene terephthalate)</strong>
 Monomers: ethane-1,2-diol and benzene-1,4-dicarboxylic acid.
 
 $$
@@ -260,9 +260,9 @@ $$
 \mathrm{diamine} + \mathrm{dicarboxylic acid} \to \mathrm{polyamide} + \mathrm{H}_2\mathrm{O}
 $$
 
-:::
-:::info[Example — Nylon-6,6]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — Nylon-6,6</strong>
 Monomers: hexane-1,6-diamine and hexanedioic acid.
 
 $$
@@ -800,4 +800,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/2_carbon-chemistry)          |
 
 
-:::
+</aside>

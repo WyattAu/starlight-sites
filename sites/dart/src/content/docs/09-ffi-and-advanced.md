@@ -115,7 +115,7 @@ List<String?> external = fetchFromNetwork();
 String first = external.first!;  // Crashes if first element is null
 ```
 
-<aside aria-label="Every use of `!` is a claim that you know more than the type checker. If the type checker can" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Every use of `!` is a claim that you know more than the type checker. If the type checker can</p>
+<aside class="starlight-aside starlight-aside--caution">
 Promote the type via flow analysis, remove the `!`. If it cannot, prefer a guard or default value.
 The `!` operator is a code smell in production code — it means you are bypassing the safety system.
 
@@ -187,13 +187,13 @@ class Service {
 ```
 
 </aside>
-<aside aria-label="Common pitfall: `late` without `final` allows reassignment. If you intend immutable deferred" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common pitfall: `late` without `final` allows reassignment. If you intend immutable deferred</p>
+<aside class="starlight-aside starlight-aside--caution">
 Initialization, always use `late final`. A bare `late` field is mutable and can be reassigned
 Arbitrarily after its first initialization.
 
 
 </aside>
-<aside aria-label="Common pitfall: `late` fields are not initialized in the constructor. If your class has multiple" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common pitfall: `late` fields are not initialized in the constructor. If your class has multiple</p>
+<aside class="starlight-aside starlight-aside--caution">
 Initialization paths and one path forgets to initialize the `late` field, you get a
 `LateInitializationError` at runtime with no compile-time warning.
 
@@ -395,7 +395,7 @@ String? getName() => 'Dart';
 ```
 
 </aside>
-<aside aria-label="Flow analysis does not track mutations through closures or across async boundaries. If a nullable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Flow analysis does not track mutations through closures or across async boundaries. If a nullable</p>
+<aside class="starlight-aside starlight-aside--caution">
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
 Will not promote it inside the closure.
 
@@ -528,7 +528,7 @@ Types:
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
 
 </aside>
-<aside aria-label="All integer FFI types map to Dart `int`Regardless of size. Dart's `int` is a 64-bit integer on the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>All integer FFI types map to Dart `int`Regardless of size. Dart's `int` is a 64-bit integer on the</p>
+<aside class="starlight-aside starlight-aside--note">
 VM. When passing an `Int8` value, the Dart `int` is truncated to 8 bits. When reading an `Int8`
 Value, it is sign-extended to 64 bits. Always be aware of the C type's range when working with FFI.
 
@@ -585,7 +585,7 @@ final bytePtr = ptr.cast<Uint8>();  // reinterpret as byte array
 ```
 
 </aside>
-<aside aria-label="`malloc` and `calloc` allocate native heap memory. This memory is **not** managed by Dart's garbage" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`malloc` and `calloc` allocate native heap memory. This memory is **not** managed by Dart's garbage</p>
+<aside class="starlight-aside starlight-aside--caution">
 Collector. Every `malloc` must have a corresponding `malloc.free`Or you leak native memory. Unlike
 Dart objects, there is no finalizer that automatically frees native memory. Use `using` from
 `package:ffi` or Dart's `NativeFinalizer` to ensure cleanup.
@@ -715,7 +715,7 @@ callback.close();
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
 
 </aside>
-<aside aria-label="`NativeCallable` objects must be closed with `.close()` when no longer needed. Failure to close" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`NativeCallable` objects must be closed with `.close()` when no longer needed. Failure to close</p>
+<aside class="starlight-aside starlight-aside--caution">
 Leaks native resources. The callable is valid only while the `NativeCallable` object is alive.
 
 
@@ -734,7 +734,7 @@ nativeSetCallback(callbackPointer);
 ```
 
 </aside>
-<aside aria-label="`Pointer.fromFunction` callbacks can only be invoked from the same isolate that created them. If C" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`Pointer.fromFunction` callbacks can only be invoked from the same isolate that created them. If C</p>
+<aside class="starlight-aside starlight-aside--caution">
 Code calls the callback from a different thread, the behavior is undefined and may crash. Use
 `NativeCallable.listener` for cross-thread callbacks.
 
@@ -793,7 +793,7 @@ final dartResult = result.toDartString();
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
 
 </aside>
-<aside aria-label="Always free native strings allocated via `toNativeUtf8()` or `toNativeUtf16()`. The `toDartString()`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always free native strings allocated via `toNativeUtf8()` or `toNativeUtf16()`. The `toDartString()`</p>
+<aside class="starlight-aside starlight-aside--caution">
 Method allocates a new Dart `String` object — it does not take ownership of the C memory. If C
 Allocated the string, you must free it with C's deallocator, not Dart's `malloc.free`.
 
@@ -862,7 +862,7 @@ external void nativeFree(Pointer<Void> ptr);
 ```
 
 </aside>
-<aside aria-label="`@FfiNative` uses symbol resolution at load time rather than lookup time. This is slightly faster" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`@FfiNative` uses symbol resolution at load time rather than lookup time. This is slightly faster</p>
+<aside class="starlight-aside starlight-aside--note">
 Than `DynamicLibrary.lookup` and produces cleaner code. It requires Dart 3.3+ and native platforms
 (AOT or JIT).
 
@@ -894,7 +894,7 @@ void main() async {
 ```
 
 </aside>
-<aside aria-label="Never call blocking FFI functions on the main isolate in a Flutter application. The UI thread must" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never call blocking FFI functions on the main isolate in a Flutter application. The UI thread must</p>
+<aside class="starlight-aside starlight-aside--caution">
 Remain responsive. Always offload potentially long-running native calls to a compute isolate via
 `Isolate.run`.
 
@@ -1062,7 +1062,7 @@ class _Request {
 ```
 
 </aside>
-<aside aria-label="Isolate messages are ordered per port. If isolate A sends messages M1, M2, M3 to isolate B, B will" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Isolate messages are ordered per port. If isolate A sends messages M1, M2, M3 to isolate B, B will</p>
+<aside class="starlight-aside starlight-aside--caution">
 Receive them in that order. However, messages sent from different isolates to the same port may be
 Interleaved — there is no global ordering guarantee across multiple senders.
 
@@ -1231,7 +1231,7 @@ Has overhead. For DOM-heavy applications, this overhead can dominate. For comput
 (e.g., image processing, cryptography, simulations), the performance gain is significant.
 
 </aside>
-<aside aria-label="Dart2wasm requires WebAssembly Garbage Collection (WASM GC) support in the browser. As of 2025, this" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Dart2wasm requires WebAssembly Garbage Collection (WASM GC) support in the browser. As of 2025, this</p>
+<aside class="starlight-aside starlight-aside--note">
 Is available in Chrome 119+, Firefox 120+, and Safari 17.4+. Older browsers fall back to dart2js.
 
 ## Advanced Patterns

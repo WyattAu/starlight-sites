@@ -69,7 +69,7 @@ class DynamicArray:
         return value
 ```
 
-<aside aria-label="Python `list` uses a growth factor of approximately 1.125 (9/8) plus some overallocation. This is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Python `list` uses a growth factor of approximately 1.125 (9/8) plus some overallocation. This is</p>
+<aside class="starlight-aside starlight-aside--caution">
 More conservative than the textbook factor of 2, trading slightly more frequent reallocations for
 Lower peak memory usage. C++ `std::vector` uses factor 2.
 
@@ -251,7 +251,7 @@ def longest_substring_without_repeats(s):
 ```
 
 </aside>
-<aside aria-label="The key insight for sliding window is that the window boundary only moves forward — neither `left`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The key insight for sliding window is that the window boundary only moves forward — neither `left`</p>
+<aside class="starlight-aside starlight-aside--note">
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
 And removed from the window at most once.
 
@@ -441,7 +441,7 @@ def murmurhash3_mix(key: int) -> int:
 ```
 
 </aside>
-<aside aria-label="Python's built-in `hash()` is not deterministic across process invocations (Python 3.3+ enables hash" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Python's built-in `hash()` is not deterministic across process invocations (Python 3.3+ enables hash</p>
+<aside class="starlight-aside starlight-aside--caution">
 Randomisation by default via `PYTHONHASHSEED`). This is a security measure against HashDoS attacks.
 For persistent hashing (e.g., on-disk hash tables), use `hashlib` or a deterministic hash function.
 

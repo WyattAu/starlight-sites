@@ -85,11 +85,11 @@ Every device is connected to every other device (full mesh) or to multiple devic
 | Disadvantages  | Expensive and complex cabling; difficult to set up and manage; not scalable for large networks (full mesh) |
 | Failure impact | High fault tolerance; data can route around failed connections                                             |
 
-:::caution[Exam Tip] In exam questions, always discuss both advantages AND disadvantages of each
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip In exam questions, always discuss both advantages AND disadvantages of each</strong>
 Topology. Star is the most common in modern LANs due to ease of management and fault isolation.
 
-:::
-
+</aside>
 ---
 
 ## Networking Hardware
@@ -253,7 +253,7 @@ document.getElementById(''myButton").onclick = function () {
 };
 ```
 
-<aside aria-label="HTML = structure, CSS = style, JavaScript = behaviour. This three-way separation is a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>HTML = structure, CSS = style, JavaScript = behaviour. This three-way separation is a</p>
+<aside class="starlight-aside starlight-aside--note">
 Fundamental principle of web development.
 </aside>
 ---
@@ -375,12 +375,12 @@ To register a domain:
 | **Bluetooth**        | Short-range wireless for peripherals  | 1--2 Mbps (Classic) / 2 Mbps (LE) | ~10 m            | 2.4 GHz               |
 | **Cellular** (4G/5G) | Mobile network                        | 100 Mbps (4G) -- 10 Gbps (5G)     | km-scale         | Various               |
 
-:::caution[Exam Tip] Fibre optics is immune to electromagnetic interference (EMI), supports the
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip Fibre optics is immune to electromagnetic interference (EMI), supports the</strong>
 Highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
 Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
 
-:::
-
+</aside>
 ---
 
 ## Transmission Modes
@@ -484,11 +484,12 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 | Network                            | Internet              |
 | Data Link, Physical                | Network Access (Link) |
 
-:::caution[Exam Tip] Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll</strong>
 **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
 
-:::
+</aside>
 ---
 
 ## Network Security

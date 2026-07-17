@@ -1013,7 +1013,7 @@ or a random pivot.
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 
-<aside aria-label="**HL Examination Tip:** When asked to choose a sorting algorithm for a given scenario," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**HL Examination Tip:** When asked to choose a sorting algorithm for a given scenario,</p>
+<aside class="starlight-aside starlight-aside--note">
 Consider the data size, whether the data is nearly sorted, memory constraints, and whether stability
 Is required. Merge sort guarantees $O(n \log n)$ but uses extra space. Quick sort is often faster in
 Practice but has a worst case of $O(n^2)$. Insertion sort is unbeatable for small or nearly sorted
@@ -1951,7 +1951,7 @@ Input sizes.
 **$O(n!)$ -- Factorial time:** Even faster growth than exponential. Examples: brute-force
 Permutation generation, the naive traveling salesman solution.
 
-<aside aria-label="Warning $n \log n$ is significantly larger than $n$. For example, when $n = 1000000$" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning $n \log n$ is significantly larger than $n$. For example, when $n = 1000000$</p>
+<aside class="starlight-aside starlight-aside--caution">
 $n \log_2 n \approx 20000000$Which is 20 times larger than $n$.
 </aside>
 ### Space Complexity
@@ -2325,7 +2325,7 @@ queue (FIFO) would undo the oldest action first, which is incorrect.
 
 </details>
 
-<aside aria-label="Note Class structure with `PRIVATE` and `PUBLIC` sections, a constructor, and all specified" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Note Class structure with `PRIVATE` and `PUBLIC` sections, a constructor, and all specified</p>
+<aside class="starlight-aside starlight-aside--note">
 operations. Ensure preconditions are checked (e.g., do not pop from an empty stack). The choice of
 underlying Data structure (array vs linked list) should be stated and justified.
 </aside>

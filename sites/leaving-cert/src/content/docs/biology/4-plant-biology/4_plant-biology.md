@@ -74,7 +74,7 @@ Throughout the plant.
 - **Vascular bundles:** xylem (top, carries water to mesophyll) and phloem (bottom, carries sugars
   away).
 
-<aside aria-label="Guard cells are the only epidermal cells that contain chloroplasts. When light strikes them," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Guard cells are the only epidermal cells that contain chloroplasts. When light strikes them,</p>
+<aside class="starlight-aside starlight-aside--note">
 Photosynthesis produces ATP, which drives potassium ion ($K^+$) pumps. Potassium ions enter the
 Guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
 Opening the stomata.
@@ -286,7 +286,7 @@ Reliable.
 | Birds   | Large, brightly coloured (often red); copious nectar; sturdy perch                 |
 | Water   | Long, floating pollen; small, inconspicuous flowers (rare)                         |
 
-<aside aria-label="Wind-pollinated flowers (e.g., grasses) produce enormous quantities of lightweight pollen." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Wind-pollinated flowers (e.g., grasses) produce enormous quantities of lightweight pollen.</p>
+<aside class="starlight-aside starlight-aside--note">
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
 Insect-pollinated flowers produce less pollen but it is often larger and stickier to adhere to
 Pollinators.
@@ -461,7 +461,7 @@ A tropism is a growth response to a directional stimulus. The response can be to
   inhibits cell elongation in roots. The upper side elongates more, causing the root to bend
   downward.
 
-<aside aria-label="A common source of confusion: auxin stimulates elongation in shoots but inhibits" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common source of confusion: auxin stimulates elongation in shoots but inhibits</p>
+<aside class="starlight-aside starlight-aside--caution">
 Elongation in roots. Roots are far more sensitive to auxin than shoots, so the same concentration
 That promotes growth in shoots inhibits growth in roots.
 

@@ -108,8 +108,8 @@ Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
 **Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
 Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Does $\displaystyle\sum_{n=1}^{\infty} \frac{n}{n+1}$ converge?
 
 $$
@@ -159,9 +159,9 @@ $$
 
 When $|r| \lt 1$, $r^n \to 0$So $S_n \to \frac{a}{1 - r}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
 
 Rewrite as $\displaystyle\sum_{n=1}^{\infty} 3\left(\frac{1}{2}\right)^n$. Here $a = \frac{3}{2}$
@@ -176,9 +176,9 @@ $$
 
 Every repeating decimal can be expressed as a rational number using geometric series.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Express $0.\overline{37}$ as a fraction.
 
 $$
@@ -196,9 +196,9 @@ $$
 
 A telescoping series has terms that cancel in pairs when the partial sum is expanded.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.
 
 Use partial fractions: $\displaystyle\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$.
@@ -302,9 +302,9 @@ $$
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
 Of magnitude," so they share the same convergence behavior.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n^2 + 1}$ converges.
 
 Compare with $\displaystyle\sum \frac{1}{n^2}$ (a convergent $p$-series with $p = 2$):
@@ -349,9 +349,9 @@ Ratio tends to simplify dramatically.
 Large $n$ the terms behave like a geometric series with ratio $L$And geometric series converge When
 the ratio is less than 1.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{n!}{10^n}$ converges.
 
 $$
@@ -361,9 +361,9 @@ $$
 Since $L = \infty \gt 1$The series diverges.
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{2^n}{n!}$ converges.
 
 $$
@@ -400,9 +400,9 @@ $$
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
 The error by counting terms.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
 The sum with error less than $0.001$?
 
@@ -429,9 +429,9 @@ $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two 
 To any real number, or to diverge. This is not true for absolutely convergent series, whose sum is
 Invariant under rearrangement.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Classify $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$.
 
 The alternating series converges by the alternating series test.
@@ -467,9 +467,9 @@ Convergence**:
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the interval of convergence for $\displaystyle\sum_{n=0}^{\infty} \frac{(x - 2)^n}{n!}$.
 
 Apply the ratio test:
@@ -482,9 +482,9 @@ Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The in
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the interval of convergence for $\displaystyle\sum_{n=1}^{\infty} \frac{(x-1)^n}{n}$.
 
 $$
@@ -573,9 +573,9 @@ $$
 
 Where $M$ is an upper bound for $|f^{(n+1)}(z)|$ for $z$ between $a$ and $x$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Use the Maclaurin series for $e^x$ to approximate $e^{0.1}$ with error less than $10^{-8}$.
 
 $$
@@ -606,9 +606,9 @@ $$
 You do not need to compute derivatives from scratch every time. If you know the series for $e^u$ You
 can substitute $u = -x^2$ to get the series for $e^{-x^2}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the Maclaurin series for $\cos(x^2)$.
 
 Substitute $u = x^2$ into the series for $\cos u$:
@@ -631,9 +631,9 @@ $$
 
 Where $c_n = \sum_{k=0}^{n} a_k b_{n-k}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the Maclaurin series for $e^x \sin x$ up to the $x^5$ term.
 
 $$
@@ -653,9 +653,9 @@ $$
 
 ### Integration of Power Series
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the Maclaurin series for $\ln(1 + x)$ by integrating the geometric series.
 
 $$
@@ -672,8 +672,7 @@ $$
 \ln(1 + x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{n+1}}{n+1} = \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n}, \quad |x| \lt 1
 $$
 
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. **Confusing sequences and series.** A sequence is a list; a series is a sum. A convergent
@@ -845,7 +844,7 @@ $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)} = \lim_{N \to \infty} \left(1
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Sequences and Series**? The contains the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Sequences and Series**? The contains the</p>
+<aside class="starlight-aside starlight-aside--tip">
 hardest questions within the AP specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Sequences

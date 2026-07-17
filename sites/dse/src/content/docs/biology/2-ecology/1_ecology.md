@@ -44,7 +44,7 @@ Of evolution is the population; the unit of selection is the individual (or, the
 | Evidence                        | Discredited; no mechanism for inheritance of acquired traits            | Strongly supported by genetics, fossil record, molecular biology    |
 | Example                         | Giraffes stretch necks to reach leaves, longer necks inherited          | Giraffes with longer necks survive and reproduce more               |
 
-<aside aria-label="Lamarckism is not accepted by modern science. However, the field of epigenetics has revealed" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Lamarckism is not accepted by modern science. However, the field of epigenetics has revealed</p>
+<aside class="starlight-aside starlight-aside--note">
 That environmental factors can influence gene expression across generations without changing the DNA
 Sequence itself. This is sometimes mistakenly conflated with Lamarckism, but epigenetic changes are
 Reversible and do not create new alleles.
@@ -183,7 +183,7 @@ $$p = \frac{600}{1000} = 0.6$$
 
 $$q = \frac{400}{1000} = 0.4$$
 
-<aside aria-label="In DSE exams, HWE calculations are almost always tested. Remember: you can always determine" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In DSE exams, HWE calculations are almost always tested. Remember: you can always determine</p>
+<aside class="starlight-aside starlight-aside--note">
 $q$ from $q^2$ (the homozygous recessive frequency), and then $p$ from $p = 1 - q$. The heterozygote
 Frequency $2pq$ is the one most students miscalculate -- do not assume it equals $p + q$.
 </aside>
@@ -245,7 +245,7 @@ New species arise without geographic separation. Common mechanisms include:
   same area (e.g., different host plants for insects).
 - **Sexual selection:** Different mating preferences or displays lead to reproductive isolation.
 
-<aside aria-label="Polyploidy is extremely rare in animals but is a major driver of speciation in plants." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Polyploidy is extremely rare in animals but is a major driver of speciation in plants.</p>
+<aside class="starlight-aside starlight-aside--note">
 Approximately 30-70% of flowering plant species are polyploid. In the DSE, questions about
 Speciation focus on allopatric speciation, but you should be able to explain polyploidy as A
 mechanism of sympatric speciation in plants.
@@ -389,7 +389,7 @@ Common maternal ancestor of all living humans lived approximately 150,000-200,00
 Africa. This individual is called "Mitochondrial Eve" -- not the only woman alive at the time, but
 The only one whose matrilineal line has survived unbroken to the present day.
 
-<aside aria-label="Mitochondrial Eve is a statistical concept, not a single individual who was the only human" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Mitochondrial Eve is a statistical concept, not a single individual who was the only human</p>
+<aside class="starlight-aside starlight-aside--note">
 Female alive. Many other women lived at the same time, but their matrilineal lines happened to die
 Out at some point. The Y-chromosomal Adam (the most recent common paternal ancestor) lived
 Approximately 200,000-300,000 years ago, and the two individuals were not contemporaries.
@@ -521,7 +521,7 @@ Three idealised types:
   good chance of long life (e.g., many fish, marine invertebrates, annual plants, most insects).
   associated with r-selection.
 
-<aside aria-label="Real survivorship curves rarely match idealised types exactly. Many species show" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Real survivorship curves rarely match idealised types exactly. Many species show</p>
+<aside class="starlight-aside starlight-aside--caution">
 Intermediate patterns. When interpreting DSE exam questions, look for the general shape rather than
 Trying to force a perfect classification.
 </aside>
@@ -661,7 +661,7 @@ to sustain higher levels.
 
 $$\mathrm{Energy available at level } n = 0.1^n \times \mathrm{Energy at producer level}$$
 
-<aside aria-label="Info Depending on the ecosystem and the organisms involved. Cold-blooded organisms are more" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Depending on the ecosystem and the organisms involved. Cold-blooded organisms are more</p>
+<aside class="starlight-aside starlight-aside--note">
 Energy-efficient than warm-blooded ones. In DSE calculations, use 10% unless the question specifies
 Otherwise.
 </aside>
@@ -769,7 +769,7 @@ $$\mathrm{NPP} = \mathrm{energy stored in plant biomass}$$
 - **Wetlands:** Land saturated with water (marshes, swamps, bogs); high productivity; important for
   water filtration and flood control
 
-<aside aria-label="Info Precipitation plotted by month). Key features to identify: annual temperature range," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Precipitation plotted by month). Key features to identify: annual temperature range,</p>
+<aside class="starlight-aside starlight-aside--note">
 wet and dry Seasons, total precipitation. Match these to the biome descriptions above.
 </aside>
 ---
@@ -877,7 +877,7 @@ Major causes (often remembered by the acronym HIPPO):
   sustainable use, fair sharing of benefits from genetic resources
 - **Ramsar Convention:** Protection of wetlands of international importance
 
-<aside aria-label="Warning Bioaccumulation is within an individual; biomagnification is across trophic" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Bioaccumulation is within an individual; biomagnification is across trophic</p>
+<aside class="starlight-aside starlight-aside--caution">
 levels. Both terms can Appear in the same question.
 </aside>
 ---
@@ -954,7 +954,7 @@ Key elements the DSE expects in ecology and evolution experimental design questi
    comparing means)
 8. **Evaluation:** Limitations, sources of error, improvements
 
-<aside aria-label="The chi-squared test is commonly used in DSE to determine whether observed genotype" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The chi-squared test is commonly used in DSE to determine whether observed genotype</p>
+<aside class="starlight-aside starlight-aside--note">
 Frequencies differ significantly from Hardy-Weinberg expected frequencies:
 
 $$\chi^2 = \sum \frac{(O - E)^2}{E}$$
@@ -1436,7 +1436,7 @@ species, or that Pond B has low diversity due to its size or location.
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Evolution and Ecology**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Evolution and Ecology**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Evolution

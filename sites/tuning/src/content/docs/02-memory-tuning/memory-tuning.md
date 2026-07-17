@@ -331,7 +331,7 @@ Operation less penalizing.
 | SA (System Agent) | Uncore voltage (Intel)        | 0.9–1.1 V       | 1.1–1.25 V         |
 | VDDP              | SoC voltage (AMD)             | 0.9–1.0 V       | 1.0–1.1 V          |
 
-<aside aria-label="Never exceed 1.5 V on VDD/VDDQ for DDR5. Sustained operation above this voltage will cause" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never exceed 1.5 V on VDD/VDDQ for DDR5. Sustained operation above this voltage will cause</p>
+<aside class="starlight-aside starlight-aside--danger">
 Permanent damage to the DRAM chips. Even 1.45 V should only be used with active cooling on the
 DIMMs.
 </aside>
@@ -433,7 +433,7 @@ echo madvise | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 echo always | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 ```
 
-<aside aria-label="For database workloads (PostgreSQL, Redis, MongoDB), THP can cause latency spikes due to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>For database workloads (PostgreSQL, Redis, MongoDB), THP can cause latency spikes due to</p>
+<aside class="starlight-aside starlight-aside--caution">
 The kernel's khugepaged daemon defragmenting memory in the background. Database vendors recommend
 Setting THP to `madvise` or `never`.
 </aside>
@@ -706,7 +706,7 @@ swapon --show
 free -h
 ```
 
-<aside aria-label="Do not create a swap file on a ZFS dataset. ZFS does not support swap files due to its" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not create a swap file on a ZFS dataset. ZFS does not support swap files due to its</p>
+<aside class="starlight-aside starlight-aside--caution">
 Copy-on-write nature. Use a swap file on ext4/xfs or a dedicated swap partition instead.
 
 ### NUMA Memory Policy Deep Dive

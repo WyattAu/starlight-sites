@@ -20,7 +20,7 @@ categories:
 | OCR (A)    | Pure Core 1 | Complex numbers, matrices, polar coords, hyperbolic         |
 | CIE (9709) | Paper 3     | Complex numbers, polars, further calculus, induction        |
 
-<aside aria-label="This content sits at the transition between single A-Level Mathematics and Further" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This content sits at the transition between single A-Level Mathematics and Further</p>
+<aside class="starlight-aside starlight-aside--note">
 Mathematics. You must be confident with all Core Pure topics before tackling these.
 
 <hr />

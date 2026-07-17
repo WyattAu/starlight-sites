@@ -281,7 +281,7 @@ In both cases, the amortised cost is $O(1)$.
 
 </details>
 
-<aside aria-label="Common Pitfall Amortised analysis gives a guarantee over a _sequence_ of operations, not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Amortised analysis gives a guarantee over a _sequence_ of operations, not</p>
+<aside class="starlight-aside starlight-aside--caution">
 a per-operation worst-case bound. A single operation can still be expensive (e.g., a resize in a
 dynamic array costs $O(n)$). Amortised bounds are meaningful only when the sequence length is not
 bounded by a constant.
@@ -804,7 +804,7 @@ A graph $G = (V, E)$ can be represented by:
 | Add edge           | $O(1)$           | $O(1)$               |
 | Remove edge        | $O(1)$           | $O(\mathrm{deg}(u))$ |
 
-<aside aria-label="Common Pitfall Choosing the wrong graph representation can make an algorithm" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Choosing the wrong graph representation can make an algorithm</p>
+<aside class="starlight-aside starlight-aside--caution">
 asymptotically slower. Use adjacency matrices for dense graphs ($E \approx V^2$) and adjacency lists
 for sparse graphs ($E \ll V^2$). For example, BFS with an adjacency matrix takes $O(V^2)$ but with
 adjacency lists takes $O(V + E)$.
@@ -1038,7 +1038,7 @@ into 1, reducing the number of runs by a factor of $k$. After $\log_k(N/M)$ pass
 run remains. Each pass reads and writes all $N$ bytes, so total I/O is $O(N \log_k(N/M))$.
 $\blacksquare$
 
-<aside aria-label="Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The $O(n \log n)$ lower bound applies only to **comparison-based**</p>
+<aside class="starlight-aside starlight-aside--caution">
 sorting. Non-comparison sorts Like radix sort can achieve $O(n)$ time for integers in a bounded
 range. However, non-comparison sorts sacrifice generality: they depend on the structure of the keys
 and cannot sort arbitrary objects.
@@ -1571,7 +1571,7 @@ _Proof._ If not, there exists a shorter path $p'$ from $u$ to $w$. Then $p'$ con
 subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
 $\blacksquare$
 
-<aside aria-label="Common Pitfall Not all problems have optimal substructure. For example, the _longest" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not all problems have optimal substructure. For example, the _longest</p>
+<aside class="starlight-aside starlight-aside--caution">
 simple path_ problem does not: the longest simple path from $u$ to $v$ may not contain the longest
 simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
@@ -1888,7 +1888,7 @@ size).
 
 </details>
 
-<aside aria-label="Common Pitfall NP-hardness does not mean the problem is unsolvable. It means there is no" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall NP-hardness does not mean the problem is unsolvable. It means there is no</p>
+<aside class="starlight-aside starlight-aside--caution">
 known polynomial-time Algorithm. Many NP-complete problems have efficient approximation algorithms
 or can be solved Exactly for practical input sizes using branch-and-bound or SAT solvers.
 

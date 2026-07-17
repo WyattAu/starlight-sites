@@ -353,7 +353,7 @@ When returning a local variable from a function, the compiler tries each strateg
 4. **Copy:** If no move constructor exists (or it is deleted), the copy constructor is called. If
    neither exists, compilation fails.
 
-<aside aria-label="Do not write `return std::move(local);` in a function that returns by value. This" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not write `return std::move(local);` in a function that returns by value. This</p>
+<aside class="starlight-aside starlight-aside--caution">
 Prevents NRVO from applying (because `std::move(local)` is an xvalue, not a named local variable)
 And forces a move. Let the compiler apply NRVO or implicit move automatically. The only correct use
 Of `std::move` in a return statement is when returning a member variable or a function parameter.
@@ -488,7 +488,7 @@ std::string wrapped_return() {
 }
 ```
 
-<aside aria-label="Relevance The interaction between value categories, move semantics, and copy elision is one" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance The interaction between value categories, move semantics, and copy elision is one</p>
+<aside class="starlight-aside starlight-aside--note">
 Of the most performance-critical aspects of C++. In a well-written C++ program, objects are
 Constructed in place (RVO), moved between scopes (move constructors), and swapped (swap idiom).
 Copies are the exception, not the rule. Understanding the fallback chain (RVO → NRVO → implicit move

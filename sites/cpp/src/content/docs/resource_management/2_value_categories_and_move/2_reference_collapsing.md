@@ -80,7 +80,7 @@ void collapsing_demo() {
 }
 ```
 
-<aside aria-label="Relevance Reference collapsing is the mechanism that enables **forwarding references**" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance Reference collapsing is the mechanism that enables **forwarding references**</p>
+<aside class="starlight-aside starlight-aside--note">
 (Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues — the deduction would
 Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
@@ -152,7 +152,7 @@ void not_forwarding() {
 }
 ```
 
-<aside aria-label="If you add a constraint like `requires` that depends on `T`The parameter `T&&` is **not**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you add a constraint like `requires` that depends on `T`The parameter `T&&` is **not**</p>
+<aside class="starlight-aside starlight-aside--caution">
 a forwarding reference — it becomes a plain rvalue reference. The forwarding reference Deduction
 requires that `T` be a freshly deduced, unconstrained type parameter.
 </aside>
@@ -268,7 +268,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Relevance Perfect forwarding is the mechanism behind `std::make_unique``std::make_shared`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance Perfect forwarding is the mechanism behind `std::make_unique``std::make_shared`</p>
+<aside class="starlight-aside starlight-aside--note">
 `std::vector::emplace_back`And virtually every factory or emplacement function in the standard
 Library. Without forwarding references and `std::forward`These functions would be forced to copy
 Their arguments or require separate overloads for every combination of lvalue/rvalue parameters — a
@@ -374,7 +374,7 @@ void range_for_forwarding() {
 }
 ```
 
-<aside aria-label="In `for (auto&& x : expr)`The `auto&&` is a forwarding reference. This is the idiomatic way" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>In `for (auto&& x : expr)`The `auto&&` is a forwarding reference. This is the idiomatic way</p>
+<aside class="starlight-aside starlight-aside--tip">
 To write generic range-based for loops that work with both lvalue and rvalue ranges, and with proxy
 Iterators that return prvalues (like `std::vector<bool>`).
 </aside>
@@ -531,7 +531,7 @@ void variadic_demo() {
 }
 ```
 
-<aside aria-label="The `capture` function above is **unsafe** — it stores references to temporaries (the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `capture` function above is **unsafe** — it stores references to temporaries (the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Literal `42` produces a `const int&` in the tuple, which dangles if the tuple outlives the full
 Expression). `std::make_tuple` decays its arguments, so rvalues are copied/moved, but lvalues are
 Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Args>(args)...)` to

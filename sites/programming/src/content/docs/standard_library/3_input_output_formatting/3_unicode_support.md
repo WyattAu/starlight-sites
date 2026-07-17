@@ -124,7 +124,7 @@ void utf8_code_point_iteration() {
 }
 ```
 
-<aside aria-label="Before C++20, `u8` string literals produced `char` arrays. In C++20, they produce `char8_t`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Before C++20, `u8` string literals produced `char` arrays. In C++20, they produce `char8_t`</p>
+<aside class="starlight-aside starlight-aside--note">
 Arrays. This is a **breaking change** if your code passed `u8"..."` to APIs expecting `const char*`.
 Use `-fno-char8_t` on GCC/Clang to revert to the C++17 behavior during migration.
 </aside>
@@ -145,7 +145,7 @@ A **grapheme cluster** is the smallest unit of text that a user perceives as a s
 Family emoji (U+1F468 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466) is encoded as **7 code points**
 With zero-width joiners between them.
 
-<aside aria-label="`std::u8string::size()` returns the **byte count**, not the character count, code point" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::u8string::size()` returns the **byte count**, not the character count, code point</p>
+<aside class="starlight-aside starlight-aside--caution">
 Count, or grapheme cluster count. There is no standard library function to count code points or
 Grapheme clusters. For production Unicode text processing, use a library like ICU, libunifex, or
 `std::text` (proposed for standardization).
@@ -214,7 +214,7 @@ void unicode_sorting_problem() {
 }
 ```
 
-<aside aria-label="For production Unicode-aware applications:" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>For production Unicode-aware applications:</p>
+<aside class="starlight-aside starlight-aside--tip">
 - **Case conversion:** Use ICU (`u_strToUpper`), or the `utf8proc` library.
 - **Collation/sorting:** Use ICU's `Collator` with the appropriate locale.
 - **Normalization:** Use ICU or `utf8proc` to normalize strings to NFC or NFD before comparison.
@@ -263,7 +263,7 @@ void write_utf8_file(const std::filesystem::path& path, std::string_view content
 }
 ```
 
-<aside aria-label="On Linux and macOS, the default file encoding is UTF-8, so opening a file in text mode" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>On Linux and macOS, the default file encoding is UTF-8, so opening a file in text mode</p>
+<aside class="starlight-aside starlight-aside--note">
 (`std::ios::in` without `std::ios::binary`) will correctly read and write UTF-8 text. On Windows,
 Text mode performs CRLF ↔ LF translation, which corrupts binary data but is harmless for UTF-8 text
 (unless the text contains lone `0x0A` or `0x0D` bytes that are not line endings).
@@ -395,7 +395,7 @@ void transcoding_demo() {
 }
 ```
 
-<aside aria-label="The transcoding functions above perform **no validation** of code point ranges. A" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The transcoding functions above perform **no validation** of code point ranges. A</p>
+<aside class="starlight-aside starlight-aside--caution">
 Production implementation must reject overlong encodings (e.g., encoding `U+0000` as `0xC0 0x80`),
 Surrogate code points (`U+D800..U+DFFF`), and code points exceeding `U+10FFFF`. The ICU library's
 `ucnv_convert` or the `utf8proc` library handle all these cases correctly.
@@ -472,7 +472,7 @@ void normalization_pitfall() {
 }
 ```
 
-<aside aria-label="Always normalize strings to a consistent form ( NFC) before comparing, hashing, Or using" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always normalize strings to a consistent form ( NFC) before comparing, hashing, Or using</p>
+<aside class="starlight-aside starlight-aside--caution">
 as map keys. Two strings that display identically may have different byte representations If they
 differ in normalization form. This is a common source of bugs in database lookups, file Search, and
 authentication systems.

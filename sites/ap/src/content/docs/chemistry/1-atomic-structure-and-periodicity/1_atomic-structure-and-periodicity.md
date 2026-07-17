@@ -189,8 +189,8 @@ The stability of half-filled and fully filled d subshells arises from exchange e
 With parallel spins in different orbitals are slightly lower in energy than paired electrons. A
 Half-filled ($d^5$) or fully filled ($d^{10}$) subshell maximises this exchange energy.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Write the electron configuration for Fe ($Z = 26$).
 
 $$
@@ -298,9 +298,9 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
 $n_f$Where the energy difference approaches a maximum value.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the wavelength of light emitted when an electron in hydrogen drops from $n = 4$ to
 $n = 2$.
 
@@ -856,4 +856,4 @@ HCl is a strong acid, so $[\text{H}^+] = 0.050\,\text{mol\,dm}^{-3}$.
 $$\text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30$$
 
 
-:::
+</aside>

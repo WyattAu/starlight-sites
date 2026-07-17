@@ -136,7 +136,7 @@ cargo tree -p my-server            # dependency tree for member
 cargo metadata --format-version 1  # machine-readable workspace metadata
 ```
 
-<aside aria-label="Workspaces share a single `target/` directory and a single `Cargo.lock`. This means all crates use" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Workspaces share a single `target/` directory and a single `Cargo.lock`. This means all crates use</p>
+<aside class="starlight-aside starlight-aside--note">
 The same versions of shared dependencies, avoiding the diamond dependency problem.
 
 
@@ -897,7 +897,7 @@ Before adding a dependency, evaluate it:
 | **Audit**                 | `cargo audit` — known CVEs                                  |
 
 </aside>
-<aside aria-label="Every dependency is a liability. Dependencies can introduce bugs, security vulnerabilities, supply" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Every dependency is a liability. Dependencies can introduce bugs, security vulnerabilities, supply</p>
+<aside class="starlight-aside starlight-aside--caution">
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with
 `cargo audit`. For security-critical projects, consider `cargo-vet` (supply chain verification).
 

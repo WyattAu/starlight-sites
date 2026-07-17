@@ -141,7 +141,7 @@ The cell membrane (plasma membrane) is a phospholipid bilayer with embedded prot
 - Cholesterol: regulates membrane fluidity
 - Glycolipids and glycoproteins: involved in cell recognition
 
-<aside aria-label="The cell membrane is selectively permeable: it allows some substances to pass through freely" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The cell membrane is selectively permeable: it allows some substances to pass through freely</p>
+<aside class="starlight-aside starlight-aside--note">
 But restricts others. Small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$) diffuse
 Through , while large or charged molecules require transport proteins.
 </aside>
@@ -381,7 +381,7 @@ Fit. This lowers the activation energy of the reaction.
 
 - Increasing enzyme concentration increases the rate (provided substrate is not limiting)
 
-<aside aria-label="Denaturation is **irreversible**. Once an enzyme is denatured by heat or extreme pH, it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Denaturation is **irreversible**. Once an enzyme is denatured by heat or extreme pH, it</p>
+<aside class="starlight-aside starlight-aside--caution">
 Cannot regain its function. This is different from a temporary decrease in activity at sub-optimal
 Conditions.
 </aside>
@@ -462,7 +462,7 @@ For each glucose molecule (two turns of the cycle):
 | Oxidative phosphorylation (from FADH$_2$) | 4                       |
 | **Total**                                 | **approximately 36-38** |
 
-<aside aria-label="The actual ATP yield may be less than 38 due to the cost of transporting NADH from" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The actual ATP yield may be less than 38 due to the cost of transporting NADH from</p>
+<aside class="starlight-aside starlight-aside--note">
 Glycolysis into the mitochondria. Many textbooks now quote approximately 30-32 ATP per glucose.
 </aside>
 ---
@@ -872,7 +872,7 @@ When a ligand binds to a cell-surface receptor, it triggers a cascade of intrace
 3. **Cellular response:** The cell changes its activity (e.g., gene expression, metabolism,
    secretion)
 
-<aside aria-label="Second messengers greatly amplify the signal. One receptor activation can produce many" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Second messengers greatly amplify the signal. One receptor activation can produce many</p>
+<aside class="starlight-aside starlight-aside--note">
 Second messenger molecules, each of which can activate many enzyme molecules, creating a large
 Response from a small stimulus.
 </aside>
@@ -1297,7 +1297,7 @@ $$\text{Glucose (6C)} + 2\mathrm{NAD}^+ + 2\mathrm{ADP} + 2\mathrm{P}_i \to 2\te
 | Oxidative phosphorylation | Each NADH produces approximately 2.5 ATP; each FADH$_2$ produces approximately 1.5 ATP |
 | **Total (approximate)**   | **30-32 ATP**                                                                          |
 
-<aside aria-label="The exact ATP yield varies because the shuttle mechanism that transfers electrons from" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The exact ATP yield varies because the shuttle mechanism that transfers electrons from</p>
+<aside class="starlight-aside starlight-aside--note">
 cytoplasmic NADH into the mitochondria can cost 1 ATP per NADH. The theoretical maximum is 38 ATP,
 but in practice, the yield is closer to 30-32 ATP due to proton leakage across the inner
 mitochondrial membrane and the cost of transporting molecules.
@@ -1620,7 +1620,7 @@ Translation is the process of synthesising a polypeptide chain from the mRNA cod
 sequence of codons on the mRNA determines the sequence of amino acids in the polypeptide.
 
 </aside>
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Cell Biology and Biochemistry**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Cell Biology and Biochemistry**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Cell

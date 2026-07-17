@@ -90,7 +90,7 @@ Write time and cannot be changed afterward.
 | Photo libraries (many small files)  | 128K           | Large enough for most image files                    |
 | Source code repositories            | 128K           | Many small reads, metadata caching is more important |
 
-<aside aria-label="Changing `recordsize` on an existing dataset only affects new writes. Existing files keep" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Changing `recordsize` on an existing dataset only affects new writes. Existing files keep</p>
+<aside class="starlight-aside starlight-aside--caution">
 Their original block size. To benefit from a recordsize change, rewrite the data by copying files to
 A new dataset.
 </aside>
@@ -175,7 +175,7 @@ $$
 | Backup storage                     | No         | Most data is unique                   |
 | Database storage                   | No         | Low dedup ratio, performance impact   |
 
-<aside aria-label="In most NAS deployments, deduplication is a net negative. The memory cost of the DDT far" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In most NAS deployments, deduplication is a net negative. The memory cost of the DDT far</p>
+<aside class="starlight-aside starlight-aside--caution">
 Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead — it provides
 Meaningful space savings with no memory cost.
 </aside>
@@ -282,7 +282,7 @@ ifconfig igb0 mtu 9000
 ifconfig igb0 | grep mtu
 ```
 
-<aside aria-label="Jumbo frames must be configured on every device in the network path — NAS, switch, and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Jumbo frames must be configured on every device in the network path — NAS, switch, and</p>
+<aside class="starlight-aside starlight-aside--caution">
 Clients. A single device with MTU 1500 in the path will cause fragmentation, which is worse than
 Standard frames. Only enable jumbo frames if you control the entire network path.
 </aside>
@@ -365,7 +365,7 @@ L2ARC extends the ARC to SSD storage:
 | Cost                | Low                       | High                         |
 | Boot support        | Sometimes                 |                              |
 
-<aside aria-label="Always use an HBA in IT (Initiator Target) mode for ZFS. RAID controllers hide disk" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use an HBA in IT (Initiator Target) mode for ZFS. RAID controllers hide disk</p>
+<aside class="starlight-aside starlight-aside--caution">
 Identity and prevent ZFS from performing its error detection, self-healing, and direct disk
 Management. Flash RAID controllers to IT mode (LSI 9211-8i, LSI 9300-8i) or buy pre-flashed HBAs.
 </aside>
@@ -816,7 +816,7 @@ zpool list -v tank
 zdb -bb tank 2>/dev/null | head -30
 ```
 
-<aside aria-label="Special vdevs cannot be removed after creation. If a special vdev fails, the entire pool" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Special vdevs cannot be removed after creation. If a special vdev fails, the entire pool</p>
+<aside class="starlight-aside starlight-aside--caution">
 Is at risk. Always mirror special vdevs and use high-endurance NVMe drives rated for sustained write
 Workloads. Check the DWPD (Drive Writes Per Day) rating and ensure it meets your projected metadata
 Write volume.
@@ -846,7 +846,7 @@ zfs create -o recordsize=1M -o compression=zstd tank/media/videos
 zfs get all tank/postgres/data | grep -E "recordsize|primarycache|logbias|compression"
 ```
 
-<aside aria-label="The `recordsize` only affects new writes. Existing files retain their original block size" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The `recordsize` only affects new writes. Existing files retain their original block size</p>
+<aside class="starlight-aside starlight-aside--tip">
 Until they are rewritten. To reblock existing data, copy files to a new dataset with the desired
 Recordsize.
 </aside>
@@ -904,7 +904,7 @@ echo $(echo '128 * 1024 * 1024 * 1024 * 90 / 100' | bc) > /sys/module/zfs/parame
 echo "options zfs zfs_arc_max=123480309760" > /etc/modprobe.d/zfs.conf
 ```
 
-<aside aria-label="Setting `zfs_arc_max` too high leaves insufficient memory for the kernel, applications," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Setting `zfs_arc_max` too high leaves insufficient memory for the kernel, applications,</p>
+<aside class="starlight-aside starlight-aside--caution">
 And the ZFS prefetch cache. Never set it above 90% of physical RAM, and monitor swap usage after
 Changes. If the system begins swapping, reduce `zfs_arc_max` immediately.
 </aside>

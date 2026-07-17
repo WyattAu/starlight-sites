@@ -239,7 +239,7 @@ def find_articulation_points(n, adj):
     return [v for v in range(n) if is_articulation[v]]
 ```
 
-<aside aria-label="The condition for a bridge is `low[u] > tin[v]` (strict inequality), while for an articulation point" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The condition for a bridge is `low[u] > tin[v]` (strict inequality), while for an articulation point</p>
+<aside class="starlight-aside starlight-aside--note">
 It is `low[u] >= tin[v]` (non-strict). The difference matters: a back edge to the parent vertex
 Satisfies `low[u] == tin[v]` but does not make the edge a bridge.
 

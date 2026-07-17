@@ -54,7 +54,7 @@ $$G = 1 - 2B$$
 | $0.3 \leq G < 0.4$ | Moderate inequality |
 | $G \geq 0.4$       | High inequality     |
 
-<aside aria-label="Info" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info</p>
+<aside class="starlight-aside starlight-aside--note">
 - Denmark: 0.28 | Germany: 0.31 | UK: 0.35 | USA: 0.40 | Brazil: 0.52 | South Africa: 0.63
 </aside>
 ### 1.3 Limitations of the Gini Coefficient
@@ -211,7 +211,7 @@ Where $t$ is the tax rate and $Y(t)$ is the tax base (income), which declines as
 To disincentive effects). At $t = 0$, $T = 0$. At $t = 1$ (100% tax), $T = 0$ (no one works). There
 Exists some $t^* \in (0, 1)$ that maximises revenue.
 
-<aside aria-label="Common Pitfall The Laffer curve is a theoretical concept — there is no consensus on where" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Laffer curve is a theoretical concept — there is no consensus on where</p>
+<aside class="starlight-aside starlight-aside--caution">
 $t^*$ lies. Most empirical estimates for developed economies suggest that income tax rates are below
 The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 </aside>
@@ -233,7 +233,7 @@ The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 - Generous welfare benefits may create dependency and reduce labour supply
 - Redistribution through distortionary taxation creates deadweight loss
 
-<aside aria-label="Exam Technique When asked to evaluate inequality policies, consider: effectiveness (does it" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When asked to evaluate inequality policies, consider: effectiveness (does it</p>
+<aside class="starlight-aside starlight-aside--tip">
 Reduce inequality?), efficiency (does it create disincentives?), equity (is it fair?), fiscal cost
 (can the government afford it?), and unintended consequences (does it create poverty traps?).
 </aside>
@@ -256,7 +256,7 @@ Reduce inequality?), efficiency (does it create disincentives?), equity (is it f
 - Globalisation limits the effectiveness of national redistributive policies (mobile capital, tax
   competition)
 
-<aside aria-label="Board-Specific Note AQA requires detailed knowledge of the Lorenz curve and Gini" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA requires detailed knowledge of the Lorenz curve and Gini</p>
+<aside class="starlight-aside starlight-aside--note">
 Coefficient, including calculations. Edexcel emphasises poverty measures and government policy. CIE
 Covers inequality in the context of development economics. OCR (A) links distribution to market
 Failure and government intervention.

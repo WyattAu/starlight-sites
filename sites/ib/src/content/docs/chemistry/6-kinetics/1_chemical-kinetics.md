@@ -209,8 +209,8 @@ A plot of $\dfrac{1}{[\mathrm{A}]}$ vs $t$ gives a straight line with gradient $
 2. Measure the initial rate for each experiment.
 3. Compare how the rate changes when one concentration changes while others are held constant.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the reaction A + B $\to$ products, the following data was obtained:
 
 | Experiment | [A] (mol/L) | [B] (mol/L) | Initial Rate (mol/L/s) |
@@ -284,9 +284,9 @@ $$
 \ln\!\left(\frac{k_2}{k_1}\right) = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 The rate constant for a reaction is $3.2 \times 10^{-3}\mathrm{ s}^{-1}$ at $300\mathrm{ K}$ and
 $1.5 \times 10^{-2}\mathrm{ s}^{-1}$ at $350\mathrm{ K}$. Find the activation energy.
 
@@ -340,9 +340,9 @@ Determined by the rate-determining step.
 Intermediates (species produced and consumed in the mechanism) do not appear in the rate equation
 For the overall reaction.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 The overall reaction is $2\mathrm{NO}_2 + \mathrm{F}_2 \to 2\mathrm{NO}_2\mathrm{F}$.
 
 Proposed mechanism:
@@ -504,9 +504,9 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 | First-order half-life  | $t_{1/2} = \dfrac{0.693}{k}$                                                  |
 | First-order integrated | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                                    |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 For rate equation questions, always use the initial rates method systematically. For Arrhenius
 Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechanism questions, the
 Rate equation is determined by the slow step — check if intermediates need to be substituted using
@@ -533,9 +533,9 @@ Equilibrium approximations.
 | First  | Rate $= k[\mathrm{A}]$   | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                 | $\dfrac{\ln 2}{k}$           |
 | Second | Rate $= k[\mathrm{A}]^2$ | $\dfrac{1}{[\mathrm{A}]} = \dfrac{1}{[\mathrm{A}]_0} + kt$ | $\dfrac{1}{k[\mathrm{A}]_0}$ |
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For a first-order reaction with $k = 0.025\mathrm{ min}^{-1}$ and
 $[\mathrm{A}]_0 = 0.50\mathrm{ M}$:
 
@@ -749,9 +749,9 @@ When given concentration-time data (not initial rates), use graphical methods:
 2. Plot $\ln[\mathrm{A}]$ vs $t$: if linear, first order. Gradient $= -k$.
 3. Plot $1/[\mathrm{A}]$ vs $t$: if linear, second order. Gradient $= k$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 The concentration of a reactant was measured over time:
 
 | Time (min) | 0    | 10   | 20   | 30    | 40     |
@@ -1099,4 +1099,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

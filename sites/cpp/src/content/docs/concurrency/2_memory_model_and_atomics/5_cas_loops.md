@@ -53,7 +53,7 @@ bool compare_exchange_strong(T& expected, T desired,
 On failure, `expected` is updated to the current value of the atomic variable, allowing the caller
 To recompute `desired` and retry.
 
-<aside aria-label="Tip Retries). Use `compare_exchange_strong` when you need to know whether the CAS actually" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Retries). Use `compare_exchange_strong` when you need to know whether the CAS actually</p>
+<aside class="starlight-aside starlight-aside--tip">
 failed due to A value mismatch (e.g., when you want to take a different action on real failure vs
 spurious Failure).
 </aside>
@@ -180,7 +180,7 @@ int main() {
 }
 ```
 
-<aside aria-label="This reference counting example uses `fetch_sub` with `memory_order_acq_rel` for the release" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This reference counting example uses `fetch_sub` with `memory_order_acq_rel` for the release</p>
+<aside class="starlight-aside starlight-aside--note">
 Operation. The acquire semantics ensure that all accesses to the object (sequenced-before the
 Release) are visible to the thread that performs the destruction. The release semantics ensure that
 The destruction itself is visible to other threads. The `fetch_sub` return value is checked against
@@ -195,7 +195,7 @@ The destruction itself is visible to other threads. The `fetch_sub` return value
 | **Remove from list**       | Load head, read next, CAS head to next | Lock-free stack pop            |
 | **Update with validation** | Load, validate invariants, CAS         | Lock-free queue (ABA-safe)     |
 
-<aside aria-label="When writing CAS loops, always update `desired` based on the new `expected` value after a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When writing CAS loops, always update `desired` based on the new `expected` value after a</p>
+<aside class="starlight-aside starlight-aside--tip">
 Failed CAS. The `compare_exchange_weak` function automatically updates `expected` to the current
 Value on failure, so you can use it directly in the next iteration"s computation.
 </aside>

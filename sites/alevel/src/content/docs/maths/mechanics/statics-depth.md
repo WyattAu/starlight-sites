@@ -12,7 +12,7 @@ categories: [Mathematics]
 This document covers moments, equilibrium conditions, centres of mass, ladder problems, and
 Frameworks with a rigorous, proof-based approach.
 
-<aside aria-label="Statics problems require careful consideration of every force and every moment. A systematic" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Statics problems require careful consideration of every force and every moment. A systematic</p>
+<aside class="starlight-aside starlight-aside--note">
 Approach -- drawing the diagram, listing forces, choosing a pivot -- is more reliable than
 Intuition.
 </aside>
@@ -62,7 +62,7 @@ Resolving vertically: $R_A + R_C = 20g + 50$
 
 $$R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}$$
 
-<aside aria-label="Common Pitfall When taking moments, always measure the **perpendicular distance** from" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When taking moments, always measure the **perpendicular distance** from</p>
+<aside class="starlight-aside starlight-aside--caution">
 the line of action of the Force to the pivot point, not just the distance along the beam.
 </aside>
 <hr />
@@ -196,7 +196,7 @@ $$\bar{y} = \frac◆LB◆48 \times 3 - 8\pi\!\left(6 - \frac{16}{3\pi}\right)◆
 
 $$\bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \approx 1.57\;\mathrm{cm}$$
 
-<aside aria-label="Common Pitfall When a shape has a hole or a section removed, use the **negative mass**" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When a shape has a hole or a section removed, use the **negative mass**</p>
+<aside class="starlight-aside starlight-aside--caution">
 method: treat the removed Section as having negative area. The formula remains the same but with
 negative contributions from The removed part.
 </aside>
@@ -260,7 +260,7 @@ $$\alpha = \arctan(1.25) \approx 51.3^\circ$$
 
 The minimum angle is approximately $51.3^\circ$.
 
-<aside aria-label="Warning In ladder problems, always take moments about the **foot** of the ladder (or the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning In ladder problems, always take moments about the **foot** of the ladder (or the</p>
+<aside class="starlight-aside starlight-aside--caution">
 point where two Unknown forces act) to eliminate as many unknowns as possible from the moment
 equation.
 </aside>

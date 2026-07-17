@@ -102,7 +102,7 @@ $500\ \mathrm{cm^3}$ at rest). Breathing rate is the number of breaths per minut
 At rest). Resting ventilation rate is therefore approximately
 $500 \times 15 = 7500\ \mathrm{cm^3\ min^{-1}}$.
 
-<aside aria-label="Warning The maximum volume of air that can be exhaled after a maximum inhalation" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning The maximum volume of air that can be exhaled after a maximum inhalation</p>
+<aside class="starlight-aside starlight-aside--caution">
 ($\approx 4500\ \mathrm{cm^3}$). Residual volume is the air remaining in the lungs after maximum
 Exhalation ($\approx 1500\ \mathrm{cm^3}$).
 </aside>
@@ -208,7 +208,7 @@ Phloem consists of:
    raising the water potential. Water leaves the sieve tube by osmosis.
 4. The pressure gradient drives bulk flow (mass flow) of sap from source to sink.
 
-<aside aria-label="Warning A model with limitations. Translocation is faster than predicted by simple" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning A model with limitations. Translocation is faster than predicted by simple</p>
+<aside class="starlight-aside starlight-aside--caution">
 diffusion, and some Solutes appear to move bidirectionally, which the model does not explain. The
 current Consensus is that mass flow is the primary mechanism but is supplemented by cytoplasmic
 streaming And active transport.
@@ -280,7 +280,7 @@ The cardiac cycle describes the sequence of events in one heartbeat:
 Atrial systole; ventricular pressure rises sharply during ventricular systole (exceeding aortic
 Pressure to open the SL valves); aortic pressure peaks during ejection and falls during diastole.
 
-<aside aria-label="Warning They contract from the base (apex) upwards, which efficiently pushes blood" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning They contract from the base (apex) upwards, which efficiently pushes blood</p>
+<aside class="starlight-aside starlight-aside--caution">
 towards the arteries at The top of the heart.
 </aside>
 ### 5.4 Cardiac Output
@@ -508,7 +508,7 @@ At equilibrium (no net water movement), $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{so
 $\Psi_p = 0$ (the cell is at the point of incipient plasmolysis). Therefore,
 $\Psi_s \approx -414\ \mathrm{kPa}$.
 
-<aside aria-label="Common Pitfall Students sometimes forget that the formula $\Psi_s = -iCRT$ gives the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes forget that the formula $\Psi_s = -iCRT$ gives the</p>
+<aside class="starlight-aside starlight-aside--caution">
 solute potential Of the solution, not the cell. The cell's solute potential is only equal to this
 value at equilibrium When $\Psi_p = 0$. In a turgid cell, $\Psi_p > 0$ and $\Psi_{\mathrm{cell}}$ is
 less negative than $\Psi_s$.
@@ -587,7 +587,7 @@ achieved Primarily through increased heart rate (from 68 to $195\ \mathrm{beats\
 of $2.9\times$) And increased stroke volume (from 72 to $100\ \mathrm{cm^3}$A factor of
 $1.4\times$).
 
-<aside aria-label="Common Pitfall Students sometimes add the increases in heart rate and stroke volume" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes add the increases in heart rate and stroke volume</p>
+<aside class="starlight-aside starlight-aside--caution">
 multiplicatively And state the increase as $2.9 \times 1.4 = 4.1\times$. While this gives
 approximately the right answer, The correct approach is to calculate the cardiac output at each
 state separately and then compare, as Shown above. This avoids rounding errors and is
@@ -1463,7 +1463,7 @@ At the venous end:
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Exchange and Transport**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Exchange and Transport**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Exchange
@@ -1657,7 +1657,7 @@ In the lungs (reverse Bohr effect):
 | Effect on $\mathrm{O_2}$ gradient    | Maintains a diffusion gradient along the entire length of the lamella; blood always meets water with a higher $\mathrm{O_2}$ concentration |
 | $\mathrm{O_2}$ extraction efficiency | Approximately 80--90% of dissolved $\mathrm{O_2}$ is removed from water (compared to only ~50% in a concurrent system)                     |
 
-<aside aria-label="Common Pitfall In concurrent (parallel) exchange, blood and water flow in the same" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall In concurrent (parallel) exchange, blood and water flow in the same</p>
+<aside class="starlight-aside starlight-aside--caution">
 direction. Equilibrium is reached quickly and no further diffusion occurs. In countercurrent
 exchange, a gradient is maintained along the entire length, maximising diffusion. Always specify
 countercurrent in your answers about fish gills.

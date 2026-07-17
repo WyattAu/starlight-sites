@@ -352,7 +352,7 @@ re.findall(r'hello', "Hello World", re.IGNORECASE)  # ['Hello']
 re.findall(r'^\w+', text, re.MULTILINE | re.IGNORECASE)
 ```
 
-<aside aria-label="The `re.IGNORECASE` flag can change the meaning of `\w` and `\b` for non-ASCII characters because" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>The `re.IGNORECASE` flag can change the meaning of `\w` and `\b` for non-ASCII characters because</p>
+<aside class="starlight-aside starlight-aside--danger">
 Unicode case folding is complex. If you are matching ASCII-only identifiers, use `re.ASCII` (or
 `re.A`) alongside `re.IGNORECASE` to constrain `\w``\b``\d`And `\s` to ASCII ranges.
 
@@ -831,7 +831,7 @@ print(Role.ADMIN == "admin")  # True
   serialization or string comparisons.
 
 </aside>
-<aside aria-label="Never compare `Enum` members with `is`. Use `==`. While `Enum` members are singletons within a" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never compare `Enum` members with `is`. Use `==`. While `Enum` members are singletons within a</p>
+<aside class="starlight-aside starlight-aside--danger">
 Single process, using `is` for comparison is a fragile pattern that does not work correctly across
 Pickling, multiprocess serialization, or when the enum is re-imported.
 
@@ -869,7 +869,7 @@ def process_item(item_id: int) -> None:
 ```
 
 </aside>
-<aside aria-label="Use `%s`-style formatting in log messages, not f-strings. The `logging` module defers string" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use `%s`-style formatting in log messages, not f-strings. The `logging` module defers string</p>
+<aside class="starlight-aside starlight-aside--note">
 Formatting until it determines that the message will actually be emitted. With f-strings, the string
 Is always constructed even if the log level is filtered out.
 `logger.debug("Expensive: %r", compute_value())` does not call `compute_value()` if DEBUG is not
@@ -1027,7 +1027,7 @@ print(aware.astimezone(eastern))  # 2025-06-04 10:00:00-04:00
 ```
 
 </aside>
-<aside aria-label="Never compare naive and aware datetimes. Python raises `TypeError`. Never use naive datetimes for" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never compare naive and aware datetimes. Python raises `TypeError`. Never use naive datetimes for</p>
+<aside class="starlight-aside starlight-aside--danger">
 Timestamps that will be stored, transmitted, or compared across systems. Naive datetimes are
 Acceptable only for purely local display or when the timezone context is obvious and unambiguous
 (e.g., "schedule this for 9 AM in the user's local time").

@@ -1210,7 +1210,7 @@ _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 10. "The ending of _A Streetcar Named Desire_ is deliberately ambiguous, refusing to offer moral
     certainty." Discuss with reference to the final scene.
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Treating Blanche as purely a tragic victim or purely a villain:** Williams deliberately makes
   Blanche morally ambiguous. She is simultaneously a sympathetic figure (traumatised by the loss of
   her husband, the decline of Belle Reve, her alcoholism) and a manipulative character (she lies, is

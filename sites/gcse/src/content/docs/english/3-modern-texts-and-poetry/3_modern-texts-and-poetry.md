@@ -12,7 +12,7 @@ categories:
 
 ## Modern Texts and Poetry
 
-<aside aria-label="Board Coverage AQA Paper 2 | Edexcel Paper 1 Component 2 (Modern Prose/Drama) and Paper 2" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board Coverage AQA Paper 2 | Edexcel Paper 1 Component 2 (Modern Prose/Drama) and Paper 2</p>
+<aside class="starlight-aside starlight-aside--note">
 (Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2
 
 ## 1. Modern Texts (Post-1914)

@@ -40,7 +40,7 @@ Returns a `std::string` by value. The format string is checked at compile time f
 Mismatch between the format specification and the argument type is a compile-time error [N4950
 §22.14.6.2].
 
-<aside aria-label="The format string is a **constant expression** --- it must be known at compile time. This" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The format string is a **constant expression** --- it must be known at compile time. This</p>
+<aside class="starlight-aside starlight-aside--note">
 Enables the compiler to parse it and verify that every `{}` field has a corresponding argument of
 The correct type. Runtime-computed format strings are not supported by `std::format` (use
 `std::vformat` for runtime format strings, at the cost of losing compile-time checking).
@@ -154,7 +154,7 @@ void width_precision_demo() {
 }
 ```
 
-<aside aria-label="Dynamic width and precision use the next argument in the argument list. Mixing manual" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Dynamic width and precision use the next argument in the argument list. Mixing manual</p>
+<aside class="starlight-aside starlight-aside--caution">
 Argument IDs with dynamic width/precision can lead to confusing index errors. When using dynamic
 Width/precision, keep the argument ordering simple.
 </aside>
@@ -288,13 +288,13 @@ int main() {
 }
 ```
 
-<aside aria-label="`std::print` is declared in `<print>` [N4950 §22.14.1]. It writes directly to the C `FILE*`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`std::print` is declared in `<print>` [N4950 §22.14.1]. It writes directly to the C `FILE*`</p>
+<aside class="starlight-aside starlight-aside--note">
 Stream, bypassing `std::cout` and its stream buffer. This makes it faster for simple console output
 But means it does not synchronize with `std::cout` by default. Avoid mixing
 `std::print(stdout, ...)` and `std::cout` in the same program without calling
 `std::ios_base::sync_with_stdio(true)` first.
 </aside>
-<aside aria-label="`std::print` to stdout does **not** lock the stdout mutex by default. Concurrent calls to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::print` to stdout does **not** lock the stdout mutex by default. Concurrent calls to</p>
+<aside class="starlight-aside starlight-aside--caution">
 `std::print` from multiple threads can produce interleaved output. Use `std::print(stderr, ...)` for
 Error messages (stderr is unbuffered) or protect stdout with a mutex.
 </aside>
@@ -433,12 +433,12 @@ int main() {
 }
 ```
 
-<aside aria-label="Inheriting from `std::formatter&lt;std::string>` (or any standard formatter) gives you access" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Inheriting from `std::formatter&lt;std::string>` (or any standard formatter) gives you access</p>
+<aside class="starlight-aside starlight-aside--tip">
 To the standard format specification parsing logic. If your custom type needs to support the full
 Standard specification set (width, fill, alignment), parse the standard spec first with the base
 Class's `parse()`Then check for your custom specifiers.
 </aside>
-<aside aria-label="The specialization of `std::formatter` must be in namespace `std` for `std::format` to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The specialization of `std::formatter` must be in namespace `std` for `std::format` to</p>
+<aside class="starlight-aside starlight-aside--caution">
 Find it. However, adding declarations to namespace `std` is technically undefined behavior unless it
 Is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
 `std::formatter` is explicitly permitted.

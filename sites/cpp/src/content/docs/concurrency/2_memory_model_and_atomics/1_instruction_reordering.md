@@ -179,7 +179,7 @@ Prior access:
 
 $$\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}$$
 
-<aside aria-label="Control dependencies do **not** prevent reordering on all architectures. On x86, control" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Control dependencies do **not** prevent reordering on all architectures. On x86, control</p>
+<aside class="starlight-aside starlight-aside--caution">
 Dependencies provide ordering, but on ARM and POWER, the processor may speculatively execute the
 Dependent load before the controlling branch is resolved. Always use explicit memory ordering
 (acquire/release) rather than relying on control dependencies.
@@ -301,7 +301,7 @@ Relationships.
 
 ## Concrete Example: Reordering Bug
 
-<aside aria-label="Warning Unexpected results. It contains intentional data races and is for educational" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Unexpected results. It contains intentional data races and is for educational</p>
+<aside class="starlight-aside starlight-aside--caution">
 purposes only. Do not Write code like this in production.
 </aside>
 ```cpp
@@ -333,7 +333,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Warning Compiler may reorder `data = 42` after `ready = true`Or the hardware may reorder" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Compiler may reorder `data = 42` after `ready = true`Or the hardware may reorder</p>
+<aside class="starlight-aside starlight-aside--caution">
 the stores due to Store buffering. On x86, stores are not reordered with other stores (TSO), so this
 particular Example would likely work on x86 but fail on ARM. This is a common source of subtle
 cross-platform Bugs.

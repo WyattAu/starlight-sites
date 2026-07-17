@@ -186,7 +186,7 @@ $$\Delta\left(\frac{1}{B}\right) = \frac{2\pi e}{\hbar A_{\mathrm{ext}}}$$
 
 This is the primary experimental technique for mapping Fermi surfaces.
 
-<aside aria-label="Common Pitfall The exchange interaction $J$ in the Heisenberg model is _not_ the magnetic" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The exchange interaction $J$ in the Heisenberg model is _not_ the magnetic</p>
+<aside class="starlight-aside starlight-aside--caution">
 dipole interaction. The dipole energy between two spins is $\sim \mu_0\mu_B^2/a^3 \sim 10^{-4}$ eV,
 far too small to Explain Curie temperatures of $\sim 10^3$ K ($\sim 0.1$ eV). The exchange
 interaction is a Consequence of the Coulomb repulsion combined with the antisymmetry of the electron

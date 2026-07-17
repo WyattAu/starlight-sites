@@ -38,8 +38,8 @@ $$
 V = r\omega = \frac{2\pi r}{T} = 2\pi rf
 $$
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A CD rotates at $200\mathrm{ rpm}$. Find the angular velocity in rad/s and the linear speed of a
 Point $5\mathrm{ cm}$ from the centre.
 
@@ -76,9 +76,9 @@ Always directed toward the centre of the circular path (radially inward).
   by Newton"s first law.
 - The word "centripetal" means "centre-seeking."
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 Centripetal force is NOT a new force — it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
 Separate force on a free-body diagram.
@@ -138,9 +138,9 @@ The radius: $r = L\sin\theta$
 
 The period: $T_p = 2\pi\sqrt{\dfrac{L\cos\theta}{g}}$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A $0.5\mathrm{ kg}$ mass on a string of length $1\mathrm{ m}$ moves in a horizontal circle at
 $3\mathrm{ m/s}$. Find the angle the string makes with the vertical and the tension.
 
@@ -222,9 +222,9 @@ $$
 V_{\mathrm{bottom}} = \sqrt{5gr}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A $0.3\mathrm{ kg}$ ball on a string of length $0.8\mathrm{ m}$ is swung in a vertical circle. Find
 The minimum speed at the bottom for the ball to complete the circle.
 
@@ -301,9 +301,9 @@ For an object in **static equilibrium**:
 
 The second condition must hold about ANY axis.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A uniform beam of mass $10\mathrm{ kg}$ and length $4\mathrm{ m}$ is supported at its ends. A
 $20\mathrm{ kg}$ mass hangs $1\mathrm{ m}$ from the left end. Find the support forces.
 
@@ -404,9 +404,9 @@ $$
 - **Diving**: Tucking reduces $I$Increasing angular velocity for flips.
 - **Figure skater**: Extending arms increases $I$Decreasing $\omega$ for a controlled landing.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A figure skater with arms extended has $I = 4.5\mathrm{ kg}\cdot\mathrm{m}^2$ and spins at
 $2\mathrm{ rad/s}$. She pulls her arms in, reducing $I$ to $1.5\mathrm{ kg}\cdot\mathrm{m}^2$. Find
 Her new angular velocity.
@@ -470,9 +470,9 @@ $$
 V = \sqrt{\frac{2gh}{1 + \frac{I}{Mr^2}}}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Compare the speeds of a solid sphere, a hollow sphere, and a solid cylinder rolling down the same
 Incline from the same height.
 
@@ -635,9 +635,9 @@ She can complete 1 full somersault and is partway through a second.
 | Rotational kinetic energy        | $E_k = \dfrac{1}{2}I\omega^2$             |
 | Conservation of angular momentum | $I_1\omega_1 = I_2\omega_2$               |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
 The centripetal force. For vertical circle problems, use energy conservation to relate speeds at
 Different points. For torque problems, identify the pivot and calculate the moment arm.
@@ -667,9 +667,9 @@ $$
 \theta = \frac{1}{2}(\omega_0 + \omega)t
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A flywheel starts from rest and accelerates uniformly at $2\mathrm{ rad/s}^2$ for $5\mathrm{ s}$.
 
 **(a)** Find the angular velocity after $5\mathrm{ s}$.
@@ -694,8 +694,7 @@ $$
 V = r\omega = 0.3 \times 10 = 3.0\mathrm{ m/s}
 $$
 
-:::
-
+</aside>
 ---
 
 ## Gravitation and Circular Orbits (Extended)
@@ -856,7 +855,7 @@ For the A-Level treatment of this topic, see
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Rotational Motion**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Rotational Motion**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Rotational

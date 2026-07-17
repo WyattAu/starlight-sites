@@ -208,7 +208,7 @@ $$\neg\left(\forall \varepsilon \gt 0, \; \exists \delta \gt 0, \; P(\varepsilon
 The existential becomes universal and the universal becomes existential. This is the logical
 Backbone of epsilon-delta definitions in analysis.
 
-<aside aria-label="Warning Negate the predicate. The order of quantifiers does NOT change — it remains the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Negate the predicate. The order of quantifiers does NOT change — it remains the</p>
+<aside class="starlight-aside starlight-aside--caution">
 same sequence but With each quantifier flipped.
 </aside>
 <details>
@@ -289,7 +289,7 @@ that is always false, like $1 = 0$ or $0 \lt 0$).
 This method is especially powerful when the statement you want to prove is a negation itself ("there
 Does not exist..." or "there are no...").
 
-<aside aria-label="Info Which means $\neg P$ must be false, hence $P$ is true. It relies on the Law of Excluded" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Which means $\neg P$ must be false, hence $P$ is true. It relies on the Law of Excluded</p>
+<aside class="starlight-aside starlight-aside--note">
 Middle ($P \vee \neg P$ must be true).
 </aside>
 **Worked Example — $\sqrt{2}$ is irrational:**
@@ -312,7 +312,7 @@ But now both $a$ and $b$ are even, contradicting $\gcd(a, b) = 1$.
 
 Therefore our assumption is false, and $\sqrt{2}$ is irrational.
 
-<aside aria-label="Note Odd, then $a = 2k+1$So $a^2 = 4k^2 + 4k + 1 = 2(2k^2+2k) + 1$Which is odd. Hence if" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Note Odd, then $a = 2k+1$So $a^2 = 4k^2 + 4k + 1 = 2(2k^2+2k) + 1$Which is odd. Hence if</p>
+<aside class="starlight-aside starlight-aside--note">
 $a^2$ is Even, $a$ cannot be odd, so $a$ is even.
 </aside>
 <details>
@@ -482,7 +482,7 @@ Not just $P(k)$.
 **When to use strong induction:** When proving $P(k+1)$ requires not just $P(k)$ but some earlier
 Case $P(j)$ where $j \lt k$.
 
-<aside aria-label="Weak and strong induction are logically equivalent — anything provable by one is provable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Weak and strong induction are logically equivalent — anything provable by one is provable</p>
+<aside class="starlight-aside starlight-aside--caution">
 By the other. But strong induction can make certain .../1-number-and-algebra/3_proof-and-logics much
 more natural. Use it when the Inductive step needs to reference cases earlier than just $k$.
 </aside>
@@ -559,7 +559,7 @@ Counterexample: $2$ is prime and $2$ is even.
 
 When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$Which is composite ($41 \times 41$).
 
-<aside aria-label="To prove a universal claim requires a general .../1-number-and-algebra/3_proof-and-logic. To" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>To prove a universal claim requires a general .../1-number-and-algebra/3_proof-and-logic. To</p>
+<aside class="starlight-aside starlight-aside--tip">
 disprove it requires only one Counterexample. This asymmetry is fundamental to mathematical logic.
 </aside>
 <details>
@@ -630,7 +630,7 @@ So $p_i \nmid N$ for all $i$. This contradicts that some $p_i$ divides $N$.
 
 Therefore, there are infinitely many primes. $\blacksquare$
 
-<aside aria-label="Info Example, $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 30031 = 59 \times 509$. The" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Example, $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13 + 1 = 30031 = 59 \times 509$. The</p>
+<aside class="starlight-aside starlight-aside--note">
 .../1-number-and-algebra/3_proof-and-logic only Requires that $N$ has SOME prime factor not in the
 list.
 </aside>
@@ -729,7 +729,7 @@ $ax + by = (dm)x + (dn)y = d(mx + ny)$.
 
 Since $mx + ny \in \mathbb{Z}$$d \mid (ax + by)$. $\blacksquare$
 
-<aside aria-label="This theorem is the foundation of the Euclidean algorithm. The expression $ax + by$ is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This theorem is the foundation of the Euclidean algorithm. The expression $ax + by$ is</p>
+<aside class="starlight-aside starlight-aside--note">
 Called a **linear combination** of $a$ and $b$. The greatest common divisor $\gcd(a, b)$ can always
 Be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
 </aside>
@@ -841,7 +841,7 @@ $ac = (b + kn)(d + ln) = bd + bln + dkn + kln^2 = bd + n(bl + dk + kln)$.
 
 Therefore $n \mid (ac - bd)$So $ac \equiv bd \pmod{n}$. $\blacksquare$
 
-<aside aria-label="Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Division does NOT work with congruences . From $ac \equiv bc \pmod{n}$You can Only</p>
+<aside class="starlight-aside starlight-aside--caution">
 conclude $a \equiv b \pmod{n}$ if $\gcd(c, n) = 1$. For example, $6 \equiv 0 \pmod{3}$ and
 $3 \equiv 0 \pmod{3}$But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
 </aside>
@@ -1039,7 +1039,7 @@ The conclusion ($\sqrt{2}$ is irrational) appears in the hypothesis. This proves
 only on axioms, definitions, and Previously established theorems — never on the statement you are
 proving.
 
-<aside aria-label="Circular reasoning is the most dangerous logical fallacy in mathematics because it can" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Circular reasoning is the most dangerous logical fallacy in mathematics because it can</p>
+<aside class="starlight-aside starlight-aside--danger">
 Look convincing. Always verify that your .../1-number-and-algebra/3_proof-and-logic does not contain
 the conclusion as an unstated Assumption.
 </aside>
@@ -1138,7 +1138,7 @@ $P(k-1)$ or earlier, weak induction's hypothesis is insufficient.
 This is unnecessary and makes .../1-number-and-algebra/3_proof-and-logics harder to read. Use weak
 induction unless the structure Of the problem requires strong induction.
 
-<aside aria-label="**Rule of thumb:** If the statement for $n$ depends only on the statement for $n-1$ (like" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>**Rule of thumb:** If the statement for $n$ depends only on the statement for $n-1$ (like</p>
+<aside class="starlight-aside starlight-aside--tip">
 $n! = n \cdot (n-1)!$), use weak induction. If on earlier terms (like $F_n = F_{n-1} + F_{n-2}$),
 use strong induction.
 </aside>
@@ -1246,6 +1246,8 @@ Transitivity of divisibility, $n \mid (a-b)$. Therefore $a \equiv b \pmod{n}$.
 
 ---
 
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Diagnostic Test</strong>
 :::tip Diagnostic Test Ready to test your understanding of **Proof and Logic**? The
 contains the hardest questions within the IB specification for this topic, each with a full worked
 solution.
@@ -1255,6 +1257,7 @@ Logic with other IB mathematics topics to test synthesis under exam conditions.
 
 See for instructions on self-marking
 and building a personal test matrix.
+</aside>
 
 ## Worked Examples
 

@@ -78,7 +78,7 @@ $m \times n$ matrix.
 - The existence of $AB$ does not imply the existence of $BA$.
 - $AB = O$ does NOT imply $A = O$ or $B = O$ (there are non-trivial zero divisors).
 
-<aside aria-label="A common error is assuming $AB = BA$. Always check the order of multiplication. In geometric" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A common error is assuming $AB = BA$. Always check the order of multiplication. In geometric</p>
+<aside class="starlight-aside starlight-aside--caution">
 Transformations, applying $A$ then $B$ corresponds to the product $BA$ (right-to-left reading).
 
 
@@ -354,8 +354,8 @@ $$
 $$
 
 </aside>
-:::info[Examples]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Examples</strong>
 <details>
 <summary>Expand</summary>
 
@@ -682,9 +682,9 @@ Can have three distinct real roots, one repeated and one distinct real root, or 
 Two complex conjugate roots. Since the IB course works over $\mathbb{R}$Only real eigenvalues and
 Eigenvectors are considered.
 
-:::
-:::info[Examples]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Examples</strong>
 <details>
 <summary>Expand</summary>
 
@@ -790,9 +790,9 @@ Case.
 This transforms the problem of computing $A^k$ (which would require $k-1$ matrix multiplications)
 Into computing three matrix products, which is dramatically more efficient.
 
-:::
-:::info[Examples]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Examples</strong>
 <details>
 <summary>Expand</summary>
 
@@ -845,9 +845,9 @@ Augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
 - If $\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}]) \lt n$: infinitely many solutions.
 - If $\mathrm{rank}(A) \lt \mathrm{rank}([A \mid \mathbf{b}])$: no solution (inconsistent system).
 
-:::
-:::info[Examples]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Examples</strong>
 <details>
 <summary>Expand</summary>
 
@@ -895,8 +895,8 @@ $$
 
 Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}$.
 
-:::
-<aside aria-label="Cramer's rule is computationally expensive for large systems ($O(n!)$ for the determinant" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Cramer's rule is computationally expensive for large systems ($O(n!)$ for the determinant</p>
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and
 Frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
 
@@ -923,8 +923,8 @@ The key matrix $K$ must be invertible modulo 26, which requires $\det(K)$ to be 
 $\gcd(\det(K), 26) = 1$).
 
 </aside>
-:::info[Examples]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Examples</strong>
 <details>
 <summary>Expand</summary>
 
@@ -1004,9 +1004,9 @@ For a regular Markov chain (one where some power of $P$ has all positive entries
 Distribution exists, is unique, and is independent of the initial state. The eigenvalue $1$ is
 Always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
 
-:::
-:::info[Examples]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Examples</strong>
 <details>
 <summary>Expand</summary>
 
@@ -1041,9 +1041,8 @@ $\lambda_2^k \to 0$ and the system converges to the eigenvector for $\lambda_1 =
 
 </details>
 
-:::
-
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
+</aside>
+<aside class="starlight-aside starlight-aside--danger">
 - **Confusing matrix multiplication order:** Matrix multiplication is NOT commutative: AB is
   generally not equal to BA. When applying a transformation matrix to a point, the ORDER matters.
   For combined transformations, the matrix closest to the point is applied FIRST: if transformation

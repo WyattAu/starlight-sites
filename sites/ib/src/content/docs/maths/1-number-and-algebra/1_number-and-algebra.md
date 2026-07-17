@@ -357,7 +357,7 @@ $$S_k = \frac{k}{2}\big(2a_1 + (k-1)d\big)$$
 
 $\blacksquare$
 
-<aside aria-label="In the IB formula booklet this is written as:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In the IB formula booklet this is written as:</p>
+<aside class="starlight-aside starlight-aside--caution">
 $$S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$$
 
 </aside>

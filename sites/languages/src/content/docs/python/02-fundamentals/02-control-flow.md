@@ -73,7 +73,7 @@ The trade-off is sensitivity to whitespace. Mixing tabs and spaces, or inconsist
 Causes `IndentationError`. Python 3 disallows mixing tabs and spaces entirely within the same file.
 PEP 8 mandates 4 spaces per indentation level.
 
-<aside aria-label="Python 3 raises `TabError: inconsistent use of tabs and spaces in indentation` if a file mixes tabs" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Python 3 raises `TabError: inconsistent use of tabs and spaces in indentation` if a file mixes tabs</p>
+<aside class="starlight-aside starlight-aside--caution">
 And spaces. Configure your editor to insert 4 spaces on Tab. Most linters and formatters (`ruff`
 `black`) enforce this automatically.
 
@@ -261,7 +261,7 @@ flowchart TD
 ```
 
 </aside>
-<aside aria-label="Pattern matching is exhaustive only if you provide a wildcard `_` case. Without it, no match Means" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Pattern matching is exhaustive only if you provide a wildcard `_` case. Without it, no match Means</p>
+<aside class="starlight-aside starlight-aside--note">
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
 `match`Which requires exhaustiveness at compile time.
 
@@ -440,7 +440,7 @@ def converge_pi(target_error: float = 1e-5) -> float:
 ```
 
 </aside>
-<aside aria-label="A `while True` loop with no `break` condition is an infinite loop. While occasionally intentional" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A `while True` loop with no `break` condition is an infinite loop. While occasionally intentional</p>
+<aside class="starlight-aside starlight-aside--caution">
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
 There is a reachable termination condition.
 
@@ -535,7 +535,7 @@ The execution order of nested comprehensions follows the same left-to-right read
 `for` loops. The first `for` is the outer loop, the second `for` is the inner loop.
 
 </aside>
-<aside aria-label="List comprehensions create the entire list in memory. For large datasets, prefer generator" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>List comprehensions create the entire list in memory. For large datasets, prefer generator</p>
+<aside class="starlight-aside starlight-aside--caution">
 Expressions. A comprehension over a billion-element range would consume all available memory.
 
 
@@ -598,7 +598,7 @@ print(list(result))  # [1, 5, 9, 13, ...]
 ```
 
 </aside>
-<aside aria-label="When a comprehension is the sole argument to a function, the enclosing parentheses can be omitted:" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When a comprehension is the sole argument to a function, the enclosing parentheses can be omitted:</p>
+<aside class="starlight-aside starlight-aside--tip">
 `sum(x**2 for x in range(100))` is valid. The generator expression syntax
 `(x**2 for x in range(100))` is required in all other contexts.
 
@@ -652,7 +652,7 @@ The walrus operator has lower precedence than most operators but higher than com
 Required in comprehensions and `if`/`while` conditions.
 
 </aside>
-<aside aria-label="The walrus operator should be used sparingly. It improves clarity when it avoids redundant" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The walrus operator should be used sparingly. It improves clarity when it avoids redundant</p>
+<aside class="starlight-aside starlight-aside--caution">
 Computation or awkward workarounds. It harms clarity when it makes a single line do too much. The
 Guiding principle: use it when it eliminates a clear redundancy, not just to save a line.
 
@@ -741,7 +741,7 @@ flowchart TD
 ```
 
 </aside>
-<aside aria-label="Never use a bare `except:` (which catches everything including `SystemExit` and `KeyboardInterrupt`)" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use a bare `except:` (which catches everything including `SystemExit` and `KeyboardInterrupt`)</p>
+<aside class="starlight-aside starlight-aside--caution">
 Or `except Exception` without careful consideration. Catching too broadly masks real errors and
 Makes debugging extremely difficult. Catch the most specific exception possible.
 
@@ -856,7 +856,7 @@ def binary_search(arr: list[int], target: int) -> int:
 ```
 
 </aside>
-<aside aria-label="Assertions are stripped when Python runs with the `-O` (optimize) flag. Never use assertions for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Assertions are stripped when Python runs with the `-O` (optimize) flag. Never use assertions for</p>
+<aside class="starlight-aside starlight-aside--caution">
 Input validation or security checks. Use explicit `if/raise` for conditions that must be checked in
 Production.
 
@@ -1020,7 +1020,7 @@ class ReliableCleanup:
 ```
 
 </aside>
-<aside aria-label="Always use `with` statements for file I/O, database connections, network sockets, locks, and any" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always use `with` statements for file I/O, database connections, network sockets, locks, and any</p>
+<aside class="starlight-aside starlight-aside--tip">
 Other resource that requires explicit cleanup. Never rely on `__del__` or the garbage collector for
 Resource management.
 

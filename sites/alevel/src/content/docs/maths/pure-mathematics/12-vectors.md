@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1, 2 | Includes vector equations of lines                 |
 | CIE (9709) | P1, P2, P3 | 2D in P1; 3D and lines in P2/P3                    |
 
-<aside aria-label="The formula booklet gives the scalar product formula. You must be comfortable working in 3D" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The formula booklet gives the scalar product formula. You must be comfortable working in 3D</p>
+<aside class="starlight-aside starlight-aside--note">
 And converting between column and $\mathbf{i},\mathbf{j},\mathbf{k}$ notation.
 </aside>
 <hr />
@@ -204,7 +204,7 @@ $$x = a_1 + tb_1, \quad y = a_2 + tb_2, \quad z = a_3 + tb_3$$
 
 In 2D, eliminating $t$: $\dfrac{x - a_1}{b_1} = \dfrac{y - a_2}{b_2}$.
 
-<aside aria-label="Warning $\mathbf{a}$And the direction vector $\mathbf{b}$ can be any non-zero scalar" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning $\mathbf{a}$And the direction vector $\mathbf{b}$ can be any non-zero scalar</p>
+<aside class="starlight-aside starlight-aside--caution">
 multiple of the Direction. Always check your answer gives a point and direction consistent with the
 question.
 </aside>
@@ -220,7 +220,7 @@ The parametric form is:
 
 $$x = x_0 + td_1, \quad y = y_0 + td_2, \quad z = z_0 + td_3$$
 
-<aside aria-label="Tip And $\overrightarrow{AB}$ as the direction vector. Alternatively, use $B$ and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip And $\overrightarrow{AB}$ as the direction vector. Alternatively, use $B$ and</p>
+<aside class="starlight-aside starlight-aside--tip">
 $\overrightarrow{BA}$ --- both give the same line.
 </aside>
 **Example.** Find the vector equation of the line through $P(2, -1, 3)$ and $Q(5, 1, -2)$.
@@ -293,7 +293,7 @@ $\overrightarrow{AP}$ and $\mathbf{d}$ whose magnitude equals the area of the pa
 Span. Dividing by $|\mathbf{d}|$ (the base) gives the perpendicular height, i.e. The shortest
 Distance.
 
-<aside aria-label="When the cross product is not on your syllabus, use the dot-product method from Section 8." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>When the cross product is not on your syllabus, use the dot-product method from Section 8.</p>
+<aside class="starlight-aside starlight-aside--note">
 The cross-product formula is listed here for reference and is examined on CIE P3 and some OCR
 Papers.
 </aside>
@@ -422,7 +422,7 @@ $\overrightarrow{AD} = \overrightarrow{BC}$).
 1. Compute the relevant displacement vectors.
 2. Show opposite sides are equal as vectors (same components).
 
-<aside aria-label="To show a quadrilateral is a **rhombus**, additionally show that adjacent sides have equal" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>To show a quadrilateral is a **rhombus**, additionally show that adjacent sides have equal</p>
+<aside class="starlight-aside starlight-aside--tip">
 Magnitude. To show a **rectangle**, show that adjacent sides are perpendicular. A **square**
 Requires both conditions.
 </aside>
@@ -812,7 +812,7 @@ The adjacent sides are not perpendicular, so $ABCD$ is **not** a rectangle.
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Vectors**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Vectors**? The contains the hardest questions within</p>
+<aside class="starlight-aside starlight-aside--tip">
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Vectors

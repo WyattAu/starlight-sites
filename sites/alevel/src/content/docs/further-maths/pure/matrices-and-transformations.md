@@ -12,7 +12,7 @@ categories: [Mathematics]
 This document covers matrix operations, determinants, inverses, 3x3 matrices, linear
 Transformations, and an introduction to eigenvalues and eigenvectors.
 
-<aside aria-label="Matrices provide a compact and powerful notation for systems of linear equations, geometric" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Matrices provide a compact and powerful notation for systems of linear equations, geometric</p>
+<aside class="starlight-aside starlight-aside--note">
 Transformations, and many applications in science and engineering.
 </aside>
 <hr />
@@ -290,7 +290,7 @@ $$A^n = PD^n P^{-1}$$
 
 Since $D^n$ is the diagonal matrix with each eigenvalue raised to the power $n$.
 
-<aside aria-label="warning Not all matrices are diagonalisable. A matrix is diagonalisable if and only if it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>warning Not all matrices are diagonalisable. A matrix is diagonalisable if and only if it</p>
+<aside class="starlight-aside starlight-aside--caution">
 Has a full set of linearly independent eigenvectors. A matrix with repeated eigenvalues may or may
 Not be diagonalisable.
 </aside>
@@ -433,7 +433,7 @@ $\blacksquare$
 
 ## 8. Common Pitfalls
 
-<aside aria-label="Common Pitfall" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall</p>
+<aside class="starlight-aside starlight-aside--caution">
 1. **Matrix multiplication order:** $AB$ means "apply $B$ first, then $A$." When combining
    transformations, the second transformation is written on the left. Always read right-to-left.
 2. **3x3 determinant sign errors:** The cofactor expansion alternates signs $+$, $-$, $+$ along the

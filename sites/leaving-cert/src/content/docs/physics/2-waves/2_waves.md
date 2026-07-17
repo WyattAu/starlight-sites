@@ -594,7 +594,7 @@ $$\theta_e = 40^\circ$$
 
 The emergent ray is parallel to the incident ray but displaced sideways by $1.43 \mathrm{ cm$.
 
-<aside aria-label="The emergent ray is always parallel to the incident ray for a rectangular block with" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The emergent ray is always parallel to the incident ray for a rectangular block with</p>
+<aside class="starlight-aside starlight-aside--note">
 Parallel faces. The lateral displacement increases with thickness and with angle of incidence.
 
 ### Example 22: Doppler Effect -- Moving Observer

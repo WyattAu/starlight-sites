@@ -121,7 +121,7 @@ _Proof._ Before accepting a route, a BGP speaker checks if its own AS number app
 attribute. If it does, the route is rejected. Since each AS prepends its number when advertising a
 route, any loop would cause the AS number to appear twice, triggering the rejection. $\blacksquare$
 
-<aside aria-label="Common Pitfall BGP does NOT guarantee convergence to a unique routing state. BGP may" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall BGP does NOT guarantee convergence to a unique routing state. BGP may</p>
+<aside class="starlight-aside starlight-aside--caution">
 oscillate between multiple stable states (known as BGP wedgies or "persistent oscillation"). The
 Gao-Rexford conditions ensure convergence: (1) routes are ranked by customer-provider-peer
 relationships, (2) an AS never prefers a route through a peer over a route through a customer, and
@@ -284,7 +284,7 @@ This allows a connection to survive IP address changes (e.g., switching from Wi-
 in the first packet (using saved session parameters). This eliminates the round trip for connection
 establishment.
 
-<aside aria-label="Common Pitfall 0-RTT resumption is vulnerable to replay attacks. An attacker who captures" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall 0-RTT resumption is vulnerable to replay attacks. An attacker who captures</p>
+<aside class="starlight-aside starlight-aside--caution">
 the client's 0-RTT data can replay it to the server. Applications must ensure that 0-RTT requests
 are idempotent (safe to execute multiple times). The server can reject 0-RTT for non-idempotent
 operations.
@@ -912,7 +912,7 @@ Using `ss -tanp` or `netstat -tanp`:
 
 **Common pitfalls:**
 
-<aside aria-label="Common Pitfall A large number of connections in CLOSE_WAIT state indicates a resource" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A large number of connections in CLOSE_WAIT state indicates a resource</p>
+<aside class="starlight-aside starlight-aside--caution">
 leak: the application received a close from the remote end but never called `close()` on its socket.
 This eventually exhausts file descriptors. The fix is in the application code, not in the network
 configuration.

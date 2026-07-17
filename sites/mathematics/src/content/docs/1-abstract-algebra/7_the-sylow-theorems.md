@@ -132,7 +132,7 @@ _Proof sketch._ If $G$ is simple and $|G| = p^n m$ with $\gcd(p, m) = 1$ and $m 
 (since $n_p \neq 1$And $n_p$ divides $m$ with $n_p \equiv 1 \pmod{p}$). For many orders,
 $n_p = 1$Forcing a normal Sylow subgroup and contradicting simplicity. $\blacksquare$
 
-<aside aria-label="Common Pitfall Sylow subgroups are not unique . When $n_p > 1$There are multiple Sylow" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Sylow subgroups are not unique . When $n_p > 1$There are multiple Sylow</p>
+<aside class="starlight-aside starlight-aside--caution">
 $p$-subgroups, But they are all conjugate. A common mistake is to assume $n_p = 1$ without checking
 the Sylow Conditions. Always verify that $n_p \equiv 1 \pmod{p}$ and $n_p$ divides $m$.
 

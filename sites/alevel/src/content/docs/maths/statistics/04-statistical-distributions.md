@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1, 2 | Binomial in P1; normal and Poisson in P2 |
 | CIE (9709) | P1, P6     | Binomial in P1; normal and Poisson in P6 |
 
-<aside aria-label="The formula booklet gives the probability mass function for the Binomial and Poisson" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The formula booklet gives the probability mass function for the Binomial and Poisson</p>
+<aside class="starlight-aside starlight-aside--note">
 Distributions, and the normal distribution function. You must know when to use each distribution and
 How to find probabilities.
 </aside>
@@ -173,7 +173,7 @@ $$B(n, p) \approx N(np, np(1-p))$$
 With **continuity correction**:
 $P(X \leq k) \approx P\!\left(Z \lt \frac◆LB◆k + 0.5 - np◆RB◆◆LB◆\sqrt{np(1-p)}◆RB◆\right)$.
 
-<aside aria-label="Warning (Binomial) with a continuous one (Normal). Add or subtract 0.5 depending on the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning (Binomial) with a continuous one (Normal). Add or subtract 0.5 depending on the</p>
+<aside class="starlight-aside starlight-aside--caution">
 inequality Direction.
 </aside>
 <hr />
@@ -259,7 +259,7 @@ In any interval of length $t$ follows $\mathrm{Po}(\lambda t)$.
 Typical applications include: calls arriving at a call centre per hour, typing errors per page,
 Radioactive decays per second, and cars passing a checkpoint per minute.
 
-<aside aria-label="Tip Constant over the interval and that events do not cluster. If events tend to occur in" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Constant over the interval and that events do not cluster. If events tend to occur in</p>
+<aside class="starlight-aside starlight-aside--tip">
 bursts, the Poisson model is not appropriate.
 </aside>
 ### 4.7 Poisson approximation to the Binomial
@@ -278,7 +278,7 @@ Conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
 
 The approximation improves as $n$ increases and $p$ decreases while $\lambda = np$ remains fixed.
 
-<aside aria-label="Warning And $n$ is large, use the normal approximation (Section 3.6) instead. The two" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning And $n$ is large, use the normal approximation (Section 3.6) instead. The two</p>
+<aside class="starlight-aside starlight-aside--caution">
 approximations are Complementary: Poisson handles the case of many trials with rare success, while
 normal handles the Case of many trials with moderate success probability.
 </aside>
@@ -333,7 +333,7 @@ $$
 
 Note how the terms $2abE(X)$ and $b^2$ cancel between $E(Y^2)$ and $[E(Y)]^2$.
 
-<aside aria-label="Adding a constant $b$ (a location shift) has **no effect** on variance. Only multiplying by" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Adding a constant $b$ (a location shift) has **no effect** on variance. Only multiplying by</p>
+<aside class="starlight-aside starlight-aside--note">
 $a$ (a scale change) affects variance, and it does so by a factor of $a^2$. This is why variance is
 Measured in **squared units** of the original variable.
 </aside>
@@ -668,7 +668,7 @@ Section 6.
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Statistical Distributions**? The contains the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Statistical Distributions**? The contains the</p>
+<aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Statistical

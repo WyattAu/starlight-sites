@@ -381,7 +381,7 @@ $\blacksquare$
 
 </details>
 
-<aside aria-label="To check if $n$ vectors in $\mathbb{R}^n$ form a basis, compute the determinant of the matrix" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>To check if $n$ vectors in $\mathbb{R}^n$ form a basis, compute the determinant of the matrix</p>
+<aside class="starlight-aside starlight-aside--tip">
 whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
 </aside>
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
@@ -621,7 +621,7 @@ $\blacksquare$
 
 </details>
 
-<aside aria-label="Common Pitfall The determinant is only defined for square matrices. There is no" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The determinant is only defined for square matrices. There is no</p>
+<aside class="starlight-aside starlight-aside--caution">
 meaningful determinant for an $m \times n$ matrix with $m \neq n$. Do not confuse
 $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
 </aside>
@@ -1107,7 +1107,7 @@ Therefore $A^{10} = 3254867 \cdot A - 6508710 \cdot I$. $\blacksquare$
 
 </details>
 
-<aside aria-label="Common Pitfall Not every matrix is diagonalisable. For example," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not every matrix is diagonalisable. For example,</p>
+<aside class="starlight-aside starlight-aside--caution">
 $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has Eigenvalue $\lambda = 1$ with algebraic
 multiplicity 2 but geometric multiplicity 1. It has only one Linearly independent eigenvector and is
 not diagonalisable.
@@ -1522,7 +1522,7 @@ $\blacksquare$
 
 </details>
 
-<aside aria-label="Common Pitfall The Gram--Schmidt process requires a linearly independent starting set. If" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Gram--Schmidt process requires a linearly independent starting set. If</p>
+<aside class="starlight-aside starlight-aside--caution">
 the input vectors are Linearly dependent, one of the $\mathbf{u}_k$ will be the zero vector, and the
 process will fail (attempting to divide by zero in the normalisation step).
 </aside>

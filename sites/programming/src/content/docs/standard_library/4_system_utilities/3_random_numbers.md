@@ -58,7 +58,7 @@ Cryptographically secure [N4950 §29.6.3.4].
 **`std::random_device`** is a non-deterministic uniform random bit generator that obtains entropy
 From the operating system (`/dev/urandom` on Linux, `BCryptGenRandom` on Windows) [N4950 §29.6.5.3].
 
-<aside aria-label="On some older MinGW implementations, `std::random_device` was implemented with a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>On some older MinGW implementations, `std::random_device` was implemented with a</p>
+<aside class="starlight-aside starlight-aside--caution">
 Fixed-seed PRNG, producing the same sequence on every run. This was a well-known bug. Modern
 MinGW-w64 (with GCC 9+) uses the proper OS entropy source. If you need guaranteed non-deterministic
 Seeds on all platforms, read from `/dev/urandom` (POSIX) or `BCryptGenRandom` (Windows) directly.
@@ -152,7 +152,7 @@ void seeded_rng_demo() {
 }
 ```
 
-<aside aria-label="`std::seed_seq` [N4950 §29.6.3.8] takes a sequence of seed values and produces a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`std::seed_seq` [N4950 §29.6.3.8] takes a sequence of seed values and produces a</p>
+<aside class="starlight-aside starlight-aside--tip">
 Well-distributed initial state for the engine. This is important because the Mersenne Twister's
 Initialization algorithm has known weaknesses when given a single 32-bit seed — some bits of the
 Initial state may have low entropy. Using `seed_seq` with multiple entropy sources produces a better
@@ -271,7 +271,7 @@ Expected stdd: 1
   3.75 |                                      1
 ```
 
-<aside aria-label="`std::normal_distribution` uses the Marsaglia polar method internally to transform pairs of" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`std::normal_distribution` uses the Marsaglia polar method internally to transform pairs of</p>
+<aside class="starlight-aside starlight-aside--note">
 Uniform random numbers into normally distributed values [N4950 §29.6.4.4]. This method produces
 Values in pairs, so the distribution object may cache one value internally for efficiency.
 </aside>
@@ -319,7 +319,7 @@ This serialization is essential for:
 - **Networked games:** Synchronize the RNG state across clients for deterministic behavior.
 - **Fuzz testing:** Record the RNG state that triggered a crash and replay it.
 
-<aside aria-label="The `operator<<`/`operator>>` format is **not** portable across compilers or standard" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `operator<<`/`operator>>` format is **not** portable across compilers or standard</p>
+<aside class="starlight-aside starlight-aside--caution">
 Library implementations. GCC libstdc++ and Clang libc++ may produce different binary formats. Use
 Only the same implementation for save/restore.
 </aside>
@@ -351,7 +351,7 @@ void random_device_props() {
 }
 ```
 
-<aside aria-label="`std::random_device::entropy()` returns 0.0 on many implementations even when the device" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::random_device::entropy()` returns 0.0 on many implementations even when the device</p>
+<aside class="starlight-aside starlight-aside--caution">
 Is truly non-deterministic. A return of 0.0 means "entropy estimate not available," NOT "no
 Entropy." Do not use this value to decide whether the device is secure.
 </aside>
@@ -453,7 +453,7 @@ void discrete_distribution_demo() {
 }
 ```
 
-<aside aria-label="Info Sampling time after an $O(n)$ setup phase. This is optimal for distributions that are" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Sampling time after an $O(n)$ setup phase. This is optimal for distributions that are</p>
+<aside class="starlight-aside starlight-aside--note">
 sampled many Times with the same weights [N4950 §29.6.4.5].
 </aside>
 ### Poisson and Exponential Distributions
@@ -542,7 +542,7 @@ void engine_benchmark() {
 }
 ```
 
-<aside aria-label="Tip `random_device` call, then use the engine for all subsequent random values." class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip `random_device` call, then use the engine for all subsequent random values.</p>
+<aside class="starlight-aside starlight-aside--tip">
 `random_device` may make An OS syscall for every call, which is orders of magnitude slower than a
 PRNG.
 </aside>

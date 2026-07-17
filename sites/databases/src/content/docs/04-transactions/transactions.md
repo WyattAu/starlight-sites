@@ -40,7 +40,7 @@ NULL, UNIQUE, CHECK, FOREIGN KEY) must hold at transaction commit. This property
 Responsibility of the database (enforcing constraints) and partially the responsibility of the
 Application (writing correct transaction logic).
 
-<aside aria-label="Consistency in ACID is **not** the same as consistency in the CAP theorem. ACID consistency means" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Consistency in ACID is **not** the same as consistency in the CAP theorem. ACID consistency means</p>
+<aside class="starlight-aside starlight-aside--note">
 "the database satisfies all defined constraints." CAP consistency means "every read returns the most
 Recent write." They are different guarantees.
 
@@ -179,7 +179,7 @@ T1: UPDATE accounts SET balance = balance - 100 WHERE id = 1;
 ```
 
 </aside>
-<aside aria-label="In PostgreSQL, a REPEATABLE READ transaction that modifies data that was concurrently modified by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In PostgreSQL, a REPEATABLE READ transaction that modifies data that was concurrently modified by</p>
+<aside class="starlight-aside starlight-aside--caution">
 Another committed transaction will fail with a serialization error. Your application must catch this
 Error and retry the transaction. This is by design -- it is the price of snapshot isolation.
 
@@ -286,7 +286,7 @@ SELECT pg_advisory_unlock(12345);    -- releases the lock
 ```
 
 </aside>
-<aside aria-label="`FOR UPDATE SKIP LOCKED` is the foundation of many job queue and task scheduling systems. Multiple" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`FOR UPDATE SKIP LOCKED` is the foundation of many job queue and task scheduling systems. Multiple</p>
+<aside class="starlight-aside starlight-aside--tip">
 Workers can safely `SELECT ... FOR UPDATE SKIP LOCKED` from the same table without deadlocking. Each
 Worker gets a different row, and rows that are already being processed are skipped.
 
@@ -461,7 +461,7 @@ COMMIT;
 ```
 
 </aside>
-<aside aria-label="Savepoints consume resources (transaction ID advancement, WAL records). Do not use savepoints in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Savepoints consume resources (transaction ID advancement, WAL records). Do not use savepoints in</p>
+<aside class="starlight-aside starlight-aside--caution">
 Tight loops (e.g., one savepoint per row in a batch). Instead, batch your operations and use a
 Single savepoint for the entire batch.
 
@@ -534,7 +534,7 @@ Systems prefer:
    background process publishes the events
 
 </aside>
-<aside aria-label="Avoid 2PC unless you absolutely need atomic cross-database writes. The performance cost (additional" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Avoid 2PC unless you absolutely need atomic cross-database writes. The performance cost (additional</p>
+<aside class="starlight-aside starlight-aside--tip">
 Network round-trips, coordinator overhead, blocking on failure) and operational complexity (recovery
 Procedures, heuristic outcomes) make it a last resort. Prefer sagas for most distributed workflows.
 
@@ -840,7 +840,7 @@ COMMIT;
 ```
 
 </aside>
-<aside aria-label="RLS policies bypass `SELECT *` in a subtle way: the policy is applied after the query plan is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>RLS policies bypass `SELECT *` in a subtle way: the policy is applied after the query plan is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Generated, so the planner does not know the effective row count. This can lead to suboptimal plans.
 Use `SET LOCAL` within a transaction to scope the security context correctly.
 

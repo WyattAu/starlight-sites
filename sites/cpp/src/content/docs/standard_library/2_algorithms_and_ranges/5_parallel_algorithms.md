@@ -161,7 +161,7 @@ int main() {
 
 ### Data Races in Parallel Algorithms
 
-<aside aria-label="The most common pitfall with parallel algorithms is **data races**. When an algorithm" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The most common pitfall with parallel algorithms is **data races**. When an algorithm</p>
+<aside class="starlight-aside starlight-aside--caution">
 Uses `std::execution::par`The user-provided function objects may be called concurrently from
 Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
 
@@ -297,7 +297,7 @@ int main() {
 }
 ```
 
-<aside aria-label="**Never use `std::reduce` with floating-point arithmetic if you need bit-exact" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Never use `std::reduce` with floating-point arithmetic if you need bit-exact</p>
+<aside class="starlight-aside starlight-aside--caution">
 Reproducibility.** Floating-point addition is not associative (e.g.,
 `(0.1 + 0.2) + 0.3 != 0.1 + (0.2 + 0.3)` in IEEE 754). Use `std::accumulate` for deterministic
 Floating-point results, or use compensated summation (Kahan summation) for accuracy.
@@ -741,7 +741,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Not all algorithms have parallel overloads. The following algorithms do **not** support" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Not all algorithms have parallel overloads. The following algorithms do **not** support</p>
+<aside class="starlight-aside starlight-aside--note">
 Execution policies: `std::stable_sort` (until C++20), `std::nth_element` (until C++20), and
 `std::inplace_merge`. Check the standard or your compiler's documentation for the full list of
 Parallel-capable algorithms.

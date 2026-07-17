@@ -34,7 +34,7 @@ JNI mechanism with a type-safe, allocation-tracking API that is practically usab
 | Truffle Framework    | API for building high-performance language runtimes  | Production           |
 | VisualVM Integration | Profiling and diagnostics for Graal-compiled code    | Production           |
 
-<aside aria-label="GraalVM has been folded into the OpenJDK project. Starting with JDK 22, `native-image` ships" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>GraalVM has been folded into the OpenJDK project. Starting with JDK 22, `native-image` ships</p>
+<aside class="starlight-aside starlight-aside--note">
 As a standard JDK component. You no longer need a separate GraalVM distribution to build native
 Images. The Graal JIT compiler has been available as an experimental tier-4 compiler in OpenJDK
 Since JDK 10.
@@ -268,7 +268,7 @@ Native image classifies every class into one of two initialization times:
 By default, most JDK classes are initialized at build time. Application classes are initialized at
 Runtime unless they are reachable from build-time-initialized classes.
 
-<aside aria-label="Build-time initialization of application classes can cause subtle bugs. If a class's" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Build-time initialization of application classes can cause subtle bugs. If a class's</p>
+<aside class="starlight-aside starlight-aside--caution">
 Static initializer opens a file, creates a thread, or accesses environment variables, these actions
 Execute on the build machine, not the deployment target. Use `--initialize-at-build-time` and
 `--initialize-at-run-time` flags explicitly to control this:
@@ -358,7 +358,7 @@ Reasons are:
 | Crypto workloads     | Baseline           | 70-90% of HotSpot       |
 | Short-lived CLI tool | N/A (warmup kills) | 10-100x faster overall  |
 
-<aside aria-label="The throughput gap between HotSpot and native image has been narrowing with each GraalVM" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The throughput gap between HotSpot and native image has been narrowing with each GraalVM</p>
+<aside class="starlight-aside starlight-aside--note">
 Release. For I/O-bound server applications, native image now matches or exceeds HotSpot performance
 For most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
 HotSpot's adaptive optimization has time to produce highly specialized code.
@@ -597,7 +597,7 @@ public class LibCurlExample {
 | Performance        | Good (direct call after linking) | Comparable (downcall stubs are fast)    |
 | Safety             | Undefined behavior on misuse     | Bounds-checked, null-checked            |
 
-<aside aria-label="The FFM API uses `restricted` methods (marked with `@Restricted`) that can crash the JVM" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The FFM API uses `restricted` methods (marked with `@Restricted`) that can crash the JVM</p>
+<aside class="starlight-aside starlight-aside--caution">
 If misused. These methods perform bounds checks and null checks, but cannot prevent all undefined
 Behavior (e.g., passing a freed segment to a native function). The `@Restricted` annotation serves
 As a warning: you are leaving the safety guarantees of the Java platform.
@@ -793,7 +793,7 @@ public class OffHeapRingBuffer {
 }
 ```
 
-<aside aria-label="The off-heap ring buffer above has a bug: the `Arena` used to allocate the buffer is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The off-heap ring buffer above has a bug: the `Arena` used to allocate the buffer is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Closed in the constructor, making the segment inaccessible. In practice, the arena must outlive the
 Data structure. Use a shared arena or hold a reference to the arena as a field.
 </aside>
@@ -890,7 +890,7 @@ Speedup over scalar code on hardware with AVX2/AVX-512 support. The key advantag
 Intrinsics is portability: the same Java code runs on x86 (AVX2/AVX-512), ARM (NEON/SVE), and other
 Architectures, with the JIT compiler selecting the appropriate instructions at runtime.
 
-<aside aria-label="The Vector API requires `--add-modules jdk.incubator.vector` on the command line. It is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The Vector API requires `--add-modules jdk.incubator.vector` on the command line. It is</p>
+<aside class="starlight-aside starlight-aside--note">
 Still in incubator status as of JDK 23. The API surface may change before final standardization.
 </aside>
 ## Virtual Threads (Project Loom)
@@ -1012,7 +1012,7 @@ Prototypes). Its instances have no identity -- there is no concept of reference 
 Synchronization, and no null instances. Two value instances with the same field values are
 Considered equal.
 
-<aside aria-label="Project Valhalla is still in preview as of JDK 23. The syntax and semantics may change" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Project Valhalla is still in preview as of JDK 23. The syntax and semantics may change</p>
+<aside class="starlight-aside starlight-aside--note">
 Before finalization. The examples below reflect the current preview state.
 </aside>
 ### Identity Classes vs Value Classes
@@ -1123,7 +1123,7 @@ native-image --version
 # native-image 22.0.2
 ```
 
-<aside aria-label="As of JDK 22, native-image is bundled with the standard JDK. You do not need a separate" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>As of JDK 22, native-image is bundled with the standard JDK. You do not need a separate</p>
+<aside class="starlight-aside starlight-aside--note">
 GraalVM distribution. Install a JDK that includes native-image support (look for "GraalVM" in the
 Vendor name when using SDKMAN, or download from the GraalVM GitHub releases).
 </aside>
@@ -1228,7 +1228,7 @@ mvn -Pnative native:compile
 ./target/myapp --test
 ```
 
-<aside aria-label="Do not attempt to unit test the native image binary itself during development. The build" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not attempt to unit test the native image binary itself during development. The build</p>
+<aside class="starlight-aside starlight-aside--caution">
 Takes 30-120 seconds, which makes the test cycle too slow. Test business logic in JVM mode, and use
 The native image binary only for integration tests and final validation.
 

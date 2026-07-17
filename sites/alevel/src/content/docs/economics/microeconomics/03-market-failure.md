@@ -24,12 +24,12 @@ $$P \neq MSC \quad \mathrm{or equivalently} \quad MSB \neq MSC$$
 This leads to a **deadweight welfare loss**: the total surplus (consumer + producer + third-party)
 Is not maximised.
 
-<aside aria-label="Warning Sense. It means the _outcome_ is suboptimal — there exists a reallocation that" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Sense. It means the _outcome_ is suboptimal — there exists a reallocation that</p>
+<aside class="starlight-aside starlight-aside--caution">
 could make at least One person better off without making anyone worse off (Pareto improvement).
 </aside>
 ## 2. Types of Market Failure
 
-<aside aria-label="Info (production/consumption, positive/negative) with diagrammatic welfare loss triangles." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info (production/consumption, positive/negative) with diagrammatic welfare loss triangles.</p>
+<aside class="starlight-aside starlight-aside--note">
 **Edexcel** Emphasises the distinction between private and social costs/benefits using demand-supply
 diagrams. **CIE (9708)** covers market failure in the context of allocative efficiency and requires
 Consumer/producer surplus, deadweight loss, and cost-benefit analysis. **OCR (A)** links market
@@ -229,7 +229,7 @@ $$G = \frac{A}{A + B} = 2A = 1 - 2B$$
 
 ## 4. Government Intervention
 
-<aside aria-label="Board-Specific Note **AQA** requires comparison of taxes, subsidies, regulation, and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note **AQA** requires comparison of taxes, subsidies, regulation, and</p>
+<aside class="starlight-aside starlight-aside--note">
 Tradable permits with evaluation of each. **Edexcel** expects diagrammatic analysis showing the
 Effect of Pigouvian taxes and subsidies on equilibrium. **CIE (9708)** covers government
 Intervention alongside cost-benefit analysis and requires understanding of when intervention may
@@ -330,7 +330,7 @@ Market failure worsens the outcome.
 6. **Principal-agent problems**: government officials (agents) may not act in the public's
    (principal's) interest
 
-<aside aria-label="Tip Strong answer acknowledges that government intervention is not automatically superior to" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Strong answer acknowledges that government intervention is not automatically superior to</p>
+<aside class="starlight-aside starlight-aside--tip">
 the market — on the relative severity of market failure vs government failure in each specific case.
 </aside>
 ## 6. Critical Evaluation

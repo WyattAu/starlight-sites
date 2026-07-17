@@ -170,7 +170,7 @@ Model uses a single average sound velocity, while the real phonon spectrum is an
 
 </details>
 
-<aside aria-label="Common Pitfall The Debye and Einstein models describe the _lattice_ contribution to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Debye and Einstein models describe the _lattice_ contribution to</p>
+<aside class="starlight-aside starlight-aside--caution">
 specific heat. At low Temperatures, the electronic specific heat $C_e = \gamma T$ also contributes
 and can dominate over The lattice $T^3$ term in metals. The total low-$T$ specific heat of a metal
 is $C_V = \gamma T + \beta T^3$Where $\beta$ is related to $\Theta_D$. A plot of $C_V/T$ versus

@@ -194,7 +194,7 @@ public class Point {
 `long` stamp that must be used to unlock. This is a deliberate design choice — the lack of
 Reentrancy prevents certain deadlock patterns and allows the optimistic read mechanism.
 
-<aside aria-label="`StampedLock` does not implement the `Lock` or `ReadWriteLock` interface. It cannot be" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`StampedLock` does not implement the `Lock` or `ReadWriteLock` interface. It cannot be</p>
+<aside class="starlight-aside starlight-aside--caution">
 Used with `Condition` or in `synchronized`-style patterns. Convert to a `ReadWriteLock` view via
 `asReadLock()` / `asWriteLock()` if needed.
 </aside>
@@ -247,7 +247,7 @@ public class BoundedBuffer<T> {
 }
 ```
 
-<aside aria-label="Always use `while` (not `if`) with `await`. Spurious wakeups are possible — the thread may" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Always use `while` (not `if`) with `await`. Spurious wakeups are possible — the thread may</p>
+<aside class="starlight-aside starlight-aside--note">
 Wake without a `signal`. The loop re-checks the condition. This is mandated by the Javadoc for
 `Object.wait` and `Condition.await`.
 </aside>
@@ -437,7 +437,7 @@ String firstKey = wordCounts.search(4, (key, value) -&gt;
 long total = wordCounts.reduceValuesToLong(4, Long::longValue, 0, Long::sum);
 ```
 
-<aside aria-label="`ConcurrentHashMap` does not allow `null` keys or values. `HashMap` allows one `null` key" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`ConcurrentHashMap` does not allow `null` keys or values. `HashMap` allows one `null` key</p>
+<aside class="starlight-aside starlight-aside--note">
 And `null` values. This is a deliberate design decision — `null` is ambiguous in concurrent contexts
 (does `get(key)` returning `null` mean "key not found" or "value is null"?).
 </aside>
@@ -474,7 +474,7 @@ for (EventListener listener : listeners) {
 listeners.add(newListener);
 ```
 
-<aside aria-label="`CopyOnWriteArrayList` does NOT support `Iterator.remove()` or `ListIterator.set()`. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`CopyOnWriteArrayList` does NOT support `Iterator.remove()` or `ListIterator.set()`. The</p>
+<aside class="starlight-aside starlight-aside--caution">
 Iterator operates on a snapshot and does not reflect modifications made during iteration.
 </aside>
 ### Blocking Queues
@@ -665,7 +665,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse resp) {
 }
 ```
 
-<aside aria-label="In thread pools (web servers, `ExecutorService`), always call `ThreadLocal.remove()` in a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In thread pools (web servers, `ExecutorService`), always call `ThreadLocal.remove()` in a</p>
+<aside class="starlight-aside starlight-aside--caution">
 `finally` block. Threads are reused; stale values from a previous task will leak into the next task.
 </aside>
 ## Deadlock
@@ -859,7 +859,7 @@ pool.submit(() -&gt; {
 });
 ```
 
-<aside aria-label="Never submit a task to a pool that waits for the result of another task submitted to the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never submit a task to a pool that waits for the result of another task submitted to the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Same pool. If the pool is fully utilized, all threads will be blocked waiting, and no thread will be
 Available to execute the inner tasks. This is called thread pool deadlock or starvation.
 </aside>

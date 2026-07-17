@@ -188,7 +188,7 @@ int main() {
 }
 ```
 
-<aside aria-label="The standard library provides `std::default_sentinel` (used with `std::counted_iterator`)" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The standard library provides `std::default_sentinel` (used with `std::counted_iterator`)</p>
+<aside class="starlight-aside starlight-aside--note">
 And `std::unreachable_sentinel` (a sentinel that never compares equal to any iterator, used as a
 Hint to the optimizer that a loop will not reach it) [N4950 §25.5].
 </aside>

@@ -176,7 +176,7 @@ ps -eo pid,stat,comm
 # l  multi-threaded
 ```
 
-<aside aria-label="A process in the **D state** (uninterruptible sleep) cannot be killed with `SIGKILL`. This Means it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A process in the **D state** (uninterruptible sleep) cannot be killed with `SIGKILL`. This Means it</p>
+<aside class="starlight-aside starlight-aside--caution">
 is waiting for disk I/O that will never complete (e.g., NFS server down, failed disk). The Only way
 to clear it is to fix the underlying I/O or reboot.
 
@@ -473,7 +473,7 @@ chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 ```
 
 </aside>
-<aside aria-label="Real-time scheduling policies can starve the system. A `SCHED_FIFO` process that never blocks will" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Real-time scheduling policies can starve the system. A `SCHED_FIFO` process that never blocks will</p>
+<aside class="starlight-aside starlight-aside--caution">
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
 Only for well-understood, bounded workloads (audio processing, industrial control).
 
@@ -592,7 +592,7 @@ ulimit -u 4096     # increase max processes
 | Per-process | Yes                            | Yes                                     |
 
 </aside>
-<aside aria-label="`ulimit` settings in `/etc/security/limits.conf` apply to PAM sessions (login, `su``sudo`). They Do" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`ulimit` settings in `/etc/security/limits.conf` apply to PAM sessions (login, `su``sudo`). They Do</p>
+<aside class="starlight-aside starlight-aside--caution">
 NOT apply to services started by systemd. For systemd services, configure limits in the unit file Or
 systemd's override mechanism (`systemctl edit`).
 

@@ -20,7 +20,7 @@ categories:
 | OCR (A)    | Pure Core 2 | Groups, Maclaurin, polar area, vectors, conics         |
 | CIE (9709) | Paper 3     | Complex, vectors, further calculus, conics             |
 
-<aside aria-label="This is advanced content in most cases appearing in the second year of Further Mathematics." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This is advanced content in most cases appearing in the second year of Further Mathematics.</p>
+<aside class="starlight-aside starlight-aside--note">
 Ensure full mastery of Further Pure 1 before proceeding.
 
 <hr />

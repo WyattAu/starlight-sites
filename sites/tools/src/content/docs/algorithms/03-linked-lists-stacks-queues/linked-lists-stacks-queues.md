@@ -3,10 +3,10 @@ title: Linked Lists, Stacks, and Queues
 description: "A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;"
 ---
 
-:::note[Historical Context]
+<aside class="starlight-aside starlight-aside--note">
+<strong>Historical Context</strong>
 The linked list was first described by Hans Peter Luhn at IBM (1953). The concept appeared earlier in Konrad Zuse's Plankalkül (1948). Stacks and queues were formalised by Dijkstra in his 1960 ALGOL 60 paper. The AVL tree was invented by Adelson-Velsky and Landis (1962). These structures underpin every standard library. Understanding them at the implementation level separates systems programmers from application programmers.
-:::
-
+</aside>
 ## Singly Linked Lists
 
 A singly linked list is a sequence of nodes where each node contains a value and a reference to the
@@ -53,7 +53,7 @@ def delete_node(head, val):
     return head
 ```
 
-<aside aria-label="The critical advantage of linked lists over arrays is $O(1)$ insertion and deletion at any known" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The critical advantage of linked lists over arrays is $O(1)$ insertion and deletion at any known</p>
+<aside class="starlight-aside starlight-aside--note">
 Position (given a pointer to the preceding node). The critical disadvantage is $O(n)$ random access
 And poor cache locality. In practice, arrays dominate because cache effects matter more than
 Theoretical complexity for typical data sizes.
@@ -281,7 +281,7 @@ class SkipList:
 ```
 
 </aside>
-<aside aria-label="Skip lists are used in Redis (as the underlying data structure for sorted sets) and in the Linux" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Skip lists are used in Redis (as the underlying data structure for sorted sets) and in the Linux</p>
+<aside class="starlight-aside starlight-aside--note">
 Kernel (for process address space management). They are preferred over balanced BSTs in these
 Contexts because they are simpler to implement correctly in concurrent settings — insertion and
 Deletion only need to lock the nodes being modified, not the entire structure.
@@ -457,7 +457,7 @@ class CircularQueue:
 ```
 
 </aside>
-<aside aria-label="Circular buffers are used pervasively in systems programming: ring buffers for network packet" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Circular buffers are used pervasively in systems programming: ring buffers for network packet</p>
+<aside class="starlight-aside starlight-aside--note">
 Queues, audio playback buffers, log rotation, producer-consumer patterns, and pipe implementations.
 The key advantage is that enqueue and dequeue never require memory allocation or copying — they just
 Advance indices modulo the capacity.
@@ -650,7 +650,7 @@ def sliding_window_maximum(arr, k):
 ```
 
 </aside>
-<aside aria-label="The key insight is that elements smaller than the current element and to its left can never be the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The key insight is that elements smaller than the current element and to its left can never be the</p>
+<aside class="starlight-aside starlight-aside--note">
 Maximum of any future window that includes the current element. Removing them from the deque
 Maintains the invariant that the deque contains a decreasing sequence of values, and the maximum is
 Always at the front.

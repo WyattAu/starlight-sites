@@ -61,7 +61,7 @@ Strand and one newly synthesised strand. This was demonstrated by the Meselson-S
 Incorrectly paired nucleotides immediately after they are added, reducing the error rate to
 Approximately $10^{-9}$ per base per replication.
 
-<aside aria-label="Common Pitfall DNA polymerase can only add nucleotides to the $3'$ end of a growing" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall DNA polymerase can only add nucleotides to the $3'$ end of a growing</p>
+<aside class="starlight-aside starlight-aside--caution">
 Strand. It cannot initiate synthesis de novo -- it requires a pre-existing $3'-\mathrm{OH}$ group,
 Which is provided by the RNA primer. Students often forget to mention primase and primers when
 Describing replication.
@@ -280,7 +280,7 @@ Genotype $I^AI^B$ produces blood group AB, expressing both A and B antigens.
 -- $RR$ (red) $\times$ $WW$ (white) gives $RW$ (pink). The pink phenotype is not a blend of pigments
 But reduced production of red pigment.
 
-<aside aria-label="Common Pitfall Students often confuse co-dominance and incomplete dominance. In" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse co-dominance and incomplete dominance. In</p>
+<aside class="starlight-aside starlight-aside--caution">
 Co-dominance, both alleles produce their full product (both A and B antigens are present). In
 Incomplete dominance, the heterozygote produces less of the dominant product (an intermediate
 Phenotype). The genetic ratios for both are 1:2:1, but the phenotypic expression differs.
@@ -337,7 +337,7 @@ Can have long-term effects on gene expression without altering the DNA sequence.
 $\mathrm{B_{12}}$) increases DNA methylation at the agouti gene, silencing it and producing
 Offspring with brown coats and normal weight. A methyl-poor diet produces yellow, obese offspring.
 
-<aside aria-label="Common Pitfall Students often confuse epigenetic changes with genetic mutations." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse epigenetic changes with genetic mutations.</p>
+<aside class="starlight-aside starlight-aside--caution">
 Epigenetic changes are reversible modifications to gene expression that do not alter the DNA
 Sequence itself. Mutations are permanent changes to the nucleotide sequence. Epigenetic marks can be
 Passed to daughter cells during mitosis (and meiosis), but they can also be removed by Environmental
@@ -480,7 +480,7 @@ If the recombination frequency were 50%, the genes would assort independently (u
 maximum Observable recombination frequency is 50% (since greater distances lead to multiple
 cross-overs that Cancel out).
 
-<aside aria-label="Common Pitfall Students often assume that a 9:3:3:1 ratio always results from a dihybrid" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often assume that a 9:3:3:1 ratio always results from a dihybrid</p>
+<aside class="starlight-aside starlight-aside--caution">
 cross. If the genes are linked, the observed ratio will deviate from 9:3:3:1, with an excess of
 parental Phenotypes and a deficit of recombinant phenotypes. Always check whether the genes are on
 the same Chromosome before applying Mendel's second law.
@@ -1239,7 +1239,7 @@ reprogramming:
   from animal studies (e.g., Agouti mouse model, where maternal diet affects offspring coat colour
   and disease risk via methylation of the Agouti gene).
 
-<aside aria-label="Common Pitfall Students often confuse epigenetic changes with genetic mutations." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse epigenetic changes with genetic mutations.</p>
+<aside class="starlight-aside starlight-aside--caution">
 Epigenetic changes alter gene expression without changing the DNA sequence. They are potentially
 reversible (unlike mutations). However, epigenetic changes can be inherited through cell division
 (mitosis) and, in rare cases, across generations (transgenerational epigenetic inheritance). Genetic
@@ -1484,7 +1484,7 @@ This is well below the world population ($\approx 8$ billion), so the match is e
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Genetics and DNA**? The contains the hardest questions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Genetics and DNA**? The contains the hardest questions</p>
+<aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Genetics

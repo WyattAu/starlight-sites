@@ -179,7 +179,7 @@ $$\mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6$$
 
 $$\mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}$$
 
-<aside aria-label="Warning $\mathrm{CH}_3\mathrm{Cl}$$\mathrm{CH}_2\mathrm{Cl}_2$$\mathrm{CHCl}_3$And" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning $\mathrm{CH}_3\mathrm{Cl}$$\mathrm{CH}_2\mathrm{Cl}_2$$\mathrm{CHCl}_3$And</p>
+<aside class="starlight-aside starlight-aside--caution">
 $\mathrm{CCl}_4$ Because the substitution can continue on the same carbon atom. Controlling the
 ratio of methane to Chlorine influences the proportion of products.
 </aside>
@@ -236,7 +236,7 @@ Together) based on the atomic number of substituents:
 2. If the two highest-priority groups are on the **same** side: **Z**
 3. If the two highest-priority groups are on **opposite** sides: **E**
 
-<aside aria-label="E/Z isomerism is a type of **stereoisomerism**. Stereoisomers have the same structural" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>E/Z isomerism is a type of **stereoisomerism**. Stereoisomers have the same structural</p>
+<aside class="starlight-aside starlight-aside--note">
 Formula but different spatial arrangements of atoms. For E/Z isomerism to occur, each carbon of the
 C=C must have two different substituents.
 </aside>
@@ -472,7 +472,7 @@ $$\mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{CO}^+ \to \mathrm{C}_6\mathrm{
 
 Product: phenylethanone (acetophenone).
 
-<aside aria-label="Friedel-Crafts reactions cannot be used on benzene rings that already bear strongly" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Friedel-Crafts reactions cannot be used on benzene rings that already bear strongly</p>
+<aside class="starlight-aside starlight-aside--note">
 Electron-withdrawing groups (e.g., $-\mathrm{NO}_2$) because these deactivate the ring towards
 Electrophilic attack.
 </aside>
@@ -811,7 +811,7 @@ $$n\mathrm{CH}_2=\mathrm{CHX} \to \left[\mathrm{--CH}_2\mathrm{--CHX--}\right]_n
 | Polystyrene   | Phenylethene (styrene) | $--\mathrm{CH}_2\mathrm{--CH}(\mathrm{C}_6\mathrm{H}_5)--$ | Packaging, insulation      |
 | PTFE (Teflon) | Tetrafluoroethene      | $--\mathrm{CF}_2\mathrm{--CF}_2--$                         | Non-stick coatings         |
 
-<aside aria-label="When drawing addition polymers, always show the repeating unit in square brackets with n" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When drawing addition polymers, always show the repeating unit in square brackets with n</p>
+<aside class="starlight-aside starlight-aside--tip">
 Outside. Include enough of the structure to show the pattern ( at least two Repeating units).
 </aside>
 ### 4.2 Condensation Polymerisation
@@ -939,7 +939,7 @@ Reduction is the addition of hydrogen or removal of oxygen.
 - Ketone to secondary alcohol:
   $\mathrm{R}_2\mathrm{C=O} \xrightarrow{\mathrm{NaBH}_4} \mathrm{R}_2\mathrm{CHOH}$
 
-<aside aria-label="Info Reduce aldehydes and ketones but not carboxylic acids. $\mathrm{LiAlH}_4$ is more" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Reduce aldehydes and ketones but not carboxylic acids. $\mathrm{LiAlH}_4$ is more</p>
+<aside class="starlight-aside starlight-aside--note">
 reactive and can Reduce carboxylic acids, esters, and amides.
 </aside>
 ### 5.3 Hydrolysis of Esters

@@ -91,7 +91,7 @@ cleaner unification at $M_{\mathrm{GUT} \sim 2 \times 10^{16}}$ GeV.
 
 </details>
 
-<aside aria-label="Common Pitfall The Standard Model couplings do **not** meet at a single point when" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Standard Model couplings do **not** meet at a single point when</p>
+<aside class="starlight-aside starlight-aside--caution">
 extrapolated using SM beta Functions. The three lines form a rough triangle. It is only in
 supersymmetric extensions (MSSM) That the additional superpartner contributions to the beta
 functions bring the three couplings to Near-convergence. This convergence is often cited as indirect

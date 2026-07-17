@@ -61,7 +61,7 @@ $$\mathrm{Magnification} = \frac◆LB◆\mathrm{Image\ size}◆RB◆◆LB◆\mat
 Out-of-focus light, producing sharp optical sections through thick specimens. This allows 3D
 Reconstruction without the need for physical sectioning.
 
-<aside aria-label="Common Pitfall Students often confuse magnification with resolution. Magnification is how" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse magnification with resolution. Magnification is how</p>
+<aside class="starlight-aside starlight-aside--caution">
 Much larger the image appears; resolution is the ability to distinguish two closely spaced objects
 As separate. Increasing magnification without increasing resolution produces a larger but blurry
 Image -- no additional detail is revealed.
@@ -196,7 +196,7 @@ Enzymes (lipases, proteases, nucleases) optimised for pH $\approx 5$. They funct
 - **Autophagy**: breaking down worn-out organelles.
 - **Apoptosis**: programmed cell death.
 
-<aside aria-label="Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Plant cells do have lysosomes, though they are sometimes called vacuoles</p>
+<aside class="starlight-aside starlight-aside--caution">
 With hydrolytic activity. However, plant cells also have a large permanent vacuole, which is a
 Distinct structure with different functions (turgor, storage, waste isolation).
 </aside>
@@ -334,7 +334,7 @@ Reproduction.
 4. **Telophase**: chromosomes decondense; the nuclear envelope reforms; the nucleolus reappears.
    Cytokinesis (division of the cytoplasm) follows.
 
-<aside aria-label="Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Replication occurs during the S phase of interphase, _before_ mitosis begins. By</p>
+<aside class="starlight-aside starlight-aside--caution">
 the time mitosis Starts, each chromosome already consists of two identical sister chromatids.
 </aside>
 ### 6.2 The Cell Cycle
@@ -413,7 +413,7 @@ Measurement is of a sub-component. If the full ribosome is being measured, the s
 recheck The image measurement. This highlights the importance of sanity-checking answers against
 known biological Dimensions.
 
-<aside aria-label="Common Pitfall Students frequently forget to convert units before applying the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students frequently forget to convert units before applying the</p>
+<aside class="starlight-aside starlight-aside--caution">
 magnification formula. Always convert both image size and actual size to the same unit. A common
 error is to leave the answer In mm when the question asks for $\mu\mathrm{m}$. Write down the
 conversion explicitly to avoid losing Marks.
@@ -458,7 +458,7 @@ Their contents to the extracellular space. This requires:
 Exocytosis is essential for secretion of hormones, neurotransmitters, digestive enzymes, and mucus,
 as Well as for insertion of new membrane proteins and lipids into the plasma membrane.
 
-<aside aria-label="Common Pitfall Students often state that endocytosis and exocytosis are forms of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often state that endocytosis and exocytosis are forms of</p>
+<aside class="starlight-aside starlight-aside--caution">
 diffusion. They are Not. Both are active processes requiring ATP. They involve bulk transport of
 large quantities of Material in membrane-bound vesicles, which is fundamentally different from the
 passive movement of Individual molecules through the bilayer.
@@ -650,7 +650,7 @@ to Repopulate the blood cell lineages after chemotherapy. Induced pluripotent st
 adult Cells reprogrammed to a pluripotent state by introducing transcription factors (Oct4, Sox2,
 Klf4, c-Myc), Offering an ethically uncontroversial alternative to embryonic stem cells.
 
-<aside aria-label="Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often conflate pluripotent and totipotent stem cells. Totipotent</p>
+<aside class="starlight-aside starlight-aside--caution">
 cells can Form a complete organism including placenta and umbilical cord; pluripotent cells can form
 all body cell Types but not extra-embryonic tissues. Only the zygote and very early embryonic cells
 are totipotent.
@@ -1100,7 +1100,7 @@ into DNA):
 
 ---
 
-<aside aria-label="Diagnostic Test" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test</p>
+<aside class="starlight-aside starlight-aside--tip">
 ## 17. Cell Membrane Transport: Advanced Topics
 
 ### 17.1 Facilitated Diffusion vs Active Transport
@@ -1443,7 +1443,7 @@ direct left-right asymmetry during development).
 ---
 
 </aside>
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Cells**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Cells**? The contains the hardest questions within</p>
+<aside class="starlight-aside starlight-aside--tip">
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Cells with

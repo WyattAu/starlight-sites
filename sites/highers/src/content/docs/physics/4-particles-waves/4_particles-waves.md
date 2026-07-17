@@ -12,7 +12,7 @@ categories:
 
 # Particles and Waves
 
-<aside aria-label="This chapter covers **Advanced Higher** Physics content, extending beyond Higher level." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This chapter covers **Advanced Higher** Physics content, extending beyond Higher level.</p>
+<aside class="starlight-aside starlight-aside--note">
 </aside>
 ## Quantum Physics
 
@@ -529,7 +529,7 @@ $$\lambda = \frac{h}{mv} = \frac{6.626 \times 10^{-34}}{9.109 \times 10^{-31} \t
 
 $$\lambda = \frac{6.626 \times 10^{-34}}{7.639 \times 10^{-24}} = 8.67 \times 10^{-11} \mathrm{ m = 0.0867 \mathrm{ nm$$
 
-<aside aria-label="For electrons accelerated through potential $V$The de Broglie wavelength can be calculated" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For electrons accelerated through potential $V$The de Broglie wavelength can be calculated</p>
+<aside class="starlight-aside starlight-aside--note">
 Directly:
 
 $$\lambda = \frac{h}{\sqrt{2m_e eV}} = \frac{1.226}{\sqrt{V}} \mathrm{ nm$$
@@ -589,7 +589,7 @@ $$f_5 = 5f_1 = 5 \times 100 = 500 \mathrm{ Hz$$
 For an open pipe: $f_1 = \frac{v}{2L} = \frac{340}{1.7} = 200 \mathrm{ Hz$And _all_ harmonics are
 Present ($f_n = nf_1$).
 
-<aside aria-label="A closed pipe produces only odd harmonics (1st, 3rd, 5th, ...), giving a richer, more" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A closed pipe produces only odd harmonics (1st, 3rd, 5th, ...), giving a richer, more</p>
+<aside class="starlight-aside starlight-aside--note">
 "hollow" sound than an open pipe which produces all harmonics (1st, 2nd, 3rd, ...). This is why
 Clarinets (effectively closed pipes) sound different from flutes (open pipes).
 </aside>
@@ -662,7 +662,7 @@ $$= \frac{1.988 \times 10^{-25}}{1.637 \times 10^{-13}} = 1.214 \times 10^{-12} 
 
 This is in the gamma ray region of the electromagnetic spectrum.
 
-<aside aria-label="Pair production cannot occur in a vacuum -- it must happen near a nucleus to conserve" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Pair production cannot occur in a vacuum -- it must happen near a nucleus to conserve</p>
+<aside class="starlight-aside starlight-aside--note">
 Momentum. The recoil of the nucleus absorbs the excess momentum. This is why pair production is more
 Likely in high-atomic-number materials (lead, tungsten), which are used in radiation shielding.
 </aside>

@@ -56,8 +56,8 @@ Organic compounds are named systematically using IUPAC rules:
 | Amine            | -amine    | Ethanamine       |
 | Amide            | -amide    | Ethanamide       |
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Name: 2-methylbut-2-ene.
 
 - Parent chain: 4 carbons (butene).
@@ -73,9 +73,9 @@ Name: 2-methylbut-2-ene.
 
 **Functional group isomers**: same molecular formula, different functional groups.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 C$_4$H$_8$O has multiple isomers: butan-1-ol, butan-2-ol, 2-methylpropan-1-ol, butanal, butanone,
 Methyl propanoate, ethyl ethanoate, etc.
 
@@ -593,9 +593,9 @@ $$
 | $E2$      | One step, strong base, Zaitsev product       |
 | $E1$      | Two steps, carbocation, weak base            |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 For naming questions, always identify the longest chain first. For mechanism questions, draw clear
 Curly arrow mechanisms showing electron movement. For comparison questions ($S_N1$ vs $S_N2$), use a
 Table for clarity. For polymer questions, be able to identify the monomer from the polymer and vice
@@ -998,4 +998,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

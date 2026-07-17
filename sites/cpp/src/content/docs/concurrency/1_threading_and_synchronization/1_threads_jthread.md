@@ -78,7 +78,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Tip Point. For I/O-bound work, you may benefit from more threads since they spend time" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Point. For I/O-bound work, you may benefit from more threads since they spend time</p>
+<aside class="starlight-aside starlight-aside--tip">
 waiting rather Than computing.
 </aside>
 ## Joining and Detaching
@@ -94,7 +94,7 @@ A `std::thread` object is in one of two states relative to an OS thread [N4950 �
 | `detach()`            | Separates the thread from the `std::thread` object; the thread runs independently | Not joinable       |
 | Destructor (joinable) | Calls `std::terminate()`                                                          | Program terminates |
 
-<aside aria-label="Warning `std::system_error`. Destroying a joinable `std::thread` calls `std::terminate()`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning `std::system_error`. Destroying a joinable `std::thread` calls `std::terminate()`</p>
+<aside class="starlight-aside starlight-aside--caution">
 [N4950 §31.4.4.1.3]. Always ensure a thread is either joined or detached before destruction.
 </aside>
 ## RAII-Based Thread Guard
@@ -182,7 +182,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Info Of the callable if the callable accepts a `std::stop_token` as its first parameter" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Of the callable if the callable accepts a `std::stop_token` as its first parameter</p>
+<aside class="starlight-aside starlight-aside--note">
 [N4950 §31.4.4.4.2].
 </aside>
 ## Thread-Safe Worker Pool with `jthread` + `stop_token`
@@ -325,7 +325,7 @@ void native_handle_demo() {
 }
 ```
 
-<aside aria-label="Warning The implementation does not support native handles. Always check the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning The implementation does not support native handles. Always check the</p>
+<aside class="starlight-aside starlight-aside--caution">
 documentation for your standard Library implementation. Code using `native_handle()` is inherently
 non-portable.
 </aside>
@@ -365,7 +365,7 @@ void race_condition_demo() {
 }
 ```
 
-<aside aria-label="Warning Executing. This means even if the original variable is destroyed before the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Executing. This means even if the original variable is destroyed before the</p>
+<aside class="starlight-aside starlight-aside--caution">
 thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`You
 bypass this protection And must ensure the referenced object outlives the thread.
 </aside>
@@ -410,7 +410,7 @@ void promise_future_demo() {
 }
 ```
 
-<aside aria-label="Info `std::shared_ptr` to captured data) keeps the necessary state alive until the thread" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info `std::shared_ptr` to captured data) keeps the necessary state alive until the thread</p>
+<aside class="starlight-aside starlight-aside--note">
 completes. However, detached threads are hard to reason about — you cannot join them, and they may
 outlive `main()`Causing undefined behavior. Prefer joining whenever possible.
 </aside>
@@ -447,7 +447,7 @@ void stop_callback_demo() {
 }
 ```
 
-<aside aria-label="Warning Is destroyed before the stop is requested, the callback will never fire. Ensure" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Is destroyed before the stop is requested, the callback will never fire. Ensure</p>
+<aside class="starlight-aside starlight-aside--caution">
 the `stop_callback` Object outlives the expected stop request. The callback itself is invoked
 synchronously from the Thread that calls `request_stop()`Not from the worker thread.
 </aside>
@@ -483,7 +483,7 @@ void stack_size_info() {
 }
 ```
 
-<aside aria-label="Warning `SIGSEGV` on POSIX or an access violation on Windows. This is especially common" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning `SIGSEGV` on POSIX or an access violation on Windows. This is especially common</p>
+<aside class="starlight-aside starlight-aside--caution">
 with deep recursion Or large local variables in thread functions. Use heap allocation for large
 buffers, not stack Allocation.
 </aside>

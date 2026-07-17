@@ -190,7 +190,7 @@ t2 = time.time()
 print(f"First: {t1-t0:.3f}s, Second: {t2-t1:.3f}s")
 ```
 
-<aside aria-label="`cached_property` is a non-data descriptor. This means instance attributes override it:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`cached_property` is a non-data descriptor. This means instance attributes override it:</p>
+<aside class="starlight-aside starlight-aside--caution">
 ```python
 e = ExpensiveComputation(range(100))
 e.result  # Computes and caches
@@ -282,7 +282,7 @@ class StaticMethod:
         return self.func
 ```
 
-<aside aria-label="Use `@staticmethod` when a method does not need access to `self` or `cls`. Use `@classmethod`" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use `@staticmethod` when a method does not need access to `self` or `cls`. Use `@classmethod`</p>
+<aside class="starlight-aside starlight-aside--tip">
 When you need the class (e.g., for alternative constructors). Use a regular method when you need the
 Instance.
 </aside>
@@ -366,7 +366,7 @@ f.x = 1
 f.dynamic = "allowed"  # Stored in __dict__
 ```
 
-<aside aria-label="`__slots__` prevents `__dict__` by default, which means `pickle` with protocol 0 may not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`__slots__` prevents `__dict__` by default, which means `pickle` with protocol 0 may not</p>
+<aside class="starlight-aside starlight-aside--caution">
 Work correctly. Always test serialization with your chosen protocol when using `__slots__`.
 </aside>
 ## \_\_getattr\_\_ and \_\_getattribute\_\_
@@ -416,7 +416,7 @@ print(s.x)        # Works
 # print(s.z)      # AttributeError: Access to 'z' is not allowed
 ```
 
-<aside aria-label="When implementing `__getattribute__`You **must** use `object.__getattribute__(self, name)`" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>When implementing `__getattribute__`You **must** use `object.__getattribute__(self, name)`</p>
+<aside class="starlight-aside starlight-aside--danger">
 for any attribute access within the method. Using `self.name` Will cause infinite recursion because
 it triggers `__getattribute__` again.
 </aside>
@@ -461,7 +461,7 @@ pa.version = "1.0"
 # del pa.version  # AttributeError: Cannot delete protected attribute 'version'
 ```
 
-<aside aria-label="Same recursion rule applies: always use `object.__setattr__(self, name, value)` and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Same recursion rule applies: always use `object.__setattr__(self, name, value)` and</p>
+<aside class="starlight-aside starlight-aside--caution">
 `object.__delattr__(self, name)` within these methods.
 </aside>
 ## \_\_dir\_\_
@@ -522,7 +522,7 @@ print(v1 > v2)   # False (generated)
 print(v1 >= v2)  # False (generated)
 ```
 
-<aside aria-label="`@total_ordering` adds overhead because each generated method calls the others. For" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`@total_ordering` adds overhead because each generated method calls the others. For</p>
+<aside class="starlight-aside starlight-aside--caution">
 Performance-critical code, implement all six comparison methods explicitly.
 </aside>
 ### functools.singledispatchmethod

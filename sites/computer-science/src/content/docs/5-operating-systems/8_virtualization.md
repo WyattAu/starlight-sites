@@ -107,7 +107,7 @@ hardware support, the shadow page table overhead is eliminated. $\blacksquare$
 - **Desktop virtualisation:** VirtualBox and VMware Workstation enable running multiple OSes on a
   single desktop for software development, testing compatibility across platforms.
 
-<aside aria-label="Common Pitfall Containers do **not** provide hardware-level isolation. A kernel" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Containers do **not** provide hardware-level isolation. A kernel</p>
+<aside class="starlight-aside starlight-aside--caution">
 vulnerability can potentially Compromise all containers on a host. For strong multi-tenant
 isolation, VMs are preferred.
 

@@ -51,7 +51,7 @@ Its own bus.
 | Self-modifying code | Possible (in theory)      | Not possible                          |
 | Modern usage        | General-purpose computers | DSPs, microcontrollers, cache systems |
 
-<aside aria-label="Board-specific Modern CPUs use a **modified Harvard architecture** at the cache level: L1" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific Modern CPUs use a **modified Harvard architecture** at the cache level: L1</p>
+<aside class="starlight-aside starlight-aside--note">
 Cache is split into instruction cache and data cache (Harvard), while main memory is unified (Von
 Neumann).
 </aside>
@@ -91,7 +91,7 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 | **CIR**  | Current Instruction Register | Holds the instruction currently being decoded      |
 | **IR**   | Instruction Register         | Synonym for CIR (board-dependent naming)           |
 
-<aside aria-label="Board-specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific</p>
+<aside class="starlight-aside starlight-aside--note">
 - **AQA** uses: PC, MAR, MDR, ACC, CIR
 - **CIE** uses: PC, MAR, MDR, ACC, IR, B (B register as temporary)
 - **OCR** uses: PC, MAR, MDR, ACC, CIR, and may reference index registers
@@ -374,7 +374,7 @@ Cycles. Emphasis on hardware complexity.
 | Code density       | Lower (more instructions) | Higher (fewer instructions)   |
 | Power consumption  | Lower                     | Higher                        |
 
-<aside aria-label="Info (used in smartphones, Raspberry Pi) is RISC. Intel/AMD processors are CISC (but use" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info (used in smartphones, Raspberry Pi) is RISC. Intel/AMD processors are CISC (but use</p>
+<aside class="starlight-aside starlight-aside--note">
 RISC-like Internal micro-operations).
 </aside>
 <hr />

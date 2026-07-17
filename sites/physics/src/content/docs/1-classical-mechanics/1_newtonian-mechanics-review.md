@@ -6,10 +6,10 @@ tags:
 description: "1. A body remains at rest or in uniform motion unless acted upon by a net force. 2. where . 3. For every action, there is an equal and opposite reaction."
 ---
 
-:::note[Historical Context]
+<aside class="starlight-aside starlight-aside--note">
+<strong>Historical Context</strong>
 Newton's three laws, published in the *Principia Mathematica* (1687), unified terrestrial and celestial mechanics for the first time. Before Newton, the motion of planets was described by Kepler's empirical laws, and falling objects by Galileo's experiments, but there was no single framework connecting them. Newton's second law ($\mathbf{F} = m\mathbf{a}$) provided that framework. Leibniz developed the calculus independently, providing the mathematical tools Newton needed for the derivations. Euler later reformulated mechanics in terms of energy and the Lagrangian, which became the foundation for modern theoretical physics. The Coriolis and centrifugal terms in non-inertial frames were worked out by Gaspard-Gustave de Coriolis (1835) and are essential for understanding rotating reference frames in engineering and meteorology.
-:::
-
+</aside>
 ### 1.1 Newton"s Laws
 
 1. **First Law (Inertia):** A body remains at rest or in uniform motion unless acted upon by a net
@@ -207,7 +207,7 @@ general And elegant framework based on energy principles.
 The key insight: instead of tracking forces, track the **energy** of the system. The trajectory is
 the One that **minimises** (or more precisely, makes stationary) the **action**.
 
-<aside aria-label="Common Pitfall Newton's laws in curvilinear coordinates introduce fictitious forces" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Newton's laws in curvilinear coordinates introduce fictitious forces</p>
+<aside class="starlight-aside starlight-aside--caution">
 (centrifugal, Coriolis) that Are artifacts of the coordinate choice. The Lagrangian formulation
 automatically accounts for these Through the coordinate transformation of the kinetic energy,
 without any ad-hoc force terms.

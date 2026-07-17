@@ -442,7 +442,7 @@ Both inclusions $\mathrm{P} \subseteq \mathrm{NP}$ and $\mathrm{NP} \subseteq \m
 Known to be proper ($\mathrm{P} \neq \mathrm{PSPACE}$), but the status of $\mathrm{P}$ vs.
 $\mathrm{NP}$ remains open.
 
-<aside aria-label="Common Pitfall NP-completeness refers to **decision** problems. The optimisation versions" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall NP-completeness refers to **decision** problems. The optimisation versions</p>
+<aside class="starlight-aside starlight-aside--caution">
 (e.g., "find the shortest Tour") are NP-hard, not necessarily NP-complete. Also, "NP" stands for
 "Nondeterministic Polynomial Time," not "Not Polynomial time." Every problem in NP is verifiable in
 polynomial time; whether all Such problems are solvable in polynomial time is the P vs. NP question.

@@ -90,7 +90,7 @@ Classful addressing was wasteful. A company needing 300 hosts would receive a Cl
 Hosts), wasting 65,234 addresses. A company needing 5 hosts would receive a Class C (254 hosts),
 Wasting 249 addresses. This inefficiency drove the adoption of CIDR in 1993 (RFC 1519).
 
-<aside aria-label="Classful addressing is obsolete. Modern networks use CIDR notation exclusively. However, classful" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Classful addressing is obsolete. Modern networks use CIDR notation exclusively. However, classful</p>
+<aside class="starlight-aside starlight-aside--note">
 Boundaries are still referenced in documentation and some legacy systems, so understanding them is
 Necessary.
 
@@ -191,7 +191,7 @@ Allocation:
 ```
 
 </aside>
-<aside aria-label="Always allocate from the largest subnet first. Allocating small subnets first can fragment the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always allocate from the largest subnet first. Allocating small subnets first can fragment the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Address space and make it impossible to fit larger subnets later. This is the same principle as
 Memory allocation -- first-fit with largest-first ordering.
 
@@ -269,7 +269,7 @@ The summarized route covers all four /24 networks. Traffic destined for any addr
 192.168.0.0/22 (192.168.0.0 - 192.168.3.255) matches this single route entry.
 
 </aside>
-<aside aria-label="Supernetting only works when the networks are contiguous and aligned on the summary boundary." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Supernetting only works when the networks are contiguous and aligned on the summary boundary.</p>
+<aside class="starlight-aside starlight-aside--caution">
 192.168.0.0/24 and 192.168.1.0/24 can be summarized as 192.168.0.0/23, but 192.168.1.0/24 and
 192.168.2.0/24 cannot be cleanly summarized (they would require 192.168.0.0/22, which also includes
 192.168.0.0/24 and 192.168.3.0/24).

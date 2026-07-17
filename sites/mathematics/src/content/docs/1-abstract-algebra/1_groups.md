@@ -158,7 +158,7 @@ The only proper non-trivial normal subgroup is $A_3$ (it has index $2$).
 By Theorem 2.4, every subgroup of $\mathbb{Z}/12\mathbb{Z}$ is cyclic, and there is exactly one
 subgroup Of order $d$ for each divisor $d$ of $12$.
 
-<aside aria-label="Common Pitfall Not every group of order $n$ has a subgroup of order $d$ for each divisor" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not every group of order $n$ has a subgroup of order $d$ for each divisor</p>
+<aside class="starlight-aside starlight-aside--caution">
 $d$ of $n$. The converse of Lagrange's theorem is false. For example, $A_4$ has order $12$ but no
 subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ has order dividing
 $n$And for each divisor There is exactly one such subgroup.

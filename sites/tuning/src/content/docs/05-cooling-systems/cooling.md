@@ -84,7 +84,7 @@ Coverage but risks air bubbles. Better for large IHS surfaces (Threadripper, EPY
 **Cross/X method:** Two thin lines forming a cross. Provides good coverage for rectangular IHS
 Surfaces. Works well for Intel CPUs with their rectangular IHS.
 
-<aside aria-label="Liquid metal (galinstan) is electrically conductive and will short-circuit components if" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Liquid metal (galinstan) is electrically conductive and will short-circuit components if</p>
+<aside class="starlight-aside starlight-aside--danger">
 It spills onto the motherboard contacts or pins. It also reacts with aluminum, causing corrosion.
 Only use liquid metal on nickel-plated or copper surfaces. Apply a conformal coating (nail polish)
 Around the IHS to contain spills.
@@ -217,7 +217,7 @@ AIO coolers have finite lifespans. Common failure modes:
    Tilt the case to move bubbles to the radiator.
 4. **Fan failure:** Individual fans can fail. Replaceable in most AIOs.
 
-<aside aria-label="Always monitor pump RPM. Set an alarm in your monitoring software if pump RPM drops below" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always monitor pump RPM. Set an alarm in your monitoring software if pump RPM drops below</p>
+<aside class="starlight-aside starlight-aside--caution">
 A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes under Load.
 </aside>
 ---

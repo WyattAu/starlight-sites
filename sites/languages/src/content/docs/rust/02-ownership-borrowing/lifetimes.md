@@ -102,7 +102,7 @@ let s: &'static str = "hello";
 let s: &str = "hello";  // &'static is inferred for literals
 ```
 
-<aside aria-label="Do not annotate function parameters with `'static` unless the function truly requires a `'static`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not annotate function parameters with `'static` unless the function truly requires a `'static`</p>
+<aside class="starlight-aside starlight-aside--caution">
 Reference. Adding `'static` constraints reduces the function's flexibility — callers can no longer
 Pass locally-owned string slices. The compiler may suggest `'static` when it cannot infer a shorter
 Lifetime, but this is often a sign that the function signature needs redesign.

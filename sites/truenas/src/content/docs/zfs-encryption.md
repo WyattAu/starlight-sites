@@ -175,7 +175,7 @@ Combine encryption and authentication in a single operation. This means every en
 Integrity check built in -- tampering with ciphertext is detected during decryption. This is in
 Addition to ZFS's own checksum verification.
 
-<aside aria-label="`aes-256-gcm` is the default when `encryption=on` is specified. It provides the best" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`aes-256-gcm` is the default when `encryption=on` is specified. It provides the best</p>
+<aside class="starlight-aside starlight-aside--note">
 Performance on modern CPUs with AES-NI support and is the recommended choice for all workloads.
 `chacha20-poly1305` is the fallback for CPUs without AES-NI (e.g., some ARM SoCs).
 </aside>
@@ -192,7 +192,7 @@ Brute-force attacks on weak passphrases more expensive.
 | 500000     | ~200 ms                       | Good for sensitive data    |
 | 1000000    | ~400 ms                       | High-security environments |
 
-<aside aria-label="Higher `pbkdf2iters` values increase the time to load the encryption key at boot. If you" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Higher `pbkdf2iters` values increase the time to load the encryption key at boot. If you</p>
+<aside class="starlight-aside starlight-aside--caution">
 Set `pbkdf2iters=1000000`Every boot (or key load) will take an additional ~400 ms per dataset. This
 property only applies to `keyformat=passphrase`. It has no effect on `hex` or `raw` key Formats,
 which use the raw key material directly.
@@ -238,7 +238,7 @@ Passphrase strengths:
 | Very strong | 7 random words (Diceware)    | ~90 bits          | Good      |
 | Excellent   | 16+ random ASCII characters  | ~105+ bits        | Excellent |
 
-<aside aria-label="Use a Diceware passphrase (6-8 random words from a word list) or a randomly generated string" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Use a Diceware passphrase (6-8 random words from a word list) or a randomly generated string</p>
+<aside class="starlight-aside starlight-aside--note">
 Of 20+ characters. Store the passphrase in a password manager and write it down on paper stored in a
 Physically secure location (safe deposit box, fireproof safe).
 </aside>
@@ -365,7 +365,7 @@ zfs change-key -o pbkdf2iters=500000 tank/secret
 zfs change-key -o encryption=chacha20-poly1305 tank/secret
 ```
 
-<aside aria-label="Changing the encryption algorithm with `zfs change-key` triggers a full re-encryption of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Changing the encryption algorithm with `zfs change-key` triggers a full re-encryption of</p>
+<aside class="starlight-aside starlight-aside--caution">
 All data in the dataset. This is a long-running operation that consumes significant I/O bandwidth
 And CPU. Plan this for off-peak hours. Changing the passphrase or key format does not require
 Re-encryption.
@@ -385,7 +385,7 @@ zfs create -o encryption=on -o keyformat=raw \
 # Ensure the key file exists and is readable at boot time
 ```
 
-<aside aria-label="Storing the key file on the same pool that it decrypts defeats the purpose of encryption." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Storing the key file on the same pool that it decrypts defeats the purpose of encryption.</p>
+<aside class="starlight-aside starlight-aside--caution">
 If the pool is stolen, the key file is stolen with it. Store key files on a separate, secure
 Location -- a USB drive, a separate small pool, or a remote key server.
 </aside>
@@ -537,7 +537,7 @@ zpool import -l tank
 # For keyformat=raw or hex with keylocation=file://, it will attempt to read the key files
 ```
 
-<aside aria-label="On TrueNAS SCALE, the `-l` flag is used by default when importing pools at boot. If your" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>On TrueNAS SCALE, the `-l` flag is used by default when importing pools at boot. If your</p>
+<aside class="starlight-aside starlight-aside--note">
 Encrypted datasets use passphrase keys, TrueNAS will prompt you for the passphrase during boot. If
 They use key files, TrueNAS will attempt to load them from the specified file locations
 Automatically.
@@ -735,7 +735,7 @@ zfs snapshot tank/encrypted/docs@daily-2026-04-07
 zfs get encryption,encryptionroot tank/encrypted/docs@daily-2026-04-07
 ```
 
-<aside aria-label="Snapshots do not require separate key management. They use the same encryption key as their" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Snapshots do not require separate key management. They use the same encryption key as their</p>
+<aside class="starlight-aside starlight-aside--note">
 Parent dataset. If you load the key for the parent, all snapshots become accessible. If you unload
 The key, all snapshots become inaccessible.
 </aside>
@@ -778,7 +778,7 @@ zpool scrub tank
 # If a checksum mismatch is found, ZFS repairs from redundancy (mirror/parity)
 ```
 
-<aside aria-label="ZFS can scrub encrypted datasets even when the encryption key is not loaded. The checksum" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>ZFS can scrub encrypted datasets even when the encryption key is not loaded. The checksum</p>
+<aside class="starlight-aside starlight-aside--note">
 Covers the encrypted data, so integrity verification does not require decryption. This is a
 Significant advantage -- you can schedule scrubs on encrypted datasets without worrying about key
 Availability.
@@ -955,7 +955,7 @@ Lose the keys, the backups are worthless.
 4. **Key escrow:** A trusted person (attorney, family member) has access to a sealed envelope with
    the passphrase.
 
-<aside aria-label="Never store encryption keys in the same location as the encrypted data. If a fire" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never store encryption keys in the same location as the encrypted data. If a fire</p>
+<aside class="starlight-aside starlight-aside--caution">
 Destroys both the NAS and the paper with the passphrase, the data is lost. Distribute keys across
 Multiple physical locations.
 </aside>
@@ -1094,7 +1094,7 @@ zfs unload-key tank/secret
 zfs destroy -r tank/secret
 ```
 
-<aside aria-label="Key rotation is a manual, time-consuming process that requires enough free space to hold" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Key rotation is a manual, time-consuming process that requires enough free space to hold</p>
+<aside class="starlight-aside starlight-aside--caution">
 A copy of the data. Plan key rotation during maintenance windows and verify data integrity before
 Destroying the old dataset.
 </aside>
@@ -1251,7 +1251,7 @@ zfs create tank/secret/public-data
 # (This is NOT supported by ZFS -- you cannot have unencrypted children inside an encrypted parent)
 ```
 
-<aside aria-label="You cannot create an unencrypted child dataset inside an encrypted parent. All children" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>You cannot create an unencrypted child dataset inside an encrypted parent. All children</p>
+<aside class="starlight-aside starlight-aside--caution">
 Of an encrypted dataset are encrypted, period. If you need a mix of encrypted and unencrypted
 Datasets, create them as siblings (not parent-child) within an unencrypted pool.
 </aside>

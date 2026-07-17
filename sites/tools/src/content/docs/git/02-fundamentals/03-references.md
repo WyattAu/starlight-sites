@@ -120,7 +120,7 @@ In the graph above, after checking out commit `C` (detached HEAD), commits `E` a
 $ git branch recover-feature  # Creates a branch pointing to F
 ```
 
-<aside aria-label="Detached HEAD is not an error state. It is useful for:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Detached HEAD is not an error state. It is useful for:</p>
+<aside class="starlight-aside starlight-aside--caution">
 - Examining historical commits without creating a branch
 - Building a release from a specific tag
 - Running `git bisect` (which checks out arbitrary commits)
@@ -226,7 +226,7 @@ $ git push origin +main:main
 ```
 
 </aside>
-<aside aria-label="Force pushing (`git push --force`) rewrites the remote branch's history. If other developers have" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Force pushing (`git push --force`) rewrites the remote branch's history. If other developers have</p>
+<aside class="starlight-aside starlight-aside--caution">
 Based work on the old commits, they will encounter conflicts. Only force push to branches that you
 Exclusively own (feature branches, personal forks). Never force push `main` in a shared repository.
 

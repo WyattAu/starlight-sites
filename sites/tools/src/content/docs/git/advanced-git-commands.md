@@ -99,7 +99,7 @@ git replace --graft <commit>
 git replace --graft <commit> <parent1> <parent2>
 ```
 
-<aside aria-label="Grafts created with `git replace --graft` are stored as replacement commit objects under" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Grafts created with `git replace --graft` are stored as replacement commit objects under</p>
+<aside class="starlight-aside starlight-aside--note">
 `refs/replace/`. They differ from the older `~/.git/info/grafts` mechanism, which was not ref-based
 And could not be pushed or shared.
 
@@ -173,7 +173,7 @@ git filter-repo --replace-refs delete-no-add
 ```
 
 </aside>
-<aside aria-label="Once you push `refs/replace/` to a shared repository, all collaborators will see the replaced" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Once you push `refs/replace/` to a shared repository, all collaborators will see the replaced</p>
+<aside class="starlight-aside starlight-aside--caution">
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
 Your team before pushing replacement refs.
 
@@ -412,7 +412,7 @@ to O(n log n) by using a balanced BST. Benchmarked on 10M records:
 ```
 
 </aside>
-<aside aria-label="Notes are mutable and not cryptographically tied to the commit they annotate. Anyone with push" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Notes are mutable and not cryptographically tied to the commit they annotate. Anyone with push</p>
+<aside class="starlight-aside starlight-aside--caution">
 Access to `refs/notes/commits` can modify notes. Do not rely on notes for security-critical
 Metadata.
 
@@ -577,7 +577,7 @@ v2.3.1-5-ga3f2b1c
 ```
 
 </aside>
-<aside aria-label="`git describe` only considers **annotated** tags by default. Lightweight tags (created with" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`git describe` only considers **annotated** tags by default. Lightweight tags (created with</p>
+<aside class="starlight-aside starlight-aside--note">
 `git tag <name>` without `-a` or `-s`) are ignored unless you pass `--tags`. This is a deliberate
 Design choice: annotated tags carry metadata (tagger, date, message) that makes them suitable for
 Release identification.
@@ -697,7 +697,7 @@ The `text` attribute controls CRLF/LF conversion:
 ```
 
 </aside>
-<aside aria-label="The `text=auto` setting enables line ending normalization only if Git detects that the file is text" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The `text=auto` setting enables line ending normalization only if Git detects that the file is text</p>
+<aside class="starlight-aside starlight-aside--note">
 (not binary). Using `* text=auto eol=lf` in the root `.gitattributes` is the recommended practice
 For cross-platform projects. It normalizes committed files to LF while letting Windows developers
 Check out with CRLF if their `core.autocrlf` is set.
@@ -870,7 +870,7 @@ image.png: binary: set
 ```
 
 </aside>
-<aside aria-label="Changes to `.gitattributes` do not retroactively normalize files already committed with the wrong" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Changes to `.gitattributes` do not retroactively normalize files already committed with the wrong</p>
+<aside class="starlight-aside starlight-aside--caution">
 Line endings. After adding or modifying `.gitattributes`You must re-normalize existing files:
 
 ```bash
@@ -943,7 +943,7 @@ git submodule update --remote libs/repo
 ```
 
 </aside>
-<aside aria-label="Even with a tracking branch configured, the parent repository records a specific commit hash, not a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Even with a tracking branch configured, the parent repository records a specific commit hash, not a</p>
+<aside class="starlight-aside starlight-aside--note">
 Branch name. The tracking branch tells `git submodule update --remote` which branch to fetch From.
 
 
@@ -974,7 +974,7 @@ git commit -m "Remove libs/repo submodule"
 ```
 
 </aside>
-<aside aria-label="`rm -rf` the submodule directory without running `git submodule deinit` and `git rm` leaves Stale" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`rm -rf` the submodule directory without running `git submodule deinit` and `git rm` leaves Stale</p>
+<aside class="starlight-aside starlight-aside--caution">
 configuration in `.gitmodules` and `.git/modules/`. This causes errors for anyone cloning the
 Repository. Always follow the full removal procedure.
 
@@ -1125,7 +1125,7 @@ $ git bundle verify build-1234.bundle
 ```
 
 </aside>
-<aside aria-label="Bundles do not include refs that are not reachable from the specified refs. If you need all branches" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Bundles do not include refs that are not reachable from the specified refs. If you need all branches</p>
+<aside class="starlight-aside starlight-aside--caution">
 And tags, always use `--all`. If you need to include unreachable objects (e.g., dangling commits),
 Use `git bundle create repo.bundle --all --reflog`.
 
@@ -1301,7 +1301,7 @@ $ make -C ../build-v2.4 release
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
 
 </aside>
-<aside aria-label="If you delete a worktree directory manually (e.g., `rm -rf ../hotfix-worktree`) instead of using" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you delete a worktree directory manually (e.g., `rm -rf ../hotfix-worktree`) instead of using</p>
+<aside class="starlight-aside starlight-aside--caution">
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
 Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
 
@@ -1430,7 +1430,7 @@ $ git reflog expire --expire=2026-01-01 --all
 ```
 
 </aside>
-<aside aria-label="Setting `gc.reflogExpire` to `never` means reflog entries are never pruned. This prevents garbage" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Setting `gc.reflogExpire` to `never` means reflog entries are never pruned. This prevents garbage</p>
+<aside class="starlight-aside starlight-aside--caution">
 Collection from reclaiming objects referenced only by the reflog. Over time, this can significantly
 Increase repository size. For large repositories, consider a reasonable expiry period (e.g., 365
 Days) instead.
@@ -1573,7 +1573,7 @@ $ git update-ref -d refs/heads/broken-branch
 ```
 
 </aside>
-<aside aria-label="`git fsck` does not modify the repository. It only reports issues. Always fix corruption" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`git fsck` does not modify the repository. It only reports issues. Always fix corruption</p>
+<aside class="starlight-aside starlight-aside--caution">
 Methodically: identify, back up, then repair. If the `.git` directory itself is corrupted (e.g.,
 From disk failure), restore from backup before attempting Git-level repairs.
 
@@ -1692,7 +1692,7 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 | `rerere.autogc`     | `true`  | Run `git gc` on rr-cache when it gets large |
 
 </aside>
-<aside aria-label="`rerere` works by hashing the conflict markers (the base, ours, and theirs sections). If the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`rerere` works by hashing the conflict markers (the base, ours, and theirs sections). If the</p>
+<aside class="starlight-aside starlight-aside--note">
 Conflict context changes even slightly, `rerere` will not match and you will need to resolve
 Manually. The resolution is then recorded for future use.
 
@@ -1863,7 +1863,7 @@ $ git am --abort
 ```
 
 </aside>
-<aside aria-label="`git am` creates new commits. The commit hashes will differ from the original because the committer" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`git am` creates new commits. The commit hashes will differ from the original because the committer</p>
+<aside class="starlight-aside starlight-aside--caution">
 Information (not author) will be different. If you need to preserve exact commit hashes, use
 `git cherry-pick` or `git merge` instead.
 
@@ -2001,7 +2001,7 @@ $ git send-email --to maintainer@project.org \
 | `sendemail.thread`         | Enable threading                         |
 | `sendemail.confirm`        | `auto``always``never``cc``compose`       |
 
-<aside aria-label="Always use `--dry-run` before actually sending patches, especially for public mailing lists. An" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `--dry-run` before actually sending patches, especially for public mailing lists. An</p>
+<aside class="starlight-aside starlight-aside--caution">
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
 Patch content before sending.
 
@@ -2037,7 +2037,7 @@ $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous with
 ```
 
 </aside>
-<aside aria-label="If you have both a file and a branch with the same name, always use `git switch` for branches and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you have both a file and a branch with the same name, always use `git switch` for branches and</p>
+<aside class="starlight-aside starlight-aside--caution">
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
 From.
 
@@ -2086,7 +2086,7 @@ $ git commit -m "Update json submodule to latest"
 ```
 
 </aside>
-<aside aria-label="Running `git pull` in the parent repository does not automatically update submodules. You must" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Running `git pull` in the parent repository does not automatically update submodules. You must</p>
+<aside class="starlight-aside starlight-aside--caution">
 Explicitly run `git submodule update --init --recursive` after pulling. Configure
 `submodule.recurse` to automate this:
 
@@ -2157,7 +2157,7 @@ $ git push --force-with-lease origin feature
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
 
 </aside>
-<aside aria-label="`git push --force` is a destructive operation. It discards commits on the remote that are not in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`git push --force` is a destructive operation. It discards commits on the remote that are not in</p>
+<aside class="starlight-aside starlight-aside--caution">
 Your local history. Any collaborator who has based work on those commits will encounter conflicts.
 Always prefer `--force-with-lease` unless you are certain you are the only person working on the
 Branch.

@@ -41,7 +41,7 @@ Marxist-Leninist framework, viewed capitalist states as inherently imperialist a
 Peaceful coexistence was at best a temporary tactical measure while the conditions for revolution
 Matured.
 
-<aside aria-label="For Paper 3 essays, the ideological dimension should not be treated as the sole cause of the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For Paper 3 essays, the ideological dimension should not be treated as the sole cause of the</p>
+<aside class="starlight-aside starlight-aside--note">
 Cold War. Instead, it functioned as a lens through which both sides interpreted each other's
 Actions, often amplifying mistrust and escalating tensions beyond what objective strategic interests
 Alone would have produced.
@@ -1053,12 +1053,12 @@ Multi-causal phenomenon that cannot be adequately explained by any single interp
 They will also recognise that historical interpretations are themselves products of their time and
 Are shaped by the political and intellectual contexts in which they are produced.
 
-<aside aria-label="When evaluating historiography in essays, avoid the trap of listing the three schools One" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>When evaluating historiography in essays, avoid the trap of listing the three schools One</p>
+<aside class="starlight-aside starlight-aside--note">
 after another. Instead, integrate historiographical analysis into your argument, using it to Support
 or challenge specific points. The best essays will demonstrate that you understand not only What
 each school argues but why it argues it -- and what evidence supports or undermines its claims.
 </aside>
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Presenting the Cold War as a simple US vs USSR binary:** The Cold War involved multiple actors
   -- China, Cuba, European allies, the Non-Aligned Movement, and proxy states in the Third World. IB
   essays that treat every conflict as purely US-USSR miss the agency of other actors and the

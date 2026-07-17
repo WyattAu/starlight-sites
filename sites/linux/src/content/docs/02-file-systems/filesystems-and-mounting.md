@@ -315,7 +315,7 @@ xfs_freeze -u /mount/point
 xfs_fsr /mount/point/path/to/file
 ```
 
-<aside aria-label="XFS **cannot be shrunk**. If you need to reduce an XFS volume, you must back up, recreate with a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>XFS **cannot be shrunk**. If you need to reduce an XFS volume, you must back up, recreate with a</p>
+<aside class="starlight-aside starlight-aside--caution">
 Smaller size, and restore. Plan your volume sizes carefully when choosing XFS.
 
 
@@ -419,7 +419,7 @@ btrfs scrub status /mnt/btrfs
 ```
 
 </aside>
-<aside aria-label="Btrfs RAID 5/6 has known write-hole issues that can cause data loss during a power failure. The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Btrfs RAID 5/6 has known write-hole issues that can cause data loss during a power failure. The</p>
+<aside class="starlight-aside starlight-aside--caution">
 Btrfs documentation recommends against using RAID 5/6 in production. Use RAID 1 or RAID 10 instead.
 
 

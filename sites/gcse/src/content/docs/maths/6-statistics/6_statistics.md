@@ -12,7 +12,7 @@ categories:
 
 ## Statistics
 
-<aside aria-label="Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR Paper 3 (Higher) / Paper 6 (Foundation) |" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR Paper 3 (Higher) / Paper 6 (Foundation) |</p>
+<aside class="starlight-aside starlight-aside--note">
 WJEC Unit 2
 </aside>
 ## 1. Data Collection
@@ -65,7 +65,7 @@ A sample is **biased** if it does not fairly represent the population. Sources o
 - Non-response (voluntary response bias)
 - Using convenience sampling
 
-<aside aria-label="A large sample size does not fix a biased sampling method. A sample of 10000 taken from" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>A large sample size does not fix a biased sampling method. A sample of 10000 taken from</p>
+<aside class="starlight-aside starlight-aside--caution">
 Only one school is still biased if you want to draw conclusions about all schools in the country.
 </aside>
 ## 2. Averages and Measures of Central Tendency
@@ -282,7 +282,7 @@ From the ogive, the median falls in the $25 \leq d \lt 40$ class.
 It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
 On each side.
 
-<aside aria-label="Correlation does not imply causation. Two variables may be correlated due to a third" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Correlation does not imply causation. Two variables may be correlated due to a third</p>
+<aside class="starlight-aside starlight-aside--caution">
 Factor, or by coincidence.
 </aside>
 ### 4.5 Interpolation and Extrapolation
@@ -610,7 +610,7 @@ Roughly equal numbers of points on each side. It can be used to make predictions
 - **Interpolation:** Predicting within the range of the data (reliable).
 - **Extrapolation:** Predicting outside the range of the data (unreliable).
 
-<aside aria-label="Never extrapolate far beyond the data range. The relationship may not hold outside the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never extrapolate far beyond the data range. The relationship may not hold outside the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Observed values.
 </aside>
 ### 9.7 Frequency Polygons

@@ -9,7 +9,7 @@ description: "This resource is created as a aggregation of best practices in Dar
 This resource is created as a aggregation of best practices in Dart and Flutter listed as a
 Tutorial.
 
-<aside aria-label="Different from other languages, the Flutter aspect is important, and GUI presentation is important," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Different from other languages, the Flutter aspect is important, and GUI presentation is important,</p>
+<aside class="starlight-aside starlight-aside--note">
 Therefore when Dart code uses Flutter, compiler explorer cannot be used and Dartpad will be used.
 
 <div className="godbolt-container">

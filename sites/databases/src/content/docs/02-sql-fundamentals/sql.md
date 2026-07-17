@@ -65,7 +65,7 @@ Key elements:
 | Array           | `INTEGER[]``TEXT[]`                  | PostgreSQL-specific extension                                                   |
 | Network         | `INET``CIDR``MACADDR`                | PostgreSQL-specific; enforces valid IP/MAC formats                              |
 
-<aside aria-label="Always use `TIMESTAMPTZ` instead of `TIMESTAMP`. `TIMESTAMP` does not store timezone information, so" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Always use `TIMESTAMPTZ` instead of `TIMESTAMP`. `TIMESTAMP` does not store timezone information, so</p>
+<aside class="starlight-aside starlight-aside--tip">
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
 And back to the session timezone on retrieval.
 
@@ -93,7 +93,7 @@ ALTER TABLE employees DROP CONSTRAINT chk_salary_range;
 ```
 
 </aside>
-<aside aria-label="`ALTER TABLE` acquires an `ACCESS EXCLUSIVE` lock in PostgreSQL, which blocks all reads and writes" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`ALTER TABLE` acquires an `ACCESS EXCLUSIVE` lock in PostgreSQL, which blocks all reads and writes</p>
+<aside class="starlight-aside starlight-aside--caution">
 To the table for the duration of the operation. On large tables, adding a column with a default
 Value or changing a column type can take hours. Use `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL`
 (which is metadata-only in PostgreSQL 11+) or pg_partman for zero-downtime migrations.
@@ -170,7 +170,7 @@ WHERE e.emp_id = 42;
 ```
 
 </aside>
-<aside aria-label="An `UPDATE` without a `WHERE` clause modifies every row in the table. Always run a `SELECT` with the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>An `UPDATE` without a `WHERE` clause modifies every row in the table. Always run a `SELECT` with the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Same `WHERE` clause first to verify which rows will be affected. Consider wrapping destructive
 Updates in a transaction with a `SAVEPOINT` so you can roll back if the results are wrong.
 
@@ -268,7 +268,7 @@ WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 ```
 
 </aside>
-<aside aria-label="`NULL` comparisons behave unexpectedly. `NULL = NULL` evaluates to `NULL` (not `TRUE`), so" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`NULL` comparisons behave unexpectedly. `NULL = NULL` evaluates to `NULL` (not `TRUE`), so</p>
+<aside class="starlight-aside starlight-aside--caution">
 `WHERE column = NULL` never matches any rows. Use `IS NULL` and `IS NOT NULL`. Similarly,
 `NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
 is the single greatest source of SQL bugs.
@@ -300,7 +300,7 @@ LIMIT 20;
 ```
 
 </aside>
-<aside aria-label="`OFFSET` requires the database to scan and discard `OFFSET` rows before returning results. For large" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`OFFSET` requires the database to scan and discard `OFFSET` rows before returning results. For large</p>
+<aside class="starlight-aside starlight-aside--tip">
 Offsets (e.g., `OFFSET 100000`), this is slow because the database still processes 100,000 rows. Use
 Keyset pagination (also called seek pagination) instead:
 `WHERE id &gt; last_seen_id ORDER BY id LIMIT 20`.
@@ -416,7 +416,7 @@ WHERE e.salary > (
 ```
 
 </aside>
-<aside aria-label="Correlated subqueries execute the inner query once for each row in the outer query. For large" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Correlated subqueries execute the inner query once for each row in the outer query. For large</p>
+<aside class="starlight-aside starlight-aside--caution">
 Tables, this is $O(n)$ subquery executions. Rewrite as a join or a window function when possible:
 
 ```sql
@@ -469,7 +469,7 @@ WHERE department_id NOT IN (SELECT dept_id FROM departments);
 ```
 
 </aside>
-<aside aria-label="`NOT IN` with a subquery that can return NULL yields zero rows, because `x NOT IN (1, 2, NULL)`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`NOT IN` with a subquery that can return NULL yields zero rows, because `x NOT IN (1, 2, NULL)`</p>
+<aside class="starlight-aside starlight-aside--caution">
 Evaluates to `x != 1 AND x != 2 AND x != NULL`And `x != NULL` is `NULL` (not `TRUE`). Always use
 `NOT EXISTS` instead of `NOT IN` when the subquery might return NULL values.
 
@@ -528,7 +528,7 @@ MAX(column)       -- maximum non-NULL value
 ```
 
 </aside>
-<aside aria-label="`AVG(salary)` excludes rows where `salary IS NULL` from both the sum and the count. If you need to" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`AVG(salary)` excludes rows where `salary IS NULL` from both the sum and the count. If you need to</p>
+<aside class="starlight-aside starlight-aside--note">
 Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
 NULL means "unknown," not "zero."
 
@@ -665,7 +665,7 @@ FROM employees;
 ```
 
 </aside>
-<aside aria-label="The default frame clause for aggregate window functions with `ORDER BY` is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The default frame clause for aggregate window functions with `ORDER BY` is</p>
+<aside class="starlight-aside starlight-aside--caution">
 `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
 All rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
@@ -743,7 +743,7 @@ graph TD
 ```
 
 </aside>
-<aside aria-label="Recursive CTEs without a termination condition loop infinitely (until the database kills the query" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Recursive CTEs without a termination condition loop infinitely (until the database kills the query</p>
+<aside class="starlight-aside starlight-aside--caution">
 Or the process runs out of memory). Always include a depth counter or a visited set. MySQL limits
 Recursion depth to 100 by default (`cte_max_recursion_depth`). PostgreSQL has no recursion depth
 Limit, so an unbounded recursive CTE will run until it OOMs.
@@ -813,7 +813,7 @@ WHERE commission_rate IS DISTINCT FROM 0;
 ```
 
 </aside>
-<aside aria-label="Use `COALESCE` to provide defaults for NULL values in application queries. Use `NULLIF` to prevent" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use `COALESCE` to provide defaults for NULL values in application queries. Use `NULLIF` to prevent</p>
+<aside class="starlight-aside starlight-aside--tip">
 Division-by-zero errors: `ratio = a / NULLIF(b, 0)` returns NULL instead of raising an error when
 `b` is zero.
 

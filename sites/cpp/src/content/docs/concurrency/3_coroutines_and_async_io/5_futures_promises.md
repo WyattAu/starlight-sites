@@ -80,7 +80,7 @@ Policy controls execution:
 | `std::launch::deferred`                                 | Lazy — runs when `get()` is called on the calling thread       |
 | `std::launch::async \| std::launch::deferred` (default) | Implementation chooses (may be either)                         |
 
-<aside aria-label="With the default launch policy, the implementation is free to choose `deferred`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>With the default launch policy, the implementation is free to choose `deferred`</p>
+<aside class="starlight-aside starlight-aside--caution">
 Execution. This means the task might run synchronously on the calling thread when `get()` is called,
 Defeating the purpose of asynchronous execution. Always use `std::launch::async` explicitly if you
 Need guaranteed asynchronous execution.
@@ -239,7 +239,7 @@ int main() {
 }
 ```
 
-<aside aria-label="When using `std::async` with `std::launch::async`Be aware that the C++ standard does **not**" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>When using `std::async` with `std::launch::async`Be aware that the C++ standard does **not**</p>
+<aside class="starlight-aside starlight-aside--tip">
 require implementations to use a thread pool. Some implementations (notably GCC's libstdc++) Spawn a
 new thread for each `std::async` call, which can be expensive. For high-throughput Scenarios, use a
 dedicated thread pool or a coroutine-based executor.
@@ -362,7 +362,7 @@ Depends on context [N4950 §8.5.3]:
 - If the coroutine has not yet reached `final_suspend`The exception propagates out of `resume()`.
 - If the coroutine has no caller waiting (e.g., it was detached), `std::terminate()` is called.
 
-<aside aria-label="Always store exceptions in `unhandled_exception()` and rethrow them at an appropriate" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always store exceptions in `unhandled_exception()` and rethrow them at an appropriate</p>
+<aside class="starlight-aside starlight-aside--caution">
 `await_resume()` point. Letting exceptions escape `resume()` makes the coroutine interface fragile
 And can lead to `std::terminate()` in detached scenarios.
 </aside>
@@ -537,7 +537,7 @@ int main() {
 }
 ```
 
-<aside aria-label="The P2300 `std::execution` proposal (targeting a future C++ standard) integrates" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The P2300 `std::execution` proposal (targeting a future C++ standard) integrates</p>
+<aside class="starlight-aside starlight-aside--note">
 `std::stop_token` directly into the sender/receiver model, providing a unified cancellation
 Mechanism that propagates through entire async computation graphs. Until P2300 is standardized,
 Manual `stop_token` integration as shown above is the recommended approach.

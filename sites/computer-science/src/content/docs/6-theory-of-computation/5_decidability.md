@@ -151,7 +151,7 @@ $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
 
 **Corollary.** The following are undecidable: "Does $M$ accept at least one string?", "Is $L(M)$ Finite?", "Is $L(M)$ regular?", "Is $L(M)$ context-free?"
 
-<aside aria-label="Common Pitfall Rice's theorem applies only to properties of the **language** $L(M)$Not" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Rice's theorem applies only to properties of the **language** $L(M)$Not</p>
+<aside class="starlight-aside starlight-aside--caution">
 properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$And is in fact decidable (just simulate for 100
 steps).
 
@@ -234,7 +234,7 @@ $\emptyset^{(n+1)} = (\emptyset^{(n)})'$. Each jump produces a strictly more dif
 Yielding an infinite hierarchy of undecidability.
 
 </aside>
-<aside aria-label="Common Pitfall A common mistake when using reductions is confusing the direction. To" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall A common mistake when using reductions is confusing the direction. To</p>
+<aside class="starlight-aside starlight-aside--caution">
 prove $B$ is undecidable Using a reduction from a known undecidable problem $A$You need
 $A \leq_m B$Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is
 undecidable (contrapositive of "if $B$ is decidable then $A$ is decidable"). Reversing the direction

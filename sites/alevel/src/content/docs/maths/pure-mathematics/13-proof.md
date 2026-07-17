@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1, 2 | Proof is integrated throughout                                |
 | CIE (9709) | P1, P2, P3 | Various methods across papers                                 |
 
-<aside aria-label="Proof questions appear on every paper. You must be able to identify the appropriate proof" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Proof questions appear on every paper. You must be able to identify the appropriate proof</p>
+<aside class="starlight-aside starlight-aside--note">
 Method and execute it , with every step justified.
 </aside>
 <hr />
@@ -178,7 +178,7 @@ To prove a statement $P(n)$ for all integers $n \geq n_0$:
 3. **Inductive step:** Using the hypothesis, prove $P(k+1)$ is true.
 4. **Conclusion:** By the principle of mathematical induction, $P(n)$ is true for all $n \geq n_0$.
 
-<aside aria-label="Info Non-empty set of positive integers has a least element. If $P(n_0)$ is true but some" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Non-empty set of positive integers has a least element. If $P(n_0)$ is true but some</p>
+<aside class="starlight-aside starlight-aside--note">
 $P(m)$ with $m \gt n_0$ is false, then the set $\{m : P(m) \mathrm{ is false}\}$ has a least
 element, Contradicting the inductive step.
 </aside>
@@ -526,7 +526,7 @@ $$
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Proof**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Proof**? The contains the hardest questions within</p>
+<aside class="starlight-aside starlight-aside--tip">
 the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Proof with

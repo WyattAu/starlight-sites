@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1 | Includes outlier detection                    |
 | CIE (9709) | P1, P6  | Data handling in P1; further statistics in P6 |
 
-<aside aria-label="You must know when to use the sample variance formula (dividing by $n-1$) versus the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>You must know when to use the sample variance formula (dividing by $n-1$) versus the</p>
+<aside class="starlight-aside starlight-aside--note">
 Population variance formula (dividing by $n$). Edexcel and OCR use $n-1$ for sample data.
 </aside>
 <hr />
@@ -98,7 +98,7 @@ $$
 \end{aligned}
 $$
 
-<aside aria-label="This formula is computationally more efficient and is the one you should use in exams. Just" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>This formula is computationally more efficient and is the one you should use in exams. Just</p>
+<aside class="starlight-aside starlight-aside--tip">
 Remember: "mean of squares minus square of mean."
 </aside>
 ### 2.3 Sample variance
@@ -164,7 +164,7 @@ $$\sigma_y^2 = \frac{1}{n}\sum(y_i - \bar{y})^2 = \frac{1}{n}\sum\left(\frac{x_i
 
 Hence $\sigma_y = \sigma_x/|c|$. $\blacksquare$
 
-<aside aria-label="Coding makes computation easier when data values are large. Always work with coded data to" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Coding makes computation easier when data values are large. Always work with coded data to</p>
+<aside class="starlight-aside starlight-aside--tip">
 Find the mean and standard deviation, then decode back. Remember: adding a constant shifts the mean
 But does not affect the spread.
 </aside>
@@ -211,7 +211,7 @@ $$S_2 = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}$$
 - $S \lt 0$: negative skew (left tail longer).
 - $S = 0$: symmetric distribution.
 
-<aside aria-label="Info Useful when quartiles are already known and the standard deviation has not been" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Useful when quartiles are already known and the standard deviation has not been</p>
+<aside class="starlight-aside starlight-aside--note">
 calculated. Both Give the same sign of skewness but may differ in magnitude.
 </aside>
 ### 6.3 Relationship between measures of central tendency
@@ -254,7 +254,7 @@ $$M_i = \frac◆LB◆0.6745\left(x_i - \tilde{x}\right)◆RB◆◆LB◆\mathrm{M
 
 An observation is flagged as an outlier if $|M_i| \gt 3.5$.
 
-<aside aria-label="Tip MAD, which are themselves resistant to outliers. The factor $0.6745$ is the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip MAD, which are themselves resistant to outliers. The factor $0.6745$ is the</p>
+<aside class="starlight-aside starlight-aside--tip">
 $0.75$-quantile of the Standard normal distribution, so the modified z-score is on a comparable
 scale to the standard Z-score for normally distributed data.
 </aside>
@@ -280,7 +280,7 @@ To construct a box plot:
    the largest data value within the upper fence.
 5. Plot any values outside the fences as individual points (these are the outliers).
 
-<aside aria-label="Warning Fences themselves. If no values lie outside the fences, the whiskers extend to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Fences themselves. If no values lie outside the fences, the whiskers extend to</p>
+<aside class="starlight-aside starlight-aside--caution">
 the minimum and Maximum of the dataset.
 </aside>
 ### 8.2 Interpreting skewness from a box plot
@@ -337,7 +337,7 @@ Of each group. To compare two distributions:
 2. Read off medians, quartiles, and percentiles from each curve.
 3. Compare location (medians), spread (IQR), and shape (skewness).
 
-<aside aria-label="Tip To the curve, then drop a vertical line to the $x$-axis. The reverse process gives the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip To the curve, then drop a vertical line to the $x$-axis. The reverse process gives the</p>
+<aside class="starlight-aside starlight-aside--tip">
 cumulative Frequency for a given $x$-value.
 </aside>
 ### 9.3 Structuring a comparison
@@ -396,7 +396,7 @@ Cumulative frequencies: 5, 17, 35, 43, 47. The 23.5th value falls in the class $
 
 $$Q_2 = 20 + \left(23.5 - 17\right) \cdot \frac{10}{18} = 20 + 6.5 \cdot \frac{10}{18} = 20 + \frac{65}{18} \approx 23.6$$
 
-<aside aria-label="Info Approximation; the true quantile may differ if the data are not uniformly spread within" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Approximation; the true quantile may differ if the data are not uniformly spread within</p>
+<aside class="starlight-aside starlight-aside--note">
 the class.
 </aside>
 <hr />
@@ -784,7 +784,7 @@ Quartiles, which are less affected by that extreme value.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Data Representation**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Data Representation**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Data

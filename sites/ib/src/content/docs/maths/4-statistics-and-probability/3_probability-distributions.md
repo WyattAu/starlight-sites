@@ -81,8 +81,8 @@ $$
 Adding a constant shifts the distribution but does not change its spread. Multiplying by $a$ scales
 The spread by $|a|$.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A discrete random variable $X$ has PMF:
 
 | $x$        | 0   | 1   | 2   | 3   |
@@ -102,9 +102,9 @@ $$
 $$
 
 
-:::
-:::info[Example: Finding an unknown parameter]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Finding an unknown parameter</strong>
 $P(X = x) = kx$ for $x = 1, 2, 3, 4$. Find $k$ and $E(X)$.
 
 $k(1 + 2 + 3 + 4) = 1 \implies 10k = 1 \implies k = 0.1$
@@ -211,9 +211,9 @@ $$
 P(X = k) \approx P\!\left(\frac{k - 0.5 - np}{\sqrt{np(1-p)}} \lt Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A factory produces bulbs with 3% defect rate. $X \sim B(20, 0.03)$ is the number of defects in a
 Sample of 20.
 
@@ -226,9 +226,9 @@ $P(X \ge 3) = 1 - P(X \le 2) \approx 1 - 0.8802 - 0.0988 = 0.0210$
 $E(X) = 20(0.03) = 0.6$, $\sigma = \sqrt{20(0.03)(0.97)} = \sqrt{0.582} \approx 0.763$
 
 
-:::
-:::info[Example: IB Paper 2 style]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: IB Paper 2 style</strong>
 A multiple choice test has 15 questions with 5 options each. A student guesses all answers.
 
 $X \sim B(15, 0.2)$.
@@ -324,9 +324,9 @@ $$
 If the rate is $\lambda$ per unit interval, then over $t$ intervals the count is
 $\mathrm{Po}(t\lambda)$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A helpdesk receives $\lambda = 3.5$ calls per hour. $X \sim \mathrm{Po}(3.5)$.
 
 $P(X = 5) = \dfrac{e^{-3.5} \cdot 3.5^5}{5!} \approx 0.1318$
@@ -336,9 +336,9 @@ $P(X \le 2) = e^{-3.5}\!\left(1 + 3.5 + \dfrac{12.25}{2}\right) = 10.625 \, e^{-
 Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.4013$.
 
 
-:::
-:::info[Example: Poisson approximation to Binomial]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Poisson approximation to Binomial</strong>
 A typesetter makes errors at a rate of 1 per 500 characters. In a passage of 2000 characters, find
 The probability of at most 2 errors.
 
@@ -451,9 +451,9 @@ When $\mu$ or $\sigma$ is unknown, use standardisation with a known probability 
 Simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
 Are needed.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Bags of flour: $X \sim N(1000, 225)$ (mean 1000 g, $\sigma = 15$ g).
 
 $P(985 \lt X \lt 1020) = P(-1 \lt Z \lt 1.333) = \Phi(1.333) - \Phi(-1) \approx 0.9088 - 0.1587 = 0.7501$
@@ -463,9 +463,9 @@ $P(X \lt 970) = P(Z \lt -2) = 0.0228$So about 2.28% are rejected.
 For the mass exceeded by only 5%: $P(X \le x) = 0.95$, $x = 1000 + 1.645(15) = 1024.67$ g.
 
 
-:::
-:::info[Example: Unknown parameters]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Unknown parameters</strong>
 Test scores are normal. 15% score above 80, 10% score below 45. Find $\mu$ and $\sigma$.
 
 $\dfrac{80 - \mu}{\sigma} = 1.036$ and $\dfrac{45 - \mu}{\sigma} = -1.282$.
@@ -473,9 +473,9 @@ $\dfrac{80 - \mu}{\sigma} = 1.036$ and $\dfrac{45 - \mu}{\sigma} = -1.282$.
 Subtracting: $35 = 2.318\sigma$So $\sigma \approx 15.1$ and $\mu = 80 - 1.036(15.1) \approx 64.4$.
 
 
-:::
-:::info[Example: Normal approximation to Binomial]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Normal approximation to Binomial</strong>
 $X \sim B(80, 0.4)$. Find $P(X \le 30)$ using a normal approximation.
 
 $\mu = 80(0.4) = 32$$\sigma^2 = 80(0.4)(0.6) = 19.2$$\sigma = 4.382$.
@@ -548,9 +548,9 @@ $$
 
 For any $[c, d] \subseteq [a, b]$: $P(c \le X \le d) = \dfrac{d - c}{b - a}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A bus arrives every 15 minutes. $X \sim U(0, 15)$ is the waiting time.
 
 $P(X \gt 10) = 5/15 = 1/3$
@@ -608,9 +608,9 @@ $$
 
 The first $n$ trials must all be failures. Similarly $P(X \ge n) = (1-p)^{n-1}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A basketball player has free-throw success rate 72%. $X \sim \mathrm{Geo}(0.72)$.
 
 $P(X = 3) = (0.28)^2(0.72) = 0.0784 \times 0.72 \approx 0.05645$
@@ -670,9 +670,9 @@ $$
 Note the parallel with geometric: multiplying $r$ by a factor scales both $E(X)$ and
 $\mathrm{Var}(X)$ by the same factor.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A coin has $P(\mathrm{heads}) = 0.4$. $X \sim \mathrm{NB}(3, 0.4)$ counts flips for 3 heads.
 
 $P(X = 7) = \dbinom{6}{2}(0.4)^3(0.6)^4 = 15 \times 0.064 \times 0.1296 \approx 0.1244$
@@ -708,17 +708,17 @@ $$
 As $n$ increases, the standard error decreases: larger samples give more precise estimates of the
 Population mean.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Apple masses: mean 150 g, $\sigma = 20$ g. Sample of 36. Find $P(\bar{X} \gt 155)$.
 
 $\bar{X} \sim N(150, 400/36)$. $P\!\left(Z \gt \dfrac{5}{20/6}\right) = P(Z \gt 1.5) = 0.0668$.
 
 
-:::
-:::info[Example: Sum of uniform variables]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Sum of uniform variables</strong>
 $X \sim U(2, 10)$. Sample of 50 observations. Find $P(\mathrm{sum} \gt 310)$.
 
 $\mu = 6$, $\sigma^2 = 64/12 = 16/3$. Sum has mean $300$ and variance $50(16/3) = 800/3$.
@@ -761,9 +761,9 @@ Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$
 Required sample size for margin $E$: $n = \left(\dfrac{z_{\alpha/2} \cdot \sigma}{E}\right)^2$
 (round up to the next integer).
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498$ ml.
 
 95% CI: $498 \pm 1.960 \times 5/\sqrt{25} = 498 \pm 1.96$So $(496.04, 499.96)$ ml.
@@ -807,9 +807,9 @@ $$
 
 Where $\mathrm{Cov}(X, Y) = E(XY) - E(X)E(Y) = 0$ when $X$ and $Y$ are independent.
 
-:::
-:::caution[Important]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Important</strong>
 Linearity of expectation always holds. The simple variance formula
 $\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ requires independence.
 
@@ -836,9 +836,9 @@ $$
 
 This is exact (not an approximation) for normal variables, and requires no CLT.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 $X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$Independent.
 
 $E(X + Y) = 3 + 6 = 9$
@@ -848,9 +848,9 @@ $\mathrm{Var}(X + Y) = 10(0.3)(0.7) + 15(0.4)(0.6) = 2.1 + 3.6 = 5.7$
 $\mathrm{Var}(2X - 3Y) = 4(2.1) + 9(3.6) = 8.4 + 32.4 = 40.8$
 
 
-:::
-:::info[Example: Normal combinations]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Normal combinations</strong>
 Bus ride $X \sim N(25, 16)$Walk $Y \sim N(10, 9)$Independent.
 
 $X + Y \sim N(35, 25)$. $P(X + Y \gt 40) = P(Z \gt 1) = 0.1587$.
@@ -1010,15 +1010,14 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 
 9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$Not $3\mathrm{Var}(X)$.
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 Always define your random variable and state the distribution with parameters at the start. For
 Normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
 whether independence is assumed. For confidence intervals, state the level and Interpret in context.
 
-:::
-
+</aside>
 ---
 
 ## Problem Set
@@ -1325,7 +1324,7 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Probability Distributions**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Probability Distributions**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability

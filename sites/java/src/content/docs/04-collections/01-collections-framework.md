@@ -53,7 +53,7 @@ graph TD
     style Deque fill:#d5f5e3
 ```
 
-<aside aria-label="`Map` is not a subtype of `Collection` because it models a mapping from keys to values" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`Map` is not a subtype of `Collection` because it models a mapping from keys to values</p>
+<aside class="starlight-aside starlight-aside--note">
 Rather than a collection of elements. Josh Bloch, the original framework designer, explained that
 `Map` was excluded from the `Collection` hierarchy because the two abstractions are fundamentally
 Different: collections are groups of elements, while maps are groups of key-value pairs. Forcing
@@ -248,7 +248,7 @@ queue.addLast("tail");
 String head = queue.removeFirst();  // O(1)
 ```
 
-<aside aria-label="In practice, `ArrayList` is almost always the better choice. The O(1) random access and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In practice, `ArrayList` is almost always the better choice. The O(1) random access and</p>
+<aside class="starlight-aside starlight-aside--caution">
 Cache-friendly contiguous memory layout make `ArrayList` faster for nearly all real-world workloads,
 Even those with frequent insertions. The O(n) cost of shifting elements in `ArrayList` is offset by
 The fact that `System.arraycopy()` is a native, highly optimized operation that moves memory in
@@ -381,7 +381,7 @@ EnumSet<Day> all = EnumSet.allOf(Day.class);
 // weekdays = 0b0011111 = 31
 ```
 
-<aside aria-label="For enums with 64 or fewer constants, `EnumSet` uses a single `long` as its backing" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For enums with 64 or fewer constants, `EnumSet` uses a single `long` as its backing</p>
+<aside class="starlight-aside starlight-aside--note">
 Representation, making the entire set occupy just 16 bytes (object header + long field). For enums
 With more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll``retainAll` Etc.)
 are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
@@ -511,7 +511,7 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent, boolean evict) {
 }
 ```
 
-<aside aria-label="`treeifyBin()` does not immediately convert to a tree. It first checks whether the table" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`treeifyBin()` does not immediately convert to a tree. It first checks whether the table</p>
+<aside class="starlight-aside starlight-aside--caution">
 Has fewer than `MIN_TREEIFY_CAPACITY` (64) entries. If so, it prefers to resize the table instead,
 Because a larger table distributes keys across more buckets and may resolve the collision without
 The overhead of tree nodes. Only when the table already has at least 64 entries does it actually
@@ -605,7 +605,7 @@ private void fixAfterInsertion(Entry<K,V> x) {
 }
 ```
 
-<aside aria-label="The rotation operation is the fundamental tree restructuring primitive. A left rotation at" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The rotation operation is the fundamental tree restructuring primitive. A left rotation at</p>
+<aside class="starlight-aside starlight-aside--note">
 Node X makes X's right child Y the new root of the subtree, with X becoming Y's left child and Y's
 Former left child becoming X's right child. Rotations preserve the binary search tree property
 (in-order traversal yields sorted order) while changing the tree's shape to reduce height.
@@ -671,7 +671,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 }
 ```
 
-<aside aria-label="`LinkedHashMap` with `accessOrder = true` is **not thread-safe**. Using it as an LRU" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`LinkedHashMap` with `accessOrder = true` is **not thread-safe**. Using it as an LRU</p>
+<aside class="starlight-aside starlight-aside--caution">
 Cache in a concurrent environment requires external synchronization or a wrapper like
 `Collections.synchronizedMap()`. For high-concurrency LRU caches, consider `Caffeine` or
 `Guava Cache` instead.
@@ -706,7 +706,7 @@ counts.putIfAbsent("key", new AtomicInteger(0));  // atomic
 // if (!map.containsKey("key")) { map.put("key", value); }  // WRONG in concurrent code
 ```
 
-<aside aria-label="`ConcurrentHashMap` does not allow null keys or null values. This is a deliberate design" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`ConcurrentHashMap` does not allow null keys or null values. This is a deliberate design</p>
+<aside class="starlight-aside starlight-aside--danger">
 Choice. The reason is that the `containsKey()` and `get()` methods must be unambiguous in a
 Concurrent setting. If null values were allowed, `get(key)` returning `null` could mean either "the
 Key is absent" or "the key maps to null." In a single-threaded map, you can disambiguate with
@@ -760,7 +760,7 @@ while (it.hasNext()) {
 // names is now [Alice, Charlie]
 ```
 
-<aside aria-label="Never call `Collection.remove()` during iteration. This modifies the collection's" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never call `Collection.remove()` during iteration. This modifies the collection's</p>
+<aside class="starlight-aside starlight-aside--danger">
 Structure while the iterator is active and will throw `ConcurrentModificationException`. Always use
 `Iterator.remove()` instead, which updates the iterator's internal state and the expected
 Modification count atomically.
@@ -817,7 +817,7 @@ private class Itr implements Iterator<E> {
 }
 ```
 
-<aside aria-label="Fail-fast behavior is on a best-effort basis. It cannot be guaranteed because the check" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Fail-fast behavior is on a best-effort basis. It cannot be guaranteed because the check</p>
+<aside class="starlight-aside starlight-aside--caution">
 Happens in the iterator, not via synchronization. The exception is thrown when the inconsistency is
 Detected, not when it occurs. In a concurrent setting without external synchronization, a fail-fast
 Exception should be used to **detect bugs**, not as a correctness mechanism.
@@ -926,7 +926,7 @@ mixed.stream().sorted(nullSafe).forEach(System.out::println);
 // null, Alice, Charlie -- null comes first
 ```
 
-<aside aria-label="The difference is one of **where** the comparison logic lives. `Comparable` is implemented" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The difference is one of **where** the comparison logic lives. `Comparable` is implemented</p>
+<aside class="starlight-aside starlight-aside--note">
 By the class being compared (one fixed natural ordering). `Comparator` is a separate object that
 Defines a comparison strategy (many orderings for the same type). Use `Comparable` for the most
 Natural, obvious ordering. Use `Comparator` when you need alternative orderings or when you cannot
@@ -940,7 +940,7 @@ Both `compareTo()` and `compare()` must satisfy the same contract as `equals()`:
 4. **compare(x, y) == 0 implies sgn(compare(x, z)) == sgn(compare(y, z))** (consistency with equals
    is recommended but not required)
 
-<aside aria-label="The recommendation that `compare(x, y) == 0` should imply `x.equals(y)` is important for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The recommendation that `compare(x, y) == 0` should imply `x.equals(y)` is important for</p>
+<aside class="starlight-aside starlight-aside--caution">
 Sorted collections. `TreeSet` and `TreeMap` use the comparator (or `compareTo`) to determine
 Equality, not `equals()`. If the comparator is inconsistent with `equals()`The set will violate The
 `Set` contract (it may contain elements that are equal according to `equals()` but have Different
@@ -969,7 +969,7 @@ Collections.sort(numbers, Comparator.naturalOrder());
 Collections.binarySearch(numbers, 3, Comparator.naturalOrder());
 ```
 
-<aside aria-label="`Collections.binarySearch()` returns undefined results if the list is not sorted according" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`Collections.binarySearch()` returns undefined results if the list is not sorted according</p>
+<aside class="starlight-aside starlight-aside--danger">
 To the same ordering used for the search. Passing a list sorted by natural ordering but searching
 With a custom `Comparator` will produce incorrect results without any exception.
 </aside>
@@ -1003,7 +1003,7 @@ synchronized (syncList) {
 }
 ```
 
-<aside aria-label="Synchronized wrappers are **not** a substitute for `ConcurrentHashMap` in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Synchronized wrappers are **not** a substitute for `ConcurrentHashMap` in</p>
+<aside class="starlight-aside starlight-aside--caution">
 High-concurrency scenarios. Every method call acquires the monitor lock on the wrapper object, so
 Even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
 And fine-grained write locking provides far better throughput.
@@ -1097,7 +1097,7 @@ Map<String, Integer> fromEntries = Map.ofEntries(
 );
 ```
 
-<aside aria-label="`List.of()``Set.of()`And `Map.of()` do **not** allow null elements or null Keys/values." class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`List.of()``Set.of()`And `Map.of()` do **not** allow null elements or null Keys/values.</p>
+<aside class="starlight-aside starlight-aside--danger">
 Passing null throws `NullPointerException`. This is a deliberate design choice: nulls Are a common
 source of bugs, and immutable collections that cannot contain nulls are easier to Reason about. Use
 `Collections.singletonList(null)` or a mutable collection if nulls are required.

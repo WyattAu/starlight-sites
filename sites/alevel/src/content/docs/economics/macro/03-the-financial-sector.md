@@ -74,7 +74,7 @@ The **central bank** (Bank of England, ECB, Federal Reserve) performs:
 
 5. **Issuer of currency**: has the monopoly on note issuance
 
-<aside aria-label="Board-Specific Note AQA and Edexcel require detailed knowledge of the Bank of England's" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA and Edexcel require detailed knowledge of the Bank of England's</p>
+<aside class="starlight-aside starlight-aside--note">
 Monetary Policy Committee (MPC): 9 members, meets 8 times per year, sets the Bank Rate to achieve
 The 2% CPI inflation target. CIE (9708) focuses more on the _functions_ of central banks Rather than
 a specific institution. OCR expects you to distinguish between the central bank's roles In monetary
@@ -107,7 +107,7 @@ Money serves three functions: medium of exchange, store of value, unit of accoun
 | **M2**                 | Cash + retail bank deposits (current accounts, instant-access savings)                     |
 | **M4 (broad money)**   | Cash + all retail and wholesale bank deposits + certificates of deposit                    |
 
-<aside aria-label="Board-Specific Note The exact definitions vary by board and country. CIE (9708) uses M0, M1," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note The exact definitions vary by board and country. CIE (9708) uses M0, M1,</p>
+<aside class="starlight-aside starlight-aside--note">
 M2, M4. Edexcel emphasises M0 and M4. AQA focuses on broad vs narrow money. Always use the
 Definitions in your specification.
 </aside>
@@ -167,7 +167,7 @@ Central bank sets the price of reserves (the interest rate) rather than the quan
 The endogenous money view. However, for exam purposes, the money multiplier remains the standard
 Model on most A Level specifications.
 
-<aside aria-label="Board-Specific Note AQA and Edexcel teach the traditional money multiplier model. CIE (9708)" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA and Edexcel teach the traditional money multiplier model. CIE (9708)</p>
+<aside class="starlight-aside starlight-aside--note">
 Has recently moved towards acknowledging endogenous money but still primarily examines the
 Multiplier approach. OCR tends to focus on the practical implications (why QE did not cause
 Hyperinflation) rather than the theoretical debate. When answering, use the multiplier model but
@@ -241,7 +241,7 @@ Need to cut rates to combat an impending downturn. The 2020 COVID recession foll
 Causality is debated (the curve may have anticipated COVID-related disruptions). In the UK, the
 Yield curve also inverted briefly in 2019, signalling expectations of BoE rate cuts.
 
-<aside aria-label="Board-Specific Note AQA often asks students to explain the yield curve and its significance" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA often asks students to explain the yield curve and its significance</p>
+<aside class="starlight-aside starlight-aside--note">
 As a predictor. Edexcel may link the yield curve to business investment decisions (firms use
 Long-term rates to evaluate projects). OCR emphasises the expectations theory and liquidity
 Preference theory of the term structure. CIE generally does not examine the yield curve in depth but
@@ -302,7 +302,7 @@ Understanding of each pathway:
    particularly relevant for small and medium-sized enterprises (SMEs) that depend on bank lending
    and cannot access capital markets directly.
 
-<aside aria-label="Board-Specific Note AQA expects you to identify at least three transmission channels with" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA expects you to identify at least three transmission channels with</p>
+<aside class="starlight-aside starlight-aside--note">
 Diagrams. Edexcel requires a clear chain of reasoning from the interest rate change to the final
 Impact on AD, inflation, and employment. OCR is particularly interested in the _limitations_ of
 Monetary policy transmission — time lags, interest elasticity, and the liquidity trap. CIE expects a
@@ -382,7 +382,7 @@ Money supply, CPI inflation remained below the 2% target until mid-2021, when su
 Disruptions and energy price shocks drove inflation higher. This illustrates that QE alone does not
 Cause high inflation — the broader macroeconomic context matters.
 
-<aside aria-label="Board-Specific Note AQA and Edexcel both require evaluation of QE. CIE (9708) Paper 4" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA and Edexcel both require evaluation of QE. CIE (9708) Paper 4</p>
+<aside class="starlight-aside starlight-aside--note">
 Frequently includes questions on unconventional monetary policy. Key evaluation points: QE is less
 Effective when banks are unwilling to lend (liquidity trap), the impact on the real economy is
 Uncertain and hard to measure, and the exit strategy (quantitative tightening) is politically and
@@ -492,12 +492,12 @@ Financial institutions ("too big to fail") has not been fully resolved. The fail
 In 2023 was resolved through a government-brokered takeover by UBS, reinforcing the perception that
 Large banks will always be rescued.
 
-<aside aria-label="Exam Technique When analysing monetary policy, always distinguish between the _transmission" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique When analysing monetary policy, always distinguish between the _transmission</p>
+<aside class="starlight-aside starlight-aside--tip">
 Mechanism_ (how the policy affects the economy) and the _effectiveness_ (how well it works in
 Practice). Consider time lags, the interest elasticity of investment, and the shape of the liquidity
 Preference curve.
 </aside>
-<aside aria-label="Exam Technique For evaluation questions ( worth 12-25 marks), structure your answer As: (1)" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Exam Technique For evaluation questions ( worth 12-25 marks), structure your answer As: (1)</p>
+<aside class="starlight-aside starlight-aside--tip">
 identify the issue, (2) explain the mechanism with a diagram, (3) evaluate using **however/on the
 other hand/significantly** to introduce counterarguments, (4) conclude with a Justified judgement.
 Always consider short-run vs long-run effects and the context (e.g., the state Of the economy at the
@@ -650,7 +650,7 @@ The effective multiplier accounts for excess reserves and cash leakages. Let $rr
 </details>
 
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Confusing bond prices and bond yields:** Bond prices and interest rates (yields) move in
   OPPOSITE directions. When interest rates rise, existing bonds with lower coupon rates become less
   attractive, so their price falls. Many students get this relationship backwards.

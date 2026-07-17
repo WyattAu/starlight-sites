@@ -55,7 +55,7 @@ Frequent crossing over approximate independent assortment).
 In a heterozygote, one allele may mask the expression of another. The allele that is expressed is
 Dominant; the allele that is masked is recessive.
 
-<aside aria-label="Mendel's laws are idealisations that assume: (a) genes are on different chromosomes, (b)" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Mendel's laws are idealisations that assume: (a) genes are on different chromosomes, (b)</p>
+<aside class="starlight-aside starlight-aside--note">
 Complete dominance, (c) no gene interaction, and (d) no linkage. Real organisms frequently violate
 One or more of these assumptions. The DSE syllabus expects you to recognise when Mendelian ratios do
 Not hold and to explain why.
@@ -404,7 +404,7 @@ When constructing genetic diagrams for DSE examinations, follow these convention
 6. Read off the genotypic and phenotypic ratios
 7. Answer the question using the ratios
 
-<aside aria-label="Info Standard Mendelian ratios. Use a Punnett square when the genes are linked or when you" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Standard Mendelian ratios. Use a Punnett square when the genes are linked or when you</p>
+<aside class="starlight-aside starlight-aside--note">
 need to show All individual genotypes. For X-linked crosses, always use a Punnett square since the
 gamete Combinations differ between males and females.
 </aside>
@@ -1223,7 +1223,7 @@ sequence itself.
 | Histone modification | Acetylation, methylation, or phosphorylation of histone proteins; affects how tightly DNA is wound around histones (chromatin structure) |
 | Non-coding RNA       | MicroRNAs (miRNAs) and small interfering RNAs (siRNAs) that bind to mRNA and inhibit translation or promote degradation                  |
 
-<aside aria-label="Epigenetic changes are REVERSIBLE (unlike mutations) and can be influenced by environmental" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Epigenetic changes are REVERSIBLE (unlike mutations) and can be influenced by environmental</p>
+<aside class="starlight-aside starlight-aside--note">
 factors (diet, stress, toxins). This has important implications for understanding how environmental
 exposures affect gene expression and disease risk across generations. However, epigenetic changes
 should NOT be confused with Lamarckian inheritance of acquired characteristics -- the DNA sequence
@@ -1346,7 +1346,7 @@ these, protein synthesis cannot occur.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Genetics**? The contains the hardest questions within" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Genetics**? The contains the hardest questions within</p>
+<aside class="starlight-aside starlight-aside--tip">
 the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Genetics

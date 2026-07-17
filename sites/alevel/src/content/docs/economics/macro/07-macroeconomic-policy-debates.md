@@ -64,7 +64,7 @@ $$\pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y$$
 | Self-correction         | Slow or non-existent                     | Automatic, though may take time                              |
 | Government intervention | Essential for stability                  | Minimise — rules-based policy                                |
 
-<aside aria-label="Board-Specific Note The Keynesian-monetarist debate is a staple of A-Level economics. CIE" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note The Keynesian-monetarist debate is a staple of A-Level economics. CIE</p>
+<aside class="starlight-aside starlight-aside--note">
 (9708) Paper 4 often asks students to evaluate the effectiveness of demand-side policies, requiring
 Them to contrast Keynesian and monetarist perspectives. Edexcel requires students to discuss the
 "battle of the economists" in the context of policy debates.
@@ -201,7 +201,7 @@ Most modern central banks use **inflation targeting with discretion**:
 
 $$\mathrm{UK (1992–present), NZ (1990–present), Canada (1991–present), Eurozone (2003–present)}$$
 
-<aside aria-label="Info Monetary policy and may require discussion of the transmission mechanism. Edexcel" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Monetary policy and may require discussion of the transmission mechanism. Edexcel</p>
+<aside class="starlight-aside starlight-aside--note">
 (Paper 3) often Asks about the role of central bank independence in achieving macroeconomic
 objectives. OCR (Paper 3) may ask students to compare different monetary policy frameworks. CIE
 (9708) Paper 4 Expects students to evaluate the relative merits of rules vs discretion with
@@ -519,7 +519,7 @@ Dollar, partially crowding out the fiscal stimulus.
 Amplified. When they pull in opposite directions, they partially offset each other, and the net
 Effect depends on the relative strength of each.
 
-<aside aria-label="Board-Specific Note AQA Paper 2 (Section B) often requires students to evaluate the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA Paper 2 (Section B) often requires students to evaluate the</p>
+<aside class="starlight-aside starlight-aside--note">
 Effectiveness of policy mixes. Edexcel Paper 3 expects discussion of policy conflicts and
 Trade-offs. OCR may ask about the role of the Treasury and `` `{BoE}` `` in coordinating policy. CIE
 Paper 4 frequently asks students to assess whether government intervention can achieve multiple
@@ -706,7 +706,7 @@ Complete regime change.
 </details>
 
 
-<aside aria-label="Danger" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Danger</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Treating Keynesianism and monetarism as mutually exclusive:** Modern macroeconomic policy is a
   synthesis of both views. Keynesian demand management is appropriate during recessions (especially
   at the zero lower bound), while monetarist concerns about inflation dominate near full employment.

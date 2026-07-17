@@ -27,7 +27,7 @@ The library abstracts away platform differences between POSIX and Windows file s
 Separators (`/` vs `\`), permissions models, and file metadata are normalized into a common
 Interface.
 
-<aside aria-label="On POSIX systems, `std::filesystem` is implemented on top of POSIX system calls (`stat`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>On POSIX systems, `std::filesystem` is implemented on top of POSIX system calls (`stat`</p>
+<aside class="starlight-aside starlight-aside--note">
 `opendir``readdir``unlink`Etc.). On Windows, it uses the Win32 API (`CreateFileW`
 `FindFirstFileW`Etc.). The interface is the same on both platforms, but some features are only
 Available on one (e.g., file permissions are more expressive on POSIX).
@@ -108,7 +108,7 @@ void path_iteration() {
 }
 ```
 
-<aside aria-label="`fs::path::lexically_normal()` removes `.` and `..` components without touching the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`fs::path::lexically_normal()` removes `.` and `..` components without touching the</p>
+<aside class="starlight-aside starlight-aside--tip">
 Filesystem. `fs::canonical()` resolves them by actually querying the filesystem (and throws if the
 Path does not exist). Use `lexically_normal()` for string-level cleanup, `canonical()` when you need
 The true absolute path.
@@ -148,7 +148,7 @@ void list_directory(const fs::path& dir) {
 }
 ```
 
-<aside aria-label="`fs::directory_iterator` does **not** follow symlinks by default. A symlink to a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`fs::directory_iterator` does **not** follow symlinks by default. A symlink to a</p>
+<aside class="starlight-aside starlight-aside--caution">
 Directory returns `is_symlink() == true` but also `is_directory() == true` (since `is_directory()`
 Follows symlinks by default). Use `fs::directory_options::follow_directory_symlink` to follow
 Symlinks into directories, but be careful of symlink cycles.
@@ -207,7 +207,7 @@ void recursive_list(const fs::path& root, int max_depth = 3) {
 }
 ```
 
-<aside aria-label="`fs::directory_options::skip_permission_denied` causes the iterator to silently skip" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`fs::directory_options::skip_permission_denied` causes the iterator to silently skip</p>
+<aside class="starlight-aside starlight-aside--note">
 Directories that the current process lacks permission to read. Without this option, a
 `fs::filesystem_error` exception is thrown. This is essential for recursively scanning directories
 Like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
@@ -276,7 +276,7 @@ void file_operations_demo(const fs::path& work_dir) {
 }
 ```
 
-<aside aria-label="`fs::remove_all()` is dangerous — it recursively deletes an entire directory tree without" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`fs::remove_all()` is dangerous — it recursively deletes an entire directory tree without</p>
+<aside class="starlight-aside starlight-aside--caution">
 Confirmation. Never call it with a path derived from untrusted user input without validation. Unlike
 `rm -rf`There is no "trash" or "undo" mechanism.
 </aside>
@@ -317,7 +317,7 @@ void file_time_demo(const fs::path& file) {
 }
 ```
 
-<aside aria-label="On Windows with MSVC, `fs::file_time_type` historically used a resolution of 100" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>On Windows with MSVC, `fs::file_time_type` historically used a resolution of 100</p>
+<aside class="starlight-aside starlight-aside--caution">
 Nanoseconds (Windows FILETIME), while on POSIX it used 1-second resolution (`stat` `st_mtime`).
 C++20 improves this, but portability issues remain for sub-second precision. Always test on your
 Target platforms.
@@ -369,7 +369,7 @@ void permissions_demo(const fs::path& file) {
 | `remove`           | Remove the given permission bits from the current set |
 | `nofollow`         | Do not follow symlinks (applicable on POSIX)          |
 
-<aside aria-label="On Windows, `fs::permissions` can only control the read-only attribute. Group and other" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>On Windows, `fs::permissions` can only control the read-only attribute. Group and other</p>
+<aside class="starlight-aside starlight-aside--caution">
 Permissions are not supported. The `owner_exec` permission is not meaningful on Windows.
 </aside>
 ### Symbolic Links
@@ -521,7 +521,7 @@ void error_handling_demo() {
 }
 ```
 
-<aside aria-label="Use the `std::error_code` overloads in performance-critical code or when errors are expected" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use the `std::error_code` overloads in performance-critical code or when errors are expected</p>
+<aside class="starlight-aside starlight-aside--tip">
 (e.g., checking if a file exists by trying to open it). Exception-based error handling has overhead
 From stack unwinding, while error codes do not.
 </aside>

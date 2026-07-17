@@ -429,7 +429,7 @@ int main() {
 }
 ```
 
-<aside aria-label="If `final_suspend` returns `std::suspend_never`The coroutine frame is destroyed at the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If `final_suspend` returns `std::suspend_never`The coroutine frame is destroyed at the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Final suspend point. Calling `handle.destroy()` afterward on a dangling handle is **undefined
 Behavior**. If `final_suspend` returns `std::suspend_always`You **must** eventually call
 `handle.destroy()` or the frame leaks.

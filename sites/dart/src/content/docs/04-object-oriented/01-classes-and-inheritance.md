@@ -130,7 +130,7 @@ class Rectangle {
 }
 ```
 
-<aside aria-label="Prefer initializer lists over constructor bodies for field initialization. Initializer lists are" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Prefer initializer lists over constructor bodies for field initialization. Initializer lists are</p>
+<aside class="starlight-aside starlight-aside--tip">
 More efficient — they initialize fields directly, while the constructor body runs after all fields
 Have been initialized (to their default values first).
 
@@ -294,7 +294,7 @@ mixin Persistable on Serializable {
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
 
 </aside>
-<aside aria-label="Use mixins for cross-cutting concerns (logging, serialization, validation) that don't fit in a" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use mixins for cross-cutting concerns (logging, serialization, validation) that don't fit in a</p>
+<aside class="starlight-aside starlight-aside--tip">
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
 
@@ -329,7 +329,7 @@ print(a.dot(b));   // 11.0
 ```
 
 </aside>
-<aside aria-label="When overriding `==`You **must** also override `hashCode`. Two objects that are equal must have The" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>When overriding `==`You **must** also override `hashCode`. Two objects that are equal must have The</p>
+<aside class="starlight-aside starlight-aside--caution">
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
 
 
@@ -363,7 +363,7 @@ extension ListX<T> on List<T> {
 ```
 
 </aside>
-<aside aria-label="Extensions are resolved **statically** at compile time. They are not true methods — they are" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Extensions are resolved **statically** at compile time. They are not true methods — they are</p>
+<aside class="starlight-aside starlight-aside--note">
 Syntactic sugar for static function calls. This means they cannot be used polymorphically (a
 `dynamic` variable won't have access to extension methods).
 

@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1, 2 | Similar split                                                    |
 | CIE (9709) | P1, P3     | P1: positive integer; P3: general                                |
 
-<aside aria-label="AQA provides the binomial expansion formula in the formula booklet. Edexcel does not —" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>AQA provides the binomial expansion formula in the formula booklet. Edexcel does not —</p>
+<aside class="starlight-aside starlight-aside--note">
 Memorise it.
 </aside>
 <hr />
@@ -408,7 +408,7 @@ The expansion is valid when:
 
 $$\left|\frac{bx}{a}\right| \lt 1 \quad \mathrm{i.e.,} \quad |x| \lt \left|\frac{a}{b}\right|$$
 
-<aside aria-label="Always state the range of validity when working with non-integer powers. Marks are" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always state the range of validity when working with non-integer powers. Marks are</p>
+<aside class="starlight-aside starlight-aside--caution">
 Routinely deducted for omitting this.
 </aside>
 ### 8.2 Product of Two Expansions
@@ -885,7 +885,7 @@ Validity: the most restrictive condition is $|x| \lt 1/2$ (from $(1-2x)^{-1}$).
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Binomial Expansion**? The contains the hardest" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Binomial Expansion**? The contains the hardest</p>
+<aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Binomial

@@ -30,7 +30,7 @@ Sub-components:
 | **Instruction Register (IR)**     | Holds the current instruction being decoded and executed                 |
 | **Status Register (Flags)**       | Stores flags such as Zero, Carry, Negative, Overflow from ALU operations |
 
-<aside aria-label="Registers are the fastest memory in a computer system — orders of magnitude faster than RAM." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Registers are the fastest memory in a computer system — orders of magnitude faster than RAM.</p>
+<aside class="starlight-aside starlight-aside--note">
 A typical CPU has a small number of general-purpose registers (8--32 in most architectures).
 </aside>
 ### Memory Types
@@ -60,12 +60,12 @@ A typical CPU has a small number of general-purpose registers (8--32 in most arc
 | **SSD**          | NAND flash memory via SATA/NVMe                   | 500 MB/s -- 7 GB/s (NVMe) | 256 GB -- 4 TB  | Medium-High | Non-volatile |
 | **Flash Memory** | NAND flash (USB drives, SD cards)                 | 10--300 MB/s              | 1 GB -- 1 TB    | Medium      | Non-volatile |
 
-:::caution[Exam Tip] When comparing storage, consider all five criteria: speed, capacity, cost per
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip When comparing storage, consider all five criteria: speed, capacity, cost per</strong>
 GB, volatility, and durability. HDDs are cheaper per GB but slower and more fragile (moving parts).
 SSDs are faster with no moving parts but more expensive per GB.
 
-:::
-
+</aside>
 ---
 
 ## Input Devices
@@ -184,13 +184,13 @@ When the CPU needs data, it checks L1 first, then L2, then L3, then RAM. If the 
 Cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
 Memory.
 
-:::caution[Exam Tip] The DSE syllabus focuses on Von Neumann. Know why it has a bottleneck (CPU
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip The DSE syllabus focuses on Von Neumann. Know why it has a bottleneck (CPU</strong>
 Waits for memory) and how Harvard architecture addresses this. Most modern CPUs use a modified
 Harvard architecture internally (separate L1 caches for instructions and data) while presenting a
 Von Neumann model externally.
 
-:::
-
+</aside>
 ---
 
 ## The Fetch-Decode-Execute Cycle
@@ -360,13 +360,13 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 | 15      | 0001 0101      |
 | 127     | 0001 0010 0111 |
 
-:::caution[Exam Tip] BCD is different from pure binary. The decimal number 15 in pure binary is
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip BCD is different from pure binary. The decimal number 15 in pure binary is</strong>
 `1111`But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
 Decimal digit must be preserved exactly.
 
-:::
-
+</aside>
 ### Conversions
 
 **Decimal to Binary:** Repeatedly divide by 2, record remainders from bottom to top.
@@ -430,7 +430,7 @@ $185_{10} = 000110000101_{BCD}$
 - UTF-16: 2 or 4 bytes per character.
 - UTF-32: fixed 4 bytes per character.
 
-<aside aria-label="Key difference: ASCII uses 1 byte per character and covers only English and basic symbols." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Key difference: ASCII uses 1 byte per character and covers only English and basic symbols.</p>
+<aside class="starlight-aside starlight-aside--note">
 Unicode covers all writing systems but uses more storage. UTF-8 is the most widely used encoding on
 The internet.
 

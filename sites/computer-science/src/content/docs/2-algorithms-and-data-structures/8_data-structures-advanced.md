@@ -244,7 +244,7 @@ rotations.
 
 </details>
 
-<aside aria-label="Common Pitfall The most common error in red-black tree deletion is forgetting to handle" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The most common error in red-black tree deletion is forgetting to handle</p>
+<aside class="starlight-aside starlight-aside--caution">
 the case where the node to be deleted has two children. In this case, one must find the successor
 (or predecessor), copy its key/value to the node being deleted, and then delete the successor node
 from its original position. The successor always has at most one child, simplifying the actual
@@ -422,7 +422,7 @@ height $h \leq \lceil \log_d(n) \rceil + 1$.
 | Height                | Higher                   | Lower                        |
 | Use case              | General-purpose          | Databases, file systems      |
 
-<aside aria-label="Common Pitfall Students often confuse the minimum degree $t$ of a B-tree with its order." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse the minimum degree $t$ of a B-tree with its order.</p>
+<aside class="starlight-aside starlight-aside--caution">
 A B-tree of order $m$ has maximum $m$ children per internal node, which means
 $t = \lceil m/2 \rceil$. A B-tree of minimum degree $t$ has maximum $2t - 1$ keys per node. Always
 verify which convention the question or textbook uses.
@@ -914,7 +914,7 @@ decrease-key, the actual cost is $O(c)$ where $c$ is the number of cascading cut
 potential is at most $c + 2 - 2m'(H) \cdot (\text{terms} cancel)$Giving $O(1)$ amortised.
 $\blacksquare$
 
-<aside aria-label="Common Pitfall Fibonacci heaps have excellent amortised bounds but poor constant factors" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Fibonacci heaps have excellent amortised bounds but poor constant factors</p>
+<aside class="starlight-aside starlight-aside--caution">
 in practice due to the overhead of maintaining the root list, marking nodes, and consolidation. For
 this reason, binary heaps (or pairing heaps) are often preferred in practice despite worse
 theoretical amortised bounds for decrease-key.
@@ -1304,7 +1304,7 @@ A good potential function satisfies:
 
 ### 7.3 Limitations of Amortised Analysis
 
-<aside aria-label="Common Pitfall Amortised bounds do **not** guarantee worst-case performance for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Amortised bounds do **not** guarantee worst-case performance for</p>
+<aside class="starlight-aside starlight-aside--caution">
 individual operations. In real-time systems, an $O(n)$ operation (even if amortised $O(1)$) may
 violate timing constraints. For real-time applications, use data structures with worst-case bounds
 (e.g., balanced BSTs instead of splay trees, or dynamic arrays with geometric resizing only when

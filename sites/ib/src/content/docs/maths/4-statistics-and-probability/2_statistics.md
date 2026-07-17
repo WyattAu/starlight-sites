@@ -44,8 +44,8 @@ Mode.
 | Median  | Robust to outliers                         | Does not use all data      |
 | Mode    | Simple, useful for categorical data        | May not exist or be unique |
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Find the mean, median, and mode of: $3, 5, 5, 7, 8, 9, 12, 15, 45$.
 
 **Mean**: $\bar{x} = \dfrac{3+5+5+7+8+9+12+15+45}{9} = \dfrac{109}{9} \approx 12.1$
@@ -104,9 +104,9 @@ $$
 S^2 = \frac{\sum x_i^2 - n\bar{x}^2}{n - 1} = \frac{n\sum x_i^2 - (\sum x_i)^2}{n(n-1)}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the standard deviation of: $4, 8, 6, 5, 3, 8, 9, 2, 7$.
 
 $$
@@ -126,9 +126,9 @@ S \approx 2.438
 $$
 
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 Know whether to use the population formula ($\div N$) or the sample formula ($\div (n-1)$). In IB
 Exams, when data is from a sample, use $s^2$ (dividing by $n-1$). Your GDC uses the sample Formula
 by default.
@@ -164,9 +164,9 @@ Where:
 - $f$ = frequency of median class
 - $w$ = class width
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 | Mass (g)           | Frequency |
 | ------------------ | --------- |
 | $0 \le m \lt 20$   | 5         |
@@ -228,9 +228,9 @@ Plot cumulative frequency against the upper class boundary. From this graph, you
 - Quartiles: at $\dfrac{n}{4}$ and $\dfrac{3n}{4}$
 - Percentiles: at the appropriate fraction of $n$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Using the grouped data from the previous example:
 
 | Upper boundary | Cumulative frequency |
@@ -288,9 +288,9 @@ $$
 R = \frac{n\sum x_iy_i - \sum x_i \sum y_i}{\sqrt{[n\sum x_i^2 - (\sum x_i)^2][n\sum y_i^2 - (\sum y_i)^2]}}
 $$
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 Correlation does NOT imply causation. Two variables may be strongly correlated without one causing
 The other (they may both be influenced by a third variable).
 
@@ -340,9 +340,9 @@ $r^2$ represents the proportion of variance in $y$ explained by the linear relat
 - $r^2 = 1$: the line explains all the variation.
 - $r^2 = 0$: the line explains none of the variation.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Given the data:
 
 | $x$ | 1   | 2   | 3   | 4   | 5    |
@@ -379,9 +379,9 @@ Regression line: $y = 0.05 + 1.99x$.
 - **Interpolation**: predicting within the range of data (generally reliable).
 - **Extrapolation**: predicting outside the range of data (unreliable and potentially misleading).
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 Never extrapolate beyond the data range without acknowledging the uncertainty. IB exam questions
 Often ask you to comment on the reliability of a prediction.
 
@@ -437,9 +437,9 @@ $$
 
 Which follows a $t$-distribution with $n - 2$ degrees of freedom.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A sample of 12 students gives a correlation coefficient of $r = 0.85$ between hours studied and exam
 Score. Test at the 5% significance level whether there is a positive correlation.
 
@@ -474,9 +474,9 @@ $$
 **Degrees of freedom**: $\nu = (r-1)(c-1)$ where $r$ is the number of rows and $c$ is the number of
 Columns.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Test whether gender and favourite subject are independent:
 
 |        | Maths | Science | English | Total |
@@ -514,9 +514,9 @@ Critical value at $\alpha = 0.05$ with $\nu = 2$: $5.99$.
 Since $13.33 \gt 5.99$We reject $H_0$. Gender and favourite subject are not independent.
 
 
-:::
-:::caution[Exam Tip]
-
+</aside>
+<aside class="starlight-aside starlight-aside--caution">
+<strong>Exam Tip</strong>
 For the chi-squared test, always check that all expected frequencies are at least 5. If any
 $E_i \lt 5$Combine categories or note the limitation.
 
@@ -616,9 +616,9 @@ $170\mathrm{ cm}$.
 | Regression slope | $b = \dfrac{n\sum x_iy_i - \sum x_i \sum y_i}{n\sum x_i^2 - (\sum x_i)^2}$                                      |
 | Chi-squared      | $\chi^2 = \displaystyle\sum \dfrac{(O_i - E_i)^2}{E_i}$                                                         |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 For .../4-statistics-and-probability/2_statistics questions in Paper 2, always show your working.
 State hypotheses for Hypothesis tests. When using your GDC, note what function you used and the
 inputs. Interpret results In context — never leave a numerical answer without explaining what it
@@ -650,9 +650,9 @@ $$
 Z = \frac{x - \bar{x}}{s}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 In a test with mean 65 and standard deviation 8, a student scores 81. Find the z-score.
 
 $$
@@ -691,9 +691,9 @@ If $\ln y$ vs $x$ gives a straight line, then $y = ae^{bx}$ where:
 - $b$ is the gradient
 - $\ln a$ is the $y$-intercept
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Data suggests $y$ is related to $x$ by $y = ax^b$. A plot of $\log y$ vs $\log x$ has gradient $1.5$
 And $y$-intercept $0.7$. Find the relationship.
 
@@ -829,9 +829,9 @@ $$
 
 Where $z_p$ is the z-score such that $P(Z \lt z_p) = p/100$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Scores on a test are normally distributed with $\mu = 72$ and $\sigma = 8$. Find the 90th
 Percentile.
 
@@ -845,8 +845,7 @@ $$
 
 A score of 82.26 is at the 90th percentile.
 
-:::
-
+</aside>
 ---
 
 ## Data Collection Methods
@@ -878,7 +877,7 @@ A score of 82.26 is at the 90th percentile.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Statistics**? The" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Statistics**? The</p>
+<aside class="starlight-aside starlight-aside--tip">
 contains the hardest questions within the IB specification for this topic, each with a full worked
 solution.
 

@@ -47,7 +47,7 @@ The standard defines three clocks [N4950 §29.5.7]:
 | `std::chrono::steady_clock`          | Monotonic; never goes backwards; minimum guaranteed tick period is 1 nanosecond  | Measuring elapsed time, timeouts      |
 | `std::chrono::high_resolution_clock` | Alias for the clock with the shortest tick period (often `steady_clock`)         | Benchmarking                          |
 
-<aside aria-label="`system_clock::now()` can jump backwards if the system clock is adjusted (e.g., NTP" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`system_clock::now()` can jump backwards if the system clock is adjusted (e.g., NTP</p>
+<aside class="starlight-aside starlight-aside--caution">
 Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time** — it
 Can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
 </aside>
@@ -102,7 +102,7 @@ void duration_arithmetic() {
 }
 ```
 
-<aside aria-label="`std::chrono::duration_cast&lt;D>(d)` performs a truncating conversion. Use" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`std::chrono::duration_cast&lt;D>(d)` performs a truncating conversion. Use</p>
+<aside class="starlight-aside starlight-aside--note">
 `std::chrono::floor&lt;D>()``std::chrono::ceil&lt;D>()`Or `std::chrono::round&lt;D>()` (C++17) For
 rounding conversions. These are declared in `<chrono>` [N4950 §29.5.4].
 </aside>
@@ -166,7 +166,7 @@ void timer_class_demo() {
 }
 ```
 
-<aside aria-label="The Timer class uses RAII — the elapsed time is printed in the destructor, so it works" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The Timer class uses RAII — the elapsed time is printed in the destructor, so it works</p>
+<aside class="starlight-aside starlight-aside--tip">
 Correctly even when the scope is exited via an exception. This pattern is used in many C++
 Benchmarking and logging frameworks.
 </aside>
@@ -271,7 +271,7 @@ void format_time_demo() {
 }
 ```
 
-<aside aria-label="The timezone database (`tzdb`) is loaded from the system's IANA timezone database (" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The timezone database (`tzdb`) is loaded from the system's IANA timezone database (</p>
+<aside class="starlight-aside starlight-aside--note">
 `/usr/share/zoneinfo/` on Linux). On systems without a system timezone database, the C++ runtime may
 Provide a minimal built-in database. Call `std::chrono::reload_tzdb()` to reload the database after
 A system update.
@@ -357,7 +357,7 @@ void ratio_details() {
 }
 ```
 
-<aside aria-label="`std::common_type_t<seconds, seconds>` is `seconds`Not `int`. The `Rep` type is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::common_type_t<seconds, seconds>` is `seconds`Not `int`. The `Rep` type is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Preserved. But `std::common_type_t<seconds, milliseconds>` is `milliseconds` because milliseconds
 Has a finer period. The common type always has the **shortest** (finest) period among the inputs
 [N4950 §29.5.3].
@@ -457,7 +457,7 @@ void time_t_conversion() {
 }
 ```
 
-<aside aria-label="`std::time_t` has only 1-second resolution. Converting `time_point` → `time_t` →" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::time_t` has only 1-second resolution. Converting `time_point` → `time_t` →</p>
+<aside class="starlight-aside starlight-aside--caution">
 `time_point` loses sub-second precision. On systems where `time_t` is 32-bit, dates beyond
 2038-01-19 cannot be represented (the Year 2038 problem). Modern 64-bit systems use a 64-bit
 `time_t`.
@@ -555,7 +555,7 @@ void sleep_demo() {
 }
 ```
 
-<aside aria-label="`sleep_for` and `sleep_until` can oversleep due to OS scheduling. The actual sleep" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`sleep_for` and `sleep_until` can oversleep due to OS scheduling. The actual sleep</p>
+<aside class="starlight-aside starlight-aside--caution">
 Duration is a lower bound, not a guarantee. For high-precision timing (sub-millisecond), use
 Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 </aside>

@@ -249,7 +249,7 @@ With each chlorine, and retains one lone pair. The structure is analogous to amm
 | Do NOT conduct electricity           | No free ions or electrons                                             |
 | gases or liquids at room temperature | Weak forces between molecules                                         |
 
-<aside aria-label="It is the **intermolecular forces** that are overcome when a simple covalent substance" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>It is the **intermolecular forces** that are overcome when a simple covalent substance</p>
+<aside class="starlight-aside starlight-aside--caution">
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
 Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
 Atoms -- this does not happen during melting or boiling.
@@ -512,7 +512,7 @@ Given the type of bonding, you should be able to predict:
 | Solid to gas    | Sublimation         | Energy absorbed |
 | Gas to solid    | Deposition          | Energy released |
 
-<aside aria-label="Changes of state are **physical** changes, not chemical changes. No new substances are" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Changes of state are **physical** changes, not chemical changes. No new substances are</p>
+<aside class="starlight-aside starlight-aside--note">
 Formed, and the process is reversible. The identity of the substance does not change; only the
 Arrangement and energy of its particles.
 </aside>

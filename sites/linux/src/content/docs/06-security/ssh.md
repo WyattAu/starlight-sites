@@ -423,7 +423,7 @@ Host internal
     ForwardAgent yes
 ```
 
-<aside aria-label="Agent forwarding allows the remote server to use your local SSH agent to authenticate to other" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Agent forwarding allows the remote server to use your local SSH agent to authenticate to other</p>
+<aside class="starlight-aside starlight-aside--danger">
 Servers. If the remote server is compromised, an attacker can use your forwarded agent to
 Authenticate to any server your keys have access to. Only enable ForwardAgent when necessary, and
 Prefer SSH certificates or ProxyJump for multi-hop access.

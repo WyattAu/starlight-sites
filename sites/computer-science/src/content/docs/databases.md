@@ -598,7 +598,7 @@ cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input,))
 4. **ORM frameworks:** Use an ORM (e.g., SQLAlchemy, Django ORM) that generates parameterised
    queries by default.
 
-<aside aria-label="Common Pitfall Even if you escape single quotes in user input, this is not a reliable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Even if you escape single quotes in user input, this is not a reliable</p>
+<aside class="starlight-aside starlight-aside--caution">
 defence against SQL injection. Use parameterised queries instead. Escape-based defences are fragile
 and have been bypassed by Encoding tricks (e.g., multibyte character exploits).
 </aside>
@@ -871,7 +871,7 @@ Synthesis algorithm avoids this issue.
 
 </details>
 
-<aside aria-label="Common Pitfall Do not confuse partial dependency (2NF violation) with transitive" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse partial dependency (2NF violation) with transitive</p>
+<aside class="starlight-aside starlight-aside--caution">
 dependency (3NF violation). A Partial dependency involves a **proper subset** of a candidate key
 determining a non-prime attribute. A transitive dependency involves a non-key attribute determining
 another non-prime attribute.

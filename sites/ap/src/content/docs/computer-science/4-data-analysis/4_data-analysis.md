@@ -101,8 +101,8 @@ for (int r = 0; r < grid.length; r++) {
 }
 ```
 
-:::info[Example: Row and Column Sums]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Row and Column Sums</strong>
 ```java
 public static int[] rowSums(int[][] grid) {
     int[] sums = new int[grid.length];
@@ -116,9 +116,9 @@ public static int[] rowSums(int[][] grid) {
 ```
 
 
-:::
-:::info[Example: Transpose a Matrix]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Transpose a Matrix</strong>
 ```java
 public static int[][] transpose(int[][] matrix) {
     int rows = matrix.length;
@@ -181,9 +181,9 @@ s = s.toUpperCase();
 **Why immutability matters.** Because strings are immutable, Java can share string literals. If two
 Variables hold the same string literal, they may point to the same object in memory.
 
-:::
-:::info[Example: Reversing a String]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example: Reversing a String</strong>
 ```java
 public static String reverse(String s) {
     String result = "";
@@ -204,8 +204,7 @@ public static String reverseEfficient(String s) {
 }
 ```
 
-:::
-
+</aside>
 ## Data Analysis Concepts (CED Unit 3)
 
 ### Processing Data
@@ -339,7 +338,7 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-<aside aria-label="Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)</p>
+<aside class="starlight-aside starlight-aside--caution">
 During iteration. Use an Iterator or iterate backwards with an index.
 </aside>
 ```java
@@ -695,7 +694,7 @@ for (String name : names) {
 
 ### Modifying ArrayList During Iteration
 
-<aside aria-label="Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Using `for-each` or an enhanced for loop, you cannot modify the ArrayList (add/remove)</p>
+<aside class="starlight-aside starlight-aside--caution">
 During iteration. Use an Iterator or iterate backwards with an index.
 
 ```java

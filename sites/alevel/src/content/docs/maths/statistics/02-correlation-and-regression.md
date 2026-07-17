@@ -19,7 +19,7 @@ categories:
 | OCR (A)    | Paper 1 | Similar                             |
 | CIE (9709) | P1, P6  | Correlation and regression in P1/P6 |
 
-<aside aria-label="The formula booklet gives the formula for PMCC and the least squares regression line. You" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The formula booklet gives the formula for PMCC and the least squares regression line. You</p>
+<aside class="starlight-aside starlight-aside--note">
 Must be able to interpret these and understand their limitations.
 </aside>
 <hr />
@@ -46,7 +46,7 @@ $$S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
 - $r = 0$: no linear correlation (but there may be non-linear relationship)
 - $r$ measures the strength of **linear** relationship only
 
-<aside aria-label="Correlation does not imply causation. Two variables may be strongly correlated because" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Correlation does not imply causation. Two variables may be strongly correlated because</p>
+<aside class="starlight-aside starlight-aside--caution">
 They are both influenced by a third (confounding) variable, or by coincidence.
 </aside>
 ### 1.3 Real-World Applications
@@ -173,7 +173,7 @@ Properties:
 
 ### 5.2 Extrapolation
 
-<aside aria-label="The regression line should only be used for **interpolation** (predicting within the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The regression line should only be used for **interpolation** (predicting within the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Range of the data). **Extrapolation** (predicting outside the data range) is unreliable because the
 Linear relationship may not hold.
 </aside>
@@ -584,7 +584,7 @@ A large amount.
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Correlation and Regression**? The contains the" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Correlation and Regression**? The contains the</p>
+<aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Correlation

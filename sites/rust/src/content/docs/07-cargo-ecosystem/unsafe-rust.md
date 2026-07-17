@@ -112,7 +112,7 @@ unsafe {
 assert_eq!(arr, [20, 40, 60, 80, 100]);
 ```
 
-<aside aria-label="Pointer arithmetic that goes out of bounds of the allocated object is undefined behavior, even if" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Pointer arithmetic that goes out of bounds of the allocated object is undefined behavior, even if</p>
+<aside class="starlight-aside starlight-aside--danger">
 The resulting pointer is not dereferenced. `ptr.add(len)` is UB if the pointer does not point to an
 Allocation of at least `len` elements.
 
@@ -203,7 +203,7 @@ unsafe impl Sync for MyType {}
 ```
 
 </aside>
-<aside aria-label="Manually implementing `Send` or `Sync` incorrectly causes data races, which are undefined behavior." class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Manually implementing `Send` or `Sync` incorrectly causes data races, which are undefined behavior.</p>
+<aside class="starlight-aside starlight-aside--danger">
 Only do this when you can rigorously prove thread safety. This requires that the raw Pointer is only
 accessed through a synchronization mechanism (mutex, atomic, etc.) that the compiler Cannot see.
 
@@ -455,7 +455,7 @@ impl<'a> Interner<'a> {
 ```
 
 </aside>
-<aside aria-label="The `intern` method uses `std::mem::forget` to leak memory intentionally. The returned `&'a str` has" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>The `intern` method uses `std::mem::forget` to leak memory intentionally. The returned `&'a str` has</p>
+<aside class="starlight-aside starlight-aside--danger">
 A lifetime tied to the arena, which is correct as long as the arena outlives all interned
 References. If the arena is dropped while interned references exist, they become dangling.
 
@@ -654,7 +654,7 @@ impl Buffer {
 ```
 
 </aside>
-<aside aria-label="`assume_init()` is `unsafe` because reading uninitialized memory is UB. You must ensure that every" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`assume_init()` is `unsafe` because reading uninitialized memory is UB. You must ensure that every</p>
+<aside class="starlight-aside starlight-aside--danger">
 Byte of the `MaybeUninit` has been written to before calling `assume_init()`. Use `write_bytes`
 Individual `write()` calls, or `ptr::copy_nonoverlapping` to initialize the memory.
 

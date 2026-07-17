@@ -102,7 +102,7 @@ The key guarantee: all threads spawned within `scope` are joined before `scope` 
 Borrowed data is guaranteed to be valid for the lifetime of the scoped threads, eliminating the need
 For `'static` bounds.
 
-<aside aria-label="Scoped threads are preferred over manual `thread::spawn` + `join` when threads need to borrow data" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Scoped threads are preferred over manual `thread::spawn` + `join` when threads need to borrow data</p>
+<aside class="starlight-aside starlight-aside--note">
 From the parent scope. They are safer (no `'static` requirement) and more ergonomic.
 
 
@@ -353,7 +353,7 @@ fn reader() {
 ```
 
 </aside>
-<aside aria-label="`Relaxed` ordering is sufficient for simple counters but incorrect for producer-consumer patterns" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`Relaxed` ordering is sufficient for simple counters but incorrect for producer-consumer patterns</p>
+<aside class="starlight-aside starlight-aside--caution">
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
 Correct visibility semantics. Use `SeqCst` when you are unsure — it is the safest but slowest
 Option.
@@ -655,7 +655,7 @@ async fn main() {
 ```
 
 </aside>
-<aside aria-label="`select!` drops all non-selected futures. If you need to retry the other branches, you must" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`select!` drops all non-selected futures. If you need to retry the other branches, you must</p>
+<aside class="starlight-aside starlight-aside--caution">
 Restructure your code to recreate the futures. This is a common source of confusion for developers
 Coming from JavaScript's `Promise.race`.
 
@@ -814,7 +814,7 @@ async fn main() {
 ```
 
 </aside>
-<aside aria-label="Do NOT use `std::sync::Mutex` in async code. Holding a `std::sync::Mutex` across an `.await` point" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do NOT use `std::sync::Mutex` in async code. Holding a `std::sync::Mutex` across an `.await` point</p>
+<aside class="starlight-aside starlight-aside--caution">
 Blocks the entire OS thread, preventing other async tasks from running. Use `tokio::sync::Mutex` for
 Async contexts. However, if the critical section is short and does not contain any `.await`A
 `std::sync::Mutex` is acceptable and has lower overhead.
@@ -852,7 +852,7 @@ unsafe impl Sync for MyType {}
 ```
 
 </aside>
-<aside aria-label="Manually implementing `Send` or `Sync` is unsafe because you are asserting that the compiler's" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Manually implementing `Send` or `Sync` is unsafe because you are asserting that the compiler's</p>
+<aside class="starlight-aside starlight-aside--danger">
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
 Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler

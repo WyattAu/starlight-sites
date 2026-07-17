@@ -98,7 +98,7 @@ Likely with the buffer pool, 4 cache lookups.
 - If the parent underflows, recurse upward
 - If the root has one child and is an internal node, the child becomes the new root
 
-<aside aria-label="PostgreSQL does not immediately reclaim space from page splits. Empty space on B-tree pages is" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>PostgreSQL does not immediately reclaim space from page splits. Empty space on B-tree pages is</p>
+<aside class="starlight-aside starlight-aside--note">
 Reused by future inserts, but the pages themselves are not returned to the OS until `VACUUM FULL` or
 `pg_repack`. This is why B-tree indexes can become bloated after heavy UPDATE/DELETE workloads.
 
@@ -221,7 +221,7 @@ CREATE INDEX idx_transactions_large ON transactions (account_id, created_at)
 ```
 
 </aside>
-<aside aria-label="Partial indexes are one of the most underused optimisation tools. If your queries consistently" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Partial indexes are one of the most underused optimisation tools. If your queries consistently</p>
+<aside class="starlight-aside starlight-aside--tip">
 Filter on a condition (e.g., `status = 'active'`), a partial index can be 10-100x smaller than a
 Full index while providing the same query performance. The key insight: **do not index data your
 Queries never look for.**
@@ -590,7 +590,7 @@ Pool modes:
 | `statement`   | Server connection returned to pool after each statement (limited, breaks prepared statements) |
 
 </aside>
-<aside aria-label="Transaction-mode pooling with PgBouncer is the standard for web applications. It allows thousands of" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Transaction-mode pooling with PgBouncer is the standard for web applications. It allows thousands of</p>
+<aside class="starlight-aside starlight-aside--tip">
 Client connections to share a small pool of server connections ( 25-100). The caveat: Prepared
 statements that are scoped to a server connection may not work as expected, because a Subsequent
 transaction might use a different server connection.
@@ -678,7 +678,7 @@ REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 ```
 
 </aside>
-<aside aria-label="`REFRESH MATERIALIZED VIEW CONCURRENTLY` requires a UNIQUE index on the materialized view. It" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`REFRESH MATERIALIZED VIEW CONCURRENTLY` requires a UNIQUE index on the materialized view. It</p>
+<aside class="starlight-aside starlight-aside--note">
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
 But does not block concurrent reads.
 
@@ -753,7 +753,7 @@ DEALLOCATE get_orders_by_customer;
 ```
 
 </aside>
-<aside aria-label="In PostgreSQL, the planner generates a **generic plan** after 5 executions of a prepared statement." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In PostgreSQL, the planner generates a **generic plan** after 5 executions of a prepared statement.</p>
+<aside class="starlight-aside starlight-aside--caution">
 The generic plan does not use the specific parameter values for planning, which can lead to
 Suboptimal plans if the parameter values significantly affect selectivity (e.g., a status column
 Where 'pending' has 5 rows and 'completed' has 5 million rows). Monitor with `pg_stat_statements`

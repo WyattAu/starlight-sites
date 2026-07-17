@@ -190,7 +190,7 @@ Speed. Uses workshops, focus groups, and iterative user testing.
 | Cost of change   | High       | Low       | Medium    | Low       |
 | Best for         | Stable req | Evolving  | High-risk | Fast dev  |
 
-<aside aria-label="Board-specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific</p>
+<aside class="starlight-aside starlight-aside--note">
 - **AQA** requires understanding of waterfall, agile, spiral, and rapid application development
   (RAD) methodologies; requires comparison of approaches
 - **CIE (9618)** covers waterfall and agile methodologies; may include iterative development

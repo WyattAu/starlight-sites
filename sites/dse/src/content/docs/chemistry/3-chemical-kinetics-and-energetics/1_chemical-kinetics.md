@@ -52,7 +52,7 @@ Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit ti
 2. **Inverted burette over water:** Useful for insoluble gases. Volume read from burette.
 3. **Mass loss method:** The flask is placed on a balance; the mass decreases as gas escapes.
 
-<aside aria-label="The mass loss method only works if the gas escapes the flask. If the flask is sealed, no" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The mass loss method only works if the gas escapes the flask. If the flask is sealed, no</p>
+<aside class="starlight-aside starlight-aside--caution">
 Mass change occurs. Also, ensure the reaction does not produce heat that would affect the balance
 Reading.
 </aside>
@@ -169,7 +169,7 @@ $$\frac{\mathrm{Fraction with } E \geq E_a \mathrm{ at } T_2}{\mathrm{Fraction w
 The $E_a$ line shifts to the left on the Maxwell-Boltzmann distribution. More particles now have
 Energy $\geq E_a$ (the new, lower activation energy), so the rate increases.
 
-<aside aria-label="A catalyst does NOT change the distribution itself. It only lowers the threshold. The curve" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>A catalyst does NOT change the distribution itself. It only lowers the threshold. The curve</p>
+<aside class="starlight-aside starlight-aside--note">
 Shape remains the same at the same temperature.
 </aside>
 ### Key DSE Exam Points

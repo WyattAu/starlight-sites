@@ -361,7 +361,7 @@ T address_taken() {
 NRVO is an optimization. At `-O0`Compilers do not perform it. Always ensure your move Constructors
 are correct, because NRVO may not apply.
 
-<aside aria-label="NRVO can be inhibited by multiple return paths returning different named variables, by" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>NRVO can be inhibited by multiple return paths returning different named variables, by</p>
+<aside class="starlight-aside starlight-aside--caution">
 Returning a function parameter, or by certain compiler flags. Always write code that is correct even
 If NRVO fails — which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
@@ -439,7 +439,7 @@ When a prvalue is bound to a `const T&` or a `T&&`The lifetime of the materializ
 Extended to match the lifetime of the reference [N4950 S11.4.7]. This is called **temporary lifetime
 Extension**.
 
-<aside aria-label="Lifetime extension applies only when the reference is directly bound to the prvalue. If" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Lifetime extension applies only when the reference is directly bound to the prvalue. If</p>
+<aside class="starlight-aside starlight-aside--caution">
 The prvalue is passed through an intermediate function or stored in a member, lifetime extension
 Does **not** propagate.
 </aside>

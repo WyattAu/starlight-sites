@@ -119,7 +119,7 @@ int main() {
 }
 ```
 
-<aside aria-label="Discarded Statements and ODR A discarded statement is not instantiated, which means it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Discarded Statements and ODR A discarded statement is not instantiated, which means it</p>
+<aside class="starlight-aside starlight-aside--caution">
 Does not participate in the One Definition Rule (ODR) for the discarded path. However, the
 Non-discarded path is still subject to all normal C++ rules. Be careful with side effects in
 `if constexpr` branches --- a discarded branch that would have had a side effect does not execute,
@@ -272,7 +272,7 @@ Output:
 (1, hello, 3.14)
 ```
 
-<aside aria-label="`if constexpr` vs Template Specialization `if constexpr` is generally preferred over" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>`if constexpr` vs Template Specialization `if constexpr` is generally preferred over</p>
+<aside class="starlight-aside starlight-aside--tip">
 Full/partial template specialization for dispatching based on type properties because it keeps all
 Logic in a single function body, avoids code duplication, and is easier to maintain. Specialization
 Is still necessary when different types require fundamentally different function signatures or
@@ -392,7 +392,7 @@ Output:
 http
 ```
 
-<aside aria-label="`consteval` vs `constexpr` Use `constexpr` when the function should be usable at both" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`consteval` vs `constexpr` Use `constexpr` when the function should be usable at both</p>
+<aside class="starlight-aside starlight-aside--note">
 Compile time and runtime. Use `consteval` when the function is intended only for compile-time
 Computation and should never appear in the generated binary. `consteval` functions can call other
 `consteval` and `constexpr` functions, but a `constexpr` function cannot call a `consteval` function
@@ -530,7 +530,7 @@ Primes up to 50: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
 HELLO CONSTEXPR WORLD
 ```
 
-<aside aria-label="Transient Allocations C++20 permits dynamic allocation in `constexpr` evaluation, but all" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Transient Allocations C++20 permits dynamic allocation in `constexpr` evaluation, but all</p>
+<aside class="starlight-aside starlight-aside--caution">
 Allocations must be **transient** --- they must be deallocated before the end of the constant
 Evaluation. The result of a `constexpr` function must not contain heap allocations
 (pointers/references to the heap). This is why `constexpr std::vector<int> v{1, 2, 3};` is valid as

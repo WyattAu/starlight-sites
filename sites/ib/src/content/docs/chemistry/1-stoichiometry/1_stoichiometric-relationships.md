@@ -48,8 +48,8 @@ Where $m$ is the mass in grams.
 | NaCl        | 58.44              |
 | H$_2$SO$_4$ | 98.08              |
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the number of molecules in $5.0\mathrm{ g}$ of water.
 
 $$
@@ -87,9 +87,9 @@ Where $n$ is an integer.
 4. Round to the nearest whole number (or multiply to get integers).
 5. Write the empirical formula.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Find its
 Empirical formula.
 
@@ -122,9 +122,9 @@ To find the number of water molecules:
 3. Calculate moles of anhydrous salt and moles of water.
 4. Find the ratio.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 $12.5\mathrm{ g}$ of hydrated copper(II) sulfate, CuSO$_4$, $\cdot$xH$_2$O, is heated to give
 $8.0\mathrm{ g}$ of anhydrous CuSO$_4$. Find $x$.
 
@@ -163,9 +163,9 @@ Sides (conservation of mass).
 5. Check that all elements are balanced.
 6. Ensure coefficients are in the lowest whole-number ratio.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Balance the combustion of propane:
 
 Unbalanced: C$_3$H$_8$ + O$_2$ $\to$ CO$_2$ + H$_2$O
@@ -184,9 +184,9 @@ Check: 3C, 8H, 10O on each side. Balanced.
 Spectator ions (ions that appear unchanged on both sides) can be removed to give a **net ionic
 Equation**.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 AgNO$_3$(aq) + NaCl(aq) $\to$ AgCl(s) + NaNO$_3$(aq)
 
 Full ionic: Ag$^+$(aq) + NO$_3^-$ + Na$^+$ + Cl$^-$ $\to$ AgCl(s) + Na$^+$ + NO$_3^-$
@@ -209,9 +209,9 @@ The maximum amount of product formed.
 2. Determine which reactant is limiting (divide moles by stoichiometric coefficient).
 3. Use the limiting reagent to calculate the amount of product.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 $5.0\mathrm{ g}$ of iron reacts with $3.0\mathrm{ g}$ of sulfur: Fe + S $\to$ FeS.
 
 $$
@@ -239,9 +239,9 @@ $$
 \mathrm{Percentage yield} = \frac{\mathrm{actual yield}}{\mathrm{theoretical yield}} \times 100\%
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 If $6.5\mathrm{ g}$ of FeS was actually produced in the previous example:
 
 $$
@@ -308,9 +308,9 @@ $22.7\mathrm{ L}$.
 
 At RTP ($25\degree\mathrm{C}$, $100\mathrm{ kPa}$), one mole occupies $24.8\mathrm{ L}$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate the volume occupied by $2.5\mathrm{ mol}$ of gas at $25\degree\mathrm{C}$ and
 $1.2\mathrm{ atm}$.
 
@@ -385,9 +385,9 @@ $$
 \mathrm{ppm} = \frac{m_{\mathrm{solute}}}{m_{\mathrm{solution}}} \times 10^6
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 What is the concentration of a solution made by dissolving $10.0\mathrm{ g}$ of NaCl in enough water
 To make $250\mathrm{ mL}$ of solution?
 
@@ -406,9 +406,9 @@ $$
 C_1 V_1 = c_2 V_2
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 What volume of $6.0\mathrm{ M}$ HCl is needed to make $500\mathrm{ mL}$ of $0.50\mathrm{ M}$ HCl?
 
 $$
@@ -431,9 +431,9 @@ A standard solution is one of accurately known concentration. To prepare:
 Titration is used to determine the concentration of an unknown solution by reacting it with a
 Standard solution.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 $25.0\mathrm{ mL}$ of NaOH is titrated with $0.100\mathrm{ M}$ HCl. The endpoint is reached at
 $20.0\mathrm{ mL}$ of HCl. Find the concentration of NaOH.
 
@@ -549,9 +549,9 @@ $$
 | Dilution         | $c_1V_1 = c_2V_2$                                            |
 | Percentage yield | $\dfrac{\mathrm{actual}}{\mathrm{theoretical}} \times 100\%$ |
 
-:::
-:::tip[Exam Strategy]
-
+</aside>
+<aside class="starlight-aside starlight-aside--tip">
+<strong>Exam Strategy</strong>
 Always show your working with units. For gas calculations, ensure temperature is in Kelvin. For
 Titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
 volume at STP is 22.7 L/mol and at RTP is 24.8 L/mol.
@@ -586,9 +586,9 @@ $$
 \frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Compare the rates of diffusion of He (4 g/mol) and O$_2$ (32 g/mol).
 
 $$
@@ -612,9 +612,9 @@ $$
 \rho = \frac`\{PM}``\{RT}`
 $$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A gas has a density of $1.43\mathrm{ g/L}$ at STP. Find its molar mass.
 
 $$
@@ -667,9 +667,9 @@ Constants, and $m$ is molality.
 4. Repeat until constant mass is achieved.
 5. Calculate the moles of anhydrous salt and water.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 $12.5\mathrm{ g}$ of hydrated magnesium sulfate, MgSO$_4$, $\cdot$xH$_2$O, is heated to constant
 mass Of $6.1\mathrm{ g}$.
 
@@ -767,9 +767,9 @@ $$
 A back titration is used when the analyte cannot be directly titrated. An excess of a standard
 Reagent is added, and the unreacted portion is titrated.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 An antacid tablet contains CaCO$_3$. The tablet is dissolved in $50.0\mathrm{ cm}^3$ of
 $0.200\mathrm{ M}$ HCl (excess). The remaining acid requires $30.0\mathrm{ cm}^3$ of
 $0.100\mathrm{ M}$ NaOH for neutralisation.
@@ -816,9 +816,9 @@ Gravimetric analysis determines the amount of an analyte by measuring mass.
 3. Weigh the precipitate.
 4. Calculate the amount of analyte from stoichiometry.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A solution contains sulfate ions. BaCl$_2$ is added to precipitate BaSO$_4$. The precipitate is
 Filtered, dried, and weighed at $0.582\mathrm{ g}$.
 
@@ -1069,4 +1069,4 @@ $$
 linked above.
 
 
-:::
+</aside>

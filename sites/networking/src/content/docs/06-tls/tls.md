@@ -31,7 +31,7 @@ TLS 1.0 and 1.1 were officially deprecated by the IETF in June 2021 (RFC 8996). 
 Widely supported and is the minimum acceptable version for any new deployment. TLS 1.3 is the
 Recommended version for all new deployments.
 
-<aside aria-label="PCI DSS v4.0 (effective March 2025) requires TLS 1.2 or higher and deprecates TLS 1.0 and 1.1. Major" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>PCI DSS v4.0 (effective March 2025) requires TLS 1.2 or higher and deprecates TLS 1.0 and 1.1. Major</p>
+<aside class="starlight-aside starlight-aside--note">
 Browsers and cloud providers have already removed support for TLS 1.0 and 1.1.
 
 
@@ -129,7 +129,7 @@ Client                              Server
 ```
 
 </aside>
-<aside aria-label="0-RTT data is not protected against replay attacks. An attacker who captures a 0-RTT message can" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>0-RTT data is not protected against replay attacks. An attacker who captures a 0-RTT message can</p>
+<aside class="starlight-aside starlight-aside--caution">
 Replay it to the server. Do not use 0-RTT for non-idempotent requests (POST, PUT, DELETE). The
 Server should only accept 0-RTT data for idempotent operations (GET) and must implement replay
 Detection.
@@ -322,7 +322,7 @@ Intermediate) during the TLS handshake. If intermediate certificates are missing
 Not already have them cached will fail to validate the chain.
 
 </aside>
-<aside aria-label="The most common TLS configuration error is failing to include intermediate certificates in the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The most common TLS configuration error is failing to include intermediate certificates in the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Server's certificate chain. The server must send the complete chain (excluding the root). Test with:
 
 ```bash
@@ -506,7 +506,7 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 | ECDHE + X25519 | Yes             | Best performance                 |
 
 </aside>
-<aside aria-label="TLS 1.3 mandates forward secrecy for all connections. There is no way to configure TLS 1.3 without" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>TLS 1.3 mandates forward secrecy for all connections. There is no way to configure TLS 1.3 without</p>
+<aside class="starlight-aside starlight-aside--caution">
 Forward secrecy. If you are still using TLS 1.2, ensure you use ECDHE cipher suites (`TLS_ECDHE_*`).
 
 

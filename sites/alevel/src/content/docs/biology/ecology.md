@@ -390,7 +390,7 @@ To withstand and recover from disturbances.
 - **Rio Convention (1992)**: three linked conventions on biodiversity, climate change, and
   desertification.
 
-<aside aria-label="Warning They are complementary strategies. In situ is generally preferred because it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning They are complementary strategies. In situ is generally preferred because it</p>
+<aside class="starlight-aside starlight-aside--caution">
 conserves the entire Ecosystem and evolutionary processes, but ex situ is essential as a backup for
 species whose habitat Has been destroyed or whose population is too small to survive in the wild.
 </aside>
@@ -471,7 +471,7 @@ Ecological deficit. It is meeting the shortfall by importing resources, depletin
 Capital, or emitting waste that cannot be absorbed (e.g., $\mathrm{CO_2}$ exceeding absorption
 capacity).
 
-<aside aria-label="Common Pitfall Students sometimes calculate ecological efficiency as the fraction of" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes calculate ecological efficiency as the fraction of</p>
+<aside class="starlight-aside starlight-aside--caution">
 solar energy That reaches producers, rather than the fraction transferred between trophic levels.
 The ecological Efficiency between trophic levels is the fraction of energy at one level that is
 incorporated into Biomass at the next level ( 10--20%), not the fraction of total solar radiation
@@ -588,7 +588,7 @@ Estimated population size $= 400$ woodlice.
 - Marks are not lost.
 - Samples are random.
 
-<aside aria-label="Common Pitfall The Lincoln index assumes a closed population between the two sampling" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Lincoln index assumes a closed population between the two sampling</p>
+<aside class="starlight-aside starlight-aside--caution">
 events. If Organisms are born, die, migrate in, or migrate out between samples, the estimate will be
 inaccurate. If no marked individuals are recaptured ($n_3 = 0$), the method fails entirely.
 </aside>
@@ -1782,7 +1782,7 @@ Coevolution occurs when two species evolve in response to each other:
 
 ---
 
-<aside aria-label="Tip Ready to test your understanding of **Ecology**? The contains the hardest questions" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Tip Ready to test your understanding of **Ecology**? The contains the hardest questions</p>
+<aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Ecology

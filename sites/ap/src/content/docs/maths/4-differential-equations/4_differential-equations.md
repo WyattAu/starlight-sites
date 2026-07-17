@@ -52,8 +52,8 @@ Not every first-order DE is separable. The key diagnostic: can you algebraically
 A product of a function of $x$ alone and a function of $y$ alone? For example,
 $\frac{dy}{dx} = x + y$ is **not** separable, because $x + y$ cannot be factored into $g(x)h(y)$.
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Solve $\displaystyle\frac{dy}{dx} = \frac{x}{y}$ with $y(0) = 2$.
 
 Separate: $y\, dy = x\, dx$.
@@ -69,9 +69,9 @@ $$
 (We take the positive root since $y(0) = 2 \gt 0$.)
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Solve $\displaystyle\frac{dy}{dx} = 2xy$ with $y(0) = 3$.
 
 Separate: $\displaystyle\frac{dy}{y} = 2x\, dx$.
@@ -178,9 +178,9 @@ Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$We get $k = -\frac{\ln 2
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
 Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Carbon-14 has a half-life of approximately 5730 years. A bone fragment contains 25% of its original
 Carbon-14. How old is the fragment?
 
@@ -269,9 +269,9 @@ $$
 - The maximum growth rate occurs at the inflection point.
 - $\displaystyle\left.\frac{dy}{dt}\right|_{y = L/2} = \frac{kL}{4}$
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A population of bacteria grows logistically with carrying capacity 1000. Initially, there are 100
 Bacteria, and after 1 hour there are 200. Find the population after 3 hours.
 
@@ -315,9 +315,9 @@ The density of the grid determines how accurately the field represents the DE.
 - The slope field is unique to the DE, but multiple solution curves pass through different points.
 - Solution curves cannot cross (by the uniqueness theorem).
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For $\displaystyle\frac{dy}{dx} = x + y$:
 
 - At $(0, 0)$: slope = $0$
@@ -328,9 +328,9 @@ For $\displaystyle\frac{dy}{dx} = x + y$:
 The slopes increase as you move to the upper-right and decrease as you move to the lower-left.
 
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For $\displaystyle\frac{dy}{dx} = \frac{x}{y}$:
 
 When $y \gt 0$: slopes have the same sign as $x$. When $y \lt 0$: slopes have the opposite sign of
@@ -370,9 +370,9 @@ Approximating the curve locally by its tangent line at each step.
 - Smaller step sizes produce more accurate approximations but require more computation.
 - The method can diverge if the step size is too large, especially for rapidly changing solutions.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Use Euler's method with $\Delta x = 0.5$ to approximate $y(2)$ for $\frac{dy}{dx} = x + y$
 $y(1) = 0$.
 
@@ -426,9 +426,9 @@ $$
 This is an exponential decay toward $T_s$. The object asymptotically approaches the surrounding
 Temperature but never quite reaches it.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A cup of coffee at $90^\circ\mathrm{C$ is placed in a room at $20^\circ\mathrm{C$. After 10 minutes,
 The coffee is $60^\circ\mathrm{C$. When will the coffee reach $35^\circ\mathrm{C$?
 
@@ -465,9 +465,9 @@ $$
 The term $\frac{Q}{V}$ is the current concentration in the tank, so $\frac{r_o}{V}Q$ is the rate at
 Which substance leaves.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 A tank holds 100 L of pure water. Brine with 0.5 kg/L salt flows in at 5 L/min, and the mixture
 Flows out at 5 L/min. Find the salt content after 20 minutes.
 
@@ -576,9 +576,9 @@ $y$-axis with arrows indicating the direction of flow.
 - Draw rightward arrows where $f(y) \gt 0$ (increasing) and leftward arrows where $f(y) \lt 0$
   (decreasing).
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Analyse $\displaystyle\frac{dy}{dt} = y(y - 2)(y - 5)$.
 
 Equilibria: $y = 0$, $y = 2$, $y = 5$.
@@ -657,9 +657,9 @@ RK4 is fourth-order accurate: the global error is $O(\Delta x^4)$. For most AP-l
 Euler's method with small step size suffices, but understanding that more sophisticated methods
 Exist provides useful context.
 
-:::
-:::info[RK4 Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>RK4 Example</strong>
 Use RK4 with $h = 0.5$ to approximate $y(1)$ for $\frac{dy}{dx} = x + y$, $y(0) = 1$.
 
 Step 1 ($x_0 = 0$, $y_0 = 1$):
@@ -690,8 +690,7 @@ So $y(1) \approx 4.3096$. The exact answer is $y = 2e^x - x - 1$So $y(1) = 2e - 
 Even RK4 with this large step size has significant error, but it is far more accurate than Euler's
 Method would be.
 
-:::
-
+</aside>
 ## Common Pitfalls
 
 1. **Forgetting the constant of integration.** Always include $+C$ and use the initial condition to
@@ -885,7 +884,7 @@ Euler's method approximation: $y(2) \approx 1.5$.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Differential Equations**? The contains" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Differential Equations**? The contains</p>
+<aside class="starlight-aside starlight-aside--tip">
 the hardest questions within the AP specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine

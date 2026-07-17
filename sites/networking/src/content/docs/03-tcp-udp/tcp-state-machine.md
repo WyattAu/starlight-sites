@@ -187,7 +187,7 @@ sysctl net.ipv4.tcp_fin_timeout
 ss -tan state fin-wait-2 | wc -l
 ```
 
-<aside aria-label="If you see thousands of FIN_WAIT_2 connections on a server, the remote peers are not closing their" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you see thousands of FIN_WAIT_2 connections on a server, the remote peers are not closing their</p>
+<aside class="starlight-aside starlight-aside--caution">
 Side of the connection. This is a client application bug (not calling `close()` or `shutdown()`) or
 a firewall silently dropping the peer's FIN.
 
@@ -290,7 +290,7 @@ sysctl -w net.ipv4.tcp_tw_recycle=1
 ```
 
 </aside>
-<aside aria-label="`tcp_tw_recycle=1` was removed in Linux 4.12 due to serious reliability problems. It caused packet" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`tcp_tw_recycle=1` was removed in Linux 4.12 due to serious reliability problems. It caused packet</p>
+<aside class="starlight-aside starlight-aside--caution">
 Loss for clients behind NAT because it relied on timestamps to track per-host connection state, and
 NAT multiplexed many clients onto the same source IP. Do NOT use it.
 
@@ -308,7 +308,7 @@ setsockopt(fd, SOL_SOCKET, SO_LINGER, &ling, sizeof(ling));
 ```
 
 </aside>
-<aside aria-label="Sending RST instead of FIN means the peer never receives a graceful close indication. The peer sees" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Sending RST instead of FIN means the peer never receives a graceful close indication. The peer sees</p>
+<aside class="starlight-aside starlight-aside--caution">
 "Connection reset by peer" instead of a clean EOF. Use this only for connections where you are
 Certain the peer handles RST correctly, and never for connections where data integrity matters
 (databases, file transfers).
@@ -527,7 +527,7 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 | Failure signal  | `ECONNRESET` or `ETIMEDOUT`  | Application-defined       |
 
 </aside>
-<aside aria-label="Use TCP keepalive as a safety net and application-level heartbeats for timely detection. TCP" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use TCP keepalive as a safety net and application-level heartbeats for timely detection. TCP</p>
+<aside class="starlight-aside starlight-aside--tip">
 Keepalone alone is too slow for most server applications. A 2-hour dead connection detection is
 Unacceptable for a database connection pool.
 
@@ -793,7 +793,7 @@ sysctl -w net.core.default_qdisc=fq    # Fair Queuing recommended with BBR
 ```
 
 </aside>
-<aside aria-label="BBR v2 (2023) improves upon BBR v1 by being more fair to other flows sharing the same bottleneck. If" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>BBR v2 (2023) improves upon BBR v1 by being more fair to other flows sharing the same bottleneck. If</p>
+<aside class="starlight-aside starlight-aside--tip">
 You are using BBR, consider BBR v2 if your kernel supports it. BBR v1 can be unfair to loss-based
 Congestion control algorithms (CUBIC) in shared environments.
 

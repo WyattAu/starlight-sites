@@ -645,7 +645,7 @@ For user home directories:
 | Authenticated     | User accounts required | High     | Production environments  |
 | Guest (anonymous) | No credentials needed  | Low      | Public file sharing only |
 
-<aside aria-label="Never enable guest access on shares containing sensitive data. Guest access bypasses all" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never enable guest access on shares containing sensitive data. Guest access bypasses all</p>
+<aside class="starlight-aside starlight-aside--caution">
 Authentication and authorization checks. Use it only for public read-only shares (e.g., a shared
 Software repository).
 </aside>
@@ -743,7 +743,7 @@ midclt call smb.get_share sensitive-data | jq '.encrypt'
 Modern Intel and AMD CPUs with AES-NI instructions handle AES-128-GCM with minimal overhead. If your
 CPU lacks AES-NI (rare on anything newer than 2013), the performance penalty is significant.
 
-<aside aria-label="Use `smbstatus` on TrueNAS to verify that connections are actually using encryption:" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use `smbstatus` on TrueNAS to verify that connections are actually using encryption:</p>
+<aside class="starlight-aside starlight-aside--tip">
 ```bash
 smbstatus -b | head -30
 ```
@@ -806,7 +806,7 @@ nfsstat -m | grep -E "rsize|wsize"
 mount -t nfs4 -o minorversion=2,pnfs truenas.local:/mnt/tank/data /mnt/nfs
 ```
 
-<aside aria-label="Large `rsize` and `wsize` values improve throughput for large sequential reads/writes but" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Large `rsize` and `wsize` values improve throughput for large sequential reads/writes but</p>
+<aside class="starlight-aside starlight-aside--caution">
 Can increase latency for small random I/O. For mixed workloads, 1MB is a reasonable default. For
 Metadata-heavy workloads (mail servers, source code repositories), consider 128K or 256K.
 </aside>
@@ -841,7 +841,7 @@ midclt call iscsi.portal.create '{
 }'
 ```
 
-<aside aria-label="Always use a dedicated network interface for iSCSI traffic. Sharing a NIC between iSCSI and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Always use a dedicated network interface for iSCSI traffic. Sharing a NIC between iSCSI and</p>
+<aside class="starlight-aside starlight-aside--note">
 Other services introduces latency and packet loss that directly impacts storage performance. If
 Possible, use a separate VLAN or physical network for iSCSI.
 </aside>
@@ -887,7 +887,7 @@ midclt call iscsi.initiatorgroup.update 1 '{
 }'
 ```
 
-<aside aria-label="CHAP secrets are transmitted in plain text in the TrueNAS API. Use the web UI for CHAP" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>CHAP secrets are transmitted in plain text in the TrueNAS API. Use the web UI for CHAP</p>
+<aside class="starlight-aside starlight-aside--caution">
 Configuration when possible, as it masks the secret. Never expose CHAP credentials in scripts
 Checked into version control.
 </aside>
@@ -975,7 +975,7 @@ Accessing the same ZFS dataset simultaneously via NFS and SMB causes locking and
 Inconsistencies. NFS uses advisory locks while SMB uses mandatory locks. Files created via NFS may
 Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping issues).
 
-<aside aria-label="If you must share data between NFS and SMB clients, use separate datasets with a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you must share data between NFS and SMB clients, use separate datasets with a</p>
+<aside class="starlight-aside starlight-aside--caution">
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with
 Windows ACL support enabled.
 </aside>

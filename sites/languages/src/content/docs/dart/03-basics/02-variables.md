@@ -45,7 +45,7 @@ dynamic text = "hello";
 dynamic number = 22;
 ```
 
-<aside aria-label="The best practice is here is to avoid usage of `dynamic` and `Object` declaration, always use" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The best practice is here is to avoid usage of `dynamic` and `Object` declaration, always use</p>
+<aside class="starlight-aside starlight-aside--tip">
 `var` or explicit typing.
 </aside>
 ### Mutation Specifier
@@ -160,7 +160,7 @@ void main(){
 }
 ```
 
-<aside aria-label="The best practice of nullability and mutability is to follow the order of `const` >> `final` >>" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>The best practice of nullability and mutability is to follow the order of `const` >> `final` >></p>
+<aside class="starlight-aside starlight-aside--tip">
 `var` with no nullability specifier >> `final late` >> `var?`. Also non const top-level variables
 Should be avoided.
 
@@ -170,7 +170,7 @@ Should be avoided.
 ### Built-in Data Types
 
 </aside>
-<aside aria-label="Dart does not have primitive data types as all types are interfaces inherited from `Object` class" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Dart does not have primitive data types as all types are interfaces inherited from `Object` class</p>
+<aside class="starlight-aside starlight-aside--caution">
 #### Number Types
 
 Only two number types exists in Dart, `int` and `double`. `int` represents 64-bit integers on native
@@ -178,7 +178,7 @@ Platforms, but is limited to 53-bit precision when compiled to JavaScript. `doub
 754 standard and is also 64 bits.
 
 </aside>
-<aside aria-label="These numbers are inherited from the `num` class, with operations and methods such as" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>These numbers are inherited from the `num` class, with operations and methods such as</p>
+<aside class="starlight-aside starlight-aside--note">
 `abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
 </aside>
 #### String Literals
@@ -283,7 +283,7 @@ print(record.count); // 42
 var (lo, hi) = getBounds([3, 1, 4, 1, 5]);
 ```
 
-<aside aria-label="Records are **not classes** — they have no identity, only structural equality. Two records with the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Records are **not classes** — they have no identity, only structural equality. Two records with the</p>
+<aside class="starlight-aside starlight-aside--note">
 Same fields are equal: `(1, "a') == (1, 'a')` is `true`. They are stack-allocated (when small) and
 Cannot be extended.
 
@@ -333,7 +333,7 @@ print(counter()); // 2
 ```
 
 </aside>
-<aside aria-label="Prefer named parameters with `required` for public APIs. Named parameters are self-documenting and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Prefer named parameters with `required` for public APIs. Named parameters are self-documenting and</p>
+<aside class="starlight-aside starlight-aside--tip">
 Order-independent, which reduces call-site errors and makes refactoring easier.
 
 
@@ -387,7 +387,7 @@ numbers.sublist(1, 3);             // [2, 3]
 ```
 
 </aside>
-<aside aria-label="`List.map()``List.where()`And similar methods return `Iterable`Not `List`. If you need a `List`Wrap" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`List.map()``List.where()`And similar methods return `Iterable`Not `List`. If you need a `List`Wrap</p>
+<aside class="starlight-aside starlight-aside--caution">
 with `.toList()`:
 
 ```dart
@@ -474,7 +474,7 @@ var doubled = ages.map((k, v) => MapEntry(k, v * 2));
 ```
 
 </aside>
-<aside aria-label="Use `Map<String, dynamic>` sparingly — it bypasses Dart's type system. Prefer typed maps or custom" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use `Map<String, dynamic>` sparingly — it bypasses Dart's type system. Prefer typed maps or custom</p>
+<aside class="starlight-aside starlight-aside--tip">
 Classes for structured data. When you must use `Map<String, dynamic>` (e.g., JSON deserialization),
 Validate the types at runtime.
 
@@ -498,7 +498,7 @@ import 'dart:mirrors';
 ```
 
 </aside>
-<aside aria-label="Symbols are not the same as strings. A symbol represents an **identifier in the program**, not" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Symbols are not the same as strings. A symbol represents an **identifier in the program**, not</p>
+<aside class="starlight-aside starlight-aside--note">
 Arbitrary text. They are used internally by the Dart VM for optimization and reflection, and are
 Exposed via the `dart:mirrors` library. Most application developers will never create symbols
 Directly.

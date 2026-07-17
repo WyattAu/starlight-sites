@@ -249,8 +249,8 @@ For all $n \ge n_0$.
 
 **Rule 3:** Drop constants and lower-order terms. $O(3n^2 + 5n + 100) = O(n^2)$.
 
-:::info[Example 1]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example 1</strong>
 ```java
 for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
@@ -262,9 +262,9 @@ for (int i = 0; i < n; i++) {
 Total: $O(n) \times O(n) = O(n^2)$.
 
 
-:::
-:::info[Example 2]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example 2</strong>
 ```java
 for (int i = 0; i < n; i++) {
     System.out.println(i);
@@ -871,4 +871,4 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
-:::
+</aside>

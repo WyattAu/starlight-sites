@@ -89,7 +89,7 @@ grep --color=always "pattern" file
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
 
-<aside aria-label="In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\` to get Their" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In BRE, `+``?``{``|``(``)` are literal characters. You must escape them with `\` to get Their</p>
+<aside class="starlight-aside starlight-aside--caution">
 special meaning. In ERE, the reverse is true — they are special by default and must be escaped To be
 literal. This is a frequent source of confusion.
 
@@ -384,7 +384,7 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
 
 </aside>
-<aside aria-label="Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `find ... -print0 | xargs -0` instead of `find ... | xargs` when filenames may contain</p>
+<aside class="starlight-aside starlight-aside--caution">
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
 Handle these cases correctly.
 
@@ -663,7 +663,7 @@ chmod 4755 /usr/local/bin/custom_tool
 ```
 
 </aside>
-<aside aria-label="SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>SUID executables are a critical attack surface. Any SUID binary that is writable by non-root users</p>
+<aside class="starlight-aside starlight-aside--caution">
 Can be used for privilege escalation. Audit SUID files regularly:
 
 ```bash

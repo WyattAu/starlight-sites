@@ -272,11 +272,11 @@ $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 
 ### 2.17 Common Pitfalls for First-Order ODEs
 
-<aside aria-label="Common Pitfall When separating variables, dividing by $h(y)$ can lose solutions where" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When separating variables, dividing by $h(y)$ can lose solutions where</p>
+<aside class="starlight-aside starlight-aside--caution">
 $h(y) = 0$. Always check whether $h(y) = 0$ yields valid solutions before dividing.
 
 </aside>
-<aside aria-label="Common Pitfall Not every first-order ODE falls into a standard category. Equations like" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Not every first-order ODE falls into a standard category. Equations like</p>
+<aside class="starlight-aside starlight-aside--caution">
 $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require numerical Techniques.
 
 </aside>

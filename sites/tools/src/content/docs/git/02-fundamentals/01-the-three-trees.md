@@ -74,7 +74,7 @@ Git classifies files in the working directory into two categories:
 Files listed in `.gitignore` are **ignored** — they are not tracked and `git status` will not
 mention them.
 
-<aside aria-label="`.gitignore` only affects **untracked** files. If a file is already tracked (committed), adding it" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`.gitignore` only affects **untracked** files. If a file is already tracked (committed), adding it</p>
+<aside class="starlight-aside starlight-aside--caution">
 to `.gitignore` will have no effect. You must first untrack it with `git rm --cached <file>`.
 
 
@@ -117,7 +117,7 @@ The staging area is a deliberate design decision that enables several workflows:
    "ours," and "theirs." The index holds the merge result before it is committed.
 
 </aside>
-<aside aria-label="If you find the staging area cumbersome, you can bypass it entirely with `git commit -a` (stages all" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>If you find the staging area cumbersome, you can bypass it entirely with `git commit -a` (stages all</p>
+<aside class="starlight-aside starlight-aside--tip">
 tracked modified files) or `git commit --amend --no-edit` (adds all staged changes to the previous
 commit). Some developers prefer `git add -A && git commit` as a single workflow step.
 
@@ -207,7 +207,7 @@ flowchart TB
 ```
 
 </aside>
-<aside aria-label="`git reset --hard` is **destructive** — it discards all uncommitted changes. Before using it, verify" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`git reset --hard` is **destructive** — it discards all uncommitted changes. Before using it, verify</p>
+<aside class="starlight-aside starlight-aside--caution">
 with `git status` and `git stash` if you want to preserve your work.
 
 
@@ -282,7 +282,7 @@ git update-ref refs/heads/main $COMMIT
 ```
 
 </aside>
-<aside aria-label="Understanding plumbing commands is not necessary for daily use, but it demystifies Git's behavior" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Understanding plumbing commands is not necessary for daily use, but it demystifies Git's behavior</p>
+<aside class="starlight-aside starlight-aside--note">
 and enables scripting. When a porcelain command does something unexpected, breaking it down into
 plumbing steps reveals exactly what happened.
 

@@ -78,7 +78,7 @@ Genetic diversity within a population can be measured by:
 Modern molecular techniques allow direct measurement: DNA sequencing, gel electrophoresis of
 Proteins, and PCR-based methods to quantify allele variation.
 
-<aside aria-label="Warning Only one component. Simpson's Index incorporates both richness and evenness," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Warning Only one component. Simpson's Index incorporates both richness and evenness,</p>
+<aside class="starlight-aside starlight-aside--caution">
 giving a more accurate Measure of diversity. A community dominated by one species with many rare
 species has low diversity Despite high richness.
 </aside>
@@ -152,7 +152,7 @@ A **cladogram** is constructed by comparing homologous characteristics:
 The principle of **parsimony** is applied: the cladogram requiring the fewest evolutionary changes
 Is preferred.
 
-<aside aria-label="Common Pitfall Students often confuse analogous and homologous structures. **Homologous" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often confuse analogous and homologous structures. **Homologous</p>
+<aside class="starlight-aside starlight-aside--caution">
 Structures** share a common evolutionary origin (e.g., the pentadactyl limb in mammals, birds,
 Reptiles, and amphibians). **Analogous structures** perform a similar function but have different
 Evolutionary origins (e.g., the wings of insects and birds). Only homologous structures are
@@ -291,7 +291,7 @@ $p = 1 - 0.2 = 0.8$. Expected under H-W: $p^2 = 0.64$ ($320$ individuals), $2pq 
 Individuals), $q^2 = 0.04$ ($20$ individuals). The observed frequencies match H-W predictions,
 Suggesting the population is approximately in equilibrium.
 
-<aside aria-label="Common Pitfall Students sometimes think Hardy-Weinberg equilibrium means no evolution is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students sometimes think Hardy-Weinberg equilibrium means no evolution is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Occurring. It describes the theoretical conditions under which allele frequencies remain constant.
 If a population deviates from H-W, this is evidence that evolutionary forces (selection, drift, gene
 Flow, mutation, non-random mating) are acting.
@@ -462,7 +462,7 @@ Since $\chi^2 = 22.84 \gg 3.84$We reject the null hypothesis. The population is 
 Hardy-Weinberg equilibrium. Possible explanations include non-random mating, selection against one
 Genotype, or population substructure (Wahlund effect).
 
-<aside aria-label="Common Pitfall When calculating degrees of freedom for the chi-squared test with" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When calculating degrees of freedom for the chi-squared test with</p>
+<aside class="starlight-aside starlight-aside--caution">
 Hardy-Weinberg data, Students often incorrectly use $\mathrm{df} = n - 1$ (where $n$ is the number
 of genotypes). The Correct formula accounts for the fact that allele frequencies are estimated from
 the data, reducing the Degrees of freedom further. For a two-allele system, $\mathrm{df} = 1$.
@@ -1566,7 +1566,7 @@ target: protect 30% of land and ocean by 2030.
 
 ---
 
-<aside aria-label="Diagnostic Test Ready to test your understanding of **Biodiversity, Classification and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Diagnostic Test Ready to test your understanding of **Biodiversity, Classification and</p>
+<aside class="starlight-aside starlight-aside--tip">
 Evolution**? The
 contains the hardest questions within the A-Level specification for this topic, each with a full
 worked solution.

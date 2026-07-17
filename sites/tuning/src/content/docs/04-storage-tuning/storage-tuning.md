@@ -123,7 +123,7 @@ Dramatically as data must be folded from SLC into the TLC/QLC area.
 | WD Black SN850X 2TB       | ~300 GB        | 6,600 MB/s      | 1,500 MB/s |
 | Crucial P3 Plus 2TB (QLC) | ~160 GB        | 5,000 MB/s      | 200 MB/s   |
 
-<aside aria-label="QLC SSDs with full SLC caches can experience catastrophic write speed drops — from 5,000" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>QLC SSDs with full SLC caches can experience catastrophic write speed drops — from 5,000</p>
+<aside class="starlight-aside starlight-aside--caution">
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
 For write-heavy workloads (video editing, database, OS drive).
 </aside>
@@ -185,7 +185,7 @@ sudo systemctl enable fstrim.timer
 sudo systemctl start fstrim.timer
 ```
 
-<aside aria-label="On ZFS, do not use `fstrim`. ZFS handles discard internally and the `autotrim` pool" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>On ZFS, do not use `fstrim`. ZFS handles discard internally and the `autotrim` pool</p>
+<aside class="starlight-aside starlight-aside--caution">
 Property controls TRIM behavior.
 </aside>
 ### Over-Provisioning
@@ -240,7 +240,7 @@ ZFS eliminates many traditional RAID problems:
 - Self-healing repairs corrupted data from parity/mirror copies
 - Scrubbing proactively verifies all data integrity
 
-<aside aria-label="Never use hardware RAID with ZFS. ZFS needs direct access to individual disks to manage" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use hardware RAID with ZFS. ZFS needs direct access to individual disks to manage</p>
+<aside class="starlight-aside starlight-aside--caution">
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
 From performing its error detection and correction.
 </aside>
@@ -549,7 +549,7 @@ sudo nvme fw-download /dev/nvme0n1 --fw=/path/to/firmware.bin --save
 - Before initial deployment of a new drive
 - When a security vulnerability is disclosed in the firmware
 
-<aside aria-label="Firmware updates are irreversible on most drives. A failed firmware update can brick the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Firmware updates are irreversible on most drives. A failed firmware update can brick the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Drive. Ensure the update process is not interrupted (connect the drive to a UPS, close all
 Applications accessing the drive).
 </aside>
@@ -881,7 +881,7 @@ hdparm -y /dev/sda     # Immediately enter standby
 hdparm -B 127 /dev/sda  # 1 (aggressive) to 255 (disabled)
 ```
 
-<aside aria-label="Frequent HDD spin-up/spin-down cycles increase wear. Set standby timeout to a reasonable" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Frequent HDD spin-up/spin-down cycles increase wear. Set standby timeout to a reasonable</p>
+<aside class="starlight-aside starlight-aside--caution">
 Value (15–30 minutes) rather than a short interval.
 
 ## Summary

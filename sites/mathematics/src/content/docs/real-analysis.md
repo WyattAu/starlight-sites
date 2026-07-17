@@ -398,7 +398,7 @@ $(L-2)(L+1) = 0$. Since $a_n \geq \sqrt{2} > 0$ for all $n$, $L \geq 0$So $L = 2
 
 </details>
 
-<aside aria-label="Common Pitfall When computing $\limsup$ and $\liminf$Do not confuse them with $\sup$ and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When computing $\limsup$ and $\liminf$Do not confuse them with $\sup$ and</p>
+<aside class="starlight-aside starlight-aside--caution">
 $\inf$ of the range $\{a_n : n \in \mathbb{N}\}$. The $\limsup$ depends on the _tail_ behavior of
 the sequence. For Example, $a_n = (-1)^n$ has $\limsup = 1$ and $\liminf = -1$But $\sup\{a_n\} = 1$
 and $\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup = 1$ but
@@ -604,7 +604,7 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 </details>
 
-<aside aria-label="Common Pitfall The ratio and root tests are inconclusive when the limit equals 1. In such" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The ratio and root tests are inconclusive when the limit equals 1. In such</p>
+<aside class="starlight-aside starlight-aside--caution">
 cases, try the comparison Test, integral test, or other methods. For example, $\sum 1/n$ diverges
 (harmonic series) and $\sum 1/n^2$ converges, but both give a ratio test limit of 1.
 </aside>
@@ -854,7 +854,7 @@ _If you get this wrong, revise:_ Section 4.2 (Continuity), Section 5.3 (Mean Val
 
 </details>
 
-<aside aria-label="Common Pitfall Continuity on $(a, b)$ does not imply uniform continuity. The function" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Continuity on $(a, b)$ does not imply uniform continuity. The function</p>
+<aside class="starlight-aside starlight-aside--caution">
 $f(x) = 1/x$ on $(0, 1)$ is Continuous but not uniformly continuous. The Heine-Cantor theorem
 requires a **closed and bounded** Interval. Also, a function can be uniformly continuous on an
 unbounded domain (e.g., $f(x) = \sqrt{x}$ On $[0, \infty)$) --- boundedness of the domain is
@@ -1108,7 +1108,7 @@ $\blacksquare$
 
 </details>
 
-<aside aria-label="Common Pitfall L'Hôpital’s rule only applies to indeterminate forms $\frac{0}{0}$ and" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall L'Hôpital’s rule only applies to indeterminate forms $\frac{0}{0}$ and</p>
+<aside class="starlight-aside starlight-aside--caution">
 $\frac{\infty}{\infty}$. Applying it to forms like $\frac{1}{0}$ or $\frac{\infty}{1}$ will give
 incorrect results. Always Verify the indeterminate form before applying the rule. Also, L'Hôpital's
 rule requires that the Limit of the quotient of derivatives exists; if it does not exist
@@ -1394,7 +1394,7 @@ So $\int_0^{\infty} x e^{-x}\, dx = 1$. This equals $\Gamma(2) = 1! = 1$. $\blac
 
 </details>
 
-<aside aria-label="Common Pitfall The Riemann integral is defined for bounded functions on closed, bounded" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Riemann integral is defined for bounded functions on closed, bounded</p>
+<aside class="starlight-aside starlight-aside--caution">
 intervals. For unbounded Functions or infinite intervals, one must use the improper Riemann
 integral. A common error is Applying the FTC directly to improper integrals without taking the
 limit. Also, conditional Convergence of improper integrals behaves differently from absolute
@@ -1630,7 +1630,7 @@ Since $\sup |f_n| = 1/n \to 0$The convergence is uniform on $[1, \infty)$. $\bla
 
 </details>
 
-<aside aria-label="Common Pitfall Pointwise convergence does not preserve continuity, differentiability, or" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Pointwise convergence does not preserve continuity, differentiability, or</p>
+<aside class="starlight-aside starlight-aside--caution">
 integrability. Uniform Convergence preserves continuity and allows interchange of limit and
 integral, but not limit and Derivative. For derivatives, uniform convergence of the _sequence of
 derivatives_ (not the original Sequence) is required, as stated in Theorem 7.4. Also, the

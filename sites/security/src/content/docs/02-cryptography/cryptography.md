@@ -138,7 +138,7 @@ GCM properties:
 - **Performance**: Hardware-accelerated AES-GCM is extremely fast (AES-NI instruction set).
 - **Tag length**: 128 bits (16 bytes). Shorter tags (96, 64 bits) reduce security margin.
 
-<aside aria-label="GCM has a critical nonce reuse vulnerability. If the same nonce is used twice with the same key, the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>GCM has a critical nonce reuse vulnerability. If the same nonce is used twice with the same key, the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Authentication tag can be forged and confidentiality of both messages is compromised. Use a 96-bit
 Random nonce (the probability of collision with $2^{32}$ messages is approximately $2^{-32}$Which Is
 acceptable) or a deterministic nonce construction (NIST SP 800-38D).
@@ -238,7 +238,7 @@ The most commonly used curves:
 | Curve25519        | 256 bits | Modern alternative to NIST curves | Daniel J. Bernstein |
 
 </aside>
-<aside aria-label="Prefer Curve25519 and Ed25519 over NIST P-256/P-384 for new systems. The NIST curves have parameter" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Prefer Curve25519 and Ed25519 over NIST P-256/P-384 for new systems. The NIST curves have parameter</p>
+<aside class="starlight-aside starlight-aside--note">
 Generation that was not fully transparent (though no backdoor has been found), and
 Curve25519/Ed25519 have simpler, faster implementations with fewer side-channel risks.
 
@@ -430,7 +430,7 @@ mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 ```
 
 </aside>
-<aside aria-label="Always use `hmac.compare_digest()` for MAC verification, not the `==` operator. The `==` operator is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `hmac.compare_digest()` for MAC verification, not the `==` operator. The `==` operator is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Vulnerable to timing attacks — it returns as soon as it finds a mismatch, leaking information about
 How many bytes of the MAC are correct.
 
@@ -546,7 +546,7 @@ key = hashlib.pbkdf2_hmac(
 ```
 
 </aside>
-<aside aria-label="PBKDF2 is a CPU-hard KDF but not memory-hard. It is significantly weaker against GPU attacks than" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>PBKDF2 is a CPU-hard KDF but not memory-hard. It is significantly weaker against GPU attacks than</p>
+<aside class="starlight-aside starlight-aside--caution">
 Argon2id or scrypt. Use PBKDF2 only for compatibility with existing systems. For new systems, use
 Argon2id.
 
@@ -695,7 +695,7 @@ Nonces, IVs, and salts.
 | Hardware TRNG         | High            | HSMs, TPMs   |
 
 </aside>
-<aside aria-label="Do not use `Math.random()` or `random()` for security purposes. These are PRNGs seeded with" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not use `Math.random()` or `random()` for security purposes. These are PRNGs seeded with</p>
+<aside class="starlight-aside starlight-aside--caution">
 Predictable values (often timestamps). Use platform CSPRNGs: `/dev/urandom` on Unix,
 `CryptGenRandom` on Windows, or language-specific secure random APIs (`secrets` in Python,
 `crypto.randomBytes` in Node.js, `java.security.SecureRandom` in Java).
@@ -779,7 +779,7 @@ Compromises all past sessions. TLS 1.3 mandates forward secrecy, but TLS 1.2 wit
 Does not provide it. Ensure your cipher suites use ECDHE or DHE.
 
 </aside>
-<aside aria-label="**Reference Standards**: NIST SP 800-57 (Key Management), NIST SP 800-63B (Digital Identity), NIST" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Reference Standards**: NIST SP 800-57 (Key Management), NIST SP 800-63B (Digital Identity), NIST</p>
+<aside class="starlight-aside starlight-aside--note">
 SP 800-38D (GCM), NIST SP 800-132 (PBKDF2), NIST FIPS 203/204/205 (Post-Quantum), RFC 8446 (TLS
 1.3), RFC 8017 (RSA), RFC 8032 (EdDSA), RFC 7748 (Curve25519), RFC 5869 (HKDF).
 

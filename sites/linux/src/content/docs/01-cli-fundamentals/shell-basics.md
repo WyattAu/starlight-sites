@@ -45,7 +45,7 @@ flowchart TD
     J -->|No| L[No startup files]
 ```
 
-<aside aria-label="In practice, most systems configure `~/.profile` to source `~/.bashrc`So both login and non-login" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>In practice, most systems configure `~/.profile` to source `~/.bashrc`So both login and non-login</p>
+<aside class="starlight-aside starlight-aside--note">
 Interactive shells load the same configuration. However, scripts executed by cron or systemd do not
 Source `~/.bashrc` — this is a frequent source of bugs.
 
@@ -97,7 +97,7 @@ The shell performs the following steps before executing a command:
 12. **Command execution**: Execute the command using the resolved path.
 
 </aside>
-<aside aria-label="The order of these expansions matters enormously. Parameter expansion happens before globbing, which" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The order of these expansions matters enormously. Parameter expansion happens before globbing, which</p>
+<aside class="starlight-aside starlight-aside--caution">
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
 Are no matching files, the shell behavior depends on the `nullglob` option.
 
@@ -175,7 +175,7 @@ command 2>&1 1>&3 | process_stderr 3>&1 1>&2 | process_stdout
 ```
 
 </aside>
-<aside aria-label="**Pipe buffer size**: Linux pipes have a default buffer of 64 KiB (since kernel 2.6.11, configurable" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Pipe buffer size**: Linux pipes have a default buffer of 64 KiB (since kernel 2.6.11, configurable</p>
+<aside class="starlight-aside starlight-aside--note">
 Via `/proc/sys/fs/pipe-max-size`). When the buffer is full, the writing process blocks until the
 Reader consumes data. For high-throughput pipelines, this can be a bottleneck.
 
@@ -265,7 +265,7 @@ ls *.TXT  # matches file.txt, FILE.TXT, etc.
 ```
 
 </aside>
-<aside aria-label="By default, `*` does not match files starting with a dot. This is a security feature inherited from" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>By default, `*` does not match files starting with a dot. This is a security feature inherited from</p>
+<aside class="starlight-aside starlight-aside--caution">
 The original Unix glob behavior — you must explicitly use `.*` or enable `dotglob` with
 `shopt -s dotglob`.
 
@@ -654,7 +654,7 @@ set -euo pipefail
 ```
 
 </aside>
-<aside aria-label="`set -e` has subtle interactions with commands in `if` conditions, `&&`/`||` chains, and subshells." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`set -e` has subtle interactions with commands in `if` conditions, `&&`/`||` chains, and subshells.</p>
+<aside class="starlight-aside starlight-aside--caution">
 It does not fire for commands whose exit status is tested (e.g., `if ! command; then`). If you need
 Fine-grained error handling, use explicit error checking with `$?` or `trap`.
 

@@ -107,7 +107,7 @@ void expired_demo() {
 }
 ```
 
-<aside aria-label="Never use `expired()` followed by raw access. There is a race condition between checking" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use `expired()` followed by raw access. There is a race condition between checking</p>
+<aside class="starlight-aside starlight-aside--caution">
 `expired()` and using the object — the object could be destroyed by another thread between the check
 And the access. Always use `lock()` instead, which atomically checks and returns a `shared_ptr`.
 </aside>
@@ -363,7 +363,7 @@ root
 ~Node(root)
 ```
 
-<aside aria-label="`std::enable_shared_from_this` only works when the object is **originally** managed by a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`std::enable_shared_from_this` only works when the object is **originally** managed by a</p>
+<aside class="starlight-aside starlight-aside--caution">
 `shared_ptr`. If the object is stack-allocated or managed by a `unique_ptr`Calling
 `shared_from_this()` is undefined behavior.
 </aside>
@@ -474,7 +474,7 @@ public:
 };
 ```
 
-<aside aria-label="The callback in the observer pattern is invoked while holding the mutex. If the callback" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The callback in the observer pattern is invoked while holding the mutex. If the callback</p>
+<aside class="starlight-aside starlight-aside--caution">
 Attempts to subscribe or unsubscribe, it will deadlock. To avoid this, copy the observer list before
 Iterating, or use a recursive mutex. Alternatively, collect callbacks into a local vector under the
 Lock, then invoke them after releasing the lock.
@@ -785,7 +785,7 @@ cache size after cleanup: 0
    used, least frequently used, time-based expiration). `weak_ptr` only provides automatic cleanup
    when the producer releases the value.
 
-<aside aria-label="Relevance The weak cache pattern is most useful when the cache is a secondary store — the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Relevance The weak cache pattern is most useful when the cache is a secondary store — the</p>
+<aside class="starlight-aside starlight-aside--note">
 Primary owner (e.g., a data loader) produces `shared_ptr` values, and the cache holds `weak_ptr`
 References to avoid extending their lifetime. This is common in image loaders, texture caches in
 Game engines, and database connection pools.

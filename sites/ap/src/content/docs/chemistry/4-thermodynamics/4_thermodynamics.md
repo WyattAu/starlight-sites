@@ -152,8 +152,8 @@ $$\Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol$$
 
 (The exact value is $-92.2 \mathrm{ kJ/mol$Showing that bond enthalpies give a good Approximation.)
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Calculate $\Delta H^\circ$ for the combustion of propane:
 
 $$
@@ -189,9 +189,9 @@ $$
 This is an approximation because bond energies are average values that depend on the molecular
 Environment. The approximation is most accurate when all species are in the gas phase.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 Estimate $\Delta H$ for
 $\mathrm{CH_4(g) + 2\mathrm{O_2(g) \to \mathrm{CO_2(g) + 2\mathrm{H_2\mathrm{O(g)$ using bond
 Enthalpies.
@@ -281,9 +281,9 @@ $$\Delta H = \Delta U + \Delta n_g RT = -486 + 0 = -486 \mathrm{ kJ/mol$$
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
 Solution rather than pure water.)
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 When $50.0 \mathrm{ mL$ of $1.00 \mathrm{ M  \mathrm{HCl$ is mixed with $50.0 \mathrm{ mL$ of
 $1.00 \mathrm{ M $ $\mathrm{NaOH$ in a coffee-cup calorimeter, the temperature rises from
 $25.0^\circ\mathrm{C$ to $31.6^\circ\mathrm{C$. Calculate $\Delta H$ per mole of
@@ -466,9 +466,9 @@ $$
 
 At this temperature, $\Delta G = 0$ and $K = 1$.
 
-:::
-:::info[Example]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the reaction $\mathrm{CaCO_3(s) \to \mathrm{CaO(s) + \mathrm{CO_2(g)$:
 
 $\Delta H^\circ = 178 \mathrm{ kJ/mol$, $\Delta S^\circ = 160 \mathrm{ J/(mol\cdot\mathrm{K)$.
@@ -481,8 +481,7 @@ $$
 
 Above $1113 \mathrm{ K$, $\Delta G \lt 0$ and the decomposition is spontaneous.
 
-:::
-
+</aside>
 ### Worked Example: Gibbs Free Energy Calculation
 
 For the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \to 2\mathrm{NH_3(g)$ at $298 \mathrm{ K$:

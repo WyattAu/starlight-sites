@@ -256,7 +256,7 @@ Total size: 12 bytes (not 7).
 | Size         | Homogeneous              | Heterogeneous                 |
 | Use case     | Collections of same data | Grouping related attributes   |
 
-<aside aria-label="Board-specific" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-specific</p>
+<aside class="starlight-aside starlight-aside--note">
 - **AQA** distinguishes between static arrays (fixed size, compile-time) and dynamic arrays (runtime
   sizing)
 - **CIE (9618)** covers 1D and 2D arrays, records (fields accessed with dot notation), but does not
@@ -275,7 +275,7 @@ Before accessing the element.
 Without bounds checking, an out-of-bounds access reads or writes arbitrary memory — a **buffer
 Overflow** vulnerability.
 
-<aside aria-label="Pitfall In C and C++, array access is **not** bounds-checked by default. Accessing" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall In C and C++, array access is **not** bounds-checked by default. Accessing</p>
+<aside class="starlight-aside starlight-aside--caution">
 `A[-1]` or `A[n]` compiles but causes undefined behaviour. Python, Java, and C# perform automatic
 Bounds checking.
 </aside>

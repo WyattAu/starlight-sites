@@ -76,7 +76,7 @@ $$
 \end`\{aligned}`
 $$
 
-<aside aria-label="The IB only consider the magnitude of centripetal acceleration, therefore is shown in the" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The IB only consider the magnitude of centripetal acceleration, therefore is shown in the</p>
+<aside class="starlight-aside starlight-aside--caution">
 Equation booklet as:
 
 $$
@@ -97,7 +97,7 @@ $$
 \end`\{aligned}`
 $$
 
-<aside aria-label="As mentioned above, IB only consider the magnitude of centripetal force:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>As mentioned above, IB only consider the magnitude of centripetal force:</p>
+<aside class="starlight-aside starlight-aside--caution">
 $$
 \begin`\{aligned}`
  F = ma = \frac{mv^2}{r} = m\omega^2 r = \frac{4\pi^2mr}{T^2}
@@ -150,7 +150,7 @@ $$
 
 The measure of a solid body's resistance to [angular acceleration](#angular-acceleration).
 
-<aside aria-label="The IB syllabus only consider the moment of inertia of rigid body with approximated" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The IB syllabus only consider the moment of inertia of rigid body with approximated</p>
+<aside class="starlight-aside starlight-aside--caution">
 Geometry as a system of discrete particles, as well as moment of inertia that is determined by
 Closed-form expressions.
 </aside>
@@ -175,7 +175,7 @@ $$
 \end`\{aligned}`
 $$
 
-<aside aria-label="For a force that varies at different position, the line integral of $F$ across a surface $C$" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For a force that varies at different position, the line integral of $F$ across a surface $C$</p>
+<aside class="starlight-aside starlight-aside--note">
 Is:
 
 $$

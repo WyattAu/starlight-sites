@@ -317,7 +317,7 @@ GROUP BY to_node
 ORDER BY shortest_path;
 ```
 
-<aside aria-label="Recursive CTEs can produce exponential result sets on dense graphs. Always include a depth limit" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Recursive CTEs can produce exponential result sets on dense graphs. Always include a depth limit</p>
+<aside class="starlight-aside starlight-aside--caution">
 (`hops &lt; N`) and a visited set to prevent infinite loops. For very large graphs, consider
 Dedicated graph databases like Neo4j.
 
@@ -384,7 +384,7 @@ CROSS JOIN LATERAL jsonb_each_text(e.attributes) AS kv;
 ```
 
 </aside>
-<aside aria-label="`LATERAL` is implicitly applied for function calls in the `FROM` list (e.g.," class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`LATERAL` is implicitly applied for function calls in the `FROM` list (e.g.,</p>
+<aside class="starlight-aside starlight-aside--note">
 `FROM generate_series(1, 10)`). You only need the explicit keyword when the subquery references
 Outer columns.
 
@@ -523,7 +523,7 @@ REFRESH MATERIALIZED VIEW CONCURRENTLY mv_daily_sales_summary;
 ```
 
 </aside>
-<aside aria-label="`REFRESH MATERIALIZED VIEW CONCURRENTLY` requires the materialized view to have at least one" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`REFRESH MATERIALIZED VIEW CONCURRENTLY` requires the materialized view to have at least one</p>
+<aside class="starlight-aside starlight-aside--caution">
 `UNIQUE` index. Without a unique index, only non-concurrent refresh is available, which acquires an
 `ACCESS EXCLUSIVE` lock for the duration of the refresh.
 
@@ -946,7 +946,7 @@ SELECT * FROM large_table GROUP BY category;
 ```
 
 </aside>
-<aside aria-label="Planner hints are a last resort. Fix the root cause first: update statistics (`ANALYZE`), create" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Planner hints are a last resort. Fix the root cause first: update statistics (`ANALYZE`), create</p>
+<aside class="starlight-aside starlight-aside--caution">
 Appropriate indexes, or rewrite the query. Hints become stale when data distributions change and can
 Degrade performance over time.
 
@@ -1077,7 +1077,7 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 | Virtual | Computed | Higher    | Low        | No        |
 
 </aside>
-<aside aria-label="PostgreSQL currently only supports `STORED` generated columns. `VIRTUAL` (computed on read) is in" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>PostgreSQL currently only supports `STORED` generated columns. `VIRTUAL` (computed on read) is in</p>
+<aside class="starlight-aside starlight-aside--note">
 The SQL standard but not yet implemented. Other databases like MySQL and SQL Server support both.
 
 
@@ -1129,7 +1129,7 @@ SELECT * FROM orders WHERE status >= 'shipped';
 ```
 
 </aside>
-<aside aria-label="ENUM types in PostgreSQL are difficult to modify. Adding a value requires" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>ENUM types in PostgreSQL are difficult to modify. Adding a value requires</p>
+<aside class="starlight-aside starlight-aside--caution">
 `ALTER TYPE ... ADD VALUE`Which cannot run inside a transaction in PostgreSQL 12+. Renaming or
 Removing values is not straightforward. For rapidly changing sets of states, use a lookup table with
 A foreign key constraint instead.

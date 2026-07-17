@@ -228,7 +228,7 @@ All deadlines satisfied.
 
 </details>
 
-<aside aria-label="Common Pitfall The RMS utilisation bound is a **sufficient** condition, not necessary. A" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The RMS utilisation bound is a **sufficient** condition, not necessary. A</p>
+<aside class="starlight-aside starlight-aside--caution">
 task set with $U > n(2^{1/n} - 1)$ may still be schedulable under RMS. The response time analysis
 (RTA) provides a necessary and sufficient test but is more complex to compute.
 </aside>
@@ -406,7 +406,7 @@ to enforce ordering when necessary.
 | Acquire       | `lock` prefix     | `ldar`      | Subsequent loads/stores cannot move before this            |
 | Release       | (varies)          | `stlr`      | Preceding loads/stores cannot move after this              |
 
-<aside aria-label="Common Pitfall X86-64 has a **stronger memory model** (TSO -- Total Store Order) than ARM" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall X86-64 has a **stronger memory model** (TSO -- Total Store Order) than ARM</p>
+<aside class="starlight-aside starlight-aside--caution">
 and RISC-V. Code that works correctly on x86-64 may fail on ARM due to reordering. Always use proper
 synchronisation primitives (mutexes, atomic operations with explicit ordering) rather than relying
 on the hardware memory model.
@@ -1190,7 +1190,7 @@ Safe sequence: P1, P3, P4, P0, P2. Request granted.
 
 </details>
 
-<aside aria-label="Common Pitfall The Banker's algorithm requires knowing the maximum resource needs of each" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Banker's algorithm requires knowing the maximum resource needs of each</p>
+<aside class="starlight-aside starlight-aside--caution">
 process in advance. In practice, processes often do not know (or cannot express) their maximum
 needs. This limits the practical applicability of the Banker's algorithm. Additionally, the
 algorithm has $O(m \times n^2)$ time complexity per resource request (where $m$ is the number of

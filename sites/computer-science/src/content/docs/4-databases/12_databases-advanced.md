@@ -247,7 +247,7 @@ WITH RECURSIVE reachable(node, depth, path) AS (
 SELECT * FROM reachable WHERE depth <= 5;
 ```
 
-<aside aria-label="Common Pitfall Recursive CTEs without cycle detection will loop forever on cyclic graphs." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Recursive CTEs without cycle detection will loop forever on cyclic graphs.</p>
+<aside class="starlight-aside starlight-aside--caution">
 Always include a cycle check (e.g., tracking the path or visited nodes) or a depth limit. PostgreSQL
 supports the `CYCLE` clause for automatic cycle detection.
 </aside>
@@ -501,7 +501,7 @@ acyclic, and by Theorem 5.1, the schedule is conflict-serialisable. $\blacksquar
 | Strict 2PL   | All locks held until commit/abort                                             | Possible  |
 | Rigorous 2PL | All locks held until commit/abort (same as strict for writes, but also reads) | Possible  |
 
-<aside aria-label="Common Pitfall 2PL prevents conflicts but does not prevent deadlocks. Deadlock prevention" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall 2PL prevents conflicts but does not prevent deadlocks. Deadlock prevention</p>
+<aside class="starlight-aside starlight-aside--caution">
 (e.g., wait-die, wound-wait) or detection (wait-for graph) is still needed. Additionally, 2PL may
 not be necessary: there exist conflict-serialisable schedules that cannot be produced by any 2PL
 protocol.

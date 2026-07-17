@@ -163,7 +163,7 @@ chown -R user:group /var/www/html/
 chown --reference=ref.txt target.txt
 ```
 
-<aside aria-label="Only root can change the owner of a file. The owner can change the group to any group they are a" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Only root can change the owner of a file. The owner can change the group to any group they are a</p>
+<aside class="starlight-aside starlight-aside--note">
 Member of. This is enforced by the kernel: the `chown(2)` system call checks `capable(CAP_CHOWN)`.
 
 
@@ -196,7 +196,7 @@ echo 'umask 0027' >> ~/.profile
 ```
 
 </aside>
-<aside aria-label="`umask` only affects permissions at creation time. It does not modify existing files. If you need to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`umask` only affects permissions at creation time. It does not modify existing files. If you need to</p>
+<aside class="starlight-aside starlight-aside--caution">
 Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits — it
 Never adds execute permission to files, which is why `touch newfile` creates files with 0666 &
 ~umask (e.g., 0644), never with execute bits set.
@@ -302,7 +302,7 @@ chmod u-s /path/to/binary
 ```
 
 </aside>
-<aside aria-label="Never set setuid on shell scripts. Shell scripts are interpreted by `/bin/bash` (or similar), which" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never set setuid on shell scripts. Shell scripts are interpreted by `/bin/bash` (or similar), which</p>
+<aside class="starlight-aside starlight-aside--danger">
 Itself would need setuid. Instead, use a compiled wrapper or sudo. A setuid shell script is a
 Privilege escalation vulnerability.
 
@@ -553,7 +553,7 @@ lsattr -R /srv/data/
 ```
 
 </aside>
-<aside aria-label="`chattr +i` is a powerful security measure but can cause problems during automated configuration" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`chattr +i` is a powerful security measure but can cause problems during automated configuration</p>
+<aside class="starlight-aside starlight-aside--caution">
 Management. Ansible, Puppet, and similar tools may fail silently when trying to modify immutable
 Files. Always ensure configuration management systems can remove the immutable bit before making
 Changes.
@@ -626,7 +626,7 @@ flowchart TD
 ```
 
 </aside>
-<aside aria-label="The kernel checks ACLs if they exist on the file. The check order is: owner, named users (most" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The kernel checks ACLs if they exist on the file. The check order is: owner, named users (most</p>
+<aside class="starlight-aside starlight-aside--note">
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
 For all named users, named groups, and the owning group.
@@ -705,7 +705,7 @@ find / -perm -4000 -type f ! -perm -u+s -writable 2>/dev/null
 ```
 
 </aside>
-<aside aria-label="A writable setuid binary is a critical vulnerability. An attacker can replace the binary with" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>A writable setuid binary is a critical vulnerability. An attacker can replace the binary with</p>
+<aside class="starlight-aside starlight-aside--danger">
 Malicious code, and it will execute with the file owner's privileges. Regularly audit setuid and
 Setgid binaries, and remove the setuid/setgid bit from any binary that does not strictly require it.
 

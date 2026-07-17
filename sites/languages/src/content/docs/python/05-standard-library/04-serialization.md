@@ -93,7 +93,7 @@ data = json.loads(json_str, object_hook=custom_decoder)
 print(type(data["created"]))  # <class 'datetime.datetime'>
 ```
 
-<aside aria-label="Python's `json` module only handles a subset of types natively: `dict``list``str`" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Python's `json` module only handles a subset of types natively: `dict``list``str`</p>
+<aside class="starlight-aside starlight-aside--note">
 `int``float``bool`And `None`. Everything else requires custom encoding.
 </aside>
 ### JSON Performance
@@ -162,7 +162,7 @@ print(pickle.HIGHEST_PROTOCOL)      # 5
 data = pickle.dumps(obj, protocol=pickle.HIGHEST_PROTOCOL)
 ```
 
-<aside aria-label="**Never unpickle data from untrusted sources.** `pickle.loads()` can execute arbitrary" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>**Never unpickle data from untrusted sources.** `pickle.loads()` can execute arbitrary</p>
+<aside class="starlight-aside starlight-aside--danger">
 Code during deserialization. A malicious pickle payload can import modules, execute shell commands,
 Or access the filesystem.
 
@@ -258,7 +258,7 @@ print(data["database"]["host"])  # localhost
 
 ### safe_load vs load
 
-<aside aria-label="Always use `yaml.safe_load()` instead of `yaml.load()`. The latter can deserialize" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use `yaml.safe_load()` instead of `yaml.load()`. The latter can deserialize</p>
+<aside class="starlight-aside starlight-aside--caution">
 Arbitrary Python objects, including calls to `subprocess.Popen` or `os.system`:
 
 ```yaml
@@ -368,7 +368,7 @@ name = "viewer"
 role = "readonly"
 ```
 
-<aside aria-label="Use TOML for configuration files, JSON for APIs and data interchange, YAML for complex" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Use TOML for configuration files, JSON for APIs and data interchange, YAML for complex</p>
+<aside class="starlight-aside starlight-aside--tip">
 Human-readable data, and pickle only for Python-internal serialization where security is not a
 Concern.
 </aside>

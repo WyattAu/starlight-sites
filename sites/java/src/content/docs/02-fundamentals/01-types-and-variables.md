@@ -42,7 +42,7 @@ Method definitions, constant pool entries), static fields, and runtime constant 
 Unlike PermGen, Metaspace uses native memory and can grow dynamically (bounded by
 `-XX:MaxMetaspaceSize`).
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §2.5](https://docs.oracle.com/javase/specs/jls/se21/html/jls-2.html#jls-2.5) defines the
 Runtime data areas.
 [JLS §17.4](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.4) specifies the
@@ -81,7 +81,7 @@ Directly on the stack or within object layouts on the heap. Primitives have no m
 | `char`    |          16 |            2 | `'\u0000'` | 0 to 65,535 (UTF-16 code unit) |
 | `boolean` |           1 |            ~ | `false`    | `true` or `false`              |
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §4.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2) defines primitive
 Types and their values.
 [JLS §4.2.3](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2.3) specifies
@@ -140,7 +140,7 @@ System.out.println(0.1 + 0.2);     // 0.30000000000000004
 System.out.println(0.1 + 0.2 == 0.3); // false
 ```
 
-<aside aria-label="Never use `==` or `!=` to compare floating-point values. Use `Math.abs(a - b) < epsilon`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never use `==` or `!=` to compare floating-point values. Use `Math.abs(a - b) < epsilon`</p>
+<aside class="starlight-aside starlight-aside--caution">
 Or `Double.compare(a, b)` instead. For monetary calculations, always use `BigDecimal`.
 </aside>
 ```java
@@ -223,7 +223,7 @@ System.out.println(c.equals(d)); // true  (same value)
 // The cache boundary can be adjusted with -XX:AutoBoxCacheMax=<size>
 ```
 
-<aside aria-label="**Always use `.equals()` to compare wrapper types.** Using `==` compares object identity," class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Always use `.equals()` to compare wrapper types.** Using `==` compares object identity,</p>
+<aside class="starlight-aside starlight-aside--caution">
 Not value. The cache makes `==` work for small values by coincidence, creating subtle bugs that only
 Appear in production with larger values.
 </aside>
@@ -364,7 +364,7 @@ System.out.println(a == f);        // false
 System.out.println(a.equals(f));   // true
 ```
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §3.10.5](https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.10.5) defines
 String literals.
 [JLS §5.1.7](https://docs.oracle.com/javase/specs/jls/se21/html/jls-5.html#jls-5.1.7) specifies
@@ -401,7 +401,7 @@ String result = sb.toString();
 // (which is rare — typically you'd use a local variable)
 ```
 
-<aside aria-label="**Never use `StringBuffer` in new code** unless you have a specific requirement for" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Never use `StringBuffer` in new code** unless you have a specific requirement for</p>
+<aside class="starlight-aside starlight-aside--caution">
 Thread-safe mutable string building (which is almost never). The synchronization overhead is
 Unnecessary in the vast majority of use cases, and `StringBuffer` is essentially a legacy class
 Retained for backward compatibility.
@@ -441,7 +441,7 @@ numbers[0] = 3.14;                     // ArrayStoreException at runtime!
 // The compile-time type says "Number", but the runtime type says "Integer[]"
 ```
 
-<aside aria-label="Array covariance breaks type safety. The JVM inserts an **array store check** at runtime" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Array covariance breaks type safety. The JVM inserts an **array store check** at runtime</p>
+<aside class="starlight-aside starlight-aside--danger">
 On every assignment to an array element to prevent type corruption. This check has a small but real
 Performance cost. Generic collections (`List<Integer>`) are **invariant**, which is type-safe at
 Compile time and requires no runtime checks.
@@ -500,7 +500,7 @@ var boxed = (Integer) 42; // inferred: Integer
 // var is strictly for local variables with initializers
 ```
 
-<aside aria-label="Do not use `var` when the type is not obvious from the right-hand side. The goal is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Do not use `var` when the type is not obvious from the right-hand side. The goal is</p>
+<aside class="starlight-aside starlight-aside--caution">
 Readability, not brevity. Prefer explicit types when the initializer is complex, when the type
 Carries important semantic information, or when the inferred type might be surprising.
 </aside>
@@ -539,7 +539,7 @@ char c = 'A';
 int code = c + 1;          // code = 66
 ```
 
-<aside aria-label="**Surprising widening**: `long` to `float` is a widening conversion per the JLS, but a" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>**Surprising widening**: `long` to `float` is a widening conversion per the JLS, but a</p>
+<aside class="starlight-aside starlight-aside--caution">
 64-bit `long` has more precision than a 32-bit `float` (which has only 23 fraction bits). A large
 `long` value will lose low-order bits when converted to `float`. This is technically legal but often
 Surprising.
@@ -713,7 +713,7 @@ record NamedPoint(int x, int y, String name) implements Comparable<NamedPoint> {
 }
 ```
 
-<aside aria-label="Records cannot extend other classes (they implicitly extend `java.lang.Record`). Their" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Records cannot extend other classes (they implicitly extend `java.lang.Record`). Their</p>
+<aside class="starlight-aside starlight-aside--caution">
 Fields are always `final`. Records are best suited for data carriers where immutability and
 Structural equality are desired. They are not a replacement for mutable domain objects or entities.
 </aside>
@@ -831,7 +831,7 @@ ComplexNumber[] points = new ComplexNumber[1000];
 // vs. reference array: [ptr0, ptr1, ...] + 1000 separate heap objects
 ```
 
-<aside aria-label="Value types are still a preview feature and the syntax is evolving. As of Java 23, the" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Value types are still a preview feature and the syntax is evolving. As of Java 23, the</p>
+<aside class="starlight-aside starlight-aside--note">
 Feature is available behind `--enable-preview`. The exact syntax and semantics may change in future
 Releases. The core idea remains: providing user-defined types with inline layout and value-based
 Equality, eliminating the performance penalty of object identity.

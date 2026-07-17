@@ -49,7 +49,7 @@ impl Counter {
 }
 ```
 
-<aside aria-label="Accessing `UnsafeCell` requires `unsafe` because the compiler cannot verify that you are not" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Accessing `UnsafeCell` requires `unsafe` because the compiler cannot verify that you are not</p>
+<aside class="starlight-aside starlight-aside--danger">
 Creating two mutable references to the same data simultaneously. You are responsible for maintaining
 The aliasing invariant. Violating this is undefined behavior.
 
@@ -793,7 +793,7 @@ assert_eq!(counter.get(), 2);
 ```
 
 </aside>
-<aside aria-label="`Cell<T>` is `Send` when `T: Send`And `Sync` when `T: Copy`. This means `Arc<Cell<T>>` can be Shared" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`Cell<T>` is `Send` when `T: Send`And `Sync` when `T: Copy`. This means `Arc<Cell<T>>` can be Shared</p>
+<aside class="starlight-aside starlight-aside--caution">
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
 interior mutability — `get` copies the value out and `set` replaces it in a single Operation.
 

@@ -29,7 +29,7 @@ Android devices can be use for running builds by enabling `USB debugging` from
 Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
 Appear.
 
-<aside aria-label="If running `Flutter: Select Device` does not show your physical device, try revoking the USB" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If running `Flutter: Select Device` does not show your physical device, try revoking the USB</p>
+<aside class="starlight-aside starlight-aside--caution">
 Debugging and disconnect the device. Then reconnect the device and check remember device when
 Verifying.
 

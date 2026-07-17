@@ -218,7 +218,7 @@ However, the gig economy also reduces monopsony power in some respects: lower ba
 Increase labour supply elasticity, and platforms enable workers to switch between employers more
 than in traditional company-town settings.
 
-<aside aria-label="Info Employees or self-employed, and the implications for labour market regulation. AQA has" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Employees or self-employed, and the implications for labour market regulation. AQA has</p>
+<aside class="starlight-aside starlight-aside--note">
 examined the Gig economy in the context of labour market flexibility. Edexcel often links the gig
 economy to Wider debates about competition and regulation.
 </aside>
@@ -324,7 +324,7 @@ The net effect of trade unions on economic welfare is ambiguous and context-depe
   disrupt supply chains).
 - In competitive labour markets, wage increases above equilibrium unambiguously reduce employment.
 
-<aside aria-label="Info Force for good or harm in the labour market — both sides must be discussed for full" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info Force for good or harm in the labour market — both sides must be discussed for full</p>
+<aside class="starlight-aside starlight-aside--note">
 marks. Edexcel (Theme 3) links trade unions to broader debates about government intervention. OCR
 may ask about the Impact of declining union membership on wage inequality.
 </aside>
@@ -403,7 +403,7 @@ Same pay).
 5. **Discrimination**: Taste-based and statistical discrimination (see Section 8) continue to play a
    role, though their magnitude is debated.
 
-<aside aria-label="Board-Specific Note AQA and Edexcel both expect students to distinguish between the gender" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA and Edexcel both expect students to distinguish between the gender</p>
+<aside class="starlight-aside starlight-aside--note">
 Pay gap (an average difference across the economy) and equal pay (a legal requirement for identical
 Work). OCR (A) may link the gender pay gap to human capital theory and occupational segregation. CIE
 Has examined the effectiveness of government policies to reduce the gender pay gap.
@@ -505,7 +505,7 @@ Significant limitations:
   not all graduate-level jobs require degree-level skills. This creates **underemployment** where
   graduates work in non-graduate roles, and their human capital is underutilised.
 
-<aside aria-label="Board-Specific Note Edexcel (Theme 3) emphasises the role of education and training in" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note Edexcel (Theme 3) emphasises the role of education and training in</p>
+<aside class="starlight-aside starlight-aside--note">
 Improving labour market outcomes. AQA may ask students to evaluate whether increasing university
 Participation is always economically beneficial. CIE (9708) links human capital to economic growth
 In macro contexts. OCR often examines the limitations of human capital theory in explaining
@@ -574,7 +574,7 @@ In the UK, the ONS estimates that approximately two-thirds of the gender pay gap
 Occupational segregation and working patterns, while roughly one-third remains "unexplained" and may
 Reflect discrimination.
 
-<aside aria-label="Board-Specific Note CIE (9708) may ask students to distinguish between the explained and" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note CIE (9708) may ask students to distinguish between the explained and</p>
+<aside class="starlight-aside starlight-aside--note">
 Unexplained portions of the gender pay gap. AQA expects evaluation of government policies such as
 The UK Gender Pay Gap Reporting Regulations (2017). Edexcel often links discrimination to government
 Intervention policies. OCR may examine whether legislation alone is sufficient to eliminate
@@ -600,7 +600,7 @@ Discrimination.
   inequality
 - Non-wage factors (job satisfaction, work-life balance) are important but hard to quantify
 
-<aside aria-label="Board-Specific Note AQA places significant emphasis on trade unions and the minimum wage" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Board-Specific Note AQA places significant emphasis on trade unions and the minimum wage</p>
+<aside class="starlight-aside starlight-aside--note">
 Debate. Edexcel covers human capital and migration effects on labour markets. CIE (9708) often asks
 About wage determination in different market structures. OCR (A) emphasises labour market
 Flexibility and government intervention.
@@ -777,7 +777,7 @@ Approach.
 </details>
 
 
-<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Common Pitfalls</p>
+<aside class="starlight-aside starlight-aside--danger">
 - **Assuming minimum wages always cause unemployment:** This is only true in perfectly competitive
   labour markets. Under monopsony (a single dominant employer), a minimum wage set between the
   monopsony wage and the competitive wage can INCREASE employment. Always state the market structure

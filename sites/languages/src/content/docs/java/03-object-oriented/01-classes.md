@@ -35,7 +35,7 @@ public final class ImmutableList<E> extends AbstractList<E> implements List<E>, 
 }
 ```
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §8.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.1) defines class
 Declarations. The top-level class can be `public` or package-private (no modifier). Only one
 `public` class per compilation unit (.java file) is permitted.
@@ -234,12 +234,12 @@ class SubclassDemo extends AccessDemo {
 }
 ```
 
-<aside aria-label="`protected` access is narrower than most developers expect. A subclass in a different" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`protected` access is narrower than most developers expect. A subclass in a different</p>
+<aside class="starlight-aside starlight-aside--caution">
 Package can access a `protected` member only through `this` or a reference of the subclass's own
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
 The actual object is an instance of the subclass.
 </aside>
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §6.6](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.6) defines access
 Control in exhaustive detail. The rules for `protected` are specified in
 [JLS §6.6.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.6.2).
@@ -327,7 +327,7 @@ public class Config {
 }
 ```
 
-<aside aria-label="Never use a static mutable field to store per-request or per-user state. Static fields are" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never use a static mutable field to store per-request or per-user state. Static fields are</p>
+<aside class="starlight-aside starlight-aside--danger">
 Shared across all threads and all instances of the class. This is the source of countless
 Concurrency bugs in web applications.
 </aside>
@@ -421,7 +421,7 @@ public class Circle extends Shape {
 }
 ```
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §8.1.1.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.1.1.1) defines
 Abstract classes. An abstract class must be declared `abstract` if it has any abstract methods, but
 A class can be declared `abstract` even with no abstract methods (to prevent direct instantiation).
@@ -726,7 +726,7 @@ public Iterator<E> filteredIterator(final Predicate<? super E> predicate) {
 | Anonymous     |         Yes          |          All members          |            Yes            |        No        |
 | Local         |         Yes          |          All members          |            Yes            |        No        |
 
-<aside aria-label="Prefer static nested classes over member inner classes. A member inner class holds an" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Prefer static nested classes over member inner classes. A member inner class holds an</p>
+<aside class="starlight-aside starlight-aside--caution">
 Implicit reference to its enclosing instance, which can prevent garbage collection of the enclosing
 Object and creates a coupling that makes testing harder. Use a member inner class only when it
 Genuinely needs to access the enclosing instance's state.
@@ -892,7 +892,7 @@ Child c = new Child();
 c.classify();     // "Child"  -- compile-time type is Child
 ```
 
-<aside aria-label="Never hide static methods. It creates extremely confusing behavior where the method called" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never hide static methods. It creates extremely confusing behavior where the method called</p>
+<aside class="starlight-aside starlight-aside--danger">
 Depends on the declared type of the variable rather than the actual object. If you need polymorphic
 Behavior, use instance methods.
 </aside>
@@ -1020,7 +1020,7 @@ public int hashCode() {
 }
 ```
 
-<aside aria-label="If you use an object as a key in a `HashMap` or add it to a `HashSet`And then mutate Its" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If you use an object as a key in a `HashMap` or add it to a `HashSet`And then mutate Its</p>
+<aside class="starlight-aside starlight-aside--caution">
 state in a way that changes `equals()` or `hashCode()`The collection will behave incorrectly. The
 object may become "lost" in the wrong bucket. Always use immutable objects as hash keys, or Ensure
 that fields used in `equals()`/`hashCode()` are never modified after insertion.
@@ -1067,7 +1067,7 @@ class Person implements Cloneable {
 }
 ```
 
-<aside aria-label="`clone()` is broken by design. It is based on a combination of `Object.clone()` (which" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>`clone()` is broken by design. It is based on a combination of `Object.clone()` (which</p>
+<aside class="starlight-aside starlight-aside--danger">
 Does a shallow copy) and the `Cloneable` marker interface (which has no methods). The pattern is
 Awkward: you must call `super.clone()` (which checks runtime type), then manually deep-copy mutable
 Fields. Most experts recommend using copy constructors or static factory methods instead. Josh Bloch
@@ -1216,7 +1216,7 @@ public enum Operation {
 }
 ```
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §8.9](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.9) defines enum
 Declarations. Enum constants are implicitly `public static final`. Enum types implicitly extend
 `java.lang.Enum` and cannot be instantiated with `new`. Enum types are implicitly `final` unless
@@ -1379,7 +1379,7 @@ String s = (String) strings.get(0);  // compiler inserts the cast
 List<String>[] array = (List<String>[]) new List<?>[10];
 ```
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §4.6](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.6) defines type
 Erasure. [JLS §4.5](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.5) defines
 Parameterized types.

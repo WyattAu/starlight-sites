@@ -299,7 +299,7 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 | Foreign data wrapper queries   | No              | FDW does not support parallel execution    |
 | Queries returning few rows     | No              | Gather overhead exceeds benefit            |
 
-<aside aria-label="Parallel query workers each consume `work_mem` independently. A parallel hash join with 4 workers" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Parallel query workers each consume `work_mem` independently. A parallel hash join with 4 workers</p>
+<aside class="starlight-aside starlight-aside--caution">
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
 You risk OOM.
 
@@ -341,7 +341,7 @@ GROUP BY region, order_date;
 ```
 
 </aside>
-<aside aria-label="Index-only scans still access the heap if any column in the index has NULL values, because" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Index-only scans still access the heap if any column in the index has NULL values, because</p>
+<aside class="starlight-aside starlight-aside--note">
 PostgreSQL's visibility information is stored in the heap. To maximize index-only scan efficiency,
 Keep indexed columns NOT NULL where possible, or run `VACUUM` regularly to keep visibility map
 Accurate.
@@ -403,7 +403,7 @@ SELECT * FROM orders WHERE DATE_TRUNC('month', order_date) = '2024-01-01';
 ```
 
 </aside>
-<aside aria-label="The expression in the query must exactly match the expression in the index." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The expression in the query must exactly match the expression in the index.</p>
+<aside class="starlight-aside starlight-aside--caution">
 `WHERE lower(email) = 'alice@example.com'` uses the index, but
 `WHERE email ILIKE 'alice@example.com'` does not. Use functional indexes consistently.
 
@@ -509,7 +509,7 @@ server_idle_timeout = 600
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
 
 </aside>
-<aside aria-label="In `transaction` mode, session-level `SET` commands are lost between transactions. Use `SET LOCAL`" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>In `transaction` mode, session-level `SET` commands are lost between transactions. Use `SET LOCAL`</p>
+<aside class="starlight-aside starlight-aside--caution">
 For transaction-scoped settings, or use `search_path` in `pgbouncer.ini` with
 `extra_float_digits = 3`.
 
@@ -552,7 +552,7 @@ SET plan_cache_mode = auto;
 ```
 
 </aside>
-<aside aria-label="With PgBouncer in transaction mode, server-side prepared statements do not persist across" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>With PgBouncer in transaction mode, server-side prepared statements do not persist across</p>
+<aside class="starlight-aside starlight-aside--note">
 Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
 
 
@@ -839,7 +839,7 @@ CLUSTER orders USING idx_orders_customer_date;
 ```
 
 </aside>
-<aside aria-label="`CLUSTER` rewrites the entire table in the order of the specified index. It improves index scan" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`CLUSTER` rewrites the entire table in the order of the specified index. It improves index scan</p>
+<aside class="starlight-aside starlight-aside--note">
 Performance for that index but degrades it for other indexes. Use `CLUSTER` on the index that
 Corresponds to the most common access pattern.
 
@@ -922,7 +922,7 @@ WHERE o.created_at >= '2024-01-01';
 ```
 
 </aside>
-<aside aria-label="Partition-wise joins require both sides to be partitioned on the same key with the same partition" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Partition-wise joins require both sides to be partitioned on the same key with the same partition</p>
+<aside class="starlight-aside starlight-aside--caution">
 Bounds. If the partitioning schemes do not align, the optimizer falls back to joining the entire
 Tables.
 

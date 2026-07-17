@@ -1371,7 +1371,7 @@ $$\gamma = (2 - \eta)\nu \quad \mathrm{(Fisher)}$$
 
 These are verified experimentally and by renormalisation group calculations.
 
-<aside aria-label="Common Pitfall The mean-field approximation overestimates $T_c$ and gives incorrect" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The mean-field approximation overestimates $T_c$ and gives incorrect</p>
+<aside class="starlight-aside starlight-aside--caution">
 Critical exponents. In 1D, it predicts a phase transition at $T_c = Jz/k_B$Whereas the exact
 Solution shows no transition at $T \gt 0$. Mean-field theory is only reliable in high dimensions
 (where fluctuations are small) or for long-range interactions.
@@ -2005,17 +2005,17 @@ We can verify with the Clausius-Clapeyron equation if $\Delta V$ is known.
 
 </details>
 
-<aside aria-label="Common Pitfall Do not confuse the different ensembles. Use the microcanonical ensemble" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Do not confuse the different ensembles. Use the microcanonical ensemble</p>
+<aside class="starlight-aside starlight-aside--caution">
 ($NVE$) for isolated systems, the canonical ensemble ($NVT$) for systems in a heat bath, and the
 Grand canonical ensemble ($\mu VT$) for open systems. For macroscopic systems in equilibrium, all
 Ensembles give the same thermodynamic results, but they differ in their fluctuation predictions.
 </aside>
-<aside aria-label="Common Pitfall When applying the equipartition theorem, remember that it applies only to" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When applying the equipartition theorem, remember that it applies only to</p>
+<aside class="starlight-aside starlight-aside--caution">
 _quadratic_ degrees of freedom. Vibrational modes contribute $k_B T$ (not $k_B T/2$) because they
 Have both kinetic and potential energy terms. Electronic and rotational degrees of freedom may be
 "frozen out" at low temperatures when $k_B T$ is much less than the level spacing.
 </aside>
-<aside aria-label="Common Pitfall The Gibbs paradox arises when classical particles are treated as" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The Gibbs paradox arises when classical particles are treated as</p>
+<aside class="starlight-aside starlight-aside--caution">
 Distinguishable. Always include the $1/N!$ factor in the partition function for identical particles.
 This is not an optional correction — it is required by quantum mechanics (indistinguishability of
 Identical particles) and ensures that entropy is extensive.

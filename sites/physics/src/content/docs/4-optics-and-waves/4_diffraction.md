@@ -72,7 +72,7 @@ The intensity is about 4.5% of the central maximum.
 
 </details>
 
-<aside aria-label="Common Pitfall The condition for the first minimum in single-slit diffraction is" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The condition for the first minimum in single-slit diffraction is</p>
+<aside class="starlight-aside starlight-aside--caution">
 $a\sin\theta = \lambda$ (not $\lambda/2$). The factor of 2 difference from the double-slit maximum
 condition ($d\sin\theta = \lambda$) Reflects the fundamentally different geometry: in single-slit
 diffraction, the minimum occurs when Wavelets from the edges cancel, requiring a path difference of

@@ -471,7 +471,7 @@ Uses three metric groups:
 | 7.0-8.9     | High     | Address within 7-30 days                   |
 | 9.0-10.0    | Critical | Address immediately (within 24-72 hours)   |
 
-<aside aria-label="CVSS base scores are often misused as the sole basis for prioritization. A CVSS 9.8 vulnerability in" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>CVSS base scores are often misused as the sole basis for prioritization. A CVSS 9.8 vulnerability in</p>
+<aside class="starlight-aside starlight-aside--caution">
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an
 Internet-facing authentication service. Always factor exploitability, exposure, and business context
 Into prioritization.
@@ -814,7 +814,7 @@ Can boot from a live USB, modify the bootloader, install a hardware keylogger, o
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
 
 </aside>
-<aside aria-label="**Reference Standards**: NIST SP 800-53 (Security and Privacy Controls), NIST SP 800-207 (Zero Trust" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>**Reference Standards**: NIST SP 800-53 (Security and Privacy Controls), NIST SP 800-207 (Zero Trust</p>
+<aside class="starlight-aside starlight-aside--note">
 Architecture), ISO/IEC 27001 (Information Security Management), OWASP Testing Guide v4, MITRE ATT&CK
 Framework, CISA Known Exploited Vulnerabilities Catalog, ISO/IEC 27005 (Risk Management).
 

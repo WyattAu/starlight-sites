@@ -164,7 +164,7 @@ def floyd_warshall(n, edges):
     return dist
 ```
 
-<aside aria-label="Floyd-Warshall is the algorithm of choice when:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Floyd-Warshall is the algorithm of choice when:</p>
+<aside class="starlight-aside starlight-aside--note">
 - You need all-pairs shortest paths and $V$ is small ($V \lt 500$)
 - The graph is dense ($E \approx V^2$), where $O(V^3)$ is competitive with $V$ runs of Dijkstra
 - You need to handle negative edges
@@ -329,7 +329,7 @@ def prim(n, graph):
 | Prim (Fibonacci heap) | $O(E + V \log V)$ | Very dense graphs | Fibonacci heap |
 
 </aside>
-<aside aria-label="For dense graphs ($E \approx V^2$), Prim's algorithm with a Fibonacci heap is asymptotically optimal" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For dense graphs ($E \approx V^2$), Prim's algorithm with a Fibonacci heap is asymptotically optimal</p>
+<aside class="starlight-aside starlight-aside--note">
 At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
 
 

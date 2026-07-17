@@ -131,7 +131,7 @@ def coin_change_combinations(coins, amount):
     return dp[amount]
 ```
 
-<aside aria-label="The order of loops matters for counting combinations vs permutations. If you iterate amount first" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The order of loops matters for counting combinations vs permutations. If you iterate amount first</p>
+<aside class="starlight-aside starlight-aside--caution">
 And coins second, you count permutations (different orderings of the same coins are counted
 Separately). If you iterate coins first and amount second, you count combinations (each combination
 Is counted once). This is a common source of incorrect DP solutions.
@@ -291,7 +291,7 @@ def unbounded_knapsack(weights, values, capacity):
 ```
 
 </aside>
-<aside aria-label="The direction of iteration matters for space-optimised knapsack:" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>The direction of iteration matters for space-optimised knapsack:</p>
+<aside class="starlight-aside starlight-aside--note">
 - **0/1 knapsack:** iterate $w$ from $W$ down to $weight_i$ (reverse) — prevents using the same item
   twice in one iteration
 - **Unbounded knapsack:** iterate $w$ from $weight_i$ up to $W$ (forward) — allows reusing the item

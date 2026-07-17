@@ -798,7 +798,7 @@ Before submitting any essay, perform a structural audit:
 | FOA            | HL      | 15%       | 10--15 min                                         | Oral presentation on Part 1 or Part 2                 |
 | Extended Essay | Both    | N/A       | N/A                                                | 4,000-word independent research essay                 |
 
-<aside aria-label="For detailed analysis of the specific texts studied in this course, see" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>For detailed analysis of the specific texts studied in this course, see</p>
+<aside class="starlight-aside starlight-aside--note">
 [A Streetcar Named Desire](a-street-car-named-desire.md),
 [Streetcar Named Desire -- Close Reading and Analysis](streetcar-named-desire-analysis.md),
 [Chronicle of a Death Foretold](chronicle-of-a-death-foretold.md),

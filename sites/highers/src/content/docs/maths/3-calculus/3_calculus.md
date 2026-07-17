@@ -10,7 +10,7 @@ categories:
 
 ---
 
-<aside aria-label="This chapter covers **Advanced Higher** Mathematics content." class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>This chapter covers **Advanced Higher** Mathematics content.</p>
+<aside class="starlight-aside starlight-aside--note">
 ## Further Differentiation
 
 ### Implicit Differentiation

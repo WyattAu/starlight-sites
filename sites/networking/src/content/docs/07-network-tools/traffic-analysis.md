@@ -74,7 +74,7 @@ Before libpcap sees it.
 | Encrypted traffic analysis       | On the endpoint (before encryption / after decryption) |
 | Container networking             | On the host's veth interface or inside the container   |
 
-<aside aria-label="SPAN ports can drop packets under heavy load. The SPAN port's ASIC may not be able to mirror" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>SPAN ports can drop packets under heavy load. The SPAN port's ASIC may not be able to mirror</p>
+<aside class="starlight-aside starlight-aside--caution">
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
 Consider using a TAP or capturing on the endpoint.
 
@@ -574,7 +574,7 @@ cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 ```
 
 </aside>
-<aside aria-label="If the conntrack table fills up, new connections are dropped with" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>If the conntrack table fills up, new connections are dropped with</p>
+<aside class="starlight-aside starlight-aside--caution">
 `nf_conntrack: table full, dropping packet` messages in dmesg. This is a common cause of seemingly
 Random connection failures on firewalls and NAT gateways. Monitor `nf_conntrack_count` vs
 `nf_conntrack_max`.

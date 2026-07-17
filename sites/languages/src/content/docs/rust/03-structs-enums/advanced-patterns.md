@@ -70,7 +70,7 @@ let len = w.len();  // calls Vec::len through deref coercion
 assert_eq!(len, 1);
 ```
 
-<aside aria-label="`Deref` coercion can silently bypass the type safety that the newtype provides. If you implement" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>`Deref` coercion can silently bypass the type safety that the newtype provides. If you implement</p>
+<aside class="starlight-aside starlight-aside--caution">
 `Deref`Callers can use the newtype as if it were the inner type, potentially defeating the purpose
 Of the wrapper. Only implement `Deref` when you intentionally want this behavior.
 
@@ -449,7 +449,7 @@ println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
 
 </aside>
-<aside aria-label="Struct update syntax moves non-`Copy` fields. If the struct contains `String``Vec`Or other" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Struct update syntax moves non-`Copy` fields. If the struct contains `String``Vec`Or other</p>
+<aside class="starlight-aside starlight-aside--caution">
 Heap-allocated types, those are moved (not copied) into the new struct. After the spread, the
 Original struct is no longer usable in its entirety.
 

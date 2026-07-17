@@ -278,7 +278,7 @@ Result: $1011_2 = -5$ in two's complement. But $6 + 5 = 11$Which is outside the 
 
 </details>
 
-<aside aria-label="Info" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Info</p>
+<aside class="starlight-aside starlight-aside--note">
 - **AQA:** Requires two's complement for 8-bit and 16-bit numbers.
 - **CIE:** Requires two's complement for 8-bit numbers specifically.
 - **OCR:** Requires understanding of sign and magnitude as well as two's complement.
@@ -350,7 +350,7 @@ The codes $1010$ through $1111$ are **invalid** in BCD.
   bits in pure binary ($1111100111_2$)
 - BCD avoids rounding errors in decimal arithmetic — useful in financial systems
 
-<aside aria-label="Pitfall BCD is NOT the same as converting the entire number to binary. $12_{10}$ in BCD" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall BCD is NOT the same as converting the entire number to binary. $12_{10}$ in BCD</p>
+<aside class="starlight-aside starlight-aside--caution">
 Is $00010010_2$NOT $1100_2$.
 </aside>
 <hr />
@@ -434,7 +434,7 @@ Magnitude.
 - Range for $n$ bits: $[-(2^{n-1} - 1),\ 2^{n-1} - 1]$
 - Two representations of zero: $+0 = 000\ldots0$ and $-0 = 100\ldots0$
 
-<aside aria-label="Pitfall Sign and magnitude is rarely used in practice because:" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Pitfall Sign and magnitude is rarely used in practice because:</p>
+<aside class="starlight-aside starlight-aside--caution">
 1. It has two representations of zero
 2. Addition requires different logic depending on the signs
 3. The range is asymmetric

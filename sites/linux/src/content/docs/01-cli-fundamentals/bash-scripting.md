@@ -53,7 +53,7 @@ if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
 fi
 ```
 
-<aside aria-label="The regex in `[[ =~ ]]` is unquoted on the right side. If you quote it, it becomes a literal string." class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The regex in `[[ =~ ]]` is unquoted on the right side. If you quote it, it becomes a literal string.</p>
+<aside class="starlight-aside starlight-aside--caution">
 Always store regex in a variable if it contains spaces or special characters:
 
 ```bash
@@ -303,7 +303,7 @@ calculate() {
 ```
 
 </aside>
-<aside aria-label="Variables in bash functions are global by default. Always use `local` to avoid polluting the calling" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Variables in bash functions are global by default. Always use `local` to avoid polluting the calling</p>
+<aside class="starlight-aside starlight-aside--caution">
 Scope. This is one of the most common sources of bash script bugs.
 
 
@@ -757,7 +757,7 @@ false
 ```
 
 </aside>
-<aside aria-label="The `ERR` trap fires on every non-zero exit status when `set -e` is active. In pipelines with" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The `ERR` trap fires on every non-zero exit status when `set -e` is active. In pipelines with</p>
+<aside class="starlight-aside starlight-aside--caution">
 `pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines — explicit error checking is more reliable.
 

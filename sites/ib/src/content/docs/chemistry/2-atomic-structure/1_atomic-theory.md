@@ -225,8 +225,8 @@ $$
 \mathrm{radial nodes} = n - l - 1
 $$
 
-:::info[Example]
-
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example</strong>
 For the $3p$ orbital ($n = 3$$l = 1$):
 
 - Total nodes $= 2$
@@ -264,9 +264,9 @@ Where $S$ is the shielding constant estimated by Slater's rules.
 
 5. $n - 2$ and lower: each contributes $1.00$.
 
-:::
-:::info[Example — $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)</strong>
 Configuration: $(1s)^2(2s,2p)^8(3s,3p)^8(4s)^1$
 
 - Same group ($4s$): $0$ other electrons
@@ -319,9 +319,9 @@ $$
 
 This reveals the number of valence electrons.
 
-:::
-:::info[Example — Silicon ($Z = 14$)]
-
+</aside>
+<aside class="starlight-aside starlight-aside--note">
+<strong>Example — Silicon ($Z = 14$)</strong>
 $IE_1 = 787$$IE_2 = 1577$$IE_3 = 3228$$IE_4 = 4356$$IE_5 = 16091\mathrm{ kJ/mol}$
 
 The large jump from $IE_4$ to $IE_5$ indicates 4 valence electrons, consistent with silicon
@@ -754,4 +754,4 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
 
 
-:::
+</aside>

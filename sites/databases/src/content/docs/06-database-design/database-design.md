@@ -352,7 +352,7 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 | Write pattern | Inserts target specific partitions               | Inserts are spread uniformly      |
 | Index size    | Index maintenance is becoming expensive          | Indexes fit comfortably in memory |
 
-<aside aria-label="The partition key must be part of the primary key (or all unique indexes). You cannot have a PRIMARY" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The partition key must be part of the primary key (or all unique indexes). You cannot have a PRIMARY</p>
+<aside class="starlight-aside starlight-aside--caution">
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
 Both `(order_id, created_at)`. This is a common gotcha when migrating an existing table to
 Partitioning.
@@ -395,7 +395,7 @@ $$\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}$$
   monitoring, and failover
 
 </aside>
-<aside aria-label="Do not shard prematurely. A single PostgreSQL instance with partitioning, read replicas, and" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.37 2.51a.75.75 0 0 1-.28 1.02L5.59 5H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.59l-3.09 2.97a.75.75 0 1 1-1.02-1.09l4.5-4.5a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.02 1.08L7 10.5V17a3 3 0 0 0 3 3h4a3 3 0 0 0 3-3v-2.38l2.12 2.12a.75.75 0 1 0 1.06-1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 0 1-1.06 0L7.64 3.53a.75.75 0 0 1-.28-1.02ZM19 18a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-2 0v2H9a1 1 0 0 0-1 1v3h12v-3Z"/></svg>Do not shard prematurely. A single PostgreSQL instance with partitioning, read replicas, and</p>
+<aside class="starlight-aside starlight-aside--tip">
 Connection pooling can handle millions of queries per hour. Only shard when you have exhausted
 Vertical scaling and single-node optimisations.
 
@@ -505,7 +505,7 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 - Use `pg_partman` for partitioning without downtime
 
 </aside>
-<aside aria-label="Never drop a column or table in a migration without verifying that no code references it. In" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never drop a column or table in a migration without verifying that no code references it. In</p>
+<aside class="starlight-aside starlight-aside--caution">
 Microservice architectures, check all services, not just the one you are deploying. A column used by
 A reporting service or a data pipeline can cause silent failures if dropped.
 
@@ -646,7 +646,7 @@ recovery_target_action = 'promote'
 - **Encrypt backups:** database backups contain sensitive data.
 
 </aside>
-<aside aria-label="Never test your backup strategy for the first time during an outage. Schedule quarterly restore" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Never test your backup strategy for the first time during an outage. Schedule quarterly restore</p>
+<aside class="starlight-aside starlight-aside--caution">
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
 That the backup is corrupted or incomplete when you need it most.
 
@@ -737,7 +737,7 @@ SELECT pg_reload_conf();
 ```
 
 </aside>
-<aside aria-label="Automatic failover can cause split-brain if the network partition is asymmetric (the primary thinks" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Automatic failover can cause split-brain if the network partition is asymmetric (the primary thinks</p>
+<aside class="starlight-aside starlight-aside--caution">
 It is still the leader, but the replicas have already promoted one of their own). Always use a
 Consensus-based coordination system (Patroni + etcd) rather than custom scripts.
 

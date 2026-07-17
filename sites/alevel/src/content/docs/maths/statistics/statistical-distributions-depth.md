@@ -6,16 +6,16 @@ tags: [Mathematics, ALevel]
 categories: [Mathematics]
 ---
 
-:::note[Historical Context]
+<aside class="starlight-aside starlight-aside--note">
+<strong>Historical Context</strong>
 The Gaussian distribution was first derived by Abraham de Moivre (1733) as an approximation to the binomial distribution. Carl Friedrich Gauss later used it extensively in his work on celestial mechanics (1809). The Poisson distribution was introduced by Siméon Denis Poisson (1837) to model rare events. The binomial distribution dates to Jacob Bernoulli (1713). These three are connected: Poisson is a binomial limit (small p, large n), and the normal is a binomial limit (Central Limit Theorem). First proved rigorously by Laplace (1812) and later Kolmogorov (1933).
-:::
-
+</aside>
 ## Statistical Distributions (Extended Treatment)
 
 This document provides rigorous coverage of the binomial, normal, and Poisson distributions, their
 Approximations, and hypothesis testing applications.
 
-<aside aria-label="Always state the distribution you are using in full, including the parameter values, before" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Always state the distribution you are using in full, including the parameter values, before</p>
+<aside class="starlight-aside starlight-aside--note">
 Calculating probabilities. For example: "$X \sim B(20, 0.3)$".
 </aside>
 <hr />
@@ -241,7 +241,7 @@ Total rate per hour $= 3 + 2 = 5$. For two hours, $X \sim \mathrm{Po}(10)$.
 
 $P(X \gt 7) = 1 - P(X \leq 7) = 1 - e^{-10}\displaystyle\sum_{r=0}^{7}\dfrac{10^r}{r!} \approx 1 - 0.2202 = 0.7798$
 
-<aside aria-label="Common Pitfall When using the Poisson approximation to the binomial, always check that" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall When using the Poisson approximation to the binomial, always check that</p>
+<aside class="starlight-aside starlight-aside--caution">
 the conditions are met (large $n$Small $p$). If $p$ is close to 0.5, the normal approximation is
 more appropriate.
 </aside>

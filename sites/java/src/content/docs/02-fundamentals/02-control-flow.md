@@ -55,7 +55,7 @@ if (a > 0) {
 }
 ```
 
-<aside aria-label="Always use braces for `if`/`else` blocks, even when the body is a single statement. This" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Always use braces for `if`/`else` blocks, even when the body is a single statement. This</p>
+<aside class="starlight-aside starlight-aside--caution">
 Eliminates the dangling else ambiguity entirely and prevents bugs when statements are added later.
 </aside>
 ## The switch Statement
@@ -103,7 +103,7 @@ Accidental fall-through is one of the most common sources of bugs in Java code.
 The supported types for traditional switch are: `byte``short``char``int`Their wrapper Classes
 (`Byte``Short``Character``Integer`), `String` (since Java 7), and enums (since Java 5).
 
-<aside aria-label="The traditional switch has several design flaws: fall-through is error-prone, variables" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>The traditional switch has several design flaws: fall-through is error-prone, variables</p>
+<aside class="starlight-aside starlight-aside--danger">
 Declared in one `case` scope leak into subsequent cases, and the entire construct is
 Statement-oriented (it cannot produce a value). These flaws motivated the introduction of switch
 Expressions.
@@ -295,7 +295,7 @@ for (Iterator<String> it = names.iterator(); it.hasNext(); ) {
 }
 ```
 
-<aside aria-label="The enhanced for loop does not provide access to the index. If you need the index, use" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The enhanced for loop does not provide access to the index. If you need the index, use</p>
+<aside class="starlight-aside starlight-aside--caution">
 The traditional for loop. Additionally, the enhanced for loop does not allow modification of the
 Collection during iteration (any structural modification throws `ConcurrentModificationException`).
 </aside>
@@ -317,7 +317,7 @@ do {
 The `do-while` loop guarantees at least one execution of the body. It is the correct choice when the
 Loop body must run before the condition can be evaluated (e.g., reading input before validating it).
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §14.12](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.12) defines the
 `while` statement.
 [JLS §14.13](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.13) defines the
@@ -375,7 +375,7 @@ for (int i = 0; i < rows; i++) {
 }
 ```
 
-<aside aria-label="Labels follow the same naming rules as identifiers. A label is attached to a statement by" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Labels follow the same naming rules as identifiers. A label is attached to a statement by</p>
+<aside class="starlight-aside starlight-aside--note">
 Prefixing it with `label:`. The label is only useful when referenced by a `break label;` or
 `continue label;` statement inside a nested loop. Labels cannot target arbitrary statements -- only
 Loop and switch statements can be the target of `break`And only loops can be the target of
@@ -432,7 +432,7 @@ graph TD
     style RuntimeException fill:#f39c12,color:#000
 ```
 
-<aside aria-label="JLS Reference" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>JLS Reference</p>
+<aside class="starlight-aside starlight-aside--note">
 [JLS §11.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-11.html#jls-11.1) defines the
 Throwable hierarchy and the distinction between unchecked and checked exceptions.
 </aside>
@@ -566,7 +566,7 @@ try {
 5. If `finally` also throws an exception, it **replaces** any exception thrown in the `try` or
    `catch` block.
 
-<aside aria-label="If both the `try` block and the `finally` block throw exceptions, the exception from" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>If both the `try` block and the `finally` block throw exceptions, the exception from</p>
+<aside class="starlight-aside starlight-aside--danger">
 `finally` replaces the original exception. This silently swallows the original error. Always ensure
 `finally` blocks cannot throw exceptions.
 </aside>
@@ -652,7 +652,7 @@ try (Reader r = new FailingReader()) {
 }
 ```
 
-<aside aria-label="`AutoCloseable.close()` is declared to throw `Exception`. `Closeable` (a subinterface)" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>`AutoCloseable.close()` is declared to throw `Exception`. `Closeable` (a subinterface)</p>
+<aside class="starlight-aside starlight-aside--note">
 Narrows this to `IOException`. Any resource that needs cleanup should implement `AutoCloseable`. The
 Compiler generates the equivalent of a `finally` block that calls `close()` on each declared
 Resource in reverse order.
@@ -778,7 +778,7 @@ class SafeDataSource implements DataSource {
 // }
 ```
 
-<aside aria-label="The overriding rule: a method that overrides or implements another method cannot declare" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>The overriding rule: a method that overrides or implements another method cannot declare</p>
+<aside class="starlight-aside starlight-aside--caution">
 Checked exceptions that are broader than those declared in the supertype method. It can declare the
 Same exceptions, narrower exceptions (subtypes), or no checked exceptions at all.
 </aside>
@@ -848,7 +848,7 @@ public void setName(String name) {
 }
 ```
 
-<aside aria-label="Never use assertions for validating public method arguments or for conditions that affect" class="starlight-aside starlight-aside--danger"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/></svg>Never use assertions for validating public method arguments or for conditions that affect</p>
+<aside class="starlight-aside starlight-aside--danger">
 Correctness in production. Since assertions can be disabled, a failed assertion would go undetected
 In production, leading to silent data corruption. Use `Objects.requireNonNull()`Explicit `if` Checks
 with `IllegalArgumentException`Or framework-level validation (like `jakarta.validation`) For input
@@ -908,7 +908,7 @@ The compiler prefers the more specific overload (exact parameter count match) ov
 Overload. When no exact match exists, the compiler performs varargs invocation by wrapping the
 Arguments in an array.
 
-<aside aria-label="Be cautious with varargs when the parameter type is generic. A varargs parameter of type" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Be cautious with varargs when the parameter type is generic. A varargs parameter of type</p>
+<aside class="starlight-aside starlight-aside--caution">
 `T...` can cause heap pollution because the compiler creates a generic array, which is not
 Type-safe. Use `@SafeVarargs` on methods that do not store the varargs array or pass it to untrusted
 Code.
@@ -998,7 +998,7 @@ String example = """
         """;
 ```
 
-<aside aria-label="Text blocks produce standard `String` objects. At compile time, the text block is converted" class="starlight-aside starlight-aside--note"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-5a1 1 0 0 1-2 0V8a1 1 0 0 1 2 0v2Z"/></svg>Text blocks produce standard `String` objects. At compile time, the text block is converted</p>
+<aside class="starlight-aside starlight-aside--note">
 To a `String` literal with `\n``\t`And `\"` escape sequences. Text blocks are primarily Syntactic
 convenience -- they do not introduce a new type.
 </aside>
