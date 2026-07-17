@@ -12,6 +12,7 @@
  */
 ;(() => {
   let initialized = false
+  let pollTimer = null
 
   const hasMermaid = () =>
     document.querySelectorAll('pre.mermaid, pre[data-language="mermaid"]').length > 0
@@ -22,43 +23,30 @@
   }
 
   /**
-   * Convert Expressive Code's mermaid blocks to plain <pre class="mermaid">.
+   * Convert Expressive Code's mermaid blocks to plain pre.mermaid.
    * EC wraps mermaid in: <figure class="frame"><pre data-language="mermaid"><code>...</code></pre></figure>
    * We need: <pre class="mermaid">raw mermaid text</pre>
    */
   const convertExpressiveCodeBlocks = () => {
     document.querySelectorAll('pre[data-language="mermaid"]').forEach(pre => {
-      // Skip if already converted
       if (pre.classList.contains('mermaid')) return
-
-      // Extract the raw mermaid text from the syntax-highlighted code
-      // EC wraps each line in <div class="ec-line"><div class="code">...</div></div>
       const codeEl = pre.querySelector('code')
       if (!codeEl) return
-
-      // Get text content from all ec-line elements (strips HTML syntax highlighting)
       const lines = []
       codeEl.querySelectorAll('.ec-line .code').forEach(line => {
         lines.push(line.textContent)
       })
-
       if (lines.length === 0) return
-
       const mermaidText = lines.join('\n')
-
-      // Replace the EC element with a plain <pre class="mermaid">
       const figure = pre.closest('figure')
       if (figure) {
-        // Replace the entire figure with a plain pre.mermaid
         const newPre = document.createElement('pre')
         newPre.className = 'mermaid'
         newPre.textContent = mermaidText
         figure.replaceWith(newPre)
       } else {
-        // No figure wrapper, replace just the pre
         pre.className = 'mermaid'
         pre.textContent = mermaidText
-        // Remove the code child
         const code = pre.querySelector('code')
         if (code) code.remove()
       }
@@ -91,65 +79,50 @@
 
   const initMermaid = () => {
     if (!hasMermaid()) return
-
-    // Step 1: Convert Expressive Code blocks to plain pre.mermaid
     convertExpressiveCodeBlocks()
 
-    if (typeof window.mermaid === 'undefined') {
-      // mermaid.min.js hasn't loaded yet, wait for it
-      window.addEventListener('load', () => {
-        if (typeof window.mermaid !== 'undefined' && !initialized) {
-          window.mermaid.initialize({
-            startOnLoad: false,
-            theme: getTheme(),
-            securityLevel: 'loose',
-          })
-          initialized = true
-          renderAll()
-        }
-      })
+    if (typeof window.mermaid !== 'undefined') {
+      if (!initialized) {
+        window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
+        initialized = true
+      }
+      renderAll()
       return
     }
-    if (!initialized) {
-      window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
-      initialized = true
-    }
-    renderAll()
+
+    // Poll for mermaid.min.js to load (defer scripts run before 'load' event)
+    if (pollTimer) return
+    pollTimer = setInterval(() => {
+      if (typeof window.mermaid !== 'undefined') {
+        clearInterval(pollTimer)
+        pollTimer = null
+        window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
+        initialized = true
+        renderAll()
+      }
+    }, 100)
+
+    // Safety: stop polling after 10 seconds
+    setTimeout(() => {
+      if (pollTimer) {
+        clearInterval(pollTimer)
+        pollTimer = null
+      }
+    }, 10000)
   }
 
-  // Initial render
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initMermaid)
   } else {
     initMermaid()
   }
 
-  // Re-render on view transitions (Astro)
   document.addEventListener('astro:after-swap', () => {
     initialized = false
-    if (hasMermaid()) initMermaid()
-  })
-
-  // Re-render on theme change
-  const observer = new MutationObserver(mutations => {
-    for (const mutation of mutations) {
-      if (mutation.attributeName === 'data-theme') {
-        document.querySelectorAll('pre.mermaid[data-processed]').forEach(el => {
-          el.removeAttribute('data-processed')
-        })
-        if (typeof window.mermaid !== 'undefined') {
-          window.mermaid.initialize({
-            startOnLoad: false,
-            theme: getTheme(),
-            securityLevel: 'loose',
-          })
-          renderAll()
-        }
-      }
+    if (pollTimer) {
+      clearInterval(pollTimer)
+      pollTimer = null
     }
-  })
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['data-theme'],
+    if (hasMermaid()) initMermaid()
   })
 })()
