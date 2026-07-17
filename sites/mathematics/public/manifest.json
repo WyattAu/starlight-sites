@@ -1,7 +1,7 @@
 {
-  "name": "Wyatt's Notes — University",
+  "name": "Wyatt's Notes — Mathematics",
   "short_name": "WyattsNotes",
-  "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
+  "description": "University-level Mathematics covering algebra, analysis, and topology.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0f172a",

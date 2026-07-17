@@ -1,7 +1,7 @@
 {
-  "name": "Wyatt's Notes — Programming",
+  "name": "Wyatt's Notes — C++",
   "short_name": "WyattsNotes",
-  "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
+  "description": "C++ programming from fundamentals to advanced template metaprogramming.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0f172a",

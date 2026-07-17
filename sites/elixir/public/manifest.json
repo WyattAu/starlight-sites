@@ -1,7 +1,7 @@
 {
-  "name": "Wyatt's Notes",
+  "name": "Wyatt's Notes — Elixir",
   "short_name": "Wyatt's Notes",
-  "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
+  "description": "Elixir programming with functional patterns and OTP concurrency.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0f172a",

@@ -1,7 +1,7 @@
 {
-  "name": "Wyatt's Notes",
+  "name": "Wyatt's Notes — Security",
   "short_name": "Wyatt's Notes",
-  "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
+  "description": "Cybersecurity fundamentals, penetration testing, and incident response.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0f172a",

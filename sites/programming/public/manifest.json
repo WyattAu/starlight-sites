@@ -1,7 +1,7 @@
 {
   "name": "Wyatt's Notes — Programming",
   "short_name": "WyattsNotes",
-  "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
+  "description": "Programming languages, algorithms, and software engineering.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0f172a",

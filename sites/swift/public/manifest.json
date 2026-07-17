@@ -1,7 +1,7 @@
 {
-  "name": "Wyatt's Notes",
+  "name": "Wyatt's Notes — Swift",
   "short_name": "Wyatt's Notes",
-  "description": "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.",
+  "description": "Swift programming language fundamentals and iOS development.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#0f172a",
