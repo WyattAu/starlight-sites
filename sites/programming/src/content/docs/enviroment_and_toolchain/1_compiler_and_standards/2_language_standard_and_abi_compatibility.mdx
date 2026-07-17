@@ -83,10 +83,12 @@ clang++ -std=c++23 -stdlib=libc++ main.cpp
 clang++ -std=c++23 -stdlib=libstdc++ main.cpp
 ```
 
-<Aside type="caution" title="Library Availability On Linux, using `-stdlib=libc++` requires the installation of">
+<aside aria-label="Library Availability On Linux, using `-stdlib=libc++` requires the installation of" class="starlight-aside starlight-aside--caution">
+<strong>Library Availability On Linux, using `-stdlib=libc++` requires the installation of</strong>
+
 Specific library packages (e.g., `libc++-dev` and `libc++abi-dev` on Debian/Ubuntu). If these are
 Missing, the linker will fail to find symbols.
-</Aside>
+</aside>
 ## Application Binary Interface (ABI)
 
 The Application Binary Interface (ABI) defines how data structures and routines are accessed in
@@ -452,10 +454,12 @@ Stability since GCC 5.1.
 | GCC Linux $\leftrightarrow$ Clang Linux (`libstdc++`)      |             | Same `libstdc++.so` must be used at runtime          |
 | MSVC 2019 $\leftrightarrow$ MSVC 2022                      |             | MSVC STL aims for ABI stability, but not guaranteed  |
 
-<Aside type="caution" title="Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same">
+<aside aria-label="Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same" class="starlight-aside starlight-aside--caution">
+<strong>Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same</strong>
+
 C++ standard version. However, some ABI-affecting flags (like `-D_GLIBCXX_USE_CXX11_ABI`) must be
 Consistent across all object files in the final binary.
-</Aside>
+</aside>
 ## MSVC ABI Differences
 
 MSVC uses a different C++ ABI from the Itanium ABI used by GCC/Clang. Key differences:

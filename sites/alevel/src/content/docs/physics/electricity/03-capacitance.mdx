@@ -212,10 +212,12 @@ For discharging: $\frac{Q}{Q_0} = e^{-1} = 0.368$So **36.8%** remains (63.2% is 
 Limits the charging current, and a large capacitance requires more charge — both increase the time
 Needed. After $5\tau$The capacitor is effectively fully charged or discharged.
 
-<Aside type="tip" title="Tip At which the curve reaches 63.2% of its final value. For discharging, find the time at">
+<aside aria-label="Tip At which the curve reaches 63.2% of its final value. For discharging, find the time at" class="starlight-aside starlight-aside--tip">
+<strong>Tip At which the curve reaches 63.2% of its final value. For discharging, find the time at</strong>
+
 which the Curve drops to 36.8% of its initial value. Alternatively, find the time at which the
 tangent at $t = 0$ intersects the final value line.
-</Aside>
+</aside>
 ## 8. Dielectrics in Detail
 
 ### Polarisation Mechanism
@@ -338,10 +340,12 @@ $$V_{\mathrm{max}} = E_{\mathrm{breakdown}} \cdot d$$
 | Water (pure)    | 80              | $\approx 0.065$             |
 | Barium titanate | 1200 -- 10000   | 3                           |
 
-<Aside type="caution" title="Common Pitfall A high $\varepsilon_r$ does not imply high dielectric strength. Water has">
+<aside aria-label="Common Pitfall A high $\varepsilon_r$ does not imply high dielectric strength. Water has" class="starlight-aside starlight-aside--caution">
+<strong>Common Pitfall A high $\varepsilon_r$ does not imply high dielectric strength. Water has</strong>
+
 An enormous $\varepsilon_r = 80$ but a very low breakdown voltage ($\approx 65$ V/mm), so water is a
 Poor practical dielectric for high-voltage capacitors despite its high permittivity.
-</Aside>
+</aside>
 ### Effect of Dielectric on Energy Stored
 
 Two distinct cases must be considered:
@@ -364,10 +368,12 @@ $$E_{\mathrm{new}} = \frac{1}{2}C_{\mathrm{new}}V^2 = \frac{1}{2}\varepsilon_r C
 The additional energy comes from the battery, which supplies extra charge
 $Q' = (\varepsilon_r - 1)CV$ to the plates.
 
-<Aside type="tip" title="Exam Technique When a question asks about inserting a dielectric, always check whether the">
+<aside aria-label="Exam Technique When a question asks about inserting a dielectric, always check whether the" class="starlight-aside starlight-aside--tip">
+<strong>Exam Technique When a question asks about inserting a dielectric, always check whether the</strong>
+
 Capacitor is isolated or connected to a supply. This completely determines whether $Q$ or $V$ is
 Held constant, and therefore whether energy increases or decreases.
-</Aside>
+</aside>
 ## 9. Charge Sharing Between Capacitors
 
 ### Setup
@@ -426,9 +432,11 @@ Redistribution, a transient current flows through the connecting wires. The resi
 Electromagnetic radiation. The "missing" energy is accounted for by Joule heating and radiative
 Losses.
 
-<Aside type="caution" title="Warning But the system loses energy to the surroundings. Never assume $E_i = E_f$ when">
+<aside aria-label="Warning But the system loses energy to the surroundings. Never assume $E_i = E_f$ when" class="starlight-aside starlight-aside--caution">
+<strong>Warning But the system loses energy to the surroundings. Never assume $E_i = E_f$ when</strong>
+
 solving Charge-sharing problems.
-</Aside>
+</aside>
 ### Worked Example
 
 A $10\,\mu$F capacitor is charged to $100$ V and then connected to an uncharged $30\,\mu$F
@@ -575,11 +583,13 @@ $$C = -\frac{1}{mR}$$
   $R_{\mathrm{eff}} = \frac◆LB◆R \cdot R_V◆RB◆◆LB◆R + R_V◆RB◆$Leading to a systematic underestimate
   of $C$.
 
-<Aside type="tip" title="Exam Technique When asked to determine $C$ from a discharge curve, always take the natural">
+<aside aria-label="Exam Technique When asked to determine $C$ from a discharge curve, always take the natural" class="starlight-aside starlight-aside--tip">
+<strong>Exam Technique When asked to determine $C$ from a discharge curve, always take the natural</strong>
+
 Log of the voltage values and plot $\ln(V)$ vs $t$. Do NOT attempt to fit an exponential curve
 Directly. The gradient gives you $-1/(RC)$And since $R$ is known, you extract $C$. Show the
 Log-linear transformation explicitly.
-</Aside>
+</aside>
 ### Method 2: Repeating Capacitor (Ballistic Galvanometer)
 
 A **ballistic galvanometer** measures total charge passing through it. If a capacitor $C$ is charged
@@ -920,7 +930,9 @@ $C = (7.2 \pm 1.4) \times 10^{-4}$ F.
 
 ---
 
-<Aside type="tip" title="Diagnostic Test Ready to test your understanding of **Capacitance**? The contains the hardest questions">
+<aside aria-label="Diagnostic Test Ready to test your understanding of **Capacitance**? The contains the hardest questions" class="starlight-aside starlight-aside--tip">
+<strong>Diagnostic Test Ready to test your understanding of **Capacitance**? The contains the hardest questions</strong>
+
 within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Capacitance
@@ -928,8 +940,10 @@ with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-</Aside>
-<Aside type="danger" title="Common Pitfalls">
+</aside>
+<aside aria-label="Common Pitfalls" class="starlight-aside starlight-aside--danger">
+<strong>Common Pitfalls</strong>
+
 - **Assuming charge is shared equally between capacitors in series:** In series, all capacitors
   store the SAME charge, not equal charge. The total charge stored is NOT Q1 + Q2 -- it is the
   common charge Q that flows through all of them. This is because the same current flows through
@@ -949,7 +963,7 @@ self-marking and building a personal test matrix.
   overlapping area), not the total area of both plates. If plates have different areas, use the
   smaller area. Also, d is the separation between plates, not the thickness of a plate.
 
-</Aside>
+</aside>
 ## Common Pitfalls
 
 1. Rounding intermediate answers too early, which compounds errors in multi-step calculations.

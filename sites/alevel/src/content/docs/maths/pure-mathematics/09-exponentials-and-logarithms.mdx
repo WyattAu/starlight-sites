@@ -21,9 +21,11 @@ import DesmosGraph from "@components/DesmosGraph";
 | OCR (A)    | Paper 1, 2 | Includes $e^x$ and $\ln x$ graphs                 |
 | CIE (9709) | P1, P2, P3 | Exponentials/logarithms in P1; further in P3      |
 
-<Aside type="note" title="The formula booklet gives the laws of logarithms and the derivatives of $e^x$ and $\ln x$.">
+<aside aria-label="The formula booklet gives the laws of logarithms and the derivatives of $e^x$ and $\ln x$." class="starlight-aside starlight-aside--note">
+<strong>The formula booklet gives the laws of logarithms and the derivatives of $e^x$ and $\ln x$.</strong>
+
 You must know how to use them and where they come from.
-</Aside>
+</aside>
 <hr />
 
 ## 1. The Number $e$
@@ -97,9 +99,11 @@ $$\frac{d}{dx}a^x = \frac{d}{dx}e^{x\ln a} = (\ln a)\, e^{x\ln a} = a^x \ln a$$
 
 This follows immediately from the chain rule applied to $e^{x\ln a}$.
 
-<Aside type="caution" title="Warning $\frac{d}{dx}x^n = nx^{n-1}$ applies when the variable is in the **base**, not">
+<aside aria-label="Warning $\frac{d}{dx}x^n = nx^{n-1}$ applies when the variable is in the **base**, not" class="starlight-aside starlight-aside--caution">
+<strong>Warning $\frac{d}{dx}x^n = nx^{n-1}$ applies when the variable is in the **base**, not</strong>
+
 the exponent.
-</Aside>
+</aside>
 **Intuition.** The function $e^x$ is the unique function whose rate of change at any point equals
 Its value at that point. If a population of bacteria doubles every hour, its growth rate is
 Proportional to its current size — this is precisely the behaviour of $e^{kt}$. This is why $e$
@@ -165,11 +169,13 @@ $$x^n = (a^p)^n = a^{pn}$$
 
 Therefore $\log_a(x^n) = pn = n\log_a x$. $\blacksquare$
 
-<Aside type="caution" title="Common errors:">
+<aside aria-label="Common errors:" class="starlight-aside starlight-aside--caution">
+<strong>Common errors:</strong>
+
 - $\log_a(x+y) \neq \log_a x + \log_a y$ (you cannot split a log of a sum)
 - $\log_a x + \log_a y \neq \log_a(x+y)$ (same mistake, reversed)
 - $(\log_a x)^n \neq n\log_a x$ (the power law applies to the argument, not the log itself)
-</Aside>
+</aside>
 <hr />
 
 ## 5. Change of Base Formula
@@ -184,9 +190,11 @@ $$\ln(a^y) = \ln b$$ $$y \ln a = \ln b$$ $$y = \frac◆LB◆\ln b◆RB◆◆LB�
 
 Since $y = \log_a b$We have $\log_a b = \dfrac◆LB◆\ln b◆RB◆◆LB◆\ln a◆RB◆$. $\blacksquare$
 
-<Aside type="tip" title="Your calculator likely has $\log$ (base 10) and $\ln$ (base $e$) buttons, but not a general">
+<aside aria-label="Your calculator likely has $\log$ (base 10) and $\ln$ (base $e$) buttons, but not a general" class="starlight-aside starlight-aside--tip">
+<strong>Your calculator likely has $\log$ (base 10) and $\ln$ (base $e$) buttons, but not a general</strong>
+
 $\log_a$ button. Use the change of base formula to compute logarithms in any base.
-</Aside>
+</aside>
 **Intuition.** The change of base formula tells us that logarithms in different bases are just
 Constant multiples of each other. If you think of $\log_a x$ as "how many times do I need to use
 Base $a$ to reach $x$?", then $\log_a b / \log_a c$ tells you the ratio of the "number of steps" in
@@ -263,9 +271,11 @@ Sometimes we can use a substitution. For example, $e^{2x} + 3e^x - 4 = 0$.
 Let $u = e^x$ (note $u \gt 0$). Then $u^2 + 3u - 4 = 0$Giving $(u+4)(u-1) = 0$So $u = 1$ (rejecting
 $u = -4$). Hence $e^x = 1$Giving $x = 0$.
 
-<Aside type="caution" title="When substituting $u = a^x$ or $u = \ln x$Always check the domain. For $u = a^x$ we Have">
+<aside aria-label="When substituting $u = a^x$ or $u = \ln x$Always check the domain. For $u = a^x$ we Have" class="starlight-aside starlight-aside--caution">
+<strong>When substituting $u = a^x$ or $u = \ln x$Always check the domain. For $u = a^x$ we Have</strong>
+
 $u \gt 0$; for $u = \ln x$ we have $x \gt 0$. Always reject invalid solutions.
-</Aside>
+</aside>
 <hr />
 
 ## 8. Exponential Modelling
@@ -311,12 +321,14 @@ $$
 Doubling time: $T_d = \dfrac◆LB◆\ln 2◆RB◆◆LB◆k◆RB◆ = \dfrac◆LB◆\ln 2◆RB◆◆LB◆\ln 2 / 3◆RB◆ = 3$
 hours.
 
-<Aside type="tip" title="In modelling questions, always:">
+<aside aria-label="In modelling questions, always:" class="starlight-aside starlight-aside--tip">
+<strong>In modelling questions, always:</strong>
+
 1. Identify the model (growth or decay)
 2. Use the initial condition to find one parameter
 3. Use a second data point to find the remaining parameter
 4. State the complete model before answering the question
-</Aside>
+</aside>
 <hr />
 
 ## 9. Graphs of Exponential and Logarithmic Functions
@@ -362,9 +374,11 @@ $$\frac{1}{y}\frac{dy}{dx} = g'(x)\ln f(x) + \frac{g(x) f'(x)}{f(x)}$$
 
 $$\frac{dy}{dx} = f(x)^{g(x)}\left[g'(x)\ln f(x) + \frac{g(x) f'(x)}{f(x)}\right]$$
 
-<Aside type="caution" title="Warning Rule alone — it requires logarithmic differentiation or rewriting as">
+<aside aria-label="Warning Rule alone — it requires logarithmic differentiation or rewriting as" class="starlight-aside starlight-aside--caution">
+<strong>Warning Rule alone — it requires logarithmic differentiation or rewriting as</strong>
+
 $e^{g(x)\ln f(x)}$.
-</Aside>
+</aside>
 <hr />
 
 ## Problem Set
@@ -573,7 +587,9 @@ Domain restrictions.
 
 ---
 
-<Aside type="tip" title="Tip Ready to test your understanding of **Exponentials and Logarithms**? The contains the">
+<aside aria-label="Tip Ready to test your understanding of **Exponentials and Logarithms**? The contains the" class="starlight-aside starlight-aside--tip">
+<strong>Tip Ready to test your understanding of **Exponentials and Logarithms**? The contains the</strong>
+
 hardest questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
@@ -608,4 +624,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</Aside>
+</aside>

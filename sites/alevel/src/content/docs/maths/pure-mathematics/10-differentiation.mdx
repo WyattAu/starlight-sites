@@ -21,9 +21,11 @@ import DesmosGraph from "@components/DesmosGraph";
 | OCR (A)    | Paper 1, 2 | Includes connected rates in P2                                   |
 | CIE (9709) | P1, P2, P3 | Basic differentiation in P1; product/quotient/chain in P2/P3     |
 
-<Aside type="note" title="The formula booklet lists derivatives of standard functions. You must know how to apply the">
+<aside aria-label="The formula booklet lists derivatives of standard functions. You must know how to apply the" class="starlight-aside starlight-aside--note">
+<strong>The formula booklet lists derivatives of standard functions. You must know how to apply the</strong>
+
 Product, quotient, and chain rules, and how to find stationary points.
-</Aside>
+</aside>
 <hr />
 
 ## 1. The Derivative from First Principles
@@ -40,9 +42,11 @@ Provided this limit exists. If it does, we say $f$ is **differentiable** at $x$.
 Line through the points $(x, f(x))$ and $(x+h, f(x+h))$. As $h \to 0$This secant approaches the
 Tangent, so $f'(x)$ is the gradient of the tangent at $x$.
 
-<Aside type="note" title="Info There. Continuity is necessary but not sufficient — $f(x) = |x|$ is continuous at $x=0$">
+<aside aria-label="Info There. Continuity is necessary but not sufficient — $f(x) = |x|$ is continuous at $x=0$" class="starlight-aside starlight-aside--note">
+<strong>Info There. Continuity is necessary but not sufficient — $f(x) = |x|$ is continuous at $x=0$</strong>
+
 but not Differentiable.
-</Aside>
+</aside>
 <hr />
 
 ## 2. Derivative of $x^n$ from First Principles
@@ -122,9 +126,11 @@ By the chain rule, $\dfrac{d}{dx}(v^{-1}) = -v^{-2}\dfrac{dv}{dx}$:
 
 $$= \frac{1}{v}\frac{du}{dx} - \frac{u}{v^2}\frac{dv}{dx} = \frac◆LB◆v\frac{du}{dx} - u\frac{dv}{dx}◆RB◆◆LB◆v^2◆RB◆ \quad \blacksquare$$
 
-<Aside type="caution" title="The quotient rule has a **minus** sign in the numerator: $v\,u' - u\,v'$. Getting this">
+<aside aria-label="The quotient rule has a **minus** sign in the numerator: $v\,u' - u\,v'$. Getting this" class="starlight-aside starlight-aside--caution">
+<strong>The quotient rule has a **minus** sign in the numerator: $v\,u' - u\,v'$. Getting this</strong>
+
 The wrong way around is one of the most common errors in A Level mathematics.
-</Aside>
+</aside>
 <hr />
 
 ## 5. The Chain Rule
@@ -243,9 +249,11 @@ $$f(x) - f(a) \approx \frac{f''(a)}{2}(x-a)^2$$
 - If $f''(a) \lt 0$: $f(x) - f(a) \lt 0$ for $x \neq a$So $f(a)$ is a **maximum**.
 - If $f''(a) = 0$: the test is inconclusive; use a nature table or higher derivatives.
 
-<Aside type="caution" title="Warning Point could still be a maximum, minimum, or inflection. Always use a nature table">
+<aside aria-label="Warning Point could still be a maximum, minimum, or inflection. Always use a nature table" class="starlight-aside starlight-aside--caution">
+<strong>Warning Point could still be a maximum, minimum, or inflection. Always use a nature table</strong>
+
 (checking the sign Of $f'$ on either side) if the second derivative test is inconclusive.
-</Aside>
+</aside>
 {/* prettier-ignore */}
 <DesmosGraph title="Function, Derivative, and Tangent Line" expressions={["f(x)=x^3-6x^2+9x+1", "f'(x)=3x^2-12x+9"]} width={800} height={500} /> Observe how the Derivative relates to the gradient
 of the tangent line. Move the point along the curve to see how The tangent changes slope, and note
@@ -300,9 +308,11 @@ $x \gt 1$.
 A **point of inflection** is where the curve changes concavity (from concave up to concave down, or
 Vice versa). This occurs where $f''(x) = 0$ and the sign of $f''(x)$ changes.
 
-<Aside type="caution" title="Warning Point of inflection at $x = 0$But $f'(0) = 0$ in this case. Consider">
+<aside aria-label="Warning Point of inflection at $x = 0$But $f'(0) = 0$ in this case. Consider" class="starlight-aside starlight-aside--caution">
+<strong>Warning Point of inflection at $x = 0$But $f'(0) = 0$ in this case. Consider</strong>
+
 $f(x) = x^3 + x$: $f''(x) = 6x = 0$ at $x = 0$Giving a point of inflection, but $f'(0) = 1 \neq 0$.
-</Aside>
+</aside>
 <hr />
 
 ## 11. Differentiation of Parametric Equations
@@ -597,7 +607,9 @@ Section 8.
 
 ---
 
-<Aside type="tip" title="Tip Ready to test your understanding of **Differentiation**? The contains the hardest">
+<aside aria-label="Tip Ready to test your understanding of **Differentiation**? The contains the hardest" class="starlight-aside starlight-aside--tip">
+<strong>Tip Ready to test your understanding of **Differentiation**? The contains the hardest</strong>
+
 questions within the A-Level specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
@@ -635,4 +647,4 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</Aside>
+</aside>
