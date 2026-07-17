@@ -1,15 +1,3 @@
-/**
- * Mermaid diagram renderer for Starlight.
- *
- * Problem: Starlight's Expressive Code intercepts ```mermaid code blocks
- * and wraps them in <pre data-language="mermaid"><code>...syntax-highlighted...</code></pre>
- * instead of the <pre class="mermaid"> that mermaid expects.
- *
- * Solution: This script converts Expressive Code's mermaid output back to
- * plain <pre class="mermaid"> elements, then initializes mermaid to render them.
- *
- * mermaid.min.js is loaded via <script defer> in Head.astro.
- */
 ;(() => {
   let initialized = false
   let pollTimer = null
@@ -22,11 +10,6 @@
     return t === 'light' ? 'default' : 'dark'
   }
 
-  /**
-   * Convert Expressive Code's mermaid blocks to plain pre.mermaid.
-   * EC wraps mermaid in: <figure class="frame"><pre data-language="mermaid"><code>...</code></pre></figure>
-   * We need: <pre class="mermaid">raw mermaid text</pre>
-   */
   const convertExpressiveCodeBlocks = () => {
     document.querySelectorAll('pre[data-language="mermaid"]').forEach(pre => {
       if (pre.classList.contains('mermaid')) return
@@ -77,52 +60,61 @@
     })
   }
 
-  const initMermaid = () => {
-    if (!hasMermaid()) return
+  const tryInit = () => {
+    if (!hasMermaid()) return false
     convertExpressiveCodeBlocks()
-
-    if (typeof window.mermaid !== 'undefined') {
-      if (!initialized) {
-        window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
-        initialized = true
-      }
-      renderAll()
-      return
+    if (typeof window.mermaid === 'undefined') return false
+    if (!initialized) {
+      window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
+      initialized = true
     }
+    renderAll()
+    return true
+  }
 
-    // Poll for mermaid.min.js to load (defer scripts run before 'load' event)
-    if (pollTimer) return
+  const initMermaid = () => {
+    if (tryInit()) return
+    // Poll for mermaid.min.js
     pollTimer = setInterval(() => {
-      if (typeof window.mermaid !== 'undefined') {
+      if (tryInit()) {
         clearInterval(pollTimer)
         pollTimer = null
-        window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
-        initialized = true
-        renderAll()
       }
-    }, 100)
-
-    // Safety: stop polling after 10 seconds
+    }, 200)
+    // Safety: stop after 30 seconds
     setTimeout(() => {
       if (pollTimer) {
         clearInterval(pollTimer)
         pollTimer = null
       }
-    }, 10000)
+    }, 30000)
   }
 
+  // Run on DOM ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initMermaid)
   } else {
     initMermaid()
   }
 
+  // Also listen for load event (fires after ALL resources including mermaid.min.js)
+  window.addEventListener('load', () => {
+    if (!initialized && hasMermaid()) {
+      if (typeof window.mermaid !== 'undefined') {
+        window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
+        initialized = true
+        renderAll()
+      }
+    }
+  })
+
+  // Re-render on view transitions
   document.addEventListener('astro:after-swap', () => {
     initialized = false
     if (pollTimer) {
       clearInterval(pollTimer)
       pollTimer = null
     }
-    if (hasMermaid()) initMermaid()
+    initMermaid()
   })
 })()
