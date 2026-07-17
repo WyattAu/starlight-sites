@@ -188,7 +188,7 @@ Can exceed 1000 characters.
 nm -C ./app | awk '{ print length, $0 }' | sort -rn | head -20
 ```
 
-<aside aria-label="Return Types The Itanium ABI generally does **not** encode the return type of a function, as" class="starlight-aside starlight-aside--note">
+<aside class="starlight-aside starlight-aside--note">
 <strong>Return Types The Itanium ABI generally does **not** encode the return type of a function, as</strong>
 
 C++ does not support overloading based solely on return type. Exception: Template functions and
@@ -301,7 +301,7 @@ extern "C" void my_callback(int value) {
 c_library_register_callback(my_callback);
 ```
 
-<aside aria-label="Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A" class="starlight-aside starlight-aside--caution">
+<aside class="starlight-aside starlight-aside--caution">
 <strong>Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A</strong>
 
 Function pointer of type `extern "C"` and one of type C++ linkage are different types, even if they
@@ -649,7 +649,7 @@ This can cause subtle linker errors when a function is declared `noexcept` in on
 Another. The mangled names differ, and the linker reports an undefined reference. The fix is to
 Ensure the `noexcept` specification is consistent across all declarations.
 
-<aside aria-label="In C++17, `noexcept` became part of the type system. This means function pointer types" class="starlight-aside starlight-aside--caution">
+<aside class="starlight-aside starlight-aside--caution">
 <strong>In C++17, `noexcept` became part of the type system. This means function pointer types</strong>
 
 Are different if their `noexcept` specification differs. A `void(*)(int)` and a

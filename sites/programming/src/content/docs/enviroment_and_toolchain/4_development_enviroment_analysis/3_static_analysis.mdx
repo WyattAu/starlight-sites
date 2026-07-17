@@ -462,7 +462,7 @@ clang-tidy -p build/ --checks='modernize-*' --fix-errors src/
 # Step 3: Format the result (clang-tidy does not reformat)
 clang-format -i src/**/*.cpp src/**/*.hpp src/**/*.h
 ```
-<aside aria-label="Always run clang-tidy fixes in a separate commit. Review the diff carefully before" class="starlight-aside starlight-aside--caution">
+<aside class="starlight-aside starlight-aside--caution">
 <strong>Always run clang-tidy fixes in a separate commit. Review the diff carefully before</strong>
 
 Merging. Some fixes (e.g., `modernize-use-auto`) can change semantics if the deduced type is not

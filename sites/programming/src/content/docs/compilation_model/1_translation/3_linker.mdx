@@ -43,7 +43,7 @@ As the linker scans inputs (objects and libraries) from **left to right** on the
 - If a match is found, that specific member object is extracted and added to **E**.
 - If no match is found, the member object is ignored entirely.
 
-<aside aria-label="The Archive Order Trap Because static libraries are searched only to resolve _currently" class="starlight-aside starlight-aside--danger">
+<aside class="starlight-aside starlight-aside--danger">
 <strong>The Archive Order Trap Because static libraries are searched only to resolve _currently</strong>
 
 Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` must appear **before**
@@ -294,7 +294,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
 endif()
 ```
 
-<aside aria-label="ICF can break programs that compare function pointers for identity. If `f()` and `g()`" class="starlight-aside starlight-aside--caution">
+<aside class="starlight-aside starlight-aside--caution">
 <strong>ICF can break programs that compare function pointers for identity. If `f()` and `g()`</strong>
 
 Are folded into the same address, `&f == &g` becomes `true` even though they are distinct functions.
@@ -739,7 +739,7 @@ The linker rewrites every call to `malloc` to call `__wrap_malloc` instead. The 
 Symbol is provided by the original library and can be called from within the wrapper. This mechanism
 Does not require modifying the original source code.
 
-<aside aria-label="`--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by" class="starlight-aside starlight-aside--caution">
+<aside class="starlight-aside starlight-aside--caution">
 <strong>`--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by</strong>
 
 The compiler, the wrapper will not intercept the inlined call. Use `-fno-inline` on the wrapping TU
