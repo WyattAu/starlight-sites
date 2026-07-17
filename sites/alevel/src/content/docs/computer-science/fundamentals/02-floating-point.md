@@ -160,7 +160,7 @@ In IEEE 754: $e = -3$, $E = -3 + 127 = 124 = 01111100_2$.
 
 **Proof.** We show $0.1_{10}$ requires infinitely many binary fractional digits.
 
-$0.1_{10} = \frac{1}{10} = \frac◆LB◆1◆RB◆◆LB◆2 \times 5◆RB◆$
+$0.1_{10} = \frac{1}{10} = \frac{1}{2 \times 5}$
 
 For a number to have a finite representation in base $b$When reduced to lowest terms
 $\frac{p}{q}$The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$And $5$
@@ -183,7 +183,7 @@ Given an exact value $x$ and an approximate value $\tilde{x}$:
 
 $$\mathrm{Absolute Error} = |x - \tilde{x}|$$
 
-$$\mathrm{Relative Error} = \frac◆LB◆|x - \tilde{x}|◆RB◆◆LB◆|x|◆RB◆$$
+$$\mathrm{Relative Error} = \frac{|x - \tilde{x}|}{|x|}$$
 
 **Machine epsilon** ($\epsilon$) is the smallest number such that $1 + \epsilon \gt 1$ in
 Floating-point arithmetic. For IEEE 754 single precision,
@@ -465,7 +465,7 @@ Absolute error:
 $|1/3 - 0.333333| = |0.333333\ldots - 0.333333| = 0.000000\overline{3} \approx 3.33 \times 10^{-7}$
 
 Relative error:
-$\frac◆LB◆3.33 \times 10^{-7}◆RB◆◆LB◆1/3◆RB◆ = 3.33 \times 10^{-7} \times 3 = 10^{-6} = 0.0001\%$
+$\frac{3.33 \times 10^{-7}}{1/3} = 3.33 \times 10^{-7} \times 3 = 10^{-6} = 0.0001\%$
 
 </details>
 

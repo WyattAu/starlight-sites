@@ -120,7 +120,7 @@ to be separated by crossing over during meiosis.
 
 The recombination frequency (RF) between two linked genes is calculated from a test cross:
 
-$$\mathrm{RF} = \frac◆LB◆\text{Number of recombinant offspring}◆RB◆◆LB◆\text{Total number of offspring}◆RB◆ \times 100\%$$
+$$\mathrm{RF} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100\%$$
 
 The recombination frequency is approximately equal to the **map distance** between the genes in
 **centiMorgans (cM)**. One centiMorgan corresponds to a 1% probability of crossing over between the
@@ -214,7 +214,7 @@ $11\ \mathrm{cM}$.
 When the expected frequency in any category is less than 5, the standard chi-squared test is
 unreliable. Yates' correction for continuity is applied:
 
-$$\chi^2_{\mathrm{Yates}} = \sum \frac◆LB◆(|O - E| - 0.5)^2◆RB◆◆LB◆E◆RB◆$$
+$$\chi^2_{\mathrm{Yates}} = \sum \frac{(|O - E| - 0.5)^2}{E}$$
 
 This correction reduces the chi-squared value, making the test more conservative (less likely to
 reject the null hypothesis).
@@ -238,7 +238,7 @@ Mean fitness: $\bar{w} = p^2 \cdot 1 + 2pq \cdot 1 + q^2 \cdot 0.5 = 0.64 + 0.32
 
 After selection, the new frequency of $a$:
 
-$$q' = \frac◆LB◆q^2 \cdot w_{aa} + pq \cdot w_{Aa}◆RB◆◆LB◆\bar{w}◆RB◆ = \frac◆LB◆0.04 \times 0.5 + 0.16 \times 1◆RB◆◆LB◆0.98◆RB◆ = \frac{0.02 + 0.16}{0.98} = \frac{0.18}{0.98} = 0.1837$$
+$$q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.04 \times 0.5 + 0.16 \times 1}{0.98} = \frac{0.02 + 0.16}{0.98} = \frac{0.18}{0.98} = 0.1837$$
 
 The frequency of $a$ has decreased from 0.2 to 0.1837 in one generation due to selection against
 $aa$.
@@ -250,18 +250,18 @@ populations. Its effect is inversely proportional to population size ($N$).
 
 The rate of allele frequency change due to drift can be approximated by the standard deviation:
 
-$$\sigma_q = \sqrt◆LB◆\frac{pq}{2N}◆RB◆$$
+$$\sigma_q = \sqrt{\frac{pq}{2N}}$$
 
 Where $N$ is the effective population size.
 
 **Worked Example.** In a population of $N = 100$ with $p = 0.5$, $q = 0.5$:
 
-$$\sigma_q = \sqrt◆LB◆\frac{0.5 \times 0.5}{2 \times 100}◆RB◆ = \sqrt◆LB◆\frac{0.25}{200}◆RB◆ = \sqrt{0.00125} = 0.0354$$
+$$\sigma_q = \sqrt{\frac{0.5 \times 0.5}{2 \times 100}} = \sqrt{\frac{0.25}{200}} = \sqrt{0.00125} = 0.0354$$
 
 The allele frequency is expected to fluctuate by approximately $\pm 0.035$ per generation due to
 drift. In a population of $N = 10000$:
 
-$$\sigma_q = \sqrt◆LB◆\frac{0.25}{20000}◆RB◆ = 0.00354$$
+$$\sigma_q = \sqrt{\frac{0.25}{20000}} = 0.00354$$
 
 The fluctuation is 10 times smaller. This demonstrates that drift is significant only in small
 populations.
@@ -395,7 +395,7 @@ The molecular clock hypothesis states that mutations accumulate in DNA at a roug
 so the number of sequence differences between two species is proportional to the time since their
 divergence.
 
-$$\text{Divergence time} = \frac◆LB◆d◆RB◆◆LB◆2\mu◆RB◆$$
+$$\text{Divergence time} = \frac{d}{2\mu}$$
 
 Where $d$ is the proportion of nucleotide sites that differ between two species, and $\mu$ is the
 mutation rate per site per year. The factor of 2 accounts for independent accumulation of mutations
@@ -405,7 +405,7 @@ in both lineages.
 region. The mutation rate is estimated at $\mu = 2.5 \times 10^{-9}$ substitutions per site per
 year.
 
-$$\text{Time} = \frac◆LB◆0.036◆RB◆◆LB◆2 \times 2.5 \times 10^{-9}◆RB◆ = \frac◆LB◆0.036◆RB◆◆LB◆5 \times 10^{-9}◆RB◆ = 7.2 \times 10^6\ \text{years}$$
+$$\text{Time} = \frac{0.036}{2 \times 2.5 \times 10^{-9}} = \frac{0.036}{5 \times 10^{-9}} = 7.2 \times 10^6\ \text{years}$$
 
 The two species diverged approximately 7.2 million years ago.
 
@@ -523,7 +523,7 @@ Factors that reduce $N_e$:
 **Worked Example.** A population of elephants has 100 adult males and 400 adult females, but only 5
 males breed (holding harems) while 350 females breed.
 
-$N_e = \frac◆LB◆4 \times 5 \times 350◆RB◆◆LB◆5 + 350◆RB◆ = \frac{7000}{355} = 19.7$.
+$N_e = \frac{4 \times 5 \times 350}{5 + 350} = \frac{7000}{355} = 19.7$.
 
 Despite a census population of 500, the effective population size is only about 20. This means
 genetic drift acts as strongly as in a population of 20 randomly mating individuals.
@@ -660,7 +660,7 @@ the likely explanation, not dominance.
 When two genes are linked on the same chromosome, they do not assort independently. The frequency of
 recombinant offspring reflects the distance between the genes.
 
-$$\text{Recombination frequency (RF)} = \frac◆LB◆\text{Number of recombinant offspring}◆RB◆◆LB◆\text{Total offspring}◆RB◆ \times 100\%$$
+$$\text{Recombination frequency (RF)} = \frac{\text{Number of recombinant offspring}}{\text{Total offspring}} \times 100\%$$
 
 $1\%$ recombination frequency $= 1$ centimorgan (cM) $= 1$ map unit.
 
@@ -683,7 +683,7 @@ The genes $A$ and $B$ are 20 cM apart.
 In a three-point cross, double crossovers (DCOs) may occur less frequently than expected because one
 crossover event can physically interfere with a second nearby crossover.
 
-$$\text{Coincidence (c.o.c.)} = \frac◆LB◆\text{Observed DCO frequency}◆RB◆◆LB◆\text{Expected DCO frequency}◆RB◆$$
+$$\text{Coincidence (c.o.c.)} = \frac{\text{Observed DCO frequency}}{\text{Expected DCO frequency}}$$
 
 $$\text{Expected DCO frequency} = \text{RF}_{AB} \times \text{RF}_{BC}$$
 
@@ -1060,7 +1060,7 @@ $p^2 - 2.0p + 0.6005 = 0.15$.
 $p^2 - 2.0p + 0.4505 = 0$.
 
 Using the quadratic formula:
-$p = \frac◆LB◆2.0 \pm \sqrt{4.0 - 1.802}◆RB◆◆LB◆2◆RB◆ = \frac◆LB◆2.0 \pm 1.476◆RB◆◆LB◆2◆RB◆$.
+$p = \frac{2.0 \pm \sqrt{4.0 - 1.802}}{2} = \frac{2.0 \pm 1.476}{2}$.
 
 $p = \frac{2.0 - 1.476}{2} = 0.262$ (taking the smaller root).
 
@@ -1145,7 +1145,7 @@ $$\Delta q \approx \frac{-spq^2}{1 - sq^2}$$
 
 **Worked Example.** $p = 0.60$$q = 0.40$$s = 0.10$.
 
-$\Delta q \approx \frac◆LB◆-0.10 \times 0.60 \times 0.16◆RB◆◆LB◆1 - 0.10 \times 0.16◆RB◆ = \frac{-0.0096}{0.984} = -0.0098$.
+$\Delta q \approx \frac{-0.10 \times 0.60 \times 0.16}{1 - 0.10 \times 0.16} = \frac{-0.0096}{0.984} = -0.0098$.
 
 After one generation: $q' = 0.40 - 0.0098 = 0.390$.
 
@@ -1389,7 +1389,7 @@ The effective population size is smaller than the actual (census) population siz
 
 1. Unequal sex ratio: if there are 100 males and 900 females, $N_e$ is much less than 1000.
 
-$$N_e = \frac{4N_m N_f}{N_m + N_f} = \frac◆LB◆4 \times 100 \times 900◆RB◆◆LB◆1000◆RB◆ = 360$$
+$$N_e = \frac{4N_m N_f}{N_m + N_f} = \frac{4 \times 100 \times 900}{1000} = 360$$
 
 2. Variation in reproductive success: if some individuals produce many offspring and others produce
    none, $N_e$ is reduced.
@@ -1464,7 +1464,7 @@ violate Mendel's law of independent assortment).
 ### 21.2 Calculating Recombination Frequency
 
 Recombination frequency
-$= \frac◆LB◆\text{number of recombinant offspring}◆RB◆◆LB◆\text{total number of offspring}◆RB◆ \times 100\%$
+$= \frac{\text{number of recombinant offspring}}{\text{total number of offspring}} \times 100\%$
 
 **Example:** A dihybrid cross involving two linked genes (A/a and B/b) produces:
 
@@ -1843,7 +1843,7 @@ independently):
 
 ### 29.2 Calculating Recombination Frequency
 
-$$\text{Recombination frequency} = \frac◆LB◆\text{Number of recombinant offspring}◆RB◆◆LB◆\text{Total number of offspring}◆RB◆ \times 100$$
+$$\text{Recombination frequency} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100$$
 
 **Example:** A test cross of a double heterozygote produces 400 offspring:
 
@@ -2129,9 +2129,9 @@ time.
 
 ### 53.2 Allele Frequency
 
-$$p = \frac◆LB◆\text{Number of copies of the dominant allele}◆RB◆◆LB◆\text{Total number of alleles in the population}◆RB◆$$
+$$p = \frac{\text{Number of copies of the dominant allele}}{\text{Total number of alleles in the population}}$$
 
-$$q = \frac◆LB◆\text{Number of copies of the recessive allele}◆RB◆◆LB◆\text{Total number of alleles in the population}◆RB◆$$
+$$q = \frac{\text{Number of copies of the recessive allele}}{\text{Total number of alleles in the population}}$$
 
 Where $p + q = 1$.
 

@@ -218,7 +218,7 @@ Bath. The solvent rises by capillary action. Compounds with greater affinity for
 **$R_f$ value:**
 
 $$
-R_f = \frac◆LB◆\mathrm{distance\ travelled\ by\ compound}◆RB◆◆LB◆\mathrm{distance\ travelled\ by\ solvent\ front}◆RB◆
+R_f = \frac{\mathrm{distance\ travelled\ by\ compound}}{\mathrm{distance\ travelled\ by\ solvent\ front}}
 $$
 
 $R_f$ values range from 0 to 1. Values are reproducible only under identical conditions.
@@ -282,7 +282,7 @@ proportional to the amount of that compound. For accurate quantification:
 ratio.
 
 $$
-\frac◆LB◆n_\mathrm{ethanol}◆RB◆◆LB◆n_\mathrm{propanol}◆RB◆ = \frac◆LB◆\text{Area}_\mathrm{ethanol}◆RB◆◆LB◆\text{Area}_\mathrm{propanol}◆RB◆ = \frac{45000}{30000} = 1.5
+\frac{n_\mathrm{ethanol}}{n_\mathrm{propanol}} = \frac{\text{Area}_\mathrm{ethanol}}{\text{Area}_\mathrm{propanol}} = \frac{45000}{30000} = 1.5
 $$
 
 The mixture is 60% ethanol and 40% propan-1-ol by mole.
@@ -825,7 +825,7 @@ distinct carbon environments.
 
 **Rf values in TLC:**
 
-$$R_f = \frac◆LB◆\text{distance travelled by compound}◆RB◆◆LB◆\text{distance travelled by solvent front}◆RB◆$$
+$$R_f = \frac{\text{distance travelled by compound}}{\text{distance travelled by solvent front}}$$
 
 $R_f$ values are always between 0 and 1. A compound with a higher $R_f$ is less polar (interacts
 less with the polar stationary phase and travels further with the non-polar mobile phase).
