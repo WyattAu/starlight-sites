@@ -9,22 +9,75 @@ Study notes for CBSE Class 12 chemistry - Crystal structure.
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important formulas and derivations
-- Worked examples with step-by-step solutions
-- Common exam patterns and tips
+- Unit cell: the smallest repeating unit of a crystal lattice
+- Types of cubic unit cells: simple cubic (SC), body-centred cubic (BCC), face-centred cubic (FCC)
+- Number of atoms per unit cell: SC = 1, BCC = 2, FCC = 4
+- Packing efficiency: $\text{PE} = \frac{Z \cdot \frac{4}{3}\pi r^3}{a^3} \times 100\%$
+- Radius-edge relations: SC: $a = 2r$; BCC: $a = \frac{4r}{\sqrt{3}}$; FCC: $a = \frac{4r}{\sqrt{2}}$
+- Density: $\rho = \frac{ZM}{N_A a^3}$
 
-## Worked Example
+## Worked Example 1 — Number of Atoms per Unit Cell
 
-**Problem:** [Describe a typical problem]
+**Problem:** An element crystallises in a BCC unit cell with edge length $a = 3.0 \, \text{\AA}$. If the molar mass is $52 \, \text{g/mol}$, find the density of the crystal.
 
 **Solution:**
-Step 1: Identify the given quantities
-Step 2: Apply the relevant formula
-Step 3: Calculate the answer
+
+For BCC: $Z = 2$ atoms per unit cell.
+
+Edge length: $a = 3.0 \, \text{\AA} = 3.0 \times 10^{-8} \, \text{cm}$
+
+Volume of unit cell:
+$$a^3 = (3.0 \times 10^{-8})^3 = 27 \times 10^{-24} \, \text{cm}^3$$
+
+Density:
+$$\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 52}{6.022 \times 10^{23} \times 27 \times 10^{-24}}$$
+$$= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3$$
+
+## Worked Example 2 — Packing Efficiency of FCC
+
+**Problem:** Show that the packing efficiency of an FCC unit cell is approximately 74%.
+
+**Solution:**
+
+In FCC: atoms touch along the face diagonal.
+$$\sqrt{2}a = 4r \implies a = \frac{4r}{\sqrt{2}} = 2\sqrt{2}r$$
+
+Volume of unit cell:
+$$a^3 = (2\sqrt{2}r)^3 = 16\sqrt{2}r^3$$
+
+Number of atoms in FCC: $Z = 4$
+
+Volume occupied by atoms:
+$$V_{atoms} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\pi r^3$$
+
+Packing efficiency:
+$$\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi}{3\sqrt{2}} \times 100\% \approx \frac{3.1416}{4.2426} \times 100\% \approx 74.05\%$$
+
+## Worked Example 3 — Radius of an Atom from Unit Cell Data
+
+**Problem:** Iron crystallises in a BCC structure with density $7.86 \, \text{g/cm}^3$. The molar mass of Fe is $56 \, \text{g/mol}$. Find the atomic radius.
+
+**Solution:**
+
+For BCC: $Z = 2$.
+
+From density formula:
+$$a^3 = \frac{ZM}{\rho N_A} = \frac{2 \times 56}{7.86 \times 6.022 \times 10^{23}}$$
+$$= \frac{112}{4.733 \times 10^{24}} = 23.66 \times 10^{-24} \, \text{cm}^3$$
+
+$$a = \sqrt[3]{23.66 \times 10^{-24}} = 2.87 \times 10^{-8} \, \text{cm} = 2.87 \, \text{\AA}$$
+
+For BCC: $a = \frac{4r}{\sqrt{3}}$
+
+$$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \approx 1.24 \, \text{\AA}$$
 
 ## Practice Problems
 
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+1. An element crystallises in a simple cubic unit cell with $a = 2.5 \, \text{\AA}$ and molar mass $60 \, \text{g/mol}$. Find the density.
+2. Calculate the packing efficiency of a BCC unit cell.
+3. Copper has an FCC structure with $a = 3.61 \, \text{\AA}$. Find the atomic radius of copper.
+
+### Additional Practice Problems
+
+4. A metal has a BCC structure with density $6.8 \, \text{g/cm}^3$ and atomic radius $1.25 \, \text{\AA}$. Find the molar mass.
+5. Compare the number of atoms per unit cell and packing efficiency for SC, BCC, and FCC structures.

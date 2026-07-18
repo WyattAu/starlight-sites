@@ -1,0 +1,11 @@
+---
+title: "Reformation Flashcards"
+description: "Flashcard deck for A-Level History Reformation period"
+tags: [History, A-Level, Flashcards]
+---
+
+import FlashcardDeck from "@components/FlashcardDeck";
+import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/history/flashcards-reformation-data.js';
+
+
+<FlashcardDeck client:only="solid-js" deckId="alevel-history-reformation" title="A-Level History: The Reformation" description="15 essential flashcards for the Reformation period covering key concepts, events, and figures of the sixteenth-century religious revolution." cards={[...flashcards1, ...flashcards2, ...flashcards3]} />

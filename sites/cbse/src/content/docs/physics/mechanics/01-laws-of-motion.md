@@ -50,8 +50,92 @@ For every action, there is an equal and opposite reaction.
 - Reaction to weight: 19.6 N upward (by book on Earth)
 - Reaction to normal: 19.6 N downward (by book on table)
 
+## Additional Worked Examples
+
+### Worked Example 5 — Newton's Second Law with Friction
+
+**Problem:** A 10 kg block is pushed across a rough horizontal surface with a force of 40 N. The coefficient of kinetic friction is 0.3. Find the acceleration of the block. ($g = 9.8 \, \text{m/s}^2$)
+
+**Solution:**
+
+Normal force:
+$$N = mg = 10 \times 9.8 = 98 \, \text{N}$$
+
+Friction force:
+$$f_k = \mu_k N = 0.3 \times 98 = 29.4 \, \text{N}$$
+
+Net force:
+$$F_{net} = F - f_k = 40 - 29.4 = 10.6 \, \text{N}$$
+
+Acceleration:
+$$a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2$$
+
+### Worked Example 6 — Inclined Plane with Friction
+
+**Problem:** A 5 kg block is placed on a rough inclined plane at an angle of $30^\circ$ to the horizontal. The coefficient of static friction is 0.25. Will the block slide down? If it does, find the acceleration. ($g = 9.8 \, \text{m/s}^2$)
+
+**Solution:**
+
+Component of weight along the incline:
+$$mg \sin\theta = 5 \times 9.8 \times \sin 30^\circ = 5 \times 9.8 \times 0.5 = 24.5 \, \text{N}$$
+
+Maximum static friction:
+$$f_{s,\max} = \mu_s N = \mu_s mg \cos\theta = 0.25 \times 5 \times 9.8 \times \cos 30^\circ$$
+$$= 0.25 \times 5 \times 9.8 \times 0.866 = 10.6 \, \text{N}$$
+
+Since $mg \sin\theta = 24.5 \, \text{N} > f_{s,\max} = 10.6 \, \text{N}$, the block slides down.
+
+Net force along the incline (using kinetic friction $\mu_k = 0.2$):
+$$F_{net} = mg \sin\theta - \mu_k mg \cos\theta = 24.5 - 0.2 \times 5 \times 9.8 \times 0.866$$
+$$= 24.5 - 8.49 = 16.01 \, \text{N}$$
+
+Acceleration:
+$$a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2$$
+
+### Worked Example 7 — Connected Blocks (Atwood's Machine)
+
+**Problem:** Two masses $m_1 = 3 \, \text{kg}$ and $m_2 = 5 \, \text{kg}$ are connected by a light inextensible string over a frictionless pulley. Find the acceleration of the system and the tension in the string. ($g = 9.8 \, \text{m/s}^2$)
+
+**Solution:**
+
+For the heavier mass ($m_2$):
+$$m_2 g - T = m_2 a$$
+
+For the lighter mass ($m_1$):
+$$T - m_1 g = m_1 a$$
+
+Adding both equations:
+$$m_2 g - m_1 g = (m_1 + m_2) a$$
+$$a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(5 - 3) \times 9.8}{3 + 5} = \frac{19.6}{8} = 2.45 \, \text{m/s}^2$$
+
+Tension:
+$$T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}$$
+
+### Worked Example 8 — Lift Problem (Apparent Weight)
+
+**Problem:** A 60 kg person stands on a weighing scale inside a lift. What does the scale read when the lift (a) accelerates upward at $2 \, \text{m/s}^2$, (b) accelerates downward at $2 \, \text{m/s}^2$, (c) moves with constant velocity? ($g = 9.8 \, \text{m/s}^2$)
+
+**Solution:**
+
+The scale reads the normal reaction $N$.
+
+**(a) Accelerating upward:**
+$$N - mg = ma \implies N = m(g + a) = 60(9.8 + 2) = 60 \times 11.8 = 708 \, \text{N}$$
+
+**(b) Accelerating downward:**
+$$mg - N = ma \implies N = m(g - a) = 60(9.8 - 2) = 60 \times 7.8 = 468 \, \text{N}$$
+
+**(c) Constant velocity ($a = 0$):**
+$$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
+
 ## Practice Problems
 
 1. A 10 kg block is pushed with 50 N force on a frictionless surface. Find acceleration.
 2. Two forces of 3 N and 4 N act at right angles on a 2 kg body. Find resultant acceleration.
 3. A body of mass 5 kg is acted upon by two forces: 10 N East and 8 N North. Find magnitude and direction of resultant.
+
+### Additional Practice Problems
+
+4. A 20 kg block is pushed with 100 N force on a surface with $\mu_k = 0.4$. Find the acceleration. ($g = 9.8 \, \text{m/s}^2$)
+5. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
+6. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.

@@ -9,22 +9,67 @@ Study notes for CBSE Class 12 physics - Electric charge.
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important formulas and derivations
-- Worked examples with step-by-step solutions
-- Common exam patterns and tips
+- Coulomb's law: $F = k\frac{|q_1 q_2|}{r^2}$, where $k = \frac{1}{4\pi\varepsilon_0} \approx 9 \times 10^9 \, \text{N}\cdot\text{m}^2/\text{C}^2$
+- Principle of superposition: $\vec{F}_{net} = \sum \vec{F}_i$
+- Quantization of charge: $q = ne$, where $e = 1.6 \times 10^{-19} \, \text{C}$
+- Conservation of charge: total charge in an isolated system is constant
 
-## Worked Example
+## Worked Example 1 — Coulomb's Law (Two Charges)
 
-**Problem:** [Describe a typical problem]
+**Problem:** Two point charges $q_1 = +3 \, \mu\text{C}$ and $q_2 = -5 \, \mu\text{C}$ are placed 0.2 m apart. Find the magnitude and direction of the force between them.
 
 **Solution:**
-Step 1: Identify the given quantities
-Step 2: Apply the relevant formula
-Step 3: Calculate the answer
+$$F = k\frac{|q_1 q_2|}{r^2} = 9 \times 10^9 \times \frac{3 \times 10^{-6} \times 5 \times 10^{-6}}{(0.2)^2}$$
+$$= 9 \times 10^9 \times \frac{15 \times 10^{-12}}{0.04} = 9 \times 10^9 \times 3.75 \times 10^{-10}$$
+$$= 3.375 \, \text{N}$$
+
+Since the charges have opposite signs, the force is attractive (directed toward each other).
+
+## Worked Example 2 — Superposition of Forces
+
+**Problem:** A charge $q = +2 \, \mu\text{C}$ is placed at the origin. Charges $q_1 = +3 \, \mu\text{C}$ at $(0.1, 0)$ m and $q_2 = -4 \, \mu\text{C}$ at $(0, 0.1)$ m. Find the net force on $q$.
+
+**Solution:**
+
+Force due to $q_1$ (along $+x$):
+$$F_1 = k\frac{|q \cdot q_1|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 3 \times 10^{-6}}{(0.1)^2} = 5.4 \, \text{N} \, \hat{i}$$
+
+Force due to $q_2$ (along $-y$, attractive):
+$$F_2 = k\frac{|q \cdot q_2|}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.1)^2} = 7.2 \, \text{N}$$
+
+Since $q_2$ is negative and below $q$, the force on $q$ is toward $q_2$:
+$$\vec{F}_2 = -7.2 \, \hat{j} \, \text{N}$$
+
+Net force:
+$$\vec{F}_{net} = 5.4 \, \hat{i} - 7.2 \, \hat{j} \, \text{N}$$
+$$|\vec{F}_{net}| = \sqrt{5.4^2 + 7.2^2} = \sqrt{29.16 + 51.84} = \sqrt{81} = 9 \, \text{N}$$
+
+Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ below the $x$-axis.
+
+## Worked Example 3 — Equilibrium of Three Charges
+
+**Problem:** A charge $q_1 = +4 \, \mu\text{C}$ is at the origin and $q_2 = +9 \, \mu\text{C}$ is at $x = 3$ m. Where should a third charge $q_3$ be placed on the $x$-axis so that it is in equilibrium?
+
+**Solution:**
+
+For $q_3$ to be in equilibrium, the forces from $q_1$ and $q_2$ must be equal and opposite. Let $q_3$ be at distance $x$ from the origin.
+
+$$k\frac{|q_1 q_3|}{x^2} = k\frac{|q_2 q_3|}{(3-x)^2}$$
+$$\frac{4}{x^2} = \frac{9}{(3-x)^2}$$
+
+Taking square roots (both positive):
+$$\frac{2}{x} = \frac{3}{3-x}$$
+$$2(3-x) = 3x \implies 6 - 2x = 3x \implies x = 1.2 \, \text{m}$$
+
+The third charge should be placed at $x = 1.2$ m from the origin.
 
 ## Practice Problems
 
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+1. Two charges of $+6 \, \mu\text{C}$ and $-2 \, \mu\text{C}$ are 0.3 m apart. Find the force between them.
+2. A charge of $+5 \, \mu\text{C}$ is at the origin. Find the force on a $-3 \, \mu\text{C}$ charge at $(0.4, 0.3)$ m.
+3. Find the number of electrons in 1 C of negative charge.
+
+### Additional Practice Problems
+
+4. Three equal charges of $+2 \, \mu\text{C}$ are placed at the vertices of an equilateral triangle of side 0.1 m. Find the net force on any one charge.
+5. A charge $q_1 = +1 \, \mu\text{C}$ is at the origin and $q_2 = +4 \, \mu\text{C}$ is at $x = 6$ m. A third charge is placed at $x = 2$ m. Find the net force on the third charge.

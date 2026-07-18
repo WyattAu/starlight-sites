@@ -1,0 +1,11 @@
+---
+title: "Poetry Terms Flashcards"
+description: "Flashcard deck for IB English poetry terminology"
+tags: [English, IB, Flashcards]
+---
+
+import FlashcardDeck from "@components/FlashcardDeck";
+import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/english/flashcards-poetry-data.js';
+
+
+<FlashcardDeck client:only="solid-js" deckId="ib-english-poetry-terms" title="IB English Poetry Terms" description="15 essential poetry terminology flashcards for IB English covering figurative language, sound devices, and structural terms." cards={[...flashcards1, ...flashcards2, ...flashcards3]} />
