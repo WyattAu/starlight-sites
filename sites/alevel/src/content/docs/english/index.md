@@ -91,7 +91,7 @@ Beyond your set texts, wider reading strengthens your understanding of literary 
 
 Follow this structure for effective literary essays:
 
-1. **Introduction**: State your argument clearly, outline the texts and contexts
+1. **Introduction**: State your argument, outline the texts and contexts
 2. **Body Paragraph 1**: First analytical point with embedded quotations
 3. **Body Paragraph 2**: Second analytical point, building on or complicating the first
 4. **Body Paragraph 3**: Consider alternative interpretations or a different aspect

@@ -112,7 +112,7 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
 ### 5.8 Applications
 
 - **Integral equations:** Fredholm integral equations of the second kind $f - Kf = g$ are solved
-  using the Fredholm alternative. Compact integral operators arise naturally in potential theory and
+  using the Fredholm alternative. Compact integral operators arise in potential theory and
   scattering.
 - **Quantum mechanics:** Position and momentum operators are unbounded, but their resolvents
   $(H - z)^{-1}$ are often compact. The spectral theorem for compact operators underlies the

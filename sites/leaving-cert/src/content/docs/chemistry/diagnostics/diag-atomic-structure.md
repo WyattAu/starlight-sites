@@ -99,7 +99,7 @@ covalent bond towards itself.
 
 **Across Period 3** (Na to Cl): Electronegativity increases. Nuclear charge increases and atomic
 radius decreases, so the ability to attract bonding electrons increases. Argon is a noble gas and
-does not typically form covalent bonds, so it has no electronegativity value.
+does not form covalent bonds, so it has no electronegativity value.
 
 **Down Group 17** (F to I): Electronegativity decreases. Although nuclear charge increases, the
 outer electrons are further from the nucleus in larger shells and are increasingly shielded by inner
@@ -302,7 +302,7 @@ $\text{SiO}_2$ a very high melting point.
 (d) Element 119 would be in Group 1, Period 8. Its outermost electron would be in the $8s$ orbital,
 very far from the nucleus and heavily shielded by seven filled inner shells. Following the trend of
 increasing reactivity down Group 1 (due to decreasing ionisation energy), element 119 would be
-expected to lose its outer electron very easily, making it highly reactive. The claim is plausible
+expected to lose its outer electron with a very low ionisation energy, making it highly reactive. The claim is plausible
 based on periodic trends, but uncertainties exist because relativistic effects (where electrons move
 at speeds approaching the speed of light) become significant for very heavy elements and can alter
 expected properties. The element has not yet been synthesised, so the claim remains theoretical.
@@ -325,5 +325,5 @@ linked above.
 - Forgetting that effective nuclear charge increases across a period, not just nuclear charge alone.
 - Confusing atomic radius trends: radius decreases across a period but increases down a group.
 - Misapplying VSEPR by not counting lone pairs as electron domains that affect molecular shape.
-- Stating that noble gases have the highest electronegativity -- noble gases are typically excluded
+- Stating that noble gases have the highest electronegativity -- noble gases are excluded
   from electronegativity scales.

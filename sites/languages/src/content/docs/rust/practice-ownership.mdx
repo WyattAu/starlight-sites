@@ -10,8 +10,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Rust — Ownership Practice
 
-8 auto-graded practice problems covering Rust ownership, lifetimes, references, and smart pointers.
-Select an answer, submit, and review the explanation.
+8 auto-graded practice problems covering Rust ownership, lifetimes, references, and smart pointers. Select an answer, submit, and review the explanation.
 
 ---
 
@@ -44,3 +43,47 @@ Select an answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the key difference between `Box<T>` and `Rc<T>`?&quot; options={[ 'Box has single ownership; Rc enables shared ownership via reference counting', 'Box is for stack allocation; Rc is for heap allocation', 'Box is thread-safe; Rc is not', 'There is no difference', ]} correctAnswer={0} explanation=&quot;`Box<T>` provides single ownership of heap data — only one owner at a time. `Rc<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc<T>` for shared ownership across threads."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"When should you use `Arc<T>` instead of `Rc<T>`?&quot; options={[ 'When you need to share data across multiple threads', 'When you need mutable access to shared data', 'When you want to avoid heap allocation', 'When the data is very small', ]} correctAnswer={0} explanation=&quot;`Arc<T>` (Atomic Reference Counted) is the thread-safe version of `Rc<T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex<T>` or `RwLock<T>`."} difficulty="medium"  />
+
+---
+
+### Borrowing
+
+<PracticeProblem client:only="solid-js" question={"Why does the following code fail to compile? `let mut v = vec![1,2,3]; let first = &v[0]; v.push(4);`&quot; options={[ 'push may reallocate, invalidating the immutable reference `first`', 'Cannot push to a vector after borrowing', 'first is a copy, not a reference', 'push requires exclusive access but v is not mutable', ]} correctAnswer={0} explanation=&quot;push may cause reallocation of the vector's backing buffer if capacity is exceeded. This would invalidate the pointer `first` points to. Rust prevents this by refusing to allow a mutable borrow (via push) while an immutable reference (first) is still live."} difficulty="hard"  />
+
+---
+
+### Lifetimes
+
+<PracticeProblem client:only="solid-js" question={"What lifetime annotation is needed for `fn first_or_default(s: &[str]) -> &str`?&quot; options={[ 'None -- lifetime elision handles it', 'fn first_or_default<'a>(s: &'a str) -> &'a str', 'fn first_or_default<'a>(s: &[str]) -> &'a str', 'fn first_or_default(s: &str) -> &str is invalid', ]} correctAnswer={0} explanation=&quot;With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default<'a>(s: &'a str) -> &'a str, but the compiler handles it automatically."} difficulty="easy"  />
+
+---
+
+### Trait Objects
+
+<PracticeProblem client:only="solid-js" question={"What is the size of a `Box<dyn Display>` compared to a `Box<i32>`?&quot; options={[ 'Box<dyn Display> is larger (fat pointer with vtable); Box<i32> is a single pointer', 'They are the same size', 'Box<dyn Display> is smaller', 'dyn Display is unsized, so Box cannot hold it', ]} correctAnswer={0} explanation=&quot;Box<dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 * usize). Box<i32> is a thin pointer to a single i32 on the heap (1 * usize). The fat pointer enables dynamic dispatch at runtime."} difficulty="medium"  />
+
+---
+
+### Smart Pointers
+
+<PracticeProblem client:only="solid-js" question={"What does `RefCell<T>` provide that `Box<T>` does not?&quot; options={[ 'Interior mutability with runtime borrow checking', 'Compile-time borrow checking', 'Thread-safe shared ownership', 'Automatic garbage collection', ]} correctAnswer={0} explanation=&quot;RefCell<T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box<T> enforces exclusive ownership with no interior mutability."} difficulty="medium"  />
+
+---
+
+### Move Semantics
+
+<PracticeProblem client:only="solid-js" question={"What happens when you move a `String` into a function and then try to use it after the call?&quot; options={[ 'Compilation error: value moved and no longer usable', 'The string is copied automatically', 'The string is still valid but empty', 'Runtime error: use after free', ]} correctAnswer={0} explanation=&quot;String does not implement Copy, so moving it into a function transfers ownership. After the move, the original variable is invalid. To use it after the call, you must clone it first, take a reference, or return the value from the function."} difficulty="easy"  />
+
+---
+
+### Trait Objects and Generics
+
+<PracticeProblem client:only="solid-js" question={"What is the difference between `impl Trait` and `dyn Trait` in a function return type?&quot; options={[ 'impl Trait returns a concrete type known at compile time; dyn Trait returns a trait object with dynamic dispatch', 'They are identical', 'dyn Trait is faster', 'impl Trait allows multiple return types', ]} correctAnswer={0} explanation=&quot;impl Trait hides a specific type known at compile time (static dispatch, monomorphized). dyn Trait uses dynamic dispatch via a fat pointer (vtable). impl Trait cannot return different types from different branches; dyn Trait can return any type implementing the trait."} difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"Why does `fn first_word(s: &str) -> &str` compile without lifetime annotations?&quot; options={[ 'Lifetime elision rules infer the lifetime automatically', 'Rust does not check lifetimes for &str', 'It returns a static lifetime', 'The compiler guesses the lifetime', ]} correctAnswer={0} explanation=&quot;Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word<'a>(s: &'a str) -> &'a str is automatically inferred."} difficulty="easy"  />
+
+---
+
+### Enums and Pattern Matching
+
+<PracticeProblem client:only="solid-js" question={"What does `if let Some(x) = option_value { ... }` do?&quot; options={[ 'Executes the block only if the Option is Some, binding x to the inner value', 'Always executes', 'Unwraps the Option or panics', 'Converts Option to Result', ]} correctAnswer={0} explanation=&quot;if let is a pattern match that handles only one variant. If option_value is Some(x), x is bound to the inner value and the block executes. If it is Nothing, the block is skipped. It is a concise alternative to a full match statement."} difficulty="easy"  />

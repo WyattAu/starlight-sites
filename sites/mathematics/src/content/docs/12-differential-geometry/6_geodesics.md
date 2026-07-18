@@ -76,7 +76,7 @@ The **geodesic deviation equation** describes the relative acceleration of nearb
 $$\frac{D^2}{dt^2} J^i = -R^i_{\,jkl} \dot{\gamma}^j J^k \dot{\gamma}^l$$
 
 In general relativity, this is the equation of **geodesic deviation** that governs tidal forces.
-For a congruence of timelike geodesics, it gives the relative acceleration of nearby test particles.
+For a congruence of timelike geodesics in the standard model of cosmology, it gives the relative acceleration of nearby test particles.
 
 **Example.** On $S^2$, geodesics are great circles. Jacobi fields along the equator show that all
 geodesics starting at the north pole reconverge at the south pole (the antipodal point is conjugate).

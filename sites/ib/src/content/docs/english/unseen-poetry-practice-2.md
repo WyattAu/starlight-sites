@@ -41,7 +41,7 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 
 > I am silver and exact. I have no preconceptions.
 
-The opening line establishes the mirror's voice with deceptive simplicity. The declaration "I am silver and exact" combines material composition with a claim to precision. The adjective "exact" is significant: the mirror does not say "accurate" or "truthful" -- it claims to be without interpretation, a surface that simply reflects. The phrase "no preconceptions" extends this claim, suggesting that the mirror is free from the biases and distortions that affect human perception. For an IB candidate, the immediate question is whether the mirror's self-assessment is reliable: is the poem endorsing the mirror's claim or ironising it?
+The opening line establishes the mirror's voice with deceptive simplicity. The declaration "I am silver and exact" combines material composition with a claim to precision. The adjective "exact" is significant: the mirror does not say "accurate" or "truthful" -- it claims to be without interpretation, a surface that reflects. The phrase "no preconceptions" extends this claim, suggesting that the mirror is free from the biases and distortions that affect human perception. For an IB candidate, the immediate question is whether the mirror's self-assessment is reliable: is the poem endorsing the mirror's claim or ironising it?
 
 > Whatever I see I swallow immediately.
 
@@ -77,7 +77,7 @@ The poem concludes with its most enigmatic image:
 
 The extended metaphor of drowning and rising establishes a temporal sequence: the young girl the woman once was has been submerged in the mirror's reflective surface, and what rises in her place is something alien and monstrous. The simile "like a terrible fish" is deliberately incongruous -- a fish has no obvious connection to a woman's face. The incongruity is the point: the image conveys the horror of self-recognition, the sense that what ageing reveals is something unrecognisable and predatory. The adjective "terrible" carries both the sense of "frightening" and the archaic sense of "awe-inspiring" -- the old woman is both repellent and sublime.
 
-**Examiner Commentary**: The final simile is the element that most distinguishes a top-band response. Candidates who merely note that "the fish is a metaphor for ageing" produce an inadequate answer. The strength of the image lies in its strangeness, its refusal to be easily decoded. A strong response acknowledges this strangeness and explores its effect on the reader.
+**Examiner Commentary**: The final simile is the element that most distinguishes a top-band response. Candidates who merely note that "the fish is a metaphor for ageing" produce an inadequate answer. The strength of the image lies in its strangeness, its refusal to be decoded. A strong response acknowledges this strangeness and explores its effect on the reader.
 
 ---
 
@@ -119,7 +119,7 @@ The moon is described as "a god" or "an intermediate," and the lake is said to b
 
 ### 4.2 Shared Concerns
 
-Despite their differences, both poems explore the relationship between an individual and a defining practice. Heaney's speaker defines himself through writing; Plath's woman defines herself through reflection. Both poems use their central metaphor to interrogate what it means to see clearly -- Heaney through the act of careful observation, Plath through the act of self-scrutiny. Both also address the anxiety of inheritance: Heaney worries about breaking with family tradition; Plath's woman confronts the biological inheritance of ageing.
+Despite their differences, both poems explore the relationship between an individual and a defining practice. Heaney's speaker defines himself through writing; Plath's woman defines herself through reflection. Both poems use their central metaphor to interrogate what it means to see with precision -- Heaney through the act of careful observation, Plath through the act of self-scrutiny. Both also address the anxiety of inheritance: Heaney worries about breaking with family tradition; Plath's woman confronts the biological inheritance of ageing.
 
 ### 4.3 IB Comparative Strategy
 

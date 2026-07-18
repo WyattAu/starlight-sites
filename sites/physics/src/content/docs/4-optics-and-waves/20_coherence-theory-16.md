@@ -73,7 +73,7 @@ $$V = \frac{I_{\max} - I_{\min}}{I_{\max} + I_{\min}} = |\gamma_{12}|$$
 - **Forgetting that fringe visibility depends on both polarisation and coherence.** Two beams with
   orthogonal polarisations produce no interference even if spatially and temporally coherent.
 - **Thinking the coherence length is the maximum path difference for fringes.** While related, the
-  visibility decreases gradually; the coherence length is typically defined as the path difference
+  visibility decreases gradually; the coherence length is defined as the path difference
   where visibility drops to $1/e$ or $1/2$.
 
 ### 16.6 Applications

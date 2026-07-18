@@ -28,7 +28,7 @@ where the infimum is taken over all countable coverings of $A$ by open intervals
 
 **Properties of $m^*$.**
 
-1. $m^*(\varnothing) = 0$ (trivially: cover with no intervals).
+1. $m^*(\varnothing) = 0$ (this follows immediately: cover with no intervals).
 2. $m^*$ is translation invariant: $m^*(A + t) = m^*(A)$ for all $t \in \mathbb{R}$.
 3. $m^*$ is monotone: $A \subseteq B$ implies $m^*(A) \leq m^*(B)$.
 4. $m^*$ is countably subadditive.

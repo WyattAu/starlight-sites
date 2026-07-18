@@ -140,7 +140,7 @@ disagree.
 
 ### Incorporating source evidence
 
-Do not simply describe what a source says. Analyse its significance, context, and limitations.
+Do not describe what a source says. Analyse its significance, context, and limitations.
 Use the OPVL framework to structure your analysis. Link analysis back to the question being
 answered.
 
@@ -154,7 +154,7 @@ When sources present conflicting accounts, evaluate both and explain why they di
 - **Source B** (reformers): Peaceful meeting attacked without provocation.
 
 **Analysis**: Sources differ because authors hold different political positions. Source A reflects
-fear of revolutionary upheaval; Source B reflects demand for reform. Neither is simply "wrong" —
+fear of revolutionary upheaval; Source B reflects demand for reform. Neither is "wrong" —
 both reveal genuine attitudes. The historian's task is to understand why perspectives differed and
 assess which account is more accurate.
 
@@ -174,7 +174,7 @@ Examiners look for:
 1. **Describing rather than analysing**. Stating what a source says without evaluating reliability,
    purpose, or limitations.
 2. **Ignoring provenance**. Failing to consider who created the source and why.
-3. **Treating sources as transparent**. Assuming a source simply "tells the truth" without
+3. **Treating sources as transparent**. Assuming a source "tells the truth" without
    recognising author perspective.
 4. **Using sources out of context**. Quoting without explaining historical circumstances.
 5. **Failing to engage with interpretations**. Stating that "historians disagree" without

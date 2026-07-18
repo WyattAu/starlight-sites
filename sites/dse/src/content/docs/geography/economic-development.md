@@ -19,7 +19,7 @@ tableOfContents: false
 - **Transnational corporation (TNC):** A company that operates in more than one country, controlling
   production facilities, services, and distribution networks across national boundaries.
 - **Special economic zone (SEZ):** A designated area within a country where business and trade
-  regulations differ from the rest of the country, typically offering tax incentives and reduced
+  regulations differ from the rest of the country, offering tax incentives and reduced
   regulations to attract foreign investment.
 - **Belt and Road Initiative (BRI):** China's infrastructure development and investment strategy,
   announced in 2013, aimed at enhancing connectivity and cooperation across Asia, Europe, and Africa
@@ -72,7 +72,7 @@ through unequal trade, debt, and control of technology and finance.
 Modern manufacturing is organised through global production networks in which different stages of
 production occur in different countries, each selected for specific advantages:
 
-- **Research and design:** Typically located in core countries with access to skilled labour,
+- **Research and design:** Located in core countries with access to skilled labour,
   universities, and technology clusters.
 - **Component manufacturing:** Often located in semi-periphery countries with adequate infrastructure
   and skilled labour at lower costs.

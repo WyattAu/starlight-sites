@@ -27,7 +27,7 @@ $$\text{Statistic} \pm \text{Margin of Error} = (\text{point estimate}) \pm (\te
 
 ### Confidence Level
 
-The confidence level (typically 90%, 95%, or 99%) is the long-run proportion of intervals that would
+The confidence level (90%, 95%, or 99% on the AP exam) is the long-run proportion of intervals that would
 capture the true parameter if the sampling process were repeated many times. It does not mean there
 is a 95% probability that the specific interval contains the parameter.
 

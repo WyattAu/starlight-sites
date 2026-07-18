@@ -15,7 +15,7 @@ The IB prescribes specific command terms for each question. Understanding their 
 
 ### Evaluate
 
-"Evaluate" requires you to weigh the significance, validity, or effectiveness of something. You must reach a substantiated judgement, supported by evidence. Simply listing arguments is insufficient; you must determine which factors are most significant and explain why.
+"Evaluate" requires you to weigh the significance, validity, or effectiveness of something. You must reach a substantiated judgement, supported by evidence. Listing arguments is insufficient; you must determine which factors are most significant and explain why.
 
 **Example:** "Evaluate the significance of the Long March in the CCP's rise to power."
 
@@ -39,7 +39,7 @@ Structure the response around clear criteria (economic policy, treatment of oppo
 
 ### To What Extent
 
-This is the most common command term in Paper 2. It requires you to assess how far a statement is true, considering multiple perspectives before reaching a judgement. A strong response does not simply argue "yes" or "no" but weighs competing interpretations.
+This is the most common command term in Paper 2. It requires you to assess how far a statement is true, considering multiple perspectives before reaching a judgement. A strong response does not argue "yes" or "no" but weighs competing interpretations.
 
 ### Discuss
 
@@ -157,7 +157,7 @@ Paper 1 consists of four questions worth a total of 24 marks (20% at SL and HL).
 - This is the highest-value question. It requires synthesis, not summary.
 - Group points by theme or argument, drawing on multiple sources in each paragraph.
 - Integrate your own knowledge to contextualise, support, or challenge the sources.
-- Address the question directly — do not simply discuss the sources in isolation.
+- Address the question directly — do not discuss the sources in isolation.
 
 ---
 

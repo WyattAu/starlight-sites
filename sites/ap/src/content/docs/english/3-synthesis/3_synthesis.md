@@ -54,7 +54,7 @@ Group sources by the position they support:
 ### Step 4: Develop Your Position
 
 Your thesis should be your own argument, supported by evidence from the sources. You do not need to
-agree with every source, and you should not simply summarise them.
+agree with every source, and you should not summarise them.
 
 ## Integrating Sources
 
@@ -119,7 +119,7 @@ democratises access to expert-level tutoring (Source E)."
 
 1. Engage the reader with context for the issue
 2. Introduce the topic and its significance
-3. State your thesis clearly
+3. State your thesis
 
 ### Body Paragraphs
 
@@ -140,7 +140,7 @@ Include at least one paragraph that:
 
 ### Conclusion
 
-1. Restate the thesis in fresh language (do not simply copy it)
+1. Restate the thesis in fresh language (do not copy it)
 2. Summarise the key arguments
 3. Provide a broader implication, call to action, or reflection on the significance of the issue
 
@@ -154,7 +154,7 @@ Use for:
 - Demonstrating trends, patterns, or magnitudes
 - Supporting claims with numerical precision
 
-Analyse the data yourself rather than simply reporting what it shows. Interpret the significance of
+Analyse the data yourself rather than reporting what it shows. Interpret the significance of
 the numbers.
 
 ### Expert Testimony (Studies, Reports, Articles)

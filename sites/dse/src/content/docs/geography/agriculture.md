@@ -20,7 +20,7 @@ tableOfContents: false
 - **Intensive agriculture:** Farming that maximises output per unit of land through high inputs of
   labour, capital, or technology (e.g., high-yielding crop varieties, irrigation, chemical inputs).
 - **Extensive agriculture:** Farming that uses relatively large areas of land per unit of output,
-  typically with low labour inputs and low yields per hectare.
+  with low labour inputs and low yields per hectare.
 - **Rice paddy (wet rice cultivation):** A system of rice growing in flooded fields (paddies),
   requiring flat terrain, controlled water levels, and warm temperatures throughout the growing
   season.
@@ -175,7 +175,7 @@ than 0.1% of GDP and support approximately 10,000 workers.
 
 ## Exam Tips
 
-1. **Distinguish agricultural systems clearly:** When comparing subsistence and commercial farming,
+1. **Distinguish agricultural systems:** When comparing subsistence and commercial farming,
    use specific examples (e.g., shifting cultivation in Borneo versus rice paddy farming in the
    Mekong Delta) and reference specific inputs, outputs, and environmental conditions.
 

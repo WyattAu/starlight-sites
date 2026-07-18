@@ -175,7 +175,7 @@ classify n
 ```
 
 Guards are evaluated top to bottom; the first one that evaluates to `True` is used. `otherwise` is
-simply defined as `True` and serves as a catch-all:
+defined as `True` and serves as a catch-all:
 
 ```haskell
 -- otherwise is defined in the Prelude as:

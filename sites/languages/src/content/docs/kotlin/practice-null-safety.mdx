@@ -10,8 +10,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Kotlin — Null Safety Practice
 
-8 auto-graded practice problems covering Kotlin null safety, scope functions, sealed classes, and
-coroutines. Select an answer, submit, and review the explanation.
+13 auto-graded practice problems covering Kotlin null safety, scope functions, sealed classes, and coroutines. Select an answer, submit, and review the explanation.
 
 ---
 
@@ -44,3 +43,38 @@ coroutines. Select an answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the key difference between `launch` and `async` in Kotlin coroutines?&quot; options={[ 'launch returns a Job (fire-and-forget); async returns a Deferred<T> that produces a result', 'launch is blocking; async is non-blocking', 'launch runs on IO dispatcher; async runs on Default', 'There is no difference', ]} correctAnswer={0} explanation=&quot;`launch` starts a coroutine that returns a `Job` — it\'s fire-and-forget and doesn\'t return a value. `async` starts a coroutine that returns a `Deferred<T>`, which you can await with `.await()` to get the computed result. Use `async` when you need a result."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What does the `suspend` keyword on a function signify?&quot; options={[ 'The function can be paused and resumed, and can only be called from a coroutine or another suspend function', 'The function runs on a separate thread', 'The function blocks the calling thread', 'The function is marked for garbage collection', ]} correctAnswer={0} explanation=&quot;A `suspend` function can suspend execution at suspension points without blocking a thread. It can only be called from within a coroutine or another suspend function. The compiler transforms suspend functions into state machines that handle suspension and resumption efficiently."} difficulty="easy"  />
+
+---
+
+### Safe Calls and Let
+
+<PracticeProblem client:only="solid-js" question={"What does `user?.address?.let { it.city }` return when `user` is non-null but `address` is null?&quot; options={[ 'null', 'Compilation error', 'Unit', 'Throws NullPointerException', ]} correctAnswer={0} explanation=&quot;The safe call `?.` short-circuits on null. Since `user` is non-null but `user.address` is null, the safe call on `address` returns null. The `let` block is never executed, and the entire expression evaluates to null."} difficulty="medium"  />
+
+---
+
+### Also and Require
+
+<PracticeProblem client:only="solid-js" question={"What is the difference between `also` and `apply` in Kotlin scope functions?&quot; options={[ 'both return the receiver; also uses `it` as argument, apply uses `this` as context', 'apply returns the lambda result; also returns the receiver', 'also is for nullable types; apply is for non-null', 'There is no difference', ]} correctAnswer={0} explanation=&quot;Both `also` and `apply` return the receiver object. `also` provides the receiver as `it` (explicit argument), making it ideal for side effects like logging. `apply` provides the receiver as `this` (implicit context), making it ideal for configuration."} difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What does `require(age >= 0) { \"Age must be non-negative\" }` do when age is -5?&quot; options={[ 'Throws IllegalArgumentException with the message', 'Returns false', 'Does nothing', 'Throws IllegalStateException', ]} correctAnswer={0} explanation=&quot;`require` checks a precondition and throws IllegalArgumentException if the condition is false. The lambda provides the error message. `require` is for validating function arguments; `check` is for validating internal state (throws IllegalStateException)."} difficulty="easy"  />
+
+---
+
+### Check and Assertion
+
+<PracticeProblem client:only="solid-js" question={"When should you use `check` vs `require` in Kotlin?&quot; options={[ 'check for internal state invariants; require for function argument validation', 'check for function arguments; require for internal state', 'They are interchangeable', 'check is for null checks; require is for type checks', ]} correctAnswer={0} explanation=&quot;`require` validates conditions on function parameters and throws IllegalArgumentException. `check` validates internal invariants and throws IllegalStateException. This distinction helps callers understand whether a failure is due to bad input (require) or a bug (check)."} difficulty="medium"  />
+
+---
+
+### Scope Functions
+
+<PracticeProblem client:only="solid-js" question={"What does `val result = listOf(1,2,3).let { \"Size: ${it.size}\" }` return?&quot; options={[ '\"Size: 3\"', '[1, 2, 3]', '3', 'Compilation error', ]} correctAnswer={0} explanation=&quot;`let` executes the lambda with the list as `it` and returns the lambda result. The lambda constructs a string using the list's size property. The result is the string \"Size: 3\"."} difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the difference between `also` and `apply` in Kotlin?&quot; options={[ 'both return the receiver; also uses `it` as argument, apply uses `this` as context', 'apply returns the lambda result; also returns the receiver', 'also is for nullable types; apply is for non-null', 'There is no difference', ]} correctAnswer={0} explanation=&quot;Both `also` and `apply` return the receiver object. `also` provides the receiver as `it` (explicit argument), making it ideal for side effects like logging. `apply` provides the receiver as `this` (implicit context), making it ideal for configuration."} difficulty="medium"  />
+
+
+---
+
+### Coroutines and Flows
+
+<PracticeProblem client:only="solid-js" question={"What does `flow { emit(1); emit(2); emit(3) }.collect { println(it) }` do?&quot; options={[ 'Prints 1, 2, 3 each on a new line', 'Prints [1, 2, 3]', 'Only prints 3', 'Compilation error', ]} correctAnswer={0} explanation=&quot;A flow is a cold asynchronous stream. The block only executes when collected. emit sends each value to the collector. collect is the terminal operator that processes each emitted value. The values are printed sequentially."} difficulty="medium"  />

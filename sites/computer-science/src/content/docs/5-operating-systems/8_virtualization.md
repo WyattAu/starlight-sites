@@ -93,7 +93,7 @@ hardware support, the shadow page table overhead is eliminated. $\blacksquare$
 **Problem 2.** Design a container strategy for a microservice with 12 services. Each service needs
 50 MB RAM and starts in < 1 second. Compare with VM approach.
 
-**Solution.** Containers: shared kernel, total RAM $\sim 12 \times 50 + 500$ MB (OS overhead) $\approx 1.1$ GB. Startup: seconds. VMs: each VM needs separate OS ($\sim 512$ MB minimum), total RAM $\sim 12 \times 512 = 6.1$ GB. Startup: minutes. Containers clearly superior for this lightweight microservice architecture. $\blacksquare$
+**Solution.** Containers: shared kernel, total RAM $\sim 12 \times 50 + 500$ MB (OS overhead) $\approx 1.1$ GB. Startup: seconds. VMs: each VM needs separate OS ($\sim 512$ MB minimum), total RAM $\sim 12 \times 512 = 6.1$ GB. Startup: minutes. Containers are superior for this lightweight microservice architecture. $\blacksquare$
 
 ### 8.8 Applications
 

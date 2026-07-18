@@ -34,7 +34,7 @@ Thinkers use critical and creative thinking skills to analyse complex problems a
 
 ### 1.4 Communicators
 
-Communicators express ideas and information confidently in more than one language and in a variety of modes. In English, communication is both the medium and the subject of study. Students must communicate their interpretations clearly, precisely, and persuasively in written and oral forms. The ability to adjust register, structure, and style for different audiences is a core competency.
+Communicators express ideas and information confidently in more than one language and in a variety of modes. In English, communication is both the medium and the subject of study. Students must communicate their interpretations precisely and persuasively in written and oral forms. The ability to adjust register, structure, and style for different audiences is a core competency.
 
 **Practical application**: A Paper 1 essay requires a different register than a reflective journal entry. A knowledgeable communicator recognises these differences and adapts their writing accordingly. The analytical essay demands formal diction, integrated quotations, and sustained argument; the reflective journal allows for tentativeness, personal voice, and exploratory thinking.
 
@@ -85,7 +85,7 @@ The ATL framework identifies five categories of skills that IB students are expe
 | Skill | Application in English |
 |-------|----------------------|
 | Listening | Active listening during class discussions; attending to the oral qualities of poetry and drama |
-| Speaking | Articulating interpretations clearly in class discussion and oral presentations |
+| Speaking | Articulating interpretations in class discussion and oral presentations |
 | Reading | Close reading, critical reading, contextual reading |
 | Writing | Analytical essays, reflective journals, creative responses, research essays |
 
@@ -150,7 +150,7 @@ The following framework provides a consistent structure for reflective entries:
 
 > **Observation**: Today we discussed Heaney's "Digging" and I noticed the simile "snug as a gun" for the first time.
 >
-> **Analysis**: The comparison between the pen and a weapon suggests that writing carries a kind of force. I had previously read the poem as simply nostalgic, but this detail introduces an element of violence or threat that complicates that reading.
+> **Analysis**: The comparison between the pen and a weapon suggests that writing carries a kind of force. I had previously read the poem as nostalgic, but this detail introduces an element of violence or threat that complicates that reading.
 >
 > **Evaluation**: I tend to read for overall mood rather than attending to individual words. I missed this simile in my initial reading because I was focused on the broader themes of memory and labour.
 >

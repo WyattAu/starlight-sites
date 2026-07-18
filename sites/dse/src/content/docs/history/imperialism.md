@@ -112,4 +112,4 @@ The Boxer Rebellion represented the conservative backlash against foreign influe
 - For source-based questions on the Unequal Treaties, evaluate whether the source reflects the perspective of the foreign powers, the Chinese government, or the affected population. Each perspective offers different insights into the nature and consequences of imperialism.
 - In essay questions, structure your argument around specific themes such as economic impact, political transformation, or social change, rather than providing a chronological narrative of events.
 - Use specific evidence including treaty terms, dates, statistics, and policy details to support arguments about the impact of imperialism.
-- When evaluating Chinese responses to imperialism, analyse the strengths and weaknesses of each approach (conservative resistance, moderate reform, radical revolution) rather than simply narrating events.
+- When evaluating Chinese responses to imperialism, analyse the strengths and weaknesses of each approach (conservative resistance, moderate reform, radical revolution) rather than narrating events.

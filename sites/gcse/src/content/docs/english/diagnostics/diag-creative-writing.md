@@ -104,7 +104,7 @@ limited. How does the choice of narrative perspective affect the reader"s experi
 - **Falling action**: The events following the climax where the tension decreases and the
   consequences of the climax unfold.
 - **Resolution**: The conclusion of the story, where conflicts are resolved and the reader gains a
-  sense of closure (or deliberate lack of closure, in some cases).
+  sense of closure (or deliberate lack of closure, where the narrative resists tidy resolution).
 
 (b)
 
@@ -178,9 +178,9 @@ the chaos of the day. A moment where the noise stops, the screens go dark, and a
 to somewhere else entirely. This is not a fantasy -- it is a daily period of silent reading, and
 every school in the country should have one. Silent reading improves concentration, builds
 vocabulary, and nurtures empathy. In an age of shrinking attention spans and constant digital
-distraction, can we really afford not to give young people twenty minutes a day to simply read?
+distraction, can we really afford not to give young people twenty minutes a day to read?
 
-(c) Strengths: the student clearly states a position (uniforms should be banned) and provides
+(c) Strengths: the student states a position (uniforms should be banned) and provides
 reasons (uncomfortable, unpopular). The writing is direct and accessible.
 
 Weakness: the argument lacks evidence, sophistication, and engagement with opposing views. "Nobody
@@ -301,7 +301,7 @@ argumentative piece. Refer to the structure of an argumentative text.
 Every day, children as young as eight log on to platforms that were never designed for them. They
 are exposed to content that no child should see: violent imagery, targeted advertising, and
 predatory strangers who exploit the anonymity of the internet. The solution is not complicated. It
-is not expensive. It is simply necessary. Age verification technology already exists -- the same
+is not expensive. It is necessary. Age verification technology already exists -- the same
 systems that prevent children from buying alcohol online or accessing gambling sites can be adapted
 for social media. Opponents argue that verification infringes on privacy. But let us be clear: a
 child's safety outweighs an adult's convenience. We do not allow children into pubs unaccompanied,
@@ -314,7 +314,7 @@ more children must be harmed before we act?
 
 1. **Emotive language**: "violent imagery, targeted advertising, and predatory strangers" --
    designed to provoke outrage.
-2. **Rule of three (triple)**: "The solution is not complicated. It is not expensive. It is simply
+2. **Rule of three (triple)**: "The solution is not complicated. It is not expensive. It is
    necessary." -- builds rhythm and emphasis.
 3. **Analogy**: "We do not allow children into pubs unaccompanied" -- draws a parallel with existing
    protections.
@@ -331,7 +331,7 @@ social media means creating centralised databases of personal information -- dat
 hacked, leaked, or exploited. The UK's previous attempt at age verification for adult websites was
 abandoned precisely because of these privacy concerns. Furthermore, age verification systems are
 imperfect; determined children bypass them using VPNs and false identities, meaning the burden of
-compliance falls on law-abiding adults who must surrender personal data simply to communicate
+compliance falls on law-abiding adults who must surrender personal data to communicate
 online. Is it right to erode the privacy of millions to create a barrier that determined children
 will overcome anyway?
 

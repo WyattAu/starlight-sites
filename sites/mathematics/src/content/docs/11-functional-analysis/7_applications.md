@@ -17,7 +17,7 @@ $\lambda_n \to \infty$.
 ### 7.2 Quantum Mechanics
 
 In quantum mechanics, the state space of a system is a Hilbert space $H$ (typically
-$L^2(\mathbb{R}^3)$). Observables are self-adjoint operators on $H$. The spectral theorem guarantees
+$L^2(\mathbb{R}^3)$, the space of square-integrable wavefunctions). Observables are self-adjoint operators on $H$. The spectral theorem guarantees
 that every observable has a spectral decomposition:
 
 $$A = \int_{\sigma(A)} \lambda\, dP(\lambda)$$

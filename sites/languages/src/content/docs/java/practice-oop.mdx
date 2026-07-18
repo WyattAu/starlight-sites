@@ -10,8 +10,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Java — OOP Practice
 
-8 auto-graded practice problems covering Java OOP concepts. Select an answer, submit, and review the
-explanation.
+8 auto-graded practice problems covering Java OOP concepts. Select an answer, submit, and review the explanation.
 
 ---
 
@@ -44,3 +43,39 @@ explanation.
 <PracticeProblem client:only="solid-js" question={"What does `List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5); nums.stream().filter(n -> n % 2 == 0).map(n -> n * n).collect(Collectors.toList())` return?&quot; options={['[4, 16]', '[2, 4]', '[1, 9, 25]', '[4]']} correctAnswer={0} explanation=&quot;The stream filters for even numbers (2, 4), then squares them (4, 16), then collects to a list: `[4, 16]`. `filter` keeps elements matching the predicate, `map` transforms each element, and `collect` gathers results into a list."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question='What does `Optional.ofNullable(null).orElse("default")` return?' options={['\"default\"', 'null', 'Optional[default]', 'NoSuchElementException']} correctAnswer={0} explanation='`Optional.ofNullable(null)` creates an empty Optional. `orElse("default")` returns the provided default value when the Optional is empty. So the result is the string "default".' difficulty="easy"  />
+
+---
+
+### Interfaces and Abstract Classes
+
+<PracticeProblem client:only="solid-js" question={"Given `interface Describable { default String describe() { return \"default\"; } }` and `class Widget implements Describable { }`, what does `new Widget().describe()` return?&quot; options={['\"default\"', 'Compilation error', 'null', 'Empty string']} correctAnswer={0} explanation=&quot;Since Widget does not override describe(), it inherits the default method from the Describable interface. The default method returns \"default\"."} difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"Can an abstract class have a constructor?&quot; options={[ 'Yes, to initialize fields or enforce setup in subclasses', 'No, abstract classes cannot have constructors', 'Only if it has no abstract methods', 'Only if declared public', ]} correctAnswer={0} explanation=&quot;Abstract classes can have constructors. They are called via super() from subclass constructors to initialize inherited fields or perform common setup. Abstract classes cannot be instantiated directly, but their constructors are essential for subclass initialization."} difficulty="medium"  />
+
+---
+
+### Enums
+
+<PracticeProblem client:only="solid-js" question={"What is the key difference between a basic enum and an enum with fields and methods in Java?&quot; options={[ 'Basic enums are simple constants; enums with fields can carry data and override methods per constant', 'There is no difference', 'Enums with fields cannot be used in switch statements', 'Basic enums support generics', ]} correctAnswer={0} explanation=&quot;Basic enums like `enum Color { RED, GREEN, BLUE }` are simple constants. Enums with fields like `enum Planet { MERCURY(3.303e+23, 2.4397e6) }` can store per-constant data and provide methods. Both can override methods, but enums with fields carry additional state."} difficulty="medium"  />
+
+---
+
+### Records and Sealed Classes
+
+<PracticeProblem client:only="solid-js" question={"What does a Java record automatically generate?&quot; options={[ 'Constructor, accessor methods, equals, hashCode, and toString', 'Only a constructor and getters', 'A mutable data class with setters', 'Nothing -- records are empty by default', ]} correctAnswer={0} explanation=&quot;A Java record like `record Point(int x, int y)` automatically generates: a canonical constructor, accessor methods x() and y(), equals(), hashCode(), and toString(). Fields are implicitly final."} difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"Given `sealed interface Shape permits Circle, Square, Triangle {}`, what must Circle, Square, and Triangle declare?&quot; options={[ 'final, non-sealed, or sealed', 'Only final', 'Only abstract', 'No special declaration needed', ]} correctAnswer={0} explanation=&quot;Permitted subclasses of a sealed type must be declared final (cannot be extended), non-sealed (can be extended by anyone), or sealed (further restricts to its own permits). This ensures the compiler knows the complete type hierarchy for exhaustive checking."} difficulty="medium"  />
+
+---
+
+### Enums and Records
+
+<PracticeProblem client:only="solid-js" question={"What does `enum Planet { MERCURY(3.303e+23, 2.4397e6), VENUS(4.869e+24, 6.0518e6); final double mass; final double radius; Planet(double mass, double radius) { this.mass = mass; this.radius = radius; } }` allow you to do?&quot; options={[ 'Access Planet.MERCURY.mass directly without getters', 'Iterate planets with Planet.values()', 'Both A and B', 'Neither A nor B', ]} correctAnswer={2} explanation=&quot;Enums with fields let you access per-constant data directly (Planet.MERCURY.mass). Planet.values() returns an array of all enum constants. Enhanced enums can also have methods and implement interfaces."} difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the key difference between a record and a regular class with final fields?&quot; options={[ 'Records auto-generate equals/hashCode/toString; regular classes do not', 'Records can have instance methods; regular classes cannot', 'Records are mutable; regular classes are immutable', 'There is no difference', ]} correctAnswer={0} explanation=&quot;Records generate equals(), hashCode(), toString(), and accessor methods automatically. A regular class with final fields requires manually implementing these methods. Records also provide a canonical constructor and can only have data fields (no additional instance fields)."} difficulty="easy"  />
+
+---
+
+### Inheritance and Polymorphism
+
+<PracticeProblem client:only="solid-js" question={"What does `@Override` annotation do in Java?&quot; options={[ 'Signals the compiler to verify the method actually overrides a superclass method', 'Changes the method signature', 'Makes the method private', 'Enables runtime polymorphism', ]} correctAnswer={0} explanation=&quot;@Override tells the compiler to verify that the method actually overrides a method from a superclass or interface. If there is no matching method (e.g., typo in name or parameters), compilation fails. It is not required but catches errors early."} difficulty="easy"  />

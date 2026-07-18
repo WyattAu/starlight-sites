@@ -5,4 +5,113 @@ description: "Introduction to computer-science notes."
 
 Welcome to the computer-science notes.
 
-Browse the content using the sidebar navigation on the left.
+## What Is Computer Science?
+
+Computer science is the study of computation, information, and automation.
+It spans theoretical disciplines such as algorithms, theory of computation, and
+information theory, to applied disciplines including the design and implementation
+of hardware and software. At its core, computer science asks what can be computed,
+how efficiently it can be computed, and how computation can be applied to solve
+real-world problems.
+
+## Branches of Computer Science
+
+The discipline is conventionally divided into several major branches.
+
+**Theory of Computation** concerns itself with what problems are solvable and
+how efficiently. It formalises the notion of computation through automata,
+formal languages, and Turing machines, and classifies problems by their
+computational complexity (P, NP, PSPACE, and beyond).
+
+**Computer Systems** encompasses computer architecture, operating systems,
+distributed systems, and networking. It addresses how computers are designed,
+how they manage resources, and how they communicate.
+
+**Artificial Intelligence** focuses on building systems that perform tasks
+requiring human-like reasoning: learning from data, natural language
+understanding, perception, and decision-making.
+
+**Human--Computer Interaction** studies the design and evaluation of interfaces
+between people and computers, drawing on cognitive science, design, and
+usability engineering.
+
+Other important areas include databases, software engineering, computer
+graphics, computational biology, and cybersecurity.
+
+## How to Use This Resource
+
+This site is organised into three major sections:
+
+1. **Algorithms and Data Structures** -- foundational material on algorithm
+   design paradigms, complexity analysis, and standard data structures.
+2. **Systems** -- distributed systems, networking, and systems-level topics.
+3. **Theory** -- automata and formal languages, compiler construction, and
+   cryptography.
+
+Each section contains explanatory notes and a set of practice problems. The
+practice problems use an interactive multiple-choice format. Attempt each
+question before revealing the explanation.
+
+## Prerequisites
+
+A reasonable background in mathematics (discrete mathematics, basic
+probability, and linear algebra) will be helpful. Some familiarity with at
+least one programming language is assumed. No single advanced prerequisite
+is required; concepts are introduced as needed.
+
+## Recommended Path Through the Content
+
+For a student beginning from first principles, the following order is
+recommended:
+
+- Start with **Algorithms and Data Structures**. Work through algorithm
+  design, complexity theory, and data structures in sequence.
+- Proceed to **Theory**, where automata and formal languages provide the
+  mathematical foundation for both compilers and cryptography.
+- Finish with **Systems**, which builds on theoretical understanding to
+  address real-world distributed and networked systems.
+
+Experienced students may follow alternative orderings based on interest.
+
+## Learning Methodology
+
+Each section follows a consistent structure:
+
+1. **Expository notes** introduce the core concepts, definitions, and theorems.
+   Work through these first to build a mental model of the topic.
+2. **Practice problems** test understanding through multiple-choice questions.
+   Each problem includes a question, four answer options, and a detailed
+   explanation that discusses not only why the correct answer is right, but
+   also why the other options are wrong.
+3. **Cross-references** link related material across sections. For example,
+   the complexity classes introduced in the algorithms section reappear in the
+   cryptography section when discussing the hardness assumptions underlying
+   RSA and Diffie--Hellman.
+
+Active recall through practice problems is a more effective study strategy
+than passive re-reading. Attempt each problem, commit to an answer, and only
+then consult the explanation.
+
+## Assessment and Self-Evaluation
+
+Use the practice problems to gauge your understanding:
+
+- **Easy** problems test recall of definitions and basic properties.
+- **Medium** problems require applying concepts to concrete scenarios.
+- **Hard** problems involve multi-step reasoning, proofs, or non-obvious
+  connections between topics.
+
+If you find a section consistently difficult, revisit the expository notes
+and work through any referenced proofs or derivations by hand. Repetition
+across days (spaced practice) is more effective than cramming.
+
+## Key Terminology
+
+| Term | Definition |
+|------|------------|
+| Algorithm | A finite, well-defined sequence of steps that solves a problem. |
+| Complexity class | A set of problems sharing a resource bound (e.g. time or space). |
+| Abstraction | A mechanism for hiding implementation details behind a clean interface. |
+| Decidability | Whether a Turing machine halts on all inputs for a given problem. |
+| Consistency model | A contract specifying what values a read may return in a distributed store. |
+| Invariant | A property that holds throughout execution and is maintained by each operation. |

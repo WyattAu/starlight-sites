@@ -102,8 +102,8 @@ Compact $\Rightarrow$ complete and totally bounded. Complete + totally bounded $
 - **Thinking contractions require $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$.** This is weaker and
   does not guarantee a fixed point. The strict inequality $d(f(x), f(y)) \leq c d(x, y)$ with
   $c < 1$ is essential.
-- **Forgetting that convergence of sequences is not enough in general topology.** In metric spaces
-  sequential convergence characterises the topology, but in general topological spaces nets or
+- **Forgetting that convergence of sequences is not enough in arbitrary topological spaces.** In metric spaces
+  sequential convergence characterises the topology, but in non-metric spaces nets or
   filters are needed.
 
 ### 7.8 Applications

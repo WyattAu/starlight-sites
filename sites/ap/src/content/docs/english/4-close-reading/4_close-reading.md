@@ -206,7 +206,7 @@ Strong passages operate on multiple levels simultaneously. A passage may:
 
 1. Read the passage first for comprehension
 2. Read each question and refer back to the relevant section
-3. Eliminate obviously incorrect options
+3. Eliminate incorrect options by checking each against the passage
 4. Choose the answer that is **most strongly supported by the text**
 
 ### Essay Strategy

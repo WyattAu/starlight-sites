@@ -85,7 +85,7 @@ You must demonstrate engagement with critical perspectives. This does not mean s
 - **Challenge a critic**: "While Gilbert and Gubar read the madwoman as Bertha's double, this reading neglects the racialised dimensions of Brontë's Gothic that Rhys foregrounds in _Wide Sargasso Sea_."
 - **Develop a critic**: "Said's concept of Orientalism extends beyond Conrad's text; Achebe's response in _Things Fall Apart_ demonstrates how the "African voice" can reframe the colonial narrative."
 
-**Do not** simply name-drop critics. Every reference to critical material must serve your analytical argument.
+**Do not** name-drop critics. Every reference to critical material must serve your analytical argument.
 
 ## Essay Titles
 
@@ -104,7 +104,7 @@ A strong title signals your argument, not merely your topic.
 
 ## Referencing (MLA Format)
 
-A-Level English typically requires MLA referencing. The following are the essential elements:
+A-Level English requires MLA referencing (except where the exam board specifies an alternative). The following are the essential elements:
 
 ### In-Text Citations
 
@@ -139,7 +139,7 @@ Eliot, George. "The Female Novelist." _Selected Essays_, edited by Newton Arvin,
 - Advise on text selection and title formulation
 - Provide formative feedback on planning and structure
 - Direct students to critical sources
-- Discuss analytical approaches in general terms
+- Discuss analytical approaches for the cases covered in this syllabus
 
 ### What Teachers Cannot Do
 

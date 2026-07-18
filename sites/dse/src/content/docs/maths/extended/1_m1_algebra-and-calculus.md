@@ -101,7 +101,7 @@ Given $f(x)$ and $g(x)$, the composite function $fg(x) = f(g(x))$.
 
 $$fg(x) = f(g(x)) = f(x^2) = 2x^2 + 1$$ $$gf(x) = g(f(x)) = g(2x + 1) = (2x + 1)^2 = 4x^2 + 4x + 1$$
 
-Note that $fg(x) \neq gf(x)$ in general.
+Note that $fg(x) \neq gf(x)$ except when $f$ and $g$ commute.
 
 ### Inverse Functions
 

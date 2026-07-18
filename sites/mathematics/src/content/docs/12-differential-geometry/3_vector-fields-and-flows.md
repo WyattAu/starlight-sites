@@ -90,7 +90,7 @@ $X$ and $Y$ respectively.
 
 **Example 3.3.** On $\mathbb{R}^3$, the vector fields $X = \partial/\partial x$ and
 $Y = \partial/\partial y$ commute: $[X, Y] = 0$. Their flows are translations in the $x$ and $y$
-directions respectively, and these clearly commute.
+directions respectively, and these commute.
 
 **Example 3.4.** On $S^2$, the vector fields generating rotations about the $x$-axis and $y$-axis
 do not commute: $[X, Y] = Z$, where $Z$ generates rotation about the $z$-axis. This reflects

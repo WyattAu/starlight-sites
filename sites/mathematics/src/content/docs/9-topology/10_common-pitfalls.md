@@ -110,7 +110,7 @@ infinitely often, contradicting continuity. $\blacksquare$
   compactness) only make sense in metric spaces.
 - Does the statement involve "closed and bounded"? That equivalence only holds in $\mathbb{R}^n$.
 - Are you confusing sequentially compact with compact? They are equivalent in metric spaces but
-  not in general topological spaces.
+   not in arbitrary topological spaces.
 - Is the space Hausdorff? Many theorems about compactness and uniqueness of limits require
    Hausdorff separation.
 
@@ -127,7 +127,7 @@ infinitely often, contradicting continuity. $\blacksquare$
 
 17. **"A subspace of a connected space is connected."** False. The interval $(0,1) \cup (2,3)$ is a
     subspace of the connected space $\mathbb{R}$ but is disconnected. Connectedness is not
-    hereditary; only open connected subspaces inherit connectedness in general.
+    hereditary; only open connected subspaces inherit connectedness (closed subspaces may not).
 
 18. **"All open covers of a compact space have a finite subcover."** This is the definition of
     compactness, so it is true by definition. However, a common mistake is thinking that "every

@@ -58,7 +58,7 @@ This symbol critiques a society in which commerce has displaced spirituality. Th
 
 The novel's central thematic concern is the corruption of the American Dream. Gatsby's trajectory from poor Midwestern boy to wealthy Long Island socialite appears to fulfil the Dream's promise of self-invention and upward mobility. Yet his wealth derives from bootlegging and association with Meyer Wolfsheim, and his ultimate goal, Daisy, proves hollow.
 
-Fitzgerald does not simply reject the Dream; he exposes its structural impossibility. The Dream requires a future that can be seized, but Gatsby's version is rooted in the past. His tragedy is that he confuses material acquisition with spiritual fulfilment. The green light is always across the water, always out of reach.
+Fitzgerald does not reject the Dream; he exposes its structural impossibility. The Dream requires a future that can be seized, but Gatsby's version is rooted in the past. His tragedy is that he confuses material acquisition with spiritual fulfilment. The green light is always across the water, always out of reach.
 
 The final line, "So we beat on, boats against the current, borne back ceaselessly into the past," universalises Gatsby's predicament. The pronoun shifts from "he" to "we," implicating all readers in the same futile striving.
 

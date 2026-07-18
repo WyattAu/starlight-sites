@@ -38,7 +38,7 @@ clock speed affects processor performance.
 
 (b) **RAM** is volatile (loses data when power is off), allows both read and write operations, and
 is used for temporary storage of data the CPU is currently working with. **ROM** (Read Only Memory)
-is non-volatile (retains data without power), typically allows only read operations, and stores
+is non-volatile (retains data without power), allows only read operations, and stores
 permanent data such as the BIOS/firmware that boots the computer.
 
 (c)
@@ -103,7 +103,7 @@ modify, and distribute. Example: Linux operating system. Advantage: free to use 
 disadvantage: may lack official technical support and can have compatibility issues.
 
 **Proprietary software**: software whose source code is owned by a company and is not freely
-available. Users purchase a licence to use it. Example: Microsoft Windows. Advantage: typically has
+available. Users purchase a licence to use it. Example: Microsoft Windows. Advantage: has
 official support and guarantees of quality; disadvantage: users cannot modify it and must pay
 licence fees.
 
@@ -144,8 +144,8 @@ Decimal to octal: $218 / 8 = 27$ remainder $2$. $27 / 8 = 3$ remainder $3$. $3 /
 $3$. So $218_{10} = 332_8$.
 
 (b) Computers use binary because electronic circuits have two states: on (high voltage,
-representing 1) and off (low voltage, representing 0). Transistors in logic gates naturally operate
-in these two states, making binary the natural representation for digital systems.
+representing 1) and off (low voltage, representing 0). Transistors in logic gates operate
+in these two states, making binary the representation for digital systems.
 
 Hexadecimal is a useful shorthand because one hexadecimal digit represents exactly four binary
 digits (bits). This makes large binary numbers much easier to read and write. For example, the
@@ -268,7 +268,7 @@ The **fetch-decode-execute cycle**:
 (b) **Cache memory** is a small, very fast type of memory located between the CPU and RAM (often on
 or very near the CPU chip). It stores frequently accessed data and instructions so that the CPU can
 retrieve them faster than accessing RAM. Since cache is much faster than RAM but much more
-expensive, it is kept small (typically a few MB). When the CPU needs data, it checks cache first; if
+expensive, it is kept small (a few MB). When the CPU needs data, it checks cache first; if
 the data is found (a "cache hit"), it is retrieved quickly. If not (a "cache miss"), the data must
 be fetched from slower RAM. This significantly reduces the average time the CPU spends waiting for
 data.
@@ -286,7 +286,7 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 | Speed       | Fast read/write (hundreds of MB/s)                | Slower read/write (tens to hundreds of MB/s) |
 | Durability  | No moving parts, resistant to physical shock      | Moving parts, vulnerable to physical damage  |
 | Cost per GB | More expensive                                    | Less expensive                               |
-| Capacity    | Typically 256 GB to 4 TB                          | Typically 500 GB to 20 TB                    |
+| Capacity    | 256 GB to 4 TB                          | 500 GB to 20 TB                    |
 | Use cases   | Boot drive, applications, laptops, fast workloads | Bulk storage, backups, archival data         |
 
 SSDs are preferred for the operating system and frequently used applications due to their speed.

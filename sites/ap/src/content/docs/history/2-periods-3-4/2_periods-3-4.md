@@ -85,7 +85,7 @@ Colonial arguments drew on Enlightenment philosophy and English constitutional t
 - **African Americans**: Some fought for the British (Lord Dunmore's Proclamation, 1775, promised
   freedom to enslaved people who joined the British); others fought for the Patriots (Rhode Island
   Black Regiment); northern states began gradual emancipation after the war
-- **Women**: Managed farms and businesses; served as nurses, spies, and in some cases as soldiers
+- **Women**: Managed farms and businesses; served as nurses, spies, and occasionally as soldiers (e.g., Deborah Sampson disguised as a man)
   (Deborah Sampson); Abigail Adams's "Remember the Ladies" letter
 
 ## Period 4: 1800-1848

@@ -122,7 +122,7 @@ drainage basin features, flood management) are also examined under the physical 
 ### Paper 2 (Elective Part)
 
 - **Duration:** 1 hour 15 minutes
-- **Structure:** Students answer questions on their chosen elective topics. Questions are typically
+- **Structure:** Students answer questions on their chosen elective topics. Questions are
   data-response or essay-style, requiring extended answers with supporting examples.
 - **Weighting:** 40% of the total mark
 - **Key skills tested:** In-depth understanding of chosen electives, analytical writing, evaluation

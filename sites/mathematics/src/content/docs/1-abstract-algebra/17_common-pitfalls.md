@@ -71,7 +71,7 @@ Isomorphism.
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
 one normalises the other. That is, $HN$ is a subgroup of $G$ if and only if $HN = NH$. For normal
-subgroups this reduces to checking closure, but in general the product set may fail to be closed
+subgroups this reduces to checking closure, but in the product set may fail to be closed
 under the group operation.
 
 </aside>

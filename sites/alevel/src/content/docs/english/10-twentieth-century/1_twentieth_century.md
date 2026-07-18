@@ -14,7 +14,7 @@ description: "A-Level English revision notes on twentieth-century literature: mo
 
 ## Introduction
 
-Twentieth-century literature is assessed across all major A-Level exam boards, typically as a post-1900 or post-1945 component. The period encompasses modernism, post-war fiction, and contemporary writing, each responding to distinct historical pressures: world wars, decolonisation, technological change, and shifting social hierarchies. This section addresses the major movements, techniques, and thematic concerns required for examination.
+Twentieth-century literature is assessed across all major A-Level exam boards as a post-1900 or post-1945 component. The period encompasses modernism, post-war fiction, and contemporary writing, each responding to distinct historical pressures: world wars, decolonisation, technological change, and shifting social hierarchies. This section addresses the major movements, techniques, and thematic concerns required for examination.
 
 ## Modernism (c. 1900-1940)
 
@@ -56,7 +56,7 @@ Post-war fiction responds to the Holocaust, the Cold War, nuclear anxiety, and t
 
 _1984_ (1949) is a dystopian novel that examines the relationship between language, thought, and political control. The concept of **Newspeak**—a language designed to reduce the range of expressible thought—extends to the principle of **doublethink**: the capacity to hold two contradictory beliefs simultaneously. Winston Smith's rebellion is fundamentally linguistic: his diary, his memory of the past, and his relationship with Julia all represent acts of linguistic resistance against a regime that seeks to control meaning.
 
-The novel's ending, in which Winston "loved Big Brother," is not simply defeat but the annihilation of individual consciousness. For AO2, students should analyse how Orwell's plain, declarative prose style enacts the very reduction of language the novel warns against.
+The novel's ending, in which Winston "loved Big Brother," is not defeat but the annihilation of individual consciousness. For AO2, students should analyse how Orwell's plain, declarative prose style enacts the very reduction of language the novel warns against.
 
 ### William Golding (1911-1993)
 

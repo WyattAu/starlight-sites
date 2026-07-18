@@ -5,7 +5,7 @@ description: "The study of algorithms is central to computer science. An algorit
 
 # Algorithms
 
-The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem. The analysis of algorithms concerns their correctness and efficiency, typically measured in terms of time complexity (how the number of operations grows with input size) and space complexity (how memory usage grows).
+The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem. The analysis of algorithms concerns their correctness and efficiency, measured in terms of time complexity (how the number of operations grows with input size) and space complexity (how memory usage grows).
 
 ## Key Concepts
 

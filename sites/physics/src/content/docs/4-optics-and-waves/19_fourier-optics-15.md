@@ -64,7 +64,7 @@ mask (spatial filter) in this plane modifies the image:
 
 - **Confusing Fraunhofer and Fresnel diffraction.** Fraunhofer diffraction applies in the far field
   ($z \gg a^2/\lambda$ where $a$ is the aperture size). Fresnel diffraction (near field) uses a
-  quadratic phase factor and is not simply a Fourier transform.
+  quadratic phase factor and is not a Fourier transform.
 - **Forgetting the quadratic phase factor in the Fresnel regime.** The Fraunhofer integral
   approximation drops the quadratic phase term, but it is present in the full Fresnel diffraction
   integral.

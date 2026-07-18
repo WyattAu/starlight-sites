@@ -76,7 +76,7 @@ conditions and occasional heavy rainfall.
 
 ### Monsoon Rainfall
 
-The onset of the summer monsoon typically occurs in mid-May over the South China coast, bringing a
+The onset of the summer monsoon occurs in mid-May over the South China coast, bringing a
 marked increase in rainfall. The monsoon trough, a zone of low pressure along the southern flank of
 the subtropical ridge, is a key generator of rainfall over southern China. Persistent monsoon
 depression events can produce widespread, sustained rainfall, particularly in June and July.
@@ -122,7 +122,7 @@ particularly in low-lying coastal areas.
 
 ### Tracks Affecting Hong Kong
 
-Tropical cyclones affecting Hong Kong typically follow one of several tracks:
+Tropical cyclones affecting Hong Kong follow one of several tracks:
 
 1. **West-northwest track:** Forming near the Marshall Islands, curving northwest through the
    Philippines toward southern China or Hainan Island. Example: Typhoon Hato (2017).

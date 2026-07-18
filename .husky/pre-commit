@@ -63,7 +63,15 @@ if [ "$status" -ne 0 ]; then
   exit 1
 fi
 
-# 3. Unit + integration tests (pure-Node; the canonical correctness gate).
+# 3. GitHub Actions workflow lint (actionlint via bunx; requires Go runtime).
+bunx actionlint "${REPO_ROOT}/.github/workflows/*.yml"
+status=$?
+if [ "$status" -ne 0 ]; then
+  echo "Pre-commit FAILED: actionlint reported workflow errors." >&2
+  exit 1
+fi
+
+# 4. Unit + integration tests (pure-Node; the canonical correctness gate).
 node --test "${REPO_ROOT}/tests/unit/"*.test.js "${REPO_ROOT}/tests/integration/"*.test.js
 status=$?
 if [ "$status" -ne 0 ]; then

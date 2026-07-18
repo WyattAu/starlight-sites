@@ -116,11 +116,11 @@ The poem's central theme is the experience of cultural and linguistic division. 
 
 ### 4.2 The English Language as Colonial Inheritance
 
-The speaker's love of the English language is presented as both a gift and a curse. English is the medium of his literary expression, but it is also the language of the coloniser. The poem does not resolve this tension; it simply names it. For IB candidates, the key insight is that the poem is itself an example of the dilemma it describes: it uses English to critique English, it uses the coloniser's form to express the colonised subject's anguish.
+The speaker's love of the English language is presented as both a gift and a curse. English is the medium of his literary expression, but it is also the language of the coloniser. The poem does not resolve this tension; it names it. For IB candidates, the key insight is that the poem is itself an example of the dilemma it describes: it uses English to critique English, it uses the coloniser's form to express the colonised subject's anguish.
 
 ### 4.3 Violence and Morality
 
-The poem refuses to moralise about violence. It does not condemn the Mau Mau insurgents or exonerate the colonial regime; it simply presents the violence of both sides and asks the reader to confront it. The phrase "slaughter" is applied to both sides, and the speaker's question -- "How can I face such slaughter and be cool?" -- addresses his own inability to remain detached. The poem's moral position is one of anguished neutrality: the speaker cannot choose a side because both sides are guilty.
+The poem refuses to moralise about violence. It does not condemn the Mau Mau insurgents or exonerate the colonial regime; it presents the violence of both sides and asks the reader to confront it. The phrase "slaughter" is applied to both sides, and the speaker's question -- "How can I face such slaughter and be cool?" -- addresses his own inability to remain detached. The poem's moral position is one of anguished neutrality: the speaker cannot choose a side because both sides are guilty.
 
 ---
 
@@ -128,7 +128,7 @@ The poem refuses to moralise about violence. It does not condemn the Mau Mau ins
 
 ### 5.1 Avoid Biographical Reduction
 
-The most common mistake candidates make with Walcott is to reduce the poem to autobiography. While the speaker's mixed heritage clearly reflects Walcott's own background, the poem is not a diary entry. It is a carefully constructed literary artefact that uses personal experience to address universal questions about identity, language, and violence. A strong response discusses the speaker's identity as a structural feature of the poem, not as a biographical fact.
+The most common mistake candidates make with Walcott is to reduce the poem to autobiography. While the speaker's mixed heritage reflects Walcott's own background, the poem is not a diary entry. It is a carefully constructed literary artefact that uses personal experience to address universal questions about identity, language, and violence. A strong response discusses the speaker's identity as a structural feature of the poem, not as a biographical fact.
 
 ### 5.2 Address the Ending
 

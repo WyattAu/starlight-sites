@@ -72,8 +72,8 @@ select counties within each state (clusters), then randomly select households wi
 - **Undercoverage**: Some groups in the population are less likely to be included (e.g., phone
   survey that only calls landlines misses younger populations)
 - **Nonresponse**: Selected individuals refuse to participate or cannot be reached
-- **Voluntary response**: Individuals choose to participate (e.g., online polls), typically
-  attracting those with strong opinions
+- **Voluntary response**: Individuals choose to participate (e.g., online polls), attracting
+  those with strong opinions
 - **Convenience sampling**: Selecting individuals who are easiest to reach (not random)
 - **Response bias**: The design of the survey or the behaviour of the interviewer influences
   responses (leading questions, social desirability bias, question wording)
@@ -164,7 +164,7 @@ receives.
 ## Statistically Significant Results
 
 An observed effect is **statistically significant** if it is unlikely to have occurred by chance
-alone. On the AP exam, "statistically significant" typically means that the observed difference
+alone. On the AP exam, "statistically significant" means that the observed difference
 between groups is larger than what would be expected from random variation.
 
 ## Common Pitfalls

@@ -118,7 +118,7 @@ This illustrates that a set with empty interior is entirely contained in its bou
 
 **Problem.** Show that the set of polynomials $\mathcal{P}[0,1]$ is dense in $C([0,1], \mathbb{R})$ (continuous functions on $[0,1]$) under the supremum norm.
 
-**Solution.** By the Stone--Weierstrass theorem, any subalgebra of $C([0,1])$ that separates points and contains constant functions is dense. The polynomials clearly form a subalgebra, contain constants, and separate points (the polynomial $p(x) = x$ distinguishes $x_1 \neq x_2$). Therefore $\overline{\mathcal{P}[0,1]} = C([0,1])$.
+**Solution.** By the Stone--Weierstrass theorem, any subalgebra of $C([0,1])$ that separates points and contains constant functions is dense. The polynomials form a subalgebra, contain constants, and separate points (the polynomial $p(x) = x$ distinguishes $x_1 \neq x_2$). Therefore $\overline{\mathcal{P}[0,1]} = C([0,1])$.
 
 In the language of closure: the closure of the polynomials in the sup-norm topology is the entire space of continuous functions. Every continuous function on $[0,1]$ can be approximated uniformly by a sequence of polynomials (Weierstrass approximation theorem).
 

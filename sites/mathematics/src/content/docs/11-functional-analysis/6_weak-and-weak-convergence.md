@@ -39,7 +39,7 @@ $\|e_n\| = 1$ for all $n$, but $\langle e_n, y\rangle = y_n \to 0$ for every $y 
 
 **Proposition 6.6 (Weak vs. Weak\*).** In a normed space $X$:
 - If $X$ is reflexive, then weak and weak\* convergence on $X^*$ coincide.
-- In general, weak convergence on $X^*$ implies weak\* convergence, but the converse fails.
+- For non-reflexive spaces, weak convergence on $X^*$ implies weak\* convergence, but the converse fails.
 
 **Proposition 6.7 (Uniqueness of Limits).** Weak limits and weak\* limits are unique when they exist.
 

@@ -18,7 +18,7 @@ developer-friendly syntax inspired by Ruby.
 
 Elixir programs are compiled to BEAM bytecode and run as lightweight processes that can number in
 the millions on a single machine. Each process is isolated, garbage-collected independently, and
-communicates through asynchronous message passing. This architecture makes Elixir naturally suited
+communicates through asynchronous message passing. This architecture makes Elixir suited
 for distributed systems, real-time applications, and high-availability services.
 
 Key characteristics of Elixir:

@@ -152,7 +152,7 @@ user.save!          # dangerous methods end with !
 1. **Developer happiness**: Matz famously stated, "I hope to see Ruby help every programmer in the
    world to be productive, and to enjoy programming, and to be happy."
 2. **Consistency**: Similar things should look similar, different things should look different
-3. **Expressiveness**: The language should enable programmers to express intent clearly
+3. **Expressiveness**: The language should enable programmers to express intent
 4. **Convenience**: Common tasks should be easy, uncommon tasks should be possible
 
 Ruby's design choices reflect these priorities:

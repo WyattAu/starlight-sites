@@ -17,7 +17,7 @@ tableOfContents: false
 - **Urban sprawl:** The uncontrolled, low-density expansion of urban areas into surrounding rural
   land, resulting in dispersed, car-dependent development patterns.
 - **Counter-urbanisation:** The movement of people from urban centres to rural areas or smaller
-  towns, typically driven by declining inner-city quality and improved rural infrastructure.
+  towns, driven by declining inner-city quality and improved rural infrastructure.
 - **Re-urbanisation:** The return of population to inner-city areas through regeneration and
   redevelopment projects.
 - **New town:** A planned urban settlement designed to relieve population pressure on an existing

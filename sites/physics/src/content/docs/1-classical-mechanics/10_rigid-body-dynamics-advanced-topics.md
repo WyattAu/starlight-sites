@@ -190,5 +190,5 @@ steady precession and topples.
 | Nutation frequency | $\dot{\theta}$ oscillates in $V_{\text{eff}}$ | Looping/cusped/smooth types |
 
 These relationships apply to free rigid bodies (no external torque) and tops (constant gravity). For
-coupled or driven systems, numerical integration of the full Euler equations is typically required.
+coupled or driven systems, numerical integration of the full Euler equations is required.
 

@@ -41,9 +41,9 @@ histograms, boxplots, and ogives (cumulative frequency curves)**.
 ### Dotplots
 
 A dotplot places a dot above each value on a number line. Each observation is represented by one
-dot. Dotplots are best for small to moderate data sets (typically $n \leq 30$).
+dot. Dotplots are best for small to moderate data sets ($n \leq 30$).
 
-- Easily identify the shape, centre, and spread
+- Identify the shape, centre, and spread
 - Identify clusters, gaps, and outliers visually
 - Each data point is individually visible
 

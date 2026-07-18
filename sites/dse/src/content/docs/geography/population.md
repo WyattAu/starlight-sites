@@ -15,7 +15,7 @@ tableOfContents: false
   rates as a country develops through four or five stages, from high birth and death rates to low
   birth and death rates.
 - **Population pyramid:** A graphical representation of the age and sex distribution of a
-  population, with males typically shown on the left and females on the right.
+  population, with males shown on the left and females on the right.
 - **Fertility rate (total):** The average number of children a woman would bear during her lifetime,
   calculated from age-specific fertility rates.
 - **Replacement-level fertility:** The total fertility rate at which a population exactly replaces

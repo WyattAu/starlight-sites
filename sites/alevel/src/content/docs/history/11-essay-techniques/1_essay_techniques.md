@@ -139,7 +139,7 @@ was important in the short term, Y had more lasting consequences."
 
 ## Time Management for Extended Essays
 
-A-Level essays typically require 30-40 minutes.
+A-Level essays require 30-40 minutes (AQA, Edexcel, OCR, and WJEC all set papers of comparable length).
 
 | Section             | Time      | Task                                              |
 | ------------------- | --------- | ------------------------------------------------- |

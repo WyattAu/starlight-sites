@@ -96,7 +96,7 @@ The Toulmin model provides a structured framework for constructing and analysing
 2. **Data (evidence)**: The specific facts and information supporting the claim
 3. **Warrant**: The underlying assumption that connects the data to the claim (often unstated)
 4. **Backing**: Additional evidence or reasoning that supports the warrant
-5. **Qualifier**: Words that limit the scope of the claim (e.g., "usually," "in most cases,"
+5. **Qualifier**: Words that limit the scope of the claim (e.g., "in most cases,"
    "probably," "arguably")
 6. **Rebuttal (counterargument)**: Acknowledging conditions under which the claim might not hold
 

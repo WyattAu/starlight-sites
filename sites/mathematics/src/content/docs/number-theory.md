@@ -122,13 +122,13 @@ Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$Both integers. $\blacksquare
 ### 1.8 Common Pitfalls
 
 - **Forgetting the remainder must be non-negative.** For negative $a$, the division algorithm still
-  requires $0 \leq r < b$, which may mean $q$ is not simply $a/b$.
+  requires $0 \leq r < b$, which may mean $q$ is not $a/b$ (e.g., $-7 = (-2)(4) + 1$, not $(-1.75)(4)$).
 - **Confusing "divides" with divisibility by zero.** $a \mid 0$ is true for all $a \neq 0$, but
   $0 \mid a$ is false unless $a = 0$ itself.
 - **Assuming gcd and lcm are defined for negative numbers.** The gcd is always taken as positive;
   $\gcd(a,b) = \gcd(|a|,|b|)$.
 - **Thinking the gcd-lcm identity works for more than two numbers.** For three numbers,
-  $\gcd(a,b,c) \cdot \mathrm{lcm}(a,b,c) \neq abc$ in general.
+  $\gcd(a,b,c) \cdot \mathrm{lcm}(a,b,c) \neq abc$ for three or more numbers (e.g., $\gcd(2,3,4) = 1$ but $\mathrm{lcm}(2,3,4) = 12$, and $1 \cdot 12 = 12 \neq 24$).
 
 ### 1.9 Applications
 

@@ -168,7 +168,7 @@ $$\mu = \frac{1}{p}$$
 
 ### Central Limit Theorem (CLT)
 
-For a sufficiently large sample size $n$ (typically $n \geq 30$), the sampling distribution of
+For a sufficiently large sample size $n$ ($n \geq 30$ is the standard threshold), the sampling distribution of
 $\bar{x}$ is approximately normal, regardless of the shape of the population distribution.
 
 $$\mu_{\bar{x}} = \mu, \quad \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$$

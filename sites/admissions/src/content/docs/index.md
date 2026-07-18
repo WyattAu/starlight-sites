@@ -9,7 +9,7 @@ Many competitive university programmes require applicants to sit specialised adm
 
 ## Purpose and Format
 
-Admissions tests are designed to distinguish between candidates of similar academic profiles. They typically feature unconventional problem types that require lateral thinking and the application of fundamental principles to unfamiliar situations. For example, the Thinking Skills Assessment (TSA) presents logical reasoning and problem-solving questions, while the Mathematics Admissions Test (MAT) assesses depth of understanding through proof-based and multi-step problems.
+Admissions tests are designed to distinguish between candidates of similar academic profiles. They feature unconventional problem types that require lateral thinking and the application of fundamental principles to unfamiliar situations. For example, the Thinking Skills Assessment (TSA) presents logical reasoning and problem-solving questions, while the Mathematics Admissions Test (MAT) assesses depth of understanding through proof-based and multi-step problems.
 
 ## Preparation Strategy
 

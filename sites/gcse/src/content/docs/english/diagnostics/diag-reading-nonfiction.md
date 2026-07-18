@@ -20,7 +20,7 @@ Read the following article extract about urban cycling:
 > circled the outer edge of the city. The result was radical: car traffic in the city centre dropped
 > by over 70%, and cycling became the dominant mode of transport. Today, 61% of all journeys in
 > Groningen are made by bicycle, compared with just 2% in most British cities. Critics argue that
-> what worked in a flat Dutch city of 200,000 people cannot simply be transplanted to a congested
+> what worked in a flat Dutch city of 200,000 people cannot be transplanted to a congested
 > British metropolis of millions. They may be right. But the principle behind Groningen"s approach
 > -- that infrastructure determines behaviour -- is applicable everywhere.
 
@@ -66,7 +66,7 @@ Read the following opinion piece about school uniforms:
 
 > School uniforms are not merely items of clothing. They are statements about belonging, about
 > equality, and about the values a school chooses to uphold. When a student puts on a blazer in the
-> morning, they are not simply dressing; they are entering a social contract that says, "I am part
+> morning, they are not dressing; they are entering a social contract that says, "I am part
 > of this community, and I accept its standards." Opponents of uniforms frequently cite the cost --
 > and yes, uniform policies can place a financial burden on families, particularly those with
 > multiple children. This is a legitimate concern that schools must address through second-hand
@@ -91,7 +91,7 @@ persuade the reader?
 of the extract to leave the reader with a challenging thought. By framing the alternative to
 uniforms as "visible inequality" and then questioning whether this is "progressive," the writer
 forces the reader to confront the consequences of abolishing uniforms. The word "really" adds a tone
-of incredulity, suggesting that the outcome is obviously undesirable and that anyone who supports
+of incredulity, suggesting that the outcome is undesirable and that anyone who supports
 abolition has not thought through the implications.
 
 (b) The metaphor of a "social contract" elevates the act of wearing a uniform from a mundane
@@ -115,7 +115,7 @@ back dictate their social standing"), the writer creates a vivid, negative image
 uniforms. The phrase "dictate their social standing" uses strong, almost violent language
 ("dictate") to emphasise the severity of the consequences. The rhetorical question then invites the
 reader to reject this outcome, effectively positioning the reader on the writer's side. The sentence
-is persuasive because it does not simply restate the argument but forces the reader to visualise its
+is persuasive because it does not restate the argument but forces the reader to visualise its
 consequences.
 
 ---
@@ -298,11 +298,11 @@ refining the argument) at several points:
    while redirecting the argument ("but in expecting it to solve problems that are fundamentally
    human").
 
-This pattern makes the argument appear balanced and thoughtful, rather than simply anti-technology.
+This pattern makes the argument appear balanced and thoughtful, rather than anti-technology.
 
 (d) The final sentence is highly effective as a conclusion. It distils the entire argument into a
 single, memorable statement that is balanced and precise. By using a "not X but Y" structure, the
-writer clearly separates reasonable use of technology from unreasonable expectations. The phrase
+writer separates reasonable use of technology from unreasonable expectations. The phrase
 "fundamentally human" is particularly powerful because it reframes the debate: the issue is not
 whether technology is good or bad, but whether the problems we are trying to solve require human
 qualities that technology cannot replicate. This leaves the reader with a nuanced, thought-provoking

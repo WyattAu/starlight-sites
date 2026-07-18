@@ -135,7 +135,7 @@ A point with a **large residual** (far from the regression line). An outlier in 
 ### Influential Points
 
 A point that, if removed, would significantly change the slope and/or y-intercept of the regression
-line. Influential points typically have **extreme x-values** (leverage points), even if their
+line. Influential points have **extreme x-values** (leverage points), even if their
 residual is not large.
 
 An influential point may or may not be an outlier. Always check the effect of removing a point on
@@ -193,4 +193,4 @@ $$t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2$$
 - Interpreting $r^2$ as a percentage "explained" without proper context
 - Forgetting to check residual plots for nonlinearity
 - Confusing outliers (large residuals) with influential points (high leverage)
-- Using correlation when the relationship is clearly nonlinear
+- Using correlation when the relationship is nonlinear (check the scatterplot first)

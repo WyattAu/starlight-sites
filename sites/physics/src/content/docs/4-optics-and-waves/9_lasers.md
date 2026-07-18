@@ -128,7 +128,7 @@ linewidths below 1 Hz, enabling applications in precision metrology and optical 
 Semiconductor (diode) lasers use direct bandgap materials like GaAs and InP. The gain is provided
 by electron-hole recombination across the bandgap. Key parameters:
 
-- **Threshold current density:** $J_{\mathrm{th}}$ (typically 100-1000 A/cm$^2$).
+- **Threshold current density:** $J_{\mathrm{th}}$ (100-1000 A/cm$^2$ for common semiconductor materials).
 - **Slope efficiency:** $\eta_d = \frac{dP}{dI}$ above threshold.
 - **Modulation bandwidth:** up to 40 GHz for direct modulation.
 

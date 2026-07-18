@@ -24,7 +24,7 @@ The quality of the research question determines the quality of the entire invest
 
 1. **Specific and focused.** The question must be narrow enough to be addressed within the word limit. "What were the causes of the Cold War?" is too broad. "To what extent was the Truman Doctrine the primary cause of the Cold War?" is focused and arguable.
 
-2. **Arguable.** A question that has a single, self-evident answer does not require historical analysis. A strong question invites interpretation and debate. "Did the Cold War end in 1989?" is less effective than "To what extent did Gorbachev's reforms, rather than Western pressure, cause the end of the Cold War?"
+2. **Arguable.** A question that has a single correct answer does not require historical analysis. A strong question invites interpretation and debate. "Did the Cold War end in 1989?" is less effective than "To what extent did Gorbachev's reforms, rather than Western pressure, cause the end of the Cold War?"
 
 3. **Researchable.** The student must have access to sufficient primary and secondary sources. A question on a topic with limited archival access may be unworkable within the constraints of the course.
 

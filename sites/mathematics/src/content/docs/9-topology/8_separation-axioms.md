@@ -136,7 +136,7 @@ is a $G_\delta$ set (a countable intersection of open sets).
 **Theorem 8.4 (Tychonoff Product Theorem).** The product of any collection of compact topological
 spaces is compact (in the product topology).
 
-This is one of the most important theorems in general topology, equivalent to the axiom of choice.
+This is one of the most important theorems in topology, equivalent to the axiom of choice.
 The proof uses the finite intersection property and Zorn's lemma.
 
 ### 8.14 Stone-Cech Compactification

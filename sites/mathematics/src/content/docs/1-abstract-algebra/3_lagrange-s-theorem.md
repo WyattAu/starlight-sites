@@ -118,7 +118,7 @@ Lagrange.
 ### 3.6 Common Pitfalls
 
 - **Confusing index with order.** The index $[G:H]$ is the number of cosets, not the order of $H$.
-- **Assuming Lagrange's converse.** If $d \mid |G|$, there need not exist a subgroup of order $d$. The converse holds for cyclic groups but fails in general (e.g., $A_4$ has order 12 but no subgroup of order 6).
+- **Assuming Lagrange's converse.** If $d \mid |G|$, there need not exist a subgroup of order $d$. The converse holds for cyclic groups but fails for $A_4$ (order 12, no subgroup of order 6).
 - **Forgetting that cosets partition $G$.** Each element of $G$ belongs to exactly one left coset and exactly one right coset of $H$.
 - **Misapplying Fermat's Little Theorem.** It requires $p$ prime and $\gcd(a,p) = 1$; omitting the coprimality condition gives incorrect results.
 

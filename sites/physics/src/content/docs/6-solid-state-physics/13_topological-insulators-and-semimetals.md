@@ -78,7 +78,7 @@ chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
   band-bending effects. The hallmark of topological surface states is their helical spin texture and
   the fact that they span the bulk band gap.
 - **Thinking the Berry phase is always quantised.** The Berry phase is quantised only when the loop
-  encloses a degeneracy point or when protected by symmetry. In general it can take any value.
+  encloses a degeneracy point or when protected by symmetry. Without symmetry protection it can take any value.
 - **Confusing Weyl and Dirac semimetals.** Weyl nodes require breaking either inversion or
   time-reversal symmetry. Dirac nodes require both symmetries to be present and are less robust.
 

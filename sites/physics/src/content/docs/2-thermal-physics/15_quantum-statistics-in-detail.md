@@ -128,7 +128,7 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 - **Particle physics:** Neutrinos in the early universe follow FD statistics. The neutrino background temperature ($T_\nu \approx 1.95$ K) is slightly lower than the CMB due to $e^+e^-$ annihilation heating the photon bath.
 - **Condensed matter:** Heavy fermion materials have effective masses $m^* \gg m_e$, producing Fermi temperatures $T_F \sim 10$--$100$ K where quantum degeneracy meets accessible laboratory conditions.
 - **Cosmology:** The Bose--Einstein condensate has been proposed as a dark matter candidate (fuzzy dark matter), with a de Broglie wavelength of kiloparsec scales smoothing small-scale structure.
-- **Quantum information:** Degenerate Fermi gases in optical lattices simulate the Hubbard model, with the Pauli exclusion principle naturally enforcing the no-double-occupancy constraint at half-filling.
+- **Quantum information:** Degenerate Fermi gases in optical lattices simulate the Hubbard model, with the Pauli exclusion principle enforcing the no-double-occupancy constraint at half-filling.
 
 ### Summary Table: Comparison of Quantum and Classical Gases
 

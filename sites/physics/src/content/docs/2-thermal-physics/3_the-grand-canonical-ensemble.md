@@ -97,7 +97,7 @@ This recovers the equipartition result. $\blacksquare$
 ## Common Pitfalls
 
 - **Confusing the grand canonical ensemble with the canonical ensemble:** In the canonical ensemble, $N$ is fixed and $T$ is specified. In the grand canonical ensemble, $\mu$ is specified and $N$ fluctuates. Using the wrong ensemble for a problem (e.g., fixing $N$ when the system exchanges particles with a reservoir) leads to incorrect results.
-- **Forgetting that $\Xi$ is a sum over both $N$ and states:** The grand partition function sums over all particle numbers and all microstates for each $N$. It is not simply a product of single-particle partition functions unless particles are non-interacting.
+- **Forgetting that $\Xi$ is a sum over both $N$ and states:** The grand partition function sums over all particle numbers and all microstates for each $N$. It is not a product of single-particle partition functions unless particles are non-interacting.
 - **Assuming fluctuations are always negligible:** While relative fluctuations scale as $1/\sqrt{N}$, in small systems (nanoparticles, quantum dots, biological macromolecules) $N$ can be small enough that fluctuations become significant and the canonical and grand canonical ensembles give different predictions.
 - **Misapplying $\Phi_G = -PV$:** This relation holds for homogeneous systems in thermodynamic equilibrium. For non-equilibrium or inhomogeneous systems (e.g., systems with interfaces or external fields), the grand potential includes additional terms.
 
@@ -127,7 +127,7 @@ The average occupation number follows directly:
 
 $$\langle n_i \rangle = -\frac{1}{\beta}\frac{\partial \ln \Xi_i}{\partial \varepsilon_i} = \frac{1}{e^{\beta(\varepsilon_i - \mu)} \pm 1}$$
 
-where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). This unified derivation from the grand canonical ensemble illustrates its power: both quantum statistics emerge naturally from the same formalism, with the only difference being whether each single-particle state can be occupied at most once (fermions) or any number of times (bosons).
+where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). This unified derivation from the grand canonical ensemble illustrates its power: both quantum statistics emerge from the same formalism, with the only difference being whether each single-particle state can be occupied at most once (fermions) or any number of times (bosons).
 
 ## Key Relationships
 
@@ -135,13 +135,13 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **$\Phi_G = -PV$ connects microscopic statistics to macroscopic thermodynamics:** The grand potential directly gives the equation of state, linking the partition function to pressure and volume.
 - **Fluctuations scale as $1/\sqrt{N}$:** For macroscopic systems ($N \sim 10^{23}$), relative particle number fluctuations are negligible ($\sim 10^{-12}$), justifying the use of the canonical ensemble for most practical purposes.
 - **The fugacity $z = e^{\beta\mu}$ parameterises particle number:** The grand partition function is a power series in $z$, where each coefficient encodes the thermodynamics of the $N$-particle sector.
-- **Ideal gas statistics emerge naturally:** The grand canonical treatment of the ideal gas reproduces the canonical results ($\langle E \rangle = \frac{3}{2}Nk_BT$, $PV = Nk_BT$) without the need to compute $N$-particle partition functions.
+- **Ideal gas statistics emerge:** The grand canonical treatment of the ideal gas reproduces the canonical results ($\langle E \rangle = \frac{3}{2}Nk_BT$, $PV = Nk_BT$) without the need to compute $N$-particle partition functions.
 
 ## Applications
 
 - **Adsorption and surface science:** The grand canonical ensemble describes gas molecules adsorbing on a surface, where the number of adsorbed particles fluctuates as the system exchanges molecules with the gas phase.
 - **Semiconductor physics:** Carrier concentrations in semiconductors are calculated using grand canonical methods, where electrons and holes are exchanged with reservoirs at fixed chemical potential.
 - **Nuclear physics:** The statistical model of nuclear reactions uses the grand canonical ensemble to describe particle production in high-energy collisions, where the number of produced pions, kaons, etc. fluctuates.
-- **Chemical equilibrium:** Reactions in solution are naturally described in the grand canonical ensemble, where the chemical potentials of reactants and products are fixed by the reservoir.
+- **Chemical equilibrium:** Reactions in solution are described in the grand canonical ensemble, where the chemical potentials of reactants and products are fixed by the reservoir.
 - **Monte Carlo simulations:** Grand canonical Monte Carlo (GCMC) simulations insert and delete particles to sample the grand canonical distribution, used extensively in studies of porous materials and fluid adsorption.
 

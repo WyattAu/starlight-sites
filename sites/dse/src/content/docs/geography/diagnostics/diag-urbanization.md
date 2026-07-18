@@ -40,13 +40,13 @@ Answer each question. Check your answers against the key at the end.
 (C) 1900 to 1920
 (D) 1840s to 1860s
 
-**6.** Urban renewal in Hong Kong typically involves which strategy?
+**6.** Urban renewal in Hong Kong involves which strategy?
 (A) Depopulating city centres and relocating residents rurally
 (B) Redeveloping ageing urban areas with modern infrastructure and mixed-use buildings
 (C) Converting all residential land to commercial zoning
 (D) Abolishing planning regulations to encourage private development
 
-**7.** Which land use zone is typically found immediately surrounding the CBD?
+**7.** Which land use zone is found immediately surrounding the CBD?
 (A) Heavy industry
 (B) Transition zone with mixed residential and light commercial use
 (C) Low-density suburban housing
@@ -80,7 +80,7 @@ Answer each question. Check your answers against the key at the end.
 | 4 | (B) | Urban sprawl refers to low-density, unplanned outward expansion, often consuming agricultural land and increasing car dependence. |
 | 5 | (B) | Post-war immigration from mainland China in the 1950s-1960s led to extensive squatter settlements, notably after the 1953 Shek Kip Mei fire. |
 | 6 | (B) | Urban renewal involves redeveloping ageing districts with improved infrastructure, often through the Urban Renewal Authority. |
-| 7 | (B) | The transition zone surrounding the CBD typically contains mixed land uses including light industry, older housing, and commercial premises. |
+| 7 | (B) | The transition zone surrounding the CBD contains mixed land uses including light industry, older housing, and commercial premises. |
 | 8 | (B) | Hong Kong's public housing programme provides subsidised rental and Home Ownership Scheme flats to eligible low-income residents. |
 | 9 | (B) | The urban-rural fringe is the transitional zone where urban development meets rural land uses, often experiencing rapid change. |
 | 10 | (B) | Mountainous terrain and limited land release by government have forced Hong Kong to develop at very high densities. |

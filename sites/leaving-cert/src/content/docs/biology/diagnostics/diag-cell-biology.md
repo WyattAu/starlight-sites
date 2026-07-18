@@ -284,7 +284,7 @@ they would use.
 5. Blot excess liquid from around the coverslip with filter paper.
 6. Place the slide on the microscope stage and start with the lowest power objective lens.
 7. Focus using the coarse adjustment, then fine adjustment.
-8. Increase magnification as needed to observe cell structures clearly.
+8. Increase magnification as needed to observe cell structures.
 
 (b)
 
@@ -297,8 +297,8 @@ they would use.
 
 (c) TEM uses a beam of electrons that can only penetrate very thin specimens. If the sample is too
 thick, electrons are scattered or absorbed unevenly, producing a blurry image. **Ultramicrotomy**
-involves embedding the fixed tissue in a hard resin block and cutting ultra-thin sections (typically
-$50$--$100\,\text{nm}$ thick) using a glass or diamond knife mounted on an ultramicrotome. The
+involves embedding the fixed tissue in a hard resin block and cutting ultra-thin sections
+($50$--$100\,\text{nm}$ thick) using a glass or diamond knife mounted on an ultramicrotome. The
 sections are then floated onto a copper grid for viewing.
 
 (d) Method:

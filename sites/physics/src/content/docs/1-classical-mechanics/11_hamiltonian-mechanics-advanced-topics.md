@@ -31,7 +31,7 @@ $$\sum_i p_i\,dq_i - \sum_i P_i\,dQ_i = dF$$
 $\{F, G\}_{q,p} = \{F, G\}_{Q,P}$.
 
 **Example.** The point transformation $Q_i = q_i$ (just relabelling coordinates) with
-$P_i = p_i$ is trivially canonical. A non-trivial example: the rotation
+$P_i = p_i$ is canonical (the transformation is the identity on phase space). A non-trivial example: the rotation
 $Q = q\cos\theta + p\sin\theta$, $P = -q\sin\theta + p\cos\theta$ is canonical (it preserves
 $dq \wedge dp = dQ \wedge dP$).
 

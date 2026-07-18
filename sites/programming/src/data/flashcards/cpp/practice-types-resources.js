@@ -150,4 +150,69 @@ export const practiceQuestions = [
       'make_unique and make_shared construct objects directly in the smart pointer, avoiding the need for new. They provide strong exception safety guarantee.',
     difficulty: 'medium',
   },
+  {
+    question: 'What is the difference between std::unique_ptr and raw pointers in terms of RAII compliance?',
+    options: [
+      'unique_ptr automatically calls delete when it goes out of scope; raw pointers do not',
+      'Raw pointers are RAII-compliant; unique_ptr is not',
+      'Both require manual memory management',
+      'unique_ptr cannot be used with arrays',
+    ],
+    correctAnswer: 0,
+    explanation:
+      'std::unique_ptr is an RAII wrapper around a raw pointer. Its destructor calls delete on the managed object, ensuring automatic cleanup when the unique_ptr goes out of scope. Raw pointers require explicit delete calls, making them error-prone for resource management.',
+    difficulty: 'easy',
+  },
+  {
+    question: 'What is the Rule of Five in C++?',
+    options: [
+      'Every class needs exactly five member functions',
+      'If you define any of the five special member functions (destructor, copy constructor, copy assignment, move constructor, move assignment), you should consider defining all five',
+      'Classes should have five member variables',
+      'Functions should have at most five parameters',
+    ],
+    correctAnswer: 1,
+    explanation:
+      'The Rule of Five extends the Rule of Three to include move constructor and move assignment operator. If a class manages resources and needs custom versions of any of these five, it typically needs all five to maintain correct resource semantics.',
+    difficulty: 'medium',
+  },
+  {
+    question: 'What is std::weak_ptr used for and why does it exist alongside std::shared_ptr?',
+    options: [
+      'To provide a faster alternative to shared_ptr',
+      'To observe a shared resource without owning it, preventing reference cycles',
+      'To replace shared_ptr in all scenarios',
+      'To store raw pointers safely',
+    ],
+    correctAnswer: 1,
+    explanation:
+      'std::weak_ptr holds a non-owning reference to an object managed by shared_ptr. It does not increment the reference count. weak_ptr is essential for breaking reference cycles: if two objects hold shared_ptr to each other, neither is destroyed. Using weak_ptr for the back-reference breaks the cycle.',
+    difficulty: 'medium',
+  },
+  {
+    question: 'What is the performance implication of using std::shared_ptr over std::unique_ptr?',
+    options: [
+      'shared_ptr has zero overhead compared to unique_ptr',
+      'shared_ptr requires atomic reference count operations, adding overhead on construction, destruction, and copying',
+      'shared_ptr is faster because it uses stack allocation',
+      'Both have identical performance characteristics',
+    ],
+    correctAnswer: 1,
+    explanation:
+      'std::shared_ptr uses a control block with a reference count that must be updated atomically (to support thread-safe reference counting). Each copy or destruction of a shared_ptr performs an atomic increment or decrement. unique_ptr has zero overhead beyond a raw pointer. Prefer unique_ptr when shared ownership is not required.',
+    difficulty: 'medium',
+  },
+  {
+    question: 'What happens if you delete a raw pointer that was obtained from std::unique_ptr::release()?',
+    options: [
+      'It is safe and recommended practice',
+      'It is undefined behavior if the pointer was already managed by a unique_ptr that went out of scope',
+      'The program will always crash',
+      'The memory is automatically freed twice',
+    ],
+    correctAnswer: 1,
+    explanation:
+      'release() relinquishes ownership and returns a raw pointer without deleting the managed object. The caller becomes responsible for eventually deleting it. If you forget to delete, you have a leak. If you delete and then a unique_ptr that still owns the same pointer (due to a copy) goes out of scope, you get a double-free, which is undefined behavior.',
+    difficulty: 'hard',
+  },
 ]

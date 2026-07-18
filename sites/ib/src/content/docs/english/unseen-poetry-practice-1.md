@@ -43,7 +43,7 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 
 The opening couplet establishes the poem's central opposition. The enjambment across the two lines enacts the physical span between finger and thumb, forcing the reader's eye to travel the distance. The simile "snug as a gun" is deliberately provocative: it equates the instrument of writing with an instrument of violence, suggesting that the pen carries a destructive or revolutionary potential. The adjective "snug" implies comfort and familiarity, yet the comparison to a weapon introduces an undercurrent of tension. For an IB candidate, the crucial move is to note that this is not a casual comparison. Heaney, writing in the late 1960s in Northern Ireland, would have been acutely aware of the political connotations of weaponry. The pen is both a tool of creation and a potential instrument of force.
 
-**Examiner Commentary**: A strong response identifies the simile and explains its dual resonance. A weaker response simply notes "the pen is compared to a gun" without exploring why that particular comparison matters. The difference between bands 5--6 and bands 1--2 is precisely this movement from identification to interpretation.
+**Examiner Commentary**: A strong response identifies the simile and explains its dual resonance. A weaker response notes "the pen is compared to a gun" without exploring why that particular comparison matters. The difference between bands 5--6 and bands 1--2 is precisely this movement from identification to interpretation.
 
 ### Stanzas 2--3: The Sound of Digging
 

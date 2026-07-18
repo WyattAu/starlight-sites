@@ -191,7 +191,7 @@ Authors structure their arguments using recognisable organisational patterns:
 
 - Analysis over identification: Do not just name devices; explain their effect on the audience and
   their contribution to the author's purpose
-- Use specific textual evidence embedded naturally into your analysis
+- Use specific textual evidence embedded into your analysis
 - Connect every analytical point back to the thesis
 - Avoid plot summary; focus on how the author constructs meaning
 - Use strong analytical verbs: suggests, implies, conveys, underscores, emphasises, reveals,

@@ -67,7 +67,7 @@ $$F(\beta) = \inf_E [E - \beta^{-1} S(E)]$$
 
 ### 14.5 The Third Law of Thermodynamics from the Microcanonical Ensemble
 
-**Proposition 14.2 (Nernst's Theorem).** As $T \to 0$, the entropy of a system approaches a constant (typically zero for a non-degenerate ground state):
+**Proposition 14.2 (Nernst's Theorem).** As $T \to 0$, the entropy of a system approaches a constant (zero for a non-degenerate ground state):
 
 $$\lim_{T \to 0} S(E, V, N) = k_B \ln g_0$$
 

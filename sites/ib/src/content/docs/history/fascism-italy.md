@@ -158,7 +158,7 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 
 ## Assessment Connections
 
-For IB Paper 2, Fascist Italy is typically examined under **Topic 3 (Authoritarian States)**. Effective essay responses should:
+For IB Paper 2, Fascist Italy is examined under **Topic 3 (Authoritarian States)** in most exam sessions. Effective essay responses should:
 
 - Demonstrate detailed knowledge of specific policies and events.
 - Engage with historiographical debate (intentionalist vs structuralist, totalitarian vs authoritarian models).
