@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'HSC',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'HSC (Australia) revision notes covering Physics.',
 
       components: {
@@ -32,12 +32,45 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
-          label: 'HSC',
+          label: 'Mathematics',
           items: [
-            { label: 'HSC Physics Flashcards', slug: 'flashcards-physics' },
-            { label: 'Introduction to HSC/VCE Notes', slug: 'intro' },
+            {
+              autogenerate: {
+                directory: 'mathematics',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Physics',
+          items: [
+            {
+              autogenerate: {
+                directory: 'physics',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Chemistry',
+          items: [
+            {
+              autogenerate: {
+                directory: 'chemistry',
+              },
+            },
+          ],
+        },
+        {
+          label: 'English',
+          items: [
+            {
+              autogenerate: {
+                directory: 'english',
+              },
+            },
           ],
         },
       ],

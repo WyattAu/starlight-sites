@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'SAT',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'SAT revision notes covering Mathematics, Reading and Writing, and Science.',
 
       components: {
@@ -34,15 +34,33 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'SAT',
+          label: 'Mathematics',
           items: [
-            { label: 'Introduction', slug: 'intro' },
-            { label: 'Mathematics', slug: 'mathematics' },
-            { label: 'Reading & Writing', slug: 'reading-and-writing' },
-            { label: 'Advanced Strategies', slug: 'advanced-strategies' },
-            { label: 'Practice Math', slug: 'practice-math' },
-            { label: 'Practice Reading', slug: 'practice-reading' },
-            { label: 'Science Question Bank', slug: 'science-question-bank' },
+            {
+              autogenerate: {
+                directory: 'mathematics',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Reading',
+          items: [
+            {
+              autogenerate: {
+                directory: 'reading',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Writing',
+          items: [
+            {
+              autogenerate: {
+                directory: 'writing',
+              },
+            },
           ],
         },
       ],
@@ -95,7 +113,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'SAT',
-            description: 'SAT revision notes covering Mathematics, Reading and Writing, and Science.',
+            description:
+              'SAT revision notes covering Mathematics, Reading and Writing, and Science.',
             url: 'https://sat.wyattau.com',
             publisher: {
               '@type': 'Organization',

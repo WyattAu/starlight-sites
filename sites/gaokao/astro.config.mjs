@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Gaokao',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Gaokao (China) revision notes covering Mathematics.',
 
       components: {
@@ -32,12 +32,55 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
-          label: 'Gaokao',
+          label: 'Mathematics',
           items: [
-            { label: 'Gaokao Flashcards: Mathematics', slug: 'flashcards-mathematics' },
-            { label: 'Introduction to Gaokao Notes', slug: 'intro' },
+            {
+              autogenerate: {
+                directory: 'mathematics',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Physics',
+          items: [
+            {
+              autogenerate: {
+                directory: 'physics',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Chemistry',
+          items: [
+            {
+              autogenerate: {
+                directory: 'chemistry',
+              },
+            },
+          ],
+        },
+        {
+          label: 'English',
+          items: [
+            {
+              autogenerate: {
+                directory: 'english',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Chinese',
+          items: [
+            {
+              autogenerate: {
+                directory: 'chinese',
+              },
+            },
           ],
         },
       ],

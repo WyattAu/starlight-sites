@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'CBSE',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.',
 
       components: {
@@ -32,20 +32,35 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
-          label: 'CBSE',
+          label: 'Physics',
           items: [
-            { label: 'CBSE Chemistry Study Guide', slug: 'chemistry' },
-            { label: 'CBSE Flashcards: Chemistry Class 12', slug: 'flashcards-chemistry' },
-            { label: 'CBSE Flashcards: Mathematics Class 12', slug: 'flashcards-mathematics-class12' },
-            { label: 'CBSE Flashcards: Physics Class 12', slug: 'flashcards-physics-class12' },
-            { label: 'Introduction to CBSE Notes', slug: 'intro' },
-            { label: 'CBSE Mathematics Study Guide', slug: 'maths' },
-            { label: 'CBSE Physics Study Guide', slug: 'physics' },
-            { label: 'CBSE Practice: Chemistry Class 12', slug: 'practice-chemistry' },
-            { label: 'CBSE Practice: Mathematics Class 12', slug: 'practice-maths' },
-            { label: 'CBSE Practice: Physics Class 12', slug: 'practice-physics' },
+            {
+              autogenerate: {
+                directory: 'physics',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Chemistry',
+          items: [
+            {
+              autogenerate: {
+                directory: 'chemistry',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Mathematics',
+          items: [
+            {
+              autogenerate: {
+                directory: 'mathematics',
+              },
+            },
           ],
         },
       ],
@@ -98,7 +113,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'CBSE',
-            description: 'CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.',
+            description:
+              'CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.',
             url: 'https://cbse.wyattau.com',
             publisher: {
               '@type': 'Organization',
