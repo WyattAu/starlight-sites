@@ -152,3 +152,20 @@ Several experiments are probing physics beyond the Standard Model:
 | Euclid                   | Space telescope    | Dark energy, modified gravity           |
 | Future Circular Collider | CERN (proposed)    | Precision Higgs, new physics at 100 TeV |
 
+### 9.5 Common Mistakes
+
+**Mistake 1: Assuming that supersymmetry has been experimentally confirmed.**
+Supersymmetry is a theoretical extension of the Standard Model, but no supersymmetric particles have been observed at the LHC. Do not assume that SUSY is a established fact; it remains a hypothesis.
+
+**Mistake 2: Confusing the hierarchy problem with the cosmological constant problem.**
+The hierarchy problem is the puzzle of why the Higgs mass is so much smaller than the Planck scale. The cosmological constant problem is the puzzle of why the observed vacuum energy density is so much smaller than theoretical predictions. These are distinct problems, though both involve fine-tuning.
+
+**Mistake 3: Assuming that dark matter must be a supersymmetric particle.**
+While the lightest supersymmetric particle (LSP) is a dark matter candidate, dark matter could be something else entirely (such as an axion or a sterile neutrino). Do not assume that dark matter must be a SUSY particle.
+
+**Mistake 4: Forgetting that grand unification requires new physics.**
+The running gauge couplings of the Standard Model do not meet at a single point, suggesting that new physics is needed for grand unification. SUSY can help achieve unification, but other mechanisms are also possible. Do not assume that grand unification is automatic.
+
+**Mistake 5: Assuming that string theory is the only approach to quantum gravity.**
+String theory is one approach to quantum gravity, but there are other approaches (such as loop quantum gravity, causal dynamical triangulations, and asymptotic safety). Do not assume that string theory is the only viable theory of quantum gravity.
+

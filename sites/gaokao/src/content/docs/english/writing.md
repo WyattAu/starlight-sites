@@ -148,3 +148,100 @@ October 1st, 2026
 1. 给你的朋友写一封建议信，关于如何提高英语口语
 2. 根据所给段落续写一个完整的故事
 3. 以学生会名义写一则关于学校运动会的通知
+
+### 例题4：读后续写范例
+
+**题目：** 阅读下面短文，根据所给情节进行续写（两段）。
+
+"Sarah had always been afraid of the water. When her family moved to a lakeside town, she felt isolated as her classmates spent summers sailing and swimming. One day, her neighbour, an elderly woman named Mrs. Chen, noticed Sarah sitting alone by the lake and said, 'I was afraid of water too, once.'"
+
+**解答：**
+
+续写示范：
+
+第一段：
+"'What changed?' Sarah asked, looking up with curiosity. Mrs. Chen smiled gently and sat beside her on the wooden dock. 'When I was your age, I nearly drowned in a river. For years, I couldn't even look at water without trembling. Then one summer, my father took me to a quiet pond. He didn't force me in. He just sat with me, day after day, until the fear lost its power.' Mrs. Chen's eyes drifted across the shimmering lake. 'Fear is not something you fight. It is something you understand.'"
+
+第二段：
+"The next morning, Sarah found Mrs. Chen waiting by the shore with two fishing rods. 'Today, we fish,' she said simply. Sarah hesitated but took the rod. As they sat side by side, the gentle lapping of waves became almost musical. Gradually, Sarah's grip on the dock railing loosened. By the end of the week, she was wading ankle-deep in the shallows, laughing as the water swirled around her feet. She still couldn't swim, but she no longer sat alone on the dock. The lake was no longer her enemy — it was becoming her friend."
+
+**答案：** 见续写示范
+
+### 例题5：应用文写作——感谢信
+
+**题目：** 假如你是李华，你的外教Mr. Smith帮助你提高了英语写作水平，请给他写一封感谢信。
+
+**解答：**
+
+```
+Dear Mr. Smith,
+
+  I am writing to express my sincere gratitude for your guidance
+in improving my English writing skills over the past semester.
+
+  When I first enrolled in your class, I struggled to organise my
+ideas and often made grammatical errors that obscured my meaning.
+Your patient feedback on each essay, combined with your emphasis on
+clear structure and precise word choice, has transformed my approach
+to writing. I particularly valued your suggestion to read my work
+aloud before submitting it — a technique that has helped me identify
+awkward phrasing and improve the flow of my sentences.
+
+  As a result of your teaching, my writing grade has improved from
+a B to an A, and I now feel confident expressing complex ideas in
+English. I will carry these skills with me into university and
+beyond.
+
+  Thank you once again for your dedication and encouragement. I hope
+to keep in touch and share my future writing successes with you.
+
+Yours sincerely,
+Li Hua
+```
+
+**答案：** 见感谢信范文
+
+### 例题6：通知写作——英语角活动
+
+**题目：** 你校英语社将举办"英语电影配音大赛"，请以英语社的名义写一则通知。
+
+**解答：**
+
+```
+NOTICE
+
+  The English Club will hold an English Movie Dubbing Contest
+in the school lecture hall on Saturday, November 15th, 2026.
+The contest will begin at 2:00 PM and is expected to last
+approximately two hours.
+
+  All students are welcome to participate. Each team may consist
+of 2 to 4 members. Contestants should select a 3 to 5-minute
+scene from an English movie and perform a live dubbing in front
+of the audience. A panel of five judges will score performances
+based on pronunciation, fluency, expression, and teamwork.
+
+  Prizes will be awarded to the top three teams, and all
+participants will receive certificates of participation.
+Interested students should register with their team members at
+the English Club office (Room 305) before November 10th. For
+further information, please contact the English Club president,
+Li Hua.
+
+English Club
+November 1st, 2026
+```
+
+**答案：** 见通知范文
+
+## 深入理解
+
+### 高考英语写作的评分标准
+
+高考英语写作评分主要考虑以下方面：
+
+1. **内容完整性：** 是否覆盖了题目要求的所有要点
+2. **语言准确性：** 语法、拼写、标点是否正确
+3. **连贯性：** 文章逻辑是否清晰，连接词使用是否恰当
+4. **词汇丰富度：** 是否使用了多样化的词汇和句式
+5. **格式规范：** 书信格式、通知格式等是否正确

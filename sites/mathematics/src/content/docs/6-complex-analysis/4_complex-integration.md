@@ -151,3 +151,26 @@ $\int_\gamma e^{2z}\, dz = \frac{1}{2}(e^{2i} - e^{2})$.
 
 </details>
 
+### 4.7 Intuition: What Makes Complex Integration Special?
+
+Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a simply connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
+
+The Cauchy integral formula is the cornerstone: it says that the value of an analytic function at any interior point of a contour is completely determined by its values on the boundary. This is far stronger than anything in real analysis, where a function's values on an interval tell you nothing about its values elsewhere. The residue theorem, which computes integrals by summing contributions from singularities inside the contour, is a consequence of the Cauchy integral formula. These tools make it possible to evaluate many real integrals that are difficult or impossible by real methods alone.
+
+### 4.8 Common Mistakes
+
+**Mistake 1: Confusing the contour integral with the real line integral.**
+The complex integral $\int_\gamma f(z)\, dz$ is defined as $\int_a^b f(\gamma(t))\gamma'(t)\, dt$, which is a real integral of a complex-valued function. Do not confuse this with the real line integral $\int_\gamma f(x)\, dx$. The complex integral depends on the path $\gamma$, not just the endpoints.
+
+**Mistake 2: Forgetting that reversing orientation changes the sign.**
+If $\gamma$ is a contour from $a$ to $b$, then $-\gamma$ is the same contour traversed from $b$ to $a$. We have $\int_{-\gamma} f\, dz = -\int_\gamma f\, dz$. Forgetting this can lead to sign errors in calculations.
+
+**Mistake 3: Assuming that the integral of an analytic function over a closed contour is always zero.**
+The Cauchy-Goursat theorem states that the integral of an analytic function over a closed contour is zero only if the function is analytic inside the contour. If the function has singularities inside the contour, the integral may be non-zero. Use the residue theorem to compute such integrals.
+
+**Mistake 4: Misapplying the ML inequality.**
+The ML inequality states that $|\int_\gamma f(z)\, dz| \leq ML$, where $M$ is an upper bound for $|f(z)|$ on $\gamma$ and $L$ is the length of $\gamma$. Forgetting to find a tight upper bound $M$ or miscalculating the length $L$ can lead to incorrect estimates.
+
+**Mistake 5: Confusing the parameterization of a contour.**
+The value of the contour integral does not depend on the parameterization of the contour, only on the path traced out. However, different parameterizations can lead to different expressions for the integral. Always ensure that the parameterization is correct and that $\gamma'(t)$ is computed properly.
+

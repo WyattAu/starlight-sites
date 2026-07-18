@@ -160,3 +160,20 @@ At 1000 K, it is $10^{-5}$. Estimate the vacancy formation energy $E_v$.
 
 **Problem 6.** Show that the equilibrium concentration of Schottky defects in an ionic crystal
 MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-anion vacancy pair.
+
+### 9.5 Common Mistakes
+
+**Mistake 1: Assuming that defects are always detrimental.**
+While defects can degrade mechanical and electrical properties, they can also be beneficial. For example, doping (intentional substitutional defects) is essential for semiconductor devices. Dislocations enable plastic deformation. Do not assume that all defects are harmful.
+
+**Mistake 2: Confusing point defects with extended defects.**
+Point defects (vacancies, interstitials, substitutionals) are zero-dimensional, while extended defects (dislocations, grain boundaries, surfaces) are one-, two-, or three-dimensional. They have different effects on material properties. Do not confuse the two categories.
+
+**Mistake 3: Forgetting that the equilibrium vacancy concentration depends exponentially on temperature.**
+The vacancy concentration $n_v = N e^{-E_v/(k_B T)}$ increases exponentially with temperature. At room temperature, the concentration is very small, but at high temperatures it can be significant. Do not assume that the vacancy concentration is constant.
+
+**Mistake 4: Assuming that dislocations are always mobile.**
+Dislocations can be pinned by impurities, other dislocations, or grain boundaries. The mobility of dislocations depends on temperature, stress, and the presence of obstacles. Do not assume that dislocations can move freely under any conditions.
+
+**Mistake 5: Confusing the Burgers vector with the lattice vector.**
+The Burgers vector $\mathbf{b}$ describes the magnitude and direction of the lattice distortion caused by a dislocation. It is not necessarily equal to a lattice vector; it can be a fraction of a lattice vector (partial dislocations). Do not assume that the Burgers vector is always a lattice vector.

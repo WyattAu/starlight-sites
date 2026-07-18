@@ -152,7 +152,30 @@ Thus $V \cap f(A) \neq \varnothing$, so $y \in \overline{f(A)}$. Conversely, if 
 let $C \subseteq Y$ be closed. Then $f(\overline{f^{-1}(C)}) \subseteq \overline{f(f^{-1}(C))} \subseteq \overline{C} = C$,
 so $\overline{f^{-1}(C)} \subseteq f^{-1}(C)$, hence $f^{-1}(C)$ is closed. $\blacksquare$
 
-### 1.11 Practice Problems
+### 1.11 Intuition: What Is Topology Really About?
+
+Topology is geometry without measurement. In geometry, you care about distances, angles, and areas. In topology, you care only about which points are "near" which other points, and whether a space has holes or is split into separate pieces. A coffee cup and a donut are topologically identical because one can be continuously deformed into the other without cutting or gluing, even though their geometric properties differ completely.
+
+The formal definition of a topology captures this by specifying which subsets are "open," which means they contain a neighbourhood around each of their points. The axioms for a topology are minimal: they guarantee that you can take arbitrary unions and finite intersections of open sets while staying within the collection. This abstraction allows topology to apply to spaces where the usual notions of distance make no sense, such as the set of all continuous functions or the space of solutions to a differential equation. The fundamental insight is that continuity, convergence, and connectedness are topological concepts, not metric ones.
+
+### 1.12 Common Mistakes
+
+**Mistake 1: Confusing open and closed sets.**
+A set is not simply "open" or "closed" in an absolute sense. A set can be both open and closed (clopen), neither open nor closed, or one but not the other. For example, in $\mathbb{R}$ with the standard topology, $[0, 1)$ is neither open nor closed, while $\mathbb{R}$ itself is both open and closed. Always check the definition relative to the specific topology.
+
+**Mistake 2: Assuming all topologies are metric topologies.**
+Not every topological space arises from a metric. The cofinite topology on an infinite set is not Hausdorff and cannot be induced by any metric. When working with general topological spaces, do not assume metric-space intuitions (like unique shortest distances) apply.
+
+**Mistake 3: Forgetting that arbitrary unions of open sets are open, but only finite intersections.**
+The topology axioms require that arbitrary unions of open sets remain open, but only finite intersections of open sets are guaranteed to be open. The intersection of infinitely many open sets can be closed, such as $\bigcap_{n=1}^\infty (-1/n, 1/n) = \{0\}$.
+
+**Mistake 4: Confusing the preimage with the image when checking continuity.**
+A function $f: X \to Y$ is continuous if the preimage $f^{-1}(V)$ is open for every open $V \subseteq Y$. It is not required that the image $f(U)$ be open for open $U$. The image of an open set under a continuous function need not be open.
+
+**Mistake 5: Assuming that homeomorphic spaces must look identical.**
+Homeomorphism preserves topological properties but not geometric ones. A coffee cup and a donut are homeomorphic because they both have one hole. Do not assume that homeomorphic spaces have the same shape, size, or curvature.
+
+### 1.12 Practice Problems
 
 1. Show that the standard topology on $\mathbb{R}$ is the same as the metric topology from $d(x, y) = |x-y|$.
 2. Prove that continuous functions preserve compactness: if $f$ is continuous and $K$ is compact,

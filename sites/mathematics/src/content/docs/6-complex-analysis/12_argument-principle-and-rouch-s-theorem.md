@@ -139,3 +139,20 @@ splitting is needed.
 $1 < |z| < 2$.
 
 **Problem 8.** Show that $e^z = 3z$ has exactly two solutions in $|z| < 2$.
+
+### 12.5 Common Mistakes
+
+**Mistake 1: Forgetting to count multiplicities in the argument principle.**
+The argument principle counts zeros and poles with multiplicities. A zero of order $m$ counts as $m$ zeros, and a pole of order $n$ counts as $n$ poles. Forgetting to count multiplicities leads to incorrect results.
+
+**Mistake 2: Assuming that Rouché's theorem requires $|f(z)| > |g(z)|$ everywhere.**
+Rouché's theorem requires $|f(z)| > |g(z)|$ on the contour $\gamma$, not everywhere in the domain. The inequality must hold on the entire contour, but it can fail inside the contour.
+
+**Mistake 3: Confusing the roles of $f$ and $g$ in Rouché's theorem.**
+In Rouché's theorem, $f$ is the dominant term and $g$ is the perturbation. The theorem states that $f$ and $f + g$ have the same number of zeros. Swapping $f$ and $g$ can lead to incorrect conclusions if the inequality $|f(z)| > |g(z)|$ does not hold.
+
+**Mistake 4: Forgetting that the argument principle requires no zeros or poles on the contour.**
+The argument principle requires that $f$ has no zeros or poles on the contour $\gamma$. If there are zeros or poles on $\gamma$, the integral is not defined (or requires a principal value). Always check that the contour avoids zeros and poles.
+
+**Mistake 5: Misapplying Rouché's theorem to non-analytic functions.**
+Rouché's theorem requires that $f$ and $g$ be analytic inside and on the contour. If either function is not analytic, the theorem does not apply. Always verify analyticity before using Rouché's theorem.

@@ -110,7 +110,13 @@ surjective Ring homomorphism with kernel $n\mathbb{Z}$.
 a fixed $a \in \mathbb{R}$ is a surjective ring homomorphism with kernel
 $\{f \in \mathbb{R}[x] : f(a) = 0\} = (x - a)$.
 
-### 8.7 Worked Examples: Ring Homomorphisms
+### 8.7 Intuition: What Is a Ring?
+
+A ring is the algebraic structure that captures what it means to do arithmetic. Where a group captures symmetry (one operation), a ring captures the idea of having both addition and multiplication that interact through distributivity. The integers $\mathbb{Z}$ are the prototypical ring: you can add, subtract, and multiply, but you cannot always divide.
+
+The key distinction within rings is whether division is possible. A field allows division by every non-zero element, like the rational or real numbers. An integral domain prevents "zero divisors," meaning $ab = 0$ implies $a = 0$ or $b = 0$ — a reasonable expectation inherited from ordinary arithmetic. Non-commutative rings, like matrix rings, reveal that multiplication need not be commutative while still satisfying all other ring axioms. Ring homomorphisms preserve both addition and multiplication, which is stronger than group homomorphisms that only preserve one operation. The kernel of a ring homomorphism is always an ideal, which is the ring-theoretic analogue of a normal subgroup, enabling quotient constructions that build new rings from old ones.
+
+### 8.8 Worked Examples: Ring Homomorphisms
 
 **Problem.** Let $\phi : \mathbb{Z}[i] \to \mathbb{Z}/5\mathbb{Z}$ be defined by
 $\phi(a + bi) = (a + 2b) + 5\mathbb{Z}$. Show that $\phi$ is a surjective ring homomorphism and find

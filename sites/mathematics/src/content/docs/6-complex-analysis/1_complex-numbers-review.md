@@ -219,3 +219,20 @@ ratio $\omega$.
 
 </details>
 
+### 1.10 Common Mistakes
+
+**Mistake 1: Assuming that complex numbers can be ordered.**
+There is no total ordering on $\mathbb{C}$ compatible with the field operations. You cannot say $i > 0$ or $i < 0$ because $i^2 = -1$ would then imply $-1 > 0$ or $-1 < 0$, both of which contradict the ordering axioms. Never attempt to compare complex numbers using inequalities.
+
+**Mistake 2: Confusing the complex conjugate with the reciprocal.**
+The complex conjugate $\bar{z} = a - bi$ is not the same as the reciprocal $1/z = \bar{z}/|z|^2$. For example, if $z = 3 + 4i$, then $\bar{z} = 3 - 4i$ but $1/z = (3 - 4i)/25$. The conjugate reflects across the real axis, while the reciprocal also scales by $1/|z|^2$.
+
+**Mistake 3: Forgetting that $|z|^2 = z\bar{z}$, not $z^2$.**
+The modulus squared is $|z|^2 = a^2 + b^2 = z\bar{z}$. Do not confuse this with $z^2 = (a + bi)^2 = a^2 - b^2 + 2abi$, which is a complex number in general. The modulus is always real and non-negative.
+
+**Mistake 4: Assuming that $\sqrt{z_1 z_2} = \sqrt{z_1} \sqrt{z_2}$ for complex numbers.**
+This property holds for non-negative real numbers but fails for complex numbers in general. For example, $\sqrt{(-1)(-1)} = \sqrt{1} = 1$, but $\sqrt{-1} \sqrt{-1} = i \cdot i = -1$. Be careful with branch cuts when taking square roots of complex numbers.
+
+**Mistake 5: Confusing the argument of a complex number with a unique value.**
+The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $\theta + 2\pi k$ for any integer $k$. The principal argument $\mathrm{Arg}(z)$ is defined to be in $(-\pi, \pi]$, but be careful when adding or subtracting arguments, as the result may need to be adjusted by $2\pi$.
+

@@ -147,3 +147,20 @@ $\lambda$. Find the distribution of $X + Y$ and $X/(X + Y)$. Are they independen
 
 **Problem 7.** Show that $\mathrm{Var}(X) = E[\mathrm{Var}(X|Y)] + \mathrm{Var}(E[X|Y])$ (the
 variance decomposition formula).
+
+### 3.12 Common Mistakes
+
+**Mistake 1: Confusing independence with pairwise independence.**
+Two random variables $X$ and $Y$ are independent if their joint distribution factors as $F_{X,Y}(x, y) = F_X(x)F_Y(y)$. For three or more variables, pairwise independence (each pair is independent) does not imply mutual independence. There exist random variables $X, Y, Z$ that are pairwise independent but not mutually independent.
+
+**Mistake 2: Assuming that zero covariance implies independence.**
+If $X$ and $Y$ are independent, then $\mathrm{Cov}(X, Y) = 0$, but the converse is false. Uncorrelated variables can be dependent. For example, let $X$ be uniform on $\{-1, 0, 1\}$ and $Y = X^2$. Then $\mathrm{Cov}(X, Y) = 0$, but $X$ and $Y$ are not independent.
+
+**Mistake 3: Forgetting that the marginal distribution does not determine the joint distribution.**
+Knowing the marginal distributions $f_X(x)$ and $f_Y(y)$ does not determine the joint distribution $f_{X,Y}(x, y)$. The joint distribution also depends on the dependence structure between $X$ and $Y$. Two different joint distributions can have the same marginals.
+
+**Mistake 4: Confusing the correlation coefficient with the slope of a regression line.**
+The correlation coefficient $\rho(X, Y)$ measures the strength of the linear relationship between $X$ and $Y$, but it is not the same as the slope of the regression line of $Y$ on $X$. The slope is $\rho(X, Y) \cdot \sigma_Y / \sigma_X$, which depends on the standard deviations.
+
+**Mistake 5: Assuming that linear regression is appropriate for nonlinear relationships.**
+Linear regression fits a straight line to the data, but if the relationship between $X$ and $Y$ is nonlinear, the regression line may be misleading. Always check the scatterplot and consider nonlinear models if the relationship appears curved.

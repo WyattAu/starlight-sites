@@ -149,3 +149,20 @@ law is measured from the _plane_, Not from the normal.
 
 
 </aside>
+
+### 3.7 Common Mistakes
+
+**Mistake 1: Confusing the angle in Bragg's law with the angle of incidence.**
+In Bragg's law $2d\sin\theta = n\lambda$, $\theta$ is the angle between the incident beam and the crystal plane, not the angle between the beam and the normal to the plane. Do not confuse the two; they differ by $90^\circ$.
+
+**Mistake 2: Assuming that all planes produce diffraction peaks.**
+Not all crystal planes produce diffraction peaks; some may have zero structure factor due to destructive interference. For example, in BCC crystals, planes with $h + k + l$ odd have zero structure factor. Do not assume that every plane will produce a peak.
+
+**Mistake 3: Forgetting that X-ray diffraction requires coherent scattering.**
+X-ray diffraction requires coherent elastic scattering from the crystal lattice. Inelastic scattering (Compton scattering) does not contribute to diffraction peaks. Do not assume that all scattered X-rays contribute to diffraction.
+
+**Mistake 4: Confusing the Ewald sphere with the Brillouin zone.**
+The Ewald sphere is a sphere in reciprocal space with radius $k = 2\pi/\lambda$, while the Brillouin zone is the Wigner-Seitz cell of the reciprocal lattice. Diffraction occurs when the Ewald sphere intersects a reciprocal lattice point. Do not confuse the two concepts.
+
+**Mistake 5: Assuming that powder diffraction gives single-crystal information.**
+Powder diffraction averages over all orientations of crystallites, producing rings rather than spots. Single-crystal diffraction gives more detailed information about the crystal structure. Do not assume that powder diffraction gives the same information as single-crystal diffraction.

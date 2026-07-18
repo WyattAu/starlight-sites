@@ -118,7 +118,13 @@ $\blacksquare$
 
 </details>
 
-### 4.7 Worked Example: Continuity of a Piecewise Function
+### 4.7 Intuition: What Is a Homeomorphism?
+
+A homeomorphism is the topological version of "the same shape." Two spaces are homeomorphic if there exists a continuous bijection between them whose inverse is also continuous. Informally, this means you can stretch, bend, and deform one space into the other, but you cannot tear or glue. A coffee cup and a donut are homeomorphic because they both have exactly one hole; a sphere and a torus are not homeomorphic because they have different numbers of holes.
+
+The key insight is that homeomorphisms preserve topological properties such as compactness, connectedness, and the fundamental group. Properties that are not preserved by homeomorphisms, like "boundedness" or "being a subset of $\mathbb{R}^3$," are geometric rather than topological. The pasting lemma captures a practical criterion for constructing continuous functions: if you define a function separately on two closed (or open) pieces that agree on the overlap, the result is continuous. This is why absolute value, piecewise linear functions, and most "glued together" constructions in analysis turn out to be continuous.
+
+### 4.8 Worked Example: Continuity of a Piecewise Function
 
 **Problem.** Determine whether $f : \mathbb{R} \to \mathbb{R}$ defined by $f(x) = x\sin(1/x)$ for
 $x \neq 0$ and $f(0) = 0$ is continuous at $x = 0$.
@@ -134,4 +140,21 @@ forces the oscillation amplitude to decay to zero.
 $\blacksquare$
 
 </details>
+
+### 4.8 Common Mistakes
+
+**Mistake 1: Assuming that a continuous bijection is automatically a homeomorphism.**
+A continuous bijection is not necessarily a homeomorphism. The inverse function must also be continuous. For example, the map $f: [0, 2\pi) \to S^1$ defined by $f(t) = (\cos t, \sin t)$ is a continuous bijection, but its inverse is not continuous at $(1, 0)$. A bijective continuous map is a homeomorphism if and only if it is open (or equivalently, closed).
+
+**Mistake 2: Confusing open maps with continuous maps.**
+A function can be continuous without being open, and vice versa. The constant function $f(x) = c$ is continuous but not open (the image of any open set is $\{c\}$, which is not open). The projection $\pi: \mathbb{R}^2 \to \mathbb{R}$ is open but not closed (the image of the closed hyperbola $\{(x, y) : xy = 1\}$ is $\mathbb{R} \setminus \{0\}$, which is not closed).
+
+**Mistake 3: Forgetting that homeomorphism is an equivalence relation.**
+Homeomorphism is reflexive (the identity map is a homeomorphism), symmetric (the inverse of a homeomorphism is a homeomorphism), and transitive (the composition of homeomorphisms is a homeomorphism). Failing to check any of these can lead to errors when classifying spaces up to homeomorphism.
+
+**Mistake 4: Assuming that topological properties are preserved by continuous maps.**
+Only homeomorphisms preserve all topological properties. A continuous map need not preserve compactness, connectedness, or separation axioms in both directions. For example, a continuous bijection from a compact space to a Hausdorff space is a homeomorphism, but this is a special case, not a general rule.
+
+**Mistake 5: Misapplying the pasting lemma.**
+The pasting lemma requires that the two pieces agree on their intersection and that both pieces are either both closed or both open. If one piece is closed and the other is open, or if they disagree on the intersection, the resulting function may not be continuous.
 

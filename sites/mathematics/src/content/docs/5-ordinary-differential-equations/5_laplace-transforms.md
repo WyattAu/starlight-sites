@@ -342,7 +342,13 @@ $x' = \frac{8}{3}e^{2t} + \frac{1}{3}e^{-t}$, $3x - 2y = 4e^{2t} - e^{-t} - \fra
 
 </details>
 
-### 5.17 Proof Sketch: Picard Iteration
+### 5.17 Intuition: Why Are Laplace Transforms Useful?
+
+The Laplace transform converts differential equations into algebraic equations. By transforming a function $f(t)$ into $F(s) = \int_0^\infty e^{-st}f(t)\,dt$, differentiation in the time domain becomes multiplication by $s$ in the frequency domain. This means a linear ODE with constant coefficients becomes a polynomial equation in $s$, which can be solved algebraically and then inverted to recover the solution.
+
+The Laplace transform is particularly powerful for several reasons. It handles discontinuous forcing functions (step functions, impulses) naturally through the second shifting theorem and the convolution theorem. It converts initial value problems into algebraic problems without needing to find the homogeneous solution first. The convolution theorem says that convolution in time becomes multiplication in the frequency domain, which is why the Laplace transform is the tool of choice for systems theory, control engineering, and circuit analysis. The transform exists for functions of exponential order, which covers essentially all physically reasonable inputs.
+
+### 5.18 Proof Sketch: Picard Iteration
 
 The Picard-Lindelöf theorem can be proved constructively via **Picard iteration**. For the IVP
 $y' = f(x, y)$, $y(x_0) = y_0$Define the sequence

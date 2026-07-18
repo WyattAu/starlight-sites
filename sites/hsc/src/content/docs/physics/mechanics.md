@@ -103,3 +103,68 @@ $$6 = 2 + 3v_2 \Rightarrow v_2 = \frac{4}{3} \approx 1.33\,\text{m/s}$$
 1. A car accelerates from rest at $2\,\text{m/s}^2$ for $5\,\text{s}$. Find the distance covered.
 2. A $10\,\text{kg}$ object is pulled up a $30°$ incline with a force of $80\,\text{N}$. Find the acceleration (frictionless).
 3. Two objects of mass $4\,\text{kg}$ and $6\,\text{kg}$ collide head-on. The $4\,\text{kg}$ object was moving at $5\,\text{m/s}$ and the $6\,\text{kg}$ object at $-3\,\text{m/s}$. After the collision, the $4\,\text{kg}$ object moves at $-1\,\text{m/s}$. Find the final velocity of the $6\,\text{kg}$ object.
+
+### Example 4: Work and Energy
+
+**Problem:** A $20\,\text{kg}$ block is pushed $10\,\text{m}$ along a horizontal surface by a $50\,\text{N}$ force at $30°$ above the horizontal. The coefficient of kinetic friction is $0.2$. Find the work done by each force and the net work.
+
+**Solution:**
+
+Step 1: Work done by applied force:
+$$W_F = Fd\cos\theta = 50 \times 10 \times \cos 30° = 50 \times 10 \times 0.866 = 433\,\text{J}$$
+
+Step 2: Normal force: $N = mg - F\sin\theta = 20 \times 10 - 50 \times \sin 30° = 200 - 25 = 175\,\text{N}$
+
+Step 3: Friction force: $f = \mu N = 0.2 \times 175 = 35\,\text{N}$
+
+Step 4: Work done by friction: $W_f = -f \times d = -35 \times 10 = -350\,\text{J}$
+
+Step 5: Work done by gravity and normal force is zero (perpendicular to displacement).
+
+Step 6: Net work: $W_{\text{net}} = 433 - 350 = 83\,\text{J}$
+
+**Answer:** Net work is $83\,\text{J}$
+
+### Example 5: Projectile Motion with Height
+
+**Problem:** A ball is thrown from a $20\,\text{m}$ cliff at $25\,\text{m/s}$ at $45°$ above the horizontal. Find the horizontal range ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Components: $v_{0x} = 25\cos 45° = 17.68\,\text{m/s}$, $v_{0y} = 25\sin 45° = 17.68\,\text{m/s}$
+
+Step 2: Vertical displacement: $s = -20\,\text{m}$ (below starting point)
+
+Step 3: Using $s = v_{0y}t - \frac{1}{2}gt^2$:
+$$-20 = 17.68t - 5t^2$$
+$$5t^2 - 17.68t - 20 = 0$$
+
+Step 4: Solving: $t = \frac{17.68 + \sqrt{17.68^2 + 400}}{10} = \frac{17.68 + 26.83}{10} = 4.45\,\text{s}$
+
+Step 5: Range: $R = v_{0x} \times t = 17.68 \times 4.45 = 78.7\,\text{m}$
+
+**Answer:** The horizontal range is approximately $78.7\,\text{m}$
+
+### Example 6: Elastic Collision
+
+**Problem:** A $3\,\text{kg}$ ball moving at $4\,\text{m/s}$ collides elastically with a $1\,\text{kg}$ ball at rest. Find the velocities after collision.
+
+**Solution:**
+
+For elastic collisions:
+$$v_1' = \frac{m_1 - m_2}{m_1 + m_2}v_1 = \frac{3-1}{3+1} \times 4 = \frac{2}{4} \times 4 = 2\,\text{m/s}$$
+
+$$v_2' = \frac{2m_1}{m_1 + m_2}v_1 = \frac{2 \times 3}{3+1} \times 4 = \frac{6}{4} \times 4 = 6\,\text{m/s}$$
+
+**Answer:** The $3\,\text{kg}$ ball continues at $2\,\text{m/s}$ and the $1\,\text{kg}$ ball moves at $6\,\text{m/s}$
+
+## Why This Matters
+
+Mechanics is the foundation of physics and engineering. From designing bridges and vehicles to understanding planetary motion, the principles of Newton's laws, energy conservation, and momentum are universally applicable.
+
+## Additional Exam Tips
+
+5. For problems involving height, always define a coordinate system and be consistent with signs
+6. Kinetic energy is always positive; work can be positive or negative
+7. In elastic collisions, both momentum and kinetic energy are conserved
+8. Use energy methods when speed and height are involved — they are often simpler than force methods

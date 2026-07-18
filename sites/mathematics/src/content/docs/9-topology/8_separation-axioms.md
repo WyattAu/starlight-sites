@@ -157,3 +157,20 @@ $T_4$ space.
 
 **Problem 8.** Prove that a space is Hausdorff if and only if the diagonal
 $\Delta = \{(x, x) : x \in X\}$ is closed in $X \times X$.
+
+### 8.16 Common Mistakes
+
+**Mistake 1: Assuming that all separation axioms are independent.**
+The separation axioms form a hierarchy: $T_4 \implies T_3 \implies T_2 \implies T_1 \implies T_0$. A space that is $T_3$ is automatically $T_2$, $T_1$, and $T_0$. Do not assume that a space can be $T_3$ without being $T_2$.
+
+**Mistake 2: Confusing regularity with normality.**
+Regularity ($T_3$) separates points from closed sets, while normality ($T_4$) separates disjoint closed sets from each other. A space can be regular without being normal. For example, the Sorgenfrey line is regular but not normal.
+
+**Mistake 3: Assuming that subspaces of Hausdorff spaces are Hausdorff.**
+The subspace of a Hausdorff space is Hausdorff. However, the product of Hausdorff spaces is Hausdorff, but the quotient of a Hausdorff space need not be Hausdorff. Do not assume that Hausdorffness is preserved under all constructions.
+
+**Mistake 4: Forgetting that compact subsets of Hausdorff spaces are closed.**
+In a Hausdorff space, every compact subset is closed. This is a key property that is often used to prove that certain sets are closed. However, the converse is not true: a closed subset of a Hausdorff space need not be compact (e.g., $\mathbb{R}$ is closed in itself but not compact).
+
+**Mistake 5: Assuming that $T_1$ implies $T_2$.**
+A $T_1$ space need not be $T_2$. The cofinite topology on an infinite set is $T_1$ (every singleton is closed) but not $T_2$ (any two nonempty open sets intersect). Do not assume that $T_1$ implies Hausdorff.

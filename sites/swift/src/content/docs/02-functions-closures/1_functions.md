@@ -682,6 +682,129 @@ m[0, 1] = 5.0
 print(m[0, 1])  // 5.0
 ```
 
+## Worked Examples
+
+### Example 1: Curried Function for Configuration
+
+**Problem:** Create a curried function that builds a URL request from a base URL, path, and headers. Each step should be independently reusable.
+
+```swift
+func makeRequest(base: String) -> (String) -> ([(String, String)]) -> URLRequest {
+    return { path in
+        return { headers in
+            let url = URL(string: base + path)!
+            var request = URLRequest(url: url)
+            for (key, value) in headers {
+                request.addValue(value, forHTTPHeaderField: key)
+            }
+            return request
+        }
+    }
+}
+
+let apiRequest = makeRequest(base: "https://api.example.com")
+let usersRequest = apiRequest("/users")([("Authorization", "Bearer token123")])
+print(usersRequest.url?.absoluteString ?? "")
+// https://api.example.com/users
+```
+
+**Explanation:** Currying transforms a multi-parameter function into a chain of single-parameter functions. Each intermediate function can be stored and reused independently. This pattern is useful for building configurable factories where some parameters are fixed early and others are provided later.
+
+---
+
+### Example 2: Closure-Based Retry with Exponential Backoff
+
+**Problem:** Write a higher-order function that retries an async operation with exponential backoff, accepting a custom retry handler via a closure parameter.
+
+```swift
+func withRetry<T>(
+    maxAttempts: Int,
+    initialDelay: TimeInterval,
+    operation: @escaping () async throws -> T,
+    onRetry: ((Int, Error) -> Void)? = nil
+) async throws -> T {
+    var lastError: Error?
+    var delay = initialDelay
+
+    for attempt in 1...maxAttempts {
+        do {
+            return try await operation()
+        } catch {
+            lastError = error
+            onRetry?(attempt, error)
+            if attempt < maxAttempts {
+                try await Task.sleep(nanoseconds: UInt64(delay * 1_000_000_000))
+                delay *= 2
+            }
+        }
+    }
+    throw lastError!
+}
+
+// Usage
+let result = try await withRetry(maxAttempts: 3, initialDelay: 1.0, operation: {
+    try await fetchUserProfile(id: 42)
+}, onRetry: { attempt, error in
+    print("Attempt \(attempt) failed: \(error)")
+})
+```
+
+**Explanation:** The function accepts `operation` as an `@escaping` closure because it is called asynchronously across `Task.sleep` boundaries. The optional `onRetry` closure provides a hook for logging or metrics without affecting retry logic. Exponential backoff doubles the delay after each failure.
+
+---
+
+### Example 3: Type-Safe Event Emitter with Closures
+
+**Problem:** Implement an event emitter that uses closures as handlers, supporting typed events and allowing handlers to be registered and removed.
+
+```swift
+class EventEmitter<EventType: Hashable> {
+    private var handlers: [EventType: [String: (Any) -> Void]] = [:]
+    private var counter = 0
+
+    func on<T>(_ event: EventType, handler: @escaping (T) -> Void) -> String {
+        let id = "handler_\(counter)"
+        counter += 1
+        handlers[event, default: :][id] = { value in
+            guard let typed = value as? T else { return }
+            handler(typed)
+        }
+        return id
+    }
+
+    func off(_ event: EventType, id: String) {
+        handlers[event]?.removeValue(forKey: id)
+    }
+
+    func emit<T>(_ event: EventType, _ value: T) {
+        handlers[event]?.values.forEach { $0(value) }
+    }
+}
+
+// Usage
+enum AppEvent {
+    case login, logout, settingsChanged
+}
+
+let emitter = EventEmitter<String>()
+let loginId = emitter.on("login") { (name: String) in
+    print("Welcome, \(name)!")
+}
+emitter.on("login") { (name: String) in
+    print("Audit: \(name) logged in")
+}
+
+emitter.emit("login", "Alice")
+// Welcome, Alice!
+// Audit: Alice logged in
+
+emitter.off("login", id: loginId)
+emitter.emit("login", "Bob")
+// Audit: Bob logged in
+```
+
+**Explanation:** The generic `EventType` parameter allows the emitter to be keyed by any hashable type (strings, enums, etc.). Each handler is stored with a unique string ID for later removal. The internal storage uses `(Any) -> Void` with type casting, providing type safety at the public API boundary while maintaining flexibility internally.
+
 ## Summary
 
 Swift functions are first-class values that can be stored, passed, and returned. Closures provide

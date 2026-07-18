@@ -1,21 +1,94 @@
 ---
 title: "Mechanics"
-description: "CBSE Class 12 physics: Mechanics"
+description: "CBSE Class 12 physics: Newton's laws, work-energy theorem, rotational motion, and gravitation."
 ---
 
 # Mechanics
 
-Study notes for CBSE Class 12 physics - Mechanics.
+Mechanics is the branch of physics dealing with motion and the forces that cause it. It encompasses Newton's laws of motion, work and energy, rotational dynamics, and gravitation.
 
 ## Key Concepts
 
-- Core definitions and principles
-- Worked examples with step-by-step solutions
-- Practice problems with answers
-- Common exam patterns and tips
+- Newton's second law: $\vec{F}_{net} = m\vec{a}$
+- Work done: $W = \vec{F} \cdot \vec{d} = Fd\cos\theta$
+- Kinetic energy: $K = \frac{1}{2}mv^2$
+- Potential energy (gravitational): $U = mgh$
+- Work-energy theorem: $W_{net} = \Delta K$
+- Conservation of energy: $K_i + U_i = K_f + U_f$
+- Torque: $\tau = rF\sin\theta$
+- Moment of inertia: $I = \sum m_i r_i^2$
+- Rotational dynamics: $\tau = I\alpha$
+- Angular momentum: $L = I\omega$
+- Gravitational PE: $U = -\frac{GMm}{r}$
 
-## Resources
+## Worked Example 1 — Projectile Motion
 
-- NCERT textbook reference
-- Previous year question papers
-- Sample problems with solutions
+**Problem:** A ball is thrown at $30 \, \text{m/s}$ at $60^\circ$ to the horizontal. Find the range and maximum height.
+
+**Solution:**
+
+Components:
+$$v_{0x} = 30\cos 60^\circ = 15 \, \text{m/s}, \quad v_{0y} = 30\sin 60^\circ = 25.98 \, \text{m/s}$$
+
+Maximum height:
+$$H = \frac{v_{0y}^2}{2g} = \frac{(25.98)^2}{2 \times 9.8} = \frac{675}{19.6} = 34.44 \, \text{m}$$
+
+Range:
+$$R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \frac{900 \times 0.866}{9.8} = 79.5 \, \text{m}$$
+
+**Common mistake:** Using $\sin 2\theta$ with $\theta = 60^\circ$ gives $\sin 120^\circ$, not $\sin 60^\circ$.
+
+## Worked Example 2 — Work-Energy with Friction
+
+**Problem:** A 5 kg block slides down a rough incline of $30^\circ$ from rest over 4 m. The coefficient of kinetic friction is 0.2. Find the speed at the bottom.
+
+**Solution:**
+
+Work done by gravity:
+$$W_g = mgd\sin\theta = 5 \times 9.8 \times 4 \times \sin 30^\circ = 5 \times 9.8 \times 4 \times 0.5 = 98 \, \text{J}$$
+
+Work done by friction:
+$$W_f = -\mu_k mg\cos\theta \cdot d = -0.2 \times 5 \times 9.8 \times \cos 30^\circ \times 4$$
+$$= -0.2 \times 5 \times 9.8 \times 0.866 \times 4 = -33.95 \, \text{J}$$
+
+Net work:
+$$W_{net} = 98 - 33.95 = 64.05 \, \text{J}$$
+
+By work-energy theorem:
+$$W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt{25.62} = 5.06 \, \text{m/s}$$
+
+**Common mistake:** Forgetting to include the $\cos\theta$ factor when calculating the normal force on an incline.
+
+## Worked Example 3 — Rotational Motion
+
+**Problem:** A solid disc of mass 2 kg and radius 0.3 m rolls without slipping down an incline from height 2 m. Find its speed at the bottom.
+
+**Solution:**
+
+Conservation of energy:
+$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+
+For a disc, $I = \frac{1}{2}mR^2$ and $\omega = v/R$:
+$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{1}{2}mR^2 \cdot \frac{v^2}{R^2} = \frac{1}{2}mv^2 + \frac{1}{4}mv^2 = \frac{3}{4}mv^2$$
+
+$$v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4 \times 9.8 \times 2}{3}} = \sqrt{26.13} = 5.11 \, \text{m/s}$$
+
+**Common mistake:** Forgetting that rolling objects have both translational and rotational kinetic energy.
+
+## Practice Problems
+
+1. A 10 kg object is thrown vertically upward at $20 \, \text{m/s}$. Find the maximum height and total time of flight.
+2. A force of 50 N acts at $30^\circ$ to the horizontal on a 5 kg block. Find the acceleration if $\mu_k = 0.1$.
+3. A ring of mass 3 kg and radius 0.5 m rotates at $10 \, \text{rad/s}$. Find its rotational kinetic energy.
+
+## Why This Matters
+
+Mechanics forms the foundation of all physics. Understanding Newton's laws, energy conservation, and rotational dynamics is essential for engineering, aerospace, robotics, and any field involving motion and forces.
+
+## Common Exam Patterns
+
+- Always draw free-body diagrams before applying Newton's second law
+- For projectile motion, separate horizontal and vertical components
+- Energy methods are often simpler than force methods for problems involving speed and height
+- Rotational problems require identifying the correct moment of inertia for the geometry
+- Gravitational potential energy is negative and approaches zero at infinity

@@ -117,7 +117,13 @@ Compact $\Rightarrow$ complete and totally bounded. Complete + totally bounded $
 - **Functional analysis:** $C([a,b])$ with the sup norm is a complete metric space, providing the
   setting for the Stone-Weierstrass approximation theorem.
 
-### 7.9 Worked Examples
+### 7.9 Intuition: What Do Metric Spaces Add?
+
+A metric space formalises the notion of distance. It takes the key properties of distance in $\mathbb{R}^n$ (non-negativity, symmetry, triangle inequality) and axiomatises them, allowing you to study convergence and continuity in any setting where a notion of distance makes sense. The Euclidean metric is the most familiar, but other metrics like the taxicab metric ($d_1$) or the maximum metric ($d_\infty$) give different notions of "closeness" while inducing the same topology on $\mathbb{R}^n$.
+
+Completeness is the metric-space analogue of the completeness axiom for $\mathbb{R}$. A complete metric space is one where Cauchy sequences converge, meaning there are no "missing limits." The Banach fixed-point theorem is the most important consequence: any contraction mapping on a complete metric space has a unique fixed point, and it can be found by iteration. This single theorem justifies Newton's method, Picard iteration for ODEs, and the contraction mapping principle in functional analysis. The Hausdorff distance measures how far two compact sets are from each other, providing a metric on the space of shapes.
+
+### 7.10 Worked Examples
 
 **Problem 1.** Show that $\mathbb{R}^n$ with the Euclidean metric is complete.
 

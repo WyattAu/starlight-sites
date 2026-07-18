@@ -112,7 +112,13 @@ The unique solution modulo $105$ is $x \equiv 8 \pmod{105}$. $\blacksquare$
 
 </details>
 
-### 9.5 Common Pitfalls
+### 9.5 Intuition: What Are Ideals?
+
+An ideal is the ring-theoretic analogue of a normal subgroup. It is a subset that absorbs multiplication from both sides: if $a \in I$ and $r \in R$, then $ra$ and $ar$ are in $I$. This absorption property is what makes quotient rings possible: it ensures that the product of two cosets $(a + I)(b + I) = ab + I$ is well-defined.
+
+Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $ab \in I$ implies $a \in I$ or $b \in I$. The quotient by a prime ideal is an integral domain (no zero divisors). Maximal ideals are the largest proper ideals: the quotient by a maximal ideal is a field (every non-zero element is invertible). In $\mathbb{Z}$, the prime ideals are $(p)$ for each prime $p$, and these are also maximal, giving the fields $\mathbb{Z}/p\mathbb{Z}$. The Chinese Remainder Theorem says that when two ideals are coprime, the quotient by their product is isomorphic to the product of the individual quotients, which is the algebraic foundation for modular arithmetic and RSA cryptography.
+
+### 9.6 Common Pitfalls
 
 - **Confusing subrings with ideals.** Every ideal is a subring, but subrings need not be closed under multiplication by arbitrary ring elements.
 - **Forgetting two-sided closure.** An ideal must absorb multiplication from both sides: $ra \in I$ and $ar \in I$ for all $r \in R$, $a \in I$. In non-commutative rings, left and right ideals differ.

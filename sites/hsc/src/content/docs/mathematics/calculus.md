@@ -97,3 +97,64 @@ $$A = \left[\frac{x^2}{2} - \frac{x^3}{3}\right]_0^1 = \left(\frac{1}{2} - \frac
 1. Find the derivative of $f(x) = \sin(3x^2)$
 2. Evaluate $\int_0^2 (4x^3 - 6x) \, dx$
 3. Find the area between $y = x^2$ and $y = 4$ for $-2 \leq x \leq 2$
+
+### Example 4: Product Rule
+
+**Problem:** Find the derivative of $f(x) = x^2 e^x$.
+
+**Solution:**
+
+Step 1: Apply the product rule with $u = x^2$ and $v = e^x$:
+$$f'(x) = u'v + uv' = 2x \cdot e^x + x^2 \cdot e^x$$
+
+Step 2: Factor:
+$$f'(x) = e^x(2x + x^2) = xe^x(2 + x)$$
+
+**Answer:** $f'(x) = xe^x(x + 2)$
+
+### Example 5: Definite Integral
+
+**Problem:** Evaluate $\int_1^4 \frac{1}{\sqrt{x}} \, dx$.
+
+**Solution:**
+
+Step 1: Rewrite: $\int_1^4 x^{-1/2} \, dx$
+
+Step 2: Integrate using the power rule:
+$$\left[\frac{x^{1/2}}{1/2}\right]_1^4 = \left[2\sqrt{x}\right]_1^4$$
+
+Step 3: Evaluate at limits:
+$$2\sqrt{4} - 2\sqrt{1} = 4 - 2 = 2$$
+
+**Answer:** The integral equals $2$
+
+### Example 6: Optimisation
+
+**Problem:** A farmer has $200\,\text{m}$ of fencing and wants to enclose a rectangular paddock along a river (no fence needed on the river side). Find the dimensions that maximize the area.
+
+**Solution:**
+
+Step 1: Let $x$ be the width (two sides) and $l$ be the length (one side parallel to river).
+
+Step 2: Fencing constraint: $2x + l = 200 \implies l = 200 - 2x$
+
+Step 3: Area: $A = x \cdot l = x(200 - 2x) = 200x - 2x^2$
+
+Step 4: Find stationary points: $\frac{dA}{dx} = 200 - 4x = 0 \implies x = 50\,\text{m}$
+
+Step 5: Second derivative test: $\frac{d^2A}{dx^2} = -4 < 0$, so this is a maximum.
+
+Step 6: Length: $l = 200 - 2(50) = 100\,\text{m}$
+
+**Answer:** Width $= 50\,\text{m}$, length $= 100\,\text{m}$, maximum area $= 5000\,\text{m}^2$
+
+## Why This Matters
+
+Calculus is the mathematical study of continuous change. Differentiation and integration are used in physics, engineering, economics, biology, and virtually every quantitative science.
+
+## Additional Exam Tips
+
+5. For optimisation problems, always check the second derivative or boundary values
+6. The chain rule is the most commonly tested rule — practise identifying inner and outer functions
+7. When finding areas between curves, always sketch the graph first
+8. Remember: $\int_a^b f(x) \, dx = F(b) - F(a)$, not $F(a) - F(b)$

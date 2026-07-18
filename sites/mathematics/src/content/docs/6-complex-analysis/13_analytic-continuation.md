@@ -145,3 +145,20 @@ boundaries prevent continuation past essential singularities. The monodromy theo
 when continuation around loops is single-valued. The Schwarz reflection principle extends
 functions across the real axis. These ideas are essential for understanding special functions
 and their properties throughout complex analysis.
+
+### 13.8 Common Mistakes
+
+**Mistake 1: Assuming that analytic continuation is always possible.**
+Analytic continuation is not always possible. If a function has a natural boundary (a curve beyond which it cannot be analytically continued), then continuation past that boundary is impossible. For example, the function $\sum_{n=0}^\infty z^{2^n}$ has the unit circle as a natural boundary.
+
+**Mistake 2: Forgetting that analytic continuation is unique.**
+If an analytic continuation exists, it is unique. Do not assume that there are multiple distinct analytic continuations of a function to the same domain. The identity theorem guarantees uniqueness.
+
+**Mistake 3: Confusing analytic continuation with continuous extension.**
+Analytic continuation requires that the extended function be analytic, not just continuous. A function can be continuously extended to a larger domain without being analytically continuable. For example, $f(z) = |z|^2$ is continuous on $\mathbb{C}$ but not analytic anywhere except at $z = 0$.
+
+**Mistake 4: Assuming that the identity theorem holds for non-analytic functions.**
+The identity theorem requires that the functions be analytic. If $f$ and $g$ are merely continuous and agree on a set with a limit point, they need not agree everywhere. For example, $f(x) = 0$ and $g(x) = e^{-1/x^2}$ (with $g(0) = 0$) agree on $\mathbb{R}$ but are not equal as functions on $\mathbb{C}$.
+
+**Mistake 5: Forgetting that analytic continuation may introduce singularities.**
+When analytically continuing a function to a larger domain, new singularities may appear. For example, the Gamma function is analytic for $\mathrm{Re}(z) > 0$, but its analytic continuation to $\mathbb{C}$ has poles at $z = 0, -1, -2, \dots$. Always check for singularities in the extended domain.

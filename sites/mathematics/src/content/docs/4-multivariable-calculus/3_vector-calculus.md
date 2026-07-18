@@ -374,7 +374,15 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
   planar curves, right-hand rule for surfaces). The divergence theorem requires the outward normal.
   Reversing orientation changes the sign of the result.
 
-### 3.9 Relationships Among the Fundamental Theorems
+### 3.9 Intuition: What Do Curl, Divergence, and the Integral Theorems Mean?
+
+Divergence measures how much a vector field "flows out" of a point. If the divergence is positive, the point is a source; if negative, it is a sink. The divergence theorem says that the total flow out of a volume equals the total flux through its boundary, which is a conservation law: what flows in must flow out.
+
+Curl measures the local rotation or "swirl" of a vector field. If the curl is non-zero, the field has a tendency to circulate around that point. Stokes' theorem says that the circulation of a field around a closed curve equals the total curl through any surface bounded by that curve, which generalises the fundamental theorem of calculus to surfaces.
+
+The general pattern connecting all these theorems is: the integral of a derivative over a region equals the integral of the original function over the boundary. This is the multivariable fundamental theorem of calculus. Green's theorem (planar circulation), Stokes' theorem (surface circulation), and the divergence theorem (volume flux) are all instances of the same abstract principle applied to different dimensions. A conservative field, one that is the gradient of a potential, has zero curl and zero circulation around closed loops, which is why line integrals become path-independent.
+
+### 3.10 Relationships Among the Fundamental Theorems
 
 The three major integral theorems of vector calculus are deeply connected:
 

@@ -194,3 +194,20 @@ wave function (Pauli principle), and is $10$--$100$ meV.
 
 
 </aside>
+
+### 10.8 Common Mistakes
+
+**Mistake 1: Confusing diamagnetism with paramagnetism.**
+Diamagnetism is a universal, weak, negative susceptibility that opposes the applied field. Paramagnetism is a positive susceptibility that aligns with the field. Diamagnetism is present in all materials, while paramagnetism requires unpaired spins. Do not confuse the two; they have opposite signs of susceptibility.
+
+**Mistake 2: Assuming that ferromagnetism is a quantum effect.**
+Ferromagnetism arises from the exchange interaction, which is a quantum mechanical effect due to the Pauli exclusion principle and Coulomb repulsion. Classical physics cannot explain ferromagnetism. Do not assume that ferromagnetism can be understood classically.
+
+**Mistake 3: Forgetting that the Curie temperature is a phase transition.**
+The Curie temperature $T_C$ marks the transition from ferromagnetic to paramagnetic behavior. Above $T_C$, the material is paramagnetic; below $T_C$, it is ferromagnetic. Do not assume that ferromagnetism persists above $T_C$; the spontaneous magnetization vanishes at $T_C$.
+
+**Mistake 4: Confusing the Néel temperature with the Curie temperature.**
+The Néel temperature $T_N$ marks the transition from antiferromagnetic to paramagnetic behavior. The Curie temperature $T_C$ marks the transition from ferromagnetic to paramagnetic behavior. Do not confuse the two; they apply to different types of magnetic ordering.
+
+**Mistake 5: Assuming that all magnetic materials are ferromagnetic.**
+Most materials are not ferromagnetic; they are diamagnetic, paramagnetic, antiferromagnetic, or ferrimagnetic. Ferromagnetism is relatively rare (e.g., Fe, Co, Ni). Do not assume that a material is ferromagnetic just because it is magnetic.

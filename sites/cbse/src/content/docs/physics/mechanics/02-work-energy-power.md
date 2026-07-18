@@ -129,3 +129,15 @@ $$v_{2f} = \frac{2m_1}{m_1 + m_2}v_{1i} = \frac{2 \times 1}{1 + 3} \times 5 = \f
 The 1 kg ball rebounds with speed 2.5 m/s, and the 3 kg ball moves forward at 2.5 m/s.
 
 **Common mistake:** Assuming the lighter ball continues forward. In elastic collisions, the lighter ball often rebounds.
+
+## Why This Matters
+
+The work-energy theorem and conservation of energy are among the most powerful tools in physics. They allow us to solve complex problems without tracking forces at every instant, making them essential for engineering, astrophysics, and particle physics.
+
+## Additional Exam Tips
+
+- Always identify the system and check if external forces do work
+- For elastic collisions, use the derived formulas rather than solving two simultaneous equations
+- Power = force x velocity applies only when force and velocity are in the same direction
+- Remember that kinetic energy is always positive, but work can be negative (friction)
+- When using energy methods, define a reference level for potential energy

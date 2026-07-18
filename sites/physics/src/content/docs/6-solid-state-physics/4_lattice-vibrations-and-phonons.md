@@ -232,3 +232,20 @@ Has provided definitive measurements of phonon dispersions in virtually all impo
 
 
 </aside>
+
+### 4.10 Common Mistakes
+
+**Mistake 1: Confusing phonons with photons.**
+Phonons are quantised lattice vibrations, while photons are quantised electromagnetic waves. Phonons exist only in materials with a lattice structure, while photons exist in vacuum. Do not assume that phonons behave exactly like photons; they have different dispersion relations and interactions.
+
+**Mistake 2: Assuming that phonons are particles.**
+Phonons are quasiparticles, not fundamental particles. They are emergent excitations of the lattice and do not exist outside the material. Do not think of phonons as real particles; they are convenient mathematical descriptions of collective lattice vibrations.
+
+**Mistake 3: Forgetting that acoustic phonons have linear dispersion at small $q$.**
+Acoustic phonons have $\omega \approx v_s |q|$ for small $q$, where $v_s$ is the speed of sound. This linear dispersion is crucial for understanding thermal conductivity and specific heat. Do not assume that all phonons have linear dispersion; optical phonons have a finite frequency at $q = 0$.
+
+**Mistake 4: Confusing the Brillouin zone with the reciprocal lattice.**
+The Brillouin zone is the Wigner-Seitz cell of the reciprocal lattice. It is the set of all $q$-vectors that are closer to the origin than to any other reciprocal lattice point. Do not confuse the Brillouin zone with the reciprocal lattice itself; they are related but distinct concepts.
+
+**Mistake 5: Assuming that phonons can have any frequency.**
+Phonons are confined to the Brillouin zone and have frequencies bounded by the maximum phonon frequency. Do not assume that phonons can have arbitrarily high frequencies; the lattice structure imposes a cutoff.

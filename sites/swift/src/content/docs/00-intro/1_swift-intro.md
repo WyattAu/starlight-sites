@@ -492,3 +492,124 @@ Swift is a modern, safe, and fast programming language designed for the Apple ec
 extending well beyond it. Its combination of protocol-oriented design, value semantics, strong type
 safety, and modern concurrency support makes it well-suited for applications ranging from mobile UI
 to server-side services.
+
+## Worked Examples
+
+### Example 1: Value Semantics with Structs
+
+**Problem:** Demonstrate how Swift's value types prevent unintended shared state when passing data between functions.
+
+```swift
+struct Temperature {
+    var celsius: Double
+    var fahrenheit: Double {
+        get { celsius * 9 / 5 + 32 }
+        set { celsius = (newValue - 32) * 5 / 9 }
+    }
+}
+
+func display(_ temp: Temperature) {
+    var local = temp
+    local.fahrenheit = 212.0
+    print("Inside function: \(local.celsius)°C")
+}
+
+let outside = Temperature(celsius: 25.0)
+print("Before: \(outside.celsius)°C")  // 25.0
+display(outside)
+print("After: \(outside.celsius)°C")   // 25.0 (unchanged)
+```
+
+**Solution:** Structs are value types in Swift. When `outside` is passed to `display`, it is copied. The modification to `local` inside the function does not affect the original. This prevents accidental mutations and makes code easier to reason about.
+
+**Explanation:** Value semantics mean assignments and function arguments create independent copies. This is the default for structs, enums, and basic types. Classes are reference types where assignments share the same instance. Swift encourages structs for most data modeling because value semantics eliminate entire categories of shared-state bugs.
+
+---
+
+### Example 2: Optionals for Null Safety
+
+**Problem:** Safely parse a user-supplied string into an integer, handling all failure cases without runtime crashes.
+
+```swift
+func parseAge(_ input: String?) -> Int? {
+    guard let input, !input.isEmpty else {
+        print("Error: input is nil or empty")
+        return nil
+    }
+
+    guard let age = Int(input) else {
+        print("Error: '\(input)' is not a valid number")
+        return nil
+    }
+
+    guard age >= 0 && age <= 150 else {
+        print("Error: \(age) is outside the valid range")
+        return nil
+    }
+
+    return age
+}
+
+let testCases: [String?] = ["25", "abc", "", nil, "200"]
+for input in testCases {
+    if let age = parseAge(input) {
+        print("Valid age: \(age)")
+    }
+}
+// Valid age: 25
+// Error: 'abc' is not a valid number
+// Error: input is nil or empty
+// Error: input is nil or empty
+// Error: 200 is outside the valid range
+```
+
+**Solution:** Each `guard let` safely unwraps the optional, returning `nil` on failure. The function returns `Int?` to signal success or failure. The caller uses `if let` to handle only the valid case. No force-unwrapping (`!`) is used, so the code cannot crash at runtime.
+
+**Explanation:** Optionals replace null pointers. The compiler enforces that you handle the `nil` case before using the value. `guard let` is preferred over `if let` for early exits, keeping the happy path at the lowest indentation level. This pattern is fundamental to Swift's safety guarantees.
+
+---
+
+### Example 3: Protocol-Oriented Design
+
+**Problem:** Define a protocol for printable items and extend it with default behavior, allowing any type to adopt the protocol without inheriting from a base class.
+
+```swift
+protocol Printable {
+    var title: String { get }
+    var content: String { get }
+    func formatted() -> String
+}
+
+extension Printable {
+    func formatted() -> String {
+        "=== \(title) ===\n\(content)"
+    }
+}
+
+struct Article: Printable {
+    let title: String
+    let content: String
+}
+
+struct Note: Printable {
+    let title: String
+    let content: String
+}
+
+let items: [any Printable] = [
+    Article(title: "Swift Basics", content: "Swift is a safe language."),
+    Note(title: "TODO", content: "Learn protocols")
+]
+
+for item in items {
+    print(item.formatted())
+}
+// === Swift Basics ===
+// Swift is a safe language.
+// === TODO ===
+// Learn protocols
+```
+
+**Solution:** The `Printable` protocol defines a contract with `title`, `content`, and `formatted()`. The extension provides a default implementation of `formatted()`, so conforming types get it for free. Both `Article` and `Note` adopt the protocol without sharing a base class.
+
+**Explanation:** Protocol-oriented programming in Swift favors composition over inheritance. Protocols define behavior contracts, extensions provide default implementations, and value types conform to protocols without class hierarchy constraints. The `any Printable` existential type allows heterogeneous collections while maintaining type safety.

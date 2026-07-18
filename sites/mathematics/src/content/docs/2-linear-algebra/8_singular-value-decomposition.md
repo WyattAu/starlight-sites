@@ -277,7 +277,13 @@ $\log_{10}(20000) \approx 4.3$ digits of precision. $\blacksquare$
 
 </details>
 
-### 8.10 Common Pitfalls
+### 8.10 Intuition: What Does the SVD Really Do?
+
+The SVD answers the question: what is the simplest description of a linear transformation? Every matrix, whether square or rectangular, can be decomposed as a rotation, followed by independent stretching along perpendicular axes, followed by another rotation. The singular values tell you how much stretching occurs along each axis, and they are always non-negative because stretching is a magnitude, not a signed quantity.
+
+Think of the SVD as finding the "natural coordinate system" for a transformation. The right singular vectors are the input directions that matter most, and the left singular vectors are the corresponding output directions. The singular values rank these directions by importance, which is why truncating the SVD gives the best low-rank approximation. This is the mathematical foundation of principal component analysis, image compression, and recommendation systems. The condition number, the ratio of largest to smallest singular value, measures how close a matrix is to being degenerate: a high condition number means the matrix nearly collapses some direction to zero, making the system $A\mathbf{x} = \mathbf{b}$ sensitive to noise.
+
+### 8.11 Common Pitfalls
 
 - **Singular values are always non-negative.** Unlike eigenvalues, which can be negative or complex,
   singular values are the square roots of eigenvalues of $A^T A$Hence always real and non-negative.

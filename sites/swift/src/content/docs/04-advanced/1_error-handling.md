@@ -582,6 +582,144 @@ func decodeUser(from data: Data) -> Result<User, Error> {
 }
 ```
 
+## Worked Examples
+
+### Example 1: Nested Result Pipeline with Error Mapping
+
+**Problem:** Chain multiple operations that return `Result`, mapping domain-specific errors to a unified error type at each step.
+
+```swift
+enum ApiError: Error {
+    case networkFailure(underlying: Error)
+    case decodingFailure(underlying: Error)
+    case validationFailure(field: String, message: String)
+}
+
+func fetchRaw(url: URL) -> Result<Data, ApiError> {
+    // Simulates network call
+    .failure(.networkFailure(underlying: URLError(.timedOut)))
+}
+
+func decode<T: Decodable>(_ type: T.Type, from data: Data) -> Result<T, ApiError> {
+    do {
+        return .success(try JSONDecoder().decode(type, from: data))
+    } catch {
+        return .failure(.decodingFailure(underlying: error))
+    }
+}
+
+func validate<T>(_ value: T, _ predicate: (T) -> Bool, field: String, message: String) -> Result<T, ApiError> {
+    predicate(value) ? .success(value) : .failure(.validationFailure(field: field, message: message))
+}
+
+// Compose the pipeline
+let result = fetchRaw(url: URL(string: "https://api.example.com/user")!)
+    .flatMap { decode(User.self, from: $0) }
+    .flatMap { validate($0, { !$0.name.isEmpty }, field: "name", message: "Name required") }
+
+switch result {
+case .success(let user): print("Valid user: \(user.name)")
+case .failure(let error):
+    switch error {
+    case .networkFailure: print("Check your connection")
+    case .decodingFailure: print("Server returned invalid data")
+    case .validationFailure(let field, let msg): print("\(field): \(msg)")
+    }
+}
+```
+
+**Explanation:** Each step returns a `Result`. `flatMap` chains steps, short-circuiting on the first failure. Error mapping occurs at the boundary between domain layers: network errors become `.networkFailure`, JSON errors become `.decodingFailure`. The final `switch` handles all error cases exhaustively.
+
+---
+
+### Example 2: Resource Cleanup with Nested defer
+
+**Problem:** Read a configuration file, parse it, and apply settings. Ensure the file handle closes, any temporary resources are cleaned up, and a lock is released -- regardless of which step fails.
+
+```swift
+func applyConfiguration(from path: String) throws -> Config {
+    let lock = NSLock()
+    lock.lock()
+
+    defer {
+        lock.unlock()
+        print("Lock released")
+    }
+
+    let fileHandle = try FileHandle(forReadingFrom: URL(fileURLWithPath: path))
+    defer {
+        fileHandle.closeFile()
+        print("File closed")
+    }
+
+    let data = fileHandle.readDataToEndOfFile()
+    let config = try JSONDecoder().decode(Config.self, from: data)
+
+    guard config.isValid else {
+        throw ValidationError.emptyField("configuration")
+    }
+
+    print("Configuration applied: \(config)")
+    return config
+}
+```
+
+**Explanation:** `defer` blocks execute in reverse order (LIFO) when the scope exits. If `decode` or `isValid` throws, both the file handle and lock are still cleaned up. The reverse order ensures the lock is released last, maintaining the invariant that resources are freed in the correct sequence.
+
+---
+
+### Example 3: Async Error Recovery with Retry and Fallback
+
+**Problem:** Implement a fetch function that retries on transient failures, falls back to a cache on permanent failure, and converts errors to a user-friendly `Result`.
+
+```swift
+enum DataError: LocalizedError {
+    case transient(Error)
+    case permanent(Error)
+    case fallbackUsed(Error)
+
+    var errorDescription: String? {
+        switch self {
+        case .transient: return "Temporary failure, retrying..."
+        case .permanent(let e): return "Unrecoverable: \(e.localizedDescription)"
+        case .fallbackUsed(let e): return "Using cached data (fresh unavailable: \(e.localizedDescription))"
+        }
+    }
+}
+
+func fetchWithFallback(id: Int) async -> Result<User, DataError> {
+    var lastError: Error?
+
+    for attempt in 1...3 {
+        do {
+            let user = try await fetchUser(id: id)
+            return .success(user)
+        } catch let error as URLError where [.timedOut, .networkConnectionLost].contains(error.code) {
+            lastError = error
+            try? await Task.sleep(nanoseconds: UInt64(pow(2.0, Double(attempt)) * 500_000_000))
+            continue
+        } catch {
+            return .failure(.permanent(error))
+        }
+    }
+
+    if let cached = try? await loadCachedUser(id: id) {
+        return .failure(.fallbackUsed(lastError!))
+    }
+
+    return .failure(.transient(lastError!))
+}
+
+// Usage
+let result = await fetchWithFallback(id: 42)
+switch result {
+case .success(let user): updateUserUI(user)
+case .failure(let error): showError(error.localizedDescription)
+}
+```
+
+**Explanation:** The retry loop handles transient network errors with exponential backoff. Non-transient errors fail immediately via `.permanent`. After exhausting retries, the function attempts a cache fallback, returning `.fallbackUsed` to indicate degraded data. The `Result` type makes all three outcomes explicit and composable.
+
 ## Summary
 
 Swift's error handling is explicit and type-safe. Enum-based error types provide structured error

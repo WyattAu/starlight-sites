@@ -183,3 +183,20 @@ The intensity $I \propto \lvert S\rvert^2$:
 
 </details>
 
+### 2.8 Common Mistakes
+
+**Mistake 1: Confusing the reciprocal lattice with the dual lattice.**
+The reciprocal lattice is defined in terms of the real-space lattice vectors and has dimensions of inverse length. It is not the same as the dual lattice in mathematics, which is a different concept. Do not confuse the two; the reciprocal lattice is specific to crystallography.
+
+**Mistake 2: Forgetting the factor of $2\pi$ in the reciprocal lattice vectors.**
+The reciprocal lattice vectors are defined with a factor of $2\pi$: $\mathbf{b}_i \cdot \mathbf{a}_j = 2\pi\delta_{ij}$. Some conventions omit the $2\pi$, but it is essential for the correct relationship between real and reciprocal space. Do not forget the $2\pi$ factor.
+
+**Mistake 3: Assuming that the reciprocal lattice has the same symmetry as the real lattice.**
+The reciprocal lattice has the same symmetry as the real lattice only for cubic systems. For other crystal systems, the reciprocal lattice may have different symmetry. Do not assume that the symmetry is preserved; check the specific crystal system.
+
+**Mistake 4: Confusing the first Brillouin zone with the Wigner-Seitz cell in real space.**
+The first Brillouin zone is the Wigner-Seitz cell of the reciprocal lattice, not the real lattice. It is the set of points in reciprocal space closer to the origin than to any other reciprocal lattice point. Do not confuse it with the Wigner-Seitz cell in real space.
+
+**Mistake 5: Forgetting that diffraction peaks occur at reciprocal lattice points.**
+Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a reciprocal lattice vector. This is the Laue condition: $\mathbf{G} \cdot \mathbf{R} = 2\pi \times \mathrm{integer}$. Do not assume that diffraction can occur at arbitrary angles; it is restricted to specific directions determined by the reciprocal lattice.
+

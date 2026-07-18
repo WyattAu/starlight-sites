@@ -144,3 +144,20 @@ Domain: $\mathbb{C} \setminus \{z : z = iy,\, y \in [-1, 1]\}$.
 
 </details>
 
+### 2.8 Common Mistakes
+
+**Mistake 1: Assuming that differentiability in the real sense implies complex differentiability.**
+A function $f(z) = u(x, y) + iv(x, y)$ being differentiable as a function of two real variables does not imply that $f$ is complex differentiable. The Cauchy-Riemann equations must also be satisfied. For example, $f(z) = \bar{z}$ is real-differentiable but not complex differentiable.
+
+**Mistake 2: Forgetting that analyticity requires differentiability in a neighborhood, not just at a point.**
+A function is analytic at a point if it is differentiable in some open neighborhood of that point. A function can be differentiable at a point but not analytic there. For example, $f(z) = |z|^2$ is differentiable only at $z = 0$, so it is not analytic anywhere.
+
+**Mistake 3: Confusing the Cauchy-Riemann equations in Cartesian and polar form.**
+In Cartesian coordinates, the Cauchy-Riemann equations are $u_x = v_y$ and $u_y = -v_x$. In polar coordinates, they are $u_r = (1/r)v_\theta$ and $v_r = -(1/r)u_\theta$. Do not mix up the two forms, as this leads to incorrect conclusions about analyticity.
+
+**Mistake 4: Assuming that a function with continuous partial derivatives satisfying the Cauchy-Riemann equations is automatically analytic.**
+The Cauchy-Riemann equations are necessary but not sufficient for analyticity. Even if $u$ and $v$ have continuous partial derivatives and satisfy the Cauchy-Riemann equations, the function may not be analytic if the partial derivatives are not continuous in a neighborhood. However, if the partial derivatives are continuous in a neighborhood, then the function is analytic.
+
+**Mistake 5: Forgetting that analytic functions are infinitely differentiable.**
+If $f$ is analytic on a domain $D$, then $f$ is infinitely differentiable on $D$. This is a powerful property that does not hold for real-differentiable functions. Do not assume that an analytic function has only finitely many derivatives.
+

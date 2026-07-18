@@ -510,3 +510,20 @@ involved.
 
 
 </aside>
+
+### 7.12 Common Mistakes
+
+**Mistake 1: Assuming that the Big Bang was an explosion in space.**
+The Big Bang was not an explosion from a central point into pre-existing space. It was the rapid expansion of space itself. Every point in the universe was once arbitrarily close to every other point. Do not think of the Big Bang as an explosion in the usual sense.
+
+**Mistake 2: Confusing the Hubble parameter with the Hubble constant.**
+The Hubble parameter $H(t)$ is a function of time, while the Hubble constant $H_0$ is its present-day value. Do not assume that $H$ is constant; it changes with the expansion of the universe.
+
+**Mistake 3: Forgetting that the宇宙 is expanding faster than the speed of light.**
+The expansion of the universe can cause distant galaxies to recede faster than the speed of light. This does not violate special relativity because it is space itself that is expanding, not objects moving through space. Do not assume that the speed of light is an absolute speed limit for recession velocities.
+
+**Mistake 4: Confusing the critical density with the actual density.**
+The critical density $\rho_c = 3H^2/(8\pi G)$ is the density at which the universe is flat. The actual density may be higher or lower than the critical density. Do not assume that the universe has the critical density; the density parameter $\Omega = \rho/\rho_c$ determines the geometry.
+
+**Mistake 5: Assuming that the宇宙 has no boundary implies it is infinite.**
+A universe with no boundary can be finite or infinite. For example, a closed universe (positive curvature) is finite but has no boundary. Do not assume that a boundaryless universe is infinite.

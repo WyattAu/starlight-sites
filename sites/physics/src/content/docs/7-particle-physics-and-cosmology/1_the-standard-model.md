@@ -205,3 +205,20 @@ $b \to c$Which is why the $B$ meson predominantly decays to charm, not Up quarks
 
 </details>
 
+### 1.10 Common Mistakes
+
+**Mistake 1: Assuming that the Standard Model includes gravity.**
+The Standard Model describes three of the four fundamental forces: electromagnetic, weak, and strong. Gravity is not included. Do not assume that the Standard Model is a theory of everything; it does not account for gravitational interactions.
+
+**Mistake 2: Confusing quarks with hadrons.**
+Quarks are fundamental particles that cannot exist in isolation due to colour confinement. Hadrons (such as protons and neutrons) are composite particles made of quarks. Do not confuse the properties of quarks (such as fractional electric charge) with the properties of hadrons (which have integer electric charge).
+
+**Mistake 3: Forgetting that only left-handed fermions participate in weak interactions.**
+The weak interaction couples only to left-handed fermions and right-handed antifermions. Right-handed fermions are singlets under $\mathrm{SU}(2)_L$ and do not feel the weak force. This chirality dependence is a key feature of the Standard Model.
+
+**Mistake 4: Confusing the photon with the gluon.**
+The photon mediates the electromagnetic interaction and couples to electric charge. Gluons mediate the strong interaction and couple to colour charge. Gluons themselves carry colour charge and interact with each other, while photons are electrically neutral and do not interact with each other.
+
+**Mistake 5: Assuming that all particles have distinct antiparticles.**
+Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^0$). These are called Majorana particles. Most particles (such as electrons and quarks) have distinct antiparticles. Do not assume that every particle has a separate antiparticle.
+

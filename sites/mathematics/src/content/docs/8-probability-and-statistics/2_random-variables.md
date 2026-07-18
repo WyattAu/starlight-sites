@@ -115,7 +115,13 @@ exists in a neighbourhood of $t = 0$).
 **Theorem 2.5.** If the MGF exists in a neighbourhood of 0, it uniquely determines the distribution.
 Furthermore, $E[X^n] = M_X^{(n)}(0)$.
 
-### 2.7 Worked Examples
+### 2.7 Intuition: What Is a Random Variable?
+
+A random variable is a function that converts uncertain outcomes into numbers, making it possible to compute averages, variances, and probabilities of numerical events. The cumulative distribution function $F_X(x) = P(X \leq x)$ tells you the probability that $X$ falls at or below a given value, and it completely determines the distribution of $X$. For discrete random variables, the probability mass function gives the probability at each point. For continuous random variables, the probability density function gives the "rate" at which probability accumulates, and probabilities are computed by integrating.
+
+Expected value is the long-run average: if you repeated an experiment infinitely many times and averaged the results, the expected value is what you would converge to. Variance measures spread around the mean. The normal distribution is special because the central limit theorem shows that sums of many independent random variables, regardless of their original distribution, tend toward a normal distribution. Moment generating functions encode all moments of a distribution into a single function, and they convert the hard operation of convolution (adding independent random variables) into the easy operation of multiplication.
+
+### 2.8 Worked Examples
 
 **Problem.** Let $X \sim \mathrm{Poisson}(3)$ and $Y \sim \mathrm{Poisson}(5)$ be independent. Find
 the distribution of $X + Y$.
@@ -146,4 +152,21 @@ So $P(M \leq t) = 1 - e^{-\lambda t}$ where $\lambda = \sum_{i=1}^{n} \lambda_i$
 $M \sim \mathrm{Exp}(\lambda)$. $\blacksquare$
 
 </details>
+
+### 2.10 Common Mistakes
+
+**Mistake 1: Confusing $P(A|B)$ with $P(B|A)$.**
+The conditional probability $P(A|B) = P(A \cap B)/P(B)$ is not the same as $P(B|A) = P(A \cap B)/P(A)$. These are equal only when $P(A) = P(B)$. A common error is to assume that if $P(A|B)$ is high, then $P(B|A)$ is also high. This is the basis of the prosecutor's fallacy.
+
+**Mistake 2: Assuming that independence implies uncorrelatedness.**
+If two random variables $X$ and $Y$ are independent, then they are uncorrelated (their covariance is zero). However, the converse is not true: uncorrelated variables can be dependent. For example, let $X$ be uniform on $\{-1, 0, 1\}$ and $Y = X^2$. Then $X$ and $Y$ are uncorrelated but not independent.
+
+**Mistake 3: Forgetting Bayes' theorem.**
+Bayes' theorem states that $P(A|B) = P(B|A)P(A)/P(B)$. A common mistake is to ignore the prior $P(A)$ and the evidence $P(B)$, leading to incorrect updates of probabilities. Always use the full form of Bayes' theorem when updating beliefs based on new evidence.
+
+**Mistake 4: Confusing the expectation of a product with the product of expectations.**
+$E[XY] = E[X]E[Y]$ holds only when $X$ and $Y$ are independent (or uncorrelated). In general, $E[XY] \neq E[X]E[Y]$. Do not assume that the expectation of a product factors without checking independence.
+
+**Mistake 5: Forgetting that variance is not linear.**
+$\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The variance of a sum is $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)$. If $X$ and $Y$ are independent, then $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$, but this does not hold in general.
 

@@ -257,3 +257,20 @@ $$P = |\langle+_x|\downarrow\rangle|^2 = \left|\frac{1}{\sqrt{2}}\langle\uparrow
 
 </details>
 
+### 7.7 Common Mistakes
+
+**Mistake 1: Confusing probability with probability amplitude.**
+In quantum mechanics, the probability of a measurement outcome is the square of the absolute value of the probability amplitude. Do not confuse the amplitude (a complex number) with the probability (a real number between 0 and 1).
+
+**Mistake 2: Assuming that spin is a classical angular momentum.**
+Spin is an intrinsic quantum property with no classical analogue. It does not correspond to physical rotation of the particle. Do not think of spin as the particle spinning like a top.
+
+**Mistake 3: Forgetting that measuring spin along one axis randomizes the result along a perpendicular axis.**
+If a particle is in a definite state of $S_z$, measuring $S_x$ will give a random result (with equal probability for $+\hbar/2$ and $-\hbar/2$). The intermediate measurement destroys the information about the original state. Do not assume that measuring one component of spin tells you about the other components.
+
+**Mistake 4: Confusing the singlet and triplet states.**
+The singlet state $|0,0\rangle$ is antisymmetric under particle exchange, while the triplet states $|1,m\rangle$ are symmetric. Do not confuse the two; they have different symmetry properties and different total spin.
+
+**Mistake 5: Assuming that spin-1/2 particles have only two states.**
+A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\rangle$), but a system of two spin-1/2 particles has four states (triplet and singlet). Do not assume that the number of states is always two; it depends on the number of particles.
+

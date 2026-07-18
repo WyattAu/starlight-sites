@@ -186,3 +186,20 @@ Threshold voltage $V_T$ depends on the oxide thickness, doping, and work functio
 AlGaAs/GaAs) to create a two-dimensional electron gas (2DEG) with very high mobility. Heterojunction
 Bipolar transistors (HBTs) use a wide-gap emitter to improve injection efficiency.
 
+### 6.8 Common Mistakes
+
+**Mistake 1: Confusing holes with positive electrons.**
+Holes are not positive electrons; they are the absence of an electron in the valence band. Holes have an effective mass and charge, but they are quasiparticles, not fundamental particles. Do not assume that holes behave exactly like electrons with positive charge.
+
+**Mistake 2: Assuming that semiconductors are always poor conductors.**
+Semiconductors have conductivity between that of conductors and insulators, but their conductivity can be tuned over many orders of magnitude by doping, temperature, or light. Do not assume that semiconductors are always poor conductors; heavily doped semiconductors can be quite conductive.
+
+**Mistake 3: Forgetting that the mass action law holds at thermal equilibrium.**
+The mass action law $np = n_i^2$ holds only at thermal equilibrium. Under non-equilibrium conditions (such as illumination or current injection), the product $np$ can exceed $n_i^2$. Do not assume that $np = n_i^2$ always holds.
+
+**Mistake 4: Confusing the Fermi level with the Fermi energy.**
+The Fermi level $E_F$ is the chemical potential of electrons, while the Fermi energy is the energy of the highest occupied state at $T = 0$. In semiconductors, the Fermi level lies in the band gap at $T = 0$, so it is not the same as the Fermi energy. Do not confuse the two concepts.
+
+**Mistake 5: Assuming that doping always increases conductivity.**
+Doping increases conductivity only if the doping concentration is high enough to provide significant carrier concentration. At very low doping levels, the conductivity may not change significantly. Also, doping can introduce defects that scatter carriers and reduce mobility. Do not assume that doping always increases conductivity.
+

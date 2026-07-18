@@ -153,3 +153,20 @@ Discrete symmetries ($P$, $C$, $T$) do not arise from Noether's theorem but are 
 Constraints. The **CPT theorem** states that any Lorentz-invariant local quantum field theory is
 Invariant under the combined transformation $CPT$.
 
+### 2.6 Common Mistakes
+
+**Mistake 1: Assuming that all conservation laws are exact.**
+Some conservation laws (energy, momentum, angular momentum, electric charge) are exact and hold in all known interactions. Others (strangeness, isospin, parity) are approximate and can be violated by certain interactions. Do not assume that all conservation laws hold in every process.
+
+**Mistake 2: Confusing baryon number with lepton number.**
+Baryon number $B$ and lepton number $L$ are separately conserved in the Standard Model (at the perturbative level). However, some grand unified theories allow $B$ and $L$ violation while conserving $B - L$. Do not assume that $B$ and $L$ are always separately conserved.
+
+**Mistake 3: Forgetting that parity is maximally violated in weak interactions.**
+The weak interaction violates parity maximally: it couples only to left-handed fermions and right-handed antifermions. This means that the weak interaction distinguishes between left and right, unlike the electromagnetic and strong interactions. Do not assume that parity is conserved in weak processes.
+
+**Mistake 4: Confusing the Gell-Mann-Nishijima formula with the definition of hypercharge.**
+The Gell-Mann-Nishijima formula $Q = I_3 + Y/2$ relates electric charge to isospin and hypercharge. Hypercharge is defined as $Y = B + S + C + B' + T$. Do not confuse the formula with the definition; they are related but distinct.
+
+**Mistake 5: Assuming that Noether's theorem applies to discrete symmetries.**
+Noether's theorem relates continuous symmetries to conserved quantities. Discrete symmetries (parity $P$, charge conjugation $C$, time reversal $T$) do not give rise to conserved charges via Noether's theorem. However, they still impose powerful constraints on physical theories.
+

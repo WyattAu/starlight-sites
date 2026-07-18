@@ -220,3 +220,20 @@ $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 ## Intuition
 
 Crystal structures are nature's way of packing atoms as efficiently as possible. A crystal is like a three-dimensional wallpaper pattern extended infinitely: the lattice provides the repeating framework and the basis tells you what goes at each point. The 14 Bravais lattices are the only ways to arrange points with translational symmetry in three dimensions. Close-packing structures like FCC and HCP achieve about 74 percent filling, which is the maximum possible for identical spheres, like stacking oranges at a grocery store. Miller indices are like an architect's blueprint for specifying which wall of the crystal you are looking at. The Wigner-Seitz cell is the region of space closest to a given lattice point, creating a tile that fills all of space when repeated. X-ray diffraction works because the wavelength of X-rays matches the spacing between atomic planes, so the crystal acts as a three-dimensional diffraction grating.
+
+### 1.10 Common Mistakes
+
+**Mistake 1: Confusing the lattice with the crystal structure.**
+The lattice is an infinite array of points with translational symmetry, while the crystal structure is the lattice plus a basis (the arrangement of atoms at each lattice point). Do not assume that the lattice alone determines the crystal structure; the basis is equally important.
+
+**Mistake 2: Assuming that all crystal structures are close-packed.**
+FCC and HCP are close-packed structures with packing fraction $\sqrt{2}\pi/6 \approx 0.74$, but many crystal structures are not close-packed. For example, the diamond structure has a packing fraction of only $\sqrt{3}\pi/16 \approx 0.34$. Do not assume that all crystals are close-packed.
+
+**Mistake 3: Confusing the conventional cell with the primitive cell.**
+The conventional cell is chosen to highlight the symmetry of the lattice, while the primitive cell contains exactly one lattice point. For example, the conventional BCC cell has two atoms, but the primitive cell has one. Do not confuse the two; they have different volumes and atom counts.
+
+**Mistake 4: Forgetting that Miller indices refer to planes, not directions.**
+Miller indices $(hkl)$ refer to a family of lattice planes, while direction indices $[uvw]$ refer to a direction in the lattice. Do not confuse the two; they are related but distinct concepts.
+
+**Mistake 5: Assuming that all crystals are perfect.**
+Real crystals contain defects (point defects, dislocations, grain boundaries) that significantly affect their properties. Do not assume that real crystals are perfect; defects play a crucial role in determining mechanical, electrical, and thermal properties.

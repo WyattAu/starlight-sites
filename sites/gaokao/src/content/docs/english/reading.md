@@ -136,3 +136,96 @@ D. totally indifferent
 1. 阅读一篇关于环境保护的短文，找出主旨大意
 2. 根据上下文猜测划线单词"ubiquitous"的含义
 3. 练习略读技巧：用2分钟略读一篇500词的文章并回答主旨题
+
+### 例题4：词义猜测题
+
+**题目：** Read the following passage and answer the question.
+
+"The scientist was known for her meticulous attention to detail. Every experiment was repeated several times, and every data point was verified before publication. Her colleagues described her work as 'impeccable' — not a single error had ever been found in her published papers."
+
+The underlined word "meticulous" probably means:
+
+A. careless
+B. extremely careful
+C. quick
+D. creative
+
+**解答：**
+
+步骤1：分析上下文线索
+
+步骤2：文中提到"every experiment was repeated several times"（每个实验重复多次）、"every data point was verified"（每个数据点都经过验证）、"not a single error"（没有一个错误）
+
+步骤3：这些描述都指向"极其仔细"的含义
+
+步骤4：排除A（与原文相反）、C（文中未提及速度）、D（文中未提及创造力）
+
+**答案：** B
+
+### 例题5：推理判断题
+
+**题目：** Read the following passage.
+
+"Despite the economic downturn, the company reported a 15% increase in revenue for the third quarter. The CEO attributed this growth to the company's investment in digital transformation and the expansion into Asian markets."
+
+What can be inferred about the company?
+
+A. It has abandoned its traditional business model
+B. It has successfully adapted to challenging economic conditions
+C. It plans to close its Asian operations
+D. It has reduced its workforce significantly
+
+**解答：**
+
+步骤1：分析原文信息——经济低迷中收入增长15%
+
+步骤2：CEO将增长归因于数字化转型和亚洲市场扩张
+
+步骤3：推理——公司在困难时期仍能增长，说明成功适应了挑战
+
+步骤4：排除A（"abandoned"太绝对）、C（与原文相反）、D（文中未提及裁员）
+
+**答案：** B
+
+### 例题6：文章结构分析
+
+**题目：** What is the organizational structure of the following paragraph?
+
+"Smartphones have transformed communication, but they have also created new challenges. On the positive side, they enable instant global connectivity and access to information. However, excessive screen time has been linked to sleep disorders and reduced attention spans. Moreover, social media platforms accessible through smartphones have raised concerns about privacy and mental health."
+
+The structure is:
+
+A. chronological order
+B. cause and effect
+C. comparison and contrast
+D. problem-solution
+
+**解答：**
+
+步骤1：分析段落内容——先讲智能手机的好处，再讲坏处
+
+步骤2：关键词"on the positive side"和"however"表示对比
+
+步骤3：结构是先正面后负面，属于对比结构
+
+步骤4：排除A（没有时间顺序）、B（不是因果关系）、D（没有提出解决方案）
+
+**答案：** C
+
+## 深入理解
+
+### 阅读理解的答题策略
+
+高考英语阅读理解的核心策略：
+
+1. **略读（Skimming）：** 快速浏览首尾段和每段首句，把握文章主旨
+2. **扫读（Scanning）：** 带着问题快速定位关键信息
+3. **精读（Intensive Reading）：** 仔细阅读相关段落，理解细节
+4. **推理（Inference）：** 基于文中信息进行合理推断
+
+### 常见干扰项特征
+
+- **绝对化表述：** "all", "never", "always", "only" 等过于绝对的词
+- **偷换概念：** 将原文的某个概念替换成相似但不同的概念
+- **无中生有：** 选项内容在原文中完全没有提及
+- **过度推断：** 超出原文信息范围的推论

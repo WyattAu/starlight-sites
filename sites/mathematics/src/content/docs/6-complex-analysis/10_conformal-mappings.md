@@ -152,3 +152,20 @@ to the boundary (no penetration condition). $\blacksquare$
 | Riemann mapping | Any simply connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
 | Laplace correspondence | Solutions to $\nabla^2 u = 0$ are preserved under conformal maps |
 
+### 10.9 Common Mistakes
+
+**Mistake 1: Assuming that all analytic functions are conformal.**
+An analytic function is conformal only where its derivative is non-zero. At points where $f'(z_0) = 0$, the mapping is not conformal (angles are not preserved). For example, $f(z) = z^2$ is conformal everywhere except at $z = 0$, where it doubles angles.
+
+**Mistake 2: Confusing conformal with bijective.**
+A conformal map need not be bijective. For example, $f(z) = z^2$ is conformal on $\mathbb{C} \setminus \{0\}$ but not injective (both $z$ and $-z$ map to the same point). A conformal bijection is called a biholomorphism or conformal equivalence.
+
+**Mistake 3: Forgetting that Möbius transformations map circles and lines to circles and lines.**
+Möbius transformations map circles and lines to circles and lines, but they do not necessarily map a circle to a circle and a line to a line. A circle can be mapped to a line (if the circle passes through the pole of the transformation) and vice versa.
+
+**Mistake 4: Assuming that conformal maps preserve distances.**
+Conformal maps preserve angles but not distances. A conformal map can stretch or compress regions while preserving angles. For example, $f(z) = 2z$ doubles all distances but preserves angles.
+
+**Mistake 5: Forgetting the cross-ratio invariance property.**
+The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformations. This property is useful for constructing Möbius transformations that map three given points to three specified points. Do not forget to use the cross-ratio when solving such problems.
+

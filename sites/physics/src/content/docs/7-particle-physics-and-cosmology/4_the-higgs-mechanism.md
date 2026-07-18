@@ -149,3 +149,20 @@ The Higgs boson was discovered at the LHC by ATLAS and CMS on July 4, 2012, with
 GeV/$c^2$. The discovery confirmed the mechanism of electroweak symmetry Breaking and earned the
 2013 Nobel Prize for Englert and Higgs.
 
+### 4.6 Common Mistakes
+
+**Mistake 1: Assuming that the Higgs field gives mass to all particles.**
+The Higgs field gives mass to the $W^\pm$ and $Z^0$ bosons and to fermions via Yukawa couplings. However, most of the mass of protons and neutrons comes from the strong interaction energy (QCD binding energy), not from the Higgs mechanism. Do not assume that the Higgs field is responsible for all mass.
+
+**Mistake 2: Confusing spontaneous symmetry breaking with explicit symmetry breaking.**
+Spontaneous symmetry breaking occurs when the Lagrangian is symmetric but the vacuum state is not. Explicit symmetry breaking occurs when the Lagrangian itself is not symmetric. The Higgs mechanism involves spontaneous symmetry breaking, not explicit breaking.
+
+**Mistake 3: Forgetting that the Higgs mechanism preserves gauge invariance.**
+The Higgs mechanism gives mass to gauge bosons while preserving gauge invariance. This is achieved by the Higgs field acquiring a non-zero VEV, which breaks the symmetry spontaneously. Gauge invariance is not violated; it is hidden in the vacuum state.
+
+**Mistake 4: Assuming that the Higgs boson is the Higgs field.**
+The Higgs boson is an excitation of the Higgs field, not the field itself. The Higgs field permeates all of space and has a non-zero VEV. The Higgs boson is a particle that can be created and detected in experiments.
+
+**Mistake 5: Confusing the Higgs mechanism with the Anderson-Higgs mechanism.**
+The Higgs mechanism in particle physics is a relativistic generalisation of the Anderson-Higgs mechanism in condensed matter physics. The condensed matter version describes the Higgs mechanism for superconductivity, while the particle physics version describes electroweak symmetry breaking. Do not confuse the two contexts.
+

@@ -133,3 +133,26 @@ $\blacksquare$
 
 </details>
 
+### 6.5 Intuition: What Does Connectedness Mean?
+
+Connectedness asks whether a space comes in separate pieces. A connected space cannot be split into two non-empty open sets that are disjoint, which means there is no "gap" that separates it. Intuitively, you can travel between any two points without leaving the space. The intermediate value theorem is the most familiar consequence: a continuous function on a connected domain must take every value between its endpoints.
+
+Path-connectedness is a stronger and more intuitive version: a path-connected space has a continuous path between every pair of points. Every path-connected space is connected, but the converse fails for exotic spaces like the topologist's sine curve, which is connected but has no continuous path crossing the oscillating part. In $\mathbb{R}^n$, connected subsets are exactly the intervals and their higher-dimensional analogues. Connectedness is the topological tool for proving that certain configurations are impossible: if you can show a space is disconnected, you have proven that it splits into distinct parts that cannot be continuously deformed into each other.
+
+### 6.6 Common Mistakes
+
+**Mistake 1: Assuming that connected implies path-connected.**
+Every path-connected space is connected, but the converse is false. The topologist's sine curve is a classic example of a connected space that is not path-connected. Do not assume that a space is path-connected just because it is connected.
+
+**Mistake 2: Confusing connectedness with convexity.**
+Convexity is a geometric property that implies path-connectedness (and hence connectedness) in $\mathbb{R}^n$, but connectedness does not imply convexity. For example, the unit circle $S^1$ is connected but not convex. A set can be connected without being convex.
+
+**Mistake 3: Forgetting that the continuous image of a connected set is connected.**
+If $f: X \to Y$ is continuous and $X$ is connected, then $f(X)$ is connected. This property is often used to prove that certain sets are connected, but it is not an "if and only if" statement. The preimage of a connected set under a continuous map need not be connected.
+
+**Mistake 4: Assuming that a disconnected set can be written as a union of disjoint open sets in the ambient space.**
+A set $A$ is disconnected if it can be written as $A = (U \cap A) \cup (V \cap A)$ where $U$ and $V$ are disjoint open sets in the ambient space. The sets $U$ and $V$ are open in the ambient space, not necessarily in $A$. Do not confuse the subspace topology with the ambient topology.
+
+**Mistake 5: Confusing total disconnectedness with disconnectedness.**
+A space is totally disconnected if its only connected subsets are singletons. A space can be disconnected without being totally disconnected. For example, $[0, 1] \cup [2, 3]$ is disconnected but not totally disconnected, since $[0, 1]$ and $[2, 3]$ are connected subsets.
+

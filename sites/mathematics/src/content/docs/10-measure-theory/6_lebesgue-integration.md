@@ -112,7 +112,13 @@ The three convergence theorems are related: DCT follows from Fatou, and Fatou fo
 - **Assuming monotone convergence needs boundedness.** MCT requires only monotonicity and non-negativity; the limit may be infinite. **Fix:** If $\int f_n$ diverges, the theorem correctly gives $\int f = \infty$.
 - **Forgetting the non-negativity in Fatou.** Without $f_n \geq 0$, the inequality $\int \liminf f_n \leq \liminf \int f_n$ can fail. **Fix:** Apply Fatou to $f_n + g$ with $g$ integrable, then subtract.
 
-### 6.8 Applications
+### 6.8 Intuition: What Is Lebesgue Integration?
+
+Lebesgue integration is a more flexible way to define the integral that overcomes limitations of the Riemann integral. The Riemann integral partitions the domain (the $x$-axis) into small intervals and sums the function values on each interval. The Lebesgue integral partitions the range (the $y$-axis) and measures how much of the domain maps to each range interval. This swap of perspective is what makes Lebesgue integration more powerful.
+
+The key advantage is that the Lebesgue integral can handle functions with wild discontinuities. The Riemann integral of the Dirichlet function (1 on rationals, 0 on irrationals) does not exist, but its Lebesgue integral is 0 because the rationals have measure zero. The monotone convergence theorem and dominated convergence theorem allow limits and integrals to be interchanged under very general conditions, which is essential for analysis. These theorems fail for Riemann integration, which requires uniform convergence. Lebesgue integration also provides the natural setting for $L^p$ spaces, Fourier analysis, and probability theory.
+
+### 6.9 Applications
 
 - **Fourier series:** DCT justifies term-by-term integration of Fourier series, allowing computation of coefficients by integrating the series.
 - **Probability theory:** Markov's and Chebyshev's inequalities are essential for proving laws of large numbers and concentration bounds.

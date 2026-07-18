@@ -1,21 +1,108 @@
 ---
-title: "Dual nature"
-description: "CBSE Class 12 physics: Dual nature"
+title: "Dual Nature of Radiation and Matter"
+description: "CBSE Class 12 physics: Dual nature of radiation with photoelectric effect, de Broglie wavelength, and worked examples."
 ---
 
-# Dual nature
+# Dual Nature of Radiation and Matter
 
-Study notes for CBSE Class 12 physics - Dual nature.
+This topic covers the wave-particle duality of light and matter, including the photoelectric effect, Einstein's photon theory, and the de Broglie hypothesis.
 
 ## Key Concepts
 
-- Core definitions and principles
-- Worked examples with step-by-step solutions
-- Practice problems with answers
-- Common exam patterns and tips
+- Photon energy: $E = h\nu = \frac{hc}{\lambda}$ where $h = 6.63 \times 10^{-34} \, \text{J·s}$
+- Photoelectric equation: $K_{\max} = h\nu - W_0$ where $W_0$ is the work function
+- Work function: $W_0 = h\nu_0$ where $\nu_0$ is the threshold frequency
+- Stopping potential: $eV_0 = K_{\max}$
+- de Broglie wavelength: $\lambda = \frac{h}{p} = \frac{h}{mv}$
+- Electron volt: $1 \, \text{eV} = 1.6 \times 10^{-19} \, \text{J}$
+- Planck's constant: $h = 6.63 \times 10^{-34} \, \text{J·s}$
 
-## Resources
+## Worked Example 1 — Photoelectric Effect
 
-- NCERT textbook reference
-- Previous year question papers
-- Sample problems with solutions
+**Problem:** Light of wavelength 200 nm falls on a metal surface with work function 3.0 eV. Find the maximum kinetic energy of emitted photoelectrons.
+
+**Solution:**
+
+Photon energy:
+$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.95 \times 10^{-19} \, \text{J}$$
+
+Convert to eV:
+$$E = \frac{9.95 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 6.22 \, \text{eV}$$
+
+Maximum kinetic energy:
+$$K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}$$
+
+**Common mistake:** Forgetting to convert units between joules and electron volts. Always work in consistent units.
+
+## Worked Example 2 — Threshold Frequency
+
+**Problem:** The stopping potential for light of wavelength 400 nm on a metal surface is 0.5 V. Find the work function and threshold wavelength.
+
+**Solution:**
+
+Maximum kinetic energy:
+$$K_{\max} = eV_0 = 0.5 \, \text{eV}$$
+
+Photon energy:
+$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{400 \times 10^{-9}} \times \frac{1}{1.6 \times 10^{-19}} \approx 3.11 \, \text{eV}$$
+
+Work function:
+$$W_0 = E - K_{\max} = 3.11 - 0.5 = 2.61 \, \text{eV}$$
+
+Threshold wavelength:
+$$\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \approx 475 \, \text{nm}$$
+
+**Common mistake:** Using $\lambda_0 = hc/W_0$ without converting $W_0$ to joules, or using the shortcut $hc = 1240 \, \text{eV·nm}$ incorrectly.
+
+## Worked Example 3 — de Broglie Wavelength
+
+**Problem:** Find the de Broglie wavelength of an electron accelerated through a potential difference of 100 V.
+
+**Solution:**
+
+Kinetic energy gained:
+$$K = eV = 100 \, \text{eV} = 1.6 \times 10^{-17} \, \text{J}$$
+
+Momentum:
+$$p = \sqrt{2mK} = \sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-17}}$$
+
+$$p = \sqrt{2.915 \times 10^{-47}} = 5.40 \times 10^{-24} \, \text{kg·m/s}$$
+
+de Broglie wavelength:
+$$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10} \, \text{m} = 0.123 \, \text{nm}$$
+
+**Common mistake:** Forgetting to take the square root when calculating momentum from kinetic energy.
+
+## Worked Example 4 — Stopping Potential
+
+**Problem:** Light of frequency $8 \times 10^{14} \, \text{Hz}$ falls on a metal surface with work function 2.0 eV. Find the stopping potential.
+
+**Solution:**
+
+Photon energy:
+$$E = h\nu = 6.63 \times 10^{-34} \times 8 \times 10^{14} = 5.30 \times 10^{-19} \, \text{J}$$
+
+Convert to eV:
+$$E = \frac{5.30 \times 10^{-19}}{1.6 \times 10^{-19}} = 3.31 \, \text{eV}$$
+
+Maximum kinetic energy:
+$$K_{\max} = E - W_0 = 3.31 - 2.0 = 1.31 \, \text{eV}$$
+
+Stopping potential:
+$$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
+
+**Common mistake:** The stopping potential equals $K_{\max}$ in eV, but is measured in volts. Do not confuse the two.
+
+## Practice Problems
+
+1. Calculate the energy in eV of a photon with wavelength 500 nm.
+2. Find the de Broglie wavelength of a proton moving at $10^6 \, \text{m/s}$.
+3. The work function of a metal is 4.2 eV. What is the maximum wavelength of light that can eject electrons?
+
+## Common Exam Patterns
+
+- Use $hc = 1240 \, \text{eV·nm}$ as a shortcut for photon energy calculations
+- The photoelectric effect is explained by particle theory, not wave theory
+- de Broglie wavelength decreases with increasing speed (higher momentum)
+- Stopping potential is independent of intensity; it depends only on frequency
+- Threshold frequency and threshold wavelength are inversely related

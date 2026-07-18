@@ -342,3 +342,20 @@ Frequencies within a few percent) but is less reliable for band gaps (LDA undere
 
 
 </aside>
+
+### 5.12 Common Mistakes
+
+**Mistake 1: Assuming that the free electron model applies to all metals.**
+The free electron model works well for simple metals (e.g., alkali metals) but fails for transition metals and other materials with complex band structures. Do not assume that the free electron model is universally applicable.
+
+**Mistake 2: Confusing the Fermi energy with the Fermi level.**
+The Fermi energy $\varepsilon_F$ is the energy of the highest occupied state at $T = 0$, while the Fermi level $E_F$ is the chemical potential at finite temperature. In metals, they are approximately equal, but in semiconductors they can differ significantly. Do not confuse the two concepts.
+
+**Mistake 3: Forgetting that band gaps arise from the periodic potential.**
+Band gaps open at Brillouin zone boundaries due to the periodic potential of the lattice. Without a periodic potential (free electron model), there are no band gaps. Do not assume that band gaps exist in all materials; they require a periodic potential.
+
+**Mistake 4: Assuming that DFT gives exact band gaps.**
+DFT with LDA or GGA functionals underestimates band gaps by 30--50%. Hybrid functionals or GW calculations are needed for accurate band gaps. Do not assume that DFT band gaps are quantitatively accurate.
+
+**Mistake 5: Confusing the effective mass with the rest mass.**
+The effective mass $m^*$ describes how an electron responds to external fields in a periodic potential. It can be larger or smaller than the rest mass $m_e$, and can even be negative. Do not assume that the effective mass equals the rest mass.

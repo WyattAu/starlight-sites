@@ -117,7 +117,13 @@ So $A$, $B$, $C$ are pairwise independent but not mutually independent. $\blacks
 - **Finance:** Insurance pricing uses conditional probability to model claim frequency given risk factors.
 - **Machine learning:** Naive Bayes classifiers assume feature independence to compute posterior probabilities efficiently.
 
-### 1.7 Worked Example: Applying Bayes' Theorem
+### 1.7 Intuition: What Is a Probability Space?
+
+A probability space is the mathematical foundation for reasoning about uncertainty. The sample space $\Omega$ lists every possible outcome of an experiment. The sigma-algebra $\mathcal{F}$ specifies which collections of outcomes we are allowed to assign probabilities to. The probability measure $P$ assigns numbers between 0 and 1 to those collections, obeying the rule that disjoint events have additive probabilities.
+
+The sigma-algebra is more than a formality. For infinite sample spaces, not every subset can be assigned a meaningful probability. The sigma-algebra ensures closure under countable operations, which is needed for taking limits of events. Conditional probability, $P(A|B) = P(A \cap B)/P(B)$, is the mathematical formalisation of "updated belief": it reassigns probabilities after learning that event $B$ has occurred. Bayes' theorem then converts between $P(A|B)$ and $P(B|A)$, which is the foundation of statistical inference. Independence captures the idea that knowing one event occurred tells you nothing about the other, formalised as $P(A \cap B) = P(A)P(B)$.
+
+### 1.8 Worked Example: Applying Bayes' Theorem
 
 **Problem.** A disease affects 1 in 1000 people. A test is 99% sensitive (true positive rate) and 95% specific (true negative rate). If a person tests positive, what is the probability they have the disease?
 

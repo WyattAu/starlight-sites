@@ -87,3 +87,44 @@ HSC english study notes - Writing
 1. Write a 500-word creative piece that begins with the line "The door was unlocked"
 2. Write a short answer response analysing the use of symbolism in a text you have studied
 3. Write an essay introduction for a question on a text you have studied
+
+### Example 4: Persuasive Writing
+
+**Problem:** Write a persuasive paragraph arguing for the importance of school libraries.
+
+**Solution:**
+
+"In an age dominated by digital distractions, school libraries remain indispensable sanctuaries of learning. They provide equal access to information regardless of socioeconomic background, fostering intellectual curiosity and critical thinking. Research consistently demonstrates that students with regular library access achieve higher academic outcomes and develop stronger research skills. Moreover, libraries cultivate a love of reading — a habit that transcends academic achievement and enriches personal development. To underfund school libraries is to undermine the very foundation of education itself."
+
+**Answer:** The paragraph uses evidence-based reasoning, inclusive language ("sanctuaries," "fostering"), and a strong concluding statement to persuade.
+
+### Example 5: Analytical Paragraph
+
+**Problem:** Write a PEEL paragraph analysing the theme of isolation in a novel.
+
+**Solution:**
+
+"The author presents isolation as both a physical and psychological condition through the protagonist's deliberate withdrawal from society. In Chapter 5, the description of the character's 'deliberate solitude' and 'unwillingness to engage' demonstrates a conscious rejection of human connection. This isolation is further reinforced through the recurring motif of locked doors and closed windows, symbolising the character's emotional barriers. The author's use of claustrophobic imagery — 'walls closing in,' 'air thick with silence' — creates a sense of entrapment that suggests isolation is not freedom but imprisonment. This portrayal ultimately argues that genuine human connection is essential for psychological wellbeing."
+
+**Answer:** The paragraph follows PEEL: Point (isolation as physical and psychological), Evidence (Chapter 5 quote), Explanation (symbolism analysis), Link (broader theme).
+
+### Example 6: Creative Writing Character Development
+
+**Problem:** Write a 100-word passage showing a character's change in attitude through action and dialogue.
+
+**Solution:**
+
+"Maria slammed the textbook shut. 'I'm done,' she muttered, pushing back from the desk. 'This is pointless.' Her tutor paused, watching her gather her bag with aggressive jerks. 'You said that about calculus last month,' he said quietly. 'And now you teach it.' Maria's hands stilled. She remembered the night she'd cried over derivatives, convinced she'd never understand. Now the symbols sang. She set the bag down slowly. 'One more problem,' she said, pulling the book back. The tutor smiled. 'That's all I ask.'"
+
+**Answer:** The passage shows character change through physical actions (slamming to setting down slowly), dialogue progression, and internal reflection.
+
+## Why This Matters
+
+Writing is a transferable skill essential for academic success, professional communication, and creative expression. The HSC English course develops both analytical and creative writing abilities.
+
+## Additional Exam Tips
+
+7. In creative writing, use sensory details (sight, sound, smell, touch, taste) to create atmosphere
+8. In analytical writing, always use the present tense when discussing texts
+9. Vary sentence length for effect — short sentences for emphasis, longer for complexity
+10. Leave time to proofread — errors in spelling and grammar cost marks

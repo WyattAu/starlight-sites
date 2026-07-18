@@ -142,3 +142,20 @@ $\blacksquare$
 | Matthiessen's rule | $\rho = \rho_0 + \rho_{\mathrm{ph}}(T)$ | Impurity + phonon scattering |
 | Bloch-Gruneisen | $\rho_{\mathrm{ph}} \propto T^5$ at low $T$ | Phonon population, Umklapp |
 
+### 8.7 Common Mistakes
+
+**Mistake 1: Assuming that the Drude model is accurate at all temperatures.**
+The Drude model works well at room temperature but fails at low temperatures, where quantum effects become important. The Drude model predicts $\rho \propto T$, but experiments show $\rho \propto T^5$ at low temperatures for pure metals. Do not assume that the Drude model is universally valid.
+
+**Mistake 2: Confusing the mean free path with the interatomic spacing.**
+The mean free path $\ell = v_F \tau$ is the average distance between scattering events, while the interatomic spacing is the distance between atoms in the lattice. In clean metals at low temperatures, the mean free path can be much larger than the interatomic spacing. Do not confuse the two concepts.
+
+**Mistake 3: Forgetting that the Hall coefficient can be positive or negative.**
+The Hall coefficient $R_H = -1/(ne)$ for a single-band metal with electron carriers. However, in materials with both electron and hole carriers, the Hall coefficient can be positive or negative depending on the relative concentrations and mobilities. Do not assume that the Hall coefficient is always negative.
+
+**Mistake 4: Assuming that Matthiessen's rule is exact.**
+Matthiessen's rule states that the total resistivity is the sum of impurity and phonon contributions: $\rho = \rho_0 + \rho_{\mathrm{ph}}(T)$. This is an approximation that ignores interference between scattering mechanisms. Do not assume that Matthiessen's rule is exact; it is a good approximation in many cases.
+
+**Mistake 5: Confusing the electronic specific heat with the total specific heat.**
+The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contribution to the total specific heat. The lattice (phonon) contribution dominates at high temperatures. Do not assume that the total specific heat is entirely electronic.
+

@@ -237,7 +237,13 @@ $\blacksquare$
 
 </details>
 
-### 7.10 Common Pitfalls
+### 7.10 Intuition: Why Do Inner Products Matter?
+
+An inner product generalises the familiar dot product to abstract vector spaces, including function spaces. It gives you two crucial pieces of information: the length of a vector (via the induced norm) and the angle between vectors (via the inner product value). Without an inner product, you can measure linear structure but not geometric structure.
+
+The Cauchy-Schwarz inequality is the foundation: it says the "correlation" between two vectors is bounded by their lengths, just as the cosine of an angle is bounded between negative one and one. Orthogonal projection is the geometric operation of finding the closest point in a subspace, which generalises the idea of "shadow" from physical light to arbitrary dimensions. The Gram-Schmidt process is the systematic way to build an orthonormal basis, analogous to aligning coordinate axes with the principal directions of your data. In function spaces like $L^2$, the inner product measures how similar two functions are, which is the basis of Fourier analysis and signal processing.
+
+### 7.11 Common Pitfalls
 
 - **The Cauchy--Schwarz inequality is not the triangle inequality.** Cauchy--Schwarz bounds the
   inner product by the product of norms; the triangle inequality bounds the norm of a sum by the sum

@@ -724,3 +724,118 @@ end
 - **Ruby Weekly newsletter**: https://rubyweekly.com/
 - **Ruby source code**: https://github.com/ruby/ruby
 - **Rails guides**: https://guides.rubyonrails.org/
+
+## Worked Examples
+
+### Example 1: Idiomatic Ruby Data Transformation
+
+**Problem:** Given an array of hashes representing users, filter active users, sort by name, and transform into a formatted string.
+
+```ruby
+users = [
+  { name: "Alice", age: 30, active: true },
+  { name: "Bob", age: 25, active: false },
+  { name: "Charlie", age: 35, active: true },
+  { name: "Diana", age: 28, active: true },
+]
+
+result = users
+  .select { |u| u[:active] }
+  .sort_by { |u| u[:name] }
+  .map { |u| "#{u[:name]} (#{u[:age]})" }
+  .join(", ")
+
+puts result
+# => "Alice (30), Charlie (35), Diana (28)"
+```
+
+**Explanation:** Ruby's enumerable methods chain naturally. `select` filters by the `:active` key, `sort_by` orders alphabetically by name, `map` transforms each hash into a formatted string, and `join` combines them. This functional pipeline avoids mutable intermediate variables and reads left to right.
+
+---
+
+### Example 2: Block-Based DSL for Configuration
+
+**Problem:** Create a simple configuration DSL that uses blocks to build a settings hash.
+
+```ruby
+class Config
+  def initialize
+    @settings = {}
+  end
+
+  def database(&block)
+    @settings[:database] = {}
+    instance_eval(&block) if block
+  end
+
+  def host(value)
+    @settings[:database][:host] = value
+  end
+
+  def port(value)
+    @settings[:database][:port] = value
+  end
+
+  def to_h
+    @settings.dup
+  end
+end
+
+config = Config.new
+config.database do
+  host "localhost"
+  port 5432
+end
+
+puts config.to_h
+# => {:database=>{:host=>"localhost", :port=>5432}}
+```
+
+**Explanation:** `instance_eval` runs the block in the context of the Config instance, so `host` and `port` calls inside the block invoke the Config methods directly. This pattern is the foundation of Rails configuration DSLs. The block provides a clean, declarative syntax while the class handles the implementation.
+
+---
+
+### Example 3: Error Handling with Custom Exceptions
+
+**Problem:** Define a custom exception hierarchy for an application and handle errors gracefully with retry logic.
+
+```ruby
+class AppError < StandardError; end
+class ValidationError < AppError; end
+class NotFoundError < AppError; end
+
+def find_user(id)
+  raise ValidationError, "ID must be positive" unless id.positive?
+
+  users = { 1 => "Alice", 2 => "Bob" }
+  raise NotFoundError, "User #{id} not found" unless users.key?(id)
+
+  users[id]
+end
+
+def fetch_with_retry(id, max_attempts: 3)
+  attempts = 0
+  begin
+    attempts += 1
+    find_user(id)
+  rescue ValidationError => e
+    puts "Validation failed: #{e.message}"
+    raise
+  rescue NotFoundError => e
+    puts "Attempt #{attempts}: #{e.message}"
+    retry if attempts < max_attempts
+    nil
+  end
+end
+
+puts fetch_with_retry(1)
+# => "Alice"
+
+puts fetch_with_retry(99)
+# => "Attempt 1: User 99 not found"
+# => "Attempt 2: User 99 not found"
+# => "Attempt 3: User 99 not found"
+# => nil
+```
+
+**Explanation:** Custom exceptions inherit from `StandardError` (not `Exception`) to ensure they can be caught by bare `rescue`. `ValidationError` is re-raised immediately because it indicates a programming error. `NotFoundError` is retried because it may be a transient issue. The `retry` keyword restarts the `begin` block from the beginning.

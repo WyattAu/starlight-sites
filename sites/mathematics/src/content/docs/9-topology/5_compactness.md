@@ -149,3 +149,26 @@ $\blacksquare$
 
 </details>
 
+### 5.14 Intuition: What Does Compactness Mean?
+
+Compactness is the topological version of "smallness" or "finiteness." A compact space is one where every open cover can be reduced to a finite subcover, which means you cannot "escape to infinity" within the space. In $\mathbb{R}^n$, the Heine-Borel theorem says compact sets are exactly the closed and bounded ones: they do not extend to infinity and they include their boundary points.
+
+The power of compactness is that it turns qualitative statements into quantitative ones. On a compact space, every continuous function achieves its maximum and minimum (the extreme value theorem), every sequence has a convergent subsequence (sequential compactness), and every infinite set has a limit point. Without compactness, these properties can fail: $f(x) = x$ on $(0,1)$ achieves no maximum, and the sequence $1/n$ in $(0,1)$ has no convergent subsequence within the space. Compactness is also preserved by continuous images and finite intersections, making it a robust property for proving existence results throughout analysis and geometry.
+
+### 5.15 Common Mistakes
+
+**Mistake 1: Assuming that closed and bounded implies compact in general topological spaces.**
+The Heine-Borel theorem states that closed and bounded subsets of $\mathbb{R}^n$ are compact, but this does not hold in general topological spaces. For example, the closed unit ball in an infinite-dimensional normed space is closed and bounded but not compact. Compactness must be verified using the definition or appropriate theorems for the specific space.
+
+**Mistake 2: Confusing compactness with sequential compactness.**
+In metric spaces, compactness and sequential compactness are equivalent, but in general topological spaces they are not. The first uncountable ordinal $\omega_1$ with the order topology is sequentially compact but not compact, while $\{0, 1\}^{\mathbb{R}}$ with the product topology is compact but not sequentially compact.
+
+**Mistake 3: Forgetting that compactness is preserved by continuous maps.**
+The image of a compact space under a continuous map is compact. This is a key property that is often overlooked. If $f: X \to Y$ is continuous and $X$ is compact, then $f(X)$ is compact in $Y$. This fact is used to prove the extreme value theorem.
+
+**Mistake 4: Assuming that the product of compact spaces is compact requires the axiom of choice.**
+Tychonoff's theorem states that the product of any collection of compact spaces is compact. For finite products, this follows from the tube lemma without the axiom of choice. However, for arbitrary products, the full axiom of choice is required. Do not assume the result holds without choice in the infinite case.
+
+**Mistake 5: Confusing local compactness with compactness.**
+A space is locally compact if every point has a compact neighbourhood, but this does not imply that the space itself is compact. For example, $\mathbb{R}$ is locally compact (every point has a compact neighbourhood) but not compact (it is not bounded). Local compactness is a weaker condition than compactness.
+

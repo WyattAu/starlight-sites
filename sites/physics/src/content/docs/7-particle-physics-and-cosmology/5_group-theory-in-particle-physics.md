@@ -219,6 +219,19 @@ $\eta$-$\eta'$ mixing complicates the mass formula significantly.
 
 </details>
 
-$$
+### 5.10 Common Mistakes
 
-$$
+**Mistake 1: Confusing colour charge with electric charge.**
+Colour charge is the charge associated with the strong interaction, carried by quarks and gluons. Electric charge is the charge associated with the electromagnetic interaction. Quarks carry both colour and electric charge, but gluons carry only colour charge. Do not confuse the two.
+
+**Mistake 2: Assuming that gluons are electrically neutral.**
+Gluons are electrically neutral (they do not carry electric charge), but they do carry colour charge. This is why gluons interact with each other, unlike photons which are electrically neutral and do not interact with each other.
+
+**Mistake 3: Forgetting that quarks come in three colours.**
+Quarks come in three colour states (red, green, blue). This is not related to actual colour; it is a quantum number. Each quark carries one colour, and antiquarks carry the corresponding anticolour. Do not assume that quarks are colourless.
+
+**Mistake 4: Confusing the Gell-Mann matrices with the Pauli matrices.**
+The Gell-Mann matrices are the generators of SU(3) in the fundamental representation, while the Pauli matrices are the generators of SU(2). The Gell-Mann matrices are $3 \times 3$ matrices, while the Pauli matrices are $2 \times 2$ matrices. Do not confuse the two sets of matrices.
+
+**Mistake 5: Assuming that all hadrons are colour singlets.**
+All observable hadrons are colour singlets (colour-neutral). This is a consequence of colour confinement. However, there is ongoing research into exotic states (such as tetraquarks and pentaquarks) that may not be simple colour singlets. Do not assume that all hadrons are simple $q\bar{q}$ or $qqq$ states.

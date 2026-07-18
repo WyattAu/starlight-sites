@@ -114,7 +114,13 @@ theorem, $\mathbb{C}^* / S^1 \cong \mathbb{R}^+$. $\blacksquare$
 <strong>Research Connections</strong>
 The classification of finite simple groups (completed 2004, ~10,000 pages across ~100 papers) is one of the great achievements of 20th-century mathematics. It states that every finite simple group is either cyclic, alternating, a Lie-type group, or one of 26 sporadic groups. The largest sporadic group, the Monster, has order ~8×10^53 and connects to string theory (Monstrous Moonshine, Conway-Norton 1979). Current research includes: finding new sporadic-like objects, computational group theory, and applications to coding theory and cryptography.
 </aside>
-### 4.5 Common Pitfalls
+### 4.5 Intuition: What Are Normal Subgroups and Quotients?
+
+A normal subgroup is a subgroup that is invariant under conjugation: $gNg^{-1} = N$ for all $g \in G$. This means the subgroup "looks the same" from every perspective in the group. Normality is the algebraic condition that makes quotient groups possible: when $N$ is normal, the cosets $G/N$ inherit a group structure because the product of two cosets is well-defined.
+
+The quotient group $G/N$ collapses all elements of $N$ to the identity, creating a simpler group that captures the "large-scale" structure of $G$ while ignoring the internal structure of $N$. The first isomorphism theorem says that $G/\ker(\phi) \cong \mathrm{im}(\phi)$: every homomorphism factors through its quotient. This means quotient groups are the natural objects that arise from homomorphisms. For example, $\mathbb{Z}/n\mathbb{Z}$ is the quotient that collapses all multiples of $n$ to zero, creating a finite cyclic group. The cosets of a normal subgroup partition the group into equal-sized pieces, and the quotient group describes how these pieces fit together.
+
+### 4.6 Common Pitfalls
 
 - **Forgetting to check all cosets.** When verifying normality via $gNg^{-1} \subseteq N$, you must check every $g \in G$, not just generators.
 - **Confusing $G/N$ with $N/G$.** The quotient $G/N$ is defined only when $N \trianglelefteq G$; the notation is not symmetric.

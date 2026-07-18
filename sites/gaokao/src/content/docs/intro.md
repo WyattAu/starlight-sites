@@ -194,8 +194,63 @@ each approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+### Example 1: Cross-Disciplinary Problem -- Algebra and Probability
+
+**题目：** 从集合 $\{1, 2, 3, 4, 5, 6\}$ 中随机抽取两个不同的数字 $a$ 和 $b$，求 $a + b$ 为偶数的概率。
+
+**解答：**
+
+步骤1：总取法数为 $\binom{6}{2} = 15$ 种。
+
+步骤2：$a + b$ 为偶数当且仅当 $a$ 和 $b$ 同奇或同偶。
+- 奇数集合：$\{1, 3, 5\}$，取法数 $\binom{3}{2} = 3$
+- 偶数集合：$\{2, 4, 6\}$，取法数 $\binom{3}{2} = 3$
+
+步骤3：有利取法数 $= 3 + 3 = 6$。
+
+步骤4：概率 $P = \dfrac{6}{15} = \dfrac{2}{5}$。
+
+**答案：** $P = \dfrac{2}{5}$
+
+### Example 2: Cross-Disciplinary Problem -- Functions and Calculus
+
+**题目：** 已知函数 $f(x) = x^3 - 3x^2 + 1$，求 $f(x)$ 在区间 $[-1, 4]$ 上的最大值和最小值。
+
+**解答：**
+
+步骤1：求导：$f'(x) = 3x^2 - 6x = 3x(x - 2)$。
+
+步骤2：令 $f'(x) = 0$，得 $x = 0$ 或 $x = 2$，均为区间内的驻点。
+
+步骤3：计算端点值和驻点值：
+- $f(-1) = (-1)^3 - 3(-1)^2 + 1 = -3$
+- $f(0) = 0 - 0 + 1 = 1$
+- $f(2) = 8 - 12 + 1 = -3$
+- $f(4) = 64 - 48 + 1 = 17$
+
+步骤4：最大值为 $f(4) = 17$，最小值为 $f(-1) = f(2) = -3$。
+
+**答案：** 最大值为 $17$，最小值为 $-3$
+
+### Example 3: Cross-Disciplinary Problem -- Chemistry and Mathematics
+
+**题目：** 在标准状况下，将 $2.24\,\text{L}$ 的 $\text{CO}_2$ 通入 $100\,\text{mL}$ $1\,\text{mol/L}$ 的 $\text{NaOH}$ 溶液中，求所得溶液中溶质的物质的量之比。
+
+**解答：**
+
+步骤1：计算物质的量：
+- $n(\text{CO}_2) = \dfrac{2.24}{22.4} = 0.1\,\text{mol}$
+- $n(\text{NaOH}) = 0.1 \times 1 = 0.1\,\text{mol}$
+
+步骤2：分析反应：
+- $\text{CO}_2 + 2\text{NaOH} \rightarrow \text{Na}_2\text{CO}_3 + \text{H}_2\text{O}$（需 $n(\text{NaOH}) = 0.2\,\text{mol}$）
+- $\text{CO}_2 + \text{NaOH} \rightarrow \text{NaHCO}_3$（需 $n(\text{NaOH}) = 0.1\,\text{mol}$）
+
+步骤3：$n(\text{NaOH}) : n(\text{CO}_2) = 1:1$，恰好完全反应生成 $\text{NaHCO}_3$。
+
+步骤4：溶质为 $\text{NaHCO}_3$，物质的量为 $0.1\,\text{mol}$。
+
+**答案：** 溶质为 $\text{NaHCO}_3$，物质的量为 $0.1\,\text{mol}$
 
 ## Common Pitfalls
 

@@ -93,7 +93,13 @@ $\blacksquare$
 
 </details>
 
-### 4.4 Common Pitfalls
+### 4.4 Intuition: Why Do the LLN and CLT Work?
+
+The Law of Large Numbers says that the sample mean converges to the true mean as the sample size grows. The intuition is simple: random fluctuations in individual observations cancel out when you average many of them. Positive deviations and negative deviations are equally likely, and their effects average to zero. The weak law guarantees convergence in probability (most samples give a mean close to the true mean), while the strong law guarantees almost sure convergence (the sample mean is eventually and permanently close).
+
+The Central Limit Theorem is deeper: it says that the shape of the distribution of a sum converges to a normal distribution, regardless of the original distribution. The reason is that each individual observation contributes a small amount to the sum, and the combined effect of many small independent contributions is approximately normal. This is analogous to how a random walk in many dimensions ends up approximately Gaussian. The CLT explains why the normal distribution appears so frequently in nature: any quantity that is the sum of many small independent effects will be approximately normally distributed. The Berry-Esseen theorem quantifies how fast this convergence happens, bounding the error by a constant times $\rho/(\sigma^3 \sqrt{n})$.
+
+### 4.5 Common Pitfalls
 
 - **The CLT does not apply to small samples.** The CLT is an asymptotic result. For small $n$ (
   $n < 30$), the normal approximation can be poor unless the underlying distribution is already

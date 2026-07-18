@@ -106,3 +106,62 @@ Step 3: Count: 2 structural isomers
 1. Name: CH₃CH₂CH₂COOH
 2. Write the equation for the reaction between propanoic acid and methanol
 3. Draw all structural isomers of C₅H₁₂
+
+### Example 4: Reaction Mechanisms
+
+**Problem:** Write the mechanism for the acid-catalysed hydration of ethene to form ethanol.
+
+**Solution:**
+
+Step 1: Protonation of ethene (electrophilic addition):
+$$\text{CH}_2=\text{CH}_2 + \text{H}^+ \rightarrow \text{CH}_3\text{CH}_2^+$$
+
+Step 2: Nucleophilic attack by water:
+$$\text{CH}_3\text{CH}_2^+ + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{OH}_2^+$$
+
+Step 3: Deprotonation:
+$$\text{CH}_3\text{CH}_2\text{OH}_2^+ \rightarrow \text{CH}_3\text{CH}_2\text{OH} + \text{H}^+$$
+
+**Answer:** The mechanism involves protonation, nucleophilic attack, and deprotonation. The acid catalyst is regenerated.
+
+### Example 5: Optical Isomerism
+
+**Problem:** Does 2-bromobutane exhibit optical isomerism? Explain.
+
+**Solution:**
+
+Step 1: Draw the structure: CH₃CHBrCH₂CH₃
+
+Step 2: Identify the chiral centre: Carbon 2 is bonded to four different groups: CH₃, H, Br, and CH₂CH₃
+
+Step 3: Since carbon 2 has four different substituents, it is a chiral centre.
+
+Step 4: The molecule exists as two enantiomers (R and 2-bromobutane), which rotate plane-polarized light in opposite directions.
+
+**Answer:** Yes, 2-bromobutane exhibits optical isomerism because it has a chiral centre at carbon 2.
+
+### Example 6: Elimination vs Substitution
+
+**Problem:** Predict whether the reaction of 2-bromopropan with alcoholic KOH gives mainly an alkene or an alcohol.
+
+**Solution:**
+
+Step 1: Identify the reaction conditions: alcoholic KOH (strong base in non-aqueous solvent)
+
+Step 2: These conditions favour elimination (E2 mechanism) over substitution (SN2)
+
+Step 3: The product is propene via dehydrohalogenation:
+$$\text{CH}_3\text{CHBrCH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CH}_2 + \text{KBr} + \text{H}_2\text{O}$$
+
+**Answer:** Elimination predominates, giving propene as the major product.
+
+## Why This Matters
+
+Organic chemistry is the basis of pharmaceuticals, plastics, food science, and biochemistry. Understanding reaction mechanisms allows chemists to design and synthesise new molecules with specific properties.
+
+## Additional Exam Tips
+
+5. When naming compounds, always identify the longest chain containing the functional group
+6. Degree of unsaturation = $\frac{2C + 2 - H}{2}$ helps determine if rings or double bonds are present
+7. Esterification is reversible — use excess reagent or remove water to drive equilibrium
+8. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon

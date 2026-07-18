@@ -147,3 +147,20 @@ $\int_\gamma \frac{dz}{z^4 + 1} = 2\pi i \cdot 0 = 0$. $\blacksquare$
 
 </details>
 
+### 8.8 Common Mistakes
+
+**Mistake 1: Confusing the residue with the coefficient $a_{-1}$.**
+The residue of $f$ at an isolated singularity $z_0$ is the coefficient $a_{-1}$ in the Laurent series expansion $f(z) = \sum_{n=-\infty}^{\infty} a_n (z - z_0)^n$. Do not confuse this with other coefficients or with the value of the function at the singularity.
+
+**Mistake 2: Forgetting to check if singularities are inside the contour.**
+When using the residue theorem, only include singularities that lie inside the contour. A singularity on the contour makes the integral undefined (or requires a principal value). Always check the location of each singularity relative to the contour.
+
+**Mistake 3: Misclassifying a removable singularity as a pole.**
+A removable singularity has no principal part in its Laurent series. If $\lim_{z \to z_0} (z - z_0)^m f(z) = 0$ for all $m \geq 1$, then $z_0$ is removable. Do not assume that a function with a limit at a singularity is removable; the limit must exist and be finite.
+
+**Mistake 4: Forgetting the factor of $2\pi i$ in the residue theorem.**
+The residue theorem states that $\int_\gamma f(z)\, dz = 2\pi i \sum \mathrm{Res}(f, z_k)$, where the sum is over singularities inside $\gamma$. Forgetting the $2\pi i$ factor is a common error. Always include it when computing contour integrals.
+
+**Mistake 5: Confusing the order of a pole with the residue.**
+The residue at a pole of order $m$ is given by $\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!} \lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}} [(z - z_0)^m f(z)]$. Do not assume that the residue is zero at a pole of order greater than one; it can be non-zero.
+

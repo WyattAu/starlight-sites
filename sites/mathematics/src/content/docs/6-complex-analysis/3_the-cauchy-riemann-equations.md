@@ -145,3 +145,20 @@ $f'(z) = u_x + iv_x = \frac{-(x^2 - y^2 + 2ixy)}{(x^2 + y^2)^2} = \frac{-1}{z^2}
 
 </details>
 
+### 3.8 Common Mistakes
+
+**Mistake 1: Assuming that the Cauchy-Riemann equations are sufficient for differentiability.**
+The Cauchy-Riemann equations are necessary but not sufficient for complex differentiability. Even if $u$ and $v$ satisfy the Cauchy-Riemann equations at a point, $f$ may not be differentiable there if the partial derivatives are not continuous. The sufficiency condition requires continuous partial derivatives in a neighborhood.
+
+**Mistake 2: Forgetting the negative sign in the second Cauchy-Riemann equation.**
+The Cauchy-Riemann equations are $u_x = v_y$ and $u_y = -v_x$. The second equation has a negative sign. Forgetting this sign leads to incorrect conclusions about analyticity. Always check both equations carefully.
+
+**Mistake 3: Confusing the formula for the derivative.**
+When the Cauchy-Riemann equations hold, the derivative is $f'(z) = u_x + iv_x = v_y - iu_y$. Do not use $f'(z) = u_x + iu_y$ or other incorrect combinations. The derivative must be expressible in terms of either $u_x$ and $v_x$ or $v_y$ and $u_y$.
+
+**Mistake 4: Assuming that a function satisfying the Cauchy-Riemann equations at a single point is analytic.**
+Analyticity requires differentiability in a neighborhood, not just at a point. A function can satisfy the Cauchy-Riemann equations at a single point without being analytic there. For example, $f(z) = |z|^2$ satisfies the Cauchy-Riemann equations only at $z = 0$, but it is not analytic anywhere.
+
+**Mistake 5: Forgetting to check that partial derivatives are continuous.**
+The sufficiency condition for the Cauchy-Riemann equations requires that the partial derivatives $u_x, u_y, v_x, v_y$ be continuous in a neighborhood. If the partial derivatives are not continuous, the function may not be differentiable even if the Cauchy-Riemann equations hold. Always verify continuity of partial derivatives.
+

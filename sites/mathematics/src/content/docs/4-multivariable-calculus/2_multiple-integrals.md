@@ -279,7 +279,13 @@ elementary Antiderivative with respect to $y$. Swapping the order was essential.
 
 </details>
 
-### 2.7 Common Pitfalls
+### 2.7 Intuition: What Are Multiple Integrals?
+
+A multiple integral extends the idea of area under a curve to higher dimensions. A double integral computes the signed volume under a surface $z = f(x,y)$ over a region in the plane, while a triple integral computes the integral of a function over a three-dimensional region. Fubini's theorem says you can evaluate these integrals one variable at a time, converting a double integral into iterated single integrals, which is the computational workhorse.
+
+The key to setting up multiple integrals is describing the region correctly. Type I and Type II regions in the plane correspond to fixing $x$ and integrating over $y$, or vice versa. When the region has a complicated shape, you may need to split the integral or change the order of integration. Changes of variables, such as polar or spherical coordinates, simplify the integrand or the region at the cost of introducing a Jacobian determinant that accounts for how the coordinate transformation stretches or compresses space. The Jacobian is the multivariable analogue of the chain rule: it measures how much a small volume element is distorted by the transformation.
+
+### 2.8 Common Pitfalls
 
 <aside class="starlight-aside starlight-aside--caution">
 - **Order of integration limits.** When setting up

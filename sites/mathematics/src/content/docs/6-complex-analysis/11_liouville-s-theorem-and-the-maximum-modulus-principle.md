@@ -144,3 +144,20 @@ for all $z$, then $f$ is constant.
 
 _Solution._ Consider $g(z) = e^{if(z)}$. Then $|g(z)| = e^{-\mathrm{Im}(f(z))} \leq 1$, so $g$ is
 bounded entire, hence constant. Thus $f$ is constant. $\blacksquare$
+
+### 11.7 Common Mistakes
+
+**Mistake 1: Assuming that Liouville's theorem applies to bounded functions on a domain.**
+Liouville's theorem states that every bounded entire function is constant. It does not apply to bounded functions on a proper subset of $\mathbb{C}$. For example, $f(z) = z$ is bounded on the unit disk but not constant. The function must be entire (analytic on all of $\mathbb{C}$).
+
+**Mistake 2: Forgetting that the maximum modulus principle requires non-constant functions.**
+The maximum modulus principle states that a non-constant analytic function has no local maximum in its domain. If the function is constant, then $|f|$ is constant and every point is both a maximum and a minimum. Always check that the function is non-constant before applying the principle.
+
+**Mistake 3: Confusing the maximum and minimum modulus principles.**
+The maximum modulus principle says that $|f|$ attains its maximum on the boundary of a bounded domain. The minimum modulus principle says that $|f|$ attains its minimum on the boundary only if $f$ has no zeros inside. If $f$ has zeros, the minimum is zero at those zeros, not on the boundary.
+
+**Mistake 4: Assuming that the Schwarz lemma applies to all analytic functions on the disk.**
+The Schwarz lemma applies only to analytic functions $f: \mathbb{D} \to \mathbb{D}$ with $f(0) = 0$. If $f(0) \neq 0$, the lemma does not apply. For functions with $f(0) \neq 0$, use the Schwarz-Pick lemma instead.
+
+**Mistake 5: Forgetting that Liouville's theorem is used to prove the fundamental theorem of algebra.**
+Liouville's theorem is a key tool in proving that every non-constant polynomial has a root in $\mathbb{C}$. If you forget this connection, you may miss elegant proofs of existence results. Always consider Liouville's theorem when dealing with entire functions and their properties.

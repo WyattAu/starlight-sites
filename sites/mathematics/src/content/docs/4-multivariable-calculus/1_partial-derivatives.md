@@ -304,7 +304,13 @@ $\phi'(t) = \nabla f(\mathbf{a} + t(\mathbf{x}-\mathbf{a})) \cdot (\mathbf{x}-\m
 Derivatives involve higher-order partial derivatives of $f$. Substituting
 $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\blacksquare$
 
-### 1.12 Common Pitfalls
+### 1.12 Intuition: What Do Partial Derivatives Tell You?
+
+A partial derivative measures the rate of change of a function when you move in one coordinate direction while holding all others fixed. If $f(x,y)$ represents the temperature at position $(x,y)$, then $f_x$ tells you how fast the temperature changes as you walk east, ignoring north-south motion. The gradient vector $\nabla f$ collects all partial derivatives into a single object that points in the direction of steepest ascent, and its magnitude tells you the slope in that direction.
+
+The key subtlety in multivariable calculus is that knowing all partial derivatives does not guarantee the function is well-approximated by a linear map. A function can have all partial derivatives at a point yet oscillate wildly, making it non-differentiable. The remedy is to require that the partial derivatives be continuous ($C^1$), which ensures the function is genuinely differentiable. The multivariable chain rule extends the single-variable version: the rate of change of $f(\mathbf{g}(t))$ depends on how $f$ changes at each coordinate (the gradient) times how each coordinate changes with $t$ (the Jacobian). The Hessian matrix, containing all second-order partial derivatives, captures the curvature of the surface and is essential for optimisation.
+
+### 1.13 Common Pitfalls
 
 <aside class="starlight-aside starlight-aside--caution">
 - **Existence $\neq$ continuity of partials.** A function can have all partial derivatives at a

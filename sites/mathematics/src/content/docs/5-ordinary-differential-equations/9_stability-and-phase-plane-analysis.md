@@ -132,7 +132,13 @@ $\blacksquare$
 
 </details>
 
-### 9.8 Competing Species
+### 9.8 Intuition: What Do Phase Portraits Reveal?
+
+Phase portraits are flow maps for dynamical systems. Each point in the plane represents a state of the system, and the trajectory through that point shows how the state evolves over time. Critical points are states where nothing changes (the system is in equilibrium). The eigenvalues of the Jacobian at a critical point tell you what happens to nearby trajectories: negative real parts mean trajectories spiral or flow inward (stability), positive real parts mean they spiral or flow outward (instability), and purely imaginary eigenvalues mean they orbit the critical point (center).
+
+The Hartman-Grobman theorem guarantees that near a hyperbolic critical point (no eigenvalues on the imaginary axis), the nonlinear system looks qualitatively the same as its linearisation. This is why eigenvalue analysis is so powerful: it tells you the local geometry of the flow without solving the equations. Limit cycles, which are isolated periodic orbits, are inherently nonlinear phenomena. The Poincare-Bendixson theorem says that in two dimensions, a trajectory trapped in a bounded region with no critical points must approach a periodic orbit, which means two-dimensional systems cannot exhibit chaos. In three or more dimensions, chaos becomes possible because trajectories have more room to avoid intersecting themselves.
+
+### 9.9 Competing Species
 
 The competing species model is:
 
@@ -145,4 +151,21 @@ where both $x'$ and $y'$ vanish.
 The stability of the coexistence point determines whether both species survive. If
 $a_{11}a_{22} > a_{12}a_{21}$Coexistence is stable; otherwise, one species drives the other To
 extinction (competitive exclusion).
+
+### 9.7 Common Mistakes
+
+**Mistake 1: Assuming that linearization always determines stability.**
+Linearization determines the local stability of hyperbolic critical points (where no eigenvalue has zero real part). For non-hyperbolic critical points (e.g., purely imaginary eigenvalues), linearization is inconclusive and nonlinear analysis is required. Do not assume that linearization always works.
+
+**Mistake 2: Confusing stability with asymptotic stability.**
+A critical point is stable if nearby trajectories stay nearby, and asymptotically stable if they converge to the critical point. A center is stable but not asymptotically stable. Do not confuse the two concepts.
+
+**Mistake 3: Forgetting that the Jacobian must be evaluated at the critical point.**
+The Jacobian matrix $J\mathbf{f}(\mathbf{x}^*)$ must be evaluated at the critical point $\mathbf{x}^*$, not at an arbitrary point. Evaluating at the wrong point leads to incorrect eigenvalues and wrong stability conclusions.
+
+**Mistake 4: Assuming that all critical points are isolated.**
+Critical points can be isolated or form a continuum (e.g., a line of critical points). Do not assume that all critical points are isolated; check the structure of the vector field.
+
+**Mistake 5: Confusing the phase plane with the phase portrait.**
+The phase plane is the coordinate space $(x, y)$, while the phase portrait is the collection of trajectories in the phase plane. Do not confuse the two; the phase portrait includes the trajectories, not just the coordinate axes.
 

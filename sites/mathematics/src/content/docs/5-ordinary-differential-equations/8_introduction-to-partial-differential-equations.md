@@ -255,3 +255,20 @@ $u(x, t) = \frac{f(x + 2t) + f(x - 2t)}{2} = \frac{e^{-(x+2t)^2} + e^{-(x-2t)^2}
 This represents two Gaussian pulses traveling in opposite directions at speed 2. $\blacksquare$
 
 </details>
+
+### 8.12 Common Mistakes
+
+**Mistake 1: Confusing the classification of PDEs.**
+The discriminant $B^2 - 4AC$ determines whether a PDE is elliptic, parabolic, or hyperbolic. Each type has different properties and requires different solution methods. Do not assume that all PDEs can be solved by the same method.
+
+**Mistake 2: Forgetting boundary conditions in separation of variables.**
+Separation of variables requires both initial and boundary conditions to determine the solution uniquely. Forgetting boundary conditions leads to an incomplete solution. Always specify both types of conditions.
+
+**Mistake 3: Assuming that all PDEs have unique solutions.**
+The existence and uniqueness of solutions depend on the type of PDE, the boundary conditions, and the regularity of the data. Do not assume that a solution exists or is unique without checking the appropriate conditions.
+
+**Mistake 4: Confusing the heat equation with the wave equation.**
+The heat equation $u_t = \alpha^2 u_{xx}$ describes diffusion and has solutions that smooth out over time. The wave equation $u_{tt} = c^2 u_{xx}$ describes oscillations and has solutions that propagate without damping. Do not confuse the two; they model different physical phenomena.
+
+**Mistake 5: Assuming that superposition always applies.**
+Superposition applies to linear PDEs but not to nonlinear PDEs. Do not assume that you can add solutions of a nonlinear PDE to get another solution; superposition only works for linear equations.

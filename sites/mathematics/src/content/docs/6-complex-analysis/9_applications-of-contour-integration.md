@@ -148,3 +148,20 @@ Taking imaginary parts: $\mathrm{PV}\!\int_{-\infty}^{\infty} \frac{\sin x}{x}\,
 
 </details>
 
+### 9.8 Common Mistakes
+
+**Mistake 1: Forgetting to close the contour in the correct half-plane.**
+When evaluating real integrals using contour integration, the contour must be closed in the half-plane where the integrand vanishes on the semicircular arc. For $e^{iz}$, close in the upper half-plane; for $e^{-iz}$, close in the lower half-plane. Closing in the wrong half-plane leads to incorrect results.
+
+**Mistake 2: Assuming that all poles in the upper half-plane contribute.**
+When using the residue theorem for real integrals, only include poles that lie strictly inside the contour. Poles on the real axis require special treatment (principal values or indentation). Do not include poles on the real axis in the residue sum without accounting for their contribution.
+
+**Mistake 3: Forgetting the half-residue contribution for poles on the real axis.**
+When a simple pole lies on the real axis, the principal value integral includes a contribution of $\pi i$ times the residue (half of the full $2\pi i$ contribution). Forgetting this factor leads to incorrect results. Always check for poles on the real axis.
+
+**Mistake 4: Misapplying the substitution $z = e^{i\theta}$ for trigonometric integrals.**
+When substituting $z = e^{i\theta}$, the integral $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$ becomes $\int_{|z|=1} f(z)\, dz$ where $f(z)$ is a rational function. Forgetting to replace $d\theta$ with $dz/(iz)$ or making errors in the substitution leads to incorrect results.
+
+**Mistake 5: Assuming that the integral over the semicircular arc vanishes.**
+The integral over the semicircular arc vanishes only if the integrand decays sufficiently fast. For rational functions, the condition $\deg(Q) \geq \deg(P) + 2$ ensures this. For other integrands, check the decay explicitly using the ML inequality or Jordan's lemma.
+

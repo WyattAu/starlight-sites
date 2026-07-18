@@ -149,3 +149,20 @@ Setting $a_0 = 1$: $J_0(x) = 1 - \frac{x^2}{4} + \frac{x^4}{64} - \frac{x^6}{230
 $\blacksquare$
 
 </details>
+
+### 6.7 Common Mistakes
+
+**Mistake 1: Confusing ordinary and regular singular points.**
+An ordinary point is where $p(x)$ and $q(x)$ are analytic. A regular singular point is where $(x - x_0)p(x)$ and $(x - x_0)^2 q(x)$ are analytic. An irregular singular point is where neither condition holds. Misclassifying the type of singular point leads to incorrect solution methods.
+
+**Mistake 2: Forgetting to check the indicial equation roots.**
+When using the Frobenius method, the indicial equation determines the possible values of $r$. If the roots differ by an integer, the second solution may involve a logarithmic term. Forgetting to check the roots can lead to missing solutions.
+
+**Mistake 3: Assuming that power series solutions always converge.**
+Power series solutions converge only within the radius of convergence, which is determined by the distance to the nearest singular point. Do not assume that a power series solution converges everywhere; always check the radius of convergence.
+
+**Mistake 4: Forgetting that the Frobenius method requires regular singular points.**
+The Frobenius method is applicable only at regular singular points. At irregular singular points, the method fails and other techniques (such as asymptotic expansions) are needed. Always verify that the singular point is regular before applying the Frobenius method.
+
+**Mistake 5: Confusing Bessel functions of the first and second kind.**
+Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bessel functions of the second kind $Y_\nu(x)$ are singular at $x = 0$. Do not confuse the two; they serve different purposes in solving Bessel's equation.

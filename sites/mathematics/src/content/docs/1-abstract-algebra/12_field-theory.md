@@ -137,7 +137,13 @@ Multiplication: $(a + b\alpha)(c + d\alpha) = (ac + 2bd) + (ad + bc)\alpha$. $\b
 
 </details>
 
-### 12.7 The Primitive Element Theorem
+### 12.7 Intuition: What Are Field Extensions?
+
+A field extension answers the question: what happens when you adjoin a new number that was not previously available? Starting from the rationals $\mathbb{Q}$ and adjoining $\sqrt{2}$ creates a larger field $\mathbb{Q}(\sqrt{2})$ that contains all numbers of the form $a + b\sqrt{2}$. The degree of the extension measures how many new independent directions this added element creates. The tower law $[K:F] = [K:E][E:F]$ says that building an extension in stages multiplies the dimensions, just as building a vector space by adding basis vectors multiplies the total dimension.
+
+The minimal polynomial is the irreducible polynomial that the new element satisfies, and its degree equals the extension degree. This connects field theory to polynomial algebra: irreducible polynomials are the "prime building blocks" for constructing new fields, much as prime numbers are building blocks for the integers. Finite fields exist only in sizes $p^n$ and are unique up to isomorphism, which is remarkable: it means $\mathbb{F}_9$ is essentially $\mathbb{F}_3[x]/(x^2+1)$ regardless of which irreducible quadratic you choose. The multiplicative group of any finite field is cyclic, which is why primitive elements exist and why discrete logarithms are well-defined in finite fields.
+
+### 12.8 The Primitive Element Theorem
 
 **Theorem 12.8 (Primitive Element Theorem).** Every finite separable extension $E/F$ is simple:
 There exists $\theta \in E$ such that $E = F(\theta)$.
