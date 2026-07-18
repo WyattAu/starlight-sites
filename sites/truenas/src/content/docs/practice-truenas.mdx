@@ -1,0 +1,63 @@
+---
+title: "TrueNAS Practice"
+description: "Practice exercises for TrueNAS administration"
+tags: [TrueNAS, Practice]
+sidebar_position: 50
+tableOfContents: false
+---
+
+import PracticeProblem from "@components/PracticeProblem";
+
+# TrueNAS -- Practice Problems
+
+15 MCQ questions covering ZFS concepts, pool management, datasets, shares, snapshots, replication, and networking. Select an option to check your answer and view the explanation.
+
+---
+
+## ZFS Concepts
+
+<PracticeProblem client:only="solid-js" question={"What is the fundamental write model used by ZFS?"} options={['Copy-on-write (CoW)', 'Journaling', 'Log-structured', 'Direct overwrite']} correctAnswer={0} explanation="ZFS uses copy-on-write: every write creates a new block, and only after the new block is written and verified does ZFS update the metadata. This eliminates the write hole and makes snapshots instantaneous." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the purpose of the ARC (Adaptive Replacement Cache) in ZFS?"} options={['Primary read cache in system RAM', 'Write cache for synchronous writes', 'Deduplication table storage', 'Metadata backup storage']} correctAnswer={0} explanation="The ARC is ZFS's primary read cache, stored in system RAM. It uses the Adaptive Replacement Cache algorithm, dynamically balancing between MRU and MFU lists for optimal hit rates." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"Which checksum algorithm is the default and recommended for modern ZFS pools?"} options={'SHA-256', 'Fletcher4', 'CRC32', 'BLAKE2'} correctAnswer={0} explanation="SHA-256 is the default checksum algorithm on modern ZFS pools. It provides strong collision resistance and is recommended for data integrity verification." difficulty="medium"  />
+
+---
+
+## Pool Management
+
+<PracticeProblem client:only="solid-js" question={"How many drives can fail without data loss in a RAIDZ2 vdev?"} options={'2', '1', '3', '0'} correctAnswer={0} explanation="RAIDZ2 uses dual parity, allowing up to 2 drives to fail simultaneously without data loss. This is why RAIDZ2 is recommended for drives larger than 4 TB." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the minimum number of drives required for a RAIDZ1 vdev?"} options={'3', '2', '4', '5'} correctAnswer={0} explanation="RAIDZ1 requires a minimum of 3 drives: 2 for data and 1 for parity." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What does the ashift property control in a ZFS pool?"} options={'Physical sector size assumption', 'Record size for files', 'Compression algorithm', 'Cache size'} correctAnswer={0} explanation="The ashift property sets the physical sector size ZFS assumes for drives. It must be set at pool creation and cannot be changed. The default is 12 (4 KB), correct for modern drives." difficulty="medium"  />
+
+---
+
+## Datasets and Properties
+
+<PracticeProblem client:only="solid-js" question={"Which compression algorithm provides the best balance of speed and ratio for most TrueNAS workloads?"} options={'lz4', 'gzip-9', 'zstd-10', 'none'} correctAnswer={0} explanation="lz4 provides fast compression (3-5 GB/s per core) with good ratios for most data types. It is the default on TrueNAS and has negligible CPU overhead on modern hardware." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the recommended recordsize for a dataset storing virtual machine images?"} options={'64K or 16K', '128K', '1M', '4K'} correctAnswer={0} explanation="VMs perform mixed random/sequential I/O. A recordsize of 64K or 16K reduces internal fragmentation compared to the default 128K, improving random I/O performance." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What happens when you set dedup=on on a ZFS dataset?"} options={'ZFS maintains an in-memory hash table of every unique block, requiring significant RAM', 'Data is compressed using deduplication algorithms', 'Snapshots are automatically deduplicated', 'Only metadata is deduplicated'} correctAnswer={0} explanation="Deduplication requires approximately 320 bytes of RAM per unique block. A 10 TB pool with 4 TB of unique data can need 100+ GB of RAM. In most cases, lz4 compression provides better space savings without the memory cost." difficulty="medium"  />
+
+---
+
+## Snapshots and Replication
+
+<PracticeProblem client:only="solid-js" question={"How is space consumed by a ZFS snapshot?"} options={'Only when blocks referenced by the snapshot are modified or deleted in the live filesystem', 'Immediately upon creation', 'Proportional to the total dataset size', 'Only during replication'} correctAnswer={0} explanation="Creating a snapshot is instantaneous and consumes no space initially. Space is consumed only when blocks referenced by the snapshot are modified or deleted in the live filesystem." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What does the -w flag do in zfs send?"} options={'Sends raw encrypted data without requiring the encryption key on the receiving side', 'Enables compression during send', 'Waits for the send to complete before returning', 'Wipes the source snapshot after sending'} correctAnswer={0} explanation="The -w flag enables raw send, which preserves encryption. The receiving system cannot read the data without the encryption key, making it ideal for offsite backup." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the difference between a snapshot and a clone in ZFS?"} options={'Snapshots are read-only point-in-time markers; clones are writable copies of snapshots', 'There is no difference', 'Clones are read-only; snapshots are writable', 'Snapshots consume more space than clones'} correctAnswer={0} explanation="A snapshot is a read-only point-in-time marker. A clone is a writable copy of a snapshot that can be mounted and modified. Clones can be promoted to become independent of the original snapshot." difficulty="easy"  />
+
+---
+
+## Networking and Shares
+
+<PracticeProblem client:only="solid-js" question={"Which synchronous write accelerator is used for NFS and database workloads on HDD-based pools?"} options={'SLOG (Separate Log)', 'L2ARC', 'ARC', 'Special vdev'} correctAnswer={0} explanation="The SLOG accelerates synchronous writes by absorbing them on a low-latency device (NVMe SSD or Optane) before asynchronously flushing to the pool. It is essential for NFS and database write performance on HDD pools." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"When creating a mirror pool, what is the capacity efficiency of a 2-way mirror?"} options={'50%', '100%', '75%', '33%'} correctAnswer={0} explanation="A 2-way mirror stores two copies of every block, so usable capacity is 50% of total raw capacity. The trade-off is excellent random I/O performance." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the recommended scrub frequency for an all-HDD ZFS pool?"} options={'Monthly', 'Weekly', 'Daily', 'Annually'} correctAnswer={0} explanation="Monthly scrubs are recommended for HDD pools. Scrubbing reads all data and verifies checksums, repairing any corruption from redundant copies. HDD scrubs can take 12-48 hours." difficulty="easy"  />

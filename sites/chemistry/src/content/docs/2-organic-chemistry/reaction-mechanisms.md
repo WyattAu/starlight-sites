@@ -393,6 +393,20 @@ diene (butadiene) is electron-rich. The endo transition state is favoured (Alder
 Regiochemistry: the carbonyl group ends up ortho to the newly formed double bond in the cyclohexene
 product. Product: 4-acetylcyclohexene (endo). The reaction proceeds thermally [4+2] suprafacially.
 
+### Example 3: Predicting E2 vs SN2 Competition
+
+**Problem:** When 2-bromopropane reacts with sodium ethoxide in ethanol, predict the major product and explain the reasoning.
+
+**Solution:** The substrate is secondary (2-bromopropane). Sodium ethoxide is a strong base and a strong nucleophile. With a secondary substrate and a strong base/nucleophile, both SN2 and E2 compete. The ethoxide is not particularly bulky, so both pathways are accessible. However, with a secondary substrate, elimination (E2) is generally favored over substitution (SN2) because of steric hindrance at the electrophilic carbon. The major product is propene (E2 elimination). The minor product is ethyl isopropyl ether (SN2 substitution). If a bulkier base like potassium tert-butoxide were used instead, E2 would be even more strongly favored.
+
+**Common mistake:** Assuming that a strong nucleophile always means SN2. With secondary substrates, the steric environment matters enormously. A strong, bulky base like t-BuOK gives almost exclusively E2, while a strong, unhindered nucleophile like RS- gives mostly SN2. Always consider the substrate degree and base size together.
+
+$\blacksquare$
+
+## Intuition
+
+Organic reaction mechanisms are the step-by-step choreography of bond breaking and bond making. Think of SN2 as a backside ambush: the nucleophile attacks from the side opposite the leaving group, causing an umbrella-like inversion of stereochemistry. SN1 is more like a two-stage process where the leaving group departs first, creating a planar carbocation intermediate that can be attacked from either face, leading to racemization. Elimination reactions compete with substitution because both involve the same substrates; the outcome depends on temperature, base strength, and steric environment. The Diels-Alder reaction is a beautifully concerted process where six electrons move simultaneously in a cyclic transition state, forming two new sigma bonds and a ring in one step with perfect stereospecificity. Electrophilic aromatic substitution works differently: the aromatic ring donates electron density to an electrophile, forming a temporary carbocation (sigma complex) before losing a proton to restore aromaticity. Understanding these mechanisms lets you predict products, design syntheses, and troubleshoot reactions that do not go as planned.
+
 ## Cross-References
 
 | Topic                        | Site        | Link                                                                    |

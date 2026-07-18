@@ -460,6 +460,26 @@ where $E_0$ is the true ground state energy. This underpins the Hartree-Fock and
 **Problem:** For O2, the molecular orbital ordering has pi_2p below sigma_2p. What is the bond order, and is O2 paramagnetic?
 **Solution:** Electron configuration of O2 (12 electrons): sigma_2s^2 sigma_2s*^2 sigma_2p_z^2 pi_2p_x^2 pi_2p_y^2 pi_2p_x*^1 pi_2p_y*^1. Bond order = (1/2)(bonding - antibonding) = (1/2)(8 - 4) = 2. Since there are two unpaired electrons in the pi_2p* orbitals, O2 is paramagnetic.
 
+### Example 3: Particle in a Box Energy Levels
+
+**Problem:** An electron is confined to a one-dimensional box of length 0.20 nm (roughly the size of a small molecule). Calculate the energy of the n = 1 and n = 2 states, and the wavelength of light absorbed in the n = 1 to n = 2 transition.
+
+**Solution:** E_n = n^2 h^2/(8mL^2). With h = 6.626e-34 J s, m = 9.109e-31 kg, L = 0.20e-9 m:
+
+E_1 = (6.626e-34)^2 / (8 x 9.109e-31 x (0.20e-9)^2) = 4.39e-38 / (2.915e-49) = 1.51e-11 J = 9.42 eV.
+
+E_2 = 4 x E_1 = 37.7 eV.
+
+Delta E = E_2 - E_1 = 3 x 9.42 = 28.3 eV. lambda = hc/Delta E = 1240 eV nm / 28.3 eV = 43.8 nm (ultraviolet).
+
+**Common mistake:** Using electron mass instead of the reduced mass for confined systems, or forgetting that E_n scales as n^2, not n. The energy gap between adjacent levels increases with n: E_2 - E_1 = 3E_1, but E_3 - E_2 = 5E_1.
+
+$\blacksquare$
+
+## Intuition
+
+Quantum chemistry reveals that electrons do not orbit nuclei like planets around a sun. Instead, they exist as probability clouds described by wavefunctions, regions of space where an electron is likely to be found. The particle-in-a-box model is the simplest illustration: confining a wave forces it to take specific shapes, just as a guitar string can only vibrate at certain frequencies. This quantization means electrons can only occupy specific energy levels, explaining why atoms emit light at discrete wavelengths rather than a continuous rainbow. The Schrodinger equation is the master equation that determines these allowed states. Molecular orbital theory extends this idea to molecules: when atoms combine, their atomic orbitals merge into molecular orbitals that span the entire molecule. Bonding orbitals lower the energy by concentrating electron density between nuclei, while antibonding orbitals raise it by placing a node between nuclei. The HOMO-LUMO gap determines how reactive a molecule is: a small gap means electrons are easily promoted, making the molecule more reactive and more likely to absorb visible light.
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                  |

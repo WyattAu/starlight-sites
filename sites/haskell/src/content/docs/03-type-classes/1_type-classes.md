@@ -695,3 +695,153 @@ class Hashable a where
   hashWithSalt salt x = salt `combine` hash x
   -- Minimal complete definition: hash
 ```
+
+## Worked Examples
+
+### Example 1: Custom Functor and Monad for a Parser
+
+**Problem:** Implement a simple parser type that is a Functor, Applicative, and Monad, then use it to parse simple expressions.
+
+```haskell
+newtype Parser a = Parser { runParser :: String -> Maybe (a, String) }
+
+instance Functor Parser where
+  fmap f (Parser p) = Parser $ \input ->
+    case p input of
+      Just (result, rest) -> Just (f result, rest)
+      Nothing -> Nothing
+
+instance Applicative Parser where
+  pure x = Parser $ \input -> Just (x, input)
+  Parser pf <*> Parser pa = Parser $ \input ->
+    case pf input of
+      Just (f, rest1) -> case pa rest1 of
+        Just (a, rest2) -> Just (f a, rest2)
+        Nothing -> Nothing
+      Nothing -> Nothing
+
+instance Monad Parser where
+  Parser pa >>= f = Parser $ \input ->
+    case pa input of
+      Just (a, rest) -> runParser (f a) rest
+      Nothing -> Nothing
+
+-- Parser combinators
+char :: Char -> Parser Char
+char c = Parser $ \input ->
+  case input of
+    (x:xs) | x == c -> Just (c, xs)
+    _ -> Nothing
+
+digit :: Parser Char
+digit = Parser $ \input ->
+  case input of
+    (x:xs) | x >= '0' && x <= '9' -> Just (x, xs)
+    _ -> Nothing
+
+string :: String -> Parser String
+string [] = pure []
+string (c:cs) = (:) <$> char c <*> string cs
+
+-- Usage
+parseHello :: Parser String
+parseHello = string "hello"
+
+-- runParser parseHello "hello world" => Just ("hello", " world")
+-- runParser parseHello "goodbye" => Nothing
+```
+
+**Explanation:** The `Parser` type wraps a function from input to a possible result and remaining input. `Functor` lets us transform the parsed value. `Applicative` lets us apply parsed functions to parsed values. `Monad` lets us chain parsers where each depends on the previous result. This is the foundation of parser combinator libraries.
+
+---
+
+### Example 2: Monad Transformers for Stacking Effects
+
+**Problem:** Use `MaybeT` to combine `Maybe` and `IO` effects in a clean way.
+
+```haskell
+import Control.Monad.Trans.Maybe
+import Control.Monad.Trans.Class (lift)
+
+-- Lookup a user by ID in a simulated database
+lookupUser :: Int -> IO (Maybe String)
+lookupUser 1 = pure (Just "Alice")
+lookupUser 2 = pure (Just "Bob")
+lookupUser _ = pure Nothing
+
+-- Lookup an email by username
+lookupEmail :: String -> IO (Maybe String)
+lookupEmail "Alice" = pure (Just "alice@example.com")
+lookupEmail "Bob"   = pure (Just "bob@example.com")
+lookupEmail _       = pure Nothing
+
+-- Combined lookup using MaybeT
+getUserEmail :: Int -> MaybeT IO String
+getUserEmail userId = do
+  username <- MaybeT (lookupUser userId)
+  email <- MaybeT (lookupEmail username)
+  return email
+
+-- Run the computation
+main :: IO ()
+main = do
+  result <- runMaybeT (getUserEmail 1)
+  case result of
+    Just email -> putStrLn $ "Email: " ++ email
+    Nothing    -> putStrLn "User or email not found"
+
+-- Email: alice@example.com
+```
+
+**Explanation:** `MaybeT IO` stacks `Maybe` on top of `IO`. The `do` notation sequences operations that may fail at each step. If any `MaybeT` action returns `Nothing`, the entire computation short-circuits. `lift` would be used to embed plain `IO` actions inside `MaybeT IO`.
+
+---
+
+### Example 3: Type Class for Deserialisation
+
+**Problem:** Define a `FromConfig` type class that extracts values from a configuration map, with instances for basic types.
+
+```haskell
+import qualified Data.Map.Strict as Map
+
+class FromConfig a where
+  fromConfig :: Map.Map String String -> String -> Either String a
+
+instance FromConfig String where
+  fromConfig cfg key = case Map.lookup key cfg of
+    Just val -> Right val
+    Nothing  -> Left $ "Key not found: " ++ key
+
+instance FromConfig Int where
+  fromConfig cfg key = case Map.lookup key cfg of
+    Just val -> case reads val of
+      [(n, "")] -> Right n
+      _         -> Left $ "Invalid integer for key: " ++ key
+    Nothing  -> Left $ "Key not found: " ++ key
+
+instance FromConfig Bool where
+  fromConfig cfg key = case Map.lookup key cfg of
+    Just "true"  -> Right True
+    Just "false" -> Right False
+    Just val     -> Left $ "Invalid boolean for key " ++ key ++ ": " ++ val
+    Nothing      -> Left $ "Key not found: " ++ key
+
+-- Usage
+config :: Map.Map String String
+config = Map.fromList
+  [ ("host", "localhost")
+  , ("port", "8080")
+  , ("debug", "true")
+  ]
+
+getHost :: Either String String
+getHost = fromConfig config "host"  -- Right "localhost"
+
+getPort :: Either String Int
+getPort = fromConfig config "port"  -- Right 8080
+
+getDebug :: Either String Bool
+getDebug = fromConfig config "debug"  -- Right True
+```
+
+**Explanation:** The `FromConfig` type class defines how to extract a value of type `a` from a `Map String String`. Each instance implements the conversion for its type. `reads` is used for `Int` parsing (returns a list of successful parses). The `Either String a` return type provides explicit error messages.

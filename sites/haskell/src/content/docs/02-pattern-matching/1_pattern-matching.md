@@ -714,3 +714,153 @@ myReverse = go []
 6. **Use `case` when matching on computed values**: Function equations match only on arguments.
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
+
+## Worked Examples
+
+### Example 1: Expression Evaluator with Pattern Matching
+
+**Problem:** Build a simple arithmetic expression evaluator using algebraic data types and pattern matching.
+
+```haskell
+data Expr
+  = Lit Double
+  | Add Expr Expr
+  | Mul Expr Expr
+  | Neg Expr
+  deriving (Show)
+
+eval :: Expr -> Double
+eval (Lit x)     = x
+eval (Add a b)   = eval a + eval b
+eval (Mul a b)   = eval a * eval b
+eval (Neg a)     = -(eval a)
+
+-- Pretty printer using pattern matching
+pretty :: Expr -> String
+pretty (Lit x)     = show x
+pretty (Add a b)   = "(" ++ pretty a ++ " + " ++ pretty b ++ ")"
+pretty (Mul a b)   = "(" ++ pretty a ++ " * " ++ pretty b ++ ")"
+pretty (Neg a)     = "(-" ++ pretty a ++ ")"
+
+-- Test
+expr :: Expr
+expr = Mul (Add (Lit 2) (Lit 3)) (Neg (Lit 4))
+
+-- eval expr => (2 + 3) * (-4) = -20.0
+-- pretty expr => "((2.0 + 3.0) * (-4.0))"
+```
+
+**Explanation:** Each constructor of `Expr` represents a different expression form. Pattern matching in `eval` and `pretty` dispatches to the correct handling for each form. Adding a new expression type requires only adding a new constructor and new pattern match equations.
+
+---
+
+### Example 2: Binary Tree Operations
+
+**Problem:** Implement common binary tree operations using recursive pattern matching.
+
+```haskell
+data Tree a = Empty | Node (Tree a) a (Tree a)
+  deriving (Show)
+
+-- Insert a value into a BST
+insert :: (Ord a) => a -> Tree a -> Tree a
+insert x Empty = Node Empty x Empty
+insert x (Node left val right)
+  | x < val   = Node (insert x left) val right
+  | x > val   = Node left val (insert x right)
+  | otherwise = Node left val right  -- duplicate, no change
+
+-- Search for a value
+search :: (Ord a) => a -> Tree a -> Maybe a
+search _ Empty = Nothing
+search x (Node left val right)
+  | x == val   = Just val
+  | x < val    = search x left
+  | otherwise  = search x right
+
+-- In-order traversal (sorted order for BST)
+inOrder :: Tree a -> [a]
+inOrder Empty = []
+inOrder (Node left val right) = inOrder left ++ [val] ++ inOrder right
+
+-- Tree height
+height :: Tree a -> Int
+height Empty = 0
+height (Node left _ right) = 1 + max (height left) (height right)
+
+-- Build a BST from a list
+fromList :: (Ord a) => [a] -> Tree a
+fromList = foldl (flip insert) Empty
+
+-- Test
+bst :: Tree Int
+bst = fromList [5, 3, 7, 1, 4, 6, 8]
+
+-- inOrder bst => [1, 3, 4, 5, 6, 7, 8]
+-- search 4 bst => Just 4
+-- search 9 bst => Nothing
+-- height bst => 3
+```
+
+**Explanation:** Pattern matching on `Empty` and `Node` distinguishes the base case from the recursive case. The guard-based comparison (`x < val`, `x > val`, `x == val`) determines the direction of recursion. Each function follows the same structural pattern: handle `Empty` first, then deconstruct the `Node`.
+
+---
+
+### Example 3: JSON Value Processing
+
+**Problem:** Process a simplified JSON-like data structure using nested pattern matching and guards.
+
+```haskell
+data JValue
+  = JNull
+  | JBool Bool
+  | JNum Double
+  | JStr String
+  | JArr [JValue]
+  | JObj [(String, JValue)]
+  deriving (Show)
+
+-- Extract a number, returning Nothing if not a number
+asNumber :: JValue -> Maybe Double
+asNumber (JNum d) = Just d
+asNumber _        = Nothing
+
+-- Extract a string
+asString :: JValue -> Maybe String
+asString (JStr s) = Just s
+asString _        = Nothing
+
+-- Count elements in any container-like JValue
+countElements :: JValue -> Int
+countElements (JArr xs) = length xs
+countElements (JObj kvs) = length kvs
+countElements _          = 0
+
+-- Pretty print with indentation
+prettyPrint :: Int -> JValue -> String
+prettyPrint _ (JNull)      = "null"
+prettyPrint _ (JBool True) = "true"
+prettyPrint _ (JBool False)= "false"
+prettyPrint _ (JNum d)     = show d
+prettyPrint _ (JStr s)     = "\"" ++ s ++ "\""
+prettyPrint indent (JArr xs) =
+  "[\n" ++ concatMap (\v -> replicate (indent + 2) ' ' ++ prettyPrint (indent + 2) v ++ ",\n") xs
+  ++ replicate indent ' ' ++ "]"
+prettyPrint indent (JObj kvs) =
+  "{\n" ++ concatMap (\(k, v) -> replicate (indent + 2) ' ' ++ "\"" ++ k ++ "\": " ++ prettyPrint (indent + 2) v ++ ",\n") kvs
+  ++ replicate indent ' ' ++ "}"
+
+-- Test
+json :: JValue
+json = JObj
+  [ ("name", JStr "Alice")
+  , ("age", JNum 30)
+  , ("scores", JArr [JNum 95, JNum 87, JNum 92])
+  ]
+
+-- countElements json => 3
+-- asNumber (JNum 42) => Just 42.0
+-- asString (JStr "hi") => Just "hi"
+```
+
+**Explanation:** Each `JValue` constructor represents a different JSON type. Pattern matching in `prettyPrint` handles each case with appropriate formatting. Nested patterns (like `JArr xs`) bind the contained values for further processing. The `indent` parameter controls formatting depth for nested structures.

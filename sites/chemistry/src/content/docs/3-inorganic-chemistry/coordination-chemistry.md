@@ -392,6 +392,20 @@ other. In the cis form, the two en ligands can be arranged as fac (with N atoms 
 face) or mer (with N atoms in a meridian). Total geometric isomers: 3 (cis-fac, cis-mer, trans). The
 cis-fac and cis-mer forms are chiral (no plane of symmetry), so there are 2 pairs of enantiomers.
 
+### Example 3: Magnetic Moment and Spin State
+
+**Problem:** The magnetic moment of [Co(NH3)6]^3+ is 0 BM (diamagnetic), while [CoF6]^3- has a magnetic moment of 4.9 BM. Both contain Co^3+ (d^6). Explain the difference and identify the spin state of each complex.
+
+**Solution:** [Co(NH3)6]^3+: mu = 0 BM means zero unpaired electrons. This is a low-spin d^6 complex with configuration t2g^6 eg^0. NH3 is a strong-field ligand (high in the spectrochemical series), so Delta_o > P, and all electrons pair in the t2g orbitals. [CoF6]^3-: mu = 4.9 BM corresponds to 4 unpaired electrons (using mu = sqrt(n(n+2)): sqrt(4 x 6) = sqrt(24) = 4.9 BM). This is a high-spin d^6 complex with configuration t2g^4 eg^2. F^- is a weak-field ligand (low in the spectrochemical series), so Delta_o < P, and electrons fill all orbitals singly before pairing.
+
+**Common mistake:** Assuming that all Co^3+ complexes are low-spin. While Co^3+ is typically low-spin with strong-field ligands, the weak-field ligand F^- produces a high-spin complex. The spin state depends on the ligand, not just the metal ion. Always compare Delta_o with P to determine the spin state.
+
+$\blacksquare$
+
+## Intuition
+
+Coordination chemistry is the study of how metal ions bind to surrounding molecules called ligands. Crystal field theory provides an elegant picture: when ligands approach a metal ion, they create an electrostatic field that splits the d orbitals into groups of different energy. The splitting pattern depends on geometry: octahedral fields create two groups separated by Delta_o, while tetrahedral fields create a smaller, inverted splitting of 4/9 Delta_o. The spectrochemical series ranks ligands by their splitting ability, from weak-field iodide to strong-field cyanide. The critical decision is whether to pair electrons in lower orbitals (low-spin, strong field) or spread them across all orbitals (high-spin, weak-field). This choice determines magnetic properties, color, and reactivity. The Jahn-Teller effect distorts complexes with degenerate electron configurations to remove the degeneracy, explaining why Cu^2+ complexes are always distorted. The chelate effect makes multidentate ligands like EDTA form far more stable complexes than equivalent monodentate ligands, driven primarily by the entropy gain when one chelate displaces many individual ligands.
+
 ## Cross-References
 
 | Topic                             | Site        | Link                                                                                      |

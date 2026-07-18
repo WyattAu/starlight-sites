@@ -425,6 +425,20 @@ Examples:
 **Problem:** NaCl has r(Na+) = 102 pm and r(Cl-) = 181 pm. Determine the expected coordination geometry using the radius ratio rule.
 **Solution:** Radius ratio = r+/r- = 102/181 = 0.564. For 0.414 < r+/r- < 0.732, the predicted coordination number is 6 (octahedral), matching the observed NaCl (rock salt) structure. If the ratio were below 0.414, tetrahedral (ZnS) coordination would be expected. If above 0.732, cubic (CsCl) coordination.
 
+### Example 3: Calculating Packing Fraction
+
+**Problem:** Calculate the atomic packing fraction for a body-centered cubic (BCC) unit cell and compare it with face-centered cubic (FCC). Explain which structure packs more efficiently.
+
+**Solution:** BCC: 2 atoms per cell, atoms touch along the body diagonal. 4r = sqrt(3)a, so a = 4r/sqrt(3). Volume of atoms = 2 x (4/3)pi r^3. Volume of cell = a^3 = (4r/sqrt(3))^3 = 64r^3/(3sqrt(3)). Packing fraction = [2 x (4/3)pi r^3] / [64r^3/(3sqrt(3))] = (8pi/3) / (64/(3sqrt(3))) = 8pi sqrt(3)/64 = pi sqrt(3)/8 = 0.680 or 68.0%. FCC: 4 atoms per cell, atoms touch along face diagonal. 4r = sqrt(2)a, so a = 4r/sqrt(2). Volume of atoms = 4 x (4/3)pi r^3. Volume of cell = (4r/sqrt(2))^3 = 64r^3/(2sqrt(2)). Packing fraction = [16pi r^3/3] / [64r^3/(2sqrt(2))] = 16pi/3 x 2sqrt(2)/64 = pi sqrt(2)/6 = 0.740 or 74.0%. FCC packs more efficiently (74% vs 68%) because close-packing of spheres achieves maximum density. The difference explains why many metals adopt FCC structures: it minimizes wasted space.
+
+**Common mistake:** Using the wrong relationship between atomic radius and lattice parameter. In BCC, atoms touch along the body diagonal (not the edge), so 4r = sqrt(3)a. In FCC, atoms touch along the face diagonal, so 4r = sqrt(2)a. Getting this wrong leads to incorrect packing fractions.
+
+$\blacksquare$
+
+## Intuition
+
+Solid-state chemistry explores how atoms pack together in crystalline materials and how arrangement determines properties. Think of crystal structures as three-dimensional wallpaper: atoms arrange in repeating patterns that minimize energy. Close-packed structures like FCC and HCP achieve 74% packing efficiency, while BCC packs at 68%. The Born-Haber cycle is a thermodynamic accounting trick that calculates lattice energy by constructing a cycle of measurable quantities. Band theory explains why some solids conduct electricity and others do not: when atoms come together, discrete energy levels merge into continuous bands, and whether the band gap is zero (conductor), small (semiconductor), or large (insulator) determines electrical behavior. Crystal defects are often the key to useful properties: doping silicon with phosphorus creates n-type semiconductors, while doping with boron creates p-type. Nanomaterials take this further: as particles shrink to the nanoscale, quantum confinement effects change the band gap, altering optical and electronic properties in ways bulk materials cannot achieve.
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                  |

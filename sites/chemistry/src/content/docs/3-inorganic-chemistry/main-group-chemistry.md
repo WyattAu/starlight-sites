@@ -366,7 +366,21 @@ S (S$_8$/polymeric), Se (gray/red/black).
 
 ### Example 2: Silicon vs Carbon Chemistry
 **Problem:** Explain why silicon does not form stable double bonds with oxygen (analogous to carbon dioxide), and why SiO2 forms a giant covalent lattice rather than discrete molecules.
-**Solution:** The Si=O pi bond is weaker than the C=O pi bond because silicon's 3p orbitals have poor overlap with oxygen’s 2p orbitals (size mismatch and reduced p-p overlap). Instead, Si forms four single Si-O bonds, each of which is strong (partial d-p pi bonding provides additional stabilisation). This leads to a 3D network of SiO4 tetrahedra (quartz) rather than discrete SiO2 molecules. This is why silicon carbonyl analogues do not exist and why silica has a very high melting point.
+**Solution:** The Si=O pi bond is weaker than the C=O pi bond because silicon's 3p orbitals have poor overlap with oxygen's 2p orbitals (size mismatch and reduced p-p overlap). Instead, Si forms four single Si-O bonds, each of which is strong (partial d-p pi bonding provides additional stabilisation). This leads to a 3D network of SiO4 tetrahedra (quartz) rather than discrete SiO2 molecules. This is why silicon carbonyl analogues do not exist and why silica has a very high melting point.
+
+### Example 3: Predicting Reactivity Down a Group
+
+**Problem:** Sodium reacts vigorously with cold water to produce NaOH and H2. Predict and explain the trend in reactivity for the other alkali metals (Li, K, Rb, Cs) with water.
+
+**Solution:** Reactivity with water increases down the group: Li < Na < K < Rb < Cs. The reaction is M(s) + H2O(l) -> MOH(aq) + 1/2 H2(g). The driving force is the ionization energy: as IE decreases down the group, it becomes easier to remove the valence electron and transfer it to water. Li reacts slowly (IE = 520 kJ/mol), Na reacts vigorously, K reacts violently (may ignite the hydrogen), Rb and Cs react explosively. The trend correlates directly with decreasing ionization energy and increasing atomic radius: larger atoms hold their outer electron less tightly, making them more reactive. The Standard Reduction Potential becomes more negative down the group (Li: -3.04 V, Cs: -2.92 V), confirming the trend.
+
+**Common mistake:** Assuming that lithium is the most reactive alkali metal because it has the most negative reduction potential. While Li has the most negative E degree (-3.04 V), its high ionization energy and small atomic radius make it react more slowly with water than sodium. Reduction potentials account for sublimation energy, ionization energy, and hydration enthalpy, not just reactivity kinetics.
+
+$\blacksquare$
+
+## Intuition
+
+Main-group chemistry encompasses the s-block and p-block elements, which together make up about 80% of the periodic table. The key insight is that trends repeat in predictable patterns. Down a group, atoms get larger and hold their electrons more loosely, making them more reactive (for metals) or less reactive (for nonmetals). Across a period, increasing nuclear charge pulls electrons closer, making atoms smaller and more electronegative. The inert pair effect is a relativistic phenomenon where heavy p-block elements prefer lower oxidation states because the ns^2 electrons are stabilized by relativistic contraction. Carbon is unique because it can form four strong covalent bonds and stable chains, giving rise to the entire field of organic chemistry. Silicon, its neighbor, cannot form stable double bonds because its larger 3p orbitals have poor overlap with oxygen's 2p orbitals, leading to the formation of network solids like SiO2 instead of discrete molecules. The diagonal relationships (Li-Mg, Be-Al, B-Si) arise because elements diagonally adjacent have similar charge-to-radius ratios, producing similar polarizing power and chemical behavior.
 
 ## Cross-References
 

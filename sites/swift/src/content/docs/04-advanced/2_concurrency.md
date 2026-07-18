@@ -698,10 +698,174 @@ func processLargeDataset(_ data: [DataPoint]) async {
 }
 ```
 
-## Summary
+## Worked Examples
 
-Swift's structured concurrency model provides compile-time safety for asynchronous code.
-`async/await` simplifies asynchronous code, `Task` and `TaskGroup` manage work units, `actors`
-prevent data races, `Sendable` ensures safe data transfer, and `@MainActor` keeps UI updates on the
-main thread. Together, these eliminate entire categories of concurrency bugs while maintaining the
-expressiveness and performance Swift is known for.
+### Example 1: Actor-Based Rate Limiter
+
+**Problem:** Build a thread-safe rate limiter using an actor that controls access to a limited resource.
+
+```swift
+actor RateLimiter {
+    private let maxRequests: Int
+    private let windowSeconds: TimeInterval
+    private var timestamps: [Date] = []
+    
+    init(maxRequests: Int, windowSeconds: TimeInterval) {
+        self.maxRequests = maxRequests
+        self.windowSeconds = windowSeconds
+    }
+    
+    func shouldAllow() -> Bool {
+        let now = Date()
+        let windowStart = now.addingTimeInterval(-windowSeconds)
+        
+        // Remove timestamps outside the current window
+        timestamps = timestamps.filter { $0 > windowStart }
+        
+        if timestamps.count < maxRequests {
+            timestamps.append(now)
+            return true
+        }
+        return false
+    }
+    
+    func waitUntilAllowed() async {
+        while !shouldAllow() {
+            let oldestAllowed = timestamps.first?.addingTimeInterval(windowSeconds) ?? Date()
+            let waitTime = oldestAllowed.timeIntervalSinceNow
+            if waitTime > 0 {
+                try? await Task.sleep(nanoseconds: UInt64(waitTime * 1_000_000_000))
+            }
+        }
+    }
+}
+
+// Usage
+let limiter = RateLimiter(maxRequests: 10, windowSeconds: 60)
+
+Task {
+    for i in 1...20 {
+        await limiter.waitUntilAllowed()
+        print("Request \(i) allowed at \(Date())")
+    }
+}
+```
+
+**Explanation:** The actor ensures that all access to `timestamps` is serialized. `shouldAllow` checks if we're within the rate limit by filtering old timestamps. `waitUntilAllowed` loops until permission is granted, sleeping for the required duration. The actor's isolation guarantees thread safety without explicit locks.
+
+---
+
+### Example 2: AsyncStream for Real-Time Data
+
+**Problem:** Create an `AsyncStream` that emits temperature readings at regular intervals, simulating a sensor.
+
+```swift
+func temperatureStream(interval: TimeInterval = 1.0) -> AsyncStream<Double> {
+    AsyncStream { continuation in
+        let task = Task {
+            var baseTemperature = 20.0
+            while !Task.isCancelled {
+                // Simulate fluctuating temperature
+                let noise = Double.random(in: -0.5...0.5)
+                baseTemperature += noise
+                continuation.yield(baseTemperature)
+                try? await Task.sleep(nanoseconds: UInt64(interval * 1_000_000_000))
+            }
+            continuation.finish()
+        }
+        
+        continuation.onTermination = { _ in
+            task.cancel()
+        }
+    }
+}
+
+// Usage
+Task {
+    var count = 0
+    for await temp in temperatureStream(interval: 0.5) {
+        print(String(format: "Temperature: %.1f°C", temp))
+        count += 1
+        if count >= 10 { break }
+    }
+}
+```
+
+**Explanation:** `AsyncStream` wraps the imperative generation loop. `continuation.yield` emits values to consumers. `onTermination` ensures the producer task is cancelled when the consumer stops. `Task.isCancelled` provides cooperative cancellation in the loop. The consumer uses `for await` to iterate over the stream.
+
+---
+
+### Example 3: @MainActor ViewModel with Error Handling
+
+**Problem:** Build a SwiftUI view model that fetches data on the main actor, handles errors, and provides retry logic.
+
+```swift
+@MainActor
+class DataViewModel: ObservableObject {
+    enum State {
+        case idle
+        case loading
+        case loaded([Item])
+        case failed(String)
+    }
+    
+    @Published var state: State = .idle
+    @Published var retryCount = 0
+    private let maxRetries = 3
+    
+    func load() async {
+        state = .loading
+        
+        for attempt in 1...maxRetries {
+            do {
+                let items = try await fetchItems()
+                state = .loaded(items)
+                retryCount = 0
+                return
+            } catch {
+                retryCount = attempt
+                if attempt == maxRetries {
+                    state = .failed(error.localizedDescription)
+                } else {
+                    try? await Task.sleep(nanoseconds: UInt64(pow(2.0, Double(attempt)) * 1_000_000_000))
+                }
+            }
+        }
+    }
+    
+    func retry() async {
+        guard case .failed = state else { return }
+        await load()
+    }
+}
+
+struct ItemListView: View {
+    @StateObject private var viewModel = DataViewModel()
+    
+    var body: some View {
+        Group {
+            switch viewModel.state {
+            case .idle:
+                ContentUnavailableView("Pull to load", systemImage: "arrow.down")
+            case .loading:
+                ProgressView("Loading items...")
+            case .loaded(let items):
+                List(items) { item in
+                    Text(item.name)
+                }
+            case .failed(let message):
+                VStack {
+                    Image(systemName: "exclamationmark.triangle")
+                    Text(message)
+                    Button("Retry (\(viewModel.retryCount)/3)") {
+                        Task { await viewModel.retry() }
+                    }
+                }
+            }
+        }
+        .task { await viewModel.load() }
+    }
+}
+```
+
+**Explanation:** The `@MainActor` annotation ensures all published property updates happen on the main thread. The `State` enum models all possible UI states. `load()` implements exponential backoff retry logic. SwiftUI's `.task` modifier starts the async load and automatically cancels when the view disappears.

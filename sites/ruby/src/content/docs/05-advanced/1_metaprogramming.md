@@ -903,6 +903,192 @@ class Employee
   def_delegators :@work_info, :department, :salary
 end
 
+## Worked Examples
+
+### Example 1: Dynamic Validations with `define_method` and `method_missing`
+
+**Problem:** Build a model-like class that dynamically defines attribute readers, writers, and presence validations from a schema definition.
+
+```ruby
+class DynamicModel
+  def self.schema(&block)
+    @schema ||= {}
+    instance_eval(&block) if block
+    @schema
+  end
+
+  def self.attribute(name, type: :string, validates: {})
+    @schema[name] = { type: type, validates: validates }
+
+    define_method(name) { instance_variable_get(:"@#{name}") }
+    define_method(:"#{name}=") { |val| instance_variable_set(:"@#{name}", val) }
+
+    if validates[:presence]
+      define_method(:"validate_#{name}") do
+        val = send(name)
+        errors << "#{name} is required" if val.nil? || (val.respond_to?(:empty?) && val.empty?)
+      end
+    end
+  end
+
+  def initialize(attrs = {})
+    @errors = []
+    attrs.each { |k, v| send(:"#{k}=", v) if respond_to?(:"#{k}=") }
+  end
+
+  attr_reader :errors
+
+  def valid?
+    @errors.clear
+    self.class.schema.each do |name, config|
+      send(:"validate_#{name}") if config[:validates][:presence]
+    end
+    @errors.empty?
+  end
+
+  def method_missing(name, *args)
+    if name.to_s.start_with?("validate_")
+      # No validation defined for this attribute
+      nil
+    else
+      super
+    end
+  end
+
+  def respond_to_missing?(name, include_private = false)
+    name.to_s.start_with?("validate_") || super
+  end
+end
+
+class User < DynamicModel
+  schema do
+    attribute :name, validates: { presence: true }
+    attribute :email, validates: { presence: true }
+    attribute :age, type: :integer
+  end
+end
+
+user = User.new(name: "Alice", email: "alice@example.com")
+puts user.valid?    # => true
+puts user.name      # => "Alice"
+
+empty_user = User.new
+puts empty_user.valid?    # => false
+puts empty_user.errors    # => ["name is required", "email is required"]
+```
+
+**Explanation:** `schema` uses `instance_eval` to run the block in the class context. `attribute` dynamically creates getter/setter methods via `define_method` and stores validation rules. `valid?` iterates through the schema and calls each validation method. `method_missing` handles undefined validation methods gracefully.
+
+---
+
+### Example 2: Method Wrapping with `alias_method` and `define_method`
+
+**Problem:** Create a timing decorator that can be applied to any method, measuring execution time without modifying the original method.
+
+```ruby
+module Timed
+  def timed(method_name)
+    original = instance_method(method_name)
+    timing_data = {}
+
+    define_method(method_name) do |*args, &block|
+      start = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+      result = original.bind(self).call(*args, &block)
+      elapsed = Process.clock_gettime(Process::CLOCK_MONOTONIC) - start
+
+      key = "#{self.class.name}##{method_name}"
+      timing_data[key] ||= { calls: 0, total_time: 0 }
+      timing_data[key][:calls] += 1
+      timing_data[key][:total_time] += elapsed
+
+      puts "[TIMED] #{key}: #{elapsed.round(4)}s"
+      result
+    end
+
+    define_method(:"#{method_name}_timings") do
+      timing_data[ "#{self.class.name}##{method_name}"]
+    end
+  end
+end
+
+class DataProcessor
+  include Timed
+
+  timed def process_batch(batch)
+    batch.map { |item| item * 2 }.select(&:even?)
+  end
+
+  timed def slow_operation
+    sleep(0.01)
+    "done"
+  end
+end
+
+processor = DataProcessor.new
+processor.process_batch([1, 2, 3, 4, 5])
+processor.slow_operation
+
+puts processor.process_batch_timings
+# => {:calls=>1, :total_time=>0.000123...}
+```
+
+**Explanation:** `instance_method` captures the original method as an `UnboundMethod`. `define_method` creates a new method that times execution using monotonic clocks. `original.bind(self).call` invokes the original method. The `:timed` class method acts as a declarative decorator.
+
+---
+
+### Example 3: Dynamic Module Inclusion with `eval`
+
+**Problem:** Generate specialized query methods from a configuration hash at runtime.
+
+```ruby
+module QueryBuilder
+  def self.build(queries)
+    mod = Module.new
+
+    queries.each do |name, conditions|
+      mod.define_method(name) do
+        result = all
+        conditions.each do |field, value|
+          result = result.select { |r| r[field] == value }
+        end
+        result
+      end
+    end
+
+    mod
+  end
+end
+
+class ProductStore
+  attr_reader :products
+
+  def initialize(products)
+    @products = products
+  end
+
+  include QueryBuilder.build({
+    active_electronics: { category: "electronics", active: true },
+    expensive_clothing: { category: "clothing", price: ->(p) { p > 100 } },
+    recently_added: { created_at: ->(t) { t > 7.days.ago } }
+  })
+
+  def all
+    products
+  end
+end
+
+store = ProductStore.new([
+  { name: "Phone", category: "electronics", active: true, created_at: Time.current },
+  { name: "Shirt", category: "clothing", price: 200, created_at: 14.days.ago },
+  { name: "Laptop", category: "electronics", active: true, created_at: 3.days.ago }
+])
+
+puts store.active_electronics
+# => [{name: "Phone", ...}, {name: "Laptop", ...}]
+```
+
+**Explanation:** `Module.new` creates an anonymous module. `define_method` adds query methods that filter products based on conditions. Lambda conditions (like `price: ->(p) { p > 100 }`) are called dynamically. The module is then included in the class, making the query methods available as instance methods.
+
 class ContactInfo
   attr_accessor :email, :phone, :address
   def initialize

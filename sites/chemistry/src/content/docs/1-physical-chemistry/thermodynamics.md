@@ -436,6 +436,20 @@ $$K = \prod_i a_i^{\nu_i}$$
 **Problem:** For the reaction N2(g) + 3H2(g) -> 2NH3(g), Delta H = -92.4 kJ/mol, Delta S = -198.8 J K^-1 mol^-1. At 298 K, determine if the reaction is spontaneous.
 **Solution:** Delta G = Delta H - T Delta S = -92,400 - 298(-198.8) = -92,400 + 59,200 = -33,200 J/mol = -33.2 kJ/mol. Delta G < 0, so the reaction is spontaneous at 298 K. At what T does it become non-spontaneous? Delta G = 0 when T = Delta H/Delta S = 92,400/198.8 = 464.8 K.
 
+### Example 3: Entropy Change for Phase Transition
+
+**Problem:** Calculate the total entropy change when 1.00 mol of water boils at 373 K and 1 atm. The enthalpy of vaporization is 40.7 kJ/mol. What is the entropy change of the surroundings?
+
+**Solution:** For a reversible phase transition at constant T and P: Delta S_sys = Delta H_vap/T = 40,700/373 = 109.1 J K^-1 mol^-1. The surroundings lose the same heat: Delta S_surr = -Delta H_vap/T = -109.1 J K^-1 mol^-1. Delta S_univ = Delta S_sys + Delta S_surr = 0 for a reversible process at equilibrium (boiling at the normal boiling point is an equilibrium process).
+
+**Common mistake:** Forgetting that Delta G = 0 at the boiling point, not Delta H = 0. The boiling point is where liquid and vapor are in equilibrium. Also, the entropy of the surroundings changes in the opposite direction to the system: when the system absorbs heat, the surroundings lose it.
+
+$\blacksquare$
+
+## Intuition
+
+Thermodynamics tells us which processes can happen and how much energy they involve. Think of enthalpy as a heat budget: exothermic reactions release heat (like spending money), while endothermic reactions absorb it (like earning money). But enthalpy alone does not decide spontaneity. Entropy is the wild card, nature's tendency toward disorder and the spreading of energy. A reaction is spontaneous when the free energy balance favors it, combining both the heat exchange and the entropy change. The second law says that in any process, the total entropy of the universe must increase. Phase transitions happen at exact temperatures because that is where the enthalpy and entropy contributions exactly balance. The Clausius-Clapeyron equation connects vapor pressure to temperature, explaining why liquids boil at higher temperatures under pressure: you are forcing the equilibrium point upward. Chemical equilibrium is not stasis but a dynamic balance where forward and reverse reactions proceed at equal rates, and Le Chatelier's principle describes how the system nudges itself back when disturbed, like a thermostat adjusting to temperature changes.
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                  |

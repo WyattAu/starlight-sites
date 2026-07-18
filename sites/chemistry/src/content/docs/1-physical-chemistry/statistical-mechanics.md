@@ -443,6 +443,26 @@ leading to critical opalescence.
 **Problem:** A molecule has two energy levels: epsilon_0 = 0 and epsilon_1 = 5.0 x 10^-21 J. At T = 300 K, calculate the fraction of molecules in the excited state.
 **Solution:** Boltzmann factor = exp(-epsilon_1/k_B T) = exp(-5.0e-21/(1.38e-23 x 300)) = exp(-1.208) = 0.299. Fraction in excited state = 0.299/(1 + 0.299) = 0.230 or 23.0%.
 
+### Example 3: Partition Function and Heat Capacity
+
+**Problem:** A hypothetical molecule has three energy levels: epsilon_0 = 0, epsilon_1 = 100 cm^-1, epsilon_2 = 300 cm^-1, each non-degenerate. Calculate the molecular partition function at 300 K and the average energy.
+
+**Solution:** First convert to energy units: k_B T at 300 K = 207 cm^-1 (using k_B = 0.695 cm^-1 K^-1).
+
+q = exp(0) + exp(-100/207) + exp(-300/207) = 1 + 0.617 + 0.236 = 1.853.
+
+Average energy: <epsilon> = (0 x 1 + 100 x 0.617 + 300 x 0.236)/1.853 = (61.7 + 70.8)/1.853 = 71.5 cm^-1 = 0.856 kJ/mol.
+
+The fraction in the ground state is 1/1.853 = 0.540 (54%), meaning roughly half the molecules occupy the ground state at room temperature for these energy spacings.
+
+**Common mistake:** Forgetting that the partition function is a sum over all states, not just the first two. Also, the average energy is not simply the energy of the most populated state; it is a Boltzmann-weighted average that includes contributions from all accessible states.
+
+$\blacksquare$
+
+## Intuition
+
+Statistical mechanics bridges the gap between individual atoms and the bulk properties we measure in the lab. Imagine a gas with trillions of molecules: you cannot track each one, but you can describe the probability of finding molecules in different energy states. The Boltzmann distribution is the key insight: at higher temperatures, more molecules have enough energy to occupy excited states, but the probability always decreases exponentially with energy. The partition function is the central quantity that encodes all thermodynamic information about a system. It sums up how accessible each energy level is, weighted by the Boltzmann factor. A large partition function means many states are accessible, which corresponds to high entropy. Temperature acts as a scaler: at low T only the ground state matters (low entropy), while at high T many states contribute (high entropy). Quantum statistics reveal that identical particles are fundamentally indistinguishable, leading to Bose-Einstein and Fermi-Dirac distributions that deviate from classical predictions at low temperatures or high densities.
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                  |

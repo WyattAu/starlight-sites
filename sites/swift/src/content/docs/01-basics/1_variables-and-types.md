@@ -670,9 +670,116 @@ let handler: CompletionHandler = { result in
 }
 ```
 
-## Summary
+## Worked Examples
 
-Swift's type system provides strong safety guarantees through explicit optionals, type inference,
-and comprehensive pattern matching. Collections (arrays, dictionaries, sets) are value types with
-rich functional operations. Control flow with `guard`, `switch`, and pattern matching enables clean,
-safe code that is difficult to write incorrectly.
+### Example 1: Safe Optional Chain with Result
+
+**Problem:** Write a function that safely extracts a nested value from a dictionary of type `[String: Any]`, returning a `Result` type.
+
+```swift
+func extractString(from dict: [String: Any], keyPath: String) -> Result<String, ExtractionError> {
+    let keys = keyPath.split(separator: ".").map(String.init)
+    
+    var current: Any = dict
+    for key in keys {
+        guard let nested = current as? [String: Any], let next = nested[key] else {
+            return .failure(.keyNotFound(key))
+        }
+        current = next
+    }
+    
+    guard let result = current as? String else {
+        return .failure(.typeMismatch(expected: "String", actual: String(describing: type(of: current))))
+    }
+    
+    return .success(result)
+}
+
+enum ExtractionError: Error {
+    case keyNotFound(String)
+    case typeMismatch(expected: String, actual: String)
+}
+
+let data: [String: Any] = [
+    "user": [
+        "profile": [
+            "name": "Alice"
+        ]
+    ]
+]
+
+let result = extractString(from: data, keyPath: "user.profile.name")
+switch result {
+case .success(let name): print("Name: \(name)")
+case .failure(let error): print("Error: \(error)")
+}
+// Name: Alice
+```
+
+**Explanation:** The function splits the key path by "." and traverses nested dictionaries. Each cast to `[String: Any]` is guarded with optional binding. The `Result` type makes error handling explicit without exceptions.
+
+---
+
+### Example 2: Custom Set Operations
+
+**Problem:** Implement a function that finds the intersection and difference of two arrays, returning unique elements.
+
+```swift
+func commonElements<T: Hashable>(_ a: [T], _ b: [T]) -> [T] {
+    let setB = Set(b)
+    return Array(Set(a).intersection(setB))
+}
+
+func onlyInFirst<T: Hashable>(_ a: [T], _ b: [T]) -> [T] {
+    let setB = Set(b)
+    return Array(Set(a).subtracting(setB))
+}
+
+let listA = [1, 2, 3, 4, 5]
+let listB = [3, 4, 5, 6, 7]
+
+print(commonElements(listA, listB))  // [3, 4, 5] (order may vary)
+print(onlyInFirst(listA, listB))     // [1, 2] (order may vary)
+```
+
+**Explanation:** Converting to `Set` enables O(1) lookups. `intersection` finds shared elements, `subtracting` finds elements in the first set but not the second. Converting back to `Array` preserves the original return type convention.
+
+---
+
+### Example 3: Enum-Driven UI State
+
+**Problem:** Model a view's loading state using an enum with associated values, then use pattern matching in SwiftUI.
+
+```swift
+enum LoadState<T> {
+    case idle
+    case loading(progress: Double)
+    case loaded(T)
+    case failed(Error)
+}
+
+struct DataView: View {
+    @State private var state: LoadState<[String]> = .idle
+    
+    var body: some View {
+        VStack {
+            switch state {
+            case .idle:
+                Text("Tap to load")
+            case .loading(let progress):
+                ProgressView(value: progress)
+                Text("Loading: \(Int(progress * 100))%")
+            case .loaded(let items):
+                List(items, id: \.self) { Text($0) }
+            case .failed(let error):
+                VStack {
+                    Image(systemName: "exclamationmark.triangle")
+                    Text(error.localizedDescription)
+                }
+            }
+        }
+    }
+}
+```
+
+**Explanation:** The generic `LoadState<T>` enum captures all possible states with their associated data. SwiftUI's `switch` statement handles each case exhaustively. This pattern eliminates optional unwrapping and makes state transitions explicit and type-safe.

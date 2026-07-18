@@ -391,6 +391,20 @@ Enzymes provide extremely high enantioselectivity under mild conditions:
 **Problem:** Convert 4-hydroxybutanal to 4-(2-hydroxyethyl)phenyl ketone via a Grignard reaction with PhMgBr.
 **Solution:** The hydroxyl group interferes with the Grignard reagent. Protect as a TBS ether: 4-hydroxybutanal + TBSCl, imidazole -> 4-(TBSO)butanal. React with PhMgBr (adds to the aldehyde) -> TBS-protected alcohol. Deprotect with TBAF in THF to give the target. Alternatively, protect as an acetal using ethylene glycol and TsOH, then deprotect with aqueous acid after the Grignard addition.
 
+### Example 3: Designing a Convergent Synthesis
+
+**Problem:** Propose a synthesis of 4-methylbiphenyl using a Suzuki coupling. Start from toluene and bromobenzene.
+
+**Solution:** Retrosynthesis: 4-methylbiphenyl can be disconnected at the C-C bond between the two rings, giving a Suzuki coupling between 4-methylphenylboronic acid and bromobenzene (or 4-bromotoluene and phenylboronic acid). Route: (1) Toluene + Br2/FeBr3 -> 4-bromotoluene (para-bromination, major product). (2) 4-Bromotoluene + B2Pin2, Pd(dppf)Cl2, base -> 4-methylphenylboronic acid pinacol ester. (3) Suzuki coupling: 4-methylphenylboronic acid + bromobenzene, Pd(PPh3)4, Na2CO3, THF/H2O, reflux -> 4-methylbiphenyl. This is a convergent approach where two aromatic fragments are joined in the final step.
+
+**Common mistake:** Forgetting that Suzuki coupling requires one partner to be an organoboronic acid (or ester) and the other to be an aryl/vinyl halide. Both cannot be halides. Also, the reaction requires a palladium catalyst and a base. Without the base, the transmetallation step does not occur.
+
+$\blacksquare$
+
+## Intuition
+
+Synthetic chemistry is like molecular LEGO: you start with simple, available building blocks and assemble them into complex structures through a series of carefully planned reactions. Retrosynthetic analysis works backward from the target molecule, mentally breaking it into simpler precursors at strategic bonds. The art lies in choosing which bonds to break first, prioritizing reactions that are reliable, high-yielding, and give the simplest starting materials. Protecting groups are temporary masks that shield reactive functional groups while you work elsewhere on the molecule, like putting tape over areas you do not want painted. Carbon-carbon bond forming reactions are the workhorses of synthesis: Grignard reactions build alcohols from carbonyls, Wittig reactions convert carbonyls to alkenes, aldol reactions form new C-C bonds with stereocontrol, and Diels-Alder reactions construct six-membered rings with extraordinary precision. Asymmetric synthesis adds another dimension, producing single enantiomers using chiral catalysts or auxiliaries. The most elegant syntheses are convergent, building fragments separately and joining them at the end, rather than linear approaches that accumulate losses at each step.
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                  |

@@ -874,3 +874,137 @@ cache = Cache.new
 cache.fetch("expensive") { compute_expensive_result }
 cache.fetch("expensive") { compute_expensive_result }  # returns cached value
 ```
+
+## Worked Examples
+
+### Example 1: Building a Configuration DSL with Blocks
+
+**Problem:** Create a DSL that allows users to configure an application using a clean block-based syntax.
+
+```ruby
+class Config
+  attr_reader :settings
+
+  def initialize
+    @settings = {}
+  end
+
+  def configure
+    yield self
+    @settings
+  end
+
+  def setting(key, value = nil)
+    if block_given?
+      @settings[key] = yield
+    else
+      @settings[key] = value
+    end
+  end
+
+  def group(name)
+    @settings[name] ||= {}
+    yield @settings[name] if block_given?
+    self
+  end
+end
+
+config = Config.new
+config.configure do |c|
+  c.setting :host, "localhost"
+  c.setting :port, 8080
+  c.setting :timeout do
+    # Computed value via block
+    ENV.fetch("TIMEOUT", 30).to_i
+  end
+  c.group :database do |db|
+    db[:adapter] = "postgresql"
+    db[:pool] = 5
+  end
+end
+
+puts config.settings
+# => {:host=>"localhost", :port=>8080, :timeout=>30, :database=>{:adapter=>"postgresql", :pool=>5}}
+```
+
+**Explanation:** The `configure` method yields `self`, allowing the caller to call `setting` and `group` on the config object. When a block is passed to `setting`, the return value becomes the setting value. The `group` method creates a nested hash and yields it for further configuration.
+
+---
+
+### Example 2: Implementing a Retry Decorator with Procs
+
+**Problem:** Write a `retry_on` method that accepts both exception classes and a maximum retry count, using procs and lambdas for flexible error handling.
+
+```ruby
+def retry_on(*exceptions, max_attempts: 3, delay: 1, &on_retry)
+  attempts = 0
+  begin
+    attempts += 1
+    yield
+  rescue *exceptions => e
+    on_retry&.call(e, attempts)
+    if attempts < max_attempts
+      sleep(delay * attempts)
+      retry
+    else
+      raise
+    end
+  end
+end
+
+# Usage with a lambda for custom retry logic
+log_retry = ->(error, attempt) {
+  warn "[Attempt #{attempt}] #{error.class}: #{error.message}"
+}
+
+result = retry_on(TimeoutError, SocketError, max_attempts: 3, delay: 1, &log_retry) do
+  HTTP.get("https://api.example.com/data").parse
+end
+```
+
+**Explanation:** `*exceptions` splats multiple exception classes into an array. `&on_retry` captures an optional proc. The lambda `log_retry` receives the error and attempt count, enabling custom logging. The delay doubles each attempt (exponential backoff).
+
+---
+
+### Example 3: Event Emitter Pattern with Lambdas
+
+**Problem:** Implement an event system where handlers can be registered with lambdas and triggered with arguments.
+
+```ruby
+class EventEmitter
+  def initialize
+    @handlers = Hash.new { |h, k| h[k] = [] }
+  end
+
+  def on(event, &handler)
+    @handlers[event] << handler
+    self
+  end
+
+  def emit(event, *args)
+    @handlers[event].each { |h| h.call(*args) }
+    self
+  end
+
+  def off(event, &handler)
+    @handlers[event].delete(handler)
+    self
+  end
+end
+
+emitter = EventEmitter.new
+
+emitter.on(:user_created) do |user|
+  puts "Welcome email sent to #{user[:email]}"
+end
+
+emitter.on(:user_created) do |user|
+  puts "Audit log: user #{user[:name]} created"
+end
+
+emitter.emit(:user_created, { name: "Alice", email: "alice@example.com" })
+# => "Welcome email sent to alice@example.com"
+# => "Audit log: user Alice created"
+```
+
+**Explanation:** `Hash.new { |h, k| h[k] = [] }` auto-creates empty arrays for new event keys. Each `on` call appends a lambda to the handler list. `emit` calls all handlers with the provided arguments. The method returns `self` to allow chaining.

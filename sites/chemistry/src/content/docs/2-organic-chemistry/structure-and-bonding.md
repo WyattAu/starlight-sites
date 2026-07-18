@@ -408,6 +408,20 @@ equilibrium constant K = exp(-Delta G/RT) = exp(-1.7/0.6) = exp(-2.83) = 0.059. 
 ratio is approximately 17:1, meaning about 94% of molecules are in the equatorial conformation at
 room temperature.
 
+### Example 3: Determining Aromaticity
+
+**Problem:** Classify each of the following as aromatic, antiaromatic, or non-aromatic: (a) cyclopentadienyl anion, (b) cycloheptatrienyl cation, (c) cyclooctatetraene, (d) pyridine.
+
+**Solution:** (a) Cyclopentadienyl anion: cyclic, planar, fully conjugated, 6 pi electrons (4n+2 with n=1). Aromatic. (b) Cycloheptatrienyl cation (tropylium): cyclic, planar, fully conjugated (sp2 carbon with empty p orbital), 6 pi electrons. Aromatic. (c) Cyclooctatetraene: 8 pi electrons (4n with n=2), but it adopts a tub-shaped non-planar conformation to avoid antiaromaticity. Non-aromatic (not planar). (d) Pyridine: cyclic, planar, 6 pi electrons from the ring (the nitrogen lone pair is in an sp2 orbital perpendicular to the pi system). Aromatic.
+
+**Common mistake:** Counting the nitrogen lone pair in pyridine as part of the pi system. In pyridine, the lone pair sits in an sp2 orbital in the plane of the ring and does not participate in the aromatic pi system. In pyrrole, by contrast, the lone pair is in a p orbital and does contribute. Always check whether the lone pair is in a p orbital (contributes) or an sp2 orbital (does not).
+
+$\blacksquare$
+
+## Intuition
+
+Structure and bonding determine everything about how a molecule behaves. Hybridization is like mixing paint colors: combining s and p orbitals in different proportions creates hybrids with different shapes. sp3 hybrids point toward tetrahedral corners, sp2 hybrids form a flat triangle with one p orbital ready for a pi bond, and sp hybrids create a linear arrangement with two p orbitals for two perpendicular pi bonds. More s character means shorter, stronger bonds. VSEPR theory is the geometry detective: electron pairs arrange themselves as far apart as possible, like balloons maximizing the space between them. Aromaticity is nature's way of gaining extra stability through electron delocalization. When p orbitals overlap in a cyclic, planar arrangement with the right electron count, the pi electrons spread across the entire ring, lowering the overall energy. This is why benzene is far more stable than a hypothetical cyclohexatriene with three localized double bonds. Stereochemistry matters because enantiomers can have dramatically different biological effects.
+
 ## Cross-References
 
 | Topic                        | Site        | Link                                                                    |

@@ -472,6 +472,27 @@ activation energy (R = 8.314 J mol^-1 K^-1). **Solution:** ln(k2/k1) = (Ea/R)(1/
 (Ea/8.314)(1/300 - 1/310) = (Ea/8.314)(10/93000). Ea = 0.693 x 8.314 x 93000/10 = 53,570 J/mol =
 53.6 kJ/mol.
 
+### Example 3: Michaelis-Menten Kinetics
+
+**Problem:** An enzyme-catalyzed reaction has V_max = 0.50 micromol/min and K_M = 25 microM. What is
+the reaction velocity when [S] = 50 microM? At what substrate concentration is v = 0.25 micromol/min?
+
+**Solution:** Using the Michaelis-Menten equation v = V_max[S]/(K_M + [S]):
+
+For [S] = 50 microM: v = 0.50 x 50/(25 + 50) = 25/75 = 0.33 micromol/min.
+
+For v = 0.25 micromol/min: 0.25 = 0.50[S]/(25 + [S]). Rearranging: 0.25(25 + [S]) = 0.50[S] => 6.25 + 0.25[S] = 0.50[S] => 6.25 = 0.25[S] => [S] = 25 microM.
+
+Note that when [S] = K_M, v = V_max/2 = 0.25 micromol/min, which is always true by definition of K_M.
+
+**Common mistake:** Confusing K_M with the dissociation constant K_d. K_M = (k_{-1} + k_2)/k_1, which equals K_d only when k_2 << k_{-1}. Never assume K_M equals the substrate concentration at half-maximal velocity unless the steady-state assumption holds.
+
+$\blacksquare$
+
+## Intuition
+
+Chemical kinetics is the study of how fast reactions happen and what controls their speed. Think of activation energy as a hill that molecules must climb before they can react. Temperature gives molecules more kinetic energy, helping more of them clear the hill, which is why reactions speed up when heated. The Arrhenius equation quantifies this: higher temperature means more molecules have enough energy to overcome the barrier. Catalysts work by building a tunnel through the hill rather than going over it, lowering the activation energy without being consumed. Enzymes are nature's catalysts, binding substrates in exactly the right orientation to react. The rate law tells us which ingredients matter most: doubling the concentration of a reactant that appears squared in the rate law quadruples the speed, while a reactant with zero order has no effect at all. Reaction mechanisms reveal the step-by-step choreography behind the overall transformation, with the slowest step acting as the bottleneck that determines the overall pace.
+
 ## Cross-References
 
 | Topic                      | Site        | Link                                                                          |

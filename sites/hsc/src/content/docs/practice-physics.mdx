@@ -1,0 +1,63 @@
+---
+title: "Physics Practice"
+description: "HSC Physics practice questions"
+tags: [HSC, Physics, Practice]
+sidebar_position: 51
+tableOfContents: false
+---
+
+import PracticeProblem from "@components/PracticeProblem";
+
+# HSC Physics -- Practice Problems
+
+15 MCQ questions covering mechanics, electricity, waves, nuclear physics, and thermal physics. Select an option to check your answer and view the explanation.
+
+---
+
+## Mechanics
+
+<PracticeProblem client:only="solid-js" question={"A car accelerates from rest at $2 \\, \\text{m/s}^2$ for 5 seconds. What is its final velocity?"} options={['$10 \\, \\text{m/s}$', '$5 \\, \\text{m/s}$', '$15 \\, \\text{m/s}$', '$25 \\, \\text{m/s}$']} correctAnswer={0} explanation="Using $v = u + at = 0 + 2 \\times 5 = 10 \\, \\text{m/s}$." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"A 2 kg object is subject to a resultant force of 10 N. What is its acceleration?"} options={'$5 \\, \\text{m/s}^2$', '$20 \\, \\text{m/s}^2$', '$2 \\, \\text{m/s}^2$', '$12 \\, \\text{m/s}^2$'} correctAnswer={0} explanation="By Newton's second law: $F = ma$, so $a = \\dfrac{F}{m} = \\dfrac{10}{2} = 5 \\, \\text{m/s}^2$." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"A projectile is launched horizontally from a height of 20 m. Ignoring air resistance, how long does it take to reach the ground? (Take $g = 10 \\, \\text{m/s}^2$)"} options={'$2 \\, \\text{s}$', '$1 \\, \\text{s}$', '$4 \\, \\text{s}$', '$\\sqrt{2} \\, \\text{s}$'} correctAnswer={0} explanation="Using $s = \\dfrac{1}{2}gt^2$: $20 = \\dfrac{1}{2}(10)t^2$, so $t^2 = 4$, giving $t = 2 \\, \\text{s}$." difficulty="medium"  />
+
+---
+
+## Electricity
+
+<PracticeProblem client:only="solid-js" question={"A 12 V battery is connected to a resistor of $4 \\, \\Omega$. What current flows through the circuit?"} options={'$3 \\, \\text{A}$', '$48 \\, \\text{A}$', '$0.33 \\, \\text{A}$', '$8 \\, \\text{A}$'} correctAnswer={0} explanation="By Ohm's law: $I = \\dfrac{V}{R} = \\dfrac{12}{4} = 3 \\, \\text{A}$." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"Two resistors of $6 \\, \\Omega$ each are connected in parallel. What is the equivalent resistance?"} options={'$3 \\, \\Omega$', '$12 \\, \\Omega$', '$6 \\, \\Omega$', '$0.33 \\, \\Omega$'} correctAnswer={0} explanation="For two resistors in parallel: $\\dfrac{1}{R_{eq}} = \\dfrac{1}{6} + \\dfrac{1}{6} = \\dfrac{2}{6} = \\dfrac{1}{3}$. So $R_{eq} = 3 \\, \\Omega$." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the power dissipated in a $10 \\, \\Omega$ resistor carrying a current of 2 A?"} options={'$40 \\, \\text{W}$', '$20 \\, \\text{W}$', '$5 \\, \\text{W}$', '$10 \\, \\text{W}$'} correctAnswer={0} explanation="Using $P = I^2 R = (2)^2 \\times 10 = 40 \\, \\text{W}$." difficulty="easy"  />
+
+---
+
+## Waves
+
+<PracticeProblem client:only="solid-js" question={"A wave has a frequency of 50 Hz and a wavelength of 3.4 m. What is its speed?"} options={'$170 \\, \\text{m/s}$', '$6.8 \\, \\text{m/s}$', '$14.6 \\, \\text{m/s}$', '$50 \\, \\text{m/s}$'} correctAnswer={0} explanation="Using $v = f\\lambda = 50 \\times 3.4 = 170 \\, \\text{m/s}$." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"When light passes from air ($n = 1.00$) into glass ($n = 1.50$), what happens to its speed?"} options={'It decreases', 'It increases', 'It stays the same', 'It depends on the wavelength'} correctAnswer={0} explanation="The speed of light in a medium is $v = \\dfrac{c}{n}$. Since $n_{\\text{glass}} > n_{\\text{air}}$, the speed decreases." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"In a double-slit experiment, increasing the slit separation will:"} options={'Decrease the fringe spacing', 'Increase the fringe spacing', 'Have no effect on fringe spacing', 'Make the fringes brighter'} correctAnswer={0} explanation="The fringe spacing is $\\Delta y = \\dfrac{\\lambda D}{d}$. Increasing $d$ (slit separation) decreases $\\Delta y$." difficulty="medium"  />
+
+---
+
+## Nuclear Physics
+
+<PracticeProblem client:only="solid-js" question={"In alpha decay, the nucleus emits:"} options={'A helium nucleus ($^4_2\\text{He}$)', 'An electron ($^0_{-1}e$)', 'A gamma ray ($\\gamma$)', 'A neutron ($^1_0 n$)'} correctAnswer={0} explanation="Alpha decay involves the emission of an alpha particle, which is a helium-4 nucleus ($^4_2\\text{He}$), consisting of 2 protons and 2 neutrons." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"The half-life of a radioactive substance is 10 years. What fraction remains after 30 years?"} options={'$\\dfrac{1}{8}$', '$\\dfrac{1}{4}$', '$\\dfrac{1}{2}$', '$\\dfrac{1}{6}$'} correctAnswer={0} explanation="After $n$ half-lives, the fraction remaining is $\\left(\\dfrac{1}{2}\\right)^n$. Here $n = \\dfrac{30}{10} = 3$, so $\\left(\\dfrac{1}{2}\\right)^3 = \\dfrac{1}{8}$." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"Nuclear fission differs from nuclear fusion in that fission involves:"} options={'Splitting a heavy nucleus into lighter nuclei', 'Combining light nuclei into a heavier nucleus', 'Emission of beta particles', 'No change in the nucleus'} correctAnswer={0} explanation="Nuclear fission is the splitting of a heavy nucleus into two or more lighter nuclei, releasing energy. Fusion is the combining of light nuclei." difficulty="easy"  />
+
+---
+
+## Thermal Physics
+
+<PracticeProblem client:only="solid-js" question={"What is the SI unit of temperature?"} options={'Kelvin (K)', 'Celsius (°C)', 'Joule (J)', 'Watt (W)'} correctAnswer={0} explanation="The SI unit of thermodynamic temperature is the Kelvin (K)." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"When a gas is heated at constant volume, its pressure:"} options={'Increases proportionally to absolute temperature', 'Decreases', 'Stays the same', 'Doubles'} correctAnswer={0} explanation="By Gay-Lussac's law: $\\dfrac{P}{T} = \\text{constant}$ at constant volume. As temperature increases, pressure increases proportionally." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"Which process involves zero work done on the gas?"} options={'Isochoric (constant volume)', 'Isobaric (constant pressure)', 'Isothermal (constant temperature)', 'Adiabatic'} correctAnswer={0} explanation="Work done by a gas is $W = P\\Delta V$. At constant volume, $\\Delta V = 0$, so $W = 0$." difficulty="easy"  />

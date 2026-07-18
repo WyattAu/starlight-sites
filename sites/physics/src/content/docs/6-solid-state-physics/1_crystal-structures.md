@@ -216,3 +216,7 @@ $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 
 
 </aside>
+
+## Intuition
+
+Crystal structures are nature's way of packing atoms as efficiently as possible. A crystal is like a three-dimensional wallpaper pattern extended infinitely: the lattice provides the repeating framework and the basis tells you what goes at each point. The 14 Bravais lattices are the only ways to arrange points with translational symmetry in three dimensions. Close-packing structures like FCC and HCP achieve about 74 percent filling, which is the maximum possible for identical spheres, like stacking oranges at a grocery store. Miller indices are like an architect's blueprint for specifying which wall of the crystal you are looking at. The Wigner-Seitz cell is the region of space closest to a given lattice point, creating a tile that fills all of space when repeated. X-ray diffraction works because the wavelength of X-rays matches the spacing between atomic planes, so the crystal acts as a three-dimensional diffraction grating.

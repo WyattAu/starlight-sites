@@ -889,3 +889,187 @@ Child.new.greet
 # => "Base#greet"
 # (Base calls super, goes to Object, then Kernel, no more greet methods)
 ```
+
+## Worked Examples
+
+### Example 1: Mixin-based Authentication System
+
+**Problem:** Build an authentication concern that can be mixed into multiple models, providing `authenticate`, `current_user`, and token generation.
+
+```ruby
+module Authenticatable
+  extend ActiveSupport::Concern
+
+  included do
+    has_many :sessions, dependent: :destroy
+    has_secure_password
+  end
+
+  def generate_token
+    token = SecureRandom.urlsafe_base64(32)
+    sessions.create!(token: token, expires_at: 30.days.from_now)
+    token
+  end
+
+  def authenticate_with_token(token)
+    session = sessions.find_by(token: token)
+    return nil unless session && !session.expired?
+    session.update!(last_used_at: Time.current)
+    self
+  end
+
+  def logout(token)
+    sessions.find_by(token: token)&.destroy
+  end
+
+  module ClassMethods
+    def authenticate(email:, password:)
+      user = find_by(email: email)
+      user&.authenticate(password)
+    end
+  end
+end
+
+class User < ApplicationRecord
+  include Authenticatable
+  validates :email, presence: true, uniqueness: true
+end
+
+class Admin < ApplicationRecord
+  include Authenticatable
+  validates :role, inclusion: { in: %w[superadmin admin editor] }
+end
+```
+
+**Explanation:** `ActiveSupport::Concern` provides a clean way to organize mixins. The `included` block runs when the module is included, setting up associations and `has_secure_password`. `ClassMethods` extends the class with `authenticate`. Both `User` and `Admin` gain authentication without inheritance.
+
+---
+
+### Example 2: Strategy Pattern with Modules
+
+**Problem:** Implement a payment processing system where different payment strategies (credit card, PayPal, bank transfer) are encapsulated in separate modules.
+
+```ruby
+module PaymentStrategies
+  module CreditCard
+    def process_payment(amount)
+      puts "Charging $#{amount} to credit card #{card_number[-4..]}"
+      { success: true, reference: "CC-#{rand(1000..9999)}" }
+    end
+
+    def refund(reference, amount)
+      puts "Refunding $#{amount} for reference #{reference}"
+      { success: true }
+    end
+  end
+
+  module PayPal
+    def process_payment(amount)
+      puts "Processing $#{amount} via PayPal for #{paypal_email}"
+      { success: true, reference: "PP-#{rand(1000..9999)}" }
+    end
+
+    def refund(reference, amount)
+      puts "Refunding $#{amount} via PayPal for reference #{reference}"
+      { success: true }
+    end
+  end
+
+  module BankTransfer
+    def process_payment(amount)
+      puts "Initiating bank transfer of $#{amount} to #{account_number}"
+      { success: true, reference: "BT-#{rand(1000..9999)}" }
+    end
+
+    def refund(reference, amount)
+      puts "Initiating bank refund of $#{amount} for reference #{reference}"
+      { success: true }
+    end
+  end
+end
+
+class PaymentProcessor
+  include PaymentStrategies::CreditCard
+  # or PayPal, or BankTransfer depending on configuration
+
+  attr_reader :card_number
+
+  def initialize(card_number:)
+    @card_number = card_number
+  end
+end
+
+processor = PaymentProcessor.new(card_number: "4111111111111111")
+result = processor.process_payment(99.99)
+# => "Charging $99.99 to credit card 1111"
+# => {:success=>true, :reference=>"CC-4523"}
+```
+
+**Explanation:** Each payment strategy is a module with `process_payment` and `refund` methods. The `PaymentProcessor` class includes the appropriate strategy module. This makes it easy to add new payment methods by creating new modules, following the Open/Closed Principle.
+
+---
+
+### Example 3: Observer Pattern with Callbacks
+
+**Problem:** Implement an observer system where models can subscribe to changes on other models and react accordingly.
+
+```ruby
+module Observable
+  def self.included(base)
+    base.instance_variable_set(:@observers, [])
+    base.extend(ClassMethods)
+  end
+
+  module ClassMethods
+    def observers
+      @observers ||= []
+    end
+
+    def add_observer(klass)
+      observers << klass unless observers.include?(klass)
+    end
+  end
+
+  def notify_observers(event, **data)
+    self.class.observers.each do |observer|
+      observer.new.handle_event(event, **data)
+    end
+  end
+end
+
+class EmailObserver
+  def handle_event(event, **data)
+    case event
+    when :user_created
+      UserMailer.welcome(data[:user]).deliver_later
+      puts "Welcome email queued for #{data[:user].name}"
+    when :order_placed
+      OrderMailer.confirmation(data[:order]).deliver_later
+      puts "Order confirmation queued for #{data[:order].id}"
+    end
+  end
+end
+
+class AuditObserver
+  def handle_event(event, **data)
+    AuditLog.create!(
+      event: event,
+      details: data.transform_values(&:to_s),
+      timestamp: Time.current
+    )
+    puts "Audit log created: #{event}"
+  end
+end
+
+class User < ApplicationRecord
+  include Observable
+  add_observer EmailObserver
+  add_observer AuditObserver
+
+  def after_create_callback
+    notify_observers(:user_created, user: self)
+  end
+end
+```
+
+**Explanation:** The `Observable` module uses `self.included` to set up the observers array when included. `add_observer` registers observer classes. `notify_observers` iterates through observers and calls `handle_event`. Each observer type (Email, Audit) handles events differently, decoupling the notification logic from the model.

@@ -355,6 +355,20 @@ $\blacksquare$
 **Problem:** A compound with molecular formula C6H6O has the following spectroscopic data: IR: 3300 (broad), 1600, 1500 cm^-1. 1H NMR: 7.2 (5H, multiplet), 4.5 (1H, singlet), 2.0 (1H, singlet, exchanges with D2O). Identify the compound.
 **Solution:** DoU = 2C + 2 + N - H/2 - X/2 = 12 + 2 - 3 = 4. IR at 3300 (broad) indicates O-H (phenol or alcohol). 1600, 1500 cm^-1: aromatic ring (DoU >= 4). 1H NMR: 5H multiplet at 7.2 ppm = monosubstituted benzene. 1H singlet at 4.5 ppm = CH attached to O. 1H singlet at 2.0 ppm exchanging with D2O = OH. Compound: phenol (C6H5OH).
 
+### Example 3: Combined IR and NMR Analysis
+
+**Problem:** A compound has molecular formula C4H8O2. IR shows a strong absorption at 1740 cm^-1 and a broad absorption at 2500-3300 cm^-1. 1H NMR: 11.0 (1H, broad singlet), 2.4 (2H, quartet, J = 7 Hz), 1.2 (3H, triplet, J = 7 Hz). Identify the compound.
+
+**Solution:** DoU = 4 + 1 - 8/2 = 1. The IR at 1740 cm^-1 indicates an ester C=O (typical range 1735-1750). The broad absorption at 2500-3300 cm^-1 is consistent with a carboxylic acid O-H, but esters do not have O-H stretches. This suggests the compound is actually a carboxylic acid: butanoic acid (CH3CH2CH2COOH). However, the chemical shift of 11.0 ppm for the acidic proton and the C=O at 1740 (slightly high for a carboxylic acid at 1710-1760) need checking. The NMR shows a quartet at 2.4 ppm (CH2 alpha to C=O) and triplet at 1.2 ppm (CH3), consistent with an ethyl group. Structure: propanoic acid (CH3CH2COOH) fits C3H6O2, not C4H8O2. Correct structure for C4H8O2: butanoic acid (CH3CH2CH2COOH). The 2H quartet at 2.4 ppm corresponds to the CH2 alpha to the carbonyl, and the 3H triplet at 1.2 ppm to the terminal methyl. The 1H at 11.0 ppm is the carboxylic acid proton.
+
+**Common mistake:** Confusing ester and carboxylic acid C=O stretches. Esters appear around 1735-1750 cm^-1, while carboxylic acids appear around 1710-1760 cm^-1. The key diagnostic is the broad O-H stretch of carboxylic acids at 2500-3300 cm^-1, which esters lack.
+
+$\blacksquare$
+
+## Intuition
+
+Spectroscopy is like reading the barcode of a molecule. Each spectroscopic technique probes a different physical property: IR spectroscopy measures how bonds vibrate, NMR measures how nuclei respond to magnetic fields, and mass spectrometry measures molecular weight and fragmentation patterns. Think of IR as a tuning fork: each bond type absorbs at a characteristic frequency, like a musical note. The O-H stretch is broad because hydrogen bonding creates a range of environments, while C=O stretches are sharp and intense because the dipole change is large. NMR is like listening to the magnetic neighborhood of each proton: electron-withdrawing groups deshield protons, shifting their signals downfield (higher ppm). The n+1 splitting rule reveals how many neighbors each proton has, like counting adjacent seats at a dinner table. Mass spectrometry provides the molecular weight and, through fragmentation, structural clues. Combining all techniques is like assembling a jigsaw puzzle: each piece of data constrains the possible structures until only one fits all the evidence.
+
 ## Cross-References
 
 | Topic                    | Site        | Link                                                                  |

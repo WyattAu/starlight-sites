@@ -343,6 +343,20 @@ contraction (~15 pm total) compensates for the expected increase in radius from 
 making Zr and Hf nearly identical in size. This explains their similar chemical properties and the
 difficulty of separating them.
 
+### Example 3: Isoelectronic Series Comparison
+
+**Problem:** Rank the following isoelectronic species by ionic radius: O^2-, F^-, Ne, Na^+, Mg^2+, Al^3+. Explain the trend.
+
+**Solution:** All species have 10 electrons (same electron configuration as neon). The ionic radii are: O^2- (140 pm) > F^- (133 pm) > Ne (no ionic radius, atom) > Na^+ (95 pm) > Mg^2+ (65 pm) > Al^3+ (50 pm). The trend is clear: as nuclear charge increases from O (Z=8) to Al (Z=13), the same number of electrons are pulled closer to the nucleus. The effective nuclear charge felt by the outer electrons increases, shrinking the radius. This is a direct demonstration of Coulomb's law: more protons in the nucleus exert a stronger pull on the same electron cloud.
+
+**Common mistake:** Assuming that more electrons always means a larger species. In an isoelectronic series, the number of electrons is constant, so the size is determined entirely by nuclear charge. More protons means a smaller radius, regardless of whether the species is an anion or cation.
+
+$\blacksquare$
+
+## Intuition
+
+Atomic structure is the foundation of all chemistry. Electrons occupy orbitals that are probability clouds, regions where an electron is most likely found. Quantum numbers act like an address system for electrons. Shielding and penetration explain why the periodic table has its structure: s orbitals penetrate closer to the nucleus and are held more tightly than p, d, or f electrons in the same shell. Effective nuclear charge is the net positive charge an electron feels after accounting for shielding. This concept explains virtually all periodic trends: atoms get smaller across a period because increasing nuclear charge pulls electrons closer, and larger down a group because additional shells are added. The lanthanide contraction is particularly important: poor shielding by 4f electrons means post-lanthanide elements are smaller than expected, making second and third row transition metals remarkably similar. The inert pair effect in heavy p-block elements arises from relativistic contraction of s orbitals.
+
 ## Cross-References
 
 | Topic                         | Site        | Link                                                               |

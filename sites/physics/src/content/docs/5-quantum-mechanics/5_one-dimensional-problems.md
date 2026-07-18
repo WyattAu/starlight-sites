@@ -348,3 +348,7 @@ Depends exponentially on the tip-surface distance: $I \propto e^{-2\kappa d}$. T
 Resolution imaging of surfaces, as a change in distance of $0.1$ nm changes the current by a factor
 Of about 10.
 
+## Intuition
+
+One-dimensional quantum problems are the laboratory where quantum weirdness becomes visible. The infinite square well is like a ball bouncing in a perfectly elastic box: the standing waves that fit inside determine the allowed energies, and the zero-point energy means the ball can never be perfectly still. The harmonic oscillator is the quantum version of a pendulum: the ladder operators let you climb up and down the energy ladder one rung at a time, and each rung costs exactly one quantum of energy. The delta function potential is an infinitely sharp spike that still manages to bind a particle, showing that even an infinitely narrow potential can trap a quantum state. Quantum tunneling is the most dramatic departure from classical physics: a particle can pass through a barrier it classically cannot climb over, like a ball rolling through a wall. The thinner and lower the barrier, the more likely the tunnel, which is how nuclear decay and scanning tunneling microscopes work.
+

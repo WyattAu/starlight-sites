@@ -1,0 +1,63 @@
+---
+title: "Performance Tuning Practice"
+description: "Practice exercises for system performance tuning"
+tags: [Tuning, Performance, Practice]
+sidebar_position: 50
+tableOfContents: false
+---
+
+import PracticeProblem from "@components/PracticeProblem";
+
+# Performance Tuning -- Practice Problems
+
+15 MCQ questions covering CPU tuning, memory management, I/O optimization, network tuning, and profiling tools. Select an option to check your answer and view the explanation.
+
+---
+
+## CPU Tuning
+
+<PracticeProblem client:only="solid-js" question={"What is the primary benefit of out-of-order execution in modern CPUs?"} options={'It allows execution of independent instructions in any order to fill idle execution ports', 'It increases clock frequency', 'It reduces power consumption', 'It simplifies the instruction pipeline'} correctAnswer={0} explanation="Out-of-order execution allows the CPU to process independent instructions in any order dictated by data dependencies, filling idle execution ports and extracting more instruction-level parallelism." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"On a CPU with a 19-stage pipeline, what is the approximate cycle penalty for a branch misprediction?"} options={'15-19 cycles', '1-2 cycles', '50-100 cycles', '1-2 nanoseconds'} correctAnswer={0} explanation="The branch misprediction penalty is proportional to pipeline depth. On a 19-stage pipeline, a misprediction flushes the pipeline and wastes roughly 15-19 cycles." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the typical L1 data cache latency in CPU cycles?"} options={'4-5 cycles', '12-14 cycles', '35-50 cycles', '200-400 cycles'} correctAnswer={0} explanation="L1 data cache access typically takes 4-5 cycles (~1 ns at 5 GHz). This is the fastest cache level and is critical for performance." difficulty="easy"  />
+
+---
+
+## Memory Management
+
+<PracticeProblem client:only="solid-js" question={"What is false sharing in the context of CPU caches?"} options={'Different variables on the same cache line modified by different cores, triggering coherence traffic', 'Two threads sharing the same variable', 'A cache line being invalidated by the OS', 'Two cores accessing the same memory address'} correctAnswer={0} explanation="False sharing occurs when unrelated variables share a cache line and are modified by different cores. Each write triggers a coherence round-trip, effectively serializing access and devastating multi-threaded performance." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What does the MESI protocol's 'M' (Modified) state indicate?"} options={'The cache line is modified in this cache only and is dirty', 'The cache line is clean and present in other caches', 'The cache line is invalid', 'The cache line is exclusive to this cache'} correctAnswer={0} explanation="In the MESI protocol, Modified means the line is modified in this cache only and is dirty (different from main memory). It must be written back when evicted." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the typical latency difference between local DRAM and remote DRAM (1 hop) on a NUMA system?"} options={'Remote DRAM is ~50% slower than local', 'Remote DRAM is ~10% slower', 'There is no difference', 'Remote DRAM is ~10x slower'} correctAnswer={0} explanation="On NUMA systems, local DRAM latency is ~80 ns while remote DRAM (1 hop) is ~120-140 ns. This ~50% increase is why NUMA-aware memory placement is critical." difficulty="medium"  />
+
+---
+
+## I/O Optimization
+
+<PracticeProblem client:only="solid-js" question={"What is the primary advantage of using NVMe over SATA for storage?"} options={'Much lower latency and higher IOPS due to a more efficient protocol', 'Higher storage capacity', 'Lower cost per GB', 'Better data integrity'} correctAnswer={0} explanation="NVMe uses a leaner protocol with fewer abstraction layers and hardware-level queuing (up to 64K queues), dramatically reducing latency and increasing IOPS compared to SATA." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"In the Linux I/O stack, what is the purpose of the I/O scheduler?"} options={'To reorder and merge I/O requests for optimal disk access patterns', 'To encrypt data before writing', 'To compress data on the fly', 'To manage file permissions'} correctAnswer={0} explanation="The I/O scheduler reorders and merges I/O requests to minimize seek time on HDDs and optimize write patterns on SSDs. Common schedulers include mq-deadline, bfq, and none." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What does the io_uring interface provide that improves I/O performance?"} options={'Shared ring buffers between kernel and userspace, eliminating syscall overhead', 'Hardware-accelerated encryption', 'Automatic data compression', 'Network protocol offloading'} correctAnswer={0} explanation="io_uring uses shared ring buffers for submission and completion queues, allowing batched I/O submission without per-request syscalls. This reduces overhead significantly for high-throughput workloads." difficulty="medium"  />
+
+---
+
+## Network Tuning
+
+<PracticeProblem client:only="solid-js" question={"What is the purpose of TCP_NODELAY (disabling Nagle's algorithm)?"} options={'Sends small packets immediately without waiting to fill a full segment', 'Increases the TCP window size', 'Enables TCP segmentation offload', 'Reduces the number of retransmissions'} correctAnswer={0} explanation="Nagle's algorithm buffers small packets to reduce overhead. Disabling it (TCP_NODELAY) sends small packets immediately, reducing latency for interactive applications at the cost of slightly more overhead." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the benefit of enabling receive packet steering (RPS) on a multi-core system?"} options={'Distributes packet processing across multiple CPU cores', 'Increases the network interface card speed', 'Reduces memory usage', 'Enables hardware checksumming'} correctAnswer={0} explanation="RPS distributes incoming packet processing across multiple CPU cores, preventing a single core from becoming a bottleneck. It is especially useful when the NIC does not support RSS (Receive Side Scaling)." difficulty="medium"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the typical effect of increasing the TCP receive buffer size?"} options={'Higher throughput for high-bandwidth, high-latency connections', 'Lower latency for all connections', 'Reduced CPU usage', 'Smaller packet sizes'} correctAnswer={0} explanation="Larger TCP buffers allow more data in flight, which is essential for filling the bandwidth-delay product on high-bandwidth, high-latency links (e.g., 10 Gbps over 100 ms RTT)." difficulty="medium"  />
+
+---
+
+## Profiling Tools
+
+<PracticeProblem client:only="solid-js" question={"What does the perf stat command measure?"} options={'Hardware performance counter events (IPC, cache misses, branch mispredictions)', 'Network throughput', 'Disk I/O latency', 'Memory usage over time'} correctAnswer={0} explanation="perf stat reads hardware performance counters to measure IPC, cache misses, branch mispredictions, and other microarchitectural events. It is the standard tool for CPU performance analysis on Linux." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What is the primary purpose of the turbostat tool?"} options={'Monitoring real-time CPU frequency, power, and thermal statistics', 'Profiling application code', 'Measuring disk throughput', 'Analyzing network traffic'} correctAnswer={0} explanation="turbostat reads MSRs directly to report per-core frequency, power draw, temperature, and C-state residency. It is the gold standard for CPU frequency and thermal monitoring on Intel and AMD platforms." difficulty="easy"  />
+
+<PracticeProblem client:only="solid-js" question={"What does a high L1 cache miss rate in perf stat indicate?"} options={'The working set exceeds L1 cache capacity, or poor data access patterns', 'The CPU is thermally throttling', 'The disk is too slow', 'The network is congested'} correctAnswer={0} explanation="A high L1 cache miss rate means the application frequently accesses data not in L1 cache, forcing slower L2/L3/DRAM accesses. Solutions include improving data locality, restructuring data structures, or increasing cache-friendly access patterns." difficulty="medium"  />

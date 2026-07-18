@@ -748,9 +748,155 @@ open class PublicClass {
 }
 ```
 
-## Summary
+## Worked Examples
 
-Swift's type system separates value types (structs) from reference types (classes), each with
-distinct semantics. Protocols and extensions enable flexible abstractions without inheritance.
-Generics provide type-safe reusable code, and ARC manages reference type memory automatically.
-Understanding these concepts is essential for designing robust, efficient Swift applications.
+### Example 1: Protocol-Oriented Network Layer
+
+**Problem:** Design a network layer using protocols and extensions that supports different endpoint types.
+
+```swift
+protocol Endpoint {
+    var baseURL: String { get }
+    var path: String { get }
+    var method: HTTPMethod { get }
+    var headers: [String: String]? { get }
+    var body: Data? { get }
+}
+
+extension Endpoint {
+    var url: URL? {
+        URL(string: baseURL + path)
+    }
+    var defaultHeaders: [String: String] {
+        ["Content-Type": "application/json"]
+    }
+}
+
+enum HTTPMethod: String {
+    case get = "GET"
+    case post = "POST"
+    case put = "PUT"
+    case delete = "DELETE"
+}
+
+struct UserEndpoint: Endpoint {
+    let baseURL = "https://api.example.com"
+    let path: String
+    let method: HTTPMethod = .get
+    var headers: [String: String]? = nil
+    var body: Data? = nil
+    
+    static func fetch(id: Int) -> UserEndpoint {
+        UserEndpoint(path: "/users/\(id)")
+    }
+    
+    static func create(name: String, email: String) -> UserEndpoint {
+        let body = try? JSONEncoder().encode(["name": name, "email": email])
+        return UserEndpoint(path: "/users", method: .post, body: body)
+    }
+}
+
+struct APIClient {
+    func request<T: Decodable>(_ endpoint: Endpoint) async throws -> T {
+        var request = URLRequest(url: endpoint.url!)
+        request.httpMethod = endpoint.method.rawValue
+        request.allHTTPHeaderFields = endpoint.defaultHeaders.merging(endpoint.headers ?? [:]) { _, new in new }
+        request.httpBody = endpoint.body
+        
+        let (data, _) = try await URLSession.shared.data(for: request)
+        return try JSONDecoder().decode(T.self, from: data)
+    }
+}
+```
+
+**Explanation:** The `Endpoint` protocol defines the contract for API endpoints. Extensions provide default implementations for `url` and `defaultHeaders`. Concrete endpoint types conform to the protocol and customize their configuration. The `APIClient` is generic over the response type.
+
+---
+
+### Example 2: Value Type with Copy-on-Write
+
+**Problem:** Implement a custom collection type that demonstrates copy-on-write semantics.
+
+```swift
+struct UniqueCollection<Element: Equatable> {
+    private var storage: [Element]
+    
+    init(_ elements: [Element] = []) {
+        storage = elements
+    }
+    
+    mutating func append(_ element: Element) {
+        // Ensure unique storage before mutation
+        if !isKnownUniquelyReferenced(&storage) {
+            storage = storage.map { $0 }
+        }
+        storage.append(element)
+    }
+    
+    mutating func remove(_ element: Element) {
+        if !isKnownUniquelyReferenced(&storage) {
+            storage = storage.map { $0 }
+        }
+        storage.removeAll { $0 == element }
+    }
+    
+    var count: Int { storage.count }
+    var isEmpty: Bool { storage.isEmpty }
+    subscript(index: Int) -> Element { storage[index] }
+}
+
+var a = UniqueCollection([1, 2, 3])
+var b = a  // Shared reference (no copy yet)
+a.append(4)  // Now a gets its own copy
+print(a.count)  // 4
+print(b.count)  // 3 (unchanged)
+```
+
+**Explanation:** `isKnownUniquelyReferenced` checks if the underlying array has only one reference. If so, mutation is done in-place. If shared, a copy is made first. This gives value type semantics with efficient sharing, similar to Swift's standard library collections.
+
+---
+
+### Example 3: Generic Stack with Protocol Constraint
+
+**Problem:** Implement a generic stack that works with any `Equatable` type, including comparison operations.
+
+```swift
+protocol Stackable {
+    associatedtype Element
+    var isEmpty: Bool { get }
+    var peek: Element? { get }
+    mutating func push(_ element: Element)
+    mutating func pop() -> Element?
+}
+
+struct Stack<T: Equatable>: Stackable {
+    private var elements: [T] = []
+    
+    var isEmpty: Bool { elements.isEmpty }
+    var peek: T? { elements.last }
+    var count: Int { elements.count }
+    
+    mutating func push(_ element: T) {
+        elements.append(element)
+    }
+    
+    mutating func pop() -> T? {
+        elements.popLast()
+    }
+    
+    func contains(_ element: T) -> Bool {
+        elements.contains(element)
+    }
+}
+
+var stack = Stack<String>()
+stack.push("first")
+stack.push("second")
+stack.push("third")
+
+print(stack.peek)         // Optional("third")
+print(stack.contains("first"))  // true
+print(stack.pop())       // Optional("third")
+```
+
+**Explanation:** The `Stackable` protocol defines the interface. `Stack<T: Equatable>` constrains `T` to types that support equality comparison, enabling the `contains` method. The internal array handles storage while the public interface exposes stack-specific operations only.

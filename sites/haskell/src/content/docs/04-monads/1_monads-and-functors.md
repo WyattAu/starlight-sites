@@ -681,3 +681,144 @@ runApp :: Config -> AppState -> AppM a -> IO (Either AppError a)
 runApp config state action =
   runExceptT (evalStateT (runReaderT action config) state)
 ```
+
+## Worked Examples
+
+### Example 1: Chain of Maybe Computations
+
+**Problem:** Build a safe division chain where each step can fail.
+
+```haskell
+safeDivide :: Double -> Double -> Maybe Double
+safeDivide _ 0 = Nothing
+safeDivide x y = Just (x / y)
+
+compute :: Maybe Double
+compute = do
+  a <- safeDivide 100 4    -- Just 25.0
+  b <- safeDivide a 2      -- Just 12.5
+  c <- safeDivide b 0      -- Nothing (short-circuits)
+  return (c + 1)           -- never reached
+
+-- compute => Nothing
+
+computeSuccess :: Maybe Double
+computeSuccess = do
+  a <- safeDivide 100 4    -- Just 25.0
+  b <- safeDivide a 2      -- Just 12.5
+  c <- safeDivide b 2      -- Just 6.25
+  return (c + 1)           -- Just 7.25
+
+-- computeSuccess => Just 7.25
+```
+
+**Explanation:** The `do` notation chains `Maybe` computations. If any step returns `Nothing`, the entire chain short-circuits. The final `return` wraps the result in `Just`. This eliminates manual pattern matching at each step.
+
+---
+
+### Example 2: State Monad for a Counter
+
+**Problem:** Use the State monad to build a counter that increments and decrements, threading state through pure computations.
+
+```haskell
+import Control.Monad.State
+
+type Counter = State Int
+
+increment :: Counter ()
+increment = modify (+1)
+
+decrement :: Counter ()
+decrement = modify (\n -> n - 1)
+
+getValue :: Counter Int
+getValue = get
+
+reset :: Counter ()
+reset = put 0
+
+-- Compose operations
+counterProgram :: Counter (Int, Int, Int)
+counterProgram = do
+  increment       -- state: 1
+  increment       -- state: 2
+  increment       -- state: 3
+  v1 <- getValue  -- v1 = 3
+  decrement       -- state: 2
+  v2 <- getValue  -- v2 = 2
+  reset           -- state: 0
+  v3 <- getValue  -- v3 = 0
+  return (v1, v2, v3)
+
+-- runState counterProgram 0 => ((3, 2, 0), 0)
+```
+
+**Explanation:** The `State Int` monad threads an `Int` through the computation. `modify` applies a function to the state. `get` reads the current state. `put` replaces the state. `runState` runs the computation with an initial state, returning the final result and final state.
+
+---
+
+### Example 3: List Monad for Non-Deterministic Computing
+
+**Problem:** Use the list monad to generate all possible combinations of dice rolls.
+
+```haskell
+import Control.Monad (guard)
+
+-- Two dice: all outcomes where the sum is even
+evenSums :: [(Int, Int)]
+evenSums = do
+  d1 <- [1..6]
+  d2 <- [1..6]
+  guard ((d1 + d2) `mod` 2 == 0)
+  return (d1, d2)
+
+-- length evenSums => 18 (out of 36 total combinations)
+
+-- Find Pythagorean triples with sides up to 20
+pythagoreanTriples :: [(Int, Int, Int)]
+pythagoreanTriples = do
+  a <- [1..20]
+  b <- [a..20]
+  c <- [b..20]
+  guard (a^2 + b^2 == c^2)
+  return (a, b, c)
+
+-- pythagoreanTriples => [(3,4,5), (5,12,13), (6,8,10), (8,15,17), (9,12,15), (12,16,20)]
+```
+
+**Explanation:** The list monad represents non-determinism. Each `do` line produces multiple values, and the monad combines them. `guard` filters combinations that don't satisfy the condition (returning empty list for failures). This is equivalent to nested loops with filtering, but expressed declaratively.
+
+---
+
+### Example 4: Writer Monad for Logging
+
+**Problem:** Use the Writer monad to compute a value while accumulating log messages.
+
+```haskell
+import Control.Monad.Writer
+
+type Log = Writer [String]
+
+computeWithLog :: Int -> Log Int
+computeWithLog n = do
+  tell ["Starting computation with " ++ show n]
+  let doubled = n * 2
+  tell ["Doubled to " ++ show doubled]
+  let result = doubled + 10
+  tell ["Added 10, result is " ++ show result]
+  return result
+
+-- runWriter (computeWithLog 5) => (20, ["Starting computation with 5", "Doubled to 10", "Added 10, result is 20"])
+
+-- Combining multiple logged computations
+combined :: Log Int
+combined = do
+  a <- computeWithLog 5
+  b <- computeWithLog 3
+  tell ["Summing results"]
+  return (a + b)
+
+-- runWriter combined => (30, [...all log messages...])
+```
+
+**Explanation:** The `Writer [String]` monad accumulates log messages alongside the computation. `tell` appends messages to the log. The monad's bind operation concatenates logs from sequential computations. `runWriter` returns both the result and the accumulated log.
