@@ -11,4 +11,4 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Probability and Statistics. Press Space to flip, rate 1-4.
 ---
 
-<FlashcardDeck client:load deckId="uni-maths-probability-stats" title="University Maths -- Probability and Statistics" description="Kolmogorov axioms, distributions, CLT, MLE, hypothesis testing, ANOVA" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;
+<FlashcardDeck client:only="solid-js" deckId="uni-maths-probability-stats" title="University Maths -- Probability and Statistics" description="Kolmogorov axioms, distributions, CLT, MLE, hypothesis testing, ANOVA" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

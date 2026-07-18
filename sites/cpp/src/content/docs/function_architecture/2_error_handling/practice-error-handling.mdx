@@ -18,7 +18,7 @@ submit, and review the explanation.
 
 ### Exceptions and try/catch
 
-<PracticeProblem client:load   question="What happens when an exception is thrown but no matching catch block is found anywhere in the call stack?"
+<PracticeProblem client:only="solid-js"   question="What happens when an exception is thrown but no matching catch block is found anywhere in the call stack?"
   options={[
     'The exception is silently ignored and execution continues',
     'std::terminate() is called, which by default aborts the program',
@@ -30,7 +30,7 @@ submit, and review the explanation.
   difficulty="easy"
  />
 
-<PracticeProblem client:load   question="In `try { /* ... */ } catch (std::runtime_error&amp; e) { /* ... */ }`, what happens if a std::logic_error is thrown inside the try block?"
+<PracticeProblem client:only="solid-js"   question="In `try { /* ... */ } catch (std::runtime_error&amp; e) { /* ... */ }`, what happens if a std::logic_error is thrown inside the try block?"
   options={[
     'It is caught because std::logic_error derives from std::exception',
     'It is NOT caught because std::logic_error is not a std::runtime_error',
@@ -42,7 +42,7 @@ submit, and review the explanation.
   difficulty="medium"
  />
 
-<PracticeProblem client:load   question="What is the correct order for multiple catch blocks handling related exception types?"
+<PracticeProblem client:only="solid-js"   question="What is the correct order for multiple catch blocks handling related exception types?"
   options={[
     'Base class first, then derived classes',
     'Derived classes first, then base classes',
@@ -58,7 +58,7 @@ submit, and review the explanation.
 
 ### noexcept
 
-<PracticeProblem client:load   question="What does the noexcept specifier guarantee and what happens if a noexcept function actually throws?"
+<PracticeProblem client:only="solid-js"   question="What does the noexcept specifier guarantee and what happens if a noexcept function actually throws?"
   options={[
     'The function is optimised to run faster; the throw is ignored',
     'The function promises not to throw, and if it does throw, std::terminate() is called immediately',
@@ -70,7 +70,7 @@ submit, and review the explanation.
   difficulty="medium"
  />
 
-<PracticeProblem client:load   question="What does `noexcept(false)` mean and when would you use it?"
+<PracticeProblem client:only="solid-js"   question="What does `noexcept(false)` mean and when would you use it?"
   options={[
     'The function is guaranteed to throw an exception',
     'The function may throw; noexcept(false) is the default for most functions',
@@ -86,7 +86,7 @@ submit, and review the explanation.
 
 ### std::error_code and error handling strategies
 
-<PracticeProblem client:load   question="What advantage does std::error_code have over throwing exceptions for error reporting?"
+<PracticeProblem client:only="solid-js"   question="What advantage does std::error_code have over throwing exceptions for error reporting?"
   options={[
     'It is always faster than exceptions',
     'It provides a value-based, non-throwing error mechanism suitable for performance-critical or exception-averse code',
@@ -98,7 +98,7 @@ submit, and review the explanation.
   difficulty="medium"
  />
 
-<PracticeProblem client:load   question="What is std::expected (C++23) and how does it differ from std::optional for error handling?"
+<PracticeProblem client:only="solid-js"   question="What is std::expected (C++23) and how does it differ from std::optional for error handling?"
   options={[
     'It is identical to std::optional but with a different name',
     'It holds either a value or an error object, making the error type explicit rather than absent',
@@ -114,7 +114,7 @@ submit, and review the explanation.
 
 ### Custom Exceptions
 
-<PracticeProblem client:load   question="When creating a custom exception class, from which standard library class should it in most cases derive and why?"
+<PracticeProblem client:only="solid-js"   question="When creating a custom exception class, from which standard library class should it in most cases derive and why?"
   options={[
     'std::string for convenient message storage',
     'std::runtime_error or std::exception (via a standard-derived class) to integrate with the standard hierarchy',
@@ -126,7 +126,7 @@ submit, and review the explanation.
   difficulty="easy"
  />
 
-<PracticeProblem client:load   question="What is the canonical pattern for implementing what() in a custom exception class?"
+<PracticeProblem client:only="solid-js"   question="What is the canonical pattern for implementing what() in a custom exception class?"
   options={[
     'Override what() to return a dynamically constructed string each time it is called',
     'Store the message in the constructor and return it from an overridden what() as const char*',
@@ -142,7 +142,7 @@ submit, and review the explanation.
 
 ### RAII and Exception Safety
 
-<PracticeProblem client:load   question="What are the three levels of exception safety guarantees in C++?"
+<PracticeProblem client:only="solid-js"   question="What are the three levels of exception safety guarantees in C++?"
   options={[
     'No-throw, basic, and strong guarantee',
     'Try-guarantee, catch-guarantee, and throw-guarantee',
@@ -154,7 +154,7 @@ submit, and review the explanation.
   difficulty="medium"
  />
 
-<PracticeProblem client:load   question="Why must destructors never throw exceptions in C++?"
+<PracticeProblem client:only="solid-js"   question="Why must destructors never throw exceptions in C++?"
   options={[
     'It is merely a style guideline with no technical consequence',
     'If a destructor throws during stack unwinding caused by another exception, std::terminate() is called',
@@ -166,7 +166,7 @@ submit, and review the explanation.
   difficulty="medium"
  />
 
-<PracticeProblem client:load   question="How does the copy-and-swap idiom provide the strong exception guarantee?"
+<PracticeProblem client:only="solid-js"   question="How does the copy-and-swap idiom provide the strong exception guarantee?"
   options={[
     'By catching all exceptions and retrying the operation',
     'By creating a modified copy, then swapping (noexcept) with the original; if the copy fails, the original is untouched',
@@ -178,7 +178,7 @@ submit, and review the explanation.
   difficulty="hard"
  />
 
-<PracticeProblem client:load   question="What does catch(...) do and why should it in most cases be the last catch block?"
+<PracticeProblem client:only="solid-js"   question="What does catch(...) do and why should it in most cases be the last catch block?"
   options={[
     'It catches all return values; it has no ordering requirement',
     'It catches all exceptions of any type and must be last because it matches everything, making subsequent catches unreachable',
@@ -190,7 +190,7 @@ submit, and review the explanation.
   difficulty="easy"
  />
 
-<PracticeProblem client:load   question="What is the purpose of std::current_exception() and when is it useful?"
+<PracticeProblem client:only="solid-js"   question="What is the purpose of std::current_exception() and when is it useful?"
   options={[
     'It returns the last exception thrown in any thread at any time',
     'It retrieves the currently handled exception object inside a catch block, enabling rethrowing or exception_ptr propagation across threads',
@@ -206,7 +206,7 @@ submit, and review the explanation.
 
 ### Stack Unwinding
 
-<PracticeProblem client:load   question="During stack unwinding after an exception, are objects allocated with new on the heap automatically destroyed?"
+<PracticeProblem client:only="solid-js"   question="During stack unwinding after an exception, are objects allocated with new on the heap automatically destroyed?"
   options={[
     'Yes, all objects are destroyed during unwinding',
     'No, only stack-local objects are destroyed; heap objects without smart pointers are leaked',

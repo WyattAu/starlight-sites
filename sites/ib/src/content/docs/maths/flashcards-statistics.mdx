@@ -10,4 +10,4 @@ import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/maths/flashcards-statistics-data.js';
 
 
-<FlashcardDeck client:load deckId="ib-maths-statistics" title="IB Maths Statistics and Probability" description="Key statistics and probability concepts for IB Maths SL and HL, including distributions, hypothesis testing, and regression." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+<FlashcardDeck client:only="solid-js" deckId="ib-maths-statistics" title="IB Maths Statistics and Probability" description="Key statistics and probability concepts for IB Maths SL and HL, including distributions, hypothesis testing, and regression." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
