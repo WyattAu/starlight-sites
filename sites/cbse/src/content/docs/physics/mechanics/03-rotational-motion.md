@@ -75,3 +75,62 @@ Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done
 
 4. Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about a tangent axis.
 5. A merry-go-round of moment of inertia $200 \, \text{kg}\cdot\text{m}^2$ rotates at $2 \, \text{rad/s}$. A 25 kg child runs radially inward from 3 m to 1 m from the center. Find the new angular speed.
+
+## Worked Example 5 — Rolling Motion Without Slipping
+
+**Problem:** A solid sphere of mass 2 kg and radius 0.1 m rolls down an incline from rest. Find its speed at the bottom of a 3 m high incline.
+
+**Solution:**
+
+For rolling without slipping, $v = R\omega$. Using conservation of energy:
+$$mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+
+For a solid sphere, $I = \frac{2}{5}mR^2$:
+$$mgh = \frac{1}{2}mv^2 + \frac{1}{2} \cdot \frac{2}{5}mR^2 \cdot \frac{v^2}{R^2}$$
+
+$$mgh = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2$$
+
+$$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42} \approx 6.48 \text{ m/s}$$
+
+**Common mistake:** Forgetting to include rotational kinetic energy. The answer would be $\sqrt{2gh} = 7.67$ m/s if rotation were ignored.
+
+## Worked Example 6 — Torque and Angular Acceleration
+
+**Problem:** A uniform disc of mass 5 kg and radius 0.2 m is free to rotate about a horizontal axis through its center. A string is wrapped around the rim and a 0.5 kg mass hangs from it. Find the angular acceleration of the disc.
+
+**Solution:**
+
+For the hanging mass:
+$$mg - T = ma$$
+
+For the disc (torque $\tau = TR = I\alpha$):
+$$TR = \frac{1}{2}MR^2 \cdot \alpha$$
+
+Since $a = R\alpha$:
+$$T = \frac{1}{2}MR\alpha$$
+
+Substituting into the first equation:
+$$mg - \frac{1}{2}MR\alpha = mR\alpha$$
+
+$$mg = mR\alpha + \frac{1}{2}MR\alpha = R\alpha\left(m + \frac{M}{2}\right)$$
+
+$$\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 \times (0.5 + 2.5)} = \frac{4.9}{0.6} \approx 8.17 \text{ rad/s}^2$$
+
+**Common mistake:** Forgetting that the tension provides the torque, not the weight of the hanging mass.
+
+## Worked Example 7 — Precession of a Gyroscope
+
+**Problem:** A gyroscope wheel has moment of inertia $0.04 \text{ kg}\cdot\text{m}^2$ and spins at $100 \text{ rad/s}$. Its axle is horizontal and supported at one end, 0.1 m from the wheel's center. Find the precession angular velocity.
+
+**Solution:**
+
+The torque due to gravity is:
+$$\tau = Mgr = (0.5)(9.8)(0.1) = 0.49 \text{ N}\cdot\text{m}$$
+
+The angular momentum of the spinning wheel is:
+$$L = I\omega = 0.04 \times 100 = 4 \text{ kg}\cdot\text{m}^2/\text{s}$$
+
+Precession angular velocity:
+$$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
+
+**Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is typically much slower than spin.

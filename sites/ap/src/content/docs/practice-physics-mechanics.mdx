@@ -20,4 +20,114 @@ import { practiceQuestions } from '@/data/flashcards/ap/practice-physics-mechani
 ### Kinematics
 
 
-<PracticeProblem client:only="solid-js" questions={practiceQuestions} /> 
+<PracticeProblem client:only="solid-js" questions={practiceQuestions} />
+
+## Free-Response Practice Problems
+
+### Problem 1: Projectile Motion with Air Resistance (15 points)
+
+A projectile of mass $m$ is launched from the origin with initial speed $v_0$ at angle $\theta$ above the horizontal. Assume air resistance is proportional to velocity: $\mathbf{F}_{\text{drag}} = -b\mathbf{v}$.
+
+**(a)** Write the differential equations of motion for the $x$ and $y$ components. (4 points)
+
+**(b)** For the case $b = 0$ (no air resistance), derive expressions for the time of flight, maximum height, and range. (6 points)
+
+**(c)** Explain qualitatively how air resistance affects each of these quantities. (3 points)
+
+**(d)** If $b$ is small, suggest an approximation method to find the corrected range. (2 points)
+
+**Solution:**
+
+**(a)** The equations of motion are:
+$$m\frac{dv_x}{dt} = -bv_x \implies \frac{dv_x}{dt} = -\frac{b}{m}v_x$$
+
+$$m\frac{dv_y}{dt} = -mg - bv_y \implies \frac{dv_y}{dt} = -g - \frac{b}{m}v_y$$
+
+**(b)** Without air resistance:
+- Time of flight: $T = \frac{2v_0\sin\theta}{g}$
+- Maximum height: $H = \frac{v_0^2\sin^2\theta}{2g}$
+- Range: $R = \frac{v_0^2\sin 2\theta}{g}$
+
+**(c)** Air resistance:
+- Reduces time of flight (projectile decelerates faster)
+- Reduces maximum height (energy is lost to drag)
+- Reduces range (both horizontal and vertical motion are affected)
+
+**(d)** Perturbation theory: expand the solution in powers of $b/m$ and solve order by order.
+
+**Scoring rubric:**
+- Part (a): 2 points for each correct differential equation
+- Part (b): 2 points each for correct expressions
+- Part (c): 1 point for each correct qualitative effect
+- Part (d): 2 points for mentioning perturbation theory
+
+---
+
+### Problem 2: Rotational Dynamics (15 points)
+
+A uniform solid cylinder of mass $M$ and radius $R$ is placed on a rough inclined plane at angle $\theta$ to the horizontal. The coefficient of static friction is $\mu_s$.
+
+**(a)** Draw a free-body diagram showing all forces acting on the cylinder. (3 points)
+
+**(b)** Write the equations for translational and rotational motion. (4 points)
+
+**(c)** Derive the condition for the cylinder to roll without slipping. (4 points)
+
+**(d)** Find the minimum angle $\theta_{\text{min}}$ at which the cylinder begins to slip. (4 points)
+
+**Solution:**
+
+**(a)** Forces: weight $Mg$ downward, normal force $N$ perpendicular to incline, friction $f$ up the incline (provides torque for rolling).
+
+**(b)** Translation along incline: $Mg\sin\theta - f = Ma$
+
+Translation perpendicular: $N - Mg\cos\theta = 0$
+
+Rotation: $\tau = fR = I\alpha$
+
+Rolling condition: $a = R\alpha$
+
+**(c)** For a solid cylinder, $I = \frac{1}{2}MR^2$.
+
+From torque equation: $fR = \frac{1}{2}MR^2 \cdot \frac{a}{R} \implies f = \frac{1}{2}Ma$
+
+Substituting into translation equation:
+$$Mg\sin\theta - \frac{1}{2}Ma = Ma \implies a = \frac{2g\sin\theta}{3}$$
+
+$$f = \frac{1}{2}M \cdot \frac{2g\sin\theta}{3} = \frac{Mg\sin\theta}{3}$$
+
+Rolling without slipping requires $f \leq \mu_s N = \mu_s Mg\cos\theta$:
+$$\frac{Mg\sin\theta}{3} \leq \mu_s Mg\cos\theta \implies \tan\theta \leq 3\mu_s$$
+
+**(d)** The cylinder begins to slip when $\tan\theta_{\text{min}} = 3\mu_s$, so:
+$$\theta_{\text{min}} = \tan^{-1}(3\mu_s)$$
+
+**Scoring rubric:**
+- Part (a): 1 point for each correct force and direction
+- Part (b): 1 point for each correct equation
+- Part (c): 2 points for correct moment of inertia, 2 points for deriving the condition
+- Part (d): 2 points for the final expression
+
+---
+
+## Common Mistakes in AP Physics C Mechanics
+
+1. **Confusing mass and weight.** Mass is in kg; weight is in Newtons ($W = mg$).
+
+2. **Forgetting that friction does negative work.** When an object slides, friction opposes motion and removes mechanical energy from the system.
+
+3. **Using $v^2 = v_0^2 + 2a\Delta x$ for non-constant acceleration.** This equation only works for constant acceleration.
+
+4. **Sign errors in rotational dynamics.** Choose a consistent sign convention for torque and angular acceleration.
+
+5. **Assuming all objects roll without slipping.** Check whether the friction is sufficient to prevent slipping.
+
+6. **Confusing center of mass with geometric center.** For non-uniform objects, these may differ.
+
+## Exam Tips
+
+- Always draw a free-body diagram before writing equations
+- For rotational problems, specify the axis of rotation
+- Use conservation of energy when forces are conservative
+- Check that your answer has correct units and reasonable magnitude
+- For free-response problems, show all steps and box your final answer

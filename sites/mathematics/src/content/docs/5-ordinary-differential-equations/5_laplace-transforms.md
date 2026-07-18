@@ -276,10 +276,73 @@ $y(t) = 6 \cdot \frac{t^2 e^{3t}}{2!} = 3t^2 e^{3t}$. $\blacksquare$
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
 </aside>
 <aside class="starlight-aside starlight-aside--caution">
-written as $u_c(t)f(t - c)$Not $u_c(t)f(t)$. The function $f$ must be shifted by the same Amount as
+written as $u_c(t)f(t - c)$ not $u_c(t)f(t)$. The function $f$ must be shifted by the same Amount as
 the step.
 </aside>
-### 5.15 Proof Sketch: Picard Iteration
+
+### 5.15 Intuition: Why Are Laplace Transforms Useful?
+
+The Laplace transform converts differential equations into algebraic equations. Instead of solving
+a second-order ODE (which requires finding homogeneous and particular solutions, applying initial
+conditions, etc.), you transform the ODE into a polynomial equation for $Y(s)$, solve for $Y(s)$,
+and then invert.
+
+**The key insight:** The derivative property $\mathcal{L}\{f'(t)\} = sF(s) - f(0)$ converts
+differentiation into multiplication by $s$. This means a differential equation like
+$y'' + 3y' + 2y = e^t$ becomes $(s^2 + 3s + 2)Y(s) = \frac{1}{s-1} + \text{initial condition
+terms}$, which is just algebra.
+
+**Why the convolution theorem matters:** The convolution $(f * g)(t) = \int_0^t f(\tau)g(t - \tau)\,d\tau$
+is hard to compute directly. But $\mathcal{L}\{f * g\} = F(s)G(s)$ means that convolution in the
+time domain becomes multiplication in the frequency domain. This is the same principle behind
+Fourier transforms and signal processing.
+
+**Physical interpretation:** The Laplace variable $s$ can be interpreted as a complex frequency.
+$F(s)$ decomposes the signal $f(t)$ into exponential components $e^{st}$. The poles of $F(s)$
+(values of $s$ where $F(s)$ blows up) determine the natural modes of the system, while the zeros
+determine the frequencies that are suppressed.
+
+### 5.16 Worked Example: System of ODEs via Laplace
+
+**Problem.** Solve the system:
+$$\begin{aligned} x' &= 3x - 2y \\ y' &= 2x - 2y \end{aligned}$$
+with $x(0) = 1$, $y(0) = 0$.
+
+<details>
+<summary>Solution</summary>
+
+Take Laplace transforms:
+$$\begin{aligned} sX - 1 &= 3X - 2Y \\ sY &= 2X - 2Y \end{aligned}$$
+
+Rearranging:
+$$\begin{aligned} (s - 3)X + 2Y &= 1 \\ -2X + (s + 2)Y &= 0 \end{aligned}$$
+
+From the second equation: $X = \frac{(s+2)Y}{2}$.
+
+Substituting into the first: $(s - 3) \cdot \frac{(s+2)Y}{2} + 2Y = 1$
+
+$\frac{(s-3)(s+2)Y + 4Y}{2} = 1$
+
+$(s^2 - s - 6 + 4)Y = 2$
+
+$(s^2 - s - 2)Y = 2$
+
+$Y = \frac{2}{(s-2)(s+1)} = \frac{2/3}{s-2} - \frac{2/3}{s+1}$
+
+$y(t) = \frac{2}{3}e^{2t} - \frac{2}{3}e^{-t}$
+
+For $X$: $X = \frac{(s+2)}{2} \cdot \frac{2}{(s-2)(s+1)} = \frac{s+2}{(s-2)(s+1)} = \frac{4/3}{s-2} - \frac{1/3}{s+1}$
+
+$x(t) = \frac{4}{3}e^{2t} - \frac{1}{3}e^{-t}$
+
+**Verification:** $x(0) = 4/3 - 1/3 = 1$ $\checkmark$, $y(0) = 2/3 - 2/3 = 0$ $\checkmark$.
+
+$x' = \frac{8}{3}e^{2t} + \frac{1}{3}e^{-t}$, $3x - 2y = 4e^{2t} - e^{-t} - \frac{4}{3}e^{2t} +
+\frac{4}{3}e^{-t} = \frac{8}{3}e^{2t} + \frac{1}{3}e^{-t}$ $\checkmark$. $\blacksquare$
+
+</details>
+
+### 5.17 Proof Sketch: Picard Iteration
 
 The Picard-Lindelöf theorem can be proved constructively via **Picard iteration**. For the IVP
 $y' = f(x, y)$, $y(x_0) = y_0$Define the sequence

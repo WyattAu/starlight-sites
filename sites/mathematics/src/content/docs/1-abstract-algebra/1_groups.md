@@ -158,6 +158,68 @@ The only proper non-trivial normal subgroup is $A_3$ (it has index $2$).
 By Theorem 2.4, every subgroup of $\mathbb{Z}/12\mathbb{Z}$ is cyclic, and there is exactly one
 subgroup Of order $d$ for each divisor $d$ of $12$.
 
+### 1.8 Intuition: Why Do Groups Capture Symmetry?
+
+A symmetry of an object is a transformation that preserves the object's structure. Groups capture
+symmetry because the composition of two symmetries is again a symmetry (closure), doing nothing is
+a symmetry (identity), and every symmetry can be undone (inverse).
+
+**Example: The equilateral triangle.** The equilateral triangle has six symmetries: three rotations
+($0°$, $120°$, $240°$) and three reflections (one through each altitude). These symmetries form the
+group $D_3 \cong S_3$. The group multiplication table (Cayley table) is:
+
+| $\cdot$ | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
+|---------|-----|-----|-------|-----|------|--------|
+| $e$     | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
+| $r$     | $r$ | $r^2$ | $e$ | $rs$ | $r^2s$ | $s$ |
+| $r^2$   | $r^2$ | $e$ | $r$ | $r^2s$ | $s$ | $rs$ |
+| $s$     | $s$ | $r^2s$ | $rs$ | $e$ | $r^2$ | $r$ |
+| $rs$    | $rs$ | $s$ | $r^2s$ | $r$ | $e$ | $r^2$ |
+| $r^2s$  | $r^2s$ | $rs$ | $s$ | $r^2$ | $r$ | $e$ |
+
+**Reading the table:** The entry in row $a$, column $b$ is $a \cdot b$. For example, $r \cdot s = rs$
+and $s \cdot r = r^2s$. Since $rs \neq r^2s$, the group is non-abelian.
+
+**Example: The square.** The square has eight symmetries forming $D_4$: four rotations ($0°$, $90°$,
+$180°$, $270°$) and four reflections. The center of $D_4$ is $Z(D_4) = \{e, r^2\}$, where $r^2$ is
+the $180°$ rotation. The quotient $D_4/Z(D_4) \cong V_4$ (the Klein four-group), reflecting the
+fact that modding out by the central $180°$ rotation collapses the four rotations to two elements.
+
+**Why abelian groups are simpler.** In an abelian group, the Cayley table is symmetric across the
+main diagonal (since $a \cdot b = b \cdot a$). Every subgroup of an abelian group is normal, so the
+quotient construction always works. The structure theory of finite abelian groups (every finite
+abelian group is a direct product of cyclic groups) is much simpler than the classification of all
+finite groups.
+
+### 1.9 Cayley Table for $\mathbb{Z}/4\mathbb{Z}$
+
+The cyclic group $\mathbb{Z}/4\mathbb{Z} = \{0, 1, 2, 3\}$ under addition modulo 4 has the
+following Cayley table:
+
+| $+$ | $0$ | $1$ | $2$ | $3$ |
+|-----|-----|-----|-----|-----|
+| $0$ | $0$ | $1$ | $2$ | $3$ |
+| $1$ | $1$ | $2$ | $3$ | $0$ |
+| $2$ | $2$ | $3$ | $0$ | $1$ |
+| $3$ | $3$ | $0$ | $1$ | $2$ |
+
+This table is symmetric across the main diagonal (the group is abelian). Each row and column is a
+permutation of $\{0, 1, 2, 3\}$ (the Latin square property, which holds for all groups). The element
+$1$ generates the entire group: $\langle 1 \rangle = \{0, 1, 2, 3\} = \mathbb{Z}/4\mathbb{Z}$.
+
+### 1.10 Common Pitfalls
+
+- **The order of a group is the number of elements, not the order of any particular element.**
+  $|S_3| = 6$ but the elements have orders $1, 2, 2, 2, 3, 3$.
+- **A group of order $n$ need not be cyclic.** The Klein four-group $V_4 = \mathbb{Z}/2\mathbb{Z}
+  \times \mathbb{Z}/2\mathbb{Z}$ has order 4 but is not cyclic (every non-identity element has
+  order 2).
+- **The Cayley table determines the group up to isomorphism.** Two groups with the same Cayley
+  table (up to relabeling of elements) are isomorphic.
+- **Not every subset of a group is a subgroup.** The subset must contain the identity, be closed
+  under the operation, and contain inverses. For example, $\{1, 2\} \subset \mathbb{Z}/4\mathbb{Z}$
+  is not a subgroup because $1 + 1 = 2 \notin \{1, 2\}$ is fine, but $2 + 2 = 0 \notin \{1, 2\}$.
+
 <aside class="starlight-aside starlight-aside--caution">
 $d$ of $n$. The converse of Lagrange's theorem is false. For example, $A_4$ has order $12$ but no
 subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ has order dividing

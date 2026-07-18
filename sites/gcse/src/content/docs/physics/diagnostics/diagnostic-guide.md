@@ -102,10 +102,58 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+### Example: Energy Conservation on a Roller Coaster
+
+A roller coaster car of mass 500 kg starts from rest at the top of a hill 20 m high. Calculate its speed at the bottom, assuming no friction.
+
+**Solution:**
+
+Using conservation of energy:
+$$mgh = \frac{1}{2}mv^2$$
+
+$$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 20} = \sqrt{392} = 19.8 \text{ m/s}$$
+
+**Exam tip:** Always state the principle used (conservation of energy) and show the formula before substituting values.
+
+### Example: Series Circuit Analysis
+
+A 12 V battery is connected to three resistors in series: 4 $\Omega$, 6 $\Omega$, and 2 $\Omega$. Find the current through each resistor and the voltage across the 6 $\Omega$ resistor.
+
+**Solution:**
+
+Total resistance: $R_{total} = 4 + 6 + 2 = 12 \text{ }\Omega$
+
+Current: $I = \frac{V}{R_{total}} = \frac{12}{12} = 1 \text{ A}$
+
+In a series circuit, the current is the same through all components.
+
+Voltage across 6 $\Omega$ resistor:
+$$V = IR = 1 \times 6 = 6 \text{ V}$$
+
+**Common mistake:** Assuming the voltage is the same across all components in series. In series, current is constant; in parallel, voltage is constant.
+
+### Example: Wave Speed and Frequency
+
+A sound wave has a wavelength of 0.85 m and travels through air at 340 m/s. Find its frequency and period.
+
+**Solution:**
+
+Using the wave equation: $v = f\lambda$
+
+$$f = \frac{v}{\lambda} = \frac{340}{0.85} = 400 \text{ Hz}$$
+
+Period: $T = \frac{1}{f} = \frac{1}{400} = 0.0025 \text{ s} = 2.5 \text{ ms}$
+
+**Exam tip:** Frequency is measured in hertz (Hz), which is the same as s$^{-1}$.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+- Forgetting to include units in final answers.
+- Using the wrong formula for series vs parallel circuits.
+- Confusing mass and weight ($W = mg$).
+- Not showing working in calculations.
 
 ## Overview
 

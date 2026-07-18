@@ -1,21 +1,99 @@
 ---
 title: "Optics"
-description: "CBSE Class 12 physics: Optics"
+description: "CBSE Class 12 physics: Optics with reflection, refraction, lenses, and worked examples."
 ---
 
 # Optics
 
-Study notes for CBSE Class 12 physics - Optics.
+Optics studies the behavior of light, including reflection, refraction, diffraction, and interference. It covers mirrors, lenses, optical instruments, and wave optics.
 
 ## Key Concepts
 
-- Core definitions and principles
-- Worked examples with step-by-step solutions
-- Practice problems with answers
-- Common exam patterns and tips
+- Reflection: angle of incidence = angle of reflection
+- Snell's law: $n_1\sin\theta_1 = n_2\sin\theta_2$
+- Mirror equation: $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$
+- Lens equation: $\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$ (sign convention: $u$ is negative for real objects)
+- Magnification: $m = -\frac{v}{u}$ (mirror), $m = \frac{v}{u}$ (lens)
+- Critical angle: $\sin\theta_c = \frac{n_2}{n_1}$ (for total internal reflection)
+- Young's double slit: fringe width $\beta = \frac{\lambda D}{d}$
 
-## Resources
+## Worked Example 1 — Mirror Equation
 
-- NCERT textbook reference
-- Previous year question papers
-- Sample problems with solutions
+**Problem:** An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Find the image position and magnification.
+
+**Solution:**
+
+Using the mirror equation:
+$$\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$$
+
+For a concave mirror, $f = -15$ cm (negative by sign convention). Object distance $u = -30$ cm (negative).
+
+$$\frac{1}{-15} = \frac{1}{v} + \frac{1}{-30}$$
+
+$$\frac{1}{v} = \frac{1}{-15} + \frac{1}{30} = \frac{-2 + 1}{30} = \frac{-1}{30}$$
+
+$$v = -30 \, \text{cm}$$
+
+The image is at 30 cm in front of the mirror (same side as object).
+
+Magnification:
+$$m = -\frac{v}{u} = -\frac{-30}{-30} = -1$$
+
+The image is real, inverted, and the same size as the object.
+
+**Common mistake:** Forgetting the sign convention. For mirrors, $f$ is negative for concave mirrors (when the object is outside the focal point).
+
+## Worked Example 2 — Lens Equation
+
+**Problem:** A convex lens of focal length 20 cm forms a real image at 60 cm from the lens. Find the object distance and magnification.
+
+**Solution:**
+
+Using the lens equation:
+$$\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$$
+
+For a convex lens, $f = +20$ cm. Image distance $v = +60$ cm (positive for real image).
+
+$$\frac{1}{20} = \frac{1}{60} - \frac{1}{u}$$
+
+$$\frac{1}{u} = \frac{1}{60} - \frac{1}{20} = \frac{1 - 3}{60} = \frac{-2}{60} = \frac{-1}{30}$$
+
+$$u = -30 \, \text{cm}$$
+
+The object is 30 cm in front of the lens.
+
+Magnification:
+$$m = \frac{v}{u} = \frac{60}{-30} = -2$$
+
+The image is real, inverted, and twice the size of the object.
+
+**Common mistake:** Using the mirror equation for lenses. The lens equation has a minus sign between $1/v$ and $1/u$.
+
+## Worked Example 3 — Total Internal Reflection
+
+**Problem:** A ray of light travels from glass ($n = 1.5$) to air. Find the critical angle for total internal reflection.
+
+**Solution:**
+
+Using the critical angle formula:
+$$\sin\theta_c = \frac{n_2}{n_1} = \frac{1}{1.5} = \frac{2}{3}$$
+
+$$\theta_c = \sin^{-1}\left(\frac{2}{3}\right) \approx 41.8°$$
+
+For any angle of incidence greater than $41.8°$, total internal reflection occurs.
+
+**Common mistake:** Reversing the ratio. The critical angle is defined for light going from a denser medium to a rarer medium, so $n_1 > n_2$.
+
+## Practice Problems
+
+1. A concave mirror of focal length 10 cm creates an image at 30 cm. Find the object distance and magnification.
+2. A convex lens of focal length 15 cm forms an image at 45 cm. Find the object distance.
+3. Calculate the critical angle for light going from water ($n = 1.33$) to air.
+
+## Common Exam Patterns
+
+- Draw ray diagrams for mirrors and lenses
+- Use sign convention consistently (Cartesian sign convention)
+- For total internal reflection, light must go from denser to rarer medium
+- Practice with both real and virtual images
+- Remember that convex lenses and concave mirrors form real images when the object is beyond the focal point

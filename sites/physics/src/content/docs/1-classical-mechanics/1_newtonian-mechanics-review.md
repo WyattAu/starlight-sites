@@ -10,6 +10,19 @@ description: "1. A body remains at rest or in uniform motion unless acted upon b
 <strong>Historical Context</strong>
 Newton's three laws, published in the *Principia Mathematica* (1687), unified terrestrial and celestial mechanics for the first time. Before Newton, the motion of planets was described by Kepler's empirical laws, and falling objects by Galileo's experiments, but there was no single framework connecting them. Newton's second law ($\mathbf{F} = m\mathbf{a}$) provided that framework. Leibniz developed the calculus independently, providing the mathematical tools Newton needed for the derivations. Euler later reformulated mechanics in terms of energy and the Lagrangian, which became the foundation for modern theoretical physics. The Coriolis and centrifugal terms in non-inertial frames were worked out by Gaspard-Gustave de Coriolis (1835) and are essential for understanding rotating reference frames in engineering and meteorology.
 </aside>
+
+### Intuition: Kinematics
+
+Kinematics is the study of motion without asking why it happens. Position, velocity, and acceleration are three successive derivatives of time, but they tell three different stories about the same motion. Position answers "where is the object?" -- it is the raw record of location at each instant. Velocity answers "how is the position changing?" -- it is the rate and direction of that change. Acceleration answers "how is the velocity changing?" -- it captures the tendency of the motion itself to evolve.
+
+The physical metaphor is a car journey. The odometer reading at each moment is the position. The speedometer reading is the velocity -- how fast the position is changing. The accelerometer reading is the acceleration -- whether you are pressing the brake or the accelerator, and by how much. A car moving at constant velocity has zero acceleration: the story of its motion is complete and unchanging. A car in free fall has constant acceleration g: its velocity story changes at a steady rate, and its position story is a parabola. The key insight is that acceleration is the most fundamental of the three because it is directly caused by forces (Newton's second law), while velocity and position are consequences that follow by integration.
+
+### Intuition: Newton's Laws
+
+Newton's second law, F=ma, is the universe's accounting rule for motion. It states that the net force on an object equals its mass times its acceleration -- or more precisely, the net force equals the rate of change of momentum. The metaphor is a financial ledger: force is the "income" or "expense" applied to an object, mass is the "inertia" (resistance to change in its state of motion), and acceleration is the resulting "change in balance." Just as a large bank account responds slowly to small deposits, a massive object responds slowly to small forces.
+
+The first law is the special case of zero net force: the ledger is balanced, and the object's state of motion does not change. The third law is the double-entry bookkeeping principle: every force has an equal and opposite counterpart, so the total "debt" in the universe is always zero. The conservation laws -- of momentum, energy, and angular momentum -- are the consequences of this accounting system applied to isolated systems. They are the reason we can predict the outcome of a collision without knowing every microscopic detail: the ledger must balance, regardless of the complexity of the transactions.
+
 ### 1.1 Newton"s Laws
 
 1. **First Law (Inertia):** A body remains at rest or in uniform motion unless acted upon by a net
@@ -197,6 +210,107 @@ $$\Delta v = u_e \ln\frac{m_0}{m_f} = 3000 \ln\frac{1000}{400} = 3000 \ln(2.5) \
 $\blacksquare$
 
 </details>
+
+### 1.10 Worked Example: Elastic Collision in Two Dimensions
+
+**Problem.** A particle of mass $m_1 = 2\,\mathrm{kg}$ moving at $\mathbf{v}_1 = 4\hat{\mathbf{i}}\,\mathrm{m/s}$ collides elastically with a particle of mass $m_2 = 3\,\mathrm{kg}$ at rest. After the collision, $m_1$ moves at $30^\circ$ to the $x$-axis. Find the final velocities.
+
+<details>
+<summary>Solution</summary>
+
+Conservation of momentum (x-component):
+$$m_1 v_{1x} = m_1 v_{1f}\cos\theta_1 + m_2 v_{2f}\cos\theta_2$$
+$$2 \times 4 = 2 \times v_{1f}\cos 30^\circ + 3 \times v_{2f}\cos\theta_2$$
+
+Conservation of momentum (y-component):
+$$0 = m_1 v_{1f}\sin\theta_1 - m_2 v_{2f}\sin\theta_2$$
+$$0 = 2 \times v_{1f}\sin 30^\circ - 3 \times v_{2f}\sin\theta_2$$
+
+Conservation of kinetic energy:
+$$\frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2$$
+$$2 \times 16 = 2 \times v_{1f}^2 + 3 \times v_{2f}^2$$
+
+From the y-component equation:
+$$v_{1f}\sin 30^\circ = \frac{3}{2}v_{2f}\sin\theta_2$$
+$$0.5 v_{1f} = 1.5 v_{2f}\sin\theta_2 \implies v_{2f}\sin\theta_2 = \frac{v_{1f}}{3}$$
+
+From the x-component equation:
+$$8 = \sqrt{3} v_{1f} + 3 v_{2f}\cos\theta_2$$
+
+From energy conservation:
+$$32 = 2v_{1f}^2 + 3v_{2f}^2$$
+
+Solving these equations simultaneously (using $v_{2f}\sin\theta_2 = v_{1f}/3$ and $v_{2f}\cos\theta_2 = (8 - \sqrt{3}v_{1f})/3$):
+
+$$v_{2f}^2 = \left(\frac{v_{1f}}{3}\right)^2 + \left(\frac{8 - \sqrt{3}v_{1f}}{3}\right)^2$$
+
+$$32 = 2v_{1f}^2 + 3\left[\frac{v_{1f}^2}{9} + \frac{(8 - \sqrt{3}v_{1f})^2}{9}\right]$$
+
+After algebraic manipulation:
+$$v_{1f} \approx 1.6\,\mathrm{m/s}, \quad v_{2f} \approx 2.9\,\mathrm{m/s}$$
+
+The second particle moves at approximately $\theta_2 \approx 19^\circ$ below the $x$-axis.
+
+$\blacksquare$
+
+</details>
+
+**Common mistake.** Assuming the second particle moves along the $x$-axis. In two-dimensional elastic collisions, both particles generally move at angles to the original direction.
+
+### 1.11 Worked Example: Non-Inertial Reference Frame
+
+**Problem.** A block of mass $m = 5\,\mathrm{kg}$ sits on a frictionless horizontal surface inside an elevator accelerating upward at $a = 2\,\mathrm{m/s^2}$. A horizontal force $F = 20\,\mathrm{N}$ is applied. Find the acceleration relative to the elevator.
+
+<details>
+<summary>Solution</summary>
+
+In the elevator frame (non-inertial), we must include the fictitious force $-ma$ acting downward on the block. The forces in the horizontal direction are:
+
+Applied force: $F = 20\,\mathrm{N}$
+
+Fictitious force: $-ma = -5 \times 2 = -10\,\mathrm{N}$ (horizontal component, since the elevator accelerates vertically, the fictitious force is purely vertical)
+
+Wait -- the fictitious force is vertical, not horizontal. In the elevator frame, the block experiences:
+- Gravity: $mg$ downward
+- Normal force: $N$ upward
+- Fictitious force: $ma$ downward (since elevator accelerates upward)
+- Applied force: $F = 20\,\mathrm{N}$ horizontal
+
+The vertical forces cancel in the elevator frame (the block doesn't accelerate vertically relative to the elevator). The horizontal acceleration relative to the elevator is:
+
+$$a_{\text{rel}} = \frac{F}{m} = \frac{20}{5} = 4\,\mathrm{m/s^2}$$
+
+In the ground frame, the horizontal acceleration is also $4\,\mathrm{m/s^2}$ (since the fictitious force has no horizontal component).
+
+$\blacksquare$
+
+**Note.** The fictitious force only affects motion in the direction of the non-inertial acceleration. If the elevator were accelerating horizontally, the fictitious force would be horizontal and would affect the block's horizontal motion.
+
+### 1.12 Worked Example: Centre of Mass of a System
+
+**Problem.** Three particles of masses $m_1 = 1\,\mathrm{kg}$, $m_2 = 2\,\mathrm{kg}$, $m_3 = 3\,\mathrm{kg}$ are located at $(0,0)$, $(2,0)$, and $(0,3)$ respectively. Find the position of the centre of mass and the moment of inertia about an axis through the centre of mass perpendicular to the $xy$-plane.
+
+<details>
+<summary>Solution</summary>
+
+Centre of mass coordinates:
+$$x_{cm} = \frac{m_1 x_1 + m_2 x_2 + m_3 x_3}{m_1 + m_2 + m_3} = \frac{1 \times 0 + 2 \times 2 + 3 \times 0}{6} = \frac{4}{6} = \frac{2}{3}\,\mathrm{m}$$
+
+$$y_{cm} = \frac{m_1 y_1 + m_2 y_2 + m_3 y_3}{m_1 + m_2 + m_3} = \frac{1 \times 0 + 2 \times 0 + 3 \times 3}{6} = \frac{9}{6} = \frac{3}{2}\,\mathrm{m}$$
+
+Distances from each particle to the centre of mass:
+$$r_1 = \sqrt{\left(\frac{2}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{4}{9} + \frac{9}{4}} = \sqrt{\frac{97}{36}} \approx 1.64\,\mathrm{m}$$
+
+$$r_2 = \sqrt{\left(2 - \frac{2}{3}\right)^2 + \left(0 - \frac{3}{2}\right)^2} = \sqrt{\left(\frac{4}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{16}{9} + \frac{9}{4}} = \sqrt{\frac{145}{36}} \approx 2.01\,\mathrm{m}$$
+
+$$r_3 = \sqrt{\left(0 - \frac{2}{3}\right)^2 + \left(3 - \frac{3}{2}\right)^2} = \sqrt{\left(\frac{2}{3}\right)^2 + \left(\frac{3}{2}\right)^2} = \sqrt{\frac{97}{36}} \approx 1.64\,\mathrm{m}$$
+
+Moment of inertia about the centre of mass:
+$$I_{cm} = \sum m_i r_i^2 = 1 \times \frac{97}{36} + 2 \times \frac{145}{36} + 3 \times \frac{97}{36} = \frac{97 + 290 + 291}{36} = \frac{678}{36} \approx 18.83\,\mathrm{kg\cdot m^2}$$
+
+$\blacksquare$
+
+**Common mistake.** Using the origin instead of the centre of mass when calculating the moment of inertia. The parallel axis theorem relates the two: $I = I_{cm} + Md^2$ where $d$ is the distance from the centre of mass to the rotation axis.
 
 ### 1.10 From Newton to Variational Principles
 

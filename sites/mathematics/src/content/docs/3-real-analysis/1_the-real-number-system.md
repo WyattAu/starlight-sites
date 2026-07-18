@@ -181,9 +181,61 @@ $\blacksquare$
 _Remark._ The field $\mathbb{Q}$ satisfies none of these properties, which is why it must be
 Extended to $\mathbb{R}$ for analysis.
 
-<aside aria-label="Common Pitfall The completeness axiom is often misstated as "every bounded set has a supremum." The set must be Non-empty. Also, completeness does not say every set has a maximum;" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall The completeness axiom is often misstated as "every bounded set has a supremum." The set must be Non-empty. Also, completeness does not say every set has a maximum;</p>
-$\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$Which belongs to
-the set, but $\sup(0, 1) = 1$Which does not belong to $(0, 1)$.
+### 1.8 Intuition: Why Do We Need Completeness?
 
+The completeness axiom is the single property that separates $\mathbb{R}$ from $\mathbb{Q}$ and
+makes calculus possible. Without completeness, limits of Cauchy sequences might not exist, the
+intermediate value theorem fails, and the Bolzano-Weierstrass theorem is false.
+
+**A concrete failure in $\mathbb{Q}$.** Consider the sequence $(x_n)$ in $\mathbb{Q}$ defined by
+$x_1 = 1$ and $x_{n+1} = \frac{x_n}{2} + \frac{1}{x_n}$. This is Newton's method for solving
+$x^2 = 2$. The sequence is Cauchy (the terms get arbitrarily close to each other) and every term
+is rational. But the limit is $\sqrt{2} \notin \mathbb{Q}$. In $\mathbb{Q}$, this Cauchy sequence
+does not converge. In $\mathbb{R}$, completeness guarantees that it does.
+
+**Why the other axioms are not enough.** The rational numbers $\mathbb{Q}$ form an ordered field:
+they satisfy all the field axioms and the order axioms. But $\mathbb{Q}$ has "gaps" --- the
+irrational numbers are missing. The completeness axiom fills these gaps by requiring that every
+"gap" (every set bounded above) has a supremum in $\mathbb{R}$. This is why $\mathbb{R}$ is the
+smallest complete ordered field containing $\mathbb{Q}$.
+
+**Connection to physics.** Physical measurements are inherently finite, but the mathematical models
+we use to describe nature (differential equations, probability theory, quantum mechanics) assume
+the continuum. The completeness of $\mathbb{R}$ is what makes these models well-defined: it
+guarantees that the solutions to differential equations exist, that probabilities sum to 1, and that
+infinite processes (like series and integrals) converge when they "should."
+
+### 1.9 Worked Example: Supremum of a Set Defined by a Condition
+
+**Problem.** Find $\sup(S)$ and $\inf(S)$ where $S = \{x \in \mathbb{R} : x^2 - 3x + 2 < 0\}$.
+
+<details>
+<summary>Solution</summary>
+
+Factor: $x^2 - 3x + 2 = (x - 1)(x - 2)$. The inequality $(x - 1)(x - 2) < 0$ holds when
+$1 < x < 2$. Therefore $S = (1, 2)$.
+
+$\sup(S) = 2$ (the least upper bound; $2 \notin S$ but every element of $S$ is less than 2).
+$\inf(S) = 1$ (the greatest lower bound; $1 \notin S$ but every element of $S$ is greater than 1).
+
+Note that neither the supremum nor the infimum belongs to $S$, since $S$ is an open interval. This
+illustrates that the completeness axiom guarantees the _existence_ of $\sup$ and $\inf$ in
+$\mathbb{R}$, but they need not be elements of the set.
+
+**Approximation property check:** For any $\varepsilon > 0$, there exists $x \in S$ with
+$2 - \varepsilon < x \leq 2$ (take $x = 2 - \varepsilon/2$ for small enough $\varepsilon$, as long
+as $x > 1$). This confirms that $\sup(S) = 2$. $\blacksquare$
+
+</details>
+
+<aside aria-label="Common Pitfall" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall</p><p>The completeness axiom is often misstated as "every bounded set has a supremum." The set must be non-empty. Also, completeness does not say every set has a maximum;</p>
+$\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$ which belongs to
+the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
+
+- **Do not confuse supremum with maximum.** The maximum of a set must be an element of the set; the
+  supremum need not be. If $\sup(S) \in S$, then $\sup(S) = \max(S)$.
+- **The completeness axiom is specific to $\mathbb{R}$.** In $\mathbb{Q}$, the set
+  $\{x \in \mathbb{Q} : x^2 < 2\}$ is bounded above but has no supremum in $\mathbb{Q}$ (since
+  $\sqrt{2} \notin \mathbb{Q}$).
 
 </aside>

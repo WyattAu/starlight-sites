@@ -44,3 +44,62 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"How can you increase the strength of an electromagnet?&quot; options={[ 'Increase the current flowing through the coil or increase the number of turns on the coil', 'Reverse the direction of the current in the coil', 'Use a plastic core instead of an iron core', 'Decrease the voltage across the coil', ]} correctAnswer={0} explanation=&quot;The strength of an electromagnet can be increased by increasing the current through the coil, increasing the number of turns of wire on the coil, or using a core made of a magnetic material such as soft iron. An iron core concentrates the magnetic field lines, making the electromagnet much stronger. Reversing the current reverses the polarity but does not change the strength."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"In a step-up transformer, which of the following is true?&quot; options={[ 'The voltage in the secondary coil is greater than in the primary coil, and there are more turns on the secondary coil', 'The current in the secondary coil is greater than in the primary coil', 'The voltage in the secondary coil is lower than in the primary coil', 'The number of turns on the primary coil is greater than on the secondary coil', ]} correctAnswer={0} explanation=&quot;A step-up transformer increases the voltage from primary to secondary coil. This is achieved by having more turns of wire on the secondary coil than on the primary coil. The relationship is: V_s / V_p = N_s / N_p. Although the voltage increases, the power (approximately) stays the same, so the current in the secondary coil decreases. Step-up transformers are used at power stations to increase voltage for efficient transmission through the National Grid."} difficulty="hard"  />
+
+## Additional Worked Examples
+
+### Example: Energy Transfer in a Pendulum
+
+A pendulum bob of mass 0.2 kg is released from rest at a height of 0.3 m above its lowest point. Calculate its speed at the lowest point.
+
+**Solution:**
+
+Using conservation of energy:
+$$mgh = \frac{1}{2}mv^2$$
+
+$$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 0.3} = \sqrt{5.88} = 2.42 \text{ m/s}$$
+
+**Exam tip:** Always state the energy stores involved. Here, gravitational potential energy is transferred to kinetic energy.
+
+### Example: Resistance in a Parallel Circuit
+
+Calculate the total resistance of three resistors (6 $\Omega$, 3 $\Omega$, and 2 $\Omega$) connected in parallel.
+
+**Solution:**
+
+For parallel circuits:
+$$\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$
+
+$$\frac{1}{R_{total}} = \frac{1}{6} + \frac{1}{3} + \frac{1}{2} = \frac{1}{6} + \frac{2}{6} + \frac{3}{6} = \frac{6}{6} = 1$$
+
+$$R_{total} = 1 \text{ }\Omega$$
+
+**Common mistake:** Adding resistances directly in parallel. The total resistance in parallel is always less than the smallest individual resistance.
+
+### Example: Newton's Second Law on an Incline
+
+A 5 kg box is placed on a smooth (frictionless) inclined plane at 30° to the horizontal. Calculate the acceleration of the box down the incline.
+
+**Solution:**
+
+Component of weight along the incline:
+$$F = mg\sin\theta = 5 \times 9.8 \times \sin 30° = 5 \times 9.8 \times 0.5 = 24.5 \text{ N}$$
+
+Using Newton's second law:
+$$a = \frac{F}{m} = \frac{24.5}{5} = 4.9 \text{ m/s}^2$$
+
+**Exam tip:** On a frictionless incline, $a = g\sin\theta$. This is independent of mass.
+
+### Example: Power in an Electrical Circuit
+
+A 12 V battery is connected to a 4 $\Omega$ resistor and a 6 $\Omega$ resistor in series. Calculate the power dissipated in the 4 $\Omega$ resistor.
+
+**Solution:**
+
+Total resistance: $R_{total} = 4 + 6 = 10 \text{ }\Omega$
+
+Current: $I = \frac{V}{R_{total}} = \frac{12}{10} = 1.2 \text{ A}$
+
+Power in 4 $\Omega$ resistor:
+$$P = I^2 R = (1.2)^2 \times 4 = 1.44 \times 4 = 5.76 \text{ W}$$
+
+**Common mistake:** Using $P = V^2/R$ with the total voltage instead of the voltage across the specific resistor.

@@ -280,3 +280,76 @@ $h(y) = 0$. Always check whether $h(y) = 0$ yields valid solutions before dividi
 $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require numerical Techniques.
 
 </aside>
+
+### 2.18 Intuition: What Do First-Order ODEs Describe?
+
+A first-order ODE $\frac{dy}{dx} = f(x, y)$ specifies the **rate of change** of $y$ at every point
+$(x, y)$. The solution is a curve that is everywhere tangent to the direction field defined by $f$.
+
+**Separable equations** $\frac{dy}{dx} = g(x)h(y)$ describe systems where the rate of change
+factors into an $x$-dependent part and a $y$-dependent part. For example, exponential growth
+$\frac{dP}{dt} = rP$ has rate proportional to the current value: $g(t) = r$, $h(P) = P$.
+
+**Linear equations** $\frac{dy}{dx} + P(x)y = Q(x)$ describe systems with a restoring or forcing
+term. The homogeneous part $y' + P(x)y = 0$ has solution $y = Ce^{-\int P\,dx}$, which decays or
+grows depending on the sign of $P$. The particular solution captures the effect of the forcing $Q$.
+
+**Exact equations** $M\,dx + N\,dy = 0$ with $M_y = N_x$ arise from conservative systems: there
+exists a potential function $\Psi(x, y)$ such that the ODE becomes $d\Psi = 0$, giving $\Psi =
+\text{const}$ as the solution. This is the same as saying the force field $(M, N)$ is the gradient
+of a potential.
+
+**Newton's law of cooling** $\frac{dT}{dt} = -k(T - T_{\text{env}})$ is separable and describes
+exponential approach to equilibrium. The solution $T(t) = T_{\text{env}} + (T_0 - T_{\text{env}})e^{-kt}$
+shows that the temperature difference decays exponentially, with time constant $1/k$.
+
+**Mixing problems** model the concentration of a substance in a tank. The rate of change is
+$\text{rate in} - \text{rate out}$. If fresh fluid enters, the concentration decreases exponentially;
+if concentrated fluid enters, the concentration increases toward the input concentration.
+
+### 2.19 Worked Example: Bernoulli Equation
+
+**Problem.** Solve $y' + \frac{y}{x} = y^2 x^3$ for $x > 0$.
+
+<details>
+<summary>Solution</summary>
+
+This is a Bernoulli equation with $n = 2$, $P(x) = 1/x$, $Q(x) = x^3$. Set $v = y^{1-2} = y^{-1}$.
+Then $v' = -y^{-2}y'$, and the equation becomes
+
+$$v' - \frac{v}{x} = -x^3$$
+
+This is linear in $v$. The integrating factor is $\mu(x) = e^{\int -1/x\,dx} = e^{-\ln x} = 1/x$.
+
+$$\frac{d}{dx}\left(\frac{v}{x}\right) = -x^2$$
+
+Integrating: $\frac{v}{x} = -\frac{x^3}{3} + C$, so $v = -\frac{x^4}{3} + Cx$.
+
+Since $v = y^{-1}$: $y = \frac{1}{Cx - x^4/3} = \frac{3}{3Cx - x^4}$.
+
+$\blacksquare$
+
+</details>
+
+### 2.20 Physical Interpretation: Logistic Growth
+
+**Problem.** A population grows according to the logistic equation
+$\frac{dP}{dt} = rP\left(1 - \frac{P}{K}\right)$, where $r$ is the growth rate and $K$ is the carrying
+capacity. Solve and interpret.
+
+<details>
+<summary>Solution</summary>
+
+This is separable: $\frac{dP}{P(1 - P/K)} = r\,dt$. Using partial fractions:
+
+$\frac{1}{P(1 - P/K)} = \frac{1}{P} + \frac{1/K}{1 - P/K} = \frac{1}{P} + \frac{1}{K - P}$
+
+Integrating: $\ln|P| - \ln|K - P| = rt + C$, so $\frac{P}{K - P} = Ae^{rt}$.
+
+Solving for $P$: $P = \frac{K}{1 + Be^{-rt}}$ where $B = K/P_0 - 1$ and $P_0 = P(0)$.
+
+**Interpretation:** As $t \to \infty$, $P(t) \to K$ (the carrying capacity). The population starts
+with exponential growth, transitions to logistic growth as $P$ approaches $K$, and saturates at
+$K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal. $\blacksquare$
+
+</details>

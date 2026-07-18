@@ -169,7 +169,80 @@ $$A = 2\sqrt{\alpha}\left(\frac{2\alpha}{\pi}\right)^{1/4}$$
 
 </details>
 
-### 3.7 Time-Dependent Perturbation Theory
+### 3.7 Worked Example: Infinite Square Well
+
+**Problem.** A particle of mass $m$ is confined to a one-dimensional box of width $L$ (infinite square well). Find the energy eigenstates and eigenvalues.
+
+<details>
+<summary>Solution</summary>
+
+The potential is:
+$$V(x) = \begin{cases} 0 & 0 < x < L \\ \infty & \text{otherwise} \end{cases}$$
+
+Inside the box ($0 < x < L$), the time-independent Schrodinger equation is:
+$$-\frac{\hbar^2}{2m}\frac{d^2\phi}{dx^2} = E\phi$$
+
+$$\frac{d^2\phi}{dx^2} = -k^2\phi, \quad k = \frac{\sqrt{2mE}}{\hbar}$$
+
+General solution: $\phi(x) = A\sin(kx) + B\cos(kx)$
+
+Boundary conditions: $\phi(0) = 0 \implies B = 0$
+
+$\phi(L) = 0 \implies \sin(kL) = 0 \implies kL = n\pi, \quad n = 1, 2, 3, ...$
+
+Energy eigenvalues:
+$$E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}$$
+
+Eigenstates: $\phi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right)$
+
+The normalization constant $A = \sqrt{2/L}$ ensures $\int_0^L |\phi_n|^2 dx = 1$.
+
+$\blacksquare$
+
+**Intuition.** The energy levels scale as $n^2$, so the spacing between levels increases with $n$. The ground state energy $E_1$ is non-zero -- this is the zero-point energy, a direct consequence of the uncertainty principle. A particle confined to a region of size $L$ must have momentum $\sim \hbar/L$, giving kinetic energy $\sim \hbar^2/(2mL^2)$.
+
+</details>
+
+### 3.8 Worked Example: Expectation Values
+
+**Problem.** For the ground state of the infinite square well, find $\langle x \rangle$, $\langle x^2 \rangle$, $\langle p \rangle$, and $\langle p^2 \rangle$. Verify the uncertainty principle.
+
+<details>
+<summary>Solution</summary>
+
+Ground state: $\phi_1(x) = \sqrt{2/L}\sin(\pi x/L)$
+
+$$\langle x \rangle = \frac{2}{L}\int_0^L x\sin^2\left(\frac{\pi x}{L}\right)dx = \frac{L}{2}$$
+
+By symmetry, the average position is at the center of the well.
+
+$$\langle x^2 \rangle = \frac{2}{L}\int_0^L x^2\sin^2\left(\frac{\pi x}{L}\right)dx = \frac{L^2}{3} - \frac{L^2}{2\pi^2}$$
+
+For momentum, use $\hat{p} = -i\hbar\frac{d}{dx}$:
+
+$$\langle p \rangle = \frac{2}{L}\int_0^L \sin\left(\frac{\pi x}{L}\right)\left(-i\hbar\frac{d}{dx}\right)\sin\left(\frac{\pi x}{L}\right)dx = 0$$
+
+By symmetry, the average momentum is zero.
+
+$$\langle p^2 \rangle = \frac{2}{L}\int_0^L \sin\left(\frac{\pi x}{L}\right)\left(-\hbar^2\frac{d^2}{dx^2}\right)\sin\left(\frac{\pi x}{L}\right)dx = \frac{\pi^2\hbar^2}{L^2}$$
+
+Uncertainties:
+$$\sigma_x = \sqrt{\langle x^2 \rangle - \langle x \rangle^2} = L\sqrt{\frac{1}{12} - \frac{1}{2\pi^2}} \approx 0.18L$$
+
+$$\sigma_p = \sqrt{\langle p^2 \rangle - \langle p \rangle^2} = \frac{\pi\hbar}{L}$$
+
+Uncertainty product:
+$$\sigma_x\sigma_p = \frac{\pi\hbar}{L} \cdot L\sqrt{\frac{1}{12} - \frac{1}{2\pi^2}} = \pi\hbar\sqrt{\frac{1}{12} - \frac{1}{2\pi^2}} \approx 1.14\hbar > \frac{\hbar}{2}$$
+
+The uncertainty principle is satisfied.
+
+$\blacksquare$
+
+**Common mistake.** Forgetting that $\langle p \rangle = 0$ for a standing wave. The momentum expectation value is zero because the particle is equally likely to be moving left or right.
+
+</details>
+
+### 3.9 Time-Dependent Perturbation Theory
 
 When the Hamiltonian has a time-dependent perturbation, $\hat{H}(t) = \hat{H}_0 + \hat{V}(t)$The
 Transition probability from initial state $|i\rangle$ to final state $|f\rangle$ (with

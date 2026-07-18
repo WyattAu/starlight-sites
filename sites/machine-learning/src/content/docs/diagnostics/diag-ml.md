@@ -1,0 +1,119 @@
+---
+title: "Diagnostic Test: Machine Learning"
+description: "Self-assessment quiz on ML fundamentals"
+sidebar_position: 60
+tableOfContents: false
+---
+
+# Diagnostic Test: Machine Learning
+
+10 multiple-choice questions covering machine learning fundamentals. Select the best answer for each question, then check your score using the answer key below.
+
+---
+
+**Question 1.** Which of the following is a supervised learning algorithm?
+
+(A) K-means clustering
+(B) Principal component analysis (PCA)
+(C) Linear regression
+(D) Apriori algorithm
+
+---
+
+**Question 2.** The bias-variance tradeoff describes:
+
+(A) The tradeoff between training speed and prediction accuracy
+(B) The tradeoff between model complexity and generalization error
+(C) The tradeoff between the number of features and the number of samples
+(D) The tradeoff between precision and recall
+
+---
+
+**Question 3.** Overfitting is characterized by:
+
+(A) High training error and high test error
+(B) Low training error and low test error
+(C) Low training error and high test error
+(D) High training error and low test error
+
+---
+
+**Question 4.** What is the purpose of a validation set?
+
+(A) To train the model parameters
+(B) To tune hyperparameters and estimate generalization performance
+(C) To deploy the model in production
+(D) To store raw data before preprocessing
+
+---
+
+**Question 5.** In gradient descent, what happens when the learning rate is too large?
+
+(A) The model converges slowly but reliably
+(B) The optimization may overshoot the minimum and diverge
+(C) The model always finds the global minimum
+(D) Training time decreases without affecting convergence
+
+---
+
+**Question 6.** L1 regularization (Lasso) has the property of:
+
+(A) Producing dense weight vectors with small non-zero values
+(B) Producing sparse weight vectors by setting some weights exactly to zero
+(C) Being computationally more expensive than L2 regularization
+(D) Only working with linear models
+
+---
+
+**Question 7.** In k-fold cross-validation with k equals 10, the model is:
+
+(A) Trained once on 90 percent of the data
+(B) Trained 10 times, each time on 9 folds and evaluated on 1 fold
+(C) Trained 10 times on the same training set
+(D) Evaluated only on the first fold
+
+---
+
+**Question 8.** Feature standardization transforms features to have:
+
+(A) A minimum value of 0 and a maximum value of 1
+(B) Zero mean and unit variance
+(C) Only binary values of 0 and 1
+(D) The same distribution as the target variable
+
+---
+
+**Question 9.** The F1 score is the harmonic mean of:
+
+(A) Accuracy and precision
+(B) Precision and recall
+(C) True positive rate and false positive rate
+(D) Sensitivity and specificity
+
+---
+
+**Question 10.** Which technique helps prevent overfitting in neural networks?
+
+(A) Increasing the number of hidden layers
+(B) Using dropout during training
+(C) Removing all regularization
+(D) Training for more epochs without monitoring validation loss
+
+---
+
+## Answer Key
+
+| Question | Correct Answer |
+|----------|---------------|
+| 1        | C             |
+| 2        | B             |
+| 3        | C             |
+| 4        | B             |
+| 5        | B             |
+| 6        | B             |
+| 7        | B             |
+| 8        | B             |
+| 9        | B             |
+| 10       | B             |
+
+**Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of machine learning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.

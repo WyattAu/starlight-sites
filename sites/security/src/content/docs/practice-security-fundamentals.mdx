@@ -1,0 +1,216 @@
+---
+title: "Security Fundamentals Practice"
+description: "Practice exercises for security fundamentals"
+sidebar_position: 50
+---
+
+# Security Fundamentals Practice
+
+15 practice questions covering the CIA triad, encryption, authentication, network security, OWASP Top 10, and incident response.
+
+---
+
+### CIA Triad
+
+**Question 1.** Which of the following best describes the principle of least privilege?
+
+(A) Users should have the maximum permissions needed to perform any conceivable task
+(B) Users should be granted only the minimum permissions necessary to perform their job functions
+(C) All users should have identical permission levels for consistency
+(D) Administrators should share accounts to simplify access management
+
+**Correct Answer:** (B)
+
+**Explanation:** The principle of least privilege dictates that each user, process, or system should have only the minimum set of privileges required to perform its legitimate function. This limits the blast radius of compromised accounts, reduces the risk of accidental damage, and simplifies audit trails. It applies to users, applications, and system services alike.
+
+---
+
+**Question 2.** The CIA triad consists of:
+
+(A) Confidentiality, Integrity, Availability
+(B) Confidentiality, Identity, Authentication
+(C) Control, Integrity, Authorization
+(D) Cryptography, Identification, Access
+
+**Correct Answer:** (A)
+
+**Explanation:** The CIA triad is the foundational model in information security. Confidentiality ensures information is accessible only to authorized parties. Integrity ensures data is accurate and unaltered by unauthorized means. Availability ensures systems and data are accessible when needed by authorized users.
+
+---
+
+### Encryption
+
+**Question 3.** What is the fundamental difference between symmetric and asymmetric encryption?
+
+(A) Symmetric encryption is faster; asymmetric encryption is slower and uses a single shared key
+(B) Symmetric encryption uses one shared key; asymmetric encryption uses a public-private key pair
+(C) Symmetric encryption is used only for hashing; asymmetric encryption is used for encryption
+(D) There is no functional difference between them
+
+**Correct Answer:** (B)
+
+**Explanation:** Symmetric encryption uses a single shared secret key for both encryption and decryption (e.g., AES, ChaCha20). It is fast but requires secure key distribution. Asymmetric encryption uses a mathematically related key pair: a public key for encryption and a private key for decryption (e.g., RSA, ECC). It solves the key distribution problem but is computationally slower.
+
+---
+
+**Question 4.** A hash function used for password storage should have which property?
+
+(A) Fast computation to minimize login delay
+(B) A salt should be applied to prevent rainbow table attacks
+(C) The hash should be reversible so administrators can recover passwords
+(D) The same password should always produce the same hash for consistency
+
+**Correct Answer:** (B)
+
+**Explanation:** Password hashes should use a salt (a random value per password) to ensure that identical passwords produce different hashes, defeating rainbow table and precomputation attacks. Modern password hashing functions (bcrypt, scrypt, Argon2) are intentionally slow to resist brute-force attacks. Passwords should never be stored reversibly. The salt should be stored alongside the hash.
+
+---
+
+### Authentication
+
+**Question 5.** Multi-factor authentication (MFA) requires:
+
+(A) Two or more passwords for the same account
+(B) Two or more independent factors from different categories (something you know, have, are)
+(C) Two separate accounts for the same user
+(D) Authentication from two different IP addresses
+
+**Correct Answer:** (B)
+
+**Explanation:** MFA requires credentials from at least two independent categories: something you know (password, PIN), something you have (security token, phone), and something you are (biometrics). Using two passwords from the same category (know) is not true MFA. MFA significantly reduces the risk of account compromise because an attacker must defeat multiple independent factors.
+
+---
+
+**Question 6.** Which authentication protocol is most vulnerable to offline dictionary attacks?
+
+(A) Salted bcrypt with a high iteration count
+(B) NTLM (NT LAN Manager)
+(C) Kerberos with AES-256
+(D) OAuth 2.0 with PKCE
+
+**Correct Answer:** (B)
+
+**Explanation:** NTLM uses MD4 hashing without salting, making it highly vulnerable to rainbow table attacks and offline dictionary attacks. An attacker who captures an NTLM hash can attempt to crack it offline. bcrypt with salting and high iteration counts makes offline attacks computationally expensive. Kerberos with AES-256 is cryptographically strong. OAuth 2.0 is an authorization framework, not a password hash scheme.
+
+---
+
+### Network Security
+
+**Question 7.** A TLS certificate serves which primary purpose?
+
+(A) Encrypting all network traffic on the host
+(B) Authenticating the server's identity and enabling encrypted communication
+(C) Generating encryption keys for client-server communication
+(D) Preventing all forms of network-based attacks
+
+**Correct Answer:** (B)
+
+**Explanation:** A TLS certificate binds a public key to an entity's identity (verified by a Certificate Authority). During the TLS handshake, the client verifies the certificate to authenticate the server, then both parties negotiate session keys for encrypted communication. TLS provides confidentiality and integrity in transit, but it does not protect against all attack vectors (e.g., it does not prevent application-layer vulnerabilities).
+
+---
+
+**Question 8.** What is the purpose of a network intrusion detection system (NIDS)?
+
+(A) To encrypt traffic passing through the network
+(B) To monitor network traffic and alert on suspicious activity
+(C) To block all incoming connections by default
+(D) To assign IP addresses to devices on the network
+
+**Correct Answer:** (B)
+
+**Explanation:** A NIDS passively monitors network traffic and compares it against known attack signatures or behavioral anomalies. When suspicious activity is detected, it generates alerts for security analysts. A NIDS does not block traffic (that is the role of an IPS, Intrusion Prevention System). NIDS deployment points include network taps or span ports on switches.
+
+---
+
+### OWASP Top 10
+
+**Question 9.** SQL injection is classified under which OWASP category?
+
+(A) Broken Access Control
+(B) Injection
+(C) Security Misconfiguration
+(D) Vulnerable and Outdated Components
+
+**Correct Answer:** (B)
+
+**Explanation:** SQL injection (and other injection attacks such as NoSQL injection, LDAP injection, and OS command injection) falls under the Injection category in the OWASP Top 10. It occurs when untrusted user input is inserted into SQL queries without proper sanitization or parameterization. The primary defenses are parameterized queries (prepared statements), stored procedures, and input validation.
+
+---
+
+**Question 10.** Broken Access Control refers to:
+
+(A) Weak encryption algorithms used for data at rest
+(B) Flaws that allow users to act outside their intended permissions
+(C) Missing security patches on operating systems
+(D) Inadequate logging of user login attempts
+
+**Correct Answer:** (B)
+
+**Explanation:** Broken Access Control encompasses vulnerabilities where users can perform actions beyond their authorized scope. This includes privilege escalation, IDOR (Insecure Direct Object References), forced browsing, and missing function-level access control. It is consistently one of the most prevalent vulnerability classes in web applications. Defenses include deny-by-default policies, server-side enforcement, and automated access control testing.
+
+---
+
+### Incident Response
+
+**Question 11.** What is the correct order of the incident response lifecycle?
+
+(A) Detection, Containment, Eradication, Recovery, Lessons Learned
+(B) Recovery, Detection, Containment, Eradication, Lessons Learned
+(C) Containment, Detection, Recovery, Eradication, Lessons Learned
+(D) Eradication, Containment, Detection, Recovery, Lessons Learned
+
+**Correct Answer:** (A)
+
+**Explanation:** The NIST incident response lifecycle consists of: (1) Preparation, (2) Detection and Analysis, (3) Containment, Eradication, and Recovery, and (4) Post-Incident Activity. In practice, the sequence is: detect the incident, contain it to prevent further damage, eradicate the threat, recover affected systems, and conduct lessons-learned reviews to improve future response.
+
+---
+
+**Question 12.** During incident containment, the first priority is to:
+
+(A) Eradicate the attacker from all systems
+(B) Preserve evidence and prevent further damage
+(C) Notify the public immediately
+(D) Rebuild all affected servers from scratch
+
+**Correct Answer:** (B)
+
+**Explanation:** Containment focuses on limiting the scope and impact of an incident while preserving evidence for forensic analysis. Short-term containment may involve isolating affected systems, blocking malicious IPs, or disabling compromised accounts. Evidence preservation (disk images, memory dumps, log snapshots) is critical before eradication, as eradication activities may destroy forensic evidence.
+
+---
+
+**Question 13.** Chain of custody in digital forensics ensures:
+
+(A) That all evidence is stored in a single location
+(B) That evidence is properly documented, collected, and preserved to maintain its integrity and admissibility
+(C) That the investigation is completed within 24 hours
+(D) That all team members have equal access to evidence
+
+**Correct Answer:** (B)
+
+**Explanation:** Chain of custody is a documented, unbroken trail showing the seizure, custody, control, transfer, analysis, and disposition of evidence. Each time evidence changes hands, it must be logged. Proper chain of custody ensures evidence integrity and legal admissibility. It prevents tampering and establishes that the evidence presented in court is the same as what was collected during the investigation.
+
+---
+
+**Question 14.** Which of the following is a key output of the post-incident activity (lessons learned) phase?
+
+(A) A list of all employees who should be terminated
+(B) A formal report documenting root cause analysis, impact, and improvement recommendations
+(C) A decision to never use the affected technology again
+(D) A public apology to all customers
+
+**Correct Answer:** (B)
+
+**Explanation:** The lessons learned phase produces a formal post-incident report that documents what happened, when, how it was detected, the response actions taken, the root cause, the business impact, and specific recommendations to prevent recurrence. This report is shared with stakeholders and used to update incident response plans, security controls, and training programs. It is a critical component of continuous security improvement.
+
+---
+
+**Question 15.** Recovery time objective (RTO) defines:
+
+(A) The maximum amount of data loss measured in time
+(B) The maximum acceptable time to restore a system after an incident
+(C) The frequency at which backups are performed
+(D) The maximum acceptable cost of an incident
+
+**Correct Answer:** (B)
+
+**Explanation:** RTO is the maximum duration an organization can tolerate a system being offline after an incident before unacceptable business consequences occur. RPO (Recovery Point Objective) defines the maximum acceptable data loss measured in time (e.g., you can afford to lose at most 4 hours of data). RTO and RPO drive backup strategies and disaster recovery planning.

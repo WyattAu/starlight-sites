@@ -194,6 +194,72 @@ $\blacksquare$
 
 </details>
 
+### 5.7a Intuition: What Do Eigenvalues and Eigenvectors Mean?
+
+An eigenvector of a linear transformation $A$ is a direction that is preserved by $A$: applying $A$
+to an eigenvector only stretches or compresses it, without rotating it. The eigenvalue $\lambda$
+measures how much the eigenvector is stretched: if $\lambda > 1$, the eigenvector is elongated; if
+$0 < \lambda < 1$, it is compressed; if $\lambda < 0$, it is reflected and then scaled.
+
+Geometrically, the eigenvectors of a matrix reveal the "natural axes" of the transformation. For
+a $2 \times 2$ matrix, the eigenvectors define the directions along which the transformation acts as
+simple scaling. In the eigenbasis, the matrix is diagonal: the transformation is just independent
+stretching along each axis.
+
+This is why diagonalisation is powerful. Computing $A^{100}$ directly requires 100 matrix
+multiplications, but $D^{100}$ is trivial: just raise each diagonal entry to the 100th power.
+The change-of-basis matrix $P$ handles the translation between the standard basis and the
+eigenbasis.
+
+**Physical examples:**
+- In mechanics, the eigenvectors of the inertia tensor are the principal axes of rotation.
+- In vibration analysis, the eigenvectors of the stiffness matrix are the normal modes, and the
+  eigenvalues are the squared natural frequencies.
+- In Google's PageRank, the eigenvector corresponding to eigenvalue 1 of the web matrix gives the
+  importance ranking of all pages.
+
+**Why eigenvalues matter for stability:** In the ODE $\mathbf{x}' = A\mathbf{x}$, the solution is
+$\mathbf{x}(t) = e^{At}\mathbf{x}_0$. If $A$ is diagonalisable, this becomes
+$\mathbf{x}(t) = P e^{Dt} P^{-1} \mathbf{x}_0$. The behavior is governed by $e^{\lambda_i t}$: if
+all $\mathrm{Re}(\lambda_i) < 0$, the system decays to zero (stable); if any
+$\mathrm{Re}(\lambda_i) > 0$, the system grows without bound (unstable).
+
+### 5.7b Worked Example: 3x3 Diagonalisation
+
+**Problem.** Diagonalise the matrix
+
+$$A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+
+<details>
+<summary>Solution</summary>
+
+Since $A$ is upper triangular, the eigenvalues are the diagonal entries: $\lambda_1 = 2$,
+$\lambda_2 = 3$ (with algebraic multiplicity 2).
+
+For $\lambda_1 = 2$: Solve $(A - 2I)\mathbf{v} = \mathbf{0}$.
+
+$$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} \to \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$$
+
+Free variable: $x_1 = t$. Eigenvector: $\mathbf{v}_1 = (1, 0, 0)^T$.
+
+For $\lambda_2 = 3$: Solve $(A - 3I)\mathbf{v} = \mathbf{0}$.
+
+$$A - 3I = \begin{pmatrix} -1 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$$
+
+Free variables: $x_2 = s$, $x_3 = t$. Then $x_1 = s$. Eigenvectors: $s(1, 1, 0)^T + t(0, 0, 1)^T$.
+
+The geometric multiplicity of $\lambda_2 = 3$ is 2, equal to its algebraic multiplicity. Therefore
+$A$ is diagonalisable with
+
+$$P = \begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 3 \end{pmatrix}$$
+
+**Key observation:** When the geometric multiplicity equals the algebraic multiplicity for every
+eigenvalue, the matrix is diagonalisable. When they differ (as in the Jordan form example in
+Section 5.5), the matrix is not diagonalisable, and the Jordan normal form is the best alternative.
+$\blacksquare$
+
+</details>
+
 **Problem.** Use the Cayley--Hamilton theorem to compute $A^{10}$ for the same matrix $A$ above.
 
 <details>

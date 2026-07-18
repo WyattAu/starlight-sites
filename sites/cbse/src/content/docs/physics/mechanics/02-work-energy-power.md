@@ -80,3 +80,52 @@ $$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8
 
 4. A body of mass 3 kg is lifted vertically by 10 m at constant speed. Find the work done against gravity.
 5. Two blocks of masses 2 kg and 3 kg are connected by a spring on a frictionless surface. The 2 kg block is pulled and released, compressing the spring. If the spring constant is $k = 200 \, \text{N/m}$, find the maximum compression.
+
+## Worked Example 6 — Work Done by Gravity on a Curved Path
+
+**Problem:** A 2 kg ball is thrown from the ground at 20 m/s at $60^\circ$ to the horizontal. Find the work done by gravity when the ball reaches its maximum height.
+
+**Solution:**
+
+At maximum height, the vertical component of velocity is zero. The height reached is:
+$$h = \frac{v_{0y}^2}{2g} = \frac{(20\sin 60^\circ)^2}{2 \times 9.8} = \frac{(17.32)^2}{19.6} = \frac{300}{19.6} \approx 15.31 \text{ m}$$
+
+Work done by gravity:
+$$W = -mgh = -2 \times 9.8 \times 15.31 = -300 \text{ J}$$
+
+The work is negative because gravity acts downward while the displacement is upward.
+
+**Common mistake:** Forgetting the negative sign. Gravity does negative work when an object moves upward.
+
+## Worked Example 7 — Power and Terminal Velocity
+
+**Problem:** A car of mass 1200 kg travels at constant speed up a hill inclined at $\sin\theta = 0.05$. The resistive force is 600 N. Find the power required. ($g = 9.8 \text{ m/s}^2$)
+
+**Solution:**
+
+At constant speed, the driving force equals the component of weight down the slope plus the resistive force:
+$$F_{\text{drive}} = mg\sin\theta + F_{\text{resistive}} = 1200 \times 9.8 \times 0.05 + 600 = 588 + 600 = 1188 \text{ N}$$
+
+Power at speed $v = 25 \text{ m/s}$:
+$$P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}$$
+
+**Common mistake:** Forgetting to include the gravitational component when calculating power on a slope.
+
+## Worked Example 8 — Elastic Collision in One Dimension
+
+**Problem:** A 1 kg ball moving at 5 m/s collides elastically with a 3 kg ball at rest. Find the velocities after collision.
+
+**Solution:**
+
+For elastic collisions, both momentum and kinetic energy are conserved:
+$$m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}$$
+$$\frac{1}{2}m_1 v_{1i}^2 + \frac{1}{2}m_2 v_{2i}^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2$$
+
+Using the elastic collision formulas:
+$$v_{1f} = \frac{m_1 - m_2}{m_1 + m_2}v_{1i} = \frac{1 - 3}{1 + 3} \times 5 = \frac{-2}{4} \times 5 = -2.5 \text{ m/s}$$
+
+$$v_{2f} = \frac{2m_1}{m_1 + m_2}v_{1i} = \frac{2 \times 1}{1 + 3} \times 5 = \frac{2}{4} \times 5 = 2.5 \text{ m/s}$$
+
+The 1 kg ball rebounds with speed 2.5 m/s, and the 3 kg ball moves forward at 2.5 m/s.
+
+**Common mistake:** Assuming the lighter ball continues forward. In elastic collisions, the lighter ball often rebounds.

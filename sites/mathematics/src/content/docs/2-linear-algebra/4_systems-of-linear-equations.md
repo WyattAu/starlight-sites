@@ -225,8 +225,80 @@ The solution space is a 2-dimensional affine subspace (a plane) in $\mathbb{R}^4
   produce catastrophically wrong results due to rounding errors.
 - **The normal equations can be ill-conditioned.** For better numerical stability, use QR
   decomposition to solve least squares problems instead of forming $A^T A$.
-- **Not every system has a solution.** Always check consistency via the Rouché--Capelli theorem
+- **Not every system has a solution.** Always check consistency via the Rouche--Capelli theorem
   before attempting to solve.
+- **When a system has infinitely many solutions, the solution set is an affine subspace, not a
+  vector space.** The general solution is $\mathbf{x} = \mathbf{x}_p + \mathbf{x}_h$ where
+  $\mathbf{x}_p$ is a particular solution and $\mathbf{x}_h$ is any element of the null space.
+  The null space is a vector space, but the affine shift by $\mathbf{x}_p$ means the solution set
+  does not contain $\mathbf{0}$ (unless $\mathbf{x}_p = \mathbf{0}$).
+- **Do not confuse the number of equations with the number of unknowns.** A system with more
+  equations than unknowns (overdetermined) may have no solution, exactly one solution, or
+  infinitely many solutions. A system with fewer equations than unknowns (underdetermined) may have
+  no solution or infinitely many solutions, but never exactly one solution.
+
+### 4.8 Intuition: What Does Gaussian Elimination Do Geometrically?
+
+Each elementary row operation corresponds to a geometric operation on the system of equations. In
+$\mathbb{R}^3$, each equation $a_1 x + a_2 y + a_3 z = b$ defines a plane. The solution to the
+system is the intersection of all these planes.
+
+- **Swapping rows** reorders the equations, which does not change the solution set.
+- **Multiplying a row by a scalar** rescales an equation without changing its solution set.
+- **Adding a multiple of one row to another** replaces one plane with a new plane that passes through
+  the line of intersection of the two original planes.
+
+Gaussian elimination systematically rotates and translates the planes so that their intersection
+becomes apparent. After reduction to row echelon form, the last equation involves only one variable,
+the second-to-last involves at most two variables, and so on. Back substitution then recovers all
+variables one at a time, starting from the simplest equation.
+
+When the system is inconsistent, the row reduction produces a contradiction (such as $0 = 1$),
+meaning the planes have no common point of intersection. When there are free variables, the planes
+intersect in a line, plane, or higher-dimensional flat, reflecting the infinitely many solutions.
+
+### 4.9 Worked Example: 4x4 System
+
+**Problem.** Solve the system:
+
+$$\begin{aligned} x_1 + x_2 + x_3 + x_4 &= 10 \\ 2x_1 + 3x_2 + x_3 + 2x_4 &= 19 \\ x_1 + 2x_2 + 3x_3 + x_4 &= 16 \\ 3x_1 + x_2 + 2x_3 + 3x_4 &= 23 \end{aligned}$$
+
+<details>
+<summary>Solution</summary>
+
+Augmented matrix:
+
+$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 2 & 3 & 1 & 2 & 19 \\ 1 & 2 & 3 & 1 & 16 \\ 3 & 1 & 2 & 3 & 23 \end{pmatrix}$$
+
+$R_2 - 2R_1$, $R_3 - R_1$, $R_4 - 3R_1$:
+
+$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 1 & 2 & 0 & 6 \\ 0 & -2 & -1 & 0 & -7 \end{pmatrix}$$
+
+$R_3 - R_2$, $R_4 + 2R_2$:
+
+$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & -3 & 0 & -9 \end{pmatrix}$$
+
+$R_4 + R_3$:
+
+$$\begin{pmatrix} 1 & 1 & 1 & 1 & 10 \\ 0 & 1 & -1 & 0 & -1 \\ 0 & 0 & 3 & 0 & 7 \\ 0 & 0 & 0 & 0 & -2 \end{pmatrix}$$
+
+The last row gives $0 = -2$, so the system is **inconsistent** (no solution).
+
+**Check:** The rank of the coefficient matrix is 3 (three pivots), but the rank of the augmented
+matrix is 4 (four pivots). By the Rouche--Capelli theorem, the system is inconsistent.
+$\blacksquare$
+
+</details>
+
+---
+
+
+
+### Intuition
+
+Gaussian elimination is the systematic process of untangling a web of simultaneous constraints. Each equation in a linear system defines a hyperplane in some high-dimensional space, and a solution is a point where all hyperplanes intersect. Row reduction is the algebraic equivalent of rotating and sliding these hyperplanes until they reveal their intersection clearly. When you swap rows, you are re-ordering which constraint you address first. When you multiply a row by a scalar, you are rescaling a constraint without changing the solution set. When you add a multiple of one row to another, you are using one equation to eliminate a variable from another -- the same logic as solving two equations with two unknowns by substitution.
+
+The deeper insight is that row reduction preserves the solution space while simplifying its description. The row echelon form makes the structure of the solution set transparent: pivot columns identify the dependent variables, free columns identify the independent degrees of freedom, and the rank tells you the dimension of the solution space. This is why the same technique extends to function spaces and operator theory, where infinite-dimensional systems of equations arise naturally.
 
 ---
 

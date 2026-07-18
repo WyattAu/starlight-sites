@@ -1,21 +1,76 @@
 ---
 title: "Solutions"
-description: "CBSE Class 12 chemistry: Solutions"
+description: "CBSE Class 12 chemistry: Solutions with colligative properties, Raoult's law, and worked examples."
 ---
 
 # Solutions
 
-Study notes for CBSE Class 12 chemistry - Solutions.
+Solutions are homogeneous mixtures of two or more components. This topic covers concentration units, Raoult's law, colligative properties, and abnormal molar masses.
 
 ## Key Concepts
 
-- Core definitions and principles
-- Worked examples with step-by-step solutions
-- Practice problems with answers
-- Common exam patterns and tips
+- Molarity $M = \frac{n_{\text{solute}}}{V_{\text{solution (L)}}}$, molality $m = \frac{n_{\text{solute}}}{\text{mass of solvent (kg)}}$
+- Raoult's law: $p_A = x_A p_A^\circ$ for volatile solutes
+- Colligative properties depend on number of solute particles, not identity
+- Boiling point elevation: $\Delta T_b = K_b \cdot m$
+- Freezing point depression: $\Delta T_f = K_f \cdot m$
+- Osmotic pressure: $\pi = CRT$
+- van't Hoff factor $i$ accounts for dissociation or association
 
-## Resources
+## Worked Example 1 — Molality from Molarity
 
-- NCERT textbook reference
-- Previous year question papers
-- Sample problems with solutions
+**Problem:** A sulfuric acid solution has molarity 18 M and density 1.8 g/mL. Calculate its molality. (Molar mass of H$_2$SO$_4$ = 98 g/mol)
+
+**Solution:**
+
+Assume 1 L of solution:
+- Mass of solution = $1000 \text{ mL} \times 1.8 \text{ g/mL} = 1800 \text{ g}$
+- Moles of H$_2$SO$_4$ = 18 mol
+- Mass of H$_2$SO$_4$ = $18 \times 98 = 1764 \text{ g}$
+- Mass of solvent = $1800 - 1764 = 36 \text{ g} = 0.036 \text{ kg}$
+
+$$\text{Molality} = \frac{18}{0.036} = 500 \text{ m}$$
+
+**Common mistake:** Confusing mass of solution with mass of solvent. The denominator in molality is mass of solvent only.
+
+## Worked Example 2 — Boiling Point Elevation
+
+**Problem:** Calculate the boiling point of a 0.5 m aqueous solution of NaCl. ($K_b$ for water = 0.52 K kg/mol)
+
+**Solution:**
+
+NaCl dissociates into Na$^+$ and Cl$^-$, so $i = 2$.
+
+$$\Delta T_b = i \cdot K_b \cdot m = 2 \times 0.52 \times 0.5 = 0.52 \text{ K}$$
+
+Boiling point = $100 + 0.52 = 100.52^\circ$C
+
+**Common mistake:** Forgetting the van't Hoff factor for electrolytes. Using $i = 1$ gives $\Delta T_b = 0.26$ K, which is wrong.
+
+## Worked Example 3 — Osmotic Pressure
+
+**Problem:** A protein solution has osmotic pressure 2.5 kPa at 27°C. If the protein has molar mass 50,000 g/mol, find its concentration in g/L.
+
+**Solution:**
+
+$$\pi = CRT \implies C = \frac{\pi}{RT}$$
+
+$$C = \frac{2500}{8.314 \times 300} = 1.002 \text{ mol/m}^3 = 1.002 \times 10^{-3} \text{ mol/L}$$
+
+Concentration in g/L:
+$$1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}$$
+
+**Common mistake:** Using $R = 0.0821$ L·atm/(mol·K) when pressure is in kPa. Either convert pressure to atm or use $R = 8.314$ J/(mol·K) with SI units.
+
+## Practice Problems
+
+1. A solution of glucose (M = 180 g/mol) has molarity 0.1 M and density 1.02 g/mL. Calculate its molality.
+2. Calculate the freezing point of a 1.0 m CaCl$_2$ solution. ($K_f$ for water = 1.86 K kg/mol)
+3. A 5% glucose solution (w/v) has osmotic pressure 4.0 atm at 300 K. Estimate the molar mass of glucose.
+
+## Common Exam Patterns
+
+- Convert between molarity and molality using density
+- For electrolytes, multiply by van't Hoff factor $i$
+- Osmotic pressure is useful for large molecules (proteins, polymers)
+- Practice with all four colligative properties using the same solution

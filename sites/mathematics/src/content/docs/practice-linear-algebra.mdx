@@ -1,0 +1,214 @@
+---
+title: "Linear Algebra Practice"
+description: "Practice exercises for linear algebra"
+sidebar_position: 50
+---
+
+# Linear Algebra Practice
+
+15 practice questions covering matrix operations, eigenvalues, vector spaces, and linear transformations.
+
+---
+
+### Matrix Operations
+
+**Question 1.** What is the determinant of the matrix [[3, 1], [2, 4]]?
+
+(A) 10
+(B) 14
+(C) -10
+(D) 5
+
+**Correct Answer:** (A)
+
+**Explanation:** For a 2x2 matrix [[a, b], [c, d]], the determinant is ad - bc. Here: det = (3)(4) - (1)(2) = 12 - 2 = 10. The determinant is zero if and only if the matrix is singular (non-invertible).
+
+---
+
+**Question 2.** If A is a 3x3 matrix with det(A) = 5, what is det(2A)?
+
+(A) 10
+(B) 40
+(C) 80
+(D) 160
+
+**Correct Answer:** (B)
+
+**Explanation:** For an n x n matrix, det(kA) = k^n * det(A). With n = 3 and k = 2: det(2A) = 2^3 * 5 = 8 * 5 = 40. This follows from the multilinearity of the determinant: multiplying a matrix by a scalar multiplies each row by that scalar, and the determinant is linear in each row.
+
+---
+
+**Question 3.** The product of a 2x3 matrix and a 3x4 matrix has dimensions:
+
+(A) 2x3
+(B) 3x4
+(C) 2x4
+(D) 4x2
+
+**Correct Answer:** (C)
+
+**Explanation:** Matrix multiplication AB requires the number of columns in A to equal the number of rows in B. The resulting matrix has dimensions (rows of A) x (columns of B). So (2x3) times (3x4) gives a 2x4 matrix. The inner dimension (3) must match; the outer dimensions become the result.
+
+---
+
+### Eigenvalues and Eigenvectors
+
+**Question 4.** The eigenvalues of the identity matrix I_n are:
+
+(A) All zeros
+(B) All ones
+(C) All n values
+(D) Cannot be determined
+
+**Correct Answer:** (B)
+
+**Explanation:** By definition, Av = lambda * v for eigenvalue lambda and eigenvector v. For the identity matrix, I_n * v = v = 1 * v for any non-zero vector v. Therefore every non-zero vector is an eigenvector with eigenvalue 1. The characteristic polynomial is (1 - lambda)^n, giving n eigenvalues all equal to 1.
+
+---
+
+**Question 5.** If lambda is an eigenvalue of matrix A, then lambda^2 is an eigenvalue of:
+
+(A) A + I
+(B) A^2
+(C) A - I
+(D) 2A
+
+**Correct Answer:** (B)
+
+**Explanation:** If Av = lambda * v, then A^2 * v = A * (A * v) = A * (lambda * v) = lambda * (A * v) = lambda * (lambda * v) = lambda^2 * v. So v is also an eigenvector of A^2 with eigenvalue lambda^2. This extends to any power: A^k has eigenvalue lambda^k.
+
+---
+
+**Question 6.** A 2x2 matrix has eigenvalues 3 and -1. What is its determinant?
+
+(A) -3
+(B) -1
+(C) 2
+(D) 3
+
+**Correct Answer:** (A)
+
+**Explanation:** The determinant of a matrix equals the product of its eigenvalues. det(A) = 3 * (-1) = -3. The trace equals the sum of eigenvalues: tr(A) = 3 + (-1) = 2. These relationships hold for any square matrix and provide a quick way to compute determinant and trace from eigenvalues.
+
+---
+
+**Question 7.** A matrix is singular (non-invertible) if and only if:
+
+(A) All its eigenvalues are non-zero
+(B) At least one of its eigenvalues is zero
+(C) All its eigenvalues are equal to 1
+(D) Its trace is zero
+
+**Correct Answer:** (B)
+
+**Explanation:** The determinant equals the product of eigenvalues. A matrix is singular when det(A) = 0, which occurs when at least one eigenvalue is zero. If all eigenvalues are non-zero, the product (and hence the determinant) is non-zero, making the matrix invertible. The trace being zero does not imply singularity (e.g., eigenvalues 2 and -2 have trace zero but non-zero determinant).
+
+---
+
+### Vector Spaces
+
+**Question 8.** The set of all polynomials of degree at most 3 forms a vector space of dimension:
+
+(A) 3
+(B) 4
+(C) 5
+(D) Infinite
+
+**Correct Answer:** (B)
+
+**Explanation:** A basis for this space is {1, x, x^2, x^3}, which contains 4 linearly independent vectors. Any polynomial of degree at most 3 can be written as a_0 + a_1*x + a_2*x^2 + a_3*x^3, requiring 4 coefficients. The dimension of a vector space is the number of vectors in any basis, which is 4.
+
+---
+
+**Question 9.** Which of the following sets is NOT a subspace of R^3?
+
+(A) The set of all vectors (x, y, z) where x + y + z = 0
+(B) The set of all vectors (x, y, z) where x^2 + y^2 + z^2 = 1
+(C) The set of all vectors (x, y, z) where z = 0
+(D) The zero vector alone {(0, 0, 0)}
+
+**Correct Answer:** (B)
+
+**Explanation:** A subspace must contain the zero vector, be closed under addition, and be closed under scalar multiplication. The set x^2 + y^2 + z^2 = 1 does not contain the zero vector (since 0 + 0 + 0 = 0, not 1). It also fails closure under scalar multiplication: if v is on the unit sphere, 2v is not. The other options all satisfy the three subspace axioms.
+
+---
+
+**Question 10.** The rank of a matrix is equal to:
+
+(A) The number of rows
+(B) The dimension of its column space (or row space)
+(C) The number of non-zero eigenvalues
+(D) Both B and C are correct
+
+**Correct Answer:** (D)
+
+**Explanation:** The rank equals the dimension of the column space (the number of linearly independent columns), which equals the dimension of the row space. It also equals the number of non-zero eigenvalues (counting algebraic multiplicities for diagonalizable matrices). The rank-nullity theorem states: rank + nullity = number of columns.
+
+---
+
+### Linear Transformations
+
+**Question 11.** A linear transformation T: R^2 to R^2 that rotates vectors by 90 degrees counterclockwise has standard matrix:
+
+(A) [[0, -1], [1, 0]]
+(B) [[0, 1], [-1, 0]]
+(C) [[1, 0], [0, -1]]
+(D) [[-1, 0], [0, 1]]
+
+**Correct Answer:** (A)
+
+**Explanation:** The standard basis vectors e_1 = (1, 0) and e_2 = (0, 1) rotate to T(e_1) = (0, 1) and T(e_2) = (-1, 0). The standard matrix has these images as columns: [[0, -1], [1, 0]]. Verification: this matrix applied to (1, 0) gives (0, 1) and to (0, 1) gives (-1, 0), confirming 90-degree counterclockwise rotation.
+
+---
+
+**Question 12.** The kernel (null space) of a linear transformation T: R^n to R^m consists of:
+
+(A) All vectors in R^m that T maps to zero
+(B) All vectors in R^n that T maps to zero
+(C) All vectors in R^n that T maps to non-zero values
+(D) The range of T
+
+**Correct Answer:** (B)
+
+**Explanation:** The kernel of T, denoted ker(T), is the set of all input vectors v in the domain R^n such that T(v) = 0. It is a subspace of the domain R^n. The rank-nullity theorem relates it to the image: dim(ker(T)) + dim(im(T)) = n. The kernel measures the "information lost" by the transformation.
+
+---
+
+**Question 13.** If T: R^3 to R^3 is a linear transformation with rank 2, what is the dimension of the kernel?
+
+(A) 0
+(B) 1
+(C) 2
+(D) 3
+
+**Correct Answer:** (B)
+
+**Explanation:** By the rank-nullity theorem: rank(T) + nullity(T) = dim(domain) = 3. Therefore nullity(T) = 3 - 2 = 1. The kernel is a 1-dimensional subspace of R^3 (a line through the origin). This means exactly one linearly independent vector is mapped to the zero vector.
+
+---
+
+### Inner Product Spaces
+
+**Question 14.** Two vectors u and v in R^n are orthogonal if and only if:
+
+(A) Their cross product is zero
+(B) Their inner (dot) product is zero
+(C) They have the same magnitude
+(D) They are parallel
+
+**Correct Answer:** (B)
+
+**Explanation:** Orthogonality in an inner product space is defined by the inner product being zero: u dot v = 0. In R^n with the standard dot product, this means the sum of component-wise products equals zero. Orthogonal vectors are perpendicular (at 90 degrees). Note that the cross product is only defined in R^3 and is zero for parallel vectors, not orthogonal ones.
+
+---
+
+**Question 15.** The Gram-Schmidt process is used to:
+
+(A) Find eigenvalues of a matrix
+(B) Convert a set of linearly independent vectors into an orthogonal (or orthonormal) set
+(C) Compute the determinant of a matrix
+(D) Solve systems of linear equations
+
+**Correct Answer:** (B)
+
+**Explanation:** The Gram-Schmidt orthogonalization process takes a basis {v_1, ..., v_n} and produces an orthogonal (or orthonormal) basis {u_1, ..., u_n} spanning the same subspace. Each new vector is obtained by subtracting the projections onto all previously computed orthogonal vectors. It is fundamental in QR decomposition, least squares problems, and constructing orthonormal bases for subspaces.

@@ -1,0 +1,218 @@
+---
+title: "Linux Administration Practice"
+description: "Practice exercises for Linux system administration"
+sidebar_position: 50
+---
+
+# Linux Administration Practice
+
+15 practice questions covering file permissions, process management, networking, systemd, shell scripting, storage, and security.
+
+---
+
+### File Permissions
+
+**Question 1.** The command `chmod 754 file.txt` sets which permissions?
+
+(A) Owner: read-write-execute; Group: read-execute; Others: read
+(B) Owner: read-write-execute; Group: read-write; Others: read-write
+(C) Owner: read-write; Group: read-execute; Others: read
+(D) Owner: read-write-execute; Group: read; Others: read-write
+
+**Correct Answer:** (A)
+
+**Explanation:** The octal digits represent owner (7 = 4+2+1 = rwx), group (5 = 4+0+1 = r-x), and others (4 = 4+0+0 = r--). Each digit is the sum of read (4), write (2), and execute (1) bits. So 754 gives the owner full permissions, group read and execute, and others read only.
+
+---
+
+**Question 2.** What is the effect of the sticky bit on a directory?
+
+(A) Only the directory owner can create files in it
+(B) Only the file owner can delete their own files within that directory
+(C) All files in the directory are read-only
+(D) The directory is hidden from non-root users
+
+**Correct Answer:** (B)
+
+**Explanation:** The sticky bit (set via `chmod +t`) on a directory means that only the file owner, the directory owner, or root can delete or rename files within that directory. This is commonly used on shared directories like /tmp to prevent users from deleting each other's files.
+
+---
+
+### Process Management
+
+**Question 3.** What does the command `kill -9 <PID>` do?
+
+(A) Sends SIGTERM to the process for a graceful shutdown
+(B) Sends SIGKILL to forcibly terminate the process
+(C) Sends SIGHUP to restart the process
+(D) Sends SIGSTOP to pause the process
+
+**Correct Answer:** (B)
+
+**Explanation:** Signal 9 is SIGKILL, which instructs the kernel to immediately terminate the process without allowing it to clean up. The process cannot catch or ignore SIGKILL. SIGTERM (signal 15) is the default kill signal and allows graceful shutdown. SIGHUP (signal 1) traditionally means hangup or reload configuration.
+
+---
+
+**Question 4.** The `ps aux` command displays:
+
+(A) Only processes owned by the current user
+(B) All processes in the system with detailed format including CPU and memory usage
+(C) Only processes running on the current terminal
+(D) A tree view of parent-child process relationships
+
+**Correct Answer:** (B)
+
+**Explanation:** The `a` flag shows processes for all users, `u` displays user-oriented format (including %CPU, %MEM), and `x` includes processes not attached to a terminal. Together, `ps aux` provides a snapshot of all running processes with detailed resource usage. For a tree view, use `ps auxf` or `pstree`.
+
+---
+
+### Networking
+
+**Question 5.** Which command displays all listening TCP and UDP ports along with the processes using them?
+
+(A) `netstat -tuln` or `ss -tuln`
+(B) `ip link show`
+(C) `ping localhost`
+(D) `traceroute google.com`
+
+**Correct Answer:** (A)
+
+**Explanation:** `netstat -tuln` shows TCP (-t) and UDP (-u) listening (-l) ports with numeric addresses (-n). The modern replacement `ss -tuln` provides the same information. `ip link show` displays network interfaces. `ping` tests connectivity. `traceroute` shows the path to a destination.
+
+---
+
+**Question 6.** To permanently set a static IP address on a Linux system using systemd-networkd, you configure:
+
+(A) /etc/resolv.conf
+(B) A .network file in /etc/systemd/network/
+(C) /etc/hosts
+(D) /etc/hostname
+
+**Correct Answer:** (B)
+
+**Explanation:** systemd-networkd uses .network files in /etc/systemd/network/ to configure network interfaces, including static IP addresses, gateways, and DNS servers. /etc/resolv.conf configures DNS resolution only. /etc/hosts maps hostnames to IP addresses locally. /etc/hostname sets the system hostname.
+
+---
+
+### Systemd
+
+**Question 7.** What does `systemctl enable <service>` do?
+
+(A) Starts the service immediately
+(B) Configures the service to start automatically at boot
+(C) Restarts the service
+(D) Shows the status of the service
+
+**Correct Answer:** (B)
+
+**Explanation:** `systemctl enable` creates the necessary symlinks in the systemd target directories so the service starts during the boot process. It does not start the service immediately. To start a service now, use `systemctl start`. To both enable and start, use `systemctl enable --now`.
+
+---
+
+**Question 8.** The `journalctl -u nginx -f` command:
+
+(A) Shows all log entries for the nginx service and exits
+(B) Follows (tails) the log output of the nginx service in real time
+(C) Clears the nginx service logs
+(D) Displays nginx configuration errors only
+
+**Correct Answer:** (B)
+
+**Explanation:** The `-u` flag filters logs for the specified unit (nginx), and `-f` follows the log output, similar to `tail -f`. This is useful for monitoring a service in real time. Without `-f`, `journalctl -u nginx` would display all historical log entries and exit.
+
+---
+
+### Shell Scripting
+
+**Question 9.** In a bash script, what does `$#` represent?
+
+(A) The name of the script
+(B) The number of positional parameters (arguments) passed to the script
+(C) The last argument passed to the script
+(D) The process ID of the script
+
+**Correct Answer:** (B)
+
+**Explanation:** `$#` expands to the number of positional parameters passed to the script or function. For example, if you run `./script.sh arg1 arg2 arg3`, then `$#` equals 3. `$0` is the script name, `$1` through `$9` are positional parameters, and `$$` is the process ID.
+
+---
+
+**Question 10.** What is the purpose of `set -e` at the top of a bash script?
+
+(A) Enables verbose output for debugging
+(B) Causes the script to exit immediately if any command exits with a non-zero status
+(C) Enables job control in the background
+(D) Sets the default file permissions for new files
+
+**Correct Answer:** (B)
+
+**Explanation:** `set -e` (errexit) causes a script to abort if any command returns a non-zero exit code. This prevents the script from continuing after an error, which can cause cascading failures. It is a common best practice for production scripts. Combine with `set -u` (treat unset variables as errors) and `set -o pipefail` for robust error handling.
+
+---
+
+### Storage
+
+**Question 11.** What is the difference between `软链接` (symbolic link) and a hard link?
+
+(A) A symbolic link can cross filesystem boundaries; a hard link cannot reference a directory
+(B) A hard link can cross filesystem boundaries; a symbolic link cannot
+(C) Both can cross filesystem boundaries
+(D) Neither can cross filesystem boundaries
+
+**Correct Answer:** (A)
+
+**Explanation:** A symbolic (soft) link is a file containing a path reference, so it can point to files on any filesystem, including across mount points. A hard link is an additional directory entry pointing to the same inode, so it must reside on the same filesystem as the original and cannot reference directories (to prevent cycles). Deleting the original file removes the data only when all hard links are removed.
+
+---
+
+**Question 12.** Which command creates an ext4 filesystem on a partition?
+
+(A) `mkfs.ext4 /dev/sda1`
+(B) `fdisk /dev/sda1`
+(C) `mount /dev/sda1 /mnt`
+(D) `df -h /dev/sda1`
+
+**Correct Answer:** (A)
+
+**Explanation:** `mkfs.ext4` creates an ext4 filesystem on the specified device. `fdisk` is used for partitioning (creating/modifying partition tables). `mount` attaches a filesystem to a directory. `df -h` displays disk space usage. Always ensure you are targeting the correct partition, as `mkfs` destroys existing data.
+
+---
+
+### Security
+
+**Question 13.** The command `iptables -A INPUT -s 192.168.1.0/24 -j ACCEPT` does what?
+
+(A) Blocks all traffic from the 192.168.1.0/24 network
+(B) Accepts all incoming traffic from the 192.168.1.0/24 network
+(C) Drops all outgoing traffic to 192.168.1.0/24
+(D) Logs all traffic from 192.168.1.0/24
+
+**Correct Answer:** (B)
+
+**Explanation:** The `-A INPUT` flag appends a rule to the INPUT chain (incoming traffic). `-s 192.168.1.0/24` matches source addresses in that subnet. `-j ACCEPT` jumps to the ACCEPT target, allowing the traffic. To block traffic, use `-j DROP` or `-j REJECT`. To block outgoing traffic, use the OUTPUT chain.
+
+---
+
+**Question 14.** What does the `/etc/shadow` file store?
+
+(A) User home directory paths
+(B) Encrypted user passwords and password aging information
+(C) Group membership information
+(D) System-wide environment variables
+
+**Correct Answer:** (B)
+
+**Explanation:** /etc/shadow stores hashed (encrypted) passwords along with password aging policies such as last change date, minimum/maximum age, warning period, and account expiration. It is readable only by root for security. /etc/passwd contains user account information (username, UID, GID, home directory, shell) but no password hashes on modern systems.
+
+---
+
+**Question 15.** Which command is used to audit file system changes by comparing current state against a known baseline?
+
+(A) `diff`
+(B) `find`
+(C) `aide --check`
+(D) `ls -la`
+
+**Correct Answer:** (C)
+
+**Explanation:** AIDE (Advanced Intrusion Detection Environment) maintains a database of file checksums, permissions, and other attributes. Running `aide --check` compares the current filesystem state against the baseline database and reports any modifications, additions, or deletions. `diff` compares file contents. `find` searches for files. `ls -la` lists file attributes but does not compare against a baseline.

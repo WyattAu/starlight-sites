@@ -250,11 +250,43 @@ _If you get this wrong, revise:_ Section 4.2 (Continuity), Section 5.3 (Mean Val
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
-$f(x) = 1/x$ on $(0, 1)$ is Continuous but not uniformly continuous. The Heine-Cantor theorem
-requires a **closed and bounded** Interval. Also, a function can be uniformly continuous on an
-unbounded domain (e.g., $f(x) = \sqrt{x}$ On $[0, \infty)$) --- boundedness of the domain is
-sufficient but not necessary.
+### Intuition
 
+The epsilon-delta definition of a limit is best understood as a challenge game between two players. Player A (the challenger) picks any tolerance epsilon -- no matter how small. Player B (the responder) must then find a delta such that all points within delta of the target produce function values within epsilon of the claimed limit. If Player B can always win regardless of how small epsilon is, the limit exists. This adversarial framing captures the logical structure of the universal quantifiers: "for every epsilon, there exists a delta."
 
-</aside>
+The squeeze theorem extends this intuition: if a function is trapped between two other functions that both converge to the same limit, it must converge there too. A physical analogy is a grape squeezed between two approaching walls -- the grape has nowhere to go but forward. Uniform continuity removes the dependence of delta on the point of evaluation: the same delta works everywhere on the domain simultaneously. This is a much stronger condition, and it fails on open intervals like (0,1) because functions like 1/x can change arbitrarily fast near the boundary. The Heine-Cantor theorem guarantees that continuity on a closed bounded interval automatically yields uniform continuity -- compactness eliminates the boundary trouble.
+
+### 4.8a Counterexamples and Their Lessons
+
+The following table summarizes the key counterexamples in the theory of continuity:
+
+| Function | Domain | Continuous? | Uniformly Continuous? | Lesson |
+|----------|--------|-------------|----------------------|--------|
+| $f(x) = 1/x$ | $(0, 1)$ | Yes | No | Unbounded slope near boundary |
+| $f(x) = x^2$ | $\mathbb{R}$ | Yes | No | Unbounded slope at infinity |
+| $f(x) = \sqrt{x}$ | $[0, \infty)$ | Yes | Yes | Slope $\to 0$ at infinity saves uniform continuity |
+| $f(x) = \sin(1/x)$ | $(0, 1]$ | Yes | Yes | Oscillation is bounded; Heine-Cantor applies on $[\delta, 1]$ |
+| $f(x) = x\sin(1/x)$ | $[0, 1]$ | Yes | Yes | Extension to $0$ is continuous; compact domain |
+
+**The pattern:** A continuous function on a bounded interval fails to be uniformly continuous if and only if it can oscillate arbitrarily fast near some point (typically a boundary point where the function is not defined, or a point where the derivative is unbounded). On closed, bounded intervals, this cannot happen because the function is bounded and the interval is compact.
+
+### 4.9 Common Pitfalls
+
+- **The Heine-Cantor theorem requires a closed, bounded interval.** The function
+  $f(x) = 1/x$ on $(0, 1)$ is continuous but not uniformly continuous. The theorem requires a
+  **closed and bounded** interval. Also, a function can be uniformly continuous on an unbounded
+  domain (e.g., $f(x) = \sqrt{x}$ on $[0, \infty)$) --- boundedness of the domain is sufficient
+  but not necessary.
+- **Do not confuse continuity with uniform continuity.** Every uniformly continuous function is
+  continuous, but the converse is false on unbounded or open domains.
+- **The sequential criterion is the most common tool for disproving continuity or limits.** Find
+  two sequences converging to the same point whose images converge to different limits.
+- **The IVT requires the function to be continuous on a closed interval.** The function
+  $f(x) = 1/x$ on $(0, 1)$ satisfies $f(0.1) = 10 > 0$ and $f(0.9) = 1.11 > 0$, but there is no
+  $c \in (0.1, 0.9)$ with $f(c) = 0$. The IVT does not apply because $f$ is not defined on
+  $[0.1, 0.9]$ with $f$ taking both positive and negative values.
+- **A function can be continuous at every point but not uniformly continuous.** The classic example
+  is $f(x) = x^2$ on $\mathbb{R}$. It is continuous everywhere, but on any interval $[-M, M]$, the
+  maximum slope is $2M$, which grows without bound as $M \to \infty$.
+
+---

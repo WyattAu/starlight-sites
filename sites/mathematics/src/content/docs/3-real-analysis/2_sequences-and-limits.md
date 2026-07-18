@@ -186,19 +186,47 @@ $\limsup \neq \liminf$The sequence diverges. $\blacksquare$
 
 **Problem.** Prove that $\lim_{n \to \infty} \frac{n}{n+1} = 1$.
 
-_Solution._ Let $\varepsilon > 0$. We need $\left|\frac{n}{n+1} - 1\right| \lt \varepsilon$I.e.,
-$\frac{1}{n+1} \lt \varepsilon$I.e., $n > \frac{1}{\varepsilon} - 1$. Choose
-$N = \lceil \frac{1}{\varepsilon} \rceil$. Then for $n \geq N$: $n \geq \frac{1}{\varepsilon}$So
-$n+1 > \frac{1}{\varepsilon}$So $\frac{1}{n+1} \lt \varepsilon$. $\blacksquare$
+_Solution._ Let $\varepsilon > 0$. We need $\left|\frac{n}{n+1} - 1\right| \lt \varepsilon$ i.e.,
+$\frac{1}{n+1} \lt \varepsilon$ i.e., $n > \frac{1}{\varepsilon} - 1$. Choose
+$N = \lceil \frac{1}{\varepsilon} \rceil$. Then for $n \geq N$: $n \geq \frac{1}{\varepsilon}$ so
+$n+1 > \frac{1}{\varepsilon}$ so $\frac{1}{n+1} \lt \varepsilon$. $\blacksquare$
+
+### 2.8 Intuition: What Does Convergence Really Mean?
+
+The epsilon-delta (or epsilon-N) definition of convergence captures the idea that a sequence
+"eventually stays arbitrarily close to its limit." The formal definition says: for every tolerance
+$\varepsilon > 0$, there is a point $N$ in the sequence after which all terms are within $\varepsilon$
+of the limit $L$.
+
+Think of it as a challenge game. Your opponent picks a tolerance $\varepsilon$ (say, $\varepsilon =
+0.001$). You must find a point $N$ in the sequence such that every term after $N$ is within $0.001$
+of $L$. If you can always win this game, no matter how small the tolerance, the sequence converges
+to $L$.
+
+The key insight is that convergence is about **tail behavior**. The first million terms of a
+sequence are irrelevant; only the terms with $n \geq N$ matter. This is why the sequence
+$1000, 1000, 1000, \ldots, 1000, 1 + 1/n, 1 + 1/(n+1), \ldots$ (with a million 1000s followed by
+$1 + 1/n$) converges to 1, even though many early terms are far from 1.
+
+**Divergence** means the sequence fails to settle near any single value. The sequence
+$(-1)^n = -1, 1, -1, 1, \ldots$ diverges because it oscillates between $-1$ and $1$ and never
+stays near a single limit. No matter what $L$ you claim is the limit, the tolerance game fails:
+for $\varepsilon = 0.5$, there is no $N$ such that all terms after $N$ are within $0.5$ of $L$.
+
+**Connection to calculus.** The limit of a function, $\lim_{x \to a} f(x) = L$, is defined
+analogously: for every $\varepsilon > 0$, there exists $\delta > 0$ such that
+$0 < |x - a| < \delta$ implies $|f(x) - L| < \varepsilon$. The structure is identical; only the
+quantifiers change (from "there exists $N$ for all $n \geq N$" to "there exists $\delta$ for all
+$x$ with $0 < |x - a| < \delta$").
 
 <details>
-<summary>Worked Example: $\varepsilon$-$N$ .../1-number-and-algebra/3_proof-and-logic for $\lim_{n \to \infty} \frac{3n + 1}{n + 2} = 3$</summary>
+<summary>Worked Example: $\varepsilon$-$N$ proof that $\lim_{n \to \infty} \frac{3n + 1}{n + 2} = 3$</summary>
 
 _Solution._ Let $\varepsilon > 0$. We compute:
 
 $$\left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}$$
 
-We need $\frac{5}{n+2} \lt \varepsilon$I.e., $n + 2 > 5/\varepsilon$I.e., $n > 5/\varepsilon - 2$.
+We need $\frac{5}{n+2} \lt \varepsilon$ i.e., $n + 2 > 5/\varepsilon$ i.e., $n > 5/\varepsilon - 2$.
 Choose $N = \lceil 5/\varepsilon \rceil$. Then for $n \geq N$:
 
 $$\left|\frac{3n+1}{n+2} - 3\right| = \frac{5}{n+2} \leq \frac{5}{N+2} \leq \frac{5}{5/\varepsilon} = \varepsilon$$
@@ -211,23 +239,40 @@ $\blacksquare$
 <summary>Worked Example: Show $(a_n)$ with $a_1 = \sqrt{2}$, $a_{n+1} = \sqrt{2 + a_n}$ converges</summary>
 
 _Solution._ **Step 1:** $(a_n)$ is bounded above by $2$. By induction: $a_1 = \sqrt{2} \leq 2$. If
-$a_n \leq 2$Then $a_{n+1} = \sqrt{2 + a_n} \leq \sqrt{2 + 2} = 2$.
+$a_n \leq 2$ then $a_{n+1} = \sqrt{2 + a_n} \leq \sqrt{2 + 2} = 2$.
 
 **Step 2:** $(a_n)$ is increasing. We have $a_1 = \sqrt{2} \approx 1.414$ and
 $a_2 = \sqrt{2 + \sqrt{2}} \approx 1.848$. Assume $a_n \leq a_{n+1}$. Then
 $a_{n+1} = \sqrt{2 + a_n} \leq \sqrt{2 + a_{n+1}} = a_{n+2}$.
 
 **Step 3:** By the Monotone Convergence Theorem, $(a_n)$ converges. Let $L = \lim a_n$. Taking
-limits In $a_{n+1} = \sqrt{2 + a_n}$: $L = \sqrt{2 + L}$So $L^2 = 2 + L$Giving $L^2 - L - 2 = 0$So
-$(L-2)(L+1) = 0$. Since $a_n \geq \sqrt{2} > 0$ for all $n$, $L \geq 0$So $L = 2$. $\blacksquare$
+limits in $a_{n+1} = \sqrt{2 + a_n}$: $L = \sqrt{2 + L}$ so $L^2 = 2 + L$ giving $L^2 - L - 2 = 0$ so
+$(L-2)(L+1) = 0$. Since $a_n \geq \sqrt{2} > 0$ for all $n$, $L \geq 0$ so $L = 2$. $\blacksquare$
+
+</details>
+
+### 2.9 Worked Example: Divergence by Subsequence
+
+**Problem.** Prove that $a_n = (-1)^n$ diverges.
+
+<details>
+<summary>Solution</summary>
+
+Suppose for contradiction that $a_n \to L$. Then every subsequence must also converge to $L$. The
+even subsequence $a_{2k} = (-1)^{2k} = 1 \to 1$, so $L = 1$. The odd subsequence
+$a_{2k-1} = (-1)^{2k-1} = -1 \to -1$, so $L = -1$. But $1 \neq -1$, a contradiction. Therefore
+$a_n$ diverges.
+
+**Alternative approach using limsup/liminf:** $\limsup a_n = 1$ and $\liminf a_n = -1$. Since
+$\limsup \neq \liminf$, the sequence diverges by Proposition 2.9. $\blacksquare$
 
 </details>
 
 <aside class="starlight-aside starlight-aside--caution">
-$\inf$ of the range $\{a_n : n \in \mathbb{N}\}$. The $\limsup$ depends on the _tail_ behavior of
-the sequence. For Example, $a_n = (-1)^n$ has $\limsup = 1$ and $\liminf = -1$But $\sup\{a_n\} = 1$
-and $\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup = 1$ but
+**Common Pitfall:** Do not confuse $\limsup$ and $\liminf$ with $\sup$ and $\inf$ of the range
+$\{a_n : n \in \mathbb{N}\}$. The $\limsup$ depends on the _tail_ behavior of the sequence. For
+example, $a_n = (-1)^n$ has $\limsup = 1$ and $\liminf = -1$, but $\sup\{a_n\} = 1$ and
+$\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup = 1$ but
 $\limsup = 0$.
-
 
 </aside>

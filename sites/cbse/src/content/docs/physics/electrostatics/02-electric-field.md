@@ -56,6 +56,35 @@ For $r < R$:
 $$E = \frac{kQr}{R^3} = \frac{9 \times 10^9 \times 10 \times 10^{-6} \times 0.06}{(0.1)^3}$$
 $$= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}} = 5.4 \times 10^6 \, \text{N/C}$$
 
+## Worked Example 4 — Electric Field Due to a Charged Ring
+
+**Problem:** A ring of radius 0.15 m carries a total charge of $5 \, \mu\text{C}$. Find the electric field at a point on its axis at a distance of 0.2 m from the centre.
+
+**Solution:**
+
+Using the formula for the axial field of a ring:
+$$E = \frac{kqx}{(R^2 + x^2)^{3/2}}$$
+
+$$E = \frac{9 \times 10^9 \times 5 \times 10^{-6} \times 0.2}{((0.15)^2 + (0.2)^2)^{3/2}}$$
+
+$$= \frac{9 \times 10^9 \times 10^{-6}}{(0.0225 + 0.04)^{3/2}} = \frac{9000}{(0.0625)^{3/2}}$$
+
+$$= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}$$
+
+**Common mistake:** Forgetting that the field on the axis of a ring is maximum at $x = R/\sqrt{2}$, not at the centre (where it is zero).
+
+## Worked Example 5 — Electric Field and Force on a Charge
+
+**Problem:** A charge of $+3 \, \mu\text{C}$ is placed at a point where the electric field is $2 \times 10^5 \, \text{N/C}$ directed to the right. Find the force on the charge.
+
+**Solution:**
+
+$$\vec{F} = q\vec{E} = 3 \times 10^{-6} \times 2 \times 10^5 = 0.6 \, \text{N}$$
+
+The force is in the same direction as the field (to the right) because the charge is positive.
+
+**Common mistake:** Forgetting that a negative charge experiences a force opposite to the field direction.
+
 ## Practice Problems
 
 1. Find the electric field at a distance of 0.5 m from a $-2 \, \mu\text{C}$ charge.

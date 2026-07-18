@@ -1,0 +1,216 @@
+---
+title: "Algorithms Practice"
+description: "Practice exercises for algorithms and data structures"
+sidebar_position: 50
+---
+
+# Algorithms Practice
+
+15 practice questions covering sorting, searching, graph algorithms, dynamic programming, and complexity analysis.
+
+---
+
+### Complexity Analysis
+
+**Question 1.** What is the time complexity of binary search on a sorted array of n elements?
+
+(A) O(n)
+(B) O(log n)
+(C) O(n log n)
+(D) O(1)
+
+**Correct Answer:** (B)
+
+**Explanation:** Binary search divides the search space in half with each comparison. Starting with n elements, after one comparison the remaining candidates are at most n/2, then n/4, and so on. The maximum number of divisions is log_2(n), giving O(log n) time complexity. This requires the array to be sorted and supports random access.
+
+---
+
+**Question 2.** Which of the following operations has O(1) average-case complexity in a hash table?
+
+(A) Searching for an element
+(B) Finding the minimum element
+(C) Iterating through all elements in sorted order
+(D) Removing all elements
+
+**Correct Answer:** (A)
+
+**Explanation:** Hash table lookup (insert, delete, search) has O(1) average-case complexity under the assumption of a good hash function and reasonable load factor. Finding the minimum requires scanning all buckets, which is O(n). Iterating in sorted order is not supported by hash tables. Removing all elements is O(n) regardless.
+
+---
+
+### Sorting
+
+**Question 3.** Which sorting algorithm has a worst-case time complexity of O(n log n)?
+
+(A) QuickSort
+(B) MergeSort
+(C) BubbleSort
+(D) SelectionSort
+
+**Correct Answer:** (B)
+
+**Explanation:** MergeSort divides the array in half recursively and merges sorted halves, giving O(n log n) in all cases (best, average, worst). QuickSort has O(n log n) average case but O(n^2) worst case when partitions are maximally unbalanced. BubbleSort and SelectionSort are O(n^2) in all cases.
+
+---
+
+**Question 4.** Which sorting algorithm is most efficient for nearly sorted data?
+
+(A) HeapSort
+(B) InsertionSort
+(C) MergeSort
+(D) RadixSort
+
+**Correct Answer:** (B)
+
+**Explanation:** InsertionSort has O(n) best-case complexity when the input is already sorted or nearly sorted, because each element requires at most one comparison and one shift. For nearly sorted data, InsertionSort approaches linear time. HeapSort and MergeSort maintain O(n log n) regardless of input order. RadixSort is O(nk) where k is the number of digits.
+
+---
+
+**Question 5.** What is the space complexity of MergeSort?
+
+(A) O(1)
+(B) O(log n)
+(C) O(n)
+(D) O(n log n)
+
+**Correct Answer:** (C)
+
+**Explanation:** MergeSort requires O(n) auxiliary space for the temporary arrays used during the merge step. The recursion depth is O(log n), but the dominant space requirement is the O(n) temporary storage for merging. In-place merge algorithms exist but are complex and not used in standard implementations.
+
+---
+
+### Searching
+
+**Question 6.** In a balanced binary search tree (BST) with n nodes, what is the worst-case time complexity for searching?
+
+(A) O(1)
+(B) O(log n)
+(C) O(n)
+(D) O(n log n)
+
+**Correct Answer:** (B)
+
+**Explanation:** A balanced BST maintains height O(log n) through self-balancing mechanisms (AVL trees, red-black trees). Search proceeds from root to leaf, comparing at each node and descending left or right. The maximum path length is the tree height, giving O(log n) worst-case. An unbalanced BST can degenerate to a linked list with O(n) worst-case.
+
+---
+
+**Question 7.** Which data structure provides O(1) worst-case lookup, insertion, and deletion?
+
+(A) Balanced binary search tree
+(B) Skip list
+(C) Direct addressing (array-based hash with known key range)
+(D) Heap
+
+**Correct Answer:** (C)
+
+**Explanation:** Direct addressing uses an array where each index corresponds to a key, providing O(1) worst-case operations. A standard hash table provides O(1) average but O(n) worst case due to collisions. Balanced BSTs provide O(log n). Skip lists provide O(log n) expected. Heaps provide O(1) for min/max but O(log n) for insertion and deletion.
+
+---
+
+### Graph Algorithms
+
+**Question 8.** Breadth-first search (BFS) on a graph with V vertices and E edges runs in:
+
+(A) O(V)
+(B) O(V + E)
+(C) O(V * E)
+(D) O(V^2)
+
+**Correct Answer:** (B)
+
+**Explanation:** BFS visits each vertex exactly once (O(V)) and examines each edge exactly twice for undirected graphs or once for directed graphs (O(E)). The total time complexity is O(V + E). BFS uses a queue and discovers vertices in order of their distance from the source, making it useful for shortest path problems in unweighted graphs.
+
+---
+
+**Question 9.** Dijkstra's algorithm finds shortest paths in a graph with:
+
+(A) Negative edge weights only
+(B) No negative edge weights
+(C) Both positive and negative edge weights
+(D) No constraints on edge weights
+
+**Correct Answer:** (B)
+
+**Explanation:** Dijkstra's algorithm requires non-negative edge weights because it greedily selects the unvisited vertex with the smallest tentative distance. A negative edge could reduce a path distance after it has been finalized, violating the greedy assumption. For graphs with negative weights, the Bellman-Ford algorithm (O(VE)) should be used instead.
+
+---
+
+**Question 10.** Topological sorting is applicable to:
+
+(A) Undirected graphs
+(B) Directed acyclic graphs (DAGs)
+(C) Directed graphs with cycles
+(D) Complete graphs
+
+**Correct Answer:** (B)
+
+**Explanation:** Topological sorting produces a linear ordering of vertices in a directed acyclic graph such that for every directed edge (u, v), vertex u comes before vertex v. Cycles make topological ordering impossible because no valid linear ordering can satisfy all edge constraints. Topological sort is used in task scheduling, build systems, and course prerequisite ordering.
+
+---
+
+### Dynamic Programming
+
+**Question 11.** Dynamic programming is applicable when a problem exhibits:
+
+(A) Only divide-and-conquer structure without overlapping subproblems
+(B) Optimal substructure and overlapping subproblems
+(C) Randomized inputs with no discernible pattern
+(D) Only greedy choices at each step
+
+**Correct Answer:** (B)
+
+**Explanation:** Dynamic programming requires two properties: optimal substructure (the optimal solution to the problem can be constructed from optimal solutions to subproblems) and overlapping subproblems (the same subproblems are solved repeatedly). Without overlapping subproblems, divide-and-conquer is more appropriate. Without optimal substructure, dynamic programming cannot guarantee optimality.
+
+---
+
+**Question 12.** What is the time complexity of computing the nth Fibonacci number using dynamic programming (bottom-up)?
+
+(A) O(2^n)
+(B) O(n)
+(C) O(n^2)
+(D) O(log n)
+
+**Correct Answer:** (B)
+
+**Explanation:** The naive recursive approach computes the same subproblems repeatedly, giving O(2^n) time. Bottom-up dynamic programming computes each Fibonacci number from F(0) to F(n) exactly once, storing results in an array. Each computation is O(1), giving O(n) total time. The space complexity is O(n) for the array, or O(1) if only the last two values are maintained.
+
+---
+
+**Question 13.** The knapsack problem is solvable in pseudo-polynomial time using dynamic programming because:
+
+(A) The solution depends only on the number of items
+(B) The recurrence relation depends on the weight capacity, which is an integer
+(C) The problem has no optimal substructure
+(D) Greedy algorithms provide exact solutions
+
+**Correct Answer:** (B)
+
+**Explanation:** The 0/1 knapsack dynamic programming solution builds a table of size n x W where n is the number of items and W is the capacity. The time complexity is O(nW), which is polynomial in n and W but exponential in the bit-length of W (since W can be represented in log W bits). This makes it pseudo-polynomial, not truly polynomial. The knapsack problem is NP-complete in general.
+
+---
+
+### Advanced Topics
+
+**Question 14.** The Master Theorem applies to recurrence relations of the form T(n) = aT(n/b) + f(n) where:
+
+(A) a >= 1, b > 1, and f(n) is a positive function
+(B) a < 1, b > 1
+(C) a >= 1, b = 1
+(D) a = b and f(n) = O(n)
+
+**Correct Answer:** (A)
+
+**Explanation:** The Master Theorem solves recurrences of the form T(n) = aT(n/b) + f(n) for divide-and-conquer algorithms. The condition a >= 1 means at least one subproblem is solved, b > 1 means the problem size decreases, and f(n) represents the cost of dividing and combining. The theorem provides three cases based on the relationship between f(n) and n^(log_b(a)).
+
+---
+
+**Question 15.** A hash table with a good hash function and load factor less than 0.75 provides which performance guarantee?
+
+(A) O(n) worst-case for all operations
+(B) O(1) average-case for insert, delete, and search
+(C) O(log n) worst-case for search
+(D) O(n log n) for all operations
+
+**Correct Answer:** (B)
+
+**Explanation:** Under the simple uniform hashing assumption, each operation has O(1 + alpha) expected time where alpha is the load factor. With alpha < 0.75, this is O(1) average-case. The worst case remains O(n) when all keys collide into the same bucket, but this is extremely unlikely with a good hash function. Resizing when the load factor exceeds a threshold maintains performance guarantees.

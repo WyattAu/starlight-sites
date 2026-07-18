@@ -1,0 +1,218 @@
+---
+title: "ML Fundamentals Practice"
+description: "Practice exercises for machine learning fundamentals"
+sidebar_position: 50
+---
+
+# ML Fundamentals Practice
+
+15 practice questions covering supervised and unsupervised learning, bias-variance tradeoff, cross-validation, gradient descent, overfitting, and feature engineering.
+
+---
+
+### Supervised vs. Unsupervised Learning
+
+**Question 1.** Which of the following is an example of a supervised learning task?
+
+(A) Clustering customer segments from purchase data
+(B) Predicting house prices from features such as square footage and location
+(C) Reducing the dimensionality of a dataset using PCA
+(D) Discovering frequent itemsets in a transaction database
+
+**Correct Answer:** (B)
+
+**Explanation:** Supervised learning requires labeled training data where both inputs and target outputs are provided. Predicting house prices uses historical data with known prices (labels) to learn a mapping from features to values. Clustering, PCA, and association rule mining are unsupervised methods that discover structure without labeled targets.
+
+---
+
+**Question 2.** K-means clustering is an example of:
+
+(A) Supervised classification
+(B) Unsupervised learning
+(C) Semi-supervised learning
+(D) Reinforcement learning
+
+**Correct Answer:** (B)
+
+**Explanation:** K-means partitions data into k clusters by minimizing within-cluster variance. It operates on unlabeled data and discovers natural groupings based on feature similarity. No target labels are provided or used during training. This makes it a fundamental unsupervised learning algorithm.
+
+---
+
+### Bias-Variance Tradeoff
+
+**Question 3.** A model that performs well on training data but poorly on unseen test data most likely suffers from:
+
+(A) High bias and high variance
+(B) High bias and low variance
+(C) Low bias and high variance
+(D) Low bias and low variance
+
+**Correct Answer:** (C)
+
+**Explanation:** High variance (overfitting) means the model has learned noise and patterns specific to the training set that do not generalize. Low bias means the model is complex enough to capture the underlying pattern. The hallmark of overfitting is a large gap between training performance and test performance. High bias (underfitting) would show poor performance on both training and test data.
+
+---
+
+**Question 4.** Increasing model complexity generally:
+
+(A) Decreases both bias and variance
+(B) Decreases bias but increases variance
+(C) Increases bias but decreases variance
+(D) Increases both bias and variance
+
+**Correct Answer:** (B)
+
+**Explanation:** More complex models can fit more intricate patterns, reducing bias. However, they also become more sensitive to noise in the training data, increasing variance. The goal of model selection is to find the complexity that minimizes total error (bias squared plus variance plus irreducible noise).
+
+---
+
+### Cross-Validation
+
+**Question 5.** In 5-fold cross-validation, the dataset is:
+
+(A) Split once into 80 percent training and 20 percent testing
+(B) Split into 5 equal folds; the model is trained 5 times, each time using a different fold as the test set
+(C) Split into 5 equal folds; the model is trained on the first fold only
+(D) Randomly sampled 5 times with replacement
+
+**Correct Answer:** (B)
+
+**Explanation:** In k-fold cross-validation, the data is partitioned into k equal subsets (folds). The model is trained k times, each time using k-1 folds for training and the remaining fold for evaluation. The final performance metric is the average across all k iterations. This provides a more robust estimate of generalization performance than a single train-test split.
+
+---
+
+**Question 6.** Stratified k-fold cross-validation is preferred over standard k-fold when:
+
+(A) The dataset is very large
+(B) The dataset has a severe class imbalance
+(C) The model requires hyperparameter tuning
+(D) The features are highly correlated
+
+**Correct Answer:** (B)
+
+**Explanation:** Stratified k-fold ensures that each fold maintains approximately the same class distribution as the full dataset. This is critical for imbalanced datasets where random splitting could produce folds with very few instances of the minority class, leading to unreliable performance estimates.
+
+---
+
+### Gradient Descent
+
+**Question 7.** In gradient descent, the learning rate determines:
+
+(A) The number of training iterations
+(B) The step size for updating model parameters in the direction of the negative gradient
+(C) The batch size used for each parameter update
+(D) The regularization strength applied to the loss function
+
+**Correct Answer:** (B)
+
+**Explanation:** The learning rate controls how large a step is taken in the direction opposite to the gradient during each parameter update. A learning rate that is too small leads to slow convergence; one that is too large may cause the optimization to overshoot the minimum or diverge. Adaptive methods adjust the learning rate per parameter.
+
+---
+
+**Question 8.** Mini-batch gradient descent offers which advantage over pure stochastic gradient descent?
+
+(A) It always converges to the global minimum
+(B) It provides a balance between computational efficiency and convergence stability
+(C) It requires no learning rate tuning
+(D) It eliminates the need for feature scaling
+
+**Correct Answer:** (B)
+
+**Explanation:** Mini-batch gradient descent computes the gradient over a small subset of training examples rather than a single example or the entire dataset. This provides noisy but more stable gradient estimates than pure stochastic gradient descent, while being more computationally efficient and memory-friendly than full batch gradient descent.
+
+---
+
+### Overfitting and Regularization
+
+**Question 9.** L2 regularization (Ridge regression) addresses overfitting by:
+
+(A) Setting some model weights exactly to zero
+(B) Adding a penalty proportional to the sum of squared weights to the loss function
+(C) Removing features that are not statistically significant
+(D) Increasing the model capacity to fit training data
+
+**Correct Answer:** (B)
+
+**Explanation:** L2 regularization adds a penalty term proportional to the sum of squared weights to the loss function, penalizing large weight values. This encourages the model to use smaller, more distributed weights, reducing the tendency to overfit to noise. Unlike L1 regularization, L2 does not produce sparse solutions.
+
+---
+
+**Question 10.** Early stopping prevents overfitting by:
+
+(A) Limiting the number of input features
+(B) Terminating training when validation performance stops improving
+(C) Reducing the learning rate to zero after each epoch
+(D) Removing the last layer of a neural network
+
+**Correct Answer:** (B)
+
+**Explanation:** Early stopping monitors a validation metric during training. When the validation metric stops improving for a specified number of epochs (patience), training is halted. This prevents the model from continuing to overfit to training data after it has already learned the generalizable patterns.
+
+---
+
+### Feature Engineering
+
+**Question 11.** Feature scaling (such as standardization or normalization) is particularly important for:
+
+(A) Decision trees and random forests
+(B) Gradient descent-based algorithms and distance-based models
+(C) Naive Bayes classifiers
+(D) Rule-based systems
+
+**Correct Answer:** (B)
+
+**Explanation:** Algorithms that use gradient descent converge faster and more reliably when features are on similar scales. Distance-based methods such as k-NN, k-means, and SVM with RBF kernel are sensitive to the magnitude of features. Tree-based methods are invariant to feature scaling because they make splits based on thresholds.
+
+---
+
+**Question 12.** One-hot encoding is used to:
+
+(A) Normalize numerical features to zero mean and unit variance
+(B) Convert categorical variables into binary indicator columns
+(C) Reduce the dimensionality of high-dimensional feature spaces
+(D) Handle missing values in numerical features
+
+**Correct Answer:** (B)
+
+**Explanation:** One-hot encoding transforms a categorical variable with k categories into k binary indicator columns, each representing the presence or absence of a category. This is necessary because most machine learning algorithms operate on numerical inputs and cannot directly process categorical labels. Alternative approaches include ordinal encoding for ordered categories and target encoding for high-cardinality features.
+
+---
+
+### Model Evaluation
+
+**Question 13.** For a binary classification problem with 95 percent negative and 5 percent positive examples, which metric is most informative?
+
+(A) Accuracy
+(B) F1 score
+(C) Area under the ROC curve (AUC-ROC)
+(D) Mean squared error
+
+**Correct Answer:** (B)
+
+**Explanation:** With severe class imbalance, accuracy is misleading because a model that predicts all negatives achieves 95 percent accuracy. The F1 score, the harmonic mean of precision and recall, captures both false positives and false negatives and is more informative for imbalanced problems. AUC-ROC is also useful but can be overly optimistic with extreme imbalance. Mean squared error is a regression metric, not applicable to classification.
+
+---
+
+**Question 14.** Precision measures:
+
+(A) The fraction of true positives among all positive predictions
+(B) The fraction of true positives among all actual positives
+(C) The overall correctness of the model
+(D) The model's ability to distinguish between classes
+
+**Correct Answer:** (A)
+
+**Explanation:** Precision equals true positives divided by (true positives plus false positives). It answers: of all instances the model labeled positive, how many were actually positive? High precision means few false positives. Recall (sensitivity) equals true positives divided by (true positives plus false negatives) and answers: of all actual positives, how many did the model find? The F1 score balances both.
+
+---
+
+**Question 15.** Which technique is most appropriate for handling missing values in a dataset where the missingness depends on other observed features?
+
+(A) Removing all rows with missing values
+(B) Imputing with the column mean
+(C) Using a model-based imputation method such as multiple imputation or k-NN imputation
+(D) Replacing missing values with zero
+
+**Correct Answer:** (C)
+
+**Explanation:** When missingness depends on observed features (missing at random), model-based imputation methods leverage the relationships between features to produce more accurate imputations. k-NN imputation uses similar complete records to estimate missing values. Multiple imputation generates several plausible imputed datasets to account for imputation uncertainty. Simple mean imputation ignores relationships and distorts distributions. Listwise deletion can introduce bias and loses data.

@@ -184,6 +184,34 @@ $\mathrm{Aut}(\mathbb{Z}/8\mathbb{Z}) \cong (\mathbb{Z}/8\mathbb{Z})^* = \{1, 3,
 The four automorphisms are $x \mapsto x$, $x \mapsto 3x$, $x \mapsto 5x$, $x \mapsto 7x$. Note that
 $3^2 = 9 \equiv 1 \pmod{8}$So every non-identity automorphism has order $2$.
 
+### 5.8a Intuition: What Does the First Isomorphism Theorem Really Say?
+
+The First Isomorphism Theorem is the algebraic version of "modding out by what you don't care
+about." If $\phi : G \to H$ is a homomorphism, the kernel $\ker(\phi)$ is the set of elements that
+$\phi$ maps to the identity --- the "information that $\phi$ throws away." The theorem says that
+$G/\ker(\phi)$ (the quotient that collapses all of $\ker(\phi)$ to a single element) is isomorphic
+to $\mathrm{im}(\phi)$ (what $\phi$ actually produces).
+
+**Concrete example.** Consider $\phi : \mathbb{Z} \to \mathbb{Z}/6\mathbb{Z}$ defined by
+$\phi(n) = n \bmod 6$. The kernel is $6\mathbb{Z}$ (all multiples of 6). The image is all of
+$\mathbb{Z}/6\mathbb{Z}$. The theorem says $\mathbb{Z}/6\mathbb{Z} \cong \mathbb{Z}/6\mathbb{Z}$,
+which is true but trivial. The power is that $\phi$ "forgets" the difference between numbers that
+differ by a multiple of 6, and the quotient $\mathbb{Z}/6\mathbb{Z}$ captures exactly this
+forgetfulness.
+
+**Another example.** The determinant $\det : GL_n(\mathbb{R}) \to \mathbb{R}^*$ is a homomorphism.
+The kernel is $SL_n(\mathbb{R})$ (matrices with determinant 1). The theorem says
+$GL_n(\mathbb{R})/SL_n(\mathbb{R}) \cong \mathbb{R}^*$. This means: if you want to understand the
+multiplicative structure of $GL_n(\mathbb{R})$, you can first understand $SL_n(\mathbb{R})$ (which
+is a "simple" group in many cases) and then understand $\mathbb{R}^*$ (which is just multiplication
+of non-zero reals). The complicated group $GL_n(\mathbb{R})$ decomposes into these two simpler
+pieces.
+
+**Why the kernel must be normal.** The quotient $G/N$ is defined only when $N$ is a normal subgroup.
+The First Isomorphism Theorem guarantees that kernels are always normal, so the quotient
+$G/\ker(\phi)$ is always well-defined. This is why the kernel is so important: it is the unique
+normal subgroup associated with a homomorphism.
+
 ### 5.9 Semidirect Products
 
 **Definition.** Let $H$ and $K$ be groups and let $\phi : K \to \mathrm{Aut}(H)$ be a homomorphism.

@@ -252,11 +252,66 @@ $\blacksquare$
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
-$\frac{\infty}{\infty}$. Applying it to forms like $\frac{1}{0}$ or $\frac{\infty}{1}$ will give
-incorrect results. Always Verify the indeterminate form before applying the rule. Also, L'Hôpital's
-rule requires that the Limit of the quotient of derivatives exists; if it does not exist
-(oscillates), the original limit May still exist.
+### Intuition
 
+The derivative is most deeply understood not as a "slope" but as the best linear approximation to a function at a point. Near x=a, a differentiable function f(x) is well approximated by the tangent line f(a) + f'(a)(x-a). The error in this approximation vanishes faster than |x-a| as x approaches a. This is why differentiation is local: the derivative captures the linear part of how f behaves near a, discarding higher-order curvature.
 
-</aside>
+This perspective explains why the chain rule works as it does. If f is locally linear near g(x) and g is locally linear near a, then their composition is locally linear near a, and the slopes multiply. It also explains why not every continuous function is differentiable: f(x)=|x| is continuous at 0 but has no single linear approximation there -- the left and right slopes disagree. The Mean Value Theorem says that the instantaneous linear approximation (the derivative) must at some point match the average rate of change over an interval. Taylor's theorem extends this: the derivative is the first-order term in a polynomial approximation, and the remainder controls how well that approximation works.
+
+### 5.8a Geometric Meaning of the MVT
+
+The Mean Value Theorem says: for a smooth curve connecting two points, there is a point on the
+curve where the tangent line is parallel to the chord (secant line) connecting the endpoints.
+
+More precisely, if $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$, then there exists
+$c \in (a, b)$ with
+
+$$f'(c) = \frac{f(b) - f(a)}{b - a}$$
+
+**Physical interpretation:** If you drive 100 miles in 2 hours, your average speed is 50 mph. The
+MVT says that at some instant, your speedometer must have read exactly 50 mph.
+
+**Why this fails without differentiability:** For $f(x) = |x|$ on $[-1, 1]$, $f(1) - f(-1) = 0$,
+so the average rate of change is 0. But $f'(x)$ is never 0: it equals $1$ for $x > 0$ and $-1$
+for $x < 0$. The MVT fails because $f$ is not differentiable at $x = 0$, where the chord from
+$(-1, 1)$ to $(1, 1)$ is horizontal, but no tangent line is horizontal.
+
+### 5.8b Worked Example: MVT Inequality
+
+**Problem.** Prove that $|\sin x - \sin y| \leq |x - y|$ for all $x, y \in \mathbb{R}$.
+
+<details>
+<summary>Solution</summary>
+
+Apply the MVT to $f(t) = \sin t$ on the interval between $x$ and $y$. There exists $\xi$ between
+$x$ and $y$ such that
+
+$$\sin x - \sin y = \cos(\xi) \cdot (x - y)$$
+
+Taking absolute values:
+
+$$|\sin x - \sin y| = |\cos(\xi)| \cdot |x - y| \leq 1 \cdot |x - y| = |x - y|$$
+
+since $|\cos(\xi)| \leq 1$ for all $\xi$.
+
+This inequality implies that $\sin x$ is Lipschitz continuous with constant 1, hence uniformly
+continuous on $\mathbb{R}$. The same argument works for $\cos x$.
+
+$\blacksquare$
+
+</details>
+
+### 5.9 Common Pitfalls
+
+- L'Hopital's rule only applies to indeterminate forms $\frac{0}{0}$ or $\frac{\infty}{\infty}$.
+  Applying it to forms like $\frac{1}{0}$ or $\frac{\infty}{1}$ will give incorrect results. Always
+  verify the indeterminate form before applying the rule.
+- L'Hopital's rule requires that the limit of $f'/g'$ exists. If $f'/g'$ oscillates (e.g.,
+  $f(x) = x + \sin x$, $g(x) = x$, then $f'/g' = 1 + \cos(x)/1$ which oscillates), the original
+  limit may still exist. In such cases, use algebraic manipulation instead.
+- The MVT requires continuity on $[a, b]$ and differentiability on $(a, b)$. If $f$ is not
+  differentiable at some points, the MVT conclusion may fail.
+- Taylor's theorem gives the remainder for a specific $\xi$ between $a$ and $x$. To bound the
+  error, use $|R_n(x)| \leq \frac{M}{(n+1)!}|x - a|^{n+1}$ where $M = \sup_{\xi}|f^{(n+1)}(\xi)|$.
+
+---

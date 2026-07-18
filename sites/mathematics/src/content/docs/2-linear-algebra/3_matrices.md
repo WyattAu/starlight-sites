@@ -229,25 +229,84 @@ $$\begin{pmatrix} 1 & 1 & 1 & 1 \\ 1 & 2 & 3 & 4 \\ 1 & 3 & 6 & 10 \\ 1 & 4 & 10
 $$\xrightarrow{R_4 - R_3} \begin{pmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & 2 & 3 \\ 0 & 0 & 1 & 3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
 All operations were type 3 (adding a multiple of one row to another), so the determinant is
-Unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$So $\det(A) = 1$.
+unchanged. The upper triangular matrix has diagonal entries $1, 1, 1, 1$ so $\det(A) = 1$.
 $\blacksquare$
 
 </details>
 
-**Proposition 3.6 (Determinant of a Triangular Matrix).** If $A$ is upper or lower triangular, Then
+**Proposition 3.6 (Determinant of a Triangular Matrix).** If $A$ is upper or lower triangular, then
 $\det(A) = \prod_{i=1}^n a_{ii}$.
 
 _Proof._ By repeated cofactor expansion along the first column (for upper triangular), or induction.
 At each step, all terms involving off-diagonal entries vanish due to the zero structure, leaving
-Only the product of diagonal entries. $\blacksquare$
+only the product of diagonal entries. $\blacksquare$
 
-### 3.9 Common Pitfalls
+### 3.9 Intuition: What Does the Determinant Measure Geometrically?
 
-- **$\det(A + B) \neq \det(A) + \det(B)$ .** For example, with $A = B = I_2$
-  $\det(A + B) = \det(2I_2) = 4$But $\det(A) + \det(B) = 2$.
+The determinant of an $n \times n$ matrix $A$ measures the factor by which $A$ scales $n$-dimensional
+volume. Specifically, if $S$ is any measurable subset of $\mathbb{R}^n$, then the image $A(S)$ has
+$n$-dimensional volume equal to $|\det(A)|$ times the volume of $S$.
+
+For $2 \times 2$ matrices, $\det(A)$ is the signed area of the parallelogram formed by the column
+vectors of $A$. For $3 \times 3$ matrices, $|\det(A)|$ is the volume of the parallelepiped formed
+by the three column vectors.
+
+The **sign** of the determinant indicates orientation: $\det(A) > 0$ means $A$ preserves
+orientation (like a rotation), while $\det(A) < 0$ means $A$ reverses orientation (like a
+reflection). When $\det(A) = 0$, the image of $A$ has zero $n$-dimensional volume, meaning the
+columns of $A$ are linearly dependent and $A$ "squishes" $\mathbb{R}^n$ into a lower-dimensional
+subspace.
+
+This geometric interpretation explains why $\det(AB) = \det(A)\det(B)$: the volume scaling of the
+composition $AB$ is the product of the individual scalings. It also explains why $\det(A) = 0$
+implies $A$ is not invertible: a map that squishes volume to zero cannot be reversed.
+
+### 3.10 Worked Example: 3x3 Determinant by Cofactor Expansion
+
+**Problem.** Compute $\det(A)$ where
+
+$$A = \begin{pmatrix} 2 & -1 & 0 \\ 3 & 4 & -2 \\ 1 & 0 & 5 \end{pmatrix}$$
+
+<details>
+<summary>Solution</summary>
+
+Expand along the first row:
+
+$$\det(A) = 2 \cdot \det\begin{pmatrix} 4 & -2 \\ 0 & 5 \end{pmatrix} - (-1) \cdot \det\begin{pmatrix} 3 & -2 \\ 1 & 5 \end{pmatrix} + 0 \cdot \det\begin{pmatrix} 3 & 4 \\ 1 & 0 \end{pmatrix}$$
+
+$$= 2(20 - 0) + 1(15 + 2) + 0 = 40 + 17 = 57$$
+
+Alternatively, expand along the third row (which has a zero):
+
+$$\det(A) = 1 \cdot \det\begin{pmatrix} -1 & 0 \\ 4 & -2 \end{pmatrix} - 0 + 5 \cdot \det\begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}$$
+
+$$= 1(2 - 0) + 5(8 + 3) = 2 + 55 = 57 \quad \checkmark$$
+
+The second method is faster because the zero entry in the third row eliminates one $2 \times 2$
+determinant computation. Always look for rows or columns with the most zeros before choosing
+which row/column to expand along.
+
+**Geometric check:** Since $\det(A) = 57 \neq 0$, the matrix $A$ is invertible, its columns form a
+basis for $\mathbb{R}^3$, and the linear map $\mathbf{x} \mapsto A\mathbf{x}$ scales volume by a
+factor of 57. $\blacksquare$
+
+</details>
+
+### 3.11 Common Pitfalls
+
+- **$\det(A + B) \neq \det(A) + \det(B)$.** For example, with $A = B = I_2$,
+  $\det(A + B) = \det(2I_2) = 4$ but $\det(A) + \det(B) = 2$.
 - **The adjugate formula is theoretically important but computationally inefficient.** For large
   matrices, use Gaussian elimination or LU decomposition to compute inverses.
 - **A matrix with $\det(A) = 0$ has no inverse.** Do not attempt to divide by zero.
+- **Cofactor expansion along different rows/columns gives the same answer, but some choices are
+  faster.** Always expand along the row or column with the most zeros.
+- **$\det(A^T) = \det(A)$, so row operations and column operations affect the determinant in the
+  same way.** You can compute the determinant by reducing along rows or columns.
+- **The determinant of a product is the product of determinants, but $\det(A + B)$ has no simple
+  formula.** Do not distribute the determinant over addition.
+- **For non-square matrices, the determinant is not defined.** Do not attempt to compute $\det(A)$
+  for an $m \times n$ matrix with $m \neq n$.
 
 ---
 

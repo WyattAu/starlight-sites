@@ -284,6 +284,14 @@ So $\int_0^{\infty} x e^{-x}\, dx = 1$. This equals $\Gamma(2) = 1! = 1$. $\blac
 
 </details>
 
+### Intuition
+
+The Riemann integral answers the question: how do we add up infinitely many infinitely thin slices? Consider the area under a curve f(x) from a to b. The Riemann sum approximates this by dividing the interval into subintervals and summing f(x) times the width of each subinterval -- a collection of rectangles whose total area approaches the true area as the partition becomes finer. This is the same logic as computing distance by summing velocity over time, or charge by summing current over time: the integral accumulates a quantity that varies continuously.
+
+The Fundamental Theorem of Calculus reveals the deep connection between accumulation (integration) and rate of change (differentiation). If F(x) represents the accumulated area from a to x, then F'(x) = f(x): the rate at which area accumulates is exactly the height of the curve. Conversely, integrating a rate function recovers the total change. This duality is why the FTC is the most important theorem in calculus: it converts the hard problem of computing areas into the easy problem of finding antiderivatives. The improper integral extends this to infinite intervals or unbounded functions by taking limits, but the core intuition -- accumulation of slices -- remains the same.
+
+---
+
 <aside class="starlight-aside starlight-aside--caution">
 intervals. For unbounded Functions or infinite intervals, one must use the improper Riemann
 integral. A common error is Applying the FTC directly to improper integrals without taking the

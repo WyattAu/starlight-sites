@@ -123,3 +123,37 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Key Equations to Remember
+
+### Energy
+- Kinetic energy: $E_k = \frac{1}{2}mv^2$
+- Gravitational potential energy: $E_p = mgh$
+- Elastic potential energy: $E_e = \frac{1}{2}ke^2$
+- Specific heat capacity: $\Delta E = mc\Delta T$
+- Power: $P = \frac{W}{t} = Fv$
+
+### Electricity
+- Ohm's law: $V = IR$
+- Power: $P = IV = I^2R = \frac{V^2}{R}$
+- Series resistance: $R_{total} = R_1 + R_2 + ...$
+- Parallel resistance: $\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$
+
+### Forces
+- Newton's second law: $F = ma$
+- Weight: $W = mg$
+- Work done: $W = Fd\cos\theta$
+- Momentum: $p = mv$
+- Impulse: $F\Delta t = \Delta p$
+
+### Waves
+- Wave speed: $v = f\lambda$
+- Period: $T = \frac{1}{f}$
+
+## Common Exam Question Types
+
+1. **Calculation questions** — show all working, include units, check significant figures
+2. **Explanation questions** — use physics terminology, explain cause and effect
+3. **Practical questions** — describe method, identify variables, explain sources of error
+4. **Graph questions** — label axes, draw best-fit line, calculate gradient
+5. **Evaluation questions** — consider advantages, disadvantages, and improvements

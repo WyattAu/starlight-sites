@@ -160,19 +160,132 @@ $\blacksquare$
 
 </details>
 
-### 1.6 Common Pitfalls
+### 1.6 Intuition: What Does a Vector Space Capture Geometrically?
+
+The eight axioms of a vector space are not arbitrary rules; they encode exactly the algebraic
+structure needed for the notion of "linear combination" to be meaningful. When you write
+$\alpha \mathbf{u} + \beta \mathbf{v}$, you are performing two geometric operations: stretching
+($\alpha \mathbf{u}$) and then adding ($+ \beta \mathbf{v}$). The axioms guarantee that this
+operation behaves as your geometric intuition demands:
+
+- **Commutativity** ($\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$) means that the order in
+  which you place two arrows head-to-tail does not matter. Geometrically, the parallelogram rule
+  gives the same diagonal regardless of which side you traverse first.
+- **Associativity** ($(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$)
+  means that when adding three vectors, the grouping is irrelevant. You can slide parentheses freely
+  without changing the result.
+- **Additive identity** ($\mathbf{0}$) means there exists a "do nothing" element: adding the zero
+  vector leaves any vector unchanged, just as a displacement of zero does not move you.
+- **Additive inverse** ($-\mathbf{v}$) means every displacement can be undone. If $\mathbf{v}$ moves
+  you from $A$ to $B$, then $-\mathbf{v}$ moves you back from $B$ to $A$.
+- **Distributivity** ($\alpha(\mathbf{u} + \mathbf{v}) = \alpha\mathbf{u} + \alpha\mathbf{v}$) means
+  scaling distributes over addition: stretching the diagonal of a parallelogram is the same as
+  stretching each side and then forming the diagonal.
+
+The power of the abstract definition is that it applies to objects that have no obvious geometric
+meaning as arrows. The set of $2 \times 2$ matrices, the set of polynomials of degree $\leq 3$, and
+the set of continuous functions on $[0,1]$ all satisfy the same axioms. This means that any theorem
+proved using only the vector space axioms (such as the dimension formula or the rank-nullity theorem)
+automatically applies to all these seemingly unrelated objects.
+
+**Connection to other areas.** Vector spaces are the stage on which linear algebra, functional
+analysis, and quantum mechanics are performed. In quantum mechanics, the state of a physical system
+is a vector in a complex Hilbert space (a complete inner product vector space), and observables are
+linear operators on that space. The superposition principle in physics is precisely the statement
+that linear combinations of state vectors are again valid states.
+
+### 1.7 Worked Example: Infinite-Dimensional Vector Space
+
+**Problem.** Let $V = C[0,1]$ be the vector space of continuous functions on $[0,1]$. Show that the
+subset $W = \{f \in C[0,1] : f(0) = 0\}$ is a subspace of $V$.
+
+<details>
+<summary>Solution</summary>
+
+We verify the subspace criterion.
+
+**Non-empty:** The zero function $\mathbf{0}(x) = 0$ satisfies $\mathbf{0}(0) = 0$, so
+$\mathbf{0} \in W$.
+
+**Closure under addition:** Let $f, g \in W$, so $f(0) = 0$ and $g(0) = 0$. Then
+$(f + g)(0) = f(0) + g(0) = 0 + 0 = 0$, so $f + g \in W$.
+
+**Closure under scalar multiplication:** Let $f \in W$ and $\alpha \in \mathbb{R}$. Then
+$(\alpha f)(0) = \alpha \cdot f(0) = \alpha \cdot 0 = 0$, so $\alpha f \in W$.
+
+By the subspace criterion, $W$ is a subspace of $V$.
+
+**Geometric intuition:** $W$ is the subspace of functions that "start at the origin." In the
+infinite-dimensional space $C[0,1]$, this is a closed hyperplane (codimension 1 subspace). The
+complementary subspace consists of constant functions: every $f \in C[0,1]$ can be written uniquely
+as $f = (f - f(0)) + f(0)$, where $f - f(0) \in W$ and $f(0)$ is a constant function.
+$\blacksquare$
+
+</details>
+
+### 1.8 Worked Example: Null Space as a Subspace
+
+**Problem.** Let $A = \begin{pmatrix} 1 & 2 & -1 \\ 2 & 4 & -2 \end{pmatrix}$. Find a basis for
+$\mathrm{null}(A)$ and verify it is a subspace of $\mathbb{R}^3$.
+
+<details>
+<summary>Solution</summary>
+
+Row-reduce $A$:
+
+$$\begin{pmatrix} 1 & 2 & -1 \\ 2 & 4 & -2 \end{pmatrix} \xrightarrow{R_2 - 2R_1} \begin{pmatrix} 1 & 2 & -1 \\ 0 & 0 & 0 \end{pmatrix}$$
+
+The RREF has one pivot (column 1). The free variables are $x_2$ and $x_3$. Setting $x_2 = s$,
+$x_3 = t$: $x_1 = -2s + t$.
+
+$$\mathrm{null}(A) = \left\{ s\begin{pmatrix} -2 \\ 1 \\ 0 \end{pmatrix} + t\begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix} : s, t \in \mathbb{R} \right\}$$
+
+A basis is $\{(-2, 1, 0)^T, (1, 0, 1)^T\}$ and $\dim(\mathrm{null}(A)) = 2$.
+
+**Verification that null(A) is a subspace:** This follows from the general theorem that the null
+space of any matrix is a subspace. Geometrically, $\mathrm{null}(A)$ is the set of all vectors
+$\mathbf{x}$ such that $A\mathbf{x} = \mathbf{0}$, i.e., the vectors that $A$ "collapses" to the
+origin. Since $A$ is a linear map, the preimage of the origin is always a subspace. This is a
+consequence of the fact that linear maps send subspaces to subspaces, and the inverse image of a
+subspace under a linear map is a subspace.
+
+**Dimension check:** By rank-nullity, $\mathrm{rank}(A) + \mathrm{nullity}(A) = 3$. Since
+$\mathrm{rank}(A) = 1$ (one pivot), $\mathrm{nullity}(A) = 2$, consistent with our basis.
+$\blacksquare$
+
+</details>
+
+### 1.9 Common Pitfalls
 
 - **The empty set is not a vector space.** The subspace criterion requires the subset to be
   non-empty. The trivial subspace $\{\mathbf{0}\}$ is the smallest subspace of any vector space.
 - **Non-homogeneous conditions do not define subspaces.** The set of solutions to
   $A\mathbf{x} = \mathbf{b}$ with $\mathbf{b} \neq \mathbf{0}$ is not a subspace (it is an affine
-  subspace, or coset of the null space).
+  subspace, or coset of the null space). For example, $\{(x, y) : x + y = 1\}$ is a line in
+  $\mathbb{R}^2$ that does not pass through the origin.
 - **Closure must hold for _all_ scalars.** A set that is closed under addition and multiplication by
   positive scalars is not necessarily a subspace; it must also be closed under multiplication by
-  $-1$.
+  $-1$. For example, the first quadrant $\{(x, y) : x \geq 0, y \geq 0\}$ is closed under addition
+  and positive scalar multiplication, but $(-1) \cdot (1, 1) = (-1, -1)$ is not in the first
+  quadrant.
+- **Do not confuse the field with the vector space.** $\mathbb{R}$ is a field, but it is also a
+  vector space over itself (of dimension 1). $\mathbb{R}^2$ is a vector space over $\mathbb{R}$ (of
+  dimension 2), but it is _not_ a field (you cannot multiply arbitrary pairs of vectors).
+- **Dimension is a property of the space, not the embedding.** The polynomial space
+  $\mathcal{P}_3(\mathbb{R})$ has dimension 4, even though its elements are "naturally" embedded in
+  $C(\mathbb{R})$, which is infinite-dimensional. The dimension depends on the vector space structure,
+  not on how the space sits inside a larger space.
 
 ---
 
+
+### Intuition
+
+A vector space is any collection of objects that can be added together and scaled by numbers in the same way that arrows in space can. The power of the abstraction is that it applies far beyond geometry. Polynomials behave like vectors: you can add two polynomials and multiply one by a scalar. Functions behave like vectors: you can add two functions pointwise and multiply one by a constant. Even sequences of numbers form vector spaces. The axioms are simply the rules that make "linear combinations" meaningful -- they guarantee that scaling and adding behave the way your geometric intuition expects.
+
+The connection to function spaces is where the abstraction pays off most. In quantum mechanics, the state of a particle is a vector in an infinite-dimensional function space (a Hilbert space). The Schrodinger equation is a linear operator acting on these vectors, and solving it is structurally identical to solving a system of linear equations -- except the "matrix" is replaced by a differential operator and the "vector" is a wavefunction. This is why linear algebra is the language of quantum theory: the superposition principle is literally the closure of a vector space under linear combinations.
+
+---
 
 <aside class="starlight-aside starlight-aside--tip">
 <strong>Research Connections</strong>

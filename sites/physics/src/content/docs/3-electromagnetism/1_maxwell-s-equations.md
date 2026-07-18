@@ -108,6 +108,12 @@ Where $\mathbf{K}_f$ is the free surface current density.
 | $\mathbf{B}$ | $\mu_1 B_{1n} = \mu_2 B_{2n}$                 | $B_{1t}/\mu_1 = B_{2t}/\mu_2$                 |
 | $\mathbf{H}$ | $\mu_2 H_{1n} = \mu_1 H_{2n}$                 | $H_{1t} = H_{2t}$                             |
 
+### Intuition
+
+The electric field is a force landscape: at every point in space, it assigns a vector representing the force that a positive test charge would experience at that location. Near a positive charge, the field points outward -- the "hill" slopes away from the source. Near a negative charge, the field points inward -- the "valley" slopes toward the source. The field lines are the contour lines of this landscape, and their density indicates the strength of the force.
+
+Gauss's law says that the total "outflow" of the electric field through any closed surface equals the enclosed charge divided by the permittivity of free space. Physically, charge is a source (or sink) of field lines. Faraday's law says that a changing magnetic field creates a circulating electric field -- the force landscape twists and swirls when the magnetic environment changes. The beauty of Maxwell's equations is that they unify electricity and magnetism into a single field description: changing electric fields create magnetic fields (Ampere-Maxwell law) and changing magnetic fields create electric fields (Faraday's law), allowing electromagnetic waves to propagate through empty space as self-sustaining oscillations of the field landscape.
+
 ### 1.5 Worked Example: Deriving the Electromagnetic Wave Equation
 
 **Problem.** Starting from Maxwell's equations in free space ($\rho = 0$,
@@ -148,3 +154,84 @@ $\blacksquare$
 
 </details>
 
+### 1.6 Worked Example: Gauss's Law for a Line Charge
+
+**Problem.** An infinitely long line charge has linear charge density $\lambda$. Use Gauss's law to find the electric field at a distance $r$ from the line.
+
+<details>
+<summary>Solution</summary>
+
+By symmetry, the electric field is radial and depends only on $r$. Choose a cylindrical Gaussian surface of radius $r$ and length $L$ coaxial with the line charge.
+
+The electric flux through the curved surface is:
+$$\oint \mathbf{E} \cdot d\mathbf{A} = E \cdot 2\pi r L$$
+
+The flux through the end caps is zero (field is perpendicular to the normal).
+
+The enclosed charge is:
+$$Q_{\text{enc}} = \lambda L$$
+
+Applying Gauss's law:
+$$E \cdot 2\pi r L = \frac{\lambda L}{\varepsilon_0}$$
+
+$$E = \frac{\lambda}{2\pi \varepsilon_0 r}$$
+
+$\blacksquare$
+
+**Common mistake.** Forgetting that the Gaussian surface must have the symmetry of the charge distribution. For a line charge, a cylinder is the appropriate choice.
+
+</details>
+
+### 1.7 Worked Example: Faraday's Law and Induced EMF
+
+**Problem.** A circular loop of radius 0.1 m is placed in a magnetic field that varies as $B(t) = B_0 \sin(\omega t)$ where $B_0 = 0.5$ T and $\omega = 100$ rad/s. Find the induced EMF in the loop.
+
+<details>
+<summary>Solution</summary>
+
+The magnetic flux through the loop is:
+$$\Phi_B = B \cdot A = B_0 \sin(\omega t) \cdot \pi r^2$$
+
+By Faraday's law, the induced EMF is:
+$$\mathcal{E} = -\frac{d\Phi_B}{dt} = -B_0 \pi r^2 \omega \cos(\omega t)$$
+
+Substituting values:
+$$\mathcal{E} = -0.5 \times \pi \times (0.1)^2 \times 100 \times \cos(100t)$$
+
+$$\mathcal{E} = -1.57 \cos(100t) \text{ V}$$
+
+The maximum induced EMF is $|\mathcal{E}_{\text{max}}| = 1.57$ V.
+
+$\blacksquare$
+
+**Intuition.** The induced EMF is proportional to the rate of change of magnetic flux. When the field is changing fastest (at $t = 0$), the induced EMF is maximum. When the field reaches its peak (no change), the induced EMF is zero.
+
+</details>
+
+### 1.8 Worked Example: Ampere's Law for a Solenoid
+
+**Problem.** A solenoid has $n = 1000$ turns per meter and carries a current $I = 2$ A. Find the magnetic field inside the solenoid.
+
+<details>
+<summary>Solution</summary>
+
+By symmetry, the magnetic field inside a long solenoid is uniform and parallel to the axis. Choose a rectangular Amperian loop with one side inside the solenoid (length $l$) and one side outside.
+
+The line integral of $\mathbf{B}$ around the loop is:
+$$\oint \mathbf{B} \cdot d\mathbf{l} = B l$$
+
+(The contribution from the outside is zero because $B \approx 0$ outside.)
+
+The enclosed current is:
+$$I_{\text{enc}} = n l I$$
+
+Applying Ampere's law:
+$$B l = \mu_0 n l I$$
+
+$$B = \mu_0 n I = 4\pi \times 10^{-7} \times 1000 \times 2 = 8\pi \times 10^{-4} \approx 2.51 \times 10^{-3} \text{ T}$$
+
+$\blacksquare$
+
+**Common mistake.** Using the total number of turns instead of turns per meter. The formula uses $n = N/L$, not $N$.
+
+</details>
