@@ -1,0 +1,313 @@
+---
+title: "Rails Practice"
+description: "Ruby on Rails practice exercises"
+sidebar_position: 50
+---
+
+## Rails Practice
+
+5 exercises covering RESTful controllers, model associations, migrations, service objects, and background jobs.
+
+---
+
+### Exercise 1: RESTful Controller
+
+**Problem:** Create a fully RESTful articles controller with all seven standard actions. Include strong parameters, before_action filters, and proper HTTP status codes for each response.
+
+```ruby
+class ArticlesController < ApplicationController
+  before_action :set_article, only: %i[show edit update destroy]
+  before_action :authenticate_user!, except: %i[index show]
+
+  def index
+    @articles = Article.published.page(params[:page]).per(10)
+  end
+
+  def show; end
+
+  def new
+    @article = current_user.articles.build
+  end
+
+  def create
+    @article = current_user.articles.build(article_params)
+    if @article.save
+      redirect_to @article, notice: "Article created successfully."
+    else
+      render :new, status: :unprocessable_entity
+    end
+  end
+
+  def edit; end
+
+  def update
+    if @article.update(article_params)
+      redirect_to @article, notice: "Article updated successfully."
+    else
+      render :edit, status: :unprocessable_entity
+    end
+  end
+
+  def destroy
+    @article.destroy
+    redirect_to articles_path, notice: "Article deleted.", status: :see_other
+  end
+
+  private
+
+  def set_article
+    @article = Article.find(params[:id])
+  end
+
+  def article_params
+    params.require(:article).permit(:title, :body, :published_at, :tag_list)
+  end
+end
+```
+
+**Solution:** The controller uses `before_action` for authentication and setting the resource. Strong parameters (`article_params`) whitelist permitted attributes. Each action returns appropriate HTTP status codes: `:unprocessable_entity` for validation failures, `:see_other` (303) for redirect after DELETE. The `published_at` attribute enables a draft/published workflow.
+
+---
+
+### Exercise 2: Model Associations
+
+**Problem:** Design a blog domain with User, Article, Comment, and Tag models. Implement the associations, validations, and a scope that returns articles with their comment counts.
+
+```ruby
+class User < ApplicationRecord
+  has_many :articles, dependent: :destroy
+  has_many :comments, dependent: :destroy
+
+  validates :email, presence: true, uniqueness: true
+  validates :name, presence: true
+end
+
+class Article < ApplicationRecord
+  belongs_to :user
+  has_many :comments, dependent: :destroy
+  has_many :article_tags, dependent: :destroy
+  has_many :tags, through: :article_tags
+
+  validates :title, presence: true, length: { maximum: 200 }
+  validates :body, presence: true
+
+  scope :published, -> { where.not(published_at: nil).where("published_at <= ?", Time.current) }
+  scope :with_comment_counts, -> {
+    left_joins(:comments)
+      .select("articles.*, COUNT(comments.id) AS comments_count")
+      .group("articles.id")
+  }
+
+  def draft?
+    published_at.nil?
+  end
+end
+
+class Comment < ApplicationRecord
+  belongs_to :user
+  belongs_to :article
+
+  validates :body, presence: true, length: { minimum: 5 }
+end
+
+class Tag < ApplicationRecord
+  has_many :article_tags, dependent: :destroy
+  has_many :articles, through: :article_tags
+
+  validates :name, presence: true, uniqueness: true
+end
+
+class ArticleTag < ApplicationRecord
+  belongs_to :article
+  belongs_to :tag
+
+  validates :article_id, uniqueness: { scope: :tag_id }
+end
+```
+
+**Solution:** `has_many :through` creates the many-to-many relationship between articles and tags via the join model. `dependent: :destroy` ensures cascading deletes. `left_joins` with `COUNT` and `group` computes comment counts without N+1 queries. Validations enforce data integrity at the model level.
+
+---
+
+### Exercise 3: Database Migration
+
+**Problem:** Write a migration that creates a `subscriptions` table with a polymorphic association to `subscribable` (articles or newsletters), adds an index for fast lookups, and includes a rollback-safe reversible migration.
+
+```ruby
+class CreateSubscriptions < ActiveRecord::Migration[7.1]
+  def up
+    create_table :subscriptions do |t|
+      t.references :user, null: false, foreign_key: true
+      t.references :subscribable, polymorphic: true, null: false
+      t.string :status, null: false, default: "active"
+      t.datetime :subscribed_at, null: false
+      t.datetime :unsubscribed_at
+
+      t.timestamps
+    end
+
+    add_index :subscriptions, [:user_id, :subscribable_type, :subscribable_id],
+              unique: true, name: "index_subscriptions_unique"
+    add_index :subscriptions, :status
+  end
+
+  def down
+    drop_table :subscriptions
+  end
+end
+```
+
+**Solution:** `t.references` with `polymorphic: true` creates both `subscribable_type` (string) and `subscribable_id` (integer) columns with an index. The unique composite index prevents duplicate subscriptions. `null: false` with `default` enforces data constraints at the database level. The `down` method safely drops the table.
+
+---
+
+### Exercise 4: Service Object
+
+**Problem:** Implement a service object that handles the complete article publishing workflow: validating the article, updating its status, notifying subscribers, and logging the event. Include error handling with rollback semantics.
+
+```ruby
+class PublishArticle
+  attr_reader :article, :result
+
+  def initialize(article, user:)
+    @article = article
+    @user = user
+    @result = OpenStruct.new(success?: false, errors: [])
+  end
+
+  def call
+    ActiveRecord::Base.transaction do
+      validate_article
+      update_article
+      notify_subscribers
+      log_publishing_event
+      @result.success? = true
+    rescue StandardError => e
+      @result.errors << e.message
+      raise ActiveRecord::Rollback
+    end
+
+    @result
+  end
+
+  private
+
+  def validate_article
+    unless @article.user == @user
+      raise ArgumentError, "Only the author can publish"
+    end
+
+    if @article.published?
+      raise StandardError, "Article is already published"
+    end
+
+    unless @article.valid?
+      @result.errors.concat(@article.errors.full_messages)
+      raise StandardError, "Validation failed"
+    end
+  end
+
+  def update_article
+    @article.update!(
+      published_at: Time.current,
+      status: "published"
+    )
+  end
+
+  def notify_subscribers
+    subscribers = @article.user.subscribers
+    subscribers.find_each do |subscriber|
+      SubscriberMailer.article_published(subscriber, @article).deliver_later
+    end
+  end
+
+  def log_publishing_event
+    PublishEvent.create!(
+      article: @article,
+      user: @user,
+      published_at: Time.current
+    )
+  end
+end
+
+class ArticlesController < ApplicationController
+  def publish
+    @article = Article.find(params[:id])
+    result = PublishArticle.new(@article, user: current_user).call
+
+    if result.success?
+      redirect_to @article, notice: "Article published."
+    else
+      redirect_to @article, alert: result.errors.join(", ")
+    end
+  end
+end
+```
+
+**Solution:** The service object encapsulates business logic outside the controller and model. `ActiveRecord::Base.transaction` ensures atomicity -- all steps succeed or all are rolled back. Errors are collected in `result.errors` for the controller to display. `deliver_later` queues email notifications asynchronously. `find_each` processes subscribers in batches.
+
+---
+
+### Exercise 5: Background Job
+
+**Problem:** Create a Sidekiq job that processes CSV uploads in the background. The job should parse the CSV, create records in batches, handle errors per row, and report progress.
+
+```ruby
+class CsvImportJob < ApplicationJob
+  queue_as :default
+  sidekiq_options retry: 3, dead: false
+
+  perform_once :import_csv do |csv_path, user_id, model_name|
+    user = User.find(user_id)
+    model_class = model_name.constantize
+
+    rows = CSV.read(csv_path, headers: true)
+    total = rows.length
+    imported = 0
+    failed = 0
+    errors = []
+
+    rows.each_slice(100) do |batch|
+      records = batch.map do |row|
+        model_class.new(row.to_h)
+      end
+
+      valid, invalid = records.partition(&:valid?)
+
+      if valid.any?
+        model_class.import(valid, validate: false, raise: false)
+        imported += valid.length
+      end
+
+      invalid.each do |record|
+        failed += 1
+        errors << { row: record.attributes, errors: record.errors.full_messages }
+      end
+
+      Rails.logger.info(
+        "CSV Import: #{imported + failed}/#{total} processed"
+      )
+    end
+
+    ImportResult.create!(
+      user: user,
+      model_name: model_name,
+      file_path: csv_path,
+      total_rows: total,
+      imported: imported,
+      failed: failed,
+      errors: errors,
+      completed_at: Time.current
+    )
+
+    UserMailer.import_complete(user, imported, failed).deliver_now
+
+    File.delete(csv_path) if File.exist?(csv_path)
+  rescue StandardError => e
+    Rails.logger.error("CSV Import failed: #{e.message}")
+    raise
+  end
+end
+```
+
+**Solution:** `perform_once` ensures the job is idempotent by preventing duplicate execution. `each_slice(100)` batches inserts to avoid memory bloat. `model_class.import` performs bulk inserts for performance. Per-row validation catches data issues. `ImportResult` persists a summary. `File.delete` cleans up the temp file after processing. `sidekiq_options retry: 3` limits retries to prevent infinite loops.

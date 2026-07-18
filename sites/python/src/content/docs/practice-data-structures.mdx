@@ -1,0 +1,236 @@
+---
+title: "Data Structures Practice"
+description: "Python data structures practice exercises"
+sidebar_position: 51
+---
+
+# Data Structures Practice
+
+## Exercise 1: Linked List Reversal
+
+**Problem:**
+Implement a singly linked list and write a function to reverse it in place.
+
+**Hint:** Use three pointers: previous, current, and next.
+
+```python
+class Node:
+    def __init__(self, val: int, next: "Node | None" = None):
+        self.val = val
+        self.next = next
+
+
+def reverse_list(head: Node | None) -> Node | None:
+    prev = None
+    current = head
+    while current:
+        next_node = current.next
+        current.next = prev
+        prev = current
+        current = next_node
+    return prev
+
+
+def to_list(head: Node | None) -> list[int]:
+    result = []
+    while head:
+        result.append(head.val)
+        head = head.next
+    return result
+```
+
+---
+
+## Exercise 2: Binary Tree Traversal
+
+**Problem:**
+Implement in-order, pre-order, and post-order traversals for a binary tree.
+
+**Hint:** Use recursion or an explicit stack for iterative approaches.
+
+```python
+class TreeNode:
+    def __init__(self, val: int, left: "TreeNode | None" = None, right: "TreeNode | None" = None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+def inorder(root: TreeNode | None) -> list[int]:
+    if not root:
+        return []
+    return inorder(root.left) + [root.val] + inorder(root.right)
+
+
+def preorder(root: TreeNode | None) -> list[int]:
+    if not root:
+        return []
+    return [root.val] + preorder(root.left) + preorder(root.right)
+
+
+def postorder(root: TreeNode | None) -> list[int]:
+    if not root:
+        return []
+    return postorder(root.left) + postorder(root.right) + [root.val]
+```
+
+---
+
+## Exercise 3: Hash Map Implementation
+
+**Problem:**
+Implement a hash map with separate chaining for collision resolution. Support `put`, `get`, and `remove`.
+
+**Hint:** Use a list of buckets, each bucket being a list of key-value pairs.
+
+```python
+class HashMap:
+    def __init__(self, capacity: int = 16):
+        self.capacity = capacity
+        self.buckets: list[list[tuple[str, int]]] = [[] for _ in range(capacity)]
+        self.size = 0
+
+    def _hash(self, key: str) -> int:
+        return hash(key) % self.capacity
+
+    def put(self, key: str, value: int) -> None:
+        idx = self._hash(key)
+        bucket = self.buckets[idx]
+        for i, (k, v) in enumerate(bucket):
+            if k == key:
+                bucket[i] = (key, value)
+                return
+        bucket.append((key, value))
+        self.size += 1
+
+    def get(self, key: str) -> int | None:
+        idx = self._hash(key)
+        for k, v in self.buckets[idx]:
+            if k == key:
+                return v
+        return None
+
+    def remove(self, key: str) -> bool:
+        idx = self._hash(key)
+        bucket = self.buckets[idx]
+        for i, (k, v) in enumerate(bucket):
+            if k == key:
+                bucket.pop(i)
+                self.size -= 1
+                return True
+        return False
+```
+
+---
+
+## Exercise 4: Stack and Queue Implementation
+
+**Problem:**
+Implement both a stack and a queue using a single `Deque` class with `push`, `pop`, `enqueue`, and `dequeue` operations.
+
+**Hint:** A doubly linked list or `collections.deque` can serve as the underlying structure.
+
+```python
+from collections import deque
+
+
+class Stack:
+    def __init__(self):
+        self._data = deque()
+
+    def push(self, val: int) -> None:
+        self._data.append(val)
+
+    def pop(self) -> int:
+        if not self._data:
+            raise IndexError("pop from empty stack")
+        return self._data.pop()
+
+    def peek(self) -> int:
+        if not self._data:
+            raise IndexError("peek from empty stack")
+        return self._data[-1]
+
+    def is_empty(self) -> bool:
+        return len(self._data) == 0
+
+
+class Queue:
+    def __init__(self):
+        self._data = deque()
+
+    def enqueue(self, val: int) -> None:
+        self._data.append(val)
+
+    def dequeue(self) -> int:
+        if not self._data:
+            raise IndexError("dequeue from empty queue")
+        return self._data.popleft()
+
+    def peek(self) -> int:
+        if not self._data:
+            raise IndexError("peek from empty queue")
+        return self._data[0]
+
+    def is_empty(self) -> bool:
+        return len(self._data) == 0
+```
+
+---
+
+## Exercise 5: Heap Operations
+
+**Problem:**
+Implement a min-heap with `insert`, `extract_min`, and `peek` operations.
+
+**Hint:** Use an array and maintain the heap property by bubbling up and down.
+
+```python
+class MinHeap:
+    def __init__(self):
+        self.heap: list[int] = []
+
+    def _bubble_up(self, idx: int) -> None:
+        while idx > 0:
+            parent = (idx - 1) // 2
+            if self.heap[idx] < self.heap[parent]:
+                self.heap[idx], self.heap[parent] = self.heap[parent], self.heap[idx]
+                idx = parent
+            else:
+                break
+
+    def _bubble_down(self, idx: int) -> None:
+        n = len(self.heap)
+        while True:
+            smallest = idx
+            left = 2 * idx + 1
+            right = 2 * idx + 2
+            if left < n and self.heap[left] < self.heap[smallest]:
+                smallest = left
+            if right < n and self.heap[right] < self.heap[smallest]:
+                smallest = right
+            if smallest != idx:
+                self.heap[idx], self.heap[smallest] = self.heap[smallest], self.heap[idx]
+                idx = smallest
+            else:
+                break
+
+    def insert(self, val: int) -> None:
+        self.heap.append(val)
+        self._bubble_up(len(self.heap) - 1)
+
+    def extract_min(self) -> int:
+        if not self.heap:
+            raise IndexError("extract from empty heap")
+        min_val = self.heap[0]
+        last = self.heap.pop()
+        if self.heap:
+            self.heap[0] = last
+            self._bubble_down(0)
+        return min_val
+
+    def peek(self) -> int:
+        if not self.heap:
+            raise IndexError("peek from empty heap")
+        return self.heap[0]
+```

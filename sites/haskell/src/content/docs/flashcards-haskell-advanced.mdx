@@ -1,0 +1,16 @@
+---
+title: "Advanced Haskell Flashcards"
+description: "Key terms for advanced Haskell"
+sidebar_position: 51
+---
+
+import FlashcardDeck from "@components/FlashcardDeck";
+import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-advanced-data.js';
+
+## Advanced Haskell Flashcards
+
+15 flashcards covering advanced Haskell concepts. Tap a card to reveal the answer.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="haskell-advanced" title="Advanced Haskell" description="15 flashcards covering Functor, Applicative, Monad, MonadTrans, Foldable, Traversable, lens, STM, IORef, phantom type, kind polymorphism, type families, GADTs, coYoneda, free monad." cards={flashcardData} />

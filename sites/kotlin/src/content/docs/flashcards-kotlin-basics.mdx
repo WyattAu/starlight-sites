@@ -1,20 +1,16 @@
 ---
-title: "Kotlin Fundamentals Flashcards"
-description: "20 interactive flashcards covering core Kotlin concepts from null safety to inline functions. Press Space to flip, rate 1-4."
-tags: [Kotlin, Flashcards]
-
+title: "Kotlin Basics Flashcards"
+description: "Key terms for Kotlin basics"
+sidebar_position: 51
 ---
 
 import FlashcardDeck from "@components/FlashcardDeck";
-import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/kotlin/flashcards-kotlin-basics-data.js';
+import { flashcardData } from '@/data/flashcards/kotlin/flashcards-kotlin-basics-data.js';
 
+## Kotlin Basics Flashcards
 
-## Kotlin -- Fundamentals Flashcards
-
-20 interactive flashcards covering core Kotlin concepts from null safety to inline functions. Press
-Space to flip, rate 1-4.
+15 flashcards covering core Kotlin concepts. Tap a card to reveal the answer.
 
 ---
 
-
-<FlashcardDeck client:only="solid-js" deckId="kotlin-basics" title="Kotlin -- Fundamentals" description="20 interactive flashcards covering null safety, coroutines, scope functions, data classes, sealed classes, extension functions, delegation, companion objects, type system, collections, and more." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
+<FlashcardDeck client:only="solid-js" deckId="kotlin-basics" title="Kotlin -- Basics" description="15 interactive flashcards covering val, var, data class, sealed class, extension function, null safety, scope functions, companion object, inline function, reified type, coroutines, flow, channel, suspend, delegate." cards={flashcardData} />

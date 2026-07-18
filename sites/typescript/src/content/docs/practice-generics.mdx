@@ -1,0 +1,194 @@
+---
+title: "Generics Practice"
+description: "TypeScript generics practice exercises"
+sidebar_position: 50
+---
+
+# Generics Practice
+
+## Exercise 1: Generic Types
+
+**Problem:**
+Implement a generic `Stack<T>` class with `push`, `pop`, `peek`, and `isEmpty` methods.
+
+**Hint:** Use a type parameter `T` so the stack works with any type.
+
+```typescript
+class Stack<T> {
+  private items: T[] = [];
+
+  push(item: T): void {
+    this.items.push(item);
+  }
+
+  pop(): T | undefined {
+    return this.items.pop();
+  }
+
+  peek(): T | undefined {
+    return this.items[this.items.length - 1];
+  }
+
+  isEmpty(): boolean {
+    return this.items.length === 0;
+  }
+
+  size(): number {
+    return this.items.length;
+  }
+}
+
+const numStack = new Stack<number>();
+numStack.push(1);
+numStack.push(2);
+
+const strStack = new Stack<string>();
+strStack.push("hello");
+```
+
+---
+
+## Exercise 2: Conditional Types
+
+**Problem:**
+Create a conditional type `IsString<T>` that resolves to `true` if `T` is a string, otherwise `false`.
+
+**Hint:** Use `T extends string ? true : false`.
+
+```typescript
+type IsString<T> = T extends string ? true : false;
+
+type A = IsString<"hello">; // true
+type B = IsString<42>;      // false
+
+type ExtractString<T> = T extends string ? T : never;
+
+type Mixed = ExtractString<string | number | boolean>; // string
+
+type NonNullable2<T> = T extends null | undefined ? never : T;
+
+type Safe = NonNullable2<string | null | undefined>; // string
+```
+
+---
+
+## Exercise 3: Mapped Types
+
+**Problem:**
+Implement a `Readonly<T>` type manually and create a `DeepReadonly<T>` that works recursively.
+
+**Hint:** Use `{ readonly [K in keyof T]: T[K] }` for shallow and a conditional mapped type for deep.
+
+```typescript
+type MyReadonly<T> = {
+  readonly [K in keyof T]: T[K];
+};
+
+type DeepReadonly<T> = {
+  readonly [K in keyof T]: T[K] extends object
+    ? T[K] extends Function
+      ? T[K]
+      : DeepReadonly<T[K]>
+    : T[K];
+};
+
+interface Config {
+  database: {
+    host: string;
+    port: number;
+  };
+  cache: {
+    ttl: number;
+  };
+}
+
+type ReadonlyConfig = DeepReadonly<Config>;
+// All properties at all levels are readonly
+```
+
+---
+
+## Exercise 4: Template Literal Types
+
+**Problem:**
+Create template literal types for CSS event names (`onClick`, `onFocus`) and route parameter extraction.
+
+**Hint:** Use template literal patterns like `` `on${Capitalize<E>}` `` and string inference.
+
+```typescript
+type EventName<E extends string> = `on${Capitalize<E>}`;
+
+type ClickEvent = EventName<"click">; // "onClick"
+type FocusEvent = EventName<"focus">; // "onFocus"
+
+type ExtractParams<T extends string> =
+  T extends `${string}:${infer Param}/${infer Rest}`
+    ? { [K in Param | keyof ExtractParams<Rest>]: string }
+    : T extends `${string}:${infer Param}`
+      ? { [K in Param]: string }
+      : {};
+
+type UserRoute = ExtractParams<"/users/:id">;
+// { id: string }
+
+type PostRoute = ExtractParams<"/users/:userId/posts/:postId">;
+// { userId: string; postId: string }
+```
+
+---
+
+## Exercise 5: Type-Safe Event Emitter
+
+**Problem:**
+Implement a type-safe event emitter where event names and payload types are constrained by a generic map.
+
+**Hint:** Use a generic constraint `Events extends Record<string, unknown[]>`.
+
+```typescript
+type EventMap = Record<string, unknown[]>;
+
+class TypedEmitter<Events extends EventMap> {
+  private listeners: {
+    [K in keyof Events]?: Array<(...args: Events[K]) => void>;
+  } = {};
+
+  on<K extends keyof Events>(
+    event: K,
+    listener: (...args: Events[K]) => void
+  ): void {
+    if (!this.listeners[event]) {
+      this.listeners[event] = [];
+    }
+    this.listeners[event]!.push(listener);
+  }
+
+  emit<K extends keyof Events>(event: K, ...args: Events[K]): void {
+    this.listeners[event]?.forEach((fn) => fn(...args));
+  }
+
+  off<K extends keyof Events>(
+    event: K,
+    listener: (...args: Events[K]) => void
+  ): void {
+    const list = this.listeners[event];
+    if (list) {
+      this.listeners[event] = list.filter((fn) => fn !== listener) as any;
+    }
+  }
+}
+
+interface AppEvents {
+  login: [userId: string];
+  logout: [userId: string, reason: string];
+  purchase: [amount: number, itemId: string];
+}
+
+const emitter = new TypedEmitter<AppEvents>();
+
+emitter.on("login", (userId) => {
+  console.log(`User ${userId} logged in`);
+});
+
+emitter.emit("login", "user-42");
+emitter.emit("purchase", 29.99, "item-7");
+```

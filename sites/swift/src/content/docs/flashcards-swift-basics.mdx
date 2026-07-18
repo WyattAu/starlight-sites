@@ -1,21 +1,16 @@
 ---
-title: Swift Flashcards (Basics)
-description: "20 flashcards covering core Swift concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems."
-tags:
-  - Swift
-categories:
-  - Swift
+title: "Swift Basics Flashcards"
+description: "Key terms for Swift basics"
+sidebar_position: 51
 ---
 
 import FlashcardDeck from "@components/FlashcardDeck";
-import { flashcards1, flashcards2 } from '@/data/flashcards/swift/flashcards-swift-basics-data.js';
+import { flashcardData } from '@/data/flashcards/swift/flashcards-swift-basics-data.js';
 
+## Swift Basics Flashcards
 
-## Swift Basics -- Flashcards
-
-20 flashcards covering core Swift concepts. Tap a card to reveal the answer.
+15 flashcards covering core Swift concepts. Tap a card to reveal the answer.
 
 ---
 
-
-<FlashcardDeck client:only="solid-js" deckId="swift-basics" title="Swift -- Fundamentals" description="20 interactive flashcards covering types, optionals, error handling, protocols, and more." cards={[...flashcards1, ...flashcards2]}  />
+<FlashcardDeck client:only="solid-js" deckId="swift-basics" title="Swift -- Basics" description="15 interactive flashcards covering let, var, optionals, protocols, extensions, generics, enums, structs, classes, ARC, closures, computed properties, property observers, result builders, async/await." cards={flashcardData} />

@@ -1,46 +1,223 @@
 ---
-title: Rust Ownership Practice (Interactive)
-tags:
-  - rust
-description: "8 auto-graded practice problems covering Rust ownership, lifetimes, references, and smart pointers. Select an answer, submit, and review the explanation."
+title: "Ownership Practice"
+description: "Rust ownership and borrowing practice exercises"
+sidebar_position: 50
 ---
 
-import PracticeProblem from "@components/PracticeProblem";
+# Ownership Practice
 
+## Exercise 1: Reference Counting
 
-## Rust — Ownership Practice
+**Problem:**
+Use `Rc<T>` to share ownership of a value across multiple structures.
 
-8 auto-graded practice problems covering Rust ownership, lifetimes, references, and smart pointers.
-Select an answer, submit, and review the explanation.
+**Hint:** `Rc::clone` increments the reference count; the value is dropped when the last `Rc` is dropped.
+
+```rust
+use std::rc::Rc;
+
+#[derive(Debug)]
+struct Node {
+    value: i32,
+    next: Option<Rc<Node>>,
+}
+
+fn shared_list() -> (Rc<Node>, Rc<Node>) {
+    let tail = Rc::new(Node {
+        value: 3,
+        next: None,
+    });
+    let head = Rc::new(Node {
+        value: 1,
+        next: Some(Rc::clone(&tail)),
+    });
+    (head, tail)
+}
+
+fn count_references(node: &Rc<Node>) -> usize {
+    Rc::strong_count(node)
+}
+```
 
 ---
 
-### Ownership
+## Exercise 2: Lifetime Annotations
 
-<PracticeProblem client:only="solid-js" question='What happens when you write `let x = String::from("hello"); let y = x; println!("{}", x);`?' options={[ 'Compilation error: value borrowed after move', 'It prints \"hello\"', 'It prints \"hello\" twice', 'Runtime panic', ]} correctAnswer={0} explanation='String is a heap-allocated type. Assigning `x` to `y` moves ownership of the string data to `y`, invalidating `x`. Attempting to use `x` after the move causes a compilation error: "value borrowed here after move".' difficulty="easy"  />
+**Problem:**
+Write a function that returns the longer of two string slices, using explicit lifetime annotations.
 
-<PracticeProblem client:only="solid-js" question={"Which of the following will compile without errors?&quot; options={[ 'let x = 5; let y = x; println!(\&quot;{}\&quot;, x);', 'let x = String::from(\&quot;hi\&quot;); let y = x; println!(\&quot;{}\&quot;, x);', 'let x = vec![1]; let y = x; x.push(2);', 'let r1 = &mut s; let r2 = &mut s;', ]} correctAnswer={0} explanation=&quot;Integer types like `i32` implement the `Copy` trait, so `let y = x` copies the value rather than moving it. `x` remains valid and can still be used. `String` and `Vec` do not implement `Copy`, so the other options fail."} difficulty="medium"  />
+**Hint:** The returned slice borrows from one of the inputs; the lifetime must outlive both.
+
+```rust
+fn longer<'a>(s1: &'a str, s2: &'a str) -> &'a str {
+    if s1.len() >= s2.len() {
+        s1
+    } else {
+        s2
+    }
+}
+
+struct Excerpt<'a> {
+    text: &'a str,
+}
+
+impl<'a> Excerpt<'a> {
+    fn new(text: &'a str) -> Self {
+        Excerpt { text }
+    }
+
+    fn level(&self) -> i32 {
+        3
+    }
+
+    fn announce(&self, announcement: &str) -> &str {
+        println!("Attention: {}", announcement);
+        self.text
+    }
+}
+```
 
 ---
 
-### Lifetimes
+## Exercise 3: Trait Objects with Ownership
 
-<PracticeProblem client:only="solid-js" question={"What does the lifetime annotation `'a` in `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str` signify?&quot; options={[ 'The returned reference lives at least as long as the shorter of the two input lifetimes', 'The returned reference lives exactly as long as both inputs', 'The function returns a static reference', 'Memory is leaked after the function returns', ]} correctAnswer={0} explanation=&quot;The lifetime `'a` tells the compiler that the returned reference will be valid for at least as long as the shorter of the two input lifetimes. This means the caller can use the result as long as both input references are still valid."} difficulty="medium"  />
+**Problem:**
+Store heterogeneous objects behind a `Box<dyn Trait>` in a collection.
 
-<PracticeProblem client:only="solid-js" question={"Why does `fn first_word(s: &str) -> &str` compile without explicit lifetime annotations?&quot; options={[ 'Lifetime elision rules automatically assign the same lifetime to all references', &quot;Rust doesn\'t check lifetimes for simple functions&quot;, 'It uses static lifetimes by default', &quot;It won\'t compile without annotations&quot;, ]} correctAnswer={0} explanation=&quot;Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -> &str` is equivalent to `fn first_word<'a>(s: &'a str) -> &'a str`."} difficulty="easy"  />
+**Hint:** `Box<dyn Trait>` is a fat pointer; each element can be a different concrete type.
+
+```rust
+trait Shape {
+    fn area(&self) -> f64;
+    fn describe(&self) -> String;
+}
+
+struct Circle {
+    radius: f64,
+}
+
+impl Shape for Circle {
+    fn area(&self) -> f64 {
+        std::f64::consts::PI * self.radius * self.radius
+    }
+    fn describe(&self) -> String {
+        format!("Circle with radius {}", self.radius)
+    }
+}
+
+struct Rectangle {
+    width: f64,
+    height: f64,
+}
+
+impl Shape for Rectangle {
+    fn area(&self) -> f64 {
+        self.width * self.height
+    }
+    fn describe(&self) -> String {
+        format!("Rectangle {}x{}", self.width, self.height)
+    }
+}
+
+fn create_shapes() -> Vec<Box<dyn Shape>> {
+    vec![
+        Box::new(Circle { radius: 5.0 }),
+        Box::new(Rectangle {
+            width: 4.0,
+            height: 6.0,
+        }),
+    ]
+}
+```
 
 ---
 
-### References
+## Exercise 4: Self-Referential Structs
 
-<PracticeProblem client:only="solid-js" question={"Can you have both a mutable reference and an immutable reference to the same data at the same time?&quot; options={[ 'No — mutable references are exclusive', 'Yes, as long as the immutable reference was created first', 'Yes, but only in unsafe blocks', 'Yes, Rust automatically handles conflicts', ]} correctAnswer={0} explanation=&quot;Rust\'s borrowing rules state that you can have any number of immutable references OR exactly one mutable reference, but not both simultaneously. This prevents data races at compile time."} difficulty="easy"  />
+**Problem:**
+Use the `ouroboros` crate or manual unsafe code to build a self-referential struct.
 
-<PracticeProblem client:only="solid-js" question={"What is reborrowing in Rust?&quot; options={[ 'Creating a new reference from an existing reference without transferring the original borrow', 'Moving a reference to a new variable', 'Dereferencing a pointer to get the underlying value', 'Casting a mutable reference to an immutable one', ]} correctAnswer={0} explanation=&quot;Reborrowing occurs when you create a new reference from an existing reference (e.g., `&*x` or passing `&x` where `x` is already `&mut T`). The original borrow remains valid and will be valid again after the reborrow ends."} difficulty="hard"  />
+**Hint:** The `ouroboros` crate provides a safe macro for self-referential types.
+
+```rust
+use ouroboros::self_referencing;
+
+#[self_referencing]
+struct TextBuffer {
+    data: String,
+    #[borrows(data)]
+    #[covariant]
+    lines: Vec<&'this str>,
+}
+
+impl TextBuffer {
+    fn new(text: String) -> Self {
+        TextBufferBuilder {
+            data: text,
+            lines_builder: |data: &str| data.lines().collect(),
+        }
+        .build()
+    }
+
+    fn lines(&self) -> Vec<&str> {
+        self.borrow_lines().clone()
+    }
+}
+
+fn process_text(input: String) -> Vec<String> {
+    let buffer = TextBuffer::new(input);
+    buffer.lines().iter().map(|s| s.to_uppercase()).collect()
+}
+```
 
 ---
 
-### Smart Pointers
+## Exercise 5: Unsafe Rust Patterns
 
-<PracticeProblem client:only="solid-js" question={"What is the key difference between `Box<T>` and `Rc<T>`?&quot; options={[ 'Box has single ownership; Rc enables shared ownership via reference counting', 'Box is for stack allocation; Rc is for heap allocation', 'Box is thread-safe; Rc is not', 'There is no difference', ]} correctAnswer={0} explanation=&quot;`Box<T>` provides single ownership of heap data — only one owner at a time. `Rc<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc<T>` for shared ownership across threads."} difficulty="medium"  />
+**Problem:**
+Implement a fixed-size array wrapper that provides safe indexing with bounds checking, backed by unsafe code internally.
 
-<PracticeProblem client:only="solid-js" question={"When should you use `Arc<T>` instead of `Rc<T>`?&quot; options={[ 'When you need to share data across multiple threads', 'When you need mutable access to shared data', 'When you want to avoid heap allocation', 'When the data is very small', ]} correctAnswer={0} explanation=&quot;`Arc<T>` (Atomic Reference Counted) is the thread-safe version of `Rc<T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex<T>` or `RwLock<T>`."} difficulty="medium"  />
+**Hint:** Use `unsafe` to access raw pointers but validate bounds before dereferencing.
+
+```rust
+struct SafeArray<T, const N: usize> {
+    data: [std::mem::MaybeUninit<T>; N],
+    len: usize,
+}
+
+impl<T, const N: usize> SafeArray<T, N> {
+    fn new() -> Self {
+        SafeArray {
+            data: unsafe { std::mem::MaybeUninit::uninit().assume_init() },
+            len: 0,
+        }
+    }
+
+    fn push(&mut self, value: T) -> Result<(), &'static str> {
+        if self.len >= N {
+            return Err("array is full");
+        }
+        self.data[self.len] = std::mem::MaybeUninit::new(value);
+        self.len += 1;
+        Ok(())
+    }
+
+    fn get(&self, index: usize) -> Option<&T> {
+        if index < self.len {
+            Some(unsafe { self.data[index].assume_init_ref() })
+        } else {
+            None
+        }
+    }
+}
+
+impl<T, const N: usize> Drop for SafeArray<T, N> {
+    fn drop(&mut self) {
+        for i in 0..self.len {
+            unsafe {
+                self.data[i].assume_init_drop();
+            }
+        }
+    }
+}
+```

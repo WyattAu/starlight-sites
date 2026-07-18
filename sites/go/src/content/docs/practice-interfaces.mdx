@@ -1,0 +1,225 @@
+---
+title: "Interface Practice"
+description: "Go interface design practice exercises"
+sidebar_position: 51
+---
+
+# Interface Practice
+
+## Exercise 1: io.Reader and io.Writer
+
+**Problem:**
+Implement a custom `io.Reader` that reads from a byte buffer and a custom `io.Writer` that writes to a string buffer.
+
+**Hint:** Implement the `Read(p []byte) (n int, err error)` and `Write(p []byte) (n int, err error)` methods.
+
+```go
+package main
+
+import "io"
+
+type BytesReader struct {
+	data []byte
+	pos  int
+}
+
+func NewBytesReader(data []byte) *BytesReader {
+	return &BytesReader{data: data}
+}
+
+func (r *BytesReader) Read(p []byte) (int, error) {
+	if r.pos >= len(r.data) {
+		return 0, io.EOF
+	}
+	n := copy(p, r.data[r.pos:])
+	r.pos += n
+	return n, nil
+}
+
+type StringWriter struct {
+	builder []byte
+}
+
+func NewStringWriter() *StringWriter {
+	return &StringWriter{}
+}
+
+func (w *StringWriter) Write(p []byte) (int, error) {
+	w.builder = append(w.builder, p...)
+	return len(p), nil
+}
+
+func (w *StringWriter) String() string {
+	return string(w.builder)
+}
+```
+
+---
+
+## Exercise 2: Error Handling Patterns
+
+**Problem:**
+Implement a custom error type with context and a sentinel error for comparison.
+
+**Hint:** Implement the `error` interface and use `errors.Is` / `errors.As` for matching.
+
+```go
+package main
+
+import (
+	"errors"
+	"fmt"
+)
+
+var ErrNotFound = errors.New("not found")
+
+type ValidationError struct {
+	Field   string
+	Message string
+}
+
+func (e *ValidationError) Error() string {
+	return fmt.Sprintf("validation error on field %q: %s", e.Field, e.Message)
+}
+
+func ValidateAge(age int) error {
+	if age < 0 {
+		return &ValidationError{Field: "age", Message: "must be non-negative"}
+	}
+	if age > 150 {
+		return fmt.Errorf("%w: age %d unreasonable", ErrNotFound, age)
+	}
+	return nil
+}
+```
+
+---
+
+## Exercise 3: Type Assertion
+
+**Problem:**
+Write a function that accepts an `interface{}` and performs type assertion to handle `string`, `int`, and `bool` values.
+
+**Hint:** Use comma-ok idiom `v, ok := x.(Type)` for safe assertion.
+
+```go
+package main
+
+import "fmt"
+
+func DescribeValue(val interface{}) string {
+	switch v := val.(type) {
+	case string:
+		return "string: " + v
+	case int:
+		return fmt.Sprintf("int: %d", v)
+	case bool:
+		if v {
+			return "bool: true"
+		}
+		return "bool: false"
+	default:
+		return fmt.Sprintf("unknown type %T", v)
+	}
+}
+
+func SafeAssert(val interface{}) (string, bool) {
+	s, ok := val.(string)
+	return s, ok
+}
+```
+
+---
+
+## Exercise 4: Interface Composition
+
+**Problem:**
+Compose smaller interfaces (`Reader`, `Closer`) into a larger `ReadCloser` interface.
+
+**Hint:** Go interfaces are satisfied implicitly; composition is done via embedding.
+
+```go
+package main
+
+import "io"
+
+type Reader interface {
+	Read(p []byte) (n int, err error)
+}
+
+type Closer interface {
+	Close() error
+}
+
+type ReadCloser interface {
+	Reader
+	Closer
+}
+
+type NetworkConn struct {
+	data   []byte
+	pos    int
+	closed bool
+}
+
+func (c *NetworkConn) Read(p []byte) (int, error) {
+	if c.closed {
+		return 0, io.ErrClosedPipe
+	}
+	if c.pos >= len(c.data) {
+		return 0, io.EOF
+	}
+	n := copy(p, c.data[c.pos:])
+	c.pos += n
+	return n, nil
+}
+
+func (c *NetworkConn) Close() error {
+	c.closed = true
+	return nil
+}
+```
+
+---
+
+## Exercise 5: Dependency Injection
+
+**Problem:**
+Design a service that depends on a `Logger` interface, allowing different implementations to be injected.
+
+**Hint:** Define the interface, provide concrete implementations, and inject via constructor.
+
+```go
+package main
+
+import "fmt"
+
+type Logger interface {
+	Info(msg string)
+	Error(msg string)
+}
+
+type ConsoleLogger struct{}
+
+func (l *ConsoleLogger) Info(msg string)  { fmt.Println("INFO:", msg) }
+func (l *ConsoleLogger) Error(msg string) { fmt.Println("ERROR:", msg) }
+
+type FileLogger struct {
+	entries []string
+}
+
+func (l *FileLogger) Info(msg string)  { l.entries = append(l.entries, "INFO: "+msg) }
+func (l *FileLogger) Error(msg string) { l.entries = append(l.entries, "ERROR: "+msg) }
+
+type UserService struct {
+	logger Logger
+}
+
+func NewUserService(logger Logger) *UserService {
+	return &UserService{logger: logger}
+}
+
+func (s *UserService) CreateUser(name string) {
+	s.logger.Info("creating user: " + name)
+}
+```

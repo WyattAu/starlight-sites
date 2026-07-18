@@ -1,0 +1,382 @@
+---
+title: "Phoenix Practice"
+description: "Elixir Phoenix framework practice exercises"
+sidebar_position: 50
+---
+
+## Phoenix Practice
+
+5 exercises covering LiveView patterns, PubSub broadcasting, context modules, changeset validation, and channel communication.
+
+---
+
+### Exercise 1: LiveView Patterns
+
+**Problem:** Build a real-time counter with LiveView that displays the current value and supports increment, decrement, and reset. Include a `mount/3` callback and proper event handling with `handle_event/3`.
+
+```elixir
+defmodule MyAppWeb.CounterLive do
+  use MyAppWeb, :live_view
+
+  @impl true
+  def mount(_params, _session, socket) do
+    {:ok, assign(socket, count: 0)}
+  end
+
+  @impl true
+  def render(assigns) do
+    ~H"""
+    <div class="counter-container">
+      <h1>Counter: <%= @count %></h1>
+
+      <div class="buttons">
+        <button phx-click="decrement" class="btn btn-secondary">-</button>
+        <button phx-click="reset" class="btn btn-outline">Reset</button>
+        <button phx-click="increment" class="btn btn-primary">+</button>
+      </div>
+    </div>
+    """
+  end
+
+  @impl true
+  def handle_event("increment", _params, socket) do
+    {:noreply, assign(socket, count: socket.assigns.count + 1)}
+  end
+
+  def handle_event("decrement", _params, socket) do
+    {:noreply, assign(socket, count: socket.assigns.count - 1)}
+  end
+
+  def handle_event("reset", _params, socket) do
+    {:noreply, assign(socket, count: 0)}
+  end
+end
+```
+
+**Solution:** `mount/3` initializes the socket with `count: 0`. `render/1` returns HEEx template with `phx-click` bindings. Each `handle_event/3` clause pattern matches the event name and updates `socket.assigns`. The `~H` sigil enables compile-time template validation. `{:noreply, socket}` prevents sending a message back to the client.
+
+---
+
+### Exercise 2: PubSub Broadcasting
+
+**Problem:** Implement a LiveView that subscribes to a PubSub topic and updates in real time when a broadcast occurs. Include a form that broadcasts new messages to all connected clients.
+
+```elixir
+defmodule MyAppWeb.ChatLive do
+  use MyAppWeb, :live_view
+
+  @topic "chat_room"
+
+  @impl true
+  def mount(_params, _session, socket) do
+    if connected?(socket) do
+      Phoenix.PubSub.subscribe(MyApp.PubSub, @topic)
+    end
+
+    {:ok,
+     socket
+     |> assign(messages: [], new_message: "")}
+  end
+
+  @impl true
+  def render(assigns) do
+    ~H"""
+    <div class="chat-container">
+      <h2>Chat Room</h2>
+
+      <div class="messages" id="messages">
+        <div :for={msg <- @messages} class="message">
+          <strong><%= msg.user %>:</strong> <%= msg.text %>
+          <small><%= msg.timestamp %></small>
+        </div>
+      </div>
+
+      <form phx-submit="send_message">
+        <input
+          type="text"
+          name="message"
+          value={@new_message}
+          placeholder="Type a message..."
+          autocomplete="off"
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    """
+  end
+
+  @impl true
+  def handle_event("send_message", %{"message" => text}, socket) do
+    message = %{
+      user: socket.assigns.current_user.name,
+      text: text,
+      timestamp: NaiveDateTime.utc_now()
+    }
+
+    Phoenix.PubSub.broadcast(MyApp.PubSub, @topic, {:new_message, message})
+
+    {:noreply, assign(socket, new_message: "")}
+  end
+
+  @impl true
+  def handle_info({:new_message, message}, socket) do
+    messages = socket.assigns.messages ++ [message]
+    {:noreply, assign(socket, messages: Enum.take(messages, -50))}
+  end
+end
+```
+
+**Solution:** `connected?(socket)` checks if the LiveView is connected (not SSR). `PubSub.subscribe` listens to the topic. `PubSub.broadcast` sends to all subscribers. `handle_info/2` receives the broadcast and updates the socket. `Enum.take(messages, -50)` keeps only the last 50 messages to prevent unbounded growth.
+
+---
+
+### Exercise 3: Context Module
+
+**Problem:** Implement a context module for a blog that provides a clean API for articles, including listing, creating, updating, and publishing. The context should hide the underlying schema details.
+
+```elixir
+defmodule MyApp.Blog do
+  import Ecto.Query
+
+  alias MyApp.Repo
+  alias MyApp.Blog.Article
+
+  def list_published_articles do
+    Article
+    |> Article.published()
+    |> Article.order_by_newest()
+    |> Repo.all()
+  end
+
+  def get_article!(id), do: Repo.get!(Article, id)
+
+  def get_article_by_slug!(slug) do
+    Repo.get_by!(Article, slug: slug)
+  end
+
+  def create_article(attrs \\ %{}) do
+    %Article{}
+    |> Article.changeset(attrs)
+    |> Repo.insert()
+  end
+
+  def update_article(%Article{} = article, attrs) do
+    article
+    |> Article.changeset(attrs)
+    |> Repo.update()
+  end
+
+  def publish_article(%Article{} = article) do
+    article
+    |> Article.publish_changeset()
+    |> Repo.update()
+  end
+
+  def delete_article(%Article{} = article) do
+    Repo.delete(article)
+  end
+
+  def change_article(%Article{} = article, attrs \\ %{}) do
+    Article.changeset(article, attrs)
+  end
+end
+
+defmodule MyApp.Blog.Article do
+  use Ecto.Schema
+  import Ecto.Changeset
+
+  schema "articles" do
+    field :title, :string
+    field :body, :string
+    field :slug, :string
+    field :status, :string, default: "draft"
+    field :published_at, :naive_datetime
+    belongs_to :user, MyApp.Accounts.User
+
+    timestamps()
+  end
+
+  def changeset(article, attrs) do
+    article
+    |> cast(attrs, [:title, :body, :slug])
+    |> validate_required([:title, :body, :slug])
+    |> validate_length(:title, max: 200)
+    |> unique_constraint(:slug)
+  end
+
+  def publish_changeset(article) do
+    article
+    |> change(status: "published", published_at: NaiveDateTime.utc_now())
+    |> validate_required([:title, :body])
+  end
+
+  def published do
+    from a in __MODULE__,
+      where: a.status == "published" and not is_nil(a.published_at)
+  end
+
+  def order_by_newest(query \\ __MODULE__) do
+    from a in query,
+      order_by: [desc: a.published_at]
+  end
+end
+```
+
+**Solution:** The context module `Blog` provides the public API. All queries go through `Repo`. Schema functions (`published/0`, `order_by_newest/1`) compose in queries. `change_article/2` returns a changeset for form prefilling. The schema separates data concerns from business logic. The context is easily mockable in tests.
+
+---
+
+### Exercise 4: Changeset Validation
+
+**Problem:** Build a registration form changeset with complex validations: password confirmation, terms acceptance, email format, and username constraints. Include custom validators.
+
+```elixir
+defmodule MyApp.Accounts.User do
+  use Ecto.Schema
+  import Ecto.Changeset
+
+  schema "users" do
+    field :email, :string
+    field :username, :string
+    field :password, :string, virtual: true, redact: true
+    field :password_confirmation, :string, virtual: true, redact: true
+    field :hashed_password, :string, redact: true
+    field :terms_accepted, :boolean, default: false
+    field :display_name, :string
+    timestamps()
+  end
+
+  def registration_changeset(user, attrs) do
+    user
+    |> cast(attrs, [:email, :username, :password, :password_confirmation, :terms_accepted, :display_name])
+    |> validate_required([:email, :username, :password, :password_confirmation, :terms_accepted])
+    |> validate_format(:email, ~r/^[^\s]+@[^\s]+$/, message: "must be a valid email address")
+    |> validate_length(:username, min: 3, max: 30)
+    |> validate_format(:username, ~r/^[a-zA-Z0-9_]+$/, message: "can only contain letters, numbers, and underscores")
+    |> validate_length(:password, min: 8, max: 100)
+    |> validate_confirmation(:password)
+    |> validate_acceptance(:terms_accepted, message: "must be accepted to create an account")
+    |> validate_terms()
+    |> validate_display_name()
+    |> unique_constraint(:email)
+    |> unique_constraint(:username)
+    |> hash_password()
+  end
+
+  defp validate_terms(changeset) do
+    if get_change(changeset, :terms_accepted) == true do
+      changeset
+    else
+      add_error(changeset, :terms_accepted, "must be accepted")
+    end
+  end
+
+  defp validate_display_name(changeset) do
+    case get_change(changeset, :display_name) do
+      nil ->
+        changeset
+
+      name when byte_size(name) < 2 ->
+        add_error(changeset, :display_name, "must be at least 2 characters")
+
+      name ->
+        if String.contains?(name, ~w(admin root superuser)) do
+          add_error(changeset, :display_name, "contains a reserved word")
+        else
+          changeset
+        end
+    end
+  end
+
+  defp hash_password(changeset) do
+    case get_change(changeset, :password) do
+      nil -> changeset
+      password ->
+        change(changeset, hashed_password: Bcrypt.hash_pwd_salt(password))
+    end
+  end
+end
+```
+
+**Solution:** Virtual fields (`:password`, `:password_confirmation`) are not persisted. `validate_confirmation` checks password match. `validate_acceptance` requires terms acceptance. Custom validators (`validate_terms`, `validate_display_name`) add business-specific rules. `hash_password` is called only when the password changes. `redact: true` prevents sensitive fields from appearing in logs.
+
+---
+
+### Exercise 5: Channel Communication
+
+**Problem:** Implement a Phoenix Channel for real-time presence tracking. The channel should handle user joins, track online users, broadcast presence updates, and handle disconnections.
+
+```elixir
+defmodule MyAppWeb.PresenceChannel do
+  use Phoenix.Channel
+
+  alias MyApp.Presence
+
+  @impl true
+  def join("presence:lobby", %{"user_id" => user_id}, socket) do
+    send(self(), :after_join)
+    {:ok, assign(socket, user_id: user_id)}
+  end
+
+  def join(_topic, _params, _socket) do
+    {:error, %{reason: "unauthorized"}}
+  end
+
+  @impl true
+  def handle_info(:after_join, socket) do
+    {:ok, _} =
+      Presence.track(socket, socket.assigns.user_id, %{
+        joined_at: System.system_time(:second),
+        username: get_username(socket.assigns.user_id)
+      })
+
+    push(socket, "presence_state", Presence.list(socket))
+    {:noreply, socket}
+  end
+
+  @impl true
+  def handle_in("message:new", %{"text" => text}, socket) do
+    broadcast!(socket, "message:new", %{
+      user_id: socket.assigns.user_id,
+      text: text,
+      timestamp: System.system_time(:second)
+    })
+
+    {:reply, :ok, socket}
+  end
+
+  def handle_in("typing", %{"typing" => typing}, socket) do
+    broadcast_from!(socket, "typing", %{
+      user_id: socket.assigns.user_id,
+      typing: typing
+    })
+
+    {:noreply, socket}
+  end
+
+  def handle_in("message:react", %{"message_id" => msg_id, "emoji" => emoji}, socket) do
+    broadcast!(socket, "message:reacted", %{
+      message_id: msg_id,
+      user_id: socket.assigns.user_id,
+      emoji: emoji
+    })
+
+    {:noreply, socket}
+  end
+
+  defp get_username(user_id) do
+    case MyApp.Accounts.get_user(user_id) do
+      nil -> "Unknown"
+      user -> user.username
+    end
+  end
+end
+
+defmodule MyApp.Presence do
+  use Phoenix.Presence,
+    otp_app: :my_app,
+    pubsub_server: MyApp.PubSub
+end
+```
+
+**Solution:** `join/3` authenticates and stores the user ID in the socket. `Presence.track` registers the user with metadata. `handle_info(:after_join)` runs after join completes. `broadcast!` sends to all subscribers. `broadcast_from!` sends to all except the sender (used for typing indicators). `Presence.list` returns all tracked presences. The Presence module is configured via `use Phoenix.Presence`.

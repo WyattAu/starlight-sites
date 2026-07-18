@@ -1,46 +1,289 @@
 ---
-title: Java OOP Practice (Interactive)
-tags:
-  - java
-description: "8 auto-graded practice problems covering Java OOP concepts. Select an answer, su Comprehensive educational content coverage with definitions and practice proble"
+title: "OOP Practice"
+description: "Java object-oriented programming practice exercises"
+sidebar_position: 50
 ---
 
-import PracticeProblem from "@components/PracticeProblem";
+# OOP Practice
 
+## Exercise 1: Observer Pattern
 
-## Java — OOP Practice
+**Problem:**
+Implement the Observer pattern where subjects notify observers of state changes.
 
-8 auto-graded practice problems covering Java OOP concepts. Select an answer, submit, and review the
-explanation.
+**Hint:** Maintain a list of observers in the subject and call `update` on each when state changes.
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+interface Observer {
+    void update(String message);
+}
+
+class NewsAgency {
+    private final List<Observer> observers = new ArrayList<>();
+    private String news;
+
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
+
+    public void setNews(String news) {
+        this.news = news;
+        notifyObservers();
+    }
+
+    private void notifyObservers() {
+        for (Observer observer : observers) {
+            observer.update(news);
+        }
+    }
+}
+
+class NewsChannel implements Observer {
+    private final String name;
+
+    public NewsChannel(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void update(String message) {
+        System.out.println(name + " received: " + message);
+    }
+}
+```
 
 ---
 
-### Classes
+## Exercise 2: Factory Pattern
 
-<PracticeProblem client:only="solid-js" question='Given `class Animal { void speak() { System.out.println("..."); } }` and `class Dog extends Animal { void speak() { System.out.println("Woof"); } }`, what does `((Animal) new Dog()).speak()` print?' options={['\"Woof\"', '\"...\"', 'Compilation error', 'ClassCastException']} correctAnswer={0} explanation='Java uses dynamic dispatch for instance methods. Even though the reference type is `Animal`, the actual object is a `Dog`. At runtime, Java calls `Dog`&apos;s overridden `speak()` method, printing "Woof". This is polymorphism in action.' difficulty="easy"  />
+**Problem:**
+Implement a Factory pattern that creates different shapes based on input.
 
-<PracticeProblem client:only="solid-js" question={"What is the output of `System.out.println(new int[]{1,2,3}.length)`?&quot; options={['3', 'Compilation error', 'length() not defined', 'undefined']} correctAnswer={0} explanation=&quot;Arrays in Java have a `length` property (not a method — no parentheses). For `int[]{1,2,3}`, the length is 3. Note: this is different from `String.length()` which is a method."} difficulty="easy"  />
+**Hint:** Define a common interface, implement concrete classes, and a factory method to instantiate them.
+
+```java
+interface Shape {
+    double area();
+    String getType();
+}
+
+class Circle implements Shape {
+    private final double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double area() {
+        return Math.PI * radius * radius;
+    }
+
+    @Override
+    public String getType() {
+        return "Circle";
+    }
+}
+
+class Rectangle implements Shape {
+    private final double width;
+    private final double height;
+
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public double area() {
+        return width * height;
+    }
+
+    @Override
+    public String getType() {
+        return "Rectangle";
+    }
+}
+
+class ShapeFactory {
+    public static Shape create(String type, double... dimensions) {
+        return switch (type.toLowerCase()) {
+            case "circle" -> new Circle(dimensions[0]);
+            case "rectangle" -> new Rectangle(dimensions[0], dimensions[1]);
+            default -> throw new IllegalArgumentException("Unknown shape: " + type);
+        };
+    }
+}
+```
 
 ---
 
-### Interfaces
+## Exercise 3: Inheritance Hierarchy
 
-<PracticeProblem client:only="solid-js" question={"In Java 8+, can an interface have a method with a body?&quot; options={[ 'Yes, using the `default` keyword', 'No, interface methods must always be abstract', 'Yes, but only static methods', 'Only in abstract classes', ]} correctAnswer={0} explanation=&quot;Since Java 8, interfaces can have `default` methods with implementations. This allows adding new methods to existing interfaces without breaking implementing classes. Interfaces can also have `static` methods with bodies."} difficulty="easy"  />
+**Problem:**
+Design an animal hierarchy where `Animal` is the base class, with `Dog` and `Cat` subclasses overriding behavior.
 
-<PracticeProblem client:only="solid-js" question={"Which of the following is a valid functional interface?&quot; options={[ 'interface Printer { void print(String s); }', 'interface Printer { void print(String s); void close(); }', 'interface Printer { String toString(); }', 'abstract class Printer { abstract void print(); }', ]} correctAnswer={0} explanation=&quot;A functional interface has exactly one abstract method. `interface Printer { void print(String s); }` has one abstract method and qualifies. The second option has two abstract methods. The third has zero (it inherits `toString` from Object). The fourth is an abstract class, not an interface."} difficulty="medium"  />
+**Hint:** Use `extends` and `@Override` annotations.
+
+```java
+abstract class Animal {
+    protected final String name;
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public abstract String sound();
+
+    public String describe() {
+        return name + " says " + sound();
+    }
+}
+
+class Dog extends Animal {
+    public Dog(String name) {
+        super(name);
+    }
+
+    @Override
+    public String sound() {
+        return "Woof";
+    }
+
+    public String fetch(String item) {
+        return name + " fetches the " + item;
+    }
+}
+
+class Cat extends Animal {
+    public Cat(String name) {
+        super(name);
+    }
+
+    @Override
+    public String sound() {
+        return "Meow";
+    }
+
+    public String scratch() {
+        return name + " scratches the furniture";
+    }
+}
+```
 
 ---
 
-### Generics
+## Exercise 4: Interface Implementation
 
-<PracticeProblem client:only="solid-js" question={"What does `<T extends Number>` mean in a generic class declaration?&quot; options={[ 'T must be Number or a subclass of Number', 'T must be exactly Number', 'T can be any type that Number extends', 'T must implement the Number interface', ]} correctAnswer={0} explanation=&quot;The `extends` keyword in generics specifies an upper bound. `<T extends Number>` means T can be `Number` or any subclass (`Integer`, `Double`, etc.). This allows the generic code to call methods defined in `Number` like `intValue()` or `doubleValue()`."} difficulty="medium"  />
+**Problem:**
+Define a `Payable` interface and implement it in `Employee` and `Invoice` classes.
 
-<PracticeProblem client:only="solid-js" question={"What is the difference between `List<?>` and `List<Object>`?&quot; options={[ 'List<?> can hold any type; List<Object> can only hold Object references', 'They are identical', 'List<?> cannot hold any elements', 'List<Object> is more permissive than List<?>', ]} correctAnswer={0} explanation=&quot;`List<?>` is a wildcard type that can reference a list of any specific type but you cannot add elements (except null). `List<Object>` specifically means a list that can hold any Object. You can add any Object to `List<Object>` but not to `List<?>`. They are not the same."} difficulty="hard"  />
+**Hint:** Interfaces define a contract; each implementing class provides its own logic for `getAmount`.
+
+```java
+interface Payable {
+    double getAmount();
+    String getDescription();
+}
+
+class Employee implements Payable {
+    private final String name;
+    private final double salary;
+
+    public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
+    @Override
+    public double getAmount() {
+        return salary;
+    }
+
+    @Override
+    public String getDescription() {
+        return "Salary for " + name;
+    }
+}
+
+class Invoice implements Payable {
+    private final String invoiceNumber;
+    private final double amount;
+
+    public Invoice(String invoiceNumber, double amount) {
+        this.invoiceNumber = invoiceNumber;
+        this.amount = amount;
+    }
+
+    @Override
+    public double getAmount() {
+        return amount;
+    }
+
+    @Override
+    public String getDescription() {
+        return "Invoice " + invoiceNumber;
+    }
+}
+```
 
 ---
 
-### Collections
+## Exercise 5: Generics
 
-<PracticeProblem client:only="solid-js" question={"What does `List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5); nums.stream().filter(n -> n % 2 == 0).map(n -> n * n).collect(Collectors.toList())` return?&quot; options={['[4, 16]', '[2, 4]', '[1, 9, 25]', '[4]']} correctAnswer={0} explanation=&quot;The stream filters for even numbers (2, 4), then squares them (4, 16), then collects to a list: `[4, 16]`. `filter` keeps elements matching the predicate, `map` transforms each element, and `collect` gathers results into a list."} difficulty="medium"  />
+**Problem:**
+Implement a generic `Pair<T, U>` class that holds two values and a generic `Box<T>` with a value and a map method.
 
-<PracticeProblem client:only="solid-js" question='What does `Optional.ofNullable(null).orElse("default")` return?' options={['\"default\"', 'null', 'Optional[default]', 'NoSuchElementException']} correctAnswer={0} explanation='`Optional.ofNullable(null)` creates an empty Optional. `orElse("default")` returns the provided default value when the Optional is empty. So the result is the string "default".' difficulty="easy"  />
+**Hint:** Use type parameters with appropriate bounds where needed.
+
+```java
+class Pair<T, U> {
+    private final T first;
+    private final U second;
+
+    public Pair(T first, U second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    public T getFirst() {
+        return first;
+    }
+
+    public U getSecond() {
+        return second;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + first + ", " + second + ")";
+    }
+}
+
+class Box<T> {
+    private T value;
+
+    public Box(T value) {
+        this.value = value;
+    }
+
+    public T getValue() {
+        return value;
+    }
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    public <U> Box<U> map(java.util.function.Function<T, U> mapper) {
+        return new Box<>(mapper.apply(value));
+    }
+}
+```

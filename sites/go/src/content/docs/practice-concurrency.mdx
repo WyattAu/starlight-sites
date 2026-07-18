@@ -1,0 +1,230 @@
+---
+title: "Concurrency Practice"
+description: "Go concurrency practice exercises"
+sidebar_position: 50
+---
+
+# Concurrency Practice
+
+## Exercise 1: Goroutine Pool
+
+**Problem:**
+Implement a worker pool that processes jobs concurrently with a fixed number of goroutines.
+
+**Hint:** Use a channel for jobs and a WaitGroup to wait for completion.
+
+```go
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func worker(id int, jobs <-chan int, wg *sync.WaitGroup) {
+	defer wg.Done()
+	for job := range jobs {
+		fmt.Printf("Worker %d processed job %d\n", id, job)
+	}
+}
+
+func RunWorkerPool(numWorkers, numJobs int) {
+	jobs := make(chan int, numJobs)
+	var wg sync.WaitGroup
+
+	for i := 1; i <= numWorkers; i++ {
+		wg.Add(1)
+		go worker(i, jobs, &wg)
+	}
+
+	for j := 1; j <= numJobs; j++ {
+		jobs <- j
+	}
+	close(jobs)
+	wg.Wait()
+}
+```
+
+---
+
+## Exercise 2: Channel Pipeline
+
+**Problem:**
+Build a pipeline that generates numbers, squares them, and collects results using channels.
+
+**Hint:** Each stage is a goroutine that reads from an input channel and writes to an output channel.
+
+```go
+package main
+
+func generator(nums ...int) <-chan int {
+	out := make(chan int)
+	go func() {
+		for _, n := range nums {
+			out <- n
+		}
+		close(out)
+	}()
+	return out
+}
+
+func square(in <-chan int) <-chan int {
+	out := make(chan int)
+	go func() {
+		for n := range in {
+			out <- n * n
+		}
+		close(out)
+	}()
+	return out
+}
+
+func collect(in <-chan int) []int {
+	var results []int
+	for n := range in {
+		results = append(results, n)
+	}
+	return results
+}
+```
+
+---
+
+## Exercise 3: Fan-Out Fan-In
+
+**Problem:**
+Implement fan-out (multiple workers reading from one channel) and fan-in (merging multiple channels into one).
+
+**Hint:** Use a merge function that spawns goroutines to forward from each input channel.
+
+```go
+package main
+
+import "sync"
+
+func fanOut(input <-chan int, numWorkers int) []<-chan int {
+	outputs := make([]<-chan int, numWorkers)
+	for i := 0; i < numWorkers; i++ {
+		outputs[i] = process(input)
+	}
+	return outputs
+}
+
+func process(input <-chan int) <-chan int {
+	out := make(chan int)
+	go func() {
+		for n := range input {
+			out <- n * 2
+		}
+		close(out)
+	}()
+	return out
+}
+
+func fanIn(channels ...<-chan int) <-chan int {
+	var wg sync.WaitGroup
+	merged := make(chan int)
+
+	for _, ch := range channels {
+		wg.Add(1)
+		go func(c <-chan int) {
+			defer wg.Done()
+			for v := range c {
+				merged <- v
+			}
+		}(ch)
+	}
+
+	go func() {
+		wg.Wait()
+		close(merged)
+	}()
+
+	return merged
+}
+```
+
+---
+
+## Exercise 4: Context Cancellation
+
+**Problem:**
+Use `context.Context` to cancel a long-running goroutine gracefully.
+
+**Hint:** Pass context to goroutines and select on `ctx.Done()`.
+
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"time"
+)
+
+func longTask(ctx context.Context) <-chan string {
+	result := make(chan string)
+	go func() {
+		defer close(result)
+		for i := 0; ; i++ {
+			select {
+			case <-ctx.Done():
+				return
+			case result <- fmt.Sprintf("step %d", i):
+				time.Sleep(100 * time.Millisecond)
+			}
+		}
+	}()
+	return result
+}
+
+func RunWithContext(timeout time.Duration) {
+	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	defer cancel()
+
+	for msg := range longTask(ctx) {
+		fmt.Println(msg)
+	}
+	fmt.Println("cancelled")
+}
+```
+
+---
+
+## Exercise 5: sync.Map Usage
+
+**Problem:**
+Implement a concurrent cache using `sync.Map` for high-contention scenarios.
+
+**Hint:** Use `Store`, `Load`, and `LoadOrStore` methods.
+
+```go
+package main
+
+import "sync"
+
+type ConcurrentCache struct {
+	items sync.Map
+}
+
+func NewCache() *ConcurrentCache {
+	return &ConcurrentCache{}
+}
+
+func (c *ConcurrentCache) Set(key string, value interface{}) {
+	c.items.Store(key, value)
+}
+
+func (c *ConcurrentCache) Get(key string) (interface{}, bool) {
+	return c.items.Load(key)
+}
+
+func (c *ConcurrentCache) GetOrSet(key string, value interface{}) interface{} {
+	actual, _ := c.items.LoadOrStore(key, value)
+	return actual
+}
+
+func (c *ConcurrentCache) Delete(key string) {
+	c.items.Delete(key)
+}
+```

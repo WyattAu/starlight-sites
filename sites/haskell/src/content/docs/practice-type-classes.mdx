@@ -1,0 +1,288 @@
+---
+title: "Type Classes Practice"
+description: "Haskell type class practice exercises"
+sidebar_position: 50
+---
+
+## Type Classes Practice
+
+5 exercises covering custom type classes, Functor/Applicative/Monad, monad transformers, type families, and GADTs.
+
+---
+
+### Exercise 1: Custom Type Classes
+
+**Problem:** Define a `Describable` type class with a `describe` method. Implement it for three types: `Color`, `Shape`, and `Priority`. Then write a function that takes any `Describable` value and returns a formatted description string.
+
+```haskell
+{-# LANGUAGE DeriveGeneric #-}
+
+class Describable a where
+  describe :: a -> String
+  category :: a -> String
+  category _ = "general"
+
+data Color = Red | Green | Blue
+  deriving (Show, Eq, Generic)
+
+data Shape = Circle Double | Rectangle Double Double
+  deriving (Show, Eq, Generic)
+
+data Priority = Low | Medium | High
+  deriving (Show, Eq, Generic)
+
+instance Describable Color where
+  describe Red   = "A warm, bold color"
+  describe Green = "A natural, calming color"
+  describe Blue  = "A cool, professional color"
+  category _     = "color"
+
+instance Describable Shape where
+  describe (Circle r)      = "A circle with radius " ++ show r
+  describe (Rectangle w h) = "A rectangle " ++ show w ++ " by " ++ show h
+  category _               = "geometry"
+
+instance Describable Priority where
+  describe Low    = "Can be deferred"
+  describe Medium = "Should be addressed soon"
+  describe High   = "Requires immediate attention"
+  category _      = "urgency"
+
+formatDescription :: Describable a => a -> String
+formatDescription x =
+  "[" ++ category x ++ "] " ++ describe x
+```
+
+**Solution:** The `Describable` class defines two methods: `describe` (required) and `category` (with a default implementation). Each instance provides type-specific behavior. `formatDescription` is polymorphic over any `Describable` type. The `Generic` derive is included for potential future use with serialization.
+
+---
+
+### Exercise 2: Functor, Applicative, Monad
+
+**Problem:** Implement `Functor`, `Applicative`, and `Monad` instances for a custom `Validation` type that accumulates errors instead of short-circuiting. Demonstrate that it differs from `Either` behavior.
+
+```haskell
+data Validation e a
+  = Failure e
+  | Success a
+  deriving (Show, Eq)
+
+instance Functor (Validation e) where
+  fmap _ (Failure e) = Failure e
+  fmap f (Success a) = Success (f a)
+
+instance Semigroup e => Applicative (Validation e) where
+  pure = Success
+  Failure e1 <*> Failure e2 = Failure (e1 <> e2)
+  Failure e  <*> Success _  = Failure e
+  Success _  <*> Failure e  = Failure e
+  Success f  <*> Success a  = Success (f a)
+
+instance Semigroup e => Monad (Validation e) where
+  Failure e >>= _ = Failure e
+  Success a >>= f = f a
+
+validateAge :: Int -> Validation [String] Int
+validateAge age
+  | age < 0   = Failure ["Age cannot be negative"]
+  | age > 150 = Failure ["Age seems unrealistic"]
+  | otherwise = Success age
+
+validateEmail :: String -> Validation [String] String
+validateEmail email
+  | null email        = Failure ["Email cannot be empty"]
+  | '@' `notElem` email = Failure ["Email must contain @"]
+  | otherwise         = Success email
+
+data UserForm = UserForm
+  { ufAge   :: Int
+  , ufEmail :: String
+  } deriving (Show)
+
+validateUserForm :: Int -> String -> Validation [String] UserForm
+validateUserForm age email =
+  UserForm <$> validateAge age <*> validateEmail email
+```
+
+**Solution:** `Functor` maps over the `Success` case. `Applicative` combines failures using `<>` (the `Semigroup` constraint), accumulating all errors. `Monad` is the same as `Either` (short-circuiting on `Failure`), which demonstrates a known limitation: `Monad` cannot accumulate errors. Use `Applicative` for validation to get error accumulation. `validateUserForm` combines two validations.
+
+---
+
+### Exercise 3: Monad Transformers
+
+**Problem:** Build a program that uses `ReaderT` for configuration, `ExceptT` for error handling, and `IO` for side effects. The program reads a config, validates input, and performs an I/O action.
+
+```haskell
+import Control.Monad.Except
+import Control.Monad.Reader
+import Control.Monad.IO.Class
+
+data Config = Config
+  { cfgDatabaseUrl :: String
+  , cfgMaxRetries  :: Int
+  , cfgDebug       :: Bool
+  } deriving (Show)
+
+data AppError
+  = ConfigError String
+  | ValidationError String
+  | IOError String
+  deriving (Show)
+
+type AppM a = ReaderT Config (ExceptT AppError IO) a
+
+getConfig :: AppM Config
+getConfig = ask
+
+logDebug :: String -> AppM ()
+logDebug msg = do
+  cfg <- ask
+  when (cfgDebug cfg) $ liftIO $ putStrLn $ "[DEBUG] " ++ msg
+
+validateDatabaseUrl :: String -> AppM ()
+validateDatabaseUrl url
+  | null url = throwError $ ConfigError "Database URL is empty"
+  | not (":" `isInfixOf` url) = throwError $ ConfigError "Invalid database URL format"
+  | otherwise = logDebug $ "Database URL validated: " ++ url
+
+fetchData :: String -> AppM String
+fetchData url = do
+  logDebug $ "Fetching data from " ++ url
+  cfg <- ask
+  result <- liftIO $ tryFetch cfgMaxRetries url
+  case result of
+    Nothing -> throwError $ IOError "Failed to fetch data after retries"
+    Just data -> return data
+
+tryFetch :: Int -> String -> IO (Maybe String)
+tryFetch 0 _ = return Nothing
+tryFetch n url = do
+  putStrLn $ "Attempt " ++ show (cfgMaxRetries - n + 1) ++ " for " ++ url
+  return $ Just "sample data"
+
+runApp :: Config -> AppM a -> IO (Either AppError a)
+runApp cfg app = runExceptT $ runReaderT app cfg
+
+main :: IO ()
+main = do
+  let config = Config
+        { cfgDatabaseUrl = "postgres://localhost/mydb"
+        , cfgMaxRetries  = 3
+        , cfgDebug       = True
+        }
+
+  result <- runApp config $ do
+    cfg <- getConfig
+    validateDatabaseUrl (cfgDatabaseUrl cfg)
+    data <- fetchData (cfgDatabaseUrl cfg)
+    return data
+
+  case result of
+    Left err -> putStrLn $ "Error: " ++ show err
+    Right d  -> putStrLn $ "Success: " ++ show d
+```
+
+**Solution:** `ReaderT Config` provides read-only access to configuration. `ExceptT AppError` handles errors without exceptions. `IO` performs side effects. `liftIO` lifts IO actions into the transformer stack. `ask` reads the config. `throwError` signals an error. The `runApp` function runs the full stack. `when` conditionally executes based on the debug flag.
+
+---
+
+### Exercise 4: Type Families
+
+**Problem:** Define a type family `Element` that maps a container type to its element type. Implement it for `List`, `Maybe`, and a custom `Pair` type. Write a generic function that works with any container that has an `Element` type family instance.
+
+```haskell
+{-# LANGUAGE TypeFamilies #-}
+
+class Container c where
+  type Element c
+  empty    :: c
+  insert   :: Element c -> c -> c
+  toList   :: c -> [Element c]
+
+data List a = Nil | Cons a (List a)
+  deriving (Show, Eq)
+
+instance Container (List a) where
+  type Element (List a) = a
+  empty = Nil
+  insert x xs = Cons x xs
+  toList Nil         = []
+  toList (Cons x xs) = x : toList xs
+
+instance Container (Maybe a) where
+  type Element (Maybe a) = a
+  empty = Nothing
+  insert x _ = Just x
+  toList Nothing  = []
+  toList (Just x) = [x]
+
+data Pair a = Pair a a
+  deriving (Show, Eq)
+
+instance Container (Pair a) where
+  type Element (Pair a) = a
+  empty = error "No empty Pair"
+  insert x (Pair _ _) = Pair x x
+  toList (Pair a b) = [a, b]
+
+sumContainer :: (Container c, Num (Element c)) => c -> Element c
+sumContainer c = foldr (+) (head (toList c)) (tail (toList c))
+
+filterContainer :: Container c => (Element c -> Bool) -> c -> c
+filterContainer pred c =
+  foldr (\x acc -> if pred x then insert x acc else acc) empty (toList c)
+```
+
+**Solution:** The `Element` type family associates each container type with its element type. `Container` provides a uniform interface: `empty`, `insert`, `toList`. `sumContainer` works with any `Container` whose elements are `Num`. `filterContainer` preserves the container type while filtering elements. Type families enable more expressive type-level programming than simple type classes.
+
+---
+
+### Exercise 5: GADTs
+
+**Problem:** Define a GADT `Expr a` that represents a simple expression language. Each constructor returns a different type, allowing the type checker to enforce that only valid operations are performed on expressions.
+
+```haskell
+{-# LANGUAGE GADTs #-}
+{-# LANGUAGE DataKinds #-}
+
+data Expr a where
+  LitInt  :: Int -> Expr Int
+  LitBool :: Bool -> Expr Bool
+  Add     :: Expr Int -> Expr Int -> Expr Int
+  Mul     :: Expr Int -> Expr Int -> Expr Int
+  And     :: Expr Bool -> Expr Bool -> Expr Bool
+  If      :: Expr Bool -> Expr a -> Expr a -> Expr a
+  Equal   :: (Eq a) => Expr a -> Expr a -> Expr Bool
+  Not     :: Expr Bool -> Expr Bool
+
+eval :: Expr a -> a
+eval (LitInt n)    = n
+eval (LitBool b)   = b
+eval (Add x y)     = eval x + eval y
+eval (Mul x y)     = eval x * eval y
+eval (And x y)     = eval x && eval y
+eval (If c t f)    = if eval c then eval t else eval f
+eval (Equal x y)   = eval x == eval y
+eval (Not b)       = not (eval b)
+
+typeCheck :: Expr a -> String
+typeCheck (LitInt _)    = "Int"
+typeCheck (LitBool _)   = "Bool"
+typeCheck (Add _ _)     = "Int"
+typeCheck (Mul _ _)     = "Int"
+typeCheck (And _ _)     = "Bool"
+typeCheck (If _ t _)    = "Result: " ++ typeCheck t
+typeCheck (Equal _ _)   = "Bool"
+typeCheck (Not _)       = "Bool"
+
+example1 :: Int
+example1 = eval (Add (LitInt 3) (Mul (LitInt 2) (LitInt 4)))
+
+example2 :: Bool
+example2 = eval (And (LitBool True) (Not (LitBool False)))
+
+example3 :: Int
+example3 = eval (If (Equal (LitInt 5) (LitInt 5)) (LitInt 10) (LitInt 20))
+```
+
+**Solution:** The GADT syntax `Expr a where` gives each constructor a specific return type. `Add :: Expr Int -> Expr Int -> Expr Int` ensures you cannot add booleans. The type checker rejects expressions like `Add (LitBool True) (LitInt 1)` at compile time. `eval` pattern matches and returns the correct type for each constructor. `If` is polymorphic in `a`, allowing any expression type in both branches.

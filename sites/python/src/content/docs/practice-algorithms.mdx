@@ -1,0 +1,152 @@
+---
+title: "Algorithm Practice"
+description: "Python algorithm practice exercises"
+sidebar_position: 50
+---
+
+# Algorithm Practice
+
+## Exercise 1: Binary Search
+
+**Problem:**
+Implement binary search on a sorted list. Return the index of the target element, or -1 if not found.
+
+**Hint:** Use two pointers to narrow the search range by half each iteration.
+
+```python
+def binary_search(arr: list[int], target: int) -> int:
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = left + (right - left) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+```
+
+---
+
+## Exercise 2: Merge Sort
+
+**Problem:**
+Implement merge sort to sort a list of integers in ascending order.
+
+**Hint:** Recursively split the list into halves, then merge the sorted halves.
+
+```python
+def merge_sort(arr: list[int]) -> list[int]:
+    if len(arr) <= 1:
+        return arr
+
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+
+    return merge(left, right)
+
+
+def merge(left: list[int], right: list[int]) -> list[int]:
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+```
+
+---
+
+## Exercise 3: Graph BFS
+
+**Problem:**
+Implement breadth-first search on a graph represented as an adjacency list. Return the list of visited nodes in order.
+
+**Hint:** Use a queue and a visited set to track traversal.
+
+```python
+from collections import deque
+
+def bfs(graph: dict[int, list[int]], start: int) -> list[int]:
+    visited = set()
+    queue = deque([start])
+    visited.add(start)
+    order = []
+
+    while queue:
+        node = queue.popleft()
+        order.append(node)
+        for neighbor in graph[node]:
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+    return order
+```
+
+---
+
+## Exercise 4: Dynamic Programming - Knapsack
+
+**Problem:**
+Solve the 0/1 knapsack problem. Given items with weights and values, and a capacity, return the maximum value achievable.
+
+**Hint:** Build a 2D table where `dp[i][w]` represents the best value using items 0..i-1 with capacity w.
+
+```python
+def knapsack(weights: list[int], values: list[int], capacity: int) -> int:
+    n = len(weights)
+    dp = [[0] * (capacity + 1) for _ in range(n + 1)]
+
+    for i in range(1, n + 1):
+        for w in range(capacity + 1):
+            dp[i][w] = dp[i - 1][w]
+            if weights[i - 1] <= w:
+                include = dp[i - 1][w - weights[i - 1]] + values[i - 1]
+                dp[i][w] = max(dp[i][w], include)
+
+    return dp[n][capacity]
+```
+
+---
+
+## Exercise 5: String Pattern Matching (KMP)
+
+**Problem:**
+Implement the Knuth-Morris-Pratt algorithm to find all occurrences of a pattern in a text.
+
+**Hint:** Precompute a failure function (partial match table) to avoid redundant comparisons.
+
+```python
+def kmp_search(text: str, pattern: str) -> list[int]:
+    def build_failure(p: str) -> list[int]:
+        failure = [0] * len(p)
+        j = 0
+        for i in range(1, len(p)):
+            while j > 0 and p[i] != p[j]:
+                j = failure[j - 1]
+            if p[i] == p[j]:
+                j += 1
+            failure[i] = j
+        return failure
+
+    failure = build_failure(pattern)
+    results = []
+    j = 0
+    for i in range(len(text)):
+        while j > 0 and text[i] != pattern[j]:
+            j = failure[j - 1]
+        if text[i] == pattern[j]:
+            j += 1
+        if j == len(pattern):
+            results.append(i - j + 1)
+            j = failure[j - 1]
+    return results
+```
